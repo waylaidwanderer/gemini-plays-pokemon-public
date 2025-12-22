@@ -9,14 +9,12 @@
 - GRASS: May trigger wild encounters.
 - MART_SHELF: Impassable. Acts as WALL.
 - COUNTER: Impassable. Acts as WALL. Interact with NPCs behind counters from an adjacent tile.
-- ELEVATOR: Warp tile.
+- ELEVATOR: Untested warp tile. Buttons at (3, 0) on 5F/4F were non-functional on Turn #11355/11370.
 
 # Strategy: Tin Tower Investigation
-- Primary Goal: Investigate the Tin Tower in Ecruteak City.
 - Mission Start: Turn #11243.
 - Shopping Start: Turn #11330.
 - Method: Travel to Ecruteak City and find the Tin Tower via Route 35, 36, and 37.
-- Tactical: Use the Clear Bell at the Tin Tower. Purchase ~30 Ultra Balls at Goldenrod Dept. Store.
 - Strategist Advice (Turn #11374):
     - Lead with Calcifer (Typhlosion).
     - Use Smokescreen multiple times to reduce Suicune's accuracy.
@@ -29,7 +27,7 @@
 - Lead: Calcifer (Typhlosion Lv44).
 - Moves: Smokescreen (reduce accuracy), Flame Wheel/Headbutt (chip damage).
 - Status: Switch to KIMCHI (Gloom Lv21) for Sleep Powder once HP is red.
-- Item Requirements: ~20 Ultra Balls.
+- Item Requirements: ~30 Ultra Balls.
 - PP Prep: Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer) before the fight.
 - Risk: GNEISS (Graveler) is 4x weak to Water. Avoid leading with him.
 
@@ -59,8 +57,9 @@
 - Goldenrod Dept Store 5F: Receptionist (7, 5) gives TM27 (Return) if friendship is high.
 - Clerk (8, 5) sells TM41 (ThunderPunch), TM48 (FirePunch), TM33 (IcePunch) for 3000, TM02 (Headbutt) for 2000, TM08 (Rock Smash) for 1000.
 - Cooltrainer M (6, 3) wants to trade ABRA for MACHOP.
-- Goldenrod Dept Store 3F: Battle Collection. Clerk (6, 1) sells battle items (X Attack, etc.). Directory says "3F BATTLE COLLECTION / For Victory Seekers".
-- Goldenrod Dept Store 4F: Medicine Box. Clerk (13, 5) sells Protein, Iron, Carbos, Calcium for 9800 each. Directory says "Let Us Pump Up Your POKéMON!". (Stat items).
+- Goldenrod Dept Store 4F: Medicine Box. Clerk (13, 5) sells Protein, Iron, Carbos, Calcium for 9800 each.
+- Goldenrod Dept Store 3F: Battle Collection. Clerk (6, 1) sells battle items (X Attack, X Defend, X Speed, X Special, X Accuracy, Guard Spec., Dire Hit).
+- Goldenrod Dept Store 2F: Trainer's Market. Clerk (13, 5) sells Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
 
 # General Lessons
 - Lesson: Interact with switches, slots, and interactive objects from BELOW (facing UP) whenever possible.
@@ -68,6 +67,3 @@
 # Error Log
 - Turn #11355, #11370: Attempted to interact with elevator buttons on 5F and 4F. No text appeared.
 - Lesson: Elevator buttons may require a specific trigger or are non-functional in this state. Use stairs for floor transitions.
-
-# Goldenrod Dept Store Inventory
-- 2F Clerk (13, 5): Potion (300), Super Potion (700), Antidote (100), Parlyz Heal (200), Awakening (250), Burn Heal (250), Ice Heal (250).
