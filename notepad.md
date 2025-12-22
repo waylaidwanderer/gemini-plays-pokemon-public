@@ -45,17 +45,20 @@
 ## Basement Puzzle Strategy
 - **Goal:** Open Gates/Boxes.
 - **Status:**
-    - Item at (6, 3) is GONE (Previously obtained?).
-    - Boxes at (10, 8-9) are CLOSED (Walls).
-    - Machop (7, 7) and Black Belt (4, 8) are nearby.
-- **Hypothesis Checklist:**
-    1. **"Junk":** Talk to Machop/Black Belt to see if they acknowledge the missing item.
-    2. **"Don't Watch":** NPC 6 says he can't work if watched. Try interacting from behind (Right side) or waiting out of sight.
-    3. **"Facing":** NPC 5 (Moving) might still be the key.
+    - "Junk" theory failed (Machop says nothing new).
+    - "Don't Look" (General) failed.
+- **New Test:** NPC 6 (Top Left) "Face Wall".
+    - **Logic:** He says "if someone's watching".
+    - **Plan:** Talk to him from (4, 7) (Above him).
+    - **Result:** He will face UP (towards wall).
+    - **Check:** See if boxes open.
 - **Plan:**
-    1. Talk to Machop (Current).
-    2. Talk to NPC 6 (Top Left).
-    3. If no change, return to NPC 7 (Bottom).
+    1. Move to (4, 7).
+    2. Talk to NPC 6.
+    3. Check boxes.
+- **Backup:**
+    - Try to find a switch in the "Junk" area (6, 3)?
+    - Try to find a switch near the elevator?
 
 # Tile Mechanics
 - **WALL:** Impassable.
