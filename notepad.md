@@ -17,6 +17,7 @@
 - Test 1 (Turn #11981-11990): Talking to Sages (5, 6, 7) - backstories provided, no path opened.
 - Test 2 (Turn #11992-11997): (10, 2) is a floor tile labeled "warp tile" in status. Result: No transition on step or A.
 - Test 3 (Turn #12005): Face (9, 4) and press A. Result: No effect.
+- Test 4 (Turn #12011): Face (9, 10) and press A.
 - Hypothesis 1: Entrance is hidden on 1F (exploring perimeter).
 - Hypothesis 2: Entrance is via 2F (searching for ladders).
 - Hypothesis 3: Entrance is via a third warp from the Wise Trios Room (EntryPoint 3).
@@ -37,3 +38,4 @@
 
 # PC Storage
 - Box 1: ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+- (10, 2) identified as an 'Unmarked Warp' by system (Turn #11997). Currently non-functional or one-way.
