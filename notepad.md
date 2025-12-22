@@ -27,9 +27,9 @@
 - **FLOOR:** Safe.
 - **Trap Tiles:** Rocket Hideout B1F.
 - **Interruption:** Phone call from Wade at (24, 10). Clearing text to continue.
-- **Status:** Inside Underground Entrance North (3_54).
+- **Status:** Exploring Goldenrod Underground (Main Tunnel 3_53).
 - **Goal:** Obtain Team Rocket Uniform.
 - **Plan:**
-    1. Take the ladder at (21, 25) down to the Main Underground.
-    2. Search for the Team Rocket member with the uniform (likely near Photo Studio).
+    1. Search the northern area near the Photo Studio (18, 6) for a Team Rocket member.
+    2. If not found, explore the southern part of the tunnel.
 - **Map Notes:** Ladder up to Entrance North is at (3, 2). Ladder to South is at (3, 34).
