@@ -31,11 +31,10 @@
 - Goal: Open path to the Warehouse Entrance in the southeast.
 - Progress:
   - 1. S3 ON: Done (Turn 10357).
-  - 2. S2 ON: In progress.
-  - 3. S1 ON: Next.
+  - 2. S2 ON: Done (Turn 10364).
+  - 3. S1 ON: In progress.
 - Verification: Test (17,6) traversability when S1 is ON.
-
-# Area Notes
+- Switch Puzzle Start: Turn 10284. Phase: Step 2 Complete. Moving to S1.
 - Warehouse Entrance: Southeast quadrant (Map 3_55).
 - Key NPCs: Rocket Girl (19,12), Emergency Switch (20,11).
 - Return Ladders: (23,3), (21,25), (5,25).
