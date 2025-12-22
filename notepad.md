@@ -46,4 +46,4 @@
 - **Radio Tower:** Current Location.
 - **Underground:** Key item (Coin Case) found here. 
 - **Director:** Likely held captive. Need to find him.
-- **Status:** Engaging Rocket Grunt at (4, 1).
+- **Status:** Rocket Grunt at (4, 1) appears to be a blocker (warning text only). Attempting to bypass.
