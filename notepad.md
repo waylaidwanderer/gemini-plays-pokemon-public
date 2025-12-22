@@ -121,3 +121,6 @@
 - Plan: Inspect (10, 12) from (9, 12). If closed, the "West Zone" trigger might require a different approach or I need to engage the "Watcher" mechanics again.
 - Status: Returning to Central Zone to check if West Zone visit triggered the gates.
 - Observation: (3, 12) is a static wall, confirming the detour requirement.
+- Status: At (11, 11). Checking Gate 2 at (10, 12).
+- Plan: Move to (10, 11). Inspect (10, 12). If Wall, talk to NPC 5 at (9, 11).
+- Hypothesis: "Zone" trigger might reset when returning to Center. Need to find a way to maintain "Open" state.
