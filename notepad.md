@@ -4,9 +4,9 @@
 - **Primary Goal:** Stop Team Rocket.
 - **Secondary Goal:** Investigate Radio Tower (Team Rocket takeover).
 - **Navigation:** Explore Goldenrod Game Corner.
-- **Status:** In Goldenrod Underground. Talking to PokéManiac Donald at (2, 6).
+- **Status:** In Goldenrod Underground. Listening to PokéManiac Donald's tip.
 - **Plan:**
-    1. Talk to/Battle PokéManiac Donald.
+    1. Finish dialogue with PokéManiac Donald.
     2. Search south for a Rocket Grunt or specific "Recruiter" (Uniform source).
     3. If nothing found, check Switch Room via ladder at (3, 34).
 
