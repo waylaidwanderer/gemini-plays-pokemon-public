@@ -296,3 +296,7 @@
 - **Path:** Move to (6, 7) and walk Right into him.
 - **Hypothesis:** The Machoke acts as a boulder. Moving him might trigger a switch or open the path.
 - **Note:** Behind him (to the right) is clear floor.
+- **Result:** Pushing Machoke (7, 7) FAILED. He is solid and immovable.
+- **Correction:** The "Junk" likely refers to the Boxes at (10, 12-13).
+- **Plan:** Move to (9, 12) and use Strength to PUSH the Bottom Gate Box at (10, 12).
+- **Path:** Navigate via Column 8 to avoid NPC 5 patrolling Column 9.
