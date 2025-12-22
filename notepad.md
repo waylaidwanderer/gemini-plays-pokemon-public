@@ -380,3 +380,7 @@
 - **Goal:** Force NPC 7 to face **UP**.
 - **Expectation:** Watch Gate `(10, 12)` on screen. If it opens, "Face Up" is the trigger.
 - **Note:** If he moves to `(6, 13)` before I talk, I will move to `(6, 12)` next.
+- **Execution Correction:** Previous attempts failed due to movement/interaction conflicts or NPC movement timing.
+- **Action:** Moving to `(6, 12)` explicitly.
+- **Next Turn:** Will Stun NPC 7 (at `6, 13`) and Interact to force Face UP.
+- **Goal:** Conclusively test "NPC 7 Facing Up" hypothesis.
