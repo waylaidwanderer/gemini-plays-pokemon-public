@@ -54,3 +54,11 @@
 # Battle Notes
 - Murkrow (Lv32) used Night Shade: Fixed damage = 32 HP.
 - Dept. Store 3F (Battle Collection): X SPEED, X SPECIAL, X DEFEND, X ATTACK, DIRE HIT, GUARD SPEC., X ACCURACY. (No Ultra Balls)
+
+# Tactical Advice for Suicune (Tin Tower)
+- Lead: Calcifer (Typhlosion).
+- Strategy: Use Smokescreen to reduce Suicune's accuracy. Chip HP to red with Calcifer.
+- Capture: Switch to KIMCHI (Gloom) for Sleep Powder once Suicune is weakened. (Note: KIMCHI is low level).
+- Resource Prep: Buy ~20 Ultra Balls. Use Max Ethers on Earthquake (GNEISS) and Flame Wheel (Calcifer).
+- Note: Suicune is Water/Ice/Flying coverage. GNEISS takes 4x damage from Water.
+- Shopping: 5F is TM Corner. Check 6F or Rooftop for Ultra Balls if not on 5F.
