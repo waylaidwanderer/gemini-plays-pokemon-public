@@ -14,11 +14,10 @@
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
 - **Location:** At (10, 2). Switch 2 is ON.
-- **Action:** Double-checking Switch 2 state.
-- **Reason:** North Shutter (10, 6) is closed. Need to confirm if S2 is truly ON.
-- **Contingency:**
-  - If S2 is OFF: Turn it ON.
-  - If S2 is ON: Conflict confirmed. Will proceed to turn S1 OFF.
+- **Action:** Turning Switch 2 ON (Confirmed).
+- **State:** S1=ON, S2=ON, S3=ON.
+- **Next Step:** Verify North Shutter (10, 6) opens.
+- **Hypothesis:** S2=ON is the key to entering the Central Room.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
