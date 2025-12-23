@@ -7,26 +7,27 @@
 - Step 5: Prepare Catcher. Obtain Parasect (Spore + False Swipe).
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
-## Route 42 Strategy
-- Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
+## Capture Contingency & Roamer Mechanics
+- Roamers (Suicune, Raikou, Entei) move between adjacent maps whenever the player crosses a map boundary.
+- Interception Strategy: Stay on the same map as the roamer and pace in grass/water. Do not cross map boundaries while hunting.
+- Battle Contingency: If Gastly (XENON) faints, use ICARUS or Calcifer. Mean Look is required to prevent immediate fleeing. If Suicune flees, check Pokedex immediately.
 
-## Suicune Tracking Notes (Started Turn 14853)
-- Suicune roams Johto after Tin Tower encounter.
-- Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
-
-## Tile Mechanics
+## Tile Mechanics (Global)
 - FLOOR: Standard traversal.
-- WALL / FENCE: Impassable.
-- TALL_GRASS / LONG_GRASS: Encounters.
-- WATER: Requires SURF.
-- LEDGE: One-way jump.
-- WARP: Map transition.
-- HEADBUTT_TREE: Impassable / Interact.
-- FLOOR_UP_WALL: One-way North only.
-- COUNTER: Impassable; interact from front.
-- WARP_CARPET_DOWN / WARP_CARPET_RIGHT / WARP_CARPET_LEFT: Map transitions.
-- LADDER: Map transition.
-- PC: Background object for storage.
+- WALL / FENCE / MOUNTAIN: Impassable.
+- TALL_GRASS: Traversable, triggers wild encounters.
+- WATER: Requires Surf HM to traverse.
+- LEDGE: One-way jump (usually South).
+- WARP: Map transition (Doors, Stairs, Cave Entrances).
+- HEADBUTT_TREE: Impassable; can be Headbutted if known.
+- CUT_TREE: Impassable; requires Cut HM to clear.
+- FLOOR_UP_WALL: One-way movement North only.
+- COUNTER: Impassable; interact with NPCs behind them from the front.
+- WARP_CARPET: Map transition at edges.
+
+## Route 42 Notes
+- Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
+- Suicune confirmed on Route 42 (Turn 14980). Hunting in tall grass at (46, 12).
 
 ## Type Effectiveness Chart (Observed)
 - Ghost: Immune to Normal/Fighting.
@@ -46,5 +47,3 @@
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
-- Suicune confirmed on Route 42 (Turn 14980). Currently in the tall grass at (46, 12). strategy: walk back and forth to trigger encounter.
-- Note: Roaming Pokemon change locations when player changes maps. Stay on Route 42 to keep Suicune here.

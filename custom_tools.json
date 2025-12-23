@@ -86,5 +86,43 @@
         "action_counter": 14678
       }
     ]
+  },
+  "wild_encounter_looper": {
+    "description": "Generates a sequence of button presses to pace back and forth between two adjacent coordinates to trigger wild encounters.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "coord1_x": {
+          "type": "integer"
+        },
+        "coord1_y": {
+          "type": "integer"
+        },
+        "coord2_x": {
+          "type": "integer"
+        },
+        "coord2_y": {
+          "type": "integer"
+        },
+        "iterations": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "coord1_x",
+        "coord1_y",
+        "coord2_x",
+        "coord2_y",
+        "iterations"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\n# Input: {\"coord1_x\": 46, \"coord1_y\": 12, \"coord2_x\": 47, \"coord2_y\": 12, \"iterations\": 5}\ninput_data = json.loads(sys.argv[1])\nx1, y1 = int(input_data['coord1_x']), int(input_data['coord1_y'])\nx2, y2 = int(input_data['coord2_x']), int(input_data['coord2_y'])\niters = int(input_data['iterations'])\n\ndef get_button(start_x, start_y, end_x, end_y):\n    if end_x > start_x: return \"Right\"\n    if end_x < start_x: return \"Left\"\n    if end_y > start_y: return \"Down\"\n    if end_y < start_y: return \"Up\"\n    return None\n\nbuttons = []\nfor _ in range(iters):\n    b1 = get_button(x1, y1, x2, y2)\n    b2 = get_button(x2, y2, x1, y1)\n    if b1: buttons.append(b1)\n    if b2: buttons.append(b2)\n\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T18:38:32.658Z",
+        "action_counter": 15001
+      }
+    ]
   }
 }
