@@ -108,10 +108,8 @@
 
 - **Action:** S1 is confirmed ON. Canceling menu.
 - **Next:** Go to (20, 5) to check Shutter (20, 6).
-- **Correction:** Screen says "It's ON". My previous inference was wrong. Switch 1 is ALREADY ON.
-- **Action:** Pressing B to cancel (keeping S1 ON).
+- **Status:** Switch 1 is CONFIRMED ON.
+- **Action:** Closing the menu (Pressing B multiple times to be safe).
 - **Current State:** S1=ON, S2=ON, S3=OFF.
-- **Plan:**
-  1. Cancel menu (Leave S1 ON).
-  2. Navigate to (20, 5).
-  3. Inspect Shutter (20, 6).
+- **Next Step:** Navigate to (20, 5) to check Shutter (20, 6).
+- **Hypothesis:** S1=ON + S2=ON should open the East Shutter.
