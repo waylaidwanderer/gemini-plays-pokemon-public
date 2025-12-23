@@ -71,9 +71,12 @@
   1. Select YES to turn S3 ON.
   2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
   3. Also verify if (6, 8) remains open.
-- **Action:** Canceling the switch menu (keeping S3 ON).
-- **Reasoning:** I accidentally interacted with S3 again. I want it ON to test if it opens Row 10.
+- **Observation:** S3 is now ON.
+- **Previous Knowledge:** When S3 was OFF, Row 10 was CLOSED.
+- **Hypothesis:** S3 ON opens Row 10 Shutters (Access to Emergency Switch?).
+- **Action:** Walking to (2, 9) to verify.
 - **Plan:**
-  1. Press B to leave S3 ON.
-  2. Walk South to (2, 10).
-  3. Verify if the shutter is open.
+  1. Walk South to (2, 9).
+  2. Check if (2, 10) is OPEN.
+  3. If OPEN, proceed to Emergency Switch at (20, 11).
+  4. If CLOSED, reconsider puzzle logic.
