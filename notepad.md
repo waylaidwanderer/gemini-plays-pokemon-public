@@ -6,7 +6,8 @@
     - OFF: ?
 - **Switch 2 (10, 1):**
     - ON: Opens Shutter at (10, 6) and (11, 7). AND Opens (6, 8). Closes (12, 8).
-    - OFF: Modifies S1/S3 effects.
+    - OFF: Default. Allows S1 to open (12, 8).
+- **Current Plan:** Set S1=ON, S2=OFF, S3=OFF to open East Shutter (12, 8).
 - **Switch 3 (2, 1):**
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
     - OFF: ?
