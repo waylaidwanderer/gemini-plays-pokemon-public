@@ -21,9 +21,9 @@
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** OFF.
 - **Test:** Testing S3=OFF with S1=ON.
-    - **Status:** (17, 6) CLOSED (Confirmed).
-    - **New Test:** Checking (20, 6) with S1=ON, S3=OFF.
-    - **Hypothesis:** Maybe S1=ON opens the Emergency Shutter (20, 6)? Or maybe S2 needs to be OFF.
+    - **Status:** (17, 6) CLOSED. (20, 6) CLOSED.
+    - **Next:** Check (12, 6) and (12, 8).
+    - **Hypothesis:** S1=ON might be "All Closed" or requires S2 interaction.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
