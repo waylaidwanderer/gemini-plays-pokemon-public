@@ -163,32 +163,37 @@
     ]
   },
   "select_move_v6": {
-    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping.",
+    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "move_index": {
-          "description": "The 1-based index of the move to select (1-4).",
-          "maximum": 4,
+          "type": "integer",
           "minimum": 1,
-          "type": "integer"
+          "maximum": 4,
+          "description": "The 1-based index of the move to select (1-4)."
         },
         "screen_text": {
-          "description": "The current screen text containing the move menu.",
-          "type": "string"
+          "type": "string",
+          "description": "The current screen text containing the move menu."
         }
       },
       "required": [
         "move_index",
         "screen_text"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\nimport re\n\ndef select_move():\n    try:\n        target = int(input_data.get('move_index', 1))\n        text = input_data.get('screen_text', \"\")\n        \n        # Find lines in the move menu. \n        # Usually looks like:\n        # |   |▶HYPNOSIS     |\n        # |   | LICK         |\n        # |   | SPITE        |\n        # |   | -            |\n        \n        lines = text.split('\\n')\n        current = 1\n        for i, line in enumerate(lines):\n            if '▶' in line:\n                # Determine which move this is based on its position in the list\n                # This is a bit heuristic, but we look for lines starting with '|   |'\n                move_lines = [l for l in lines if '|   |' in l]\n                for j, m_line in enumerate(move_lines):\n                    if '▶' in m_line:\n                        current = j + 1\n                        break\n                break\n        \n        # Calculate shortest path in a wrapping 4-item menu\n        diff = (target - current) % 4\n        if diff == 0:\n            buttons = [\"A\"]\n        elif diff == 1:\n            buttons = [\"Down\", \"A\"]\n        elif diff == 2:\n            buttons = [\"Down\", \"Down\", \"A\"]\n        elif diff == 3:\n            buttons = [\"Up\", \"A\"]\n        else:\n            buttons = [\"A\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    select_move()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        if not input_json:\n            return\n        input_data = json.loads(input_json)\n        target_index = int(input_data['move_index'])\n        screen_text = input_data['screen_text']\n\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Look for lines that represent move slots in the battle menu\n            if '│' in line and any(c.isalpha() or c == '-' for c in line):\n                if \"TYPE\" not in line and \"POCKET\" not in line and \"ITEMS\" not in line:\n                    move_lines.append(line)\n\n        # We expect 4 move slots. If we found fewer, we'll work with what we have.\n        current_index = 1\n        found_cursor = False\n        for i, line in enumerate(move_lines):\n            if '▶' in line:\n                current_index = i + 1\n                found_cursor = True\n                break\n        \n        # If no cursor found, default to 1 as a safe assumption\n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.append(\"Down\")\n                buttons.append(\"Down\")\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Creating a screen-aware move selection tool that parses screen_text for the '▶' cursor to determine the current index automatically.",
         "timestamp": "2025-12-23T12:40:44.705Z",
         "action_counter": 14405
+      },
+      {
+        "commit_message": "Fix wrapping logic and cursor detection. Navigation restricted to Up/Down.",
+        "timestamp": "2025-12-23T13:19:03.561Z",
+        "action_counter": 14462
       }
     ]
   }
