@@ -68,7 +68,7 @@
       "properties": {},
       "type": "object"
     },
-    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear to overworld\n    # 2. Open Start Menu (assume cursor on GEM/5)\n    # 3. Navigate to POKEMON (2): Up 3.\n    # 4. Select POKEMON.\n    # 5. Party Menu: KIMCHI is slot 6. From slot 1, Up 2 is slot 6 (wrapping).\n    # 6. Select KIMCHI.\n    # 7. Move Menu: Down 1 is Sweet Scent.\n    \n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\",\n        \"Up\", \"Up\", \"A\", \"sleep 500\",\n        \"Down\", \"A\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
+    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear to overworld\n    # 2. Open Start Menu\n    # 3. Navigate to POKEMON (2):\n    #    Up 7 times to hit POKEDEX (1) (Reset)\n    #    Down 1 to POKEMON (2)\n    # 4. Select POKEMON\n    # 5. Party Menu: KIMCHI is slot 6. \n    #    Assume Party menu wraps: Up 2 from Slot 1 is Slot 6.\n    # 6. Select KIMCHI\n    # 7. Move Menu: Down 1 is Sweet Scent\n    \n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\",\n        \"Up\", \"Up\", \"A\", \"sleep 500\",\n        \"Down\", \"A\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
     "history": [
       {
         "commit_message": "Defined use_sweet_scent_v8: a cursor-agnostic tool that clears dialogue, resets the Start menu to POKEDEX using Up*7, navigates to POKEMON, resets the Party menu to XENON using Up*6, navigates to KIMCHI, and uses Sweet Scent. Includes sleep commands for reliability.",
@@ -89,6 +89,11 @@
         "commit_message": "Redefining Sweet Scent tool to assume cursor starts on GEM (item 5) in the Start menu. This is the most common state. Also added explicit clearing of menus.",
         "timestamp": "2025-12-23T11:32:54.505Z",
         "action_counter": 14301
+      },
+      {
+        "commit_message": "Refining Sweet Scent tool to use a cursor-agnostic reset for the Start menu (Up*7 to POKEDEX) now that it's confirmed not to wrap.",
+        "timestamp": "2025-12-23T11:34:53.516Z",
+        "action_counter": 14304
       }
     ]
   },
