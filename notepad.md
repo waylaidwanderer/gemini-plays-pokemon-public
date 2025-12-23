@@ -38,3 +38,10 @@
   - S1=ON, S3=ON: Stuck at `(12, 9)` wall.
   - S1=OFF, S3=ON: Stuck at `(10, 6)` wall (if trying to go South).
 - **New Hope:** Accessing the Warp `(22, 10)` via `(20, 6)` with S1=OFF.
+- **Battle:** Defeating Burglar (Pharmacist).
+- **Next Steps:**
+  1. Go to Switch 2 `(10, 1)` -> Turn ON.
+  2. Ensure Switch 1 `(16, 1)` is OFF.
+  3. Enter West Room via `(2, 6)`.
+  4. Pass through West Gate `(6, 8)`.
+  5. Navigate to Target Shutter `(12, 12)`.
