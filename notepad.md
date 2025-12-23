@@ -1,7 +1,7 @@
 # Suicune Capture Strategy
 ## Strategy: The Mean Look Pivot
 - Train XENON (Gastly) to Lv 13 to learn Mean Look.
-- Evolve to Haunter (Lv 25) to ensure Base 95 Speed (Suicune is Base 85). Haunter needs to be faster than Suicune to use Mean Look before it flees.
+- Evolve to Haunter (Lv 25) and train to ~Lv 38-40. While Haunter has a higher Base Speed (95) than Suicune (85), at Lv 25 it will be slower than the Lv 40 Suicune. Haunter needs to be faster than Suicune to use Mean Look before it flees; Lv 38-40 ensures we outspeed Suicune's potential 73-110 Speed range.
 - Track Suicune using Pokedex AREA map.
 - Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
 - Status Requirement: Status conditions are mandatory for Suicune.
@@ -27,6 +27,10 @@
 - Method: Grind on Route 32 grass using Sweet Scent.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
+- Progress:
+    - Turn 14280: Encountered wild Gastly at (18, 15).
+    - Training Spot: (18, 15) confirmed for Gastly/Bellsprout. Marked 🎯.
+    - Battle Strategy: Use Lick against Gastly/Bellsprout. Run from Normal types.
 
 ## Route 32 Observations
 - Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
