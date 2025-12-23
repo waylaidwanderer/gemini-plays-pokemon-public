@@ -215,3 +215,6 @@
     - **Goal:** Proceeding with "Emergency Mode" test.
     - **Observation:** Turning S2 OFF should close the gate at (10, 6).
     - **Next:** Verify S3 is ON, then check (20, 6).
+- **Verification (Turn 14393):** Switch 2 is CONFIRMED OFF.
+- **Action:** Closing Switch 2 menu (leaving it OFF).
+- **Next:** Navigate to Switch 3 (2, 1) to verify it is ON.
