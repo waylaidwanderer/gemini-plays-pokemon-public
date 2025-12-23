@@ -1,23 +1,22 @@
 # Suicune Capture Strategy
 ## The Repel Trick
-- Lead: KIMCHI (Lv 21 Gloom).
-- Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Inventory: Super Repel x7 (Item 15 in PACK).
-- PACK Order (Confirmed Turn #13553):
-  1. PSNCUREBERRY, 2. X ATTACK, 3. BITTER BERRY, 4. ICE BERRY, 5. MAX ETHER, 6. FULL HEAL, 7. ICE HEAL, 8. X SPECIAL, 9. GUARD SPEC., 10. LEMONADE, 11. FRESH WATER, 12. SUPER POTION, 13. AMULET COIN, 14. REVIVE, 15. SUPER REPEL
+- **Lead:** KIMCHI (Lv 21 Gloom).
+- **Setup:** Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
+- **Status:** Super Repel #6 active (Used Turn #13578). ~200 steps remaining.
+- **Inventory:** Super Repel x6 (Item 15 in PACK).
 
-## Battle Strategy
-- Mechanics: Suicune (Base Speed 85) flees on its first active turn (Turn 1).
-- Problem: KIMCHI (Speed 40) is slower and cannot use Sleep Powder before Suicune flees.
-- Long-term Plan: Use Sleep Powder every encounter. Status (Sleep) is persistent across encounters and prevents fleeing on Turn 1 in future battles.
-- Short-term Goal: Use Super Repel and trigger one encounter to confirm mechanics.
-- Catch Rate: ~0.39% (Full HP, No Status, Great Ball). Increases to ~4.3% if asleep.
+## Battle Strategy (vs Suicune Lv 40)
+- **Mechanics:** Suicune has Base Speed 85 and flees on its first active turn.
+- **Problem:** KIMCHI (Speed 40) is slower and will act after Suicune flees.
+- **Plan:** Use Sleep Powder every encounter. Since HP and status are persistent, we will eventually land a Sleep Powder on a turn Suicune doesn't flee (if it uses a move) or through multiple attempts.
+- **Catch Rate:** ~0.39% (Full HP, Great Ball). Increases to ~4.3% when asleep. Verified by suicune_capture_analyst_v2.
+- **Contingency:** If no progress after 5 encounters, catch a faster trapper (e.g., Haunter for Mean Look).
 
 ## Route 38 Navigation
-- Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
-- Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
+- **Roamer Logic:** Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
+- **Current Location:** Verified on Route 38 (Turn #13572).
 
 ## Resources
-- Party: KIMCHI (Lv 21), ICARUS (Lv 16), GNEISS (Lv 43), Ravioli (Lv 10), Blarney (Lv 20), Calcifer (Lv 45).
-- Balls: Great Ball x40.
-- PC Box 1: ROCKY (Onix 6), EGG (Cleffa 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15).
+- **Party:** KIMCHI (Gloom 21), ICARUS (Pidgey 16), GNEISS (Graveler 43), Ravioli (Krabby 10), Blarney (Sudowoodo 20), Calcifer (Typhlosion 45).
+- **Balls:** Great Ball x40.
+- **PC Box 1:** ROCKY (Onix 6), EGG (Cleffa 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15).
