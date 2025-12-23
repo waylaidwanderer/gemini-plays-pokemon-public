@@ -20,10 +20,8 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=OFF, S3=ON.
-- **Location:** Moving to Switch 3 (2, 1).
-- **Hypothesis:** S2 controls the inner East Shutter (20, 6), just as it controls the inner North Shutter (10, 6).
-- **Problem:** S2 ON closes the main East entrance (12, 8).
-- **Solution:** Use the "Back Door" (Warehouse Key door) to enter the East Room from the other side, bypassing (12, 8).
+- **Location:** Switch Room (2, 2).
+- **Action:** Turn Switch 3 OFF.
 - **Plan:**
   1. Turn Switch 3 OFF.
   2. Turn Switch 2 ON. (State: S1=OFF, S2=ON, S3=OFF).
