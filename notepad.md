@@ -30,3 +30,6 @@
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
 - Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
+## NPCs & Locations
+- Fisher Tully: (15, 13) Route 32. Contact for fishing info.
+- Slowpoketail Seller: (11, 67) Route 32. Trying to sell tails for ¥1,000,000.
