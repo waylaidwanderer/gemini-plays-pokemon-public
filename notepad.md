@@ -32,3 +32,8 @@
 - Slowpoketail Seller: (11, 67) Route 32. Selling tails for ¥1,000,000.
 - Arnie (Bug Catcher): Mentions Growlithe sightings (likely Route 31).
 - Youngster Gordon: (4, 63) Route 32. Defeated.
+## Exploration Strategy: Western Bypass
+- Observation: Southward movement is blocked at y=72 and y=86 in the eastern corridors.
+- Hypothesis: The western land (Column 1-4) is reachable by surfing across the lake at y=40-50.
+- Test: Reach (11, 40), use SURF to cross to the west, and follow the corridor south.
+- Goal: Reach (1, 87) to complete Route 32 exploration.
