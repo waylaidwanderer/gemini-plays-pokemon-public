@@ -46,3 +46,5 @@
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
+- Suicune confirmed on Route 42 (Turn 14980). Currently in the tall grass at (46, 12). strategy: walk back and forth to trigger encounter.
+- Note: Roaming Pokemon change locations when player changes maps. Stay on Route 42 to keep Suicune here.
