@@ -117,3 +117,6 @@
 - **Location:** Entering the corridor south of `(12, 8)`.
 - **Next Step:** Search this new area for the Director.
 - **Puzzle Solved:** The combination for the Inner East path is S1=ON, S2=ON, S3=OFF. The Outer East path `(20, 6)` remains closed, possibly requiring a different combination or key (Emergency Switch?).
+- **Critical State Correction:** Game State text says (10, 5), but Screen and System Warning confirm I am at (7, 5).
+- **Action:** Navigating from (7, 5) to rejoin the path at (10, 5).
+- **Path:** (7, 5) -> (8, 5) -> (9, 5) -> (10, 5) -> (10, 6) -> South to (12, 10).
