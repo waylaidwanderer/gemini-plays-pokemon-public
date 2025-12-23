@@ -30,3 +30,6 @@
   1. Close Switch Menu (Press B).
   2. Navigate to (20, 6) via Row 4.
   3. If (20, 6) is open, proceed South.
+- **Observation:** Turning S2 OFF caused (6, 8) to Close (changed to WALL) and (10, 6) to Close.
+- **Hypothesis Refined:** S2 controls the West/Middle access. S1 likely controls the East access (20, 6).
+- **Plan:** Checking (20, 6). If open, this is the way forward.
