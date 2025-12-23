@@ -19,11 +19,12 @@
     - Start Menu (8 items): FULLY WRAPS. Navigate relatively. Resets to POKEDEX (1) after battle.
     - Party Menu (7 items: 1-6 + CANCEL): FULLY WRAPS. Navigate relatively. REMEMBERS last selection even when closed/reopened.
     - PKMN Pop-up Menu (variable size): WRAPS. For KIMCHI (2 field moves), it has 7 items: 1.SWEET SCENT, 2.CUT, 3.STATS, 4.SWITCH, 5.MOVE, 6.ITEM, 7.CANCEL.
-    - Battle Move Menu (4 items): WRAPS.
+    - Battle Move Menu (4 items): WRAPS. REMEMBERS last selection within the same battle.
 
 ## Training Plan: XENON
 - Goal: Reach Lv 13 (1261 Total EXP).
 - Progress: 1206 EXP (55 EXP remaining). Estimated 2 battles left.
+- Current Battle: Ekans Lv 4 (~35 EXP). Post-battle: ~20 EXP remaining.
 - Method: Use Sweet Scent at (18, 15) grass patch on Route 32.
 - Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
 - PP Management: XENON has low Lick PP (30). Return to Pokecenter or use Ether/Berry when Lick PP < 5.
@@ -33,6 +34,7 @@
 - **Turn 14436-14439:** Misclicked Spite instead of Lick. Lesson: Always verify cursor position after closing the Bag or other sub-menus.
 - **Turn 14436:** Verified Ghost-type immunity to Normal moves (Wrap) in Gen 2.
 - **Turn 14416:** Attempted to path through walls/trees. Lesson: Use 'run_code' to verify tile navigability before long path plans.
+- **Turn 14449-14450:** Move menu remembers last selection within the same battle. Misclicked Spite due to this. Lesson: Always check move index before pressing A in battle.
 
 ## Tile Mechanics
 - FLOOR: Standard traversable ground. Verified.
