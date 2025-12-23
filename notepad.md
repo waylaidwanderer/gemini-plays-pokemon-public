@@ -29,7 +29,6 @@
 - WATER: Traversable only with HM SURF.
 - ICE: Causes sliding until an obstacle is hit.
 - COUNTER: Stand in front of it to interact with NPCs behind it.
-- WHIRLPOOL: Requires HM WHIRLPOOL to cross.
 
 ## Strategy Notes
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
