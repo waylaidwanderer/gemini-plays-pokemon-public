@@ -21,21 +21,25 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 1 `(16, 1)`.
-2. Turn S1 OFF.
-   - Hypothesis: With S3=ON, S1=OFF might open the East Gate `(12, 8)` while keeping the Target Shutter `(12, 12)` open.
-3. Check East Gate `(12, 8)`.
-4. If OPEN, proceed to `(12, 12)` and through to the Warehouse.
+1. Confirm Switch 1 is OFF.
+   - Current State: S1=OFF, S2=ON, S3=ON.
+2. Navigate to East Gate `(12, 8)`.
+   - Hypothesis: With S3=ON and S1=OFF, the East Gate `(12, 8)` should now be OPEN (S3 override?) or maybe CLOSED?
+   - Wait, S1=OFF normally closes East Gate. But S3=ON opens everything?
+   - If S3=ON acts as a master override, then S1's state shouldn't matter... unless S3 *inverts* S1?
+   - Let's observing the result.
+3. Check Target Shutter `(12, 12)`.
+   - Verify it remains OPEN.
+4. If both are OPEN, proceed South.
 
 ## Observations
-- **Current State:** S1=ON, S2=ON, S3=ON.
-- **Map Update Analysis:**
-  - East Gate `(12, 8)` CLOSED.
-  - West Gate `(6, 8)` OPEN.
-  - Target Shutter `(12, 12)` OPEN.
-  - SW Shutter `(6, 12)` CLOSED.
-  - **Conflict:** We need `(12, 8)` and `(12, 12)` open simultaneously.
-- **Puzzle Logic:** S3 seems to invert the gate logic or shift the "Open" state. Changing S1 might align the open gate with the open shutter.
+- **Switch Status:**
+  - S1: OFF (Just turned off)
+  - S2: ON
+  - S3: ON
+- **Map Updates (to be verified):**
+  - Check `(12, 8)` status.
+  - Check `(12, 12)` status.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
