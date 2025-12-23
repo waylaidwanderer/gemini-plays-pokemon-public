@@ -33,3 +33,6 @@
 - **Observation:** Turning S2 OFF caused (6, 8) to Close (changed to WALL) and (10, 6) to Close.
 - **Hypothesis Refined:** S2 controls the West/Middle access. S1 likely controls the East access (20, 6).
 - **Plan:** Checking (20, 6). If open, this is the way forward.
+- **Observation:** (20, 6) is CLOSED (WALL) with S1=ON, S2=OFF, S3=OFF.
+- **Action:** Going to check (12, 8).
+- **Reasoning:** Since S2 OFF allows (12, 8) to open (based on previous S2 text "Closes East"), and S1 is ON, (12, 8) *should* be open. The current marker might be stale.
