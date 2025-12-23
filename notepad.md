@@ -102,3 +102,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Target Config:** S1=ON, S2=ON, S3=OFF.
 - **Hypothesis:** This opens (12, 8) AND (6, 8).
 - **Goal:** Enter West Gate (6, 8) and explore the West Room thoroughly for a path to the Center/South.
+- **Observation (Turn 14467):** System reported (6, 9) changed WALL -> FLOOR.
+- **Current State:** S1=ON, S2=ON, S3=OFF.
+- **Hypothesis:** This configuration opens the West Path as well.
+- **Action:** Going to check if I can pass through the West Gate at (6, 6) and (6, 7) to reach the newly opened tile at (6, 9).
