@@ -3,7 +3,7 @@
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
 - Status: Super Repel active (Confirmed Turn #13599). ~190 steps remaining.
-- Pacing Progress: ~80 steps taken since Turn #13578.
+- Pacing Progress: ~100 steps taken since Turn #13578.
 - Strategy: Pace in grass at (25, 7) to trigger Suicune (Lv 40). Expect flee on Turn 1; persistence is required to land Sleep Powder.
 
 ## Battle Strategy
