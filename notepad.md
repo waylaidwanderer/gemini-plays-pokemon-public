@@ -20,14 +20,13 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Goldenrod Underground (SE Room).
-- **Action:** Return to Ladder (22, 27).
-- **Correction:** Realized (20, 6) is accessible from the Switch Room side (North). No need to loop through Main Tunnel.
+- **Location:** Switch Room (23, 3).
+- **Action:** Check Shutter at (20, 6).
 - **Plan:**
-  1. Return to Ladder at (22, 27).
-  2. Take Ladder to Switch Room (23, 3).
-  3. Walk to (20, 6).
-  4. Check if Shutter is OPEN with S2=ON.
+  1. Walk to (20, 5).
+  2. Check if Shutter at (20, 6) is OPEN.
+  3. If Open, proceed South to Emergency Switch.
+  4. If Closed, I need to rethink the puzzle logic. Maybe specific combinations like S2+S3?
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
