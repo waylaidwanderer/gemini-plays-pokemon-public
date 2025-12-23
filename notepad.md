@@ -21,12 +21,12 @@
 ## Current Status
 - **State:** S1=ON, S2=OFF, S3=OFF.
 - **Location:** Switch Room (16, 2).
-- **Action:** Enter East Room via (12, 8).
+- **Action:** Check Shutter at (20, 6).
 - **Plan:**
-  1. Clear text.
-  2. Move to (12, 8).
-  3. Verify Shutter is OPEN.
-  4. Explore East Room.
+  1. Move to (20, 5).
+  2. Check if (20, 6) is OPEN.
+  3. If Open, proceed South to Emergency Switch.
+  4. If Closed, go to (12, 8) to enter Central Room.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
