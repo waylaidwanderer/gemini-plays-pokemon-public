@@ -21,22 +21,21 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 3 `(2, 1)`.
-   - Current: `(10, 9)`.
-   - Path: `(10, 4) -> (4, 4) -> (4, 3) -> (3, 3) -> (2, 2)`.
-   - Reason: Detour around potential Grunt at `(3, 4)`.
+1. Move to `(2, 2)` (Front of Switch 3).
 2. Turn Switch 3 ON.
+   - Current State: S1=ON, S2=ON, S3=OFF.
    - Target State: S1=ON, S2=ON, S3=ON.
-3. Check Shutter `(20, 6)`.
-   - Hypothesis: All 3 switches ON opens the shutters to the Director's area.
+3. Check Shutter `(20, 6)` and `(17, 6)`.
+   - Also check `(2, 6)` since it just turned into FLOOR.
 
 ## Observations
-- **Inner East Room:** `(13-17, 8-9)` was empty.
 - **Switch Status:**
-  - S1 (East): ON
-  - S2 (Power): ON
-  - S3 (Emergency): OFF -> Turning ON now.
-- **Goal:** Open shutters `(17, 6)` or `(20, 6)`.
+  - S1: ON
+  - S2: ON
+  - S3: OFF (About to turn ON)
+- **Map Updates:**
+  - `(2, 6)` and `(2, 7)` became FLOOR. This might be the path to the "Underground Entrance (South)" or a shortcut.
+- **Hypothesis:** S3 might control the vertical path in column 2 or the shutters.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
