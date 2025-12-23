@@ -20,8 +20,10 @@
 ### FLOOR_UP_WALL Verification
 - **Observation**: Tiles labeled FLOOR_UP_WALL exist on Route 42.
 - **Hypothesis**: These tiles allow movement North but block movement South, East, and West.
-- **Test**: Navigate onto a FLOOR_UP_WALL tile and attempt to move in all four directions.
-- **Conclude**: Pending test results.
+- **Test 1**: Attempt to move South onto (50, 14) from (50, 13).
+- **Result 1**: Movement blocked. (Turn 15363).
+- **Conclusion 1**: Entering from the North is impossible.
+- **Test 2**: Attempt to move North onto (59, 8) from (59, 9).
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
@@ -41,3 +43,4 @@
 ## Progress Log
 - Lv17 XENON training complete. (Turn 15201)
 - CRITICAL: Out of Repels and funds. (Turn 15361)
+- Heading to Mahogany Town to sell items and restock. (Turn 15364)
