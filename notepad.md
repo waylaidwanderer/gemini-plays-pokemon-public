@@ -210,3 +210,8 @@
 - **Action:** Going to check (20, 6). If (20, 6) opens, S3 is indeed the "Emergency" key.
 - **Suspicion:** S2 might still be ON because West/North gates are OPEN.
 - **Action:** Going to verify S2 state. If ON, turn OFF.
+- **Reflection (Turn 14392):** 
+    - **Hygiene:** Map markers for switches were temporarily out of sync with reality (marked OFF when ON). Correcting this by explicitly verifying states.
+    - **Goal:** Proceeding with "Emergency Mode" test.
+    - **Observation:** Turning S2 OFF should close the gate at (10, 6).
+    - **Next:** Verify S3 is ON, then check (20, 6).
