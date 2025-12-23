@@ -72,3 +72,9 @@
 4. **Automation:** No agents currently. If manual combinatorics fail after this attempt, I will define a `switch_logic_solver` agent to analyze the logs.
 5. **Goal Clarity:** Primary goal is "Rescue Director". Method is "Find correct switch combination to open (20, 6)".
 6. **Error Analysis:** Recent position mismatch (hallucination) caused pathing failure. I am re-verifying position (2, 4) before moving. Root hypothesis: The puzzle is a state-based combination lock. False Constraint Check: "Order matters" is a potential complexity, but I am testing static states first.
+## Discrepancy Found
+- Map Marker says S2 is ON.
+- Previous notes assumed S2 was OFF.
+- Shutter (10, 6) is CLOSED (Wall).
+- Hypothesis: S2 is actually ON (keeping shutter closed), or S3=ON closed it.
+- Action: Going to check/toggle Switch 2.
