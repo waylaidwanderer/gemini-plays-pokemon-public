@@ -23,10 +23,9 @@
 # Current State
 - **Switch 1:** ON
 - **Switch 2:** ON
-- **Switch 3:** Pending Verification (Target: ON)
+- **Switch 3:** OFF (Verified)
 
 # Strategy
-1. Verify Switch 3 is ON.
-2. Check Shutter at (6, 8).
+1. Check Shutter at (6, 8).
    - If OPEN: Go East to Middle Section.
-   - If CLOSED: Re-evaluate logic (maybe Sw2/1 interference?).
+   - If CLOSED: Re-evaluate logic.
