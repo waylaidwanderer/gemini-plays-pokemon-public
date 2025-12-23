@@ -57,3 +57,16 @@
     2. Turn S2 ON (Main Power).
     3. Verify if S1=ON, S2=ON, S3=ON opens West Gate `(6, 8)`.
     4. If it does, walk through and see if it stays open.
+- **Battle Logic:** Fighting Burglar. Level 53 Machoke vs likely level ~30. Easy win.
+- **Puzzle re-evaluation:**
+  - `(12, 9)` changing to WALL in Turn 14925 is the key mystery.
+  - If `(12, 9)` blocks the path to `(12, 12)`, I need to find a way to keep `(12, 9)` OPEN.
+  - S1=ON caused `(12, 9)` to be WALL? Or was it S3=ON?
+  - I need to test if S1=OFF keeps `(12, 9)` as FLOOR.
+  - If S1=OFF keeps `(12, 9)` open, but closes `(10, 6)` (North Entry), then I must enter from `(2, 6)` (Emergency Path) -> `(6, 8)` (West Gate).
+  - So: S1=OFF, S2=ON, S3=ON.
+  - Check: Does S1=OFF keep `(6, 8)` OPEN with S3=ON?
+  - Normally S1=OFF opens West Gate `(6, 8)`.
+  - So the winning combo is likely **S1=OFF, S2=ON, S3=ON**.
+  - Route: Enter via `(2, 6)`, go through West Gate `(6, 8)`, navigate to `(12, 12)`.
+  - Let's verify this hypothesis after the battle.
