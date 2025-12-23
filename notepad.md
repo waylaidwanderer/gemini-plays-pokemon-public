@@ -15,11 +15,11 @@
 - **Hypothesis:** The gates toggle based on where the Black Belt sees the player.
     - Being seen at North (Row 8/9) -> Closes North, Opens South.
     - Being seen at South (Row 11/12) -> Closes South, Opens North.
-- **Result:** Failed. Standing at (9, 12) did not close the South Gate. The "South Alarm" hypothesis might be slightly off (trigger might be further in) or wrong.
+- **Result:** Failed. Standing at (9, 11) also did not close the South Gate. The gates do not seem to toggle based on simple proximity or line of sight in this way.
 - **New Plan:**
-    1. Move Up to (9, 11) to test if deeper penetration triggers the switch.
-    2. If that fails, talk to the moving Black Belt (ID 5).
-    3. If that fails, try approaching the Black Belt from the side (Col 8 -> Row 10).
+    1. Talk to the moving Black Belt (ID 5) at (9, 10). Maybe interaction triggers the switch or gives a clue.
+    2. If that fails, try approaching the Black Belt from the side (Col 8 -> Row 10) or from the North (reset room first).
+    3. Alternative: Check if there's a switch on the wall or elsewhere.
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
