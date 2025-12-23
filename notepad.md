@@ -17,7 +17,7 @@
 - LEDGE_HOP_DOWN: One-way pathing (traversable South, impassable North). Found at (12, 27), (16, 15), (6, 81), (8, 81).
 - LEDGE_HOP_RIGHT: One-way pathing (traversable East, impassable West). Found at (17, 12), (17, 13), (17, 14), (9, 80).
 - Ghost-type: Immune to Normal/Fighting moves. Lick (Ghost) is ineffective against Normal-types.
-- Hoppip: Immune to Ghost moves in this game version (Hypothesis: Hoppip is Normal-type).
+- Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game version.
 
 ## Training Log: XENON
 - Status: Lv 13 reached. Mean Look learned.
@@ -26,7 +26,7 @@
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
-- Current Task: Explore unseen tiles near (11, 37) via the western corridor.
+- Current Task: Explore unseen tiles near (11, 37) via the western corridor (Column 2).
 - Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 76-87).
 
 ## NPCs & Locations
