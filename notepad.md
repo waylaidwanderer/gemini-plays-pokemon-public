@@ -37,8 +37,8 @@
 - Current Progress: Lv 9.
 
 ## PP Management
-- XENON Lick PP: 0/30 (Turn #14106).
-- Action: Use Max Ether from pack (Inventory: x2).
+- XENON Lick PP: 30/30 (Turn #14117).
+- Inventory: Max Ether x1.
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
