@@ -1,62 +1,30 @@
-# Suicune Hunt Strategy (Started Turn #13189)
-- Lead: KIMCHI (Lv 21 Gloom).
-- Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16. Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
-- Repel Tracking: Repel #4 expired. Attempting to use Super Repel #5 (Turn #13499). Encountered Raticate on Turn #13477. Current Super Repel count: 8.
-- Tool Reliability: check_suicune_location_v8 and use_super_repel_v4 now assume cursor starts on EXIT (based on last action in Turn #13491).
-- Tracking: Use Pokedex AREA map via check_suicune_location_v8.
-- Battle Plan:
-  - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
-  - Expect Suicune to flee on Turn 1 before Sleep Powder.
-  - Strategy: Multiple encounters to chip HP, or find a faster Sleep user/Mean Look trapper if progress stalls. Use `suicune_capture_analyst_v2`.
-- Capture Notes: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1 *if* the user is faster. Suicune is Lv 40.
-- Roamer Logic: Roamers only move when map boundaries are crossed, Fly is used, or after a battle with the roamer. Pacing or regular wild battles do not move them.
-- Contingency: If progress stalls after 5 failed encounters, I will pivot to catching a faster Pokémon (e.g., Haunter for Mean Look/Hypnosis).
+# Suicune Capture Strategy
+## The Repel Trick (Active)
+- **Lead:** KIMCHI (Lv 21 Gloom).
+- **Setup:** Use Super Repel to filter out wild Pokémon (Lv 13-16). Since Suicune is Lv 40, it will be the only encounter triggered.
+- **Pacing Area:** Route 38 tall grass.
+- **Roamer Logic:** Suicune moves routes ONLY when crossing map boundaries (e.g., Route 38/39 edge), using Fly, or after a battle. Pacing/Battling other Pokémon does NOT move it.
 
-# Roaming Pokémon Reference
-- Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge), uses Fly, or after a battle with the roamer.
-- Logic: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
-- Tracking: Suicune's location is verified visually via Pokedex AREA map. It is currently on Route 38 (west of Ecruteak City).
+## Battle Plan (vs Suicune Lv 40)
+- Suicune Base Speed: 85. Gloom Base Speed: 40.
+- **Turn 1:** Suicune will likely flee.
+- **Strategy:**
+  1. Chip damage and status are persistent across encounters.
+  2. Aim to inflict Sleep (Sleep Powder) to prevent fleeing on Turn 1 in subsequent encounters.
+  3. **Contingency:** If progress stalls after 5 encounters, catch a faster Pokémon with Mean Look or Hypnosis (e.g., Haunter).
+- **Capture Probability:** [To be updated after analyst result]
 
-# Tile Mechanics
-- TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick filters encounters based on lead level.
-- FLOOR: Traversable. Standard collision-free ground.
-- WALL / HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN / LEFT / RIGHT: Hypothesized one-way traversable. Verification required.
-- WARP_CARPET: Traversable. Triggers map transition (warp).
+## Route 38 Tile Mechanics
+- **TALL_GRASS:** Traversable. Triggers wild encounters. Repel Trick filters based on lead level.
+- **FLOOR:** Traversable. Standard ground.
+- **WALL / HEADBUTT_TREE:** Impassable.
+- **LEDGE_HOP (DOWN/LEFT/RIGHT):** One-way traversable (downwards/leftwards/rightwards). Confirmed by observation.
+- **WARP_CARPET:** Traversable. Triggers map transition.
 
-# Route 38/39 Boundary Reference
-- Route 38 (0, 8) <-> Route 39 (19, 8)
-- Route 38 (0, 10) <-> Route 39 (19, 10)
-- Crossing this line shifts roamer locations.
+## Inventory Summary
+- **Balls:** Great Ball x40.
+- **Key Items:** Super Repel x8 (Target: 13th slot in ITEMS pocket).
+- **Healing:** Super Potion x10, Revive x5, Fresh Water x5.
 
-# PC Storage (Box 1)
+## PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
-
-# Lessons Learned & Error Analysis
-- Tool Reliability: Use v7 for Suicune location checks. Ensure Up/Down counts are accurate.
-- Navigation: Paths are often wider than one tile.
-- State Sync: Always verify inventory and money against Game State Information.
-- Repel Hygiene: Use sleep commands between menu actions to ensure they register.
-- Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
-
-# Inventory Order (Verified Turn #13498)
-1. AMULET COIN
-2. BITTER BERRY
-3. FRESH WATER
-4. FULL HEAL
-5. GUARD SPEC.
-6. ICE BERRY
-7. ICE HEAL
-8. LEMONADE
-9. MAX ETHER
-10. PSNCUREBERRY
-11. REVIVE
-12. SUPER POTION
-13. SUPER REPEL (Target for Repel Trick)
-14. X ATTACK
-15. X SPECIAL
-
-# Menu Cursor Tracking
-- Start Menu: Cursor on EXIT as of Turn #13498 (after clearing Tully's call).
-- PACK: Cursor was on Item 13 in previous attempts, but tools now reset to Item 1.
-- Note: Menu does NOT wrap in the ITEMS pocket. Item 1 is AMULET COIN.
