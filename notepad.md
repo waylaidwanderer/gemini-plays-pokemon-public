@@ -110,3 +110,12 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Analysis:** S1=ON opens East (12, 8). Maybe S1=OFF opens West (6, 6)?
 - **Plan:** Go to Switch 1, Turn it OFF. Then check (6, 6).
 - **Hypothesis:** S1 selects the active path (ON=East, OFF=West). S2 provides power. S3 is emergency.
+- **Hypothesis Adjustment:** S1 ON = East Open / West Closed. S1 OFF = West Open / East Closed.
+- **Plan:** Turn S1 OFF. This sets state to **S1=OFF, S2=ON, S3=OFF** (Assuming S3 is OFF? Wait, I left S3 ON in 14459).
+- **Correction:** I left S3 ON.
+- **Revised Plan:**
+    1. Turn S1 OFF.
+    2. Go to Switch 3 and turn it OFF (Because S3 ON closes the main gates `10,6` and `6,8`).
+    3. Ensure S2 is ON.
+    4. Go through `(10, 6)` to `(6, 8)`.
+- **Action:** Turning Switch 1 OFF first.
