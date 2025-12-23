@@ -20,11 +20,6 @@
 - Target: Lv 13 for Mean Look.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
-- Current Progress: Lv 9 (Turn #14127).
-
-## PP Management
-- XENON Lick PP: 30/30 (Turn #14117).
-- Inventory: Max Ether x1.
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
