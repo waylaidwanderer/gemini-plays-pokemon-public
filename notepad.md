@@ -1,8 +1,8 @@
 # Suicune Capture Strategy
 ## The Repel Trick (Active)
 - **Lead:** KIMCHI (Lv 21 Gloom).
-- **Setup:** Super Repel active (Used Turn #13515). Filters out wild Pokémon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- **Pacing Progress:** 0/200 steps (Repel #6) starting now. Count: 6 remaining. Used Turn #13545. Suicune confirmed on Route 38 (Turn #13537).
+- **Setup:** Super Repel #6 active (Used Turn #13545). Filters out wild Pokémon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
+- **Pacing Progress:** 0/200 steps (Repel #6). Count: 7 remaining.
 - **Pacing Area:** Route 38 tall grass (e.g., (26, 7)).
 - **Roamer Logic:** Suicune moves routes ONLY when crossing map boundaries (e.g., Route 38/39 edge), using Fly, or after a battle.
 
@@ -10,7 +10,7 @@
 - **Strategy:**
   1. Chip damage and status are persistent across encounters.
   2. Use Sleep Powder (KIMCHI) immediately. Note: Suicune is faster (Base Speed 85 vs Gloom 40).
-  3. Catching probability (Base HP, No Status, Great Ball): 0.39%.
+  3. Catching probability (Base HP, No Status, Great Ball): 0.39% (Verified by analyst).
   4. Contingency: Catch a faster trapper (e.g., Haunter for Mean Look) if progress stalls.
 
 ## Route 38 Tile Mechanics
