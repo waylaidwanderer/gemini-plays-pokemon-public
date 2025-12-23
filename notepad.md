@@ -60,10 +60,10 @@
 - **State:** S1=ON, S2=OFF, S3=ON.
 - **Action:** Checking Shutter (20, 6).
 - **Plan:**
-    1. Confirm Switch 3 ON (Done).
-    2. Navigate to (20, 6) to check status.
-    3. If (20, 6) is Open -> Proceed to Director.
-    4. If (20, 6) is Closed -> Try S1 OFF (Testing OFF, OFF, ON).
+    1. Navigate to (20, 5).
+    2. Attempt to move to (20, 6) to verify state.
+    3. Record result.
+    4. If Closed, try S1 OFF (Testing OFF, OFF, ON).
 ## Reflection (Turn 13663)
 1. **Immediate Execution:** No deferred tasks identified. Current task (Check (20, 6)) is being executed immediately.
 2. **Notepad Hygiene:** Notepad is structured with a "Switch Mechanics Log" and "Current Goal". It is clean.
