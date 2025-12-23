@@ -63,3 +63,6 @@
 - Start Turn: 14545 (Timestamp: 14545)
 - Goal: 100% completion.
 - Status: Western corridor (Column 1-4) remains unexplored.
+## Yanma Swarm Hunt Log
+- Turn 14621: Sweet Scent -> DITTO (Lv 10). Result: RUN.
+- Turn 14623: Sweet Scent -> NIDORAN♀ (Lv 12). Result: RUN.
