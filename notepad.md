@@ -32,3 +32,5 @@
     - Sw 1 ON: Closes Vertical 2 (10, 6/7).
     - Sw 3 ON: Opens Top 1-2 (6, 8) & Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
 - **Observation:** Switch 3 OFF caused Shutter (6, 8) to Close (FLOOR -> WALL). This confirms Switch 3 controls Shutter 1-2 (Top).
+- **Observation:** Shutter (12, 8) is OPEN (FLOOR) with Switch 3 OFF. This confirms Switch 3 toggles (6, 8) and (12, 8) inversely.
+- **Next Step:** Explore Middle Section (Section 2). Check if any path South (Row 10/12) is open.
