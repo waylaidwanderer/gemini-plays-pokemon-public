@@ -62,3 +62,5 @@
   1. Move South to (10, 8).
   2. Move West to (6, 8).
   3. If (6, 8) is open, proceed South.
+- **Action:** Entering the SW area through Shutter (6, 8).
+- **Goal:** Explore this new section for the Director or key items.
