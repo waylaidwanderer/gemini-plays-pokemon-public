@@ -14,11 +14,11 @@
 ## Current Strategy
 **Goal:** Rescue Director.
 **Status:** 
-- **Configuration:** S1=Turning OFF, S2=ON, S3=ON.
+- **Configuration:** S1=Unverified (Likely ON), S2=ON, S3=ON.
 - **Target:** S1=OFF, S2=OFF, S3=ON (Emergency Mode).
 **Hypothesis:** "S3 Only" might open the Outer East Shutter (20, 6) to allow access to the Emergency Switch.
 **Plan:**
-1. Confirm S1 OFF.
+1. Verify S1 is OFF. (Double input last turn likely toggled it back ON).
 2. Go to Switch 2 (10, 1) and turn it OFF.
 3. Ensure S3 is ON (It should be).
 4. Inspect Shutters (20, 6) and (22, 6).
