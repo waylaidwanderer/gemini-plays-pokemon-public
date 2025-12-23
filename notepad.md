@@ -19,7 +19,7 @@
 - Menu Wrapping: 
     - Start Menu (8 items): Wraps.
     - Party Menu (6 items + CANCEL): Wraps.
-    - Battle Move Menu (4 items): DOES NOT wrap.
+    - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). It also remembers the last selected move within the same battle.
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
