@@ -1,5 +1,4 @@
-# Suicune Hunt Status & Strategy
-- Current Hunt: Started Turn #13189.
+# Suicune Hunt Strategy
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
@@ -20,7 +19,7 @@
 - OLIVINE_CITY (18, 17): Wall (Impassable).
 
 # Route 38/39 Boundary Reference
-- Route 38 (0, 8) <-> Route 39 (19, 8)
+- Route 38 (0, 8) <-> Route 39 (20, 8)
 - Route 38 (0, 10) <-> Route 39 (19, 10)
 - Crossing this line shifts roamer locations.
 

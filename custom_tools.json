@@ -2,6 +2,7 @@
   "find_path_v4": {
     "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, items, and unseen tiles. If the target is impassable, finds a path to an adjacent tile.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "target_x": {
           "type": "integer"
@@ -13,10 +14,9 @@
       "required": [
         "target_x",
         "target_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef main(input_data):\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    root = ET.fromstring(map_xml_string)\n    traversable_types = {\"FLOOR\", \"STAIRCASE\", \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_UP\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\", \"LADDER\", \"GRASS\", \"CAVE\", \"SAND\", \"SNOW\", \"TALL_GRASS\", \"unseen\"}\n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n            is_passable = t_type in traversable_types and tile.find('Object') is None\n            grid[(x, y)] = {\"passable\": is_passable, \"type\": t_type}\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n    queue = deque([(player_pos, [])])\n    visited = {player_pos}\n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        if curr_x == target_x and curr_y == target_y:\n            print(json.dumps(path))\n            return\n        if abs(curr_x - target_x) + abs(curr_y - target_y) == 1:\n            if not grid.get((target_x, target_y), {}).get(\"passable\"):\n                print(json.dumps(path))\n                return\n        for dx, dy, move in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid and grid[(nx, ny)][\"passable\"] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [move]))\n    print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = [[True for _ in range(width)] for _ in range(height)]\n    impassable_types = ['WALL', 'HEADBUTT_TREE', 'MART_SHELF', 'COUNTER', 'WATER', 'BOULDER', 'TABLE', 'PC', 'STAIRS_UP', 'STAIRS_DOWN', 'BOOKSHELF']\n    \n    start_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            \n            if t_type in impassable_types:\n                grid[y][x] = False\n            \n            if tile.attrib.get('has-object') == 'true':\n                grid[y][x] = False\n                \n            for marker in tile.findall('Marker'):\n                if 'Wall' in marker.text or '🧱' in marker.attrib.get('emoji', ''):\n                    grid[y][x] = False\n            \n            if tile.find('Player') is not None:\n                start_pos = (x, y)\n                grid[y][x] = True\n                \n    if start_pos is None:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(start_pos, [])])\n    visited = {start_pos}\n    \n    if not grid[target_y][target_x]:\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = target_x + dx, target_y + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[ny][nx]:\n                target_x, target_y = nx, ny\n                break\n        else:\n            print(json.dumps([]))\n            return\n\n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n                \n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -42,6 +42,11 @@
         "commit_message": "Improved traversable types to include 'unseen' for optimistic pathfinding and added logic to path to adjacent tiles if the target is impassable (e.g., an NPC or wall).",
         "timestamp": "2025-12-22T05:52:22.947Z",
         "action_counter": 11104
+      },
+      {
+        "commit_message": "Added MART_SHELF and COUNTER to impassable types and improved object/marker collision handling.",
+        "timestamp": "2025-12-23T00:55:17.780Z",
+        "action_counter": 13197
       }
     ]
   },
