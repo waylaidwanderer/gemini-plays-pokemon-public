@@ -15,8 +15,8 @@
 
 ## Status
 - Current Funds: ¥191.
-- Super Repels: 5 remaining (1 active used Turn 15446).
-- Lead: XENON (Lv17). Note: Repel Trick requires Lv18 for 100% efficiency on Route 42; currently best-effort.
+- Super Repels: 5 remaining.
+- Lead: XENON (Lv17). Note: Repel Trick requires Lv18 for 100% efficiency on Route 42; currently performing "best effort" pacing.
 
 ## Tile Mechanics Scientific Testing
 ### FLOOR_UP_WALL Verification
