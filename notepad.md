@@ -42,3 +42,4 @@
 - **Observation (Turn 14503):** System reported `(12, 12)` changed FLOOR -> WALL.
 - **Revised Hypothesis:** S1=ON opens `(12, 8)` and `(16, 10)`, but CLOSES `(12, 12)`.
 - **Conclusion:** Inner East Path (Column 12) is blocked. Must proceed down Column 16.
+- **Path to Switch 3:** Navigate `(16, 2) -> (16, 4) -> (4, 4) -> (4, 2) -> (2, 2)` to avoid Rocket Grunts at `(11, 2)` and `(3, 4)`.
