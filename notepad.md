@@ -22,5 +22,4 @@
 - Sweet Scent failed at (14, 6), (10, 11), and (14, 10). These tiles are "safe".
 
 ## Battle Observations
-- Target: Gastly (Lv 6, Female).
-- Status: Catching with Great Balls.
+- XENON (Gastly) caught at Lv 6 (Female) at Turn #13924.
