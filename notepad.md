@@ -10,6 +10,7 @@
 - Ghost-type Moves: Lick (Ghost) does not affect Normal types.
 - Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
 - Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune); misses are due to accuracy/luck.
+- Switching: Clears confusion and resets stat changes.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
 - Menu Wrapping: The Start menu (8 items) and Party menu (6 items) in Crystal wrap. Tracking cursor position is mandatory for tool reliability.
@@ -24,18 +25,18 @@
 ## Route 32 Observations
 - Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
 - Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
-- Fisher NPC: Located at (15, 13) (marked 📍).
 
 ## Hypnosis Mystery
 - Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.
 - Fact: Wooper is Water/Ground. Gastly is Ghost/Poison. Neither is immune to Psychic status moves in standard Gen 2.
-- Hypothesis: In this game/ROM, "It didn't affect" might be used for misses, or type immunities have been altered. Needs further testing.
+- Hypothesis 1: In this game/ROM, "It didn't affect" might be used for misses, or type immunities have been altered.
+- Hypothesis 2: Status moves like Hypnosis fail with "It didn't affect..." if the target already has a status condition (verified Gen 2 mechanic).
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile.
 - WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN: Jumpable one-way movement. Verified at (14, 6).
+- LEDGE_HOP_DOWN: Jumpable one-way movement south. Verified at (16, 15).
 - WARP_CARPET: Map transition. Verified.
 - WATER: Traversable with HM SURF. Verified.
 - ICE: Sliding movement. Verified.
