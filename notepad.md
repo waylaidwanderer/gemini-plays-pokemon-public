@@ -20,13 +20,15 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (23, 3).
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Observation:** (20, 6) is CLOSED with S2=ON.
+- **Action:** Try Combination S2=ON + S3=ON.
 - **Plan:**
-  1. Walk to (20, 5).
-  2. Check if Shutter at (20, 6) is OPEN.
-  3. If Open, proceed South to Emergency Switch.
-  4. If Closed, I need to rethink the puzzle logic. Maybe specific combinations like S2+S3?
+  1. Move to Switch 3 (2, 1).
+  2. Turn S3 ON.
+  3. Return to (20, 6).
+  4. Check if OPEN.
+  5. If closed, try S1=ON + S2=ON.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
