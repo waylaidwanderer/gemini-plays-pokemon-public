@@ -17,9 +17,9 @@
     - **OFF:** Fail-Safe Test Failed.
     - **Current:** ON.
 - **S3 (2, 1):** Emergency Override.
-    - **ON:** Emergency Mode.
-    - **OFF:** Standard Mode.
+    - **Function:** Opens shutter at (2, 7).
     - **Current:** OFF.
+- **Emergency Switch (20, 11):** Located behind shutter (20, 6). Unreachable.
 
 ## Switch Room Exploration Data
 - **West Room (Col 2):** Blocked at Row 10.
