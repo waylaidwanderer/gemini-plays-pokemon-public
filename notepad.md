@@ -29,10 +29,10 @@
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
 - **Switch 2 (10, 1):** Main Power.
-    - **Status:** OFF (Verified).
-    - **Current State:** S1=OFF, S2=OFF, S3=OFF.
-    - **Hypothesis:** Power Down. Electronic locks on shutters `(17, 6)` and `(20, 6)` might be released.
-    - **Plan:** Check shutters `(17, 6)` and `(20, 6)`. Also check if Gates `(6, 8)`/`(12, 8)` still function or are frozen.
-    - **Status:** Moving to check shutters now.
+    - **Status:** OFF.
+    - **Observation:** With S2=OFF, Central Gates `(10, 6)`/`(11, 6)` and West Gate `(6, 8)` appear to be CLOSED (Walls). This suggests S2=OFF cuts power to all gates, defaulting them to closed.
+    - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED.
+    - **New Plan:** Test S3=ON (Emergency) while S2=OFF (Main Power Down).
+    - **Hypothesis:** Emergency Switch might only work/toggle shutters when Main Power is out.
     - **Correction:** Updated marker for Inner East Gate (12, 8) to CLOSED (consistent with S1=OFF).
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
