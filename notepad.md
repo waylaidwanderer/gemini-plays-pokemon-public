@@ -123,3 +123,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Current State:** S1=OFF, S2=ON, S3=ON.
 - **Next Step:** Navigate to Switch 3 (2, 1) and turn it OFF.
 - **Goal:** Reach state S1=OFF, S2=ON, S3=OFF.
+- **Action:** Navigating to Switch 3 to turn it OFF.
+- **Hypothesis:** Reaching state S1=OFF, S2=ON, S3=OFF.
+- **Expectation:** This should open Gate (10, 6) and West Gate (6, 8), allowing access to the West Room from the North.
