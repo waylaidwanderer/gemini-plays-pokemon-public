@@ -3,7 +3,7 @@
     - **Horizontal 1 (6, 8):** CLOSED (WALL) with Switch 3 ON.
     - **Horizontal 2 (6, 12):** OPEN (FLOOR) with Switch 3 ON.
     - **Horizontal 3 (12, 8):** OPEN (FLOOR) with Switch 3 ON.
-    - **Vertical 5 (20, 6):** Status in 3-ON unknown (was closed in 3-OFF).
+    - **Vertical 5 (20, 6):** Status in 3-ON unknown.
 
 # Map Structure & Route
 - **Goldenrod Underground (3_53):** Divided into isolated sections.
@@ -15,13 +15,10 @@
 
 # Strategy
 - **Current Status:** All Switches (1, 2, 3) ON.
-- **New Path:**
-    - Switch 3 ON opened (6, 12).
-    - Navigate South to Row 12, Cross (6, 12).
-    - Bypass Burglar at (9, 12) via Row 13.
-    - Head North via column 10/11 to Row 8.
-    - Cross (12, 8) to reach East side.
+- **Observation:** (6, 8) is CLOSED. Cannot go East.
+- **Deduction:** Switch 3 ON closes (6, 8).
 - **Plan:**
-    1. Navigate to (8, 12).
-    2. Go around Burglar.
-    3. Check (12, 8) and (20, 6).
+    1. Turn Switch 3 OFF to open (6, 8).
+    2. Cross to Middle Area (x=7-11).
+    3. Access Switch 2 at (10, 1).
+    4. Manipulate switches to open path to East Area (x>12) via (12, 8).
