@@ -4,10 +4,12 @@
 - Repel Tracking:
   - Super Repel #1: Turn #13364 (Wore off Turn #13387).
   - Super Repel #2: Turn #13391 (Expected to wear off ~Turn #13411).
-- Location: Pacing (Grass Dance) at (28, 7) on Route 38.
 - Tracking: Use Pokedex AREA map.
-- Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Capture Notes: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1. Suicune is Lv 40.
+- Battle Plan:
+  - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
+  - Expect Suicune to flee on Turn 1 before Sleep Powder.
+  - Strategy: Multiple encounters to chip HP, or find a faster Sleep user/Mean Look trapper if progress stalls.
+- Capture Notes: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1 *if* the user is faster. Suicune is Lv 40.
 - Roamer Logic: Roamers only move when map boundaries are crossed, Fly is used, or after a battle with the roamer. Pacing or regular wild battles do not move them.
 
 # Roaming Pokémon Reference
@@ -15,12 +17,12 @@
 - Logic: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
 - Tracking: Suicune's location is verified visually via Pokedex AREA map. It is currently on Route 38 (west of Ecruteak City).
 
-# Global Tile Mechanics
-- TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
-- FLOOR: Traversable. Standard ground.
+# Tile Mechanics
+- TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick filters encounters based on lead level.
+- FLOOR: Traversable. Standard collision-free ground.
 - WALL / HEADBUTT_TREE / MART_SHELF / COUNTER: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
-- WARP_CARPET: Traversable. Triggers map transition.
+- WARP_CARPET: Traversable. Triggers map transition (warp).
 - Mechanism: To interact with NPCs behind COUNTER tiles, face the counter and press A.
 
 # Route 38/39 Boundary Reference
@@ -37,3 +39,4 @@
 - State Sync: Always verify inventory and money against Game State Information.
 - Map Limits: Route 39 is 20 tiles wide (X=0 to 19). (20, 8) is out of bounds.
 - Input Hygiene: Avoid mixing directional and action buttons in a single `press_buttons` call.
+- Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
