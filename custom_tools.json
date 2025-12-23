@@ -98,12 +98,12 @@
     ]
   },
   "use_sweet_scent": {
-    "description": "Automatically uses Sweet Scent from the first Pokemon in the party. Must be used from the overworld with no menus open.",
+    "description": "Automatically uses Sweet Scent from the Pokémon in slot 6 (KIMCHI). Robust against menu state and cursor position.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# KIMCHI is currently in slot 6.\nbuttons = [\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\"]\nfor _ in range(5): buttons.append(\"Down\")\nbuttons.extend([\"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\n# KIMCHI (Gloom) is in slot 6.\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\"]\nbuttons.extend([\"Up\"] * 8)\nbuttons.extend([\"Down\", \"sleep 500\", \"A\", \"sleep 500\"])\nbuttons.extend([\"Up\"] * 6)\nbuttons.extend([\"Down\"] * 5)\nbuttons.extend([\"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -154,6 +154,11 @@
         "commit_message": "Updated to select KIMCHI in slot 6 after party swap. Verified SWEET SCENT is the first field move. Added sequence to clear encounter text.",
         "timestamp": "2025-12-23T08:33:38.739Z",
         "action_counter": 13981
+      },
+      {
+        "commit_message": "Robust implementation: exits menus, resets cursor position to POKEDEX, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Added extra A presses and sleep for reliable text clearing.",
+        "timestamp": "2025-12-23T08:35:30.207Z",
+        "action_counter": 13983
       }
     ]
   },
