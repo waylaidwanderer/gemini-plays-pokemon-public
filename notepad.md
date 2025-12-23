@@ -209,3 +209,5 @@
     - Possibility: S3 ON overrides S2 OFF for the North Gate?
     - Possibility: S2 controls West Gate (6, 8) but not North (10, 6)?
 - **Action:** Going to check (20, 6). If (20, 6) opens, S3 is indeed the "Emergency" key.
+- **Suspicion:** S2 might still be ON because West/North gates are OPEN.
+- **Action:** Going to verify S2 state. If ON, turn OFF.
