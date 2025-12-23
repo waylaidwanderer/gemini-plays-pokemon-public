@@ -19,17 +19,15 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=OFF, S3=ON.
-- **Location:** Switch Room (2, 2).
-- **Action:** Turn Switch 3 OFF.
+- **State:** S1=OFF, S2=ON (Turning ON), S3=OFF.
+- **Location:** Switch Room (10, 2).
+- **Action:** Turn Switch 2 ON.
 - **Plan:**
-  1. Turn Switch 3 OFF.
-  2. Turn Switch 2 ON. (State: S1=OFF, S2=ON, S3=OFF).
-  3. Exit the Switch Room to the Main Underground Tunnel.
-  4. Enter the locked door I opened earlier (Warehouse Entrance).
-  5. Navigate through the Warehouse to reach the East Room.
-  6. Check if (20, 6) is OPEN.
-  7. Access Emergency Switch.
+  1. Turn Switch 2 ON.
+  2. Exit Switch Room South to Main Tunnel.
+  3. Enter Warehouse via locked door (18, 6 in Main Tunnel).
+  4. Navigate Warehouse to East Room.
+  5. Check Shutter at (20, 6).
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
