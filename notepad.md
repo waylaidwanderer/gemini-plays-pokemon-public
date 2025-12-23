@@ -20,17 +20,16 @@
 6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
 
 ## Current Goal: Test S2=ON Solo (S1=OFF, S2=ON, S3=OFF)
-- **Status:** At (5, 3). Need to backtrack to Switch 3.
-- **Action:** Navigate to Switch 3 (2, 1) and turn **OFF**.
+- **Status:** At (2, 2). Ready to toggle S3.
+- **Action:** Turn Switch 3 (2, 1) **OFF**.
 - **State Tracking:**
     - S1: OFF
     - S2: OFF
-    - S3: ON (Turn off failed/pending)
+    - S3: ON -> OFF (Target)
 - **Plan:**
-  1. Navigate to (2, 2).
-  2. Turn S3 OFF.
-  3. Navigate to Switch 2 (10, 1) and turn ON.
-  4. Check Shutters.
+  1. Turn S3 OFF (Executing).
+  2. Navigate to Switch 2 (10, 1) and turn ON.
+  3. Check Shutters.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
