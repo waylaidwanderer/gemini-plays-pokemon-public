@@ -22,7 +22,7 @@
 
 # Current State
 - **Switch 1:** ON
-- **Switch 2:** ON (Verified).
+- **Switch 2:** OFF (Verified).
 - **Switch 3:** ON (Verified).
 - **Shutter (6, 8):** OPEN.
 - **Shutter (12, 8):** CLOSED.
@@ -30,12 +30,12 @@
 - **Shutter (12, 12):** FLOOR (Open?) based on XML.
 
 # Strategy
-- **Issue:** Cannot reach East Section from Middle because (12, 8) is closed and Row 10/11 are blocked.
-- **New Hypothesis:** The path to the East is via the **South** route (Row 12).
+- **Goal:** Reach East Section via South Route.
 - **Plan:**
-    1. Return to West Section (via open 6, 8).
+    1. Navigate to Switch 3 at (2, 2).
     2. Turn Switch 3 **OFF**.
        - This should CLOSE (6, 8) and OPEN (6, 12).
-    3. Go South through (6, 12).
-    4. Travel East along Row 12 to cross (12, 12) into East Section.
-    5. Reach Emergency Switch.
+    3. Go South to Row 12.
+    4. Travel East through (6, 12) along Row 12.
+    5. Cross (12, 12) into East Section.
+    6. Reaching Emergency Switch at (20, 11).
