@@ -10,7 +10,7 @@
 
 ## Hunting Session Tracking
 - Current Session Start: Turn #13803
-- Current Super Repel: Turn #13803 (Steps: 100/200)
+- Current Super Repel: Turn #13803 (Steps: 80/200)
 - Total Super Repels Used (Session): 1
 
 ## Tile Mechanics
