@@ -217,7 +217,9 @@
     - **Next:** Verify S3 is ON, then check (20, 6).
 - **Verification (Turn 14393):** Switch 2 is CONFIRMED OFF.
 - **Action:** Closing Switch 2 menu (leaving it OFF).
-- **Next:** Navigate to Switch 3 (2, 1) to verify it is ON.
+- **Verification (Turn 14402):** Switch 3 (2, 1) interaction started.
+- **Action (Turn 14403):** Confirming YES to turn S3 ON.
+- **Next:** Check (10, 6) and (20, 6).
 - **Observation:** Verified S2 is OFF.
 - **Action:** Deleting stale "Shutter Open" marker at (6, 8) because mental map confirms it is WALL (Closed).
 - **Next:** Verify S3 is ON at (2, 1).
