@@ -9,9 +9,9 @@
 
 ## Switch Logic (Verified in 3_54)
 - **S1 (16, 1):** Toggles East/West.
-    - **ON:** Closes `(17, 10)`. Opens `(12, 8)`.
-    - **OFF:** Opens `(6, 8)` (West). Should OPEN `(17, 10)`.
-    - **Current:** OFF.
+    - **ON:** Opens `(12, 8)`. Closes `(6, 8)`.
+    - **OFF:** Opens `(6, 8)`. Likely Opens `(17, 10)`.
+    - **Current:** ON (Inferred from open gate).
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
     - **OFF:** Fail-Safe Test Failed.
