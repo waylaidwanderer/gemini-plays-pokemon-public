@@ -9,17 +9,18 @@
 - **Current Task:** Access the Southeast Underground section to find Switch 2 & 3.
 - **Key Item:** BASEMENT KEY (Obtained).
 
-# Puzzle Strategy
-- **Goal:** Reach the Northeast section via the North Gate (Row 8).
-- **Current State:** North Gate (10, 8) is CLOSED. South Gate (10, 12) is OPEN.
-- **Hypothesis:** The gates toggle based on where the Black Belt sees the player.
-    - Being seen at North (Row 8/9) -> Closes North, Opens South.
-    - Being seen at South (Row 11/12) -> Closes South, Opens North.
-- **Result:** Failed. Standing at (9, 11) also did not close the South Gate. The gates do not seem to toggle based on simple proximity or line of sight in this way.
-- **New Plan:**
-    1. Talk to the moving Black Belt (ID 5) at (9, 10). Maybe interaction triggers the switch or gives a clue.
-    2. If that fails, try approaching the Black Belt from the side (Col 8 -> Row 10) or from the North (reset room first).
-    3. Alternative: Check if there's a switch on the wall or elsewhere.
+# Puzzle Strategy (Started Turn 13143)
+- **Goal:** Open North Gate (10, 8) on Map 3_55.
+- **Mechanic:** Shifting walls (Gates) at (10, 8) and (10, 12).
+- **Clue:** Black Belt (ID 6) at (4, 8) says: "I lose my passion for work if someone's watching."
+- **Hypothesis:** "Watching" Black Belt ID 6 (standing in his line of sight) will STOP him from working, which might OPEN the North Gate.
+- **Previous Failures:**
+  - Normal Approach (Col 9): Gates Closed.
+  - Stealth Approach (Col 8): Gates Closed.
+- **Current Plan:**
+  1. Exit Elevator (Reset).
+  2. Navigate to (4, 7) to stand directly in front of Black Belt ID 6.
+  3. Verify if North Gate (10, 8) opens.
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
