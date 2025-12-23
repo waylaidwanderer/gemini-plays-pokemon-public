@@ -129,5 +129,43 @@
         "action_counter": 15005
       }
     ]
+  },
+  "roamer_encounter_looper": {
+    "description": "Generates a sequence of button presses to pace back and forth between two adjacent coordinates to trigger wild encounters while a Repel is active. Specifically designed for roamer hunting. Outputs a JSON array of button strings.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "coord1_x": {
+          "type": "integer"
+        },
+        "coord1_y": {
+          "type": "integer"
+        },
+        "coord2_x": {
+          "type": "integer"
+        },
+        "coord2_y": {
+          "type": "integer"
+        },
+        "iterations": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "coord1_x",
+        "coord1_y",
+        "coord2_x",
+        "coord2_y",
+        "iterations"
+      ]
+    },
+    "python_script": "import json\n\ndef generate_pacing_buttons(c1_x, c1_y, c2_x, c2_y, iters):\n    buttons = []\n    # Determine the direction between the two points\n    if c1_x < c2_x:\n        dir1, dir2 = \"Right\", \"Left\"\n    elif c1_x > c2_x:\n        dir1, dir2 = \"Left\", \"Right\"\n    elif c1_y < c2_y:\n        dir1, dir2 = \"Down\", \"Up\"\n    else:\n        dir1, dir2 = \"Up\", \"Down\"\n    \n    for _ in range(iters):\n        buttons.append(dir1)\n        buttons.append(dir2)\n    return buttons\n\ninput_data = locals().get('input_data', {})\nc1x = int(input_data.get('coord1_x', 51))\nc1y = int(input_data.get('coord1_y', 12))\nc2x = int(input_data.get('coord2_x', 52))\nc2y = int(input_data.get('coord2_y', 12))\niters = int(input_data.get('iterations', 10))\n\nprint(json.dumps(generate_pacing_buttons(c1x, c1y, c2x, c2y, iters)))",
+    "history": [
+      {
+        "commit_message": "Refined roamer_encounter_looper to prioritize efficiency and state verification.",
+        "timestamp": "2025-12-23T20:28:20.548Z",
+        "action_counter": 15218
+      }
+    ]
   }
 }
