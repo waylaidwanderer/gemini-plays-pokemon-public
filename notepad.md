@@ -38,3 +38,20 @@
 - State Sync: Always verify inventory and money against Game State Information.
 - Repel Hygiene: Use sleep commands between menu actions to ensure they register.
 - Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
+
+# Inventory Order (Observed Turn #13493)
+1. PSNCUREBERRY
+2. X ATTACK
+3. BITTER BERRY
+4. ICE BERRY
+5. MAX ETHER
+6. FULL HEAL
+7. ICE HEAL
+8. X SPECIAL
+9. GUARD SPEC.
+10. LEMONADE
+11. FRESH WATER
+12. SUPER POTION
+13. AMULET COIN
+14. REVIVE?
+15. SUPER REPEL? (Target for Repel Trick)

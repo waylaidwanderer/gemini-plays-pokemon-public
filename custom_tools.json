@@ -151,9 +151,9 @@
     ]
   },
   "check_suicune_location_v8": {
-    "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Assumes cursor starts on EXIT.",
+    "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Cursor-independent reset.",
     "input_schema": {},
-    "python_script": "import json\n\ndef check_suicune_location():\n    # Sequence: Start (opens on EXIT), Down (POKEDEX), A, A (Open list), Right (AREA), A (View), sleep 3000, B*4\n    buttons = [\"Start\", \"sleep 1000\", \"Down\", \"sleep 100\", \"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]\n    print(json.dumps(buttons))\n\ncheck_suicune_location()",
+    "python_script": "import json\n\ndef check_suicune_location():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*7 (POKEDEX), A, A (Open list), Right (AREA), A (View), sleep 3000, B*4\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(7):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.extend([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\ncheck_suicune_location()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -164,13 +164,18 @@
         "commit_message": "Refined check_suicune_location to handle cursor starting on EXIT.",
         "timestamp": "2025-12-23T03:46:56.673Z",
         "action_counter": 13492
+      },
+      {
+        "commit_message": "Restored robust cursor-independent navigation.",
+        "timestamp": "2025-12-23T03:49:25.976Z",
+        "action_counter": 13493
       }
     ]
   },
   "use_super_repel_v4": {
-    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 13th slot. Assumes cursor starts on EXIT.",
+    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 15th slot. Robust cursor-independent reset.",
     "input_schema": {},
-    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: Start (opens on EXIT), Down*3 (PACK), A, Up*20 (Reset to Item 1), Down*12 (Item 13), A, A, B*3\n    buttons = [\"Start\", \"sleep 1000\", \"Down\", \"sleep 50\", \"Down\", \"sleep 50\", \"Down\", \"sleep 50\", \"A\", \"sleep 1000\"]\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
+    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*5 (PACK), A, Up*20 (Reset to Item 1), Down*14 (Item 15), A, A, B*3\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(5):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 15th item (Guessing Super Repel based on Turn 13493 scroll)\n    for _ in range(14):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -181,6 +186,11 @@
         "commit_message": "Refined use_super_repel to handle cursor starting on EXIT.",
         "timestamp": "2025-12-23T03:46:56.673Z",
         "action_counter": 13492
+      },
+      {
+        "commit_message": "Restored robust cursor-independent navigation and updated item index to 15.",
+        "timestamp": "2025-12-23T03:49:25.976Z",
+        "action_counter": 13493
       }
     ]
   }
