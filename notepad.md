@@ -61,14 +61,14 @@
 - **Next Step:** Explore Middle Section, verify shutters (6, 8) and (12, 8), and talk to Burglar at (4, 8).
 
 ## Current Goal: Execute Combination S1=ON, S2=OFF, S3=OFF
-- **Action:** Toggling Switch 2 (10, 1) OFF.
+- **Action:** Navigate to Switch 3 (2, 1) and turn OFF.
 - **State Tracking:**
     - S1: OFF
-    - S2: ON -> OFF (Pending)
+    - S2: OFF
     - S3: ON
 - **Plan:**
-  1. Toggle S2 OFF (Executing Now).
-  2. Navigate to S3 (2, 1) and turn OFF.
+  1. Toggle S2 OFF (Done).
+  2. Navigate to Switch 3 (2, 1) and turn OFF.
   3. Navigate to S1 (16, 1) and turn ON.
   4. Verify path to Emergency Switch via (10, 6) and (12, 8).
 ## Reflection (Turn 13663)
