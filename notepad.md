@@ -12,7 +12,7 @@
   1. Chip damage and status are persistent across encounters.
   2. Aim to inflict Sleep (Sleep Powder) to prevent fleeing on Turn 1 in subsequent encounters.
   3. **Contingency:** If progress stalls after 5 encounters, catch a faster Pokémon with Mean Look or Hypnosis (e.g., Haunter).
-- **Capture Probability:** [To be updated after analyst result]
+- **Capture Probability:** 0.39% (Base HP, No Status, Great Ball). Using Sleep Powder is the priority.
 
 ## Route 38 Tile Mechanics
 - **TALL_GRASS:** Traversable. Triggers wild encounters. Repel Trick filters based on lead level.
