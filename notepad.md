@@ -1,6 +1,13 @@
 # Goldenrod Underground Switch Puzzle
 
-## Switch Logic (Verified)
+## Current Status
+- **Location:** Goldenrod Underground (Map 3_53), SE Section `(22, 27)`.
+- **Context:** I took the ladder at `(23, 3)` in the Switch Room (`3_54`).
+- **Goal:** Rescue Director (Likely back in `3_54`).
+- **Hypothesis:** The ladder might have been an exit/shortcut *out* of the puzzle area, not a path *to* the Director.
+- **Immediate Plan:** Explore this small SE section. If it leads to the main tunnel (exit), return up the ladder to `3_54` and solve the Switch Puzzle.
+
+## Switch Logic (Verified in 3_54)
 - **S1 (16, 1):** Toggles East/West.
     - **ON:** Closes `(17, 10)`. Opens `(12, 8)`.
     - **OFF:** Opens `(6, 8)` (West). Should OPEN `(17, 10)`.
@@ -14,10 +21,7 @@
     - **OFF:** Standard Mode.
     - **Current:** OFF.
 
-## Current Strategy
-**Goal:** Rescue Director.
-**New Plan:** Flank via Ladder.
-- The direct paths South (Cols 12, 16, 17) have proven difficult/blocked or require specific switch combos I haven't perfectly nailed down or traversed.
-- **Ladder at (23, 3)** provides an alternative route to the Southeast section.
-- **Status:** S1=OFF, S2=ON, S3=OFF.
-- **Next Step:** Take Ladder at (23, 3).
+## Switch Room Exploration Data
+- **West Room (Col 2):** Blocked at Row 10.
+- **Inner East (Col 12):** Blocked at `(12, 12)` when S1=ON.
+- **Middle East (Col 17):** Likely the correct path. Needs S1=OFF?
