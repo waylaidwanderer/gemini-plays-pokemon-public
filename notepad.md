@@ -20,15 +20,14 @@
 
 ## Current Status
 - **State:** S1=ON, S2=OFF, S3=ON.
-- **Location:** Switch Room (2, 2).
-- **Action:** Check Shutter at (12, 8).
+- **Location:** Switch Room (2, 4).
+- **Action:** Check Shutter at (20, 6).
 - **Plan:**
-  1. Move to (12, 8).
-  2. Check if (12, 8) is OPEN.
-  3. If Open, enter and check (20, 6).
-  4. If Closed, this combination is invalid for entry. Need to rethink.
+  1. Move to (20, 5).
+  2. Check if (20, 6) is OPEN.
+  3. If Open, proceed South.
+  4. If Closed, try other combinations.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
-- **Hypothesis:** Access is via the East Room.
-- **Blocker:** S2=ON blocks East. Must reset.
+- **Hypothesis:** Switch 3 should open the Far East Shutter at (20, 6).
