@@ -39,3 +39,7 @@
 - **Realization:** S2 OFF closes the gate at (10, 6), trapping me in the North section.
 - **Solution:** There is a Ladder/Warp at (23, 3) labeled "To Underground SE". This likely bypasses the barriers.
 - **Plan:** Since S1=ON, S2=OFF, S3=OFF is the configuration to open the East Shutter (12, 8), I will keep the switches as they are and take the ladder at (23, 3) to reach the other side.
+- **Correction:** The ladder at (23, 3) on Map 3_54 led back to the Warehouse (Map 3_53) at (22, 27).
+- **Current Location:** Warehouse (Map 3_53, SE Section).
+- **Insight:** I previously skipped exploring this room to take the ladder. The Director might be HERE.
+- **Plan:** Explore the Warehouse maze (West of the ladder) before returning to the switch puzzle.
