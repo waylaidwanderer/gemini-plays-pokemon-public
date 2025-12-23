@@ -20,14 +20,15 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=OFF, S3=ON.
-- **Location:** East Shutter (12, 8).
-- **Observation:** East Shutter at (12, 8) is OPEN with S3=ON.
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Action:** Test Shutter at (20, 6).
+- **Observation:**
+  - (12, 8) is OPEN with S3=ON (and S1/S2 OFF).
+  - (20, 6) is the next target.
 - **Plan:**
-  1. Move to (20, 5).
-  2. Check if Shutter at (20, 6) is OPEN.
-  3. If Open, proceed South.
-  4. If Closed, I'll need a new theory (maybe S2 controls it, requiring entry via another path).
+  1. Attempt to enter (20, 6).
+  2. If blocked, the combination for (20, 6) is different.
+  3. Possible next test: S2=ON (since S2 opens North Shutter (10, 6)).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
