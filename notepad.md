@@ -186,3 +186,9 @@
   2. Inspect Shutters (20, 6) and (22, 6)/(23, 6).
   3. If open, proceed South to (20, 11).
   4. If closed, re-evaluate puzzle logic (maybe S1=OFF, S2=ON, S3=ON?).
+## Reflection (Turn 14287)
+- **Execution:** Generally good, but lost time due to incorrect Switch 2 state assumption. Fixed by verification.
+- **Strategy:** The "West Shutter" path led to a small room with a Pharmacist and no obvious exit. This might be a dead end or I'm missing a trigger.
+- **Pivot:** If this room yields nothing, the primary hypothesis ("Director is behind shutters") is likely partially wrong. He is probably in the Warehouse itself.
+- **Plan:** Quickly check this room. If empty, return to **Warehouse SE Room** (via Ladder 23, 3) and explore the *interior* of the Warehouse, which I previously skimmed.
+- **Lesson:** "Map Logic" (Unseen tiles) hints at a large area south of here. If I can't reach it from here, I must reach it from the Warehouse map.
