@@ -150,35 +150,27 @@
       }
     ]
   },
-  "check_suicune_location_v7": {
+  "check_suicune_location_v8": {
     "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Resets menu state and cursor position for reliability. Assumes cursor starts on PACK.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\ndef main():\n    # Robust Suicune Check\n    # Reset menu by pressing B multiple times, then Start.\n    # Cursor starts on PACK (index 2).\n    # POKEDEX is index 0.\n    # Press Up twice to reach POKEDEX.\n    \n    buttons = [\n        \"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 1000\",\n        \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \n        \"A\", \"sleep 1000\", # Open Pokedex\n        \"A\", \"sleep 1000\", # Select Suicune\n        \"Right\", \"sleep 500\", # Move to AREA\n        \"A\", \"sleep 3000\", # Open AREA map\n        \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\" # Exit\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "input_schema": {},
+    "python_script": "import json\n\ndef check_suicune_location():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*7 (POKEDEX), A, A (Open list), Right (AREA), A (View), sleep 3000, B*4\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(7):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.extend([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\ncheck_suicune_location()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-23T03:05:01.157Z",
-        "action_counter": 13441
-      },
-      {
-        "commit_message": "Fixing cursor navigation: Press Up 2 times to reach Pokedex from PACK, assuming menu wraps and has 8 items.",
-        "timestamp": "2025-12-23T03:20:28.265Z",
-        "action_counter": 13466
+        "timestamp": "2025-12-23T03:44:01.427Z",
+        "action_counter": 13490
       }
     ]
   },
-  "use_super_repel_v3": {
+  "use_super_repel_v4": {
     "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 13th slot. Includes robust menu reset. Starts from overworld.",
     "input_schema": {},
-    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: Start, Up*5 (Reset to POKEDEX), Down*2 (PACK), A, Up*20 (Reset to Item 1), Down*12 (Item 13), A, A, B*3\n    buttons = [\"Start\", \"sleep 500\"]\n    for _ in range(5):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    for _ in range(2):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
+    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*5 (PACK), A, Up*20 (Reset to Item 1), Down*12 (Item 13), A, A, B*3\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(5):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-23T03:42:14.503Z",
-        "action_counter": 13488
+        "timestamp": "2025-12-23T03:44:01.428Z",
+        "action_counter": 13490
       }
     ]
   }
