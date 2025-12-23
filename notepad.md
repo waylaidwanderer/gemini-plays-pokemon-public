@@ -61,3 +61,7 @@
 - **Next:** If wall is solid, explore the South part of the East Room (Rows 6-18) for switches or items.
 - **Observation:** North Gate (10, 8) is OPEN. South Gate (10, 12) is CLOSED.
 - **Goal:** Reach Ladder at (17, 2).
+- **Conclusion:** The Blue Barrier at Row 4 is solid and blocks access to the North.
+- **Deduction:** The Ladder at (17, 2) is an *entrance* from the Warehouse (accessed via Underground Switch 1 area), not an exit from here.
+- **Next Step:** Return to Underground. Find the path to the Warehouse and the Director.
+- **Hypothesis:** The "Locked Door" in the Underground (which I have the key for) leads to the area containing the Director and the other side of this ladder.
