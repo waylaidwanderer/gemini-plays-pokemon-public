@@ -43,3 +43,11 @@
 - (20, 6) is the key chokepoint.
 - Emergency Switch is at (20, 11).
 - Door at (22, 10) is likely the Director's room.
+- **Verification:**
+  - I am standing at (10, 6), so (10, 6) is **OPEN**.
+  - S2 must be **OFF** (since S1 is ON and S1+S2(ON) closes (10, 6)).
+  - Previous observation: S1(ON)+S2(OFF) opens (12, 8).
+  - **Conclusion:** Path to Emergency Switch should be open.
+
+## Current Goal: Reach Emergency Switch
+- **Action:** Walk through (10, 6) -> (12, 8) -> (20, 11).
