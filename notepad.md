@@ -40,7 +40,7 @@
 ## Event: Yanma Swarm
 - Source: Arnie (Bug Catcher) phone call.
 - Location: Route 35.
-- Status: Active (Turn 14571 - Timestamp: 14571).
+- Status: Encountered at (8, 9). Attempting capture.
 - Strategy: Use KIMCHI (Gloom) for Sleep status.
 - Battle Plan: Sleep Powder -> Great Balls. (Note: Avoid damaging further; Yanma is fragile).
 
