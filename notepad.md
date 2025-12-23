@@ -33,3 +33,5 @@
 - **Plan:** Use Cross Chop. Sneasel is Dark/Ice, so Fighting is 4x effective. One hit KO guaranteed.
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
+- **Battle Result:** Defeated Silver! Muscle swept his team.
+- **Next Step:** Battling the Rocket Grunt at (17, 2) to reach the switch.
