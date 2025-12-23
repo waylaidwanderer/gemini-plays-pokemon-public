@@ -9,13 +9,13 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
-- **Current Status:** Switch 1 ON (Step 1 Complete). Switch 2 OFF. Switch 3 OFF.
-- **Next Step:** Turn Switch 2 ON.
+- **Current Status:** Switch 1 ON. Switch 2 ON (Step 2 Complete). Switch 3 OFF.
+- **Next Step:** Turn Switch 3 ON.
 - **Hypothesis:** 1-2-3 sequence will open the correct path to the Emergency Switch.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
-- **Switch 2:** Map 3_54 (OFF).
+- **Switch 2:** Map 3_54 (ON).
 - **Switch 3:** Map 3_54 (OFF).
 - **Emergency Switch:** (20, 11).
 - **Eddie:** (3, 8) - West Path Dead End.
@@ -25,4 +25,4 @@
 - **Blockage:** Path South (Row 10) blocked in all columns with previous configs.
 - **West Path:** Confirmed Dead End.
 - **Observation:** Turning Switch 1 ON (Step 1) caused tiles (10, 6) and (10, 7) to change from FLOOR to WALL. Middle South Path is now CLOSED.
-- **Continuing Sequence:** 1 (ON) -> 2 (Next) -> 3.
+- **Continuing Sequence:** 1 (ON) -> 2 (ON) -> 3.
