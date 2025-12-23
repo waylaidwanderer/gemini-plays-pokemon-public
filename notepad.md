@@ -227,3 +227,6 @@
 - **Action:** Pressing A to check the next line of text.
     - If "It's ON", I will cancel (leave ON).
     - If "It's OFF", I will turn it ON.
+- **Verification (Turn 14404):** Switch 3 is confirmed ON.
+- **Action:** Closing menu (Leaving S3 ON).
+- **Next Step:** Navigate to (20, 5) to inspect the Outer East Shutter (20, 6).
