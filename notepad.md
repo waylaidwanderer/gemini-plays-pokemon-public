@@ -7,7 +7,7 @@
 - Step 5: Prepare Catcher. Obtain Parasect (Spore + False Swipe).
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
-## Completed Milestones
+## Completed Tasks
 - **Yanma Swarm (Route 35):** Caught Level 12 Female Yanma (INTERCEPT) using KIMCHI (Gloom) with Sleep Powder + Absorb. (Turn 14795).
 
 ## Global Tile Mechanics
