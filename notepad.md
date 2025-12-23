@@ -3,7 +3,7 @@
 - Step 1: Obtain Clear Bell. (COMPLETE)
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
-- Step 4: Track Suicune via Pokédex. (Turn 15423: Confirmed on Route 42).
+- Step 4: Track Suicune via Pokédex. (Turn 15453: Checking location...).
 - Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18 for Repel efficiency).
 - **Timestamp**: Suicune Hunt started Turn 15201, Tuesday, Dec 23, 1:00 PM.
 
@@ -11,11 +11,11 @@
 - Roamers move between adjacent maps whenever the player crosses a map boundary.
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
-- Repel Trick: Lead PKMN level must be Lv18. (XENON is Lv17).
+- Repel Trick: Lead PKMN level must be Lv18. (XENON is Lv17). Currently performing "best effort" pacing.
 
-## Financial Strategy
+## Status
 - Current Funds: ¥191.
-- Status: Purchased 6 Super Repels. (Turn 15421).
+- Super Repels: 5 remaining (1 active used Turn 15446).
 
 ## Tile Mechanics Scientific Testing
 ### FLOOR_UP_WALL Verification
@@ -25,7 +25,7 @@
 - **Result 1**: Movement blocked. (Turn 15363).
 - **Conclusion 1**: Entering from the North is impassable.
 - **Test 2**: Attempt to move North onto (59, 8) from (59, 9).
-- **Status 2**: Deferred. Entered Mahogany Mart. (Turn 15391).
+- **Status 2**: Deferred.
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
@@ -40,12 +40,10 @@
 ## Lessons Learned
 - **Custom Tool Hygiene**: find_path_v2 must return button strings if autopress_buttons is true. Fix applied Turn 15375.
 - **Navigation**: Route 42 ledge requires going around through the North path (y=7) to reach the South area.
+- **Menu Navigation**: When a menu has multiple options on the same row (e.g., Pokédex PAGE/AREA/CRY), explicitly use directional buttons to move the cursor before pressing A. (Turn 15426).
+- **Roamer Hunting**: Roamers move every time you cross a map boundary. Always re-verify location immediately after entering a new map. (Turn 15426).
 
 ## Route 42 Notes
 - Requirements: Surf (Ravioli), Cut (KIMCHI).
 - Pacing coordinate for encounters: (50, 12).
 - Adjacent Maps: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
-## Lessons Learned (Cont.)
-- **Menu Navigation**: When a menu has multiple options on the same row (e.g., Pokédex PAGE/AREA/CRY), explicitly use directional buttons to move the cursor before pressing A. (Turn 15426).
-- **Roamer Hunting**: Roamers move every time you cross a map boundary. Always re-verify location immediately after entering a new map. (Turn 15426).
-- **Repel Trick**: Currently have 6 Super Repels. Lead Pokémon XENON is Lv17. Target level for 100% efficiency on Route 42 is Lv18. (Turn 15426).
