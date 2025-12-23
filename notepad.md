@@ -22,8 +22,10 @@
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** OFF.
-    - **Status:** Shutter (2, 7) CLOSED (Confirmed).
-- **Emergency Switch (20, 11):** Located behind shutter (20, 6). Unreachable.
+    - **Status:** Checking Emergency Shutter (20, 6).
+- **Emergency Switch (20, 11):** Located behind shutter (20, 6).
+    - **Path A:** Through Shutter (20, 6). (Testing now).
+    - **Path B:** Via Ladder (23, 3) -> SE Section -> Ladder (21, 25) -> Door (22, 10).
 
 ## Switch Room Exploration Data
 - **West Room (Col 2):** Blocked by shutter at Row 6. (Controlled by S3?).
