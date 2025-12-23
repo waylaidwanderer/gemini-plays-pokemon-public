@@ -23,5 +23,5 @@
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 - Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50-100 steps.
-- Last Check: confirmed on Route 38 (Turn #13796). Check successful.
+- Last Check: confirmed on Route 38 (Turn #13812). Check successful.
 - Status: Super Repel active (Used Turn #13803). Steps: 60/200.
