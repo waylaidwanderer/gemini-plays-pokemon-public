@@ -1,10 +1,9 @@
 # Suicune Capture Strategy
 ## Strategy: The Mean Look Pivot
-1. Catch a Gastly in Sprout Tower (Night only, Lv 3-6).
-2. Train Gastly to Lv 13 to learn Mean Look.
-3. Evolve to Haunter (Lv 25) to ensure Base 95 Speed (Suicune is Base 85). Haunter needs to be faster than Suicune to use Mean Look before it flees.
-4. Track Suicune using Pokedex AREA map.
-5. Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
+- Train XENON (Gastly) to Lv 13 to learn Mean Look.
+- Evolve to Haunter (Lv 25) to ensure Base 95 Speed (Suicune is Base 85). Haunter needs to be faster than Suicune to use Mean Look before it flees.
+- Track Suicune using Pokedex AREA map.
+- Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile. Verified traversable.
@@ -29,9 +28,11 @@
 - Layout: Middle section (x=5 to x=14) is isolated. Access outer ring via 2F ladders.
 - Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe zones. (6, 5) on 2F is a valid encounter tile.
 
-## Training Plan: XENON
-- Goal: Train XENON to Lv 13 (Mean Look) then Lv 25 (Haunter).
-- Current Progress: Lv 8.
+## Training Plan: XENON (How)
+- Grind on Route 32 grass using Sweet Scent.
+- Target: Lv 13 for Mean Look.
+- Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
+- Use Fresh Water/Lemonade from pack to heal when HP < 10.
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
