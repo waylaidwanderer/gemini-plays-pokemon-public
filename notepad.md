@@ -71,6 +71,9 @@
   1. Select YES to turn S3 ON.
   2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
   3. Also verify if (6, 8) remains open.
-- **Action:** Walking South from (2, 2) to check if Row 10 shutters (e.g. at 2, 10) are open.
-- **Risk:** If S3 closes (6, 8), I might be temporarily trapped in this corridor if Row 10 doesn't open.
-- **Observation:** Will update map markers based on what I see at Row 10.
+- **Action:** Canceling the switch menu (keeping S3 ON).
+- **Reasoning:** I accidentally interacted with S3 again. I want it ON to test if it opens Row 10.
+- **Plan:**
+  1. Press B to leave S3 ON.
+  2. Walk South to (2, 10).
+  3. Verify if the shutter is open.
