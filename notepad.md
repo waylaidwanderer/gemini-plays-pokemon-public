@@ -46,7 +46,8 @@
 - Source: Arnie (Bug Catcher) phone call.
 - Location: Route 35.
 - Status: Active (Turn 14571 - Timestamp: 14571).
-- Strategy: Use Sweet Scent to trigger encounters. Catch with Great Balls.
+- Strategy: Lead with XENON (Gastly) for Normal immunity. Use KIMCHI's Sweet Scent to trigger encounters. 
+- Battle Plan: Hypnosis (Sleep) -> Chip with Lick -> Great Balls. (Note: Gastly doesn't have Night Shade until Lv 16).
 ## Wild Encounters
 ### Route 35
 - DITTO (Lv 10) - Observed at (8, 9).
