@@ -10,13 +10,13 @@
 - Cursor Persistence: The battle move menu remembers the last selected move across turns and battles. Always verify cursor position before confirming.
 - Menu Navigation: Start, Party, and Battle menus wrap. Use relative navigation for efficiency.
 - Tool Reliability: Custom tools must be verified and refined immediately if they produce incorrect results. Avoid calling complex tools in the same turn as opening a menu to prevent stale state issues.
-- Tile Navigability: NPCs, certain trees, and ledges block paths. Verify collision before planning long routes.
-- Battle Discipline: Verify cursor position after closing sub-menus or between turns.
+- Tile Navigability: NPCs, certain trees, and ledges block paths. Use 'run_code' to verify tile navigability before planning long routes.
+- Battle Discipline: Always check the move index before pressing A in battle, as the cursor remembers the previous selection.
 
 ## Verified Mechanics & Type Effectiveness
-- Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game. Hypothesis: Hoppip treated as Normal-type or Ghost type-chart changed.
-- Ghost Typing: Ghost is immune to Normal (Wrap, Leer) and Fighting moves. Lick (Ghost) is ineffective against Normal types.
-- Hypnosis: Fails on targets already affected by a status condition (e.g. Paralyzed, Sleep).
+- Ghost Immunity: Ghost-type Pokemon are immune to Normal (e.g., Wrap, Leer) and Fighting-type moves.
+- Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game. Hypothesis: Hoppip is treated as Normal-type or Ghost type-chart has been modified.
+- Hypnosis Failure: Hypnosis fails on targets already affected by a status condition (e.g., Paralyzed, Sleep).
 - Sweet Scent: Triggers immediate wild encounter on valid grass tiles.
 
 ## Training Log: XENON
