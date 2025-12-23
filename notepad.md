@@ -22,3 +22,8 @@
     1. Navigate to (20, 6).
     2. Check if Vertical 5 is open.
     3. If open, proceed South to Emergency Switch.
+- **Observation:** With Config (1 OFF, 2 OFF, 3 OFF):
+    - Vertical 5 (20, 6) is CLOSED (WALL).
+    - Vertical 4 (16, 6) is ... (Need to verify).
+- **Hypothesis:** Switch 1 does not control Vertical 5. Maybe Switch 2?
+- **Next Step:** Turn Switch 2 ON (Config: 1 OFF, 2 ON, 3 OFF). Check Vertical 5.
