@@ -25,16 +25,16 @@
 ## Test Result: S1=ON, S2=ON, S3=OFF
 - **Result:** (20, 6) CLOSED.
 
-## Current Goal: Test S1=OFF, S2=ON, S3=OFF
-- **Theory:**
-  - S1=ON closes (10, 6), blocking the north entrance.
-  - S2=ON opens (10, 6) and (12, 8).
-  - S3=OFF opens (10, 6) and (2, 6).
-  - Therefore, S1=OFF, S2=ON, S3=OFF should have BOTH (10, 6) and (12, 8) open, creating a path through the middle.
+## Current Goal: Retest S1=ON, S2=OFF, S3=OFF
+- **Analysis:**
+  - S2=OFF opens Outer (10, 6).
+  - S1=ON opens Inner (12, 8).
+  - I missed checking (10, 6) during the previous test of this combination.
+  - If both are true simultaneously, the middle path is open.
 - **Plan:**
-  1. Turn S2 ON (Done).
-  2. Turn S1 OFF (Done).
-  3. Enter (10, 6) -> (12, 8) -> Emergency Switch (Moving now).
+  1. Turn S1 ON (Currently OFF).
+  2. Turn S2 OFF (Currently ON).
+  3. Enter (10, 6) -> (12, 8) -> Emergency Switch.
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
