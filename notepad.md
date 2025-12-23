@@ -45,3 +45,7 @@
 - Requirements: Surf (Ravioli), Cut (KIMCHI).
 - Pacing coordinate for encounters: (50, 12).
 - Adjacent Maps: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
+## Lessons Learned (Cont.)
+- **Menu Navigation**: When a menu has multiple options on the same row (e.g., Pokédex PAGE/AREA/CRY), explicitly use directional buttons to move the cursor before pressing A. (Turn 15426).
+- **Roamer Hunting**: Roamers move every time you cross a map boundary. Always re-verify location immediately after entering a new map. (Turn 15426).
+- **Repel Trick**: Currently have 6 Super Repels. Lead Pokémon XENON is Lv17. Target level for 100% efficiency on Route 42 is Lv18. (Turn 15426).
