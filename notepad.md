@@ -42,3 +42,7 @@
 3. Enter West Room via `(2, 6)`.
 4. Pass through West Gate `(6, 8)`.
 5. Navigate to `(12, 12)`.
+- **Observation (Turn 14976):** Attempting to move into West Gate `(6, 8)` with S1=OFF, S2=ON, S3=ON.
+- **Hypothesis:** It will be blocked (WALL).
+- **Reasoning:** S3=ON seems to invert S1. S1=OFF normally closes East, so Inverted -> Opens East (Confirmed). Thus West should be Closed.
+- **Next Step if Blocked:** This combo opens the East Path. I must find an entry. `(10, 6)` is closed. `(6, 8)` is closed. The only remaining option is the NE Shutters `(20, 6)`. I must backtrack and check them.
