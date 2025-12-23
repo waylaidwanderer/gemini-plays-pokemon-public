@@ -40,3 +40,5 @@
 - **Hypothesis:** S1=ON opens Gate (12, 8). S3=OFF leaves Shutter (12, 12) open.
 - **Turn 14496:** S1 confirmed ON. Navigating to Inner East Gate (12, 8) and Shutter (12, 12).
 - **Pathing Update:** Direct access to Inner East path from North (Col 12, Row 4) is blocked by walls at (12, 6-7). Must enter via Central Gate (10, 6) and loop East at Row 8.
+- **Observation (Turn 14499):** System reported `(16, 10)` changed WALL -> FLOOR when S1 turned ON. This suggests a path might open at Col 16.
+- **Hypothesis:** S1=ON opens (12, 8) and (16, 10). Need to check if it also opens (12, 10) or (16, 11) to allow southward progress.
