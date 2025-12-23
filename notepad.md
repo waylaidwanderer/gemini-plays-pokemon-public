@@ -31,3 +31,5 @@
 - **Plan:** Use Cross Chop (Slot 4). It has STAB and high crit rate. Even neutral, it should crush Feraligatr (Lv 32).
 - **Battle Update:** Silver sent out Sneasel. Staying in with Muscle.
 - **Plan:** Use Cross Chop. Sneasel is Dark/Ice, so Fighting is 4x effective. One hit KO guaranteed.
+- **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
+- **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
