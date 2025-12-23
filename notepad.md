@@ -45,3 +45,6 @@
 - WARP_CARPET: Map transition. Verified.
 - COUNTER: Interaction point for NPCs; impassable.
 - NPC: Map objects that block movement. Verified.
+## NPC & Phone Contacts
+- Tully (Fisher): Mentioned he fishes on Route 42. (Turn 14300)
+- Arnie (Bug Catcher): Mentions Bug-Catching Contest on Route 35. (Turn 14276)
