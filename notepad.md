@@ -1,6 +1,6 @@
 # Suicune Capture Strategy (Crystal Version)
 ## Strategy: The Tin Tower Encounter
-- Goal: Obtain the Clear Bell from the Radio Tower Director (Goldenrod City).
+- Goal: Obtain the Clear Bell from the Radio Tower Director (Goldenrod City). (COMPLETE - Clear Bell is in Key Items)
 - Location: Tin Tower, Ecruteak City.
 - Requirements: Defeat the three Sages in the Wise Trios Room.
 - Preparation:
