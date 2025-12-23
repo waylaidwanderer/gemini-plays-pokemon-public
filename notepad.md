@@ -89,3 +89,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     - **Conclusion:** S3=ON overrides and closes the Inner East Shutter (12, 8).
     - **Hypothesis:** S3=ON might *open* the Outer East Shutter (20, 6) in exchange.
 - **Action:** Continuing to (20, 6) to verify.
+- **Action:** Bumping (20, 6) to definitively confirm closure with S1=ON, S2=ON, S3=ON.
+- **Next Step:** If closed, traverse East to check (22, 6) and (23, 6).
+- **Strategy Shift:** If S2=ON fails consistently, I must test S2=OFF combinations (which require looping through the Warehouse to bypass the closed North Gate).
