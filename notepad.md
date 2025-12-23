@@ -34,6 +34,5 @@
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
 - **Battle Result:** Defeated Silver (Muscle swept team).
-- **Status:** Flipping Switch 1 (Turned ON).
-- **Hypothesis:** This switch opens a door/shutter in the Warehouse (Map 3_53).
-- **Next Step:** Return to the Warehouse (Map 3_53) to see what changed.
+- **Status:** Returning to Warehouse (Map 3_53) via Ladder at (23, 3).
+- **Hypothesis:** Switch 1 (ON) opened a door/shutter in the Warehouse.
