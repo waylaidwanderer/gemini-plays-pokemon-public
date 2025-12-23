@@ -1,18 +1,18 @@
-# Suicune Hunt Strategy
+# Suicune Capture Strategy
 ## Repel Trick Setup
 - Lead: KIMCHI (Lv 21 Gloom).
-- Method: Super Repel filters wild Pokémon (Lv 13-16). Suicune (Lv 40) is the only encounter.
+- Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
+- Status: Activating Super Repel now.
 - Inventory: Super Repel x7. Confirmed at Slot 15 in PACK.
-- Verification: To check if Repel is active, attempt to use one; the game will say "The REPEL used earlier is still in effect."
+- Confirmed PACK Order:
+  1. PSNCUREBERRY, 2. X ATTACK, 3. BITTER BERRY, 4. ICE BERRY, 5. MAX ETHER, 6. FULL HEAL, 7. ICE HEAL, 8. X SPECIAL, 9. GUARD SPEC., 10. LEMONADE, 11. FRESH WATER, 12. SUPER POTION, 13. AMULET COIN, 14. REVIVE, 15. SUPER REPEL
 
-## Suicune Battle (Lv 40)
-- Flee Mechanic: Suicune flees on its first turn unless asleep or trapped.
-- Speed: Suicune (85) outspeeds KIMCHI (40). It will flee before Sleep Powder.
-- Strategy: Inflict Sleep to prevent fleeing in subsequent encounters. HP and status are persistent.
+## Suicune Battle Strategy
+- Mechanics: Suicune (Base Speed 85) flees on Turn 1. KIMCHI (Base Speed 40) is slower.
+- Strategy: Chip damage and status (Sleep) are persistent. Use Sleep Powder every encounter to eventually trap it.
 - Catch Rate: ~0.39% (Full HP, No Status, Great Ball). Increases to ~4.3% if asleep.
-- Contingency: If progress stalls, catch a faster Pokémon (e.g., Haunter for Hypnosis/Mean Look).
 
-## Navigation
+## Route 38 Navigation
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 
