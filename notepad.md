@@ -1,3 +1,11 @@
+# Tile Mechanics
+- **Shutters:** Act as dynamic walls. State (WALL/FLOOR) toggles based on Switch configuration.
+    - **Top 1-2 (6, 8):** Controlled by Switch 3. (ON=OPEN, OFF=CLOSED). *Wait, previous note said Switch 3 OFF caused it to CLOSE. So ON=OPEN? Need to re-verify if needed, but currently irrelevant.*
+    - **Top 2-3 (12, 8):** Controlled by Switch 3. (OFF=OPEN).
+    - **Vertical 2 (10, 6):** Closed in 1-ON/2-OFF/3-OFF config.
+    - **Row 10 Shutters:**
+        - (11, 10): OPEN (FLOOR) in 1-ON/2-OFF/3-OFF config.
+
 # Map Structure & Route
 - **Goldenrod Underground (3_53):** Divided into isolated sections.
   - **Main Tunnel:** Top & West areas. Contains (3, 2) Ladder and (3, 34) Ladder.
@@ -8,32 +16,12 @@
 
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
-- **Sequence Attempt:** 1 -> 2 -> 3.
 - **Current Status:** Switch 1 ON. Switch 2 OFF. Switch 3 OFF.
+- **Timestamp:** Turn 13403.
 - **Observations:**
-    - Vertical 2 (10, 6) CLOSED.
-    - Vertical 4 (16, 6) OPEN (Observed Row 6 change to Floor).
-- **New Plan:**
-    1. Navigate to (16, 6) and pass through the open shutter.
-    2. Explore the Southern area.
-    3. Attempt to reach Emergency Switch (20, 11) by looping around (possibly from below or checking for other openings).
-
-# Important Locations
-- **Switch 1:** Map 3_54 (ON).
-- **Switch 2:** Map 3_54 (ON).
-- **Switch 3:** Map 3_54 (OFF).
-- **Emergency Switch:** (20, 11).
-- **Eddie:** (3, 8) - West Path Dead End.
-
-# Archive (Completed/Failed)
-- **Blockage:** Path South (Row 10) blocked in all columns with previous configs.
-- **West Path:** Confirmed Dead End.
-- **Switch History:**
-    - Sw 1 ON: Closes Vertical 2 (10, 6/7).
-    - Sw 3 ON: Opens Top 1-2 (6, 8) & Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
-- **Observation:** Switch 3 OFF caused Shutter (6, 8) to Close (FLOOR -> WALL). This confirms Switch 3 controls Shutter 1-2 (Top).
-- **Observation:** Shutter (12, 8) is OPEN (FLOOR) with Switch 3 OFF. This confirms Switch 3 toggles (6, 8) and (12, 8) inversely.
-- **Next Step:** Explore Middle Section (Section 2). Check if any path South (Row 10/12) is open.
-- **Observation:** With Config (1 ON, 2 OFF, 3 OFF):
-    - Row 10 Shutters (12, 10) through (16, 10) appear CLOSED (WALLs).
-- **Next Step:** Inspect Shutter (10, 10). If closed, I likely need to toggle Switch 1 or 2 to affect Row 10.
+    - Shutter (12, 8) is OPEN.
+    - Shutter (11, 10) is OPEN (FLOOR).
+- **Plan:**
+    1. Navigate South through (11, 10).
+    2. Head East to Emergency Switch (20, 11).
+    3. Toggle Emergency Switch to open main doors.
