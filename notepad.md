@@ -14,12 +14,15 @@
 - **Goal:** Check if this "Reset" state opens the main shutter at (20, 6).
 - **Result:** FAILED. (20, 6) is CLOSED.
 
-## New Goal: Test Switch 1
-- **Hypothesis:** Switch 1 might control (20, 6).
+## Test Result: S1=ON, S2=OFF, S3=OFF
+- **Result:** (20, 6) CLOSED. (12, 8) OPEN (Observed).
+- **Insight:** Switch 1 affects (12, 8) when S2 is OFF.
+
+## New Goal: Test S1=ON, S2=ON, S3=OFF
+- **Hypothesis:** Switch 2 acts as a modifier. S1(ON) + S2(ON) might open (20, 6).
 - **Plan:**
-    1. Turn Switch 1 ON (Current State: OFF).
+    1. Turn Switch 2 ON.
     2. Check (20, 6).
-    3. If Closed, try combinations with S2/S3.
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
