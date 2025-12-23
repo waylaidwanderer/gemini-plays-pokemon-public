@@ -17,13 +17,12 @@
 - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
 
 ## Plan
-1. Turn S1 OFF.
-2. Enter West Room via `(6, 8)`.
-3. Explore West Room for hidden paths or switches.
-4. Check if Emergency Switch `(20, 11)` is accessible from West Room (unlikely).
+1. Enter West Room via `(6, 8)`. (Done).
+2. Interact with Pharmacist at `(4, 8)`.
+3. Explore South of West Room for hidden items or switches.
+4. Check for path to Warehouse.
 
 ## Exploration Notes
-- **Inner East (Col 12):** Explored. Dead End.
-    - Path `(12, 8)` -> `(17, 9)` contains no switches or items.
-    - Walls checked. No hidden switches.
-- **Switch (17, 10):** Does not exist (verified by XML scan).
+- **West Room (Col 2-6):** Accessed via S1=OFF.
+    - Contains Pharmacist `(4, 8)`.
+    - Path South leads to `(5, 25)` ladder? (Needs verification).
