@@ -62,3 +62,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Hypothesis Refined:** S1 likely toggles between Inner East (12, 8) and West (6, 8). Since S1 is ON, (12, 8) is OPEN and (6, 8) is CLOSED.
 - **Goal:** Turn S3 ON to create state S1=ON, S2=ON, S3=ON.
 - **Hope:** That S3 (Emergency) combined with S1 (East Selection) opens the Outer East Shutter (20, 6).
+- **Action:** Moving to Switch 3 to turn it ON.
+- **New Test Config:** S1=ON, S2=ON, S3=ON.
+- **Hypothesis:** "All Systems Go" (All ON) might be the key. S3 (Emergency) combined with S1 (East) and S2 (Power) might open the path to the Emergency Switch.
