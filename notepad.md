@@ -22,12 +22,16 @@
     - State: ON.
     - Context: S1=ON, S3=OFF.
 
-## Current Goal: Test S1=ON, S2=ON, S3=OFF
-- **Action:** Check Shutter (20, 6).
-- **Hypothesis:** S1(ON) + S2(ON) might open (20, 6).
+## Test Result: S1=ON, S2=ON, S3=OFF
+- **Result:** (20, 6) CLOSED.
+
+## New Goal: Retest S1=ON, S2=OFF, S3=OFF
+- **Hypothesis:** My previous notes say this combination opened (12, 8). Since S3 is OFF, (10, 6) should also be OPEN. This creates a path: (10, 6) -> (12, 8) -> South!
 - **Plan:**
-    1. Navigate to (20, 5).
-    2. Attempt to enter (20, 6).
+    1. Turn Switch 2 OFF.
+    2. Go through (10, 6).
+    3. Go through (12, 8).
+    4. Head East to Emergency Switch (20, 11).
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
