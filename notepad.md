@@ -20,7 +20,14 @@
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** ON.
-- **Hypothesis:** S1=ON might open the Middle East Path (Col 17). Checking (17, 6) and (17, 10).
+- **Observation:** (17, 6) is CLOSED with S1=ON, S2=ON, S3=ON.
+- **Hypothesis:** Checking (20, 6) with S1=ON, S2=ON, S3=ON.
+- **S1 (16, 1):** Toggles East/West.
+    - **Current:** ON.
+    - **Behavior with S3=ON:**
+        - S1=ON -> (12, 8) CLOSED. (17, 6) CLOSED.
+        - S1=OFF -> (12, 8) OPEN. (Verified).
+    - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked.
     - **Path B:** Via Ladder (23, 3) -> SE Section (3_53) -> Connects to Main Tunnel (Exit). Dead End for Director search.
