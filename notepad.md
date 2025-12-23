@@ -31,3 +31,4 @@
 - **Middle East (Col 17):** Likely the correct path. Needs S1=OFF?
 - **Ladder (23, 3) in Switch Room:** Connects to Goldenrod Underground SE `(22, 27)`. Acts as an exit/shortcut back to the main tunnel. Not the path to the Director.
 - **Action:** Returning to Switch Room to test `(17, 10)` with **S1=OFF**.
+- **Observation (Turn 14633):** Blocked at `(3, 9)` in West Room when trying to go South to Ladder `(5, 25)`. Potential hidden obstacle or wall.
