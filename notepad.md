@@ -41,3 +41,4 @@
 - PIDGEY (Lv 12, 14)
 - NIDORAN♀/♂ (Lv 12)
 - YANMA (Lv 12) - Swarm active.
+- Observed Moves: Tackle, Quick Attack, Foresight.
