@@ -22,18 +22,24 @@
 
 ## Plan
 1. Move to `(10, 6)` to check North Gate.
-   - Path: `(16, 3) -> (16, 4) -> (10, 4) -> (10, 6)`.
-2. If North Gate `(10, 6)` is OPEN:
+   - Current Position: `(16, 5)`.
+   - Path: Left to `(10, 5)`, then Down to `(10, 6)`.
+2. If North Gate `(10, 6)` is OPEN (FLOOR):
    - Proceed to `(10, 8)`.
-   - Check East Gate `(12, 8)`.
-   - If East Gate is OPEN, enter Inner East Section.
-3. If North Gate `(10, 6)` is CLOSED:
+   - Check West Gate `(6, 8)` (Expect CLOSED/WALL).
+   - Check East Gate `(12, 8)` (Expect OPEN/FLOOR).
+   - If East Gate is Open, enter Inner East Section.
+3. If North Gate `(10, 6)` is CLOSED (WALL):
+   - We are blocked from the south.
    - Return to S1 `(16, 1)` and turn OFF.
-   - Re-evaluate strategy (maybe S3?).
+   - Re-evaluate.
 
 ## Observations
-- **Switch 1 (16, 1):** ON. (East/West Toggle).
-- **Switch 2 (10, 1):** ON. (Main Power).
+- **Switch 1 (16, 1):** ON.
+- **Switch 2 (10, 1):** ON.
 - **Switch 3 (2, 1):** OFF.
-- **Hypothesis:** S1 ON opens East Gate `(12, 8)` and closes West Gate `(6, 8)`.
-- **Critical Check:** Does S1 ON close North Gate `(10, 6)`? Must verify.
+- **Gate Updates:**
+  - `(12, 8)` changed to FLOOR (Open) after S1 ON (Turn 14904).
+  - `(12, 9)` changed to FLOOR (Open) after S1 ON (Turn 14905).
+  - This strongly suggests East Gate is OPEN.
+- **Critical Check:** Is North Gate `(10, 6)` open?
