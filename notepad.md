@@ -28,3 +28,9 @@
 
 ## PC Storage (Box 1)
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
+## Route 38 Tile Mechanics
+- **FLOOR:** Traversable. Standard ground.
+- **WALL / HEADBUTT_TREE:** Impassable.
+- **TALL_GRASS:** Traversable. Triggers wild encounters. Repel Trick filters based on lead level.
+- **LEDGE_HOP (DOWN/LEFT/RIGHT):** One-way traversable (downwards/leftwards/rightwards). Confirmed by observation.
+- **WARP_CARPET:** Traversable. Triggers map transition.
