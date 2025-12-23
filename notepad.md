@@ -6,8 +6,8 @@
 
 ## Training Log: XENON to Lv18
 - **Start Turn**: 15504 (Tuesday, Dec 23, 1:00 PM)
-- **Current Status**: Lv17 (3379 EXP). Needs 420 more EXP for Lv18 (3799 total).
-- **Recent Battles**: Spearow (Turn 15581), Rattata (Turn 15523).
+- **Current Status**: Lv17 (3436 EXP). Needs 363 more EXP for Lv18 (3799 total).
+- **Recent Battles**: Ekans (Turn 15594), Spearow (Turn 15581), Rattata (Turn 15523).
 
 ## Map Mechanics: Route 42
 - **Adjacent Maps**: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
