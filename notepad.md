@@ -19,9 +19,10 @@
 - **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 OFF.
 - **Observations:**
     - Vertical 5 (20, 6) is CLOSED (WALL).
+    - Vertical 2 (10, 6) is OPEN.
     - Vertical 4 (16, 6) is CLOSED.
-    - Vertical 2 (10, 6) is likely OPEN (opened by Switch 2 ON).
-- **Hypothesis:** Need Switch 3 ON to open Vertical 5 (or affect the combination).
+- **Deduction:** Switch 3 OFF keeps Vertical 5 closed regardless of Sw 1/2.
+- **Hypothesis:** Switch 3 ON is required to open Vertical 5.
 - **Plan:**
     1. Turn Switch 3 ON (Config: 1 ON, 2 ON, 3 ON).
     2. Check Vertical 5 (20, 6).
