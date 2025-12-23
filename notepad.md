@@ -71,11 +71,12 @@
   1. Select YES to turn S3 ON.
   2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
   3. Also verify if (6, 8) remains open.
-- **Action:** Going to (10, 9) to check for a path south.
-- **Reasoning:**
-  - Need to reach Emergency Switch at (20, 11).
-  - Row 10 appears to be a barrier.
-  - S3 ON might have opened a shutter in Row 10 (possibly at 10, 10).
-  - Path: (2, 4) -> (10, 4) -> South through (10, 6) -> (10, 9).
-- **Hypothesis:** Switch 3 controls the Row 10 shutter.
-- **Backup:** If (10, 10) is closed, check West side again or reconsider S2/S1 logic.
+- **Observation:** With S1, S2, and S3 ALL ON, the gates at (10, 6) and (6, 8) are CLOSED.
+- **Conclusion:** S3 ON interferes with S2, closing the paths S2 opened.
+- **New Strategy:** To reach the Director (likely SE area), I need to open the East Shutter at (12, 8).
+- **Hypothesis:** S1 ON opens (12, 8) ONLY if S2 is OFF (and likely S3 OFF).
+- **Plan:**
+  1. Turn Switch 3 OFF (Reset interference).
+  2. Turn Switch 2 OFF (Enable S1).
+  3. Verify (12, 8) opens.
+  4. Proceed East to the Warehouse/Director.
