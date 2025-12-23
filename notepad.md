@@ -28,6 +28,7 @@
 - Method: Use Sweet Scent at (18, 15) grass patch.
 - Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
 - Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
+- Training Targets: Wild Gastly (95 EXP), Wild Bellsprout (84 EXP).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable ground. Verified.
@@ -40,6 +41,3 @@
 - COUNTER: Interaction point for NPCs; impassable. Verified.
 - NPC: Map objects that block movement. Verified.
 - WARP_CARPET_LEFT: Map transition point. Verified.
-## Progress Tracking
-- XENON (Gastly) Lv 12: 1014 / 1098 EXP. Needs 84 to reach Lv 13 (Mean Look).
-- Training Targets: Wild Gastly (95 EXP), Wild Bellsprout (84 EXP).
