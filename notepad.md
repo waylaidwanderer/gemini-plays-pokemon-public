@@ -2,9 +2,9 @@
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** Toggles East/West.
-    - **ON:** Closes `(17, 10)` (Verified Turn 14597: FLOOR->WALL). Opens `(12, 8)`.
+    - **ON:** Closes `(17, 10)`. Opens `(12, 8)`.
     - **OFF:** Opens `(6, 8)` (West). Should OPEN `(17, 10)`.
-    - **Current:** ON (Switching to OFF).
+    - **Current:** OFF.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
     - **OFF:** Fail-Safe Test Failed.
