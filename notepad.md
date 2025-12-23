@@ -260,3 +260,10 @@
 - **Test:** With S2=ON and S3=ON, does Gate (10, 6) open?
     - If YES: Go to (12, 8) and explore South.
     - If NO (S3 overrides): Then S3=ON blocks the North->Center path. Must look for another path (maybe via Pharmacist room?).
+- **Action:** Interacting with Switch 2 to verify state.
+- **Current Assumption:** S2 *should* be ON, but (10, 6) is closed.
+    - Possibility A: S2 is OFF (I missed the input).
+    - Possibility B: S2 is ON, but S3 (ON) overrides it and closes (10, 6).
+- **Next Steps:**
+    1. If S2 is OFF -> Turn ON. Then check (20, 6).
+    2. If S2 is ON -> Then S3 override is confirmed. Go check (20, 6) anyway.
