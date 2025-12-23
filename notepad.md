@@ -2,7 +2,7 @@
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16. Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
 - Repel Tracking:
-  - Super Repel #4: Used Turn #13460 (Active).
+  - Super Repel #4: Used Turn #13460.
 - Tracking: Use Pokedex AREA map via check_suicune_location_v7.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
@@ -21,7 +21,7 @@
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick filters encounters based on lead level.
 - FLOOR: Traversable. Standard collision-free ground.
 - WALL / HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
+- LEDGE_HOP_DOWN / LEFT / RIGHT: Hypothesized one-way traversable. Verification required.
 - WARP_CARPET: Traversable. Triggers map transition (warp).
 
 # Route 38/39 Boundary Reference
@@ -34,8 +34,7 @@
 
 # Lessons Learned & Error Analysis
 - Tool Reliability: Use v7 for Suicune location checks. Ensure Up/Down counts are accurate.
-- Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
+- Navigation: Paths are often wider than one tile.
 - State Sync: Always verify inventory and money against Game State Information.
 - Repel Hygiene: Use sleep commands between menu actions to ensure they register.
 - Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
-- Repel Observation: Encountered Lv 16 Raticate on Turn #13463 despite active Super Repel and Lv 21 lead. Possible mechanic difference or fluke. Investigating.
