@@ -21,19 +21,21 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Check Shutter `(20, 6)` (Confirm if CLOSED).
-2. Check Shutter `(17, 6)` (Confirm if CLOSED).
-3. Navigate to `(12, 12)` (Target Shutter).
-   - Mental Map shows this tile is FLOOR (OPEN).
-4. Proceed South through `(12, 12)` and explore the new area.
+1. Navigate to Switch 1 `(16, 1)`.
+2. Turn S1 OFF.
+   - Hypothesis: With S3=ON, S1=OFF might open the East Gate `(12, 8)` while keeping the Target Shutter `(12, 12)` open.
+3. Check East Gate `(12, 8)`.
+4. If OPEN, proceed to `(12, 12)` and through to the Warehouse.
 
 ## Observations
-- **Switch Status:** S1=ON, S2=ON, S3=ON.
-- **Shutters:**
-  - `(20, 6)`: Currently checking.
-  - `(17, 6)`: Currently checking.
-  - `(12, 12)`: Appears OPEN on map (FLOOR).
-- **Hypothesis:** `(12, 12)` is the correct path forward. S3=ON opened it.
+- **Current State:** S1=ON, S2=ON, S3=ON.
+- **Map Update Analysis:**
+  - East Gate `(12, 8)` CLOSED.
+  - West Gate `(6, 8)` OPEN.
+  - Target Shutter `(12, 12)` OPEN.
+  - SW Shutter `(6, 12)` CLOSED.
+  - **Conflict:** We need `(12, 8)` and `(12, 12)` open simultaneously.
+- **Puzzle Logic:** S3 seems to invert the gate logic or shift the "Open" state. Changing S1 might align the open gate with the open shutter.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
