@@ -1,41 +1,34 @@
-# Tile Mechanics
-- **Shutters:** Dynamic walls controlled by switches.
-    - **Row 8 Shutters:**
-        - (6, 8): OPEN (Sw3 ON). CLOSED (Sw3 OFF).
-        - (12, 8): Status unknown.
-    - **Row 12 Shutters:**
-        - (6, 12): CLOSED (Sw3 ON). OPEN (Sw3 OFF).
-    - **Vertical Shutters:**
-        - (20, 6): CLOSED (Sw3 OFF).
-        - (10, 6): OPEN (Sw1 ON, Sw2 ON, Sw3 OFF).
+# Goldenrod Underground Switch Puzzle
+**Start Turn:** 13507
 
-# Map Structure
-- **Goldenrod Underground (3_53):**
-  - **Main Tunnel:** Top & West.
-  - **Southeast Room:** Isolated.
-- **Switch Room (3_54):**
-  - **Northwest (Current):** Access to Switch 3.
-  - **Middle:** Access to Switch 2.
-  - **Northeast:** Access to Switch 1.
-  - **South:** Warehouse area.
-  - **Goal:** Reach Emergency Switch at (20, 11).
+## Tile Mechanics & Switch Logic
+- **Switch 1 (16, 1):** ON (Default). Effect on shutters not fully tested.
+- **Switch 2 (10, 1):** OFF.
+    - **Effect:** Opens Horizontal Shutter at (12, 8).
+- **Switch 3 (2, 1):** ON.
+    - **Effect:** Opens Horizontal Shutter at (6, 8).
+    - **Hypothesis:** Opens Vertical Shutter at (20, 6).
+    - **Effect:** Closes Horizontal Shutter at (6, 12).
 
-# Current State
+## Current Status (Turn 13507)
 - **Switch 1:** ON
-- **Switch 2:** OFF (Verified).
-- **Switch 3:** ON (Verified).
-- **Shutter (6, 8):** OPEN.
-- **Shutter (12, 8):** CLOSED.
-- **Shutter (6, 12):** CLOSED (Inferred from Sw3 ON).
-- **Shutter (12, 12):** FLOOR (Open?) based on XML.
+- **Switch 2:** OFF
+- **Switch 3:** ON
+- **Shutter (6, 8):** OPEN (Verified)
+- **Shutter (12, 8):** OPEN (Verified)
+- **Shutter (20, 6):** Expected OPEN
 
-# Strategy
-- **Goal:** Reach East Section via South Route.
-- **Plan:**
-    1. Navigate to Switch 3 at (2, 2).
-    2. Turn Switch 3 **OFF**.
-       - This should CLOSE (6, 8) and OPEN (6, 12).
-    3. Go South to Row 12.
-    4. Travel East through (6, 12) along Row 12.
-    5. Cross (12, 12) into East Section.
-    6. Reaching Emergency Switch at (20, 11).
+## Objectives & Plan
+- **Primary:** Reach Emergency Switch at (20, 11).
+- **Secondary:** Rescue Director (Likely via Warp at 22, 10).
+- **Navigation Plan:**
+    1. Travel East via Row 8 (Shutter at 6,8 and 12,8 are OPEN).
+    2. Turn South at Column 20.
+    3. Verify Shutter (20, 6) is OPEN.
+    4. Activate Emergency Switch (20, 11).
+    5. Investigate Warp at (22, 10).
+
+## Learned Lessons
+- **Switch 3:** Controls multiple shutters (Row 8, Row 12, Col 20).
+- **Input Accuracy:** Verify interactions (Switch ON/OFF) with screen text, not just intent.
+- **Map:** Warps and Switches are key. Use markers.
