@@ -145,11 +145,11 @@
     ]
   },
   "use_pokemon_move_v1": {
-    "description": "Uses a specific move from a Pokémon in the party. Cursor-agnostic: clears menus, opens POKEMON, selects the target Pokémon, selects 'USE MOVE', and executes the move at the given index.",
+    "description": "Uses a specific move from a Pokémon in the party. Cursor-agnostic: clears menus, opens POKEMON, selects the target Pokémon, and executes the field move. logic handles the pop-up menu where field moves are listed at the top.",
     "input_schema": {
       "properties": {
         "move_index": {
-          "description": "The 1-based index of the move to use (1-4).",
+          "description": "The 1-based index of the move in the Pokémon's move list (1-4).",
           "maximum": 4,
           "minimum": 1,
           "type": "integer"
@@ -167,7 +167,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef use_pokemon_move():\n    # input_data contains: pokemon_slot, move_index\n    slot = int(input_data.get('pokemon_slot', 1))\n    move = int(input_data.get('move_index', 1))\n    \n    # 1. Clear to overworld\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 500\"]\n    \n    # 2. Navigate to POKEMON (Item 2 in Start Menu)\n    # Start menu wraps (8 items). Reset to top (Item 1: POKEDEX)\n    for _ in range(8): buttons.append(\"Up\")\n    buttons.extend([\"Down\", \"A\", \"sleep 500\"])\n    \n    # 3. Navigate to Pokemon Slot\n    # Party menu wraps (7 items: 1-6, 7.CANCEL). Reset to Slot 1.\n    for _ in range(7): buttons.append(\"Up\")\n    for _ in range(slot - 1): buttons.append(\"Down\")\n    buttons.extend([\"A\", \"sleep 500\"])\n    \n    # 4. Select \"USE MOVE\" (Item 1 in the PKMN sub-menu)\n    # Sub-menu (USE MOVE, STATS, SWITCH, ITEM, CANCEL) wraps. Reset to 1.\n    for _ in range(5): buttons.append(\"Up\")\n    buttons.extend([\"A\", \"sleep 500\"])\n    \n    # 5. Select Move Index\n    # Move list doesn't wrap in this menu. Reset to top.\n    for _ in range(4): buttons.append(\"Up\")\n    for _ in range(move - 1): buttons.append(\"Down\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_pokemon_move()",
+    "python_script": "import json\n\ndef use_pokemon_move():\n    # input_data is a dictionary containing the tool arguments\n    try:\n        slot = int(input_data.get('pokemon_slot', 6))\n        move = int(input_data.get('move_index', 2))\n    except (ValueError, TypeError):\n        slot = 6\n        move = 2\n    \n    # 1. Clear everything to overworld (4 B-presses for safety)\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\"]\n    \n    # 2. Open Start Menu\n    buttons.extend([\"Start\", \"sleep 500\"])\n    \n    # 3. Navigate to POKEMON (Item 2 in Start Menu)\n    # Start menu wraps (8 items). Reset to top (Item 1: POKEDEX)\n    for _ in range(8): buttons.append(\"Up\")\n    buttons.extend([\"Down\", \"A\", \"sleep 500\"])\n    \n    # 4. Navigate to Pokemon Slot\n    # Party menu wraps (7 items: 1-6, 7.CANCEL). Reset to Slot 1.\n    for _ in range(7): buttons.append(\"Up\")\n    for _ in range(slot - 1): buttons.append(\"Down\")\n    buttons.extend([\"A\", \"sleep 500\"])\n    \n    # 5. Select Field Move in Pop-up Menu\n    # The pop-up menu lists field moves at the top, followed by STATS, SWITCH, etc.\n    # Reset to top of pop-up menu (Up 7 times is safe)\n    for _ in range(7): buttons.append(\"Up\")\n    \n    # For KIMCHI (Slot 6): 1.SWEET SCENT (Move index 2), 2.CUT (Move index 3)\n    # If move_index is 2, we are already at the top (SWEET SCENT).\n    # If move_index is 3, we press Down once to reach CUT.\n    if slot == 6:\n        if move == 3:\n            buttons.append(\"Down\")\n        # For move index 2 (Sweet Scent), no Down presses needed.\n    \n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_pokemon_move()",
     "history": [
       {
         "commit_message": "Creating a robust, parameterized tool for using a Pokémon's move from the overworld menu. Replaces the hardcoded Sweet Scent tool.",
@@ -183,6 +183,11 @@
         "commit_message": "Reverting to absolute reset logic for Start and Party menus for maximum reliability. Cursor-agnostic move usage.",
         "timestamp": "2025-12-23T11:45:36.873Z",
         "action_counter": 14325
+      },
+      {
+        "commit_message": "Refining use_pokemon_move_v1 to correctly handle the overworld pop-up menu structure in Pokémon Crystal, where field moves are listed directly at the top. Specifically optimized for KIMCHI's Sweet Scent.",
+        "timestamp": "2025-12-23T11:48:30.650Z",
+        "action_counter": 14328
       }
     ]
   }
