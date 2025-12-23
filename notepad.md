@@ -17,7 +17,7 @@
         - ON opens Emergency shortcuts (`2, 7`) but CLOSES main gates `(10, 6)` & `(6, 8)`.
         - ON opens Shutter `(6, 12)` and CLOSES Shutter `(12, 12)`.
         - OFF CLOSES Shutter `(6, 12)` and OPENS Shutter `(12, 12)`.
-    - **Current State:** OFF (Needs to be ON).
+    - **Current State:** ON.
 
 ## Current Strategy
 **Target Config:** S1=OFF, S2=ON, S3=ON.
@@ -26,7 +26,7 @@
 - S1=OFF is the default "West" setting.
 **Steps:**
 1. Turn S1 OFF (Done).
-2. Turn S3 ON (Next).
+2. Turn S3 ON (Done).
 3. Enter West Room via `(2, 7)`.
 4. Proceed South through `(6, 12)`.
 
