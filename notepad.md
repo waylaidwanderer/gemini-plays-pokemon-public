@@ -21,21 +21,20 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Return to Switch 1 `(16, 1)` and turn it ON.
-   - S1=OFF closed the North Gate `(10, 6)`, blocking the most reliable entrance.
-   - S1=ON + S3=ON was confirmed to open `(10, 6)`, `(6, 8)`, and `(12, 12)`.
-2. Enter the switch area via North Gate `(10, 6)`.
-3. Navigate to the Target Shutter `(12, 12)` via the West Loop.
-   - Path: `(10, 6) -> (6, 8) -> (6, 9) -> (12, 9) -> (12, 12)`.
-   - This bypasses the closed East Gate `(12, 8)`.
-4. Proceed South to explore.
+1. Navigate to `(2, 6)` via the North Path (Row 4).
+   - Current Position: `(16, 2)`.
+   - Route: `(16, 4) -> (2, 4) -> (2, 6)`.
+   - Reason: `(10, 6)` is likely CLOSED (S1=OFF). `(2, 6)` is the newly opened "Emergency Path".
+2. From `(2, 6)`, enter the West Room `(Row 8-9)`.
+3. Check connectivity to Central Area `(6, 8)`.
+   - Hypothesis: If West Gate `(6, 8)` is CLOSED (due to S1=OFF), verify if `(6, 9)` is also blocked.
+   - If blocked, we have a problem (Deadlock).
+   - If open, proceed to East Gate `(12, 8)` and then Target Shutter `(12, 12)`.
 
 ## Observations
-- **Switch 1 (16, 1):** Currently OFF. Turning ON.
-- **Puzzle Logic:**
-  - S1=ON + S3=ON seems to be the "Main Path" configuration.
-  - S1=OFF + S3=ON opens the East Gate but closes the entrance, creating a deadlock unless the West path `(2, 6)` connects (which is risky/unverified).
-- **Shutters:** `(20, 6)` remains closed in both tested configurations. Likely opens later or from the other side.
+- **Switch Status:** S1=OFF, S2=ON, S3=ON.
+- **Hypothesis:** This combination opens the path to the Director/Warehouse.
+- **Critical Check:** Is West Gate `(6, 8)` impassable? Or can we bypass it?
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
