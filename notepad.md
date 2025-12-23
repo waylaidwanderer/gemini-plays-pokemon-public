@@ -19,14 +19,13 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=ON (Turning OFF), S3=OFF.
+- **State:** S1=OFF, S2=OFF, S3=OFF.
 - **Location:** Switch Room (10, 2).
-- **Action:** Turn Switch 2 OFF.
+- **Action:** Move to Switch 1 (16, 1).
 - **Plan:**
-  1. Interact with Switch 2 to turn it OFF.
-  2. Move to Switch 1 (16, 1).
-  3. Turn Switch 1 ON.
-  4. Enter East Room via (12, 8).
+  1. Move to Switch 1.
+  2. Turn Switch 1 ON.
+  3. Enter East Room via (12, 8).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
