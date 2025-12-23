@@ -23,7 +23,10 @@
 - **Shutter (Open):** Walkable.
 - **Switch:** Toggles shutter states.
 - **LADDER/DOOR/WARP:** Transitions to other areas.
-- **Observation:** Turning S2 OFF closed the gate at (10, 6) (changed to WALL).
-- **Implication:** Must find another path South to reach Row 8.
-- **Hypothesis:** S1 ON (currently ON) should open a gate on the East side (Row 6) to allow access to the East Shutter.
-- **Action:** Investigate the East side (around Column 16, Row 6).
+- **Action:** Switch 2 is confirmed OFF. Menu is open, closing it now.
+- **Current State:** S1=ON, S2=OFF, S3=OFF.
+- **Hypothesis:** This combination should open the shutter at (20, 6) or (12, 8).
+- **Plan:**
+  1. Close Switch Menu (Press B).
+  2. Navigate to (20, 6) via Row 4.
+  3. If (20, 6) is open, proceed South.
