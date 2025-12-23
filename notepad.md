@@ -11,39 +11,24 @@
 - Roamers move between adjacent maps whenever the player crosses a map boundary.
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
-- Repel Trick: Lead PKMN level must be > local wild PKMN but < Roamer level (Lv40). XENON is Lv17. Raticate was Lv16. This should work if other wild PKMN are <= 17.
+- Repel Trick: Lead PKMN level must be > local wild PKMN but < Roamer level (Lv40). XENON is Lv17. Raticate was Lv16. This works if other wild PKMN are <= 17. (Verify local levels).
 
 ## Global Tile Mechanics
-- FLOOR: Standard traversal.
-- WALL / FENCE / MOUNTAIN / MART_SHELF: Impassable.
-- COUNTER: Impassable; interact from the front.
-- TALL_GRASS: Traversable, triggers wild encounters.
-- WATER: Requires Surf (HM03) to traverse.
-- LEDGE: One-way jump (usually South).
-- WARP: Map transition (Doors, Stairs, Cave Entrances).
-- HEADBUTT_TREE: Impassable; can be Headbutted.
-- CUT_TREE: Impassable; requires Cut (HM01) to clear.
+- FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
+- WALL, FENCE, MOUNTAIN, MART_SHELF, COUNTER: Impassable.
 - FLOOR_UP_WALL: One-way movement North only (Route 42).
-- WARP_CARPET: Map transition at edges.
+- LEDGE: One-way jump South.
+- WATER: Requires Surf (HM03).
+- HEADBUTT_TREE: Impassable; can be Headbutted.
+- CUT_TREE: Impassable; requires Cut (HM01).
+- WARP: Map transition (Doors, Stairs, Cave Entrances).
 
 ## Route 42 Notes
 - Requirements: Surf (Ravioli), Cut (KIMCHI).
 - Pacing coordinate for encounters: (50, 12).
 - Adjacent Maps: Ecruteak City (West), Mahogany Town (East), Mt. Mortar (North).
 
-## Type Effectiveness Chart (Observed)
-- Ghost: Immune to Normal/Fighting.
-- Normal: Immune to Ghost.
-- Grass vs. Bug/Flying: 0.25x.
-- Normal vs. Poison/Grass: 1.0x.
-
-## NPCs & Locations
-- Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
-
-## National Park & Bug-Catching Contest
-- Contest Days: Tuesday, Thursday, Saturday.
-- Location: Route 35 National Park Gate (10_15).
-
 ## Progress Log
 - Lv17 XENON training complete. (Turn 15201)
 - Restocked with 3 Super Repels. (Turn 15269)
+- Heading back to Route 42 to resume hunt. (Turn 15285)
