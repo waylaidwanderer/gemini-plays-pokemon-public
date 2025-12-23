@@ -80,12 +80,13 @@
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
 ## Current Goal: Execute Combination S1=ON, S2=OFF, S3=OFF
-- **Action:** Navigate to Switch 1 (16, 1) and turn ON.
+- **Action:** Turn Switch 1 (16, 1) ON.
 - **State Tracking:**
-    - S1: OFF
+    - S1: OFF -> ON (Target)
     - S2: OFF
-    - S3: OFF (Confirmed)
+    - S3: OFF
 - **Plan:**
-  1. Toggle S3 OFF (Done).
-  2. Navigate to S1 (16, 1) and turn ON.
-  3. Verify path to Emergency Switch via (10, 6) and (12, 8).
+  1. Turn S1 ON.
+  2. Navigate to (12, 8).
+  3. If (12, 8) is OPEN, proceed to explore South-East area and reach Emergency Switch at (20, 11).
+  4. Hypothesis: The Emergency Switch opens the main shutter at (20, 6) or the Director's Door.
