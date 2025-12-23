@@ -20,7 +20,7 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=OFF, S3=OFF.
-- **Location:** Switch Room (10, 2).
+- **Location:** Switch Room (10, 4).
 - **Action:** Move to Switch 1 (16, 1).
 - **Plan:**
   1. Move to Switch 1.
