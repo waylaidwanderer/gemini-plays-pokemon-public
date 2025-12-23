@@ -37,7 +37,7 @@
 - Strategy: Use KIMCHI (Gloom) for Sleep Powder status.
 - Battle Plan: Sleep Powder -> Absorb (to weaken safely) -> Great Balls. (Note: Absorb is 0.25x effective, very safe).
 - Analyst Advice: Weaken Yanma to <25% HP while asleep to improve catch probability from Medium to High.
-- Progress: Attempted 8 Great Balls. Re-applying Sleep Powder. (Yanma HP ~75%).
+- Attempted Great Balls: 8. (Yanma HP ~70%).
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10)
