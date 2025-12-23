@@ -22,11 +22,12 @@
 
 # Current State
 - **Switch 1:** ON
-- **Switch 2:** ON
+- **Switch 2:** OFF (Turning it OFF now)
 - **Switch 3:** ON (Verified).
-- **Shutter (6, 8):** OPEN (Verified by system notice).
+- **Shutter (6, 8):** OPEN (Verified).
 
 # Strategy
-1. Cross Shutter at (6, 8) to Middle Section.
-2. Investigate Switch 2 area.
-3. Determine how to reach East Section (access to Emergency Switch).
+1. Turn Switch 2 OFF.
+2. Check Shutter at (12, 8).
+   - If OPEN: Proceed East.
+   - If CLOSED: Check other shutters ((10, 6) etc) and re-evaluate.
