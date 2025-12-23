@@ -35,3 +35,4 @@
 - **North Gate (10, 6):** Currently WALL (Closed). Requires S2=ON?
 - **Hypothesis:** S1=ON might close North Gate `(10, 6)`. If so, I need a different strategy (maybe S2=OFF, S3=ON?).
 - **Previous Test:** S2=OFF, S3=ON opened `(2, 7)` and `(12, 8)`. But might trap in West Room if `(6, 8)` closes.
+- **Observation (Turn 14884):** (12, 8) closed (FLOOR -> WALL) after turning S3 OFF. This confirms S3 was keeping it open (or overriding S1/S2). With S3=OFF and S1=OFF, (12, 8) is closed.
