@@ -31,3 +31,7 @@
 2. (Done) Deposit Blarney (Sudowoodo) to make room.
 3. Heal party at Violet Pokecenter.
 4. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
+## Training Session Tracking
+- Turn #13969: Training session for XENON started.
+- Target: Level 13 (Mean Look), then Level 25 (Haunter).
+- Location: Route 32 (Grass).
