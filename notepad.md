@@ -82,10 +82,10 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Action:** Switch 1 turned OFF.
-- **Current State:** S1=OFF, S2=ON, S3=OFF.
-- **Hypothesis:** S1 OFF + S2 ON might open the shutter at (20, 6).
+- **Action:** Interacting with Switch 1 to verify state/turn OFF.
+- **Context:** Previous interaction sequence was ambiguous. Screen currently shows "It's labeled SWITCH 1".
 - **Plan:**
-  1. Navigate to (20, 5).
-  2. Inspect Shutter at (20, 6).
-  3. If (20, 6) is closed, consider S1=OFF, S2=OFF.
+  1. Press 'A' to see status ("It's ON" or "It's OFF").
+  2. If "It's ON", select YES to turn OFF.
+  3. If "It's OFF", leave it.
+  4. Navigate to (20, 5) to check Shutter (20, 6).
