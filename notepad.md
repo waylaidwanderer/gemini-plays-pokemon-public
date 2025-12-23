@@ -20,18 +20,17 @@
     - **Current State:** ON.
 
 ## Current Strategy
-**Target Config:** S1=OFF, S2=ON, S3=ON.
+**Goal:** Rescue Director.
+**Current Config:** S1=OFF, S2=ON, S3=ON.
+**Hypothesis:** This config (Emergency Mode + West Select) might open the Outer East Shutter `(20, 6)`.
 **Reasoning:**
-- S3=ON opens the Emergency Shortcut at `(2, 7)` (Entry to West Room) and the Shutter at `(6, 12)` (Southbound Path).
-- S1=OFF is the default "West" setting.
-**Steps:**
-1. Turn S1 OFF (Done).
-2. Turn S3 ON (Done).
-3. Enter West Room via `(2, 7)`.
-4. Proceed South through `(6, 12)`.
+- S3=ON closes the main gates but opens emergency routes.
+- `(20, 6)` might be the "Outer East" emergency route leading to the Emergency Switch `(20, 11)`.
+**Objective:** Navigate to `(20, 6)` and check if it's OPEN.
+- If OPEN: Proceed to `(20, 11)` (Emergency Switch).
+- If CLOSED: Re-evaluate switch logic.
 
-## Lessons Learned
-- **Systematic Testing:** Jumping to complex conclusions (like "Outer East vs Inner East") before verifying simple toggles (East vs West) wastes turns. Always test the binary ON/OFF state of a new switch against *all* visible gates first.
-- **Visual Confirmation:** "Inferred" states are risky. Always go and look.
-- **Hypothesis (Turn 14528):** `S1=OFF, S2=ON, S3=ON` (Current State) might open the **Outer East Shutter** `(20, 6)`, leading to the Emergency Switch `(20, 11)`. 
-- **Plan:** Clear West Room (defeat Pharmacist), then backtrack to check `(20, 6)`.
+## Exploration Notes
+- **West Room (Col 2):** Blocked at Row 10 by walls. Pharmacist at `(4, 8)` says "Nothing down there".
+- **Inner East (Col 12):** Blocked at `(12, 12)` when S3=ON (or maybe S1=OFF?).
+- **West Gate (Col 6):** Blocked at `(6, 8)` when S3=ON.
