@@ -21,15 +21,13 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 1 `(16, 1)`.
-   - Path: `(10, 8) -> (10, 4) -> (16, 4) -> (16, 2)`.
-2. Turn Switch 1 ON (Open East Gate).
-3. Return to `(10, 8)`.
-4. Enter East Gate `(12, 8)`.
-5. Navigate to Door `(22, 10)`.
+1. Confirm Switch 1 is ON.
+2. Check if North Gate `(10, 6)` is still OPEN.
+   - If CLOSED: Turn S1 OFF immediately (trap avoidance).
+   - If OPEN: Proceed to `(10, 8)` and then East Gate `(12, 8)`.
 
 ## Observations
-- **Switch 2 (10, 1):** ON. (Main Power).
-- **Gate Status:** West `(6, 8)` is OPEN. East `(12, 8)` is CLOSED.
-- **Goal:** Reach Door `(22, 10)` in the Inner East section.
-- **Route:** Requires traversing Row 4 to cross from Center to East.
+- **Switch 1 (16, 1):** Turned ON.
+- **Switch 2 (10, 1):** ON (Main Power).
+- **Hypothesis:** S1 ON opens East Gate `(12, 8)` and closes West Gate `(6, 8)`.
+- **Risk:** S1 might close North Gate `(10, 6)`. Must verify immediately.
