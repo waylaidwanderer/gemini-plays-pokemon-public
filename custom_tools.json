@@ -103,7 +103,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -144,6 +144,11 @@
         "commit_message": "Refined Sweet Scent tool: Ensured 'Down' press to select SWEET SCENT (assuming it is the second field move per overwatch) and added robust text clearing.",
         "timestamp": "2025-12-23T08:24:37.293Z",
         "action_counter": 13972
+      },
+      {
+        "commit_message": "Removed the Down press before move selection. Verified from Turn 13881 screen text that SWEET SCENT is the first move in the field menu. Added robust A-press sequence.",
+        "timestamp": "2025-12-23T08:27:46.399Z",
+        "action_counter": 13974
       }
     ]
   }
