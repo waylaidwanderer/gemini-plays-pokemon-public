@@ -54,3 +54,8 @@
 - **Correction:** Game State confirms I am at (18, 7) (Main Tunnel), not (18, 31). The System Warning was likely referencing the previous state inside the SE Room.
 - **Action:** Proceeding with the plan to reach the SW Ladder at (3, 34).
 - **Route:** West along Row 7, then South along Column 4 (bypassing trainers), then to (3, 34).
+- **Status:** Arrived in SW Room of `3_54` via Ladder `(3, 34)` from `3_53`.
+- **Observation:** This area appears isolated (West of Column 10 Wall).
+- **Objective:** Talk to the Teacher at `(3, 27)` for clues.
+- **Hypothesis:** `(20, 6)` on the East side is the key blockage. Need to figure out how to open it.
+- **Correction:** The marker "Dead End (Teacher)" on `3_53` might refer to this room being a dead end containing a teacher.
