@@ -20,12 +20,11 @@
 ## Type Effectiveness (Verified)
 - Ghost Immunity: Ghost-type Pokemon are immune to Normal (e.g., Wrap, Leer) and Fighting-type moves.
 - Ghost Ineffectiveness: Ghost moves (Lick) do not affect Normal-type Pokemon.
-- Hoppip: Immune to Ghost moves in this game version (Hypothesis: Hoppip is Normal-type).
-- Fighting vs Ghost: Ineffective (Immunity).
-- Normal vs Ghost: Ineffective (Immunity).
+- Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game version.
+- Fighting/Normal vs Ghost: Ineffective (Immunity).
 
 ## Training Log: XENON
-- Status: Lv 13. Mean Look learned.
+- Status: Lv 13 reached. Mean Look learned.
 - Next Goal: Lv 25 (Evolution).
 - Method: Sweet Scent at (18, 15) Route 32. RUN from Normal-types and Hoppip.
 
