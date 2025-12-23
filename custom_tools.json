@@ -184,33 +184,5 @@
         "action_counter": 14678
       }
     ]
-  },
-  "select_battle_move_refined_v3": {
-    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
-    "input_schema": {
-      "properties": {
-        "move_index": {
-          "maximum": 4,
-          "minimum": 1,
-          "type": "integer"
-        },
-        "screen_text": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "move_index",
-        "screen_text"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport sys\n\ndef run():\n    buttons = [\"A\"]\n    try:\n        if len(sys.argv) > 1:\n            input_data = json.loads(sys.argv[1])\n            move_target = int(input_data.get('move_index', 1))\n            text = input_data.get('screen_text', \"\")\n            \n            lines = text.split('\\n')\n            cursor_chars = ['▶', '▷', '>', '▶']\n            \n            move_line_indices = []\n            cursor_line_index = -1\n            \n            # List of strings to exclude when looking for move names\n            # Use exact matching for these\n            exclusions = [\n                'LV', 'HP', 'EXP', 'TYPE', 'PP', 'CANCEL',\n                'NORMAL', 'FIRE', 'WATER', 'GRASS', 'ELECTRIC', 'ICE', \n                'FIGHTING', 'POISON', 'GROUND', 'FLYING', 'PSYCHIC', \n                'BUG', 'ROCK', 'GHOST', 'DRAGON', 'STEEL', 'DARK'\n            ]\n            \n            for i, line in enumerate(lines):\n                # Detect cursor\n                if any(c in line for c in cursor_chars):\n                    cursor_line_index = i\n                \n                # Detect move lines\n                if '│' in line:\n                    parts = line.split('│')\n                    for part in parts:\n                        clean_part = part\n                        for c in cursor_chars:\n                            clean_part = clean_part.replace(c, '')\n                        clean_part = clean_part.strip()\n                        \n                        # Pokemon Crystal move names are max 12 chars\n                        if 1 <= len(clean_part) <= 12 and any(c.isalnum() for c in clean_part) and '/' not in clean_part:\n                            # Filter out stat/info labels and type names using EXACT matching\n                            if clean_part.upper() not in exclusions:\n                                move_line_indices.append(i)\n                                break\n            \n            if cursor_line_index != -1 and move_line_indices:\n                # Find the contiguous block of moves containing the cursor\n                start = cursor_line_index\n                while start > 0 and start - 1 in move_line_indices:\n                    start -= 1\n                end = cursor_line_index\n                while end < len(lines) - 1 and end + 1 in move_line_indices:\n                    end += 1\n                    \n                move_block = [idx for idx in move_line_indices if start <= idx <= end]\n                num_moves = len(move_block)\n                \n                if num_moves > 0:\n                    try:\n                        current_move_pos = move_block.index(cursor_line_index) + 1\n                        diff = move_target - current_move_pos\n                        \n                        # Account for wrapping in the menu\n                        if diff > (num_moves // 2): diff -= num_moves\n                        elif diff < -(num_moves // 2): diff += num_moves\n                            \n                        buttons = []\n                        if diff > 0: buttons = [\"Down\"] * diff\n                        elif diff < 0: buttons = [\"Up\"] * abs(diff)\n                        \n                        buttons.append(\"A\")\n                    except ValueError:\n                        pass\n    except:\n        pass\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    run()",
-    "history": [
-      {
-        "commit_message": "Refined move detection logic to use exact matching for exclusions, preventing moves like 'SLEEP POWDER' from being incorrectly filtered out due to containing excluded strings like 'PP'.",
-        "timestamp": "2025-12-23T16:23:11.020Z",
-        "action_counter": 14751
-      }
-    ]
   }
 }
