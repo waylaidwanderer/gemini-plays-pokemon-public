@@ -13,12 +13,12 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Moving to (10, 5) to check shutter.
-- **Action:** Check if North Shutter at (10, 6) is open.
+- **Location:** Entering Central Room.
+- **Action:** Explore the Central/South area.
 - **Plan:**
-  1. Go to (10, 5).
-  2. Attempt to pass (10, 6).
-  3. Enter Central Room.
+  1. Move to (10, 9) inside the room.
+  2. Check for items or paths to the East side.
+  3. Locate the Emergency Switch path.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
