@@ -174,3 +174,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     2. Go West along Row 8 to (6, 8).
     3. Explore South from the West Room (aiming for Col 6, Row 13+).
 - **Hypothesis:** The West Room connects to the deep South/SW area, bypassing the dead-end East path. The Pharmacist's claim ("Nothing down there") is false.
+- **Correction:** West Gate at (6, 6) is CLOSED, but (6, 8) is OPEN (FLOOR).
+- **Plan:** I cannot pass through (6, 6). I must go East to (10, 4), South through the open North Gate (10, 6) to (10, 8), and then West to enter the West Room at (6, 8).
+- **Action:** Executing this path now.
