@@ -3,7 +3,7 @@
 - Step 1: Obtain Clear Bell. (COMPLETE)
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
-- Step 4: Track Suicune via Pokédex. (Turn 15421: Checking Area map).
+- Step 4: Track Suicune via Pokédex. (Turn 15423: Confirmed on Route 42).
 - Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18 for Repel efficiency).
 - **Timestamp**: Suicune Hunt started Turn 15201, Tuesday, Dec 23, 1:00 PM.
 
