@@ -8,7 +8,7 @@
 - **Immediate Plan:** Explore this small SE section. If it leads to the main tunnel (exit), return up the ladder to `3_54` and solve the Switch Puzzle.
 
 ## Switch Logic (Verified in 3_54)
-- **Timestamp:** Turn 14651.
+- **Timestamp:** Turn 14671.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** OFF.
     - **Behavior with S3=ON:**
@@ -16,13 +16,10 @@
         - S1=OFF -> (6, 8) CLOSED. (Verified).
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **S2 (10, 1):** Main Power.
-    - **ON:** Powers gates.
-    - **OFF:** Fail-Safe Test Failed.
     - **Current:** ON.
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** ON.
-    - **Status:** Checking Shutter (2, 7) (Expect OPEN).
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked.
     - **Path B:** Via Ladder (23, 3) -> SE Section (3_53) -> Connects to Main Tunnel (Exit). Dead End for Director search.
