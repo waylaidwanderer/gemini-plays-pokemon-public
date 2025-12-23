@@ -29,9 +29,7 @@
 ## Hypnosis Mystery
 - Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.
 - Fact: Psychic is 1.0x (neutral) against Water/Ground (confirmed via tool). Neither is immune to Psychic status moves in standard Gen 2.
-- Hypothesis 1: In this game/ROM, "It didn't affect" might be used for misses.
-- Hypothesis 2: Status moves like Hypnosis fail with "It didn't affect..." if the target already has a status condition (verified Gen 2 mechanic).
-- Hypothesis 3: Type immunities for status moves have been changed (e.g., Ghost immune to Sleep?).
+- Conclusion: In this game/ROM, "It didn't affect" is the message displayed when a status move misses its accuracy check.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
