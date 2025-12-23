@@ -3,7 +3,7 @@
 - Step 1: Obtain Clear Bell. (COMPLETE)
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
-- Step 4: Track Suicune via Pokédex. (Turn 15457: Confirmed on Route 42).
+- Step 4: Track Suicune via Pokédex. (In Progress: Verifying location on Route 42).
 - Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18 for Repel efficiency).
 - **Timestamp**: Suicune Hunt started Turn 15201, Tuesday, Dec 23, 1:00 PM.
 
@@ -11,12 +11,12 @@
 - Roamers move between adjacent maps whenever the player crosses a map boundary.
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
-- Repel Trick: Lead PKMN level must be Lv18. (XENON is Lv17). Currently performing "best effort" pacing.
+- Repel Trick: Lead PKMN level must be Lv18 for 100% efficiency on Route 42. (XENON is Lv17).
 
-## Status
-- Current Funds: ¥191.
-- Super Repels: 4 remaining.
-- Lead: XENON (Lv17). Note: Repel Trick requires Lv18 for 100% efficiency on Route 42; currently performing "best effort" pacing.
+## Training Plan (XENON to Lv18)
+- Objective: Reach Lv18 to maximize Repel Trick efficiency on Route 42.
+- Method: Defeat local wild Pokémon or trainers.
+- Status: XENON is Lv17.
 
 ## Tile Mechanics Scientific Testing
 ### FLOOR_UP_WALL Verification
