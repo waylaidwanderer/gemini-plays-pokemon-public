@@ -1,47 +1,4 @@
 {
-  "get_type_effectiveness_gen2": {
-    "description": "Returns the type effectiveness multiplier for an attack in Gen 2 Pokemon Crystal.",
-    "input_schema": {
-      "properties": {
-        "attacking_type": {
-          "description": "The type of the move being used.",
-          "type": "string"
-        },
-        "defending_type1": {
-          "description": "The first type of the defending Pokemon.",
-          "type": "string"
-        },
-        "defending_type2": {
-          "description": "The second type of the defending Pokemon (optional).",
-          "nullable": true,
-          "type": "string"
-        }
-      },
-      "required": [
-        "attacking_type",
-        "defending_type1"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ndef get_effectiveness():\n    attacking_type = input_data.get('attacking_type').upper()\n    def1 = input_data.get('defending_type1').upper()\n    def2 = input_data.get('defending_type2')\n    if def2: def2 = def2.upper()\n    \n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"GHOST\": 0, \"STEEL\": 0.5},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"ELECTRIC\": 0.5, \"GRASS\": 2, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"POISON\": 0.5, \"FIGHTING\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5}\n    }\n    \n    eff = chart.get(attacking_type, {}).get(def1, 1.0)\n    if def2:\n        eff *= chart.get(attacking_type, {}).get(def2, 1.0)\n    \n    print(json.dumps({\"multiplier\": eff}))\n\nif __name__ == \"__main__\":\n    get_effectiveness()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-23T09:05:37.668Z",
-        "action_counter": 14041
-      },
-      {
-        "commit_message": "Fixed the tool to actually print the result using input_data.",
-        "timestamp": "2025-12-23T09:26:49.920Z",
-        "action_counter": 14085
-      },
-      {
-        "commit_message": "Defining the missing type effectiveness tool for Gen 2.",
-        "timestamp": "2025-12-23T12:40:44.706Z",
-        "action_counter": 14405
-      }
-    ]
-  },
   "find_path_v2": {
     "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Treats HEADBUTT_TREE as impassable. Supports surfing navigation if 'can_surf' is true. Automatically detects start position from the player's location in the map XML if not provided. Returns a list of coordinate objects or button strings if autopress_buttons is true.",
     "input_schema": {
