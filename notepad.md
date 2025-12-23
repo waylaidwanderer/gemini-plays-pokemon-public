@@ -12,10 +12,15 @@
     - OFF: Default. Allows S1 to open (12, 8).
 
 ## Current Status
-- **State:** S1=ON, S2=OFF, S3=ON.
-- **Location:** At (10, 2). Facing Switch 2.
-- **Action:** Turn Switch 2 ON.
-- **Logic:** S2 opens North Shutter (10, 6). This allows entry to the Central Room from the North, bypassing the mutually exclusive East/West shutters.
+- **State:** S1=ON, S2=ON, S3=ON.
+- **Location:** At (10, 2). Turned Switch 2 ON.
+- **Action:** Check North Shutter (10, 6).
+- **Logic:** S2=ON should open (10, 6). S3=ON keeps (6, 8) Open. S1=ON might keep (12, 8) Closed (override).
+- **Plan:**
+  1. Verify (10, 6) is OPEN.
+  2. Enter Central Room.
+  3. Exit West via (6, 8) [Should be open due to S2/S3].
+  4. Go South to Row 12+.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
