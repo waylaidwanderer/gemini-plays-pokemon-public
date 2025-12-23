@@ -25,8 +25,8 @@
 ## Test Result: S1=ON, S2=ON, S3=OFF
 - **Result:** (20, 6) CLOSED.
 
-- **Switch 1 (16, 1):** Turning ON.
-    - State: OFF -> ON.
+- **Switch 1 (16, 1):** Turned ON.
+    - State: ON.
     - Context: S2=ON, S3=OFF.
 
 ## Current Goal: Retest S1=ON, S2=OFF, S3=OFF
@@ -35,8 +35,8 @@
   - S1=ON opens Inner (12, 8).
   - If both are true simultaneously, the middle path is open.
 - **Plan:**
-  1. Turn S1 ON (Executing now).
-  2. Turn S2 OFF (Next step).
+  1. Turn S1 ON (Done).
+  2. Turn S2 OFF (Navigating now).
   3. Enter (10, 6) -> (12, 8) -> Emergency Switch.
 
 ## Pathfinding
