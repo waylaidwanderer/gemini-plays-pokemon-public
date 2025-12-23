@@ -82,11 +82,11 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Action:** Turning Switch 1 OFF.
-- **Current State:** S1=OFF, S2=ON, S3=OFF. (Assuming I leave S2 ON, or did I turn it OFF? I need to check S2 status).
-- **Wait:** I turned S2 ON in turn 14163. I haven't turned it OFF since.
-- **Hypothesis:** S1 OFF might open (20, 6).
+- **Correction:** Switch 1 was actually OFF (Screen Text confirmed). My previous tracking was incorrect.
+- **Implication:** The observation at Turn 14170 (Shutter Closed) was likely with S1=OFF, S2=ON.
+- **Action:** Turning Switch 1 ON.
+- **Current State:** S1=ON (Target), S2=ON, S3=OFF.
+- **Hypothesis:** S1 ON might open (20, 6).
 - **Plan:**
-  1. Confirm S1 OFF.
-  2. Check (20, 6).
-  3. If closed, maybe S1=OFF + S2=OFF? But let's test one var at a time.
+  1. Select YES to Turn S1 ON.
+  2. Navigate to (20, 5) to check (20, 6).
