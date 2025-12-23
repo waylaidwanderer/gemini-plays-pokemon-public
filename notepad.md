@@ -8,20 +8,19 @@
 
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
-- **Hypothesis:** Need to open East Path Entrance AND Exit to reach Emergency Switch.
-- **Previous Attempt:** 3 -> 2 -> 1 (Result: West & Middle Entrances Open, East Entrance Closed, All Exits Closed).
-- **New Plan:** Reset all switches to OFF. Then try sequence starting with Switch 1 (The other "end").
-- **Sequence:** 1 -> 2 -> 3 (or 1 -> 3 -> 2).
-- **Current Status:** Switch 3 OFF. Switch 2 OFF (Just pressed). Switch 1 ON.
+- **Sequence Attempt:** 1 -> 2 -> 3.
+- **Current Status:** Switch 1 ON (Step 1 Complete). Switch 2 OFF. Switch 3 OFF.
+- **Next Step:** Turn Switch 2 ON.
+- **Hypothesis:** 1-2-3 sequence will open the correct path to the Emergency Switch.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
 - **Switch 2:** Map 3_54 (OFF).
 - **Switch 3:** Map 3_54 (OFF).
 - **Emergency Switch:** (20, 11).
-- **Eddie:** (3, 8) - Says "Nothing down there" (West Path Dead End).
+- **Eddie:** (3, 8) - West Path Dead End.
 
 # Archive (Completed/Failed)
 - **Dept Store Puzzle:** Solved.
-- **Blockage:** Path South (Row 10) blocked in all columns with current config.
-- **West Path:** Confirmed Dead End / Eddie location.
+- **Blockage:** Path South (Row 10) blocked in all columns with previous configs.
+- **West Path:** Confirmed Dead End.
