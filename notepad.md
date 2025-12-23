@@ -21,21 +21,20 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to `(12, 12)` through the now OPEN East Gate `(12, 8)`.
-   - Confirmed: S1=OFF (with S3=ON) opened `(12, 8)`.
-   - Confirmed: `(12, 12)` opened earlier and likely remains OPEN.
-2. Proceed South through `(12, 12)` to the unexplored area.
-3. Locate the Director or the path to the Warehouse.
+1. Proceed South through `(12, 13)` into the unexplored area.
+   - Confirmed: S1=OFF + S3=ON opens East Gate `(12, 8)`.
+   - Confirmed: `(12, 12)` is OPEN.
+2. Explore the corridor/room south of `(12, 12)`.
+   - Likely leads to the Warehouse or the Director.
+3. Keep an eye out for trainers (Rocket Girl at `(19, 12)` is nearby but likely contained).
 
 ## Observations
 - **Switch Status:** S1=OFF, S2=ON, S3=ON.
-- **Gate Logic:**
-  - S3=ON seems to be a prerequisite for the "Emergency" path.
-  - With S3=ON:
-    - S1=OFF opens East Gate `(12, 8)`.
-    - S1=ON likely opened West Gate `(6, 8)` (based on previous turns).
-    - `(12, 12)` seems controlled by S3 or S2+S3, independent of S1? Or maybe S1=OFF is the key combination.
-- **Current Path:** The way South is open.
+- **Gate Logic Confirmed:**
+  - S3=ON is the master power for the vertical shutters (like 12,12).
+  - S1 toggles the horizontal gates (12,8 vs 6,8), but *only* if S3 allows or modifies it?
+  - Regardless, the current combination works: East Gate and Target Shutter are both open.
+- **Next Steps:** Exploration.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
