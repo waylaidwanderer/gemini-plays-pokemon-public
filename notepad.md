@@ -19,17 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=ON, S2=ON, S3=ON.
-- **Location:** Goldenrod Underground (SE Room).
-- **Observation:** Blocked from going North inside SE Room. Must exit South.
-- **Action:** Exit SE Room via South Warp (21, 31).
+- **State:** At Basement Door (18, 6).
+- **Location:** Goldenrod Underground (Main Tunnel).
+- **Observation:** Warped from (21, 31) to (18, 7). Standing in front of Locked Door.
+- **Action:** Open/Enter Basement Door (18, 6).
 - **Plan:**
-  1. Exit via (21, 31) to Goldenrod City.
-  2. Re-enter Underground immediately.
-  3. Walk North in Main Tunnel.
-  4. Go East at Row 7 to reach (18, 6).
-  5. Enter Basement Key Door.
-  6. Check for Director.
+  1. Enter Basement Key Door (18, 6).
+  2. Search for Director in the Warehouse.
+  3. Rescue Director.
 
 ## Reflection (Turn 14079)
 - **Execution:** Immediate.
