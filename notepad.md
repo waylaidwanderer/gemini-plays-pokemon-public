@@ -2,7 +2,7 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
-- Active Status: Super Repel expired (Turn #13075). 0 left in bag.
+- Active Status: Ready. 20 Super Repels in bag. Money: ¥821.
 - Current Status: Suicune confirmed on Route 38 (Turn #13076).
 
 # Roaming Pokémon Reference
@@ -19,26 +19,10 @@
 - WALL / HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
 - WARP_CARPET_RIGHT: Traversable. Triggers map transition.
-
-# Restock Task (Started Turn #13076)
-- Goal: Buy 20 Super Repels (10,000 yen).
-- Current Funds: 10,821 yen.
-- TM Selling Progress:
-  - TM01 (DynamicPunch): Sold for 1500 yen.
-  - TM08 (Rock Smash): Sold for 500 yen.
-  - TM12 (Sweet Scent): Sold for 500 yen.
-  - TM16 (Icy Wind): Sold for 1500 yen.
-  - TM35 (Sleep Talk): Sold for 500 yen.
-  - TM45 (Attract): Sold for 1500 yen.
-  - TM33 (Ice Punch): Sold for 1500 yen.
-  - TM48 (Fire Punch): Sold for 1500 yen.
-  - TM49 (Fury Cutter): Pending (Optional).
-  - TM50 (Nightmare): Pending (Optional).
-- Revenue Goal Met: Yes.
-- Time Tracking: 50 turns elapsed since task start.
+- OLIVINE_CITY (18, 17): WALL (Impassable). Avoid when pathing.
 
 # Olivine Mart Tile Mechanics
-- MART_SHELF: Impassable. (Visual confirmation: Attempted movement blocked).
+- MART_SHELF: Impassable.
 - COUNTER: Impassable. Used for interaction with clerks. (Verified: Interaction with Clerk at (1, 3) successful while facing Counter at (2, 3) from (3, 3)).
 
 # Route 38 Specifics
