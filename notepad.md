@@ -23,15 +23,14 @@
 
 ## Training Plan: XENON
 - Goal: Reach Lv 13 (1261 Total EXP).
-- Progress: 1171 EXP (90 EXP remaining). Estimated 3 battles left.
-- Current Battle: Ekans Lv 4 (~35 EXP). Post-battle: ~55 EXP remaining.
+- Progress: 1206 EXP (55 EXP remaining). Estimated 2 battles left.
 - Method: Use Sweet Scent at (18, 15) grass patch on Route 32.
 - Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
 - PP Management: XENON has low Lick PP (30). Return to Pokecenter or use Ether/Berry when Lick PP < 5.
 - Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
 
 ## Recent Mistakes & Lessons
-- **Turn 14436:** Misclicked Spite instead of Lick. Lesson: Always verify cursor position after closing the Bag or other sub-menus.
+- **Turn 14436-14439:** Misclicked Spite instead of Lick. Lesson: Always verify cursor position after closing the Bag or other sub-menus.
 - **Turn 14436:** Verified Ghost-type immunity to Normal moves (Wrap) in Gen 2.
 - **Turn 14416:** Attempted to path through walls/trees. Lesson: Use 'run_code' to verify tile navigability before long path plans.
 
