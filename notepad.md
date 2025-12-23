@@ -21,23 +21,17 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to `(2, 6)` via Row 4.
-   - Current Position: `(10, 5)`.
-   - Reason: North Gate `(10, 6)` is CLOSED with S2=OFF. I cannot enter south from here.
-2. Go South to `(2, 8)` and check the West Gate `(6, 8)`.
-   - If OPEN: Proceed to `(12, 12)` (Target Shutter).
-   - If CLOSED: S2=OFF blocks all progress. Return to S2 and turn ON.
-3. If forced to turn S2 ON:
-   - Try a new combo. Maybe S1=ON, S2=ON, S3=ON but enter via West?
-   - Or maybe the shutters `(20, 6)` open with S2=OFF? (Unlikely if main power is cut, but worth a check if West Gate is closed).
+1. Navigate to West Gate `(6, 8)` to check its status.
+   - Current Position: `(2, 6)`.
+   - Path: `(2, 6) -> (2, 8) -> (6, 8)`.
+   - Encounter: Will likely trigger the Burglar (Pharmacist) at `(4, 8)`.
+2. Evaluate Gate Status:
+   - If `(6, 8)` is OPEN: Proceed to `(12, 12)`.
+   - If `(6, 8)` is CLOSED: S2=OFF likely killed the power.
+     - Action: Return to S2 `(10, 1)` and turn ON.
+     - Then try the "West Entrance" strategy: S1=OFF, S2=ON, S3=ON. Enter via `(2, 6)`.
 
 ## Observations
-- **Switch Status:**
-  - S1: OFF
-  - S2: OFF
-  - S3: ON
-- **Gate Status:**
-  - `(10, 6)`: CLOSED (Confirmed).
-  - `(6, 8)`: Unknown.
-  - `(12, 8)`: Unknown.
-- **Hypothesis:** S2=OFF might default all gates to CLOSED. If so, this is a dead end.
+- **Switch Status:** S1=OFF, S2=OFF, S3=ON.
+- **Path:** `(2, 6)` corridor is OPEN.
+- **Hypothesis:** We are testing if S2=OFF opens the gates. If not, the winning move is likely entering via `(2, 6)` with power ON.
