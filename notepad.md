@@ -33,9 +33,9 @@
 - FLOOR: Standard traversable ground. Verified.
 - TALL_GRASS: Encounter-eligible ground. Verified.
 - WALL: Impassable boundary. Verified.
-- HEADBUTT_TREE: Impassable wall. Verified at (26, 26) and (14, 22) in Violet City.
+- HEADBUTT_TREE: Impassable wall. Verified at (26, 26), (14, 22), and (14, 23) in Violet City.
 - LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15) on Route 32 and (29, 22) in Violet City.
-- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12) on Route 32.
+- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12) on Route 32 and (27, 23) in Violet City.
 - WATER: Impassable without Surf. Verified.
 - DOOR/DOOR_04/CAVE: Warp entry points. Verified.
 - COUNTER: Interaction point for NPCs; impassable. Verified.
