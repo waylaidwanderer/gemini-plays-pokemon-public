@@ -13,14 +13,17 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Entering Central Room.
-- **Action:** Explore the Central/South area.
+- **Location:** Central Room (10, 9).
+- **Action:** Verify shutter states.
 - **Plan:**
-  1. Move to (10, 9) inside the room.
-  2. Check for items or paths to the East side.
-  3. Locate the Emergency Switch path.
+  1. Check if (6, 8) is OPEN.
+  2. Check if (12, 8) is CLOSED.
+  3. If East is blocked, exit North.
+  4. Try S1=ON, S2=OFF, S3=OFF to open East Entry (20, 6).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
-- **Hypothesis:** The path is blocked by shutters. Need to find a combination that allows access to the South-East area.
+- **Hypothesis:** Switch 1 ON opens the North-East Shutter at (20, 6).
+- **Observation:** S2 ON allows entry to Central, but closes East path. S3 ON allows entry to West, but closes East path.
+
 - **Next Step:** Turn S2 ON. Enter Central Room via (10, 6). Explore connection to South.
