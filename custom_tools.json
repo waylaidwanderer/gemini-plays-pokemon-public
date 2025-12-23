@@ -196,5 +196,35 @@
         "action_counter": 14462
       }
     ]
+  },
+  "select_move_v6_refined": {
+    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "The 1-based index of the move to select (1-4)."
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The current screen text containing the move menu."
+        }
+      },
+      "required": [
+        "move_index",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        if not input_json:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_json)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Move list lines in the battle menu typically start with \"│   │\"\n            if '│   │' in line:\n                move_lines.append(line)\n        \n        # Expect up to 4 moves\n        current_index = 1\n        for i, line in enumerate(move_lines):\n            if '▶' in line:\n                current_index = i + 1\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.append(\"Down\")\n                buttons.append(\"Down\")\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Refine move selection logic to filter move list lines starting with '│   │' for better accuracy. Ensure JSON output even on failure.",
+        "timestamp": "2025-12-23T13:20:28.870Z",
+        "action_counter": 14465
+      }
+    ]
   }
 }
