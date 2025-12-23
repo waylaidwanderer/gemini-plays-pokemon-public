@@ -54,3 +54,5 @@
     3. Check if North Gate (10, 8) opens.
     4. If not, try standing at (5, 8) (Side view) again and checking the gate.
 - **Stealth Route:** From Elevator (10, 4) -> (9, 4) -> (8, 4) -> (8, 8). This avoids Column 9 entirely (Row 5+), preventing the alarm trigger.
+- **Observation:** Black Belt (ID 6) rotates. Was facing UP, now facing LEFT.
+- **Hypothesis Adjustment:** He might need to "see" me when he rotates to face me. Standing at (4, 7) puts me in his UP line of sight.
