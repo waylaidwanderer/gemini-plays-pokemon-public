@@ -20,15 +20,13 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (20, 5).
-- **Observation:** (20, 6) is CLOSED with S2=ON.
-- **Action:** Try Combination S2=ON + S3=ON.
+- **Location:** Switch Room (15, 4).
+- **Action:** Turn Switch 3 ON.
 - **Plan:**
-  1. Move to Switch 3 (2, 1).
-  2. Turn S3 ON.
-  3. Return to (20, 6).
-  4. Check if OPEN.
-  5. If closed, try S1=ON + S2=ON.
+  1. Move to Switch 3 (2, 2).
+  2. Turn S3 ON. (Result: S2=ON, S3=ON).
+  3. Check Shutter at (20, 6).
+  4. If Closed, try S1=ON + S2=ON.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
