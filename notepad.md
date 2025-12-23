@@ -46,3 +46,6 @@
 - COUNTER: Interaction point for NPCs; impassable. Verified.
 - NPC: Map objects that block movement. Verified.
 - WARP_CARPET_LEFT: Map transition point. Verified.
+## Exploration Plan
+- After XENON reaches Lv 13, explore the potentially reachable unseen tiles on Route 32 to complete the map.
+- Target areas: West of (13, 10), East of (19, 28), South/West of (11, 37), and the map perimeter (1, 76-87).
