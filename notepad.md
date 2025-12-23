@@ -21,17 +21,23 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Confirm Switch 2 is OFF (Done).
-   - Current State: S1=OFF, S2=OFF, S3=ON.
-2. Navigate South to `(10, 6)`.
-3. Check North Gate `(10, 6)`.
-   - If OPEN, proceed to check `(6, 8)` and `(12, 8)`.
-   - If CLOSED, this combination failed.
-4. If path opens, proceed to `(12, 12)` and beyond.
+1. Navigate to `(2, 6)` via Row 4.
+   - Current Position: `(10, 5)`.
+   - Reason: North Gate `(10, 6)` is CLOSED with S2=OFF. I cannot enter south from here.
+2. Go South to `(2, 8)` and check the West Gate `(6, 8)`.
+   - If OPEN: Proceed to `(12, 12)` (Target Shutter).
+   - If CLOSED: S2=OFF blocks all progress. Return to S2 and turn ON.
+3. If forced to turn S2 ON:
+   - Try a new combo. Maybe S1=ON, S2=ON, S3=ON but enter via West?
+   - Or maybe the shutters `(20, 6)` open with S2=OFF? (Unlikely if main power is cut, but worth a check if West Gate is closed).
 
 ## Observations
 - **Switch Status:**
   - S1: OFF
-  - S2: OFF (Confirmed)
+  - S2: OFF
   - S3: ON
-- **Hypothesis:** Disabling Main Power (S2) with Emergency Power (S3) active might trigger a fail-safe, opening the gates.
+- **Gate Status:**
+  - `(10, 6)`: CLOSED (Confirmed).
+  - `(6, 8)`: Unknown.
+  - `(12, 8)`: Unknown.
+- **Hypothesis:** S2=OFF might default all gates to CLOSED. If so, this is a dead end.
