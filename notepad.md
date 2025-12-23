@@ -11,18 +11,19 @@
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
     - OFF: ?
 
+## Navigation Correction
+- **Error:** Attempted to move Left at (8, 3) into Wall (7, 3).
+- **Correction:** Row 3 and Row 2 have walls at x=6,7. Must use Row 4 to bypass.
+- **Current Position:** (8, 3).
+
 ## Current Goal: Restore "Open Path" State (S1=ON, S2=OFF, S3=OFF)
-- **Analysis:**
-  - S2=OFF opens Outer (10, 6).
-  - S1=ON opens Inner (12, 8).
-  - S3=OFF keeps 12, 8 open.
 - **State Tracking:**
     - S1: OFF
     - S2: OFF (Confirmed)
-    - S3: ON
+    - S3: ON -> OFF (Target)
 - **Plan:**
-  1. Turn Switch 2 **OFF** (Done).
-  2. Navigate to Switch 3 (2, 1) and turn **OFF**.
+  1. Navigate to Switch 3 (2, 1) via Row 4.
+  2. Turn Switch 3 **OFF**.
   3. Navigate to Switch 1 (16, 1) and turn **ON**.
   4. Enter via (10, 6) -> (12, 8) -> Emergency Switch.
 
