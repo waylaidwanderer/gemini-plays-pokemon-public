@@ -30,6 +30,6 @@
 
 ## Observations
 - **Switch 3 (2, 1):** Currently OFF.
-- **Switch 2 (10, 1):** Was OFF. Turning ON now.
-- **North Gate (10, 6):** Currently CLOSED.
+- **Switch 2 (10, 1):** Currently ON (Confirmed).
+- **North Gate (10, 6):** Shows as FLOOR (Open). Need to verify if (10, 7) is passable.
 - **Unseen Tiles:** Potential path at `(10, 14)` south of North Gate.
