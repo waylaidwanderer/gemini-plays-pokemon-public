@@ -44,3 +44,7 @@
 - **Shifting Walls:** The boxes in the center room (Cols 10-11, Rows 8-12) toggle between WALL and FLOOR. Likely linked to NPC movement or position. Currently, the South path (Rows 10-12) is OPEN, and the North path (Rows 8-9) is CLOSED.
 - **Correction:** Previous test failed because auto-pathing routed through (9, 8), triggering the trap.
 - **Retest:** Manual pathing: Elevator (Reset) -> (8, 4) -> (8, 8). Avoid (9, 8) entirely.
+- **Clue:** Black Belt says "Our policy is to work behind the scenes where no one can see us!"
+- **Interpretation:** Being "seen" (Line of Sight) triggers the gates to close.
+- **Refined Plan:** Reset the room via Elevator. Then, strictly adhere to Column 8 (Left Wall) to approach the North Gate. Do NOT step on Column 9.
+- **Hypothesis:** Staying out of the Black Belt's line of sight (Col 9) will keep the North Gate open.
