@@ -12,7 +12,7 @@
 - Current Session Start: Turn #13803
 - Current Super Repel: Turn #13803 (Steps: 80/200)
 - Total Super Repels Used (Session): 1
-- Last Check: confirmed on Route 38 (Turn #13812).
+- Last Check: confirmed at (25, 7) on Route 38 (Turn #13822). MATCH!
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
