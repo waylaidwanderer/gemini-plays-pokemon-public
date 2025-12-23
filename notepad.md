@@ -60,11 +60,17 @@
 - **Hypothesis:** This combination opens shutters in the middle section (Rows 6-10).
 - **Next Step:** Explore Middle Section, verify shutters (6, 8) and (12, 8), and talk to Burglar at (4, 8).
 
-## Current Goal: Explore Middle Section & Talk to Burglar
+## Current Goal: Execute Combination S1=ON, S2=OFF, S3=OFF
+- **Action:** Toggling Switch 2 (10, 1) OFF.
+- **State Tracking:**
+    - S1: OFF
+    - S2: ON -> OFF (Pending)
+    - S3: ON
 - **Plan:**
-  1. Navigate to (4, 8) to talk to Burglar.
-  2. Observe shutter states at (6, 8) and (12, 8) along the way.
-  3. Look for a path to the South (Row 12+).
+  1. Toggle S2 OFF (Executing Now).
+  2. Navigate to S3 (2, 1) and turn OFF.
+  3. Navigate to S1 (16, 1) and turn ON.
+  4. Verify path to Emergency Switch via (10, 6) and (12, 8).
 ## Reflection (Turn 13663)
 1. **Immediate Execution:** No deferred tasks identified. Current task (Check (20, 6)) is being executed immediately.
 2. **Notepad Hygiene:** Notepad is structured with a "Switch Mechanics Log" and "Current Goal". It is clean.
