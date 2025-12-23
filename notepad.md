@@ -20,13 +20,16 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=OFF, S3=ON.
-- **Location:** Switch Room (16, 2).
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Action:** Return to Switch 3 (2, 1).
 - **Plan:**
-  1. Confirm Switch 1 OFF.
-  2. Move to (20, 5).
-  3. Check if Shutter at (20, 6) is OPEN.
-  4. If closed, try S2=ON (since S2 opens North Shutter).
+  1. Attempt to pass (12, 8).
+  2. If blocked, use Ladder at (23, 3) to escape.
+  3. Re-enter via West Shutter (6, 8).
+  4. Turn S3 OFF.
+  5. Turn S2 ON.
+  6. Use Ladder at (23, 3) to access East Room.
+  7. Check Shutter at (20, 6).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
