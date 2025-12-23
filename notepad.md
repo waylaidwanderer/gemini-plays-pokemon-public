@@ -31,8 +31,9 @@
 - **Switch 3 (2, 1):** Emergency Override.
     - **Status:** ON.
     - **Effect:**
-        - Shutters `(17, 6)` and `(20, 6)` remain CLOSED.
-        - West Gate `(6, 8)` CLOSED (Locked).
-    - **Hypothesis:** S3 initiates a Lockdown.
-    - **Plan:** Turn S3 OFF. Then try turning S2 (Main Power) OFF to see if it disables shutter locks.
+        - **Locks** Central Path (10, 6-7) and West Gate (6, 8).
+        - **Opens** Inner East Gate (12, 8) (Verified).
+        - **Unknown:** Does it open (12, 6-7)? If not, (12, 8) is unreachable from North.
+    - **Plan:** Check path South at (12, 5). If blocked, S3=ON is a lockout state.
+    - **Goal:** Find path to Row 8+ or Director.
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
