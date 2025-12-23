@@ -27,5 +27,5 @@
 - **Dialogue:** He claims my previous victory was a fluke and wants to "repay his debts". Likely a battle.
 - **Battle Update:** Silver sent out Haunter. Muscle (Lv 52) staying in to use Dig (Super Effective vs Ghost/Poison).
 - **Rival Team:** Golbat (Lv 30), Haunter (Lv ??). Likely includes Sneasel, Magnemite, Croconaw.
-- **Battle Update:** Silver sending out Feraligatr. Staying in with Muscle (Lv 52).
-- **Plan:** Use Cross Chop (STAB) vs Feraligatr. Level advantage should secure the win.
+- **Battle Update:** Silver sent out Feraligatr. Muscle (Lv 52) staying in.
+- **Plan:** Use Cross Chop (Slot 4). It has STAB and high crit rate. Even neutral, it should crush Feraligatr (Lv 32).
