@@ -10,8 +10,16 @@
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
 - **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 ON (Sequence 1-2-3 Complete).
-- **Next Step:** Navigate to Emergency Switch at (20, 11) to verify path.
-- **Hypothesis:** 1-2-3 sequence will open the correct path to the Emergency Switch.
+- **Observations:**
+    - Switch 3 ON: Opens Top 1-2 (6, 8) and Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
+    - Switch 1 ON: Closes Vertical 2 (10, 6/7).
+- **Problem:** Need to reach Emergency Switch (Section 4). Path blocked at Top 2-3.
+- **Hypothesis:** Switch 2 controls Top 2-3. Turning Switch 2 OFF might open it, allowing access to Switch 1.
+- **Plan:**
+    1. Turn Switch 2 OFF. Check if Top 2-3 opens.
+    2. If Open, go to Switch 1 and turn OFF (to open Vertical 2).
+    3. Return to Section 2, go Down via Vertical 2.
+    4. Proceed East via Bottom 2-3.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
