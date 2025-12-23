@@ -20,17 +20,15 @@
 
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
-- **Location:** Switch Room (20, 5).
-- **Observation:** (20, 6) is definitively CLOSED (Wall).
-- **New Hypothesis:** (20, 6) is the EXIT from the Director's Room, opened by the Emergency Switch. The ENTRANCE is via the Basement Key Door in the Main Tunnel, which warps to (22, 10).
-- **Action:** Go to Main Tunnel via Ladder.
+- **Location:** Goldenrod Underground (SE Room).
+- **Observation:** Arrived via Ladder. Exiting to Main Tunnel.
+- **Action:** Go to Main Tunnel via Warp (21, 31).
 - **Plan:**
-  1. Go to Ladder at (23, 3).
-  2. Exit to Underground SE Room.
-  3. Warp to Main Tunnel.
-  4. Enter Basement Key Door (18, 6 in Main Tunnel).
-  5. Arrive at (22, 10) in Switch Room.
-  6. Press Emergency Switch at (20, 11).
+  1. Warp to Main Tunnel via (21, 31).
+  2. Navigate North to Basement Key Door (18, 6).
+  3. Enter Warehouse.
+  4. Navigate to Switch Room Entrance at (22, 10).
+  5. Press Emergency Switch at (20, 11).
 
 ## Reflection (Turn 14079)
 - **Execution:** Immediate.
