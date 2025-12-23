@@ -22,4 +22,9 @@
 - Sweet Scent failed at (14, 6), (10, 11), and (14, 10). These tiles are "safe".
 
 ## Battle Observations
-- XENON (Gastly) caught at Lv 6 (Female) at Turn #13924.
+- XENON (Gastly) caught at Lv 6 (Female) at Turn #13924. Sent to Bill's PC.
+
+## Training Plan: XENON
+1. Retrieve XENON from Violet City PC.
+2. Deposit Blarney (Sudowoodo) to make room.
+3. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
