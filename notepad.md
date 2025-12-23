@@ -11,7 +11,7 @@
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
 - Repel Trick: Lead PKMN level must be STRICTLY HIGHER than local wild PKMN but < Roamer level (Lv40). Repel only blocks levels LOWER than the lead Pokémon. Route 42 locals reach Lv17, so XENON (Lv17) is not 100% effective. Target: Lv18.
-- Training Plan: Train XENON to Lv18 in Mt. Mortar or via Headbutt trees on Route 42 if Repel fails.
+- Training Plan: Train XENON to Lv18 in Mt. Mortar (via Cave warps) or via Headbutt trees on Route 42 if Repel fails.
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
