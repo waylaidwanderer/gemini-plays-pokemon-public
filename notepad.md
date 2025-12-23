@@ -81,3 +81,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Next Step:** Navigate to (20, 5) via Row 4 to inspect the Outer East Shutter (20, 6).
 - **Action:** Navigating to (20, 6) with S1=ON, S2=ON, S3=ON.
 - **Hypothesis:** This "All Systems Go" configuration might open the Outer East Shutter.
+- **Action:** Navigating to (20, 6) to test S1=ON, S2=ON, S3=ON.
+- **Path:** Along Row 4 (North Corridor).
+- **Expectation:** If (20, 6) opens, proceeding South.
+- **Note:** S3=ON likely closed the North Gate (10, 6) and West Gate (6, 8), so the only way South *must* be via the Outer East path or the West Shortcut (2, 7).
