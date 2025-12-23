@@ -10,7 +10,7 @@
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile.
 - WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN/LEFT/RIGHT: Jumpable one-way movement.
+- LEDGE_HOP_DOWN/LEFT/RIGHT: Jumpable one-way movement. Jump Down verified at (14, 6).
 - WARP_CARPET_RIGHT/DOWN: Map transition.
 - WATER: Traversable with HM SURF.
 - ICE: Sliding movement.
