@@ -60,3 +60,5 @@
 - **Verified (Turn 15009):** S1=ON, S2=ON, S3=ON opens West Gate (6, 8) and closes East Gate (12, 8).
 - **Target Shutter (12, 12):** Confirmed OPEN (FLOOR) with S3=ON.
 - **Plan:** Entering the Southern Area via West Gate to reach the Warehouse.
+- **Tile Change (Turn 15013):** `(6, 13)` changed from FLOOR to WALL. Possibly a shutter closing as I moved south?
+- **Plan:** Moving through the open path at `(12, 12)` to explore the southern section.
