@@ -18,7 +18,7 @@
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
 - Menu Wrapping: 
     - Start Menu (8 items): FULLY WRAPS. (Verified Turn 14303/14335). Navigate relatively. Resets to POKEDEX (1) after battle.
-    - Party Menu (7 items: 1-6 + CANCEL): FULLY WRAPS. (Verified Turn 14328). Navigate relatively. Resets to Slot 1 when opened from Start Menu; stays on last selection within the same menu session.
+    - Party Menu (7 items: 1-6 + CANCEL): FULLY WRAPS. (Verified Turn 14328). Navigate relatively. REMEMBERS last selection even when closed/reopened (Verified Turn 14362).
     - PKMN Pop-up Menu (variable size): WRAPS. For KIMCHI (2 field moves), it has 7 items: 1.SWEET SCENT, 2.CUT, 3.STATS, 4.SWITCH, 5.MOVE, 6.ITEM, 7.CANCEL.
     - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). 
     - Move Selection: In the overworld pop-up menu, field moves are listed at the top. The 'MOVE' option (#5 for KIMCHI) is for reordering.
