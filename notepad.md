@@ -48,3 +48,10 @@
 - Requirements: Surf (Ravioli), Cut (KIMCHI).
 - Pacing coordinate for encounters: (50, 12).
 - Adjacent Maps: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
+## Battle Tactics: Suicune vs Gastly
+- Suicune (Lv40) in Crystal knows Bubblebeam, Rain Dance, Gust, and Roar.
+- XENON (Gastly) is Ghost-type, making it immune to Roar. This prevents Suicune from forcing XENON out or ending the battle via Roar, even when trapped by Mean Look.
+- Mean Look is the priority move to prevent Suicune from fleeing.
+- Hypnosis will be used to keep Suicune immobile for capture.
+- Status: XENON is Lv17 (Correcting previous turn's Lv15 hallucination). Training to Lv18 for Repel Trick.
+- **Roamer Immunity Check**: Roar (Normal) vs Ghost (Immune). Trapping confirmed viable.
