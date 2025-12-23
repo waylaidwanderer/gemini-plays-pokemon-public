@@ -213,5 +213,21 @@
         "action_counter": 14573
       }
     ]
+  },
+  "get_reachable_unseen_tiles": {
+    "description": "Analyzes the current map XML to identify unseen tiles that are directly adjacent to tiles reachable from the player's current position. Returns a list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    root = ET.fromstring(map_xml_string)\n    \n    start_x, start_y = None, None\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                start_x, start_y = int(tile.attrib['id']), y\n                break\n        if start_x is not None: break\n            \n    if start_x is None: return {\"reachable_unseen\": []}\n\n    grid = {}\n    impassable = {'WALL', 'HEADBUTT_TREE', 'WATER', 'unseen'}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile.attrib['type']\n            if tile.find('Object') is not None: grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y)])\n    visited = {(start_x, start_y)}\n    reachable_tiles = {(start_x, start_y)}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                t = grid[(nx, ny)]\n                if t not in impassable:\n                    # Simplified one-way check for reachability analysis\n                    if dy == 1 and (grid.get((curr_x, curr_y)) == 'FLOOR_UP_WALL' or t == 'FLOOR_UP_WALL'): continue\n                    if dy == -1 and t == 'LEDGE_HOP_DOWN': continue\n                    if dx == -1 and t == 'LEDGE_HOP_RIGHT': continue\n                    \n                    if (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        reachable_tiles.add((nx, ny))\n                        queue.append((nx, ny))\n\n    reachable_unseen = set()\n    for rx, ry in reachable_tiles:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            ux, uy = rx + dx, ry + dy\n            if (ux, uy) in grid and grid[(ux, uy)] == 'unseen':\n                reachable_unseen.add((ux, uy))\n                \n    return {\"reachable_unseen\": sorted(list(reachable_unseen))}\n\nprint(json.dumps(run(input_data)))",
+    "history": [
+      {
+        "commit_message": "Created get_reachable_unseen_tiles to identify unexplored areas adjacent to reachable tiles. This will help with the \"Reveal 100% of Route 32\" objective.",
+        "timestamp": "2025-12-23T14:53:49.598Z",
+        "action_counter": 14593
+      }
+    ]
   }
 }
