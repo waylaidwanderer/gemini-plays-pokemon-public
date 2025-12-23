@@ -43,3 +43,6 @@
 - **Current Location:** Warehouse (Map 3_53, SE Section).
 - **Insight:** I previously skipped exploring this room to take the ladder. The Director might be HERE.
 - **Plan:** Explore the Warehouse maze (West of the ladder) before returning to the switch puzzle.
+- **Status:** Exited Warehouse SE Room to Main Tunnel (18, 7).
+- **Plan Update:** Re-entering Warehouse via (18, 6) to access the Switch Room from the North (via ladder).
+- **Goal:** Reach Switch Room (Map 3_54), go to (12, 8), and pass through the East Shutter (which should be OPEN now).
