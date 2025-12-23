@@ -271,3 +271,5 @@
 - **Observation:** Gate (10, 6) is CLOSED.
 - **Conclusion:** S3=ON overrides S2=ON, forcing (10, 6) to close.
 - **Action:** Leaving S2 ON. Proceeding to check Outer East Shutter (20, 6) with combo: S1=OFF, S2=ON, S3=ON.
+- **Action:** Navigating to (20, 6) to test current config (S1=OFF, S2=ON, S3=ON).
+- **Hypothesis:** This combination might open the Outer East Shutter.
