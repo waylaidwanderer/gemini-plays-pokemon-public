@@ -34,4 +34,5 @@
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
 - **Battle Result:** Defeated Silver! Muscle swept his team.
-- **Next Step:** Battling the Rocket Grunt at (17, 2) to reach the switch.
+- **Next Step:** Battling the Rocket Grunt at (17, 3) (Moved from 17,2).
+- **Plan:** Interact/Battle Grunt, then flip the Switch at (16, 1).
