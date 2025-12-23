@@ -3,8 +3,9 @@
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
 - Lead: KIMCHI (Lv 21 Gloom). *Note: Suicune outspeeds and flees Turn 1. Need faster Sleep/Mean Look user long-term.*
 - Status: Super Repel active (Turn #13655).
-- Milestones: 50 (T13670), 100 (T13693), 125 (T13706), 150 (T13714).
+- Milestones: 50 (T13670), 100 (T13710), 125 (T13722).
 - Last Check: confirmed on Route 38 (Turn #13721).
+- Step Count: 138/200 (Turn #13724). Next Milestone: 150.
 - Time Tracking: Monday, 9:46 PM PST.
 
 ## Battle Strategy
@@ -18,7 +19,7 @@
 ## Route 38 Environment
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
-- Location: Verified on Route 38 (Turn #13700).
+- Location: Verified on Route 38 (Turn #13721).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
