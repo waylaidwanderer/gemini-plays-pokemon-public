@@ -26,3 +26,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Inner East Path (12, 8):** Dead end (blocked by walls south of row 9).
 - **West Path (via 2, 7 with S3=ON):** Leads to Pharmacist (4, 8) who says "Nothing down there". Dead end?
 - **Outer East Path (20, 6):** Currently the main target. Contains Emergency Switch `(20, 11)` and Door `(22, 10)`.
+- **Observation (Turn 14435):** System confirmed (10, 6) opened (WALL -> FLOOR).
+    - **Conclusion:** S2=ON is active and S3=OFF removed the override on the North Gate.
+- **Action:** Proceeding to check (20, 6) with high confidence that S1=OFF (Outer Path selected) + S2=ON (Power) will open it.
