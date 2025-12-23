@@ -28,11 +28,10 @@
 
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
-- **Switch 3 (2, 1):** Emergency Override.
-    - **Status:** OFF (Verified).
-    - **Effect:** Restored S1 logic.
-    - **Observation:** Shutters `(17, 6)` and `(20, 6)` are visually CLOSED (Wall tiles) with S1=OFF, S2=ON, S3=OFF.
-    - **New Hypothesis:** S2 (Main Power) OFF might release electronic locks on shutters.
-    - **Plan:** Turn S2 OFF. Then check shutters.
+- **Switch 2 (10, 1):** Main Power.
+    - **Status:** Turning OFF.
+    - **Current State:** S1=OFF, S2=ON->OFF, S3=OFF.
+    - **Hypothesis:** Turning Main Power OFF might de-energize the magnetic locks on the shutters `(17, 6)` and `(20, 6)`.
+    - **Plan:** Turn S2 OFF. Inspect shutters. Then inspect West/East Gates to see if "Power Off" affects them.
     - **Correction:** Updated marker for Inner East Gate (12, 8) to CLOSED (consistent with S1=OFF).
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
