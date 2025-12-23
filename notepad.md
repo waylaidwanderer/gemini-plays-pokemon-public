@@ -75,10 +75,10 @@
   1. Turn Switch 2 ON.
   2. Navigate via Row 4 to (20, 6).
   3. Check if (20, 6) is OPEN.
-- **Correction:** Switch 2 interaction is still in progress. Menu is open, cursor on NO.
-- **Current State:** S1=ON, S2=OFF (Pending change to ON).
-- **Action:** navigating menu to turn S2 ON.
+- **Action:** Switch 2 turned ON (Confirmed).
+- **Current State:** S1=ON, S2=ON, S3=OFF.
+- **Hypothesis:** S2 ON opens shutter at (20, 6).
 - **Plan:**
-  1. Press Up to select YES.
-  2. Press A to confirm.
-  3. Navigate to (20, 5) to inspect Shutter at (20, 6).
+  1. Navigate to (20, 5).
+  2. Inspect Shutter at (20, 6).
+  3. If open, proceed South.
