@@ -20,9 +20,9 @@
 - Sweet Scent: Triggers immediate wild encounter on valid grass tiles.
 
 ## Training Log: XENON
-- Start: Turn 14423.
-- Goal: Lv 13 (1261 Total EXP).
-- Status: 20 EXP remaining.
+- Status: Lv 13 reached. Mean Look learned.
+- Goal 1: Lv 13 (Mean Look) - COMPLETE.
+- Goal 2: Lv 25 (Evolution to Haunter).
 - Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout. RUN from Normal-types and Hoppip.
 - PP/HP Management: Return to Pokecenter if Lick PP < 5 or HP < 10.
 
