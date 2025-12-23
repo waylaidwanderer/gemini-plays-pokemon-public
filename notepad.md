@@ -57,11 +57,16 @@
 - **Roamer Immunity Check**: Roar (Normal) vs Ghost (Immune). Trapping confirmed viable.
 ## Training Log: XENON to Lv18
 - **Start Turn**: 15504
-- **Current Status**: Lv17 (3205 EXP). Needs 344 more EXP for Lv18.
+- **Current Status**: Lv17 (3205 EXP). Needs 594 more EXP for Lv18.
 - **Goal**: Reach Lv18 to enable Repel Trick on Route 42 (Wild Pokemon levels are 13-17, Suicune is 40).
-
-## Navigation Lessons
-- **Menu Truncation**: Mixing directional and action buttons in a single sequence causes the system to truncate the input. Keep menu navigation sequences to 1-3 buttons of a single type (directional OR action) for maximum reliability. (Turn 15530).
 
 ## Tile Mechanics
 - Route 42 (59, 8): FLOOR_UP_WALL. Hypothesized traversable from South. Verification pending.
+- TALL_GRASS: Traversable. Triggers wild encounters.
+- WATER: Traversable with Surf. Triggers wild encounters.
+- FLOOR: Standard traversable ground.
+- WALL: Impassable boundary.
+- HEADBUTT_TREE: Impassable; can be Headbutted.
+- CUT_TREE: Impassable; requires Cut (HM01).
+- LEDGE: One-way jump South. Verified.
+- WARP: Map transition. Verified.
