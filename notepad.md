@@ -1,8 +1,8 @@
 # Suicune Hunt Strategy (Started Turn #13189)
 - Lead: KIMCHI (Lv 21 Gloom).
-- Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16 (verified Lv 16 Magnemite). Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
+- Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16. Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
 - Repel Tracking:
-  - Super Repel #3: Turn #13439 (Expected to wear off ~Turn #13459).
+  - Super Repel #4: Pending.
 - Tracking: Use `check_suicune_location_v7` to verify Pokedex AREA map.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
@@ -33,9 +33,8 @@
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Lessons Learned & Error Analysis
-- Tool Reliability: Roamer tracking tools must handle menu state carefully. Use v7 for Suicune.
-- Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
+- Tool Reliability: Use v7 for Suicune.
+- Navigation: Paths are often wider than one tile.
 - State Sync: Always verify inventory and money against Game State Information.
-- Map Limits: Route 39 is 20 tiles wide (X=0 to 19). (20, 8) is out of bounds.
-- Input Hygiene: Avoid mixing directional and action buttons in a single `press_buttons` call.
-- Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
+- Repel Hygiene: Use sleep commands between menu actions to ensure they register.
+- Battle Mechanics: Roamers flee on Turn 1. Damage/Status is persistent.
