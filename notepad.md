@@ -33,3 +33,6 @@
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
 - Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
+## Nickname Progress: INTERCEPT
+- Current: INTER
+- Target: C (Moving cursor)
