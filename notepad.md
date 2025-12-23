@@ -19,16 +19,22 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=ON, S2=ON, S3=OFF.
-- **Location:** Switch Room (20, 5).
-- **Observation:** (20, 6) is CLOSED with S1+S2 ON.
-- **Action:** Try All Switches ON (S1+S2+S3).
+- **State:** S1=ON, S2=ON, S3=OFF (Turning ON).
+- **Location:** Switch Room (2, 2).
+- **Action:** Turn Switch 3 ON.
 - **Plan:**
-  1. Move to Switch 3 (2, 1).
-  2. Turn S3 ON. (Result: S1=ON, S2=ON, S3=ON).
-  3. Return to (20, 6).
-  4. Check if OPEN.
-  5. If closed, re-evaluate puzzle logic. Maybe enter via (10, 6)?
+  1. Interact with Switch 3 (In Progress).
+  2. Confirm ON. (Result: S1=ON, S2=ON, S3=ON).
+  3. Walk to (20, 6).
+  4. Check if Shutter is OPEN.
+  5. If Closed, try S1=ON + S3=ON (the only remaining 2-switch combo).
+
+## Reflection (Turn 14079)
+- **Execution:** Immediate.
+- **Hygiene:** Notepad/Map are up to date. Deleted stale markers.
+- **Automation:** Manual testing is efficient for this 3-switch puzzle.
+- **Goals:** Clear outcome (Open Shutter).
+- **Analysis:** Systematically testing combinations. "All ON" is the current test.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
