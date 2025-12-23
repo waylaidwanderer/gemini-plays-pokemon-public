@@ -27,7 +27,7 @@
 
 ## Route 42 Notes
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
-- Suicune confirmed on Route 42 (Turn 14980). Hunting in tall grass at (46, 12).
+- Suicune Roaming Area: Route 42 (Verified Turn 14980). Intercept point: (46, 12).
 
 ## Type Effectiveness Chart (Observed)
 - Ghost: Immune to Normal/Fighting.

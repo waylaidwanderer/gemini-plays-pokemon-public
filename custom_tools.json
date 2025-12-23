@@ -88,7 +88,7 @@
     ]
   },
   "wild_encounter_looper": {
-    "description": "Generates a sequence of button presses to pace back and forth between two adjacent coordinates to trigger wild encounters.",
+    "description": "Generates a sequence of button presses to pace back and forth between two adjacent coordinates to trigger wild encounters. Outputs a JSON array of button strings.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -116,12 +116,17 @@
         "iterations"
       ]
     },
-    "python_script": "import json\nimport sys\n\n# Input: {\"coord1_x\": 46, \"coord1_y\": 12, \"coord2_x\": 47, \"coord2_y\": 12, \"iterations\": 5}\ninput_data = json.loads(sys.argv[1])\nx1, y1 = int(input_data['coord1_x']), int(input_data['coord1_y'])\nx2, y2 = int(input_data['coord2_x']), int(input_data['coord2_y'])\niters = int(input_data['iterations'])\n\ndef get_button(start_x, start_y, end_x, end_y):\n    if end_x > start_x: return \"Right\"\n    if end_x < start_x: return \"Left\"\n    if end_y > start_y: return \"Down\"\n    if end_y < start_y: return \"Up\"\n    return None\n\nbuttons = []\nfor _ in range(iters):\n    b1 = get_button(x1, y1, x2, y2)\n    b2 = get_button(x2, y2, x1, y1)\n    if b1: buttons.append(b1)\n    if b2: buttons.append(b2)\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# Arguments are available in the 'input_data' dictionary\ntry:\n    x1 = int(input_data.get('coord1_x'))\n    y1 = int(input_data.get('coord1_y'))\n    x2 = int(input_data.get('coord2_x'))\n    y2 = int(input_data.get('coord2_y'))\n    iters = int(input_data.get('iterations', 5))\nexcept (TypeError, ValueError):\n    # Fallback or silent exit if input is bad\n    print(json.dumps([]))\n    exit()\n\ndef get_button(start_x, start_y, end_x, end_y):\n    if end_x > start_x: return \"Right\"\n    if end_x < start_x: return \"Left\"\n    if end_y > start_y: return \"Down\"\n    if end_y < start_y: return \"Up\"\n    return None\n\nbuttons = []\nfor _ in range(iters):\n    b1 = get_button(x1, y1, x2, y2)\n    b2 = get_button(x2, y2, x1, y1)\n    if b1: buttons.append(b1)\n    if b2: buttons.append(b2)\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-23T18:38:32.658Z",
         "action_counter": 15001
+      },
+      {
+        "commit_message": "Fixed argument handling by using the global 'input_data' dictionary instead of 'sys.argv'. Added basic error handling.",
+        "timestamp": "2025-12-23T18:39:58.588Z",
+        "action_counter": 15005
       }
     ]
   }
