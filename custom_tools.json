@@ -68,7 +68,7 @@
       "properties": {},
       "type": "object"
     },
-    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear everything to overworld\n    # 2. Open Start Menu (cursor will be on GEM, item 5, based on current context)\n    # 3. Navigate to POKEMON (item 2)\n    # 4. Select KIMCHI (slot 6)\n    # 5. Use move\n    buttons = [\n        \"B\", \"B\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 500\",\n        \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\",\n        \"A\", \"sleep 500\",\n        \"Up\", \"sleep 100\", \"Up\", \"sleep 100\",\n        \"A\", \"sleep 500\",\n        \"A\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
+    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear everything to overworld (4 B-presses for safety)\n    # 2. Open Start Menu\n    # 3. Start Menu has 8 items: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT\n    #    The cursor often starts on EXIT (8) or GEM (5). \n    #    To be cursor-agnostic, we can go Down 8 times to ensure we wrap to the top, then navigate.\n    #    Alternatively, Up 7 times to POKEDEX (1), then Down 1 to POKEMON (2).\n    # 4. Select POKEMON\n    # 5. Party Menu: Slot 1-6, then CANCEL (7).\n    #    To be cursor-agnostic, Up 7 times to Slot 1, then Up 2 to Slot 6 (KIMCHI).\n    # 6. Select KIMCHI\n    # 7. Move Menu: Down 1 to SWEET SCENT.\n    \n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\",\n        \"Down\", \"A\"\n    ]\n    # Note: KIMCHI's moves: 1.ABSORB, 2.SWEET SCENT, 3.CUT, 4.SLEEP POWDER.\n    # Move menu does NOT wrap in battle, but in the party menu it does. \n    # Actually, in the party 'USE MOVE' menu, it might wrap. \n    # Let's use Down 1 from the top.\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
     "history": [
       {
         "commit_message": "Defined use_sweet_scent_v8: a cursor-agnostic tool that clears dialogue, resets the Start menu to POKEDEX using Up*7, navigates to POKEMON, resets the Party menu to XENON using Up*6, navigates to KIMCHI, and uses Sweet Scent. Includes sleep commands for reliability.",
@@ -79,6 +79,11 @@
         "commit_message": "Refining tool with a more robust sequence to navigate from the overworld (after clearing menus) to the POKEMON menu and select KIMCHI for Sweet Scent.",
         "timestamp": "2025-12-23T11:19:13.392Z",
         "action_counter": 14279
+      },
+      {
+        "commit_message": "Refining use_sweet_scent_v8 to be more robust against menu state and phone calls. It now explicitly clears menus with B-presses, opens Start, navigates from EXIT (bottom) to POKEMON, selects KIMCHI (slot 6), and uses the move.",
+        "timestamp": "2025-12-23T11:31:39.524Z",
+        "action_counter": 14300
       }
     ]
   },
