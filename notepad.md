@@ -13,16 +13,19 @@
 
 ## Current Strategy
 **Goal:** Rescue Director.
-**Status:** 
-- **Configuration:** S1=OFF (Confirmed), S2=ON, S3=ON.
-- **Target:** S1=OFF, S2=OFF, S3=ON (Emergency Mode).
-**Hypothesis:** "S3 Only" might open the Outer East Shutter (20, 6) to allow access to the Emergency Switch.
+**Hypothesis:** The Outer East Shutter (20, 6) opens with **S3=ON (Emergency)** and **S2=OFF (Main Power Off)**.
+**Constraint:** S2 OFF closes the North Gate (10, 6), blocking direct access to the shutter.
+**Solution:** Configure switches, then loop around via Warehouse SE Room to enter Switch Room from the "Back Door" ladder (23, 3).
 **Plan:**
-1. S1 is Confirmed OFF. (Closing menu now).
-2. Go to Switch 2 (10, 1) and turn it OFF.
-3. Ensure S3 is ON (It should be).
-4. Inspect Shutters (20, 6) and (22, 6).
-5. If open, access Emergency Switch (20, 11).
+1. Enter Switch Room (18, 6).
+2. Turn **S2 OFF**. (Gate 10,6 closes).
+3. Verify **S1 OFF**.
+4. Verify **S3 ON**.
+5. Exit Switch Room.
+6. Go to SE Room -> Ladder (22, 27) -> Arrive at Switch Room (23, 3).
+7. Inspect Shutter (20, 6).
+**Status:** Entering Switch Room to configure switches.
+**Current Config:** S1=OFF, S2=ON, S3=ON (Likely).
 
 ## Switch Logic (Updated)
 - **S1 (16, 1):** Toggles between East/West? (S1=ON -> East Open, West Closed).
