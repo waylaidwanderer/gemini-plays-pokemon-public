@@ -19,17 +19,13 @@
 5. **Goal Clarity:** Testing S3 configuration to access Director.
 6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
 
-## Current Goal: Explore West Area (S1=OFF, S2=OFF, S3=ON)
-- **Observation:**
-  - (2, 7)/(3, 7) are OPEN.
-  - (6, 8) is CLOSED.
-  - **Dead End:** Rows 10-11 in the West Section (Cols 1-5) are solid walls. Cannot reach Item at (1, 12) or South area from here.
-- **Action:** Talk to Burglar (Pharmacist) at (4, 8).
+## Current Goal: Check Shutter (6, 6) (S1=OFF, S2=OFF, S3=ON)
+- **Action:** Navigate back to (6, 5) to check Shutter (6, 6).
 - **Plan:**
-  1. Talk/Battle Burglar.
-  2. Check Shutter (6, 6).
-  3. If (6, 6) is CLOSED, return to Switches.
-  4. Next Test: S1=OFF, S2=ON, S3=OFF (Reset S3, Try S2=ON solo effect).
+  1. Move to (6, 5) via (2, 6).
+  2. Observe (6, 6).
+  3. If Closed, proceed to Switch 3 (Turn OFF) then Switch 2 (Turn ON).
+  4. Goal: Test S2=ON solo.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
