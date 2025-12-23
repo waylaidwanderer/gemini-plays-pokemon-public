@@ -20,11 +20,10 @@
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** OFF.
-- **Test:** Testing S3=OFF with S1=ON.
-    - **Status:** (17, 6) CLOSED. (20, 6) CLOSED.
-    - **Result:** S1=ON + S3=OFF does NOT open the Emergency Shutter.
-    - **Next Test:** Turn S2 (Main Power) OFF.
-    - **Hypothesis:** S2=OFF might trigger the Emergency system or unlock S3's alternate function.
+- **Test:** Testing S1=ON, S2=OFF, S3=OFF.
+    - **Action:** Turning S2 OFF.
+    - **Hypothesis:** S2 (Main Power) OFF might release magnetic locks on Emergency Shutters (20, 6) or (17, 6).
+    - **Status:** Interacting with Switch 2.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
