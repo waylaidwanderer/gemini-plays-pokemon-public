@@ -1,40 +1,29 @@
 # Tile Mechanics
-- **WALL:** Impassable collision.
+- **WALL:** Impassable.
 - **FLOOR:** Walkable.
-- **WATER:** Surfable with badge/pokemon.
-- **WARP_CARPET_DOWN:** Exits map (Warp).
-- **LADDER:** Changes floor (Warp).
-- **BOX (Dept Store):** Impassable WALL.
+- **WARP_CARPET_DOWN:** Exits map (requires entering from North?).
+- **LADDER:** Changes floor.
 
-# Completed Objectives
-- Cleared Dept Store Basement (Abandoned puzzle due to missing key).
-- Obtained Coin Case in Underground.
+# Objectives & Progress
+- **Primary:** Rescue the Director (held in Underground Warehouse).
+- **Current Task:** Access the Southeast Underground section to find Switch 2 & 3.
+- **Key Item:** BASEMENT KEY (Obtained).
 
-# Current Strategy & Obstacles
-- **Location:** Goldenrod Underground (Switch Room Entrances).
-- **Goal:** Rescue the Director (Warehouse).
-- **Immediate Task:** Engage Rocket Grunt at (17, 2) and investigate Switch at (16, 1).
-- **Hypothesis:** Switches control the doors/walls in the main warehouse.
+# Strategy: The "Dept Store" Hypothesis
+- **Observation:** The East Tunnel in the Underground dead-ends at Row 10. The West Ladder (3, 34) leads to a dead-end room.
+- **Hypothesis:** The Southeast section of the Underground (containing the remaining switches) is NOT accessible from the Main Tunnel. It is likely accessed via the **Department Store Basement**, which had a locked door I couldn't open earlier.
+- **Plan:**
+    1. Exit Goldenrod Underground (North).
+    2. Go to Goldenrod Department Store.
+    3. Descend to the Basement.
+    4. Use BASEMENT KEY to unlock the door and access the new area.
+
+# Completed Notes (Archive)
+- **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
+- **Switch 1:** Found at (16, 1) via Ladder at (22, 27). Turned ON. Did not open the main shutter.
+- **Exploration:** Checked Warehouse Room (Map 3_53). North wall shutters are closed. West/Southwest ladders explore.
 
 # Important Locations
-- **Radio Tower:** North of Goldenrod.
-- **Underground Warehouse:** Accessible via South Tunnel.
-
-# Milestones
-- Muscle Level 51.
-- Badges: 7.
-- **Encounter:** Rival Silver encountered in Switch Room Entrances.
-- **Dialogue:** He claims my previous victory was a fluke and wants to "repay his debts". Likely a battle.
-- **Battle Update:** Silver sent out Haunter. Muscle (Lv 52) staying in to use Dig (Super Effective vs Ghost/Poison).
-- **Rival Team:** Golbat (Lv 30), Haunter (Lv ??). Likely includes Sneasel, Magnemite, Croconaw.
-- **Battle Update:** Silver sent out Feraligatr. Muscle (Lv 52) staying in.
-- **Plan:** Use Cross Chop (Slot 4). It has STAB and high crit rate. Even neutral, it should crush Feraligatr (Lv 32).
-- **Battle Update:** Silver sent out Sneasel. Staying in with Muscle.
-- **Plan:** Use Cross Chop. Sneasel is Dark/Ice, so Fighting is 4x effective. One hit KO guaranteed.
-- **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
-- **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
-- **Battle Result:** Defeated Silver (Muscle swept team).
-- **Status:** In Southwest Switch Room (Map 3_54).
-- **Observation:** Teacher provided flavor text. This room appears to be a dead end (just an entrance from city).
-- **Insight:** Map data shows another warp section around x=21, y=25. This implies a Southeast Switch Room exists.
-- **Plan:** Return to Main Tunnel via Ladder (5, 25). Search the Southeast area of Main Tunnel for another ladder.
+- **Switch 1:** Map 3_54 (via 3_53 ladder). ON.
+- **Director:** Warehouse (locked behind shutters).
+- **Dept Store Basement:** Likely route to switches.
