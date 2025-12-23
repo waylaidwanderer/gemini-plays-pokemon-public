@@ -71,12 +71,11 @@
   1. Select YES to turn S3 ON.
   2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
   3. Also verify if (6, 8) remains open.
-- **Observation:** S3 is now ON.
-- **Previous Knowledge:** When S3 was OFF, Row 10 was CLOSED.
-- **Hypothesis:** S3 ON opens Row 10 Shutters (Access to Emergency Switch?).
-- **Action:** Walking to (2, 9) to verify.
-- **Plan:**
-  1. Walk South to (2, 9).
-  2. Check if (2, 10) is OPEN.
-  3. If OPEN, proceed to Emergency Switch at (20, 11).
-  4. If CLOSED, reconsider puzzle logic.
+- **Action:** Going to (10, 9) to check for a path south.
+- **Reasoning:**
+  - Need to reach Emergency Switch at (20, 11).
+  - Row 10 appears to be a barrier.
+  - S3 ON might have opened a shutter in Row 10 (possibly at 10, 10).
+  - Path: (2, 4) -> (10, 4) -> South through (10, 6) -> (10, 9).
+- **Hypothesis:** Switch 3 controls the Row 10 shutter.
+- **Backup:** If (10, 10) is closed, check West side again or reconsider S2/S1 logic.
