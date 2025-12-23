@@ -14,10 +14,16 @@
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
 - **Location:** At (10, 2). Switch 2 is ON.
-- **Action:** Turning Switch 2 ON (Confirmed).
-- **State:** S1=ON, S2=ON, S3=ON.
-- **Next Step:** Verify North Shutter (10, 6) opens.
-- **Hypothesis:** S2=ON is the key to entering the Central Room.
+- **Observation:** With S1=ON, S2=ON, S3=ON, the North Shutter (10, 6) is CLOSED.
+- **Conclusion:** S1=ON or S3=ON interferes with S2's ability to open the North Shutter.
+- **Goal:** Reach South Area via West Path.
+- **Requirement:** West Shutter (6, 8) OPEN (requires S3=ON). North Shutter (10, 6) OPEN (requires S2=ON).
+- **Hypothesis:** S1=ON is the conflict.
+- **Plan:**
+  1. Navigate to Switch 1 (16, 1).
+  2. Turn S1 OFF.
+  3. Verify (10, 6) opens (or check if East Shutter closes).
+  4. Return to (10, 6) and enter.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
