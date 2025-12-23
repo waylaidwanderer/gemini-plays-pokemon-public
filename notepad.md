@@ -9,14 +9,13 @@
 - **Current Task:** Access the Southeast Underground section to find Switch 2 & 3.
 - **Key Item:** BASEMENT KEY (Obtained).
 
-# Strategy: The "Dept Store" Hypothesis
-- **Observation:** The East Tunnel in the Underground dead-ends at Row 10. The West Ladder (3, 34) leads to a dead-end room.
-- **Hypothesis:** The Southeast section of the Underground (containing the remaining switches) is NOT accessible from the Main Tunnel. It is likely accessed via the **Department Store Basement**, which had a locked door I couldn't open earlier.
+# Puzzle Strategy
+- **Goal:** Reach the Northeast section (Ladder to Switches).
+- **State:** North Gate (Row 8/9) is CLOSED. South Gate (Row 12) is OPEN (Dead End).
+- **Hypothesis:** Walking on Column 9 triggers the gates.
 - **Plan:**
-    1. Exit Goldenrod Underground (North).
-    2. Go to Goldenrod Department Store.
-    3. Descend to the Basement.
-    4. Use BASEMENT KEY to unlock the door and access the new area.
+    1. Walk UP Column 9 to check if entering from the South toggles the North Gate.
+    2. If that fails, Reset the room (go to Elevator) and hug the LEFT wall (Column 8) to avoid the trigger.
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
