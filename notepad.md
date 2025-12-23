@@ -40,3 +40,10 @@
 - COUNTER: Interaction point for NPCs; impassable. Verified.
 - NPC: Map objects that block movement. Verified.
 - WARP_CARPET_LEFT: Map transition point. Verified.
+## Reflection (Turn 14332)
+- Deferral Check: No tasks deferred; menu issues addressed immediately with tool refinement.
+- Notepad Hygiene: Sections organized; redundant logs removed; training task turn recorded (14146).
+- Map Hygiene: Signs and NPCs marked; training spot marked.
+- Automation Strategy: use_pokemon_move_v1 refined with absolute resets for reliability.
+- Goal Clarity: Goals reflect WHAT, notepad reflects HOW.
+- Error Analysis: Menu wrapping verified for Start, Party, and Battle Move menus. Lesson: Use absolute resets (Up N times) for cursor-agnostic menu navigation.
