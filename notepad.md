@@ -17,8 +17,8 @@
 ## Training Log: XENON
 - Start Turn: 14423
 - Goal: Lv 13 (1261 Total EXP).
-- Progress: 1241 EXP (20 EXP remaining).
-- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout. RUN from Normal-types and Hoppip (appears immune to Ghost in this game).
+- Progress: 20 EXP remaining.
+- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout. RUN from Normal-types and Hoppip.
 - PP/HP Management: Return to Pokecenter if Lick PP < 5 or HP < 10.
 
 ## Tile Mechanics
@@ -31,5 +31,5 @@
 - Goal: Reveal 100% of Route 32.
 - Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
 ## NPCs & Locations
-- Fisher Tully: (15, 13) Route 32. Contact for fishing info.
-- Slowpoketail Seller: (11, 67) Route 32. Trying to sell tails for ¥1,000,000.
+- Fisher Tully: (15, 13) Route 32.
+- Slowpoketail Seller: (11, 67) Route 32.
