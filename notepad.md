@@ -1,9 +1,11 @@
 # Suicune Hunt Strategy (Started Turn #13189)
 - Lead: KIMCHI (Lv 21 Gloom).
-- Method: Repel Trick (Wild Lv 13-16). Pacing (Grass Dance) at (28, 7) on Route 38.
+- Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16 (verified Lv 16 Magnemite). Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
+- Location: Pacing (Grass Dance) at (28, 7) on Route 38.
 - Tracking: Use Pokedex AREA map via `check_suicune_location_v6`.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Capture Notes: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1. Suicune is Lv 40.
+- Roamer Logic: Roamers only move when map boundaries are crossed, Fly is used, or after a battle with the roamer. Pacing or regular wild battles do not move them.
 
 # Roaming Pokémon Reference
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge), uses Fly, or after a battle with the roamer.
