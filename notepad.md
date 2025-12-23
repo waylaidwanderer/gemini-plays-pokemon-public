@@ -2,7 +2,7 @@
 ## The Repel Trick
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Status: Super Repel active (Used Turn #13578). ~180 steps remaining.
+- Status: Super Repel active (Used Turn #13578). ~160 steps remaining.
 - Inventory: Super Repel x6. Confirmed at Slot 15 in PACK.
 
 ## Battle Strategy (vs Suicune Lv 40)
