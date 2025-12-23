@@ -20,10 +20,10 @@
 - **State Tracking:**
     - S1: OFF
     - S2: OFF (Confirmed)
-    - S3: ON -> OFF (Target)
+    - S3: OFF (Confirmed)
 - **Plan:**
-  1. Navigate to Switch 3 (2, 1) via Row 4.
-  2. Turn Switch 3 **OFF**.
+  1. Turn Switch 2 **OFF** (Done).
+  2. Turn Switch 3 **OFF** (Done).
   3. Navigate to Switch 1 (16, 1) and turn **ON**.
   4. Enter via (10, 6) -> (12, 8) -> Emergency Switch.
 
