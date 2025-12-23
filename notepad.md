@@ -12,15 +12,13 @@
 - Logic: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
 - Tracking: Suicune's location is verified visually via Pokedex AREA map. It is currently on Route 38 (west of Ecruteak City).
 
-# Interaction Rules
-- Counter Interaction: To interact with NPCs behind COUNTER tiles, face the counter and press A.
-
-# Verified Tile Mechanics (Route 38)
+# Global Tile Mechanics
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
 - FLOOR: Traversable. Standard ground.
-- WALL / HEADBUTT_TREE: Impassable.
+- WALL / HEADBUTT_TREE / MART_SHELF / COUNTER: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
 - WARP_CARPET: Traversable. Triggers map transition.
+- Mechanism: To interact with NPCs behind COUNTER tiles, face the counter and press A.
 
 # Route 38/39 Boundary Reference
 - Route 38 (0, 8) <-> Route 39 (19, 8)
