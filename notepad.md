@@ -10,9 +10,9 @@
 
 ## Battle Tactics: Suicune (Lv40)
 - Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
-- Strategy: Mean Look on Turn 1 to trap. Hypnosis to induce sleep. 
-- Note: Ghost-types are NOT immune to Roar, but Suicune doesn't know it anyway.
-- Status: Trapping is viable because Suicune lacks phazing moves in Crystal.
+- Strategy: Mean Look on Turn 1 to trap. Hypnosis to induce sleep.
+- Note: Ghost-types are NOT immune to status moves like Roar or Leer, but Suicune lacks phazing moves in Crystal.
+- Status: Trapping is viable.
 
 ## Map Mechanics: Route 42
 - **Adjacent Maps**: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
