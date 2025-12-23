@@ -1,8 +1,8 @@
 # Suicune Capture Strategy
 ## The Repel Trick (Active)
 - **Lead:** KIMCHI (Lv 21 Gloom).
-- **Setup:** Use Super Repel to filter out wild Pokémon (Lv 13-16). Suicune (Lv 40) will be the only encounter.
-- **Pacing Area:** Route 38 tall grass.
+- **Setup:** Super Repel active (Confirmed Turn #13509). Filters out wild Pokémon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
+- **Pacing Area:** Route 38 tall grass (e.g., (26, 7)).
 - **Roamer Logic:** Suicune moves routes ONLY when crossing map boundaries (e.g., Route 38/39 edge), using Fly, or after a battle.
 
 ## Battle Plan (vs Suicune Lv 40)
@@ -21,7 +21,7 @@
 
 ## Inventory Summary
 - **Balls:** Great Ball x40.
-- **Key Items:** Super Repel x8 (Target: Item 13 in ITEMS pocket). Super Repel #5 used Turn #13508.
+- **Key Items:** Super Repel x8 (Target: Item 13 in ITEMS pocket).
 - **Healing:** Super Potion x10, Revive x5, Fresh Water x5.
 
 ## PC Storage (Box 1)
