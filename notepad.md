@@ -267,3 +267,7 @@
 - **Next Steps:**
     1. If S2 is OFF -> Turn ON. Then check (20, 6).
     2. If S2 is ON -> Then S3 override is confirmed. Go check (20, 6) anyway.
+- **Verification (Turn 14420):** S2 is CONFIRMED ON.
+- **Observation:** Gate (10, 6) is CLOSED.
+- **Conclusion:** S3=ON overrides S2=ON, forcing (10, 6) to close.
+- **Action:** Leaving S2 ON. Proceeding to check Outer East Shutter (20, 6) with combo: S1=OFF, S2=ON, S3=ON.
