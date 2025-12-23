@@ -13,7 +13,7 @@
 ## Hunting Session Tracking
 - Sprout Tower Hunt Start: Turn #13848
 - Target: Gastly (Night only, Lv 3-6)
-- Pacing Area: (14, 10) <-> (13, 10)
+- Pacing Area: (14, 11) <-> (13, 11)
 - Total Great Balls: 40
 
 ## Global Tile Mechanics
