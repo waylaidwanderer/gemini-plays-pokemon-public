@@ -13,17 +13,14 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Central Room (10, 9).
-- **Action:** Verify shutter states.
+- **Location:** Moving to West Room via (6, 8).
+- **Action:** Get Item at (1, 12).
 - **Plan:**
-  1. Check if (6, 8) is OPEN.
-  2. Check if (12, 8) is CLOSED.
-  3. If East is blocked, exit North.
-  4. Try S1=ON, S2=OFF, S3=OFF to open East Entry (20, 6).
+  1. Enter West Room via shutter at (6, 8).
+  2. Pick up item at (1, 12).
+  3. Check if (6, 12) allows access to the Pharmacist at (9, 12).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
-- **Hypothesis:** Switch 1 ON opens the North-East Shutter at (20, 6).
-- **Observation:** S2 ON allows entry to Central, but closes East path. S3 ON allows entry to West, but closes East path.
-
-- **Next Step:** Turn S2 ON. Enter Central Room via (10, 6). Explore connection to South.
+- **Hypothesis:** Need to find path to South-East.
+- **Observation:** Row 10-11 in Central Room are Walls. Must find way around.
