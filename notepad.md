@@ -52,23 +52,19 @@
 ## Discrepancy Note
 - System indicates I am at (0, 2), though Game State text says (7, 5). Screen confirms (0, 2). Proceeding from (0, 2).
 
-- **Switch 3 (2, 1):** Turning ON.
-    - State: OFF -> ON.
-    - Context: S1=ON, S2=OFF.
+- **Switch 3 (2, 1):** OFF -> ON.
+    - Context: S1=OFF, S2=OFF.
 
-## Test Result: S1=ON, S2=OFF, S3=ON
+## Test Result: S1=OFF, S2=OFF, S3=ON
 - **Result:** (20, 6) CLOSED.
+- **Hypothesis:** This combination opens shutters in the middle section (Rows 6-10).
+- **Next Step:** Explore Middle Section, verify shutters (6, 8) and (12, 8), and talk to Burglar at (4, 8).
 
-- **Switch 1 (16, 1):** Turned OFF.
-    - State: OFF.
-    - Context: S2=OFF, S3=ON.
-
-## Current Goal: Test S1=OFF, S2=OFF, S3=ON
-- **Action:** Check Shutter (20, 6).
-- **Hypothesis:** Trying the (OFF, OFF, ON) combination.
+## Current Goal: Explore Middle Section & Talk to Burglar
 - **Plan:**
-    1. Switch 1 OFF (Done).
-    2. Navigate to (20, 6) to check status.
+  1. Navigate to (4, 8) to talk to Burglar.
+  2. Observe shutter states at (6, 8) and (12, 8) along the way.
+  3. Look for a path to the South (Row 12+).
 ## Reflection (Turn 13663)
 1. **Immediate Execution:** No deferred tasks identified. Current task (Check (20, 6)) is being executed immediately.
 2. **Notepad Hygiene:** Notepad is structured with a "Switch Mechanics Log" and "Current Goal". It is clean.
