@@ -21,22 +21,17 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to `(2, 6)` via the North Path (Row 4).
-   - Current Position: `(16, 2)`.
-   - Route: `(16, 4) -> (2, 4) -> (2, 6)`.
-   - Reason: `(10, 6)` is likely CLOSED (S1=OFF). `(2, 6)` is the newly opened "Emergency Path".
-2. From `(2, 6)`, enter the West Room `(Row 8-9)`.
-3. Check connectivity to Central Area `(6, 8)`.
-   - Hypothesis: If West Gate `(6, 8)` is CLOSED (due to S1=OFF), verify if `(6, 9)` is also blocked.
-   - If blocked, we have a problem (Deadlock).
-   - If open, proceed to East Gate `(12, 8)` and then Target Shutter `(12, 12)`.
+1. Navigate to Switch 2 `(10, 1)`.
+   - Current Position: `(2, 5)`.
+   - Path: `(2, 4) -> ... -> (10, 4) -> (10, 2)`.
+2. Turn Switch 2 OFF.
+   - Current State: S1=OFF, S2=ON, S3=ON.
+   - Target State: S1=OFF, S2=OFF, S3=ON.
+   - Hypothesis: Disabling Main Power (S2) while Emergency Power (S3) is ON might release the locks on `(12, 12)` without requiring S1=ON.
+3. Check East Gate `(12, 8)` and Target Shutter `(12, 12)`.
 
 ## Observations
-- **Switch Status:** S1=OFF, S2=ON, S3=ON.
-- **Hypothesis:** This combination opens the path to the Director/Warehouse.
-- **Critical Check:** Is West Gate `(6, 8)` impassable? Or can we bypass it?
-
-## Reflection (Turn 14911)
-- **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
-- **Current Situation:** Accessed the area behind the East Gate at `(13, 8)`. It appears to be a small room `(13,8)-(17,9)` separated from the south by walls. Need to check for hidden switches or items.
-- **Puzzle:** The warp at `(22, 10)` is likely behind the shutters `(17, 6)` or `(20, 6)`. If this room is a dead end, I need to figure out how to open those shutters.
+- **Deadlock Identified:**
+  - S1=ON (S3=ON): `(12, 12)` OPEN, but `(12, 8)/(12, 9)` CLOSED.
+  - S1=OFF (S3=ON): `(12, 8)/(12, 9)` OPEN, but `(6, 8)/(6, 9)` CLOSED. Assumed `(12, 12)` CLOSED.
+- **Goal:** Find a state where `(12, 9)` and `(12, 12)` are BOTH open.
