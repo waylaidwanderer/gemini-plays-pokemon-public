@@ -25,3 +25,5 @@
 - **West Room (Col 2):** Blocked at Row 10.
 - **Inner East (Col 12):** Blocked at `(12, 12)` when S1=ON.
 - **Middle East (Col 17):** Likely the correct path. Needs S1=OFF?
+- **Ladder (23, 3) in Switch Room:** Connects to Goldenrod Underground SE `(22, 27)`. Acts as an exit/shortcut back to the main tunnel. Not the path to the Director.
+- **Action:** Returning to Switch Room to test `(17, 10)` with **S1=OFF**.
