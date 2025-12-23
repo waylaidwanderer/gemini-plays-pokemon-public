@@ -30,6 +30,7 @@
 - COUNTER: Stand in front of it to interact with NPCs behind it.
 - LADDER: Warp between floors (e.g., Sprout Tower).
 - NPC: All map objects act as walls.
+- WARP_CARPET_DOWN: Exit map (e.g., Sprout Tower exit).
 
 ## Strategy Notes
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries, using Fly, or after a battle with it.
