@@ -37,6 +37,6 @@
 - **Status:** Back in Warehouse (Map 3_53).
 - **Action:** Inspecting the shutter north of Ladder (22, 27) to see if Switch 1 opened it.
 - **Hypothesis:** Switch 1 should have opened the shutter at Row 24.
-- **Observation:** Shutter at (22, 24) appears closed (WALL).
-- **Hypothesis:** Switch 1 opens a different shutter, or multiple switches are needed.
-- **Plan:** Inspect shutter. If closed, exit to Main Tunnel and locate the ladder at (3, 34) to find other switches.
+- **Observation:** Shutter at (22, 24) is still closed (WALL). Switch 1 did not open this specific door.
+- **Plan:** Exit current room to Main Tunnel. Navigate to Ladder at (3, 34) to find other switches (Switch 2/3).
+- **Hypothesis:** Multiple switches are required, or different switches open different doors.
