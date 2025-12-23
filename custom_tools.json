@@ -100,7 +100,7 @@
   "use_sweet_scent_v2": {
     "description": "Uses Sweet Scent from KIMCHI (slot 6). Robust against menu state and cursor position.",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Clear any open menus/dialogue (B x3)\n# 2. Open Start menu\n# 3. Mash Up (x8) to guarantee cursor is on POKEDEX (slot 1)\n# 4. Move to POKEMON (Down x1) and select (A)\n# 5. Mash Up (x6) to guarantee cursor is on Slot 1\n# 6. Move to Slot 6 - KIMCHI (Down x5) and select (A)\n# 7. Select first move - SWEET SCENT (A)\n# 8. Clear text boxes (A x4)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \n        \"A\", \"sleep 500\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
+    "python_script": "import json\n# Sequence:\n# 1. Clear any open menus/dialogue (B x3)\n# 2. Open Start menu\n# 3. Mash Up (x8) to guarantee cursor is on POKEDEX (slot 1)\n# 4. Move to POKEMON (Down x1) and select (A)\n# 5. Mash Up (x6) to guarantee cursor is on Slot 1\n# 6. Move to Slot 6 - KIMCHI (Down x5) and select (A)\n# 7. Move Down once to bypass STATS and land on SWEET SCENT (Down x1)\n# 8. Select move (A)\n# 9. Clear text boxes (A x4)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \n        \"Down\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
@@ -126,6 +126,11 @@
         "commit_message": "Refined Sweet Scent tool to be truly robust by using directional mashing to reset cursor positions in both the Start and Party menus. Now handles any initial cursor state.",
         "timestamp": "2025-12-23T09:45:07.508Z",
         "action_counter": 14123
+      },
+      {
+        "commit_message": "Corrected Sweet Scent selection logic: KIMCHI (slot 6) has field moves listed after STATS. Sequence now moves Down once after selecting KIMCHI to hit SWEET SCENT.",
+        "timestamp": "2025-12-23T09:49:15.055Z",
+        "action_counter": 14126
       }
     ]
   },
