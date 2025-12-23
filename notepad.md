@@ -286,3 +286,7 @@
 - **Target State:** S1=OFF, S2=ON, S3=OFF.
 - **Hypothesis:** S2=ON provides power. S1=OFF selects "Outer East" (since S1=ON selected Inner East). S3=OFF ensures no emergency override.
 - **Prediction:** This should open the shutter at (20, 6).
+- **Correction:** I am at (0, 2) (West Edge), not (20, 5). I successfully returned from the East side in Turn 14423 but failed to update my position for Turn 14424.
+- **Status:** Switch 3 is nearby at (2, 1).
+- **Action:** Moving to (2, 2) to turn Switch 3 OFF.
+- **Reasoning:** S1=OFF, S2=ON, S3=ON failed to open (20, 6). Trying S3=OFF next.
