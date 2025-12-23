@@ -38,3 +38,4 @@
 - State Sync: Always verify inventory and money against Game State Information.
 - Repel Hygiene: Use sleep commands between menu actions to ensure they register.
 - Battle Mechanics: Roamers flee on Turn 1. Damage/Status is persistent.
+- Repel Fail: Mixed action buttons [A, A] without sleep caused menu to stay open. Use pauses between menu actions.
