@@ -20,8 +20,7 @@
 
 ## Sprout Tower 1F Observations
 - Sweet Scent failed at (14, 6), (10, 11), and (14, 10). These tiles are "safe".
-- (6, 5) on 2F is a valid encounter tile.
 
 ## Battle Observations
-- Turn #13909: Attempted to status Gastly. Note: Verify if Ghost-types have specific immunities to status moves in this version.
-- Turn #13917: Great Ball failed (Aargh! Almost had it!). Gastly used Lick (2 damage).
+- Target: Gastly (Lv 6, Female).
+- Status: Catching with Great Balls.
