@@ -243,3 +243,6 @@
 - **Action:** Abandoning (20, 6) for now.
 - **Discovery:** The path at (2, 7) / (3, 7) is OPEN (confirmed by map update).
 - **Plan:** Navigate to (2, 7) and explore the room to the South (Pharmacist Room).
+- **Action:** Navigating through the newly opened path at (2, 7).
+- **Goal:** Explore the area south of Switch 3 (Pharmacist Room) to see if it connects to the Director or a key for the East Shutter.
+- **Note:** This West path seems to bypass the central blockades.
