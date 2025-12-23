@@ -172,3 +172,9 @@
 - **Observation:** "All OFF" failed to open (20, 6) or (12, 8).
 - **Next Plan:** Turn Switch 3 ON.
 - **Hypothesis:** Switch 3 (Emergency) might open the path to the Emergency Switch at (20, 11) via (20, 6) or (22, 6).
+- **Discrepancy:** Game State text says I am at (7, 5), but Screen and Intermediate States confirm I successfully moved to (2, 2). Proceeding based on visual confirmation (2, 2).
+- **Action:** Interacting with Switch 3.
+- **Logic:**
+  - If Switch 3 is OFF (as tracked), turning it ON to test if it opens East paths.
+  - If Switch 3 is ON (marker might be right?), then "All OFF" was never tested. Turning it OFF would test "All OFF".
+  - Either way, toggling is the next logical step.
