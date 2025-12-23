@@ -21,17 +21,18 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 2 `(10, 1)`.
-   - Current Position: `(2, 5)`.
-   - Path: `(2, 4) -> ... -> (10, 4) -> (10, 2)`.
-2. Turn Switch 2 OFF.
-   - Current State: S1=OFF, S2=ON, S3=ON.
+1. Turn Switch 2 OFF (Confirm YES).
    - Target State: S1=OFF, S2=OFF, S3=ON.
-   - Hypothesis: Disabling Main Power (S2) while Emergency Power (S3) is ON might release the locks on `(12, 12)` without requiring S1=ON.
-3. Check East Gate `(12, 8)` and Target Shutter `(12, 12)`.
+2. Check map for changes.
+   - Specifically check `(6, 8)` (West Gate), `(10, 6)` (North Gate), and `(12, 8)` (East Gate).
+   - Hypothesis: Turning off Main Power (S2) might open all electric gates or change the logic.
+3. If path opens, proceed to `(12, 12)`.
 
 ## Observations
-- **Deadlock Identified:**
-  - S1=ON (S3=ON): `(12, 12)` OPEN, but `(12, 8)/(12, 9)` CLOSED.
-  - S1=OFF (S3=ON): `(12, 8)/(12, 9)` OPEN, but `(6, 8)/(6, 9)` CLOSED. Assumed `(12, 12)` CLOSED.
-- **Goal:** Find a state where `(12, 9)` and `(12, 12)` are BOTH open.
+- **Previous Attempt (S1=OFF, S2=ON, S3=ON):**
+  - `(10, 6)` CLOSED (Blocked entry from Hub).
+  - `(6, 8)` CLOSED (Blocked crossing West->Central).
+  - `(12, 8)` OPEN.
+  - `(12, 12)` OPEN.
+  - Result: Deadlock. Can't reach the open gates.
+- **Current Experiment:** S2=OFF.
