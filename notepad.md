@@ -143,3 +143,10 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     - Inner East (12, 8): CLOSED (S1=OFF closes East).
     - Outer East (20, 6): CLOSED (Previously verified).
 - **Goal:** Enter West Gate (6, 8) from the Central Corridor.
+- **Action:** Selected YES to turn Switch 3 OFF.
+- **Current State:** S1=OFF, S2=ON, S3=OFF.
+- **Hypothesis:** 
+    - S3=OFF removes the emergency override.
+    - S2=ON powers the main gates.
+    - Result: North Gate `(10, 6)` and West Gate `(6, 8)` should OPEN.
+- **Next Step:** Navigate to `(10, 6)` to verify entry into the central area.
