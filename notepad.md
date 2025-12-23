@@ -35,7 +35,7 @@
   - TM49 (Fury Cutter): Pending.
   - TM50 (Nightmare): Pending.
 - Estimated Revenue: ~13,821 yen total.
-- Time Tracking: 48 turns elapsed since task start.
+- Time Tracking: 49 turns elapsed since task start.
 
 # Olivine Mart Tile Mechanics
 - MART_SHELF: Impassable. (Visual confirmation: Attempted movement blocked).
