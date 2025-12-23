@@ -1,23 +1,32 @@
 # Tile Mechanics
-- **Shutters:** Act as dynamic walls.
-    - **Horizontal 1 (6, 8):** CLOSED (WALL) with Switch 3 OFF. *Hypothesis: Switch 3 ON opens it.*
-    - **Horizontal 2 (6, 12):** Status unknown.
-    - **Horizontal 3 (12, 8):** Status unknown.
-    - **Vertical 5 (20, 6):** CLOSED (WALL) with Switch 3 OFF.
+- **Shutters:** Dynamic walls controlled by switches.
+    - **Row 8 Shutters:**
+        - (6, 8): CLOSED (Sw3 OFF). Hypothesis: Opens with Sw3 ON.
+        - (12, 8): Status unknown.
+    - **Row 12 Shutters:**
+        - (6, 12): OPEN (Sw3 ON).
+    - **Vertical Shutters:**
+        - (20, 6): CLOSED (Sw3 OFF).
+        - (10, 6): OPEN (Sw1 ON, Sw2 ON, Sw3 OFF).
 
-# Map Structure & Route
-- **Goldenrod Underground (3_53):** Divided into isolated sections.
-  - **Main Tunnel:** Top & West areas.
+# Map Structure
+- **Goldenrod Underground (3_53):**
+  - **Main Tunnel:** Top & West.
   - **Southeast Room:** Isolated.
-  - **Connection:** Map 3_54 connects Main Tunnel and Southeast Room.
-- **Current Location:** Northwest Room (Map 3_54).
-- **Goal:** Reach Emergency Switch at (20, 11).
+- **Switch Room (3_54):**
+  - **Northwest (Current):** Access to Switch 3.
+  - **Middle:** Access to Switch 2.
+  - **Northeast:** Access to Switch 1.
+  - **South:** Warehouse area.
+  - **Goal:** Reach Emergency Switch at (20, 11).
+
+# Current State
+- **Switch 1:** ON
+- **Switch 2:** ON
+- **Switch 3:** Pending Verification (Target: ON)
 
 # Strategy
-- **Current Status:** Switch 1 ON, Switch 2 ON, Switch 3 OFF.
-- **Correction:** Previous attempt to turn Switch 3 ON failed due to input truncation.
-- **Plan:**
-    1. Turn Switch 3 ON.
-    2. Check if (6, 8) opens.
-    3. If open, proceed East.
-    4. If not, re-evaluate.
+1. Verify Switch 3 is ON.
+2. Check Shutter at (6, 8).
+   - If OPEN: Go East to Middle Section.
+   - If CLOSED: Re-evaluate logic (maybe Sw2/1 interference?).
