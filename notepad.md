@@ -31,13 +31,13 @@
 - Strategy: Use Lick against Gastly/Bellsprout. Run from others.
 
 ## Tile Mechanics (Route 32)
-- FLOOR: Standard traversable ground.
-- TALL_GRASS: Encounter-eligible ground.
-- WALL/HEADBUTT_TREE: Impassable boundaries.
+- FLOOR: Standard traversable ground. Verified.
+- TALL_GRASS: Encounter-eligible ground. Verified.
+- WALL/HEADBUTT_TREE: Impassable boundaries. Verified.
 - LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15).
 - LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12).
-- WATER: Impassable without Surf.
-- DOOR/DOOR_04/CAVE: Warp entry points.
-- COUNTER: Interaction point for NPCs; impassable.
-- NPC: Map objects that block movement.
-- WARP_CARPET_LEFT: Map transition point.
+- WATER: Impassable without Surf. Verified.
+- DOOR/DOOR_04/CAVE: Warp entry points. Verified.
+- COUNTER: Interaction point for NPCs; impassable. Verified.
+- NPC: Map objects that block movement. Verified.
+- WARP_CARPET_LEFT: Map transition point. Verified.
