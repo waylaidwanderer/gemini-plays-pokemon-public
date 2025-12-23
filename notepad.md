@@ -49,3 +49,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Navigating to (20, 6) to test S1=ON, S2=ON, S3=OFF.
 - **Hypothesis:** S1 ON opens the East side shutters (both 12,8 and 20,6?).
 - **Contingency:** If (20, 6) is closed, the only untried logical combo is S1=ON, S2=ON, S3=ON.
+- **Observation:** Navigating to (20, 6) from (24, 5).
+- **Current State:** S1=ON, S2=ON, S3=OFF.
+- **Goal:** Check if (20, 6) is OPEN.
+- **Note:** If closed, the next logical step is S1=ON, S2=ON, S3=ON.
