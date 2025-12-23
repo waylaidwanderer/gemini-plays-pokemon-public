@@ -123,59 +123,6 @@
       }
     ]
   },
-  "swap_pokemon_v1": {
-    "description": "Swaps the positions of two Pokemon in the party. Can be called from the overworld or the main menu. Includes safety delays and cursor resets for reliable navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pos1": {
-          "type": "integer",
-          "description": "The 0-indexed position of the first Pokemon (0-5)."
-        },
-        "pos2": {
-          "type": "integer",
-          "description": "The 0-indexed position of the second Pokemon (0-5)."
-        },
-        "menu_already_open": {
-          "type": "boolean",
-          "description": "Whether the main menu is already open."
-        }
-      },
-      "required": [
-        "pos1",
-        "pos2",
-        "menu_already_open"
-      ]
-    },
-    "python_script": "import json\n\ndef main():\n    pos1 = int(input_data['pos1'])\n    pos2 = int(input_data['pos2'])\n    menu_already_open = input_data['menu_already_open']\n    \n    buttons = []\n    \n    if not menu_already_open:\n        buttons.append(\"Start\")\n        buttons.append(\"sleep 1000\")\n    \n    # Enter POKEMON menu\n    # Assume cursor is on POKEMON (index 1)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\")\n    \n    # Party cursor starts at pos 0 upon entry.\n    for _ in range(pos1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    buttons.append(\"A\") # Select pos1\n    buttons.append(\"sleep 1000\")\n    \n    # Select SWITCH\n    # Robust logic: Up x4 from any menu start always hits SWITCH.\n    for _ in range(4):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 200\")\n    \n    buttons.append(\"A\") # Confirm SWITCH\n    buttons.append(\"sleep 1000\")\n    \n    # Move to pos2 relative to pos1\n    diff = pos2 - pos1\n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 300\")\n    elif diff < 0:\n        for _ in range(-diff):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 300\")\n            \n    buttons.append(\"A\") # Confirm swap\n    buttons.append(\"sleep 1500\")\n    \n    # Exit menus\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    buttons.append(\"sleep 600\")\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T08:39:05.748Z",
-        "action_counter": 11491
-      },
-      {
-        "commit_message": "Fixing input handling: using global input_data instead of sys.argv[1]. Added safety delays and clearer menu navigation logic.",
-        "timestamp": "2025-12-22T08:40:17.227Z",
-        "action_counter": 11493
-      },
-      {
-        "commit_message": "Refining swap_pokemon_v1 to handle persistent menu cursor positions and sub-menu navigation more robustly. Added cursor resets (multiple Up presses).",
-        "timestamp": "2025-12-22T09:41:07.253Z",
-        "action_counter": 11587
-      },
-      {
-        "commit_message": "Adding comprehensive cursor resets to all menu levels (main menu, party menu, and sub-menus) to ensure reliable navigation regardless of persistent cursor positions.",
-        "timestamp": "2025-12-22T09:43:10.333Z",
-        "action_counter": 11588
-      },
-      {
-        "commit_message": "Fixing tool definition by providing required commit message.",
-        "timestamp": "2025-12-22T12:33:22.615Z",
-        "action_counter": 11951
-      }
-    ]
-  },
   "grass_dance_tool": {
     "description": "Returns a list of button presses to pace back and forth in tall grass to trigger a wild encounter.",
     "input_schema": {

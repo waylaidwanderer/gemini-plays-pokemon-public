@@ -2,6 +2,7 @@
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
+- Status: Suicune confirmed on Route 38 (Turn #13180).
 
 # Roaming Pokémon Reference
 - Tracking: Use Pokédex AREA map.
@@ -30,7 +31,7 @@
 - ROCKY (Onix Lv 6), EGG (Cleffa Lv 5), XFDW (Meowth Lv 16), FRITTATA (Togepi Lv 5), SHUCKIE (Shuckle Lv 15).
 
 # Lessons Learned & Error Analysis
-- Tool Reliability: Custom tools for roamer tracking must handle the full sequence and reset the menu cursor.
+- Tool Reliability: Roamer tracking tools must reset the menu cursor to POKEDEX (press Up 8 times).
 - Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 - State Sync: Always verify inventory and money against Game State Information.
 
