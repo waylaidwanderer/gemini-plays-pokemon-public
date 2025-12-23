@@ -17,9 +17,11 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 OFF.
-- **Goal:** Check Vertical 5 (20, 6).
+- **Observations:**
+    - Vertical 5 (20, 6) is CLOSED (WALL).
+    - Vertical 4 (16, 6) is CLOSED.
+    - Vertical 2 (10, 6) is likely OPEN (opened by Switch 2 ON).
+- **Hypothesis:** Need Switch 3 ON to open Vertical 5 (or affect the combination).
 - **Plan:**
-    1. Navigate to (20, 6).
-    2. Check if Vertical 5 is open.
-    3. If open, proceed South to Emergency Switch.
-    4. If closed, consider Switch 3 ON (Config: 1-ON, 2-ON, 3-ON).
+    1. Turn Switch 3 ON (Config: 1 ON, 2 ON, 3 ON).
+    2. Check Vertical 5 (20, 6).
