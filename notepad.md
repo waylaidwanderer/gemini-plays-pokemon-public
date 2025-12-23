@@ -6,7 +6,7 @@
 
 ## Training Log: XENON to Lv18
 - **Start Turn**: 15504 (Tuesday, Dec 23, 1:00 PM)
-- **Current Status**: Lv17 (3592 EXP). Needs 207 more EXP for Lv18 (3799 total).
+- **Current Status**: Lv17 (3650 EXP). Needs 149 more EXP for Lv18 (3799 total).
 
 ## Battle Tactics: Suicune (Lv40)
 - Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
