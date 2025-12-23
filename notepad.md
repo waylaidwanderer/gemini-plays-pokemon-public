@@ -15,22 +15,15 @@
 4. Encounter Suicune, use Mean Look, then Hypnosis.
 
 ## Hunting Session Tracking
-- Current Session Start: Turn #13803
-- Current Super Repel: Worn off (Turn #13829)
-- Total Super Repels Used (Session): 1
-- Last Check: confirmed on Route 38 (Turn #13822). (Repel trick active)
-
-## Tile Mechanics
-- FLOOR: Standard traversable tile.
-- TALL_GRASS: Standard encounter tile. Movement registers as steps.
-- WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way movement in the specified direction.
-- WARP_CARPET_RIGHT: Map transition to Ecruteak Gatehouse.
-- WATER: Traversable only with HM SURF.
-- ICE: Causes sliding until an obstacle is hit.
-- COUNTER: Stand in front of it to interact with NPCs behind it.
+- Sprout Tower Hunt Start: Turn #13848
+- Current Location: Sprout Tower 1F
+- Target: Gastly (Night only)
+- Strategy: Use KIMCHI's Sleep Powder, then Great Ball.
+- Total Great Balls: 40
 
 ## Strategy Notes
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 - Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50-100 steps.
+- Gastly Goal: Mean Look (Lv 13) prevents Suicune from fleeing. Hypnosis (Lv 1) for status.
+- Speed Check: Gastly (Base 80) / Haunter (Base 95) vs Suicune (Base 85). Haunter is preferred for guaranteed outspeeding.
