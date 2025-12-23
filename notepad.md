@@ -20,15 +20,14 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** West Room (6, 9).
-- **Action:** Get Item at (1, 12).
-- **Observation:** Row 12 is blocked by a wall at (6, 12).
+- **Location:** West Room (2, 12).
+- **Action:** Return to switches to reconfigure.
 - **Plan:**
-  1. Pick up item at (1, 12).
-  2. Verify if (6, 12) is passable or affected by switches.
-  3. Return to Switches (Exit via North).
-  4. Set S2=OFF, S1=ON to open East Path.
-  5. Explore East Room (access to Pharmacist & Emergency Switch).
+  1. Go to Switch 2 (10, 1).
+  2. Turn Switch 2 OFF (Closes West/North, Allows East).
+  3. Turn Switch 1 ON (Opens East).
+  4. Ensure Switch 3 is OFF.
+  5. Enter East Room via (12, 8).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
