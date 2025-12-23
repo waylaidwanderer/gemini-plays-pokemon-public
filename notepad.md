@@ -32,6 +32,7 @@
 - Normal vs. Poison/Grass: 1.0x (Observed: Yanma's Tackle vs. Gloom).
 
 ## NPCs & Locations
+- Fisher Tully: (40, 10) Route 42. Fishing info.
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
 ## Lessons Learned
