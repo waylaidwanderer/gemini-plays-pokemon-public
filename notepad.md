@@ -8,7 +8,7 @@
 - **Immediate Plan:** Explore this small SE section. If it leads to the main tunnel (exit), return up the ladder to `3_54` and solve the Switch Puzzle.
 
 ## Switch Logic (Verified in 3_54)
-- **Timestamp:** Turn 14705.
+- **Timestamp:** Turn 14707.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
@@ -19,8 +19,9 @@
     - **Current:** ON.
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
-    - **Current:** ON.
-- **Test:** Turning S3 OFF (with S1=ON) to check if it opens the Middle East path (Col 17).
+    - **Current:** OFF.
+- **Test:** Testing S3=OFF with S1=ON.
+    - **Status:** S3 confirmed OFF. Checking (17, 6).
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
