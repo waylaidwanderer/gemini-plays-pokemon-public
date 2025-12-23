@@ -79,15 +79,15 @@
 5. **Goal Clarity:** Goals are clear. Method is testing specific switch combination.
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
-## Current Goal: Explore West Side (S3=ON)
-- **Position Correction:** Hallucination fixed. Actually at (23, 5).
-- **Inferred State (from tile changes):**
-  - S3=ON caused (6, 8) WALL -> FLOOR (OPEN).
-  - S3=ON caused (12, 8) FLOOR -> WALL (CLOSED).
-  - (12, 8) being CLOSED blocks the path from East to West via Row 8.
-- **Hypothesis:** To reach the West Room (Burglar), I must enter via (6, 6) or another path, as (12, 8) is blocked.
+## Current Goal: Test S2 Effect on Row 6 Shutters
+- **Current State (S1=ON, S2=OFF, S3=ON):**
+  - (6, 8) OPEN.
+  - (12, 8) CLOSED.
+  - (6, 6) CLOSED.
+  - (10, 6) CLOSED.
+- **Problem:** Cannot reach (6, 8) because Row 6 shutters are closed and Row 8 access is blocked by (12, 8).
+- **Hypothesis:** Switch 2 (The "Master" or "Modifier" switch) toggles between opening Row 8 (Inner) and Row 6 (Outer) shutters.
 - **Plan:**
-  1. Navigate to (6, 5) via Row 4 (safe path).
-  2. Check if (6, 6) is OPEN.
-  3. If OPEN, enter West Room.
-  4. If CLOSED, I need to find the switch for (6, 6) (Maybe S2?).
+  1. Turn Switch 2 (10, 1) ON.
+  2. Check if (10, 6) or (6, 6) opens.
+  3. If (6, 6) opens, I can reach the West Room.
