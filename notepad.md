@@ -30,3 +30,6 @@
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
+## Battle Lessons
+- Supersonic (status move) does not affect Ghost types (verified vs Wild Zubat).
+- Leech Life is "not very effective" against Ghost types.
