@@ -7,26 +7,25 @@
 - Item Goal: Buy Ultra Balls at Goldenrod or Blackthorn Marts.
 
 ## Lessons Learned
-- Cursor Persistence: The battle move menu remembers the last selected move across turns and battles. Always verify cursor position before confirming.
-- Menu Navigation: Start, Party, and Battle menus wrap. Use relative navigation for efficiency.
-- Tool Reliability: Custom tools must be verified and refined immediately if they produce incorrect results.
-- Tile Navigability: NPCs, certain trees, and ledges block paths. Verify collision with 'run_code' before planning long routes.
-- Type Matchups: Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal types.
-- Battle Discipline: Verify cursor position after closing sub-menus or between turns, as the menu remembers the previous selection.
+- **Cursor Persistence:** The battle move menu remembers the last selected move across turns and battles. Always verify cursor position before confirming.
+- **Menu Navigation:** Start, Party, and Battle menus wrap. Use relative navigation for efficiency.
+- **Tool Reliability:** Custom tools must be verified and refined immediately if they produce incorrect results. Avoid calling `select_move` in the same turn as opening the menu to prevent race conditions with stale screen text.
+- **Tile Navigability:** NPCs, certain trees, and ledges block paths. Verify collision with 'run_code' before planning long routes.
+- **Type Matchups:** Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal types.
 
 ## Training Log: XENON
-- Start Turn: 14423
-- Goal: Lv 13 (1261 Total EXP).
-- Remaining: 20 EXP.
-- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout/Hoppip. RUN from Normal-types.
-- PP/HP Management: Return to Pokecenter if Lick PP < 5 or HP < 10.
+- **Status:** 20 EXP remaining until Lv 13.
+- **Start Turn:** 14423
+- **Goal:** Lv 13 (1261 Total EXP).
+- **Strategy:** Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout/Hoppip. RUN from Normal-types.
+- **PP/HP Management:** Return to Pokecenter if Lick PP < 5 or HP < 10.
 
 ## Tile Mechanics
-- TALL_GRASS: Encounter-eligible.
-- WALL/HEADBUTT_TREE: Impassable. Markers placed in Violet City.
-- LEDGE_HOP: One-way movement. Markers placed on Route 32 and Violet City.
-- COUNTER: Interaction point; impassable.
+- **TALL_GRASS:** Encounter-eligible.
+- **WALL/HEADBUTT_TREE:** Impassable. Markers placed in Violet City.
+- **LEDGE_HOP:** One-way movement. Markers placed on Route 32 and Violet City.
+- **COUNTER:** Interaction point; impassable.
 
 ## Exploration Plan
-- Goal: Reveal 100% of Route 32.
-- Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
+- **Goal:** Reveal 100% of Route 32.
+- **Targets:** West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
