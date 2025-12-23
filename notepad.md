@@ -5,13 +5,11 @@
 - **Objective:** Explore Inner East Section.
 - **Goal:** Rescue Director / Find Warehouse.
 
-## Switch Logic (Revised)
+## Switch Logic (Confirmed)
 - **S1 (16, 1):** East/West Toggle.
-    - **Observed State:** Switch is OFF, yet East Gate `(12, 8)` was OPEN.
-    - **Revised Logic:** 
-        - **OFF:** Opens East Gate `(12, 8)`. (West Gate Closed?)
-        - **ON:** Opens West Gate `(6, 8)`. (East Gate Closed?)
-    - **Action:** Turning S1 ON to attempt opening West Gate.
+    - **ON:** Opens East Gate `(12, 8)`. Closes West Gate `(6, 8)`.
+    - **OFF:** Opens West Gate `(6, 8)`. Closes East Gate `(12, 8)`.
+    - **Current State:** OFF. West Gate `(6, 8)` is OPEN.
 - **S2 (10, 1):** Main Power.
     - **ON:** Required for gates to operate. (Currently ON).
 - **S3 (2, 1):** Emergency Override.
