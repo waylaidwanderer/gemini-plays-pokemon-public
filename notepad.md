@@ -4,12 +4,14 @@
 - Evolve to Haunter (Lv 25) to ensure Base 95 Speed (Suicune is Base 85). Haunter needs to be faster than Suicune to use Mean Look before it flees.
 - Track Suicune using Pokedex AREA map.
 - Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
-- Note: Strategy Advisor suggests training to Lv 35 for survivability.
+- Status Requirement: Status conditions are mandatory for Suicune.
+- Item Goal: Upgrade to Ultra Balls (2.0x multiplier) at Goldenrod or Blackthorn Marts.
 
 ## Game Mechanics & Lessons
 - Ghost-type Moves: Lick (Ghost) does not affect Normal types.
 - Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
-- Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune); misses are due to accuracy/luck.
+- Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune).
+- Status Moves: "It didn't affect" is the message for a miss or blocked status move (e.g. Hypnosis missing Wooper).
 - Switching: Clears confusion and resets stat changes.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
@@ -22,19 +24,12 @@
 ## Training Plan: XENON (How)
 - Start Turn: 14146
 - Method: Grind on Route 32 grass using Sweet Scent.
-- Target: Lv 13 for Mean Look, then Lv 35.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
 
 ## Route 32 Observations
 - Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
-- Slowpoketail Scam: NPC at (7, 70) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
-
-## Hypnosis Mystery
-- Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.
-- Fact: Psychic is 1.0x (neutral) against Water/Ground (confirmed via tool). Neither is immune to Psychic status moves in standard Gen 2.
-- Hypothesis: Wild Pokémon might hold items (e.g., Mint Berry) that prevent sleep, or the ROM has modified type charts.
-- Conclusion: In this game/ROM, "It didn't affect" is the message displayed when a status move misses its accuracy check or is blocked.
+- Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
