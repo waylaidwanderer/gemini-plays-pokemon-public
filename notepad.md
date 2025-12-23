@@ -13,7 +13,7 @@
 - Tile Collision: NPCs, certain trees, and ledges block paths. Use 'run_code' to verify navigability.
 - Status moves: Fails if the target already has a status condition (e.g. Hypnosis vs Paralyzed).
 - Sweet Scent: Triggers immediate wild encounters on valid grass tiles.
-- FLOOR_UP_WALL: One-way pathing (traversable North, impassable South). Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
+- FLOOR_UP_WALL: One-way pathing (traversable North, impassable South). Acts as a ledge you jump UP. Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
 - LEDGE_HOP_DOWN: One-way pathing (traversable South, impassable North). Found at (12, 27), (16, 15), (6, 81), (8, 81).
 - LEDGE_HOP_RIGHT: One-way pathing (traversable East, impassable West). Found at (17, 12), (17, 13), (17, 14), (9, 80).
 
@@ -30,7 +30,7 @@
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
-- Current Task: Explore unseen tiles near (11, 37) via the western corridor (Column 2).
+- Current Task: Exit the 'pond' area via (10, 26) and head to the western corridor.
 - Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 76-87).
 
 ## NPCs & Locations
