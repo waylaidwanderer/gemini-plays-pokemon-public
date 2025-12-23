@@ -72,3 +72,4 @@
 - Turn 14623: Sweet Scent -> NIDORAN♀ (Lv 12). Result: RUN.
 - Turn 14628: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
 - Turn 14632: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
+- Turn 14632: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
