@@ -21,52 +21,20 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to West Gate `(6, 8)` to check its status.
-   - Current Position: `(2, 6)`.
-   - Path: `(2, 6) -> (2, 8) -> (6, 8)`.
-   - Encounter: Will likely trigger the Burglar (Pharmacist) at `(4, 8)`.
-2. Evaluate Gate Status:
-   - If `(6, 8)` is OPEN: Proceed to `(12, 12)`.
-   - If `(6, 8)` is CLOSED: S2=OFF likely killed the power.
-     - Action: Return to S2 `(10, 1)` and turn ON.
-     - Then try the "West Entrance" strategy: S1=OFF, S2=ON, S3=ON. Enter via `(2, 6)`.
+1. Finish Battle with Pharmacist.
+2. Return to Switch 2 `(10, 1)` and turn ON.
+   - S2=OFF was a dead end.
+3. Ensure Switch 1 `(16, 1)` is OFF.
+   - Target State: S1=OFF, S2=ON, S3=ON.
+4. Navigate to the NE Shutters `(20, 6)`.
+   - Hypothesis: This combination might open the shutters to the Warp `(22, 10)`.
+   - We know S1=ON kept them closed. Maybe S1=OFF is the key.
+5. If `(20, 6)` is OPEN, take the Warp.
 
 ## Observations
-- **Switch Status:** S1=OFF, S2=OFF, S3=ON.
-- **Path:** `(2, 6)` corridor is OPEN.
-- **Hypothesis:** We are testing if S2=OFF opens the gates. If not, the winning move is likely entering via `(2, 6)` with power ON.
-- **Observation (Turn 14954):** System reported `(6, 12)` (SW Shutter) changed from WALL to FLOOR. This means the shutter OPENED with S2=OFF.
-- **Implication:** Disabling Main Power (S2) opens the electronic shutters (fail-safe?).
-- **Problem:** Previous notices said `(6, 9)` turned to WALL. If the gates close while shutters open, we need a path that relies on shutters, not gates.
-- **Current Goal:** Fight the Pharmacist, then verify if we can pass through `(6, 8)` or `(6, 9)` to reach the now-open `(6, 12)`.
-- **Observation (Turn 14955):** S2=OFF definitely closed West Gate `(6, 8)`. It is visible as a WALL.
-- **Battle:** Engaging Burglar (Pharmacist) at `(4, 8)`.
-- **Strategy:** After battle, must return to switches. S2=OFF is a dead end here.
-- **Next Test:** Re-verify S3=ON behavior. Does it *really* open everything? Or did I misinterpret?
-  - Turn 14922 said `(6, 8)` opened with S3=ON (and S1=ON).
-  - Turn 14925 said `(12, 9)` closed with S1=ON.
-  - This confirms the toggle nature. S3 enables the system, but S1 still toggles West vs East.
-  - Is there a way to bypass the toggle?
-  - Or is the destination NOT `(12, 12)`?
-  - Maybe `(20, 6)`?
-- **Battle:** Fighting Burglar (Pharmacist). Using Strength (Slot 1).
-- **Gate Logic Review:** S2=OFF confirmed to close West Gate `(6, 8)`.
-- **Correction:** In Turn 14925, I noted gates closing spontaneously while moving. This implies a hidden trigger or a misunderstanding of the "Emergency" mode.
-- **Plan:**
-    1. Defeat Burglar.
-    2. Turn S2 ON (Main Power).
-    3. Verify if S1=ON, S2=ON, S3=ON opens West Gate `(6, 8)`.
-    4. If it does, walk through and see if it stays open.
-- **Battle Logic:** Fighting Burglar. Level 53 Machoke vs likely level ~30. Easy win.
-- **Puzzle re-evaluation:**
-  - `(12, 9)` changing to WALL in Turn 14925 is the key mystery.
-  - If `(12, 9)` blocks the path to `(12, 12)`, I need to find a way to keep `(12, 9)` OPEN.
-  - S1=ON caused `(12, 9)` to be WALL? Or was it S3=ON?
-  - I need to test if S1=OFF keeps `(12, 9)` as FLOOR.
-  - If S1=OFF keeps `(12, 9)` open, but closes `(10, 6)` (North Entry), then I must enter from `(2, 6)` (Emergency Path) -> `(6, 8)` (West Gate).
-  - So: S1=OFF, S2=ON, S3=ON.
-  - Check: Does S1=OFF keep `(6, 8)` OPEN with S3=ON?
-  - Normally S1=OFF opens West Gate `(6, 8)`.
-  - So the winning combo is likely **S1=OFF, S2=ON, S3=ON**.
-  - Route: Enter via `(2, 6)`, go through West Gate `(6, 8)`, navigate to `(12, 12)`.
-  - Let's verify this hypothesis after the battle.
+- **Switch Status (Current):** S1=OFF, S2=OFF, S3=ON.
+- **Dead Ends:**
+  - S2=OFF: Shutters `(6, 12)` open, but Gates `(6, 8)` closed.
+  - S1=ON, S3=ON: Stuck at `(12, 9)` wall.
+  - S1=OFF, S3=ON: Stuck at `(10, 6)` wall (if trying to go South).
+- **New Hope:** Accessing the Warp `(22, 10)` via `(20, 6)` with S1=OFF.
