@@ -9,10 +9,10 @@
 
 ## Switch Logic (Verified in 3_54)
 - **S1 (16, 1):** Toggles East/West.
-    - **Current:** ON.
+    - **Current:** OFF.
     - **Behavior with S3=ON:**
-        - S1=OFF -> (12, 8) OPEN.
-        - S1=ON -> Testing now.
+        - S1=ON -> (12, 8) OPEN.
+        - S1=OFF -> Testing now.
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
