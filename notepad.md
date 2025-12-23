@@ -42,12 +42,11 @@
 - Location: Route 35.
 - Status: Active (Turn 14571 - Timestamp: 14571).
 - Strategy: Use KIMCHI (Gloom) for Sleep status.
-- Battle Plan: Sleep Powder -> Great Balls. (Note: Avoid damaging unless necessary; XENON lacks fixed damage until Lv 16).
+- Battle Plan: Sleep Powder -> Great Balls. (Note: Avoid damaging further; Yanma is fragile).
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10)
 - PIDGEY (Lv 12, 14)
 - NIDORAN♀ (Lv 12)
 - NIDORAN♂ (Lv 12)
-- YANMA (Lv 12) - Observed at (8, 9) during swarm.
 - YANMA (Lv 12) - Observed at (8, 9) during swarm.
