@@ -19,11 +19,11 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=ON, S2=ON, S3=ON (Correction).
+- **State:** S1=ON, S2=ON, S3=ON.
 - **Location:** Switch Room (2, 2).
-- **Action:** Turn Switch 3 ON (Retry).
+- **Action:** Check Shutter at (20, 6).
 - **Plan:**
-  1. Select YES to turn Switch 3 ON (Previously cancelled by mistake).
+  1. Press B to leave Switch 3 ON (Screen confirms it is ON).
   2. Walk to (20, 6).
   3. Check if Shutter is OPEN.
   4. If Closed, try S1=ON + S3=ON.
