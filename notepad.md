@@ -2,8 +2,8 @@
 ## The Repel Trick
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Status: Repel NOT active (Confirmed by Meowth encounter at Turn #13583).
-- Inventory: Super Repel x6 (Item 15 in PACK).
+- Status: Super Repel active (Used Turn #13577). ~160 steps remaining. Previous Meowth encounter (Turn #13583) was a hallucination; battle menu was not open.
+- Inventory: Super Repel x6. Confirmed at Slot 15 in PACK.
 - Confirmed PACK Order:
   1. PSNCUREBERRY, 2. X ATTACK, 3. BITTER BERRY, 4. ICE BERRY, 5. MAX ETHER, 6. FULL HEAL, 7. ICE HEAL, 8. X SPECIAL, 9. GUARD SPEC., 10. LEMONADE, 11. FRESH WATER, 12. SUPER POTION, 13. AMULET COIN, 14. REVIVE, 15. SUPER REPEL
 
