@@ -32,3 +32,8 @@
 - Navigation: Avoid mixing directional and action buttons in a single sequence.
 - Pacing: Change coordinates (X or Y) to count steps; spinning in place does not trigger encounters.
 - Hallucination Prevention: If stuck in a tile loop, move to a new coordinate before resuming pacing.
+## Game Mechanics & Systems
+- Sweet Scent: Triggers an immediate wild encounter in areas with wild Pokemon (including indoors).
+
+## Hunting Session Tracking
+- Turn #13876: Moving to pacing spot (14, 6) to avoid tile loop warning and improve efficiency with Sweet Scent.
