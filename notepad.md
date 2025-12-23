@@ -21,22 +21,19 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Explore the path South via `(2, 6)` to `(2, 9)`.
-2. Move East from `(2, 9)` to check the West Room (Pharmacist area).
-   - Verify connectivity between West `(2, 9)` and Central `(6, 8)`.
-3. Go to the "Target Shutter" at `(12, 12)`.
-   - Check if it is OPEN (S3=ON effect).
-   - If OPEN, proceed South.
-4. If `(12, 12)` is CLOSED, check `(20, 6)` / `(17, 6)` Shutters.
+1. Check Shutter `(20, 6)` (Confirm if CLOSED).
+2. Check Shutter `(17, 6)` (Confirm if CLOSED).
+3. Navigate to `(12, 12)` (Target Shutter).
+   - Mental Map shows this tile is FLOOR (OPEN).
+4. Proceed South through `(12, 12)` and explore the new area.
 
 ## Observations
 - **Switch Status:** S1=ON, S2=ON, S3=ON.
-- **Gate Status:**
-  - North `(10, 6)`: OPEN.
-  - East `(12, 8)`: OPEN.
-  - West `(6, 8)`: OPEN (Changed to FLOOR Turn 14921).
-  - **Conclusion:** S3=ON acts as a MASTER OVERRIDE, opening all gates.
-- **Hypothesis:** S3=ON likely opens the Target Shutter `(12, 12)` or the Director's Shutters `(20, 6)`.
+- **Shutters:**
+  - `(20, 6)`: Currently checking.
+  - `(17, 6)`: Currently checking.
+  - `(12, 12)`: Appears OPEN on map (FLOOR).
+- **Hypothesis:** `(12, 12)` is the correct path forward. S3=ON opened it.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
