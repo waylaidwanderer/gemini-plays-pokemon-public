@@ -21,21 +21,19 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Proceed South through `(12, 13)` into the unexplored area.
-   - Confirmed: S1=OFF + S3=ON opens East Gate `(12, 8)`.
-   - Confirmed: `(12, 12)` is OPEN.
-   - Note: S1=OFF + S3=ON caused North Gate `(10, 6)` to CLOSE.
-2. Explore the corridor/room south of `(12, 12)`.
-   - Likely leads to the Warehouse or the Director.
-3. Keep an eye out for trainers (Rocket Girl at `(19, 12)` is nearby but likely contained).
+1. Navigate to `(12, 13)` (South of Target Shutter).
+   - Current Position: `(12, 5)`.
+2. Move West from `(12, 13)` to explore the unseen area at Row 14 `(9-11, 14)`.
+   - The map indicates a corridor heading West.
+3. Locate the Director or the Warehouse entrance.
 
 ## Observations
 - **Switch Status:** S1=OFF, S2=ON, S3=ON.
-- **Gate Logic Confirmed:**
-  - S3=ON is the master power for the vertical shutters (like 12,12).
-  - S1 toggles the horizontal gates (12,8 vs 6,8) in Emergency Mode (S3=ON).
-  - S1=OFF -> East Gate `(12, 8)` OPEN, North Gate `(10, 6)` CLOSED.
-- **Next Steps:** Exploration.
+- **Area Status:**
+  - `(12, 12)` Target Shutter is OPEN.
+  - `(12, 13)` leads to a T-junction or room.
+  - West path leads to unseen tiles.
+- **Goal:** Explore the new area thoroughly.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
