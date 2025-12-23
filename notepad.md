@@ -64,11 +64,10 @@
   3. If (6, 8) is open, proceed South.
 - **Action:** Entering the SW area through Shutter (6, 8).
 - **Goal:** Explore this new section for the Director or key items.
-- **Action:** Pressing 'A' to toggle Switch 3.
-- **Context:** I am at (2, 2) facing Switch 3 (2, 1).
-- **Hypothesis:** Turning S3 OFF might open the shutters at Row 10.
-- **Note:** GameState text reported (8, 2) but Visuals confirm (2, 2). Trusting visuals.
+- **Observation:** Switch 3 was OFF (contrary to marker). Row 10 shutters were CLOSED.
+- **Action:** Turning Switch 3 ON.
+- **Hypothesis:** S3 ON might open Row 10 shutters (Emergency Switch path?).
 - **Plan:**
-  1. Toggle Switch 3 (Turn OFF).
-  2. Check if (6, 8) remains open.
-  3. Check if Row 10 shutters open.
+  1. Select YES to turn S3 ON.
+  2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
+  3. Also verify if (6, 8) remains open.
