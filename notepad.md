@@ -24,10 +24,8 @@
 - Sweet Scent: Triggers immediate encounters on valid tiles. "Nothing here" means safe tile.
 
 ## Training Plan: XENON
-- Retrieve XENON from Bill's PC.
-- Deposit Blarney (Sudowoodo) to make room.
-- Heal party at Violet Pokecenter.
-- Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
+- Train XENON to Lv 13 (Mean Look) then Lv 25 (Haunter).
+- Current Progress: Lv 6.
 - Grind Start: Turn #13980.
 
 ## Route 32 Observations
