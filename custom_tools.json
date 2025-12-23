@@ -173,9 +173,9 @@
     ]
   },
   "use_super_repel_v4": {
-    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 15th slot. Robust cursor-independent reset.",
+    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 13th slot. Robust cursor-independent reset.",
     "input_schema": {},
-    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*5 (PACK), A, Up*20 (Reset to Item 1), Down*14 (Item 15), A, A, B*3\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(5):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 15th item (Super Repel)\n    for _ in range(14):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
+    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: B*3 (Clear), Start, Down*10 (Reset to EXIT), Up*5 (PACK), A, Up*20 (Reset to Item 1), Down*12 (Item 13), A, A, B*3\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 50\")\n    for _ in range(5):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 13th item (Super Repel)\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -201,6 +201,11 @@
         "commit_message": "Corrected item index for Super Repel (15th item = 14 Down presses). Added robust menu reset.",
         "timestamp": "2025-12-23T03:54:46.840Z",
         "action_counter": 13496
+      },
+      {
+        "commit_message": "Corrected item index for Super Repel (13th item = 12 Down presses). Added robust menu reset.",
+        "timestamp": "2025-12-23T03:58:45.688Z",
+        "action_counter": 13498
       }
     ]
   }
