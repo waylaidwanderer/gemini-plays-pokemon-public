@@ -29,10 +29,11 @@
 - Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe zones. (6, 5) on 2F is a valid encounter tile.
 
 ## Training Plan: XENON (How)
-- Grind on Route 32 grass using Sweet Scent.
+- Grind Start: Turn #13980 (Tuesday 12:45 AM).
+- Method: Grind on Route 32 grass using Sweet Scent.
 - Target: Lv 13 for Mean Look.
-- Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
-- Use Fresh Water/Lemonade from pack to heal when HP < 10.
+- Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
+- Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
