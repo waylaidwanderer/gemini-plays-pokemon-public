@@ -247,3 +247,7 @@
     2. Keep Switch 3 ON. This should keep (12, 8) open (based on S3=ON opening it previously).
     3. Pass through (10, 6) and go to (12, 8).
     4. Explore South of (12, 8).
+- **Action:** Turning Switch 2 ON.
+- **Current State (Predicted):** S1=OFF, S2=ON, S3=ON.
+- **Hypothesis:** S2=ON opens the North Gate (10, 6). S3=ON keeps the Inner East Shutter (12, 8) open.
+- **Plan:** After turning S2 ON, go South through (10, 6) and East to (12, 8).
