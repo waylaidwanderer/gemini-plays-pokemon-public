@@ -19,7 +19,8 @@
 - Menu Wrapping: 
     - Start Menu (8 items): Wraps.
     - Party Menu (6 items + CANCEL): Wraps.
-    - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). It also remembers the last selected move within the same battle.
+    - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). The cursor-agnostic 'Up*3' reset in select_move_v4 is BROKEN because of this. Use select_move_v5 and check cursor position in screen text first.
+    - Battle Move Menu also remembers the last selected move within the same battle.
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
