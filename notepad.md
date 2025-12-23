@@ -19,15 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** West Room (2, 12).
-- **Action:** Return to switches to reconfigure.
+- **State:** S1=OFF, S2=ON (Turning OFF), S3=OFF.
+- **Location:** Switch Room (10, 2).
+- **Action:** Turn Switch 2 OFF.
 - **Plan:**
-  1. Go to Switch 2 (10, 1).
-  2. Turn Switch 2 OFF (Closes West/North, Allows East).
-  3. Turn Switch 1 ON (Opens East).
-  4. Ensure Switch 3 is OFF.
-  5. Enter East Room via (12, 8).
+  1. Interact with Switch 2 to turn it OFF.
+  2. Move to Switch 1 (16, 1).
+  3. Turn Switch 1 ON.
+  4. Enter East Room via (12, 8).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
