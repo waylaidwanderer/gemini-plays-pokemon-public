@@ -8,9 +8,11 @@
 - **Goal:** Reach Southwest Ladder (3, 34) in Main Tunnel.
 
 # Strategy
-- **Observation:** Switch 1 ON removed the walls at (16, 7) and (17, 7).
-- **Current Action:** Confirmed Switch is ON.
-- **Plan:** Navigate South through the newly opened path at (16, 7) to explore the unseen area and find the path to the Southwest Ladder (5, 25).
+- **Puzzle Mechanic:** "Open one shutter, another closes."
+- **Clue:** Grunt at (11, 4) said 'The switch on the end is the one to press first'.
+- **Observation:** Switch 1 ON opened South Path (Row 7) but closed West Shutter (10, 5).
+- **Hypothesis:** Turning Switch 1 OFF will CLOSE South Path and OPEN West Shutter.
+- **Plan:** Turn Switch 1 OFF. Navigate to West Shutter (10, 5) to access the NW area and find the 'Switch on the end' (Switch 3?).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
