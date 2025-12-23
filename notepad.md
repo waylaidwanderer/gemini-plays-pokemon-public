@@ -25,7 +25,8 @@
     - **Status:** Shutter (20, 6) CLOSED.
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked.
-    - **Path B:** Via Ladder (23, 3) -> SE Section (3_53) -> Warp (21, 25) -> Door (22, 10) in 3_54?
+    - **Path B:** Via Ladder (23, 3) -> SE Section (3_53) -> Connects to Main Tunnel (Exit). Dead End for Director search.
+    - **New Plan:** Return to 3_54, Turn S3 ON, Open (2, 7), Explore West Room to bypass Pharmacist.
 
 ## Switch Room Exploration Data
 - **West Room (Col 2):** Blocked by shutter at Row 6. (Controlled by S3?).
