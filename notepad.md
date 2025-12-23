@@ -41,3 +41,8 @@
 - Hypothesis: The western land (Column 1-4) is reachable by surfing across the lake at y=40-50.
 - Test: Reach (11, 40), use SURF to cross to the west, and follow the corridor south.
 - Goal: Reach (1, 87) to complete Route 32 exploration.
+## Event: Yanma Swarm
+- Source: Arnie (Bug Catcher) phone call.
+- Location: Route 35.
+- Status: Active (Turn 14571).
+- Strategy: Use Sweet Scent to trigger encounters. Catch with Great Balls.
