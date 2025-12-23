@@ -2,28 +2,28 @@
   "get_type_effectiveness_gen2": {
     "description": "Returns the type effectiveness multiplier for an attack in Gen 2 Pokemon Crystal.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "attacking_type": {
-          "type": "string",
-          "description": "The type of the move being used."
+          "description": "The type of the move being used.",
+          "type": "string"
         },
         "defending_type1": {
-          "type": "string",
-          "description": "The first type of the defending Pokemon."
+          "description": "The first type of the defending Pokemon.",
+          "type": "string"
         },
         "defending_type2": {
-          "type": "string",
           "description": "The second type of the defending Pokemon (optional).",
-          "nullable": true
+          "nullable": true,
+          "type": "string"
         }
       },
       "required": [
         "attacking_type",
         "defending_type1"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "import json\n\ndef get_effectiveness(attacking_type, defending_type1, defending_type2=None):\n    # Gen 2 Type Chart\n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"GHOST\": 0, \"STEEL\": 0.5},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"ELECTRIC\": 0.5, \"GRASS\": 2, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"FIGHTING\": 0.5, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5}\n    }\n    \n    atk = attacking_type.upper()\n    def1 = defending_type1.upper()\n    \n    mult = chart.get(atk, {}).get(def1, 1.0)\n    if defending_type2:\n        def2 = defending_type2.upper()\n        mult *= chart.get(atk, {}).get(def2, 1.0)\n        \n    return mult\n\nif __name__ == \"__main__\":\n    attacking_type = input_data.get(\"attacking_type\")\n    defending_type1 = input_data.get(\"defending_type1\")\n    defending_type2 = input_data.get(\"defending_type2\")\n    \n    if attacking_type and defending_type1:\n        result = get_effectiveness(attacking_type, defending_type1, defending_type2)\n        print(json.dumps({\"multiplier\": result}))\n",
+    "python_script": "import json\n\ndef get_effectiveness():\n    attacking_type = input_data.get('attacking_type').upper()\n    def1 = input_data.get('defending_type1').upper()\n    def2 = input_data.get('defending_type2')\n    if def2: def2 = def2.upper()\n    \n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"GHOST\": 0, \"STEEL\": 0.5},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"ELECTRIC\": 0.5, \"GRASS\": 2, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"POISON\": 0.5, \"FIGHTING\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5}\n    }\n    \n    eff = chart.get(attacking_type, {}).get(def1, 1.0)\n    if def2:\n        eff *= chart.get(attacking_type, {}).get(def2, 1.0)\n    \n    print(json.dumps({\"multiplier\": eff}))\n\nif __name__ == \"__main__\":\n    get_effectiveness()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -34,6 +34,11 @@
         "commit_message": "Fixed the tool to actually print the result using input_data.",
         "timestamp": "2025-12-23T09:26:49.920Z",
         "action_counter": 14085
+      },
+      {
+        "commit_message": "Defining the missing type effectiveness tool for Gen 2.",
+        "timestamp": "2025-12-23T12:40:44.706Z",
+        "action_counter": 14405
       }
     ]
   },
@@ -154,6 +159,36 @@
         "commit_message": "Refining move tool: Cursor in pop-up menu starts on index 1 (first FM or STATS). Fixed target calculation for Sweet Scent. Assumes Party menu resets to Slot 1 upon opening.",
         "timestamp": "2025-12-23T12:17:56.169Z",
         "action_counter": 14361
+      }
+    ]
+  },
+  "select_move_v6": {
+    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping.",
+    "input_schema": {
+      "properties": {
+        "move_index": {
+          "description": "The 1-based index of the move to select (1-4).",
+          "maximum": 4,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "screen_text": {
+          "description": "The current screen text containing the move menu.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "move_index",
+        "screen_text"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport re\n\ndef select_move():\n    try:\n        target = int(input_data.get('move_index', 1))\n        text = input_data.get('screen_text', \"\")\n        \n        # Find lines in the move menu. \n        # Usually looks like:\n        # |   |▶HYPNOSIS     |\n        # |   | LICK         |\n        # |   | SPITE        |\n        # |   | -            |\n        \n        lines = text.split('\\n')\n        current = 1\n        for i, line in enumerate(lines):\n            if '▶' in line:\n                # Determine which move this is based on its position in the list\n                # This is a bit heuristic, but we look for lines starting with '|   |'\n                move_lines = [l for l in lines if '|   |' in l]\n                for j, m_line in enumerate(move_lines):\n                    if '▶' in m_line:\n                        current = j + 1\n                        break\n                break\n        \n        # Calculate shortest path in a wrapping 4-item menu\n        diff = (target - current) % 4\n        if diff == 0:\n            buttons = [\"A\"]\n        elif diff == 1:\n            buttons = [\"Down\", \"A\"]\n        elif diff == 2:\n            buttons = [\"Down\", \"Down\", \"A\"]\n        elif diff == 3:\n            buttons = [\"Up\", \"A\"]\n        else:\n            buttons = [\"A\"]\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    select_move()",
+    "history": [
+      {
+        "commit_message": "Creating a screen-aware move selection tool that parses screen_text for the '▶' cursor to determine the current index automatically.",
+        "timestamp": "2025-12-23T12:40:44.705Z",
+        "action_counter": 14405
       }
     ]
   }
