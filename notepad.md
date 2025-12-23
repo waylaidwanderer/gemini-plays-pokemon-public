@@ -46,5 +46,11 @@
 - **Switch 1 (16, 1):** ON opens (12, 8) if S2 OFF.
 - **Switch 2 (10, 1):** ON opens (10, 6) & (6, 8). Closes (12, 8). *Hypothesis: Opens (20, 6).*
 - **Switch 3 (2, 1):** ON opens (12, 8). Closes (20, 6)? No, (20, 6) was closed anyway.
-- **Observation:** Path North is blocked by a wall at Row 24.
-- **Action:** taking nearby ladder at (22, 27) to proceed. This likely leads to the switch puzzle area.
+- **Observation:** (20, 6) is CLOSED even when S2 is ON. Hypothesis that S2 opens it might be wrong, or S3/S1 interferes.
+- **Action:** Going to Switch 2 (10, 1).
+- **Plan:**
+  1. Turn Switch 2 OFF.
+  2. Check Shutter states.
+  3. Turn Switch 3 OFF.
+  4. Check Shutter states.
+  5. Goal is to open East Shutter (12, 8).
