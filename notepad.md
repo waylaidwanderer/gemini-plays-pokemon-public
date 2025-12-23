@@ -21,21 +21,26 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Move to `(2, 2)` (Front of Switch 3).
-2. Turn Switch 3 ON.
-   - Current State: S1=ON, S2=ON, S3=OFF.
-   - Target State: S1=ON, S2=ON, S3=ON.
-3. Check Shutter `(20, 6)` and `(17, 6)`.
-   - Also check `(2, 6)` since it just turned into FLOOR.
+1. Confirm Switch 3 is ON.
+   - Current State: S1=ON, S2=ON, S3=ON.
+2. Investigate the new path at `(2, 6)`/`(2, 7)`.
+   - This path opened up when I approached Switch 3 (or maybe when S3 turned ON? No, S3 was OFF when they opened).
+   - Actually, wait. The tiles (2,6) and (2,7) turned to FLOOR *before* I turned S3 ON (Turn 14916).
+   - This suggests proximity or S2 being ON opened them? Or maybe S1?
+   - Regardless, I should explore this path first as it is closest.
+3. Check Shutters `(20, 6)` and `(17, 6)`.
+   - Hypothesis: All 3 switches ON opens these.
 
 ## Observations
 - **Switch Status:**
   - S1: ON
   - S2: ON
-  - S3: OFF (About to turn ON)
+  - S3: ON (Just confirmed)
 - **Map Updates:**
-  - `(2, 6)` and `(2, 7)` became FLOOR. This might be the path to the "Underground Entrance (South)" or a shortcut.
-- **Hypothesis:** S3 might control the vertical path in column 2 or the shutters.
+  - `(2, 6)` and `(2, 7)` are FLOOR.
+  - `(12, 8)` is OPEN (FLOOR).
+  - `(10, 6)` is OPEN (FLOOR).
+- **Hypothesis:** We have maximized power. Everything should be open now?
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
