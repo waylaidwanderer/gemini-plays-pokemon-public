@@ -18,6 +18,7 @@
 - WALL / HEADBUTT_TREE / MART_SHELF / COUNTER: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction. Asserting one-way movement requires testing all directions.
 - WARP_CARPET_RIGHT: Traversable. Triggers map transition.
+- Mechanism: To interact with NPCs behind COUNTER tiles, face the counter and press A.
 
 # Route 38/39 Boundary Reference
 - Route 38 (0, 8) <-> Route 39 (19, 8)
