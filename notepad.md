@@ -32,9 +32,9 @@
   - S3=OFF opens (10, 6) and (2, 6).
   - Therefore, S1=OFF, S2=ON, S3=OFF should have BOTH (10, 6) and (12, 8) open, creating a path through the middle.
 - **Plan:**
-  1. Turn S2 ON (Currently in menu).
-  2. Turn S1 OFF (Currently ON).
-  3. Enter (10, 6) -> (12, 8) -> Emergency Switch.
+  1. Turn S2 ON (Done).
+  2. Turn S1 OFF (Done).
+  3. Enter (10, 6) -> (12, 8) -> Emergency Switch (Moving now).
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
