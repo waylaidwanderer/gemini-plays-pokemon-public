@@ -18,11 +18,12 @@
 - LADDER: Vertical map transition; traversable. Verified.
 - NPC: Map objects that block movement. Verified.
 
-## Game Mechanics & Verified Lessons
-- Ghost-type Immunities: Normal and Fighting-type moves (like Lick) do not affect Normal/Fighting types (wait, Lick is Ghost, it doesn't hit Normal).
-- Ghost-type Resistances: Leech Life is "not very effective" against Ghost types.
-- Accuracy/Status: Supersonic (and other status moves) can miss regardless of type, but Ghost types are NOT immune to Supersonic (hallucination corrected: it's just an accuracy check/luck).
-- Sweet Scent: Triggers immediate encounters on valid tiles. "Nothing here" means safe tile.
+## Game Mechanics
+- Ghost-type Moves: Lick (Ghost) does not affect Normal types.
+- Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
+- Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune); misses are due to accuracy/luck.
+- Sweet Scent: Triggers immediate encounters on valid grass tiles.
+- Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
 
 ## Sprout Tower Analysis
 - Layout: Middle section (x=5 to x=14) is isolated. Access outer ring via 2F ladders.
