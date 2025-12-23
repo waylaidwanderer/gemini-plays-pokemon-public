@@ -1,49 +1,21 @@
 # Goldenrod Underground Switch Puzzle
 
 ## Current Status
-- **Location:** Goldenrod Underground (Map 3_53), SE Section `(22, 27)`.
-- **Context:** I took the ladder at `(23, 3)` in the Switch Room (`3_54`).
-- **Goal:** Rescue Director (Likely back in `3_54`).
-- **Hypothesis:** The ladder might have been an exit/shortcut *out* of the puzzle area, not a path *to* the Director.
-- **Immediate Plan:** Explore this small SE section. If it leads to the main tunnel (exit), return up the ladder to `3_54` and solve the Switch Puzzle.
+- **Location:** Switch Room (3_54), Central Area.
+- **Objective:** Explore Inner East Section.
+- **Goal:** Rescue Director / Find Warehouse.
 
-## Switch Logic (Verified in 3_54)
-- **Timestamp:** Turn 14707.
-- **S1 (16, 1):** Toggles East/West.
-    - **Current:** ON.
-    - **Behavior with S3=ON:**
-        - S1=ON -> (12, 8) CLOSED. (12, 6) CLOSED. (6, 8) CLOSED. (17, 6) CLOSED.
-        - S1=OFF -> (12, 8) OPEN. (Verified).
-    - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
+## Switch Logic (Confirmed)
+- **S1 (16, 1):** East/West Toggle.
+    - **ON:** Opens Inner East Gate `(12, 8)` & `(12, 9)`. Closes West Gate `(6, 8)` & `(6, 9)`.
+    - **OFF:** Opens West Gate `(6, 8)` & `(6, 9)`. Closes Inner East Gate `(12, 8)` & `(12, 9)`.
 - **S2 (10, 1):** Main Power.
-    - **Current:** ON.
-    - **Effect:** Opened Gates `(10, 7)` and `(11, 7)` (Central South).
-    - **Hypothesis:** Might also affect `(17, 6)` or `(20, 6)`.
+    - **ON:** Required for gates to operate. (Currently ON).
 - **S3 (2, 1):** Emergency Override.
-    - **Current:** OFF.
-- **Observation:** S2 was found to be OFF. (Contrary to previous belief).
-- **Correction:** The checks in Turns 14707-14715 were performed with S1=ON, S2=OFF, S3=OFF. Result: Shutters (17, 6) and (20, 6) CLOSED.
-- **New Test:** Testing S1=ON, S2=ON, S3=OFF.
-    - **Action:** Turning S2 ON.
-    - **Status:** Processing interaction.
-- **S1 (16, 1):** Toggles East/West.
-    - **Current:** OFF. (Found OFF. Likely reset by S2).
-    - **Status:** Testing S1=OFF, S2=ON, S3=OFF.
-    - **Plan:** Check Shutter (17, 6).
-- **Emergency Switch (20, 11):** Located behind shutter (20, 6).
-    - **Path A:** Blocked. Shutter (20, 6) CLOSED (S3 ON/OFF).
-    - **Path B:** Ladder (23, 3) -> 3_53 (SE).
-        - **Result:** Dead End. `(21, 25)` is NOT a warp. Area leads only to Main Tunnel exit.
-    - **New Plan:** Return to 3_54. Turn S3 ON. Enter via `(2, 7)`. Try to navigate South via Column 2 to bypass Pharmacist.
+    - **OFF:** (Currently OFF).
+- **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
 
-## Switch Room Exploration Data
-- **West Room (Col 2):** Blocked by shutter at Row 6. (Controlled by S3?).
-- **Inner East (Col 12):** Blocked at `(12, 12)` when S1=ON.
-- **Middle East (Col 17):** Likely the correct path. Needs S1=OFF?
-- **Ladder (23, 3) in Switch Room:** Connects to Goldenrod Underground SE `(22, 27)`. Acts as an exit/shortcut back to the main tunnel. Not the path to the Director.
-- **Action:** Returning to Switch Room to test `(17, 10)` with **S1=OFF**.
-- **Observation (Turn 14633):** Blocked at `(3, 9)` in West Room when trying to go South to Ladder `(5, 25)`. Potential hidden obstacle or wall.
-- **Mechanic Discovery:** Toggling S2 (Main Power) OFF and then ON appears to reset S1 to OFF.
-- **Current Test:** S1=OFF, S2=ON, S3=OFF.
-    - **Status:** (17, 6) CLOSED. (20, 6) CLOSED.
-    - **Action:** Checking (12, 6) and (6, 8).
+## Plan
+1. Enter Inner East Room via `(12, 8)`.
+2. Explore for path to Warehouse or Switch `(17, 10)`.
+3. If dead end, try S1=OFF for West Room path.
