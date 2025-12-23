@@ -294,3 +294,8 @@
 - **Hypothesis:** S1=OFF, S2=ON, S3=OFF is the target configuration to test next for the Outer East Shutter (20, 6).
 - **Action:** Initiating interaction with Switch 3 to turn it OFF.
 - **Target Config:** S1=OFF, S2=ON, S3=OFF.
+- **Verification (Turn 14431):** Switch 3 is CONFIRMED OFF.
+- **Current State:** S1=OFF, S2=ON, S3=OFF.
+- **Action:** Closing menu.
+- **Next Step:** Navigate to (20, 5) to inspect the Outer East Shutter (20, 6).
+- **Hypothesis:** This configuration (S1=OFF, S2=ON, S3=OFF) should open the Outer East Shutter.
