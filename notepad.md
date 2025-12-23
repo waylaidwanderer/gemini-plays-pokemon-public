@@ -24,4 +24,4 @@
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 - Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50-100 steps.
 - Last Check: confirmed on Route 38 (Turn #13796). Check successful.
-- Status: Super Repel active (Used Turn #13803). Steps: 0/200.
+- Status: Super Repel active (Used Turn #13803). Steps: 20/200.
