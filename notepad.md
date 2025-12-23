@@ -12,17 +12,16 @@
     - OFF: Default.
 
 ## Current Strategy
-**Target:** West Shutter (6, 8).
-**Logic:** S2=ON opens it. S3=ON closes it (Emergency Override).
-**Current State:** S1=OFF, S2=ON, S3=OFF.
+**Goal:** Rescue Director.
+**Hypothesis:** The Pharmacist is guarding a secret entrance or switch in the West Room (Segment A).
+**Reasoning:**
+- The room appears to be a dead end, which makes the shutter puzzle and Pharmacist placement suspicious.
+- "There's nothing down there" suggests I should look "down there" (South Wall).
+- Access to the rest of the map (Door 22, 10, Ladder 21, 25) is blocked from the North, implying a hidden path or a different entrance from Map 3_53.
 **Plan:**
-1. Switch 2 confirmed ON.
-2. Navigate South through (10, 6).
-3. Navigate West through (6, 8).
-4. **IGNORE Pharmacist** and explore South area (Rows 9+).
-
-## Test Log (Outer East Shutter (20, 6))
-- **Conclusion:** (20, 6) is effectively permanently closed or requires a key/event I missed. Abandoning East Path for now.
+1. Inspect the South Wall of the West Room (Row 10, Cols 0-11) for hidden switches.
+2. If nothing found, return to Map 3_53 (Warehouse) and look for the ladder connecting to (21, 25).
+3. Re-examine the "Warehouse SE Room" on Map 3_53 carefully.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
