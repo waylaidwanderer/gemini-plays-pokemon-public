@@ -8,9 +8,9 @@
 
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Sequence: 3 -> 2 -> 1.
-- **Current Status:** Switch 3 ON, Switch 2 ON.
-- **Next Step:** Turn Switch 1 ON.
-- **Hypothesis:** Completing the sequence will open the path to the Director (Emergency Switch).
+- **Current Status:** Switch 3 ON, Switch 2 ON, Switch 1 ON.
+- **Hypothesis:** Sequence complete. Path to Director/South should be open.
+- **Next Step:** Verify changes in map structure (South walls).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (OFF).
