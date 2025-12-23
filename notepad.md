@@ -15,7 +15,7 @@
 # Interaction Rules
 - Counter Interaction: To interact with NPCs behind COUNTER tiles, face the counter and press A.
 
-# Verified Tile Mechanics
+# Verified Tile Mechanics (Route 38)
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
 - FLOOR: Traversable. Standard ground.
 - WALL / HEADBUTT_TREE: Impassable.
