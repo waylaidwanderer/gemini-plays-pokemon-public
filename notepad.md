@@ -1,36 +1,27 @@
 # Goldenrod Underground Switch Puzzle
 
-## Switch Logic & Hypotheses
-- **Switch 1 (16, 1):**
-    - **Hypothesis:** Toggles between East and West paths.
-    - **Verified:** 
-        - ON opens Inner East Gate `(12, 8)` (and `(16, 10)`), CLOSES `(12, 12)`.
-        - OFF opens West Gate `(6, 8)`.
-        - **Current State:** OFF.
-- **Switch 2 (10, 1):**
-    - **Hypothesis:** Main Power / Master Switch.
-    - **Verified:** ON opens North Gate `(10, 6)` and powers the secondary gates.
-    - **Current State:** OFF.
-- **Switch 3 (2, 1):**
-    - **Hypothesis:** Emergency / Override Switch.
-    - **Verified:** 
-        - ON opens Emergency shortcuts (`2, 7`) but CLOSES main gates `(10, 6)` & `(6, 8)`.
-        - ON opens Shutter `(6, 12)` and CLOSES Shutter `(12, 12)`.
-        - OFF CLOSES Shutter `(6, 12)` and OPENS Shutter `(12, 12)`.
-    - **Current State:** ON.
+## Switch Logic (Verified)
+- **S1 (16, 1):** Toggles East/West.
+    - **ON:** Inner East `(12, 8)` OPEN. West `(6, 8)` CLOSED.
+    - **OFF:** West `(6, 8)` OPEN. Inner East `(12, 8)` CLOSED.
+    - **Current:** OFF.
+- **S2 (10, 1):** Main Power.
+    - **ON:** Powers gates.
+    - **OFF:** Cutting power (Current Test).
+    - **Current:** OFF.
+- **S3 (2, 1):** Emergency Override.
+    - **ON:** Opens `(2, 7)` & `(6, 12)`. Closes main gates.
+    - **OFF:** Standard operation.
+    - **Current:** ON.
 
 ## Current Strategy
-**Target Config:** S1=OFF, S2=OFF, S3=ON.
-**Reasoning:**
-- Testing "Emergency Power Only" mode.
-- If S2 (Main Power) is OFF, but S3 (Emergency) is ON, maybe the Outer East Shutter `(20, 6)` opens.
-**Steps:**
-1. Turn S2 OFF.
-2. Navigate to `(20, 6)` to check status.
-3. If closed, check `(6, 12)` to see if Emergency Power maintains the West route.
+**Goal:** Rescue Director.
+**Hypothesis:** "Fail-Safe Mode" (S2=OFF).
+- Does cutting Main Power (S2=OFF) unlock the "Walls" blocking the West Room at Row 10?
+- **Status:** I am at `(2, 7)` (West Shortcut is OPEN).
+- **Next Step:** Proceed South to Row 10 to see if the wall at `(2, 10)` has opened.
 
 ## Exploration Notes
-- **West Room (Col 2):** Blocked at Row 10. Pharmacist at `(4, 8)`.
+- **West Room (Col 2):** Previously blocked at Row 10 (S2=ON). Pharmacist at `(4, 8)`.
 - **Inner East (Col 12):** Blocked at `(12, 12)` with S3=ON.
-- **West Gate (Col 6):** Blocked at `(6, 8)` with S3=ON.
-- **Outer East (Col 20):** Shutter `(20, 6)` closed with S1=OFF, S2=ON, S3=ON.
+- **Outer East (Col 20):** Shutter `(20, 6)` closed (checked with S2=OFF).
