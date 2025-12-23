@@ -35,3 +35,4 @@
 - Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
 ## Immediate To-Do
 - Heal at Goldenrod Pokecenter (KIMCHI is out of Sleep Powder PP).
+- Head to Route 42 to find Fisher Tully and check for Suicune.
