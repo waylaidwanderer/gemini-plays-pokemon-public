@@ -15,15 +15,16 @@
 - Status Moves: "It didn't affect" is the message for a miss or blocked status move (e.g. Hypnosis missing Wooper).
 - Switching: Clears confusion and resets stat changes.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
-- Menu Wrapping: 
+- Menu Behavior:
     - Start Menu (8 items): FULLY WRAPS. Navigate relatively. Resets to POKEDEX (1) after battle.
     - Party Menu (7 items: 1-6 + CANCEL): FULLY WRAPS. Navigate relatively. REMEMBERS last selection even when closed/reopened.
     - PKMN Pop-up Menu (variable size): WRAPS. For KIMCHI (2 field moves), it has 7 items: 1.SWEET SCENT, 2.CUT, 3.STATS, 4.SWITCH, 5.MOVE, 6.ITEM, 7.CANCEL.
     - Battle Move Menu (4 items): WRAPS.
-- Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
-## Training Plan: XENON (How)
-- Method: Use Sweet Scent at (18, 15) grass patch.
+## Training Plan: XENON
+- Goal: Reach Lv 13 (1261 Total EXP).
+- Progress: 1171 EXP (90 EXP remaining).
+- Method: Use Sweet Scent at (18, 15) grass patch on Route 32.
 - Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
 - PP Management: XENON has low Lick PP (30). Return to Pokecenter or use Ether/Berry when Lick PP < 5.
 - Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
@@ -31,9 +32,10 @@
 ## Tile Mechanics
 - FLOOR: Standard traversable ground. Verified.
 - TALL_GRASS: Encounter-eligible ground. Verified.
-- WALL/HEADBUTT_TREE: Impassable boundaries. Verified.
-- LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15).
-- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12).
+- WALL: Impassable boundary. Verified.
+- HEADBUTT_TREE: Impassable wall. Verified at (26, 26) and (14, 22) in Violet City.
+- LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15) on Route 32 and (29, 22) in Violet City.
+- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12) on Route 32.
 - WATER: Impassable without Surf. Verified.
 - DOOR/DOOR_04/CAVE: Warp entry points. Verified.
 - COUNTER: Interaction point for NPCs; impassable. Verified.
