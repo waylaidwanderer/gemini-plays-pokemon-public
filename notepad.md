@@ -249,3 +249,8 @@
 - **Action:** Interacting with Pharmacist at (4, 8).
 - **Goal:** Get information or clear the path (Battle).
 - **Hypothesis:** This room connects to the blocked South/East sections.
+- **Action:** Checked Pharmacist (4, 8). He says "Underground Warehouse? What do you want to go there for? There's nothing down there."
+- **Hypothesis:** He is guarding a path or just flavor text.
+- **Plan:** Briefly check for hidden items/switches in this room (Row 9/10 walls). Then exit North to return to the Main Switch Room area.
+- **New Insight:** I suspect the path forward is through (12, 8) and then **EAST** along Row 9, which I failed to explore previously (turned back at a south wall).
+- **Goal:** Go to (12, 8) (which is OPEN with S3=ON) and explore East.
