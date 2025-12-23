@@ -16,8 +16,12 @@
 - FLOOR_UP_WALL: One-way pathing (traversable North, impassable South). Acts as a ledge you jump UP. Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
 - LEDGE_HOP_DOWN: One-way pathing (traversable South, impassable North). Found at (12, 27), (16, 15), (6, 81), (8, 81).
 - LEDGE_HOP_RIGHT: One-way pathing (traversable East, impassable West). Found at (17, 12), (17, 13), (17, 14), (9, 80).
-- Ghost-type: Immune to Normal/Fighting moves. Lick (Ghost) is ineffective against Normal-types.
+
+## Type Effectiveness (Verified)
+- Ghost Immunity: Ghost-type Pokemon are immune to Normal (e.g., Wrap, Leer) and Fighting-type moves.
+- Ghost Ineffectiveness: Ghost moves (Lick) do not affect Normal-type Pokemon.
 - Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game version.
+- Fighting/Normal vs Ghost: Ineffective (Immunity).
 
 ## Training Log: XENON
 - Status: Lv 13 reached. Mean Look learned.
