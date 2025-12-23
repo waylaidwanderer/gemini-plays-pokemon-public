@@ -149,5 +149,35 @@
         "action_counter": 14471
       }
     ]
+  },
+  "select_battle_move_refined": {
+    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4,
+          "description": "The 1-based index of the move to select (1-4)."
+        },
+        "screen_text": {
+          "type": "string",
+          "description": "The current screen text containing the move menu."
+        }
+      },
+      "required": [
+        "move_index",
+        "screen_text"
+      ]
+    },
+    "python_script": "import json\nimport sys\nimport re\n\ndef main():\n    try:\n        input_raw = sys.stdin.read()\n        if not input_raw:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_raw)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        # Split into lines and filter for move slots\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Move lines contain a vertical bar and alphabetic characters (move name)\n            # They don't contain menu borders like ┌ ┐ └ ┘ ─\n            if '\\u2502' in line and not any(c in line for c in ['\\u250c', '\\u2510', '\\u2514', '\\u2518', '\\u2500']):\n                # Exclude lines that are clearly not moves (e.g. type display, pocket names)\n                if not any(x in line for x in ['TYPE/', 'POCKET', 'ITEMS']):\n                    # Check if it has alphabetic chars or a hyphen (for empty slot '-')\n                    if re.search(r'[A-Za-z-]', line):\n                        move_lines.append(line)\n        \n        # Determine current index by searching for cursor ▶ (\\u25b6)\n        current_index = 1\n        for i, line in enumerate(move_lines):\n            if '\\u25b6' in line:\n                current_index = i + 1\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.extend([\"Down\", \"Down\"])\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Refine move selection logic to use print() for JSON output and improve move line filtering. Navigation restricted to Up/Down.",
+        "timestamp": "2025-12-23T13:30:50.096Z",
+        "action_counter": 14481
+      }
+    ]
   }
 }

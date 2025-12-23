@@ -12,7 +12,7 @@
 - Tool Reliability: Refine custom tools immediately if they produce incorrect results.
 - Tile Navigability: NPCs, trees, and ledges block paths. Verify collision before planning long routes.
 - Battle Discipline: Verify cursor position after closing sub-menus.
-- Type Matchups: Ghost immune to Normal/Fighting. Lick ineffective against Normal.
+- Type Matchups: Ghost immune to Normal/Fighting. Lick ineffective against Normal. Verified Lick fails on Hoppip in this game.
 
 ## Training Log: XENON
 - Start Turn: 14423
@@ -30,5 +30,3 @@
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
 - Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
-- Turn 14474: Lick (Ghost) reported as "didn't affect" wild Hoppip (Grass/Flying). Investigating if Hoppip is being treated as Normal-type or if this is a game quirk.
-- Turn 14475: Retesting Lick on Hoppip to confirm immunity.
