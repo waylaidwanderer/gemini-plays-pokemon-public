@@ -50,3 +50,8 @@
 - Current Repel: Applied Turn #13062. Expired Turn #13075.
 - Steps Taken: 200 (Repel Duration).
 - Status: Suicune confirmed here Turn #13076.
+
+# Main Menu Mechanics
+- The main menu wraps both ways: pressing Up on the top option (POKEDEX) moves the cursor to the bottom (EXIT), and vice versa.
+- There are 8 options in the main menu.
+- The menu typically opens on the last selected option.
