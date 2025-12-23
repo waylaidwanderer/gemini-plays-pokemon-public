@@ -80,15 +80,15 @@
     ]
   },
   "use_pokemon_move_v1": {
-    "description": "Uses a specific move from a Pokémon in the party. Cursor-agnostic: clears menus, opens Start, navigates to POKEMON, selects the target Pokémon, and executes the field move. Requires current cursor indices for the Start and Party menus.",
+    "description": "Uses a specific move from a Pokémon in the party. Cursor-agnostic: clears menus, opens Start, navigates to POKEMON, selects the target Pokémon, and executes the field move. Requires current cursor indices for the Start and Party menus. Assumes pop-up menu cursor starts on the first field move (or STATS if no FM).",
     "input_schema": {
       "properties": {
         "current_party_index": {
-          "description": "The current 1-based index of the Party menu cursor (1-7, where 7 is CANCEL).",
+          "description": "The 1-based index of the Party menu cursor (1-7, where 7 is CANCEL). Use 1 if just opening the menu.",
           "type": "integer"
         },
         "current_start_index": {
-          "description": "The current 1-based index of the Start menu cursor.",
+          "description": "The 1-based index of the Start menu cursor.",
           "type": "integer"
         },
         "move_index": {
@@ -108,7 +108,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef navigate_wrapping_menu(current, target, total):\n    diff = (target - current) % total\n    if diff == 0:\n        return []\n    if diff <= total // 2:\n        return [\"Down\"] * diff\n    else:\n        return [\"Up\"] * (total - diff)\n\ndef use_pokemon_move():\n    try:\n        slot = int(input_data.get('pokemon_slot', 6))\n        move = int(input_data.get('move_index', 2))\n        start_idx = int(input_data.get('current_start_index', 1))\n        party_idx = int(input_data.get('current_party_index', 1))\n    except (ValueError, TypeError):\n        slot, move, start_idx, party_idx = 6, 2, 1, 1\n\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 500\"]\n\n    # 1. Start Menu (8 items): 1.POKEDEX, 2.POKEMON...\n    buttons.extend(navigate_wrapping_menu(start_idx, 2, 8))\n    buttons.extend([\"A\", \"sleep 500\"])\n\n    # 2. Party Menu (7 items: 1-6 + CANCEL)\n    buttons.extend(navigate_wrapping_menu(party_idx, slot, 7))\n    buttons.extend([\"A\", \"sleep 500\"])\n\n    # 3. Pop-up Menu. Field moves are at the top. Cursor starts on STATS.\n    # Team FM count: XENON:0, ICARUS:1, GNEISS:1, Ravioli:1, Calcifer:0, KIMCHI:2\n    fm_counts = {1:0, 2:1, 3:1, 4:1, 5:0, 6:2}\n    num_fm = fm_counts.get(slot, 0)\n    menu_size = 5 + num_fm\n    current_idx = 1 + num_fm # Index of STATS\n    \n    # Target move index in pop-up:\n    # For KIMCHI (slot 6): Move 2 (Sweet Scent) -> Index 1. Move 3 (Cut) -> Index 2.\n    # For others (1 FM): Move X -> Index 1.\n    target_idx = 1\n    if slot == 6 and move == 3: target_idx = 2\n    \n    buttons.extend(navigate_wrapping_menu(current_idx, target_idx, menu_size))\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_pokemon_move()",
+    "python_script": "import json\n\ndef navigate_wrapping_menu(current, target, total):\n    diff = (target - current) % total\n    if diff == 0:\n        return []\n    if diff <= total // 2:\n        return [\"Down\"] * diff\n    else:\n        return [\"Up\"] * (total - diff)\n\ndef use_pokemon_move():\n    try:\n        slot = int(input_data.get('pokemon_slot', 6))\n        move = int(input_data.get('move_index', 2))\n        start_idx = int(input_data.get('current_start_index', 2))\n        party_idx = int(input_data.get('current_party_index', 1))\n    except (ValueError, TypeError):\n        slot, move, start_idx, party_idx = 6, 2, 2, 1\n\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 500\"]\n\n    # 1. Start Menu (8 items): 1.POKEDEX, 2.POKEMON...\n    buttons.extend(navigate_wrapping_menu(start_idx, 2, 8))\n    buttons.extend([\"A\", \"sleep 500\"])\n\n    # 2. Party Menu (7 items: 1-6 + CANCEL). Resets to Slot 1 on open.\n    buttons.extend(navigate_wrapping_menu(party_idx, slot, 7))\n    buttons.extend([\"A\", \"sleep 500\"])\n\n    # 3. Pop-up Menu. Field moves are at the top. Cursor starts on Index 1.\n    # FM positions for KIMCHI: 1: Sweet Scent (move 2), 2: Cut (move 3)\n    target_idx = 1\n    if slot == 6 and move == 3: target_idx = 2\n    \n    # Menu size for wrapping logic\n    fm_counts = {1:0, 2:1, 3:1, 4:1, 5:0, 6:2}\n    num_fm = fm_counts.get(slot, 0)\n    menu_size = 5 + num_fm\n\n    buttons.extend(navigate_wrapping_menu(1, target_idx, menu_size))\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_pokemon_move()",
     "history": [
       {
         "commit_message": "Creating a robust, parameterized tool for using a Pokémon's move from the overworld menu. Replaces the hardcoded Sweet Scent tool.",
@@ -149,6 +149,11 @@
         "commit_message": "Refining move tool to handle pop-up menu navigation starting from 'STATS'. Optimized for the current team's field moves.",
         "timestamp": "2025-12-23T12:14:58.831Z",
         "action_counter": 14358
+      },
+      {
+        "commit_message": "Refining move tool: Cursor in pop-up menu starts on index 1 (first FM or STATS). Fixed target calculation for Sweet Scent. Assumes Party menu resets to Slot 1 upon opening.",
+        "timestamp": "2025-12-23T12:17:56.169Z",
+        "action_counter": 14361
       }
     ]
   }
