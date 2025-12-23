@@ -27,8 +27,12 @@
 - **Switch 1:** Map 3_54 (via 3_53 ladder). ON.
 - **Director:** Warehouse (locked behind shutters).
 - **Dept Store Basement:** Likely route to switches.
-- **Status:** In Goldenrod City (15, 22).
-- **Progress:** Exited Underground via South Ladder.
-- **Current Task:** Navigate to Goldenrod Department Store (24, 27).
-- **Next Step:** Enter Dept Store, go to Basement, unlock door with BASEMENT KEY.
-- **Hypothesis:** The "locked door" in the basement leads to the Southeast Underground sector containing Switch 2 & 3.
+- **Problem:** Rocket Grunt at (16, 23) blocks the path to the East side (Dept Store). He does not battle.
+- **Solution:** Use the Underground to bypass the blockade.
+- **Plan:**
+    1. Re-enter Underground via South Entrance (11, 29).
+    2. Traverse Main Tunnel to the **Northwest Ladder** (3, 2).
+    3. Enter North Entry Room (3_54).
+    4. Force the **North Exit Warp** (21, 29) to trigger (it must work).
+    5. This will emerge at Goldenrod City (9, 5) (North side).
+    6. Cross East along Row 8 to reach the Dept Store.
