@@ -103,7 +103,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\n# KIMCHI is currently in slot 6.\nbuttons = [\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\"]\nfor _ in range(5): buttons.append(\"Down\")\nbuttons.extend([\"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -149,6 +149,11 @@
         "commit_message": "Removed the Down press before move selection. Verified from Turn 13881 screen text that SWEET SCENT is the first move in the field menu. Added robust A-press sequence.",
         "timestamp": "2025-12-23T08:27:46.399Z",
         "action_counter": 13974
+      },
+      {
+        "commit_message": "Updated to select KIMCHI in slot 6 after party swap. Verified SWEET SCENT is the first field move. Added sequence to clear encounter text.",
+        "timestamp": "2025-12-23T08:33:38.739Z",
+        "action_counter": 13981
       }
     ]
   },
