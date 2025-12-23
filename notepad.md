@@ -21,18 +21,17 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Enter Inner East Section via Gate `(12, 8)`.
-   - Confirmed: North Gate `(10, 6)` remains OPEN with S1=ON.
-   - Confirmed: East Gate `(12, 8)` should be OPEN with S1=ON.
-2. Navigate to Door/Warp at `(22, 10)`.
-3. Explore the area behind it (potential Director location).
+1. Move to `(13, 8)` inside the Inner East Section.
+   - Path: Down to `(10, 8)`, then Right through Gate `(12, 8)`.
+2. Navigate to the warp at `(22, 10)`.
+3. Enter the warp and explore the destination (likely the Director's location).
 
 ## Observations
 - **Switch 1 (16, 1):** ON.
 - **Switch 2 (10, 1):** ON.
 - **Switch 3 (2, 1):** OFF.
 - **Gate Status:**
-  - North Gate `(10, 6)`: OPEN (FLOOR).
-  - East Gate `(12, 8)`: OPEN (FLOOR).
-  - West Gate `(6, 8)`: Likely CLOSED (S1 toggles West/East).
-- **Target:** The warp at `(22, 10)` is the primary unseen area left.
+  - North Gate `(10, 6)`: OPEN.
+  - East Gate `(12, 8)`: OPEN.
+  - West Gate `(6, 8)`: CLOSED.
+- **Hypothesis:** We have successfully routed power to the East Gate.
