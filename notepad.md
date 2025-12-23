@@ -30,9 +30,9 @@
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked. Shutter (20, 6) CLOSED (S3 ON/OFF).
-    - **Path B:** Ladder (23, 3) -> 3_53 (SE) -> Warp (21, 25) -> Door (22, 10) in 3_54.
-    - **Hypothesis:** Warp (21, 25) in 3_53 leads to (22, 10) in 3_54, which is adjacent to the Emergency Switch (20, 11).
-    - **Plan:** Take Ladder (23, 3) -> Go to Warp (21, 25) -> Activate Emergency Switch.
+    - **Path B:** Ladder (23, 3) -> 3_53 (SE).
+        - **Result:** Dead End. `(21, 25)` is NOT a warp. Area leads only to Main Tunnel exit.
+    - **New Plan:** Return to 3_54. Turn S3 ON. Enter via `(2, 7)`. Try to navigate South via Column 2 to bypass Pharmacist.
 
 ## Switch Room Exploration Data
 - **West Room (Col 2):** Blocked by shutter at Row 6. (Controlled by S3?).
