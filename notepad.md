@@ -34,10 +34,7 @@
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
 - **Battle Result:** Defeated Silver (Muscle swept team).
-- **Status:** Exploring the room at Map 3_54 (Southwest section).
-- **Location:** Near Teacher at (3, 27).
-- **Goal:** Check this room for Switch 2.
-- **Observation:** This room connects to the surface (Goldenrod) via the south exit. It might just be an entrance.
-- **Plan:** Battle/Talk to Teacher, scan for items/switches. If empty, return to Main Tunnel and search for other paths.
-- **Action:** Interacting with Teacher at (3, 27).
-- **Hypothesis:** She might be a trainer or have info on the switches.
+- **Status:** In Southwest Switch Room (Map 3_54).
+- **Observation:** Teacher provided flavor text. This room appears to be a dead end (just an entrance from city).
+- **Insight:** Map data shows another warp section around x=21, y=25. This implies a Southeast Switch Room exists.
+- **Plan:** Return to Main Tunnel via Ladder (5, 25). Search the Southeast area of Main Tunnel for another ladder.
