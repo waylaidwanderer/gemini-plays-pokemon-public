@@ -10,15 +10,17 @@
 # Roaming Pokémon Reference
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge), uses Fly, or after a battle with the roamer.
 - Logic: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
-- Tracking: Suicune's location is verified visually via Pokedex AREA map. It was last seen on the route west of Ecruteak City (Route 38).
+- Tracking: Suicune's location is verified visually via Pokedex AREA map. It is currently on Route 38 (west of Ecruteak City).
 
-# Verified Tile Mechanics (Route 38)
+# Interaction Rules
+- Counter Interaction: To interact with NPCs behind COUNTER tiles, face the counter and press A.
+
+# Verified Tile Mechanics
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
 - FLOOR: Traversable. Standard ground.
 - WALL / HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
-- WARP_CARPET_RIGHT: Traversable. Triggers map transition (Gatehouse).
-- Mechanism: To interact with NPCs behind COUNTER tiles (seen in Marts), face the counter and press A.
+- WARP_CARPET: Traversable. Triggers map transition.
 
 # Route 38/39 Boundary Reference
 - Route 38 (0, 8) <-> Route 39 (19, 8)
