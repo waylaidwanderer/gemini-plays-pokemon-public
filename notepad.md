@@ -57,3 +57,5 @@
 - **Deduction:** The Ladder at (17, 2) is an *entrance* from the Warehouse (accessed via Underground Switch 1 area), not an exit from here.
 - **Next Step:** Return to Underground. Find the path to the Warehouse and the Director.
 - **Hypothesis:** The "Locked Door" in the Underground (which I have the key for) leads to the area containing the Director and the other side of this ladder.
+- **Door Analysis:** Attempted to enter Locked Door at (18, 6). Warped to (21, 31) (South Exit). Sign says "No Entry". Conclusion: (18, 6) is a one-way EXIT from the Warehouse. Must find the Entrance elsewhere.
+- **New Plan:** Investigate Ladder at (3, 34) (Southwest), marked as "To Switch Room Entrances". This is the likely path to the switches and the true Warehouse entrance.
