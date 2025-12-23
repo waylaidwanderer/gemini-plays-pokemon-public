@@ -9,16 +9,20 @@
 ## Verified Mechanics & Lessons
 - Cursor Persistence: Battle move menu remembers selection. Always verify cursor position.
 - Menu Navigation: Start, Party, and Battle menus wrap. Use relative navigation.
-- Tool Hygiene: Refine custom tools immediately if they fail. Use manual inputs to progress in battle.
+- Tool Hygiene: Refine custom tools immediately if they produce incorrect results. Use manual inputs to progress in battle.
 - Tile Collision: NPCs, certain trees, and ledges block paths. Use 'run_code' to verify navigability.
 - Status moves: Fails if the target already has a status condition (e.g. Hypnosis vs Paralyzed).
 - Sweet Scent: Triggers immediate wild encounters on valid grass tiles.
-- Floor Up Wall: One-way pathing (traversable North, impassable South).
+- FLOOR_UP_WALL: One-way pathing (traversable North, impassable South). Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
+- LEDGE_HOP_DOWN: One-way pathing (traversable South, impassable North). Found at (12, 27), (16, 15), (6, 81), (8, 81).
+- LEDGE_HOP_RIGHT: One-way pathing (traversable East, impassable West). Found at (17, 12), (17, 13), (17, 14), (9, 80).
 
 ## Type Effectiveness (Verified)
-- Ghost-type: Immune to Normal/Fighting moves.
-- Ghost moves (Lick): Ineffective against Normal-types.
+- Ghost Immunity: Ghost-type Pokemon are immune to Normal (e.g., Wrap, Leer) and Fighting-type moves.
+- Ghost Ineffectiveness: Ghost moves (Lick) do not affect Normal-type Pokemon.
 - Hoppip: Immune to Ghost moves in this game version (Hypothesis: Hoppip is Normal-type).
+- Fighting vs Ghost: Ineffective (Immunity).
+- Normal vs Ghost: Ineffective (Immunity).
 
 ## Training Log: XENON
 - Status: Lv 13. Mean Look learned.
@@ -27,14 +31,9 @@
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
-- Current Task: Explore unseen tiles near (11, 37).
-- Future Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
+- Current Task: Explore unseen tiles near (11, 37) via the western corridor (Column 2).
+- Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 76-87).
 
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32. Contact for fishing info.
 - Slowpoketail Seller: (11, 67) Route 32. Selling tails for ¥1,000,000.
-## Type Effectiveness (Verified)
-- Ghost vs Normal: Ineffective.
-- Ghost vs Grass/Flying (Hoppip): Ineffective (Specific to this game/version).
-- Normal vs Ghost: Ineffective (Immunity).
-- Fighting vs Ghost: Ineffective (Immunity).
