@@ -254,3 +254,7 @@
 - **Plan:** Briefly check for hidden items/switches in this room (Row 9/10 walls). Then exit North to return to the Main Switch Room area.
 - **New Insight:** I suspect the path forward is through (12, 8) and then **EAST** along Row 9, which I failed to explore previously (turned back at a south wall).
 - **Goal:** Go to (12, 8) (which is OPEN with S3=ON) and explore East.
+- **Action:** Leaving West Room.
+- **Plan:** Set S2=ON (to open Gate 10, 6), keep S3=ON.
+- **Hypothesis:** This config will allow me to pass (10, 6) and enter (12, 8), which S3 should keep open.
+- **Goal:** Explore the area south of (12, 8) with S3=ON, hoping it opens a secret path to the Pharmacist at (9, 12) or the Emergency Switch.
