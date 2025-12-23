@@ -21,8 +21,9 @@
     - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** OFF.
 - **Test:** Testing S3=OFF with S1=ON.
-    - **Status:** S3 confirmed OFF. Checking (17, 6).
-    - **Plan:** Navigate to (17, 5). If (17, 6) is OPEN, explore Middle East.
+    - **Status:** (17, 6) CLOSED (Confirmed).
+    - **New Test:** Checking (20, 6) with S1=ON, S3=OFF.
+    - **Hypothesis:** Maybe S1=ON opens the Emergency Shutter (20, 6)? Or maybe S2 needs to be OFF.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
