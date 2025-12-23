@@ -22,12 +22,14 @@
 
 # Current State
 - **Switch 1:** ON
-- **Switch 2:** OFF (Verified).
+- **Switch 2:** OFF (Turning ON to test).
 - **Switch 3:** ON (Verified).
 - **Shutter (6, 8):** OPEN (Verified).
+- **Shutter (12, 8):** CLOSED with Sw2 OFF (Verified).
 
 # Strategy
-1. Keep Switch 2 OFF (Press B).
+1. Turn Switch 2 ON.
 2. Check Shutter at (12, 8).
    - If OPEN: Proceed East.
-   - If CLOSED: Check if (10, 6) closed. If so, turn Sw2 ON. If not, check other shutters.
+   - If CLOSED: This implies neither Sw2 ON nor OFF opens it alone. Might need Sw1 toggled? Or Sw3?
+   - Hypothesis: Sw2 ON should open it.
