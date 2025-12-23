@@ -21,25 +21,21 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Confirm Switch 1 is OFF.
-   - Current State: S1=OFF, S2=ON, S3=ON.
-2. Navigate to East Gate `(12, 8)`.
-   - Hypothesis: With S3=ON and S1=OFF, the East Gate `(12, 8)` should now be OPEN (S3 override?) or maybe CLOSED?
-   - Wait, S1=OFF normally closes East Gate. But S3=ON opens everything?
-   - If S3=ON acts as a master override, then S1's state shouldn't matter... unless S3 *inverts* S1?
-   - Let's observing the result.
-3. Check Target Shutter `(12, 12)`.
-   - Verify it remains OPEN.
-4. If both are OPEN, proceed South.
+1. Navigate to `(12, 12)` through the now OPEN East Gate `(12, 8)`.
+   - Confirmed: S1=OFF (with S3=ON) opened `(12, 8)`.
+   - Confirmed: `(12, 12)` opened earlier and likely remains OPEN.
+2. Proceed South through `(12, 12)` to the unexplored area.
+3. Locate the Director or the path to the Warehouse.
 
 ## Observations
-- **Switch Status:**
-  - S1: OFF (Just turned off)
-  - S2: ON
-  - S3: ON
-- **Map Updates (to be verified):**
-  - Check `(12, 8)` status.
-  - Check `(12, 12)` status.
+- **Switch Status:** S1=OFF, S2=ON, S3=ON.
+- **Gate Logic:**
+  - S3=ON seems to be a prerequisite for the "Emergency" path.
+  - With S3=ON:
+    - S1=OFF opens East Gate `(12, 8)`.
+    - S1=ON likely opened West Gate `(6, 8)` (based on previous turns).
+    - `(12, 12)` seems controlled by S3 or S2+S3, independent of S1? Or maybe S1=OFF is the key combination.
+- **Current Path:** The way South is open.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
