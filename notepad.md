@@ -80,13 +80,13 @@
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
 ## Current Goal: Execute Combination S1=ON, S2=OFF, S3=OFF
-- **Action:** Navigate to (12, 8).
+- **Action:** Explore Middle Strip via (16, 6).
 - **State Tracking:**
-    - S1: ON (Confirmed)
-    - S2: OFF (Confirmed)
+    - S1: ON (Confirmed) -> Opened (12, 8).
+    - S2: OFF (Confirmed) -> (10, 6) is CLOSED (Observation).
     - S3: OFF (Confirmed)
 - **Plan:**
-  1. Turn S1 ON (Done).
-  2. Navigate to (12, 8).
-  3. If (12, 8) is OPEN, proceed to explore South-East area and reach Emergency Switch at (20, 11).
-  4. Hypothesis: The Emergency Switch opens the main shutter at (20, 6) or the Director's Door.
+  1. Enter Middle Strip via (16, 6).
+  2. Navigate to (12, 8) (OPEN).
+  3. Proceed West to check (6, 8) and reach Burglar at (4, 8).
+  4. Look for a way to cross Row 10 to reach the South Section.
