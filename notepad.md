@@ -10,7 +10,7 @@
 - **Switch 2 (10, 1):**
     - **Hypothesis:** Main Power / Master Switch.
     - **Verified:** ON opens North Gate `(10, 6)` and powers the secondary gates.
-    - **Current State:** ON.
+    - **Current State:** OFF.
 - **Switch 3 (2, 1):**
     - **Hypothesis:** Emergency / Override Switch.
     - **Verified:** 
