@@ -18,12 +18,12 @@
 
 ## Current Goal: Test All Switches OFF (S1=OFF, S2=OFF, S3=OFF)
 - **Current State:** S1=OFF, S2=OFF, S3=OFF.
-- **Action:** Check Shutter (10, 6).
-- **Hypothesis:** Maybe "All OFF" opens the outer shutter (10, 6).
+- **Action:** Re-attempt navigation to (10, 5).
+- **Reason:** Previous navigation failed (pathing error).
 - **Plan:**
-  1. Navigate to (10, 5).
-  2. Check (10, 6).
-  3. If Closed, proceed to Switch 1 and turn ON (Testing S1=ON, S2=OFF, S3=OFF).
+  1. Navigate to (10, 5) using `find_path`.
+  2. Check status of Shutter (10, 6).
+  3. If Closed, proceed to Switch 1 and turn ON.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
