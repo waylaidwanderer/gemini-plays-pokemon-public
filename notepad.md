@@ -13,10 +13,14 @@
 - Switching: Clears confusion and resets stat changes.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
-- Menu Wrapping: The Start menu (8 items) and Party menu (6 items) in Crystal wrap. Tracking cursor position is mandatory for tool reliability.
+- Menu Wrapping: 
+    - Start Menu (8 items): Wraps.
+    - Party Menu (6 items): Wraps.
+    - Battle Move Menu (4 items): DOES NOT wrap.
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
+- Start Turn: 14146
 - Method: Grind on Route 32 grass using Sweet Scent.
 - Target: Lv 13 for Mean Look, then Lv 35.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
@@ -24,7 +28,7 @@
 
 ## Route 32 Observations
 - Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
-- Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
+- Slowpoketail Scam: NPC at (7, 70) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
 
 ## Hypnosis Mystery
 - Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.

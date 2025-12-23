@@ -68,12 +68,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# From Slot 3 (PACK): Up 1 -> POKEMON. A.\n# From Slot 1 (XENON): Up 1 -> KIMCHI. A.\n# SWEET SCENT is 1st move. A.\nprint(json.dumps(['B', 'B', 'Start', 'Up', 'A', 'Up', 'A', 'A']))",
+    "python_script": "import json\n# 1. B, B, B: Clear any open menus or dialogue.\n# 2. Start: Open menu.\n# 3. Up * 7: Reset cursor to POKEDEX (Slot 1).\n# 4. Down: Move to POKEMON (Slot 2). A.\n# 5. Up: Wrap in Party Menu (6 items) to Slot 6 (KIMCHI). A.\n# 6. A: Select first field move (Sweet Scent).\n# 7. B, B: Clear 'KIMCHI used Sweet Scent' text.\nprint(json.dumps([\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Up\", \"A\", \"A\", \"B\", \"B\"]))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-23T10:46:26.268Z",
         "action_counter": 14227
+      },
+      {
+        "commit_message": "Refined use_sweet_scent_v5 to be extremely robust: clears dialogue, resets Start menu (Up 7), navigates to POKEMON (Down 1), wraps to KIMCHI (Up 1), and uses Sweet Scent (A).",
+        "timestamp": "2025-12-23T10:47:18.427Z",
+        "action_counter": 14229
       }
     ]
   }
