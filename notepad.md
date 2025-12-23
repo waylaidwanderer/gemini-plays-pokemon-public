@@ -20,14 +20,15 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (10, 2).
-- **Action:** Exit Switch Room South.
+- **Location:** Switch Room (10, 4).
+- **Action:** Exit via Ladder at (23, 3).
 - **Plan:**
-  1. Exit Switch Room South to Main Tunnel.
-  2. Enter Warehouse via locked door (18, 6 in Main Tunnel).
-  3. Navigate Warehouse to East Room.
-  4. Check Shutter at (20, 6).
-  5. Access Emergency Switch.
+  1. Go to Ladder at (23, 3).
+  2. Take Ladder to Underground SE.
+  3. Exit SE Room to Main Tunnel.
+  4. Enter Warehouse via locked door (18, 6 in Main Tunnel).
+  5. Navigate Warehouse to East Room.
+  6. Check Shutter at (20, 6).
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
