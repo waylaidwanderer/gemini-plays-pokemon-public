@@ -8,11 +8,11 @@
 - **Immediate Plan:** Explore this small SE section. If it leads to the main tunnel (exit), return up the ladder to `3_54` and solve the Switch Puzzle.
 
 ## Switch Logic (Verified in 3_54)
-- **Timestamp:** Turn 14671.
+- **Timestamp:** Turn 14683.
 - **S1 (16, 1):** Toggles East/West.
-    - **Current:** OFF.
+    - **Current:** ON.
     - **Behavior with S3=ON:**
-        - S1=ON -> (12, 8) OPEN.
+        - S1=ON -> Testing Shutter (12, 6) and Gate (12, 8).
         - S1=OFF -> (6, 8) CLOSED. (Verified).
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **S2 (10, 1):** Main Power.
