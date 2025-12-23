@@ -59,3 +59,11 @@
 - **Objective:** Talk to the Teacher at `(3, 27)` for clues.
 - **Hypothesis:** `(20, 6)` on the East side is the key blockage. Need to figure out how to open it.
 - **Correction:** The marker "Dead End (Teacher)" on `3_53` might refer to this room being a dead end containing a teacher.
+- **Observation (SW Room):** This area is a dead end containing only a Teacher who gives flavor text. No switches or paths to the central area.
+- **Action:** Returning to the main Switch Room (North) to test a new hypothesis.
+- **Hypothesis:** Switch 2 ON might open the shutter at `(20, 6)` (East Side Access), allowing access to the Emergency Switch `(20, 11)`. The text "Closes East" likely refers only to `(12, 8)`.
+- **Plan:**
+  1. Return to Main Tunnel `3_53`.
+  2. Enter Basement Door `(18, 6)`.
+  3. Turn Switch 2 ON.
+  4. Check Shutter at `(20, 6)`.
