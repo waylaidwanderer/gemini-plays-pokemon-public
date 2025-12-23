@@ -33,3 +33,8 @@
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32. Contact for fishing info.
 - Slowpoketail Seller: (11, 67) Route 32. Selling tails for ¥1,000,000.
+## Type Effectiveness (Verified)
+- Ghost vs Normal: Ineffective.
+- Ghost vs Grass/Flying (Hoppip): Ineffective (Specific to this game/version).
+- Normal vs Ghost: Ineffective (Immunity).
+- Fighting vs Ghost: Ineffective (Immunity).
