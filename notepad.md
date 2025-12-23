@@ -36,3 +36,6 @@
     4. Force the **North Exit Warp** (21, 29) to trigger (it must work).
     5. This will emerge at Goldenrod City (9, 5) (North side).
     6. Cross East along Row 8 to reach the Dept Store.
+
+# Puzzle Mechanics
+- **Shifting Walls:** The boxes in the center room (Cols 10-11, Rows 8-12) toggle between WALL and FLOOR. Likely linked to NPC movement or position. Currently, the South path (Rows 10-12) is OPEN, and the North path (Rows 8-9) is CLOSED.
