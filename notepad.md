@@ -36,6 +36,10 @@
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
 - Current Progress: Lv 9.
 
+## General Lessons
+- Incoming phone calls interrupt button sequences and tools. Refined tools must start with multiple B-presses to clear potential dialogue/menus. Use directional mashing (Up x8 / Up x6) to reset menu cursors to a known state.
+- Reflection (Turn #14124): No deferred tasks. Notepad and markers are up-to-date. Automation strategy is efficient. Goals are outcome-based. Root hypotheses are verified. Tool robustness improved.
+
 ## PP Management
 - XENON Lick PP: 30/30 (Turn #14117).
 - Inventory: Max Ether x1.
