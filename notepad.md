@@ -2,16 +2,18 @@
 
 ## Confirmed Mechanics
 - **Switch 1 (16, 1):** Currently OFF.
-    - Effect: (20, 6) stays CLOSED. Testing (12, 12).
+    - Effect: (20, 6) stays CLOSED. (12, 8) is CLOSED.
 - **Switch 2 (10, 1):** Currently ON.
     - Effect: Controls (12, 8) and (10, 6).
 - **Switch 3 (2, 1):** Currently OFF.
     - Effect: Controls (6, 8), (6, 12), (2, 6).
-    - State: OFF -> (6, 8) CLOSED, (6, 12) OPEN, (2, 6) CLOSED.
+    - State: OFF -> (6, 8) OPEN, (6, 12) OPEN, (2, 6) OPEN. (Correction: (6,8) seen as FLOOR).
 
-## Current Goal: Test Switch 1 on (12, 12)
-- **Action:** Go check shutter at (12, 12).
-- **Hypothesis:** Switch 1 controls the "Right Side" shutters. Since (20, 6) didn't open, maybe (12, 12) did? Opening (12, 12) would allow access to the Emergency Switch from the side.
+## Current Goal: Open Shutter (20, 6)
+- **Problem:** (20, 6) blocks access to the East Corridor and Emergency Switch.
+- **Hypothesis:** Switch 3 might control it.
+- **Next Action:** Turn Switch 3 ON.
+- **Test:** Check (20, 6) with S1=OFF, S2=ON, S3=ON.
 
 ## Status of Critical Shutters
 - **(6, 12):** OPEN (Sw3 OFF) - *Path blocked at (2, 6)*.
