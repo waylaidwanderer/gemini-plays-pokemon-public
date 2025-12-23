@@ -24,6 +24,7 @@
 1. Proceed South through `(12, 13)` into the unexplored area.
    - Confirmed: S1=OFF + S3=ON opens East Gate `(12, 8)`.
    - Confirmed: `(12, 12)` is OPEN.
+   - Note: S1=OFF + S3=ON caused North Gate `(10, 6)` to CLOSE.
 2. Explore the corridor/room south of `(12, 12)`.
    - Likely leads to the Warehouse or the Director.
 3. Keep an eye out for trainers (Rocket Girl at `(19, 12)` is nearby but likely contained).
@@ -32,8 +33,8 @@
 - **Switch Status:** S1=OFF, S2=ON, S3=ON.
 - **Gate Logic Confirmed:**
   - S3=ON is the master power for the vertical shutters (like 12,12).
-  - S1 toggles the horizontal gates (12,8 vs 6,8), but *only* if S3 allows or modifies it?
-  - Regardless, the current combination works: East Gate and Target Shutter are both open.
+  - S1 toggles the horizontal gates (12,8 vs 6,8) in Emergency Mode (S3=ON).
+  - S1=OFF -> East Gate `(12, 8)` OPEN, North Gate `(10, 6)` CLOSED.
 - **Next Steps:** Exploration.
 
 ## Reflection (Turn 14911)
