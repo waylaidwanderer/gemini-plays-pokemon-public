@@ -12,16 +12,13 @@
     - OFF: ?
 
 ## Current Goal: Test S2=ON with S1=OFF
-- **Action:** Check Shutter (10, 6).
-- **State Tracking:**
-    - S1: OFF (Confirmed)
-    - S2: ON (Confirmed)
-    - S3: ON (Confirmed)
+- **Observation:**
+    - (10, 6) is CLOSED (Verified).
+    - S1=OFF, S2=ON, S3=ON.
 - **Plan:**
-  1. Navigate to (10, 5) (Executing).
-  2. Observe (10, 6).
-  3. If (10, 6) is closed, check (20, 6).
-  4. If (20, 6) is closed, try S3=OFF next (S1=OFF, S2=ON, S3=OFF).
+  1. Navigate to (20, 5) to check Shutter (20, 6).
+  2. If (20, 6) is CLOSED, the next test is S1=OFF, S2=ON, S3=OFF.
+  3. This requires going to Switch 3 (2, 1).
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
