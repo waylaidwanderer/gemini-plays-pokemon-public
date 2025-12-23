@@ -132,3 +132,7 @@
 - **Action:** Executing the "All OFF" test plan.
 - **Step 1:** Go to Switch 2 (currently ON) and turn it OFF.
 - **Note:** Turning S2 OFF will close the gate at (10, 6), confining me to the North area, which is fine for reaching S1 and the test point (20, 6).
+- **Correction:** I am at (10, 2), directly in front of Switch 2.
+- **Action:** Interacting with Switch 2 to turn it OFF.
+- **Goal:** Set S2=OFF. This closes the gate at (10, 6) but allows me to test the "All OFF" theory on the outer shutters.
+- **Next:** After S2 is OFF, go to Switch 1 and turn it OFF. Then check (20, 6).
