@@ -31,7 +31,7 @@
 - TALL_GRASS: Encounter-eligible ground.
 - WALL: Impassable boundary.
 - LEDGE_HOP: One-way movement (South/East).
-- FLOOR_UP_WALL: Collision type found on Route 32. Impassable from north.
+- FLOOR_UP_WALL: Impassable when moving South. Hypothesis: Traversable when moving North (acting as a one-way ledge).
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
