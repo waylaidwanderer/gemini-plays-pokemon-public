@@ -51,3 +51,6 @@
 - **Plan:** Navigate to the SW Ladder at `(3, 34)` on `3_53` to access the South area of `3_54`.
 - **Reasoning:** S1=ON/S2=OFF opens `(12, 8)`. If I can't reach it from North, I must try South.
 - **Note:** Marker says "Dead End (Teacher)" at `(3, 34)`. Will verify if this is still true or if I can bypass.
+- **Correction:** Game State confirms I am at (18, 7) (Main Tunnel), not (18, 31). The System Warning was likely referencing the previous state inside the SE Room.
+- **Action:** Proceeding with the plan to reach the SW Ladder at (3, 34).
+- **Route:** West along Row 7, then South along Column 4 (bypassing trainers), then to (3, 34).
