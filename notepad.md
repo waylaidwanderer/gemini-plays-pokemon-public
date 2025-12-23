@@ -29,3 +29,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Observation (Turn 14435):** System confirmed (10, 6) opened (WALL -> FLOOR).
     - **Conclusion:** S2=ON is active and S3=OFF removed the override on the North Gate.
 - **Action:** Proceeding to check (20, 6) with high confidence that S1=OFF (Outer Path selected) + S2=ON (Power) will open it.
+- **Observation (Turn 14436):** System reported (12, 8) changed FLOOR -> WALL (Closed).
+    - **Confirmation:** S1=OFF closes the Inner East Shutter (12, 8).
+    - **Hypothesis:** If S1 is a toggle, S1=OFF should open the Outer East Shutter (20, 6).
+- **Action:** Navigating to (20, 6) to verify.
