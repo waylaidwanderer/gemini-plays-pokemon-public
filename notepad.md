@@ -1,35 +1,24 @@
 # Suicune Capture Strategy
 ## The Repel Trick
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Lead: KIMCHI (Lv 21 Gloom). *Note: Suicune outspeeds and flees Turn 1. Need faster Sleep/Mean Look user long-term.*
-- Status: Super Repel active (Used Turn #13736). Steps taken: 71/200.
-- Milestones: 50 (T13746), 100 (Expected ~T13780).
-- Last Check: confirmed on Route 38 (Turn #13769). Check successful.
-- Pacing Start: Turn #13761, 10:13 PM PST.
-- Reflection (T13761): Addressed turn count mismatch; map and tools verified. Root hypothesis (Repel trick) remains valid. Verified Sailor Harry and Beauty Valerie markers.
-- Time Tracking: Monday, 10:05 PM PST.
+- Lead: KIMCHI (Lv 21 Gloom). Status: Super Repel active.
+- Strategy: Pace in tall grass on Route 38. Suicune is confirmed on this route.
+- Battle Prep: Suicune (Base Speed 85) outspeeds KIMCHI (Base Speed 40). It will likely flee Turn 1.
+- Catch Rate: ~0.52% (Full HP, No Status, Great Ball). ~4.3% if asleep.
+- Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
+- Plan: Finish current Repel (200 steps). If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly/Haunter).
 
-## Battle Strategy
-- Target: Suicune (Lv 40, Base Speed 85).
-- Lead: KIMCHI (Lv 21, Base Speed 40).
-- Analysis: Suicune outspeeds KIMCHI. It will flee Turn 1 before Sleep Powder.
-- Plan: Finish current Repel (200 steps). If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly in Sprout Tower at night).
-- Catch Rate: ~0.52% (Full HP, No Status, Great Ball). ~4.3% if asleep. (Verified by Analyst T13681).
-- Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
-
-## Route 38 Environment
-- Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
-- Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
-- Location: Verified on Route 38 (Turn #13721).
-
-## Tile Mechanics
+## Tile Mechanics - Route 38
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile. Movement registers as steps.
 - WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP: One-way movement down or across.
+- LEDGE_HOP_DOWN: One-way movement down.
+- LEDGE_HOP_LEFT: One-way movement left.
+- LEDGE_HOP_RIGHT: One-way movement right.
+- WARP_CARPET_RIGHT: Map transition to Ecruteak Gatehouse.
 
-# Strategy Notes
-- Movement Lesson: Steps only count when coordinates change. Spinning in place (turning) does not deplete Repel or trigger encounters. To move between tiles, facing must be correct first.
-- Accuracy Lesson: Verify player position frequently when using path-based movement to avoid drifting or incorrect step counts.
-- Speed Lesson: Suicune outspeeds KIMCHI. Success requires a faster lead with Sleep (e.g., Haunter).
-- Efficiency: Will check Pokédex every 50 steps to ensure Suicune is still on-route.
+## Strategy Notes
+- Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
+- Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
+- Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50 steps.
+- Time Tracking: Monday, 10:05 PM PST.
