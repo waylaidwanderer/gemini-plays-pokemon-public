@@ -132,13 +132,16 @@
 - **Action:** Executing the "All OFF" test plan.
 - **Step 1:** Go to Switch 2 (currently ON) and turn it OFF.
 - **Note:** Turning S2 OFF will close the gate at (10, 6), confining me to the North area, which is fine for reaching S1 and the test point (20, 6).
-- **Action:** Switch 1 turned OFF (All switches are OFF).
-- **Current State:** S1=OFF, S2=OFF, S3=OFF.
-- **Goal:** Check if Outer East Shutter (20, 6) is OPEN.
+- **Action:** Switch 1 turned OFF. Current State: S1=OFF, S2=OFF, S3=OFF.
+- **Hypothesis:** "All OFF" might open the Outer East Shutter.
+- **Targets:**
+  1. Shutter at (20, 6).
+  2. Shutter at (23, 6) (Possible alternative East Shutter).
 - **Plan:**
   1. Navigate to (20, 5).
   2. Inspect (20, 6).
-  3. If closed, consider S3=ON.
+  3. Navigate to (23, 5).
+  4. Inspect (23, 6).
 - **Issue:** Switch 2 Menu remained open despite previous 'B' press.
 - **Action:** Forcing menu close by selecting 'NO'.
 - **Sequence:** Down (Select NO) -> A (Confirm) -> Move to Switch 1.
