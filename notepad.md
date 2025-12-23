@@ -32,3 +32,6 @@
 - **North Gate (10, 7)/(11, 7):** OPEN (Floor). Confirmed S2=ON opens this gate.
 - **West Gate (6, 8):** Checking... (Expect OPEN).
 - **East Gate (12, 8):** Checking... (Expect CLOSED).
+- **Observation (Turn 14893):** System reported `(6, 9)` changed to FLOOR and `(12, 9)` changed to WALL. This occurred after turning S2 ON.
+- **Hypothesis:** `(12, 9)` might be a second layer of the East Gate, or a trap. Need to inspect.
+- **Path to S1:** Row 4 connects Center to East/West. Access S1 via `(10, 4) -> East -> (16, 4) -> Up`.
