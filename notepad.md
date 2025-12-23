@@ -21,8 +21,8 @@
     - **Current:** ON.
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7). Controls Mode.
-    - **Current:** OFF.
-    - **Status:** Shutter (20, 6) CLOSED.
+    - **Current:** ON.
+    - **Status:** Checking Shutter (2, 7) (Expect OPEN).
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked.
     - **Path B:** Via Ladder (23, 3) -> SE Section (3_53) -> Connects to Main Tunnel (Exit). Dead End for Director search.
