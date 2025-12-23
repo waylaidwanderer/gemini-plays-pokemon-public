@@ -156,3 +156,9 @@
 - **Plan:**
   1. Inspect `(22, 6)` with current "All OFF" state.
   2. If closed, try Switch 3 ON (as S3 is the "Special" switch, possibly opening the secret path to the Door while closing others).
+- **Observation:** "All OFF" did NOT open the East shutters at (20, 6) or (22, 6).
+- **Hypothesis:** Switch 3 (The "Emergency" or "Trap" switch) might be the key to opening the Outer East Shutter (20, 6) to reach the Emergency Switch at (20, 11).
+- **Plan:**
+  1. Go to Switch 3 (2, 1).
+  2. Turn S3 ON.
+  3. Return to East side and check (20, 6).
