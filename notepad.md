@@ -20,13 +20,15 @@
 
 ## Current Status
 - **State:** S1=ON, S2=OFF, S3=ON.
-- **Location:** Switch Room (2, 4).
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Observation:** Shutter at (20, 6) is CLOSED.
+- **Hypothesis:** S1+S3 is invalid. S2 might open (20, 6) since it opens (10, 6).
 - **Plan:**
-  1. Move to (20, 5).
-  2. Check if (20, 6) is OPEN.
-  3. If Open, proceed South.
-  4. If Closed, try other combinations.
+  1. Go to Switch 1 (16, 1). Turn OFF.
+  2. Check (20, 6) with just S3=ON.
+  3. If closed, go to Switch 3. Turn OFF.
+  4. Go to Switch 2. Turn ON.
+  5. Check (20, 6).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
