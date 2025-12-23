@@ -2,46 +2,43 @@
 
 ## Current Status
 - **Location:** Switch Room (3_54), Central Area.
-- **Objective:** Explore Inner East Section.
-- **Goal:** Rescue Director / Find Warehouse.
+- **Objective:** Reach the "Target Shutter" at `(12, 12)` or the Warp at `(22, 10)`.
+- **Start Turn:** ~14790 (Approx). Current Turn: 14962.
 
-## Switch Logic (Confirmed)
+## Switch Logic (Verified)
 - **S1 (16, 1):** East/West Toggle.
     - **ON:** Opens East Gate `(12, 8)`. Closes West Gate `(6, 8)`.
     - **OFF:** Opens West Gate `(6, 8)`. Closes East Gate `(12, 8)`.
-    - **Current State:** OFF. West Gate `(6, 8)` is OPEN. (Verified Turn 14797).
 - **S2 (10, 1):** Main Power.
-    - **ON:** Required for gates to operate. (Currently ON).
+    - **ON:** Required for gates to operate reliably.
+    - **OFF:** Seems to close main gates `(6, 8)`, `(10, 6)` but might open some shutters `(6, 12)`. Generally causes deadlocks.
 - **S3 (2, 1):** Emergency Override.
-    - **OFF:** (Currently OFF).
-- **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
+    - **ON:** Enables "Emergency Mode".
+    - **Effects with S2=ON:**
+        - Opens vertical shutters like `(12, 12)`.
+        - Opens the path at `(2, 6)` (Emergency West Entrance).
+        - Closes North Gate `(10, 6)` if S1 is OFF? (Need to verify this interaction).
 
-## Lessons Learned
-- **Tool Logic:** `autopress_buttons` requires the tool to output a JSON list of strings.
-- **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
+## Current Strategy: "The West Entrance"
+- **Hypothesis:** The deadlock I faced earlier (Open Gate but Closed Path) was because I entered from the wrong side.
+- **The Deadlock:**
+    - **S1=ON:** Enter North `(10, 6)` -> Blocked at `(12, 9)`.
+    - **S1=OFF:** North Gate `(10, 6)` closes.
+- **The Solution:**
+    - Use the **Emergency West Entrance** at `(2, 6)`.
+    - Set **S1=OFF** (Opens West Gate `(6, 8)`).
+    - Set **S2=ON** (Main Power).
+    - Set **S3=ON** (Opens `(2, 6)` and `(12, 12)`).
+    - **Path:** `(2, 6)` -> `(6, 8)` -> `(12, 12)` -> Warehouse.
 
-## Plan
-1. Finish Battle with Pharmacist.
-2. Return to Switch 2 `(10, 1)` and turn ON.
-   - S2=OFF was a dead end.
-3. Ensure Switch 1 `(16, 1)` is OFF.
-   - Target State: S1=OFF, S2=ON, S3=ON.
-4. Navigate to the NE Shutters `(20, 6)`.
-   - Hypothesis: This combination might open the shutters to the Warp `(22, 10)`.
-   - We know S1=ON kept them closed. Maybe S1=OFF is the key.
-5. If `(20, 6)` is OPEN, take the Warp.
+## Observations & Failures
+- **S2=OFF:** Failed. Closed West Gate `(6, 8)`.
+- **S1=ON / S3=ON:** Reached `(12, 12)` but blocked by `(12, 9)` wall.
+- **S1=OFF / S3=ON (North Entry):** Failed. North Gate `(10, 6)` closed.
 
-## Observations
-- **Switch Status (Current):** S1=OFF, S2=OFF, S3=ON.
-- **Dead Ends:**
-  - S2=OFF: Shutters `(6, 12)` open, but Gates `(6, 8)` closed.
-  - S1=ON, S3=ON: Stuck at `(12, 9)` wall.
-  - S1=OFF, S3=ON: Stuck at `(10, 6)` wall (if trying to go South).
-- **New Hope:** Accessing the Warp `(22, 10)` via `(20, 6)` with S1=OFF.
-- **Battle:** Defeating Burglar (Pharmacist).
-- **Next Steps:**
-  1. Go to Switch 2 `(10, 1)` -> Turn ON.
-  2. Ensure Switch 1 `(16, 1)` is OFF.
-  3. Enter West Room via `(2, 6)`.
-  4. Pass through West Gate `(6, 8)`.
-  5. Navigate to Target Shutter `(12, 12)`.
+## Next Steps
+1. Turn S2 ON.
+2. Verify S1 is OFF.
+3. Enter West Room via `(2, 6)`.
+4. Pass through West Gate `(6, 8)`.
+5. Navigate to `(12, 12)`.
