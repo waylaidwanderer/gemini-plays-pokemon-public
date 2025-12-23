@@ -36,3 +36,5 @@
 ## Discrepancies & Errors
 - **Corrected:** Position mismatch in T13754. Turn count mismatches in T13756, T13762.
 - **Lesson:** Always verify `num_turns` and `current_position` against Game State, not just memory. Visual verification of shutters is required before pathing.
+- **Obstacle:** Rocket Grunt found at (3, 2) blocking the direct path to Switch 3.
+- **Detour:** Moving around via Row 3. Expecting potential battle if he spots me.
