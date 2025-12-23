@@ -31,3 +31,10 @@
     - S3=OFF keeps `(12, 12)` OPEN.
     - This should create a clear path South through the Inner East corridor.
 **Objective:** Verify West Room dead end, then switch S1 to ON and explore Inner East path.
+## Lessons Learned
+- **Systematic Testing:** Jumping to complex conclusions (like "Outer East vs Inner East") before verifying simple toggles (East vs West) wastes turns. Always test the binary ON/OFF state of a new switch against *all* visible gates first.
+- **Visual Confirmation:** "Inferred" states are risky. Always go and look.
+
+## Session Log
+- **Start:** Turn 14495 (Exploring Inner East Path).
+- **Hypothesis:** S1=ON opens Gate (12, 8). S3=OFF leaves Shutter (12, 12) open.
