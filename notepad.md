@@ -32,9 +32,11 @@
 - **Arnie (Bug Catcher):** Route 35. Reports swarms (e.g., Yanma) and rare sightings.
 
 ## Event: Yanma Swarm
-- **Location:** Route 35.
-- **Strategy:** Use KIMCHI (Gloom) for Sleep Powder status.
-- **Battle Plan:** Sleep Powder -> Great Balls. Yanma is fragile; avoid damaging further.
+- Location: Route 35.
+- Status: Capture in progress (Started Turn 14690).
+- Failed Great Ball attempts: 8.
+- Strategy: Use KIMCHI (Gloom) for Sleep Powder status.
+- Battle Plan: Sleep Powder -> Absorb (to weaken safely) -> Great Balls. (Note: Absorb is 0.25x effective, very safe).
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10)
