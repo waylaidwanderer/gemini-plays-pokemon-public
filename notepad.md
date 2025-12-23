@@ -21,15 +21,17 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Turn Switch 2 `(10, 1)` ON.
-2. Verify if North Gate `(10, 6)` opens.
-   - If OPEN: Explore South `(10, 14)`.
-   - If CLOSED: Proceed to Switch 1.
-3. Turn Switch 1 `(16, 1)` ON.
-4. Check Inner East Gate `(12, 8)`.
+1. Walk South to `(10, 6)`.
+2. Attempt to pass through `(10, 7)` to reach `(10, 8)`.
+3. If successful:
+   - Check West Gate `(6, 8)` (Should be OPEN if S1=OFF).
+   - Check East Gate `(12, 8)` (Should be CLOSED if S1=OFF).
+4. If blocked at `(10, 7)`:
+   - Go to Switch 1 `(16, 1)` and turn ON.
+   - Retry `(10, 7)`.
 
 ## Observations
-- **Switch 3 (2, 1):** Currently OFF.
-- **Switch 2 (10, 1):** Currently ON (Confirmed).
-- **North Gate (10, 6):** Shows as FLOOR (Open). Need to verify if (10, 7) is passable.
-- **Unseen Tiles:** Potential path at `(10, 14)` south of North Gate.
+- **Switch 2 (10, 1):** ON. Main Power confirmed.
+- **North Gate (10, 6):** Shows as FLOOR.
+- **Barrier:** Map shows `(10, 7)` as WALL. Need to verify if it opens.
+- **West/East Gates:** Access to Row 8 seems to depend on passing Row 6/7.
