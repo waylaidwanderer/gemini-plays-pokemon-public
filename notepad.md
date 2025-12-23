@@ -7,8 +7,16 @@
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** East/West Toggle.
-    - **ON:** Opens East Gate `(12, 8)`. Closes West Gate `(6, 8)`.
-    - **OFF:** Opens West Gate `(6, 8)`. Closes East Gate `(12, 8)`.
+    - **ON:** Opens East Gate `(12, 8)` (Note: System msg says it closed when S1 toggled? Wait. Previous note said ON opens East. Let's re-verify).
+        - Correction: Turn 15006 system msg said `(12, 8): FLOOR -> WALL`. This happened after I likely toggled S1. If I was at S1 and interacted, I toggled it.
+        - If `(12, 8)` became WALL, it CLOSED.
+        - So S1 **Toggles** the state.
+        - If it was Open and became Closed, then the *new* state (S1=ON? or OFF?) closes it.
+        - I need to be careful. Marker says "Switch 1 (ON)".
+        - If S1 is ON and `(12, 8)` is WALL, then S1=ON **Closes** East Gate.
+        - This contradicts my previous note "ON: Opens East Gate".
+        - I will update to: **S1 (16, 1):** Toggles East/West. Current: ON = East Closed (Confirmed by tile change).
+
 - **S2 (10, 1):** Main Power.
     - **ON:** Required for gates to operate reliably.
     - **OFF:** Seems to close main gates `(6, 8)`, `(10, 6)` but might open some shutters `(6, 12)`. Generally causes deadlocks.
