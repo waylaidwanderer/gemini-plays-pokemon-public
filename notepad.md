@@ -79,15 +79,17 @@
 5. **Goal Clarity:** Goals are clear. Method is testing specific switch combination.
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
-## Current Goal: Test S2 Effect on Row 6 Shutters
-- **Current State (S1=ON, S2=OFF, S3=ON):**
-  - (6, 8) OPEN.
-  - (12, 8) CLOSED.
-  - (6, 6) CLOSED.
-  - (10, 6) CLOSED.
-- **Problem:** Cannot reach (6, 8) because Row 6 shutters are closed and Row 8 access is blocked by (12, 8).
-- **Hypothesis:** Switch 2 (The "Master" or "Modifier" switch) toggles between opening Row 8 (Inner) and Row 6 (Outer) shutters.
+## Current Goal: Test S2 Effect on Shutters
+- **Action:** Turn Switch 2 (10, 1) ON.
+- **State Tracking:**
+    - S1: ON (Confirmed)
+    - S2: OFF -> ON (Target)
+    - S3: ON (Confirmed)
+- **Hypothesis:** S2 might open the outer shutters like (10, 6) or (6, 6), or the main door (20, 6).
+- **Previous Observation (S1=ON, S2=OFF, S3=ON):**
+    - (6, 8) OPEN.
+    - (12, 8) CLOSED.
 - **Plan:**
-  1. Turn Switch 2 (10, 1) ON.
-  2. Check if (10, 6) or (6, 6) opens.
-  3. If (6, 6) opens, I can reach the West Room.
+  1. Turn S2 ON (Executing).
+  2. Check (10, 6) immediately (on screen).
+  3. Navigate to check (6, 6) and (20, 6).
