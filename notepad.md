@@ -17,13 +17,14 @@
 - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
 
 ## Plan
-1. Enter West Room via `(6, 8)`. (Done).
-2. Interact with Pharmacist at `(4, 8)`.
-3. Explore South of West Room for hidden items or switches.
-4. Check for path to Warehouse.
+1. Navigate to Switch 3 `(2, 1)` via `(3, 9)` -> `(3, 8)`.
+2. Turn S3 ON.
+3. Observe effects (check for sound or message).
+4. Return to Switch Room center and check shutters `(17, 6)` and `(20, 6)`.
 
-## Exploration Notes
-- **West Room (Col 2-6):** Accessed via S1=OFF.
-    - Contains Pharmacist `(4, 8)`.
-    - Pharmacist Dialogue: "UNDERGROUND WAREHOUSE? What do you want to go there for? There's nothing down there."
-    - Path South leads to `(5, 25)` ladder. (Exploring now).
+## Observations
+- **West Room:**
+    - Pharmacist at `(4, 8)` blocking `(5, 8)` to `(3, 8)` direct path? No, can go via `(4, 9)`.
+    - South path blocked by walls at Row 10/11.
+    - Path North to `(2, 1)` is open.
+- **Switch 3 (2, 1):** Emergency Override. Currently OFF.
