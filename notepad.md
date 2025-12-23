@@ -12,7 +12,7 @@
     - ON: Opens East Shutter (12, 8) if S2 is OFF.
     - OFF: Default.
 - **Switch 2 (10, 1):**
-    - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8).
+    - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8). **CONFIRMED**
     - OFF: Default. Allows S1 to open East.
 - **Switch 3 (2, 1):**
     - ON: Opens West Shutter (6, 8). Closes East Shutter (12, 8).
