@@ -21,11 +21,15 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Toggle Switch 3 `(2, 1)` to OFF.
-2. Verify West Gate `(6, 8)` opens.
-3. Return to Main Room.
+1. Turn Switch 3 `(2, 1)` OFF (Select YES).
+2. Check if path `(2, 7)` closes.
+   - If CLOSED: Use **Dig** to escape.
+   - If OPEN: Check West Gate `(6, 8)`.
+     - If `(6, 8)` OPEN: Exit to Main Room.
+     - If `(6, 8)` CLOSED: Use **Dig** to escape.
+3. Re-enter Underground.
 4. Set S2=ON, S1=ON.
-5. Enter Inner East Gate `(12, 8)`.
+5. Explore Inner East Gate `(12, 8)`.
 
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
