@@ -45,10 +45,11 @@
 - **Correction:** Previous test failed because auto-pathing routed through (9, 8), triggering the trap.
 - **Retest:** Manual pathing: Elevator (Reset) -> (8, 4) -> (8, 8). Avoid (9, 8) entirely.
 - **Observation:** Avoiding line of sight (Col 8) kept North Gate CLOSED.
-- **Hypothesis:** "Stopping work" (being watched) might actually OPEN the gate we want.
-- **Test:** Intentionally trigger the Static Black Belt (ID 6) by walking into his line of sight on Column 4.
+- **Refined Hypothesis:** The gates might default to CLOSED. Walking on Column 9 (Main Path) triggers the "Open South / Close North" state.
+- **The "Watcher" Clue:** Black Belt (ID 6) at (4, 8) says he stops working if watched. If he controls the gates (or the North gate), "stopping work" might OPEN it.
 - **Plan:**
-    1. Reset Room (Elevator 1F -> B1F).
-    2. Walk South on Column 4 to (4, 7) (Face-to-face with ID 6).
+    1. Reset Room (Elevator 1F -> B1F) to ensure clean state.
+    2. Navigate to (4, 7) to stand directly in front of ID 6 (assuming he faces UP).
     3. Check if North Gate (10, 8) opens.
+    4. If not, try standing at (5, 8) (Side view) again and checking the gate.
 - **Stealth Route:** From Elevator (10, 4) -> (9, 4) -> (8, 4) -> (8, 8). This avoids Column 9 entirely (Row 5+), preventing the alarm trigger.
