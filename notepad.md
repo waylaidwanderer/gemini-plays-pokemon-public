@@ -7,10 +7,9 @@
 - **Escape Route:** Take Ladder (22, 27) -> Map 3_54 -> Walk to Northwest Ladder -> Main Tunnel (3, 2).
 - **Goal:** Reach Southwest Ladder (3, 34) in Main Tunnel.
 
-# Objectives
-- **Primary:** Rescue the Director (held in Underground Warehouse).
-- **Secondary:** Find Switches 2 & 3.
-- **Immediate:** Navigate out of Southeast Room to Main Tunnel.
+# Strategy
+- **Current Action:** Toggle Switch 1 (currently ON) to see if it lowers the walls blocking the south path (x=16, y=6-8).
+- **Plan:** If walls lower, head South to Ladder (5, 25). If not, explore West (x=11).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
