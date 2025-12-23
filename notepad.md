@@ -2,12 +2,12 @@
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** Toggles East/West.
-    - **ON:** Inner East `(12, 8)` OPEN. West `(6, 8)` CLOSED.
+    - **ON:** Inner East `(12, 8)` OPEN. Middle East `(16, 10)` OPEN. `(12, 12)` CLOSED.
     - **OFF:** West `(6, 8)` OPEN. Inner East `(12, 8)` CLOSED.
     - **Current:** OFF.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
-    - **OFF:** Cutting power (Current Test).
+    - **OFF:** Fail-Safe Test Failed (Row 10 Wall solid).
     - **Current:** OFF.
 - **S3 (2, 1):** Emergency Override.
     - **ON:** Opens `(2, 7)` & `(6, 12)`. Closes main gates.
@@ -16,12 +16,19 @@
 
 ## Current Strategy
 **Goal:** Rescue Director.
-**Hypothesis:** "Fail-Safe Mode" (S2=OFF).
-- Does cutting Main Power (S2=OFF) unlock the "Walls" blocking the West Room at Row 10?
-- **Status:** I am at `(2, 7)` (West Shortcut is OPEN).
-- **Next Step:** Proceed South to Row 10 to see if the wall at `(2, 10)` has opened.
+**New Hypothesis:** "Standard East Mode" (Column 16 Path).
+- Observations suggest S1=ON opens a path at Column 16 (`16, 10` opened).
+- S3 needs to be OFF to allow normal gate operation.
+- S2 needs to be ON to power the gates.
+**Target Config:** S1=ON, S2=ON, S3=OFF.
+
+**Steps:**
+1. Turn S3 OFF (Current Loc).
+2. Turn S2 ON.
+3. Turn S1 ON.
+4. Navigate South via Column 16.
 
 ## Exploration Notes
-- **West Room (Col 2):** Previously blocked at Row 10 (S2=ON). Pharmacist at `(4, 8)`.
-- **Inner East (Col 12):** Blocked at `(12, 12)` with S3=ON.
-- **Outer East (Col 20):** Shutter `(20, 6)` closed (checked with S2=OFF).
+- **West Room (Col 2):** Blocked at Row 10.
+- **Inner East (Col 12):** Blocked at `(12, 12)` when S1=ON.
+- **Middle East (Col 16):** Path likely exists here.
