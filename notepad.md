@@ -21,26 +21,16 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Confirm Switch 3 is ON.
-   - Current State: S1=ON, S2=ON, S3=ON.
-2. Investigate the new path at `(2, 6)`/`(2, 7)`.
-   - This path opened up when I approached Switch 3 (or maybe when S3 turned ON? No, S3 was OFF when they opened).
-   - Actually, wait. The tiles (2,6) and (2,7) turned to FLOOR *before* I turned S3 ON (Turn 14916).
-   - This suggests proximity or S2 being ON opened them? Or maybe S1?
-   - Regardless, I should explore this path first as it is closest.
-3. Check Shutters `(20, 6)` and `(17, 6)`.
-   - Hypothesis: All 3 switches ON opens these.
+1. Explore the path South via `(2, 6)`.
+   - This path opened recently. It likely leads to the Southwest section (Ladder at `(5, 25)`).
+   - Verify if this connects to the "Underground Entrance (South)" or provides access to the Warehouse.
+2. If South path is a dead end or just leads to the city, return and check Shutters `(20, 6)`.
+3. Check Shutter `(12, 12)` (Target Shutter).
 
 ## Observations
-- **Switch Status:**
-  - S1: ON
-  - S2: ON
-  - S3: ON (Just confirmed)
-- **Map Updates:**
-  - `(2, 6)` and `(2, 7)` are FLOOR.
-  - `(12, 8)` is OPEN (FLOOR).
-  - `(10, 6)` is OPEN (FLOOR).
-- **Hypothesis:** We have maximized power. Everything should be open now?
+- **Switch Status:** S1=ON, S2=ON, S3=ON.
+- **Path `(2, 6)`:** Now OPEN.
+- **Hypothesis:** This is the correct way to reach the Warehouse or the back of the Switch Room.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
