@@ -30,3 +30,5 @@
 - **Hypothesis:** Turning Switch 1 OFF might open the Top Path (Row 3) or the West Shutter, allowing access to the NW area.
 - **Current Block:** Tile (10, 5) is impassable.
 - **Next Step:** Battle Grunt at (11, 4). Then try turning Switch 1 OFF to access the West side via Row 3.
+- **Clue:** Grunt at (11, 4) said 'The switch on the end is the one to press first'.
+- **Plan Update:** Grunt didn't move. Assuming static. Returning to Switch 1 to turn it OFF. Expectation: West Shutter (10, 5) will OPEN.
