@@ -22,6 +22,7 @@
 - Layout: Middle section (x=5 to x=14) is isolated. Access outer ring via 2F ladders.
 - Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe zones. (6, 5) on 2F is a valid encounter tile.
 - Sweet Scent: Triggers immediate encounters on valid tiles. "Nothing here" means safe tile.
+- Traversability: COUNTER (impassable), LADDER (traversable). Verified in Violet PC.
 
 ## Battle Observations
 - XENON (Gastly) caught at Lv 6 (Female) at Turn #13924. Sent to Bill's PC.
