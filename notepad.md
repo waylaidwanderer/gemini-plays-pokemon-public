@@ -29,11 +29,9 @@
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
 - **Switch 3 (2, 1):** Emergency Override.
-    - **Status:** ON.
-    - **Effect:**
-        - **Locks** Central Path (10, 6-7) and West Gate (6, 8).
-        - **Opens** Inner East Gate (12, 8) (Verified).
-        - **Unknown:** Does it open (12, 6-7)? If not, (12, 8) is unreachable from North.
-    - **Plan:** Check path South at (12, 5). If blocked, S3=ON is a lockout state.
-    - **Goal:** Find path to Row 8+ or Director.
+    - **Status:** Turning OFF.
+    - **Hypothesis:** S3=ON caused Lockdown (Gates Closed). Turning OFF should revert to S1/S2 logic.
+    - **Next Step:** Turn S2 (Main Power) OFF.
+    - **Reasoning:** If S3=ON didn't open shutters, maybe S2=OFF (Power Down) will release the electronic locks.
+    - **Current State:** S1=OFF, S2=ON, S3=ON->OFF.
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
