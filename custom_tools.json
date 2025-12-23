@@ -218,7 +218,7 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        if not input_json:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_json)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        lines = screen_text.split('\\n')\n        move_list = []\n        for line in lines:\n            # Moves are in lines that have the vertical bar and are not borders or headers\n            if '│' in line and not any(x in line for x in ['TYPE/', 'POCKET', 'ITEMS', '┌', '└', '─']):\n                move_list.append(line)\n        \n        # Find cursor position among identified move lines\n        current_index = 1\n        for i, line in enumerate(move_list):\n            if '▶' in line:\n                current_index = i + 1\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.append(\"Down\")\n                buttons.append(\"Down\")\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        if not input_json:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_json)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        lines = screen_text.split('\\n')\n        move_list = []\n        for line in lines:\n            # Battle moves are in lines that contain '│   │' and are not borders\n            if '│   │' in line and '─' not in line:\n                move_list.append(line)\n        \n        # We expect 4 move slots in the battle menu\n        current_index = 1\n        found_cursor = False\n        for i, line in enumerate(move_list):\n            if '▶' in line:\n                current_index = i + 1\n                found_cursor = True\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.append(\"Down\")\n                buttons.append(\"Down\")\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Refine move selection logic to filter move list lines starting with '│   │' for better accuracy. Ensure JSON output even on failure.",
@@ -229,6 +229,11 @@
         "commit_message": "Refine cursor detection and shortest-path wrapping logic for 4-item move menus. Ensure robust JSON output.",
         "timestamp": "2025-12-23T13:21:37.886Z",
         "action_counter": 14467
+      },
+      {
+        "commit_message": "Refine move selection logic to use specific '│   │' pattern and '─' exclusion for accurate move slot detection in the battle menu. Fixed shortest-path wrapping logic.",
+        "timestamp": "2025-12-23T13:22:35.447Z",
+        "action_counter": 14468
       }
     ]
   }
