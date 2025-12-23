@@ -16,10 +16,10 @@
 
 ## Hunting Session Tracking
 - Sprout Tower Hunt Start: Turn #13848
-- Current Location: Sprout Tower 1F (Turn #13858)
-- Target: Gastly (Night only)
-- Strategy: Use KIMCHI's Sleep Powder, then Great Ball.
-- Total Great Balls: 40
+- Current Location: Sprout Tower 1F (Turn #13859)
+- Pacing Spot: (15, 6)
+- Target: Gastly (Night only, Lv 3-6)
+- Status: No Repel active (Required for low-level encounters)
 
 ## Strategy Notes
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
