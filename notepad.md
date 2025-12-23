@@ -22,15 +22,20 @@
 
 # Current State
 - **Switch 1:** ON
-- **Switch 2:** ON (Restoring state).
+- **Switch 2:** ON (Verified).
 - **Switch 3:** ON (Verified).
-- **Shutter (6, 8):** OPEN (Verified).
-- **Shutter (12, 8):** CLOSED with Sw2 OFF (Verified). CLOSED with Sw2 ON (Observed previously).
+- **Shutter (6, 8):** OPEN.
+- **Shutter (12, 8):** CLOSED.
+- **Shutter (6, 12):** CLOSED (Inferred from Sw3 ON).
+- **Shutter (12, 12):** FLOOR (Open?) based on XML.
 
 # Strategy
-1. Turn Switch 2 ON (Restore traversable state).
-2. Navigate South to Row 12.
-3. Check Shutter at (12, 12).
-   - Note: XML says (12, 12) is FLOOR. If so, path to East is open via South.
-4. If (12, 12) is OPEN, proceed to East Section.
-5. If (12, 12) is CLOSED, re-evaluate.
+- **Issue:** Cannot reach East Section from Middle because (12, 8) is closed and Row 10/11 are blocked.
+- **New Hypothesis:** The path to the East is via the **South** route (Row 12).
+- **Plan:**
+    1. Return to West Section (via open 6, 8).
+    2. Turn Switch 3 **OFF**.
+       - This should CLOSE (6, 8) and OPEN (6, 12).
+    3. Go South through (6, 12).
+    4. Travel East along Row 12 to cross (12, 12) into East Section.
+    5. Reach Emergency Switch.
