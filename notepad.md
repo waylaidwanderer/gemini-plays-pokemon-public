@@ -51,3 +51,7 @@
 - **Tool Hygiene:** Always include a `commit_message` when updating custom tools with `define_tool`. Deferring tool fixes leads to data loss after context summarization.
 - **Navigation:** ROute 42 is accessible from Ecruteak City's east gate once Sudowoodo is cleared.
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves (e.g. Tackle from Yanma). Hypnosis is unreliable against certain types or just misses frequently.
+## Suicune Tracking Notes
+- The "SUICUNE'S NEST" Pokédex screen shows multiple red dots. These likely correspond to the routes where Suicune can be encountered: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
+- Suicune roams across Johto after the Tin Tower encounter.
+- Current Plan: Head to Route 42 via Ecruteak City.
