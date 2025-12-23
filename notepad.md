@@ -12,10 +12,14 @@
 
 ## Current State: ALL OFF (S1=0, S2=0, S3=0)
 - **Goal:** Check if this "Reset" state opens the main shutter at (20, 6).
-- **Next Step:** Walk into (20, 6).
-    - If Open: Proceed to Director.
-    - If Closed: The solution is likely a specific combination, not just "All Off".
-    - Next Hypothesis to test: S1 ON, S2 OFF, S3 OFF (since S2/S3 interaction is known, maybe S1 needs to be active).
+- **Result:** FAILED. (20, 6) is CLOSED.
+
+## New Goal: Test Switch 1
+- **Hypothesis:** Switch 1 might control (20, 6).
+- **Plan:**
+    1. Turn Switch 1 ON (Current State: OFF).
+    2. Check (20, 6).
+    3. If Closed, try combinations with S2/S3.
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
