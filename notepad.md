@@ -239,3 +239,7 @@
     - **Discovery:** S3=ON (with S1=OFF, S2=OFF) opens the Inner East Shutter (12, 8). This is a new combination.
     - **Question:** Does it also open the Outer East Shutter (20, 6)? Checking now.
     - **Question:** Does it open walls *inside* the (12, 8) corridor?
+- **Observation:** (20, 6) remains CLOSED with S1=OFF, S2=OFF, S3=ON.
+- **Action:** Abandoning (20, 6) for now.
+- **Discovery:** The path at (2, 7) / (3, 7) is OPEN (confirmed by map update).
+- **Plan:** Navigate to (2, 7) and explore the room to the South (Pharmacist Room).
