@@ -51,4 +51,4 @@
 - Suicune hunt started Turn 14980. Location: Route 42.
 - Interception Point: (46, 12).
 - Repel Strategy: Lead with a Pokémon leveled higher than local wild Pokémon (Lv13-16) but lower than Suicune (Lv40), such as KIMCHI (Lv21), and use a Super Repel to isolate the Suicune encounter.
-- Current Status: Hunting Suicune on Route 42 (Turn 15019).
+- Current Status: Training XENON to Lv 17 on Route 42 (Turn 15027). This will allow the Repel strategy to isolate Suicune encounters.
