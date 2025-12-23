@@ -52,10 +52,11 @@
 ## Discrepancy Note
 - System indicates I am at (0, 2), though Game State text says (7, 5). Screen confirms (0, 2). Proceeding from (0, 2).
 
-## New Goal: Open Shutter (20, 6)
-- **Current State:** S1=ON, S2=OFF, S3=OFF. (20, 6) is CLOSED.
-- **Hypothesis:** Try turning S3 ON.
+## Current Goal: Test S1=ON, S2=OFF, S3=ON
+- **Current State:** S1=ON, S2=OFF, S3=OFF.
+- **Action:** Turn Switch 3 ON.
+- **Hypothesis:** This combination (ON, OFF, ON) might open (20, 6).
 - **Plan:**
-    1. Go to Switch 3 (2, 1).
-    2. Turn Switch 3 ON (Testing S1=ON, S2=OFF, S3=ON).
-    3. Check (20, 6).
+    1. Turn Switch 3 ON (Interacting now).
+    2. Check (20, 6).
+    3. If Closed, try S1 OFF (Testing OFF, OFF, ON).
