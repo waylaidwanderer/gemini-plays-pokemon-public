@@ -33,3 +33,4 @@
 - Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 - State Sync: Always verify inventory and money against Game State Information.
 - Map Limits: Route 39 is 20 tiles wide (X=0 to 19). (20, 8) is out of bounds.
+- Input Hygiene: Avoid mixing directional and action buttons in a single `press_buttons` call to prevent sequence truncation. Use tools or separate calls for complex menuing.
