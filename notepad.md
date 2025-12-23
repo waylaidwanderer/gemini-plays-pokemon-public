@@ -20,13 +20,15 @@
 6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
 
 ## Current Goal: Explore West Area (S1=OFF, S2=OFF, S3=ON)
-- **Observation:** S3=ON opened the path at (2, 7) and (3, 7).
-- **Hypothesis:** This allows access to the Burglar area and potentially the Middle Section via (6, 8).
+- **Observation:**
+  - (2, 7)/(3, 7) are OPEN (S3 effect).
+  - (6, 8) is CLOSED (Verified).
+- **Hypothesis:** S3 opens the far West vertical channel (Col 2-3).
 - **Plan:**
-  1. Navigate to (5, 8) using `find_path`.
-  2. Check Shutter (6, 8).
-  3. If (6, 8) is OPEN, enter Middle Section.
-  4. If (6, 8) is CLOSED, check (6, 6).
+  1. Navigate to (6, 12) to check the South Shutter.
+  2. If (6, 12) is OPEN, enter Middle Section.
+  3. If (6, 12) is CLOSED, pick up Item at (1, 12) and return to switches.
+  4. Also check Shutter (12, 8) if I can reach the Middle Section.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
