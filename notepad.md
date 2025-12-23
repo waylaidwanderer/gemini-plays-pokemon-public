@@ -44,7 +44,11 @@
 - **Shifting Walls:** The boxes in the center room (Cols 10-11, Rows 8-12) toggle between WALL and FLOOR. Likely linked to NPC movement or position. Currently, the South path (Rows 10-12) is OPEN, and the North path (Rows 8-9) is CLOSED.
 - **Correction:** Previous test failed because auto-pathing routed through (9, 8), triggering the trap.
 - **Retest:** Manual pathing: Elevator (Reset) -> (8, 4) -> (8, 8). Avoid (9, 8) entirely.
-- **Observation:** After stealth reset, BOTH Gates (10, 8) and (10, 12) are CLOSED.
-- **New Hypothesis:** The solution involves the other Black Belt (ID 6) at (4, 8) who is "behind the scenes".
-- **Plan:** Navigate to (5, 8) and talk to Black Belt (ID 6).
+- **Observation:** Avoiding line of sight (Col 8) kept North Gate CLOSED.
+- **Hypothesis:** "Stopping work" (being watched) might actually OPEN the gate we want.
+- **Test:** Intentionally trigger the Static Black Belt (ID 6) by walking into his line of sight on Column 4.
+- **Plan:**
+    1. Reset Room (Elevator 1F -> B1F).
+    2. Walk South on Column 4 to (4, 7) (Face-to-face with ID 6).
+    3. Check if North Gate (10, 8) opens.
 - **Stealth Route:** From Elevator (10, 4) -> (9, 4) -> (8, 4) -> (8, 8). This avoids Column 9 entirely (Row 5+), preventing the alarm trigger.
