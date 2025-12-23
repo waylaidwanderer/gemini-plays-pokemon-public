@@ -9,9 +9,9 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Clue:** "The switch on the end is the one to press first" (Switch 3).
-- **Current State:** Switch 1 OFF. West Shutter OPEN. South Path CLOSED (Assumed).
-- **Action:** Pressing Switch 3 (First in sequence).
-- **Plan:** Press Switch 3 -> Switch 2 -> Switch 1. Aim: Open path to South Ladders.
+- **Current State:** Switch 1 OFF. Switch 3 ON. Switch 2 ON (Just pressed).
+- **Action:** Turning Switch 2 ON.
+- **Plan:** Press Switch 3 (Done) -> Switch 2 (Done) -> Switch 1. Aim: Open path to South Ladders.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (OFF).
