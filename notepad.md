@@ -9,12 +9,13 @@
 - Lead: KIMCHI (Lv 21, Base Speed 40).
 - Analysis: Suicune outspeeds KIMCHI. It will flee Turn 1 before Sleep Powder.
 - Plan: Finish current Repel (200 steps). If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly in Sprout Tower at night).
+- Catch Rate: ~0.52% (Full HP, No Status, Great Ball). ~4.3% if asleep.
 - Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
 
 ## Route 38 Environment
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
-- Location: Verified on Route 38 (Turn #13640).
+- Location: Verified on Route 38 (Turn #13683).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
