@@ -4,8 +4,7 @@
 - Lead: KIMCHI (Lv 21 Gloom). Moves: ABSORB, SWEET SCENT, CUT, SLEEP POWDER.
 - Strategy: Pace in tall grass on Route 38.
 - Battle Prep: Suicune (Base Speed 85) outspeeds KIMCHI (Base Speed 40). It will likely flee Turn 1.
-- Catch Rate: ~0.39% (Full HP, No Status, Great Ball). ~4.3% if asleep.
-- Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
+- Catch Rate: ~1.57% (Full HP, No Status, Great Ball). ~4.3% if asleep. (Verified by Analyst T13863).
 
 ## Strategy for Catching Suicune
 1. Pivot: Fly to Violet City and enter Sprout Tower (currently Night).
@@ -15,6 +14,7 @@
 
 ## Hunting Session Tracking
 - Sprout Tower Hunt Start: Turn #13848
+- Current Pacing Area: (14, 10) and (13, 10)
 - Target: Gastly (Night only, Lv 3-6)
 - Status: No Repel active (Required for low-level encounters)
 - Total Great Balls: 40
