@@ -17,10 +17,11 @@
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
 - Menu Wrapping: 
-    - Start Menu (8 items): WRAPS. (Verified Turn 14304 - Up at POKEDEX goes to EXIT).
-    - Party Menu (6 items + CANCEL): Wraps.
-    - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). The cursor-agnostic 'Up*3' reset in select_move_v4 is BROKEN because of this. Use select_move_v5 and check cursor position in screen text first.
-    - Battle Move Menu also remembers the last selected move within the same battle.
+    - Start Menu (8 items): WRAPS. (Verified Turn 14304). Reset to top (Item 1) with Up 7.
+    - Party Menu (7 items: 1-6 + CANCEL): WRAPS. (Verified Turn 14327). Reset to top (Item 1) with Up 6.
+    - PKMN Pop-up Menu (variable size): WRAPS. For KIMCHI (2 field moves), it has 7 items: 1.SWEET SCENT, 2.CUT, 3.STATS, 4.SWITCH, 5.MOVE, 6.ITEM, 7.CANCEL.
+    - Battle Move Menu (4 items): WRAPS. (Verified Turn 14288). 
+    - Move Selection: In the overworld pop-up menu, field moves are listed at the top. The 'MOVE' option (#5 for KIMCHI) is for reordering.
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
