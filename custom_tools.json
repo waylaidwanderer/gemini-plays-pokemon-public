@@ -120,7 +120,7 @@
       }
     ]
   },
-  "select_move_v6": {
+  "select_battle_move": {
     "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
     "input_schema": {
       "type": "object",
@@ -141,62 +141,12 @@
         "screen_text"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_json = sys.stdin.read()\n        if not input_json:\n            return\n        input_data = json.loads(input_json)\n        target_index = int(input_data['move_index'])\n        screen_text = input_data['screen_text']\n\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Look for lines that represent move slots in the battle menu\n            if '│' in line and any(c.isalpha() or c == '-' for c in line):\n                if \"TYPE\" not in line and \"POCKET\" not in line and \"ITEMS\" not in line:\n                    move_lines.append(line)\n\n        # We expect 4 move slots. If we found fewer, we'll work with what we have.\n        current_index = 1\n        found_cursor = False\n        for i, line in enumerate(move_lines):\n            if '▶' in line:\n                current_index = i + 1\n                found_cursor = True\n                break\n        \n        # If no cursor found, default to 1 as a safe assumption\n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.append(\"Down\")\n                buttons.append(\"Down\")\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\nimport re\n\ndef main():\n    try:\n        input_raw = sys.stdin.read()\n        if not input_raw:\n            sys.stdout.write(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_raw)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        # Split into lines and filter for move slots\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Move lines contain a vertical bar and alphabetic characters (move name)\n            # They don't contain menu borders like ┌ ┐ └ ┘ ─\n            if '\\u2502' in line and not any(c in line for c in ['\\u250c', '\\u2510', '\\u2514', '\\u2518', '\\u2500']):\n                # Exclude lines that are clearly not moves (e.g. type display, pocket names)\n                if not any(x in line for x in ['TYPE/', 'POCKET', 'ITEMS']):\n                    # Check if it has alphabetic chars or a hyphen (for empty slot '-')\n                    if re.search(r'[A-Za-z-]', line):\n                        move_lines.append(line)\n        \n        # Determine current index by searching for cursor ▶ (\\u25b6)\n        current_index = 1\n        for i, line in enumerate(move_lines):\n            if '\\u25b6' in line:\n                current_index = i + 1\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.extend([\"Down\", \"Down\"])\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        sys.stdout.write(json.dumps(buttons))\n    except Exception:\n        # Fallback to just pressing A if something fails\n        sys.stdout.write(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
-        "commit_message": "Creating a screen-aware move selection tool that parses screen_text for the '▶' cursor to determine the current index automatically.",
-        "timestamp": "2025-12-23T12:40:44.705Z",
-        "action_counter": 14405
-      },
-      {
-        "commit_message": "Fix wrapping logic and cursor detection. Navigation restricted to Up/Down.",
-        "timestamp": "2025-12-23T13:19:03.561Z",
-        "action_counter": 14462
-      }
-    ]
-  },
-  "select_move_v6_refined": {
-    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_index": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 4,
-          "description": "The 1-based index of the move to select (1-4)."
-        },
-        "screen_text": {
-          "type": "string",
-          "description": "The current screen text containing the move menu."
-        }
-      },
-      "required": [
-        "move_index",
-        "screen_text"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_raw = sys.stdin.read()\n        if not input_raw:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_raw)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n        \n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Move slots in battle contain vertical bars but not horizontal lines or headers\n            if '\\u2502' in line and '\\u2500' not in line:\n                if any(c.isalpha() or c == '-' for c in line) and \"TYPE\" not in line:\n                    move_lines.append(line)\n        \n        current_index = 1\n        for i, line in enumerate(move_lines):\n            if '\\u25b6' in line: # Cursor '▶'\n                current_index = i + 1\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.extend([\"Down\", \"Down\"])\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Refine move selection logic to filter move list lines starting with '│   │' for better accuracy. Ensure JSON output even on failure.",
-        "timestamp": "2025-12-23T13:20:28.870Z",
-        "action_counter": 14465
-      },
-      {
-        "commit_message": "Refine cursor detection and shortest-path wrapping logic for 4-item move menus. Ensure robust JSON output.",
-        "timestamp": "2025-12-23T13:21:37.886Z",
-        "action_counter": 14467
-      },
-      {
-        "commit_message": "Refine move selection logic to use specific '│   │' pattern and '─' exclusion for accurate move slot detection in the battle menu. Fixed shortest-path wrapping logic.",
-        "timestamp": "2025-12-23T13:22:35.447Z",
-        "action_counter": 14468
-      },
-      {
-        "commit_message": "Refine cursor detection and move slot filtering for battle menu. Ensure robust JSON output. Navigation restricted to Up/Down.",
-        "timestamp": "2025-12-23T13:24:27.224Z",
-        "action_counter": 14470
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T13:25:36.340Z",
+        "action_counter": 14471
       }
     ]
   }
