@@ -56,9 +56,8 @@
 - **Stealth Route:** From Elevator (10, 4) -> (9, 4) -> (8, 4) -> (8, 8). This avoids Column 9 entirely (Row 5+), preventing the alarm trigger.
 - **Observation:** Black Belt (ID 6) rotates. Was facing UP, now facing LEFT.
 - **Hypothesis Adjustment:** He might need to "see" me when he rotates to face me. Standing at (4, 7) puts me in his UP line of sight.
-- **New Obstacle:** Row 4 (Cols 13-18) is blocked by a Blue Barrier (WALL).
-- **Goal:** Cross Row 4 to reach Item (14, 2) and Ladder (17, 2).
-- **Hypothesis:**
-  1. There is a trigger in the East Room (x >= 13) to open the barrier.
-  2. Or, the Ladder at (17, 2) is an *entrance* from the Warehouse, and I need to find the path *to* it from the Warehouse side (now that Switch 1 is ON?).
-- **Plan:** Explore East Room for triggers. If none, verify walls are solid.
+- **Current Action:** Verifying solidity of Blue Barrier at Row 4 (Cols 15-17).
+- **Hypothesis:** One of these tiles might be a door or false wall.
+- **Next:** If wall is solid, explore the South part of the East Room (Rows 6-18) for switches or items.
+- **Observation:** North Gate (10, 8) is OPEN. South Gate (10, 12) is CLOSED.
+- **Goal:** Reach Ladder at (17, 2).
