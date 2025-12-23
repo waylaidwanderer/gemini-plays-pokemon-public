@@ -33,7 +33,7 @@
 - **Plan:** Use Cross Chop. Sneasel is Dark/Ice, so Fighting is 4x effective. One hit KO guaranteed.
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
-- **Battle Result:** Defeated Silver! Muscle swept his team.
-- **Next Step:** Battling the Rocket Grunt at (17, 3) (Moved from 17,2).
-- **Plan:** Interact/Battle Grunt, then flip the Switch at (16, 1).
-- **Action:** Flipping Switch 1 at (16, 1). Expecting it to open a door in the Warehouse.
+- **Battle Result:** Defeated Silver (Muscle swept team).
+- **Status:** Flipping Switch 1 (Turned ON).
+- **Hypothesis:** This switch opens a door/shutter in the Warehouse (Map 3_53).
+- **Next Step:** Return to the Warehouse (Map 3_53) to see what changed.
