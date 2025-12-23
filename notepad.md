@@ -8,21 +8,20 @@
     - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8). (Overrides S1)
     - OFF: Default.
 - **Switch 3 (2, 1):**
-    - ON: Closes West (6, 8) & East (12, 8). (Overrides S2 & S1). *Likely an emergency reset or trap.*
+    - ON: Closes West (6, 8). Does NOT close East (12, 8) if S1/S2 are ON. Might open Outer East?
     - OFF: Default.
 
 ## Current Strategy
 **Goal:** Rescue Director.
 **Status:** 
-- **East Shutter (12, 8):** OPEN (S1=ON, S2=ON).
-- **West Shutter (6, 8):** CLOSED (Observed change in map tiles).
-- **Current Location:** Entered East Corridor at (12, 8).
-**Hypothesis:** The East Corridor leads to the Director's location (Door 22, 10) or contains a switch/trigger to open the way.
+- **East Shutter (12, 8):** OPEN (S1=ON, S2=ON, S3=ON).
+- **Current Location:** Leaving Inner East Corridor (17, 9).
+- **Configuration:** S1=ON, S2=ON, S3=ON.
+**Hypothesis:** exploring if "All Switches ON" opens the Outer East Shutter (20, 6) or (22, 6).
 **Plan:**
-1. Explore the East Corridor fully (to the dead end at Col 17).
-2. Inspect walls for hidden switches.
-3. Check for any path South to the "Rocket Girl" (19, 12) or Door (22, 10).
-4. If dead end, re-evaluate "West Path" potential (maybe I missed a switch there?).
+1. Navigate to (22, 5).
+2. Inspect Shutters (20, 6) and (22, 6).
+3. If open, access Emergency Switch (20, 11) and Door (22, 10).
 
 ## Switch Logic (Updated)
 - **S1 (16, 1):** Toggles between East/West? (S1=ON -> East Open, West Closed).
