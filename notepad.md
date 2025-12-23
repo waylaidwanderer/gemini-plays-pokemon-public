@@ -19,11 +19,11 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=OFF, S3=OFF.
-- **Location:** Switch Room (10, 4).
-- **Action:** Move to Switch 1 (16, 1).
+- **State:** S1=OFF (Turning ON), S2=OFF, S3=OFF.
+- **Location:** Switch Room (16, 2).
+- **Action:** Turn Switch 1 ON.
 - **Plan:**
-  1. Move to Switch 1.
+  1. Interact with Switch 1.
   2. Turn Switch 1 ON.
   3. Enter East Room via (12, 8).
 
