@@ -1,25 +1,23 @@
 # Goldenrod Underground Switch Puzzle
 
-## Confirmed Mechanics
-- **Switch 1 (16, 1):** Currently OFF.
-    - Effect: (20, 6) stays CLOSED. (12, 8) is CLOSED.
-- **Switch 2 (10, 1):** Turned OFF.
-    - Effect: Controls (12, 8) and (10, 6).
-    - State: OFF -> Testing (20, 6) and (12, 8).
-- **Switch 3 (2, 1):** Turned OFF.
-    - Effect: Controls (6, 8), (6, 12), (2, 6), (10, 6), (12, 8).
-    - State: OFF -> (10, 6) OPEN, (12, 8) CLOSED (System Alert confirmed).
+## Switch Mechanics Log
+- **Switch 1 (16, 1):** OFF.
+    - Potential Control: (20, 6) or (12, 12).
+- **Switch 2 (10, 1):** OFF.
+    - Effect: Appears to be a modifier or "Master" switch.
+    - Observation: Turning S2 OFF closed (6, 8) and (12, 8) automatically.
+- **Switch 3 (2, 1):** OFF.
+    - Effect: Controls South-West shutters.
+    - Dependency: Behavior changes based on Switch 2.
 
-## Current Goal: Test Switch 2
-- **Action:** Move to Switch 2 (10, 1) and turn it OFF.
-- **Hypothesis:** Switch 2 OFF might close (12, 8) and OPEN (20, 6).
-- **Plan:**
-    1. Turn S2 OFF (Arriving now).
-    2. Check (20, 6).
-    3. If (20, 6) closed, try S3 ON + S2 OFF.
+## Current State: ALL OFF (S1=0, S2=0, S3=0)
+- **Goal:** Check if this "Reset" state opens the main shutter at (20, 6).
+- **Next Step:** Walk into (20, 6).
+    - If Open: Proceed to Director.
+    - If Closed: The solution is likely a specific combination, not just "All Off".
+    - Next Hypothesis to test: S1 ON, S2 OFF, S3 OFF (since S2/S3 interaction is known, maybe S1 needs to be active).
 
-## Status of Critical Shutters
-- **(6, 12):** OPEN (Sw3 OFF) - *Path blocked at (2, 6)*.
-- **(10, 6):** Unknown (Hypothesis: Sw2 ON opens it).
-- **(12, 12):** Unknown.
-- **(20, 6):** CLOSED (Sw3 ON/OFF). Testing with Sw1 OFF.
+## Pathfinding
+- (20, 6) is the key chokepoint.
+- Emergency Switch is at (20, 11).
+- Door at (22, 10) is likely the Director's room.
