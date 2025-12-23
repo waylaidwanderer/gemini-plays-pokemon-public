@@ -48,11 +48,13 @@
 - Status: Active (Turn 14571 - Timestamp: 14571).
 - Strategy: Lead with XENON (Gastly) for Normal immunity. Use KIMCHI's Sweet Scent to trigger encounters. 
 - Battle Plan: Hypnosis (Sleep) -> Chip with Lick -> Great Balls. (Note: Gastly doesn't have Night Shade until Lv 16).
+
 ## Wild Encounters
 ### Route 35
 - DITTO (Lv 10) - Observed at (8, 9).
 - PIDGEY (Lv 12) - Observed during transit.
 - NIDORAN♀ (Lv 12) - Observed at (8, 9).
+- NIDORAN♂ (Lv 12) - Observed at (8, 9).
 
 ## Training Progress: XENON
 - Start Turn: 14500 (Timestamp: 14500)
@@ -63,6 +65,9 @@
 - Start Turn: 14545 (Timestamp: 14545)
 - Goal: 100% completion.
 - Status: Western corridor (Column 1-4) remains unexplored.
+
 ## Yanma Swarm Hunt Log
+- Turn 14608: Wild Encounter -> DITTO (Lv 10). Result: RUN.
 - Turn 14621: Sweet Scent -> DITTO (Lv 10). Result: RUN.
 - Turn 14623: Sweet Scent -> NIDORAN♀ (Lv 12). Result: RUN.
+- Turn 14628: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
