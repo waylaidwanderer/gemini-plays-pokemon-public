@@ -170,15 +170,15 @@
       }
     ]
   },
-  "use_super_repel_v1": {
-    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 13th slot. Starts from overworld.",
+  "use_super_repel_v2": {
+    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 14th slot. Starts from overworld.",
     "input_schema": {},
-    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: Start, Down*2, A (Pack), Up*20 (Reset), Down*12, A, A, B*3\n    buttons = [\"Start\", \"sleep 500\", \"Down\", \"Down\", \"A\", \"sleep 1000\"]\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 13th item (Super Repel)\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
+    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: Start, Down*2, A (Pack), Up*20 (Reset), Down*13, A, A, B*3\n    buttons = [\"Start\", \"sleep 500\", \"Down\", \"Down\", \"A\", \"sleep 1000\"]\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 14th item (Super Repel)\n    for _ in range(13):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-23T03:31:20.134Z",
-        "action_counter": 13479
+        "timestamp": "2025-12-23T03:39:22.414Z",
+        "action_counter": 13486
       }
     ]
   }
