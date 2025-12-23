@@ -25,3 +25,8 @@
 - Balls: Great Ball x40.
 - Healing: Super Potion x10, Revive x5, Fresh Water x5.
 - PC Box 1: ROCKY (Onix 6), EGG (Cleffa 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15).
+
+# Lessons Learned
+- **Inventory Mechanics:** The Game State Information 'Items' list is ALPHABETICAL. The actual in-game PACK order is acquisition-based. Always verify item positions using screen text or visual cues before navigating menus.
+- **Suicune Speed:** Suicune (Base Speed 85) outspeeds KIMCHI (Lv 21, Base Speed 40). It will flee on Turn 1 before Sleep Powder can be used. Persistence is key to eventually land a status condition, or a faster Pokémon is required.
+- **Repel Verification:** To confirm if a Repel is active without wasting steps, try to use another one; the game will notify you if one is already in effect.
