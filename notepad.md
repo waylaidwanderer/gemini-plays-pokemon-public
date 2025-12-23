@@ -28,6 +28,7 @@
 - XENON (Gastly) caught at Lv 6 (Female) at Turn #13924. Sent to Bill's PC.
 
 ## Training Plan: XENON
-1. Retrieve XENON from Bill's PC.
-2. Deposit Blarney (Sudowoodo) to make room.
-3. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
+1. (Done) Retrieve XENON from Bill's PC.
+2. (Done) Deposit Blarney (Sudowoodo) to make room.
+3. Heal party at Violet Pokecenter.
+4. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
