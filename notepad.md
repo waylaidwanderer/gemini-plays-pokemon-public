@@ -39,3 +39,5 @@
 - **Goal:** Check this room for Switch 2.
 - **Observation:** This room connects to the surface (Goldenrod) via the south exit. It might just be an entrance.
 - **Plan:** Battle/Talk to Teacher, scan for items/switches. If empty, return to Main Tunnel and search for other paths.
+- **Action:** Interacting with Teacher at (3, 27).
+- **Hypothesis:** She might be a trainer or have info on the switches.
