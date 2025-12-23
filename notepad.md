@@ -12,7 +12,11 @@
 - Tool Reliability: Refine custom tools immediately if they produce incorrect results.
 - Tile Navigability: NPCs, trees, and ledges block paths. Verify collision before planning long routes.
 - Battle Discipline: Verify cursor position after closing sub-menus.
-- Type Matchups: Ghost immune to Normal/Fighting. Lick ineffective against Normal. Verified Lick fails on Hoppip in this game.
+- Type Matchups: Ghost immune to Normal/Fighting. Lick ineffective against Normal.
+
+## Verified Mechanics
+- Hoppip Immunity: Lick (Ghost) fails to affect wild Hoppip (Grass/Flying) in this game. Hypothesis: Hoppip treated as Normal-type or Ghost type-chart changed.
+- Hypnosis Failure: Hypnosis fails on targets already affected by a status condition (e.g. Paralyzed).
 
 ## Training Log: XENON
 - Start Turn: 14423
@@ -23,13 +27,13 @@
 
 ## Tile Mechanics
 - TALL_GRASS: Encounter-eligible.
-- WALL/HEADBUTT_TREE: Impassable. Markers in Violet City.
-- LEDGE_HOP: One-way movement. Markers on Route 32 and Violet City.
-- COUNTER: Interaction point; impassable.
+- WALL: Impassable.
+- LEDGE_HOP: One-way movement.
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
 - Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
+
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32.
 - Slowpoketail Seller: (11, 67) Route 32.
