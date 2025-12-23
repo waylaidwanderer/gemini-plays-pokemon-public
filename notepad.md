@@ -71,3 +71,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Pressing A to confirm turning Switch 3 ON.
 - **Expectation:** Switch 3 becomes ON. State becomes S1=ON, S2=ON, S3=ON.
 - **Next Step:** Verify "It's ON" text, then navigate to (20, 5).
+- **Action:** Pressed A to turn Switch 3 ON.
+- **Current State:** S1=ON, S2=ON, S3=ON.
+- **Hypothesis:** All Switches ON should open the path to the Emergency Switch.
+- **Next:** Verify text confirms "ON", then go to (20, 6).
