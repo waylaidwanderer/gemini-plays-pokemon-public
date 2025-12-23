@@ -11,11 +11,17 @@
     - ON: Closes West (6, 8) & East (12, 8). (Overrides S2 & S1). *Likely an emergency reset or trap.*
     - OFF: Default.
 
-## Current Plan
-1. **Goal:** Open East Shutter (12, 8) to reach the Warehouse.
-2. **Current State:** S1=ON, S2=ON, S3=OFF.
-3. **Next Step:** Turn S2 OFF.
-4. **Prediction:** With S1=ON, S2=OFF, S3=OFF -> East Shutter (12, 8) should OPEN.
+## Current Strategy
+**Target:** West Shutter (6, 8).
+**Logic:** S2=ON opens it. S3=ON closes it (Emergency Override).
+**Current State:** S1=OFF, S2=ON, S3=ON.
+**Plan:**
+1. Turn S3 OFF (removes override).
+2. Ensure S2 is ON (it is).
+3. Inspect West Shutter (6, 8).
+
+## Test Log (Outer East Shutter (20, 6))
+- **Conclusion:** (20, 6) is effectively permanently closed or requires a key/event I missed. Abandoning East Path for now.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
