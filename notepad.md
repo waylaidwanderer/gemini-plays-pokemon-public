@@ -137,3 +137,6 @@
 - **Next Step:** Go to Switch 1 (16, 1) and turn it OFF.
 - **Target State:** S1=OFF, S2=OFF, S3=OFF.
 - **Hypothesis:** This "All OFF" state might open the Outer East Shutter (20, 6).
+- **Issue:** Switch 2 Menu remained open despite previous 'B' press.
+- **Action:** Forcing menu close by selecting 'NO'.
+- **Sequence:** Down (Select NO) -> A (Confirm) -> Move to Switch 1.
