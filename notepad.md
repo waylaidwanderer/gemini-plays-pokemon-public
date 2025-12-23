@@ -230,3 +230,8 @@
 - **Verification (Turn 14404):** Switch 3 is confirmed ON.
 - **Action:** Closing menu (Leaving S3 ON).
 - **Next Step:** Navigate to (20, 5) to inspect the Outer East Shutter (20, 6).
+- **Observation (S3=ON):** System reported tiles (2, 7) and (3, 7) changed WALL -> FLOOR.
+    - This creates a path South from Switch 3.
+    - This likely connects to the Pharmacist room (Row 8).
+    - **Hypothesis:** S3 opens "Emergency Paths" (shortcuts).
+- **Action:** Proceeding to check (20, 6). If closed, I will investigate this new West path.
