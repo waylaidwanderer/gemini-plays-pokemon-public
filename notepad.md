@@ -113,3 +113,10 @@
 - **Current State:** S1=ON, S2=ON, S3=OFF.
 - **Next Step:** Navigate to (20, 5) to check Shutter (20, 6).
 - **Hypothesis:** S1=ON + S2=ON should open the East Shutter.
+- **Breakthrough:** System notification confirmed (12, 8) changed from WALL to FLOOR after turning S1 ON.
+- **Confirmed Logic:** S1=ON + S2=ON opens the Inner East Shutter (12, 8).
+- **Observation:** Map data shows (20, 6) is still WALL.
+- **Plan:**
+  1. Go West to (10, 6) (Gate is OPEN due to S2=ON).
+  2. Go East to (12, 8).
+  3. Proceed South through (12, 8) to find the Director.
