@@ -20,12 +20,13 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (11, 4).
+- **Location:** Goldenrod Underground (SE Room).
+- **Action:** Warp to Main Tunnel via (21, 31).
 - **Plan:**
-  1. Go to Ladder at (23, 3).
-  2. Take Ladder to Underground SE.
-  3. Exit SE Room to Main Tunnel.
-  4. Enter Warehouse via locked door (18, 6 in Main Tunnel).
+  1. Go South to Warp at (21, 31).
+  2. Arrive in Main Tunnel.
+  3. Go North to Warehouse Door (18, 6).
+  4. Enter Warehouse.
   5. Navigate Warehouse to East Room.
   6. Check Shutter at (20, 6).
 
