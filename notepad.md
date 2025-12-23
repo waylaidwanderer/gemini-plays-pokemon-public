@@ -5,7 +5,6 @@
 - Status: Super Repel active (Used Turn #13736).
 - Milestones: 50 (T13670), 100 (T13693), 150 (T13714), 200 (T13731).
 - Last Check: confirmed on Route 38 (Turn #13721).
-- Current Progress: 9/200 steps (Turn #13739). Next milestone: 50.
 - Time Tracking: Monday, 10:05 PM PST.
 
 ## Battle Strategy
