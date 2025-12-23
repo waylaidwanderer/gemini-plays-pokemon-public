@@ -25,7 +25,7 @@
 
 ## Training Plan: XENON
 - Train XENON to Lv 13 (Mean Look) then Lv 25 (Haunter).
-- Current Progress: Lv 6.
+- Current Progress: Lv 7.
 - Grind Start: Turn #13980.
 
 ## Route 32 Observations
