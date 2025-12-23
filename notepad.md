@@ -32,7 +32,7 @@
 - **Tool Hygiene:** Refine custom tools immediately if they produce incorrect results.
 
 ## NPCs & Locations
-- Fisher Tully: (15, 13) Route 32. Contact for fishing info.
+- Fisher Tully: (15, 13) Route 32. Contact for fishing info (Route 42).
 - Slowpoketail Seller: (11, 67) Route 32. Selling tails for ¥1,000,000 (Scam).
 - Arnie (Bug Catcher): Mentions Growlithe sightings (likely Route 31).
 - Youngster Gordon: (4, 63) Route 32. Defeated.
@@ -40,5 +40,5 @@
 ## Event: Yanma Swarm
 - Source: Arnie (Bug Catcher) phone call.
 - Location: Route 35.
-- Status: Active (Turn 14571).
+- Status: Active (Turn 14571 - Timestamp: 14571).
 - Strategy: Use Sweet Scent to trigger encounters. Catch with Great Balls.
