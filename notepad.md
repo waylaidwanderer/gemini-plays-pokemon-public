@@ -7,6 +7,13 @@
 ## Training Log: XENON to Lv18
 - **Start Turn**: 15504 (Tuesday, Dec 23, 1:00 PM)
 - **Current Status**: Lv17 (3650 EXP). Needs 149 more EXP for Lv18 (3799 total).
+- **Reflection (Turn 15635)**:
+    1. Immediate Execution: No deferred tasks found.
+    2. Notepad Hygiene: Training log updated. Tile mechanics for FLOOR_UP_WALL (50, 14) noted as blocked from North.
+    3. Map Hygiene: Markers for Route 42 are up to date.
+    4. Automation Strategy: Custom tools (pathfinding, encounter looper) are sufficient.
+    5. Goal Clarity: Primary goal remains Suicune capture; secondary is training for Repel Trick.
+    6. Error Analysis: Corrected turn count synchronization. Foundations for Repel Trick verified.
 
 ## Battle Tactics: Suicune (Lv40)
 - Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
