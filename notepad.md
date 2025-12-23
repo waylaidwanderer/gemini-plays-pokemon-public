@@ -14,9 +14,8 @@
 - Repel Trick: Lead PKMN level must be Lv18. (XENON is Lv17).
 
 ## Financial Strategy
-- Current Funds: ¥41.
-- Plan: Sell 9 Super Potions (¥350 each = ¥3150) in Mahogany Town.
-- Goal: Purchase 6 Super Repels (¥500 each = ¥3000).
+- Current Funds: ¥3191.
+- Plan: Purchase 6 Super Repels (¥500 each = ¥3000).
 - Total expected funds after trade: ¥191.
 
 ## Tile Mechanics Scientific Testing
