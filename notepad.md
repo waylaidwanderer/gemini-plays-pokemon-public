@@ -29,4 +29,4 @@
 ## Strategy & Lessons
 - **Roamer Movement**: Roamers move between adjacent maps on map boundary cross. Re-verify location via Pokédex after every battle and map transition.
 - **Menu Reliability**: Keep menu sequences to 1-3 buttons of a single type (directional OR action) to avoid system truncation.
-- **Roamer Immunity**: Ghost-types are immune to Roar (Normal), preventing Suicune from ending the battle. Trapping is viable.
+- **Roamer Strategy**: Status moves like Roar affect Ghost-types in Gen 2, but Suicune (Lv40) lacks phazing moves in Crystal. Trapping is viable.
