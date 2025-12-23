@@ -9,13 +9,11 @@
 
 ## Route 42 Strategy
 - Goal: Locate Suicune and find Fisher Tully.
-- Path: Goldenrod -> Route 35 -> National Park -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
 
 ## Suicune Tracking Notes (Started Turn 14853)
 - Suicune roams Johto after Tin Tower encounter.
 - Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
-- Current Path: National Park -> Route 36 -> Route 42.
 
 ## Tile Mechanics
 - FLOOR: Standard traversal.
@@ -27,7 +25,7 @@
 - HEADBUTT_TREE: Impassable / Interact.
 - FLOOR_UP_WALL: One-way North only.
 - COUNTER: Impassable; interact from front.
-- WARP_CARPET_DOWN / WARP_CARPET_RIGHT: Map transitions.
+- WARP_CARPET_DOWN / WARP_CARPET_RIGHT / WARP_CARPET_LEFT: Map transitions.
 - LADDER: Map transition.
 - PC: Background object for storage.
 
@@ -42,15 +40,15 @@
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
 ## Lessons Learned
-- **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools.
+- **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools. NEVER use `autopress_buttons` in custom tools for overworld navigation.
 - **Navigation:** National Park is a valid path to Route 36 via the east exit at (33, 18).
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
+
 ## National Park & Bug-Catching Contest
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
+
 ## Reflection (Turn 14905)
-- Status: Navigating National Park to Route 36.
 - Strategy: Efficient pathing via custom tool and `navigate`.
-- Lessons: NEVER use `autopress_buttons` in custom tools for overworld navigation. Use `navigate` instead.
 - Verification: Root hypothesis (Park is best route) confirmed by standard map layouts.
