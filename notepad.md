@@ -68,3 +68,5 @@
 - **Tile Update (Turn 15028):** `(18, 12)` and `(18, 13)` changed WALL -> FLOOR.
 - **Observation:** The path continues to open up as I advance East. This suggests proximity-based shutters or just map reveal mechanics.
 - **Plan:** Continue East to (18, 12). Expecting to encounter the Rocket Girl marked at (19, 12).
+- **Interaction (Turn 15040):** Interacted with switch at `(20, 11)`. Text: "It's labeled EMERGENCY."
+- **Next Step:** Clear text. If no prompt, move to investigate doors `(22, 10)` and `(23, 10)`.
