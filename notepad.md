@@ -28,7 +28,8 @@
 - Method: Use Sweet Scent at (18, 15) grass patch.
 - Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
 - Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
-- Training Targets: Wild Gastly (95 EXP), Wild Bellsprout (84 EXP).
+- Training Targets: Wild Gastly (95 EXP), Wild Bellsprout (84 EXP), Wild Hoppip (63 EXP).
+- Menu Strategy: Always verify the current menu (Main vs Move vs Pack) in screen text before calling a specialized navigation tool (Turn 14383).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable ground. Verified.
