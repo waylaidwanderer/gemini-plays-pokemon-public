@@ -135,3 +135,11 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Current Position:** (10, 4).
 - **Action:** Continuing to Switch 3 (2, 1) to turn it OFF.
 - **Hypothesis:** S3=ON is currently keeping (6, 8) Closed. Turning S3 OFF should open it (assuming S1=OFF and S2=ON are correct for opening West).
+- **Action:** Turning Switch 3 OFF.
+- **Resulting State:** S1=OFF, S2=ON, S3=OFF.
+- **Prediction:**
+    - North Gate (10, 6): OPEN (S2=ON).
+    - West Gate (6, 8): OPEN (S1=OFF selects West).
+    - Inner East (12, 8): CLOSED (S1=OFF closes East).
+    - Outer East (20, 6): CLOSED (Previously verified).
+- **Goal:** Enter West Gate (6, 8) from the Central Corridor.
