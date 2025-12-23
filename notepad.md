@@ -54,11 +54,11 @@
   3. Turn Switch 3 OFF.
   4. Check Shutter states.
   5. Goal is to open East Shutter (12, 8).
-- **Observation:** S2 is ON. Gate at (10, 6) is visually OPEN (FLOOR).
-- **Action:** Going South through (10, 6).
-- **Next Step:** Check if Shutter at (6, 8) is OPEN.
-- **Hypothesis:** S2 ON should open (10, 6) AND (6, 8).
+- **Observation:** S2 is ON. Gate at (10, 6) is visually OPEN. Assuming (10, 7) is also OPEN despite map data saying WALL (gates are usually 2 tiles high).
+- **Action:** Walking South to cross the gate.
+- **Target:** (10, 8).
+- **Next Step:** Go West to (6, 8).
 - **Plan:**
-  1. Walk South through (10, 6).
-  2. Go West to (6, 8).
-  3. If (6, 8) is open, proceed South to the next area.
+  1. Move South to (10, 8).
+  2. Move West to (6, 8).
+  3. If (6, 8) is open, proceed South.
