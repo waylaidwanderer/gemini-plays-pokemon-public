@@ -8,8 +8,11 @@
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
 ## Route 42 Strategy
-- Goal: Locate Suicune and find Fisher Tully.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
+
+## Suicune Tracking Notes (Started Turn 14853)
+- Suicune roams Johto after Tin Tower encounter.
+- Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
 
 ## Tile Mechanics
 - FLOOR: Standard traversal.
