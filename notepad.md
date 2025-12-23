@@ -19,15 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=ON, S3=ON (Turning OFF).
+- **State:** S1=OFF, S2=ON, S3=OFF.
 - **Location:** Switch Room (2, 2).
-- **Action:** Turn Switch 3 OFF.
+- **Action:** Move to Switch 1 (16, 2).
 - **Plan:**
-  1. Interact with Switch 3.
-  2. Confirm OFF.
-  3. Move to Switch 1 (16, 2).
-  4. Turn S1 ON. (Result: S1=ON, S2=ON, S3=OFF).
-  5. Check Shutter at (20, 6).
+  1. Move to Switch 1 (16, 2).
+  2. Turn S1 ON. (Result: S1=ON, S2=ON, S3=OFF).
+  3. Check Shutter at (20, 6).
+  4. If Closed, try All ON.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
