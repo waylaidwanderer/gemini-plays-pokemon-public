@@ -34,13 +34,12 @@
 - Target: Lv 13 for Mean Look.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
+- Current Progress: Lv 9.
+
+## PP Management
+- XENON Lick PP: 0/30 (Turn #14106).
+- Action: Use Max Ether from pack (Inventory: x2).
 
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
 - Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
-## PP Management
-- XENON Lick PP: 1/30 (Turn #14103). Need to use Max Ether or heal after current battle.
-- Inventory: Max Ether x2.
-## PP Management
-- XENON Lick PP: 1/30 (Turn #14103). Need to use Max Ether or heal after current battle.
-- Inventory: Max Ether x2.

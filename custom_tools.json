@@ -100,7 +100,7 @@
   "use_sweet_scent_v2": {
     "description": "Uses Sweet Scent from KIMCHI (slot 6). Robust against menu state and cursor position.",
     "input_schema": {},
-    "python_script": "import json\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Down\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
+    "python_script": "import json\n# Sequence:\n# 1. Clear menus (B x3)\n# 2. Open Start menu\n# 3. Reset cursor to top (Up x8)\n# 4. Move to POKEMON (Down x1)\n# 5. Reset party cursor to top (Up x6)\n# 6. Move to Slot 6 - KIMCHI (Down x5)\n# 7. Select Sweet Scent (A, A)\n# 8. Clear text (A x3)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
@@ -111,6 +111,11 @@
         "commit_message": "Fixed menu navigation logic to handle 8 items and used a more robust reset sequence.",
         "timestamp": "2025-12-23T09:35:53.123Z",
         "action_counter": 14104
+      },
+      {
+        "commit_message": "Refined Sweet Scent tool with robust menu reset logic (Down-mashing to EXIT/CANCEL) and corrected Start menu selection (slot 2 for POKEMON).",
+        "timestamp": "2025-12-23T09:37:19.794Z",
+        "action_counter": 14106
       }
     ]
   },
@@ -196,12 +201,17 @@
         "status"
       ]
     },
-    "python_script": "import json\ndef calculate():\n    max_hp = int(input_data['max_hp'])\n    curr_hp = int(input_data['curr_hp'])\n    base_rate = int(input_data['base_rate'])\n    ball = input_data['ball'].upper()\n    status = input_data['status'].upper()\n    ball_mods = {'POKE BALL': 1.0, 'GREAT BALL': 1.5, 'ULTRA BALL': 2.0, 'MASTER BALL': 255.0}\n    status_mods = {'SLEEP': 10, 'FREEZE': 10, 'PARALYSIS': 0, 'POISON': 0, 'BURN': 0, 'NONE': 0}\n    b_mod = ball_mods.get(ball, 1.0)\n    s_mod = status_mods.get(status, 0)\n    a = int((3 * max_hp - 2 * curr_hp) * base_rate * b_mod / (3 * max_hp)) + s_mod\n    a = max(1, min(255, a))\n    chance = (a + 1) / 256.0\n    print(json.dumps({'capture_value': a, 'chance_percent': round(chance * 100, 2)}))\ncalculate()",
+    "python_script": "import json\ndef calculate():\n    max_hp = int(input_data['max_hp'])\n    curr_hp = int(input_data['curr_hp'])\n    base_rate = int(input_data['base_rate'])\n    ball = input_data['ball'].upper()\n    status = input_data['status'].upper()\n    ball_mods = {'POKE BALL': 1.0, 'GREAT BALL': 1.5, 'ULTRA BALL': 2.0, 'MASTER BALL': 255.0}\n    status_mods = {'SLEEP': 10, 'FREEZE': 10, 'PARALYSIS': 0, 'POISON': 0, 'BURN': 0, 'NONE': 0}\n    b_mod = ball_mods.get(ball, 1.0)\n    s_mod = status_mods.get(status, 0)\n    # Gen 2 Catch Formula: a = floor((3*max_hp - 2*curr_hp) * base_rate * ball_mod / (3*max_hp)) + status_mod\n    a = int((3 * max_hp - 2 * curr_hp) * base_rate * b_mod / (3 * max_hp)) + s_mod\n    a = max(1, min(255, a))\n    chance = (a + 1) / 256.0\n    print(json.dumps({'capture_value': a, 'chance_percent': round(chance * 100, 2)}))\ncalculate()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-23T09:34:58.349Z",
         "action_counter": 14103
+      },
+      {
+        "commit_message": "Initial version of the capture rate calculator using the standard Gen 2 formula.",
+        "timestamp": "2025-12-23T09:37:19.795Z",
+        "action_counter": 14106
       }
     ]
   }
