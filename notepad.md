@@ -9,8 +9,8 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
-- **Current Status:** Switch 1 ON. Switch 2 ON (Step 2 Complete). Switch 3 OFF.
-- **Next Step:** Turn Switch 3 ON.
+- **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 ON (Sequence 1-2-3 Complete).
+- **Next Step:** Navigate to Emergency Switch at (20, 11) to verify path.
 - **Hypothesis:** 1-2-3 sequence will open the correct path to the Emergency Switch.
 
 # Important Locations
