@@ -29,7 +29,7 @@
 
 ## Route 32 Observations
 - Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
-- Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
+- Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam. Marked 🚫.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
