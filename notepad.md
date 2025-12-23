@@ -57,7 +57,7 @@
 - **Roamer Immunity Check**: Roar (Normal) vs Ghost (Immune). Trapping confirmed viable.
 ## Training Log: XENON to Lv18
 - **Start Turn**: 15504
-- **Current Status**: Lv17 (3263 EXP). Needs 536 more EXP for Lv18.
+- **Current Status**: Lv17 (3321 EXP). Needs 478 more EXP for Lv18.
 - **Goal**: Reach Lv18 to enable Repel Trick on Route 42 (Wild Pokemon levels are 13-17, Suicune is 40).
 
 ## Tile Mechanics
