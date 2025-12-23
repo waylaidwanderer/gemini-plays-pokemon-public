@@ -11,7 +11,7 @@
 - Roamers move between adjacent maps whenever the player crosses a map boundary.
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
-- Repel Trick: Lead PKMN level must be > local wild PKMN but < Roamer level (Lv40). XENON is Lv17. Raticate was Lv16. This works if other wild PKMN are <= 17. (Verify local levels).
+- Repel Trick: Lead PKMN level must be STRICTLY HIGHER than local wild PKMN but < Roamer level (Lv40). XENON is Lv17. Raticate was Lv16. (Verify if wild PKMN can be Lv17).
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
