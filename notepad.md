@@ -7,11 +7,10 @@
 - **Goal:** Reach Southwest Ladder (3, 34) in Main Tunnel.
 
 # Strategy
-- **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
-- **Clue:** "The switch on the end is the one to press first" (Switch 3).
-- **Current State:** Switch 1 OFF. Switch 3 ON. Switch 2 ON (Just pressed).
-- **Action:** Turning Switch 2 ON.
-- **Plan:** Press Switch 3 (Done) -> Switch 2 (Done) -> Switch 1. Aim: Open path to South Ladders.
+- **Puzzle Mechanic:** "Open one shutter, another closes." Sequence: 3 -> 2 -> 1.
+- **Current Status:** Switch 3 ON, Switch 2 ON.
+- **Next Step:** Turn Switch 1 ON.
+- **Hypothesis:** Completing the sequence will open the path to the Director (Emergency Switch).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (OFF).
