@@ -43,3 +43,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Verification:** Screen shows "It's labeled SWITCH 1".
 - **Action:** Pressing 'A' to advance text and see if it is ON or OFF.
 - **Reasoning:** I need to be 100% sure S1 is ON before walking away to check the shutter.
+- **Action:** Navigating to (20, 6) to test S1=ON, S2=ON, S3=OFF.
+- **Hypothesis:** S1 ON opens the East side shutters (both 12,8 and 20,6?).
+- **Contingency:** If (20, 6) is closed, the only untried logical combo is S1=ON, S2=ON, S3=ON.
