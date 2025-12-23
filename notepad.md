@@ -13,13 +13,9 @@
 - **Observations:**
     - Switch 3 ON: Opens Top 1-2 (6, 8) and Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
     - Switch 1 ON: Closes Vertical 2 (10, 6/7).
-- **Problem:** Need to reach Emergency Switch (Section 4). Path blocked at Top 2-3.
-- **Hypothesis:** Switch 2 controls Top 2-3. Turning Switch 2 OFF might open it, allowing access to Switch 1.
-- **Plan:**
-    1. Turn Switch 2 OFF. Check if Top 2-3 opens.
-    2. If Open, go to Switch 1 and turn OFF (to open Vertical 2).
-    3. Return to Section 2, go Down via Vertical 2.
-    4. Proceed East via Bottom 2-3.
+    - Trapped in Middle Section Top (Sec 2 Top) because Vertical 2 and Top 2-3 are closed.
+- **Immediate Plan:** Escape West via (6, 8). Check if Bottom 1-2 (6, 12) is open.
+- **Hypothesis:** If (6, 12) is open, I can reach the Burglar and potentially the East side via (12, 12).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
