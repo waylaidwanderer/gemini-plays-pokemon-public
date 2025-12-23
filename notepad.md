@@ -28,11 +28,12 @@
   - TM08 (Rock Smash): Sold for 500 yen.
   - TM12 (Sweet Scent): Sold for 500 yen.
   - TM16 (Icy Wind): Sold for 1500 yen.
+  - TM35 (Sleep Talk): Selling (500 yen).
   - TM45 (Attract): Pending.
   - TM49 (Fury Cutter): Pending.
   - TM50 (Nightmare): Pending.
-- Estimated Revenue: ~6000-8000 yen total.
-- Time Tracking: 37 turns elapsed since task start.
+- Estimated Revenue: ~10,321 yen total.
+- Time Tracking: 38 turns elapsed since task start.
 
 # Olivine Mart Tile Mechanics
 - MART_SHELF: Impassable. (Visual confirmation: Attempted movement blocked).
