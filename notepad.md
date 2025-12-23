@@ -1,53 +1,37 @@
 # Suicune Capture Strategy
 ## Strategy: The Mean Look Pivot
 - Train XENON (Gastly) to Lv 13 to learn Mean Look.
-- Evolve to Haunter (Lv 25) and train to ~Lv 38-40. Haunter needs to be faster than Suicune to use Mean Look before it flees; Lv 38-40 ensures we outspeed Suicune's potential 73-110 Speed range.
-- Track Suicune using Pokedex AREA map. Force movement by cycling between two adjacent routes (e.g., Route 36 and Route 37) until it appears on your current route.
-- Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
-- Status Requirement: Status conditions are mandatory for Suicune.
-- Item Goal: Upgrade to Ultra Balls (2.0x multiplier) at Goldenrod or Blackthorn Marts.
-- Contingency: If Hypnosis fails, consider switching to KIMCHI (Gloom) for Sleep Powder (75% accuracy in Gen 2).
+- Evolve to Haunter (Lv 25) and train to ~Lv 38-40 (Speed 73-110) to outspeed Suicune.
+- Track Suicune using Pokedex AREA map. Cycle between adjacent routes (e.g., 36/37) to force encounter.
+- Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Ultra Balls.
+- Item Goal: Buy Ultra Balls at Goldenrod or Blackthorn Marts.
 
 ## Game Mechanics & Lessons
-- Ghost-type Moves: Lick (Ghost) does not affect Normal types. It is neutral against Grass/Flying (Hoppip).
-- Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
-- Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune).
-- Status Moves: "It didn't affect" is the message for a miss or blocked status move (e.g. Hypnosis missing Wooper).
-- Switching: Clears confusion and resets stat changes.
-- Sweet Scent: Triggers immediate encounters on valid grass tiles.
+- Type Matchups: Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal types.
+- Move Effectiveness: Leech Life (Bug) is NVE against Ghost.
+- Status Accuracy: Status moves can hit Ghost types. Missing moves display "It didn't affect".
+- Switching: Resets confusion and stat changes.
+- Sweet Scent: Immediate wild encounter on valid grass tiles.
 - Menu Behavior:
-    - Start Menu (8 items): FULLY WRAPS. Navigate relatively. Resets to POKEDEX (1) after battle.
-    - Party Menu (7 items: 1-6 + CANCEL): FULLY WRAPS. Navigate relatively. REMEMBERS last selection even when closed/reopened.
-    - PKMN Pop-up Menu (variable size): WRAPS. For KIMCHI (2 field moves), it has 7 items: 1.SWEET SCENT, 2.CUT, 3.STATS, 4.SWITCH, 5.MOVE, 6.ITEM, 7.CANCEL.
-    - Battle Move Menu (4 items): WRAPS. REMEMBERS last selection within the same battle.
+    - Start Menu: Resets to POKEDEX (1) after battle.
+    - Party Menu: Remembers last selection.
+    - Battle Move Menu: Remembers last selection within the same battle.
+- Navigation: NPCs and certain trees/ledges block paths. Verify collision before planning long routes. Use 'run_code' to check tile navigability.
+- Battle Discipline: Always verify cursor position after closing sub-menus or between turns, as the menu remembers the previous selection.
 
-## Training Plan: XENON
-- Goal: Reach Lv 13 (1261 Total EXP).
-- Progress: 1241 EXP (20 EXP remaining). Estimated 1 battle left.
-- Current Status: Lick PP 25/30. HP 32/32.
-- Method: Use Sweet Scent at (18, 15) grass patch on Route 32.
-- Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
-- PP Management: XENON has low Lick PP (30). Return to Pokecenter or use Ether/Berry when Lick PP < 5.
-- Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
-
-## Recent Mistakes & Lessons
-- **Turn 14436-14439:** Misclicked Spite instead of Lick. Lesson: Always verify cursor position after closing the Bag or other sub-menus.
-- **Turn 14436:** Verified Ghost-type immunity to Normal moves (Wrap) in Gen 2.
-- **Turn 14416:** Attempted to path through walls/trees. Lesson: Use 'run_code' to verify tile navigability before long path plans.
-- **Turn 14449-14450:** Move menu remembers last selection within the same battle. Misclicked Spite due to this. Lesson: Always check move index before pressing A in battle.
+## Training Log: XENON
+- Start Turn: 14423
+- Goal: Lv 13 (1261 Total EXP).
+- Progress: 20 EXP remaining.
+- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout/Hoppip. RUN from Normal-types.
+- PP/HP: Return to Pokecenter if Lick PP < 5 or HP < 10.
 
 ## Tile Mechanics
-- FLOOR: Standard traversable ground. Verified.
-- TALL_GRASS: Encounter-eligible ground. Verified.
-- WALL: Impassable boundary. Verified.
-- HEADBUTT_TREE: Impassable wall. Verified at (26, 26), (14, 22), and (14, 23) in Violet City.
-- LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15) on Route 32 and (29, 22) in Violet City.
-- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12) on Route 32 and (27, 23) in Violet City.
-- WATER: Impassable without Surf. Verified.
-- DOOR/DOOR_04/CAVE: Warp entry points. Verified.
-- COUNTER: Interaction point for NPCs; impassable. Verified.
-- NPC: Map objects that block movement. Verified.
-- WARP_CARPET_LEFT: Map transition point. Verified.
+- TALL_GRASS: Encounter-eligible.
+- WALL/HEADBUTT_TREE: Impassable. Markers placed in Violet City.
+- LEDGE_HOP: One-way movement. Markers placed on Route 32 and Violet City.
+- COUNTER: Interaction point; impassable.
+
 ## Exploration Plan
-- After XENON reaches Lv 13, explore the potentially reachable unseen tiles on Route 32 to complete the map.
-- Target areas: West of (13, 10), East of (19, 28), South/West of (11, 37), and the map perimeter (1, 76-87).
+- Goal: Reveal 100% of Route 32.
+- Targets: West of (13, 10), East of (19, 28), South/West of (11, 37), Perimeter (1, 76-87).
