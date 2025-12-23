@@ -7,10 +7,16 @@
 - Step 5: Prepare Catcher. Obtain Parasect (Spore + False Swipe).
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
+## Route 42 Strategy
+- Goal: Locate Suicune and find Fisher Tully.
+- Path: Goldenrod -> Route 35 -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
+- Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
+
 ## Completed Tasks
 - **Yanma Swarm (Route 35):** Caught Level 12 Female Yanma (INTERCEPT) using KIMCHI (Gloom) with Sleep Powder + Absorb. (Turn 14795).
+- **Heal Party:** Restored HP/PP at Goldenrod Pokecenter. (Turn 14847).
 
-## Global Tile Mechanics
+## Tile Mechanics
 - FLOOR: Standard traversal.
 - WALL / FENCE: Impassable.
 - TALL_GRASS: Encounters.
@@ -19,6 +25,10 @@
 - WARP: Map transition.
 - HEADBUTT_TREE: Impassable / Interact.
 - FLOOR_UP_WALL: One-way North only.
+- COUNTER: Impassable; interact from front.
+- WARP_CARPET_DOWN: Exit map south.
+- LADDER: Map transition.
+- PC: Background object for storage.
 
 ## Type Effectiveness Chart (Observed)
 - Ghost: Immune to Normal/Fighting.
@@ -33,6 +43,7 @@
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
 - Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
+
 ## Immediate To-Do
-- Heal at Goldenrod Pokecenter (KIMCHI is out of Sleep Powder PP).
+- Track Suicune using the Pokédex.
 - Head to Route 42 to find Fisher Tully and check for Suicune.
