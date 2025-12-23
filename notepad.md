@@ -149,3 +149,10 @@
 - **Observation:** System message in Turn 14211 confirmed `(12, 8)` changed from FLOOR to WALL when S1 turned OFF. This confirms S1 controls `(12, 8)`.
 - **Next Step:** Checking `(23, 6)`.
 - **Hypothesis Update:** If All OFF fails, the only remaining untested variable for the Outer East Shutter is Switch 3 ON. Previous tests of S3 ON were limited (didn't check far east).
+- **Observation:** `(23, 6)` is a WALL.
+- **New Insight:** Map data shows a DOOR at `(22, 10)`. This door is isolated.
+- **Hypothesis:** To reach the Door at `(22, 10)`, I must traverse Column 22 from the North.
+- **Target:** The "Shutter" is likely at `(22, 6)`, `(22, 7)`, `(22, 8)`.
+- **Plan:**
+  1. Inspect `(22, 6)` with current "All OFF" state.
+  2. If closed, try Switch 3 ON (as S3 is the "Special" switch, possibly opening the secret path to the Door while closing others).
