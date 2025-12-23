@@ -17,7 +17,8 @@
 ## Training Log: XENON
 - Start Turn: 14423
 - Goal: Lv 13 (1261 Total EXP).
-- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout/Hoppip. RUN from Normal-types.
+- Progress: 1241 EXP (20 EXP remaining).
+- Strategy: Sweet Scent at (18, 15) Route 32. Lick Gastly/Bellsprout. RUN from Normal-types and Hoppip (appears immune to Ghost in this game).
 - PP/HP Management: Return to Pokecenter if Lick PP < 5 or HP < 10.
 
 ## Tile Mechanics
