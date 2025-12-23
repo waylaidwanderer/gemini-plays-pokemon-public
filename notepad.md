@@ -5,15 +5,16 @@
     - Effect: (20, 6) stays CLOSED. (12, 8) is CLOSED.
 - **Switch 2 (10, 1):** Currently ON.
     - Effect: Controls (12, 8) and (10, 6).
-- **Switch 3 (2, 1):** Currently OFF.
+- **Switch 3 (2, 1):** Turning ON.
     - Effect: Controls (6, 8), (6, 12), (2, 6).
-    - State: OFF -> (6, 8) OPEN, (6, 12) OPEN, (2, 6) OPEN. (Correction: (6,8) seen as FLOOR).
+    - State: OFF -> (6, 8) OPEN, (6, 12) OPEN, (2, 6) OPEN.
+    - State: ON -> Testing now.
 
 ## Current Goal: Open Shutter (20, 6)
 - **Problem:** (20, 6) blocks access to the East Corridor and Emergency Switch.
 - **Hypothesis:** Switch 3 might control it.
-- **Next Action:** Turn Switch 3 ON.
-- **Test:** Check (20, 6) with S1=OFF, S2=ON, S3=ON.
+- **Action:** Confirming Switch 3 ON.
+- **Next:** Check (20, 6) with S1=OFF, S2=ON, S3=ON.
 
 ## Status of Critical Shutters
 - **(6, 12):** OPEN (Sw3 OFF) - *Path blocked at (2, 6)*.
