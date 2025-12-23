@@ -50,3 +50,4 @@
 - NIDORAN♀ (Lv 12)
 - NIDORAN♂ (Lv 12)
 - YANMA (Lv 12) - Observed at (8, 9) during swarm.
+- YANMA (Lv 12) - Observed at (8, 9) during swarm.
