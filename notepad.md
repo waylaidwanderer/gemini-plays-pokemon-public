@@ -290,3 +290,5 @@
 - **Status:** Switch 3 is nearby at (2, 1).
 - **Action:** Moving to (2, 2) to turn Switch 3 OFF.
 - **Reasoning:** S1=OFF, S2=ON, S3=ON failed to open (20, 6). Trying S3=OFF next.
+- **Action:** Turning to face Switch 3 (Up) to turn it OFF.
+- **Hypothesis:** S1=OFF, S2=ON, S3=OFF is the target configuration to test next for the Outer East Shutter (20, 6).
