@@ -80,13 +80,10 @@
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
 ## Current Goal: Test S2 Effect on Shutters (S1=ON, S2=ON, S3=ON)
-- **Action:** Close Switch 2 Menu (Keep ON).
-- **State Tracking:**
-    - S1: ON (Confirmed)
-    - S2: ON (Target)
-    - S3: ON (Confirmed)
+- **Observation:**
+    - (10, 6) CLOSED.
+    - (6, 6) CLOSED (Visible on screen).
 - **Plan:**
-  1. Press B to exit menu (Keeping S2 ON).
-  2. Observe (10, 6) for changes.
-  3. Navigate to (10, 5) to inspect closely.
-  4. If (10, 6) is closed, check (6, 6) and (20, 6).
+  1. Navigate to (20, 5) to check Shutter (20, 6).
+  2. If (20, 6) is closed, enter Middle Strip via (16, 6) to check (12, 8) and (6, 8).
+  3. Hypothesis: S2=ON might be "Lockdown" (All Closed) or opens (20, 6).
