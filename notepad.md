@@ -47,5 +47,8 @@
 
 ## Training Log
 - Goal: Train XENON (Gastly) to Lv17. (COMPLETE Turn 15201)
-- Current Status: Starting Repel Hunt on Route 42.
+
+## Repel Hunt Log
+- Status: Active on Route 42.
+- Start Turn: 15211.
 - Method: Lead with XENON (Lv 17), use Super Repel, pace in grass.
