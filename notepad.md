@@ -48,5 +48,5 @@
 ## Training Log
 - Goal: Train XENON (Gastly) to Lv17.
 - Start Turn: Turn 15000.
-- Current Status: Lv16 (Turn 15185). EXP: 3029. Needs ~92 for Lv17.
+- Current Status: Lv16 (Turn 15193). EXP: 3087. Needs ~34 for Lv17.
 - Method: Lead with XENON, switch to Calcifer or GNEISS to finish wild encounters in Route 42 grass.
