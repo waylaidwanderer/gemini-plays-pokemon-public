@@ -49,5 +49,5 @@
 - Goal: Train XENON (Gastly) to Lv17. (COMPLETE Turn 15201)
 
 ## Repel Hunt Log
-- Status: Active on Route 42.
-- Start Turn: 15211.
+- Status: Out of Repels. (Turn 15240)
+- Heading to Mahogany Town to restock.
