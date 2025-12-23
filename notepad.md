@@ -11,8 +11,8 @@
 - Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune); misses are due to accuracy/luck.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
-- Menu Wrapping: The Start menu (8 items) and Party menu (6 items) in Crystal wrap. Mashing directional buttons is not a reliable reset. Track position manually or reset to slot 1 (POKEDEX/XENON).
-- Phone Calls: Incoming calls interrupt button sequences and tools. Refined tools must start with multiple B-presses.
+- Menu Wrapping: The Start menu (8 items) and Party menu (6 items) in Crystal wrap. Tracking cursor position is mandatory for tool reliability.
+- Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
 - Grind Start: Turn #13980 (Tuesday 12:45 AM).
