@@ -5,7 +5,7 @@
     - ON: Opens (12, 8) if S2 is OFF.
     - OFF: ?
 - **Switch 2 (10, 1):**
-    - ON: Opens Shutter at (10, 6) and (11, 7). AND Opens (6, 8).
+    - ON: Opens Shutter at (10, 6) and (11, 7). AND Opens (6, 8). Closes (12, 8).
     - OFF: Modifies S1/S3 effects.
 - **Switch 3 (2, 1):**
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
