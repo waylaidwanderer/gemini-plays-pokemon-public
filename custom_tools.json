@@ -151,12 +151,12 @@
     ]
   },
   "check_suicune_location_v6": {
-    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 5 seconds for observation, and then exits. Robustly handles menu navigation.",
+    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Robustly handles menu navigation by resetting cursor.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n\nbuttons = []\n# Ensure in overworld\nfor _ in range(5):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 100\")\n\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 1000\")\n\n# Reset cursor to top (POKEDEX)\nfor _ in range(10):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 50\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1500\")\n# Select Suicune (assuming it's near the top or the roamer being tracked)\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1500\")\n# Select AREA\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 5000\")\n# Exit\nfor _ in range(5):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 800\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\n# Ensure in overworld\nfor _ in range(3):\n    buttons.append(\"B\")\n\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 1000\")\n\n# Reset cursor to top (POKEDEX) assuming 8-item menu\nfor _ in range(8):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 100\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n# Select Suicune\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n# Select AREA\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 3000\")\n# Exit\nfor _ in range(4):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 500\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Created a more robust version of the Suicune tracking tool that handles the 8-item wrapping menu correctly.",
@@ -167,6 +167,11 @@
         "commit_message": "Created a more robust version of the Suicune tracking tool that handles the 8-item wrapping menu correctly and resets the cursor to POKEDEX.",
         "timestamp": "2025-12-23T00:43:17.948Z",
         "action_counter": 13181
+      },
+      {
+        "commit_message": "Fixed cursor reset logic in check_suicune_location_v6 and optimized sleep times to stay within the 10s limit.",
+        "timestamp": "2025-12-23T00:57:31.717Z",
+        "action_counter": 13199
       }
     ]
   }

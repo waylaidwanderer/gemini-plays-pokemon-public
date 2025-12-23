@@ -1,6 +1,7 @@
 # Suicune Hunt Strategy
 - Strategy: Repel Trick (Lead KIMCHI Lv 21 vs Wild Lv 13-16).
 - Method: Pacing (Grass Dance) in grass at (28, 7) on Route 38.
+- Current Status: Super Repel expired Turn #13197. Re-applying Turn #13199.
 - Battle Plan: Turn 1 Sleep Powder. Use `suicune_capture_analyst_v2`.
 - Capture: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1. Suicune is Lv 40.
 
