@@ -168,5 +168,30 @@
         "action_counter": 14187
       }
     ]
+  },
+  "select_move_v2_refined": {
+    "description": "Selects a move from the battle move menu. Assumes the move menu is already open. Returns a JSON array of button strings. Guarantees top position by pressing 'Up' 3 times first.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "description": "The 1-based index of the move to select (1-4).",
+          "minimum": 1,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "move_index"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.stdin.read())\n        move_index = int(input_data.get('move_index', 1))\n        \n        buttons = []\n        # Reset cursor to the top move (there are 4 moves max in Crystal)\n        for _ in range(3):\n            buttons.append(\"Up\")\n        # Move cursor to the target move\n        for _ in range(move_index - 1):\n            buttons.append(\"Down\")\n        # Select the move\n        buttons.append(\"A\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
+    "history": [
+      {
+        "commit_message": "Refined select_move_v2 to reset cursor to top with 'Up' presses for better reliability in Crystal's sticky menus.",
+        "timestamp": "2025-12-23T10:27:30.515Z",
+        "action_counter": 14192
+      }
+    ]
   }
 }
