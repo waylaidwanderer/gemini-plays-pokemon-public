@@ -172,10 +172,9 @@
 - **Observation:** "All OFF" failed to open (20, 6) or (12, 8).
 - **Next Plan:** Turn Switch 3 ON.
 - **Hypothesis:** Switch 3 (Emergency) might open the path to the Emergency Switch at (20, 11) via (20, 6) or (22, 6).
-- **Action:** Turning Switch 3 ON (Confirming YES).
-- **Current State:** S1=OFF, S2=OFF, S3=ON.
-- **Hypothesis:** Switch 3 (Emergency) might open the path to the Emergency Switch at (20, 11) via (20, 6) or (22, 6).
+- **Issue:** Previous turn input was truncated (System Warning). Switch 3 interaction incomplete.
+- **Current Situation:** Menu "It's OFF. Turn it ON?" is still open.
+- **Action:** Pressing A to confirm YES, then B to close text.
 - **Plan:**
   1. Confirm S3 ON.
-  2. Navigate to (20, 5).
-  3. Inspect Shutters (20, 6) and (23, 6).
+  2. Navigate to (20, 5) to inspect East Shutters.
