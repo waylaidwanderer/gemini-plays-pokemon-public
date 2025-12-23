@@ -39,3 +39,13 @@
 - **Implication:** Disabling Main Power (S2) opens the electronic shutters (fail-safe?).
 - **Problem:** Previous notices said `(6, 9)` turned to WALL. If the gates close while shutters open, we need a path that relies on shutters, not gates.
 - **Current Goal:** Fight the Pharmacist, then verify if we can pass through `(6, 8)` or `(6, 9)` to reach the now-open `(6, 12)`.
+- **Observation (Turn 14955):** S2=OFF definitely closed West Gate `(6, 8)`. It is visible as a WALL.
+- **Battle:** Engaging Burglar (Pharmacist) at `(4, 8)`.
+- **Strategy:** After battle, must return to switches. S2=OFF is a dead end here.
+- **Next Test:** Re-verify S3=ON behavior. Does it *really* open everything? Or did I misinterpret?
+  - Turn 14922 said `(6, 8)` opened with S3=ON (and S1=ON).
+  - Turn 14925 said `(12, 9)` closed with S1=ON.
+  - This confirms the toggle nature. S3 enables the system, but S1 still toggles West vs East.
+  - Is there a way to bypass the toggle?
+  - Or is the destination NOT `(12, 12)`?
+  - Maybe `(20, 6)`?
