@@ -21,14 +21,15 @@
 
 ## Current Goal: Explore West Area (S1=OFF, S2=OFF, S3=ON)
 - **Observation:**
-  - (2, 7)/(3, 7) are OPEN (S3 effect).
-  - (6, 8) is CLOSED (Verified).
-- **Hypothesis:** S3 opens the far West vertical channel (Col 2-3).
+  - (2, 7)/(3, 7) are OPEN.
+  - (6, 8) is CLOSED.
+  - **Dead End:** Rows 10-11 in the West Section (Cols 1-5) are solid walls. Cannot reach Item at (1, 12) or South area from here.
+- **Action:** Talk to Burglar (Pharmacist) at (4, 8).
 - **Plan:**
-  1. Navigate to (6, 12) to check the South Shutter.
-  2. If (6, 12) is OPEN, enter Middle Section.
-  3. If (6, 12) is CLOSED, pick up Item at (1, 12) and return to switches.
-  4. Also check Shutter (12, 8) if I can reach the Middle Section.
+  1. Talk/Battle Burglar.
+  2. Check Shutter (6, 6).
+  3. If (6, 6) is CLOSED, return to Switches.
+  4. Next Test: S1=OFF, S2=ON, S3=OFF (Reset S3, Try S2=ON solo effect).
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
