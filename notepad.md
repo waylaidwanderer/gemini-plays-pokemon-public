@@ -47,3 +47,17 @@
 - Location: Route 35.
 - Status: Active (Turn 14571 - Timestamp: 14571).
 - Strategy: Use Sweet Scent to trigger encounters. Catch with Great Balls.
+## Wild Encounters
+### Route 35
+- DITTO (Lv 10) - Observed at (8, 9).
+- PIDGEY (Lv 12) - Observed during transit.
+
+## Training Progress: XENON
+- Start Turn: 14500 (Timestamp: 14500)
+- Goal: Lv 25 (Evolution to Haunter).
+- Current: Lv 13.
+
+## Exploration Progress: Route 32
+- Start Turn: 14545 (Timestamp: 14545)
+- Goal: 100% completion.
+- Status: Western corridor (Column 1-4) remains unexplored.
