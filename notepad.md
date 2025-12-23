@@ -12,7 +12,7 @@
     - **Current:** OFF.
     - **Behavior with S3=ON:**
         - S1=ON -> (12, 8) OPEN.
-        - S1=OFF -> Testing now.
+        - S1=OFF -> (6, 8) CLOSED. (Verified).
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
