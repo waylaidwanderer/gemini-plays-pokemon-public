@@ -19,13 +19,16 @@
 5. **Goal Clarity:** Testing S3 configuration to access Director.
 6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
 
-## Current Goal: Check Shutter (6, 6) (S1=OFF, S2=OFF, S3=ON)
-- **Action:** Navigate back to (6, 5) to check Shutter (6, 6).
+## Current Goal: Test S2=ON Solo (S1=OFF, S2=ON, S3=OFF)
+- **Observation (S1=OFF, S2=OFF, S3=ON):**
+  - Shutter (6, 6) is **CLOSED**.
+  - Path to Burglar (2, 7) is **OPEN**.
+  - **Conclusion:** S3=ON opens the far West path (2, 7) but not the inner West shutter (6, 6).
 - **Plan:**
-  1. Move to (6, 5) via (2, 6).
-  2. Observe (6, 6).
-  3. If Closed, proceed to Switch 3 (Turn OFF) then Switch 2 (Turn ON).
-  4. Goal: Test S2=ON solo.
+  1. Navigate to Switch 3 (2, 1) and turn **OFF**.
+  2. Navigate to Switch 2 (10, 1) and turn **ON**.
+  3. Check Shutters (10, 6), (20, 6), and potentially (6, 6).
+  4. Hypothesis: S2 is the master switch for the main vertical shutters.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
