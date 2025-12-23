@@ -4,7 +4,7 @@
 - Lead: KIMCHI (Lv 21 Gloom). *Note: Suicune outspeeds and flees Turn 1. Need faster Sleep/Mean Look user long-term.*
 - Status: Super Repel active (Used Turn #13736). Steps taken: 77/200.
 - Milestones: 50 (T13746). (Prev: T13731)
-- Last Check: confirmed on Route 38 (Turn #13721). Current check in progress.
+- Last Check: confirmed on Route 38 (Turn #13758). Check successful.
 - Time Tracking: Monday, 10:05 PM PST.
 
 ## Battle Strategy
