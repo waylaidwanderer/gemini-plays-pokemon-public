@@ -11,7 +11,10 @@
     - **Verified:** ON opens North Gate `(10, 6)` and powers the secondary gates.
 - **Switch 3 (2, 1):**
     - **Hypothesis:** Emergency / Override Switch.
-    - **Verified:** ON opens Emergency shortcuts but overrides and CLOSES the main gates `(10, 6)` and `(6, 8)`.
+    - **Verified:** 
+        - ON opens Emergency shortcuts but overrides and CLOSES the main gates `(10, 6)` and `(6, 8)`.
+        - ON opens Shutter `(6, 12)` and CLOSES Shutter `(12, 12)`.
+        - OFF CLOSES Shutter `(6, 12)` and OPENS Shutter `(12, 12)`.
 
 ## Current Strategy
 **Goal:** Rescue Director.
@@ -19,5 +22,12 @@
 **Status:** 
 - North Gate `(10, 6)` is OPEN.
 - West Gate `(6, 8)` is OPEN.
-**Objective:** Enter the West Room via `(10, 6)` -> `(6, 8)` and explore the deep South area.
-**Reasoning:** The West Room connects to the southern part of the map which has not been fully explored. The Pharmacist's claim ("Nothing down there") likely refers to the immediate dead end, but the room extends further South.
+- Shutter `(6, 12)` is CLOSED.
+- Shutter `(12, 12)` is OPEN.
+**Analysis:**
+- Current config gives access to West Room `(6, 8)` but blocks progress at `(6, 12)`.
+- **New Plan:** Set **S1=ON, S2=ON, S3=OFF**.
+    - S1=ON opens `(12, 8)`.
+    - S3=OFF keeps `(12, 12)` OPEN.
+    - This should create a clear path South through the Inner East corridor.
+**Objective:** Verify West Room dead end, then switch S1 to ON and explore Inner East path.
