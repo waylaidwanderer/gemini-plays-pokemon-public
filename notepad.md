@@ -53,3 +53,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Current State:** S1=ON, S2=ON, S3=OFF.
 - **Goal:** Check if (20, 6) is OPEN.
 - **Note:** If closed, the next logical step is S1=ON, S2=ON, S3=ON.
+- **Result (Turn 14449):** With S1=ON, S2=ON, S3=OFF, Shutter (20, 6) is CLOSED.
+- **Action:** Navigating to Switch 3 to turn it ON.
+- **Next Config:** S1=ON, S2=ON, S3=ON.
+- **Reasoning:** S3 (Emergency) might be needed for the Emergency Switch path. S3 closes the central gate (10, 6), but I can reach (20, 6) via the North corridor (Row 4/5).
