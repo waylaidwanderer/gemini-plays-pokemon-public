@@ -73,3 +73,6 @@
 - **Action (Turn 15041):** Turned Emergency Switch `(20, 11)` ON.
 - **Hypothesis:** This should open the nearby shutters (likely `(20, 6)` or `(17, 6)`) or unlock the doors `(22, 10)` and `(23, 10)`.
 - **Plan:** Investigate the doors at `(22, 10)` and `(23, 10)` immediately.
+- **Transition (Turn 15043):** Entered Door at `(22, 10)` in Switch Room. Arrived in **Goldenrod Underground Warehouse (3_56)** at `(2, 12)`.
+- **Current Location:** A corridor on the west side of the Warehouse map.
+- **Plan:** Explore North.
