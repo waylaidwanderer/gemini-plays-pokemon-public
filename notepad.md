@@ -41,11 +41,12 @@
 - Source: Arnie (Bug Catcher) phone call.
 - Location: Route 35.
 - Status: Active (Turn 14571 - Timestamp: 14571).
-- Strategy: Lead with XENON (Gastly) for Normal immunity. Use KIMCHI's Sweet Scent to trigger encounters. 
-- Battle Plan: Switch to KIMCHI -> Sleep Powder -> Great Balls. (Note: XENON learns Night Shade at Lv 16).
+- Strategy: Use KIMCHI (Gloom) for Sleep status.
+- Battle Plan: Sleep Powder -> Great Balls. (Note: Avoid damaging unless necessary; XENON lacks fixed damage until Lv 16).
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10)
 - PIDGEY (Lv 12, 14)
 - NIDORAN♀ (Lv 12)
 - NIDORAN♂ (Lv 12)
+- YANMA (Lv 12) - Observed at (8, 9) during swarm.
