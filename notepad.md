@@ -7,13 +7,11 @@
 - **Goal:** Reach Southwest Ladder (3, 34) in Main Tunnel.
 
 # Strategy
-- **Puzzle Mechanic:** "Open one shutter, another closes."
-- **Clue:** Grunt at (11, 4) said 'The switch on the end is the one to press first'.
-- **Status:** Switch 1 is OFF. West Shutter (10, 5) is OPEN.
-- **Plan:**
-  1. Talk to defeated Grunt at (3, 4) for the "secret".
-  2. Locate and press Switch 3 (likely in this NW corner).
-  3. Find path to Switch 2.
+- **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
+- **Clue:** "The switch on the end is the one to press first" (Switch 3).
+- **Current State:** Switch 1 OFF. West Shutter OPEN. South Path CLOSED (Assumed).
+- **Action:** Pressing Switch 3 (First in sequence).
+- **Plan:** Press Switch 3 -> Switch 2 -> Switch 1. Aim: Open path to South Ladders.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (OFF).
