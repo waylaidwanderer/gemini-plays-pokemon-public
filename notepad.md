@@ -21,15 +21,16 @@
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
 - **Location:** Switch Room (20, 5).
-- **Action:** Test Shutter at (20, 6).
-- **Observation:**
-  - Need to verify if (20, 6) is open.
-  - Also check (23, 6) just in case.
+- **Observation:** (20, 6) is definitively CLOSED (Wall).
+- **New Hypothesis:** (20, 6) is the EXIT from the Director's Room, opened by the Emergency Switch. The ENTRANCE is via the Basement Key Door in the Main Tunnel, which warps to (22, 10).
+- **Action:** Go to Main Tunnel via Ladder.
 - **Plan:**
-  1. Bump (20, 6).
-  2. If closed, move to (23, 6) and bump.
-  3. If both closed, go turn ALL switches OFF.
-  4. Test "All OFF" state.
+  1. Go to Ladder at (23, 3).
+  2. Exit to Underground SE Room.
+  3. Warp to Main Tunnel.
+  4. Enter Basement Key Door (18, 6 in Main Tunnel).
+  5. Arrive at (22, 10) in Switch Room.
+  6. Press Emergency Switch at (20, 11).
 
 ## Reflection (Turn 14079)
 - **Execution:** Immediate.
