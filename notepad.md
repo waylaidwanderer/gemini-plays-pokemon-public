@@ -12,9 +12,10 @@
 - Path: Goldenrod -> Route 35 -> National Park -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
 
-## Suicune Tracking Notes (Turn 14900)
-- Suicune roams Johto after Tin Tower encounter. (Started Turn 14853).
+## Suicune Tracking Notes (Started Turn 14853)
+- Suicune roams Johto after Tin Tower encounter.
 - Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
+- Current Path: National Park -> Route 36 -> Route 42.
 
 ## Tile Mechanics
 - FLOOR: Standard traversal.
