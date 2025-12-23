@@ -2,8 +2,8 @@
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** Toggles East/West.
-    - **ON:** Inner East `(12, 8)` OPEN. Middle East `(16, 10)` OPEN. `(12, 12)` CLOSED.
-    - **OFF:** West `(6, 8)` OPEN. Inner East `(12, 8)` CLOSED.
+    - **ON:** Inner East `(12, 8)` OPEN. `(16, 10)` CLOSED (Verified Turn 14569). `(12, 12)` CLOSED.
+    - **OFF:** West `(6, 8)` OPEN. Inner East `(12, 8)` CLOSED. Testing `(16, 10)` now.
     - **Current:** OFF.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
