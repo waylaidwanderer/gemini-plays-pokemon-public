@@ -126,7 +126,8 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Navigating to Switch 3 to turn it OFF.
 - **Hypothesis:** Reaching state S1=OFF, S2=ON, S3=OFF.
 - **Expectation:** This should open Gate (10, 6) and West Gate (6, 8), allowing access to the West Room from the North.
-- **Observation (Turn 14473):** Navigating to Switch 3.
-- **Current State:** S1=OFF, S2=ON, S3=ON.
-- **Goal:** Reach S3 and turn it OFF to achieve S1=OFF, S2=ON, S3=OFF.
-- **Hypothesis:** This combination (S3 OFF) removes the emergency override, allowing S2 to open the gates. S1=OFF might open the West Gate (6, 8).
+- **Action:** Navigating to Switch 3 (2, 1).
+- **Current State (Actual):** S1=OFF, S2=ON, S3=ON.
+- **Goal:** Turn S3 OFF.
+- **Target State:** S1=OFF, S2=ON, S3=OFF.
+- **Hypothesis:** This should open the West Gate (6, 8) because S1=OFF selects West, S2=ON provides power, and S3=OFF removes the emergency override.
