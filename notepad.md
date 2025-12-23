@@ -14,7 +14,9 @@
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF. (Active).
     - OFF: ?
 - **Status:** S1=ON, S2=OFF, S3=ON.
-- **Goal:** Check if S3=ON opens Shutter (6, 8) or removes Wall (6, 9).
+- **Action:** Navigate to (6, 7) to inspect Shutter (6, 8).
+- **Hypothesis:** S3=ON opens Shutter (6, 8).
+- **Goal:** Reach Emergency Switch via West path if East is blocked.
 
 ## Reflection (Turn 13871)
 1. **Immediate Execution:** S1/S2/S3 combo tested. (20, 6) remains CLOSED. Pivot to exploration.
