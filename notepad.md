@@ -49,4 +49,6 @@
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
 ## Roamer Hunt Log
 - Suicune hunt started Turn 14980. Location: Route 42.
-- Current Status: Re-verifying location via Pokédex (Turn 15010).
+- Interception Point: (46, 12).
+- Repel Strategy: Lead with a Pokémon leveled higher than local wild Pokémon (Lv13-16) but lower than Suicune (Lv40), such as KIMCHI (Lv21), and use a Super Repel to isolate the Suicune encounter.
+- Current Status: Hunting Suicune on Route 42 (Turn 15019).
