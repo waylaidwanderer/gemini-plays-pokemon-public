@@ -52,6 +52,7 @@
 ### Route 35
 - DITTO (Lv 10) - Observed at (8, 9).
 - PIDGEY (Lv 12) - Observed during transit.
+- NIDORAN♀ (Lv 12) - Observed at (8, 9).
 
 ## Training Progress: XENON
 - Start Turn: 14500 (Timestamp: 14500)
