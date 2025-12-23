@@ -16,6 +16,13 @@
 - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
 
 ## Plan
-1. Enter Inner East Room via `(12, 8)`.
-2. Explore for path to Warehouse or Switch `(17, 10)`.
-3. If dead end, try S1=OFF for West Room path.
+1. Turn S1 OFF.
+2. Enter West Room via `(6, 8)`.
+3. Explore West Room for hidden paths or switches.
+4. Check if Emergency Switch `(20, 11)` is accessible from West Room (unlikely).
+
+## Exploration Notes
+- **Inner East (Col 12):** Explored. Dead End.
+    - Path `(12, 8)` -> `(17, 9)` contains no switches or items.
+    - Walls checked. No hidden switches.
+- **Switch (17, 10):** Does not exist (verified by XML scan).
