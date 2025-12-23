@@ -81,5 +81,20 @@
         "action_counter": 14240
       }
     ]
+  },
+  "use_sweet_scent_v6_refined": {
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Resets Start menu cursor by pressing 'Up' 7 times (assuming starting from EXIT), then navigates to POKEMON, selects KIMCHI, and uses the first field move. Includes B-presses to clear potential dialogue and sleep commands for reliability.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n# 1. B, B, B: Clear any open menus or dialogue.\n# 2. Start: Open menu.\n# 3. sleep 500: Pause for menu opening.\n# 4. Up * 7: Reset cursor to POKEDEX (Slot 1) from EXIT (Slot 8).\n# 5. Down: Move to POKEMON (Slot 2). A.\n# 6. sleep 500: Pause for party menu opening.\n# 7. Down * 5: Move to KIMCHI (Slot 6). A.\n# 8. A: Select first field move (Sweet Scent).\n# 9. B, B: Clear 'KIMCHI used Sweet Scent' text.\nprint(json.dumps([\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"A\", \"B\", \"B\"]))",
+    "history": [
+      {
+        "commit_message": "Refined use_sweet_scent_v6 to be even more robust: it now uses 'Down' 5 times in the party menu to reach KIMCHI (Slot 6) instead of wrapping, which is more predictable. It also resets the Start menu assuming it starts from EXIT (the most common closing position).",
+        "timestamp": "2025-12-23T10:59:15.739Z",
+        "action_counter": 14243
+      }
+    ]
   }
 }
