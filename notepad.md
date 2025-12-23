@@ -65,3 +65,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Moving to Switch 3 to turn it ON.
 - **New Test Config:** S1=ON, S2=ON, S3=ON.
 - **Hypothesis:** "All Systems Go" (All ON) might be the key. S3 (Emergency) combined with S1 (East) and S2 (Power) might open the path to the Emergency Switch.
+- **Action:** Interacting with Switch 3 to turn it ON.
+- **Target Config:** S1=ON, S2=ON, S3=ON.
+- **Reasoning:** S1 (East) + S2 (Power) + S3 (Emergency) is the only untested logical combination for opening the Outer East Shutter (20, 6).
