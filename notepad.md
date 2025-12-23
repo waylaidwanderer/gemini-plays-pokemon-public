@@ -51,4 +51,3 @@
 ## Repel Hunt Log
 - Status: Active on Route 42.
 - Start Turn: 15211.
-- Method: Lead with XENON (Lv 17), use Super Repel, pace in grass.
