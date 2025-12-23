@@ -21,7 +21,7 @@
 - TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick filters encounters based on lead level.
 - FLOOR: Traversable. Standard collision-free ground.
 - WALL / HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN: One-way traversable in the indicated direction.
+- LEDGE_HOP_DOWN: One-way traversable in the indicated direction. Verified.
 - WARP_CARPET: Traversable. Triggers map transition (warp).
 
 # Route 38/39 Boundary Reference
