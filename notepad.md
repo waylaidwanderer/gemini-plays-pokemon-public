@@ -1,10 +1,10 @@
 # Tile Mechanics
 - **Shutters:** Dynamic walls controlled by switches.
     - **Row 8 Shutters:**
-        - (6, 8): CLOSED (Sw3 OFF). Hypothesis: Opens with Sw3 ON.
+        - (6, 8): OPEN (Sw3 ON). CLOSED (Sw3 OFF).
         - (12, 8): Status unknown.
     - **Row 12 Shutters:**
-        - (6, 12): OPEN (Sw3 OFF). Hypothesis: Closes with Sw3 ON.
+        - (6, 12): CLOSED (Sw3 ON). OPEN (Sw3 OFF).
     - **Vertical Shutters:**
         - (20, 6): CLOSED (Sw3 OFF).
         - (10, 6): OPEN (Sw1 ON, Sw2 ON, Sw3 OFF).
@@ -23,11 +23,10 @@
 # Current State
 - **Switch 1:** ON
 - **Switch 2:** ON
-- **Switch 3:** OFF (Verified via text and shutter state).
-- **Correction:** In Turn 13445, the attempt to turn Sw3 ON failed. Thus, observations from 13446-13450 were with Sw3 OFF.
+- **Switch 3:** ON (Verified).
+- **Shutter (6, 8):** OPEN (Verified by system notice).
 
 # Strategy
-1. Battle Burglar at (3, 8) to clear path.
-2. Turn Switch 3 **ON**.
-3. Verify Shutter at (6, 8) opens.
-4. Proceed East to Middle Section.
+1. Cross Shutter at (6, 8) to Middle Section.
+2. Investigate Switch 2 area.
+3. Determine how to reach East Section (access to Emergency Switch).
