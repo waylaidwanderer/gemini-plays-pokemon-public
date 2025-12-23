@@ -11,12 +11,12 @@
     - OFF: Default. Allows S1 to open (12, 8).
 - **Current Plan:** Set S1=ON, S2=OFF, S3=OFF to open East Shutter (12, 8).
 - **Switch 3 (2, 1):**
-    - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF. (Active).
-    - OFF: ?
-- **Status:** S1=ON, S2=OFF, S3=ON.
-- **Action:** Navigate to (6, 7) to inspect Shutter (6, 8).
-- **Hypothesis:** S3=ON opens Shutter (6, 8).
-- **Goal:** Reach Emergency Switch via West path if East is blocked.
+    - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
+    - OFF: Default. Allows S1 to open (12, 8). (Active).
+- **Status:** S1=ON, S2=OFF, S3=OFF.
+- **Action:** Navigate to (12, 8) to verify East Shutter is OPEN.
+- **Hypothesis:** S3=OFF + S1=ON opens Shutter (12, 8).
+- **Goal:** Reach Emergency Switch via East path.
 
 ## Reflection (Turn 13871)
 1. **Immediate Execution:** S1/S2/S3 combo tested. (20, 6) remains CLOSED. Pivot to exploration.
