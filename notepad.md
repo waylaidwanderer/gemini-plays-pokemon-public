@@ -3,7 +3,7 @@
 - Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16 (verified Lv 16 Magnemite). Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
 - Repel Tracking:
   - Super Repel #1: Turn #13364 (Wore off Turn #13387).
-  - Super Repel #2: Turn #13391 (Expected to wear off ~Turn #13411).
+  - Super Repel #2: Turn #13391 (Used ~165/200 steps as of Turn #13414).
 - Tracking: Use Pokedex AREA map.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
@@ -11,6 +11,7 @@
   - Strategy: Multiple encounters to chip HP, or find a faster Sleep user/Mean Look trapper if progress stalls.
 - Capture Notes: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1 *if* the user is faster. Suicune is Lv 40.
 - Roamer Logic: Roamers only move when map boundaries are crossed, Fly is used, or after a battle with the roamer. Pacing or regular wild battles do not move them.
+- Contingency: If progress stalls after 5 failed encounters, I will pivot to catching a faster Pokémon (e.g., Haunter for Mean Look/Hypnosis).
 
 # Roaming Pokémon Reference
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge), uses Fly, or after a battle with the roamer.
