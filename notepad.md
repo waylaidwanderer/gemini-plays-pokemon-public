@@ -8,18 +8,19 @@
 - Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
 - Plan: Finish current Repel. If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly/Haunter).
 
-## Tile Mechanics - Route 38
+## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile. Movement registers as steps.
 - WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN: One-way movement down.
-- LEDGE_HOP_LEFT: One-way movement left.
-- LEDGE_HOP_RIGHT: One-way movement right.
+- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way movement in the specified direction.
 - WARP_CARPET_RIGHT: Map transition to Ecruteak Gatehouse.
+- WATER: Traversable only with HM SURF.
+- ICE: Causes sliding until an obstacle is hit.
+- COUNTER: Stand in front of it to interact with NPCs behind it.
+- WHIRLPOOL: Requires HM WHIRLPOOL to cross.
 
 ## Strategy Notes
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle with it.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 - Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50-100 steps.
 - Last Check: confirmed on Route 38 (Turn #13796). Check successful.
-- Time Tracking: Monday, 10:27 PM PST.
