@@ -11,10 +11,6 @@
 - Goal: Locate Suicune and find Fisher Tully.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
 
-## Suicune Tracking Notes (Started Turn 14853)
-- Suicune roams Johto after Tin Tower encounter.
-- Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
-
 ## Tile Mechanics
 - FLOOR: Standard traversal.
 - WALL / FENCE: Impassable.
@@ -36,12 +32,10 @@
 - Normal vs. Poison/Grass: 1.0x (Observed: Yanma's Tackle vs. Gloom).
 
 ## NPCs & Locations
-- Fisher Tully: (15, 13) Route 32. Fishing info (Route 42).
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
 ## Lessons Learned
 - **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools. NEVER use `autopress_buttons` in custom tools for overworld navigation.
-- **Navigation:** National Park is a valid path to Route 36 via the east exit at (33, 18). Route 42 is accessible from Ecruteak City's east gate at (35, 27).
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
 
 ## National Park & Bug-Catching Contest
