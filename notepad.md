@@ -75,3 +75,7 @@
   1. Turn Switch 2 ON.
   2. Navigate via Row 4 to (20, 6).
   3. Check if (20, 6) is OPEN.
+- **Action:** Switch 2 turned ON.
+- **Current State:** S1=ON, S2=ON, S3=OFF.
+- **Hypothesis:** This combination might open the shutter at (20, 6) or (12, 8). Previous tests with S2=OFF failed to open (20, 6).
+- **Plan:** Navigate to (20, 5) to inspect the shutter state.
