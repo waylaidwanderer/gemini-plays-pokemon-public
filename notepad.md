@@ -6,19 +6,8 @@
 - Track Suicune using Pokedex AREA map. Cycle between adjacent routes to force movement.
 - Item Goal: Buy Ultra Balls at Goldenrod or Blackthorn Marts.
 
-## Verified Mechanics & Lessons
-- Cursor Persistence: Battle move menu remembers selection. Always verify cursor position.
-- Menu Navigation: Start, Party, and Battle menus wrap. Use relative navigation.
-- Tool Hygiene: Refine custom tools immediately if they produce incorrect results. Use manual inputs to progress in battle.
-- Tile Collision: NPCs, certain trees, and ledges block paths. Use 'run_code' to verify navigability.
-- Status moves: Fails if the target already has a status condition (e.g. Hypnosis vs Paralyzed).
-- Sweet Scent: Triggers immediate wild encounters on valid grass tiles.
-- FLOOR_UP_WALL: One-way pathing (traversable North, impassable South). Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
-- LEDGE_HOP_DOWN: One-way pathing (traversable South, impassable North). Found at (12, 27), (16, 15), (6, 81), (8, 81).
-- LEDGE_HOP_RIGHT: One-way pathing (traversable East, impassable West). Found at (17, 12), (17, 13), (17, 14), (9, 80).
-- Type Effectiveness: Ghost immune to Normal/Fighting. Lick (Ghost) ineffective against Normal. Hoppip immune to Ghost moves in this ROM version. Fighting/Normal vs Ghost: Ineffective (Immunity).
-
-## Training Log: XENON
+## Training Progress: XENON
+- Start Turn: 14500
 - Status: Lv 13 reached. Mean Look learned.
 - Next Goal: Lv 25 (Evolution).
 - Method: Sweet Scent at (18, 15) Route 32. RUN from Normal-types and Hoppip.
@@ -26,11 +15,20 @@
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
 - Current Task: Explore southern land via the western corridor (Column 1).
-- Target: Slowpoketail Seller at (11, 67).
-- Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 76-87).
+- Target: Bottom-left perimeter (1, 87).
+- Future Targets: West of (13, 10), East of (19, 28).
+
+## Lessons Learned & Corrections
+- **Type Matchups:** Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal. Hoppip is immune to Ghost moves in this ROM (Gen 2 mechanic).
+- **Tile Mechanics:**
+    - `FLOOR_UP_WALL`: One-way pathing (North only). Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
+    - `LEDGE_HOP_DOWN`: One-way pathing (South only).
+    - `LEDGE_HOP_RIGHT`: One-way pathing (East only).
+- **Menu Navigation:** Start, Party, and Battle menus wrap. Always verify cursor position.
+- **Tool Hygiene:** Refine custom tools immediately if they produce incorrect results.
 
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32. Contact for fishing info.
 - Slowpoketail Seller: (11, 67) Route 32. Selling tails for ¥1,000,000.
 - Arnie (Bug Catcher): Mentions Growlithe sightings (likely Route 31).
-- Fisher (Object ID 3): (6, 48) Route 32.
+- Youngster Gordon: (4, 63) Route 32. Defeated.
