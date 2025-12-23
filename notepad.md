@@ -119,3 +119,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     3. Ensure S2 is ON.
     4. Go through `(10, 6)` to `(6, 8)`.
 - **Action:** Turning Switch 1 OFF first.
+- **Action:** Switch 1 turned OFF.
+- **Current State:** S1=OFF, S2=ON, S3=ON.
+- **Next Step:** Navigate to Switch 3 (2, 1) and turn it OFF.
+- **Goal:** Reach state S1=OFF, S2=ON, S3=OFF.
