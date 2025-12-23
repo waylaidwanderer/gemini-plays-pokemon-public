@@ -21,19 +21,18 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to `(12, 13)` (South of Target Shutter).
-   - Current Position: `(12, 5)`.
-2. Move West from `(12, 13)` to explore the unseen area at Row 14 `(9-11, 14)`.
-   - The map indicates a corridor heading West.
-3. Locate the Director or the Warehouse entrance.
+1. Navigate to `(20, 5)` to check the NE Shutters `(20, 6)`.
+   - Path: `(12, 5) -> (12, 4) -> (20, 4) -> (20, 5)`.
+   - Reason: The path South from `(12, 9)` appears blocked by walls at Row 10. The Warp at `(22, 10)` is the likely way forward, but it is blocked by the NE Shutters.
+2. If `(20, 6)` is OPEN, proceed to the Warp at `(22, 10)`.
+3. If `(20, 6)` is CLOSED, I need to rethink the switch combination.
+   - Tested: S1=ON, S2=ON, S3=ON -> CLOSED.
+   - Testing: S1=OFF, S2=ON, S3=ON -> ???.
 
 ## Observations
 - **Switch Status:** S1=OFF, S2=ON, S3=ON.
-- **Area Status:**
-  - `(12, 12)` Target Shutter is OPEN.
-  - `(12, 13)` leads to a T-junction or room.
-  - West path leads to unseen tiles.
-- **Goal:** Explore the new area thoroughly.
+- **Correction:** `(12, 12)` is NOT reachable from the North due to walls at Row 10/11. The path likely involves the Warp at `(22, 10)`.
+- **Goal:** Open access to `(22, 10)`.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
