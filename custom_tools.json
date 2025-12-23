@@ -1,55 +1,4 @@
 {
-  "find_path_v4": {
-    "description": "Finds the shortest path to a target coordinate. Correctly handles walls, NPCs, items, and unseen tiles. If the target is impassable, finds a path to an adjacent tile.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = [[True for _ in range(width)] for _ in range(height)]\n    impassable_types = ['WALL', 'HEADBUTT_TREE', 'MART_SHELF', 'COUNTER', 'WATER', 'BOULDER', 'TABLE', 'PC', 'STAIRS_UP', 'STAIRS_DOWN', 'BOOKSHELF']\n    \n    start_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            \n            if t_type in impassable_types:\n                grid[y][x] = False\n            \n            if tile.attrib.get('has-object') == 'true':\n                grid[y][x] = False\n                \n            for marker in tile.findall('Marker'):\n                if 'Wall' in marker.text or '🧱' in marker.attrib.get('emoji', ''):\n                    grid[y][x] = False\n            \n            if tile.find('Player') is not None:\n                start_pos = (x, y)\n                grid[y][x] = True\n                \n    if start_pos is None:\n        print(json.dumps([]))\n        return\n\n    queue = deque([(start_pos, [])])\n    visited = {start_pos}\n    \n    if not grid[target_y][target_x]:\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = target_x + dx, target_y + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[ny][nx]:\n                target_x, target_y = nx, ny\n                break\n        else:\n            print(json.dumps([]))\n            return\n\n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n                \n    print(json.dumps([]))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-21T06:11:17.104Z",
-        "action_counter": 8161
-      },
-      {
-        "commit_message": "Fixed find_path_v4: removed non-standard getparent() call and improved player position detection. Consolidated grid construction and BFS.",
-        "timestamp": "2025-12-21T06:23:10.110Z",
-        "action_counter": 8180
-      },
-      {
-        "commit_message": "Ensure tool correctly returns a list of button strings for overworld navigation when autopress_buttons is true. Fixes previous formatting issues.",
-        "timestamp": "2025-12-22T02:53:22.052Z",
-        "action_counter": 10751
-      },
-      {
-        "commit_message": "Fix player position detection in find_path_v4 to avoid TypeError when start_row is not found via XPath. Use a more robust loop-based approach.",
-        "timestamp": "2025-12-22T02:54:08.460Z",
-        "action_counter": 10753
-      },
-      {
-        "commit_message": "Improved traversable types to include 'unseen' for optimistic pathfinding and added logic to path to adjacent tiles if the target is impassable (e.g., an NPC or wall).",
-        "timestamp": "2025-12-22T05:52:22.947Z",
-        "action_counter": 11104
-      },
-      {
-        "commit_message": "Added MART_SHELF and COUNTER to impassable types and improved object/marker collision handling.",
-        "timestamp": "2025-12-23T00:55:17.780Z",
-        "action_counter": 13197
-      }
-    ]
-  },
   "get_type_effectiveness_gen2": {
     "description": "Returns the type effectiveness multiplier for an attack in Gen 2 Pokemon Crystal.",
     "input_schema": {
@@ -113,18 +62,18 @@
       }
     ]
   },
-  "use_sweet_scent_v3": {
-    "description": "Uses Sweet Scent from KIMCHI (slot 6). Requires cursor to be on Slot 1 (POKEDEX) of the Start menu or in the overworld with the cursor already at Slot 1.",
+  "use_sweet_scent_v4": {
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Resets Start menu cursor by pressing 'Up' 7 times, then navigates to POKEMON, selects KIMCHI, and uses the first field move. Includes B-presses to clear potential dialogue.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"Down\", \"A\", \"Up\", \"A\", \"Down\", \"A\"]))\n",
+    "python_script": "import json\n# Reset Start menu (8 items): Up 7 times. \n# POKEMON is the 2nd item (Down 1).\n# KIMCHI is the 6th item (Down 5).\n# Sweet Scent is the 1st field move (A).\nprint(json.dumps([\"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"A\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-23T10:36:46.399Z",
-        "action_counter": 14210
+        "timestamp": "2025-12-23T10:41:51.723Z",
+        "action_counter": 14221
       }
     ]
   }

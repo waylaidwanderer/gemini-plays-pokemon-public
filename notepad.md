@@ -4,7 +4,7 @@
 - Evolve to Haunter (Lv 25) to ensure Base 95 Speed (Suicune is Base 85). Haunter needs to be faster than Suicune to use Mean Look before it flees.
 - Track Suicune using Pokedex AREA map.
 - Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
-- Note: Strategy Advisor suggests training to Lv 30 for survivability.
+- Note: Strategy Advisor suggests training to Lv 35 for survivability.
 
 ## Game Mechanics & Lessons
 - Ghost-type Moves: Lick (Ghost) does not affect Normal types.
@@ -18,7 +18,7 @@
 
 ## Training Plan: XENON (How)
 - Method: Grind on Route 32 grass using Sweet Scent.
-- Target: Lv 13 for Mean Look, then Lv 30-35.
+- Target: Lv 13 for Mean Look, then Lv 35.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
 
@@ -39,8 +39,5 @@
 - WALL/HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN: Jumpable one-way movement south. Verified at (16, 15).
 - WARP_CARPET: Map transition. Verified.
-- WATER: Traversable with HM SURF. Verified.
-- ICE: Sliding movement. Verified.
 - COUNTER: Interaction point for NPCs; impassable.
-- LADDER: Vertical map transition; traversable.
 - NPC: Map objects that block movement. Verified.
