@@ -132,12 +132,8 @@
 - **Action:** Executing the "All OFF" test plan.
 - **Step 1:** Go to Switch 2 (currently ON) and turn it OFF.
 - **Note:** Turning S2 OFF will close the gate at (10, 6), confining me to the North area, which is fine for reaching S1 and the test point (20, 6).
-- **Action:** Turning Switch 2 OFF (Confirming YES).
-- **Next State:** S1=ON, S2=OFF, S3=OFF.
+- **Status:** Switch 2 is confirmed OFF.
+- **Action:** Closing menu (Leaving S2 OFF).
+- **Next Step:** Go to Switch 1 (16, 1) and turn it OFF.
 - **Target State:** S1=OFF, S2=OFF, S3=OFF.
-- **Plan:**
-  1. Confirm S2 OFF.
-  2. Navigate to Switch 1 (16, 1).
-  3. Turn S1 OFF.
-  4. Navigate to (20, 6) via Row 4.
-  5. Check if Outer East Shutter (20, 6) is OPEN.
+- **Hypothesis:** This "All OFF" state might open the Outer East Shutter (20, 6).
