@@ -10,12 +10,16 @@
 - **Key Item:** BASEMENT KEY (Obtained).
 
 # Puzzle Strategy
-- **Goal:** Reach the Northeast section (Ladder to Switches).
-- **State:** North Gate (Row 8/9) is CLOSED. South Gate (Row 12) is OPEN (Dead End).
-- **Hypothesis:** Walking on Column 9 (Line of Sight of Black Belt at 9,9) keeps the North Gate closed.
-- **Test:** Move Left to (8, 8) to exit Line of Sight. Check if gate opens.
-- **Next Step:** If closed, go to Elevator to reset, then approach North Gate via Column 8 (hugging wall).
-- **Alternative:** Try flanking Black Belt at (9, 9) from behind via (8, 10) -> (9, 10).
+- **Goal:** Reach the Northeast section via the North Gate (Row 8).
+- **Current State:** North Gate (10, 8) is CLOSED. South Gate (10, 12) is OPEN.
+- **Hypothesis:** The gates toggle based on where the Black Belt sees the player.
+    - Being seen at North (Row 8/9) -> Closes North, Opens South.
+    - Being seen at South (Row 11/12) -> Closes South, Opens North.
+- **Plan:**
+    1. Move South along "Safe" Column 8 to (8, 12).
+    2. Step onto (9, 12) to intentionally trigger the "South Alarm".
+    3. Check if South Gate (10, 12) CLOSES.
+    4. If it closes, run back North along Column 8 to the North Gate (10, 8), which should now be OPEN.
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
