@@ -2,8 +2,8 @@
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16. Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
 - Repel Tracking:
-  - Super Repel #4: Pending.
-- Tracking: Use Pokedex AREA map.
+  - Super Repel #4: Turn #13457 (Expected to wear off ~Turn #13477).
+- Tracking: Use Pokedex AREA map via check_suicune_location_v7.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
   - Expect Suicune to flee on Turn 1 before Sleep Powder.
