@@ -108,11 +108,10 @@
 
 - **Action:** S1 is confirmed ON. Canceling menu.
 - **Next:** Go to (20, 5) to check Shutter (20, 6).
-- **Correction:** Previous turn input was truncated by system (mixed inputs). I only pressed 'A'.
-- **Current Situation:** Menu is open: "It's OFF. Turn it ON?" Cursor is on YES.
-- **Action:** Confirming YES (Press A).
+- **Correction:** Screen says "It's ON". My previous inference was wrong. Switch 1 is ALREADY ON.
+- **Action:** Pressing B to cancel (keeping S1 ON).
+- **Current State:** S1=ON, S2=ON, S3=OFF.
 - **Plan:**
-  1. Press A to turn S1 ON.
-  2. Clear text.
-  3. Navigate to (20, 5).
-  4. Inspect Shutter (20, 6).
+  1. Cancel menu (Leave S1 ON).
+  2. Navigate to (20, 5).
+  3. Inspect Shutter (20, 6).
