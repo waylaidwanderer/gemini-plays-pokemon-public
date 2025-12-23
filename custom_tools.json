@@ -150,31 +150,6 @@
       }
     ]
   },
-  "check_suicune_location_v6": {
-    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Robustly handles menu navigation by resetting cursor.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\nbuttons = []\n# Ensure in overworld\nfor _ in range(3):\n    buttons.append(\"B\")\n\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 1000\")\n\n# Reset cursor to top (POKEDEX) assuming 8-item menu\nfor _ in range(8):\n    buttons.append(\"Up\")\n    buttons.append(\"sleep 100\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n# Select Suicune\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n# Select AREA\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 3000\")\n# Exit\nfor _ in range(4):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 500\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Created a more robust version of the Suicune tracking tool that handles the 8-item wrapping menu correctly.",
-        "timestamp": "2025-12-23T00:40:14.726Z",
-        "action_counter": 13175
-      },
-      {
-        "commit_message": "Created a more robust version of the Suicune tracking tool that handles the 8-item wrapping menu correctly and resets the cursor to POKEDEX.",
-        "timestamp": "2025-12-23T00:43:17.948Z",
-        "action_counter": 13181
-      },
-      {
-        "commit_message": "Fixed cursor reset logic in check_suicune_location_v6 and optimized sleep times to stay within the 10s limit.",
-        "timestamp": "2025-12-23T00:57:31.717Z",
-        "action_counter": 13199
-      }
-    ]
-  },
   "check_suicune_location_v7": {
     "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Resets menu state and cursor position for reliability. Assumes cursor starts on PACK.",
     "input_schema": {
@@ -192,6 +167,18 @@
         "commit_message": "Fixing cursor navigation: Press Up 2 times to reach Pokedex from PACK, assuming menu wraps and has 8 items.",
         "timestamp": "2025-12-23T03:20:28.265Z",
         "action_counter": 13466
+      }
+    ]
+  },
+  "use_super_repel_v1": {
+    "description": "Uses a Super Repel from the Pack. Assumes you have Super Repels in the ITEMS pocket at the 13th slot. Starts from overworld.",
+    "input_schema": {},
+    "python_script": "import json\n\ndef use_super_repel():\n    # Sequence: Start, Down*2, A (Pack), Up*20 (Reset), Down*12, A, A, B*3\n    buttons = [\"Start\", \"sleep 500\", \"Down\", \"Down\", \"A\", \"sleep 1000\"]\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    # Scroll to 13th item (Super Repel)\n    for _ in range(12):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T03:31:20.134Z",
+        "action_counter": 13479
       }
     ]
   }
