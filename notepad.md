@@ -8,6 +8,11 @@
 - Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
 - Plan: Finish current Repel. If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly/Haunter).
 
+## Hunting Session Tracking
+- Current Session Start: Turn #13803
+- Current Super Repel: Turn #13803 (Steps: 80/200)
+- Total Super Repels Used (Session): 1
+
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile. Movement registers as steps.
@@ -24,4 +29,3 @@
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 - Efficiency: Use the `pacer` tool to automate hunting. Check Pokédex every 50-100 steps.
 - Last Check: confirmed on Route 38 (Turn #13812). Check successful.
-- Status: Super Repel active (Used Turn #13803). Steps: 60/200.
