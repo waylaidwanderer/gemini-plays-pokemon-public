@@ -30,3 +30,4 @@
 - **Switch History:**
     - Sw 1 ON: Closes Vertical 2 (10, 6/7).
     - Sw 3 ON: Opens Top 1-2 (6, 8) & Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
+- **Observation:** Switch 3 OFF caused Shutter (6, 8) to Close (FLOOR -> WALL). This confirms Switch 3 controls Shutter 1-2 (Top).
