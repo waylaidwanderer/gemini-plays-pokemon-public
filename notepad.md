@@ -2,8 +2,8 @@
 ## The Repel Trick
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Status: Super Repel active (Used Turn #13611). ~200 steps remaining.
-- Pacing Progress: 200/200 steps taken. Hunt started Turn #13189. Current Turn #13634.
+- Status: Super Repel expired (Turn #13641).
+- Pacing Progress: 0/200 steps (Resetting). Hunt started Turn #13189. Current Turn #13641.
 - Inventory: Super Repel x5 remaining (Item 15 in PACK).
 - Strategy: Resume pacing at (25, 7). Expect flee on Turn 1; persistence is required to land Sleep Powder.
 
@@ -18,7 +18,7 @@
 ## Route 38 Environment
 - Roamer Logic: Suicune moves routes ONLY when crossing map boundaries (Route 38/39 edge), using Fly, or after a battle.
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
-- Location: Verified on Route 38 (Turn #13620).
+- Location: Verified on Route 38 (Turn #13640).
 
 ## Resources
 - Party: KIMCHI (Gloom 21), ICARUS (Pidgey 16), GNEISS (Graveler 43), Ravioli (Krabby 10), Blarney (Sudowoodo 20), Calcifer (Typhlosion 45).
