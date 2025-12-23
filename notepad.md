@@ -22,18 +22,18 @@
 
 # Restock Task (Started Turn #13076)
 - Goal: Buy 20 Super Repels (10,000 yen).
-- Current Funds: 5821 yen.
+- Current Funds: 6321 yen.
 - TM Selling Progress:
   - TM01 (DynamicPunch): Sold for 1500 yen.
   - TM08 (Rock Smash): Sold for 500 yen.
   - TM12 (Sweet Scent): Sold for 500 yen.
   - TM16 (Icy Wind): Sold for 1500 yen.
-  - TM35 (Sleep Talk): Selling (500 yen).
+  - TM35 (Sleep Talk): Sold for 500 yen.
   - TM45 (Attract): Pending.
   - TM49 (Fury Cutter): Pending.
   - TM50 (Nightmare): Pending.
 - Estimated Revenue: ~10,321 yen total.
-- Time Tracking: 38 turns elapsed since task start.
+- Time Tracking: 41 turns elapsed since task start.
 
 # Olivine Mart Tile Mechanics
 - MART_SHELF: Impassable. (Visual confirmation: Attempted movement blocked).
