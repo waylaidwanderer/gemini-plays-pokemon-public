@@ -1,39 +1,21 @@
 # Goldenrod Underground Switch Puzzle
 
-## Tile Mechanics
-- **FLOOR:** Walkable.
-- **WALL/Shutter (Closed):** Impassable.
-- **Shutter (Open):** Walkable.
-- **Switch:** Toggles shutter states.
-- **LADDER/DOOR/WARP:** Transitions to other areas.
-
-## Switch Mechanics Log
+## Verified Switch Logic
 - **Switch 1 (16, 1):**
-    - ON: Opens East Shutter (12, 8) if S2 is OFF.
+    - ON: Opens East Shutter (12, 8) IF S2 is OFF.
     - OFF: Default.
 - **Switch 2 (10, 1):**
-    - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8). **CONFIRMED**
-    - OFF: Default. Allows S1 to open East.
+    - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8). (Overrides S1)
+    - OFF: Default.
 - **Switch 3 (2, 1):**
-    - ON: Opens West Shutter (6, 8). Closes East Shutter (12, 8).
+    - ON: Closes West (6, 8) & East (12, 8). (Overrides S2 & S1). *Likely an emergency reset or trap.*
     - OFF: Default.
 
-## Current Status
-- **State:** Inside Warehouse Area.
-- **Location:** Goldenrod Underground (SE Section).
-- **Observation:** Warped from (18, 6) to (21, 31). This confirms (18, 6) is the entrance to this section.
-- **Action:** Explore North to find the Director.
-- **Plan:**
-  1. Move North from (21, 31).
-  2. Navigate past counters at Row 29.
-  3. Look for the Director or further passages.
-
-## Reflection (Turn 14079)
-- **Execution:** Immediate.
-- **Hygiene:** Notepad/Map are up to date. Deleted stale markers.
-- **Automation:** Manual testing is efficient for this 3-switch puzzle.
-- **Goals:** Clear outcome (Open Shutter).
-- **Analysis:** Systematically testing combinations. "All ON" is the current test.
+## Current Plan
+1. **Goal:** Open East Shutter (12, 8) to reach the Warehouse.
+2. **Current State:** S1=ON, S2=ON, S3=OFF.
+3. **Next Step:** Turn S2 OFF.
+4. **Prediction:** With S1=ON, S2=OFF, S3=OFF -> East Shutter (12, 8) should OPEN.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
@@ -41,47 +23,3 @@
 - **Shutter (Open):** Walkable.
 - **Switch:** Toggles shutter states.
 - **LADDER/DOOR/WARP:** Transitions to other areas.
-
-## Switch Mechanics Log
-- **Switch 1 (16, 1):** ON opens (12, 8) if S2 OFF.
-- **Switch 2 (10, 1):** ON opens (10, 6) & (6, 8). Closes (12, 8). *Hypothesis: Opens (20, 6).*
-- **Switch 3 (2, 1):** ON opens (12, 8). Closes (20, 6)? No, (20, 6) was closed anyway.
-- **Observation:** (20, 6) is CLOSED even when S2 is ON. Hypothesis that S2 opens it might be wrong, or S3/S1 interferes.
-- **Action:** Going to Switch 2 (10, 1).
-- **Plan:**
-  1. Turn Switch 2 OFF.
-  2. Check Shutter states.
-  3. Turn Switch 3 OFF.
-  4. Check Shutter states.
-  5. Goal is to open East Shutter (12, 8).
-- **Observation:** S2 is ON. Gate at (10, 6) is visually OPEN. Assuming (10, 7) is also OPEN despite map data saying WALL (gates are usually 2 tiles high).
-- **Action:** Walking South to cross the gate.
-- **Target:** (10, 8).
-- **Next Step:** Go West to (6, 8).
-- **Plan:**
-  1. Move South to (10, 8).
-  2. Move West to (6, 8).
-  3. If (6, 8) is open, proceed South.
-- **Action:** Entering the SW area through Shutter (6, 8).
-- **Goal:** Explore this new section for the Director or key items.
-- **Observation:** Switch 3 was OFF (contrary to marker). Row 10 shutters were CLOSED.
-- **Action:** Turning Switch 3 ON.
-- **Hypothesis:** S3 ON might open Row 10 shutters (Emergency Switch path?).
-- **Plan:**
-  1. Select YES to turn S3 ON.
-  2. Walk South to check Row 10 shutters (e.g. at 2, 10 or 3, 10).
-  3. Also verify if (6, 8) remains open.
-- **Observation:** With S1, S2, and S3 ALL ON, the gates at (10, 6) and (6, 8) are CLOSED.
-- **Conclusion:** S3 ON interferes with S2, closing the paths S2 opened.
-- **New Strategy:** To reach the Director (likely SE area), I need to open the East Shutter at (12, 8).
-- **Hypothesis:** S1 ON opens (12, 8) ONLY if S2 is OFF (and likely S3 OFF).
-- **Plan:**
-  1. Turn Switch 3 OFF (Reset interference).
-  2. Turn Switch 2 OFF (Enable S1).
-  3. Verify (12, 8) opens.
-  4. Proceed East to the Warehouse/Director.
-- **Observation (Turn 14129):** S3 OFF caused (6, 8) to OPEN (changed from WALL to FLOOR).
-- **Confirmed Logic:** S2 ON opens (6, 8). S3 ON closes it (overrides S2).
-- **Current State:** S1=ON, S2=ON, S3=OFF. (6, 8) is OPEN.
-- **Goal:** Open East Shutter (12, 8).
-- **Next Action:** Turn S2 OFF. Hypothesis: S1 ON + S2 OFF will open (12, 8).
