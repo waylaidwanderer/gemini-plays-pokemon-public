@@ -154,3 +154,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Expectation:** Switch 3 is now OFF.
 - **State:** S1=OFF, S2=ON, S3=OFF.
 - **Next:** Move to (10, 6).
+- **Action:** Navigating to North Gate (10, 6).
+- **Current State:** S1=OFF, S2=ON, S3=OFF.
+- **Expectation:** (10, 6) should be OPEN (S2=ON).
+- **Goal:** Once inside, check West Gate (6, 8). Hypothesis: S1=OFF opens it.
