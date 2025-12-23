@@ -10,11 +10,13 @@
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
 - **Current Status:** Switch 1 ON. Switch 2 OFF. Switch 3 OFF.
-- **Observation:** Vertical 2 (10, 6) is CLOSED.
+- **Observations:**
+    - Vertical 2 (10, 6) CLOSED.
+    - Vertical 4 (16, 6) OPEN (Observed Row 6 change to Floor).
 - **New Plan:**
-    1. Turn Switch 1 OFF (Config: 1 OFF, 2 OFF, 3 OFF).
-    2. Check Vertical 2 (10, 6).
-    3. If still closed, investigate other open paths (e.g. is 12,8 open?).
+    1. Navigate to (16, 6) and pass through the open shutter.
+    2. Explore the Southern area.
+    3. Attempt to reach Emergency Switch (20, 11) by looping around (possibly from below or checking for other openings).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
