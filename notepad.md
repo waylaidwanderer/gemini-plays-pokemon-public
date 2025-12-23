@@ -28,10 +28,9 @@
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
 ## Event: Yanma Swarm (Route 35)
-- Strategy: KIMCHI (Gloom) for Sleep Powder + Absorb (Safe weakening).
-- Resources: Sleep Powder PP: 0. Max Ether in bag.
-- Battle State: Yanma SLP, HP in red. Throwing Great Balls.
+- Status: COMPLETE. Caught Level 12 Female Yanma (INTERCEPT).
+- Strategy Used: KIMCHI (Gloom) for Sleep Powder + Absorb.
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
-- Observed Moves: Tackle, Quick Attack, Foresight.
+- Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
