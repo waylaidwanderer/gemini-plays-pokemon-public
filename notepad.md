@@ -21,14 +21,14 @@
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=ON.
 - **Location:** Switch Room (20, 5).
-- **Action:** Test Shutter at (20, 6).
-- **Observation:** Visually looks closed (Wall tile).
+- **Action:** Turn Switch 3 OFF.
 - **Plan:**
-  1. Attempt to enter (20, 6) to confirm.
-  2. If blocked, the combination is invalid.
-  3. Next Hypothesis: S1 (East) + S2 (North) might open the North-East shutter.
-  4. Plan: Turn S1 ON (Result: S1=ON, S2=ON, S3=ON/OFF).
-  5. Use Warehouse Back Door to check (20, 6).
+  1. Move to Switch 3 (2, 2).
+  2. Turn S3 OFF. (Result: S1=OFF, S2=ON, S3=OFF).
+  3. Move to Switch 1 (16, 2).
+  4. Turn S1 ON. (Result: S1=ON, S2=ON, S3=OFF).
+  5. Check Shutter at (20, 6).
+  6. If Closed, try All ON.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
