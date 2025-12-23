@@ -197,25 +197,5 @@
         "action_counter": 12241
       }
     ]
-  },
-  "check_suicune_location_v5": {
-    "description": "Navigates from the overworld to Suicune's Pokédex AREA map, pauses for 5 seconds to allow for observation, and then exits back to the overworld. Robustly selects POKEDEX by resetting cursor.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\n\ndef main():\n    # Sequence to robustly select POKEDEX:\n    # 1. Start (Menu)\n    # 2. Press Up 10 times (Ensure cursor is at POKEDEX)\n    # 3. A (Select POKEDEX)\n    # 4. A (Select Suicune - assuming it's the only roamer or first in list)\n    # 5. Right (Select AREA)\n    # 6. A (View map)\n    # 7. Pause (5000ms)\n    # 8. B, B, B, B (Exit)\n    \n    buttons = [\n        \"Start\", \"sleep 1000\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\",\n        \"A\", \"sleep 1500\",\n        \"A\", \"sleep 1500\",\n        \"Right\", \"sleep 500\",\n        \"A\", \"sleep 5000\",\n        \"B\", \"sleep 800\",\n        \"B\", \"sleep 800\",\n        \"B\", \"sleep 800\",\n        \"B\", \"sleep 800\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-22T23:07:36.072Z",
-        "action_counter": 13023
-      },
-      {
-        "commit_message": "Fixing menu navigation logic: using 10 'Up' presses to reliably reset the cursor to POKEDEX from any starting position in the main menu.",
-        "timestamp": "2025-12-22T23:52:39.319Z",
-        "action_counter": 13082
-      }
-    ]
   }
 }
