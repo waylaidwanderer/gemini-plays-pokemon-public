@@ -23,3 +23,6 @@
 - **Dept Store Puzzle:** Solved (South Gate opened), but led to Dead End (Blue Barrier).
 - **Rival Battle:** Defeated Silver.
 - **Blockage:** Path South (Row 10) blocked. Needs switch to open.
+- **Observation:** Turning Switch 2 ON caused tiles (10, 7) and (11, 7) to change from WALL to FLOOR. Middle South Path is now OPEN.
+- **Plan:** Proceed to Switch 1. Turn it ON to complete the 3 -> 2 -> 1 sequence.
+- **Goal:** Verify if this sequence opens the blockade at Row 10 or allows access to the SW Ladder.
