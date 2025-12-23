@@ -27,11 +27,9 @@
     - **Action:** Turning S2 ON.
     - **Status:** Processing interaction.
 - **S1 (16, 1):** Toggles East/West.
-    - **Current:** ON.
-    - **Behavior with S3=ON:**
-        - S1=ON -> (12, 8) CLOSED. (17, 6) CLOSED.
-        - S1=OFF -> (12, 8) OPEN. (Verified).
-    - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
+    - **Current:** OFF. (Found OFF. Likely reset by S2).
+    - **Status:** Testing S1=OFF, S2=ON, S3=OFF.
+    - **Plan:** Check Shutter (17, 6).
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6).
     - **Path A:** Blocked. Shutter (20, 6) CLOSED (S3 ON/OFF).
     - **Path B:** Ladder (23, 3) -> 3_53 (SE).
