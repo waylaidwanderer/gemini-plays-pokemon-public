@@ -13,15 +13,14 @@
 
 ## Current Strategy
 **Goal:** Rescue Director.
-**Hypothesis:** The Pharmacist is guarding a secret entrance or switch in the West Room (Segment A).
+**Hypothesis:** S1=ON + S2=ON opens the East Shutter (12, 8), allowing access to the Director's location (likely Door 22, 10).
 **Reasoning:**
-- The room appears to be a dead end, which makes the shutter puzzle and Pharmacist placement suspicious.
-- "There's nothing down there" suggests I should look "down there" (South Wall).
-- Access to the rest of the map (Door 22, 10, Ladder 21, 25) is blocked from the North, implying a hidden path or a different entrance from Map 3_53.
+- Previous logs suggested this combo works despite S2 usually closing East.
+- S2=ON is required to keep the North Gate open to reach the East side.
 **Plan:**
-1. Inspect the South Wall of the West Room (Row 10, Cols 0-11) for hidden switches.
-2. If nothing found, return to Map 3_53 (Warehouse) and look for the ladder connecting to (21, 25).
-3. Re-examine the "Warehouse SE Room" on Map 3_53 carefully.
+1. Turn Switch 1 ON (Current Loc).
+2. Verify East Shutter (12, 8) is Open.
+3. Explore the corridor behind (12, 8) thoroughly for hidden switches or paths to the SE area.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
