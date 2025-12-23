@@ -19,11 +19,11 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (15, 4).
+- **State:** S1=OFF, S2=ON, S3=OFF (Turning ON).
+- **Location:** Switch Room (4, 2).
 - **Action:** Turn Switch 3 ON.
 - **Plan:**
-  1. Move to Switch 3 (2, 2).
+  1. Navigate around Rocket at (3, 2) to reach (2, 2).
   2. Turn S3 ON. (Result: S2=ON, S3=ON).
   3. Check Shutter at (20, 6).
   4. If Closed, try S1=ON + S2=ON.
