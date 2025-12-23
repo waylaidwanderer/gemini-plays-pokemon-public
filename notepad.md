@@ -21,16 +21,22 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Explore the path South via `(2, 6)`.
-   - This path opened recently. It likely leads to the Southwest section (Ladder at `(5, 25)`).
-   - Verify if this connects to the "Underground Entrance (South)" or provides access to the Warehouse.
-2. If South path is a dead end or just leads to the city, return and check Shutters `(20, 6)`.
-3. Check Shutter `(12, 12)` (Target Shutter).
+1. Explore the path South via `(2, 6)` to `(2, 9)`.
+2. Move East from `(2, 9)` to check the West Room (Pharmacist area).
+   - Verify connectivity between West `(2, 9)` and Central `(6, 8)`.
+3. Go to the "Target Shutter" at `(12, 12)`.
+   - Check if it is OPEN (S3=ON effect).
+   - If OPEN, proceed South.
+4. If `(12, 12)` is CLOSED, check `(20, 6)` / `(17, 6)` Shutters.
 
 ## Observations
 - **Switch Status:** S1=ON, S2=ON, S3=ON.
-- **Path `(2, 6)`:** Now OPEN.
-- **Hypothesis:** This is the correct way to reach the Warehouse or the back of the Switch Room.
+- **Gate Status:**
+  - North `(10, 6)`: OPEN.
+  - East `(12, 8)`: OPEN.
+  - West `(6, 8)`: OPEN (Changed to FLOOR Turn 14921).
+  - **Conclusion:** S3=ON acts as a MASTER OVERRIDE, opening all gates.
+- **Hypothesis:** S3=ON likely opens the Target Shutter `(12, 12)` or the Director's Shutters `(20, 6)`.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
