@@ -34,3 +34,6 @@
 - **Observation:** Switch 3 OFF caused Shutter (6, 8) to Close (FLOOR -> WALL). This confirms Switch 3 controls Shutter 1-2 (Top).
 - **Observation:** Shutter (12, 8) is OPEN (FLOOR) with Switch 3 OFF. This confirms Switch 3 toggles (6, 8) and (12, 8) inversely.
 - **Next Step:** Explore Middle Section (Section 2). Check if any path South (Row 10/12) is open.
+- **Observation:** With Config (1 ON, 2 OFF, 3 OFF):
+    - Row 10 Shutters (12, 10) through (16, 10) appear CLOSED (WALLs).
+- **Next Step:** Inspect Shutter (10, 10). If closed, I likely need to toggle Switch 1 or 2 to affect Row 10.
