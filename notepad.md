@@ -16,8 +16,8 @@
 **Logic:** S2=ON opens it. S3=ON closes it (Emergency Override).
 **Current State:** S1=OFF, S2=ON, S3=OFF.
 **Plan:**
-1. Confirmed S3 is OFF (cancelled interaction).
-2. Ensure S2 is ON (assumed).
+1. Turning Switch 2 ON (was found OFF).
+2. Verify North Shutter (10, 6) opens.
 3. Inspect West Shutter (6, 8).
 
 ## Test Log (Outer East Shutter (20, 6))
