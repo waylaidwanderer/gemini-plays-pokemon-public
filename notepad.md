@@ -34,7 +34,7 @@
 ## Event: Yanma Swarm
 - Location: Route 35.
 - Status: Capture in progress (Started Turn 14690).
-- Failed Great Ball attempts: 8.
+- Failed Great Ball attempts: 7.
 - Strategy: Use KIMCHI (Gloom) for Sleep Powder status.
 - Battle Plan: Sleep Powder -> Absorb (to weaken safely) -> Great Balls. (Note: Absorb is 0.25x effective, very safe).
 - Analyst Advice: Weaken Yanma to <25% HP while asleep to improve catch probability from Medium to High.
