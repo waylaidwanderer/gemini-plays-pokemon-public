@@ -22,15 +22,21 @@
 
 # Restock Task (Started Turn #13076)
 - Goal: Buy 20 Super Repels (10,000 yen).
-- Current Funds: 1821 yen.
-- TM Selling Plan (Olivine Mart):
-  - TM49 (Fury Cutter)
-  - TM50 (Nightmare)
-  - TM01 (DynamicPunch)
-  - TM08 (Rock Smash)
-  - TM12 (Sweet Scent)
-  - TM45 (Attract)
-- Estimated Revenue: ~6000-8000 yen.
+- Current Funds: 5821 yen.
+- TM Selling Progress:
+  - TM01 (DynamicPunch): Sold for 1500 yen.
+  - TM08 (Rock Smash): Sold for 500 yen.
+  - TM12 (Sweet Scent): Sold for 500 yen.
+  - TM16 (Icy Wind): Sold for 1500 yen.
+  - TM45 (Attract): Pending.
+  - TM49 (Fury Cutter): Pending.
+  - TM50 (Nightmare): Pending.
+- Estimated Revenue: ~6000-8000 yen total.
+- Time Tracking: 37 turns elapsed since task start.
+
+# Olivine Mart Tile Mechanics
+- MART_SHELF: Impassable. (Visual confirmation: Attempted movement blocked).
+- COUNTER: Impassable. Used for interaction with clerks. (Verified: Interaction with Clerk at (1, 3) successful while facing Counter at (2, 3) from (3, 3)).
 
 # Route 38 Specifics
 - Suicune Hunting Spot: (28, 7) tall grass.
@@ -57,7 +63,3 @@
 - Current Repel: Applied Turn #13062. Expired Turn #13075.
 - Steps Taken: 200 (Repel Duration).
 - Status: Suicune confirmed here Turn #13076.
-
-# Olivine Mart Tile Mechanics
-- MART_SHELF: Impassable.
-- COUNTER: Impassable. Used for interaction with clerks.
