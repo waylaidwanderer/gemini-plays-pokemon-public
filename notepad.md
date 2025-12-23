@@ -1,6 +1,6 @@
 # Suicune Capture Strategy (Crystal Version)
 ## Strategy: The Tin Tower Encounter
-- Goal: Obtain the Clear Bell from the Radio Tower Director (Goldenrod City). (COMPLETE - Clear Bell is in Key Items)
+- Goal: Obtain the Clear Bell from the Radio Tower Director (Goldenrod City). (COMPLETE)
 - Location: Tin Tower, Ecruteak City.
 - Requirements: Defeat the three Sages in the Wise Trios Room.
 - Preparation:
@@ -12,7 +12,8 @@
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
-- Future Targets: West of (13, 10), East of (19, 28).
+- Strategy: Use SURF at y=40-50 to reach the western corridor.
+- Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 87).
 
 ## Tile Mechanics
 ### Route 32
@@ -41,11 +42,10 @@
 - Location: Route 35.
 - Status: Active (Turn 14571 - Timestamp: 14571).
 - Strategy: Lead with XENON (Gastly) for Normal immunity. Use KIMCHI's Sweet Scent to trigger encounters. 
-- Battle Plan: Hypnosis (Sleep) -> Chip with Lick -> Great Balls. (Note: Gastly doesn't have Night Shade until Lv 16).
+- Battle Plan: Switch to KIMCHI -> Sleep Powder -> Great Balls. (Note: XENON learns Night Shade at Lv 16).
 
-## Wild Encounters
-### Route 35
-- DITTO (Lv 10) - Observed at (8, 9).
-- PIDGEY (Lv 12, 14) - Observed during transit and at (8, 9).
-- NIDORAN♀ (Lv 12) - Observed at (8, 9).
-- NIDORAN♂ (Lv 12) - Observed at (8, 9).
+## Wild Encounters (Route 35)
+- DITTO (Lv 10)
+- PIDGEY (Lv 12, 14)
+- NIDORAN♀ (Lv 12)
+- NIDORAN♂ (Lv 12)
