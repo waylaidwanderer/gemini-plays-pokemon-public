@@ -19,14 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=ON (Turning OFF), S2=OFF, S3=ON.
+- **State:** S1=ON (Menu Open), S2=OFF, S3=ON.
 - **Location:** Switch Room (16, 2).
-- **Action:** Turn Switch 1 OFF.
+- **Action:** Confirm turning Switch 1 OFF.
 - **Plan:**
-  1. Interact with Switch 1 to turn OFF.
+  1. Select YES to turn Switch 1 OFF.
   2. Move to (20, 5).
   3. Check if Shutter at (20, 6) is OPEN.
-  4. If closed, plan next combination (likely involving S2).
+  4. If closed, plan next combination.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
