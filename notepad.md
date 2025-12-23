@@ -25,13 +25,16 @@
 ## Test Result: S1=ON, S2=ON, S3=OFF
 - **Result:** (20, 6) CLOSED.
 
-## New Goal: Retest S1=ON, S2=OFF, S3=OFF
-- **Hypothesis:** My previous notes say this combination opened (12, 8). Since S3 is OFF, (10, 6) should also be OPEN. This creates a path: (10, 6) -> (12, 8) -> South!
+## Current Goal: Test S1=OFF, S2=ON, S3=OFF
+- **Theory:**
+  - S1=ON closes (10, 6), blocking the north entrance.
+  - S2=ON opens (10, 6) and (12, 8).
+  - S3=OFF opens (10, 6) and (2, 6).
+  - Therefore, S1=OFF, S2=ON, S3=OFF should have BOTH (10, 6) and (12, 8) open, creating a path through the middle.
 - **Plan:**
-    1. Turn Switch 2 OFF.
-    2. Go through (10, 6).
-    3. Go through (12, 8).
-    4. Head East to Emergency Switch (20, 11).
+  1. Turn S2 ON (Currently in menu).
+  2. Turn S1 OFF (Currently ON).
+  3. Enter (10, 6) -> (12, 8) -> Emergency Switch.
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
