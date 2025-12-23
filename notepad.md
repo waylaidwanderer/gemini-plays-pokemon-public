@@ -36,3 +36,6 @@
 - **Observation:** (20, 6) is CLOSED (WALL) with S1=ON, S2=OFF, S3=OFF.
 - **Action:** Going to check (12, 8).
 - **Reasoning:** Since S2 OFF allows (12, 8) to open (based on previous S2 text "Closes East"), and S1 is ON, (12, 8) *should* be open. The current marker might be stale.
+- **Realization:** S2 OFF closes the gate at (10, 6), trapping me in the North section.
+- **Solution:** There is a Ladder/Warp at (23, 3) labeled "To Underground SE". This likely bypasses the barriers.
+- **Plan:** Since S1=ON, S2=OFF, S3=OFF is the configuration to open the East Shutter (12, 8), I will keep the switches as they are and take the ladder at (23, 3) to reach the other side.
