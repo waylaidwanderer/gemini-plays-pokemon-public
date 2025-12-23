@@ -34,12 +34,3 @@
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
 - Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
-## Current Plan: Nicknaming INTERCEPT
-1. Current: INT. Cursor on T.
-2. To E: Up, Up, Right, Right, Right, A.
-3. To R: Down, Right, Right, Right, Right, A.
-4. To C: Up, Left, Left, Left, Left, Left, Left, A.
-5. To E: Right, Right, A.
-6. To P: Down, Right, Right, A.
-7. To T: Down, Left, Left, Left, Left, Left, A.
-8. Confirm: Start, A.
