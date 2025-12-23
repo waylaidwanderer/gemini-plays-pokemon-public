@@ -82,11 +82,10 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Correction:** Switch 1 was actually OFF (Screen Text confirmed). My previous tracking was incorrect.
-- **Implication:** The observation at Turn 14170 (Shutter Closed) was likely with S1=OFF, S2=ON.
-- **Action:** Turning Switch 1 ON.
-- **Current State:** S1=ON (Target), S2=ON, S3=OFF.
-- **Hypothesis:** S1 ON might open (20, 6).
+- **Action:** Turning Switch 1 OFF.
+- **Current State:** S1=OFF (Pending), S2=ON, S3=OFF.
+- **Hypothesis:** S1 OFF + S2 ON might open the shutter at (20, 6).
 - **Plan:**
-  1. Select YES to Turn S1 ON.
-  2. Navigate to (20, 5) to check (20, 6).
+  1. Confirm turning S1 OFF.
+  2. Navigate to (20, 5).
+  3. Inspect (20, 6).
