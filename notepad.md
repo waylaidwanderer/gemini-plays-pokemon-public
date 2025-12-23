@@ -34,4 +34,5 @@
     - **Next Step:** Turn S2 (Main Power) OFF.
     - **Reasoning:** If S3=ON didn't open shutters, maybe S2=OFF (Power Down) will release the electronic locks.
     - **Current State:** S1=OFF, S2=ON, S3=ON->OFF.
+    - **Correction:** Updated marker for Inner East Gate (12, 8) to CLOSED (consistent with S1=OFF).
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
