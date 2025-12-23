@@ -120,3 +120,7 @@
   1. Go West to (10, 6) (Gate is OPEN due to S2=ON).
   2. Go East to (12, 8).
   3. Proceed South through (12, 8) to find the Director.
+- **Success:** Switch 1 ON + Switch 2 ON successfully opened the Inner East Shutter at `(12, 8)`.
+- **Location:** Entering the corridor south of `(12, 8)`.
+- **Next Step:** Search this new area for the Director.
+- **Puzzle Solved:** The combination for the Inner East path is S1=ON, S2=ON, S3=OFF. The Outer East path `(20, 6)` remains closed, possibly requiring a different combination or key (Emergency Switch?).
