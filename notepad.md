@@ -23,7 +23,7 @@
 - OLIVINE_CITY (18, 17): WALL (Impassable). Avoid when pathing.
 
 # Route 38/39 Boundary Reference
-- Route 38 (0, 8) <-> Route 39 (20, 8)
+- Route 38 (0, 8) <-> Route 39 (19, 8)
 - Route 38 (0, 10) <-> Route 39 (19, 10)
 - Crossing this line shifts roamer locations.
 
