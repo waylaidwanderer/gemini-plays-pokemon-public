@@ -20,8 +20,7 @@
 
 ## Current Status
 - **State:** S1=OFF, S2=ON, S3=OFF.
-- **Location:** Switch Room (10, 4).
-- **Action:** Exit via Ladder at (23, 3).
+- **Location:** Switch Room (11, 4).
 - **Plan:**
   1. Go to Ladder at (23, 3).
   2. Take Ladder to Underground SE.
