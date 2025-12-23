@@ -68,7 +68,7 @@
       "properties": {},
       "type": "object"
     },
-    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear to overworld\n    # 2. Open Start Menu\n    # 3. Navigate to POKEMON (2):\n    #    Up 7 times to hit POKEDEX (1) (Reset)\n    #    Down 1 to POKEMON (2)\n    # 4. Select POKEMON\n    # 5. Party Menu: KIMCHI is slot 6. \n    #    Assume Party menu wraps: Up 2 from Slot 1 is Slot 6.\n    # 6. Select KIMCHI\n    # 7. Move Menu: Down 1 is Sweet Scent\n    \n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\",\n        \"Up\", \"Up\", \"A\", \"sleep 500\",\n        \"Down\", \"A\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
+    "python_script": "import json\n\ndef use_sweet_scent():\n    # 1. Clear to overworld\n    buttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\"]\n    # 2. Open Start Menu\n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    # 3. Reset Start Menu to POKEDEX (1)\n    for _ in range(8):\n        buttons.append(\"Up\")\n    # 4. Navigate to POKEMON (2)\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    # 5. Reset Party Menu to Slot 1\n    for _ in range(7):\n        buttons.append(\"Up\")\n    # 6. Navigate to KIMCHI (Slot 6)\n    # Slot 1 -> Up -> CANCEL (7) -> Up -> Slot 6.\n    buttons.append(\"Up\")\n    buttons.append(\"Up\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    # 7. Move Menu: Down 1 is Sweet Scent\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    use_sweet_scent()",
     "history": [
       {
         "commit_message": "Defined use_sweet_scent_v8: a cursor-agnostic tool that clears dialogue, resets the Start menu to POKEDEX using Up*7, navigates to POKEMON, resets the Party menu to XENON using Up*6, navigates to KIMCHI, and uses Sweet Scent. Includes sleep commands for reliability.",
@@ -94,6 +94,11 @@
         "commit_message": "Refining Sweet Scent tool to use a cursor-agnostic reset for the Start menu (Up*7 to POKEDEX) now that it's confirmed not to wrap.",
         "timestamp": "2025-12-23T11:34:53.516Z",
         "action_counter": 14304
+      },
+      {
+        "commit_message": "Refining Sweet Scent tool to be truly cursor-agnostic by using explicit Up-resets for both Start and Party menus.",
+        "timestamp": "2025-12-23T11:36:06.957Z",
+        "action_counter": 14306
       }
     ]
   },
@@ -120,7 +125,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\n# input_data is a dictionary containing the tool arguments\nmove_index = int(input_data['move_index'])\ncurrent_index = int(input_data['current_index'])\n\n# Calculate shortest path in a wrapping 4-item menu\ndiff = (move_index - current_index) % 4\nif diff == 0:\n    buttons = [\"A\"]\nelif diff == 1:\n    buttons = [\"Down\", \"A\"]\nelif diff == 2:\n    buttons = [\"Down\", \"Down\", \"A\"]\nelif diff == 3:\n    buttons = [\"Up\", \"A\"]\nelse:\n    buttons = []\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\ndef select_move():\n    try:\n        # input_data is a dictionary containing the tool arguments\n        move_index = int(input_data.get('move_index', 1))\n        current_index = int(input_data.get('current_index', 1))\n        \n        # Calculate shortest path in a wrapping 4-item menu\n        diff = (move_index - current_index) % 4\n        if diff == 0:\n            buttons = [\"A\"]\n        elif diff == 1:\n            buttons = [\"Down\", \"A\"]\n        elif diff == 2:\n            buttons = [\"Down\", \"Down\", \"A\"]\n        elif diff == 3:\n            buttons = [\"Up\", \"A\"]\n        else:\n            buttons = [\"A\"]\n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback to just pressing A if logic fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    select_move()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -131,6 +136,11 @@
         "commit_message": "Fixing select_move_v5 to correctly parse input_data and execute the wrapping menu logic.",
         "timestamp": "2025-12-23T11:29:04.097Z",
         "action_counter": 14297
+      },
+      {
+        "commit_message": "Fixing select_move_v5 to use input_data.get() for safer access and wrapping the logic in a function.",
+        "timestamp": "2025-12-23T11:36:06.959Z",
+        "action_counter": 14306
       }
     ]
   }
