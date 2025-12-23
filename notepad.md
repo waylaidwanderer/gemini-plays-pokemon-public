@@ -46,3 +46,5 @@
 - **Switch 1 (16, 1):** ON opens (12, 8) if S2 OFF.
 - **Switch 2 (10, 1):** ON opens (10, 6) & (6, 8). Closes (12, 8). *Hypothesis: Opens (20, 6).*
 - **Switch 3 (2, 1):** ON opens (12, 8). Closes (20, 6)? No, (20, 6) was closed anyway.
+- **Observation:** Path North is blocked by a wall at Row 24.
+- **Action:** taking nearby ladder at (22, 27) to proceed. This likely leads to the switch puzzle area.
