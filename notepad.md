@@ -7,18 +7,14 @@
     - Effect: Controls (12, 8) and (10, 6).
 - **Switch 3 (2, 1):** Turned ON.
     - Effect: Controls (6, 8), (6, 12), (2, 6).
-    - State: ON -> (10, 6) CLOSED, (12, 8) OPEN.
+    - State: ON -> (10, 6) CLOSED, (12, 8) OPEN, (20, 6) CLOSED.
+    - **CRITICAL:** S3 ON opens the inner path (12, 8) but closes the outer paths south (2, 6) & (10, 6), trapping me in the North.
 
-## Current Goal: Open Shutter (20, 6)
-- **Problem:** (20, 6) blocks access to the East Corridor and Emergency Switch.
-- **Hypothesis:** Switch 3 might control it.
-- **Current Test:** Checking (20, 6) with S1=OFF, S2=ON, S3=ON.
-- **Observation:** (10, 6) closed, but (12, 8) opened!
-
-## Status of Critical Shutters
-- **(10, 6):** CLOSED (Sw3 ON).
-- **(12, 8):** OPEN (Sw3 ON).
-- **(20, 6):** Unknown. Checking now.
+## Current Goal: Test Switch 2
+- **Problem:** I need to access the South area AND pass through (12, 8). S3 ON blocks entry.
+- **Hypothesis:** Switch 2 might modify which doors S3 affects, or control the outer doors independently.
+- **Action:** Turn S3 OFF (to escape trap), then Turn Switch 2 OFF.
+- **Next Test:** Check shutters with S1=OFF, S2=OFF, S3=OFF.
 
 ## Status of Critical Shutters
 - **(6, 12):** OPEN (Sw3 OFF) - *Path blocked at (2, 6)*.
