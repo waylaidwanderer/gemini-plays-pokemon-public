@@ -25,4 +25,5 @@
 ## Exploration Notes
 - **West Room (Col 2-6):** Accessed via S1=OFF.
     - Contains Pharmacist `(4, 8)`.
-    - Path South leads to `(5, 25)` ladder? (Needs verification).
+    - Pharmacist Dialogue: "UNDERGROUND WAREHOUSE? What do you want to go there for? There's nothing down there."
+    - Path South leads to `(5, 25)` ladder. (Exploring now).
