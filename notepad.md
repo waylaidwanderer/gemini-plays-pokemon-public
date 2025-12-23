@@ -39,7 +39,7 @@
 - Repel Hygiene: Use sleep commands between menu actions to ensure they register.
 - Battle Mechanics: Roamers flee on Turn 1. Speed is critical for status moves. Damage/Status is persistent.
 
-# Inventory Order (Observed Turn #13493)
+# Inventory Order (Verified Turn #13493)
 1. PSNCUREBERRY
 2. X ATTACK
 3. BITTER BERRY
@@ -53,5 +53,9 @@
 11. FRESH WATER
 12. SUPER POTION
 13. AMULET COIN
-14. REVIVE?
-15. SUPER REPEL? (Target for Repel Trick)
+14. REVIVE
+15. SUPER REPEL (Target for Repel Trick)
+
+# Menu Cursor Tracking
+- Start Menu: Cursor on SAVE (index 5) as of Turn #13494.
+- PACK: Cursor on AMULET COIN (index 12) as of Turn #13494.
