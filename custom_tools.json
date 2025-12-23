@@ -71,29 +71,5 @@
         "action_counter": 12241
       }
     ]
-  },
-  "use_super_repel_v10": {
-    "description": "Uses a Super Repel from the Pack. Assumes cursor starts on POKEDEX in the Start menu. Robustly resets inventory cursor.",
-    "input_schema": {},
-    "python_script": "import json\n\ndef use_super_repel():\n    # Robust sequence: \n    # 1. Clear to overworld\n    # 2. Open Start Menu (Cursor on POKEDEX)\n    # 3. Navigate to PACK -> Down*2\n    # 4. Open PACK\n    # 5. Reset inventory cursor to Item 1 -> Up*20\n    # 6. Navigate to Item 15 (Super Repel) -> Down*14\n    # 7. Use item -> A, A\n    # 8. Exit menus -> B*3\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"sleep 100\", \"Down\", \"sleep 100\", \"A\", \"sleep 1000\"]\n    for _ in range(20):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    for _ in range(14):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 100\")\n    buttons.extend([\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\nuse_super_repel()",
-    "history": [
-      {
-        "commit_message": "Corrected item index for Super Repel (15th item = 14 Down presses). Robust cursor-independent reset.",
-        "timestamp": "2025-12-23T04:39:40.706Z",
-        "action_counter": 13553
-      }
-    ]
-  },
-  "check_suicune_location_v13": {
-    "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map. Assumes cursor starts on POKEDEX in the Start menu. Robustly resets to overworld first.",
-    "input_schema": {},
-    "python_script": "import json\n\ndef check_suicune_location():\n    # Sequence: \n    # 1. B*3 (Clear to overworld)\n    # 2. Start (Opens menu)\n    # 3. Up*10 (Reset to top of menu, cursor on POKEDEX)\n    # 4. A (Open Pokedex)\n    # 5. A (Open entry)\n    # 6. Right, A (Select AREA)\n    # 7. sleep 3000 (Observe)\n    # 8. B*4 (Exit)\n    buttons = [\"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n    for _ in range(10):\n        buttons.append(\"Up\")\n        buttons.append(\"sleep 50\")\n    buttons.extend([\"A\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"])\n    print(json.dumps(buttons))\n\ncheck_suicune_location()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-23T04:42:05.720Z",
-        "action_counter": 13555
-      }
-    ]
   }
 }
