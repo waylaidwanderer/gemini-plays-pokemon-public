@@ -67,3 +67,14 @@
   2. Enter Basement Door `(18, 6)`.
   3. Turn Switch 2 ON.
   4. Check Shutter at `(20, 6)`.
+- **Status:** Back in Switch Room (North) at (23, 3).
+- **Current Switch State:** S1=ON, S2=OFF, S3=OFF.
+- **Problem:** S2 OFF closes Gate (10, 6), trapping me in North.
+- **Action:** Turning S2 ON.
+- **Hypothesis:** S2 ON will open (10, 6) (allowing travel South) AND might open (20, 6) (allowing access to Emergency Switch or Director).
+- **Plan:**
+  1. Turn S2 ON.
+  2. Check (20, 6).
+  3. If (20, 6) is open, go through.
+  4. If (20, 6) is closed, go through (10, 6) and check (12, 8). But S2 ON usually closes (12, 8). This is the puzzle conflict.
+  5. Maybe there's a trick with the order or the emergency switch.
