@@ -3,8 +3,9 @@
 ## Confirmed Mechanics
 - **Switch 1 (16, 1):** Currently OFF.
     - Effect: (20, 6) stays CLOSED. (12, 8) is CLOSED.
-- **Switch 2 (10, 1):** Currently ON.
+- **Switch 2 (10, 1):** Turned OFF.
     - Effect: Controls (12, 8) and (10, 6).
+    - State: OFF -> Testing (20, 6) and (12, 8).
 - **Switch 3 (2, 1):** Turned OFF.
     - Effect: Controls (6, 8), (6, 12), (2, 6), (10, 6), (12, 8).
     - State: OFF -> (10, 6) OPEN, (12, 8) CLOSED (System Alert confirmed).
