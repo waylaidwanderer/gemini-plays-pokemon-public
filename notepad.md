@@ -19,15 +19,15 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF, S2=ON (Turning ON), S3=OFF.
+- **State:** S1=OFF, S2=ON, S3=OFF.
 - **Location:** Switch Room (10, 2).
-- **Action:** Turn Switch 2 ON.
+- **Action:** Exit Switch Room South.
 - **Plan:**
-  1. Turn Switch 2 ON.
-  2. Exit Switch Room South to Main Tunnel.
-  3. Enter Warehouse via locked door (18, 6 in Main Tunnel).
-  4. Navigate Warehouse to East Room.
-  5. Check Shutter at (20, 6).
+  1. Exit Switch Room South to Main Tunnel.
+  2. Enter Warehouse via locked door (18, 6 in Main Tunnel).
+  3. Navigate Warehouse to East Room.
+  4. Check Shutter at (20, 6).
+  5. Access Emergency Switch.
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
