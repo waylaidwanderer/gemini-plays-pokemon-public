@@ -1,1 +1,9 @@
-{}
+{
+  "navigation_specialist": {
+    "agent_name": "navigation_specialist",
+    "agent_description": "Provides high-level navigation strategy and path analysis for overworld travel.",
+    "agent_system_prompt": "You are a navigation specialist for Pokemon Crystal. Your goal is to analyze the map and objectives to recommend the most efficient routes and identify potential obstacles. You consider HMs required, one-way ledges, and trainer positions. Your output should be a strategic plan for movement.",
+    "agent_input_schema": "{\"properties\":{\"current_location\":{\"type\":\"string\"},\"destination\":{\"type\":\"string\"},\"known_obstacles\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"current_location\",\"destination\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"potential_risks\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"recommended_route\":{\"type\":\"string\"},\"required_hms\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"recommended_route\",\"required_hms\",\"potential_risks\"],\"type\":\"object\"}"
+  }
+}
