@@ -21,18 +21,15 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 2 `(10, 1)`.
-2. Ensure S2 is ON (Main Power).
-3. Navigate to Switch 1 `(16, 1)`.
-4. Turn S1 ON (East Toggle).
-5. Check if North Gate `(10, 6)` remains OPEN.
-   - If OPEN: Proceed to Inner East Gate `(12, 8)`.
-   - If CLOSED: This path is a dead end. Re-evaluate.
+1. Turn Switch 2 `(10, 1)` ON.
+2. Verify if North Gate `(10, 6)` opens.
+   - If OPEN: Explore South `(10, 14)`.
+   - If CLOSED: Proceed to Switch 1.
+3. Turn Switch 1 `(16, 1)` ON.
+4. Check Inner East Gate `(12, 8)`.
 
 ## Observations
 - **Switch 3 (2, 1):** Currently OFF.
-- **Switch 2 (10, 1):** Need to verify state (Marker says OFF, Notes say ON).
-- **North Gate (10, 6):** Currently WALL (Closed). Requires S2=ON?
-- **Hypothesis:** S1=ON might close North Gate `(10, 6)`. If so, I need a different strategy (maybe S2=OFF, S3=ON?).
-- **Previous Test:** S2=OFF, S3=ON opened `(2, 7)` and `(12, 8)`. But might trap in West Room if `(6, 8)` closes.
-- **Observation (Turn 14884):** (12, 8) closed (FLOOR -> WALL) after turning S3 OFF. This confirms S3 was keeping it open (or overriding S1/S2). With S3=OFF and S1=OFF, (12, 8) is closed.
+- **Switch 2 (10, 1):** Was OFF. Turning ON now.
+- **North Gate (10, 6):** Currently CLOSED.
+- **Unseen Tiles:** Potential path at `(10, 14)` south of North Gate.
