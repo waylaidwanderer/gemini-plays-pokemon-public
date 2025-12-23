@@ -12,10 +12,10 @@
 # Puzzle Strategy
 - **Goal:** Reach the Northeast section (Ladder to Switches).
 - **State:** North Gate (Row 8/9) is CLOSED. South Gate (Row 12) is OPEN (Dead End).
-- **Hypothesis:** Walking on Column 9 triggers the gates.
-- **Plan:**
-    1. Walk UP Column 9 to check if entering from the South toggles the North Gate.
-    2. If that fails, Reset the room (go to Elevator) and hug the LEFT wall (Column 8) to avoid the trigger.
+- **Hypothesis:** Walking on Column 9 (Line of Sight of Black Belt at 9,9) keeps the North Gate closed.
+- **Test:** Move Left to (8, 8) to exit Line of Sight. Check if gate opens.
+- **Next Step:** If closed, go to Elevator to reset, then approach North Gate via Column 8 (hugging wall).
+- **Alternative:** Try flanking Black Belt at (9, 9) from behind via (8, 10) -> (9, 10).
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
