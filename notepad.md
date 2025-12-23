@@ -46,3 +46,6 @@
 - **Hypothesis:** It will be blocked (WALL).
 - **Reasoning:** S3=ON seems to invert S1. S1=OFF normally closes East, so Inverted -> Opens East (Confirmed). Thus West should be Closed.
 - **Next Step if Blocked:** This combo opens the East Path. I must find an entry. `(10, 6)` is closed. `(6, 8)` is closed. The only remaining option is the NE Shutters `(20, 6)`. I must backtrack and check them.
+- Testing Hypothesis: S1=ON (Current), S2=ON, S3=ON opens the West Gate (6, 8) via the Emergency West Entrance (2, 6).
+- Rationale: Marker at (12, 8) indicates S1=OFF opens the East Gate, suggesting S1=ON corresponds to the West Gate (or S3 overrides).
+- Plan: Moving to (2, 6) to enter the West corridor. Avoid Grunt at (3, 4).
