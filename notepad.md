@@ -57,9 +57,10 @@
     - Context: S1=ON, S2=OFF.
 
 ## Current Goal: Test S1=ON, S2=OFF, S3=ON
-- **Action:** Confirm Switch 3 ON.
-- **Hypothesis:** This combination (ON, OFF, ON) might open (20, 6).
+- **State:** S1=ON, S2=OFF, S3=ON.
+- **Action:** Checking Shutter (20, 6).
 - **Plan:**
-    1. Confirm Switch 3 ON (Pressing A).
-    2. Check (20, 6).
-    3. If Closed, try S1 OFF (Testing OFF, OFF, ON).
+    1. Confirm Switch 3 ON (Done).
+    2. Navigate to (20, 6) to check status.
+    3. If (20, 6) is Open -> Proceed to Director.
+    4. If (20, 6) is Closed -> Try S1 OFF (Testing OFF, OFF, ON).
