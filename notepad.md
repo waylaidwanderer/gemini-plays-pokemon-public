@@ -8,6 +8,12 @@
 - Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
 - Plan: Pivot now to catching a fast Sleep/Trap user (e.g., Gastly/Haunter in Sprout Tower at night). Current pacing strategy with KIMCHI is inefficient due to speed deficit.
 
+## Strategy for Catching Suicune
+1. Pivot: Fly to Violet City and enter Sprout Tower (currently Night).
+2. Catch a Gastly.
+3. Train Gastly to Lv 13+ (learns Mean Look) and ensure it has enough Speed (Base 80/95) to outspeed Suicune (Base 85).
+4. Encounter Suicune, use Mean Look, then Hypnosis.
+
 ## Hunting Session Tracking
 - Current Session Start: Turn #13803
 - Current Super Repel: Worn off (Turn #13829)
