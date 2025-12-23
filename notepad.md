@@ -4,7 +4,7 @@
 - Repel Tracking:
   - Super Repel #1: Turn #13364 (Wore off Turn #13387).
   - Super Repel #2: Turn #13391 (Wore off Turn #13436).
-  - Super Repel #3: Turn #13437 (Expected to wear off ~Turn #13457).
+  - Super Repel #3: Turn #13439 (Expected to wear off ~Turn #13459).
 - Tracking: Use Pokedex AREA map.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
