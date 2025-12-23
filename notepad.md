@@ -24,3 +24,5 @@
 - **Dept Store Puzzle:** Solved.
 - **Blockage:** Path South (Row 10) blocked in all columns with previous configs.
 - **West Path:** Confirmed Dead End.
+- **Observation:** Turning Switch 1 ON (Step 1) caused tiles (10, 6) and (10, 7) to change from FLOOR to WALL. Middle South Path is now CLOSED.
+- **Continuing Sequence:** 1 (ON) -> 2 (Next) -> 3.
