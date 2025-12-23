@@ -19,6 +19,7 @@
 - **S3 (2, 1):** Emergency Override.
     - **Function:** Opens shutter at (2, 7).
     - **Current:** ON.
+    - **Status:** Shutter (2, 7) Confirmed OPEN.
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6). Unreachable.
 
 ## Switch Room Exploration Data
