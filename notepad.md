@@ -48,3 +48,4 @@
 - **Interpretation:** Being "seen" (Line of Sight) triggers the gates to close.
 - **Refined Plan:** Reset the room via Elevator. Then, strictly adhere to Column 8 (Left Wall) to approach the North Gate. Do NOT step on Column 9.
 - **Hypothesis:** Staying out of the Black Belt's line of sight (Col 9) will keep the North Gate open.
+- **Stealth Route:** From Elevator (10, 4) -> (9, 4) -> (8, 4) -> (8, 8). This avoids Column 9 entirely (Row 5+), preventing the alarm trigger.
