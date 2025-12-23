@@ -9,13 +9,13 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
-- **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 ON (Sequence 1-2-3 Complete).
-- **Observations:**
-    - Switch 3 ON: Opens Top 1-2 (6, 8) and Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
-    - Switch 1 ON: Closes Vertical 2 (10, 6/7).
-    - Trapped in Middle Section Top (Sec 2 Top) because Vertical 2 and Top 2-3 are closed.
-- **Immediate Plan:** Escape West via (6, 8). Check if Bottom 1-2 (6, 12) is open.
-- **Hypothesis:** If (6, 12) is open, I can reach the Burglar and potentially the East side via (12, 12).
+- **Current Status:** Switch 1 OFF (Pending). Switch 2 ON. Switch 3 ON.
+- **Goal:** Open Vertical 2 (10, 6/7).
+- **Plan:**
+    1. Turn Switch 1 OFF.
+    2. Verify Vertical 2 opens.
+    3. Return to Section 2 via Bottom 2-3 (12, 12).
+    4. Go South through Vertical 2 to explore bottom area.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
