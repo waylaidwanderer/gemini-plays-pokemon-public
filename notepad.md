@@ -43,3 +43,5 @@
 - **Lesson:** Always verify `num_turns` and `current_position` against Game State, not just memory. Visual verification of shutters is required before pathing.
 - **Obstacle:** Rocket Grunt found at (3, 2) blocking the direct path to Switch 3.
 - **Detour:** Moving around via Row 3. Expecting potential battle if he spots me.
+- **Correction:** Row 2 is blocked at (19, 2). Must use Row 4 to cross East-West.
+- **Plan Update:** From (20, 2), go Down to (20, 4), Left to (16, 4), Down to (16, 8), West to (12, 8), South to explore.
