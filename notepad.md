@@ -43,3 +43,11 @@
 5. Cursor starts on PAGE. Press Right to select AREA.
 6. Press A to view map.
 7. Press B multiple times to exit.
+
+# Suicune Restock & Hunt Plan (Step-by-Step)
+1. Use Super Repel from PACK.
+2. Navigate to tall grass at (28, 7).
+3. Pacing (Grass Dance) to trigger encounter.
+4. If Suicune: Turn 1 Sleep Powder.
+5. If non-roamer: Run (Repel should prevent this if lead is Lv 21).
+6. Use `suicune_capture_analyst_v2` for catch decisions.
