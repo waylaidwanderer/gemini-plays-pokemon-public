@@ -34,7 +34,8 @@
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
 - **Battle Result:** Defeated Silver (Muscle swept team).
-- **Status:** Navigating South in Main Tunnel (Approaching (3, 34)).
-- **Goal:** Reach Ladder at (3, 34) to find additional switches.
+- **Status:** Warped to (5, 25) on Map 3_54 (Switch Room Entrances).
+- **Goal:** Explore this new section to find Switch 2 and 3.
 - **Observation:** Switch 1 (ON) did not open the shutter at (22, 24).
-- **Hypothesis:** Multiple switches (Switch 2, 3) are required to open the path to the Director.
+- **Hypothesis:** Switches 2 and 3 are in this area.
+- **Immediate:** Engage Teacher at (3, 27) and explore.
