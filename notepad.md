@@ -28,3 +28,6 @@
 - **Observation:** Switch 1 ON (after 3->2) resulted in the East Path (x=16) being BLOCKED at Row 6.
 - **Hypothesis:** The "3 -> 2 -> 1" sequence opens the Middle Path (x=10) or clears the Row 10 blockade, instead of the East Path.
 - **Action:** Checking the Middle Path (x=10) and then the Row 10 blockade.
+- **Success:** The 3 -> 2 -> 1 sequence opened the Westmost Path (Column 2).
+- **Observation:** Tiles (2, 6) and (2, 7) changed from WALL to FLOOR.
+- **Next Step:** Navigate south through this new opening to bypass the Row 10 blockade.
