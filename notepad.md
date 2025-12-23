@@ -5,7 +5,7 @@
     - ON: Opens (12, 8) if S2 is OFF.
     - OFF: ?
 - **Switch 2 (10, 1):**
-    - ON: Appears to close (10, 6) and (6, 6). Possible "Lockdown" or requires specific S1/S3.
+    - ON: Testing Solo (S1=OFF, S3=OFF).
     - OFF: Opens (10, 6). Modifies S1/S3 effects.
 - **Switch 3 (2, 1):**
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
