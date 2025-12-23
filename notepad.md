@@ -21,17 +21,15 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Move to `(10, 8)` (North Gate is OPEN).
-2. Verify West Gate `(6, 8)` is OPEN.
-3. Verify East Gate `(12, 8)` is CLOSED.
-4. Navigate to Switch 1 `(16, 1)` and turn ON.
-5. Return to `(10, 8)` and enter East Area.
+1. Navigate to Switch 1 `(16, 1)`.
+   - Path: `(10, 8) -> (10, 4) -> (16, 4) -> (16, 2)`.
+2. Turn Switch 1 ON (Open East Gate).
+3. Return to `(10, 8)`.
+4. Enter East Gate `(12, 8)`.
+5. Navigate to Door `(22, 10)`.
 
 ## Observations
-- **Switch 2 (10, 1):** ON. Main Power confirmed.
-- **North Gate (10, 7)/(11, 7):** OPEN (Floor). Confirmed S2=ON opens this gate.
-- **West Gate (6, 8):** Checking... (Expect OPEN).
-- **East Gate (12, 8):** Checking... (Expect CLOSED).
-- **Observation (Turn 14893):** System reported `(6, 9)` changed to FLOOR and `(12, 9)` changed to WALL. This occurred after turning S2 ON.
-- **Hypothesis:** `(12, 9)` might be a second layer of the East Gate, or a trap. Need to inspect.
-- **Path to S1:** Row 4 connects Center to East/West. Access S1 via `(10, 4) -> East -> (16, 4) -> Up`.
+- **Switch 2 (10, 1):** ON. (Main Power).
+- **Gate Status:** West `(6, 8)` is OPEN. East `(12, 8)` is CLOSED.
+- **Goal:** Reach Door `(22, 10)` in the Inner East section.
+- **Route:** Requires traversing Row 4 to cross from Center to East.
