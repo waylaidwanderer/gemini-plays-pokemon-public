@@ -53,3 +53,6 @@
 - **Hypothesis:** A trigger on Row 9 or the S1=ON state controls these toggles.
 - **Current Situation:** Trapped in Central Room (Cols 7-17). Need to find exit East to reach Emergency Switch.
 - **Plan:** Inspect East Wall at (18, 9) for a passage.
+- **Exploration:** Exploring Row 9 with S1=ON, S2=OFF, S3=OFF.
+- **Goal:** Check if (6, 9) is a WALL. If so, this path is a dead end for reaching Row 12.
+- **Next Hypothesis:** If blocked, the path is likely via the West Shutter (6, 8) using S3=ON or S2=ON.
