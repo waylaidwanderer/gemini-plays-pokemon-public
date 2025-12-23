@@ -64,3 +64,10 @@
   3. If (6, 8) is open, proceed South.
 - **Action:** Entering the SW area through Shutter (6, 8).
 - **Goal:** Explore this new section for the Director or key items.
+- **Observation:** Row 10 is blocked by WALLs (Shutters) at (2, 10), (3, 10), etc.
+- **Hypothesis:** Switch 3 (currently ON) might be keeping them closed, or needs to be toggled to affect them.
+- **Plan:**
+  1. Go to Switch 3 (2, 1).
+  2. Toggle S3 to OFF.
+  3. Return to SW area to check Row 10 shutters.
+  4. Also check if (6, 8) remains open (controlled by S2 and S3).
