@@ -103,7 +103,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -114,6 +114,11 @@
         "commit_message": "Updating tool to ensure POKEMON menu is selected, Sweet Scent is selected (assuming second position per critique), and encounter messages are cleared.",
         "timestamp": "2025-12-23T07:57:16.303Z",
         "action_counter": 13922
+      },
+      {
+        "commit_message": "Removed incorrect Down press; Sweet Scent is the first move in KIMCHI's field menu. Added extra A to clear text.",
+        "timestamp": "2025-12-23T07:57:51.226Z",
+        "action_counter": 13923
       }
     ]
   }
