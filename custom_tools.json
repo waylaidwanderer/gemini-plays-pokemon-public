@@ -209,7 +209,7 @@
     ]
   },
   "find_path_v2": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Treats HEADBUTT_TREE as impassable. Does not support surfing navigation. Use current_position for start.",
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Treats HEADBUTT_TREE as impassable. Does not support surfing navigation. Automatically detects start position from the player's location in the map XML if not provided.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -218,6 +218,14 @@
         },
         "end_y": {
           "type": "integer"
+        },
+        "start_x": {
+          "type": "integer",
+          "nullable": true
+        },
+        "start_y": {
+          "type": "integer",
+          "nullable": true
         }
       },
       "required": [
@@ -225,12 +233,17 @@
         "end_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    # map_xml_string is globally available\n    root = ET.fromstring(map_xml_string)\n    \n    # Get player position from Game State (not passed in input_data, but I can't access it here easily)\n    # Actually, I should pass start_x and start_y.\n    # Wait, the instructions say \"Only map_xml_string is automatically provided. All other variables... must be defined explicitly\".\n    # So I MUST pass start_x and start_y.\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n\n    grid = {}\n    impassable_types = {'WALL', 'HEADBUTT_TREE', 'WATER', 'unseen'}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None:\n                grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y)])\n    visited = {(start_x, start_y): None}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        if (curr_x, curr_y) == (end_x, end_y):\n            path = []\n            while (curr_x, curr_y) is not None:\n                path.append({\"x\": curr_x, \"y\": curr_y})\n                parent = visited[(curr_x, curr_y)]\n                if parent:\n                    curr_x, curr_y = parent\n                else:\n                    curr_x, curr_y = None, None\n            return {\"path\": path[::-1]}\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                t_type = grid[(nx, ny)]\n                if t_type in impassable_types and (nx, ny) != (end_x, end_y):\n                    continue\n                \n                # One-way logic\n                if dy == 1: # Moving South\n                    if grid.get((curr_x, curr_y)) == 'FLOOR_UP_WALL' or t_type == 'FLOOR_UP_WALL': continue\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        ny = ny + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dy == -1: # Moving North\n                    if t_type == 'LEDGE_HOP_DOWN': continue\n                elif dx == 1: # Moving East\n                    if t_type == 'LEDGE_HOP_RIGHT':\n                        nx = nx + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dx == -1: # Moving West\n                    if t_type == 'LEDGE_HOP_RIGHT': continue\n                \n                if (nx, ny) not in visited:\n                    visited[(nx, ny)] = (curr_x, curr_y)\n                    queue.append((nx, ny))\n    return {\"path\": None}\n\n# Fix input_data handling: start_x and start_y are required\ninput_data['start_x'] = int(input_data['start_x'])\ninput_data['start_y'] = int(input_data['start_y'])\nprint(json.dumps(run(input_data)))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    root = ET.fromstring(map_xml_string)\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    if start_x is None or start_y is None:\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n            \n    if start_x is None or start_y is None:\n        return {\"error\": \"Player position not found in XML and not provided in input.\"}\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n\n    grid = {}\n    impassable_types = {'WALL', 'HEADBUTT_TREE', 'WATER', 'unseen'}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None:\n                grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y)])\n    visited = {(start_x, start_y): None}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        if (curr_x, curr_y) == (end_x, end_y):\n            path = []\n            while (curr_x, curr_y) is not None:\n                path.append({\"x\": curr_x, \"y\": curr_y})\n                parent = visited[(curr_x, curr_y)]\n                if parent:\n                    curr_x, curr_y = parent\n                else:\n                    curr_x, curr_y = None, None\n            return {\"path\": path[::-1]}\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                t_type = grid[(nx, ny)]\n                if t_type in impassable_types and (nx, ny) != (end_x, end_y):\n                    continue\n                \n                # One-way logic\n                if dy == 1: # South\n                    if grid.get((curr_x, curr_y)) == 'FLOOR_UP_WALL' or t_type == 'FLOOR_UP_WALL': continue\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        ny = ny + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dy == -1: # North\n                    if t_type == 'LEDGE_HOP_DOWN': continue\n                elif dx == 1: # East\n                    if t_type == 'LEDGE_HOP_RIGHT':\n                        nx = nx + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dx == -1: # West\n                    if t_type == 'LEDGE_HOP_RIGHT': continue\n                \n                if (nx, ny) not in visited:\n                    visited[(nx, ny)] = (curr_x, curr_y)\n                    queue.append((nx, ny))\n    return {\"path\": None}\n\nprint(json.dumps(run(input_data)))",
     "history": [
       {
         "commit_message": "Refined find_path to use the globally available map_xml_string and removed it from input_schema. Fixed one-way logic and impassable types.",
         "timestamp": "2025-12-23T14:36:16.850Z",
         "action_counter": 14568
+      },
+      {
+        "commit_message": "Updated find_path_v2 to automatically detect player position from map_xml_string if start_x/y are not provided. Added start_x/y to input_schema as optional properties.",
+        "timestamp": "2025-12-23T14:37:43.655Z",
+        "action_counter": 14570
       }
     ]
   }
