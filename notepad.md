@@ -19,18 +19,8 @@
 - NPC: Map objects that block movement.
 
 ## Sprout Tower 1F Observations
-- Sweet Scent failed at (14, 6) and (10, 11). These tiles are "safe".
-- Goal: Find a FLOOR tile that supports wild encounters.
+- Sweet Scent failed at (14, 6), (10, 11), and (14, 10). These tiles are "safe".
+- (6, 5) on 2F is a valid encounter tile.
 
-## Lessons Learned
-- Roamer Logic: FLY and map boundary transitions cause roamers to move.
-- Navigation: Avoid mixing directional and action buttons in a single sequence.
-- Pacing: Change coordinates (X or Y) to count steps; spinning in place does not trigger encounters.
-- Sweet Scent: Triggers an immediate wild encounter in areas with wild Pokemon. If it says "nothing here", the tile is safe.
-- Sweet Scent failed at (14, 10). This tile is also "safe".
-- Goal: Test (2, 2) in the far corner.
-## Sprout Tower 1F Layout
-- The middle section (x=5 to x=14) is isolated from the outer sections. It only connects to Violet City via the main entrance.
-- To reach the outer sections of 1F, use the ladders to 2F and find descending ladders.
-- Middle section tested tiles: (14, 6), (10, 11), (14, 10) are all safe.
-- Turn #13906: Sweet Scent successful at (6, 5) on 2F. Encountered Gastly.
+## Battle Observations
+- Turn #13909: Attempted to status Gastly. Note: Verify if Ghost-types have specific immunities to status moves in this version.
