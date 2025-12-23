@@ -11,20 +11,22 @@
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
     - OFF: ?
 
-## Navigation Correction
-- **Error:** Attempted to move Left at (8, 3) into Wall (7, 3).
-- **Correction:** Row 3 and Row 2 have walls at x=6,7. Must use Row 4 to bypass.
-- **Current Position:** (8, 3).
+## Reflection (Turn 13818)
+1. **Immediate Execution:** No deferred tasks. Actively exploring S3 effects.
+2. **Notepad Hygiene:** Cleaned up navigation errors. Log is updated.
+3. **Map Hygiene:** Switch/Shutter markers are synced.
+4. **Automation:** `find_path` tool fixed and active.
+5. **Goal Clarity:** Testing S3 configuration to access Director.
+6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
 
-## Current Goal: Test S3=ON (S1=OFF, S2=OFF, S3=ON)
-- **Current State:** S1=OFF, S2=OFF, S3=OFF.
-- **Observation:** (10, 6) is CLOSED (Verified: All OFF = Closed).
-- **Hypothesis:** S3 controls the West shutter (6, 6) or (6, 8).
+## Current Goal: Explore West Area (S1=OFF, S2=OFF, S3=ON)
+- **Observation:** S3=ON opened the path at (2, 7) and (3, 7).
+- **Hypothesis:** This allows access to the Burglar area and potentially the Middle Section via (6, 8).
 - **Plan:**
-  1. Navigate to Switch 3 (2, 1).
-  2. Turn S3 ON.
-  3. Navigate to (6, 5) to check Shutter (6, 6).
-  4. If (6, 6) is closed, check (6, 8) via Row 8 if accessible (unlikely if (10, 6) is closed).
+  1. Navigate to (5, 8) using `find_path`.
+  2. Check Shutter (6, 8).
+  3. If (6, 8) is OPEN, enter Middle Section.
+  4. If (6, 8) is CLOSED, check (6, 6).
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
