@@ -14,10 +14,10 @@
 ## Current Strategy
 **Target:** West Shutter (6, 8).
 **Logic:** S2=ON opens it. S3=ON closes it (Emergency Override).
-**Current State:** S1=OFF, S2=ON, S3=ON.
+**Current State:** S1=OFF, S2=ON, S3=OFF.
 **Plan:**
-1. Turn S3 OFF (removes override).
-2. Ensure S2 is ON (it is).
+1. Confirmed S3 is OFF (cancelled interaction).
+2. Ensure S2 is ON (assumed).
 3. Inspect West Shutter (6, 8).
 
 ## Test Log (Outer East Shutter (20, 6))
