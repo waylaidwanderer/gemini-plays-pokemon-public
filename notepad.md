@@ -11,12 +11,12 @@
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
     - OFF: ?
 
-## Current State: S1=ON, S2=ON, S3=ON
-- **Goal:** Determine if S2=ON opens the Main Door (20, 6).
-- **Observations:**
-  - (10, 6): CLOSED
-  - (6, 6): CLOSED
-  - (20, 6): ? (Checking Now)
+## Current Goal: Test S2=ON with S1=OFF
+- **Observation:** With S1=ON, S2=ON, S3=ON, Shutter (20, 6) is CLOSED.
+- **Plan:**
+  1. Turn Switch 1 (16, 1) **OFF**.
+  2. Check (20, 6) and (10, 6).
+  3. If still closed, try S3=OFF next.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
