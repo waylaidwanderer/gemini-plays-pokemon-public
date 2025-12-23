@@ -123,25 +123,23 @@
   "select_battle_move_refined": {
     "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "move_index": {
-          "type": "integer",
-          "minimum": 1,
           "maximum": 4,
-          "description": "The 1-based index of the move to select (1-4)."
+          "minimum": 1,
+          "type": "integer"
         },
         "screen_text": {
-          "type": "string",
-          "description": "The current screen text containing the move menu."
+          "type": "string"
         }
       },
       "required": [
         "move_index",
         "screen_text"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "import json\nimport sys\nimport re\n\ndef main():\n    try:\n        input_raw = sys.stdin.read()\n        if not input_raw:\n            print(json.dumps([\"A\"]))\n            return\n        input_data = json.loads(input_raw)\n        target_index = int(input_data.get('move_index', 1))\n        screen_text = input_data.get('screen_text', \"\")\n\n        # Split into lines and filter for move slots\n        lines = screen_text.split('\\n')\n        move_lines = []\n        for line in lines:\n            # Move lines contain a vertical bar and are not borders\n            if '\\u2502' in line and not any(c in line for c in ['\\u250c', '\\u2510', '\\u2514', '\\u2518', '\\u2500']):\n                # Exclude lines that are clearly not moves (e.g. type display, pocket names)\n                if not any(x in line for x in ['TYPE/', 'POCKET', 'ITEMS']):\n                    # Check for move content: alpha chars or hyphen (for empty slot '-')\n                    if re.search(r'[A-Za-z-]', line):\n                        move_lines.append(line)\n        \n        # Determine current index by searching for cursor ▶ (\\u25b6) or >\n        current_index = 1\n        found_cursor = False\n        for i, line in enumerate(move_lines):\n            if '\\u25b6' in line or '▶' in line or '\\u25ba' in line or '▶' in line:\n                current_index = i + 1\n                found_cursor = True\n                break\n        \n        buttons = []\n        if current_index != target_index:\n            diff = target_index - current_index\n            # Shortest path wrapping logic for 4 items\n            if diff == 1 or diff == -3:\n                buttons.append(\"Down\")\n            elif diff == 2 or diff == -2:\n                buttons.extend([\"Down\", \"Down\"])\n            elif diff == 3 or diff == -1:\n                buttons.append(\"Up\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to just pressing A if something fails\n        print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef run():\n    try:\n        input_data = json.loads(sys.argv[1])\n    except:\n        return\n        \n    move_target = int(input_data.get('move_index', 1))\n    text = input_data.get('screen_text', \"\")\n    \n    lines = text.split('\\n')\n    cursor_char = '▶'\n    \n    move_line_indices = []\n    cursor_line_index = -1\n    \n    for i, line in enumerate(lines):\n        if cursor_char in line:\n            cursor_line_index = i\n        \n        # Look for move names in the battle menu format\n        if line.count('│') >= 2:\n            parts = line.split('│')\n            for part in parts:\n                clean_part = part.replace('▶', '').strip()\n                # Pokemon Crystal move names are max 12 chars\n                if 1 <= len(clean_part) <= 12 and any(c.isalnum() for c in clean_part) and '/' not in clean_part:\n                    # Filter out stat/info labels\n                    if not any(keyword in clean_part.upper() for keyword in ['LV', 'HP', 'EXP', 'TYPE']):\n                        move_line_indices.append(i)\n                        break\n    \n    if cursor_line_index != -1 and move_line_indices:\n        # Find the contiguous block of moves containing the cursor\n        start = cursor_line_index\n        while start > 0 and start - 1 in move_line_indices:\n            start -= 1\n        end = cursor_line_index\n        while end < len(lines) - 1 and end + 1 in move_line_indices:\n            end += 1\n            \n        move_block = [idx for idx in move_line_indices if start <= idx <= end]\n        num_moves = len(move_block)\n        \n        if num_moves > 0:\n            try:\n                current_move_pos = move_block.index(cursor_line_index) + 1\n                diff = move_target - current_move_pos\n                \n                # Account for wrapping in the menu\n                if diff > (num_moves // 2):\n                    diff -= num_moves\n                elif diff < -(num_moves // 2):\n                    diff += num_moves\n                    \n                buttons = []\n                if diff > 0:\n                    buttons = [\"Down\"] * diff\n                elif diff < 0:\n                    buttons = [\"Up\"] * abs(diff)\n                \n                buttons.append(\"A\")\n                print(json.dumps(buttons))\n                return\n            except ValueError:\n                pass\n\n    # Default to A if detection fails\n    print(json.dumps([\"A\"]))\n\nif __name__ == \"__main__\":\n    run()",
     "history": [
       {
         "commit_message": "Refine move selection logic to use print() for JSON output and improve move line filtering. Navigation restricted to Up/Down.",
@@ -162,6 +160,11 @@
         "commit_message": "Refine move selection logic with more robust cursor detection and move slot filtering. Navigation restricted to Up/Down.",
         "timestamp": "2025-12-23T14:07:01.779Z",
         "action_counter": 14526
+      },
+      {
+        "commit_message": "Refined move detection logic to better handle screen text formatting and contiguous move blocks. Consolidated logic into a single reliable tool.",
+        "timestamp": "2025-12-23T15:55:14.197Z",
+        "action_counter": 14701
       }
     ]
   },
