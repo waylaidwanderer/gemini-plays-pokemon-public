@@ -145,3 +145,7 @@
 - **Issue:** Switch 2 Menu remained open despite previous 'B' press.
 - **Action:** Forcing menu close by selecting 'NO'.
 - **Sequence:** Down (Select NO) -> A (Confirm) -> Move to Switch 1.
+- **Observation:** `(20, 6)` is visually a WALL (Closed) with S1=OFF, S2=OFF, S3=OFF.
+- **Observation:** System message in Turn 14211 confirmed `(12, 8)` changed from FLOOR to WALL when S1 turned OFF. This confirms S1 controls `(12, 8)`.
+- **Next Step:** Checking `(23, 6)`.
+- **Hypothesis Update:** If All OFF fails, the only remaining untested variable for the Outer East Shutter is Switch 3 ON. Previous tests of S3 ON were limited (didn't check far east).
