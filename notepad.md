@@ -2,8 +2,9 @@
 ## The Repel Trick
 - **Lead:** KIMCHI (Lv 21 Gloom).
 - **Setup:** Use Super Repel to filter out wild Pokémon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- **Status:** Repel NOT active (Turn #13554). Last Repel (#5) expired Turn #13543.
-- **Inventory:** Super Repel x7 (Item 15 in PACK).
+- **Status:** Super Repel #6 active (Used Turn #13558).
+- **Inventory:** Super Repel x6 (Item 15 in PACK).
+- **Pacing Progress:** 0/200 steps (Repel #6). Suicune confirmed on Route 38 (Turn #13537). Meowth encounter on Turn #13548 confirmed Repel expired.
 - **Confirmed PACK Order (Turn #13553):**
   1. PSNCUREBERRY
   2. X ATTACK
