@@ -30,9 +30,8 @@
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
 - **Switch 3 (2, 1):** Emergency Override.
     - **Status:** OFF (Verified).
-    - **Current State:** S1=OFF, S2=ON, S3=OFF.
-    - **Effect:** Reverted Lockdown?
-    - **Plan:** Check Central Gates `(10, 6)` and `(11, 6)`. Then Toggle S2.
-    - **Hypothesis:** S2=OFF might release the electronic locks on Shutters `(17, 6)`/`(20, 6)`.
+    - **Effect:** Restored S1 logic (West Gate OPEN, East Gate CLOSED). Lockdown disengaged?
+    - **Plan:** Checking shutters `(17, 6)` and `(20, 6)` with S1=OFF, S2=ON, S3=OFF.
+    - **Hypothesis:** If shutters still closed, try S2=OFF (Power Down).
     - **Correction:** Updated marker for Inner East Gate (12, 8) to CLOSED (consistent with S1=OFF).
 - **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
