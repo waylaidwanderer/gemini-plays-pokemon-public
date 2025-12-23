@@ -54,3 +54,6 @@
   3. Turn Switch 3 OFF.
   4. Check Shutter states.
   5. Goal is to open East Shutter (12, 8).
+- **Action:** Using `press_buttons` to force move to (10, 2) and toggle Switch 2, ignoring remote tile updates.
+- **Reasoning:** `navigate` keeps aborting due to remote shutter changes. Path to switch is clear.
+- **Expectation:** Switch 2 will toggle. Check shutters (12, 8), (6, 8), etc. next turn.
