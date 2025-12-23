@@ -48,7 +48,3 @@
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
-
-## Reflection (Turn 14905)
-- Strategy: Efficient pathing via custom tool and `navigate`.
-- Verification: Root hypothesis (Park is best route) confirmed by standard map layouts.
