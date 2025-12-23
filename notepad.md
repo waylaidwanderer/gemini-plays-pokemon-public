@@ -49,3 +49,11 @@
   - Is there a way to bypass the toggle?
   - Or is the destination NOT `(12, 12)`?
   - Maybe `(20, 6)`?
+- **Battle:** Fighting Burglar (Pharmacist). Using Strength (Slot 1).
+- **Gate Logic Review:** S2=OFF confirmed to close West Gate `(6, 8)`.
+- **Correction:** In Turn 14925, I noted gates closing spontaneously while moving. This implies a hidden trigger or a misunderstanding of the "Emergency" mode.
+- **Plan:**
+    1. Defeat Burglar.
+    2. Turn S2 ON (Main Power).
+    3. Verify if S1=ON, S2=ON, S3=ON opens West Gate `(6, 8)`.
+    4. If it does, walk through and see if it stays open.
