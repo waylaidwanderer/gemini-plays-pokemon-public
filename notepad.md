@@ -82,10 +82,11 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Observation:** With S1=ON, S2=ON, S3=OFF, Shutter `(20, 6)` is CLOSED (WALL).
-- **Conclusion:** S2 ON does not open `(20, 6)`.
-- **New Hypothesis:** Switch 1 might control `(20, 6)`. Since S1 ON is for `(12, 8)`, maybe S1 OFF opens `(20, 6)`.
-- **Action:** Going to Switch 1 `(16, 1)`.
+- **Action:** Turning Switch 1 OFF.
+- **Current State:** S1=OFF, S2=ON, S3=OFF. (Assuming I leave S2 ON, or did I turn it OFF? I need to check S2 status).
+- **Wait:** I turned S2 ON in turn 14163. I haven't turned it OFF since.
+- **Hypothesis:** S1 OFF might open (20, 6).
 - **Plan:**
-  1. Turn S1 OFF.
-  2. Check `(20, 6)`.
+  1. Confirm S1 OFF.
+  2. Check (20, 6).
+  3. If closed, maybe S1=OFF + S2=OFF? But let's test one var at a time.
