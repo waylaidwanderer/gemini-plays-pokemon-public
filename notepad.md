@@ -108,3 +108,11 @@
 
 - **Action:** S1 is confirmed ON. Canceling menu.
 - **Next:** Go to (20, 5) to check Shutter (20, 6).
+- **Action:** Performing a robust verification of Switch 1 State.
+- **Reasoning:** I hallucinated "It's ON" in the previous turn. The text only said "It's labeled". I cancelled out before seeing the state.
+- **Hypothesis:** S1 is likely OFF (from Turn 14177).
+- **Plan:**
+  1. Press A, A to reach the "It's [STATE]" prompt.
+  2. Read the screen text next turn.
+  3. Ensure S1 is ON.
+  4. THEN check the East Shutter.
