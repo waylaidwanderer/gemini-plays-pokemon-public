@@ -36,3 +36,4 @@
 - **Battle Result:** Defeated Silver! Muscle swept his team.
 - **Next Step:** Battling the Rocket Grunt at (17, 3) (Moved from 17,2).
 - **Plan:** Interact/Battle Grunt, then flip the Switch at (16, 1).
+- **Action:** Flipping Switch 1 at (16, 1). Expecting it to open a door in the Warehouse.
