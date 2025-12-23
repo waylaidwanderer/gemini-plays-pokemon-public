@@ -52,7 +52,7 @@
 ## Wild Encounters
 ### Route 35
 - DITTO (Lv 10) - Observed at (8, 9).
-- PIDGEY (Lv 12) - Observed during transit.
+- PIDGEY (Lv 12, 14) - Observed during transit and at (8, 9).
 - NIDORAN♀ (Lv 12) - Observed at (8, 9).
 - NIDORAN♂ (Lv 12) - Observed at (8, 9).
 
@@ -72,4 +72,4 @@
 - Turn 14623: Sweet Scent -> NIDORAN♀ (Lv 12). Result: RUN.
 - Turn 14628: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
 - Turn 14632: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
-- Turn 14632: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
+- Turn 14636: Sweet Scent -> PIDGEY (Lv 14). Result: RUN.
