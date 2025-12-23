@@ -278,3 +278,7 @@
 - **Plan:** Turn S3 OFF. This creates the state **S1=OFF, S2=ON, S3=OFF**.
     - Rationale: S2=ON provides power. S3=OFF disables emergency lock. S1=OFF might select the Outer East path (since S1=ON selected Inner East).
 - **Action:** Bump (20, 6) to confirm closure, then navigate to Switch 3 to turn it OFF.
+- **Test Plan:** Turn Switch 3 OFF.
+- **Target State:** S1=OFF, S2=ON, S3=OFF.
+- **Hypothesis:** S2=ON provides power. S1=OFF selects "Outer East" (since S1=ON selected Inner East). S3=OFF ensures no emergency override.
+- **Prediction:** This should open the shutter at (20, 6).
