@@ -10,12 +10,6 @@
     - Best Catcher: Parasect (learns both moves).
     - Soft-reset (A+B+Start+Select) if it faints.
 
-## Training Progress: XENON
-- Start Turn: 14500
-- Status: Lv 13 reached. Mean Look learned. (Mean Look is still useful for other roamers like Entei/Raikou!)
-- Next Goal: Lv 25 (Evolution to Haunter).
-- Method: Sweet Scent at (18, 15) Route 32. RUN from Normal-types.
-
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
 - Future Targets: West of (13, 10), East of (19, 28).
@@ -55,21 +49,3 @@
 - PIDGEY (Lv 12, 14) - Observed during transit and at (8, 9).
 - NIDORAN♀ (Lv 12) - Observed at (8, 9).
 - NIDORAN♂ (Lv 12) - Observed at (8, 9).
-
-## Training Progress: XENON
-- Start Turn: 14500 (Timestamp: 14500)
-- Goal: Lv 25 (Evolution to Haunter).
-- Current: Lv 13.
-
-## Exploration Progress: Route 32
-- Start Turn: 14545 (Timestamp: 14545)
-- Goal: 100% completion.
-- Status: Western corridor (Column 1-4) remains unexplored.
-
-## Yanma Swarm Hunt Log
-- Turn 14608: Wild Encounter -> DITTO (Lv 10). Result: RUN.
-- Turn 14621: Sweet Scent -> DITTO (Lv 10). Result: RUN.
-- Turn 14623: Sweet Scent -> NIDORAN♀ (Lv 12). Result: RUN.
-- Turn 14628: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
-- Turn 14632: Sweet Scent -> NIDORAN♂ (Lv 12). Result: RUN.
-- Turn 14636: Sweet Scent -> PIDGEY (Lv 14). Result: RUN.
