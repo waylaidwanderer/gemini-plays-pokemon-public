@@ -13,14 +13,13 @@
 
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
-- **Location:** At (10, 2). Turned Switch 2 ON.
-- **Action:** Check North Shutter (10, 6).
-- **Logic:** S2=ON should open (10, 6). S3=ON keeps (6, 8) Open. S1=ON might keep (12, 8) Closed (override).
+- **Location:** At (10, 2). Switch 2 is ON.
+- **Action:** Enter Central Room via North Shutter (10, 6).
+- **Hypothesis:** S2=ON opens (10, 6). S3=ON keeps (6, 8) Open. S1=ON+S2=ON keeps (12, 8) Closed.
 - **Plan:**
-  1. Verify (10, 6) is OPEN.
-  2. Enter Central Room.
-  3. Exit West via (6, 8) [Should be open due to S2/S3].
-  4. Go South to Row 12+.
+  1. Go South through (10, 6).
+  2. Go West through (6, 8).
+  3. Go South to Row 12+.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
