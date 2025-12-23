@@ -38,3 +38,5 @@
 ## Hunting Session Tracking
 - Turn #13876: Moving to pacing spot (14, 6) to avoid tile loop warning and improve efficiency with Sweet Scent.
 - Turn #13881: Using Sweet Scent at (14, 6). Target: Gastly.
+- Turn #13883: Sweet Scent failed at (14, 6) ("nothing here"). Tile may not support encounters.
+- Turn #13884: Moving to (10, 11) to try Sweet Scent again.
