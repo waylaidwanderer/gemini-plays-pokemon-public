@@ -10,7 +10,7 @@
 - FLOOR: Standard traversable tile.
 - TALL_GRASS: Standard encounter tile.
 - WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way movement.
+- LEDGE_HOP_DOWN/LEFT/RIGHT: Jumpable one-way movement.
 - WARP_CARPET_RIGHT/DOWN: Map transition.
 - WATER: Traversable with HM SURF.
 - ICE: Sliding movement.
@@ -23,17 +23,12 @@
 - Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe zones. (6, 5) on 2F is a valid encounter tile.
 - Sweet Scent: Triggers immediate encounters on valid tiles. "Nothing here" means safe tile.
 
-## Battle Observations
-- XENON (Gastly) caught at Lv 6 (Female) at Turn #13924. Sent to Bill's PC.
-
 ## Training Plan: XENON
-1. (Done) Retrieve XENON from Bill's PC.
-2. (Done) Deposit Blarney (Sudowoodo) to make room.
-3. Heal party at Violet Pokecenter.
-4. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
-## Training Session Tracking
-- Turn #13969: Training session for XENON started.
-- Target: Level 13 (Mean Look), then Level 25 (Haunter).
-- Location: Route 32 (Grass).
+- Retrieve XENON from Bill's PC.
+- Deposit Blarney (Sudowoodo) to make room.
+- Heal party at Violet Pokecenter.
+- Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
+- Grind Start: Turn #13980.
+
 ## Route 32 Observations
-- Ledge at (14, 6): Type FLOOR_UP_WALL. Blocked movement from (14, 5) to (14, 6) when attempting to go Down. Ledges may have specific entry rules or directions.
+- Ledge at (14, 6): Jumpable south.
