@@ -1,7 +1,7 @@
 # Suicune Hunt Strategy (Started Turn #13189)
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16. Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
-- Repel Tracking: Super Repel #5 active (Used Turn #13493). Encountered Raticate on Turn #13477 (Repel #4 expired).
+- Repel Tracking: Repel #4 expired. Attempting to use Super Repel #5 (Turn #13496 attempt failed due to Tully phone call). Encountered Raticate on Turn #13477. Current Super Repel count: 8.
 - Tool Reliability: check_suicune_location_v8 and use_super_repel_v4 now assume cursor starts on EXIT (based on last action in Turn #13491).
 - Tracking: Use Pokedex AREA map via check_suicune_location_v8.
 - Battle Plan:
