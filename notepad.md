@@ -12,13 +12,13 @@
 - Logic: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
 - Johto Map Dots: Pokedex shows roamers as red dots. Route 38 is at Johto map (5, 5).
 
-# Global Tile Mechanics
+# Verified Tile Mechanics
 - TALL_GRASS / LONG_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
 - FLOOR: Traversable. Standard ground.
 - WALL / HEADBUTT_TREE / MART_SHELF / COUNTER: Impassable.
-- LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction.
+- LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction. Asserting one-way movement requires testing all directions.
 - WARP_CARPET_RIGHT: Traversable. Triggers map transition.
-- OLIVINE_CITY (18, 17): Wall (Impassable).
+- Interaction: To interact with NPCs behind COUNTER tiles, face the counter and press A.
 
 # Route 38/39 Boundary Reference
 - Route 38 (0, 8) <-> Route 39 (19, 8)
@@ -33,11 +33,3 @@
 - Navigation: Paths are often wider than one tile. Analyze adjacent tiles before assuming a path is blocked.
 - State Sync: Always verify inventory and money against Game State Information.
 - Map Limits: Route 39 is 20 tiles wide (X=0 to 19). (20, 8) is out of bounds.
-
-# Global Tile Mechanics
-- TALL_GRASS: Traversable. Triggers wild encounters. Repel Trick works here.
-- FLOOR: Traversable. Standard ground.
-- WALL / HEADBUTT_TREE / MART_SHELF / COUNTER / OLIVINE_CITY: Impassable.
-- LEDGE_HOP_DOWN / LEFT / RIGHT: One-way traversable in the indicated direction. Asserting one-way movement requires testing all directions.
-- WARP_CARPET_RIGHT: Traversable. Triggers map transition.
-- Mechanism: To interact with NPCs behind COUNTER tiles, face the counter and press A.
