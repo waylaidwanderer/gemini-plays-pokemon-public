@@ -20,15 +20,13 @@
 
 ## Current Status
 - **State:** S1=ON, S2=OFF, S3=OFF.
-- **Location:** East Corridor (16, 9).
-- **Observation:** This corridor is separated from the Emergency Switch room by a wall at Column 18.
-- **Goal:** Open Shutter at (20, 6) to access the Far East Room.
+- **Location:** Switch Room (12, 5).
+- **Action:** Turn Switch 3 ON.
 - **Plan:**
-  1. Exit to Switch Room (12, 5).
-  2. Go to Switch 3 (2, 1).
-  3. Turn S3 ON.
-  4. Check if (20, 6) is OPEN.
-  5. Test other combinations (S1+S3, etc.).
+  1. Move to Switch 3 (2, 1).
+  2. Turn S3 ON.
+  3. Check if Shutter at (20, 6) is OPEN.
+  4. If not, try S1=OFF, S3=ON.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
