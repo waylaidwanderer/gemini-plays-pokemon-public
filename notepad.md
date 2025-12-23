@@ -5,7 +5,7 @@
 - Status: Suicune confirmed on Route 38 (Turn #13180).
 
 # Roaming Pokémon Reference
-- Tracking: Use Pokédex AREA map.
+- Tracking: Use Pokédex AREA map via `check_suicune_location_v6`.
 - Movement: Suicune shifts routes ONLY when the player crosses a map boundary (warp, carpet, or edge), uses Fly, or after a battle with the roamer.
 - Note: Pacing in grass, phone calls, or battling OTHER wild Pokemon on the same route do NOT move it.
 - Capture: Status and HP damage are permanent. Sleep prevents fleeing on Turn 1.
@@ -23,7 +23,7 @@
 - OLIVINE_CITY (18, 17): WALL (Impassable). Avoid when pathing.
 
 # Route 38/39 Boundary Reference
-- Route 38 (0, 8) <-> Route 39 (20, 8)
+- Route 38 (0, 8) <-> Route 39 (19, 8)
 - Route 38 (0, 10) <-> Route 39 (19, 10)
 - Crossing this line shifts roamer locations.
 
