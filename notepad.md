@@ -62,3 +62,6 @@
 - **Plan:** Entering the Southern Area via West Gate to reach the Warehouse.
 - **Tile Change (Turn 15013):** `(6, 13)` changed from FLOOR to WALL. Possibly a shutter closing as I moved south?
 - **Plan:** Moving through the open path at `(12, 12)` to explore the southern section.
+- **Tile Update (Turn 15027):** `(17, 10)` and `(17, 11)` changed WALL -> FLOOR.
+- **Hypothesis:** This opens a vertical corridor at x=17, likely connecting the area I am in to the northern part or further east.
+- **Plan:** Moving East to investigate this new path at x=17.
