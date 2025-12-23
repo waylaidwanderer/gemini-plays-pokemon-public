@@ -246,3 +246,6 @@
 - **Action:** Navigating through the newly opened path at (2, 7).
 - **Goal:** Explore the area south of Switch 3 (Pharmacist Room) to see if it connects to the Director or a key for the East Shutter.
 - **Note:** This West path seems to bypass the central blockades.
+- **Action:** Interacting with Pharmacist at (4, 8).
+- **Goal:** Get information or clear the path (Battle).
+- **Hypothesis:** This room connects to the blocked South/East sections.
