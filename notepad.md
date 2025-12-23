@@ -14,14 +14,17 @@
 ## Current Strategy
 **Goal:** Rescue Director.
 **Status:** 
-- **East Shutter (12, 8):** OPEN (S1=ON, S2=ON, S3=ON).
-- **Current Location:** Leaving Inner East Corridor (17, 9).
+- **East Shutters (20, 6) & (22, 6):** CLOSED with S1=ON, S2=ON, S3=ON.
+- **Inner East (12, 8):** OPEN.
+- **Current Location:** (22, 5).
 - **Configuration:** S1=ON, S2=ON, S3=ON.
-**Hypothesis:** exploring if "All Switches ON" opens the Outer East Shutter (20, 6) or (22, 6).
+**Hypothesis:** "All ON" failed to open the Outer East path. Trying "S3 Only" (Emergency Mode) to see if it opens the Emergency Path.
 **Plan:**
-1. Navigate to (22, 5).
-2. Inspect Shutters (20, 6) and (22, 6).
-3. If open, access Emergency Switch (20, 11) and Door (22, 10).
+1. Turn S1 OFF.
+2. Turn S2 OFF.
+3. Ensure S3 is ON.
+4. Inspect Shutters (20, 6) and (22, 6).
+5. If open, access Emergency Switch (20, 11).
 
 ## Switch Logic (Updated)
 - **S1 (16, 1):** Toggles between East/West? (S1=ON -> East Open, West Closed).
