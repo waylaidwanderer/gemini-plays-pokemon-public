@@ -273,3 +273,8 @@
 - **Action:** Leaving S2 ON. Proceeding to check Outer East Shutter (20, 6) with combo: S1=OFF, S2=ON, S3=ON.
 - **Action:** Navigating to (20, 6) to test current config (S1=OFF, S2=ON, S3=ON).
 - **Hypothesis:** This combination might open the Outer East Shutter.
+- **Observation:** With S1=OFF, S2=ON, S3=ON, the Shutter at (20, 6) is CLOSED.
+- **Hypothesis:** S3 (Emergency) might be locking it.
+- **Plan:** Turn S3 OFF. This creates the state **S1=OFF, S2=ON, S3=OFF**.
+    - Rationale: S2=ON provides power. S3=OFF disables emergency lock. S1=OFF might select the Outer East path (since S1=ON selected Inner East).
+- **Action:** Bump (20, 6) to confirm closure, then navigate to Switch 3 to turn it OFF.
