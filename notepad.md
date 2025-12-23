@@ -20,3 +20,9 @@
 # Completed Notes (Archive)
 - **Dept Store Puzzle:** Solved. Blue Barrier blocks path.
 - **Rival Battle:** Defeated Silver.
+- **Blockage:** Path South blocked by solid wall at Row 10 (x=11-21).
+- **Hypothesis:** Switch 1 opened Row 7, but Row 10 remains closed. Need to find another switch or mechanism.
+- **Plan:**
+  1. Pick up item (Might be key?).
+  2. Inspect "Emergency Switch" location at (20, 11) via (20, 10).
+  3. Explore corners of North Room (Row 5) for missed switches.
