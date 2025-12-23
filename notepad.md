@@ -46,3 +46,8 @@
 - **Status:** Exited Warehouse SE Room to Main Tunnel (18, 7).
 - **Plan Update:** Re-entering Warehouse via (18, 6) to access the Switch Room from the North (via ladder).
 - **Goal:** Reach Switch Room (Map 3_54), go to (12, 8), and pass through the East Shutter (which should be OPEN now).
+- **Observation:** `(12, 5)` was blocked from the North.
+- **Hypothesis:** `(12, 8)` (East Shutter) might be accessible from the South side of the map.
+- **Plan:** Navigate to the SW Ladder at `(3, 34)` on `3_53` to access the South area of `3_54`.
+- **Reasoning:** S1=ON/S2=OFF opens `(12, 8)`. If I can't reach it from North, I must try South.
+- **Note:** Marker says "Dead End (Teacher)" at `(3, 34)`. Will verify if this is still true or if I can bypass.
