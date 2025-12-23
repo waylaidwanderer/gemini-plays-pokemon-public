@@ -65,3 +65,6 @@
 - **Tile Update (Turn 15027):** `(17, 10)` and `(17, 11)` changed WALL -> FLOOR.
 - **Hypothesis:** This opens a vertical corridor at x=17, likely connecting the area I am in to the northern part or further east.
 - **Plan:** Moving East to investigate this new path at x=17.
+- **Tile Update (Turn 15028):** `(18, 12)` and `(18, 13)` changed WALL -> FLOOR.
+- **Observation:** The path continues to open up as I advance East. This suggests proximity-based shutters or just map reveal mechanics.
+- **Plan:** Continue East to (18, 12). Expecting to encounter the Rocket Girl marked at (19, 12).
