@@ -28,9 +28,7 @@
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
 ## Event: Yanma Swarm (Route 35)
-- Status: Capture in progress (Turn 14690).
 - Strategy: KIMCHI (Gloom) for Sleep Powder + Absorb (Safe weakening).
-- History: 8 Great Balls failed at full HP. Currently weakening. (Yanma HP ~70%, Awake).
 - Resources: Sleep Powder PP: 1. Max Ether in bag.
 
 ## Wild Encounters (Route 35)
