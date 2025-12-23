@@ -17,8 +17,9 @@
     - **Behavior with S3=OFF:** S1=OFF -> (6, 8) OPEN.
 - **S2 (10, 1):** Main Power.
     - **Current:** ON.
+    - **Effect:** Opened Gates `(10, 7)` and `(11, 7)` (Central South).
+    - **Hypothesis:** Might also affect `(17, 6)` or `(20, 6)`.
 - **S3 (2, 1):** Emergency Override.
-    - **Function:** Opens shutter at (2, 7). Controls Mode.
     - **Current:** OFF.
 - **Observation:** S2 was found to be OFF. (Contrary to previous belief).
 - **Correction:** The checks in Turns 14707-14715 were performed with S1=ON, S2=OFF, S3=OFF. Result: Shutters (17, 6) and (20, 6) CLOSED.
