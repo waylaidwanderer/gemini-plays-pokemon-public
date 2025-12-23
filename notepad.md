@@ -4,8 +4,8 @@
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
 - Step 4: Track Suicune. Use Pokédex. (Started Turn 14853).
-- Step 5: Prepare Catcher. XENON (Gastly) is the primary trapper (Mean Look + Hypnosis). Lv17 is required for the Repel strategy.
-- Step 6: Execute Capture. Corner Suicune on Route 42 -> Mean Look -> Hypnosis -> Ultra Balls.
+- Step 5: Prepare Catcher. XENON (Gastly) is Lv17 with Mean Look + Hypnosis. (COMPLETE)
+- Step 6: Execute Capture. Repel Strategy on Route 42 -> Mean Look -> Hypnosis -> Great Balls.
 
 ## Capture Contingency & Roamer Mechanics
 - Roamers (Suicune, Raikou, Entei) move between adjacent maps whenever the player crosses a map boundary.
@@ -46,7 +46,6 @@
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
 
 ## Training Log
-- Goal: Train XENON (Gastly) to Lv17.
-- Start Turn: Turn 15000.
-- Current Status: Lv16 (Turn 15200). EXP: 3087. Needs ~34 for Lv17.
-- Method: Lead with XENON, switch to Calcifer or GNEISS to finish wild encounters in Route 42 grass.
+- Goal: Train XENON (Gastly) to Lv17. (COMPLETE Turn 15201)
+- Current Status: Starting Repel Hunt on Route 42.
+- Method: Lead with XENON (Lv 17), use Super Repel, pace in grass.
