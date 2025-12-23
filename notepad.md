@@ -19,16 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=ON, S2=OFF, S3=ON.
-- **Location:** Switch Room (20, 5).
-- **Observation:** Shutter at (20, 6) is CLOSED.
-- **Hypothesis:** S1+S3 is invalid. S2 might open (20, 6) since it opens (10, 6).
+- **State:** S1=ON (Turning OFF), S2=OFF, S3=ON.
+- **Location:** Switch Room (16, 2).
+- **Action:** Turn Switch 1 OFF.
 - **Plan:**
-  1. Go to Switch 1 (16, 1). Turn OFF.
-  2. Check (20, 6) with just S3=ON.
-  3. If closed, go to Switch 3. Turn OFF.
-  4. Go to Switch 2. Turn ON.
-  5. Check (20, 6).
+  1. Interact with Switch 1 to turn OFF.
+  2. Move to (20, 5).
+  3. Check if Shutter at (20, 6) is OPEN.
+  4. If closed, plan next combination (likely involving S2).
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
