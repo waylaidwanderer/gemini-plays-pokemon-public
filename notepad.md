@@ -1,8 +1,8 @@
 # Goldenrod Underground Switch Puzzle
 
 ## Confirmed Mechanics
-- **Switch 1 (16, 1):** Currently ON.
-    - Effect: Unknown. Hypothesis: Controls (12, 12).
+- **Switch 1 (16, 1):** Turning OFF now.
+    - Effect: Unknown. Testing if it controls (20, 6) or (12, 12).
 - **Switch 2 (10, 1):** Currently ON.
     - Effect: Controls (12, 8) and (10, 6).
 - **Switch 3 (2, 1):** Currently OFF.
@@ -11,13 +11,13 @@
 
 ## Current Goal: Access Row 12 (South)
 - **Target:** Emergency Switch at (20, 11).
-- **Current Strategy:** Middle Path (Column 10).
-    - Check Shutter at (10, 6).
-    - If OPEN: Proceed South to (12, 12).
-    - If CLOSED: Toggle Switch 2 (OFF).
+- **Current Strategy:** Test Switch 1 OFF.
+    - Step 1: Turn Switch 1 OFF.
+    - Step 2: Check East Shutter (20, 6).
+    - Step 3: Check Middle-South Path (10, 6) -> (12, 12).
 
 ## Status of Critical Shutters
 - **(6, 12):** OPEN (Sw3 OFF) - *Path blocked at (2, 6)*.
-- **(10, 6):** Unknown (Checking).
-- **(12, 12):** Unknown (Hypothesis: Sw1 ON opens).
-- **(20, 6):** CLOSED (Sw3 ON/OFF).
+- **(10, 6):** Unknown (Hypothesis: Sw2 ON opens it).
+- **(12, 12):** Unknown.
+- **(20, 6):** CLOSED (Sw3 ON/OFF). Testing with Sw1 OFF.
