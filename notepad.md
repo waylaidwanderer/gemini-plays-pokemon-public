@@ -21,7 +21,7 @@
 
 ## Inventory Summary
 - **Balls:** Great Ball x40.
-- **Key Items:** Super Repel x8 (Target: Item 13 in ITEMS pocket). Super Repel #5 used Turn #13507.
+- **Key Items:** Super Repel x8 (Target: Item 13 in ITEMS pocket). Super Repel #5 used Turn #13508.
 - **Healing:** Super Potion x10, Revive x5, Fresh Water x5.
 
 ## PC Storage (Box 1)
