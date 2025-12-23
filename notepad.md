@@ -10,9 +10,9 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes."
 - **Clue:** Grunt at (11, 4) said 'The switch on the end is the one to press first'.
-- **Observation:** Switch 1 ON opened South Path (Row 7) but closed West Shutter (10, 5).
-- **Hypothesis:** Turning Switch 1 OFF will CLOSE South Path and OPEN West Shutter.
-- **Plan:** Turn Switch 1 OFF. Navigate to West Shutter (10, 5) to access the NW area and find the 'Switch on the end' (Switch 3?).
+- **Result:** Switch 1 OFF opened the West Shutter at (10, 5).
+- **Current Status:** Accessing NW area.
+- **Plan:** Find Switch 3 (likely "the switch on the end") in the NW corner. Press it first. Then find Switch 2.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
