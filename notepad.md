@@ -129,3 +129,6 @@
 - **Implication:** The correct path must be the Outer East Path (20, 6) or the West Path (via 6, 8, but overcoming Row 10).
 - **New Plan:** Test the last remaining combination for (20, 6): **S1=OFF, S2=OFF**.
 - **Action:** Backtracking to Switch Room. Will turn S2 OFF, then S1 OFF.
+- **Action:** Executing the "All OFF" test plan.
+- **Step 1:** Go to Switch 2 (currently ON) and turn it OFF.
+- **Note:** Turning S2 OFF will close the gate at (10, 6), confining me to the North area, which is fine for reaching S1 and the test point (20, 6).
