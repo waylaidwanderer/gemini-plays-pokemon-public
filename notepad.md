@@ -19,12 +19,9 @@
 - **Current Status:** Switch 1 ON. Switch 2 OFF. Switch 3 OFF.
 - **Observations:**
     - Vertical 4 (16, 6) is OPEN.
-    - Shutter (12, 8) is OPEN.
-    - Shutter (11, 10) is OPEN.
-    - Shutter (12, 12) is CLOSED (Blocks path East from Middle Section).
-- **New Hypothesis:** The Emergency Switch at (20, 11) is reached via the Far East Strip (Column 20).
+    - Vertical 5 (20, 6) is CLOSED (WALL).
+    - Emergency Switch path is blocked.
+- **Hypothesis:** Switch 1 toggles between Vertical 4 (16, 6) and Vertical 5 (20, 6).
 - **Plan:**
-    1. Navigate to Far East Strip via Row 4 crossing (18, 4).
-    2. Inspect Vertical Shutter/Wall at (20, 6).
-    3. If (20, 6) is open, proceed South to (20, 11).
-    4. If closed, inspect Column 18 walls (18, 8) or (18, 12) for openings.
+    1. Turn Switch 1 OFF (Config: 1 OFF, 2 OFF, 3 OFF).
+    2. Check Vertical 5 (20, 6).
