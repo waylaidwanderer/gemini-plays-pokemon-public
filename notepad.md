@@ -40,3 +40,6 @@
 - COUNTER: Interaction point for NPCs; impassable. Verified.
 - NPC: Map objects that block movement. Verified.
 - WARP_CARPET_LEFT: Map transition point. Verified.
+## Progress Tracking
+- XENON (Gastly) Lv 12: 1014 / 1098 EXP. Needs 84 to reach Lv 13 (Mean Look).
+- Training Targets: Wild Gastly (95 EXP), Wild Bellsprout (84 EXP).
