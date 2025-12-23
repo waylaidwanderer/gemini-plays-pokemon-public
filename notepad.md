@@ -22,6 +22,7 @@
     - **Current:** OFF.
 - **Test:** Testing S3=OFF with S1=ON.
     - **Status:** S3 confirmed OFF. Checking (17, 6).
+    - **Plan:** Navigate to (17, 5). If (17, 6) is OPEN, explore Middle East.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
