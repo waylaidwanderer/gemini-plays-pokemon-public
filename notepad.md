@@ -11,8 +11,10 @@
     - OFF: Default. Allows S1 to open (12, 8).
 - **Current Plan:** Set S1=ON, S2=OFF, S3=OFF to open East Shutter (12, 8).
 - **Switch 3 (2, 1):**
-    - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
+    - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF. (Active).
     - OFF: ?
+- **Status:** S1=ON, S2=OFF, S3=ON.
+- **Goal:** Check if S3=ON opens Shutter (6, 8) or removes Wall (6, 9).
 
 ## Reflection (Turn 13871)
 1. **Immediate Execution:** S1/S2/S3 combo tested. (20, 6) remains CLOSED. Pivot to exploration.
