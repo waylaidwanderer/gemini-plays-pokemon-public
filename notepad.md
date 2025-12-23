@@ -25,11 +25,9 @@
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
-- Start Turn: 14146
-- Method: Grind on Route 32 grass using Sweet Scent.
-- Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
-- Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
-- Strategy: Use Lick against Gastly/Bellsprout. Run from others.
+- Method: Use Sweet Scent at (18, 15) grass patch.
+- Strategy: Use Lick against Gastly and Bellsprout. RUN from Normal-types (Rattata, Hoothoot, Pidgey) and low-EXP targets (Zubat) to conserve PP and health.
+- Maintenance: Heal with Fresh Water/Lemonade when HP < 10.
 
 ## Tile Mechanics (Route 32)
 - FLOOR: Standard traversable ground. Verified.
