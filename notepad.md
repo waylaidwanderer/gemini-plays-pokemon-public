@@ -38,3 +38,6 @@
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
 - Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
+## PP Management
+- XENON Lick PP: 1/30 (Turn #14103). Need to use Max Ether or heal after current battle.
+- Inventory: Max Ether x2.
