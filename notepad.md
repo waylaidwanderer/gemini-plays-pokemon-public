@@ -4,7 +4,7 @@
 - **S1 (16, 1):** Toggles East/West.
     - **ON:** Opens `(16, 10)` (Middle East). Closes `(12, 12)` & `(6, 8)`.
     - **OFF:** Opens `(6, 8)` (West). Closes `(16, 10)`.
-    - **Current:** OFF.
+    - **Current:** ON.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
     - **OFF:** Fail-Safe Test Failed (Row 10 Wall solid).
