@@ -27,3 +27,5 @@
 - Navigation: Avoid mixing directional and action buttons in a single sequence.
 - Pacing: Change coordinates (X or Y) to count steps; spinning in place does not trigger encounters.
 - Sweet Scent: Triggers an immediate wild encounter in areas with wild Pokemon. If it says "nothing here", the tile is safe.
+- Sweet Scent failed at (14, 10). This tile is also "safe".
+- Goal: Test (2, 2) in the far corner.
