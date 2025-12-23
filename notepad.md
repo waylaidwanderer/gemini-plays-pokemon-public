@@ -9,18 +9,10 @@
 - **Current Task:** Access the Southeast Underground section to find Switch 2 & 3.
 - **Key Item:** BASEMENT KEY (Obtained).
 
-# Puzzle Strategy (Started Turn 13143)
-- **Goal:** Open North Gate (10, 8) on Map 3_55.
-- **Mechanic:** Shifting walls (Gates) at (10, 8) and (10, 12).
-- **Clue:** Black Belt (ID 6) at (4, 8) says: "I lose my passion for work if someone's watching."
-- **Hypothesis:** "Watching" Black Belt ID 6 (standing in his line of sight) will STOP him from working, which might OPEN the North Gate.
-- **Previous Failures:**
-  - Normal Approach (Col 9): Gates Closed.
-  - Stealth Approach (Col 8): Gates Closed.
-- **Result:** SUCCESS! Standing at (4, 7) (watching Black Belt ID 6) caused the North Gate at (10, 8) to OPEN (Type changed to FLOOR).
-- **Conclusion:** "Watching" the worker disables the security system or opens the gate.
-- **Next Step:** Walk through the North Gate (cross Column 9). Assuming the trap is disabled.
-- **Goal:** Retrieve Item at (14, 2) and proceed to Ladder at (17, 2).
+# Dept Store Basement Puzzle (Solved)
+- **Solution:** Stand at (4, 7) to "watch" the Black Belt (ID 6). This opens the North Gate at (10, 8).
+- **Outcome:** Accessed the area behind the gate. Found a Blue Barrier at Row 4 blocking the path to the item and ladder at (17, 2).
+- **Deduction:** The ladder at (17, 2) is likely an entrance from the Warehouse, not an exit. Need to access Warehouse from Underground.
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
