@@ -18,15 +18,13 @@
 
 ## Current Goal: Test S3=ON (S1=OFF, S2=OFF, S3=ON)
 - **Current State:** S1=OFF, S2=OFF, S3=OFF.
-- **Observation:** (10, 6) is CLOSED (All OFF).
-- **Hypothesis:** All OFF is a reset state (All Closed).
-- **Test:** Turn S3 ON.
-  - S3 might control the West shutter (6, 6).
+- **Observation:** (10, 6) is CLOSED (Verified: All OFF = Closed).
+- **Hypothesis:** S3 controls the West shutter (6, 6) or (6, 8).
 - **Plan:**
   1. Navigate to Switch 3 (2, 1).
   2. Turn S3 ON.
-  3. Check Shutter (6, 6).
-  4. If (6, 6) opens, enter West Room.
+  3. Navigate to (6, 5) to check Shutter (6, 6).
+  4. If (6, 6) is closed, check (6, 8) via Row 8 if accessible (unlikely if (10, 6) is closed).
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
