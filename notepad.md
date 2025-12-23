@@ -205,3 +205,7 @@
 - **Contingency:** If closed, proceed to Ladder (23, 3) to explore Warehouse SE.
 - **Observation:** (10, 6) Gate closed (became WALL) while moving. Possible S3 Override closing it? Or S2 is OFF?
 - **Action:** Going to check S2 state.
+- **Observation (S1=OFF, S2=OFF, S3=ON):** (10, 6) Gate appears OPEN (FLOOR) in Mental Map. This contradicts previous logic that S2 OFF closes it.
+    - Possibility: S3 ON overrides S2 OFF for the North Gate?
+    - Possibility: S2 controls West Gate (6, 8) but not North (10, 6)?
+- **Action:** Going to check (20, 6). If (20, 6) opens, S3 is indeed the "Emergency" key.
