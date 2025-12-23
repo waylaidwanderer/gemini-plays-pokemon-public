@@ -33,3 +33,4 @@
 - The middle section (x=5 to x=14) is isolated from the outer sections. It only connects to Violet City via the main entrance.
 - To reach the outer sections of 1F, use the ladders to 2F and find descending ladders.
 - Middle section tested tiles: (14, 6), (10, 11), (14, 10) are all safe.
+- Turn #13906: Sweet Scent successful at (6, 5) on 2F. Encountered Gastly.
