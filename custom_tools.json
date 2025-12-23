@@ -61,5 +61,20 @@
         "action_counter": 14240
       }
     ]
+  },
+  "use_sweet_scent_v8": {
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Cursor-agnostic: clears dialogue, resets menus, and executes the move. Assumes KIMCHI is in slot 6 of a 6-Pokemon party.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n# 1. B, B, B: Clear any open menus or dialogue.\n# 2. Start: Open menu.\n# 3. sleep 500: Pause for menu opening.\n# 4. Up * 7: Reset Start menu cursor to POKEDEX (Slot 1).\n# 5. Down: Move to POKEMON (Slot 2). A.\n# 6. sleep 500: Pause for party menu opening.\n# 7. Up * 6: Reset Party menu cursor to XENON (Slot 1).\n# 8. Down * 5: Move to KIMCHI (Slot 6). A.\n# 9. sleep 500: Pause for KIMCHI menu.\n# 10. A: Select first field move (Sweet Scent).\n# 11. sleep 500: Wait for move execution.\n# 12. B, B: Clear 'KIMCHI used Sweet Scent' text.\nprint(json.dumps([\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\", \"B\"]))",
+    "history": [
+      {
+        "commit_message": "Defined use_sweet_scent_v8: a cursor-agnostic tool that clears dialogue, resets the Start menu to POKEDEX using Up*7, navigates to POKEMON, resets the Party menu to XENON using Up*6, navigates to KIMCHI, and uses Sweet Scent. Includes sleep commands for reliability.",
+        "timestamp": "2025-12-23T11:16:01.164Z",
+        "action_counter": 14275
+      }
+    ]
   }
 }
