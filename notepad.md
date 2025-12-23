@@ -28,23 +28,16 @@
 - Method: Grind on Route 32 grass using Sweet Scent.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
-- Progress:
-    - Turn 14280: Encountered wild Gastly at (18, 15).
-    - Training Spot: (18, 15) confirmed for Gastly/Bellsprout. Marked 🎯.
-    - Battle Strategy: Use Lick against Gastly/Bellsprout. Run from Normal types.
+- Strategy: Use Lick against Gastly/Bellsprout. Run from others.
 
-## Route 32 Observations
-- Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
-- Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam. Marked 🚫.
-
-## Tile Mechanics (Verified)
-- FLOOR: Standard traversable tile.
-- TALL_GRASS: Standard encounter tile.
-- WALL/HEADBUTT_TREE: Impassable.
-- LEDGE_HOP_DOWN: Jumpable one-way movement south. Verified at (16, 15).
-- WARP_CARPET: Map transition. Verified.
+## Tile Mechanics (Route 32)
+- FLOOR: Standard traversable ground.
+- TALL_GRASS: Encounter-eligible ground.
+- WALL/HEADBUTT_TREE: Impassable boundaries.
+- LEDGE_HOP_DOWN: One-way jumpable ledge (South). Verified at (16, 15).
+- LEDGE_HOP_RIGHT: One-way jumpable ledge (East). Verified at (17, 12).
+- WATER: Impassable without Surf.
+- DOOR/DOOR_04/CAVE: Warp entry points.
 - COUNTER: Interaction point for NPCs; impassable.
-- NPC: Map objects that block movement. Verified.
-## NPC & Phone Contacts
-- Tully (Fisher): Mentioned he fishes on Route 42. (Turn 14300)
-- Arnie (Bug Catcher): Mentions Bug-Catching Contest on Route 35. (Turn 14276)
+- NPC: Map objects that block movement.
+- WARP_CARPET_LEFT: Map transition point.
