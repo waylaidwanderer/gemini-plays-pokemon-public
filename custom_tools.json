@@ -166,28 +166,24 @@
     ]
   },
   "find_path": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls).",
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Treats HEADBUTT_TREE as impassable. Does not support surfing navigation.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
           "type": "integer"
         },
-        "avoid_warps": {
-          "type": "boolean",
-          "default": true
-        },
         "map_xml": {
           "type": "string"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
         }
       },
       "required": [
@@ -198,12 +194,17 @@
         "map_xml"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    xml_string = input_data['map_xml']\n    avoid_warps = input_data.get('avoid_warps', True)\n\n    root = ET.fromstring(xml_string)\n    grid = {}\n    warps = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.attrib.get('is-warp') == 'true':\n                warps.add((x, y))\n            if tile.find('Object') is not None:\n                grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y)])\n    visited = {(start_x, start_y): None}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        if (curr_x, curr_y) == (end_x, end_y):\n            path = []\n            while (curr_x, curr_y) is not None:\n                path.append({\"x\": curr_x, \"y\": curr_y})\n                parent = visited[(curr_x, curr_y)]\n                if parent:\n                    curr_x, curr_y = parent\n                else:\n                    curr_x, curr_y = None, None\n            return {\"path\": path[::-1]}\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                t_type = grid[(nx, ny)]\n                if t_type == 'WALL' or t_type == 'unseen':\n                    continue\n                if avoid_warps and (nx, ny) in warps and (nx, ny) != (end_x, end_y):\n                    continue\n                \n                # One-way logic\n                if dy == 1: # Moving South\n                    if grid.get((curr_x, curr_y)) == 'FLOOR_UP_WALL' or t_type == 'FLOOR_UP_WALL': continue\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        ny = ny + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] == 'WALL': continue\n                elif dy == -1: # Moving North\n                    if t_type == 'LEDGE_HOP_DOWN': continue\n                elif dx == 1: # Moving East\n                    if t_type == 'LEDGE_HOP_RIGHT':\n                        nx = nx + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] == 'WALL': continue\n                elif dx == -1: # Moving West\n                    if t_type == 'LEDGE_HOP_RIGHT': continue\n                \n                if (nx, ny) not in visited:\n                    visited[(nx, ny)] = (curr_x, curr_y)\n                    queue.append((nx, ny))\n    return {\"path\": None}\n\nprint(json.dumps(run(input_data)))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    xml_string = input_data['map_xml']\n\n    root = ET.fromstring(xml_string)\n    grid = {}\n    warps = set()\n    impassable_types = {'WALL', 'HEADBUTT_TREE', 'WATER', 'unseen'}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.attrib.get('is-warp') == 'true':\n                warps.add((x, y))\n            if tile.find('Object') is not None:\n                grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y)])\n    visited = {(start_x, start_y): None}\n    \n    while queue:\n        curr_x, curr_y = queue.popleft()\n        if (curr_x, curr_y) == (end_x, end_y):\n            path = []\n            while (curr_x, curr_y) is not None:\n                path.append({\"x\": curr_x, \"y\": curr_y})\n                parent = visited[(curr_x, curr_y)]\n                if parent:\n                    curr_x, curr_y = parent\n                else:\n                    curr_x, curr_y = None, None\n            return {\"path\": path[::-1]}\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid:\n                t_type = grid[(nx, ny)]\n                if t_type in impassable_types:\n                    # Allow landing on a warp if it's the destination\n                    if (nx, ny) != (end_x, end_y):\n                        continue\n                \n                # One-way logic\n                if dy == 1: # Moving South\n                    if grid.get((curr_x, curr_y)) == 'FLOOR_UP_WALL' or t_type == 'FLOOR_UP_WALL': continue\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        ny = ny + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dy == -1: # Moving North\n                    if t_type == 'LEDGE_HOP_DOWN': continue\n                elif dx == 1: # Moving East\n                    if t_type == 'LEDGE_HOP_RIGHT':\n                        nx = nx + 1\n                        if (nx, ny) not in grid or grid[(nx, ny)] in impassable_types: continue\n                elif dx == -1: # Moving West\n                    if t_type == 'LEDGE_HOP_RIGHT': continue\n                \n                if (nx, ny) not in visited:\n                    visited[(nx, ny)] = (curr_x, curr_y)\n                    queue.append((nx, ny))\n    return {\"path\": None}\n\nprint(json.dumps(run(input_data)))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-23T14:26:25.290Z",
         "action_counter": 14551
+      },
+      {
+        "commit_message": "Refined find_path to correctly handle impassable tile types like HEADBUTT_TREE and properly distinguish between land and water navigation.",
+        "timestamp": "2025-12-23T14:27:02.667Z",
+        "action_counter": 14552
       }
     ]
   }

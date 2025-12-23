@@ -1,16 +1,21 @@
-# Suicune Capture Strategy
-## Strategy: The Mean Look Pivot
-- Train XENON (Gastly) to Lv 13 to learn Mean Look. (COMPLETE)
-- Evolve to Haunter (Lv 25) and train to ~Lv 38-40 (Speed 73-110) to outspeed Suicune.
-- Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Ultra Balls.
-- Track Suicune using Pokedex AREA map. Cycle between adjacent routes to force movement.
-- Item Goal: Buy Ultra Balls at Goldenrod or Blackthorn Marts.
+# Suicune Capture Strategy (Crystal Version)
+## Strategy: The Tin Tower Encounter
+- Goal: Obtain the Clear Bell from the Radio Tower Director (Goldenrod City).
+- Location: Tin Tower, Ecruteak City.
+- Requirements: Defeat the three Sages in the Wise Trios Room.
+- Preparation:
+    - Prepare a 'Catcher' Pokémon: Parasect (Spore + False Swipe) is ideal.
+    - Stock up on Ultra Balls and Level Balls.
+- Execution:
+    - Reduce HP to 1 using False Swipe.
+    - Inflict Sleep using Spore (2x catch rate in Gen 2).
+    - Throw balls until caught. Soft-reset if necessary.
 
 ## Training Progress: XENON
 - Start Turn: 14500
-- Status: Lv 13 reached. Mean Look learned.
-- Next Goal: Lv 25 (Evolution).
-- Method: Sweet Scent at (18, 15) Route 32. RUN from Normal-types and Hoppip.
+- Status: Lv 13 reached. Mean Look learned. (Mean Look is still useful for other roamers like Entei/Raikou!)
+- Next Goal: Lv 25 (Evolution to Haunter).
+- Method: Sweet Scent at (18, 15) Route 32. RUN from Normal-types.
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
