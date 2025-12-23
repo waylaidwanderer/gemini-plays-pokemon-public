@@ -251,3 +251,7 @@
 - **Current State (Predicted):** S1=OFF, S2=ON, S3=ON.
 - **Hypothesis:** S2=ON opens the North Gate (10, 6). S3=ON keeps the Inner East Shutter (12, 8) open.
 - **Plan:** After turning S2 ON, go South through (10, 6) and East to (12, 8).
+- **Action:** Switch 2 turned ON.
+- **Current Config:** S1=OFF, S2=ON, S3=ON.
+- **Hypothesis:** S2 provides power, S3 provides emergency access. Checking if (20, 6) opens now.
+- **Backup:** If (20, 6) is closed, check (12, 8) which opened with S3=ON before.
