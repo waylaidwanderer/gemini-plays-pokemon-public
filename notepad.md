@@ -54,13 +54,11 @@
   3. Turn Switch 3 OFF.
   4. Check Shutter states.
   5. Goal is to open East Shutter (12, 8).
-- **Observation:** Switch 2 was OFF, contrary to previous marker.
-- **Action:** Turning Switch 2 ON.
-- **Reasoning:**
-  - S2 ON opens (10, 6) [Gate in Row 6] and (6, 8) [West Shutter].
-  - S2 ON closes (12, 8) [East Shutter].
-  - Strategy: Open (10, 6) to pass Row 6, then use (6, 8) to pass Row 8 and head South.
+- **Observation:** S2 is ON. Gate at (10, 6) is visually OPEN (FLOOR).
+- **Action:** Going South through (10, 6).
+- **Next Step:** Check if Shutter at (6, 8) is OPEN.
+- **Hypothesis:** S2 ON should open (10, 6) AND (6, 8).
 - **Plan:**
-  1. Turn S2 ON (Select YES).
-  2. Walk South to (10, 6).
-  3. If passable, continue to (6, 8) and go South.
+  1. Walk South through (10, 6).
+  2. Go West to (6, 8).
+  3. If (6, 8) is open, proceed South to the next area.
