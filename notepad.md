@@ -98,3 +98,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Reason:** This config opened (12, 8) (Inner East), but that was a dead end. However, it *also* opens (6, 8) (West Gate).
 - **Hypothesis:** The West Path (6, 8) leads to the Burglar at (9, 12) and potentially the Director. The "Dead End" comment from the Pharmacist might be a trick or refer to the *visible* area only.
 - **Action:** Turning S3 OFF, then checking (6, 8).
+- **Action:** Turning Switch 3 OFF.
+- **Target Config:** S1=ON, S2=ON, S3=OFF.
+- **Hypothesis:** This opens (12, 8) AND (6, 8).
+- **Goal:** Enter West Gate (6, 8) and explore the West Room thoroughly for a path to the Center/South.
