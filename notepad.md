@@ -8,8 +8,10 @@
 - **Goal:** Reach Southwest Ladder (3, 34) in Main Tunnel.
 
 # Strategy
-- **Current Action:** Toggle Switch 1 (currently ON) to see if it lowers the walls blocking the south path (x=16, y=6-8).
-- **Plan:** If walls lower, head South to Ladder (5, 25). If not, explore West (x=11).
+- **Observation:** Switch 1 was OFF, and the security walls were UP.
+- **Current Action:** Turning Switch 1 ON.
+- **Hypothesis:** Switch ON -> Walls DOWN.
+- **Plan:** After toggling, head South to Ladder (5, 25). If walls are still up, explore West (x=11).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
