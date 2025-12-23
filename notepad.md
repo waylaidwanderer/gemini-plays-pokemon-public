@@ -12,9 +12,10 @@
 - Path: Goldenrod -> Route 35 -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
 
-## Completed Tasks
-- **Yanma Swarm (Route 35):** Caught Level 12 Female Yanma (INTERCEPT) using KIMCHI (Gloom) with Sleep Powder + Absorb. (Turn 14795).
-- **Heal Party:** Restored HP/PP at Goldenrod Pokecenter. (Turn 14847).
+## Suicune Tracking Notes (Turn 14884)
+- Suicune roams Johto after Tin Tower encounter.
+- Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
+- Current Plan: Head to Route 42 via Ecruteak City.
 
 ## Tile Mechanics
 - FLOOR: Standard traversal.
@@ -40,18 +41,7 @@
 - Fisher Tully: (15, 13) Route 32. Fishing info (Route 42).
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
-## Wild Encounters (Route 35)
-- DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
-- Observed Moves (Yanma): Tackle, Quick Attack, Foresight.
-
-## Immediate To-Do
-- Track Suicune using the Pokédex.
-- Head to Route 42 to find Fisher Tully and check for Suicune.
 ## Lessons Learned
-- **Tool Hygiene:** Always include a `commit_message` when updating custom tools with `define_tool`. Deferring tool fixes leads to data loss after context summarization.
-- **Navigation:** ROute 42 is accessible from Ecruteak City's east gate once Sudowoodo is cleared.
-- **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves (e.g. Tackle from Yanma). Hypnosis is unreliable against certain types or just misses frequently.
-## Suicune Tracking Notes
-- The "SUICUNE'S NEST" Pokédex screen shows multiple red dots. These likely correspond to the routes where Suicune can be encountered: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
-- Suicune roams across Johto after the Tin Tower encounter.
-- Current Plan: Head to Route 42 via Ecruteak City.
+- **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools.
+- **Navigation:** Main exit to Route 36 is likely through the gatehouse at (3, 5) or a building around (9, 0). (17, 0) is a side path.
+- **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
