@@ -7,24 +7,26 @@
 5. Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
 
 ## Global Tile Mechanics
-- FLOOR: Standard traversable tile. In Sprout Tower, some FLOOR tiles are "safe" (no encounters).
-- TALL_GRASS: Standard encounter tile. Movement registers as steps.
+- FLOOR: Standard traversable tile.
+- TALL_GRASS: Standard encounter tile.
 - WALL/HEADBUTT_TREE: Impassable.
 - LEDGE_HOP_DOWN/LEFT/RIGHT: One-way movement.
 - WARP_CARPET_RIGHT/DOWN: Map transition.
 - WATER: Traversable with HM SURF.
 - ICE: Sliding movement.
-- COUNTER: Interaction point for NPCs behind them.
-- LADDER: Vertical map transition.
+- COUNTER: Interaction point for NPCs; impassable.
+- LADDER: Vertical map transition; traversable.
 - NPC: Map objects that block movement.
 
-## Sprout Tower 1F Observations
-- Sweet Scent failed at (14, 6), (10, 11), and (14, 10). These tiles are "safe".
+## Sprout Tower Analysis
+- Layout: Middle section (x=5 to x=14) is isolated. Access outer ring via 2F ladders.
+- Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe. (6, 5) on 2F is a valid encounter tile.
+- Sweet Scent: Triggers immediate encounters on valid tiles. "Nothing here" means safe tile.
 
 ## Battle Observations
 - XENON (Gastly) caught at Lv 6 (Female) at Turn #13924. Sent to Bill's PC.
 
 ## Training Plan: XENON
-1. Retrieve XENON from Violet City PC.
+1. Retrieve XENON from Bill's PC.
 2. Deposit Blarney (Sudowoodo) to make room.
 3. Train XENON to Lv 13 (Mean Look) and then to Lv 25 (Haunter).
