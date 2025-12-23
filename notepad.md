@@ -25,3 +25,6 @@
 - **Observation:** Turning Switch 2 ON caused tiles (10, 7) and (11, 7) to change from WALL to FLOOR. Middle South Path is now OPEN.
 - **Plan:** Proceed to Switch 1. Turn it ON to complete the 3 -> 2 -> 1 sequence.
 - **Goal:** Verify if this sequence opens the blockade at Row 10 or allows access to the SW Ladder.
+- **Observation:** Switch 1 ON (after 3->2) resulted in the East Path (x=16) being BLOCKED at Row 6.
+- **Hypothesis:** The "3 -> 2 -> 1" sequence opens the Middle Path (x=10) or clears the Row 10 blockade, instead of the East Path.
+- **Action:** Checking the Middle Path (x=10) and then the Row 10 blockade.
