@@ -50,53 +50,6 @@
       }
     ]
   },
-  "pacer": {
-    "description": "Generates a sequence of back-and-forth movement buttons for wild encounter hunting. Returns a JSON array of button strings.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "dir1": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
-        },
-        "dir2": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ]
-        },
-        "steps": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "steps",
-        "dir1",
-        "dir2"
-      ]
-    },
-    "python_script": "import json\n\n# input_data is a globally available dictionary in define_tool scripts\ntry:\n    steps = int(input_data.get('steps', 10))\n    dir1 = input_data.get('dir1', 'Left')\n    dir2 = input_data.get('dir2', 'Right')\n    \n    buttons = []\n    for i in range(steps):\n        if i % 2 == 0:\n            buttons.append(dir1)\n        else:\n            buttons.append(dir2)\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    # Error must be a JSON array of strings\n    print(json.dumps([f\"Error: {str(e)}\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-23T06:17:26.805Z",
-        "action_counter": 13771
-      },
-      {
-        "commit_message": "Fixing input_data access and logic.",
-        "timestamp": "2025-12-23T06:19:43.707Z",
-        "action_counter": 13776
-      }
-    ]
-  },
   "use_sweet_scent_v2": {
     "description": "Uses Sweet Scent from KIMCHI (slot 6). Requires cursor to be on Slot 1 (POKEDEX) of the Start menu or in the overworld with the cursor already at Slot 1.",
     "input_schema": {
@@ -251,6 +204,31 @@
         "commit_message": "Robust version of the capture rate calculator using the standard Gen 2 formula. Casts all inputs to integers.",
         "timestamp": "2025-12-23T09:50:45.722Z",
         "action_counter": 14127
+      }
+    ]
+  },
+  "select_move_v2": {
+    "description": "Selects a move from the battle move menu. Assumes the move menu is already open and the cursor is at the first move. Returns a JSON array of button strings.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "move_index": {
+          "type": "integer",
+          "description": "The 1-based index of the move to select (1-4).",
+          "minimum": 1,
+          "maximum": 4
+        }
+      },
+      "required": [
+        "move_index"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.stdin.read())\n        move_index = int(input_data.get('move_index', 1))\n        \n        buttons = []\n        # Move cursor to the target move\n        for _ in range(move_index - 1):\n            buttons.append(\"Down\")\n        # Select the move\n        buttons.append(\"A\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T10:24:30.712Z",
+        "action_counter": 14187
       }
     ]
   }
