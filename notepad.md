@@ -24,3 +24,4 @@
 
 ## Battle Observations
 - Turn #13909: Attempted to status Gastly. Note: Verify if Ghost-types have specific immunities to status moves in this version.
+- Turn #13917: Great Ball failed (Aargh! Almost had it!). Gastly used Lick (2 damage).
