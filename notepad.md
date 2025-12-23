@@ -150,3 +150,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     - S2=ON powers the main gates.
     - Result: North Gate `(10, 6)` and West Gate `(6, 8)` should OPEN.
 - **Next Step:** Navigate to `(10, 6)` to verify entry into the central area.
+- **Action:** Pressed A (Select YES) -> B (Close Menu).
+- **Expectation:** Switch 3 is now OFF.
+- **State:** S1=OFF, S2=ON, S3=OFF.
+- **Next:** Move to (10, 6).
