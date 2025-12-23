@@ -15,11 +15,11 @@
 - **Hypothesis:** The gates toggle based on where the Black Belt sees the player.
     - Being seen at North (Row 8/9) -> Closes North, Opens South.
     - Being seen at South (Row 11/12) -> Closes South, Opens North.
-- **Plan:**
-    1. Move South along "Safe" Column 8 to (8, 12).
-    2. Step onto (9, 12) to intentionally trigger the "South Alarm".
-    3. Check if South Gate (10, 12) CLOSES.
-    4. If it closes, run back North along Column 8 to the North Gate (10, 8), which should now be OPEN.
+- **Result:** Failed. Standing at (9, 12) did not close the South Gate. The "South Alarm" hypothesis might be slightly off (trigger might be further in) or wrong.
+- **New Plan:**
+    1. Move Up to (9, 11) to test if deeper penetration triggers the switch.
+    2. If that fails, talk to the moving Black Belt (ID 5).
+    3. If that fails, try approaching the Black Belt from the side (Col 8 -> Row 10).
 
 # Completed Notes (Archive)
 - **Rival Battle:** Defeated Silver (Golbat, Haunter, Feraligatr, Sneasel, Magnemite). Muscle (Machoke) swept.
