@@ -6,6 +6,7 @@
 - Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
 - Status Requirement: Status conditions are mandatory for Suicune.
 - Item Goal: Upgrade to Ultra Balls (2.0x multiplier) at Goldenrod or Blackthorn Marts.
+- Contingency: If Hypnosis fails, consider switching to KIMCHI (Gloom) for Sleep Powder (75% accuracy in Gen 2).
 
 ## Game Mechanics & Lessons
 - Ghost-type Moves: Lick (Ghost) does not affect Normal types.
