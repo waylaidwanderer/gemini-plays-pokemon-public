@@ -41,3 +41,6 @@
 ## PP Management
 - XENON Lick PP: 1/30 (Turn #14103). Need to use Max Ether or heal after current battle.
 - Inventory: Max Ether x2.
+## PP Management
+- XENON Lick PP: 1/30 (Turn #14103). Need to use Max Ether or heal after current battle.
+- Inventory: Max Ether x2.

@@ -98,22 +98,19 @@
     ]
   },
   "use_sweet_scent_v2": {
-    "description": "Automatically uses Sweet Scent from the Pokémon in slot 6 (KIMCHI). Robust against menu state and cursor position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      }
-    },
-    "python_script": "import json\n# Robust sequence to use Sweet Scent from KIMCHI (slot 6)\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\"]\nbuttons.extend([\"Up\"] * 8) # Reset cursor to POKEDEX\nbuttons.extend([\"Down\", \"sleep 500\", \"A\", \"sleep 500\"]) # Select POKEMON\nbuttons.extend([\"Down\"] * 5) # Navigate to slot 6\nbuttons.extend([\"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"])\nprint(json.dumps(buttons))",
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Robust against menu state and cursor position.",
+    "input_schema": {},
+    "python_script": "import json\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Down\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
         "timestamp": "2025-12-23T08:38:34.048Z",
         "action_counter": 13986
+      },
+      {
+        "commit_message": "Fixed menu navigation logic to handle 8 items and used a more robust reset sequence.",
+        "timestamp": "2025-12-23T09:35:53.123Z",
+        "action_counter": 14104
       }
     ]
   },
