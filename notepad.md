@@ -14,25 +14,22 @@
     - ON: Opens (6, 8) if S2 is OFF. Closes (12, 8) if S2 is OFF.
     - OFF: ?
 
-## Reflection (Turn 13818)
-1. **Immediate Execution:** No deferred tasks. Actively exploring S3 effects.
-2. **Notepad Hygiene:** Cleaned up navigation errors. Log is updated.
-3. **Map Hygiene:** Switch/Shutter markers are synced.
-4. **Automation:** `find_path` tool fixed and active.
-5. **Goal Clarity:** Testing S3 configuration to access Director.
-6. **Error Analysis:** Pathing errors resolved by tool usage. False constraint check: S2=ON might be a trap or needs specific S1/S3 combo. S3=ON definitely opened (2, 7), proving S3 affects West area structure.
+## Reflection (Turn 13871)
+1. **Immediate Execution:** S1/S2/S3 combo tested. (20, 6) remains CLOSED. Pivot to exploration.
+2. **Pathfinding:** `find_path` fails for (20, 12) because intermediate tiles are "unseen". Manual exploration required.
+3. **Hypothesis Update:** Access to Emergency Switch (20, 11) is likely via the open shutter at (12, 8), looping south around the internal walls, rather than opening (20, 6) directly.
+4. **Status:** S1=ON, S2=OFF, S3=OFF.
+   - (12, 8): OPEN.
+   - (20, 6): CLOSED.
+   - (6, 8): CLOSED (Presumed).
 
-## Current Goal: Access Emergency Switch via East Shutter
-- **Status:** At (16, 2). S1 turning ON. S2=OFF. S3=OFF.
-- **Action:** Confirming Switch 1 ON.
-- **State Tracking:**
-    - S1: OFF -> ON (Target)
-    - S2: OFF (Confirmed)
-    - S3: OFF (Confirmed)
+## Current Goal: Explore Southeast Maze to Reach Emergency Switch
+- **Status:** At (20, 5). Shutter (20, 6) is closed.
+- **Action:** Navigate to (12, 8) and explore the unseen area south of Row 13 to bypass the wall at Col 18.
 - **Plan:**
-  1. Turn Switch 1 ON.
-  2. Verify East Shutter (12, 8) is OPEN.
-  3. Navigate to Emergency Switch at (20, 11).
+  1. Go to (12, 9).
+  2. Explore south/east into the darkness.
+  3. Locate path to (20, 12) and Emergency Switch.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
