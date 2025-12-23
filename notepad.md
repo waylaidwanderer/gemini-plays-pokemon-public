@@ -161,3 +161,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Verification (Turn 14480):** Menu confirmed "It's OFF".
 - **Action:** Closing menu (Press B).
 - **Next Step:** Navigate to North Gate (10, 6) and West Gate (6, 8).
+- **Action (Turn 14481):** Navigating to North Gate (10, 6).
+- **Hypothesis:** With S1=OFF, S2=ON, S3=OFF, Gate (10, 6) should be OPEN.
+- **Next:** If (10, 6) is open, proceed to check West Gate (6, 8).
