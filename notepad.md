@@ -25,3 +25,5 @@
 - Badges: 7.
 - **Encounter:** Rival Silver encountered in Switch Room Entrances.
 - **Dialogue:** He claims my previous victory was a fluke and wants to "repay his debts". Likely a battle.
+- **Battle Update:** Silver sent out Haunter. Muscle (Lv 52) staying in to use Dig (Super Effective vs Ghost/Poison).
+- **Rival Team:** Golbat (Lv 30), Haunter (Lv ??). Likely includes Sneasel, Magnemite, Croconaw.
