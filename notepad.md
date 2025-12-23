@@ -239,22 +239,11 @@
     - **Discovery:** S3=ON (with S1=OFF, S2=OFF) opens the Inner East Shutter (12, 8). This is a new combination.
     - **Question:** Does it also open the Outer East Shutter (20, 6)? Checking now.
     - **Question:** Does it open walls *inside* the (12, 8) corridor?
-- **Observation:** (20, 6) remains CLOSED with S1=OFF, S2=OFF, S3=ON.
-- **Action:** Abandoning (20, 6) for now.
-- **Discovery:** The path at (2, 7) / (3, 7) is OPEN (confirmed by map update).
-- **Plan:** Navigate to (2, 7) and explore the room to the South (Pharmacist Room).
-- **Action:** Navigating through the newly opened path at (2, 7).
-- **Goal:** Explore the area south of Switch 3 (Pharmacist Room) to see if it connects to the Director or a key for the East Shutter.
-- **Note:** This West path seems to bypass the central blockades.
-- **Action:** Interacting with Pharmacist at (4, 8).
-- **Goal:** Get information or clear the path (Battle).
-- **Hypothesis:** This room connects to the blocked South/East sections.
-- **Action:** Checked Pharmacist (4, 8). He says "Underground Warehouse? What do you want to go there for? There's nothing down there."
-- **Hypothesis:** He is guarding a path or just flavor text.
-- **Plan:** Briefly check for hidden items/switches in this room (Row 9/10 walls). Then exit North to return to the Main Switch Room area.
-- **New Insight:** I suspect the path forward is through (12, 8) and then **EAST** along Row 9, which I failed to explore previously (turned back at a south wall).
-- **Goal:** Go to (12, 8) (which is OPEN with S3=ON) and explore East.
-- **Action:** Leaving West Room.
-- **Plan:** Set S2=ON (to open Gate 10, 6), keep S3=ON.
-- **Hypothesis:** This config will allow me to pass (10, 6) and enter (12, 8), which S3 should keep open.
-- **Goal:** Explore the area south of (12, 8) with S3=ON, hoping it opens a secret path to the Pharmacist at (9, 12) or the Emergency Switch.
+- **Observation (Turn 14414):**
+    - (10, 6) is currently WALL (Closed). This contradicts my earlier fleeting observation. S2=OFF definitely closes it.
+    - (6, 8) is WALL (Closed). S3=ON overrides S2=ON for this gate (normally S2 opens it).
+- **Plan:**
+    1. Turn Switch 2 ON. This is required to open (10, 6) so I can access the East section.
+    2. Keep Switch 3 ON. This should keep (12, 8) open (based on S3=ON opening it previously).
+    3. Pass through (10, 6) and go to (12, 8).
+    4. Explore South of (12, 8).
