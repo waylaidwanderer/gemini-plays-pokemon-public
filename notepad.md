@@ -12,15 +12,14 @@
     - OFF: Default. Allows S1 to open (12, 8).
 
 ## Current Status
-- **State:** S1=OFF, S2=ON, S3=ON (Target: OFF).
-- **Location:** At (2, 2). Facing Switch 3.
-- **Action:** Turn Switch 3 OFF.
-- **Hypothesis:** `S1=OFF, S2=ON, S3=OFF` is the correct combination to open North Shutter (10, 6) AND West Shutter (6, 8).
+- **State:** S1=OFF, S2=ON, S3=OFF.
+- **Location:** At (2, 2). Turned Switch 3 OFF.
+- **Action:** Navigate to North Shutter (10, 6).
 - **Plan:**
-  1. Turn S3 OFF.
-  2. Enter Central Room via North Shutter (10, 6).
-  3. Exit Central Room via West Shutter (6, 8).
-  4. Go South to Row 12+.
+  1. Go to (10, 6).
+  2. Enter Central Room.
+  3. Exit West via (6, 8).
+  4. Go South.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
