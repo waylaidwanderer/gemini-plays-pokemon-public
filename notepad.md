@@ -80,16 +80,9 @@
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
 ## Current Goal: Test S2 Effect on Shutters (S1=ON, S2=ON, S3=ON)
-- **Action:** Confirm Switch 2 ON.
-- **State Tracking:**
-    - S1: ON (Confirmed)
-    - S2: ON (Target)
-    - S3: ON (Confirmed)
-- **Prediction:**
-    - If S2 is a modifier, it might invert the shutter states or open a new set (Row 6 vs Row 8).
-    - Checking (10, 6) first.
+- **Observation:** (10, 6) is CLOSED (Visible on screen).
+- **Hypothesis:** Maybe (6, 6) or (20, 6) opened?
 - **Plan:**
-  1. Confirm S2 ON.
-  2. Observe (10, 6).
-  3. If (10, 6) opens, explore South.
-  4. If (10, 6) remains closed, check (6, 6) and (20, 6).
+  1. Navigate to (6, 5) to check Shutter (6, 6).
+  2. If closed, navigate to check Shutter (20, 6).
+  3. If all closed, S2=ON might be a "Lockdown" state, or requires S3 to be OFF? (Testing needed).
