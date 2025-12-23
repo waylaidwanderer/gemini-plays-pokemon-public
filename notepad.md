@@ -198,3 +198,6 @@
 - **Pivot:** If this room yields nothing, the primary hypothesis ("Director is behind shutters") is likely partially wrong. He is probably in the Warehouse itself.
 - **Plan:** Quickly check this room. If empty, return to **Warehouse SE Room** (via Ladder 23, 3) and explore the *interior* of the Warehouse, which I previously skimmed.
 - **Lesson:** "Map Logic" (Unseen tiles) hints at a large area south of here. If I can't reach it from here, I must reach it from the Warehouse map.
+- **Action:** Testing Shutter (20, 6) with S1=OFF, S2=OFF, S3=ON.
+- **Hypothesis:** S3 (Emergency) might open the path to the Emergency Switch at (20, 11).
+- **Contingency:** If closed, proceed to Ladder (23, 3) to explore Warehouse SE.
