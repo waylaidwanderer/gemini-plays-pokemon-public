@@ -235,3 +235,7 @@
     - This likely connects to the Pharmacist room (Row 8).
     - **Hypothesis:** S3 opens "Emergency Paths" (shortcuts).
 - **Action:** Proceeding to check (20, 6). If closed, I will investigate this new West path.
+- **Observation (Turn 14407):** System reported (12, 8) changed WALL -> FLOOR (Opened).
+    - **Discovery:** S3=ON (with S1=OFF, S2=OFF) opens the Inner East Shutter (12, 8). This is a new combination.
+    - **Question:** Does it also open the Outer East Shutter (20, 6)? Checking now.
+    - **Question:** Does it open walls *inside* the (12, 8) corridor?
