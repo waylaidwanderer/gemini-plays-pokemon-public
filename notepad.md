@@ -80,3 +80,8 @@
   2. Turn Switch 2 OFF (Enable S1).
   3. Verify (12, 8) opens.
   4. Proceed East to the Warehouse/Director.
+- **Observation (Turn 14129):** S3 OFF caused (6, 8) to OPEN (changed from WALL to FLOOR).
+- **Confirmed Logic:** S2 ON opens (6, 8). S3 ON closes it (overrides S2).
+- **Current State:** S1=ON, S2=ON, S3=OFF. (6, 8) is OPEN.
+- **Goal:** Open East Shutter (12, 8).
+- **Next Action:** Turn S2 OFF. Hypothesis: S1 ON + S2 OFF will open (12, 8).
