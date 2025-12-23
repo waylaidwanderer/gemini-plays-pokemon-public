@@ -21,13 +21,14 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Confirm Switch 1 is ON.
-2. Check if North Gate `(10, 6)` is still OPEN.
-   - If CLOSED: Turn S1 OFF immediately (trap avoidance).
-   - If OPEN: Proceed to `(10, 8)` and then East Gate `(12, 8)`.
+1. Leave Switch 1 ON (Press B to cancel toggle).
+2. Move to `(10, 6)` to check if North Gate remains OPEN.
+   - If CLOSED: Turn S1 OFF (implies S1 toggles North Gate).
+   - If OPEN: Proceed to `(10, 8)` and check East Gate `(12, 8)`.
 
 ## Observations
-- **Switch 1 (16, 1):** Turned ON.
-- **Switch 2 (10, 1):** ON (Main Power).
+- **Switch 1 (16, 1):** ON. (Main Power).
+- **Switch 2 (10, 1):** ON. (Main Power).
 - **Hypothesis:** S1 ON opens East Gate `(12, 8)` and closes West Gate `(6, 8)`.
-- **Risk:** S1 might close North Gate `(10, 6)`. Must verify immediately.
+- **Risk:** S1 might close North Gate `(10, 6)`.
+- **Current Location:** North side of gates (Rows 1-5). Access to South depends on `(10, 6)`.
