@@ -80,14 +80,13 @@
 6. **Error Analysis:** Corrected the false assumption that S2 was OFF. It was ON. Now explicitly setting it OFF.
 
 ## Current Goal: Execute Combination S1=ON, S2=OFF, S3=OFF
-- **Action:** Navigate to (12, 8) via (16, 6).
-- **State Tracking:**
-    - S1: ON (Confirmed) -> (12, 8) should be OPEN.
-    - S2: OFF (Confirmed) -> (10, 6) is CLOSED.
-    - S3: OFF (Confirmed)
+- **Action:** Navigate to Switch 3 (2, 1) and turn ON.
+- **Observation:** With S1=ON, S2=OFF, S3=OFF:
+    - (12, 8) is OPEN.
+    - (6, 8) is CLOSED.
+    - (10, 6) is CLOSED.
+- **Hypothesis:** S3 controls the Left/West shutters. Turning S3 ON might open (6, 8).
 - **Plan:**
-  1. Navigate to (12, 8).
-  2. Verify (12, 8) is OPEN.
-  3. Explore West to check shutter (6, 8).
-  4. Investigate Row 10 for any way South (Shutters or gaps).
-  5. If stuck, consider S3=ON (since I haven't tested S1=ON, S2=OFF, S3=ON fully yet).
+  1. Toggle S3 ON.
+  2. Check (6, 8) again.
+  3. If (6, 8) opens, talk to Burglar.
