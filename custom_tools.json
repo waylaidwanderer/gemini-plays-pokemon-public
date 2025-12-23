@@ -98,9 +98,9 @@
     ]
   },
   "use_sweet_scent_v2": {
-    "description": "Uses Sweet Scent from KIMCHI (slot 6). Robust against menu state and cursor position.",
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Requires cursor to be on Slot 7 (OPTION) of the Start menu or in the overworld.",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Clear any open menus/dialogue (B x3)\n# 2. Open Start menu\n# 3. Mash Up (x8) to guarantee cursor is on POKEDEX (slot 1)\n# 4. Move to POKEMON (Down x1) and select (A)\n# 5. Mash Up (x6) to guarantee cursor is on Slot 1\n# 6. Move to Slot 6 - KIMCHI (Down x5) and select (A)\n# 7. Move Down once to bypass STATS and land on SWEET SCENT (Down x1)\n# 8. Select move (A)\n# 9. Clear text boxes (A x4)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \n        \"Down\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
+    "python_script": "import json\n# Sequence assuming cursor starts on OPTION (slot 7) or in overworld:\n# 1. Clear menus (B x3)\n# 2. Open Start menu (Start)\n# 3. Move from OPTION (7) to POKEMON (2) (Up x5)\n# 4. Select POKEMON (A)\n# 5. Move from Slot 1 (XENON) to Slot 6 (KIMCHI) (Down x5)\n# 6. Select KIMCHI (A)\n# 7. Select SWEET SCENT (Down x1, A) - Assumes STATS is slot 1, SWEET SCENT is slot 2\n# 8. Clear text (A x4)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\", \n        \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \n        \"Down\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
@@ -131,6 +131,11 @@
         "commit_message": "Corrected Sweet Scent selection logic: KIMCHI (slot 6) has field moves listed after STATS. Sequence now moves Down once after selecting KIMCHI to hit SWEET SCENT.",
         "timestamp": "2025-12-23T09:49:15.055Z",
         "action_counter": 14126
+      },
+      {
+        "commit_message": "Refined Sweet Scent tool to be more robust. Now uses a sequence of B-presses to clear menus and assumes the cursor is on Slot 7 (OPTION) of the Start menu, which is common after settings changes.",
+        "timestamp": "2025-12-23T09:54:29.909Z",
+        "action_counter": 14132
       }
     ]
   },
