@@ -33,3 +33,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
     - **Confirmation:** S1=OFF closes the Inner East Shutter (12, 8).
     - **Hypothesis:** If S1 is a toggle, S1=OFF should open the Outer East Shutter (20, 6).
 - **Action:** Navigating to (20, 6) to verify.
+- **Result (Turn 14437):** With S1=OFF, S2=ON, S3=OFF, Shutter (20, 6) is CLOSED.
+- **Action:** Turning Switch 1 ON.
+- **Next Config:** S1=ON, S2=ON, S3=OFF.
+- **Goal:** Verify if this opens (20, 6). We know it opens (12, 8).
