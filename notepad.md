@@ -48,3 +48,8 @@
 - Suicune hunt started Turn 14980. Location: Route 42.
 - Interception Point: (46, 12).
 - Repel Strategy: Lead with a Pokémon leveled higher than local wild Pokémon (Lv13-16) but lower than Suicune (Lv40), specifically XENON (Target Lv17), and use a Super Repel to isolate the Suicune encounter. Mean Look is required to prevent immediate fleeing.
+## Training Log
+- Goal: Train XENON (Gastly) to Lv17.
+- Start Turn: Turn 15000.
+- Progress: Lv15 (Turn 15114).
+- Method: Lead with XENON, switch to Calcifer or GNEISS to finish wild encounters in Route 42 grass.
