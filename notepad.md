@@ -26,3 +26,7 @@
   1. Pick up item (Might be key?).
   2. Inspect "Emergency Switch" location at (20, 11) via (20, 10).
   3. Explore corners of North Room (Row 5) for missed switches.
+- **Puzzle Mechanic:** "Open one shutter, another closes." Switch 1 ON opens South path (Row 7) but seems to close West path (Row 5/Col 10).
+- **Hypothesis:** Turning Switch 1 OFF might open the Top Path (Row 3) or the West Shutter, allowing access to the NW area.
+- **Current Block:** Tile (10, 5) is impassable.
+- **Next Step:** Battle Grunt at (11, 4). Then try turning Switch 1 OFF to access the West side via Row 3.
