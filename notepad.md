@@ -33,3 +33,5 @@
 ## Lessons Learned
 - **Systematic Testing:** Jumping to complex conclusions (like "Outer East vs Inner East") before verifying simple toggles (East vs West) wastes turns. Always test the binary ON/OFF state of a new switch against *all* visible gates first.
 - **Visual Confirmation:** "Inferred" states are risky. Always go and look.
+- **Hypothesis (Turn 14528):** `S1=OFF, S2=ON, S3=ON` (Current State) might open the **Outer East Shutter** `(20, 6)`, leading to the Emergency Switch `(20, 11)`. 
+- **Plan:** Clear West Room (defeat Pharmacist), then backtrack to check `(20, 6)`.
