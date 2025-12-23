@@ -16,15 +16,16 @@
     - **OFF:** (Currently OFF).
 - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED with S1=ON/S2=ON/S3=OFF.
 
+## Lessons Learned
+- **Tool Logic:** `autopress_buttons` requires the tool to output a JSON list of strings.
+- **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
+
 ## Plan
-1. Navigate to Switch 3 `(2, 1)` via `(3, 9)` -> `(3, 8)`.
+1. Navigate to Switch 3 `(2, 1)` via `(3, 9)` -> `(3, 8)` -> North.
 2. Turn S3 ON.
-3. Observe effects (check for sound or message).
-4. Return to Switch Room center and check shutters `(17, 6)` and `(20, 6)`.
+3. Check if S3 opens shutters `(20, 6)` or `(17, 6)`.
+4. If shutters open, explore behind them.
 
 ## Observations
-- **West Room:**
-    - Pharmacist at `(4, 8)` blocking `(5, 8)` to `(3, 8)` direct path? No, can go via `(4, 9)`.
-    - South path blocked by walls at Row 10/11.
-    - Path North to `(2, 1)` is open.
+- **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
 - **Switch 3 (2, 1):** Emergency Override. Currently OFF.
