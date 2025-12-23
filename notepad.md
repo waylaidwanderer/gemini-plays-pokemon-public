@@ -27,7 +27,8 @@
 - **Switch 1:** Map 3_54 (via 3_53 ladder). ON.
 - **Director:** Warehouse (locked behind shutters).
 - **Dept Store Basement:** Likely route to switches.
-- **Status:** In Goldenrod City (11, 30).
-- **Progress:** Successfully exited Underground via South Ladder/Warp.
+- **Status:** In Goldenrod City (15, 22).
+- **Progress:** Exited Underground via South Ladder.
 - **Current Task:** Navigate to Goldenrod Department Store (24, 27).
 - **Next Step:** Enter Dept Store, go to Basement, unlock door with BASEMENT KEY.
+- **Hypothesis:** The "locked door" in the basement leads to the Southeast Underground sector containing Switch 2 & 3.
