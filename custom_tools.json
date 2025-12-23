@@ -100,7 +100,7 @@
   "use_sweet_scent_v2": {
     "description": "Uses Sweet Scent from KIMCHI (slot 6). Robust against menu state and cursor position.",
     "input_schema": {},
-    "python_script": "import json\n# Sequence:\n# 1. Clear menus (B x3)\n# 2. Open Start menu\n# 3. Reset cursor to top (Up x8)\n# 4. Move to POKEMON (Down x1)\n# 5. Reset party cursor to top (Up x6)\n# 6. Move to Slot 6 - KIMCHI (Down x5)\n# 7. Select Sweet Scent (A, A)\n# 8. Clear text (A x3)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
+    "python_script": "import json\n# Sequence:\n# 1. Clear menus (B x3)\n# 2. Open Start menu\n# 3. Navigate to POKEMON (Assume starting on GEAR or PACK)\n# 4. Open POKEMON menu\n# 5. Select KIMCHI (Slot 6)\n# 6. Use Sweet Scent (Slot 1)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
@@ -116,6 +116,11 @@
         "commit_message": "Refined Sweet Scent tool with robust menu reset logic (Down-mashing to EXIT/CANCEL) and corrected Start menu selection (slot 2 for POKEMON).",
         "timestamp": "2025-12-23T09:37:19.794Z",
         "action_counter": 14106
+      },
+      {
+        "commit_message": "Refined Sweet Scent tool with robust menu reset logic and corrected Start menu selection. Assumes cursor starts on PACK or GEAR after item usage.",
+        "timestamp": "2025-12-23T09:43:08.784Z",
+        "action_counter": 14119
       }
     ]
   },
