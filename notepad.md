@@ -27,5 +27,7 @@
 - **Switch 1:** Map 3_54 (via 3_53 ladder). ON.
 - **Director:** Warehouse (locked behind shutters).
 - **Dept Store Basement:** Likely route to switches.
-- **Observation:** The Warp Carpet at 3_54 (21, 29) (North Entrance) did not trigger when walked upon. It might be one-way or finicky.
-- **Plan:** Attempt to exit via the South Entrance (Ladder at 3, 34 -> Warp at 5, 29). Then proceed to Dept Store.
+- **Status:** In Goldenrod City (11, 30).
+- **Progress:** Successfully exited Underground via South Ladder/Warp.
+- **Current Task:** Navigate to Goldenrod Department Store (24, 27).
+- **Next Step:** Enter Dept Store, go to Basement, unlock door with BASEMENT KEY.
