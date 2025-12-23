@@ -35,3 +35,7 @@
 - **Switch Status:** S1=OFF, S2=OFF, S3=ON.
 - **Path:** `(2, 6)` corridor is OPEN.
 - **Hypothesis:** We are testing if S2=OFF opens the gates. If not, the winning move is likely entering via `(2, 6)` with power ON.
+- **Observation (Turn 14954):** System reported `(6, 12)` (SW Shutter) changed from WALL to FLOOR. This means the shutter OPENED with S2=OFF.
+- **Implication:** Disabling Main Power (S2) opens the electronic shutters (fail-safe?).
+- **Problem:** Previous notices said `(6, 9)` turned to WALL. If the gates close while shutters open, we need a path that relies on shutters, not gates.
+- **Current Goal:** Fight the Pharmacist, then verify if we can pass through `(6, 8)` or `(6, 9)` to reach the now-open `(6, 12)`.
