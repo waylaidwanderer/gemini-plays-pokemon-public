@@ -57,3 +57,6 @@
 - Testing Hypothesis: S1=ON (Current), S2=ON, S3=ON opens the West Gate (6, 8) via the Emergency West Entrance (2, 6).
 - Rationale: Marker at (12, 8) indicates S1=OFF opens the East Gate, suggesting S1=ON corresponds to the West Gate (or S3 overrides).
 - Plan: Moving to (2, 6) to enter the West corridor. Avoid Grunt at (3, 4).
+- **Verified (Turn 15009):** S1=ON, S2=ON, S3=ON opens West Gate (6, 8) and closes East Gate (12, 8).
+- **Target Shutter (12, 12):** Confirmed OPEN (FLOOR) with S3=ON.
+- **Plan:** Entering the Southern Area via West Gate to reach the Warehouse.
