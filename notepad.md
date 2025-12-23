@@ -22,8 +22,9 @@
     - **Current:** OFF.
 - **Test:** Testing S3=OFF with S1=ON.
     - **Status:** (17, 6) CLOSED. (20, 6) CLOSED.
-    - **Next:** Check (12, 6) and (12, 8).
-    - **Hypothesis:** S1=ON might be "All Closed" or requires S2 interaction.
+    - **Result:** S1=ON + S3=OFF does NOT open the Emergency Shutter.
+    - **Next Test:** Turn S2 (Main Power) OFF.
+    - **Hypothesis:** S2=OFF might trigger the Emergency system or unlock S3's alternate function.
 - **S1 (16, 1):** Toggles East/West.
     - **Current:** ON.
     - **Behavior with S3=ON:**
