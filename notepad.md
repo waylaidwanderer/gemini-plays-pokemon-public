@@ -35,3 +35,5 @@
 - Turn #13969: Training session for XENON started.
 - Target: Level 13 (Mean Look), then Level 25 (Haunter).
 - Location: Route 32 (Grass).
+## Route 32 Observations
+- Ledge at (14, 6): Type FLOOR_UP_WALL. Blocked movement from (14, 5) to (14, 6) when attempting to go Down. Ledges may have specific entry rules or directions.
