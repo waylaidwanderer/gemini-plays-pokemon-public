@@ -27,3 +27,5 @@
 - **Switch 1:** Map 3_54 (via 3_53 ladder). ON.
 - **Director:** Warehouse (locked behind shutters).
 - **Dept Store Basement:** Likely route to switches.
+- **Observation:** The Warp Carpet at 3_54 (21, 29) (North Entrance) did not trigger when walked upon. It might be one-way or finicky.
+- **Plan:** Attempt to exit via the South Entrance (Ladder at 3, 34 -> Warp at 5, 29). Then proceed to Dept Store.
