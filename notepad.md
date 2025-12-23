@@ -12,16 +12,19 @@
     - OFF: ?
 
 ## Current Goal: Restore "Open Path" State (S1=ON, S2=OFF, S3=OFF)
-- **Observation:** S2=ON seems to close outer access points like (16, 6).
 - **Analysis:**
-  - To enter the maze, S2 must be **OFF** (Opening 16, 6 or 10, 6).
-  - To pass the inner barrier, S1 must be **ON** (Opening 12, 8).
-  - S3 must be **OFF** (to keep 12, 8 open).
+  - S2=OFF opens Outer (10, 6).
+  - S1=ON opens Inner (12, 8).
+  - S3=OFF keeps 12, 8 open.
+- **State Tracking:**
+    - S1: OFF
+    - S2: OFF (Confirmed)
+    - S3: ON
 - **Plan:**
-  1. Navigate to Switch 2 (10, 1) and turn **OFF**.
+  1. Turn Switch 2 **OFF** (Done).
   2. Navigate to Switch 3 (2, 1) and turn **OFF**.
   3. Navigate to Switch 1 (16, 1) and turn **ON**.
-  4. Enter via (16, 6) or (10, 6) and head to Emergency Switch (20, 11).
+  4. Enter via (10, 6) -> (12, 8) -> Emergency Switch.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
