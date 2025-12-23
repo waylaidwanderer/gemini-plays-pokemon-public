@@ -3,7 +3,7 @@
 - Step 1: Obtain Clear Bell. (COMPLETE)
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
-- Step 4: Track Suicune via Pokédex. (Turn 15410: Stale, needs re-verification).
+- Step 4: Track Suicune via Pokédex. (Turn 15421: Checking Area map).
 - Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18 for Repel efficiency).
 - **Timestamp**: Suicune Hunt started Turn 15201, Tuesday, Dec 23, 1:00 PM.
 
@@ -14,9 +14,8 @@
 - Repel Trick: Lead PKMN level must be Lv18. (XENON is Lv17).
 
 ## Financial Strategy
-- Current Funds: ¥3191.
-- Plan: Purchase 6 Super Repels (¥500 each = ¥3000).
-- Total expected funds after trade: ¥191.
+- Current Funds: ¥191.
+- Status: Purchased 6 Super Repels. (Turn 15421).
 
 ## Tile Mechanics Scientific Testing
 ### FLOOR_UP_WALL Verification
