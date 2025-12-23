@@ -29,3 +29,5 @@
 - **Rival Team:** Golbat (Lv 30), Haunter (Lv ??). Likely includes Sneasel, Magnemite, Croconaw.
 - **Battle Update:** Silver sent out Feraligatr. Muscle (Lv 52) staying in.
 - **Plan:** Use Cross Chop (Slot 4). It has STAB and high crit rate. Even neutral, it should crush Feraligatr (Lv 32).
+- **Battle Update:** Silver sent out Sneasel. Staying in with Muscle.
+- **Plan:** Use Cross Chop. Sneasel is Dark/Ice, so Fighting is 4x effective. One hit KO guaranteed.
