@@ -3,7 +3,7 @@
 - Method: Repel Trick. Wild Pokemon on Route 38 are Lv 13-16 (verified Lv 16 Magnemite). Leading with Lv 21 KIMCHI + Super Repel filters out all wild encounters except Suicune (Lv 40).
 - Repel Tracking:
   - Super Repel #1: Turn #13364 (Wore off Turn #13387).
-  - Super Repel #2: Turn #13391 (Still active as of Turn #13433).
+  - Super Repel #2: Turn #13391 (Used ~220/200 steps as of Turn #13435 - expected to wear off).
 - Tracking: Use Pokedex AREA map.
 - Battle Plan:
   - Suicune (Base Speed 85) outspeeds Gloom (Base Speed 40).
