@@ -92,3 +92,9 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Bumping (20, 6) to definitively confirm closure with S1=ON, S2=ON, S3=ON.
 - **Next Step:** If closed, traverse East to check (22, 6) and (23, 6).
 - **Strategy Shift:** If S2=ON fails consistently, I must test S2=OFF combinations (which require looping through the Warehouse to bypass the closed North Gate).
+- **Result (Turn 14466):** Shutter (20, 6) CLOSED with S1=ON, S2=ON, S3=ON.
+- **Analysis:** S1=ON, S2=ON, S3=ON fails.
+- **New Strategy:** Revert to S1=ON, S2=ON, S3=OFF.
+- **Reason:** This config opened (12, 8) (Inner East), but that was a dead end. However, it *also* opens (6, 8) (West Gate).
+- **Hypothesis:** The West Path (6, 8) leads to the Burglar at (9, 12) and potentially the Director. The "Dead End" comment from the Pharmacist might be a trick or refer to the *visible* area only.
+- **Action:** Turning S3 OFF, then checking (6, 8).
