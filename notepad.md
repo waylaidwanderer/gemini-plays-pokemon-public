@@ -47,3 +47,6 @@
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
+## Roamer Hunt Log
+- Suicune hunt started Turn 14980. Location: Route 42.
+- Current Status: Re-verifying location via Pokédex (Turn 15010).
