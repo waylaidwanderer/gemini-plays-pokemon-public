@@ -82,10 +82,11 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Action:** Interacting with Switch 1 to verify state/turn OFF.
-- **Context:** Previous interaction sequence was ambiguous. Screen currently shows "It's labeled SWITCH 1".
+- **Action:** Leaving Switch 1 OFF (Cancelled menu).
+- **Current State:** S1=OFF, S2=ON, S3=OFF.
+- **Hypothesis:** S1 OFF + S2 ON might open the shutter at (20, 6).
 - **Plan:**
-  1. Press 'A' to see status ("It's ON" or "It's OFF").
-  2. If "It's ON", select YES to turn OFF.
-  3. If "It's OFF", leave it.
-  4. Navigate to (20, 5) to check Shutter (20, 6).
+  1. Navigate to (20, 5).
+  2. Inspect Shutter at (20, 6).
+  3. If (20, 6) is open, proceed to Emergency Switch.
+  4. If (20, 6) is closed, this combination is also a failure. Next step would be to rethink the puzzle logic entirely.
