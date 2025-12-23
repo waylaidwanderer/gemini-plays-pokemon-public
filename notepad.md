@@ -9,8 +9,7 @@
 - Contingency: If Hypnosis fails, consider switching to KIMCHI (Gloom) for Sleep Powder (75% accuracy in Gen 2).
 
 ## Game Mechanics & Lessons
-- Type Effectiveness: Ghost-type moves (Lick) are neutral against Grass/Flying (Hoppip).
-- Ghost-type Moves: Lick (Ghost) does not affect Normal types.
+- Ghost-type Moves: Lick (Ghost) does not affect Normal types. It is neutral against Grass/Flying (Hoppip).
 - Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
 - Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune).
 - Status Moves: "It didn't affect" is the message for a miss or blocked status move (e.g. Hypnosis missing Wooper).
