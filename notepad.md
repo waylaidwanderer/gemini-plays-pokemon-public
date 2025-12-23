@@ -25,8 +25,9 @@
 
 ## Exploration Plan
 - Goal: Reveal 100% of Route 32.
-- Current Task: Explore reachable unseen tiles near (9, 40) and (1, 76).
-- Future Targets: West of (13, 10), East of (19, 28).
+- Current Task: Explore southern land via the western corridor (Column 2).
+- Target: Slowpoketail Seller at (11, 67).
+- Future Targets: West of (13, 10), East of (19, 28), Perimeter (1, 76-87).
 
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32. Contact for fishing info.
