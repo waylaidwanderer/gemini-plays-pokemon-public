@@ -21,18 +21,21 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to `(20, 5)` to check the NE Shutters `(20, 6)`.
-   - Path: `(12, 5) -> (12, 4) -> (20, 4) -> (20, 5)`.
-   - Reason: The path South from `(12, 9)` appears blocked by walls at Row 10. The Warp at `(22, 10)` is the likely way forward, but it is blocked by the NE Shutters.
-2. If `(20, 6)` is OPEN, proceed to the Warp at `(22, 10)`.
-3. If `(20, 6)` is CLOSED, I need to rethink the switch combination.
-   - Tested: S1=ON, S2=ON, S3=ON -> CLOSED.
-   - Testing: S1=OFF, S2=ON, S3=ON -> ???.
+1. Return to Switch 1 `(16, 1)` and turn it ON.
+   - S1=OFF closed the North Gate `(10, 6)`, blocking the most reliable entrance.
+   - S1=ON + S3=ON was confirmed to open `(10, 6)`, `(6, 8)`, and `(12, 12)`.
+2. Enter the switch area via North Gate `(10, 6)`.
+3. Navigate to the Target Shutter `(12, 12)` via the West Loop.
+   - Path: `(10, 6) -> (6, 8) -> (6, 9) -> (12, 9) -> (12, 12)`.
+   - This bypasses the closed East Gate `(12, 8)`.
+4. Proceed South to explore.
 
 ## Observations
-- **Switch Status:** S1=OFF, S2=ON, S3=ON.
-- **Correction:** `(12, 12)` is NOT reachable from the North due to walls at Row 10/11. The path likely involves the Warp at `(22, 10)`.
-- **Goal:** Open access to `(22, 10)`.
+- **Switch 1 (16, 1):** Currently OFF. Turning ON.
+- **Puzzle Logic:**
+  - S1=ON + S3=ON seems to be the "Main Path" configuration.
+  - S1=OFF + S3=ON opens the East Gate but closes the entrance, creating a deadlock unless the West path `(2, 6)` connects (which is risky/unverified).
+- **Shutters:** `(20, 6)` remains closed in both tested configurations. Likely opens later or from the other side.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
