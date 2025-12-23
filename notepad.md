@@ -49,18 +49,13 @@
   - Previous observation: S1(ON)+S2(OFF) opens (12, 8).
   - **Conclusion:** Path to Emergency Switch should be open.
 
-## Dead End Confirmed
-- Reached (17, 8) but hit a wall at x=18.
-- The path (10, 6) -> (12, 8) leads to the Middle Section (Burglar area), but NOT the East Section (Director/Emergency Switch).
-- **Conclusion:** I MUST open the shutter at (20, 6) to access the East Section.
+## Discrepancy Note
+- System indicates I am at (0, 2), though Game State text says (7, 5). Screen confirms (0, 2). Proceeding from (0, 2).
 
 ## New Goal: Open Shutter (20, 6)
 - **Current State:** S1=ON, S2=OFF, S3=OFF. (20, 6) is CLOSED.
-- **Untested Combinations:**
-    1. S1=ON, S2=OFF, S3=ON.
-    2. S1=OFF, S2=OFF, S3=ON.
+- **Hypothesis:** Try turning S3 ON.
 - **Plan:**
-    1. Return to Switch 3.
-    2. Turn Switch 3 ON (Testing Combination 1).
+    1. Go to Switch 3 (2, 1).
+    2. Turn Switch 3 ON (Testing S1=ON, S2=OFF, S3=ON).
     3. Check (20, 6).
-    4. If Closed, Turn Switch 1 OFF (Testing Combination 2).
