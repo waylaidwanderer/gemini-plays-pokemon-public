@@ -34,3 +34,5 @@
 - **West Room (Col 2):** Blocked at Row 10 by walls. Pharmacist at `(4, 8)` says "Nothing down there".
 - **Inner East (Col 12):** Blocked at `(12, 12)` when S3=ON (or maybe S1=OFF?).
 - **West Gate (Col 6):** Blocked at `(6, 8)` when S3=ON.
+- **Test Case:** S1=OFF, S2=ON, S3=ON -> Check `(20, 6)`. This is the only untested combination for S2=ON.
+- **Hypothesis:** "West" (S1=OFF) + "Emergency" (S3=ON) might open the "Outer East" path? Or S3 simply enables the outer shutter.
