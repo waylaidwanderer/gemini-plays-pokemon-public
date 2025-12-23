@@ -21,7 +21,7 @@
 - **Ghost:** Immune to Normal and Fighting moves.
 - **Normal:** Immune to Ghost moves.
 - **Grass vs. Bug/Flying:** Not very effective (Observed: KIMCHI's Absorb vs. Yanma).
-- **Bug vs. Poison/Grass:** Not very effective (Observed: Yanma's Leech Life vs. Gloom).
+- **Normal vs. Poison/Grass:** Standard effectiveness (Observed: Yanma's Tackle/Quick Attack vs. Gloom).
 
 ## Exploration & Navigation
 - **Route 32 Goal:** Reveal 100%. Use SURF at y=40-50 to reach the western corridor.
