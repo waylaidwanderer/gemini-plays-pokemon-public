@@ -255,3 +255,8 @@
 - **Current Config:** S1=OFF, S2=ON, S3=ON.
 - **Hypothesis:** S2 provides power, S3 provides emergency access. Checking if (20, 6) opens now.
 - **Backup:** If (20, 6) is closed, check (12, 8) which opened with S3=ON before.
+- **Action:** Returning to Switch 2 to verify state (suspected menu error).
+- **Goal:** Ensure S2=ON.
+- **Test:** With S2=ON and S3=ON, does Gate (10, 6) open?
+    - If YES: Go to (12, 8) and explore South.
+    - If NO (S3 overrides): Then S3=ON blocks the North->Center path. Must look for another path (maybe via Pharmacist room?).
