@@ -1,15 +1,13 @@
 # Suicune Capture Strategy
-## Repel Trick Setup
+## The Repel Trick
 - Lead: KIMCHI (Lv 21 Gloom).
 - Method: Super Repel filters wild Pokemon (Lv 13-16). Suicune (Lv 40) is the only possible encounter.
-- Status: Activating Super Repel now.
+- Status: Super Repel active (Used Turn #13558). ~180 steps remaining.
 - Inventory: Super Repel x7. Confirmed at Slot 15 in PACK.
-- Confirmed PACK Order:
-  1. PSNCUREBERRY, 2. X ATTACK, 3. BITTER BERRY, 4. ICE BERRY, 5. MAX ETHER, 6. FULL HEAL, 7. ICE HEAL, 8. X SPECIAL, 9. GUARD SPEC., 10. LEMONADE, 11. FRESH WATER, 12. SUPER POTION, 13. AMULET COIN, 14. REVIVE, 15. SUPER REPEL
 
 ## Suicune Battle Strategy
 - Mechanics: Suicune (Base Speed 85) flees on Turn 1. KIMCHI (Base Speed 40) is slower.
-- Strategy: Chip damage and status (Sleep) are persistent. Use Sleep Powder every encounter to eventually trap it.
+- Plan: Inflict Sleep (Sleep Powder) to prevent fleeing in subsequent encounters. HP/Status are persistent.
 - Catch Rate: ~0.39% (Full HP, No Status, Great Ball). Increases to ~4.3% if asleep.
 
 ## Route 38 Navigation
@@ -17,7 +15,6 @@
 - Boundary: Route 38 (0, 10) <-> Route 39 (19, 10).
 
 ## Resources
-- Party: KIMCHI (Gloom 21), ICARUS (Pidgey 16), GNEISS (Graveler 43), Ravioli (Krabby 10), Blarney (Sudowoodo 20), Calcifer (Typhlosion 45).
+- Party: KIMCHI (Lv 21), ICARUS (Lv 16), GNEISS (Lv 43), Ravioli (Lv 10), Blarney (Lv 20), Calcifer (Lv 45).
 - Balls: Great Ball x40.
-- Healing: Super Potion x10, Revive x5, Fresh Water x5.
 - PC Box 1: ROCKY (Onix 6), EGG (Cleffa 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15).
