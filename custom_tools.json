@@ -103,7 +103,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -139,6 +139,11 @@
         "commit_message": "Removed the extra 'Down' press before move selection. SWEET SCENT is the first move in the field menu for KIMCHI. Added extra 'A' presses and 'sleep' to handle animations and text.",
         "timestamp": "2025-12-23T08:20:47.049Z",
         "action_counter": 13964
+      },
+      {
+        "commit_message": "Refined Sweet Scent tool: Ensured 'Down' press to select SWEET SCENT (assuming it is the second field move per overwatch) and added robust text clearing.",
+        "timestamp": "2025-12-23T08:24:37.293Z",
+        "action_counter": 13972
       }
     ]
   }
