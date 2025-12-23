@@ -20,13 +20,16 @@
 
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=ON.
-- **Location:** Switch Room (2, 2).
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Action:** Test Shutter at (20, 6).
+- **Observation:**
+  - Need to verify if (20, 6) is open.
+  - Also check (23, 6) just in case.
 - **Plan:**
-  1. Press B to leave Switch 3 ON (Screen confirms it is ON).
-  2. Walk to (20, 6).
-  3. Check if Shutter is OPEN.
-  4. If Closed, try S1=ON + S3=ON.
+  1. Bump (20, 6).
+  2. If closed, move to (23, 6) and bump.
+  3. If both closed, go turn ALL switches OFF.
+  4. Test "All OFF" state.
 
 ## Reflection (Turn 14079)
 - **Execution:** Immediate.
