@@ -27,3 +27,4 @@
 - **Observation:** Turning Switch 1 ON (Step 1) caused tiles (10, 6) and (10, 7) to change from FLOOR to WALL. Middle South Path is now CLOSED.
 - **Continuing Sequence:** 1 (ON) -> 2 (ON) -> 3.
 - **Verification Note:** Kept Switch 3 ON to visually inspect the path. Pathfinder failed likely due to stale map data.
+- **Observation:** Switch 3 ON caused tile (6, 8) to change from WALL to FLOOR, opening a potential path.
