@@ -50,62 +50,6 @@
       }
     ]
   },
-  "use_sweet_scent_v2": {
-    "description": "Uses Sweet Scent from KIMCHI (slot 6). Requires cursor to be on Slot 1 (POKEDEX) of the Start menu or in the overworld with the cursor already at Slot 1.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "import json\n# Sequence:\n# 1. Clear menus (B x3)\n# 2. Open Start menu (Start)\n# 3. Move to POKEMON (Down x1) and select (A)\n# 4. Move to Slot 6 - KIMCHI (Down x5) and select (A)\n# 5. Select first field move - SWEET SCENT (A)\n# 6. Clear text boxes (A x4)\nbtns = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \n        \"Down\", \"A\", \"sleep 500\", \n        \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \n        \"A\", \"sleep 500\", \"A\", \"A\", \"A\", \"A\"]\nprint(json.dumps(btns))",
-    "history": [
-      {
-        "commit_message": "Final robustness update: starts with 3 B-presses to clear menus, resets cursor in Start menu, navigates to slot 6 (KIMCHI), and uses Sweet Scent. Includes multiple A-presses to clear encounter text.",
-        "timestamp": "2025-12-23T08:38:34.048Z",
-        "action_counter": 13986
-      },
-      {
-        "commit_message": "Fixed menu navigation logic to handle 8 items and used a more robust reset sequence.",
-        "timestamp": "2025-12-23T09:35:53.123Z",
-        "action_counter": 14104
-      },
-      {
-        "commit_message": "Refined Sweet Scent tool with robust menu reset logic (Down-mashing to EXIT/CANCEL) and corrected Start menu selection (slot 2 for POKEMON).",
-        "timestamp": "2025-12-23T09:37:19.794Z",
-        "action_counter": 14106
-      },
-      {
-        "commit_message": "Refined Sweet Scent tool with robust menu reset logic and corrected Start menu selection. Assumes cursor starts on PACK or GEAR after item usage.",
-        "timestamp": "2025-12-23T09:43:08.784Z",
-        "action_counter": 14119
-      },
-      {
-        "commit_message": "Refined Sweet Scent tool to be truly robust by using directional mashing to reset cursor positions in both the Start and Party menus. Now handles any initial cursor state.",
-        "timestamp": "2025-12-23T09:45:07.508Z",
-        "action_counter": 14123
-      },
-      {
-        "commit_message": "Corrected Sweet Scent selection logic: KIMCHI (slot 6) has field moves listed after STATS. Sequence now moves Down once after selecting KIMCHI to hit SWEET SCENT.",
-        "timestamp": "2025-12-23T09:49:15.055Z",
-        "action_counter": 14126
-      },
-      {
-        "commit_message": "Refined Sweet Scent tool to be more robust. Now uses a sequence of B-presses to clear menus and assumes the cursor is on Slot 7 (OPTION) of the Start menu, which is common after settings changes.",
-        "timestamp": "2025-12-23T09:54:29.909Z",
-        "action_counter": 14132
-      },
-      {
-        "commit_message": "Updated requirements: assumes cursor starts on Slot 1 (POKEDEX) of the Start menu. Corrected navigation to KIMCHI and move selection.",
-        "timestamp": "2025-12-23T09:57:20.200Z",
-        "action_counter": 14136
-      },
-      {
-        "commit_message": "Refined Sweet Scent tool: selects first field move (Slot 1) after selecting KIMCHI. Assumes cursor starts on Slot 1 (POKEDEX) of Start menu.",
-        "timestamp": "2025-12-23T09:57:44.066Z",
-        "action_counter": 14137
-      }
-    ]
-  },
   "get_type_effectiveness_gen2": {
     "description": "Returns the type effectiveness multiplier for an attack in Gen 2 Pokemon Crystal.",
     "input_schema": {
@@ -166,6 +110,21 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-23T10:31:55.961Z",
         "action_counter": 14199
+      }
+    ]
+  },
+  "use_sweet_scent_v3": {
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Requires cursor to be on Slot 1 (POKEDEX) of the Start menu or in the overworld with the cursor already at Slot 1.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"Down\", \"A\", \"Up\", \"A\", \"Down\", \"A\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T10:36:46.399Z",
+        "action_counter": 14210
       }
     ]
   }
