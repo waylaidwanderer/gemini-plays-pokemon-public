@@ -21,23 +21,17 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Turn Switch 3 `(2, 1)` OFF (Select YES).
-2. Check if path `(2, 7)` closes.
-   - If CLOSED: Use **Dig** to escape.
-   - If OPEN: Check West Gate `(6, 8)`.
-     - If `(6, 8)` OPEN: Exit to Main Room.
-     - If `(6, 8)` CLOSED: Use **Dig** to escape.
-3. Re-enter Underground.
-4. Set S2=ON, S1=ON.
-5. Explore Inner East Gate `(12, 8)`.
+1. Navigate to Switch 2 `(10, 1)`.
+2. Ensure S2 is ON (Main Power).
+3. Navigate to Switch 1 `(16, 1)`.
+4. Turn S1 ON (East Toggle).
+5. Check if North Gate `(10, 6)` remains OPEN.
+   - If OPEN: Proceed to Inner East Gate `(12, 8)`.
+   - If CLOSED: This path is a dead end. Re-evaluate.
 
 ## Observations
-- **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
-- **Switch 2 (10, 1):** Main Power.
-    - **Status:** OFF.
-    - **Observation:** With S2=OFF, Central Gates `(10, 6)`/`(11, 6)` and West Gate `(6, 8)` appear to be CLOSED (Walls). This suggests S2=OFF cuts power to all gates, defaulting them to closed.
-    - **Shutters:** `(17, 6)` and `(20, 6)` remain CLOSED.
-    - **New Plan:** Test S3=ON (Emergency) while S2=OFF (Main Power Down).
-    - **Hypothesis:** Emergency Switch might only work/toggle shutters when Main Power is out.
-    - **Correction:** Updated marker for Inner East Gate (12, 8) to CLOSED (consistent with S1=OFF).
-- **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
+- **Switch 3 (2, 1):** Currently OFF.
+- **Switch 2 (10, 1):** Need to verify state (Marker says OFF, Notes say ON).
+- **North Gate (10, 6):** Currently WALL (Closed). Requires S2=ON?
+- **Hypothesis:** S1=ON might close North Gate `(10, 6)`. If so, I need a different strategy (maybe S2=OFF, S3=ON?).
+- **Previous Test:** S2=OFF, S3=ON opened `(2, 7)` and `(12, 8)`. But might trap in West Room if `(6, 8)` closes.
