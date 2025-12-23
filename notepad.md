@@ -6,7 +6,7 @@
 - Battle Prep: Suicune (Base Speed 85) outspeeds KIMCHI (Base Speed 40). It will likely flee Turn 1.
 - Catch Rate: ~0.39% (Full HP, No Status, Great Ball). ~4.3% if asleep.
 - Analysis: Calcifer (Lv 45, Base 100) outspeeds Suicune but lacks status moves.
-- Plan: Finish current Repel. If unsuccessful, pivot to catching a fast Sleep/Trap user (e.g., Gastly/Haunter).
+- Plan: Pivot now to catching a fast Sleep/Trap user (e.g., Gastly/Haunter in Sprout Tower at night). Current pacing strategy with KIMCHI is inefficient due to speed deficit.
 
 ## Hunting Session Tracking
 - Current Session Start: Turn #13803
