@@ -13,7 +13,6 @@
 ## Hunting Session Tracking
 - Sprout Tower Hunt Start: Turn #13848
 - Target: Gastly (Night only, Lv 3-6)
-- Pacing Area: (14, 11) <-> (13, 11)
 - Total Great Balls: 40
 
 ## Global Tile Mechanics
@@ -26,6 +25,7 @@
 - ICE: Sliding movement.
 - COUNTER: Interaction point for NPCs behind them.
 - LADDER: Vertical map transition.
+- NPC: Map objects that block movement.
 
 ## Lessons Learned
 - Roamer Logic: FLY and map boundary transitions cause roamers to move.
