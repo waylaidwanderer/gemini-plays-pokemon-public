@@ -22,9 +22,14 @@
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
 
 ## Route 32 Observations
-- Ledge at (14, 6): Jumpable south.
+- Ledge at (16, 15): Jumpable south (LEDGE_HOP_DOWN). Marked ⤵️.
 - Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
 - Fisher NPC: Located at (15, 13) (marked 📍).
+
+## Hypnosis Mystery
+- Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.
+- Fact: Wooper is Water/Ground. Gastly is Ghost/Poison. Neither is immune to Psychic status moves in standard Gen 2.
+- Hypothesis: In this game/ROM, "It didn't affect" might be used for misses, or type immunities have been altered. Needs further testing.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
