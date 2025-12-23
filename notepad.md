@@ -223,3 +223,7 @@
 - **Observation:** Verified S2 is OFF.
 - **Action:** Deleting stale "Shutter Open" marker at (6, 8) because mental map confirms it is WALL (Closed).
 - **Next:** Verify S3 is ON at (2, 1).
+- **Anomaly (Turn 14403):** Screen shows "It's labeled SWITCH 3" immediately after I thought I turned it ON.
+- **Action:** Pressing A to check the next line of text.
+    - If "It's ON", I will cancel (leave ON).
+    - If "It's OFF", I will turn it ON.
