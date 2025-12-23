@@ -1,8 +1,8 @@
 # Tile Mechanics
 - **Shutters:** Act as dynamic walls. State (WALL/FLOOR) toggles based on Switch configuration.
-    - **Top 1-2 (6, 8):** Controlled by Switch 3. (ON=OPEN, OFF=CLOSED). *Wait, previous note said Switch 3 OFF caused it to CLOSE. So ON=OPEN? Need to re-verify if needed, but currently irrelevant.*
-    - **Top 2-3 (12, 8):** Controlled by Switch 3. (OFF=OPEN).
-    - **Vertical 2 (10, 6):** Closed in 1-ON/2-OFF/3-OFF config.
+    - **Horizontal 1 (6, 8):** Controlled by Switch 3. (ON=OPEN, OFF=CLOSED).
+    - **Horizontal 2 (12, 8):** Controlled by Switch 3. (OFF=OPEN, ON=CLOSED?). *Hypothesis to verify.*
+    - **Vertical 2 (10, 6):** Status in 1-ON/2-ON/3-ON unknown.
     - **Row 10 Shutters:**
         - (11, 10): OPEN (FLOOR) in 1-ON/2-OFF/3-OFF config.
 
@@ -16,13 +16,11 @@
 
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
-- **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 OFF.
+- **Current Status:** Switch 1 ON. Switch 2 ON. Switch 3 ON.
 - **Observations:**
-    - Vertical 5 (20, 6) is CLOSED (WALL).
-    - Vertical 2 (10, 6) is OPEN.
-    - Vertical 4 (16, 6) is CLOSED.
-- **Deduction:** Switch 3 OFF keeps Vertical 5 closed regardless of Sw 1/2.
-- **Hypothesis:** Switch 3 ON is required to open Vertical 5.
+    - Vertical 5 (20, 6) was CLOSED in 3-OFF.
+- **Hypothesis:** Switch 3 ON opens (6, 8) allowing eastward travel.
 - **Plan:**
-    1. Turn Switch 3 ON (Config: 1 ON, 2 ON, 3 ON).
-    2. Check Vertical 5 (20, 6).
+    1. Verify (6, 8) is OPEN.
+    2. Move East.
+    3. Check other shutters ((12, 8), (20, 6), etc.).
