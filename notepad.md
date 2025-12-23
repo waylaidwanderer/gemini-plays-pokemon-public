@@ -172,9 +172,11 @@
 - **Observation:** "All OFF" failed to open (20, 6) or (12, 8).
 - **Next Plan:** Turn Switch 3 ON.
 - **Hypothesis:** Switch 3 (Emergency) might open the path to the Emergency Switch at (20, 11) via (20, 6) or (22, 6).
-- **Action:** Menu closed (Switch 3 remains ON).
+- **Status:** Switch 3 confirmed ON. Moving to inspect East Shutters.
 - **Current State:** S1=OFF, S2=OFF, S3=ON.
-- **Hypothesis:** S3 ON might open the "Emergency" path at (20, 6) or (22, 6).
+- **Hypothesis:** S3 ON (Emergency Mode) might open the path to the Emergency Switch at (20, 11) via (20, 6) or (22, 6).
 - **Plan:**
   1. Navigate to (20, 5).
-  2. Inspect Shutters (20, 6) and (22, 6)/ (23, 6).
+  2. Inspect Shutters (20, 6) and (22, 6)/(23, 6).
+  3. If open, proceed South to (20, 11).
+  4. If closed, re-evaluate puzzle logic (maybe S1=OFF, S2=ON, S3=ON?).
