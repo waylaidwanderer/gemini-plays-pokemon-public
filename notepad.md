@@ -49,5 +49,5 @@
 - Goal: Train XENON (Gastly) to Lv17. (COMPLETE Turn 15201)
 
 ## Repel Hunt Log
-- Status: Out of Repels. (Turn 15240)
-- Heading to Mahogany Town to restock.
+- Status: Restocked with 3 Super Repels. (Turn 15269)
+- Ready to resume Suicune hunt.
