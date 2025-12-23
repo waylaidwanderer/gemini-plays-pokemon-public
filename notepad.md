@@ -4,19 +4,19 @@
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
 - Step 4: Track Suicune. Use Pokédex. (Started Turn 14853).
-- Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18+ for Repel efficiency, higher for Speed).
+- Step 5: Prepare Catcher. XENON (Gastly) with Mean Look + Hypnosis. (Target: Lv18+ for Repel efficiency).
 
 ## Roamer Mechanics & Interception
 - Roamers move between adjacent maps whenever the player crosses a map boundary.
 - Interception: Identify roamer's map via Pokédex. Stay on that map and pace in grass/water.
 - Battle Strategy: XENON (Gastly) uses Mean Look immediately to trap. Hypnosis to sleep.
-- Repel Trick: Lead PKMN level must be STRICTLY HIGHER than local wild PKMN but < Roamer level (Lv40). Repel only blocks levels LOWER than the lead Pokémon. Route 42 locals reach Lv17, so XENON (Lv17) is not 100% effective. Target: Lv18.
-- Training Plan: Train XENON to Lv18 in Mt. Mortar (using Lick on Gastly/Zubat) or via Headbutt trees on Route 42 (Heracross/Aipom) if Repel fails.
+- Repel Trick: Lead PKMN level must be STRICTLY HIGHER than local wild PKMN. Route 42 locals reach Lv17, so XENON (Lv17) is not 100% effective. Target: Lv18.
+- Training Plan: Train XENON to Lv18 in Mt. Mortar (using Lick on Gastly/Zubat) or via Headbutt trees on Route 42 (Heracross/Aipom) if Repel fails to block encounters.
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
 - WALL, FENCE, MOUNTAIN, MART_SHELF, COUNTER: Impassable.
-- FLOOR_UP_WALL: One-way movement North only (Route 42). [Verification Needed: Confirm failure to move South, East, or West on these tiles].
+- FLOOR_UP_WALL: Asserted North only (Route 42). [Verification Needed: Confirm failure to move South, East, or West].
 - LEDGE: One-way jump South.
 - WATER: Requires Surf (HM03).
 - HEADBUTT_TREE: Impassable; can be Headbutted.
