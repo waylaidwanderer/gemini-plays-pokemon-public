@@ -82,10 +82,10 @@
   1. Navigate to (20, 5).
   2. Inspect Shutter at (20, 6).
   3. If open, proceed South.
-- **Action:** Turning Switch 1 OFF.
-- **Current State:** S1=OFF (Pending), S2=ON, S3=OFF.
+- **Action:** Switch 1 turned OFF.
+- **Current State:** S1=OFF, S2=ON, S3=OFF.
 - **Hypothesis:** S1 OFF + S2 ON might open the shutter at (20, 6).
 - **Plan:**
-  1. Confirm turning S1 OFF.
-  2. Navigate to (20, 5).
-  3. Inspect (20, 6).
+  1. Navigate to (20, 5).
+  2. Inspect Shutter at (20, 6).
+  3. If (20, 6) is closed, consider S1=OFF, S2=OFF.
