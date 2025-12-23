@@ -16,9 +16,10 @@
 **Logic:** S2=ON opens it. S3=ON closes it (Emergency Override).
 **Current State:** S1=OFF, S2=ON, S3=OFF.
 **Plan:**
-1. Turning Switch 2 ON (was found OFF).
-2. Verify North Shutter (10, 6) opens.
-3. Inspect West Shutter (6, 8).
+1. Switch 2 confirmed ON.
+2. Navigate South through (10, 6).
+3. Navigate West through (6, 8).
+4. **IGNORE Pharmacist** and explore South area (Rows 9+).
 
 ## Test Log (Outer East Shutter (20, 6))
 - **Conclusion:** (20, 6) is effectively permanently closed or requires a key/event I missed. Abandoning East Path for now.
