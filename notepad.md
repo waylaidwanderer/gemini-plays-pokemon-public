@@ -43,3 +43,7 @@
 - **Ladder (23, 3) in Switch Room:** Connects to Goldenrod Underground SE `(22, 27)`. Acts as an exit/shortcut back to the main tunnel. Not the path to the Director.
 - **Action:** Returning to Switch Room to test `(17, 10)` with **S1=OFF**.
 - **Observation (Turn 14633):** Blocked at `(3, 9)` in West Room when trying to go South to Ladder `(5, 25)`. Potential hidden obstacle or wall.
+- **Mechanic Discovery:** Toggling S2 (Main Power) OFF and then ON appears to reset S1 to OFF.
+- **Current Test:** S1=OFF, S2=ON, S3=OFF.
+    - **Status:** (17, 6) CLOSED. (20, 6) CLOSED.
+    - **Action:** Checking (12, 6) and (6, 8).
