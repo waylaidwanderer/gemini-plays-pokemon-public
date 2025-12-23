@@ -1,7 +1,7 @@
 # Goldenrod Underground Switch Puzzle
 
 ## Confirmed Mechanics
-- **Switch 1 (16, 1):** Toggling OFF.
+- **Switch 1 (16, 1):** Currently OFF.
     - Effect: Unknown. Testing if it controls (20, 6) or (12, 12).
 - **Switch 2 (10, 1):** Currently ON.
     - Effect: Controls (12, 8) and (10, 6).
