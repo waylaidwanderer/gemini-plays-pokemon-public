@@ -5,28 +5,14 @@
 - Track Suicune using Pokedex AREA map.
 - Lead with Haunter: Mean Look (Turn 1) -> Hypnosis -> Great Balls.
 
-## Tile Mechanics (Verified)
-- FLOOR: Standard traversable tile. Verified traversable.
-- TALL_GRASS: Standard encounter tile. Verified traversable.
-- WALL/HEADBUTT_TREE: Impassable. Verified.
-- LEDGE_HOP_DOWN/LEFT/RIGHT: Jumpable one-way movement. Jump Down verified at (14, 6).
-- WARP_CARPET_RIGHT/DOWN: Map transition. Verified.
-- WATER: Traversable with HM SURF. Verified.
-- ICE: Sliding movement. Verified.
-- COUNTER: Interaction point for NPCs; impassable. Verified.
-- LADDER: Vertical map transition; traversable. Verified.
-- NPC: Map objects that block movement. Verified.
-
-## Game Mechanics
+## Game Mechanics & Lessons
 - Ghost-type Moves: Lick (Ghost) does not affect Normal types.
 - Ghost-type Resistances: Leech Life (Bug) is "not very effective" against Ghost types.
 - Accuracy/Status: Status moves like Supersonic can hit Ghost types (not immune); misses are due to accuracy/luck.
 - Sweet Scent: Triggers immediate encounters on valid grass tiles.
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
-
-## Sprout Tower Analysis
-- Layout: Middle section (x=5 to x=14) is isolated. Access outer ring via 2F ladders.
-- Encounters: FLOOR tiles at (14, 6), (10, 11), and (14, 10) are safe zones. (6, 5) on 2F is a valid encounter tile.
+- Menu Wrapping: The Start menu (8 items) and Party menu (6 items) in Crystal wrap. Mashing directional buttons is not a reliable reset. Track position manually or reset to slot 1 (POKEDEX/XENON).
+- Phone Calls: Incoming calls interrupt button sequences and tools. Refined tools must start with multiple B-presses.
 
 ## Training Plan: XENON (How)
 - Grind Start: Turn #13980 (Tuesday 12:45 AM).
@@ -34,11 +20,7 @@
 - Target: Lv 13 for Mean Look.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
 - Maintenance: Use Fresh Water/Lemonade from pack to heal when HP < 10.
-- Current Progress: Lv 9.
-
-## General Lessons
-- Incoming phone calls interrupt button sequences and tools. Refined tools must start with multiple B-presses to clear potential dialogue/menus. Use directional mashing (Up x8 / Up x6) to reset menu cursors to a known state.
-- Reflection (Turn #14124): No deferred tasks. Notepad and markers are up-to-date. Automation strategy is efficient. Goals are outcome-based. Root hypotheses are verified. Tool robustness improved.
+- Current Progress: Lv 9 (Turn #14127).
 
 ## PP Management
 - XENON Lick PP: 30/30 (Turn #14117).
@@ -47,3 +29,16 @@
 ## Route 32 Observations
 - Ledge at (14, 6): Jumpable south.
 - Slowpoketail Scam: NPC at (11, 67) tries to sell a tail for ¥1,000,000. Verified dead end/scam.
+- Fisher NPC: Located at (15, 13) (marked 📍).
+
+## Tile Mechanics (Verified)
+- FLOOR: Standard traversable tile.
+- TALL_GRASS: Standard encounter tile.
+- WALL/HEADBUTT_TREE: Impassable.
+- LEDGE_HOP_DOWN: Jumpable one-way movement. Verified at (14, 6).
+- WARP_CARPET: Map transition. Verified.
+- WATER: Traversable with HM SURF. Verified.
+- ICE: Sliding movement. Verified.
+- COUNTER: Interaction point for NPCs; impassable.
+- LADDER: Vertical map transition; traversable.
+- NPC: Map objects that block movement. Verified.

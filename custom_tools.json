@@ -216,7 +216,7 @@
         "status"
       ]
     },
-    "python_script": "import json\ndef calculate():\n    max_hp = int(input_data['max_hp'])\n    curr_hp = int(input_data['curr_hp'])\n    base_rate = int(input_data['base_rate'])\n    ball = input_data['ball'].upper()\n    status = input_data['status'].upper()\n    ball_mods = {'POKE BALL': 1.0, 'GREAT BALL': 1.5, 'ULTRA BALL': 2.0, 'MASTER BALL': 255.0}\n    status_mods = {'SLEEP': 10, 'FREEZE': 10, 'PARALYSIS': 0, 'POISON': 0, 'BURN': 0, 'NONE': 0}\n    b_mod = ball_mods.get(ball, 1.0)\n    s_mod = status_mods.get(status, 0)\n    # Gen 2 Catch Formula: a = floor((3*max_hp - 2*curr_hp) * base_rate * ball_mod / (3*max_hp)) + status_mod\n    a = int((3 * max_hp - 2 * curr_hp) * base_rate * b_mod / (3 * max_hp)) + s_mod\n    a = max(1, min(255, a))\n    chance = (a + 1) / 256.0\n    print(json.dumps({'capture_value': a, 'chance_percent': round(chance * 100, 2)}))\ncalculate()",
+    "python_script": "import json\ndef calculate():\n    try:\n        max_hp = int(input_data['max_hp'])\n        curr_hp = int(input_data['curr_hp'])\n        base_rate = int(input_data['base_rate'])\n        ball = input_data['ball'].upper()\n        status = input_data['status'].upper()\n        ball_mods = {'POKE BALL': 1.0, 'GREAT BALL': 1.5, 'ULTRA BALL': 2.0, 'MASTER BALL': 255.0}\n        status_mods = {'SLEEP': 10, 'FREEZE': 10, 'PARALYSIS': 0, 'POISON': 0, 'BURN': 0, 'NONE': 0}\n        b_mod = ball_mods.get(ball, 1.0)\n        s_mod = status_mods.get(status, 0)\n        # Gen 2 Catch Formula: a = floor((3*max_hp - 2*curr_hp) * base_rate * ball_mod / (3*max_hp)) + status_mod\n        a = int((3 * max_hp - 2 * curr_hp) * base_rate * b_mod / (3 * max_hp)) + s_mod\n        a = max(1, min(255, a))\n        chance = (a + 1) / 256.0\n        print(json.dumps({'capture_value': a, 'chance_percent': round(chance * 100, 2)}))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\ncalculate()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -227,6 +227,11 @@
         "commit_message": "Initial version of the capture rate calculator using the standard Gen 2 formula.",
         "timestamp": "2025-12-23T09:37:19.795Z",
         "action_counter": 14106
+      },
+      {
+        "commit_message": "Robust version of the capture rate calculator using the standard Gen 2 formula. Casts all inputs to integers.",
+        "timestamp": "2025-12-23T09:50:45.722Z",
+        "action_counter": 14127
       }
     ]
   }
