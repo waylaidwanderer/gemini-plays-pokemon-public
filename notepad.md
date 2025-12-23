@@ -2,8 +2,10 @@
 
 ## Switch Mechanics Log
 - **Switch 1 (16, 1):**
-    - ON: Opens (12, 8) if S2 is OFF.
+    - ON: Opens (12, 8) if S2 is OFF. (Active).
     - OFF: ?
+- **Status:** S1=ON, S2=OFF, S3=OFF.
+- **Expected Result:** East Shutter (12, 8) OPEN.
 - **Switch 2 (10, 1):**
     - ON: Opens Shutter at (10, 6) and (11, 7). AND Opens (6, 8). Closes (12, 8).
     - OFF: Default. Allows S1 to open (12, 8).
