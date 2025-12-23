@@ -6,15 +6,15 @@
 - **Switch 2 (10, 1):** Currently ON.
     - Effect: Controls (12, 8) and (10, 6).
 - **Switch 3 (2, 1):** Turned ON.
-    - Effect: Controls (6, 8), (6, 12), (2, 6). Also seems to close (10, 6)?
+    - Effect: Controls (6, 8), (6, 12), (2, 6). Also closes (10, 6).
     - State: OFF -> (6, 8) OPEN, (6, 12) OPEN, (2, 6) OPEN.
-    - State: ON -> (10, 6) CLOSED (observed via map update).
+    - State: ON -> (10, 6) CLOSED, (11, 6) CLOSED (observed via map update).
 
 ## Current Goal: Open Shutter (20, 6)
 - **Problem:** (20, 6) blocks access to the East Corridor and Emergency Switch.
 - **Hypothesis:** Switch 3 might control it.
 - **Current Test:** Checking (20, 6) with S1=OFF, S2=ON, S3=ON.
-- **Observation:** (10, 6) closed when Sw3 turned ON.
+- **Observation:** (10, 6) closed when Sw3 turned ON. This blocks the middle path south.
 
 ## Status of Critical Shutters
 - **(6, 12):** OPEN (Sw3 OFF).
