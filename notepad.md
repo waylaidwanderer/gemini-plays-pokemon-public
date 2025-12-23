@@ -203,3 +203,5 @@
 - **Action:** Testing Shutter (20, 6) with S1=OFF, S2=OFF, S3=ON.
 - **Hypothesis:** S3 (Emergency) might open the path to the Emergency Switch at (20, 11).
 - **Contingency:** If closed, proceed to Ladder (23, 3) to explore Warehouse SE.
+- **Observation:** (10, 6) Gate closed (became WALL) while moving. Possible S3 Override closing it? Or S2 is OFF?
+- **Action:** Going to check S2 state.
