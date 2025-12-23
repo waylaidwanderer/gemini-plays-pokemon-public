@@ -124,3 +124,8 @@
 - **Observation:** Row 10 appears to be a solid wall blocking further South movement directly.
 - **Target:** There is a Door at (22, 10) and an Emergency Switch at (20, 11) nearby.
 - **Plan:** Head East to the Door at (22, 10) to see if it allows progress or access to the switch.
+- **Observation:** The area south of (12, 8) is a small corridor (Row 9, Cols 12-17) blocked by walls to the East and South.
+- **Conclusion:** The Inner East Path (opened by S1=ON, S2=ON) is a **DEAD END**.
+- **Implication:** The correct path must be the Outer East Path (20, 6) or the West Path (via 6, 8, but overcoming Row 10).
+- **New Plan:** Test the last remaining combination for (20, 6): **S1=OFF, S2=OFF**.
+- **Action:** Backtracking to Switch Room. Will turn S2 OFF, then S1 OFF.
