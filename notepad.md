@@ -2,27 +2,25 @@
 
 ## Verified Switch Logic
 - **Switch 1 (16, 1):**
-    - ON: Opens East Shutter (12, 8) IF S2 is OFF.
-    - OFF: Default.
+    - ON: Opens Inner East (12, 8).
+    - OFF: Closes Inner East (12, 8).
 - **Switch 2 (10, 1):**
-    - ON: Opens North (10, 6) & West (6, 8). Closes East (12, 8). (Overrides S1)
-    - OFF: Default.
+    - ON: Opens North (10, 6) & West (6, 8).
+    - OFF: Closes North & West.
 - **Switch 3 (2, 1):**
-    - ON: Closes West (6, 8). Does NOT close East (12, 8) if S1/S2 are ON. Might open Outer East?
+    - ON: Closes West (6, 8) even if S2 is ON (Override).
     - OFF: Default.
 
 ## Current Strategy
 **Goal:** Rescue Director.
 **Status:** 
-- **East Shutters (20, 6) & (22, 6):** CLOSED with S1=ON, S2=ON, S3=ON.
-- **Inner East (12, 8):** OPEN.
-- **Current Location:** (22, 5).
-- **Configuration:** S1=ON, S2=ON, S3=ON.
-**Hypothesis:** "All ON" failed to open the Outer East path. Trying "S3 Only" (Emergency Mode) to see if it opens the Emergency Path.
+- **Configuration:** S1=Turning OFF, S2=ON, S3=ON.
+- **Target:** S1=OFF, S2=OFF, S3=ON (Emergency Mode).
+**Hypothesis:** "S3 Only" might open the Outer East Shutter (20, 6) to allow access to the Emergency Switch.
 **Plan:**
-1. Turn S1 OFF.
-2. Turn S2 OFF.
-3. Ensure S3 is ON.
+1. Confirm S1 OFF.
+2. Go to Switch 2 (10, 1) and turn it OFF.
+3. Ensure S3 is ON (It should be).
 4. Inspect Shutters (20, 6) and (22, 6).
 5. If open, access Emergency Switch (20, 11).
 
