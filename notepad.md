@@ -29,7 +29,7 @@
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
 - **Switch 3 (2, 1):** Emergency Override.
-    - **Status:** Turning ON.
+    - **Status:** ON (Verified).
     - **Current State:** S1=OFF, S2=ON, S3=ON.
     - **Hypothesis:** S3=ON opens Emergency Shutter `(20, 6)` or Middle East Shutter `(17, 6)`.
     - **Plan:** Check shutters `(17, 6)` and `(20, 6)`.
