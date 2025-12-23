@@ -21,10 +21,11 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Navigate to Switch 3 `(2, 1)` via `(3, 9)` -> `(3, 8)` -> North.
-2. Turn S3 ON.
-3. Check if S3 opens shutters `(20, 6)` or `(17, 6)`.
-4. If shutters open, explore behind them.
+1. Toggle Switch 3 `(2, 1)` to OFF.
+2. Verify West Gate `(6, 8)` opens.
+3. Return to Main Room.
+4. Set S2=ON, S1=ON.
+5. Enter Inner East Gate `(12, 8)`.
 
 ## Observations
 - **West Room:** Pharmacist at `(4, 8)`. Ladder `(5, 25)` is inaccessible from here (blocked by walls).
