@@ -45,3 +45,7 @@
 - **Detour:** Moving around via Row 3. Expecting potential battle if he spots me.
 - **Correction:** Row 2 is blocked at (19, 2). Must use Row 4 to cross East-West.
 - **Plan Update:** From (20, 2), go Down to (20, 4), Left to (16, 4), Down to (16, 8), West to (12, 8), South to explore.
+- **Observation:** Moving West on Row 9 triggered a map change. (6, 9) is now WALL (blocked). (6, 12) is now FLOOR (open).
+- **Hypothesis:** A trigger on Row 9 or the S1=ON state controls these toggles.
+- **Current Situation:** Trapped in Central Room (Cols 7-17). Need to find exit East to reach Emergency Switch.
+- **Plan:** Inspect East Wall at (18, 9) for a passage.
