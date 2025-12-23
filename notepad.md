@@ -3,31 +3,30 @@
 - Step 1: Obtain Clear Bell. (COMPLETE)
 - Step 2: Access Tin Tower. Defeat the Wise Trio. (COMPLETE)
 - Step 3: Encounter Suicune at Tin Tower. (COMPLETE - It fled).
-- Step 4: Track Suicune. Use Pokédex.
+- Step 4: Track Suicune. Use Pokédex. (Started Turn 14853).
 - Step 5: Prepare Catcher. Obtain Parasect (Spore + False Swipe).
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
 ## Route 42 Strategy
 - Goal: Locate Suicune and find Fisher Tully.
-- Path: Goldenrod -> Route 35 -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
+- Path: Goldenrod -> Route 35 -> National Park -> Route 36 -> Route 37 -> Ecruteak -> Route 42.
 - Requirements: Surf (Ravioli knows it), Cut (KIMCHI knows it).
 
-## Suicune Tracking Notes (Turn 14884)
+## Suicune Tracking Notes
 - Suicune roams Johto after Tin Tower encounter.
 - Pokédex "SUICUNE'S NEST" shows multiple red dots: Routes 30, 32, 34, 36, 37, 38/39, 42, 44, and 27.
-- Current Plan: Head to Route 42 via Ecruteak City.
 
 ## Tile Mechanics
 - FLOOR: Standard traversal.
 - WALL / FENCE: Impassable.
-- TALL_GRASS: Encounters.
+- TALL_GRASS / LONG_GRASS: Encounters.
 - WATER: Requires SURF.
 - LEDGE: One-way jump.
 - WARP: Map transition.
 - HEADBUTT_TREE: Impassable / Interact.
 - FLOOR_UP_WALL: One-way North only.
 - COUNTER: Impassable; interact from front.
-- WARP_CARPET_DOWN: Exit map south.
+- WARP_CARPET_DOWN / WARP_CARPET_RIGHT: Map transitions.
 - LADDER: Map transition.
 - PC: Background object for storage.
 
@@ -43,7 +42,7 @@
 
 ## Lessons Learned
 - **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools.
-- **Navigation:** Main exit to Route 36 is likely through the gatehouse at (3, 5) or a building around (9, 0). (17, 0) is a side path.
+- **Navigation:** National Park is a valid path to Route 36 via the east exit at (33, 18).
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
 ## National Park & Bug-Catching Contest
 - Contest Days: Tuesday, Thursday, Saturday.
