@@ -45,3 +45,7 @@
 - **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools.
 - **Navigation:** Main exit to Route 36 is likely through the gatehouse at (3, 5) or a building around (9, 0). (17, 0) is a side path.
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
+## National Park & Bug-Catching Contest
+- Contest Days: Tuesday, Thursday, Saturday.
+- Location: Route 35 National Park Gate (10_15).
+- Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
