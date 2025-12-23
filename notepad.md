@@ -120,3 +120,7 @@
 - **Critical State Correction:** Game State text says (10, 5), but Screen and System Warning confirm I am at (7, 5).
 - **Action:** Navigating from (7, 5) to rejoin the path at (10, 5).
 - **Path:** (7, 5) -> (8, 5) -> (9, 5) -> (10, 5) -> (10, 6) -> South to (12, 10).
+- **Status:** Successfully passed through Shutter (12, 8). Now in a corridor along Row 9.
+- **Observation:** Row 10 appears to be a solid wall blocking further South movement directly.
+- **Target:** There is a Door at (22, 10) and an Emergency Switch at (20, 11) nearby.
+- **Plan:** Head East to the Door at (22, 10) to see if it allows progress or access to the switch.
