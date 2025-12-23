@@ -15,8 +15,9 @@
 
 ## Financial Strategy
 - Current Funds: ¥41.
-- Plan: Sell 9 Super Potions in Mahogany Town to fund Super Repels.
-- Alternative: Find and defeat undefeated trainers.
+- Plan: Sell 9 Super Potions (¥350 each = ¥3150) in Mahogany Town.
+- Goal: Purchase 6 Super Repels (¥500 each = ¥3000).
+- Total expected funds after trade: ¥191.
 
 ## Tile Mechanics Scientific Testing
 ### FLOOR_UP_WALL Verification
@@ -26,7 +27,7 @@
 - **Result 1**: Movement blocked. (Turn 15363).
 - **Conclusion 1**: Entering from the North is impassable.
 - **Test 2**: Attempt to move North onto (59, 8) from (59, 9).
-- **Status 2**: In progress. Heading to (59, 9).
+- **Status 2**: Deferred. Entered Mahogany Mart. (Turn 15391).
 
 ## Global Tile Mechanics
 - FLOOR, TALL_GRASS, DIRT, SAND: Traversable.
