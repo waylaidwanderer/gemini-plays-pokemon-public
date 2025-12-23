@@ -13,11 +13,9 @@
 
 ## Current Status
 - **State:** S1=ON, S2=OFF, S3=ON.
-- **Location:** Near (7, 5).
-- **Observation:** Attempted to go South from West side, but navigation was tricky.
-- **New Plan:** Use Switch 2.
-    - Logic: S2 opens the North Shutter (10, 6). This provides direct access to the Central Room from the top.
-    - S2 also opens West Shutter (6, 8), so I can potentially exit West if needed.
+- **Location:** At (10, 2). Facing Switch 2.
+- **Action:** Turn Switch 2 ON.
+- **Logic:** S2 opens North Shutter (10, 6). This allows entry to the Central Room from the North, bypassing the mutually exclusive East/West shutters.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
