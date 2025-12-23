@@ -33,3 +33,4 @@
     - **Current State:** S1=OFF, S2=ON, S3=ON.
     - **Hypothesis:** S3=ON opens Emergency Shutter `(20, 6)` or Middle East Shutter `(17, 6)`.
     - **Plan:** Check shutters `(17, 6)` and `(20, 6)`.
+- **Gate Update (Turn 14816):** Turning S3 ON caused West Gate `(6, 8)` to CLOSE (Floor -> Wall). This suggests S3 overrides S1/S2 gate controls.
