@@ -16,16 +16,14 @@
 - **Correction:** Row 3 and Row 2 have walls at x=6,7. Must use Row 4 to bypass.
 - **Current Position:** (8, 3).
 
-## Current Goal: Restore "Open Path" State (S1=ON, S2=OFF, S3=OFF)
-- **State Tracking:**
-    - S1: OFF
-    - S2: OFF (Confirmed)
-    - S3: OFF (Confirmed)
+## Current Goal: Test All Switches OFF (S1=OFF, S2=OFF, S3=OFF)
+- **Current State:** S1=OFF, S2=OFF, S3=OFF.
+- **Action:** Check Shutter (10, 6).
+- **Hypothesis:** Maybe "All OFF" opens the outer shutter (10, 6).
 - **Plan:**
-  1. Turn Switch 2 **OFF** (Done).
-  2. Turn Switch 3 **OFF** (Done).
-  3. Navigate to Switch 1 (16, 1) and turn **ON**.
-  4. Enter via (10, 6) -> (12, 8) -> Emergency Switch.
+  1. Navigate to (10, 5).
+  2. Check (10, 6).
+  3. If Closed, proceed to Switch 1 and turn ON (Testing S1=ON, S2=OFF, S3=OFF).
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
