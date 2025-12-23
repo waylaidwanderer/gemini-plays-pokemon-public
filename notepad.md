@@ -20,11 +20,16 @@
 - Goal: Reveal 100% of Route 32.
 - Future Targets: West of (13, 10), East of (19, 28).
 
-## Tile Mechanics (Route 32)
+## Tile Mechanics
+### Route 32
 - FLOOR_UP_WALL: One-way North only. Blocks southward movement at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
 - LEDGE_HOP_DOWN: One-way South only. Found at (12, 27), (16, 15), (6, 81), (8, 81).
 - LEDGE_HOP_RIGHT: One-way East only. Found at (17, 12), (17, 13), (17, 14), (9, 80).
-- HEADBUTT_TREE: Impassable. Requires Headbutt to interact (if applicable).
+- HEADBUTT_TREE: Impassable.
+
+### Route 35
+- FENCE/WALL: Impassable. Divides the route into west and east sections.
+- WATER: Requires SURF to cross.
 
 ## Lessons Learned & Corrections
 - **Type Matchups:** Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal. Hoppip is Grass/Flying and is NOT immune to Ghost moves (confused with Hoothoot).
