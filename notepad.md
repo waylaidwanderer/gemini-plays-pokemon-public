@@ -9,7 +9,7 @@
 - **S1 (16, 1):** East/West Toggle.
     - **ON:** Opens East Gate `(12, 8)`. Closes West Gate `(6, 8)`.
     - **OFF:** Opens West Gate `(6, 8)`. Closes East Gate `(12, 8)`.
-    - **Current State:** OFF. West Gate `(6, 8)` is OPEN.
+    - **Current State:** OFF. West Gate `(6, 8)` is OPEN. (Verified Turn 14797).
 - **S2 (10, 1):** Main Power.
     - **ON:** Required for gates to operate. (Currently ON).
 - **S3 (2, 1):** Emergency Override.
