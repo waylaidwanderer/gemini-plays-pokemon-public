@@ -174,5 +174,20 @@
         "action_counter": 13199
       }
     ]
+  },
+  "check_suicune_location_v7": {
+    "description": "Robustly navigates from the overworld to Suicune's Pokédex AREA map, pauses for 3 seconds for observation, and then exits. Resets menu state and cursor position for reliability.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\ndef main():\n    # Sequence to check Suicune's location\n    # 1. Ensure we are in the overworld by pressing B a few times\n    # 2. Open the menu\n    # 3. Reset the cursor to the top (Pokedex) by pressing Up 8 times\n    # 4. Open Pokedex\n    # 5. Select Suicune (assuming it's the one at the cursor)\n    # 6. View AREA map\n    \n    buttons = [\n        \"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 100\", \"B\", \"sleep 500\",\n        \"Start\", \"sleep 1000\",\n        \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\",\n        \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\", \"Up\", \"sleep 100\",\n        \"A\", \"sleep 1000\",\n        \"A\", \"sleep 1000\",\n        \"Right\", \"sleep 500\",\n        \"A\", \"sleep 3000\",\n        \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"\n    ]\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T03:05:01.157Z",
+        "action_counter": 13441
+      }
+    ]
   }
 }
