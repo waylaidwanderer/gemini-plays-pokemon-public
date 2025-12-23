@@ -108,17 +108,11 @@
 
 - **Action:** S1 is confirmed ON. Canceling menu.
 - **Next:** Go to (20, 5) to check Shutter (20, 6).
-- **Action:** Switch 1 turned ON.
-- **Current State:** S1=ON, S2=ON, S3=OFF.
-- **Hypothesis:** S1 ON + S2 ON is the untested combination. S2 ON opens the gate at (10, 6). S1 ON might open the shutter at (20, 6).
+- **Correction:** Previous turn input was truncated by system (mixed inputs). I only pressed 'A'.
+- **Current Situation:** Menu is open: "It's OFF. Turn it ON?" Cursor is on YES.
+- **Action:** Confirming YES (Press A).
 - **Plan:**
-  1. Navigate to (20, 5).
-  2. Inspect Shutter at (20, 6).
-  3. If (20, 6) is open, proceed South to Emergency Switch.
-  4. If (20, 6) is closed, I have tested:
-     - S1=ON, S2=OFF, S3=OFF -> (20, 6) Closed.
-     - S1=ON, S2=ON, S3=OFF -> Testing Now.
-     - S1=OFF, S2=ON, S3=OFF -> (20, 6) Closed.
-     - S1=OFF, S2=OFF, S3=OFF -> Unlikely (everything closed).
-     - S3 ON -> Emergency reset/trap.
-  5. If this fails, I might need to check if S3 being OFF is actually correct, or if there's a sequence.
+  1. Press A to turn S1 ON.
+  2. Clear text.
+  3. Navigate to (20, 5).
+  4. Inspect Shutter (20, 6).
