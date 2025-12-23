@@ -22,17 +22,21 @@
 
 ## Plan
 1. Navigate to Switch 3 `(2, 1)`.
-   - Path: Return to `(10, 8)` -> `(10, 6)` -> `(10, 4)` -> `(3, 4)` -> `(3, 1)` -> `(2, 1)`.
+   - Current: `(10, 9)`.
+   - Path: `(10, 4) -> (4, 4) -> (4, 3) -> (3, 3) -> (2, 2)`.
+   - Reason: Detour around potential Grunt at `(3, 4)`.
 2. Turn Switch 3 ON.
-   - New State: S1=ON, S2=ON, S3=ON.
-3. Check Shutter `(20, 6)` and `(17, 6)`.
-4. Check Shutter `(12, 12)`.
-   - Note: `(12, 12)` is the "Target Shutter" blocking access to the south.
+   - Target State: S1=ON, S2=ON, S3=ON.
+3. Check Shutter `(20, 6)`.
+   - Hypothesis: All 3 switches ON opens the shutters to the Director's area.
 
 ## Observations
-- **Inner East Room:** `(13-17, 8-9)` appears to be a dead end with no obvious items or switches.
-- **Switch 3:** Currently OFF.
-- **Hypothesis:** S3 (Emergency) combined with S2 (Main Power) might open the shutters `(17, 6)`/`(20, 6)` or `(12, 12)`.
+- **Inner East Room:** `(13-17, 8-9)` was empty.
+- **Switch Status:**
+  - S1 (East): ON
+  - S2 (Power): ON
+  - S3 (Emergency): OFF -> Turning ON now.
+- **Goal:** Open shutters `(17, 6)` or `(20, 6)`.
 
 ## Reflection (Turn 14911)
 - **Tool Maintenance:** Deleted `find_path` as it was broken and returning empty lists. Will rely on manual navigation or build a better pathfinder later if needed.
