@@ -40,3 +40,6 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Action:** Confirming Switch 1 ON (Pressing A on YES).
 - **Hypothesis:** S1=ON, S2=ON, S3=OFF opens (12, 8). Will it open (20, 6)?
 - **Plan:** After confirming, navigate to (20, 5) to inspect.
+- **Verification:** Screen shows "It's labeled SWITCH 1".
+- **Action:** Pressing 'A' to advance text and see if it is ON or OFF.
+- **Reasoning:** I need to be 100% sure S1 is ON before walking away to check the shutter.
