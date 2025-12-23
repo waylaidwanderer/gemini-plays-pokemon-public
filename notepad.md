@@ -2,9 +2,9 @@
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** Toggles East/West.
-    - **ON:** Should open `(16, 10)` based on Turn 14499. Retesting now.
-    - **OFF:** West `(6, 8)` OPEN. Inner East `(12, 8)` CLOSED.
-    - **Current:** ON.
+    - **ON:** Inner East `(12, 8)` OPEN. `(16, 10)` CLOSED (Verified).
+    - **OFF:** West `(6, 8)` OPEN. Testing `(16, 10)` now.
+    - **Current:** OFF.
 - **S2 (10, 1):** Main Power.
     - **ON:** Powers gates.
     - **OFF:** Fail-Safe Test Failed (Row 10 Wall solid).
