@@ -19,7 +19,7 @@
 - Future Targets: West of (13, 10), East of (19, 28).
 
 ## Lessons Learned & Corrections
-- **Type Matchups:** Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal. Hoppip is immune to Ghost moves in this ROM (Gen 2 mechanic).
+- **Type Matchups:** Ghost is immune to Normal/Fighting. Lick (Ghost) is ineffective against Normal. Hoppip is Grass/Flying and is NOT immune to Ghost moves (confused with Hoothoot).
 - **Tile Mechanics:**
     - `FLOOR_UP_WALL`: One-way pathing (North only). Blocks southward progression at y=6, 14, 24, 26, 34, 36, 72, 76, 86.
     - `LEDGE_HOP_DOWN`: One-way pathing (South only).
