@@ -62,18 +62,18 @@
       }
     ]
   },
-  "use_sweet_scent_v4": {
-    "description": "Uses Sweet Scent from KIMCHI (slot 6). Resets Start menu cursor by pressing 'Up' 7 times, then navigates to POKEMON, selects KIMCHI, and uses the first field move. Includes B-presses to clear potential dialogue.",
+  "use_sweet_scent_v5": {
+    "description": "Uses Sweet Scent from KIMCHI (slot 6). Navigates from Slot 3 (PACK) to Slot 2 (POKEMON), then selects KIMCHI and Sweet Scent. Includes B-presses to clear dialogue.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Reset Start menu (8 items): Up 7 times. \n# POKEMON is the 2nd item (Down 1).\n# KIMCHI is the 6th item (Down 5).\n# Sweet Scent is the 1st field move (A).\nprint(json.dumps([\"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"A\"]))\n",
+    "python_script": "import json\n# From Slot 3 (PACK): Up 1 -> POKEMON. A.\n# From Slot 1 (XENON): Up 1 -> KIMCHI. A.\n# SWEET SCENT is 1st move. A.\nprint(json.dumps(['B', 'B', 'Start', 'Up', 'A', 'Up', 'A', 'A']))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-23T10:41:51.723Z",
-        "action_counter": 14221
+        "timestamp": "2025-12-23T10:46:26.268Z",
+        "action_counter": 14227
       }
     ]
   }
