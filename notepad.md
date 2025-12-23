@@ -22,7 +22,7 @@
 - **Emergency Switch (20, 11):** Located behind shutter (20, 6). Unreachable.
 
 ## Switch Room Exploration Data
-- **West Room (Col 2):** Blocked at Row 10.
+- **West Room (Col 2):** Blocked by shutter at Row 6. (Controlled by S3?).
 - **Inner East (Col 12):** Blocked at `(12, 12)` when S1=ON.
 - **Middle East (Col 17):** Likely the correct path. Needs S1=OFF?
 - **Ladder (23, 3) in Switch Room:** Connects to Goldenrod Underground SE `(22, 27)`. Acts as an exit/shortcut back to the main tunnel. Not the path to the Director.
