@@ -75,3 +75,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Current State:** S1=ON, S2=ON, S3=ON.
 - **Hypothesis:** All Switches ON should open the path to the Emergency Switch.
 - **Next:** Verify text confirms "ON", then go to (20, 6).
+- **Verification (Turn 14459):** Switch 3 is confirmed ON.
+- **Current State:** S1=ON, S2=ON, S3=ON.
+- **Action:** Closing menu (Leaving S3 ON).
+- **Next Step:** Navigate to (20, 5) via Row 4 to inspect the Outer East Shutter (20, 6).
