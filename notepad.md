@@ -22,14 +22,15 @@
 
 # Current State
 - **Switch 1:** ON
-- **Switch 2:** OFF (Turning ON to test).
+- **Switch 2:** ON (Restoring state).
 - **Switch 3:** ON (Verified).
 - **Shutter (6, 8):** OPEN (Verified).
-- **Shutter (12, 8):** CLOSED with Sw2 OFF (Verified).
+- **Shutter (12, 8):** CLOSED with Sw2 OFF (Verified). CLOSED with Sw2 ON (Observed previously).
 
 # Strategy
-1. Turn Switch 2 ON.
-2. Check Shutter at (12, 8).
-   - If OPEN: Proceed East.
-   - If CLOSED: This implies neither Sw2 ON nor OFF opens it alone. Might need Sw1 toggled? Or Sw3?
-   - Hypothesis: Sw2 ON should open it.
+1. Turn Switch 2 ON (Restore traversable state).
+2. Navigate South to Row 12.
+3. Check Shutter at (12, 12).
+   - Note: XML says (12, 12) is FLOOR. If so, path to East is open via South.
+4. If (12, 12) is OPEN, proceed to East Section.
+5. If (12, 12) is CLOSED, re-evaluate.
