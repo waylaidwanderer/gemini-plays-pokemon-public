@@ -12,7 +12,7 @@
 - **S3 (2, 1):** Emergency Override.
     - **ON:** Opens `(2, 7)` & `(6, 12)`. Closes main gates.
     - **OFF:** Standard operation.
-    - **Current:** ON.
+    - **Current:** OFF.
 
 ## Current Strategy
 **Goal:** Rescue Director.
@@ -23,8 +23,8 @@
 **Target Config:** S1=ON, S2=ON, S3=OFF.
 
 **Steps:**
-1. Turn S3 OFF (Current Loc).
-2. Turn S2 ON.
+1. Turn S3 OFF (Done).
+2. Turn S2 ON (Next).
 3. Turn S1 ON.
 4. Navigate South via Column 16.
 
