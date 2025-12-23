@@ -1,28 +1,26 @@
 # Goldenrod Underground Switch Puzzle
-**Current Turn:** 13514
+**Current Turn:** 13558 (Reflection)
 
-## Tile Mechanics & Switch Logic
-- **Switch 1 (16, 1):** OFF.
-    - **Effect:** Toggles shutters in East Section? (Testing).
-- **Switch 2 (10, 1):** OFF.
-    - **Effect:** Opens Horizontal Shutter at (12, 8).
-- **Switch 3 (2, 1):** ON.
-    - **Effect:** Opens Horizontal Shutter at (6, 8).
-    - **Effect:** Closes Horizontal Shutter at (6, 12).
-    - **Effect:** Toggles Vertical Shutter at (20, 6)? (Testing).
+## Confirmed Mechanics
+- **Switch 1 (16, 1):** Currently ON.
+    - Effect: Unknown. Hypothesis: Controls (12, 12).
+- **Switch 2 (10, 1):** Currently ON.
+    - Effect: Controls (12, 8) and (10, 6).
+    - Ambiguity: Does ON open or close (10, 6)?
+- **Switch 3 (2, 1):** Currently OFF.
+    - Effect: Controls (6, 8), (6, 12), (2, 6).
+    - State: OFF -> (6, 8) CLOSED, (6, 12) OPEN, (2, 6) CLOSED.
 
-## Current Status
-- **Switch 1:** OFF (Verified)
-- **Switch 2:** OFF (Verified)
-- **Switch 3:** ON (Verified)
-- **Shutter (6, 8):** OPEN (Verified)
-- **Shutter (12, 8):** OPEN (Verified)
-- **Shutter (20, 6):** Checking now...
+## Current Goal: Access Row 12
+- The Emergency Switch is at (20, 11). Access is likely from the South (Row 12).
+- Row 12 is blocked from the North by shutters at (6, 12), (10, ?), (12, 12), (20, ?).
+- **Path 1 (West):** Through (6, 12). Requires (2, 6) open to reach it. FAILED (Sw3 OFF closes 2,6).
+- **Path 2 (Middle):** Through (10, 6). Requires Sw2 correct state.
+    - Plan: Check (10, 6). If open, go South. If closed, toggle Sw2.
+- **Path 3 (East):** Through (20, 6). FAILED (Closed with Sw3 ON/OFF).
 
-## Objectives & Plan
-- **Primary:** Reach Emergency Switch at (20, 11).
-- **Secondary:** Rescue Director (Likely via Warp at 22, 10).
-- **Navigation Plan:**
-    1. Navigate to (20, 6).
-    2. If OPEN, go South to (20, 11) and activate Emergency Switch.
-    3. If CLOSED, consider combinations involving Switch 1 OFF / Switch 3 OFF.
+## Next Steps
+1. Navigate to (10, 6).
+2. If blocked, Toggle Switch 2 (Turn OFF).
+3. If open, proceed to (12, 12).
+4. If (12, 12) blocked, Toggle Switch 1.
