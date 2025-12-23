@@ -18,11 +18,16 @@
 - **Result:** (20, 6) CLOSED. (12, 8) OPEN (Observed).
 - **Insight:** Switch 1 affects (12, 8) when S2 is OFF.
 
-## New Goal: Test S1=ON, S2=ON, S3=OFF
-- **Hypothesis:** Switch 2 acts as a modifier. S1(ON) + S2(ON) might open (20, 6).
+- **Switch 2 (10, 1):** Turned ON.
+    - State: ON.
+    - Context: S1=ON, S3=OFF.
+
+## Current Goal: Test S1=ON, S2=ON, S3=OFF
+- **Action:** Check Shutter (20, 6).
+- **Hypothesis:** S1(ON) + S2(ON) might open (20, 6).
 - **Plan:**
-    1. Turn Switch 2 ON.
-    2. Check (20, 6).
+    1. Navigate to (20, 5).
+    2. Attempt to enter (20, 6).
 
 ## Pathfinding
 - (20, 6) is the key chokepoint.
