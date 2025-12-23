@@ -19,13 +19,14 @@
     - OFF: Default.
 
 ## Current Status
-- **State:** S1=OFF (Turning ON), S2=OFF, S3=OFF.
+- **State:** S1=ON, S2=OFF, S3=OFF.
 - **Location:** Switch Room (16, 2).
-- **Action:** Turn Switch 1 ON.
+- **Action:** Enter East Room via (12, 8).
 - **Plan:**
-  1. Interact with Switch 1.
-  2. Turn Switch 1 ON.
-  3. Enter East Room via (12, 8).
+  1. Clear text.
+  2. Move to (12, 8).
+  3. Verify Shutter is OPEN.
+  4. Explore East Room.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
