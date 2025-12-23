@@ -47,3 +47,7 @@
 ## Immediate To-Do
 - Track Suicune using the Pokédex.
 - Head to Route 42 to find Fisher Tully and check for Suicune.
+## Lessons Learned
+- **Tool Hygiene:** Always include a `commit_message` when updating custom tools with `define_tool`. Deferring tool fixes leads to data loss after context summarization.
+- **Navigation:** ROute 42 is accessible from Ecruteak City's east gate once Sudowoodo is cleared.
+- **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves (e.g. Tackle from Yanma). Hypnosis is unreliable against certain types or just misses frequently.
