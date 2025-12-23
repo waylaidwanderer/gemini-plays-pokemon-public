@@ -12,14 +12,15 @@
     - OFF: Default. Allows S1 to open (12, 8).
 
 ## Current Status
-- **State:** S1=OFF, S2=ON, S3=ON.
-- **Location:** At (16, 2). Switch 1 is OFF.
-- **Action:** Navigate to North Shutter (10, 6).
-- **Hypothesis:** S1 caused the conflict. With S1=OFF, (10, 6) should be OPEN.
+- **State:** S1=OFF, S2=ON, S3=ON (Target: OFF).
+- **Location:** At (2, 2). Facing Switch 3.
+- **Action:** Turn Switch 3 OFF.
+- **Hypothesis:** `S1=OFF, S2=ON, S3=OFF` is the correct combination to open North Shutter (10, 6) AND West Shutter (6, 8).
 - **Plan:**
-  1. Navigate to (10, 6).
-  2. Verify Shutter is Open.
-  3. Enter Central Room.
+  1. Turn S3 OFF.
+  2. Enter Central Room via North Shutter (10, 6).
+  3. Exit Central Room via West Shutter (6, 8).
+  4. Go South to Row 12+.
 
 ## Strategic Goal
 - **Objective:** Reach Emergency Switch at (20, 11).
