@@ -10,12 +10,11 @@
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
 - **Current Status:** Switch 1 ON. Switch 2 OFF. Switch 3 OFF.
-- **Observations:**
-    - Vertical 2 (10, 6) CLOSED.
-- **Hypothesis:** Vertical 2 is closed if ANY switch is in a "Closing" state for it.
-- **Plan:**
+- **Observation:** Vertical 2 (10, 6) is CLOSED.
+- **New Plan:**
     1. Turn Switch 1 OFF (Config: 1 OFF, 2 OFF, 3 OFF).
-    2. Check Vertical 2 again.
+    2. Check Vertical 2 (10, 6).
+    3. If still closed, investigate other open paths (e.g. is 12,8 open?).
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
