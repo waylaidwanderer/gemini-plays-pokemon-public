@@ -9,14 +9,12 @@
 # Strategy
 - **Puzzle Mechanic:** "Open one shutter, another closes." Order matters.
 - **Sequence Attempt:** 1 -> 2 -> 3.
-- **Current Status:** Switch 1 OFF. Switch 2 ON. Switch 3 ON.
-- **Observation:** Vertical 2 (10, 6) remained CLOSED (WALL) with Switch 1 OFF.
-- **Conclusion:** Switch 1 alone does not open Vertical 2.
-- **New Goal:** Manipulate Switch 2.
+- **Current Status:** Switch 1 OFF. Switch 2 OFF (Pending). Switch 3 ON.
+- **Goal:** Open Vertical 2 (10, 6).
 - **Plan:**
     1. Turn Switch 2 OFF.
-    2. Check Vertical 2 (10, 6) again.
-    3. If still closed, reconsider Switch 1 ON + Switch 2 OFF.
+    2. Check Vertical 2 (10, 6).
+    3. If still closed, try Sw 1 ON + Sw 2 OFF.
 
 # Important Locations
 - **Switch 1:** Map 3_54 (ON).
