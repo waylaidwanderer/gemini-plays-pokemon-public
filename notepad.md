@@ -16,7 +16,7 @@
 
 ## Hunting Session Tracking
 - Sprout Tower Hunt Start: Turn #13848
-- Current Location: Sprout Tower 1F
+- Current Location: Sprout Tower 1F (Turn #13858)
 - Target: Gastly (Night only)
 - Strategy: Use KIMCHI's Sleep Powder, then Great Ball.
 - Total Great Balls: 40
