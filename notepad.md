@@ -56,7 +56,8 @@
 - **Exploration:** Central Room (Rows 8-9) is a dead end. (6, 9) is Blocked. (18, 9) is Blocked.
 - **Hypothesis:** Must use West Path (Cols 3-5) to reach South Area (Row 12+).
 - **Plan:** Turn S3 ON to open Shutter (6, 8). Enter West Strip. Go South to Row 29.
-- **Status:** At (2, 2). Turning S3 ON.
+- **Status:** S1=ON, S2=OFF, S3=ON.
+- **Action:** Navigate to (7, 8) to enter West Section via Shutter (6, 8).
 - **Switch 3 (2, 1):**
     - ON: Opens (6, 8). Closes (12, 8). (Target).
     - OFF: Closes (6, 8). Opens (12, 8) [with S1=ON].
