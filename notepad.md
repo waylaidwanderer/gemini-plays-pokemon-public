@@ -13,14 +13,21 @@
 
 ## Current Strategy
 **Goal:** Rescue Director.
-**Hypothesis:** S1=ON + S2=ON opens the East Shutter (12, 8), allowing access to the Director's location (likely Door 22, 10).
-**Reasoning:**
-- Previous logs suggested this combo works despite S2 usually closing East.
-- S2=ON is required to keep the North Gate open to reach the East side.
+**Status:** 
+- **East Shutter (12, 8):** OPEN (S1=ON, S2=ON).
+- **West Shutter (6, 8):** CLOSED (Observed change in map tiles).
+- **Current Location:** Entered East Corridor at (12, 8).
+**Hypothesis:** The East Corridor leads to the Director's location (Door 22, 10) or contains a switch/trigger to open the way.
 **Plan:**
-1. Turn Switch 1 ON (Current Loc).
-2. Verify East Shutter (12, 8) is Open.
-3. Explore the corridor behind (12, 8) thoroughly for hidden switches or paths to the SE area.
+1. Explore the East Corridor fully (to the dead end at Col 17).
+2. Inspect walls for hidden switches.
+3. Check for any path South to the "Rocket Girl" (19, 12) or Door (22, 10).
+4. If dead end, re-evaluate "West Path" potential (maybe I missed a switch there?).
+
+## Switch Logic (Updated)
+- **S1 (16, 1):** Toggles between East/West? (S1=ON -> East Open, West Closed).
+- **S2 (10, 1):** Master Power? (Must be ON for North Gate).
+- **S3 (2, 1):** Emergency (Closes things).
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
