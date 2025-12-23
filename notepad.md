@@ -168,3 +168,9 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Current State:** S1=OFF, S2=ON, S3=OFF.
 - **Hypothesis:** S2=ON + S3=OFF opens the North Gate.
 - **Next:** If successful, head West to (6, 8).
+- **Success:** S1=OFF, S2=ON, S3=OFF opened North Gate (10, 6) and West Gate (6, 8).
+- **Plan:**
+    1. Pass through (10, 6).
+    2. Go West along Row 8 to (6, 8).
+    3. Explore South from the West Room (aiming for Col 6, Row 13+).
+- **Hypothesis:** The West Room connects to the deep South/SW area, bypassing the dead-end East path. The Pharmacist's claim ("Nothing down there") is false.
