@@ -24,10 +24,8 @@
 - **Eddie:** (3, 8) - West Path Dead End.
 
 # Archive (Completed/Failed)
-- **Dept Store Puzzle:** Solved.
 - **Blockage:** Path South (Row 10) blocked in all columns with previous configs.
 - **West Path:** Confirmed Dead End.
-- **Observation:** Turning Switch 1 ON (Step 1) caused tiles (10, 6) and (10, 7) to change from FLOOR to WALL. Middle South Path is now CLOSED.
-- **Continuing Sequence:** 1 (ON) -> 2 (ON) -> 3.
-- **Verification Note:** Kept Switch 3 ON to visually inspect the path. Pathfinder failed likely due to stale map data.
-- **Observation:** Switch 3 ON caused tile (6, 8) to change from WALL to FLOOR, opening a potential path.
+- **Switch History:**
+    - Sw 1 ON: Closes Vertical 2 (10, 6/7).
+    - Sw 3 ON: Opens Top 1-2 (6, 8) & Bottom 2-3 (12, 12). Closes Top 2-3 (12, 8).
