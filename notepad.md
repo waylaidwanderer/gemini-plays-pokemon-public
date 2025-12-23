@@ -34,9 +34,10 @@
 - **Battle Update:** Silver sending out Magnemite. Staying in with Muscle.
 - **Plan:** Use Dig. Magnemite is Electric/Steel, so Ground is 4x effective. Guaranteed OHKO.
 - **Battle Result:** Defeated Silver (Muscle swept team).
-- **Status:** In Warehouse Room (Map 3_53). Shutter at (22, 24) is closed.
-- **Action:** Exiting via warp at (21, 31) to return to Main Tunnel.
-- **Next Step:** Navigate to Ladder at (3, 34) to find other switches (Switch 2/3).
+- **Status:** Back in Main Tunnel (18, 7).
+- **Goal:** Reach Ladder at (3, 34).
+- **Observation:** Switch 1 (ON) did not open the shutter at (22, 24).
+- **Hypothesis:** Switch 2 or 3 is needed, likely found via other ladders (e.g., at 3, 34).
 - **Observation:** Shutter at (22, 24) is still closed (WALL). Switch 1 did not open this specific door.
 - **Plan:** Exit current room to Main Tunnel. Navigate to Ladder at (3, 34) to find other switches (Switch 2/3).
 - **Hypothesis:** Multiple switches are required, or different switches open different doors.
