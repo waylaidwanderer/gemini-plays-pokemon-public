@@ -15,7 +15,7 @@
 - Type Effectiveness: Use `get_type_effectiveness_gen2` tool for verified matchups.
 - Menu Wrapping: 
     - Start Menu (8 items): Wraps.
-    - Party Menu (6 items): Wraps.
+    - Party Menu (6 items + CANCEL): Wraps.
     - Battle Move Menu (4 items): DOES NOT wrap.
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
@@ -33,7 +33,8 @@
 ## Hypnosis Mystery
 - Observed: "It didn't affect Enemy WOOPER!" (Turn 14149) and "It didn't affect XENON!" (Turn 14171) when Hypnosis was used.
 - Fact: Psychic is 1.0x (neutral) against Water/Ground (confirmed via tool). Neither is immune to Psychic status moves in standard Gen 2.
-- Conclusion: In this game/ROM, "It didn't affect" is the message displayed when a status move misses its accuracy check.
+- Hypothesis: Wild Pokémon might hold items (e.g., Mint Berry) that prevent sleep, or the ROM has modified type charts.
+- Conclusion: In this game/ROM, "It didn't affect" is the message displayed when a status move misses its accuracy check or is blocked.
 
 ## Tile Mechanics (Verified)
 - FLOOR: Standard traversable tile.
