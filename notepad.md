@@ -131,3 +131,7 @@ So if S1=OFF, S2=ON, S3=OFF doesn't open `(20, 6)`, then S1 is not a simple togg
 - **Goal:** Turn S3 OFF.
 - **Target State:** S1=OFF, S2=ON, S3=OFF.
 - **Hypothesis:** This should open the West Gate (6, 8) because S1=OFF selects West, S2=ON provides power, and S3=OFF removes the emergency override.
+- **Observation:** Navigation interrupted in 14474 due to map update ((6, 8) changed to WALL).
+- **Current Position:** (10, 4).
+- **Action:** Continuing to Switch 3 (2, 1) to turn it OFF.
+- **Hypothesis:** S3=ON is currently keeping (6, 8) Closed. Turning S3 OFF should open it (assuming S1=OFF and S2=ON are correct for opening West).
