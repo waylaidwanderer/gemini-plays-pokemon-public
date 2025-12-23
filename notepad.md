@@ -90,3 +90,11 @@
   2. Inspect Shutter at (20, 6).
   3. If (20, 6) is open, proceed to Emergency Switch.
   4. If (20, 6) is closed, this combination is also a failure. Next step would be to rethink the puzzle logic entirely.
+- **Correction:** I realized I never actually tested `(20, 6)` with S1=ON, S2=ON.
+- **Mistake:** In Turn 14175, I turned S1 ON, but then immediately turned it OFF in 14177 without checking the shutter.
+- **Current Status:** S1=OFF, S2=ON. Shutter `(20, 6)` is CLOSED.
+- **Plan:**
+  1. Go to Switch 1.
+  2. Turn S1 ON.
+  3. Check `(20, 6)`.
+- **Hypothesis:** S1 ON + S2 ON might be the combination for the East Outer Shutter.
