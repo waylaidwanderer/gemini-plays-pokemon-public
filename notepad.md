@@ -20,13 +20,15 @@
 
 ## Current Status
 - **State:** S1=ON, S2=ON, S3=OFF.
-- **Location:** Switch Room (16, 2).
-- **Action:** Check Shutter at (20, 6).
+- **Location:** Switch Room (20, 5).
+- **Observation:** (20, 6) is CLOSED with S1+S2 ON.
+- **Action:** Try All Switches ON (S1+S2+S3).
 - **Plan:**
-  1. Confirm Switch 1 is ON.
-  2. Walk to (20, 6).
-  3. Check if Shutter is OPEN.
-  4. If Closed, try All ON (S1+S2+S3).
+  1. Move to Switch 3 (2, 1).
+  2. Turn S3 ON. (Result: S1=ON, S2=ON, S3=ON).
+  3. Return to (20, 6).
+  4. Check if OPEN.
+  5. If closed, re-evaluate puzzle logic. Maybe enter via (10, 6)?
 
 ## Tile Mechanics
 - **FLOOR:** Walkable.
