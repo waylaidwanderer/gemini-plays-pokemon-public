@@ -6,10 +6,9 @@
 - Preparation:
     - Prepare a 'Catcher' Pokémon: Parasect (Spore + False Swipe) is ideal.
     - Stock up on Ultra Balls and Level Balls.
-- Execution:
-    - Reduce HP to 1 using False Swipe.
-    - Inflict Sleep using Spore (2x catch rate in Gen 2).
-    - Throw balls until caught. Soft-reset if necessary.
+- Strategy: False Swipe (to 1 HP) -> Spore (Sleep) -> Ultra Balls.
+    - Best Catcher: Parasect (learns both moves).
+    - Soft-reset (A+B+Start+Select) if it faints.
 
 ## Training Progress: XENON
 - Start Turn: 14500
