@@ -39,16 +39,12 @@
 - Fisher Tully: (40, 10) Route 42. Fishing info.
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
 
-## Lessons Learned
-- **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools. NEVER use `autopress_buttons` in custom tools for overworld navigation.
-- **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
-
 ## National Park & Bug-Catching Contest
 - Contest Days: Tuesday, Thursday, Saturday.
 - Location: Route 35 National Park Gate (10_15).
 - Rules: Use lead Pokémon to catch a bug Pokémon; judged on health, level, and stats.
+
 ## Roamer Hunt Log
 - Suicune hunt started Turn 14980. Location: Route 42.
 - Interception Point: (46, 12).
 - Repel Strategy: Lead with a Pokémon leveled higher than local wild Pokémon (Lv13-16) but lower than Suicune (Lv40), such as KIMCHI (Lv21), and use a Super Repel to isolate the Suicune encounter.
-- Current Status: Training XENON to Lv 17 on Route 42 (Turn 15027). This will allow the Repel strategy to isolate Suicune encounters.
