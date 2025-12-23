@@ -21,25 +21,18 @@
 - **Navigation:** `path_plan` MUST include the current position as the first element. Omitting it causes misalignment.
 
 ## Plan
-1. Move to `(10, 6)` to check North Gate.
-   - Current Position: `(16, 5)`.
-   - Path: Left to `(10, 5)`, then Down to `(10, 6)`.
-2. If North Gate `(10, 6)` is OPEN (FLOOR):
-   - Proceed to `(10, 8)`.
-   - Check West Gate `(6, 8)` (Expect CLOSED/WALL).
-   - Check East Gate `(12, 8)` (Expect OPEN/FLOOR).
-   - If East Gate is Open, enter Inner East Section.
-3. If North Gate `(10, 6)` is CLOSED (WALL):
-   - We are blocked from the south.
-   - Return to S1 `(16, 1)` and turn OFF.
-   - Re-evaluate.
+1. Enter Inner East Section via Gate `(12, 8)`.
+   - Confirmed: North Gate `(10, 6)` remains OPEN with S1=ON.
+   - Confirmed: East Gate `(12, 8)` should be OPEN with S1=ON.
+2. Navigate to Door/Warp at `(22, 10)`.
+3. Explore the area behind it (potential Director location).
 
 ## Observations
 - **Switch 1 (16, 1):** ON.
 - **Switch 2 (10, 1):** ON.
 - **Switch 3 (2, 1):** OFF.
-- **Gate Updates:**
-  - `(12, 8)` changed to FLOOR (Open) after S1 ON (Turn 14904).
-  - `(12, 9)` changed to FLOOR (Open) after S1 ON (Turn 14905).
-  - This strongly suggests East Gate is OPEN.
-- **Critical Check:** Is North Gate `(10, 6)` open?
+- **Gate Status:**
+  - North Gate `(10, 6)`: OPEN (FLOOR).
+  - East Gate `(12, 8)`: OPEN (FLOOR).
+  - West Gate `(6, 8)`: Likely CLOSED (S1 toggles West/East).
+- **Target:** The warp at `(22, 10)` is the primary unseen area left.
