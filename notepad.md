@@ -31,3 +31,7 @@
 - **Success:** The 3 -> 2 -> 1 sequence opened the Westmost Path (Column 2).
 - **Observation:** Tiles (2, 6) and (2, 7) changed from WALL to FLOOR.
 - **Next Step:** Navigate south through this new opening to bypass the Row 10 blockade.
+- **Problem:** Path South (Row 10) is blocked in West, Middle, and East columns.
+- **Potential Softlock Risk:** Switch 1 is ON, which might have closed the West Shutter (10, 5), trapping me in the West section.
+- **Plan:** Check West Shutter at (10, 5). If closed, manipulate Switch 2 or 3 to reopen it or find a new path.
+- **Goal:** Reach Row 12 (where Item Ball is) to access Emergency Switch at (20, 11).
