@@ -16,7 +16,6 @@
 - Phone Calls: Incoming calls interrupt button sequences. Tools must start with B-presses to clear dialogue.
 
 ## Training Plan: XENON (How)
-- Grind Start: Turn #13980 (Tuesday 12:45 AM).
 - Method: Grind on Route 32 grass using Sweet Scent.
 - Target: Lv 13 for Mean Look, then Lv 30.
 - Strategy: Flee from Normal-types (Rattata, Hoothoot, Pidgey) to conserve Lick PP.
