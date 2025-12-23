@@ -7,6 +7,9 @@
 - Step 5: Prepare Catcher. Obtain Parasect (Spore + False Swipe).
 - Step 6: Execute Capture. Corner -> Mean Look -> False Swipe -> Sleep -> Ultra Balls.
 
+## Completed Milestones
+- **Yanma Swarm (Route 35):** Caught Level 12 Female Yanma (INTERCEPT) using KIMCHI (Gloom) with Sleep Powder + Absorb. (Turn 14795).
+
 ## Global Tile Mechanics
 - FLOOR: Standard traversal.
 - WALL / FENCE: Impassable.
@@ -26,10 +29,6 @@
 ## NPCs & Locations
 - Fisher Tully: (15, 13) Route 32. Fishing info (Route 42).
 - Arnie (Bug Catcher): Route 35. Reports Yanma swarms.
-
-## Event: Yanma Swarm (Route 35)
-- Status: COMPLETE. Caught Level 12 Female Yanma (INTERCEPT).
-- Strategy Used: KIMCHI (Gloom) for Sleep Powder + Absorb.
 
 ## Wild Encounters (Route 35)
 - DITTO (Lv 10), PIDGEY (Lv 12, 14), NIDORAN♀/♂ (Lv 12), YANMA (Lv 12 - Swarm).
