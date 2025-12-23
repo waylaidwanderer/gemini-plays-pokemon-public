@@ -117,31 +117,28 @@
       }
     ]
   },
-  "select_battle_move_refined_v5": {
-    "description": "Selects a move from the battle move menu. Automatically detects the current cursor position from screen text. Takes the 1-based index of the move to select (1-4). Accounts for menu wrapping. Navigation is restricted to Up/Down buttons only.",
+  "menu_press": {
+    "description": "Executes a sequence of button presses for menu navigation, bypassing the directional/action mixing restriction. Useful for deep menus or text input.",
     "input_schema": {
       "properties": {
-        "move_index": {
-          "maximum": 4,
-          "minimum": 1,
-          "type": "integer"
-        },
-        "screen_text": {
-          "type": "string"
+        "buttons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
         }
       },
       "required": [
-        "move_index",
-        "screen_text"
+        "buttons"
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\nimport re\n\ndef run():\n    buttons = [\"A\"]\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps(buttons))\n            return\n            \n        data = json.loads(sys.argv[1])\n        target_idx = int(data.get('move_index', 1))\n        text = data.get('screen_text', \"\")\n        \n        lines = text.split('\\n')\n        cursor_pat = re.compile(r'[▶▷▸►>]')\n        \n        # Identify lines that contain moves\n        move_lines = []\n        exclusions = ['LV', 'HP', 'EXP', 'TYPE', 'PP', 'CANCEL', 'NORMAL', 'FIRE', 'WATER', 'GRASS', 'ELECTRIC', 'ICE', 'FIGHTING', 'POISON', 'GROUND', 'FLYING', 'PSYCHIC', 'BUG', 'ROCK', 'GHOST', 'DRAGON', 'STEEL', 'DARK']\n        \n        for i, line in enumerate(lines):\n            if '│' in line and any(c.isalpha() for c in line):\n                # Filter out headers/stats/types\n                parts = [p.strip() for p in line.split('│') if p.strip()]\n                for p in parts:\n                    clean = cursor_pat.sub('', p).strip()\n                    if clean and 1 <= len(clean) <= 12 and any(c.isalpha() for c in clean) and '/' not in clean:\n                        if clean.upper() not in exclusions:\n                            move_lines.append(i)\n                            break\n        \n        # Find current cursor position\n        cursor_idx = -1\n        for i, line in enumerate(lines):\n            if cursor_pat.search(line):\n                cursor_idx = i\n                break\n        \n        if cursor_idx != -1 and move_lines:\n            # If cursor is not on a line identified as a move, find the closest move line\n            if cursor_idx not in move_lines:\n                cursor_idx = min(move_lines, key=lambda x: abs(x - cursor_idx))\n            \n            # Find the contiguous block of moves\n            start = cursor_idx\n            while start > 0 and start - 1 in move_lines: start -= 1\n            end = cursor_idx\n            while end < len(lines) - 1 and end + 1 in move_lines: end += 1\n            \n            block = [idx for idx in move_lines if start <= idx <= end]\n            if block:\n                current_pos = block.index(cursor_idx) + 1\n                diff = target_idx - current_pos\n                n = len(block)\n                \n                # Wrapping\n                if diff > n // 2: diff -= n\n                elif diff < -(n // 2): diff += n\n                \n                btns = []\n                if diff > 0: btns = [\"Down\"] * diff\n                elif diff < 0: btns = [\"Up\"] * abs(diff)\n                btns.append(\"A\")\n                buttons = btns\n    except:\n        pass\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    run()",
+    "python_script": "import json\nimport sys\n\ndef run():\n    try:\n        input_data = json.loads(sys.argv[1])\n        buttons = input_data.get('buttons', [])\n        print(json.dumps(buttons))\n    except:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    run()",
     "history": [
       {
-        "commit_message": "Refined move selection logic to be more robust against screen text variations and fixed a bug where num_moves was used instead of the local variable n. Added explicit handling for cursor line inclusion and improved contiguous block detection. Added try-except blocks to prevent unhandled exceptions.",
-        "timestamp": "2025-12-23T16:52:11.959Z",
-        "action_counter": 14789
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-23T16:59:34.358Z",
+        "action_counter": 14802
       }
     ]
   }
