@@ -16,14 +16,17 @@
 - **Correction:** Row 3 and Row 2 have walls at x=6,7. Must use Row 4 to bypass.
 - **Current Position:** (8, 3).
 
-## Current Goal: Test All Switches OFF (S1=OFF, S2=OFF, S3=OFF)
+## Current Goal: Test S3=ON (S1=OFF, S2=OFF, S3=ON)
 - **Current State:** S1=OFF, S2=OFF, S3=OFF.
-- **Action:** Re-attempt navigation to (10, 5).
-- **Reason:** Previous navigation failed (pathing error).
+- **Observation:** (10, 6) is CLOSED (All OFF).
+- **Hypothesis:** All OFF is a reset state (All Closed).
+- **Test:** Turn S3 ON.
+  - S3 might control the West shutter (6, 6).
 - **Plan:**
-  1. Navigate to (10, 5) using `find_path`.
-  2. Check status of Shutter (10, 6).
-  3. If Closed, proceed to Switch 1 and turn ON.
+  1. Navigate to Switch 3 (2, 1).
+  2. Turn S3 ON.
+  3. Check Shutter (6, 6).
+  4. If (6, 6) opens, enter West Room.
 
 ## Pathfinding & Strategy
 - **Start Turn:** 13766
