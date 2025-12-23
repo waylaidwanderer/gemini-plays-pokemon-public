@@ -20,19 +20,17 @@
     - **Current State:** ON.
 
 ## Current Strategy
-**Goal:** Rescue Director.
-**Current Config:** S1=OFF, S2=ON, S3=ON.
-**Hypothesis:** This config (Emergency Mode + West Select) might open the Outer East Shutter `(20, 6)`.
+**Target Config:** S1=OFF, S2=OFF, S3=ON.
 **Reasoning:**
-- S3=ON closes the main gates but opens emergency routes.
-- `(20, 6)` might be the "Outer East" emergency route leading to the Emergency Switch `(20, 11)`.
-**Objective:** Navigate to `(20, 6)` and check if it's OPEN.
-- If OPEN: Proceed to `(20, 11)` (Emergency Switch).
-- If CLOSED: Re-evaluate switch logic.
+- Testing "Emergency Power Only" mode.
+- If S2 (Main Power) is OFF, but S3 (Emergency) is ON, maybe the Outer East Shutter `(20, 6)` opens.
+**Steps:**
+1. Turn S2 OFF.
+2. Navigate to `(20, 6)` to check status.
+3. If closed, check `(6, 12)` to see if Emergency Power maintains the West route.
 
 ## Exploration Notes
-- **West Room (Col 2):** Blocked at Row 10 by walls. Pharmacist at `(4, 8)` says "Nothing down there".
-- **Inner East (Col 12):** Blocked at `(12, 12)` when S3=ON (or maybe S1=OFF?).
-- **West Gate (Col 6):** Blocked at `(6, 8)` when S3=ON.
-- **Test Case:** S1=OFF, S2=ON, S3=ON -> Check `(20, 6)`. This is the only untested combination for S2=ON.
-- **Hypothesis:** "West" (S1=OFF) + "Emergency" (S3=ON) might open the "Outer East" path? Or S3 simply enables the outer shutter.
+- **West Room (Col 2):** Blocked at Row 10. Pharmacist at `(4, 8)`.
+- **Inner East (Col 12):** Blocked at `(12, 12)` with S3=ON.
+- **West Gate (Col 6):** Blocked at `(6, 8)` with S3=ON.
+- **Outer East (Col 20):** Shutter `(20, 6)` closed with S1=OFF, S2=ON, S3=ON.
