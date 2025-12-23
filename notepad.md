@@ -41,7 +41,7 @@
 
 ## Lessons Learned
 - **Tool Hygiene:** Use `navigate` with `path_plan` for overworld movement. Always include a `commit_message` when updating custom tools. NEVER use `autopress_buttons` in custom tools for overworld navigation.
-- **Navigation:** National Park is a valid path to Route 36 via the east exit at (33, 18).
+- **Navigation:** National Park is a valid path to Route 36 via the east exit at (33, 18). Route 42 is accessible from Ecruteak City's east gate at (35, 27).
 - **Battle Mechanics:** Ghost-types are immune to Normal/Fighting moves. Hypnosis is unreliable.
 
 ## National Park & Bug-Catching Contest
