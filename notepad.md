@@ -1,15 +1,12 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** At (14, 21) on Ice. Ledge Jump Failed.
-- **Mechanics:** 
-  - **Ledges:** `FLOOR_UP_WALL` tiles at (14, 22) and (7, 18) blocked movement. They behave as Walls or un-jumpable ledges.
-- **Navigation:**
-  - **Hypothesis:** One of the ledges at Row 18 (x=8, 9, 10, 11, 12) might be jumpable, accessing the South-West area.
-  - **Plan:**
-    1. Escape Ice Trap: Slide Up to (14, 16), then Left to (13, 16).
-    2. Go to (8, 17).
-    3. Try jumping South.
-    4. If fail, try x=9, 10, etc.
+- **Current Status:** Testing ledges at Row 18.
+- **Hypothesis:** `FLOOR_UP_WALL` tiles at Row 18 are jumpable ledges. Previous attempt at x=7 failed, possibly due to alignment or tile specifics. Testing x=8, 9, 10.
+- **Plan:**
+  1. Move to (8, 17).
+  2. Press Down.
+  3. If successful, proceed South to Row 22 and West to x=0.
+  4. If fail, move to (9, 17) and retry.
 - **Items:**
   - Item Ball at (32, 23).
   - Item Ball at (35, 9).
