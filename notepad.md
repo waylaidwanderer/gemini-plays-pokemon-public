@@ -45,8 +45,8 @@
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
 - **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
 - **Plan:** Take the ladder at (17,15).
-- **Status:** Returning to Tin Tower.
-- **Current Location:** Barrier Station Right Side (Map 4_1).
-- **Next Step:** Take Ladder at (17,3) to Wise Trio Room (4_2).
-- **Then:** Exit to Tin Tower Yard -> Enter Tin Tower.
-- **Goal:** Verify if Warp (10,2) is active.
+- **Status:** Permission Granted ("Please, do go on.").
+- **Location:** Ecruteak City (4_9), Tin Tower Yard.
+- **Action:** Navigating to Tin Tower Entrance (37,7).
+- **Goal:** Enter Tin Tower, test Warp (10,2), or trigger Sage battle.
+- **Lore:** Suicune event reset. Path should be open.
