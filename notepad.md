@@ -19,7 +19,10 @@
 - Step 1: Fly to Mahogany Town. [DONE]
 - Step 2: Enter Route 42 from the East. [DONE]
 - Step 3: Surf west through the northern water channel (Row 9) to bypass the mountain and reach the island. [DONE]
-- Step 4: Approach island center (24, 14) from the north/east side. [In Progress]
+- Step 4: Approach island center (24, 14) from the north/east side. [DONE]
+- Result: FAILED. No sighting triggered at (24, 14).
+- Hypothesis 25: Suicune is standing in front of the middle Mt. Mortar entrance (28, 9).
+- Step 1: Travel to (28, 10) and check for Suicune.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
