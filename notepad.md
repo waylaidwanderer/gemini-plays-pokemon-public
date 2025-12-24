@@ -2,10 +2,10 @@
 - **Current State:** At Hub (14, 16).
 - **Goal:** Find path to West Corridor (x=0) or North Ice Area.
 - **Reachability Analysis:** System reports 383 reachable tiles, implying an exit from the Hub exists.
-- **Candidates:**
-  1. South Ledges (Row 18): `(7, 18)` to `(12, 18)`. One MUST be jumpable.
-  2. North Alcove (Row 15): `(9, 15)` to `(12, 15)`. Check for hidden path.
-- **Plan:** Test South Ledges systematically. If fail, check North.
+- **Observation:** (12, 18) is a Wall.
+- **Plan:** Test remaining ledges: (11, 18), (9, 18), (8, 18), (7, 18).
+- **Reasoning:** Row 18 ledges are the only potential access to the West Corridor (x=0), which is the likely route to the North Ice Area (Row 13). Hub is otherwise isolated.
+- **Hypothesis:** One of the `FLOOR_UP_WALL` tiles is a valid ledge. Markers might be stale/incorrect.
 
 # Map Structure
 - **West Corridor (x=0):** Connected to SW area (Row 22+).
