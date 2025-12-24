@@ -10,6 +10,7 @@
 - Step 3: Sweep remaining island floor tiles. [DONE]
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
 - Step 4: Explore western mainland path at (4, 14)-(7, 14). [In Progress]
+- Hypothesis 29: Trigger is on the western mainland path near Ecruteak entrance.
 - Note: If Route 42 is not cleared by Turn 17900, pivot to Route 44/Blackthorn.
 
 # Tile Mechanics (Global)
