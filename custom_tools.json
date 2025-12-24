@@ -214,13 +214,17 @@
     ]
   },
   "use_healing_item_from_bag": {
-    "description": "Navigates the bag from the current cursor position to a healing item, then uses it on a specified Pokemon. Assumes 'USE' is the first option in the item's sub-menu.",
+    "description": "Navigates the bag from the current cursor position to a healing item, then uses it on a specified Pokemon. Assumes the specified option is the first in the sub-menu if option_down_count is 0.",
     "input_schema": {
       "type": "object",
       "properties": {
         "item_down_count": {
           "type": "integer",
           "description": "Number of 'Down' presses to reach the item from the current cursor."
+        },
+        "option_down_count": {
+          "type": "integer",
+          "description": "Number of 'Down' presses to reach the desired option (USE, etc.) in the sub-menu."
         },
         "pokemon_index": {
           "type": "integer",
@@ -229,10 +233,11 @@
       },
       "required": [
         "item_down_count",
+        "option_down_count",
         "pokemon_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            # If no arguments provided, just exit the menu\n            print(json.dumps([\"B\"]))\n            return\n\n        input_data = json.loads(sys.argv[1])\n        item_down = int(input_data.get('item_down_count', 0))\n        pkmn_idx = int(input_data.get('pokemon_index', 0))\n\n        buttons = []\n        for _ in range(item_down):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select item\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\") # Select USE\n        buttons.append(\"sleep 500\")\n        for _ in range(pkmn_idx):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select Pokemon\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to B to exit menu safely on error\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps([\"B\"]))\n            return\n        input_data = json.loads(sys.argv[1])\n        item_down = int(input_data.get('item_down_count', 0))\n        option_down = int(input_data.get('option_down_count', 0))\n        pkmn_idx = int(input_data.get('pokemon_index', 0))\n        \n        buttons = []\n        for _ in range(item_down):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select item\n        buttons.append(\"sleep 500\")\n        for _ in range(option_down):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select option (USE, etc.)\n        buttons.append(\"sleep 500\")\n        for _ in range(pkmn_idx):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select Pokemon\n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -248,6 +253,11 @@
         "commit_message": "Fix IndexError by checking sys.argv length and adding robust error handling for input parsing.",
         "timestamp": "2025-12-24T03:42:18.267Z",
         "action_counter": 16183
+      },
+      {
+        "commit_message": "Add option_down_count parameter to handle cases where 'USE' is not the first menu option.",
+        "timestamp": "2025-12-24T04:02:36.043Z",
+        "action_counter": 16229
       }
     ]
   }
