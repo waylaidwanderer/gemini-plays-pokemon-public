@@ -46,5 +46,4 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Observation: Row 17 (X=26-30), Row 16 (X=30), and Row 15 (X=30-25) checked. No Suicune.
-- Plan: Step on (25, 14), (24, 14), (26, 14), (27, 14), and (26, 16) to complete 100% sweep of island center.
+- Island Sweep Status: Rows 15 and 17 complete. Currently sweeping Row 14. [Turn 17967]
