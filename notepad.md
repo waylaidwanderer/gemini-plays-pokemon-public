@@ -1,10 +1,10 @@
 # Ice Path Strategy
-- **Current Action:** Entering Northern Ice Room via (15, 14).
-- **Goal:** Solve the ice puzzle in the West Room (approx 11-15, 10-14) to find the Ladder.
-- **Hypothesis:** Ladder to B1F is in this room.
+- **Current Action:** Exploring West Ice Room.
+- **Goal:** Solve the ice puzzle to find the Ladder to B1F.
 - **Path History:**
-  - Entered room sliding North from (15, 14).
-  - Expected stop: (15, 12) (blocked by wall at 15, 11).
+  - Entered at (15, 14), slid North to (15, 12).
+  - Sliding Left from (15, 12) -> Target (9, 12).
+- **Hypothesis:** The "stop" points (rocks/walls) in the North-West (x=9-11, y<12) are key to navigating to the ladder.
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side].
 
 # Mechanics & Lessons
