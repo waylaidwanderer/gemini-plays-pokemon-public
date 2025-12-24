@@ -6,14 +6,24 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (10, 5).
-- **Goal:** RESET PUZZLE (Boulder B1 stuck at 10, 1).
-- **Error:** Pushed B1 too far North (to 10, 1 instead of 10, 2). Cannot push down due to Wall at 10, 0.
+- **Position:** Player at (17, 3).
+- **Goal:** Solve B1 (Top Right Boulder).
+- **Puzzle State:** Reset (Assumed).
+  - **B1:** (11, 7).
+  - **B2:** (7, 8).
+  - **B3:** (9, 11).
+  - **B4:** (17, 7).
 
-# Recovery Plan (B2F -> B1F)
-1.  **Goal:** Return to B1F via Ladder at (17, 1) (Leads to 17, 3 near Puzzle).
-2.  **Collect:** Item at (0, 2) and Item at (8, 9).
-3.  **Path:**
-    - Slide RIGHT from (1, 0) to (16, 0). DONE.
-    - Walk to (17, 1) (Ladder).
-    - Skip Item at (8, 9) for now (hard to reach).
+## Investigation Plan
+1.  **Navigate to (11, 6):** Check if B1 is at (11, 7).
+2.  **Check Wall at (12, 6):** If Floor, go (12, 6) -> (12, 8) -> (11, 8).
+3.  **Check Wall at (10, 8):** Go to (9, 8) via (5, 8) and check if I can cross to (11, 8).
+4.  **Hypothesis:** One of the walls surrounding (11, 8) is fake or incorrect.
+
+## Move Sequence (If (12, 6) is Floor)
+1.  Go to (11, 8) via Col 12.
+2.  Push B1 Up to (11, 5).
+3.  Push B1 Left to (10, 5).
+4.  Push B1 Up to (10, 1).
+5.  Push B1 Right to (11, 1).
+6.  Push B1 Down into Pit (11, 2).
