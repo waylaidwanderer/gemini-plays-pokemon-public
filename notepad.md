@@ -31,3 +31,6 @@
 - **Next:** Re-enter Tin Tower 1F immediately.
 - **Action:** Re-entering Tin Tower 1F after map reload.
 - **Goal:** Check Suicune spawn (9,9) and Warp (10,2).
+- **Observation:** Suicune is NOT at (9,9) after re-entering (checked visually from 9,11).
+- **Action:** Navigating to (10,2) to check the warp tile again.
+- **Hypothesis:** The map reload might have activated the warp or opened the wall at (10,4). Checking warp first.
