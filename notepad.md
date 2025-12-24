@@ -28,3 +28,5 @@
 
 # Game Mechanics
 - **Battle Menu Cursor Memory:** The move selection cursor remembers the last used move. When using `smart_battle_move`, `current_slot` must be set to the slot of the move used in the previous turn.
+- **Lore:** Wise Trio Dialogue: "Legend has it that [Suicune, Entei, Raikou] can't be seen while they sleep." They doubt my claim of seeing them at Burned Tower.
+- **Battle Log:** Defeated Sage Gaku (Noctowl, Flareon). Used Muscle (Dig).
