@@ -33,5 +33,6 @@
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Action:** Exiting menus. Belladonna (Lv 5) active.
-- **Next:** Belladonna faints -> Send Muscle -> Throw Balls.
+- **Status:** Belladonna survived (Suicune used Leer). Active.
+- **Action:** Throwing Great Ball (Belladonna is fodder).
+- **Plan:** Throw Ball. If fails -> Belladonna faints -> Switch to Muscle. If catch -> Win.
