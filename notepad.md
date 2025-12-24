@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal)
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (Seen).
+- Milestone 3: Route 42 (In Progress - Cut tree but haven't triggered scene).
 - Milestone 4: Route 36 (Current). Strategy: Enter from Violet City (East) to trigger sighting.
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (ALREADY OBTAINED) + all sightings. Sages require Beasts to be released (Completed).
 
