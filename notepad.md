@@ -32,8 +32,8 @@
 # Training Quest: XENON to Lv27
 - Start Turn: 16423.
 - Location: Route 44 grass island.
-- Progress: XENON Lv20. Need ~900 EXP for Lv21 (~5 Poliwags). Poliwag (Lv22-24) gives ~180-200 EXP.
-- XENON learns Night Shade at Lv21. Fixed damage is ideal for weakening Suicune.
+- Progress: XENON Lv20. Need ~900 EXP for Lv21 (~5 Poliwags).
+- XENON learns Night Shade at Lv21.
 
 # Trainer Rosters (Route 44)
 - Psychic Phil: Natu, Kadabra.
