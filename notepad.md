@@ -1,16 +1,18 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen).
-- Milestone 3: Route 42 (Pending). Goal: Reach island center (26, 14).
-- Milestone 4: Route 36 (Pending).
-- Milestone 5: Tin Tower (Final Encounter).
-- Status: Scripted Chase. (Clear Bell in inventory).
+- Milestone 3: Route 42 (Seen on island).
+- Milestone 4: Route 36 (PENDING - Hallucination corrected).
+- Milestone 5: Tin Tower (PENDING - Clear Bell in inventory).
+- Status: Scripted Chase (Likely).
+- Conflict: Summary claims battle occurred, but Clear Bell is held and caught list is empty.
 
 # Strategy
-1. **Fly to Ecruteak:** Reset position to the PokeCenter to exit the tower courtyard.
-2. **Route 42 Island:** Walk east to Route 42. Use Surf/Cut to reach (26, 14) on the island.
-3. **Route 36:** After Route 42, navigate to Route 36 (near Sudowoodo spot) for the next sighting.
-4. **Tin Tower:** Return to Tin Tower 1F for the final battle.
+1. **Verify Pokedex:** Open Pokedex and check Suicune's AREA map.
+   - If 'Area Unknown': Still in scripted chase. Head to Route 36.
+   - If route shown: Roaming. Head to indicated route.
+2. **Route 36:** Navigate to the Sudowoodo spot on Route 36 to trigger the next sighting if needed.
+3. **Tin Tower:** Return here once Route 36 sighting is cleared to use the Clear Bell.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
