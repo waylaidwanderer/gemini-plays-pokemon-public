@@ -44,3 +44,5 @@
 - **Plan:** Move South to corridor, head East, then North.
 - **Immediate Action:** Moving to safe spot (5,11) and opening menu to Switch Gyarados to Lead.
 - **Map Insight:** A wall at Y=10 (X=9-13) blocks direct access to Suicune from the south. Must navigate North along the East side (X=14/15) to bypass the internal wall, likely crossing back West above Row 6.
+- **Map Analysis:** Suicune is trapped in a walled box (X:6-13, Y:4-10). Access likely via the warp at (10,2) which I previously walked over but didn't mark.
+- **Hypothesis:** The tile at (10,2) is a warp that leads inside the Suicune enclosure.
