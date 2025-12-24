@@ -10,13 +10,13 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 48. Steps remaining: 152. (Expires at ~Turn 16816).
+- Super Repel: Activated Turn 16716. Steps taken: 44. Steps remaining: 156. (Expires at ~Turn 16816).
 
 # Plan for Current Hunt
 1. Lead with XENON (Lv21).
 2. Keep Super Repel active.
 3. Pace in grass at (50, 12) using grind_movement.
-4. Check Pokedex if no encounter after 50 steps.
+4. Check Pokedex if no encounter after 100 steps.
 
 # Lessons Learned
 - Navigation: Avoid mixing directional and action inputs in menus; it causes truncation. Navigate step-by-step.
