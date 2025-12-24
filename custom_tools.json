@@ -346,7 +346,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\ntry:\n    cycles = int(input_data.get('cycles', 1))\n    direction = str(input_data.get('direction', 'horizontal'))\n    buttons = []\n    if direction == 'horizontal':\n        b1, b2 = 'Left', 'Right'\n    else:\n        b1, b2 = 'Up', 'Down'\n    for _ in range(cycles):\n        buttons.extend([b1, b2])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([\"B\"])) # Safe fallback\n",
+    "python_script": "import json\ntry:\n    cycles = int(input_data.get('cycles', 1))\n    direction = str(input_data.get('direction', 'horizontal'))\n    buttons = []\n    if direction == 'horizontal':\n        b1, b2 = 'Left', 'Right'\n    else:\n        b1, b2 = 'Up', 'Down'\n    for _ in range(cycles):\n        buttons.extend([b1, \"sleep 250\", b2, \"sleep 250\"])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([\"B\"])) # Safe fallback\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -382,6 +382,11 @@
         "commit_message": "Fixing cycle logic and adding input validation to ensure the requested number of cycles are generated.",
         "timestamp": "2025-12-24T09:18:01.150Z",
         "action_counter": 16787
+      },
+      {
+        "commit_message": "Adding sleep commands between button presses to improve reliability and prevent the game engine from dropping inputs.",
+        "timestamp": "2025-12-24T09:52:27.598Z",
+        "action_counter": 16861
       }
     ]
   }
