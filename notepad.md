@@ -13,18 +13,10 @@
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Current Objective: Investigate 'SUICUNE'S NEST' coordinates on Route 42.
-- Strategy: Visit red dot and blue square coordinates discovered in the Pokédex AREA map.
+- Goal: Locate Suicune on Route 42 or Tin Tower.
+- Strategy: Approach Route 42 island from Ecruteak City side. If no encounter, proceed to Tin Tower (Ecruteak City).
+- Key Item: Clear Bell (Held).
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
-- Next Sightings (Crystal): Route 36 (near Violet), Route 25 (near Bill's house).
-
-# Suicune's Nest Observations (Turn 17031)
-- Red Dots: (29, 14), (32, 12), (34, 13), (35, 15), (27, 16), (30, 18).
-- Blue Squares: (30, 13), (32, 13), (34, 13), (28, 14), (31, 14), (27, 17), (32, 17), (34, 17), (30, 18).
-- Overlap (Red & Blue): (34, 13), (30, 18).
-- Investigation Log:
-  - (27, 17): Stepped on. No event. (Turn 17035)
-  - (27, 16): Interacted (Fruit tree). Obtained PNK APRICORN. No Suicune event. (Turn 17037)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -44,6 +36,5 @@
 
 # General Lessons
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
+- Pokedex Hallucination: Be cautious of interpreting the Pokedex AREA map; it does not provide coordinate-level data or 'Nest' markers. (Turn 17041)
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
-- Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation is more reliable.
-- Pokédex 'Nest' Screen: Rare visual cues in the AREA map may indicate specific event triggers. (Turn 17031)
