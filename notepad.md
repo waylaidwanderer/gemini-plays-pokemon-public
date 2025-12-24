@@ -3,7 +3,8 @@
 - **Global Flag:** "The TIN TOWER shook!" (Confirmed).
 - **Local State:** 
     - Wise Trio Room (4_2): EMPTY. Sages Gaku, Masa, Koji are GONE.
-    - Tin Tower 1F: Previously Sages were present, generic dialogue.
+    - Tin Tower 1F: Sages present but give generic lore. Suicune missing from (9,9).
+- Warp Tile at (10,2): Previously inactive. Retesting now that "Tower Shook" flag is active.
 - **Hypothesis:** The disappearance of the Sages from 4_2 is the trigger. They have likely moved to Tin Tower or the path is now open.
 
 # Current Mission
