@@ -3,16 +3,14 @@
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
-  - **Sokoban Hypothesis:** 4 Boulders -> 4 Pits.
-    - **B3 (9, 11)** -> **Pit (5, 12)** (Left Side)
-    - **B2 (7, 8)** -> **Pit (4, 7)** (Left Side)
-    - **B1 (11, 8)** -> **Pit (12, 13)** OR **Pit (11, 2)** (Right Side)
-    - **B4 (17, 7)** -> **Pit (11, 2)** OR **Pit (12, 13)** (Right Side)
-  - **Plan:**
-    1. **B3 Execution:** At (10, 11), push B3 Left to (4, 11), Down to (4, 12), Right to **Pit (5, 12)**.
-    2. **B2 Execution:** Navigate to B2, push to Pit (4, 7).
-    3. **Right Side:** Solve B1/B4 pair.
-- **Next Step:** Navigate to (10, 11).
+  - **B3 Execution:**
+    1. Push Left to (4, 11).
+    2. **Go Around:** (5, 11) -> (7, 11) -> (7, 13) -> (4, 13) -> (3, 12) -> (4, 10).
+    3. Push Down to (4, 12).
+    4. Push Right to Pit (5, 12).
+  - **Next:** Solve B2 (7, 8) -> Pit (4, 7).
+  - **Target:** Fill/Drop boulders into all 4 pits.
+- **Next Step:** Push B3 Left, then loop around.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
