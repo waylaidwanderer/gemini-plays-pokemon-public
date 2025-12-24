@@ -39,7 +39,8 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Interacting with Sage at (11,11).
-- **Situation:** Re-entered Tin Tower 1F (Map 3_4) from Ecruteak. This IS the location with the Sages.
-- **Goal:** Trigger the Wise Trio battle or get them to open the path/activate the warp.
-- **Plan:** Talk to Sage at (11,11). If passive, talk to others. If all passive, re-check Warp (10,2).
+- **Action:** Retrying Warp (10,2) after map reload.
+- **Hypothesis:** Re-entering the map might have reset the warp's functionality.
+- **Plan:** Navigate to (10,2). Step on it.
+- **Contingency:** If warp fails, talk to Sages at (14,6) and (5,9).
+- **Lore:** Wise Trio (Barrier Station) defeated. Suicune previously battled (Lost/Whited out). Sages in Tin Tower give lore but don't move.
