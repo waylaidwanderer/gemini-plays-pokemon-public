@@ -45,3 +45,4 @@
 
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
+- Small strip of land at (32-33, 8-11) east of the middle island.
