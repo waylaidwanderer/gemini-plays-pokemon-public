@@ -1,18 +1,19 @@
 # Ice Path Strategy
-- **Current State:** At (15, 14) [Entrance to North Ice Room].
+- **Current State:** At (15, 14).
 - **Goal:** Solve North Ice Room puzzle to reach (16, 8) Floor.
-- **Solution Sequence:**
-  1. **Left** to (14, 14) [Start].
-  2. **Up** to (14, 2).
-  3. **Left** to (8, 2) [Hit Rock 7,2? No, 7,2 is left of 8,2].
-  4. **Down** to (8, 11) [Hit Rock 8,12].
-  5. **Left** to (7, 11) [Hit Rock 6,11].
-  6. **Up** to (7, 3) [Hit Rock 7,2].
-  7. **Left** to (2, 3) [Hit Wall].
-  8. **Down** to (2, 5) [Hit Rock 2,6].
-  9. **Right** to (11, 5) [Hit Rock 12,5].
-  10. **Down** to (11, 8) [Hit Rock 11,9].
-  11. **Right** to (16, 8) [Exit to Floor].
+- **Corrected Solution Sequence:**
+  1. **Up** to (15, 12) [Stop at Wall 15,11].
+  2. **Left** to (9, 12) [Stop at Rock 8,12].
+  3. **Up** to (9, 2) [Stop at Wall 9,1].
+  4. **Left** to (8, 2) [Stop at Rock 7,2].
+  5. **Down** to (8, 11) [Stop at Rock 8,12].
+  6. **Left** to (7, 11) [Stop at Rock 6,11].
+  7. **Up** to (7, 3) [Stop at Rock 7,2].
+  8. **Left** to (2, 3) [Stop at Wall 1,3].
+  9. **Down** to (2, 5) [Stop at Rock 2,6].
+  10. **Right** to (11, 5) [Stop at Rock 12,5].
+  11. **Down** to (11, 8) [Stop at Rock 11,9].
+  12. **Right** to (16, 8) [Exit to Floor].
 
 # Map Structure
 - **North Ice Room:** Puzzle leading to Central Floor (Row 8-9).
