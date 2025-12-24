@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal)
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36.
-- Strategy: Identify the precise trigger on Route 36. Pokedex 'Area' confirms it's here.
+- Strategy: Approach the T-junction (approx 28, 9) where Sudowoodo was located.
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade for chip damage. Suicune (Lv40) lacks Roar in Crystal, so Mean Look is unnecessary. Use Great/Ultra Balls.
 
 # Tile Mechanics (Global)
