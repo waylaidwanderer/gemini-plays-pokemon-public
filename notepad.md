@@ -23,6 +23,8 @@
 ## Training Phase (Started Turn 15902)
 - Target: Route 44 (East of Mahogany Town).
 - Goal: Level XENON (Gastly) to outspeed Lv40 Roamers.
+- Wild Pokemon Levels: Verify levels on Route 44. (Repel trick requires lead > wild max).
+- Trapper Speed Requirements: Suicune (Lv40) has Base 85 Speed. XENON (Lv18, 36 Speed) needs significantly more levels (likely Lv45+) or a Quick Claw to reliably use Mean Look first.
 
 ## Region Map IDs (Johto - Corrected)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
