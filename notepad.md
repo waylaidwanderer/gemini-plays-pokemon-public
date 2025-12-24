@@ -13,12 +13,10 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan (Corrected)
-1.  **Get to Right Side:** DONE. (At 12, 5).
-2.  **Push Sequence:**
-    - Push Left to (10, 5). DONE.
-    - Go to (10, 6). Push Up to (10, 1).
-    - Go to (9, 1). Push Right to (11, 1).
-    - Go to (11, 0). Push Down into Pit (11, 2).
-3.  **Next:** Solve B2.
-- **Strength Push:** Pushing a boulder moves the boulder 1 tile. The player does NOT automatically step into the vacated tile; a separate input is required.
+## Master Plan
+1.  **Verify Boulder Mechanics:** Attempt to push Boulder 1 UP from (10, 6).
+    - If it moves 1 tile: **Boulders Don't Slide.** (Easy solve).
+    - If it slides far: **Boulders Slide.** (Complex solve).
+    - If it doesn't move: **Activate Strength.**
+2.  **Current Action:** Push Up.
+3.  **Next:** React to boulder movement.
