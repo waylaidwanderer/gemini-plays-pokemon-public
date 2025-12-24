@@ -11,8 +11,9 @@
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
 - Result: No trigger found on western floor tiles (Turn 17837).
 - Step 5: Exhaustive island sweep (Rows 10-13). [In Progress]
-- Result: Escaped wild Goldeen (Turn 17855).
-- Step 1: Sweep northern island floor: (22, 12)-(28, 12).
+- Step 1: Sweep Row 12: (22, 12) to (28, 12). [In Progress]
+- Step 2: Sweep Row 11: (33, 11) to (20, 11).
+- Step 3: Sweep Row 10: (20, 10) to (31, 10).
 - Hypothesis 33: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking directly south to the trees.
 - Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
 - Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
