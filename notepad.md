@@ -1,4 +1,4 @@
-# Tile Mechanics
+# Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable.
 - WATER: Requires Surf (HM03).
@@ -18,17 +18,23 @@
 # Observed Movesets
 - Tangela: Absorb, Vine Whip, PoisonPowder.
 - Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
-- Weepinbell: PoisonPowder, Acid, Wrap.
+- Weepinbell: PoisonPowder, Acid, Wrap, Sleep Powder (Route 44).
 - Natu: Future Sight, Night Shade.
 - Remoraid: Psybeam.
 
-# Suicune & Training Strategy
-- Suicune is a roamer. Use roamer_tracker_v2 to intercept.
-- Objective: Reach Lv27 with XENON (Gastly) for Repel Trick.
-- Lead: XENON (Gastly). Method: Mean Look (Turn 1) + Hypnosis.
-- Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084). (Turn 16517)
-- Note: XENON learns Night Shade at Lv21.
-- Training Spot: Route 44 grass island (Start: Turn 16423).
+# Suicune Tracking & Strategy
+- Status: Roaming. Moves when player changes maps.
+- Interception Strategy: Repel Trick (Lead Lv27 XENON).
+- Current Objective: Level up XENON to Lv27.
+- Use `roamer_tracker_v2` after Pokedex checks.
+
+# Training Log: XENON (Gastly)
+- Started XENON Leveling at Turn 16521.
+- Current Level: 20 (5925 EXP).
+- Next Level (Lv21): 6921 EXP (996 EXP remaining).
+- Night Shade learned at Lv21.
+- Repel Trick target: Lv27.
+- Training Spot: Route 44 grass island.
 
 # Trainer Rosters (Route 44)
 - Psychic Phil: Natu, Kadabra.
@@ -39,8 +45,6 @@
 # Future Tasks
 - Reach Lv27 with XENON.
 - Intercept Suicune using roamer_tracker_v2.
-- Test find_path_v2 fix.
-- Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
 
 # PC Storage (Box 1)

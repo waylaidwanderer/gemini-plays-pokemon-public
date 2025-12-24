@@ -336,5 +336,33 @@
         "action_counter": 16154
       }
     ]
+  },
+  "switch_pokemon": {
+    "description": "Automatically selects a Pokemon to switch to from the battle party menu. Assumes the party menu is already open and the cursor starts at the leading Pokemon (index 0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_index": {
+          "type": "integer",
+          "description": "The 0-indexed position of the Pokemon to switch to (0-5)."
+        },
+        "current_index": {
+          "type": "integer",
+          "default": 0,
+          "description": "The current 0-indexed position of the cursor (0-5)."
+        }
+      },
+      "required": [
+        "target_index"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef switch_pokemon(target_index, current_index=0):\n    buttons = []\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\ninput_data = json.load(sys.stdin)\nswitch_pokemon(int(input_data['target_index']), int(input_data.get('current_index', 0)))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T07:24:00.641Z",
+        "action_counter": 16531
+      }
+    ]
   }
 }
