@@ -40,14 +40,15 @@
 
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
-- Current Location: Barrier Station (4_1) - Right Side.
-- Goal: Check Wise Trio Room (Map 4_2).
+- Current Location: Wise Trio Room (4_2).
+- Goal: Talk to Wise Trio for new dialogue/triggers.
 
 # Plan
-1. Navigate to Ladder at (17,3).
-2. Enter Wise Trio Room.
-3. Talk to Wise Trio / Check for Eusine.
-4. If nothing, considering checking the Tin Tower entrance again or researching triggers.
+1. Navigate to center of room (4,4).
+2. Talk to North Sage (Gaku).
+3. Talk to East Sage (Koji).
+4. Talk to South Sage (Masa).
+5. Check for Eusine.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
