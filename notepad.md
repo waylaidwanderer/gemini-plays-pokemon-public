@@ -1,7 +1,7 @@
 # Ice Path Strategy
 - **Current State:** At Hub (14, 16).
 - **Goal:** Find access to West Corridor (x=0) or North Ice Area.
-- **Hypothesis:** One of the Row 18 ledges is jumpable. Tested (9-12, 18) = Fail. Testing (8, 18).
+- **Hypothesis:** One of the Row 18 ledges is jumpable. Tested (8-12, 18) = Fail. Testing (7, 18).
 - **Plan:**
   1. Move to (9, 17) via Hub Floor.
   2. Test Down movement into (9, 18), (8, 18), (7, 18).
