@@ -1,8 +1,7 @@
 # Ice Path Strategy
-- **Current State:** At (8, 11).
+- **Current State:** At (7, 11).
 - **Goal:** Solve North Ice Room puzzle to reach (16, 8) Floor.
 - **Remaining Sequence:**
-  6. **Left** to (7, 11) [Stop at Rock 6,11].
   7. **Up** to (7, 3) [Stop at Rock 7,2].
   8. **Left** to (2, 3) [Stop at Wall 1,3].
   9. **Down** to (2, 5) [Stop at Rock 2,6].
