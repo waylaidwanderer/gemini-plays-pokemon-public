@@ -44,17 +44,11 @@
 - **Route:** `(13, 8)` -> `(14, 5)` -> `(9, 5)` -> `(9, 1)` -> `(17, 1)` -> `(17, 2)`.
 - **Plan:** Executing route to the Ladder.
 - **Current State:**
-    - **Location:** Goldenrod Dept. Store B1F (3_55).
-    - **Position:** `(9, 4)`.
-    - **Objective:** Exit Dept. Store and head to Radio Tower.
-    - **Inventory:** Obtained Card Key and Amulet Coin.
-- **Action (Turn 15115):** Attempting to use Elevator Panel at `(9, 3)`.
-    - Previous attempt at `(10, 3)` failed.
-- **Hypothesis:** The elevator controls are on the left side of the back wall.
-- **Plan:** Face Up and Press A. If successful, take Elevator to 1F.
-- **Transition (Turn 15116):** Successfully entered the Elevator (Map 11_17).
-- **Current Position:** `(1, 3)`.
-- **Action:** Navigate to the controls at `(3, 0)` (Stand at `(3, 1)`).
-- **Plan:** Select "1F" to exit the Department Store.
-- **Transition (Turn 15124):** Arrived at Goldenrod Dept. Store 1F `(2, 1)`.
-- **Plan:** Exit building via `(7, 7)` and head to Radio Tower.
+    - **Location:** Goldenrod City (11_2).
+    - **Position:** `(24, 28)` (Outside Dept. Store).
+    - **Objective:** Enter Radio Tower.
+    - **Inventory:** Card Key, Amulet Coin.
+- **Plan:**
+    1. Navigate North/West to Radio Tower `(5, 15)`.
+    2. Enter Radio Tower.
+    3. Proceed to 3F.
