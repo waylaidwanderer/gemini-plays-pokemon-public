@@ -2,7 +2,6 @@
 - **Current State:** At (11, 5).
 - **Goal:** Solve North Ice Room puzzle to reach (16, 8) Floor.
 - **Remaining Sequence:**
-  10. **Right** to (11, 5) [Stop at Rock 12,5].
   11. **Down** to (11, 8) [Stop at Rock 11,9].
   12. **Right** to (16, 8) [Exit to Floor].
 
