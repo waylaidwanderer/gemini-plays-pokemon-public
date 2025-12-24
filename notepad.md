@@ -2,24 +2,22 @@
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen).
 - Milestone 3: Route 42 (Seen on island).
-- Milestone 4: Route 36 (PENDING - Hallucination corrected).
-- Milestone 5: Tin Tower (PENDING - Clear Bell in inventory).
-- Status: Scripted Chase (Likely).
-- Conflict: Summary claims battle occurred, but Clear Bell is held and caught list is empty.
+- Milestone 4: Route 36 (PENDING). Goal: Find overworld sprite near Sudowoodo spot.
+- Milestone 5: Tin Tower (Final Encounter).
+- Status: Scripted Chase. (Clear Bell in inventory).
 
 # Strategy
-1. **Verify Pokedex:** Open Pokedex and check Suicune's AREA map.
-   - If 'Area Unknown': Still in scripted chase. Head to Route 36.
-   - If route shown: Roaming. Head to indicated route.
-2. **Route 36:** Navigate to the Sudowoodo spot on Route 36 to trigger the next sighting if needed.
-3. **Tin Tower:** Return here once Route 36 sighting is cleared to use the Clear Bell.
+1. **Exit Pokedex:** Press B to return to Ecruteak City overworld.
+2. **Route 36:** Navigate south through Route 37 to reach Route 36.
+3. **Trigger sighting:** Look for Suicune near the path to Violet City/Sudowoodo spot.
+4. **Tin Tower:** After Route 36 sighting, return to Tin Tower 1F to summon Suicune with the Clear Bell.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable with HM03 SURF.
 - TALL_GRASS: Traversable; triggers encounters.
-- LEDGE: One-way traversable.
+- LEDGE: One-way traversable (usually South).
 - WARP / DOOR / LADDER: Map transition.
 - COUNTER: Impassable. Interact from front.
 
