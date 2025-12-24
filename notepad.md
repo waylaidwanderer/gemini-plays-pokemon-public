@@ -1,8 +1,8 @@
 # Suicune Quest (Crystal)
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (Seen). Pokedex confirms completion.
-- Milestone 4: Route 36 (Current). Pokedex confirms location. Strategy: Check the area near the Sudowoodo spot/Ruins of Alph entrance.
+- Milestone 3: Route 42 (Seen).
+- Milestone 4: Route 36 (Current). Strategy: Try entering from different gates (West/South) to trigger sighting.
 - Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
 
 # Tile Mechanics (Global)
@@ -22,6 +22,7 @@
 - History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
 - Pokedex 'Area' tracks the current active overworld sighting location.
 - Sightings are triggered by specific tile-entry zones.
+- Rock Smash: Fisher at (44, 9) on Route 36 mentioned it's used to smash rocks in the way.
 
 # Items Received
 - Fire Stone: Route 36 (Alan).
