@@ -6,10 +6,11 @@
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable, requires Cut.
 - FRUIT_TREE: Impassable, gives items.
-- LEDGE_HOP: One-way movement.
+- LEDGE_HOP: One-way movement (usually South).
 - FLOOR_UP_WALL: One-way barrier (Southward).
 - WARP / DOOR / WARP_CARPET: Map transition.
 - COUNTER: Impassable. Interact with NPCs behind them by facing the counter tile and pressing A.
+- LEDGE: Impassable from below/sides, jumpable from above. One-way.
 
 # Suicune Quest (Crystal)
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
