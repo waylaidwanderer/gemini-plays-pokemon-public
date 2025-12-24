@@ -1,16 +1,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** At Start (13, 16). Preparing to test Row 18 ledges.
+- **Status:** At (8, 17). Testing ledge (8, 18).
 - **Critical Info:**
   - `(7, 18)` is confirmed IMPASSABLE.
-  - `(8, 18)` is UNTESTED (despite previous confusion).
-  - Gyarados is low HP (11). Must be careful.
+  - Gyarados is low HP (11). Machoke (Lv57) is backup.
 - **Plan:**
-  1. Walk to `(8, 17)`.
-  2. Test `(8, 18)` by pressing Down.
-  3. If it's a ledge, jump to Row 19/22 and head West.
-  4. If it's a wall, mark it and try `(9, 18)`.
-  5. If ALL Row 18 ledges fail, the "West Corridor" must be accessed via the **Ice Puzzle** -> **Sliding UP from (15, 17)** path (The "Box" hypothesis).
+  1. Test `(8, 18)` by pressing Down.
+  2. If it's a ledge, jump to Row 19 and head West.
+  3. If it's a wall, mark it and try `(9, 18)`.
+  4. If ALL Row 18 ledges fail, pivot to **Ice Puzzle -> Slide UP from (15, 17)**.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
