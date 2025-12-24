@@ -1,7 +1,7 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
 - **Immediate Task:** Heal Gyarados (Critical HP).
-- **Status:** In Bag, selecting Super Potion.
+- **Status:** Using Super Potion on Gyarados.
 - **Location:** Start Area (13, 16).
 
 # Planned Route (Post-Heal)
