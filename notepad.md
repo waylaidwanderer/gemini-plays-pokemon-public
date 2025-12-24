@@ -29,12 +29,9 @@
 # Game Mechanics
 - **Battle Menu Cursor Memory:** Cursor resets to Slot 1 at the start of a new battle. Within a battle, it remembers the last used move.
 - **Lore:** Wise Trio Dialogue: "Legend has it that [Suicune, Entei, Raikou] can't be seen while they sleep." They doubt my claim of seeing them at Burned Tower.
-- **Battle Log:** Defeated Sage Gaku (Noctowl, Flareon). Used Muscle (Dig).
 - **Lore:** Brass Tower (Burned Tower) awakened Pokémon. Tin Tower is where they rested. 150 years ago, lightning struck Brass Tower, fire raged for 3 days, put out by rain. Silver-colored Pokémon (Lugia) roosted there.
-- **Battle Log:** Defeated Sage Masa (Noctowl, Jolteon). Used Muscle (Dig).
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
-- **Battle Log:** Defeated Sage Koji (Noctowl, Vaporeon). Used Muscle (Strength, Cross Chop). Muscle grew to Lv 57.
-- **Encounter:** Battling Suicune (Lv 40). Status: HP Critical (Red), Def -2, Rain.
-- **Action:** Muscle Revived (93/187 HP). Exiting menus to let turn proceed.
-- **Prediction:** Suicune attacks Belladonna -> Faint -> Send out Muscle.
-- **Strategy:** Throw Great Balls. Muscle tanks.
+- **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
+- **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
+- **Action:** Exiting menus. Belladonna (Lv 5) active.
+- **Next:** Belladonna faints -> Send Muscle -> Throw Balls.
