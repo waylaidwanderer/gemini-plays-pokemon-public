@@ -13,6 +13,7 @@
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
 - Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681] [Attempt 1 - In Progress]
+- Plan: Surf to island north bank (24, 12), CUT tree at (24, 13), enter island center (24, 14).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
