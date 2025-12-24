@@ -3,17 +3,13 @@
 
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Resetting Ice Puzzle to try new path.
-- **Critical Discovery:** I missed sliding **UP** from (15, 17). This path likely leads to the North area and possibly the West side.
-- **Failed Paths:**
-  - South Ledges (Row 24) are blocked.
-  - West Row 17 is blocked.
-  - North-East Loop is a dead end.
+- **Status:** Heading to West Corridor.
+- **Realization:** The "Ice Puzzle" was a trap/side-path for items. The main path seems to be simply **walking West** from the start `(13, 16)` to the corridor at `x=0`.
 - **Plan:**
-  1. Escape current area to (13, 16).
-  2. Start Puzzle: (13, 17) -> Right to (15, 17).
-  3. Slide **UP** from (15, 17) into the unknown.
-- **Items:** Item Balls at (32, 23) and (35, 9).
+  1. Escape current spot: `(18, 23)` -> Up -> Left -> Up -> Left to `(13, 16)`.
+  2. Walk West to `(0, 16)`.
+  3. Walk North up the `x=0` corridor to explore the unseen North-West area.
+- **Items:** Item Balls at (32, 23) and (35, 9) (saved for later).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
