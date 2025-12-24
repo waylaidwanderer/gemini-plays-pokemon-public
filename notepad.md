@@ -57,3 +57,6 @@
 - Action: Talk to him immediately.
 - Center Sage (11,11) gave generic lore about Ho-Oh reviving the beasts. No update.
 - Checking Right Sage (14,6) to see if his dialogue has changed since the Wise Trio disappeared.
+- Right Sage (14,6) also gave generic lore ("The two TOWERS...").
+- Checking Left Sage (5,9) now.
+- Hypothesis: If ALL Sages give generic lore, I might need to check the Dance Theater (Kimono Girls) or the "Tower Shook" event requires a specific trigger I missed (maybe Eusine is elsewhere).
