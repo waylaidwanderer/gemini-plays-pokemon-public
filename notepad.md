@@ -36,5 +36,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (51/187 HP). Def -3.
 - **Risk:** Critical range. Need to Heal.
-- **Action:** Re-entering Pack (accidentally exited).
-- **Strategy:** Navigate to Items -> Super Potion -> Heal Muscle.
+- **Action:** Switching to Items Pocket (Pressing Left).
+- **Strategy:** Navigate to Super Potion -> Heal Muscle. Then resume throwing.
