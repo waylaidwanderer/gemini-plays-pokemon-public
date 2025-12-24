@@ -23,3 +23,5 @@
 - Location: Barrier Station (City Side).
 - Action: Interacting with Sage at (4,6).
 - Target: Find Eusine.
+- Sage at (4,6) says "Please, do go on." - Useless.
+- Plan: Check Sage at (5,10) and Gramps at (2,10).
