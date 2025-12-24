@@ -33,3 +33,5 @@
 - **Success (Turn 15094):** Bypassed the Grunt by taking the Eastern route (Row 5 -> Col 14 -> Row 8).
 - **Current Position:** `(14, 8)`.
 - **Immediate Goal:** Pick up Item Ball at `(13, 9)` and Rescue Director at `(12, 8)`.
+- **Action (Turn 15097):** Picked up TM35 (Sleep Talk) at `(13, 9)`.
+- **Next Step:** Talking to the Director at `(12, 8)`.
