@@ -38,7 +38,7 @@
 - Method: Battle wild Pokemon until level reached.
 - Note: Max wild level here is 26 (Weepinbell/Lickitung). Bellsprout/Weepinbell can use Grass/Poison moves which Gastly resists.
 
-## To-Do
+## Future Tasks
 - Confirm Suicune location via Pokedex Area search after training.
 - Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
