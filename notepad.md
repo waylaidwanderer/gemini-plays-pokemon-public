@@ -33,8 +33,7 @@
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Status:** Muscle active (59/187 HP). Def -3.
-- **Risk:** Non-crit Gust is safe (~17 HP left). Crit Gust is KO.
-- **Action:** Executing Throw (Great Ball Attempt 11).
-- **Strategy:** Throw Great Ball (3 left). Heal if < 45 HP.
+- **Battle Log:** Whited out to Suicune (Tin Tower). Muscle fainted to Crit Gust after 11 failed Great Ball attempts.
+- **Suicune Info:** Lv 40. Moves: Bubblebeam (Water), Gust (Flying, Phys), Leer, Rain Dance.
+- **Strategy Note:** Need status (Sleep/Paralysis) and maybe X Defends for next time. Gust hurts machoke.
+- **Current State:** Team fainted. At Ecruteak Pokemon Center.
