@@ -1,20 +1,16 @@
 # Ice Path Strategy
-- **Current State:** At South Hub (14, 21).
-- **Test Result:** `FLOOR_UP_WALL` at (14, 22) is IMPASSABLE from North. It is a Wall, not a Ledge.
-- **Conclusion:** West Corridor is not accessible via this route.
-- **Plan:** Return to Hub Entrance (13, 16) and explore North/East for the main path.
+- **Current State:** At Hub (14, 16).
+- **Goal:** Find path to West Corridor (x=0) or North Ice Area.
+- **Reachability Analysis:** System reports 383 reachable tiles, implying an exit from the Hub exists.
+- **Candidates:**
+  1. South Ledges (Row 18): `(7, 18)` to `(12, 18)`. One MUST be jumpable.
+  2. North Alcove (Row 15): `(9, 15)` to `(12, 15)`. Check for hidden path.
+- **Plan:** Test South Ledges systematically. If fail, check North.
 
 # Map Structure
-- **West Corridor (x=0):** Likely isolated from this Hub. Access probably via fall/ladder.
-- **Hub (y=16):** Central Safe Zone.
-- **South Loop:** Dead end (Exit only).
-- **East Ice Puzzle:** The likely path forward (North/East).
+- **West Corridor (x=0):** Connected to SW area (Row 22+).
+- **Hub:** Connecting point.
+- **South Loop:** Dead end.
 
-# Items
-- **Item Ball at (32, 23):** Access via East Ice Puzzle.
-- **Item Ball at (35, 9):** Access via NE area.
-
-# Mechanics & Lessons
-- **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles here are WALLS, not ledges.
-- **Dead Ends:** South Hub leads only to exits or walls. Go North.
+# Mechanics
+- **Ledges:** `FLOOR_UP_WALL` *should* be jumpable from North. Previous test at `(10, 18)` and `(14, 22)` failed. Retrying adjacent tiles.
