@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal)
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (Current). Pokedex confirms location.
+- Milestone 3: Route 42 (Current). Pokedex confirms location. Stagnated on island for 60+ turns; flying to Ecruteak to reset.
 - Milestone 4: Route 36 (Next).
 - Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
 - Requirement: Must see Suicune at all overworld locations before the Tin Tower battle. Sages require Raikou, Entei, and Suicune to be released.
