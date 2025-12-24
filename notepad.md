@@ -24,3 +24,5 @@
 - Plan: Check Burned Tower for Eusine.
 - Received phone call from Wade (Bug Catcher). Generic chatter about Caterpie growing fast.
 - Resuming path to Burned Tower to find Eusine.
+- Burned Tower 1F: Eusine NOT at entrance (9,14).
+- Plan: Checking center of room (9,9) and B1F Ladder (7,15).
