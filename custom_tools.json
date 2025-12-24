@@ -1,131 +1,4 @@
 {
-  "battle_grind": {
-    "description": "Selects a move from the battle move menu. Assumes the move menu is already open. Takes target move index and current cursor position.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "move_index": {
-          "type": "integer",
-          "description": "The 0-indexed position of the move to select (0-3)."
-        },
-        "current_index": {
-          "type": "integer",
-          "description": "The current 0-indexed position of the cursor (0-3). Defaults to 0."
-        }
-      },
-      "required": [
-        "move_index"
-      ]
-    },
-    "python_script": "import json\n\n# input_data is a dictionary automatically provided in the global scope\nmove_index = int(input_data.get('move_index', 0))\ncurrent_index = int(input_data.get('current_index', 0))\n\n# Calculate the shortest path in a wrapping menu of 4 items\ndiff = move_index - current_index\n\nbuttons = [\"sleep 1500\"]\n\n# Move the cursor\nif diff > 0:\n    for _ in range(diff):\n        buttons.extend([\"Down\", \"sleep 500\"])\nelif diff < 0:\n    for _ in range(-diff):\n        buttons.extend([\"Up\", \"sleep 500\"])\n\nbuttons.append(\"A\")\n\n# Wait for animation\nbuttons.append(\"sleep 4000\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T04:55:28.965Z",
-        "action_counter": 16351
-      },
-      {
-        "commit_message": "Fix battle_grind: add mandatory main function wrapper.",
-        "timestamp": "2025-12-24T04:59:12.693Z",
-        "action_counter": 16355
-      },
-      {
-        "commit_message": "Fix battle_grind: call the main function with input_data.",
-        "timestamp": "2025-12-24T05:03:06.090Z",
-        "action_counter": 16361
-      },
-      {
-        "commit_message": "Fix battle_grind: simplify script to avoid function scoping issues and ensure it always prints a valid JSON array.",
-        "timestamp": "2025-12-24T05:03:57.479Z",
-        "action_counter": 16362
-      },
-      {
-        "commit_message": "Fix battle_grind: properly wrap in main(input_data) and print JSON array.",
-        "timestamp": "2025-12-24T05:04:59.202Z",
-        "action_counter": 16363
-      },
-      {
-        "commit_message": "Simplify battle_grind script and remove main function wrapper to avoid scoping issues.",
-        "timestamp": "2025-12-24T05:06:02.927Z",
-        "action_counter": 16364
-      },
-      {
-        "commit_message": "Fix battle_grind: properly wrap in main(input_data), reset cursor to top, and print JSON array.",
-        "timestamp": "2025-12-24T05:06:55.258Z",
-        "action_counter": 16365
-      },
-      {
-        "commit_message": "Refine battle_grind: Remove 'Up' presses to avoid wrapping issues; assume menu starts at top move.",
-        "timestamp": "2025-12-24T05:07:44.703Z",
-        "action_counter": 16366
-      },
-      {
-        "commit_message": "Simplify battle_grind script: remove main function to avoid scoping issues.",
-        "timestamp": "2025-12-24T05:11:39.789Z",
-        "action_counter": 16369
-      },
-      {
-        "commit_message": "Fix battle_grind: Ensure input_data is correctly handled and script prints valid JSON.",
-        "timestamp": "2025-12-24T05:13:02.293Z",
-        "action_counter": 16370
-      },
-      {
-        "commit_message": "Refine battle_grind: Add initial sleep to allow move menu animation to complete.",
-        "timestamp": "2025-12-24T05:22:48.271Z",
-        "action_counter": 16377
-      },
-      {
-        "commit_message": "Fix battle_grind: Ensure script prints valid JSON and handles input_data correctly. Added move menu reset.",
-        "timestamp": "2025-12-24T05:27:27.269Z",
-        "action_counter": 16381
-      },
-      {
-        "commit_message": "Fix battle_grind: Add initial sleep and robust reset sequence.",
-        "timestamp": "2025-12-24T05:30:05.050Z",
-        "action_counter": 16383
-      },
-      {
-        "commit_message": "Simplify battle_grind: Remove unreliable reset sequence; assume menu starts at move 0.",
-        "timestamp": "2025-12-24T05:33:28.112Z",
-        "action_counter": 16385
-      },
-      {
-        "commit_message": "Refine battle_grind: Increase initial sleep to 1000ms for more reliable move selection.",
-        "timestamp": "2025-12-24T05:37:33.701Z",
-        "action_counter": 16392
-      },
-      {
-        "commit_message": "Refine battle_grind: Increase sleeps and add robust move selection.",
-        "timestamp": "2025-12-24T05:39:13.371Z",
-        "action_counter": 16393
-      },
-      {
-        "commit_message": "Refine battle_grind: Increase sleeps significantly and add move menu reset to ensure reliability.",
-        "timestamp": "2025-12-24T05:41:16.549Z",
-        "action_counter": 16394
-      },
-      {
-        "commit_message": "Increased timing between cursor moves and buffer B-spam to improve reliability in battle menus. Added comments to explain Gen 2 move menu behavior.",
-        "timestamp": "2025-12-24T06:27:57.937Z",
-        "action_counter": 16441
-      },
-      {
-        "commit_message": "Fixed battle_grind to use the 'input_data' variable directly, as it is automatically provided in the global scope for custom tools.",
-        "timestamp": "2025-12-24T06:37:02.747Z",
-        "action_counter": 16463
-      },
-      {
-        "commit_message": "Removed B-spam from battle_grind to prevent accidentally skipping move-learning prompts during level-ups.",
-        "timestamp": "2025-12-24T07:01:38.986Z",
-        "action_counter": 16485
-      },
-      {
-        "commit_message": "Updated battle_grind to use relative movement from a known current index, making move selection more reliable by accounting for menu wrapping.",
-        "timestamp": "2025-12-24T07:04:04.799Z",
-        "action_counter": 16488
-      }
-    ]
-  },
   "find_path_v2": {
     "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Returns a list of button strings.",
     "input_schema": {
@@ -418,6 +291,21 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-24T11:42:51.849Z",
         "action_counter": 17071
+      }
+    ]
+  },
+  "list_reachable_unseen_tiles": {
+    "description": "Analyzes the mental map to find all unseen tiles that are directly adjacent to currently reachable walkable tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_obj = tile.find('Object') is not None\n            grid[(x, y)] = (t_type, seen, has_obj)\n\n    def is_passable(x, y):\n        if (x, y) not in grid: return False\n        t_type, seen, has_obj = grid[(nx, ny)]\n        if not seen: return False\n        return t_type in ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN'] and not has_obj\n\n    player_tile = root.find(\".//Tile[@has-player='true']\")\n    if player_tile is None: return\n    \n    start_x = int(player_tile.get('id'))\n    start_y = int(player_tile.find('..').get('id'))\n    \n    queue = collections.deque([(start_x, start_y)])\n    visited = {(start_x, start_y)}\n    reachable_unseen = set()\n    \n    while queue: \n        x, y = queue.popleft()\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                _, seen, _ = grid[(nx, ny)]\n                if not seen: reachable_unseen.add((nx, ny))\n                elif is_passable(nx, ny) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n    print(f'Reachable Unseen Tiles: {sorted(list(reachable_unseen))}')\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T12:31:03.855Z",
+        "action_counter": 17141
       }
     ]
   }
