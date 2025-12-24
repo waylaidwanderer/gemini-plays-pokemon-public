@@ -31,8 +31,9 @@
   - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
   - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
 
-## Strategy for XENON Training (Turn 16309)
+## Strategy for XENON Training
 - Goal: Reach Lv27.
+- Start Turn: 16309.
 - Location: Route 44 tall grass island.
 - Method: Battle wild Pokemon until level reached.
 - Note: Max wild level here is 26 (Weepinbell/Lickitung). Bellsprout/Weepinbell can use Grass/Poison moves which Gastly resists.
@@ -45,6 +46,3 @@
 
 ## Reminders
 - Fisher Tully (Route 42, 40, 10) has an item for me. (Turn 16158)
-- Suicune Location (Turn 16301): Route 42 (Historical, likely moved).
-- Plan: Exit Pokecenter -> Route 44 -> Train XENON to Lv27.
-- Strategy: Use Repel Trick on Route 44 once XENON is Lv27.
