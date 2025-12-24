@@ -54,3 +54,6 @@
 - **Plan:** Return to the warp at (10,2) and inspect it. If that fails, check the Left Sage again.
 - **Hypothesis Update:** The warp at (10,2) likely leads to 2F, allowing access to the center of 1F via a drop or stairs.
 - **Action:** Inspecting (10,2) and re-entering it to trigger the warp.
+- **Correction:** There are THREE Sages. I missed the one at (11,11).
+- **Plan:** Navigate to (11,11) to speak to the third Sage.
+- **Hypothesis:** Speaking to (or battling) all three Sages is the key.
