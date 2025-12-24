@@ -12,9 +12,9 @@
     4. The Wise Trio moved to a location I missed (e.g., outside on the trail, or hidden in the tower).
 
 # Current Mission
-- **Goal:** Locate Suicune or the Wise Trio.
-- **Immediate Action:** Finish Dance Theater check. Then check Route 42 (Suicune spot) or Cianwood to see if it reset.
-- **Reasoning:** Sages are missing. I need to find where the game put Suicune after a loss.
+- **Goal:** Route 42 / Blackthorn City.
+- **Immediate Action:** Go to Ecruteak PC to withdraw Cut user.
+- **Reasoning:** Need Cut to access Route 42 Suicune spot. Dance Theater was a dead end.
 
 # Tile Mechanics
 - **FLOOR:** Standard walkable tile.
