@@ -25,3 +25,6 @@
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
 - **Dialogue:** Sage at Barrier Station: Initially asked to leave, then heard Clear Bell. Said "You may be able to make it through TIN TOWER. Please, do go on."
 - **Dialogue:** Wise Trio: Suicune has arrived at Tin Tower. They will test my worthiness.
+
+# Game Mechanics
+- **Battle Menu Cursor Memory:** The move selection cursor remembers the last used move. When using `smart_battle_move`, `current_slot` must be set to the slot of the move used in the previous turn.
