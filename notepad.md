@@ -2,8 +2,8 @@
 
 ## Current Status
 - **Location:** Radio Tower 3F (3_19).
-- **Objective:** Use Card Key at (14, 2).
-- **Current Task:** Bypass NPC and open shutters.
+- **Objective:** Reach 4F via the unlocked stairs at (17, 0).
+- **Current Task:** Defeat Rocket Grunt blocking the path and ascend.
 
 ## Warehouse Discoveries
 - **Layout:** Western corridor leads to a southern corridor. Central area is walled off. Access to center/north is via a gap at (16, 11).
