@@ -23,11 +23,12 @@
 - FLOOR_UP_WALL: One-way wall; jumpable from North to South.
 
 # Failed Hypotheses
-- Suicune Sighting (Route 42): Initial island sweep (X=24-30, Y=14-17) failed (Turns 17968, 17985). Re-evaluating trigger conditions (e.g., must enter from specific direction or after map reload).
+- Suicune Sighting (Route 42): Initial island sweep (X=24-30, Y=14-17) failed (Turns 17968, 17985).
+- Hypothesis: Sighting triggers in the northern corridor or western pocket.
 
 # Discoveries
-- Suicune is NOT at the Apricorn trees (28, 16) on Route 42 as of Turn 17968.
-- Northern Corridor: Path at (30, 6) leads North to Row 4. Corridor extends from X=30 to X=59.
+- Suicune is NOT at the Apricorn trees (28, 16) as of Turn 17968.
+- Northern Corridor: Reachable via surfing North from (32, 8) and landing at (30, 6) or (32, 4).
 - Western Pocket: Near Mt. Mortar west entrance (10, 5). Tiles at (7, 1)-(15, 2).
 
 # PC Storage (Box 1)
