@@ -43,3 +43,5 @@
 - **Goal:** Reach Main Ecruteak City to access Barrier Station Main Entrance.
 - **Path:** Ladder at (1,4) -> Barrier Station (17,3).
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
+- **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
+- **Plan:** Take the ladder at (17,15).
