@@ -6,15 +6,15 @@
 - HEADBUTT_TREE: Impassable. Interacts with Headbutt move. (Verified)
 - CUT_TREE: Impassable. Requires Cut move to clear. Regrows on map reload. (Verified)
 - FRUIT_TREE: Impassable. Interacts with A button to provide items once per day. (Verified)
-- LEDGE_HOP_LEFT: One-way ledge (East to West). (Verified)
+- LEDGE_HOP_LEFT/RIGHT/UP/DOWN: One-way movement. (Verified)
 - FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. (Verified)
 - WARP / CAVE / WARP_CARPET: Map transition points. (Verified)
 
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Goal: Locate Suicune on Route 42 or Tin Tower.
-- Strategy: Approach Route 42 island from Ecruteak City side. If no encounter, proceed to Tin Tower (Ecruteak City).
+- Goal: Locate Suicune at Tin Tower.
+- Strategy: Sage at (4, 6) in Ecruteak building (4_1) granted permission. Suicune encounter should trigger at Tin Tower.
 - Key Item: Clear Bell (Held).
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
 
@@ -39,15 +39,16 @@
 - Pokedex Hallucination: Be cautious of interpreting the Pokedex AREA map; it does not provide coordinate-level data or 'Nest' markers. (Turn 17041)
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
 
-# Turn Correction
-- Turn 17047: Synchronized turn count with Game State Information. Previous reported turns were significantly behind.
-
 # Route 42 Exploration Status
 - Checked eastern lake island (24, 13) - (30, 15): No Suicune.
 - Checked middle lake island (16, 10) - (17, 11): No Suicune (confirmed by screen observation).
-- Goal: Reach Ecruteak City. Suicune likely at Tin Tower.
 
 # Tin Tower Progress
 - Sage at (4, 6) granted permission: "Please, do go on."
 - Path to Tin Tower is now open.
-- Currently in Wise Trio Room (4_2). Heading to Route 42 to find Suicune.
+
+# Type Effectiveness (Verified)
+- (None documented yet)
+
+# Observed Movesets
+- GOLDEEN (Lv20): (No moves seen)
