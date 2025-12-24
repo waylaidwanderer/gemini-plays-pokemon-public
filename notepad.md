@@ -1,6 +1,5 @@
 # Ice Path Strategy
-- **Current State:** At (29, 12).
-- **Discovery:** The East Corridor connects to the Center/North via a path at Row 12/14.
+- **Current State:** At (28, 12).
 - **Route to North Ice Room:**
   1. Go **West** to (27, 12).
   2. Go **South** to (27, 14).
