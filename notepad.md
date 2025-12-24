@@ -11,11 +11,10 @@
 - WARP: Map transition.
 
 # Suicune Quest (Crystal)
-- Objective: Capture Suicune at Tin Tower 1F.
+- Objective: Trigger final sighting on Route 36.
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
-- Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
-- Trigger Hypothesis: Approach intersection near National Park entrance (18, 9) or Sudowoodo spot (35, 9) from the North or East.
-- Status: At (40, 9). Approaching intersection (35, 9) from the East to trigger sighting. Starting Turn 17159.
+- Current Step: Approach intersection near Sudowoodo spot (35, 9) from the North or East.
+- Status: At (26, 0). Sighting not triggered from West or East approach. Plan to approach from the North (Route 37).
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
