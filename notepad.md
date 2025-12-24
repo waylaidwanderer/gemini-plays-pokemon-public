@@ -11,66 +11,8 @@
 - Pokedex 'Area' confirms the next overworld sighting location.
 
 ## Suicune Trigger Hypothesis Testing (Route 42)
-- Hypothesis 1: Standing at (28, 17) facing Up triggers the scene.
-- Test: Move to (28, 17), face Up. [Turn 17613]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 2: Interacting with the middle fruit tree at (28, 16) triggers the scene.
-- Test: Face (28, 16) and press A. [Turn 17614]
-- Conclusion: Denied (Fruit tree interaction only).
-- Hypothesis 3: Walking onto (27, 15) triggers the scene.
-- Test: Move to (27, 15). [Turn 17615]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 4: Walking onto (28, 15) triggers the scene.
-- Test: Move to (28, 15). [Turn 17616]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 5: Walking onto (29, 15) triggers the scene.
-- Test: Move to (29, 15). [Turn 17617]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 6: Walking onto (30, 15) triggers the scene.
-- Test: Move to (30, 15). [Turn 17618]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 7: Walking onto (30, 16) triggers the scene.
-- Test: Move to (30, 16). [Turn 17623]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 8: Walking onto (30, 17) triggers the scene.
-- Test: Move to (30, 17). [Turn 17624]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 9: Walking onto (29, 17) triggers the scene.
-- Test: Move to (29, 17). [Turn 17625]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 10: Walking onto (27, 17) triggers the scene.
-- Test: Move to (27, 17). [Turn 17626]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 11: Walking onto (26, 17) triggers the scene.
-- Test: Move to (26, 17). [Turn 17627]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 12: Walking onto (26, 16) triggers the scene.
-- Test: Move to (26, 16). [Turn 17628]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 13: Walking onto (26, 15) triggers the scene.
-- Test: Move to (26, 15). [Turn 17629]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 14: Walking onto (25, 15) triggers the scene.
-- Test: Move to (25, 15). [Turn 17630]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 15: Walking onto (25, 14) triggers the scene.
-- Test: Move to (25, 14). [Turn 17631]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 16: Checking Pokedex 'AREA' will confirm Suicune is still on Route 42.
-- Test: Open Pokedex, check Suicune's Area. [Turn 17632]
-- Conclusion: Confirmed (Suicune is still on Route 42).
-- Hypothesis 17: Walking onto (26, 14) triggers the scene.
-- Test: Move to (26, 14). [Turn 17636]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 18: Walking onto (27, 14) triggers the scene.
-- Test: Move to (27, 14). [Turn 17637]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 19: Walking onto (24, 14) triggers the scene.
-- Test: Move to (24, 14). [Turn 17638]
-- Conclusion: Denied (No scene triggered).
-- Hypothesis 20: Interacting with the fruit tree at (27, 16) triggers the scene.
-- Test: Face (27, 16) and press A. [Turn 17639]
-- Conclusion: Pending.
+- Tested 20 tiles around the fruit trees at (27, 16)-(29, 16) with no trigger. Hypotheses 1-20 failed. [Turn 17641]
+- Strategic Pivot: Explore the rest of Route 42 (North/South paths) to find Suicune, as it is not on the island center. [Turn 17641]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable collision type.
