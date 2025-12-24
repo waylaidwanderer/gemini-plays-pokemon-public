@@ -1,11 +1,11 @@
 # Suicune Quest (Crystal) - FIXED SIGHTINGS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress). Pokedex shows Suicune here.
 
-## Strategy for Route 42 Sighting:
+## Strategy/Hypotheses:
 - Hypothesis: Suicune is in the hidden pocket reachable only through the western Mt. Mortar entrance.
 - Test 1: Navigate through Mt. Mortar (10, 5) to see if it exits into the Western Pocket (Route 42, Rows 1-2, X=7-11).
+- Note: Multiple exhaustive sweeps of the island center (X=24-30, Y=14-17) failed to trigger Suicune.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -35,9 +35,8 @@
 - Clear Bell: Obtained.
 
 # General Lessons
-- Island Sighting: Multiple exhaustive sweeps of the island center (X=24-30, Y=14-17) failed to trigger Suicune. Do not waste more turns here unless a new lead appears.
 - Route 42 Navigation: The island center is accessible via (24, 13) after using CUT. To get off, use the same path.
-- Suicune Tracking: The Pokedex AREA map is the most reliable source for Suicune's current route.
+- Suicune Tracking: If the Pokedex AREA map shows a location, Suicune is likely roaming. If it shows no location but is known to be on the route, it is a scripted stationary encounter.
 
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
