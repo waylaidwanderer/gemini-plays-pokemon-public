@@ -34,3 +34,6 @@
 - **Barrier Station:** Wise Trio Room empty. Ladder logic verified.
 - **Tin Tower:** 1F Sages generic. Warp inactive.
 - **Dance Theater:** Investigating "Surf/Dance" clue (likely flavor).
+- **Turn 16157:** Started Suicune search on Route 42.
+- **Contingency:** If Suicune is not at Route 42 grove, check Pokedex Area location immediately.
+- **Note:** Wade called. Just flavor text, but distracted me.
