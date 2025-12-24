@@ -12,9 +12,9 @@
 
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
-- Sightings: Burned Tower (fled), Cianwood City (fled).
-- Goal: Locate Suicune at Tin Tower.
-- Strategy: Sage at (4, 6) in Ecruteak building (4_1) granted permission. Suicune encounter should trigger at Tin Tower.
+- Sightings: Burned Tower (fled), Cianwood City (fled), Route 42 (fled - Flagged by Sage permission).
+- Goal: Capture/Defeat Suicune at Tin Tower.
+- Strategy: Sage at (4, 6) in Ecruteak building (4_1) granted permission. Suicune encounter is active at Tin Tower 1F.
 - Key Item: Clear Bell (Held).
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
 
@@ -35,17 +35,12 @@
 - Blarney (SUDOWOODO): Lv20, Male.
 
 # General Lessons
-- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
-- Pokedex Hallucination: Be cautious of interpreting the Pokedex AREA map; it does not provide coordinate-level data or 'Nest' markers. (Turn 17041)
+- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Chasing 'Area' in Pokedex is unnecessary once the Sage grants permission.
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
-
-# Route 42 Exploration Status
-- Checked eastern lake island (24, 13) - (30, 15): No Suicune.
-- Checked middle lake island (16, 10) - (17, 11): No Suicune (confirmed by screen observation).
 
 # Tin Tower Progress
 - Sage at (4, 6) granted permission: "Please, do go on."
-- Path to Tin Tower is now open.
+- Path to Tin Tower is now open. Heading to ladder in Wise Trio Room (4_2).
 
 # Type Effectiveness (Verified)
 - (None documented yet)
