@@ -14,10 +14,12 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan
+## Master Plan (Corrected)
 1.  **Navigate Around to (9, 1):**
-    - Go South to Row 16 -> West to Column 6 -> North to Row 1 -> East to (9, 1).
+    - Path: (11, 6) -> (11, 16) -> (6, 16) -> (6, 1) -> (9, 1).
+    - Note: (10, 0) and (11, 0) are FLOORS. This allows pushing down.
 2.  **Finish B1:**
     - Push Right to (11, 1).
-    - Go to (11, 0). Push Down into Pit (11, 2).
+    - Move to (11, 0) (via 10, 0).
+    - Push Down into Pit (11, 2).
 3.  **Next:** Solve B2.
