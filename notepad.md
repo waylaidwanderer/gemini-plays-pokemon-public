@@ -2,9 +2,9 @@
 - FLOOR: Standard traversable tile.
 - WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable collision.
 - WATER: Requires Surf (HM03) to traverse. Interact with water edge or use from menu.
-- CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded (e.g., entering/exiting Mount Mortar).
-- LEDGE: One-way jump (usually South). Cannot be jumped from below. Verified by attempting to walk North onto ledge tiles.
-- FLOOR_UP_WALL: One-way barrier. Cannot be entered from below. Verified at (50, 14) on Route 42.
+- CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded.
+- LEDGE: One-way jump (usually South). Cannot be jumped from below.
+- FLOOR_UP_WALL: One-way barrier. Cannot be entered from below (blocks Northward movement). Verified at (50, 14) on Route 42.
 - TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12) on Route 42.
 - CAVE: Warp tile leading to internal maps. Verified at (10, 5) on Route 42.
 - WARP_CARPET_LEFT / WARP_CARPET_RIGHT: Map transition tiles. Verified at (0, 8) and (60, 7) on Route 42.
@@ -18,8 +18,8 @@
 
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
-- Status: Roaming (Confirmed via Pokedex dot and Tin Tower event history).
-- Suicune: Last confirmed on Route 42 (Turn 16055). Status: Moved from Route 44.
+- Status: Roaming.
+- Suicune: Last confirmed on Route 42 (Turn 16055).
 - Raikou: Last confirmed on Route 42 (Turn 15889).
 - Lead: XENON (Gastly, Lv18) - Speed: 36.
 - Strategy: Repel Trick in tall grass.
@@ -35,7 +35,7 @@
 ## Region Map IDs (Johto)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
 - Route 42: 2_5, Route 44: 2_6, Mahogany Town: 2_7, Route 40: 2_8
-- Route 41: 2_9, Cianwood City: 2_10, Lake of Rage: 2_11, Route 43: 2_24 (Estimate)
+- Route 41: 2_9, Cianwood City: 2_10, Lake of Rage: 2_11
 - Blackthorn City: 2_13, Route 45: 2_14, Route 46: 2_15, Silver Cave: 2_16
 - Route 29: 1_2, Route 30: 1_4, Route 31: 1_5, Violet City: 1_6
 - Route 32: 1_7, Route 33: 1_9, Azalea Town: 1_10, Route 34: 1_12
