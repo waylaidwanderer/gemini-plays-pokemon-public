@@ -4,7 +4,8 @@
 - TALL_GRASS: Traversable. Triggers wild encounters. (Verified)
 - WATER: Impassable without Surf. Traversable with Surf. (Verified)
 - HEADBUTT_TREE: Impassable. Interacts with Headbutt move. (Verified)
-- CUT_TREE: Impassable. Requires Cut move to clear. (Verified)
+- CUT_TREE: Impassable. Requires Cut move to clear. Regrows on map reload. (Verified)
+- FRUIT_TREE: Impassable. Interacts with A button to provide items once per day. (Verified)
 - LEDGE_HOP_LEFT: One-way ledge (East to West). (Verified)
 - FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. (Verified)
 - WARP / CAVE / WARP_CARPET: Map transition points. (Verified)
@@ -16,6 +17,9 @@
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
 - Next Target: Route 42 (Middle area near Apricorn trees).
+- Trigger: Walking to a specific tile on the middle island.
+- Failed Hypotheses:
+  - Interaction with Apricorn trees triggers encounter. (1 attempt)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -43,16 +47,8 @@
 # Task History
 - Scripted Suicune Hunt: Started Turn 16921. Pivot from roamer strategy.
 
-# Progress Update (Turn 16940)
-- Successfully used Surf on Route 42. Moving towards the middle island for the Suicune encounter.
-
-# Progress Update (Turn 16944)
-- Positioned at (24, 12), facing the Cut tree at (24, 13). Initiating Cut to access the southern island area for the Suicune encounter.
-
-# Progress Update (Turn 16947)
-- Reached the middle island of Route 42 at (28, 15).
-- Apricorn trees are at (27, 16), (28, 16), and (29, 16).
-- Suicune is not currently visible on screen.
-- Strategy: Check Pokedex for Suicune's current location and interact with the Fruit Trees to see if it triggers an event.
-- Failed Attempt 1: Reached (28, 15), Suicune not visible.
-- Hypothesis: Suicune might appear after interacting with the trees or moving to a specific tile on the island.
+# Progress Update (Turn 16951)
+- Reached the middle island of Route 42.
+- Collected Apricorns from the trees.
+- Suicune not yet triggered.
+- Strategy: Explore the remaining reachable tiles on the island to find the trigger tile.
