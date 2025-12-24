@@ -6,8 +6,8 @@
 
 # Current Objectives
 - **Location:** Ecruteak City.
-- **Immediate:** Heal at Pokémon Center.
-- **Next:** Stock up on items, then investigate Tin Tower.
+- **Immediate:** Buy supplies at Poke Mart.
+- **Next:** Investigate Tin Tower (North).
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
