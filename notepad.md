@@ -41,18 +41,25 @@
 # Suicune Event Status
 - Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing.
 - Exited Tin Tower 1F. Eusine is NOT outside.
-- Team is fully healed (from whiteout).
-- Goal: Find Eusine or determine Suicune's state.
+- Tin Tower 1F Warp (10,2) inactive. Wall (10,4) solid.
+- Goal: Find Eusine to progress state.
 
-# Plan
-1. Go to Barrier Station (Wise Trio Room) to check for Eusine/Sages.
-2. If empty, check Pokedex for Suicune's Area (Roaming check).
-3. If not roaming, consider Burned Tower or E4.
+# Current Plan
+1. Return to Barrier Station via Back Entrance (20,3).
+2. Check Wise Trio Room (Map 4_2) and Main Hall (Map 4_1) for Eusine/Sages.
+3. If Eusine missing, exit to Ecruteak City (18,11).
+4. Check Pokedex for Suicune (Roaming?).
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
 - Center Sage (Tin Tower 1F): Lore about Ho-Oh reviving the beasts.
 - Left Sage (Tin Tower 1F): Lore about Rainbow Pokemon descending when souls commune.
+
+# Tile Mechanics (Verified)
+- **FLOOR:** Walkable.
+- **WALL:** Impassable.
+- **LADDER:** Warp to another floor.
+- **WARP:** Teleport tile.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
