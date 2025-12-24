@@ -34,3 +34,6 @@
 ## Reminders
 - Fisher Tully (Route 42, 40, 10) has an item for me. (Turn 16158)
 - Test find_path_v2 again to ensure fix is robust.
+- Suicune Location (Turn 16301): Route 42.
+- Plan: Exit Pokecenter -> Route 44 -> Train XENON to Lv27.
+- Strategy: Use Repel Trick on Route 44 once XENON is Lv27.
