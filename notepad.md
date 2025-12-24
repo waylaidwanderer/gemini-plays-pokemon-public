@@ -49,3 +49,6 @@
 - **Plan:** Talk to the Sage at (14,6).
 - **Lore Update:** Sage at (5,9) discusses the legend of the Rainbow Pokémon (Ho-Oh) testing humans. He did not move or battle.
 - **Plan Update:** Heading to talk to the Sage at (14,6). Re-testing warp at (10,2) on the way.
+- **Lore Update:** Sage at (14,6) spoke about the two towers fostering friendship 700 years ago.
+- **Hypothesis:** Talking to both Sages might have unlocked the path or the warp.
+- **Plan:** Return to the warp at (10,2) and inspect it. If that fails, check the Left Sage again.
