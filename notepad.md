@@ -52,3 +52,6 @@
 
 # Exploration Targets
 - Explore unseen tiles on Route 44 (e.g., (51, 12), (33, 15), (24, 17)).
+
+# Item Indices (Bag - Items Pocket)
+- Super Repel: Index 12.
