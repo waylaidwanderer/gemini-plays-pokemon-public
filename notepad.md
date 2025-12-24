@@ -58,6 +58,9 @@
 - Conclusion: Denied (No scene triggered).
 - Hypothesis 16: Checking Pokedex 'AREA' will confirm Suicune is still on Route 42.
 - Test: Open Pokedex, check Suicune's Area. [Turn 17632]
+- Conclusion: Confirmed (Suicune is still on Route 42).
+- Hypothesis 17: Walking onto (26, 14) triggers the scene.
+- Test: Move to (26, 14). [Turn 17634]
 - Conclusion: Pending.
 
 # Tile Mechanics (Global)
