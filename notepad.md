@@ -1,11 +1,15 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** At (8, 17). Confirmed (8, 18) is a wall.
+- **Status:** Moving to East Corridor.
+- **Ledge Conclusion:** All tested Row 18 ledges are solid walls. Direct South-West access is impossible.
+- **The Path:** The "East Corridor" is the only way forward.
 - **Plan:**
-  1. Move to (9, 17).
-  2. Test `(9, 18)` by pressing Down.
-  3. Continue testing ledges (10, 18) through (12, 18) if necessary.
-  4. If ALL fail, I am missing a fundamental path (possibly hidden ladder or North-West access).
+  1. Go to (13, 17).
+  2. **Ice Puzzle:** Right -> Down -> Right -> Down -> Right.
+     - Target: Safe Floor at (20, 23).
+  3. **Navigate:** (20, 23) -> East/North to (30, 12).
+  4. **Exploration:** Go South down East Corridor (x=30) to reach the deep South-East area (Row 27).
+  5. **Goal:** From Row 27, go West to find the West Corridor (x=0) and head North.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
