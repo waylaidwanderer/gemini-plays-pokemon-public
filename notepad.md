@@ -24,7 +24,12 @@
 - Lead: XENON (Gastly, Lv18).
 - Location: Route 42 Grass (50, 12).
 - Status: Suicune confirmed on Route 42 (Turn 15858).
-- Super Repel: Active (Turn 15839).
+- Super Repel: Active (Turn 15883).
+
+## Route 42 (2_5) Connections (Verified via get_map_connections)
+- West: Ecruteak City (2_4)
+- East: Mahogany Town (2_6)
+- North: Mt. Mortar (3_1)
 - Step 1: Pace in grass at (50, 12) <-> (51, 12) using wild_encounter_looper.
 - Step 2: Turn 1 of battle: MEAN LOOK.
 
