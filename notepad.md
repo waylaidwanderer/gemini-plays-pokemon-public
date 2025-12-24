@@ -24,3 +24,5 @@
 - **Current Action:** Positioning to talk to Wandering Sage (currently at 7,10).
 - **Plan:** Talk to Wandering Sage and Wandering Gramps to gather info/confirm reset.
 - **Next:** Return to Tin Tower 1F and check (9,9) for Suicune again.
+- **Action:** Stunned Wandering Sage (ID 3) at (7,9) to ensure interaction.
+- **Goal:** Talk to him to check for Suicune clues.
