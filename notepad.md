@@ -15,8 +15,8 @@
 - **Shortcut Plan:**
   1. Slide **Left** from `(19, 21)` to `(14, 21)` (Wall at `13, 21`). [DONE]
   2. Slide **Up** from `(14, 21)`. [DONE]
-  3. Stop at `(14, 16)` (Wall at `14, 15` Confirmed). [NEXT]
-  4. Step **Left** to `(13, 16)` -> Walk West -> Jump Ledges South.
+  3. Stop at `(14, 16)` (Wall at `14, 15` Confirmed). [DONE]
+  4. Step **Left** to `(13, 16)` -> Walk West -> Jump Ledges South. [NEXT]
 - **Items:** Item Balls at `(32, 23)`, `(35, 9)` [Inaccessible].
 
 # Mechanics & Lessons
