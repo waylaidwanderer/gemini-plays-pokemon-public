@@ -1,16 +1,16 @@
 # Tile Mechanics (Global)
-- FLOOR: Standard ground. Traversable in all directions. Verified by walking.
-- WALL: Solid obstacle. Impassable. Verified by walking into it.
-- TALL_GRASS: Traversable. Triggers wild encounters. Verified by walking and encountering Pokémon.
-- WATER: Impassable without Surf. Traversable with Surf. Verified by attempting to walk onto it.
-- HEADBUTT_TREE: Impassable. Interacts with Headbutt. Verified by walking into it.
-- CUT_TREE: Small tree. Impassable. Requires Cut to clear. Verified by walking into it.
-- LEDGE_HOP_LEFT: One-way ledge (West). Verified by hopping over it.
-- FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. Verified by attempting to walk North into it.
-- WARP / CAVE / WARP_CARPET: Map transition points. Verified by usage.
+- FLOOR: This tile can be traversed in all directions. Verified by walking.
+- WALL: This tile is impassable. Solid obstacle. Verified by walking into it.
+- TALL_GRASS: This tile can be traversed. Triggers wild encounters. Verified by walking and encountering Pokémon.
+- WATER: This tile is impassable without Surf. It can be traversed with Surf. Verified by attempting to walk onto it.
+- HEADBUTT_TREE: This tile is impassable. It interacts with the Headbutt move. Verified by walking into it.
+- CUT_TREE: This tile is impassable. It requires the Cut move to clear. Verified by walking into it.
+- LEDGE_HOP_LEFT: This tile can only be traversed by hopping over it from East to West. It is a one-way ledge. Verified by hopping over it.
+- FLOOR_UP_WALL: This tile is a one-way barrier (Southward). It can be passed from North to South, but is impassable from the South. Verified by attempting to walk North into it.
+- WARP / CAVE / WARP_CARPET: These tiles are map transition points. They can be traversed to move between different maps. Verified by usage.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16778. Steps taken: 190. Steps remaining: 10.
+- Super Repel: Wore off Turn 16817. (Previous activation: Turn 16778)
 
 # Lessons Learned
 - Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
