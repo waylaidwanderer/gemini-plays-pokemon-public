@@ -31,3 +31,4 @@
 - **Team Change:** Swapped Belladonna for Lucid (Drowzee Lv 13). Team is full (6/6).
 - **Shopping:** Budget ¥12952. Buying 21 Great Balls (¥12600).
 - **Next:** Exit Center -> Mart -> Train Lucid/Lapis on Route 37/38?
+- **Tactics:** Equip Quick Claw to Lucid (Drowzee). This gives a chance to move first and land Hypnosis before Suicune attacks!
