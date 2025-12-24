@@ -35,7 +35,7 @@
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-## Battle Log (Turn 16210)
+## Battle Log (Turn 16211)
 - Opponent: Poliwag (Lv22, SLP).
 - Strategy: Use LICK while asleep. Re-apply HYPNOSIS if it wakes up.
 - To-Do: Test FLOOR_UP_WALL at (50, 14) after battle. Refine find_path_v2.
