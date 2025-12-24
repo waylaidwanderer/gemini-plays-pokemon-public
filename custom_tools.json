@@ -344,7 +344,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        input_data = json.loads(sys.argv[1])\n    except (IndexError, json.JSONDecodeError):\n        input_data = {}\n\n    cycles = input_data.get('cycles', 1)\n    try:\n        cycles = int(cycles)\n    except:\n        cycles = 1\n    \n    cycles = max(1, min(cycles, 5))\n    direction = input_data.get('direction', 'horizontal')\n\n    buttons = []\n    moves = [\"Left\", \"Right\"] if direction == \"horizontal\" else [\"Up\", \"Down\"]\n    for _ in range(cycles):\n        buttons.extend(moves)\n    \n    print(json.dumps(buttons))\n\nsolve()",
+    "python_script": "import json\nimport sys\n\ndef solve():\n    try:\n        input_data = json.loads(sys.argv[1])\n    except:\n        input_data = {}\n\n    cycles = input_data.get('cycles', 1)\n    try:\n        cycles = int(cycles)\n    except:\n        cycles = 1\n    \n    cycles = max(1, min(cycles, 5))\n    direction = input_data.get('direction', 'horizontal')\n\n    buttons = []\n    moves = [\"Left\", \"Right\"] if direction == \"horizontal\" else [\"Up\", \"Down\"]\n    for _ in range(cycles):\n        buttons.extend(moves)\n    \n    print(json.dumps(buttons))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -370,6 +370,11 @@
         "commit_message": "Refined cycles parsing to handle both string and integer inputs correctly.",
         "timestamp": "2025-12-24T08:48:10.831Z",
         "action_counter": 16728
+      },
+      {
+        "commit_message": "Refined cycles parsing and added defensive input handling to ensure reliable cycle counts.",
+        "timestamp": "2025-12-24T09:07:12.611Z",
+        "action_counter": 16760
       }
     ]
   }
