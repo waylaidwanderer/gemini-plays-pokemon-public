@@ -4,7 +4,7 @@
 - WATER: Requires Surf (HM03).
 - CUT_TREE: Requires Cut (HM01). Regrows on map reload.
 - LEDGE: One-way jump (South/Right/Left/Up). Jump 2 tiles.
-- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement into it.
+- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement.
 
 # Type Effectiveness (Verified)
 - Ghost (Gastly) vs Normal: Immune.
