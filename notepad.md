@@ -42,6 +42,14 @@
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
 ## Route 42 Suicune Sweep Plan
 - Goal: Visit all reachable FLOOR tiles on the island to trigger the event.
-- Coordinates to visit: (26, 10-17), (27, 10-17), (28, 10-17), (29, 10-17).
+- Coordinates to visit: 
+  - Y=10: X(20-33)
+  - Y=11: X(20-33)
+  - Y=12: X(22-28)
+  - Y=13: X(24)
+  - Y=14: X(24-27)
+  - Y=15: X(25-30)
+  - Y=16: X(26-30)
+  - Y=17: X(26-30)
 - Note: Already tested tiles near fruit trees (27-29, 16).
-- Progress: Systematic search initiated.
+- Progress: Systematic search initiated. Currently at (20, 10).
