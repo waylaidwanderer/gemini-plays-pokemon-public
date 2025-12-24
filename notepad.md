@@ -4,14 +4,14 @@
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
   - **B3 Status:** Pushed to Pit (5, 12). (DONE)
-  - **B2 Status:** Pushed Up to (5, 6). (Needs Plan)
-  - **B1 Status:** At (11, 7). Blocks East Path.
-  - **Master Plan:**
-    1. **B2:** Push Up to (5, 6). (Executing Now).
-    2. **Traverse:** Go to (11, 8). Push B1 Up x2 to (11, 5). This clears path to North and positions B1 for Pit (11, 2).
-    3. **B2 Finish:** Go around North (Row 1) to (6, 6). Push B2 Left to (4, 6), then Down to Pit (4, 7).
-    4. **B1 Finish:** Solve B1 into Pit (11, 2).
-- **Next Step:** Push B2 Up, then Navigate to (11, 8).
+  - **B2 Status:** At (5, 6).
+  - **B1 Status:** At (11, 8). Appears stuck (Walls South/Left). Need to inspect.
+  - **Plan (B2 & B1):**
+    1. **Navigate:** Loop South (Row 11) -> East (Col 12) -> North to (12, 8).
+    2. **Inspect B1:** Verify if (11, 9) or (10, 8) are actually walls.
+    3. **Solve B2:** Continue North to Row 1 -> West to Col 6 -> South to (6, 6). Push B2 Left -> Down to Pit (4, 7).
+    4. **Solve B1/B4:** Handle after B2.
+- **Next Step:** Navigate to (12, 8) via South loop.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
