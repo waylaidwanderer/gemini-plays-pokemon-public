@@ -24,7 +24,7 @@
 - FLOOR_UP_WALL: One-way wall; jumpable from North to South.
 
 # Failed Hypotheses
-- Suicune Sighting (Route 42): Island center sweep (X=24-30, Y=14-17) failed to trigger sighting multiple times (Turns 17968, 17985, 18002).
+- Suicune Sighting (Route 42): Island center sweep (X=24-30, Y=14-17) failed to trigger sighting multiple times (Turns 17968, 17985, 18002, 18021). Even after map reset (Turn 18010).
 - Hypothesis: Suicune is at the Apricorn trees (28, 16). Status: DENIED (Turn 17968).
 
 # Discoveries
