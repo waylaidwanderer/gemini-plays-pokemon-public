@@ -18,8 +18,6 @@
 - Weepinbell: PoisonPowder, Acid, Wrap.
 
 # Suicune Capture Strategy
-- Status: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16196)
-- Lead: XENON (Gastly, Lv19) - Speed: 38 (9 when paralyzed).
 - Strategy:
   - Repel Trick: Lead level must be > Lv26 but < Lv40. Target: Lv27+.
   - Mean Look on Turn 1 is mandatory.
@@ -31,7 +29,7 @@
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-- Current Battle: Bellsprout (Lv22, SLP). Start Turn: 16225. XENON 33/45 HP, PAR.
+- Current Battle: Bellsprout (Lv22, SLP). Start Turn: 16225.
 
 ## To-Do
 - Test find_path_v2 after battle (Turn 16244 fix).
