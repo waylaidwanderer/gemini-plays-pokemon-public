@@ -61,3 +61,9 @@
 - Right Sage (14,6) also gave generic lore ("The two TOWERS...").
 - Checking Left Sage (5,9) now.
 - Hypothesis: If ALL Sages give generic lore, I might need to check the Dance Theater (Kimono Girls) or the "Tower Shook" event requires a specific trigger I missed (maybe Eusine is elsewhere).
+- CRITICAL: I previously battled Suicune on Tin Tower 1F and whited out (Turn 15550).
+- Current status: Suicune is GONE from 1F. Warp to 2F is INACTIVE.
+- Wandering Sage says "A Pokemon returned to the top".
+- Hypothesis: Suicune might have moved to the Roof, or reset, but I cannot access 2F.
+- Goal: Determine how to re-trigger the event or access 2F.
+- Checking (9,9) for hidden items/residue.
