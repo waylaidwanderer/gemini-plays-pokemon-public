@@ -1,8 +1,11 @@
 # Suicune Quest (Crystal)
 - Started: Turn 17252 (Dec 24, 2025).
-- Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Current Status: Investigating Route 42 island for overworld trigger.
-- Note: Pokedex 'Area' may show the next location even if the previous overworld event wasn't fully triggered.
+- Milestone: Cianwood sighting completed (Turn 16423).
+- Current Status: Attempting to trigger Route 42 sighting.
+- Trigger Hypotheses:
+  - Entering island center clearing (y=15 to y=12).
+  - Walking north from (28, 15) around trees.
+  - Pokedex 'Area' confirms Route 42.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
