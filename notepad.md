@@ -8,13 +8,14 @@
 
 # Current Mission
 - **Goal:** Find Eusine to progress the Suicune event.
-- **Search Area:** Ecruteak City (Pokemon Center, Burned Tower).
+- **Search Area:** Wise Trio Room / Tin Tower.
 - **Recent Intel:**
     - Wandering Sage (Barrier Station): Confirmed "Tower Shook".
-    - Pokefan M (Ecruteak PC): Generic Kimono Girl lore.
+    - Burned Tower/PC checked: Eusine NOT found.
+    - Wise Trio Room: Sages appear to be GONE.
 - **Plan:** 
-    1. Talk to Cooltrainer F in Pokemon Center.
-    2. If no lead, check Burned Tower.
+    1. Confirm Sages are gone.
+    2. Exit to Tin Tower to see if the path is clear or Eusine is there.
 
 # Reference
 - **Barrier Station:** Left Side (City), Right Side (Tower), linked by Wise Trio Room.
