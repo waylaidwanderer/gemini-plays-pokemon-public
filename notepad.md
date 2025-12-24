@@ -38,6 +38,6 @@
 - Current Battle: Bellsprout (Lv22, SLP). Start Turn: 16225.
 
 ## To-Do
-- Refine find_path_v2 (Priority: HIGH).
+- Test find_path_v2 after battle to verify fix.
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
