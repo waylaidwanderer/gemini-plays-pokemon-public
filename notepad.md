@@ -34,3 +34,5 @@
 - **Barrier Station:** Wise Trio Room empty. Ladder logic verified.
 - **Tin Tower:** 1F Sages generic. Warp inactive.
 - **Dance Theater:** Investigating "Surf/Dance" clue (likely flavor).
+- PC Location Correction: Player PC is at (9,1), accessible from (9,2).
+- Party Swap Plan: Deposit Drowzee (Lucid), Withdraw Oddish (Belladonna) for Cut.
