@@ -30,3 +30,6 @@
 - Proceeding to check the center of the room (9,9).
 - Eusine is NOT at the center of Burned Tower 1F (9,9).
 - Plan: Falling down the pit at (10,9) to search B1F for Eusine.
+- Location: Burned Tower B1F.
+- Status: Searching for Eusine at the Beast Awakening spot (North Center).
+- Note: If he's not here, Suicune might have reset to a roaming state, or I need to check the Wise Trio again (thoroughly).
