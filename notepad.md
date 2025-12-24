@@ -36,3 +36,6 @@
 - Eusine is NOT at the B1F platform (10,5).
 - Action: Taking warp at (10,8) to exit the B1F pit area.
 - Next Search Area: Wise Trio Room (Barrier Station) or re-check Ecruteak City.
+- Warp at (10, 8) in Burned Tower B1F failed to trigger.
+- Plan: Exiting B1F via Ladder at (7, 15).
+- Next: Check Wise Trio Room (Barrier Station) again. I checked it BEFORE the Wandering Sage confirmed the shake. Maybe Eusine is there now.
