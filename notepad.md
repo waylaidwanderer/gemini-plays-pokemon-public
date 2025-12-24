@@ -4,17 +4,14 @@
 - **Status:** Found **HM07 (Waterfall)** at (31, 7).
 
 # Ice Path Strategy
-- **Current Action:** Escaping West Ice Room.
-- **Goal:** Return to Hub/East Winding Corridors.
-- **Status:** Collected HM07. Backtracked to Floor Island.
-- **Escape Plan (West Ice Room):**
-  1. Walk to (16, 8). [DONE]
-  2. Slide **Left** -> (2, 8). [DONE]
-  3. Slide **Down** -> (2, 13). [DONE]
-  4. Slide **Right** -> (15, 13). [DONE]
-  5. Slide **Down** -> (15, 14) [Exit to Floor]. [NEXT]
-  5. Slide **Down** -> (15, 14) [Exit to Floor].
-- **Next:** Walk to (28, 19) and explore South.
+- **Current Action:** Returning to East Intersection.
+- **Goal:** Find Ladder to B1F.
+- **Status:** Found HM07. Escaped West Ice Room.
+- **Location:** Winding Corridor (17, 14).
+- **Path Plan:**
+  1. Walk to East Intersection (28, 19). [NEXT]
+  2. Explore South from (28, 19) towards unexplored area.
+- **Hypothesis:** Ladder is in the South-East section (approx 30-35, 20-30).
 - **Items:** Item Balls at (32, 23), (35, 9).
 
 # Mechanics & Lessons
