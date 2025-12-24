@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        move_index = int(input_data.get('move_index', 0))\n        \n        # Reset cursor to top\n        # Gen 2 move menu doesn't wrap. Pressing Up 3 times ensures we're at move 0.\n        buttons = [\"sleep 1500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\"]\n        \n        # Move down to the target move\n        for _ in range(move_index):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n        \n        buttons.append(\"A\")\n        \n        # Buffer presses to clear text boxes and handle potential level-up/evolve/new move screens\n        # Increased timing for animations\n        buttons.extend([\"sleep 4000\"] + [\"B\", \"sleep 600\"] * 25)\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\n\n# input_data is a dictionary automatically provided in the global scope\nmove_index = int(input_data.get('move_index', 0))\n\n# Reset cursor to top\n# Gen 2 move menu doesn't wrap. Pressing Up 3 times ensures we're at move 0.\nbuttons = [\"sleep 1500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\"]\n\n# Move down to the target move\nfor _ in range(move_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\n\n# Buffer presses to clear text boxes\nbuttons.extend([\"sleep 4000\"] + [\"B\", \"sleep 600\"] * 25)\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -104,6 +104,11 @@
         "commit_message": "Increased timing between cursor moves and buffer B-spam to improve reliability in battle menus. Added comments to explain Gen 2 move menu behavior.",
         "timestamp": "2025-12-24T06:27:57.937Z",
         "action_counter": 16441
+      },
+      {
+        "commit_message": "Fixed battle_grind to use the 'input_data' variable directly, as it is automatically provided in the global scope for custom tools.",
+        "timestamp": "2025-12-24T06:37:02.747Z",
+        "action_counter": 16463
       }
     ]
   },
