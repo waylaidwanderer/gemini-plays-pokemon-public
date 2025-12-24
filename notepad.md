@@ -33,4 +33,4 @@ Patrol the tall grass on the east side (X=46-53, Y=12-13) to encounter roaming S
 
 # General Lessons
 - Surfing: Moving from a WATER tile onto a FLOOR tile automatically stops SURF. To continue traveling across water, you must re-initiate SURF from the edge.
-- Suicune Patrol Start: Turn 18210. Current Turn: 18226. Search continues on Route 42 grass.
+- Suicune Patrol Start: Turn 18210. Current Turn: 18235. Checking Pokedex Area map.
