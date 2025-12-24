@@ -45,3 +45,9 @@
 - Sage Permission Logic: The Sage at (4, 6) in building 4_1 granting permission flags Route 42 completion.
 - Linear Scripting: Legendary beast encounters follow a strict overworld sequence.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
+
+# Suicune Route 36 Trigger Attempts
+- Attempt 1: Approach from South (Ruins of Alph). Result: Failed.
+- Attempt 2: Approach from East (Violet City). Result: Failed.
+- Attempt 3: Approach from West (National Park). Result: Failed.
+- Strategy: Pacing the entire length of the route to find the specific trigger tile.
