@@ -19,7 +19,7 @@
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
 - Status: Roaming.
-- Suicune: Last confirmed on Route 42 (Turn 16055).
+- Suicune: Last confirmed on Route 44 (Turn 16084).
 - Raikou: Last confirmed on Route 42 (Turn 15889).
 - Lead: XENON (Gastly, Lv18) - Speed: 36.
 - Strategy: Repel Trick in tall grass.
