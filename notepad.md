@@ -14,16 +14,28 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Investigation Plan
-1.  **Navigate to (11, 6):** Check if B1 is at (11, 7).
-2.  **Check Wall at (12, 6):** If Floor, go (12, 6) -> (12, 8) -> (11, 8).
-3.  **Check Wall at (10, 8):** Go to (9, 8) via (5, 8) and check if I can cross to (11, 8).
-4.  **Hypothesis:** One of the walls surrounding (11, 8) is fake or incorrect.
-
-## Move Sequence (If (12, 6) is Floor)
-1.  Go to (11, 8) via Col 12.
-2.  Push B1 Up to (11, 5).
-3.  Push B1 Left to (10, 5).
-4.  Push B1 Up to (10, 1).
-5.  Push B1 Right to (11, 1).
-6.  Push B1 Down into Pit (11, 2).
+## Master Plan (Revised - Long Loop)
+1.  **Goal:** Reach (11, 8) (South of B1) to push B1 UP.
+2.  **Path:** Go North, then West, then South, then East.
+    - **Step 1 (North Loop):**
+        - (11, 6) Left -> (10, 6).
+        - Up -> (10, 0).
+        - Right -> (11, 0).
+        - Down -> (11, 1).
+        - Left -> (6, 1).
+    - **Step 2 (West Side):**
+        - Down -> (6, 2).
+        - Left -> (5, 2).
+        - Down -> (5, 9).
+    - **Step 3 (South Loop):**
+        - (5, 9) -> (5, 16) -> (17, 16).
+    - **Step 4 (East Side):**
+        - (17, 16) -> (17, 14) -> (12, 11) -> (12, 8).
+    - **Step 5 (Position):**
+        - Left -> (11, 8).
+3.  **Solve B1:**
+    - Push Up to (11, 5).
+    - Go to (10, 5). Push Right to (12, 5).
+    - Go to (12, 6). Push Up to (12, 1).
+    - Go to (13, 1). Push Left to (11, 1).
+    - Go to (11, 0). Push Down to (11, 2) (PIT).
