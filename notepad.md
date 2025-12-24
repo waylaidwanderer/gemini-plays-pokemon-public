@@ -46,4 +46,5 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Island Sweep Status: Rows 15 and 17 complete. Currently sweeping Row 14. [Turn 17967]
+- Observation: Island sweep 100% complete. No Suicune. Pokedex 'AREA' shows multiple dots. [Turn 17968]
+- Plan: Explore northern corridor (Row 4) to confirm if scripted sighting is there. [Turn 17968]
