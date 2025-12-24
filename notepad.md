@@ -44,9 +44,9 @@
 
 ## Observed Movesets
 - Natu (Psychic Phil): Future Sight, Night Shade.
+- Remoraid (Fisher Edgar): Psybeam.
 
-## Battle Log
-- Turn 15995: XENON (Lv18) vs Remoraid (Lv25). XENON fainted to super-effective Psybeam. Remoraid knows Psybeam.
+# Battle Strategies
 - Strategy Adjustment: Avoid leading with XENON against Fisher trainers or known Psychic move users until higher level.
 
 ## Route 44 Wild Encounters
