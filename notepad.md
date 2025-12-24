@@ -55,3 +55,6 @@
 - **Goal:** Trigger a dialogue that resets the Suicune event or explains where it went.
 - **Action:** Entering Barrier Station (Wise Trio Room).
 - **Goal:** Talk to Sages Gaku, Masa, and Koji to reset Suicune event.
+- **Observation:** Wise Trio Room appears empty of Sages.
+- **Inference:** The Wise Trio moved to Tin Tower 1F (where I saw 3 Sages).
+- **Plan:** Proceeding to Barrier Station Main Hall via Ladder at (1,4) to check for Eusine or other clues.
