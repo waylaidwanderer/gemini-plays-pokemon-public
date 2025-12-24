@@ -37,9 +37,9 @@
 - Goal: Level XENON to Lv27+.
 - Current Level: Lv19.
 
-## Battle Log
+## Battle Log (Turn 16227)
 - Finished: Poliwag (Lv22) defeated. XENON grew to Lv19.
-- Current: Bellsprout (Lv22). Strategy: Hypnosis then Lick.
+- Current: Bellsprout (Lv22, SLP). Strategy: Lick while asleep.
 
 ## To-Do
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
