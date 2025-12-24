@@ -1,22 +1,21 @@
 # Ice Path Strategy
-- **Current State:** At Ice Path B1F (1, 6).
-- **Goal:** Reach the Boulder/Pit area on the East side.
+- **Current State:** At Ice Path B1F (5, 3).
+- **Goal:** Map the B1F Boulder Room and solve the puzzle.
 - **Observations:**
-  - West Corridor (x=1) is blocked to the East by a wall until the top.
-  - Path wraps around the top at Row 2/3.
+  - Room contains Pits and Boulders.
+  - Known Pits: (4, 7), (5, 12).
+  - Known Boulders: (7, 8).
+  - Need to find 3 more boulders (usually 4 total).
 - **Plan:**
-  1. Walk North to (1, 4).
-  2. Walk East to (2, 4), then North to (2, 2).
-  3. Walk East to (3, 2) and into the main room.
-  4. Locate Boulders and Pits. Determine puzzle logic.
+  1. Explore South to Row 8-12 to locate remaining boulders/pits.
+  2. Use `puzzle_solver` agent (to be defined) to plan the pushes.
+  3. Push boulders into pits.
+  4. Drop down/Ladder up? (Usually drop down to fill holes, then fall).
 
 # Map Structure
-- **B1F Room:** West Corridor wraps to Top Area.
-- **Features:**
-  - Pits at (4, 7) and (5, 12).
-  - Boulders detected at (7, 8) and (8, 9).
-  - Ladder to 1F at (3, 15) (Blocked from main room).
-- **Hypothesis:** Push boulders into pits to access B2F or creating a path.
+- **B1F Room:** Large Puzzle Room.
+- **West Corridor (x=0-1):** Wraps around North.
+- **East Room (x=2+):** Contains the puzzle.
 - **Observation:** Found a Boulder at (7, 8).
 - **Hypothesis:** This is a Strength puzzle. Pushing boulders into the pits (4, 7) and (5, 12) might be the goal, or they serve as bridges.
 - **Action:** Continue exploring the room to locate all boulders and pits.
