@@ -73,3 +73,6 @@
 - Status Update: Exiting Barrier Station.
 - Findings: Wise Trio Room empty. Tin Tower 1F has generic Sages (Suicune gone). Burned Tower empty (no Eusine).
 - Next Destination: Ecruteak Dance Theater to find Eusine/Wise Trio.
+- Location: Ecruteak City.
+- Heading to Dance Theater to find the Wise Trio or Eusine.
+- Suicune investigation continues.
