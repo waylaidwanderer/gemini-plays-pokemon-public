@@ -18,18 +18,14 @@
 - Weepinbell: PoisonPowder, Acid, Wrap.
 
 # Suicune Capture Strategy
+- Status: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16196)
+- Lead: XENON (Gastly, Lv19) - Speed: 38 (9 when paralyzed).
 - Strategy:
   - Repel Trick: Lead level must be > Lv26 (Route 44 max) but < Lv40. Target: Lv27+.
   - Mean Look on Turn 1 is mandatory.
   - If Mean Look fails: Track via Pokedex and re-intercept.
   - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
   - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
-
-## Training Phase
-- Start Turn: 16198
-- Location: Route 44 tall grass.
-- Goal: Level XENON to Lv27+.
-- Current Status: XENON Lv19, 33/45 HP, PAR.
 
 ## To-Do
 - Heal XENON at Mahogany Town Pokemon Center (Priority: HIGH).
