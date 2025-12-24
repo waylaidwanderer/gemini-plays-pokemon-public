@@ -1,17 +1,23 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Immediate Task:** Execute Center-North Hypothesis.
-- **Status:** Healed Gyarados. Exiting menu.
+- **Immediate Task:** Exit Menu and Navigate to South-East.
+- **Status:** In Menu (Healed).
 - **Location:** Start Area (13, 16).
 
-# Planned Route
-1. **Center-North Hypothesis:** 
-   - Move Down to (13, 17) (Start of Ice).
-   - Slide Right to (15, 17).
-   - **Action:** Slide UP from (15, 17).
-   - **Reasoning:** This path is untested. It might lead to the inaccessible North/West areas.
-2. **Backup (East Corridor):** 
-   - If North fails, solve puzzle to (20, 23) -> Navigate to (30, 12) -> South.
+# Navigation Plan (South-East Deep Exploration)
+1. **Solve Ice Puzzle:**
+   - From (13, 16), go Down to (13, 17).
+   - Right -> (15, 17) -> Down -> (15, 21) -> Right -> (19, 21) -> Down -> (19, 23) -> Right -> **(20, 23)** (Safe Floor).
+2. **Access East Corridor:**
+   - From (20, 23), go East to (25, 23), North to (25, 19), East to (28, 19).
+3. **Explore Deep South:**
+   - From (28, 19), go **SOUTH** down column x=28.
+   - Map shows this path extends past Row 27 into unexplored territory.
+   - **Hypothesis:** This leads to the ladder/exit or connects to the West side.
+
+# Discarded Hypotheses
+- **Center-North (Slide Up):** Map data shows walls at (15, 15), making this a short loop back to start. Abandoning.
+- **Row 18 Ledges:** Confirmed impassable walls.
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
