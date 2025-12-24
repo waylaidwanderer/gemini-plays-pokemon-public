@@ -10,7 +10,7 @@
 - WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16778. Steps taken: 44. Steps remaining: 156.
+- Super Repel: Activated Turn 16778. Steps taken: 54. Steps remaining: 146.
 
 # Lessons Learned
 - Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
