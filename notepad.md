@@ -3,8 +3,7 @@
 - WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable collision.
 - WATER: Requires Surf (HM03) to traverse. Interact with water edge or use from menu.
 - CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded (e.g., entering/exiting Mount Mortar).
-- LEDGE: One-way jump (usually South). Cannot be jumped from below. (Previously misidentified as FLOOR_UP_WALL).
-- TALL_GRASS: Traversable, but triggers wild Pokemon encounters.
+- LEDGE: One-way jump (usually South). Cannot be jumped from below.
 
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
@@ -27,5 +26,5 @@
 - Ravioli (Krabby): Surf.
 
 ## Items
-- Super Repel: Active (approx 150 steps remaining).
+- Super Repel: Active (approx 200 steps remaining after use).
 - Great Ball: 29. Main capture tool.
