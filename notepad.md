@@ -18,8 +18,8 @@
 ## Current Hypothesis Testing (Route 42)
 - Hypothesis 34: Trigger is on the western mainland path (X=4-12, Y=8-13). [In Progress]
 - Hypothesis 35: Landing trigger on southern island bank (X=24-32, Y=15).
-- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south.
-- Note: Pivot to Route 44/Blackthorn if not cleared by Turn 17900.
+- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south. [Failed - Turn 17876].
+- Hypothesis 37: Suicune trigger is on the northern path near Mt. Mortar (X=21-33, Y=4-8). [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
