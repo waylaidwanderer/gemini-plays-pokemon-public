@@ -39,6 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Using Clear Bell from Inventory.
-- **Reasoning:** Warps are inactive, stairs are missing. Sages mentioned the bell. Maybe using it activates the tower events.
-- **Location:** Tin Tower 1F (3,1).
+- **Action:** Retrying Warp (10,2) after using Clear Bell.
+- **Reasoning:** Manual bell use failed ("Not the time"). Warp is the only way into the sealed room.
+- **Lore Context:** I already battled Suicune and whited out. The path SHOULD be open. The Wise Trio was defeated in the Barrier Station.
+- **Plan:** Navigate to (10,2). Step on it. If fails, try to walk into the Sages again.
