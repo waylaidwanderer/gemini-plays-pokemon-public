@@ -32,3 +32,5 @@
 - **Battle Log:** Defeated Sage Gaku (Noctowl, Flareon). Used Muscle (Dig).
 - **Lore:** Brass Tower (Burned Tower) awakened Pokémon. Tin Tower is where they rested. 150 years ago, lightning struck Brass Tower, fire raged for 3 days, put out by rain. Silver-colored Pokémon (Lugia) roosted there.
 - **Battle Log:** Defeated Sage Masa (Noctowl, Jolteon). Used Muscle (Dig).
+- **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
+- **Battle Log:** Defeated Sage Koji (Noctowl, Vaporeon). Used Muscle (Strength, Cross Chop). Muscle grew to Lv 57.
