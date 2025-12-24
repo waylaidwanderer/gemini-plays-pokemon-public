@@ -12,11 +12,8 @@
 
 ## Master Plan (Solution Found & Verified Path)
 1.  **Navigate to (11, 8):**
-    - **Step 1:** Go East to (9, 9), then South to (9, 10). DONE.
-    - **Step 2:** Check for Boulder 3 at (9, 11).
-      - If present: Push DOWN to (9, 12). Go around: (9, 11) -> (10, 11) -> (10, 13) -> (9, 13).
-      - If absent: Walk straight South to (9, 16).
-    - **Step 3:** Go South to (9, 16) -> Slide East to (18, 16).
+    - **Step 1 & 2:** Navigate South past B3. DONE. (Player at 9, 16).
+    - **Step 3:** Slide East to (18, 16).
     - **Step 4 (East Side):**
       - West to (17, 16) -> Up to (17, 14) -> Left to (13, 14).
       - Up to (13, 11) -> Left to (12, 11) -> Up to (12, 8) -> Left to (11, 8).
