@@ -45,3 +45,5 @@
 - **Plan:** Executing route to the Ladder.
 - **Transition (Turn 15104):** Exited Warehouse via Ladder at `(17, 2)`. Arrived in **Goldenrod Dept. Store B1F (3_55)** at `(17, 2)`.
 - **Plan:** Exit Dept. Store and head to Radio Tower.
+- **Observation (Turn 15105):** Path blocked by Item Ball at `(14, 2)`.
+- **Action:** Picking it up to clear the path to the elevator.
