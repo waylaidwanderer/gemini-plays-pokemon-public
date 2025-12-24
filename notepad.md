@@ -3,18 +3,24 @@
 
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Escaping Ice Trap at (14, 21).
-- **Ledge Mystery:** `FLOOR_UP_WALL` tiles at (14, 22), (20, 24), (7, 18) are confirmed WALLS. They cannot be jumped.
-- **New Hypothesis:** The South-East Floor Area (x=20+) is NOT a dead end. I only explored the North part (Row 12). The South part (Row 27+) is unexplored and may contain a ladder or exit.
-- **Plan:**
-  1. Escape: Up -> Left to (13, 16).
-  2. Restart Puzzle: (13, 17) -> Right -> Down -> Right -> Down -> Right to (20, 23).
-  3. Explore South-East: Go East to x=29, then South to bottom corner.
+- **Status:** Solving Ice Puzzle to reach South-East area.
+- **Solution:**
+  1. (13, 16) -> Down to (13, 17) [Start].
+  2. Right -> (15, 17).
+  3. Down -> (15, 21).
+  4. Right -> (19, 21).
+  5. Down -> (19, 23).
+  6. Right -> (20, 23) [Floor].
+- **Exploration Plan:**
+  - From (20, 23), go North-East to (29, 17).
+  - Go North to (29, 12).
+  - **CRITICAL CORRECTION:** Previously stopped at (25, 12). Map shows passage East at (30, 12) leading South down a new corridor.
+  - Explore x=30 corridor South.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Key Log
+- **Turn 16367:** Realized I missed the East turn at Row 12.
 - **Turn 16366:** Confirmed (14, 22) is unpassable. Re-evaluating South-East path.
-- **Turn 16365:** Failed to jump ledge at (14, 22).
 - **Turn 16342:** Reached dead end at (25, 12).
 
 # Tile Mechanics
