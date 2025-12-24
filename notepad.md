@@ -34,6 +34,6 @@
 - **Entei Marker:** Marker at (12,12) appears to be ghost data (Entei is not currently there).
 - **Plan:** Explore suspicious nooks in Top-Left area: (3,9) and (2,7).
 - **Hypothesis:** Hidden stairs or switches might be in these secluded tiles.
-- **Action:** Investigated Nook at (3,9) - empty.
-- **Plan:** Navigate to (10,2) to inspect the Wall at (10,1) directly behind the mystery warp.
-- **Hypothesis:** The warp is activated by a hidden switch in the wall, or I need to interact with the warp tile itself (A button).
+- **Action:** Exploring Top-Right corner (Row 1, Col 13-16) for stairs.
+- **Hypothesis:** Stairs to 2F are hidden in a corner. (10,2) warp is likely an exit from above.
+- **Plan:** Navigate to (16,1) and inspect the area. Then check Bottom-Right if empty.
