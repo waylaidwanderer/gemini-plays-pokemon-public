@@ -47,3 +47,6 @@
 - **Plan:** Exit Dept. Store and head to Radio Tower.
 - **Observation (Turn 15105):** Path blocked by Item Ball at `(14, 2)`.
 - **Action:** Picking it up to clear the path to the elevator.
+- **Action (Turn 15106):** Picked up **Amulet Coin** at `(14, 2)`.
+- **Note:** Amulet Coin doubles prize money. Should equip this to a lead Pokémon soon.
+- **Plan:** Clear text, navigate to Elevator `(10, 4)`, exit Dept. Store, proceed to Radio Tower.
