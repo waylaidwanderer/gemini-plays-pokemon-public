@@ -12,12 +12,15 @@
 
 ## Master Plan (Solution Found)
 1.  **Navigate to (11, 8):**
-    - **Step 1:** Go West/North/West/South to (5, 9).
-      - Path: (11, 6) -> (10, 6) -> Up to (10, 1) -> Left to (6, 1) -> (5, 2) -> Slide Down to (5, 9).
-    - **Step 2:** Go South/East to (17, 16).
-    - **Step 3:** Go North/West to (11, 8).
-      - Path: (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
-2.  **Solve B1:**
+    - **Step 1:** Go West/North/West/South to (5, 9). DONE.
+    - **Step 2 (South Loop):**
+      - (5, 9) -> Left to (4, 9) -> Slide Down to (4, 13).
+      - Right to (6, 13) -> Down to (6, 15) -> Right to (9, 15) -> Down to (9, 16).
+      - Slide East to (17, 16).
+    - **Step 3 (East Side):**
+      - Up to (17, 14) -> Left to (13, 14) -> Up to (13, 11) -> Left to (12, 11).
+      - Up to (12, 8) -> Left to (11, 8).
+2.  **Solve B1 (Verified: Boulders don't slide):**
     - Push Up to (11, 5).
     - Go to (10, 5). Push Right to (12, 5).
     - Go to (12, 6). Push Up to (12, 1).
