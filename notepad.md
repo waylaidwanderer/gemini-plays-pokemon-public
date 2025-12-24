@@ -3,18 +3,12 @@
 ## Current Status
 - **Location:** Radio Tower 3F (3_19).
 - **Objective:** Reach 4F via the unlocked stairs at (17, 0).
-- **Current Task:** Defeat Rocket Grunt blocking the path and ascend.
+- **Current Task:** Ascend to 4F.
 
-## Warehouse Discoveries
-- **Layout:** Western corridor leads to a southern corridor. Central area is walled off. Access to center/north is via a gap at (16, 11).
-- **NPCs:**
-  - Rocket Grunt (Defeated) at (8, 13).
-  - Director (Target) at (12, 8).
-  - Rocket Grunt (Target) at (9, 8).
-- **Items:**
-  - Ultra Ball (Picked up at 2, 1).
-  - Item Ball at (13, 9) (Unclaimed).
-  - Item Ball at (18, 15) (Unclaimed).
+## Radio Tower Progress
+- **1F:** Cleared.
+- **2F:** Cleared.
+- **3F:** Card Key used. Shutter open.
 
 ## Switch Room (3_54) Configuration
 - **S1 (16, 1):** ON (East Closed / West Open).
