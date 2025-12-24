@@ -52,3 +52,7 @@
     1. Detour South to Row 16 to bypass the Rocket Grunt at `(8, 15)`.
     2. Enter Radio Tower at `(5, 15)`.
     3. Proceed to 3F.
+- **Transition (Turn 15131):** Entered **Radio Tower 1F (3_17)**.
+- **Current Position:** `(2, 7)`.
+- **Objective:** Reach 3F to use Card Key.
+- **Plan:** Take stairs at `(15, 0)` to 2F. Avoid the Grunt at `(14, 1)` (Marked defeated, but taking safe path via Row 2).
