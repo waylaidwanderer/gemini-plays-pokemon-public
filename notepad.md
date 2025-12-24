@@ -30,4 +30,6 @@
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 ## Milestone Verification
 - Summary Part 4 claims Suicune was battled at Tin Tower. If true, Suicune is roaming. Pokedex map check is mandatory to confirm roaming status vs scripted chase.
-- Current Status: In Ecruteak City. Checking Pokedex.
+- Current Status: In Ecruteak City. Checking Pokedex. (Turn 18292). Goal: Confirm Suicune's current location on AREA map.
+- If roaming: Pursue on indicated route.
+- If unknown/stationary: Proceed to Tin Tower or Route 36.
