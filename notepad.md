@@ -10,15 +10,23 @@
 - Route 36: Enter from the Violet City side (East) after Route 42 is completed.
 - Pokedex 'Area' confirms the next overworld sighting location.
 
+## Suicune Trigger Hypothesis Testing (Route 42)
+- Hypothesis 1: Standing at (28, 17) facing Up triggers the scene.
+- Test: Move to (28, 17), face Up. [Turn 17613]
+- Conclusion: Pending.
+
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable.
+- FLOOR: Traversable collision type.
+- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable collision types.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - WATER: Impassable without Surf.
 - LEDGE: One-way movement (verified South-only for standard ledges).
 - WARP / DOOR / WARP_CARPET: Map transition.
 - CUT_TREE: Impassable until CUT is used.
 - ROCK: Impassable. Requires ROCK SMASH.
+- VOID: Impassable map boundary.
+- CAVE: Warp tile leading to an interior area.
+- FLOOR_UP_WALL: Impassable wall tile that appears as a floor edge.
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
