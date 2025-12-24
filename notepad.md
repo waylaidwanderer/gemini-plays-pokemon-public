@@ -28,3 +28,11 @@
 ## Items
 - Super Repel: Active (approx 200 steps remaining after use).
 - Great Ball: 29. Main capture tool.
+## Immediate Plan (Turn 15769)
+- Goal: Replenish Super Repel supply to resume Repel Trick.
+- Step 1: Fly to Mahogany Town using ICARUS.
+- Step 2: Enter Mahogany Mart.
+- Step 3: Sell 5x Revives (¥3750 total).
+- Step 4: Buy as many Super Repels as possible (¥500 each).
+- Step 5: Return to Route 42 eastern grass at (50, 12).
+- Step 6: Resume Repel Trick.
