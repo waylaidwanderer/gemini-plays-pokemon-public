@@ -1,8 +1,11 @@
-# Suicune Quest (Crystal)
+# Suicune Quest (Crystal) - Turn 17244
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36.
-- Strategy: Approach the T-junction (approx 28, 9) where Sudowoodo was located.
-- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade for chip damage. Suicune (Lv40) lacks Roar in Crystal, so Mean Look is unnecessary. Use Great/Ultra Balls.
+- Confirmed Location: Route 36 (via Pokedex Area).
+- Hypothesis 1: Trigger is at T-junction (35, 9) where Sudowoodo was.
+- Hypothesis 2: Trigger is further West near (28, 8).
+- Hypothesis 3: Trigger requires entering from Ruins of Alph gatehouse (47, 13).
+- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade for chip damage. Use Great/Ultra Balls.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -21,16 +24,11 @@
 # Sage Lore (Tin Tower 1F)
 - Sages Gaku, Masa, Koji: Lore shared about Ho-Oh and legendary beasts. Must be spoken to again after sightings are complete.
 
-# HM/TM Knowledge
-- CUT: KIMCHI
-- FLY: ICARUS
-- SURF: Ravioli
-- STRENGTH: GNEISS
-
 # PC Storage (Box 1)
 - VORTEX (Lv22 Poliwag), INTERCEPT (Lv12 Yanma), ROCKY (Lv6 Onix), EGG (Lv5 Cleffa), XFDW (Lv16 Meowth), FRITTATA (Lv5 Togepi), SHUCKIE (Lv15 Shuckle), Blarney (Lv20 Sudowoodo).
 
 # General Lessons
-- Suicune Sighting Sequence: Scripted events, not roamers. Pokedex 'Area' shows the next route.
-- Sage Permission Logic: The Sage at (4, 6) in building 4_1 granting permission flags Route 42 completion.
+- Suicune Sighting Sequence: Scripted events. Pokedex 'Area' shows the next route.
+- Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
+- Menu Navigation: Be careful with button sequences to avoid Pokegear/Pokedex loops.
