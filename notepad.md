@@ -45,21 +45,9 @@
 - **Plan:** Executing route to the Ladder.
 - **Current State:**
     - **Location:** Goldenrod Dept. Store B1F (3_55).
-    - **Position:** `(16, 5)`.
+    - **Position:** `(10, 4)`.
     - **Objective:** Exit Dept. Store and head to Radio Tower.
     - **Inventory:** Obtained Card Key and Amulet Coin.
-- **Mapping B1F:**
-    - Successfully passed the barrier at `(16, 4)`.
-    - The path West is blocked by a wall at `(12, 5)`.
-    - Must loop South to Row 8 to cross to the West side.
-    - Gap located at `(12, 8)`.
-- **Plan:**
-    1. Navigate South to Row 7/8.
-    2. Cross West through the gap at `(12, 8)`.
-    3. Go North to the Elevator at `(10, 4)`.
-    4. Exit to Goldenrod City.
-- **Action (Turn 15111):** Navigating to Elevator `(10, 4)` to exit B1F.
-- **Next Step:** Go to 1F, exit Dept. Store, then go to Radio Tower 3F.
-- **Correction (Turn 15112):** Currently at `(7, 6)` in B1F.
-- **Action:** Navigating to Elevator `(10, 4)` to exit.
-- **Plan:** Take elevator to 1F, then exit building.
+- **Action (Turn 15114):** Attempting to use Elevator. Pressed A at `(10, 4)` facing Up (Wall), no response.
+- **Hypothesis:** Elevator control panel might be at `(9, 3)` or stepping on `(9, 4)` triggers it.
+- **Plan:** Move Left to `(9, 4)`. If no auto-warp, Face Up and Press A. Then take Elevator to 1F.
