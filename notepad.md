@@ -36,7 +36,7 @@
 ## Items
 - Great Ball: 29. Main capture tool.
 - Pokeball: 2.
-- Super Repel: 7. Active (Turn 15839 check confirmed earlier use still in effect).
+- Super Repel: 7. Last used Turn 15839 (Expired Turn 15875). Need to re-apply.
 ## Reflection Lessons (Turn 15842)
 - Fly Menu Navigation: Fly map movement is not a simple coordinate grid; it's a linked list of cities. Moving "Up" cycles through the known locations.
 - Repel Trick Persistence: Repel effects persist across map transitions. Check effect status before using a new one to save money.
