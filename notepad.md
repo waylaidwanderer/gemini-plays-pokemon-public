@@ -67,3 +67,6 @@
 - Hypothesis: Suicune might have moved to the Roof, or reset, but I cannot access 2F.
 - Goal: Determine how to re-trigger the event or access 2F.
 - Checking (9,9) for hidden items/residue.
+- Location: Barrier Station (Trail Side).
+- Wise Trio Room was empty.
+- Action: Navigating to Ladder at (17,15) to cross back to City Side.
