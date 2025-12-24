@@ -4,7 +4,7 @@
 - WATER: Requires Surf (HM03) to traverse. Interact with water edge or use from menu.
 - CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded.
 - LEDGE: One-way jump (usually South). Cannot be jumped from below.
-- FLOOR_UP_WALL: One-way barrier. Cannot be entered from below (blocks Northward movement). Verified at (50, 14) on Route 42.
+- FLOOR_UP_WALL: One-way barrier. Cannot be entered from above (blocks Southward movement). Verified at (50, 14) on Route 42.
 - TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12) on Route 42.
 - CAVE: Warp tile leading to internal maps. Verified at (10, 5) on Route 42.
 - WARP_CARPET_LEFT / WARP_CARPET_RIGHT: Map transition tiles. Verified at (0, 8) and (60, 7) on Route 42.
