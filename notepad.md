@@ -1,16 +1,16 @@
 # Ice Path Strategy
-- **Current State:** At Ice Path B1F (5, 3).
+- **Current State:** At Ice Path B1F (5, 6).
 - **Goal:** Map the B1F Boulder Room and solve the puzzle.
 - **Observations:**
   - Room contains Pits and Boulders.
   - Known Pits: (4, 7), (5, 12).
-  - Known Boulders: (7, 8).
-  - Need to find 3 more boulders (usually 4 total).
+  - Known Boulders: (7, 8), (8, 9).
+  - Need to find 2 more boulders (assuming 4 total).
 - **Plan:**
-  1. Explore South to Row 8-12 to locate remaining boulders/pits.
-  2. Use `puzzle_solver` agent (to be defined) to plan the pushes.
+  1. Explore South to Row 12+ to locate remaining boulders/pits.
+  2. Use `puzzle_solver` agent to plan the pushes.
   3. Push boulders into pits.
-  4. Drop down/Ladder up? (Usually drop down to fill holes, then fall).
+  4. Jump into the correct pit (usually one of them leads to the target area).
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
