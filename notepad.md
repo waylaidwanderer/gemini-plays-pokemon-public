@@ -24,6 +24,7 @@
 - Overlap (Red & Blue): (34, 13), (30, 18).
 - Investigation Log:
   - (27, 17): Stepped on. No event. (Turn 17035)
+  - (27, 16): Interacted (Fruit tree). Obtained PNK APRICORN. No Suicune event. (Turn 17037)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
