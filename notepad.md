@@ -36,5 +36,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (51/187 HP). Def -3.
 - **Risk:** In Crit Range (~60 dmg). Last Pokemon. Must Heal.
-- **Action:** Canceling Throw -> Switching to Items Pocket.
+- **Action:** Closing 'USE' menu -> Switching to Items Pocket.
 - **Strategy:** Heal Muscle. Then resume throwing.
