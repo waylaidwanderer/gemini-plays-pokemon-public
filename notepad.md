@@ -14,10 +14,6 @@
 1.  **Goal:** Return to B1F via Ladder at (17, 1) (Leads to 17, 3 near Puzzle).
 2.  **Collect:** Item at (0, 2) and Item at (8, 9).
 3.  **Path:**
-    - Get Item at (0, 2).
     - Slide RIGHT from (1, 0) to (16, 0).
-    - Walk to (16, 8).
-    - Slide LEFT to (9, 8) (Island).
-    - Get Item at (8, 9).
-    - Slide RIGHT from (9, 8) to (16, 8).
-    - Walk to (17, 1) Ladder.
+    - Walk to (17, 1) (Ladder).
+    - Skip Item at (8, 9) for now (hard to reach).
