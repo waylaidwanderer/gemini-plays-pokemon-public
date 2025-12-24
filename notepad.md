@@ -21,22 +21,26 @@
 - Avoid leading XENON against Fishers/Psychic users until higher level.
 - Paralysis: Reduces Speed by 75%, 25% chance to fail move.
 
-# Suicune Capture Strategy
 - **Status**: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16196)
-- **Lead**: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
-- **Strategy**:
-  - Repel Trick: Lead level must be > area wild max (Lv26 on Route 44) but < roamer level (Lv40). Target: Lv27+.
-  - Mean Look on Turn 1 is mandatory.
-  - If Mean Look fails: Track via Pokedex and re-intercept.
-  - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
-  - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
+- **Lead**: XENON (Gastly, Lv19) - Speed: 38.
+
+# Suicune Capture Strategy
+- Repel Trick: Lead level must be > area wild max (Lv26 on Route 44) but < roamer level (Lv40). Target: Lv27+.
+- Mean Look on Turn 1 is mandatory.
+- If Mean Look fails: Track via Pokedex and re-intercept.
+- Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
+- Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
 
 ## Training Phase
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-## Battle Log (Turn 16222)
-- Opponent: Poliwag (Lv22, SLP).
-- Strategy: LICK while asleep. Re-apply HYPNOSIS if it wakes up.
-- Current Status: XENON 31/43 HP. Poliwag asleep.
-- To-Do: Test FLOOR_UP_WALL at (50, 14) after battle. Refine find_path_v2.
+- Current Level: Lv19.
+
+## Battle Log
+- Finished: Poliwag (Lv22) defeated. XENON grew to Lv19.
+
+## To-Do
+- Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
+- Refine find_path_v2 if pathfinding issues persist.
+- Catch second trapper Pokemon.
