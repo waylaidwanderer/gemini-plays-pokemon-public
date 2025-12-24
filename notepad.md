@@ -55,3 +55,5 @@
 - **Context:** Retrying Clear Bell at (10,2) after "Tower Shook" event.
 - **Suicune Mystery Log Update:**
     - **Search 3 (Post-Shake):** Using Clear Bell at (10,2). Expectation: The event reset should allow the bell to function.
+- **Action:** Selected Clear Bell and attempted to USE it at (10,2).
+- **Expectation:** The item should activate, triggering the warp or a new event.
