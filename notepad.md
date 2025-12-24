@@ -1,11 +1,10 @@
 # Suicune Quest (Crystal)
 - Started: Turn 17252 (Dec 24, 2025).
-- Milestone 1: Burned Tower (Turn 15xxx).
-- Milestone 2: Cianwood City (Turn 16423). Defeated Eusine.
+- Milestone 1: Burned Tower (Seen).
+- Milestone 2: Cianwood City (Seen). Defeated Eusine.
 - Milestone 3: Route 42 (Current). Pokedex confirms location.
 - Milestone 4: Route 36 (Next).
 - Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
-- Status: Searching for Route 42 trigger zone in island center clearing.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -15,15 +14,14 @@
 - LEDGE_HOP / LEDGE: One-way movement (usually South).
 - WARP / DOOR / WARP_CARPET: Map transition.
 - CUT_TREE: Impassable until Cut is used.
+- WALL (28, 14): Impassable, looks like a tree but does not respond to Cut/Headbutt.
 
 # PC Storage (Box 1)
-- VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (Cleffa 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+- VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 
 # Key Observations
 - Suicune Sighting Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Route 37 "WEIRD_TREE" objects at (6, 12) and (7, 12) are the Twins Ann & Anne, not Suicune.
-- Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
-- Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
 - History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
 - Burned Tower items: Cooltrainer mentioned hidden items in the Burned Tower.
 
@@ -39,11 +37,3 @@
 ## Suicune Trigger Mechanics
 - Pokedex 'Area' tracks the current active overworld sighting location.
 - Sightings are triggered by specific tile-entry or movement zones, not object interaction.
-
-# Suicune Trigger Log (Route 42)
-- Hypothesis 1: Trigger at (28, 15). Result: Failed (Turn 17461).
-- Hypothesis 2: Trigger at (28, 12). Result: Failed (Turn 17472).
-- Hypothesis 3: Trigger at (26, 15). Result: Failed (Turn 17473).
-- Hypothesis 4: Trigger at (27, 14). Result: Failed (Turn 17487).
-- Hypothesis 5: Trigger at (25, 14). Result: Pending.
-- Hypothesis 6: Trigger at (29, 14). Result: Pending.
