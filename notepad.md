@@ -23,7 +23,6 @@
 ## Training Phase (Started Turn 15902)
 - Target: Route 44 (East of Mahogany Town).
 - Goal: Level XENON (Gastly) to outspeed Lv40 Roamers.
-- Current Status: Party healed. Heading back to Route 44 for training.
 
 ## Region Map IDs (Johto - Corrected)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
@@ -37,16 +36,6 @@
 
 ## Observed Movesets
 - Natu (Psychic Phil): Future Sight, Night Shade.
-
-## Party Strategy
-- XENON (Gastly, Lv18): Lead for Mean Look/Hypnosis. Currently fainted.
-- KIMCHI (Gloom): Cut.
-- Ravioli (Krabby): Surf.
-
-## Items
-- Great Ball: 29. Main capture tool.
-- Pokeball: 2.
-- Super Repel: 5. Active.
 
 ## Reflection Lessons (Turn 15842)
 - Fly Menu Navigation: Fly map movement is not a simple coordinate grid; it's a linked list of cities. Moving "Up" cycles through the known locations.
