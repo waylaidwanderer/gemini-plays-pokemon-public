@@ -12,14 +12,23 @@
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- FLOOR_UP_WALL: Elevation boundaries. One-way walls from the North; impassable from the South.
-- WATER_ROCKS: Impassable.
-- CUT_TREE: Impassable until HM01 CUT.
+- WALL: Impassable.
 - WATER: Traversable with HM03 SURF.
 - TALL_GRASS / LONG_GRASS: Traversable; triggers encounters.
 - LEDGE: One-way traversable (usually South).
 - WARP / DOOR / WARP_CARPET / CAVE: Map transition.
 - FRUIT_TREE: Impassable; interact for fruit/apricorn.
+- HEADBUTT_TREE: Impassable; interact with HM02 HEADBUTT to trigger encounters.
+- CUT_TREE: Impassable until cleared with HM01 CUT.
+- FLOOR_UP_WALL: One-way wall; jumpable from North to South.
+
+# Failed Hypotheses
+- Suicune Sighting (Route 42): Island center sweep (X=24-30, Y=14-17) failed to trigger sighting multiple times (Turns 17968, 17985).
+
+# Discoveries
+- Suicune is NOT at the Apricorn trees (28, 16) on Route 42 as of Turn 17968.
+- Northern Corridor: Path at (30, 6) leads North to Row 4. Corridor extends from X=30 to X=59.
+- Western Pocket: Near Mt. Mortar west entrance (10, 5). Tiles at (7, 1)-(15, 2).
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
@@ -31,9 +40,5 @@
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
 - Clear Bell: Obtained.
 
-# Task Timestamps & Log
+# Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Investigation: Island center sweep 100% complete (Turn 17968). Suicune sprite NOT present at Apricorn trees (28, 16).
-- Hypothesis: Suicune is in the northern corridor (Row 3-4) or the western northern pocket (Row 1-2).
-- Northern Corridor: Accessible via surfing north from (32, 8) to (30, 6).
-- Western Pocket: Near Mt. Mortar west entrance (10, 5). Tiles at (7, 1)-(15, 2).
