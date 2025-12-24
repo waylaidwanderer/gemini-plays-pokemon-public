@@ -1,17 +1,16 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** At (14, 23). Just jumped ledge to Floor.
+- **Current Status:** Moving West on Floor (Row 23).
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
   - **Ledge Jump:** Successful. Now on safe ground.
 - **Navigation:**
   - **Path Discovery:**
-    - The Ice Puzzle led to the middle-south floor area.
-    - West of here (x=0) is a corridor leading North.
+    - Confirmed the "West Corridor" at x=0 connects the South and North areas.
+    - Heading to the North-West area via (0, 23) -> (0, 14).
   - **Plan:**
     1. Walk West to (0, 23).
-    2. Walk North up the corridor (x=0).
-    3. Expect to reach the North-West area (Rows 13 and above).
+    2. Walk North up the corridor (x=0) to explore the unseen area above Row 14.
 - **Items:**
   - Item Ball at (32, 23).
   - Item Ball at (35, 9).
