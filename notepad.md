@@ -10,7 +10,7 @@
 - WARP / CAVE / WARP_CARPET: Map transition points.
 
 # Item Usage Tracking
-- Max Repel: Activated Turn 16879. Steps taken: 10. Steps remaining: 240.
+- Max Repel: Activated Turn 16879. Steps taken: 20. Steps remaining: 230.
 
 # Roamer Tracking Data
 - Route 42 (2_5) Neighbors: Ecruteak City (1_3), Mahogany Town (2_4).
