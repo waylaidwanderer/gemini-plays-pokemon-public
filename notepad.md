@@ -3,7 +3,7 @@
 ## Current Status
 - **Location:** Radio Tower 4F (3_20).
 - **Objective:** Clear 4F and reach 5F (Director's Office).
-- **Current Task:** Defeat Rocket Grunt at (14, 1).
+- **Current Task:** Defeat Rocket Executive at (14, 1).
 
 ## Radio Tower Progress
 - **1F:** Cleared.
