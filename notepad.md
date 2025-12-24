@@ -2,12 +2,20 @@
 - **Current Action:** Solving West Ice Room Puzzle.
 - **Goal:** Reach the ladder (likely in the center/NW of this room).
 - **Puzzle State:**
-  - Current Position: (2, 7).
-  - Wall at (2, 6) blocked "Up" move to (2, 2).
-  - Only valid progressive move: **Right**.
-- **Solution Hypothesis (Updated):**
-  1. Slide **Right** -> Target (15, 7) OR (7, 7) if obstacle at (8, 7).
-  2. If stop at (7, 7): Down -> (7, 13) -> Right -> (13, 13) -> Up -> (13, 5) -> Left -> (2, 5) -> Up -> (2, 2).
+  - Current Position: (15, 7).
+  - Previous Path: (2, 7) -> Right -> (15, 7).
+  - **Plan:** Slide Down -> (15, 10).
+  - Then Left -> (5, 10).
+  - Then Down -> (5, 13).
+  - Then Right -> (15, 13).
+  - Then Up -> (15, 12).
+  - Then Left -> (9, 12).
+  - Then Up -> (9, 2).
+  - Then Left -> (2, 2).
+  - Then Down -> (2, 13).
+  - Then Right -> (15, 13).
+  - **Goal Node:** Reach (11, 8) to slide Right to exit (16, 8).
+  - **Problem:** Need to find path to (11, 2) to slide Down to (11, 8).
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side].
 
 # Mechanics & Lessons
