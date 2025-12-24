@@ -33,6 +33,7 @@
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Status:** Muscle active (41/187 HP). Crit range!
-- **Action:** Navigating to Super Potion (Down 1 from Revive).
-- **Strategy:** Heal Muscle. Then resume throwing Great Balls (8 left).
+- **Status:** Muscle active (41/187 HP). Def -2.
+- **Mechanics:** Gust (Flying) is PHYSICAL in Gen 2. Leer (-Def) increases Gust damage.
+- **Action:** Using Super Potion on Muscle.
+- **Strategy:** Heal Loop until safe, then Great Balls (8 left).
