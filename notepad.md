@@ -23,3 +23,8 @@
   - Row 18 Ledges are walls.
   - (25, 11) is a dead end.
 - **Hypothesis:** Deep South-East (x=28, y>20) holds the key to progression (Ladder or West Path).
+- **Turn 16442:** Verified East Corridor is a loop. Returning to (20, 23).
+- **Hypothesis:** The exit to the West/South side must be via the ledges at Row 24 (x=18, 19).
+- **Test Plan:**
+  1. Go to (19, 23) [Ice]. Press Down to test (19, 24).
+  2. If fail, go to (18, 23) [Ice]. Press Down to test (18, 24).
