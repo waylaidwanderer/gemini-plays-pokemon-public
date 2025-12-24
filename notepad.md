@@ -12,7 +12,10 @@
 
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
-- Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681] [Attempt 1 - In Progress]
+- Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681]
+- Attempt 1: Paced island center and fruit trees thoroughly (Turn 17710-17730). Result: FAILED. No sighting triggered.
+- Hypothesis 23: Sighting is triggered on the mainland path or water, not the island itself.
+- Hypothesis 24: Sighting requires approaching from the EAST (Mahogany side).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
