@@ -1,11 +1,11 @@
 # Ice Path Strategy
-- **Current Action:** Navigating East Corridor Northbound.
-- **Goal:** Reach Row 7 to access Item Ball at (31, 7) and look for East Area entrance.
-- **Path Plan:**
-  1. From (28, 18), Move Right to (29, 18) then North. [NEXT]
-  2. Follow corridor up to (29, 7).
-  3. Collect Item Ball at (31, 7).
-  4. Search for path to Far East Area (Items at 32, 23 & 35, 9).
+- **Current Action:** Exploring West Room off East Corridor.
+- **Goal:** Find Ladder to B1F in the room at (25-27, 12-16).
+- **Reasoning:**
+  - North path (Row 10) is blocked by ledges (one-way South).
+  - East path (x=31) is a solid wall.
+  - West path at (29, 12) leads to an unexplored room.
+  - Hypothesis: The ladder to B1F is in this room.
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7).
 
 # Mechanics & Lessons
@@ -15,5 +15,4 @@
 # Map Structure
 - **West:** Entrance (Route 44).
 - **Center:** Hub.
-- **East:** Winding corridors leading North.
-- **Far East:** Separated by wall at x=31. Needs entrance.
+- **East:** Winding corridors leading to... a dead end? Or a ladder?
