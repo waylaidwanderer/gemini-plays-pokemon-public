@@ -1,9 +1,9 @@
 # Goldenrod Underground Switch Puzzle
 
 ## Current Status
-- **Location:** Switch Room (3_54), Central Area.
-- **Objective:** Reach the "Target Shutter" at `(12, 12)` or the Warp at `(22, 10)`.
-- **Start Turn:** ~14790 (Approx). Current Turn: 14962.
+- **Location:** Goldenrod Underground Warehouse (3_56).
+- **Objective:** Defeat Rocket Grunt at (8, 15), then reach the Director at (12, 8).
+- **Current Turn:** 15063.
 
 ## Switch Logic (Verified)
 - **S1 (16, 1):** East/West Toggle.
