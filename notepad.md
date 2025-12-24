@@ -42,3 +42,6 @@
 
 # Task History
 - Scripted Suicune Hunt: Started Turn 16921. Pivot from roamer strategy.
+
+# Progress Update (Turn 16940)
+- Successfully used Surf on Route 42. Moving towards the middle island for the Suicune encounter.
