@@ -30,4 +30,4 @@
 - Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
 - Menu Navigation: Be careful with button sequences to avoid Pokegear/Pokedex loops.
-- Status: In Cherrygrove City (26_3). Heading to Ecruteak City.
+- Status: In Violet City (10_5). Checking Pokedex.
