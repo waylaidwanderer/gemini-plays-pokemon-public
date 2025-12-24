@@ -15,6 +15,7 @@
 - Sightings Completed: Burned Tower, Cianwood City, Route 42.
 - Current Target: Route 36 sighting.
 - Evidence: Pokedex 'Area' map confirms Suicune's nest is on Route 36.
+- Plan: Fly to Ecruteak City, walk south through Route 37 to Route 36, and trigger the sighting.
 - Battle Prep: Suicune encounter at Tin Tower 1F will be Lv40.
 - Capture Team: Lead with XENON (Gastly, Lv21) for Hypnosis/Mean Look. Use GNEISS (Graveler, Lv44) for tanking/weakening.
 
