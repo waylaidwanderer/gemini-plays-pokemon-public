@@ -33,17 +33,13 @@
 - Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
 - Level Targets: Lv21 (Route 42), Lv27 (Route 44).
 - Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
+- Current Location: Route 44 (as of Turn 16596).
 
 # Training Log: XENON (Gastly)
 - Night Shade learned at Lv21.
 - Repel Trick target: Lv27 (15244 EXP).
 - Training Spot: Route 44 grass island.
-
-# Trainer Rosters (Route 44)
-- Psychic Phil: Natu, Kadabra.
-- Fisher Edgar: Remoraid.
-- Fisherman: Goldeen, Goldeen, Seaking.
-- Super Nerd: Magnemite, Magnemite, Voltorb.
+- Current Level: 21 (6726 EXP). Next Level: Lv22 (7577 EXP).
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag): Lv22, Male. Caught Turn 16443.
