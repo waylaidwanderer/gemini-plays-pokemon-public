@@ -4,15 +4,15 @@
 - **Status:** Found **HM07 (Waterfall)** at (31, 7).
 
 # Ice Path Strategy
-- **Current Action:** Returning to East Intersection.
+- **Current Action:** Exploring Southern Floor.
 - **Goal:** Find Ladder to B1F.
-- **Status:** Found HM07. Escaped West Ice Room.
-- **Location:** Winding Corridor (17, 14).
+- **Status:** Found HM07. Escaped Ice Rooms.
+- **Location:** Heading South from (25, 21).
 - **Path Plan:**
-  1. Walk to East Intersection (28, 19). [NEXT]
-  2. Explore South from (28, 19) towards unexplored area.
-- **Hypothesis:** Ladder is in the South-East section (approx 30-35, 20-30).
-- **Items:** Item Balls at (32, 23), (35, 9).
+  1. Navigate to (25, 23). [NEXT]
+  2. Explore South into unseen territory.
+- **Hypothesis:** Ladder is in the South-Central area.
+- **Items:** Item Balls at (32, 23), (35, 9) [Inaccessible].
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
@@ -22,3 +22,4 @@
 - **West:** Ice Room (Puzzle solved).
 - **Center:** Hub.
 - **East:** Winding corridors.
+- **South:** Unexplored. Likely progression.
