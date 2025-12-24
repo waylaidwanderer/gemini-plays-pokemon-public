@@ -51,3 +51,7 @@
 - Confirmed: City Side Ladder (5,3) redirects to Trail Side (17,15).
 - Conclusion: Access to Wise Trio Room is now only via the Trail Side.
 - Plan: Talk to the Wise Trio Sages in 4_2. They might have new dialogue about the "Tower Shook" event.
+- Observation: "Map Objects On Screen" is EMPTY in the Wise Trio Room (4_2).
+- Conclusion: The Wise Trio Sages (Gaku, Masa, Koji) are GONE.
+- Hypothesis: They might have moved to the Tin Tower or disappeared after the "Tower Shook" event.
+- Plan: Verify they are gone by walking to (4,4), then exit to Tin Tower Yard to check for changes there.
