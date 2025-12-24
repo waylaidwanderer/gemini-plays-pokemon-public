@@ -1,9 +1,9 @@
 # Suicune Quest (Crystal)
 - Current Step: Route 36 sighting.
 - Requirements: Sighting occurs at the junction of Route 36 and 37 (near the former Sudowoodo spot).
-- Hypothesis 1: Approach from the West (Route 36) to trigger sighting (Failed twice).
-- Hypothesis 2: Approach from the North (Route 37) to trigger sighting (Failed once - Turn 17377).
-- Hypothesis 3: Approach from the East (Violet City side) to trigger sighting (Pending).
+- Hypothesis 1: Approach from the West (Route 36) (Failed).
+- Hypothesis 2: Approach from the North (Route 37) (Failed).
+- Hypothesis 3: Approach from the East (Violet City side) (Failed).
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade.
 
 # Tile Mechanics (Global)
@@ -25,7 +25,7 @@
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
 
 # Items Received
-- Fire Stone: From Schoolboy Alan on Route 36. Collected at (31, 14).
+- Fire Stone: Collected from Alan on Route 36 at (31, 14).
 
 # Lessons Learned
 ## Menu Navigation
