@@ -11,9 +11,9 @@
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
 - Step 4: Explore western mainland path at (1, 8)-(3, 10). [DONE]
 - Result: No trigger found on western floor tiles (Turn 17837).
-- Step 5: Exhaustive island sweep (Row 12 and southern perimeter). [In Progress]
-- Hypothesis 32: Trigger requires approaching the island's southern shore from the water.
-- Step 1: Surf from (13, 9) east along the southern side of the island.
+- Step 5: Exhaustive island sweep (Rows 10-13). [In Progress]
+- Hypothesis 32: Trigger is on the northern edge of the island clearing (Rows 10-12).
+- Step 1: Surf from (13, 9) to (20, 10) and sweep Rows 10-12.
 - Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
 - Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
 
