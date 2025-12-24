@@ -1,10 +1,8 @@
 # Suicune Quest (Crystal)
-- Prerequisites: Burned Tower, Cianwood, Route 42 (Incomplete?).
 - Current Step: Re-verify Route 42 sighting.
-- Route 42 HOW: Surf from Ecruteak side (41, 10), Cut tree at (24, 13), walk to center of island to trigger Suicune.
+- Route 42 HOW: Surf from Ecruteak side (41, 10), Cut tree at (24, 13), walk to center of island to trigger Suicune fleeing.
 - Pivot: If Route 42 is clear, approach Route 36 junction (28, 9) from the West.
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade. 
-- Hypothesis: Suicune lacks Roar in Crystal (Verify in battle).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -22,6 +20,4 @@
 # Key Observations
 - Suicune Sighting Sequence: Scripted events (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower).
 - Pokedex 'Area' shows the next scripted route for Suicune.
-- Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
-- Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
-- Menu Navigation: Break sequences into 1-2 presses to avoid looping.
+- Menu Navigation: Break sequences into 1-2 presses to avoid looping. Verify cursor state.
