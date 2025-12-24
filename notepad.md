@@ -14,7 +14,11 @@
 - **COUNTER:** Impassable. Interact to talk to NPCs.
 - **BOOKSHELF:** Impassable. Interact for flavor text.
 - **TV/PC:** Impassable. Interact for flavor text/storage.
-- **WARP_CARPET_DOWN:** Traversable. Exits map.
+- **WARP_CARPET_DOWN/LEFT/RIGHT:** Traversable. Exits map.
+- **DOOR:** Traversable. Warps to interior map.
+- **HEADBUTT_TREE:** Impassable. Interactable (Headbutt).
+- **WATER:** Impassable (without Surf). Traversable (with Surf).
+- **LEDGE_HOP_DOWN/RIGHT:** One-way traversable (Down/Right).
 
 # Shop Inventories
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
