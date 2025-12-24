@@ -14,8 +14,8 @@
 - Objective: Capture Suicune at Tin Tower 1F.
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
-- Trigger Hypothesis: Approach intersection near National Park entrance (approx. 18, 9) from the East or North.
-- Status: At (27, 13) on Route 36. Moving West to approach (18, 9) from the East.
+- Trigger Hypothesis: Approach intersection near National Park entrance (18, 9) from the North (Route 37) or East (Route 36).
+- Status: At (18, 9). Heading to Route 37 to approach from the North.
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
@@ -35,6 +35,6 @@
 
 # General Lessons
 - Suicune Sighting Sequence: Scripted events, not roamers. Pokedex 'Area' shows the next route.
-- Sage Permission Logic: The Sage at (4, 6) in building 4_1 granting permission is the "flag" that Route 42 sighting is complete. If Suicune isn't in Tin Tower, the next flag is Route 36.
-- Linear Scripting: Legendary beast encounters in Crystal follow a strict overworld sighting sequence before becoming static encounters.
+- Sage Permission Logic: The Sage at (4, 6) in building 4_1 granting permission flags Route 42 completion.
+- Linear Scripting: Legendary beast encounters follow a strict overworld sequence.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
