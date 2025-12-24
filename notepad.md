@@ -34,3 +34,5 @@
 - **Action:** Exited Tin Tower. Re-entering immediately to check for Suicune respawn.
 - **Action:** Walking to (9,10) to confirm Suicune's presence.
 - **Concern:** Since I whited out in the previous battle, there is a risk Suicune has despawned permanently or moved. Gen 2 mechanics on white-outs vs legendaries are unforgiving.
+- **Observation:** Verified Suicune is not roaming via Pokedex.
+- **Plan:** Attempting to reach (9,9) via the top entrance at Row 3/4. Inspecting wall at (10,4) to see if it opened after talking to Sages.
