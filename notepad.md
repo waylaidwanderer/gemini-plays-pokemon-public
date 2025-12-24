@@ -6,21 +6,18 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (10, 5).
+- **Position:** Player at (11, 6).
 - **Goal:** Solve B1 (Top Right Boulder).
 - **Puzzle State:**
-  - **B1:** (10, 4).
+  - **B1:** (10, 1). (Pushed up successfully).
   - **B2:** (7, 8).
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
 ## Master Plan
-1.  **Push B1 UP to (10, 1):**
-    - Execute Up x5.
-    - Final State: B1 at (10, 1), Player at (10, 3) or (10, 2).
-2.  **Navigate Around:**
-    - Go South to Row 15 -> West to Left Side -> North to Row 1 -> East to (9, 1).
-3.  **Finish B1:**
+1.  **Navigate Around to (9, 1):**
+    - Go South to Row 16 -> West to Column 6 -> North to Row 1 -> East to (9, 1).
+2.  **Finish B1:**
     - Push Right to (11, 1).
-    - Push Down to (11, 2) (Pit).
-4.  **Next:** Solve B2.
+    - Go to (11, 0). Push Down into Pit (11, 2).
+3.  **Next:** Solve B2.
