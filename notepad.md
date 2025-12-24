@@ -37,3 +37,5 @@
 - **Suicune Info:** Lv 40. Moves: Bubblebeam (Water), Gust (Flying, Phys), Leer, Rain Dance.
 - **Strategy Note:** Need status (Sleep/Paralysis) and maybe X Defends for next time. Gust hurts machoke.
 - **Current State:** Team fainted. At Ecruteak Pokemon Center.
+- **Shopping List:** Buy 20+ Great Balls at Ecruteak Mart.
+- **Training Idea:** Train Lapis (Poliwag) for Hypnosis? Suicune is hard to catch without status.
