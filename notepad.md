@@ -20,3 +20,4 @@
 - **Turn 16398:** Ambushed by Golbat while escaping. Gyarados critical (11 HP).
 - **Immediate Action:** Flee -> Heal -> Reset to (13, 16).
 - **Next Hypothesis:** Check the "Box" at the start ((13,16)-(15,17)). Is sliding UP from (15, 17) a valid move, or just a loop?
+- **Turn 16404:** Testing (9, 18). Confirmed path to x=0 is blocked by walls at x=1-2 on Row 17.
