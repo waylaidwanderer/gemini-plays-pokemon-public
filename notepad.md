@@ -10,36 +10,19 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 112. Steps remaining: 88. Expiration: ~Turn 16736.
+- Super Repel: Activated Turn 16716. Steps taken: 46. Steps remaining: 154.
 
 # Plan for Current Hunt
 1. Lead with XENON (Lv21).
 2. Keep Super Repel active.
-3. Pace in grass at (50, 12) using grind_movement.
-4. Check Pokedex if no encounter after 100 steps.
-
-# Lessons Learned
-- Navigation: Avoid mixing directional and action inputs in menus; it causes truncation. Navigate step-by-step.
+3. Pace in grass at (50, 12) using press_buttons.
+4. Check Pokedex every ~50 steps.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
 - HM02 Fly: ICARUS (Pidgey)
 - HM03 Surf: Ravioli (Krabby)
 - HM04 Strength: GNEISS (Graveler)
-
-# Type Effectiveness (Verified)
-- Ghost vs Normal: Immune.
-- Ghost vs Psychic: Super Effective.
-- Psychic vs Ghost/Poison: Super Effective.
-- Poison vs Ghost/Poison: Not very effective.
-- Grass vs Ghost/Poison: Not very effective.
-
-# Observed Movesets
-- Tangela: Absorb, Vine Whip, PoisonPowder.
-- Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
-- Weepinbell: PoisonPowder, Acid, Wrap, Sleep Powder (Route 44).
-- Natu: Future Sight, Night Shade.
-- Remoraid: Psybeam.
 
 # Suicune Tracking & Strategy
 - Status: Roaming. Moves when player changes maps.
