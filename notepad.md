@@ -41,18 +41,18 @@
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
 - Current Location: Barrier Station (4_1).
-- Goal: Find Eusine or a new trigger.
+- Goal: Check Wise Trio Room for Eusine.
 
 # Plan
-1. Talk to Wandering Gramps (currently at 2,12).
-2. Talk to Wandering Sage (currently at 5,8).
-3. Go to Wise Trio Room via ladder at (17,3).
-4. Check for Eusine/Sages there.
-5. If nothing, considering checking the Tin Tower entrance again or researching triggers.
+1. Navigate to Ladder at (5,3).
+2. Enter Wise Trio Room.
+3. Talk to Wise Trio / Check for Eusine.
+4. If nothing, considering checking the Tin Tower entrance again or researching triggers.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
 - **WALL:** Impassable.
 - **LADDER:** Warp to another floor.
 - **WARP:** Teleport tile.
+- Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore so far).
