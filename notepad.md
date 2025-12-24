@@ -3,11 +3,8 @@
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
 - Milestone 3: Route 42 (In Progress). Current Status: Roaming (Pokedex verified).
 
-## Strategy for Route 42:
-- Observation: Exhaustive searches of the middle island (X=24-30, Y=14-17) failed to trigger a scripted encounter.
-- Hypothesis: Suicune is currently in Roaming mode on this route.
-- Action: Patrol the tall grass on the east side of Route 42 (X=46-53, Y=12-13) to force an encounter.
-- Battle Prep: Lead with XENON (Gastly) to use Mean Look immediately.
+## Strategy for Route 42
+Patrol the tall grass on the east side (X=46-53, Y=12-13) to encounter roaming Suicune. Lead with XENON (Gastly) to use Mean Look immediately.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -32,7 +29,7 @@
 - Clear Bell: Obtained.
 
 # Battle Mechanics & Type Effectiveness
-- Normal-type Pokémon (e.g. RATICATE) are immune to Ghost-type moves (e.g. LICK, NIGHT SHADE). Verified Turn 18137.
+- Normal-type Pokémon (e.g. RATICATE) are immune to Ghost-type moves (e.g. LICK, NIGHT SHADE).
 
 # General Lessons
-- Surfing: Moving from a WATER tile onto a FLOOR tile automatically stops SURF. To continue traveling across water, you must re-initiate SURF from the edge. Verified Turn 18174.
+- Surfing: Moving from a WATER tile onto a FLOOR tile automatically stops SURF. To continue traveling across water, you must re-initiate SURF from the edge.
