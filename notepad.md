@@ -1,17 +1,16 @@
 # Tile Mechanics (Global)
-- FLOOR: Standard ground. Traversable in all directions. No special effects.
-- WALL: Solid obstacle. Impassable from all directions.
-- TALL_GRASS: Overworld encounter area. Traversable in all directions. Triggers wild battles.
-- WATER: Aquatic terrain. Requires Surf to enter and traverse. Triggers wild battles.
-- HEADBUTT_TREE: Special tree type. Impassable. Can be interacted with using Headbutt.
-- CUT_TREE: Small tree blocking paths. Requires Cut (HM01) to remove. Regrows on map reload.
-- LEDGE_HOP_LEFT: One-way ledge. Can jump West, but acts as a wall from the West.
-- FLOOR_UP_WALL: One-way barrier. Can be traversed from North to South (downwards), but acts as a wall from South to North. Verified on Route 42.
-- WARP: Map transition point. Walk onto it to change maps.
+- FLOOR: Standard ground. Traversable in all directions.
+- WALL: Solid obstacle. Impassable.
+- TALL_GRASS: Overworld encounter area.
+- WATER: Aquatic terrain. Requires Surf.
+- HEADBUTT_TREE: Special tree type. Impassable. Interacts with Headbutt.
+- CUT_TREE: Small tree. Requires Cut.
+- LEDGE_HOP_LEFT: One-way ledge (West).
+- FLOOR_UP_WALL: One-way barrier (Southward).
+- WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 144. Steps remaining: 56.
-- Note: grind_movement tool was unreliable; using press_buttons for precise step counting.
+- Super Repel: Activated Turn 16716. Steps taken: 142. Steps remaining: 58.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
