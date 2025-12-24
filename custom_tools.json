@@ -213,30 +213,35 @@
     ]
   },
   "navigate_fly_map": {
-    "description": "Calculates the button sequence to move the cursor on the Johto FLY map from a starting city to a target city. Assumes a standard grid layout.",
+    "description": "Calculates the button sequence to move the cursor on the Johto FLY map from a starting city to a target city. Uses a graph-based search for reliable navigation.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "current_city": {
-          "description": "The city currently selected on the FLY map.",
-          "type": "string"
+          "type": "string",
+          "description": "The city currently selected on the FLY map."
         },
         "target_city": {
-          "description": "The city you want to fly to.",
-          "type": "string"
+          "type": "string",
+          "description": "The city you want to fly to."
         }
       },
       "required": [
         "current_city",
         "target_city"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\n\ndef main(input_data):\n    # Johto Fly Map Grid\n    # y=0: Cianwood(0), Olivine(1), Ecruteak(2), Mahogany(3), Blackthorn(4)\n    # y=1: Goldenrod(0), Violet(1), Cherrygrove(2), New Bark(3)\n    # y=2: Azalea(1)\n    grid = {\n        \"CIANWOOD CITY\": (0, 0), \"OLIVINE CITY\": (1, 0), \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0), \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (0, 1), \"VIOLET CITY\": (1, 1), \"CHERRYGROVE CITY\": (2, 1),\n        \"NEW BARK TOWN\": (3, 1), \"AZALEA TOWN\": (1, 2)\n    }\n    curr = input_data.get(\"current_city\", \"\").upper()\n    targ = input_data.get(\"target_city\", \"\").upper()\n    if curr not in grid or targ not in grid:\n        print(json.dumps([\"B\"]))\n        return\n    cx, cy = grid[curr]\n    tx, ty = grid[targ]\n    btns = []\n    # Movement on this specific grid is complex, so we'll do simple steps\n    # and trust the cursor logic. \n    dx = tx - cx\n    dy = ty - cy\n    if dx > 0: btns.extend([\"Right\"] * abs(dx))\n    elif dx < 0: btns.extend([\"Left\"] * abs(cx - tx))\n    if dy > 0: btns.extend([\"Down\"] * abs(dy))\n    elif dy < 0: btns.extend([\"Up\"] * abs(cy - ty))\n    btns.append(\"A\")\n    print(json.dumps(btns))\n\nif __name__ == \"__main__\":\n    import sys\n    input_data = json.loads(sys.argv[1])\n    main(input_data)\n",
+    "python_script": "import json\n\ndef solve():\n    # Johto FLY map adjacency based on observed cursor behavior\n    adj = {\n        \"New Bark Town\": {\"Left\": \"Cherrygrove City\", \"Up\": \"Cherrygrove City\"},\n        \"Cherrygrove City\": {\"Right\": \"New Bark Town\", \"Up\": \"Violet City\", \"Down\": \"New Bark Town\"},\n        \"Violet City\": {\"Down\": \"Cherrygrove City\", \"Up\": \"Azalea Town\", \"Left\": \"Goldenrod City\"},\n        \"Azalea Town\": {\"Down\": \"Violet City\", \"Up\": \"Goldenrod City\"},\n        \"Goldenrod City\": {\"Down\": \"Azalea Town\", \"Up\": \"Ecruteak City\", \"Right\": \"Violet City\"},\n        \"Ecruteak City\": {\"Down\": \"Goldenrod City\", \"Up\": \"Lake of Rage\", \"Left\": \"Olivine City\", \"Right\": \"Mahogany Town\"},\n        \"Mahogany Town\": {\"Left\": \"Ecruteak City\", \"Right\": \"Blackthorn City\"},\n        \"Blackthorn City\": {\"Left\": \"Mahogany Town\"},\n        \"Lake of Rage\": {\"Down\": \"Ecruteak City\"},\n        \"Olivine City\": {\"Left\": \"Cianwood City\", \"Right\": \"Ecruteak City\"},\n        \"Cianwood City\": {\"Right\": \"Olivine City\"}\n    }\n    \n    start = input_data.get(\"current_city\")\n    target = input_data.get(\"target_city\")\n    \n    if not start or not target or start == target:\n        print(json.dumps([]))\n        return\n        \n    import collections\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            print(json.dumps(path))\n            return\n            \n        moves = adj.get(curr, {})\n        for move, neighbor in moves.items():\n            if neighbor not in visited:\n                visited.add(neighbor)\n                queue.append((neighbor, path + [move]))\n                \n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-24T14:06:36.256Z",
         "action_counter": 17301
+      },
+      {
+        "commit_message": "Fixed IndexError by using a dictionary-based adjacency map and safer enumeration. Updated Johto FLY map connections based on observed cursor behavior.",
+        "timestamp": "2025-12-24T14:21:17.157Z",
+        "action_counter": 17342
       }
     ]
   }
