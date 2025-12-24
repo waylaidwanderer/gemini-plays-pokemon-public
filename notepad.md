@@ -14,17 +14,19 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan (Verified)
-1.  **Push B1 Up to (11, 5):** DONE.
-2.  **Go around to (12, 5):** DONE.
-3.  **Push B1 Left to (10, 5):**
-    - Action: Push Left.
-    - Result: B1 at (10, 5). Player at (12, 5).
-    - Next: Move to (10, 6) to push Up.
-4.  **Push B1 Up to (10, 1):**
-    - From (10, 6), push Up.
-5.  **Push B1 Right to (11, 1):**
-    - From (9, 1), push Right.
-6.  **Push B1 Down to Pit (11, 2):**
-    - From (11, 0), push Down.
-7.  **Next:** Solve B2.
+## Master Plan (Solution Found)
+1.  **Move B1 to (11, 5):**
+    - Go to (9, 5) via Top Loop.
+      - Path: (12, 5) -> (12, 1) -> (10, 1) -> Slide Down to (10, 4) -> (9, 4) -> (9, 5).
+    - Push B1 Right to (11, 5).
+2.  **Move B1 back to (10, 5) (positioning player):**
+    - Go to (11, 6).
+      - Path: (10, 5) -> (10, 6) -> Slide Right to (11, 6).
+    - Push B1 Left to (10, 5).
+      - Player ends at (11, 5).
+3.  **Get below B1:**
+    - Go (11, 5) -> (11, 6) -> Slide Left to (10, 6).
+4.  **Solve:**
+    - Push Up to (10, 1).
+    - Push Right to (11, 1).
+    - Push Down to Pit (11, 2).
