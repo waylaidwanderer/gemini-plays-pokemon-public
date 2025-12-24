@@ -46,3 +46,7 @@
 - Checked eastern lake island (24, 13) - (30, 15): No Suicune.
 - Checked middle lake island (16, 10) - (17, 11): No Suicune (confirmed by screen observation).
 - Goal: Reach Ecruteak City. Suicune likely at Tin Tower.
+
+# Tin Tower Progress
+- Sage at (4, 6) granted permission: "Please, do go on."
+- Path to Tin Tower is now open. Heading to ladder at (5, 3).
