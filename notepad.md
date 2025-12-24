@@ -12,6 +12,7 @@
 # Item Usage Tracking
 - Super Repel: Activated Turn 16651. Steps taken: 116. (Expires at 200 steps).
 - Note: Corrected step count. 116 steps taken since activation. 84 steps remaining.
+- Current Turn: 16707. Super Repel active. Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
