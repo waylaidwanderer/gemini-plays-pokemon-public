@@ -1,13 +1,13 @@
 # Ice Path Strategy
-- **Navigation Analysis:**
-  - The "East Corridor" shifts columns.
-  - North Part: x=30 (Row 12 to 18).
-  - Connection: Row 18/19.
-  - South Part: x=28 (Row 18 down to ??).
-- **Plan:**
-  1. Walk to (28, 20).
-  2. Explore South along x=28.
-  3. Look for a ladder or a path West at the bottom (Row 27+).
+- **Primary Goal:** Reach Blackthorn City.
+- **Status:** Solving Ice Puzzle (South/East Route).
+- **Location:** (15, 21).
+- **Action:** Proceeding with **East Corridor Plan**.
+  1. From (15, 21), Slide **RIGHT** to (19, 21).
+  2. Slide **DOWN** to (19, 23).
+  3. Slide **RIGHT** to (20, 23) (Safe Floor).
+  4. Navigate to (28, 19) via (25, 19).
+  5. **Explore Deep South:** Go SOUTH from (28, 19) down column x=28.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Mechanics & Lessons
