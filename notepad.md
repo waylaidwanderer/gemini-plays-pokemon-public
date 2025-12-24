@@ -50,4 +50,5 @@
 - Attempt 1: Approach from South (Ruins of Alph). Result: Failed.
 - Attempt 2: Approach from East (Violet City). Result: Failed.
 - Attempt 3: Approach from West (National Park). Result: Failed.
+- Attempt 4: Approach from North (Route 37). Result: In Progress.
 - Strategy: Pacing the entire length of the route to find the specific trigger tile.
