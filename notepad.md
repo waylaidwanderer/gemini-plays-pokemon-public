@@ -31,6 +31,9 @@
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees (Pink, Green, Yellow) on the island, specifically approaching from the south (Row 17).
 - Attempt 1: Faced Green tree from (28, 17). Result: FAILED.
 - Step 2: Interact with all three Apricorn trees (X=27, 28, 29). [In Progress]
+- Pink Apricorn Tree (27, 16): Checked. Result: No Suicune sighting.
+- Green Apricorn Tree (28, 16): Next.
+- Yellow Apricorn Tree (29, 16): Pending.
 - Step 3: Sweep remaining island floor tiles and mainland unseen tiles at (4, 14)-(7, 14).
 - Note: If this fails after a full sweep, I will move on to Route 44/Ice Path/Blackthorn City.
 
