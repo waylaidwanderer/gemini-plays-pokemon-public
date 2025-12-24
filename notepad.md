@@ -43,4 +43,6 @@
 - **Hypothesis:** If the center is sealed and Suicune is gone, I must need to go up to 2F. Stairs might be in the corner.
 - **Correction:** The center room (7,5 to 12,9) is completely sealed by walls. I cannot physically reach (9,9).
 - **Plan Adjustment:** I cannot use the Clear Bell at (9,9). I will try using it at the "Mystery Warp" (10,2) or near the Sages if corner exploration fails.
-- **Current Task:** Inspecting (3,1) and (3,9).
+- **Current Task:** Inspecting (3,9).
+- **Observation:** Nook at (3,1) is empty.
+- **Plan:** If (3,9) is empty, I will go to the "Mystery Warp" at (10,2) and use the Clear Bell from the bag.
