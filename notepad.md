@@ -42,3 +42,6 @@
 # Lore
 - **Wise Trio:** Suicune is testing me at Tin Tower. Requires Clear Bell.
 - **Brass Tower:** Burned down 150 years ago. Lugia left.
+- **Advisor Plan:** Lead Gyarados -> Dragon Rage x3 (120 dmg) -> Switch to Sleeper (Lapis/Lucid) -> Hypnosis -> Ultra/Great Balls.
+- **Team Change:** Swap Belladonna (Useless) for Lucid (Drowzee Lv 13, Hypnosis). Two chances to sleep Suicune.
+- **Correction:** Ultra Balls are NOT sold in Ecruteak. Must use Great Balls.
