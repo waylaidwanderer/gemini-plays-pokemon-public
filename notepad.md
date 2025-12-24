@@ -66,5 +66,6 @@
 - **Action:** Pressing 'A' to inspect wall at (10,4).
 - **Plan:** If inspection fails, I will resume the plan to check the Top-Right Corner (16,2) via Row 2, as I was interrupted before.
 - **Observation:** Wall at (10,4) is solid (inspection failed).
-- **Plan:** Inspect Top-Right Corner (16,1).
-- **Next:** Talk to Center Sage at (11,11).
+- **Status:** Checked Top-Right Corner (16,1). If empty, proceeding to Center Sage.
+- **Plan:** Talk to Center Sage at (11,11).
+- **Hypothesis:** The Sages might have new dialogue after the "Tower Shook" event, or the Center Sage triggers the next phase.
