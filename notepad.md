@@ -13,7 +13,20 @@
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
 - Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681] [Attempt 1 - In Progress]
-- Plan: Surf to island north bank (24, 12), CUT tree at (24, 13) [Turn 17707], enter island center (24, 14) [In Progress].
+
+# Tile Mechanics (Global)
+- FLOOR: Traversable.
+- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable.
+- TALL_GRASS: Traversable, triggers wild encounters.
+- WATER: Impassable without Surf. Traversable with Surf.
+- LEDGE: One-way movement (South-only for standard).
+- WARP / DOOR / WARP_CARPET: Map transition.
+- CUT_TREE: Impassable until CUT.
+- ROCK: Impassable. Requires ROCK SMASH.
+- VOID: Impassable map boundary.
+- CAVE: Warp tile to interior.
+- FLOOR_UP_WALL: Impassable floor edge.
+- WATER_ROCKS: Impassable water obstacles (represented as WALL in water).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
