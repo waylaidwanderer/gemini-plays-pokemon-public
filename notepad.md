@@ -34,4 +34,4 @@
 - **Battle Log:** Defeated Sage Masa (Noctowl, Jolteon). Used Muscle (Dig).
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Sage Koji (Noctowl, Vaporeon). Used Muscle (Strength, Cross Chop). Muscle grew to Lv 57.
-- **Encounter:** Battling Suicune (Lv 40). Status: HP Low (Yellow), Def -2, Rain. 1 Ultra Ball left (Currently Throwing). Strategy: If this fails, switch to Great Balls (27).
+- **Encounter:** Battling Suicune (Lv 40). Status: HP Low (Yellow), Def -2, Rain. 0 Ultra Balls left. Strategy: Throwing Great Balls (27).
