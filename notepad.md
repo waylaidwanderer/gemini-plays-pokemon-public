@@ -37,4 +37,8 @@
 - Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
 - Confirmed: Warp at (10,2) is inactive.
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
-- Plan: Check Burned Tower (5,5) for Eusine. He might have new dialogue or reset instructions.
+- Obstacle: Warp at (20,2)/(20,3) (Barrier Station Entrance) failing to trigger on step-on.
+- Plan:
+  1. Try walking INTO the wall (Press Left) at (20,2).
+  2. If that fails, Fly to Ecruteak City Pokemon Center to bypass the Barrier Station.
+  3. Check Burned Tower (5,5) for Eusine.
