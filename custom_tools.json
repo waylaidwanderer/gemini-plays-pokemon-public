@@ -110,5 +110,35 @@
         "action_counter": 9999
       }
     ]
+  },
+  "analyze_map_reachability": {
+    "description": "Analyzes the provided map XML to find a path from the start coordinates to any tile in the target column (e.g., x=0). Returns the path if found, or 'No Path' with reachable area stats.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_column": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_column"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef bfs_to_column(map_xml, start_x, start_y, target_col):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            # Treat unseen as potentially walkable for exploration, but prefer seen\n            # Actually, to be safe, treat unseen as blocked unless we want to explore.\n            # Let's treat FLOOR, ICE, WARP_CARPET as walkable. \n            # WALL and FLOOR_UP_WALL (based on user observation) are blocked.\n            walkable = t_type in ['FLOOR', 'ICE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n            grid[(x, y)] = walkable\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    reachable_count = 0\n    \n    while queue:\n        x, y, path = queue.popleft()\n        reachable_count += 1\n        \n        if x == target_col:\n            return f\"Path Found: {path + [(x, y)]}\"\n        \n        # Directions: Up, Down, Left, Right\n        moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n        \n        for dx, dy in moves:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited and grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [(x, y)]))\n                    \n    return f\"No Path to column {target_col}. Reachable tiles count: {reachable_count}\"\n\nprint(bfs_to_column(map_xml_string, input_data['start_x'], input_data['start_y'], input_data['target_column']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T17:24:32.330Z",
+        "action_counter": 16454
+      }
+    ]
   }
 }
