@@ -40,3 +40,8 @@
 - Rock Smash (Info): Route 36 (Fisher at 44, 9).
 - Fisher Tully: Route 42. Gives items.
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
+## Route 42 Suicune Sweep Plan
+- Goal: Visit all reachable FLOOR tiles on the island to trigger the event.
+- Coordinates to visit: (26, 10-17), (27, 10-17), (28, 10-17), (29, 10-17).
+- Note: Already tested tiles near fruit trees (27-29, 16).
+- Progress: Systematic search initiated.
