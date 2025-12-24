@@ -1,9 +1,8 @@
 # Suicune Quest (Crystal)
-- Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
-- Current Step: Trigger final sighting on Route 36.
-- Confirmed Location: Route 36 (via Pokedex Area).
-- Trigger Attempts: East, West, North, South approaches to (35, 9) and (28, 9) failed.
-- Pivot Strategy: If sighting fails to trigger on Route 36, travel to Ecruteak City to check Wise Trio/Tin Tower flags.
+- Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Incomplete?).
+- Current Step: Re-verify Route 42 sighting.
+- Strategy: Fly to Ecruteak City, head East to Route 42, Surf to the middle island, and ensure Suicune flees.
+- Pivot Strategy: Once Route 42 is confirmed cleared, return to Route 36.
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade for chip damage. Suicune (Lv40) lacks Roar in Crystal.
 
 # Tile Mechanics (Global)
@@ -31,3 +30,4 @@
 - Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
 - Menu Navigation: Be careful with button sequences to avoid Pokegear/Pokedex loops.
+- Status: In Cherrygrove City (26_3). Heading to Ecruteak City.
