@@ -34,5 +34,5 @@
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (93/187 HP).
-- **Action:** Opening Pack to throw Great Ball.
-- **Strategy:** Throw Great Balls until caught or run out. Heal Muscle if < 60 HP. DO NOT ATTACK.
+- **Action:** Throwing Great Ball (Attempt 2).
+- **Strategy:** Throw Great Balls (11 left). Heal Muscle if < 60 HP. DO NOT ATTACK.
