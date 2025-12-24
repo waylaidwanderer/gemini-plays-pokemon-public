@@ -33,4 +33,5 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Investigation: Island center sweep 100% complete (Turn 17968) - Suicune sprite not present.
+- Investigation: Island center sweep 100% complete (Turn 17968). Re-checking Apricorn tree trigger at (28, 16).
+- Northern Corridor: Path at (30, 6) leads North to Row 4. Corridor extends from X=30 to X=59. Western pocket at (10, 4) reachable via Mt. Mortar.
