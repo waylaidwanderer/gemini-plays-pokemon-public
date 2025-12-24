@@ -39,7 +39,6 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Investigate Unexplored House at (18,11) in Ecruteak.
-- **Reasoning:** Tin Tower (3_4) Sages are passive. Warp (10,2) is closed. I need to find the trigger to reset the event. The house at (18,11) is the only unchecked location.
-- **Hypothesis:** This house might contain the Wise Trio or a key NPC (Eusine?).
-- **Plan:** Exit Tin Tower -> Navigate to (18,11).
+- **Action:** Navigating to Wise Trio Room (20,3).
+- **Reasoning:** Direct path to Unexplored House (18,11) is blocked by walls. I must traverse the Wise Trio Room (4_2) and likely the Barrier Station (4_1) to reach the main city area.
+- **Plan:** Enter (20,3) -> Traverse 4_2 -> Check 4_1 for City Exit.
