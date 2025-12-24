@@ -3,8 +3,8 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Talk to Teacher at (14, 6) and Growlithe at (12, 7), then exit to 3F.
-- **Recent Events:** Defeated Executives on 5F. Received Clear Bell.
+- **Current Task:** Talk to Growlithe at (12, 7), then exit to 3F.
+- **Recent Events:** Defeated Executives on 5F. Received Clear Bell. Talked to Mary (Teacher) - received Pink Bow.
 - **Lore:** Clear Bell is key to Tin Tower.
 - **Next:** Exit Radio Tower.
 
