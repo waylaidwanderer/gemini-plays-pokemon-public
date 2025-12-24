@@ -45,10 +45,10 @@
 - **Plan:** Executing route to the Ladder.
 - **Current State:**
     - **Location:** Goldenrod City (11_2).
-    - **Position:** `(24, 28)` (Outside Dept. Store).
+    - **Position:** `(9, 15)` (Outside Radio Tower).
     - **Objective:** Enter Radio Tower.
     - **Inventory:** Card Key, Amulet Coin.
 - **Plan:**
-    1. Navigate North/West to Radio Tower `(5, 15)`.
-    2. Enter Radio Tower.
+    1. Detour South to Row 16 to bypass the Rocket Grunt at `(8, 15)`.
+    2. Enter Radio Tower at `(5, 15)`.
     3. Proceed to 3F.
