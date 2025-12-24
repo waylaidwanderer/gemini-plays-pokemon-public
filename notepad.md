@@ -34,3 +34,5 @@
 - **Tactics:** Equip Quick Claw to Lucid (Drowzee). This gives a chance to move first and land Hypnosis before Suicune attacks!
 - **Inventory Update:** Bought 21 Great Balls. Total: 24.
 - **Next Step:** Equip Quick Claw to Lucid. Then test speed/hypnosis on wild pokemon.
+- **Action:** Equipping Quick Claw to Lucid (Slot 6).
+- **Goal:** Increase Lucid's chance to move first and use Hypnosis on Suicune.
