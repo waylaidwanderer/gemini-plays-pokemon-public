@@ -6,9 +6,10 @@
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all sightings.
 
 ## Strategy for Route 42 Sighting:
-- Priority 1: Explore the northern corridor (Row 3-4) and western pocket (Row 1-2). These are reachable via the eastern route path or Mt. Mortar.
-- Priority 2: Re-check the middle island floor (X=24-30, Y=14-17) ONLY if Priority 1 fails.
-- Approach: Surf East from (33, 10) to (40, 10) to access the eastern path.
+- Priority 1: Explore the western pocket (Row 1-2). Reachable via walking north from Mt. Mortar entrance at (10, 5).
+- Priority 2: Explore the northern corridor (Row 3-4). Reachable via walking north from the eastern path (X=50-59).
+- Priority 3: Re-check middle island floor ONLY if Priorities 1 & 2 fail.
+- Approach: Surf West from island to (20, 12), then walk West to (10, 10).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
