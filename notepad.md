@@ -2,17 +2,16 @@
 - Current Step: Re-verify Route 42 sighting (Started Turn 17252).
 - Route 42 HOW: Surf from Ecruteak side (41, 10), Cut tree at (24, 13), walk to center of island to trigger Suicune fleeing.
 - Pivot: If Route 42 is clear, approach Route 36 junction (28, 9) from the West.
-- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade. 
+- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade.
 
 # Lessons Learned
 ## Menu Navigation
-- When navigating complex menus like the FLY map or Pokedex, use 1-2 button presses at a time and verify the screen state. Long sequences often fail due to cursor desync.
-- Always verify the "Currently selected" text on screen before committing to a navigation tool.
+- Use 1-2 button presses at a time and verify screen state in complex menus (FLY map, Pokedex).
+- Verify "Currently selected" text before committing to navigation tools.
 
 ## Suicune Trigger Mechanics
-- In Crystal, Suicune sightings are strictly sequential: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- If a sighting won't trigger, the previous one is likely incomplete.
-- Pokedex 'Area' feature tracks the *current* active overworld sighting location.
+- Sightings are sequential: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
+- Pokedex 'Area' tracks the current active overworld sighting location.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -20,7 +19,6 @@
 - TALL_GRASS: Traversable, triggers encounters.
 - WATER: Impassable without Surf.
 - LEDGE_HOP / LEDGE: One-way movement (usually South).
-- FLOOR_UP_WALL: One-way barrier (Southward).
 - WARP / DOOR / WARP_CARPET: Map transition.
 - COUNTER: Impassable. Interact from front + A.
 
@@ -29,6 +27,5 @@
 
 # Key Observations
 - Suicune Sighting Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Pokedex 'Area' shows the next scripted route for Suicune.
 - Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.

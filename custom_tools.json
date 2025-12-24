@@ -231,12 +231,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    # Johto City Grid (Approximate for navigation)\n    # (x, y) coordinates\n    cities = {\n        \"NEW BARK TOWN\": (8, 4),\n        \"CHERRYGROVE CITY\": (6, 4),\n        \"VIOLET CITY\": (4, 4),\n        \"AZALEA TOWN\": (4, 6),\n        \"GOLDENROD CITY\": (2, 4),\n        \"ECRUTEAK CITY\": (4, 2),\n        \"OLIVINE CITY\": (2, 2),\n        \"CIANWOOD CITY\": (0, 2),\n        \"MAHOGANY TOWN\": (6, 2),\n        \"BLACKTHORN CITY\": (8, 2)\n    }\n    \n    current = input_data.get(\"current_city\", \"\").upper()\n    target = input_data.get(\"target_city\", \"\").upper()\n    \n    if current not in cities or target not in cities:\n        print(json.dumps([\"B\"])) # Exit if invalid\n        return\n\n    curr_x, curr_y = cities[current]\n    targ_x, targ_y = cities[target]\n    \n    buttons = []\n    \n    # Move X\n    dx = targ_x - curr_x\n    if dx > 0:\n        buttons.extend([\"Right\"] * (dx // 2))\n    elif dx < 0:\n        buttons.extend([\"Left\"] * (abs(dx) // 2))\n        \n    # Move Y\n    dy = targ_y - curr_y\n    if dy > 0:\n        buttons.extend([\"Down\"] * (abs(dy) // 2))\n    elif dy < 0:\n        buttons.extend([\"Up\"] * (abs(dy) // 2))\n        \n    # Add A to confirm\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    import sys\n    input_data = json.loads(sys.argv[1])\n    main(input_data)\n",
+    "python_script": "import json\n\ndef main(input_data):\n    # Johto Fly Map Grid\n    # y=0: Cianwood(0), Olivine(1), Ecruteak(2), Mahogany(3), Blackthorn(4)\n    # y=1: Goldenrod(0), Violet(1), Cherrygrove(2), New Bark(3)\n    # y=2: Azalea(1)\n    grid = {\n        \"CIANWOOD CITY\": (0, 0), \"OLIVINE CITY\": (1, 0), \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0), \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (0, 1), \"VIOLET CITY\": (1, 1), \"CHERRYGROVE CITY\": (2, 1),\n        \"NEW BARK TOWN\": (3, 1), \"AZALEA TOWN\": (1, 2)\n    }\n    curr = input_data.get(\"current_city\", \"\").upper()\n    targ = input_data.get(\"target_city\", \"\").upper()\n    if curr not in grid or targ not in grid:\n        print(json.dumps([\"B\"]))\n        return\n    cx, cy = grid[curr]\n    tx, ty = grid[targ]\n    btns = []\n    # Movement on this specific grid is complex, so we'll do simple steps\n    # and trust the cursor logic. \n    dx = tx - cx\n    dy = ty - cy\n    if dx > 0: btns.extend([\"Right\"] * abs(dx))\n    elif dx < 0: btns.extend([\"Left\"] * abs(cx - tx))\n    if dy > 0: btns.extend([\"Down\"] * abs(dy))\n    elif dy < 0: btns.extend([\"Up\"] * abs(cy - ty))\n    btns.append(\"A\")\n    print(json.dumps(btns))\n\nif __name__ == \"__main__\":\n    import sys\n    input_data = json.loads(sys.argv[1])\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-24T14:05:00.110Z",
-        "action_counter": 17296
+        "timestamp": "2025-12-24T14:06:36.256Z",
+        "action_counter": 17301
       }
     ]
   }
