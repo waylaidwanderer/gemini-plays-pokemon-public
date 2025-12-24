@@ -1,42 +1,25 @@
-# Suicune Capture Strategy (Crystal Version)
-## Primary Goal: Capture Suicune
-- Status: Roaming on Route 42.
-- Catcher: XENON (Gastly) - Mean Look (Trap) + Hypnosis (Sleep). 
-- Encounter Type: Wild encounter in tall grass/water.
-- **CRITICAL**: Suicune is a roamer! It will flee on Turn 1 if it is faster. Gastly (Lv18) is currently slower (Speed 36). 
-- Strategy: Need to increase speed or use a faster trapper. For now, focus on triggering the encounter to track movement.
-- Current Target: Encounter Suicune in Route 42 grass (50, 12) using Repel Trick.
+# Suicune Sighting Strategy (Pokemon Crystal)
+## Primary Goal: Trigger Suicune Sightings
+- Suicune is NOT a roamer in Crystal until after the Tin Tower event. It follows a scripted sequence of overworld sightings.
+- Sighting 1: North of Cianwood City (Completed).
+- Sighting 2: Route 42 Middle Island (Current Target). Triggered by approaching the sprite on the island.
+- Sighting 3: Route 36 (Next Target). Triggered by approaching the sprite near the Sudowoodo spot.
+- Final Encounter: Tin Tower. Stationary battle.
 
-## Battle Tactics: Suicune (Lv40)
-- Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
-- Strategy: Mean Look on Turn 1 to trap. Hypnosis to induce sleep.
-- Note: Ghost-types are NOT immune to status moves like Roar or Leer, but Suicune lacks phazing moves in Crystal.
+## Route 42 Navigation
+- Middle Island access: Surf at (14, 12) or use Cut on the tree at (24, 13).
+- Note: The Cut tree regrows whenever the map is reloaded (e.g., entering or exiting Mount Mortar).
 
-## Map Mechanics: Route 42
-- **Adjacent Maps**: Ecruteak City (1_1), Mahogany Town (2_7), Mt. Mortar (3_1).
-- **Navigation**: 
-  - Center island reachable via Surf at (14, 12) or Cut tree at (24, 13).
-  - Ledge at (y=14) requires North path (y=7) for access to South grass.
-- **Tile Mechanics**:
-  - FLOOR_UP_WALL: Impassable from North.
-  - TALL_GRASS: Triggers wild encounters (Lv13-17).
-  - WATER: Requires Surf (HM03).
-  - CUT_TREE: Requires Cut (HM01).
+## Party Strategy
+- XENON (Gastly, Lv18): Mean Look and Hypnosis. Essential for the final encounter at Tin Tower to prevent Suicune from fleeing (though it doesn't flee in the final Tin Tower battle in Crystal, it's good practice).
+- KIMCHI (Gloom): Has Cut for navigation.
+- Ravioli (Krabby): Has Surf for navigation.
 
-## Global Tile Mechanics (Summary)
-- TALL_GRASS: Triggers wild encounters.
-- WATER: Requires Surf (HM03).
-- LEDGE: One-way jump South.
-- WARP: Map transition.
-- Standard Collision: WALL, FENCE, TREE, MOUNTAIN, COUNTER (Impassable).
+## Tile Mechanics (Route 42)
+- WATER: Requires Surf (HM03). Interact with edge or use from menu.
+- CUT_TREE: Requires Cut (HM01). Regrows on map reload.
+- LEDGE: One-way movement (usually South or East).
+- FLOOR_UP_WALL: Collision type at (50, 14), impassable from North.
 
-## Strategy & Lessons
-- **Roamer Movement**: Roamers move between adjacent maps on map boundary cross. Re-verify location via Pokédex after every battle and map transition.
-- **Menu Reliability**: Keep menu sequences to 1-3 buttons of a single type (directional OR action) to avoid system truncation.
-- **Suicune Encounters**: 
-  1. North of Cianwood (Seen).
-  2. Route 42 middle island (Next).
-  3. Route 36.
-  4. Tin Tower.
-- **CRITICAL**: Suicune CANNOT be caught during scripted sightings. It will always flee. It can only be caught at the Tin Tower later. Do not waste Great Balls yet.
-- **Correction (Turn 15705)**: Turn count sync fixed. Training log removed. Progressing to center of island.
+## Items
+- Super Repel: Active for 200 steps. Use to avoid wild encounters while traveling.
