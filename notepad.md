@@ -65,3 +65,6 @@
 - **Observation:** Walking into wall at (10,4) failed. It is solid.
 - **Action:** Pressing 'A' to inspect wall at (10,4).
 - **Plan:** If inspection fails, I will resume the plan to check the Top-Right Corner (16,2) via Row 2, as I was interrupted before.
+- **Observation:** Wall at (10,4) is solid (inspection failed).
+- **Plan:** Inspect Top-Right Corner (16,1).
+- **Next:** Talk to Center Sage at (11,11).
