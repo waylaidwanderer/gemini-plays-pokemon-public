@@ -25,3 +25,4 @@
 - Checked (10,2): Not a warp.
 - Checked Sage (5,9): No battle.
 - Checked Sage (14,6): No battle.
+- **Action:** Exited Tin Tower. Re-entering immediately to check for Suicune respawn.
