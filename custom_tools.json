@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    # Wait for menu to open/settle\n    buttons = [\"sleep 1500\"]\n    # Reset to top move just in case\n    buttons.extend([\"Up\", \"sleep 300\", \"Up\", \"sleep 300\", \"Up\", \"sleep 300\"])\n    # Move to target move\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 400\")\n    # Select move\n    buttons.append(\"A\")\n    # Long wait for animation to start and text to appear\n    buttons.append(\"sleep 3500\")\n    # Mash B to clear all battle text (Calcifer used..., Super Effective, Fainted, EXP gained, etc.)\n    for _ in range(30):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 500\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        move_index = int(input_data.get('move_index', 0))\n        \n        # Reset cursor to top\n        # Gen 2 move menu doesn't wrap. Pressing Up 3 times ensures we're at move 0.\n        buttons = [\"sleep 1500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\"]\n        \n        # Move down to the target move\n        for _ in range(move_index):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n        \n        buttons.append(\"A\")\n        \n        # Buffer presses to clear text boxes and handle potential level-up/evolve/new move screens\n        # Increased timing for animations\n        buttons.extend([\"sleep 4000\"] + [\"B\", \"sleep 600\"] * 25)\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -99,6 +99,11 @@
         "commit_message": "Refine battle_grind: Increase sleeps significantly and add move menu reset to ensure reliability.",
         "timestamp": "2025-12-24T05:41:16.549Z",
         "action_counter": 16394
+      },
+      {
+        "commit_message": "Increased timing between cursor moves and buffer B-spam to improve reliability in battle menus. Added comments to explain Gen 2 move menu behavior.",
+        "timestamp": "2025-12-24T06:27:57.937Z",
+        "action_counter": 16441
       }
     ]
   },

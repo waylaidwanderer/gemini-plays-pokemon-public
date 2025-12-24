@@ -4,7 +4,7 @@
 - WATER: Requires Surf (HM03).
 - TALL_GRASS: Traversable. Triggers wild encounters.
 - CUT_TREE: Requires Cut (HM01). Regrows on map reload.
-- LEDGE: One-way jump.
+- LEDGE_HOP_LEFT: One-way jump West.
 - FLOOR_UP_WALL: One-way barrier (Southward).
 - WARP: Traversable.
 
@@ -22,18 +22,28 @@
 - Natu: Future Sight, Night Shade.
 - Remoraid: Psybeam.
 
-# Suicune Strategy (Lead: XENON Gastly Lv19)
-- Goal: Reach Lv27 (Repel Trick threshold).
-- Start Turn: 16309.
+# Suicune Strategy
+- Suicune is a roamer. Its location changes when moving between maps.
+- Goal: Reach Lv27 with XENON (Gastly) for Repel Trick threshold.
+- Lead: XENON (Gastly) Lv20.
 - Method: Mean Look (Turn 1) + Hypnosis. Switch to Calcifer for damage if needed.
-- Note: Suicune moves on map transitions. Use roamer_tracker_v2.
-- Efficiency Tip: Ghost moves (Lick) are Physical in this game. Gastly is a Special attacker. For training, start with XENON then switch to Calcifer to finish battles quickly.
+- Note: Use roamer_tracker_v2 to intercept.
+
+# Training Quest: XENON to Lv27
+- Start Turn: 16423.
+- Location: Route 44 grass island.
+- Progress: XENON Lv20. Need ~900 EXP for Lv21 (~5 Poliwags). Poliwag (Lv22-24) gives ~180-200 EXP.
+- XENON learns Night Shade at Lv21. Fixed damage is ideal for weakening Suicune.
+
+# Trainer Rosters (Route 44)
+- Psychic Phil: Natu, Kadabra.
+- Fisher Edgar: Remoraid.
+- Fisherman: Goldeen, Goldeen, Seaking.
+- Super Nerd: Magnemite, Magnemite, Voltorb.
 
 # Future Tasks
 - Reach Lv27 with XENON.
-- Intercept Suicune using roamer_tracker_v2 (once XENON is Lv27).
+- Intercept Suicune using roamer_tracker_v2.
 - Test find_path_v2 fix.
 - Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
-- XENON (Gastly) learns Night Shade at Lv21. Fixed damage (equal to level) is ideal for weakening Suicune without over-killing.
-- Training Progress: XENON Lv20. Need ~900 EXP for Lv21 (~5 Poliwags). Poliwag (Lv22-24) gives ~180-200 EXP.
