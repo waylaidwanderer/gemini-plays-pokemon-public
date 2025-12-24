@@ -1,25 +1,20 @@
 # Suicune Event State
-- **Status:** Suicune missing from (9,9) after White Out.
-- **Global Flag:** "The TIN TOWER shook!" (Confirmed by Wandering Sage in Barrier Station).
+- **Status:** Suicune missing from (9,9).
+- **Global Flag:** "The TIN TOWER shook!" (Confirmed).
 - **Local State:** 
-    - Tin Tower 1F Sages: All 3 give generic lore.
-    - Warp at (10,2): Inactive.
-    - Suicune Spawn: Empty.
+    - Wise Trio Room (4_2): EMPTY. Sages Gaku, Masa, Koji are GONE.
+    - Tin Tower 1F: Previously Sages were present, generic dialogue.
+- **Hypothesis:** The disappearance of the Sages from 4_2 is the trigger. They have likely moved to Tin Tower or the path is now open.
 
 # Current Mission
-- **Goal:** Find Eusine to progress the Suicune event.
-- **Search Area:** Wise Trio Room / Tin Tower.
-- **Recent Intel:**
-    - Wandering Sage (Barrier Station): Confirmed "Tower Shook".
-    - Burned Tower/PC checked: Eusine NOT found.
-    - Wise Trio Room: Sages appear to be GONE.
-- **Plan:** 
-    1. Confirm Sages are gone.
-    2. Exit to Tin Tower to see if the path is clear or Eusine is there.
+- **Goal:** Catch Suicune / Find Eusine.
+- **Immediate Action:** Go to Tin Tower Yard -> Tin Tower 1F.
+- **Expectation:** Eusine or the Sages should be there, or the path forward (Clear Bell?) is active.
 
 # Reference
-- **Barrier Station:** Left Side (City), Right Side (Tower), linked by Wise Trio Room.
-- **Tile Mechanics:** WARP_CARPETs may need specific input (e.g. Down to exit Tower).
+- **Barrier Station:** 
+    - Ladder (17,3) -> Wise Trio Room (4_2).
+    - Ladder (5,3) -> (17,15) loop (Anomaly).
 - **Tin Tower Exit:** From (37,9) navigate maze to (20,3).
 - Cooltrainer F (PC) gave generic Morty dialogue.
 - Plan: Check Burned Tower for Eusine.
