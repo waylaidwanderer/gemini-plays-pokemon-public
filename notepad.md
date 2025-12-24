@@ -16,9 +16,10 @@
 - WALL: Impassable.
 - WATER: Traversable with HM03 SURF.
 - TALL_GRASS: Traversable; triggers encounters.
-- LEDGE: One-way traversable.
-- WARP / DOOR: Map transition.
+- LEDGE: One-way traversable (hop down).
+- WARP / DOOR / STAIRCASE: Map transition.
 - COUNTER: Impassable.
+- MART_SHELF: Impassable.
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
