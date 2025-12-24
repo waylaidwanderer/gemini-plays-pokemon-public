@@ -58,3 +58,5 @@
     2. Cross West through the gap at `(12, 8)`.
     3. Go North to the Elevator at `(10, 4)`.
     4. Exit to Goldenrod City.
+- **Action (Turn 15111):** Navigating to Elevator `(10, 4)` to exit B1F.
+- **Next Step:** Go to 1F, exit Dept. Store, then go to Radio Tower 3F.
