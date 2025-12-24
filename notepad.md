@@ -70,3 +70,6 @@
 - Speed Check: XENON (Lv18, Speed 36) is confirmed too slow to use Mean Look before Raikou/Suicune flee. Lv40 Roamers have significantly higher speed.
 - Strategy Update: Need to level XENON or find a faster trapper before continuing the hunt. Current pacing is ineffective for capture.
 - Quick Claw: Not in inventory. Check future locations for this item.
+
+# Trainer Rosters
+- Route 44: Psychic Phil - Natu (Lv24). Natu knows Future Sight.
