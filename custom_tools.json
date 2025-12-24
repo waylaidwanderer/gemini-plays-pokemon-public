@@ -256,18 +256,15 @@
       }
     ]
   },
-  "pace_area": {
-    "description": "Generates a sequence of button presses to move back and forth between two coordinates to trigger encounters or events.",
+  "check_area_collision": {
+    "description": "Checks tile types and occupancy (objects/sprites) for a specified rectangular area on the current map.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "end_x": {
           "type": "integer"
         },
         "end_y": {
-          "type": "integer"
-        },
-        "num_paces": {
-          "description": "How many times to move back and forth",
           "type": "integer"
         },
         "start_x": {
@@ -280,21 +277,16 @@
       "required": [
         "start_x",
         "start_y",
-        "num_paces"
-      ],
-      "type": "object"
+        "end_x",
+        "end_y"
+      ]
     },
-    "python_script": "import json\nimport sys\n\ndef pace():\n    try:\n        # The harness passes tool_args as a JSON string in the first argument\n        if len(sys.argv) < 2:\n            print(json.dumps([]))\n            return\n            \n        input_data = json.loads(sys.argv[1])\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        end_x = int(input_data.get('end_x', start_x))\n        end_y = int(input_data.get('end_y', start_y))\n        num_paces = int(input_data['num_paces'])\n        \n        buttons = []\n        \n        # Calculate steps to get from start to end\n        dx = end_x - start_x\n        dy = end_y - start_y\n        \n        move_to_end = []\n        if dx > 0: move_to_end += ['Right'] * dx\n        elif dx < 0: move_to_end += ['Left'] * abs(dx)\n        if dy > 0: move_to_end += ['Down'] * dy\n        elif dy < 0: move_to_end += ['Up'] * abs(dy)\n        \n        move_to_start = []\n        if dx > 0: move_to_start += ['Left'] * dx\n        elif dx < 0: move_to_start += ['Right'] * abs(dx)\n        if dy > 0: move_to_start += ['Up'] * dy\n        elif dy < 0: move_to_start += ['Down'] * abs(dy)\n        \n        # If no movement is specified, just alternate direction to look around\n        if not move_to_end:\n            move_to_end = ['Left']\n            move_to_start = ['Right']\n            \n        for _ in range(num_paces):\n            buttons += move_to_end\n            buttons += move_to_start\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback or error reporting\n        print(json.dumps([]))\n\npace()\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_area(xml_string, x1, y1, x2, y2):\n    root = ET.fromstring(xml_string)\n    results = []\n    for y in range(y1, y2 + 1):\n        row = root.find(f\"Row[@id='{y}']\")\n        if row is None: continue\n        for x in range(x1, x2 + 1):\n            tile = row.find(f\"Tile[@id='{x}']\")\n            if tile is None: continue\n            obj = tile.find('Object')\n            results.append({\n                'coord': (x, y),\n                'type': tile.attrib['type'],\n                'object': obj.attrib['id-name'] if obj is not None and 'id-name' in obj.attrib else (obj.attrib['name'] if obj is not None else None)\n            })\n    return results\n\n# Convert inputs and run\nx1, y1 = int(input_data['start_x']), int(input_data['start_y'])\nx2, y2 = int(input_data['end_x']), int(input_data['end_y'])\narea_data = check_area(map_xml_string, x1, y1, x2, y2)\nprint(json.dumps(area_data))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-24T17:52:55.120Z",
-        "action_counter": 17762
-      },
-      {
-        "commit_message": "Make pace_area more robust and actually move between two points.",
-        "timestamp": "2025-12-24T18:17:17.205Z",
-        "action_counter": 17800
+        "timestamp": "2025-12-24T20:06:00.149Z",
+        "action_counter": 17972
       }
     ]
   }

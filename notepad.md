@@ -1,31 +1,18 @@
 # Suicune Quest (Crystal) - FIXED SIGHTINGS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress). Pokedex 'SUICUNE'S NEST' dot confirms location.
+- Milestone 3: Route 42 (In Progress). Pokedex shows Suicune here.
 - Milestone 4: Route 36 (Next).
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all sightings.
 
 ## Strategy for Route 42 Sighting:
 - Location: Middle island (X=24-30, Y=14-17).
-- Approach: Surf to island landing at (24, 14). Center requires CUT at (24, 13).
-- Goal: Approach the Suicune sprite in the center of the island to trigger the flee cutscene.
-
-## Pokedex 'SUICUNE'S NEST' Dot Locations:
-- Ecruteak City (Burned Tower)
-- Cianwood City (North Beach)
-- Route 42 (Current Location)
-- Route 36 (Near Violet City)
-- Tin Tower (Ecruteak City)
-
-## Failed Hypotheses (Route 42)
-- Partial sweep of island (Rows 14-15) [Turns 17819-17863].
-- Apricorn tree interactions [Turns 17804-17818].
-- Western mainland sweep (X=1-12) [Turns 17836-17871].
-- Mt. Mortar B1F Exploration [Turns 17881-17935].
+- Approach: Surf to island landing at (24, 14). Center requires HM01 CUT.
+- Northern Corridor: Reachable via surfing North from (32, 8) and landing at (30, 6).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall from the North. Redirection properties confirmed in Mt. Mortar B1F (e.g., Up at 20,28 moves Right).
+- FLOOR_UP_WALL: Elevation boundaries. One-way walls from the North; impassable from the South.
 - WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until HM01 CUT.
 - WATER: Traversable with HM03 SURF.
@@ -46,5 +33,4 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Observation: Island sweep 100% complete. No Suicune. Pokedex 'AREA' shows multiple dots. [Turn 17968]
-- Plan: Explore northern corridor (Row 4) to confirm if scripted sighting is there. [Turn 17968]
+- Investigation: Island center sweep 100% complete (Turn 17968) - Suicune sprite not present.
