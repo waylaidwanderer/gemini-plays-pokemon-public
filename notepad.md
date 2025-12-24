@@ -2,40 +2,43 @@
 - **Radio Tower:** Defeated Team Rocket, rescued Director, got Clear Bell (for Tin Tower).
 
 # Current Objectives
-- **Location:** Ecruteak City.
-- **Immediate:** Cross Barrier Station to Bellchime Trail.
-- **Key Item:** Clear Bell (Required for Tin Tower).
+- **Location:** Ecruteak City (Pokemon Center).
+- **Primary:** Prepare for Suicune Rematch (Catch, don't kill).
+- **Immediate:** Heal Party -> Restock Balls -> Re-organize Team.
+
+# Suicune Analysis (The Target)
+- **Level:** 40
+- **Moves:** Bubblebeam (Water), Gust (Flying, Phys), Leer, Rain Dance.
+- **Stats:** High Def/Sp.Def. Fast.
+- **Catch Strategy:**
+    1.  **Status:** MUST HAVE Sleep (Hypnosis/Sleep Powder) or Paralysis. (Lapis has Hypnosis but is Lv 12).
+    2.  **HP:** False Swipe (if available) or careful chipping.
+    3.  **Balls:** Great Balls (Stock 3 -> Buy 20+).
+    4.  **Tank:** Muscle (Machoke) is good but takes heavy damage from Gust due to low Sp.Def/Def drops? Wait, Gust is Physical in Gen 2. Machoke has decent Def. The Def drops from Leer were the killer. X Defend could counter this.
+
+# Team & Resources
+- **Money:** ¥12952 (Enough for ~20 Great Balls).
+- **Key Assets:**
+    - Muscle (Lv 57 Machoke): Main tank/damage.
+    - Lapis (Lv 12 Poliwag): Knows Hypnosis. *Needs Training*.
+    - Belladonna (Lv 5 Oddish): Useless fodder currently.
+    - Garnet (Lv 28 Quilava): Decent speed, resistant to Gust (?). No, Fire doesn't resist Flying.
+- **Potential Assets (Box):**
+    - Rocky (Onix Lv 21): High Def, Rock resists Flying (Gust). Weak to Water (Bubblebeam). Bad match.
+    - Magnemite? (Don't have one).
+    - Gastly/Haunter? (Hypnosis user). Do I have one? Check Box. (Lucid is Drowzee Lv 13 with Hypnosis).
 
 # Tile Mechanics
 - **MART_SHELF:** Impassable. Obstacle.
 - **FLOOR:** Traversable. Standard movement.
 - **WALL:** Impassable.
-- **STAIRCASE:** Traversable. Warps to another floor.
+- **STAIRCASE/LADDER:** Traversable. Warps to another floor.
 - **COUNTER:** Impassable. Interact to talk to NPCs.
-- **BOOKSHELF:** Impassable. Interact for flavor text.
-- **TV/PC:** Impassable. Interact for flavor text/storage.
-- **WARP_CARPET_DOWN/LEFT/RIGHT:** Traversable. Exits map.
-- **DOOR:** Traversable. Warps to interior map.
-- **HEADBUTT_TREE:** Impassable. Interactable (Headbutt).
-- **WATER:** Impassable (without Surf). Traversable (with Surf).
-- **LEDGE_HOP_DOWN/RIGHT:** One-way traversable (Down/Right).
-- **LADDER:** Traversable. Warps to another floor.
+- **WARP_CARPET:** Traversable. Exits map.
 
 # Shop Inventories
-- **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
-- **Dialogue:** Sage at Barrier Station: Initially asked to leave, then heard Clear Bell. Said "You may be able to make it through TIN TOWER. Please, do go on."
-- **Dialogue:** Wise Trio: Suicune has arrived at Tin Tower. They will test my worthiness.
+- **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals.
 
-# Game Mechanics
-- **Battle Menu Cursor Memory:** Cursor resets to Slot 1 at the start of a new battle. Within a battle, it remembers the last used move.
-- **Lore:** Wise Trio Dialogue: "Legend has it that [Suicune, Entei, Raikou] can't be seen while they sleep." They doubt my claim of seeing them at Burned Tower.
-- **Lore:** Brass Tower (Burned Tower) awakened Pokémon. Tin Tower is where they rested. 150 years ago, lightning struck Brass Tower, fire raged for 3 days, put out by rain. Silver-colored Pokémon (Lugia) roosted there.
-- **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
-- **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
-- **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Battle Log:** Whited out to Suicune (Tin Tower). Muscle fainted to Crit Gust after 11 failed Great Ball attempts.
-- **Suicune Info:** Lv 40. Moves: Bubblebeam (Water), Gust (Flying, Phys), Leer, Rain Dance.
-- **Strategy Note:** Need status (Sleep/Paralysis) and maybe X Defends for next time. Gust hurts machoke.
-- **Current State:** Team fainted. At Ecruteak Pokemon Center.
-- **Shopping List:** Buy 20+ Great Balls at Ecruteak Mart.
-- **Training Idea:** Train Lapis (Poliwag) for Hypnosis? Suicune is hard to catch without status.
+# Lore
+- **Wise Trio:** Suicune is testing me at Tin Tower. Requires Clear Bell.
+- **Brass Tower:** Burned down 150 years ago. Lugia left.
