@@ -10,7 +10,8 @@
 - WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16768. Steps taken: 12. Steps remaining: 188. (Note: Turn 16769 and 16770 failed to move; corrected count).
+- Super Repel: Wore off at Turn 16773. Popping a new one now.
+- Current Turn: 16773. Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
