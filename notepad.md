@@ -1,14 +1,15 @@
 # Radio Tower Liberation
 
 ## Current Status
-- **Location:** Radio Tower 3F (3_19).
-- **Objective:** Reach 4F via the unlocked stairs at (17, 0).
-- **Current Task:** Ascend to 4F.
+- **Location:** Radio Tower 4F (3_20).
+- **Objective:** Clear 4F and reach 5F (Director's Office).
+- **Current Task:** Defeat Rocket Grunt at (14, 1).
 
 ## Radio Tower Progress
 - **1F:** Cleared.
 - **2F:** Cleared.
 - **3F:** Card Key used. Shutter open.
+- **4F:** Just arrived.
 
 ## Switch Room (3_54) Configuration
 - **S1 (16, 1):** ON (East Closed / West Open).
