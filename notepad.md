@@ -6,7 +6,7 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (12, 1).
+- **Position:** Player at (11, 1). (Interrupted by Battle).
 - **Goal:** Solve B1 (Top Right Boulder).
 - **Puzzle State:**
   - **B1:** (10, 5).
@@ -16,12 +16,12 @@
 
 ## Master Plan (Solution Found)
 1.  **Move B1 to (11, 5):**
-    - Go to (9, 5) via Top Loop.
-      - Path: (12, 1) -> (10, 1) -> Slide Down to (10, 4) -> Slide Left to (9, 4) -> Slide Down to (9, 5).
-    - Push B1 Right to (11, 5).
+    - Current: At (11, 1).
+    - Action: Left to (10, 1) -> Down (Slide) to (10, 4) -> Left (Slide) to (9, 4) -> Down (Slide) to (9, 5) -> Push Right.
+    - Result: B1 at (11, 5). Player at (10, 5).
 2.  **Move B1 back to (10, 5) (positioning player):**
     - Go to (11, 6).
-      - Path: (9, 5) -> Slide Right to (10, 5) (Blocked by B1 at 11, 5) -> Slide Down to (10, 6) -> Slide Right to (11, 6).
+      - Path: (10, 5) -> (10, 6) -> Slide Right to (11, 6).
     - Push B1 Left to (10, 5).
       - Player ends at (11, 5).
 3.  **Get below B1:**
