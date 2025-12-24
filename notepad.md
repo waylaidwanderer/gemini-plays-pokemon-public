@@ -1,16 +1,18 @@
 # Ice Path Strategy
-- **Current State:** At Hub (14, 16).
-- **Goal:** Find path to West Corridor (x=0) or North Ice Area.
-- **Reachability Analysis:** System reports 383 reachable tiles, implying an exit from the Hub exists.
-- **Observation:** (12, 18) and (11, 18) are Walls. South Ledges are likely all impassable.
-- **Plan:** Return to Ice Entrance (13, 16).
-- **Route:**
-  1. Slide **Right** to (15, 16).
-  2. Slide **Down** to (15, 21).
-  3. Slide **Right** to (19, 21).
-  4. **Explore:** Slide **Up** or **Right** from (19, 21).
-- **Hypothesis:** The path to the North/East Ice Area starts from the central ice nodes (x=19), not the Hub ledges.
-- **Reachability:** System says 383 tiles reachable. This confirms access to the large East/North sections exists.
+- **Current State:** At (15, 17).
+- **Plan:** Slide Down to (15, 21), then Right to (19, 21).
+- **Goal:** Explore central ice node (19, 21). Check neighbors (19, 19) and (20, 21) for secret paths.
+- **Backup:** If no exit from (19, 21), re-explore SE Floor for missed branches.
+
+# Map Structure
+- **Hub (13, 16):** Connected to Entrance (4, 19).
+- **North Wall:** Seems solid at Row 14.
+- **West Wall:** Seems solid at x=3 (Dead End).
+- **South Ledges:** Confirmed impassable.
+- **East Path:** Via (15, 21) -> (19, 21). This is the only way forward.
+
+# Item Locations
+- **Item Ball (32, 23):** Surrounded by walls/ledges. Access likely from North (Row 21 Ice).
 
 # Map Structure
 - **West Corridor (x=0):** Connected to SW area (Row 22+).
