@@ -1,19 +1,18 @@
 # Ice Path Strategy
-- **Current Action:** Executing Ice Slide Path to West Section.
-- **Path Plan:**
-  1. From (20, 23), Slide Left -> Stop at (18, 23). [DONE]
-  2. From (18, 23), Slide Up -> Stop at (18, 20). [DONE]
-  3. From (18, 20), Slide Left -> Stop at (14, 20). [DONE]
-  4. From (14, 20), Slide Up -> Stop at (14, 16). [NEXT]
-  5. Walk Left -> Arrive at (13, 16) [Floor Area].
-- **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side - Currently Unreachable].
+- **Current Action:** Reached West Section (Safe Ground).
+- **Goal:** Find ladder to B1F.
+- **Hypothesis:** Ladder is likely in the North-West area (explored from x=13, y=16).
+- **Warp Note:** (4, 19) is marked "To Route 44". If valid, this is the **Entrance**. Do not exit.
+- **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side - Unreachable from here].
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles at (7,18), (8,18), (9,18), (10,18), (14,22), (20,24) are **IMPASSABLE WALLS**.
-- **Map Structure:** Map split into West (Goal?), Center (Start/Hub), and East (Dead ends/Item Balls).
+- **Ledges:** `FLOOR_UP_WALL` tiles are impassable.
+- **Map Structure:** 
+  - East: Entrance/Start? (Wait, checking map).
+  - Center: Ice Maze (Solved).
+  - West: Progression to B1F?
 
-# Map Notes
-- **East Corridor:** Loop/Dead ends.
-- **Central Maze:** Solved via path above.
-- **West Section:** Exploring next.
+# Path History
+- Slid: (20,23) -> (18,23) -> (18,20) -> (14,20) -> (14,16).
+- Walking Left to (13,16) to exit ice.
