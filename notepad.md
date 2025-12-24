@@ -10,7 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 60. Steps remaining: 140. Expiration: ~Turn 16816.
+- Super Repel: Activated Turn 16716. Steps taken: 176. Steps remaining: 24. Expiration: ~Turn 16738.
 
 # Plan for Current Hunt
 1. Lead with XENON (Lv21).
