@@ -38,7 +38,8 @@
 - Confirmed: Warp at (10,2) is inactive.
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
 - Status: Inside Burned Tower 1F.
-- Observation: Eusine is NOT at the entrance (9,14) as marked.
+- Observation: Eusine and Morty are NOT on 1F.
 - Plan:
-  1. Explore Burned Tower 1F to find Eusine or Morty.
-  2. If not found on 1F, check the basement.
+  1. Check Burned Tower B1F (via ladder at 7,15) for Eusine.
+  2. If not found, return to Ecruteak and check Wise Trio Room thoroughly.
+  3. If still stuck, consider that Suicune might be roaming or gone until E4.
