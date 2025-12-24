@@ -1,19 +1,15 @@
 # Radio Tower Liberation
 
 ## Current Status
-- **Location:** Radio Tower 4F (3_20).
+- **Location:** Radio Tower 1F (3_17).
 - **Objective:** Exit Radio Tower.
-- **Current Task:** Navigate to 1F stairs at (15, 0).
-- **Recent Events:** Defeated Executives. Received Clear Bell. On the way out.
+- **Current Task:** Exit building to Goldenrod City.
+- **Recent Events:** Defeated Executives. Received Clear Bell.
 - **Lore:** Clear Bell is key to Tin Tower.
-- **Next:** Exit Radio Tower.
+- **Next:** Heal, then Ecruteak City.
 
-## Radio Tower Progress
-- **1F-4F:** Cleared.
-- **5F:**
-  - Rocket Executive (Male) at (13, 5).
-  - Rocket Executive (Female) at (17, 2).
-  - Item Ball at (8, 5).
+## Radio Tower Summary
+- **1F-5F:** Cleared. Team Rocket disbanded. Director rescued.
 
 ## Switch Room (3_54) Configuration
 - **State:** Solved. (S1=ON, S2=ON, S3=ON, Emergency=ON).
