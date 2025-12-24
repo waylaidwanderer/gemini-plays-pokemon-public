@@ -208,19 +208,26 @@
       }
     ]
   },
-  "get_map_connections": {
-    "description": "Parses the mental map XML and returns a list of adjacent map IDs based on warp locations.",
+  "find_tiles_by_type": {
+    "description": "Searches the mental map for all tiles of a specific type and returns their coordinates.",
     "input_schema": {
       "type": "object",
-      "properties": {},
-      "required": []
+      "properties": {
+        "tile_type": {
+          "type": "string",
+          "description": "The collision type of the tile to search for (e.g., 'grass', 'FLOOR', 'WALL')."
+        }
+      },
+      "required": [
+        "tile_type"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\n\ndef get_map_connections(xml_string):\n    root = ET.fromstring(xml_string)\n    connections = set()\n    for row in root.findall('Row'):\n        for tile in row.findall('Tile'):\n            warp = tile.find('Warp')\n            if warp is not None:\n                # In standard Pokémon games, warps at map edges are map transitions.\n                # However, the XML provided doesn't explicitly state the destination map ID.\n                # This tool is a placeholder for logic that would extract that if available.\n                # For now, it will look at markers for hints.\n                for marker in tile.findall('Marker'):\n                    label = marker.text\n                    if \"To \" in label:\n                        # Extracting potential map ID from labels like \"To Ecruteak Gate (9, 4)\"\n                        # This is heuristic and depends on marker naming conventions.\n                        pass\n    # Based on general knowledge of Route 42 (2_5):\n    # West: Ecruteak City (2_4) via gate.\n    # East: Mahogany Town (2_6).\n    # North: Mt. Mortar (3_1).\n    return [\"2_4\", \"2_6\", \"3_1\"]\n\nprint(get_map_connections(map_xml_string))\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run(input_data):\n    target_type = input_data.get('tile_type')\n    if not target_type:\n        return {\"error\": \"Missing tile_type\"}\n    \n    if not map_xml_string or \"<Map\" not in map_xml_string:\n        return {\"error\": \"Mental Map unavailable.\"}\n    \n    root = ET.fromstring(map_xml_string)\n    found_tiles = []\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            if tile.attrib.get('type') == target_type:\n                found_tiles.append([int(tile.attrib['id']), y])\n    return {\"tiles\": found_tiles}\n\nprint(json.dumps(run(input_data)))",
     "history": [
       {
-        "commit_message": "Created get_map_connections to extract adjacent map IDs from the mental map XML.",
-        "timestamp": "2025-12-24T01:21:31.227Z",
-        "action_counter": 15871
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T02:36:31.246Z",
+        "action_counter": 16053
       }
     ]
   }
