@@ -40,5 +40,6 @@
 # Suicune Trigger Log (Route 42)
 - Hypothesis 1: Trigger at (28, 15). Result: Failed (Turn 17461).
 - Hypothesis 2: Trigger at (28, 12). Result: Failed (Turn 17472).
-- Hypothesis 3: Trigger at (26, 15). Result: Pending.
-- Hypothesis 4: Movement from y=13 to y=12 triggers event. Result: Pending.
+- Hypothesis 3: Trigger at (26, 15). Result: Failed (Turn 17473).
+- Hypothesis 4: Trigger at (27, 14). Result: Pending.
+- Hypothesis 5: Trigger at (25, 14). Result: Pending.
