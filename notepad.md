@@ -13,9 +13,10 @@
 # Suicune Quest Strategy (Crystal Version)
 - Status: Scripted sighting sequence required before battle.
 - Sightings Completed: Burned Tower, Cianwood City, Route 42.
-- Current Target: Route 36 sighting.
-- Trigger Hypothesis: Approach the intersection near the National Park entrance (approx. 18, 9) from the east or north.
-- Plan: Finish phone call, trigger the Route 36 sighting, then return to Tin Tower 1F.
+- Status: Searching for Route 36 sighting. Starting Turn 17135.
+- Trigger Hypothesis: Approach the intersection near the National Park entrance (approx. 18, 9) from the east (Route 36) or north (Route 37).
+- Plan: Trigger the Route 36 sighting, then return to Tin Tower 1F.
+
 - Battle Prep: Suicune encounter at Tin Tower 1F will be Lv40.
 - Capture Team: Lead with XENON (Gastly, Lv21) for Hypnosis. Use GNEISS (Graveler, Lv44) for tanking/weakening. Note: Suicune does not flee at Tin Tower.
 
