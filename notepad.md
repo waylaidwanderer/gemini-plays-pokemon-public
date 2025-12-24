@@ -85,3 +85,5 @@
 - **Plan:** Moving South along the wall to find a gap or door to cross to the eastern side.
 - **Observation (Turn 15050):** Spotted a Rocket Grunt at `(9, 8)` and a Gentleman (likely the Director) at `(12, 8)` behind the wall.
 - **Plan:** Continue South to find a way around the wall to reach them.
+- **Observation (Turn 15051):** Direct access to the Rocket `(9, 8)` and Director `(12, 8)` is blocked by walls at x=8 and y=11.
+- **Plan:** Navigate East along the southern corridor (Row 12) to find a path looping North into the central area.
