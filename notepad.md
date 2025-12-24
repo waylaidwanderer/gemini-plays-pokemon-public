@@ -14,7 +14,6 @@
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
 - Trigger Hypothesis: Approach intersection near Sudowoodo spot (35, 9) from the North entrance (Route 37 path).
-- Status: At (26, 7). Moving towards (35, 9) to trigger sighting.
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
