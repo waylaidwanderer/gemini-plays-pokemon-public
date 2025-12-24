@@ -47,3 +47,5 @@
 - **Map Analysis:** Suicune is in a sealed room (Walls on all sides). The warp at (10,2) is currently INACTIVE (walking on it did nothing).
 - **Hypothesis:** I must speak to the Sages (at 5,9 or 14,6) to unlock the path or activate the warp.
 - **Plan:** Talk to the Sage at (5,9).
+- **Lore Update:** Sage at (5,9) discusses the legend of the Rainbow Pokémon (Ho-Oh) testing humans. He did not move or battle.
+- **Plan Update:** Heading to talk to the Sage at (14,6). Re-testing warp at (10,2) on the way.
