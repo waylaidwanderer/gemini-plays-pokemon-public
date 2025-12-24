@@ -13,9 +13,9 @@
 
 # Suicune Quest (Crystal)
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
-- Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
-- Trigger Hypothesis: Approach intersection near Sudowoodo spot (35, 9) from the SOUTH (Ruins of Alph side).
-- Status: In gatehouse (10_16) at (4, 1). Moving South to Ruins of Alph.
+- Current Step: Trigger final sighting on Route 36. Confirmed location via Pokedex at Turn 17183.
+- Strategy: Fly to Violet City and approach Route 36 intersection (35, 9) from the East.
+- Status: In Ruins of Alph (3_22) at (10, 9). Preparing to Fly.
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
