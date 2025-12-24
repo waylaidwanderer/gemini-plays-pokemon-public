@@ -10,7 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. (Expires in 200 steps).
+- Super Repel: Activated Turn 16716. Steps remaining: 200.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -40,11 +40,6 @@
 - Cycling Start: Turn 16587 (Wednesday, Dec 24, 2025).
 - Current Attempt: Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
-# Training Log: XENON (Gastly)
-- Night Shade learned at Lv21.
-- Repel Trick target: Lv27 (15244 EXP).
-- Training Spot: Route 44 grass island.
-
 # PC Storage (Box 1)
 - VORTEX (Poliwag): Lv22, Male.
 - INTERCEPT (Yanma): Lv12, Female.
@@ -53,7 +48,7 @@
 - XFDW (Meowth): Lv16, Male.
 - FRITTATA (Togepi): Lv5, Male.
 - SHUCKIE (Shuckle): Lv15, Female.
-- Blarney (Sudowoodo): Lv20, Male.
+- Blarney (SUDOWOODO): Lv20, Male.
 
 # Exploration Targets
 - Explore unseen tiles on Route 44 (e.g., (51, 12), (33, 15), (24, 17)).
