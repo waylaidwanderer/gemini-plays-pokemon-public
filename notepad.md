@@ -28,22 +28,19 @@
 - Result: Pokedex confirms Suicune is still on Route 42. Trigger hasn't been hit.
 - Hypothesis 27: Suicune is on a high ledge accessible only through Mt. Mortar.
 - Step 1: Navigate to (24, 12) and use CUT on the tree. [In Progress]
-- Step 2: Navigate to the south side of the Apricorn trees at (28, 17) and face UP.
+- Step 2: Navigate to (28, 17) and face UP toward the Green Apricorn tree.
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees (Pink, Green, Yellow) on the island, specifically approaching from the south (Row 17).
+- Note: If this fails, I will move on to Route 44/Ice Path/Blackthorn City.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable.
-- TALL_GRASS: Traversable, triggers wild encounters.
-- WATER: Impassable without Surf. Traversable with Surf.
-- LEDGE: One-way movement (South-only for standard).
-- WARP / DOOR / WARP_CARPET: Map transition.
+- WALL / HEADBUTT_TREE / ROCK / VOID / FLOOR_UP_WALL / WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until CUT.
-- ROCK: Impassable. Requires ROCK SMASH.
-- VOID: Impassable map boundary.
-- CAVE: Warp tile to interior.
-- FLOOR_UP_WALL: Impassable floor edge.
-- WATER_ROCKS: Impassable water obstacles (represented as WALL in water).
+- WATER: Traversable with HM03 SURF.
+- TALL_GRASS / LONG_GRASS: Traversable; triggers wild encounters.
+- LEDGE: One-way traversable (usually South).
+- WARP / DOOR / WARP_CARPET / CAVE: Map transition.
+- FRUIT_TREE: Impassable; interact to get fruit/apricorn.
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
