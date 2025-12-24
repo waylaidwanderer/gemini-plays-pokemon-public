@@ -49,5 +49,5 @@
 - Mt. Mortar B1F Exploration: Started Turn 17881.
 - Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower). Confirms scripted sequence.
 - Discovery: MountMortarB1F movement redirection confirmed on FLOOR_UP_WALL tiles (e.g., Up at 20,28 moves Right).
-- Observation: (21, 28) Up -> (21, 27) works normally.
-- Plan: Collect item at (21, 26) from (21, 27), then search for a ladder/exit to Route 42 North.
+- Observation: (21, 28) Up -> (21, 27) works normally in some cases, but may require multiple attempts or specific lead-in movement.
+- Plan: Collect item at (21, 26) from (21, 27), then search for a ladder/exit to Route 42 North. account for redirection on Row 28.
