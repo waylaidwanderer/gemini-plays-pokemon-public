@@ -1,13 +1,13 @@
 # Tile Mechanics (Global)
-- FLOOR: Standard ground. Traversable in all directions.
-- WALL: Solid obstacle. Impassable.
-- TALL_GRASS: Overworld encounter area.
-- WATER: Aquatic terrain. Requires Surf.
-- HEADBUTT_TREE: Special tree type. Impassable. Interacts with Headbutt.
-- CUT_TREE: Small tree. Requires Cut.
-- LEDGE_HOP_LEFT: One-way ledge (West).
-- FLOOR_UP_WALL: One-way barrier (Southward).
-- WARP: Map transition point.
+- FLOOR: Standard ground. Traversable in all directions. Verified by walking.
+- WALL: Solid obstacle. Impassable. Verified by walking into it.
+- TALL_GRASS: Traversable. Triggers wild encounters. Verified by walking and encountering Pokémon.
+- WATER: Impassable without Surf. Traversable with Surf. Verified by attempting to walk onto it.
+- HEADBUTT_TREE: Impassable. Interacts with Headbutt. Verified by walking into it.
+- CUT_TREE: Small tree. Impassable. Requires Cut to clear. Verified by walking into it.
+- LEDGE_HOP_LEFT: One-way ledge (West). Verified by hopping over it.
+- FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. Verified by attempting to walk North into it.
+- WARP / CAVE / WARP_CARPET: Map transition points. Verified by usage.
 
 # Item Usage Tracking
 - Super Repel: Activated Turn 16778. Steps taken: 74. Steps remaining: 126.
