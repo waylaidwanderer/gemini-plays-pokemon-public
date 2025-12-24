@@ -10,7 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 22. Steps remaining: 178.
+- Super Repel: Activated Turn 16716. Steps taken: 28. Steps remaining: 172.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
