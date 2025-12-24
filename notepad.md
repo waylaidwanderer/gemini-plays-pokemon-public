@@ -56,3 +56,6 @@
 - **Current Position:** `(2, 7)`.
 - **Objective:** Reach 3F to use Card Key.
 - **Plan:** Take stairs at `(15, 0)` to 2F. Avoid the Grunt at `(14, 1)` (Marked defeated, but taking safe path via Row 2).
+- **Transition (Turn 15132):** Arrived at Radio Tower 2F (3_18).
+- **Objective:** Reach stairs to 3F at `(0, 0)`.
+- **Plan:** Navigate West across the room. Expecting battles with Rocket Grunts.
