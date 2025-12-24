@@ -23,7 +23,7 @@
 ## Training Phase (Started Turn 15902)
 - Target: Route 44 (East of Mahogany Town).
 - Goal: Level XENON (Gastly) to outspeed Lv40 Roamers.
-- Current Status: Returning to Mahogany Town to heal fainted XENON. Phil defeated.
+- Current Status: Party healed. Heading back to Route 44 for training.
 
 ## Region Map IDs (Johto - Corrected)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
