@@ -1,12 +1,12 @@
 # Ice Path Strategy
-- **Current State:** At Hub (14, 16).
-- **Goal:** Find access to West Corridor (x=0) or North Ice Area.
-- **Hypothesis:** One of the Row 18 ledges is jumpable. Tested (8-12, 18) = Fail. Testing (7, 18).
+- **Current State:** At Hub (9, 16).
+- **Goal:** Explore North/East Ice Area for Ladder to B1F.
+- **Reachability:** West Corridor (Column 0) confirmed unreachable from Hub (bfs failed). Ladder must be in NE or accessed differently.
 - **Plan:**
-  1. Move to (9, 17) via Hub Floor.
-  2. Test Down movement into (9, 18), (8, 18), (7, 18).
-  3. If successful, access West Corridor and go North.
-- **Backup:** Check North Alcove (11, 15) for secrets.
+  1. Check North Alcove (9, 15).
+  2. Return to Ice Entrance (13, 16).
+  3. Slide Right -> Down -> Right to reach (19, 21).
+  4. Explore paths from (19, 21) (Up or Right).
 
 # Map Structure
 - **Hub:** Isolated loop.
