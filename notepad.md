@@ -1,11 +1,11 @@
 # Suicune Quest (Crystal)
 - Started: Turn 17252 (Dec 24, 2025).
-- Milestone: Cianwood sighting completed (Turn 16423).
-- Current Status: Attempting to trigger Route 42 sighting.
-- Trigger Hypotheses:
-  - Entering island center clearing (y=15 to y=12).
-  - Walking north from (28, 15) around trees.
-  - Pokedex 'Area' confirms Route 42.
+- Milestone 1: Burned Tower (Turn 15xxx).
+- Milestone 2: Cianwood City (Turn 16423). Defeated Eusine.
+- Milestone 3: Route 42 (Current). Pokedex confirms location.
+- Milestone 4: Route 36 (Next).
+- Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
+- Status: Searching for Route 42 trigger zone in island center clearing.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
