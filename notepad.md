@@ -17,3 +17,6 @@
   - Boulders detected at (7, 8) and (8, 9).
   - Ladder to 1F at (3, 15) (Blocked from main room).
 - **Hypothesis:** Push boulders into pits to access B2F or creating a path.
+- **Observation:** Found a Boulder at (7, 8).
+- **Hypothesis:** This is a Strength puzzle. Pushing boulders into the pits (4, 7) and (5, 12) might be the goal, or they serve as bridges.
+- **Action:** Continue exploring the room to locate all boulders and pits.
