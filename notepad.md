@@ -8,9 +8,9 @@
 - **Goal:** Return to Hub/East Winding Corridors.
 - **Status:** Collected HM07. Backtracked to Floor Island.
 - **Escape Plan (West Ice Room):**
-  1. Walk to (16, 8). [NEXT]
-  2. Slide **Left** -> (2, 8).
-  3. Slide **Down** -> (2, 13).
+  1. Walk to (16, 8). [DONE]
+  2. Slide **Left** -> (2, 8). [DONE]
+  3. Slide **Down** -> (2, 13). [NEXT]
   4. Slide **Right** -> (15, 13).
   5. Slide **Down** -> (15, 14) [Exit to Floor].
 - **Next:** Walk to (28, 19) and explore South.
