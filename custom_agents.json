@@ -6,13 +6,6 @@
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"status_summary\":{\"type\":\"string\"},\"inventory_badges\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"status_summary\",\"inventory_badges\",\"notepad_content\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_objective\":{\"type\":\"string\"},\"secondary_objective\":{\"type\":\"string\"},\"strategic_rationale\":{\"type\":\"string\"}},\"required\":[\"primary_objective\",\"secondary_objective\",\"strategic_rationale\"]}"
   },
-  "suicune_tracker": {
-    "agent_name": "suicune_tracker",
-    "agent_description": "Tracks Suicune sightings and trigger hypotheses in Pokemon Crystal.",
-    "agent_system_prompt": "You are an expert on Pokemon Crystal's Suicune quest. Your goal is to analyze the player's progress and suggest new hypotheses for triggering the next sighting. You know that Suicune's sightings are scripted events and not random encounters. You must rely only on the information provided by the player.",
-    "agent_input_schema": "{\"properties\":{\"current_map\":{\"type\":\"string\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"milestones_completed\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"pokedex_status\":{\"type\":\"string\"}},\"required\":[\"current_map\",\"pokedex_status\",\"milestones_completed\",\"failed_hypotheses\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"new_hypothesis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}},\"type\":\"object\"}"
-  },
   "suicune_tracker_v2": {
     "agent_name": "suicune_tracker_v2",
     "agent_description": "Expert at tracking Suicune's scripted sequence in Pokemon Crystal.",
