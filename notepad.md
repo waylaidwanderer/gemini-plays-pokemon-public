@@ -1,9 +1,8 @@
 # Suicune Quest (Crystal)
-- Current Step: Route 36 sighting.
-- Requirements: Sighting occurs at the junction of Route 36 and 37 (near the former Sudowoodo spot).
-- Hypothesis 1: Approach from the West (Route 36) (Failed).
-- Hypothesis 2: Approach from the North (Route 37) (Failed).
-- Hypothesis 3: Approach from the East (Violet City side) (Failed).
+- Started: Turn 17252.
+- Route 42 Sighting: Confirmed complete (Turn 17335).
+- Route 36 Sighting: Verified via Pokedex (Turn 17386). Attempted multiple approach angles (West, North, East) without overworld trigger.
+- Tin Tower Objective: Started Turn 17391. Requirements: 7 Badges + Clear Bell.
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade.
 
 # Tile Mechanics (Global)

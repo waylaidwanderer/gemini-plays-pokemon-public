@@ -213,7 +213,7 @@
     ]
   },
   "navigate_fly_map": {
-    "description": "Calculates the button sequence to move the cursor on the Johto FLY map from a starting city to a target city. Uses a graph-based search for reliable navigation.",
+    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities using the vertical cycling logic (Up/Down).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -231,7 +231,7 @@
         "target_city"
       ]
     },
-    "python_script": "import json\n\ndef solve():\n    # Johto FLY map adjacency based on observed cursor behavior\n    adj = {\n        \"New Bark Town\": {\"Left\": \"Cherrygrove City\", \"Up\": \"Cherrygrove City\"},\n        \"Cherrygrove City\": {\"Right\": \"New Bark Town\", \"Up\": \"Violet City\", \"Down\": \"New Bark Town\"},\n        \"Violet City\": {\"Down\": \"Cherrygrove City\", \"Up\": \"Azalea Town\", \"Left\": \"Goldenrod City\"},\n        \"Azalea Town\": {\"Down\": \"Violet City\", \"Up\": \"Goldenrod City\"},\n        \"Goldenrod City\": {\"Down\": \"Azalea Town\", \"Up\": \"Ecruteak City\", \"Right\": \"Violet City\"},\n        \"Ecruteak City\": {\"Down\": \"Goldenrod City\", \"Up\": \"Lake of Rage\", \"Left\": \"Olivine City\", \"Right\": \"Mahogany Town\"},\n        \"Mahogany Town\": {\"Left\": \"Ecruteak City\", \"Right\": \"Blackthorn City\"},\n        \"Blackthorn City\": {\"Left\": \"Mahogany Town\"},\n        \"Lake of Rage\": {\"Down\": \"Ecruteak City\"},\n        \"Olivine City\": {\"Left\": \"Cianwood City\", \"Right\": \"Ecruteak City\"},\n        \"Cianwood City\": {\"Right\": \"Olivine City\"}\n    }\n    \n    start = input_data.get(\"current_city\")\n    target = input_data.get(\"target_city\")\n    \n    if not start or not target or start == target:\n        print(json.dumps([]))\n        return\n        \n    import collections\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        curr, path = queue.popleft()\n        if curr == target:\n            print(json.dumps(path))\n            return\n            \n        moves = adj.get(curr, {})\n        for move, neighbor in moves.items():\n            if neighbor not in visited:\n                visited.add(neighbor)\n                queue.append((neighbor, path + [move]))\n                \n    print(json.dumps([]))\n\nsolve()",
+    "python_script": "import json\n\ndef solve():\n    cities = [\n        \"New Bark Town\",\n        \"Cherrygrove City\",\n        \"Violet City\",\n        \"Azalea Town\",\n        \"Goldenrod City\",\n        \"Ecruteak City\",\n        \"Olivine City\",\n        \"Cianwood City\",\n        \"Mahogany Town\",\n        \"Lake of Rage\",\n        \"Blackthorn City\"\n    ]\n    start = input_data.get(\"current_city\")\n    target = input_data.get(\"target_city\")\n    if start not in cities or target not in cities or start == target:\n        print(json.dumps([]))\n        return\n    start_idx = cities.index(start)\n    target_idx = cities.index(target)\n    if target_idx > start_idx:\n        path = [\"Up\"] * (target_idx - start_idx)\n    else:\n        path = [\"Down\"] * (start_idx - target_idx)\n    print(json.dumps(path))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -242,6 +242,11 @@
         "commit_message": "Fixed IndexError by using a dictionary-based adjacency map and safer enumeration. Updated Johto FLY map connections based on observed cursor behavior.",
         "timestamp": "2025-12-24T14:21:17.157Z",
         "action_counter": 17342
+      },
+      {
+        "commit_message": "Refined FLY map navigation to use the linear vertical cycle (Up/Down) based on observed behavior (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak).",
+        "timestamp": "2025-12-24T14:48:39.533Z",
+        "action_counter": 17401
       }
     ]
   }
