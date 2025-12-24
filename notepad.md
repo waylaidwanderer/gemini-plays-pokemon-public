@@ -51,5 +51,7 @@
 - **Hypothesis:** The "Tower Shook" event might allow the **Clear Bell** to work at (10,2) now. I tried it *before* the event reset, but not after.
 - **Plan:** Go to (10,2) and use the Clear Bell from the bag.
 - **Contingency:** If that fails, talk to the Center Sage (11,11) and Left Sage (5,9).
-- **Action:** Opening Pack to use Clear Bell at (10,2).
-- **Context:** The tower shook, implying the path is now open. The warp tile (10,2) is the most logical "path" to the top since no stairs exist on 1F.
+- **Action:** Navigating to Key Items pocket to find and use Clear Bell.
+- **Context:** Retrying Clear Bell at (10,2) after "Tower Shook" event.
+- **Suicune Mystery Log Update:**
+    - **Search 3 (Post-Shake):** Using Clear Bell at (10,2). Expectation: The event reset should allow the bell to function.
