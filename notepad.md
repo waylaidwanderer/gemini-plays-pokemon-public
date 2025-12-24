@@ -1,19 +1,29 @@
-# Ice Path Strategy
-- **Current State:** At Ice Path B1F (7, 9).
-- **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
-- **Status:** STRENGTH Active. Text box open.
-- **Status:** Player at (5, 8). B2 at (5, 6) (Confirmed).
-- **Escape Route:**
-  1. Move Right to (9, 8).
-  2. Move Down to (9, 10) to access South Loop.
-- **Next Steps:**
-  1. **B1 Solve:** Navigate to (11, 8). Push B1 Up to (11, 5).
-  2. **B2 Finish:** Navigate North to Row 1 -> West to (6, 6). Push B2 Left -> Down.
-- **Next Step:** Navigate to (9, 10).
+# Ice Path Strategy (B1F)
 
-# Map Structure
-- **B1F Room:** Large Puzzle Room.
-- **South Room:** Accessed via (9, 10).
-- **Known Pits:** (4, 7), (5, 12), (12, 13).
-- **Known Boulders:** B2(7,8), B3(9,11), B1(11,8), B4(17,7).
-- **Wild:** Golbat (B1F).
+## Current Status
+- **Position:** Player at (9, 10).
+- **Goal:** Reach B1 at (11, 7) to solve it.
+- **Puzzle State:**
+  - **B1:** At (11, 7). Target: Pit (11, 2).
+  - **B2:** At (5, 6). Ready for final push.
+  - **B3:** Solved (Gone).
+  - **B4:** At (17, 7). Target: Pit (12, 13).
+
+## Plan: Solve Boulder 1 (B1)
+1. **Navigate:** Go South to Row 16 -> East to Col 12 -> North to (11, 8).
+2. **Push Up:** Push B1 from (11, 7) to (11, 5).
+3. **Flank:** Go Left to (10, 5) -> Up to (10, 1) -> Right to (11, 1).
+4. **Push Down:** Push B1 into Pit (11, 2).
+
+## Plan: Finish Boulder 2 (B2)
+1. **Navigate:** Go North to Row 1 -> West to (6, 6).
+2. **Push:** Left to (4, 6) -> Down to Pit (4, 7).
+
+## Plan: Solve Boulder 4 (B4)
+1. **Navigate:** To (17, 7).
+2. **Push:** Left to (12, 7) -> Up to (12, 2) -> Left to Pit (11, 2)? No, B1 goes there.
+   - Wait, B4 target is Pit (12, 13).
+   - Push Left to (16, 7). Then maneuver to push Down to (16, 12) -> Left into Pit (12, 13).
+
+## Immediate Action
+- Navigate to (11, 8).
