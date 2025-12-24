@@ -46,3 +46,8 @@
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Small strip of land at (32-33, 8-11) east of the middle island.
+- Northern Plateau Access: Reachable via Row 4 corridor. Entrance to corridor is at (30, 4).
+- Row 4 Corridor: Clear path from (30, 4) to (48, 4).
+- Access to X=30: Reachable from middle island exit (28, 9) by walking to Row 10.
+- Strategy: Cave (46, 7) -> Cave (28, 9) -> (30, 10) -> (30, 4) -> (48, 4) -> (48, 3).
+- Western Pocket: (7-11, 1-2). Reachable via (10, 5) exit.
