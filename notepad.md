@@ -3,13 +3,14 @@
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
 - Milestone 3: Route 42 (Seen).
 - Milestone 4: Route 36 (Current). 
-- Milestone 5: Tin Tower (Final). Requirement: Clear Bell + all scripted sightings. Sages require Raikou, Entei, and Suicune to be released from Burned Tower.
+- Milestone 5: Tin Tower (Final). Requirement: Clear Bell + all scripted sightings. Sages require Raikou, Entei, and Suicune to be released from Burned Tower (Completed).
 
 ## Strategy for Route 36 Sighting
 - Step 1: Approach the Sudowoodo spot at (35, 9) from the East (Ecruteak/Violet). [Failed - Turn 17541]
 - Step 2: Approach from the South (Ruins of Alph). [In Progress - Turn 17556]
 - Step 3: Approach from the West (National Park). [Pending]
-- Note: Sighting is triggered by walking onto a specific tile, usually causing Suicune to jump and run away.
+- Note: Sighting is triggered by walking onto a specific tile.
+- Sage Requirement: Raikou/Entei only need to be released, not seen in Pokedex. Suicune needs all overworld sightings.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
