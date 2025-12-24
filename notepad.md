@@ -40,7 +40,11 @@
 
 # Tin Tower Progress
 - Sage at (4, 6) granted permission: "Please, do go on."
-- Path to Tin Tower is now open. Heading to ladder in Wise Trio Room (4_2).
+- Path to Tin Tower: Building (4_1) -> Wise Trio Room (4_2) -> Restricted Area (4_9) -> Tin Tower (4_3).
+- Ladder at (1, 4) in Wise Trio Room (4_2) leads to Hallway (4_1, 17, 3).
+- Ladder at (7, 4) in Wise Trio Room (4_2) leads to Restricted Area (4_9, 20, 2).
+- Tin Tower entrance is at (37, 7) in Ecruteak City (4_9).
+- Goal: Enter Restricted Area via (7, 4) in Wise Trio Room.
 
 # Type Effectiveness (Verified)
 - (None documented yet)
