@@ -35,6 +35,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (51/187 HP). Def -3.
-- **Risk:** Critical range. Need to Heal.
-- **Action:** Switching to Items Pocket (Pressing Left).
-- **Strategy:** Navigate to Super Potion -> Heal Muscle. Then resume throwing.
+- **Action:** Executing Heal: Super Potion -> Muscle.
+- **Strategy:** Heal Loop. Resume throwing Great Balls (5 left).
