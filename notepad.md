@@ -4,24 +4,25 @@
 - **Status:** Found **HM07 (Waterfall)** at (31, 7).
 
 # Ice Path Strategy
-- **Current Action:** Re-entering West Ice Room (Shortcut).
-- **Goal:** Access South-West Area via `(7, 3)` -> Down.
-- **Location:** At Hub `(20, 23)`.
-- **Shortcut Plan:**
-  1. Move **Left** to `(19, 23)` (Enter Ice). [NEXT]
-  2. Slide **Left** -> Stop at `(18, 23)` (Wall at `17, 23`? Check map).
-     - Map says `(16, 23)` is WALL. `(17, 23)` is WALL.
-     - So `(18, 23)` is the stop.
-  3. Slide **Up** -> Stop at `(18, 20)` (Wall at `18, 19`).
-  4. Slide **Left** -> Stop at `(14, 20)` (Wall at `13, 20`).
-  5. Slide **Up** -> Stop at `(14, 2)` (Wall at `14, 1`).
-  6. Slide **Left** -> `(8, 2)` (Rock at `7, 2`).
-  7. Follow puzzle to `(7, 3)` -> Slide **Down** to SW Area.
-- **Items:** Item Balls at `(32, 23)`, `(35, 9)` [Inaccessible].
+- **Current Action:** Looping back to Hub via Entrance.
+- **Goal:** Reach West Ice Room Entrance (15, 14).
+- **Status:** Shortcut at (19, 23) leads to Entrance (14, 16), not Puzzle.
+- **Loop Plan:**
+  1. Slide **Up** -> (18, 20). [NEXT]
+  2. Slide **Left** -> (14, 20).
+  3. Slide **Up** -> (14, 16).
+  4. Walk to (13, 17).
+  5. Slide **Right** -> (15, 17).
+  6. Slide **Down** -> (15, 21).
+  7. Slide **Right** -> (19, 21).
+  8. Slide **Down** -> (19, 23).
+  9. Slide **Right** -> (20, 23) [Back at Hub].
+  10. Walk to (15, 14) via East Corridors.
+- **Items:** Item Balls at (32, 23), (35, 9).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable from South/Floor.
+- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls.
 
 # Map Structure
 - **West:** Ice Room (Puzzle solved).
