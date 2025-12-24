@@ -1,11 +1,12 @@
 # Ice Path Strategy
-- **Current State:** At (23, 8).
-- **Goal:** Escape East Ice Puzzle to (21, 9).
-- **Remaining Escape Route:**
-  4. Slide **Down** to (23, 9) [Stop at Wall 23,10].
-  5. Slide **Left** to (21, 9) [Exit to Floor].
-- **Next Step:** Walk to (19, 7) -> North to (19, 4) -> East to Ladder.
+- **Current State:** At (19, 9) [Escaped East Puzzle].
+- **Goal:** Reach Ladder to B1F (likely NE).
+- **Plan:**
+  1. Walk **North** to (19, 4).
+  2. Walk **East** along Row 4 Corridor towards the NE corner.
+  3. Locate Ladder (or hole).
+- **Item Ball (35, 9):** Keep an eye out for access points from the North.
 
 # Map Structure
-- **Central Floor:** Connects to North Corridor via (19, 7).
-- **North Corridor (Row 4):** Leads to Ladder and Item Ball area.
+- **North Corridor (Row 4):** Connects Central Area to NE.
+- **NE Area:** Exploration target.
