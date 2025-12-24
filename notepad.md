@@ -1,13 +1,10 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Solving Ice Puzzle (South/East Route).
-- **Location:** (19, 21). Sliding Down to (19, 23).
-- **Critical Test:** Must test the ledge at **(19, 24)**.
-  - (20, 24) confirmed blocked.
-  - (18, 24) confirmed blocked.
-  - If (19, 24) works, I reach the South Area.
-  - If (19, 24) fails, I am running out of options on this screen.
-- **East Corridor Note:** Column x=28 is blocked at y=21, meaning the East path loops back to (20, 23). The only way out is Row 24.
+- **Status:** At (19, 23) [Ice]. Testing Ledge (19, 24).
+- **Test:** Press Down.
+  - If Success: Continue South.
+  - If Fail: Slide Right to (20, 23) [Safe Floor] and re-evaluate.
+- **Critical Context:** (18, 24) and (20, 24) are impassable. (19, 24) is the last hope for this row.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Mechanics & Lessons
