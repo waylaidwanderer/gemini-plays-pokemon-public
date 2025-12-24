@@ -27,7 +27,9 @@
 - Hypothesis 26: Suicune moved because of the map change (warping into Mt. Mortar). [DONE]
 - Result: Pokedex confirms Suicune is still on Route 42. Trigger hasn't been hit.
 - Hypothesis 27: Suicune is on a high ledge accessible only through Mt. Mortar.
-- Step 1: Explore Mt. Mortar to find exits to upper Route 42 ledges.
+- Step 1: Navigate to (24, 12) and use CUT on the tree. [In Progress]
+- Step 2: Navigate to the south side of the Apricorn trees at (28, 17) and face UP.
+- Hypothesis 28: Trigger is proximity to the three Apricorn trees (Pink, Green, Yellow) on the island, specifically approaching from the south (Row 17).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
