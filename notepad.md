@@ -23,3 +23,11 @@
 - **1F-3F:** Cleared. Card Key used.
 - **4F:** Defeated Executive.
 - **5F:** Currently engaging Executives.
+
+# Tile Mechanics
+- **FLOOR:** Traversable. Standard movement.
+- **WALL:** Impassable.
+- **STAIRCASE:** Traversable. Warps to another floor.
+- **COUNTER:** Impassable. Interact to talk to NPCs.
+- **BOOKSHELF:** Impassable. Interact for flavor text.
+- **TV/PC:** Impassable. Interact for flavor text/storage.
