@@ -20,7 +20,8 @@
 # Sage Lore (Tin Tower 1F)
 1. Sage (11, 11): Ho-Oh resurrected Entei, Raikou, and Suicune after the Brass Tower fire. (Spoken)
 2. Sage (5, 9): Legend says Ho-Oh descends when souls of Pokemon and humans commune. (Spoken)
-3. Sage (14, 6): (Talking now)
+3. Sage (14, 6): Towers built for friendship 700 years ago. (Spoken)
+- All three Sages have shared their lore. Heading to center (9, 9) to trigger Suicune.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
