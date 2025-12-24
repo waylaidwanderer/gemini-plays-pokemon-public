@@ -2,18 +2,18 @@
 - **Current State:** At Ice Path B1F (7, 9).
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
-- **Puzzle Logic (Updated):**
-  - **B3 Status:** Done (Pit 5, 12).
-  - **B1 Status:** STUCK at (11, 8). (Mistake: Pushed Down).
-  - **Action:** MUST RESET ROOM.
-  - **Reset Plan:**
-    1. Navigate to Ladder at (3, 15).
-    2. Go up to 1F, then back down to reset boulders.
-    3. **New Plan:**
-       - **B3:** Repeat (Push Down to 9, 11 -> Loop -> Push Left/Down/Right to Pit).
-       - **B2:** Push Left to (5, 8) -> Up to (5, 6) -> Left -> Down to Pit (4, 7).
-       - **B1:** Do NOT push Down. Push Up to (11, 5) or Right.
-- **Next Step:** Navigate to Ladder (3, 15).
+- **Status:** Fell to B2F. Resetting via Ladder (9, 11).
+- **Current Task:**
+  1. Slide UP to (12, 8).
+  2. Slide LEFT to (9, 8).
+  3. Pick up **Item Ball** at (8, 9).
+  4. Take **Ladder** at (9, 11) to reset room.
+- **B1 Puzzle Plan (Revised):**
+  - **B3:** Push Down -> Loop -> Push Left -> Down -> Right to Pit (5, 12).
+  - **B2:** Push Left to (5, 8) -> Up to (5, 6) -> Left -> Down to Pit (4, 7).
+  - **B1:** Push Up to (11, 5) -> Right to (12, 5) -> Down to (12, 12) -> Down to Pit (12, 13).
+  - **B4:** Push Left to (11, 7) -> Up to (11, 3) -> Left to (10, 3) -> Up to (10, 2) -> Right to Pit (11, 2).
+- **Next Step:** Slide North.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
