@@ -43,3 +43,5 @@
 - **Analysis:** Warp (10,2) is verified INACTIVE (missing from Game State warps). Sages are passive.
 - **Hypothesis:** Whiting out reset the "Suicune Encounter" flags. I must re-trigger the event by speaking to the Sages/Gatekeeper in the *Barrier Station* (Bell Chime Trail entrance).
 - **Plan:** Exit -> Barrier Station -> Talk to NPCs -> Return.
+- **Correction:** Entered Barrier Station (4_1) on the Right Side (isolated). Sages are on the Left Side.
+- **Plan:** Return to Ecruteak via Wise Trio Room (4_2), then find the Main Entrance to Barrier Station.
