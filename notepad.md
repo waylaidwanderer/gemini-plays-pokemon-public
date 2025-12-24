@@ -1,18 +1,19 @@
 # Ice Path Strategy
-- **Current Action:** Returning to Hub to find East Puzzle Entrance.
-- **Route to Hub:**
-  1. Slide **Up** from (18, 23) to (18, 20).
-  2. Slide **Left** to (14, 20).
-  3. Slide **Up** to (14, 16).
-  4. Step **Left** to (13, 16) [Hub Entrance].
+- **Current Action:** Accessing North-West Passage.
+- **Hypothesis:** The corridor at x=0 connects the South Hub to the North Ice Area.
+- **Route:**
+  1. Walk West to (0, 16).
+  2. Walk North along x=0 to (0, 0) [or as far as possible].
+  3. Look for entrances East into the ice fields.
+  
+- **Goal:** Reach Ladder to B1F (Likely in NE).
 
-- **Next Step:** Explore North Hub for access to East Ice Area/Ladder.
+# Map Structure
+- **West Edge (x=0):** Open floor corridor N-S.
+- **Hub (y=16):** Connects to West Edge.
+- **North Ice Fields:** Separated from West Edge by Wall at x=1. Check for gaps.
+- **South Loop:** SE Floor (Row 23) leads to Exit Ledge (29, 11).
 
-# Items to Get
-- **Item Ball at (32, 23):** Access via East Ice Puzzle (North).
-- **Item Ball at (35, 9):** Access via North-East area.
-
-# Mechanics & Lessons
-- **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls. `LEDGE_HOP_DOWN` are jumpable ledges.
-- **Dead Ends:** The SE floor area (Row 23) loops to a one-way exit ledge at (29, 11). Must access items from North.
+# Items
+- **Item Ball at (32, 23):** Access via East Ice Puzzle.
+- **Item Ball at (35, 9):** Access via NE area.
