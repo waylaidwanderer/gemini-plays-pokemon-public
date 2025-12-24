@@ -4,12 +4,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
 - **Status:** Exploring East side of Ice Path.
-- **Current Location:** Safe Floor at (20, 23).
+- **Current Location:** At (29, 12).
+- **Observations:**
+  - The corridor at x=30 is a dead-end loop connecting back to (29, 18).
+  - Row 10 (x=25-30) is a ledge drop-off from North to South. I am on the lower level.
+  - To reach the upper level (and Item Ball at 35, 9), I likely need to find a way around from the West.
 - **Navigation Plan:**
-  1. Go East to x=25, then North to Row 19.
-  2. Go East through the gap at (26, 19) to (28, 19).
-  3. Go North-East to (29, 17), then North to (29, 12).
-  4. At (29, 12), check the corridor at x=30 leading South.
+  1. Go West along Row 11 from (29, 11) to (25, 11).
+  2. Continue West into the unseen area, expecting to connect to the x=0 corridor or find a ladder.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Tile Mechanics
