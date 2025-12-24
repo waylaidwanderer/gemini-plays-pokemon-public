@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    # Reset to top (assume max 4 moves)\n    buttons = [\"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 600\"]\n    buttons.extend([\"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\"])\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -74,6 +74,11 @@
         "commit_message": "Fix battle_grind: Ensure script prints valid JSON and handles input_data correctly. Added move menu reset.",
         "timestamp": "2025-12-24T05:27:27.269Z",
         "action_counter": 16381
+      },
+      {
+        "commit_message": "Fix battle_grind: Add initial sleep and robust reset sequence.",
+        "timestamp": "2025-12-24T05:30:05.050Z",
+        "action_counter": 16383
       }
     ]
   },
