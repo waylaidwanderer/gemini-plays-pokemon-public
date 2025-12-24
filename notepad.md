@@ -15,6 +15,13 @@
 - Poison vs Ghost/Poison: Not very effective.
 - Grass vs Ghost/Poison: Not very effective.
 
+# Observed Movesets
+- Tangela: Absorb, Vine Whip, PoisonPowder.
+- Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
+- Weepinbell: PoisonPowder, Acid, Wrap.
+- Natu: Future Sight, Night Shade.
+- Remoraid: Psybeam.
+
 # Suicune Strategy (Lead: XENON Gastly Lv19)
 - Goal: Reach Lv27 (Repel Trick threshold).
 - Start Turn: 16309.
@@ -27,8 +34,3 @@
 - Test find_path_v2 fix.
 - Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
-
-# Observed Movesets (Additions)
-- Tangela: Absorb, Vine Whip, PoisonPowder.
-- Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
-- Weepinbell: PoisonPowder, Acid, Wrap.

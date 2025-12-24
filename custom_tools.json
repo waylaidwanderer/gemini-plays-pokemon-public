@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 1000\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 1200\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\")\n    for _ in range(20):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 500\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -89,6 +89,11 @@
         "commit_message": "Refine battle_grind: Increase initial sleep to 1000ms for more reliable move selection.",
         "timestamp": "2025-12-24T05:37:33.701Z",
         "action_counter": 16392
+      },
+      {
+        "commit_message": "Refine battle_grind: Increase sleeps and add robust move selection.",
+        "timestamp": "2025-12-24T05:39:13.371Z",
+        "action_counter": 16393
       }
     ]
   },
