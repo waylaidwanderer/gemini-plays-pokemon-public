@@ -37,7 +37,8 @@
 - Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
 - Confirmed: Warp at (10,2) is inactive.
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
-- Status: In Ecruteak City. Heading to Burned Tower.
+- Status: Inside Burned Tower 1F.
+- Observation: Eusine is NOT at the entrance (9,14) as marked.
 - Plan:
-  1. Navigate to Burned Tower entrance (5,5).
-  2. Find Eusine inside Burned Tower.
+  1. Explore Burned Tower 1F to find Eusine or Morty.
+  2. If not found on 1F, check the basement.
