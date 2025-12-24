@@ -1,14 +1,15 @@
 # Ice Path Strategy
-- **Current State:** At Central Floor (16, 8).
-- **Goal:** Traverse East Ice Puzzle to find Ladder (likely NE).
+- **Current State:** At (23, 6).
+- **Goal:** Reach Ladder to B1F (likely NE).
 - **Plan:**
-  1. Walk to (21, 9).
-  2. Slide **Right** to (23, 9) [Stop at Wall 24,9].
-  3. Slide **Up** to (23, 6) [Stop at Wall 23,5].
-  4. Slide **Right** to explore NE area.
+  1. Slide **Right** to (25, 6) [Stop at Wall 26,6].
+  2. Slide **Down** to (25, 9) [Stop at Ledge 25,10].
+  3. Slide **Right** to (28, 9) [Stop at Wall 29,9].
+  4. Slide **Up** to (28, 6) [Stop at Wall 28,5].
+  5. Slide **Right** to explore NE area (towards Item Ball).
 
 # Map Structure
 - **North Ice Room:** Solved.
-- **Central Floor (16-21, 8-9):** Current Location.
-- **East Ice Puzzle (x=22+):** New Challenge.
+- **Central Floor:** Accessible.
+- **East Ice Puzzle:** Current location.
 - **Items:** Item Ball at (35, 9) is a target.
