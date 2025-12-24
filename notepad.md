@@ -1,14 +1,11 @@
 # Ice Path Strategy
-- **Current State:** At (19, 21).
-- **Plan:** Slide Down to (19, 23), then Left to (14, 23).
-- **Insight:** The "Shortcut" slide (Left at Row 23) lands on (14, 23) (FLOOR). This tile connects to the West Corridor (x=0) via (13, 23).
-- **Goal:** Reach West Corridor and explore North for Ladder.
-
-# Map Structure
-- **Hub:** Isolated.
-- **West Corridor (x=0):** Access via Row 23 Floor.
-- **East Path:** Loop.
-
-# Item Locations
-- **Item Ball (32, 23):** Access via East Ice Puzzle.
-- **Item Ball (35, 9):** Access via NE area.
+- **Correction:** Left slide from Row 23 is blocked by walls at x=17. My previous insight was a hallucination.
+- **Current State:** At (19, 23).
+- **Plan:** Backtrack to Hub (13, 16).
+- **Next Steps:**
+  1. Re-examine Entrance area (Rows 17-19, x=0-4) for a path to West Corridor.
+  2. Re-examine North Alcove (Row 15) for hidden paths.
+  3. Re-evaluate Ice Slides from (15, 16) and (19, 21).
+- **Critical Question:** How to access the West Corridor (x=0) or North Ice Area?
+  - All standard paths seem blocked.
+  - Possibility: A specific ice slide sequence or a missed walk path near entrance.
