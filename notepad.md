@@ -60,3 +60,6 @@
     4. Exit to Goldenrod City.
 - **Action (Turn 15111):** Navigating to Elevator `(10, 4)` to exit B1F.
 - **Next Step:** Go to 1F, exit Dept. Store, then go to Radio Tower 3F.
+- **Correction (Turn 15112):** Currently at `(7, 6)` in B1F.
+- **Action:** Navigating to Elevator `(10, 4)` to exit.
+- **Plan:** Take elevator to 1F, then exit building.
