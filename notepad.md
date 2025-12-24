@@ -2,7 +2,7 @@
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36.
 - Strategy: Identify the precise trigger on Route 36. Pokedex 'Area' confirms it's here.
-- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2: Mean Look. Turn 3+: Night Shade for chip damage. Use Great/Ultra Balls.
+- Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade for chip damage (Suicune lacks Roar in Crystal). Use Great/Ultra Balls.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
