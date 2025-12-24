@@ -36,4 +36,10 @@ Navigate to the middle island at (26, 14). Use Surf to cross the water. Approach
 
 # General Lessons
 - Surfing: Moving from a WATER tile onto a FLOOR tile automatically stops SURF.
-- Suicune Patrol Start: Turn 18210. (Grass patrol ended Turn 18241).
+- Suicune Patrol Start: Turn 18210. (Grass patrol ended Turn 18241). Pokedex confirmed Suicune at Route 42 middle island.
+
+# Tile Mechanics (Route 42)
+- WALL at (31, 13) and (38, 12) blocks Surfing path.
+- HEADBUTT_TREE at (29, 13) and others surround the middle island.
+- Entry point to middle island: Surf to (21, 12) and move Right onto FLOOR at (22, 12).
+- CUT_TREE at (24, 13) can be cleared to access the island from the North.
