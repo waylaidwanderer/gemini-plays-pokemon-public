@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal)
-- Current Step: Re-verify Route 42 sighting (Started Turn 17252).
-- Route 42 HOW: Surf from Ecruteak side (41, 10), Cut tree at (24, 13), walk to center of island to trigger Suicune fleeing.
-- Pivot: If Route 42 is clear, approach Route 36 junction (28, 9) from the West.
+- Current Step: Route 36 sighting (Verified via Pokedex Turn 17335).
+- Route 42 Sighting: Confirmed complete (Turn 17335).
+- Route 36 HOW: Approach the junction of Route 36 and 37 (near the former Sudowoodo spot) from the Violet City side.
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade.
 
 # Lessons Learned
