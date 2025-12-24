@@ -52,3 +52,7 @@
     - Previous attempt at `(10, 3)` failed.
 - **Hypothesis:** The elevator controls are on the left side of the back wall.
 - **Plan:** Face Up and Press A. If successful, take Elevator to 1F.
+- **Transition (Turn 15116):** Successfully entered the Elevator (Map 11_17).
+- **Current Position:** `(1, 3)`.
+- **Action:** Navigate to the controls at `(3, 0)` (Stand at `(3, 1)`).
+- **Plan:** Select "1F" to exit the Department Store.
