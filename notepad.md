@@ -19,6 +19,7 @@
 - **HEADBUTT_TREE:** Impassable. Interactable (Headbutt).
 - **WATER:** Impassable (without Surf). Traversable (with Surf).
 - **LEDGE_HOP_DOWN/RIGHT:** One-way traversable (Down/Right).
+- **LADDER:** Traversable. Warps to another floor.
 
 # Shop Inventories
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
