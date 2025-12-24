@@ -12,6 +12,7 @@
 - Step 4: Explore western mainland path at (4, 14)-(7, 14). [In Progress]
 - Hypothesis 29: Trigger is on the western mainland path near Ecruteak entrance.
 - Note: If Route 42 is not cleared by Turn 17900, pivot to Route 44/Blackthorn.
+- Note: If mainland fails, try Hypothesis 30: Land on island's southern tip from water.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
