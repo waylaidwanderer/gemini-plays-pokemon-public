@@ -13,7 +13,7 @@
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Strategy: Methodically sweep the middle island of Route 42. Suicune appears as a static sprite once the trigger tile is stepped on.
+- Strategy: Methodically sweep the middle island of Route 42. (Failed Turn 17016: Full sweep didn't trigger). Pokedex still reports Route 42. Checking AREA map for exact location.
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
 - Next Sightings (Crystal): Route 36 (near Violet), Route 25 (near Bill's house).
 
