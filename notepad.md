@@ -1,23 +1,16 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Immediate Task:** Exit Menu and Navigate to South-East.
-- **Status:** In Menu (Healed).
-- **Location:** Start Area (13, 16).
-
-# Navigation Plan (South-East Deep Exploration)
-1. **Solve Ice Puzzle:**
-   - From (13, 16), go Down to (13, 17).
-   - Right -> (15, 17) -> Down -> (15, 21) -> Right -> (19, 21) -> Down -> (19, 23) -> Right -> **(20, 23)** (Safe Floor).
-2. **Access East Corridor:**
-   - From (20, 23), go East to (25, 23), North to (25, 19), East to (28, 19).
-3. **Explore Deep South:**
-   - From (28, 19), go **SOUTH** down column x=28.
-   - Map shows this path extends past Row 27 into unexplored territory.
-   - **Hypothesis:** This leads to the ladder/exit or connects to the West side.
-
-# Discarded Hypotheses
-- **Center-North (Slide Up):** Map data shows walls at (15, 15), making this a short loop back to start. Abandoning.
-- **Row 18 Ledges:** Confirmed impassable walls.
+- **Immediate Task:** Test Ledge at (12, 18).
+- **Status:** At Start (13, 16).
+- **Rationale:**
+  - `(12, 18)` is the only Row 18 ledge I haven't tested.
+  - If successful, it leads to (12, 22) -> West Corridor (x=0).
+  - Center-North "Slide Up" hypothesis was debunked (map shows loop).
+- **Plan:**
+  1. Move to (12, 17).
+  2. Press Down.
+  3. If blocked, move to (11, 17) and test.
+  4. If all fail, the solution must be on the East side (despite dead ends).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
