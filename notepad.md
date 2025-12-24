@@ -34,3 +34,6 @@
 - **Observation:** Suicune is NOT at (9,9) after re-entering (checked visually from 9,11).
 - **Action:** Navigating to (10,2) to check the warp tile again.
 - **Hypothesis:** The map reload might have activated the warp or opened the wall at (10,4). Checking warp first.
+- Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
+- Confirmed: Warp at (10,2) is inactive.
+- Plan: Exiting to Ecruteak to find Eusine.
