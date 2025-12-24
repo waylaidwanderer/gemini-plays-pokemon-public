@@ -1,12 +1,17 @@
 # Ice Path Strategy
-- **Current State:** At (33, 5).
-- **Goal:** Reach Ladder to B1F at (37, 5).
+- **Current State:** At Ice Path B1F (3, 15).
+- **Goal:** Explore B1F and find the way forward.
+- **Observations:**
+  - Arrived via Ladder from 1F NE.
+  - Small room with a **Pit** at (5, 12).
+  - No boulders visible in this immediate area.
+  - Room continues North (unseen tiles).
 - **Plan:**
-  1. Walk **South** to (33, 6) to bypass the wall.
-  2. Walk **East** to (36, 6).
-  3. Walk **North** to (36, 5) then **East** to the Ladder at (37, 5).
-- **Item Ball (35, 9):** Accessible via Ledge at (35, 8) (jump from 35, 7). To be collected later or if B1F leads back.
+  1. Explore the Northern part of this room.
+  2. If blocked, investigate the Pit.
+  3. Look for hidden items or switches.
 
 # Map Structure
-- **NE Corner:** Contains Ladder to B1F.
-- **Access:** Requires doglegging south to Row 6.
+- **B1F Room:** Entry point from 1F. Contains a Pit.
+- **1F:** Solved North Ice Room and East Ice Puzzle.
+- **Item Ball (35, 9) on 1F:** Still uncollected. Might be accessible from B1F ladder?
