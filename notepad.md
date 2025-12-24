@@ -56,4 +56,4 @@
   - Hypothesis: FLOOR_UP_WALL tiles or specific boundaries in this area may redirect movement. Testing 'Up' at (21, 28) to reach item at (21, 26).
 - Disputed Hypothesis: Suicune Tracker agent claims Suicune is in Kanto, but Pokedex still shows Route 42. Continuing search in Johto.
 - Observation: Movement redirection on FLOOR_UP_WALL tiles confirmed (e.g., Up at 20,28 moves Right). Pathing must account for this.
-- Plan: Explore Row 35 to see if it allows passage West past the ledges.
+- Plan: Surf East and North in MountMortarB1F to find an exit or path to the northern corridor of Route 42. account for movement redirection if encountered on water.
