@@ -17,7 +17,7 @@
 
 ## Tile Mechanics (Route 42)
 - WATER: Requires Surf (HM03). Interact with edge or use from menu.
-- CUT_TREE: Requires Cut (HM01). Regrows on map reload.
+- CUT_TREE: Requires Cut (HM01). Regrows on map reload (e.g., entering/exiting Mt. Mortar).
 - LEDGE: One-way movement (usually South or East).
 - FLOOR_UP_WALL: Collision type at (50, 14), impassable from North.
 
