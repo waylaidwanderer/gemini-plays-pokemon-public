@@ -11,10 +11,13 @@
 - **Error:** Pushed B1 too far North (to 10, 1 instead of 10, 2). Cannot push down due to Wall at 10, 0.
 
 # Recovery Plan (B2F -> B1F)
-1.  **Goal:** Return to B1F via Ladder at (9, 11).
-2.  **Bonus:** Collect Item Ball at (8, 9).
+1.  **Goal:** Return to B1F via Ladder at (17, 1) (Leads to 17, 3 near Puzzle).
+2.  **Collect:** Item at (0, 2) and Item at (8, 9).
 3.  **Path:**
-    - (12, 0) Slide LEFT to (8, 0).
-    - Slide DOWN to (8, 8).
-    - Walk to (8, 9) (Item).
-    - Walk to (9, 11) (Ladder).
+    - Get Item at (0, 2).
+    - Slide RIGHT from (1, 0) to (16, 0).
+    - Walk to (16, 8).
+    - Slide LEFT to (9, 8) (Island).
+    - Get Item at (8, 9).
+    - Slide RIGHT from (9, 8) to (16, 8).
+    - Walk to (17, 1) Ladder.
