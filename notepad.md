@@ -50,5 +50,4 @@
 - Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower). Confirms scripted sequence.
 - Discovery: MountMortarB1F movement redirection confirmed on FLOOR_UP_WALL tiles (e.g., Up at 20,28 moves Right).
 - Observation: (21, 28) Up -> (21, 27) is BLOCKED. (Turn 17918).
-- Plan: Detour around wall at (23, 28) via Row 29 to reach water at (24, 27), surf to (21, 26) for item, then search for northern exit. account for redirection on Row 28.
-- Plan (Turn 17923): Surf at (24, 26) and head North to (24, 22), land at (22, 22), and walk Down to (21, 26). This avoids the FLOOR_UP_WALL redirection on Row 28.
+- Plan: Explore MountMortar1FOutside (3_57) by surfing North from (16, 32). Searching for an exit to the isolated northern corridor of Route 42 (Y=4).
