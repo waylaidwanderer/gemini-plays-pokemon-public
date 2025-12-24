@@ -19,6 +19,9 @@
 - Conclusion: Denied (Fruit tree interaction only).
 - Hypothesis 3: Walking onto (27, 15) triggers the scene.
 - Test: Move to (27, 15). [Turn 17615]
+- Conclusion: Denied (No scene triggered).
+- Hypothesis 4: Walking onto (28, 15) triggers the scene.
+- Test: Move to (28, 15). [Turn 17616]
 - Conclusion: Pending.
 
 # Tile Mechanics (Global)
