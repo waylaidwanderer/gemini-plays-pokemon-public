@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress). Pokedex AREA map shows Suicune here.
+- Milestone 3: Route 42 (In Progress). Suicune is Roaming (Pokedex verified).
 
 ## Strategy for Route 42:
 - Observation: Exhaustive searches of the middle island (X=24-30, Y=14-17) failed to trigger a scripted encounter.
