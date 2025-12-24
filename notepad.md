@@ -18,7 +18,8 @@
 - Hypothesis 24: Sighting requires approaching from the EAST (Mahogany side).
 - Step 1: Fly to Mahogany Town. [DONE]
 - Step 2: Enter Route 42 from the East. [DONE]
-- Step 3: Surf west through the northern water channel (Row 9) to bypass the mountain and reach the island. [In Progress]
+- Step 3: Surf west through the northern water channel (Row 9) to bypass the mountain and reach the island. [DONE]
+- Step 4: Approach island center (24, 14) from the north/east side. [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
