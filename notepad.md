@@ -20,13 +20,13 @@
 - **CRITICAL**: Suicune will flee immediately. Mean Look is required on Turn 1.
 - Note: If Suicune is faster than 36 Speed, it will flee before Mean Look can be used.
 
-## Repel Trick Active Hunt (Turn 15833)
+## Repel Trick Active Hunt (Started Turn 15841)
 - Lead: XENON (Gastly, Lv18).
 - Location: Route 42 Grass (50, 12).
 - Status: Suicune confirmed on Route 42 (Turn 15830).
-- Step 1: Use Super Repel.
-- Step 2: Pace in grass at (50, 12) <-> (51, 12) using wild_encounter_looper.
-- Step 3: Turn 1 of battle: MEAN LOOK.
+- Super Repel: Active (Turn 15839).
+- Step 1: Pace in grass at (50, 12) <-> (51, 12) using wild_encounter_looper.
+- Step 2: Turn 1 of battle: MEAN LOOK.
 
 ## Party Strategy
 - XENON (Gastly, Lv18): Lead for Mean Look/Hypnosis.
