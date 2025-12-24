@@ -36,3 +36,5 @@
 - **Next Step:** Equip Quick Claw to Lucid. Then test speed/hypnosis on wild pokemon.
 - **Action:** Equipping Quick Claw to Lucid (Slot 6).
 - **Goal:** Increase Lucid's chance to move first and use Hypnosis on Suicune.
+- **Party Order:** Moving Gyarados to Lead (Slot 1) for Dragon Rage strategy.
+- **Plan:** Head straight to Tin Tower. No grinding. Relying on Strategy Advisor's Dragon Rage plan.
