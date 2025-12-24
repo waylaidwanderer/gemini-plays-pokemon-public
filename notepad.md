@@ -8,8 +8,8 @@
 - **Goal:** Reach West Ice Room Entrance (15, 14).
 - **Status:** Shortcut at (19, 23) leads to Entrance (14, 16), not Puzzle.
 - **Loop Plan:**
-  1. Slide **Up** -> (18, 20). [NEXT]
-  2. Slide **Left** -> (14, 20).
+  1. Slide **Up** -> (18, 20). [DONE]
+  2. Slide **Left** -> (14, 20). [NEXT]
   3. Slide **Up** -> (14, 16).
   4. Walk to (13, 17).
   5. Slide **Right** -> (15, 17).
