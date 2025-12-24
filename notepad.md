@@ -10,7 +10,7 @@
 - WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Expired (Turn 16757). Steps taken: 206. Use new repel immediately after Pokedex check.
+- Super Repel: Expired (Turn 16757). Total steps: 204. Use new repel immediately.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
