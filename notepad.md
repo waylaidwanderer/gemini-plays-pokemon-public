@@ -36,4 +36,5 @@
 - **Hypothesis:** The map reload might have activated the warp or opened the wall at (10,4). Checking warp first.
 - Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
 - Confirmed: Warp at (10,2) is inactive.
-- Plan: Exiting to Ecruteak to find Eusine.
+- Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
+- Plan: Check Burned Tower (5,5) for Eusine. He might have new dialogue or reset instructions.
