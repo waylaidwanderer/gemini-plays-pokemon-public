@@ -9,7 +9,7 @@
 - Attempt 1: East junction pacing (Turn 17541). Result: Failed.
 - Attempt 2: South approach (Turn 17559). Result: Failed.
 - Attempt 3: West approach (Turn 17563). Result: Failed.
-- Attempt 4: East entry from Violet City. [Pending]
+- Attempt 4: East entry from Violet City. [In Progress - Turn 17576]
 - Note: Sighting is triggered by walking onto a specific tile.
 
 # Tile Mechanics (Global)
