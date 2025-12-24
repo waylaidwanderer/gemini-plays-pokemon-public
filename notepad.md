@@ -39,8 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Observation:** Clear Bell failed ("This isn't the time to use that!").
-- **Action:** Retrying Warp (10,2).
-- **Hypothesis:** Warp might work now, or I missed the trigger.
-- **Alternative:** Sages might be hiding stairs/path. Sage at (5,9) moved earlier.
-- **Lore:** Wise Trio (Barrier Station) defeated. Suicune previously battled (Lost/Whited out).
+- **Action:** Re-exploring Top-Right Corner (16,1) properly.
+- **Correction:** Previous attempt failed due to pathing error (tried to walk through Wall at 12,1).
+- **Plan:** Navigate via Row 2 (which is open) to X=16, then go up to (16,1).
+- **Goal:** Find stairs to 2F.
