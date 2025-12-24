@@ -10,10 +10,9 @@
   5. Slide **Right** -> (28, 9) [Hit Wall at 29, 9]. [DONE]
   6. Slide **Up** -> (28, 6) [Hit Wall at 28, 5]. [DONE]
   7. Slide **Right** -> (29, 6) [Hit Wall at 30, 6]. [DONE]
-  8. Slide **Down** -> (29, 8) [Hit Wall at 29, 9]. [NEXT]
-  9. Slide **Left** -> (23, 8) [Hit Wall at 22, 8].
-  9. Slide **Left** -> (23, 8) [Hit Wall at 22, 8].
-  10. Slide **Down** -> (23, 9) [Hit Wall at 23, 10 - Wait, 23,10 is FLOOR_UP_WALL? Need to check map].
+  8. Slide **Down** -> (29, 8) [Hit Wall at 29, 9]. [DONE]
+  9. Slide **Left** -> (23, 8) [Hit Wall at 22, 8]. [NEXT]
+  10. Slide **Down** -> (23, 9) [Hit Wall at 23, 10].
   11. Slide **Left** -> (21, 9) [Exit to Floor].
 - **Next:** Walk to (28, 19) and explore South.
 - **Items:** Item Balls at (32, 23), (35, 9) [Inaccessible from here], (31, 7) [Collected].
