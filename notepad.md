@@ -29,13 +29,10 @@
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-
-## Current Battle
-- Opponent: Bellsprout (Lv22).
-- Start Turn: 16225.
-- Strategy: Hypnosis then Lick.
+- Current Status: XENON Lv19, 33/45 HP, PAR.
 
 ## To-Do
-- Test find_path_v2 after battle (Turn 16244 fix).
+- Heal XENON at Mahogany Town Pokemon Center (Priority: HIGH).
+- Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
