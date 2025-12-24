@@ -8,7 +8,10 @@
 ## Strategy for Route 42 Sighting:
 - Priority 1: Western Pocket (Rows 1-2, X=7-11). Access via Mt. Mortar entrance (10, 5).
 - Priority 2: Middle Island (X=24-30, Y=14-17). Approach from all sides.
-- Status: Re-attempting island sweep at (26, 14) based on Suicune Tracker's expert advice. Will check Western Pocket if this fails.
+- Status: Island sweeps (multiple) failed. Pokedex AREA map confirms Suicune is on Route 42. Pivoting to explore the Western Pocket (Rows 1-2, X=7-11) via Mt. Mortar (10, 5).
+- Hypothesis: Suicune is in the hidden pocket reachable only through the western Mt. Mortar entrance.
+- Test 1: Navigate through Mt. Mortar (10, 5) to see if it exits into the Western Pocket.
+- Goal: Locate Suicune trigger at (8, 1) or (11, 1).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
