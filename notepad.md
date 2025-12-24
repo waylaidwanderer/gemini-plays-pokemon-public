@@ -3,25 +3,18 @@
 
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Solving Ice Puzzle to reach South-East area.
-- **Solution:**
-  1. (13, 16) -> Down to (13, 17) [Start].
-  2. Right -> (15, 17).
-  3. Down -> (15, 21).
-  4. Right -> (19, 21).
-  5. Down -> (19, 23).
-  6. Right -> (20, 23) [Floor].
-- **Exploration Plan:**
-  - From (20, 23), go North-East to (29, 17).
-  - Go North to (29, 12).
-  - **CRITICAL CORRECTION:** Previously stopped at (25, 12). Map shows passage East at (30, 12) leading South down a new corridor.
-  - Explore x=30 corridor South.
+- **Status:** Exploring East side of Ice Path.
+- **Current Location:** Safe Floor at (20, 23).
+- **Navigation Plan:**
+  1. Walk North to (25, 12) via the column at x=25.
+  2. At (25, 12), go East to find the corridor at x=30.
+  3. Explore x=30 South to reach the South-East area and Item Balls.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Key Log
+- **Turn 16371:** Slid Right to safe ground (20, 23).
 - **Turn 16367:** Realized I missed the East turn at Row 12.
 - **Turn 16366:** Confirmed (14, 22) is unpassable. Re-evaluating South-East path.
-- **Turn 16342:** Reached dead end at (25, 12).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
