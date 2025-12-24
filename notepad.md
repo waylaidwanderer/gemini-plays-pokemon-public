@@ -14,8 +14,8 @@
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
 - Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island.
 - Step 1: Fly to Ecruteak City. [DONE]
-- Step 2: Enter Route 42 from the Ecruteak Gate. [In Progress]
-- Step 3: Walk East toward the island center.
+- Step 2: Enter Route 42 from the Ecruteak Gate. [DONE]
+- Step 3: Walk East toward the island center. [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
