@@ -47,7 +47,7 @@
 
 # Suicune Sighting - Route 36
 - Observation: Suicune not present in Tin Tower 1F despite Sage permission and Clear Bell.
-- Hypothesis: Missing a scripted sighting.
+- Hypothesis: Missing the Route 36 scripted sighting.
 - Evidence: Pokedex 'Area' map shows Suicune's nest on Route 36.
-- Plan: Exit Tin Tower, travel south through Route 37 to Route 36, and trigger the sighting.
-- Status: Exiting Tin Tower.
+- Plan: Travel south through Route 37 to Route 36 and trigger the sighting.
+- Battle Prep: Suicune is Lv40. XENON (Lv21) needs Hypnosis to land immediately. Consider training or using GNEISS (Lv44) to weaken it.
