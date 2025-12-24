@@ -39,9 +39,6 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Exiting Tin Tower to return to the Barrier Station.
-- **Analysis:** Warp (10,2) is verified INACTIVE (missing from Game State warps). Sages are passive.
-- **Hypothesis:** Whiting out reset the "Suicune Encounter" flags. I must re-trigger the event by speaking to the Sages/Gatekeeper in the *Barrier Station* (Bell Chime Trail entrance).
-- **Plan:** Exit -> Barrier Station -> Talk to NPCs -> Return.
-- **Correction:** Entered Barrier Station (4_1) on the Right Side (isolated). Sages are on the Left Side.
-- **Plan:** Return to Ecruteak via Wise Trio Room (4_2), then find the Main Entrance to Barrier Station.
+- **Action:** Navigating to Barrier Station Main Entrance (37,7) in Ecruteak.
+- **Reasoning:** Whiting out reset the event flags. I need to speak to the Sages/Gatekeeper in the Barrier Station to re-open the path to Suicune.
+- **Note:** "Mystery Warp" (10,2) in Tin Tower is inactive until event is reset.
