@@ -4,16 +4,17 @@
 - **Status:** STRENGTH Active. Text box open.
 - **Status:** Player at (5, 7). B2 at (5, 6). Strength Active.
 - **Puzzle State:**
-  - **B1:** (11, 7). Plan: Don't touch. Jump Pit (11, 2).
-  - **B2:** (5, 6). Target: Pit (4, 7).
+  - **B1:** (11, 7). Target: Pit (11, 2). Needs push Up from (11, 8).
+  - **B2:** (5, 6). Target: Pit (4, 7). Needs push Left from (6, 6).
   - **B3:** (9, 11). Target: Pit (5, 12).
   - **B4:** (17, 7). Target: Pit (11, 2).
 - **Execution Plan:**
-  1. **B2 Finish:** Navigate North around to (6, 6). Push B2 Left to (4, 6) -> Down to Pit (4, 7).
-  2. **B3:** Navigate to (9, 11). Push Down -> Left -> Down -> Right to Pit (5, 12).
-  3. **Right Side Access:** Walk to Pit (11, 2) and **Jump In**.
-  4. **Right Side Solve:** Take Ladder (17, 1). Solve B4 -> Pit (11, 2). Solve B1 -> Pit (12, 13).
-- **Next Step:** Navigate to (6, 6) via North Loop.
+  1. **Route to B1:** Go South to Row 16 -> East to Col 12 -> North to (12, 8) -> West to (11, 8).
+  2. **Move B1:** Push B1 Up to (11, 5).
+  3. **Route to B2:** Continue North to Row 1 -> West to Col 6 -> South to (6, 6).
+  4. **Move B2:** Push Left to (4, 6) -> Down to Pit (4, 7).
+  5. **B3:** Solve.
+- **Next Step:** Navigate to (11, 8) via Row 16 loop.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
