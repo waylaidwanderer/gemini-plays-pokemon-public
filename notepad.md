@@ -48,3 +48,11 @@
 
 # Progress Update (Turn 16944)
 - Positioned at (24, 12), facing the Cut tree at (24, 13). Initiating Cut to access the southern island area for the Suicune encounter.
+
+# Progress Update (Turn 16947)
+- Reached the middle island of Route 42 at (28, 15).
+- Apricorn trees are at (27, 16), (28, 16), and (29, 16).
+- Suicune is not currently visible on screen.
+- Strategy: Check Pokedex for Suicune's current location and interact with the Fruit Trees to see if it triggers an event.
+- Failed Attempt 1: Reached (28, 15), Suicune not visible.
+- Hypothesis: Suicune might appear after interacting with the trees or moving to a specific tile on the island.
