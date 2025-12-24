@@ -10,15 +10,13 @@
 - FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. (Verified)
 - WARP / CAVE / WARP_CARPET: Map transition points. (Verified)
 
-# Roamer Tracking Data
-- Raikou/Entei Neighbors: Route 42 (2_5) connects to Ecruteak City (1_3) and Mahogany Town (2_4).
-
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Current Objective: Trigger the Route 42 encounter.
+- Current Objective: Trigger the Route 42 encounter. Started Turn 16921.
 - Strategy: Methodically sweep the middle island of Route 42. Suicune appears as a static sprite once the trigger tile is stepped on.
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
+- Next Sightings (Crystal): Route 36 (near Violet), Route 25 (near Bill's house).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -35,3 +33,8 @@
 - FRITTATA (Togepi): Lv5, Male.
 - SHUCKIE (Shuckle): Lv15, Female.
 - Blarney (SUDOWOODO): Lv20, Male.
+
+# General Lessons
+- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
+- Surf Initiation: Directional buttons won't enter water. Must face water and press A.
+- Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation to (40, 11) or (33, 10) is more reliable for starting Surf.
