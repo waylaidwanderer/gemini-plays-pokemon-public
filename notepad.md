@@ -1,9 +1,9 @@
-# Goldenrod Underground
+# Radio Tower Liberation
 
 ## Current Status
-- **Location:** Goldenrod Underground Warehouse (3_56).
-- **Objective:** Rescue the Director (Likely at 12, 8).
-- **Current Task:** Looting item at (18, 15), then circling North to (13, 9) and the Director.
+- **Location:** Radio Tower 3F (3_19).
+- **Objective:** Use Card Key at (14, 2).
+- **Current Task:** Bypass NPC and open shutters.
 
 ## Warehouse Discoveries
 - **Layout:** Western corridor leads to a southern corridor. Central area is walled off. Access to center/north is via a gap at (16, 11).
