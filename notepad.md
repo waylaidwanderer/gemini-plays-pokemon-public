@@ -28,9 +28,9 @@
 - Strategy:
   - Mean Look on Turn 1 is mandatory.
   - Repel Trick: Lead level must be > Lv26 (area max) but < Lv40 (roamer). Target: Lv27+.
-  - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
   - If Mean Look fails: Track via Pokedex and re-intercept.
   - Priority: Find Quick Claw and a second trapping Pokemon.
+- Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
 
 ## Training Phase
 - Target: Route 44.
