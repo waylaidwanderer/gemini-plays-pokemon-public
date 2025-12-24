@@ -3,8 +3,9 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Defeat Rocket Executive (Male) at (13, 5).
-- **Progress:** Rocket Executive (Female) defeated. Muscle Healed.
+- **Current Task:** Explore the Director's Office (West 5F).
+- **Progress:** Defeated both Executives. Team Rocket disbanded.
+- **Next:** Talk to Gentleman at (16, 4) and retrieve Item Ball at (8, 5).
 
 ## Radio Tower Progress
 - **1F-4F:** Cleared.
