@@ -61,3 +61,5 @@
 - **Issue:** Warp at (10,2) is inactive despite speaking to all Sages.
 - **Hypothesis:** The map state needs to refresh or I need to trigger an event upon entering the map with the "Lore Read" flag set.
 - **Action:** Exited to Ecruteak. Re-entering Tin Tower to refresh map state and retry Warp (10,2).
+- **Action:** Re-entered Tin Tower 1F. Navigating to (10,2) to retry the warp.
+- **Plan:** Go East via Row 13 to avoid obstacles, then North along East wall, then West to (10,2).
