@@ -14,7 +14,7 @@
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
 - Status: Roaming (Confirmed via Pokedex dot and Tin Tower event history).
-- Last Seen: Route 42 (Turn 15895).
+- Last Seen: Route 44 (Turn 15943).
 - Lead: XENON (Gastly, Lv18) - Speed: 36.
 - Strategy: Repel Trick in tall grass.
 - **CRITICAL**: Suicune will flee immediately. Mean Look is required on Turn 1.
@@ -23,7 +23,7 @@
 ## Training Phase (Started Turn 15902)
 - Target: Route 44 (East of Mahogany Town).
 - Goal: Level XENON (Gastly) to outspeed Lv40 Roamers.
-- Current Status: Heading to Mahogany Pokemon Center to heal fainted XENON. Phil defeated.
+- Current Status: Returning to Mahogany Town to heal fainted XENON. Phil defeated.
 
 ## Region Map IDs (Johto - Corrected)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
