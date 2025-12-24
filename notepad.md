@@ -1,11 +1,15 @@
 # Ice Path Strategy
-- **Current Action:** Sliding North in West Ice Room.
-- **Goal:** Reach the northern floor island at (16-21, 8-9).
+- **Current Action:** Sliding East in West Ice Room.
+- **Goal:** Explore NE corner of the room (x>14, y<10).
 - **Path History:**
-  - Entered at (15, 14), slid North to (15, 12).
-  - Slid Left from (15, 12) to (9, 12).
-  - **NOW:** Sliding North from (9, 12) -> Target (9, 8).
-- **Hypothesis:** Row 7 is a wall, stopping me at (9, 8). From there, I can slide East to the floor at (16, 8).
+  - Slid North from (9, 12) -> Overshot (9, 8) (Row 7 was not a wall).
+  - Stopped at (9, 2) (Wall at Row 1).
+  - **NOW:** Sliding Right from (9, 2).
+- **Hypothesis:** I will hit a wall on the East side of this room, allowing me to slide Down/South towards the center.
+- **Observations:**
+  - (11, 9) is a Wall/Rock.
+  - (12, 5) is a Wall/Rock.
+  - (11, 11) is likely a Wall/Rock (visually confirmed, map data says ICE).
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side].
 
 # Mechanics & Lessons
@@ -14,6 +18,6 @@
 
 # Map Structure
 - **West:** Entrance & Ice Room (Current Location).
-- **North-West:** Unexplored Floor Island?
+- **North-West:** Unexplored.
 - **Center:** Hub.
 - **East:** Winding corridors.
