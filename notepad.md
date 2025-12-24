@@ -55,3 +55,5 @@
 - Sage detected at (11,11). This is the "Center Sage".
 - Hypothesis: Since the Wise Trio left their room (4_2), this Sage might now have updated dialogue or be one of the Wise Trio.
 - Action: Talk to him immediately.
+- Center Sage (11,11) gave generic lore about Ho-Oh reviving the beasts. No update.
+- Checking Right Sage (14,6) to see if his dialogue has changed since the Wise Trio disappeared.
