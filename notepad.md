@@ -9,10 +9,11 @@
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees on the island. FAILED.
 - Step 3: Sweep remaining island floor tiles. [DONE]
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
-- Step 4: Explore western mainland path at (1, 8)-(3, 10). [In Progress]
-- Result: (4, 14)-(7, 14) is WALL, not a path.
-- Step 5: Follow tracker advice - Surf to southern tip of island (X=26, Y=16) and walk perimeter.
-- Hypothesis 30: Trigger is on a high ledge reachable only via Mt. Mortar (10, 5).
+- Step 4: Explore western mainland path at (1, 8)-(3, 10). [DONE]
+- Result: No trigger found on western floor tiles.
+- Step 5: Check Pokedex to confirm Suicune's current location. [In Progress]
+- Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar (10, 5) or (28, 9) back-exits.
+- Hypothesis 31: Trigger is in the southern water or requires approaching the island perimeter from the water.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
