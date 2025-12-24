@@ -13,8 +13,8 @@
 
 # Current Mission
 - **Goal:** Route 42 / Blackthorn City.
-- **Immediate Action:** Go to Ecruteak PC to withdraw Cut user.
-- **Reasoning:** Need Cut to access Route 42 Suicune spot. Dance Theater was a dead end.
+- **Immediate Action:** Exit Ecruteak City to the East (Route 42).
+- **Reasoning:** Have Cut user (Belladonna). Checking Suicune spot on Route 42.
 
 # Tile Mechanics
 - **FLOOR:** Standard walkable tile.
