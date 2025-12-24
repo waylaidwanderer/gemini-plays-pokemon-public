@@ -37,3 +37,16 @@
 - Suicune Location (Turn 16301): Route 42.
 - Plan: Exit Pokecenter -> Route 44 -> Train XENON to Lv27.
 - Strategy: Use Repel Trick on Route 44 once XENON is Lv27.
+## Strategy for XENON Training (Turn 16309)
+- Goal: Reach Lv27.
+- Location: Route 44 tall grass (approx. (30, 9)).
+- Method: Battle wild Pokemon until level reached.
+- Note: Max wild level here is 26 (Weepinbell/Lickitung).
+
+## Reflection (Turn 16309)
+1. **Immediate Execution:** No deferred tasks.
+2. **Notepad Hygiene:** Added training strategy. Tile mechanics and Suicune strategy are up to date.
+3. **Map Hygiene:** Markers for Route 44 sign and Psychic Phil are set. 
+4. **Automation Strategy:** `find_path_v2` and `get_reachable_unseen_tiles_v2` are current. No new tools needed for training.
+5. **Goal Clarity:** Primary goal is concrete (Lv27+). Notepad has the "How".
+6. **Error Analysis:** No recent major errors. Root hypothesis for Suicune (Mean Look + Repel Trick) is standard for GSC.
