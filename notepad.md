@@ -14,12 +14,11 @@
 - Raikou/Entei Neighbors: Route 42 (2_5) connects to Ecruteak City (1_3) and Mahogany Town (2_4).
 
 # Suicune Tracking & Strategy
-- Status: Investigating (Scripted vs. Roaming).
+- Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Current Objective: Verify Suicune's location and encounter type.
-- Strategy (if Roaming): Grind in tall grass with XENON (Gastly) leading for Mean Look/Hypnosis.
-- Strategy (if Scripted): Locate the next overworld trigger point (likely Route 42 island or Route 36).
-- Strategy (Tin Tower): If all sightings are complete and Clear Bell is held, Suicune will be a static encounter at Tin Tower 1F. Use XENON to trap/sleep, then chip away with False Swipe (if available) or low-power moves before using Ultra/Great Balls.
+- Current Objective: Trigger the Route 42 encounter.
+- Strategy: Methodically sweep the middle island of Route 42. Suicune appears as a static sprite once the trigger tile is stepped on.
+- Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
