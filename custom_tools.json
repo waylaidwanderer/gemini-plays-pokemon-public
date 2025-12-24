@@ -1,6 +1,6 @@
 {
   "battle_grind": {
-    "description": "Selects a move from the battle move menu and clears subsequent text boxes. Assumes the move menu is already open and the cursor is at the first move.",
+    "description": "Selects a move from the battle move menu (assuming it starts at the top move) and clears subsequent text boxes. Assumes the move menu is already open or is being opened in the same turn.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 800\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 600\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -64,6 +64,11 @@
         "commit_message": "Fix battle_grind: Ensure input_data is correctly handled and script prints valid JSON.",
         "timestamp": "2025-12-24T05:13:02.293Z",
         "action_counter": 16370
+      },
+      {
+        "commit_message": "Refine battle_grind: Add initial sleep to allow move menu animation to complete.",
+        "timestamp": "2025-12-24T05:22:48.271Z",
+        "action_counter": 16377
       }
     ]
   },
