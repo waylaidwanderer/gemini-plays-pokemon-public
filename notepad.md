@@ -24,8 +24,10 @@
 - Hypothesis 25: Suicune is standing in front of the middle Mt. Mortar entrance (28, 9).
 - Step 1: Travel to (28, 10) and check for Suicune. [DONE]
 - Result: Warped into Mt. Mortar (3_57) at (17, 33). Suicune not seen.
-- Hypothesis 26: Suicune moved because of the map change (warping into Mt. Mortar).
-- Step 1: Check Pokedex to confirm current location. [In Progress]
+- Hypothesis 26: Suicune moved because of the map change (warping into Mt. Mortar). [DONE]
+- Result: Pokedex confirms Suicune is still on Route 42. Trigger hasn't been hit.
+- Hypothesis 27: Suicune is on a high ledge accessible only through Mt. Mortar.
+- Step 1: Explore Mt. Mortar to find exits to upper Route 42 ledges.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.

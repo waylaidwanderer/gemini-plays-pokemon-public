@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are Gem's strategy advisor. Your role is to provide concise, actionable advice for Pokémon Crystal.\nYou must:\n1. Analyze the current status, badges, and notepad contents.\n2. Identify the most efficient path forward for story progression and the Suicune quest.\n3. Avoid repeating failed strategies documented in the notepad.\n4. Focus on 'WHAT' needs to be done next.\n5. Provide a rationale based ONLY on the provided information.\n\nCurrent Context:\n- Crystal Suicune Quest: Burned Tower -> Cianwood -> Route 42 (Island) -> Route 36 -> Tin Tower.\n- Legendary beasts must be released to access Tin Tower 1F.\n- Clear Bell is required for the Suicune battle at Tin Tower.\n- Story progression: 8th badge is in Blackthorn City.\n\nYour output must be a JSON object matching the output schema.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"status_summary\":{\"type\":\"string\"},\"inventory_badges\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"status_summary\",\"inventory_badges\",\"notepad_content\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_objective\":{\"type\":\"string\"},\"secondary_objective\":{\"type\":\"string\"},\"strategic_rationale\":{\"type\":\"string\"}},\"required\":[\"primary_objective\",\"secondary_objective\",\"strategic_rationale\"]}"
+  },
+  "suicune_tracker": {
+    "agent_name": "suicune_tracker",
+    "agent_description": "Tracks Suicune sightings and trigger hypotheses in Pokemon Crystal.",
+    "agent_system_prompt": "You are an expert on Pokemon Crystal's Suicune quest. Your goal is to analyze the player's progress and suggest new hypotheses for triggering the next sighting. You know that Suicune's sightings are scripted events and not random encounters. You must rely only on the information provided by the player.",
+    "agent_input_schema": "{\"properties\":{\"current_map\":{\"type\":\"string\"},\"failed_hypotheses\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"milestones_completed\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"pokedex_status\":{\"type\":\"string\"}},\"required\":[\"current_map\",\"pokedex_status\",\"milestones_completed\",\"failed_hypotheses\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"new_hypothesis\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"}},\"type\":\"object\"}"
   }
 }
