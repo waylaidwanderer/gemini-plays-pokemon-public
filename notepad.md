@@ -1,19 +1,13 @@
 # Ice Path Strategy
 - **Current Action:** Solving West Ice Room Puzzle.
 - **Goal:** Reach the ladder (likely in the center/NW of this room).
-- **Solution Path Identified:**
-  1. Start (13, 5). Slide **Down** -> (13, 13). [DONE]
-  2. Slide **Left** -> (2, 13). [DONE]
-  3. Slide **Up** -> (2, 2). [NEXT]
-  4. Slide **Right** -> (6, 2).
-  5. Slide **Down** -> (6, 10).
-  6. Slide **Right** -> (15, 10).
-  7. Slide **Up** -> (15, 7).
-  8. Slide **Left** -> (8, 7) [Hypothesis: Rock at 7, 7].
-  9. Slide **Down** -> (8, 11).
-  10. Slide **Left** -> (7, 11).
-  11. Slide **Up** -> (7, 8).
-  12. Slide **Right** -> (16, 8) [EXIT].
+- **Puzzle State:**
+  - Current Position: (2, 7).
+  - Wall at (2, 6) blocked "Up" move to (2, 2).
+  - Only valid progressive move: **Right**.
+- **Solution Hypothesis (Updated):**
+  1. Slide **Right** -> Target (15, 7) OR (7, 7) if obstacle at (8, 7).
+  2. If stop at (7, 7): Down -> (7, 13) -> Right -> (13, 13) -> Up -> (13, 5) -> Left -> (2, 5) -> Up -> (2, 2).
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side].
 
 # Mechanics & Lessons
