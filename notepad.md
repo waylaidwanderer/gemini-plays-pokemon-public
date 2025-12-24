@@ -42,3 +42,5 @@
 - Discovery: Pokedex 'AREA' shows 'SUICUNE'S NEST' with dots across Johto.
 - Discovery: Pokedex 'SUICUNE'S NEST' dots confirm sightings at Ecruteak (Burned Tower), Cianwood, Route 42, Route 36, and Tin Tower.
 - Plan: Cut tree at (24, 13) and perform 100% sweep of island center (Rows 14-15). [Turn 17947]
+- Observation: Island center (Rows 14-16) is fully visible and empty. No Suicune sprite found.
+- Hypothesis 38: Suicune is located in the northern corridor (Row 4) reachable by surfing North from the eastern side of the route. [Turn 17950]
