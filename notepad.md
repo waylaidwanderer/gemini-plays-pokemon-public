@@ -30,9 +30,9 @@
 
 # Suicune Tracking & Strategy
 - Status: Roaming. Moves when player changes maps.
-- Interception Strategy: Repel Trick (Lead Lv27 XENON).
-- Current Objective: Level up XENON to Lv27.
-- Use `roamer_tracker_v2` after Pokedex checks.
+- Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
+- Level Targets: Lv21 (Route 42), Lv27 (Route 44).
+- Battle Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
 
 # Training Log: XENON (Gastly)
 - Night Shade learned at Lv21.
@@ -44,11 +44,6 @@
 - Fisher Edgar: Remoraid.
 - Fisherman: Goldeen, Goldeen, Seaking.
 - Super Nerd: Magnemite, Magnemite, Voltorb.
-
-# Future Tasks
-- Reach Lv27 with XENON.
-- Intercept Suicune using roamer_tracker_v2.
-- Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag): Lv22, Male. Caught Turn 16443.
