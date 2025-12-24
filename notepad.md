@@ -44,3 +44,4 @@
 - **Observation:** Spotted another Item Ball at (35, 9) in the far North-East, currently unreachable from the low ground.
 - **Correction:** The "South-East Path" was a dead end.
 - **Hypothesis:** The way forward is likely jumping the ledge at (18, 24) to access the southern rows (25+).
+- **Turn 16368:** Sliding Down from (19, 21) to (19, 23). Next: Move Right to (20, 23) to exit ice.
