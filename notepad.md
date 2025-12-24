@@ -38,3 +38,6 @@
 - **Plan:** Attempting to reach (9,9) via the top entrance at Row 3/4. Inspecting wall at (10,4) to see if it opened after talking to Sages.
 - **Observation:** North wall at (10,4) is solid. No hidden door found.
 - **Plan:** Checking South wall at (10,10) and (9,10). Navigating via right side.
+- **Observation:** South wall at (10,10) is solid.
+- **Plan:** Exploring the Top-Left corner at (3,2). Looking for hidden stairs or switches.
+- **Hypothesis:** If the center is sealed and Suicune is gone, I must need to go up to 2F. Stairs might be in the corner.
