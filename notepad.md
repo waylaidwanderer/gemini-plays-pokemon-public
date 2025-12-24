@@ -45,7 +45,7 @@
 
 # Plan
 1. Talk to Wandering Gramps (currently at 2,12).
-2. Talk to Wandering Sage (currently at 5,10).
+2. Talk to Wandering Sage (currently at 5,8).
 3. Go to Wise Trio Room via ladder at (17,3).
 4. Check for Eusine/Sages there.
 5. If nothing, considering checking the Tin Tower entrance again or researching triggers.
