@@ -4,7 +4,7 @@
 - Milestone 3: Route 42 (Current). Pokedex confirms location.
 - Milestone 4: Route 36 (Next).
 - Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
-- Plan: Trigger sightings at Route 42 and Route 36. Then enter Tin Tower 1F for the battle. Sages require all three beasts to have been released/seen.
+- Requirement: Must see Suicune at all overworld locations before the Tin Tower battle. Sages require Raikou, Entei, and Suicune to be released.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
