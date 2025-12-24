@@ -1,10 +1,11 @@
 # Suicune Capture Strategy (Crystal Version)
 ## Primary Goal: Capture Suicune
-- Status: Scripted encounter sequence in progress.
+- Status: Roaming on Route 42.
 - Catcher: XENON (Gastly) - Mean Look (Trap) + Hypnosis (Sleep). 
-- Encounter Type: Overworld sprite at specific locations. Does NOT roam in grass until after Tin Tower event.
-- **CRITICAL**: Suicune CANNOT be caught during these scripted encounters. It will always flee. It can only be caught at the Tin Tower later. Do not waste Great Balls yet.
-- Current Target: Trigger Route 42 encounter (Middle island).
+- Encounter Type: Wild encounter in tall grass/water.
+- **CRITICAL**: Suicune is a roamer! It will flee on Turn 1 if it is faster. Gastly (Lv18) is currently slower (Speed 36). 
+- Strategy: Need to increase speed or use a faster trapper. For now, focus on triggering the encounter to track movement.
+- Current Target: Encounter Suicune in Route 42 grass (50, 12) using Repel Trick.
 
 ## Battle Tactics: Suicune (Lv40)
 - Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
