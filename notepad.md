@@ -14,8 +14,8 @@
 - Objective: Capture Suicune at Tin Tower 1F.
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
-- Trigger Hypothesis: Approach intersection near National Park entrance (18, 9) from the North (Route 37) or East (Route 36).
-- Status: At (18, 9). No sighting triggered from East approach. Heading East to intersection (35, 9). Starting Turn 17155.
+- Trigger Hypothesis: Approach intersection near National Park entrance (18, 9) or Sudowoodo spot (35, 9) from the North or East.
+- Status: At (35, 9) on Route 36. Sighting not triggered from West approach. Plan to approach from the East or North.
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
