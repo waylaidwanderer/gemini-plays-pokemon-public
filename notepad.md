@@ -28,3 +28,5 @@
 - Plan: Checking center of room (9,9) and B1F Ladder (7,15).
 - Eusine is NOT at the Burned Tower entrance (9,14).
 - Proceeding to check the center of the room (9,9).
+- Eusine is NOT at the center of Burned Tower 1F (9,9).
+- Plan: Falling down the pit at (10,9) to search B1F for Eusine.
