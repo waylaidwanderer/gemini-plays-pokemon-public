@@ -35,6 +35,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (51/187 HP). Def -3.
-- **Opponent Move:** Bubblebeam (30 dmg).
-- **Action:** Opening Pack (Attempt 9).
-- **Strategy:** Throw Great Ball (5 left). Heal if < 45 HP.
+- **Action:** Executing Throw (Great Ball Attempt 9).
+- **Strategy:** Throw Great Ball (4 left). Heal if < 45 HP.
