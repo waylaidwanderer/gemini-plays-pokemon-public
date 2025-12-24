@@ -51,3 +51,7 @@
 - Conclusion: The Wise Trio Sages (Gaku, Masa, Koji) are GONE.
 - Hypothesis: They might have moved to the Tin Tower or disappeared after the "Tower Shook" event.
 - Plan: Verify they are gone by walking to (4,4), then exit to Tin Tower Yard to check for changes there.
+- Back in Tin Tower 1F.
+- Sage detected at (11,11). This is the "Center Sage".
+- Hypothesis: Since the Wise Trio left their room (4_2), this Sage might now have updated dialogue or be one of the Wise Trio.
+- Action: Talk to him immediately.
