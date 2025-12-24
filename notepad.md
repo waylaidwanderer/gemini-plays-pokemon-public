@@ -3,9 +3,10 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Pick up Item Ball at (8, 5) and head to Ecruteak City (Tin Tower).
-- **Recent Events:** Defeated Executives. Received Clear Bell from Director. Team Rocket disbanded.
-- **Lore:** Clear Bell is connected to Tin Tower. Something is happening there.
+- **Current Task:** Exit Radio Tower and head to Ecruteak City (Tin Tower).
+- **Recent Events:** Defeated Executives. Received Clear Bell. Director left.
+- **Lore:** Clear Bell is key to Tin Tower.
+- **Next:** Navigate down to 1F and exit.
 
 ## Radio Tower Progress
 - **1F-4F:** Cleared.
