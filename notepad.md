@@ -1,81 +1,36 @@
-# Suicune Event State
-- **Status:** Suicune missing from (9,9).
-- **Global Flag:** "The TIN TOWER shook!" (Confirmed).
-- **Local State:** 
-    - Wise Trio Room (4_2): EMPTY. Sages Gaku, Masa, Koji are GONE.
-    - Tin Tower 1F: Sages present but give generic lore. Suicune missing from (9,9).
-- Warp Tile at (10,2): Previously inactive. Retesting now that "Tower Shook" flag is active.
-- **Hypothesis:** The disappearance of the Sages from 4_2 is the trigger. They have likely moved to Tin Tower or the path is now open.
+# Suicune Event Analysis
+- **Critical Failure:** Battled Suicune at Tin Tower 1F and WHITED OUT.
+- **Current State:**
+    - Suicune is GONE from Tin Tower 1F.
+    - Warp to Roof (10,2) is INACTIVE.
+    - Wise Trio Sages are GONE from their room (Barrier Station).
+    - "The TIN TOWER shook!" flag is ACTIVE.
+- **Hypothesis:** 
+    1. Suicune might have reset to a roaming state.
+    2. Suicune might have returned to a previous location (Cianwood, Route 42).
+    3. The event might be "failed" until Elite Four (worst case).
+    4. The Wise Trio moved to a location I missed (e.g., outside on the trail, or hidden in the tower).
 
 # Current Mission
-- **Goal:** Catch Suicune / Find Eusine.
-- **Immediate Action:** Check Wise Trio Room (20, 2) then Go to Dance Theater (23, 21).
-- **Reasoning:** Sages were useless. Checking Wise Trio Room one last time before heading to Dance Theater.
+- **Goal:** Locate Suicune or the Wise Trio.
+- **Immediate Action:** Finish Dance Theater check. Then check Route 42 (Suicune spot) or Cianwood to see if it reset.
+- **Reasoning:** Sages are missing. I need to find where the game put Suicune after a loss.
 
-# Reference
-- **Barrier Station:** 
-    - Ladder (17,3) -> Wise Trio Room (4_2).
-    - Ladder (5,3) -> (17,15) loop (Anomaly).
-- **Tin Tower Exit:** From (37,9) navigate maze to (20,3).
-- Cooltrainer F (PC) gave generic Morty dialogue.
-- Plan: Check Burned Tower for Eusine.
-- Received phone call from Wade (Bug Catcher). Generic chatter about Caterpie growing fast.
-- Resuming path to Burned Tower to find Eusine.
-- Burned Tower 1F: Eusine NOT at entrance (9,14).
-- Plan: Checking center of room (9,9) and B1F Ladder (7,15).
-- Eusine is NOT at the Burned Tower entrance (9,14).
-- Proceeding to check the center of the room (9,9).
-- Eusine is NOT at the center of Burned Tower 1F (9,9).
-- Plan: Falling down the pit at (10,9) to search B1F for Eusine.
-- Location: Burned Tower B1F.
-- Status: Searching for Eusine at the Beast Awakening spot (North Center).
-- Note: If he's not here, Suicune might have reset to a roaming state, or I need to check the Wise Trio again (thoroughly).
-- Eusine is NOT at the B1F platform (10,5).
-- Action: Taking warp at (10,8) to exit the B1F pit area.
-- Next Search Area: Wise Trio Room (Barrier Station) or re-check Ecruteak City.
-- Warp at (10, 8) in Burned Tower B1F failed to trigger.
-- Plan: Exiting B1F via Ladder at (7, 15).
-- Next: Check Wise Trio Room (Barrier Station) again. I checked it BEFORE the Wandering Sage confirmed the shake. Maybe Eusine is there now.
-- Searched Burned Tower B1F. Eusine not found.
-- Exited to Ecruteak City.
-- Heading to Barrier Station (Wise Trio Room) to check for Eusine/Sages again.
-- Returning to Wise Trio Room via Ladder at (5,3).
-- Hypothesis: Eusine might have spawned here after the "Tower Shook" flag was set.
-- Anomaly: Ladder at (5,3) warped me to (17,15) on the same map (4_1).
-- Hypothesis: I might have bypassed the Wise Trio Room (4_2) or the connection is non-standard.
-- Action: Taking Ladder at (17,3) to see if it leads to 4_2 or the Tin Tower trail.
-- Confirmed: Ladder at (17,3) in Barrier Station (Trail Side) leads to Wise Trio Room (4_2).
-- Confirmed: City Side Ladder (5,3) redirects to Trail Side (17,15).
-- Conclusion: Access to Wise Trio Room is now only via the Trail Side.
-- Plan: Talk to the Wise Trio Sages in 4_2. They might have new dialogue about the "Tower Shook" event.
-- Observation: "Map Objects On Screen" is EMPTY in the Wise Trio Room (4_2).
-- Conclusion: The Wise Trio Sages (Gaku, Masa, Koji) are GONE.
-- Hypothesis: They might have moved to the Tin Tower or disappeared after the "Tower Shook" event.
-- Plan: Verify they are gone by walking to (4,4), then exit to Tin Tower Yard to check for changes there.
-- Back in Tin Tower 1F.
-- Sage detected at (11,11). This is the "Center Sage".
-- Hypothesis: Since the Wise Trio left their room (4_2), this Sage might now have updated dialogue or be one of the Wise Trio.
-- Action: Talk to him immediately.
-- Center Sage (11,11) gave generic lore about Ho-Oh reviving the beasts. No update.
-- Checking Right Sage (14,6) to see if his dialogue has changed since the Wise Trio disappeared.
-- Right Sage (14,6) also gave generic lore ("The two TOWERS...").
-- Checking Left Sage (5,9) now.
-- Hypothesis: If ALL Sages give generic lore, I might need to check the Dance Theater (Kimono Girls) or the "Tower Shook" event requires a specific trigger I missed (maybe Eusine is elsewhere).
-- CRITICAL: I previously battled Suicune on Tin Tower 1F and whited out (Turn 15550).
-- Current status: Suicune is GONE from 1F. Warp to 2F is INACTIVE.
-- Wandering Sage says "A Pokemon returned to the top".
-- Hypothesis: Suicune might have moved to the Roof, or reset, but I cannot access 2F.
-- Goal: Determine how to re-trigger the event or access 2F.
-- Checking (9,9) for hidden items/residue.
-- Location: Barrier Station (Trail Side).
-- Wise Trio Room was empty.
-- Action: Navigating to Ladder at (17,15) to cross back to City Side.
-- Status Update: Exiting Barrier Station.
-- Findings: Wise Trio Room empty. Tin Tower 1F has generic Sages (Suicune gone). Burned Tower empty (no Eusine).
-- Next Destination: Ecruteak Dance Theater to find Eusine/Wise Trio.
-- Location: Ecruteak City.
-- Heading to Dance Theater to find the Wise Trio or Eusine.
-- Suicune investigation continues.
-- Clue: Cooltrainer M says the Gentleman with Rhydon wants a Pokemon that can SURF and "dance". Maybe a synchronized swimming Pokemon?
-- My Party: Lapis (Poliwag) has Surf. Gyarados does not.
-- Plan: Talk to Rhydon and Gentleman to see if this leads to Eusine or the Clear Bell.
+# Tile Mechanics
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable obstacle.
+- **WARP_CARPET_DOWN:** Walk down to exit map.
+- **LEDGE_HOP_DOWN:** One-way jump down.
+- **STAIRS/LADDER:** Transition to different floor/area.
+- **WATER:** Requires SURF to traverse.
+
+# Key Items & Status
+- **Clear Bell:** In possession.
+- **Badges:** 7 obtained.
+- **Party:** Gyarados, Quilava, Poliwag, Pidgey, Machoke, Drowzee.
+
+# Log (Condensed)
+- **Burned Tower:** Checked 1F & B1F. Empty. No Eusine.
+- **Barrier Station:** Wise Trio Room empty. Ladder logic verified.
+- **Tin Tower:** 1F Sages generic. Warp inactive.
+- **Dance Theater:** Investigating "Surf/Dance" clue (likely flavor).
