@@ -1,54 +1,30 @@
 # Completed Missions
-- **Radio Tower:** Defeated Team Rocket, rescued Director, got Clear Bell (for Tin Tower).
+- **Radio Tower:** Defeated Team Rocket, rescued Director, got Clear Bell.
+- **Wise Trio:** Defeated in Barrier Station.
 
-# Suicune Analysis (The Target)
-- **Level:** 40
-- **Moves:** Bubblebeam, Gust, Leer, Rain Dance.
-- **Strategy:** Lead Gyarados (Dragon Rage x3) -> Switch to Sleeper (Lapis/Lucid).
-- **Items:** 24 Great Balls ready.
-
-# Current Puzzle: The Wise Trio & The Sealed Room
-- **Goal:** Access the center room (Suicune) or trigger the Wise Trio battle.
-- **Status:** Spoke to all 3 Sages. They gave lore but did not battle.
-- **Problem:** Warp at (10,2) is INACTIVE (not listed in Game State Warps).
-- **Hypothesis:** I must trigger the battle with the Wise Trio to unlock the path.
-- **Plan:** Re-approach Sages and attempt to move past/into them to trigger the event. Starting with Sage at (14,6).
+# Suicune Hunt (Tin Tower 1F)
+- **Status:** Suicune was at (9,9) but vanished after I whited out? Or I need to re-trigger it.
+- **Current Action:** Talking to all 3 Sages on 1F.
+    - Sage (5,9): Talked. Lore only.
+    - Sage (14,6): Talked. Lore only.
+    - Sage (11,11): **Pending.**
+- **Problem:** Warp at (10,2) is verified INACTIVE.
+- **Hypothesis:** 
+    1. Talk to last Sage triggers event.
+    2. Must walk on Suicune's spawn tile (9,9).
+    3. Suicune has moved to Roaming or requires map reload.
 
 # Map Markers
 - **Sages:** (5,9), (14,6), (11,11).
-- **Beasts:** Suicune (9,9), Entei (12,12).
+- **Fake Warp:** (10,2) is just floor.
 
-# Lore
-- **Wise Trio:** Testing me.
-- **Brass Tower:** Burned down. 3 beasts reborn.
-- **Analysis:** I've defeated the Wise Trio (in the Barrier Station) and battled Suicune once (and lost). Suicune is likely still here.
-- **Problem:** Can't reach Suicune. Warp at (10,2) is inactive.
-- **Correction:** Sage at (5,9) changes facing direction (Left -> Up observed).
-- **Action:** Interacting with Sage at (5,9) from the side (4,9).
-- **Hypothesis:** If he doesn't battle, I need to find the stairs to 2F in the unexplored corners.
-- **Plan:** Interact, then explore bottom-left corner (0,15).
-- **Observation:** Sage at (14,6) gave lore text ("Two towers..."). No battle.
-- **Action:** Talk to Sage at (11,11). I will approach from below at (11,12).
-- **Hypothesis:** This is the last Sage. If he doesn't trigger anything, I might need to exit/re-enter the map to reset Suicune.
-- **Map Analysis:** Bottom-Left room (Row 15, Col 2-6) is inaccessible from 1F. Must be a drop zone.
-- **Entei Marker:** Marker at (12,12) appears to be ghost data (Entei is not currently there).
-- **Plan:** Explore suspicious nooks in Top-Left area: (3,9) and (2,7).
-- **Hypothesis:** Hidden stairs or switches might be in these secluded tiles.
-- **Action:** Exploring Top-Left Corner (3,2) for stairs.
-- **Analysis:** Bottom-Right corner (17,15) appears physically inaccessible from 1F (surrounded by walls).
-- **Hypothesis:** Stairs to 2F must be in the Top-Left.
-- **Note:** "Mystery Warp" at (10,2) is likely an exit.
-- **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Traversing Wise Trio Room (4_2) to Barrier Station (4_1).
-- **Goal:** Reach Main Ecruteak City to access Barrier Station Main Entrance.
-- **Path:** Ladder at (1,4) -> Barrier Station (17,3).
-- **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
-- **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
-- **Plan:** Take the ladder at (17,15).
-- **Status:** Left Sage (5,9) ignored interaction from behind (5,8).
-- **Observation:** Sage is facing DOWN.
-- **Hypothesis:** Must interact from the FRONT (5,10) to trigger battle/dialogue.
-- **Plan:** Navigate to (5,10) and talk.
-- **Fact:** Warp (10,2) is NOT in the active Warps list. It is sealed.
-- **Observation:** Suicune is NOT visible at (9,9) on the screen. It may have despawned after the whiteout, or requires a trigger reset.
-- **Action:** Attempting to talk to Sage at (5,9) from the front (5,10). If this fails, I will navigate to the "Mystery Warp" at (10,2) to see if it works or leads to the center.
+# Suicune Battle Plan
+- **Level:** 40
+- **Moves:** Bubblebeam, Gust, Leer, Rain Dance.
+- **Strategy:** Gyarados (Dragon Rage x3) -> Sleep (Lapis/Lucid).
+- **Items:** 24 Great Balls.
+
+# Verification Log
+- Checked (10,2): Not a warp.
+- Checked Sage (5,9): No battle.
+- Checked Sage (14,6): No battle.
