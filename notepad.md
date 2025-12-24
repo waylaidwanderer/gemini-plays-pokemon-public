@@ -40,17 +40,18 @@
 
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
-- Current Hypothesis: Eusine might be in the basement or I need to trigger something in Ecruteak.
+- Current Location: Barrier Station (4_1).
+- Goal: Find Eusine or a new trigger.
+
+# Plan
+1. Talk to Wandering Gramps (currently at 2,12).
+2. Talk to Wandering Sage (currently at 5,10).
+3. Go to Wise Trio Room via ladder at (17,3).
+4. Check for Eusine/Sages there.
+5. If nothing, considering checking the Tin Tower entrance again or researching triggers.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
 - **WALL:** Impassable.
-- **FLOOR_UP_WALL:** Ledge (One-way Down).
 - **LADDER:** Warp to another floor.
-- **WARP:** Teleport tile (often landing spots in Burned Tower).
-
-# Plan
-1. Exit Burned Tower 1F (South Exit).
-2. Go to Barrier Station (Wise Trio Room).
-3. Check for Eusine/Sages.
-4. If Eusine is missing, check Tin Tower entrance again or research roaming mechanics.
+- **WARP:** Teleport tile.
