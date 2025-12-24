@@ -22,7 +22,7 @@
 - Paralysis: Reduces Speed by 75%, 25% chance to fail move.
 
 # Suicune Capture Strategy
-- **Status**: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16185)
+- **Status**: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16193)
 - **Lead**: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
 - **Strategy**:
   - Repel Trick: Lead level must be > area wild max (Lv26 on Route 44) but < roamer level (Lv40). Target: Lv27+.
