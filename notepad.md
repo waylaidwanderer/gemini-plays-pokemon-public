@@ -39,7 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Re-exploring Top-Right Corner (16,1) properly.
-- **Correction:** Previous attempt failed due to pathing error (tried to walk through Wall at 12,1).
-- **Plan:** Navigate via Row 2 (which is open) to X=16, then go up to (16,1).
-- **Goal:** Find stairs to 2F.
+- **Action:** Exiting Tin Tower to return to the Barrier Station.
+- **Analysis:** Warp (10,2) is verified INACTIVE (missing from Game State warps). Sages are passive.
+- **Hypothesis:** Whiting out reset the "Suicune Encounter" flags. I must re-trigger the event by speaking to the Sages/Gatekeeper in the *Barrier Station* (Bell Chime Trail entrance).
+- **Plan:** Exit -> Barrier Station -> Talk to NPCs -> Return.
