@@ -40,15 +40,15 @@
 
 # Suicune Event Status
 - Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing.
-- Spoke to ALL 3 Sages in Tin Tower 1F.
-- Exit Warp at (9,15) previously INACTIVE.
-- Goal: Try to Exit Tin Tower 1F again.
+- Spoke to ALL 3 Sages in Tin Tower 1F (Generic Lore).
+- Exit Warp at (9,15) seemingly stuck.
+- Goal: Escape Tin Tower 1F and find Eusine.
 
 # Plan
-1. Attempt to exit via (9,15).
+1. Attempt to exit via (9,15) (Press DOWN).
 2. If successful, check Bell Chime Trail / Ecruteak for Eusine.
 3. If trapped, use DIG (Muscle) to escape.
-4. Once outside, re-enter Tin Tower to check for Suicune spawn.
+4. Search Ecruteak City thoroughly (Dance Theater? Pokemon Center?).
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
