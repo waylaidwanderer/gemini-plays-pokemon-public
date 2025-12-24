@@ -1,6 +1,6 @@
 {
   "battle_grind": {
-    "description": "Selects a move from the battle move menu and clears subsequent text boxes. Assumes the move menu is already open and starts at the first move (reset cursor manually if needed).",
+    "description": "Selects a move from the battle move menu and clears subsequent text boxes. Assumes the move menu is already open or is being opened in the same turn. Starts from move 0.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 600\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 1000\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -84,6 +84,11 @@
         "commit_message": "Simplify battle_grind: Remove unreliable reset sequence; assume menu starts at move 0.",
         "timestamp": "2025-12-24T05:33:28.112Z",
         "action_counter": 16385
+      },
+      {
+        "commit_message": "Refine battle_grind: Increase initial sleep to 1000ms for more reliable move selection.",
+        "timestamp": "2025-12-24T05:37:33.701Z",
+        "action_counter": 16392
       }
     ]
   },
