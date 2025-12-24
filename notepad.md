@@ -45,14 +45,16 @@
 - **Plan:** Executing route to the Ladder.
 - **Current State:**
     - **Location:** Goldenrod Dept. Store B1F (3_55).
-    - **Position:** `(14, 3)`.
+    - **Position:** `(16, 5)`.
     - **Objective:** Exit Dept. Store and head to Radio Tower.
     - **Inventory:** Obtained Card Key and Amulet Coin.
 - **Mapping B1F:**
-    - Stuck in the Northeast quadrant (Rows 2-3, Cols 13-17).
-    - Exit seems to be at `(16, 4)` (marked as Blue Barrier).
-    - Goal: Pass `(16, 4)` to reach the main area and elevator at `(10, 4)`.
+    - Successfully passed the barrier at `(16, 4)`.
+    - The path West is blocked by a wall at `(12, 5)`.
+    - Must loop South to Row 8 to cross to the West side.
+    - Gap located at `(12, 8)`.
 - **Plan:**
-    1. Navigate to `(16, 5)` via `(16, 4)`.
-    2. Navigate to Elevator at `(10, 4)`.
-    3. Exit to Goldenrod City.
+    1. Navigate South to Row 7/8.
+    2. Cross West through the gap at `(12, 8)`.
+    3. Go North to the Elevator at `(10, 4)`.
+    4. Exit to Goldenrod City.
