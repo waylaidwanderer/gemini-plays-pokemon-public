@@ -10,7 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: ~132. Steps remaining: ~68.
+- Super Repel: Activated Turn 16716. Steps taken: 144. Steps remaining: 56.
 - Note: grind_movement tool was unreliable; using press_buttons for precise step counting.
 
 # HM/TM Knowledge
