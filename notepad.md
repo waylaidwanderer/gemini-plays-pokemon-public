@@ -36,3 +36,5 @@
 - **Dance Theater:** Investigating "Surf/Dance" clue (likely flavor).
 - **Turn 16157:** Started Suicune search on Route 42.
 - **Contingency:** If Suicune is not at Route 42 grove, check Pokedex Area location immediately.
+- **Route 42 Grove:** Suicune is NOT here.
+- **Next Step:** Check Pokedex Area for Suicune (#245). This will determine if it is roaming or gone.
