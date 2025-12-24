@@ -11,7 +11,6 @@
 
 # Item Usage Tracking
 - Super Repel: Not active. Use immediately.
-- Current Turn: 16711. Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -39,7 +38,7 @@
 - Level Targets: Lv21 (Route 42/43), Lv27 (Route 44).
 - Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
 - Cycling Start: Turn 16587 (Wednesday, Dec 24, 2025).
-- Current Attempt: Turn 16672. Suicune confirmed on Route 42. Leading with XENON (Lv21). Super Repel active.
+- Current Attempt: Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # Training Log: XENON (Gastly)
 - Night Shade learned at Lv21.

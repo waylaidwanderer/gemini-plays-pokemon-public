@@ -288,63 +288,6 @@
       }
     ]
   },
-  "get_reachable_unseen_tiles_v2": {
-    "description": "Analyzes the current map XML to identify unseen tiles that are directly adjacent to tiles reachable from the player's current position. Handles ledges and one-way tiles. Returns a list of coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "can_surf": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "can_surf"
-      ]
-    },
-    "python_script": "import json\nimport sys\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    input_str = sys.argv[1] if len(sys.argv) > 1 else \"{}\"\n    input_data = json.loads(input_str)\n    can_surf = input_data.get('can_surf', False)\n    \n    # map_xml_string is injected\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            \n            grid[(x, y)] = {'type': tile_type, 'seen': seen}\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(json.dumps([]))\n        return\n\n    # BFS to find reachable tiles\n    reachable = set()\n    queue = deque([player_pos])\n    reachable.add(player_pos)\n    \n    while queue:\n        cx, cy = queue.popleft()\n        \n        # Directions: Up, Down, Left, Right\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                target = grid[(nx, ny)]\n                \n                # Basic collision check\n                if target['seen'] and target['type'] not in ['WALL', 'HEADBUTT_TREE', 'CUT_TREE']:\n                    if target['type'] == 'WATER' and not can_surf:\n                        continue\n                    \n                    # One-way check (FLOOR_UP_WALL)\n                    if target['type'] == 'FLOOR_UP_WALL':\n                        if dy != 1: # Can only enter from above (going down)\n                            continue\n                    \n                    if (nx, ny) not in reachable:\n                        reachable.add((nx, ny))\n                        queue.append((nx, ny))\n\n    # Find unseen tiles adjacent to reachable tiles\n    unseen_reachable = []\n    for rx, ry in reachable:\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            if (nx, ny) in grid:\n                if not grid[(nx, ny)]['seen']:\n                    unseen_reachable.append({'x': nx, 'y': ny})\n                    \n    # Deduplicate and return\n    print(json.dumps(unseen_reachable))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Refined get_reachable_unseen_tiles to use the BFS logic from find_path_v2, correctly handling ledges and one-way movement. Added Mental Map availability check.",
-        "timestamp": "2025-12-23T15:43:54.280Z",
-        "action_counter": 14678
-      },
-      {
-        "commit_message": "Updated get_reachable_unseen_tiles_v2 to support can_surf parameter and improved ledge logic.",
-        "timestamp": "2025-12-24T02:46:05.281Z",
-        "action_counter": 16078
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic and improved ledge hopping.",
-        "timestamp": "2025-12-24T02:48:02.496Z",
-        "action_counter": 16081
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic to block Southward movement.",
-        "timestamp": "2025-12-24T02:53:18.190Z",
-        "action_counter": 16094
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic to block Northward entry.",
-        "timestamp": "2025-12-24T02:56:43.744Z",
-        "action_counter": 16101
-      },
-      {
-        "commit_message": "Corrected FLOOR_UP_WALL logic to block Southward movement.",
-        "timestamp": "2025-12-24T03:01:54.820Z",
-        "action_counter": 16109
-      },
-      {
-        "commit_message": "Finalized ledge and FLOOR_UP_WALL (Southward block) logic for accurate map analysis.",
-        "timestamp": "2025-12-24T03:26:52.937Z",
-        "action_counter": 16154
-      },
-      {
-        "commit_message": "Initial definition of get_reachable_unseen_tiles_v2 with basic BFS and collision handling.",
-        "timestamp": "2025-12-24T08:34:22.870Z",
-        "action_counter": 16695
-      }
-    ]
-  },
   "switch_pokemon": {
     "description": "Automatically selects a Pokemon to switch to from the battle party menu. Assumes the party menu is already open and the cursor starts at the leading Pokemon (index 0).",
     "input_schema": {
