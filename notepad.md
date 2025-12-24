@@ -1,28 +1,22 @@
-# Suicune Event State (Turn 15949)
+# Suicune Event State
 - **Status:** Suicune missing from (9,9) after White Out.
 - **Global Flag:** "The TIN TOWER shook!" (Confirmed by Wandering Sage in Barrier Station).
 - **Local State:** 
-    - Tin Tower 1F Sages: All 3 give generic lore (No reaction to shake).
+    - Tin Tower 1F Sages: All 3 give generic lore.
     - Warp at (10,2): Inactive.
     - Suicune Spawn: Empty.
-- **Action:** Forced map reload by exiting to City. Re-entering now.
+
+# Current Mission
+- **Goal:** Find Eusine to progress the Suicune event.
+- **Search Area:** Ecruteak City (Pokemon Center, Burned Tower).
+- **Recent Intel:**
+    - Wandering Sage (Barrier Station): Confirmed "Tower Shook".
+    - Pokefan M (Ecruteak PC): Generic Kimono Girl lore.
 - **Plan:** 
-    1. Check Suicune spawn and Warp one last time.
-    2. If failed, FIND EUSINE (likely in Barrier Station Left Side or City).
+    1. Talk to Cooltrainer F in Pokemon Center.
+    2. If no lead, check Burned Tower.
 
-# Barrier Station Layout
-- Left Side: Connects to City. Contains Gramps/Eusine?
-- Right Side: Connects to Tin Tower.
-- Connected via Wise Trio Room ladders.
-
-# Tile Mechanics
-- **WARP_CARPET:** Some require specific directional input (e.g. Down to exit Tower).
-- Navigation Note: To exit Tin Tower area, go DOWN to (37,9) first, then navigate the maze:
-  (34,9) -> Up to (34,7) -> Left to (32,7) -> Up to (32,5) -> Left to (28,5) -> Up to (28,3) -> Left to Exit.
-- Current Goal: Find Eusine in Barrier Station (City Side) or Ecruteak City to trigger Suicune event.
-- Status: Searching for Eusine in Ecruteak City.
-- Plan: Check Pokemon Center and Burned Tower.
-- Wandering Sage at (6,9) in Barrier Station confirmed: "The TIN TOWER shook! A POKéMON must have returned to the top!"
-- Location: Ecruteak Pokemon Center.
-- Party Status: Healed (via White Out).
-- Action: Gathering info from NPCs here, then checking Burned Tower for Eusine.
+# Reference
+- **Barrier Station:** Left Side (City), Right Side (Tower), linked by Wise Trio Room.
+- **Tile Mechanics:** WARP_CARPETs may need specific input (e.g. Down to exit Tower).
+- **Tin Tower Exit:** From (37,9) navigate maze to (20,3).
