@@ -1,19 +1,21 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (13, 16). Standing on FLOOR.
+- **Current Status:** In Ice Path 1F at (5, 16).
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
-  - **Ledges:** `FLOOR_UP_WALL` at (20, 24) is a collision wall, NOT a ledge.
+  - **Ledges:** `FLOOR_UP_WALL` allows jumping South.
 - **Navigation:**
   - Entrance: (4, 19).
   - **Path Discovery:**
-    - The Ice Puzzle loop leads to (13, 16).
-    - Rows 14-15 are mostly blocked by walls.
-    - **CRITICAL DISCOVERY:** Mental Map shows (0, 14) is FLOOR, while (1, 14) is WALL. This indicates a narrow corridor on the far West edge (x=0) leading North.
+    - The area West of x=5 is walled off at Row 16.
+    - **New Hypothesis:** Access to the West Corridor (x=0) is via the South.
+    - I can reach the South area (Row 22) by jumping the ledges at Row 18 (x=7-12).
+    - From Row 22, I can walk West to x=0 and then North.
   - **Plan:**
-    1. Walk West to (0, 16).
-    2. Walk North through the x=0 corridor.
-    3. Explore the Northern area (likely Row 13 and above).
+    1. Walk to `(7, 17)`.
+    2. Jump Ledge South to `(7, 19)`.
+    3. Walk South to Row 22, then West to x=0.
+    4. Head North up the corridor.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
