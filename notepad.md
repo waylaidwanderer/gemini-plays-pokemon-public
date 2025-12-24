@@ -41,15 +41,14 @@
 # Suicune Event Status
 - Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing.
 - Wall at (10,4) is solid. Warp at (10,2) inactive.
-- Current Location: Exiting Tin Tower 1F.
-- Goal: Check Bell Chime Trail, then Pokedex.
+- Current Location: Tin Tower 1F (Exit Door Stuck?).
+- Goal: Escape Tin Tower 1F.
 
 # Plan
-1. Exit Tin Tower 1F (Try tile 10,15).
-2. Check Bell Chime Trail (Yard) for Eusine/Sages.
-3. Check Tin Tower Entrance Building.
-4. If Eusine is missing, check Pokedex for #245 (Suicune) (Roaming?).
-5. If "Area Unknown", assume E4 reset needed.
+1. Attempt to exit via (9,15) from the North.
+2. If warp fails, talk to the remaining Sages (Left/Right).
+3. If still trapped, use DIG (Muscle).
+4. Outside: Check Bell Chime Trail & Pokedex (Roaming?).
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
