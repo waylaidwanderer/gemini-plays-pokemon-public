@@ -28,4 +28,5 @@
 - **Items:** Item Balls at (32, 23), (35, 9).
 - **Observation:** The floor path from (20, 23) leads to a winding corridor (currently at 29, 18) that appears to be the return path from the East Ice Puzzle ledges (Row 10).
 - **Hypothesis:** This area is a dead end for finding the ladder, serving only as an exit.
-- **Plan:** Verify the dead end at (29, 11), then backtrack to Hub (15, 21) and re-enter North Ice Area to access East Ice Puzzle correctly.
+- **Plan:** Backtrack to Floor (20, 23), then use the "Shortcut" slide (Left from 19, 23) to reach the main ice hub and find a path North.
+- **Confirmed:** Dead end at (29, 11). This is indeed the exit ledge.
