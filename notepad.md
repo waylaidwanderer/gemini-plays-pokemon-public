@@ -23,3 +23,6 @@
 - Status: Searching for Eusine in Ecruteak City.
 - Plan: Check Pokemon Center and Burned Tower.
 - Wandering Sage at (6,9) in Barrier Station confirmed: "The TIN TOWER shook! A POKéMON must have returned to the top!"
+- Location: Ecruteak Pokemon Center.
+- Party Status: Healed (via White Out).
+- Action: Gathering info from NPCs here, then checking Burned Tower for Eusine.
