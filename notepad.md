@@ -37,13 +37,14 @@
 - Mean Look on Turn 1 is mandatory.
 - Backup: If XENON is outsped or incapacitated, switch to Calcifer (Lv45) for durability, though he lacks trapping moves.
 - Quick Claw: Check for this item to ensure Mean Look goes first.
+- If Mean Look fails: Track location via Pokedex and re-intercept.
 
 ## Training Phase (Started Turn 16025)
 - Target: Route 44.
 - Goal: Level XENON (Gastly) to Lv27.
 - Wild Pokemon Levels: Max Lv26 on Route 44.
 
-## Region Map IDs (Johto)
+## Johto Region Map IDs
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
 - Route 42: 2_5, Route 44: 2_6, Mahogany Town: 2_7, Route 40: 2_8
 - Route 41: 2_9, Cianwood City: 2_10, Lake of Rage: 2_11
