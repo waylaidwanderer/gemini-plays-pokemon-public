@@ -1,20 +1,18 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (25, 12).
+- **Current Status:** In Ice Path 1F at (20, 23). Facing Left.
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
   - **Ledges:** One-way jumps.
 - **Navigation:**
   - Entrance: (4, 19).
   - **Path Discovery:**
-    - The South-East Path (accessed via 19, 21) leads to a dead end at the bottom of a ledge (Row 10).
-    - Confirmed dead end at (25, 12).
-    - Item Ball at (32, 23) is unreachable from this section (walled off).
+    - The South-East Path (accessed via 19, 21) was a dead end.
+    - Item Balls located at (32, 23) and (35, 9) are currently unreachable.
   - **Plan:**
-    1. Backtrack to (20, 23).
-    2. Slide Left to (18, 23).
-    3. Jump Ledge South at (18, 24) to return to the entrance area.
-    4. Restart puzzle and try the **North Path** (Right -> Up -> Left -> Up).
+    1. Slide Left to (18, 23).
+    2. Jump Ledge South at (18, 24) to return to the entrance area.
+    3. Restart puzzle and try the **North Path** (Right -> Up -> Left -> Up).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
