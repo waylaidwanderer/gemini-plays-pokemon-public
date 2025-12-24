@@ -30,3 +30,7 @@
 - **Observation:** Sage at (5,9) did not battle when interacted with.
 - **Map Analysis:** Bottom-Left area (2-6, 15) appears isolated by walls.
 - **Plan:** Navigate to (8,15) to inspect the wall at (7,15). If impassable, the area is sealed.
+- **Map Analysis:** Bottom-Left room (Row 15, Col 2-6) is inaccessible from 1F. Must be a drop zone.
+- **Entei Marker:** Marker at (12,12) appears to be ghost data (Entei is not currently there).
+- **Plan:** Explore suspicious nooks in Top-Left area: (3,9) and (2,7).
+- **Hypothesis:** Hidden stairs or switches might be in these secluded tiles.
