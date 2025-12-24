@@ -14,7 +14,7 @@
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
 - Status: Roaming (Confirmed via Pokedex dot and Tin Tower event history).
-- Last Seen: Route 44 (Turn 15957).
+- Last Seen: Route 44 (Turn 15982).
 - Lead: XENON (Gastly, Lv18) - Speed: 36.
 - Strategy: Repel Trick in tall grass.
 - **CRITICAL**: Suicune will flee immediately. Mean Look is required on Turn 1.
