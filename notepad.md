@@ -8,7 +8,7 @@
 ## Strategy for Route 36 Sighting
 - Step 1: Approach the Sudowoodo spot at (35, 9) from the East (Ecruteak/Violet). [Failed - Turn 17541]
 - Step 2: Approach from the South (Ruins of Alph). [Failed - Turn 17559]
-- Step 3: Approach from the West (National Park). [In Progress]
+- Step 3: Approach from the West (National Park). [In Progress - Entering Route 36 from gatehouse]
 - Note: Sighting is triggered by walking onto a specific tile.
 - Sage Requirement: Raikou/Entei only need to be released, not seen in Pokedex. Suicune needs all overworld sightings.
 
