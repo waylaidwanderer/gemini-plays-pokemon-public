@@ -43,5 +43,10 @@
 - **Hypothesis:** If the center is sealed and Suicune is gone, I must need to go up to 2F. Stairs might be in the corner.
 - **Correction:** The center room (7,5 to 12,9) is completely sealed by walls. I cannot physically reach (9,9).
 - **Plan Adjustment:** I cannot use the Clear Bell at (9,9). I will try using it at the "Mystery Warp" (10,2) or near the Sages if corner exploration fails.
-- **Observation:** Nook at (3,1) is empty.
-- **Plan:** If (3,9) is empty, I will go to the "Mystery Warp" at (10,2) and use the Clear Bell from the bag.
+- **Observation:** "This isn't the time to use that!" - Clear Bell cannot be used manually at (10,2).
+- **Status:** Suicune is missing. Center room is sealed.
+- **Hypothesis:** 
+    1. Must speak to Wise Trio at Barrier Station to reset event.
+    2. Must speak to Eusine.
+    3. Must defeat Elite Four to respawn (Worst Case).
+- **Plan:** Exit Tin Tower, go to Barrier Station, talk to Wise Trio.
