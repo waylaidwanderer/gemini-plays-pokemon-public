@@ -356,12 +356,17 @@
         "target_index"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef switch_pokemon(target_index, current_index=0):\n    buttons = []\n    diff = target_index - current_index\n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\ninput_data = json.load(sys.stdin)\nswitch_pokemon(int(input_data['target_index']), int(input_data.get('current_index', 0)))",
+    "python_script": "import json\n\n# The variable input_data is automatically provided by the system\ntarget_index = int(input_data['target_index'])\ncurrent_index = int(input_data.get('current_index', 0))\n\nbuttons = []\ndiff = target_index - current_index\nif diff > 0:\n    buttons.extend([\"Down\"] * diff)\nelif diff < 0:\n    buttons.extend([\"Up\"] * abs(diff))\n\n# Select the Pokemon\nbuttons.append(\"A\")\n# Wait for the sub-menu (SWITCH/STATS/CANCEL) to appear\nbuttons.append(\"sleep 500\")\n# Select SWITCH (which is the default first option)\nbuttons.append(\"A\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-24T07:24:00.641Z",
         "action_counter": 16531
+      },
+      {
+        "commit_message": "Fixed switch_pokemon tool to use the globally available input_data variable instead of reading from sys.stdin, resolving the JSONDecodeError.",
+        "timestamp": "2025-12-24T07:28:37.799Z",
+        "action_counter": 16539
       }
     ]
   }
