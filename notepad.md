@@ -44,3 +44,6 @@
 - Heading to Barrier Station (Wise Trio Room) to check for Eusine/Sages again.
 - Returning to Wise Trio Room via Ladder at (5,3).
 - Hypothesis: Eusine might have spawned here after the "Tower Shook" flag was set.
+- Anomaly: Ladder at (5,3) warped me to (17,15) on the same map (4_1).
+- Hypothesis: I might have bypassed the Wise Trio Room (4_2) or the connection is non-standard.
+- Action: Taking Ladder at (17,3) to see if it leads to 4_2 or the Tin Tower trail.
