@@ -17,3 +17,4 @@
 - **Route 44 Update:** North/East bank of 2nd lake (Zach's island) is a DEAD END (Ledges block Eastward travel).
 - **Correction:** Path to Blackthorn must be via the South Path, accessible from the 1st lake (likely landing South at x=27).
 - **Next Step:** Backtrack to 1st lake and explore South bank.
+- **Turn 16312:** Defeated Cooltrainer Cybil. Proceeding East on South Path to Blackthorn City.
