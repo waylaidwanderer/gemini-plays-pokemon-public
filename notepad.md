@@ -1,7 +1,13 @@
 # Current Strategy
-- **Primary Goal:** Reach Blackthorn City via Route 44 and Ice Path.
-- **Suicune Status:** FAILED (Whited out). Not in Pokedex. Questline likely paused or reset.
-- **Route 44:** Currently surfing East. Watch for trainers and items.
+- **Primary Goal:** Reach Blackthorn City via Ice Path.
+- **Current Status:** In Ice Path 1F at (15, 17). Facing South on ice.
+- **Mechanics:** 
+  - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
+  - **Ledges:** One-way jumps.
+- **Navigation:**
+  - Entrance: (4, 19).
+  - Sliding on ice at (15, 17).
+  - Plan: Slide Down to explore South.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
