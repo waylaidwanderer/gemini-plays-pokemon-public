@@ -10,8 +10,11 @@
 - WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Not active. Using fresh one at Turn 16774.
-- Current Turn: 16774. Suicune confirmed on Route 42. Leading with XENON (Lv21).
+- Super Repel: Activated Turn 16776. Steps taken: 0. Steps remaining: 200.
+
+# Lessons Learned
+- Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
+- Repel Trick: Lv21 lead on Route 42 isolates Suicune (Lv40) from wild mons (max Lv15).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
