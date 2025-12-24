@@ -38,3 +38,5 @@
 - **Goal:** Increase Lucid's chance to move first and use Hypnosis on Suicune.
 - **Party Order:** Moving Gyarados to Lead (Slot 1) for Dragon Rage strategy.
 - **Plan:** Head straight to Tin Tower. No grinding. Relying on Strategy Advisor's Dragon Rage plan.
+- **Tactics Update:** Gyarados is now Lead. Strategy: Dragon Rage x3 -> Switch to Sleeper.
+- **Next:** Walk to Tin Tower (North Ecruteak).
