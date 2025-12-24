@@ -6,10 +6,9 @@
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all sightings.
 
 ## Strategy for Route 42 Sighting:
-- Priority 1: Explore the western pocket (Row 1-2). Reachable via walking north from Mt. Mortar entrance at (10, 5).
-- Priority 2: Explore the northern corridor (Row 3-4). Reachable via walking north from the eastern path (X=50-59).
-- Priority 3: Re-check middle island floor ONLY if Priorities 1 & 2 fail.
-- Approach: Surf West from island to (20, 12), then walk West to (10, 10).
+- Priority 1: Middle Island. Use Surf to reach the center area (X=24-30, Y=14-17).
+- Note: Requires CUT to clear trees if approaching from specific angles.
+- Priority 2: Western Pocket (Rows 1-2, X=7-11). Reachable via walking north from Mt. Mortar entrance at (10, 5).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -17,19 +16,19 @@
 - WATER: Traversable with HM03 SURF.
 - TALL_GRASS / LONG_GRASS: Traversable; triggers encounters.
 - LEDGE: One-way traversable (usually South).
-- WARP / DOOR / WARP_CARPET / CAVE: Map transition.
+- WARP / DOOR / WARP_CARPET / CAVE: Map transition. Step triggers warp.
 - FRUIT_TREE: Impassable; interact for fruit/apricorn.
-- HEADBUTT_TREE: Impassable; interact with HM02 HEADBUTT to trigger encounters.
+- HEADBUTT_TREE: Impassable; interact with HM02 HEADBUTT.
 - CUT_TREE: Impassable until cleared with HM01 CUT.
 - FLOOR_UP_WALL: One-way wall; jumpable from North to South.
 
 # Failed Hypotheses
-- Suicune Sighting (Route 42): Island center sweep (X=24-30, Y=14-17) failed to trigger sighting multiple times (Turns 17968, 17985, 18002, 18021). Re-confirmed on Route 42 via Pokedex (Turn 18035). Next: Northern Corridor via X=52.
+- Suicune Sighting (Route 42): Island center sweep (X=24-30, Y=14-17) failed to trigger sighting multiple times (Turns 17968, 17985, 18002, 18021). Re-confirmed on Route 42 via Pokedex (Turn 18035).
 - Hypothesis: Suicune is at the Apricorn trees (28, 16). Status: DENIED (Turn 17968).
+- Hypothesis: Northern Plateau (Rows 0-2) is reachable via (48, 3). Status: DENIED (Turn 18061). (48, 3) is a dead end.
 
 # Discoveries
 - Suicune is NOT at the Apricorn trees (28, 16) as of Turn 17968.
-- Northern Corridor: Reachable from the eastern side of the route near Mt. Mortar entrance (46, 7).
 - Western Pocket: Reachable from the western Mt. Mortar entrance (10, 5).
 - Headbutt Trees: Located at (22, 13), (23, 13), (25, 13), (26, 13), (27, 13), (28, 13), (29, 13), (22, 14), (23, 14), (28, 14), (29, 14), (30, 14), (31, 14), (29, 12).
 
@@ -45,9 +44,4 @@
 
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Small strip of land at (32-33, 8-11) east of the middle island.
-- Northern Plateau Access: Reachable via Row 4 corridor. Entrance to corridor is at (30, 4).
-- Row 4 Corridor: Clear path from (30, 4) to (48, 4).
-- Access to X=30: Reachable from middle island exit (28, 9) by walking to Row 10.
-- Strategy: Cave (46, 7) -> Cave (28, 9) -> (30, 10) -> (30, 4) -> (48, 4) -> (48, 3).
 - Western Pocket: (7-11, 1-2). Reachable via (10, 5) exit.
