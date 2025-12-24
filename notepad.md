@@ -23,6 +23,7 @@
 - History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
 - Pokedex 'Area' tracks the current active overworld sighting location.
 - Sightings are triggered by specific tile-entry zones.
+- Time Tracking: Searched Route 42 island from Turn 17450 to 17515 (Stagnated).
 
 # Items Received
 - Fire Stone: Route 36 (Alan).
