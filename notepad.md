@@ -3,7 +3,7 @@
 
 # Current Objectives
 - **Location:** Ecruteak City.
-- **Immediate:** Buy supplies at Poke Mart.
+- **Immediate:** Head to Tin Tower (North-East).
 - **Next:** Investigate Tin Tower (North).
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
