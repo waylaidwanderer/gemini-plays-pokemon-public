@@ -2,7 +2,8 @@
 - Current Step: Route 36 sighting.
 - Requirements: Sighting occurs at the junction of Route 36 and 37 (near the former Sudowoodo spot).
 - Hypothesis 1: Approach from the West (Route 36) to trigger sighting (Failed twice).
-- Hypothesis 2: Approach from the North (Route 37) to trigger sighting (Pending).
+- Hypothesis 2: Approach from the North (Route 37) to trigger sighting (Failed once - Turn 17377).
+- Hypothesis 3: Approach from the East (Violet City side) to trigger sighting (Pending).
 - Battle Plan (Tin Tower): Lead with XENON (Gastly). Turn 1: Hypnosis. Turn 2+: Night Shade.
 
 # Tile Mechanics (Global)
