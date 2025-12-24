@@ -1,24 +1,24 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
 - **Immediate Task:** Heal Gyarados (Critical HP).
-- **Status:** At Start (13, 16).
-- **Next Hypothesis (Center-North Path):**
-  1. From (13, 17), slide Right to (15, 17).
-  2. **TEST:** Slide **UP** from (15, 17).
-  3. **Rationale:** This path is untested. It might lead to the inaccessible North/West areas.
-- **Backup:** If that fails, revert to East Corridor plan.
+- **Status:** In Bag, scrolling to Super Potion.
+- **Location:** Start Area (13, 16).
 
-# Tile Mechanics
-- **FLOOR:** Walkable.
-- **WALL:** Impassable.
-- **FLOOR_UP_WALL:** Acts as a SOLID WALL at (7, 18), (14, 22), (20, 24). Likely all of Row 18 is blocked, but verifying.
-- **ICE:** Slides player until collision.
+# Planned Route (Post-Heal)
+1. **Center-North Hypothesis:** 
+   - From (13, 17), slide Right to (15, 17).
+   - **Action:** Slide UP.
+   - **Reasoning:** This vector has not been tested. The "Box" area might have an exit North that connects to the West Corridor.
+2. **Backup (East Corridor):** 
+   - If North fails, solve puzzle to (20, 23) -> Navigate to (30, 12) -> South.
 
-# Key Log
-- **Turn 16388:** Escaped ice loop to (13, 16).
-- **Turn 16386:** Confirmed (30, 12) leads South.
-- **Turn 16381:** Row 18 ledges confirmed impassable (at x=7).
-- **Turn 16398:** Ambushed by Golbat while escaping. Gyarados critical (11 HP).
-- **Immediate Action:** Flee -> Heal -> Reset to (13, 16).
-- **Next Hypothesis:** Check the "Box" at the start ((13,16)-(15,17)). Is sliding UP from (15, 17) a valid move, or just a loop?
-- **Turn 16404:** Testing (9, 18). Confirmed path to x=0 is blocked by walls at x=1-2 on Row 17.
+# Mechanics & Lessons
+- **Ice Physics:** Sliding continues until collision.
+- **Ledges:** `FLOOR_UP_WALL` tiles at (7,18), (8,18), (9,18), (10,18), (14,22), (20,24) are **IMPASSABLE WALLS**. Do not attempt to jump them.
+- **Map Structure:** Map appears split into West (Goal?), Center (Start/Hub), and East (Dead ends/Item Balls).
+
+# Reflection (Turn 16417)
+- **Execution:** Delayed healing slightly due to movement errors, now correcting.
+- **Hygiene:** Notepad consolidated. Markers updated for walls.
+- **Goals:** Clear.
+- **Errors:** Hallucinated ledge jumps. Root cause: Visual similarity to ledges in other tilesets. Verification: Bump test confirmed they are walls. Lesson: Verify collision before assuming traversal.
