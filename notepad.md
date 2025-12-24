@@ -9,14 +9,12 @@
 - **Status:** Shortcut at (19, 23) leads to Entrance (14, 16), not Puzzle.
 
 # Ice Path Strategy
-- **Current Action:** Returning to Hub to access SE Area.
-- **Goal:** Reach Floor at (20, 23) and explore South.
+- **Current Action:** Exploring South-East Floor Area.
+- **Goal:** Retrieve Item Ball at (32, 23).
 - **Route:**
-  1. Slide **Right** from (14, 17) to (15, 17).
-  2. Slide **Down** to (15, 21).
-  3. Slide **Right** to (19, 21).
-  4. Slide **Down** to (19, 23).
-  5. Step **Right** to (20, 23) [Target].
+  1. Step **Right** to (20, 23) [Current].
+  2. Walk South/East on the floor tiles.
+  3. Find path to Item Ball (32, 23).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
@@ -26,5 +24,5 @@
 - **West:** Ice Room (Puzzle solved).
 - **Center:** Hub.
 - **East:** Winding corridors.
-- **South:** Unexplored SE area (Access via Hub).
+- **South:** SE Floor Area (Current Location).
 - **Items:** Item Balls at (32, 23), (35, 9).
