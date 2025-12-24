@@ -12,7 +12,7 @@
 - Eastern approach via northern channel [Turns 17760-17765].
 - Navigation attempt to mainland (X=12, Y=8) via navigate_menu_v2 failed; cliff at (19, 10) blocks water entry from (20, 10). [Turn 17870-17871].
 - Accidental warp into Mt. Mortar middle entrance at (28, 9) on Route 42. [Turn 17872].
-- Exited Mt. Mortar middle entrance at (28, 9). [Turn 17874].
+- Exited Mt. Mortar middle entrance at (28, 9). [Turn 17875].
 - Hypothesis 37: Suicune trigger is on the northern path near Mt. Mortar (X=21-33, Y=4-8).
 
 ## Current Hypothesis Testing (Route 42)
