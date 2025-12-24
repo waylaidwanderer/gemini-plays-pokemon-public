@@ -47,5 +47,7 @@
 - **Observation:** Wall at (12,1) confirms I must use Row 2 to traverse.
 - **Hypothesis:** Speaking to the Sages INSIDE the tower might be required to activate the warp at (10,2) or reveal the path, now that the "shaking" event has occurred.
 - **Plan:** Check (16,2), then talk to Sage at (14,6).
-- **Action:** checking (16,1) for hidden items/stairs.
-- **Contingency:** If empty, I will go talk to the Sage at (14,6).
+- **Observation:** Sage at (14,6) still gives old lore text ("Two towers...").
+- **Hypothesis:** The "Tower Shook" event might allow the **Clear Bell** to work at (10,2) now. I tried it *before* the event reset, but not after.
+- **Plan:** Go to (10,2) and use the Clear Bell from the bag.
+- **Contingency:** If that fails, talk to the Center Sage (11,11) and Left Sage (5,9).
