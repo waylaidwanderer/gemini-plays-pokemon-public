@@ -34,6 +34,7 @@
 - **Entei Marker:** Marker at (12,12) appears to be ghost data (Entei is not currently there).
 - **Plan:** Explore suspicious nooks in Top-Left area: (3,9) and (2,7).
 - **Hypothesis:** Hidden stairs or switches might be in these secluded tiles.
-- **Action:** Exploring Top-Right corner (Row 1, Col 13-16) for stairs.
-- **Hypothesis:** Stairs to 2F are hidden in a corner. (10,2) warp is likely an exit from above.
-- **Plan:** Navigate to (16,1) and inspect the area. Then check Bottom-Right if empty.
+- **Action:** exploring Bottom-Right corner (17,15).
+- **Hypothesis:** Stairs to 2F might be tucked away in the corners.
+- **Note:** "Mystery Warp" at (10,2) has `entry_point="2"` in XML, implying it IS an active warp, but walking on it failed. Possible destination: Tin Tower 2F? Or maybe it *is* an exit and the XML label is misleading?
+- **Plan:** Check bottom-right. If empty, try using Clear Bell from Bag.
