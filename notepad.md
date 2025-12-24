@@ -3,7 +3,8 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Defeat Rocket Executive (Female) at (17, 2).
+- **Current Task:** Heal Muscle, then defeat Rocket Executive (Male) at (13, 5).
+- **Progress:** Rocket Executive (Female) defeated.
 
 ## Radio Tower Progress
 - **1F-4F:** Cleared.
