@@ -1,3 +1,10 @@
+# Suicune Quest Log (Crystal)
+- Turn 16300: Encountered Suicune at Lake of Rage.
+- Turn 17000: Spotted Suicune on Route 42 island (requires Surf/Cut).
+- Turn 17183: Confirmed Suicune is now on Route 36 via Pokedex 'Area'.
+- Current Strategy: Fly to Violet City and approach Route 36 intersection (35, 9) from the East.
+- Status: In Ruins of Alph (3_22) at (10, 9). Preparing to Fly.
+
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
