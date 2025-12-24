@@ -2,10 +2,8 @@
   "find_path_v2": {
     "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and one-way tiles (ledges, floor-up-walls). Returns a list of coordinate objects or button strings if autopress_buttons is true.",
     "input_schema": {
+      "type": "object",
       "properties": {
-        "can_surf": {
-          "type": "boolean"
-        },
         "end_x": {
           "type": "integer"
         },
@@ -13,21 +11,23 @@
           "type": "integer"
         },
         "start_x": {
-          "nullable": true,
-          "type": "integer"
+          "type": "integer",
+          "nullable": true
         },
         "start_y": {
-          "nullable": true,
-          "type": "integer"
+          "type": "integer",
+          "nullable": true
+        },
+        "can_surf": {
+          "type": "boolean"
         }
       },
       "required": [
         "end_x",
         "end_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ntry:\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = bool(input_data.get('can_surf', False))\n    autopress_buttons = bool(input_data.get('autopress_buttons', False))\n    \n    root = ET.fromstring(map_xml_string)\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    if start_x is None or start_y is None:\n        player_found = False\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    player_found = True\n                    break\n            if player_found: break\n    else:\n        start_x = int(start_x)\n        start_y = int(start_y)\n\n    if start_x is None:\n        print(json.dumps([\"Error: Player position not found\"]))\n    else:\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        tiles = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                has_obj = tile.attrib.get('has-object') == 'true'\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                tiles[(x, y)] = {'type': t_type, 'obj': has_obj, 'warp': is_warp}\n\n        path_found = None\n        while queue:\n            cx, cy, path = queue.popleft()\n            if cx == end_x and cy == end_y:\n                path_found = path + [(cx, cy)]\n                break\n            \n            for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in tiles and (nx, ny) not in visited:\n                    target = tiles[(nx, ny)]\n                    passable = False\n                    \n                    if target['type'] in [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"DIRT\", \"SAND\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\", \"CAVE\", \"WARP\"]:\n                        passable = True\n                    elif target['warp']:\n                        passable = True\n                    elif target['type'] == \"WATER\" and can_surf:\n                        passable = True\n                    elif target['type'] == \"FLOOR_UP_WALL\":\n                        if dy == -1: passable = True\n                    elif target['type'] == \"LEDGE\":\n                        if dy == 1: passable = True\n                    \n                    if target['obj'] and not (nx == end_x and ny == end_y):\n                        passable = False\n                    \n                    if passable:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [(cx, cy)]))\n        \n        if path_found:\n            if autopress_buttons:\n                btns = []\n                for i in range(len(path_found) - 1):\n                    x1, y1 = path_found[i]\n                    x2, y2 = path_found[i+1]\n                    if x2 > x1: btns.append(\"Right\")\n                    elif x2 < x1: btns.append(\"Left\")\n                    elif y2 > y1: btns.append(\"Down\")\n                    elif y2 < y1: btns.append(\"Up\")\n                print(json.dumps(btns))\n            else:\n                print(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path_found]))\n        else:\n            print(json.dumps([\"Error: No path found\"]))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    end_x = int(input_data.get('end_x'))\n    end_y = int(input_data.get('end_y'))\n    can_surf = input_data.get('can_surf', False)\n    if isinstance(can_surf, str):\n        can_surf = can_surf.lower() == 'true'\n\n    if not map_xml_string or \"<Map\" not in map_xml_string:\n        return [\"Error: Mental Map unavailable\"]\n    \n    root = ET.fromstring(map_xml_string)\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    if start_x is None or start_y is None:\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x, start_y = int(tile.attrib['id']), y\n                    break\n            if start_x is not None: break\n            \n    if start_x is None: return [\"Error: Player position not found\"]\n\n    grid = {}\n    impassable_types = {'WALL', 'HEADBUTT_TREE', 'unseen'}\n    if not can_surf:\n        impassable_types.add('WATER')\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None and (x != end_x or y != end_y):\n                grid[(x, y)] = 'WALL'\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n            \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid:\n                t_type = grid[(nx, ny)]\n                \n                # Relational movement logic (one-way tiles)\n                if dy == 1: # South\n                    if grid.get((cx, cy)) == 'FLOOR_UP_WALL' or t_type == 'FLOOR_UP_WALL': continue\n                    if t_type == 'LEDGE_HOP_DOWN':\n                        ny += 1\n                        if (nx, ny) in grid: t_type = grid[(nx, ny)]\n                        else: continue\n                elif dy == -1: # North\n                    if t_type == 'LEDGE_HOP_DOWN': continue\n                elif dx == 1: # East\n                    if t_type == 'LEDGE_HOP_RIGHT':\n                        nx += 1\n                        if (nx, ny) in grid: t_type = grid[(nx, ny)]\n                        else: continue\n                elif dx == -1: # West\n                    if t_type == 'LEDGE_HOP_RIGHT': continue\n                \n                if t_type not in impassable_types or (nx == end_x and ny == end_y):\n                    if (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n                        \n    return [\"Error: No path found\"]\n\nprint(json.dumps(run(input_data)))",
     "history": [
       {
         "commit_message": "Refined find_path to use the globally available map_xml_string and removed it from input_schema. Fixed one-way logic and impassable types.",
@@ -108,6 +108,11 @@
         "commit_message": "Ensure all outputs of find_path_v2 are JSON-encoded arrays of strings to prevent parsing errors in the harness, and include WARP in the passable list.",
         "timestamp": "2025-12-23T21:55:48.757Z",
         "action_counter": 15387
+      },
+      {
+        "commit_message": "Added can_surf parameter and updated pathfinding logic for ledges and one-way walls.",
+        "timestamp": "2025-12-24T02:44:55.343Z",
+        "action_counter": 16074
       }
     ]
   },
