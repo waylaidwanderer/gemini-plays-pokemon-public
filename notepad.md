@@ -7,8 +7,8 @@
   - East Floor Area (x>20) was partially seen but not explored.
 - **Path Plan:**
   1. Walk to (13, 17). [DONE]
-  2. From (13, 17), Slide Right -> Stop at (15, 17). [NEXT]
-  3. Slide Down -> Stop at (15, 21).
+  2. From (13, 17), Slide Right -> Stop at (15, 17). [DONE]
+  3. From (15, 17), Slide Down -> Stop at (15, 21). [NEXT]
   4. Slide Right -> Stop at (19, 21).
   5. Slide Down -> Stop at (19, 23).
   6. Slide Right -> Arrive at (20, 23) [Hub].
