@@ -1,38 +1,27 @@
 # Tile Mechanics (Global)
-- FLOOR: Traversable in all directions.
-- WALL: Impassable solid obstacle.
-- TALL_GRASS: Traversable. Triggers wild encounters.
-- WATER: Impassable without Surf. Traversable with Surf.
-- HEADBUTT_TREE: Impassable. Interacts with Headbutt move.
-- CUT_TREE: Impassable. Requires Cut move to clear.
-- LEDGE_HOP_LEFT: One-way ledge (East to West).
-- FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South.
-- WARP / CAVE / WARP_CARPET: Map transition points.
-
-# Item Usage Tracking
-- Max Repel: Activated Turn 16879. Steps taken: 28. Steps remaining: 222. (Note: Inventory empty; restock in Mahogany Town after expiration)
+- FLOOR: Traversable in all directions. (Verified)
+- WALL: Impassable solid obstacle. (Verified)
+- TALL_GRASS: Traversable. Triggers wild encounters. (Verified)
+- WATER: Impassable without Surf. Traversable with Surf. (Verified)
+- HEADBUTT_TREE: Impassable. Interacts with Headbutt move. (Verified)
+- CUT_TREE: Impassable. Requires Cut move to clear. (Verified)
+- LEDGE_HOP_LEFT: One-way ledge (East to West). (Verified)
+- FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. (Verified)
+- WARP / CAVE / WARP_CARPET: Map transition points. (Verified)
 
 # Roamer Tracking Data
-- Route 42 (2_5) Neighbors: Ecruteak City (1_3), Mahogany Town (2_4).
+- Raikou/Entei Neighbors: Route 42 (2_5) connects to Ecruteak City (1_3) and Mahogany Town (2_4).
 
-# Lessons Learned
-- Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
-- Repel Trick: Lv21 lead on Route 42 isolates Suicune (Lv40) from wild mons (max Lv15).
-- Movement Reliability: 'grind_movement' is limited to 2 cycles (4 steps) to ensure the 10-element button sequence limit is respected.
+# Suicune Tracking & Strategy
+- Status: Scripted Overworld Encounters (Crystal Version).
+- Sightings: Burned Tower (fled), Cianwood City (fled).
+- Next Target: Route 42 (Middle area near Apricorn trees).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
 - HM02 Fly: ICARUS (Pidgey)
 - HM03 Surf: Ravioli (Krabby)
 - HM04 Strength: GNEISS (Graveler)
-
-# Suicune Tracking & Strategy
-- Status: Roaming. Moves when player changes maps.
-- Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
-- Level Targets: Lv21 (Route 42/43), Lv27 (Route 44).
-- Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
-- Hunt Start Turn: 16587 (Wednesday, Dec 24, 2025).
-- Current Attempt: Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag): Lv22, Male.
@@ -45,4 +34,5 @@
 - Blarney (SUDOWOODO): Lv20, Male.
 
 # Exploration Targets
-- Explore unseen tiles on Route 42 (e.g., (33, 15), (24, 17)).
+- Route 42 middle area (Apricorn trees) for Suicune sighting.
+- Unseen tiles on Route 42: (33, 15), (24, 17).
