@@ -17,6 +17,6 @@
 
 # Tile Mechanics
 - **WARP_CARPET:** Some require specific directional input (e.g. Down to exit Tower).
-- Error: Accidentally walked back into Tin Tower (Up from 37,8).
-- Correction: Must move DOWN from (37,8) to exit the building porch area.
-- Revised Plan: Exit Tin Tower (Down). Navigate Ecruteak (37,8 -> 37,9 -> Left) to Wise Trio Room (20,3) to find Eusine.
+- Navigation Note: To exit Tin Tower area, go DOWN to (37,9) first, then navigate the maze:
+  (34,9) -> Up to (34,7) -> Left to (32,7) -> Up to (32,5) -> Left to (28,5) -> Up to (28,3) -> Left to Exit.
+- Current Goal: Find Eusine in Barrier Station (City Side) or Ecruteak City to trigger Suicune event.
