@@ -34,5 +34,5 @@
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (31/187 HP). Def -2. DANGER ZONE.
-- **Action:** Switching to Items Pocket to Heal.
+- **Action:** Selected Super Potion. Confirming 'USE'.
 - **Strategy:** Use Super Potion. Heal loop (Heal -> Throw -> Throw -> Heal).
