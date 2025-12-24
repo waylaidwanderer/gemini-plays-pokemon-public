@@ -56,3 +56,9 @@
 ## Route 44 Wild Encounters
 - Grass: Tangela (Lv23-26), Lickitung (Lv24-26), Bellsprout (Lv22-24), Weepinbell (Lv24-26).
 - Water: Poliwag (Lv20-24), Poliwhirl (Lv24-26).
+## Backup Trapper Strategy
+- If XENON (Gastly) is defeated or unable to trap:
+  1. Switch to Calcifer (Lv45) to tank hits.
+  2. Use Ultra Ball/Great Balls to attempt catch (low probability without sleep/trapping).
+  3. If Suicune flees, resume tracking via Pokedex.
+- Status: Need to find a second Pokemon with a trapping move (e.g. Mean Look, Spider Web) for a more robust team.
