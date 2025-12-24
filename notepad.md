@@ -3,8 +3,8 @@
 - **Goal:** Find Ladder to B1F.
 - **Status:** Found **HM07 (Waterfall)** at (31, 7).
 - **Backtrack Plan (Active):**
-  1. Slide **Left** -> (22, 7) [Hit Wall at 21, 7]. [NEXT]
-  2. Slide **Up** -> (22, 6) [Hit Wall at 22, 5].
+  1. Slide **Left** -> (22, 7) [Hit Wall at 21, 7]. [DONE]
+  2. Slide **Up** -> (22, 6) [Hit Wall at 22, 5]. [NEXT]
   3. Slide **Right** -> (25, 6) [Hit Wall at 26, 6].
   4. Slide **Down** -> (25, 9) [Hit Wall at 25, 10].
   5. Slide **Right** -> (28, 9) [Hit Wall at 29, 9].
