@@ -23,3 +23,4 @@
 
 # Shop Inventories
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
+- **Dialogue:** Sage at Barrier Station: "A momentous event has occurred. I beg your pardon, but I must ask you to leave."
