@@ -52,3 +52,5 @@
 - **Lore Update:** Sage at (14,6) spoke about the two towers fostering friendship 700 years ago.
 - **Hypothesis:** Talking to both Sages might have unlocked the path or the warp.
 - **Plan:** Return to the warp at (10,2) and inspect it. If that fails, check the Left Sage again.
+- **Hypothesis Update:** The warp at (10,2) likely leads to 2F, allowing access to the center of 1F via a drop or stairs.
+- **Action:** Inspecting (10,2) and re-entering it to trigger the warp.
