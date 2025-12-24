@@ -295,7 +295,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ndef main(input_data):\n    move_index = int(input_data.get('move_index', 0))\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    for _ in range(15):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))",
+    "python_script": "import json\ndef main(input_data):\n    move_index = int(input_data.get('move_index', 0))\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))\n\nmain(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -306,6 +306,11 @@
         "commit_message": "Fix battle_grind: add mandatory main function wrapper.",
         "timestamp": "2025-12-24T04:59:12.693Z",
         "action_counter": 16355
+      },
+      {
+        "commit_message": "Fix battle_grind: call the main function with input_data.",
+        "timestamp": "2025-12-24T05:03:06.090Z",
+        "action_counter": 16361
       }
     ]
   }
