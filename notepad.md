@@ -1,13 +1,15 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen).
-- Milestone 3: Route 42 Island (In Progress).
-- Goal: Verify if Suicune is on the middle island (26, 14) or if the Tin Tower event is active.
+- Milestone 3: Route 42 (In Progress - Looking for sighting).
+- Milestone 4: Route 36 (Not yet seen).
+- Milestone 5: Tin Tower (Not yet reached).
+- Goal: Find Suicune on Route 42. Check island (26, 14) and tall grass (46, 12).
 
 ## Verification Checklist
-- Clear Bell: Obtained.
+- Clear Bell: Obtained (in inventory).
 - Badges: 7/8 (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier).
-- Tin Tower Event: Visit Tin Tower in Ecruteak to confirm status.
+- Tin Tower Event: Visit Tin Tower in Ecruteak to confirm status if Route 42 fails.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
