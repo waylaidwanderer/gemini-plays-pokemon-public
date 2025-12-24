@@ -81,3 +81,4 @@
 - Observation: Right Sage (14,6) also gives generic lore ("The two TOWERS...").
 - Conclusion: "Tower Shook" event did NOT update the Sages' dialogue inside Tin Tower 1F.
 - Plan: Verify Left Sage (5,9) just in case, then Exit.
+- Observation: Warp at (9,15) is a carpet but didn't trigger instantly. Attempting to press Down to exit.
