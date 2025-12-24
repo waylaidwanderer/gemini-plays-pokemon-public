@@ -4,7 +4,7 @@
 - WATER: Requires Surf (HM03) to traverse.
 - CUT_TREE: Requires Cut (HM01) to clear. Regrows on map reload.
 - LEDGE: One-way jump (usually South).
-- FLOOR_UP_WALL: One-way barrier. Blocks Northward movement (cannot move North into it). Verified at (50, 14) on Route 42.
+- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement (cannot move South into it). Verified at (50, 14) on Route 42.
 - TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12) on Route 42.
 - CAVE: Warp tile.
 - MART_SHELF: Impassable collision.
@@ -33,7 +33,12 @@
 - Strategy: Repel Trick in tall grass (Target Lv27+).
 - **CRITICAL**: Mean Look required on Turn 1.
 
-## Training Phase (Started Turn 16025, Current Turn 16101)
+## Strategy for Suicune
+- Mean Look on Turn 1 is mandatory.
+- Backup: If XENON is outsped or incapacitated, switch to Calcifer (Lv45) for durability, though he lacks trapping moves.
+- Quick Claw: Check for this item to ensure Mean Look goes first.
+
+## Training Phase (Started Turn 16025)
 - Target: Route 44.
 - Goal: Level XENON (Gastly) to Lv27.
 - Wild Pokemon Levels: Max Lv26 on Route 44.
@@ -51,8 +56,3 @@
 ## Route 44 Wild Encounters
 - Grass: Tangela (Lv23-26), Lickitung (Lv24-26), Bellsprout (Lv22-24), Weepinbell (Lv24-26).
 - Water: Poliwag (Lv20-24), Poliwhirl (Lv24-26).
-
-## Reflection Lessons
-- Fly Menu: Cycles through locations with Up/Down.
-- Repel Trick: Lead level must be > wild max but < roamer level.
-- Roamer Movement: Moves when player crosses map boundary.
