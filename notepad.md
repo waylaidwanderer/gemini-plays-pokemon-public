@@ -3,13 +3,13 @@
 ## Current Status
 - **Location:** Radio Tower 4F (3_20).
 - **Objective:** Clear 4F and reach 5F (Director's Office).
-- **Current Task:** Defeat Rocket Executive at (14, 1).
+- **Current Task:** Navigate to 5F Staircase at (0, 0).
 
 ## Radio Tower Progress
 - **1F:** Cleared.
 - **2F:** Cleared.
 - **3F:** Card Key used. Shutter open.
-- **4F:** Just arrived.
+- **4F:** Rocket Executive defeated. Accessing 5F.
 
 ## Switch Room (3_54) Configuration
 - **S1 (16, 1):** ON (East Closed / West Open).
