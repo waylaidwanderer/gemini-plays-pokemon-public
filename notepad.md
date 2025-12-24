@@ -26,3 +26,6 @@
 - **Hypothesis:** Talking to all 3 might have been the trigger to activate the warp at (10,2), or the map needs a reload.
 - **Action:** Retrying the warp at (10,2) one last time now that I've spoken to everyone.
 - **Contingency:** If this fails, I will exit to Ecruteak City to look for Eusine.
+- **Action:** Exiting Tin Tower 1F to Bell Chime Trail.
+- **Reasoning:** Triggering a map reload after speaking to all 3 Sages post-shake might activate the warp at (10,2) or spawn Suicune.
+- **Next:** Re-enter Tin Tower 1F immediately.
