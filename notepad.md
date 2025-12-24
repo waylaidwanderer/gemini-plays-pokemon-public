@@ -1,24 +1,23 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen).
-- Milestone 3: Route 42 (In Progress).
-- Goal: Find Suicune's scripted sighting on Route 42.
-- Note: I have the Clear Bell and 7 badges. Suicune does NOT roam until after the Tin Tower event. Pokedex location currently shows Route 42.
+- Milestone 3: Route 42 (Seen).
+- Milestone 4: Route 36 (Seen).
+- Milestone 5: Tin Tower (Battled).
+- Status: Roaming. Goal: Catch Suicune.
+- Note: Pokedex AREA map shows Suicune on Route 42. This confirms Roaming mode.
 
-## Verification Checklist
-- Clear Bell: Obtained (in inventory).
-- Badges: 7/8 (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier).
-- Tin Tower Event: NOT COMPLETED. (Hallucination corrected).
-
-## Strategy for Route 42
-1. Check the middle island (26, 14) again. If not there, check the tall grass at (46, 12).
-2. If Suicune is not found on Route 42 despite Pokedex showing it, head to Ecruteak City to check the Tin Tower.
+## Strategy for Catching Suicune
+1. Navigate to tall grass at (46, 12) on Route 42.
+2. Patrol grass until Suicune appears.
+3. Lead with XENON (Gastly) and use MEAN LOOK immediately.
+4. Use HYPNOSIS to sleep, then lower HP.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable with HM03 SURF.
-- TALL_GRASS: Traversable; triggers wild encounters.
+- TALL_GRASS: Traversable; triggers encounters.
 - LEDGE: One-way traversable.
 - WARP / DOOR: Map transition.
 - HEADBUTT_TREE: Impassable; interact with HM02.
@@ -26,3 +25,8 @@
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Lessons Learned
+- Roaming Logic: Pokedex AREA map showing a route means Suicune is roaming. Transitions change its location.
+- Verification: Always check inventory (Clear Bell) and badges (7/8) to verify quest status.
+- Navigation: Surfing ends when stepping on FLOOR. Must re-initiate from water edge.
