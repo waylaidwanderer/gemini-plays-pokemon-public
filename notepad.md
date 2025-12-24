@@ -30,3 +30,6 @@
 - **Action:** Clearing text to trigger any scripts.
 - **Correction (Turn 15093):** Grunt at `(9, 6)` did not move. However, Row 5 is open to the East.
 - **New Plan:** Bypass the Grunt by taking the route: `(9, 5)` -> East to `(14, 5)` -> South to `(14, 8)` -> West to Director.
+- **Success (Turn 15094):** Bypassed the Grunt by taking the Eastern route (Row 5 -> Col 14 -> Row 8).
+- **Current Position:** `(14, 8)`.
+- **Immediate Goal:** Pick up Item Ball at `(13, 9)` and Rescue Director at `(12, 8)`.
