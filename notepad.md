@@ -47,3 +47,7 @@
 - Root Hypothesis:fly map is a grid.
 - Conclusion: Hypothesis denied. It's a structured list.
 - Lesson: Move one step at a time and verify the destination name on screen.
+## Roamer Encounter Log
+- Turn 15845: Encountered wild RAIKOU (Lv40) on Route 42.
+- Result: RAIKOU fled before MEAN LOOK (Turn 1).
+- Lesson: XENON (Lv18, Speed 36) is too slow for Turn 1 trapping against Lv40 roamers. Need higher level or Quick Claw if available (check bag).
