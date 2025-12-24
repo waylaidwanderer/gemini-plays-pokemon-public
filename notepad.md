@@ -1,25 +1,30 @@
-# Suicune Sighting Strategy (Pokemon Crystal)
-## Primary Goal: Trigger Suicune Sightings
-- Suicune is NOT a roamer in Crystal until after the Tin Tower event. It follows a scripted sequence of overworld sightings.
-- Sighting 1: North of Cianwood City (Completed).
-- Sighting 2: Route 42 Middle Island (Current Target). Triggered by approaching the sprite on the island.
-- Sighting 3: Route 36 (Next Target). Triggered by approaching the sprite near the Sudowoodo spot.
-- Final Encounter: Tin Tower. Stationary battle.
+# Global Tile Mechanics
+- TALL_GRASS: Triggers wild encounters.
+- WATER: Requires Surf (HM03) to traverse. Interact with edge or use from menu.
+- CUT_TREE: Requires Cut (HM01) to clear. Regrows whenever the map is reloaded (e.g., entering/exiting Mount Mortar).
+- LEDGE: One-way movement (usually South).
+- FLOOR_UP_WALL: Impassable from North.
+- WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Standard impassable collision.
+- CAVE: Warp to cave map.
+- WARP_CARPET: Warp to adjacent map or building.
 
-## Route 42 Navigation
-- Middle Island access: Surf at (14, 12) or use Cut on the tree at (24, 13).
-- Note: The Cut tree regrows whenever the map is reloaded (e.g., entering or exiting Mount Mortar).
+# Suicune Capture Strategy (Pokemon Crystal)
+## Primary Goal: Capture Suicune
+- Suicune follows a scripted sequence of sightings before becoming a roamer or stationary battle.
+- Sighting 1: Cianwood City (Completed).
+- Sighting 2: Route 42 Middle Island (In Progress?). Approach the sprite on the island.
+- Sighting 3: Route 36 (Next Target). Approach the sprite near the Sudowoodo spot.
+- Final Encounter: Tin Tower. Stationary battle (requires Clear Bell and 3 Ecruteak-area badges).
+
+## Verification Plan: Roamer vs. Sighting
+- If Suicune is roaming, its location in the Pokedex will change when crossing map boundaries.
+- If Suicune is in sighting mode, it will remain at its scripted location.
+- Test: Move to Mahogany Town and back, checking Pokedex Area each time.
 
 ## Party Strategy
-- XENON (Gastly, Lv18): Mean Look and Hypnosis. Essential for the final encounter at Tin Tower to prevent Suicune from fleeing (though it doesn't flee in the final Tin Tower battle in Crystal, it's good practice).
-- KIMCHI (Gloom): Has Cut for navigation.
-- Ravioli (Krabby): Has Surf for navigation.
-
-## Tile Mechanics (Route 42)
-- WATER: Requires Surf (HM03). Interact with edge or use from menu.
-- CUT_TREE: Requires Cut (HM01). Regrows on map reload (e.g., entering/exiting Mt. Mortar).
-- LEDGE: One-way movement (usually South or East).
-- FLOOR_UP_WALL: Collision type at (50, 14), impassable from North.
+- XENON (Gastly, Lv18): Lead for Mean Look/Hypnosis.
+- KIMCHI (Gloom): Cut.
+- Ravioli (Krabby): Surf.
 
 ## Items
-- Super Repel: Active for 200 steps. Use to avoid wild encounters while traveling.
+- Super Repel: Active (approx 180 steps remaining). Use to avoid wild encounters while traveling.
