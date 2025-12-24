@@ -56,3 +56,5 @@
 - **Current Position:** `(1, 3)`.
 - **Action:** Navigate to the controls at `(3, 0)` (Stand at `(3, 1)`).
 - **Plan:** Select "1F" to exit the Department Store.
+- **Transition (Turn 15124):** Arrived at Goldenrod Dept. Store 1F `(2, 1)`.
+- **Plan:** Exit building via `(7, 7)` and head to Radio Tower.
