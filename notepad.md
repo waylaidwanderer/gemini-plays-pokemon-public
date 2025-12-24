@@ -3,14 +3,15 @@
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
-  - **B3 Execution:**
-    1. **Status:** B3 is at (4, 11). Player at (6, 11).
-    2. **Loop Path:** (6, 11) -> (7, 11) -> (7, 13) -> (4, 13) -> (4, 12) -> (3, 12) -> (3, 10) -> (4, 10).
-    3. **Push:** From (4, 10), Push Down to (4, 12).
-    4. **Finish:** Move to (3, 12), Push Right to Pit (5, 12).
-  - **Next:** Solve B2 (7, 8) -> Pit (4, 7).
-  - **Target:** Fill/Drop boulders into all 4 pits.
-- **Next Step:** Navigate to (4, 10) via loop.
+  - **B3 Status:** Pushed Right to Pit (5, 12). (DONE)
+  - **B2 Plan (Target Pit 4, 7):**
+    1. Navigate to (8, 8).
+    2. Push B2 Left to (5, 8).
+    3. Navigate to (5, 9). Push B2 Up to (5, 6).
+    4. Navigate to (6, 6). Push B2 Left to (4, 6).
+    5. Navigate to (4, 5). Push B2 Down to Pit (4, 7).
+  - **Remaining:** B1 & B4.
+- **Next Step:** Navigate to (8, 8).
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
