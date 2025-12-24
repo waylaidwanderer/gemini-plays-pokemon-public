@@ -17,3 +17,6 @@
 - **Navigation Anomaly:** Taking the Left Ladder `(1,4)` in Wise Trio Room `(4_2)` placed me at `(17,3)` in Barrier Station `(4_1)`, which is the **Right Side**.
 - **Hypothesis:** I am on the "Tower" side of the Barrier Station. To reach the "City" side (Left Side), I must find a connector.
 - **Action:** Investigating the Ladder at `(17,15)` on `4_1` (Right Side). It likely leads to the City side or a basement connector.
+- **Navigation Update:** The ladder at `(17,15)` (Right Side) WARPED me to `(5,3)` (Left Side). I am now on the "City" side of the Barrier Station.
+- **Action:** Talk to the Sage at `(4,6)` to see if he is part of the Wise Trio or has info on Suicune.
+- **Goal:** Reset Suicune event.
