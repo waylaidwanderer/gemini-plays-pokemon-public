@@ -1,16 +1,15 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** Moving West on Floor (Row 23).
+- **Current Status:** At (14, 21) on Ice. Ledge Jump Failed.
 - **Mechanics:** 
-  - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
-  - **Ledge Jump:** Successful. Now on safe ground.
+  - **Ledges:** `FLOOR_UP_WALL` tiles at (14, 22) and (7, 18) blocked movement. They behave as Walls or un-jumpable ledges.
 - **Navigation:**
-  - **Path Discovery:**
-    - Confirmed the "West Corridor" at x=0 connects the South and North areas.
-    - Heading to the North-West area via (0, 23) -> (0, 14).
+  - **Hypothesis:** One of the ledges at Row 18 (x=8, 9, 10, 11, 12) might be jumpable, accessing the South-West area.
   - **Plan:**
-    1. Walk West to (0, 23).
-    2. Walk North up the corridor (x=0) to explore the unseen area above Row 14.
+    1. Escape Ice Trap: Slide Up to (14, 16), then Left to (13, 16).
+    2. Go to (8, 17).
+    3. Try jumping South.
+    4. If fail, try x=9, 10, etc.
 - **Items:**
   - Item Ball at (32, 23).
   - Item Ball at (35, 9).
