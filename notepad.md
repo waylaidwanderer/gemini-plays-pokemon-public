@@ -9,12 +9,11 @@
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees on the island. FAILED.
 - Step 3: Sweep remaining island floor tiles. [DONE]
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
-- Step 4: Explore western mainland path at (1, 8)-(3, 10). [DONE]
 - Result: No trigger found on western floor tiles (Turn 17837).
 - Step 5: Exhaustive island sweep (Rows 10-13). [In Progress]
 - Result: Escaped wild Goldeen (Turn 17855).
-- Step 1: Surf east from (14, 9) to (22, 12) and sweep Rows 10-12.
-- Hypothesis 32: Trigger is on the northern island floor (Rows 10-12).
+- Step 1: Sweep northern island floor: (22, 12)-(28, 12).
+- Hypothesis 33: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking directly south to the trees.
 - Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
 - Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
 
