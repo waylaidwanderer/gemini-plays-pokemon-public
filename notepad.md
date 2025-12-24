@@ -1,47 +1,29 @@
 # Tile Mechanics
-- FLOOR: Traversable. Verified on multiple maps.
-- WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable. Verified on multiple maps.
-- WATER: Requires Surf (HM03). Verified on Route 42/44.
-- TALL_GRASS: Traversable. Triggers wild encounters. Verified on Route 31/32/44.
-- CUT_TREE: Requires Cut (HM01). Regrows on map reload. Verified in Ilex Forest/Route 36.
-- LEDGE: One-way jump (South/Right/Left/Up). Jump 2 tiles. Verified on multiple routes.
-- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement. (Hypothesis - To be tested).
-- WARP: Traversable. Transitions to another map. Verified on multiple maps.
+- FLOOR: Traversable.
+- WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable.
+- WATER: Requires Surf (HM03).
+- TALL_GRASS: Traversable. Triggers wild encounters.
+- CUT_TREE: Requires Cut (HM01). Regrows on map reload.
+- LEDGE: One-way jump.
+- FLOOR_UP_WALL: One-way barrier (Southward).
+- WARP: Traversable.
 
 # Type Effectiveness (Verified)
-- Ghost (Gastly) vs Normal: Immune.
-- Ghost (Gastly) vs Psychic: Super Effective.
-- Psychic vs Ghost/Poison (Gastly): Super Effective.
-- Poison (Bellsprout) vs Ghost/Poison (Gastly): Not very effective.
-- Grass (Bellsprout) vs Ghost/Poison (Gastly): Not very effective.
+- Ghost vs Normal: Immune.
+- Ghost vs Psychic: Super Effective.
+- Psychic vs Ghost/Poison: Super Effective.
+- Poison vs Ghost/Poison: Not very effective.
+- Grass vs Ghost/Poison: Not very effective.
 
-# Observed Movesets
-- Natu: Future Sight, Night Shade.
-- Remoraid: Psybeam.
-- Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
-- Weepinbell: PoisonPowder, Acid, Wrap.
-
-# Suicune Capture Strategy
-- Lead: XENON (Gastly, Lv19) - Speed: 38.
-- Strategy:
-  - Repel Trick: Lead level must be > Lv26 (Route 44 max) but < Lv40. Target: Lv27+.
-  - Mean Look on Turn 1 is mandatory.
-  - If Mean Look fails: Track via Pokedex/Pokegear and re-intercept.
-  - Note: Suicune changes its location every time the player transitions between maps (warps or map edges).
-  - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
-  - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
-
-## Strategy for XENON Training
-- Goal: Reach Lv27.
+# Suicune Strategy (Lead: XENON Gastly Lv19)
+- Goal: Reach Lv27 (Repel Trick threshold).
 - Start Turn: 16309.
-- Location: Route 44 tall grass island.
-- Method: Battle wild Pokemon until level reached.
-- Note: Max wild level here is 26 (Weepinbell/Lickitung). Bellsprout/Weepinbell can use Grass/Poison moves which Gastly resists.
+- Method: Mean Look (Turn 1) + Hypnosis/Lick.
+- Note: Suicune moves on map transitions. Use roamer_tracker_v2.
 
-## Future Tasks
-- Reach Lv27 with XENON (Gastly) to enable Repel Trick.
+# Future Tasks
+- Reach Lv27 with XENON.
 - Intercept Suicune using roamer_tracker_v2 (once XENON is Lv27).
-- Test find_path_v2 after fix (Priority: HIGH).
-- Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
-- Catch second trapper Pokemon.
-- Fisher Tully (Route 42, 40, 10) has an item for me. (Turn 16158)
+- Test find_path_v2 fix.
+- Test FLOOR_UP_WALL at (50, 14).
+- Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
