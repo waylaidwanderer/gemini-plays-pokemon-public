@@ -49,3 +49,11 @@
 - Speed Check: XENON (Lv18, Speed 36) is confirmed too slow to use Mean Look before Raikou/Suicune flee. Lv40 Roamers have significantly higher speed.
 - Strategy Update: Need to level XENON or find a faster trapper before continuing the hunt. Current pacing is ineffective for capture.
 - Quick Claw: Not in inventory. Check future locations for this item.
+## Route 44 Wild Encounters
+- Grass: Tangela (Lv23-26), Lickitung (Lv24-26), Bellsprout (Lv22-24), Weepinbell (Lv24-26).
+- Water: Poliwag (Lv20-24), Poliwhirl (Lv24-26).
+- Note: Repel trick requires lead > Lv26 for this route.
+
+## Battle Log
+- Turn 15995: XENON (Lv18) vs Remoraid (Lv25). XENON fainted to super-effective Psybeam. Remoraid knows Psybeam.
+- Strategy Adjustment: Avoid leading with XENON against Fisher trainers or known Psychic move users until higher level.
