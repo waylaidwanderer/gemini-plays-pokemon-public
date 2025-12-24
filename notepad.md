@@ -33,7 +33,7 @@
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Status:** Muscle active (91/187 HP). Def -2.
-- **Risk:** Bubblebeam (Rain) ~80 dmg. Gust (-2 Def) ~40 dmg. Crit Bubblebeam = KO.
-- **Action:** Cleared Text. Awaiting Suicune's move.
-- **Strategy:** Throw Great Balls (8 left). Heal if < 85 HP.
+- **Status:** Muscle active (60/187 HP). Def -2.
+- **Damage:** Bubblebeam (Rain) = 31 dmg. Gust (-2 Def) est. 30-35 dmg.
+- **Action:** Opening Pack to Throw Great Ball (Attempt 6).
+- **Strategy:** Throw Great Balls (8 left). Heal if < 40 HP.
