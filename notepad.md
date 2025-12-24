@@ -27,10 +27,10 @@
 - **Action:** Interacting with Sage at (5,9) from the side (4,9).
 - **Hypothesis:** If he doesn't battle, I need to find the stairs to 2F in the unexplored corners.
 - **Plan:** Interact, then explore bottom-left corner (0,15).
-- **Observation:** Sage at (5,9) gave lore text ("souls of POKéMON and humans commune...") and faced Right. No battle triggered.
-- **Status:** Suicune is missing. Warp at (10,2) is unverified physically, though listed as inactive in data.
-- **Hypothesis:** Suicune might have fled to the roaming map, or I need to do something specific to make it respawn.
-- **Action:** Navigating to (10,2) to check the "Mystery Warp" tile. If it does nothing, I will assume Suicune is gone for now and check the roaming map or speak to the Director/Sages in town.
+- **Observation:** Sage at (5,9) gave lore text.
+- **Status:** "Mystery Warp" at (10,2) is INACTIVE (confirmed not in Map Events). Pressing 'A' to verify.
+- **Action:** Checking Sage at (14,6). He is facing Left. I will talk to him from (13,6).
+- **Hypothesis:** One of the Sages might reset the event or give a clue. If not, I must return to the Wise Trio in the Barrier Station.
 - **Map Analysis:** Bottom-Left room (Row 15, Col 2-6) is inaccessible from 1F. Must be a drop zone.
 - **Entei Marker:** Marker at (12,12) appears to be ghost data (Entei is not currently there).
 - **Plan:** Explore suspicious nooks in Top-Left area: (3,9) and (2,7).
