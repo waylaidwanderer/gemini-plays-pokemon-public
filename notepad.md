@@ -14,7 +14,7 @@
 ## Current Hypothesis Testing (Route 42)
 - Hypothesis 34: Trigger is on the western mainland path (X=4-12, Y=8-13). [In Progress]
 - Hypothesis 35: Landing trigger on southern island bank (X=24-32, Y=15).
-- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9).
+- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south.
 - Note: Pivot to Route 44/Blackthorn if not cleared by Turn 17900.
 
 # Tile Mechanics (Global)
