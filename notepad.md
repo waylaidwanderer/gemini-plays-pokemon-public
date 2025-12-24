@@ -44,8 +44,8 @@
 - **Plan:** Move South to corridor, head East, then North.
 - **Immediate Action:** Moving to safe spot (5,11) and opening menu to Switch Gyarados to Lead.
 - **Map Insight:** A wall at Y=10 (X=9-13) blocks direct access to Suicune from the south. Must navigate North along the East side (X=14/15) to bypass the internal wall, likely crossing back West above Row 6.
-- **Map Analysis:** Suicune is in a sealed room (Walls on all sides). The warp at (10,2) is currently INACTIVE (walking on it did nothing).
-- **Hypothesis:** I must speak to the Sages (at 5,9 or 14,6) to unlock the path or activate the warp.
-- **Plan:** Talk to the Sage at (5,9).
+- **Map Analysis:** Suicune is in a sealed room. Warp at (10,2) is CONFIRMED INACTIVE (walked over it, no effect).
+- **Hypothesis:** Speaking to the Sage at (14,6) might activate it or provide a key.
+- **Plan:** Talk to the Sage at (14,6).
 - **Lore Update:** Sage at (5,9) discusses the legend of the Rainbow Pokémon (Ho-Oh) testing humans. He did not move or battle.
 - **Plan Update:** Heading to talk to the Sage at (14,6). Re-testing warp at (10,2) on the way.
