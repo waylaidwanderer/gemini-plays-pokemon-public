@@ -4,14 +4,14 @@
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
   - **B3 Status:** Pushed Right to Pit (5, 12). (DONE)
+  - **B2 Status:** Pushed Left to (5, 8).
   - **B2 Plan (Target Pit 4, 7):**
-    1. Navigate to (8, 8).
-    2. Push B2 Left to (5, 8).
-    3. Navigate to (5, 9). Push B2 Up to (5, 6).
-    4. Navigate to (6, 6). Push B2 Left to (4, 6).
-    5. Navigate to (4, 5). Push B2 Down to Pit (4, 7).
+    1. Navigate to (5, 9).
+    2. Push B2 Up to (5, 6).
+    3. Navigate to (6, 6). Push B2 Left to (4, 6).
+    4. Navigate to (4, 5). Push B2 Down to Pit (4, 7).
   - **Remaining:** B1 & B4.
-- **Next Step:** Navigate to (8, 8).
+- **Next Step:** Navigate to (5, 9).
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
