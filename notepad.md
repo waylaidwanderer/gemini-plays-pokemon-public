@@ -12,8 +12,9 @@
   2. Slide **Left** -> (14, 20). [DONE]
   3. Slide **Up** -> (14, 16). [DONE]
   4. Walk to (13, 17). [DONE]
-  5. Slide **Right** -> (15, 17). [NEXT]
-  6. Slide **Down** -> (15, 21).
+  5. Slide **Right** -> (15, 17). [DONE]
+  6. Slide **Down** -> (15, 21). [NEXT]
+  7. Slide **Right** -> (19, 21).
   7. Slide **Right** -> (19, 21).
   8. Slide **Down** -> (19, 23).
   9. Slide **Right** -> (20, 23) [Back at Hub].
