@@ -23,3 +23,5 @@
 - **Emergency Switch (20, 11):** ON.
 - **Action (Turn 15069):** Picked up Max Ether at `(18, 15)`.
 - **Plan:** Navigate North through the gap at Column 16-18 to reach the Item Ball at `(13, 9)` and the Director at `(12, 8)`.
+- **Action (Turn 15079):** Battling Rocket Grunt (Weezing). Keeping Muscle in to use Dig (Super Effective).
+- **Plan:** Finish the battle, then proceed West past the Grunt into the central area.
