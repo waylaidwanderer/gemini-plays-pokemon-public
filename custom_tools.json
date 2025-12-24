@@ -1,6 +1,6 @@
 {
   "battle_grind": {
-    "description": "Selects a move from the battle move menu (resetting to top first) and clears subsequent text boxes. Assumes the move menu is being opened in the same turn or is already open. Starts from move 0.",
+    "description": "Selects a move from the battle move menu (resetting to top first). Assumes the move menu is being opened in the same turn or is already open. Starts from move 0. Does NOT clear text boxes to avoid skipping level-up prompts.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\n\n# input_data is a dictionary automatically provided in the global scope\nmove_index = int(input_data.get('move_index', 0))\n\n# Reset cursor to top\n# Gen 2 move menu doesn't wrap. Pressing Up 3 times ensures we're at move 0.\nbuttons = [\"sleep 1500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\"]\n\n# Move down to the target move\nfor _ in range(move_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\n\n# Buffer presses to clear text boxes\nbuttons.extend([\"sleep 4000\"] + [\"B\", \"sleep 600\"] * 25)\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# input_data is a dictionary automatically provided in the global scope\nmove_index = int(input_data.get('move_index', 0))\n\n# Reset cursor to top\n# Gen 2 move menu doesn't wrap. Pressing Up 3 times ensures we're at move 0.\nbuttons = [\"sleep 1500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\"]\n\n# Move down to the target move\nfor _ in range(move_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 500\")\n\nbuttons.append(\"A\")\n\n# Wait for animation but DON'T spam B to avoid skipping level-up move learning\nbuttons.append(\"sleep 4000\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -109,6 +109,11 @@
         "commit_message": "Fixed battle_grind to use the 'input_data' variable directly, as it is automatically provided in the global scope for custom tools.",
         "timestamp": "2025-12-24T06:37:02.747Z",
         "action_counter": 16463
+      },
+      {
+        "commit_message": "Removed B-spam from battle_grind to prevent accidentally skipping move-learning prompts during level-ups.",
+        "timestamp": "2025-12-24T07:01:38.986Z",
+        "action_counter": 16485
       }
     ]
   },
