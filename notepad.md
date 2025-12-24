@@ -10,8 +10,8 @@
 - WARP: Map transition point.
 
 # Item Usage Tracking
-- Super Repel: Wore off at Turn 16773. Popping a new one now.
-- Current Turn: 16773. Suicune confirmed on Route 42. Leading with XENON (Lv21).
+- Super Repel: Not active. Using fresh one at Turn 16774.
+- Current Turn: 16774. Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
