@@ -6,7 +6,7 @@
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all overworld sightings.
 
 ## Failed Hypotheses (Route 42)
-- Island floor sweep (Rows 10-17) [Turns 17819-17863].
+- Island floor sweep (Rows 14-15) [Turns 17819-17863].
 - Apricorn tree interactions (Pink, Green, Yellow) [Turns 17804-17818].
 - Far Western mainland floor sweep (X=1-3, Y=8-11) [Turns 17836-17837].
 - Eastern approach via northern channel [Turns 17760-17765].
@@ -14,15 +14,14 @@
 - Accidental warp into Mt. Mortar middle entrance at (28, 9) on Route 42. [Turn 17872].
 - Exited Mt. Mortar middle entrance at (28, 9). [Turn 17875].
 - Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south. [Failed - Turn 17876].
+- Mt. Mortar B1F Exploration: No exit to Route 42 North found [Turns 17881-17935].
 
 ## Current Hypothesis Testing (Route 42)
-- Hypothesis 34: Trigger is on the western mainland path (X=4-12, Y=8-13). [In Progress]
-- Hypothesis 35: Landing trigger on southern island bank (X=24-32, Y=15).
-- Hypothesis 37: Suicune trigger is on the northern path near Mt. Mortar (X=21-33, Y=4-8). [In Progress]
+- Hypothesis 37: Suicune trigger is on the northern path (Row 4-8). Access via surfing to landing at (30, 6). [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall when approaching from the North (e.g., Down at 24,33 is blocked). Appears to have redirection properties when moving against the "up" flow (e.g., Up at 20,28 moves Right).
+- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall when approaching from the North.
 - WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until HM01 CUT.
 - WATER: Traversable with HM03 SURF.
@@ -46,8 +45,5 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Mt. Mortar B1F Exploration: Started Turn 17881.
-- Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower). Confirms scripted sequence.
-- Discovery: MountMortarB1F movement redirection confirmed on FLOOR_UP_WALL tiles (e.g., Up at 20,28 moves Right).
-- Observation: (21, 28) Up -> (21, 27) is BLOCKED. (Turn 17918).
-- Plan: Explore MountMortar1FOutside (3_57) by surfing North from (16, 32). Searching for an exit to the isolated northern corridor of Route 42 (Y=4).
+- Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto.
+- Plan: Surf North from (32, 8) to reach the landing at (30, 6) and explore the northern corridor (Row 4-8).
