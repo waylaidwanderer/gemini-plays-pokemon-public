@@ -39,6 +39,7 @@
 
 ## Battle Log
 - Finished: Poliwag (Lv22) defeated. XENON grew to Lv19.
+- Current: Bellsprout (Lv22). Strategy: Hypnosis then Lick.
 
 ## To-Do
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
