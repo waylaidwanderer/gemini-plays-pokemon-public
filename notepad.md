@@ -17,3 +17,4 @@
 - **Correction:** Path to Blackthorn must be via the South Path, accessible from the 1st lake (likely landing South at x=27).
 - **Next Step:** Backtrack to 1st lake and explore South bank.
 - **Turn 16312:** Defeated Cooltrainer Cybil. Proceeding East on South Path to Blackthorn City.
+- **Turn 16322:** Defeated Cooltrainer Allen at (37,15). Continuing East.
