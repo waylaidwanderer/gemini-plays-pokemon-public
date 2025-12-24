@@ -10,7 +10,8 @@
 - Pink Apricorn Tree (27, 16): Checked. Result: FAILED.
 - Green Apricorn Tree (28, 16): Checked. Result: FAILED.
 - Yellow Apricorn Tree (29, 16): Checked. Result: FAILED.
-- Step 3: Sweep remaining island floor tiles: (25, 14), (26, 14), (30, 14)-(30, 17).
+- Hypothesis 28 (Apricorn Trees) FAILED.
+- Step 3: Sweep remaining island floor tiles: (25, 14), (26, 14), (30, 15)-(30, 17).
 - Step 4: Check mainland unseen tiles at (4, 14)-(7, 14).
 - Note: If all trees fail, I will sweep the island floor and then check mainland tiles (4, 14)-(7, 14).
 - Note: If Route 42 is not cleared by Turn 17900, pivot to Route 44/Blackthorn.
