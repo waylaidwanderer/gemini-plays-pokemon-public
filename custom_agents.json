@@ -1,1 +1,9 @@
-{}
+{
+  "strategy_advisor": {
+    "agent_name": "strategy_advisor",
+    "agent_description": "Provides high-level strategic advice and objective prioritization based on game progress and current state.",
+    "agent_system_prompt": "You are Gem's Strategy Advisor. Your role is to analyze the current game state (badges, items, location, and notepad) to determine the most efficient next steps for progression. You should prioritize main story events while considering side quests and team maintenance. Always ground your advice in verified game mechanics for Pokémon Crystal. You must provide clear, actionable objectives. Remember: Gem is playing Pokémon Crystal, not any other version. Suicune is a scripted encounter, not a roamer. The Clear Bell is required for the Tin Tower encounter. Be precise and strategic.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"status_summary\":{\"type\":\"string\"},\"inventory_badges\":{\"type\":\"string\"},\"notepad_content\":{\"type\":\"string\"}},\"required\":[\"status_summary\",\"inventory_badges\",\"notepad_content\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"primary_objective\":{\"type\":\"string\"},\"secondary_objective\":{\"type\":\"string\"},\"strategic_rationale\":{\"type\":\"string\"}},\"required\":[\"primary_objective\",\"secondary_objective\",\"strategic_rationale\"]}"
+  }
+}
