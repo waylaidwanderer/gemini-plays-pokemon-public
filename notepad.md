@@ -1,11 +1,12 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Solving Ice Puzzle (Again).
-- **Ledge Conclusion:** All Row 18 ledges are solid walls.
-- **Current Plan (East Corridor):**
-  1. **Ice Puzzle:** Right -> Down -> Right -> Down -> Right to `(20, 23)`.
-  2. **Navigate:** `(20, 23)` -> East to `(25, 23)` -> North to `(25, 19)` -> East to `(28, 19)` -> North to `(29, 12)` -> East to `(30, 12)`.
-  3. **Exploration:** Go South down East Corridor (x=30) to reach the deep South-East area (Row 27).
+- **Immediate Task:** Heal Gyarados (Critical HP).
+- **Status:** At Start (13, 16).
+- **Next Hypothesis (Center-North Path):**
+  1. From (13, 17), slide Right to (15, 17).
+  2. **TEST:** Slide **UP** from (15, 17).
+  3. **Rationale:** This path is untested. It might lead to the inaccessible North/West areas.
+- **Backup:** If that fails, revert to East Corridor plan.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
