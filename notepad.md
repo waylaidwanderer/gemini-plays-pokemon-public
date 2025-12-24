@@ -20,7 +20,7 @@
 - **Navigation Update:** The ladder at `(17,15)` (Right Side) WARPED me to `(5,3)` (Left Side). I am now on the "City" side of the Barrier Station.
 - **Action:** Talk to the Sage at `(4,6)` to see if he is part of the Wise Trio or has info on Suicune.
 - **Goal:** Reset Suicune event.
-- **Interaction:** Sage at (4,6) said "Please, do go on."
-- **Inference:** This confirms I have permission to enter Tin Tower. It might have reset the Suicune event after the white-out.
-- **Plan:** Talk to other NPCs in Barrier Station to confirm status, then return to Tin Tower.
-- **Next:** Talk to Wandering Sage at (6,8).
+- **Interaction:** Sage at (4,6) said "Please, do go on." (Permission granted).
+- **Current Action:** Positioning to talk to Wandering Sage (currently at 7,10).
+- **Plan:** Talk to Wandering Sage and Wandering Gramps to gather info/confirm reset.
+- **Next:** Return to Tin Tower 1F and check (9,9) for Suicune again.
