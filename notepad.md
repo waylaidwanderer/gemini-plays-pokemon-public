@@ -1,14 +1,21 @@
 # Ice Path Strategy
-- **Current Action:** Solving East Ice Puzzle.
-- **Goal:** Reach the East side (Ladder/Items) at (30, 7).
-- **Location:** At (22, 6).
-- **Solution Path Verified (5 Steps):**
-  1. Start (21, 9). Slide **Right** -> (23, 9) [DONE].
-  2. Slide **Up** -> (23, 6) [Hit Wall at 23, 5]. [DONE]
-  3. Slide **Left** -> (22, 6) [Hit Wall at 21, 6]. [DONE]
-  4. Slide **Down** -> (22, 7) [Hit Wall at 22, 8]. [NEXT]
-  5. Slide **Right** -> (30, 7) [Land on Floor].
-- **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side].
+- **Current Action:** Exploring East Floor (Ice Path 1F).
+- **Goal:** Find Ladder to B1F.
+- **Status:** East Ice Puzzle SOLVED. Arrived at (30, 7).
+- **Path Plan:**
+  1. Pick up Item Ball at (31, 7).
+  2. Search for Ladder in this area.
+  3. If no ladder, investigate path South-East towards (35, 9).
+- **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [Current Target].
+
+# Mechanics & Lessons
+- **Ice Physics:** Sliding continues until collision.
+- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls.
+
+# Map Structure
+- **West:** Ice Room (Puzzle solved).
+- **Center:** Hub.
+- **East:** Winding corridors & East Ice Puzzle (Solved).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
