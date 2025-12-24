@@ -4,21 +4,16 @@
 - **Status:** Found **HM07 (Waterfall)** at (31, 7).
 
 # Ice Path Strategy
-- **Current Action:** Returning to West Ice Room.
-- **Goal:** Find Ladder to B1F (likely in SW area).
-- **Status:** Found HM07. Escaped Ice Rooms.
-- **Location:** At (23, 24) (Dead End).
-- **Plan:**
-  1. Navigate to West Ice Room Entrance (15, 14). [NEXT]
-  2. Enter Ice and navigate to (7, 3).
-  3. Slide **Down** from (7, 3) to (7, 14) [Exit to SW Area].
-  4. Explore SW Area for Ladder.
-- **Hypothesis:** The SW area (x<13, y>19) is only accessible via the West Ice Room vertical slide.
+- **Current Action:** Testing Ledge Mechanics.
+- **Goal:** Access South-West Area.
+- **Location:** Heading to Hub (20, 23).
+- **Hypothesis:** Jumping from FLOOR (20, 23) to LEDGE (20, 24) allows access to SW.
+- **Contingency:** If jump fails, proceed to West Ice Room Entrance (15, 14).
 - **Items:** Item Balls at (32, 23), (35, 9) [Inaccessible].
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls.
+- **Ledges:** `FLOOR_UP_WALL` tiles behave like walls from *Ice* (tested). Testing from *Floor*.
 
 # Map Structure
 - **West:** Ice Room (Puzzle solved).
