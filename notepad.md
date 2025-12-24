@@ -35,5 +35,6 @@
 - **Lore:** Wise Trio: Guardians of legendary Pokémon. Only allow passage to those with "power and soul of truth". Suicune awaits at Tin Tower to test me.
 - **Battle Log:** Defeated Sage Koji (Noctowl, Vaporeon). Used Muscle (Strength, Cross Chop). Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Status: HP Critical (Red), Def -2, Rain.
-- **Action:** Selecting Revive in Bag (Navigating down 4 slots).
-- **Strategy:** Revive Muscle -> Switch to Muscle -> Throw Great Balls.
+- **Action:** Confirming 'USE' on Revive. Entering Party Menu.
+- **Next Step:** Select Muscle (Slot 1) to Revive. Note: Cursor may start on Active Mon (Slot 5).
+- **Turn Prediction:** Revive uses turn -> Belladonna faints -> Switch to Muscle.
