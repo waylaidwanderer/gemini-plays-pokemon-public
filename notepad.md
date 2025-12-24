@@ -76,3 +76,6 @@
 - Location: Ecruteak City.
 - Heading to Dance Theater to find the Wise Trio or Eusine.
 - Suicune investigation continues.
+- Clue: Cooltrainer M says the Gentleman with Rhydon wants a Pokemon that can SURF and "dance". Maybe a synchronized swimming Pokemon?
+- My Party: Lapis (Poliwag) has Surf. Gyarados does not.
+- Plan: Talk to Rhydon and Gentleman to see if this leads to Eusine or the Clear Bell.
