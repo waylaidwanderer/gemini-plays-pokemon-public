@@ -4,13 +4,13 @@
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
   - **B3 Execution:**
-    1. Push Left to (4, 11).
-    2. **Go Around:** (5, 11) -> (7, 11) -> (7, 13) -> (4, 13) -> (3, 12) -> (4, 10).
-    3. Push Down to (4, 12).
-    4. Push Right to Pit (5, 12).
+    1. **Status:** B3 is at (4, 11). Player at (6, 11).
+    2. **Loop Path:** (6, 11) -> (7, 11) -> (7, 13) -> (4, 13) -> (4, 12) -> (3, 12) -> (3, 10) -> (4, 10).
+    3. **Push:** From (4, 10), Push Down to (4, 12).
+    4. **Finish:** Move to (3, 12), Push Right to Pit (5, 12).
   - **Next:** Solve B2 (7, 8) -> Pit (4, 7).
   - **Target:** Fill/Drop boulders into all 4 pits.
-- **Next Step:** Push B3 Left, then loop around.
+- **Next Step:** Navigate to (4, 10) via loop.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
