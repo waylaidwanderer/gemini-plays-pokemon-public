@@ -14,7 +14,7 @@
   - **B4:** (17, 7).
 
 ## Master Plan (Corrected)
-1.  **Get to Right Side:** Navigate (11, 7) -> (11, 6) -> (10, 6) -> North to (10, 1) -> East to (12, 1) -> South to (12, 5).
+1.  **Get to Right Side:** DONE. (At 12, 5).
 2.  **Push Sequence:**
     - Push Left to (10, 5).
     - Go to (10, 6). Push Up to (10, 1).
