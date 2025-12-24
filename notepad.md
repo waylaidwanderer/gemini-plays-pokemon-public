@@ -44,3 +44,11 @@
 - Route 32: 1_7, Route 33: 1_9, Azalea: 1_10, Route 34: 1_12
 - Goldenrod: 1_13, Route 35: 1_14, Route 36: 1_16, Route 37: 1_17
 - Mt Mortar: 3_1
+
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable.
+- WATER: Requires Surf (HM03).
+- CUT_TREE: Requires Cut (HM01).
+- LEDGE: One-way jump.
+- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement. (Hypothesis - To be tested)
