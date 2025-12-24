@@ -13,10 +13,14 @@
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled), Route 42 (fled - Flagged by Sage permission).
-- Goal: Capture/Defeat Suicune at Tin Tower.
-- Strategy: Sage at (4, 6) in Ecruteak building (4_1) granted permission. Suicune encounter is active at Tin Tower 1F.
-- Key Item: Clear Bell (Held).
+- Goal: Capture/Defeat Suicune at Tin Tower 1F.
+- Strategy: Speak to all three Sages in Tin Tower 1F to trigger the encounter.
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
+
+# Sage Lore (Tin Tower 1F)
+1. Sage (11, 11): Ho-Oh resurrected Entei, Raikou, and Suicune after the Brass Tower fire. (Spoken)
+2. Sage (5, 9): Legend says Ho-Oh descends when souls of Pokemon and humans commune. (Spoken)
+3. Sage (14, 6): (Talking now)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -35,19 +39,7 @@
 - Blarney (SUDOWOODO): Lv20, Male.
 
 # General Lessons
-- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Chasing 'Area' in Pokedex is unnecessary once the Sage grants permission.
-- Surf Initiation: Directional buttons won't enter water. Must face water and press A.
-
-# Tin Tower Progress
-- Sage at (4, 6) granted permission: "Please, do go on."
-- Path to Tin Tower: Building (4_1) -> Wise Trio Room (4_2) -> Restricted Area (4_9) -> Tin Tower (4_3).
-- Ladder at (1, 4) in Wise Trio Room (4_2) leads to Hallway (4_1, 17, 3).
-- Ladder at (7, 4) in Wise Trio Room (4_2) leads to Restricted Area (4_9, 20, 2).
-- Tin Tower entrance is at (37, 7) in Ecruteak City (4_9).
-- Goal: Enter Restricted Area via (7, 4) in Wise Trio Room.
-
-# Type Effectiveness (Verified)
-- (None documented yet)
-
-# Observed Movesets
-- GOLDEEN (Lv20): (No moves seen)
+- Sage Permission Flag: Sage at (4, 6) in Ecruteak building (4_1) is the definitive indicator for Route 42 event completion.
+- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement.
+- Surf Initiation: Face water and press A.
+- Scripted Event Logic: If a legendary isn't appearing where expected, verify all prerequisite NPC interactions and game-state flags (like the Sage's permission).
