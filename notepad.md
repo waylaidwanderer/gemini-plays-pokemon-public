@@ -18,6 +18,7 @@
 - **Goal:** Talk to Center Sage at (11,11).
 - **Reasoning:** He is the central figure. I have exhausted other options (Bell, Warp, Walls).
 - **Contingency:** If he says nothing new, I will exit and re-enter the map again, or check the other two Sages.
-- **Action:** Finishing cycle of Sages. Moving to Left Sage (5,9).
-- **Goal:** Talk to Left Sage from (5,10).
-- **Hypothesis:** Once all three are spoken to post-shake, the event might advance. If not, map reload is the final option.
+- **Observation:** Left Sage (5,9) also gives old lore text.
+- **Conclusion:** Talking to Sages inside Tin Tower 1F does NOT seem to acknowledge the "Tower Shook" event directly in dialogue.
+- **Next Step:** Finish dialogue. Exit Tin Tower 1F to Bell Chime Trail, then re-enter.
+- **Reasoning:** A full map reload might be required to update the map state (Suicune spawn or Warp activation) now that the global flag ("Tower Shook") is set.
