@@ -300,7 +300,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_obj = tile.find('Object') is not None\n            grid[(x, y)] = (t_type, seen, has_obj)\n\n    def is_passable(x, y):\n        if (x, y) not in grid: return False\n        t_type, seen, has_obj = grid[(x, y)]\n        if not seen: return False\n        return t_type in ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP', 'CAVE', 'DOOR'] and not has_obj\n\n    player_tile = root.find(\".//Tile[@has-player='true']\")\n    if player_tile is None: return\n    \n    start_x = int(player_tile.get('id'))\n    start_y = int(player_tile.find('..').get('id'))\n    \n    queue = collections.deque([(start_x, start_y)])\n    visited = {(start_x, start_y)}\n    reachable_unseen = set()\n    \n    while queue: \n        x, y = queue.popleft()\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                _, seen, _ = grid[(nx, ny)]\n                if not seen: reachable_unseen.add((nx, ny))\n                elif is_passable(nx, ny) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n    print(f'Reachable Unseen Tiles: {sorted(list(reachable_unseen))}')\n\nsolve()",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_obj = tile.find('Object') is not None\n            grid[(x, y)] = (t_type, seen, has_obj)\n            if tile.get('has-player') == 'true':\n                player_pos = (x, y)\n\n    if player_pos is None:\n        print(\"Player position not found in map.\")\n        return\n\n    def is_passable(pos):\n        if pos not in grid: return False\n        t_type, seen, has_obj = grid[pos]\n        if not seen: return False\n        # Simplified list of walkable tiles for exploration\n        walkable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP', 'CAVE', 'DOOR']\n        return t_type in walkable_types and not has_obj\n\n    queue = collections.deque([player_pos])\n    visited = {player_pos}\n    reachable_unseen = set()\n    \n    while queue: \n        cx, cy = queue.popleft()\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            npos = (nx, ny)\n            if npos in grid:\n                _, seen, _ = grid[npos]\n                if not seen:\n                    reachable_unseen.add(npos)\n                elif is_passable(npos) and npos not in visited:\n                    visited.add(npos)\n                    queue.append(npos)\n    \n    print(f'Reachable Unseen Tiles: {sorted(list(reachable_unseen))}')\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -311,6 +311,11 @@
         "commit_message": "Fixed typo in is_passable function (nx, ny -> x, y).",
         "timestamp": "2025-12-24T12:32:15.871Z",
         "action_counter": 17142
+      },
+      {
+        "commit_message": "Fixed AttributeError by using a more robust method to find player position and row ID. Removed reliance on '..' which is not supported in ET.",
+        "timestamp": "2025-12-24T12:33:34.492Z",
+        "action_counter": 17144
       }
     ]
   }
