@@ -10,7 +10,7 @@
 - WARP / CAVE / WARP_CARPET: These tiles are map transition points. They can be traversed to move between different maps. Verified by usage.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16822. Steps taken: 160. Steps remaining: 40.
+- Super Repel: Activated Turn 16822. Steps taken: 170. Steps remaining: 30.
 
 # Roamer Tracking Data
 - Route 42 (2_5) Neighbors: Ecruteak City (1_3), Mahogany Town (2_4).
