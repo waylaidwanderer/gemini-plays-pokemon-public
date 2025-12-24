@@ -25,3 +25,5 @@
 - Target: Find Eusine.
 - Sage at (4,6) says "Please, do go on." - Useless.
 - Plan: Check Sage at (5,10) and Gramps at (2,10).
+- Wandering Sage at (6,9) confirms: "The TIN TOWER shook! A POKéMON must have returned to the top!"
+- Action: Talking to Gramps at (4,11) next.
