@@ -1,11 +1,11 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Executing Ice Puzzle Solution.
-- **Current Plan (East Corridor):**
-  1. Move from (9, 17) to (13, 17).
-  2. **Sequence:** Right -> (15, 17) -> Down -> (15, 21) -> Right -> (19, 21) -> Down -> (19, 23) -> Right -> (20, 23).
-  3. Navigate to (30, 12).
-  4. Explore South down x=30.
+- **Status:** Moving to East Corridor.
+- **Observation:** I am at (20, 23), connected to the East area.
+- **Plan:**
+  1. Walk to (30, 12) via (25, 23) -> (25, 19) -> (28, 19) -> (29, 18) -> (29, 12).
+  2. From (30, 12), go South to explore the bottom of the East Corridor.
+  3. **Goal:** Find a ladder to B1F, which likely connects to the isolated West area.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Tile Mechanics
