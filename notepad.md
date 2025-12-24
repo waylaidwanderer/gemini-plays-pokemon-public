@@ -10,6 +10,7 @@
 - Apricorn tree interactions (Pink, Green, Yellow) [Turns 17804-17818].
 - Far Western mainland floor sweep (X=1-3, Y=8-11) [Turns 17836-17837].
 - Eastern approach via northern channel [Turns 17760-17765].
+- Navigation attempt to mainland (X=12, Y=8) via navigate_menu_v2 failed/reset [Turn 17870].
 
 ## Current Hypothesis Testing (Route 42)
 - Hypothesis 34: Trigger is on the western mainland path (X=4-12, Y=8-13). [In Progress]
