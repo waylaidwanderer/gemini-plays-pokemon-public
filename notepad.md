@@ -13,6 +13,9 @@
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 1: Standing at (28, 17) facing Up triggers the scene.
 - Test: Move to (28, 17), face Up. [Turn 17613]
+- Conclusion: Denied (No scene triggered).
+- Hypothesis 2: Interacting with the middle fruit tree at (28, 16) triggers the scene.
+- Test: Face (28, 16) and press A. [Turn 17614]
 - Conclusion: Pending.
 
 # Tile Mechanics (Global)
