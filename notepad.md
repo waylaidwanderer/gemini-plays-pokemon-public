@@ -48,5 +48,5 @@
   - Row 3: (26, 16) to (30, 16)
   - Row 4: (30, 17) to (26, 17)
 - Progress:
-  - (24, 12) to (26, 14): Done.
-  - (27, 14): Pending.
+  - Row 1 (24, 14 to 27, 14): Done.
+  - Row 2: (30, 15) to (25, 15): Pending.
