@@ -44,8 +44,8 @@
 - Goal: Activate Warp at (10,2).
 
 # Plan
-1. Navigate to (10,2) via left flank (Center blocked).
-2. Step on Warp.
+1. Navigate to (10,2) via left flank (Column 4) to avoid Sage at (5,9).
+2. Step on Warp at (10,2).
 3. If inactive, inspect wall at (10,4).
 4. If failed, exit to Ecruteak to find Eusine.
 
