@@ -35,5 +35,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (60/187 HP). Def -2.
 - **Damage:** Bubblebeam (Rain) = 31 dmg. Gust (-2 Def) est. 30-35 dmg.
-- **Action:** Selected Great Ball (Item 1 in Balls Pocket).
+- **Action:** Executing Throw (Great Ball Attempt 6).
 - **Strategy:** Throw Great Balls (8 left). Heal if < 40 HP.
