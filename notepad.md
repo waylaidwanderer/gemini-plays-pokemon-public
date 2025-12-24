@@ -19,7 +19,7 @@ Patrol the tall grass on the east side (X=46-53, Y=12-13) to encounter roaming S
 - FLOOR_UP_WALL: One-way wall; jumpable from North to South.
 
 # PC Storage (Box 1)
-- CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+- CINNABAR (Goldeen 21), RICOTTA (Raticate 16), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 
 # Contacts & Key Items
 - Fire Stone: Route 36 (Alan).
