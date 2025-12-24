@@ -6,25 +6,22 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (10, 3).
-- **Goal:** RESET PUZZLE via Pit (11, 2).
-- **Reason:** Boulder 1 is stuck at (10, 6) (pushed down by mistake).
-- **Puzzle State:** BRICKED.
+- **Position:** Player at (17, 3).
+- **Goal:** Verify Puzzle Reset (Check B1 at 11, 7).
+- **Puzzle State:** Assumed Reset.
+  - **B1:** (11, 7).
+  - **B2:** (7, 8).
+  - **B3:** (9, 11).
+  - **B4:** (17, 7).
 
-# Recovery Plan (B2F -> B1F)
-1.  **Goal:** Return to B1F via Ladder at (17, 1).
-2.  **Path:**
-    - Slide UP from (11, 4) to (11, 0).
-    - Slide RIGHT to (16, 0).
-    - Walk to (17, 1) (Ladder).
-3.  **Retry Solution (Verified):**
-    - **Move B1 to (11, 5):**
-        - From (11, 1): Left to (10, 1) -> Slide Down to (10, 4) -> Slide Left to (9, 4) -> Slide Down to (9, 5) -> Push Right.
-    - **Reposition:**
-        - Go (10, 5) -> (10, 6) -> (11, 6) -> (10, 6) -> (10, 1) -> (12, 1) -> (12, 5).
-        - Push Left.
-    - **Solve:**
-        - Go (11, 5) -> (11, 6) -> (10, 6).
-        - Push Up to (10, 1).
-        - Push Right to (11, 1).
-        - Push Down to Pit (11, 2).
+## Master Plan
+1.  **Verify Reset:** Go to (11, 6) and check (11, 7).
+2.  **Navigate to (11, 8):**
+    - Via West Side -> South Side -> East Side Loop.
+3.  **Solve B1:**
+    - Push Up to (11, 5).
+    - Go to (10, 5). Push Right to (12, 5).
+    - Go to (12, 6). Push Up to (12, 1).
+    - Go to (13, 1). Push Left to (11, 1).
+    - Go to (11, 0). Push Down to Pit (11, 2).
+4.  **Next:** Solve B2.
