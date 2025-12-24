@@ -10,7 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Not active. Use immediately. (Expired at Turn 16740).
+- Super Repel: Activated Turn 16748. Steps taken: 0. Steps remaining: 200.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
