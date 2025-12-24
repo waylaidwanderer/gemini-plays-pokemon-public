@@ -22,7 +22,7 @@
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- FLOOR_UP_WALL: Traversable. Appears to have redirection properties (e.g., Up at 20,28 moves Right; Right at 21,27 moves Down).
+- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall when approaching from the North (e.g., Down at 24,33 is blocked). Appears to have redirection properties when moving against the "up" flow (e.g., Up at 20,28 moves Right).
 - WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until HM01 CUT.
 - WATER: Traversable with HM03 SURF.
