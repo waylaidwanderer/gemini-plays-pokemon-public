@@ -9,17 +9,15 @@
 - WARP_CARPET: Warp to adjacent map or building.
 
 # Suicune Capture Strategy (Pokemon Crystal)
-## Primary Goal: Capture Suicune
-- Suicune follows a scripted sequence of sightings before becoming a roamer or stationary battle.
-- Sighting 1: Cianwood City (Completed).
-- Sighting 2: Route 42 Middle Island (In Progress?). Approach the sprite on the island.
-- Sighting 3: Route 36 (Next Target). Approach the sprite near the Sudowoodo spot.
-- Final Encounter: Tin Tower. Stationary battle (requires Clear Bell and 3 Ecruteak-area badges).
+## Primary Goal: Capture Suicune (Roamer)
+- Suicune is currently roaming after the Tin Tower event.
+- Location: Route 42 (Confirmed via Pokédex).
+- Strategy: Use Repel Trick in tall grass at eastern end of Route 42.
+- Lead: XENON (Gastly, Lv18) for Mean Look/Hypnosis.
 
-## Verification Plan: Roamer vs. Sighting
-- If Suicune is roaming, its location in the Pokedex will change when crossing map boundaries.
-- If Suicune is in sighting mode, it will remain at its scripted location.
-- Test: Move to Mahogany Town and back, checking Pokedex Area each time.
+## Route 42 Navigation
+- Island to Mainland: Walk east to (34, 11), Surf east to (40, 11).
+- Tall Grass Location: (46, 12) to (53, 13).
 
 ## Party Strategy
 - XENON (Gastly, Lv18): Lead for Mean Look/Hypnosis.
