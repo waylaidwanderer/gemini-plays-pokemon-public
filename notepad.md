@@ -27,12 +27,10 @@
 - Lead: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
 - Strategy:
   - Mean Look on Turn 1 is mandatory.
-  - Repel Trick: Lead level must be > area wild max (Lv26 on Route 44) but < roamer level (Lv40). Target: Lv27+.
+  - Repel Trick: Lead level must be > Lv26 (area max) but < Lv40 (roamer). Target: Lv27+.
+  - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
   - If Mean Look fails: Track via Pokedex and re-intercept.
-  - Priority Item: Quick Claw.
-- Backup Plan:
-  - If XENON fails, switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
-  - Long-term: Find a second trapping Pokemon.
+  - Priority: Find Quick Claw and a second trapping Pokemon.
 
 ## Training Phase
 - Target: Route 44.
