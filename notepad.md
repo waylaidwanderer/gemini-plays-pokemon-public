@@ -10,12 +10,13 @@
 - **Goal:** RESET PUZZLE (Boulder B1 stuck at 10, 1).
 - **Error:** Pushed B1 too far North (to 10, 1 instead of 10, 2). Cannot push down due to Wall at 10, 0.
 
-## Recovery Plan
-1.  **Reset:** Jump into Pit at (12, 13).
-2.  **Return:** Navigate back to B1F.
-3.  **Retry B1:**
-    - Push B1 Up to (11, 5).
-    - Push Left to (10, 5).
-    - Push Up to (10, 2) (**STOP HERE**).
-    - Go around to (9, 2).
-    - Push Right into Pit (11, 2).
+# Recovery Plan (B2F -> B1F)
+1.  **Goal:** Return to B1F via Ladder at (9, 11) (Leads to 3, 15).
+2.  **Bonus:** Collect Item Ball at (8, 9).
+3.  **Path:**
+    - (12, 12) Slide UP to (12, 7).
+    - Walk to (10, 6).
+    - Slide UP to (10, 0).
+    - Slide LEFT to (8, 0).
+    - Slide DOWN to (8, 8).
+    - Walk to (8, 9) (Item) and (9, 11) (Ladder).
