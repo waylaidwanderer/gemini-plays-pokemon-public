@@ -40,5 +40,5 @@
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Discovery: Pokedex 'AREA' shows 'SUICUNE'S NEST' with dots across Johto.
-- Observation: Island center (Rows 14-15) is visible from (24, 12) and empty. [Turn 17945]
-- Plan: Re-verify Suicune dot in Pokedex, then explore northern corridor (Row 4).
+- Discovery: Pokedex 'SUICUNE'S NEST' dots confirm sightings at Ecruteak (Burned Tower), Cianwood, Route 42, Route 36, and Tin Tower.
+- Plan: Cut tree at (24, 13) and perform 100% sweep of island center (Rows 14-15). [Turn 17947]
