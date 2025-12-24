@@ -19,7 +19,7 @@
 
 # Suicune Capture Strategy
 - Strategy:
-  - Repel Trick: Lead level must be > Lv26 but < Lv40. Target: Lv27+.
+  - Repel Trick: Lead level must be > Lv26 (Route 44 max) but < Lv40. Target: Lv27+.
   - Mean Look on Turn 1 is mandatory.
   - If Mean Look fails: Track via Pokedex and re-intercept.
   - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
@@ -29,7 +29,11 @@
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-- Current Battle: Bellsprout (Lv22, SLP). Start Turn: 16225.
+
+## Current Battle
+- Opponent: Bellsprout (Lv22).
+- Start Turn: 16225.
+- Strategy: Hypnosis then Lick.
 
 ## To-Do
 - Test find_path_v2 after battle (Turn 16244 fix).
