@@ -55,3 +55,4 @@
 - **WALL:** Impassable.
 - **LADDER:** Warp to another floor.
 - **WARP:** Teleport tile.
+- Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore so far).
