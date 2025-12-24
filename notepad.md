@@ -39,7 +39,6 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Exiting Tin Tower. Next: Barrier Station Main Entrance (Ecruteak 37,7).
-- **Goal:** Talk to Sages in Barrier Station to reset Suicune event.
-- **Reasoning:** Whiting out likely reset the event flags.
-- **Note:** Do not enter via Wise Trio Room (leads to wrong side). Use Main Entrance.
+- **Action:** Navigating to Barrier Station Entrance (37,7).
+- **Reasoning:** I am trapped in the Tin Tower yard (Bell Chime Trail). The path to the main city is blocked by walls. I must exit via the Barrier Station.
+- **Goal:** Enter Barrier Station, speak to Sages to reset Suicune event, then proceed to Unexplored House if needed.
