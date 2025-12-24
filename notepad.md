@@ -39,6 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Navigating to Barrier Station Main Entrance (37,7) in Ecruteak.
-- **Reasoning:** Whiting out reset the event flags. I need to speak to the Sages/Gatekeeper in the Barrier Station to re-open the path to Suicune.
-- **Note:** "Mystery Warp" (10,2) in Tin Tower is inactive until event is reset.
+- **Action:** Interacting with Sage at (11,11).
+- **Situation:** Re-entered Tin Tower 1F (Map 3_4) from Ecruteak. This IS the location with the Sages.
+- **Goal:** Trigger the Wise Trio battle or get them to open the path/activate the warp.
+- **Plan:** Talk to Sage at (11,11). If passive, talk to others. If all passive, re-check Warp (10,2).
