@@ -3,7 +3,8 @@
 - Status: Scripted encounter sequence in progress.
 - Catcher: XENON (Gastly) - Mean Look (Trap) + Hypnosis (Sleep). 
 - Encounter Type: Overworld sprite at specific locations. Does NOT roam in grass until after Tin Tower event.
-- Current Target: Route 42 middle island (requires Cut and Surf).
+- **CRITICAL**: Suicune CANNOT be caught during these scripted encounters. It will always flee. It can only be caught at the Tin Tower later. Do not waste Great Balls yet.
+- Current Target: Trigger Route 42 encounter (Middle island).
 
 ## Repel Trick Execution Plan (Post-Tin Tower)
 - Lead PKMN must be Lv18 on Route 42 to block Lv13-17 wilds. (Suicune is Lv40).
