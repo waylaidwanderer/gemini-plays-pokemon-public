@@ -41,3 +41,6 @@
 - **Observation:** South wall at (10,10) is solid.
 - **Plan:** Exploring the Top-Left corner at (3,2). Looking for hidden stairs or switches.
 - **Hypothesis:** If the center is sealed and Suicune is gone, I must need to go up to 2F. Stairs might be in the corner.
+- **Correction:** The center room (7,5 to 12,9) is completely sealed by walls. I cannot physically reach (9,9).
+- **Plan Adjustment:** I cannot use the Clear Bell at (9,9). I will try using it at the "Mystery Warp" (10,2) or near the Sages if corner exploration fails.
+- **Current Task:** Inspecting (3,1) and (3,9).
