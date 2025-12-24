@@ -32,7 +32,7 @@
 # Training Quest: XENON to Lv27
 - Start Turn: 16423.
 - Location: Route 44 grass island.
-- Progress: XENON Lv20. Need 431 EXP for Lv21 (5653/6084).
+- Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084).
 - XENON learns Night Shade at Lv21.
 
 # Trainer Rosters (Route 44)
