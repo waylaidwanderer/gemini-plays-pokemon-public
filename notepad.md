@@ -35,7 +35,7 @@
 - Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
-- Current Battle: Bellsprout (Lv22). Start Turn: 16225.
+- Current Battle: Bellsprout (Lv22). Start Turn: 16225. XENON 33/45 HP, PAR. (Turn 16240)
 
 ## To-Do
 - Test find_path_v2 after battle to verify fix.
