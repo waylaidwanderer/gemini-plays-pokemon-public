@@ -1,10 +1,6 @@
 # Ice Path Strategy
-- **Primary Goal:** Reach Blackthorn City.
-- **Status:** At (19, 23) [Ice]. Testing Ledge (19, 24).
-- **Test:** Press Down.
-  - If Success: Continue South.
-  - If Fail: Slide Right to (20, 23) [Safe Floor] and re-evaluate.
-- **Critical Context:** (18, 24) and (20, 24) are impassable. (19, 24) is the last hope for this row.
+- **Current Action:** Testing Ledge (19, 24) [Ice].
+- **Contingency:** If blocked, slide Right to (20, 23) and define a Map Analysis Agent.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Mechanics & Lessons
