@@ -51,3 +51,12 @@
 - Turn 15845: Encountered wild RAIKOU (Lv40) on Route 42.
 - Result: RAIKOU fled before MEAN LOOK (Turn 1).
 - Lesson: XENON (Lv18, Speed 36) is too slow for Turn 1 trapping against Lv40 roamers. Need higher level or Quick Claw if available (check bag).
+## Region Map IDs (Johto)
+- Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
+- Route 42: 2_5, Mahogany Town: 2_6, Route 43: 2_7, Route 40: 2_8
+- Route 41: 2_9, Cianwood City: 2_10, Lake of Rage: 2_11, Route 44: 2_12
+- Blackthorn City: 2_13, Route 45: 2_14, Route 46: 2_15, Silver Cave: 2_16
+- Route 29: 1_2, Route 30: 1_4, Route 31: 1_5, Violet City: 1_6
+- Route 32: 1_7, Route 33: 1_9, Azalea Town: 1_10, Route 34: 1_12
+- Goldenrod City: 1_13, Route 35: 1_14, Route 36: 1_16, Route 37: 1_17
+- Mt Mortar: 3_1
