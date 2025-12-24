@@ -14,25 +14,14 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan (Revised - Long Loop)
-1.  **Goal:** Reach (11, 8) (South of B1) to push B1 UP.
-2.  **Path:** Go North, then West, then South, then East.
-    - **Step 1 (North Loop):**
-        - (11, 6) Left -> (10, 6).
-        - Up -> (10, 0).
-        - Right -> (11, 0).
-        - Down -> (11, 1).
-        - Left -> (6, 1).
-    - **Step 2 (West Side):**
-        - Down -> (6, 2).
-        - Left -> (5, 2).
-        - Down -> (5, 9).
-    - **Step 3 (South Loop):**
-        - (5, 9) -> (5, 16) -> (17, 16).
-    - **Step 4 (East Side):**
-        - (17, 16) -> (17, 14) -> (12, 11) -> (12, 8).
-    - **Step 5 (Position):**
-        - Left -> (11, 8).
+## Master Plan (Revised - Center-South Loop)
+1.  **Goal:** Reach (11, 8) to push B1 UP.
+2.  **Path:**
+    - **Step 1:** Go East to (9, 9), then South to (9, 10).
+    - **Step 2:** Push Boulder B3 (at 9, 11) DOWN to (9, 12).
+    - **Step 3:** Go around B3: (9, 11) -> (10, 11) -> (10, 12) -> (10, 13).
+    - **Step 4:** Go South/East: (10, 13) -> (10, 16) -> (17, 16).
+    - **Step 5:** Go North/West: (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
 3.  **Solve B1:**
     - Push Up to (11, 5).
     - Go to (10, 5). Push Right to (12, 5).
