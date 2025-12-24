@@ -28,3 +28,5 @@
 - **Observation (Turn 15092):** Defeated Grunt at `(9, 6)`. He is currently blocking the only known path South to the Director.
 - **Hypothesis:** Post-battle script should move him or he should disappear.
 - **Action:** Clearing text to trigger any scripts.
+- **Correction (Turn 15093):** Grunt at `(9, 6)` did not move. However, Row 5 is open to the East.
+- **New Plan:** Bypass the Grunt by taking the route: `(9, 5)` -> East to `(14, 5)` -> South to `(14, 8)` -> West to Director.
