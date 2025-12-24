@@ -1,18 +1,17 @@
 # Ice Path Strategy
-- **Current State:** At Hub (9, 16).
-- **Goal:** Explore North/East Ice Area for Ladder to B1F.
-- **Reachability:** West Corridor (Column 0) confirmed unreachable from Hub (bfs failed). Ladder must be in NE or accessed differently.
-- **Plan:**
-  1. Check North Alcove (9, 15).
-  2. Return to Ice Entrance (13, 16).
-  3. Slide Right -> Down -> Right to reach (19, 21).
-  4. Explore paths from (19, 21) (Up or Right).
+- **Current State:** At Ice (15, 16).
+- **Breakthrough:** Found the path!
+  1. Go to SE Floor via (19, 23) -> (20, 23).
+  2. Walk North to (20, 22), then West to (19, 22).
+  3. Step Left onto Ice at (19, 22).
+  4. Slide Left to (18, 22).
+  5. Slide Up from (18, 22) to reach Hidden Floor at (18, 14).
+- **Goal:** Execute this sequence to reach Northern Room.
 
-# Map Structure
-- **Hub:** Isolated loop.
-- **West Corridor:** Accessed via SW Floor (Row 22+).
-- **Access Point:** Likely a ledge at Row 18 or Row 22. (14, 22) failed. Row 18 is the best bet.
-- **Critical Insight:** Previously blocked at (5, 16) despite it looking like FLOOR. This suggests a barrier separating the Hub from the West Corridor.
-- **Hypothesis:** The "South Ledges" or the Ice Puzzle are the only ways to cross this barrier.
-- **Current Action:** Testing Ledge at (9, 18). If blocked, the West Corridor must be accessed via a different route (possibly a hole from the floor above?).
-- **Note:** Check for any "Holes" or "Ladders" I might have missed in the layout.
+# Route
+1. Slide **Down** to (15, 21).
+2. Slide **Right** to (19, 21).
+3. Slide **Down** to (19, 23).
+4. Step **Right** to (20, 23).
+5. Walk **Up** to (20, 22).
+6. Step **Left** into Ice.
