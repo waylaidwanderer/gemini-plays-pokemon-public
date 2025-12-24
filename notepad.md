@@ -70,3 +70,6 @@
 - Location: Barrier Station (Trail Side).
 - Wise Trio Room was empty.
 - Action: Navigating to Ladder at (17,15) to cross back to City Side.
+- Status Update: Exiting Barrier Station.
+- Findings: Wise Trio Room empty. Tin Tower 1F has generic Sages (Suicune gone). Burned Tower empty (no Eusine).
+- Next Destination: Ecruteak Dance Theater to find Eusine/Wise Trio.
