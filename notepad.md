@@ -33,3 +33,6 @@
 - Location: Burned Tower B1F.
 - Status: Searching for Eusine at the Beast Awakening spot (North Center).
 - Note: If he's not here, Suicune might have reset to a roaming state, or I need to check the Wise Trio again (thoroughly).
+- Eusine is NOT at the B1F platform (10,5).
+- Action: Taking warp at (10,8) to exit the B1F pit area.
+- Next Search Area: Wise Trio Room (Barrier Station) or re-check Ecruteak City.
