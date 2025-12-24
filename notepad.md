@@ -13,9 +13,17 @@
 # Suicune Tracking & Strategy
 - Status: Scripted Overworld Encounters (Crystal Version).
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Strategy: Methodically sweep the middle island of Route 42. (Failed Turn 17016: Full sweep didn't trigger). Pokedex still reports Route 42. Checking AREA map for exact location.
+- Current Objective: Investigate 'SUICUNE'S NEST' coordinates on Route 42.
+- Strategy: Visit red dot and blue square coordinates discovered in the Pokédex AREA map.
 - Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
 - Next Sightings (Crystal): Route 36 (near Violet), Route 25 (near Bill's house).
+
+# Suicune's Nest Observations (Turn 17031)
+- Red Dots: (29, 14), (32, 12), (34, 13), (35, 15), (27, 16), (30, 18).
+- Blue Squares: (30, 13), (32, 13), (34, 13), (28, 14), (31, 14), (27, 17), (32, 17), (34, 17), (30, 18).
+- Overlap (Red & Blue): (34, 13), (30, 18).
+- Investigation Log:
+  - (27, 17): Stepped on. No event. (Turn 17035)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -36,12 +44,5 @@
 # General Lessons
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
-- Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation to (40, 11) or (33, 10) is more reliable for starting Surf.
-
-# Suicune's Nest Observations (Turn 17031)
-- Pokedex AREA map showed a special screen: 'SUICUNE'S NEST'.
-- Red Dots: (29, 14), (32, 12), (34, 13), (35, 15), (27, 16), (30, 18).
-- Blue Squares: (30, 13), (32, 13), (34, 13), (28, 14), (31, 14), (27, 17), (32, 17), (34, 17), (30, 18).
-- Overlap (Red & Blue): (34, 13), (30, 18).
-- Strategy: Visit reachable markers in the overworld. Start with island markers: (27, 16), (29, 14), (28, 14).
-- Note: (29, 14) and (28, 14) are Headbutt trees. (27, 16) is a Fruit Tree.
+- Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation is more reliable.
+- Pokédex 'Nest' Screen: Rare visual cues in the AREA map may indicate specific event triggers. (Turn 17031)
