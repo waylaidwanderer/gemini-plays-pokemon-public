@@ -2,8 +2,8 @@
 - **Current Action:** Solving West Ice Room Puzzle.
 - **Goal:** Reach the ladder (likely in the center/NW of this room).
 - **Solution Path Identified:**
-  1. Start (13, 5). Slide **Down** -> (13, 13). [NEXT]
-  2. Slide **Left** -> (2, 13).
+  1. Start (13, 5). Slide **Down** -> (13, 13). [DONE]
+  2. Slide **Left** -> (2, 13). [NEXT]
   3. Slide **Up** -> (2, 2).
   4. Slide **Right** -> (6, 2).
   5. Slide **Down** -> (6, 10).
