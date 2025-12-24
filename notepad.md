@@ -7,26 +7,12 @@
 
 ## Suicune Hunt Strategy
 - Suicune is NOT a roamer in grass until after the Tin Tower event.
-- Route 42 Trigger: Approach the island center. Approach from the WEST via Surf is the current hypothesis.
+- Route 42 Trigger: Approach the island center. Current Hypothesis: Approach from the WEST via Surf (Started Turn 17681).
 - Route 36: Enter from the Violet City side (East) after Route 42 is completed.
 
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
 - Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681] [Attempt 1 - In Progress]
-
-# Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable.
-- TALL_GRASS: Traversable, triggers wild encounters.
-- WATER: Impassable without Surf. Traversable with Surf.
-- LEDGE: One-way movement (South-only for standard).
-- WARP / DOOR / WARP_CARPET: Map transition.
-- CUT_TREE: Impassable until CUT.
-- ROCK: Impassable. Requires ROCK SMASH.
-- VOID: Impassable map boundary.
-- CAVE: Warp tile to interior.
-- FLOOR_UP_WALL: Impassable floor edge.
-- WATER_ROCKS: Impassable water obstacles (represented as WALL in water).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -50,8 +36,3 @@
 - Rock Smash (Info): Route 36 (Fisher at 44, 9).
 - Fisher Tully: Route 42. Gives items.
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
-
-## Progress Log
-- Turn 17654: Initiated systematic island floor sweep.
-- Turn 17664: Finished sweep. No trigger.
-- Turn 17671: Pivoting to approach island from the west via Surf.
