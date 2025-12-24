@@ -75,3 +75,6 @@
 - **LADDER:** Warp to another floor.
 - **WARP:** Teleport tile.
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore so far).
+- Observation: Center Sage (11,11) gave generic lore again.
+- Action: Checking Right Sage (14,6) now.
+- Hypothesis: If ALL sages give generic lore, the event might be stuck or I need to find Eusine elsewhere.
