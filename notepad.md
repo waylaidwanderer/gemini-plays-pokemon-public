@@ -40,4 +40,5 @@
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Pokedex 'AREA' Map: Blinking dots confirm sightings at Ecruteak, Cianwood, Route 42, Route 36, and Tin Tower.
-- Plan: Perform 100% tile sweep of island center (Rows 14-17) to find Suicune trigger. [Turn 17951]
+- Observation: Island sweep Row 17 (X=26-30) complete, empty. Row 16 (X=30) empty. [Turn 17964]
+- Plan: Sweep Row 15 (X=30-25) and Row 14 (X=27-25) of island center. If empty, explore northern corridor (Row 4).
