@@ -57,3 +57,8 @@
 ## Battle Log
 - Turn 15995: XENON (Lv18) vs Remoraid (Lv25). XENON fainted to super-effective Psybeam. Remoraid knows Psybeam.
 - Strategy Adjustment: Avoid leading with XENON against Fisher trainers or known Psychic move users until higher level.
+## Route 44 Exploration (Turn 16049)
+- Progressing east from Mahogany Town.
+- Fisherman at (35, 3) - possible trainer.
+- Goal: Find tall grass for training XENON.
+- Suicune tracking: Last confirmed on Route 42 (Turn 15889). Need to check Pokedex again.
