@@ -39,7 +39,8 @@
 - Note: Max wild level here is 26 (Weepinbell/Lickitung). Bellsprout/Weepinbell can use Grass/Poison moves which Gastly resists.
 
 ## Future Tasks
-- Confirm Suicune location via Pokedex Area search after training.
+- Reach Lv27 with XENON (Gastly) to enable Repel Trick.
+- Intercept Suicune on Route 44 (or current location) using Mean Look + Hypnosis.
 - Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
