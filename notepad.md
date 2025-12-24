@@ -33,16 +33,15 @@
 - Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
 - Level Targets: Lv21 (Route 42/43), Lv27 (Route 44).
 - Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
-- Current Location: Route 44 (as of Turn 16617).
+- Cycling Start: Turn 16587 (Wednesday, Dec 24, 2025).
 
 # Training Log: XENON (Gastly)
 - Night Shade learned at Lv21.
 - Repel Trick target: Lv27 (15244 EXP).
 - Training Spot: Route 44 grass island.
-- Current Level: 21 (6726 EXP). Next Level: Lv22 (7577 EXP).
 
 # PC Storage (Box 1)
-- VORTEX (Poliwag): Lv22, Male. Caught Turn 16443.
+- VORTEX (Poliwag): Lv22, Male.
 - INTERCEPT (Yanma): Lv12, Female.
 - ROCKY (Onix): Lv6, Male.
 - EGG (Cleffa): Lv5, Female.
