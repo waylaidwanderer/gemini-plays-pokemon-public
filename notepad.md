@@ -1,16 +1,20 @@
 # Suicune Quest (Crystal) - PROGRESS
-- Milestone 1: Burned Tower (Seen).
-- Milestone 2: Cianwood City (Seen).
-- Milestone 3: Route 42 Island (Investigating).
-- Milestone 4: Route 36 (Not seen).
-- Milestone 5: Tin Tower (Verification Required).
-- Status: Scripted Chase (Likely).
-- Goal: Verify Tin Tower status in Ecruteak City.
+- Milestone 1: Burned Tower (Beasts flee).
+- Milestone 2: Cianwood City (Suicune sighting, Eusine battle).
+- Milestone 3: Route 42 (Scripted sighting on island - Investigating).
+- Milestone 4: Route 36 (Not yet reached).
+- Milestone 5: Tin Tower (Event requires Clear Bell and 7 badges).
+- Status: Scripted Chase. Suicune does NOT roam in Crystal until after Tin Tower.
 
 ## Verification Checklist
 - Clear Bell: Obtained (Verified in inventory).
-- Badges: 7/8 (Verified: Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier. Missing: Rising Badge).
-- Tin Tower Status: Flying to Ecruteak to confirm if Suicune is stationary or roaming.
+- Badges: 7/8 (Verified: Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier).
+- Route 42 Sighting: Checked island (26, 14), Suicune not found. Pokedex AREA map showed Route 42.
+
+## Strategy
+1. Enter the barrier house at (18, 11) in Ecruteak City.
+2. Proceed to Tin Tower to check status.
+3. If blocked, check Route 36 for the next sighting.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
