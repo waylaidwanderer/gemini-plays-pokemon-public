@@ -30,8 +30,8 @@
 
 # Training Log: XENON (Gastly)
 - Started XENON Leveling at Turn 16521.
-- Current Level: 20 (5925 EXP).
-- Next Level (Lv21): 6921 EXP (996 EXP remaining).
+- Current Level: 20 (6182 EXP).
+- Next Level (Lv21): 6921 EXP (739 EXP remaining).
 - Night Shade learned at Lv21.
 - Repel Trick target: Lv27.
 - Training Spot: Route 44 grass island.
