@@ -8,6 +8,8 @@
 - TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12).
 - CAVE: Warp tile leading to internal maps. Verified at (10, 5).
 - WARP_CARPET_LEFT / WARP_CARPET_RIGHT: Map transition tiles. Verified at (0, 8) and (60, 7).
+- MART_SHELF: Impassable collision. Verified at (3, 5).
+- COUNTER: Interaction tile for NPCs. Verified at (2, 3).
 
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
