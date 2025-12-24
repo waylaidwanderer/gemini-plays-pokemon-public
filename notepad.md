@@ -1,8 +1,8 @@
 # Suicune Quest (Crystal)
 - Started: Turn 17252 (Dec 24, 2025).
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Current Status: Verifying Route 42 island for overworld trigger (sprite jump). 
-- Goal: Reach (28, 15) on Route 42 island.
+- Current Status: Investigating Route 42 island for overworld trigger.
+- Note: Pokedex 'Area' may show the next location even if the previous overworld event wasn't fully triggered.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -21,9 +21,12 @@
 - Route 37 "WEIRD_TREE" objects at (6, 12) and (7, 12) are the Twins Ann & Anne, not Suicune.
 - Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
+- History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
+- Burned Tower items: Cooltrainer mentioned hidden items in the Burned Tower.
 
 # Items Received
 - Fire Stone: Collected from Alan on Route 36 at (31, 14).
+- Itemfinder: From Cooltrainer in Ecruteak Itemfinder House (Turn 17417).
 
 # Lessons Learned
 ## Menu Navigation
@@ -32,10 +35,4 @@
 
 ## Suicune Trigger Mechanics
 - Pokedex 'Area' tracks the current active overworld sighting location.
-
-# Items Received
-- Itemfinder: From Cooltrainer in Ecruteak Itemfinder House (Turn 17417).
-
-# Key Observations
-- History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
-- Burned Tower items: Cooltrainer mentioned hidden items in the Burned Tower.
+- Sightings are triggered by specific tile-entry or movement zones, not object interaction.
