@@ -22,18 +22,14 @@
 - Natu: Future Sight, Night Shade.
 - Remoraid: Psybeam.
 
-# Suicune Strategy
-- Suicune is a roamer. Its location changes when moving between maps.
-- Goal: Reach Lv27 with XENON (Gastly) for Repel Trick threshold.
-- Lead: XENON (Gastly) Lv20.
-- Method: Mean Look (Turn 1) + Hypnosis. Switch to Calcifer for damage if needed.
-- Note: Use roamer_tracker_v2 to intercept.
-
-# Training Quest: XENON to Lv27
+# Suicune & Training Strategy
+- Suicune is a roamer. Use roamer_tracker_v2 to intercept.
+- Current Objective: Reach Lv27 with XENON (Gastly) for Repel Trick threshold.
+- Lead: XENON (Gastly). Method: Mean Look (Turn 1) + Hypnosis. Switch for damage.
+- Training Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084).
+- Note: XENON learns Night Shade at Lv21.
+- Training Location: Route 44 grass island.
 - Start Turn: 16423.
-- Location: Route 44 grass island.
-- Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084).
-- XENON learns Night Shade at Lv21.
 
 # Trainer Rosters (Route 44)
 - Psychic Phil: Natu, Kadabra.
