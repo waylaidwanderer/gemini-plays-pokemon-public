@@ -49,4 +49,5 @@
 
 # Tin Tower Progress
 - Sage at (4, 6) granted permission: "Please, do go on."
-- Path to Tin Tower is now open. Heading to ladder at (5, 3).
+- Path to Tin Tower is now open.
+- Currently in Wise Trio Room (4_2). Heading to Route 42 to find Suicune.
