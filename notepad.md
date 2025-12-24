@@ -21,7 +21,7 @@
 - Status: Roaming. Last confirmed on Route 44 (ID: 2_6). (Turn 16196)
 - Lead: XENON (Gastly, Lv19) - Speed: 38 (9 when paralyzed).
 - Strategy:
-  - Repel Trick: Lead level must be > Lv26 (Route 44 max) but < Lv40. Target: Lv27+.
+  - Repel Trick: Lead level must be > Lv26 (Route 44 max) but < roamer level (Lv40). Target: Lv27+.
   - Mean Look on Turn 1 is mandatory.
   - If Mean Look fails: Track via Pokedex and re-intercept.
   - Backup: Switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
