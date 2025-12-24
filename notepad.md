@@ -37,9 +37,10 @@
 - Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
 - Confirmed: Warp at (10,2) is inactive.
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
-- Status: Inside Burned Tower 1F.
+- Status: Inside Burned Tower B1F.
 - Observation: Eusine and Morty are NOT on 1F.
 - Plan:
-  1. Check Burned Tower B1F (via ladder at 7,15) for Eusine.
-  2. If not found, return to Ecruteak and check Wise Trio Room thoroughly.
-  3. If still stuck, consider that Suicune might be roaming or gone until E4.
+  1. Flee wild Koffing.
+  2. Check center of B1F (10,8) for Eusine/Beasts.
+  3. If empty, check other warp at (3,13).
+  4. If not found, return to Ecruteak/Wise Trio Room.
