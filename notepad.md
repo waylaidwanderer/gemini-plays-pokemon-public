@@ -3,16 +3,13 @@
 - **Wise Trio:** Defeated in Barrier Station.
 
 # Suicune Hunt (Tin Tower 1F)
-- **Status:** Suicune was at (9,9) but vanished after I whited out? Or I need to re-trigger it.
-- **Current Action:** Talking to all 3 Sages on 1F.
-    - Sage (5,9): Talked. Lore only.
-    - Sage (14,6): Talked. Lore only.
-    - Sage (11,11): **Pending.**
-- **Problem:** Warp at (10,2) is verified INACTIVE.
+- **Status:** Suicune missing from (9,9) after whiteout.
+- **Action:** Resetting map to attempt respawn.
+- **Progress:** Spoke to all 3 Sages (Lore only, no battles).
 - **Hypothesis:** 
-    1. Talk to last Sage triggers event.
-    2. Must walk on Suicune's spawn tile (9,9).
-    3. Suicune has moved to Roaming or requires map reload.
+    1. Map reload (Exit/Enter) might respawn Suicune.
+    2. Suicune might have moved to Roaming (check Pokedex later).
+    3. Event state might be stuck or require specific trigger order.
 
 # Map Markers
 - **Sages:** (5,9), (14,6), (11,11).
