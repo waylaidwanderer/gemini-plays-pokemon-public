@@ -4,17 +4,17 @@
 - **Puzzle Logic (Chokepoint):**
   - **B2** at (7, 8). **B3** at (8, 9).
   - Exit is at (9, 10).
-  - **Solution:**
-    1. Push **B2** Right to (8, 8).
+  - **Corrected Solution (Don't move B2):**
+    1. Move to (7, 9).
     2. Push **B3** Right to (9, 9).
-    3. Push **B2** Right to (9, 8).
-    4. Move to (8, 8) and push **B3** Down to (9, 10) -> (9, 11).
-    5. Walk South through (9, 10).
-- **Plan:** Execute Step 1: Move to (6, 8) and push B2 Right.
+    3. Loop around: (7, 9) -> (8, 9) -> (8, 8) -> (9, 8).
+    4. From (9, 8), push **B3** Down to (9, 11).
+    5. Walk South through (9, 10) -> (9, 12).
+- **Plan:** Execute Step 1 & 2: Move Right to (7, 9) and push B3 Right.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
-- **South Room:** Accessed via (9, 10). Contains more boulders/pits?
+- **South Room:** Accessed via (9, 10).
 - **Known Pits:** (4, 7), (5, 12).
 - **Known Boulders:** (7, 8), (8, 9). Need 2 more.
 - **Observation:** Found a Boulder at (7, 8).
