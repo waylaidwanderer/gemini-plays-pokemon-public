@@ -31,3 +31,4 @@
 ## Items
 - Great Ball: 29. Main capture tool.
 - Pokeball: 2.
+- Super Repel: None (Need to buy).
