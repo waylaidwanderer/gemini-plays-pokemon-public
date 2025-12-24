@@ -8,8 +8,8 @@
 - **Path Plan:**
   1. Walk to (13, 17). [DONE]
   2. From (13, 17), Slide Right -> Stop at (15, 17). [DONE]
-  3. From (15, 17), Slide Down -> Stop at (15, 21). [NEXT]
-  4. Slide Right -> Stop at (19, 21).
+  3. From (15, 17), Slide Down -> Stop at (15, 21). [DONE]
+  4. From (15, 21), Slide Right -> Stop at (19, 21). [NEXT]
   5. Slide Down -> Stop at (19, 23).
   6. Slide Right -> Arrive at (20, 23) [Hub].
   7. Explore East.
