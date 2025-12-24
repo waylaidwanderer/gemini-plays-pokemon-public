@@ -12,8 +12,10 @@
 - Result: No trigger found on western floor tiles (Turn 17837).
 - Step 5: Exhaustive island sweep (Rows 10-13). [In Progress]
 - Step 1: Sweep Row 12: (22, 12) to (28, 12). [DONE]
-- Step 2: Sweep Row 11: (20, 11) to (33, 11). [In Progress]
-- Step 3: Sweep Row 10: (20, 10) to (31, 10).
+- Step 2: Sweep Row 11: (20, 11) to (33, 11). [DONE]
+- Step 3: Sweep Row 10: (20, 10) to (33, 10). [In Progress]
+- Step 4: Sweep Row 9: (33, 9) to (32, 9).
+- Step 5: Sweep Row 8: (32, 8) to (33, 8).
 - Hypothesis 33: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking directly south to the trees.
 - Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
 - Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
