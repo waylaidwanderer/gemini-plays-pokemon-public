@@ -13,14 +13,12 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan
-1.  **B1 Solve (Detailed):**
-    - Push B1 Up from (11, 7) to (11, 5). (Stops at Wall 11, 4).
-    - Loop around to (12, 5): (11, 6) -> (10, 6) -> (10, 1) -> (13, 1) -> (13, 5) -> (12, 5).
-    - Push B1 Left to (10, 5).
-    - Loop to (10, 6): (11, 5) -> (11, 6) -> (10, 6).
-    - Push B1 Up to (10, 2).
-    - Loop to (9, 2): (10, 3) -> (9, 3) -> (9, 2).
-    - Push B1 Right into Pit (11, 2).
-2.  **Next:** Solve B2.
+## Master Plan (Corrected)
+1.  **Get to Right Side:** Navigate (11, 7) -> (11, 6) -> (10, 6) -> North to (10, 1) -> East to (12, 1) -> South to (12, 5).
+2.  **Push Sequence:**
+    - Push Left to (10, 5).
+    - Go to (10, 6). Push Up to (10, 1).
+    - Go to (9, 1). Push Right to (11, 1).
+    - Go to (11, 0). Push Down into Pit (11, 2).
+3.  **Next:** Solve B2.
 - **Strength Push:** Pushing a boulder moves the boulder 1 tile. The player does NOT automatically step into the vacated tile; a separate input is required.
