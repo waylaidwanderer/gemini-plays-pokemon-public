@@ -57,3 +57,5 @@
 - **Correction:** There are THREE Sages. I missed the one at (11,11).
 - **Plan:** Navigate to (11,11) to speak to the third Sage.
 - **Hypothesis:** Speaking to (or battling) all three Sages is the key.
+- **Lore Update:** Sage at (11,11) confirms the three nameless Pokémon perished in the fire and were reborn as Suicune, Entei, and Raikou by Ho-Oh.
+- **Action:** Retrying the warp at (10,2). The Mental Map XML flags it as `is-warp="true"`, so it MUST be functional. I likely missed the tile or hallucinated the failure.
