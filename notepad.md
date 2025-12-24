@@ -30,3 +30,6 @@
 - Suicune Sighting Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Sage Permission Logic: Permission in 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
+
+# Items Received
+- Fire Stone: From Schoolboy Alan on Route 36 (Turn 17359).
