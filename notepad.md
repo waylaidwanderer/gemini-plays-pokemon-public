@@ -22,7 +22,10 @@
 - Step 4: Approach island center (24, 14) from the north/east side. [DONE]
 - Result: FAILED. No sighting triggered at (24, 14).
 - Hypothesis 25: Suicune is standing in front of the middle Mt. Mortar entrance (28, 9).
-- Step 1: Travel to (28, 10) and check for Suicune.
+- Step 1: Travel to (28, 10) and check for Suicune. [DONE]
+- Result: Warped into Mt. Mortar (3_57) at (17, 33). Suicune not seen.
+- Hypothesis 26: Suicune moved because of the map change (warping into Mt. Mortar).
+- Step 1: Check Pokedex to confirm current location.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
