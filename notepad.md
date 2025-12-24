@@ -8,6 +8,12 @@
 - FLOOR_UP_WALL: One-way barrier (Southward).
 - WARP: Traversable.
 
+# HM/TM Knowledge
+- HM01 Cut: KIMCHI (Gloom)
+- HM02 Fly: ICARUS (Pidgey)
+- HM03 Surf: Ravioli (Krabby)
+- HM04 Strength: GNEISS (Graveler)
+
 # Type Effectiveness (Verified)
 - Ghost vs Normal: Immune.
 - Ghost vs Psychic: Super Effective.
@@ -29,8 +35,6 @@
 - Use `roamer_tracker_v2` after Pokedex checks.
 
 # Training Log: XENON (Gastly)
-- Started XENON Leveling at Turn 16521.
-- Current Level: 21 (6726 EXP).
 - Next Level (Lv22): 7577 EXP (851 EXP remaining).
 - Night Shade learned at Lv21.
 - Repel Trick target: Lv27 (15244 EXP).
