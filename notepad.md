@@ -1,14 +1,16 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Escaping Ice Trap to (13, 16).
-- **Critical Correction:** I hallucinated testing the ledge at (8, 18). I only tested (7, 18).
-- **New Hypothesis:** One of the `FLOOR_UP_WALL` tiles at Row 18 (x=8, 9, 10, 11, 12) is the correct path (a jumpable ledge). (7, 18) was a wall, but others might differ.
+- **Status:** At Start (13, 16). Preparing to test Row 18 ledges.
+- **Critical Info:**
+  - `(7, 18)` is confirmed IMPASSABLE.
+  - `(8, 18)` is UNTESTED (despite previous confusion).
+  - Gyarados is low HP (11). Must be careful.
 - **Plan:**
-  1. Escape to (13, 16).
-  2. **HEAL GYARADOS**.
-  3. Walk to (8, 17) and test ledge (8, 18).
-  4. If fail, test (9, 18), etc.
-- **Items:** Item Balls at (32, 23) and (35, 9).
+  1. Walk to `(8, 17)`.
+  2. Test `(8, 18)` by pressing Down.
+  3. If it's a ledge, jump to Row 19/22 and head West.
+  4. If it's a wall, mark it and try `(9, 18)`.
+  5. If ALL Row 18 ledges fail, the "West Corridor" must be accessed via the **Ice Puzzle** -> **Sliding UP from (15, 17)** path (The "Box" hypothesis).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
