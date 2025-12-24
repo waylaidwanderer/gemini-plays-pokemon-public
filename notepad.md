@@ -26,3 +26,5 @@
 - Resuming path to Burned Tower to find Eusine.
 - Burned Tower 1F: Eusine NOT at entrance (9,14).
 - Plan: Checking center of room (9,9) and B1F Ladder (7,15).
+- Eusine is NOT at the Burned Tower entrance (9,14).
+- Proceeding to check the center of the room (9,9).
