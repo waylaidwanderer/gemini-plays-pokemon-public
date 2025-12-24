@@ -322,15 +322,15 @@
     ]
   },
   "grind_movement": {
-    "description": "Moves the player back and forth between two adjacent tiles for a specified number of cycles to trigger wild encounters. Assumes the player starts on one of the tiles. Returns a JSON array of buttons.",
+    "description": "Moves the player back and forth between two adjacent tiles for a specified number of cycles to trigger wild encounters. Assumes the player starts on one of the tiles. Returns a JSON array of buttons. Each cycle (back and forth) counts as 2 steps. Max 2 cycles (4 steps) per call to ensure reliability.",
     "input_schema": {
       "type": "object",
       "properties": {
         "cycles": {
           "type": "integer",
-          "description": "Number of back-and-forth cycles to perform (1-5).",
+          "description": "Number of back-and-forth cycles to perform (1-2). Each cycle is 2 steps.",
           "minimum": 1,
-          "maximum": 5
+          "maximum": 2
         },
         "direction": {
           "type": "string",
@@ -346,7 +346,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\ntry:\n    cycles = int(input_data.get('cycles', 1))\n    direction = str(input_data.get('direction', 'horizontal'))\n    buttons = []\n    if direction == 'horizontal':\n        b1, b2 = 'Left', 'Right'\n    else:\n        b1, b2 = 'Up', 'Down'\n    for _ in range(cycles):\n        buttons.extend([b1, \"sleep 250\", b2, \"sleep 250\"])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([\"B\"])) # Safe fallback\n",
+    "python_script": "import json\ntry:\n    cycles = int(input_data.get('cycles', 1))\n    if cycles > 2:\n        cycles = 2\n    direction = str(input_data.get('direction', 'horizontal'))\n    buttons = []\n    if direction == 'horizontal':\n        b1, b2 = 'Left', 'Right'\n    else:\n        b1, b2 = 'Up', 'Down'\n    for _ in range(cycles):\n        buttons.extend([b1, \"sleep 250\", b2, \"sleep 250\"])\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([\"B\"])) # Safe fallback\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -387,6 +387,11 @@
         "commit_message": "Adding sleep commands between button presses to improve reliability and prevent the game engine from dropping inputs.",
         "timestamp": "2025-12-24T09:52:27.598Z",
         "action_counter": 16861
+      },
+      {
+        "commit_message": "Limiting cycle count to 2 (8 elements total) to ensure button sequences stay within reliable limits and maintain accurate step tracking.",
+        "timestamp": "2025-12-24T10:17:01.474Z",
+        "action_counter": 16891
       }
     ]
   }

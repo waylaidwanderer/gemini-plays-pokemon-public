@@ -18,6 +18,7 @@
 # Lessons Learned
 - Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
 - Repel Trick: Lv21 lead on Route 42 isolates Suicune (Lv40) from wild mons (max Lv15).
+- Movement Reliability: 'grind_movement' is limited to 2 cycles (4 steps) to ensure the 10-element button sequence limit is respected.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -44,7 +45,4 @@
 - Blarney (SUDOWOODO): Lv20, Male.
 
 # Exploration Targets
-- Explore unseen tiles on Route 44 (e.g., (51, 12), (33, 15), (24, 17)).
-
-# Item Indices (Bag - Items Pocket)
-- Super Repel: Index 12.
+- Explore unseen tiles on Route 42 (e.g., (33, 15), (24, 17)).
