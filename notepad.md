@@ -5,10 +5,10 @@
 - **Lore:** Clear Bell is connected to Tin Tower in Ecruteak.
 
 # Current Objectives
-- **Location:** Route 36.
-- **Immediate:** Travel to Ecruteak City (Route 37).
-- **Note:** Sudowoodo was cleared previously.
-- **Next:** Enter Tin Tower.
+- **Location:** Entering Route 37 (from Route 36).
+- **Immediate:** Travel North to Ecruteak City.
+- **Next:** Heal/Stock up in Ecruteak, then Tin Tower.
+- **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
