@@ -5,11 +5,14 @@
 - **Puzzle Logic (Updated):**
   - **B3** at (9, 11). **B1** at (11, 8). **B4** at (17, 7).
   - **Plan:**
-    1. **Explore NE:** Inspect **B4** at (17, 7) and Ladder at (17, 3).
-    2. **B3 Route:** Go South via Col 16/17 to Row 16, then West to (10, 16), North to (10, 11).
-    3. **B3 Push:** From (10, 11), push B3 Left to (4, 11), Down to (4, 12), Right to **Pit (5, 12)**.
-    4. **B1 Strategy:** If needed, push B1 Right to (12, 8), Down to **Pit (12, 13)**.
-- **Next Step:** Explore NE corner (B4/Ladder).
+    1. **B3 Execution:**
+       - Go to (10, 11).
+       - Push B3 Left to (4, 11).
+       - Push B3 Down to (4, 12).
+       - Push B3 Right to **Pit (5, 12)**.
+    2. **B1 Strategy:** If needed, push B1 Right to (12, 8), Down to **Pit (12, 13)**.
+    3. **Notes:** Ladder at (17, 3) is unreachable from South (Row 5 Wall). B4 at (17, 7) ignored.
+- **Next Step:** Navigate to (10, 11).
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
