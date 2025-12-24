@@ -2,18 +2,17 @@
 - **Current State:** At Ice Path B1F (7, 9).
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
-- **Status:** Player at (11, 8). B1 at (11, 7).
-- **Correction:** Game State coordinates were lagging; Visuals confirm (11, 8).
+- **Status:** Player at (12, 7). B1 at (11, 5).
 - **Execution Plan (B1):**
-  1. **Push Up:** Move B1 from (11, 7) to (11, 5). (Player ends at 11, 6).
-  2. **Position:** Move to (11, 5). Push B1 Right to (12, 5).
-  3. **Target Pit:** Go around to (12, 4). Push B1 Down to Pit (12, 13).
-  4. **Next:** Handle B2 and B4.
+  1. **Move B1 Right:** Go to (10, 5). Push B1 Right to (12, 5).
+  2. **Position for Down Push:** Loop around (10, 5) -> (10, 3) -> (12, 3) -> (12, 4).
+  3. **Push B1 Down:** From (12, 4), push Down to Pit (12, 13).
+  4. **Next:** Handle B2 (at 5, 6) and B4 (at 17, 7).
 - **Puzzle Targets:**
-  - **B1:** (11, 7) -> Pit (12, 13).
-  - **B2:** (7, 8) -> Pit (4, 7).
-  - **B4:** (17, 7) -> Pit (11, 2).
-- **Next Step:** Push B1 Up x2, then Right.
+  - **B1:** (11, 5) -> (12, 5) -> Pit (12, 13).
+  - **B2:** (5, 6) -> (4, 6) -> Pit (4, 7).
+  - **B4:** (17, 7) -> (12, 7) -> (12, 2) -> (11, 2) -> Pit (11, 2).
+- **Next Step:** Navigate to (10, 5) and Push Right.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
