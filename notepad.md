@@ -12,7 +12,7 @@
 
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 21: Systematic floor sweep (Y=10-17) failed. No trigger on any FLOOR tile. [Turns 17654-17664]
-- Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681]
+- Hypothesis 22: Trigger requires entering Route 42 from the WEST (Ecruteak side) and approaching the island center. [Started Turn 17681] [Attempt 1 - In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -26,7 +26,7 @@
 - VOID: Impassable map boundary.
 - CAVE: Warp tile to interior.
 - FLOOR_UP_WALL: Impassable floor edge.
-- WATER_ROCKS: Impassable water obstacles.
+- WATER_ROCKS: Impassable water obstacles (represented as WALL in water).
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
