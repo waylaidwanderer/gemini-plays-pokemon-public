@@ -1,14 +1,20 @@
 # Ice Path Strategy
-- **Current State:** At (28, 12).
-- **Route to North Ice Room:**
-  1. Go **West** to (27, 12).
-  2. Go **South** to (27, 14).
-  3. Go **West** to (21, 14).
-  4. Go **North** to (21, 13), **West** to (18, 13), **South** to (18, 14).
-  5. Go **West** to (15, 14) [Entrance to Ice Room].
+- **Current State:** At (15, 14) [Entrance to North Ice Room].
+- **Goal:** Solve North Ice Room puzzle to reach (16, 8) Floor.
+- **Solution Sequence:**
+  1. **Left** to (14, 14) [Start].
+  2. **Up** to (14, 2).
+  3. **Left** to (8, 2) [Hit Rock 7,2? No, 7,2 is left of 8,2].
+  4. **Down** to (8, 11) [Hit Rock 8,12].
+  5. **Left** to (7, 11) [Hit Rock 6,11].
+  6. **Up** to (7, 3) [Hit Rock 7,2].
+  7. **Left** to (2, 3) [Hit Wall].
+  8. **Down** to (2, 5) [Hit Rock 2,6].
+  9. **Right** to (11, 5) [Hit Rock 12,5].
+  10. **Down** to (11, 8) [Hit Rock 11,9].
+  11. **Right** to (16, 8) [Exit to Floor].
 
 # Map Structure
-- **SE Floor:** Entrance.
-- **East Maze:** Path up.
-- **North Ice Room (x=2-15, y=2-13):** Main puzzle area.
-- **Goal:** Solve North Ice Room to reach Ladder (likely NE).
+- **North Ice Room:** Puzzle leading to Central Floor (Row 8-9).
+- **Central Floor (16-21, 8-9):** Access to Center Ice (x=22+).
+- **Center Ice:** Path to NE Ladder (x=18-34, y=2-4).
