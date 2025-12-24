@@ -2,13 +2,16 @@
 - **Current State:** At Ice Path B1F (7, 9).
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
-- **Status:** Landed at (16, 0) on B2F.
-- **Found:** Ladder at (17, 1).
+- **Status:** Back on B1F at (17, 3).
+- **Situation:** Isolated in NE corner. Walls at Row 5 block exit to main room.
+- **Warps:**
+  - (17, 3): Ladder to B2F East (Came from here).
+  - (17, 1): Unknown Ladder.
 - **Plan:**
-  1. Take **Ladder** at (17, 1) to investigate destination.
+  1. Take **Ladder** at (17, 1).
   2. If it leads to 1F, use it to reset the B1F puzzle.
-  3. **Item Ball:** Note Item Ball at (8, 9) for later collection if missed.
-- **B1 Puzzle Plan (Revised):**
+  3. If it leads elsewhere, explore.
+- **B1 Puzzle Plan (Ready for Reset):**
   - **B3:** Push Down -> Loop -> Push Left -> Down -> Right to Pit (5, 12).
   - **B2:** Push Left to (5, 8) -> Up to (5, 6) -> Left -> Down to Pit (4, 7).
   - **B1:** Push Up to (11, 5) -> Right to (12, 5) -> Down to (12, 12) -> Down to Pit (12, 13).
