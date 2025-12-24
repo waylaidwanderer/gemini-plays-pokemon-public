@@ -15,7 +15,7 @@
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
 - Trigger Hypothesis: Approach intersection near National Park entrance (approx. 18, 9) or Sudowoodo spot (35, 9) from the North or East.
-- Status: At National Park entrance (18, 9). Heading East to intersection (35, 9).
+- Status: At (43, 9). Talking to Fisher (44, 9). Then moving West to approach (35, 9) from the East to trigger Suicune sighting.
 
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
