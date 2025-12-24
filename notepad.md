@@ -1,15 +1,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Testing the **FINAL** Row 18 ledge at (11, 18).
-- **Hypothesis:** 
-  - Ledges at 7, 8, 9, 10, 12 were walls. 
-  - If (11, 18) is also a wall, then **ALL** direct South paths are blocked.
-  - This would confirm the **Long Loop Theory**: The only way to the West Corridor is to go East -> South -> West along the bottom of the map.
+- **Status:** At (11, 17). Confirmed (11, 18) is a Wall.
+- **Conclusion:** Row 18 "ledges" are all impassable walls. The South-West area is isolated from the North.
+- **The Only Path:** The East Corridor (x=28/30).
 - **Plan:**
-  1. Move from (13, 16) to (11, 17).
-  2. Press Down to test (11, 18).
-  3. **If Wall:** Pivot immediately to the **East Corridor Plan**.
-     - Route: (13, 17) -> Solve Puzzle to (20, 23) -> Go to (30, 12) -> Go South to Row 28 -> Go West.
+  1. Move to (13, 17) (Puzzle Start).
+  2. **Solve Puzzle:** Right -> Down -> Right -> Down -> Right to `(20, 23)` (Safe Floor).
+  3. **Navigate:** Go East to (28, 19).
+  4. **Exploration:** Go **SOUTH** from (28, 19) into the unseen area (Row 21+).
+  5. **Goal:** Find the bottom connection to the West Corridor (x=0).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
