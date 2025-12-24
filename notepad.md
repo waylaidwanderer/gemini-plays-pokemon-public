@@ -11,8 +11,8 @@
   1. Walk to (16, 8). [DONE]
   2. Slide **Left** -> (2, 8). [DONE]
   3. Slide **Down** -> (2, 13). [DONE]
-  4. Slide **Right** -> (15, 13). [NEXT]
-  5. Slide **Down** -> (15, 14) [Exit to Floor].
+  4. Slide **Right** -> (15, 13). [DONE]
+  5. Slide **Down** -> (15, 14) [Exit to Floor]. [NEXT]
   5. Slide **Down** -> (15, 14) [Exit to Floor].
 - **Next:** Walk to (28, 19) and explore South.
 - **Items:** Item Balls at (32, 23), (35, 9).
