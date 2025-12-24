@@ -14,12 +14,13 @@
 - Raikou/Entei Neighbors: Route 42 (2_5) connects to Ecruteak City (1_3) and Mahogany Town (2_4).
 
 # Suicune Tracking & Strategy
-- Status: Scripted Overworld Encounters (Crystal Version).
+- Status: Scripted Overworld Encounters (Crystal Version). (Verified by Pokedex check at Turn 16958)
 - Sightings: Burned Tower (fled), Cianwood City (fled).
-- Next Target: Route 42 (Middle area near Apricorn trees).
+- Next Target: Route 42 (Middle area near Apricorn trees). (Confirmed by Pokedex)
 - Trigger: Walking to a specific tile on the middle island.
 - Failed Hypotheses:
   - Interaction with Apricorn trees triggers encounter. (1 attempt)
+  - Standing at (30, 16) or (28, 15) triggers encounter. (Failed)
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
