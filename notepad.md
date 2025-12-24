@@ -25,3 +25,6 @@
 - **Plan:** Navigate North through the gap at Column 16-18 to reach the Item Ball at `(13, 9)` and the Director at `(12, 8)`.
 - **Action (Turn 15079):** Battling Rocket Grunt (Weezing). Keeping Muscle in to use Dig (Super Effective).
 - **Plan:** Finish the battle, then proceed West past the Grunt into the central area.
+- **Observation (Turn 15092):** Defeated Grunt at `(9, 6)`. He is currently blocking the only known path South to the Director.
+- **Hypothesis:** Post-battle script should move him or he should disappear.
+- **Action:** Clearing text to trigger any scripts.
