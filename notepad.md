@@ -35,4 +35,4 @@
 # Items Received
 - Fire Stone: Route 36 (Alan).
 - Itemfinder: Ecruteak.
-- Rock Smash (Info): Route 36 (Fisher).
+- Rock Smash (Info): Route 36 (Fisher at 44, 9).
