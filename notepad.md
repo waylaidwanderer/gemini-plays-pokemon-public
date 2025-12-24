@@ -1,8 +1,8 @@
 # Suicune Quest (Crystal)
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (Current). Pokedex confirms location. Stagnated on island for 70+ turns; flying to Ecruteak to reset.
-- Milestone 4: Route 36 (Next). Strategy: Check the area near the Sudowoodo spot/Ruins of Alph entrance.
+- Milestone 3: Route 42 (Seen). Pokedex confirms completion.
+- Milestone 4: Route 36 (Current). Pokedex confirms location. Strategy: Check the area near the Sudowoodo spot/Ruins of Alph entrance.
 - Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
 
 # Tile Mechanics (Global)
