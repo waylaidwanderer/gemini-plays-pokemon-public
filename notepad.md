@@ -40,16 +40,18 @@
 
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
-- Current Location: Ecruteak City (4_9).
-- Goal: Check Tin Tower Entrance (37,7).
+- Current Location: Entering Tin Tower 1F.
+- Goal: Verify Suicune Spawn/Warp Activation after Map Reload.
 
 # Plan
-1. Navigate to Tin Tower Entrance at (37,7) (Corrected Path).
-2. Enter and check for Eusine/Sages.
-3. If empty, proceed to Tin Tower 1F via the path.
+1. Enter Tin Tower 1F.
+2. Check Suicune spawn at (9,9).
+3. Check Warp at (10,2) again.
+4. If still nothing, check Eusine elsewhere or research roaming.
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
+- Center Sage (Tin Tower 1F): Lore about Ho-Oh reviving the beasts.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
