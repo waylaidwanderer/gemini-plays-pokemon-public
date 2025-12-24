@@ -33,3 +33,10 @@
 
 ## Suicune Trigger Mechanics
 - Pokedex 'Area' tracks the current active overworld sighting location.
+
+# Items Received
+- Itemfinder: From Cooltrainer in Ecruteak Itemfinder House (Turn 17417).
+
+# Key Observations
+- History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
+- Burned Tower items: Cooltrainer mentioned hidden items in the Burned Tower.
