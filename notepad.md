@@ -37,3 +37,13 @@
 - Great Ball: 29. Main capture tool.
 - Pokeball: 2.
 - Super Repel: 7.
+## Reflection Lessons (Turn 15842)
+- Fly Menu Navigation: Fly map movement is not a simple coordinate grid; it's a linked list of cities. Moving "Up" cycles through the known locations.
+- Repel Trick Persistence: Repel effects persist across map transitions. Check effect status before using a new one to save money.
+- Roamer Movement: Roamers like Suicune only move when the player crosses a map boundary (Warp Carpet or Warp). Staying on the same map and pacing is the best way to force an encounter.
+
+## Error Analysis: Fly Map overshoot
+- Observation: Repeatedly failed to land on Mahogany Town by guessing directional inputs.
+- Root Hypothesis:fly map is a grid.
+- Conclusion: Hypothesis denied. It's a structured list.
+- Lesson: Move one step at a time and verify the destination name on screen.
