@@ -3,11 +3,14 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Explore 5F and reach the Director's Office (West side).
+- **Current Task:** Defeat Rocket Executive (Female) at (17, 2).
 
 ## Radio Tower Progress
 - **1F-4F:** Cleared.
-- **5F:** Just arrived via East stairs.
+- **5F:**
+  - Rocket Executive (Male) at (13, 5).
+  - Rocket Executive (Female) at (17, 2).
+  - Item Ball at (8, 5).
 
 ## Switch Room (3_54) Configuration
 - **S1 (16, 1):** ON (East Closed / West Open).
