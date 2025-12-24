@@ -1,4 +1,5 @@
 # Suicune Quest (Crystal)
+- Started: Turn 17252.
 - Current Step: Route 36 sighting (Verified via Pokedex Turn 17335).
 - Route 42 Sighting: Confirmed complete (Turn 17335).
 - Route 36 HOW: Approach the junction of Route 36 and 37 (near the former Sudowoodo spot) from the Violet City side.
