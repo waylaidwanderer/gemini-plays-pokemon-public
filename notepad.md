@@ -37,11 +37,6 @@
 - Step 3: Sweep remaining island floor tiles and mainland unseen tiles at (4, 14)-(7, 14).
 - Note: If this fails after a full sweep, I will move on to Route 44/Ice Path/Blackthorn City.
 
-# Verified Sprite Observations (Route 42)
-- Turn 17786: `run_code` confirmed no Suicune sprite is present on screen. Sighting is likely coordinate-triggered.
-- Reachable Unseen Tiles (via Mt. Mortar): (21, 4), (25, 5), (26, 5), (27, 5), (30, 4).
-- Reachable Unseen Tiles (Mainland West): (4, 14), (5, 14), (6, 14), (7, 14).
-
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL / HEADBUTT_TREE / ROCK / VOID / FLOOR_UP_WALL / WATER_ROCKS: Impassable.
@@ -51,6 +46,11 @@
 - LEDGE: One-way traversable (usually South).
 - WARP / DOOR / WARP_CARPET / CAVE: Map transition.
 - FRUIT_TREE: Impassable; interact to get fruit/apricorn.
+
+# Verified Sprite Observations (Route 42)
+- Turn 17786: `run_code` confirmed no Suicune sprite is present on screen. Sighting is likely coordinate-triggered.
+- Reachable Unseen Tiles (via Mt. Mortar): (21, 4), (25, 5), (26, 5), (27, 5), (30, 4).
+- Reachable Unseen Tiles (Mainland West): (4, 14), (5, 14), (6, 14), (7, 14).
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
