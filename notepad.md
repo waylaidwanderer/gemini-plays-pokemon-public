@@ -40,14 +40,13 @@
 
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
-- Current Location: Wise Trio Room (4_2).
-- Goal: Check Tin Tower Yard for Eusine.
+- Current Location: Ecruteak City (4_9).
+- Goal: Check Tin Tower Yard (Bell Chime Trail).
 
 # Plan
-1. Wise Trio Room is empty (Sages are gone).
-2. Exit to Tin Tower Yard via (7,4).
-3. Check for Eusine/Sages outside.
-4. If nothing, re-enter Tin Tower 1F.
+1. Navigate to Tin Tower Entrance at (37,7).
+2. Enter and check for Eusine/Sages.
+3. If empty, enter Tin Tower 1F again.
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
