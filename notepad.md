@@ -1,15 +1,21 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** Testing ledges at Row 18.
-- **Hypothesis:** `FLOOR_UP_WALL` tiles at Row 18 are jumpable ledges. Previous attempt at x=7 failed, possibly due to alignment or tile specifics. Testing x=8, 9, 10.
-- **Plan:**
-  1. Move to (8, 17).
-  2. Press Down.
-  3. If successful, proceed South to Row 22 and West to x=0.
-  4. If fail, move to (9, 17) and retry.
-- **Items:**
-  - Item Ball at (32, 23).
-  - Item Ball at (35, 9).
+
+# Ice Path Strategy
+- **Primary Goal:** Reach Blackthorn City.
+- **Status:** At (13, 17). Start of Ice Puzzle.
+- **Ledge Mystery:** `FLOOR_UP_WALL` tiles at (20, 24) and (7, 18) blocked movement. I suspect they are South-facing ledges, but my jump attempts failed. I will try one more time at (14, 22) with precise inputs.
+- **Plan A (South):** Solve Ice Puzzle to reach (14, 22) and jump.
+  - Path: Right -> Down -> Left -> Down (slide) -> Down (jump).
+- **Plan B (North-East):** If South fails, re-explore the North-East loop (Row 12).
+  - Investigating (25, 11) and potential ledge/ladder access.
+- **Items:** Item Balls at (32, 23) and (35, 9).
+
+# Key Log
+- **Turn 16364:** Failed to move West. Reset to (13, 17).
+- **Turn 16361:** Hallucinated jumping ledge at (14, 22). Reality: Stuck at (14, 21).
+- **Turn 16342:** Reached dead end at (25, 12).
+- **Turn 16328:** Entered Ice Path.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
