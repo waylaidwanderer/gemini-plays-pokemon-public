@@ -8,7 +8,6 @@
 ## Strategy for Route 42 Sighting:
 - Priority 1: Western Pocket (Rows 1-2, X=7-11). Access via Mt. Mortar entrance (10, 5).
 - Priority 2: Middle Island (X=24-30, Y=14-17). Approach from all sides.
-- Status: Island sweeps (multiple) failed. Pokedex AREA map confirms Suicune is on Route 42. Pivoting to explore the Western Pocket (Rows 1-2, X=7-11) via Mt. Mortar (10, 5).
 - Hypothesis: Suicune is in the hidden pocket reachable only through the western Mt. Mortar entrance.
 - Test 1: Navigate through Mt. Mortar (10, 5) to see if it exits into the Western Pocket.
 - Goal: Locate Suicune trigger at (8, 1) or (11, 1).
@@ -41,8 +40,12 @@
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
 - Clear Bell: Obtained.
 
+# General Lessons
+- Island Sighting: Multiple exhaustive sweeps of the island center (X=24-30, Y=14-17) failed to trigger Suicune. Do not waste more turns here unless a new lead appears.
+- Route 42 Navigation: The island center is accessible via (24, 13) after using CUT. To get off, use the same path.
+- Suicune Tracking: The Pokedex AREA map is the most reliable source for Suicune's current route.
+
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Island Sweep Attempts: 17968, 17985, 18002, 18021.
-- Pivot to Western Pocket: Turn 18071.
-- Catching Goldeen: Started Turn 18083.
+- Island Sweep Attempts: 17968, 17985, 18002, 18021, 18120.
+- Pivot to Western Pocket: Turn 18122.
