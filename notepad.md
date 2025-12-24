@@ -23,4 +23,4 @@
 
 # Shop Inventories
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
-- **Dialogue:** Sage at Barrier Station: "A momentous event has occurred. I beg your pardon, but I must ask you to leave."
+- **Dialogue:** Sage at Barrier Station: Initially asked to leave, then heard Clear Bell. Said "You may be able to make it through TIN TOWER. Please, do go on."
