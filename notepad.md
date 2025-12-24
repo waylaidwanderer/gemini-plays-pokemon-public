@@ -47,3 +47,16 @@
 - Test find_path_v2 fix.
 - Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
+
+# PC Storage (Box 1)
+- VORTEX (Poliwag): Lv22, Male. Caught Turn 16443.
+- INTERCEPT (Yanma): Lv12, Female.
+- ROCKY (Onix): Lv6, Male.
+- EGG (Cleffa): Lv5, Female.
+- XFDW (Meowth): Lv16, Male.
+- FRITTATA (Togepi): Lv5, Male.
+- SHUCKIE (Shuckle): Lv15, Female.
+- Blarney (Sudowoodo): Lv20, Male.
+
+# Exploration Targets
+- Explore unseen tiles on Route 44 (e.g., (51, 12), (33, 15), (24, 17)).
