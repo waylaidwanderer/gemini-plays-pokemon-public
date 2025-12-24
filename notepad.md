@@ -26,7 +26,7 @@
 - Suicune is a roamer. Use roamer_tracker_v2 to intercept.
 - Objective: Reach Lv27 with XENON (Gastly) for Repel Trick.
 - Lead: XENON (Gastly). Method: Mean Look (Turn 1) + Hypnosis.
-- Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084).
+- Progress: XENON Lv20. Need 159 EXP for Lv21 (5925/6084). (Turn 16517)
 - Note: XENON learns Night Shade at Lv21.
 - Training Spot: Route 44 grass island (Start: Turn 16423).
 
