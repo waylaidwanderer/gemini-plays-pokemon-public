@@ -2,10 +2,10 @@
 - **Current State:** At Ice Path B1F (7, 9).
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
-- **Status:** Player at (12, 8) (In Battle). B1 at (10, 1).
+- **Status:** Player at (12, 8). Resuming Flank.
 - **Goal:** Reach (9, 1) to push B1 Right.
 - **Flank Route:**
-  1. **South:** `(12, 8)` -> `(12, 16)`.
+  1. **South:** `(12, 8)` -> `(12, 11)` -> `(13, 11)` -> `(13, 14)` -> `(12, 16)`. (Avoiding Pit at 12, 13).
   2. **West:** `(12, 16)` -> `(5, 16)`.
   3. **North:** `(5, 16)` -> `(5, 1)`.
   4. **East:** `(5, 1)` -> `(9, 1)`.
@@ -13,7 +13,7 @@
   1. Push Right: `(10, 1)` -> `(11, 1)`.
   2. Reposition to `(11, 0)`.
   3. Push Down to Pit `(11, 2)`.
-- **Next Step:** Flee, then Continue South to (12, 16).
+- **Next Step:** Navigate South to (12, 16).
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
