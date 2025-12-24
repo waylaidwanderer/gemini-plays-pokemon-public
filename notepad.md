@@ -49,3 +49,7 @@
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Island Sweep Attempts: 17968, 17985, 18002, 18021, 18120.
 - Pivot to Western Pocket: Turn 18122.
+
+# Battle Mechanics & Type Effectiveness
+- Normal-type Pokémon (e.g. RATICATE) are immune to Ghost-type moves (e.g. LICK, NIGHT SHADE). Verified Turn 18137.
+- Ghost-type moves do not affect Normal-type Pokémon.
