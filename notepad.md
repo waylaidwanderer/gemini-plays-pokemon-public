@@ -6,10 +6,6 @@
 - **CRITICAL**: Suicune CANNOT be caught during these scripted encounters. It will always flee. It can only be caught at the Tin Tower later. Do not waste Great Balls yet.
 - Current Target: Trigger Route 42 encounter (Middle island).
 
-## Repel Trick Execution Plan (Post-Tin Tower)
-- Lead PKMN must be Lv18 on Route 42 to block Lv13-17 wilds. (Suicune is Lv40).
-- Only applicable once Suicune begins roaming.
-
 ## Battle Tactics: Suicune (Lv40)
 - Moveset: Gust, Leer, Bubblebeam, Rain Dance. (Does NOT know Roar).
 - Strategy: Mean Look on Turn 1 to trap. Hypnosis to induce sleep.
