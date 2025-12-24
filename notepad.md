@@ -8,12 +8,14 @@
 - FRUIT_TREE: Impassable, gives items.
 - LEDGE_HOP: One-way movement.
 - FLOOR_UP_WALL: One-way barrier (Southward).
-- WARP: Map transition.
+- WARP / DOOR / WARP_CARPET: Map transition.
+- COUNTER: Impassable. Interact with NPCs behind them by facing the counter tile and pressing A.
 
 # Suicune Quest (Crystal)
 - Prerequisites: Sightings at Burned Tower, Cianwood, Route 42 (Done).
 - Current Step: Trigger final sighting on Route 36. Starting Turn 17135.
-- Trigger Hypothesis: Approach intersection near Sudowoodo spot (35, 9) from the North entrance (Route 37 path).
+- Trigger Hypothesis: Approach intersection near Sudowoodo spot (35, 9) from the SOUTH (Ruins of Alph side).
+- Status: In gatehouse (10_16) at (4, 1). Moving South to Ruins of Alph.
 - Tin Tower Battle: Suicune Lv40. Does not flee. Use Hypnosis (XENON).
 
 # Sage Lore (Tin Tower 1F)
