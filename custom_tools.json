@@ -259,7 +259,7 @@
     ]
   },
   "battle_grind": {
-    "description": "Selects a move from the battle move menu (assuming it starts at the top move) and clears subsequent text boxes. Assumes the move menu is already open.",
+    "description": "Selects a move from the battle move menu and clears subsequent text boxes. Assumes the move menu is already open and the cursor is at the first move.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -272,7 +272,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nmove_index = int(input_data.get(\"move_index\", 0))\nbuttons = []\nfor _ in range(move_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 250\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 800\")\nfor _ in range(16):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 400\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 800\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -318,6 +318,11 @@
         "commit_message": "Simplify battle_grind script: remove main function to avoid scoping issues.",
         "timestamp": "2025-12-24T05:11:39.789Z",
         "action_counter": 16369
+      },
+      {
+        "commit_message": "Fix battle_grind: Ensure input_data is correctly handled and script prints valid JSON.",
+        "timestamp": "2025-12-24T05:13:02.293Z",
+        "action_counter": 16370
       }
     ]
   },

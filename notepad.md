@@ -40,7 +40,7 @@
 
 ## Future Tasks
 - Reach Lv27 with XENON (Gastly) to enable Repel Trick.
-- Intercept Suicune on Route 44 (or current location) using Mean Look + Hypnosis.
+- Intercept Suicune using roamer_tracker_v2 (once XENON is Lv27).
 - Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
