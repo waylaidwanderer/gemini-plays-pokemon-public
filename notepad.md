@@ -45,7 +45,7 @@
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
 - **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
 - **Plan:** Take the ladder at (17,15).
-- **Status:** Spoke to Sage (Gatekeeper) at (4,6). He said "Please, do go on." Event likely reset.
-- **Action:** Returning to Tin Tower.
-- **Path:** Ladder (5,3) -> Right Side (17,15) -> Ladder (17,3) -> Wise Trio Room (4_2) -> Tin Tower Yard -> Tin Tower.
-- **Goal:** Check if Warp (10,2) is active or Wise Trio battles trigger.
+- **Status:** Permission Granted ("Please, do go on.").
+- **Action:** Returning to Tin Tower to face Suicune.
+- **Path:** Ladder (5,3) -> Barrier Station Right (17,15) -> Ladder (17,3) -> Wise Trio Room (4_2) -> Yard -> Tin Tower.
+- **Expectation:** Warp (10,2) in Tin Tower should now be active, or Sages will battle.
