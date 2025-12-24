@@ -3,14 +3,14 @@
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
 - **Puzzle Logic (Updated):**
-  - **B3** at (9, 11). **B1** at (11, 7).
+  - **B3** at (9, 11). **B1** at (11, 8).
   - **Plan:**
-    1. Navigate (9, 9) -> West Loop -> North Row 1 -> East Side -> (11, 6).
-    2. Push **B1** Down to (11, 8).
-    3. **Route:** Walk East to (12, 8), then South down Col 12 to South Room.
+    1. **Execute:** Push **B1** Down to (11, 8).
+    2. **Route:** From (11, 7), walk East to (12, 7), then South down Col 12 to (12, 12).
+    3. **Avoid Pit:** At (12, 12), go East to (13, 12), then South into South Room.
     4. **B3 Finish:** From South Room, approach B3 at (9, 11) from the East (10, 11).
     5. Push B3 Left to (4, 11), Down to (4, 12), Right to **Pit (5, 12)**.
-- **Next Step:** Navigate to (11, 6) (Long path).
+- **Next Step:** Walk East to (12, 7), then South.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
