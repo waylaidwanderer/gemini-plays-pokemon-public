@@ -19,7 +19,7 @@
 # Tile Mechanics
 - **FLOOR:** Standard walkable tile.
 - **WALL:** Impassable obstacle.
-- **WARP_CARPET_DOWN:** Walk down to exit map.
+- **WARP_CARPET_DOWN/RIGHT:** Walk direction to exit map.
 - **LEDGE_HOP_DOWN:** One-way jump down.
 - **STAIRS/LADDER:** Transition to different floor/area.
 - **WATER:** Requires SURF to traverse.
@@ -27,12 +27,10 @@
 # Key Items & Status
 - **Clear Bell:** In possession.
 - **Badges:** 7 obtained.
-- **Party:** Gyarados, Quilava, Poliwag, Pidgey, Machoke, Drowzee.
+- **Party:** Gyarados, Quilava, Poliwag, Pidgey, Machoke, Oddish (Cut).
 
 # Log (Condensed)
 - **Burned Tower:** Checked 1F & B1F. Empty. No Eusine.
 - **Barrier Station:** Wise Trio Room empty. Ladder logic verified.
 - **Tin Tower:** 1F Sages generic. Warp inactive.
 - **Dance Theater:** Investigating "Surf/Dance" clue (likely flavor).
-- PC Location Correction: Player PC is at (9,1), accessible from (9,2).
-- Party Swap Plan: Deposit Drowzee (Lucid), Withdraw Oddish (Belladonna) for Cut.
