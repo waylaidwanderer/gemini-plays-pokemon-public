@@ -1,13 +1,13 @@
 # Tile Mechanics (Global)
-- FLOOR: This tile can be traversed in all directions. Verified by walking.
-- WALL: This tile is impassable. Solid obstacle. Verified by walking into it.
-- TALL_GRASS: This tile can be traversed. Triggers wild encounters. Verified by walking and encountering Pokémon.
-- WATER: This tile is impassable without Surf. It can be traversed with Surf. Verified by attempting to walk onto it.
-- HEADBUTT_TREE: This tile is impassable. It interacts with the Headbutt move. Verified by walking into it.
-- CUT_TREE: This tile is impassable. It requires the Cut move to clear. Verified by walking into it.
-- LEDGE_HOP_LEFT: This tile can only be traversed by hopping over it from East to West. It is a one-way ledge. Verified by hopping over it.
-- FLOOR_UP_WALL: This tile is a one-way barrier (Southward). It can be passed from North to South, but is impassable from the South. Verified by attempting to walk North into it.
-- WARP / CAVE / WARP_CARPET: These tiles are map transition points. They can be traversed to move between different maps. Verified by usage.
+- FLOOR: Traversable in all directions.
+- WALL: Impassable solid obstacle.
+- TALL_GRASS: Traversable. Triggers wild encounters.
+- WATER: Impassable without Surf. Traversable with Surf.
+- HEADBUTT_TREE: Impassable. Interacts with Headbutt move.
+- CUT_TREE: Impassable. Requires Cut move to clear.
+- LEDGE_HOP_LEFT: One-way ledge (East to West).
+- FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South.
+- WARP / CAVE / WARP_CARPET: Map transition points.
 
 # Item Usage Tracking
 - Super Repel: Activated Turn 16851. Steps taken: 80. Steps remaining: 120.
@@ -30,7 +30,7 @@
 - Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
 - Level Targets: Lv21 (Route 42/43), Lv27 (Route 44).
 - Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
-- Cycling Start: Turn 16587 (Wednesday, Dec 24, 2025).
+- Hunt Start Turn: 16587 (Wednesday, Dec 24, 2025).
 - Current Attempt: Suicune confirmed on Route 42. Leading with XENON (Lv21).
 
 # PC Storage (Box 1)
