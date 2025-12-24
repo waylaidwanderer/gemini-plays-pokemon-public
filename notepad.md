@@ -3,8 +3,8 @@
 ## Current Status
 - **Location:** Radio Tower 4F (3_20).
 - **Objective:** Exit Radio Tower.
-- **Current Task:** Navigate to 2F stairs at (0, 0).
-- **Recent Events:** Defeated Executives. Received Clear Bell. Discovered "Growlithe" is Meowth.
+- **Current Task:** Navigate to 1F stairs at (15, 0).
+- **Recent Events:** Defeated Executives. Received Clear Bell. On the way out.
 - **Lore:** Clear Bell is key to Tin Tower.
 - **Next:** Exit Radio Tower.
 
