@@ -89,3 +89,6 @@
 - **Plan:** Navigate East along the southern corridor (Row 12) to find a path looping North into the central area.
 - **Observation (Turn 15052):** Spotted another Rocket Grunt at `(8, 15)` facing UP. He guards the corridor at x=8.
 - **Plan:** Engage the Rocket Grunt to clear the path East.
+- **Observation (Turn 15065):** Confirmed gap in the wall at x=16 (Row 11).
+- **Observation:** Spotted another Item Ball at `(18, 15)` in the southeast corner.
+- **Plan:** Navigate to `(16, 12)`, then go South to pick up Item at `(18, 15)`, then North to the Director.
