@@ -8,7 +8,7 @@
 ## Strategy for Route 42 Sighting:
 - Priority 1: Western Pocket (Rows 1-2, X=7-11). Access via Mt. Mortar entrance (10, 5).
 - Priority 2: Middle Island (X=24-30, Y=14-17). Approach from all sides.
-- Status: Island sweep (multiple passes) failed. Moving to Western Pocket.
+- Status: Re-attempting island sweep at (26, 14) based on Suicune Tracker's expert advice. Will check Western Pocket if this fails.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
