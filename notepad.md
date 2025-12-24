@@ -1,10 +1,10 @@
 # Ice Path Strategy
 - **Current Action:** Navigating East-Central Winding Path.
-- **Goal:** Follow the corridor West from (26, 12) to find a Ladder to B1F.
+- **Goal:** Follow the corridor West via Row 14 to find a Ladder to B1F.
 - **Reasoning:**
-  - North path (Row 10) is blocked by ledges (one-way South).
-  - East path (x=31) is a solid wall.
-  - West path (Row 14/13) is the only open route.
+  - Direct South from (26, 12) is blocked by wall at (26, 13).
+  - Must detour East to (27, 12) -> South to (27, 14) to bypass wall.
+  - Path continues West along Row 14.
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7).
 
 # Mechanics & Lessons
