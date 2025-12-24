@@ -87,3 +87,5 @@
 - **Plan:** Continue South to find a way around the wall to reach them.
 - **Observation (Turn 15051):** Direct access to the Rocket `(9, 8)` and Director `(12, 8)` is blocked by walls at x=8 and y=11.
 - **Plan:** Navigate East along the southern corridor (Row 12) to find a path looping North into the central area.
+- **Observation (Turn 15052):** Spotted another Rocket Grunt at `(8, 15)` facing UP. He guards the corridor at x=8.
+- **Plan:** Engage the Rocket Grunt to clear the path East.
