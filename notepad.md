@@ -2,15 +2,13 @@
 - **Current State:** At Ice Path B1F (7, 9).
 - **Goal:** Clear the Boulder blockade at (x=7-9, y=8-10) to access the South Room.
 - **Status:** STRENGTH Active. Text box open.
-- **Status:** B1 stuck at (12, 5). Cannot reach target Pit (12, 13) due to wall at (12, 6).
-- **Error:** Pushed B1 Up instead of Right.
-- **Action:** Reset Room via Ladder (17, 3).
-- **Corrected Plan (Next Run):**
-  1. **B1:** (11, 7) -> Push Right to (12, 7) -> Down to Pit (12, 13).
-  2. **B4:** (17, 7) -> Left to (12, 7) -> Up to (12, 2) -> Left to Pit (11, 2).
-  3. **B2:** (7, 8) -> Left to (5, 8) -> Up to (5, 6) -> Left -> Down to Pit (4, 7).
-  4. **B3:** (9, 11) -> Down -> Left -> Down -> Right to Pit (5, 12).
-- **Next Step:** Navigate to Ladder (17, 3) via Row 1.
+- **Status:** Resetting Puzzle. On B2F (17, 1).
+- **Strategy (Optimized):**
+  1. **B1 (Target Pit 11, 2):** (11, 7) -> Up to (11, 5) -> Right to (13, 5) -> Up to (13, 4) -> Left to (12, 4) -> Up to (12, 3) -> Up to (12, 1) -> Left to (11, 1) -> Down to Pit (11, 2).
+  2. **B4 (Target Pit 12, 13):** (17, 7) -> Left to (15, 7) -> Down to (15, 14) -> Left to (12, 13). (Verify path).
+  3. **B2 (Target Pit 4, 7):** (7, 8) -> Left to (5, 8) -> Up to (5, 6) -> Left -> Down to Pit (4, 7).
+  4. **B3 (Target Pit 5, 12):** (9, 11) -> Down to (9, 12) -> Left -> Down -> Right to Pit (5, 12).
+- **Next Step:** Return to B1F via Ladder. Execute B1 Plan.
 
 # Map Structure
 - **B1F Room:** Large Puzzle Room.
