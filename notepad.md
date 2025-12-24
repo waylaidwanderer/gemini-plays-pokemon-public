@@ -15,3 +15,6 @@
 - **BOOKSHELF:** Impassable. Interact for flavor text.
 - **TV/PC:** Impassable. Interact for flavor text/storage.
 - **WARP_CARPET_DOWN:** Traversable. Exits map.
+
+# Shop Inventories
+- **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
