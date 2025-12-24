@@ -25,7 +25,7 @@
 - Step 1: Travel to (28, 10) and check for Suicune. [DONE]
 - Result: Warped into Mt. Mortar (3_57) at (17, 33). Suicune not seen.
 - Hypothesis 26: Suicune moved because of the map change (warping into Mt. Mortar).
-- Step 1: Check Pokedex to confirm current location.
+- Step 1: Check Pokedex to confirm current location. [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
