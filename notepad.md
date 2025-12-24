@@ -9,37 +9,22 @@
 - **Status:** Shortcut at (19, 23) leads to Entrance (14, 16), not Puzzle.
 
 # Ice Path Strategy
-- **Current Action:** Accessing South-West Area (Shortcut).
-- **Goal:** Find Ladder to B1F.
-- **Location:** At `(14, 21)` (approx).
-- **Shortcut Plan:**
-  1. Slide **Left** from `(19, 21)` to `(14, 21)` (Wall at `13, 21`). [DONE]
-  2. Slide **Up** from `(14, 21)`. [DONE]
-  3. Stop at `(14, 16)` (Wall at `14, 15` Confirmed). [DONE]
-  4. Step **Left** to `(13, 16)` -> Walk West -> Jump Ledges South. [NEXT]
-- **Items:** Item Balls at `(32, 23)`, `(35, 9)` [Inaccessible].
+- **Current Action:** Returning to Hub to access SE Area.
+- **Goal:** Reach Floor at (20, 23) and explore South.
+- **Route:**
+  1. Slide **Right** from (14, 17) to (15, 17).
+  2. Slide **Down** to (15, 21).
+  3. Slide **Right** to (19, 21).
+  4. Slide **Down** to (19, 23).
+  5. Step **Right** to (20, 23) [Target].
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable from South, jumpable from North.
+- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls. `LEDGE_HOP_DOWN` are jumpable ledges.
 
 # Map Structure
 - **West:** Ice Room (Puzzle solved).
 - **Center:** Hub.
 - **East:** Winding corridors.
-- **South:** Unexplored SW area.
-  7. Slide **Right** -> (19, 21).
-  8. Slide **Down** -> (19, 23).
-  9. Slide **Right** -> (20, 23) [Back at Hub].
-  10. Walk to (15, 14) via East Corridors.
+- **South:** Unexplored SE area (Access via Hub).
 - **Items:** Item Balls at (32, 23), (35, 9).
-
-# Mechanics & Lessons
-- **Ice Physics:** Sliding continues until collision.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls.
-
-# Map Structure
-- **West:** Ice Room (Puzzle solved).
-- **Center:** Hub.
-- **East:** Winding corridors.
-- **South:** Unexplored SW area.
