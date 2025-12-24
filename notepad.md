@@ -9,10 +9,11 @@
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees on the island. FAILED.
 - Step 3: Sweep remaining island floor tiles. [DONE]
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
-- Step 4: Explore western mainland path at (4, 14)-(7, 14). [In Progress]
+- Step 4: Explore western mainland path at (1, 8)-(3, 10). [In Progress]
 - Hypothesis 29: Trigger is on the western mainland path near Ecruteak entrance.
 - Note: If Route 42 is not cleared by Turn 17900, pivot to Route 44/Blackthorn.
-- Note: If mainland fails, try Hypothesis 30: Land on island's southern tip from water.
+- Hypothesis 30: Trigger is on a high ledge reachable only via Mt. Mortar (10, 5).
+- Hypothesis 31: Trigger is in the southern water or southern island edge (unseen).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
