@@ -20,3 +20,6 @@
 - Navigation Note: To exit Tin Tower area, go DOWN to (37,9) first, then navigate the maze:
   (34,9) -> Up to (34,7) -> Left to (32,7) -> Up to (32,5) -> Left to (28,5) -> Up to (28,3) -> Left to Exit.
 - Current Goal: Find Eusine in Barrier Station (City Side) or Ecruteak City to trigger Suicune event.
+- Location: Barrier Station (City Side).
+- Action: Interacting with Sage at (4,6).
+- Target: Find Eusine.
