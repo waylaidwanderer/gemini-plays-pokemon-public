@@ -45,3 +45,6 @@
 
 # Battle Mechanics & Type Effectiveness
 - Normal-type Pokémon (e.g. RATICATE) are immune to Ghost-type moves (e.g. LICK, NIGHT SHADE). Verified Turn 18137.
+
+# General Lessons
+- Surfing: Moving from a WATER tile onto a FLOOR tile automatically stops SURF. To continue traveling across water, you must re-initiate SURF from the edge. Verified Turn 18174.
