@@ -14,16 +14,18 @@
   - **B3:** (9, 11).
   - **B4:** (17, 7).
 
-## Master Plan (Revised - Center-South Loop)
-1.  **Goal:** Reach (11, 8) to push B1 UP.
-2.  **Path:**
-    - **Step 1-3:** Navigate South past B3 (Completed). B3 likely pushed to (9, 13).
-    - **Step 4:** Go South/East: (10, 16) -> (17, 16).
-    - **Step 5:** Go North/West: (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
-    - *Note:* Previous blockage reported at (16, 14). If blocked, backtrack to North Loop.
-3.  **Solve B1:**
-    - Push Up to (11, 5).
-    - Go to (10, 5). Push Right to (12, 5).
-    - Go to (12, 6). Push Up to (12, 1).
-    - Go to (13, 1). Push Left to (11, 1).
-    - Go to (11, 0). Push Down to (11, 2) (PIT).
+## Master Plan (Verified)
+1.  **Push B1 Up to (11, 5):**
+    - From (11, 8), push Up x2 (move, then push again).
+    - B1 ends at (11, 5).
+2.  **Go around to (12, 5):**
+    - Path: (11, 6) -> (10, 6) -> (10, 1) -> (12, 1) -> (12, 5).
+3.  **Push B1 Left to (10, 5):**
+    - From (12, 5), push Left.
+4.  **Push B1 Up to (10, 1):**
+    - From (10, 6), push Up.
+5.  **Push B1 Right to (11, 1):**
+    - From (9, 1), push Right.
+6.  **Push B1 Down to Pit (11, 2):**
+    - From (11, 0), push Down.
+7.  **Next:** Solve B2.
