@@ -5,6 +5,9 @@
 - CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded (e.g., entering/exiting Mount Mortar).
 - LEDGE: One-way jump (usually South). Cannot be jumped from below.
 - FLOOR_UP_WALL: One-way barrier. Cannot be entered from below. Verified at (50, 14).
+- TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12).
+- CAVE: Warp tile leading to internal maps. Verified at (10, 5).
+- WARP_CARPET_LEFT / WARP_CARPET_RIGHT: Map transition tiles. Verified at (0, 8) and (60, 7).
 
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
