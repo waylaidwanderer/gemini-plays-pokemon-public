@@ -10,7 +10,7 @@
 - WARP / CAVE / WARP_CARPET: These tiles are map transition points. They can be traversed to move between different maps. Verified by usage.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16822. Steps taken: 0. Steps remaining: 200.
+- Super Repel: Activated Turn 16822. Steps taken: 10. Steps remaining: 190.
 
 # Lessons Learned
 - Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
