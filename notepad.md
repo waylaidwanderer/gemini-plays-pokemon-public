@@ -35,5 +35,6 @@
 - **Tin Tower:** 1F Sages generic. Warp inactive.
 - **Turn 16157:** Started Suicune search on Route 42.
 - **Route 42 Grove:** Suicune is NOT here.
-- **Turn 16209:** Navigating Route 42 East. Potentially Reachable Unseen Tiles detected East (58,12).
-- **Next Step:** Check Pokedex Area for Suicune (#245) once safe in Mahogany.
+- **Suicune Status:** NOT registered as 'Seen' in Pokedex (Search for Water type yielded only Poliwag & Gyarados). Cannot track via Area.
+- **Hypothesis:** Whiting out against Suicune might have prevented the 'Seen' flag from setting, or the event logic is unique.
+- **Current Plan:** Proceed to Blackthorn City. The Suicune questline may continue later or require a different trigger.
