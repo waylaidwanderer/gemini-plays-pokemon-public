@@ -60,3 +60,5 @@
 - **Action:** Inspecting North Wall at (10,4) again.
 - **Reasoning:** I checked this BEFORE talking to the Wandering Sage who confirmed the "shake". The shake likely removed a wall tile here to allow entry to the center room.
 - **Plan:** Walk into (10,4). If open, find Suicune. If closed, check side walls.
+- **Action:** Walking into the wall at (10,4).
+- **Hypothesis:** The "shaking" removed this wall tile, opening the path to Suicune.
