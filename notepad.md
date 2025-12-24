@@ -13,12 +13,11 @@
 - Navigation attempt to mainland (X=12, Y=8) via navigate_menu_v2 failed; cliff at (19, 10) blocks water entry from (20, 10). [Turn 17870-17871].
 - Accidental warp into Mt. Mortar middle entrance at (28, 9) on Route 42. [Turn 17872].
 - Exited Mt. Mortar middle entrance at (28, 9). [Turn 17875].
-- Hypothesis 37: Suicune trigger is on the northern path near Mt. Mortar (X=21-33, Y=4-8).
+- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south. [Failed - Turn 17876].
 
 ## Current Hypothesis Testing (Route 42)
 - Hypothesis 34: Trigger is on the western mainland path (X=4-12, Y=8-13). [In Progress]
 - Hypothesis 35: Landing trigger on southern island bank (X=24-32, Y=15).
-- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south. [Failed - Turn 17876].
 - Hypothesis 37: Suicune trigger is on the northern path near Mt. Mortar (X=21-33, Y=4-8). [In Progress]
 
 # Tile Mechanics (Global)
@@ -48,10 +47,10 @@
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Mt. Mortar B1F Exploration: Started Turn 17881.
-- Plan: Surf East and North in MountMortarB1F to find an exit or path to the northern corridor of Route 42. account for movement redirection if encountered on water.
-- Observation: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with multiple blinking dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower). This confirms the standard Crystal scripted sequence is active and Suicune is currently expected on Route 42.
+- Plan: Surf East and North in MountMortarB1F to find an exit or path to the northern corridor of Route 42. Account for movement redirection if encountered on water.
+- Observation: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with multiple blinking dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower).
 - Observed strange movement redirection in MountMortarB1F:
   - Action 'Up' at (20, 28) moved player 'Right' to (21, 28).
   - Action 'Right' at (21, 27) moved player 'Down' to (21, 28).
   - Action 'Up' at (21, 28) successfully moved player 'Up' to (21, 27).
-  - Hypothesis: FLOOR_UP_WALL tiles or specific boundaries in this area may redirect movement. Testing 'Up' at (21, 28) to reach item at (21, 26).
+  - Hypothesis: FLOOR_UP_WALL tiles or specific boundaries in this area may redirect movement.
