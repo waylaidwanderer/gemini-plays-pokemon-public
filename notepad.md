@@ -54,8 +54,7 @@
 - **Plan:** Return to the warp at (10,2) and inspect it. If that fails, check the Left Sage again.
 - **Hypothesis Update:** The warp at (10,2) likely leads to 2F, allowing access to the center of 1F via a drop or stairs.
 - **Action:** Inspecting (10,2) and re-entering it to trigger the warp.
-- **Correction:** There are THREE Sages. I missed the one at (11,11).
-- **Plan:** Navigate to (11,11) to speak to the third Sage.
-- **Hypothesis:** Speaking to (or battling) all three Sages is the key.
-- **Lore Update:** Sage at (11,11) confirms the three nameless Pokémon perished in the fire and were reborn as Suicune, Entei, and Raikou by Ho-Oh.
-- **Action:** Retrying the warp at (10,2). The Mental Map XML flags it as `is-warp="true"`, so it MUST be functional. I likely missed the tile or hallucinated the failure.
+- **Lore Complete:** Spoke to all three Sages ((5,9), (14,6), (11,11)). They confirmed the legend of the 3 beasts and Ho-Oh.
+- **Problem:** Warp at (10,2) did not trigger on first pass.
+- **Action:** Stepping off and back onto the warp (Down -> Up) to attempt to trigger it again.
+- **Hypothesis:** It works like a teleporter or I experienced a glitch/lag. Re-entry should fix it.
