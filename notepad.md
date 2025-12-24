@@ -3,7 +3,7 @@
 
 # Current Objectives
 - **Location:** Ecruteak City.
-- **Immediate:** Enter Barrier Station to Tin Tower.
+- **Immediate:** Cross Barrier Station to Bellchime Trail.
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
