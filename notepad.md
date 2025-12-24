@@ -1,14 +1,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Escaping to (13, 16) to reset.
-- **Hypothesis:** The correct path is **Sliding UP from (15, 17)**.
-  - Previous attempts focused on South/East.
-  - The "Box" loop at the start might have an exit Upwards that I missed.
+- **Status:** Escaping Ice Trap to (13, 16).
+- **Critical Correction:** I hallucinated testing the ledge at (8, 18). I only tested (7, 18).
+- **New Hypothesis:** One of the `FLOOR_UP_WALL` tiles at Row 18 (x=8, 9, 10, 11, 12) is the correct path (a jumpable ledge). (7, 18) was a wall, but others might differ.
 - **Plan:**
-  1. Navigate to (13, 16) (Start).
-  2. Heal Gyarados.
-  3. Start Puzzle: (13, 17) -> Right to (15, 17).
-  4. **Action:** Slide UP from (15, 17).
+  1. Escape to (13, 16).
+  2. **HEAL GYARADOS**.
+  3. Walk to (8, 17) and test ledge (8, 18).
+  4. If fail, test (9, 18), etc.
+- **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
