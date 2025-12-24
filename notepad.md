@@ -8,7 +8,7 @@
     1. Suicune is now roaming (check Pokedex).
     2. Event is failed/complete (check Wise Trio for dialogue change).
 - **Observation:** Pokedex search for "Water" found only Poliwag and Gyarados. Suicune is NOT registered as "Seen" or is not in the search results.
-- **Inference:** Suicune is likely NOT roaming (or I can't track it).
+- **Inference:** Suicune is NOT roaming.
 - **Hypothesis:** 
     1. I must use the **Clear Bell** manually at the spawn point (9,9).
     2. I must speak to the **Wise Trio** (Barrier Station) or **Eusine** to reset the event.
