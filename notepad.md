@@ -23,14 +23,14 @@
 - Paralysis: Reduces Speed by 75%, 25% chance to fail move.
 
 # Suicune Capture Strategy
-- **Status**: Roaming. Last confirmed on Route 44 (Turn 16084).
-- **Lead**: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
-- **Trapper Strategy**:
+- Status: Roaming. Last confirmed on Route 44.
+- Lead: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
+- Strategy:
   - Mean Look on Turn 1 is mandatory.
   - Repel Trick: Lead level must be > area wild max (Lv26 on Route 44) but < roamer level (Lv40). Target: Lv27+.
   - If Mean Look fails: Track via Pokedex and re-intercept.
   - Priority Item: Quick Claw.
-- **Backup Plan**:
+- Backup Plan:
   - If XENON fails, switch to Calcifer (Lv45) to tank. Use Ultra/Great Balls.
   - Long-term: Find a second trapping Pokemon.
 
