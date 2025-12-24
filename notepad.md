@@ -39,3 +39,6 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
+- **Action:** Using Clear Bell from Inventory.
+- **Reasoning:** Warps are inactive, stairs are missing. Sages mentioned the bell. Maybe using it activates the tower events.
+- **Location:** Tin Tower 1F (3,1).
