@@ -23,7 +23,7 @@
 ## Repel Trick Active Hunt (Started Turn 15841)
 - Lead: XENON (Gastly, Lv18).
 - Location: Route 42 Grass (50, 12).
-- Status: Suicune confirmed on Route 42 (Turn 15830).
+- Status: Suicune confirmed on Route 42 (Turn 15858).
 - Super Repel: Active (Turn 15839).
 - Step 1: Pace in grass at (50, 12) <-> (51, 12) using wild_encounter_looper.
 - Step 2: Turn 1 of battle: MEAN LOOK.
