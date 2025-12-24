@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress). Current Status: Roaming (Pokedex verified).
+- Milestone 3: Route 42 (Encountered - Roaming). Currently in battle! Goal: Use Mean Look.
 
 ## Strategy for Route 42
 Patrol the tall grass on the east side (X=46-53, Y=12-13) to encounter roaming Suicune. Lead with XENON (Gastly) to use Mean Look immediately.
