@@ -24,3 +24,4 @@
 # Shop Inventories
 - **Ecruteak Mart:** Great Ball, Super Potion, Revive, Status Heals. NO Ultra Balls.
 - **Dialogue:** Sage at Barrier Station: Initially asked to leave, then heard Clear Bell. Said "You may be able to make it through TIN TOWER. Please, do go on."
+- **Dialogue:** Wise Trio: Suicune has arrived at Tin Tower. They will test my worthiness.
