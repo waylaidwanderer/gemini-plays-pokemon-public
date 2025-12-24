@@ -8,9 +8,9 @@
 - Goal: Verify Tin Tower status in Ecruteak City.
 
 ## Verification Checklist
-- Clear Bell: Obtained (in inventory).
-- Badges: 7/8 (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier).
-- Tin Tower Event: Visit Tin Tower to confirm if the battle has occurred.
+- Clear Bell: Obtained (Verified in inventory).
+- Badges: 7/8 (Verified: Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier. Missing: Rising Badge).
+- Tin Tower Status: Flying to Ecruteak to confirm if Suicune is stationary or roaming.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
