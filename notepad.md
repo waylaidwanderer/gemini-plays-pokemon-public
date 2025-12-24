@@ -34,6 +34,6 @@
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Status:** Muscle active (51/187 HP). Def -3.
-- **Action:** Executing Heal: Super Potion -> Muscle.
-- **Strategy:** Heal Loop. Resume throwing Great Balls (5 left).
+- **Status:** Muscle active (101/187 HP). Def -3.
+- **Action:** Cleared text. Awaiting Suicune's move.
+- **Strategy:** If HP > 45 after hit, Throw Great Ball (5 left). Else Heal again.
