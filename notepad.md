@@ -26,3 +26,5 @@
 - Checked Sage (5,9): No battle.
 - Checked Sage (14,6): No battle.
 - **Action:** Exited Tin Tower. Re-entering immediately to check for Suicune respawn.
+- **Action:** Walking to (9,10) to confirm Suicune's presence.
+- **Concern:** Since I whited out in the previous battle, there is a risk Suicune has despawned permanently or moved. Gen 2 mechanics on white-outs vs legendaries are unforgiving.
