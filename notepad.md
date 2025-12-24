@@ -7,7 +7,7 @@
 
 ## Suicune Trigger Hypothesis Testing (Route 42)
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees on the island. FAILED.
-- Step 3: Sweep remaining island floor tiles: (25, 14), (26, 14), (26, 16), Row 15. [In Progress]
+- Step 3: Sweep remaining island floor tiles: (25, 14), (24, 14), (26, 16), (30, 16). [In Progress]
 - Step 4: Check mainland unseen tiles at (4, 14)-(7, 14).
 - Note: If Route 42 is not cleared by Turn 17900, pivot to Route 44/Blackthorn.
 
