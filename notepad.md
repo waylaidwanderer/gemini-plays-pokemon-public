@@ -10,8 +10,8 @@
   2. From (13, 17), Slide Right -> Stop at (15, 17). [DONE]
   3. From (15, 17), Slide Down -> Stop at (15, 21). [DONE]
   4. From (15, 21), Slide Right -> Stop at (19, 21). [DONE]
-  5. From (19, 21), Slide Down -> Stop at (19, 23). [NEXT]
-  6. Slide Right -> Arrive at (20, 23) [Hub].
+  5. From (19, 21), Slide Down -> Stop at (19, 23). [DONE]
+  6. From (19, 23), Slide Right -> Arrive at (20, 23) [Hub]. [NEXT]
   7. Explore East.
 
 # Mechanics & Lessons
