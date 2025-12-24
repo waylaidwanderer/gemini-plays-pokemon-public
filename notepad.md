@@ -39,16 +39,17 @@
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
 
 # Suicune Event Status
-- Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
+- Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
+- Wall at (10,4) is solid. Warp at (10,2) is inactive.
 - Current Location: Tin Tower 1F.
-- Observation: Warp at (10,2) inactive. Wall at (10,4) appears solid.
-- Goal: Verify "Roaming" Hypothesis via Pokedex.
+- Goal: Check Pokedex for Suicune Location (Roaming Check) or Find Eusine.
 
 # Plan
-1. Inspect Wall at (10,4).
-2. If nothing, check Pokedex Area for Suicune (ID #245).
-3. If roaming, track it.
-4. If "Area Unknown", exit to Ecruteak and find Eusine.
+1. Exit Tin Tower 1F.
+2. Check Bell Chime Trail (Yard) for Eusine/Sages.
+3. Check Tin Tower Entrance Building.
+4. If Eusine is missing, check Pokedex for #245 (Suicune) to see if roaming.
+5. If "Area Unknown" or not seen, assume E4 reset is needed.
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
