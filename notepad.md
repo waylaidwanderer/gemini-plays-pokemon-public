@@ -38,3 +38,4 @@
 - **Turn 16368:** Sliding Down from (19, 21) to (19, 23). Next: Move Right to (20, 23) to exit ice.
 - **Turn 16369:** Dismissing Repel text. Retrying Slide Down from (19, 21).
 - **Turn 16370:** Retrying Slide Down from (19, 21). Previous attempt interrupted by Repel text.
+- **Turn 16374:** Spotted Item Ball at (31, 7). Continuing West along Row 11.
