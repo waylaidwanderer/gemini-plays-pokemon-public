@@ -39,7 +39,8 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Retrying Warp (10,2) after using Clear Bell.
-- **Reasoning:** Manual bell use failed ("Not the time"). Warp is the only way into the sealed room.
-- **Lore Context:** I already battled Suicune and whited out. The path SHOULD be open. The Wise Trio was defeated in the Barrier Station.
-- **Plan:** Navigate to (10,2). Step on it. If fails, try to walk into the Sages again.
+- **Observation:** Clear Bell failed ("This isn't the time to use that!").
+- **Action:** Retrying Warp (10,2).
+- **Hypothesis:** Warp might work now, or I missed the trigger.
+- **Alternative:** Sages might be hiding stairs/path. Sage at (5,9) moved earlier.
+- **Lore:** Wise Trio (Barrier Station) defeated. Suicune previously battled (Lost/Whited out).
