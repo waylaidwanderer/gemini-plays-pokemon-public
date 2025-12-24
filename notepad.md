@@ -21,3 +21,5 @@
 - **S2 (10, 1):** ON (Main Power).
 - **S3 (2, 1):** ON (Emergency Mode).
 - **Emergency Switch (20, 11):** ON.
+- **Action (Turn 15069):** Picked up Max Ether at `(18, 15)`.
+- **Plan:** Navigate North through the gap at Column 16-18 to reach the Item Ball at `(13, 9)` and the Director at `(12, 8)`.
