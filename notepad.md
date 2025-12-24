@@ -1,7 +1,7 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (9, 10).
+- **Position:** Player at (9, 15).
 - **Goal:** Reach B1 at (11, 7) to solve it.
 - **Puzzle State:**
   - **B1:** At (11, 7). Target: Pit (11, 2).
