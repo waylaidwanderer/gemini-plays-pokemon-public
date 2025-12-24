@@ -44,3 +44,10 @@
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement.
 - Surf Initiation: Face water and press A.
 - Scripted Event Logic: If a legendary isn't appearing where expected, verify all prerequisite NPC interactions and game-state flags (like the Sage's permission).
+
+# Suicune Sighting - Route 36
+- Observation: Suicune not present in Tin Tower 1F despite Sage permission and Clear Bell.
+- Hypothesis: Missing a scripted sighting.
+- Evidence: Pokedex 'Area' map shows Suicune's nest on Route 36.
+- Plan: Exit Tin Tower, travel south through Route 37 to Route 36, and trigger the sighting.
+- Status: Exiting Tin Tower.
