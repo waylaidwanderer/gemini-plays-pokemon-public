@@ -41,13 +41,15 @@
 # Suicune Event Status
 - Whited out. 'Tower Shook'. Sages silent. Suicune missing from Tin Tower and Burned Tower 1F.
 - Current Location: Tin Tower 1F.
-- Goal: Activate Warp at (10,2).
+- Observation: Warp at (10,2) is still inactive (stood on it, nothing happened).
+- Goal: Inspect Wall at (10,4).
 
 # Plan
-1. Navigate to (10,2) via left flank (Column 4) to avoid Sage at (5,9).
-2. Step on Warp at (10,2).
-3. If inactive, inspect wall at (10,4).
-4. If failed, exit to Ecruteak to find Eusine.
+1. Move to (10,3) and inspect wall at (10,4).
+2. If nothing, exit to Ecruteak City.
+3. Check Tin Tower Yard again (maybe missed Eusine).
+4. Check Burned Tower *Basement* one more time? (No, I did that).
+5. Research: Does Suicune roam now? Or do I need to beat the Elite 4?
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
