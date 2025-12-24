@@ -38,3 +38,11 @@
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
 - Pokedex Hallucination: Be cautious of interpreting the Pokedex AREA map; it does not provide coordinate-level data or 'Nest' markers. (Turn 17041)
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
+
+# Turn Correction
+- Turn 17047: Synchronized turn count with Game State Information. Previous reported turns were significantly behind.
+
+# Route 42 Exploration Status
+- Checked eastern lake island (24, 13) - (30, 15): No Suicune.
+- Checking middle lake island (16, 10) - (17, 11): Currently surfing towards it.
+- Goal: Reach Ecruteak City if Suicune is not found on Route 42.
