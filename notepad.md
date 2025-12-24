@@ -23,3 +23,4 @@
     - Loop to (9, 2): (10, 3) -> (9, 3) -> (9, 2).
     - Push B1 Right into Pit (11, 2).
 2.  **Next:** Solve B2.
+- **Strength Push:** Pushing a boulder moves the boulder 1 tile. The player does NOT automatically step into the vacated tile; a separate input is required.
