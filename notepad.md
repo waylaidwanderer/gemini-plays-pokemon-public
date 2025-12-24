@@ -1,16 +1,13 @@
 # Ice Path Strategy
-- **Current State:** At (18, 23).
-- **Goal:** Reach the North-East area via the hidden corridor at x=25.
-- **Correction:** The "Shortcut" path logic was flawed, but the Reachability Tool confirmed a path to x=25.
-- **Visual Check:** XML shows (25, 21) and (25, 22) are FLOOR tiles. There is a corridor going North at x=25.
-- **Plan:**
-  1. Slide **Right** to (20, 23) (Floor).
-  2. Walk East to (24, 23).
-  3. Walk Up to (24, 22), then Right to (25, 22).
-  4. Walk North along x=25 to reach the NE area.
+- **Current State:** At (24, 22).
+- **Plan:** Move East into the corridor, then North.
+- **Goal:** Re-investigate the "Exit Loop" (Columns 25-30).
+  - Verify if it really is a dead end.
+  - Check for any missed connections to the West or North.
+  - Look for Item Ball (32, 23).
+- **Hypothesis:** I might have missed a turn in the winding corridor last time, or there is a mechanic I'm overlooking. The reachability tool insists there is a massive reachable area.
 
 # Map Structure
-- **West Corridor (x=0):** Isolated/Unreachable from here.
-- **Hub (14, 16):** Connected to SE Floor.
-- **SE Floor:** Contains entrance to East Corridor (x=25).
-- **East Corridor (x=25):** The key to progressing North.
+- **SE Floor:** Connected to Hub Ice.
+- **East Corridor:** Starts at (25, 22). Goes North.
+- **Goal:** Reach North-West area via ???
