@@ -18,3 +18,6 @@
 - **Goal:** Talk to Center Sage at (11,11).
 - **Reasoning:** He is the central figure. I have exhausted other options (Bell, Warp, Walls).
 - **Contingency:** If he says nothing new, I will exit and re-enter the map again, or check the other two Sages.
+- **Action:** Finishing cycle of Sages. Moving to Left Sage (5,9).
+- **Goal:** Talk to Left Sage from (5,10).
+- **Hypothesis:** Once all three are spoken to post-shake, the event might advance. If not, map reload is the final option.
