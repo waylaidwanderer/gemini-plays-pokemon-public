@@ -40,20 +40,20 @@
 
 # Suicune Event Status
 - Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing.
-- Exit Warp at (9,15)/(10,15) is INACTIVE.
-- Hypothesis: Must speak to ALL Sages to unlock exit/progress.
-- Status: Spoke to Center (11,11) and Right (14,6) Sages.
-- Goal: Speak to Left Sage (5,9).
+- Spoke to ALL 3 Sages in Tin Tower 1F.
+- Exit Warp at (9,15) previously INACTIVE.
+- Goal: Try to Exit Tin Tower 1F again.
 
 # Plan
-1. Navigate to Left Sage at (5,9).
-2. Talk to him.
-3. Try to exit via (9,15) again.
-4. If still trapped, try DIG (Muscle).
+1. Attempt to exit via (9,15).
+2. If successful, check Bell Chime Trail / Ecruteak for Eusine.
+3. If trapped, use DIG (Muscle) to escape.
+4. Once outside, re-enter Tin Tower to check for Suicune spawn.
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
 - Center Sage (Tin Tower 1F): Lore about Ho-Oh reviving the beasts.
+- Left Sage (Tin Tower 1F): Lore about Rainbow Pokemon descending when souls commune.
 
 # Tile Mechanics (Verified)
 - **FLOOR:** Walkable.
