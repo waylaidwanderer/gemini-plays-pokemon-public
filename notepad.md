@@ -3,7 +3,7 @@
 
 # Current Objectives
 - **Location:** Ecruteak City.
-- **Immediate:** Head to Tin Tower (North-East).
+- **Immediate:** Enter Barrier Station to Tin Tower.
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
