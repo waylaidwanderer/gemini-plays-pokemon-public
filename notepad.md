@@ -39,6 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Navigating to Wise Trio Room (20,3).
-- **Reasoning:** Direct path to Unexplored House (18,11) is blocked by walls. I must traverse the Wise Trio Room (4_2) and likely the Barrier Station (4_1) to reach the main city area.
-- **Plan:** Enter (20,3) -> Traverse 4_2 -> Check 4_1 for City Exit.
+- **Action:** Entering Wise Trio Room/Barrier Station at (20,3).
+- **Goal:** Traverse the building to reach the Main City (West Ecruteak).
+- **Reasoning:** Need to reach the main entrance of Barrier Station (37,7 in city coordinates? No, main entrance is in the city, rear is here).
+- **Current Status:** Standing on Warp Carpet (20,3). Attempting to trigger it.
