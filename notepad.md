@@ -38,3 +38,7 @@
 - Suicune Sighting Sequence: Scripted events, not roamers. Pokedex 'Area' shows the next route.
 - Sage Permission: (4, 6) building 4_1 flags Route 42 completion.
 - Navigation: Building 4_1 is a mandatory passage to Tin Tower backyard.
+
+# General Lessons
+- Sage Permission Logic: The Sage at (4, 6) in building 4_1 granting permission is the "flag" that Route 42 sighting is complete. If Suicune isn't in Tin Tower, the next flag is Route 36.
+- Linear Scripting: Legendary beast encounters in Crystal follow a strict overworld sighting sequence before becoming static encounters.
