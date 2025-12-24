@@ -38,3 +38,6 @@
 - **Status:** Standing on (10,2). Warp did not auto-trigger.
 - **Action:** Pressing 'A' to inspect the floor.
 - **Plan:** If inspection fails, I will step off and back on. If that fails, I will try using the Clear Bell again (just in case).
+- **Action:** Stepping off and back onto warp (10,2) to attempt trigger.
+- **Contingency:** If this fails, I will explore the Top-Right corner (15-16, 2) for hidden stairs.
+- **Observation:** Inspection (A button) on (10,2) did nothing.
