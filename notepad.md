@@ -1,20 +1,22 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (20, 23). Standing on FLOOR. Facing Ledge.
+- **Current Status:** In Ice Path 1F at (18, 22). Standing on ICE.
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
-  - **Ledges:** One-way jumps. `navigate` tool failed to handle the ledge jump. Using manual input.
+  - **Ledges:** `FLOOR_UP_WALL` at (20, 24) is a collision wall, NOT a ledge.
 - **Navigation:**
   - Entrance: (4, 19).
   - **Path Discovery:**
-    - Confirmed South-East path was a dead end.
-    - Jumping to lower floor to reset.
-    - Heading West to find the return path (likely x=0 or x=1).
-  - **Plan:**
-    1. **Action:** Press "Down" to jump the ledge at (20, 24) to reach (20, 25).
-    2. Walk West to (11, 25).
-    3. Continue West to x=1.
-    4. Head North to finding the starting area or the "North Path".
+    - South-East area is a dead end. Escape route found.
+    - **Escape Route:**
+      1. (20, 23) -> Up to (20, 22).
+      2. Slide Left to (18, 22).
+      3. Slide Up to (18, 20).
+      4. Slide Left to (14, 20).
+      5. Slide Up to (14, 16).
+      6. Slide Left to (13, 16) [Floor].
+    - This leads to the **West Path** (x=0 to 13).
+  - **Plan:** Execute Escape Route steps 1-3.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
