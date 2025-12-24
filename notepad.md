@@ -1,7 +1,7 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress). Suicune is Roaming (Pokedex verified).
+- Milestone 3: Route 42 (In Progress). Current Status: Roaming (Pokedex verified).
 
 ## Strategy for Route 42:
 - Observation: Exhaustive searches of the middle island (X=24-30, Y=14-17) failed to trigger a scripted encounter.
@@ -22,7 +22,7 @@
 - FLOOR_UP_WALL: One-way wall; jumpable from North to South.
 
 # PC Storage (Box 1)
-- VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20), CINNABAR (Goldeen 21).
+- CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 
 # Contacts & Key Items
 - Fire Stone: Route 36 (Alan).
