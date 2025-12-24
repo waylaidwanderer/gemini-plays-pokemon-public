@@ -50,3 +50,5 @@
 - **Hypothesis:** Must interact from the FRONT (5,10) to trigger battle/dialogue.
 - **Plan:** Navigate to (5,10) and talk.
 - **Fact:** Warp (10,2) is NOT in the active Warps list. It is sealed.
+- **Observation:** Suicune is NOT visible at (9,9) on the screen. The marker might be stale.
+- **Action:** Attempting to talk to Sage at (5,9) from the front (5,10) to see if he resets the event or offers a clue.
