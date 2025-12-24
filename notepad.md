@@ -3,8 +3,8 @@
 - **Goal:** Reach the ladder (likely in the center/NW of this room).
 - **Solution Path Identified:**
   1. Start (13, 5). Slide **Down** -> (13, 13). [DONE]
-  2. Slide **Left** -> (2, 13). [NEXT]
-  3. Slide **Up** -> (2, 2).
+  2. Slide **Left** -> (2, 13). [DONE]
+  3. Slide **Up** -> (2, 2). [NEXT]
   4. Slide **Right** -> (6, 2).
   5. Slide **Down** -> (6, 10).
   6. Slide **Right** -> (15, 10).
