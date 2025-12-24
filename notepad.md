@@ -10,7 +10,7 @@
 - WARP / CAVE / WARP_CARPET: Map transition points. Verified by usage.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16778. Steps taken: 110. Steps remaining: 90.
+- Super Repel: Activated Turn 16778. Steps taken: 120. Steps remaining: 80.
 
 # Lessons Learned
 - Input Hygiene: NEVER mix action (A, B, Start) and directional buttons in the same press_buttons call. It causes input truncation and desyncs step tracking.
