@@ -6,15 +6,11 @@
 - **Status:** Exploring East side of Ice Path.
 - **Current Location:** Safe Floor at (20, 23).
 - **Navigation Plan:**
-  1. Walk North to (25, 12) via the column at x=25.
-  2. At (25, 12), go East to find the corridor at x=30.
-  3. Explore x=30 South to reach the South-East area and Item Balls.
+  1. Go East to x=25, then North to Row 19.
+  2. Go East through the gap at (26, 19) to (28, 19).
+  3. Go North-East to (29, 17), then North to (29, 12).
+  4. At (29, 12), check the corridor at x=30 leading South.
 - **Items:** Item Balls at (32, 23) and (35, 9).
-
-# Key Log
-- **Turn 16371:** Slid Right to safe ground (20, 23).
-- **Turn 16367:** Realized I missed the East turn at Row 12.
-- **Turn 16366:** Confirmed (14, 22) is unpassable. Re-evaluating South-East path.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
