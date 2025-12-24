@@ -34,6 +34,8 @@
 - **Battle Log:** Defeated Wise Trio. Muscle grew to Lv 57.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
-- **Status:** Muscle active (101/187 HP). Def -3.
-- **Action:** Executing Throw (Great Ball Attempt 10).
+- **Status:** Muscle active (59/187 HP). Def -3.
+- **Damage Analysis:** Gust (-3 Def) did ~42 dmg (101->59). Bubblebeam does ~30.
+- **Risk:** Non-crit Gust is safe (~17 HP left). Crit Gust is KO.
+- **Action:** Opening Pack (Attempt 11).
 - **Strategy:** Throw Great Ball (4 left). Heal if < 45 HP.
