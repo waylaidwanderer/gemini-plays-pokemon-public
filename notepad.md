@@ -8,8 +8,9 @@
   3. Slide **Right** -> (25, 6) [Hit Wall at 26, 6]. [DONE]
   4. Slide **Down** -> (25, 9) [Hit Wall at 25, 10]. [DONE]
   5. Slide **Right** -> (28, 9) [Hit Wall at 29, 9]. [DONE]
-  6. Slide **Up** -> (28, 6) [Hit Wall at 28, 5]. [NEXT]
-  7. Slide **Right** -> (29, 6) [Hit Wall at 30, 6].
+  6. Slide **Up** -> (28, 6) [Hit Wall at 28, 5]. [DONE]
+  7. Slide **Right** -> (29, 6) [Hit Wall at 30, 6]. [NEXT]
+  8. Slide **Down** -> (29, 8) [Hit Wall at 29, 9].
   8. Slide **Down** -> (29, 8) [Hit Wall at 29, 9].
   9. Slide **Left** -> (23, 8) [Hit Wall at 22, 8].
   10. Slide **Down** -> (23, 9) [Hit Wall at 23, 10 - Wait, 23,10 is FLOOR_UP_WALL? Need to check map].
