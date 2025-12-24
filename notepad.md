@@ -35,6 +35,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (81/187 HP). Def -3 (Leer x3).
-- **Opponent Move:** Suicune used Leer.
-- **Action:** Selecting PACK (Cursor remembered position).
+- **Action:** Switching to Balls Pocket.
 - **Strategy:** Throw Great Ball (7 left). Heal if < 45 HP.
