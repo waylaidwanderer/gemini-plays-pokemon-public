@@ -1,28 +1,26 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (17, 1) on B2F.
-- **Action:** Taking ladder back up to B1F to complete reset.
+- **Position:** Player at (6, 1).
+- **Goal:** Reach B1 at (11, 7) to solve it.
+- **Puzzle State:** All Boulders Reset.
+  - **B1:** (11, 7).
+  - **B2:** (7, 8).
+  - **B3:** (9, 11).
+  - **B4:** (17, 7).
 
-## Master Plan (The Long Flank)
-1.  **Start (B1F):** Arrive at (17, 3).
-2.  **Navigate:** Go North to (17, 1) -> West to (5, 1).
-3.  **Access South:** Go Down Col 5 to Row 16.
-4.  **Traverse:** Go East to (11, 16) -> North to (11, 8).
-5.  **B1 Setup:**
+## Master Plan
+1.  **Navigate:** Go South via West Side (Col 5) to (9, 10).
+2.  **Traverse:** Go South to Row 16 -> East to Col 12 -> North to (11, 8).
+3.  **B1 Solve:**
     - Push B1 Up to (11, 5).
-    - Go to (12, 5). Push B1 Left to (10, 5).
-    - Go to (10, 6). Push B1 Up to (10, 1).
-6.  **The Flank:**
-    - From (10, 2), go South to (10, 16).
-    - Go West to (5, 16).
-    - Go North to (5, 1).
-    - Go East to (9, 1).
-7.  **B1 Finish:**
-    - At (9, 1), Push B1 Right to (11, 1).
-    - Go to (11, 0). Push Down to Pit (11, 2).
-8.  **B2 & Others:**
-    - Solve remaining boulders standardly.
+    - Go Left to (10, 5) -> Up to (10, 1) -> Right to (11, 1).
+    - Push Down into Pit (11, 2).
+4.  **B2 Solve:**
+    - Go to (8, 8). Push B2 Left to (5, 8).
+    - Go around to (5, 9). Push Up to (5, 6).
+    - Go North to Row 1 -> West to (6, 6). Push Left to (4, 6) -> Down to Pit (4, 7).
+5.  **B3 & B4:** Solve subsequently.
 
 ## Immediate Action
-- Return to B1F.
+- Navigate to (9, 10).
