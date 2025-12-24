@@ -39,8 +39,7 @@
 - **Hypothesis:** Stairs to 2F must be in the Top-Left.
 - **Note:** "Mystery Warp" at (10,2) is likely an exit.
 - **Plan:** Navigate to (3,2). If empty, I will try using the Clear Bell manually.
-- **Action:** Retrying Warp (10,2) after map reload.
-- **Hypothesis:** Re-entering the map might have reset the warp's functionality.
-- **Plan:** Navigate to (10,2). Step on it.
-- **Contingency:** If warp fails, talk to Sages at (14,6) and (5,9).
-- **Lore:** Wise Trio (Barrier Station) defeated. Suicune previously battled (Lost/Whited out). Sages in Tin Tower give lore but don't move.
+- **Action:** Testing Warp (10,2) after map reload.
+- **Hypothesis:** Re-entering might have fixed the warp.
+- **Contingency:** If this fails, the "Warp is Entrance" hypothesis is likely FALSE. It is likely an exit. I must find a different way up (hidden ladder, solving Sage puzzle).
+- **Sage Check:** Sages are at (5,9), (14,6), (11,11). They might be the key.
