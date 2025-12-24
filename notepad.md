@@ -26,6 +26,4 @@
 - **Next:** Return to Tin Tower 1F and check (9,9) for Suicune again.
 - **CRITICAL UPDATE:** Wandering Sage confirmed: "The TIN TOWER shook! A POKéMON must have returned to the top!"
 - **Conclusion:** Suicune event has been RESET.
-- **Action:** Returning to Tin Tower immediately.
-- **Hypothesis:** Suicune is either back at 1F (9,9) OR the path to climb the tower (2F+) is now open. "Returned to the top" might imply the roof.
-- **Plan:** Check 1F first. If empty, look for new stairs/ladders.
+- **Action:** Returning to Tin Tower 1F to check (9,9) and look for new paths to the top.
