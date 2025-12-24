@@ -40,16 +40,22 @@
 
 # Suicune Event Status
 - Whited out to Suicune. 'Tower Shook'. Sages silent. Suicune missing.
-- Exited Tin Tower 1F. Eusine is NOT outside.
-- Tin Tower 1F Warp (10,2) inactive. Wall (10,4) solid.
-- Wise Trio Room (4_2) is EMPTY.
-- Goal: Find Eusine to progress state or confirm Suicune is gone.
+- Checked Tin Tower 1F, Bell Chime Trail, Wise Trio Room. All empty/generic.
+- Current Location: Barrier Station (Right Side - Trail Side).
+- Goal: Go to Barrier Station (Left Side - City Side) to find Eusine.
+
+# Barrier Station Layout
+- Split into two sides.
+- Left Side: Connected to Ecruteak City. Contains Wandering Sage/Gramps.
+- Right Side: Connected to Bell Chime Trail (Tin Tower).
+- Connection: Linked via Ladders to Wise Trio Room (4_2).
 
 # Current Plan
-1. Go to Barrier Station Main Hall (4_1) via Ladder at (1,4).
-2. Check for Eusine there.
-3. If Eusine missing, check Pokedex for Suicune (#245).
-4. If "Area Unknown", assume E4 reset needed.
+1. Return to Wise Trio Room (4_2) via Ladder at (17,3).
+2. Cross room to Left Ladder.
+3. Descend to Left Side of Barrier Station (4_1).
+4. Check for Eusine.
+5. If missing, check Pokedex for Suicune (#245).
 
 # NPC Dialogue & Lore
 - Gramps (Barrier Station): "Two towers... Two POKéMON..." (Generic lore).
