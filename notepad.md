@@ -25,8 +25,9 @@
 # Suicune Strategy (Lead: XENON Gastly Lv19)
 - Goal: Reach Lv27 (Repel Trick threshold).
 - Start Turn: 16309.
-- Method: Mean Look (Turn 1) + Hypnosis/Lick.
+- Method: Mean Look (Turn 1) + Hypnosis. Switch to Calcifer for damage if needed.
 - Note: Suicune moves on map transitions. Use roamer_tracker_v2.
+- Efficiency Tip: Ghost moves (Lick) are Physical in this game. Gastly is a Special attacker. For training, start with XENON then switch to Calcifer to finish battles quickly.
 
 # Future Tasks
 - Reach Lv27 with XENON.
