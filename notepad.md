@@ -1,17 +1,17 @@
 # Ice Path Strategy
-- **Current State:** At Ice (15, 16).
-- **Breakthrough:** Found the path!
-  1. Go to SE Floor via (19, 23) -> (20, 23).
-  2. Walk North to (20, 22), then West to (19, 22).
-  3. Step Left onto Ice at (19, 22).
-  4. Slide Left to (18, 22).
-  5. Slide Up from (18, 22) to reach Hidden Floor at (18, 14).
-- **Goal:** Execute this sequence to reach Northern Room.
+- **Current State:** At Floor (20, 23).
+- **Hypothesis:** The exit from the loop is via the ledge at (18, 24).
+- **Plan:**
+  1. Step **Left** from (20, 23) to (19, 23).
+  2. Slide Left to stop at (18, 23) (Blocked by Wall at 17, 23).
+  3. Jump **Down** over ledge at (18, 24).
+  4. Land on Floor (18, 25).
+  5. Go West to x=0 (West Corridor).
+  6. Go North to reach Ladder/Exit.
 
-# Route
-1. Slide **Down** to (15, 21).
-2. Slide **Right** to (19, 21).
-3. Slide **Down** to (19, 23).
-4. Step **Right** to (20, 23).
-5. Walk **Up** to (20, 22).
-6. Step **Left** into Ice.
+- **Backup:** If (18, 24) is a wall, explore the East Corridor via (25, 21) thoroughly.
+
+# Map Structure
+- **SE Floor:** Connected to Hub Ice and East Corridor.
+- **West Corridor:** Accessed via South Ledges (Row 24?).
+- **Goal:** Reach North-West area via West Corridor.
