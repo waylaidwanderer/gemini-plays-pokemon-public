@@ -10,18 +10,19 @@
 - FLOOR_UP_WALL: One-way barrier (Southward). Impassable from the South. (Verified)
 - WARP / CAVE / WARP_CARPET: Map transition points. (Verified)
 
-# Suicune Tracking & Strategy
-- Status: Scripted Overworld Encounters (Crystal Version).
-- Sightings: Burned Tower (fled), Cianwood City (fled), Route 42 (fled - Flagged by Sage permission).
-- Goal: Capture/Defeat Suicune at Tin Tower 1F.
-- Strategy: Speak to all three Sages in Tin Tower 1F to trigger the encounter.
-- Team Lead: XENON (Gastly) for Hypnosis/Night Shade.
+# Suicune Quest Strategy (Crystal Version)
+- Status: Scripted sighting sequence required before battle.
+- Sightings Completed: Burned Tower, Cianwood City, Route 42.
+- Current Target: Route 36 sighting.
+- Evidence: Pokedex 'Area' map confirms Suicune's nest is on Route 36.
+- Battle Prep: Suicune encounter at Tin Tower 1F will be Lv40.
+- Capture Team: Lead with XENON (Gastly, Lv21) for Hypnosis/Mean Look. Use GNEISS (Graveler, Lv44) for tanking/weakening.
 
 # Sage Lore (Tin Tower 1F)
-1. Sage (11, 11): Ho-Oh resurrected Entei, Raikou, and Suicune after the Brass Tower fire. (Spoken)
-2. Sage (5, 9): Legend says Ho-Oh descends when souls of Pokemon and humans commune. (Spoken)
-3. Sage (14, 6): Towers built for friendship 700 years ago. (Spoken)
-- All three Sages have shared their lore. Heading to center (9, 9) to trigger Suicune.
+- Sage (11, 11): Ho-Oh resurrected Entei, Raikou, and Suicune after the Brass Tower fire.
+- Sage (5, 9): Ho-Oh descends when souls of Pokemon and humans commune.
+- Sage (14, 6): Towers built for friendship 700 years ago.
+- Note: All three Sages in Tin Tower 1F must be spoken to *after* sightings are complete to trigger the encounter.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
@@ -40,14 +41,6 @@
 - Blarney (SUDOWOODO): Lv20, Male.
 
 # General Lessons
-- Sage Permission Flag: Sage at (4, 6) in Ecruteak building (4_1) is the definitive indicator for Route 42 event completion.
-- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement.
-- Surf Initiation: Face water and press A.
-- Scripted Event Logic: If a legendary isn't appearing where expected, verify all prerequisite NPC interactions and game-state flags (like the Sage's permission).
-
-# Suicune Sighting - Route 36
-- Observation: Suicune not present in Tin Tower 1F despite Sage permission and Clear Bell.
-- Hypothesis: Missing the Route 36 scripted sighting.
-- Evidence: Pokedex 'Area' map shows Suicune's nest on Route 36.
-- Plan: Travel south through Route 37 to Route 36 and trigger the sighting.
-- Battle Prep: Suicune is Lv40. XENON (Lv21) needs Hypnosis to land immediately. Consider training or using GNEISS (Lv44) to weaken it.
+- Sage Permission: Sage at (4, 6) in Ecruteak building (4_1) flags completion of Route 42 sighting.
+- Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Pokedex 'Area' indicates the next scripted location.
+- Navigation: Building 4_1 acts as a gated passage. Restricted backyard (4_9 north) is disconnected from main Ecruteak City (4_9 south). Must use building warps to transition.
