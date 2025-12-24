@@ -30,3 +30,6 @@
 - **Navigation:** Re-entering Barrier Station via Main Entrance (37,7).
 - **Plan:** Walk straight through the Barrier Station to reach Bell Chime Trail. The Sages have granted permission ("Please, do go on"), so the path should be unblocked.
 - **Objective:** Reach Tin Tower 1F to find Suicune.
+- **Observation:** Suicune is NOT visible at (9,9) from position (9,11).
+- **Hypothesis:** "Returned to the top" implies Suicune is on a higher floor or the Roof.
+- **Plan:** Re-check the "Mystery Warp" at (10,2). The event reset might have activated it. If not, search for stairs in unexplored corners (Top-Right).
