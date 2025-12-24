@@ -32,3 +32,12 @@
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Map: EcruteakTinTowerEntrance (4_1)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_CARPET_DOWN: Exit to Ecruteak City.
+- LADDER: Map transition. Step triggers warp.
+- Sage at (4, 6): Guarding the path. Interact to progress.
+- Wise Trio Room: Accessible via ladder at (17, 3).
+- Tin Tower: Accessible via ladder at (17, 15) or (5, 3).
