@@ -35,5 +35,5 @@
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Encounter:** Battling Suicune (Lv 40). Red HP, Rain.
 - **Status:** Muscle active (81/187 HP). Def -3 (Leer x3).
-- **Action:** Switching to Balls Pocket.
+- **Action:** Selected Great Ball (Item 1).
 - **Strategy:** Throw Great Ball (7 left). Heal if < 45 HP.
