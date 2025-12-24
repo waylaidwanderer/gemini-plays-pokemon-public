@@ -3,10 +3,10 @@
 ## Current Status
 - **Location:** Radio Tower 5F (3_21).
 - **Objective:** Defeat the final Rocket Executives.
-- **Current Task:** Exit Radio Tower and head to Ecruteak City (Tin Tower).
-- **Recent Events:** Defeated Executives. Received Clear Bell. Director left.
+- **Current Task:** Talk to Teacher at (14, 6) and Growlithe at (12, 7), then exit to 3F.
+- **Recent Events:** Defeated Executives on 5F. Received Clear Bell.
 - **Lore:** Clear Bell is key to Tin Tower.
-- **Next:** Navigate down to 1F and exit.
+- **Next:** Exit Radio Tower.
 
 ## Radio Tower Progress
 - **1F-4F:** Cleared.
