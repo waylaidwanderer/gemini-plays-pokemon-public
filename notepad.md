@@ -21,8 +21,6 @@
 - **Action:** Talk to the Sage at `(4,6)` to see if he is part of the Wise Trio or has info on Suicune.
 - **Goal:** Reset Suicune event.
 - **Interaction:** Sage at (4,6) said "Please, do go on." (Permission granted).
-- **Current Action:** Positioning to talk to Wandering Sage (currently at 7,10).
 - **Plan:** Talk to Wandering Sage and Wandering Gramps to gather info/confirm reset.
+- **Action:** Moving to (6,8) to talk to Sage (ID 3) at (5,8).
 - **Next:** Return to Tin Tower 1F and check (9,9) for Suicune again.
-- **Action:** Stunned Wandering Sage (ID 3) at (7,9) to ensure interaction.
-- **Goal:** Talk to him to check for Suicune clues.
