@@ -29,10 +29,15 @@
 - Hypothesis 27: Suicune is on a high ledge accessible only through Mt. Mortar.
 - Step 1: Navigate to (28, 17) and face UP toward the Green Apricorn tree. [In Progress]
 - Hypothesis 28: Trigger is proximity to the three Apricorn trees (Pink, Green, Yellow) on the island, specifically approaching from the south (Row 17).
-- Note: If this fails, I will move on to Route 44/Ice Path/Blackthorn City.
+- Attempt 1: Faced Green tree from (28, 17). Result: FAILED.
+- Step 2: Interact with all three Apricorn trees (X=27, 28, 29). [In Progress]
+- Step 3: Sweep remaining island floor tiles and mainland unseen tiles at (4, 14)-(7, 14).
+- Note: If this fails after a full sweep, I will move on to Route 44/Ice Path/Blackthorn City.
 
 # Verified Sprite Observations (Route 42)
 - Turn 17786: `run_code` confirmed no Suicune sprite is present on screen. Sighting is likely coordinate-triggered.
+- Reachable Unseen Tiles (via Mt. Mortar): (21, 4), (25, 5), (26, 5), (27, 5), (30, 4).
+- Reachable Unseen Tiles (Mainland West): (4, 14), (5, 14), (6, 14), (7, 14).
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.

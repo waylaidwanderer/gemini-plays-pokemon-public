@@ -251,12 +251,14 @@
     ]
   },
   "pace_area": {
-    "description": "Generates a sequence of button presses to pace back and forth between two coordinates to trigger encounters or events.",
+    "description": "Generates a sequence of button presses to move back and forth between two coordinates to trigger encounters or events.",
     "input_schema": {
       "properties": {
-        "direction": {
-          "description": "The axis to pace on ('horizontal' or 'vertical')",
-          "type": "string"
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
         },
         "num_paces": {
           "description": "How many times to move back and forth",
@@ -272,17 +274,21 @@
       "required": [
         "start_x",
         "start_y",
-        "direction",
         "num_paces"
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef pace(start_x, start_y, direction, num_paces):\n    buttons = []\n    if direction == 'horizontal':\n        for _ in range(num_paces):\n            buttons.append('Left')\n            buttons.append('Right')\n    elif direction == 'vertical':\n        for _ in range(num_paces):\n            buttons.append('Up')\n            buttons.append('Down')\n    print(json.dumps(buttons))\n\nimport sys\ninput_data = json.loads(sys.argv[1])\npace(input_data['start_x'], input_data['start_y'], input_data['direction'], input_data['num_paces'])\n",
+    "python_script": "import json\nimport sys\n\ndef pace():\n    try:\n        # The harness passes tool_args as a JSON string in the first argument\n        if len(sys.argv) < 2:\n            print(json.dumps([]))\n            return\n            \n        input_data = json.loads(sys.argv[1])\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        end_x = int(input_data.get('end_x', start_x))\n        end_y = int(input_data.get('end_y', start_y))\n        num_paces = int(input_data['num_paces'])\n        \n        buttons = []\n        \n        # Calculate steps to get from start to end\n        dx = end_x - start_x\n        dy = end_y - start_y\n        \n        move_to_end = []\n        if dx > 0: move_to_end += ['Right'] * dx\n        elif dx < 0: move_to_end += ['Left'] * abs(dx)\n        if dy > 0: move_to_end += ['Down'] * dy\n        elif dy < 0: move_to_end += ['Up'] * abs(dy)\n        \n        move_to_start = []\n        if dx > 0: move_to_start += ['Left'] * dx\n        elif dx < 0: move_to_start += ['Right'] * abs(dx)\n        if dy > 0: move_to_start += ['Up'] * dy\n        elif dy < 0: move_to_start += ['Down'] * abs(dy)\n        \n        # If no movement is specified, just alternate direction to look around\n        if not move_to_end:\n            move_to_end = ['Left']\n            move_to_start = ['Right']\n            \n        for _ in range(num_paces):\n            buttons += move_to_end\n            buttons += move_to_start\n            \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Fallback or error reporting\n        print(json.dumps([]))\n\npace()\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-24T17:52:55.120Z",
         "action_counter": 17762
+      },
+      {
+        "commit_message": "Make pace_area more robust and actually move between two points.",
+        "timestamp": "2025-12-24T18:17:17.205Z",
+        "action_counter": 17800
       }
     ]
   }
