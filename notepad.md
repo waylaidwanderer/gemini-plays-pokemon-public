@@ -53,3 +53,5 @@
 - **Action:** Exiting Tin Tower 1F.
 - **Next Step:** Go to Barrier Station to speak with the Wise Trio (Sages Gaku, Masa, Koji).
 - **Goal:** Trigger a dialogue that resets the Suicune event or explains where it went.
+- **Navigation Plan:** To return to the Wise Trio Room (Barrier Station), I must navigate through the garden maze: (37,8) -> Row 9 -> Left to x=33 -> Up to Row 4 -> Left to x=28 -> Up to Row 2 -> Left to (20,2).
+- **Hypothesis:** Speaking to the Wise Trio (Sages Gaku, Masa, Koji) in the Barrier Station may reset the Suicune event or confirm if it is roaming.
