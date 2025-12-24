@@ -5,9 +5,9 @@
 - **Lore:** Clear Bell is connected to Tin Tower in Ecruteak.
 
 # Current Objectives
-- **Location:** Goldenrod City.
-- **Immediate:** Fly to Ecruteak City.
-- **Next:** Investigate Tin Tower.
+- **Location:** Violet City (West Exit).
+- **Immediate:** Travel West to Route 36.
+- **Next:** Use Squirtbottle on Sudowoodo -> Ecruteak City.
 
 # Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
