@@ -31,9 +31,9 @@
 # Suicune Tracking & Strategy
 - Status: Roaming. Moves when player changes maps.
 - Repel Trick Mechanic: Lead Pokemon level > wild max, but < roamer (Lv40).
-- Level Targets: Lv21 (Route 42), Lv27 (Route 44).
+- Level Targets: Lv21 (Route 42/43), Lv27 (Route 44).
 - Encounter Strategy: Use Mean Look (Turn 1) to prevent fleeing, then Hypnosis.
-- Current Location: Route 44 (as of Turn 16596).
+- Current Location: Route 44 (as of Turn 16617).
 
 # Training Log: XENON (Gastly)
 - Night Shade learned at Lv21.
