@@ -210,29 +210,6 @@
       }
     ]
   },
-  "find_tiles_by_type": {
-    "description": "Searches the mental map for all tiles of a specific type and returns their coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "tile_type": {
-          "type": "string",
-          "description": "The collision type of the tile to search for (e.g., 'grass', 'FLOOR', 'WALL')."
-        }
-      },
-      "required": [
-        "tile_type"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run(input_data):\n    target_type = input_data.get('tile_type')\n    if not target_type:\n        return {\"error\": \"Missing tile_type\"}\n    \n    if not map_xml_string or \"<Map\" not in map_xml_string:\n        return {\"error\": \"Mental Map unavailable.\"}\n    \n    root = ET.fromstring(map_xml_string)\n    found_tiles = []\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            if tile.attrib.get('type') == target_type:\n                found_tiles.append([int(tile.attrib['id']), y])\n    return {\"tiles\": found_tiles}\n\nprint(json.dumps(run(input_data)))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T02:36:31.246Z",
-        "action_counter": 16053
-      }
-    ]
-  },
   "use_healing_item_from_bag": {
     "description": "Navigates the bag from the current cursor position to a healing item, then uses it on a specified Pokemon. Assumes the specified option is the first in the sub-menu if option_down_count is 0.",
     "input_schema": {
@@ -295,7 +272,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\nmove_index = int(input_data.get('move_index', 0))\nbuttons = []\nfor _ in range(move_index):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 250\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 800\")\nfor _ in range(15):\n    buttons.append(\"B\")\n    buttons.append(\"sleep 400\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\ndef main(input_data):\n    move_index = int(input_data.get('move_index', 0))\n    buttons = []\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 800\")\n    for _ in range(15):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -316,6 +293,32 @@
         "commit_message": "Fix battle_grind: simplify script to avoid function scoping issues and ensure it always prints a valid JSON array.",
         "timestamp": "2025-12-24T05:03:57.479Z",
         "action_counter": 16362
+      },
+      {
+        "commit_message": "Fix battle_grind: properly wrap in main(input_data) and print JSON array.",
+        "timestamp": "2025-12-24T05:04:59.202Z",
+        "action_counter": 16363
+      }
+    ]
+  },
+  "clear_battle_text": {
+    "description": "Mashes the B button to clear battle dialogue and animations.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "num_presses": {
+          "type": "integer",
+          "description": "Number of times to press B (default 12)."
+        }
+      },
+      "required": []
+    },
+    "python_script": "import json\ndef main(input_data):\n    num_presses = int(input_data.get('num_presses', 15))\n    buttons = []\n    for _ in range(num_presses):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 400\")\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T05:04:59.201Z",
+        "action_counter": 16363
       }
     ]
   }
