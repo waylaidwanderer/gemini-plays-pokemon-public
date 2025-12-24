@@ -61,6 +61,9 @@
 - Conclusion: Confirmed (Suicune is still on Route 42).
 - Hypothesis 17: Walking onto (26, 14) triggers the scene.
 - Test: Move to (26, 14). [Turn 17636]
+- Conclusion: Denied (No scene triggered).
+- Hypothesis 18: Walking onto (27, 14) triggers the scene.
+- Test: Move to (27, 14). [Turn 17637]
 - Conclusion: Pending.
 
 # Tile Mechanics (Global)
