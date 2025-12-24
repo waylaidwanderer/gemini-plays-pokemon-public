@@ -4,10 +4,10 @@
 # Current Objectives
 - **Location:** Ecruteak City.
 - **Immediate:** Head to Tin Tower (North-East).
-- **Next:** Investigate Tin Tower (North).
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
+- **MART_SHELF:** Impassable. Obstacle.
 - **FLOOR:** Traversable. Standard movement.
 - **WALL:** Impassable.
 - **STAIRCASE:** Traversable. Warps to another floor.
