@@ -39,3 +39,7 @@
 - **Information:** Team Rocket took over Radio Tower to control Pokémon via a signal.
 - **Objective:** Go to Radio Tower 3F and use Card Key to open shutters.
 - **Plan:** Exit Warehouse via Ladder at `(17, 2)` (likely shortcut), then head to Radio Tower.
+- **Objective Update (Turn 15102):** Rescue complete.
+- **New Path:** The path East from `(9, 3)` is blocked (Row 3, Col 10-13 are Walls). Must use the northernmost corridor (Row 1) to cross from West to East.
+- **Route:** `(13, 8)` -> `(14, 5)` -> `(9, 5)` -> `(9, 1)` -> `(17, 1)` -> `(17, 2)`.
+- **Plan:** Executing route to the Ladder.
