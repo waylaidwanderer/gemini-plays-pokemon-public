@@ -45,9 +45,10 @@
 - **Plan:** Executing route to the Ladder.
 - **Current State:**
     - **Location:** Goldenrod Dept. Store B1F (3_55).
-    - **Position:** `(10, 4)`.
+    - **Position:** `(9, 4)`.
     - **Objective:** Exit Dept. Store and head to Radio Tower.
     - **Inventory:** Obtained Card Key and Amulet Coin.
-- **Action (Turn 15114):** Attempting to use Elevator. Pressed A at `(10, 4)` facing Up (Wall), no response.
-- **Hypothesis:** Elevator control panel might be at `(9, 3)` or stepping on `(9, 4)` triggers it.
-- **Plan:** Move Left to `(9, 4)`. If no auto-warp, Face Up and Press A. Then take Elevator to 1F.
+- **Action (Turn 15115):** Attempting to use Elevator Panel at `(9, 3)`.
+    - Previous attempt at `(10, 3)` failed.
+- **Hypothesis:** The elevator controls are on the left side of the back wall.
+- **Plan:** Face Up and Press A. If successful, take Elevator to 1F.
