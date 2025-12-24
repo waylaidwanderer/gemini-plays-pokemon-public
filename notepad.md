@@ -5,9 +5,9 @@
 - **Lore:** Clear Bell is connected to Tin Tower in Ecruteak.
 
 # Current Objectives
-- **Location:** Entering Route 37 (from Route 36).
-- **Immediate:** Travel North to Ecruteak City.
-- **Next:** Heal/Stock up in Ecruteak, then Tin Tower.
+- **Location:** Ecruteak City.
+- **Immediate:** Heal at Pokémon Center.
+- **Next:** Stock up on items, then investigate Tin Tower.
 - **Key Item:** Clear Bell (Required for Tin Tower).
 
 # Tile Mechanics
