@@ -1,38 +1,35 @@
 # Suicune Quest (Crystal)
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
-- Milestone 3: Route 42 (In Progress - Cut tree but haven't triggered scene).
-- Milestone 4: Route 36 (Current). Strategy: Enter from Violet City (East) to trigger sighting.
-- Milestone 5: Tin Tower (Final). Requirement: Clear Bell (ALREADY OBTAINED) + all sightings. Sages require Beasts to be released (Completed).
+- Milestone 3: Route 42 (In Progress). Current attempt started turn 17600.
+- Milestone 4: Route 36 (Next). Requirement: Complete Route 42 sighting.
+- Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all overworld sightings.
 
-## Strategy for Route 36 Sighting
-- Attempt 1: East junction pacing (Turn 17541). Result: Failed.
-- Attempt 2: South approach (Turn 17559). Result: Failed.
-- Attempt 3: West approach (Turn 17563). Result: Failed.
-- Attempt 4: East entry from Violet City. [In Progress - Turn 17576]
-- Note: Sighting is triggered by walking onto a specific tile.
+## Suicune Hunt Strategy
+- Route 42: Approach the three fruit trees in the island center.
+- Route 36: Enter from the Violet City side (East) after Route 42 is completed.
+- Pokedex 'Area' confirms the next overworld sighting location.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- WALL / FRUIT_TREE / COUNTER: Impassable.
+- WALL / FRUIT_TREE / COUNTER / HEADBUTT_TREE: Impassable.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - WATER: Impassable without Surf.
-- LEDGE: One-way movement (usually South).
+- LEDGE: One-way movement (verified South-only for standard ledges).
 - WARP / DOOR / WARP_CARPET: Map transition.
-- CUT_TREE: Impassable until Cut is used.
-- HEADBUTT_TREE: Impassable. Triggers 'Want to HEADBUTT it?' prompt.
+- CUT_TREE: Impassable until CUT is used.
 - ROCK: Impassable. Requires ROCK SMASH.
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 
 # Key Observations
-- History of Ecruteak: Two towers were roosts for flying Pokemon. One burned down. Three Pokemon (water, lightning, fire) ran off into the grassland.
 - Pokedex 'Area' tracks the current active overworld sighting location.
-- Sightings are triggered by specific tile-entry zones.
-- Rock Smash: Fisher at (44, 9) on Route 36 (Turn 17548). Use to smash rocks.
+- Sightings are triggered by entering specific overworld zones.
+- Ecruteak History: Two towers (Bell Tower/Tin Tower and Brass Tower/Burned Tower). Three Pokemon born of water, lightning, fire ran off.
 
-# Items Received
+# Items & Contacts
 - Fire Stone: Route 36 (Alan).
-- Itemfinder: Ecruteak.
 - Rock Smash (Info): Route 36 (Fisher at 44, 9).
+- Fisher Tully: Route 42. Gives items.
+- Bug Catcher Arnie: Route 35. Reports Yanma swarms.
