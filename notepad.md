@@ -6,9 +6,16 @@
 - Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all sightings.
 
 ## Strategy for Route 42 Sighting:
-- Location: Middle island (X=24-30, Y=14-17) or northern corridor (Row 4).
-- Approach: Surf to island landing at (24, 14) or (32, 10). Center requires CUT at (24, 13).
-- Goal: Step on every tile of the island center to trigger the flee cutscene.
+- Location: Middle island (X=24-30, Y=14-17).
+- Approach: Surf to island landing at (24, 14). Center requires CUT at (24, 13).
+- Goal: Approach the Suicune sprite in the center of the island to trigger the flee cutscene.
+
+## Pokedex 'SUICUNE'S NEST' Dot Locations:
+- Ecruteak City (Burned Tower)
+- Cianwood City (North Beach)
+- Route 42 (Current Location)
+- Route 36 (Near Violet City)
+- Tin Tower (Ecruteak City)
 
 ## Failed Hypotheses (Route 42)
 - Partial sweep of island (Rows 14-15) [Turns 17819-17863].
@@ -39,6 +46,5 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Pokedex 'AREA' Map: Blinking dots confirm sightings at Ecruteak, Cianwood, Route 42, Route 36, and Tin Tower.
-- Observation: Island sweep Row 17 (X=26-30) complete, empty. Row 16 (X=30) empty. [Turn 17964]
-- Plan: Sweep Row 15 (X=30-25) and Row 14 (X=27-25) of island center. If empty, explore northern corridor (Row 4).
+- Observation: Row 17 (X=26-30), Row 16 (X=30), and Row 15 (X=30-25) checked. No Suicune.
+- Plan: Step on (25, 14), (24, 14), (26, 14), (27, 14), and (26, 16) to complete 100% sweep of island center.
