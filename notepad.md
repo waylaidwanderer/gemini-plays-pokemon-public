@@ -46,6 +46,9 @@
 - Conclusion: Denied (No scene triggered).
 - Hypothesis 12: Walking onto (26, 16) triggers the scene.
 - Test: Move to (26, 16). [Turn 17628]
+- Conclusion: Denied (No scene triggered).
+- Hypothesis 13: Walking onto (26, 15) triggers the scene.
+- Test: Move to (26, 15). [Turn 17629]
 - Conclusion: Pending.
 
 # Tile Mechanics (Global)
