@@ -27,3 +27,6 @@
 - **Action:** Interacting with Sage at (5,9) from the side (4,9).
 - **Hypothesis:** If he doesn't battle, I need to find the stairs to 2F in the unexplored corners.
 - **Plan:** Interact, then explore bottom-left corner (0,15).
+- **Observation:** Sage at (5,9) did not battle when interacted with.
+- **Map Analysis:** Bottom-Left area (2-6, 15) appears isolated by walls.
+- **Plan:** Navigate to (8,15) to inspect the wall at (7,15). If impassable, the area is sealed.
