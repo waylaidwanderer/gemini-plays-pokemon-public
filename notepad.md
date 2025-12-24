@@ -36,3 +36,4 @@
 - Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
 - XENON (Gastly) learns Night Shade at Lv21. Fixed damage (equal to level) is ideal for weakening Suicune without over-killing.
+- Training Progress: XENON Lv20. Need ~900 EXP for Lv21 (~5 Poliwags). Poliwag (Lv22-24) gives ~180-200 EXP.
