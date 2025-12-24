@@ -29,3 +29,5 @@
 - **Action:** Exiting Tin Tower 1F to Bell Chime Trail.
 - **Reasoning:** Triggering a map reload after speaking to all 3 Sages post-shake might activate the warp at (10,2) or spawn Suicune.
 - **Next:** Re-enter Tin Tower 1F immediately.
+- **Action:** Re-entering Tin Tower 1F after map reload.
+- **Goal:** Check Suicune spawn (9,9) and Warp (10,2).
