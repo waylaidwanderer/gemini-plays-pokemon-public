@@ -1,26 +1,17 @@
 # Ice Path Strategy
-- **Current Action:** Executing Return Path to East Hub.
-- **Goal:** Explore East Floor Area (x>20) for Ladder to B1F.
-- **Reasoning:**
-  - West Floor Area (x<10) connects only to Entrance (Route 44).
-  - South-West Area (Row 22+, x<15) is blocked from the North.
-  - East Floor Area (x>20) was partially seen but not explored.
+- **Current Action:** Exploring East Section.
+- **Goal:** Find Ladder to B1F in the East area (x>20).
 - **Path Plan:**
-  1. Walk to (13, 17). [DONE]
-  2. From (13, 17), Slide Right -> Stop at (15, 17). [DONE]
-  3. From (15, 17), Slide Down -> Stop at (15, 21). [DONE]
-  4. From (15, 21), Slide Right -> Stop at (19, 21). [DONE]
-  5. From (19, 21), Slide Down -> Stop at (19, 23). [DONE]
-  6. From (19, 23), Slide Right -> Arrive at (20, 23) [Hub]. [NEXT]
-  7. Explore East.
+  1. Walk East from (20, 23) to (25, 23). [NEXT]
+  2. Walk North from (25, 23) to inspect the corridor at x=25.
+  3. Look for openings to the East (Item Balls saw earlier are at x=31+).
+- **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [Far East].
 
 # Mechanics & Lessons
-- **Ice Physics:** Sliding continues until collision or landing on non-ice.
-- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls from above (and likely below).
-- **Map Structure:** 
-  - West: Entrance (Route 44).
-  - Center: Ice Maze.
-  - East: Progression?
+- **Ice Physics:** Sliding continues until collision.
+- **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls.
 
-# Items
-- Item Balls at (32, 23), (35, 9), (31, 7) [Far East - Behind Wall at x=31].
+# Map Structure
+- **West:** Entrance (Route 44).
+- **Center:** Hub (current loc).
+- **East:** Unexplored. Likely contains progression.
