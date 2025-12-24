@@ -50,6 +50,6 @@
 - **WARP:** Teleport tile (often landing spots in Burned Tower).
 
 # Plan
-1. Attempt to navigate to warp at (3,13) (Likely isolated landing spot).
-2. If unreachable, exit via ladder at (7,15).
+1. Flee battle.
+2. Navigate to Ladder at (7,15) to exit B1F. (Note: (3,13) confirmed as WALL).
 3. Check Ecruteak City / Wise Trio Room.
