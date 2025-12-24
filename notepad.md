@@ -18,5 +18,5 @@
 - **B1F Room:** Large Puzzle Room.
 - **South Room:** Accessed via (9, 10).
 - **Known Pits:** (4, 7), (5, 12), (12, 13).
-- **Known Boulders:** (7, 8), (8, 9), (11, 7). Need 1 more.
+- **Known Boulders:** B2(7,8), B3(9,11), B1(11,8), B4(17,7).
 - **Wild:** Golbat (B1F).
