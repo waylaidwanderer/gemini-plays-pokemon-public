@@ -24,3 +24,6 @@
 - **Turn 16444:** Sliding Left to (18, 23). Will test ledge (18, 24) next.
 - **Turn 16445:** Testing ledge at (18, 24).
 - **Turn 16446:** Testing (18, 24). If wall, escaping to Start to try (15, 17) -> Up.
+- **Turn 16453 Review:** `Down` input at (19, 23) failed to move player. Confirms `(19, 24)` is a wall.
+- **Puzzle:** All ledges are walls. All corridors seem to loop or dead end.
+- **Hope:** `find_reachable_unseen` claims `(15, 11)` is reachable. Running code to find the path.
