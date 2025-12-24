@@ -39,5 +39,6 @@
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
-- Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto.
-- Plan: Surf to middle island and perform a 100% tile sweep of the island center. [Turn 17942]
+- Discovery: Pokedex 'AREA' shows 'SUICUNE'S NEST' with dots across Johto.
+- Observation: Island center (Rows 14-15) is visible from (24, 12) and empty. [Turn 17945]
+- Plan: Re-verify Suicune dot in Pokedex, then explore northern corridor (Row 4).
