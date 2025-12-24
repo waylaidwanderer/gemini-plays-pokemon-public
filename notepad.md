@@ -1,10 +1,10 @@
 # Ice Path Strategy
-- **Current Action:** Navigating East-Central Winding Path.
-- **Goal:** Follow the corridor West via Row 14 to find a Ladder to B1F.
+- **Current Action:** Navigating West along Row 14.
+- **Goal:** Reach (15, 14) and check the Ice patch to the North.
 - **Reasoning:**
-  - Direct South from (26, 12) is blocked by wall at (26, 13).
-  - Must detour East to (27, 12) -> South to (27, 14) to bypass wall.
-  - Path continues West along Row 14.
+  - The path west along Row 14 leads to (15, 14).
+  - To the North at (15, 13) is ICE. This likely leads into the large western ice room.
+  - I need to find a Ladder to B1F.
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7).
 
 # Mechanics & Lessons
@@ -12,6 +12,6 @@
 - **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls from South.
 
 # Map Structure
-- **West:** Entrance (Route 44).
+- **West:** Entrance (Route 44) & Large Ice Room?
 - **Center:** Hub.
-- **East:** Winding corridors leading deeper.
+- **East:** Winding corridors.
