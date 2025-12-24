@@ -17,11 +17,10 @@
 ## Master Plan (Revised - Center-South Loop)
 1.  **Goal:** Reach (11, 8) to push B1 UP.
 2.  **Path:**
-    - **Step 1:** Go East to (9, 9), then South to (9, 10).
-    - **Step 2:** Push Boulder B3 (at 9, 11) DOWN to (9, 12).
-    - **Step 3:** Go around B3: (9, 11) -> (10, 11) -> (10, 12) -> (10, 13).
-    - **Step 4:** Go South/East: (10, 13) -> (10, 16) -> (17, 16).
+    - **Step 1-3:** Navigate South past B3 (Completed). B3 likely pushed to (9, 13).
+    - **Step 4:** Go South/East: (10, 16) -> (17, 16).
     - **Step 5:** Go North/West: (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
+    - *Note:* Previous blockage reported at (16, 14). If blocked, backtrack to North Loop.
 3.  **Solve B1:**
     - Push Up to (11, 5).
     - Go to (10, 5). Push Right to (12, 5).
