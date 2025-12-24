@@ -10,13 +10,7 @@
 - WARP: Map transition point. Walk onto it to change maps.
 
 # Item Usage Tracking
-- Super Repel: Activated Turn 16716. Steps taken: 86. Steps remaining: 114. Expiration: ~Turn 16816.
-
-# Plan for Current Hunt
-1. Lead with XENON (Lv21).
-2. Keep Super Repel active.
-3. Pace in grass at (50, 12) using press_buttons.
-4. Check Pokedex every ~50 steps.
+- Super Repel: Activated Turn 16716. Steps taken: 66. Steps remaining: 134.
 
 # HM/TM Knowledge
 - HM01 Cut: KIMCHI (Gloom)
