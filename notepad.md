@@ -16,6 +16,9 @@
 - Attempt 1: Paced island center and fruit trees thoroughly (Turn 17710-17730). Result: FAILED. No sighting triggered.
 - Hypothesis 23: Sighting is triggered on the mainland path or water, not the island itself.
 - Hypothesis 24: Sighting requires approaching from the EAST (Mahogany side).
+- Step 1: Fly to Mahogany Town. [DONE]
+- Step 2: Enter Route 42 from the East. [DONE]
+- Step 3: Surf to the island. [In Progress]
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
