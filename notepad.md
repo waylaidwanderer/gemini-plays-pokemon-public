@@ -1,7 +1,4 @@
 # Ice Path Strategy
-- **Primary Goal:** Reach Blackthorn City.
-- **Status:** Exploring South-East Corridor.
-- **Location:** At (20, 23). Moving to (28, 20).
 - **Navigation Analysis:**
   - The "East Corridor" shifts columns.
   - North Part: x=30 (Row 12 to 18).
@@ -18,8 +15,11 @@
 - **Ledges:** `FLOOR_UP_WALL` tiles at (7,18), (8,18), (9,18), (10,18), (14,22), (20,24) are **IMPASSABLE WALLS**. Do not attempt to jump them.
 - **Map Structure:** Map appears split into West (Goal?), Center (Start/Hub), and East (Dead ends/Item Balls).
 
-# Reflection (Turn 16417)
-- **Execution:** Delayed healing slightly due to movement errors, now correcting.
-- **Hygiene:** Notepad consolidated. Markers updated for walls.
-- **Goals:** Clear.
-- **Errors:** Hallucinated ledge jumps. Root cause: Visual similarity to ledges in other tilesets. Verification: Bump test confirmed they are walls. Lesson: Verify collision before assuming traversal.
+# Map Notes
+- **East Corridor:** Accessible via (20,23) -> (25,23) -> (25,19) -> (28,19).
+- **Dead Ends:**
+  - North-East Loop (Row 11-18) connects to nothing but the East Corridor.
+  - West Row 16 is blocked.
+  - Row 18 Ledges are walls.
+  - (25, 11) is a dead end.
+- **Hypothesis:** Deep South-East (x=28, y>20) holds the key to progression (Ladder or West Path).
