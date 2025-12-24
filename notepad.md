@@ -42,3 +42,5 @@
 - Searched Burned Tower B1F. Eusine not found.
 - Exited to Ecruteak City.
 - Heading to Barrier Station (Wise Trio Room) to check for Eusine/Sages again.
+- Returning to Wise Trio Room via Ladder at (5,3).
+- Hypothesis: Eusine might have spawned here after the "Tower Shook" flag was set.
