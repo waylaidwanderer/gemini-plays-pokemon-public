@@ -1,36 +1,42 @@
 # Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL / TREE / MOUNTAIN / HEADBUTT_TREE: Impassable collision.
-- WATER: Requires Surf (HM03) to traverse. Interact with water edge or use from menu.
-- CUT_TREE: Requires Cut (HM01) to clear. Impassable otherwise. Regrows whenever the map is reloaded.
-- LEDGE: One-way jump (usually South). Cannot be jumped from below.
-- FLOOR_UP_WALL: One-way barrier. Cannot be entered from above (blocks Southward movement). Verified at (50, 14) on Route 42.
+- WATER: Requires Surf (HM03) to traverse.
+- CUT_TREE: Requires Cut (HM01) to clear. Regrows on map reload.
+- LEDGE: One-way jump (usually South).
+- FLOOR_UP_WALL: One-way barrier. Blocks Northward movement (cannot move North into it). Verified at (50, 14) on Route 42.
 - TALL_GRASS: Traversable tile. Triggers wild encounters. Verified at (46, 12) on Route 42.
-- CAVE: Warp tile leading to internal maps. Verified at (10, 5) on Route 42.
-- WARP_CARPET_LEFT / WARP_CARPET_RIGHT: Map transition tiles. Verified at (0, 8) and (60, 7) on Route 42.
-- MART_SHELF: Impassable collision. Verified at (3, 5) in Mahogany Mart.
-- COUNTER: Interaction tile for NPCs. Stand in front and face NPC to interact. Verified at (2, 3) in Mahogany Mart.
+- CAVE: Warp tile.
+- MART_SHELF: Impassable collision.
+- COUNTER: Interaction tile for NPCs. Stand in front and face NPC to interact.
 
 # Type Effectiveness
-- Ghost (Gastly - Lick) vs Normal: Immune. Verified.
-- Ghost (Gastly - Lick) vs Psychic: Super Effective. Verified.
-- Psychic (Natu - Future Sight) vs Ghost/Poison (Gastly): Super Effective. Verified.
+- Ghost (Gastly) vs Normal: Immune.
+- Ghost (Gastly) vs Psychic: Super Effective.
+- Psychic vs Ghost/Poison (Gastly): Super Effective.
+
+# Observed Movesets
+- Natu: Future Sight, Night Shade.
+- Remoraid: Psybeam.
+- Bellsprout: Stun Spore.
+
+# Battle Strategies
+- Avoid leading with XENON against Fisher trainers or Psychic users until higher level.
+- Paralysis: Reduces Speed by 75%, 25% chance to fail move.
 
 # Suicune Capture Strategy (Pokemon Crystal)
 ## Primary Goal: Capture Suicune (Roamer)
 - Status: Roaming.
 - Suicune: Last confirmed on Route 44 (Turn 16084).
 - Raikou: Last confirmed on Route 42 (Turn 15889).
-- Lead: XENON (Gastly, Lv18) - Speed: 36.
-- Strategy: Repel Trick in tall grass.
-- **CRITICAL**: Suicune will flee immediately. Mean Look is required on Turn 1.
-- Note: If Suicune is faster than 36 Speed, it will flee before Mean Look can be used.
+- Lead: XENON (Gastly, Lv18) - Speed: 36 (9 when paralyzed).
+- Strategy: Repel Trick in tall grass (Target Lv27+).
+- **CRITICAL**: Mean Look required on Turn 1.
 
-## Training Phase (Started Turn 16025)
-- Target: Route 44 (East of Mahogany Town).
+## Training Phase (Started Turn 16025, Current Turn 16101)
+- Target: Route 44.
 - Goal: Level XENON (Gastly) to Lv27.
-- Wild Pokemon Levels: Max Lv26 on Route 44. (Repel trick requires lead > Lv26).
-- Trapper Speed Requirements: Suicune (Lv40) has Base 85 Speed. XENON needs significantly more levels (likely Lv45+) or a Quick Claw to reliably use Mean Look first.
+- Wild Pokemon Levels: Max Lv26 on Route 44.
 
 ## Region Map IDs (Johto)
 - Route 38: 2_1, Route 39: 2_2, Olivine City: 2_3, Ecruteak City: 2_4
@@ -42,18 +48,11 @@
 - Goldenrod City: 1_13, Route 35: 1_14, Route 36: 1_16, Route 37: 1_17
 - Mt Mortar: 3_1
 
-## Observed Movesets
-- Natu (Psychic Phil): Future Sight, Night Shade.
-- Remoraid (Fisher Edgar): Psybeam.
-
-# Battle Strategies
-- Strategy Adjustment: Avoid leading with XENON against Fisher trainers or known Psychic move users until higher level.
-
 ## Route 44 Wild Encounters
 - Grass: Tangela (Lv23-26), Lickitung (Lv24-26), Bellsprout (Lv22-24), Weepinbell (Lv24-26).
 - Water: Poliwag (Lv20-24), Poliwhirl (Lv24-26).
 
-## Reflection Lessons (Turn 15842)
-- Fly Menu Navigation: Fly map movement is not a simple coordinate grid; it's a linked list of cities. Moving "Up" cycles through the known locations.
-- Repel Trick Persistence: Repel effects persist across map transitions. Check effect status before using a new one to save money.
-- Roamer Movement: Roamers move when the player crosses a map boundary (Warp Carpet or Warp).
+## Reflection Lessons
+- Fly Menu: Cycles through locations with Up/Down.
+- Repel Trick: Lead level must be > wild max but < roamer level.
+- Roamer Movement: Moves when player crosses map boundary.
