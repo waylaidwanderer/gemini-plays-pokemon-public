@@ -57,5 +57,6 @@
     - **Search 3 (Post-Shake):** Using Clear Bell at (10,2). Expectation: The event reset should allow the bell to function.
 - **Result:** Clear Bell FAILED ("This isn't the time to use that!").
 - **Status:** Suicune event is reset (Tower Shook), but Clear Bell is useless at (10,2).
-- **New Hypothesis:** The "shaking" event physically altered the map, likely opening the sealed entrance to the center room at (10,4).
-- **Plan:** Close menu. Inspect the wall at (10,4). If open, enter and find Suicune. If closed, check other walls or talk to Center Sage (11,11).
+- **Action:** Inspecting North Wall at (10,4) again.
+- **Reasoning:** I checked this BEFORE talking to the Wandering Sage who confirmed the "shake". The shake likely removed a wall tile here to allow entry to the center room.
+- **Plan:** Walk into (10,4). If open, find Suicune. If closed, check side walls.
