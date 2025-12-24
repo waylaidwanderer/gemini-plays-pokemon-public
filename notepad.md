@@ -10,10 +10,10 @@
 - Step 3: Sweep remaining island floor tiles. [DONE]
 - Result: Full sweep of island clearing (Rows 14-17) failed to trigger Suicune.
 - Step 4: Explore western mainland path at (1, 8)-(3, 10). [DONE]
-- Result: No trigger found on western floor tiles.
-- Step 5: Check Pokedex to confirm Suicune's current location. [In Progress]
-- Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar (10, 5) or (28, 9) back-exits.
-- Hypothesis 31: Trigger is in the southern water or requires approaching the island perimeter from the water.
+- Result: No trigger found on western floor tiles (Turn 17837).
+- Step 5: Confirm Suicune's location in Pokedex AREA map. [In Progress]
+- Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
+- Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
