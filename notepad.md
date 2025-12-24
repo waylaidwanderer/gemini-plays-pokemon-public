@@ -45,8 +45,8 @@
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
 - **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
 - **Plan:** Take the ladder at (17,15).
-- **Status:** Right Sage (14,6) is passive.
-- **Action:** Checking Left Sage at (5,9).
-- **Plan:** Navigate to (6,9), face Left, talk.
-- **Hypothesis:** One of the Sages must trigger the battle. If all 3 are passive, I'm missing a puzzle step (or the Warp (10,2) is the key and requires a specific item/trigger I missed, though I have the Clear Bell).
-- **Correction:** I will also try walking *into* their line of sight if talking fails.
+- **Status:** Left Sage (5,9) is reachable.
+- **Action:** Interacting with Left Sage from (5,8) (Above).
+- **Observation:** Sage faces Right (into a wall?).
+- **Hypothesis:** If this fails, the "trigger" might be walking past them or something else.
+- **Contingency:** If all Sages are passive, revisit the "Warp (10,2) + Clear Bell" theory or re-check the Center Room entrance for invisible walls.
