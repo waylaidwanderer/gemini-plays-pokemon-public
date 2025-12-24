@@ -43,6 +43,4 @@
 - Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
-
-## Reminders
 - Fisher Tully (Route 42, 40, 10) has an item for me. (Turn 16158)
