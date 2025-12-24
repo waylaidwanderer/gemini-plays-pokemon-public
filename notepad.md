@@ -13,7 +13,7 @@
 - LEDGE: One-way movement (usually South).
 - WARP / DOOR / WARP_CARPET: Map transition.
 - CUT_TREE: Impassable until Cut is used.
-- HEADBUTT_TREE: Impassable. Triggers 'Want to HEADBUTT it?' prompt when interacted with from an adjacent tile. Some trees may appear like standard walls but are actually interactable.
+- HEADBUTT_TREE: Impassable. Triggers 'Want to HEADBUTT it?' prompt when interacted with from an adjacent tile. Verified on Route 42 island.
 
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
