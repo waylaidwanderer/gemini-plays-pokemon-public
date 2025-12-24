@@ -52,4 +52,4 @@
   - Y=16: X(26-30)
   - Y=17: X(26-30)
 - Note: Already tested tiles near fruit trees (27-29, 16).
-- Progress: Systematic search initiated. Y=10, Y=11, and Y=12 completed. Currently at (28, 12). Moving to (24, 13).
+- Progress: Systematic search initiated (Turn 17654). Y=10, 11, 12, 13 completed. Currently at (24, 13). Moving to Y=14.
