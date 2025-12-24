@@ -5,7 +5,7 @@
 - Milestone 4: Tin Tower (Battled).
 - Status: Roaming. Goal: Catch Suicune.
 - Strategy: Track via Pokedex AREA map. Patrol tall grass on the indicated route.
-- Contingency: If Suicune moves after a map transition, fly to a central location (like Ecruteak) and move between routes until it overlaps with my location.
+- Lead: XENON (Gastly) with Mean Look and Hypnosis.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
