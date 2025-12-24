@@ -20,3 +20,5 @@
 - **Barrier Station:** Left Side (City), Right Side (Tower), linked by Wise Trio Room.
 - **Tile Mechanics:** WARP_CARPETs may need specific input (e.g. Down to exit Tower).
 - **Tin Tower Exit:** From (37,9) navigate maze to (20,3).
+- Cooltrainer F (PC) gave generic Morty dialogue.
+- Plan: Check Burned Tower for Eusine.
