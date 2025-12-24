@@ -20,12 +20,6 @@
 - Navigation Note: To exit Tin Tower area, go DOWN to (37,9) first, then navigate the maze:
   (34,9) -> Up to (34,7) -> Left to (32,7) -> Up to (32,5) -> Left to (28,5) -> Up to (28,3) -> Left to Exit.
 - Current Goal: Find Eusine in Barrier Station (City Side) or Ecruteak City to trigger Suicune event.
-- Location: Barrier Station (City Side).
-- Action: Interacting with Sage at (4,6).
-- Target: Find Eusine.
-- Sage at (4,6) says "Please, do go on." - Useless.
-- Plan: Check Sage at (5,10) and Gramps at (2,10).
-- Wandering Sage at (6,9) confirms: "The TIN TOWER shook! A POKéMON must have returned to the top!"
-- Action: Talking to Gramps at (4,11) next.
-- Gramps at (2,12) gave generic lore.
-- Plan: Exit to Ecruteak City. Check Burned Tower or Pokemon Center for Eusine.
+- Status: Searching for Eusine in Ecruteak City.
+- Plan: Check Pokemon Center and Burned Tower.
+- Wandering Sage at (6,9) in Barrier Station confirmed: "The TIN TOWER shook! A POKéMON must have returned to the top!"
