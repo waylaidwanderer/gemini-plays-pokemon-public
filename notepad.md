@@ -33,3 +33,5 @@
 - **Observation:** Suicune is NOT visible at (9,9) from position (9,11).
 - **Hypothesis:** "Returned to the top" implies Suicune is on a higher floor or the Roof.
 - **Plan:** Re-check the "Mystery Warp" at (10,2). The event reset might have activated it. If not, search for stairs in unexplored corners (Top-Right).
+- **Action:** Retrying "Mystery Warp" at (10,2) now that the Wandering Sage confirmed the tower shook.
+- **Reasoning:** The warp was inactive before, but the "shaking" event likely activated the path to the top. The XML map data explicitly flags (10,2) as a warp.
