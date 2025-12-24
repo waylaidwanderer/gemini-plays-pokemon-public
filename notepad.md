@@ -83,3 +83,5 @@
 - **Plan:** Path East is now clear. Proceeding East to explore the rest of the Warehouse.
 - **Observation (Turn 15049):** Blocked by a vertical wall at x=8. However, I can see tiles on the other side (x=9+), suggesting a parallel corridor.
 - **Plan:** Moving South along the wall to find a gap or door to cross to the eastern side.
+- **Observation (Turn 15050):** Spotted a Rocket Grunt at `(9, 8)` and a Gentleman (likely the Director) at `(12, 8)` behind the wall.
+- **Plan:** Continue South to find a way around the wall to reach them.
