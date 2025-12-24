@@ -1,11 +1,12 @@
 # Ice Path Strategy
-- **Current State:** At (25, 4) [North Corridor].
-- **Goal:** Reach Ladder to B1F (likely NE).
+- **Current State:** At (33, 4).
+- **Goal:** Reach Ladder to B1F at (37, 5).
 - **Plan:**
-  1. Continue walking **East** along Row 4 Corridor towards the NE corner.
-  2. Locate Ladder (or hole).
-- **Item Ball (35, 9):** Keep an eye out for access points from the North.
+  1. Walk **South** to (33, 6) to bypass the wall.
+  2. Walk **East** to (36, 6).
+  3. Walk **North** to (36, 5) then **East** to the Ladder at (37, 5).
+- **Secondary Target:** Item Ball at (35, 9). Accessible via Ledge at (35, 8) (jump from 35, 7).
 
 # Map Structure
-- **North Corridor (Row 4):** Connects Central Area to NE.
-- **NE Area:** Exploration target.
+- **NE Corner:** Contains Ladder to B1F.
+- **Access:** Requires doglegging south to Row 6.
