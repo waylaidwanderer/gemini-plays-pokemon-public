@@ -30,3 +30,4 @@
   2. If fail, go to (18, 23) [Ice]. Press Down to test (18, 24).
 - **Turn 16444:** Sliding Left to (18, 23). Will test ledge (18, 24) next.
 - **Turn 16445:** Testing ledge at (18, 24).
+- **Turn 16446:** Testing (18, 24). If wall, escaping to Start to try (15, 17) -> Up.
