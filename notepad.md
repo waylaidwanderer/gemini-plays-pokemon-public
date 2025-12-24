@@ -3,7 +3,7 @@
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
 - Milestone 3: Route 42 (Seen).
 - Milestone 4: Route 36 (Current). Strategy: Try entering from different gates (West/South) to trigger sighting.
-- Milestone 5: Tin Tower (Final). Clear Bell is in inventory.
+- Milestone 5: Tin Tower (Final). Requirement: Clear Bell + all scripted sightings (Burned Tower, Cianwood, Route 42, Route 36). Raikou and Entei must be released.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
