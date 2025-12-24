@@ -9,8 +9,8 @@
 
 # Current Mission
 - **Goal:** Catch Suicune / Find Eusine.
-- **Immediate Action:** Go to Tin Tower Yard -> Tin Tower 1F.
-- **Expectation:** Eusine or the Sages should be there, or the path forward (Clear Bell?) is active.
+- **Immediate Action:** Check Wise Trio Room (20, 2) then Go to Dance Theater (23, 21).
+- **Reasoning:** Sages were useless. Checking Wise Trio Room one last time before heading to Dance Theater.
 
 # Reference
 - **Barrier Station:** 
