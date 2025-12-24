@@ -401,7 +401,7 @@
         "direction"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    input_data = json.loads(sys.argv[1])\nexcept (IndexError, json.JSONDecodeError):\n    input_data = {}\n\ncycles = int(input_data.get('cycles', 1))\ncycles = max(1, min(cycles, 5))\ndirection = input_data.get('direction', 'horizontal')\n\nbuttons = []\nif direction == \"horizontal\":\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\nelif direction == \"vertical\":\n    for _ in range(cycles):\n        buttons.extend([\"Up\", \"Down\"])\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\n# Get raw input\nraw_input = sys.argv[1] if len(sys.argv) > 1 else \"{}\"\ntry:\n    input_data = json.loads(raw_input)\nexcept:\n    input_data = {}\n\n# Use .get() with defaults and explicit conversion\ncycles_val = input_data.get('cycles', 1)\ntry:\n    cycles = int(cycles_val)\nexcept:\n    cycles = 1\n\n# Limit cycles to ensure we don't exceed step limits or system constraints\ncycles = max(1, min(cycles, 5))\n\ndirection = input_data.get('direction', 'horizontal')\n\nbuttons = []\nif direction == \"horizontal\":\n    for _ in range(cycles):\n        buttons.extend([\"Left\", \"Right\"])\nelif direction == \"vertical\":\n    for _ in range(cycles):\n        buttons.extend([\"Up\", \"Down\"])\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -417,6 +417,11 @@
         "commit_message": "Refined input parsing and added a cycle limit to ensure reliable button sequences.",
         "timestamp": "2025-12-24T08:32:58.267Z",
         "action_counter": 16690
+      },
+      {
+        "commit_message": "Improved input parsing and added explicit type conversion for 'cycles' to ensure reliable behavior.",
+        "timestamp": "2025-12-24T08:35:07.059Z",
+        "action_counter": 16696
       }
     ]
   }
