@@ -1,17 +1,16 @@
 # Ice Path Strategy
-- **Current State:** At Floor (20, 23).
-- **Hypothesis:** The exit from the loop is via the ledge at (18, 24).
+- **Current State:** At (18, 23).
+- **Goal:** Reach the North-East area via the hidden corridor at x=25.
+- **Correction:** The "Shortcut" path logic was flawed, but the Reachability Tool confirmed a path to x=25.
+- **Visual Check:** XML shows (25, 21) and (25, 22) are FLOOR tiles. There is a corridor going North at x=25.
 - **Plan:**
-  1. Step **Left** from (20, 23) to (19, 23).
-  2. Slide Left to stop at (18, 23) (Blocked by Wall at 17, 23).
-  3. Jump **Down** over ledge at (18, 24).
-  4. Land on Floor (18, 25).
-  5. Go West to x=0 (West Corridor).
-  6. Go North to reach Ladder/Exit.
-
-- **Backup:** If (18, 24) is a wall, explore the East Corridor via (25, 21) thoroughly.
+  1. Slide **Right** to (20, 23) (Floor).
+  2. Walk East to (24, 23).
+  3. Walk Up to (24, 22), then Right to (25, 22).
+  4. Walk North along x=25 to reach the NE area.
 
 # Map Structure
-- **SE Floor:** Connected to Hub Ice and East Corridor.
-- **West Corridor:** Accessed via South Ledges (Row 24?).
-- **Goal:** Reach North-West area via West Corridor.
+- **West Corridor (x=0):** Isolated/Unreachable from here.
+- **Hub (14, 16):** Connected to SE Floor.
+- **SE Floor:** Contains entrance to East Corridor (x=25).
+- **East Corridor (x=25):** The key to progressing North.
