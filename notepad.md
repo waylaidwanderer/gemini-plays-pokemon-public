@@ -35,3 +35,6 @@
 - **Plan:** Re-check the "Mystery Warp" at (10,2). The event reset might have activated it. If not, search for stairs in unexplored corners (Top-Right).
 - **Action:** Retrying "Mystery Warp" at (10,2) now that the Wandering Sage confirmed the tower shook.
 - **Reasoning:** The warp was inactive before, but the "shaking" event likely activated the path to the top. The XML map data explicitly flags (10,2) as a warp.
+- **Status:** Standing on (10,2). Warp did not auto-trigger.
+- **Action:** Pressing 'A' to inspect the floor.
+- **Plan:** If inspection fails, I will step off and back on. If that fails, I will try using the Clear Bell again (just in case).
