@@ -31,9 +31,9 @@
 - **Team Change:** Swapped Belladonna for Lucid (Drowzee Lv 13). Team is full (6/6).
 - **Shopping:** Budget ¥12952. Buying 21 Great Balls (¥12600).
 - **Next:** Exit Center -> Mart -> Train Lucid/Lapis on Route 37/38?
-- **Tactics:** Equip Quick Claw to Lucid (Drowzee). This gives a chance to move first and land Hypnosis before Suicune attacks!
+- **Tactics:** Equip Quick Claw to Lucid (Drowzee) - DONE.
 - **Inventory Update:** Bought 21 Great Balls. Total: 24.
-- **Next Step:** Equip Quick Claw to Lucid. Then test speed/hypnosis on wild pokemon.
+- **Next Step:** Test speed/hypnosis on wild pokemon (Optional). Proceed to Suicune.
 - **Action:** Equipping Quick Claw to Lucid (Slot 6).
 - **Goal:** Increase Lucid's chance to move first and use Hypnosis on Suicune.
 - **Party Order:** Moving Gyarados to Lead (Slot 1) for Dragon Rage strategy.
