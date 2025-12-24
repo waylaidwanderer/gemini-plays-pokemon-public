@@ -78,3 +78,6 @@
 - Observation: Center Sage (11,11) gave generic lore again.
 - Action: Checking Right Sage (14,6) now.
 - Hypothesis: If ALL sages give generic lore, the event might be stuck or I need to find Eusine elsewhere.
+- Observation: Right Sage (14,6) also gives generic lore ("The two TOWERS...").
+- Conclusion: "Tower Shook" event did NOT update the Sages' dialogue inside Tin Tower 1F.
+- Plan: Verify Left Sage (5,9) just in case, then Exit.
