@@ -10,10 +10,9 @@
 - **Loop Plan:**
   1. Slide **Up** -> (18, 20). [DONE]
   2. Slide **Left** -> (14, 20). [DONE]
-  3. Slide **Up** -> (14, 16). [NEXT]
-  4. Walk to (13, 17).
-  4. Walk to (13, 17).
-  5. Slide **Right** -> (15, 17).
+  3. Slide **Up** -> (14, 16). [DONE]
+  4. Walk to (13, 17). [DONE]
+  5. Slide **Right** -> (15, 17). [NEXT]
   6. Slide **Down** -> (15, 21).
   7. Slide **Right** -> (19, 21).
   8. Slide **Down** -> (19, 23).
