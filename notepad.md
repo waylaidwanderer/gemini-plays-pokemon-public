@@ -20,18 +20,17 @@
 - **CRITICAL**: Suicune will flee immediately. Mean Look is required on Turn 1.
 - Note: If Suicune is faster than 36 Speed, it will flee before Mean Look can be used.
 
-## Repel Trick Active Hunt (Started Turn 15841)
-- Lead: XENON (Gastly, Lv18).
-- Location: Route 42 Grass (50, 12).
-- Status: Suicune confirmed on Route 42 (Turn 15858).
-- Super Repel: Active (Turn 15883).
+## Training Phase (Started Turn 15902)
+- Target: Route 44 (East of Mahogany Town).
+- Goal: Level XENON (Gastly) to outspeed Lv40 Roamers.
+- Current Status: Heading to Mahogany Town. Super Repel active.
 
 ## Route 42 (2_5) Connections (Verified via get_map_connections)
 - West: Ecruteak City (2_4)
 - East: Mahogany Town (2_6)
 - North: Mt. Mortar (3_1)
-- Step 1: Pace in grass at (50, 12) <-> (51, 12) using wild_encounter_looper.
-- Step 2: Turn 1 of battle: MEAN LOOK.
+- Step 1: Navigate to (59, 7) and step East to enter Mahogany Town.
+- Step 2: Traverse Mahogany Town to Route 44.
 
 ## Party Strategy
 - XENON (Gastly, Lv18): Lead for Mean Look/Hypnosis.
