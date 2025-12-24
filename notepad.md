@@ -3,13 +3,18 @@
 
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Heading to West Corridor.
-- **Realization:** The "Ice Puzzle" was a trap/side-path for items. The main path seems to be simply **walking West** from the start `(13, 16)` to the corridor at `x=0`.
+- **Status:** Testing Ledge Hypothesis.
+- **Analysis:**
+  - The map is divided vertically. The West Corridor (x=0) is the goal.
+  - The **ONLY** connection found is at **Row 22** (x=0 to x=14 are Floor).
+  - To reach Row 22, I must pass the barrier at Row 18.
+  - The barrier consists of `FLOOR_UP_WALL` tiles. These MUST be jumpable ledges, or I am missing a hidden mechanic.
 - **Plan:**
-  1. Escape current spot: `(18, 23)` -> Up -> Left -> Up -> Left to `(13, 16)`.
-  2. Walk West to `(0, 16)`.
-  3. Walk North up the `x=0` corridor to explore the unseen North-West area.
-- **Items:** Item Balls at (32, 23) and (35, 9) (saved for later).
+  1. Go to (8, 17).
+  2. Attempt to jump ledge at (8, 18).
+  3. If successful, walk South to Row 22, then West to x=0.
+  4. If fail, this implies `FLOOR_UP_WALL` are solid walls. I will need to reassess the entire map for missed Warps or Ladders.
+- **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
