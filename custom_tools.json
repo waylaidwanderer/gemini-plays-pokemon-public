@@ -249,5 +249,41 @@
         "action_counter": 17401
       }
     ]
+  },
+  "pace_area": {
+    "description": "Generates a sequence of button presses to pace back and forth between two coordinates to trigger encounters or events.",
+    "input_schema": {
+      "properties": {
+        "direction": {
+          "description": "The axis to pace on ('horizontal' or 'vertical')",
+          "type": "string"
+        },
+        "num_paces": {
+          "description": "How many times to move back and forth",
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "direction",
+        "num_paces"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ndef pace(start_x, start_y, direction, num_paces):\n    buttons = []\n    if direction == 'horizontal':\n        for _ in range(num_paces):\n            buttons.append('Left')\n            buttons.append('Right')\n    elif direction == 'vertical':\n        for _ in range(num_paces):\n            buttons.append('Up')\n            buttons.append('Down')\n    print(json.dumps(buttons))\n\nimport sys\ninput_data = json.loads(sys.argv[1])\npace(input_data['start_x'], input_data['start_y'], input_data['direction'], input_data['num_paces'])\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T17:52:55.120Z",
+        "action_counter": 17762
+      }
+    ]
   }
 }

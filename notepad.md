@@ -42,3 +42,11 @@
 - Rock Smash (Info): Route 36 (Fisher at 44, 9).
 - Fisher Tully: Route 42. Gives items.
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
+
+# General Lessons & Observations
+- Scripted overworld events (like Suicune sightings) often depend on the direction of approach or entering a specific coordinate trigger zone. Systematic testing of approach angles is necessary.
+- When the Pokedex confirms a legendary's location but it isn't visible, it's likely a scripted event trigger rather than a random encounter in grass (at this stage of the game).
+
+# Task Timestamps
+- Suicune Hunt (Route 42): Started Turn 17642.
+- Current Hypothesis (East Approach): Started Turn 17754.
