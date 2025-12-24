@@ -1,6 +1,6 @@
 {
   "battle_grind": {
-    "description": "Selects a move from the battle move menu (assuming it starts at the top move) and clears subsequent text boxes. Assumes the move menu is already open or is being opened in the same turn.",
+    "description": "Selects a move from the battle move menu (resetting to top first) and clears subsequent text boxes. Assumes the move menu is already open.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -13,7 +13,7 @@
         "move_index"
       ]
     },
-    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    buttons = [\"sleep 600\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\ntry:\n    move_index = int(input_data.get('move_index', 0))\n    # Reset to top (assume max 4 moves)\n    buttons = [\"Up\", \"sleep 200\", \"Up\", \"sleep 200\", \"Up\", \"sleep 200\"]\n    for _ in range(move_index):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 250\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    for _ in range(16):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 450\")\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -69,6 +69,11 @@
         "commit_message": "Refine battle_grind: Add initial sleep to allow move menu animation to complete.",
         "timestamp": "2025-12-24T05:22:48.271Z",
         "action_counter": 16377
+      },
+      {
+        "commit_message": "Fix battle_grind: Ensure script prints valid JSON and handles input_data correctly. Added move menu reset.",
+        "timestamp": "2025-12-24T05:27:27.269Z",
+        "action_counter": 16381
       }
     ]
   },
@@ -311,54 +316,6 @@
         "commit_message": "Finalized ledge and FLOOR_UP_WALL (Southward block) logic for accurate map analysis.",
         "timestamp": "2025-12-24T03:26:52.937Z",
         "action_counter": 16154
-      }
-    ]
-  },
-  "use_healing_item_from_bag": {
-    "description": "Navigates the bag from the current cursor position to a healing item, then uses it on a specified Pokemon. Assumes the specified option is the first in the sub-menu if option_down_count is 0.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "item_down_count": {
-          "type": "integer",
-          "description": "Number of 'Down' presses to reach the item from the current cursor."
-        },
-        "option_down_count": {
-          "type": "integer",
-          "description": "Number of 'Down' presses to reach the desired option (USE, etc.) in the sub-menu."
-        },
-        "pokemon_index": {
-          "type": "integer",
-          "description": "Index of the Pokemon in the party (0-5)."
-        }
-      },
-      "required": [
-        "item_down_count",
-        "option_down_count",
-        "pokemon_index"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        if len(sys.argv) < 2:\n            print(json.dumps([\"B\"]))\n            return\n        input_data = json.loads(sys.argv[1])\n        item_down = int(input_data.get('item_down_count', 0))\n        option_down = int(input_data.get('option_down_count', 0))\n        pkmn_idx = int(input_data.get('pokemon_index', 0))\n        \n        buttons = []\n        for _ in range(item_down):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select item\n        buttons.append(\"sleep 500\")\n        for _ in range(option_down):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select option (USE, etc.)\n        buttons.append(\"sleep 500\")\n        for _ in range(pkmn_idx):\n            buttons.append(\"Down\")\n        buttons.append(\"A\") # Select Pokemon\n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([\"B\"]))\n\nif __name__ == \"__main__\":\n    main()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T03:36:57.469Z",
-        "action_counter": 16172
-      },
-      {
-        "commit_message": "Fix IndexError by checking sys.argv length and adding robust error handling.",
-        "timestamp": "2025-12-24T03:41:53.214Z",
-        "action_counter": 16182
-      },
-      {
-        "commit_message": "Fix IndexError by checking sys.argv length and adding robust error handling for input parsing.",
-        "timestamp": "2025-12-24T03:42:18.267Z",
-        "action_counter": 16183
-      },
-      {
-        "commit_message": "Add option_down_count parameter to handle cases where 'USE' is not the first menu option.",
-        "timestamp": "2025-12-24T04:02:36.043Z",
-        "action_counter": 16229
       }
     ]
   }
