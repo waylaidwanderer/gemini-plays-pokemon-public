@@ -44,13 +44,10 @@
 - Fisher Tully: Route 42. Gives items.
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
 
-# Task Timestamps
+# Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Mt. Mortar B1F Exploration: Started Turn 17881.
-- Plan: Surf East and North in MountMortarB1F to find an exit or path to the northern corridor of Route 42. Account for movement redirection if encountered on water.
-- Observation: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with multiple blinking dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower).
-- Observed strange movement redirection in MountMortarB1F:
-  - Action 'Up' at (20, 28) moved player 'Right' to (21, 28).
-  - Action 'Right' at (21, 27) moved player 'Down' to (21, 28).
-  - Action 'Up' at (21, 28) successfully moved player 'Up' to (21, 27).
-  - Hypothesis: FLOOR_UP_WALL tiles or specific boundaries in this area may redirect movement.
+- Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto (Burned Tower, Cianwood, Route 42, Route 36, Tin Tower). Confirms scripted sequence.
+- Discovery: MountMortarB1F movement redirection confirmed on FLOOR_UP_WALL tiles (e.g., Up at 20,28 moves Right).
+- Observation: (21, 28) Up -> (21, 27) works normally.
+- Plan: Collect item at (21, 26) from (21, 27), then search for a ladder/exit to Route 42 North.
