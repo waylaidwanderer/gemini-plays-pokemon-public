@@ -6,24 +6,16 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (11, 8).
-- **Goal:** Solve B1 (Top Right Boulder).
-- **Puzzle State:**
-  - **B1:** (11, 5). (Blocked by Wall at 11, 4).
-  - **B2:** (7, 8).
-  - **B3:** (9, 11).
-  - **B4:** (17, 7).
+- **Position:** Player at (10, 5).
+- **Goal:** RESET PUZZLE (Boulder B1 stuck at 10, 1).
+- **Error:** Pushed B1 too far North (to 10, 1 instead of 10, 2). Cannot push down due to Wall at 10, 0.
 
-## Master Plan (Revised)
-1.  **Move B1 to Right Column (Col 12):**
-    - Go to (10, 5).
-    - Push B1 Right to (12, 5).
-2.  **Move B1 Up:**
-    - Go to (12, 6).
-    - Push B1 Up to (12, 1).
-3.  **Finish B1:**
-    - Go to (13, 1).
-    - Push Left to (11, 1).
-    - Go to (11, 0).
-    - Push Down into Pit (11, 2).
-4.  **Next:** Solve B2.
+## Recovery Plan
+1.  **Reset:** Jump into Pit at (12, 13).
+2.  **Return:** Navigate back to B1F.
+3.  **Retry B1:**
+    - Push B1 Up to (11, 5).
+    - Push Left to (10, 5).
+    - Push Up to (10, 2) (**STOP HERE**).
+    - Go around to (9, 2).
+    - Push Right into Pit (11, 2).
