@@ -43,10 +43,16 @@
 - **New Path:** The path East from `(9, 3)` is blocked (Row 3, Col 10-13 are Walls). Must use the northernmost corridor (Row 1) to cross from West to East.
 - **Route:** `(13, 8)` -> `(14, 5)` -> `(9, 5)` -> `(9, 1)` -> `(17, 1)` -> `(17, 2)`.
 - **Plan:** Executing route to the Ladder.
-- **Transition (Turn 15104):** Exited Warehouse via Ladder at `(17, 2)`. Arrived in **Goldenrod Dept. Store B1F (3_55)** at `(17, 2)`.
-- **Plan:** Exit Dept. Store and head to Radio Tower.
-- **Observation (Turn 15105):** Path blocked by Item Ball at `(14, 2)`.
-- **Action:** Picking it up to clear the path to the elevator.
-- **Action (Turn 15106):** Picked up **Amulet Coin** at `(14, 2)`.
-- **Note:** Amulet Coin doubles prize money. Should equip this to a lead Pokémon soon.
-- **Plan:** Clear text, navigate to Elevator `(10, 4)`, exit Dept. Store, proceed to Radio Tower.
+- **Current State:**
+    - **Location:** Goldenrod Dept. Store B1F (3_55).
+    - **Position:** `(14, 3)`.
+    - **Objective:** Exit Dept. Store and head to Radio Tower.
+    - **Inventory:** Obtained Card Key and Amulet Coin.
+- **Mapping B1F:**
+    - Stuck in the Northeast quadrant (Rows 2-3, Cols 13-17).
+    - Exit seems to be at `(16, 4)` (marked as Blue Barrier).
+    - Goal: Pass `(16, 4)` to reach the main area and elevator at `(10, 4)`.
+- **Plan:**
+    1. Navigate to `(16, 5)` via `(16, 4)`.
+    2. Navigate to Elevator at `(10, 4)`.
+    3. Exit to Goldenrod City.
