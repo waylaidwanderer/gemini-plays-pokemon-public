@@ -27,3 +27,8 @@
 - Test find_path_v2 fix.
 - Test FLOOR_UP_WALL at (50, 14).
 - Retrieve item from Fisher Tully (Route 42, 40, 10). (Turn 16158)
+
+# Observed Movesets (Additions)
+- Tangela: Absorb, Vine Whip, PoisonPowder.
+- Bellsprout: Vine Whip, PoisonPowder, Sleep Powder.
+- Weepinbell: PoisonPowder, Acid, Wrap.
