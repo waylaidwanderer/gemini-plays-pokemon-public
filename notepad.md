@@ -1,6 +1,6 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (20, 23). Facing Right.
+- **Current Status:** In Ice Path 1F at (23, 23). Facing Right.
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
   - **Ledges:** One-way jumps.
@@ -11,10 +11,10 @@
     2. **North Path:** Right -> Up -> Left -> Up.
     3. **South-West Path:** Left -> Down -> Ledge to Floor.
   - **Exploration:** 
-    - Walking on the floor platform at Row 22-23.
-    - Ledges at x=16-20 allow jumping South.
-    - Connection to South area appears to be open floor at x=22-24.
-  - Plan: Walk East to (23, 23) to see more of the area.
+    - Explored the floor platform at Row 22-24.
+    - The South end (Row 24) appears to be a dead end backed by walls.
+    - The path continues North-East through a gap at (25, 21).
+  - Plan: Move to (25, 20) to continue exploration.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
