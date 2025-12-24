@@ -36,3 +36,9 @@
 ## Suicune Trigger Mechanics
 - Pokedex 'Area' tracks the current active overworld sighting location.
 - Sightings are triggered by specific tile-entry or movement zones, not object interaction.
+
+# Suicune Trigger Log (Route 42)
+- Hypothesis 1: Trigger at (28, 15). Result: Failed (Turn 17461).
+- Hypothesis 2: Trigger at (28, 12). Result: Pending.
+- Hypothesis 3: Trigger at (24, 12). Result: Pending.
+- Hypothesis 4: Movement from y=13 to y=12 triggers event. Result: Pending.
