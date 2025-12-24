@@ -31,3 +31,4 @@
 - **Turn 16322:** Defeated Cooltrainer Allen at (37,15).
 - **Turn 16327:** At (44,4). Path blocked by ledges. Looping South to (44,14) then East to (49,14) to use the gap.
 - **Turn 16328:** Entered Ice Path 1F at (4,19).
+- **Observation:** Spotted an Item Ball at (32, 23) in the eastern ice area, currently separated by a wall.
