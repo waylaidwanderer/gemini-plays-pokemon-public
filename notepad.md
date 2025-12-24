@@ -65,3 +65,9 @@
 - Route 32: 1_7, Route 33: 1_9, Azalea Town: 1_10, Route 34: 1_12
 - Goldenrod City: 1_13, Route 35: 1_14, Route 36: 1_16, Route 37: 1_17
 - Mt Mortar: 3_1
+
+# Roamer Hunting Mechanics
+- Repel Trick: Lead Pokemon level must be higher than area wild Pokemon (Max Lv17 on Route 42 grass) but lower than Roamer level (Lv40). Repel will then only allow Roamer encounters.
+- Speed Check: XENON (Lv18, Speed 36) is confirmed too slow to use Mean Look before Raikou/Suicune flee. Lv40 Roamers have significantly higher speed.
+- Strategy Update: Need to level XENON or find a faster trapper before continuing the hunt. Current pacing is ineffective for capture.
+- Quick Claw: Not in inventory. Check future locations for this item.
