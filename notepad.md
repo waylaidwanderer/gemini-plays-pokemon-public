@@ -14,8 +14,10 @@
 - Step 1: Sweep Row 12: (22, 12) to (28, 12). [DONE]
 - Step 2: Sweep Row 11: (20, 11) to (33, 11). [DONE]
 - Step 3: Sweep Row 10: (20, 10) to (33, 10). [DONE]
-- Step 4: Sweep tiles at (33, 9), (32, 9), (32, 8), (33, 8). [In Progress]
-- Step 5: If no trigger, walk vertically from Mt. Mortar exit (28, 9) to (28, 17).
+- Step 4: Sweep tiles at (33, 9), (32, 9), (32, 8), (33, 8). [DONE]
+- Result: Island clearing floor (Rows 10-17) is 100% swept. No trigger.
+- Step 5: Sweep remaining western mainland floor tiles: (4, 8)-(12, 8), (5, 9)-(12, 9), (5, 10)-(9, 10), (4, 12)-(7, 13).
+- Hypothesis 34: Trigger is on the western mainland path, possibly near the headbutt trees or the Ecruteak gate.
 - Hypothesis 33: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking directly south to the trees.
 - Hypothesis 30: Trigger is on the upper ledges of Route 42, accessible only via Mt. Mortar.
 - Hypothesis 31: Trigger is in the water (Row 12-13) or southern island edge.
