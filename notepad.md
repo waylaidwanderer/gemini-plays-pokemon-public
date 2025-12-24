@@ -23,7 +23,8 @@
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- WALL / HEADBUTT_TREE / ROCK / VOID / FLOOR_UP_WALL / WATER_ROCKS: Impassable.
+- FLOOR_UP_WALL: Traversable. Appears to have redirection properties (e.g., Up at 20,28 moves Right; Right at 21,27 moves Down).
+- WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until HM01 CUT.
 - WATER: Traversable with HM03 SURF.
 - TALL_GRASS / LONG_GRASS: Traversable; triggers encounters.
