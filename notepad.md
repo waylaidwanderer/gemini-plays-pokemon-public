@@ -4,9 +4,8 @@
 - Milestone 3: Route 42 (In Progress). Pokedex AREA map shows Suicune on Route 42.
 
 ## Strategy/Hypotheses:
-- Hypothesis 1: Suicune is roaming. Action: Search tall grass on Route 42 (X=46-53, Y=13).
-- Hypothesis 2: Suicune is in the hidden Western Pocket. Action: Find exit from Mt. Mortar (10, 5) to Route 42 (X=7-11, Y=1-2).
-- Note: Island sweep (X=24-30, Y=14-17) failed to trigger sighting.
+- Hypothesis 1: Suicune is roaming. Action: Search tall grass on Route 42 (X=46-53, Y=13). Verified Turn 18168.
+- Note: Pokedex AREA map shows Suicune on Route 42, indicating Roaming mode. Island sweep (X=24-30, Y=14-17) failed to find sprite.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
