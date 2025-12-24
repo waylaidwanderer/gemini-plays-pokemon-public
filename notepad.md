@@ -5,9 +5,9 @@
 - **Lore:** Clear Bell is connected to Tin Tower in Ecruteak.
 
 # Current Objectives
-- **Location:** Radio Tower 1F -> Goldenrod City.
-- **Immediate:** Exit Radio Tower, Heal at Center.
-- **Next:** Travel to Ecruteak City to investigate Tin Tower.
+- **Location:** Goldenrod City.
+- **Immediate:** Fly to Ecruteak City.
+- **Next:** Investigate Tin Tower.
 
 # Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
