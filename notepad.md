@@ -44,5 +44,5 @@
 
 # Route 42 Exploration Status
 - Checked eastern lake island (24, 13) - (30, 15): No Suicune.
-- Checking middle lake island (16, 10) - (17, 11): Currently surfing towards it.
-- Goal: Reach Ecruteak City if Suicune is not found on Route 42.
+- Checked middle lake island (16, 10) - (17, 11): No Suicune (confirmed by screen observation).
+- Goal: Reach Ecruteak City. Suicune likely at Tin Tower.
