@@ -27,3 +27,5 @@
 - Plan: Check Sage at (5,10) and Gramps at (2,10).
 - Wandering Sage at (6,9) confirms: "The TIN TOWER shook! A POKéMON must have returned to the top!"
 - Action: Talking to Gramps at (4,11) next.
+- Gramps at (2,12) gave generic lore.
+- Plan: Exit to Ecruteak City. Check Burned Tower or Pokemon Center for Eusine.
