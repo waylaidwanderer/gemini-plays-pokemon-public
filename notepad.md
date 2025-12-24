@@ -45,7 +45,8 @@
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
 - **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
 - **Plan:** Take the ladder at (17,15).
-- **Status:** Warp (10,2) is confirmed INACTIVE. Gatekeeper reset didn't fix it.
-- **Hypothesis:** The Wise Trio (Sages) inside Tin Tower must be battled to open the path.
-- **Plan:** Navigate to the Center Sage at (11,11). Interact/Talk to trigger battle.
-- **Lore:** "Please, do go on" likely enables the Sages to battle me.
+- **Status:** Interacting with Center Sage (11,11).
+- **Hypothesis:** "Please, do go on" enabled the Wise Trio battle sequence.
+- **Action:** Talk to Sage (11,11).
+- **Contingency:** If no battle, try walking *into* him or checking the other two Sages.
+- **Goal:** Defeat Wise Trio to unlock path to Suicune.
