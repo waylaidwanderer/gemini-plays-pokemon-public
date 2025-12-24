@@ -27,3 +27,6 @@
 - **CRITICAL UPDATE:** Wandering Sage confirmed: "The TIN TOWER shook! A POKéMON must have returned to the top!"
 - **Conclusion:** Suicune event has been RESET.
 - **Action:** Returning to Tin Tower 1F to check (9,9) and look for new paths to the top.
+- **Navigation:** Re-entering Barrier Station via Main Entrance (37,7).
+- **Plan:** Walk straight through the Barrier Station to reach Bell Chime Trail. The Sages have granted permission ("Please, do go on"), so the path should be unblocked.
+- **Objective:** Reach Tin Tower 1F to find Suicune.
