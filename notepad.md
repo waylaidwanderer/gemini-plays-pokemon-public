@@ -1,12 +1,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Moving to East Corridor.
-- **Observation:** I am at (20, 23), connected to the East area.
+- **Status:** Escaping to (13, 16) to reset.
+- **Hypothesis:** The correct path is **Sliding UP from (15, 17)**.
+  - Previous attempts focused on South/East.
+  - The "Box" loop at the start might have an exit Upwards that I missed.
 - **Plan:**
-  1. Walk to (30, 12) via (25, 23) -> (25, 19) -> (28, 19) -> (29, 18) -> (29, 12).
-  2. From (30, 12), go South to explore the bottom of the East Corridor.
-  3. **Goal:** Find a ladder to B1F, which likely connects to the isolated West area.
-- **Items:** Item Balls at (32, 23) and (35, 9).
+  1. Navigate to (13, 16) (Start).
+  2. Heal Gyarados.
+  3. Start Puzzle: (13, 17) -> Right to (15, 17).
+  4. **Action:** Slide UP from (15, 17).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
