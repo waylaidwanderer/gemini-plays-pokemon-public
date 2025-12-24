@@ -36,3 +36,9 @@
 # Exploration Targets
 - Route 42 middle area (Apricorn trees) for Suicune sighting.
 - Unseen tiles on Route 42: (33, 15), (24, 17).
+
+# Lessons Learned
+- Roamer vs. Scripted: In Pokemon Crystal, Suicune is NOT a roamer like Raikou/Entei. It has fixed overworld locations. Trying to "intercept" it with a Repel trick is a waste of time. (Turn 16921)
+
+# Task History
+- Scripted Suicune Hunt: Started Turn 16921. Pivot from roamer strategy.
