@@ -3,8 +3,8 @@
 - **Path Plan:**
   1. From (20, 23), Slide Left -> Stop at (18, 23). [DONE]
   2. From (18, 23), Slide Up -> Stop at (18, 20). [DONE]
-  3. From (18, 20), Slide Left -> Stop at (14, 20). [NEXT]
-  4. Slide Up -> Stop at (14, 16).
+  3. From (18, 20), Slide Left -> Stop at (14, 20). [DONE]
+  4. From (14, 20), Slide Up -> Stop at (14, 16). [NEXT]
   5. Walk Left -> Arrive at (13, 16) [Floor Area].
 - **Items:** Item Balls at (32, 23), (35, 9), (31, 7) [East Side - Currently Unreachable].
 
