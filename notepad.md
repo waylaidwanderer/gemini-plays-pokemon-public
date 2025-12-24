@@ -1,14 +1,15 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** At (13, 17) (Start).
-- **Target:** Deep South-East Area via Column x=28.
-- **Correction:** The East Corridor is at **x=28**, not x=30. (x=30 is blocked at Row 19).
+- **Status:** Backtracking to Puzzle Start (13, 16).
+- **Location:** Escaping from (20, 23).
+- **New Hypothesis (Center-North Path):**
+  - **Action:** Restart Puzzle -> (13, 17) Right to (15, 17) -> **Slide UP**.
+  - **Rationale:** This vector (Row 15/16 Northbound) is the only untested path from the start. All South/East paths led to dead ends or loops.
+  - **Hope:** Access the North-West area (Rows 0-14, x<13) or B1F.
 - **Plan:**
-  1. **Ice Puzzle:** Right -> Down -> Right -> Down -> Right.
-     - Destination: Safe Floor at (20, 23).
-  2. **Navigate:** (20, 23) -> East to (25, 23) -> North to (25, 19) -> East to (28, 19).
-  3. **Exploration:** Go **SOUTH** down x=28 to the absolute bottom of the map (Row 28+).
-  4. **Hypothesis:** This path leads to a ladder or Westward connection.
+  1. Escape: (20, 23) -> Left to (18, 23) -> Up to (18, 20) -> Left to (14, 20) -> Up to (14, 16) -> Left to (13, 16).
+  2. Heal Gyarados if not full.
+  3. Execute Slide Up from (15, 17).
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
