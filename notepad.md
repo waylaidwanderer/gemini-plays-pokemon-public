@@ -1,8 +1,5 @@
-# Mission Log: Team Rocket Radio Tower
-- **Status:** COMPLETE.
-- **Outcome:** Executives defeated, Director rescued, Team Rocket disbanded.
-- **Key Items:** Obtained Card Key, Pink Bow, Clear Bell.
-- **Lore:** Clear Bell is connected to Tin Tower in Ecruteak.
+# Completed Missions
+- **Radio Tower:** Defeated Team Rocket, rescued Director, got Clear Bell (for Tin Tower).
 
 # Current Objectives
 - **Location:** Ecruteak City.
