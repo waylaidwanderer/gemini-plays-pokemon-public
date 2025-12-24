@@ -1,34 +1,18 @@
 # Ice Path Strategy
-- **Current Action:** Backtracking from East Floor.
-- **Goal:** Find Ladder to B1F.
-- **Status:** Found **HM07 (Waterfall)** at (31, 7).
+- **Current Action:** Returning to Hub to find East Puzzle Entrance.
+- **Route to Hub:**
+  1. Slide **Up** from (18, 23) to (18, 20).
+  2. Slide **Left** to (14, 20).
+  3. Slide **Up** to (14, 16).
+  4. Step **Left** to (13, 16) [Hub Entrance].
 
-# Ice Path Strategy
-- **Current Action:** Looping back to Hub via Entrance.
-- **Goal:** Reach West Ice Room Entrance (15, 14).
-- **Status:** Shortcut at (19, 23) leads to Entrance (14, 16), not Puzzle.
+- **Next Step:** Explore North Hub for access to East Ice Area/Ladder.
 
-# Ice Path Strategy
-- **Current Action:** Exploring South-East Floor Area.
-- **Goal:** Retrieve Item Ball at (32, 23).
-- **Route:**
-  1. Step **Right** to (20, 23) [Current].
-  2. Walk South/East on the floor tiles.
-  3. Find path to Item Ball (32, 23).
+# Items to Get
+- **Item Ball at (32, 23):** Access via East Ice Puzzle (North).
+- **Item Ball at (35, 9):** Access via North-East area.
 
 # Mechanics & Lessons
 - **Ice Physics:** Sliding continues until collision.
 - **Ledges:** `FLOOR_UP_WALL` tiles are impassable walls. `LEDGE_HOP_DOWN` are jumpable ledges.
-
-# Map Structure
-- **West:** Ice Room (Puzzle solved).
-- **Center:** Hub.
-- **East:** Winding corridors.
-- **South:** SE Floor Area (Current Location).
-- **Items:** Item Balls at (32, 23), (35, 9).
-- **Observation:** The floor path from (20, 23) leads to a winding corridor (currently at 29, 18) that appears to be the return path from the East Ice Puzzle ledges (Row 10).
-- **Hypothesis:** This area is a dead end for finding the ladder, serving only as an exit.
-- **Plan:** Backtrack to Floor (20, 23), then use the "Shortcut" slide (Left from 19, 23) to reach the main ice hub and find a path North.
-- **Confirmed:** Dead end at (29, 11). This is indeed the exit ledge.
-- **Correction:** Item Ball at (32, 23) is surrounded by Ice (from North). The floor path I took was the exit ledge path. To get the item, I must access the East Ice Area from the North/Hub.
-- **Plan Update:** Slide Left to return to Hub, then explore North for the entrance to the East Ice Puzzle.
+- **Dead Ends:** The SE floor area (Row 23) loops to a one-way exit ledge at (29, 11). Must access items from North.
