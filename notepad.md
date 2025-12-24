@@ -82,3 +82,5 @@
 - Conclusion: "Tower Shook" event did NOT update the Sages' dialogue inside Tin Tower 1F.
 - Plan: Verify Left Sage (5,9) just in case, then Exit.
 - Observation: Warp at (9,15) is a carpet but didn't trigger instantly. Attempting to press Down to exit.
+- Action: Exited Tin Tower to Ecruteak City to force a map reload.
+- Plan: Re-entering Tin Tower 1F immediately to check if Suicune has spawned or the Warp at (10,2) is active.
