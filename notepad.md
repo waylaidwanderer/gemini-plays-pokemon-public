@@ -16,7 +16,7 @@
 ## Master Plan (Corrected)
 1.  **Get to Right Side:** DONE. (At 12, 5).
 2.  **Push Sequence:**
-    - Push Left to (10, 5).
+    - Push Left to (10, 5). DONE.
     - Go to (10, 6). Push Up to (10, 1).
     - Go to (9, 1). Push Right to (11, 1).
     - Go to (11, 0). Push Down into Pit (11, 2).
