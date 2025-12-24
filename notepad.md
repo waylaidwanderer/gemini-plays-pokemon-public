@@ -28,7 +28,7 @@
   - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
 
 ## To-Do
-- Heal XENON at Mahogany Town Pokemon Center (Priority: HIGH).
+- Confirm Suicune location via Pokegear map.
 - Test find_path_v2 after fix (Priority: HIGH).
 - Test FLOOR_UP_WALL at (50, 14) or (19, 16) after training session.
 - Catch second trapper Pokemon.
