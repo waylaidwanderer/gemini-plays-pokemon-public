@@ -32,6 +32,7 @@
   - Priority: Find Quick Claw and a second trapping Pokemon (e.g. Spider Web).
 
 ## Training Phase
+- Start Turn: 16198
 - Location: Route 44 tall grass.
 - Goal: Level XENON to Lv27+.
 
