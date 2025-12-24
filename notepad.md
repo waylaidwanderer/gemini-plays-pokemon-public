@@ -35,7 +35,6 @@
 - Use `roamer_tracker_v2` after Pokedex checks.
 
 # Training Log: XENON (Gastly)
-- Next Level (Lv22): 7577 EXP (851 EXP remaining).
 - Night Shade learned at Lv21.
 - Repel Trick target: Lv27 (15244 EXP).
 - Training Spot: Route 44 grass island.
