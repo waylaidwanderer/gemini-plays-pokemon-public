@@ -37,8 +37,8 @@
 - Confirmed: Sages inside Tin Tower 1F still have old dialogue after "Tower Shook" event.
 - Confirmed: Warp at (10,2) is inactive.
 - Event Status: Whited out to Suicune. Suicune is gone. Sages are silent.
-- Status: Successfully entered Barrier Station (Wise Trio Room).
+- Status: Exiting Barrier Station (4_1) to Ecruteak City.
 - Plan:
-  1. Take ladder to Barrier Station Main Hall.
-  2. Exit to Ecruteak City.
-  3. Check Burned Tower (5,5) for Eusine.
+  1. Exit to Ecruteak City.
+  2. Enter Burned Tower at (5,5).
+  3. Find Eusine inside Burned Tower to trigger next event.
