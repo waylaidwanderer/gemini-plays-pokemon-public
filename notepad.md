@@ -45,3 +45,7 @@
 - **Reasoning:** Need to reset Suicune event by talking to Sages at the Main Entrance. Current location (Bell Chime Trail) is the wrong side.
 - **Hypothesis:** The ladder at (17,15) in the Barrier Station (Right Side) connects to the Left Side or leads to the City.
 - **Plan:** Take the ladder at (17,15).
+- **Action:** Interacting with the Sage (Gatekeeper) at (4,6) in Barrier Station (4_1).
+- **Situation:** Warped from Right Side (Bell Chime Trail access) to Left Side via ladder at (17,15).
+- **Hypothesis:** Speaking to this Sage will reset the Suicune event or grant permission to re-enter.
+- **Plan:** Walk to (5,6), face Left, talk.
