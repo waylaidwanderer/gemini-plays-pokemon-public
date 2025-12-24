@@ -23,7 +23,7 @@
 - **Brass Tower:** Burned down. 3 beasts reborn.
 - **Analysis:** I've defeated the Wise Trio (in the Barrier Station) and battled Suicune once (and lost). Suicune is likely still here.
 - **Problem:** Can't reach Suicune. Warp at (10,2) is inactive.
-- **Hypothesis:** Sages function like Trainers. I must walk into their "line of sight" to trigger the battle.
-- **Test:** Sage at (5,9) faces LEFT. I will move to (4,9) to stand directly in front of him.
-- **Plan:** Move to (4,9). If no battle, try the other Sages' lines of sight.
-- **Goal:** Trigger Wise Trio battle to unlock 2F access.
+- **Correction:** Sage at (5,9) changes facing direction (Left -> Up observed).
+- **Action:** Interacting with Sage at (5,9) from the side (4,9).
+- **Hypothesis:** If he doesn't battle, I need to find the stairs to 2F in the unexplored corners.
+- **Plan:** Interact, then explore bottom-left corner (0,15).
