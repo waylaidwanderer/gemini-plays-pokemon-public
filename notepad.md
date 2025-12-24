@@ -30,3 +30,5 @@
 - **Battle Menu Cursor Memory:** Cursor resets to Slot 1 at the start of a new battle. Within a battle, it remembers the last used move.
 - **Lore:** Wise Trio Dialogue: "Legend has it that [Suicune, Entei, Raikou] can't be seen while they sleep." They doubt my claim of seeing them at Burned Tower.
 - **Battle Log:** Defeated Sage Gaku (Noctowl, Flareon). Used Muscle (Dig).
+- **Lore:** Brass Tower (Burned Tower) awakened Pokémon. Tin Tower is where they rested. 150 years ago, lightning struck Brass Tower, fire raged for 3 days, put out by rain. Silver-colored Pokémon (Lugia) roosted there.
+- **Battle Log:** Defeated Sage Masa (Noctowl, Jolteon). Used Muscle (Dig).
