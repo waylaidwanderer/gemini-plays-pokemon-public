@@ -19,3 +19,4 @@
 - **South Room:** Accessed via (9, 10).
 - **Known Pits:** (4, 7), (5, 12), (12, 13).
 - **Known Boulders:** (7, 8), (8, 9), (11, 7). Need 1 more.
+- **Wild:** Golbat (B1F).
