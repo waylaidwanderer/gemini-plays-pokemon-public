@@ -1,19 +1,18 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (18, 25). Lower Floor.
+- **Current Status:** In Ice Path 1F at (18, 23). Standing on ICE.
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
-  - **Ledges:** One-way jumps. Row 18 (Cols 2, 7-12) has ledges blocking Northward return.
+  - **Ledges:** One-way jumps. Attempt to jump ledge from Ice at (18, 23) failed (possibly requires facing or momentum).
 - **Navigation:**
   - Entrance: (4, 19).
   - **Path Discovery:**
-    - Jumped ledge to lower floor (Row 25).
-    - Need to loop back to the start (Upper Floor).
-    - **Hypothesis:** Return path is via the far West columns (0-1), which appear to be free of ledges.
-  - **Plan:**
-    1. Walk West to (11, 25) and continue to x=1.
-    2. Walk North to Row 17/19.
-    3. Restart ice puzzle at (13, 17).
+    - South-East Path (via 19, 21) was a dead end.
+    - **Correction:** Still on the upper level. Need to reach the lower level (Row 25).
+    - **Plan:**
+      1. Slide Right to (20, 23) (Floor).
+      2. Walk Down to (20, 24) and jump the ledge to (20, 25).
+      3. Walk West to (11, 25) to find the return path.
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
