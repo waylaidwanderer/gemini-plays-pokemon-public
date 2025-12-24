@@ -5,9 +5,9 @@
 - Note: Clear Bell is still in inventory. Suicune is NOT caught.
 
 ## Strategy
-1. Visit Tin Tower in Ecruteak City. Since the Clear Bell is still in my bag, I need to see if Suicune is still there or if the event triggered its roaming phase.
-2. If Suicune is not at Tin Tower, use the Pokedex AREA map to track it to Route 42 or 38.
-3. Lead with XENON (Gastly) to use Mean Look and Hypnosis.
+1. **Buy Super Repels:** Currently at Ecruteak Mart. Goal: Buy 4 Super Repels (¥2000). (Started Turn 18301).
+2. **Verify Tin Tower:** Visit Tin Tower in Ecruteak City to confirm if Suicune is stationary or roaming.
+3. **Hunt:** If roaming, track via Pokedex AREA map. Lead with XENON (Gastly) for Mean Look.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -18,6 +18,7 @@
 - WARP / DOOR: Map transition.
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable until cleared.
+- COUNTER: Impassable. Interaction with NPCs (Clerks, Nurses, etc.) must be done by facing the counter tile.
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
