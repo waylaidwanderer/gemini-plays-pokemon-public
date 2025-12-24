@@ -37,3 +37,11 @@
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
 - Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation to (40, 11) or (33, 10) is more reliable for starting Surf.
+
+# Suicune's Nest Observations (Turn 17031)
+- Pokedex AREA map showed a special screen: 'SUICUNE'S NEST'.
+- Red Dots: (29, 14), (32, 12), (34, 13), (35, 15), (27, 16), (30, 18).
+- Blue Squares: (30, 13), (32, 13), (34, 13), (28, 14), (31, 14), (27, 17), (32, 17), (34, 17), (30, 18).
+- Overlap (Red & Blue): (34, 13), (30, 18).
+- Strategy: Visit reachable markers in the overworld. Start with island markers: (27, 16), (29, 14), (28, 14).
+- Note: (29, 14) and (28, 14) are Headbutt trees. (27, 16) is a Fruit Tree.
