@@ -1,11 +1,8 @@
 # Suicune Quest (Crystal)
-- Started: Turn 17252.
+- Started: Turn 17252 (Dec 24, 2025).
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Current Status: Verifying Route 42 island for overworld trigger (sprite jump). 
-- Note: Pokedex 'Area' may show the next location even if the previous overworld event wasn't fully triggered.
-- Route 36 Attempts: West, North, East approaches all failed to trigger sprite.
-- Tin Tower Access: Building at (18, 11) in Ecruteak (requires Clear Bell and Sage permission).
-- Battle Lead: XENON (Gastly) for Hypnosis.
+- Goal: Reach (28, 15) on Route 42 island.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
