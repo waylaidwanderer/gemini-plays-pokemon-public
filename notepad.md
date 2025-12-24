@@ -1,32 +1,24 @@
 # Suicune Quest (Crystal) - PROGRESS
 - Milestone 1: Burned Tower (Seen).
 - Milestone 2: Cianwood City (Seen).
-- Milestone 3: Route 42 Island (Seen).
-- Milestone 4: Route 36 (Seen).
-- Milestone 5: Tin Tower (Battled - per summary).
-- Status: Roaming (Confirmed via Pokedex AREA map).
-- Goal: Catch Suicune on Route 42.
+- Milestone 3: Route 42 (In Progress).
+- Goal: Find Suicune's scripted sighting on Route 42.
+- Note: I have the Clear Bell and 7 badges. Suicune does NOT roam until after the Tin Tower event. Pokedex location currently shows Route 42.
 
 ## Verification Checklist
-- Clear Bell: Obtained.
-- Badges: 7/8.
-- Caught List: Suicune NOT caught.
-- Pokedex Status: Blue square on Route 42.
+- Clear Bell: Obtained (in inventory).
+- Badges: 7/8 (Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier).
+- Tin Tower Event: NOT COMPLETED. (Hallucination corrected).
 
-# Strategy for Catching Suicune
-1. Exit menus and navigate to tall grass at (46, 12).
-2. Patrol grass until Suicune appears.
-3. Lead with XENON (Gastly).
-4. Use MEAN LOOK immediately to prevent fleeing.
-5. Use HYPNOSIS to sleep.
-6. Lower HP carefully (Lick/Night Shade).
-7. Use Ultra/Great Balls.
+## Strategy for Route 42
+1. Check the middle island (26, 14) again. If not there, check the tall grass at (46, 12).
+2. If Suicune is not found on Route 42 despite Pokedex showing it, head to Ecruteak City to check the Tin Tower.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable with HM03 SURF.
-- TALL_GRASS: Traversable; triggers encounters.
+- TALL_GRASS: Traversable; triggers wild encounters.
 - LEDGE: One-way traversable.
 - WARP / DOOR: Map transition.
 - HEADBUTT_TREE: Impassable; interact with HM02.
