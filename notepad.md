@@ -27,3 +27,11 @@
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Map: TinTower1F (3_4)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_CARPET_DOWN: Exit to Ecruteak City (37, 7).
+- Sage at (11, 11): Interaction target.
+- Center Area (approx. 10, 10): Potential Suicune spawn point.
+- Clear Bell: Still in inventory. Event pending.
