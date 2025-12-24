@@ -46,3 +46,4 @@
 
 # Task Timestamps
 - Suicune Hunt (Route 42): Started Turn 17642.
+- Plan: Enter Mt. Mortar at (28, 9), exit, and walk North to explore (28, 8) and beyond to test Hypothesis 37.
