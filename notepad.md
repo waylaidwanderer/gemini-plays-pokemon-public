@@ -7,7 +7,15 @@
 - **Hypothesis:** 
     1. Suicune is now roaming (check Pokedex).
     2. Event is failed/complete (check Wise Trio for dialogue change).
-- **Action:** Checking Pokedex for Suicune's location. If not found, will return to Barrier Station to talk to Wise Trio.
+- **Observation:** Pokedex search for "Water" found only Poliwag and Gyarados. Suicune is NOT registered as "Seen" or is not in the search results.
+- **Inference:** Suicune is likely NOT roaming (or I can't track it).
+- **Hypothesis:** 
+    1. I must use the **Clear Bell** manually at the spawn point (9,9).
+    2. I must speak to the **Wise Trio** (Barrier Station) or **Eusine** to reset the event.
+    3. Suicune is gone until I beat the Elite Four (Worst Case).
+- **Action:** 
+    1. Go to (9,9) and use Clear Bell.
+    2. If fail, backtrack to Barrier Station and talk to Wise Trio.
 
 # Map Markers
 - **Sages:** (5,9), (14,6), (11,11).
