@@ -35,3 +35,7 @@
 - **Immediate Goal:** Pick up Item Ball at `(13, 9)` and Rescue Director at `(12, 8)`.
 - **Action (Turn 15097):** Picked up TM35 (Sleep Talk) at `(13, 9)`.
 - **Next Step:** Talking to the Director at `(12, 8)`.
+- **Action (Turn 15100):** Talked to Director. Received **CARD KEY**.
+- **Information:** Team Rocket took over Radio Tower to control Pokémon via a signal.
+- **Objective:** Go to Radio Tower 3F and use Card Key to open shutters.
+- **Plan:** Exit Warehouse via Ladder at `(17, 2)` (likely shortcut), then head to Radio Tower.
