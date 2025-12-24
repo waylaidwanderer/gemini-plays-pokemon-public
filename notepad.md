@@ -3,13 +3,11 @@
 - **Wise Trio:** Defeated in Barrier Station.
 
 # Suicune Hunt (Tin Tower 1F)
-- **Status:** Suicune missing from (9,9) after whiteout.
-- **Action:** Resetting map to attempt respawn.
-- **Progress:** Spoke to all 3 Sages (Lore only, no battles).
+- **Status:** Suicune is NOT visible at (9,9) after map reload.
 - **Hypothesis:** 
-    1. Map reload (Exit/Enter) might respawn Suicune.
-    2. Suicune might have moved to Roaming (check Pokedex later).
-    3. Event state might be stuck or require specific trigger order.
+    1. Suicune is now roaming (check Pokedex).
+    2. Event is failed/complete (check Wise Trio for dialogue change).
+- **Action:** Checking Pokedex for Suicune's location. If not found, will return to Barrier Station to talk to Wise Trio.
 
 # Map Markers
 - **Sages:** (5,9), (14,6), (11,11).
