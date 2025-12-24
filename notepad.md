@@ -17,5 +17,6 @@
 
 # Tile Mechanics
 - **WARP_CARPET:** Some require specific directional input (e.g. Down to exit Tower).
-- Action: Returning to Wise Trio Room/Barrier Station to find Eusine.
-- Path: From Tin Tower (37,8) -> Gap at (30,4) -> Wise Trio Room Entrance (20,3).
+- Error: Accidentally walked back into Tin Tower (Up from 37,8).
+- Correction: Must move DOWN from (37,8) to exit the building porch area.
+- Revised Plan: Exit Tin Tower (Down). Navigate Ecruteak (37,8 -> 37,9 -> Left) to Wise Trio Room (20,3) to find Eusine.
