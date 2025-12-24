@@ -38,3 +38,4 @@
   3. Route 36.
   4. Tin Tower.
 - **CRITICAL**: Suicune CANNOT be caught during scripted sightings. It will always flee. It can only be caught at the Tin Tower later. Do not waste Great Balls yet.
+- **Correction (Turn 15705)**: Turn count sync fixed. Training log removed. Progressing to center of island.
