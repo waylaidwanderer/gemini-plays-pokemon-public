@@ -21,3 +21,8 @@
 # Lore
 - **Wise Trio:** Testing me.
 - **Brass Tower:** Burned down. 3 beasts reborn.
+- **Analysis:** I've defeated the Wise Trio (in the Barrier Station) and battled Suicune once (and lost). Suicune is likely still here.
+- **Problem:** Can't reach Suicune. Warp at (10,2) is inactive.
+- **Hypothesis:** The warp at (10,2) is an EXIT (hole from above). Access to Suicune requires falling from 2F.
+- **Goal:** Find the stairs to 2F.
+- **Plan:** Visual check of (10,2). Then explore all 4 corners of the map for hidden stairs.
