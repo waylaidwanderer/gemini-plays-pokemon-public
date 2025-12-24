@@ -1,10 +1,9 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Abandoning South Ledges. Proceeding to East Corridor.
-- **Ledge Confirmation:** `FLOOR_UP_WALL` at (7, 18) and (8, 18) are SOLID WALLS. Access to South-West via this route is impossible.
+- **Status:** Executing Ice Puzzle Solution.
 - **Current Plan (East Corridor):**
-  1. Go to (13, 17).
-  2. Solve Ice Puzzle: Right -> (15, 17) -> Down -> (15, 21) -> Right -> (19, 21) -> Down -> (19, 23) -> Right -> (20, 23).
+  1. Move from (9, 17) to (13, 17).
+  2. **Sequence:** Right -> (15, 17) -> Down -> (15, 21) -> Right -> (19, 21) -> Down -> (19, 23) -> Right -> (20, 23).
   3. Navigate to (30, 12).
   4. Explore South down x=30.
 - **Items:** Item Balls at (32, 23) and (35, 9).
