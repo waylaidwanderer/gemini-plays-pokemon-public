@@ -3,25 +3,22 @@
 - Milestone 2: Cianwood City (Seen). Defeated Eusine.
 - Milestone 3: Route 42 (In Progress). Pokedex confirms location.
 - Milestone 4: Route 36 (Next).
-- Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all overworld sightings.
+- Milestone 5: Tin Tower (Final). Requirement: Clear Bell (OBTAINED) + all sightings.
+
+## Strategy for Route 42 Sighting:
+- Location: Middle island (X=24-32, Y=14-16) or northern corridor (Row 4).
+- Approach: Surf to landing points. Island center requires CUT at (24, 13).
+- Goal: Approach Suicune sprite to trigger flight cutscene.
 
 ## Failed Hypotheses (Route 42)
-- Island floor sweep (Rows 14-15) [Turns 17819-17863].
-- Apricorn tree interactions (Pink, Green, Yellow) [Turns 17804-17818].
-- Far Western mainland floor sweep (X=1-3, Y=8-11) [Turns 17836-17837].
-- Eastern approach via northern channel [Turns 17760-17765].
-- Navigation attempt to mainland (X=12, Y=8) via navigate_menu_v2 failed; cliff at (19, 10) blocks water entry from (20, 10). [Turn 17870-17871].
-- Accidental warp into Mt. Mortar middle entrance at (28, 9) on Route 42. [Turn 17872].
-- Exited Mt. Mortar middle entrance at (28, 9). [Turn 17875].
-- Hypothesis 36: Trigger requires exiting Mt. Mortar middle entrance (28, 9) and walking south. [Failed - Turn 17876].
-- Mt. Mortar B1F Exploration: No exit to Route 42 North found [Turns 17881-17935].
-
-## Current Hypothesis Testing (Route 42)
-- Hypothesis 37: Suicune trigger is on the northern path (Row 4-8). Access via surfing to landing at (30, 6). [In Progress]
+- Sweep of island floor (Rows 14-15) [Turns 17819-17863].
+- Apricorn tree interactions [Turns 17804-17818].
+- Western mainland sweep (X=1-12) [Turns 17836-17871].
+- Mt. Mortar B1F Exploration [Turns 17881-17935].
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall when approaching from the North.
+- FLOOR_UP_WALL: One-way traversable (usually North). Acts as a wall from the North.
 - WATER_ROCKS: Impassable.
 - CUT_TREE: Impassable until HM01 CUT.
 - WATER: Traversable with HM03 SURF.
@@ -30,21 +27,17 @@
 - WARP / DOOR / WARP_CARPET / CAVE: Map transition.
 - FRUIT_TREE: Impassable; interact for fruit/apricorn.
 
-# Verified Sprite Observations (Route 42)
-- Turn 17786: run_code confirmed no Suicune sprite on screen.
-- Reachable Unseen Tiles (via Mt. Mortar): (21, 4), (25, 5), (26, 5), (27, 5), (30, 4).
-
 # PC Storage (Box 1)
 - VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
 
-# Items & Contacts
+# Contacts & Key Items
 - Fire Stone: Route 36 (Alan).
-- Rock Smash (Info): Route 36 (Fisher at 44, 9).
+- Rock Smash (Info): Route 36 (Fisher).
 - Fisher Tully: Route 42. Gives items.
 - Bug Catcher Arnie: Route 35. Reports Yanma swarms.
+- Clear Bell: Obtained.
 
 # Task Timestamps & Log
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Discovery: Pokedex 'AREA' for Suicune shows 'SUICUNE'S NEST' with dots across Johto.
-- Discovery: MountMortarB1F movement redirection confirmed on FLOOR_UP_WALL tiles (e.g., Up at 20,28 moves Right).
-- Plan: Explore northern corridor (Row 4) for Suicune sighting trigger. [Turn 17941]
+- Plan: Surf to middle island and perform a 100% tile sweep of the island center. [Turn 17942]
