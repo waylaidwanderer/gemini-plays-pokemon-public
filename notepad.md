@@ -47,3 +47,7 @@
 - Anomaly: Ladder at (5,3) warped me to (17,15) on the same map (4_1).
 - Hypothesis: I might have bypassed the Wise Trio Room (4_2) or the connection is non-standard.
 - Action: Taking Ladder at (17,3) to see if it leads to 4_2 or the Tin Tower trail.
+- Confirmed: Ladder at (17,3) in Barrier Station (Trail Side) leads to Wise Trio Room (4_2).
+- Confirmed: City Side Ladder (5,3) redirects to Trail Side (17,15).
+- Conclusion: Access to Wise Trio Room is now only via the Trail Side.
+- Plan: Talk to the Wise Trio Sages in 4_2. They might have new dialogue about the "Tower Shook" event.
