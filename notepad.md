@@ -1,18 +1,16 @@
 # Current Strategy
 - **Primary Goal:** Reach Blackthorn City via Ice Path.
-- **Current Status:** In Ice Path 1F at (25, 20).
+- **Current Status:** In Ice Path 1F at (29, 17). Exploring a vertical corridor.
 - **Mechanics:** 
   - **Ice Tiles:** Player slides until hitting an obstacle or non-ice tile.
   - **Ledges:** One-way jumps.
 - **Navigation:**
   - Entrance: (4, 19).
   - **Path Discovery:**
-    - The "South-East Path" led to a floor area (Rows 19-24).
-    - Ledges block North travel at x=23-27.
-    - **Crucial Find:** The ledge ends at x=27. There is a walkable passage North at x=28/29.
-  - **Exploration:** 
-    - Heading to the North-East passage at (29, 17) to explore the new area.
-  - Plan: Move East to x=28, then North.
+    - Located a corridor at x=29-30, extending North from y=18.
+    - Heading North to see where it leads (Row 12 is unseen).
+    - **Item Ball:** Observed at (32, 23), inaccessible from current corridor (Wall at x=31).
+  - Plan: Move North to (29, 13).
 
 # Tile Mechanics
 - **FLOOR:** Walkable.
