@@ -50,3 +50,6 @@
     2. Must speak to Eusine.
     3. Must defeat Elite Four to respawn (Worst Case).
 - **Plan:** Exit Tin Tower, go to Barrier Station, talk to Wise Trio.
+- **Action:** Exiting Tin Tower 1F.
+- **Next Step:** Go to Barrier Station to speak with the Wise Trio (Sages Gaku, Masa, Koji).
+- **Goal:** Trigger a dialogue that resets the Suicune event or explains where it went.
