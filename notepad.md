@@ -40,5 +40,5 @@
 - Plan: Exiting B1F via Ladder at (7, 15).
 - Next: Check Wise Trio Room (Barrier Station) again. I checked it BEFORE the Wandering Sage confirmed the shake. Maybe Eusine is there now.
 - Searched Burned Tower B1F. Eusine not found.
-- Returning to 1F and exiting to Ecruteak.
-- Next stop: Wise Trio Room (Barrier Station) to check for Eusine again.
+- Exited to Ecruteak City.
+- Heading to Barrier Station (Wise Trio Room) to check for Eusine/Sages again.
