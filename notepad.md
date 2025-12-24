@@ -45,3 +45,4 @@
 - **Correction:** The "South-East Path" was a dead end.
 - **Hypothesis:** The way forward is likely jumping the ledge at (18, 24) to access the southern rows (25+).
 - **Turn 16368:** Sliding Down from (19, 21) to (19, 23). Next: Move Right to (20, 23) to exit ice.
+- **Turn 16369:** Dismissing Repel text. Retrying Slide Down from (19, 21).
