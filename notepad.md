@@ -40,3 +40,6 @@
 - **Plan:** Head straight to Tin Tower. No grinding. Relying on Strategy Advisor's Dragon Rage plan.
 - **Tactics Update:** Muscle is Lead. Switch to Gyarados before Suicune. Strategy: Dragon Rage x3 -> Switch to Sleeper.
 - **Next:** Walk to Tin Tower (North Ecruteak).
+- **Map Analysis:** The Left side (X<=5) seems separated from the Right side (X>=7) by a wall at X=6. Suicune is on the Right side at (9,9). To reach it, I likely need to traverse the southern corridor (Y=11,12,13) to the east, then head North through a gap (possibly at X=14).
+- **Plan:** Move South to corridor, head East, then North.
+- **Immediate Action:** Moving to safe spot (5,11) and opening menu to Switch Gyarados to Lead.
