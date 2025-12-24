@@ -3,15 +3,16 @@
 
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
-- **Status:** Exploring East side of Ice Path.
-- **Current Location:** At (29, 12).
-- **Observations:**
-  - The corridor at x=30 is a dead-end loop connecting back to (29, 18).
-  - Row 10 (x=25-30) is a ledge drop-off from North to South. I am on the lower level.
-  - To reach the upper level (and Item Ball at 35, 9), I likely need to find a way around from the West.
-- **Navigation Plan:**
-  1. Go West along Row 11 from (29, 11) to (25, 11).
-  2. Continue West into the unseen area, expecting to connect to the x=0 corridor or find a ladder.
+- **Status:** Resetting Ice Puzzle to try new path.
+- **Critical Discovery:** I missed sliding **UP** from (15, 17). This path likely leads to the North area and possibly the West side.
+- **Failed Paths:**
+  - South Ledges (Row 24) are blocked.
+  - West Row 17 is blocked.
+  - North-East Loop is a dead end.
+- **Plan:**
+  1. Escape current area to (13, 16).
+  2. Start Puzzle: (13, 17) -> Right to (15, 17).
+  3. Slide **UP** from (15, 17) into the unknown.
 - **Items:** Item Balls at (32, 23) and (35, 9).
 
 # Tile Mechanics
