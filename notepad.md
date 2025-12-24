@@ -50,6 +50,7 @@
 - **WARP:** Teleport tile (often landing spots in Burned Tower).
 
 # Plan
-1. Flee battle.
-2. Navigate to Ladder at (7,15) to exit B1F. (Note: (3,13) confirmed as WALL).
-3. Check Ecruteak City / Wise Trio Room.
+1. Exit Burned Tower 1F (South Exit).
+2. Go to Barrier Station (Wise Trio Room).
+3. Check for Eusine/Sages.
+4. If Eusine is missing, check Tin Tower entrance again or research roaming mechanics.
