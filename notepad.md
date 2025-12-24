@@ -30,9 +30,4 @@
 
 ## Items
 - Great Ball: 29. Main capture tool.
-## Navigation: Reaching the Counter in Mahogany Mart
-1. Start at (3, 6).
-2. Move Right to (4, 6).
-3. Move Up to (4, 3) via (4, 5) and (4, 4).
-4. Move Left to (3, 3).
-5. Face Left and interact with the counter at (2, 3) to talk to Granny.
+- Pokeball: 2.
