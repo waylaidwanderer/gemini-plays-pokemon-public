@@ -44,3 +44,6 @@
 - **Observation:** Wall at (12,1) confirms I must use Row 2 to traverse.
 - **Hypothesis:** Speaking to the Sages INSIDE the tower might be required to activate the warp at (10,2) or reveal the path, now that the "shaking" event has occurred.
 - **Plan:** Check (16,2), then talk to Sage at (14,6).
+- **Observation:** Wall at (12,1) confirms I must use Row 2 to traverse.
+- **Hypothesis:** Speaking to the Sages INSIDE the tower might be required to activate the warp at (10,2) or reveal the path, now that the "shaking" event has occurred.
+- **Plan:** Check (16,2), then talk to Sage at (14,6).
