@@ -22,3 +22,5 @@
 - **Tin Tower Exit:** From (37,9) navigate maze to (20,3).
 - Cooltrainer F (PC) gave generic Morty dialogue.
 - Plan: Check Burned Tower for Eusine.
+- Received phone call from Wade (Bug Catcher). Generic chatter about Caterpie growing fast.
+- Resuming path to Burned Tower to find Eusine.
