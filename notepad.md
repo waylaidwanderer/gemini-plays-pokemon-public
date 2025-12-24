@@ -30,3 +30,5 @@
 - **Hypothesis:** This area is a dead end for finding the ladder, serving only as an exit.
 - **Plan:** Backtrack to Floor (20, 23), then use the "Shortcut" slide (Left from 19, 23) to reach the main ice hub and find a path North.
 - **Confirmed:** Dead end at (29, 11). This is indeed the exit ledge.
+- **Correction:** Item Ball at (32, 23) is surrounded by Ice (from North). The floor path I took was the exit ledge path. To get the item, I must access the East Ice Area from the North/Hub.
+- **Plan Update:** Slide Left to return to Hub, then explore North for the entrance to the East Ice Puzzle.
