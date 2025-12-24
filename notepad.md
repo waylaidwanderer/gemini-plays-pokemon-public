@@ -38,3 +38,14 @@
 - Roamer vs. Scripted: Suicune is NOT a roamer in Crystal. Don't rely on Pokedex 'Area' for movement; it only indicates the current route of the scripted event.
 - Surf Initiation: Directional buttons won't enter water. Must face water and press A.
 - Pathfinding Shorelines: find_path_v2 can struggle with water entry points. Manual navigation to (40, 11) or (33, 10) is more reliable for starting Surf.
+
+# Island Sweep Plan (Turn 16996)
+- Objective: Step on every reachable tile on the middle island to trigger Suicune.
+- Starting Point: (24, 13)
+- Grid:
+  - Row 1: (24, 14) to (28, 14)
+  - Row 2: (30, 15) to (25, 15)
+  - Row 3: (26, 16) to (30, 16)
+  - Row 4: (30, 17) to (26, 17)
+- Progress:
+  - (24, 12) to (24, 13): Pending.
