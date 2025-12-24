@@ -48,3 +48,8 @@
 - Suicune Hunt (Route 42): Started Turn 17642.
 - Plan: Enter Mt. Mortar at (28, 9), exit, and walk North to explore (28, 8) and beyond to test Hypothesis 37.
 - MountMortarB1F (3_60): Entered via ladder at (19, 29). Found item ball at (21, 26). Exploring for exit to Route 42 northern path.
+- Observed strange movement redirection in MountMortarB1F:
+  - Action 'Up' at (20, 28) moved player 'Right' to (21, 28).
+  - Action 'Right' at (21, 27) moved player 'Down' to (21, 28).
+  - Action 'Up' at (21, 28) successfully moved player 'Up' to (21, 27).
+  - Hypothesis: FLOOR_UP_WALL tiles or specific boundaries in this area may redirect movement. Testing 'Up' at (21, 28) to reach item at (21, 26).
