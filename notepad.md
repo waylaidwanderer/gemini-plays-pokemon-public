@@ -1,14 +1,14 @@
 # Ice Path Strategy
 - **Primary Goal:** Reach Blackthorn City.
 - **Immediate Task:** Heal Gyarados (Critical HP).
-- **Status:** In Bag, scrolling to Super Potion.
+- **Status:** In Bag, selecting Super Potion.
 - **Location:** Start Area (13, 16).
 
 # Planned Route (Post-Heal)
 1. **Center-North Hypothesis:** 
    - From (13, 17), slide Right to (15, 17).
    - **Action:** Slide UP.
-   - **Reasoning:** This vector has not been tested. The "Box" area might have an exit North that connects to the West Corridor.
+   - **Reasoning:** This path is untested. It might lead to the inaccessible North/West areas.
 2. **Backup (East Corridor):** 
    - If North fails, solve puzzle to (20, 23) -> Navigate to (30, 12) -> South.
 
