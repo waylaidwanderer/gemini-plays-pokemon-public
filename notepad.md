@@ -56,9 +56,6 @@
 - **Suicune Mystery Log Update:**
     - **Search 3 (Post-Shake):** Using Clear Bell at (10,2). Expectation: The event reset should allow the bell to function.
 - **Result:** Clear Bell FAILED ("This isn't the time to use that!").
-- **Status:** Suicune event is in a weird state. Wandering Sage says "Tower Shook" (Reset?), but Suicune is not at (9,9) and warp (10,2) is inactive.
-- **Hypothesis:**
-    1. Suicune is Roaming (Need to re-check Pokedex post-Sage dialogue).
-    2. Suicune respawns only after E4.
-    3. There is a hidden entrance to the center room I missed (Side Walls).
-- **Plan:** Close menu. Check Pokedex. If not roaming, check Side Walls of center room. Then leave.
+- **Status:** Suicune event is reset (Tower Shook), but Clear Bell is useless at (10,2).
+- **New Hypothesis:** The "shaking" event physically altered the map, likely opening the sealed entrance to the center room at (10,4).
+- **Plan:** Close menu. Inspect the wall at (10,4). If open, enter and find Suicune. If closed, check other walls or talk to Center Sage (11,11).
