@@ -4,7 +4,7 @@
 - WATER: Requires Surf (HM03).
 - CUT_TREE: Requires Cut (HM01). Regrows on map reload.
 - LEDGE: One-way jump (South).
-- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement (verified at (50, 14) on Route 42).
+- FLOOR_UP_WALL: One-way barrier. Blocks Southward movement.
 - TALL_GRASS: Encounter terrain.
 
 # Type Effectiveness
