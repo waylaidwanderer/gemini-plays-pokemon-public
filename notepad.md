@@ -61,3 +61,4 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 2. Interact with the sprite to trigger it fleeing.
 3. Follow to the next scripted location.
 4. Prepare for final battle at Tin Tower.
+- Turn 18699: Starting Surf from (13, 8) to reach Route 42 island.
