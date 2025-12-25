@@ -3,7 +3,7 @@
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory).
+- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory). Arthur disappears after Thursday.
 - Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun.
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
@@ -22,10 +22,5 @@
 # Route 38/39 Mechanics & Exploration
 - Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
 - Route 39 North-South: Row 7 wall has a gap at X=12.
-- Suicune Trigger: Scripted overworld sighting. Search northern fence line and ledges.
-
-# Reflection (Turn 20608)
-- Root Hypothesis Test: The "isolated pocket" theory was a false constraint. Conclusively disproved.
-- Lesson: Prioritize mental map connectivity over visual intuition when planning routes around obstacles.
-- Maintenance: Tool 'navigate_fly_map_v2' refined.
-- Strategy: Walk the northern fence line (rows 8-9) and ledge area (X=5-15) to trigger scripted flee.
+- Suicune Trigger (Route 38): Scripted overworld sighting. Located near the ledge by the Miltank farm. Walk the northern path (Rows 4-5) and the ledge perimeter.
+- Connectivity: Area West of X=10 is reachable from East via Row 14 (9, 14 to 10, 14). Row 14 is reachable from North via Row 13 ledges (11-20, 13).
