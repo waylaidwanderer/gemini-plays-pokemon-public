@@ -41,4 +41,7 @@
 # Suicune Hunt Progress
 - Started Hunt: Turn 20127
 - Goal: Trigger flee on Route 38.
-- Status: Searching northern path. Currently at Turn 20161. Failed menu attempts: 6. Strategy: Close menus, move, then retry.
+- Status: Searching northern path. Currently at Turn 20163. Failed menu attempts: 7. Strategy: Close menu, move west to (10, 5), then retry Repel.
+- Sighting #4: Route 38. Suicune is on the ledge. Approach to trigger flee.
+- Sighting #5: Route 14.
+- Final: Tin Tower. Clear Bell required.
