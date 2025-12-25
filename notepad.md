@@ -3,22 +3,26 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18312)
-- **Location:** Dragon's Den B1F (26, 22).
-- **Condition:** In Battle (Wild Magikarp).
-- **Action:** Flee Battle.
-- **Reasoning:** Magikarp is not a threat and gives negligible EXP. Priority is exploration.
-- **Previous Action Result:** Interactions with buoys at (27, 22) and (26, 23) did not yield "Whirlpool" text before the battle started (or were interrupted). Likely not the path.
+# Current Status (Turn 18313)
+- **Location:** Dragon's Den B1F (26, 18).
+- **Action:** Navigating North to row 10, then West to reach land.
+- **Reasoning:**
+    - The East Whirlpool path failed.
+    - Exploration North reveals a large water body.
+    - Mental Map shows land at (20, 9) (Ladder area).
+    - Buoys seem to form a barrier at x=15 but stop around row 12, allowing access via row 10.
+- **Goal:** Reach the land at (20, 9) and check if I can access the Dragon Shrine from there or if there's another path.
 
 # Plan
-1. Flee from Magikarp.
-2. Navigate North to (26, 20) to explore the channel.
-3. Look for a gap in the barrier or another path.
+1. Navigate to (20, 10).
+2. Check for landing spots at (20, 9) or nearby.
+3. Explore the land area (Ladder 1F is at 20, 3).
+4. Find a way to the Dragon Shrine (19, 29).
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle. Requires HM06 + Badge.
-- **Buoy:** Likely unbreakable barrier here.
-- **Water Channel:** Leads North.
+- **Whirlpool:** Obstacle.
+- **Buoy:** Obstacle.
+- **Water Channel:** Open at Row 10.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
