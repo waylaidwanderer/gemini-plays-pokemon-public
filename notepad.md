@@ -40,7 +40,3 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Amulet Coin: Equipped to XENON.
 - Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore.
 - Suicune: Stationary encounter in Crystal. Strategy: Hypnosis -> Weaken.
-
-# Discovery Log & Hypotheses
-- Hypothesis: Re-entering Tin Tower 1F with the Clear Bell may trigger the Suicune encounter.
-- Stagnation Check: Loop of Sage dialogue broken. Switching to re-entry strategy.
