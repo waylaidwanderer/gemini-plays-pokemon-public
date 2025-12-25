@@ -1,10 +1,9 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
-- Hunt Progress: Searching Route 38 for scripted sighting.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. Attempted, dialogue looped. Re-evaluate if needed.
+- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory).
 - Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun.
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
@@ -20,33 +19,13 @@
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET: Triggers map transition.
 
-# Game Mechanics & Systems
-- Day/Night Cycle: Affects spawns and NPCs.
-- Bug Catching Contest: Tues/Thurs/Sat in National Park. Replaces NPCs.
-- Fly Mechanics: Only usable in cities/towns.
-- Money Management: Current ¥373.
-
 # Route 38/39 Mechanics & Exploration
 - Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
 - Route 39 North-South: Row 7 wall has a gap at X=12.
 - Suicune Trigger: Scripted overworld sighting. Search northern fence line and ledges.
 
-# Lessons Learned
-- Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
-- Exploration: Check all reachable unseen tiles before declaring a dead end.
-- Arthur: Dialogue loops if gift criteria not met.
-- Suicune: Scripted sighting, not a random roam yet.
-
-# Time Tracking
-- Suicune Hunt (Route 38): Started Turn 20250.
-- Arthur Hunt: Started Turn 20530.
-- Navigation Note: (10, 9) is a LEDGE_HOP_LEFT. Moving from (11, 9) triggers a jump to (9, 9).
-- Suicune Hunt: Re-searching area row 8-12, X=0-15 (West of ledge). Approach proximity to fence at Row 7.
-- Root Assumption Audit: Suicune does not require an "isolated" pocket; it's an overworld trigger. Focusing on traversable tiles near the farm.
-
 # Reflection (Turn 20608)
-- Root Hypothesis Test: The "isolated pocket" theory was a false constraint. Conclusively disproved by pathfinding analysis and overworld observation.
+- Root Hypothesis Test: The "isolated pocket" theory was a false constraint. Conclusively disproved.
 - Lesson: Prioritize mental map connectivity over visual intuition when planning routes around obstacles.
-- Maintenance: Tool 'navigate_fly_map_v2' refined. All discoveries marked. 
-- Stagnation Check: Successfully pivoted from Arthur loop back to Suicune hunt.
+- Maintenance: Tool 'navigate_fly_map_v2' refined.
 - Strategy: Walk the northern fence line (rows 8-9) and ledge area (X=5-15) to trigger scripted flee.
