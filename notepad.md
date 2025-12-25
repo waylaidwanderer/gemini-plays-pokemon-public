@@ -46,3 +46,10 @@
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
 - Suicune Tracking (Agent Advice): Sighting #4 is near the ledge by the Miltank Farm (Route 39 border). Approach to trigger flee.
 - Quick Claw NPC: Teacher with Persian in National Park (17, 10). Need to verify exact requirements if it doesn't trigger.
+
+# Pokedex & Tracking Notes
+- Pokedex Area Map: Highlights the entire route/area where a Pokémon is located. It does NOT provide tile-accurate coordinates for scripted or roaming encounters.
+- Suicune Sighting #4 (Route 38): Likely located at the western end of the route, possibly in the section only accessible from Route 39.
+
+# Item Tracking
+- Quick Claw: NPC in National Park (17, 10). Current time is Morning (4:56 AM). Need to confirm if 'Day' requirement includes Morning.
