@@ -38,9 +38,9 @@
 # Suicune Search Log
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
-- Failed Repel Attempts: ~26.
-- Repel Strategy: Start -> Up (2) -> A (PACK) -> Up (15) -> Down (11) -> A (Select) -> A (USE). Verified item is in 12th slot.
-- Note (Turn 19856): Cursor starts on GEM (index 5) after previous Trainer Card interaction. Up (2) reaches PACK.
+- Failed Repel Applications: 6 attempts (Turns 19841, 19846, 19852, 19853, 19856, 19858).
+- Backpack Order Observation: FRESH WATER, GRN APRICORN, PNK APRICORN, MAX REVIVE, YLW APRICORN at the end. Not alphabetical.
+- Strategy: Abandoning Repel for now to focus on reaching Suicune's location at the western ledge.
 
 # Exploration Updates
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
