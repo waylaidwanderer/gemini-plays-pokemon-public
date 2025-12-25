@@ -39,16 +39,16 @@
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
 
-## Strategy: Retrieve Item (B2F)
-1. **Preserve Boulder 2:** Do NOT push the boulder at (3, 12). It is needed as a backstop.
-2. **Exit B2F:** Navigate to Ladder (17, 1) via (16, 16) -> (16, 1).
-3. **Re-enter B2F:** On B1F, fall through the hole at (12, 13).
-4. **Collect Item:**
-   - Land at B2F (12, 12).
-   - Slide Left -> Hit Boulder 2 at (3, 12) -> Stop at (4, 12).
-   - Slide Up -> Hit Boulder 1 at (4, 7) -> Stop at (4, 8).
-   - Slide Right -> Stop at (8, 8) (Item Island).
-5. **Escape:** Use Ladder (9, 11).
+## Strategy: Retrieve Item (B2F) - REVISED
+1. **The Problem:** Reaching the item island at (8, 8) requires sliding from a specific alignment.
+   - **Hypothesis:** Must slide Right from (4, 8) to land on (8, 8).
+   - **Requirement:** Must stop at (4, 8).
+   - **Method:** Slide Up Column 4 and hit a boulder at (4, 7).
+2. **Missing Link:** How to enter Column 4 and stop below (4, 8)?
+   - Current analysis shows no way to stop in Col 4 from current Floor tiles.
+   - **Possibility:** A second boulder is needed to create a stop (e.g., at 4, 12).
+   - **Action:** Need to re-examine B1F for more pits or boulder options.
 
 ## Current Action
-- Sliding Right on Row 16 to exit area.
+- Escaping B2F to reset puzzle and explore B1F.
+- Path: Slide Right to (16, 17) -> Up to (16, 1) -> Ladder (17, 1).
