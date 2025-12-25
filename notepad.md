@@ -35,3 +35,7 @@
 # Pokedex Navigation Trick
 - To find Suicune (#245) quickly: Open Numerical Pokedex -> Press UP from #001 to wrap to #251 -> Press UP 6 more times (7 total UPs) to reach #245 Suicune.
 - Order: 251 (Celebi) -> 250 (Ho-Oh) -> 249 (Lugia) -> 248 (Tyranitar) -> 247 (Pupitar) -> 246 (Larvitar) -> 245 (Suicune).
+
+# Suicune Hunt Progress
+- Turn 19957: Reached eastern section of Route 38 ledge. Searching east.
+- Strategy: Moving toward the Ecruteak Gatehouse area on the northern path.
