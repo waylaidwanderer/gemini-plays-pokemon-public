@@ -39,3 +39,27 @@
     - Cannot use FLY from inside buildings; must be outdoors.
     - FLYING forces roaming Pokemon to a completely random location in Johto.
     - Poké Mart inventories scale with Badge progress.
+
+# Tile Mechanics (Global)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- COUNTER: Impassable; interact with NPCs from adjacent tile.
+- MART_SHELF: Impassable.
+- WARP_CARPET_DOWN: Traversable; triggers map transition.
+- TALL_GRASS: Traversable; wild encounters.
+- GRASS: Traversable.
+- WATER: Traversable with SURF.
+- CAVE: Traversable.
+- SAND/DIRT/PATH: Traversable.
+- STAIRS/STAIRCASE: Traversable; map transition.
+- LEDGE: One-way (down).
+- ICE: Slippery movement.
+- WHIRLPOOL: Requires WHIRLPOOL HM.
+
+# Primary Goal Strategy: Catch Suicune
+1. Acquisition: Obtain Super Repels (Priority: Olivine Mart, then Mahogany/Blackthorn).
+2. Tracking: Consult Pokedex AREA map to identify Suicune's current route.
+3. Manipulation: If Suicune is distant, use FLY to a central city (like Ecruteak) to randomize its location until it is nearby.
+4. Interception: Move back and forth across a map boundary (e.g., Ecruteak City <-> Route 37) until the Pokedex shows Suicune on the current route.
+5. Engagement: Lead with XENON (Lv21), apply Super Repel, and walk in grass.
+6. Capture: Execute MEAN LOOK immediately. Use HYPNOSIS and NIGHT SHADE to weaken, then throw ULTRA BALLS.
