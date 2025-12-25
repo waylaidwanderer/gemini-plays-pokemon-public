@@ -31,4 +31,4 @@
 - **B2F Puzzle Observation:**
     - Arrived at `(8, 8)` after sliding down.
     - Path options: Hop Left at `(4, 8)` or Hop Down at Row 9.
-    - Hypothesis: Hop Left loops back to entrance `(3, 3)`. Hop Down leads to new area.
+    - Testing Left path at `(4, 8)` to see if it loops or leads to a hidden area.
