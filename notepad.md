@@ -6,7 +6,6 @@
     3. Route 42 encounter (Middle island). (STATUS: MISSING - Confirmed by Tracker)
     4. Defeat Wise Trio at Tin Tower Entrance. (COMPLETED)
     5. Possess Clear Bell. (COMPLETED: In Key Items)
-- Current Status: Pokedex shows Suicune in Ecruteak City. Tracker confirms Route 42 flee event is the missing link.
 - Battle Plan: Hypnosis (XENON) -> Weaken (Night Shade/Lick/Headbutt).
 - Team: XENON (Gastly 21), GNEISS (Graveler 44).
 

@@ -209,7 +209,7 @@
     ]
   },
   "navigate_fly_map": {
-    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities using the vertical cycling logic (Up/Down).",
+    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -227,7 +227,7 @@
         "target_city"
       ]
     },
-    "python_script": "import json\n\ndef solve():\n    cities = [\n        \"New Bark Town\",\n        \"Cherrygrove City\",\n        \"Violet City\",\n        \"Azalea Town\",\n        \"Goldenrod City\",\n        \"Ecruteak City\",\n        \"Olivine City\",\n        \"Cianwood City\",\n        \"Mahogany Town\",\n        \"Lake of Rage\",\n        \"Blackthorn City\"\n    ]\n    start = input_data.get(\"current_city\")\n    target = input_data.get(\"target_city\")\n    if start not in cities or target not in cities or start == target:\n        print(json.dumps([]))\n        return\n    start_idx = cities.index(start)\n    target_idx = cities.index(target)\n    if target_idx > start_idx:\n        path = [\"Up\"] * (target_idx - start_idx)\n    else:\n        path = [\"Down\"] * (start_idx - target_idx)\n    print(json.dumps(path))\n\nsolve()",
+    "python_script": "import json\n\ncities = [\n    \"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \n    \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \n    \"MAHOGANY TOWN\", \"LAKE OF RAGE\", \"BLACKTHORN CITY\", \"MT. SILVER\", \"INDIGO PLATEAU\"\n]\n\ncurrent_city = input_data[\"current_city\"].upper()\ntarget_city = input_data[\"target_city\"].upper()\n\nif current_city not in cities or target_city not in cities:\n    print(json.dumps([]))\nelse:\n    curr_idx = cities.index(current_city)\n    target_idx = cities.index(target_city)\n    \n    diff = target_idx - curr_idx\n    buttons = []\n    \n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -243,6 +243,11 @@
         "commit_message": "Refined FLY map navigation to use the linear vertical cycle (Up/Down) based on observed behavior (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak).",
         "timestamp": "2025-12-24T14:48:39.533Z",
         "action_counter": 17401
+      },
+      {
+        "commit_message": "Fix navigate_fly_map to handle the case where the target city is the same as the current city by returning ['A'].",
+        "timestamp": "2025-12-25T05:29:01.372Z",
+        "action_counter": 19051
       }
     ]
   },
