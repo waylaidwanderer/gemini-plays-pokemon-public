@@ -2,8 +2,8 @@
 - Start Turn: 20637 (Thursday)
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Stationary sighting) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Location: Typically on the ledge area. In Crystal, it's often in a specific spot near the center of the route.
-- Hypothesis: Suicune is on the ledge area, possibly in a 'pocket' (e.g., Row 14, X=12).
+- Route 38 Location: Stationary overworld sprite. Approach to trigger flee.
+- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet. Do not guess coordinates.
 
 # Side Quests & Resources
 - Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory). Arthur disappears after Thursday.
@@ -21,6 +21,7 @@
 - LEDGE_HOP_RIGHT: One-way jump East.
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET_RIGHT: Triggers map transition.
+- LONG_GRASS: Traversable; triggers wild encounters.
 
 # Route 38/39 Mechanics & Exploration
 - Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
