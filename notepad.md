@@ -1,7 +1,7 @@
 # Strategic Objectives
 - **Primary:** Earn Rising Badge.
 - **Secondary:** Pass Dragon User Challenge.
-- **Immediate:** Reach the Dragon Shrine via the Far East Bypass (Column 28).
+- **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
 # Current Status (Turn 18319)
 - **Location:** Dragon's Den B1F (16, 10).
