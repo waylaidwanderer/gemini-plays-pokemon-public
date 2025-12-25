@@ -40,10 +40,11 @@
 - Clear Bell: In Key Items. Required for Tin Tower.
 
 # Route 38 Lane Analysis
-- Top Lane: Rows 0-6. Divided into pockets by vertical walls. Eastern Pocket (X=16-39) contains Lass Dana and Sailor Harry; reachable via Row 7 gaps at X=16-32. Middle Pocket (X=8-9) is isolated grass. Western Pocket (X=0-2) is isolated; connects to Route 39 strip.
+- Top Lane: Rows 0-6. Divided into pockets by vertical walls. Eastern Pocket (X=16-39) contains Lass Dana and Sailor Harry; reachable via Row 7 gaps at X=30-32 and X=34-35. Middle Pocket (X=4-5) reachable via Row 7 gaps at X=4-5. Western Pocket (X=0-2) is isolated; connects to Route 39 strip.
 - Middle Lane: Rows 8-10. Main path. Contains Beauty Olivia and Beauty Valerie.
 - Bottom Lane: Rows 12-14. Contains "Ledge Pocket" and "Valley Trap".
 - Vertical Walls: Solid walls at X=3, X=6, X=10, X=15 on Route 38, and X=16 on Route 39, enforce lane separation.
+- Fence Gaps (Row 7): X=4, 5, 30, 31, 32, 34, 35. Allows passage between Top and Middle lanes.
 
 # Reflection (Turn 20300)
 - Lane Trap: Route 38 is divided into Top, Middle, and Bottom lanes. Suicune is in the Top Lane. Middle lane is a dead end for the hunt.
