@@ -35,7 +35,13 @@
   - West Side Puzzle:
     - Target: Push Boulders into Pit (2, 5).
     - Access via Ladder (1, 7).
-- Action: Go South to confirm boulder positions and execute pushes.
+- Status: On 2F. Ready to solve South-East Boulder Puzzle.
+- Plan:
+  1. Go South to locate Boulders 3 and 4.
+  2. Push Boulder 3 (East one) North-West towards Pit.
+  3. Push Boulder 4 (West one) North towards Pit.
+- Path to South: (7, 9) -> (6, 9) -> (6, 13).
+- Boulder Locations (Expected): (8, 14) and (6, 17).
 - Combat Note: Dragonair uses Dragon Rage (Fixed 40 DMG). Use High HP Pokemon (Muscle) to tank.
 - Gym 2F Layout: Left (Col 0-1) and Right (Col 5-9) separated by wall, connected at Row 1 (Top) and Row 13 (Bottom). Also crossing at (2, 9) -> (3, 9).
 - Alternative Solution: North Boulders (2, 3) and (3, 3).
