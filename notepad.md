@@ -24,8 +24,9 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: At (24, 22). Facing DOWN (Correct).
-- Observation: Direct 'A' interaction failed to trigger Whirlpool.
-- Plan: Use Start Menu -> Pokemon -> Lapis -> Whirlpool.
-- Step 1: Open Start Menu and verify cursor position (safest approach).
+- Status: At (24, 22). Facing UP (Anomaly? Was Down).
+- Anomaly: Entering menu might have reset facing or state reading is flaky.
+- Action: Use 'slow_press' to Close Menu (B), Face Whirlpool (Down), and Interact (A).
+- Sequence: B -> Down -> A.
+- Goal: Trigger Whirlpool interaction text.
 - Whirlpool Location: (24, 23) (SOUTH).
