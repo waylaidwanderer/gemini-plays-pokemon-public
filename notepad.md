@@ -1,16 +1,22 @@
 # Suicune Quest Strategy (Crystal)
 - Status: ROAMING (Post-Tin Tower battle).
-- History: Summary Turn 18350-19055 confirms Tin Tower battle and subsequent tracking across routes.
-- Goal: Intercept roaming Suicune.
+- Current Location (Pokedex): Route 37 (Turn 19218).
+- Strategy: Boundary cycling between Ecruteak City and Route 37.
+- Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 
 # Capture Prep & Funding
-- Strategy: Mean Look (XENON Lv21) -> Hypnosis (XENON).
-- Level Gap: Suicune (Lv40) vs XENON (Lv21). XENON needs levels.
-- Resources: 1 Ultra Ball, 23 Great Balls. Need ~¥12,000 for 10+ Ultra Balls.
-- Funding Plan: Stones sold. Current Funds: ¥2373. Need ~¥12,000 for 10 Ultra Balls.
-- Status: Exiting Mart to verify Suicune roaming via Pokedex.
-- Strategy: If roaming, use boundary cycling (Route 36/37). If dot stays on Route 42, investigate island trigger again.
+- Strategy: Mean Look -> Hypnosis -> Chip away HP (if safe) -> Throw Balls.
+- Level Gap: Suicune (Lv40) vs XENON (Lv21). XENON needs levels, but can still use Mean Look if it survives Turn 1.
+- Resources: 1 Ultra Ball, 23 Great Balls.
+- Funds: ¥2373.
 - Note: Max Revive and Full Restore are in inventory for the battle.
+
+# Boundary Cycling Plan (Ecruteak <-> Route 37)
+1. Move to (17, 35) in Ecruteak City.
+2. Step south to Route 37.
+3. Check Pokedex.
+4. If Suicune is on Route 37, search grass.
+5. If not, step north to Ecruteak City and repeat.
 
 # Tile Mechanics (Global)
 - WATER: Walkable with Surf.
@@ -21,22 +27,14 @@
 - COUNTER: Interact from adjacent tile.
 - MART_SHELF: Impassable.
 
-# Lessons Learned
-- Suicune Sequence: Burned Tower -> Cianwood -> Route 42 Island -> Tin Tower battle -> Roaming.
-- Map transitions (Fly, caves, gates) relocate roaming Pokemon.
-- Menu Recovery: If a sequence fails, reset to overworld before retrying.
-
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19212)
-1. Find Suicune in the alphabetical Pokedex list (currently at 'S/T' area).
-2. Select Suicune and view "AREA" map.
-3. Record Suicune's exact location (Route #) and use suicune_tracker_v2.
-4. If roaming, identify the nearest boundary (e.g., Route 36/37 or 42/Mahogany) to cycle.
-5. Goal: Encounter Suicune and use Mean Look/Hypnosis.
+# Immediate Strategy (Turn 19221)
+1. Navigate to Ecruteak/Route 37 boundary at (17, 35).
+2. Cross to Route 37.
+3. Check Pokedex for Suicune's location.
 
-# Reflection Notes (Turn 19212)
-- Confirmed Ecruteak Mart does NOT sell Ultra Balls. Need to check higher-level cities (Goldenrod/Blackthorn/Indigo).
-- Suicune tracking is priority.
-- Menu navigation must be deliberate (Party vs Pokedex error noted).
+# Reflection Notes (Turn 19221)
+- Ecruteak Mart lacks Ultra Balls. Focus on capture with existing resources or find better Mart later.
+- Roaming tracking is active. Boundary cycling is the most efficient method.
