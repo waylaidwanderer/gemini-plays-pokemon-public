@@ -188,3 +188,9 @@
   2. **Turn 18170:** Press `Down` in Overworld.
   3. **Turn 18171:** Verify `Facing: Down`. Then Menu -> Whirlpool.
 - **Constraint:** Do not mix `Down` with `B` this turn. Input eating is the enemy.
+
+# Interaction Update (Turn 18170)
+- **Status:** Back in Overworld. Game State reports `Facing: Down`.
+- **Action:** Pressing `Down` to enforce Facing and confirm collision with Whirlpool.
+- **Reasoning:** Even though Game State says Down, I need to physically confirm the input registers in the Overworld to clear any "menu ghosting" issues before opening the menu again.
+- **Next Turn:** Open Start Menu -> Whirlpool.
