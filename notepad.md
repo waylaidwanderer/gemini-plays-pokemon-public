@@ -4,9 +4,11 @@
 
 # Battle Strategy: Clair
 - **Opponents:** Dragonair x3, Kingdra.
-- **Current State:** Gyarados critical (14 HP, Paralyzed).
-- **Plan:** Switch to Machoke (Lv 58). Use Strength/Cross Chop to brute force through the level gap.
-- **Status:** Gyarados failed. Machoke is the new carry.
+- **Current State:** Muscle (Machoke) vs Dragonair.
+- **Plan:**
+  - **Dragonairs:** Use Strength (PP: 6/15). 21 Level advantage (58 vs 37) should overwhelm them.
+  - **Kingdra:** Save Cross Chop (PP: 4/5) for Kingdra.
+- **Status:** Muscle needs to conserve PP. Strength is Slot 1. Cross Chop is Slot 4.
 
 # Blackthorn Gym Strategy
 - **Status:** All Puzzles Solved. Bridges formed.
