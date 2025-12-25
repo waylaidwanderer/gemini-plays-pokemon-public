@@ -16,16 +16,14 @@
   - WALL / FENCE: Impassable.
   - TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
 - Lane Analysis:
-  - Top Lane (Rows 0-6): Verified connectivity from X=4 to X=35. Reachable from Ecruteak or gaps at X=30-35. Contains isolated Western Pocket (X=0-2) blocked by wall at X=3.
+  - Top Lane (Rows 0-6): Fragmented by walls. Eastern strip (X=4-35) reachable via Ecruteak or gaps at X=30-35. Western Pocket (X=0-2) is currently isolated.
   - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
 - Search Log:
-  - Top Lane (X=4-35): Currently searching.
+  - Top Lane (X=4-35): Searched. No Suicune.
   - Western Pocket (X=0-2): Unexplored. Isolated.
-- Current Plan: Search the entire reachable Top Lane (X=4 to X=35) for Suicune. If not found, investigate the isolated Western Pocket (X=0-2) by checking for gaps on the Route 39 side.
+- Current Plan: Investigate the isolated Western Pocket (X=0-2) by checking for gaps on the Route 39 side or hidden ledges. Approach from the North if possible.
 
 # Lessons Learned
-- Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors (e.g., the Fly Loop failure Turn 20304-20341).
-- Pokedex Navigation: Wrapping from #001 to #251 is faster.
+- Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
 - False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
-- Dana (Lass) called: Has a gift for me. She is waiting on Route 38.
