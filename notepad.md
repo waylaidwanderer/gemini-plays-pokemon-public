@@ -1,14 +1,14 @@
 # Suicune Hunt Strategy (Crystal)
-- Status: SCRIPTED (Route 38). Start Turn: 19730.
+- Status: SCRIPTED (Route 38). Suicune is stationary and will not move until approached.
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
 - Strategy: Trigger flee on Route 38 (Northern strip), then battle at Tin Tower.
 - Battle Plan: 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
-- Coordinates: (16, 12) in National Park.
+- Hypothesis: NPC located at (16, 12) in National Park.
 - Time: Present at all times (Morning, Day, Night).
-- Note: NPC verified at (16, 12).
+- Note: Return during the day to verify hypothesis.
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
@@ -27,8 +27,9 @@
 - DOOR: Traversable, map transition.
 
 # Lessons Learned
-- NPC Verification: Never trust agent coordinates (e.g., item_locator) over the Game State 'Map Objects On Screen' list.
+- NPC Verification: Never trust agent coordinates over the Game State 'Map Objects On Screen' list.
 - Loop Prevention: If stuck in a pathing loop, re-verify collision data and NPC presence manually.
+- Suicune Mechanics: In Crystal, Suicune follows a fixed scripted path and only roams after the Tin Tower event.
 
 # Resources & PC Inventory
 - Poke Balls: 1 Ultra, 23 Great, 2 Poke.
