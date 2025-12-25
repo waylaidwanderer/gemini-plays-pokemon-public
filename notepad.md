@@ -11,11 +11,8 @@
 - Team: XENON (Gastly) for Sleep, GNEISS (Graveler) for tanking.
 
 # Tin Tower Investigation
-- Current Status: Suicune is stationary in Tin Tower (Tracker/Pokedex), but 1F trigger is missing.
-- Strategy Pivot: Search Ecruteak City for Eusine or missed dialogue triggers.
 - Hypothesis: The trigger for Suicune's overworld appearance on 1F is external to the tower, such as a final confirmation from the Wise Trio or Eusine's presence in Ecruteak.
-- Task 1: Check Pokemon Center for Eusine.
-- Task 2: Navigate to Tin Tower Entrance (18, 11) and re-verify the Wise Trio's status.
+- Current Task: Search Ecruteak City (PC, Entrance building) for triggers.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
