@@ -1,15 +1,11 @@
-# Suicune Hunt Strategy (Crystal)
+# Strategy: Suicune Hunt (Crystal)
 - Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 and will not move until approached.
 - Strategy: Approach Suicune on the western ledge of Route 38.
 - Access: Enter Route 38 northern path from the west (Route 39 border).
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
-# Quick Claw Quest
-- NPC: Lady sitting on a bench with Persian.
-- Location: National Park (18, 12) in the northeast section.
-- Time: Always available.
-
-# Swarms & Rematches
+# Side Quests & Rematches
+- Quick Claw: National Park (18, 12) in the northeast section (Lady with Persian).
 - Yanma Swarm: Route 35 (Arnie).
 - Schoolboy Alan: Route 36 (Rematch).
 
@@ -23,13 +19,14 @@
 - LEDGE_HOP_RIGHT: One-way traversal West -> East.
 
 # Resources
-- Super Repels: 2 in Pack.
+- Super Repel: 1 in Pack (Used 1 at Turn 19886).
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
 # Suicune Search Log
 - Start Turn: 19782
 - Pokedex Status: Shows Route 38.
 
-# Navigation Notes
-- Route 38 Top Path: Only accessible from Route 39 (West).
-- Path to West: Fly to Olivine -> Walk North through Route 39.
+# Error & Navigation Log
+- Turn 19884: Fly from New Bark (selected) with 6 Downs landed in Goldenrod. Likely input drop or different city order.
+- Turn 19886: Accidental Super Repel use due to menu miscount.
+- Navigation: Route 38 Top Path is only accessible from Route 39 (West). Fly to Olivine -> Walk North.
