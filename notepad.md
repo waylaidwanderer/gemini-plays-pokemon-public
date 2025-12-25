@@ -16,8 +16,8 @@
 - Status: B2F East Side (Navigating to Exit).
 - Goal: Exit Ice Path.
     - Path to Ladder (3, 15):
-        1. Navigate North/East from (3, 3) to (8, 4) (Bypass ledge).
-        2. Slide Down from (8, 4) to (8, 8).
+        1. (Done) Navigate North/East from (3, 3) to (8, 4).
+        2. (Done) Slide Down from (8, 4) to (8, 8).
         3. Navigate Left to (6, 8), then Slide Up to (6, 5).
         4. Cross from (6, 5) to (3, 5) via Row 4 connection.
         5. Walk to (3, 7), then Slide Down to (3, 14).
