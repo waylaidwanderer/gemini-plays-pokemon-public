@@ -41,10 +41,9 @@
 
 ## Strategy: Solve Boulder Puzzle (B1F)
 1. **Push Sequence:**
-   - **Step 1:** Push Boulder Up to (5, 6). (Current)
-     - *Note: Boulder oddly moved to (5, 7). Pushing Up from (5, 8) sends it to (5, 6).*
-   - **Step 2:** Circle around to (6, 6).
-     - Path: (5, 8) -> East to Col 11 -> Up to Row 1 -> (6, 1) -> Down to (6, 6).
+   - **Step 1:** Push Boulder Up to (5, 6). (Completed)
+   - **Step 2:** Circle around to (6, 6). (Current)
+     - Route: (6, 9) -> (9, 11) -> (1, 11) -> (1, 1) -> (6, 1) -> (6, 6).
    - **Step 3:** Push Boulder Left to (4, 6).
    - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
 2. **Return to B2F:**
@@ -53,6 +52,4 @@
    - Slide Right to Item.
 
 ## Current Action
-- Pushing Boulder Up to (5, 6).
-- Repositioning to (6, 8) to start the loop.
-- Inputs: Up (push), Down, Right.
+- Navigating to (6, 6) via the long Left Loop.
