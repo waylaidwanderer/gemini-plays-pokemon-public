@@ -3,15 +3,11 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18343)
+# Current Status (Turn 18344)
 - **Location:** Dragon Shrine (3_82).
-- **Activity:** Exiting Shrine to deposit a Pokémon.
-- **Reasoning:** 
-    - Received Rising Badge.
-    - Elder's dialogue implies I can return ("Come again...").
-    - Need to free up a party slot for Dratini.
-    - Clair should be waiting outside to give me TM24.
-- **Goal:** Exit Shrine, Exit Dragon's Den, Deposit Pokémon.
+- **Activity:** Exiting Shrine.
+- **Action:** Close text and navigate to exit (Warp at 4, 9).
+- **Reasoning:** Badge obtained. Need to deposit a Pokemon to get Dratini.
 
 # Plan
 1. Exit Shrine via Warp at (4, 9).
