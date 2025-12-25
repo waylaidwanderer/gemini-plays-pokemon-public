@@ -4,21 +4,17 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Fly to New Bark Town.
 
-# Current Status (Turn 18488)
-- **Location:** Blackthorn City Pokémon Center (9, 7).
-- **Activity:** Removing Mail from Lapis.
-- **Goal:** Get Mistral (Fly).
-- **Context:** Moved away from PC by accident. Need to remove mail, then walk back to PC.
+# Current Status (Turn 18507)
+- **Location:** Blackthorn City Pokémon Center (9, 2).
+- **Activity:** Flying to New Bark Town.
+- **Goal:** Get Master Ball from Elm.
+- **Context:** Withdrew Mistral. Ready to Fly.
 
 # Plan
-1. Exit Pokedex/Menus.
-2. Remove Mail from Lapis (Party Menu -> Item -> Take).
-3. Walk to PC (9, 2).
-4. Deposit Lapis.
-5. Withdraw Mistral.
-6. Fly to New Bark Town.
-7. Talk to Prof. Elm for Master Ball.
-8. Surf East to Tohjo Falls.
+1. Close PC.
+2. Fly to New Bark Town.
+3. Talk to Prof. Elm for Master Ball.
+4. Surf East to Tohjo Falls.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
