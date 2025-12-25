@@ -29,3 +29,4 @@
 - **Map Reading:** Verify tile types.
 - **Warps:** If a warp doesn't trigger, try different approach angles.
 - **Item Management:** If PC shortcuts (like 'Move w/o Mail') fail or are confusing, manually removing items via the Party menu is more reliable.
+- **Gen 2 Mechanics:** Move type determines category. Water is Special, so Gyarados's Surf and Waterfall are Special attacks, not Physical. Ghost is Physical. Dark is Special.
