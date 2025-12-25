@@ -38,10 +38,12 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
-- Turn 18126: Retrying Whirlpool sequence from clean state.
-- Assumptions:
-  1. Facing: Will force DOWN.
-  2. Start Menu Cursor: On POKEMON (Persistent).
-  3. Party Menu Cursor: On LAPIS (Persistent).
-- Sequence: Down (Face) -> Start (Menu) -> A (Pokemon) -> A (Lapis) -> Down (Whirlpool) -> A (Select).
-- Note: Using slow_press with 1s delays.
+- Turn 18127: "Can't use that here" persisted.
+- Diagnosis: Input `Down` from Turn 18126 likely failed to update facing, or was eaten.
+- Current Status: Deep in menus/text.
+- Action: HARD RESET. Pressing B x4 to return to Overworld.
+- Next Turn Plan:
+  1. Verify Game State "Facing".
+  2. If not DOWN, press DOWN.
+  3. Once Facing is CONFIRMED DOWN, press A to interact (Primary).
+  4. Fallback: Menu -> Whirlpool (only if A fails AND facing is confirmed).
