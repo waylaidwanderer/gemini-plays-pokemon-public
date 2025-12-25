@@ -3,7 +3,7 @@
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Stationary sighting) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
 - Route 38 Location: Stationary overworld sprite at (12, 10) near the Fruit Tree. Approach to trigger flee.
-- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet. Do not guess coordinates. Use (12, 10) as the target.
+- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet. Use (12, 10) as the target.
 
 # Side Quests & Resources
 - Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory). Arthur disappears after Thursday.
