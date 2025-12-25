@@ -21,6 +21,6 @@
 - **WARP**: Map transition.
 - **WATER**: Surf required.
 - **BUOY**: Whirlpool (Requires HM06).
-- Insight: Direct interaction ('A') with Whirlpool FAILED even when facing DOWN. Must use Party Menu.
-- Mechanics: Pokemon Menu cursor likely resets to Slot 1 (Gyarados) after full exit. Main Menu cursor likely remembers POKEMON.
-- Plan: Start -> A (Open Party) -> Verify Cursor -> Select Lapis -> Whirlpool.
+- Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
+- Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
+- Requirement: Must face BUOY/Whirlpool to use HM.
