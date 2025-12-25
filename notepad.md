@@ -37,6 +37,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Fighting Cooltrainer Reena (Nidoqueen Lv33).
-- **Strategy:** Gyarados (83/108) vs Nidoqueen. Use Surf (Slot 4).
-- **Status:** Cursor on PACK. Navigating to FIGHT.
+- **Battle:** Defeated Cooltrainer Reena (Nidoqueen Lv33). (Turn 18727)
+- **Status:** Gyarados Paralyzed (52/108). Need to heal.
+- **Location:** Route 27 East (72, 6).
+- **Next:** Heal paralysis, continue East to Victory Road.
