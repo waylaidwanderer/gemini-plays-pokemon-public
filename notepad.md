@@ -22,7 +22,7 @@
 
 # Repetitive Task: Pacing for Suicune
 - Status: Pacing (6, 2) <-> (7, 2).
-- Repel: Applied Turn 19322. ~150 steps taken.
+- Repel: Applied Turn 19361. 0 steps taken.
 - Objective: Trigger encounter.
 
 # Resources & PC
