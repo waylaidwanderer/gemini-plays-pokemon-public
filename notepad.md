@@ -3,6 +3,7 @@
 - Method: Boundary cycling between Ecruteak City and Route 37.
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 - Encounter Filter: Super Repel + Lv21 lead forces Suicune (Lv40) as the only possible encounter on Route 37 (local wild Lv13-16).
+- Anomaly: Encountered Lv13 Spinarak on Turn 19312 despite Repel active. Investigating.
 
 # Suicune Battle Strategy
 - Turn 1: MEAN LOOK. (Note: Suicune Base Speed 85 vs Gastly 80. Suicune likely moves first).
@@ -13,7 +14,6 @@
 # Capture Prep
 - Resources: 1 Ultra Ball, 23 Great Balls.
 - Funds: ¥2373.
-- Goal: Verify if Suicune flees before Turn 1 action.
 
 # Ultra Ball Hypotheses
 - Hypothesis 1: Goldenrod Dept. Store sells Ultra Balls.
@@ -33,9 +33,8 @@
 
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
-- Status: Super Repel NOT active (Turn 19309 application failed).
-- Total Pacing Steps: 410.
-- Current Spray Steps: 0.
+- Status: Super Repel active (Turn 19309). x2 remaining.
+- Total Pacing Steps: 420.
 - Next Pokedex Check: NOW (post-battle).
 
 # PC Storage (Box 1)
