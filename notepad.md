@@ -18,12 +18,12 @@
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
 - Whirlpool interaction via 'A' failed (no text).
 - Party Menu Cursor persistence: It started on Slot 5 (Kunai). Always verify cursor position before blind navigation.
-- Current State: In Lapis's Menu. Cursor on SURF.
-- Action: Select WHIRLPOOL (Down -> A).
-- Potential Issue: Player is facing UP. Whirlpool is DOWN (15, 23).
-- If "Can't use that here" appears:
-  1. Close Menu.
-  2. Press DOWN to face the whirlpool (collision will prevent movement).
-  3. Re-open Menu or press A.
-- Party Menu Cursor persistence observed: Started on Slot 5 previously.
-- Field moves usually appear at the top of the context menu.
+- Whirlpool interaction confirmed: "Can't use that here" when facing wrong way.
+- Requirement: Must be in Overworld, Facing Whirlpool (DOWN), then select Move.
+- Current State: In Party Menu.
+- Plan:
+  1. Exit Menus (B, B).
+  2. Face Down (Down).
+  3. Verify Facing.
+  4. Use Menu -> Pokemon -> Lapis -> Whirlpool.
+- Note: 'A' interaction with Whirlpool often fails to trigger text. Menu is reliable.
