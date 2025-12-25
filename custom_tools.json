@@ -294,7 +294,7 @@
     ]
   },
   "pace_grass_v1": {
-    "description": "Generates button presses to pace back and forth in grass to trigger encounters.",
+    "description": "Generates button presses to pace back and forth between (6, 2) and (7, 2) on Route 37 to trigger encounters. Respects num_steps.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -307,7 +307,7 @@
         "num_steps"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef get_input():\n    try:\n        raw_input = sys.stdin.read()\n        if raw_input:\n            return json.loads(raw_input)\n    except:\n        pass\n    return {}\n\ninput_data = get_input()\nnum_steps = int(input_data.get('num_steps', 10))\n\nbuttons = []\nfor i in range(num_steps):\n    # Alternating Left and Right\n    buttons.append('Left' if i % 2 == 0 else 'Right')\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.stdin.read())\n        num_steps = int(input_data.get('num_steps', 10))\n        buttons = []\n        for i in range(num_steps // 2):\n            buttons.extend([\"Right\", \"Left\"])\n        if num_steps % 2 != 0:\n            buttons.append(\"Right\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -323,6 +323,11 @@
         "commit_message": "Robust input handling for pace_grass_v1.",
         "timestamp": "2025-12-25T07:31:20.926Z",
         "action_counter": 19294
+      },
+      {
+        "commit_message": "Fixing logic to respect num_steps and pace specifically between (6, 2) and (7, 2) to stay in tall grass.",
+        "timestamp": "2025-12-25T08:04:40.635Z",
+        "action_counter": 19352
       }
     ]
   }
