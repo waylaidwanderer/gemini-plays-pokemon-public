@@ -88,10 +88,14 @@
 - **Hypothesis:** Game might remember the last cursor position in Party Menu (Lapis).
 - **Test:** If Party Menu opens with Lapis selected, Memory Cursor is active. If Gyarados, it resets.
 
-# Reflection (Turn 18145 - RESOLVED)
-- **Status:** Hard Reset complete. Player confirmed Facing DOWN at (15, 22).
-- **Action:** Attempting interaction via 'A' button.
-- **Strategy:** If 'A' fails, fallback to Start Menu -> Pokemon -> Lapis -> Whirlpool.
+# Reflection (Turn 18152 - CORRECTION)
+- **Status:** "Can't use that here" error confirmed.
+- **Cause:** Game State persistently reports `Facing: up`. My previous belief that I was "Facing DOWN" (Turn 18145) was incorrect or the input failed.
+- **Action:** Full Reset of Facing.
+- **Plan:**
+  1. **Turn 18152:** Close ALL menus (B spam).
+  2. **Turn 18153:** Press `Down` in Overworld. Verify Game State updates to `Facing: down`.
+  3. **Turn 18154:** Interact (A) or Menu -> Whirlpool.
 
 # Protocols
 - **Facing Correction:**
