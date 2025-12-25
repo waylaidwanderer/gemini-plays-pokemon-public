@@ -41,3 +41,7 @@
 - Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
 - Stagnation: 30 turns lost to menu fumbling in Olivine City. Use the "Up" reset strategy to break loops.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
+
+# Task Progress
+- Quick Claw Search: En route to Goldenrod City.
+- Suicune Tracking: Roaming. Last seen Ecruteak City.
