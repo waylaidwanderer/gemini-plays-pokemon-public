@@ -24,7 +24,8 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: Interrupted by Wild Battle (Magikarp).
-- Action: Fleeing Battle via 'RUN'.
-- Plan: Upon return to Overworld, verify coordinates and Facing direction.
-- Goal: Cross Whirlpool at (24, 23) using Lapis's Whirlpool.
+- Status: Post-Battle. At (24, 22). Facing RIGHT.
+- Whirlpool Location: (24, 23) (SOUTH).
+- Action: Turn DOWN to face whirlpool, then Interact (A) to trigger use.
+- Interaction Sequence: Down -> A (Text/Prompt) -> A (Confirm 'Yes').
+- Backup: If direct 'A' fails, use Start Menu -> Pokemon -> Lapis -> Whirlpool.
