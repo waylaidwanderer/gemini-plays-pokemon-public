@@ -4,18 +4,19 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18384)
-- **Location:** Blackthorn City (24, 18).
-- **Action:** Walking to Pokémon Center.
-- **Goal:** Reach PC (21, 29), Deposit Swinub, Return to Shrine.
+# Current Status (Turn 18385)
+- **Location:** Blackthorn Pokémon Center (3, 7).
+- **Action:** Walk to PC to deposit a Pokémon.
+- **Goal:** Free up a party slot for the Extremespeed Dratini.
+- **Target:** Deposit Swinub (Truffle).
 
 # Plan
-1. Navigate South to (24, 30).
-2. Move West to (21, 30).
-3. Enter Pokémon Center at (21, 29).
-4. Deposit Swinub.
-5. Exit and return to Dragon Shrine for Dratini.
-6. Fly to New Bark Town for Master Ball.
+1. Navigate to (9, 2) (Front of PC).
+2. Access PC.
+3. Deposit Swinub.
+4. Exit and return to Dragon Shrine.
+5. Get Dratini.
+6. Fly to New Bark Town.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
