@@ -49,3 +49,9 @@ Verified: Super Repels NOT sold here.
 # Strategy Update
 - Goldenrod Dept. Store does not sell Super Repels at this stage.
 - Plan: Fly to Ecruteak City, check Mart for Super Repels, then hunt Suicune on Route 38.
+
+# Suicune Battle Plan
+- Lead: XENON (Lv21)
+- Turn 1: MEAN LOOK (prevent fleeing)
+- Turn 2+: HYPNOSIS (apply Sleep)
+- Goal: Lower HP carefully and use ULTRA BALLS.
