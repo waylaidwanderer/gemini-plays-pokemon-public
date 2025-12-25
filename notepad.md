@@ -25,7 +25,6 @@
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
 - Status: Reached Dragon Shrine Island.
-- Insight: The Island is walled off at y=29 (South end) from the North side.
-- Solution: Must Surf around the East side (Column 24 appears clear) to reach the South entrance.
-- Action: Moving back to North side of island (18, 22) to Surf around.
-- Whirlpools: Check for them on the East route. Teach HM06 if needed.
+- Insight: Island is walled on West (x=16) and East (x=23). Must launch from North (y=21) to go around.
+- Plan: Go to (19, 22), Surf North to (19, 21), then East/West and South to reach (19, 30).
+- Whirlpools: Keep watch. Teach HM06 if needed.
