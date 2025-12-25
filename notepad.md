@@ -35,4 +35,4 @@
 - Super Repels NOT sold here.
 
 # Time Tracking
-- Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod. Moving to Ecruteak.
+- Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod Dept. Store (2F/3F). Moving to Ecruteak.
