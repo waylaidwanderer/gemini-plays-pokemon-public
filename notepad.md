@@ -1,7 +1,7 @@
 # Suicune Hunt Strategy (Crystal)
 - Status: SCRIPTED (Route 38).
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
-- Strategy: Trigger flee on Route 38, then battle at Tin Tower.
+- Strategy: Trigger flee on Route 38 (Northern strip), then battle at Tin Tower.
 - Battle Plan: 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
