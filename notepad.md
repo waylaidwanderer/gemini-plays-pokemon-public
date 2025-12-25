@@ -1,7 +1,7 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (19, 3).
+- **Position:** Player at (18, 2).
 - **Goal:** Return to B1F and Reset Puzzle.
 - **Puzzle State:**
   - **B2:** Dropped to (3, 12) (Incorrect). Resetting.
