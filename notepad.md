@@ -7,14 +7,17 @@
 # Suicune Battle Strategy (Lv40)
 - Goal: Prevent flee and capture.
 - Turn 1: Use MEAN LOOK (XENON). 
-- Speed Check: Suicune (Base 85, Lv40) is likely faster than Gastly (Base 80, Lv21).
+- Speed Check: Suicune (Base 85, Lv40) is faster than Gastly (Base 80, Lv21).
+- Problem: Suicune will likely flee before XENON can act.
+- Potential Solutions:
+    1. Get Quick Claw (Hypothesis: House on Route 35/36).
+    2. Level up XENON significantly.
+    3. Use a faster Pokemon with a trapping move or sleep.
 - Efficiency: Use SUPER REPEL with XENON (Lv21) leading to filter out low-level encounters (Lv13-16) and target Suicune (Lv40).
 - Turn 2+: Use HYPNOSIS.
 - Turn 3+: Chip damage with NIGHT SHADE (fixed damage = level).
-- Note: If Suicune uses Roar, Mean Look is broken.
 
 # Capture Prep & Funding
-- Strategy: Mean Look -> Hypnosis -> Chip away HP (if safe) -> Throw Balls.
 - Resources: 1 Ultra Ball, 23 Great Balls.
 - Funds: ¥2373.
 - Note: Max Revive and Full Restore are in inventory.
@@ -22,10 +25,10 @@
 # Ultra Ball Hypotheses
 - Hypothesis 1: Goldenrod Dept. Store sells Ultra Balls.
 - Hypothesis 2: Blackthorn City Mart sells Ultra Balls.
-- Hypothesis 3: Indigo Plateau Mart sells Ultra Balls.
 
-# Quick Claw Hypothesis
-- Hypothesis: A lady in a house near the National Park (Route 35/36) gives the Quick Claw. This would allow XENON a chance to move first and use Mean Look.
+# Quick Claw Quest
+- Hypothesis: A lady in a house on Route 35/36 gives the Quick Claw.
+- Location: Route 35 is south of Ecruteak/Route 36.
 
 # Boundary Cycling Plan (Ecruteak <-> Route 37)
 1. Move to (17, 35) in Ecruteak City.
@@ -47,18 +50,14 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19244)
+# Immediate Strategy (Turn 19247)
 1. Pace back and forth in the tall grass at (7, 2) and (8, 2) on Route 37.
-2. Super Repel is active (200 steps). XENON (Lv21) leading forces Suicune (Lv40) encounter.
-3. If Suicune is encountered: Use MEAN LOOK on Turn 1.
-4. If Suicune flees: Track it again and resume boundary cycling.
-5. If Repel wears off without encounter: Re-check Pokedex.
+2. Super Repel is active.
+3. If Suicune is encountered: Use MEAN LOOK.
+4. If it flees before action: Pivot to finding the Quick Claw on Route 35/36.
 
-# Quick Claw Hypothesis
-- Hypothesis: A lady in a house near the National Park (Route 35/36) gives the Quick Claw. This would allow XENON a chance to move first and use Mean Look.
-
-# Reflection Notes (Turn 19244)
+# Reflection Notes (Turn 19247)
+- Super Repel is active.
 - Suicune confirmed on Route 37.
-- XENON is the lead.
-- Speed Gap: Suicune (Lv40) is much faster than XENON (Lv21). Hypnosis/Mean Look may fail if it flees first.
-- Goal: Encounter Suicune to verify if it flees before Turn 1 action.
+- XENON is leading.
+- Awaiting encounter to test speed interaction.
