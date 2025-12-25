@@ -17,3 +17,8 @@
 
 ## Finishing Plan
 - After B1 is in Pit (11, 2), solve B2.
+## Reflection (Turn 16989)
+- Caught Swinub (Truffle).
+- Boulder puzzle B1 needs reset and correction.
+- Plan: Finish naming, then execute recovery plan for B1.
+- Created "type_text" tool plan for future naming efficiency.
