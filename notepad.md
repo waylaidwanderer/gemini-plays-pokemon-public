@@ -38,5 +38,5 @@
 - Pacing: Avoid repetitive attempts at unverified "isolated" pockets. Focus on scripted triggers.
 
 # Time Tracking
-- Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20575. 
-- Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20575.
+- Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20576. 
+- Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20576.
