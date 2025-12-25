@@ -8,12 +8,14 @@
   - **B2:** (7, 8).
   - **B4:** (17, 7).
 
-## Recovery Plan for B1
-1.  **Navigate to (10, 0):** (Via 12,3 -> 12,1 -> 11,0).
-2.  **Push Down:** Push B1 Down to (10, 5).
-3.  **Push Right:** Push B1 to (12, 5).
-4.  **Push Up:** Push B1 to (12, 2).
-5.  **Push Left:** Push B1 into Pit (11, 2).
+## Recovery Plan for B1 (Corrected)
+1.  **Push Down:** Push B1 from (10, 1) to (10, 3) ONLY. (Do NOT push to 10, 4 or 10, 5).
+2.  **Reposition to (9, 3):** Loop via Row 5 (10,2 -> 12,1 -> 12,5 -> 9,5 -> 9,3).
+3.  **Push Right:** Push B1 from (10, 3) to (12, 3).
+4.  **Reposition to (12, 4):** Loop via Row 5 (11,3 -> 10,3 -> 10,5 -> 12,5 -> 12,4).
+5.  **Push Up:** Push B1 from (12, 3) to (12, 2).
+6.  **Reposition to (13, 2):** Loop via Top (12,3 -> 10,3 -> 10,1 -> 13,1 -> 13,2).
+7.  **Push Left:** Push B1 into Pit (11, 2).
 
 ## Finishing Plan
 - After B1 is in Pit (11, 2), solve B2.
