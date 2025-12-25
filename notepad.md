@@ -16,13 +16,12 @@
   - WALL / FENCE: Impassable.
   - TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
 - Lane Analysis:
-  - Top Lane (Rows 0-6): Fragmented by walls. Eastern Pocket (X=16-39) reachable via gaps at X=30-35. Middle Pocket (X=4-5) reachable via gaps at X=4-5. Western Pocket (X=0-2) is isolated from south.
+  - Top Lane (Rows 0-6): Verified connectivity from X=4 to X=35. Reachable from Ecruteak or gaps at X=30-35. Contains isolated Western Pocket (X=0-2) blocked by wall at X=3.
   - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
 - Search Log:
-  - Middle Pocket (X=4-5): Searched. No Suicune.
-  - Western Pocket (X=0-2): Unexplored.
-  - Eastern Pocket (X=16-39): Unexplored.
-- Current Plan: Approach Route 38 from Ecruteak (East) and stay in the Top Lane (Rows 0-6) while walking West. This is the only way to reach isolated sections where Suicune (Sighting #4) is waiting near the Miltank farm.
+  - Top Lane (X=4-35): Currently searching.
+  - Western Pocket (X=0-2): Unexplored. Isolated.
+- Current Plan: Search the entire reachable Top Lane (X=4 to X=35) for Suicune. If not found, investigate the isolated Western Pocket (X=0-2) by checking for gaps on the Route 39 side.
 
 # Lessons Learned
 - Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors (e.g., the Fly Loop failure Turn 20304-20341).
