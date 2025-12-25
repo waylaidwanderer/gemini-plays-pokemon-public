@@ -41,13 +41,7 @@
     - Slide Left to `(14, 29)`, then Down to `(14, 33)`.
     - **South Landing:** `(11, 33)` (Floor). Accessible from `(14, 33)` via Left slide.
     - **North Landing:** `(11, 30)` (Floor). Path: `(14, 33) -> R(15, 33) -> U(15, 29) -> R(19, 29) -> D(19, 33) -> L(17, 33) -> U(17, 31) -> L(13, 31) -> U(13, 30) -> L(11, 30)`.
-- **Item Path Solution (B1F):**
-    - Start `(9, 33)` (Floor).
-    - Slide Down to `(9, 34)`.
-    - Slide Left to `(7, 34)`.
-    - Slide Down to `(7, 35)`.
-    - Slide Left to `(6, 35)` (adjacent to Item).
-    - **Action:** Picking up Item at `(5, 35)`.
+- **Item Path Solution (B1F):** [Completed: Found Iron]
 - **Return & Progress Plan:**
     - **Escape:** From `(5, 35)` -> Slide R to `(8, 35)` -> Slide U to `(8, 34)` -> Slide R to `(9, 34)` (Land on `9, 33`).
     - **Transition:** Walk R to `(11, 33)` (South Landing).
