@@ -13,13 +13,13 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Crossing B3F to East Side.
+- Status: Crossing B3F (East Side).
 - Goal: Exit Ice Path.
     - Plan:
-    1. Clear Rock Smash text.
-    2. Navigate South to Row 8.
-    3. Cross Ledge at (11, 8) to reach East Side.
-    4. Check Unseen area at (14, 10).
-    5. Take Ladder at (15, 5) to B2F.
-- Note: Northern path blocked by Floor_Up_Wall at (9, 2). Southern path via ledge is required.
+    1. Navigate North to Ladder at (15, 5).
+    2. Take Ladder to B2F.
+    3. Find exit to B1F/1F.
+- Note: Northern path blocked by Floor_Up_Wall at (9, 2). Southern path via ledge (11, 8) used.
+- Resolved: (14, 10) confirmed as WALL.
+- Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
