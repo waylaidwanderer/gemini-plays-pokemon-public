@@ -36,7 +36,7 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Interaction:** Talking to Youngster on Route 26 (14, 79).
-- **Dialogue:** "Wow, look at all those BADGES! I'm impressed."
+- **Dialogue:** "But you're not satisfied by just collecting them, right?"
 - **Status:** Muscle Lv60 (63/198). Gyarados (52/108) is Leading.
 - **Location:** Route 26 (15, 79).
-- **Next:** Complete interaction/Battle. Heal. Navigate North through grass.
+- **Next:** Battle Youngster. Heal. Navigate North.
