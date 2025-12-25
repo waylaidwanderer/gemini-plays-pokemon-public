@@ -15,7 +15,7 @@
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
-- WALL: Impassable. (National Park fence is a WALL, look for gaps).
+- WALL: Impassable.
 - LONG_GRASS: Traversable, low encounter rate.
 - TALL_GRASS: Traversable, higher encounter rate.
 - WARP_CARPET: Map transition.
