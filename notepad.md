@@ -31,7 +31,7 @@
 - Schoolboy Alan (Route 36): Rematch available?
 
 # Resources
-- Super Repel: Active.
+- Super Repel: None (Inventory empty).
 - Clear Bell: In Key Items. Required for Tin Tower.
 
 # Pokedex Navigation
