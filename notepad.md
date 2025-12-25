@@ -7,7 +7,7 @@
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
 - Note: NPC missing at night (3:14 AM). Return during the day.
-- Checked (National Park): (17, 6) - Empty, (33, 11) - Empty, (35, 12) - Wall.
+- Checked (National Park): (17, 6) - Empty grass, (33, 11) - Empty grass, (35, 12) - Wall.
 - Location: Northeast area of National Park.
 
 # Swarms & Rematches
