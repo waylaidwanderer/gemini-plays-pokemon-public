@@ -37,3 +37,13 @@
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell is in inventory.
 - Strategy: Locate Suicune on the ledge and approach to trigger flee.
+
+# Tile Mechanics (Verified)
+- LEDGE_HOP_LEFT: One-way East -> West.
+- LEDGE_HOP_RIGHT: One-way West -> East.
+- WARP_CARPET_RIGHT: Warp tile; triggers map transition when moving East.
+
+# Suicune Hunt Progress
+- Started Hunt: Turn 20127
+- Current Status: Searching western ledge of Route 38. Suicune typically appears on the ledge at (10, 12) or similar.
+- Strategy: Approach the ledge tile from an adjacent position. If Suicune is present, walking onto the tile or talking to it triggers the flee.
