@@ -26,6 +26,6 @@
 - Current Location: B1F Main Cavern.
 - Status: Reached Dragon Shrine Island.
 - Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS.
-- Requirement: Need HM06 Whirlpool to cross.
-- Plan: Teach HM06 to Lapis (Poliwag). Then cross the whirlpool at (15, 23).
-- Whirlpools: Confirmed at y=23. Teaching HM06 now.
+- Requirement: HM06 Whirlpool (Taught to Lapis).
+- Plan: Exit menu, cross whirlpool at (15, 23), and continue South to the Shrine entrance.
+- Whirlpools: Ready to cross.
