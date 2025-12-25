@@ -4,18 +4,17 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18428)
+# Current Status (Turn 18429)
 - **Location:** Dragon Shrine (5, 2).
-- **Activity:** Talking to Elder.
-- **Goal:** Receive Extremespeed Dratini.
-- **Context:** Dialogue started. Advancing text.
+- **Activity:** Nicknaming Dratini.
+- **Goal:** Nickname Dratini "ZENITH" (fitting the "Rising" Badge and Extremespeed).
+- **Context:** Prompt "Give a nickname?". Selected YES.
 
 # Plan
-1. Advance dialogue (A/B).
-2. Receive Dratini.
-3. Nickname Dratini (if prompted).
-4. Exit Shrine.
-5. Fly to New Bark Town.
+1. Confirm YES (A).
+2. Enter Nickname "ZENITH".
+3. Exit Shrine.
+4. Fly to New Bark Town.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
