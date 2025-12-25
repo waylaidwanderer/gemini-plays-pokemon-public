@@ -23,13 +23,6 @@
 - Hypothesis: A lady in a house on Route 35/36 gives the Quick Claw.
 - Location: Route 35 is south of Ecruteak/Route 36.
 
-# Boundary Cycling Plan
-1. Move to (17, 35) in Ecruteak City.
-2. Step south to Route 37.
-3. Check Pokedex.
-4. If Suicune is on Route 37, search grass.
-5. If not, step north to Ecruteak City and repeat.
-
 # Global Tile Mechanics
 - TALL_GRASS: Traversable, triggers wild encounters.
 - WATER: Walkable with Surf.
@@ -41,9 +34,9 @@
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
 - Status: Super Repel active (Turn 19309).
-- Total Pacing Steps: 400.
-- Current Spray Steps: 0.
-- Next Pokedex Check: 50 spray steps.
+- Total Pacing Steps: 410.
+- Current Spray Steps: 10.
+- Next Pokedex Check: NOW (post-battle).
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
