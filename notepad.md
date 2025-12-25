@@ -32,5 +32,5 @@
     - Arrived at `(8, 8)` after sliding down.
     - Path options: Hop Left at `(4, 8)` or Hop Down at Row 9.
     - Testing Left path at `(4, 8)` to see if it loops or leads to a hidden area.
-- **Path verification:** Sliding Right from `(0,8)` to `(3,8)` allows walking Up to `(3,3)` Ladder, confirming the Left Ledge loop. To progress, I likely need to explore the south ice or restart and take the South Ledges.
-- **Action:** Exploring South Ice from `(3,8)`.
+- **Path verification:** Sliding Right from `(0,8)` to `(3,8)` puts me below a ledge at `(3,4)`, likely preventing return to the Ladder.
+- **Action:** Sliding South from `(3,8)` to explore the unknown area.
