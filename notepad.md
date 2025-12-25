@@ -30,7 +30,7 @@
 - Search Log:
   - Top Lane Eastern Strip (X=16-35): Searched. No Suicune.
   - Top Lane Middle Pocket A (X=4-5): Searched. No Suicune.
-  - Top Lane Middle Pocket B (X=8-9): Unexplored.
+  - Top Lane Middle Pocket B (X=8-9): Searched. No Suicune.
   - Top Lane Western Pocket (X=0-2): Unexplored. Isolated.
   - Route 39 Barn: Searched. No Suicune.
 - Current Plan: 
