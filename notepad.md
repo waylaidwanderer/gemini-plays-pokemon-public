@@ -40,15 +40,21 @@
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
 
 ## Strategy: Retrieve Item (B2F) - REVISED
-1. **The Problem:** Reaching the item island at (8, 8) requires sliding from a specific alignment.
-   - **Hypothesis:** Must slide Right from (4, 8) to land on (8, 8).
-   - **Requirement:** Must stop at (4, 8).
-   - **Method:** Slide Up Column 4 and hit a boulder at (4, 7).
-2. **Missing Link:** How to enter Column 4 and stop below (4, 8)?
-   - Current analysis shows no way to stop in Col 4 from current Floor tiles.
-   - **Possibility:** A second boulder is needed to create a stop (e.g., at 4, 12).
-   - **Action:** Need to re-examine B1F for more pits or boulder options.
+1. **Navigate to West B1F:**
+   - Go (17, 3) -> (17, 1) -> Left along Row 1 to (6, 1).
+   - Go Down to find Boulder 2 (likely near 5, 6).
+2. **Execute Puzzle:**
+   - Activate Strength.
+   - Push Boulder 2 into Pit (4, 7).
+3. **Return to B2F:**
+   - Jump into Pit (4, 7) OR take Ladder (17, 3).
+   - If jumping works, land near boulder.
+   - If taking ladder, navigate back to B2F Col 4.
+4. **Collect Item:**
+   - On B2F, slide Up Col 4 -> Hit Boulder at (4, 7) -> Stop at (4, 8).
+   - Slide Right to (8, 8) -> Get Item.
+   - Exit via Ladder (9, 11).
 
 ## Current Action
-- Escaping B2F to reset puzzle and explore B1F.
-- Path: Slide Right to (16, 17) -> Up to (16, 1) -> Ladder (17, 1).
+- Traversing from East to West B1F via Row 1.
+- Target: (6, 1).
