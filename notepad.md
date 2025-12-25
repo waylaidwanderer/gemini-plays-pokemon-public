@@ -13,9 +13,8 @@
 # Event Trigger Progress (Tin Tower Suicune)
 - Prerequisite: Defeat Wise Trio. (VERIFIED: COMPLETED)
 - Prerequisite: Clear Bell. (VERIFIED: COMPLETED)
+- Observation: Sage at (5, 9) and (14, 6) might have disappeared. Sage at (11, 11) remains.
 - Failed Hypothesis 1: Sequential Sage dialogue on 1F triggers encounter. (Attempted 3 times, failed)
-- Failed Hypothesis 2: Re-entering 1F triggers encounter. (Attempted 2 times, failed)
-- Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off on 1F.
 - New Strategy: Investigate Tin Tower Entrance (3_3) and Wise Trio's Room (3_5) for missing triggers.
 - Note: Stairs at (10, 2) on 1F are currently inactive.
 
