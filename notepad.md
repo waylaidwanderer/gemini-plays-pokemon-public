@@ -9,9 +9,9 @@
 - **Team:** Muscle (Machoke Lv59) is active. Gyarados needs healing.
 
 # Plan
-1. **Battle:** Defeat Fisher Scott's Seaking with Muscle.
-2. **Heal:** Use items or find a Rest House.
-3. **Navigate:** Follow Route 26 North to Victory Road Gate.
+1. **Battle:** Use Strength (Slot 1) to defeat Fisher Scott's Seaking.
+2. **Heal:** Locate the Rest House on Route 26 (North of bridge) or use Potions if critical.
+3. **Navigate:** Continue North on Route 26 to Victory Road Gate.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
