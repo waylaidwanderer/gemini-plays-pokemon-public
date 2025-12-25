@@ -30,13 +30,13 @@
 - Clear Bell: In Key Items (Verified).
 - Arthur (Hard Stone): Route 36. Thursday only. (Targeting now).
 
-# Task: Reach Route 38 Western Ledge
+# Plan: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: In Azalea Town (Turn 20939). Misdirected Fly landing; pivoting to Fly again.
-- Plan:
-  1. Fly to Olivine City (from Azalea Town).
-  2. Walk North to Route 39, then Route 38 West.
-  3. Trigger Suicune flee at (3, 10) on Route 38.
+- Current Status: In Azalea Town (Turn 20942). Manual Fly navigation in progress.
+- Strategy:
+  1. Fly to Olivine City (Manual sequence: Up, Up, A from Azalea).
+  2. Walk North to Route 39 -> Route 38 West.
+  3. Trigger Suicune flee at (3, 10).
 
 # Navigation: Fly Map (Johto)
 - Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
