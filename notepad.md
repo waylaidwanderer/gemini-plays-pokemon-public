@@ -13,6 +13,7 @@
 # Strategy: Eusine Check
 - Location: Ecruteak City Pokemon Center (23, 27).
 - Action: Enter building and speak to any NPC resembling Eusine (Cooltrainer sprite).
+- Note: Eusine's presence at the PC or the entrance building often triggers the final Tin Tower sequence.
 
 # Strategy: Route 42 Verification
 - Route: East gate (35, 26) -> Route 42 island (24, 13).
