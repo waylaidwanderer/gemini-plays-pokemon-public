@@ -40,6 +40,5 @@
 # Suicune Route 38 Investigation
 - Observation: Route 38 has an isolated western pocket (x=0-2, Row 0-2) blocked by a wall at x=3.
 - Hypothesis: Suicune is hiding in this pocket.
-- Test 1: Check Route 38 Row 0 for a gap at x=3.
-- Test 2: Check Route 39 Row 0-1 for an entrance from the west.
-- Current Status: Heading to Route 38 to test Hypothesis.
+- Test: Enter Route 38 (0, 6) from Route 39 (19, 6) and check (2, 2).
+- Current Status: Finding path to Route 39 (19, 6).
