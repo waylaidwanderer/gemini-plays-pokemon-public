@@ -105,3 +105,7 @@
 - **Conflict:** Game State reports `Facing: up`. Visual Sprite at (15, 22) clearly shows face/belly (Facing DOWN).
 - **Conclusion:** Game State `Facing` attribute is UNRELIABLE when the Start Menu is open. Trusting visual sprite.
 - **Action:** Proceeding with `A` to open Party Menu, assuming player is physically facing the Whirlpool.
+
+# Mechanics Confirmation (Turn 18149)
+- **Memory Cursor:** Confirmed. Opening the Party Menu placed the cursor directly on 'LAPIS' (Slot 3), which was the last selected Pokémon.
+- **Implication:** Menu navigation logic must check the current cursor position before issuing directional inputs. Blindly assuming 'reset to top' is dangerous.
