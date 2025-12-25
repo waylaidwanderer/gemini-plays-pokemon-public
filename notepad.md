@@ -3,21 +3,19 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (2, 1).
-- **Goal:** Locate B3.
+- **Position:** Player at (2, 4).
+- **Goal:** Solve B2.
 - **Puzzle State:**
-  - **B1:** Not at (10, 1). Likely at (11, 1).
-  - **B2:** At (7, 8).
-  - **B3:** Searching Left Side (Cols 1-3). Not at Top Left.
-  - **B4:** At (17, 7).
+  - **B1:** Missing.
+  - **B2:** Verified at (7, 8).
+  - **B3:** Not found in Top Left.
 
 ## Immediate Plan
-1.  **Search South:** Walk down to (2, 9).
-2.  **Locate B3:** If found, mark it.
-3.  **If no B3:**
-    - Maybe there are only 3 boulders?
-    - Or B3 is hidden elsewhere.
-4.  **Solve B2:**
+1.  **Navigate to (8, 8):**
+    - Path: (2, 4) -> (2, 2) -> (5, 2) -> (5, 9) -> (8, 9) -> (8, 8).
+2.  **Solve B2:**
     - Push Left (7, 8) -> (5, 8).
-    - Loop Around.
-    - Push Down (5, 8) -> Pit (5, 12).
+    - Push Up (5, 8) -> (5, 6).
+    - Loop South -> West -> North -> (6, 6).
+    - Push Left (5, 6) -> (4, 6).
+    - Push Down (4, 6) into Pit (4, 7).
