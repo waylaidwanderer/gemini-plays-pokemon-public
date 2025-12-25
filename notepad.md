@@ -42,3 +42,7 @@
 - Turn 19931: Successfully landed in Olivine City.
 - Current Step: Moving North through Olivine City to Route 39.
 - Target: Route 38 northern path (ledge).
+
+# Route 39 Exploration
+- Turn 19933: Entered Route 39 from Olivine City.
+- Goal: Reach (19, 8) to enter Route 38's northern path.
