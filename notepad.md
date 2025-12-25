@@ -3,17 +3,17 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18348)
+# Current Status (Turn 18349)
 - **Location:** Dragon's Den B1F (19, 30).
-- **Activity:** Talking to Clair.
-- **Goal:** Advance dialogue to receive TM24.
-- **Context:** Clair apologized ("I'm sorry about this"). She likely followed me out to give me the TM she forgot/refused to give earlier.
+- **Activity:** Exiting Dragon's Den.
+- **Goal:** Go to Blackthorn PC to deposit a Pokemon.
+- **Status:** TM24 received. Rising Badge received.
 
 # Plan
-1. Advance text (Press A/B).
-2. Receive TM24 (Dragonbreath).
-3. Surf North-West to (10, 20).
-4. Exit to Blackthorn City.
+1. Navigate to water edge at (14, 31).
+2. Surf to (20, 9) (Landing spot near exit ladder).
+3. Exit via ladder at (20, 3).
+4. Leave Dragon's Den.
 5. Deposit Pokemon.
 6. Return for Dratini.
 
