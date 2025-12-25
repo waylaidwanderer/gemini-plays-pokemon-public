@@ -1,12 +1,12 @@
 # Suicune Hunt Strategy (Crystal)
-- Status: SCRIPTED (Route 38). Suicune is stationary and will not move until approached.
+- Status: SCRIPTED (Route 38). Sighting #4. Suicune is stationary near the Miltank farm and will not move until approached.
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
 - Strategy: Trigger flee on Route 38 (Northern strip), then battle at Tin Tower.
 - Battle Plan: 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
-- Hypothesis: NPC located at (16, 12) in National Park.
+- Hypothesis: NPC located at (16, 12) in National Park (Source: expert agent).
 - Time: Present at all times (Morning, Day, Night).
 - Note: Return during the day to verify hypothesis.
 
