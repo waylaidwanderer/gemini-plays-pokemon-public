@@ -40,17 +40,16 @@
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
 
 ## Strategy: Solve Boulder Puzzle (B1F)
-1. **Activate Strength** (Current Turn).
-2. **Move Boulder & Verify Walls:**
-   - Push Boulder Left to (6, 8).
-   - Test Wall at (6, 7) (Up).
-   - Push Boulder Left to (5, 8).
-   - Test Wall at (4, 8) (Left).
-3. **Branch:**
-   - **If (6, 7) is Floor:** Push Boulder Up to (5, 7), then push Left from (6, 7).
-   - **If (4, 8) is Floor:** Push Boulder Left to (4, 8), then Up to (4, 7).
-   - **If Both Walls:** Path is impossible. Search for other exit or boulder.
+1. **Push Sequence:**
+   - **Step 1:** Push Boulder Left to (5, 8). (Current)
+   - **Step 2:** Circle around to (5, 9) and Push Up to (5, 6).
+   - **Step 3:** Circle around to (6, 6) and Push Left to (4, 6).
+   - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
+2. **Return to B2F:**
+   - Drop into Pit (4, 7).
+   - On B2F, Slide Up Col 4 -> Stop at (4, 8) (hit boulder).
+   - Slide Right to Item.
 
 ## Current Action
-- Activating Strength.
-- Then will push boulder Left.
+- Pushing Boulder Left to (5, 8).
+- Inputs: Left (move to 7,8), Left (push).
