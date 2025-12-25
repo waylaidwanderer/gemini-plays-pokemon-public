@@ -56,10 +56,7 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Status: Landed on 1F at (2, 6). Standing at (2, 5).
-- Observation: (2, 5) is a Floor. (2, 4) is a Wall. West side seems to be a dead end on 1F?
-- Action: Heading to East Side to use the bridges at (8, 7) and (8, 3) to reach Clair.
-- Route: South to open area -> East to Col 9 -> North to (8, 3) -> West to Clair.
-- Puzzle State:
-  - East Side: 2 Boulders dropped (8, 7 and 8, 3).
-  - West Side: 1 Boulder dropped (2, 5). Status of (2, 5) bridge is unclear but likely irrelevant for Clair.
+- Status: At (3, 8) on 1F. West side seems to be a dead end or item alcove.
+- Action: Navigating to Clair (5, 3) via the Southern Loop.
+- Path: West to Col 1 -> South to Row 13 -> East to Col 9 -> North to Row 3 -> West across bridges to Clair.
+- Bridges: (8, 7) and (8, 3) should be walkable due to dropped boulders.
