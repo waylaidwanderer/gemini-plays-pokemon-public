@@ -24,6 +24,7 @@
 - LEDGE_HOP_LEFT: Traversable, one-way (Left).
 - LEDGE_HOP_RIGHT: Traversable, one-way (Right).
 - HEADBUTT_TREE: Impassable, Headbutt for encounters.
+- DOOR: Traversable, map transition.
 
 # Lessons Learned
 - NPC Verification: Never trust agent coordinates (e.g., item_locator) over the Game State 'Map Objects On Screen' list.
