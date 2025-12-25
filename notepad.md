@@ -31,12 +31,12 @@
 - Arthur (Hard Stone): Route 36. Thursday only. (Targeting now).
 
 # Task: Reach Route 38 Western Ledge
-- Start Turn: 20771
-- Current Status: Route 36. Attempted Arthur (Thursday) x3; dialogue loop confirmed. Pivoting to Suicune hunt.
+- Objective Start: Turn 20922
+- Current Status: Route 36. Arthur loop confirmed; pivoting.
 - Plan:
-  1. Talk to Arthur on Route 36 for Hard Stone (Thursday).
-  2. Fly to Olivine City.
-  3. Walk North to Route 39, then Route 38 West.
+  1. Fly to Olivine City.
+  2. Walk North to Route 39, then Route 38 West.
+  3. Trigger Suicune flee at (3, 10) on Route 38.
 
 # Navigation: Fly Map (Johto)
 - Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
