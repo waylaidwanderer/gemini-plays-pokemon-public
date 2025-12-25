@@ -11,12 +11,13 @@
 - **Context:** Obtained Dratini "ZENITH" with Extremespeed. 8 Badges obtained.
 
 # Plan
-1. Exit Shrine (South).
-2. Exit Dragon's Den (Dig or Surf/Whirlpool).
-3. Fly to New Bark Town.
-4. Talk to Prof. Elm for Master Ball.
-5. Deposit a Pokémon to free a slot (Optional but recommended).
-6. Surf East from New Bark to Route 27 (Tohjo Falls).
+1. Go to Blackthorn Pokémon Center (Surf South).
+2. Deposit Poliwag (or other).
+3. Withdraw Mistral (Pidgey) for Fly.
+4. Teach Waterfall to Gyarados (delete Dragon Rage).
+5. Fly to New Bark Town.
+6. Talk to Prof. Elm for Master Ball.
+7. Surf East from New Bark to Route 27 (Tohjo Falls).
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
