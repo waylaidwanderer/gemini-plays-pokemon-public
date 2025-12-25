@@ -20,3 +20,13 @@
 
 # PC Storage (Box 1)
 - RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
+
+# Reachable Island Tiles (Route 42)
+- (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
+
+# Funding & Prep
+- Nearest Mart: Ecruteak City.
+- Items to Sell: Fire Stone (¥1050), Water Stone (¥1050).
+- Goal: Buy ~10 Ultra Balls (¥1200 each). Total needed: ~¥12,000.
+- Strategy: Clear Route 42/44 trainers for cash. Current funds: ¥273.
+- Turn 19111: Starting systematic island sweep. Missing tree sprites investigated.
