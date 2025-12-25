@@ -11,8 +11,12 @@
 - Team: XENON (Gastly) for Sleep, GNEISS (Graveler) for tanking.
 
 # Tin Tower Investigation
-- Hypothesis: If Suicune is not appearing on 1F despite the Clear Bell, I must re-verify the Wise Trio's defeat at the Entrance building (3_3) and check for Eusine's presence. There may be a final trigger dialogue.
-- Current Task: Search Tin Tower Entrance (3_3) and Wise Trio's Room (3_5) for Eusine or missed triggers.
+- Current Status: Suicune is stationary in Tin Tower (Tracker/Pokedex), but 1F trigger is missing.
+- Strategy Pivot: Search Ecruteak City for Eusine or missed dialogue triggers.
+- Hypothesis: Trigger for Suicune's overworld appearance on 1F is external to the tower (e.g. Wise Trio's final blessing or Eusine's intervention).
+- Task 1: Fly to PC, check for Eusine.
+- Task 2: Navigate to Tin Tower Entrance (18, 11) and talk to Wise Trio.
+- Note: Sages are not vanishing; (10, 2) is a standard FLOOR tile for now.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
