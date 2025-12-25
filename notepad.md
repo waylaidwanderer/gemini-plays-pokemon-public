@@ -37,7 +37,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Defeated Cooltrainer Reena (Nidoqueen Lv33). (Turn 18727)
-- **Status:** Gyarados healed (52/108).
-- **Location:** Route 26 South (7, 100) - On the bridge.
-- **Next:** Traverse Route 26 North towards Victory Road. Look for a healer.
+- **Battle:** Fighting Fisher Scott (Route 26).
+- **Status:** Gyarados (52/108) leading.
+- **Location:** Route 26 Bridge (10, 94).
+- **Next:** Defeat Fisher Scott, then heal and continue North.
