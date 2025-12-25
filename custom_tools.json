@@ -307,7 +307,7 @@
         "num_steps"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.stdin.read())\n        num_steps = int(input_data.get('num_steps', 10))\n        buttons = []\n        for i in range(num_steps // 2):\n            buttons.extend([\"Right\", \"Left\"])\n        if num_steps % 2 != 0:\n            buttons.append(\"Right\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        data = json.loads(sys.stdin.read())\n        n = int(data.get('num_steps', 10))\n        res = []\n        for i in range(n):\n            res.append(\"Right\" if i % 2 == 0 else \"Left\")\n        print(json.dumps(res))\n    except:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -328,6 +328,11 @@
         "commit_message": "Fixing logic to respect num_steps and pace specifically between (6, 2) and (7, 2) to stay in tall grass.",
         "timestamp": "2025-12-25T08:04:40.635Z",
         "action_counter": 19352
+      },
+      {
+        "commit_message": "Simplifying logic for reliability and ensuring it paces between (6, 2) and (7, 2).",
+        "timestamp": "2025-12-25T08:05:01.892Z",
+        "action_counter": 19353
       }
     ]
   }

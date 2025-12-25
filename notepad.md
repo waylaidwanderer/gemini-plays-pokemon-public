@@ -25,7 +25,7 @@
 - Location: Route 37 Grass.
 - Repel Status: Applied Turn 19322. x1 remaining.
 - Pokedex Status: Confirmed Suicune on Route 37 (Turn 19330).
-- Pacing Log: Start Turn 19322. ~150 steps taken.
+- Pacing Log: Start Turn 19322. Total steps: ~150. (Update every 50 steps).
 
 # Resources & Prep
 - Balls: 1 Ultra Ball, 23 Great Balls.
