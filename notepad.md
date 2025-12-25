@@ -6,18 +6,15 @@
 - **Puzzle State:** Boulder 2 pushed into Pit (4, 7).
 
 ## Navigation Plan: Return to B1F
-1.  **Slide Left via Row 14:**
-    - `(19, 15)` -> Up to `(19, 14)` -> Left to `(1, 14)`.
-    - *Reason:* Row 15 blocked at `(18, 15)`.
-2.  **Exploration Slide:**
+1.  **Exploration Slide (Executing):**
     - Move to `(1, 16)`.
     - Slide Right on Row 16 to `(16, 16)`.
     - *Purpose:* Revealing unseen tiles at `(9, 17)` etc.
-3.  **Ascend:**
+2.  **Ascend:**
     - `(16, 16)` -> `(18, 16)` -> `(18, 14)`.
     - Slide Up Col 18 to `(18, 3)`.
     - `(18, 3)` -> `(17, 1)` Ladder.
-4.  **B1F Action:**
+3.  **B1F Action:**
     - Go to Hole `(12, 13)` and drop.
 
 ## Tile Mechanics
