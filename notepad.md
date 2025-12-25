@@ -14,10 +14,10 @@
 ## Healing Plan
 - Revive Gyarados (Slot 1) - DONE.
 - Super Potion Gyarados - DONE (100/101).
-- Super Potion Machoke (Slot 4, 81/191) x2 - PENDING.
+- Super Potion Machoke (Slot 4) - DONE (181/191).
 - Check Sneasel (Slot 5, 65/65 HP) - Full.
 - Check Quilava (Slot 2, 81/81 HP) - Full.
-- Use: 2 more Super Potions on Machoke.
+- Ready for Battle.
 
 ## Puzzle State
 - **East Side:** Complete (Boulders 4 & 5 in Pits).
