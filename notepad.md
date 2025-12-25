@@ -44,3 +44,7 @@
 # Swarms & Tracking
 - Yanma Swarm: Route 35 (Turn 19540). Verify via Radio.
 - Suicune Tracking: Moves on map transition. Snapshot via Pokedex 'Area'.
+
+# Fly Map Indices (from New Bark Town)
+- Down x4: Olivine City (Verified Turn 19597).
+- Down x3: Likely Goldenrod City (Hypothesis).
