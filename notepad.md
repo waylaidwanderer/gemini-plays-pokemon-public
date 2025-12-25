@@ -4,10 +4,10 @@
 - Hunt started Turn 20250.
 
 # Side Quests & Resources
-- Quick Claw: National Park (17, 10). Talk to lady on the rightmost bench in NE section. (Available Morning/Day/Night).
-- Clear Bell: In Key Items. Required for Tin Tower.
-- Sick Miltank (Moomoo Farm): Needs many Berries to recover.
-- Thunderstone: Obtained from Dana (Route 38) at Turn 20360.
+- Quick Claw: National Park (17, 10). NE section lady. (Confirmed Thursday).
+- Clear Bell: In Key Items.
+- Sick Miltank: Needs Berries.
+- Thunderstone: Obtained Turn 20360.
 
 # Suicune Sighting Logic
 - Observed Sightings: 1. Burned Tower -> 2. Cianwood City -> 3. Route 42 -> 4. Route 38 (Current).
@@ -30,14 +30,14 @@
 # Route 38/39 Mechanics & Exploration
 - Pathing Insights:
   - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
-  - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. Reachability must be verified via Route 39.
+  - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. Entry point is Route 39 (19, 6) -> Route 38 (0, 6).
   - Middle Lane (Row 8-11) is the main thoroughfare.
 - Exploration Status:
-  - Western Pocket (X=0-2): Unexplored. Entry point likely Route 39 (19, 6) -> Route 38 (0, 6).
+  - Western Pocket (X=0-2): Unexplored. Entry point confirmed Route 39 (19, 6) -> Route 38 (0, 6).
 
 # Lessons Learned
 - LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
 - If an area seems isolated, check adjacent maps for alternative entrances.
-- Thursday is Bug Catching Contest day. National Park may have restricted access or different NPCs. Verify day via Pokégear.
+- Thursday is Bug Catching Contest day. National Park may have restricted access or different NPCs. (Confirmed Thursday).
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
 - Markers: Always keep markers for physical constraints (e.g., ledge pockets) even if Fly is available, to assist pathfinding tools.
