@@ -1,4 +1,64 @@
 {
+  "find_path": {
+    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of (x, y) tuples or None.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport sys\n\ndef find_path_bfs(xml_string, start_pos, target_pos):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            # Treat unseen as walkable for exploration\n            if t_type == 'WALL':\n                walkable = False\n            elif 'PIT' in t_type or t_type == 'PIT':\n                 walkable = False\n            else:\n                walkable = True\n            grid[(x, y)] = walkable\n\n    queue = [[start_pos]]\n    visited = {start_pos}\n    \n    while queue:\n        path = queue.pop(0)\n        curr = path[-1]\n        \n        if curr == target_pos:\n            return path\n        \n        x, y = curr\n        neighbors = [\n            (x+1, y), (x-1, y), (x, y+1), (x, y-1)\n        ]\n        \n        for nx, ny in neighbors:\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited and grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    new_path = list(path)\n                    new_path.append((nx, ny))\n                    queue.append(new_path)\n    \n    return None\n\nstart = (input_data['start_x'], input_data['start_y'])\ntarget = (input_data['target_x'], input_data['target_y'])\npath = find_path_bfs(map_xml_string, start, target)\n\nif path:\n    print(path)\nelse:\n    print(\"No path found\")",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-25T07:15:45.339Z",
+        "action_counter": 17440
+      }
+    ]
+  },
+  "find_reachable_unseen": {
+    "description": "Analyzes the provided map XML to find all reachable 'unseen' tiles from the start coordinates. Returns a list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef get_reachable_unseen(map_xml, start_x, start_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    unseen = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            if t_type == 'unseen':\n                unseen.add((x, y))\n                grid[(x, y)] = False # Not walkable, but a target\n            else:\n                # Treat FLOOR, ICE, WARP_CARPET as walkable.\n                walkable = t_type in ['FLOOR', 'ICE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n                grid[(x, y)] = walkable\n\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_unseen = []\n    \n    while queue:\n        x, y = queue.popleft()\n        \n        # Directions: Up, Down, Left, Right\n        moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n        \n        for dx, dy in moves:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    if (nx, ny) in unseen:\n                        # Found an adjacent unseen tile\n                        reachable_unseen.append((nx, ny))\n                        visited.add((nx, ny)) # Don't re-add\n                    elif grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny))\n                    \n    return f\"Reachable Unseen Tiles: {reachable_unseen}\"\n\nprint(get_reachable_unseen(map_xml_string, input_data['start_x'], input_data['start_y']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-24T17:27:08.960Z",
+        "action_counter": 16456
+      }
+    ]
+  },
   "flee_battle": {
     "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
     "input_schema": {},
@@ -108,66 +168,6 @@
         "commit_message": "Fixed bug causing consecutive sleep commands when target_slot equals current_slot.",
         "timestamp": "2025-12-21T11:30:47.944Z",
         "action_counter": 9999
-      }
-    ]
-  },
-  "find_reachable_unseen": {
-    "description": "Analyzes the provided map XML to find all reachable 'unseen' tiles from the start coordinates. Returns a list of coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef get_reachable_unseen(map_xml, start_x, start_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    unseen = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            if t_type == 'unseen':\n                unseen.add((x, y))\n                grid[(x, y)] = False # Not walkable, but a target\n            else:\n                # Treat FLOOR, ICE, WARP_CARPET as walkable.\n                walkable = t_type in ['FLOOR', 'ICE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n                grid[(x, y)] = walkable\n\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_unseen = []\n    \n    while queue:\n        x, y = queue.popleft()\n        \n        # Directions: Up, Down, Left, Right\n        moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n        \n        for dx, dy in moves:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    if (nx, ny) in unseen:\n                        # Found an adjacent unseen tile\n                        reachable_unseen.append((nx, ny))\n                        visited.add((nx, ny)) # Don't re-add\n                    elif grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny))\n                    \n    return f\"Reachable Unseen Tiles: {reachable_unseen}\"\n\nprint(get_reachable_unseen(map_xml_string, input_data['start_x'], input_data['start_y']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T17:27:08.960Z",
-        "action_counter": 16456
-      }
-    ]
-  },
-  "find_path": {
-    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of (x, y) tuples or None.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport sys\n\ndef find_path_bfs(xml_string, start_pos, target_pos):\n    root = ET.fromstring(xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            # Treat unseen as walkable for exploration\n            if t_type == 'WALL':\n                walkable = False\n            elif 'PIT' in t_type or t_type == 'PIT':\n                 walkable = False\n            else:\n                walkable = True\n            grid[(x, y)] = walkable\n\n    queue = [[start_pos]]\n    visited = {start_pos}\n    \n    while queue:\n        path = queue.pop(0)\n        curr = path[-1]\n        \n        if curr == target_pos:\n            return path\n        \n        x, y = curr\n        neighbors = [\n            (x+1, y), (x-1, y), (x, y+1), (x, y-1)\n        ]\n        \n        for nx, ny in neighbors:\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited and grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    new_path = list(path)\n                    new_path.append((nx, ny))\n                    queue.append(new_path)\n    \n    return None\n\nstart = (input_data['start_x'], input_data['start_y'])\ntarget = (input_data['target_x'], input_data['target_y'])\npath = find_path_bfs(map_xml_string, start, target)\n\nif path:\n    print(path)\nelse:\n    print(\"No path found\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-25T07:15:45.339Z",
-        "action_counter": 17440
       }
     ]
   }

@@ -4,19 +4,19 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Fly to New Bark Town.
 
-# Current Status (Turn 18517)
-- **Location:** Blackthorn City (21, 30).
-- **Activity:** Opening Menu to Fly.
-- **Goal:** Fly to New Bark Town.
-- **Context:** Outside PC. Mistral is in party (Slot 6).
+# Current Status (Turn 18522)
+- **Location:** New Bark Town (13, 6).
+- **Activity:** Teaching HMs to Gyarados.
+- **Goal:** Get Master Ball from Elm.
+- **Context:** Just arrived via Fly. Gyarados needs Surf (essential) and Waterfall.
 
 # Plan
-1. Open Menu (Start).
-2. Select Mistral -> Fly.
-3. Select New Bark Town on map.
-4. Land in New Bark Town.
-5. Teach Surf/Waterfall to Gyarados.
-6. Get Master Ball from Elm.
+1. Open Pack.
+2. Teach Surf to Gyarados (Replace Dragon Rage).
+3. Teach Waterfall to Gyarados (Replace Thrash/Icy Wind).
+4. Go to Elm's Lab (6, 3).
+5. Get Master Ball.
+6. Surf East to Route 27 (Tohjo Falls).
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
