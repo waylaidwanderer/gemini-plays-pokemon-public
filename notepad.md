@@ -1,13 +1,15 @@
-# Blackthorn City Strategy
-- **Current Task:** Enter Dragon's Den (Surf behind Gym).
-- **Next:** Pass Dragon User Challenge.
-
-# Dragon's Den Challenge
+# Dragon's Den Strategy
 - **Goal:** Receive Rising Badge.
-- **Requirement:** Pass the "Dragon User Challenge".
+- **Current Task:** Explore Dragon's Den.
+- **Next:** Find the Dragon Shrine.
 
 # Team Status
-- **All Pokémon:** Fully Healed.
+- **Health:** Full.
+- **Party:** Gyarados, Quilava, Poliwag, Machoke, Sneasel, Swinub.
+
+# Location Info
+- **Map:** Dragon's Den 1F (Entrance).
+- **Structure:** Likely leads down to a main cavern.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN**: One-way traversable (South only).
