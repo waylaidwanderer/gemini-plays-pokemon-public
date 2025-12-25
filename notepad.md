@@ -34,11 +34,12 @@
   - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. Entry point is Route 39 (19, 6) -> Route 38 (0, 6).
   - Middle Lane (Row 8-11) is the main thoroughfare.
 - Exploration Status:
-  - Western Pocket (X=0-2): Unexplored. Entry point confirmed Route 39 (19, 6) -> Route 38 (0, 6).
-
-# Lessons Learned
-- LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
-- If an area seems isolated, check adjacent maps for alternative entrances.
-- Thursday is Bug Catching Contest day. National Park may have restricted access or different NPCs. (Confirmed Thursday).
-- Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
-- Markers: Always keep markers for physical constraints (e.g., ledge pockets) even if Fly is available, to assist pathfinding tools.
+  - Western Pocket (X=0-2): Unexplored. Entry point: Route 39 (13, 8) -> (13, 6) -> (19, 6) -> Route 38 (0, 6).
+  - Southern Path (Row 14-16, X=22-29): Unexplored. Isolated by ledge at Row 13.
+- Current Plan: 
+  1. Return to Route 39.
+  2. Detour around the wall at (19, 7) by walking to (13, 8), then Up to Row 6.
+  3. Walk East to (19, 6) and enter Route 38 (0, 6).
+  4. Search Western Pocket (X=0-2) for Suicune sighting.
+  5. Search Southern Path extension (X=22-29) if Suicune not found.
+  6. Return to Ecruteak for Tin Tower (if flee triggered).
