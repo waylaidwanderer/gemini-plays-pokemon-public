@@ -35,8 +35,8 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Interaction:** Talking to Youngster on Route 26 (14, 79).
-- **Dialogue:** "But you're not satisfied by just collecting them, right?"
-- **Status:** Muscle Lv60 (63/198). Gyarados (52/108) is Leading.
+- **Battle:** Fighting Psychic Richard (Espeon Lv36).
+- **Status:** Gyarados (52/108) using Thrash (Slot 1).
+- **Plan:** Attack. If Gyarados faints, switch to Muscle (Machoke) to finish.
 - **Location:** Route 26 (15, 79).
-- **Next:** Battle Youngster. Heal. Navigate North.
+- **Next:** Defeat Psychic Richard. Heal Team.
