@@ -35,3 +35,4 @@
 - **Tile Mechanics:** "LADDER" tiles on Route 27 (x=58+) function as a walkable bridge. (Turn 18675)
 - **Game Mechanic:** Battle move cursor position is remembered per-Pokémon even after switching out and back in. (Turn 18683)
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
+- **Status:** Team weak. Need healing.
