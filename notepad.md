@@ -1,16 +1,16 @@
 # Suicune Hunt Strategy (Crystal)
-- Status: ROAMING. Suicune moves every time the player flies or crosses a map boundary.
+- Status: ROAMING. Snapshot via Pokedex 'Area'.
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
-- Strategy: Boundary cycling between Route 38 and Ecruteak City. Check Pokedex 'Area' snapshot.
+- Strategy: Boundary cycling between Route 38 and Ecruteak City.
 
 # Suicune Battle Plan
 - Turn 1: MEAN LOOK.
-- Turn 2+: HYPNOSIS. (Keep asleep to prevent Roar).
+- Turn 2+: HYPNOSIS. (Priority: Keep asleep).
 - Turn 3+: NIGHT SHADE. (Fixed damage 21).
 
 # Quick Claw Quest
 - NPC: Woman on a bench in the northeast section of National Park.
-- Coordinates: (19, 10) - verified by agent.
+- Coordinates: (19, 10).
 - Path: Enter National Park from Route 35 (3, 5). Head north through grass, then east along fence.
 
 # Fly Map List (Order from New Bark Town)
