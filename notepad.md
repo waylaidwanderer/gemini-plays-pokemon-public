@@ -8,19 +8,20 @@
   - **B2:** (7, 8).
   - **B4:** (17, 7).
 
-## Recovery Plan for B1 (Corrected)
-1.  **Push Down:** Push B1 from (10, 1) to (10, 3). (Done).
-2.  **Reposition to (9, 3):** Loop via Row 5 (11,1 -> 12,1 -> 12,5 -> 9,5 -> 9,3). (Done).
-3.  **Push Right:** Push B1 from (10, 3) to (12, 3). (Done).
-4.  **Reposition to (12, 4):** Loop via Row 5 (11,3 -> 10,3 -> 10,5 -> 12,5 -> 12,4). (Done).
-5.  **Push Up:** Push B1 from (12, 3) to (12, 2). (Done).
-6.  **Reposition to (13, 2):** Loop via Top (12,4 -> 9,5 -> 9,3 -> 10,1 -> 13,1 -> 13,2). (In Progress).
-7.  **Push Left:** Push B1 into Pit (11, 2).
+## Current Status
+- **Position:** Player at (13, 2).
+- **Goal:** Push B1 into Pit (11, 2), then go to B2.
+- **Puzzle State:**
+  - **B1:** At (12, 2). Ready to push Left.
+  - **B2:** (7, 8).
+  - **B4:** (17, 7).
+
+## Next Steps (B2 Strategy)
+1.  **Navigate to B2 (7, 8).**
+2.  **Push Left:** Push B2 from (7, 8) to (5, 8).
+3.  **Push Up:** Push B2 from (5, 8) to (5, 7).
+4.  **Push Left:** Push B2 into Pit (4, 7).
 
 ## Finishing Plan
-- After B1 is in Pit (11, 2), solve B2.
-## Reflection (Turn 16989)
-- Caught Swinub (Truffle).
-- Boulder puzzle B1 needs reset and correction.
-- Plan: Finish naming, then execute recovery plan for B1.
-- Created "type_text" tool plan for future naming efficiency.
+- After B2 is done, solve B3 (Bottom Left) and B4 (Bottom Right).
+- Check B4 at (17, 7) next if closer.
