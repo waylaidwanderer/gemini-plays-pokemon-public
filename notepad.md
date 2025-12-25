@@ -35,3 +35,4 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Pokedex Area Map Observations
 - Turn 18761: Dot is blinking on Route 42 middle island, stationary. Scripted encounter is still active.
+- Turn 18814: Pivoting to Ecruteak to check Tin Tower due to island stagnation.
