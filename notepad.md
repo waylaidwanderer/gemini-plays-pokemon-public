@@ -32,9 +32,9 @@
 
 # Task: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: On Fly map. Cursor at Violet City (per prompt text).
+- Current Status: In Azalea Town (Turn 20939). Misdirected Fly landing; pivoting to Fly again.
 - Plan:
-  1. Fly to Olivine City.
+  1. Fly to Olivine City (from Azalea Town).
   2. Walk North to Route 39, then Route 38 West.
   3. Trigger Suicune flee at (3, 10) on Route 38.
 
