@@ -307,7 +307,7 @@
         "num_steps"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # Read the raw input from stdin\n        raw_input = sys.stdin.read()\n        if not raw_input:\n            num_steps = 10\n        else:\n            input_data = json.loads(raw_input)\n            num_steps = int(input_data.get('num_steps', 10))\n            \n        buttons = []\n        for i in range(num_steps):\n            if i % 2 == 0:\n                buttons.append(\"Right\")\n            else:\n                buttons.append(\"Left\")\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        # Return a safe default\n        print(json.dumps([\"Right\", \"Left\"] * 5))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\ntry:\n    raw = sys.stdin.read()\n    data = json.loads(raw) if raw else {}\n    n = int(data.get(\"num_steps\", 10))\n    res = []\n    for i in range(n):\n        res.append(\"Right\" if i % 2 == 0 else \"Left\")\n    print(json.dumps(res))\nexcept Exception:\n    print(json.dumps([\"Right\", \"Left\"] * 5))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -343,6 +343,11 @@
         "commit_message": "Refining pace_grass_v1 to be more robust and strictly alternate between Right and Left to stay in the grass at (6, 2) and (7, 2).",
         "timestamp": "2025-12-25T08:06:03.749Z",
         "action_counter": 19355
+      },
+      {
+        "commit_message": "Simplifying pace_grass_v1 to top-level code to ensure it correctly parses num_steps and generates the requested number of buttons.",
+        "timestamp": "2025-12-25T08:16:42.865Z",
+        "action_counter": 19379
       }
     ]
   }
