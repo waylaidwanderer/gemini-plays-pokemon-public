@@ -36,7 +36,8 @@
 # Route 38/39 Mechanics & Exploration
 - Verified Map Connections:
   - Southern Path (Row 14-16) is reachable from North via Row 13 ledges. Exit North at (9, 14).
-  - Western Pocket (X=0-2, Row 1-6) on Route 38 is isolated by walls at X=3 and Row 7.
+  - Western Pocket (X=0-2, Row 0-6) on Route 38 is isolated by walls at X=3 and Row 7. Entry point identified at (2, 0) at the northern map edge.
+  - Route 39 Connectivity: (19, 8) to (19, 6) is blocked by walls at X=16 and Row 7. (17-19, 4-6) is an isolated pocket.
   - Route 39 North-South: Row 7 wall has a gap at X=12.
   - Route 39 East-West: Row 6 wall at X=16 blocks travel. Bypass via Row 5 or 8.
 
