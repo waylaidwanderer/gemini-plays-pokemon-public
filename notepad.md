@@ -26,8 +26,13 @@
 - Super Repel: 1 in Pack.
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
-# Fly Map Order (Johto)
-- 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
+# Fly Map Cursor Behavior (Johto)
+- Cursor wraps and moves in reverse order when pressing Down.
+- Up: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
+- Down: 1 -> 10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2
+- Order: 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
+- Observation (Turn 19929): Starting at New Bark (1), Down x2 reached Mahogany (9). (1 -> 10 -> 9). Verified.
+- Strategy: From Mahogany (9), press Down x2 to reach Olivine (7). (9 -> 8 -> 7).
 
 # Strategy: Fly Navigation (Johto)
 - Attempt #20 (Turn 19929): Using chunked navigation (2 buttons at a time) to ensure state verification.
