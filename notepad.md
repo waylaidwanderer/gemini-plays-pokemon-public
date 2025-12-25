@@ -1,11 +1,12 @@
 # Suicune Quest Strategy (Crystal)
-- Status: Verifying phase (Stationary vs Roaming).
-- History: Summary Turn 18350-19055 mentions Tin Tower battle. If roaming, must relocate on map transition.
-- Current Dot: Route 42 (Turns 19157, 19163).
+- Status: ROAMING (Post-Tin Tower battle).
+- History: Summary Turn 18350-19055 confirms Tin Tower battle and subsequent tracking across routes.
+- Goal: Intercept roaming Suicune.
 
 # Capture Prep & Funding
 - Strategy: Mean Look (XENON Lv21) -> Hypnosis (XENON).
-- Goal: Buy ~10 Ultra Balls at Ecruteak Mart.
+- Level Gap: Suicune (Lv40) vs XENON (Lv21). XENON needs levels.
+- Resources: 1 Ultra Ball, 23 Great Balls. Need ~¥12,000 for 10+ Ultra Balls.
 - Funding Plan: Sell Fire Stone (¥1050) and Water Stone (¥1050). Current: ¥273.
 
 # Tile Mechanics (Global)
