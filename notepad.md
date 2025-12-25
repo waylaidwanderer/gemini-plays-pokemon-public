@@ -38,6 +38,6 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Funding Strategy: Sell unused items (Fire Stone, Water Stone?) or clear remaining trainers.
 - Tile Mechanics (Global):
     - LEDGE_HOP_LEFT/UP: Impassable.
-- Turn 19090: On Route 42 middle island at (20, 10). Walking east to trigger Suicune flee event.
+- Turn 19094: Cleared cut tree at (24, 13). Moving to fruit trees at (27, 16) to trigger Suicune flee event.
 - Sprite Visibility: NPCs only appear in 'Map Objects On Screen' when within field of view.
 - Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events.
