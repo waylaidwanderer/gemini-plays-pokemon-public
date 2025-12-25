@@ -1,21 +1,14 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (6, 1).
+- **Position:** Player at (18, 16).
 - **Goal:** Reach (11, 8) to push B1 UP.
-- **Puzzle State:** Reset Verified. Boulders at starting positions. B3 is missing/clear.
+- **Puzzle State:** Reset Verified. Boulders at starting positions.
 
-## Navigation Plan (Long Loop)
-1.  **Slide South:**
-    - Move to (5, 2).
-    - Slide Down to (5, 9).
-2.  **Slide East/South:**
-    - Slide Right to (9, 9).
-    - Slide South to (9, 16).
-3.  **Slide East:**
-    - Slide Right to (18, 16).
-4.  **Navigate to (11, 8):**
+## Navigation Plan
+1.  **Navigate to (11, 8):**
     - Path: (18, 16) -> (18, 14) -> (17, 14) -> (13, 14) -> (13, 11) -> (12, 11) -> (12, 8) -> (11, 8).
+    - **Action:** Executing navigation.
 
 ## B1 Solution (Verified)
 1.  **Push B1 Up:** From (11, 8), push Up to (11, 5).
