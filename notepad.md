@@ -4,9 +4,9 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18401)
-- **Location:** Blackthorn City (12, 14) -> Surfing at (12, 13).
-- **Action:** clearing Surf text and moving North.
+# Current Status (Turn 18402)
+- **Location:** Blackthorn City (12, 10).
+- **Action:** Clearing text and Surfing North.
 - **Goal:** Return to Dragon Shrine for Dratini.
 - **Path:** Surf North to Row 6, East to Col 20, North to Landing (20, 3).
 
