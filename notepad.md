@@ -61,4 +61,4 @@
     - **Maze Path:** `(3, 7)` -> `(3, 6)` -> `(4, 6)` -> `(4, 5)` -> `(4, 4)` -> `(5, 4)` -> `(6, 4)` -> `(6, 5)`.
     - **Exit Slide:** Walk D to `(6, 6)` (Ice) -> Slide D to `(6, 8)` (Floor).
     - Walk R to `(8, 8)` -> Slide U to `(8, 3)` (Floor).
-    - Walk back to Ladder `(3, 3)`.
+    - **Walk back:** `(8, 3)` -> `(8, 1)` -> West to `(3, 1)` -> South to Ladder `(3, 3)`.
