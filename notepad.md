@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
-- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 (ledge near Miltank farm) and will not move until approached.
-- Strategy: Fly to Olivine City -> Walk North through Route 39 -> Enter Route 38 northern path from the west.
+- Status: SCRIPTED (Sighting #4). Suicune appears on Route 38 when approached.
+- Strategy: Walk east along the northern path of Route 38 from the west (Route 39 border).
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Task Started: Turn 19782, 2025-12-25 05:42 AM PST.
 
