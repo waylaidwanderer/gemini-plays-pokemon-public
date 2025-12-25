@@ -26,3 +26,4 @@
 - Ladder (5,13) likely leads back to (3,3).
 - Goal: Enter warp at (5,15).
 - Status: Player successfully navigated the ladder and is now at (5,13). Next step: Walk South to (5,15).
+- Turn 17876: Standing on WARP_CARPET_DOWN at (5, 15). Tile below is WALL. Attempting to press Down to trigger warp.
