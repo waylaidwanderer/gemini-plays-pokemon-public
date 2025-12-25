@@ -45,3 +45,8 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Path to (10, 15) from north was blocked by Sage at (5, 9). Must detour through column 4.
 - Attempt 1 to trigger Suicune: Talked to all Sages. Outcome: No cutscene.
 - Attempt 2 to trigger Suicune: Re-entering map. (IN PROGRESS - Exited, now entering)
+
+# Suicune Tracker Update
+- Pokedex Confirmation: Suicune is in Ecruteak City. Entry explicitly states "SUICUNE'S NEST".
+- Map Analysis: Central area of 1F (y=4 to y=10, x=6 to x=13) is walled off. Entrance likely from above or hidden.
+- Plan: Head to 2F via stairs at (10, 2).
