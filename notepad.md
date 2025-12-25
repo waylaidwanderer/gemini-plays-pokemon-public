@@ -21,7 +21,7 @@
 - Clear Bell: In Key Items (Verified).
 
 # Plan: Reach Route 38 Western Ledge
-1. Fly to Olivine City.
+1. Fly to Olivine City. (From Violet City)
 2. Walk North through Route 39 to Route 38.
 3. Approach (3, 10) on Route 38 to trigger Suicune.
 
