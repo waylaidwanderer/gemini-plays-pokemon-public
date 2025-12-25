@@ -43,3 +43,10 @@
 - Navigation Note: (10, 9) is a LEDGE_HOP_LEFT. Moving from (11, 9) triggers a jump to (9, 9).
 - Suicune Hunt: Re-searching area row 8-12, X=0-15 (West of ledge). Approach proximity to fence at Row 7.
 - Root Assumption Audit: Suicune does not require an "isolated" pocket; it's an overworld trigger. Focusing on traversable tiles near the farm.
+
+# Reflection (Turn 20608)
+- Root Hypothesis Test: The "isolated pocket" theory was a false constraint. Conclusively disproved by pathfinding analysis and overworld observation.
+- Lesson: Prioritize mental map connectivity over visual intuition when planning routes around obstacles.
+- Maintenance: Tool 'navigate_fly_map_v2' refined. All discoveries marked. 
+- Stagnation Check: Successfully pivoted from Arthur loop back to Suicune hunt.
+- Strategy: Walk the northern fence line (rows 8-9) and ledge area (X=5-15) to trigger scripted flee.
