@@ -211,8 +211,10 @@
   "navigate_fly_map": {
     "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target. Includes pauses between presses.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "current_city": {
+          "type": "string",
           "enum": [
             "NEW BARK TOWN",
             "CHERRYGROVE CITY",
@@ -224,11 +226,10 @@
             "CIANWOOD CITY",
             "MAHOGANY TOWN",
             "BLACKTHORN CITY"
-          ],
-          "format": "enum",
-          "type": "string"
+          ]
         },
         "target_city": {
+          "type": "string",
           "enum": [
             "NEW BARK TOWN",
             "CHERRYGROVE CITY",
@@ -240,18 +241,15 @@
             "CIANWOOD CITY",
             "MAHOGANY TOWN",
             "BLACKTHORN CITY"
-          ],
-          "format": "enum",
-          "type": "string"
+          ]
         }
       },
       "required": [
         "current_city",
         "target_city"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\n\ndef solve():\n    cities = [\n        \"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \n        \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \n        \"MAHOGANY TOWN\", \"BLACKTHORN CITY\"\n    ]\n    \n    try:\n        current_city = input_data.get(\"current_city\")\n        target_city = input_data.get(\"target_city\")\n        \n        if not current_city or not target_city:\n            print(json.dumps([\"B\"]))\n            return\n\n        start_idx = cities.index(current_city)\n        end_idx = cities.index(target_city)\n        \n        num_cities = len(cities)\n        \n        # Calculate distance moving \"Up\" (Forward in the list: 1->2->3)\n        up_dist = (end_idx - start_idx) % num_cities\n        \n        # Calculate distance moving \"Down\" (Backward in the list: 1->10->9)\n        down_dist = (start_idx - end_idx) % num_cities\n        \n        buttons = []\n        if up_dist <= down_dist:\n            for _ in range(up_dist):\n                buttons.append(\"Up\")\n                buttons.append(\"sleep 500\")\n        else:\n            for _ in range(down_dist):\n                buttons.append(\"Down\")\n                buttons.append(\"sleep 500\")\n        \n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    except Exception as e:\n        # If anything goes wrong, press B to exit the map safely\n        print(json.dumps([\"B\"]))\n\nsolve()\n",
+    "python_script": "import json\n\ndef solve():\n    current_city = input_data[\"current_city\"]\n    target_city = input_data[\"target_city\"]\n    \n    # Johto Fly Map Layout (x, y)\n    # Row 0: Cianwood(0,0) - Olivine(1,0) - Ecruteak(2,0) - Mahogany(3,0) - Blackthorn(4,0)\n    # Row 1:                 Goldenrod(1,1) - Violet(2,1) - Cherrygrove(3,1) - New Bark(4,1)\n    # Row 2:                                  Azalea(2,2)\n    \n    grid = {\n        \"CIANWOOD CITY\": (0, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (1, 1),\n        \"VIOLET CITY\": (2, 1),\n        \"CHERRYGROVE CITY\": (3, 1),\n        \"NEW BARK TOWN\": (4, 1),\n        \"AZALEA TOWN\": (2, 2)\n    }\n    \n    start = grid[current_city]\n    end = grid[target_city]\n    \n    buttons = []\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    \n    # Move horizontally then vertically\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    \n    final_buttons = []\n    for b in buttons:\n        final_buttons.append(b)\n        final_buttons.append(\"sleep 500\")\n    final_buttons.append(\"A\")\n    \n    print(json.dumps(final_buttons))\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -282,6 +280,11 @@
         "commit_message": "Fixing IndexError in navigate_fly_map by using a more robust distance calculation and ensuring city names match the schema exactly. Added error handling.",
         "timestamp": "2025-12-25T14:53:07.376Z",
         "action_counter": 19996
+      },
+      {
+        "commit_message": "Refined Johto Fly map grid coordinates to correct the Olivine -> Ecruteak direction and other relative city positions.",
+        "timestamp": "2025-12-25T20:13:11.924Z",
+        "action_counter": 20522
       }
     ]
   },

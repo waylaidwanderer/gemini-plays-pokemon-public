@@ -1,7 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
-- Hunt started Turn 20250.
 
 # Side Quests & Resources
 - Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
@@ -35,12 +34,12 @@
 - Money: Current ¥373.
 
 # Route 38/39 Mechanics & Exploration
-- Pathing Insights:
+- Verified Map Connections:
   - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
   - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by a vertical wall at X=3. Access is ONLY via Route 39 Row 6.
+  - Route 39 Connectivity: (19, 8) to (19, 6) is blocked by a wall at (19, 7). Bypass via X=15.
   - Route 39 Wall: A wall at (16, 6) blocks east-west travel on Row 6; bypass via Row 5.
-  - Route 39 Wall: A wall at Row 7 (X=16-19) blocks north-south travel; bypass via X=15.
 
 # Lessons Learned
-- Reflection Note: navigate_fly_map tool returned 'Down' for Olivine->Ecruteak, which is incorrect (Ecruteak is Right/Up). Tool needs refinement.
-- Root Hypothesis Check: Verified that Route 38 Western Pocket is reachable via Route 39 North -> Route 38 West. Previous "isolated" belief was due to ledges; northern path is the way.
+- Reflection: Trust tool failures (e.g., find_path_v2) as evidence of obstructions.
+- Tool Note: navigate_fly_map refined at Turn 20522 to correct Olivine->Ecruteak direction.
