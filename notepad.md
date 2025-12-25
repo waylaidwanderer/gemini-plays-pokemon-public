@@ -14,6 +14,7 @@
 - Route 38 Potential Locations: 
   - Eastern end near Ecruteak Gatehouse (Targeting unseen tiles).
   - (1, 3) - Western Pocket (Isolated, requires investigation of access).
+  - Ledge area near farm: (6, 13) or (7, 10-12).
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable tile.
@@ -42,3 +43,4 @@
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
 - Arthur (Hard Stone): Route 36. Thursday only. (Today!)
+- Hallucination Note: Stopped obsessing over Western Pocket; focusing on route perimeter and ledges.

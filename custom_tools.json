@@ -318,5 +318,55 @@
         "action_counter": 20282
       }
     ]
+  },
+  "navigate_fly_map_v2": {
+    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target. Includes pauses between presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_city": {
+          "type": "string",
+          "enum": [
+            "NEW BARK TOWN",
+            "CHERRYGROVE CITY",
+            "VIOLET CITY",
+            "AZALEA TOWN",
+            "GOLDENROD CITY",
+            "ECRUTEAK CITY",
+            "OLIVINE CITY",
+            "CIANWOOD CITY",
+            "MAHOGANY TOWN",
+            "BLACKTHORN CITY"
+          ]
+        },
+        "target_city": {
+          "type": "string",
+          "enum": [
+            "NEW BARK TOWN",
+            "CHERRYGROVE CITY",
+            "VIOLET CITY",
+            "AZALEA TOWN",
+            "GOLDENROD CITY",
+            "ECRUTEAK CITY",
+            "OLIVINE CITY",
+            "CIANWOOD CITY",
+            "MAHOGANY TOWN",
+            "BLACKTHORN CITY"
+          ]
+        }
+      },
+      "required": [
+        "current_city",
+        "target_city"
+      ]
+    },
+    "python_script": "import json\n\ndef solve():\n    current_city = input_data[\"current_city\"]\n    target_city = input_data[\"target_city\"]\n    \n    # Johto Fly Map Layout (x, y)\n    # Row 0: Cianwood(0,0) - Olivine(1,0) - Ecruteak(2,0) - Mahogany(3,0) - Blackthorn(4,0)\n    # Row 1:                 Goldenrod(1,1) - Violet(2,1) - Cherrygrove(3,1) - New Bark(4,1)\n    # Row 2:                                  Azalea(2,2)\n    \n    grid = {\n        \"CIANWOOD CITY\": (0, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (1, 1),\n        \"VIOLET CITY\": (2, 1),\n        \"CHERRYGROVE CITY\": (3, 1),\n        \"NEW BARK TOWN\": (4, 1),\n        \"AZALEA TOWN\": (2, 2)\n    }\n    \n    start = grid[current_city]\n    end = grid[target_city]\n    \n    buttons = []\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    \n    # Move horizontally\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    # Move vertically\n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    \n    final_buttons = []\n    for b in buttons:\n        final_buttons.append(b)\n        final_buttons.append(\"sleep 500\")\n    final_buttons.append(\"A\")\n    \n    print(json.dumps(final_buttons))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Corrected Johto Fly map grid to reflect the actual 2D layout (Rows 0-2) and city positions. Fixed Olivine to Ecruteak direction.",
+        "timestamp": "2025-12-25T20:32:46.630Z",
+        "action_counter": 20541
+      }
+    ]
   }
 }
