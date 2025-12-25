@@ -6,9 +6,9 @@
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
-- Note: NPC missing at night (3:14 AM). Return during the day.
+- Coordinates: (16, 12) in National Park (Source: expert agent).
+- Time: Present at all times (Morning, Day, Night).
 - Checked (National Park): (17, 6) - Empty grass, (33, 11) - Empty grass, (35, 12) - Wall.
-- Location: Northeast area of National Park.
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
@@ -20,9 +20,9 @@
 - LONG_GRASS: Traversable, low encounter rate.
 - TALL_GRASS: Traversable, higher encounter rate.
 - WARP_CARPET: Traversable, map transition.
-- LEDGE_HOP_DOWN: One-way (Down), traversable.
-- LEDGE_HOP_LEFT: One-way (Left), traversable.
-- LEDGE_HOP_RIGHT: One-way (Right), traversable.
+- LEDGE_HOP_DOWN: Traversable, one-way (Down).
+- LEDGE_HOP_LEFT: Traversable, one-way (Left).
+- LEDGE_HOP_RIGHT: Traversable, one-way (Right).
 - HEADBUTT_TREE: Impassable, Headbutt for encounters.
 
 # Resources & PC Inventory
