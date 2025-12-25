@@ -8,15 +8,16 @@
 ## Current Status
 - **Position:** Player at (11, 8).
 - **Goal:** Solve B1 (Top Right Boulder).
+- **Action:** ACTIVATE STRENGTH.
 - **Puzzle State:**
   - **B1:** (11, 7).
   - **B2:** (7, 8).
   - **B4:** (17, 7).
 
 ## Immediate Plan
-1.  **Push B1 Up to (11, 5):**
-    - Action: Push Up x2.
-    - End State: B1 at (11, 5), Player at (11, 6).
+1.  **Activate Strength & Push B1 Up:**
+    - Open Menu -> Pokemon -> Muscle -> Strength.
+    - Push Up x2 to (11, 5).
 2.  **Navigate around to (12, 5):**
     - Path: (11, 6) -> (10, 6) -> Slide Up to (10, 1) -> Slide Right to (12, 1) -> Slide Down to (12, 5).
 3.  **Push B1 Left to (10, 5):**
