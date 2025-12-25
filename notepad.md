@@ -6,10 +6,9 @@
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
-- Coordinates: (16, 12) in National Park (Source: expert agent).
+- Coordinates: (16, 12) in National Park.
 - Time: Present at all times (Morning, Day, Night).
-- Note: If NPC is not visible in 'Map Objects' list at coordinates, they are not present.
-- Checked (National Park): (17, 6) - Empty grass, (33, 11) - Empty grass, (35, 12) - Wall.
+- Note: NPC verified at (16, 12).
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
