@@ -4,17 +4,19 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18429)
+# Current Status (Turn 18433)
 - **Location:** Dragon Shrine (5, 2).
-- **Activity:** Nicknaming Dratini.
-- **Goal:** Nickname Dratini "ZENITH" (fitting the "Rising" Badge and Extremespeed).
-- **Context:** Prompt "Give a nickname?". Selected YES.
+- **Activity:** Dialogue closing / Exiting Shrine.
+- **Goal:** Exit Shrine and Dragon's Den.
+- **Context:** Dratini received and nicknamed "ZENITH".
 
 # Plan
-1. Confirm YES (A).
-2. Enter Nickname "ZENITH".
-3. Exit Shrine.
-4. Fly to New Bark Town.
+1. Advance/Close any remaining text (B).
+2. Walk to Warp at (4, 9).
+3. Exit to Dragon's Den.
+4. Exit Dragon's Den.
+5. Fly to New Bark Town.
+6. Get Master Ball from Prof. Elm.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
