@@ -32,3 +32,6 @@
 # Lessons Learned
 - Arthur Loop: Arthur (Thursday) on Route 36 may repeat his introduction without giving the Hard Stone. If this happens for 3+ turns, pivot immediately.
 - Inventory Check: Always check Game State Information inventory list before pursuing items to ensure they haven't been collected in summarized turns.
+
+# Lessons Learned
+- Fly Map Snapping: Vertical movement on the Fly map causes the cursor to snap to the closest city in the new row. Horizontal movement stays within the current row. Independent X/Y calculation is unreliable; use step-by-step snapping simulation.
