@@ -10,12 +10,13 @@
 
 ## Navigation & Mechanics
 - **Current Position:** `(16, 1)` (North Hallway).
-- **Immediate Goal:** Navigate North to (16, 1), then West to find remaining boulders.
+- **Immediate Goal:** Move West to (5, 16), then North to find Boulder 2 near (5, 6).
 - **Status:** Boulder 1 pushed to Pit (12, 13).
 - **Search Plan:**
-    1. Go North to hallway at Row 1.
-    2. Go West to search for boulders near Pits (5, 12), (4, 7), (11, 2).
-    3. Ensure all boulders are pushed before leaving B1F.
+    1. Move West along Row 16 to (5, 16).
+    2. Move North to check (5, 6) for Boulder 2.
+    3. Locate Boulder 3 (likely near (11, 2) pit).
+    4. Ensure all boulders are pushed before leaving B1F.
 - **Pits:** `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Done).
 - **Constraint:** Walls at (17, 5) and (16, 5) block direct North approach.
 - **Bag Status:** Full. Cannot pick up items (Iron, NeverMeltIce marked).
