@@ -2,7 +2,7 @@
 - **Mechanics Check**: In Crystal, Suicune has fixed overworld sprite locations and is NOT a random grass encounter until the final stationary battle at Tin Tower.
 - **Encounter Sequence**:
     1. Burned Tower: Trigger beasts to flee. (COMPLETED)
-    2. Cianwood City: North end of town. (COMPLETED)
+    2. Cianwood City: North end town. (COMPLETED)
     3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS)
     4. Kanto Route 14: Near the water. (FUTURE)
     5. Tin Tower: Stationary battle with Clear Bell. (FUTURE)
@@ -15,7 +15,7 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - WATER: Walkable with Surf.
-- HEADBUTT_TREE: Impassable.
+- HEADBUTT_TREE: Impassable; interact to Headbutt.
 - CUT_TREE: Impassable; removable with Cut.
 - TALL_GRASS: Walkable; wild encounters.
 - CAVE: Walkable; warp.
