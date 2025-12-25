@@ -56,9 +56,10 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Status: Landed on 1F at (2, 6).
-- Action: Inspecting (2, 5) to see if path is clear.
-- Hypothesis: If (2, 4) is blocked, I need to drop Boulder 2 from 2F.
+- Status: Landed on 1F at (2, 6). Standing at (2, 5).
+- Observation: (2, 5) is a Floor. (2, 4) is a Wall. West side seems to be a dead end on 1F?
+- Action: Heading to East Side to use the bridges at (8, 7) and (8, 3) to reach Clair.
+- Route: South to open area -> East to Col 9 -> North to (8, 3) -> West to Clair.
 - Puzzle State:
-  - East Side: 2 Boulders dropped.
-  - West Side: 1 Boulder dropped.
+  - East Side: 2 Boulders dropped (8, 7 and 8, 3).
+  - West Side: 1 Boulder dropped (2, 5). Status of (2, 5) bridge is unclear but likely irrelevant for Clair.
