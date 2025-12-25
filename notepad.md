@@ -66,6 +66,6 @@
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
 - Puzzle Status: Pushing Boulder 4 North.
-- Current State: Boulder at (6, 14), Player at (6, 16). Gap at (6, 15).
+- Current State: Boulder at (6, 12), Player at (6, 14). Gap at (6, 13).
 - Action: Closing gap and pushing North.
 - Goal: Reach (6, 7).
