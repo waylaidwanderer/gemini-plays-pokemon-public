@@ -38,6 +38,8 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Fighting Fisher Scott (Route 26).
-- **Status:** Gyarados (52/108) leading.
+- **Status:** Gyarados (52/108) defeating Qwilfish #1.
+- **Opponent:** Sending out Qwilfish #2.
+- **Action:** Switching to Muscle (Machoke) to break Thrash lock and dominate.
 - **Location:** Route 26 Bridge (10, 94).
-- **Next:** Defeat Fisher Scott, then heal and continue North.
+- **Next:** Defeat Fisher Scott, then heal.
