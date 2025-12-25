@@ -124,3 +124,9 @@
 - **Status:** Overworld, Facing Down confirmed.
 - **Action:** Attempting `A` interaction with Whirlpool again.
 - **Reasoning:** Previous failures were likely due to incorrect facing (Game State `Facing: up`). Now that `Facing: down` is confirmed, `A` should trigger the prompt. If this fails, the Menu is the only option.
+
+# Interaction Update (Turn 18158)
+- **Status:** 'A' interaction failed again. Confirmed that 'A' does not trigger Whirlpool in this context.
+- **Action:** Switching to Menu Interaction.
+- **Plan:** Start -> Pokemon -> Lapis -> Whirlpool.
+- **Prerequisite:** Player is confirmed Facing DOWN (Turn 18157 State). Do not move.
