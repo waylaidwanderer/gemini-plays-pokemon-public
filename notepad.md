@@ -24,6 +24,6 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: Successfully faced DOWN towards Whirlpool.
-- Action: Opening Pokemon Menu to use Whirlpool with Lapis.
-- Sequence: Start -> A (Pokemon) -> Down x2 (Lapis) -> A (Submenu). Checking if "Whirlpool" is top option.
+- Status: Facing DOWN towards Whirlpool (Verified).
+- Action: Attempting direct interaction ('A') now that alignment is fixed. Previous failure was due to facing UP.
+- Backup Plan: If 'A' only gives description text, use Party Menu.
