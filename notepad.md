@@ -5,8 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Accessing Party Menu to use Whirlpool manually.
-- Reason: Pressing 'A' on the whirlpool failed to trigger interaction.
-- Step 1: Open Menu (Start).
-- Step 2: Navigate to Party.
-- Step 3: Select Lapis -> Use Whirlpool.
+- Status: Selecting Lapis in Party Menu.
+- Step 1: Open Menu (Start) [Done].
+- Step 2: Select POKEMON (Down, A).
+- Step 3: Select Lapis (Down, Down, A).
+- Step 4: Select Whirlpool.
