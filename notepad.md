@@ -24,3 +24,6 @@
 - **Requirement:** Must start sliding Right from (3, 11).
 - **Plan:** Push Boulder at (3, 12) Up to (3, 10). Then I stand at (3, 11). Slide Right.
 - **Contingency:** If pushing on ice fails, I cannot reach the item with current boulder placement. Must reset.
+- **Observation:** Push failed with simple input.
+- **Hypothesis:** Pushing from Ice might be impossible or requires longer input.
+- **Test:** Retry with `slow_press`. If fail, assume impossible and reset.
