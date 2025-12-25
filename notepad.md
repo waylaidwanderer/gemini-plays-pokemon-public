@@ -42,7 +42,7 @@
 - Location: Route 37 Grass.
 - Status: Super Repel active (Turn 19280).
 - Start Turn: 19282.
-- Steps taken: 110. (Next Pokedex check at 160).
+- Steps taken: 120. (Next Pokedex check at 160).
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
