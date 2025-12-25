@@ -3,23 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18309)
-- **Location:** Dragon's Den B1F (26, 22).
-- **Action:** Test interaction with Eastern Buoys/Whirlpools.
+# Current Status (Turn 18310)
+- **Location:** Dragon's Den B1F (24, 22).
+- **Action:** Retry Navigation to (26, 22).
 - **Reasoning:** 
-    - Interactions with (24, 23) and (25, 23) failed. 
-    - "Can't use that here" message suggests those specific tiles might not be valid Whirlpool targets, or "Buoy" tiles are unbreakable barriers.
-    - Testing (26, 23) [Down] and (27, 22) [Right] to be thorough.
-    - If these fail, the "Southern Barrier" hypothesis is likely false, and I must explore North for a different path.
+    - Previous navigation failed (likely due to malformed path_plan missing start node).
+    - Still need to test Eastern Buoys at (26, 23) and (27, 22).
+    - If movement fails again, I am physically blocked or stuck, and must try a different direction entirely.
 - **Sequence:**
-  1. Move to (26, 22).
-  2. Face Down (26, 23), Interact.
-  3. Face Right (27, 22), Interact.
+  1. Navigate to (26, 22).
+  2. Next Turn: Interact with Buoys.
 
 # Plan
-1. Test (26, 23) and (27, 22).
-2. If successful, proceed.
-3. If fails, Navigate North to explore the channel and look for a gap in the barrier or another path.
+1. Move to (26, 22).
+2. Test (26, 23) and (27, 22).
+3. If successful, proceed.
+4. If fails, Navigate North to explore the channel and look for a gap in the barrier or another path.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
