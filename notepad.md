@@ -39,3 +39,8 @@
 - Menu Navigation: Always clear screen text with B before starting a menu sequence.
 - Fly Map: Verify current city in Game State before calling navigate_fly_map.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
+
+# Menu Navigation Debugging
+- Problem: Persistent cursor makes menu navigation unpredictable.
+- Hypothesis: Resetting to the top of the menu using multiple "Up" presses will provide a consistent starting point.
+- Test 1: Press Start, then Up 7 times, then Down 1 time to reach POKEMON.
