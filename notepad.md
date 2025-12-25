@@ -10,15 +10,16 @@
 - Thunderstone: Obtained from Dana (Route 38) at Turn 20360.
 
 # Tile Mechanics (Verified)
+- FLOOR: Traversable.
+- WALL / FENCE: Impassable.
+- LEDGE_HOP_DOWN (Y=13, 15): One-way South.
+- LEDGE_HOP_LEFT (X=10): One-way West.
+- LEDGE_HOP_RIGHT (X=7, 21): One-way East.
+- TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
+- HEADBUTT_TREE: Impassable, interact for encounter.
 - WARP_CARPET_RIGHT / LEFT: Traversable, triggers map transition.
 
 # Route 38/39 Mechanics & Exploration
-- Tile Mechanics (Verified):
-  - LEDGE_HOP_DOWN (Y=13, 15): One-way South.
-  - LEDGE_HOP_LEFT (X=10): One-way West.
-  - LEDGE_HOP_RIGHT (X=7, 21): One-way East.
-  - WALL / FENCE: Impassable.
-  - TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
 - Lane Analysis:
   - Top Lane (Rows 0-6): Fragmented by walls. Eastern strip (X=4-35) reachable via Ecruteak or gaps at X=30-35. Western Pocket (X=0-2) is currently isolated.
   - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
@@ -27,7 +28,7 @@
   - Western Pocket (X=0-2): Unexplored. Isolated.
   - Route 39 Barn: Searched. No Suicune.
 - Current Plan: 
-  1. Fly to Ecruteak City.
+  1. Fly to Ecruteak City (Done).
   2. Enter Route 38 from the East and walk West along the Top Lane (Rows 0-6) to find Suicune (Sighting #4) near the Miltank farm.
   3. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10) on the rightmost bench.
   4. Continue the Suicune hunt at Route 14.
@@ -37,22 +38,3 @@
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
 - False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
 - Bug Catching Contest: Active today (Thursday). May affect National Park access.
-- Suicune Sighting #4: Approach Route 38 Top Lane from Ecruteak. Walk West to X=0-2 strip near Miltank farm.
-
-# Reflection (Turn 20400)
-1. **Immediate Execution**: I have prioritized correctly, but menu navigation was slowed by complex tool usage. Switching to manual inputs for deep menus.
-2. **Notepad Hygiene**: Streamlined and reorganized for the Suicune hunt. Redundant logs removed.
-3. **Map Hygiene**: Cleaning up redundant transition markers on the eastern edge of Route 39.
-4. **Automation**: Using agents to verify Suicune's scripted logic and item locations.
-5. **Goal Clarity**: WHAT is clear (Catch Suicune), HOW is documented (Fly to Ecruteak, walk West).
-6. **Error Analysis**: Confirmed Route 38 is a one-way path West due to ledges at X=7 and X=10. This was the 'False Constraint' that caused the backtracking loop.
-
-# Suicune Hunt Strategy (HOW)
-- Western Pocket Isolation: Verified that Route 38 Top Lane (X=0-2) is blocked from the south by Row 7 walls and from the east by a wall at X=3. Approach from Row 0-1 on Route 38 (Ecruteak side) is required to bypass these walls.
-- Path to Suicune:
-  1. Fly to Ecruteak.
-  2. Walk West to (0, 18).
-  3. Enter Route 38 Gatehouse (9, 5) -> (0, 5).
-  4. Enter Route 38 at (35, 9).
-  5. Move to Row 6 (Top Lane).
-  6. Walk West to (0, 6) area near Miltank farm.
