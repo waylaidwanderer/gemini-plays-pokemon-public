@@ -13,16 +13,12 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Entered B3F.
-    - Came from B2F Puzzle Room (9, 11).
-    - Current Pos: (3, 5).
-    - Obstacle: Rock at (6, 6).
-    - Item: NeverMeltIce at (5, 7).
+- Status: Smashing Rock at (6, 6).
 - Goal: Exit Ice Path.
     - Plan:
     1. Smash Rock at (6, 6).
-    2. Navigate to Ladder at (15, 5).
-    3. Take Ladder to B2F (East Side).
-    4. Find exit to Blackthorn.
-- Note: Summary mentions (15, 5) leads to items (Iron/Protein), but it's the only other ladder visible. Must verify.
+    2. Navigate path: (6, 6) -> (6, 7) -> (9, 7) -> (9, 1) -> (14, 1) -> (14, 5) -> (15, 5).
+    3. Check Unseen area at (14, 10) before leaving.
+    4. Take Ladder at (15, 5) to B2F.
+- Note: This route circles around the map to reach the other side.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
