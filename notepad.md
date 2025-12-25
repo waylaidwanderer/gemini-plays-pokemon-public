@@ -41,7 +41,7 @@
     - Slide Left to `(14, 29)`, then Down to `(14, 33)`.
     - **South Landing:** `(11, 33)` (Floor). Accessible from `(14, 33)` via Left slide.
     - **North Landing:** `(11, 30)` (Floor). Path: `(14, 33) -> R(15, 33) -> U(15, 29) -> R(19, 29) -> D(19, 33) -> L(17, 33) -> U(17, 31) -> L(13, 31) -> U(13, 30) -> L(11, 30)`.
-- **Item Path Solution (B1F/1F):** [Completed: Found Iron (B1F) and Protein (1F)]
+- **Item Path Solution (B1F/1F):** [Completed: Found Iron (B1F). Protein (1F) skipped - Bag Full]
     - **Conclusion:** The path starting from B3F East Ladder `(15, 5)` is a bonus item loop.
     - **Action:** Backtrack to B3F Main Area.
 - **HM07 Strategy:**
@@ -50,5 +50,5 @@
     - **Plan:** Return to B3F -> Go to `(6, 6)` -> Use Rock Smash -> Get HM07.
 - **Current Navigation:**
     - **Goal:** Return to B3F.
-    - **Route:** 1F Ladder `(37, 13)` -> B1F South Ladder `(5, 25)` -> Walk/Slide back to B2F Ladder `(3, 15)`... wait, B2F led to B1F South.
+    - **Route:** 1F Ladder `(37, 13)` -> B1F South Ladder `(5, 25)` -> Walk/Slide back to B2F Ladder `(3, 15)`. Note: B2F leads to B1F South.
     - **Backtrack Route:** 1F `(37, 13)` -> B1F `(5, 25)` -> Walk South to `(11, 30)` -> Slide/Walk to Ladder `(11, 27)` -> B2F `(3, 15)` -> Slide loop to Ladder `(3, 3)` -> B3F `(15, 5)`.
