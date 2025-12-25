@@ -3,24 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18311)
+# Current Status (Turn 18312)
 - **Location:** Dragon's Den B1F (26, 22).
-- **Action:** Test Eastern Buoys interaction.
-- **Hypothesis:** One of the buoys surrounding the player might be a Whirlpool.
-- **Sequence:**
-  1. `A`, `A` (Interact with (27, 22)).
-  2. `Down`, `A`, `A` (Interact with (26, 23)).
-- **Contingency:** If these fail (no text/effect), the barrier is impassable from here. Next step: Move North.
+- **Condition:** In Battle (Wild Magikarp).
+- **Action:** Flee Battle.
+- **Reasoning:** Magikarp is not a threat and gives negligible EXP. Priority is exploration.
+- **Previous Action Result:** Interactions with buoys at (27, 22) and (26, 23) did not yield "Whirlpool" text before the battle started (or were interrupted). Likely not the path.
 
 # Plan
-1. Test East/South Buoys.
-2. If interaction works -> Enter Shrine area.
-3. If interaction fails -> Navigate North to (26, 20) and explore the channel.
+1. Flee from Magikarp.
+2. Navigate North to (26, 20) to explore the channel.
+3. Look for a gap in the barrier or another path.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
-- **Buoy:** Unbreakable barrier (likely).
-- **Water Channel:** Appears to continue North from current position.
+- **Buoy:** Likely unbreakable barrier here.
+- **Water Channel:** Leads North.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
