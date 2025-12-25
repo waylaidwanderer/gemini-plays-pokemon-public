@@ -1,13 +1,11 @@
 # Suicune Hunt Strategy (Crystal)
-- Status: SCRIPTED (Route 38). Sighting #4. Suicune is stationary near the Miltank farm and will not move until approached.
-- Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
-- Strategy: Trigger flee on Route 38 (Northern strip), then battle at Tin Tower.
+- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 (Northern strip) and will not move until approached.
+- Route: Enter Route 38 (0, 6) from Route 39 (19, 6).
 - Battle Plan: 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
 - Hypothesis: NPC located at (16, 12) in National Park (Source: expert agent).
-- Time: Present at all times (Morning, Day, Night).
 - Note: Return during the day to verify hypothesis.
 
 # Swarms & Rematches
@@ -28,7 +26,6 @@
 
 # Lessons Learned
 - NPC Verification: Never trust agent coordinates over the Game State 'Map Objects On Screen' list.
-- Loop Prevention: If stuck in a pathing loop, re-verify collision data and NPC presence manually.
 - Suicune Mechanics: In Crystal, Suicune follows a fixed scripted path and only roams after the Tin Tower event.
 
 # Resources & PC Inventory
@@ -36,9 +33,3 @@
 - Items: 3 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
 - Key Items: Clear Bell (Required for Suicune at Tin Tower).
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
-
-# Suicune Route 38 Investigation
-- Observation: Route 38 has an isolated western pocket (x=0-2, Row 0-2) blocked by a wall at x=3.
-- Hypothesis: Suicune is hiding in this pocket.
-- Test: Enter Route 38 (0, 6) from Route 39 (19, 6) and check (2, 2).
-- Current Status: Finding path to Route 39 (19, 6).
