@@ -11,7 +11,7 @@
 - Failsafe: Roar ends the battle even with Mean Look. Keep it asleep!
 
 # Quick Claw Quest
-- Location: National Park (Verify with agent).
+- Location: National Park.
 - NPC: Lady on a bench in the northeast area.
 - Access: Enter National Park from Route 35 (3, 5).
 
@@ -43,6 +43,7 @@
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
 - Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town.
+- Strength Usage: Accidentally used Strength instead of Fly because the cursor was on GNEISS. Always verify selection.
 
 # Task Progress
 - Quick Claw Search: In progress.
