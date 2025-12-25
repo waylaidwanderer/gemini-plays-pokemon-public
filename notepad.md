@@ -23,6 +23,7 @@
 # Repetitive Task: Pacing for Suicune
 - Status: Pacing (6, 2) <-> (7, 2).
 - Repel: Applied Turn 19361. ~10 steps taken.
+- Pokedex Status: Confirmed Suicune on Route 37 (Turn 19368).
 - Objective: Trigger encounter.
 
 # Resources & PC
