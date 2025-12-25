@@ -21,7 +21,7 @@
 - Strategy: Mean Look with XENON (Lv21), Sleep, Ultra Balls.
 
 # Time Tracking
-- Super Repel Search: Started Turn 18395. Status: Not found in Goldenrod 2F/3F. Plan: Fly to Olivine.
+- Super Repel Search: Started Turn 18395. Status: Overwatch says they ARE on 2F. Plan: Return to 2F and check the Trainer Items clerk (13, 6) more carefully.
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
