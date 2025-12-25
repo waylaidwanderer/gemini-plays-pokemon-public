@@ -26,7 +26,7 @@
     - Middle Pocket A (X=4-5): Reachable via gap at (4, 7).
     - Middle Pocket B (X=8-9): Reachable via gap at (8, 7).
     - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
-  - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
+  - Path Complexity: Route 38 has many ledges, but walking East is possible by detouring through the southern floor path (Row 14-16) and the gap at (10, 14).
 - Search Log:
   - Top Lane Eastern Strip (X=16-35): Searched. No Suicune.
   - Top Lane Middle Pocket A (X=4-5): Searched. No Suicune.
