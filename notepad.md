@@ -53,5 +53,12 @@
 - Observed: Tiles (7, 6) and (7, 7) are labeled as Warps but do not trigger when walked on. They are likely Drop Zones from 2F.
 - Defeated Cooltrainer M at (6, 6).
 - Action: Ascend Ladder at (7, 9) to 2F.
-- Strength Status: Pokemon List Open. Selecting Muscle (Slot 4).
-- Action: Select Muscle -> Strength.
+- Strength Status: Active.
+- Puzzle Plan (East Side):
+  1. Push Boulder 4 (6, 16) South to (6, 17) to clear path.
+  2. Circle around via (7, 16) -> (8, 16) -> (8, 15).
+  3. Push Boulder 3 (8, 14) North to (8, 11).
+  4. Flank to (9, 11) and push B3 West to (6, 11).
+  5. Flank to (6, 12) and push B3 North to (6, 7).
+  6. Flank to (5, 7) and push B3 East into Pit (8, 7).
+- Action: Pushing Boulder 4 South.
