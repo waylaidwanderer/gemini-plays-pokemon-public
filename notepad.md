@@ -5,7 +5,9 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Selecting 'Pokemon' in Menu.
-- Reason: Menu is open. Navigating to Lapis to use Whirlpool.
-- Step 1: Select 'Pokemon' (A).
-- Step 2: Navigate to Lapis (Slot 3) and select Whirlpool.
+- Status: Correcting Facing (Menu -> Overworld).
+- Reason: Realized I am facing UP (away from whirlpool). Menu usage requires facing the target. Must exit menu and face DOWN.
+- Step 1: Exit Party Menu (B).
+- Step 2: Exit Main Menu (B).
+- Step 3: Face Down (Down).
+- Step 4: Interact (A).
