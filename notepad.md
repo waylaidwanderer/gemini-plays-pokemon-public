@@ -13,13 +13,12 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: 1F East (Exiting).
+- Status: Exiting Ice Path to Blackthorn City.
 - Goal: Reach Blackthorn City.
     - Plan:
-        1. (Current) At (37, 21) on Ice.
-        2. Slide Left to (34, 21).
-        3. Slide Down to (34, 22) [Floor].
-        4. Walk to Exit Warp at (36, 25).
-- Note: Bag is Full. Skipped Item Ball at (32, 23).
+        1. (Current) At (34, 22).
+        2. Walk Right to (36, 22).
+        3. Walk Down to Exit Warp at (36, 25).
+- Note: Bag is Full.
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
