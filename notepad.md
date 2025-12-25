@@ -11,7 +11,7 @@
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench in the northeast section of National Park (17, 12).
-- Path: Enter National Park from Route 35 (3, 5). Head north, then east along the fence perimeter.
+- Path: Enter National Park from Route 35 (3, 5). Head north through the grass, then east along the fence perimeter to the northeast gatehouse.
 - Access: Requires landing in Goldenrod City and heading north via Route 34/35.
 
 # Tile Mechanics (Verified)
@@ -30,20 +30,13 @@
 - Items: 3 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Rules & Logic
-- Rule: Always B-mash to clear the screen before starting a Start menu sequence.
-- Rule: Move at least one tile away from doors before opening the menu to avoid accidental re-entry.
+# Start Menu & Navigation Rules
+- Rule: Always B-mash to clear the screen before starting a menu sequence.
+- Rule: Move at least one tile away from doors (e.g., to 14, 22 or 15, 22 in Olivine) before menuing to avoid accidental re-entry.
+- Cursor Persistence: Start menu and Pokemon menu remember their last position. Verify state or use resets.
 - Menu Wrapping: Start menu wraps (POKEDEX <-> EXIT).
 - Fly Map: In Olivine, the cursor defaults to New Bark Town.
 
 # Swarms & Tracking
-- Yanma Swarm: Reported on Route 35 (Turn 19540).
-- Suicune Tracking: Moves on map transition. Snapshot via Pokedex 'Area'.
-
-# Reflection Turn 19575
-- Immediate Execution: Clearing screen after failed menu navigation.
-- Notepad Hygiene: Added menu persistence rules.
-- Map Hygiene: Markers are current.
-- Automation Strategy: Using B-mash to reset state before menuing.
-- Goal Clarity: Focus remains on Quick Claw and Suicune.
-- Error Analysis: Identified that the Start menu and Pokemon menu remember cursor positions, causing relative sequences to fail. Lesson: Always use a 'reset' sequence (mash Up/Down) or verify state.
+- Yanma Swarm: Reported on Route 35 (Turn 19540). Verify via Pokegear/Radio.
+- Suicune Tracking: Moves on Fly or map transition. Snapshot via Pokedex 'Area'.
