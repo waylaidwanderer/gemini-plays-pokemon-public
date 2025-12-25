@@ -21,15 +21,15 @@
 
 # Route 38/39 Mechanics & Exploration
 - Lane Analysis:
-  - Top Lane (Rows 0-6): Fragmented by walls. Eastern strip (X=4-35) reachable via Ecruteak or gaps at X=30-35. Western Pocket (X=0-2) is currently isolated.
+  - Top Lane (Rows 0-6): Fragmented by walls. Eastern strip (X=4-35) reachable via Ecruteak or gaps at X=30-35. Western Pocket (X=0-2) is isolated from east by wall at X=3.
   - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
 - Search Log:
   - Top Lane (X=4-35): Searched. No Suicune.
   - Western Pocket (X=0-2): Unexplored. Isolated.
   - Route 39 Barn: Searched. No Suicune.
 - Current Plan: 
-  1. Fly to Ecruteak City (Done).
-  2. Enter Route 38 from the East and walk West along the Top Lane (Rows 0-6) to find Suicune (Sighting #4) near the Miltank farm.
+  1. Enter Route 39 and search the northern perimeter for a gap leading to the isolated Top Lane strip (Route 38 X=0-2).
+  2. Approach Suicune (Sighting #4) near the Miltank farm.
   3. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10) on the rightmost bench.
   4. Continue the Suicune hunt at Route 14.
 
