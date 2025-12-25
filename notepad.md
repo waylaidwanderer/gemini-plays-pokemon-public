@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
 - Status: SCRIPTED (Sighting #4). Suicune appears on Route 38 when approached.
-- Strategy: Walk east along the northern path of Route 38 from the west (Route 39 border).
+- Strategy: Sweep the northern corridor of Route 38 from west to east (0, 8 to 35, 8).
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Task Started: Turn 19782, 2025-12-25 05:42 AM PST.
 
@@ -36,11 +36,6 @@
 - To find Suicune (#245) quickly: Open Numerical Pokedex -> Press UP from #001 to wrap to #251 -> Press UP 6 more times (7 total UPs) to reach #245 Suicune.
 - Order: 251 (Celebi) -> 250 (Ho-Oh) -> 249 (Lugia) -> 248 (Tyranitar) -> 247 (Pupitar) -> 246 (Larvitar) -> 245 (Suicune).
 
-# Suicune Hunt Progress
-- Turn 19957: Reached eastern section of Route 38 ledge. Searching east.
-- Strategy: Moving toward the Ecruteak Gatehouse area on the northern path.
-
-# Suicune Search (Route 38)
-- Hypothesis: Suicune flee script is triggered by walking a specific path on the northern section.
-- Strategy: Walk the entire northern corridor from (0, 8) to (35, 8).
-- Observation: Western ledge area (15, 12) was empty.
+# Suicune Search Log (Route 38)
+- Turn 19957: Searched (15, 12) to (34, 9). No encounter.
+- Turn 19961: Starting full sweep from West (0, 8) to East (35, 8).
