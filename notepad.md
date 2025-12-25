@@ -32,7 +32,7 @@
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Menu Navigation & Fly Map Defaults
-- Olivine City: FLY cursor defaults to New Bark Town.
+- Olivine City: FLY cursor defaults to New Bark Town (Hypothesis).
 - Reset Strategy: Pressing B until the overworld is visible ensures a clean Start menu state.
 - Verification: Always check Game State Map ID and City before using navigate_fly_map.
 - Clear Screen: Always press B multiple times to ensure no dialogue or menu is active before starting a sequence.
@@ -42,7 +42,7 @@
 - Stagnation: Fixed the loop by recognizing the cursor starts on PACK.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
-- Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town.
+- Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town (Hypothesis).
 - Strength Usage: Accidentally used Strength instead of Fly because the cursor was on GNEISS. Always verify selection.
 
 # Task Progress
