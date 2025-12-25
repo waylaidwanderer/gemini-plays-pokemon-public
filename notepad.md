@@ -1,5 +1,5 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
+- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Sighting #3) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Route 42 Trigger: Approach Suicune on the island with 3 Apricorn trees. 
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
@@ -19,7 +19,8 @@
 - WATER: Requires SURF to traverse.
 
 # Shopping List
-- Super Repels (Buy at next available Mart).
+- Super Repels (Buy at Mahogany Town Mart).
+- Note: Sell Max Revive (¥2000) to afford them.
 
 # Side Quests
 - Quick Claw: National Park (33, 12). Lady on bench in NE section.
@@ -32,6 +33,3 @@
 # Pokedex Navigation
 - Numerical Pokedex: Press UP from #001 to wrap to #251.
 - Suicune (#245): Wrap to #251, then 6 more UP presses.
-
-# Shopping List
-- Super Repels (Mahogany Town Mart)
