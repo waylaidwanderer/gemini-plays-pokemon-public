@@ -2,13 +2,18 @@
 - Status: ROAMING (Post-Tin Tower).
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 - Strategy: Boundary cycling between Route 36 and Route 37.
-- Priority: OBTAIN QUICK CLAW (Lady on Route 35/36).
+- Priority: OBTAIN QUICK CLAW (National Park - Lady with Persian).
 
 # Suicune Battle Plan
+- Item: QUICK CLAW (Priority: National Park).
 - Turn 1: MEAN LOOK. (Note: Suicune is faster than Gastly).
 - Turn 2+: HYPNOSIS.
 - Turn 3+: NIGHT SHADE (fixed damage).
-- Failsafe: If flee Turn 1, get Quick Claw (Lady on Route 35/36).
+- Failsafe: If flee Turn 1, need Quick Claw.
+
+# Quick Claw Quest
+- Verified: Lady with Persian on a bench in NE National Park gives it.
+- Action: Enter National Park from Route 35 (3, 5).
 
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
