@@ -5,7 +5,7 @@
 
 # General Mechanics
 - Tile Mechanics:
-    - FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE, ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH: Traversable.
+    - FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE, ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH, DOOR: Traversable.
     - WALL, COUNTER, MART_SHELF: Impassable.
     - LEDGE: One-way (hop down).
 - Navigation:
@@ -27,14 +27,6 @@
 - Goal: Lower HP carefully and use ULTRA BALLS.
 - Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
 
-# PC Storage (Box 1)
-- RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
-
-# Goldenrod Dept. Store Inventory Notes
-- 2F Clerk (13, 6): Poké Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
-- 2F Clerk (13, 5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
-- Super Repels NOT sold here.
-
 # Suicune Encounter Strategy
 - Step 1: Obtain Bicycle in Goldenrod City (29, 29).
 - Step 2: Walk/Bike to Ecruteak City (Flying randomizes Suicune's location).
@@ -42,12 +34,14 @@
 - Step 4: Put XENON (Lv21) in the lead.
 - Step 5: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
 - Step 6: When Suicune is on Route 38, use Super Repel and run in grass.
-- Note: Suicune is Level 40. Mean Look must hit on Turn 1.
-- Mechanic: Roaming Pokemon move every time the player transitions between routes or cities.
+- Note: Suicune moves every time the player transitions between routes or cities.
+
+# PC Storage (Box 1)
+- RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
 # Lessons Learned
 - Cannot use FLY from inside buildings; must be outdoors.
-- Roaming Pokemon (Suicune) relocate upon EVERY map transition (city-to-route, route-to-city).
+- Roaming Pokemon (Suicune) relocate upon EVERY map transition.
 - FLYING forces roaming Pokemon to a completely random location in Johto.
 - Poké Mart inventories scale with Badge progress; Super Repels appear later.
 - Interacting with clerks behind counters: Face the counter tile, not the NPC.
