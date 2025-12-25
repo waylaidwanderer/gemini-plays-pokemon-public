@@ -5,9 +5,9 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Opening Menu to use Whirlpool.
-- Reason: Direct 'A' interaction failed despite correct facing (Down) and positioning (adjacent). Must use Menu -> Pokemon -> Whirlpool.
-- Step 1: Open Menu (Start).
-- Step 2: Select 'Pokemon'.
-- Step 3: Select 'Lapis'.
-- Step 4: Select 'Whirlpool'.
+- Status: Resetting Facing and Menu.
+- Reason: Game State says 'Facing: Up' (conflicting with visual 'Facing: Down'). To ensure success, I will close the menu, force face Down, and reopen the menu.
+- Step 1: Close Menu (B).
+- Step 2: Face Down (Down).
+- Step 3: Re-open Menu (Start).
+- Step 4: Navigate to Pokemon -> Lapis -> Whirlpool.
