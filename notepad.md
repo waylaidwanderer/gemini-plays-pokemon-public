@@ -30,7 +30,7 @@
 - Verified Map Connections:
   - Southern Path (Row 14-16) is reachable from North via Row 13 ledges. Exit North at (9, 14).
   - Route 39 North-South: Row 7 wall has a gap at X=12.
-  - Route 39 East-West: Row 6 wall at X=16 blocks travel. Bypass via Row 5 or 8.
+  - Route 38 Suicune Event: Scripted proximity trigger near the farm/ledge area. (Approach row 8-12 near X=5-10).
 
 # Lessons Learned
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
