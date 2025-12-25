@@ -32,8 +32,7 @@
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Task Progress
-- Quick Claw Quest started: Turn 19471.
-- Suicune Log: Confirmed on Route 42, then Ecruteak City (Turn 19477).
+- Quick Claw Search: In progress.
 
 # Error Analysis & Lessons
 - Menu Navigation: Always clear screen text with B before starting a menu sequence.
