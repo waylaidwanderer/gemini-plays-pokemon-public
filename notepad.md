@@ -34,3 +34,6 @@
     - Testing Left path at `(4, 8)` to see if it loops or leads to a hidden area.
 - **Path verification:** Sliding Right from `(0,8)` to `(3,8)` puts me below a ledge at `(3,4)`, likely preventing return to the Ladder.
 - **Action:** Sliding South from `(3,8)` to explore the unknown area.
+- **B2F Loop:** Sliding Right from `(3, 14)` leads to `(8, 14)` -> `(8, 3)` -> Start `(3, 3)`. Loop confirmed.
+- **Item at (8, 16):** Located on isolated floor tile. Cannot reach from current path. Likely requires dropping from B1F hole at `(8, 16)`.
+- **Action:** Taking Ladder at `(3, 15)` to explore further.
