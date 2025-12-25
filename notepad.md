@@ -16,7 +16,6 @@
 - LEDGE_HOP_RIGHT: One-way jump East.
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET_RIGHT: Triggers map transition.
-- LONG_GRASS: Traversable; triggers wild encounters.
 - WATER: Traversable with Surf.
 - BERRY_TREE: Impassable.
 
