@@ -16,7 +16,7 @@
 ## Puzzle Solution (In Progress)
 1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`. (COMPLETED)
 2.  **Reposition:** Circle `(6, 6)` -> `(6, 5)` -> `(5, 5)` -> `(4, 5)`. (EXECUTING NOW)
-3.  **Push 2:** Push Boulder Down into Pit `(4, 7)`.
+3.  **Push 2:** At `(4, 5)`, Push Boulder Down into Pit `(4, 7)`.
 
 ## Item Retrieval (B2F)
 1.  Drop into Pit `(4, 7)`.
