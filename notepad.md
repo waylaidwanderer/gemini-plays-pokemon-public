@@ -4,14 +4,14 @@
 - Strategy: Boundary cycling between Route 38 and Ecruteak City.
 
 # Suicune Battle Plan
-- Turn 1: MEAN LOOK.
-- Turn 2+: HYPNOSIS. (Keep asleep to prevent Roar).
+- Turn 1: MEAN LOOK. Mandatory.
+- Turn 2+: HYPNOSIS. (Keep asleep).
 - Turn 3+: NIGHT SHADE. (Fixed damage 21).
 
 # Quick Claw Quest
 - NPC: Woman on a bench in the northeast section of National Park.
-- Access: Perimeter path via gap in fence at (35, 12).
-- Goal: Find NPC in the northeast corner of the perimeter.
+- Coordinates: (34, 12). Standing tile: (35, 12).
+- Path: Perimeter gap at (35, 12). Accessible from northern path.
 
 # Fly Map List
 1. New Bark Town, 2. Cherrygrove City, 3. Violet City, 4. Azalea Town, 5. Goldenrod City, 6. Ecruteak City, 7. Olivine City, 8. Cianwood City, 9. Mahogany Town, 10. Lake of Rage.
