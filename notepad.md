@@ -47,4 +47,4 @@
     - Slide Left to `(7, 34)`.
     - Slide Down to `(7, 35)`.
     - Slide Left to `(5, 35)` (Item Ball).
-    - **Action:** Executing slide sequence step-by-step.
+    - **Action:** Sliding Left to `(7, 34)`.
