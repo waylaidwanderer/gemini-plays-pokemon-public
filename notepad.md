@@ -25,3 +25,8 @@
 - Next: Navigate to Lapis -> Select Whirlpool.
 - Note: Verifying Party Menu cursor position before navigation.
 - Field moves: Surf (1), Whirlpool (2).
+- Turn 18116: Previous attempt to open menu (Start, A) yielded no screen text.
+- Hypothesis: Menu didn't open, or text extraction failed.
+- Action: Pressing Down (to ensure facing/bump), then Start, then A.
+- Goal: Open Start Menu and select the current option (hopefully Pokémon or Pokedex) to verify state.
+- Note: If Party Menu opens, cursor might be on Slot 5 (Kunai) based on previous notes.
