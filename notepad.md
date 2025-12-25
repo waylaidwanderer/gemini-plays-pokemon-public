@@ -12,3 +12,5 @@
 - **Current Position:** `(3, 2)`.
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
+- Observation: Previous movement blocked at (9, 10). Suspect Boulder 4 is located there.
+- Plan: Navigate to (9, 9), confirm boulder, then push South and West to Pit (5, 12).
