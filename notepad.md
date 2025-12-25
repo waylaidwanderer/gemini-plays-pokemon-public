@@ -38,3 +38,8 @@
 ## Lessons Learned
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
+
+## Revised Plan
+1. Slide Left to (1, 14).
+2. Walk to (3, 17) and Slide Right on Row 17.
+3. Verify wall at (9, 17) -> Stop at (8, 17) -> Up to Item.
