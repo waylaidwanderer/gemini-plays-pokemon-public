@@ -16,43 +16,24 @@
 - HEADBUTT_TREE: Interact for encounter/event.
 - CUT_TREE: Requires CUT to remove.
 - WATER: Requires SURF to traverse.
-
-- TOWN_MAP: Background object; interact for map info.
-- WINDOW: Background object.
-- BOOKSHELF: Background object.
-- TV: Background object.
-- RADIO: Background object.
+- TOWN_MAP / WINDOW / BOOKSHELF / TV / RADIO: Background objects.
 
 # Lessons Learned
-- Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires careful counting to reach #245 (Suicune).
+- Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires 6 more UP presses to reach #245 (Suicune).
 - Menu Buffering: Avoid mixing directional and action buttons too quickly.
-- Navigation Hazards: Route 38 has a "ledge pocket" between (8, 14) and (23, 14). Do not enter unless prepared to Fly out.
+- Route 38 Hazards: "Ledge pocket" between (8, 14) and (23, 14). Entrance is via ledge hop down (Row 13). Exit requires Fly.
+- Menu Mechanics: Always verify cursor position in Party/Pack menus due to cursor persistence.
 
 # Side Quests
-- Quick Claw: National Park (33, 12). Lady on bench in NE section.
+- Quick Claw: National Park (35, 12). Talk to Teacher on bench with Persian.
 - Yanma Swarm: Caught.
-- Schoolboy Alan (Route 36): Rematch available?
+- Sick Miltank (Moomoo Farm): Needs many Berries to recover.
 
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
 
-# Pokedex Navigation (Quick Reference)
-- Numerical Pokedex: Press UP from #001 to wrap to #251.
-- Suicune (#245): Wrap to #251, then 6 more UP presses.
-
-# Route 38 Navigation & Hazards
-- Northern Path (Safe): Y=1 to Y=5. Use this to reach the west end/farm area.
-- Ledge Pocket (Hazard): (8, 14) to (23, 14). Entrance is via ledge hop down from northern path. Exit requires Fly or walking east/west to dead ends.
-- Ledge Traversability: Tiles at (11, 13) to (20, 13) are LEDGE_HOP_DOWN (one-way). Do not step on them from the north (Row 12).
-- Suicune Trigger: Suicune is spotted on the ledge. Approach to trigger flee. Avoid jumping down until Suicune is seen.
-- Fence Gap: Located at (3, 10). Use this to cross between eastern and western sections.
-
-# Suicune Hunt Strategy
-- Sequence: Route 38 (Ledge) -> Route 14 -> Tin Tower (Final).
-- Route 38: Use the fence gap at (3, 10) to reach the western section. Suicune stands on the ledge overlooking the northern path. Approach from the west/farm side or the gap to trigger flee.
-- Tin Tower: Requires Clear Bell (in inventory) to trigger the stationary encounter.
-
-# Menu Navigation Lessons
-- Cursor Persistence: The Party and Pack menus remember the last selected item. Always verify the cursor position before pressing A to avoid using the wrong item or Pokémon (e.g., using Strength instead of Fly).
-- Menu Buffering: Do not mix directional and action buttons too quickly; the game may drop inputs or misinterpret the sequence.
-- Reset Logic: If unsure of the menu state, press B several times to return to the overworld before starting a new sequence.
+# Suicune Hunt Progress
+- Sighting #4 (Current): Route 38. Suicune is on the ledge near the farm/western section.
+- Sighting #5: Route 14.
+- Final: Tin Tower. Clear Bell is in inventory.
+- Strategy: Locate Suicune on the ledge and approach to trigger flee.
