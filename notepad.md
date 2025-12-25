@@ -38,12 +38,9 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
-- Turn 18121: "Can't use that here" triggered again. Game State confirms Facing UP.
-- Root Cause: Menu navigation does not change player facing.
-- Correct Sequence:
-  1. Close ALL menus (B, B, B).
-  2. Face DOWN in Overworld (Down).
-  3. Verify Facing = DOWN.
-  4. Open Menu -> Pokemon -> Lapis -> Whirlpool.
-- Critical Rule: Do NOT mix Menu Close (B) and Movement (Direction) in the same turn. Input eating is highly likely.
-- Current Status: Closing menus to reset.
+- Turn 18123: Still facing UP. I forgot to execute the 'Face Down' step in Overworld before reopening the menu.
+- Action: Correcting facing now.
+- Sequence: Close Menus (B, B) -> Face Down (Down) -> Re-open Menu (Start) -> Select Pokemon (A).
+- Delay: Using 1000ms delays to ensure inputs register and facing updates.
+- Next: Select Lapis -> Whirlpool.
+- Critical: Do NOT select Whirlpool this turn. I must be facing DOWN first.
