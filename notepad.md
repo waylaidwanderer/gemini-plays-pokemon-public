@@ -29,3 +29,7 @@
 # Suicune Search Log
 - Start Turn: 19782
 - Pokedex Status: Shows Route 38.
+
+# Navigation Notes
+- Route 38 Top Path: Only accessible from Route 39 (West).
+- Path to West: Fly to Olivine -> Walk North through Route 39.
