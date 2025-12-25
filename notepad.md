@@ -46,3 +46,7 @@
 # Route 39 Exploration
 - Turn 19933: Entered Route 39 from Olivine City.
 - Goal: Reach (19, 8) to enter Route 38's northern path.
+
+# Pokedex Navigation Trick
+- To find Suicune (#245) quickly: Open Numerical Pokedex -> Press UP from #001 to wrap to #251 -> Press UP 6 more times (7 total UPs) to reach #245 Suicune.
+- Order: 251 (Celebi) -> 250 (Ho-Oh) -> 249 (Lugia) -> 248 (Tyranitar) -> 247 (Pupitar) -> 246 (Larvitar) -> 245 (Suicune).
