@@ -36,3 +36,8 @@
 - **PIT:** Falls to the floor below.
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Observed on B2F. Acts as a ledge (one-way).
+- **South-East Ice Room (B1F):**
+    - Entry: `(17, 28)`.
+    - Slide Left to `(14, 29)`, then Down to `(14, 33)`.
+    - **South Landing:** `(11, 33)` (Floor). Accessible from `(14, 33)` via Left slide.
+    - **North Landing:** `(11, 30)` (Floor). Path: `(14, 33) -> R(15, 33) -> U(15, 29) -> R(19, 29) -> D(19, 33) -> L(17, 33) -> U(17, 31) -> L(13, 31) -> U(13, 30) -> L(11, 30)`.
