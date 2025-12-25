@@ -11,24 +11,24 @@
   - **B3:** Not found in Top Left.
 
 ## Current Status
-- **Position:** Player at (5, 7).
+- **Position:** Player at (9, 14).
 - **Goal:** Solve B2.
 - **Puzzle State:**
   - **B1:** Solved.
-  - **B2:** At (5, 5).
+  - **B2:** At (5, 6) (Confirmed by Marker).
 
 ## Immediate Plan
-1.  **Loop Around:**
-    - Navigate South/East to (9, 14).
-    - Navigate North (Col 1) to Top Area.
-    - Navigate to (5, 4).
-2.  **Verify & Position:**
-    - Check if B2 is at (5, 5) or (5, 6).
-    - If at (5, 5): Push Down to (5, 6).
-    - If at (5, 6): Do nothing (it's already in position).
-3.  **Execute Solution:**
-    - Go to (6, 6). Push B2 Left to (4, 6).
-    - Go to (4, 5). Push B2 Down into Pit (4, 7).
+1.  **Return to B2:**
+    - Navigate (9, 14) -> (9, 9) -> (5, 9) -> (5, 7).
+2.  **Position B2:**
+    - Check if B2 is at (5, 6).
+    - **Push Up** to (5, 5).
+3.  **Reset B2 Position:**
+    - Loop around: (6, 6) -> (6, 4) -> (5, 4).
+    - **Push Down** B2 from (5, 5) to (5, 6).
+4.  **Execute Solution:**
+    - Go to (6, 6). **Push Left** to (4, 6).
+    - Go to (4, 5). **Push Down** into Pit (4, 7).
 ## Lessons Learned
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
