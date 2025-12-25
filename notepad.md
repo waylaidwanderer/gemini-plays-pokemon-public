@@ -5,7 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Interacting with Whirlpool (A).
-- Reason: Menu failed to open (no text detected). Since I am now correctly facing Down (towards the whirlpool), direct interaction should work.
-- Step 1: Press 'A' to trigger Whirlpool text.
-- Step 2: Confirm 'Yes' to use Whirlpool.
+- Status: Opening Menu (Start).
+- Reason: 'A' interaction had no effect. Reverting to Menu navigation to force Whirlpool usage.
+- Step 1: Open Menu (Start).
+- Step 2: Navigate to Pokemon -> Lapis -> Whirlpool.
