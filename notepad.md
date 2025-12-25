@@ -3,14 +3,13 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18327)
+# Current Status (Turn 18328)
 - **Location:** Dragon's Den B1F (10, 19) (Target).
 - **Action:** Interact with Whirlpool at (10, 20).
 - **Reasoning:** 
-    - Navigated around the Buoy cage via Row 11.
-    - Arriving directly North of the true Whirlpool.
-    - Lapis is Lead.
-- **Goal:** Clear Whirlpool, Enter Shrine Area.
+    - Previous path failed due to Buoys at (16, 12).
+    - New path routes East to Col 20 to bypass the barriers, then North to Row 10, then West to Col 10.
+- **Goal:** Reach Whirlpool and clear it.
 
 # Plan
 1. Interact with Whirlpool at (10, 20).
@@ -19,8 +18,12 @@
 4. Locate Dragon Shrine.
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle. (10, 20) is the real deal.
-- **Buoy:** Obstacle. (15, 23) was a fake.
+- **Whirlpool:** Obstacle at (10, 20).
+- **Buoy:** Obstacle.
+- **Barriers:**
+  - Row 12: Buoys at 15-17, Walls at 18-19. Gap at 14 and 20.
+  - Col 15: Buoys from Row 12-16.
+  - Col 11: Buoys from Row 16-23.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
