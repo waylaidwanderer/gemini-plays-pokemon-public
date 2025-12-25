@@ -41,3 +41,4 @@
 # Lessons Learned
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
+- Arthur (Hard Stone): Route 36. Thursday only. (Today!)
