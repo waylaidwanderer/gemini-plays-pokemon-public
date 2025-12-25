@@ -7,12 +7,11 @@
 
 ## Navigation Plan: Reach (6, 6)
 **Path:** Zig-Zag North via Col 12 & 5
-1.  **Leg 1:** `(12, 7)` -> Left to `(11, 7)` -> Up to `(11, 5)` -> Right to `(12, 5)` -> Up to `(12, 1)`.
-    - *Avoids Wall at `(12, 6)` and Wall at `(11, 4)`.*
-2.  **Leg 2:** West on Row 1 to `(5, 1)`.
-    - *Avoids Pit at `(11, 2)` by staying on Row 1.*
-3.  **Leg 3:** South to `(5, 5)` -> East to `(6, 5)` -> South to `(6, 6)`.
-    - *Avoids Wall at `(6, 3)`.*
+1.  **Leg 1:** `(12, 7)` -> ... -> `(12, 1)` (Completed).
+2.  **Leg 2:** West on Row 1 to `(6, 1)`.
+    - *Correction:* `(5, 1)` is a WALL. Must turn at `(6, 1)`.
+3.  **Leg 3:** `(6, 1)` -> `(6, 2)` -> `(5, 2)` -> South to `(5, 5)` -> East to `(6, 5)` -> South to `(6, 6)`.
+    - *Avoids Wall at `(6, 3)` and Wall at `(5, 1)`.*
 
 ## Puzzle Solution (Once at 6, 6)
 1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`.
