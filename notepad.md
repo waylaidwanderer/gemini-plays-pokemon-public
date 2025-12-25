@@ -3,20 +3,21 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18302)
+# Current Status (Turn 18303)
 - **Location:** Dragon's Den B1F (24, 22).
 - **Facing:** Down (Verified).
-- **Action:** Interact with Whirlpool directly (A button).
-- **Reasoning:** Previous menu attempt had no visible effect. Direct interaction is simpler and reliable if facing is correct.
+- **Action:** Bump and Interact with Whirlpool at (24, 23).
+- **Reasoning:** 'A' alone didn't trigger text. Bumping (`Down`) into the tile before pressing 'A' often forces interaction.
 - **Sequence:**
-  1. `A` (Interact).
-  2. `A` (Confirm "Yes").
-  3. `A` (Clear Text).
+  1. `Down` (Bump).
+  2. `A` (Interact).
+  3. `A` (Advance Text).
+  4. `A` (Confirm "Yes").
 
 # Plan
 1. Clear Whirlpool at (24, 23).
-2. Move South to explore the path.
-3. Find a way West to reach the Dragon Shrine Entrance at (19, 29).
+2. Move South to (24, 24).
+3. Surf West/South to Dragon Shrine Entrance (19, 29).
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
