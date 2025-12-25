@@ -41,30 +41,10 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Sage Lore: All Sages have shared their lore.
 - Suicune: Stationary encounter in Crystal. Strategy: Hypnosis -> Weaken.
 
-# Navigation Note
-- Path to (10, 15) from north was blocked by Sage at (5, 9). Must detour through column 4.
-- Attempt 1 to trigger Suicune: Talking to all Sages. Outcome: Lore shared by 2/3. (IN PROGRESS - Final Sage at 5,9 speaking)
-- Attempt 2 to trigger Suicune: Re-entering map. Outcome: No cutscene. (COMPLETED)
-- Attempt 3: Accessing central area from 2F. (IN PROGRESS)
-
-# Suicune Tracker Update
-- Pokedex Confirmation: Suicune is in Ecruteak City. Entry explicitly states "SUICUNE'S NEST".
-- Map Analysis: Central area of 1F (y=4 to y=10, x=6 to x=13) is walled off. Entrance likely from above or hidden.
-- Plan: Head to 2F via stairs at (10, 2).
-
-# Pre-Battle Checklist
-- Current Ball Inventory: 23 Great Balls, 1 Ultra Ball.
-- Status Inducer: XENON (Gastly) with Hypnosis.
-- False Swipe: Not available. Using Night Shade (fixed damage) or Lick/Headbutt for chip damage.
-- Saving: MUST save before interacting with Suicune.
-
-# Hypothesis Testing Log (Tin Tower Suicune)
-1. Hypothesis: Talking to Sages triggers the encounter.
-   - Test: Talked to all 3 Sages on 1F.
-   - Result: No encounter. Hypothesis denied.
-2. Hypothesis: Re-entering the tower triggers the encounter.
-   - Test: Exited and re-entered map.
-   - Result: No encounter. Hypothesis denied.
-3. Hypothesis: Access to central area (Suicune's Nest) is via 2F or hidden path.
-   - Observation: 1F center is walled off.
-   - Test: Heading to stairs at (10, 2). (Attempt 1, Turn 18950)
+# Event Trigger Progress (Tin Tower Suicune)
+- Condition: Defeat Wise Trio. (VERIFIED: COMPLETED)
+- Condition: Talk to all 3 Sages on 1F. (IN PROGRESS - Final Sage speaking)
+- Attempt 1: Talking to all Sages. (In progress)
+- Attempt 2: Resetting map via exit/re-entry. (Failed)
+- Observation: Central area (Suicune's Nest) is walled off. Entrance likely from above or hidden.
+- Note: Stairs at (10, 2) are currently inactive (not listed in map warps).
