@@ -36,3 +36,4 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 # Pokedex Area Map Observations
 - Turn 18761: Dot is blinking on Route 42 middle island, stationary. Scripted encounter is still active.
 - Turn 18796: Systematic sweep of island tiles starting.
+- Turn 18800: Sweep progress - plateau tiles (24-27, 14), (26-28, 15), (26-27, 17) checked. Moving to (30, 15).
