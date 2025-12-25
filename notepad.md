@@ -40,4 +40,4 @@
 - Roaming Phase: Active.
 - Tin Tower: Stationary battle completed.
 - Seen: Cianwood, Route 42.
-- Suicune Log: Seen on Pokedex map at Turn 19433 (Moving East).
+- Suicune Log: Confirmed on Route 38 (Turn 19433).
