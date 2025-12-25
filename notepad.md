@@ -8,6 +8,7 @@
 - **LEDGE_HOP_DOWN**: One-way traversable (South only). Jump over to descend.
 - **FLOOR**: Standard walkable tile.
 - **WALL**: Impassable obstacle.
+- **FLOOR_UP_WALL**: Cliff/Ledge impassable from below.
 
 # Key Locations
 - **Ice Path Entrance:** (36, 9)
