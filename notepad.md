@@ -28,3 +28,7 @@
     - Right path: Ice starts at `(8, 4)`.
     - Left path: Ledge at `(5, 2)/(6, 2)` leads to ice at `(6, 6)`.
     - Trying Right path first.
+- **B2F Puzzle Observation:**
+    - Arrived at `(8, 8)` after sliding down.
+    - Path options: Hop Left at `(4, 8)` or Hop Down at Row 9.
+    - Hypothesis: Hop Left loops back to entrance `(3, 3)`. Hop Down leads to new area.
