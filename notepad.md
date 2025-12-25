@@ -2,7 +2,6 @@
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Hunt started Turn 20250.
-- Fly attempt to Ecruteak started Turn 20482. (Arrived in Olivine Turn 20493).
 
 # Side Quests & Resources
 - Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
@@ -22,12 +21,18 @@
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL / FENCE: Impassable.
-- LEDGE_HOP_DOWN: One-way South.
-- LEDGE_HOP_LEFT: One-way West.
-- LEDGE_HOP_RIGHT: One-way East. (Confirmed at 21, 12).
+- LEDGE_HOP_DOWN: One-way jump South.
+- LEDGE_HOP_LEFT: One-way jump West.
+- LEDGE_HOP_RIGHT: One-way jump East.
 - TALL_GRASS: Traversable, encounters.
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET: Map transition.
+
+# Game Mechanics & Systems
+- Day/Night Cycle: Affects Pokemon spawns and certain NPC events.
+- Bug Catching Contest: Active Tues/Thurs/Sat in National Park. Replaces NPCs and restricts movement. Quick Claw lady is absent during contests.
+- Fly Mechanics: Only usable in cities/towns.
+- Money: Current ¥373.
 
 # Route 38/39 Mechanics & Exploration
 - Pathing Insights:
@@ -37,13 +42,5 @@
   - Route 39 Wall: A wall at Row 7 (X=16-19) blocks north-south travel; bypass via X=15.
 
 # Lessons Learned
-- Fly Mechanics: Fly can only be used in towns or cities. Cannot be used on Routes.
-- LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
-- If an area seems isolated, check adjacent maps for alternative entrances.
-- Thursday/Tuesday/Saturday: Bug Catching Contest active. National Park NPCs are replaced.
-- Markers: Always keep markers for physical constraints (e.g., ledge pockets) to assist pathfinding tools.
-- Fly attempt to Ecruteak failed/returned to Olivine (Turn 20504). Abandoning Fly for walking to Route 38.
-- Walking to Route 38 started Turn 20505.
-- Reflection Note: navigate_fly_map tool returned 'Down' for Olivine->Ecruteak, which is incorrect (Ecruteak is Right). Tool needs refinement if used again.
-- Thursday: National Park Contest active, Quick Claw unavailable.
+- Reflection Note: navigate_fly_map tool returned 'Down' for Olivine->Ecruteak, which is incorrect (Ecruteak is Right/Up). Tool needs refinement.
 - Root Hypothesis Check: Verified that Route 38 Western Pocket is reachable via Route 39 North -> Route 38 West. Previous "isolated" belief was due to ledges; northern path is the way.
