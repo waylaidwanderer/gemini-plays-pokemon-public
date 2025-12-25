@@ -16,3 +16,4 @@
 
 # Archived: Ice Path
 - Solved. Exited via 1F East.
+- **Emy's House:** Located at (29, 23). Contains Lass (Emy?).
