@@ -43,7 +43,7 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Navigation Note
 - Path to (10, 15) from north was blocked by Sage at (5, 9). Must detour through column 4.
-- Attempt 1 to trigger Suicune: Talked to all Sages. Outcome: Lore shared, but no cutscene. (COMPLETED)
+- Attempt 1 to trigger Suicune: Talking to all Sages. Outcome: Lore shared by 2/3. (IN PROGRESS - Final Sage at 5,9 speaking)
 - Attempt 2 to trigger Suicune: Re-entering map. Outcome: No cutscene. (COMPLETED)
 - Attempt 3: Accessing central area from 2F. (IN PROGRESS)
 
