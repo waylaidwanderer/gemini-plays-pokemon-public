@@ -24,9 +24,8 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: At (24, 22). Game State claims 'Facing: right' despite previous 'Down' input.
-- Issue: Input dropped or state lag. Retrying turn.
+- Status: At (24, 22). Facing DOWN (Correct).
+- Observation: Direct 'A' interaction failed to trigger Whirlpool.
+- Plan: Use Start Menu -> Pokemon -> Lapis -> Whirlpool.
+- Step 1: Open Start Menu and verify cursor position (safest approach).
 - Whirlpool Location: (24, 23) (SOUTH).
-- Action: Turn DOWN to face whirlpool, then Interact (A).
-- Interaction Sequence: Down -> A -> A.
-- Backup: If this fails, will use Start Menu -> Pokemon -> Lapis -> Whirlpool.
