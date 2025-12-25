@@ -11,9 +11,9 @@
 - **Context:** Just arrived via Fly. Gyarados needs Surf (essential) and Waterfall.
 
 # Plan
-1. Open Pack.
-2. Teach Surf to Gyarados (Replace Dragon Rage).
-3. Teach Waterfall to Gyarados (Replace Thrash/Icy Wind).
+1. Open Pack (Done).
+2. Teach Waterfall to Gyarados (Replace Icy Wind/Dragon Rage).
+3. Teach Surf to Gyarados (Replace remaining weak move).
 4. Go to Elm's Lab (6, 3).
 5. Get Master Ball.
 6. Surf East to Route 27 (Tohjo Falls).
