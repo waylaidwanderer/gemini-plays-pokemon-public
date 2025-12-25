@@ -307,7 +307,7 @@
         "num_steps"
       ]
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        data = json.loads(sys.stdin.read())\n        n = int(data.get('num_steps', 10))\n        res = []\n        for i in range(n):\n            res.append(\"Right\" if i % 2 == 0 else \"Left\")\n        print(json.dumps(res))\n    except:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()",
+    "python_script": "import json\nimport sys\n\ntry:\n    input_data = json.loads(sys.stdin.read())\n    n = int(input_data.get('num_steps', 10))\n    res = []\n    for i in range(n):\n        res.append(\"Right\" if i % 2 == 0 else \"Left\")\n    print(json.dumps(res))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -333,6 +333,11 @@
         "commit_message": "Simplifying logic for reliability and ensuring it paces between (6, 2) and (7, 2).",
         "timestamp": "2025-12-25T08:05:01.892Z",
         "action_counter": 19353
+      },
+      {
+        "commit_message": "Removing if __name__ block and ensuring clean JSON output for pace_grass_v1.",
+        "timestamp": "2025-12-25T08:05:23.029Z",
+        "action_counter": 19354
       }
     ]
   }
