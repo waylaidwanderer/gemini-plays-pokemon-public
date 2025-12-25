@@ -23,7 +23,7 @@
 - LEDGE_HOP_RIGHT: One-way traversal West -> East.
 
 # Resources
-- Super Repel: 1 in Pack.
+- Super Repel: Active (Turn 19969).
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
 # Fly Map Cursor Behavior (Johto)
@@ -39,3 +39,4 @@
 # Suicune Search Log (Route 38)
 - Turn 19957: Searched (15, 12) to (34, 9). No encounter.
 - Turn 19961: Starting full sweep from West (0, 8) to East (35, 8).
+- Turn 19974: Checked eastern ledge area. No encounter. Moving to (11, 8).
