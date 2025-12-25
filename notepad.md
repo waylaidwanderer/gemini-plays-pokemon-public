@@ -8,14 +8,16 @@
   - **Hypothesis:** Can I push B2 while standing on Ice at (3, 13)?
 
 ## Immediate Plan
-1.  **Navigate to B2:**
+1.  **Activate Strength:** (In Progress).
+2.  **Navigate to B2:**
     - Slide Left to (3, 16).
     - Slide Up to (3, 13) (Stop at Boulder).
-2.  **Test Pushing:**
-    - Try to push Boulder Up.
-    - **If Success:** Push to (3, 10). Slide Right to Item.
-    - **If Fail:** Slide Down/Escape. Return to B1F to Reset.
-3.  **Retrieve Item:**
+3.  **Execute Push:**
+    - Push Boulder Up to (3, 10).
+    - **Mechanic Note:** Pushing on ice moves player to tile. If tile is ice, player slides. Player slides into boulder and stops.
+    - End position: Player at (3, 11).
+4.  **Retrieve Item:**
+    - Slide Right from (3, 11) to (8, 11) (Floor).
     - Get Item at (8, 9).
     - Exit via Ladder (9, 11).
 - **Analysis:** To reach Item (8, 9), I must land at (8, 11) from the Left.
