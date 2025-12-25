@@ -29,3 +29,5 @@
 - Requirement: HM06 Whirlpool (Taught to Lapis).
 - Plan: Exit menu, cross whirlpool at (15, 23), and continue South to the Shrine entrance.
 - Whirlpools: Ready to cross.
+- Found Water Channel on East side (x=24).
+- Plan: Cross Whirlpool at (24, 23) to access the channel leading South to the Shrine.
