@@ -114,7 +114,8 @@
 - **Memory Cursor:** Confirmed. Opening the Party Menu placed the cursor directly on 'LAPIS' (Slot 3), which was the last selected Pokémon.
 - **Implication:** Menu navigation logic must check the current cursor position before issuing directional inputs. Blindly assuming 'reset to top' is dangerous.
 
-# Interaction Update (Turn 18155)
-- **Observation:** `A` button interaction with Whirlpool from Overworld failed (no text).
-- **Conclusion:** Must use Start Menu -> Pokemon -> Whirlpool to activate.
-- **Action:** Opening Start Menu to begin sequence.
+# Interaction Update (Turn 18155 - CORRECTION)
+- **Status:** In Start Menu, `Facing: Up` (Game State). Visuals (Facing Down) are deceptive.
+- **Action:** Executing `slow_press` to Close Menu (`B`) and Turn (`Down`) in one sequence.
+- **Goal:** Face the Whirlpool at (15, 23) to interact.
+- **Reasoning:** Game State facing direction overrides visual sprite. Must be in Overworld to turn. `slow_press` ensures `Down` isn't eaten by menu close animation.
