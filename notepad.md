@@ -8,11 +8,10 @@
   - **B2:** At (7, 8).
 
 ## Immediate Plan
-1.  **Navigate to (8, 8):**
-    - Path: Left to (6, 1) -> (6, 2) -> (5, 2) -> Down to (5, 9) -> Right to (8, 9) -> Up to (8, 8).
+1.  **Navigate to (8, 8):** (Done).
 2.  **Solve B2:**
-    - Push Left (7, 8) -> (5, 8).
-    - Push Up (5, 8) -> (5, 6).
-    - Loop South -> West -> North -> (6, 6).
-    - Push Left (5, 6) -> (4, 6).
-    - Push Down (4, 6) -> Pit (4, 7).
+    - **Push Left:** Push B2 from (7, 8) to (5, 8). (In Progress).
+    - **Push Up:** Push B2 from (5, 8) to (5, 6).
+    - **Loop Around:** Go South -> West -> North -> (6, 6).
+    - **Push Left:** Push B2 from (5, 6) to (4, 6).
+    - **Push Down:** Push B2 from (4, 6) into Pit (4, 7).
