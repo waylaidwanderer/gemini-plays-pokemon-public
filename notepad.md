@@ -42,7 +42,7 @@
 - Location: Route 37 Grass.
 - Status: Super Repel active (Turn 19280).
 - Start Turn: 19282.
-- Steps taken: 30.
+- Steps taken: 40.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
