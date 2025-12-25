@@ -1,8 +1,12 @@
 # Strategy: Suicune Hunt (Crystal)
 - Start Turn: 20637 (Thursday)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Proximity to the northern ledge (Rows 8-12, X=0-15).
-- Goal: Confirm sighting via Pokédex AREA map.
+- Route 38 Trigger: Proximity to the northern ledge (Rows 8-12).
+- Route 38 Topology:
+  - Western Ledge (X=0-7): Isolated from East. Reachable from Route 39 (West) or Row 5 (North).
+  - Central Trough (X=8-10): Isolated. Reachable via ledge jumps from (10, 12) or (10, 9).
+  - Eastern Ledge (X=11-35): Reachable from Ecruteak Gatehouse.
+- Plan: Fly to Olivine City, enter Route 39, then Route 38 from the West to check the Western Ledge.
 
 # Strategy: Roaming Beasts (Raikou/Entei)
 - Raikou encountered on Route 38 (Turn 20702). Raikou used Roar (Turn 20705). Raikou is roaming.
