@@ -11,11 +11,12 @@
 - **Context:** Successfully navigated to PC. Need to clear slot and get flyer.
 
 # Plan
-1. Deposit Poliwag (Lapis) or Dratini (Zenith).
-2. Withdraw Mistral (Pidgey).
-3. Fly to New Bark Town.
-4. Talk to Prof. Elm for Master Ball.
-5. Surf East to Tohjo Falls.
+1. Use "MOVE PKMN W/O MAIL" to strip mail from Lapis.
+2. Deposit Lapis (Poliwag).
+3. Withdraw Mistral (Pidgey).
+4. Fly to New Bark Town.
+5. Talk to Prof. Elm for Master Ball.
+6. Surf East to Tohjo Falls.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
