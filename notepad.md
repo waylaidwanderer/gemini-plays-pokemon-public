@@ -34,3 +34,11 @@
 # Pokedex Navigation (Quick Reference)
 - Numerical Pokedex: Press UP from #001 to wrap to #251.
 - Suicune (#245): Wrap to #251, then 6 more UP presses.
+
+# Error Analysis (Turn 20143)
+- Mistake: Attempted to Fly but used Strength and opened Pack instead.
+- Cause: Party menu cursor persisted on ICARUS/GNEISS, leading to incorrect selections when assuming a default (top) position.
+- Lesson: Always verify cursor position in menus (especially Party) before confirming.
+
+# Map Hazard
+- Route 38 Ledge Pocket: (8, 14) to (23, 14). Entrance is via ledge hop down from northern path. Exit requires Fly or walking east/west to dead ends. STAY ON NORTHERN PATH for Suicune.
