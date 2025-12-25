@@ -39,7 +39,7 @@
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Failed Repel Attempts: ~25.
-- Repel Strategy: Navigate to Pack -> Items -> 11th Item (Super Repel). Verified in inventory.
+- Repel Strategy: Navigate to Pack -> Items -> 12th Item (Super Repel). Verified in inventory.
 
 # Exploration Updates
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
