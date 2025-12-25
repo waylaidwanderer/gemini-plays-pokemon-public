@@ -3,14 +3,23 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Correction: Facing State (Turn 18241)
-- **Critique:** Overwatch flagged that I was ignoring Game State `Facing: Up`.
-- **Correction:** Game State is the source of truth. I MUST be facing Up.
-- **Problem:** Whirlpool is at (24, 23) (South). Usage requires Facing Down.
-- **Solution:** Close Menu -> Face Down -> Re-open Menu.
+# Current Status (Turn 18281)
+- **Location:** Dragon's Den B1F (24, 22).
+- **Facing:** Down (Verified).
+- **Menu State:** Start Menu Open. Cursor on PACK.
+- **Action:** Select Lapis -> Whirlpool.
+- **Sequence:**
+  1. `Up` (Select POKEMON).
+  2. `A` (Open Party).
+  3. `Down` x2 (Select Lapis).
+  4. `A` (Open Menu).
+  5. `Down` (Select WHIRLPOOL).
+  6. `A` (Execute).
 
-# Status & Plan (Turn 18241)
-- **Status:** Start Menu Open. Facing Up.
-- **Action:** Press `B` to close the menu.
-- **Next Turn:** Press `Down` to face the Whirlpool.
-- **Following:** Open Menu -> Pokemon -> Lapis -> Whirlpool.
+# Tile Mechanics
+- **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
+- **Lava/Magma:** (None here, but good to remember).
+- **Ice:** (None here).
+
+# Lessons
+- **Menu Navigation:** Always verify cursor position before committing to a sequence. Blind input leads to wrong menus (e.g., PACK instead of POKEMON).
