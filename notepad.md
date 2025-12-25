@@ -16,3 +16,6 @@
 - **Whirlpool Usage:** Attempting to use Whirlpool from the menu while facing the wrong way results in "Can't use that here." Must face the whirlpool tile first.
 - Attempting to use Whirlpool via Menu (Start -> Pokemon -> Lapis).
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
+- Whirlpool interaction via 'A' failed or was ignored.
+- Using Menu -> Pokemon -> Lapis -> Whirlpool as fallback.
+- Validated Menu Navigation: Start -> Up (x3 to force top) -> Down (Pokemon) -> A.
