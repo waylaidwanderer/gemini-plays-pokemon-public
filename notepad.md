@@ -39,7 +39,7 @@
 
 # Error Analysis & Lessons
 - Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
-- Stagnation: Fixed the loop by recognizing the cursor starts on PACK.
+- Stagnation: 40 turns lost to menu fumbling in Olivine City. Fixed the loop by recognizing the cursor starts on PACK.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
 - Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town (Hypothesis).
@@ -47,4 +47,4 @@
 
 # Task Progress
 - Quick Claw Search: In progress.
-- Suicune Tracking: Roaming.
+- Suicune Tracking: Roaming. Last seen on Route 38.
