@@ -35,11 +35,18 @@
     - Actually, Boulder 2 is at (3, 3). Pit is at (2, 5).
     - Plan: Push B1 (2, 3) South to Pit (2, 5). Then check if B2 is needed or if B1 clears the path on 1F.
 
-## Navigation Plan
-1. Move to (3, 4) via Col 1 (avoiding Row 8 wall).
-2. Push B2 (3, 3) North to (3, 1) to open path.
-3. Move to (2, 2) via (3, 2).
-4. Push B1 (2, 3) South to Pit (2, 5).
+# Navigation Correction
+- **Issue:** 2F West is divided by a wall at Row 5. Ladder (1, 7) leads to the blocked Bottom section.
+- **Solution:** Access Top West 2F via Top West 1F.
+- **Path:** 
+  1. On 1F, go South to Row 15.
+  2. Go East to Column 9.
+  3. Go North through gap at (9, 5) to reach Top 1F.
+  4. Find Ladder to Top West 2F (likely near Clair).
+
+## Puzzle State
+- **East Side:** Complete (Boulders 4 & 5 in Pits).
+- **West Side:** Boulders 1 & 2 untouched.
 
 # Key Locations
 - **Gym Leader Clair:** 1F (North), currently inaccessible due to lava/channel. Needs boulders to bridge?
