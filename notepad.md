@@ -24,5 +24,7 @@
 **Dragon's Den Navigation:**
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
-- Status: Defeated Cooltrainer Darin.
+- Status: Defeated Cooltrainer Darin at (20, 5).
+- Obstacle: He blocks the direct path.
+- Solution: Walk around him via (19, 4) -> (19, 5).
 - Goal: Reach Dragon Shrine (Likely South).
