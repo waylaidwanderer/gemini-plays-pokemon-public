@@ -24,3 +24,7 @@
     - Accessed from B3F Ladder at (15, 5).
     - Contains `FLOOR_UP_WALL` tiles (likely ledges).
     - Need to check if this leads to the Item on B3F or the HM.
+- **B2F Paths:**
+    - Right path: Ice starts at `(8, 4)`.
+    - Left path: Ledge at `(5, 2)/(6, 2)` leads to ice at `(6, 6)`.
+    - Trying Right path first.
