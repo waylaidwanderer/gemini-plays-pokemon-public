@@ -37,3 +37,8 @@
 - **B2F Loop:** Sliding Right from `(3, 14)` leads to `(8, 14)` -> `(8, 3)` -> Start `(3, 3)`. Loop confirmed.
 - **Item at (8, 16):** Located on isolated floor tile. Cannot reach from current path. Likely requires dropping from B1F hole at `(8, 16)`.
 - **Action:** Taking Ladder at `(3, 15)` to explore further.
+- **B1F South (3_62):**
+    - Arrived at `(11, 27)` from B2F `(3, 15)`.
+    - Ledges at Row 24 prevent going North.
+    - Only path seems to be East to `(14, 28)` onto Ice.
+    - Exploration target: South-East Ice patch.
