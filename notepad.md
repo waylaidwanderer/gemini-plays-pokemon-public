@@ -3,19 +3,18 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18358)
-- **Location:** Dragon's Den B1F (10, 24).
-- **Action:** Approaching Whirlpool at (10, 20).
-- **Observation:** The Whirlpool has respawned after entering/exiting the Shrine.
-- **Goal:** Clear Whirlpool again to exit the inner area.
+# Current Status (Turn 18362)
+- **Location:** Dragon's Den B1F (10, 21).
+- **Action:** Surfing to Exit Ladder.
+- **Reasoning:** Whirlpool cleared. Path to exit is open via Row 10.
+- **Goal:** Reach land at (20, 9), then Ladder at (20, 3).
 
 # Plan
-1. Move to (10, 21).
-2. Interact with Whirlpool at (10, 20).
-3. Navigate to Exit Ladder (20, 3).
-4. Exit Dragon's Den.
-5. Deposit Pokemon.
-6. Return for Dratini.
+1. Navigate to (20, 9) (Landing).
+2. Walk to (20, 3) (Ladder).
+3. Exit Dragon's Den.
+4. Deposit Pokemon at Blackthorn PC.
+5. Return to Dragon Shrine for Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
