@@ -24,15 +24,8 @@
 **Dragon's Den Navigation:**
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
-- Status: Defeated Cooltrainer Darin at (20, 5).
-- Obstacle: He blocks the direct path.
-- Solution: Walk around him via (19, 4) -> (19, 5).
-- Goal: Reach Dragon Shrine (Likely South).
-- Turn 17891: Reached (20, 8). Cooltrainer Darin defeated/bypassed.
-- Next: Surf south from (20, 9) to locate the Shrine.
-- Note: Watch for Whirlpools. If blocked, teach HM06 to Lapis (Poliwag).
-- Turn 17895: Surfing South from (20, 9). Text "LAPIS used SURF!" visible. Clearing text and proceeding South.
-- Turn 17896: Encountered central island/structure starting at (20, 16). Navigating West to circle around it.
-- Turn 17901: Attempted to read sign at (18, 24) from (18, 23) (North side). Failed (no text).
-- Hypothesis: Sign must be read from the South side (18, 25).
-- Action: Navigating to (18, 25) to read sign/find entrance.
+- Status: Reached Dragon Shrine Island.
+- Insight: The Island is walled off at y=29 (South end) from the North side.
+- Solution: Must Surf around the East side (Column 24 appears clear) to reach the South entrance.
+- Action: Moving back to North side of island (18, 22) to Surf around.
+- Whirlpools: Check for them on the East route. Teach HM06 if needed.
