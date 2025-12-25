@@ -1,25 +1,22 @@
-# Tile Mechanics
-- **Ice Tiles (Light Blue):** Player slides until hitting an obstacle.
-- **Boulders on Ice:** Verified: They DO NOT slide. They move 1 tile per push.
-- **Strength Push:** Player does not automatically step forward.
-
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (11, 6).
-- **Goal:** Reach (11, 8) to push B1 UP.
-- **Puzzle State:** Reset Verified (B1 at 11, 7).
+- **Position:** Player at (12, 11).
+- **Goal:** Solve B1 (Top Right Boulder) at (11, 7).
+- **Puzzle State:**
+  - **B1:** (11, 7).
+  - **B2:** (7, 8) (Off-screen).
+  - **B3:** Unknown/Gone (Not at 9, 11).
+  - **B4:** (17, 7).
 
-## Master Plan (Solution Found & Verified Path)
+## Immediate Plan
 1.  **Navigate to (11, 8):**
-    - **Step 1 & 2:** Navigate South past B3. DONE. (Player at 9, 16).
-    - **Step 3:** Slide East to (18, 16).
-    - **Step 4 (East Side):**
-      - West to (17, 16) -> Up to (17, 14) -> Left to (13, 14).
-      - Up to (13, 11) -> Left to (12, 11) -> Up to (12, 8) -> Left to (11, 8).
-2.  **Solve B1 (Verified: Boulders don't slide):**
-    - Push Up to (11, 5).
-    - Go to (10, 5). Push Right to (12, 5).
-    - Go to (12, 6). Push Up to (12, 1).
-    - Go to (13, 1). Push Left to (11, 1).
-    - Go to (11, 0). Push Down to Pit (11, 2).
+    - Path: Move North to (12, 8), then Left to (11, 8).
+    - This positions me below B1.
+2.  **Solve B1:**
+    - Push B1 UP to (11, 5).
+    - Navigate around to (12, 5).
+    - Push B1 LEFT to (10, 5).
+    - Navigate to (10, 6) and push UP to (10, 1).
+    - Push RIGHT to (11, 1).
+    - Push DOWN into Pit (11, 2).
