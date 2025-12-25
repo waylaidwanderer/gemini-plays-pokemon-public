@@ -65,6 +65,6 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Strength Status: Attempting activation sequence (Exit Pack -> Pokemon -> Muscle -> Strength).
-- Puzzle Action: Pushing Boulder 3 South to (8, 17) to clear path for Boulder 4.
-- Strength: Currently navigating menu to activate.
+- Strength Status: Activating Strength on Muscle.
+- Puzzle Action: Push Boulder 3 South to (8, 17).
+- Next: Move Boulder 4 North to (6, 7).
