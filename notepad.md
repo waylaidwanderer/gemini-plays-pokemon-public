@@ -3,12 +3,15 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Navigate to the Dragon Shrine (Go around the whirlpool).
 
-# Critical Discovery (Turn 18192)
-- **Whirlpool:** Fails because I DO NOT HAVE THE RISING BADGE. Clair hasn't given it to me yet.
-- **Implication:** The path to the shrine MUST NOT require Whirlpool.
-- **Map Analysis:** I am at (15, 22). To my East is a wall (16, 22). But North of the wall (Row 21) is clear WATER.
-- **Solution:** I can Surf North to (15, 21), then East to (18, 21), then South to land on the island at (18, 22).
-- **Correction:** Stop trying to brute force the Whirlpool. Go around.
+# Correction: Badge Mechanics (Turn 18208)
+- **Fact:** I DO have the Glacier Badge (Pryce).
+- **Mechanic:** Glacier Badge enables Whirlpool. Rising Badge (Clair) enables Waterfall.
+- **Conclusion:** I CAN use Whirlpool. Previous failures were due to "Facing Up" glitches.
+- **Plan:**
+  1. Use Surf.
+  2. Navigate to the Eastern Whirlpool at (24, 23).
+  3. Use Whirlpool to cross the barrier.
+  4. Land on the Southern platform to reach the Shrine.
 
 # Status & Plan (Turn 18206)
 - **Status:** In Pokedex (Rattata Entry).
