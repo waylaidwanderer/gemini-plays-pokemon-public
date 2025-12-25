@@ -4,7 +4,8 @@
 
 # Battle Strategy: Clair
 - **Opponents:** Dragonair x3, Kingdra.
-- **Plan:** Gyarados leads with Icy Wind.
+- **Plan:** Gyarados uses Dragon Rage (Fixed 40 dmg) as Icy Wind damage is too low due to low Sp.Atk.
+- **Status:** Gyarados Paralyzed. Speed advantage lost.
 
 # Blackthorn Gym Strategy
 - **Status:** All Puzzles Solved. Bridges formed.
