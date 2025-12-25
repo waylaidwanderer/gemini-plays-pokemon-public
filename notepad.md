@@ -21,21 +21,18 @@
 # Lessons Learned
 - Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires 6 more UP presses to reach #245 (Suicune).
 - Menu Buffering: Avoid mixing directional and action buttons too quickly.
-- Route 38 Hazards: "Ledge pocket" between (8, 14) and (23, 14). Entrance is via ledge hop down (Row 13). Exit requires Fly.
-- Valley Trap: Area between x=7 and x=10 (Row 12). Dead end North. Exit South or Fly.
-- Menu Mechanics: Always verify cursor position in Party/Pack menus due to cursor persistence. Use a "B-reset" (press B 4 times) before navigating deep menus.
+- Route 38 Hazards: "Ledge pocket" between (8, 14) and (23, 14). Entrance is via ledge hop down (Row 13). Exit requires Fly. "Valley Trap" between x=7 and x=10 (Row 12) is a dead end North.
+- Menu Mechanics: Always verify cursor position in Party/Pack menus due to cursor persistence. Use a "B-reset" (press B 4 times) before navigating deep menus. (Turn 20143: Cursor persistence caused accidental Strength use instead of Fly).
 
 # Side Quests
-- Quick Claw: National Park (35, 12). Talk to Teacher on bench with Persian.
+- Quick Claw: National Park (16, 12). Talk to Teacher on bench in NE section.
 - Yanma Swarm: Caught.
 - Sick Miltank (Moomoo Farm): Needs many Berries to recover.
 
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
 
-# Suicune Hunt Progress
-- Goal: Trigger flee on Route 38.
-- Status: Searching western section. Strategy: Locate Suicune on the ledge and approach to trigger flee.
-- Sighting #4 (Current): Route 38. Suicune is on the ledge near the farm/western section.
+# Suicune Hunt Strategy
+- Sighting #4: Route 38. Suicune is on the western ledge near Moomoo Farm. Approach from the west (Route 39).
 - Sighting #5: Route 14.
-- Final: Tin Tower. Clear Bell is in inventory.
+- Final Encounter: Tin Tower. Clear Bell is in inventory.
