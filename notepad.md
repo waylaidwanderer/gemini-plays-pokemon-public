@@ -47,4 +47,5 @@
 
 # Fly Map Indices (from New Bark Town)
 - Down x4: Olivine City (Verified Turn 19597).
-- Down x3: Likely Goldenrod City (Hypothesis).
+- Down x3: Cianwood City (Verified Turn 19603).
+- Coordinates (National Park NPC): (34, 12) per agent.
