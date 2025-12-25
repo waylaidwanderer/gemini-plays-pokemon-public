@@ -4,14 +4,14 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18433)
+# Current Status (Turn 18434)
 - **Location:** Dragon Shrine (5, 2).
-- **Activity:** Dialogue closing / Exiting Shrine.
+- **Activity:** Finishing dialogue with Elder.
 - **Goal:** Exit Shrine and Dragon's Den.
-- **Context:** Dratini received and nicknamed "ZENITH".
+- **Context:** Dratini "ZENITH" received. Elder is giving final lore/advice.
 
 # Plan
-1. Advance/Close any remaining text (B).
+1. Advance/Close remaining text (B).
 2. Walk to Warp at (4, 9).
 3. Exit to Dragon's Den.
 4. Exit Dragon's Den.
