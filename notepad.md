@@ -41,7 +41,18 @@
 - Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
 - Stagnation: 30 turns lost to menu fumbling in Olivine City. Use the "Up" reset strategy to break loops.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
+- Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
+- Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town.
 
 # Task Progress
+- Turn 19523: Reflection performed. Notepad cleaned.
 - Quick Claw Search: In progress.
 - Suicune Tracking: Roaming.
+
+# Reflection Turn 19523
+- Immediate Execution: I previously deferred cleaning up the notepad and verifying the Fly cursor logic. Done now.
+- Notepad Hygiene: Reorganized and added menu wrapping/Fly cursor lessons. Added task progress log.
+- Map Hygiene: Markers are current for Olivine City.
+- Automation Strategy: find_path_v2 and navigate_menu_v2 are active and working well when used with correct logic.
+- Goal Clarity: Goals are outcome-based. HOW is in the notepad.
+- Error Analysis: Identified menu wrapping as the cause of recent fumbling. Root hypothesis (Up 7 always lands on Pokedex) was wrong due to wrapping. Corrected.
