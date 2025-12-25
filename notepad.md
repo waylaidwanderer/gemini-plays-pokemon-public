@@ -9,9 +9,8 @@
 - Turn 2+: HYPNOSIS. (Keep asleep to prevent Roar).
 - Turn 3+: NIGHT SHADE. (Fixed damage).
 
-# Quick Claw Quest
-- NPC: Teacher sitting on a bench in the northeast section of National Park.
-- Coordinates: Pending verification from agent.
+- NPC: Woman on a bench in the northeast section of National Park.
+- Coordinates: (34, 12).
 - Path: Enter National Park from Route 35 (3, 5). Head north through grass, then east along fence.
 
 # Tile Mechanics (Verified)
