@@ -1,7 +1,11 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Stationary sighting) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Location: Stationary overworld sprite. Approach to trigger flee.
-- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet. Target western ledge (X=0-7, Rows 8-12) via northern path (Row 5).
+- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
+- Route 38 Trigger: Walking along the ledge area (Rows 8-12) triggers Suicune's appearance and flee event. It is not a stationary NPC at a fixed coordinate.
+- Progress: Scouring the ledge area to trigger the scripted encounter.
+
+# Strategy: Roaming Beasts (Raikou/Entei)
+- Raikou encountered on Route 38 (Turn 20702).
+- Strategy: Use Mean Look (Xenon the Gastly) to prevent flee. Note: Raikou (Lv40) is likely faster than Xenon (Lv21) and may flee before the move executes.
 
 # Side Quests & Resources
 - Arthur (Hard Stone): Route 36. Thursday only.
@@ -15,7 +19,6 @@
 - LEDGE_HOP_LEFT: One-way jump West.
 - LEDGE_HOP_RIGHT: One-way jump East.
 - HEADBUTT_TREE: Impassable.
-- WARP_CARPET_RIGHT: Triggers map transition.
 - WATER: Traversable with Surf.
 - BERRY_TREE: Impassable.
 
