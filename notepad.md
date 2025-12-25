@@ -51,4 +51,4 @@
 - **Current Navigation:**
     - **Goal:** Return to B3F.
     - **Route:** 1F Ladder `(37, 13)` -> B1F South Ladder `(5, 25)` -> Walk/Slide back to B2F Ladder `(3, 15)`. Note: B2F leads to B1F South.
-    - **Backtrack Route:** 1F `(37, 13)` -> B1F `(5, 25)` -> Walk South to `(11, 30)` -> Slide/Walk to Ladder `(11, 27)` -> B2F `(3, 15)` -> Slide loop to Ladder `(3, 3)` -> B3F `(15, 5)`.
+    - **Backtrack Route:** 1F `(37, 13)` -> B1F `(5, 25)` -> Walk South to `(11, 30)` -> Slide R to `(16, 30)` -> Slide U to `(16, 28)` -> Slide R to `(17, 28)` -> Slide U to `(17, 27)` -> Walk to Ladder `(11, 27)` -> B2F `(3, 15)` -> Slide loop to Ladder `(3, 3)` -> B3F `(15, 5)`.
