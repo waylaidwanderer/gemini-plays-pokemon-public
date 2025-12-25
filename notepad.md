@@ -20,3 +20,4 @@
 - **Water Moves:** Special in Gen 2. Gyarados uses Sp.Atk for Surf/Waterfall.
 - **Warp Carpets:** Directional exits.
 - **Milestone:** Stepped into Kanto on Route 27! (Turn 18570)
+- **Exploration:** Ascended the waterfall in Tohjo Falls. Now exploring the upper level. (Turn 18586)
