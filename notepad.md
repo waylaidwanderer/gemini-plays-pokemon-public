@@ -8,7 +8,7 @@
 - Battle Plan: Hypnosis -> weaken. Mean Look is not required as it's a stationary encounter.
 - Team: GNEISS (Graveler) for tanking, XENON (Gastly) for Sleep.
 - Note: Suicune is level 40. Moves: Rain Dance, Gust, Aurora Beam, Mist.
-- Stagnation Plan: If progress stalls, verify Clear Bell usage at Tin Tower 1F.
+- Stagnation Plan: If progress stalls, verify access to central area via upper floors.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
@@ -31,10 +31,16 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - FLOOR: Walkable.
 - WALL: Impassable.
 - WARP_CARPET_DOWN: Exit warp.
-- Trigger: Talking to all three Sages (5,9), (11,11), (14,6) triggers the Suicune encounter.
-- Wise Trio: Defeated. Confirmed by empty room in Tin Tower Entrance building.
+- Trigger: Entering the map with the Clear Bell after defeating the Wise Trio.
+- Wise Trio: Defeated.
+- Central Area: Unreachable from floor level; likely accessed from above.
+- Warp (10, 2): Verified warp to Tin Tower 2F.
 
 # Battle & Equipment History
-- Amulet Coin: Attempting to equip to XENON.
-- Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore. Encounter triggered.
-- Suicune: Stationary at (10,9). LV 40. Moves: Rain Dance, Gust, Aurora Beam, Mist. Strategy: Hypnosis -> Weaken.
+- Amulet Coin: Equipped to XENON.
+- Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore.
+- Suicune: Stationary at (10,9). Strategy: Hypnosis -> Weaken.
+
+# Discovery Log & Hypotheses
+- Hypothesis: The central area at (10, 9) is unreachable from the floor level. The warp at (10, 2) likely leads to an upper floor which may provide access to the central area or the legendary beast.
+- Error Analysis: Fixated on Sage dialogue as a trigger. Sages provide lore but the overworld sprite should appear once prerequisites are met. Re-verifying center area accessibility.
