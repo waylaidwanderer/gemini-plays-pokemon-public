@@ -65,8 +65,8 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: Boulder 3 successfully pushed to (8, 17). Path is clear.
+- Puzzle Status: Pushing Boulder 4 North.
 - Action:
-  1. Navigate to (6, 17) via (8, 16) -> (7, 16) -> (7, 17).
-  2. Push Boulder 4 (6, 16) North all the way to (6, 7).
-  3. Push Boulder 4 East into Pit (8, 7).
+  1. Push Boulder 4 North from (6, 16) all the way to (6, 7).
+  2. Push Boulder 4 East into Pit (8, 7).
+- Current Step: Pushing North to (6, 12).
