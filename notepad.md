@@ -1,21 +1,16 @@
-# Ice Path Strategy: B1F Boulder Puzzle
+# Ice Path Strategy: B3F Exploration
 
 ## Current Status
-- **Location:** B2F, Position (16, 16).
-- **Goal:** Return to B1F via Ladder at (17, 1).
-- **Action:** Aligning for ascent via Col 17.
+- **Location:** B3F, Position (3, 5).
+- **Goal:** Explore B3F and find HM07 Waterfall.
+- **Immediate Task:** Retrieve Item at (5, 7) and explore East.
 
-## Navigation Plan: Return to B1F
-1.  **Ascend:**
-    - Move Right to `(17, 16)`.
-    - Slide Up Col 17.
-    - *Expected Stop:* `(17, 3)` (Floor) or `(17, 1)` (Ladder/Wall).
-2.  **To Ladder:**
-    - If stopped at `(17, 3)`, walk North to `(17, 1)`.
-3.  **B1F Action:**
-    - Go to Hole `(12, 13)` and drop.
+## Item Retrieval Hypothesis (Item at 5, 7)
+- **Observation:** Item is at `(5, 7)`. Access seems to be from `(6, 7)`.
+- **Obstacle:** Rock at `(6, 6)` blocks path from North.
+- **Plan:** Navigate around to the East/South to reach `(6, 7)` from the other side, then push Rock UP or access item directly.
 
 ## Map Data
-- **Pits:** (11, 2), (4, 7), (5, 12), (12, 13).
-- **Boulders:** (5, 6) [Pushed to 4,7], (17, 7) [Check status].
-- **Ladders:** (17, 3), (3, 15), (17, 1).
+- **Ladder to B2F:** `(3, 5)`.
+- **Item:** `(5, 7)`.
+- **Rock:** `(6, 6)`.
