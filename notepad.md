@@ -13,12 +13,16 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Exiting Ice Path.
-- Goal: Reach Blackthorn City.
-    - Plan:
-        1. Slide Down from (3, 7) to (3, 14).
-        2. Take Ladder at (3, 15) to B1F.
-        3. Exit B1F to Blackthorn City.
+- Status: Reached B1F South (East Room) via Ladder.
+- Observation: Currently at (11, 27). Room appears walled in with a ledge to the North.
+- Hypothesis:
+    1. This room might be a dead end (trap).
+    2. OR there is a hidden path/mechanic.
+    3. OR the ledge is passable from South.
+- Plan:
+    1. Test passability of Ledge at Row 24 (North).
+    2. If blocked, check walls for hidden passages.
+    3. If stuck, return to B2F and search for alternate ladder.
 - Note: Bag is Full.
-- Pits: N/A on this floor.
+- Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
