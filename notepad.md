@@ -33,3 +33,8 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - WARP_CARPET_DOWN: Exit warp.
 - Trigger: Talking to all three Sages (5,9), (11,11), (14,6) triggers the Suicune encounter.
 - Wise Trio: Defeated. Confirmed by empty room in Tin Tower Entrance building.
+
+# Battle & Equipment History
+- Amulet Coin: Attempting to equip to XENON.
+- Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore. Encounter triggered.
+- Suicune: Stationary at (10,9). LV 40. Moves: Rain Dance, Gust, Aurora Beam, Mist. Strategy: Hypnosis -> Weaken.
