@@ -14,8 +14,8 @@
     - *Avoids Wall at `(6, 3)` and Wall at `(5, 1)`.*
 
 ## Puzzle Solution (In Progress)
-1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`. (EXECUTING NOW)
-2.  **Reposition:** Circle `(6, 6)` -> `(6, 5)` -> `(5, 5)` -> `(4, 5)`.
+1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`. (COMPLETED)
+2.  **Reposition:** Circle `(6, 6)` -> `(6, 5)` -> `(5, 5)` -> `(4, 5)`. (EXECUTING NOW)
 3.  **Push 2:** Push Boulder Down into Pit `(4, 7)`.
 
 ## Item Retrieval (B2F)
