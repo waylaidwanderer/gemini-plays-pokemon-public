@@ -284,5 +284,37 @@
         "action_counter": 19996
       }
     ]
+  },
+  "navigate_menu_v3": {
+    "description": "Executes a sequence of button presses for menu navigation, starting with a 4-press 'B' reset to clear any open menus or dialogue and ensure a consistent starting state. Use for navigating deep menus where cursor persistence might be an issue.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
+          "type": "boolean"
+        },
+        "buttons": {
+          "description": "The sequence of buttons and/or 'sleep <ms>' commands to execute.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "buttons",
+        "autopress_buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        buttons = input_data.get('buttons', [])\n        \n        # Prepend the B-reset sequence\n        reset_sequence = [\"B\", \"sleep 200\", \"B\", \"sleep 200\", \"B\", \"sleep 200\", \"B\", \"sleep 200\"]\n        final_buttons = reset_sequence + buttons\n        \n        print(json.dumps(final_buttons))\n    except Exception as e:\n        print(f\"Error: {str(e)}\", file=sys.stderr)\n        sys.exit(1)\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-25T17:22:50.838Z",
+        "action_counter": 20251
+      }
+    ]
   }
 }
