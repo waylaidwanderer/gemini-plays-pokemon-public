@@ -4,7 +4,7 @@
 - Hunt Progress: Searching Route 38 central/ledge area.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. (Today!) - PRIORITY
+- Arthur (Hard Stone): Route 36. Thursday only. (Today!) - Attempted, dialogue looped.
 - Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun.
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
