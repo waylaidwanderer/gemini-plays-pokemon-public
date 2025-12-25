@@ -34,3 +34,4 @@
 - Alternative Solution: North Boulders (2, 3) and (3, 3).
 - Boulder 1 (2, 3) can be pushed South into Pit (2, 5).
 - Access via column 1 from Ladder (1, 7).
+- Gym 1F Observation: Row 5 is a wall blocking access to Clair from the entrance/ladder area. Must solve 2F puzzle to proceed.
