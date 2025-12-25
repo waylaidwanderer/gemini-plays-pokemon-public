@@ -27,9 +27,9 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - LEDGE: One-way (hop down).
 - COUNTER: Impassable; interact from adjacent tile.
 
-# Wise Trio Battle Log
-- Sage Gaku (4, 2): Defeated (Confirmed by empty room).
-- Sage Masa (4, 6): Defeated (Confirmed by empty room).
-- Sage Koji (6, 4): Defeated (Confirmed by empty room).
-- Note: Trio is gone; proceeding to Suicune at Tin Tower.
-- Turn 18852: Confirmed Wise Trio defeated.
+# Tin Tower 1F Mechanics
+- FLOOR: Walkable.
+- WALL: Impassable.
+- WARP_CARPET_DOWN: Exit warp.
+- Trigger: Talking to all three Sages (5,9), (11,11), (14,6) triggers the Suicune encounter.
+- Wise Trio: Defeated. Confirmed by empty room in Tin Tower Entrance building.
