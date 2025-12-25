@@ -10,16 +10,6 @@
 - Battle Plan: Hypnosis -> weaken. Suicune is level 40. Moves: Rain Dance, Gust, Aurora Beam, Mist.
 - Team: XENON (Gastly) for Sleep, GNEISS (Graveler) for tanking.
 
-# Event Trigger Progress (Tin Tower Suicune)
-- Prerequisite: Defeat Wise Trio. (VERIFIED: COMPLETED)
-- Prerequisite: Clear Bell. (VERIFIED: COMPLETED)
-- Strategy: Talk to all 3 Sages on 1F in a single session to trigger encounter.
-    - Sage at (11, 11): TARGET (Current).
-    - Sage at (5, 9): VERIFIED GONE (Turn 18989).
-    - Sage at (14, 6): Pending.
-- Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off on 1F.
-- Note: Stairs at (10, 2) on 1F are currently inactive.
-
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
@@ -33,3 +23,8 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - CAVE/DOOR/WARP: Walkable; warp.
 - LEDGE: One-way (hop down).
 - COUNTER: Impassable; interact from adjacent tile.
+
+# Tin Tower Investigation
+- Hypothesis 1: Suicune appears after talking to Sages. (Failed after multiple attempts).
+- Hypothesis 2: Entrance to central area is via 2F. (Blocked by inactive warp at 10,2).
+- New Plan: Search Tin Tower Entrance (3_3) for Eusine or missed Wise Trio dialogue.
