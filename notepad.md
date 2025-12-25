@@ -27,7 +27,7 @@
 
 # Navigation: Fly Map (Johto)
 - Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
-- Route from Violet to Olivine: Up, Left. (Wait for 'Where?' bubble)
+- Route from Violet/New Bark to Olivine: Use navigate_fly_map_v2.
 
 # Lessons Learned
 - Arthur Loop: Arthur (Thursday) on Route 36 may repeat his introduction without giving the Hard Stone. If this happens for 3+ turns, pivot immediately.
