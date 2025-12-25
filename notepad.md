@@ -22,7 +22,11 @@
   - Top Lane (X=4-35): Searched. No Suicune.
   - Western Pocket (X=0-2): Unexplored. Isolated.
   - Route 39 Barn: Searched. No Suicune.
-- Current Plan: Investigate the isolated Western Pocket (X=0-2) by checking for gaps on the Route 39 side or hidden ledges. Approach from the North if possible.
+- Current Plan: 
+  1. Fly to Ecruteak City.
+  2. Enter Route 38 from the East and walk West along the Top Lane (Rows 0-6) to find Suicune (Sighting #4) near the Miltank farm.
+  3. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10) on the rightmost bench.
+  4. Continue the Suicune hunt at Route 14.
 
 # Lessons Learned
 - Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
