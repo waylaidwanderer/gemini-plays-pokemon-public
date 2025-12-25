@@ -67,8 +67,9 @@
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
 - Puzzle Status: Boulder 4 complete. Boulder 3 stuck (sacrifice).
 - West Side Strategy:
-  1. Navigate to (2, 2) via North Path (Row 1).
-  2. Push Boulder 1 (2, 3) South into Pit (2, 5).
-  3. Navigate around to (3, 4) (via South/Col 0).
-  4. Push Boulder 2 (3, 3) North to (3, 1) -> East to (8, 1) -> South to Pit (8, 3).
-- Action: Moving to (2, 2).
+  1. Defeat Cooltrainer M at (4, 1).
+  2. Continue West to (2, 2) via Row 1.
+  3. Push Boulder 1 (2, 3) South into Pit (2, 5).
+  4. Navigate around to (3, 4) (via South/Col 0).
+  5. Push Boulder 2 (3, 3) North to (3, 1) -> East to (8, 1) -> South to Pit (8, 3).
+- Current Action: In battle with Cooltrainer M.
