@@ -5,8 +5,10 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Correction - Previous attempt targeted (25, 23) which is a BUOY. Whirlpool is at (24, 23).
-- Step 1: B (Exit Menu).
-- Step 2: Down (Face Whirlpool at 24, 23).
-- Step 3: A (Interact).
-- Step 4: A (Confirm "Use Whirlpool").
+- Status: Retrying Whirlpool interaction with more inputs to clear text and confirm.
+- Step 1: A (Interact).
+- Step 2: A (Advance "It's a huge whirlpool").
+- Step 3: A (Advance "A POKEMON may be able...").
+- Step 4: A (Select "YES").
+- Step 5: A (Advance "Used Whirlpool").
+- Step 6: Down (Move into cleared tile).
