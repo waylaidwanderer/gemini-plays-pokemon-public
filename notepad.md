@@ -7,8 +7,8 @@
 # Suicune Battle Strategy (Lv40)
 - Goal: Prevent flee and capture.
 - Turn 1: Use MEAN LOOK (XENON). 
-- Speed Check: Suicune (Base 85, Lv40) is likely faster than Gastly (Base 80, Lv21). If Suicune moves first, it flees.
-- Solution: Need to level XENON or use Quick Claw if available (check inventory).
+- Speed Check: Suicune (Base 85, Lv40) is likely faster than Gastly (Base 80, Lv21).
+- Efficiency: Use SUPER REPEL with XENON (Lv21) leading to filter out low-level encounters (Lv13-16) and target Suicune (Lv40).
 - Turn 2+: Use HYPNOSIS.
 - Turn 3+: Chip damage with NIGHT SHADE (fixed damage = level).
 - Note: If Suicune uses Roar, Mean Look is broken.
@@ -32,6 +32,7 @@
 5. If not, step north to Ecruteak City and repeat.
 
 # Tile Mechanics (Global)
+- TALL_GRASS: Traversable, triggers wild encounters. Verified on Route 37.
 - WATER: Walkable with Surf.
 - WHIRLPOOL: Impassable; removable with Whirlpool.
 - HEADBUTT_TREE: Impassable.
@@ -39,13 +40,12 @@
 - LEDGE_HOP_DOWN/RIGHT: One-way movement.
 - COUNTER: Interact from adjacent tile.
 - MART_SHELF: Impassable.
-- TALL_GRASS: Traversable, triggers wild encounters.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Reflection Notes (Turn 19231)
+# Reflection Notes (Turn 19235)
 - Ecruteak Mart lacks Ultra Balls.
-- Roaming tracking is active.
-- Encountered Spinarak; fleeing to continue hunt.
-- Need to verify if Quick Claw is in inventory for XENON.
+- Suicune confirmed on Route 37.
+- Strategy: Use Super Repel with Lv21 lead to force Suicune encounter.
+- No Quick Claw in inventory; speed might be an issue. Use suicune_tracker_v2 for advice.
