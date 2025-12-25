@@ -16,7 +16,12 @@
     - Ecruteak Mart: Verified NO (Turn 18554).
     - Goldenrod Dept. Store: Verified NO (Turns 18585-18625).
     - Olivine City Mart: Verified YES (Turn 18664).
-    - Status: Purchasing 4 Super Repels.
+    - Status: Purchased 4 Super Repels (Turn 18664).
+
+# Suicune Tracking Log
+- Turn 18350: Shows Route 42.
+- Turn 18505: Shows Ecruteak City.
+- Turn 18674: Checking...
 - **Training Plan (XENON)**:
     - Target: Level 35-40.
     - Location: Route 39 (near Moomoo Farm) for consistent EXP.
