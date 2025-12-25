@@ -21,9 +21,7 @@
 - **BOULDER**: Pushable object.
 - **WARP**: Map transition.
 - **WATER**: Requires SURF to traverse.
-**Dragon's Den Entry Log:**
-- Ladder (3,3) connects to (5,13) on the same map.
-- Ladder (5,13) likely leads back to (3,3).
-- Goal: Enter warp at (5,15).
-- Status: Player successfully navigated the ladder and is now at (5,13). Next step: Walk South to (5,15).
-- Turn 17876: Standing on WARP_CARPET_DOWN at (5, 15). Tile below is WALL. Attempting to press Down to trigger warp.
+**Dragon's Den Navigation:**
+- 1F (5, 15) connects to B1F (20, 3).
+- Current Location: B1F Main Cavern.
+- Immediate Obstacle: Cooltrainer at (20, 5) engaging in dialogue.
