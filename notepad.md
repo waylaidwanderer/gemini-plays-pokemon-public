@@ -33,14 +33,15 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - WARP_CARPET_DOWN: Exit warp.
 - Trigger: Entering the map with the Clear Bell after defeating the Wise Trio.
 - Wise Trio: Defeated.
-- Central Area: Unreachable from floor level; likely accessed from above.
-- Warp (10, 2): Verified warp to Tin Tower 2F.
+- Central Area: Unreachable from floor level; completely walled off (y=4 to y=10, x=6 to x=13).
+- Stairs (10, 2): Decorative; NOT a warp in the current game state.
 
 # Battle & Equipment History
 - Amulet Coin: Equipped to XENON.
 - Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore.
-- Suicune: Stationary at (10,9). Strategy: Hypnosis -> Weaken.
+- Suicune: Stationary encounter in Crystal. Strategy: Hypnosis -> Weaken.
 
 # Discovery Log & Hypotheses
-- Hypothesis: The central area at (10, 9) is unreachable from the floor level. The warp at (10, 2) likely leads to an upper floor which may provide access to the central area or the legendary beast.
-- Error Analysis: Fixated on Sage dialogue as a trigger. Sages provide lore but the overworld sprite should appear once prerequisites are met. Re-verifying center area accessibility.
+- Hypothesis: Re-entering Tin Tower 1F with the Clear Bell may trigger the Suicune encounter.
+- Observation: (10, 2) is a decorative stair tile, not a functional warp.
+- Stagnation Check: Loop of Sage dialogue broken. Switching to Pokedex verification and re-entry strategy.
