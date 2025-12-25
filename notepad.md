@@ -17,6 +17,9 @@
 - Access: Enter National Park from Route 35 (3, 5).
 - Note: National Park wild levels are ~Lv10-15. Super Repel + Lv21 lead filters for Suicune.
 
+# UI Mechanics (Verified)
+- PARTY MENU: Cursor is persistent and remembers its last position. Always verify current selection before pressing A.
+
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
 - FLOOR: Traversable, no encounters.
@@ -37,3 +40,4 @@
 - Roaming Phase: Active.
 - Tin Tower: Stationary battle completed.
 - Seen: Cianwood, Route 42.
+- Suicune Log: Seen on Pokedex map at Turn 19433 (Moving East).
