@@ -8,7 +8,7 @@
 - Battle Plan: Hypnosis -> weaken. Mean Look is not required as it's a stationary encounter.
 - Team: GNEISS (Graveler) for tanking, XENON (Gastly) for Sleep.
 - Note: Suicune is level 40. Moves: Rain Dance, Gust, Aurora Beam, Mist.
-- Stagnation Plan: If progress stalls, verify access to central area via upper floors.
+- Stagnation Plan: If progress stalls, verify access to central area via re-entry or upper floors.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
@@ -34,7 +34,7 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Trigger: Entering the map with the Clear Bell after defeating the Wise Trio.
 - Wise Trio: Defeated.
 - Central Area: Unreachable from floor level; completely walled off (y=4 to y=10, x=6 to x=13).
-- Stairs (10, 2): Decorative; NOT a warp in the current game state.
+- Warp (10, 2): Identified as warp in XML; behavior unverified.
 
 # Battle & Equipment History
 - Amulet Coin: Equipped to XENON.
@@ -43,5 +43,4 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Discovery Log & Hypotheses
 - Hypothesis: Re-entering Tin Tower 1F with the Clear Bell may trigger the Suicune encounter.
-- Observation: (10, 2) is a decorative stair tile, not a functional warp.
-- Stagnation Check: Loop of Sage dialogue broken. Switching to Pokedex verification and re-entry strategy.
+- Stagnation Check: Loop of Sage dialogue broken. Switching to re-entry strategy.
