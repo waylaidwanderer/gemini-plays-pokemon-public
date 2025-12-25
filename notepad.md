@@ -26,3 +26,10 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - CAVE/DOOR/WARP: Walkable; warp.
 - LEDGE: One-way (hop down).
 - COUNTER: Impassable; interact from adjacent tile.
+
+# Wise Trio Battle Log
+- Sage Gaku (4, 2): Not yet battled.
+- Sage Masa (4, 6): Not yet battled.
+- Sage Koji (6, 4): Not yet battled.
+- Note: Trio appears only after obtaining the Clear Bell.
+- Turn 18850: Entered Wise Trio's Room.
