@@ -36,6 +36,7 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Fisher Scott (Seaking Lv34). (Turn 18754)
-- **Status:** Muscle Lv60 (63/198). Gyarados (52/108). Team needs healing.
-- **Location:** Route 26 (13, 86) - North of bridge.
-- **Next:** Find Rest House to heal. Navigate North.
+- **Status:** Muscle Lv60 (63/198). Gyarados (52/108).
+- **Obstacle:** Youngster blocking path at (13, 79). Must battle.
+- **Location:** Route 26 (15, 82).
+- **Next:** Defeat Youngster, then find Rest House.
