@@ -14,3 +14,4 @@
 4.  **Loop:** Go South -> West -> North -> (6, 6).
 5.  **Push Left:** Push B2 from (5, 6) to (4, 6).
 6.  **Push Down:** Push B2 from (4, 6) into Pit (4, 7).
+- **Correction:** Strength deactivates upon map change (fell to B2F, returned to B1F). Must re-activate.
