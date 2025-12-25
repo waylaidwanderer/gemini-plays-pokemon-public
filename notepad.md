@@ -1,8 +1,8 @@
 # Suicune Hunt Strategy
 - Status: ROAMING (Post-Tin Tower).
-- Method: Super Repel + Lv21 Gastly (XENON) lead on Route 37.
-- Filter: Wild levels 13-16 vs Suicune Lv40.
-- Strategy: Pace between (6, 2) and (7, 2) in tall grass.
+- Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
+- Strategy: Boundary cycling between Route 36 and Route 37.
+- Priority: OBTAIN QUICK CLAW (Lady on Route 35/36).
 
 # Suicune Battle Plan
 - Turn 1: MEAN LOOK. (Note: Suicune is faster than Gastly).
