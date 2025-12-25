@@ -11,10 +11,12 @@
 - Team: XENON (Gastly) for Sleep, GNEISS (Graveler) for tanking.
 
 # Event Trigger Progress (Tin Tower Suicune)
-- Condition: Defeat Wise Trio. (VERIFIED: COMPLETED)
-- Condition: Talk to all 3 Sages on 1F. (VERIFIED: COMPLETED)
+- Prerequisite: Defeat Wise Trio. (VERIFIED: COMPLETED)
+- Strategy: Talk to all 3 Sages on 1F.
+    - Sage ID 5 (5, 9): Talked. (DISAPPEARED Turn 18980)
+    - Sage ID 6 (11, 11): TARGET (Current).
+    - Sage ID 7 (14, 6): Pending.
 - Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off.
-- Hypothesis: Walking near the center tiles (e.g., Row 11/12) triggers the arrival of the legendary beasts.
 - Note: Stairs at (10, 2) are currently inactive (not in map warp list).
 
 # PC Storage (Box 1)
