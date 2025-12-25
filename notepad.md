@@ -1,18 +1,23 @@
 # Ice Path Strategy (Reset & Explore)
 
-## Current Status
-- **Position:** Player at (16, 3) (B2F).
-- **Goal:** Escape to B1F, Find B3, Solve Puzzle.
-- **Puzzle State:**
-  - **Resetting:** Going to B1F to reset positions.
-  - **Missing:** B3 (4th Boulder). Need to locate on B1F.
+# Ice Path Strategy (B1F)
 
-## Navigation Plan
-1.  **Escape:**
-    - Walk to Ladder (17, 1).
-    - Climb to B1F.
-2.  **Search B1F:**
-    - Look for B3 (likely Top Left or near entrance).
-    - Verify B1, B2, B4 positions.
-3.  **Solve:**
-    - Formulate plan for all 4 boulders.
+## Current Status
+- **Position:** Player at (17, 3).
+- **Goal:** Verify B1, then Solve B2.
+- **Puzzle State:**
+  - **Reset Confirmed.** (Returned from B2F).
+  - **B1:** Checking (Expected at 11, 1 or 10, 1).
+  - **B2:** Checking (Expected at 7, 8).
+  - **B3:** Missing. Need to locate.
+  - **B4:** At (17, 7).
+
+## Immediate Plan
+1.  **Find B1:**
+    - Go Left from (16, 1) -> Slide to (11, 1).
+    - If B1 is at (11, 1), I will bump into it.
+2.  **Solve B1:**
+    - If at (11, 1): Push Down -> Right -> Up -> Left.
+3.  **Find & Solve B2:**
+    - Go to (7, 8).
+    - Push Left -> Up -> Loop -> Left -> Down.
