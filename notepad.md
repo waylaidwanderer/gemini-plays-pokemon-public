@@ -1,8 +1,10 @@
 # Blackthorn City Strategy
+- **Current Task:** Battle Clair.
+- **Next:** Enter Dragon's Den.
 
-- **Goal:** Earn Rising Badge (Clair).
-- **Immediate:** Heal party (Revive Gyarados, Potion Gyarados/Machoke), then challenge Clair.
-- **Next:** Defeat Clair, enter Dragon's Den.
+# Battle Strategy: Clair
+- **Opponents:** Dragonair x3, Kingdra.
+- **Plan:** Gyarados leads with Icy Wind.
 
 # Blackthorn Gym Strategy
 - **Status:** All Puzzles Solved. Bridges formed.
