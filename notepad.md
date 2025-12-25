@@ -24,5 +24,5 @@
 **Dragon's Den Navigation:**
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
-- Status: Battling Cooltrainer Darin (blocking path south at 20, 5).
-- Strategy: Switch to Machoke (Lv 59) to sweep.
+- Status: Defeated Cooltrainer Darin.
+- Goal: Reach Dragon Shrine (Likely South).
