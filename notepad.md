@@ -3,17 +3,17 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18362)
-- **Location:** Dragon's Den B1F (10, 21).
-- **Action:** Surfing to Exit Ladder.
-- **Reasoning:** Whirlpool cleared. Path to exit is open via Row 10.
-- **Goal:** Reach land at (20, 9), then Ladder at (20, 3).
+# Current Status (Turn 18363)
+- **Location:** Dragon's Den B1F (20, 9).
+- **Action:** Walking to Exit Ladder at (20, 3).
+- **Obstacle:** Cooltrainer at (20, 8) blocks the direct path. Detouring left.
+- **Goal:** Exit Dragon's Den, then Fly to Blackthorn (or walk out).
 
 # Plan
-1. Navigate to (20, 9) (Landing).
-2. Walk to (20, 3) (Ladder).
-3. Exit Dragon's Den.
-4. Deposit Pokemon at Blackthorn PC.
+1. Exit via ladder at (20, 3).
+2. Exit Dragon's Den Entrance.
+3. Go to Blackthorn City Pokémon Center.
+4. Deposit a Pokémon.
 5. Return to Dragon Shrine for Dratini.
 
 # Tile Mechanics
