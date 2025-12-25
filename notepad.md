@@ -5,8 +5,10 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Moving to (25, 22) to try adjacent whirlpool and break position loop.
-- Step 1: Right (Move to 25, 22).
-- Step 2: Down (Face 25, 23).
-- Step 3: A (Interact).
-- Step 4: A (Confirm if prompt appears).
+- Status: Opening Party Menu to use Whirlpool manually from Lapis (Slot 3).
+- Step 1: Start (Open Menu).
+- Step 2: Down (Select Pokemon).
+- Step 3: A (Confirm).
+- Step 4: Down x2 (Select Lapis).
+- Step 5: A (Select).
+- Step 6: Select Whirlpool.
