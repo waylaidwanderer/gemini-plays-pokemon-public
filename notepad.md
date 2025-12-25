@@ -35,3 +35,5 @@
 - Boulder 1 (2, 3) can be pushed South into Pit (2, 5).
 - Access via column 1 from Ladder (1, 7).
 - Gym 1F Observation: Row 5 is a wall blocking access to Clair from the entrance/ladder area. Must solve 2F puzzle to proceed.
+- Navigation Note: 1F is divided by walls at Row 5. To reach Clair (North), must fall from 2F.
+- Cooltrainer M at (6, 6) is reachable from the South (Row 12+).
