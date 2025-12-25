@@ -16,8 +16,16 @@
 - WATER: Traversable with Surf.
 - DOOR/WARP: Triggers map transition.
 
+# Route 38 Ledge Mechanics
+- (7, 12) -> (8, 12): LEDGE_HOP_RIGHT (Jump East).
+- (7, 14) -> (8, 14): LEDGE_HOP_RIGHT (Jump East).
+- (10, 9) -> (11, 9): LEDGE_HOP_RIGHT (Jump East).
+- (10, 12) -> (11, 12): LEDGE_HOP_RIGHT (Jump East).
+- Result: Central trough (X=8-10) is a pit that can only be exited South at (9, 13). Western ledge (X=0-7) is isolated from the trough.
+
 # Side Quests
 - Clear Bell: In Key Items (Verified).
+- Arthur (Hard Stone): Route 36 (NE corner). Thursday only. (Pivoted Turn 20816: Stuck in dialogue loop).
 
 # Plan: Reach Route 38 Western Ledge
 1. Fly to Olivine City.
@@ -31,13 +39,5 @@
 # Lessons Learned
 - Arthur Loop: Arthur (Thursday) on Route 36 may repeat his introduction without giving the Hard Stone. If this happens for 3+ turns, pivot immediately.
 - Inventory Check: Always check Game State Information inventory list before pursuing items to ensure they haven't been collected in summarized turns.
-
-# Lessons Learned
-- Fly Map Snapping: Vertical movement on the Fly map causes the cursor to snap to the closest city in the new row. Horizontal movement stays within the current row. Independent X/Y calculation is unreliable; use step-by-step snapping simulation.
-
-# Route 38 Ledge Mechanics
-- (7, 12) -> (8, 12): LEDGE_HOP_RIGHT (Jump East).
-- (7, 14) -> (8, 14): LEDGE_HOP_RIGHT (Jump East).
-- (10, 9) -> (11, 9): LEDGE_HOP_RIGHT (Jump East).
-- (10, 12) -> (11, 12): LEDGE_HOP_RIGHT (Jump East).
-- Result: Central trough (X=8-10) is a pit that can only be exited South at (9, 13). Western ledge (X=0-7) is isolated from the trough.
+- Fly Map Snapping: Vertical movement causes the cursor to snap to the closest city in the new row. Use step-by-step snapping simulation for reliability.
+- Input Latency (Fly): When using Fly, wait for the "Where?" bubble to appear before sending map navigation inputs to avoid moving the character in the overworld.
