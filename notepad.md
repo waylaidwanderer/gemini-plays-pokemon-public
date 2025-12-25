@@ -153,9 +153,11 @@
   3. **Turn 18164:** Verify `Facing: Down`. Then use Start Menu -> Whirlpool.
 - **Rule:** NEVER mix "Close Menu" and "Move/Turn" in the same turn. The Move input gets eaten.
 
-# Interaction Update (Turn 18163)
-- **Status:** Hard Reset successful. Game State confirms `Facing: Down`.
-- **Diagnosis:** Previous "Can't use that here" was definitely due to `Facing: Up` state.
-- **Action:** Opening Start Menu (`Start`).
-- **Plan:** Verify Cursor -> Select POKéMON -> Lapis -> Whirlpool.
-- **Note:** `A` interaction on Overworld failed previously (Turn 18157), so Menu is the required method.
+# Correction (Turn 18164)
+- **Status:** Party Menu Open. Game State `Facing: Up`.
+- **Error:** In Turn 18163, I skipped the planned `Down` input and went straight to `Start`. This means the player is still facing away from the Whirlpool.
+- **Consequence:** Selecting Whirlpool now will fail ("Can't use that here").
+- **Action:** Resetting to Overworld to fix Facing.
+- **Sequence:** `B` (Close Party) -> `B` (Close Start) -> `Down` (Face Whirlpool).
+- **Tool:** `slow_press` with 800ms delay to prevent input eating.
+- **Next Turn:** Verify `Facing: Down`, then press `A` to interact.
