@@ -177,3 +177,10 @@
   2. **Turn 18167:** Verify Overworld. Press `Down`.
   3. **Turn 18168:** Verify `Facing: Down`. THEN Interact.
 - **Rule:** Absolute separation of Menu Close and Overworld Movement.
+
+# Interaction Update (Turn 18167)
+- **Status:** Overworld, Facing Down CONFIRMED.
+- **Action:** Starting Whirlpool Menu Sequence.
+- **Hypothesis:** 'A' interaction failed previously (Turn 18157), so Menu is mandatory.
+- **Plan:** `Start` -> `A` (Pokemon) -> `A` (Lapis) -> `Down` -> `A` (Whirlpool).
+- **Note:** Proceeding step-by-step to ensure no input eating or cursor misalignment.
