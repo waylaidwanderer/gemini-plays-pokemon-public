@@ -40,3 +40,6 @@
 # Time Tracking
 - Suicune Hunt (Route 38): Started Turn 20250.
 - Arthur Hunt: Started Turn 20530.
+- Navigation Note: (10, 9) is a LEDGE_HOP_LEFT. Moving from (11, 9) triggers a jump to (9, 9).
+- Suicune Hunt: Re-searching area row 8-12, X=0-15 (West of ledge). Approach proximity to fence at Row 7.
+- Root Assumption Audit: Suicune does not require an "isolated" pocket; it's an overworld trigger. Focusing on traversable tiles near the farm.
