@@ -47,11 +47,11 @@
 - **HM07 Strategy:**
     - **Location:** B3F `(5, 7)`.
     - **Obstacle:** Rock at `(6, 6)` (Likely Rock Smash).
-    - **Plan:** Return to B3F -> Go to `(6, 6)` -> Use Rock Smash -> Get HM07.
+    - **Plan:** Navigate to `(6, 5)` -> Use Rock Smash on `(6, 6)` -> Get Item.
 - **Current Navigation:**
-    - **Goal:** Return to B3F.
-    - **Route:** 1F Ladder `(37, 13)` -> B1F South Ladder `(5, 25)` -> Walk/Slide back to B2F Ladder `(3, 15)`. Note: B2F leads to B1F South.
-    - **Backtrack Route:** 1F `(37, 13)` -> B1F `(5, 25)` -> Walk South to `(11, 30)` -> Slide R to `(16, 30)` -> Slide U to `(16, 28)` -> Slide R to `(17, 28)` -> Slide U to `(17, 27)` -> Walk N to `(17, 26)`, W to `(11, 26)`, S to Ladder `(11, 27)` -> B2F `(3, 15)` -> Slide loop to Ladder `(3, 3)` -> B3F `(15, 5)`.
+    - **Goal:** Reach Rock at `(6, 6)`.
+    - **Route:** `(15, 5)` -> North to Row 1 -> West to `(6, 1)` -> Down to `(6, 5)`.
+    - **Status:** Just arrived on B3F. Starting navigation.
     - **Status:** At `(3, 7)`, Navigating maze to `(6, 5)`.
 - **Escape from B2F Loop:**
     - From `(9, 14)` (End of slide):
