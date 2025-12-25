@@ -1,5 +1,4 @@
-# Suicune Hunt Strategy (Crystal)
-- Status: ROAMING. Snapshot via Pokedex 'Area'.
+- Status: ROAMING. Snapshot via Pokedex 'Area'. Fly triggers a roaming move.
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
 - Strategy: Boundary cycling between Route 38 and Ecruteak City.
 
@@ -10,7 +9,7 @@
 
 # Quick Claw Quest
 - NPC: Woman on a bench in the northeast section of National Park.
-- Coordinates: (19, 10).
+- Coordinates: Northeast corner. Conflicting info: (19,10) or (17,12). Trust agent's map bounds (20x27).
 - Path: Enter National Park from Route 35 (3, 5). Head north through grass, then east along fence.
 
 # Fly Map List (Order from New Bark Town)
