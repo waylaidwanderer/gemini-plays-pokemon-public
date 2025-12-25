@@ -39,5 +39,5 @@
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Cooltrainer Reena (Nidoqueen Lv33). (Turn 18727)
 - **Status:** Gyarados healed (52/108).
-- **Location:** Route 26 South (0, 100).
+- **Location:** Route 26 South (7, 100) - On the bridge.
 - **Next:** Traverse Route 26 North towards Victory Road. Look for a healer.
