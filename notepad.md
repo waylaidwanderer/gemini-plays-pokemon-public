@@ -35,8 +35,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Fighting Psychic Richard (Espeon Lv36).
-- **Status:** Gyarados (23/108) Confused, Critical HP.
-- **Opponent:** Espeon Lv36 (Faster, dangerous).
-- **Plan:** Stay in. If Gyarados faints, safe switch to Muscle (Machoke).
-- **Next:** Defeat Espeon. Heal Team IMMEDIATELY.
+- **Battle:** Defeated Psychic Richard's Espeon. (Turn 18765)
+- **Status:** Gyarados Lv34 (16/111). Critical HP.
+- **Action:** Advancing text. If battle continues, SWITCH to Muscle.
+- **Next:** Finish battle. Find Rest House to heal.
