@@ -49,17 +49,7 @@
     - **Obstacle:** Rock at `(6, 6)` (Likely Rock Smash).
     - **Plan:** Navigate to `(6, 5)` -> Use Rock Smash on `(6, 6)` -> Get Item.
 - **Current Navigation:**
-    - **Goal:** Reach Rock at `(6, 6)`.
-    - **Route:** `(15, 5)` -> North to Row 1 -> West to `(6, 1)` -> Down to `(6, 5)`.
-    - **Status:** Just arrived on B3F. Starting navigation.
-    - **Status:** At `(3, 7)`, Navigating maze to `(6, 5)`.
-- **Escape from B2F Loop:**
-    - From `(9, 14)` (End of slide):
-    - Slide Up to `(9, 10)`.
-    - Slide Left to `(3, 10)`.
-    - Slide Up to `(3, 7)` (Enter Floor Room).
-    - **Maze Path:** `(3, 7)` -> `(3, 6)` -> `(4, 6)` -> `(4, 5)` -> `(4, 4)` -> `(5, 4)` -> `(6, 4)` -> `(6, 5)`.
-    - **Exit Slide:** Walk D to `(6, 6)` (Ice) -> Slide D to `(6, 8)` (Floor). [Completed]
-    - **Status:** At `(8, 3)`, Walking back to Ladder `(3, 3)`.
-    - **Next:** Slide U to `(8, 3)` (Floor).
-    - **Walk back:** `(8, 3)` -> `(8, 1)` -> West to `(3, 1)` -> South to Ladder `(3, 3)`.
+    - **Goal:** Catch Sneasel, then reach Rock at `(6, 6)`.
+    - **Status:** In Battle with Sneasel at `(6, 5)`.
+    - **Battle Plan:** Weakened with Dragon Rage. Throwing Great Balls.
+- **Backtrack Log (Completed):** Successfully navigated B1F/B2F loop to return to B3F. The side path was an item loop.
