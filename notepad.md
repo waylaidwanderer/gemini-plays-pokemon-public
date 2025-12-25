@@ -22,7 +22,7 @@
 # Route 38/39 Mechanics & Exploration
 - Lane Analysis:
   - Top Lane (Rows 0-6): Fragmented by walls. 
-    - Western Pocket (X=0-2): Isolated from south/east.
+    - Western Pocket (X=0-2): Reachable via path at X=2.
     - Middle Pocket A (X=4-5): Reachable via gap at (4, 7).
     - Middle Pocket B (X=8-9): Reachable via gap at (8, 7).
     - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
