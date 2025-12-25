@@ -30,3 +30,4 @@
 - **Battle:** Defeated Cooltrainer Megan on Route 27 (East).
 - **Status:** Garnet is poisoned. Priority: Cure poison.
 - **Exploration:** Accessibility to House at (33, 7) confirmed from this side. Will investigate. (Turn 18609)
+- **Exploration:** Entered the house on Route 27 (Map 24_12). There is an old lady (Granny) inside. (Turn 18612)
