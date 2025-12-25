@@ -4,11 +4,11 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Exit Dragon's Den and Fly to New Bark Town.
 
-# Current Status (Turn 18435)
-- **Location:** Dragon Shrine (5, 2).
-- **Activity:** Exiting.
-- **Goal:** Reach New Bark Town.
-- **Context:** Obtained Dratini "ZENITH" with Extremespeed. 8 Badges obtained.
+# Current Status (Turn 18446)
+- **Location:** Blackthorn City (Surfing at 20, 4).
+- **Activity:** Surfing south to land near Gym.
+- **Goal:** Reach Blackthorn PC.
+- **Context:** Need to swap team members before Flying.
 
 # Plan
 1. Go to Blackthorn Pokémon Center (Surf South).
