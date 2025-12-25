@@ -3,7 +3,7 @@
 - **Encounter Sequence**:
     1. Burned Tower: Trigger beasts to flee. (COMPLETED)
     2. Cianwood City: North end town. (COMPLETED)
-    3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS - Approx. Turn 18704)
+    3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS - Started Turn 18704)
     4. Kanto Route 14: Near the water. (FUTURE)
     5. Tin Tower: Stationary battle with Clear Bell. (FUTURE)
 - **Battle Plan**: Lead XENON (Gastly, Lv21) with Mean Look. Battle Strategy: Use Mean Look immediately, then Hypnosis. Weakened with low power moves or status.
