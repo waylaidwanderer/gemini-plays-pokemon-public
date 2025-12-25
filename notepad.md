@@ -31,8 +31,13 @@
 - Items: 3 Super Repels.
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Error Analysis & Lessons
-- Menu Navigation: Always clear screen text with B before starting a menu sequence.
-- Fly Map: Verify current city in Game State before calling navigate_fly_map.
-- Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
+# Menu Navigation & Fly Map Defaults
 - Olivine City: FLY cursor defaults to New Bark Town.
+- Reset Strategy: Press Start, then Up 7 times to reach the top of the menu (POKEDEX), then Down 1 to reach POKEMON.
+- Verification: Always check Game State Map ID and City before using navigate_fly_map.
+- Clear Screen: Always press B multiple times to ensure no dialogue or menu is active before starting a sequence.
+
+# Error Analysis & Lessons
+- Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
+- Stagnation: 30 turns lost to menu fumbling in Olivine City. Use the "Up" reset strategy to break loops.
+- Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
