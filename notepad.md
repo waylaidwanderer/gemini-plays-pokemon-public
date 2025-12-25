@@ -13,11 +13,16 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: B2F Ice Puzzle Solved.
-    - Found Boulder 4 at (12, 13). All 4 boulders accounted for on B2F.
-    - Puzzle is fully solved.
+- Status: Entered B3F.
+    - Came from B2F Puzzle Room (9, 11).
+    - Current Pos: (3, 5).
+    - Obstacle: Rock at (6, 6).
+    - Item: NeverMeltIce at (5, 7).
 - Goal: Exit Ice Path.
-    - Take Ladder at (9, 11) to B1F/1F.
-- Note: The puzzle was simpler than expected once boulders were found.
-- Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
+    - Plan:
+    1. Smash Rock at (6, 6).
+    2. Navigate to Ladder at (15, 5).
+    3. Take Ladder to B2F (East Side).
+    4. Find exit to Blackthorn.
+- Note: Summary mentions (15, 5) leads to items (Iron/Protein), but it's the only other ladder visible. Must verify.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
