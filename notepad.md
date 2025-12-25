@@ -42,3 +42,7 @@
 - Thursday/Tuesday/Saturday: Bug Catching Contest active. National Park NPCs are replaced.
 - Markers: Always keep markers for physical constraints (e.g., ledge pockets) to assist pathfinding tools.
 - Fly attempt to Ecruteak failed/returned to Olivine (Turn 20504). Abandoning Fly for walking to Route 38.
+- Walking to Route 38 started Turn 20505.
+- Reflection Note: navigate_fly_map tool returned 'Down' for Olivine->Ecruteak, which is incorrect (Ecruteak is Right). Tool needs refinement if used again.
+- Thursday: National Park Contest active, Quick Claw unavailable.
+- Root Hypothesis Check: Verified that Route 38 Western Pocket is reachable via Route 39 North -> Route 38 West. Previous "isolated" belief was due to ledges; northern path is the way.
