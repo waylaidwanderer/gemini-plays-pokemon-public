@@ -29,3 +29,4 @@
 - Pokedex Navigation: Wrapping from #001 to #251 is faster.
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
 - False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
+- Dana (Lass) called: Has a gift for me. She is waiting on Route 38.
