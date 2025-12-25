@@ -41,4 +41,5 @@
 - Navigation Note: 1F is divided by walls at Row 5. To reach Clair (North), must fall from 2F.
 - Cooltrainer M at (6, 6) is reachable from the South (Row 12+).
 - Observed: Tiles (7, 6) and (7, 7) are labeled as Warps but do not trigger when walked on. They are likely Drop Zones from 2F.
-- Upcoming: Battling Cooltrainer M at (6, 6).
+- Defeated Cooltrainer M at (6, 6).
+- Action: Ascend Ladder at (7, 9) to 2F.
