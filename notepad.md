@@ -6,8 +6,8 @@
 - **Opponents:** Dragonair x3 (All Defeated), Kingdra.
 - **Current State:** Muscle (Machoke) vs Kingdra.
 - **Plan:**
-  - **Kingdra:** Strength (3 PP left) or Cross Chop (4 PP left). Brute force.
-- **Status:** Muscle HP 131/191. Staying in.
+  - **Kingdra:** Strength (Used once, Kingdra at ~40%). Use Strength again to finish.
+- **Status:** Muscle HP 83/191. Faster than Kingdra (moved first last turn).
 
 # Blackthorn Gym Strategy
 - **Status:** All Puzzles Solved. Bridges formed.
