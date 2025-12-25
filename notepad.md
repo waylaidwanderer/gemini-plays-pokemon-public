@@ -14,13 +14,9 @@
 # Logistics & Supplies
 - **Super Repel Search (Started Turn 18550)**:
     - Ecruteak Mart: Verified NO (Turn 18554).
-    - Goldenrod Dept. Store:
-        - 2F: Verified NO (Turn 18585).
-        - 3F: Verified NO (Turn 18610).
-        - 4F: Verified NO (Turn 18615).
-        - 5F: Verified NO (Turn 18625).
-        - 6F: Checked, vending machines only.
-    - Next Target: Olivine City Mart.
+    - Goldenrod Dept. Store: Verified NO (Turns 18585-18625).
+    - Olivine City Mart: Verified YES (Turn 18664).
+    - Status: Purchasing 4 Super Repels.
 - **Training Plan (XENON)**:
     - Target: Level 35-40.
     - Location: Route 39 (near Moomoo Farm) for consistent EXP.
