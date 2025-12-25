@@ -17,8 +17,8 @@
     - 2F: Basic items (Repel, Potions, etc.) - NO SUPER REPEL.
     - 3F: Battle items (X-items, etc.) - NO SUPER REPEL.
     - 4F: Vitamins - NO SUPER REPEL.
-    - 5F: TMs - CHECKING NOW.
-    - 6F: Rooftop (Vending machines).
+    - 5F: TMs - NO SUPER REPEL.
+    - 6F: Rooftop (Vending machines) - CHECKING NOW.
 - **PC Storage (Box 1)**: RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
 # General Mechanics
