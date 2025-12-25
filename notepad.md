@@ -44,8 +44,8 @@
    - **Step 1:** Push Boulder Up to (5, 6). (Completed)
    - **Step 2:** Circle around to (6, 6). (Current)
      - *East Loop Active.*
-     - Path: (16, 16) -> (17, 1) -> (6, 1) -> (6, 6).
-     - *Note: Avoid Ladder at (17, 3) by using Col 18.*
+     - **Path:** (17, 14) -> (18, 14) -> Up Col 18 to (18, 2) -> (17, 2) -> (17, 1) -> (6, 1) -> (6, 6).
+     - *Reason:* Avoids potential blockage at (16, 14) and Ladder at (17, 3).
    - **Step 3:** Push Boulder Left to (4, 6).
    - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
 2. **Return to B2F:**
@@ -54,5 +54,4 @@
    - Slide Right to Item.
 
 ## Current Action
-- Navigating to (17, 1) to cross to West side.
-- Avoiding Warp at (17, 3).
+- Navigating to (17, 1) via Col 18.
