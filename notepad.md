@@ -28,7 +28,6 @@
 - COUNTER: Interact from adjacent tile.
 
 # Repetitive Task: Pacing for Suicune
-- Status: ON HOLD (Getting supplies/Quick Claw).
 - Repel: Applied Turn 19361. ~155 steps taken.
 - Suicune Log: Confirmed on Route 35 (Turn 19388).
 
