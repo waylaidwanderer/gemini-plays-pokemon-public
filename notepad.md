@@ -1,16 +1,16 @@
 # Suicune Quest Strategy (Crystal)
-- Current Step: Trigger Route 42 flee event (Middle island).
-- Prerequisites: Clear Bell (In Bag), Wise Trio defeated (Done).
-- Next Step: Stationary battle at Tin Tower 1F.
-
-# Systematic Search (Route 42 Island)
-- Objective: Walk on the trigger tile for the overworld Suicune event.
-- Search Start: Turn 19082.
-- Reachable Tiles: (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
-- Trigger Hypothesis: Standing on (27, 15) or walking between the Apricorn trees triggers the appearance.
-- Attempt Log:
-    1. Systematic sweep of northern rows (Y=10-11) - Failed.
-    2. Systematic sweep of southern rows (Y=14-17) - In progress.
+- Current Step: Encounter Roaming Suicune (Hypothesis).
+- Evidence: Summary Turn 18350-19055 states Suicune was "engaged in battle" at Tin Tower and then "tracked across routes". This describes roaming behavior.
+- Status: Pokedex dot is currently on Route 42. It is not on the island.
+- Verification Plan:
+    1. Enter Mt. Mortar (28, 9) to change maps.
+    2. Exit and check Pokedex.
+    3. If dot moved, Suicune is roaming.
+- Capture Strategy:
+    1. Lead XENON (Gastly Lv21) for Mean Look + Hypnosis.
+    2. Problem: XENON is underleveled (Suicune is Lv40). Need to train or use GNEISS to tank.
+    3. Resources: Need more Ultra Balls (Current: 1).
+- Funding: Sell Fire/Water stones at Ecruteak Mart. Clear Route 42/44 trainers.
 
 # Battle Prep & Funding
 - Target: Suicune (Lv40).
