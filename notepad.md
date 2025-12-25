@@ -65,8 +65,8 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: Pushing Boulder 4 North.
+- Puzzle Status: Boulder 4 is at (6, 15). Player at (6, 17). Gap at (6, 16).
 - Action:
-  1. Push Boulder 4 North from (6, 16) all the way to (6, 7).
-  2. Push Boulder 4 East into Pit (8, 7).
-- Current Step: Pushing North to (6, 12).
+  1. Move to (6, 16) to regain contact with Boulder.
+  2. Push Boulder 4 North to (6, 7).
+  3. Push Boulder 4 East into Pit (8, 7).
