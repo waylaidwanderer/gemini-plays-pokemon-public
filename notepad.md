@@ -50,14 +50,15 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19255)
+# Immediate Strategy (Turn 19256)
 1. Pace back and forth in the tall grass at (7, 2) and (8, 2) on Route 37 for 10 more steps.
 2. If no encounter, re-check Pokedex to confirm Suicune is still on Route 37.
 3. If Suicune is encountered: Use MEAN LOOK on Turn 1.
 4. If Suicune flees before action: Re-evaluate speed/Quick Claw strategy.
 
-# Reflection Notes (Turn 19255)
-- Super Repel active (approx 170 steps remaining).
-- Paced 20 steps without encounter.
+# Reflection Notes (Turn 19256)
+- Super Repel active (approx 160 steps remaining).
+- Paced 30 steps without encounter.
 - XENON (Lv21) leading.
 - Suicune (Lv40) is the only valid encounter with Repel active.
+- Note: Roamers can move if a battle occurs or map is changed. Check Pokedex if dry spell continues.
