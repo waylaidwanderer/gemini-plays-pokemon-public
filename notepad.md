@@ -74,3 +74,10 @@
   2. **WAIT** 1 turn.
   3. Press Direction in Overworld.
   4. Verify Game State `Facing`.
+
+# Reflection (Turn 18140)
+- **Status:** Hard Reset Successful. Menu Closed. Game State confirms `Facing: down`.
+- **Observation:** Player sprite visually faces DOWN.
+- **Plan:**
+  1. Open Start Menu (Check Cursor Position).
+  2. Navigate to Party -> Lapis -> Whirlpool.
