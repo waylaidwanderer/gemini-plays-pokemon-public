@@ -10,10 +10,13 @@
 
 ## Navigation & Mechanics
 - **Current Position:** `(16, 1)` (North Hallway).
-- **Immediate Goal:** Push Boulder 1 to Pit (12, 13).
-- **Detailed Plan for Boulder 1:**
-    1. Position at (16, 13) (Current Action: Left, Down, Right, Down).
-    2. Push Boulder Left into Pit (12, 13).
+- **Immediate Goal:** Find remaining boulders for Pits (5, 12), (4, 7), (11, 2).
+- **Status:** Boulder 1 pushed to Pit (12, 13).
+- **Search Plan:**
+    1. Check area near Pit (5, 12) and (4, 7).
+    2. Check area near Pit (11, 2).
+    3. Ensure all boulders are pushed before leaving B1F.
+- **Pits:** `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Done).
 - **Constraint:** Walls at (17, 5) and (16, 5) block direct North approach.
 - **Bag Status:** Full. Cannot pick up items (Iron, NeverMeltIce marked).
 
