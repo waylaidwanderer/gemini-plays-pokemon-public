@@ -46,5 +46,5 @@
     - Slide Down to `(9, 34)`.
     - Slide Left to `(7, 34)`.
     - Slide Down to `(7, 35)`.
-    - Slide Left to `(5, 35)` (Item Ball).
-    - **Action:** Sliding Left to `(7, 34)`.
+    - Slide Left to `(6, 35)` (adjacent to Item).
+    - **Action:** Sliding Down to `(7, 35)`.
