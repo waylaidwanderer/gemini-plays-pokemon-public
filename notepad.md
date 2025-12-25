@@ -4,19 +4,19 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18406)
-- **Location:** Blackthorn City (20, 4).
-- **Action:** Landing and entering Dragon's Den.
+# Current Status (Turn 18407)
+- **Location:** Blackthorn City (21, 4).
+- **Action:** Correcting position to enter Dragon's Den.
+- **Reasoning:** Drifted East to Col 21. Need to move West to Col 20 to land on the shore at (20, 3).
 - **Goal:** Return to Dragon Shrine for Dratini.
-- **Context:** Successfully deposited Swinub. Party has space.
 
 # Plan
-1. Move Up to land at (20, 3).
-2. Enter Dragon's Den at (20, 1).
-3. Navigate to Dragon Shrine.
-4. Talk to Elder.
+1. Move Left to (20, 4).
+2. Move Up to land at (20, 3).
+3. Enter Dragon's Den at (20, 1).
+4. Navigate to Dragon Shrine.
 5. Receive Dratini.
-6. Exit and Fly to New Bark Town.
+6. Fly to New Bark Town.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
