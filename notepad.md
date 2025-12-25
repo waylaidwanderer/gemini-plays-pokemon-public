@@ -38,9 +38,10 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
-- Turn 18123: Still facing UP. I forgot to execute the 'Face Down' step in Overworld before reopening the menu.
-- Action: Correcting facing now.
-- Sequence: Close Menus (B, B) -> Face Down (Down) -> Re-open Menu (Start) -> Select Pokemon (A).
-- Delay: Using 1000ms delays to ensure inputs register and facing updates.
-- Next: Select Lapis -> Whirlpool.
-- Critical: Do NOT select Whirlpool this turn. I must be facing DOWN first.
+- Turn 18124 Failure: Combined sequence (Close -> Face -> Open) failed. Game State still Facing UP.
+- Confirmed: Mixing Menu Close and Movement/Facing fails consistently.
+- New Plan:
+  Turn 1: Close Menus (B, B, B).
+  Turn 2: Face Down (Down).
+  Turn 3: Open Menu -> Select Lapis -> Whirlpool.
+- Current Action: Closing menus only.
