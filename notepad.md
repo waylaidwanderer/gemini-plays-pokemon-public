@@ -3,17 +3,17 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18297)
+# Current Status (Turn 18298)
 - **Location:** Dragon's Den B1F (24, 22).
 - **Facing:** Down (Verified).
-- **Action:** Open Party Menu to check cursor position.
-- **Reasoning:** Party Menu cursor likely remembered Lapis (Slot 3) or Muscle (Slot 4) from previous turns. Must verify before navigating to avoid selecting wrong Pokemon.
-- **Sequence:** `Start`, `A`.
+- **Menu State:** Party Menu Open, Cursor on Lapis (Verified).
+- **Action:** Select Lapis to open Context Menu.
+- **Next Step:** Select `WHIRLPOOL` from the list (likely 2nd option).
 
 # Plan
-1. Check Party Menu cursor.
-2. Navigate to Lapis.
-3. Use Whirlpool.
+1. Open Lapis's context menu (`A`).
+2. Select WHIRLPOOL.
+3. Cross Whirlpool.
 4. Navigate South to Dragon Shrine Entrance.
 
 # Tile Mechanics
