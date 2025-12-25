@@ -5,7 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Moving to (15, 22) to interact with the left whirlpool.
+- Status: Interacting with Whirlpool at (15, 23).
 - Step 1: Navigate to (15, 22).
 - Step 2: Face Down (towards 15, 23).
-- Step 3: Interact (Press A).
+- Step 3: Interact (Press A) and confirm YES.
