@@ -4,12 +4,25 @@
 - Strategy: Boundary cycling between Ecruteak City and Route 37.
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 
+# Suicune Battle Strategy (Lv40)
+- Goal: Prevent flee and capture.
+- Turn 1: Use MEAN LOOK (XENON). 
+- Speed Check: Suicune (Base 85, Lv40) is likely faster than Gastly (Base 80, Lv21). If Suicune moves first, it flees.
+- Solution: Need to level XENON or use Quick Claw if available (check inventory).
+- Turn 2+: Use HYPNOSIS.
+- Turn 3+: Chip damage with NIGHT SHADE (fixed damage = level).
+- Note: If Suicune uses Roar, Mean Look is broken.
+
 # Capture Prep & Funding
 - Strategy: Mean Look -> Hypnosis -> Chip away HP (if safe) -> Throw Balls.
-- Level Gap: Suicune (Lv40) vs XENON (Lv21). XENON needs levels, but can still use Mean Look if it survives Turn 1.
 - Resources: 1 Ultra Ball, 23 Great Balls.
 - Funds: ¥2373.
-- Note: Max Revive and Full Restore are in inventory for the battle.
+- Note: Max Revive and Full Restore are in inventory.
+
+# Ultra Ball Hypotheses
+- Hypothesis 1: Goldenrod Dept. Store sells Ultra Balls.
+- Hypothesis 2: Blackthorn City Mart sells Ultra Balls.
+- Hypothesis 3: Indigo Plateau Mart sells Ultra Balls.
 
 # Boundary Cycling Plan (Ecruteak <-> Route 37)
 1. Move to (17, 35) in Ecruteak City.
@@ -26,15 +39,13 @@
 - LEDGE_HOP_DOWN/RIGHT: One-way movement.
 - COUNTER: Interact from adjacent tile.
 - MART_SHELF: Impassable.
+- TALL_GRASS: Traversable, triggers wild encounters.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19221)
-1. Navigate to Ecruteak/Route 37 boundary at (17, 35).
-2. Cross to Route 37.
-3. Check Pokedex for Suicune's location.
-
-# Reflection Notes (Turn 19221)
-- Ecruteak Mart lacks Ultra Balls. Focus on capture with existing resources or find better Mart later.
-- Roaming tracking is active. Boundary cycling is the most efficient method.
+# Reflection Notes (Turn 19231)
+- Ecruteak Mart lacks Ultra Balls.
+- Roaming tracking is active.
+- Encountered Spinarak; fleeing to continue hunt.
+- Need to verify if Quick Claw is in inventory for XENON.
