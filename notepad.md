@@ -30,3 +30,9 @@
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Repetitive Task Tracking
+- Task: Pacing on Route 37 for Suicune encounter.
+- Start Turn: 19242.
+- Current Step Count (Approx): 90.
+- Strategy: Pace 10 steps, then resume. Re-check Pokedex every 50 steps or if Repel ends.
