@@ -43,6 +43,7 @@
 - Step 5: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
 - Step 6: When Suicune is on Route 38, use Super Repel and run in grass.
 - Note: Suicune is Level 40. Mean Look must hit on Turn 1.
+- Mechanic: Roaming Pokemon move every time the player transitions between routes or cities.
 
 # Time Tracking
-- Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod Dept. Store (2F/3F). Moving to Ecruteak.
+- Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod Dept. Store (2F/3F). Buying in Ecruteak.
