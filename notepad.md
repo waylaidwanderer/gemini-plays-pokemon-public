@@ -36,3 +36,7 @@
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
 - Pacing: Avoid repetitive attempts at unverified "isolated" pockets. Focus on scripted triggers.
+
+# Time Tracking
+- Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20557. 
+- Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20557.
