@@ -249,7 +249,7 @@
         "target_city"
       ]
     },
-    "python_script": "import json\n\ndef solve():\n    current_city = input_data[\"current_city\"]\n    target_city = input_data[\"target_city\"]\n    \n    # Johto Fly Map Layout (x, y)\n    # Row 0: Cianwood(0,0) - Olivine(1,0) - Ecruteak(2,0) - Mahogany(3,0) - Blackthorn(4,0)\n    # Row 1:                 Goldenrod(1,1) - Violet(2,1) - Cherrygrove(3,1) - New Bark(4,1)\n    # Row 2:                                  Azalea(2,2)\n    \n    grid = {\n        \"CIANWOOD CITY\": (0, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (1, 1),\n        \"VIOLET CITY\": (2, 1),\n        \"CHERRYGROVE CITY\": (3, 1),\n        \"NEW BARK TOWN\": (4, 1),\n        \"AZALEA TOWN\": (2, 2)\n    }\n    \n    start = grid[current_city]\n    end = grid[target_city]\n    \n    buttons = []\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    \n    # Move horizontally then vertically\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    \n    final_buttons = []\n    for b in buttons:\n        final_buttons.append(b)\n        final_buttons.append(\"sleep 500\")\n    final_buttons.append(\"A\")\n    \n    print(json.dumps(final_buttons))\n\nsolve()\n",
+    "python_script": "import json\n\ndef solve():\n    current_city = input_data[\"current_city\"]\n    target_city = input_data[\"target_city\"]\n    \n    # Johto Fly Map Layout (x, y)\n    # Row 0: Cianwood(0,0) - Olivine(1,0) - Ecruteak(2,0) - Mahogany(3,0) - Blackthorn(4,0)\n    # Row 1:                 Goldenrod(1,1) - Violet(2,1) - Cherrygrove(3,1) - New Bark(4,1)\n    # Row 2:                                  Azalea(2,2)\n    \n    grid = {\n        \"CIANWOOD CITY\": (0, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (1, 1),\n        \"VIOLET CITY\": (2, 1),\n        \"CHERRYGROVE CITY\": (3, 1),\n        \"NEW BARK TOWN\": (4, 1),\n        \"AZALEA TOWN\": (2, 2)\n    }\n    \n    start = grid[current_city]\n    end = grid[target_city]\n    \n    buttons = []\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    \n    # Move horizontally\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    # Move vertically\n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    \n    final_buttons = []\n    for b in buttons:\n        final_buttons.append(b)\n        final_buttons.append(\"sleep 500\")\n    final_buttons.append(\"A\")\n    \n    print(json.dumps(final_buttons))\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -285,6 +285,11 @@
         "commit_message": "Refined Johto Fly map grid coordinates to correct the Olivine -> Ecruteak direction and other relative city positions.",
         "timestamp": "2025-12-25T20:13:11.924Z",
         "action_counter": 20522
+      },
+      {
+        "commit_message": "Refined Johto Fly map grid coordinates to correct the Olivine -> Ecruteak direction and other relative city positions.",
+        "timestamp": "2025-12-25T20:36:15.426Z",
+        "action_counter": 20546
       }
     ]
   },
