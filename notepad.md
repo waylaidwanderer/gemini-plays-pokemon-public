@@ -1,16 +1,11 @@
 # Strategy: Suicune Hunt (Crystal)
-- Start Turn: 20637 (Thursday)
-- Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Stationary sighting) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Location: Stationary overworld sprite at (12, 10) near the Fruit Tree. Approach to trigger flee.
-- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet. Use (12, 10) as the target.
+- Route 38 Location: Stationary overworld sprite. Typically on the ledge or in the tall grass. Use (3, 10) as a search target for the western section.
+- Note: Suicune is a stationary overworld sprite. If not on screen, it has not been found yet.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory). Arthur disappears after Thursday.
-- Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun.
-- Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
+- Arthur (Hard Stone): Route 36. Thursday only.
 - Clear Bell: In Key Items (Verified Turn 20623).
-- Sick Miltank: Needs Berries.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -22,8 +17,3 @@
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET_RIGHT: Triggers map transition.
 - LONG_GRASS: Traversable; triggers wild encounters.
-
-# Route 38/39 Mechanics & Exploration
-- Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
-- Route 39 North-South: Row 7 wall has a gap at X=12.
-- Connectivity: Area West of X=10 is reachable from East via Row 14 (9, 14 to 10, 14). Row 14 is reachable from North via Row 13 ledges (11-20, 13). Exit North at (9, 13).
