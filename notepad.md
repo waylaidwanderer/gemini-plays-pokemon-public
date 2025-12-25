@@ -3,18 +3,19 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18346)
-- **Location:** Dragon Shrine (3_82).
-- **Activity:** Exiting to Dragon's Den B1F.
-- **Action:** Step Down to Warp.
-- **Reasoning:** Rising Badge obtained. Need to free a party slot.
+# Current Status (Turn 18347)
+- **Location:** Dragon's Den B1F (19, 30).
+- **Activity:** Talking to Clair before exiting.
+- **Goal:** Get TM24 (Dragonbreath) if possible, then exit to deposit a Pokemon.
+- **Clair Position:** (15, 30).
+- **Action:** Walk Left to (16, 30) and talk to Clair.
 
 # Plan
-1. Exit to Dragon's Den B1F.
-2. Exit Dragon's Den.
-3. Deposit Pokemon at PC.
-4. Return for Dratini.
-5. Get TM24 from Clair.
+1. Talk to Clair.
+2. Surf North-West to (10, 20) (Ex-Whirlpool spot).
+3. Exit to Blackthorn City.
+4. Deposit Pokemon.
+5. Return for Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
