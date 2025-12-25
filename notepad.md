@@ -24,4 +24,5 @@
 **Dragon's Den Navigation:**
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
-- Immediate Obstacle: Cooltrainer at (20, 5) engaging in dialogue.
+- Status: Battling Cooltrainer Darin (blocking path south at 20, 5).
+- Strategy: Switch to Machoke (Lv 59) to sweep.
