@@ -39,3 +39,8 @@
 # Suicune Hunt Progress
 - Turn 19957: Reached eastern section of Route 38 ledge. Searching east.
 - Strategy: Moving toward the Ecruteak Gatehouse area on the northern path.
+
+# Suicune Search (Route 38)
+- Hypothesis: Suicune is near the western entrance from Route 39 (Miltank Farm side).
+- Test: Walk to (5, 8) and check for Suicune sprite.
+- Observation: Walked eastern path (15, 12) to (34, 9) without encounter.
