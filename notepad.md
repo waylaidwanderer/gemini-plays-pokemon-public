@@ -26,12 +26,16 @@
 - Current Target: Solve Boulder Puzzle (South-East).
 - Defeated Cooltrainer F at (4, 11).
 - Boulders located at (8, 14) and (6, 16).
-- Strategy: The South Boulders (B3, B4) create a blockade. Access to their South side (to push them North) is blocked by walls and the boulders themselves.
-- Hypothesis: There must be a "back door" to reach (6, 17) or (8, 17).
-- Potential Back Doors: Ladder at (7, 9), or falling through Pit (2, 5).
-- Action: Investigate Ladder at (7, 9).
-- Boulder 1 (2, 3) is a simple Push South to Pit (2, 5).
-- Puzzle Strategy: Avoid pushing boulders into dead ends. Ensure a path is clear before moving them.
+- Strategy:
+  - East Side Puzzle:
+    - Target: Push Boulder 3 (8, 14) and Boulder 4 (6, 16) into Pit (8, 7).
+    - Path for Boulder 3 (8, 14): Push North to (8, 12) -> West to (6, 12) -> North to (6, 7) -> East into Pit (8, 7).
+    - Path for Boulder 4 (6, 16): Push North to (6, 7) -> East into Pit (8, 7).
+    - Note: Verify if there is a second pit.
+  - West Side Puzzle:
+    - Target: Push Boulders into Pit (2, 5).
+    - Access via Ladder (1, 7).
+- Action: Go South to confirm boulder positions and execute pushes.
 - Combat Note: Dragonair uses Dragon Rage (Fixed 40 DMG). Use High HP Pokemon (Muscle) to tank.
 - Gym 2F Layout: Left (Col 0-1) and Right (Col 5-9) separated by wall, connected at Row 1 (Top) and Row 13 (Bottom). Also crossing at (2, 9) -> (3, 9).
 - Alternative Solution: North Boulders (2, 3) and (3, 3).
