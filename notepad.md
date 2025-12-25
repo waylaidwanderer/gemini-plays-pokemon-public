@@ -57,3 +57,8 @@
 
 # Interaction Log
 - **Turn 18133:** Party Menu Open. Cursor found on Slot 3 (Lapis) automatically. Pressing 'A' to open Field Move menu. Assuming facing is correct (DOWN).
+
+# Reflection (Turn 18138)
+- **Status:** Facing DOWN confirmed.
+- **Action:** Opening Start Menu.
+- **Goal:** Select Pokémon -> Lapis -> Whirlpool.
