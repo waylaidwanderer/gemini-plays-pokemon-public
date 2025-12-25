@@ -13,18 +13,18 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Systematic Search (Central/East). Turn: 17442.
+- Status: Systematic Search (SW Corner). Turn: 17443.
     - Boulder 1: Not found at (18, 12), (17, 7).
-    - Boulder 2: Not found at (5, 6) or (5, 7).
+    - Boulder 2: Not found at (5, 6), (5, 7).
     - Boulder 3: Not found at (11, 5).
-    - Boulder 4: Checking (9, 10).
-    - NW Corner: Checked.
-    - SE Corner: Checked.
-    - NE Corner: Checked.
+    - Boulder 4: Not found at (9, 10) (Verified Empty).
+    - Checking (5, 13) next.
 - Goal: Locate boulders and push to pits.
     - Plan:
-    1. Navigate to (9, 10) to verify if it's a wall or boulder.
-    2. If empty, navigate to (5, 13) to check SW pit area.
-    3. If still nothing, consider full map re-scan or ladder reset.
-- Note: Pits are open. Objects list empty (in seen area).
+    1. Navigate to (5, 13) to check final SW area.
+    2. If NO boulders found on B1F:
+       - The puzzle might be in a weird state.
+       - Option A: Fall down a pit to check B2F (lower section of this map?).
+       - Option B: Use ladder to leave and re-enter to force respawn.
+- Note: Objects list is empty. Strong suspicion of puzzle state issue or already solved?
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
