@@ -7,8 +7,7 @@
 - **Field Moves:** If 'A' interaction fails (even when facing correctly), ALWAYS fallback to Menu -> Pokemon -> [Mon] -> [Move].
 - **Whirlpool:** Requires facing the whirlpool tile directly. 'A' button might be unreliable; Menu is safer.
 
-- Status: Navigating Party Menu to Lapis (Slot 3).
-- Reason: Main Menu open, cursor on 'POKéMON'.
-- Step 1: Select 'POKéMON' (A).
-- Step 2: Scroll to Lapis (Down, Down).
-- Step 3: Select Lapis and choose Whirlpool.
+- Status: Correcting Party Menu selection to Lapis.
+- Reason: Cursor started on Lapis (remembered position) and I moved Down twice to Kunai. Need to go back Up.
+- Step 1: Press 'Up' twice to return to Lapis (Slot 3).
+- Step 2: Press 'A' to open the sub-menu.
