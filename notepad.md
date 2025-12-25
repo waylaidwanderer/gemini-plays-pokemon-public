@@ -38,10 +38,10 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
-- Turn 18124 Failure: Combined sequence (Close -> Face -> Open) failed. Game State still Facing UP.
-- Confirmed: Mixing Menu Close and Movement/Facing fails consistently.
-- New Plan:
-  Turn 1: Close Menus (B, B, B).
-  Turn 2: Face Down (Down).
-  Turn 3: Open Menu -> Select Lapis -> Whirlpool.
-- Current Action: Closing menus only.
+- Turn 18126: Retrying Whirlpool sequence from clean state.
+- Assumptions:
+  1. Facing: Will force DOWN.
+  2. Start Menu Cursor: On POKEMON (Persistent).
+  3. Party Menu Cursor: On LAPIS (Persistent).
+- Sequence: Down (Face) -> Start (Menu) -> A (Pokemon) -> A (Lapis) -> Down (Whirlpool) -> A (Select).
+- Note: Using slow_press with 1s delays.
