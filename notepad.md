@@ -7,7 +7,10 @@
 - Strategy: Mean Look (XENON Lv21) -> Hypnosis (XENON).
 - Level Gap: Suicune (Lv40) vs XENON (Lv21). XENON needs levels.
 - Resources: 1 Ultra Ball, 23 Great Balls. Need ~¥12,000 for 10+ Ultra Balls.
-- Funding Plan: Sell Fire Stone (¥1050) and Water Stone (¥1050). Current: ¥273.
+- Funding Plan: Stones sold. Current Funds: ¥2373. Need ~¥12,000 for 10 Ultra Balls.
+- Status: Exiting Mart to verify Suicune roaming via Pokedex.
+- Strategy: If roaming, use boundary cycling (Route 36/37). If dot stays on Route 42, investigate island trigger again.
+- Note: Max Revive and Full Restore are in inventory for the battle.
 
 # Tile Mechanics (Global)
 - WATER: Walkable with Surf.
