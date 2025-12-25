@@ -130,3 +130,10 @@
 - **Action:** Switching to Menu Interaction.
 - **Plan:** Start -> Pokemon -> Lapis -> Whirlpool.
 - **Prerequisite:** Player is confirmed Facing DOWN (Turn 18157 State). Do not move.
+
+# Anomaly (Turn 18159)
+- **Status:** Start Menu Open. Cursor on `POKéMON`.
+- **Conflict:** Game State reports `Facing: up`. Visual Sprite at (15, 22) clearly shows face/belly (Facing DOWN).
+- **Conclusion:** Game State `Facing` attribute is UNRELIABLE. Trusting visual sprite.
+- **Action:** Proceeding with Menu Interaction (Pokemon -> Lapis -> Whirlpool).
+- **Note:** 'A' interaction failed in 18157 despite facing Down, confirming Menu is required.
