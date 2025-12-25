@@ -4,17 +4,18 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18427)
+# Current Status (Turn 18428)
 - **Location:** Dragon Shrine (5, 2).
-- **Action:** Talk to Elder.
+- **Activity:** Talking to Elder.
 - **Goal:** Receive Extremespeed Dratini.
-- **Context:** Standing in front of Elder. Party has space.
+- **Context:** Dialogue started. Advancing text.
 
 # Plan
-1. Interact with Elder (Up, A).
+1. Advance dialogue (A/B).
 2. Receive Dratini.
-3. Exit Shrine.
-4. Fly to New Bark Town.
+3. Nickname Dratini (if prompted).
+4. Exit Shrine.
+5. Fly to New Bark Town.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
