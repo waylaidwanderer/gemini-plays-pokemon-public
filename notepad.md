@@ -25,6 +25,7 @@
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
 - Status: Reached Dragon Shrine Island.
-- Insight: East Channel (Col 24-26) is dead-ended by buoys at Row 23 and Col 27.
-- Plan: Surf West to the West Channel (Col 12-16). Check for a gap in the buoys or a Whirlpool.
-- Whirlpools: Keep watch. Teach HM06 if needed.
+- Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS.
+- Requirement: Need HM06 Whirlpool to cross.
+- Plan: Teach HM06 to Lapis (Poliwag). Then cross the whirlpool at (15, 23).
+- Whirlpools: Confirmed at y=23. Teaching HM06 now.
