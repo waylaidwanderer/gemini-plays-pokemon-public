@@ -66,15 +66,14 @@
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
 - Puzzle Status: Boulder 4 in Pit. Cody defeated.
-- Strategy Update:
-  - Cody at (4, 1) blocks West access. Must solve East, then re-enter via West Ladder (1, 7).
-- East Side Plan:
-  1. Push Boulder 6 (6, 1) East to (9, 1) to clear path.
-  2. Navigate to (8, 1).
+- Current Action: Executing East Side Plan.
+- Steps:
+  1. Push Boulder 6 (6, 1) East to (9, 1).
+  2. Player will end at (8, 1).
   3. Push Boulder 5 (8, 2) South into Pit (8, 3).
-  4. Exit to 1F via Ladder (7, 9).
+  4. Navigate to Ladder (7, 9) to return to 1F.
 - West Side Plan:
-  1. Navigate to Ladder (1, 7) on 1F.
-  2. Enter 2F West side.
-  3. Push Boulder 1 (2, 3) South into Pit (2, 5).
+  1. Re-enter 2F via West Ladder (1, 7).
+  2. Push Boulder 1 (2, 3) South into Pit (2, 5).
+  3. Solve remaining West boulders.
 - Puzzle Status: Boulder 4 complete. Boulder 3 stuck. West Side pending.
