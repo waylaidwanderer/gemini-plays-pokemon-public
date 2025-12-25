@@ -16,3 +16,5 @@
 - **Sign (34, 24):** "Blackthorn City - A Quiet Mountain Retreat"
 - Wade (Route 31) offered Berries.
 - Granny (Blackthorn House): Mentions Dragon clan living here.
+- Confirmed Blackthorn Gym location at (18, 11).
+- Gym Sign reads: "LEADER: CLAIR. The Blessed User of Dragon POKéMON".
