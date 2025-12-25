@@ -3,34 +3,32 @@
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Side Quests & Resources
-- Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
+- Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
 - Sick Miltank: Needs Berries.
-- Thunderstone: Obtained Turn 20360.
 
 # Suicune Sighting Logic
 - Observed Sightings: 1. Burned Tower -> 2. Cianwood City -> 3. Route 42 -> 4. Route 38 (Current).
-- Trigger Condition: Approach Suicune in the overworld to trigger flee.
+- Trigger Condition: Approach Suicune in the overworld.
 - Route 38 Potential Locations: 
-  - (31, 15) - Eastern Ledge (Checked).
-  - (1, 3) - Western Pocket (Target).
-  - (5, 8) - Near farm (Checked).
+  - Eastern end near Ecruteak Gatehouse (Targeting unseen tiles).
+  - (1, 3) - Western Pocket (Isolated, requires investigation of access).
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable tile.
 - WALL / FENCE: Impassable collision.
-- LEDGE_HOP_DOWN: One-way jump South. Cannot be climbed from South.
-- LEDGE_HOP_LEFT: One-way jump West. Cannot be climbed from East.
-- LEDGE_HOP_RIGHT: One-way jump East. Cannot be climbed from West.
+- LEDGE_HOP_DOWN: One-way jump South.
+- LEDGE_HOP_LEFT: One-way jump West.
+- LEDGE_HOP_RIGHT: One-way jump East.
 - TALL_GRASS: Traversable; triggers wild encounters.
 - HEADBUTT_TREE: Impassable; can be interacted with using Headbutt.
-- WARP_CARPET: Triggers map transition when stepped on.
+- WARP_CARPET: Triggers map transition.
 
 # Game Mechanics & Systems
 - Day/Night Cycle: Affects Pokemon spawns and NPC availability.
 - Bug Catching Contest: Tues/Thurs/Sat in National Park. Replaces NPCs; Quick Claw unavailable.
-- Fly Mechanics: Only usable in cities/towns. Refined tool Turn 20522.
+- Fly Mechanics: Only usable in cities/towns.
 - Money Management: Current ¥373.
 
 # Route 38/39 Mechanics & Exploration
