@@ -1,34 +1,33 @@
-# Suicune Strategy
-- **Status**: Roaming Johto. All scripted milestones (Burned Tower to Tin Tower) cleared.
+# Suicune Strategy (Crystal Version)
+- **Mechanics Check**: In Crystal, Suicune has fixed overworld sprite locations (Cianwood North, Route 42 island, etc.) and is NOT a random grass encounter until the final stationary battle at Tin Tower. Boundary cycling does NOT work for Suicune.
+- **Current Objective**: Interact with Suicune sprite on the Route 42 island (middle).
 - **Battle Plan**:
     - Lead: XENON (Gastly, Lv21).
-    - Turn 1: MEAN LOOK (Must hit before Suicune flees).
-    - Turn 2+: HYPNOSIS (Sleep), then chip damage and ULTRA BALLS.
-    - Speed Concern: Suicune (Lv40) is likely faster than XENON (Lv21). Mean Look only works if we move first.
-- **Encounter Loop**:
-    1. Check Pokedex AREA map.
-    2. Transition between maps (e.g., Ecruteak and Route 38).
-    3. Suicune relocates every time you cross a boundary.
-    4. When Suicune is on your route, use Super Repel and search grass.
+    - Turn 1: MEAN LOOK.
+    - Speed Concern: Suicune (Lv40) will outspeed XENON (Lv21). I need a faster lead or a way to ensure Mean Look hits.
+- **Scripted Locations**:
+    1. Burned Tower (Found)
+    2. Cianwood City (Found)
+    3. Route 42 (Current Target)
+    4. Kanto / Tin Tower (Future)
 
 # Logistics & Supplies
-- **Super Repel Search (Started Turn 18550)**:
-    - Ecruteak Mart: Verified NO (Turn 18554).
-    - Goldenrod Dept. Store: Verified NO (Turns 18585-18625).
-    - Olivine City Mart: Verified YES (Turn 18664).
-    - Status: Purchased 4 Super Repels (Turn 18664).
+- **Super Repel Search**:
+    - Ecruteak/Goldenrod: NO.
+    - Olivine Mart: YES. Purchased 4 (Turn 18664).
 
 # Suicune Tracking Log
 - Turn 18350: Shows Route 42.
 - Turn 18505: Shows Ecruteak City.
 - Turn 18674: Shows Route 42.
-- Current Status: Roaming Johto. Currently on Route 42.
-- Hunt Strategy: Fly to Ecruteak City to randomize location, then use map boundary cycling (e.g., Ecruteak <-> Route 38) to intercept.
+- Note: Pokedex "AREA" map for Suicune in Crystal shows its next *scripted* location, not roaming movement.
 
-- **Training Plan (XENON)**:
-    - Target: Level 35-40.
-    - Location: Route 39 (near Moomoo Farm) for consistent EXP.
-- **PC Storage (Box 1)**: RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
+# Training Plan (XENON)
+- Target: Level 35-40.
+- Location: Route 39 (near Moomoo Farm) for consistent EXP.
+
+# PC Storage (Box 1)
+RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
 # General Mechanics
 - **Tile Traversability**:
@@ -37,11 +36,8 @@
     - One-way: LEDGE (hop down).
 - **Interactions**:
     - Clerks/Nurses: Face the counter tile in front of them and press A.
-    - Phone calls: Wait for "Click!" or "……" before resuming movement.
-- **Menus**: Gen 2 menus remember the last selected item.
 - **Travel**:
-    - Cannot use FLY from inside buildings; must be outdoors.
-    - FLYING forces roaming Pokemon to a completely random location in Johto.
+    - Cannot use FLY from inside buildings.
     - Poké Mart inventories scale with Badge progress.
 
 # Tile Mechanics (Global)
@@ -61,9 +57,7 @@
 - WHIRLPOOL: Requires WHIRLPOOL HM.
 
 # Primary Goal Strategy: Catch Suicune
-1. Acquisition: Obtain Super Repels (Priority: Olivine Mart, then Mahogany/Blackthorn).
-2. Tracking: Consult Pokedex AREA map to identify Suicune's current route.
-3. Manipulation: If Suicune is distant, use FLY to a central city (like Ecruteak) to randomize its location until it is nearby.
-4. Interception: Move back and forth across a map boundary (e.g., Ecruteak City <-> Route 37) until the Pokedex shows Suicune on the current route.
-5. Engagement: Lead with XENON (Lv21), apply Super Repel, and walk in grass.
-6. Capture: Execute MEAN LOOK immediately. Use HYPNOSIS and NIGHT SHADE to weaken, then throw ULTRA BALLS.
+1. Locate Suicune sprite on Route 42 island (requires Surf and Cut).
+2. Interact with the sprite to trigger it fleeing.
+3. Follow to the next scripted location.
+4. Prepare for final battle at Tin Tower.
