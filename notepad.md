@@ -9,6 +9,7 @@
 - Coordinates: (16, 12) in National Park (Source: expert agent).
 - Time: Present at all times (Morning, Day, Night).
 - Note: If NPC is not visible in 'Map Objects' list at coordinates, they are not present.
+- Checked (National Park): (17, 6) - Empty grass, (33, 11) - Empty grass, (35, 12) - Wall.
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
@@ -26,7 +27,7 @@
 - HEADBUTT_TREE: Impassable, Headbutt for encounters.
 
 # Lessons Learned
-- NPC Verification: Never trust agent coordinates (e.g., item_locator) over the Game State 'Map Objects On Screen' list. If the NPC is not in the list when standing nearby, they are not there.
+- NPC Verification: Never trust agent coordinates (e.g., item_locator) over the Game State 'Map Objects On Screen' list.
 - Loop Prevention: If stuck in a pathing loop, re-verify collision data and NPC presence manually.
 
 # Resources & PC Inventory
