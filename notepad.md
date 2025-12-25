@@ -1,23 +1,18 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (12, 7).
-- **Goal:** Reach (11, 8) to push B1 UP.
-- **Puzzle State:** Reset Verified. Boulders at starting positions.
+- **Position:** Player at (11, 8).
+- **Goal:** Solve B1 (Top Right Boulder).
+- **Action:** ACTIVATE STRENGTH and Push B1 Up to (11, 5).
+- **Puzzle State:**
+  - **B1:** (11, 7) -> (11, 5).
+  - **B2:** (7, 8).
+  - **B4:** (17, 7).
 
-## Navigation Plan
-1.  **Navigate to (11, 8):**
-    - Path: (12, 7) -> (12, 8) -> (11, 8).
-    - **Action:** Positioning below Boulder 1.
-
-## B1 Solution (Verified)
-1.  **Push B1 Up:** From (11, 8), push Up to (11, 5).
-2.  **Reposition:**
-    - Go around via (10, 6) -> (10, 1) -> (12, 1) -> (12, 5).
+## B1 Solution Path (Verified)
+1.  **Push B1 Up:** (11, 8) -> Push Up x2 -> B1 at (11, 5).
+2.  **Navigate to (12, 5):**
+    - (11, 6) -> Left to (10, 6) -> Up to (10, 1) -> Right to (12, 1) -> Down to (12, 5).
 3.  **Push B1 Left:** To (10, 5).
-4.  **Reposition:**
-    - Go around to (10, 6).
-5.  **Finish:**
-    - Push Up to (10, 1).
-    - Push Right to (11, 1).
-    - Push Down to Pit (11, 2).
+4.  **Finish:**
+    - Navigate to (10, 6) -> Push Up to (10, 1) -> Right to (11, 1) -> Down to (11, 2).
