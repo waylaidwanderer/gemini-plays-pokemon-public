@@ -27,14 +27,11 @@
 - Goal: Lower HP carefully and use ULTRA BALLS.
 - Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
 
-# Suicune Encounter Strategy
-- Step 1: Obtain Bicycle in Goldenrod City (29, 29). [COMPLETED]
-- Step 2: Fly to Ecruteak City (Note: Flying randomizes Suicune's location, but we need the Mart).
-- Step 3: Buy Super Repels at Ecruteak Mart (¥500 each).
-- Step 4: Put XENON (Lv21) in the lead.
-- Step 5: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
-- Step 6: When Suicune is on Route 38, use Super Repel and run in grass.
-- Note: Suicune moves every time the player transitions between routes or cities.
+# Suicune Hunt Strategy
+- **Preparation**: Stock up on Super Repels (Ecruteak Mart) and lead with XENON (Lv21).
+- **Tracking**: Use the Pokedex AREA map after every map transition. Suicune moves whenever you change maps.
+- **Encounter Loop**: Move back and forth between Ecruteak City and Route 38. This triggers Suicune's movement.
+- **Catching**: When Suicune is on your current route, use a Super Repel (if XENON is leading) and search the grass. In battle, use MEAN LOOK immediately to prevent fleeing, then HYPNOSIS.
 
 # PC Storage (Box 1)
 - RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
