@@ -37,3 +37,4 @@
 - Current Step Count (Approx): 150.
 - Strategy: Pace 10 steps, then resume. Re-check Pokedex every 50 steps or if Repel ends.
 - Repel Status: 1 used, ~50 steps remaining on current spray.
+- Last Pokedex Check: Step 150 (Turn 19273). Checking now.
