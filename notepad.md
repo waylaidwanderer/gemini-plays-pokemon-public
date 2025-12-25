@@ -26,8 +26,9 @@
 - Current Target: Solve Boulder Puzzle (South-East).
 - Defeated Cooltrainer F at (4, 11).
 - Boulders located at (8, 14) and (6, 16).
-- Strategy: Push Boulder 4 (6, 16) South, then circle to (8, 15) to push Boulder 3 (8, 14) North into Pit (8, 7).
-- Gym 2F Layout: Split into sections. West ladder (1, 7) leads to dead end with boulders. Must traverse South/East path past Cooltrainer F at (4, 11) to reach upper area.
+- Strategy: Path to boulders is FLANKING. Go South to (2, 9), then to (4, 13) to cross to East side. Then go North to (4, 1) to loop back to Boulders from the North (2, 2).
+- Push Boulder 1 (2, 3) South into Pit (2, 5).
+- Gym 2F Layout: Left (Col 0-1) and Right (Col 5-9) separated by wall, connected at Row 1 (Top) and Row 13 (Bottom). Also crossing at (2, 9) -> (3, 9).
 - Puzzle Mistake: Pushed Boulder 4 (6, 16) South to (6, 17) where it is stuck. Correct path is North -> East -> North -> East to Pit (8, 7).
 - Boulder 3 (8, 14) appears to be a decoy or stuck in column 8.
 - Status: Room reset. Activating Strength to move Boulder 4.
