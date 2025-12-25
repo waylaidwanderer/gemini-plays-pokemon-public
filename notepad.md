@@ -39,3 +39,11 @@
 # Swarms & Tracking
 - Yanma Swarm: Reported on Route 35 (Turn 19540).
 - Suicune Tracking: Moves on map transition. Snapshot via Pokedex 'Area'.
+
+# Reflection Turn 19575
+- Immediate Execution: Clearing screen after failed menu navigation.
+- Notepad Hygiene: Added menu persistence rules.
+- Map Hygiene: Markers are current.
+- Automation Strategy: Using B-mash to reset state before menuing.
+- Goal Clarity: Focus remains on Quick Claw and Suicune.
+- Error Analysis: Identified that the Start menu and Pokemon menu remember cursor positions, causing relative sequences to fail. Lesson: Always use a 'reset' sequence (mash Up/Down) or verify state.
