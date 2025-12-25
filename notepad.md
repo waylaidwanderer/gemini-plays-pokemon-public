@@ -47,10 +47,8 @@
     - Slide Left to `(7, 34)`.
     - Slide Down to `(7, 35)`.
     - Slide Left to `(6, 35)` (adjacent to Item).
-    - **Action:** Sliding Down to `(7, 35)`.
-- **Escape Plan from Item:**
-    - From `(5, 35)` (Floor):
-    - Slide Right to `(8, 35)`.
-    - Slide Up to `(8, 34)`.
-    - Slide Right to `(9, 34)`.
-    - Walk Up to `(9, 33)` (Start).
+    - **Action:** Picking up Item at `(5, 35)`.
+- **Return & Progress Plan:**
+    - **Escape:** From `(5, 35)` -> Slide R to `(8, 35)` -> Slide U to `(8, 34)` -> Slide R to `(9, 34)` (Land on `9, 33`).
+    - **Transition:** Walk R to `(11, 33)` (South Landing).
+    - **North Path:** Slide R to `(15, 33)` -> U to `(15, 29)` -> R to `(19, 29)` -> D to `(19, 33)` -> L to `(17, 33)` -> U to `(17, 31)` -> L to `(13, 31)` -> U to `(13, 30)` -> L to `(11, 30)`.
