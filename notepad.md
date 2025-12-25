@@ -13,7 +13,7 @@
 
 # Tin Tower Investigation Strategy
 - Goal: Determine why Suicune is not appearing on 1F.
-- Step 1: Verify Route 42 encounter. (Action: Check Pokedex status and use tracker agent).
+- Step 1: Verify Route 42 encounter. (Action: Tracker agent suggests this flee event is missing despite Pokedex showing Ecruteak).
 - Step 2: Search Ecruteak City Pokemon Center (23, 27) for Eusine.
 - Step 3: Search Tin Tower Entrance (3_3) for Eusine or missed Wise Trio dialogue.
 - Step 4: If still missing, re-explore Route 42 island.
