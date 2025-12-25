@@ -3,19 +3,20 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18378)
-- **Location:** Blackthorn City (20, 3).
-- **Action:** Confirming Surf to navigate South.
-- **Goal:** Reach Landing at (20, 12), then Pokémon Center at (21, 29).
-- **Next Stop:** Blackthorn PC.
+# Current Status (Turn 18379)
+- **Location:** Blackthorn City (20, 5) - Surfing.
+- **Action:** Navigating to Pokémon Center via East Channel.
+- **Observation:** Visual glitch/state confusion with Surf menu. Pressing B to clear before moving.
+- **Goal:** Reach Landing at (23, 12), then walk to PC (21, 29).
 
 # Plan
-1. Confirm Surf (Select YES).
-2. Surf South to (20, 12).
-3. Walk to Pokémon Center (21, 29).
-4. Deposit Swinub.
-5. Return to Dragon Shrine for Dratini.
-6. Fly to New Bark Town (Master Ball).
+1. Press B to clear potential menu.
+2. Surf East to (23, 5).
+3. Surf South to (23, 12) (Landing).
+4. Walk South/West to Pokémon Center.
+5. Deposit Swinub.
+6. Return to Dragon Shrine for Dratini.
+7. Fly to New Bark Town (Master Ball).
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
