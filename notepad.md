@@ -36,3 +36,4 @@
 - **Game Mechanic:** Battle move cursor position is remembered per-Pokémon even after switching out and back in. (Turn 18683)
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
+- **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
