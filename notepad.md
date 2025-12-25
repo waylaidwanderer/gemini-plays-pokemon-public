@@ -144,7 +144,11 @@
 - **Next Step:** Navigate to `WHIRLPOOL` and select it.
 - **Context:** Trusting visual confirmation of `Facing: Down` despite Game State saying `Facing: Up`.
 
-# Menu Interaction (Turn 18161)
-- **State:** Submenu open, cursor on `SURF`.
-- **Action:** Selecting `WHIRLPOOL` (Down -> A).
-- **Hypothesis:** If this works, visual facing was correct. If "Can't use that here", Game State `Facing: Up` was authoritative.
+# Interaction Update (Turn 18162 - DIAGNOSIS)
+- **Status:** "Can't use that here" confirmed.
+- **Root Cause:** Game State `Facing: Up` is the source of truth. Visual sprite (Facing Down) is a rendering artifact or lag. Interaction logic requires `Facing: Down` (towards Whirlpool).
+- **Correction Plan:**
+  1. **Turn 18162:** `slow_press` B x4 to FORCE close all menus and return to Overworld.
+  2. **Turn 18163:** Press `Down` in Overworld (Action Separation).
+  3. **Turn 18164:** Verify `Facing: Down`. Then use Start Menu -> Whirlpool.
+- **Rule:** NEVER mix "Close Menu" and "Move/Turn" in the same turn. The Move input gets eaten.
