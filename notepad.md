@@ -30,13 +30,14 @@
 - Verified Map Connections:
   - Southern Path (Row 14-16) is reachable from North via Row 13 ledges. Exit North at (9, 14).
   - Route 39 North-South: Row 7 wall has a gap at X=12.
-  - Route 38 Suicune Event: Scripted proximity trigger near the farm/ledge area. (Approach row 8-12 near X=5-10).
+  - Route 38 Suicune Event: Scripted proximity trigger near the farm/ledge area. (Approach row 8-12 near X=5-10). NO isolated pocket.
 
 # Lessons Learned
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
-- Pacing: Avoid repetitive attempts at unverified "isolated" pockets. Focus on scripted triggers.
+- Arthur (Hard Stone): Dialogue loops intro if item not given. Check bag space (15/20) and positioning.
+- Suicune Trigger: Walk along the northern fence line/ledge on Route 38.
 
 # Time Tracking
-- Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20576. 
-- Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20576.
+- Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20588. 
+- Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20588.
