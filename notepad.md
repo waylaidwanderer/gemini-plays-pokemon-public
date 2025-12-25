@@ -31,3 +31,4 @@
 - Turn 17891: Reached (20, 8). Cooltrainer Darin defeated/bypassed.
 - Next: Surf south from (20, 9) to locate the Shrine.
 - Note: Watch for Whirlpools. If blocked, teach HM06 to Lapis (Poliwag).
+- Turn 17895: Surfing South from (20, 9). Text "LAPIS used SURF!" visible. Clearing text and proceeding South.
