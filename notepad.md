@@ -41,3 +41,8 @@
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Failed Repel Attempts: ~25.
 - Repel Strategy: Navigate to Pack -> Items -> 11th Item (Super Repel). Verified in inventory.
+
+# Exploration Updates
+- Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
+- Suicune Tracking (Agent Advice): Sighting #4 is near the ledge by the Miltank Farm (Route 39 border). Approach to trigger flee.
+- Quick Claw NPC: Teacher with Persian in National Park (17, 10). Need to verify exact requirements if it doesn't trigger.
