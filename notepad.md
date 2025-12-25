@@ -25,4 +25,5 @@
 
 # Current Task
 - Target: Whirlpool at (24, 23).
-- Step 1: Reset to Overworld and Face Down.
+- Step 1: Reset to Overworld and Face Down. (Done)
+- Step 2: Open Start Menu and verify cursor.
