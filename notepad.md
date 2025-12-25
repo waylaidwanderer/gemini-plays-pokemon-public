@@ -3,19 +3,18 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18339)
+# Current Status (Turn 18340)
 - **Location:** Dragon Shrine (3_82).
-- **Activity:** Completed Dragon User Challenge (Quiz).
-- **Answers:** Friend, Strategy, Tough person, Love, Both.
-- **Outcome:** Elder approved ("That conviction is what is important").
-- **Situation:** Clair has entered the room (standing behind/to the left).
-- **Action:** Interact with Elder/Wait for Clair.
+- **Activity:** Dialogue after Dragon User Challenge.
+- **Context:** Elder approved my answers. Clair is present.
+- **Current Text:** "I guess there's no point in asking." (Likely Clair speaking).
+- **Action:** Advance text.
 
 # Plan
-1. Interact with Elder.
-2. If Clair interrupts or dialogue shifts, follow along.
-3. Receive Rising Badge.
-4. Exit Shrine.
+1. Advance text to finish the scene.
+2. If Clair refuses the badge, follow her or exit to receive it.
+3. Receive Rising Badge (eventually).
+4. Obtain Dratini (if possible).
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
