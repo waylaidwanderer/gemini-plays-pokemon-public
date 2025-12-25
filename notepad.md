@@ -39,3 +39,9 @@
 - Poké Mart inventories scale with Badge progress; Super Repels NOT available at Ecruteak Mart even with 7 badges. Checking Goldenrod Dept. Store.
 - Interacting with clerks behind counters: Face the counter tile, not the NPC.
 - City Navigation: Buildings create complex layouts; use pathfinding tools to find non-obvious routes.
+
+# Menu Mechanics
+- Gen 2 menus remember the last selected item. Use "homing" (pressing Up 8 times) to reset the cursor to the top before navigating.
+
+# Suicune Speed Concern
+- Suicune (Lv 40) is likely faster than XENON (Lv 21). Mean Look only works if we move first. Need to level up XENON or use items/strategy to boost Speed.
