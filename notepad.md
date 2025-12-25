@@ -1,21 +1,18 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (18, 2).
-- **Goal:** Return to B1F and Reset Puzzle.
+- **Position:** Player at (17, 3) (Ladder from B2F).
+- **Goal:** Verify Puzzle Reset and Solve.
 - **Puzzle State:**
-  - **B2:** Dropped to (3, 12) (Incorrect). Resetting.
-  - **Goal:** Push B2 into Pit (4, 7) instead.
+  - **Reset assumed.**
+  - **B1:** Location unknown (checking Row 1).
+  - **B2:** Checking (7, 8).
 
-## Navigation Plan
-1.  **Escape:**
-    - Walk to Ladder (17, 1).
-    - Climb to B1F.
-2.  **Reset & Retry:**
-    - Verify B2 reset to (7, 8).
-    - Solve B2:
-        - Left to (5, 8).
-        - Up to (5, 6).
-        - Loop Around.
-        - Left to (4, 6).
-        - Down to Pit (4, 7).
+## Immediate Plan
+1.  **Traverse Row 1:** Go Left to (6, 1).
+2.  **Verify B1:** If found, mark it.
+3.  **Navigate to B2:** Go (6, 1) -> (6, 2) -> (5, 2) -> Down to (5, 8) -> (7, 8).
+4.  **Solve B2:**
+    - Push Left (7, 8) -> (5, 8).
+    - Loop Around (Top).
+    - Push Down (5, 8) -> Pit (5, 12).
