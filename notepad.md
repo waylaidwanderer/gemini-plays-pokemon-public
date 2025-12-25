@@ -44,7 +44,7 @@
 # Suicune Hunt Progress
 - Started Hunt: Turn 20127
 - Goal: Trigger flee on Route 38.
-- Status: Searching northern path. Currently at Turn 20171. Strategy: Move west on northern path to find Suicune.
+- Status: Searching western section. Currently at Turn 20177. Strategy: Use Super Repel at (2, 9), then search western ledge area.
 - Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
