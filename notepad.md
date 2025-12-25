@@ -18,12 +18,19 @@
 2.  **Reposition:** Circle `(6, 6)` -> `(6, 5)` -> `(5, 5)` -> `(4, 5)`. (COMPLETED)
 3.  **Push 2:** At `(4, 5)`, Push Boulder Down into Pit `(4, 7)`. (EXECUTING NOW)
 
-## Item Retrieval (B2F)
-1.  Drop into Pit `(4, 7)`.
-2.  Land on B2F.
-3.  Slide Up Col 4 -> Hit Boulder at `(4, 7)` -> Stop at `(4, 8)`.
-4.  Slide Right to `(8, 8)` -> Get Item.
-5.  Exit via Ladder `(9, 11)`.
+## New Strategy: Use Hole (12, 13)
+1.  **Exit B2F:**
+    - Slide Right to `(18, 15)`.
+    - Go North via Col 18 to `(17, 1)` Ladder.
+2.  **Navigate B1F:**
+    - From Ladder `(17, 1)`, go to Hole `(12, 13)`.
+3.  **Drop to B2F:**
+    - Land at `(12, 12)`.
+4.  **Retrieve Item:**
+    - Slide Left -> Hit Boulder at `(3, 12)` -> Stop at `(4, 12)`.
+    - Slide Up -> Hit Boulder at `(4, 7)` -> Stop at `(4, 8)`.
+    - Slide Right -> Stop at `(8, 8)` -> Get Item.
+    - Exit.
 
 ## Map Data
 - **Pits:** (11, 2), (4, 7), (5, 12), (12, 13).
