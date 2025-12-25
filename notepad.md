@@ -31,3 +31,8 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - CAVE/DOOR/WARP: Walkable; warp.
 - LEDGE: One-way (hop down).
 - COUNTER: Impassable; interact from adjacent tile.
+
+# General Lessons & Observations
+- Sprite Visibility: NPCs only appear in "Map Objects On Screen" when within the player's field of view. Do not assume they have vanished if they are just off-screen.
+- Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events. They will not appear in the active warp list until then.
+- Confirmation Bias: Avoid assuming a trigger is working just because dialogue changes slightly. Verify with overworld changes.
