@@ -28,7 +28,7 @@
 - **Exploration:** Exited Tohjo Falls to Route 27 East. Encountered Cooltrainer F at (37, 6).
 - **Observation:** There is a house at (33, 7) which appears unreachable from the current position due to ledges/walls. It might be accessible from the west side or via a specific path. (Turn 18593)
 - **Battle:** Defeated Cooltrainer Megan on Route 27 (East).
-- **Status:** Garnet is poisoned. Priority: Cure poison.
+- **Status:** Garnet cured of poison. Team healthy.
 - **Exploration:** Accessibility to House at (33, 7) confirmed from this side. Will investigate. (Turn 18609)
 - **Exploration:** Entered the house on Route 27 (Map 24_12). There is an old lady (Granny) inside. (Turn 18612)
 - **Interaction:** Granny at (2,4) in Route 27 House gives advice on trust/loyalty (Friendship check). Does not heal. (Turn 18615)
