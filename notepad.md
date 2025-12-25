@@ -11,16 +11,15 @@
   - **B3:** Not found in Top Left.
 
 ## Immediate Plan
-1.  **Push Up:** Push B2 from (5, 8) to (5, 6). (Executing now).
-2.  **Escape:**
-    - From (5, 7), go Down to (5, 9).
-    - Go South/East to (9, 14).
-    - Go North (via Right side) to Row 5.
-    - Go Left to (6, 6).
-3.  **Final Pushes:**
-    - Push Left (5, 6) -> (4, 6).
-    - Move to (4, 5).
-    - Push Down (4, 6) into Pit (4, 7).
+1.  **Pass Choke Point:**
+    - Move Up to (5, 7).
+    - Push B2 Up from (5, 6) to (5, 5).
+2.  **Reset B2 Position:**
+    - Go around: (5, 6) -> (6, 6) -> (6, 5) -> (6, 4) -> (5, 4).
+    - Push B2 Down from (5, 5) to (5, 6).
+3.  **Execute Solution:**
+    - Go to (6, 6). Push B2 Left to (4, 6).
+    - Go to (4, 5). Push B2 Down into Pit (4, 7).
 ## Lessons Learned
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
