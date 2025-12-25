@@ -13,18 +13,14 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Systematic Search (SW Corner). Turn: 17443.
-    - Boulder 1: Not found at (18, 12), (17, 7).
-    - Boulder 2: Not found at (5, 6), (5, 7).
-    - Boulder 3: Not found at (11, 5).
-    - Boulder 4: Not found at (9, 10) (Verified Empty).
-    - Checking (5, 13) next.
-- Goal: Locate boulders and push to pits.
+- Status: Search Complete. No Boulders on B1F.
+    - Swept all corners. 0 Boulders found.
+    - Pits are marked as Open Warps in XML.
+- Hypothesis: Puzzle state issue or boulders already dropped?
+- Goal: Solve B1F Boulder Puzzle.
     - Plan:
-    1. Navigate to (5, 13) to check final SW area.
-    2. If NO boulders found on B1F:
-       - The puzzle might be in a weird state.
-       - Option A: Fall down a pit to check B2F (lower section of this map?).
-       - Option B: Use ladder to leave and re-enter to force respawn.
-- Note: Objects list is empty. Strong suspicion of puzzle state issue or already solved?
+    1. Fall into Pit (5, 12) to check B2F layout.
+    2. If boulders present on B2F -> Puzzle Solved.
+    3. If not, take ladder back to B1F (this should reset the boulders).
+- Note: If boulders don't spawn after reset, I'm missing a trigger or they are elsewhere.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
