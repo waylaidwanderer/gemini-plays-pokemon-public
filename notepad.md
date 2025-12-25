@@ -3,21 +3,16 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (17, 3).
-- **Goal:** Verify B1, then Solve B2.
+- **Position:** Player at (15, 1).
+- **Goal:** Locate B1 and B3.
 - **Puzzle State:**
-  - **Reset Confirmed.** (Returned from B2F).
-  - **B1:** Checking (Expected at 11, 1 or 10, 1).
-  - **B2:** Checking (Expected at 7, 8).
-  - **B3:** Missing. Need to locate.
+  - **Reset Confirmed.**
+  - **B1:** Checking Row 1.
+  - **B2:** At (7, 8).
   - **B4:** At (17, 7).
 
 ## Immediate Plan
-1.  **Find B1:**
-    - Go Left from (16, 1) -> Slide to (11, 1).
-    - If B1 is at (11, 1), I will bump into it.
-2.  **Solve B1:**
-    - If at (11, 1): Push Down -> Right -> Up -> Left.
-3.  **Find & Solve B2:**
-    - Go to (7, 8).
-    - Push Left -> Up -> Loop -> Left -> Down.
+1.  **Slide Left:** Go to (10, 1).
+2.  **Verify B1:** Check if it's at (11, 1) or (10, 1).
+3.  **Find B3:** Explore Top Left area.
+4.  **Solve B1:** Push Down -> Right -> Up -> Left.
