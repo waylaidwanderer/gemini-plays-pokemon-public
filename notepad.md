@@ -5,8 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Exiting menu to face whirlpool and interact directly (correction).
-- Step 1: B, B (Exit menus to Overworld).
-- Step 2: Down (Face Whirlpool at 24, 23).
+- Status: Moving to (25, 22) to try adjacent whirlpool and break position loop.
+- Step 1: Right (Move to 25, 22).
+- Step 2: Down (Face 25, 23).
 - Step 3: A (Interact).
-- Step 4: A (Confirm "Use Whirlpool").
+- Step 4: A (Confirm if prompt appears).
