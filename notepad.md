@@ -3,12 +3,12 @@
 - **Next:** Enter Dragon's Den.
 
 # Battle Strategy: Clair
-- **Opponents:** Dragonair x3, Kingdra.
-- **Current State:** Muscle (Machoke) vs Dragonair.
+- **Opponents:** Dragonair x3 (1 Defeated), Kingdra.
+- **Current State:** Muscle (Machoke) vs Dragonair #2.
 - **Plan:**
-  - **Dragonairs:** Use Strength (PP: 6/15). 21 Level advantage (58 vs 37) should overwhelm them.
-  - **Kingdra:** Save Cross Chop (PP: 4/5) for Kingdra.
-- **Status:** Muscle needs to conserve PP. Strength is Slot 1. Cross Chop is Slot 4.
+  - **Dragonairs:** Continue using Strength.
+  - **Kingdra:** Save Cross Chop.
+- **Status:** Muscle HP 131/191. Staying in.
 
 # Blackthorn Gym Strategy
 - **Status:** All Puzzles Solved. Bridges formed.
