@@ -42,7 +42,7 @@
 # Suicune Hunt Progress
 - Started Hunt: Turn 20127
 - Goal: Trigger flee on Route 38.
-- Status: Searching northern path. Currently at Turn 20164. Failed menu attempts: 7. Strategy: Move west to (10, 5) before retrying Repel.
+- Status: Searching northern path. Currently at Turn 20166. Encountered wild Magnemite at (11, 5). Strategy: Run from battle, move west to (10, 5), then retry Repel.
 - Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell required.
