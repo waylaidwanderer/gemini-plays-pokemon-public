@@ -14,3 +14,5 @@
 - **Menu Mechanics:** Directional inputs inside a menu move the cursor, NOT the player. To change facing, you MUST be in the Overworld.
 - **Input Eating:** Inputs sent immediately after closing a menu often fail. Always wait a full turn or use `sleep` after closing a menu before moving/turning.
 - **Whirlpool Usage:** Attempting to use Whirlpool from the menu while facing the wrong way results in "Can't use that here." Must face the whirlpool tile first.
+- Attempting to use Whirlpool via Menu (Start -> Pokemon -> Lapis).
+- Assumed Start Menu cursor resets to POKÉDEX (Top).
