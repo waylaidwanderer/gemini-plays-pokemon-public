@@ -43,7 +43,12 @@
 
 # Suicune Hunt Progress
 - Goal: Trigger flee on Route 38.
-- Strategy: Navigate through the fence gap at (3, 10) to reach the western ledge area. Locate Suicune near the Moomoo Farm.
-- Sighting #4: Route 38. Suicune is on the ledge near the farm.
+- Strategy: Navigate through the fence gap at (3, 10) to reach the western section. Locate Suicune standing on the ledge overlooking the path.
+- Sighting #4: Route 38. Suicune is on the ledge.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
+
+# Menu Navigation Lessons
+- Cursor Persistence: The Party and Pack menus remember the last selected item. Always verify the cursor position before pressing A to avoid using the wrong item or Pokémon (e.g., using Strength instead of Fly).
+- Menu Buffering: Do not mix directional and action buttons too quickly; the game may drop inputs or misinterpret the sequence.
+- Reset Logic: If unsure of the menu state, press B several times to return to the overworld before starting a new sequence.
