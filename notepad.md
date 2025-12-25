@@ -33,9 +33,9 @@
 
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
-- Status: Super Repel active (Turn 19309).
+- Status: Super Repel NOT active (Turn 19309 application failed).
 - Total Pacing Steps: 410.
-- Current Spray Steps: 10.
+- Current Spray Steps: 0.
 - Next Pokedex Check: NOW (post-battle).
 
 # PC Storage (Box 1)
