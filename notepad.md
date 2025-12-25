@@ -2,18 +2,21 @@
 - **Primary:** Challenge the Pokémon League.
 - **Secondary:** Reach Tohjo Falls (Route 27).
 - **Tertiary:** Train team for Victory Road.
-- **Immediate:** Surf East on Route 27.
+- **Immediate:** Use Super Repel, then Surf East.
 
-# Current Status (Turn 18557)
-- **Location:** Route 27 (0, 6).
-- **Activity:** Surfing East.
-- **Goal:** Reach Tohjo Falls.
-- **Context:** Entered Route 27. Heading to Kanto.
+# Current Status (Turn 18564)
+- **Location:** Route 27 (12, 9).
+- **Activity:** Opening Menu.
+- **Goal:** Use Super Repel.
+- **Context:** Escaped wild battle. Need to prevent more encounters.
 
 # Plan
-1. Surf East to Route 27 (keep heading right).
-2. Enter Tohjo Falls.
-3. Navigate Victory Road.
+1. Open Pack.
+2. Switch to Items Pocket (if needed).
+3. Use Super Repel.
+4. Surf East to Route 27 (keep heading right).
+5. Enter Tohjo Falls.
+6. Navigate Victory Road.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
