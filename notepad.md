@@ -14,9 +14,8 @@
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
 - Status: B2F Ice Puzzle Solved.
-    - Overshot to (19, 8) but clear path back to center.
-    - Sliding Left from (19, 8) lands on Floor at (9, 8).
-    - Ladder at (9, 11) is accessible from (9, 8).
+    - Found Boulder 4 at (12, 13). All 4 boulders accounted for on B2F.
+    - Puzzle is fully solved.
 - Goal: Exit Ice Path.
     - Take Ladder at (9, 11) to B1F/1F.
 - Note: The puzzle was simpler than expected once boulders were found.
