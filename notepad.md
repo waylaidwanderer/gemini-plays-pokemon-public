@@ -5,8 +5,11 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Attempting to interact with Whirlpool at (25, 23).
-- Step 1: A (Interact with tile in front).
-- Step 2: A (Confirm "Use Whirlpool" if prompt appears).
-- Step 3: A (Advance text).
-- Step 4: If successful, move Down.
+- Status: Accessing Lapis's menu to check for Whirlpool option.
+- Step 1: Left (Move to 24, 22).
+- Step 2: Down (Face Whirlpool at 24, 23).
+- Step 3: Start (Open Menu).
+- Step 4: Down (Select POKEMON).
+- Step 5: A (Confirm).
+- Step 6: Down, Down (Select Lapis).
+- Step 7: A (Open Lapis's options).
