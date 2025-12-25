@@ -29,8 +29,9 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19195)
-1. Talk to Clerk at (1, 3) from (3, 3) facing Left to check Ultra Ball availability and price.
-2. Sell items (Full Restore, Max Revive, TMs) to reach ~¥12,000 if Ultra Balls are available.
-3. Exit Mart and check Suicune's location in the Pokedex.
-4. Use suicune_tracker_v2 with the discovered location.
+# Immediate Strategy (Turn 19203)
+1. Cancel the shop menu and exit the Ecruteak Mart.
+2. Check Suicune's location in the Pokedex AREA map.
+3. Use suicune_tracker_v2 with the discovered location.
+4. If Suicune is roaming, decide on a boundary-cycling location (like Route 36/37).
+5. If Suicune is at a specific milestone (like the Route 42 island), head there.
