@@ -47,14 +47,18 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19243)
+# Immediate Strategy (Turn 19244)
 1. Pace back and forth in the tall grass at (7, 2) and (8, 2) on Route 37.
-2. Since Super Repel is active and XENON (Lv21) is leading, only Suicune (Lv40) can trigger an encounter.
+2. Super Repel is active (200 steps). XENON (Lv21) leading forces Suicune (Lv40) encounter.
 3. If Suicune is encountered: Use MEAN LOOK on Turn 1.
-4. If no encounter after 20 steps: Re-check Pokedex.
+4. If Suicune flees: Track it again and resume boundary cycling.
+5. If Repel wears off without encounter: Re-check Pokedex.
 
-# Reflection Notes (Turn 19243)
-- Super Repel is active.
+# Quick Claw Hypothesis
+- Hypothesis: A lady in a house near the National Park (Route 35/36) gives the Quick Claw. This would allow XENON a chance to move first and use Mean Look.
+
+# Reflection Notes (Turn 19244)
 - Suicune confirmed on Route 37.
 - XENON is the lead.
-- Speed is the primary concern; Suicune (Lv40) is likely faster than XENON (Lv21). Use suicune_tracker_v2 for advice if needed.
+- Speed Gap: Suicune (Lv40) is much faster than XENON (Lv21). Hypnosis/Mean Look may fail if it flees first.
+- Goal: Encounter Suicune to verify if it flees before Turn 1 action.
