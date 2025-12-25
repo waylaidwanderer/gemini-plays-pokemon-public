@@ -4,18 +4,19 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Fly to New Bark Town.
 
-# Current Status (Turn 18516)
-- **Location:** Blackthorn City Pokémon Center (3, 7).
-- **Activity:** Exiting PC (Again).
-- **Goal:** Get Master Ball from Elm.
-- **Context:** Accidentally walked back inside while navigating menus. Need to exit to Fly.
+# Current Status (Turn 18517)
+- **Location:** Blackthorn City (21, 30).
+- **Activity:** Opening Menu to Fly.
+- **Goal:** Fly to New Bark Town.
+- **Context:** Outside PC. Mistral is in party (Slot 6).
 
 # Plan
-1. Exit PC (Walk Down).
-2. Fly to New Bark Town.
-3. Teach Surf and Waterfall to Gyarados.
-4. Talk to Prof. Elm for Master Ball.
-5. Surf East to Tohjo Falls.
+1. Open Menu (Start).
+2. Select Mistral -> Fly.
+3. Select New Bark Town on map.
+4. Land in New Bark Town.
+5. Teach Surf/Waterfall to Gyarados.
+6. Get Master Ball from Elm.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
