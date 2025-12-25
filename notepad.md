@@ -32,3 +32,6 @@
 # Pokedex Navigation
 - Numerical Pokedex: Press UP from #001 to wrap to #251.
 - Suicune (#245): Wrap to #251, then 6 more UP presses.
+
+# Shopping List
+- Super Repels (Mahogany Town Mart)
