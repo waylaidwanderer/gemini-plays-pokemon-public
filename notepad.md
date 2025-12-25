@@ -20,3 +20,9 @@
     - Go around to (12, 5). Push Left to (10, 5).
     - Go around to (10, 6). Push Up to (10, 1).
     - Push Right to (11, 1). Push Down to Pit (11, 2).
+## Reflection (Turn 16937)
+- **Error Analysis:** Major hallucination of position ((10,16) vs (12,11)) caused loop. 
+- **Correction:** STRICTLY verify `Game State` coordinates before planning.
+- **Goal:** Executing "Long Loop" to reach (11, 8) from South.
+- **Puzzle Status:** Room reset verified (Boulders returned). B3 missing from visual list at (9,11) - assume path clear or will hit invisible wall.
+- **Action:** Sliding Right to (9,9), then will slide South.
