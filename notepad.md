@@ -87,3 +87,9 @@
 - **Action:** Pressing `A` to open Party Menu.
 - **Hypothesis:** Game might remember the last cursor position in Party Menu (Lapis).
 - **Test:** If Party Menu opens with Lapis selected, Memory Cursor is active. If Gyarados, it resets.
+
+# Reflection (Turn 18142)
+- **Status:** Party Menu Open. Cursor IS on Lapis (Slot 3).
+- **Discovery:** "Memory Cursor" hypothesis CONFIRMED. The game remembered I was on Lapis from the previous failed attempt.
+- **Action:** Pressing `A` to select Lapis.
+- **Next:** Select "WHIRLPOOL" from the sub-menu.
