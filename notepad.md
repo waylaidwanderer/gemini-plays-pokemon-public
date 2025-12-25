@@ -113,3 +113,8 @@
 # Mechanics Confirmation (Turn 18149)
 - **Memory Cursor:** Confirmed. Opening the Party Menu placed the cursor directly on 'LAPIS' (Slot 3), which was the last selected Pokémon.
 - **Implication:** Menu navigation logic must check the current cursor position before issuing directional inputs. Blindly assuming 'reset to top' is dangerous.
+
+# Interaction Update (Turn 18155)
+- **Observation:** `A` button interaction with Whirlpool from Overworld failed (no text).
+- **Conclusion:** Must use Start Menu -> Pokemon -> Whirlpool to activate.
+- **Action:** Opening Start Menu to begin sequence.
