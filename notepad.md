@@ -35,4 +35,3 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Pokedex Area Map Observations
 - Turn 18761: Dot is blinking on Route 42 middle island, stationary. Scripted encounter is still active.
-- Turn 18772: Heading to Mahogany Town to test if Suicune is roaming or stationary.
