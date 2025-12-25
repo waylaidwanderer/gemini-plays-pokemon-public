@@ -21,10 +21,9 @@
 - COUNTER: Interact from adjacent tile.
 
 # Repetitive Task: Pacing for Suicune
-- Status: Pacing (6, 2) <-> (7, 2).
-- Repel: Applied Turn 19361. Total steps: ~110. (Update every 50 steps).
-- Pokedex Status: Confirmed Suicune on Route 37 (Turn 19368).
-- Objective: Trigger encounter.
+- Status: PAUSED. Pivoting to Quick Claw quest (Route 35/36).
+- Repel: Applied Turn 19361. ~110 steps taken.
+- Objective: Obtain Quick Claw.
 
 # Resources & PC
 - Balls: 1 Ultra, 23 Great.
