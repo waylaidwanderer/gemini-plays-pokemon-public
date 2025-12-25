@@ -3,27 +3,27 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18307)
-- **Location:** Dragon's Den B1F (25, 22).
-- **Action:** Move to (24, 22) and interact with Whirlpool at (24, 23).
+# Current Status (Turn 18309)
+- **Location:** Dragon's Den B1F (26, 22).
+- **Action:** Test interaction with Eastern Buoys/Whirlpools.
 - **Reasoning:** 
-    - Attempt to use Whirlpool on (25, 23) via menu failed ("Can't use that here").
-    - This suggests (25, 23) is either not a whirlpool or not the interaction point.
-    - (24, 23) is marked as a Whirlpool in my notes.
-    - Lapis is now Lead (Slot 1), which might fix the previous failure at (24, 23).
+    - Interactions with (24, 23) and (25, 23) failed. 
+    - "Can't use that here" message suggests those specific tiles might not be valid Whirlpool targets, or "Buoy" tiles are unbreakable barriers.
+    - Testing (26, 23) [Down] and (27, 22) [Right] to be thorough.
+    - If these fail, the "Southern Barrier" hypothesis is likely false, and I must explore North for a different path.
 - **Sequence:**
-  1. `Left` (Move to 24, 22).
-  2. `Down` (Face Whirlpool at 24, 23).
-  3. `A` (Interact).
-  4. `A` (Confirm).
+  1. Move to (26, 22).
+  2. Face Down (26, 23), Interact.
+  3. Face Right (27, 22), Interact.
 
 # Plan
-1. Interact with Whirlpool at (24, 23) with Lapis as Lead.
-2. If successful, clear it and move South.
-3. If fails, try Menu -> Whirlpool on (24, 23).
+1. Test (26, 23) and (27, 22).
+2. If successful, proceed.
+3. If fails, Navigate North to explore the channel and look for a gap in the barrier or another path.
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle. Requires HM06 + Badge. Interactive point likely specific.
+- **Whirlpool:** Obstacle. Requires HM06 + Badge.
+- **Buoy:** Possibly unbreakable barrier. Need to verify if *any* in this group are breakable.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
