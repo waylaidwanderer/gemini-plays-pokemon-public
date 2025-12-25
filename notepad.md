@@ -46,3 +46,13 @@
 4. **Automation**: Using agents to verify Suicune's scripted logic and item locations.
 5. **Goal Clarity**: WHAT is clear (Catch Suicune), HOW is documented (Fly to Ecruteak, walk West).
 6. **Error Analysis**: Confirmed Route 38 is a one-way path West due to ledges at X=7 and X=10. This was the 'False Constraint' that caused the backtracking loop.
+
+# Suicune Hunt Strategy (HOW)
+- Western Pocket Isolation: Verified that Route 38 Top Lane (X=0-2) is blocked from the south by Row 7 walls and from the east by a wall at X=3. Approach from Row 0-1 on Route 38 (Ecruteak side) is required to bypass these walls.
+- Path to Suicune:
+  1. Fly to Ecruteak.
+  2. Walk West to (0, 18).
+  3. Enter Route 38 Gatehouse (9, 5) -> (0, 5).
+  4. Enter Route 38 at (35, 9).
+  5. Move to Row 6 (Top Lane).
+  6. Walk West to (0, 6) area near Miltank farm.
