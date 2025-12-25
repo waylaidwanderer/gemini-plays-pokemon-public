@@ -56,6 +56,6 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Puzzle Status: Boulder 1 at (2, 4). Gap at (2, 3).
-- Action: Moving to (2, 3) and pushing Boulder 1 South to Pit (2, 5).
-- Next: Confirm drop, then descend to 1F.
+- Puzzle Status: West Side Complete. Boulder 1 dropped into Pit (2, 5).
+- Action: Jumping into Pit (2, 5) to descend to 1F and verify path.
+- Next: Locate Clair and verify bridge completion.
