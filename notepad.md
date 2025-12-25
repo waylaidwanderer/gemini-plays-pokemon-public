@@ -21,4 +21,6 @@
 - **WARP**: Map transition.
 - **WATER**: Surf required.
 - **BUOY**: Whirlpool (Requires HM06).
-- Insight: Direct interaction ('A') with Whirlpool failed. Must use Party Menu -> Pokemon -> Lapis -> Whirlpool.
+- Insight: Game State reports Facing UP despite previous Down inputs. Menu navigation is active.
+- Correction: Close Menu, Face DOWN (towards Whirlpool), Re-open Menu, Select Lapis -> Whirlpool.
+- Cursor Memory: Cursor likely on POKEGEAR. Need Up, Up to POKEMON.
