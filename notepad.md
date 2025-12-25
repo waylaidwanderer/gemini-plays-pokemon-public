@@ -14,8 +14,8 @@
 - Prerequisite: Defeat Wise Trio. (VERIFIED: COMPLETED)
 - Prerequisite: Clear Bell. (VERIFIED: COMPLETED)
 - Strategy: Talk to all 3 Sages on 1F in a single session to trigger encounter.
-    - Sage at (11, 11): Pending.
-    - Sage at (5, 9): Pending.
+    - Sage at (11, 11): TARGET (Current).
+    - Sage at (5, 9): VERIFIED GONE (Turn 18989).
     - Sage at (14, 6): Pending.
 - Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off on 1F.
 - Note: Stairs at (10, 2) on 1F are currently inactive.
