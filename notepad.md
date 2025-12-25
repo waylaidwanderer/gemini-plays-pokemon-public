@@ -18,3 +18,7 @@
 3.  **Retrieve Item:**
     - Get Item at (8, 9).
     - Exit via Ladder (9, 11).
+- **Analysis:** To reach Item (8, 9), I must land at (8, 11) from the Left.
+- **Requirement:** Must start sliding Right from (3, 11).
+- **Plan:** Push Boulder at (3, 12) Up to (3, 10). Then I stand at (3, 11). Slide Right.
+- **Contingency:** If pushing on ice fails, I cannot reach the item with current boulder placement. Must reset.
