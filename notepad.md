@@ -24,7 +24,8 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: In Item Menu (Mistake).
-- Action: Exit Item Menu (B) -> Select Pokemon (Up) -> Open Party (A).
-- Next: Select Lapis (Slot 3) -> Use Whirlpool.
+- Status: In Party Menu, but Facing UP (Wrong Direction).
+- Action: Exit Menus (B, B) -> Face DOWN (Down).
+- Reason: Must face Whirlpool to use HM06.
+- Next: Open Menu (Start) -> Select Lapis -> Whirlpool.
 - Whirlpool Location: (24, 23).
