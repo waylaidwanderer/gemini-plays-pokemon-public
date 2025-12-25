@@ -1,21 +1,14 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
+- Hunt Progress: Searching Route 38 central/ledge area.
 
 # Side Quests & Resources
-- Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
+- Arthur (Hard Stone): Route 36. Thursday only. (Today!) - PRIORITY
+- Quick Claw: National Park (34, 12). Lady in NE. Only present Mon/Wed/Fri/Sun.
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
 - Sick Miltank: Needs Berries.
-- Arthur (Hard Stone): Route 36. Thursday only. (Today!)
-
-# Suicune Sighting Logic
-- Observed Sightings: 1. Burned Tower -> 2. Cianwood City -> 3. Route 42 -> 4. Route 38 (Current).
-- Trigger Condition: Approach Suicune in the overworld.
-- Route 38 Potential Locations: 
-  - Eastern end near Ecruteak Gatehouse (Targeting unseen tiles).
-  - (1, 3) - Western Pocket (Isolated, requires investigation of access).
-  - Ledge area near farm: (6, 13) or (7, 10-12).
 
 # Tile Mechanics (Global)
 - FLOOR: Standard traversable tile.
@@ -36,12 +29,10 @@
 # Route 38/39 Mechanics & Exploration
 - Verified Map Connections:
   - Southern Path (Row 14-16) is reachable from North via Row 13 ledges. Exit North at (9, 14).
-  - Western Pocket (X=0-2, Row 0-6) on Route 38 is isolated by walls at X=3 and Row 7. Entry point identified at (2, 0) at the northern map edge.
-  - Route 39 Connectivity: (19, 8) to (19, 6) is blocked by walls at X=16 and Row 7. (17-19, 4-6) is an isolated pocket.
   - Route 39 North-South: Row 7 wall has a gap at X=12.
   - Route 39 East-West: Row 6 wall at X=16 blocks travel. Bypass via Row 5 or 8.
 
 # Lessons Learned
 - Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
-- Hallucination Note: Stopped obsessing over Western Pocket; focusing on route perimeter and ledges.
+- Pacing: Avoid repetitive attempts at unverified "isolated" pockets. Focus on scripted triggers.
