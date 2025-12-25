@@ -34,7 +34,7 @@
 - Rule: Always B-mash to clear the screen before starting a Start menu sequence.
 - Rule: Move at least one tile away from doors before opening the menu to avoid accidental re-entry.
 - Menu Wrapping: Start menu wraps (POKEDEX <-> EXIT).
-- Fly Map: In Olivine, the cursor defaults to New Bark Town (Verified).
+- Fly Map: In Olivine, the cursor defaults to New Bark Town.
 
 # Swarms & Tracking
 - Yanma Swarm: Reported on Route 35 (Turn 19540).
