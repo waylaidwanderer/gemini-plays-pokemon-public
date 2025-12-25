@@ -13,12 +13,13 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Exiting to 1F.
+- Status: 1F East (Exiting).
 - Goal: Reach Blackthorn City.
     - Plan:
-        1. (Done) Solved B1F South Ice Puzzle.
-        2. Take Ladder at (5, 25) to 1F East.
-        3. Exit 1F East to Blackthorn City.
-- Note: Bag is Full. Skipped Iron at (5, 35).
+        1. (Current) At Ladder (37, 13).
+        2. Navigate South to Ledge at (37, 17).
+        3. Hop Ledge Down.
+        4. Find Exit Warp (likely South).
+- Note: Bag is Full. Protein at (35, 9) ignored.
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
