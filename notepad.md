@@ -13,7 +13,7 @@
 - WALL: Impassable.
 - FLOOR: Standard traversable tile.
 - COUNTER: Impassable; interact with from front.
-- WARP_CARPET_DOWN: Warp tile; triggers map transition when moving off the bottom edge.
+- WARP_CARPET: Warp tile; triggers map transition when moving off the map grid (e.g., at edges or building exits).
 - LADDER: Warp tile; triggers warp when stepping on.
 - PC: Impassable; interact from below.
 - TALL_GRASS: Triggers wild encounters.
