@@ -17,7 +17,7 @@
 - DOOR/WARP: Triggers map transition.
 
 # Side Quests
-- Arthur (Hard Stone): Route 36 (NE corner). Thursday only.
+- Arthur (Hard Stone): Route 36 (NE corner). Thursday only. (Pivoted: Stuck in dialogue loop Turn 20816)
 - Clear Bell: In Key Items (Verified).
 
 # Plan: Reach Route 38 Western Ledge
