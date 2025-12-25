@@ -25,3 +25,13 @@
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Goldenrod Dept. Store 2F Clerk (13, 6) Inventory:
+- POKé BALL (¥200)
+- GREAT BALL (¥600)
+- ESCAPE ROPE (¥550)
+- REPEL (¥350)
+- REVIVE (¥1500)
+- FULL HEAL (¥600)
+- POKé DOLL (¥1000)
+- FLOWER MAIL (¥50)
