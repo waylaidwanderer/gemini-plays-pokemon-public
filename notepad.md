@@ -10,8 +10,8 @@
 
 # Quick Claw Quest
 - NPC: Woman on a bench in the northeast section of National Park.
-- Coordinates: Northeast corner. Conflicting info: (19,10) or (17,12). (34,12) is a wall/bench tile.
-- Path: From Route 35 entrance, head north through grass, then east along fence to the northeast corner.
+- Coordinates: Northeast area. Conflicting: (19,10), (17,12), (34,12). Map width is 40.
+- Path: From Route 35 entrance, head north through grass, then east along fence.
 
 # Fly Map List (Order from New Bark Town)
 1. New Bark Town, 2. Cherrygrove City, 3. Violet City, 4. Azalea Town, 5. Goldenrod City, 6. Ecruteak City, 7. Olivine City, 8. Cianwood City, 9. Mahogany Town, 10. Lake of Rage.
