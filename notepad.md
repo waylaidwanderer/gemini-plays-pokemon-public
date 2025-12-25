@@ -32,7 +32,7 @@
 
 # Task: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: Route 36. Arthur loop confirmed; pivoting.
+- Current Status: In Violet City (Turn 20931). Arthur loop confirmed; pivoting to Suicune hunt.
 - Plan:
   1. Fly to Olivine City.
   2. Walk North to Route 39, then Route 38 West.
