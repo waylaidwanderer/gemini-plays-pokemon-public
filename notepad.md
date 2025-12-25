@@ -47,3 +47,7 @@
 
 # Swarms
 - Yanma: Route 35 (Reported by Arnie).
+
+# Swarms
+- Yanma: Route 35 (Reported by Arnie).
+- Strategy: Check swarm after obtaining Quick Claw. Route 35 is north of Goldenrod.
