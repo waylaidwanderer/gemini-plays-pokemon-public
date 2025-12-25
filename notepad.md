@@ -54,10 +54,13 @@
 - Defeated Cooltrainer M at (6, 6).
 - Action: Ascend Ladder at (7, 9) to 2F.
 - Strength Status: Active.
-- Puzzle Mistake: Pushed Boulder 4 South to (6, 17). It is now stuck against the bottom wall (cannot get behind it).
-- Action: Resetting room by using Ladder at (7, 9).
-- Correct Strategy (Next Run):
-  1. Go East to (8, 16) -> South to (8, 17) -> West to (6, 17).
-  2. Push Boulder 4 (6, 16) North all the way to (6, 7).
-  3. Push Boulder 4 East into Pit (8, 7).
-  4. Ignore Boulder 3 (Decoy/Optional?) for now.
+- Puzzle Logic:
+  - Boulder 3 (8, 14) cannot be pushed North past Wall at (8, 9).
+  - Boulder 3 cannot be pushed West from Col 8 due to Walls at (9, 11), (9, 12), (9, 13).
+  - Therefore, B3 CANNOT reach the Pit. B3 is the SACRIFICE.
+- Correct Strategy:
+  1. Push Boulder 3 (8, 14) South to (8, 17) to open the path.
+  2. Circle West to Boulder 4 (6, 16).
+  3. Push Boulder 4 North to (6, 7).
+  4. Push Boulder 4 East into Pit (8, 7).
+- Action: Ascending to 2F to execute this plan.
