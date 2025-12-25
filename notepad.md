@@ -30,9 +30,9 @@
 # Plan: Reach Route 38 Western Ledge (Started Turn 20771)
 1. Fly to Olivine City. (Manual Step-by-Step)
    - [Done] Up from New Bark -> Cherrygrove (Turn 20885)
-   - [Next] Up from Cherrygrove -> Violet
-   - Up from Violet -> Ecruteak
-   - Left from Ecruteak -> Olivine
+   - [Done] Up from Cherrygrove -> Violet (Turn 20886)
+   - [Next] Up from Violet -> Row 0 (Mahogany/Ecruteak)
+   - Navigate Row 0 Left to Olivine
    - Press A to land.
 2. Walk North through Route 39 to Route 38.
 3. Approach (3, 10) on Route 38 to trigger Suicune.
