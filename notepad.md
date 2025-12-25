@@ -44,3 +44,10 @@
 - Step 6: When Suicune is on Route 38, use Super Repel and run in grass.
 - Note: Suicune is Level 40. Mean Look must hit on Turn 1.
 - Mechanic: Roaming Pokemon move every time the player transitions between routes or cities.
+
+# Lessons Learned
+- Cannot use FLY from inside buildings; must be outdoors.
+- Roaming Pokemon (Suicune) relocate upon EVERY map transition (city-to-route, route-to-city).
+- FLYING forces roaming Pokemon to a completely random location in Johto.
+- Poké Mart inventories scale with Badge progress; Super Repels appear later.
+- Interacting with clerks behind counters: Face the counter tile, not the NPC.
