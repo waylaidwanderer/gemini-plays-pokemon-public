@@ -31,3 +31,4 @@
 - **Interaction:** Granny at (2,4) in Route 27 House gives advice on trust/loyalty (Friendship check). Does not heal. (Turn 18615)
 - **Lesson:** Do not switch low-level Pokémon into high-power moves (e.g., Solarbeam) relying solely on resistance. Base stats are critical. (Turn 18643)
 - **Mechanic:** Abilities (like Intimidate) do not exist in Gen 2. Don't rely on them. (Turn 18662)
+- **Status:** Gyarados awoke from sleep. (Turn 18670)
