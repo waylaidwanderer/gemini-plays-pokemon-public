@@ -32,8 +32,9 @@
 - Suicune Log: Confirmed on Route 35 (Turn 19388).
 
 # Resources & PC
-- Balls: 1 Ultra, 23 Great.
-- Funds: ¥2373.
+- Balls: 1 Ultra, 23 Great, 2 Poke.
+- Funds: ¥373.
+- Repels: 4 Super Repels (Bought Turn 19420).
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Milestones
