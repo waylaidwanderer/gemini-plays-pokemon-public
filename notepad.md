@@ -16,11 +16,14 @@
 - **Whirlpool Usage:** Attempting to use Whirlpool from the menu while facing the wrong way results in "Can't use that here." Must face the whirlpool tile first.
 - Attempting to use Whirlpool via Menu (Start -> Pokemon -> Lapis).
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
-- Whirlpool interaction via 'A' failed.
-- "Start, A" sequence resulted in no visible text (Menu likely failed to open or closed).
-- Retrying with robust "Reset State" sequence:
-  1. B (x2) to ensure Overworld.
-  2. Down to ensure facing Whirlpool.
-  3. Start to open Menu.
-- Goal: Reach "Menu Open" state reliably.
-- Next: Select Pokemon -> Lapis -> Whirlpool.
+- Whirlpool interaction requires Facing DOWN.
+- "Start, A" sequence confirmed Menu open, Cursor on POKEMON.
+- PREVIOUS FAILURE: "B, B, Down, Start" sequence resulted in Facing UP.
+- CAUSE: Likely Menu closing animation swallowed the 'Down' input or State didn't update.
+- NEW STRATEGY: Isolate the "Face Down" action.
+- Plan:
+  1. Close Menu (B).
+  2. Wait (sleep).
+  3. Face Down (Down).
+  4. Interact (A). (Gen 2 allows 'A' interaction for Whirlpool if Badge + Move present).
+- Next Turn: If text appears ("It's a huge whirlpool..."), confirm YES. If no text, check Facing and retry Menu.
