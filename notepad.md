@@ -2,7 +2,7 @@
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Hunt started Turn 20250.
-- Fly attempt to Ecruteak started Turn 20482.
+- Fly attempt to Ecruteak started Turn 20482. (Arrived in Olivine Turn 20493).
 
 # Side Quests & Resources
 - Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
