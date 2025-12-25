@@ -21,3 +21,4 @@
 - Validated Menu Navigation: Start -> Down -> A (Pokemon).
 - Current Issue: Player facing UP, Whirlpool is DOWN. Must face DOWN.
 - Corrective Action: Close all menus -> Face Down -> Open Menu -> Pokemon -> Lapis.
+- Current Status: Recovering from accidental Pack menu entry. Exiting to Overworld to reset facing.
