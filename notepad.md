@@ -20,38 +20,19 @@
 - Current Status: Roaming Johto.
 - Strategy: Mean Look with XENON (Lv21), Sleep, Ultra Balls.
 
-# Time Tracking
-- Super Repel Search: Started Turn 18395. Status: Overwatch says they ARE on 2F. Plan: Return to 2F and check the Trainer Items clerk (13, 6) more carefully.
-
-# PC Storage (Box 1)
-- RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
-
-# Goldenrod Dept. Store 2F Clerk (13, 6) Inventory:
-- POKé BALL (¥200)
-- GREAT BALL (¥600)
-- ESCAPE ROPE (¥550)
-- REPEL (¥350)
-- REVIVE (¥1500)
-- FULL HEAL (¥600)
-- POKé DOLL (¥1000)
-- FLOWER MAIL (¥50)
-
-# Goldenrod Dept. Store 2F Clerk (13, 5) Inventory:
-- POTION (¥300)
-- SUPER POTION (¥700)
-- ANTIDOTE (¥100)
-- PARLYZ HEAL (¥200)
-- AWAKENING (¥250)
-- BURN HEAL (¥250)
-- ICE HEAL (¥250)
-Verified: Super Repels NOT sold here.
-
-# Strategy Update
-- Goldenrod Dept. Store does not sell Super Repels at this stage.
-- Plan: Fly to Ecruteak City, check Mart for Super Repels, then hunt Suicune on Route 38.
-
 # Suicune Battle Plan
 - Lead: XENON (Lv21)
 - Turn 1: MEAN LOOK (prevent fleeing)
 - Turn 2+: HYPNOSIS (apply Sleep)
 - Goal: Lower HP carefully and use ULTRA BALLS.
+
+# PC Storage (Box 1)
+- RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Goldenrod Dept. Store Inventory Notes
+- 2F Clerk (13, 6): Poké Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
+- 2F Clerk (13, 5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
+- Super Repels NOT sold here.
+
+# Time Tracking
+- Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod. Moving to Ecruteak.
