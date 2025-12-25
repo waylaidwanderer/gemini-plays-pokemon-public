@@ -1,5 +1,5 @@
 # Blackthorn City Strategy
-- **Current Task:** Exit Gym and Heal.
+- **Current Task:** Heal at Pokémon Center.
 - **Next:** Enter Dragon's Den (Surf behind Gym).
 
 # Dragon's Den Challenge
@@ -11,15 +11,6 @@
 - **Muscle:** Lv 59 (86/194 HP).
 - **Others:** Healthy.
 
-# Blackthorn Gym Strategy
-- **Status:** Cleared. Clair defeated.
-- **Exit Path:** 1F (6, 3) -> (9, 3) -> (9, 7) -> (7, 7) -> Ladder at (7, 9).
-
-# Key Locations
-- **Gym Leader Clair:** 1F (5, 3).
-- **Ice Path Entrance:** (36, 9).
-- **Move Deleter:** Blackthorn City.
-
 # Tile Mechanics
 - **LEDGE_HOP_DOWN**: One-way traversable (South only).
 - **FLOOR**: Standard walkable tile.
@@ -29,3 +20,4 @@
 - **LADDER**: Vertical transport.
 - **BOULDER**: Pushable object.
 - **WARP**: Map transition.
+- **WATER**: Requires SURF to traverse.
