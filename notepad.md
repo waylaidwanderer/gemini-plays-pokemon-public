@@ -1,19 +1,17 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (4, 12) (Ice Path B2F).
-- **Goal:** Get Item at (8, 9), then Ladder at (9, 11).
+- **Position:** Player at (19, 12).
+- **Goal:** Escape B2F and Reset Puzzle.
 - **Puzzle State:**
-  - **B2:** Dropped to B2F (3, 12).
-  - **Hypothesis:** Boulders reset on B1F? Checking.
+  - **B2:** Dropped to (3, 12). This position seems incorrect for Item retrieval (blocks access to (3, 11)).
+  - **Hypothesis:** Need to try the other Pit (4, 7).
 
 ## Navigation Plan
-1.  **Retrieve Item:**
-    - Slide Right to (10, 12).
-    - Walk to (9, 10) -> Slide Up to (9, 8).
-    - Walk to (8, 8) -> Pick up Item at (8, 9).
-2.  **Return to B1F:**
-    - Go back to Ladder (9, 11).
-    - Climb to B1F.
-3.  **Verify Reset:**
-    - Check if B2 is back at (7, 8).
+1.  **Escape:**
+    - Slide Up from (19, 12) to (19, 1).
+    - Walk Left to (18, 1) -> (17, 1).
+    - Climb Ladder to B1F.
+2.  **Reset & Retry:**
+    - Verify B2 reset to (7, 8).
+    - Solve B2 to push into Pit (4, 7).
