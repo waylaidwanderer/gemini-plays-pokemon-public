@@ -28,3 +28,9 @@
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Immediate Strategy (Turn 19195)
+1. Talk to Clerk at (1, 3) from (3, 3) facing Left to check Ultra Ball availability and price.
+2. Sell items (Full Restore, Max Revive, TMs) to reach ~¥12,000 if Ultra Balls are available.
+3. Exit Mart and check Suicune's location in the Pokedex.
+4. Use suicune_tracker_v2 with the discovered location.
