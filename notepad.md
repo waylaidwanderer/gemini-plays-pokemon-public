@@ -31,8 +31,8 @@
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Rules & Logic
-- Menu Reset: Always mash B to clear the screen before starting a sequence.
-- Warp Safety: Move at least one tile away from doors before opening the menu to avoid accidental re-entry.
+- Rule: Always press B multiple times to clear the screen before starting a sequence.
+- Rule: Move at least one tile away from doors before opening the menu to avoid accidental re-entry.
 - Menu Wrapping: Start menu wraps (POKEDEX <-> EXIT).
 - Fly Map: In Olivine, the cursor defaults to New Bark Town.
 
