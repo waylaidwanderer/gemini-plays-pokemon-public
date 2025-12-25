@@ -29,9 +29,14 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19203)
-1. Cancel the shop menu and exit the Ecruteak Mart.
-2. Check Suicune's location in the Pokedex AREA map.
-3. Use suicune_tracker_v2 with the discovered location.
-4. If Suicune is roaming, decide on a boundary-cycling location (like Route 36/37).
-5. If Suicune is at a specific milestone (like the Route 42 island), head there.
+# Immediate Strategy (Turn 19212)
+1. Find Suicune in the alphabetical Pokedex list (currently at 'S/T' area).
+2. Select Suicune and view "AREA" map.
+3. Record Suicune's exact location (Route #) and use suicune_tracker_v2.
+4. If roaming, identify the nearest boundary (e.g., Route 36/37 or 42/Mahogany) to cycle.
+5. Goal: Encounter Suicune and use Mean Look/Hypnosis.
+
+# Reflection Notes (Turn 19212)
+- Confirmed Ecruteak Mart does NOT sell Ultra Balls. Need to check higher-level cities (Goldenrod/Blackthorn/Indigo).
+- Suicune tracking is priority.
+- Menu navigation must be deliberate (Party vs Pokedex error noted).
