@@ -3,18 +3,21 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18363)
-- **Location:** Dragon's Den B1F (20, 9).
-- **Action:** Walking to Exit Ladder at (20, 3).
-- **Obstacle:** Cooltrainer at (20, 8) blocks the direct path. Detouring left.
-- **Goal:** Exit Dragon's Den, then Fly to Blackthorn (or walk out).
+# Current Status (Turn 18370)
+- **Location:** Dragon's Den 1F (5, 15).
+- **Action:** Testing Exit Warp at (5, 15).
+- **Context:** Arrived here via Ladder from B1F. (5, 15) is a Warp Carpet blocked by a wall below. Trying to trigger it by entering from the North.
+- **Connection:** B1F (20, 3) Ladder -> 1F (5, 15) Warp/Arrival.
 
 # Plan
-1. Exit via ladder at (20, 3).
-2. Exit Dragon's Den Entrance.
-3. Go to Blackthorn City Pokémon Center.
-4. Deposit a Pokémon.
-5. Return to Dragon Shrine for Dratini.
+1. Step Up to (5, 14).
+2. Step Down to (5, 15) to attempt warp trigger.
+3. If successful, go to Blackthorn PC.
+4. If unsuccessful, find path to Main Exit at (3, 5).
+
+# Tile Mechanics
+- **Warp Carpet (5, 15):** Seems to require specific entry direction (North?) or is inactive.
+- **Row 11 Wall:** Blocks direct path North. Must navigate via Col 9?
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
