@@ -5,9 +5,9 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Correcting Facing (Menu -> Overworld).
-- Reason: Realized I am facing UP (away from whirlpool). Menu usage requires facing the target. Must exit menu and face DOWN.
-- Step 1: Exit Party Menu (B).
-- Step 2: Exit Main Menu (B).
-- Step 3: Face Down (Down).
-- Step 4: Interact (A).
+- Status: Opening Menu to use Whirlpool.
+- Reason: Direct 'A' interaction failed despite correct facing (Down) and positioning (adjacent). Must use Menu -> Pokemon -> Whirlpool.
+- Step 1: Open Menu (Start).
+- Step 2: Select 'Pokemon'.
+- Step 3: Select 'Lapis'.
+- Step 4: Select 'Whirlpool'.
