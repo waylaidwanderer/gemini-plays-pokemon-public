@@ -1,14 +1,15 @@
 # Strategy: Suicune Hunt (Crystal)
+- Start Turn: 20637 (Thursday)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger Hypothesis: Walking along the ledge area (Rows 8-12) triggers Suicune.
-- Test 1: Walk Row 10 from (4, 10) to (13, 10).
-- Progress: Scouring the ledge area.
+- Route 38 Trigger: Proximity to the ledge (Rows 8-12). Note: Walking Row 10 triggered a ledge hop at (10, 12), not a script.
+- Goal: Verify if the Route 38 sighting is complete by checking the Pokédex or looking for Eusine.
+- Next Steps: Scour the ledge area systematically.
 
 # Strategy: Roaming Beasts (Raikou/Entei)
 - Raikou encountered on Route 38 (Turn 20702). Raikou used Roar (Turn 20705). Raikou is roaming.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only.
+- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory).
 - Clear Bell: In Key Items (Verified Turn 20623).
 
 # Tile Mechanics (Global)
@@ -22,8 +23,7 @@
 - WATER: Traversable with Surf.
 - BERRY_TREE: Impassable.
 
-# Route 38/39 Mechanics & Exploration
-- Northern Path (Row 5): Clear East-West path between eastern and western sections.
-- Western Ledge (X=0-7): Accessible from the East via Row 5 (X=14 wall has a gap at Row 5 and Row 12).
-- Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
-- Connectivity: Area West of X=10 is reachable from East via Row 14 (9, 14 to 10, 14). Row 14 is reachable from North via Row 13 ledges (11-20, 13). Exit North at (9, 13).
+# Lessons Learned
+- Menu Automation: Avoid complex custom tools for one-off menu tasks (e.g., using a single item). Manual `press_buttons` is more reliable.
+- Root Hypothesis: Always verify if a 'blocked' path is actually a scripted event or a misunderstanding of tile collision (e.g., Ledge Hop tiles).
+- Ledge Navigation: You cannot move 'Left' into a 'LEDGE_HOP_RIGHT' tile. Check tile types before pathing.
