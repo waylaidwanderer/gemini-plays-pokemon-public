@@ -23,7 +23,7 @@
 - WALL / FENCE: Impassable.
 - LEDGE_HOP_DOWN: One-way South.
 - LEDGE_HOP_LEFT: One-way West.
-- LEDGE_HOP_RIGHT: One-way East.
+- LEDGE_HOP_RIGHT: One-way East. (Confirmed at 21, 12).
 - TALL_GRASS: Traversable, encounters.
 - HEADBUTT_TREE: Impassable.
 - WARP_CARPET: Map transition.
@@ -33,10 +33,9 @@
   - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
   - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. 
   - Route 39 Wall: A wall at (16, 6) blocks east-west travel on Row 6.
-- Exploration Status:
-  - Western Pocket (X=0-2): Unexplored. Entry point likely northern path (Row 0-4) from Ecruteak.
 
 # Lessons Learned
+- Fly Mechanics: Fly can only be used in towns or cities. Cannot be used on Routes.
 - LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
 - If an area seems isolated, check adjacent maps for alternative entrances.
 - Thursday/Tuesday/Saturday: Bug Catching Contest active. National Park NPCs are replaced.
