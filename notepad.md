@@ -29,6 +29,6 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - LEDGE_HOP_DOWN/LEDGE_HOP_RIGHT: One-way movement (hop down/right).
 - FLOOR_UP_WALL: Walkable (stairs/transition).
 - COUNTER: Impassable; interact from adjacent tile.
-- Turn 19056: Starting Suicune capture sequence. Current status: Missing Route 42 encounter.
+- Turn 19056: Starting Suicune capture sequence. Current status: Missing Route 42 encounter. Flew to Ecruteak City. Check Pokedex for relocation.
 - Sprite Visibility: NPCs only appear in 'Map Objects On Screen' when within field of view.
 - Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events.
