@@ -7,6 +7,7 @@
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
 - Note: NPC missing at night (3:14 AM). Return during the day.
+- Checked (National Park): (17, 6) - Empty, (33, 11) - Empty, (35, 12) - Wall.
 - Location: Northeast area of National Park.
 
 # Swarms & Rematches
@@ -22,6 +23,7 @@
 - LEDGE_HOP_DOWN: One-way (Down).
 - LEDGE_HOP_LEFT: One-way (Left).
 - LEDGE_HOP_RIGHT: One-way (Right).
+- HEADBUTT_TREE: Impassable, Headbutt for encounters.
 
 # Resources & PC Inventory
 - Poke Balls: 1 Ultra, 23 Great, 2 Poke.
