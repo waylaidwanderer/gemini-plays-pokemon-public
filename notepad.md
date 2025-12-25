@@ -37,4 +37,6 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle Strategy:** Starmie's Bubblebeam does negligible damage to Gyarados. Healing is safe. Searching for Super Potion. (Turn 18708)
+- **Battle:** Fighting Cooltrainer Reena (Nidoqueen Lv33).
+- **Strategy:** Gyarados (83/108) vs Nidoqueen. Use Surf (Slot 4).
+- **Status:** Cursor on PACK. Navigating to FIGHT.
