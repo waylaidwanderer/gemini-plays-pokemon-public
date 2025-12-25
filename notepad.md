@@ -1,15 +1,14 @@
 # Strategy: Suicune Hunt (Crystal)
 - Start Turn: 20637 (Thursday)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Proximity to the ledge (Rows 8-12).
-- Goal: Verify if the Route 38 sighting is complete by checking the Pokédex or looking for Eusine.
-- Next Steps: Scour the ledge area systematically.
+- Route 38 Trigger: Proximity to the northern ledge (Rows 8-12, X=0-15).
+- Goal: Confirm sighting via Pokédex AREA map.
 
 # Strategy: Roaming Beasts (Raikou/Entei)
 - Raikou encountered on Route 38 (Turn 20702). Raikou used Roar (Turn 20705). Raikou is roaming.
 
 # Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory).
+- Arthur (Hard Stone): Route 36. Thursday only. Arthur is in the NE corner of Route 36, near the National Park entrance. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory).
 - Clear Bell: In Key Items (Verified Turn 20623).
 
 # Tile Mechanics (Global)
@@ -22,11 +21,6 @@
 - HEADBUTT_TREE: Impassable.
 - WATER: Traversable with Surf.
 - BERRY_TREE: Impassable.
-
-# Suicune Route 38 Trigger
-- Hypothesis: Scripted event triggers Suicune appearance/flee near the Miltank Farm ledge.
-- Trigger Area: Northern high ground (Rows 8-12, X=0-15).
-- Test: Walk Row 8 and Row 9 from East to West.
 
 # Lessons Learned
 - Menu Automation: Avoid complex custom tools for one-off menu tasks (e.g., using a single item). Manual `press_buttons` is more reliable.
