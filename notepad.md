@@ -15,3 +15,4 @@
 - **Cooltrainer F:** (35, 19)
 - **Sign (34, 24):** "Blackthorn City - A Quiet Mountain Retreat"
 - Wade (Route 31) offered Berries.
+- Granny (Blackthorn House): Mentions Dragon clan living here.
