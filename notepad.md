@@ -43,7 +43,7 @@
 
 # Suicune Hunt Progress
 - Goal: Trigger flee on Route 38.
-- Strategy: Navigate through the fence gap at (3, 10) to reach the western section. Locate Suicune standing on the ledge overlooking the path.
+- Strategy: Navigate through the fence gap at (3, 10) on Route 38 to reach the western section. Locate Suicune standing on the ledge overlooking the path.
 - Sighting #4: Route 38. Suicune is on the ledge.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
