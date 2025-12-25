@@ -5,10 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Opening Party Menu to use Whirlpool manually from Lapis (Slot 3).
-- Step 1: Start (Open Menu).
-- Step 2: Down (Select Pokemon).
-- Step 3: A (Confirm).
-- Step 4: Down x2 (Select Lapis).
-- Step 5: A (Select).
-- Step 6: Select Whirlpool.
+- Status: Exiting menu to face whirlpool and interact directly (correction).
+- Step 1: B, B (Exit menus to Overworld).
+- Step 2: Down (Face Whirlpool at 24, 23).
+- Step 3: A (Interact).
+- Step 4: A (Confirm "Use Whirlpool").
