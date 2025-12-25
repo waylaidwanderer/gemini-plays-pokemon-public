@@ -38,4 +38,5 @@
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Objective: Find Suicune on Route 38.
 - Hypothesis: Suicune is in the north-eastern part of the route, near the ledge.
-- Current Status: Super Repel active. Moving east.
+- Current Status: Attempting to use Super Repel. Moving east once active.
+- Sighting #4 Location: North-eastern Route 38, near the fence/ledge.
