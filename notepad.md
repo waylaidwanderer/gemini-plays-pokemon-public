@@ -7,8 +7,7 @@
 - **Field Moves:** If 'A' interaction fails (even when facing correctly), ALWAYS fallback to Menu -> Pokemon -> [Mon] -> [Move].
 - **Whirlpool:** Requires facing the whirlpool tile directly. 'A' button might be unreliable; Menu is safer.
 
-- Status: Menu Navigation to Use Whirlpool.
-- Reason: Direct 'A' interaction failed (no text). Must use Party Menu.
-- Step 1: Press 'Start' to open Main Menu.
-- Step 2: Verify cursor position, then navigate to 'POKEMON'.
-- Step 3: Select LAPIS (Slot 3) -> 'WHIRLPOOL'.
+- Status: Navigating Party Menu for Whirlpool.
+- Reason: Menu is open. Cursor on 'POKEMON'. Using slow_press to navigate to Lapis efficiently.
+- Step 1: 'A' (Enter Party) -> 'Down' x2 (Select Lapis) -> 'A' (Open Lapis Options).
+- Step 2: In next turn, select 'WHIRLPOOL' from the list.
