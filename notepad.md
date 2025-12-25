@@ -6,20 +6,21 @@
 - **Constraint:** Must reach (6, 6) to start the push sequence.
 
 ## Navigation Plan: Reach (6, 6)
-**Path:** Zig-Zag North via Col 12
-1.  **Leg 1:** (18, 13) -> South to Row 14 -> West to Col 13 -> North to (13, 12) -> West to (12, 12).
-    - Route: (18, 14) -> (13, 14) -> (13, 12) -> (12, 12).
-2.  **Leg 2:** North up Col 12 to Row 1 via (12, 1).
-    - Note: Watch for walls/pits near (12, 13).
-3.  **Leg 3:** West on Row 1 to (6, 1), then South to (6, 6).
+**Path:** Zig-Zag North via Col 12 & 5
+1.  **Leg 1:** `(12, 7)` -> Left to `(11, 7)` -> Up to `(11, 5)` -> Right to `(12, 5)` -> Up to `(12, 1)`.
+    - *Avoids Wall at `(12, 6)` and Wall at `(11, 4)`.*
+2.  **Leg 2:** West on Row 1 to `(5, 1)`.
+    - *Avoids Pit at `(11, 2)` by staying on Row 1.*
+3.  **Leg 3:** South to `(5, 5)` -> East to `(6, 5)` -> South to `(6, 6)`.
+    - *Avoids Wall at `(6, 3)`.*
 
 ## Puzzle Solution (Once at 6, 6)
-1.  **Push 1:** At (6, 6), push Boulder Left to (4, 6).
-2.  **Reposition:** Circle around to (4, 5).
-3.  **Push 2:** Push Boulder Down into Pit (4, 7).
+1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`.
+2.  **Reposition:** Circle `(6, 5)` -> `(5, 5)` -> `(4, 5)`.
+3.  **Push 2:** Push Boulder Down into Pit `(4, 7)`.
 
 ## Item Retrieval (B2F)
-1.  Drop into Pit (4, 7).
+1.  Drop into Pit `(4, 7)`.
 2.  Land on B2F.
 3.  Slide Up Col 4 -> Hit Boulder at (4, 7) -> Stop at (4, 8).
 4.  Slide Right to (8, 8) -> Get Item.
