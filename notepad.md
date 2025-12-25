@@ -4,17 +4,17 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18424)
-- **Location:** Dragon's Den B1F (10, 19).
-- **Action:** Clearing Whirlpool text and moving South.
-- **Goal:** Reach Shrine Entrance (19, 29).
-- **Context:** Used Whirlpool. Animation playing or text displaying.
+# Current Status (Turn 18426)
+- **Location:** Dragon Shrine (3_82).
+- **Action:** Approaching Elder.
+- **Goal:** Talk to Elder to receive Extremespeed Dratini.
+- **Context:** Party has 5 members (Swinub deposited). Space available.
 
 # Plan
-1. Advance text/animation (A, A).
-2. Move South past the dissolved whirlpool (10, 20).
-3. Surf to Shrine Entrance (19, 29).
-4. Receive Dratini.
+1. Move to (5, 3).
+2. Talk to Elder (at 5, 2).
+3. Receive Dratini.
+4. Exit Shrine.
 5. Fly to New Bark Town.
 
 # Tile Mechanics
