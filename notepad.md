@@ -24,3 +24,4 @@
 - Clear all trainers for XP.
 - Navigate floor by floor.
 - Current Target: Cooltrainer F at (4, 11).
+- Gym 2F Layout: Split into sections. West ladder (1, 7) leads to dead end with boulders. Must traverse South/East path past Cooltrainer F at (4, 11) to reach upper area.
