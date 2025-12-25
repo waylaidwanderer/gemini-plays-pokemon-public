@@ -292,5 +292,28 @@
         "action_counter": 19003
       }
     ]
+  },
+  "pace_grass_v1": {
+    "description": "Generates button presses to pace back and forth in grass to trigger encounters.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "num_steps": {
+          "type": "integer",
+          "description": "Number of steps to pace."
+        }
+      },
+      "required": [
+        "num_steps"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ninput_data = json.load(sys.stdin)\nnum_steps = int(input_data.get('num_steps', 10))\n\nbuttons = []\nfor i in range(num_steps):\n    if i % 2 == 0:\n        buttons.append('Left')\n    else:\n        buttons.append('Right')\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-25T07:29:44.875Z",
+        "action_counter": 19291
+      }
+    ]
   }
 }
