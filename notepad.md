@@ -12,12 +12,13 @@
   - Path: Cross bridge at (8, 3) West to reach Clair at (5, 3).
 
 ## Healing Plan
-- Revive Gyarados (Slot 1) - DONE.
-- Super Potion Gyarados - DONE (100/101).
-- Super Potion Machoke (Slot 4) - DONE (181/191).
-- Check Sneasel (Slot 5, 65/65 HP) - Full.
-- Check Quilava (Slot 2, 81/81 HP) - Full.
-- Ready for Battle.
+- Healing Complete.
+- **Current Task:** Teach TM30 (Shadow Ball) to Sneasel (Slot 5).
+- **Next:** Challenge Clair.
+
+## Puzzle State
+- **East Side:** Complete (Boulders 4 & 5 in Pits).
+- **West Side:** Complete (Boulder 1 in Pit).
 
 ## Puzzle State
 - **East Side:** Complete (Boulders 4 & 5 in Pits).
