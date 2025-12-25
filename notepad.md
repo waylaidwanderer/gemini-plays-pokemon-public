@@ -41,3 +41,4 @@
 - If an area seems isolated, check adjacent maps for alternative entrances.
 - Thursday/Tuesday/Saturday: Bug Catching Contest active. National Park NPCs are replaced.
 - Markers: Always keep markers for physical constraints (e.g., ledge pockets) to assist pathfinding tools.
+- Fly attempt to Ecruteak failed/returned to Olivine (Turn 20504). Abandoning Fly for walking to Route 38.
