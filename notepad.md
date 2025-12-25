@@ -50,3 +50,9 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Pokedex Confirmation: Suicune is in Ecruteak City. Entry explicitly states "SUICUNE'S NEST".
 - Map Analysis: Central area of 1F (y=4 to y=10, x=6 to x=13) is walled off. Entrance likely from above or hidden.
 - Plan: Head to 2F via stairs at (10, 2).
+
+# Pre-Battle Checklist
+- Current Ball Inventory: 23 Great Balls, 1 Ultra Ball.
+- Status Inducer: XENON (Gastly) with Hypnosis.
+- False Swipe: Not available. Using Night Shade (fixed damage) or Lick/Headbutt for chip damage.
+- Saving: MUST save before interacting with Suicune.
