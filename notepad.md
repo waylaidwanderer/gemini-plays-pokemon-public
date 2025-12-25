@@ -9,40 +9,39 @@
 - Sick Miltank (Moomoo Farm): Needs many Berries to recover.
 - Thunderstone: Obtained from Dana (Route 38) at Turn 20360.
 
+# Suicune Sighting Logic
+- Observed Sightings: 1. Burned Tower -> 2. Cianwood City -> 3. Route 42 -> 4. Route 38 (Current).
+- Trigger Condition: Suicune will be visible in the overworld at a specific coordinate. Approaching it triggers a flee and updates the tracker.
+- Route 38 Potential Locations: 
+  - (31, 15) - Ledge area (Checked).
+  - (1, 3) - Western Pocket (Unexplored).
+  - (5, 8) - Near farm (Checked).
+
 # Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL / FENCE: Impassable.
-- LEDGE_HOP_DOWN (Y=13, 15): One-way South.
-- LEDGE_HOP_LEFT (X=10): One-way West.
-- LEDGE_HOP_RIGHT (X=7, 21): One-way East.
-- TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
-- HEADBUTT_TREE: Impassable, interact for encounter.
-- WARP_CARPET_RIGHT / LEFT: Traversable, triggers map transition.
+- LEDGE_HOP_DOWN: One-way South.
+- LEDGE_HOP_LEFT: One-way West.
+- LEDGE_HOP_RIGHT: One-way East.
+- TALL_GRASS: Traversable, encounters.
+- HEADBUTT_TREE: Impassable.
+- WARP_CARPET: Map transition.
 
 # Route 38/39 Mechanics & Exploration
-- Lane Analysis:
-  - Top Lane (Rows 0-6): Fragmented by walls. 
-    - Western Pocket (X=0-2): Isolated from south/east. Check Route 39.
-    - Middle Pocket A (X=4-5): Reachable via gap at (4, 7).
-    - Middle Pocket B (X=8-9): Reachable via gap at (8, 7).
-    - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
-  - Path Complexity: Walking East is possible by detouring through the southern floor path (Row 14-16) and exiting North at (9, 14) -> (9, 13).
-- Search Log:
-  - Main Northern Patch (X=8-13): Searched.
-  - Northern Patch A (X=4-5): Searched.
-  - Northern Patch B (X=6-7): Searching.
-  - Eastern Strip (X=16-35): Searched.
-  - Southern Path (X=4-13): Searched.
-  - Western Pocket (X=0-2): Unexplored. Hypothesize entrance from Route 39.
-- Current Plan: 
-  1. Sweep Northern Patch B (6, 4 -> 7, 5).
-  2. Go to Route 39 and check Row 6 for a gap into Route 38.
-  3. Search Western Pocket (X=0-2).
-  4. Fly to Ecruteak -> National Park.
+- Pathing Insights:
+  - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
+  - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. Reachability must be verified via Route 39.
+  - Middle Lane (Row 8-11) is the main thoroughfare.
+- Exploration Status:
+  - Top Lane Eastern Strip (X=16-35): Searched.
+  - Top Lane Middle Pockets (X=4-9): Searched.
+  - Southern Path (Row 14-16, X=4-13): Searched.
+  - Western Pocket (X=0-2): Unexplored.
+  - Route 39 Barn: Searched.
 
 # Lessons Learned
-- Southern Path Exit: Located at (9, 14) leading up to (9, 13).
-- Ledge Pockets: Areas like (12, 14) are "traps" that require Fly to exit if entered from the North.
-- Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
+- LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
+- If an area seems isolated, check adjacent maps for alternative entrances.
+- Thursday is Bug Catching Contest day. National Park may have restricted access or different NPCs. Verify day via Pokégear.
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
-- Bug Catching Contest: Active today (Thursday). May affect National Park access.
+- Markers: Always keep markers for physical constraints (e.g., ledge pockets) even if Fly is available, to assist pathfinding tools.
