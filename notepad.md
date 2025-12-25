@@ -15,7 +15,8 @@
 2. Exit Dragon's Den (Dig or Surf/Whirlpool).
 3. Fly to New Bark Town.
 4. Talk to Prof. Elm for Master Ball.
-5. Surf East from New Bark to Route 27 (Tohjo Falls).
+5. Deposit a Pokémon to free a slot (Optional but recommended).
+6. Surf East from New Bark to Route 27 (Tohjo Falls).
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
