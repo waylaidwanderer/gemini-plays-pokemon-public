@@ -1,25 +1,24 @@
 # Ice Path Strategy: B1F Boulder Puzzle
 
 ## Current Status
-- **Location:** B1F, Position (17, 3).
-- **Goal:** Drop down Pit (12, 13).
-- **History:** Successfully ascended from B2F.
+- **Location:** B2F, Position (11, 4).
+- **Goal:** Return to B1F via Ladder at (17, 1).
+- **History:** Fell through Pit at B1F (11, 2) again.
 
-## Navigation Plan: Pit (12, 13)
-1.  **Traverse North & West:**
-    - Current Pos: `(14, 1)` (Reset from `(13, 2)`?).
-    - Go `(14, 1)` -> `(13, 1)` -> `(12, 1)` -> `(12, 5)`.
-2.  **Zig-Zag to Avoid Wall (12, 6):**
-    - `(12, 5)` -> `(11, 5)` -> `(11, 7)` -> `(12, 7)`.
-3.  **Approach Pit:**
-    - `(12, 7)` -> `(12, 13)` (Pit).
-4.  **B2F Action:**
-    - Drop to `(12, 12)` on B2F.
-    - Solve Item Puzzle.
+## Navigation Plan: Return to B1F
+1.  **Slide Sequence:**
+    - Slide Down from `(11, 4)` to `(11, 17)`.
+    - Slide Right from `(11, 17)` to `(16, 17)` (Floor).
+2.  **Align for Ascent:**
+    - Walk to `(18, 14)` (Start of Col 18 slide).
+3.  **Ascend:**
+    - Slide Up Col 18 from `(18, 14)` to `(18, 3)`.
+    - Walk `(18, 3)` -> `(17, 1)` Ladder.
+4.  **B1F Action (Retry):**
+    - Navigate CAREFULLY to Pit `(12, 13)`.
+    - Drop down.
 
-## Item Retrieval Strategy (B2F)
-1.  Land at `(12, 12)` (from Hole 12,13).
-2.  Slide Left -> Hit Boulder `(3, 12)` -> Stop at `(4, 12)`.
-3.  Slide Up -> Hit Boulder `(4, 7)` -> Stop at `(4, 8)`.
-4.  Slide Right -> Stop at `(8, 8)` -> Get Item.
-5.  Exit via Ladder `(9, 11)`.
+## Map Data
+- **Pits:** (11, 2), (4, 7), (5, 12), (12, 13).
+- **Boulders:** (5, 6) [Pushed to 4,7], (17, 7) [Check status].
+- **Ladders:** (17, 3), (3, 15), (17, 1).
