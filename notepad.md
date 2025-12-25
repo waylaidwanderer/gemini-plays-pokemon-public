@@ -20,3 +20,7 @@
 - **Ladder (Unmarked):** `(15, 5)`.
 - **Item:** `(5, 7)`.
 - **Rock:** `(6, 6)`.
+- **IcePathB2FBlackthornSide (3_64):**
+    - Accessed from B3F Ladder at (15, 5).
+    - Contains `FLOOR_UP_WALL` tiles (likely ledges).
+    - Need to check if this leads to the Item on B3F or the HM.
