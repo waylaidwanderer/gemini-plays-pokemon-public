@@ -1,20 +1,22 @@
 # Ice Path Strategy: B1F Boulder Puzzle
 
 ## Current Status
-- **Location:** B2F, Position (1, 15).
+- **Location:** B2F, Position (19, 15).
 - **Goal:** Return to B1F via Ladder at (17, 1).
 - **Puzzle State:** Boulder 2 pushed into Pit (4, 7).
 
 ## Navigation Plan: Return to B1F
-1.  **Exploration Slide:**
+1.  **Slide Left:**
+    - From `(19, 15)` move Left to `(1, 15)`.
+2.  **Exploration Slide:**
     - Move to `(1, 16)`.
     - Slide Right on Row 16 to `(16, 16)`.
     - *Purpose:* Revealing unseen tiles at `(9, 17)` etc.
-2.  **Ascend:**
+3.  **Ascend:**
     - `(16, 16)` -> `(18, 16)` -> `(18, 14)`.
     - Slide Up Col 18 to `(18, 3)`.
     - `(18, 3)` -> `(17, 1)` Ladder.
-3.  **B1F Action:**
+4.  **B1F Action:**
     - Go to Hole `(12, 13)` and drop.
 
 ## Tile Mechanics
