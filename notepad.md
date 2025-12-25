@@ -58,7 +58,19 @@
 # Interaction Log
 - **Turn 18133:** Party Menu Open. Cursor found on Slot 3 (Lapis) automatically. Pressing 'A' to open Field Move menu. Assuming facing is correct (DOWN).
 
-# Reflection (Turn 18138)
-- **Status:** Facing DOWN confirmed.
-- **Action:** Opening Start Menu.
-- **Goal:** Select Pokémon -> Lapis -> Whirlpool.
+# Reflection (Turn 18139)
+- **Status:** Party Menu Open. Cursor on Lapis.
+- **Critical Failure:** Game State reports `Facing: UP`.
+- **Analysis:** My previous attempt to "Face Down" (Turn 18137) failed because the menu was likely still open (or reopened immediately), so `Down` moved the menu cursor instead of the player. The "Can't use that here" message confirms the game logic thinks I'm facing the wrong way.
+- **Conclusion:** I MUST close the menu fully to rotate the player character.
+- **Plan:**
+  1. Turn 18139: Close ALL menus (B spam).
+  2. Turn 18140: Verify Overworld. Press `Down`.
+  3. Turn 18141: Verify `Facing: DOWN`. Open Menu -> Whirlpool.
+
+# Protocols
+- **Facing Correction:**
+  1. If in Menu: Press `B` repeatedly until Overworld.
+  2. **WAIT** 1 turn.
+  3. Press Direction in Overworld.
+  4. Verify Game State `Facing`.
