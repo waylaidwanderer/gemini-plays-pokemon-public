@@ -70,3 +70,16 @@
   - LEDGE_HOP_RIGHT (X=7, 21): One-way East.
   - WALL (X=3, 6, 10, 14, 15): Enforces lane separation in Rows 0-7.
   - Fence Gaps (Row 7): X=4, 5, 30, 31, 32, 34, 35. Verified passage to Top Lane.
+
+# Tile Mechanics (Verified)
+- FLOOR: Traversable.
+- WALL / FENCE: Impassable.
+- LEDGE_HOP_DOWN (Y=13, 15): One-way South.
+- LEDGE_HOP_LEFT (X=10): One-way West.
+- LEDGE_HOP_RIGHT (X=7, 21): One-way East.
+- TALL_GRASS / LONG_GRASS: Traversable, wild encounters.
+- HEADBUTT_TREE: Impassable, interact for encounter.
+- WARP_CARPET: Traversable, triggers map transition.
+
+# Fly Attempt Log
+- Start Turn: 20304. Status: Stalled in menu navigation. Switching to single-button debugging.
