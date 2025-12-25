@@ -15,6 +15,7 @@
 - Healing Complete.
 - **Current Task:** Teach TM30 (Shadow Ball) to Sneasel (Slot 5).
 - **Next:** Challenge Clair.
+- **Note:** Cursor likely resets to Slot 1 (Gyarados) after failed learn attempt. Sneasel is Slot 5.
 
 ## Puzzle State
 - **East Side:** Complete (Boulders 4 & 5 in Pits).
