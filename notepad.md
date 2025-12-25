@@ -3,17 +3,16 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18287)
-- **Location:** Dragon's Den B1F (24, 22) [Surfing].
-- **Facing:** Down (Verified).
-- **Menu State:** Inside Item Pocket.
-- **Action:** Navigate to Whirlpool (Robust).
+# Current Status (Turn 18288)
+- **Location:** Dragon's Den B1F (24, 22).
+- **Facing:** Up (CRITICAL ERROR FOUND).
+- **Menu State:** "Switch" Mode (Party Menu).
+- **Action:** Fix Facing and Interact.
+- **Reasoning:** Game State shows `Facing: Up`. Whirlpool is Down. This explains why `WHIRLPOOL` was missing from the menu.
 - **Plan:**
-  1. Exit Pack (`B`).
-  2. Select Pokemon (`Up`, `A`).
-  3. Reset Cursor (`Up` x5).
-  4. Select Lapis (`Down` x2, `A`).
-  5. Select Whirlpool (`Down`, `A`).
+  1. Exit all menus (`B` x4).
+  2. Face Down (`Down`).
+  3. Interact (`A`).
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
