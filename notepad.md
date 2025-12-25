@@ -21,17 +21,23 @@
 
 # Route 38/39 Mechanics & Exploration
 - Lane Analysis:
-  - Top Lane (Rows 0-6): Fragmented by walls. Eastern strip (X=4-35) reachable via Ecruteak or gaps at X=30-35. Western Pocket (X=0-2) is isolated from east by wall at X=3.
+  - Top Lane (Rows 0-6): Fragmented by walls. 
+    - Western Pocket (X=0-2): Isolated from south/east.
+    - Middle Pocket A (X=4-5): Reachable via gap at (4, 7).
+    - Middle Pocket B (X=8-9): Reachable via gap at (8, 7).
+    - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
   - One-Way Restriction: Route 38 is effectively a one-way path West due to ledges at X=7 and X=10. Walking from Olivine to Ecruteak is impossible.
 - Search Log:
-  - Top Lane (X=4-35): Searched. No Suicune.
-  - Western Pocket (X=0-2): Unexplored. Isolated.
+  - Top Lane Eastern Strip (X=16-35): Searched. No Suicune.
+  - Top Lane Middle Pocket A (X=4-5): Searched. No Suicune.
+  - Top Lane Middle Pocket B (X=8-9): Unexplored.
+  - Top Lane Western Pocket (X=0-2): Unexplored. Isolated.
   - Route 39 Barn: Searched. No Suicune.
 - Current Plan: 
-  1. Enter Route 39 and search the northern perimeter for a gap leading to the isolated Top Lane strip (Route 38 X=0-2).
-  2. Approach Suicune (Sighting #4) near the Miltank farm.
-  3. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10) on the rightmost bench.
-  4. Continue the Suicune hunt at Route 14.
+  1. Search Middle Pocket B (X=8-9) on Route 38.
+  2. Investigate Row 0-1 for a path to the Western Pocket (X=0-2).
+  3. Approach Suicune (Sighting #4) near the Miltank farm.
+  4. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10).
 
 # Lessons Learned
 - Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
