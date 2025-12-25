@@ -64,3 +64,4 @@
   3. Push Boulder 4 North to (6, 7).
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
+- Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
