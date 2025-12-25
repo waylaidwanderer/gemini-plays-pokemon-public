@@ -1,11 +1,11 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Walking along the ledge area (Rows 8-12) triggers Suicune's appearance and flee event. It is not a stationary NPC at a fixed coordinate.
-- Progress: Scouring the ledge area to trigger the scripted encounter.
+- Route 38 Trigger Hypothesis: Walking along the ledge area (Rows 8-12) triggers Suicune.
+- Test 1: Walk Row 10 from (4, 10) to (13, 10).
+- Progress: Scouring the ledge area.
 
 # Strategy: Roaming Beasts (Raikou/Entei)
-- Raikou encountered on Route 38 (Turn 20702).
-- Strategy: Use Mean Look (Xenon the Gastly) to prevent flee. Note: Raikou (Lv40) is likely faster than Xenon (Lv21) and may flee before the move executes.
+- Raikou encountered on Route 38 (Turn 20702). Raikou used Roar (Turn 20705). Raikou is roaming.
 
 # Side Quests & Resources
 - Arthur (Hard Stone): Route 36. Thursday only.
