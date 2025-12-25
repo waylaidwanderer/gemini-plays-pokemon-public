@@ -55,3 +55,7 @@
 - Suicune scripted encounters (Burned Tower, Cianwood, Route 42) do NOT register in Pokedex. Tracking via Pokedex is impossible until roaming starts after the Tin Tower event.
 - Western Pocket (Route 38 X=0-2 / Route 39 X=16-19) is isolated from the Middle Pocket (X=4-5) by a wall at X=3 on Route 38.
 - Entrance to Western Pocket must be a gap in the Row 7 fence at X=0, 1, or 2 on Route 38. Checking this now.
+- Search Log (Route 38):
+  - Middle Pocket (X=4-5): Searched. No Suicune.
+  - Western Pocket (X=0-2): Isolated from south. Must approach from East (Ecruteak).
+- Strategy: Fly to Ecruteak City, enter Route 38 Gatehouse, and stay in the Top Lane (Rows 0-6) while walking West. This is the only way to reach the isolated western sections where Suicune is likely waiting.
