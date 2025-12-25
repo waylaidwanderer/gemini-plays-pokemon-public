@@ -88,8 +88,18 @@
 - **Hypothesis:** Game might remember the last cursor position in Party Menu (Lapis).
 - **Test:** If Party Menu opens with Lapis selected, Memory Cursor is active. If Gyarados, it resets.
 
-# Reflection (Turn 18142)
-- **Status:** Party Menu Open. Cursor IS on Lapis (Slot 3).
-- **Discovery:** "Memory Cursor" hypothesis CONFIRMED. The game remembered I was on Lapis from the previous failed attempt.
-- **Action:** Pressing `A` to select Lapis.
-- **Next:** Select "WHIRLPOOL" from the sub-menu.
+# Reflection (Turn 18145)
+- **Status:** "Can't use that here" message visible.
+- **Cause Confirmed:** Player was `Facing: UP` when menu opened. Whirlpool requires `Facing: DOWN`.
+- **Action:** Executing Hard Reset to Overworld.
+- **Plan:**
+  1. **Turn 18145:** Close ALL menus (B spam).
+  2. **Turn 18146:** Press `Down` in Overworld to fix facing.
+  3. **Turn 18147:** Open Menu and retry Whirlpool.
+
+# Protocols
+- **Facing Correction:**
+  1. If in Menu: Press `B` repeatedly until Overworld.
+  2. **WAIT** 1 turn.
+  3. Press Direction in Overworld.
+  4. Verify Game State `Facing`.
