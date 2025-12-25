@@ -74,3 +74,14 @@
   2. Push Boulder 1 (2, 3) South into Pit (2, 5).
   3. Solve remaining West boulders.
 - Puzzle Status: Boulder 4 complete. Boulder 3 stuck. West Side pending.
+
+# West Side Strategy
+- **Status:** East Side Complete.
+- **Goal:** Reach Ladder (1, 7) on 1F.
+- **Plan:**
+  1. Return to 1F via Ladder (7, 9) on 2F.
+  2. Walk to West Side Ladder (1, 7) on 1F.
+  3. Ascend to 2F West.
+  4. Push Boulder 1 (2, 3) South into Pit (2, 5).
+  5. Check if Boulder 2 (3, 3) is needed (likely goes to Pit 8,3 or similar, but 8,3 is used).
+- **Navigation:** From (8, 1), go West to (5, 1), then South to (5, 8), then East to Ladder.
