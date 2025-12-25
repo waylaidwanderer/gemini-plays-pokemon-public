@@ -17,10 +17,14 @@
 - Attempting to use Whirlpool via Menu (Start -> Pokemon -> Lapis).
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
 - Whirlpool interaction via 'A' failed (no text).
-- Verified Menu Cursor: Last seen on POKEMON (Turn 18106).
+- Verified Menu Cursor: Last seen on CANCEL (Turn 18108).
+- Hypothesis: Cursor starts at CANCEL.
+- Navigation to Lapis (Slot 3): Up x4.
+  - Cancel -> Truffle(6) -> Kunai(5) -> Muscle(4) -> Lapis(3).
 - Plan:
-  1. Open Menu (Start) -> Select Pokemon (A).
-  2. Navigate to Lapis (Down x2) -> Select (A).
-  3. Choose WHIRLPOOL from options.
-- Lapis (Slot 3) has SURF and WHIRLPOOL. Order unknown.
-- Current Action: Open Party and select Lapis.
+  1. Open Party (A).
+  2. Navigate to Lapis (Up x4).
+  3. Select Lapis (A).
+  4. Verify Lapis Menu, find Whirlpool position.
+- Lapis (Slot 3) has SURF and WHIRLPOOL. Order likely SURF then WHIRLPOOL.
+- Current Action: Select Lapis via Up x4.
