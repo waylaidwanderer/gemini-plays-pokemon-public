@@ -36,7 +36,7 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Fighting Psychic Richard (Espeon Lv36).
-- **Status:** Gyarados (52/108) using Thrash (Slot 1).
-- **Plan:** Attack. If Gyarados faints, switch to Muscle (Machoke) to finish.
-- **Location:** Route 26 (15, 79).
-- **Next:** Defeat Psychic Richard. Heal Team.
+- **Status:** Gyarados (23/108) Confused, Critical HP.
+- **Opponent:** Espeon Lv36 (Faster, dangerous).
+- **Plan:** Stay in. If Gyarados faints, safe switch to Muscle (Machoke).
+- **Next:** Defeat Espeon. Heal Team IMMEDIATELY.
