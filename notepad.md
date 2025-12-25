@@ -16,13 +16,14 @@
 - **Goldenrod Dept. Store Guide**:
     - 2F: Basic items (Repel, Potions, etc.) - NO SUPER REPEL.
     - 3F: Battle items (X-items, etc.) - NO SUPER REPEL.
-    - 4F: Vitamins - CHECKING NOW.
-    - 5F: TMs.
+    - 4F: Vitamins - NO SUPER REPEL.
+    - 5F: TMs - CHECKING NOW.
+    - 6F: Rooftop (Vending machines).
 - **PC Storage (Box 1)**: RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
 # General Mechanics
 - **Tile Traversability**:
-    - Walkable: FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE (Verified Turn 18600), ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH, DOOR, WARP_CARPET_DOWN.
+    - Walkable: FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE (Verified Turn 18600), ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH, DOOR, WARP_CARPET_DOWN, WARP_CARPET_LEFT, WARP_CARPET_RIGHT.
     - Blocked: WALL, COUNTER, MART_SHELF.
     - One-way: LEDGE (hop down).
 - **Interactions**:
