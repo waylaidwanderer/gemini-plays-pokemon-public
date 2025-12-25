@@ -3,21 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18303)
-- **Location:** Dragon's Den B1F (24, 22).
-- **Facing:** Down (Verified).
-- **Action:** Bump and Interact with Whirlpool at (24, 23).
-- **Reasoning:** 'A' alone didn't trigger text. Bumping (`Down`) into the tile before pressing 'A' often forces interaction.
-- **Sequence:**
-  1. `Down` (Bump).
-  2. `A` (Interact).
-  3. `A` (Advance Text).
-  4. `A` (Confirm "Yes").
+# Current Status (Turn 18304)
+- **Location:** Dragon's Den B1F (25, 22).
+- **Facing:** Down (Towards Whirlpool at 25, 23).
+- **Action:** Moved to adjacent whirlpool tile to test interaction.
+- **Hypothesis:** Specific tile (24, 23) might be problematic, or Lapis not being lead is an issue.
+- **Next Step:** If direct interaction fails, swap Lapis to Slot 1.
 
 # Plan
-1. Clear Whirlpool at (24, 23).
-2. Move South to (24, 24).
-3. Surf West/South to Dragon Shrine Entrance (19, 29).
+1. Interact with Whirlpool at (25, 23).
+2. If fails, Switch Lapis to Lead.
+3. Try Whirlpool again.
+4. Navigate South to Dragon Shrine.
+
+# Tile Mechanics
+- **Whirlpool:** Barrier requiring HM06. Can be removed.
+- **Cage Layout:** Player seems confined in an area (x=24-26, y=20-23) bounded by walls and buoys/whirlpools. Escaping requires clearing a whirlpool.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
