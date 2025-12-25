@@ -25,8 +25,8 @@
 
 # Suicune Route 38 Trigger
 - Hypothesis: Scripted event triggers Suicune appearance/flee near the Miltank Farm ledge.
-- Attempt 1: Walking Row 10 (Turn 20706). Result: Ledge hop at (10, 12). No script.
-- Attempt 2: Check Pokédex AREA map to confirm current location (Turn 20716).
+- Trigger Area: Northern high ground (Rows 8-12, X=0-15).
+- Test: Walk Row 8 and Row 9 from East to West.
 
 # Lessons Learned
 - Menu Automation: Avoid complex custom tools for one-off menu tasks (e.g., using a single item). Manual `press_buttons` is more reliable.
