@@ -13,13 +13,15 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: B2F East Side (Returning to Surface).
+- Status: B2F East Side (Navigating to Exit).
 - Goal: Exit Ice Path.
-    - Plan:
-    1. Navigate South from (3, 3) to Ladder at (3, 15).
-    2. Take Ladder to B1F.
-    3. Exit to Blackthorn City.
-    - Optional: Item Ball at (8, 16). (Requires puzzle solving).
-- Note: Current map is 3_64. Ladder at (3, 3) leads back to B3F. Ladder at (3, 15) leads up.
+    - Path to Ladder (3, 15):
+        1. Navigate North/East from (3, 3) to (8, 4) (Bypass ledge).
+        2. Slide Down from (8, 4) to (8, 8).
+        3. Navigate Left to (6, 8), then Slide Up to (6, 5).
+        4. Cross from (6, 5) to (3, 5) via Row 4 connection.
+        5. Walk to (3, 7), then Slide Down to (3, 14).
+        6. Take Ladder at (3, 15).
+- Note: (3, 4) Ledge blocked direct South movement. Using East route.
 - Pits: N/A on this floor.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
