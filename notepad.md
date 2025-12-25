@@ -1,48 +1,47 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Approach Western Ledge at (3, 10). Reachable via Olivine -> Route 39 -> Route 38.
+- Sequence: 
+  1. Burned Tower (Released) 
+  2. Cianwood (Fled) 
+  3. Route 42 (Fled) 
+  4. Route 38 Western Ledge (Target)
+  5. Route 14 (Next)
+  6. Tin Tower 1F (Stationary Battle)
+- Route 38 Ledge: Reachable via Olivine -> Route 39 -> Route 38 West. (Cannot reach from Ecruteak due to one-way ledges).
 - Battle Strategy (Tin Tower):
   - Lead: XENON (GASTLY).
-  - Use MEAN LOOK to prevent fleeing (if applicable).
+  - Use MEAN LOOK to prevent fleeing.
   - Use HYPNOSIS to induce sleep.
-  - Use NIGHT SHADE for fixed 21 HP damage until low.
-  - Catch with GREAT BALLs/ULTRA BALL.
+  - Use NIGHT SHADE for fixed 21 HP damage.
+  - Catch with GREAT/ULTRA BALLs.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
+- DOOR/WARP: Trigger map transition.
 - WALL/HEADBUTT_TREE/BERRY_TREE/BUOY: Impassable.
 - TALL_GRASS: Traversable; triggers wild encounters.
-- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal in specified direction.
+- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal.
 - WATER: Traversable with Surf.
-- DOOR/WARP: Triggers map transition.
 
 # Route 38 Ledge Mechanics
-- (7, 12) -> (8, 12): LEDGE_HOP_RIGHT (Jump East).
-- (7, 14) -> (8, 14): LEDGE_HOP_RIGHT (Jump East).
-- (10, 9) -> (11, 9): LEDGE_HOP_RIGHT (Jump East).
-- (10, 12) -> (11, 12): LEDGE_HOP_RIGHT (Jump East).
-- Result: Central trough (X=8-10) is a pit that can only be exited South at (9, 13). Western ledge (X=0-7) is isolated from the trough.
+- Isolated western ledge (X=0-7) reachable only from Route 39 (South).
+- Central trough (X=8-10) exits South at (9, 13).
 
 # Side Quests
 - Clear Bell: In Key Items (Verified).
-- Arthur (Hard Stone): Route 36 (NE corner). Thursday only. (Pivoted Turn 20816: Stuck in dialogue loop).
+- Arthur (Hard Stone): Route 36. Thursday only. (Targeting now).
 
-# Plan: Reach Route 38 Western Ledge (Started Turn 20771)
-1. Walk North/West (Pivoted Turn 20887 due to Fly loop stagnation).
-   - Exit Fly map.
-   - Walk West from Violet City to Route 36.
-   - Walk North through Route 37 to Ecruteak City.
-   - Walk West from Ecruteak City (Blocked by ledges; must Fly).
-   - Fly to Olivine City.
-   - Walk North through Route 39 to Route 38 Western Ledge.
-2. Approach (3, 10) on Route 38 to trigger Suicune.
+# Task: Reach Route 38 Western Ledge
+- Start Turn: 20771
+- Current Status: In Violet City (Turn 20911).
+- Plan:
+  1. Talk to Arthur on Route 36 for Hard Stone (Thursday).
+  2. Fly to Olivine City.
+  3. Walk North to Route 39, then Route 38 West.
 
 # Navigation: Fly Map (Johto)
 - Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
-- Route from Violet/New Bark to Olivine: Use navigate_fly_map_v2.
 
 # Lessons Learned
-- Arthur Loop: Arthur (Thursday) on Route 36 may repeat his introduction without giving the Hard Stone. If this happens for 3+ turns, pivot immediately.
-- Inventory Check: Always check Game State Information inventory list before pursuing items to ensure they haven't been collected in summarized turns.
-- Fly Map Snapping: Vertical movement causes the cursor to snap to the closest city in the new row. Use step-by-step snapping simulation for reliability.
-- Input Latency (Fly): When using Fly, wait for the "Where?" bubble to appear before sending map navigation inputs to avoid moving the character in the overworld.
+- Fly Map Vertical Snapping: Vertical movement snaps to the closest city in the new row.
+- Arthur Loop: If he repeats dialogue without giving the item, pivot after 3 turns.
+- Location Verification: Always check Game State Information for map/coords before acting. Hallucinating location leads to tool failure.
