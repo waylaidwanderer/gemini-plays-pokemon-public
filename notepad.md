@@ -5,8 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Selecting Lapis in Party Menu via slow_press.
-- Step 1: Open Party Menu (A).
-- Step 2: Navigate to Lapis (Down, Down).
-- Step 3: Select Lapis (A).
-- Step 4: Select Whirlpool from the submenu.
+- Status: Confirming Whirlpool usage.
+- Step 1: Select Whirlpool (Down, A) [In Progress].
+- Step 2: Handle any confirmation text.
+- Step 3: Verify Whirlpool is gone.
