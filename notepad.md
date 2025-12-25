@@ -22,25 +22,26 @@
 # Route 38/39 Mechanics & Exploration
 - Lane Analysis:
   - Top Lane (Rows 0-6): Fragmented by walls. 
-    - Western Pocket (X=0-2): Reachable via path at X=2.
+    - Western Pocket (X=0-2): Isolated from south/east. Check Route 39.
     - Middle Pocket A (X=4-5): Reachable via gap at (4, 7).
     - Middle Pocket B (X=8-9): Reachable via gap at (8, 7).
     - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
-  - Path Complexity: Route 38 has many ledges, but walking East is possible by detouring through the southern floor path (Row 14-16) and the gap at (10, 14).
+  - Path Complexity: Walking East is possible by detouring through the southern floor path (Row 14-16) and exiting North at (9, 14) -> (9, 13).
 - Search Log:
   - Top Lane Eastern Strip (X=16-35): Searched. No Suicune.
   - Top Lane Middle Pocket A (X=4-5): Searched. No Suicune.
   - Top Lane Middle Pocket B (X=8-9): Searched. No Suicune.
-  - Top Lane Western Pocket (X=0-2): Unexplored. Isolated.
+  - Southern Path (X=4-13): Searched. No Suicune.
+  - Top Lane Western Pocket (X=0-2): Unexplored.
   - Route 39 Barn: Searched. No Suicune.
 - Current Plan: 
-  1. Search Middle Pocket B (X=8-9) on Route 38.
-  2. Investigate Row 0-1 for a path to the Western Pocket (X=0-2).
-  3. Approach Suicune (Sighting #4) near the Miltank farm.
-  4. Head to National Park (via Route 36) to obtain the Quick Claw from the lady at (17, 10).
+  1. Search Southern Path extension (X=22-29) on Route 38.
+  2. Investigate Western Pocket (X=0-2) via Route 39.
+  3. Head to National Park for Quick Claw.
 
 # Lessons Learned
+- Southern Path Exit: Located at (9, 14) leading up to (9, 13).
+- Ledge Pockets: Areas like (12, 14) are "traps" that require Fly to exit if entered from the North.
 - Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
-- False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
 - Bug Catching Contest: Active today (Thursday). May affect National Park access.
