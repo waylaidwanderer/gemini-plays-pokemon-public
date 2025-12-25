@@ -10,15 +10,11 @@
 - **Solution:** I can Surf North to (15, 21), then East to (18, 21), then South to land on the island at (18, 22).
 - **Correction:** Stop trying to brute force the Whirlpool. Go around.
 
-# Status & Plan (Turn 18192)
-- **Status:** In Party Menu.
-- **Action:** Back out of menus to Overworld.
-- **Plan:**
-  1. **Turn 18192:** Press `B` to close Party Menu.
-  2. **Turn 18193:** Press `B` to close Start Menu.
-  3. **Turn 18194:** Navigate North -> East to bypass the wall.
-
-# Battle Interrupt (Turn 18195)
-- **Event:** Wild Magikarp encounter at (16, 21).
-- **Action:** Fleeing immediately.
-- **Resume:** After battle, continue path: North -> East -> South to (18, 22).
+# Status & Plan (Turn 18206)
+- **Status:** In Pokedex (Rattata Entry).
+- **Error:** Accidentally entered Pokedex instead of Party.
+- **Action:** Exit Pokedex to Overworld.
+- **Next Steps:**
+  1. Verify Overworld.
+  2. Interact with Water (`A`) to Surf (if Gen 2 allows) OR Start -> Pokemon -> Surf.
+  3. Surf path: North to (18, 19) -> East to (28, 19) -> South through gap (28, 23) -> West to Shrine.
