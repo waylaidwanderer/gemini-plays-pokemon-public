@@ -44,3 +44,4 @@
 - Exploration: Check all reachable unseen tiles before declaring a dead end.
 - Arthur (Hard Stone): Route 36. Thursday only. (Today!)
 - Hallucination Note: Stopped obsessing over Western Pocket; focusing on route perimeter and ledges.
+- Arthur (Hard Stone): Route 36. Thursday only. (Today!)
