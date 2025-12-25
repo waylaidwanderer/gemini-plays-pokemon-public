@@ -65,6 +65,6 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: Boulder 4 at (6, 7). Player at (6, 9).
-- Action: Flanking to (5, 7) to push Boulder East into Pit (8, 7).
-- Next: Push Boulder East twice.
+- Puzzle Status: Boulder 4 is at (6, 7). Player at (5, 7).
+- Action: Pushing Boulder 4 East into Pit (8, 7).
+- Next: Check if Boulder falls, then navigate to West Side Puzzle.
