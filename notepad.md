@@ -21,6 +21,6 @@
 - **WARP**: Map transition.
 - **WATER**: Surf required.
 - **BUOY**: Whirlpool (Requires HM06).
-- Insight: "IntermediateStates" showed old inputs, but "CurrentScreen" confirms Submenu open on KUNAI. Game likely ignored 17936's inputs or desync occurred.
-- State: Facing UP (Wrong). Menu Open (Submenu).
-- Plan: Close ALL menus (B x4), Face DOWN, Interact (A). Direct interaction should work if facing correctly.
+- Insight: Direct interaction ('A') with Whirlpool FAILED even when facing DOWN. Must use Party Menu.
+- Mechanics: Pokemon Menu cursor likely resets to Slot 1 (Gyarados) after full exit. Main Menu cursor likely remembers POKEMON.
+- Plan: Start -> A (Open Party) -> Verify Cursor -> Select Lapis -> Whirlpool.
