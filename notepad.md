@@ -5,7 +5,7 @@
 - Goal: Obtain Quick Claw to ensure XENON can move first.
 
 # Suicune Battle Plan
-- Turn 1: MEAN LOOK.
+- Turn 1: MEAN LOOK. Mandatory.
 - Turn 2+: HYPNOSIS. (Keep asleep to prevent Roar).
 - Turn 3+: NIGHT SHADE. (Fixed damage chipping).
 
@@ -32,8 +32,8 @@
 
 # Start Menu & Navigation Rules
 - Rule: Always B-mash to clear the screen before starting a menu sequence.
-- Rule: Move at least one tile away from doors (e.g., to 14, 22 or 15, 22 in Olivine) before menuing to avoid accidental re-entry.
-- Cursor Persistence: Start menu and Pokemon menu remember their last position. Verify state or use resets.
+- Rule: Move at least one tile away from doors and water before menuing.
+- Cursor Persistence: Start menu and Pokemon menu remember their last position. Use 'reset' sequences (mash Up/Down).
 - Menu Wrapping: Start menu wraps (POKEDEX <-> EXIT).
 - Fly Map: In Olivine, the cursor defaults to New Bark Town.
 
