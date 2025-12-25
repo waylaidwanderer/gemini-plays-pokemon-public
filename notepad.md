@@ -43,8 +43,8 @@
 1. **Push Sequence:**
    - **Step 1:** Push Boulder Up to (5, 6). (Completed)
    - **Step 2:** Circle around to (6, 6). (Current)
-     - *Attempted Left Loop (Col 1) - Blocked at (2, 11).*
-     - **New Route:** (3, 11) -> (10, 11) -> (10, 16) -> (17, 16) -> (17, 1) -> (6, 1) -> (6, 6).
+     - *East Loop Active.*
+     - Path: (11, 16) -> (17, 16) -> (17, 1) -> (6, 1) -> (6, 6).
    - **Step 3:** Push Boulder Left to (4, 6).
    - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
 2. **Return to B2F:**
@@ -53,5 +53,5 @@
    - Slide Right to Item.
 
 ## Current Action
-- Navigating to (6, 6) via the East Loop (Ladder area).
-- Immediate Target: Ladder at (17, 1).
+- Navigating North along East Corridor.
+- Target: (17, 9).
