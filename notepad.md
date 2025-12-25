@@ -19,7 +19,7 @@
 
 # UI Mechanics (Verified)
 - PARTY MENU: Cursor is persistent and remembers its last position. Always verify current selection before pressing A.
-- FLY MAP: Cursor defaults to New Bark Town in current state. Sequence hypothesis: 1. NB, 2. CG, 3. VI, 4. EC, 5. OL.
+- FLY MAP: Cursor often defaults to New Bark Town. Directional inputs move cursor on a 2D grid of Johto cities.
 
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
