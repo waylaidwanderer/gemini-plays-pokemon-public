@@ -27,7 +27,7 @@
 - Clear Bell: In Key Items (Verified).
 - Arthur (Hard Stone): Route 36 (NE corner). Thursday only. (Pivoted Turn 20816: Stuck in dialogue loop).
 
-# Plan: Reach Route 38 Western Ledge
+# Plan: Reach Route 38 Western Ledge (Started Turn 20771)
 1. Fly to Olivine City.
 2. Walk North through Route 39 to Route 38.
 3. Approach (3, 10) on Route 38 to trigger Suicune.
