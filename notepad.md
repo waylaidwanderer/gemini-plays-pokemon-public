@@ -47,3 +47,10 @@
   2. If not DOWN, press DOWN.
   3. Once Facing is CONFIRMED DOWN, press A to interact (Primary).
   4. Fallback: Menu -> Whirlpool (only if A fails AND facing is confirmed).
+
+# Anomaly (Turn 18132)
+- **Facing Mismatch:** Turn 18131 State said `Facing: down`. I pressed `Start`. Turn 18132 State says `Facing: up`.
+- **Visual Evidence:** Sprite in Turn 18132 appears to be facing DOWN (face visible, not backpack).
+- **Hypothesis:** Game State `Facing` attribute might be unreliable or reporting "last movement direction" rather than "current facing" in some contexts? Or `Start` press caused a state glitch?
+- **Decision:** Trusting Visuals + Turn 18131 State. Proceeding with Whirlpool attempt assuming Facing DOWN.
+- **Cursor State:** Start Menu cursor is on `POKéMON` (2nd slot), not `POKéDEX` (1st). This might imply a buffered `Down` input from 18130 affected the menu, but didn't affect facing? Or maybe I just left it there? (Unlikely, last menu use was chaotic).
