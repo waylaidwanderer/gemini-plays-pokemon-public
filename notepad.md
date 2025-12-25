@@ -26,5 +26,6 @@
 - Current Location: B1F Main Cavern.
 - Status: Reached Dragon Shrine Island.
 - Insight: Island is walled on West (x=16) and East (x=23). Must launch from North (y=21) to go around.
-- Plan: Go to (19, 22), Surf North to (19, 21), then East/West and South to reach (19, 30).
+- Plan: Surf East from (19, 21) to column 24/25, then South to reach the Shrine entrance at (19, 29).
+- Obstacles: Buoys at y=23. Check column 25 for a path around.
 - Whirlpools: Keep watch. Teach HM06 if needed.
