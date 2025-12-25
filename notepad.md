@@ -33,7 +33,7 @@
 
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
-- Status: Super Repel active (applied Turn 19322). ~62 steps taken. x1 remaining in pack.
+- Status: Super Repel active (applied Turn 19322). ~72 steps taken. x1 remaining in pack.
 - Confirmed: Pokedex shows Suicune on Route 37 (Turn 19330).
 - Strategy: Pace in grass at (6, 2) to trigger encounter.
 - Next Action: Use pace_grass_v1.
