@@ -12,11 +12,8 @@
 - **Current Position:** `(16, 1)` (North Hallway).
 - **Immediate Goal:** Push Boulder 1 to Pit (12, 13).
 - **Detailed Plan for Boulder 1:**
-    1. Push Left from (18, 12) to (15, 12). (Current Step)
-    2. Move to (15, 11) (Up, Left).
-    3. Push Down to (15, 13).
-    4. Move to (16, 13) (Right, Down).
-    5. Push Left into Pit at (12, 13).
+    1. Position at (16, 13) (Current Action: Left, Down, Right, Down).
+    2. Push Boulder Left into Pit (12, 13).
 - **Constraint:** Walls at (17, 5) and (16, 5) block direct North approach.
 - **Bag Status:** Full. Cannot pick up items (Iron, NeverMeltIce marked).
 
