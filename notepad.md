@@ -3,10 +3,10 @@
 - **Next:** Enter Dragon's Den.
 
 # Battle Strategy: Clair
-- **Opponents:** Dragonair x3 (1 Defeated), Kingdra.
-- **Current State:** Muscle (Machoke) vs Dragonair #2.
+- **Opponents:** Dragonair x3 (2 Defeated), Kingdra.
+- **Current State:** Muscle (Machoke) vs Dragonair #3.
 - **Plan:**
-  - **Dragonairs:** Continue using Strength.
+  - **Dragonair #3:** Use Strength.
   - **Kingdra:** Save Cross Chop.
 - **Status:** Muscle HP 131/191. Staying in.
 
