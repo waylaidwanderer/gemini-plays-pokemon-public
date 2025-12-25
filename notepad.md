@@ -31,3 +31,6 @@
 - Puzzle Mistake: Pushed Boulder 4 (6, 16) South to (6, 17) where it is stuck. Correct path is North -> East -> North -> East to Pit (8, 7).
 - Boulder 3 (8, 14) appears to be a decoy or stuck in column 8.
 - Plan: Reset room via ladder (1, 7) and retry.
+- Alternative Solution: North Boulders (2, 3) and (3, 3).
+- Boulder 1 (2, 3) can be pushed South into Pit (2, 5).
+- Access via column 1 from Ladder (1, 7).
