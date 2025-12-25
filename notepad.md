@@ -13,22 +13,13 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Solving B1F South Ice Puzzle.
-- Goal: Reach Ladder at (5, 25).
-    - Solution Path (Part 1 - Done):
-        1. Down -> Left -> Down -> Left -> (11, 33) [Current].
-    - Solution Path (Part 2):
-        1. Slide Right to (15, 33).
-        2. Slide Up to (15, 29).
-        3. Slide Right to (19, 29).
-        4. Slide Down to (19, 33).
-        5. Slide Left to (17, 33).
-        6. Slide Up to (17, 31).
-        7. Slide Left to (13, 31).
-        8. Slide Up to (13, 30).
-        9. Slide Left to (11, 30).
-    - Walk:
-        10. Walk from (11, 30) to Ladder (5, 25).
+- Status: Solved B1F South Ice Puzzle.
+- Goal: Exit Ice Path.
+    - Path to Exit:
+        1. (Done) Slide Left to (11, 30) [Landed on Floor].
+        2. Walk North/West to Ladder at (5, 25).
+        3. Take Ladder to 1F East.
+        4. Exit to Blackthorn City.
 - Note: Ladder at (5, 25) leads to 1F East, which exits to Blackthorn.
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
