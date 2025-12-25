@@ -152,3 +152,10 @@
   2. **Turn 18163:** Press `Down` in Overworld (Action Separation).
   3. **Turn 18164:** Verify `Facing: Down`. Then use Start Menu -> Whirlpool.
 - **Rule:** NEVER mix "Close Menu" and "Move/Turn" in the same turn. The Move input gets eaten.
+
+# Interaction Update (Turn 18163)
+- **Status:** Hard Reset successful. Game State confirms `Facing: Down`.
+- **Diagnosis:** Previous "Can't use that here" was definitely due to `Facing: Up` state.
+- **Action:** Opening Start Menu (`Start`).
+- **Plan:** Verify Cursor -> Select POKéMON -> Lapis -> Whirlpool.
+- **Note:** `A` interaction on Overworld failed previously (Turn 18157), so Menu is the required method.
