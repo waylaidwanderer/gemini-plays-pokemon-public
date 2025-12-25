@@ -5,9 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Moving to (25, 22) to check if (25, 23) is the whirlpool.
-- Step 1: Right (Move to 25, 22).
-- Step 2: Down (Face 25, 23).
-- Step 3: A (Interact).
-- Step 4: A (Confirm if prompt appears).
-- Step 5: A (Advance text).
+- Status: Clearing Whirlpool at (24, 23).
+- Step 1: A (Interact with whirlpool).
+- Step 2: A x5 (Advance text and confirm YES).
+- Step 3: Down (Move into cleared tile).
