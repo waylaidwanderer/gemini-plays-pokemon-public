@@ -28,7 +28,12 @@
 - Arthur (Hard Stone): Route 36 (NE corner). Thursday only. (Pivoted Turn 20816: Stuck in dialogue loop).
 
 # Plan: Reach Route 38 Western Ledge (Started Turn 20771)
-1. Fly to Olivine City.
+1. Fly to Olivine City. (Manual Step-by-Step)
+   - [Done] Up from New Bark -> Cherrygrove (Turn 20885)
+   - [Next] Up from Cherrygrove -> Violet
+   - Up from Violet -> Ecruteak
+   - Left from Ecruteak -> Olivine
+   - Press A to land.
 2. Walk North through Route 39 to Route 38.
 3. Approach (3, 10) on Route 38 to trigger Suicune.
 
