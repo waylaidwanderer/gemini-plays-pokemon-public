@@ -56,6 +56,6 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Strength Status: Activated on Muscle.
-- Action: Pushing Boulder 2 (3, 3) North to (3, 1) to open path to (2, 2).
+- Strength Status: Active.
+- Action: Closing text and pushing Boulder 2 (3, 3) North twice to (3, 1).
 - Next: Move to (2, 2) -> Push Boulder 1 (2, 3) South to Pit (2, 5).
