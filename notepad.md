@@ -33,11 +33,7 @@
   - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. Reachability must be verified via Route 39.
   - Middle Lane (Row 8-11) is the main thoroughfare.
 - Exploration Status:
-  - Top Lane Eastern Strip (X=16-35): Searched.
-  - Top Lane Middle Pockets (X=4-9): Searched.
-  - Southern Path (Row 14-16, X=4-13): Searched.
-  - Western Pocket (X=0-2): Unexplored.
-  - Route 39 Barn: Searched.
+  - Western Pocket (X=0-2): Unexplored. Entry point likely Route 39 (19, 6) -> Route 38 (0, 6).
 
 # Lessons Learned
 - LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
