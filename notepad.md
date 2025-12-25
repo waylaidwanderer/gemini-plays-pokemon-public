@@ -37,6 +37,16 @@
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Objective: Find Suicune on Route 38.
-- Hypothesis: Suicune is in the north-eastern part of the route, near the ledge.
-- Current Status: Attempting to use Super Repel. Moving east once active.
-- Sighting #4 Location: North-eastern Route 38, near the fence/ledge.
+- Hypothesis: Suicune is a scripted encounter on Route 38 (Sighting #4).
+- Failed Repel Attempts: ~20.
+- Strategy: Use run_code to verify menu navigation.
+
+# Tile Mechanics (Verified)
+- WALL: Impassable.
+- TALL_GRASS: Traversable, triggers wild encounters.
+- LEDGE_HOP_DOWN: One-way (Down).
+- LEDGE_HOP_LEFT: One-way (Left).
+- LEDGE_HOP_RIGHT: One-way (Right).
+- FLOOR: Traversable.
+- HEADBUTT_TREE: Impassable.
+- WARP_CARPET: Map transition.
