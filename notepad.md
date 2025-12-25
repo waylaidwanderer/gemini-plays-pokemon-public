@@ -44,3 +44,10 @@
 - Middle Lane: Row 8-10. Contains Beauty Olivia. Connects to Route 39 main road.
 - Bottom Lane: Row 12-14. Contains "Ledge Pocket" and "Valley Trap". Entrance via ledge hop at Row 11/13. Requires Fly to exit.
 - Vertical Walls: Solid walls at X=11 and X=16 on Route 38, and X=16 on Route 39, enforce lane separation.
+
+# Reflection (Turn 20300)
+- Lane Trap: Route 38 is divided into Top, Middle, and Bottom lanes. Suicune is in the Top Lane. Middle lane is a dead end for the hunt.
+- Menu Error: Accidental Pack menu entry caused delay. Use B-reset tool to ensure clean state.
+- Strategy Pivot: Fly to Ecruteak to access Top Lane.
+- Falsification: Proved Middle Lane is isolated by attempting all adjacent tiles and observing ASCII map. Found no gap to Top Lane.
+- Start Turn for Hunt: 20250. Current Turn: 20300. (50 turns elapsed).
