@@ -284,7 +284,7 @@
       }
     ]
   },
-  "navigate_menu_v3_fixed_v2": {
+  "navigate_menu_v3_fixed_v3_fixed": {
     "description": "Executes a sequence of button presses for menu navigation, starting with a 4-press 'B' reset to clear any open menus or dialogue and ensure a consistent starting state. Use for navigating deep menus where cursor persistence might be an issue.",
     "input_schema": {
       "properties": {
@@ -301,12 +301,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        line = sys.stdin.read()\n        if not line:\n            print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n            return\n        input_data = json.loads(line)\n        buttons = input_data.get(\"buttons\", [])\n        reset_sequence = [\"B\", \"B\", \"B\", \"B\", \"sleep 200\"]\n        print(json.dumps(reset_sequence + buttons))\n    except Exception as e:\n        print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        line = sys.stdin.readline()\n        if not line:\n            print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n            return\n        input_data = json.loads(line)\n        buttons = input_data.get(\"buttons\", [])\n        reset_sequence = [\"B\", \"B\", \"B\", \"B\", \"sleep 200\"]\n        print(json.dumps(reset_sequence + buttons))\n    except Exception as e:\n        print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-25T21:52:28.709Z",
-        "action_counter": 20673
+        "timestamp": "2025-12-25T21:58:08.828Z",
+        "action_counter": 20680
       }
     ]
   }
