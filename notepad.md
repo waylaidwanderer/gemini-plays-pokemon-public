@@ -27,6 +27,6 @@
 - Super Repel: 1 in Pack.
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
-# Suicune Search Log
-- Start Turn: 19782
-- Pokedex Status: Shows Route 38.
+# Error & Navigation Log
+- Turn 19918: Phone call from Alan interrupted Fly attempt. Resetting to overworld.
+- Navigation: Route 38 Top Path is only accessible from Route 39 (West). Fly to Olivine -> Walk North.
