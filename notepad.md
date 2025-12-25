@@ -24,6 +24,9 @@
 - Hypothesis 2: Blackthorn City Mart sells Ultra Balls.
 - Hypothesis 3: Indigo Plateau Mart sells Ultra Balls.
 
+# Quick Claw Hypothesis
+- Hypothesis: A lady in a house near the National Park (Route 35/36) gives the Quick Claw. This would allow XENON a chance to move first and use Mean Look.
+
 # Boundary Cycling Plan (Ecruteak <-> Route 37)
 1. Move to (17, 35) in Ecruteak City.
 2. Step south to Route 37.
@@ -44,8 +47,14 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Reflection Notes (Turn 19235)
-- Ecruteak Mart lacks Ultra Balls.
+# Immediate Strategy (Turn 19243)
+1. Pace back and forth in the tall grass at (7, 2) and (8, 2) on Route 37.
+2. Since Super Repel is active and XENON (Lv21) is leading, only Suicune (Lv40) can trigger an encounter.
+3. If Suicune is encountered: Use MEAN LOOK on Turn 1.
+4. If no encounter after 20 steps: Re-check Pokedex.
+
+# Reflection Notes (Turn 19243)
+- Super Repel is active.
 - Suicune confirmed on Route 37.
-- Strategy: Use Super Repel with Lv21 lead to force Suicune encounter.
-- No Quick Claw in inventory; speed might be an issue. Use suicune_tracker_v2 for advice.
+- XENON is the lead.
+- Speed is the primary concern; Suicune (Lv40) is likely faster than XENON (Lv21). Use suicune_tracker_v2 for advice if needed.
