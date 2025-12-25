@@ -13,17 +13,16 @@
 - Sick Miltank: Needs Berries.
 
 # Tile Mechanics (Global)
-- FLOOR: Standard traversable tile.
-- WALL / FENCE: Impassable collision.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- TALL_GRASS: Traversable; triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way jump South.
 - LEDGE_HOP_LEFT: One-way jump West.
 - LEDGE_HOP_RIGHT: One-way jump East.
-- TALL_GRASS: Traversable; triggers wild encounters.
 - HEADBUTT_TREE: Impassable.
-- WARP_CARPET: Triggers map transition.
+- WARP_CARPET_RIGHT: Triggers map transition.
 
 # Route 38/39 Mechanics & Exploration
 - Southern Path (Row 14-16) reachable via Row 13 ledges. Exit North at (9, 14).
 - Route 39 North-South: Row 7 wall has a gap at X=12.
 - Connectivity: Area West of X=10 is reachable from East via Row 14 (9, 14 to 10, 14). Row 14 is reachable from North via Row 13 ledges (11-20, 13). Exit North at (9, 13).
-- Suicune Route 38 Search: Eastern ledge (X=15-35), center ledge (X=8-10), and western ledge (X=5-7) cleared. No overworld sprite found yet. Checking unseen tiles at eastern end (X=35-39).
