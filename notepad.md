@@ -28,3 +28,6 @@
 - Obstacle: He blocks the direct path.
 - Solution: Walk around him via (19, 4) -> (19, 5).
 - Goal: Reach Dragon Shrine (Likely South).
+- Turn 17891: Reached (20, 8). Cooltrainer Darin defeated/bypassed.
+- Next: Surf south from (20, 9) to locate the Shrine.
+- Note: Watch for Whirlpools. If blocked, teach HM06 to Lapis (Poliwag).
