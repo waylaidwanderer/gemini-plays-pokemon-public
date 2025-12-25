@@ -58,3 +58,11 @@
 # Task Progress
 - Quick Claw Quest started: Turn 19471.
 - Suicune Log: Confirmed on Route 38 (Turn 19433).
+
+# Item Location Details
+- Quick Claw: National Park (16, 12). Talk to the lady with a Persian on the bench in the northeast area, near the Route 36 gate.
+
+# Error Analysis & Lessons
+- Menu Navigation: Always clear screen text with B before starting a menu sequence.
+- Fly Map: Verify current city in Game State before calling navigate_fly_map.
+- Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
