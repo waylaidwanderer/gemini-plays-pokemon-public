@@ -7,7 +7,10 @@
 - Objective: Walk on the trigger tile for the overworld Suicune event.
 - Search Start: Turn 19082.
 - Reachable Tiles: (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
-- Note: Suicune on Route 42 is a stationary overworld trigger. It does not roam until after this event. Pokedex dot must be on Route 42.
+- Trigger Hypothesis: Standing on (27, 15) or walking between the Apricorn trees triggers the appearance.
+- Attempt Log:
+    1. Systematic sweep of northern rows (Y=10-11) - Failed.
+    2. Systematic sweep of southern rows (Y=14-17) - In progress.
 
 # Battle Prep & Funding
 - Target: Suicune (Lv40).
