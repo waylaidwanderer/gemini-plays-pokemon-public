@@ -39,5 +39,5 @@
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Cooltrainer Reena (Nidoqueen Lv33). (Turn 18727)
 - **Status:** Gyarados healed (52/108).
-- **Location:** Route 27 East (77, 10).
-- **Next:** Continue East to Victory Road Gate.
+- **Location:** Route 27 East (79, 10).
+- **Next:** Cross the bridge East to Route 26.
