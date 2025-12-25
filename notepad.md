@@ -57,7 +57,7 @@
 
 # Task Progress
 - Quick Claw Quest started: Turn 19471.
-- Suicune Log: Confirmed on Route 38 (Turn 19433).
+- Suicune Log: Confirmed on Route 42, then Ecruteak City (Turn 19477).
 
 # Item Location Details
 - Quick Claw: National Park (16, 12). Talk to the lady with a Persian on the bench in the northeast area, near the Route 36 gate.
