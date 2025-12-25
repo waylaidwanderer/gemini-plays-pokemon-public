@@ -35,7 +35,8 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Encountered Youngster (Route 26) at (14, 79).
+- **Interaction:** Talking to Youngster on Route 26 (14, 79).
+- **Dialogue:** "Wow, look at all those BADGES! I'm impressed."
 - **Status:** Muscle Lv60 (63/198). Gyarados (52/108) is Leading.
 - **Location:** Route 26 (15, 79).
-- **Next:** Defeat Youngster, then find Rest House.
+- **Next:** Complete interaction/Battle. Heal. Navigate North through grass.
