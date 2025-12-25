@@ -3,27 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18328)
-- **Location:** Dragon's Den B1F (10, 19) (Target).
-- **Action:** Interact with Whirlpool at (10, 20).
+# Current Status (Turn 18329)
+- **Location:** Dragon's Den B1F (10, 19) -> Moving to (10, 20).
+- **Action:** Clear Whirlpool text and Move South.
 - **Reasoning:** 
-    - Previous path failed due to Buoys at (16, 12).
-    - New path routes East to Col 20 to bypass the barriers, then North to Row 10, then West to Col 10.
-- **Goal:** Reach Whirlpool and clear it.
+    - Whirlpool usage confirmed.
+    - Need to advance text and enter the opened path.
+- **Goal:** Navigate the inner area to reach the Shrine at (19, 29).
 
 # Plan
-1. Interact with Whirlpool at (10, 20).
-2. Confirm usage.
-3. Surf South into the inner sanctum.
-4. Locate Dragon Shrine.
+1. Move South past the dissolved whirlpool.
+2. Navigate the water maze (likely need to go South then East).
+3. Reach (19, 29).
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle at (10, 20).
-- **Buoy:** Obstacle.
-- **Barriers:**
-  - Row 12: Buoys at 15-17, Walls at 18-19. Gap at 14 and 20.
-  - Col 15: Buoys from Row 12-16.
-  - Col 11: Buoys from Row 16-23.
+- **Whirlpool:** Dissolved at (10, 20).
+- **Shrine:** Located at (19, 29).
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
