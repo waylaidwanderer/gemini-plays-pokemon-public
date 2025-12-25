@@ -4,7 +4,7 @@
 - Hunt started Turn 20250.
 
 # Side Quests & Resources
-- Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable today, Thursday).
+- Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable Thurs/Tues/Sat due to Contest).
 - Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
 - Sick Miltank: Needs Berries.
@@ -12,10 +12,10 @@
 
 # Suicune Sighting Logic
 - Observed Sightings: 1. Burned Tower -> 2. Cianwood City -> 3. Route 42 -> 4. Route 38 (Current).
-- Trigger Condition: Suicune will be visible in the overworld at a specific coordinate. Approaching it triggers a flee and updates the tracker.
+- Trigger Condition: Approach Suicune in the overworld to trigger flee.
 - Route 38 Potential Locations: 
-  - (31, 15) - Ledge area (Checked).
-  - (1, 3) - Western Pocket (Unexplored). Reachable from Ecruteak via northern path?
+  - (31, 15) - Eastern Ledge (Checked).
+  - (1, 3) - Western Pocket (Target).
   - (5, 8) - Near farm (Checked).
 
 # Tile Mechanics (Verified)
@@ -32,12 +32,12 @@
 - Pathing Insights:
   - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
   - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by walls at Row 7 and X=3. 
-  - Route 39 Wall: A wall at (16, 6) blocks east-west travel on Row 6. The eastern edge (X=17-19) must be accessed from Route 38.
+  - Route 39 Wall: A wall at (16, 6) blocks east-west travel on Row 6.
 - Exploration Status:
   - Western Pocket (X=0-2): Unexplored. Entry point likely northern path (Row 0-4) from Ecruteak.
 
 # Lessons Learned
 - LEDGE_HOP_DOWN is one-way South. Do not plan North paths through them.
 - If an area seems isolated, check adjacent maps for alternative entrances.
-- Thursday is Bug Catching Contest day. Standard National Park NPCs are replaced.
-- Markers: Always keep markers for physical constraints (e.g., ledge pockets) even if Fly is available.
+- Thursday/Tuesday/Saturday: Bug Catching Contest active. National Park NPCs are replaced.
+- Markers: Always keep markers for physical constraints (e.g., ledge pockets) to assist pathfinding tools.
