@@ -5,8 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Opening Menu to use Whirlpool.
-- Reason: Previous 'A' interaction failed or didn't trigger. Ensuring correct facing (Down) via manual menu usage.
-- Step 1: Open Menu (Start).
-- Step 2: Verify cursor position (Pokemon vs Pokedex).
-- Step 3: Navigate to Lapis -> Whirlpool.
+- Status: Correcting Facing and Interacting.
+- Reason: Game State shows player Facing UP. Must face DOWN to interact with Whirlpool at (15, 23).
+- Step 1: Close Menu (B).
+- Step 2: Face Down (Down).
+- Step 3: Interact (A) and confirm (A).
