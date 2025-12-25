@@ -1,15 +1,13 @@
 # Blackthorn City Strategy
-- **Current Task:** Heal at Pokémon Center.
-- **Next:** Enter Dragon's Den (Surf behind Gym).
+- **Current Task:** Enter Dragon's Den (Surf behind Gym).
+- **Next:** Pass Dragon User Challenge.
 
 # Dragon's Den Challenge
 - **Goal:** Receive Rising Badge.
 - **Requirement:** Pass the "Dragon User Challenge".
 
 # Team Status
-- **Gyarados:** Critical (14 HP, Paralyzed).
-- **Muscle:** Lv 59 (86/194 HP).
-- **Others:** Healthy.
+- **All Pokémon:** Fully Healed.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN**: One-way traversable (South only).
