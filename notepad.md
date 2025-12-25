@@ -17,7 +17,7 @@
 - WALL: Impassable.
 - WATER: Walkable with Surf.
 - HEADBUTT_TREE: Impassable; interact to Headbutt.
-- CUT_TREE: Impassable; removable with Cut.
+- CUT_TREE: Impassable; removable with Cut. Grows back when leaving route.
 - TALL_GRASS: Walkable; wild encounters.
 - CAVE: Walkable; warp.
 - WARP_CARPET: Walkable; map transition.
@@ -35,3 +35,4 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Pokedex Area Map Observations
 - Turn 18761: Dot is blinking on Route 42 middle island, stationary. Scripted encounter is still active.
+- Turn 18796: Systematic sweep of island tiles starting.
