@@ -39,7 +39,16 @@
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
 
-## Revised Plan
-1. Slide Left to (1, 14).
-2. Walk to (3, 17) and Slide Right on Row 17.
-3. Verify wall at (9, 17) -> Stop at (8, 17) -> Up to Item.
+## Strategy: Retrieve Item (B2F)
+1. **Preserve Boulder 2:** Do NOT push the boulder at (3, 12). It is needed as a backstop.
+2. **Exit B2F:** Navigate to Ladder (17, 1) via (16, 16) -> (16, 1).
+3. **Re-enter B2F:** On B1F, fall through the hole at (12, 13).
+4. **Collect Item:**
+   - Land at B2F (12, 12).
+   - Slide Left -> Hit Boulder 2 at (3, 12) -> Stop at (4, 12).
+   - Slide Up -> Hit Boulder 1 at (4, 7) -> Stop at (4, 8).
+   - Slide Right -> Stop at (8, 8) (Item Island).
+5. **Escape:** Use Ladder (9, 11).
+
+## Current Action
+- Sliding Right on Row 16 to exit area.
