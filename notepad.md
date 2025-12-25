@@ -5,8 +5,9 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Retrying Whirlpool interaction (ensure menu closed).
-- Step 1: Press B (Close any menu).
-- Step 2: Press A (Interact).
-- Step 3: Press A (Confirm).
-- Step 4: Press A (Advance).
+- Status: Retrying Whirlpool interaction with more inputs.
+- Step 1: Press A (Interact/Advance Text).
+- Step 2: Press A (Advance Text).
+- Step 3: Press A (Select YES).
+- Step 4: Press A (Advance Text).
+- Step 5: Press Down (Move if cleared).
