@@ -21,4 +21,4 @@
 - **WARP**: Map transition.
 - **WATER**: Surf required.
 - **BUOY**: Whirlpool (Requires HM06).
-- Mechanic Test: Attempting direct interaction ('A') with Whirlpool at (24, 23) while facing DOWN. Previous failure was likely due to facing UP. If this works, menu navigation is unnecessary.
+- Insight: Direct interaction ('A') with Whirlpool failed. Must use Party Menu -> Pokemon -> Lapis -> Whirlpool.
