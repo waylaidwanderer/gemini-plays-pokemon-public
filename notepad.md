@@ -18,3 +18,9 @@
 - Granny (Blackthorn House): Mentions Dragon clan living here.
 - Confirmed Blackthorn Gym location at (18, 11).
 - Gym Sign reads: "LEADER: CLAIR. The Blessed User of Dragon POKéMON".
+
+# Blackthorn Gym Strategy
+- Use Ice-type moves (Gyarados/Icy Wind, Sneasel, Swinub) against Dragons.
+- Clear all trainers for XP.
+- Navigate floor by floor.
+- Current Target: Cooltrainer M at (1, 14).
