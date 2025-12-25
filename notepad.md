@@ -25,7 +25,7 @@
 - 1F (5, 15) connects to B1F (20, 3).
 - Current Location: B1F Main Cavern.
 - Status: Reached Dragon Shrine Island.
-- Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS.
+- Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS. Direct 'A' interaction failed.
 - Requirement: HM06 Whirlpool (Taught to Lapis).
-- Plan: Cross Whirlpool at (24, 23) to access the East channel, then wrap around South to the Shrine entrance.
-- Note: Whirlpools require HM06 (Lapis).
+- Plan: Open menu to manually use Whirlpool from Lapis's options.
+- Target: Whirlpool at (24, 23).
