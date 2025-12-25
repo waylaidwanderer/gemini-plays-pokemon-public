@@ -3,17 +3,17 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18298)
+# Current Status (Turn 18299)
 - **Location:** Dragon's Den B1F (24, 22).
 - **Facing:** Down (Verified).
-- **Menu State:** Party Menu Open, Cursor on Lapis (Verified).
-- **Action:** Select Lapis to open Context Menu.
-- **Next Step:** Select `WHIRLPOOL` from the list (likely 2nd option).
+- **Menu State:** Context Menu Open.
+- **Action:** Select `WHIRLPOOL` (Currently on `SURF`).
+- **Sequence:** `Down` (Select Whirlpool), `A` (Execute).
 
 # Plan
-1. Open Lapis's context menu (`A`).
-2. Select WHIRLPOOL.
-3. Cross Whirlpool.
+1. Execute Whirlpool.
+2. Confirm any text prompts (`A`).
+3. Cross the cleared Whirlpool.
 4. Navigate South to Dragon Shrine Entrance.
 
 # Tile Mechanics
