@@ -5,18 +5,26 @@
 - **Goal:** Reach (11, 8) to push B1 UP.
 - **Puzzle State:** Reset (Assumed).
 
-## Execution Plan
-1.  **Navigate to (11, 8) via Long Loop (Corrected):**
-    - **Step 1-4:** Navigate South past B3. DONE.
-    - **Step 5:** Slide East to (18, 16). DONE.
-    - **Step 6:** Navigate North/West to (11, 8).
-      - **Correction:** Blockage detected at (17, 15). Route via Col 18.
-      - Path: (17, 16) -> (18, 16) -> (18, 14) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
-2.  **Solve B1:**
-    - Push Up to (11, 5).
-    - Go around to (12, 5). Push Left to (10, 5).
-    - Go around to (10, 6). Push Up to (10, 1).
-    - Push Right to (11, 1). Push Down to Pit (11, 2).
+## Current Status
+- **Position:** Player at (11, 8).
+- **Goal:** Solve B1 (Top Right Boulder).
+- **Puzzle State:**
+  - **B1:** (11, 7).
+  - **B2:** (7, 8).
+  - **B4:** (17, 7).
+
+## Immediate Plan
+1.  **Push B1 Up to (11, 5):**
+    - Action: Push Up x2.
+    - End State: B1 at (11, 5), Player at (11, 6).
+2.  **Navigate around to (12, 5):**
+    - Path: (11, 6) -> (10, 6) -> Slide Up to (10, 1) -> Slide Right to (12, 1) -> Slide Down to (12, 5).
+3.  **Push B1 Left to (10, 5):**
+    - From (12, 5), push Left.
+4.  **Solve B1:**
+    - Navigate to (10, 6) -> Push Up to (10, 1).
+    - Push Right to (11, 1).
+    - Push Down into Pit (11, 2).
 ## Reflection (Turn 16937)
 - **Error Analysis:** Major hallucination of position ((10,16) vs (12,11)) caused loop. 
 - **Correction:** STRICTLY verify `Game State` coordinates before planning.
