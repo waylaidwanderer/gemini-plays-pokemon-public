@@ -22,7 +22,7 @@
 - **WARP**: Map transition.
 - **WATER**: Requires SURF to traverse.
 **Dragon's Den Entry Log:**
-- Turn 17871: Entered via (3, 5). Used ladder at (3, 3).
-- Warped to (5, 13) on SAME MAP (3_80). This is unexpected.
-- Hypothesis: (3, 3) and (5, 13) are connected, or map ID is shared.
-- Action: Testing ladder at (5, 13) to see if it leads to B1F.
+- Ladder at (3,3) leads to (5,13) (Ladder Up?).
+- Ladder at (5,13) leads to (3,3) (Ladder Down?).
+- Goal: Reach (5,15) via (5,13).
+- Action: Retrying ladder at (3,3) with a longer approach run to trigger the warp.
