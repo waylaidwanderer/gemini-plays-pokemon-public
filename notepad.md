@@ -1,36 +1,30 @@
 # Strategy: Suicune Hunt (Crystal)
-- Start Turn: 20637 (Thursday)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Proximity to the northern ledge (Rows 8-12, X=0-15).
-- Route 38 Topology:
-  - Western Ledge (X=0-7): Isolated from East. Reachable from Route 39 (West) or Row 14 (South) or Row 5 (North).
-  - Central Trough (X=8-10): Reachable from East via ledge jump at (10, 12) or (10, 9). Exit South at (9, 13) to Row 14.
-  - Eastern Ledge (X=11-35): Reachable from Ecruteak Gatehouse.
-- Plan: Scour the Western Ledge (X=0-7, Rows 10-12).
-
-# Side Quests & Resources
-- Arthur (Hard Stone): Route 36. Thursday only. Arthur is in the NE corner of Route 36, near the National Park entrance.
-- Clear Bell: In Key Items (Verified Turn 20623).
+- Route 38 Trigger: Approach Western Ledge at (3, 10). Reachable via Olivine -> Route 39 -> Route 38.
+- Battle Strategy (Tin Tower):
+  - Lead: XENON (GASTLY).
+  - Use MEAN LOOK to prevent fleeing (if applicable).
+  - Use HYPNOSIS to induce sleep.
+  - Use NIGHT SHADE for fixed 21 HP damage until low.
+  - Catch with GREAT BALLs/ULTRA BALL.
 
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
-- WALL: Impassable.
+- WALL/HEADBUTT_TREE/BERRY_TREE/BUOY: Impassable.
 - TALL_GRASS: Traversable; triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South.
-- LEDGE_HOP_LEFT: One-way jump West.
-- LEDGE_HOP_RIGHT: One-way jump East.
-- HEADBUTT_TREE: Impassable.
+- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal in specified direction.
 - WATER: Traversable with Surf.
-- BERRY_TREE: Impassable.
+- DOOR/WARP: Triggers map transition.
 
-# Lessons Learned
-- Menu Automation: Manual `press_buttons` is more reliable for simple tasks.
-- Ledge Navigation: Check tile types before pathing. (8, 12) is isolated from (7, 12) by collision.
+# Side Quests
+- Arthur (Hard Stone): Route 36 (NE corner). Thursday only.
+- Clear Bell: In Key Items (Verified).
 
-# Plan: Fly to Olivine City to reach Route 38 Western Ledge
-- Start Turn: 20771
-- Step 1: Open PKMN menu and select Icarus (PIDGEY).
-- Step 2: Use FLY. (Failed 3 times: Turn 20776, 20781, 20783 - landed in/stayed in Cherrygrove)
-- Step 3: Select Olivine City on the map. (Cursor starts at New Bark Town)
-- Step 4: Walk North through Route 39 to Route 38 (X=0-7).
-- Step 5: Approach (3, 10) on Route 38 to trigger Suicune.
+# Plan: Reach Route 38 Western Ledge
+1. Fly to Olivine City from Cherrygrove.
+2. Walk North through Route 39 to Route 38.
+3. Approach (3, 10) on Route 38 to trigger Suicune.
+
+# Navigation: Fly Map (Johto)
+- Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
+- Route from New Bark to Olivine: Left x3, Up x2.
