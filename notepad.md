@@ -1,6 +1,6 @@
 # Suicune Quest Strategy (Crystal)
 - Status: ROAMING (Post-Tin Tower battle).
-- Current Location (Pokedex): Route 37 (Turn 19218).
+- Current Location (Pokedex): Route 37 (Turn 19252).
 - Strategy: Boundary cycling between Ecruteak City and Route 37.
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 
@@ -50,13 +50,12 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19250)
-1. Exit current Bag/Start menu.
-2. Open Pokedex and check Suicune's location.
-3. If on Route 37, pace in grass.
-4. If not, boundary cycle at Ecruteak/Route 37 border.
+# Immediate Strategy (Turn 19252)
+1. Exit Pokedex.
+2. Pace in grass at (7, 2) on Route 37.
+3. Use Mean Look if Suicune appears.
 
-# Reflection Notes (Turn 19250)
-- Super Repel is active.
-- XENON is leading.
-- Menu navigation has been messy; resetting to overworld.
+# Reflection Notes (Turn 19252)
+- Super Repel active.
+- Suicune confirmed on Route 37.
+- XENON (Lv21) leading.
