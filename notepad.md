@@ -21,9 +21,10 @@
 - COUNTER: Interact from adjacent tile.
 
 # Repetitive Task: Pacing for Suicune
-- Status: PAUSED. Pivoting to Quick Claw quest (Route 35/36).
-- Repel: Applied Turn 19361. ~110 steps taken.
+- Status: PAUSED. Pivoting to Quick Claw quest (Route 35).
+- Repel: Applied Turn 19361. ~155 steps taken.
 - Objective: Obtain Quick Claw.
+- Suicune Log: Confirmed on Route 36 (Turn 19385).
 
 # Resources & PC
 - Balls: 1 Ultra, 23 Great.
