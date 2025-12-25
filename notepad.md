@@ -28,3 +28,11 @@
 
 # PC Storage (Box 1)
 - RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
+- Turn 19082: Started Route 42 Suicune search.
+- Funding Plan: 
+    1. Go to Ecruteak Mart.
+    2. Sell Fire Stone (¥1050) and Water Stone (¥1050).
+    3. Clear trainers on Route 42 and Route 44.
+    4. Buy Ultra Balls/Great Balls.
+- Search Status: Systematic sweep of Route 42 island in progress. Apricorn trees (27, 16), (28, 16), (29, 16) vanished at Turn 19106. Possible event trigger?
+- Reachable Island Tiles (Verified): (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
