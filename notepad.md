@@ -7,6 +7,10 @@
 - Quick Claw: National Park (17, 10). Talk to lady on the rightmost bench in NE section. (Available Morning/Day/Night).
 - Clear Bell: In Key Items. Required for Tin Tower.
 - Sick Miltank (Moomoo Farm): Needs many Berries to recover.
+- Thunderstone: Obtained from Dana (Route 38) at Turn 20360.
+
+# Tile Mechanics (Verified)
+- WARP_CARPET_RIGHT / LEFT: Traversable, triggers map transition.
 
 # Route 38/39 Mechanics & Exploration
 - Tile Mechanics (Verified):
