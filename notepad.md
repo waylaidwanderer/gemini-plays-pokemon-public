@@ -1,21 +1,17 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (6, 2).
-- **Goal:** Verify puzzle reset and solve.
+- **Position:** Player at (10, 1).
+- **Goal:** Verify B1, then Solve B2.
 - **Puzzle State:**
-  - **B1:** Unknown (Checking if at 11, 3).
-  - **B2:** Unknown (Checking if at 7, 8).
+  - **B1:** Checking.
+  - **B2:** Expect at (7, 8).
 
 ## Immediate Plan
-1.  **Navigate to (10, 1).**
-2.  **Locate B1.**
-3.  **Execute B1 Plan:**
-    - Push Left to (10, 3).
-    - Reposition to (9, 3) via Row 5.
-    - Push Right to (12, 3).
-    - Reposition to (12, 4) via Row 5.
-    - Push Up to (12, 2).
-    - Reposition to (13, 2).
-    - Push Left into Pit (11, 2).
-4.  **Solve B2.**
+1.  **Move Left to (7, 1).**
+2.  **Verify B1** while passing.
+3.  **Verify B2** at (7, 8).
+4.  **Execute B2 Plan:**
+    - Push Left (7, 8) -> (5, 8).
+    - Loop Around (Top).
+    - Push Down (5, 8) -> Pit (5, 12).
