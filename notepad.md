@@ -13,16 +13,13 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Reached B1F South (East Room) via Ladder.
-- Observation: Currently at (11, 27). Room appears walled in with a ledge to the North.
-- Hypothesis:
-    1. This room might be a dead end (trap).
-    2. OR there is a hidden path/mechanic.
-    3. OR the ledge is passable from South.
-- Plan:
-    1. Test passability of Ledge at Row 24 (North).
-    2. If blocked, check walls for hidden passages.
-    3. If stuck, return to B2F and search for alternate ladder.
-- Note: Bag is Full.
+- Status: Reached B1F South (East Room).
+- Observation: "Ledge" at Row 24 is walkable.
+- Path Forward: Room connects to the East at Col 17.
+    - Navigate East to (17, 24).
+    - Navigate South to (17, 27).
+    - Enter Ice Path at (17, 28).
+- Goal: Exit Ice Path.
+    - The path at Col 17 likely leads to the exit or the Item Ball seen earlier.
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
