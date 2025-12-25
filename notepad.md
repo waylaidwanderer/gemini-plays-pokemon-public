@@ -29,6 +29,9 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - LEDGE_HOP_DOWN/LEDGE_HOP_RIGHT: One-way movement (hop down/right).
 - FLOOR_UP_WALL: Walkable (stairs/transition).
 - COUNTER: Impassable; interact from adjacent tile.
-- Turn 19056: Starting Suicune capture sequence. Current status: Missing Route 42 encounter. Flew to Ecruteak City. Check Pokedex for relocation.
+- Suicune Location: Confirmed on Route 42 via Pokedex.
+- Next Step: Trigger flee event on Route 42 middle island.
+- Battle Strategy (for Tin Tower): Use Sleep (XENON) and False Swipe (if I can get it) or careful weakening. Need more Ultra Balls and funds.
+- Turn 19081: At Ecruteak east gate. Heading to Route 42.
 - Sprite Visibility: NPCs only appear in 'Map Objects On Screen' when within field of view.
 - Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events.
