@@ -26,15 +26,16 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - WATER: Walkable with Surf.
 - WHIRLPOOL: Impassable; removable with Whirlpool.
-- HEADBUTT/CUT_TREE: Impassable; removable with Cut.
+- CUT_TREE: Impassable; removable with Cut.
+- HEADBUTT_TREE: Impassable; interact with Headbutt.
 - LEDGE_HOP: One-way movement.
 - COUNTER: Interact from adjacent tile.
 
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
-- Status: Investigating Repel effectiveness (Turn 19312 encounter).
+- Status: Re-applying Super Repel (Turn 19321).
 - Total Pacing Steps: 420.
-- Next Action: Check Pokedex.
+- Next Action: Apply Super Repel, then check Pokedex.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
