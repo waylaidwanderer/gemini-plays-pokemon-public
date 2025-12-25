@@ -34,6 +34,7 @@
 - Quick Claw: National Park (16, 12). Talk to Teacher on bench in NE section.
 - Yanma Swarm: Caught.
 - Sick Miltank (Moomoo Farm): Needs many Berries to recover.
+- Suicune Hunt: Started Turn 20250. Currently on Sighting #4 (Route 38).
 
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
