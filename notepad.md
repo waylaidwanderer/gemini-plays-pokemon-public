@@ -21,5 +21,6 @@
 - Validated Menu Navigation: Start -> Down -> A (Pokemon).
 - Current Issue: Player facing UP, Whirlpool is DOWN. Must face DOWN.
 - Corrective Action: Close all menus -> Face Down -> Open Menu -> Pokemon -> Lapis.
-- Observation: Start Menu cursor remembers position. Currently on POKEMON.
-- Status: Performing dedicated "Face Down" turn to ensure input is registered.
+- Observation: Start Menu cursor remembers position. Last on POKEMON.
+- Hypothesis: Opening menu and pressing A will open POKEMON menu.
+- Plan: Open Pokemon Menu, check cursor, select Lapis -> Whirlpool.
