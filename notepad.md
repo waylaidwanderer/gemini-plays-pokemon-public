@@ -6,15 +6,15 @@
 - **Puzzle State:** Reset (Assumed).
 
 ## Execution Plan
-1.  **Navigate to (11, 8) via Long Loop:**
-    - **Step 1:** Go to (5, 2) via Top Left.
-      - Path: (10, 6) -> (10, 1) -> (6, 1) -> (5, 2).
-    - **Step 2:** Slide South to (5, 9).
-    - **Step 3:** Navigate West/South to (9, 16).
-      - Path: (5, 9) -> (4, 9) -> Slide Down to (4, 13) -> Right to (6, 13) -> Down to (6, 15) -> Right to (9, 15) -> Down to (9, 16).
-    - **Step 4:** Slide East to (17, 16).
-    - **Step 5:** Navigate North/West to (11, 8).
-      - Path: (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
+1.  **Navigate to (11, 8) via Long Loop (Corrected):**
+    - **Step 1:** Go to (5, 2) via Top Left. DONE.
+    - **Step 2:** Slide South to (5, 9). (Current)
+    - **Step 3:** Slide Right to (9, 9).
+    - **Step 4:** Slide South to (9, 16) (or (9, 10) if B3 exists).
+      - If blocked by B3 at (9, 11): Push B3 Down, go around (10, 11)->(10, 13)->(9, 13).
+    - **Step 5:** Slide East to (18, 16).
+    - **Step 6:** Navigate North/West to (11, 8).
+      - Path: (18, 16) -> (17, 16) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
 2.  **Solve B1:**
     - Push Up to (11, 5).
     - Go around to (12, 5). Push Left to (10, 5).
