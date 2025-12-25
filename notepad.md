@@ -4,15 +4,15 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Fly to New Bark Town.
 
-# Current Status (Turn 18507)
-- **Location:** Blackthorn City Pokémon Center (9, 2).
-- **Activity:** Flying to New Bark Town.
+# Current Status (Turn 18511)
+- **Location:** Blackthorn City (21, 30).
+- **Activity:** Preparing to Fly.
 - **Goal:** Get Master Ball from Elm.
-- **Context:** Withdrew Mistral. Ready to Fly.
+- **Context:** Outside PC. Mistral in party.
 
 # Plan
-1. Close PC.
-2. Fly to New Bark Town.
+1. Fly to New Bark Town.
+2. Teach Surf and Waterfall to Gyarados (Essential for Route 27).
 3. Talk to Prof. Elm for Master Ball.
 4. Surf East to Tohjo Falls.
 
