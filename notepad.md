@@ -4,19 +4,21 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18409)
-- **Location:** Dragon's Den 1F (5, 13).
-- **Action:** Re-triggering Ladder to B1F.
-- **Reasoning:** Unexpectedly warped to (5, 13) from (3, 3). Ladder at (5, 13) should lead to B1F (20, 3). Need to step off and on to trigger it.
-- **Goal:** Reach Dragon Shrine on B1F.
+# Current Status (Turn 18410)
+- **Location:** Dragon's Den 1F (3, 3).
+- **Action:** Interacting with Ladder at (3, 3).
+- **Reasoning:** 
+    - Detected a warp loop: 1F(3,3) -> 1F(5,13) -> 1F(3,3).
+    - Previous entry (Turn 17918) successfully went 1F(3,3) -> B1F(20,3).
+    - Suspect the "warp" to (5,13) might be a misunderstanding or a specific state.
+    - Trying to explicitly "Use" the ladder (A button) to enter B1F.
+- **Goal:** Reach B1F, then Shrine.
 
 # Plan
-1. Step Right to (6, 13).
-2. Step Left to (5, 13) (Trigger Ladder).
-3. Arrive on B1F (20, 3).
-4. Surf South/East to Shrine.
-5. Get Dratini.
-6. Fly to New Bark Town.
+1. Press A on Ladder.
+2. If warp to B1F, proceed to Shrine.
+3. If warp to (5, 13), explore (5, 15) or other options.
+4. Get Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
