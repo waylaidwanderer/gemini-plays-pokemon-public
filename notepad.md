@@ -143,3 +143,8 @@
 - **Expectation:** Submenu opens with options `SURF`, `WHIRLPOOL`, `STATS`, etc.
 - **Next Step:** Navigate to `WHIRLPOOL` and select it.
 - **Context:** Trusting visual confirmation of `Facing: Down` despite Game State saying `Facing: Up`.
+
+# Menu Interaction (Turn 18161)
+- **State:** Submenu open, cursor on `SURF`.
+- **Action:** Selecting `WHIRLPOOL` (Down -> A).
+- **Hypothesis:** If this works, visual facing was correct. If "Can't use that here", Game State `Facing: Up` was authoritative.
