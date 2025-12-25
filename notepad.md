@@ -39,4 +39,5 @@
 # Suicune Search Log (Route 38)
 - Turn 19957: Searched (15, 12) to (34, 9). No encounter.
 - Turn 19961: Starting full sweep from West (0, 8) to East (35, 8).
-- Turn 19974: Checked eastern ledge area. No encounter. Moving to (11, 8).
+- Turn 19974: Checked eastern ledge area. No encounter.
+- Turn 19977: Swept southern path (4, 14) to (15, 14). No encounter. Moving to (35, 14).
