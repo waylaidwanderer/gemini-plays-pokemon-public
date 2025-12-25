@@ -12,12 +12,12 @@
 
 # Event Trigger Progress (Tin Tower Suicune)
 - Prerequisite: Defeat Wise Trio. (VERIFIED: COMPLETED)
-- Strategy: Talk to all 3 Sages on 1F.
-    - Sage ID 5 (5, 9): Talked. (DISAPPEARED Turn 18980)
-    - Sage ID 6 (11, 11): TARGET (Current).
-    - Sage ID 7 (14, 6): Pending.
-- Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off.
-- Note: Stairs at (10, 2) are currently inactive (not in map warp list).
+- Prerequisite: Clear Bell. (VERIFIED: COMPLETED)
+- Failed Hypothesis 1: Sequential Sage dialogue on 1F triggers encounter. (Attempted 3 times, failed)
+- Failed Hypothesis 2: Re-entering 1F triggers encounter. (Attempted 2 times, failed)
+- Observation: Central area (y=4 to y=10, x=6 to x=13) is walled off on 1F.
+- New Strategy: Investigate Tin Tower Entrance (3_3) and Wise Trio's Room (3_5) for missing triggers.
+- Note: Stairs at (10, 2) on 1F are currently inactive.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
