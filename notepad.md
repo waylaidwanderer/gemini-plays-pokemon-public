@@ -1,7 +1,7 @@
 # Blackthorn City Strategy
 
 - **Goal:** Earn Rising Badge (Clair).
-- **Immediate:** Heal party with items, then challenge Clair.
+- **Immediate:** Heal party (Revive Gyarados, Potion Gyarados/Machoke), then challenge Clair.
 - **Next:** Defeat Clair, enter Dragon's Den.
 
 # Blackthorn Gym Strategy
@@ -10,6 +10,14 @@
 - **Navigation:**
   - Currently at (9, 3) on 1F.
   - Path: Cross bridge at (8, 3) West to reach Clair at (5, 3).
+
+## Healing Plan
+- Revive Gyarados (Slot 1).
+- Super Potion Gyarados (needs ~50 HP).
+- Super Potion Machoke (Slot 4, needs ~110 HP) x2.
+- Check Sneasel (Slot 5, 65/65 HP) - Full.
+- Check Quilava (Slot 2, 81/81 HP) - Full.
+- Use: 1 Revive, 3 Super Potions.
 
 ## Puzzle State
 - **East Side:** Complete (Boulders 4 & 5 in Pits).
