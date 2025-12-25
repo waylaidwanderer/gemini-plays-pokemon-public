@@ -45,3 +45,8 @@
 - FLYING forces roaming Pokemon to a completely random location in Johto.
 - Poké Mart inventories scale with Badge progress; Super Repels appear later.
 - Interacting with clerks behind counters: Face the counter tile, not the NPC.
+## Bike Shop Strategy
+- Shop is at Goldenrod City (29, 29).
+- Manager (Clerk) is at (7, 2) behind a counter.
+- To interact: Stand at (5, 2), face Right, and press A.
+- Goal: Borrow a Bicycle to advertise the shop (and chase Suicune).
