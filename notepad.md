@@ -1,5 +1,6 @@
 # Suicune Hunt Strategy (Crystal)
 - Status: ROAMING. Snapshot via Pokedex 'Area'. Fly triggers a roaming move.
+- Current Location: Route 38 (as of Turn 19655).
 - Lead: XENON (Gastly Lv21). Moves: Mean Look, Hypnosis.
 - Strategy: Boundary cycling between Route 38 and Ecruteak City.
 
@@ -9,9 +10,9 @@
 - Turn 3+: NIGHT SHADE. (Fixed damage 21).
 
 # Quick Claw Quest
-- NPC: Woman on a bench in the northeast section of National Park.
-- Location: Northeast corner perimeter.
-- Path: Perimeter gap at (35, 12). Accessible from northern path.
+- NPC: Teacher sitting on a bench.
+- Location: Northeast area of National Park perimeter (accessible via gap at 35, 12).
+- Coordinates: Exploring northern perimeter (target area around 14, 4 or 17, 6).
 
 # Fly Map List (Order from New Bark Town)
 1. New Bark Town, 2. Cherrygrove City, 3. Violet City, 4. Azalea Town, 5. Goldenrod City, 6. Ecruteak City, 7. Olivine City, 8. Cianwood City, 9. Mahogany Town, 10. Lake of Rage.
