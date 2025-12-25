@@ -1,7 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
-- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 and will not move until approached.
-- Strategy: Approach Suicune on the western ledge of Route 38.
-- Access: Enter Route 38 northern path from the west (Route 39 border).
+- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 (ledge near Miltank farm) and will not move until approached.
+- Strategy: Fly to Olivine City -> Walk North through Route 39 -> Enter Route 38 northern path from the west.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Task Started: Turn 19782, 2025-12-25 05:42 AM PST.
 
@@ -14,8 +13,8 @@
 - WALL: Impassable.
 - FLOOR: Standard traversable tile.
 - COUNTER: Impassable; interact with from front.
-- WARP_CARPET_DOWN: Standard traversable tile; triggers warp when moving off map.
-- LADDER: Standard traversable tile; triggers warp when stepping on.
+- WARP_CARPET_DOWN: Warp tile; triggers map transition when moving off the bottom edge.
+- LADDER: Warp tile; triggers warp when stepping on.
 - PC: Impassable; interact from below.
 - TALL_GRASS: Triggers wild encounters.
 - LONG_GRASS: Triggers wild encounters (lower rate).
@@ -27,6 +26,5 @@
 - Super Repel: 1 in Pack.
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
-# Error & Navigation Log
-- Turn 19918: Phone call from Alan interrupted Fly attempt. Resetting to overworld.
-- Navigation: Route 38 Top Path is only accessible from Route 39 (West). Fly to Olivine -> Walk North.
+# Fly Map Order (Johto)
+- New Bark, Cherrygrove, Violet, Azalea, Goldenrod, Ecruteak, Olivine, Cianwood, Mahogany, Blackthorn.
