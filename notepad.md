@@ -33,3 +33,6 @@
 - Note: Watch for Whirlpools. If blocked, teach HM06 to Lapis (Poliwag).
 - Turn 17895: Surfing South from (20, 9). Text "LAPIS used SURF!" visible. Clearing text and proceeding South.
 - Turn 17896: Encountered central island/structure starting at (20, 16). Navigating West to circle around it.
+- Turn 17901: Attempted to read sign at (18, 24) from (18, 23) (North side). Failed (no text).
+- Hypothesis: Sign must be read from the South side (18, 25).
+- Action: Navigating to (18, 25) to read sign/find entrance.
