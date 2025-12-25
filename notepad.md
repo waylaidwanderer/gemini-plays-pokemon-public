@@ -36,6 +36,6 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Psychic Richard (Espeon Lv36). (Turn 18767)
-- **Status:** Gyarados Lv34 (16/111). Muscle Lv60 (63/198).
+- **Status:** Team Critical. Gyarados (16/111), Muscle (63/198).
 - **Location:** Route 26 (15, 79).
-- **Next:** Find Rest House North of here to heal.
+- **Next:** Go East into grass, then North to bypass ledges. Find Rest House.
