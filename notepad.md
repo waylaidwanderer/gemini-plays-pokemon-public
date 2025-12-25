@@ -1,17 +1,18 @@
-# Ice Path Strategy: B1F Boulder Puzzle
+# Blackthorn City Strategy
 
-- **Status:** Searching for Boulders. Turn: 17415.
-- **Goal:** Locate and push 4 Boulders into 4 Pits.
-    - **Boulder 1:** Target Pit (12, 13). Not at (18, 12) or (17, 7).
-    - **Boulder 2:** Target Pit (4, 7). Not at (5, 6).
-    - **Boulder 3:** Target Pit (11, 2). Not at (11, 5).
-    - **Boulder 4:** Target Pit (5, 12).
-- **Pits:** `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
+- **Goal:** Earn Rising Badge (Clair).
+- **Immediate:** Locate Pokemon Center & Heal.
+- **Next:** Clear Bag Space, Challenge Gym.
 
-## Navigation & Mechanics
-- **Current Position:** `(3, 2)`.
-- **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
-- **Bag Status:** Full.
-- Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- **Current Task:** Find Pokemon Center in Blackthorn City.
-- **Next Steps:** Heal, fix inventory, challenge Gym.
+# Tile Mechanics
+- **LEDGE_HOP_DOWN**: One-way traversable (South only). Jump over to descend.
+- **FLOOR**: Standard walkable tile.
+- **WALL**: Impassable obstacle.
+
+# Key Locations
+- **Ice Path Entrance:** (36, 9)
+- **Cooltrainer F:** (35, 19)
+- **Sign:** (34, 24)
+
+# Archived: Ice Path
+- Solved. Exited via 1F East.
