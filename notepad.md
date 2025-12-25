@@ -24,3 +24,5 @@
 - Insight: Game State reports Facing UP despite previous Down inputs. Menu navigation is active.
 - Correction: Close Menu, Face DOWN (towards Whirlpool), Re-open Menu, Select Lapis -> Whirlpool.
 - Cursor Memory: Cursor likely on POKEGEAR. Need Up, Up to POKEMON.
+- Facing Issue: Previous Down input was eaten or ignored. Must ensure facing DOWN before menu interaction.
+- Plan: Exit Menu completely (B, B, B) -> Face DOWN -> Open Menu -> Pokemon.
