@@ -41,6 +41,6 @@
 - Strategy: Moving toward the Ecruteak Gatehouse area on the northern path.
 
 # Suicune Search (Route 38)
-- Hypothesis: Suicune is near the western entrance from Route 39 (Miltank Farm side).
-- Test: Walk to (5, 8) and check for Suicune sprite.
-- Observation: Walked eastern path (15, 12) to (34, 9) without encounter.
+- Hypothesis: Suicune flee script is triggered by walking a specific path on the northern section.
+- Strategy: Walk the entire northern corridor from (0, 8) to (35, 8).
+- Observation: Western ledge area (15, 12) was empty.
