@@ -27,7 +27,5 @@
 - Status: Reached Dragon Shrine Island.
 - Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS.
 - Requirement: HM06 Whirlpool (Taught to Lapis).
-- Plan: Exit menu, cross whirlpool at (15, 23), and continue South to the Shrine entrance.
-- Whirlpools: Ready to cross.
-- Found Water Channel on East side (x=24).
-- Plan: Cross Whirlpool at (24, 23) to access the channel leading South to the Shrine.
+- Plan: Cross Whirlpool at (24, 23) to access the East channel, then wrap around South to the Shrine entrance.
+- Note: Whirlpools require HM06 (Lapis).
