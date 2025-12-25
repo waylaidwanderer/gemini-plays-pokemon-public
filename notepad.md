@@ -18,4 +18,6 @@
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
 - Whirlpool interaction via 'A' failed or was ignored.
 - Using Menu -> Pokemon -> Lapis -> Whirlpool as fallback.
-- Validated Menu Navigation: Start -> Up (x3 to force top) -> Down (Pokemon) -> A.
+- Validated Menu Navigation: Start -> Down -> A (Pokemon).
+- Current Issue: Player facing UP, Whirlpool is DOWN. Must face DOWN.
+- Corrective Action: Close all menus -> Face Down -> Open Menu -> Pokemon -> Lapis.
