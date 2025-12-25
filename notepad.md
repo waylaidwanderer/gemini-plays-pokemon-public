@@ -3,7 +3,7 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (2, 4).
+- **Position:** Player at (8, 8).
 - **Goal:** Solve B2.
 - **Puzzle State:**
   - **B1:** Missing.
@@ -11,8 +11,7 @@
   - **B3:** Not found in Top Left.
 
 ## Immediate Plan
-1.  **Navigate to (8, 8):**
-    - Path: (2, 4) -> (2, 2) -> (5, 2) -> (5, 9) -> (8, 9) -> (8, 8).
+1.  **Activate Strength:** (Currently Inactive).
 2.  **Solve B2:**
     - Push Left (7, 8) -> (5, 8).
     - Push Up (5, 8) -> (5, 6).
