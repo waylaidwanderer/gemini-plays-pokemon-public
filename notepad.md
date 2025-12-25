@@ -1,7 +1,7 @@
 # Strategy: Suicune Hunt (Crystal)
 - Start Turn: 20637 (Thursday)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Ledge trigger) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Proximity to the ledge (Rows 8-12). Note: Walking Row 10 triggered a ledge hop at (10, 12), not a script.
+- Route 38 Trigger: Proximity to the ledge (Rows 8-12).
 - Goal: Verify if the Route 38 sighting is complete by checking the Pokédex or looking for Eusine.
 - Next Steps: Scour the ledge area systematically.
 
