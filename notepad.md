@@ -35,3 +35,10 @@
 
 # Lessons Learned
 - Fly Map Snapping: Vertical movement on the Fly map causes the cursor to snap to the closest city in the new row. Horizontal movement stays within the current row. Independent X/Y calculation is unreliable; use step-by-step snapping simulation.
+
+# Route 38 Ledge Mechanics
+- (7, 12) -> (8, 12): LEDGE_HOP_RIGHT (Jump East).
+- (7, 14) -> (8, 14): LEDGE_HOP_RIGHT (Jump East).
+- (10, 9) -> (11, 9): LEDGE_HOP_RIGHT (Jump East).
+- (10, 12) -> (11, 12): LEDGE_HOP_RIGHT (Jump East).
+- Result: Central trough (X=8-10) is a pit that can only be exited South at (9, 13). Western ledge (X=0-7) is isolated from the trough.
