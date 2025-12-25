@@ -7,7 +7,8 @@
 
 ## Navigation Plan: Pit (12, 13)
 1.  **Traverse North & West:**
-    - Go `(17, 3)` -> `(17, 1)` -> `(12, 1)` -> `(12, 5)`.
+    - Current Pos: `(14, 1)` (Reset from `(13, 2)`?).
+    - Go `(14, 1)` -> `(13, 1)` -> `(12, 1)` -> `(12, 5)`.
 2.  **Zig-Zag to Avoid Wall (12, 6):**
     - `(12, 5)` -> `(11, 5)` -> `(11, 7)` -> `(12, 7)`.
 3.  **Approach Pit:**
