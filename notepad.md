@@ -4,19 +4,20 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18385)
-- **Location:** Blackthorn Pokémon Center (3, 7).
-- **Action:** Walk to PC to deposit a Pokémon.
-- **Goal:** Free up a party slot for the Extremespeed Dratini.
+# Current Status (Turn 18386)
+- **Location:** Blackthorn Pokémon Center (9, 2).
+- **Action:** Access PC to deposit Swinub.
+- **Reasoning:** Taking the top route (Row 4) to avoid the blocking Cooltrainer.
 - **Target:** Deposit Swinub (Truffle).
 
 # Plan
-1. Navigate to (9, 2) (Front of PC).
-2. Access PC.
-3. Deposit Swinub.
-4. Exit and return to Dragon Shrine.
-5. Get Dratini.
-6. Fly to New Bark Town.
+1. Turn on PC (`A`).
+2. Select `BILL'S PC` / `SOMEONE'S PC`.
+3. Select `DEPOSIT PKMN`.
+4. Select `SWINUB`.
+5. Confirm.
+6. Return to Dragon Shrine for Dratini.
+7. Fly to New Bark Town.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
