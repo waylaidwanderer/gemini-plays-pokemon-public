@@ -12,9 +12,14 @@
     4. When Suicune is on your route, use Super Repel and search grass.
 
 # Logistics & Supplies
-- **Super Repel Search**:
+- **Super Repel Search (Started Turn 18550)**:
     - Ecruteak Mart: Verified NO (Turn 18554).
-    - Goldenrod Dept. Store: Verified NO (Turns 18585-18625).
+    - Goldenrod Dept. Store:
+        - 2F: Verified NO (Turn 18585).
+        - 3F: Verified NO (Turn 18610).
+        - 4F: Verified NO (Turn 18615).
+        - 5F: Verified NO (Turn 18625).
+        - 6F: Checked, vending machines only.
     - Next Target: Olivine City Mart.
 - **Training Plan (XENON)**:
     - Target: Level 35-40.
