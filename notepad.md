@@ -43,9 +43,13 @@
 1. **Push Sequence:**
    - **Step 1:** Push Boulder Up to (5, 6). (Completed)
    - **Step 2:** Circle around to (6, 6). (Current)
-     - *Correction:* East Loop via Col 18 blocked at Row 5.
-     - **New Route:** Backtrack South to Row 13, cross West, then North via Col 11/12.
-     - Path: (18, 6) -> (18, 13) -> (13, 13) -> North to (6, 6).
+     - **Zig-Zag Route to North:**
+       1. Cross West at Row 14: (18, 13) -> (18, 14) -> (13, 14).
+       2. Go Up Col 13 to (13, 11), then Left to (12, 11).
+       3. Go Up Col 12 to (12, 7), then Left to (11, 7).
+       4. Go Up Col 11 to (11, 5), then Right to (12, 5).
+       5. Go Up Col 12 to (12, 1).
+       6. Go West to (6, 1) and Down to (6, 6).
    - **Step 3:** Push Boulder Left to (4, 6).
    - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
 2. **Return to B2F:**
@@ -54,5 +58,5 @@
    - Slide Right to Item.
 
 ## Current Action
-- Backtracking South to Row 13 to bypass wall.
-- Target: (13, 13).
+- Executing Zig-Zag Route.
+- Leg 1: (18, 13) -> (18, 14) -> (13, 14) -> (13, 11) -> (12, 11) -> (12, 7).
