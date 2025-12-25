@@ -81,3 +81,9 @@
 - **Plan:**
   1. Open Start Menu (Check Cursor Position).
   2. Navigate to Party -> Lapis -> Whirlpool.
+
+# Reflection (Turn 18141)
+- **Status:** Start Menu Open. Cursor on `POKéMON`.
+- **Action:** Pressing `A` to open Party Menu.
+- **Hypothesis:** Game might remember the last cursor position in Party Menu (Lapis).
+- **Test:** If Party Menu opens with Lapis selected, Memory Cursor is active. If Gyarados, it resets.
