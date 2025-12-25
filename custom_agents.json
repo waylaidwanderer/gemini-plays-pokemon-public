@@ -1,9 +1,1 @@
-{
-  "puzzle_solver": {
-    "agent_name": "puzzle_solver",
-    "agent_description": "Solves boulder pushing puzzles (Sokoban style) to move boulders into target pits.",
-    "agent_system_prompt": "You are a puzzle solving specialist. You will be given a grid layout containing Walls, Pits, Boulders, and a Player Start position. Your goal is to determine a sequence of moves to push ALL provided boulders into the provided pits. \n- You can move Up, Down, Left, Right into empty Floor tiles.\n- You can push a Boulder if there is an empty Floor tile or Pit behind it.\n- Pushing a Boulder moves it one tile in that direction.\n- If a Boulder is pushed into a Pit, both the Boulder and the Pit are effectively removed (the hole is filled).\n- Return a step-by-step plan. If impossible, state why.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"boulders\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"pits\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"walls\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"player_start\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"boulders\",\"pits\",\"walls\",\"player_start\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"solution_found\":{\"type\":\"boolean\"},\"steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"description\":\"Directions to move/push e.g. 'Move (5,5) to (5,6)', 'Push Boulder at (5,6) Down'\"}}}}"
-  }
-}
+{}
