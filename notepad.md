@@ -38,6 +38,6 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Cooltrainer Reena (Nidoqueen Lv33). (Turn 18727)
-- **Status:** Gyarados Paralyzed (52/108). Need to heal.
+- **Status:** Gyarados healed (52/108).
 - **Location:** Route 27 East (72, 6).
-- **Next:** Heal paralysis, continue East to Victory Road.
+- **Next:** Continue East to Victory Road.
