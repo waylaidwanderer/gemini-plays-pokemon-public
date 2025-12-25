@@ -33,9 +33,9 @@
 
 # Repetitive Task: Pacing for Suicune
 - Location: Route 37 Grass.
-- Status: Re-applying Super Repel (Turn 19321).
+- Status: Super Repel applied (Turn 19322). x1 remaining.
 - Total Pacing Steps: 420.
-- Next Action: Apply Super Repel, then check Pokedex.
+- Next Action: Exit menu, verify Suicune location in Pokedex.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
