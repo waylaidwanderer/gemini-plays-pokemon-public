@@ -1,12 +1,11 @@
 # Suicune Hunt Strategy (Crystal)
 - Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 and will not move until approached.
-- Strategy: Locate Suicune near the Miltank Farm ledge on Route 38, approach to trigger flee, then proceed to Tin Tower.
-- Hypothesis: Sighting #4 is located in the north-eastern part of Route 38, near the fence and ledge.
+- Strategy: Locate Suicune near the Miltank Farm ledge on Route 38 (western edge), approach to trigger flee, then proceed to Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
-- NPC: Teacher sitting on a bench with Persian.
-- Location: National Park (17, 10) near fountain.
+- NPC: Lady sitting on a bench with Persian.
+- Location: National Park (18, 12) in the northeast section.
 - Time: Always available.
 
 # Swarms & Rematches
