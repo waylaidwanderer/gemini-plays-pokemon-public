@@ -1,17 +1,16 @@
 # Ice Path Strategy: B1F Boulder Puzzle
 
 ## Current Status
-- **Location:** B2F, Position (11, 17).
+- **Location:** B2F, Position (16, 17).
 - **Goal:** Return to B1F via Ladder at (17, 1).
-- **Action:** Sliding Right to (16, 17).
+- **Action:** Aligning for ascent via Col 17.
 
 ## Navigation Plan: Return to B1F
-1.  **Slide Sequence:**
-    - Slide Right from `(11, 17)` to `(16, 17)` (Floor).
-    - Walk to `(18, 14)` (Start of Col 18 slide).
-    - Slide Up Col 18 to `(18, 3)`.
+1.  **Align:**
+    - Walk `(16, 17)` -> `(17, 17)` -> `(17, 16)` (Floor).
 2.  **Ascend:**
-    - `(18, 3)` -> `(17, 1)` Ladder.
+    - Slide Up Col 17 from `(17, 16)`.
+    - **Hypothesis:** Ladder at `(17, 1)` will stop the slide.
 3.  **B1F Action:**
     - Go to Hole `(12, 13)` and drop.
 
