@@ -43,7 +43,7 @@
 
 # Suicune Hunt Progress
 - Goal: Trigger flee on Route 38.
-- Status: Moving west through fence gap at (3, 10) to reach the western ledge area.
-- Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
+- Strategy: Navigate through the fence gap at (3, 10) to reach the western ledge area. Locate Suicune near the Moomoo Farm.
+- Sighting #4: Route 38. Suicune is on the ledge near the farm.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
