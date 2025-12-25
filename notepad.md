@@ -39,8 +39,8 @@
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Failed Repel Attempts: ~26.
-- Repel Strategy: Start -> Down (2) -> A (PACK) -> Down (11) -> A (Select) -> A (USE). Verified item is in 12th slot.
-- Note (Turn 19853): Main menu has 8 items, wrapping occurs. PACK is index 2.
+- Repel Strategy: Start -> Up (2) -> A (PACK) -> Up (15) -> Down (11) -> A (Select) -> A (USE). Verified item is in 12th slot.
+- Note (Turn 19856): Cursor starts on GEM (index 5) after previous Trainer Card interaction. Up (2) reaches PACK.
 
 # Exploration Updates
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
