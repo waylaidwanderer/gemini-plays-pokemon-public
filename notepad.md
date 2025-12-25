@@ -6,14 +6,16 @@
 
 # Suicune Battle Plan
 - Item: QUICK CLAW (Priority: National Park).
-- Turn 1: MEAN LOOK. (Note: Suicune is faster than Gastly).
+- Turn 1: MEAN LOOK.
 - Turn 2+: HYPNOSIS.
 - Turn 3+: NIGHT SHADE (fixed damage).
-- Failsafe: If flee Turn 1, need Quick Claw.
+- Failsafe 1: Suicune has ROAR. Even with Mean Look, Roar will end the battle. Need to keep it asleep or use a Pokémon with Soundproof (not in Crystal) or Suction Cups (Octillery - not available yet). Strategy: Prioritize Sleep.
+- Failsafe 2: If flee Turn 1, need Quick Claw.
 
 # Quick Claw Quest
 - Verified: Lady with Persian on a bench in NE National Park gives it.
 - Action: Enter National Park from Route 35 (3, 5).
+- Note: National Park wild levels are likely ~Lv10-15. Super Repel + Lv21 lead should filter for Suicune.
 
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
@@ -26,9 +28,8 @@
 - COUNTER: Interact from adjacent tile.
 
 # Repetitive Task: Pacing for Suicune
-- Status: PAUSED. Pivoting to Quick Claw quest (Route 35).
+- Status: ON HOLD (Getting supplies/Quick Claw).
 - Repel: Applied Turn 19361. ~155 steps taken.
-- Objective: Obtain Quick Claw.
 - Suicune Log: Confirmed on Route 35 (Turn 19388).
 
 # Resources & PC
