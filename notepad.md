@@ -46,3 +46,10 @@
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Milestones
+- Burned Tower: Released legendary beasts.
+- Cianwood: Saw Suicune at (10, 14).
+- Route 42 Island: Saw Suicune.
+- Tin Tower: Stationary battle completed.
+- Roaming Phase: Active.
