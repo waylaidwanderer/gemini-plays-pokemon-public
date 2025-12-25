@@ -7,8 +7,8 @@
 - **Field Moves:** If 'A' interaction fails (even when facing correctly), ALWAYS fallback to Menu -> Pokemon -> [Mon] -> [Move].
 - **Whirlpool:** Requires facing the whirlpool tile directly. 'A' button might be unreliable; Menu is safer.
 
-- Status: Correcting Facing for Whirlpool (Retry).
-- Reason: Previous attempt failed (still facing UP). Menu is confirmed OPEN.
-- Plan: Use 'Start' to Close Menu (toggles it off), then 'Down' to Face Down, then 'Start' to Re-open Menu.
-- Sequence: Start -> Down -> Start.
-- Tool: slow_press with 2000ms delay to ensure state transitions complete.
+- Status: Correcting Facing for Whirlpool (Final Attempt).
+- Reason: Game State consistently reports 'Facing: up' despite previous inputs. Menu is currently open.
+- Plan: Close Menu (B) -> Wait -> Face Down (Down).
+- Logic: Separating the 'Face Down' action from the 'Open Menu' action to ensure the state update is confirmed before proceeding.
+- Next Turn: If Facing is 'Down', Open Menu and use Whirlpool.
