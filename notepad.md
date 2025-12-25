@@ -38,3 +38,9 @@
 
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
+
+# Route 38 Lane Analysis
+- Top Lane: Row 0-6. Contains Suicune sighting #4 at the western end. Reachable only from Ecruteak City by staying North.
+- Middle Lane: Row 8-10. Contains Beauty Olivia. Connects to Route 39 main road.
+- Bottom Lane: Row 12-14. Contains "Ledge Pocket" and "Valley Trap". Entrance via ledge hop at Row 11/13. Requires Fly to exit.
+- Vertical Walls: Solid walls at X=11 and X=16 on Route 38, and X=16 on Route 39, enforce lane separation.
