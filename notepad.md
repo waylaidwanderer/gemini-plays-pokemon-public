@@ -31,7 +31,7 @@
 
 # Resources & PC Inventory
 - Poke Balls: 1 Ultra, 23 Great, 2 Poke.
-- Items: 3 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
+- Items: 2 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
 - Key Items: Clear Bell (Required for Suicune at Tin Tower).
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
