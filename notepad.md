@@ -38,3 +38,7 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
+- Turn 18120: Game State reports Facing DOWN. Previous B inputs likely cleared menu, but facing update is mysterious.
+- Plan: Sending explicit DOWN input to guarantee facing, then executing Menu -> Whirlpool sequence.
+- Sequence: Down (Safety) -> Start -> A (Pokemon) -> A (Lapis) -> Down (Whirlpool) -> A (Select).
+- Verified cursors: Start Menu on POKEMON, Party Menu on LAPIS, Submenu starts on SURF.
