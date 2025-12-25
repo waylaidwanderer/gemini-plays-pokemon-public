@@ -11,8 +11,8 @@
 - Failsafe: Roar ends the battle even with Mean Look. Keep it asleep!
 
 # Quick Claw Quest
-- Location: National Park (16, 12).
-- NPC: Lady with Persian on a bench in the northeast area.
+- Location: National Park (18, 12).
+- NPC: Lady on a bench in the northeast area.
 - Access: Enter National Park from Route 35 (3, 5).
 
 # Tile Mechanics (Verified)
@@ -31,15 +31,8 @@
 - Items: 3 Super Repels.
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Task Progress
-- Quick Claw Search: In progress.
-
 # Error Analysis & Lessons
 - Menu Navigation: Always clear screen text with B before starting a menu sequence.
 - Fly Map: Verify current city in Game State before calling navigate_fly_map.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
-
-# Menu Navigation Debugging
-- Problem: Persistent cursor makes menu navigation unpredictable.
-- Hypothesis: Resetting to the top of the menu using multiple "Up" presses will provide a consistent starting point.
-- Test 1: Press Start, then Up 7 times, then Down 1 time to reach POKEMON.
+- Olivine City: FLY cursor defaults to New Bark Town.
