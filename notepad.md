@@ -28,8 +28,8 @@
 - Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
 
 # Suicune Encounter Strategy
-- Step 1: Obtain Bicycle in Goldenrod City (29, 29).
-- Step 2: Walk/Bike to Ecruteak City (Flying randomizes Suicune's location).
+- Step 1: Obtain Bicycle in Goldenrod City (29, 29). [COMPLETED]
+- Step 2: Fly to Ecruteak City (Note: Flying randomizes Suicune's location, but we need the Mart).
 - Step 3: Buy Super Repels at Ecruteak Mart (¥500 each).
 - Step 4: Put XENON (Lv21) in the lead.
 - Step 5: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
