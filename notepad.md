@@ -37,11 +37,12 @@
 
 # Map Hazard
 - Route 38 Ledge Pocket: (8, 14) to (23, 14). Entrance is via ledge hop down from northern path. Exit requires Fly or walking east/west to dead ends. STAY ON NORTHERN PATH for Suicune.
+- Ledge Traversability: Tiles at (11, 13) to (20, 13) are LEDGE_HOP_DOWN (one-way). Do not step on them from the north (Row 12).
 
 # Suicune Hunt Progress
 - Started Hunt: Turn 20127
 - Goal: Trigger flee on Route 38.
-- Status: Searching northern path. Currently at Turn 20163. Failed menu attempts: 7. Strategy: Close menu, move west to (10, 5), then retry Repel.
-- Sighting #4: Route 38. Suicune is on the ledge. Approach to trigger flee.
+- Status: Searching northern path. Currently at Turn 20164. Failed menu attempts: 7. Strategy: Move west to (10, 5) before retrying Repel.
+- Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell required.
