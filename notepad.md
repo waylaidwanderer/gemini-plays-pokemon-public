@@ -32,3 +32,4 @@
 - Next: Surf south from (20, 9) to locate the Shrine.
 - Note: Watch for Whirlpools. If blocked, teach HM06 to Lapis (Poliwag).
 - Turn 17895: Surfing South from (20, 9). Text "LAPIS used SURF!" visible. Clearing text and proceeding South.
+- Turn 17896: Encountered central island/structure starting at (20, 16). Navigating West to circle around it.
