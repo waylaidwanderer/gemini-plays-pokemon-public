@@ -24,7 +24,7 @@
 - Status: PAUSED. Pivoting to Quick Claw quest (Route 35).
 - Repel: Applied Turn 19361. ~155 steps taken.
 - Objective: Obtain Quick Claw.
-- Suicune Log: Confirmed on Route 36 (Turn 19385).
+- Suicune Log: Confirmed on Route 35 (Turn 19388).
 
 # Resources & PC
 - Balls: 1 Ultra, 23 Great.
