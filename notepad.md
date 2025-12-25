@@ -25,8 +25,10 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - HEADBUTT_TREE: Impassable.
 - CUT_TREE: Impassable; removable with Cut.
 - TALL_GRASS: Walkable.
-- CAVE/DOOR/WARP: Walkable; warp.
-- LEDGE: One-way (hop down).
+- CAVE/DOOR/WARP/WARP_CARPET_LEFT/WARP_CARPET_RIGHT/DOOR: Walkable; warp.
+- LEDGE_HOP_DOWN/LEDGE_HOP_RIGHT: One-way movement (hop down/right).
+- FLOOR_UP_WALL: Walkable (stairs/transition).
 - COUNTER: Impassable; interact from adjacent tile.
+- Turn 19056: Starting Suicune capture sequence. Current status: Missing Route 42 encounter.
 - Sprite Visibility: NPCs only appear in 'Map Objects On Screen' when within field of view.
 - Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events.
