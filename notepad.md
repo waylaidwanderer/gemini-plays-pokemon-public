@@ -13,10 +13,5 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Arrived in Blackthorn City.
-- Goal: Earn Rising Badge.
-    - Plan:
-        1. Locate and Heal at Pokemon Center.
-        2. Clear Bag space (PC/Mart).
-        3. Challenge Blackthorn Gym (Clair).
-- Note: Ice Path entrance is at (36, 9). Ledge at y=11 requires careful navigation.
+- **Current Task:** Find Pokemon Center in Blackthorn City.
+- **Next Steps:** Heal, fix inventory, challenge Gym.
