@@ -38,5 +38,5 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Battle & Equipment History
 - Amulet Coin: Equipped to XENON.
-- Sage Lore: All three Sages (5,9), (11,11), (14,6) have shared their lore.
+- Sage Lore: All Sages have shared their lore.
 - Suicune: Stationary encounter in Crystal. Strategy: Hypnosis -> Weaken.
