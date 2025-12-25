@@ -28,16 +28,17 @@
     - Eastern Strip (X=16-35): Reachable via Ecruteak or gaps at X=30-35.
   - Path Complexity: Walking East is possible by detouring through the southern floor path (Row 14-16) and exiting North at (9, 14) -> (9, 13).
 - Search Log:
-  - Top Lane Eastern Strip (X=16-35): Searched. No Suicune.
-  - Top Lane Middle Pocket A (X=4-5): Searched. No Suicune.
-  - Top Lane Middle Pocket B (X=8-9): Searched. No Suicune.
-  - Southern Path (X=4-13): Searched. No Suicune.
-  - Top Lane Western Pocket (X=0-2): Unexplored.
-  - Route 39 Barn: Searched. No Suicune.
+  - Main Northern Patch (X=8-13): Searched.
+  - Northern Patch A (X=4-5): Searched.
+  - Northern Patch B (X=6-7): Searching.
+  - Eastern Strip (X=16-35): Searched.
+  - Southern Path (X=4-13): Searched.
+  - Western Pocket (X=0-2): Unexplored. Hypothesize entrance from Route 39.
 - Current Plan: 
-  1. Search Southern Path extension (X=22-29) on Route 38.
-  2. Investigate Western Pocket (X=0-2) via Route 39.
-  3. Head to National Park for Quick Claw.
+  1. Sweep Northern Patch B (6, 4 -> 7, 5).
+  2. Go to Route 39 and check Row 6 for a gap into Route 38.
+  3. Search Western Pocket (X=0-2).
+  4. Fly to Ecruteak -> National Park.
 
 # Lessons Learned
 - Southern Path Exit: Located at (9, 14) leading up to (9, 13).
