@@ -26,7 +26,7 @@
 - Johto Order: 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
 
 # Side Quests
-- Quick Claw: National Park (18, 12). Lady with Persian. Absent during Bug-Catching Contest (Tue, Thu, Sat).
+- Quick Claw: National Park (33, 12). Lady on bench in NE section.
 - Yanma Swarm: Caught.
 - Schoolboy Alan (Route 36): Rematch available?
 
