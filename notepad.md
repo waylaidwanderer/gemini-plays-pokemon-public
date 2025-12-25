@@ -13,17 +13,17 @@
 3.  **Leg 3:** `(6, 1)` -> `(6, 2)` -> `(5, 2)` -> South to `(5, 5)` -> East to `(6, 5)` -> South to `(6, 6)`.
     - *Avoids Wall at `(6, 3)` and Wall at `(5, 1)`.*
 
-## Puzzle Solution (Once at 6, 6)
-1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`.
-2.  **Reposition:** Circle `(6, 5)` -> `(5, 5)` -> `(4, 5)`.
+## Puzzle Solution (In Progress)
+1.  **Push 1:** At `(6, 6)`, push Boulder Left to `(4, 6)`. (EXECUTING NOW)
+2.  **Reposition:** Circle `(6, 6)` -> `(6, 5)` -> `(5, 5)` -> `(4, 5)`.
 3.  **Push 2:** Push Boulder Down into Pit `(4, 7)`.
 
 ## Item Retrieval (B2F)
 1.  Drop into Pit `(4, 7)`.
 2.  Land on B2F.
-3.  Slide Up Col 4 -> Hit Boulder at (4, 7) -> Stop at (4, 8).
-4.  Slide Right to (8, 8) -> Get Item.
-5.  Exit via Ladder (9, 11).
+3.  Slide Up Col 4 -> Hit Boulder at `(4, 7)` -> Stop at `(4, 8)`.
+4.  Slide Right to `(8, 8)` -> Get Item.
+5.  Exit via Ladder `(9, 11)`.
 
 ## Map Data
 - **Pits:** (11, 2), (4, 7), (5, 12), (12, 13).
