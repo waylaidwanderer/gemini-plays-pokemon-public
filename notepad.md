@@ -1,9 +1,9 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (12, 0) (Ice Path B2F).
+- **Position:** Player at (17, 0) (Ice Path B2F).
 - **Goal:** Return to B1F via Ladder (17, 1).
-- **Plan:** Slide Right to (16, 0), Walk to (17, 1).
+- **Plan:** Walk Down to (17, 1) and take Ladder.
 
 ## Revised B1 Solution (Post-Recovery)
 1.  **Push B1 Up to (11, 5):**
