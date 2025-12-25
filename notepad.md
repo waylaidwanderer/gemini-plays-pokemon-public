@@ -1,22 +1,21 @@
 # Ice Path Strategy (B1F)
 
 ## Current Status
-- **Position:** Player at (12, 5).
-- **Goal:** RESET PUZZLE via Pit (12, 13).
-- **Reason:** B1 is stuck at (10, 5) and cannot be solved from current position.
-- **Puzzle State:** BRICKED.
+- **Position:** Player at (12, 12) (Ice Path B2F).
+- **Goal:** Return to B1F via Ladder (17, 1).
+- **Plan:** Slide Up to (12, 0), Slide Right to (16, 0), Walk to (17, 1).
 
-## Recovery Plan
-1.  **Reset:** Enter Pit at (12, 13).
-    - Path: Left to (11, 5) -> Down to (11, 8) -> Right to (12, 8) -> Down into Pit (12, 13).
-2.  **Return:** Navigate back to B1F.
-3.  **Execute Solution (REVISED):**
-    - **Step 1:** Push B1 Up to (11, 5).
-    - **Step 2:** Navigate to (10, 6) via TOP LOOP:
-      - (12, 5) -> (12, 1) -> (10, 1) -> (10, 4) -> (9, 4) -> (9, 5) -> (10, 5) -> (10, 6).
-    - **Step 3:** Slide Right to (11, 6).
-    - **Step 4:** Push B1 Up to (11, 4).
-    - **Step 5:** Go around to (12, 4) (via 12, 1).
-    - **Step 6:** Push B1 Left to (10, 4).
-    - **Step 7:** Go around to (10, 5) (via left side).
-    - **Step 8:** Push B1 Up to (10, 1) and solve.
+## Revised B1 Solution (Post-Recovery)
+1.  **Push B1 Up to (11, 5):**
+    - From (11, 8), push Up twice. B1 ends at (11, 5).
+2.  **Move B1 Left to (10, 5):**
+    - Navigate (11, 6) -> (10, 6) -> (10, 1) -> (12, 1) -> (12, 5).
+    - Push Left. B1 at (10, 5).
+3.  **Push B1 Up to (10, 1):**
+    - Navigate to (10, 6). Push Up x4. B1 at (10, 1).
+4.  **Push B1 Right to (11, 1):**
+    - Navigate (10, 2) -> (10, 6) -> (6, 6) -> (6, 1) -> (9, 1).
+    - Push Right. B1 at (11, 1).
+5.  **Push B1 Down to Pit:**
+    - Navigate to (11, 0) (Slide from 10, 0).
+    - Push Down.
