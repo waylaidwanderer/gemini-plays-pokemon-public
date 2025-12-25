@@ -31,7 +31,14 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - COUNTER: Impassable; interact from adjacent tile.
 - Suicune Location: Confirmed on Route 42 via Pokedex.
 - Next Step: Trigger flee event on Route 42 middle island.
-- Battle Strategy (for Tin Tower): Use Sleep (XENON) and False Swipe (if I can get it) or careful weakening. Need more Ultra Balls and funds.
-- Turn 19081: At Ecruteak east gate. Heading to Route 42.
+- Battle Strategy (for Tin Tower): 
+    - Lead: XENON (Gastly) for Hypnosis. Use Mean Look if roaming (not applicable for Tin Tower).
+    - Tank/Weaken: GNEISS (Graveler) or Calcifer (Typhlosion).
+    - Status: Keep Suicune asleep.
+    - Resources: Need more Ultra Balls. Current: 1 Ultra, 23 Great.
+    - Funding: Sell unused items (Fire Stone, Water Stone?) or battle trainers for cash.
+- Tile Mechanics (Global):
+    - LEDGE_HOP_LEFT/UP: Impassable (One-way mechanics only apply down/right).
+- Turn 19082: Entered Ecruteak-Route 42 Gatehouse. Heading east.
 - Sprite Visibility: NPCs only appear in 'Map Objects On Screen' when within field of view.
 - Inactive Warps: Warp tiles (e.g. stairs) may be conditional and only activate after specific events.
