@@ -15,6 +15,7 @@
 - CUT_TREE: Impassable; removable with Cut.
 - LEDGE_HOP_DOWN/RIGHT: One-way movement.
 - COUNTER: Interact from adjacent tile.
+- MART_SHELF: Impassable.
 
 # Lessons Learned
 - Suicune Sequence: Burned Tower -> Cianwood -> Route 42 Island -> Tin Tower battle -> Roaming.
