@@ -37,3 +37,8 @@
 # Strategy: Fly Navigation (Johto)
 - Attempt #20 (Turn 19929): Using chunked navigation (2 buttons at a time) to ensure state verification.
 - Verification: 2 Downs from New Bark should be Violet City.
+
+# Suicune Hunt Progress
+- Turn 19931: Successfully landed in Olivine City.
+- Current Step: Moving North through Olivine City to Route 39.
+- Target: Route 38 northern path (ledge).
