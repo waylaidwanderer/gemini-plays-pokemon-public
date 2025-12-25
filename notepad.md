@@ -22,8 +22,10 @@
     - Navigate South/East to (9, 14).
     - Navigate North (Col 1) to Top Area.
     - Navigate to (5, 4).
-2.  **Reset B2 Position:**
-    - Push B2 Down from (5, 5) to (5, 6).
+2.  **Verify & Position:**
+    - Check if B2 is at (5, 5) or (5, 6).
+    - If at (5, 5): Push Down to (5, 6).
+    - If at (5, 6): Do nothing (it's already in position).
 3.  **Execute Solution:**
     - Go to (6, 6). Push B2 Left to (4, 6).
     - Go to (4, 5). Push B2 Down into Pit (4, 7).
