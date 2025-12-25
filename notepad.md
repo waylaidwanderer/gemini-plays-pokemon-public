@@ -50,14 +50,13 @@
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Immediate Strategy (Turn 19247)
-1. Pace back and forth in the tall grass at (7, 2) and (8, 2) on Route 37.
-2. Super Repel is active.
-3. If Suicune is encountered: Use MEAN LOOK.
-4. If it flees before action: Pivot to finding the Quick Claw on Route 35/36.
+# Immediate Strategy (Turn 19250)
+1. Exit current Bag/Start menu.
+2. Open Pokedex and check Suicune's location.
+3. If on Route 37, pace in grass.
+4. If not, boundary cycle at Ecruteak/Route 37 border.
 
-# Reflection Notes (Turn 19247)
+# Reflection Notes (Turn 19250)
 - Super Repel is active.
-- Suicune confirmed on Route 37.
 - XENON is leading.
-- Awaiting encounter to test speed interaction.
+- Menu navigation has been messy; resetting to overworld.
