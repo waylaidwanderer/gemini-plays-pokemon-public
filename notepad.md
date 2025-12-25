@@ -18,13 +18,13 @@
 - WALL: Impassable.
 - LONG_GRASS: Traversable, low encounter rate.
 - TALL_GRASS: Traversable, higher encounter rate.
-- WARP_CARPET: Map transition.
+- WARP_CARPET: Traversable, map transition.
+- LEDGE_HOP_DOWN: One-way (Down).
+- LEDGE_HOP_LEFT: One-way (Left).
+- LEDGE_HOP_RIGHT: One-way (Right).
 
 # Resources & PC Inventory
 - Poke Balls: 1 Ultra, 23 Great, 2 Poke.
 - Items: 3 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
 - Key Items: Clear Bell (Required for Suicune at Tin Tower).
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
-
-# Fly Map List
-1. New Bark Town, 2. Cherrygrove City, 3. Violet City, 4. Azalea Town, 5. Goldenrod City, 6. Ecruteak City, 7. Olivine City, 8. Cianwood City, 9. Mahogany Town, 10. Lake of Rage.
