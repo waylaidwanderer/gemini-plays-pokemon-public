@@ -52,3 +52,6 @@
 - Strategy Pivot: Fly to Ecruteak to access Top Lane.
 - Falsification: Proved Middle Lane is isolated by attempting all adjacent tiles and observing ASCII map. Found no gap to Top Lane.
 - Start Turn for Hunt: 20250. Current Turn: 20300. (50 turns elapsed).
+- Suicune scripted encounters (Burned Tower, Cianwood, Route 42) do NOT register in Pokedex. Tracking via Pokedex is impossible until roaming starts after the Tin Tower event.
+- Western Pocket (Route 38 X=0-2 / Route 39 X=16-19) is isolated from the Middle Pocket (X=4-5) by a wall at X=3 on Route 38.
+- Entrance to Western Pocket must be a gap in the Row 7 fence at X=0, 1, or 2 on Route 38. Checking this now.
