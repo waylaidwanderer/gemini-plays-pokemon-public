@@ -276,39 +276,5 @@
         "action_counter": 17401
       }
     ]
-  },
-  "check_area_collision": {
-    "description": "Checks tile types and occupancy (objects/sprites) for a specified rectangular area on the current map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef check_area(xml_string, x1, y1, x2, y2):\n    root = ET.fromstring(xml_string)\n    results = []\n    for y in range(y1, y2 + 1):\n        row = root.find(f\"Row[@id='{y}']\")\n        if row is None: continue\n        for x in range(x1, x2 + 1):\n            tile = row.find(f\"Tile[@id='{x}']\")\n            if tile is None: continue\n            obj = tile.find('Object')\n            results.append({\n                'coord': (x, y),\n                'type': tile.attrib['type'],\n                'object': obj.attrib['id-name'] if obj is not None and 'id-name' in obj.attrib else (obj.attrib['name'] if obj is not None else None)\n            })\n    return results\n\n# Convert inputs and run\nx1, y1 = int(input_data['start_x']), int(input_data['start_y'])\nx2, y2 = int(input_data['end_x']), int(input_data['end_y'])\narea_data = check_area(map_xml_string, x1, y1, x2, y2)\nprint(json.dumps(area_data))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T20:06:00.149Z",
-        "action_counter": 17972
-      }
-    ]
   }
 }
