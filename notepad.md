@@ -45,7 +45,7 @@
 - **Current Navigation:**
     - **Goal:** Reach North Landing `(11, 30)`.
     - **Sequence:** `(11, 33)` -> Right to `(15, 33)` -> Up to `(15, 29)` -> Right to `(19, 29)` -> Down to `(19, 33)` -> Left to `(17, 33)` -> Up to `(17, 31)` -> Left to `(13, 31)` -> Up to `(13, 30)` -> Left to `(11, 30)`.
-    - **Status:** At `(10, 30)`, Walking West to `(6, 30)`.
+    - **Status:** At `(6, 30)`, Walking North to `(5, 26)`.
     - **Next Phase:** From `(11, 30)`, walk West to `(6, 30)` and explore North into unseen area.
 - **Return & Progress Plan:**
     - **Escape:** From `(5, 35)` -> Slide R to `(8, 35)` -> Slide U to `(8, 34)` -> Slide R to `(9, 34)` (Land on `9, 33`).
