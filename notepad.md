@@ -6,7 +6,8 @@
     3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS - Approx. Turn 18704)
     4. Kanto Route 14: Near the water. (FUTURE)
     5. Tin Tower: Stationary battle with Clear Bell. (FUTURE)
-- **Battle Plan**: Lead XENON (Gastly, Lv21) with Mean Look.
+- **Battle Plan**: Lead XENON (Gastly, Lv21) with Mean Look. Battle Strategy: Use Mean Look immediately, then Hypnosis. Weakened with low power moves or status.
+- **Tin Tower Steps**: After all scripted flee events, enter Tin Tower in Ecruteak. Sages allow passage to the roof if you have the Clear Bell. Battle Strategy: Mean Look -> Hypnosis -> weaken.
 
 # Logistics & Supplies
 - **Super Repel Search**: Purchased 4 at Olivine Mart (Turn 18664).
@@ -31,3 +32,6 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Training Plan (XENON)
 - Target: Level 35-40. Location: Route 39 (near Moomoo Farm) for consistent EXP.
+
+# Pokedex Area Map Observations
+- Turn 18761: [Pending]
