@@ -7,7 +7,7 @@
 - **Field Moves:** If 'A' interaction fails (even when facing correctly), ALWAYS fallback to Menu -> Pokemon -> [Mon] -> [Move].
 - **Whirlpool:** Requires facing the whirlpool tile directly. 'A' button might be unreliable; Menu is safer.
 
-- Status: Opening Menu to use Whirlpool (Fallback Method).
-- Reason: Direct 'A' interaction with the whirlpool at (15, 23) failed (no text response). This usually forces the Menu interaction method.
-- Step 1: Press 'Start' to open Main Menu.
-- Step 2: Navigate to POKEMON -> LAPIS -> WHIRLPOOL.
+- Status: Correction - Resetting to Face Down.
+- Reason: Game State shows 'Facing: up'. Menu interaction likely requires correct facing. Previous attempts to face down failed due to input sanitization.
+- Action: Use slow_press to Close Menu (B) -> Face Down (Down) -> Interact (A).
+- Note: Using slow_press to allow mixing B and Down.
