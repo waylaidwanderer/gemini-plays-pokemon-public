@@ -18,9 +18,10 @@
 - CUT_TREE: Requires CUT to remove.
 - WATER: Requires SURF to traverse.
 
-# Shopping List
-- Super Repels (Buy at Mahogany Town Mart).
-- Note: Sell Max Revive (¥2000) to afford them.
+# Lessons Learned
+- Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires careful counting to reach #245 (Suicune).
+- Menu Buffering: Avoid mixing directional and action buttons too quickly.
+- Navigation Hazards: Route 38 has a "ledge pocket" between (8, 14) and (23, 14). Do not enter unless prepared to Fly out.
 
 # Side Quests
 - Quick Claw: National Park (33, 12). Lady on bench in NE section.
@@ -30,6 +31,6 @@
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
 
-# Pokedex Navigation
+# Pokedex Navigation (Quick Reference)
 - Numerical Pokedex: Press UP from #001 to wrap to #251.
 - Suicune (#245): Wrap to #251, then 6 more UP presses.
