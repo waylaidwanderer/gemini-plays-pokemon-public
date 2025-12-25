@@ -99,3 +99,9 @@
   2. **WAIT** 1 turn.
   3. Press Direction in Overworld.
   4. Verify Game State `Facing`.
+
+# Anomaly (Turn 18148)
+- **Status:** Start Menu Open.
+- **Conflict:** Game State reports `Facing: up`. Visual Sprite at (15, 22) clearly shows face/belly (Facing DOWN).
+- **Conclusion:** Game State `Facing` attribute is UNRELIABLE when the Start Menu is open. Trusting visual sprite.
+- **Action:** Proceeding with `A` to open Party Menu, assuming player is physically facing the Whirlpool.
