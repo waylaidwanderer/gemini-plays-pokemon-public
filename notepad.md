@@ -18,7 +18,12 @@
 - Assumed Start Menu cursor resets to POKÉDEX (Top).
 - Whirlpool interaction via 'A' failed (no text).
 - Party Menu Cursor persistence: It started on Slot 5 (Kunai). Always verify cursor position before blind navigation.
-- Current State: Inside Slot 1 (Gyarados) Menu.
-- Plan: B (Back to List) -> Down x2 (Select Lapis) -> A (Open Menu) -> Select Whirlpool.
-- Lapis (Slot 3) has SURF and WHIRLPOOL.
+- Current State: In Lapis's Menu. Cursor on SURF.
+- Action: Select WHIRLPOOL (Down -> A).
+- Potential Issue: Player is facing UP. Whirlpool is DOWN (15, 23).
+- If "Can't use that here" appears:
+  1. Close Menu.
+  2. Press DOWN to face the whirlpool (collision will prevent movement).
+  3. Re-open Menu or press A.
+- Party Menu Cursor persistence observed: Started on Slot 5 previously.
 - Field moves usually appear at the top of the context menu.
