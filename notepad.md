@@ -50,6 +50,6 @@
     - **Plan:** Navigate to `(6, 5)` -> Use Rock Smash on `(6, 6)` -> Get Item.
 - **Current Navigation:**
     - **Goal:** Nickname Sneasel, then use Rock Smash on `(6, 6)` to get Item (Likely HM07).
-    - **Status:** Nicknaming Sneasel 'KUNAI'.
+    - **Status:** Finished nicknaming. Preparing to smash rock at `(6, 6)`.
     - **Note:** Sneasel sent to Box 1.
 - **Backtrack Log (Completed):** Successfully navigated B1F/B2F loop to return to B3F. The side path was an item loop.
