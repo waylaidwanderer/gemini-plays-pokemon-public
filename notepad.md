@@ -45,7 +45,8 @@
    - Go Down to find Boulder 2 (likely near 5, 6).
 2. **Execute Puzzle:**
    - Activate Strength.
-   - Push Boulder 2 into Pit (4, 7).
+   - Position at (6, 6). Push Boulder (5, 6) Left to (4, 6).
+   - Position at (4, 5). Push Boulder (4, 6) Down to (4, 7).
 3. **Return to B2F:**
    - Jump into Pit (4, 7) OR take Ladder (17, 3).
    - If jumping works, land near boulder.
@@ -56,5 +57,5 @@
    - Exit via Ladder (9, 11).
 
 ## Current Action
-- Traversing from East to West B1F via Row 1.
-- Target: (6, 1).
+- Navigating to (6, 6) to position for push.
+- Path: (6, 1) -> (6, 2) -> (5, 2) -> (5, 3) -> (5, 4) -> (5, 5) -> (6, 5) -> (6, 6).
