@@ -119,3 +119,8 @@
 - **Action:** Executing `slow_press` to Close Menu (`B`) and Turn (`Down`) in one sequence.
 - **Goal:** Face the Whirlpool at (15, 23) to interact.
 - **Reasoning:** Game State facing direction overrides visual sprite. Must be in Overworld to turn. `slow_press` ensures `Down` isn't eaten by menu close animation.
+
+# Interaction Update (Turn 18157)
+- **Status:** Overworld, Facing Down confirmed.
+- **Action:** Attempting `A` interaction with Whirlpool again.
+- **Reasoning:** Previous failures were likely due to incorrect facing (Game State `Facing: up`). Now that `Facing: down` is confirmed, `A` should trigger the prompt. If this fails, the Menu is the only option.
