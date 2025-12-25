@@ -1,7 +1,7 @@
 # Strategy: Suicune Hunt (Crystal)
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Stationary sighting) -> 5. Route 14 -> 6. Tin Tower (Stationary battle).
-- Route 38 Trigger: Approach overworld sprite near the Miltank farm ledge. Likely coordinates: X=5-15, Rows 8-12.
+- Route 38 Trigger: Approach overworld sprite near the Miltank farm ledge (X=5-15, Rows 8-12).
 
 # Side Quests & Resources
 - Arthur (Hard Stone): Route 36. Thursday only. (Arthur dialogue looped Turn 20594, Hard Stone not in inventory). Arthur disappears after Thursday.
