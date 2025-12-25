@@ -3,29 +3,24 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18301)
+# Current Status (Turn 18302)
 - **Location:** Dragon's Den B1F (24, 22).
 - **Facing:** Down (Verified).
-- **Action:** Use Whirlpool via Menu (Retry).
-- **Reasoning:** Previous attempt failed due to facing; recent manual interaction didn't trigger. Menu is most reliable method.
+- **Action:** Interact with Whirlpool directly (A button).
+- **Reasoning:** Previous menu attempt had no visible effect. Direct interaction is simpler and reliable if facing is correct.
 - **Sequence:**
-  1. `Start` (Open Main Menu).
-  2. `A` (Pokemon).
-  3. `Down`, `Down` (Select Lapis).
-  4. `A` (Open Context).
-  5. `Down` (Select Whirlpool).
-  6. `A` (Execute).
-  7. `A` (Confirm "Yes").
+  1. `A` (Interact).
+  2. `A` (Confirm "Yes").
+  3. `A` (Clear Text).
 
 # Plan
-1. Clear Whirlpool.
-2. Surf across the gap to (24, 24).
-3. Land on the island.
-4. Enter Dragon Shrine.
+1. Clear Whirlpool at (24, 23).
+2. Move South to explore the path.
+3. Find a way West to reach the Dragon Shrine Entrance at (19, 29).
 
 # Tile Mechanics
-- **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
-- **Lava/Magma:** (None here, but good to remember).
+- **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
+- **Lava/Magma:** (None here).
 - **Ice:** (None here).
 
 # Lessons
