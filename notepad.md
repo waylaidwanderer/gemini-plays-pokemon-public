@@ -9,15 +9,15 @@
   - **B4:** (17, 7).
 
 ## Current Status
-- **Position:** Player at (7, 8).
+- **Position:** Player at (6, 8).
 - **Goal:** Solve B2 (Bottom Left Boulder).
 - **Puzzle State:**
   - **B1:** Solved.
-  - **B2:** At (6, 8). (Only moved once last turn).
+  - **B2:** At (5, 8). (Failed to push up last turn).
   - **B4:** At (17, 7).
 
 ## B2 Strategy (The Grand Loop)
-1.  **Push Left:** Push B2 from (6, 8) to (5, 8).
+1.  **Position:** Navigate to (5, 9).
 2.  **Push Up:** Push B2 from (5, 8) to (5, 6). (Position: 5, 7).
 3.  **Escape South:** Go (5, 7) -> (5, 8) -> (9, 8) -> (9, 14).
 4.  **Loop North:** Go Left to Col 1 -> Up to Top Area -> (5, 5).
