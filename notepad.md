@@ -23,4 +23,4 @@
 - Use Ice-type moves (Gyarados/Icy Wind, Sneasel, Swinub) against Dragons.
 - Clear all trainers for XP.
 - Navigate floor by floor.
-- Current Target: Cooltrainer M at (1, 14).
+- Current Target: Cooltrainer F at (4, 11).
