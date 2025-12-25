@@ -48,3 +48,6 @@
 # Task Progress
 - Quick Claw Search: In progress.
 - Suicune Tracking: Roaming. Last seen on Route 38.
+
+# Swarms
+- Yanma: Route 35 (Reported by Arnie).
