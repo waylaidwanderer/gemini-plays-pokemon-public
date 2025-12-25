@@ -32,7 +32,9 @@
    - Exit Fly map.
    - Walk West from Violet City to Route 36.
    - Walk North through Route 37 to Ecruteak City.
-   - Walk West from Ecruteak City to Route 38 Western Ledge.
+   - Walk West from Ecruteak City (Blocked by ledges; must Fly).
+   - Fly to Olivine City.
+   - Walk North through Route 39 to Route 38 Western Ledge.
 2. Approach (3, 10) on Route 38 to trigger Suicune.
 
 # Navigation: Fly Map (Johto)
