@@ -21,8 +21,6 @@
 - **WARP**: Map transition.
 - **WATER**: Surf required.
 - **BUOY**: Whirlpool (Requires HM06).
-- Insight: Game State reports Facing UP despite previous Down inputs. Menu navigation is active.
-- Correction: Close Menu, Face DOWN (towards Whirlpool), Re-open Menu, Select Lapis -> Whirlpool.
-- Cursor Memory: Cursor likely on POKEGEAR. Need Up, Up to POKEMON.
-- Facing Issue: Previous Down input was eaten or ignored. Must ensure facing DOWN before menu interaction.
-- Plan: Exit Menu completely (B, B, B) -> Face DOWN -> Open Menu -> Pokemon.
+- Insight: "IntermediateStates" showed old inputs, but "CurrentScreen" confirms Submenu open on KUNAI. Game likely ignored 17936's inputs or desync occurred.
+- State: Facing UP (Wrong). Menu Open (Submenu).
+- Plan: Close ALL menus (B x4), Face DOWN, Interact (A). Direct interaction should work if facing correctly.
