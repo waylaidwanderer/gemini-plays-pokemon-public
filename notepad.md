@@ -5,7 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Opening Menu to use Whirlpool (Corrected Facing).
-- Reason: Previous manual 'A' interaction failed. 'Can't use that here' error confirmed previous facing was wrong (Up). Now facing Down, retrying via menu.
-- Step 1: Open Menu (Start).
-- Step 2: Navigate to Lapis -> Whirlpool.
+- Status: Interacting with Whirlpool (A).
+- Reason: Menu failed to open (no text detected). Since I am now correctly facing Down (towards the whirlpool), direct interaction should work.
+- Step 1: Press 'A' to trigger Whirlpool text.
+- Step 2: Confirm 'Yes' to use Whirlpool.
