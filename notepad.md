@@ -3,23 +3,24 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18326)
-- **Location:** Dragon's Den B1F (14, 22).
-- **Action:** Navigate to the TRUE West Whirlpool at (10, 20).
+# Current Status (Turn 18327)
+- **Location:** Dragon's Den B1F (10, 19) (Target).
+- **Action:** Interact with Whirlpool at (10, 20).
 - **Reasoning:** 
-    - My previous interaction confirmed (15, 23) is just a Buoy.
-    - Re-examining the Mental Map reveals the tile at **(10, 20)** has the specific type `WHIRLPOOL`.
-    - I must navigate North to Row 10, then West to Column 10, then South to reach it.
-- **Goal:** Reach (10, 19) and interact with the Whirlpool at (10, 20).
+    - Navigated around the Buoy cage via Row 11.
+    - Arriving directly North of the true Whirlpool.
+    - Lapis is Lead.
+- **Goal:** Clear Whirlpool, Enter Shrine Area.
 
 # Plan
-1. Navigate to (10, 19) via (14, 10) -> (10, 10).
-2. Interact with Whirlpool at (10, 20).
-3. Enter the inner area.
+1. Interact with Whirlpool at (10, 20).
+2. Confirm usage.
+3. Surf South into the inner sanctum.
+4. Locate Dragon Shrine.
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle. Located at (10, 20).
-- **Buoy:** Obstacle. (15, 23) is a Buoy.
+- **Whirlpool:** Obstacle. (10, 20) is the real deal.
+- **Buoy:** Obstacle. (15, 23) was a fake.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
