@@ -21,6 +21,7 @@
 - Search Log:
   - Top Lane (X=4-35): Searched. No Suicune.
   - Western Pocket (X=0-2): Unexplored. Isolated.
+  - Route 39 Barn: Searched. No Suicune.
 - Current Plan: Investigate the isolated Western Pocket (X=0-2) by checking for gaps on the Route 39 side or hidden ledges. Approach from the North if possible.
 
 # Lessons Learned
