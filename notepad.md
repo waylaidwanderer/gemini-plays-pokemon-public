@@ -6,8 +6,9 @@
 - **Puzzle State:** Boulder 2 pushed into Pit (4, 7).
 
 ## Navigation Plan: Return to B1F
-1.  **Slide Left:**
-    - From `(19, 15)` move Left to `(1, 15)`.
+1.  **Slide Left via Row 14:**
+    - `(19, 15)` -> Up to `(19, 14)` -> Left to `(1, 14)`.
+    - *Reason:* Row 15 blocked at `(18, 15)`.
 2.  **Exploration Slide:**
     - Move to `(1, 16)`.
     - Slide Right on Row 16 to `(16, 16)`.
