@@ -1,17 +1,21 @@
-# Ice Path Strategy (B1F)
+# Ice Path Strategy (B2F Recovery)
 
 ## Current Status
-- **Position:** Player at (8, 8).
-- **Goal:** Solve B2 (Bottom Left).
+- **Position:** Player at (19, 12) (Ice Path B2F).
+- **Goal:** Retrieve Item (8, 9) & Return to B1F.
 - **Puzzle State:**
-  - **B1:** Location unknown.
-  - **B2:** At (7, 8).
+  - **B2:** Dropped to (3, 12).
+  - **Plan:** Use B2 to stop at Row 11.
 
 ## Immediate Plan
-1.  **Push Left:** Push B2 from (7, 8) to (5, 8). (Executing now).
-2.  **Reposition:** Move (6, 8) -> (6, 9) -> (5, 9).
-3.  **Push Up:** Push B2 from (5, 8) to (5, 6).
-4.  **Loop:** Go South -> West -> North -> (6, 6).
-5.  **Push Left:** Push B2 from (5, 6) to (4, 6).
-6.  **Push Down:** Push B2 from (4, 6) into Pit (4, 7).
-- **Status:** Strength Active.
+1.  **Navigate to B2:**
+    - Slide Up to (19, 1).
+    - Slide Left to (16, 1) -> Slide Down to (16, 16).
+    - Slide Left to (3, 16) -> Slide Up to (3, 13).
+2.  **Position B2:**
+    - Push B2 Up x2 to (3, 10).
+    - Player at (3, 11).
+3.  **Retrieve Item:**
+    - Slide Right to (8, 11) (Floor).
+    - Get Item at (8, 9).
+    - Exit via Ladder (9, 11).
