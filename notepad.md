@@ -34,6 +34,11 @@
     2. Sell Fire Stone (¥1050) and Water Stone (¥1050).
     3. Clear trainers on Route 42 and Route 44.
     4. Buy Ultra Balls/Great Balls.
-- Search Status: Systematic sweep of Route 42 island in progress. Apricorn trees (27, 16), (28, 16), (29, 16) vanished at Turn 19106. This likely indicates the Suicune/Eusine event is ready to trigger.
+- Search Status: Systematic sweep of Route 42 island in progress. Apricorn trees were picked (not an event trigger). Started search at Turn 19082.
+- Funding Strategy (HOW):
+    1. Go to Ecruteak Mart.
+    2. Sell Fire Stone (¥1050) and Water Stone (¥1050) for ¥2100.
+    3. Defeat trainers on Route 42/44 for prize money.
+    4. Current: ¥273. Need ~¥12,000 for 10 Ultra Balls.
 - Reachable Island Tiles (Verified): (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
 - Next Step: Confirm Suicune location in Pokedex, then stand on (27, 16) area.
