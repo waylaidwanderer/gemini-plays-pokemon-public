@@ -1,12 +1,12 @@
 # Blackthorn City Strategy
 
 - **Goal:** Earn Rising Badge (Clair).
-- **Immediate:** Defeat Cooltrainer Lola, reach Clair.
+- **Immediate:** Heal party with items, then challenge Clair.
 - **Next:** Defeat Clair, enter Dragon's Den.
 
 # Blackthorn Gym Strategy
-- **Status:** All Puzzles Solved. Both bridges on 1F East are formed.
-- **Current Task:** Reach Gym Leader Clair (1F North-East).
+- **Status:** All Puzzles Solved. Bridges formed.
+- **Current Task:** Heal up, then cross bridge at (8, 3) to Clair (5, 3).
 - **Navigation:**
   - Currently at (9, 3) on 1F.
   - Path: Cross bridge at (8, 3) West to reach Clair at (5, 3).
