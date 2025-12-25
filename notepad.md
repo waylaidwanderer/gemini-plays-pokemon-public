@@ -33,3 +33,11 @@
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie, Turn 19540).
 - Schoolboy Alan: Route 36 (Rematch).
+
+# Reflection Turn 19627
+- Immediate Execution: Recovered from 100-turn menu loop in Olivine. Corrected hallucinated coordinates (34,12) -> northeast area.
+- Notepad Hygiene: Major reorganization performed. Removed meta-rules and redundant logs.
+- Map Hygiene: Route 35 markers are up to date.
+- Automation Strategy: find_path_v2 used for gatehouse exit. Will continue using for overworld.
+- Goal Clarity: Objectives are outcome-focused. Method is to enter National Park, then find NPC.
+- Error Analysis: Menu loops were caused by cursor persistence. Lesson: Always use "B-mash" and verify state. Coordinate hallucination identified and corrected.
