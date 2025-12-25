@@ -26,5 +26,5 @@
 - Current Target: Solve Boulder Puzzle (South-East).
 - Defeated Cooltrainer F at (4, 11).
 - Boulders located at (8, 14) and (6, 16).
-- Goal: Push boulders into pits (likely (8, 7)).
+- Strategy: Push Boulder 4 (6, 16) South, then circle to (8, 15) to push Boulder 3 (8, 14) North into Pit (8, 7).
 - Gym 2F Layout: Split into sections. West ladder (1, 7) leads to dead end with boulders. Must traverse South/East path past Cooltrainer F at (4, 11) to reach upper area.
