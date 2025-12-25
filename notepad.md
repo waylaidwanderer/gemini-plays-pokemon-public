@@ -48,3 +48,9 @@
 - Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
+
+# Route 38 Layout
+- Eastern/Western Divide: A fence/wall exists at x=3.
+- Passage: A gap in the fence exists between Row 8 and Row 11. Use this to travel between sections.
+- Moomoo Farm: Located at the far west end (Route 39).
+- Suicune: Usually appears on the ledge area in the western half of Route 38.
