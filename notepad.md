@@ -5,7 +5,7 @@
 
 # General Mechanics
 - Tile Mechanics:
-    - FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE, ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH, DOOR: Traversable.
+    - FLOOR, TALL_GRASS, CAVE, GRASS, SAND, STAIRS, DOCK, WARP, STAIRCASE, ICE, WHIRLPOOL, WATER (with Surf), DIRT, PATH, DOOR, WARP_CARPET_DOWN: Traversable.
     - WALL, COUNTER, MART_SHELF: Impassable.
     - LEDGE: One-way (hop down).
 - Navigation:
@@ -45,8 +45,4 @@
 - FLYING forces roaming Pokemon to a completely random location in Johto.
 - Poké Mart inventories scale with Badge progress; Super Repels appear later.
 - Interacting with clerks behind counters: Face the counter tile, not the NPC.
-## Bike Shop Strategy
-- Shop is at Goldenrod City (29, 29).
-- Manager (Clerk) is at (7, 2) behind a counter.
-- To interact: Stand at (5, 2), face Right, and press A.
-- Goal: Borrow a Bicycle to advertise the shop (and chase Suicune).
+- City Navigation: Buildings create complex layouts; use pathfinding tools to find non-obvious routes.
