@@ -33,7 +33,7 @@
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Menu Navigation & Fly Map Defaults
-- Olivine City: FLY cursor defaults to New Bark Town (Hypothesis).
+- Olivine City: FLY cursor defaults to New Bark Town (Verified).
 - Reset Strategy: Pressing B until the overworld is visible ensures a clean Start menu state. Then use Start -> POKEMON.
 - Verification: Always check Game State Map ID and City before using navigate_fly_map.
 - Clear Screen: Always press B multiple times to ensure no dialogue or menu is active before starting a sequence.
