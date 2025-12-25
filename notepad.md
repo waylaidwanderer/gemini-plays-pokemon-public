@@ -28,3 +28,4 @@
 - **Menu Navigation:** Always verify cursor position.
 - **Map Reading:** Verify tile types.
 - **Warps:** If a warp doesn't trigger, try different approach angles.
+- **Item Management:** If PC shortcuts (like 'Move w/o Mail') fail or are confusing, manually removing items via the Party menu is more reliable.
