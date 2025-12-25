@@ -31,3 +31,4 @@
 - **Status:** Garnet is poisoned. Priority: Cure poison.
 - **Exploration:** Accessibility to House at (33, 7) confirmed from this side. Will investigate. (Turn 18609)
 - **Exploration:** Entered the house on Route 27 (Map 24_12). There is an old lady (Granny) inside. (Turn 18612)
+- **Interaction:** Granny at (2,4) in Route 27 House gives advice on trust/loyalty (Friendship check). Does not heal. (Turn 18615)
