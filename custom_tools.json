@@ -291,7 +291,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ncurrent_city = input_data.get(\"current_city\")\ntarget_city = input_data.get(\"target_city\")\n\ncities = {\n    \"NEW BARK TOWN\": (4, 2),\n    \"CHERRYGROVE CITY\": (3, 2),\n    \"VIOLET CITY\": (3, 1),\n    \"AZALEA TOWN\": (1, 2),\n    \"GOLDENROD CITY\": (1, 1),\n    \"ECRUTEAK CITY\": (2, 0),\n    \"OLIVINE CITY\": (1, 0),\n    \"CIANWOOD CITY\": (0, 0),\n    \"MAHOGANY TOWN\": (3, 0),\n    \"BLACKTHORN CITY\": (4, 0)\n}\n\nrows = {\n    0: [0, 1, 2, 3, 4],\n    1: [1, 3],\n    2: [1, 3, 4]\n}\n\nif current_city in cities and target_city in cities:\n    cx, cy = cities[current_city]\n    tx, ty = cities[target_city]\n    buttons = [\"sleep 2000\"]\n    \n    curr_cx, curr_cy = cx, cy\n    \n    while curr_cy != ty:\n        move = \"Up\" if ty < curr_cy else \"Down\"\n        buttons.append(move)\n        buttons.append(\"sleep 1000\")\n        curr_cy += -1 if ty < curr_cy else 1\n        curr_cx = min(rows[curr_cy], key=lambda x: abs(x - curr_cx))\n        \n    while curr_cx != tx:\n        move = \"Left\" if tx < curr_cx else \"Right\"\n        buttons.append(move)\n        buttons.append(\"sleep 1000\")\n        curr_cx += -1 if tx < curr_cx else 1\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps([]))\n",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # Read from stdin as per successful previous tool patterns\n        input_data = json.load(sys.stdin)\n    except:\n        return\n\n    current_city = input_data.get(\"current_city\")\n    target_city = input_data.get(\"target_city\")\n    \n    cities = {\n        \"NEW BARK TOWN\": (4, 2),\n        \"CHERRYGROVE CITY\": (3, 2),\n        \"VIOLET CITY\": (3, 1),\n        \"AZALEA TOWN\": (1, 2),\n        \"GOLDENROD CITY\": (1, 1),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"CIANWOOD CITY\": (0, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0)\n    }\n    \n    rows = {\n        0: [0, 1, 2, 3, 4],\n        1: [1, 3],\n        2: [1, 3, 4]\n    }\n\n    if current_city not in cities or target_city not in cities:\n        print(json.dumps([]))\n        return\n\n    cx, cy = cities[current_city]\n    tx, ty = cities[target_city]\n    buttons = [\"sleep 2000\"]\n    \n    curr_cx, curr_cy = cx, cy\n    \n    # Vertical movement\n    while curr_cy != ty:\n        move = \"Up\" if ty < curr_cy else \"Down\"\n        buttons.append(move)\n        buttons.append(\"sleep 1000\")\n        curr_cy += -1 if ty < curr_cy else 1\n        # Horizontal snapping\n        curr_cx = min(rows[curr_cy], key=lambda x: abs(x - curr_cx))\n        \n    # Horizontal movement\n    while curr_cx != tx:\n        move = \"Left\" if tx < curr_cx else \"Right\"\n        buttons.append(move)\n        buttons.append(\"sleep 1000\")\n        curr_cx += -1 if tx < curr_cx else 1\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -302,6 +302,11 @@
         "commit_message": "Fix input_data handling in navigate_fly_map_v2_fixed.",
         "timestamp": "2025-12-25T23:53:32.504Z",
         "action_counter": 20935
+      },
+      {
+        "commit_message": "Fix input_data handling and add robust city grid navigation with 1000ms sleeps.",
+        "timestamp": "2025-12-25T23:54:14.400Z",
+        "action_counter": 20936
       }
     ]
   }
