@@ -3,25 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18324)
-- **Location:** Dragon's Den B1F (15, 22).
-- **Facing:** Down (Verified).
-- **Action:** Interact with Whirlpool at (15, 23).
+# Current Status (Turn 18325)
+- **Location:** Dragon's Den B1F (14, 22) (anticipated).
+- **Action:** Test Whirlpool interaction at (15, 23) and (14, 23).
 - **Reasoning:** 
-    - The tile at (15, 23) visually matches a Whirlpool.
-    - I am facing it directly.
-    - Lapis (Whirlpool user) is in the lead slot.
-- **Sequence:**
-  1. `A` (Interact).
-  2. `A` (Confirm "Yes").
+    - Previous interaction at (15, 23) yielded no text.
+    - Testing both tiles in this pocket to be sure.
+    - If neither works, these "buoys" are likely unbreakable, and I need to rethink the "Central Channel" hypothesis.
+- **Hypothesis:** One of these MUST be a whirlpool given the map markers and layout.
 
 # Plan
-1. Clear Whirlpool at (15, 23).
-2. Enter the inner area.
-3. Navigate to the Dragon Shrine Entrance (19, 29).
+1. Check interaction results.
+2. If text appears (Whirlpool prompt), Confirm.
+3. If no text, move back to search for another path (maybe check the far left channel again?).
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle. Requires HM06 + Badge.
+- **Whirlpool:** Obstacle.
 - **Buoy:** Obstacle.
 
 # Tile Mechanics
