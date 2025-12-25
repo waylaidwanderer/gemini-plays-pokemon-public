@@ -1,21 +1,21 @@
-# Suicune Hunt Strategy
+# Suicune Hunt Strategy (Crystal)
 - Status: ROAMING (Post-Tin Tower).
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
 - Strategy: Boundary cycling between Route 36 and Route 37.
-- Priority: OBTAIN QUICK CLAW (National Park - Lady with Persian).
 
 # Suicune Battle Plan
 - Item: QUICK CLAW (Priority: National Park).
 - Turn 1: MEAN LOOK.
-- Turn 2+: HYPNOSIS.
+- Turn 2+: HYPNOSIS. (Priority: KEEP ASLEEP to prevent ROAR).
 - Turn 3+: NIGHT SHADE (fixed damage).
-- Failsafe 1: Suicune has ROAR. Even with Mean Look, Roar will end the battle. Need to keep it asleep or use a Pokémon with Soundproof (not in Crystal) or Suction Cups (Octillery - not available yet). Strategy: Prioritize Sleep.
-- Failsafe 2: If flee Turn 1, need Quick Claw.
+- Failsafe 1: Suicune has ROAR. Even with Mean Look, Roar will end the battle. Keep it asleep!
+- Failsafe 2: If Suicune flees on Turn 1 before Mean Look, the Quick Claw is required for a speed-tie chance.
 
 # Quick Claw Quest
-- Verified: Lady with Persian on a bench in NE National Park gives it.
-- Action: Enter National Park from Route 35 (3, 5).
-- Note: National Park wild levels are likely ~Lv10-15. Super Repel + Lv21 lead should filter for Suicune.
+- Location: National Park.
+- NPC: Lady with Persian on a bench in the northeast area.
+- Access: Enter National Park from Route 35 (3, 5).
+- Note: National Park wild levels are ~Lv10-15. Super Repel + Lv21 lead filters for Suicune.
 
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
@@ -27,10 +27,6 @@
 - WATER: Walkable with Surf.
 - COUNTER: Interact from adjacent tile.
 
-# Repetitive Task: Pacing for Suicune
-- Repel: Applied Turn 19361. ~155 steps taken.
-- Suicune Log: Confirmed on Route 35 (Turn 19388).
-
 # Resources & PC
 - Balls: 1 Ultra, 23 Great, 2 Poke.
 - Funds: ¥373.
@@ -40,3 +36,4 @@
 # Milestones
 - Roaming Phase: Active.
 - Tin Tower: Stationary battle completed.
+- Seen: Cianwood, Route 42.
