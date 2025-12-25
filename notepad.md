@@ -1,30 +1,9 @@
 # Strategic Objectives
 - **Primary:** Earn Rising Badge.
 - **Secondary:** Pass Dragon User Challenge.
-- **Immediate:** Cross Whirlpool at (24, 23) using Lapis (Slot 3).
-
-# Menu Navigation Strategy (Chunked)
-1. **Reset:** Exit all menus and face the target interactable (Whirlpool).
-2. **Open:** Press START, verify Main Menu open.
-3. **Select:** Enter Party (Pokemon), verify cursor position.
-4. **Act:** Navigate to Lapis -> Select -> Use Whirlpool.
-*Critique Note:* Do not use long macros. Verify state at each step.
-
-# Team Status
-- **Health:** Full.
-- **Party:** Gyarados, Quilava, Lapis (HM Slave), Machoke, Sneasel, Swinub.
-
-# Tile Mechanics
-- **LEDGE_HOP_DOWN**: One-way (South).
-- **FLOOR/WALL**: Standard.
-- **PIT**: Drops to lower floor.
-- **LADDER**: Vertical transport.
-- **WARP**: Map transition.
-- **WATER**: Surf required.
-- **BUOY**: Whirlpool (Requires HM06).
+- **Immediate:** Navigate around the Whirlpools to reach the Dragon Shrine.
 
 # Current Task
-- Target: Whirlpool at (24, 23).
-- Step 1: Reset to Overworld and Face Down. (Done)
-- Step 2: Interact with Whirlpool (Press A).
-- Step 3: Confirm usage.
+- Objective: Reach Dragon Shrine at (19, 29).
+- Strategy: Go North to Row 19, then East, then South to bypass the whirlpool barrier.
+- Step 1: Navigate to (29, 19).
