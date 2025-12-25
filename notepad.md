@@ -36,3 +36,15 @@
 - Sighting #4: Route 38. Suicune is on the western ledge near Moomoo Farm. Approach from the west (Route 39).
 - Sighting #5: Route 14.
 - Final Encounter: Tin Tower. Clear Bell is in inventory.
+
+# Navigation: Olivine City North Path
+- Row 14 is a solid wall from X=14 to X=21.
+- Pass through Row 14 via gaps at X=4, X=8-9, or X=22-23.
+- X=22-23 is blocked north of Row 14 by Row 9-13 walls.
+- Recommended Path:
+  1. Reach Row 16 (horizontal road from X=6 to X=23).
+  2. Move to X=8 at Row 16.
+  3. Move North through Row 14 gap at X=8.
+  4. Move North to Row 12 (horizontal road from X=6 to X=21).
+  5. Move Right to X=18 at Row 12.
+  6. Move North at X=18 to reach the exit at (21, 0).
