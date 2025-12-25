@@ -13,11 +13,10 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Exiting Ice Path.
-- Goal: Reach Blackthorn City.
+- Status: Arrived in Blackthorn City.
+- Goal: Earn Rising Badge.
     - Plan:
-        1. (Done) Navigate to Exit Warp at (36, 27).
-        2. Enter Blackthorn City.
-        3. Heal at Center and clear Bag space.
-- Note: Bag is Full. Exit is at (36, 27).
-- Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
+        1. Locate and Heal at Pokemon Center.
+        2. Clear Bag space (PC/Mart).
+        3. Challenge Blackthorn Gym (Clair).
+- Note: Ice Path entrance is at (36, 9). Ledge at y=11 requires careful navigation.
