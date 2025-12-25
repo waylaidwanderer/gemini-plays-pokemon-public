@@ -38,8 +38,9 @@
 # Suicune Search Log
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
-- Failed Repel Attempts: ~25.
+- Failed Repel Attempts: ~26.
 - Repel Strategy: Navigate to Pack -> Items -> 12th Item (Super Repel). Verified in inventory.
+- Note (Turn 19852): Previous navigation failed because 'Up' from 'GEAR' wrapped to 'EXIT' or similar. Using 'Down' sequence for robustness.
 
 # Exploration Updates
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
