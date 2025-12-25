@@ -36,6 +36,6 @@
 - Cannot use FLY from inside buildings; must be outdoors.
 - Roaming Pokemon (Suicune) relocate upon EVERY map transition.
 - FLYING forces roaming Pokemon to a completely random location in Johto.
-- Poké Mart inventories scale with Badge progress; Super Repels appear later.
+- Poké Mart inventories scale with Badge progress; Super Repels NOT available at Ecruteak Mart even with 7 badges. Checking Goldenrod Dept. Store.
 - Interacting with clerks behind counters: Face the counter tile, not the NPC.
 - City Navigation: Buildings create complex layouts; use pathfinding tools to find non-obvious routes.
