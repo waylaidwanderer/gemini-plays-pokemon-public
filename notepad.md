@@ -5,7 +5,7 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Opening Menu (Start).
-- Reason: 'A' interaction had no effect. Reverting to Menu navigation to force Whirlpool usage.
-- Step 1: Open Menu (Start).
-- Step 2: Navigate to Pokemon -> Lapis -> Whirlpool.
+- Status: Selecting 'Pokemon' in Menu.
+- Reason: Menu is open. Navigating to Lapis to use Whirlpool.
+- Step 1: Select 'Pokemon' (A).
+- Step 2: Navigate to Lapis (Slot 3) and select Whirlpool.
