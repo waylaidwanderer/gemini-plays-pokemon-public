@@ -4,11 +4,12 @@
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
-- NPC: Teacher sitting on a bench.
-- Location: (16, 12) in National Park. Present 24/7.
+- NPC: Teacher sitting on a bench with Persian.
+- Location: National Park (17, 10) near fountain.
+- Time: Always available.
 
 # Swarms & Rematches
-- Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
+- Yanma Swarm: Route 35 (Arnie).
 - Schoolboy Alan: Route 36 (Rematch).
 
 # Tile Mechanics (Verified)
