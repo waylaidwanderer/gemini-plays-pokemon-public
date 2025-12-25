@@ -29,3 +29,5 @@
 - Requirement: HM06 Whirlpool (Taught to Lapis).
 - Plan: Open menu to manually use Whirlpool from Lapis's options.
 - Target: Whirlpool at (24, 23).
+- Correction: Previous failure was due to facing UP, not the interaction method.
+- Plan: Close menu, face DOWN (towards whirlpool), and interact.
