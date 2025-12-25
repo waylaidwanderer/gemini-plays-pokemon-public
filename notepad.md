@@ -3,28 +3,27 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18306)
+# Current Status (Turn 18307)
 - **Location:** Dragon's Den B1F (25, 22).
-- **Facing:** Down (Towards Whirlpool at 25, 23).
-- **Action:** Switch Lapis (Poliwag) to Slot 1.
-- **Reasoning:** Direct interaction failed. Putting the Whirlpool user in the lead slot often fixes interaction issues or makes "Press A" work more reliably. Also allows confirming menu navigation works.
+- **Action:** Move to (24, 22) and interact with Whirlpool at (24, 23).
+- **Reasoning:** 
+    - Attempt to use Whirlpool on (25, 23) via menu failed ("Can't use that here").
+    - This suggests (25, 23) is either not a whirlpool or not the interaction point.
+    - (24, 23) is marked as a Whirlpool in my notes.
+    - Lapis is now Lead (Slot 1), which might fix the previous failure at (24, 23).
 - **Sequence:**
-  1. `Start` (Open Menu).
-  2. `A` (Pokemon).
-  3. `A` (Select Gyarados/Lead).
-  4. `Down` -> `A` (Select 'Switch').
-  5. `Down` -> `Down` -> `A` (Select Lapis/Slot 3).
-  6. `B` -> `B` (Close Menus).
+  1. `Left` (Move to 24, 22).
+  2. `Down` (Face Whirlpool at 24, 23).
+  3. `A` (Interact).
+  4. `A` (Confirm).
 
 # Plan
-1. Switch Lapis to Lead (This turn).
-2. Interact with Whirlpool at (25, 23) using 'A'.
-3. If successful, Navigate South to Dragon Shrine.
-4. If fails, try Menu -> Pokemon -> Lapis -> Whirlpool again.
+1. Interact with Whirlpool at (24, 23) with Lapis as Lead.
+2. If successful, clear it and move South.
+3. If fails, try Menu -> Whirlpool on (24, 23).
 
 # Tile Mechanics
-- **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge.
-- **Cage Layout:** Player seems confined in an area (x=24-26, y=20-23) bounded by walls and buoys/whirlpools. Escaping requires clearing a whirlpool.
+- **Whirlpool:** Obstacle. Requires HM06 + Badge. Interactive point likely specific.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
