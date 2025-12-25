@@ -38,7 +38,12 @@
   2. Face Down (Next Turn).
   3. Verify Facing matches target.
   4. Open Menu -> Whirlpool.
-- Turn 18120: Game State reports Facing DOWN. Previous B inputs likely cleared menu, but facing update is mysterious.
-- Plan: Sending explicit DOWN input to guarantee facing, then executing Menu -> Whirlpool sequence.
-- Sequence: Down (Safety) -> Start -> A (Pokemon) -> A (Lapis) -> Down (Whirlpool) -> A (Select).
-- Verified cursors: Start Menu on POKEMON, Party Menu on LAPIS, Submenu starts on SURF.
+- Turn 18121: "Can't use that here" triggered again. Game State confirms Facing UP.
+- Root Cause: Menu navigation does not change player facing.
+- Correct Sequence:
+  1. Close ALL menus (B, B, B).
+  2. Face DOWN in Overworld (Down).
+  3. Verify Facing = DOWN.
+  4. Open Menu -> Pokemon -> Lapis -> Whirlpool.
+- Critical Rule: Do NOT mix Menu Close (B) and Movement (Direction) in the same turn. Input eating is highly likely.
+- Current Status: Closing menus to reset.
