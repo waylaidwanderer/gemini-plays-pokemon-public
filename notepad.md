@@ -21,7 +21,10 @@
 # Suicune Tracking Log
 - Turn 18350: Shows Route 42.
 - Turn 18505: Shows Ecruteak City.
-- Turn 18674: Checking...
+- Turn 18674: Shows Route 42.
+- Current Status: Roaming Johto. Currently on Route 42.
+- Hunt Strategy: Fly to Ecruteak City to randomize location, then use map boundary cycling (e.g., Ecruteak <-> Route 38) to intercept.
+
 - **Training Plan (XENON)**:
     - Target: Level 35-40.
     - Location: Route 39 (near Moomoo Farm) for consistent EXP.
