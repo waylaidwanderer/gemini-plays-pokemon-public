@@ -65,10 +65,10 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: East Side in progress.
-- Current State: Player at (6, 1). Boulder 6 (ID 7) at (8, 1). Boulder 5 (ID 3) at (8, 2).
-- Immediate Action: Move Right twice to reach (8, 1) and push B6 to (9, 1).
-- Next: Push Boulder 5 (8, 2) South into Pit (8, 3).
+- Puzzle Status: East Side. Boulder 6 at (9, 1). Path clear.
+- Current Action: Pushing Boulder 5 (8, 2) South into Pit (8, 3).
+- Next: Return to 1F via Ladder (7, 9).
+- West Side Plan: Enter via Ladder (1, 7), push B1 to Pit (2, 5).
 - West Side Plan:
   1. Re-enter 2F via West Ladder (1, 7).
   2. Push Boulder 1 (2, 3) South into Pit (2, 5).
