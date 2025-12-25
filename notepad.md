@@ -17,29 +17,29 @@
   - (1, 3) - Western Pocket (Target).
   - (5, 8) - Near farm (Checked).
 
-# Tile Mechanics (Verified)
-- FLOOR: Traversable.
-- WALL / FENCE: Impassable.
-- LEDGE_HOP_DOWN: One-way jump South.
-- LEDGE_HOP_LEFT: One-way jump West.
-- LEDGE_HOP_RIGHT: One-way jump East.
-- TALL_GRASS: Traversable, encounters.
-- HEADBUTT_TREE: Impassable.
-- WARP_CARPET: Map transition.
+# Tile Mechanics (Global)
+- FLOOR: Standard traversable tile.
+- WALL / FENCE: Impassable collision.
+- LEDGE_HOP_DOWN: One-way jump South. Cannot be climbed from South.
+- LEDGE_HOP_LEFT: One-way jump West. Cannot be climbed from East.
+- LEDGE_HOP_RIGHT: One-way jump East. Cannot be climbed from West.
+- TALL_GRASS: Traversable; triggers wild encounters.
+- HEADBUTT_TREE: Impassable; can be interacted with using Headbutt.
+- WARP_CARPET: Triggers map transition when stepped on.
 
 # Game Mechanics & Systems
-- Day/Night Cycle: Affects Pokemon spawns and certain NPC events.
-- Bug Catching Contest: Active Tues/Thurs/Sat in National Park. Replaces NPCs and restricts movement. Quick Claw lady is absent during contests.
-- Fly Mechanics: Only usable in cities/towns.
-- Money: Current ¥373.
+- Day/Night Cycle: Affects Pokemon spawns and NPC availability.
+- Bug Catching Contest: Tues/Thurs/Sat in National Park. Replaces NPCs; Quick Claw unavailable.
+- Fly Mechanics: Only usable in cities/towns. Refined tool Turn 20522.
+- Money Management: Current ¥373.
 
 # Route 38/39 Mechanics & Exploration
 - Verified Map Connections:
-  - Southern Path (Row 14-16) is reachable from the North via ledges (Row 13) and has an exit North at (9, 14).
-  - Top Lane Western Pocket (X=0-2) is isolated from the rest of Route 38 by a vertical wall at X=3. Access is ONLY via Route 39 Row 6.
-  - Route 39 Connectivity: (19, 8) to (19, 6) is blocked by a wall at (19, 7). Bypass via X=15.
-  - Route 39 Wall: A wall at (16, 6) blocks east-west travel on Row 6; bypass via Row 5.
+  - Southern Path (Row 14-16) is reachable from North via Row 13 ledges. Exit North at (9, 14).
+  - Western Pocket (X=0-2, Row 1-6) on Route 38 is isolated by walls at X=3 and Row 7.
+  - Route 39 North-South: Row 7 wall has a gap at X=12.
+  - Route 39 East-West: Row 6 wall at X=16 blocks travel. Bypass via Row 5 or 8.
 
 # Lessons Learned
-- Reflection: Trust tool failures (e.g., find_path_v2) as evidence of obstructions.
-- Tool Note: navigate_fly_map refined at Turn 20522 to correct Olivine->Ecruteak direction.
+- Tool Hygiene: Trust find_path_v2 failures as evidence of obstructions.
+- Exploration: Check all reachable unseen tiles before declaring a dead end.
