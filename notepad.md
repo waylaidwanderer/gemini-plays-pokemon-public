@@ -43,8 +43,10 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Event Trigger Progress (Tin Tower Suicune)
 - Condition: Defeat Wise Trio. (VERIFIED: COMPLETED)
-- Condition: Talk to all 3 Sages on 1F. (IN PROGRESS - Final Sage speaking)
-- Attempt 1: Talking to all Sages. (In progress)
+- Condition: Talk to all 3 Sages on 1F in a single session.
+    1. Sage ID 5 (5, 9): Talked (Turn 18963).
+    2. Sage ID 6 (11, 11): Talked (Turn 18966).
+    3. Sage ID 7 (14, 6): TARGET (Current).
 - Attempt 2: Resetting map via exit/re-entry. (Failed)
 - Observation: Central area (Suicune's Nest) is walled off. Entrance likely from above or hidden.
 - Note: Stairs at (10, 2) are currently inactive (not listed in map warps).
