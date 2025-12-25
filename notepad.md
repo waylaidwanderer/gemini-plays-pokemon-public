@@ -72,4 +72,4 @@
   3. Push Boulder 1 (2, 3) South into Pit (2, 5).
   4. Navigate around to (3, 4) (via South/Col 0).
   5. Push Boulder 2 (3, 3) North to (3, 1) -> East to (8, 1) -> South to Pit (8, 3).
-- Current Action: In battle with Cooltrainer M.
+- Current Action: In battle with Cooltrainer Cody. Use Muscle to win.
