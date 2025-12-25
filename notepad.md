@@ -21,3 +21,5 @@
 - **Warp Carpets:** Directional exits.
 - **Milestone:** Stepped into Kanto on Route 27! (Turn 18570)
 - **Exploration:** Ascended the waterfall in Tohjo Falls. Now exploring the upper level. (Turn 18586)
+- **Navigation:** Top level appears to be a water channel leading to a descending waterfall on the east side.
+- **Hypothesis:** The exit or access to the hidden northeast area is via the bottom-right section, accessible by descending the eastern waterfall. (Turn 18589)
