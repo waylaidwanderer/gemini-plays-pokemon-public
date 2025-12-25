@@ -25,6 +25,7 @@
 - Turn 1: MEAN LOOK (prevent fleeing)
 - Turn 2+: HYPNOSIS (apply Sleep)
 - Goal: Lower HP carefully and use ULTRA BALLS.
+- Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
