@@ -7,8 +7,8 @@
 - **Field Moves:** If 'A' interaction fails (even when facing correctly), ALWAYS fallback to Menu -> Pokemon -> [Mon] -> [Move].
 - **Whirlpool:** Requires facing the whirlpool tile directly. 'A' button might be unreliable; Menu is safer.
 
-- Status: Opening Menu to use Whirlpool.
-- Reason: Position corrected (Facing Down). Now accessing Party Menu to activate Whirlpool.
-- Step 1: Press 'Start' to open menu.
-- Step 2: Select 'POKéMON'.
-- Step 3: Select Lapis -> Whirlpool.
+- Status: Selecting Whirlpool for Lapis.
+- Reason: Party Menu open, cursor on Lapis. Facing DOWN towards whirlpool at (15, 23).
+- Step 1: Select Lapis (A).
+- Step 2: Scroll down to Whirlpool (Down).
+- Step 3: Select Whirlpool (A).
