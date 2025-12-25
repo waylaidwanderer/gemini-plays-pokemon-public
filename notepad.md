@@ -5,10 +5,9 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Retrying Whirlpool interaction with more inputs to clear text and confirm.
-- Step 1: A (Interact).
-- Step 2: A (Advance "It's a huge whirlpool").
-- Step 3: A (Advance "A POKEMON may be able...").
-- Step 4: A (Select "YES").
-- Step 5: A (Advance "Used Whirlpool").
-- Step 6: Down (Move into cleared tile).
+- Status: Moving to (25, 22) to check if (25, 23) is the whirlpool.
+- Step 1: Right (Move to 25, 22).
+- Step 2: Down (Face 25, 23).
+- Step 3: A (Interact).
+- Step 4: A (Confirm if prompt appears).
+- Step 5: A (Advance text).
