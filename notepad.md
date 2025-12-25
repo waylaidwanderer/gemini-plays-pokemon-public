@@ -38,3 +38,11 @@
 - False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
 - Bug Catching Contest: Active today (Thursday). May affect National Park access.
 - Suicune Sighting #4: Approach Route 38 Top Lane from Ecruteak. Walk West to X=0-2 strip near Miltank farm.
+
+# Reflection (Turn 20400)
+1. **Immediate Execution**: I have prioritized correctly, but menu navigation was slowed by complex tool usage. Switching to manual inputs for deep menus.
+2. **Notepad Hygiene**: Streamlined and reorganized for the Suicune hunt. Redundant logs removed.
+3. **Map Hygiene**: Cleaning up redundant transition markers on the eastern edge of Route 39.
+4. **Automation**: Using agents to verify Suicune's scripted logic and item locations.
+5. **Goal Clarity**: WHAT is clear (Catch Suicune), HOW is documented (Fly to Ecruteak, walk West).
+6. **Error Analysis**: Confirmed Route 38 is a one-way path West due to ledges at X=7 and X=10. This was the 'False Constraint' that caused the backtracking loop.
