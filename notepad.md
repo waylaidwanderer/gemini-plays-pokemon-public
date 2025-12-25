@@ -41,13 +41,14 @@
     - Slide Left to `(14, 29)`, then Down to `(14, 33)`.
     - **South Landing:** `(11, 33)` (Floor). Accessible from `(14, 33)` via Left slide.
     - **North Landing:** `(11, 30)` (Floor). Path: `(14, 33) -> R(15, 33) -> U(15, 29) -> R(19, 29) -> D(19, 33) -> L(17, 33) -> U(17, 31) -> L(13, 31) -> U(13, 30) -> L(11, 30)`.
-- **Item Path Solution (B1F):** [Completed: Found Iron]
+- **Item Path Solution (B1F/1F):** [Completed: Found Iron (B1F) and Protein (1F)]
+    - **Conclusion:** The path starting from B3F East Ladder `(15, 5)` is a bonus item loop.
+    - **Action:** Backtrack to B3F Main Area.
+- **HM07 Strategy:**
+    - **Location:** B3F `(5, 7)`.
+    - **Obstacle:** Rock at `(6, 6)` (Likely Rock Smash).
+    - **Plan:** Return to B3F -> Go to `(6, 6)` -> Use Rock Smash -> Get HM07.
 - **Current Navigation:**
-    - **Goal:** Reach North Landing `(11, 30)`.
-    - **Sequence:** `(11, 33)` -> Right to `(15, 33)` -> Up to `(15, 29)` -> Right to `(19, 29)` -> Down to `(19, 33)` -> Left to `(17, 33)` -> Up to `(17, 31)` -> Left to `(13, 31)` -> Up to `(13, 30)` -> Left to `(11, 30)`.
-    - **Status:** At `(6, 30)`, Walking North to `(5, 26)`.
-    - **Next Phase:** From `(11, 30)`, walk West to `(6, 30)` and explore North into unseen area.
-- **Return & Progress Plan:**
-    - **Escape:** From `(5, 35)` -> Slide R to `(8, 35)` -> Slide U to `(8, 34)` -> Slide R to `(9, 34)` (Land on `9, 33`).
-    - **Transition:** Walk R to `(11, 33)` (South Landing).
-    - **North Path:** Executing above sequence.
+    - **Goal:** Return to B3F.
+    - **Route:** 1F Ladder `(37, 13)` -> B1F South Ladder `(5, 25)` -> Walk/Slide back to B2F Ladder `(3, 15)`... wait, B2F led to B1F South.
+    - **Backtrack Route:** 1F `(37, 13)` -> B1F `(5, 25)` -> Walk South to `(11, 30)` -> Slide/Walk to Ladder `(11, 27)` -> B2F `(3, 15)` -> Slide loop to Ladder `(3, 3)` -> B3F `(15, 5)`.
