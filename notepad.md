@@ -32,3 +32,10 @@
 - Items: 3 Super Repels, 1 Max Ether, 1 Max Revive, 2 Lemonades.
 - Key Items: Clear Bell (Required for Suicune at Tin Tower).
 - PC Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Suicune Search Log
+- Start Turn: 19782
+- Start Time: Thursday, Dec 25, 4:24 AM
+- Objective: Find Suicune on Route 38.
+- Hypothesis: Suicune is in the north-eastern part of the route, near the ledge.
+- Current Status: Super Repel active. Moving east.
