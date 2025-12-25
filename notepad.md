@@ -3,26 +3,27 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the West Whirlpool.
 
-# Current Status (Turn 18316)
-- **Location:** Dragon's Den B1F (12, 10).
-- **Action:** Navigate South-West to explore around the Buoy barrier.
+# Current Status (Turn 18318)
+- **Location:** Dragon's Den B1F (11, 14).
+- **Action:** Navigate East to the central channel via Row 10.
 - **Reasoning:** 
-    - The path South at x=12 is blocked by Buoys at Row 16.
-    - I need to find a way around them, likely to the West (x < 12).
-    - Navigating to (11, 14) will reveal the area and potentially a path South.
-- **Goal:** Reach the West Whirlpool at (15, 23).
-- **Immediate:** Reveal tiles at (11, 15) and (11, 16).
+    - The "West Channel" was a distraction.
+    - Analysis of the map reveals the path to the Whirlpool at (15, 23) is from the **North**, via the **East** side of the buoys.
+    - Columns 11-15 are blocked by buoys at Row 16.
+    - However, Column 16 is clear!
+    - To get to Column 16, I must go North to Row 10 (as (15,14) is a buoy).
+- **Goal:** Reach (16, 10) then surf South to approach the Whirlpool at (15, 23) from the North.
 
 # Plan
-1. Move to (11, 14).
-2. Check if (11, 16) is passable.
-3. If passable, continue South to (15, 22).
+1. Navigate to (16, 10).
+2. Surf South to (16, 21).
+3. Move West to (15, 21).
 4. Interact with Whirlpool at (15, 23).
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle.
 - **Buoy:** Obstacle.
-- **West Channel:** Needs exploration West of x=12.
+- **Path:** Loop around via Row 10 to access Column 16.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. 
