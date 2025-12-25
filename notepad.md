@@ -1,33 +1,23 @@
-# Dragon's Den Strategy
-- **Goal:** Receive Rising Badge.
-- **Current Task:** Explore Dragon's Den.
-- **Next:** Find the Dragon Shrine.
+# Strategic Objectives
+- **Primary:** Earn Rising Badge.
+- **Secondary:** Pass Dragon User Challenge.
+- **Immediate:** Cross Whirlpool at (24, 23) using Lapis (Slot 3).
+
+# Navigation & Discovery
+- **Connections:** 1F (5, 15) <-> B1F (20, 3).
+- **Location:** Dragon's Den B1F (East Side).
+- **Target:** Dragon Shrine (likely South/Central island).
+- **Insight:** Whirlpools (BUOY tiles) require HM06. Direct interaction ('A') failed. Must use Party Menu.
 
 # Team Status
 - **Health:** Full.
-- **Party:** Gyarados, Quilava, Poliwag, Machoke, Sneasel, Swinub.
-
-# Location Info
-- **Map:** Dragon's Den 1F (Entrance).
-- **Structure:** Likely leads down to a main cavern.
+- **Party:** Gyarados, Quilava, Lapis (HM Slave), Machoke, Sneasel, Swinub.
 
 # Tile Mechanics
-- **LEDGE_HOP_DOWN**: One-way traversable (South only).
-- **FLOOR**: Standard walkable tile.
-- **WALL**: Impassable obstacle.
-- **FLOOR_UP_WALL**: Cliff/Ledge impassable from below.
-- **PIT**: Hole in floor. Drops to 1F.
+- **LEDGE_HOP_DOWN**: One-way (South).
+- **FLOOR/WALL**: Standard.
+- **PIT**: Drops to lower floor.
 - **LADDER**: Vertical transport.
-- **BOULDER**: Pushable object.
 - **WARP**: Map transition.
-- **WATER**: Requires SURF to traverse.
-**Dragon's Den Navigation:**
-- 1F (5, 15) connects to B1F (20, 3).
-- Current Location: B1F Main Cavern.
-- Status: Reached Dragon Shrine Island.
-- Insight: The "BUOY" tiles at row 23 are actually WHIRLPOOLS. Direct 'A' interaction failed.
-- Requirement: HM06 Whirlpool (Taught to Lapis).
-- Plan: Open menu to manually use Whirlpool from Lapis's options.
-- Target: Whirlpool at (24, 23).
-- Correction: Previous failure was due to facing UP, not the interaction method.
-- Plan: Close menu, face DOWN (towards whirlpool), and interact.
+- **WATER**: Surf required.
+- **BUOY**: Whirlpool (Requires HM06).
