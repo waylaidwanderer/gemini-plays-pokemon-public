@@ -32,3 +32,4 @@
 - **Lesson:** Do not switch low-level Pokémon into high-power moves (e.g., Solarbeam) relying solely on resistance. Base stats are critical. (Turn 18643)
 - **Mechanic:** Abilities (like Intimidate) do not exist in Gen 2. Don't rely on them. (Turn 18662)
 - **Status:** Gyarados awoke from sleep. (Turn 18670)
+- **Tile Mechanics:** "LADDER" tiles on Route 27 (x=58+) function as a walkable bridge. (Turn 18675)
