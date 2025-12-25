@@ -32,7 +32,7 @@
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Menu Navigation & Fly Map Defaults
-- FLY cursor defaults to current city.
+- Olivine City: FLY cursor defaults to New Bark Town.
 - Reset Strategy: Press Start, then Up 7 times to reach the top of the menu (POKEDEX), then Down 1 to reach POKEMON.
 - Verification: Always check Game State Map ID and City before using navigate_fly_map.
 - Clear Screen: Always press B multiple times to ensure no dialogue or menu is active before starting a sequence.
@@ -43,5 +43,5 @@
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 
 # Task Progress
-- Quick Claw Search: En route to Goldenrod City.
-- Suicune Tracking: Roaming. Last seen Ecruteak City.
+- Quick Claw Search: In progress.
+- Suicune Tracking: Roaming.
