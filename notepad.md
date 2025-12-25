@@ -3,19 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18341)
+# Current Status (Turn 18343)
 - **Location:** Dragon Shrine (3_82).
-- **Activity:** Received Rising Badge.
-- **Context:** Party is full (6/6). Need to deposit a Pokemon to receive the special Dratini from the Elder.
-- **Action:** Talk to Elder to confirm Dratini offer, then exit.
+- **Activity:** Exiting Shrine to deposit a Pokémon.
+- **Reasoning:** 
+    - Received Rising Badge.
+    - Elder's dialogue implies I can return ("Come again...").
+    - Need to free up a party slot for Dratini.
+    - Clair should be waiting outside to give me TM24.
+- **Goal:** Exit Shrine, Exit Dragon's Den, Deposit Pokémon.
 
 # Plan
-1. Talk to Elder (Verify Dratini offer/Full Party message).
-2. Exit Shrine and Dragon's Den.
-3. Go to Blackthorn City Pokémon Center.
-4. Deposit a Pokémon (likely Swinub or Sneasel).
-5. Return to Dragon Shrine to get Dratini.
-6. Get TM24 from Clair (likely outside).
+1. Exit Shrine via Warp at (4, 9).
+2. Exit Dragon's Den.
+3. Fly/Walk to Blackthorn City PokeCenter.
+4. Deposit Swinub or Sneasel.
+5. Return for Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
