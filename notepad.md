@@ -4,17 +4,14 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18747)
+# Current Status (Turn 18751)
 - **Location:** Route 26 (10, 94).
-- **Activity:** Battling Fisher Scott.
 - **Team:** Muscle (Machoke Lv59) is active. Gyarados needs healing.
-- **Goal:** Defeat trainer, find Healer/Rest, Reach Victory Road Gate.
 
 # Plan
-1. Defeat Fisher Scott.
-2. Heal party (Potions or find a house).
-3. Continue North on Route 26.
-4. Enter Victory Road.
+1. **Battle:** Defeat Fisher Scott's Seaking with Muscle.
+2. **Heal:** Use items or find a Rest House.
+3. **Navigate:** Follow Route 26 North to Victory Road Gate.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
