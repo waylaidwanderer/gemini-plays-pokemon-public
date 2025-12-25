@@ -49,7 +49,7 @@
     - **Obstacle:** Rock at `(6, 6)` (Likely Rock Smash).
     - **Plan:** Navigate to `(6, 5)` -> Use Rock Smash on `(6, 6)` -> Get Item.
 - **Current Navigation:**
-    - **Goal:** Catch Sneasel, then reach Rock at `(6, 6)`.
-    - **Status:** In Battle with Sneasel at `(6, 5)`.
-    - **Battle Plan:** Throwing Great Ball (Attempt 2 - Correction). Menu navigation error corrected.
+    - **Goal:** Nickname Sneasel, then use Rock Smash on `(6, 6)` to get Item (Likely HM07).
+    - **Status:** Nicknaming Sneasel.
+    - **Note:** Sneasel sent to Box 1.
 - **Backtrack Log (Completed):** Successfully navigated B1F/B2F loop to return to B3F. The side path was an item loop.
