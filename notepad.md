@@ -59,3 +59,7 @@
   - Middle Pocket (X=4-5): Searched. No Suicune.
   - Western Pocket (X=0-2): Isolated from south. Must approach from East (Ecruteak).
 - Strategy: Fly to Ecruteak City, enter Route 38 Gatehouse, and stay in the Top Lane (Rows 0-6) while walking West. This is the only way to reach the isolated western sections where Suicune is likely waiting.
+- Search Log (Route 38):
+  - Middle Pocket (X=4-5): Searched. No Suicune.
+  - Western Pocket (X=0-2): Isolated from south. Must approach from East (Ecruteak).
+- Strategy: Fly to Ecruteak City, enter Route 38 Gatehouse, and stay in the Top Lane (Rows 0-6) while walking West. This is the only way to reach the isolated western sections where Suicune is likely waiting.
