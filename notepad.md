@@ -10,11 +10,11 @@
 
 ## Navigation & Mechanics
 - **Current Position:** `(16, 1)` (North Hallway).
-- **Immediate Goal:** Find remaining boulders for Pits (5, 12), (4, 7), (11, 2).
+- **Immediate Goal:** Navigate North to (16, 1), then West to find remaining boulders.
 - **Status:** Boulder 1 pushed to Pit (12, 13).
 - **Search Plan:**
-    1. Check area near Pit (5, 12) and (4, 7).
-    2. Check area near Pit (11, 2).
+    1. Go North to hallway at Row 1.
+    2. Go West to search for boulders near Pits (5, 12), (4, 7), (11, 2).
     3. Ensure all boulders are pushed before leaving B1F.
 - **Pits:** `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Done).
 - **Constraint:** Walls at (17, 5) and (16, 5) block direct North approach.
