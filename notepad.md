@@ -1,62 +1,31 @@
-# Ice Path Strategy (Reset & Explore)
-
-# Ice Path Strategy (B1F)
+# Ice Path Strategy: B1F Boulder Puzzle (Turn 17145)
 
 ## Current Status
-- **Position:** Player at (8, 8).
-- **Goal:** Solve B2.
-- **Puzzle State:**
-  - **B1:** Missing.
-  - **B2:** Verified at (7, 8).
-  - **B3:** Not found in Top Left.
+- **Location:** B1F, Position (18, 13).
+- **Goal:** Push Boulder 2 from (5, 6) into Pit (4, 7).
+- **Constraint:** Must reach (6, 6) to start the push sequence.
 
-# Ice Path Strategy (B2F Recovery)
+## Navigation Plan: Reach (6, 6)
+**Path:** Zig-Zag North via Col 12
+1.  **Leg 1:** (18, 13) -> South to Row 14 -> West to Col 13 -> North to (13, 12) -> West to (12, 12).
+    - Route: (18, 14) -> (13, 14) -> (13, 12) -> (12, 12).
+2.  **Leg 2:** North up Col 12 to Row 1 via (12, 1).
+    - Note: Watch for walls/pits near (12, 13).
+3.  **Leg 3:** West on Row 1 to (6, 1), then South to (6, 6).
 
-## Current Status
-- **Position:** Player at (19, 6) (B2F).
-- **Goal:** Locate B2 and Retrieve Item.
-- **Puzzle State:**
-  - **B2:** Pushed into Pit (4, 7). Likely at (4, 7) on B2F.
-  - **Plan:** Check Column 4 from below.
+## Puzzle Solution (Once at 6, 6)
+1.  **Push 1:** At (6, 6), push Boulder Left to (4, 6).
+2.  **Reposition:** Circle around to (4, 5).
+3.  **Push 2:** Push Boulder Down into Pit (4, 7).
 
-## Immediate Plan
-1.  **Navigate to Column 4:**
-    - Slide Down to (19, 12).
-    - Slide Left to (0, 12) (or until blocked).
-    - Go to (4, 17) (Bottom of Col 4).
-2.  **Check B2:**
-    - Slide Up Column 4.
-    - **Hypothesis:** Hit B2 at (4, 7), stop at (4, 8).
-3.  **Retrieve Item:**
-    - From (4, 8), Slide Right to (8, 8) (Floor).
-    - Get Item at (8, 9).
-    - Exit via Ladder (9, 11).
-4.  **Contingency:**
-    - If B2 not found, Escape via (19, 1) -> Ladder (17, 1).
-    - Reset Puzzle on B1F.
-    - Try Pit (5, 12) -> (3, 12) strategy.
-## Lessons Learned
-- **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
-- **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
+## Item Retrieval (B2F)
+1.  Drop into Pit (4, 7).
+2.  Land on B2F.
+3.  Slide Up Col 4 -> Hit Boulder at (4, 7) -> Stop at (4, 8).
+4.  Slide Right to (8, 8) -> Get Item.
+5.  Exit via Ladder (9, 11).
 
-## Strategy: Solve Boulder Puzzle (B1F)
-1. **Push Sequence:**
-   - **Step 1:** Push Boulder Up to (5, 6). (Completed)
-   - **Step 2:** Circle around to (6, 6). (Current)
-     - **Zig-Zag Route to North:**
-       1. Cross West at Row 14: (18, 13) -> (18, 14) -> (13, 14).
-       2. Go Up Col 13 to (13, 11), then Left to (12, 11).
-       3. Go Up Col 12 to (12, 7), then Left to (11, 7).
-       4. Go Up Col 11 to (11, 5), then Right to (12, 5).
-       5. Go Up Col 12 to (12, 1).
-       6. Go West to (6, 1) and Down to (6, 6).
-   - **Step 3:** Push Boulder Left to (4, 6).
-   - **Step 4:** Circle around to (4, 5) and Push Down to Pit (4, 7).
-2. **Return to B2F:**
-   - Drop into Pit (4, 7).
-   - On B2F, Slide Up Col 4 -> Stop at (4, 8) (hit boulder).
-   - Slide Right to Item.
-
-## Current Action
-- Executing Zig-Zag Route.
-- Leg 1: (18, 13) -> (18, 14) -> (13, 14) -> (13, 11) -> (12, 11) -> (12, 7).
+## Map Data
+- **Pits:** (11, 2), (4, 7), (5, 12), (12, 13).
+- **Boulders:** (5, 6) [Target], (17, 7).
+- **Ladders:** (17, 3) [Avoid], (3, 15), (17, 1) [Target area].
