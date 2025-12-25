@@ -1,14 +1,13 @@
 # Ice Path Strategy: B3F Exploration
 
-## Current Status
-- **Location:** B3F, Position (3, 5).
-- **Goal:** Explore B3F and find HM07 Waterfall.
-- **Immediate Task:** Retrieve Item at (5, 7) and explore East.
+## Goal
+- Explore B3F East side to find path to Item at (5, 7) and potentially HM07.
 
-## Item Retrieval Hypothesis (Item at 5, 7)
-- **Observation:** Item is at `(5, 7)`. Access seems to be from `(6, 7)`.
-- **Obstacle:** Rock at `(6, 6)` blocks path from North.
-- **Plan:** Navigate around to the East/South to reach `(6, 7)` from the other side, then push Rock UP or access item directly.
+## Item Retrieval Strategy (Item at 5, 7)
+- **Observation:** Direct access blocked by Rock at (6, 6).
+- **Hypothesis:** Path to item is via the East side, looping around to reach (6, 7).
+- **Plan:** Traverse North to Row 1, head East, then South to loop back to the item.
+- **Exit:** After getting item, push Rock UP from (6, 7) to return to Ladder.
 
 ## Map Data
 - **Ladder to B2F:** `(3, 5)`.
