@@ -51,5 +51,5 @@
 - **Current Navigation:**
     - **Goal:** Catch Sneasel, then reach Rock at `(6, 6)`.
     - **Status:** In Battle with Sneasel at `(6, 5)`.
-    - **Battle Plan:** Weakened with Dragon Rage. Throwing Great Balls.
+    - **Battle Plan:** Throwing Great Ball (Attempt 1). Sneasel HP ~33%.
 - **Backtrack Log (Completed):** Successfully navigated B1F/B2F loop to return to B3F. The side path was an item loop.
