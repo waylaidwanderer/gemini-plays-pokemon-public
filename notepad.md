@@ -39,7 +39,7 @@
 - Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod Dept. Store (2F/3F). Moving to Ecruteak.
 
 # Suicune Encounter Strategy
-- Step 1: Fly to Ecruteak City.
+- Step 1: Walk or Bike to Ecruteak City (Flying randomizes Suicune's location).
 - Step 2: Buy Super Repels at Ecruteak Mart (¥500 each).
 - Step 3: Put XENON (Lv21) in the lead.
 - Step 4: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
