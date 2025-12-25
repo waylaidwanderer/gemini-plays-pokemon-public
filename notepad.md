@@ -137,3 +137,9 @@
 - **Conclusion:** Game State `Facing` attribute is UNRELIABLE. Trusting visual sprite.
 - **Action:** Proceeding with Menu Interaction (Pokemon -> Lapis -> Whirlpool).
 - **Note:** 'A' interaction failed in 18157 despite facing Down, confirming Menu is required.
+
+# Menu Navigation (Turn 18160)
+- **Action:** Pressing `A` to open Lapis's submenu.
+- **Expectation:** Submenu opens with options `SURF`, `WHIRLPOOL`, `STATS`, etc.
+- **Next Step:** Navigate to `WHIRLPOOL` and select it.
+- **Context:** Trusting visual confirmation of `Facing: Down` despite Game State saying `Facing: Up`.
