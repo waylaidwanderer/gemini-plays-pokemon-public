@@ -16,10 +16,10 @@
 - Status: 1F East (Exiting).
 - Goal: Reach Blackthorn City.
     - Plan:
-        1. (Current) At Ladder (37, 13).
-        2. Navigate South to Ledge at (37, 17).
-        3. Hop Ledge Down.
-        4. Find Exit Warp (likely South).
-- Note: Bag is Full. Protein at (35, 9) ignored.
+        1. (Current) At (37, 21) on Ice.
+        2. Slide Left to (34, 21).
+        3. Slide Down to (34, 22) [Floor].
+        4. Walk to Exit Warp at (36, 25).
+- Note: Bag is Full. Skipped Item Ball at (32, 23).
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
