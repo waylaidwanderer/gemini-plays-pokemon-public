@@ -18,3 +18,6 @@
     - Loop South -> West -> North -> (6, 6).
     - Push Left (5, 6) -> (4, 6).
     - Push Down (4, 6) into Pit (4, 7).
+## Lessons Learned
+- **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
+- **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
