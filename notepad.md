@@ -31,10 +31,9 @@
 - Potential Back Doors: Ladder at (7, 9), or falling through Pit (2, 5).
 - Action: Investigate Ladder at (7, 9).
 - Boulder 1 (2, 3) is a simple Push South to Pit (2, 5).
+- Puzzle Strategy: Avoid pushing boulders into dead ends. Ensure a path is clear before moving them.
+- Combat Note: Dragonair uses Dragon Rage (Fixed 40 DMG). Use High HP Pokemon (Muscle) to tank.
 - Gym 2F Layout: Left (Col 0-1) and Right (Col 5-9) separated by wall, connected at Row 1 (Top) and Row 13 (Bottom). Also crossing at (2, 9) -> (3, 9).
-- Puzzle Mistake: Pushed Boulder 4 (6, 16) South to (6, 17) where it is stuck. Correct path is North -> East -> North -> East to Pit (8, 7).
-- Boulder 3 (8, 14) appears to be a decoy or stuck in column 8.
-- Status: Room reset. Activating Strength to move Boulder 4.
 - Alternative Solution: North Boulders (2, 3) and (3, 3).
 - Boulder 1 (2, 3) can be pushed South into Pit (2, 5).
 - Access via column 1 from Ladder (1, 7).
