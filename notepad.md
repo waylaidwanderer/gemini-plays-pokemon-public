@@ -1,7 +1,7 @@
 # Strategic Objectives
 - **Primary:** Earn Rising Badge.
 - **Secondary:** Pass Dragon User Challenge.
-- **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
+- **Immediate:** Reach the Dragon Shrine via the West Whirlpool.
 
 # Current Status (Turn 18314)
 - **Location:** Dragon's Den B1F (20, 10).
