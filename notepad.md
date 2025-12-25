@@ -56,6 +56,6 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Strength Check: Menu Open. Navigating to Muscle to activate Strength.
-- Path Verification: Route (1, 7) -> (3, 4) is clear.
-- Puzzle Plan Confirmed: Push B2 (3, 3) North to (3, 1) -> Move to (2, 2) -> Push B1 (2, 3) South to Pit (2, 5).
+- Strength Status: Activated on Muscle.
+- Action: Pushing Boulder 2 (3, 3) North to (3, 1) to open path to (2, 2).
+- Next: Move to (2, 2) -> Push Boulder 1 (2, 3) South to Pit (2, 5).
