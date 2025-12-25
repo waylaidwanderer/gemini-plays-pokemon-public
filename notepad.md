@@ -17,6 +17,12 @@
 - CUT_TREE: Requires CUT to remove.
 - WATER: Requires SURF to traverse.
 
+- TOWN_MAP: Background object; interact for map info.
+- WINDOW: Background object.
+- BOOKSHELF: Background object.
+- TV: Background object.
+- RADIO: Background object.
+
 # Lessons Learned
 - Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires careful counting to reach #245 (Suicune).
 - Menu Buffering: Avoid mixing directional and action buttons too quickly.
