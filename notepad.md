@@ -4,7 +4,8 @@
 - Hunt started Turn 20250.
 
 # Side Quests & Resources
-- Quick Claw: National Park (17, 10). NE section lady. (Confirmed Thursday).
+- Quick Claw: National Park (34, 12). NE section lady. Only present Mon/Wed/Fri/Sun. (Unavailable today, Thursday).
+- Phone Contacts: Arnie (Bug Catcher) wants Snubbull.
 - Clear Bell: In Key Items.
 - Sick Miltank: Needs Berries.
 - Thunderstone: Obtained Turn 20360.
