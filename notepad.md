@@ -168,3 +168,12 @@
 - **Method:** Start Menu -> Pokemon -> Lapis -> Whirlpool.
 - **Step 1:** Open Start Menu (`Start`).
 - **Reasoning:** 'A' interaction has been unreliable. Menu is the deterministic path. Opening menu first to verify cursor position before proceeding.
+
+# Debugging Facing State (Turn 18166)
+- **State:** Start Menu Open. Game State `Facing: Up`. Visuals `Facing: Down` (Ambiguous/Conflicting).
+- **Diagnosis:** Previous attempts to "Quick Turn" (Close Menu + Turn) failed to update Game State Facing. Input eating is confirmed.
+- **Strict Plan:**
+  1. **Turn 18166:** Press `B` to Close Menu. DO NOTHING ELSE.
+  2. **Turn 18167:** Verify Overworld. Press `Down`.
+  3. **Turn 18168:** Verify `Facing: Down`. THEN Interact.
+- **Rule:** Absolute separation of Menu Close and Overworld Movement.
