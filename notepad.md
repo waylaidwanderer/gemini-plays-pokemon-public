@@ -12,12 +12,12 @@
   - Path: Cross bridge at (8, 3) West to reach Clair at (5, 3).
 
 ## Healing Plan
-- Revive Gyarados (Slot 1).
-- Super Potion Gyarados (needs ~50 HP).
-- Super Potion Machoke (Slot 4, needs ~110 HP) x2.
+- Revive Gyarados (Slot 1) - DONE.
+- Super Potion Gyarados - DONE (100/101).
+- Super Potion Machoke (Slot 4, 81/191) x2 - PENDING.
 - Check Sneasel (Slot 5, 65/65 HP) - Full.
 - Check Quilava (Slot 2, 81/81 HP) - Full.
-- Use: 1 Revive, 3 Super Potions.
+- Use: 2 more Super Potions on Machoke.
 
 ## Puzzle State
 - **East Side:** Complete (Boulders 4 & 5 in Pits).
