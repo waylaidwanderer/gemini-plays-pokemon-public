@@ -11,13 +11,16 @@
   - **B3:** Not found in Top Left.
 
 ## Immediate Plan
-1.  **Push Left:** Push B2 to (5, 8). (Done).
-2.  **Reposition:** Navigate to (5, 9). (In Progress).
-3.  **Push Up:** Push B2 from (5, 8) to (5, 6).
-4.  **Loop:** Escape South from (5, 7) -> (5, 9) -> (9, 14) -> Top Area.
-5.  **Push Left:** Push B2 from (5, 6) to (4, 6).
-6.  **Push Down:** Push B2 from (4, 6) into Pit (4, 7).
-- **Status:** Strength Active. B2 is at (5, 8).
+1.  **Push Up:** Push B2 from (5, 8) to (5, 6). (Executing now).
+2.  **Escape:**
+    - From (5, 7), go Down to (5, 9).
+    - Go South/East to (9, 14).
+    - Go North (via Right side) to Row 5.
+    - Go Left to (6, 6).
+3.  **Final Pushes:**
+    - Push Left (5, 6) -> (4, 6).
+    - Move to (4, 5).
+    - Push Down (4, 6) into Pit (4, 7).
 ## Lessons Learned
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
