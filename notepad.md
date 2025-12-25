@@ -12,7 +12,7 @@
 # Key Locations
 - **Ice Path Entrance:** (36, 9)
 - **Cooltrainer F:** (35, 19)
-- **Sign:** (34, 24)
+- **Sign (34, 24):** "Blackthorn City - A Quiet Mountain Retreat"
 
 # Archived: Ice Path
 - Solved. Exited via 1F East.
