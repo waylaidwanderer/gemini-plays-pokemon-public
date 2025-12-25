@@ -1,7 +1,7 @@
 # Suicune Hunt Strategy (Crystal)
 - Status: ROAMING (Post-Tin Tower).
 - Lead: XENON (Gastly Lv21) with Mean Look and Hypnosis.
-- Strategy: Boundary cycling between Route 36 and Route 37.
+- Strategy: Boundary cycling between Route 38 and Ecruteak City.
 
 # Suicune Battle Plan
 - Item: QUICK CLAW (Priority: National Park).
@@ -19,6 +19,7 @@
 
 # UI Mechanics (Verified)
 - PARTY MENU: Cursor is persistent and remembers its last position. Always verify current selection before pressing A.
+- FLY MAP: Cursor defaults to New Bark Town in current state. Sequence hypothesis: 1. NB, 2. CG, 3. VI, 4. EC, 5. OL.
 
 # Global Tile Mechanics (Verified)
 - TALL_GRASS: Traversable, triggers wild encounters.
