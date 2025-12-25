@@ -39,23 +39,20 @@
 - **Map Resets:** Leaving a map (e.g. falling to B2F) resets all puzzle elements (Boulders) and deactivates Strength.
 - **Pushing:** Requires deliberate input. 'Navigate' might fail if it treats the boulder as a static wall. Use 'slow_press' for pushing.
 
-## Strategy: Retrieve Item (B2F) - REVISED
-1. **Navigate to West B1F:**
-   - Go (17, 3) -> (17, 1) -> Left along Row 1 to (6, 1).
-   - Go Down to find Boulder 2 (likely near 5, 6).
-2. **Execute Puzzle:**
+## Strategy: Solve Boulder Puzzle (B1F)
+1. **Positioning:**
+   - Navigate to (8, 8) (Right of Boulder).
+   - Path: Loop under via Row 9.
+2. **Execution:**
    - Activate Strength.
-   - Position at (6, 6). Push Boulder (5, 6) Left to (4, 6).
-   - Position at (4, 5). Push Boulder (4, 6) Down to (4, 7).
+   - Push Boulder Left x2 to (5, 8).
+   - Push Boulder Up x2 to (5, 6).
+   - Push Boulder Left x1 to (4, 6).
+   - Push Boulder Down x1 to Pit (4, 7).
 3. **Return to B2F:**
-   - Jump into Pit (4, 7) OR take Ladder (17, 3).
-   - If jumping works, land near boulder.
-   - If taking ladder, navigate back to B2F Col 4.
-4. **Collect Item:**
-   - On B2F, slide Up Col 4 -> Hit Boulder at (4, 7) -> Stop at (4, 8).
-   - Slide Right to (8, 8) -> Get Item.
-   - Exit via Ladder (9, 11).
+   - Drop into Pit (4, 7).
+   - On B2F, Slide Up Col 4 -> Stop at (4, 8) (hit boulder).
+   - Slide Right to Item.
 
 ## Current Action
-- Navigating to (6, 6) to position for push.
-- Path: (6, 1) -> (6, 2) -> (5, 2) -> (5, 3) -> (5, 4) -> (5, 5) -> (6, 5) -> (6, 6).
+- Navigating to (8, 8) to start the puzzle.
