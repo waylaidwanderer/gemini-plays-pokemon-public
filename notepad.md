@@ -28,20 +28,21 @@
 - Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
 
 # PC Storage (Box 1)
-- RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+- RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
 
 # Goldenrod Dept. Store Inventory Notes
 - 2F Clerk (13, 6): Poké Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
 - 2F Clerk (13, 5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
 - Super Repels NOT sold here.
 
+# Suicune Encounter Strategy
+- Step 1: Obtain Bicycle in Goldenrod City (29, 29).
+- Step 2: Walk/Bike to Ecruteak City (Flying randomizes Suicune's location).
+- Step 3: Buy Super Repels at Ecruteak Mart (¥500 each).
+- Step 4: Put XENON (Lv21) in the lead.
+- Step 5: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
+- Step 6: When Suicune is on Route 38, use Super Repel and run in grass.
+- Note: Suicune is Level 40. Mean Look must hit on Turn 1.
+
 # Time Tracking
 - Super Repel Search: Started Turn 18395. Status: Verified NOT in Goldenrod Dept. Store (2F/3F). Moving to Ecruteak.
-
-# Suicune Encounter Strategy
-- Step 1: Walk or Bike to Ecruteak City (Flying randomizes Suicune's location).
-- Step 2: Buy Super Repels at Ecruteak Mart (¥500 each).
-- Step 3: Put XENON (Lv21) in the lead.
-- Step 4: Move between Ecruteak and Route 38. Check Pokedex AREA after each transition.
-- Step 5: When Suicune is on Route 38, use Super Repel and run in grass.
-- Note: Suicune is Level 40. Mean Look must hit on Turn 1.
