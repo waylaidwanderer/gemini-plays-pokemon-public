@@ -1,13 +1,14 @@
 # Suicune Strategy (Crystal Version)
-- Mechanics Check: In Crystal, Suicune has fixed overworld sprite locations and is NOT a random grass encounter until the final stationary battle at Tin Tower.
+- Mechanics Check: In Crystal, Suicune has fixed overworld sprite locations. After the Route 42 encounter, it moves to Tin Tower for a stationary battle.
 - Encounter Sequence:
     1. Burned Tower: Trigger beasts to flee. (COMPLETED)
     2. Cianwood City: North end town. (COMPLETED)
-    3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS - Stagnated)
-    4. Kanto Route 14: Near the water. (FUTURE)
-    5. Tin Tower: Stationary battle with Clear Bell. (FUTURE)
-- Battle Plan: Lead XENON (Gastly, Lv21) with Mean Look. Strategy: Mean Look -> Hypnosis -> weaken.
-- Stagnation Plan: If island sweep fails, check Tin Tower in Ecruteak. Backup: Return to Cianwood to ensure Eusine dialogue finished.
+    3. Route 42: Island in the middle. (COMPLETED)
+    4. Tin Tower: Stationary battle with Clear Bell. (CURRENT)
+- Battle Plan: Hypnosis -> weaken. Mean Look is not required as it's a stationary encounter.
+- Team: GNEISS (Graveler) for tanking, XENON (Gastly) for Sleep.
+- Note: Suicune is level 40. Moves: Rain Dance, Gust, Aurora Beam, Mist.
+- Stagnation Plan: If progress stalls, verify Clear Bell usage at Tin Tower 1F.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
