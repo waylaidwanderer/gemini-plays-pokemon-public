@@ -1,5 +1,5 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Sighting #3) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
+- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Route 42 Trigger: Approach Suicune on Route 42. Check island and eastern mainland.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
