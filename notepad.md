@@ -10,10 +10,25 @@
 - Turn 3+: NIGHT SHADE (fixed damage).
 - Failsafe: If Suicune flees before action, need Quick Claw (Hypothesis: House on Route 35/36).
 
-# Resources & Funding
-- Balls: 1 Ultra, 23 Great.
-- Funds: ¥2373. (Need ~¥12,000 for 10+ Ultra Balls).
-- Hypotheses: Goldenrod Dept. Store or Blackthorn Mart sells Ultra Balls.
+# Capture Prep
+- Resources: 1 Ultra Ball, 23 Great Balls.
+- Funds: ¥2373.
+- Goal: Verify if Suicune flees before Turn 1 action.
+
+# Ultra Ball Hypotheses
+- Hypothesis 1: Goldenrod Dept. Store sells Ultra Balls.
+- Hypothesis 2: Blackthorn City Mart sells Ultra Balls.
+
+# Quick Claw Quest
+- Hypothesis: A lady in a house on Route 35/36 gives the Quick Claw.
+- Location: Route 35 is south of Ecruteak/Route 36.
+
+# Boundary Cycling Plan
+1. Move to (17, 35) in Ecruteak City.
+2. Step south to Route 37.
+3. Check Pokedex.
+4. If Suicune is on Route 37, search grass.
+5. If not, step north to Ecruteak City and repeat.
 
 # Global Tile Mechanics
 - TALL_GRASS: Traversable, triggers wild encounters.
@@ -23,18 +38,11 @@
 - LEDGE_HOP: One-way movement.
 - COUNTER: Interact from adjacent tile.
 
-# Current Progress Tracking
-- Repel Start Turn: 19239.
-- Boundary Cycling Start: 19221.
-- Menu Safety Rule: Always verify cursor position in Start Menu. Cursor position is persistent.
+# Repetitive Task: Pacing for Suicune
+- Location: Route 37 Grass.
+- Status: Super Repel active (Turn 19280).
+- Start Turn: 19282.
+- Steps taken: 0.
 
 # PC Storage (Box 1)
 - RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
-
-# Repetitive Task Tracking
-- Task: Pacing on Route 37 for Suicune encounter.
-- Start Turn: 19242.
-- Current Step Count (Approx): 200.
-- Strategy: Pace 10 steps, then resume. Re-check Pokedex every 50 steps or if Repel ends.
-- Repel Status: 2 used, 200 steps remaining on current spray (Turn 19280).
-- Last Pokedex Check: Step 150 (Turn 19273). Suicune confirmed on Route 37.
