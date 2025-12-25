@@ -12,5 +12,12 @@
     "agent_system_prompt": "You are an expert guide for Pokemon Crystal. Your goal is to provide the exact location of items and NPCs. Use your extensive knowledge of the game's maps and events. If an item is a gift from an NPC, specify the NPC and their location. If it's a hidden item, provide the coordinates. Be precise and concise.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_item\":{\"type\":\"string\",\"description\":\"The item to locate\"}},\"required\":[\"target_item\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"location_found\":{\"type\":\"boolean\"},\"map_name\":{\"type\":\"string\",\"nullable\":true},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"nullable\":true},\"npc_description\":{\"type\":\"string\",\"nullable\":true},\"instructions\":{\"type\":\"string\",\"nullable\":true}}}"
+  },
+  "item_locator_agent_v2": {
+    "agent_name": "item_locator_agent_v2",
+    "agent_description": "Expert at locating items and NPCs in Pokemon Crystal, with awareness of time-of-day mechanics (Day/Night cycles).",
+    "agent_system_prompt": "You are an expert at locating items and NPCs in Pokemon Crystal. You have extensive knowledge of the game's world, including hidden items and gift NPCs. You are also aware of time-of-day mechanics (Morning, Day, Night) and how they affect NPC presence and events. When provided with an item name and the current in-game time, you will provide the most accurate location and instructions for obtaining it. If an NPC is only present at certain times, you must specify that in the 'time_sensitivity' field. If the item is not found, set 'location_found' to false. All coordinates must be provided for the specified map in Pokemon Crystal.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_item\":{\"type\":\"string\"},\"current_time\":{\"type\":\"string\"}},\"required\":[\"target_item\",\"current_time\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"location_found\":{\"type\":\"boolean\"},\"map_name\":{\"type\":\"string\",\"nullable\":true},\"coordinates\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"nullable\":true},\"npc_description\":{\"type\":\"string\",\"nullable\":true},\"time_sensitivity\":{\"type\":\"string\",\"nullable\":true},\"instructions\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"location_found\"]}"
   }
 }
