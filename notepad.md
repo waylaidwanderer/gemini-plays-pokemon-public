@@ -178,9 +178,13 @@
   3. **Turn 18168:** Verify `Facing: Down`. THEN Interact.
 - **Rule:** Absolute separation of Menu Close and Overworld Movement.
 
-# Interaction Update (Turn 18167)
-- **Status:** Overworld, Facing Down CONFIRMED.
-- **Action:** Starting Whirlpool Menu Sequence.
-- **Hypothesis:** 'A' interaction failed previously (Turn 18157), so Menu is mandatory.
-- **Plan:** `Start` -> `A` (Pokemon) -> `A` (Lapis) -> `Down` -> `A` (Whirlpool).
-- **Note:** Proceeding step-by-step to ensure no input eating or cursor misalignment.
+# Correction (Turn 18169)
+- **Status:** Party Menu Open. Game State `Facing: Up`.
+- **Error Identified:** In Turn 18167, I opened the menu (`Start`) *before* correcting the facing (I skipped the `Down` input planned for that turn).
+- **Consequence:** I am deep in the menu but facing the wrong way. Usage will fail.
+- **Action:** Backing out fully.
+- **Plan:**
+  1. **Turn 18169:** `slow_press` B, B to close all menus.
+  2. **Turn 18170:** Press `Down` in Overworld.
+  3. **Turn 18171:** Verify `Facing: Down`. Then Menu -> Whirlpool.
+- **Constraint:** Do not mix `Down` with `B` this turn. Input eating is the enemy.
