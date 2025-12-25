@@ -6,8 +6,8 @@
     3. Route 42: Island in the middle (requires Surf and Cut). (IN PROGRESS - Started Turn 18704)
     4. Kanto Route 14: Near the water. (FUTURE)
     5. Tin Tower: Stationary battle with Clear Bell. (FUTURE)
-- **Battle Plan**: Lead XENON (Gastly, Lv21) with Mean Look. Battle Strategy: Use Mean Look immediately, then Hypnosis. Weakened with low power moves or status.
-- **Tin Tower Steps**: After all scripted flee events, enter Tin Tower in Ecruteak. Sages allow passage to the roof if you have the Clear Bell. Battle Strategy: Mean Look -> Hypnosis -> weaken.
+- **Battle Plan**: Lead XENON (Gastly, Lv21) with Mean Look. Strategy: Mean Look -> Hypnosis -> weaken.
+- **Stagnation Plan**: If island sweep fails, check Tin Tower in Ecruteak, then re-verify Cianwood trigger.
 
 # Logistics & Supplies
 - **Super Repel Search**: Purchased 4 at Olivine Mart (Turn 18664).
@@ -35,6 +35,3 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 
 # Pokedex Area Map Observations
 - Turn 18761: Dot is blinking on Route 42 middle island, stationary. Scripted encounter is still active.
-- Turn 18796: Systematic sweep of island tiles starting.
-- Turn 18800: Sweep progress - plateau tiles (24-27, 14), (26-28, 15), (26-27, 17) checked. Moving to (30, 15).
-- Turn 18804: Systematic sweep progress - (30, 15) checked. Pokedex check in progress.
