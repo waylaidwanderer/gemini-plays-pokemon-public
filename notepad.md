@@ -65,10 +65,10 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: Boulder 4 dropped into Pit (8, 7). Success!
-- Next Phase: West Side Boulders.
-- Strategy:
-  1. Navigate North via Col 5 to Row 1.
-  2. Cross to West Side.
-  3. Push Boulder 2 (3, 3) North to (3, 1), then East to (8, 1), then South into Pit (8, 3).
-  4. Push Boulder 1 (2, 3) South into Pit (2, 5).
+- Puzzle Status: Boulder 4 complete. Boulder 3 stuck (sacrifice).
+- West Side Strategy:
+  1. Navigate to (2, 2) via North Path (Row 1).
+  2. Push Boulder 1 (2, 3) South into Pit (2, 5).
+  3. Navigate around to (3, 4) (via South/Col 0).
+  4. Push Boulder 2 (3, 3) North to (3, 1) -> East to (8, 1) -> South to Pit (8, 3).
+- Action: Moving to (2, 2).
