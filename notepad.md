@@ -63,3 +63,10 @@
   - Middle Pocket (X=4-5): Searched. No Suicune.
   - Western Pocket (X=0-2): Isolated from south. Must approach from East (Ecruteak).
 - Strategy: Fly to Ecruteak City, enter Route 38 Gatehouse, and stay in the Top Lane (Rows 0-6) while walking West. This is the only way to reach the isolated western sections where Suicune is likely waiting.
+- Menu Loop Debug (Turn 20304-20341): Attempted to use FLY on ICARUS. Repeatedly failed due to cursor persistence and misclicks. Currently backing out to overworld to reset.
+- Tile Mechanics (Route 38):
+  - LEDGE_HOP_DOWN (Y=13, 15): One-way South.
+  - LEDGE_HOP_LEFT (X=10): One-way West.
+  - LEDGE_HOP_RIGHT (X=7, 21): One-way East.
+  - WALL (X=3, 6, 10, 14, 15): Enforces lane separation in Rows 0-7.
+  - Fence Gaps (Row 7): X=4, 5, 30, 31, 32, 34, 35. Verified passage to Top Lane.
