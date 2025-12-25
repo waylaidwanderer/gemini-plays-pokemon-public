@@ -32,7 +32,7 @@
 
 # Task: Reach Route 38 Western Ledge
 - Start Turn: 20771
-- Current Status: In Violet City (Turn 20911).
+- Current Status: Route 36. Attempted Arthur (Thursday) x3; dialogue loop confirmed. Pivoting to Suicune hunt.
 - Plan:
   1. Talk to Arthur on Route 36 for Hard Stone (Thursday).
   2. Fly to Olivine City.
