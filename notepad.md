@@ -16,7 +16,7 @@
 - Hypothesis: Trigger for Suicune's overworld appearance on 1F is external to the tower (e.g. Wise Trio's final blessing or Eusine's intervention).
 - Task 1: Fly to PC, check for Eusine.
 - Task 2: Navigate to Tin Tower Entrance (18, 11) and talk to Wise Trio.
-- Note: Sages are not vanishing; (10, 2) is a standard FLOOR tile for now.
+- Note: Sages are not vanishing; they are simply off-screen. (10, 2) is a FLOOR tile with an inactive warp.
 
 # PC Storage (Box 1)
 RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
