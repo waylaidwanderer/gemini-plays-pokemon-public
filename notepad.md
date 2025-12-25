@@ -17,3 +17,8 @@
   1. **Turn 18192:** Press `B` to close Party Menu.
   2. **Turn 18193:** Press `B` to close Start Menu.
   3. **Turn 18194:** Navigate North -> East to bypass the wall.
+
+# Battle Interrupt (Turn 18195)
+- **Event:** Wild Magikarp encounter at (16, 21).
+- **Action:** Fleeing immediately.
+- **Resume:** After battle, continue path: North -> East -> South to (18, 22).
