@@ -10,12 +10,19 @@
   - **B2:** Verified at (7, 8).
   - **B3:** Not found in Top Left.
 
+## Current Status
+- **Position:** Player at (5, 7).
+- **Goal:** Solve B2.
+- **Puzzle State:**
+  - **B1:** Solved.
+  - **B2:** At (5, 5).
+
 ## Immediate Plan
-1.  **Pass Choke Point:**
-    - Move Up to (5, 7).
-    - Push B2 Up from (5, 6) to (5, 5).
+1.  **Loop Around:**
+    - Navigate South/East to (9, 14).
+    - Navigate North (Col 1) to Top Area.
+    - Navigate to (5, 4).
 2.  **Reset B2 Position:**
-    - Go around: (5, 6) -> (6, 6) -> (6, 5) -> (6, 4) -> (5, 4).
     - Push B2 Down from (5, 5) to (5, 6).
 3.  **Execute Solution:**
     - Go to (6, 6). Push B2 Left to (4, 6).
