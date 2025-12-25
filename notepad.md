@@ -2,13 +2,13 @@
 - **Primary:** Challenge the Pokémon League.
 - **Secondary:** Reach Tohjo Falls (Route 27).
 - **Tertiary:** Train team for Victory Road.
-- **Immediate:** Surf East from New Bark Town.
+- **Immediate:** Surf East on Route 27.
 
-# Current Status (Turn 18555)
-- **Location:** New Bark Town (17, 6).
+# Current Status (Turn 18557)
+- **Location:** Route 27 (0, 6).
 - **Activity:** Surfing East.
-- **Goal:** Reach Route 27.
-- **Context:** Master Ball obtained. Gyarados is Surfing.
+- **Goal:** Reach Tohjo Falls.
+- **Context:** Entered Route 27. Heading to Kanto.
 
 # Plan
 1. Surf East to Route 27 (keep heading right).
