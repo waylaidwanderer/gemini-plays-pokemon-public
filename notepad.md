@@ -5,7 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Interacting with Whirlpool at (15, 23).
-- Step 1: Navigate to (15, 22).
-- Step 2: Face Down (towards 15, 23).
-- Step 3: Interact (Press A) and confirm YES.
+- Status: Accessing Party Menu to use Whirlpool manually.
+- Reason: Pressing 'A' on the whirlpool failed to trigger interaction.
+- Step 1: Open Menu (Start).
+- Step 2: Navigate to Party.
+- Step 3: Select Lapis -> Use Whirlpool.
