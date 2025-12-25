@@ -29,3 +29,10 @@
 ## Current Status
 - **Location:** B1F South `(14, 26)`.
 - **Immediate Plan:** Navigate East to `(17, 27)` to enter the ice at `(17, 28)`. The direct path South was blocked by a wall.
+## Tile Mechanics
+- **ICE:** Sliding movement. Continues until blocked by WALL, OBJECT, or non-ICE tile.
+- **FLOOR:** Normal walkable terrain.
+- **WALL:** Impassable.
+- **PIT:** Falls to the floor below.
+- **LADDER:** Transitions between floors.
+- **FLOOR_UP_WALL:** Observed on B2F. Acts as a ledge (one-way).
