@@ -4,19 +4,20 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18398)
-- **Location:** Blackthorn City (12, 16).
-- **Action:** Flanking Left to avoid Youngster at (12-14, 15).
-- **Goal:** Reach Surf spot at (12, 14).
-- **Path:** Go wide via Col 10 to minimize detection risk (or collision), then return to (12, 14).
+# Current Status (Turn 18399)
+- **Location:** Blackthorn City (12, 14).
+- **Action:** Initiating Surf to travel North.
+- **Goal:** Return to Dragon Shrine for Dratini.
+- **Path:** Surf North to Row 6, then East to Col 20, then North to Entrance.
 
 # Plan
-1. Navigate to (12, 14) via (10, 15).
-2. Surf North to Dragon's Den.
-3. Enter Dragon's Den.
-4. Navigate to Dragon Shrine.
-5. Get Dratini.
-6. Fly to New Bark Town.
+1. Interact with water (Up, A).
+2. Confirm Surf (A).
+3. Surf North to (12, 6).
+4. Surf East to (20, 6).
+5. Surf North to (20, 3) (Landing).
+6. Enter Dragon's Den.
+7. Navigate to Shrine for Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
