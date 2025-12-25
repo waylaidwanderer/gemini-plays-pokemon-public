@@ -9,6 +9,6 @@
 - **Pits:** `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
 
 ## Navigation & Mechanics
-- **Current Position:** `(7, 1)`.
-- **Immediate Goal:** Navigate to West Side `(3, 2)` via `(7, 2)` -> `(6, 2)` to bypass wall at `(4, 1)`.
+- **Current Position:** `(3, 2)`.
+- **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
