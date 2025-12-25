@@ -30,3 +30,11 @@
 - Action: Pressing Down (to ensure facing/bump), then Start, then A.
 - Goal: Open Start Menu and select the current option (hopefully Pokémon or Pokedex) to verify state.
 - Note: If Party Menu opens, cursor might be on Slot 5 (Kunai) based on previous notes.
+- Turn 18119: "Can't use that here" confirmed.
+- Cause: Player was Facing UP. Menu navigation (Down) moves cursor, not player.
+- Lesson: To change facing, I MUST be in the Overworld.
+- Plan:
+  1. Close Menus (Current Turn).
+  2. Face Down (Next Turn).
+  3. Verify Facing matches target.
+  4. Open Menu -> Whirlpool.
