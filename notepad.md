@@ -4,15 +4,15 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18418)
-- **Location:** Dragon's Den B1F (10, 19).
-- **Action:** Navigating to Whirlpool at (10, 20).
-- **Goal:** Clear Whirlpool and enter Shrine area.
-- **Context:** Player is at the whirlpool barrier.
+# Current Status (Turn 18419)
+- **Location:** Dragon's Den B1F (10, 11).
+- **Action:** Navigating South to Whirlpool at (10, 20).
+- **Goal:** Reach Shrine Entrance (19, 29).
+- **Context:** Fled from Magikarp. Continuing path.
 
 # Plan
-1. Interact with Whirlpool at (10, 20).
-2. Clear it.
+1. Reach (10, 19).
+2. Interact with Whirlpool at (10, 20) (if present).
 3. Surf to Shrine Entrance (19, 29).
 4. Receive Dratini.
 5. Fly to New Bark Town.
