@@ -28,3 +28,7 @@
 
 # Fly Map Order (Johto)
 - 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
+
+# Strategy: Fly Navigation (Johto)
+- Attempt #20 (Turn 19929): Using chunked navigation (2 buttons at a time) to ensure state verification.
+- Verification: 2 Downs from New Bark should be Violet City.
