@@ -33,13 +33,13 @@
 
 # Menu Navigation & Fly Map Defaults
 - Olivine City: FLY cursor defaults to New Bark Town.
-- Reset Strategy: Press Start, then Up 7 times to reach the top of the menu (POKEDEX), then Down 1 to reach POKEMON.
+- Reset Strategy: The menu wraps around! If on PACK, press Up once to reach POKEMON.
 - Verification: Always check Game State Map ID and City before using navigate_fly_map.
 - Clear Screen: Always press B multiple times to ensure no dialogue or menu is active before starting a sequence.
 
 # Error Analysis & Lessons
 - Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
-- Stagnation: 30 turns lost to menu fumbling in Olivine City. Use the "Up" reset strategy to break loops.
+- Stagnation: 30 turns lost to menu fumbling in Olivine City. Fixed the loop by recognizing the cursor starts on PACK.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
 - Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town.
