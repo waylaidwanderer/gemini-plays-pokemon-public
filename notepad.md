@@ -12,10 +12,6 @@
 - **Current Position:** `(3, 2)`.
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
-- Observation: Boulder 4 located at (9, 10).
-- Plan:
-  1. Push Boulder 4 Down to (9, 11).
-  2. Navigate around via Row 1 to (10, 11).
-  3. Push Boulder 4 Left to (4, 11).
-  4. Push Down to (4, 12).
-  5. Push Right to (5, 12) [Pit].
+- Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
+- Status: Boulder 4 NOT at (9, 10). Still searching.
+- Plan: Navigate to (5, 11) to check area near Pit (5, 12). Then sweep remaining unchecked areas.
