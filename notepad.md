@@ -1,17 +1,14 @@
 # Strategic Objectives
 - **Primary:** Earn Rising Badge.
 - **Secondary:** Pass Dragon User Challenge.
-- **Immediate:** Navigate to the Dragon Shrine.
+- **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Correction: East Gap is Blocked (Turn 18214)
-- **Observation:** Row 20 (Cols 27-29) is blocked by Buoys. The "East Gap" at (28, 23) cannot be reached from the North.
-- **Conclusion:** Whirlpool usage is MANDATORY.
-- **Path Selection:**
-  - **West Whirlpool (15, 23):** Leads to West Channel. Lands at (14, 30) which connects to Shrine. **CHOSEN PATH.**
-  - **East Whirlpool (24, 23):** Leads to uncertain connection at Row 30.
-- **Plan:**
-  1. Clear "Used Surf" text.
-  2. Surf West to (15, 22).
-  3. Use Whirlpool on (15, 23).
-  4. Surf South to (13, 30).
-  5. Land at (14, 30) and walk to Shrine.
+# Navigation Notes
+- **West Whirlpool (15, 23):** Leads to a small enclosed area ((14-15, 24-25)) blocked by walls at Row 26. Dead end.
+- **East Whirlpool (24, 23):** Leads to an open channel. Likely connects to the platform at Row 30.
+- **Path:** Surf North to Row 21, East to Col 24, then South to Whirlpool.
+
+# Status & Plan (Turn 18228)
+- **Status:** Surfing at (15, 22).
+- **Action:** Navigate to East Whirlpool (24, 22).
+- **Route:** (15, 22) -> (15, 21) -> East to (24, 21) -> (24, 22).
