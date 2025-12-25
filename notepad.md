@@ -45,7 +45,7 @@
 - **Current Navigation:**
     - **Goal:** Reach North Landing `(11, 30)`.
     - **Sequence:** `(11, 33)` -> Right to `(15, 33)` -> Up to `(15, 29)` -> Right to `(19, 29)` -> Down to `(19, 33)` -> Left to `(17, 33)` -> Up to `(17, 31)` -> Left to `(13, 31)` -> Up to `(13, 30)` -> Left to `(11, 30)`.
-    - **Status:** Starting slide Right from `(11, 33)`.
+    - **Status:** At `(15, 33)`, Sliding Up to `(15, 29)`.
 - **Return & Progress Plan:**
     - **Escape:** From `(5, 35)` -> Slide R to `(8, 35)` -> Slide U to `(8, 34)` -> Slide R to `(9, 34)` (Land on `9, 33`).
     - **Transition:** Walk R to `(11, 33)` (South Landing).
