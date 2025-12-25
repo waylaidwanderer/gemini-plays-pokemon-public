@@ -35,7 +35,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Fighting Fisher Scott (Route 26).
-- **Status:** Muscle (Machoke Lv59) vs Seaking. Staying in to overpower.
+- **Battle:** Defeated Fisher Scott (Seaking Lv34). (Turn 18754)
+- **Status:** Muscle Lv60 (63/198). Gyarados (52/108). Team needs healing.
 - **Location:** Route 26 Bridge (10, 94).
-- **Next:** Defeat Fisher Scott, then heal IMMEDIATELY.
+- **Next:** Navigate North on Route 26. Find Healer.
