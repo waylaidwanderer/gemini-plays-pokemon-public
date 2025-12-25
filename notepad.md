@@ -4,20 +4,19 @@
 - **Tertiary:** Get Master Ball (New Bark Town).
 - **Immediate:** Deposit a Pokemon at Blackthorn PC.
 
-# Current Status (Turn 18399)
-- **Location:** Blackthorn City (12, 14).
-- **Action:** Initiating Surf to travel North.
+# Current Status (Turn 18401)
+- **Location:** Blackthorn City (12, 14) -> Surfing at (12, 13).
+- **Action:** clearing Surf text and moving North.
 - **Goal:** Return to Dragon Shrine for Dratini.
-- **Path:** Surf North to Row 6, then East to Col 20, then North to Entrance.
+- **Path:** Surf North to Row 6, East to Col 20, North to Landing (20, 3).
 
 # Plan
-1. Interact with water (Up, A).
-2. Confirm Surf (A).
-3. Surf North to (12, 6).
-4. Surf East to (20, 6).
-5. Surf North to (20, 3) (Landing).
-6. Enter Dragon's Den.
-7. Navigate to Shrine for Dratini.
+1. Clear "LAPIS used SURF!" text (B).
+2. Surf North to (12, 6).
+3. Surf East to (20, 6).
+4. Surf North to (20, 3) (Landing).
+5. Enter Dragon's Den.
+6. Navigate to Shrine for Dratini.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
