@@ -56,3 +56,14 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Status Inducer: XENON (Gastly) with Hypnosis.
 - False Swipe: Not available. Using Night Shade (fixed damage) or Lick/Headbutt for chip damage.
 - Saving: MUST save before interacting with Suicune.
+
+# Hypothesis Testing Log (Tin Tower Suicune)
+1. Hypothesis: Talking to Sages triggers the encounter.
+   - Test: Talked to all 3 Sages on 1F.
+   - Result: No encounter. Hypothesis denied.
+2. Hypothesis: Re-entering the tower triggers the encounter.
+   - Test: Exited and re-entered map.
+   - Result: No encounter. Hypothesis denied.
+3. Hypothesis: Access to central area (Suicune's Nest) is via 2F or hidden path.
+   - Observation: 1F center is walled off.
+   - Test: Heading to stairs at (10, 2). (Attempt 1, Turn 18950)
