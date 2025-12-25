@@ -40,3 +40,8 @@ RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YA
 - Amulet Coin: Equipped to XENON.
 - Sage Lore: All Sages have shared their lore.
 - Suicune: Stationary encounter in Crystal. Strategy: Hypnosis -> Weaken.
+
+# Navigation Note
+- Path to (10, 15) from north was blocked by Sage at (5, 9). Must detour through column 4.
+- Attempt 1 to trigger Suicune: Talked to all Sages. Outcome: No cutscene.
+- Attempt 2 to trigger Suicune: Re-entering map. (IN PROGRESS)
