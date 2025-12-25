@@ -35,8 +35,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Defeated Fisher Scott (Seaking Lv34). (Turn 18754)
-- **Status:** Muscle Lv60 (63/198). Gyarados (52/108).
-- **Obstacle:** Youngster blocking path at (13, 79). Must battle.
-- **Location:** Route 26 (15, 82).
+- **Battle:** Encountered Youngster (Route 26) at (14, 79).
+- **Status:** Muscle Lv60 (63/198). Gyarados (52/108) is Leading.
+- **Location:** Route 26 (15, 79).
 - **Next:** Defeat Youngster, then find Rest House.
