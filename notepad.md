@@ -19,3 +19,4 @@
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
 - **Water Moves:** Special in Gen 2. Gyarados uses Sp.Atk for Surf/Waterfall.
 - **Warp Carpets:** Directional exits.
+- **Milestone:** Stepped into Kanto on Route 27! (Turn 18570)
