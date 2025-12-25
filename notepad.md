@@ -25,3 +25,5 @@
 - **Hypothesis:** The exit or access to the hidden northeast area is via the bottom-right section, accessible by descending the eastern waterfall. (Turn 18589)
 - **Reflection:** Performed mandatory reflection. Cleaned up warp markers. Prioritizing exit to reach Indigo Plateau.
 - **Exploration:** Reached the lower eastern landing of Tohjo Falls. Proceeding to exit. (Turn 18592)
+- **Exploration:** Exited Tohjo Falls to Route 27 East. Encountered Cooltrainer F at (37, 6).
+- **Observation:** There is a house at (33, 7) which appears unreachable from the current position due to ledges/walls. It might be accessible from the west side or via a specific path. (Turn 18593)
