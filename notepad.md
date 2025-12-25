@@ -6,8 +6,8 @@
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
 - Location: Northeast area of National Park perimeter, near the exit to Route 36.
-- Route: Enter the perimeter via the gap at (25, 3). Follow the walkway around the top and east side.
-- Verification: Confirm NPC ID in Game State before interacting.
+- Route: Enter the perimeter via the gap at (25, 3). Follow the walkway around the top and east side to the area near (33, 15).
+- Verification: Confirm Teacher NPC in 'Map Objects On Screen' list before interacting.
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540. Priority: High.
