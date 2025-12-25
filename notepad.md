@@ -41,3 +41,4 @@
 # Time Tracking
 - Suicune Hunt (Route 38 sighting): Started Turn 20250. Current Turn 20588. 
 - Arthur (Hard Stone) Hunt: Started Turn 20530. Current Turn 20588.
+- Arthur (Hard Stone): Dialogue loops intro without giving item. Abandoning for Suicune hunt.
