@@ -3,23 +3,23 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
 
-# Current Status (Turn 18325)
-- **Location:** Dragon's Den B1F (14, 22) (anticipated).
-- **Action:** Test Whirlpool interaction at (15, 23) and (14, 23).
+# Current Status (Turn 18326)
+- **Location:** Dragon's Den B1F (14, 22).
+- **Action:** Navigate to the TRUE West Whirlpool at (10, 20).
 - **Reasoning:** 
-    - Previous interaction at (15, 23) yielded no text.
-    - Testing both tiles in this pocket to be sure.
-    - If neither works, these "buoys" are likely unbreakable, and I need to rethink the "Central Channel" hypothesis.
-- **Hypothesis:** One of these MUST be a whirlpool given the map markers and layout.
+    - My previous interaction confirmed (15, 23) is just a Buoy.
+    - Re-examining the Mental Map reveals the tile at **(10, 20)** has the specific type `WHIRLPOOL`.
+    - I must navigate North to Row 10, then West to Column 10, then South to reach it.
+- **Goal:** Reach (10, 19) and interact with the Whirlpool at (10, 20).
 
 # Plan
-1. Check interaction results.
-2. If text appears (Whirlpool prompt), Confirm.
-3. If no text, move back to search for another path (maybe check the far left channel again?).
+1. Navigate to (10, 19) via (14, 10) -> (10, 10).
+2. Interact with Whirlpool at (10, 20).
+3. Enter the inner area.
 
 # Tile Mechanics
-- **Whirlpool:** Obstacle.
-- **Buoy:** Obstacle.
+- **Whirlpool:** Obstacle. Located at (10, 20).
+- **Buoy:** Obstacle. (15, 23) is a Buoy.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
