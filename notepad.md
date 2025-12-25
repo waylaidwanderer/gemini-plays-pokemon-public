@@ -39,8 +39,8 @@
 - Start Turn: 19782
 - Start Time: Thursday, Dec 25, 4:24 AM
 - Failed Repel Attempts: ~26.
-- Repel Strategy: Navigate to Pack -> Items -> 12th Item (Super Repel). Verified in inventory.
-- Note (Turn 19852): Previous navigation failed because 'Up' from 'GEAR' wrapped to 'EXIT' or similar. Using 'Down' sequence for robustness.
+- Repel Strategy: Start -> Down (2) -> A (PACK) -> Down (11) -> A (Select) -> A (USE). Verified item is in 12th slot.
+- Note (Turn 19853): Main menu has 8 items, wrapping occurs. PACK is index 2.
 
 # Exploration Updates
 - Fruit Tree (12, 10) on Route 38: Verified empty on Turn 19818. Respawn mechanics unknown, likely daily.
