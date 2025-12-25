@@ -16,12 +16,13 @@
 - Status: B2F East Side (Navigating to Exit).
 - Goal: Exit Ice Path.
     - Path to Ladder (3, 15):
-        1. (Done) Navigate North/East from (3, 3) to (8, 4).
-        2. (Done) Slide Down from (8, 4) to (8, 8).
-        3. Navigate Left to (6, 8), then Slide Up to (6, 5).
-        4. Cross from (6, 5) to (3, 5) via Row 4 connection.
-        5. Walk to (3, 7), then Slide Down to (3, 14).
-        6. Take Ladder at (3, 15).
-- Note: (3, 4) Ledge blocked direct South movement. Using East route.
+        1. (Done) Navigate to (6, 8).
+        2. Slide Up to (6, 5).
+        3. Navigate to (3, 15) via:
+           - (6, 5) -> (6, 4) -> (5, 4) -> (4, 4) -> (4, 5) -> (3, 5).
+           - Walk to (3, 7).
+           - Slide Down to (3, 14).
+           - Take Ladder at (3, 15).
+- Note: (3, 4) is FLOOR_UP_WALL (Obstacle). Bypass via (4, 4).
 - Pits: N/A on this floor.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
