@@ -5,8 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (24, 23).
-- Status: Moving to (25, 22) to try adjacent whirlpool and break position loop.
-- Step 1: Right (Move to 25, 22).
-- Step 2: Down (Face 25, 23).
-- Step 3: A (Interact).
-- Step 4: A (Confirm if prompt appears).
+- Status: Attempting to interact with Whirlpool at (25, 23).
+- Step 1: A (Interact with tile in front).
+- Step 2: A (Confirm "Use Whirlpool" if prompt appears).
+- Step 3: A (Advance text).
+- Step 4: If successful, move Down.
