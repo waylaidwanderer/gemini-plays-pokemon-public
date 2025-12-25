@@ -1,12 +1,20 @@
 # Suicune Quest Strategy (Crystal)
-- Status: Triggering Route 42 flee event (Island at 24, 13).
+- Status: Triggering Route 42 flee event (Island at 24, 13). Started search at Turn 19082.
 - Next: Stationary battle at Tin Tower 1F.
 - Requirements: Clear Bell (In Bag), Wise Trio defeated (Done).
 
 # Battle Prep: Suicune (Stationary)
 - Strategy: Hypnosis (XENON Lv21) -> Weaken (GNEISS Lv44).
 - Resources: 1 Ultra Ball, 23 Great Balls. Need more Ultra Balls/Funds.
-- Funding: Sell Fire/Water Stones if needed; clear Route 42/44 trainers.
+- Funding: 
+    1. Sell Fire Stone & Water Stone at Ecruteak Mart (Payout: ¥2100).
+    2. Defeat remaining trainers on Route 42 and Route 44 for prize money.
+    3. Current funds: ¥273. Goal: ~¥12,000 for 10 Ultra Balls.
+
+# Systematic Island Sweep (Route 42)
+- Objective: Step on the trigger tile for the Suicune overworld event.
+- Reachable Tiles: (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
+- Method: Walk through each coordinate group until event triggers.
 
 # Tile Mechanics (Global)
 - LEDGE_HOP_DOWN/RIGHT: One-way movement.
@@ -20,13 +28,3 @@
 
 # PC Storage (Box 1)
 - RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
-
-# Reachable Island Tiles (Route 42)
-- (20, 10-11), (21, 10-11), (22, 10-12), (23, 10-12), (24, 10-14), (25, 10-12, 14-15), (26, 10-12, 14-17), (27, 10-12, 14-15, 17), (28, 10-12, 15, 17), (29, 10-11, 15, 17), (30, 10-11, 15-17).
-
-# Funding & Prep
-- Nearest Mart: Ecruteak City.
-- Items to Sell: Fire Stone (¥1050), Water Stone (¥1050).
-- Goal: Buy ~10 Ultra Balls (¥1200 each). Total needed: ~¥12,000.
-- Strategy: Clear Route 42/44 trainers for cash. Current funds: ¥273.
-- Turn 19111: Starting systematic island sweep. Missing tree sprites investigated.
