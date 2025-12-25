@@ -161,3 +161,10 @@
 - **Sequence:** `B` (Close Party) -> `B` (Close Start) -> `Down` (Face Whirlpool).
 - **Tool:** `slow_press` with 800ms delay to prevent input eating.
 - **Next Turn:** Verify `Facing: Down`, then press `A` to interact.
+
+# Action Plan (Turn 18165)
+- **Status:** Overworld, Facing Down (Correct).
+- **Goal:** Use Whirlpool.
+- **Method:** Start Menu -> Pokemon -> Lapis -> Whirlpool.
+- **Step 1:** Open Start Menu (`Start`).
+- **Reasoning:** 'A' interaction has been unreliable. Menu is the deterministic path. Opening menu first to verify cursor position before proceeding.
