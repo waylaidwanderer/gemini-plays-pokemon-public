@@ -20,9 +20,9 @@
 - LONG_GRASS: Traversable, low encounter rate.
 - TALL_GRASS: Traversable, higher encounter rate.
 - WARP_CARPET: Traversable, map transition.
-- LEDGE_HOP_DOWN: One-way (Down).
-- LEDGE_HOP_LEFT: One-way (Left).
-- LEDGE_HOP_RIGHT: One-way (Right).
+- LEDGE_HOP_DOWN: One-way (Down), traversable.
+- LEDGE_HOP_LEFT: One-way (Left), traversable.
+- LEDGE_HOP_RIGHT: One-way (Right), traversable.
 - HEADBUTT_TREE: Impassable, Headbutt for encounters.
 
 # Resources & PC Inventory
