@@ -30,7 +30,7 @@
 # Plan: Fly to Olivine City to reach Route 38 Western Ledge
 - Start Turn: 20771
 - Step 1: Open PKMN menu and select Icarus (PIDGEY).
-- Step 2: Use FLY.
+- Step 2: Use FLY. (Failed once, landed in Cherrygrove Turn 20776)
 - Step 3: Select Olivine City on the map.
 - Step 4: Walk North through Route 39 to Route 38 (X=0-7).
 - Step 5: Approach (3, 10) on Route 38 to trigger Suicune.
