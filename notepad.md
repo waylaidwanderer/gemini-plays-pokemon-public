@@ -34,7 +34,7 @@
 # Repetitive Task Tracking
 - Task: Pacing on Route 37 for Suicune encounter.
 - Start Turn: 19242.
-- Current Step Count (Approx): 150.
+- Current Step Count (Approx): 160.
 - Strategy: Pace 10 steps, then resume. Re-check Pokedex every 50 steps or if Repel ends.
-- Repel Status: 1 used, ~50 steps remaining on current spray.
-- Last Pokedex Check: Step 150 (Turn 19273). Checking now.
+- Repel Status: 1 used, ~40 steps remaining on current spray.
+- Last Pokedex Check: Step 150 (Turn 19273). Suicune confirmed on Route 37.
