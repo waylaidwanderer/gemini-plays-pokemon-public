@@ -7,13 +7,11 @@
 
 ## Execution Plan
 1.  **Navigate to (11, 8) via Long Loop (Corrected):**
-    - **Step 1:** Go to (5, 2) via Top Left. DONE.
-    - **Step 2:** Slide South to (5, 9). DONE.
-    - **Step 3:** Move Right to (9, 9). DONE.
-    - **Step 4:** Move South to (9, 16). DONE.
-    - **Step 5:** Slide East to (18, 16). (Action: Sliding Right)
+    - **Step 1-4:** Navigate South past B3. DONE.
+    - **Step 5:** Slide East to (18, 16). DONE.
     - **Step 6:** Navigate North/West to (11, 8).
-      - Path: (18, 16) -> ... -> (11, 8).
+      - **Correction:** Blockage detected at (17, 15). Route via Col 18.
+      - Path: (17, 16) -> (18, 16) -> (18, 14) -> (17, 14) -> (12, 11) -> (12, 8) -> (11, 8).
 2.  **Solve B1:**
     - Push Up to (11, 5).
     - Go around to (12, 5). Push Left to (10, 5).
