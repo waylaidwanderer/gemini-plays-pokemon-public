@@ -6,7 +6,7 @@
 - Task Started: Turn 19782, 2025-12-25 05:42 AM PST.
 
 # Side Quests & Rematches
-- Quick Claw: National Park (18, 12) in the northeast section (Lady with Persian).
+- Quick Claw: National Park (27, 12) in the northeast section (Lady with Persian).
 - Yanma Swarm: Route 35 (Arnie).
 - Schoolboy Alan: Route 36 (Rematch).
 
