@@ -1,6 +1,5 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
-- Route 42 Trigger: Approach Suicune on Route 42. Check island and eastern mainland.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Tile Mechanics (Verified)
@@ -40,17 +39,12 @@
 - Ledge Pocket (Hazard): (8, 14) to (23, 14). Entrance is via ledge hop down from northern path. Exit requires Fly or walking east/west to dead ends.
 - Ledge Traversability: Tiles at (11, 13) to (20, 13) are LEDGE_HOP_DOWN (one-way). Do not step on them from the north (Row 12).
 - Suicune Trigger: Suicune is spotted on the ledge. Approach to trigger flee. Avoid jumping down until Suicune is seen.
+- Fence Gap: Located at (3, 10). Use this to cross between eastern and western sections.
 
 # Suicune Hunt Progress
 - Started Hunt: Turn 20127
 - Goal: Trigger flee on Route 38.
-- Status: Searching western section. Currently at Turn 20179. Abandoned Repel due to repeated menu failures (9 attempts). Strategy: Close menu and move to (12, 11) to locate Suicune on the ledge.
+- Status: Searching western section. Currently at Turn 20185. Strategy: Move west through fence gap at (3, 10).
 - Sighting #4: Route 38. Suicune is on the ledge near the farm. Approach to trigger flee.
 - Sighting #5: Route 14.
 - Final: Tin Tower. Clear Bell (In inventory) required.
-
-# Route 38 Layout
-- Eastern/Western Divide: A fence/wall exists at x=3.
-- Passage: A gap in the fence exists between Row 8 and Row 11. Use this to travel between sections.
-- Moomoo Farm: Located at the far west end (Route 39).
-- Suicune: Usually appears on the ledge area in the western half of Route 38.
