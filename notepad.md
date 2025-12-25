@@ -47,12 +47,10 @@
 - Suicune Trigger: Suicune is spotted on the ledge. Approach to trigger flee. Avoid jumping down until Suicune is seen.
 - Fence Gap: Located at (3, 10). Use this to cross between eastern and western sections.
 
-# Suicune Hunt Progress
-- Goal: Trigger flee on Route 38.
-- Strategy: Navigate through the fence gap at (3, 10) on Route 38 to reach the western section. Locate Suicune standing on the ledge overlooking the path.
-- Sighting #4: Route 38. Suicune is on the ledge.
-- Sighting #5: Route 14.
-- Final: Tin Tower. Clear Bell (In inventory) required.
+# Suicune Hunt Strategy
+- Sequence: Route 38 (Ledge) -> Route 14 -> Tin Tower (Final).
+- Route 38: Use the fence gap at (3, 10) to reach the western section. Suicune stands on the ledge overlooking the northern path. Approach from the west/farm side or the gap to trigger flee.
+- Tin Tower: Requires Clear Bell (in inventory) to trigger the stationary encounter.
 
 # Menu Navigation Lessons
 - Cursor Persistence: The Party and Pack menus remember the last selected item. Always verify the cursor position before pressing A to avoid using the wrong item or Pokémon (e.g., using Strength instead of Fly).
