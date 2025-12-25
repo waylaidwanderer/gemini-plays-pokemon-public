@@ -56,6 +56,6 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Puzzle Status: Boulder 2 pushed to (3, 1). Path to (2, 2) is clear.
-- Action: Moving to (2, 2).
-- Next: Push Boulder 1 (2, 3) South into Pit (2, 5).
+- Puzzle Status: Player at (2, 2). Boulder 1 at (2, 3).
+- Action: Pushing Boulder 1 South into Pit (2, 5).
+- Next: Check if boulder falls, then descend to 1F to verify path to Clair.
