@@ -24,9 +24,9 @@
 - Insight: "Facing: up" in GameState confirms alignment issue. Menu usage failed because of this.
 - Plan: Close All Menus (B, B), Face DOWN (Down), then Restart Menu Sequence.
 - Requirement: Must face BUOY/Whirlpool to use HM.
-- Status: In Party Menu (Muscle Selected). Facing UP.
-- Action: Exit All Menus -> Face DOWN -> Re-open Menu -> Select Lapis -> Use Whirlpool.
-- Sequence: B (Exit Sub) -> B (Exit Party) -> B (Exit Main) -> Down (Face Whirlpool) -> Start (Open Menu) -> A (Select Pokemon) -> Up (Select Lapis) -> A (Open Submenu).
-- Note: Whirlpool requires Glacier Badge (Have it) and Facing the tile (Down).
-- Target: Whirlpool at (24, 23). Player at (24, 22).
+- Status: In Muscle's Submenu (Slot 4). Facing UP.
+- Action: Full Menu Reset -> Face DOWN -> Select Lapis (Slot 3).
+- Sequence: B, B, B (To Overworld) -> Down (Face Whirlpool) -> Start -> A -> Down, Down (Slot 3) -> A.
+- Note: Previous attempt failed to change facing direction. Adding explicit reset.
+- Target: Whirlpool at (24, 23).
 - Whirlpool Location: (24, 23).
