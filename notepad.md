@@ -4,18 +4,17 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Surf East from New Bark Town.
 
-# Current Status (Turn 18551)
-- **Location:** Elm's Lab (5, 3).
-- **Activity:** Leaving Lab.
-- **Goal:** Head to Kanto/Indigo Plateau.
-- **Context:** Obtained Master Ball. Gyarados has Surf/Waterfall.
+# Current Status (Turn 18553)
+- **Location:** New Bark Town (6, 4).
+- **Activity:** Walking to water edge.
+- **Goal:** Surf East to Route 27.
+- **Context:** Master Ball obtained. Gyarados has Surf.
 
 # Plan
-1. Exit Elm's Lab.
-2. Surf East from New Bark Town (Water edge is to the right).
-3. Enter Route 27.
-4. Enter Tohjo Falls (Requires Waterfall).
-5. Navigate Victory Road.
+1. Walk to water's edge (East side of town).
+2. Surf East to Route 27.
+3. Enter Tohjo Falls.
+4. Navigate Victory Road.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
