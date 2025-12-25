@@ -1,28 +1,27 @@
 # Suicune Hunt Strategy (Crystal)
-- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 (Northern strip) and will not move until approached.
-- Route: Enter Route 38 (0, 6) from Route 39 (19, 6).
+- Status: SCRIPTED (Sighting #4). Suicune is stationary on Route 38 and will not move until approached.
+- Strategy: Trigger flee on Route 38, then battle at Tin Tower.
 - Battle Plan: 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
 
 # Quick Claw Quest
 - NPC: Teacher sitting on a bench.
 - Hypothesis: NPC located at (16, 12) in National Park (Source: expert agent).
-- Note: Return during the day to verify hypothesis.
+- Note: Return during the day to verify.
 
 # Swarms & Rematches
 - Yanma Swarm: Route 35 (Arnie). Triggered Turn 19540.
 - Schoolboy Alan: Route 36 (Rematch).
 
 # Tile Mechanics (Verified)
-- FLOOR: Traversable.
 - WALL: Impassable.
-- LONG_GRASS: Traversable, low encounter rate.
-- TALL_GRASS: Traversable, higher encounter rate.
-- WARP_CARPET: Traversable, map transition.
-- LEDGE_HOP_DOWN: Traversable, one-way (Down).
-- LEDGE_HOP_LEFT: Traversable, one-way (Left).
-- LEDGE_HOP_RIGHT: Traversable, one-way (Right).
+- LONG_GRASS: Low encounter rate.
+- TALL_GRASS: Higher encounter rate.
+- WARP_CARPET: Map transition.
+- LEDGE_HOP_DOWN: One-way (Down).
+- LEDGE_HOP_LEFT: One-way (Left).
+- LEDGE_HOP_RIGHT: One-way (Right).
 - HEADBUTT_TREE: Impassable, Headbutt for encounters.
-- DOOR: Traversable, map transition.
+- DOOR: Map transition.
 
 # Lessons Learned
 - NPC Verification: Never trust agent coordinates over the Game State 'Map Objects On Screen' list.
