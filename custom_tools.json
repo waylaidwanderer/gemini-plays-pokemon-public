@@ -182,91 +182,6 @@
       }
     ]
   },
-  "navigate_fly_map": {
-    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target. Includes pauses between presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_city": {
-          "type": "string",
-          "enum": [
-            "NEW BARK TOWN",
-            "CHERRYGROVE CITY",
-            "VIOLET CITY",
-            "AZALEA TOWN",
-            "GOLDENROD CITY",
-            "ECRUTEAK CITY",
-            "OLIVINE CITY",
-            "CIANWOOD CITY",
-            "MAHOGANY TOWN",
-            "BLACKTHORN CITY"
-          ]
-        },
-        "target_city": {
-          "type": "string",
-          "enum": [
-            "NEW BARK TOWN",
-            "CHERRYGROVE CITY",
-            "VIOLET CITY",
-            "AZALEA TOWN",
-            "GOLDENROD CITY",
-            "ECRUTEAK CITY",
-            "OLIVINE CITY",
-            "CIANWOOD CITY",
-            "MAHOGANY TOWN",
-            "BLACKTHORN CITY"
-          ]
-        }
-      },
-      "required": [
-        "current_city",
-        "target_city"
-      ]
-    },
-    "python_script": "import json\n\ndef solve():\n    current_city = input_data[\"current_city\"]\n    target_city = input_data[\"target_city\"]\n    \n    # Johto Fly Map Layout (x, y)\n    # Row 0: Cianwood(0,0) - Olivine(1,0) - Ecruteak(2,0) - Mahogany(3,0) - Blackthorn(4,0)\n    # Row 1:                 Goldenrod(1,1) - Violet(2,1) - Cherrygrove(3,1) - New Bark(4,1)\n    # Row 2:                                  Azalea(2,2)\n    \n    grid = {\n        \"CIANWOOD CITY\": (0, 0),\n        \"OLIVINE CITY\": (1, 0),\n        \"ECRUTEAK CITY\": (2, 0),\n        \"MAHOGANY TOWN\": (3, 0),\n        \"BLACKTHORN CITY\": (4, 0),\n        \"GOLDENROD CITY\": (1, 1),\n        \"VIOLET CITY\": (2, 1),\n        \"CHERRYGROVE CITY\": (3, 1),\n        \"NEW BARK TOWN\": (4, 1),\n        \"AZALEA TOWN\": (2, 2)\n    }\n    \n    start = grid[current_city]\n    end = grid[target_city]\n    \n    buttons = []\n    dx = end[0] - start[0]\n    dy = end[1] - start[1]\n    \n    # Move horizontally\n    if dx > 0: buttons.extend([\"Right\"] * dx)\n    elif dx < 0: buttons.extend([\"Left\"] * abs(dx))\n    \n    # Move vertically\n    if dy > 0: buttons.extend([\"Down\"] * dy)\n    elif dy < 0: buttons.extend([\"Up\"] * abs(dy))\n    \n    final_buttons = []\n    for b in buttons:\n        final_buttons.append(b)\n        final_buttons.append(\"sleep 500\")\n    final_buttons.append(\"A\")\n    \n    print(json.dumps(final_buttons))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T14:06:36.256Z",
-        "action_counter": 17301
-      },
-      {
-        "commit_message": "Fixed IndexError by using a dictionary-based adjacency map and safer enumeration. Updated Johto FLY map connections based on observed cursor behavior.",
-        "timestamp": "2025-12-24T14:21:17.157Z",
-        "action_counter": 17342
-      },
-      {
-        "commit_message": "Refined FLY map navigation to use the linear vertical cycle (Up/Down) based on observed behavior (New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak).",
-        "timestamp": "2025-12-24T14:48:39.533Z",
-        "action_counter": 17401
-      },
-      {
-        "commit_message": "Fix navigate_fly_map to handle the case where the target city is the same as the current city by returning ['A'].",
-        "timestamp": "2025-12-25T05:29:01.372Z",
-        "action_counter": 19051
-      },
-      {
-        "commit_message": "Added sleep commands and explicit Johto city order to improve reliability.",
-        "timestamp": "2025-12-25T14:03:25.801Z",
-        "action_counter": 19924
-      },
-      {
-        "commit_message": "Fixing IndexError in navigate_fly_map by using a more robust distance calculation and ensuring city names match the schema exactly. Added error handling.",
-        "timestamp": "2025-12-25T14:53:07.376Z",
-        "action_counter": 19996
-      },
-      {
-        "commit_message": "Refined Johto Fly map grid coordinates to correct the Olivine -> Ecruteak direction and other relative city positions.",
-        "timestamp": "2025-12-25T20:13:11.924Z",
-        "action_counter": 20522
-      },
-      {
-        "commit_message": "Refined Johto Fly map grid coordinates to correct the Olivine -> Ecruteak direction and other relative city positions.",
-        "timestamp": "2025-12-25T20:36:15.426Z",
-        "action_counter": 20546
-      }
-    ]
-  },
   "navigate_fly_map_v2": {
     "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target. Includes pauses between presses.",
     "input_schema": {
@@ -371,6 +286,32 @@
         "commit_message": "Added robust input handling and ensured JSON output for menu navigation.",
         "timestamp": "2025-12-25T17:40:42.715Z",
         "action_counter": 20282
+      }
+    ]
+  },
+  "navigate_menu_v3_fixed": {
+    "description": "Executes a sequence of button presses for menu navigation, starting with a 4-press 'B' reset to clear any open menus or dialogue and ensure a consistent starting state. Use for navigating deep menus where cursor persistence might be an issue.",
+    "input_schema": {
+      "properties": {
+        "buttons": {
+          "description": "The sequence of buttons and/or 'sleep <ms>' commands to execute.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        line = sys.stdin.read()\n        if not line:\n            print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n            return\n        input_data = json.loads(line)\n        buttons = input_data.get(\"buttons\", [])\n        reset_sequence = [\"B\", \"B\", \"B\", \"B\", \"sleep 200\"]\n        print(json.dumps(reset_sequence + buttons))\n    except Exception as e:\n        print(json.dumps([\"B\", \"B\", \"B\", \"B\"]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-25T21:51:56.738Z",
+        "action_counter": 20672
       }
     ]
   }
