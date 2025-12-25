@@ -1,7 +1,7 @@
 # Blackthorn City Strategy
 
 - **Goal:** Earn Rising Badge (Clair).
-- **Immediate:** Locate Pokemon Center & Heal.
+- **Immediate:** Find Blackthorn Gym.
 - **Next:** Clear Bag Space, Challenge Gym.
 
 # Tile Mechanics
