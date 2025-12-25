@@ -35,3 +35,17 @@
 - FULL HEAL (¥600)
 - POKé DOLL (¥1000)
 - FLOWER MAIL (¥50)
+
+# Goldenrod Dept. Store 2F Clerk (13, 5) Inventory:
+- POTION (¥300)
+- SUPER POTION (¥700)
+- ANTIDOTE (¥100)
+- PARLYZ HEAL (¥200)
+- AWAKENING (¥250)
+- BURN HEAL (¥250)
+- ICE HEAL (¥250)
+Verified: Super Repels NOT sold here.
+
+# Strategy Update
+- Goldenrod Dept. Store does not sell Super Repels at this stage.
+- Plan: Fly to Ecruteak City, check Mart for Super Repels, then hunt Suicune on Route 38.
