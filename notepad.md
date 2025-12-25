@@ -49,3 +49,17 @@
 - Down x4: Olivine City (Verified Turn 19597).
 - Down x3: Cianwood City (Verified Turn 19603).
 - Coordinates (National Park NPC): (34, 12) per agent.
+
+# Fly Map List Hypothesis (Turn 19605)
+1. New Bark Town
+2. Lake of Rage
+3. Mahogany Town
+4. Cianwood City
+5. Olivine City
+6. Ecruteak City
+7. Goldenrod City
+8. Azalea Town
+9. Violet City
+10. Cherrygrove City
+- Current: Lake of Rage.
+- Plan: Move Down until Goldenrod City is selected. Verify each step.
