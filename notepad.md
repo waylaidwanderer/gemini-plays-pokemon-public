@@ -23,3 +23,5 @@
 - **Exploration:** Ascended the waterfall in Tohjo Falls. Now exploring the upper level. (Turn 18586)
 - **Navigation:** Top level appears to be a water channel leading to a descending waterfall on the east side.
 - **Hypothesis:** The exit or access to the hidden northeast area is via the bottom-right section, accessible by descending the eastern waterfall. (Turn 18589)
+- **Reflection:** Performed mandatory reflection. Cleaned up warp markers. Prioritizing exit to reach Indigo Plateau.
+- **Exploration:** Reached the lower eastern landing of Tohjo Falls. Proceeding to exit. (Turn 18592)
