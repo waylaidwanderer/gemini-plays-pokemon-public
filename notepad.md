@@ -1,19 +1,20 @@
 # Strategic Objectives
 - **Primary:** Challenge the Pokémon League.
-- **Secondary:** Reach Tohjo Falls (Route 27).
+- **Secondary:** Reach Victory Road.
 - **Tertiary:** Train team for Victory Road.
-- **Immediate:** Surf East on Route 27.
+- **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18567)
-- **Location:** Route 27 (12, 9).
-- **Activity:** Surfing East.
-- **Goal:** Reach Tohjo Falls.
-- **Context:** Super Repel used. Path is clear.
+# Current Status (Turn 18747)
+- **Location:** Route 26 (10, 94).
+- **Activity:** Battling Fisher Scott.
+- **Team:** Muscle (Machoke Lv59) is active. Gyarados needs healing.
+- **Goal:** Defeat trainer, find Healer/Rest, Reach Victory Road Gate.
 
 # Plan
-1. Surf East to Route 27 (keep heading right).
-2. Enter Tohjo Falls.
-3. Navigate Victory Road.
+1. Defeat Fisher Scott.
+2. Heal party (Potions or find a house).
+3. Continue North on Route 26.
+4. Enter Victory Road.
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
