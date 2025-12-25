@@ -4,16 +4,17 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Fly to New Bark Town.
 
-# Current Status (Turn 18545)
-- **Location:** New Bark Town (13, 6).
-- **Activity:** Going to Elm's Lab.
-- **Goal:** Get Master Ball from Elm.
-- **Context:** Gyarados learned Surf (replaced Icy Wind).
+# Current Status (Turn 18548)
+- **Location:** Elm's Lab (4, 11).
+- **Activity:** Talking to Professor Elm.
+- **Goal:** Get Master Ball.
+- **Context:** Gyarados has Surf. Ready for the final leg.
 
 # Plan
-1. Go to Elm's Lab (6, 3).
-2. Get Master Ball from Elm.
-3. Surf East to Route 27 (Tohjo Falls).
+1. Talk to Prof. Elm (5, 2).
+2. Get Master Ball.
+3. Exit Lab.
+4. Surf East from New Bark to Route 27 (Tohjo Falls).
 
 # Tile Mechanics
 - **Whirlpool:** Obstacle. Requires HM06 + Badge.
