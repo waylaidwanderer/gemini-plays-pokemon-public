@@ -3,19 +3,22 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18293)
+# Current Status (Turn 18294)
 - **Location:** Dragon's Den B1F (24, 22).
 - **Facing:** Down (Verified).
-- **Action:** Resetting Menu State.
-- **Reasoning:** Previous attempt likely opened Pokedex instead of Party. Need to back out and verify cursor position.
-- **Sequence:** `B` x4 (Close all), `Start` (Open Main Menu).
+- **Menu State:** Main Menu Open, Cursor on POKEMON.
+- **Action:** Select Lapis to use Whirlpool.
+- **Sequence:**
+  1. `A` (Enter Party).
+  2. `Down`, `Down` (Highlight Lapis).
+  3. `A` (Select Lapis).
+  4. *Next Turn:* Select WHIRLPOOL from options.
 
 # Plan
-1. Reset Menu to Main Menu.
-2. Verify Cursor Position.
-3. Select POKEMON -> Lapis -> WHIRLPOOL.
-4. Cross Whirlpool.
-5. Navigate South to Dragon Shrine Entrance.
+1. Open Lapis's menu.
+2. Select WHIRLPOOL (Check if SURF is also listed).
+3. Cross Whirlpool.
+4. Navigate South to Dragon Shrine Entrance.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
