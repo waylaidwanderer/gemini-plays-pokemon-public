@@ -31,21 +31,6 @@
 - Up: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 - Down: 1 -> 10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2
 - Order: 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
-- Observation (Turn 19929): Starting at New Bark (1), Down x2 reached Mahogany (9). (1 -> 10 -> 9). Verified.
-- Strategy: From Mahogany (9), press Down x2 to reach Olivine (7). (9 -> 8 -> 7).
-
-# Strategy: Fly Navigation (Johto)
-- Attempt #20 (Turn 19929): Using chunked navigation (2 buttons at a time) to ensure state verification.
-- Verification: 2 Downs from New Bark should be Violet City.
-
-# Suicune Hunt Progress
-- Turn 19931: Successfully landed in Olivine City.
-- Current Step: Moving North through Olivine City to Route 39.
-- Target: Route 38 northern path (ledge).
-
-# Route 39 Exploration
-- Turn 19933: Entered Route 39 from Olivine City.
-- Goal: Reach (19, 8) to enter Route 38's northern path.
 
 # Pokedex Navigation Trick
 - To find Suicune (#245) quickly: Open Numerical Pokedex -> Press UP from #001 to wrap to #251 -> Press UP 6 more times (7 total UPs) to reach #245 Suicune.
