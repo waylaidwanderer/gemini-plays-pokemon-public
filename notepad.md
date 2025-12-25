@@ -15,12 +15,20 @@
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
 - Status: Solving B1F South Ice Puzzle.
 - Goal: Reach Ladder at (5, 25).
-    - Plan:
-        1. Slide Down from (17, 27) to (17, 29).
-        2. Slide Left to (14, 29).
-        3. Slide Down to (14, 33).
-        4. Slide Left to (11, 33) [South Landing].
-        5. Navigate from (11, 33) to Ladder at (5, 25).
+    - Solution Path (Part 1 - Done):
+        1. Down -> Left -> Down -> Left -> (11, 33) [Current].
+    - Solution Path (Part 2):
+        1. Slide Right to (15, 33).
+        2. Slide Up to (15, 29).
+        3. Slide Right to (19, 29).
+        4. Slide Down to (19, 33).
+        5. Slide Left to (17, 33).
+        6. Slide Up to (17, 31).
+        7. Slide Left to (13, 31).
+        8. Slide Up to (13, 30).
+        9. Slide Left to (11, 30).
+    - Walk:
+        10. Walk from (11, 30) to Ladder (5, 25).
 - Note: Ladder at (5, 25) leads to 1F East, which exits to Blackthorn.
 - Pits: N/A.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
