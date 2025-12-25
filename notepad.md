@@ -13,11 +13,10 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: Boulders Placed. Solving B2F Ice Puzzle.
-    - Stopped at (4, 8) by Boulder at (4, 7).
-    - Path to Ladder (9, 11):
-        1. Slide Right from (4, 8) to land on Floor at (8, 8).
-        2. Walk South/East on Floor island to Ladder (9, 11).
+- Status: B2F Ice Puzzle Solved.
+    - Overshot to (19, 8) but clear path back to center.
+    - Sliding Left from (19, 8) lands on Floor at (9, 8).
+    - Ladder at (9, 11) is accessible from (9, 8).
 - Goal: Exit Ice Path.
     - Take Ladder at (9, 11) to B1F/1F.
 - Note: The puzzle was simpler than expected once boulders were found.
