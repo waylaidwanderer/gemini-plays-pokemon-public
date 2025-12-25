@@ -13,13 +13,12 @@
 - **Immediate Goal:** Navigate East to `(11, 1)` to check for Boulder 3.
 - **Bag Status:** Full.
 - Observation: Blockage at (9, 10) was a wild encounter, not a boulder.
-- Status: B2F East Side (Navigating to Exit).
-- Goal: Exit Ice Path.
-    - Path to Ladder (3, 15):
-        1. (Done) Navigate to (6, 3) [Current Pos].
-        2. Navigate to (3, 7) via (6, 4) -> (4, 4) -> (3, 5).
-        3. Slide Down from (3, 7) to (3, 14).
-        4. Take Ladder at (3, 15).
-- Note: Bag is Full. Skipping Item Ball at (8, 16).
+- Status: Exiting Ice Path.
+- Goal: Reach Blackthorn City.
+    - Plan:
+        1. Slide Down from (3, 7) to (3, 14).
+        2. Take Ladder at (3, 15) to B1F.
+        3. Exit B1F to Blackthorn City.
+- Note: Bag is Full.
 - Pits: N/A on this floor.
 - Pits: `(11, 2)`, `(4, 7)`, `(5, 12)`, `(12, 13)` (Open).
