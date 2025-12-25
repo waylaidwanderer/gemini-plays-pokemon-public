@@ -65,12 +65,16 @@
   4. Push Boulder 4 East into Pit (8, 7).
 - Action: Ascending to 2F to execute this plan.
 - Strength Check: Map transition likely disabled Strength. Will verify and reactivate at (8, 13).
-- Puzzle Status: Boulder 4 complete. Boulder 3 stuck (sacrifice).
-- West Side Strategy:
-  1. Defeat Cooltrainer M at (4, 1).
-  2. Continue West to (2, 2) via Row 1.
-  3. Push Boulder 1 (2, 3) South into Pit (2, 5).
-  4. Navigate around to (3, 4) (via South/Col 0).
-  5. Push Boulder 2 (3, 3) North to (3, 1) -> East to (8, 1) -> South to Pit (8, 3).
-- Current Action: Battling Cooltrainer Cody's Seadra. Muscle has reduced Accuracy (-3 stages).
+- Puzzle Status: Boulder 4 in Pit. Cody defeated.
+- Strategy Update:
+  - Trainer at (4, 1) blocks Row 1 West access.
+  - Path to West Side: Must approach from South-West (3, 4).
+  - Path to East Side (B5): Must approach from South-East (Col 9).
+- Plan:
+  1. Test West movement (verify blockage).
+  2. Navigate South -> East -> North to (8, 1).
+  3. Push Boulder 5 (8, 2) South into Pit (8, 3).
+  4. Navigate South -> West to (3, 4).
+  5. Push Boulder 2 (3, 3) North to clear path.
+  6. Push Boulder 1 (2, 3) South into Pit (2, 5).
 - Puzzle Status: Boulder 4 complete. Boulder 3 stuck. West Side pending.
