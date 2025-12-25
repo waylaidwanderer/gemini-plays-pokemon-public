@@ -17,3 +17,5 @@
 # Archived: Ice Path
 - Solved. Exited via 1F East.
 - **Emy's House:** Located at (29, 23). Contains Lass (Emy?).
+- **Observation:** Row 28 (Cols 31-35) is blocked by a cliff/wall (`FLOOR_UP_WALL`).
+- **Pathing:** Must route West to Col 29 to proceed South.
