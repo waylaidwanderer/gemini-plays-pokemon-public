@@ -15,23 +15,19 @@
     - Always verify collision types (e.g., MART_SHELF, COUNTER) in pathfinding tools.
 - Goldenrod Dept. Store: 2F (Basic), 3F (Battle items), 4F (Vitamins), 5F (TMs).
 
-# Suicune Hunt Stats
-- Started: Turn 18348
-- Current Status: Roaming Johto.
-- Strategy: Mean Look with XENON (Lv21), Sleep, Ultra Balls.
-
-# Suicune Battle Plan
-- Lead: XENON (Lv21)
-- Turn 1: MEAN LOOK (prevent fleeing)
-- Turn 2+: HYPNOSIS (apply Sleep)
-- Goal: Lower HP carefully and use ULTRA BALLS.
-- Note: Suicune is Level 40. XENON is Level 21. Mean Look must hit before Suicune acts or it will flee.
-
 # Suicune Hunt Strategy
-- **Preparation**: Stock up on Super Repels (Ecruteak Mart) and lead with XENON (Lv21).
-- **Tracking**: Use the Pokedex AREA map after every map transition. Suicune moves whenever you change maps.
-- **Encounter Loop**: Move back and forth between Ecruteak City and Route 38. This triggers Suicune's movement.
-- **Catching**: When Suicune is on your current route, use a Super Repel (if XENON is leading) and search the grass. In battle, use MEAN LOOK immediately to prevent fleeing, then HYPNOSIS.
+- **Objective**: Catch Suicune (Level 40).
+- **Battle Plan**:
+    - Lead with XENON (Gastly, Lv21).
+    - Turn 1: MEAN LOOK (prevents fleeing).
+    - Turn 2+: HYPNOSIS (Sleep), then chip damage and ULTRA BALLS.
+    - Note: Mean Look must hit before Suicune acts.
+- **Encounter Loop**:
+    1. Check Pokedex AREA map.
+    2. Transition between a city and a route (e.g., Ecruteak and Route 38).
+    3. Suicune relocates every time you cross a map boundary.
+    4. When Suicune is on your current route, use a Super Repel and search the grass.
+- **Inventory Check**: Need Super Repels (available at Goldenrod Dept. Store).
 
 # PC Storage (Box 1)
 - RICOTTA (RATICATE 16), CINNABAR (GOLDEEN 21), VORTEX (POLIWAG 22), INTERCEPT (YANMA 12), ROCKY (ONIX 6), EGG (CLEFFA 5), XFDW (MEOWTH 16), FRITTATA (TOGEPI 5), SHUCKIE (SHUCKLE 15), Blarney (SUDOWOODO 20).
