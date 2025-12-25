@@ -53,3 +53,5 @@
 - Observed: Tiles (7, 6) and (7, 7) are labeled as Warps but do not trigger when walked on. They are likely Drop Zones from 2F.
 - Defeated Cooltrainer M at (6, 6).
 - Action: Ascend Ladder at (7, 9) to 2F.
+- Strength Status: Inactive. Must activate via Menu to move boulders.
+- Action: Opening Pokemon Menu to use Strength with Muscle.
