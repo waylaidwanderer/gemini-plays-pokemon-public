@@ -28,3 +28,16 @@
 
 # Fly Map Order (Johto)
 - New Bark, Cherrygrove, Violet, Azalea, Goldenrod, Ecruteak, Olivine, Cianwood, Mahogany, Blackthorn.
+
+# Timestamps & Throttling
+- Thursday 6:01 AM: Quick Claw NPC (National Park) is absent due to Bug-Catching Contest.
+- Navigation Throttle: Limiting menu sequences to 3 buttons + sleeps to ensure state verification.
+- Fly Map Check: 6th city is Olivine City. From Goldenrod (5th), it is 2 Downs? Wait.
+  1. New Bark
+  2. Cherrygrove
+  3. Violet
+  4. Azalea
+  5. Goldenrod
+  6. Ecruteak
+  7. Olivine
+  So from Goldenrod to Olivine is 2 Downs.

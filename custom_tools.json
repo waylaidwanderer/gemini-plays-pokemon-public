@@ -209,17 +209,39 @@
     ]
   },
   "navigate_fly_map": {
-    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target.",
+    "description": "Calculates the button sequence to move the cursor on the Johto FLY map between cities and selects the target. Includes pauses between presses.",
     "input_schema": {
       "type": "object",
       "properties": {
         "current_city": {
           "type": "string",
-          "description": "The city currently selected on the FLY map."
+          "enum": [
+            "NEW BARK TOWN",
+            "CHERRYGROVE CITY",
+            "VIOLET CITY",
+            "AZALEA TOWN",
+            "GOLDENROD CITY",
+            "ECRUTEAK CITY",
+            "OLIVINE CITY",
+            "CIANWOOD CITY",
+            "MAHOGANY TOWN",
+            "BLACKTHORN CITY"
+          ]
         },
         "target_city": {
           "type": "string",
-          "description": "The city you want to fly to."
+          "enum": [
+            "NEW BARK TOWN",
+            "CHERRYGROVE CITY",
+            "VIOLET CITY",
+            "AZALEA TOWN",
+            "GOLDENROD CITY",
+            "ECRUTEAK CITY",
+            "OLIVINE CITY",
+            "CIANWOOD CITY",
+            "MAHOGANY TOWN",
+            "BLACKTHORN CITY"
+          ]
         }
       },
       "required": [
@@ -227,7 +249,7 @@
         "target_city"
       ]
     },
-    "python_script": "import json\n\ncities = [\n    \"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \n    \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \n    \"MAHOGANY TOWN\", \"LAKE OF RAGE\", \"BLACKTHORN CITY\", \"MT. SILVER\", \"INDIGO PLATEAU\"\n]\n\ncurrent_city = input_data[\"current_city\"].upper()\ntarget_city = input_data[\"target_city\"].upper()\n\nif current_city not in cities or target_city not in cities:\n    print(json.dumps([]))\nelse:\n    curr_idx = cities.index(current_city)\n    target_idx = cities.index(target_city)\n    \n    diff = target_idx - curr_idx\n    buttons = []\n    \n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\nimport sys\n\ndef run(input_data):\n    cities = [\n        \"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\",\n        \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\",\n        \"MAHOGANY TOWN\", \"BLACKTHORN CITY\"\n    ]\n    \n    current_idx = cities.index(input_data['current_city'].upper())\n    target_idx = cities.index(input_data['target_city'].upper())\n    \n    diff = target_idx - current_idx\n    buttons = []\n    \n    if diff > 0:\n        for _ in range(diff):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 500\")\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.append(\"Up\")\n            buttons.append(\"sleep 500\")\n            \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    input_data = json.loads(sys.argv[1])\n    run(input_data)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -248,6 +270,11 @@
         "commit_message": "Fix navigate_fly_map to handle the case where the target city is the same as the current city by returning ['A'].",
         "timestamp": "2025-12-25T05:29:01.372Z",
         "action_counter": 19051
+      },
+      {
+        "commit_message": "Added sleep commands and explicit Johto city order to improve reliability.",
+        "timestamp": "2025-12-25T14:03:25.801Z",
+        "action_counter": 19924
       }
     ]
   },
@@ -290,64 +317,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-25T05:05:01.584Z",
         "action_counter": 19003
-      }
-    ]
-  },
-  "pace_grass_v1": {
-    "description": "Generates button presses to pace back and forth between (6, 2) and (7, 2) on Route 37 to trigger encounters. Respects num_steps.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "num_steps": {
-          "type": "integer",
-          "description": "Number of steps to pace."
-        }
-      },
-      "required": [
-        "num_steps"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ntry:\n    raw = sys.stdin.read()\n    data = json.loads(raw) if raw else {}\n    n = int(data.get(\"num_steps\", 10))\n    res = []\n    for i in range(n):\n        res.append(\"Right\" if i % 2 == 0 else \"Left\")\n    print(json.dumps(res))\nexcept Exception:\n    print(json.dumps([\"Right\", \"Left\"] * 5))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-25T07:29:44.875Z",
-        "action_counter": 19291
-      },
-      {
-        "commit_message": "Refined to handle empty input and improved button sequence.",
-        "timestamp": "2025-12-25T07:30:36.661Z",
-        "action_counter": 19293
-      },
-      {
-        "commit_message": "Robust input handling for pace_grass_v1.",
-        "timestamp": "2025-12-25T07:31:20.926Z",
-        "action_counter": 19294
-      },
-      {
-        "commit_message": "Fixing logic to respect num_steps and pace specifically between (6, 2) and (7, 2) to stay in tall grass.",
-        "timestamp": "2025-12-25T08:04:40.635Z",
-        "action_counter": 19352
-      },
-      {
-        "commit_message": "Simplifying logic for reliability and ensuring it paces between (6, 2) and (7, 2).",
-        "timestamp": "2025-12-25T08:05:01.892Z",
-        "action_counter": 19353
-      },
-      {
-        "commit_message": "Removing if __name__ block and ensuring clean JSON output for pace_grass_v1.",
-        "timestamp": "2025-12-25T08:05:23.029Z",
-        "action_counter": 19354
-      },
-      {
-        "commit_message": "Refining pace_grass_v1 to be more robust and strictly alternate between Right and Left to stay in the grass at (6, 2) and (7, 2).",
-        "timestamp": "2025-12-25T08:06:03.749Z",
-        "action_counter": 19355
-      },
-      {
-        "commit_message": "Simplifying pace_grass_v1 to top-level code to ensure it correctly parses num_steps and generates the requested number of buttons.",
-        "timestamp": "2025-12-25T08:16:42.865Z",
-        "action_counter": 19379
       }
     ]
   }
