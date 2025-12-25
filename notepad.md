@@ -12,7 +12,7 @@
 
 # Quick Claw Quest
 - Location: National Park.
-- NPC: Lady on a bench in the northeast area.
+- NPC: Woman on a bench in the northeast section.
 - Access: Enter National Park from Route 35 (3, 5).
 
 # Tile Mechanics (Verified)
@@ -39,15 +39,11 @@
 
 # Error Analysis & Lessons
 - Hallucination Warning: Do not trust memory for coordinates. Use item_locator_agent.
-- Stagnation: 40 turns lost to menu fumbling in Olivine City. Fixed the loop by recognizing the cursor starts on PACK.
+- Stagnation: Fixed the loop by recognizing the cursor starts on PACK.
 - Roaming Tracking: Suicune moves every time the player crosses a map boundary. Pokedex checks are snapshots.
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
 - Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town (Hypothesis).
 - Strength Usage: Accidentally used Strength instead of Fly because the cursor was on GNEISS. Always verify selection.
-
-# Task Progress
-- Quick Claw Search: In progress.
-- Suicune Tracking: Roaming. Last seen on Route 38.
 
 # Swarms
 - Yanma: Route 35 (Reported by Arnie).
