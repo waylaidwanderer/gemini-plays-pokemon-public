@@ -5,8 +5,8 @@
 
 # Current Task
 - Objective: Cross Whirlpool at (15, 23).
-- Status: Selecting Lapis in Party Menu.
-- Step 1: Open Menu (Start) [Done].
-- Step 2: Select POKEMON (Down, A).
-- Step 3: Select Lapis (Down, Down, A).
-- Step 4: Select Whirlpool.
+- Status: Selecting Lapis in Party Menu via slow_press.
+- Step 1: Open Party Menu (A).
+- Step 2: Navigate to Lapis (Down, Down).
+- Step 3: Select Lapis (A).
+- Step 4: Select Whirlpool from the submenu.
