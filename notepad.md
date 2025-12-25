@@ -1,6 +1,7 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower.
 - Battle Plan (Tin Tower): 1. Hypnosis, 2. Night Shade (Fixed 21 dmg), 3. Catch.
+- Hunt started Turn 20250.
 
 # Tile Mechanics (Verified)
 - WALL: Impassable.
@@ -17,12 +18,17 @@
 - CUT_TREE: Requires CUT to remove.
 - WATER: Requires SURF to traverse.
 - TOWN_MAP / WINDOW / BOOKSHELF / TV / RADIO: Background objects.
+- Fences: Act as WALL tiles. Gaps at (3, 8) and (3, 11) allow passage between Route 38 strips.
+
+# Route 38/39 Mechanics
+- Valley Trap: (8, 12) area is blocked north by ledges. Exit south or Fly.
+- Ledge Pocket: (12, 14) area requires Fly to exit.
+- Moomoo Farm: (3, 7) on Route 39 leads to farmhouse.
 
 # Lessons Learned
-- Pokedex Navigation: Wrapping from #001 to #251 is faster, but requires 6 more UP presses to reach #245 (Suicune).
-- Menu Buffering: Avoid mixing directional and action buttons too quickly.
-- Route 38 Hazards: "Ledge pocket" between (8, 14) and (23, 14). Entrance is via ledge hop down (Row 13). Exit requires Fly. "Valley Trap" between x=7 and x=10 (Row 12) is a dead end North.
-- Menu Mechanics: Always verify cursor position in Party/Pack menus due to cursor persistence. Use a "B-reset" (press B 4 times) before navigating deep menus. (Turn 20143: Cursor persistence caused accidental Strength use instead of Fly).
+- Pokedex Navigation: Wrapping from #001 to #251 is faster.
+- Menu Mechanics: Use a "B-reset" (press B 4 times) before navigating deep menus to clear cursor persistence.
+- Hallucination Warning: Beauty Olivia (5, 8) is NOT Suicune.
 
 # Side Quests
 - Quick Claw: National Park (16, 12). Talk to Teacher on bench in NE section.
@@ -31,20 +37,3 @@
 
 # Resources
 - Clear Bell: In Key Items. Required for Tin Tower.
-
-# Suicune Hunt Strategy
-- Sighting #4: Route 38. Suicune is on the western ledge near Moomoo Farm. Approach from the west (Route 39).
-- Sighting #5: Route 14.
-- Final Encounter: Tin Tower. Clear Bell is in inventory.
-
-# Navigation: Olivine City North Path
-- Row 14 is a solid wall from X=14 to X=21.
-- Pass through Row 14 via gaps at X=4, X=8-9, or X=22-23.
-- X=22-23 is blocked north of Row 14 by Row 9-13 walls.
-- Recommended Path:
-  1. Reach Row 16 (horizontal road from X=6 to X=23).
-  2. Move to X=8 at Row 16.
-  3. Move North through Row 14 gap at X=8.
-  4. Move North to Row 12 (horizontal road from X=6 to X=21).
-  5. Move Right to X=18 at Row 12.
-  6. Move North at X=18 to reach the exit at (21, 0).
