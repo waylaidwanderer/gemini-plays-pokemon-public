@@ -29,6 +29,7 @@
 # Resources & PC
 - Balls: 1 Ultra, 23 Great, 2 Poke.
 - Items: 3 Super Repels.
+- PC Box Status: 10/20.
 - PC Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Menu Navigation & Fly Map Defaults
@@ -44,9 +45,6 @@
 - Menu Wrapping: The main menu wraps around. Using "Up" from POKEDEX goes to EXIT. Using "Up" from POKEMON goes to POKEDEX.
 - Fly Map Logic: navigate_fly_map requires cursor position and target. In Olivine, it starts on New Bark Town (Hypothesis).
 - Strength Usage: Accidentally used Strength instead of Fly because the cursor was on GNEISS. Always verify selection.
-
-# Swarms
-- Yanma: Route 35 (Reported by Arnie).
 
 # Swarms
 - Yanma: Route 35 (Reported by Arnie).
