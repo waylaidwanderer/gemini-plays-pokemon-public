@@ -42,3 +42,19 @@
 - Tin Tower: Stationary battle completed.
 - Seen: Cianwood, Route 42.
 - Suicune Log: Confirmed on Route 38 (Turn 19433).
+
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Traversable with Surf.
+- DOOR: Warp.
+- WARP_CARPET_DOWN: Warp.
+- BUOY: Impassable (Olivine City).
+- TALL_GRASS: Traversable, encounters.
+- HEADBUTT_TREE: Impassable, can be headbutted.
+- LEDGE_HOP_DOWN: One-way Down.
+- CUT_TREE: Impassable, removable with Cut.
+
+# Task Progress
+- Quick Claw Quest started: Turn 19471.
+- Suicune Log: Confirmed on Route 38 (Turn 19433).
