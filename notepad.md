@@ -32,3 +32,5 @@
 - Menu Mechanics: Use single button presses or "B-reset" (press B 4 times) for deep menus to avoid cursor persistence errors.
 - Suicune Tracking: Overworld sightings don't register in Pokedex. Tracking is impossible until roaming starts after Tin Tower.
 - False Constraints: Don't assume you can walk back to missed spots on routes with ledges. Pivot to Fly immediately.
+- Bug Catching Contest: Active today (Thursday). May affect National Park access.
+- Suicune Sighting #4: Approach Route 38 Top Lane from Ecruteak. Walk West to X=0-2 strip near Miltank farm.
