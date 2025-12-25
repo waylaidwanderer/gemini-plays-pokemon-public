@@ -23,3 +23,9 @@
 
 # PC Storage (Box 1)
 - RICOTTA (Raticate 16), CINNABAR (Goldeen 21), VORTEX (Poliwag 22), INTERCEPT (Yanma 12), ROCKY (Onix 6), EGG (CleFFA 5), XFDW (Meowth 16), FRITTATA (Togepi 5), SHUCKIE (Shuckle 15), Blarney (Sudowoodo 20).
+
+# Lessons Learned
+- Always verify collision types (e.g., MART_SHELF, COUNTER) in pathfinding tools.
+- Phone calls interrupt movement; wait for "Click!" or "……" to end before resuming.
+- Goldenrod Dept. Store: 2F usually sells basic trainer items (Potions, Repels). 3F sells battle items (X Attack, etc.). 4F sells vitamins. 5F sells TMs.
+- To interact with clerks behind counters, face the counter tile and press A.
