@@ -5,9 +5,9 @@
 - Task Started: Turn 19782, 2025-12-25 05:42 AM PST.
 
 # Side Quests & Rematches
-- Quick Claw: National Park (27, 12) in the northeast section (Lady with Persian).
-- Yanma Swarm: Route 35 (Arnie).
-- Schoolboy Alan: Route 36 (Rematch).
+- Quick Claw: National Park (27, 12) in the northeast section (Lady with Persian). Absent during Bug-Catching Contest (Tue, Thu, Sat).
+- Yanma Swarm: Caught (Turn 19612).
+- Schoolboy Alan: Route 36 (Rematch available?).
 
 # Tile Mechanics (Verified)
 - WALL: Impassable.
@@ -27,17 +27,4 @@
 - Clear Bell: In Key Items. Required for Suicune at Tin Tower.
 
 # Fly Map Order (Johto)
-- New Bark, Cherrygrove, Violet, Azalea, Goldenrod, Ecruteak, Olivine, Cianwood, Mahogany, Blackthorn.
-
-# Timestamps & Throttling
-- Thursday 6:01 AM: Quick Claw NPC (National Park) is absent due to Bug-Catching Contest.
-- Navigation Throttle: Limiting menu sequences to 3 buttons + sleeps to ensure state verification.
-- Fly Map Check: 6th city is Olivine City. From Goldenrod (5th), it is 2 Downs? Wait.
-  1. New Bark
-  2. Cherrygrove
-  3. Violet
-  4. Azalea
-  5. Goldenrod
-  6. Ecruteak
-  7. Olivine
-  So from Goldenrod to Olivine is 2 Downs.
+- 1. New Bark, 2. Cherrygrove, 3. Violet, 4. Azalea, 5. Goldenrod, 6. Ecruteak, 7. Olivine, 8. Cianwood, 9. Mahogany, 10. Blackthorn.
