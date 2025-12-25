@@ -20,10 +20,8 @@
 - Party Menu Cursor persistence: It started on Slot 5 (Kunai). Always verify cursor position before blind navigation.
 - Whirlpool interaction confirmed: "Can't use that here" when facing wrong way.
 - Requirement: Must be in Overworld, Facing Whirlpool (DOWN), then select Move.
-- Current State: In Party Menu.
-- Plan:
-  1. Exit Menus (B, B).
-  2. Face Down (Down).
-  3. Verify Facing.
-  4. Use Menu -> Pokemon -> Lapis -> Whirlpool.
-- Note: 'A' interaction with Whirlpool often fails to trigger text. Menu is reliable.
+- Current State: Facing DOWN at (15, 22). Menu Closed.
+- Action: Open Menu (Start) -> Select Pokemon (A).
+- Next: Navigate to Lapis -> Select Whirlpool.
+- Note: Verifying Party Menu cursor position before navigation.
+- Field moves: Surf (1), Whirlpool (2).
