@@ -39,6 +39,6 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Fighting Fisher Scott (Route 26).
-- **Status:** Switching to Muscle (Machoke Lv59) to handle Qwilfish #2.
+- **Status:** Muscle (Machoke Lv59) vs Seaking. Staying in to overpower.
 - **Location:** Route 26 Bridge (10, 94).
-- **Next:** Defeat Fisher Scott, then heal.
+- **Next:** Defeat Fisher Scott, then heal IMMEDIATELY.
