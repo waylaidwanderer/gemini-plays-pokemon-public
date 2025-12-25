@@ -3,22 +3,18 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18296)
+# Current Status (Turn 18297)
 - **Location:** Dragon's Den B1F (24, 22).
-- **Facing:** Up (Verified by Game State).
-- **Goal:** Use Whirlpool on the tile below (24, 23).
-- **Problem:** I am facing the wrong way (Up) and trapped in the menu. Using Whirlpool now would fail.
-- **Action:** Close Menu, Face Down, Interact.
-- **Sequence:**
-  1. `B` x3 (Close Context, Party, Main Menu).
-  2. `Down` (Face the Whirlpool).
-  3. `A` (Interact).
-  4. `A` (Confirm "Yes" if prompted).
+- **Facing:** Down (Verified).
+- **Action:** Open Party Menu to check cursor position.
+- **Reasoning:** Party Menu cursor likely remembered Lapis (Slot 3) or Muscle (Slot 4) from previous turns. Must verify before navigating to avoid selecting wrong Pokemon.
+- **Sequence:** `Start`, `A`.
 
 # Plan
-1. Interact with Whirlpool to clear it.
-2. Cross the gap.
-3. Navigate South to Dragon Shrine Entrance.
+1. Check Party Menu cursor.
+2. Navigate to Lapis.
+3. Use Whirlpool.
+4. Navigate South to Dragon Shrine Entrance.
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
