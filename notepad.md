@@ -1,43 +1,24 @@
 # Blackthorn City Strategy
-- **Current Task:** Battle Clair.
-- **Next:** Enter Dragon's Den.
+- **Current Task:** Exit Gym and Heal.
+- **Next:** Enter Dragon's Den (Surf behind Gym).
 
-# Battle Strategy: Clair
-- **Opponents:** Dragonair x3 (All Defeated), Kingdra.
-- **Current State:** Muscle (Machoke) vs Kingdra.
-- **Plan:**
-  - **Kingdra:** Strength (Used once, Kingdra at ~40%). Use Strength again to finish.
-- **Status:** Muscle HP 83/191. Faster than Kingdra (moved first last turn).
+# Dragon's Den Challenge
+- **Goal:** Receive Rising Badge.
+- **Requirement:** Pass the "Dragon User Challenge".
+
+# Team Status
+- **Gyarados:** Critical (14 HP, Paralyzed).
+- **Muscle:** Lv 59 (86/194 HP).
+- **Others:** Healthy.
 
 # Blackthorn Gym Strategy
-- **Status:** All Puzzles Solved. Bridges formed.
-- **Current Task:** Heal up, then cross bridge at (8, 3) to Clair (5, 3).
-- **Navigation:**
-  - Currently at (9, 3) on 1F.
-  - Path: Cross bridge at (8, 3) West to reach Clair at (5, 3).
-
-## Healing Plan
-- Healing Complete.
-- **Current Task:** Replace SCRATCH with TM30 (Shadow Ball) on Sneasel.
-- **Next:** Challenge Clair.
-
-## Puzzle State
-- **East Side:** Complete (Boulders 4 & 5 in Pits).
-- **West Side:** Complete (Boulder 1 in Pit).
-
-## Puzzle State
-- **East Side:** Complete (Boulders 4 & 5 in Pits).
-- **West Side:** Complete (Boulder 1 in Pit).
+- **Status:** Cleared. Clair defeated.
+- **Exit Path:** 1F (6, 3) -> (9, 3) -> (9, 7) -> (7, 7) -> Ladder at (7, 9).
 
 # Key Locations
 - **Gym Leader Clair:** 1F (5, 3).
 - **Ice Path Entrance:** (36, 9).
 - **Move Deleter:** Blackthorn City.
-
-# Lessons Learned
-- **Verify Paths:** Always check the full path of a boulder push before executing.
-- **Sacrifice:** Some boulders are decoys.
-- **1F Layout:** The 1F West and East sides are isolated by a central wall; must use 2F to cross.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN**: One-way traversable (South only).
