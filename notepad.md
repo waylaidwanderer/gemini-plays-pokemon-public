@@ -27,3 +27,6 @@
 - **Exploration:** Reached the lower eastern landing of Tohjo Falls. Proceeding to exit. (Turn 18592)
 - **Exploration:** Exited Tohjo Falls to Route 27 East. Encountered Cooltrainer F at (37, 6).
 - **Observation:** There is a house at (33, 7) which appears unreachable from the current position due to ledges/walls. It might be accessible from the west side or via a specific path. (Turn 18593)
+- **Battle:** Defeated Cooltrainer Megan on Route 27 (East).
+- **Status:** Garnet is poisoned. Priority: Cure poison.
+- **Exploration:** Accessibility to House at (33, 7) confirmed from this side. Will investigate. (Turn 18609)
