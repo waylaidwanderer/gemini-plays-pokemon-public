@@ -3,16 +3,18 @@
 - **Secondary:** Pass Dragon User Challenge.
 - **Immediate:** Reach the Dragon Shrine via the East Whirlpool.
 
-# Current Status (Turn 18291)
+# Current Status (Turn 18292)
 - **Location:** Dragon's Den B1F (24, 22).
-- **Facing:** Up (Corrected from GameState).
-- **Error:** Previous "Can't use that here" was because I was facing Up (Empty Water) instead of Down (Whirlpool).
-- **Action:** Reset Menu, Face Down, Interact.
-- **Plan:**
-  1. Close all menus (`B` x5).
-  2. Face Down (`Down`).
-  3. Interact with Whirlpool (`A`).
-  4. If prompt appears, Confirm (`A`).
+- **Facing:** Down (Verified).
+- **Action:** Use Whirlpool via Menu.
+- **Reasoning:** Direct interaction (`A`) failed to trigger text. Must use Menu.
+- **Sequence:**
+  1. `Start` (Open Menu).
+  2. `A` (Enter Party - assuming cursor on POKEMON).
+  3. `Down`, `Down` (Select Lapis).
+  4. `A` (Open Context).
+  5. `Down` (Select Whirlpool).
+  6. `A` (Execute).
 
 # Tile Mechanics
 - **Whirlpool:** Requires HM06 Whirlpool + Glacier Badge. Usage: Menu -> Pokemon -> Select Mon -> Whirlpool.
