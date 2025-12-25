@@ -56,7 +56,14 @@
 # Lessons Learned
 - **Verify Paths:** Always check the full path of a boulder push before executing. Boulders getting stuck requires a full room reset.
 - **Sacrifice:** Some boulders are decoys or meant to be sacrificed to open paths for others.
-- Status: At (3, 8) on 1F. West side seems to be a dead end or item alcove.
-- Action: Navigating to Clair (5, 3) via the Southern Loop.
-- Path: West to Col 1 -> South to Row 13 -> East to Col 9 -> North to Row 3 -> West across bridges to Clair.
-- Bridges: (8, 7) and (8, 3) should be walkable due to dropped boulders.
+
+# Path to Clair Verification
+- **1F Layout:** Divided into West (Cols 0-1) and East (Cols 5-9) by a central wall from Row 1 to Row 11.
+- **Connection:** Only connected at the very bottom (Row 16), but Row 11 blocks the East side from the South.
+- **Conclusion:** Cannot reach Clair (Top-East) from current position (West) on 1F.
+- **Correct Path:**
+  1. Ascend Ladder (1, 7) to 2F West.
+  2. Traverse 2F via Row 13 to 2F East.
+  3. Descend Ladder (7, 9) to 1F Top-East.
+  4. Cross bridges at (8, 7) and (8, 3) to reach Clair (5, 3).
+- **Status:** Proceeding to Ladder (1, 7).
