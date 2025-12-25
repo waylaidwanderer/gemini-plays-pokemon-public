@@ -54,3 +54,6 @@
 - **Hypothesis:** Game State `Facing` attribute might be unreliable or reporting "last movement direction" rather than "current facing" in some contexts? Or `Start` press caused a state glitch?
 - **Decision:** Trusting Visuals + Turn 18131 State. Proceeding with Whirlpool attempt assuming Facing DOWN.
 - **Cursor State:** Start Menu cursor is on `POKéMON` (2nd slot), not `POKéDEX` (1st). This might imply a buffered `Down` input from 18130 affected the menu, but didn't affect facing? Or maybe I just left it there? (Unlikely, last menu use was chaotic).
+
+# Interaction Log
+- **Turn 18133:** Party Menu Open. Cursor found on Slot 3 (Lapis) automatically. Pressing 'A' to open Field Move menu. Assuming facing is correct (DOWN).
