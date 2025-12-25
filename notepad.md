@@ -1,20 +1,20 @@
 # Strategic Objectives
 - **Primary:** Earn Rising Badge.
 - **Secondary:** Pass Dragon User Challenge.
-- **Immediate:** Reach the West Whirlpool (15, 23) via the Central Channel (Row 14, Col 16).
+- **Immediate:** Deposit a Pokemon to receive Dratini.
 
-# Current Status (Turn 18344)
+# Current Status (Turn 18346)
 - **Location:** Dragon Shrine (3_82).
-- **Activity:** Exiting Shrine.
-- **Action:** Close text and navigate to exit (Warp at 4, 9).
-- **Reasoning:** Badge obtained. Need to deposit a Pokemon to get Dratini.
+- **Activity:** Exiting to Dragon's Den B1F.
+- **Action:** Step Down to Warp.
+- **Reasoning:** Rising Badge obtained. Need to free a party slot.
 
 # Plan
-1. Exit Shrine via Warp at (4, 9).
+1. Exit to Dragon's Den B1F.
 2. Exit Dragon's Den.
-3. Fly/Walk to Blackthorn City PokeCenter.
-4. Deposit Swinub or Sneasel.
-5. Return for Dratini.
+3. Deposit Pokemon at PC.
+4. Return for Dratini.
+5. Get TM24 from Clair.
 
 # Tile Mechanics
 - **Whirlpool:** Barrier.
