@@ -36,11 +36,10 @@
     - Plan: Push B1 (2, 3) South to Pit (2, 5). Then check if B2 is needed or if B1 clears the path on 1F.
 
 ## Navigation Plan
-1. Return to 1F via Ladder (7, 9).
-2. Walk to West Side Ladder (1, 7).
-3. Ascend to 2F West.
-4. Push Boulder 1 (2, 3) South into Pit (2, 5).
-5. Check result.
+1. Move to (3, 4) via Col 1 (avoiding Row 8 wall).
+2. Push B2 (3, 3) North to (3, 1) to open path.
+3. Move to (2, 2) via (3, 2).
+4. Push B1 (2, 3) South to Pit (2, 5).
 
 # Key Locations
 - **Gym Leader Clair:** 1F (North), currently inaccessible due to lava/channel. Needs boulders to bridge?
