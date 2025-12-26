@@ -14,6 +14,6 @@
 - **Indigo Plateau:** Currently in the lobby.
 
 # Plan
-1.  **Shop:** Buy 6 Hyper Potions.
-2.  **Prepare:** Organize team order and held items.
-3.  **Challenge:** Enter the door to the Elite Four.
+1.  **Prepare:** Organize team order and held items (Check Muscle's held item).
+2.  **Challenge:** Enter the door to the Elite Four.
+3.  **Elite Four Will:** Battle Will (Psychic). Muscle's Cross Chop/Strength or Sneasel's Shadow Ball?
