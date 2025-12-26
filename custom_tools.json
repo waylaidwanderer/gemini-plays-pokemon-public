@@ -297,28 +297,5 @@
         "action_counter": 21752
       }
     ]
-  },
-  "check_party_held_items": {
-    "description": "Checks the party Pokemon for any held items. Returns a dictionary mapping Pokemon names to their held items.",
-    "input_schema": {
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\n# This tool would normally interact with the game, but since I can't 'see' held items \n# in the provided Game State, I will generate the buttons to check them manually.\n# However, the instructions say custom tools should return JSON arrays of buttons.\n\nprint(json.dumps([\"Start\", \"A\", \"A\", \"Down\", \"A\", \"B\", \"Down\", \"A\", \"Down\", \"A\", \"B\", \"Down\", \"A\", \"Down\", \"A\", \"B\", \"Down\", \"A\", \"Down\", \"A\", \"B\", \"Down\", \"A\", \"Down\", \"A\", \"B\", \"Down\", \"A\", \"Down\", \"A\", \"B\", \"Start\"]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-26T06:49:33.855Z",
-        "action_counter": 21813
-      }
-    ]
   }
 }
