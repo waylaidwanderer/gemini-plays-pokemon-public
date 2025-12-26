@@ -46,4 +46,5 @@
 - **Encounter:** Wild Onix at (11, 39). Fled successfully.
 - **Observation:** Gap in the South wall detected at (13, 41).
 - **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
-- **Encounter:** Wild Golbat at (13, 42).
+- **Encounter:** Wild Golbat at (13, 42). Fled successfully.
+- **Exploration:** Navigating South-East from (13, 42) to explore the large Eastern room (rows 43+).
