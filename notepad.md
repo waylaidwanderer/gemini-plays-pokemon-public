@@ -6,7 +6,7 @@
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Map Reset: Performed map reset by entering Mount Mortar (Turn 21550).
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
-- Unmarked Floor Tiles (Mental Map): (29, 10), (30, 10), (31, 10), (32, 10), (33, 10), (20, 11), (21, 11), (22, 11), (23, 11), (24, 11), (25, 11), (26, 11), (27, 11), (28, 11), (29, 11), (30, 11), (31, 11), (32, 11), (33, 11), (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 16), (28, 16), (29, 16).
+- Unmarked Floor Tiles (Mental Map): (30, 10), (31, 10), (32, 10), (33, 10), (20, 11), (21, 11), (22, 11), (23, 11), (24, 11), (25, 11), (26, 11), (27, 11), (28, 11), (29, 11), (30, 11), (31, 11), (32, 11), (33, 11), (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 16), (28, 16), (29, 16).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
