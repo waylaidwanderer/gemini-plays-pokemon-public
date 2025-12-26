@@ -39,3 +39,4 @@
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
 - Current Status: Traversing Victory Road Southbound to reach Route 23/26.
+- Exploration: Reached dead end at (13, 31) area. Returning to 1F to check potential West path at (8, 9).
