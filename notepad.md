@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Route 27 (West). Surfing west from (18, 9) to New Bark Town.
+- Status: Route 27 (West). Surfing west at (8, 9) towards New Bark Town.
