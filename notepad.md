@@ -20,8 +20,8 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Arrived at 3F (approx. y=17) via Ladder from 2F East (13, 31).
-- **Location:** Victory Road 3F (13, 17).
-- **Goal:** Reach Ladder at (17, 19) or find the exit to Indigo Plateau.
-- **Plan:** Explore the room. Currently blocked from direct access to (17, 19) by walls. Need to find a path around.
-- **Hypothesis:** The path likely involves navigating North/East through the open floor areas.
+- **Status:** Exploring 3F.
+- **Analysis:** Direct path South to (17, 19) is blocked by walls.
+- **Observation:** x=16 North is blocked by FLOOR_UP_WALL at Row 12. x=18 North is open.
+- **Plan:** Navigate East to x=18, then North to Row 11. Traverse West along Row 11 to loop around to the South-West section (ledges).
+- **Hypothesis:** The path loops counter-clockwise: (13, 17) -> East -> North -> West -> South -> Ledge Hop -> East -> Ladder (17, 19).
