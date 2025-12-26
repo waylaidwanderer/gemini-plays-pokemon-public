@@ -35,7 +35,7 @@
 - **PC**: Impassable. Interact to access Pokemon Storage System.
 
 # Operation: Elemental Upgrade
-1. **Fly to Goldenrod:** Go to Dept Store (5F/2F?).
+1. **Fly to Goldenrod:** (Retrying) Open menu, select Mistral, Fly.
 2. **Fundraising:** Sell HP Up (Worth ~4900) and other loot. Need ~6000 for 2 TMs.
 3. **Shopping:** Buy TM33 (Ice Punch) and TM41 (ThunderPunch).
 4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
