@@ -19,7 +19,7 @@
 - **Purchase Plan:** Sell TMs -> Go to 2F for Hyper Potions (Battle Heals). Rooftop for Lemonade (Cost-effective). Funds: ~¥8000.
 - **Shop Inventory:**
     - 2F (Top Clerk): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
-    - 2F (Bottom Clerk): Unknown (Checking).
+    - 2F (Bottom Clerk): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
     - 3F: Battle Collection (X Items).
     - 4F: Vitamins (Protein, Iron, Carbos, Calcium).
     - 5F: TM Corner.
