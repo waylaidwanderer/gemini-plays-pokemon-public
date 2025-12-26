@@ -36,7 +36,7 @@
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Fighting Cooltrainer Joyce (Pikachu Lv36).
-- **Matchup:** Gyarados (Water/Flying) vs Pikachu (Electric). 4x Weakness!
-- **Action:** DANGEROUS MATCHUP. Switching to Muscle (Machoke Lv60) immediately.
+- **Matchup:** Switching Gyarados -> Muscle (Machoke Lv60).
+- **Plan:** Use Strength/Cross Chop to defeat Pikachu.
 - **Location:** Route 26 (13, 56).
-- **Next:** Defeat Pikachu with Muscle. Harvest Fruit Tree. Navigate North.
+- **Next:** Defeat Pikachu. Harvest Fruit Tree. Navigate North.
