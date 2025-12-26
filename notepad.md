@@ -12,7 +12,7 @@
 
 # Moveset Status (Muscle)
 - Strength (Normal): 0/15 PP.
-- Dig (Ground): 1/10 PP. (Target: Burn this).
+- Dig (Ground): 0/10 PP.
 - Rock Smash (Fighting): 4/15 PP. (Target: Burn this).
 - Cross Chop (Fighting): 0/5 PP.
 
