@@ -61,8 +61,8 @@
 - Prerequisite: Must have encountered Suicune at Route 42 and Route 36 sightings before they will battle.
 
 # Suicune Hunt Progress Log
-- Sighting 3 (Route 42): 10+ failed attempts at various island tiles.
-- Mt. Mortar Reset Hypothesis Result (Turn 23791): Failed to trigger sighting on northern/central tiles (26, 14), (28, 15), (27, 15), (26, 15), (25, 15), (27, 14), (29, 15), (30, 15). Testing southern and northern-most tiles next.
-- Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
-- Plan: Sweep remaining island floor tiles: Row 12 (22-28), Row 16 (26, 30), Row 17 (26-30). If all fail, approach from Mahogany (East).
-- Turn 23813: Received call from Arnie about Yanma swarm on Route 35. Ignored to focus on Suicune. Moving to (26, 12).
+- Sighting 3 (Route 42): 12+ failed attempts.
+- Mt. Mortar Reset Hypothesis Result (Turn 23791): Failed to trigger sighting on Row 14/15 tiles: (26, 14), (28, 15), (27, 15), (26, 15), (25, 15), (27, 14), (29, 15), (30, 15).
+- Current Status: Pokedex confirms Suicune on Route 42. Wise Trio locked.
+- Plan: Sweep tiles adjacent to Apricorn trees (27-29, 16): check (26, 16), (27, 17), (28, 17), (29, 17), (30, 16).
+- Turn 23814: At (26, 12). Moving to (26, 16).
