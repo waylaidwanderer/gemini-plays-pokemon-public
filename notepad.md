@@ -39,3 +39,13 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Money & Economy
+- Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
+
+# Ecruteak Contingency Plan
+- If island sighting fails:
+  1. Go to Ecruteak City.
+  2. Talk to the Sage in the Dance Hall.
+  3. Talk to the Wise Trio in the Tin Tower Gatehouse/Wise Trio Room.
+  4. Verify if Sighting 3 flag is set by checking if Suicune moves in Pokedex.
