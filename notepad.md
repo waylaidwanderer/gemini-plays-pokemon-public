@@ -39,4 +39,4 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM). Current Turn: 22372. Goal: Trigger sighting 3.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Investigating Route 42/36 trigger stall.
