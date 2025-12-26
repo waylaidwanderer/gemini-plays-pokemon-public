@@ -36,3 +36,6 @@
 # Battle Log
 - **Vs Koga:** Victory. Muscle grew to Lv 63.
 - **Next:** Heal & Advance.
+- **Turn 19262:** Using Antidote.
+- **Action:** A (Select Antidote) -> A (Select USE).
+- **Next:** Select Muscle to cure Poison.
