@@ -146,3 +146,8 @@
 - **Reasoning:** Muk has +Defense (Acid Armor) and +Evasion (Minimize). Muscle (Physical) can't hit/hurt it. Gyarados (Special, Surf) ignores Defense buff.
 - **Plan:** Surf until Muk faints.
 - **Note:** Gyarados must tank Sludge Bomb on switch.
+- **Turn 19257:** Gyarados fainted.
+- **Action:** Switch to Muscle (Slot 1).
+- **Sequence:** Up x2 (Select Muscle) -> A (Select) -> A (Confirm Switch).
+- **Status:** Muscle (60/208, Poisoned).
+- **Plan:** Use Dig. High risk/reward. If Muscle faints, revive him clean.
