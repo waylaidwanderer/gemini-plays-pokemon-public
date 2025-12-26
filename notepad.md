@@ -36,5 +36,5 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: In Victory Road (Exit Section). Path: (2, 59) -> South -> Ledge Hop (2, 61) -> (2, 64) -> (4, 64) -> (4, 66) -> Exit at (9, 67).
-- Note: Avoided dead-end loops. Proceeding to exit.
+- Status: In Victory Road (Exit Section). Final stretch: (4, 64) -> (9, 67).
+- Note: Rhyhorn and Golbat encounters delayed progress. Resuming exit path.
