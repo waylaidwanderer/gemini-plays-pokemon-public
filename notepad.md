@@ -75,3 +75,8 @@
 - **Action:** Use Quick Attack (Guaranteed chip damage via priority).
 - **Reasoning:** Garnet is slower than Aerodactyl. Quick Attack hits first. Smokescreen would fail if she dies first.
 - **Outcome:** Garnet deals damage -> Faints -> Muscle enters safely.
+- **Turn 19435:** In Fight Menu. Cursor on LEER.
+- **Action:** Select Quick Attack (Down -> A).
+- **Reasoning:** Garnet (Fodder) uses priority move for guaranteed chip damage before fainting.
+- **Outcome:** Garnet deals small damage -> Aerodactyl attacks -> Garnet likely faints -> Muscle gets safe switch-in.
+- **Muscle Status:** 107 HP. Rock Smash 6 PP.
