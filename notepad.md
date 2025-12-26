@@ -15,9 +15,9 @@
 - Ecruteak Geography: There are two distinct buildings in northern Ecruteak. The NW building leads to the Burned Tower. The NE building (Barrier Station) leads to the Tin Tower. The Wise Trio appears in the Barrier Station after getting the Clear Bell. [Turn 22217]
 
 # Strategy: Suicune Hunt (Crystal Version)
-- Sighting 1: Burned Tower (Complete)
-- Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Goal): Route 42 Central Island. Suicune appears as a visible sprite on the island. [Turn 22256]
+- Sighting 2 (Goal): Cianwood City. Suicune appears at the north end of the city.
+    - How: Walk to the extreme northern edge of Cianwood City (above the Gym). Suicune will be standing there and flee when approached. [Hypothesis: This sighting was missed or didn't trigger correctly.]
+- Sighting 3: Route 42 Central Island. Suicune appears as a visible sprite on the island.
     - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune will be standing near them and flee when approached.
 - Sighting 4: Route 36 (Sudowoodo junction).
     - How: Approach the junction at (35, 9) after the Route 42 sighting. Suicune will appear and flee.
@@ -25,6 +25,7 @@
     - How: Enter Tin Tower 1F via the NE Barrier Station in Ecruteak City. Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Note: Scripted sightings are sprite-based. If Suicune is not at Route 42, re-verify previous steps or check for missed triggers.
+- Current Status: Island grove thoroughly explored. No Suicune sprite found. NPC troubleshooter suggests Cianwood trigger might be the issue. [Turn 22293]
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
