@@ -110,3 +110,7 @@
 - **Next:** Menu opens. Use Hyper Potion on Muscle immediately.
 - **Battle:** Muscle (24/205) vs Xatu.
 - **Notes:** Muscle speed (88) vs Xatu (Est ~85). Close call. Healing ensures survival.
+- **Turn 19140:** Menu open. Selecting PACK.
+- **Action:** Use Hyper Potion on Muscle.
+- **Reasoning:** Muscle (24 HP) is in kill range. Xatu is faster. Healing is mandatory.
+- **Next:** Navigate Bag -> Select Hyper Potion -> Use on Muscle.
