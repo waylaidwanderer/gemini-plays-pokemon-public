@@ -3,7 +3,7 @@
 - Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
 - Progress:
     - Island sweep started: Turn 21455 (Thursday, Dec 25, 2025).
-    - Current Task: Step on tile (24, 13), the final unmarked floor tile on the island.
+    - Current Task: Sweep (27, 15) and any remaining tiles found by run_code. Tile (24, 13) swept.
 - Lessons Learned:
     - Pokedex: Alphabetical (A-Z). Suicune follows Sudowoodo.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
