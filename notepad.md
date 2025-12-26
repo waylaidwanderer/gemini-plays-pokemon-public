@@ -6,7 +6,23 @@
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Map Reset: Performed map reset by entering Mount Mortar (Turn 21550).
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
-- Unmarked Floor Tiles (Mental Map): (31, 10), (32, 10), (33, 10), (20, 11), (21, 11), (22, 11), (23, 11), (24, 11), (25, 11), (26, 11), (27, 11), (28, 11), (29, 11), (30, 11), (31, 11), (32, 11), (33, 11), (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 16), (28, 16), (29, 16).
+
+# Primary Goal Strategy: Catch Suicune at Tin Tower 1F
+1. Complete all scripted Johto sightings (Burned Tower, Cianwood, Route 42, Route 36).
+2. Defeat/interact with Eusine as required.
+3. Obtain the Clear Bell (likely from Radio Tower director or Tin Tower monks).
+4. Enter Tin Tower in Ecruteak City once the Clear Bell is in possession.
+5. Battle and catch Suicune at the 1F altar.
+
+# Milestone Audit
+- Sighting 1: Burned Tower (Complete).
+- Sighting 2: Cianwood (Complete).
+- Eusine: Defeated in Cianwood (Complete).
+- Sighting 3: Route 42 (Current).
+
+# Repetitive Task: Suicune Island Sweep
+- Start Turn: 21556
+- Status: In progress. Sweeping island floor (Y:10-17, X:20-33).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
@@ -16,12 +32,6 @@
 - TALL_GRASS: Traversable. Wild encounters. [Verified]
 - WARP: CAVE, WARP_CARPET, LADDER. [Verified]
 - FLOOR_UP_WALL: Impassable ledge (one-way down). [Verified]
-
-# Milestone Audit
-- Sighting 1: Burned Tower (Complete).
-- Sighting 2: Cianwood (Complete).
-- Eusine: Defeated in Cianwood (Complete).
-- Sighting 3: Route 42 (Current).
 
 # Contingency Plan
 - If sweep fails to trigger Suicune, I will:
