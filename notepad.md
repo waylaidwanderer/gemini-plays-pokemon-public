@@ -9,7 +9,7 @@
 - WALL/HEADBUTT_TREE: Impassable. [Tested]
 - TALL_GRASS: Traversable; wild encounters. [Tested]
 - LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal. [Tested]
-- Route 38 (3, 9): WALL. [Tested]
+- Route 38 (3, 9): FLOOR. [Verified via Game State]
 
 # Navigation: Fly Map (Johto)
 - Discovery: Linear list navigated by Up/Down.
