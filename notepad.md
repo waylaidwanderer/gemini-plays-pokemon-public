@@ -18,10 +18,14 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Muscle (181/218) vs Xatu #2 (Full HP).
-- **Matchup:** Muscle (Lv66) vs Xatu (Lv42).
-- **Plan:** ThunderPunch (Slot 2). 2x Effective vs Flying.
-- **Notes:** Muscle outspeeds. ThunderPunch is Special (Electric).
+- **Status:** Defeated!
+- **Next:** Koga (Poison Type).
+- **Strategy:** Muscle (Lv66) leads.
+    - **Crobat:** Ice Punch / ThunderPunch.
+    - **Muk:** Strength (High Defense/Minimise risk).
+    - **Forretress/Ariados:** Strength/Fire (if switch to Garnet, but risky). Stick to Muscle.
+    - **Venomoth:** Ice Punch / ThunderPunch.
+- **Team Health:** Muscle (181/218). Good.
 
 # Tile Mechanics
 - **WALL**: Impassable.
