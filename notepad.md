@@ -93,3 +93,6 @@
 - **Benefit:** If Slowbro uses Body Slam/Curse, we maintain HP advantage.
 - **Scenario:** If damage is low (due to Curse), we may need to heal next turn.
 - **Crit:** A crit Strength ignores the Defense boost. Pray for crit.
+- **Turn 19136:** Muscle uses Strength.
+- **Goal:** Chip damage. Hopefully 2HKO even with +1 Def.
+- **Note:** Slowbro's Speed fell, so Muscle is definitely faster.
