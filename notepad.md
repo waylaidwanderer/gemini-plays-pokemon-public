@@ -1,9 +1,12 @@
 # Operation: Dragon Slayer
-- **Current State:** Healing Team with Lemonade.
-- **Action:** Select Lemonade. Heal Current Slot (Assumed Gyarados) and Next Slot (Assumed Kunai).
-- **Rationale:** Cursor likely on Slot 3 (Gyarados) from Revive use. Lemonade heals 80HP (Full for them).
-- **Sequence:** Down x2 -> A x2 -> A (Heal) -> Clear -> Down -> A (Heal) -> Clear.
-- **Next:** Heal Muscle (Slot 1) with Hyper Potion or Lemonade.
+- **Current State:** Main Menu (Pack selected).
+- **Action:** Heal Kunai (Slot 4) with Lemonade.
+- **Sequence:** Enter Pack (A) -> Lemonade (A, A) -> Slot 4 (Down) -> Heal (A).
+- **Team Status:**
+    - Gyarados: Full (114/114).
+    - Kunai: 32/65 HP.
+    - Muscle: 112/225 HP.
+- **Next:** Heal Muscle with Hyper Potion.
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
