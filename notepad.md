@@ -1,11 +1,12 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** Fighting Charizard (Lv46).
-- **Battle Plan:** Use ThunderPunch (Slot 2).
-- **Matchup:** Muscle (Lv68, 114/225 HP) vs Charizard (Lv46). ThunderPunch is SE (2x).
-- **Status:** Muscle took ~55 dmg from Flamethrower. 114 HP is decent.
-- **Correction:** Manual input `Down, A` to select ThunderPunch from the open Move Menu (Cursor on Strength).
+- **Current State:** About to fight Dragonite #1.
+- **Battle Plan:** Decline switch. Use Ice Punch (Slot 3).
+- **Matchup:** Muscle (Lv69, 118/229 HP) vs Dragonite.
+- **Strategy:** Ice Punch is 4x SE. Guaranteed OHKO.
+- **Notes:** Muscle level up fully healed paralysis? No, wait, fainting healed it earlier.
+- **Next:** Be prepared for 2 more Dragonites.
 
 # Team Status
 
