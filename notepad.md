@@ -4,51 +4,19 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18904)
-- **Location:** Victory Road 1F (3_91).
+# Current Status (Turn 18955)
+- **Location:** Victory Road 2F East (17, 37).
 - **Party:** Gyarados (76/111), Muscle (Lv61).
-- **Recent:** Explored 2F West (Item Loop). Returned to 1F.
-- **Goal:** Reach Victory Road Gate (Exit).
+- **Goal:** Reach Ladder at (17, 33).
 
 # Exploration Log
-- **1F West:** Dead end (ledges).
-- **1F Central:** Blocked by elevated terrain.
-- **2F West:** Accessed via ladder at (1, 49). Contained HP Up. Loop leads back to ladder.
-- **Current Plan:** Navigate from 1F West (current loc) back to Entrance area (9, 67), then explore Southeast corner (x=12+) to find path to 2F East.
+- **1F:** West and East corridors largely explored. East side of 1F (north end) was a dead end.
+- **2F West:** Loop with HP Up.
+- **2F East:** Large room. Ladder at (17, 33) spotted but blocked by ledges from South.
+- **Key Discovery:** Vertical corridor at x=12 appears open from y=36 Northwards.
+- **Hypothesis:** The path to the ladder at (17, 33) involves navigating North along x=12, then looping East across the top (unseen area around y=30) to drop down to the ladder.
 
-# Tile Mechanics
-- **Whirlpool:** Obstacle. Requires HM06 + Badge.
-- **Water Moves:** Special in Gen 2. Gyarados uses Sp.Atk for Surf/Waterfall.
-- **Warp Carpets:** Directional exits.
-- **LADDER tiles:** Bridges on Route 27; vertical transport in Victory Road.
-- **Encounter:** Wild Rhydon at (9, 66). Fled successfully.
-- **Exploration:** Confirmed (12, 68) is impassable (Wall). Southern strip inaccessible from here.
-- **Strategy:** Backtracking to the Eastern Corridor (x=18) via (11, 54) to inspect the east wall (x=19) for hidden paths or missed ladders.
-- **Exploration:** Checked East corridor. Dead end at (19, 52).
-- **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
-- **Encounter:** Wild Onix at (15, 56). Fled successfully.
-- **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Status:** Returned to 1F West (1, 49).
-- **Analysis:** 2F West was a dead-end loop with an item.
-- **Strategy:** Navigate to 1F East Corridor (x=18) via the central junction at (11, 54).
-- **Goal:** Explore North of (18, 51) in the East Corridor, suspecting a missed ladder to 2F East.
-- **Encounter:** Wild Graveler at (3, 51). Fled successfully.
-- **Strategy:** Resuming navigation to 1F East Corridor (x=18).
-- **Path:** Loop South to (3, 56), East to (15, 56), then North to (18, 51).
-- **Goal:** Explore North of (18, 51) for missed ladder.
-- **Status:** 2F West (current location) is a dead end/landing area.
-- **Analysis:** The 2F West area is isolated by ledges. The ladder at (1, 35) is the only exit.
-- **Strategy:** Descend ladder at (1, 35) to return to 1F.
-- **Next:** Navigate to 1F East Corridor (x=18). Go NORTH from (18, 51) into the unexplored area to find the path to 2F East.
-- **Correction:** 1F East (around 18, 51) is a dead end.
-- **Realization:** 2F East is accessible from the 2F West Ladder (1, 35). I previously reached (11, 40) on 2F but turned back after getting the HP Up.
-- **Strategy:** Return to Ladder at (1, 49) on 1F. Take it to 2F. Navigate to 2F East (x > 10) and explore North/East for the exit ladder.
-- **Encounter:** Wild Onix at (11, 39). Fled successfully.
-- **Observation:** Gap in the South wall detected at (13, 41).
-- **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
-- **Encounter:** Wild Golbat at (13, 42). Fled successfully.
-- **Status:** Exploring 2F East.
-- **Correction:** The North area of 2F is NOT blocked by ledges everywhere. There is a gap in the ledges at x=12-14 (Row 35).
-- **Strategy:** Navigate South-East to bypass the wall at (17, 38), loop back West to x=13, then head NORTH through the gap at (13, 35) to reach the ladder at (17, 33).
-- **Hypothesis:** The ladder at (17, 33) leads to the Exit or 3F.
-- **Encounter:** Wild Graveler at (17, 37).
+# Plan
+1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
+2.  **Gap:** Enter x=12 corridor at (12, 36).
+3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
