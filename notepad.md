@@ -87,3 +87,7 @@
 - **Turn 19439:** Cancelled switch (B). Garnet stays in.
 - **Reasoning:** Garnet (81 HP) is already active. Switching Muscle in exposes him to damage. Garnet can try Smokescreen or serve as Hyper Beam fodder to give Muscle a safe entry.
 - **Next:** Fight -> Smokescreen.
+- **Turn 19446:** Garnet active (81/81 HP). Dragonite active.
+- **Action:** Use Smokescreen (Slot 3).
+- **Reasoning:** High risk/reward. If successful, accuracy drop helps Muscle survive later. If Garnet faints first, she did her job as fodder. Quick Attack damage is negligible.
+- **Next:** Switch to Muscle (107 HP) when Garnet faints. Muscle uses Rock Smash (6 PP).
