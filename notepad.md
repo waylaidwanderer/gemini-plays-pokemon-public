@@ -18,11 +18,10 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Muscle (181/218) vs Slowbro (~45% HP, +2 Sp.Def).
-- **Matchup:** Slowbro used Amnesia.
-- **Plan:** Use Strength (Physical).
-- **Reasoning:** Amnesia protects against ThunderPunch. Cross Chop did good damage but is inaccurate. Strength is reliable and Physical.
-- **Next:** Xatu #2 is likely last.
+- **State:** Muscle (181/218) vs Xatu #2 (Full HP).
+- **Matchup:** Muscle (Lv66) vs Xatu (Lv42).
+- **Plan:** ThunderPunch (Slot 2). 2x Effective vs Flying.
+- **Notes:** Muscle outspeeds. ThunderPunch is Special (Electric).
 
 # Tile Mechanics
 - **WALL**: Impassable.
