@@ -4,7 +4,7 @@
 - **Tertiary:** Train team.
 
 # Current Status
-- **Location:** Will's Room (Elite Four).
+- **Location:** Koga's Room (Elite Four).
 - **Party:** Full Health.
 - **Inventory:** 1 Hyper Potion, 5 Super Potions, 13 Revives, 2 Full Restores.
 - **Money:** ¥6889.
@@ -12,9 +12,10 @@
 # Exploration Log
 - **Victory Road:** Fully traversed.
 - **Indigo Plateau:** Lobby explored. Shopping done.
+- **Will:** Defeated.
 
 # Plan
-1.  **Advance:** Move to Koga's Room.
+1.  **Advance:** Find Koga.
 2.  **Battle Koga:**
     - **Strategy:** Muscle (Strength/Dig) and Gyarados (Surf).
     - **Counters:**
