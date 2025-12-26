@@ -2,7 +2,7 @@
 - Sequence: 1. Burned Tower -> 2. Cianwood -> 3. Route 42 (Current) -> 4. Route 36 -> 5. Route 38 -> 6. Route 14 -> 7. Tin Tower 1F.
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Logic: Scripted sightings (1-5) are overworld events. Suicune remains stationary until approached.
-- Status: Surfing from (13, 8) to island at (24, 13).
+- Status: On Route 42 island. Moving to sighting trigger at (26, 14).
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 
 ## Tile Mechanics
