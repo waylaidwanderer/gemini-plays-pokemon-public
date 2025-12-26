@@ -20,9 +20,9 @@
   5. Tin Tower 1F (Final Battle): Requires Clear Bell (In Inventory).
 
 # Ecruteak Investigation Plan
-1. Fly to Ecruteak City.
-2. Visit Dance Hall: Talk to Sage/Kimono Girls.
-3. Visit Tin Tower Gatehouse: Talk to Wise Trio (Sage trio).
+1. Fly to Ecruteak City. [Completed]
+2. Visit Dance Hall: Talk to Sage/Kimono Girls. [Completed]
+3. Visit Tin Tower Gatehouse: Talk to Wise Trio (Sage trio). [Completed - Tower shook!]
 4. Visit Tin Tower 1F: Check if Suicune is already there (requires Clear Bell).
 5. Visit Route 36: Check if Sighting 3 was skipped or auto-cleared.
 
@@ -49,4 +49,4 @@
 
 # Metadata
 - Last sighting check: Turn 23645 (Suicune on Route 42).
-- Current Turn: 23653
+- Current Turn: 23655
