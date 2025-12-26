@@ -23,8 +23,9 @@
 - Arthur (Thursday): Located on Route 36. Provides Hard Stone.
 
 # Repetitive Task: Suicune Island Sweep
-- Start Turn: 21556 (Current Turn: 21618)
-- Status: Surfing around the island perimeter to test water-based triggers.
+- Start Turn: 21556 (Current Turn: 21629)
+- Status: Abandoning "facing" hypothesis (Debunked - Turn 21600). Transitioning to Pokedex verification.
+- Strategy: Use Pokedex AREA map to identify exact trigger zone on Route 42.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
