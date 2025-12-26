@@ -31,31 +31,19 @@
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Suicune Hunt Strategy (Crystal)
-- Status: Fixed sightings sequence. Suicune is a visible overworld sprite, not a hidden tile trigger.
-- Prerequisites/Sightings:
-  1. Burned Tower (Ecruteak City): Legendary beasts flee. [Cleared]
+- Status: Suicune is a visible overworld sprite.
+- Trigger: The "Tower Shook" event in Ecruteak City is required to progress the hunt.
+- Sightings Sequence:
+  1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. Trigger tile is likely (26, 14). Requires map reload (enter/exit cave).
+  3. Route 42 (Central Island): Middle Apricorn grove. Approaches from east side (Mahogany) or resetting map via Mt. Mortar may be required. [Pokedex shows Route 42]
   4. Route 36 (Sudowoodo junction): Near the fat guy.
-  5. Battle the Wise Trio: In Tin Tower Gatehouse (Map 4_1 / 4_3). [REQUIRED after Tower Shook]
-  6. Tin Tower 1F (Final Battle): Requires Clear Bell (In Inventory).
-
-## Route 42 Troubleshooting
-- Start Turn: 23700
-- Observation: Stood on (26, 14) and (28, 15) after Tin Tower shook event. No trigger.
-- Pokedex Status: Suicune confirmed on Route 42.
-- Expert Advice: Approach from the east side of the Apricorn trees. Possible map script reset needed (enter/exit Mt. Mortar).
-- Attempt Log:
-  - Attempt 1: (26, 14). No trigger.
-  - Attempt 2: (28, 15). No trigger.
-  - Attempt 3: Approached from East (y=15). No trigger.
-  - Attempt 4: Reset map script (Mt. Mortar) and returned. No trigger.
-  - Attempt 5: (27, 14). No trigger.
-- Next: approach from the east side of the entire map (Surf west from Mahogany side).
+  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [IN PROGRESS]
+  6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
 # Money & Economy
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23759
-- Suicune Hunt Duration: 59 turns (since turn 23700)
+- Current Turn: 23761
+- Suicune Hunt Duration: 61 turns (since turn 23700)
