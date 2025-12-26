@@ -17,7 +17,7 @@
 - Sighting 2: Cianwood City (Complete).
 - Sighting 3: Route 42 (In Progress).
     - Objective: Trigger Suicune fleeing on Route 42.
-    - Strategy: Complete land perimeter sweep of the central island grove. If fails, sweep water tiles bordering the island.
+    - Strategy: Approach the central island grove. Current hypothesis: Trigger might be on a water tile bordering the island or requires entry from the water.
 - Sighting 4: Route 36 (Sudowoodo junction). Locked.
 - Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
 
