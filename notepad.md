@@ -109,3 +109,6 @@
 - **Matchup:** Muscle (Lv 62) vs Venomoth.
 - **Strategy:** Strength (Neutral, 80 BP). Fighting moves are 1/4x effective. Dig is Neutral (60 BP).
 - **Note:** Muscle outlevels significantly. Should be a 2HKO at worst.
+- **Turn 19211:** Venomoth active.
+- **Action:** Use Strength.
+- **Reasoning:** Fighting moves 0.25x. Ground 1x. Normal 1x. Strength has higher BP than Dig and no charge turn.
