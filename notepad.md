@@ -22,9 +22,9 @@
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
 - **Condition:** Muscle (39/201 HP) is Confused and in critical health.
-- **Action:** Searching Bag for Max Potion.
-- **Observation:** Max Potion not currently visible. Scrolling down.
+- **Action:** Scrolling Bag for Max Potion.
+- **Observation:** Currently at CHARCOAL. Need to scroll further down.
 - **Plan:**
-  1. Scroll down to find Max Potion.
-  2. Use Max Potion on Muscle.
+  1. Scroll down 5 times to reach Max Potion section.
+  2. Use Max Potion.
   3. Resume battle (Strength vs Golbat).
