@@ -38,3 +38,6 @@
 - **Turn 19184:** Reviving Kunai.
 - **Action:** Down x3 (Select Kunai) -> A (Use Revive).
 - **Next:** Confirm Revive message -> Use Hyper Potion on Muscle.
+- **Turn 19185:** Healing Sequence.
+- **Action:** B (Clear Text), B (Exit Party), Down x5 (Search for Hyper Potion).
+- **Goal:** Locate Hyper Potion in bag.
