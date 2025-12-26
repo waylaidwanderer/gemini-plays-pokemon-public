@@ -8,11 +8,12 @@
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
 
 # Primary Goal Strategy: Catch Suicune at Tin Tower 1F
-1. Complete all scripted Johto sightings (Burned Tower, Cianwood, Route 42, Route 36).
-2. Defeat/interact with Eusine as required.
-3. Obtain the Clear Bell (likely from Radio Tower director or Tin Tower monks).
-4. Enter Tin Tower in Ecruteak City once the Clear Bell is in possession.
-5. Battle and catch Suicune at the 1F altar.
+1. Complete scripted Johto sightings (Burned Tower, Cianwood, Route 42).
+2. Defeat/interact with Eusine as required (Cianwood complete).
+3. Obtain the Clear Bell (Complete - In inventory as of Turn 21577).
+4. Trigger Route 42 sighting (Current).
+5. Head to Tin Tower in Ecruteak City.
+6. Battle and catch Suicune at the 1F altar.
 
 # Milestone Audit
 - Sighting 1: Burned Tower (Complete).
