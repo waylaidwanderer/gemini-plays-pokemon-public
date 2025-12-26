@@ -1,16 +1,15 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Done) -> 4. Route 38 (Current) -> 5. Route 14 -> 6. Tin Tower 1F.
-- Progress:
-    - Sighting 1 (Burned Tower): Done.
+- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower 1F.
+- Objective: Trigger Sighting 3 on Route 42 island.
+- Hypothesis: Trigger requires approaching from a specific direction (possibly from the water) or standing on a specific tile not yet hit.
+- Lessons Learned:
+    - Pokedex Navigation: Alphabetical (A-Z). Suicune is after Sudowoodo.
+    - Scripted vs Roaming: Suicune is scripted until Sighting 5. Pokedex AREA is the source of truth for the current sighting location.
+    - Menu Rule: If a menu check takes more than 3 turns, exit and use a tool or move on.
+- Milestones:
     - Sighting 2 (Cianwood): Turn 20088. Fled.
     - Eusine Battle (Cianwood): Turn 20110. Won.
     - Clear Bell: Obtained Turn 21217.
-    - Sighting 3 (Route 42): Completed Turn 21340 (Island sweep triggered flee).
-    - Sighting 4 (Route 38): Heading there now. Start Turn 21387.
-- Lessons Learned:
-    - Pokedex Navigation: Alphabetical (A-Z). Suicune is after Sudowoodo.
-    - Scripted vs Roaming: Suicune is scripted until Sighting 5. Pokedex AREA is reliable.
-    - Menu Stagnation: Do not loop in menus. Pivot if stuck.
 
 ## Tile Mechanics
 ### Route 42
