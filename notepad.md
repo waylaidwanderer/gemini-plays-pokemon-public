@@ -13,21 +13,21 @@
 - WARP_CARPET_LEFT: Traversable. Transition between maps/gatehouses. [Verified]
 
 # General Lessons
-- Scripted Events: Scripted encounters (like Suicune sightings) are based on visible sprites in the Map Objects list, not hidden tile triggers. If the sprite is not present, the event cannot be triggered by walking. [Turn 22217]
-- Ecruteak Geography: There are two buildings in northern Ecruteak. The NW building leads to the Burned Tower. The NE building (Barrier Station) leads to the Tin Tower. The Wise Trio appears in the Barrier Station after getting the Clear Bell. [Turn 22217]
+- Scripted Events: Sightings are sprite-based. If a sprite is missing, the event cannot trigger. [Turn 22217]
+- Ecruteak Geography: NW = Burned Tower; NE = Barrier Station (leads to Tin Tower). Wise Trio is in Barrier Station. [Turn 22217]
+- Root Hypothesis Failure: If a scripted sequence stalls (e.g., Suicune sightings), the assumed order or prerequisite might be wrong. Pivot to the next major hurdle (Wise Trio battle) instead of looping. [Turn 22321]
 
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
     - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
-- Sighting 3: Route 42 Central Island.
-    - Status: Explored grove [Turns 22256-22291]. No sprite found. [Turn 22311]
-- Sighting 4: Route 36 (Sudowoodo junction).
-    - Status: Explored junction (35, 9). No sprite found. [Turn 22311]
-- Sighting 5: Tin Tower 1F (Final Battle).
+- Sighting 3 & 4 (Stalled): Route 42 Island & Route 36 Junction.
+    - Status: Thoroughly explored both locations multiple times [Turns 22256-22315]. No sprites appeared. 
+    - Failed Attempts: ~10 separate sweeps of both areas.
+    - New Hypothesis: These sightings might be optional or triggered by the Wise Trio battle, OR they were somehow skipped/completed without notice.
+- Sighting 5 (Goal): Tin Tower 1F (Final Battle).
     - How: Enter Tin Tower 1F via the NE Barrier Station in Ecruteak City. Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Current Status: Suicune missing from Route 42 and 36. Heading to Ecruteak to consult Wise Trio. [Turn 22311]
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
@@ -41,4 +41,4 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM).
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM). Stalled at Turn 22315. Pivoting to Wise Trio.
