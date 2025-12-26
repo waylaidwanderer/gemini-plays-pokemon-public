@@ -114,3 +114,7 @@
 - **Action:** Use Hyper Potion on Muscle.
 - **Reasoning:** Muscle (24 HP) is in kill range. Xatu is faster. Healing is mandatory.
 - **Next:** Navigate Bag -> Select Hyper Potion -> Use on Muscle.
+- **Turn 19142:** Using slow_press to Apply Hyper Potion on Muscle.
+- **Sequence:** A (Item) -> A (Use) -> A (Muscle).
+- **Goal:** Full Health (205/205).
+- **Next:** Battle continues. Muscle attacks.
