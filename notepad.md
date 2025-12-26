@@ -54,3 +54,7 @@
 - Conclusion: Simple map reset (Mt. Mortar) failed. Sprite is not spawned.
 - Plan: 'Hard Reset' - Fly to Mahogany, enter Route 42 from East, Surf West to island, approach from East side.
 - Start Turn: 23700.
+
+# Lessons Learned
+- FLY Map Navigation: The FLY map is a grid. Cities are selected by moving the cursor (Up/Down/Left/Right) to the city icon and pressing A. The Johto map layout determines relative positions (e.g., Ecruteak is North of Violet, Mahogany is East of Ecruteak).
+- Suicune Sighting 3: Simple map resets via Mt. Mortar may not trigger the event. Systematic sweeping of the island also failed. Testing a "Hard Reset" by entering Route 42 from the East (Mahogany Town) after Flying.
