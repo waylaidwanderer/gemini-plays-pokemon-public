@@ -165,3 +165,7 @@
 - **Crisis:** HP critical. Psychic (80-95 dmg) could kill next turn.
 - **Action:** Opening Pack.
 - **Plan:** MUST use Hyper Potion. Full Heal/Bitter Berry is too risky (Muscle might die to Psychic this turn). Healing HP is priority.
+- **Turn 19153:** Move Menu open. Backing out to use Item.
+- **Action:** B (Back) -> Down (Select Pack) -> A (Open Pack).
+- **Goal:** Open Bag to access Hyper Potions.
+- **Status:** Muscle 97/205 (Confused). Critical HP.
