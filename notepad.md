@@ -3,8 +3,9 @@
 - **Plan:** Defeat Elite Four Koga.
 - **Opponent:** Koga (Poison Type).
 - **Strategy:** Muscle leads. Garnet for Forretress (4x Fire weak).
-- **Current State:** Fighting Forretress (Red HP).
-- **Battle Plan:** Use ThunderPunch. Cursor is on Ice Punch (Slot 3), so move Up to Slot 2.
+- **Current State:** About to fight Muk.
+- **Battle Plan:** Decline switch. Use Strength (Physical, Neutral).
+- **Contingency:** If Muk uses Acid Armor, switch to ThunderPunch (Special).
 
 # Team Status
 - Muscle (Lv66): ThunderPunch/Ice Punch (vs Crobat), Strength.
