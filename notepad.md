@@ -48,3 +48,5 @@
 - Island entry via Cut at (24, 13).
 - (28, 16): Berry Tree
 - (27, 16): Berry Tree
+## Violet City (10_5)
+- (27, 23): Ledge gap. Allows passage north without hopping the ledge.
