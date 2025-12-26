@@ -1,6 +1,6 @@
 # Operation: Elemental Upgrade
-- **Status:** Entering Route 27 (East Side).
-- **Plan:** Head East on Route 27 -> Enter Victory Road Gate.
+- **Status:** Surfing on Route 27 (East Side).
+- **Plan:** Surf East to (60, 10) -> Land and enter Route 26.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
