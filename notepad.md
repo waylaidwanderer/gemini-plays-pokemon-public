@@ -147,3 +147,6 @@
 - **Turn 19149:** Cleared heal text.
 - **Next:** Xatu attacks (likely Psychic).
 - **Goal:** Survive attack, then Fight -> Strength. Hopefully breakthrough confusion.
+- **Turn 19150:** Will used Max Potion. Xatu back to 100% HP. Muscle 100% HP (Confused).
+- **Action:** Select FIGHT.
+- **Next:** Select Strength. Hope to break through confusion.
