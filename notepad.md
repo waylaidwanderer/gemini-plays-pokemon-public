@@ -55,3 +55,9 @@
 - CAVE: Warp to Mount Mortar. [Verified]
 - WARP_CARPET_LEFT: Warp to Ecruteak Gatehouse. [Verified]
 - FLOOR_UP_WALL: Impassable. Visual boundary. [Verified]
+
+# Suicune Hunt Strategy (Post-Reset)
+- Objective: Trigger Sighting 3 on Route 42 central island.
+- Hypothesis: Hard Map Reset (Fly to Ecruteak and return) will re-initialize the script.
+- Test 1 (Turn 23203): Approach (26, 14) from the north after clearing the tree.
+- Result: TBD.
