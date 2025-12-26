@@ -13,30 +13,25 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Hypothesis): Route 42 Central Island. [Turn 21977]
-  - Prerequisite: If Clear Bell is held, must defeat Wise Trio in Ecruteak first.
+- Hypothesis: The "Wise Trio" are the Sages in the Tin Tower gatehouse (4_1) at (4, 6), (1, 1), and (1, 15). Defeating them is required to trigger Sighting 3 if the Clear Bell is held. [Turn 22040]
+- Sighting 3 (Goal): Route 42 Central Island. Triggered after defeating the Wise Trio.
 - Sighting 4 (Hypothesis): Route 36 (Sudowoodo junction).
 - Sighting 5 (Hypothesis): Tin Tower 1F (Final Battle).
-  - Prerequisite: Clear Bell (Obtained).
-  - Prerequisite: All 4 scripted sightings must be triggered.
 - Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 
 # Lessons Learned
 - PC Mechanics: "MOVE PKMN W/O MAIL" is best for inventory checks.
 - Interaction: Never mix directional inputs and action buttons in the same turn.
 - Suicune Sequence: Crystal sequence is fixed: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Navigation: If stuck in a menu loop, verify cursor position and manual button indices. Fixed menu_navigator_v3_fixed_borders (Turn 21992, 22008).
-- [Turn 21988] Tool Failure: menu_navigator_v3_fixed_borders overshot POKEMON and selected GEM because it matched status text at the bottom. Fixed in Turn 22008.
+- Navigation: Use manual presses or a robust tool to avoid looping. Fixed menu_navigator_v3_fixed_borders (Turn 22008).
+- Multi-map Navigation: find_path_v2 only works on the current map. Use manual planning for paths through warps.
 
 # Tasks & Progress
+- Goal: Defeat the Wise Trio Sages in the Tin Tower gatehouse (4_1). [Start Turn 22040, Timestamp: Friday, Dec 26, 2025 at 12:35 AM]
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
-- Observation: Tin Tower 1F Sages (11, 11), (14, 6), and (5, 9) provided lore but no battles. [Turn 22026]
-- Strategy: Re-check Wise Trio room (4_2) and gatehouse Sage (4_1) after entering Tin Tower. [Turn 22026]
-- Observation: Wise Trio Room (4_2) appears empty at Turn 22030. [Turn 22030]
-- Observation: Tin Tower 1F Sage (5, 9) said: "Could it mean the legendary POKéMON are testing us humans?" [Turn 22023]
-- Hypothesis: The Wise Trio might appear in 4_2 after a specific trigger, or the battle occurs elsewhere. [Turn 22030]
-- Hypothesis: Wise Trio Room (4_2) is empty because a prerequisite (like talking to Eusine or triggering Route 42) is missing. [Turn 22034]
-- Strategy: Check Ecruteak Pokemon Center for Eusine, then head to Route 42. [Turn 22034]
+- Observation: Tin Tower 1F Sages provided lore but no battles. [Turn 22026]
+- Observation: Wise Trio Room (4_2) is empty. [Turn 22030]
+- Discovery: Three Sages found in gatehouse (4_1) at (4, 6), (1, 1), and (1, 15). Only (4, 6) has been talked to. [Turn 22040]
