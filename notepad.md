@@ -14,8 +14,8 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 Central Island.
-    - Status: Searching island north of cave (approx X:24-31, Y:6-8).
-    - Strategy: Suicune is a visible overworld sprite. Approach it to trigger the flee event. Eusine will appear afterward.
+    - Status: Not found. Systematic sweep of grove (Turns 22580-22620) and plateau (Turns 22621-22631) turned up nothing. Sprite is missing.
+    - Hypothesis: Missing a prerequisite or already triggered. Moving to Route 36 to verify.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell (Obtained).
 - Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
