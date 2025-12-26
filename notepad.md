@@ -16,10 +16,12 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 (In Progress)
-    - Strategy: Systematic sweep of central island floor tiles after map reset (Turn 22903).
+    - Strategy: Hard Map Reset via Mt. Mortar (28, 9). 
+    - Plan: Enter/exit Mt. Mortar at (28, 9), then step on (27, 14) or (26, 14) while not surfing.
     - Failed Hypotheses:
         - Adjacency to (26, 13) (Headbutt Tree) did not trigger.
         - Interaction (Headbutt) with (26, 13) did not trigger (Outcome: Spearow).
+        - Simple route reset (Ecruteak) + 100% floor sweep did not trigger.
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
