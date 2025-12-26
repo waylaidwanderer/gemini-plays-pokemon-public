@@ -144,3 +144,6 @@
 - **Reasoning:** Cursor is already on Hyper Potion. Scrolling for Full Heal is risky/slow. Healing to 205 HP protects against Critical Hit Psychic (which deals ~160+).
 - **Sequence:** A (Item) -> A (Use) -> A (Muscle).
 - **Next:** Muscle heals to full. Xatu attacks. Muscle (Confused) tries to attack next turn.
+- **Turn 19149:** Cleared heal text.
+- **Next:** Xatu attacks (likely Psychic).
+- **Goal:** Survive attack, then Fight -> Strength. Hopefully breakthrough confusion.
