@@ -37,6 +37,8 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Goldenrod Dept Store 5F. In transaction menu.
-Goal: Buy TM33 (Ice Punch) and TM41 (ThunderPunch). Cost: 6000. Current Money: 6619.
+- Status: Goldenrod Dept Store 5F. Buying TMs.
+Bought TM41 (ThunderPunch).
+Next: Buy TM33 (Ice Punch).
+Money: 3619.
 Then: Teach moves to Muscle and Fly to Indigo Plateau.
