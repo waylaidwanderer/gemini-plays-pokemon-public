@@ -37,3 +37,4 @@
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
 - **Encounter:** Wild Graveler at (8, 54).
+- **Encounter:** Wild Sandslash at (9, 36).
