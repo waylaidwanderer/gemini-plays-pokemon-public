@@ -15,7 +15,7 @@
 - Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). landing at (26, 15) from south.
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
-- Current Reset Strategy: Mt. Mortar Middle Entrance Reset.
+- Current Reset Strategy: Mt. Mortar Middle Entrance Reset. [Started Turn 23254]
     1. Fly to Mahogany Town.
     2. Surf to Mt. Mortar middle entrance (28, 9).
     3. Enter and exit immediately to re-initialize Route 42 script.
