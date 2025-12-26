@@ -20,17 +20,10 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Reflection (Turn 19007):**
-  - **Execution:** No deferred tasks.
-  - **Notepad:** Consolidated and current.
-  - **Map:** Markers are up to date (new path at x=12 marked).
-  - **Tools:** Manual battle tools are sufficient.
-  - **Goal:** Defeat Rival Silver -> Exit Victory Road.
-  - **Errors:** Battle menu navigation requires careful tracking of cursor memory.
-
-- **Status:** Battle with Rival Silver. Muscle vs Feraligatr.
-- **Condition:** Muscle (124/201 HP, Speed fell). Feraligatr (Critical HP).
-- **Menu State:** Move Menu Open. Cursor on DIG (Slot 2).
-- **Action:** Select STRENGTH (Slot 1) to finish Feraligatr.
-- **Sequence:** Up (to Strength) -> A (Select).
-- **Remaining:** Magneton.
+- **Status:** Battle with Rival Silver. Feraligatr defeated. Silver sending out Magneton.
+- **Action:** Decline switch (Keep Muscle in).
+- **Matchup:** Muscle (Lv61 Machoke) vs Magneton (Electric/Steel).
+- **Condition:** Muscle (109/201 HP, Speed -1). Not Confused.
+- **Strategy:** Use Dig (Slot 2).
+  - **Reasoning:** Ground is 4x Super Effective against Electric/Steel. OHKO guaranteed.
+- **Goal:** Defeat Magneton and win the battle.
