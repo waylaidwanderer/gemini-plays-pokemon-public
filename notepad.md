@@ -70,3 +70,8 @@
 - **Status:** Muscle Revived (107 HP). Garnet active.
 - **Expectation:** Aerodactyl attacks Garnet. Garnet likely faints.
 - **Next:** Switch Muscle (107 HP) in. Resume Rock Smash Attrition.
+- **Turn 19434:** Aerodactyl missed! Garnet survived (81 HP). Muscle is Revived (107 HP).
+- **Plan:** Sacrifice Garnet for safe switch.
+- **Action:** Use Quick Attack (Guaranteed chip damage via priority).
+- **Reasoning:** Garnet is slower than Aerodactyl. Quick Attack hits first. Smokescreen would fail if she dies first.
+- **Outcome:** Garnet deals damage -> Faints -> Muscle enters safely.
