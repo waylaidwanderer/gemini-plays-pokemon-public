@@ -16,6 +16,5 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Selling Strategy:** Selling unwanted TMs (Fury Cutter) to fund League supplies.
-- **Purchase Plan:** Buy Hyper Potions (x20), Revives (x20), Full Heals (x10) at 2F.
+- **Purchase Plan:** Budget is ¥8619. Prioritize Revives (target 5-6 total) and Hyper Potions. Full Heals are sufficient (x8).
 - **Gen 2 Mechanics:** Ghost is Physical, Dark is Special. Sneasel (Dark/Ice) has bad Sp.Atk, so Dark moves like Thief are bad. Shadow Ball (Ghost) is good.
