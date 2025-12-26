@@ -42,3 +42,6 @@
 - **Turn 1 Result:** Umbreon fainted. Muscle (54/211 HP).
 - **Incoming:** Vileplume.
 - **Decision:** Decline switch. Muscle stays in. Strategy: Strength. If Muscle faints -> Fodder -> Revive.
+- **Turn 2:** Muscle (54/211 HP) vs Vileplume.
+- **Move:** Strength (Slot 1).
+- **Reasoning:** Cross Chop is resisted (0.5x). Strength (80 Power, Neutral) > Dig (60 Power, Neutral). Cursor at Slot 4, moving to Slot 1.
