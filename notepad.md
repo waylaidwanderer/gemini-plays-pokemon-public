@@ -66,4 +66,5 @@
 - Plan: Cut tree at (24, 13), walk to (26, 14).
 - Turn 23791: Entered and exited Mt. Mortar (middle entrance) to reset map script.
 - Turn 23798: Tree at (24, 13) cleared. Moved to (26, 14). No trigger.
-- Turn 23800: Attempting (28, 15) near Apricorn trees. Result of Reset Hypothesis: [Pending].
+- Turn 23801: Attempted (28, 15) near Apricorn trees after Mt. Mortar reset. No trigger.
+- Plan: Check (27, 15) and (29, 15), then Fly to Ecruteak for a hard reset if needed.
