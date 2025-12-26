@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Trigger Sighting 3 flee event by walking toward the Apricorn trees (Y=16) from the north (Mt. Mortar entrance).
+- Strategy: Trigger Sighting 3 flee event by approaching the Apricorn trees (Y=16) from the water (Surf) or by walking south from the Mt. Mortar entrance.
 - Lessons Learned:
     - Pokedex: Alphabetical order places SUICUNE between SUDOWOODO and SUNKERN.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
@@ -23,9 +23,8 @@
 - Arthur (Thursday): Located on Route 36. Provides Hard Stone.
 
 # Repetitive Task: Suicune Island Sweep
-- Start Turn: 21556 (Current Turn: 21612)
-- Status: Abandoning "facing" hypothesis. Transitioning to "Surfing around island" approach.
-- Strategy: Surf from (33, 11) and navigate the perimeter of the island.
+- Start Turn: 21556 (Current Turn: 21618)
+- Status: Surfing around the island perimeter to test water-based triggers.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
@@ -37,7 +36,7 @@
 - FLOOR_UP_WALL: Impassable ledge (one-way down). [Verified]
 
 # Contingency Plan
-- If sweep fails to trigger Suicune, I will:
+- If Surf approach fails, I will:
     1. Re-verify Pokedex AREA map for exact location.
     2. Check Route 36 (Sighting 4) to see if sequence advanced.
     3. Visit Tin Tower (Sighting 5) if others are skipped.
