@@ -21,8 +21,11 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
-- **Condition:** Muscle (104/201 HP) is Confused.
-- **Opponent:** Golbat used Confuse Ray and Wing Attack.
-- **Action:** Attempt Strength (Slot 1) again.
-- **Strategy:** Power through confusion. Muscle is the only team member capable of taking hits.
+- **Condition:** Muscle (71/201 HP) is Confused.
+- **Risk Assessment:** 
+  - Wing Attack does ~33 damage. 
+  - Self-hit does ~20-30 damage.
+  - Worst case (Self-hit + Wing Attack): ~60 damage. Muscle survives with ~10 HP.
+- **Action:** Gamble on Strength (Slot 1).
+- **Contingency:** If Muscle gets low, use Max Potion next turn.
 - **Goal:** Defeat Golbat.
