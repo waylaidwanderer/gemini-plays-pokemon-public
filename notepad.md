@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** Fighting Hitmontop.
-- **Battle Plan:** Use Strength (Physical, targets lower Def). Level advantage is huge.
+- **Current State:** Fighting Hitmontop (Underground).
+- **Battle Plan:** Use Strength. Expecting miss due to Dig, but Muscle can tank the hit. Switching is inefficient for low damage.
 
 # Team Status
 - Muscle (Lv67): 208/222 HP.
