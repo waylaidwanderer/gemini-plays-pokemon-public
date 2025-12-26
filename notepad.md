@@ -50,4 +50,5 @@
 # Lessons Learned
 - FLY Map Navigation: Grid-based. Relative positions match region map.
 - Suicune Sighting 3: Simple map resets (Mt. Mortar) failed. Approaching from East (Mahogany) is required to trigger the island event.
-- Trigger Logic: The event likely requires walking on a specific tile (possibly 26, 14) while approaching from the right side of the grove.
+- Trigger Logic: The event likely requires walking on a specific tile (possibly 26, 14) while approaching from the right side of the grove. Interaction (A button) with the trees may also be required.
+- Stagnation: Spending too much time on one trigger (200+ turns) is inefficient. If Pokedex confirms location but sprite won't load, checking other sightings is the next logical step.
