@@ -21,3 +21,5 @@
 # Week Siblings Strategy
 - Arthur (Thursday): Route 36 (31, 7). Provides Hard Stone. [Urgent - Thursday 10:31 PM]
 - How to reach Arthur: Fly to Violet City. From the Pokemon Center, head south to the main path, then west through the gatehouse to Route 36. Head northeast towards the Route 37 gate (northeast corner of the route). Talk to the NPC standing near the trees.
+- Suicune Hunt Sighting 3 Attempt (Route 42 Island): Swept all floor tiles in the grove (Turns 21733-21741). Flee event did not trigger.
+- Suicune Hunt Start: Turn 21694.
