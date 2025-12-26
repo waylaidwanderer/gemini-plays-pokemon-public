@@ -11,9 +11,12 @@
 - PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
 
 # Strategy: Suicune Hunt (Crystal Version)
+- Start Turn: 22061
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3 (Goal): Route 42 Central Island. Suicune should flee when approached.
+  - Target Area: Southern grove with Apricorn trees (27, 16), (28, 16), (29, 16).
+  - Hypothesis: Stepping on a specific tile near the trees triggers the event.
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
