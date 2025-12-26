@@ -31,3 +31,5 @@
 - **Encounter:** Fled from Golbat at (3, 64).
 - **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
 - **Strategy:** Detouring via (7, 61) to access the eastern corridor.
+- **Exploration:** North path at x=11 blocked by wall (row 52).
+- **Strategy:** Exploring eastern corridor (x=15) via connection at row 54.
