@@ -55,3 +55,7 @@
 - **Action:** B (Clear Text), A (Use Super Potion on Muscle again).
 - **Goal:** Top off Muscle's HP.
 - **Next:** Heal Kunai (32/65 HP).
+- **Turn 19192:** Using Super Potion on Muscle (2nd).
+- **Action:** Press A (Use).
+- **Expected Result:** Muscle heals to full (205/205).
+- **Next:** Heal Kunai.
