@@ -1,9 +1,13 @@
 # Operation: Dragon Slayer
-- **Current State:** Healing Muscle with Hyper Potion.
-- **Action:** Select Hyper Potion -> Target Muscle (Slot 1).
-- **Sequence:** Up (Item) -> A, A -> Up x3 (Party Slot 4 to 1) -> A (Heal) -> B (Exit).
-- **Team Update:** All Pokemon Full HP. Ready for Lance.
-- **Next:** Exit Menu -> Navigate to Lance.
+- **Current State:** Ready to Challenge Lance.
+- **Action:** Exit Menus. Navigate to Lance's Room.
+- **Team Status:** All Full HP. Muscle Lv68.
+- **Lance Strategy:**
+    - **Gyarados:** ThunderPunch.
+    - **Dragonites:** Ice Punch.
+    - **Charizard:** ThunderPunch or Gyarados Surf.
+    - **Aerodactyl:** Ice Punch / Surf.
+- **Items:** 4 Revives, 4 Hyper Potions, 9 Lemonades.
 
 # Team Status
 - Muscle (Lv68): Full.
