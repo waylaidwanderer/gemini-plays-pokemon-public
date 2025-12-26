@@ -1,7 +1,7 @@
 # Operation: Elemental Upgrade
 - **Status:** Resupplying at Goldenrod Dept Store.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
-- **Immediate Task:** Buy Lemonade (x10) -> Fly to Indigo Plateau -> Challenge Elite Four.
+- **Immediate Task:** Exit Dept Store -> Fly to Indigo Plateau -> Challenge Elite Four.
 
 # Team Status
 - Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
