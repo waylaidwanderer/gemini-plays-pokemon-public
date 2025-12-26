@@ -1,17 +1,13 @@
 # Operation: Elemental Upgrade
-- **Status:** Teaching Ice Punch to Muscle (Replacing Rock Smash).
-- **Completed:**
-    - Traveled Kanto -> Johto.
-    - Sold HP Up & Full Heals (~6000 yen).
-    - Bought TM33 (Ice Punch) & TM41 (ThunderPunch).
-    - Taught ThunderPunch (Replaced Dig).
+- **Status:** Handling Gaven's phone call. Operation Elemental Upgrade Complete!
+- **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 - **Next Steps:**
-    1. Finish learning Ice Punch.
-    2. Verify final moveset: Cross Chop, Strength, Ice Punch, ThunderPunch.
-    3. Fly to Indigo Plateau for Rematch.
+    1. Finish phone call.
+    2. Fly to Indigo Plateau.
+    3. Rematch Elite Four.
 
 # Team Status
-- Muscle (Lv65): Cross Chop, Strength, ThunderPunch, (Learning Ice Punch).
+- Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
 - Others: Fodder.
 
 # Tile Mechanics
