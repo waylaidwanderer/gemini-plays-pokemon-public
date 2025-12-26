@@ -40,7 +40,10 @@
 - Menu Navigation: Use menu_navigator_v3_fixed_borders to handle borders.
 - Task: Route 42 Suicune Search/Apricorn Harvest. [Start Turn 21898]
 - Inventory: Hard Stone confirmed in bag (Turn 21901).
-- Suicune Sighting 3 Mystery: Sprite not appearing on island (26, 14). Checking north bank (28, 9) next.
+- Suicune Sighting 3 Mystery: Sprite not appearing on island (26, 14). 
+- Troubleshooter Insight (Turn 21907): Since I have 3 Green, 3 Pink, and 2 Yellow Apricorns (harvested from this island earlier), the sighting at Route 42 was likely triggered already, even if I missed the animation.
+- Strategy: If Suicune is not at Mt. Mortar entrance (28, 9), I will check Route 36 (Sudowoodo spot) and then attempt to enter Tin Tower (possess Clear Bell).
+- Task: Final sweep of Route 42 for Suicune. [Start Turn 21909]
 - Reflection (Turn 21907):
   1. Immediate Execution: Deferred using npc_troubleshooter_agent for Suicune mystery. Performing now.
   2. Notepad Hygiene: Organized. Added Suicune search task tracking.
