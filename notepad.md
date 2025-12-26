@@ -37,12 +37,11 @@
 
 # Plan: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: On Fly map. Cursor at Goldenrod City (Turn 20966).
+- Current Status: On Fly map. Cursor at Olivine City (Turn 20968).
 - Strategy:
-  1. Navigate to Olivine City (Goldenrod -> Up -> Ecruteak -> Up -> Olivine).
-  2. Press A to Fly.
-  3. Walk North to Route 39 -> Route 38 West.
-  4. Trigger Suicune flee at (3, 10).
+  1. Press A to Fly.
+  2. Walk North to Route 39 -> Route 38 West.
+  3. Trigger Suicune flee at (3, 10).
 
 # Lessons Learned
 - Fly Map Vertical Snapping: Vertical movement snaps to the closest city in the new row.
