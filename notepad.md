@@ -36,3 +36,8 @@
 - **Action:** Use Rock Smash (Slot 3).
 - **Reasoning:** Muscle survives one more hit. Rock Smash to finish or weaken further.
 - **PP:** Rock Smash 7/15.
+- **Turn 19425:** Garnet active.
+- **Action:** Select PACK -> Use Revive on Muscle.
+- **Reasoning:** Cannot waste a turn attacking with Garnet (fodder). Must revive Muscle while Garnet takes the hit.
+- **Outcome:** Muscle will be at 50% HP. Garnet likely faints.
+- **Next:** Switch Muscle in. Resume Rock Smash.
