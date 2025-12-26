@@ -1,7 +1,7 @@
 # Operation: Elemental Upgrade
 - **Status:** Resupplying at Goldenrod Dept Store.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
-- **Immediate Task:** Sell TMs at 5F Counter -> Elevator to 2F -> Buy Hyper Potions/Revives -> Fly to Indigo Plateau.
+- **Immediate Task:** Navigate to TM Pocket (Right x2) -> Sell TMs -> Elevator to 2F -> Buy Hyper Potions/Revives -> Fly to Indigo Plateau.
 
 # Team Status
 - Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
