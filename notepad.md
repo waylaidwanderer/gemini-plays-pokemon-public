@@ -134,3 +134,7 @@
 - **Action:** Press A.
 - **Result:** Muscle heals to full (208/208). Poison persists.
 - **Next:** Back out of menus -> End turn (Muk attacks).
+- **Turn 19246:** Muscle fully healed (200HP recovered).
+- **Action:** Press B to advance text/turn.
+- **Result:** Turn ends. Muk attacks.
+- **Next:** Muscle (Poisoned) vs Muk. Use Dig (Super Effective).
