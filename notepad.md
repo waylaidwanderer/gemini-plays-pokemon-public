@@ -28,6 +28,7 @@
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
 - **Encounter:** Wild Onix at (15, 56). Fled successfully.
 - **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Analysis:** 2F West (current location) is isolated by walls at x=2.
-- **Hypothesis:** The path to 2F East is via a different ladder in the 1F East Corridor (x=18), specifically North of y=51 which I previously bypassed.
-- **Strategy:** Descend ladder at (1, 35) to return to 1F. Navigate to x=18 corridor and explore North.
+- **Status:** Returned to 1F West (1, 49).
+- **Analysis:** 2F West was a dead-end loop with an item.
+- **Strategy:** Navigate to 1F East Corridor (x=18) via the central junction at (11, 54).
+- **Goal:** Explore North of (18, 51) in the East Corridor, suspecting a missed ladder to 2F East.
