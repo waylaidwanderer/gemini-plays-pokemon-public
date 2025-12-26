@@ -58,3 +58,7 @@
 - **Context:** Muscle fainted. Dragonite must recharge next turn.
 - **Next Turn Goal:** Use MAX REVIVE on Muscle.
 - **Note:** This is the critical moment of the Max Zombie strategy.
+- **Turn 19388:** Zenith enters. Dragonite recharging.
+- **Action:** Select PACK.
+- **Goal:** Use Max Revive on Muscle.
+- **Plan:** Revive Muscle this turn (safe). Next turn Dragonite KOs Zenith -> Muscle sweeps.
