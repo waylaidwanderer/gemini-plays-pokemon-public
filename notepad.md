@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Crossing border from Route 27 (0, 6) into New Bark Town. Next: Fly to Goldenrod.
+- Status: In New Bark Town (19, 6). Landing to Fly to Goldenrod.
