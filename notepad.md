@@ -5,12 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18851)
-- **Battle:** Fighting Cooltrainer Beth (Rapidash Lv36).
-- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire).
-- **Status:** Gyarados (76/111). Rapidash damaged.
-- **Action:** Using Surf (Slot 4).
+- **Battle:** Defeated Cooltrainer Beth (Rapidash).
+- **Status:** Gyarados (76/111). Muscle Lv61.
 - **Location:** Route 26 (9, 8).
-- **Next:** Defeat Cooltrainer Beth. Explore West path to Item. Check House at (7, 5).
+- **Next:** Enter House at (7, 5). Then explore path to Item at (9, 15).
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
