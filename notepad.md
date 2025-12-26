@@ -14,8 +14,9 @@
 
 # Suicune Hunt Strategy (Crystal)
 - Started: Turn 22256 (Friday, Dec 26, 2025).
-- Trigger Logic: Proximity-based sighting sequence. Suicune roams ONLY after the Tin Tower event if not caught.
-- Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). Landing at (26, 15) from south is the recommended approach.
+- Trigger Logic: Fixed sightings at Burned Tower, Cianwood, Route 42, and Route 36.
+- Clear Bell: In inventory (obtained Turn 22639).
+- Sighting 3 (Route 42): Attempting trigger on central island. Landing at (26, 15) and sweeping tiles (24-30, 12-17).
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
 
@@ -23,13 +24,12 @@
 - Turn 23337: Ecruteak/Route 42 West Gatehouse hopping started.
 - Turn 23387: Route 36 junction attempt (failed). Agent confirmed Route 42 sighting is mandatory.
 - Turn 23389: Flying to Ecruteak to restart Route 42 sequence.
+- Turn 23412-23462: Island sweep on Route 42. Verified tiles: (24, 12-14), (25, 14), (26, 14-15).
 
 ## Current Sighting Plan: Route 42
-1. Fly to Ecruteak City.
-2. Enter Route 42 from the West Gatehouse.
-3. Surf to the central island.
-4. Approach the Apricorn trees (approx. 26, 14).
-5. If trigger fails, perform map reset (Ecruteak boundary).
+1. Finish island sweep (Tiles remaining: (27, 14), (25, 15), (27-30, 15), (26, 16-17), (30, 16-17), (27-29, 17)).
+2. If trigger fails, go to Wise Trio Room in Ecruteak City to verify prerequisites.
+3. Approach Route 36 junction approach from Violet City side if island remains dead.
 
 # Type Effectiveness (Verified)
 - Fire -> Grass: Super Effective
