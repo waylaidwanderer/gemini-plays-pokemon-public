@@ -49,3 +49,6 @@
 - **Mechanic:** In Gen 2, Hyper Beam requires recharge even on KO.
 - **Opportunity:** Lance's Gyarados cannot move next turn.
 - **Plan:** Send in Mistral (Sacrifice). Use turn to Revive Muscle safely. Then Mistral faints -> Muscle returns.
+- **Turn 19355:** In Pack menu. Scrolling down to find Revives.
+- **Status:** Mistral active (Fodder). Gyarados recharging (free turn).
+- **Goal:** Revive Muscle.
