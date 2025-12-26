@@ -1,10 +1,13 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Sending out Muscle (112/225 HP, Paralyzed).
-- **Battle Plan:** Select Muscle. Use Cross Chop (Slot 4).
-- **Matchup:** Muscle (Lv68) vs Houndoom (Lv47). Cross Chop is SE. Muscle resists Dark.
-- **Status:** Gyarados fainted. Muscle is the last effective Pokemon.
-- **Menu State:** "Which PKMN?" menu. Cursor on Muscle.
+- **Current State:** Fighting Houndoom (Lv47, Red HP).
+- **Battle Plan:** Use Cross Chop (Slot 4) or Strength (Slot 1).
+- **Logic:** Assuming cursor is at Slot 4 (last used) or Slot 1 (reset). Setting current_slot=4 means:
+    - If cursor at 4 -> Uses Cross Chop (SE).
+    - If cursor at 1 -> Uses Strength (Neutral, Physical).
+    - Both should KO.
+- **Matchup:** Muscle (Lv68) vs Houndoom (Lv47).
+- **Status:** Muscle Paralyzed.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
