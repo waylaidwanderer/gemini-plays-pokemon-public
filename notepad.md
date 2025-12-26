@@ -44,9 +44,8 @@
 
 # Timestamps & Tracking
 - Suicune Hunt Phase 3 (Route 42) started Turn 22256.
-- Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), and exhaustive sweep.
-- Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate.
-- Current Attempt: Hard Map Reset via Fly (Ecruteak City). Returning to Route 42 central island to trigger Sighting 3.
+- Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), exhaustive sweep, and Hard Map Reset (Fly).
+- Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate, Ecruteak City (Fly).
 
 # Route 42 Tile Mechanics
 - WATER: Traversable with HM03 Surf. [Verified]
@@ -56,7 +55,7 @@
 - WARP_CARPET_LEFT: Warp to Ecruteak Gatehouse. [Verified]
 - FLOOR_UP_WALL: Impassable. Visual boundary. [Verified]
 
-# Suicune Hunt Strategy (Post-Reset)
+# Suicune Hunt Strategy (Post-Reset) - Started Turn 23170
 - Objective: Trigger Sighting 3 on Route 42 central island.
 - Hypothesis: Hard Map Reset (Fly to Ecruteak and return) will re-initialize the script.
 - Test 1 (Turn 23203): Approach (26, 14) from the north after clearing the tree.
