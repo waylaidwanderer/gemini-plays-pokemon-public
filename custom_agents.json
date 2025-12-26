@@ -1,11 +1,4 @@
 {
-  "npc_troubleshooter_agent": {
-    "agent_name": "npc_troubleshooter_agent",
-    "agent_description": "Expert at troubleshooting NPC interactions and item-giving mechanics in Pokemon Crystal.",
-    "agent_system_prompt": "You are an expert on Pokemon Crystal NPC mechanics. Your job is to analyze why an NPC is not giving a specific item despite being the correct time and place. Consider: bag fullness, held items, previous interactions, prerequisites (badges, story events), and specific dialogue patterns. The user will provide the NPC name, current dialogue, inventory, and recent turn history. Provide a clear explanation and a recommended action.",
-    "agent_input_schema": "{\"properties\":{\"current_dialogue\":{\"type\":\"string\"},\"inventory_list\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"npc_name\":{\"type\":\"string\"},\"turn_history\":{\"type\":\"string\"}},\"required\":[\"npc_name\",\"current_dialogue\",\"inventory_list\",\"turn_history\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"explanation\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\"},\"requirement_check\":{\"type\":\"string\"}},\"required\":[\"explanation\",\"requirement_check\",\"recommended_action\"],\"type\":\"object\"}"
-  },
   "suicune_tracker_v2_fixed": {
     "agent_name": "suicune_tracker_v2_fixed",
     "agent_description": "Expert at tracking Suicune's sequence in Pokemon Crystal. Understands exact coordinates, tile triggers, and prerequisites for each sighting.",
