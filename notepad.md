@@ -40,3 +40,4 @@
 - **Analysis:** The 2F West area is isolated by ledges. The ladder at (1, 35) is the only exit.
 - **Strategy:** Descend ladder at (1, 35) to return to 1F.
 - **Next:** Navigate to 1F East Corridor (x=18). Go NORTH from (18, 51) into the unexplored area to find the path to 2F East.
+- **Encounter:** Wild Golbat at (17, 56).
