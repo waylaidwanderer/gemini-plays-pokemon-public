@@ -117,3 +117,9 @@
 - **Action:** Press B to advance text.
 - **Next:** Fight -> Strength.
 - **Matchup:** Muscle (84 HP) vs Hitmonlee. Muscle should outspeed and OHKO due to low Def.
+- **Turn 19286:** Hitmonlee defeated (OHKO Strength).
+- **Incoming:** Hitmonchan (Lv 42).
+- **Action:** Decline switch (Down -> A).
+- **Matchup:** Muscle (84/208 HP) vs Hitmonchan.
+- **Strategy:** Strength. Muscle resists Fighting. Hitmonchan's elemental punches use its low SpAtk. Muscle is safe.
+- **Goal:** Sweep Bruno with Muscle.
