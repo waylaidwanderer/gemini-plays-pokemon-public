@@ -94,3 +94,7 @@
 - **Expectation:** Lance outspeeds and KOs my Gyarados (24 HP).
 - **Result:** Free switch to Muscle (105 HP).
 - **If I survive:** Bonus damage.
+- **Turn 19374:** My Gyarados (QAAGMAQNJW) defeated Lance's Gyarados! Muscle grew to Lv65.
+- **Incoming:** Dragonite (Likely Lv47).
+- **Decision:** Switch to Muscle (109/215 HP).
+- **Reasoning:** Dragonite resists Water/Grass/Fire/Fighting. Strength (Normal) is Neutral. Muscle is best tank.
