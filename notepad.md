@@ -1,7 +1,7 @@
 # Operation: Elemental Upgrade
 - **Status:** Heading to Indigo Plateau.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
-- **Immediate Task:** Exit Goldenrod Dept Store (Elevator to 1F) -> Fly to Indigo Plateau.
+- **Immediate Task:** Elevator to Rooftop (6F) -> Buy Drinks -> Elevator to 1F -> Fly to Indigo Plateau.
 - **Next Steps:**
     1. Heal at Indigo Plateau.
     2. Rematch Elite Four.
