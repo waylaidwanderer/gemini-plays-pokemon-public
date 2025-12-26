@@ -14,8 +14,8 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Challenge:** Enter and defeat Will.
-2.  **Battle Strategy:**
-    - **vs Xatu:** Muscle uses Strength (Cross Chop is resisted 1/4x). If HP drops low, switch to Gyarados (Bite).
-    - **vs Others:** Strength/Cross Chop/Dig as appropriate.
-3.  **Note:** Muscle holds Amulet Coin for double money.
+1.  **Battle:** Talk to Will and win.
+    - **Turn 1:** Strength (likely OHKO on Xatu/Jynx due to level difference).
+    - **Strategy:** Muscle (Lv61) should outspeed and OHKO most of his team with Strength or Cross Chop.
+    - **Backup:** Gyarados (Bite) if Psychic moves are a threat.
+2.  **Next:** Advance to Koga's room.
