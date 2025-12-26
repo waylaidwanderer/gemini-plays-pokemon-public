@@ -20,6 +20,8 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Reached 3F North-East corner (18, 11).
-- **Plan:** Traverse West along the Northern corridor (Row 11) to (11, 11).
-- **Goal:** Find the path South-West to reach the ladder at (17, 19).
+- **Status:** At 3F North (11, 11).
+- **Observation:** Row 11 is a ledge overlooking the central room.
+- **Discovery:** A path exists North at (12, 7) / (13, 7).
+- **Hypothesis:** This path loops North and West, allowing access to the West side of the map (x<8) to eventually reach the ladder at (17, 19) via the South-West.
+- **Plan:** Navigate North through (12, 7) into the unseen area.
