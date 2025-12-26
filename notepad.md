@@ -4,8 +4,9 @@
 - Sighting 3 (Route 42): 
     - Verified in Pokedex at Turn 21303 (Dec 25, 6:58 PM).
     - Status: Standing on (26, 14) at Turn 21318, sprite not visible.
+    - Attempted trigger tiles: (24, 14), (25, 14), (26, 14), (27, 14), (25, 15), (26, 15), (27, 15), (28, 15), (29, 15), (30, 15).
     - Hypothesis: Specific trigger tile required on the island.
-    - Plan: Walk on all island FLOOR tiles.
+    - Plan: Walk on all island FLOOR tiles. Remaining: (26, 16), (30, 16), (26, 17), (27, 17), (28, 17), (29, 17), (30, 17).
 - Lessons Learned:
     - Pokedex Navigation: Alphabetical order check! S is before T. Scroll UP from Togepi to find Suicune.
     - Scripted vs Roaming: Suicune is scripted until Sighting 5. Pokedex "AREA" dot for Suicune is reliable during sightings.
