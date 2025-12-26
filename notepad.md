@@ -3,6 +3,7 @@
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Logic: Scripted sightings (1-5) are overworld events. Suicune remains stationary until approached.
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
+- Note: Suicune was not found on Route 42 island clearing despite Pokedex showing it on Route 42. Pivoting to Route 36 to verify prerequisites.
 
 ## Tile Mechanics
 - FLOOR: Traversable. [Tested]
