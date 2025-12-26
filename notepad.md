@@ -14,7 +14,7 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood (Complete)
 - Sighting 3: Route 42. [Start Turn 21694]
-- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island with 3 Apricorn trees. Cut the tree if necessary. Approach Suicune from the front/side to trigger flee.
+- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island floor at (22, 12). Land and move to (24, 12). Use CUT on tree at (24, 13). Approach Suicune in the grove to trigger flee.
 - Sighting 4: Route 36. Triggered at the Sudowoodo junction after Route 42.
 - Sighting 5: Fuchsia City (Kanto).
 - Final Battle: Tin Tower 1F (Requires Clear Bell).
