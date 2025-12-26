@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Trigger Sighting 3 flee event by approaching the Apricorn trees (Y=16) from the west pond or by walking toward them from the island interior.
+- Strategy: Trigger Sighting 3 flee event by approaching the Apricorn trees (Y=16) from the north (Mt. Mortar entrance) or approaching the water edge near the Cut tree.
 
 # Primary Goal Strategy: Catch Suicune at Tin Tower 1F
 1. Complete scripted Johto sightings (Burned Tower, Cianwood, Route 42).
@@ -30,5 +30,5 @@
 - FLOOR_UP_WALL: Ledge (one-way).
 
 # Contingency Plan
-- If trigger fails, check Route 36 to see if sequence skipped.
+- If trigger fails, check Route 36 to see if sequence advanced.
 - Re-verify Pokedex AREA map after every major move.
