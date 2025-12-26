@@ -49,3 +49,5 @@
 - **Next:** Confirm Revive on Muscle. Then wait for Mistral to faint.
 - **Turn 19326:** Used Revive on Muscle. Muscle restored to 105/211 HP (50%).
 - **Next:** Exit menus, let Mistral faint, switch Muscle in.
+- **Turn 19329:** Switching Muscle in.
+- **Plan:** Muscle (105/211 HP) enters. Gengar will move (Destiny Bond likely fails or ends). Next turn: Dig.
