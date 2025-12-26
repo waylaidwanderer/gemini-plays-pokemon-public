@@ -32,3 +32,4 @@
 - **Plan B:** Surf from New Bark Town to Route 27 -> Tohjo Falls -> Victory Road.
 - **Reflection (Turn 20151):** Reviewed state. Markers accurate. Tools sufficient. Cleared old observation logs.
 - **Observation:** Row of ledges at Y=23 blocks Northward movement on the left side. Must navigate East to X=12 to proceed North.
+- **Observation:** Encountered Wild Golbat at (7, 62). Fleeing.
