@@ -228,3 +228,7 @@
 - **Action:** Select Muscle (A) -> Select Switch (A).
 - **Result:** Muscle switches in.
 - **Next:** Battle continues (Muscle vs Xatu).
+- **Turn 19172:** Muscle took Psychic (122/205).
+- **Analysis:** Muscle survives another hit. This is the last Pokemon.
+- **Action:** Use Strength (Slot 1).
+- **Goal:** Win Battle.
