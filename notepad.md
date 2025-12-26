@@ -32,3 +32,6 @@
 - **Turn 19180:** Searching for Revives in Pack.
 - **Action:** Scrolling down (Down x5).
 - **Goal:** Find Revive to use on Kunai.
+- **Turn 19182:** Navigating from Flower Mail to Revive.
+- **Action:** Up x3 (Select Revive) -> A (Select) -> A (Use).
+- **Next:** Select Kunai -> Revive.
