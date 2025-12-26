@@ -35,3 +35,6 @@
 - **Turn 19182:** Navigating from Flower Mail to Revive.
 - **Action:** Up x3 (Select Revive) -> A (Select) -> A (Use).
 - **Next:** Select Kunai -> Revive.
+- **Turn 19184:** Reviving Kunai.
+- **Action:** Down x3 (Select Kunai) -> A (Use Revive).
+- **Next:** Confirm Revive message -> Use Hyper Potion on Muscle.
