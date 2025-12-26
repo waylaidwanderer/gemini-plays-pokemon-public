@@ -155,3 +155,8 @@
 - **Risk:** Confusion self-hit (~30 dmg).
 - **Prediction:** Muscle attacks (or hurts self). Xatu attacks.
 - **Goal:** Chip Xatu down again.
+- **Turn 19152:** Selected Strength.
+- **Status:** Muscle (205/205, Confused) vs Xatu (Full HP).
+- **Risk:** Confusion check.
+- **Next:** Xatu attacks (Psychic).
+- **Goal:** Land 2 hits to KO Xatu again.
