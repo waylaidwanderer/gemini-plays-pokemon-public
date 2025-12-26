@@ -1,11 +1,11 @@
 # Operation: Machamp Champ
 - **Status:** Indigo Plateau (Koga's Room).
-- **Plan:** Heal Muscle, then Advance to Bruno.
+- **Plan:** Advance to Bruno.
 - **Opponent:** Bruno (Fighting).
 - **Strategy:** Muscle leads. Gyarados for Onix.
 
 # Team Status
-- Muscle (Lv67): 128/222 HP. Needs Healing.
+- Muscle (Lv67): 208/222 HP.
 - Garnet (Lv29): Full.
 - Gyarados (Lv35): Full. Surf ready.
 - Sneasel (Lv24): Low HP.
