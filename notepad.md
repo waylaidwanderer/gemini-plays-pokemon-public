@@ -1,10 +1,10 @@
 # Operation: Elemental Upgrade
-- **Status:** Handling Gaven's phone call. Operation Elemental Upgrade Complete!
+- **Status:** Heading to Indigo Plateau.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
+- **Immediate Task:** Exit Goldenrod Dept Store (Elevator to 1F) -> Fly to Indigo Plateau.
 - **Next Steps:**
-    1. Finish phone call.
-    2. Fly to Indigo Plateau.
-    3. Rematch Elite Four.
+    1. Heal at Indigo Plateau.
+    2. Rematch Elite Four.
 
 # Team Status
 - Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
