@@ -44,3 +44,7 @@
   3. Sneasel (Faster) uses **Screech** (-2 Def) then dies.
   4. Muscle returns and OHKOs -2 Def Exeggutor with Strength.
 - **Action:** Up (Select YES) -> A (Confirm). Next turn: Select Sneasel.
+- **Turn 19122:** Switching to **Kunai (Sneasel)**.
+- **Matchup:** Sneasel vs Exeggutor.
+- **Prediction:** Exeggutor uses Psychic (Immune). Sneasel enters safely.
+- **Next Turn:** Use Shadow Ball (Super Effective) or Screech.
