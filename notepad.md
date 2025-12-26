@@ -3,8 +3,8 @@
 - **Plan:** Defeat Elite Four Koga.
 - **Opponent:** Koga (Poison Type).
 - **Strategy:** Muscle leads. Garnet for Forretress (4x Fire weak).
-- **Current State:** About to fight Crobat.
-- **Battle Plan:** Decline switch. Use ThunderPunch or Ice Punch (SE) on Crobat.
+- **Current State:** Fighting Crobat (Lv44).
+- **Battle Plan:** Use Ice Punch (SE).
 
 # Team Status
 - Muscle (Lv66): ThunderPunch/Ice Punch (vs Crobat), Strength.
