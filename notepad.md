@@ -1,6 +1,7 @@
 # Operation: Elemental Upgrade
-- **Status:** On Route 27 (East Side).
-- **Plan:** Navigate East across bridges -> Enter Route 26.
+- **Status:** Traversing Route 26 (South).
+- **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
+- **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
