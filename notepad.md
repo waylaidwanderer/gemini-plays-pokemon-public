@@ -23,3 +23,4 @@
 - **Status:** Resuming navigation after Graveler encounter at (13, 37).
 - **Plan:** Navigate Up to (13, 36), then Left to enter the x=12 corridor.
 - **Goal:** Follow x=12 North to (12, 31) and search for a path East to the ladder at (17, 33).
+- **Encounter:** Wild Graveler at (12, 35).
