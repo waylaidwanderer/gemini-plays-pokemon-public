@@ -70,3 +70,7 @@
 - **Action:** Pressing Up to select MAX REVIVE.
 - **Protocol:** Step-by-step menu navigation to prevent errors.
 - **Risk:** Using regular Revive leaves Muscle with 0 PP (Game Over). Must confirm Max Revive.
+- **Turn 19392:** Selected MAX REVIVE.
+- **Action:** A (Open Submenu) -> A (Select USE).
+- **Next Turn:** Select Muscle in Party Menu to apply Max Revive.
+- **Status:** Zenith active (Fodder). Dragonite recharging (Safe).
