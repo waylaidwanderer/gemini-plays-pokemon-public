@@ -18,6 +18,6 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Xatu defeated. Jynx incoming.
-- **Matchup:** Muscle vs Jynx -> Switching to Sneasel.
-- **Reasoning:** Jynx (Ice/Psychic) threatens Muscle. Sneasel (Dark/Ice) is immune to Psychic and resists Ice. Shadow Ball targets Jynx's weak Defense.
+- **State:** Kunai (Lv24) vs Jynx (Lv41).
+- **Matchup:** Sneasel is immune to Psychic. Jynx likely faster.
+- **Strategy:** Shadow Ball (Ghost, Physical) targets Jynx's weak Defense. Anticipating 2-3HKO due to level gap. Watch out for Lovely Kiss.
