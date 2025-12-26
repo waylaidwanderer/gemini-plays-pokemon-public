@@ -20,9 +20,8 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Sneasel defeated. Silver sending out Golbat.
-- **Action:** Decline switch (Keep Muscle in).
-- **Matchup:** Muscle (Machoke, Lv61) vs Golbat (Flying/Poison).
-- **Strategy:** Use Strength (Normal, Neutral).
-  - Note: Cross Chop/Rock Smash are 4x resisted. Dig is ineffective (Flying immunity).
-- **Goal:** Defeat Golbat efficiently.
+- **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
+- **Action:** Execute Strength (Slot 1).
+- **Matchup:** Muscle (Normal Move) vs Golbat (Flying/Poison). Neutral effectiveness.
+- **Strategy:** Spam Strength. Fighting moves are 4x resisted and Ground is immune.
+- **Goal:** Defeat Golbat.
