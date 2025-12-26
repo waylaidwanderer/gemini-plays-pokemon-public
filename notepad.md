@@ -7,7 +7,7 @@
 # Current Status (Turn 18801)
 - **Battle:** Fighting Cooltrainer Gaven (Flareon).
 - **Matchup:** Muscle (Machoke Lv60) vs Flareon.
-- **Action:** Using Strength (Slot 1) for reliable OHKO.
+- **Action:** Using Strength (Slot 1) to finish off low HP Flareon.
 - **Location:** Route 26 (9, 39).
 - **Next:** Defeat Flareon. Finish battle. Continue North.
 
