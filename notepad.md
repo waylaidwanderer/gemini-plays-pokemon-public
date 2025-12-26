@@ -20,13 +20,17 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Muscle (Machoke) vs Feraligatr.
-- **Condition:** Muscle (124/201 HP). Speed lowered. Feraligatr in RED HP (Critical).
-- **Observation:** Cursor on PACK. Last move used was DIG (Slot 2).
-- **Action:** 
-  1. Navigate UP to FIGHT.
-  2. Select FIGHT.
-  3. Navigate UP to STRENGTH (Slot 1).
-  4. Select STRENGTH.
-- **Goal:** Finish off Feraligatr.
-- **Next:** Magneton. Use DIG (4x Effective).
+- **Reflection (Turn 19007):**
+  - **Execution:** No deferred tasks.
+  - **Notepad:** Consolidated and current.
+  - **Map:** Markers are up to date (new path at x=12 marked).
+  - **Tools:** Manual battle tools are sufficient.
+  - **Goal:** Defeat Rival Silver -> Exit Victory Road.
+  - **Errors:** Battle menu navigation requires careful tracking of cursor memory.
+
+- **Status:** Battle with Rival Silver. Muscle vs Feraligatr.
+- **Condition:** Muscle (124/201 HP, Speed fell). Feraligatr (Critical HP).
+- **Menu State:** Move Menu Open. Cursor on DIG (Slot 2).
+- **Action:** Select STRENGTH (Slot 1) to finish Feraligatr.
+- **Sequence:** Up (to Strength) -> A (Select).
+- **Remaining:** Magneton.
