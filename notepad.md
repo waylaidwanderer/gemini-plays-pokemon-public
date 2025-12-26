@@ -66,3 +66,7 @@
 - **Assumption:** Cursor on Garnet (Slot 2) -> Up to Muscle (Slot 1).
 - **Goal:** Revive Muscle.
 - **Next:** Garnet takes damage (Fodder). If she survives, switch to Muscle. If she faints, send Muscle.
+- **Turn 19433:** Clearing menus (B spam).
+- **Status:** Muscle Revived (107 HP). Garnet active.
+- **Expectation:** Aerodactyl attacks Garnet. Garnet likely faints.
+- **Next:** Switch Muscle (107 HP) in. Resume Rock Smash Attrition.
