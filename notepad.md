@@ -92,3 +92,8 @@
 - **Action:** Switch to Gyarados (Slot 3).
 - **Reasoning:** Gyarados (Lv 35) is tankier than Garnet (Lv 29). Surf is special (hits lower SpDef). Fire (Garnet) is 4x effective but too risky due to low level/defense.
 - **Plan:** Use Surf. Recover momentum. Revive Muscle later if needed.
+- **Turn 19231:** Switched to Gyarados.
+- **Turn 19232:** Gyarados active.
+- **Action:** Use Surf (Slot 4).
+- **Reasoning:** STAB, Special attack vs Forretress (Lower SpDef).
+- **Risk:** Explosion. Gyarados is best tank available.
