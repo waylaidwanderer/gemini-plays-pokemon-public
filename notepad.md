@@ -51,3 +51,7 @@
 - **Turn 19123:** Confirming switch to Kunai (Sneasel).
 - **Strategy:** Sneasel absorbs Psychic (Immune).
 - **Follow-up:** Sneasel uses Shadow Ball (Super Effective) or Screech. If Sneasel faints, Muscle returns to finish.
+- **Turn 19126:** Kunai used Shadow Ball (Super Effective, ~40% dmg). Exeggutor used Egg Bomb (Missed).
+- **Situation:** Kunai (Full HP) vs Exeggutor (~60% HP).
+- **Action:** Shadow Ball again. Expecting Kunai to outspeed.
+- **Contingency:** If Kunai faints, Muscle finishes with Strength.
