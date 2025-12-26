@@ -32,3 +32,9 @@
 - Fly Map: It is a linear list, not a grid.
 - Pathfinding: Be careful with `find_path_v2` near warps to avoid accidental building entry.
 - Arthur Loop: Repeated intro x3 without item. Strategy: Pivot if loop persists.
+
+# Hypothesis: Arthur (Route 36) Loop
+- Arthur may require the player to have defeated the Elite Four or have a specific item in the bag (e.g. Magnet?) to trigger the gift. Investigation deferred.
+
+# Pathing Caution
+- Avoid using find_path_v2 for movements ending adjacent to warps (like Pokecenters) to prevent accidental map transitions. Walk the final tiles manually.
