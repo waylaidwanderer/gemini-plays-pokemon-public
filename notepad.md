@@ -31,8 +31,8 @@
 - **Encounter:** Fled from Golbat at (3, 64).
 - **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
 - **Strategy:** Detouring via (7, 61) to access the eastern corridor.
-- **Exploration:** Navigated loop to (11, 54). Then West to (8, 54).
-- **Strategy:** Exploring western corridor North from (3, 56). South leads to one-way ledges.
+- **Exploration:** Reached western corridor. Found Ladder at (1, 49).
+- **Strategy:** Take ladder at (1, 49) to proceed to the next floor (Victory Road 2F).
 - **Encounter:** Fled from Golbat at (11, 54).
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
