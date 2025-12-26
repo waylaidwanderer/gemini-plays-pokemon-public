@@ -62,3 +62,7 @@
 - **Turn 19193:** Healing Kunai.
 - **Action:** B (Clear Text) -> Down x3 (Select Kunai) -> A (Use Super Potion).
 - **Next:** Exit Menu -> Navigate to Koga's Room.
+- **Turn 19194:** Navigation Correction.
+- **Observation:** In Bag, selected Ice Berry by mistake.
+- **Action:** B (Cancel), Up x3 (Select Super Potion), A (Select), A (Use).
+- **Goal:** Return to Party Menu to heal Kunai.
