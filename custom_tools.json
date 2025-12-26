@@ -186,7 +186,7 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\n# Robust argument retrieval\ntry:\n    drink = drink_name.lower()\nexcept NameError:\n    # Fallback for different execution environments\n    if 'drink_name' in locals():\n         drink = locals()['drink_name'].lower()\n    elif 'args' in locals():\n        drink = args.get('drink_name', '').lower()\n    elif 'input_data' in locals():\n        drink = input_data.get('drink_name', '').lower()\n    else:\n        # Last ditch effort: iterate locals to find something that looks like input\n        drink = \"lemonade\" # Default to avoid crash if all else fails, but this is risky\n\nbuttons = []\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(quantity):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\") # Wait for \"Clang!\" and processing\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Based on observation, 4 Bs brings us back to the menu.\n    for _ in range(4):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# Robust argument retrieval for drink_name\ntry:\n    drink = drink_name.lower()\nexcept NameError:\n    if 'drink_name' in locals():\n         drink = locals()['drink_name'].lower()\n    elif 'args' in locals():\n        drink = args.get('drink_name', '').lower()\n    elif 'input_data' in locals():\n        drink = input_data.get('drink_name', '').lower()\n    else:\n        drink = \"lemonade\" # Default\n\n# Robust argument retrieval for quantity\ntry:\n    qty = int(quantity)\nexcept NameError:\n    if 'quantity' in locals():\n         qty = int(locals()['quantity'])\n    elif 'args' in locals():\n        qty = int(args.get('quantity', 1))\n    elif 'input_data' in locals():\n        qty = int(input_data.get('quantity', 1))\n    else:\n        qty = 1 # Default\n\nbuttons = []\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(qty):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\") # Wait for \"Clang!\" and processing\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Based on observation, 4 Bs brings us back to the menu.\n    for _ in range(4):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -202,6 +202,11 @@
         "commit_message": "Fixed NameError by adding robust argument retrieval and refined button timing.",
         "timestamp": "2025-12-26T16:02:51.316Z",
         "action_counter": 20047
+      },
+      {
+        "commit_message": "Fixed NameError for 'quantity' variable by adding robust argument retrieval.",
+        "timestamp": "2025-12-26T16:03:27.420Z",
+        "action_counter": 20049
       }
     ]
   }
