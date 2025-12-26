@@ -50,8 +50,8 @@
 - **Turn 19107:** Selected "USE" on Hyper Potion.
 - **Next:** Select Muscle to apply.
 - **Battle State:** Muscle (99/205) will heal to full. Jynx will attack (Priority: Item > Speed). Muscle survives.
-- **Turn 19110:** Muscle healed to full (205/205).
-- **Next:** Clearing text. Jynx will attack (Psychic).
-- **Prediction:** Muscle takes ~100 dmg (unless Crit).
-- **Next Turn:** Strength to OHKO Jynx.
-- **Backup:** If Muscle faints (Crit), send Sneasel (Shadow Ball).
+- **Turn 19111:** Jynx used Psychic after my Potion.
+- **Status:** Muscle 111/205 HP (Took ~94 dmg).
+- **Speed Check:** Muscle (88 Spd) vs Jynx (~82 Spd). Muscle *should* go first.
+- **Action:** Use Strength.
+- **Prediction:** Jynx faints. Will sends Exeggutor or Slowbro next.
