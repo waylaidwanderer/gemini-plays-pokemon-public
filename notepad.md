@@ -1,17 +1,16 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 Island (Current) -> 4. Route 36 -> 5. Route 14 -> 7. Tin Tower 1F.
+- Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Logic: Scripted sightings (1-5) are overworld events. Suicune remains stationary until approached.
-- Sighting 3 Strategy: Approach (26, 14) on Route 42 island from the south after cutting the tree at (24, 13).
+- Sighting 3 Strategy: Approach (26, 14) on Route 42 island from the south. Step: Cut tree at (24, 13), walk to (24, 15), then (26, 15), then (26, 14).
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 - Insight: Pokedex AREA map dots are Raikou/Entei roamers. Suicune is STATIONARY until after the scripted sequence ends.
 
 ## Tile Mechanics
 - COUNTER: Impassable; allows interaction with NPCs behind it. [Verified]
-- WARP_CARPET_DOWN: Triggers map transition when stepped on. [Verified]
-- WARP_CARPET_UP: Triggers map transition when stepped on. [Verified]
-- STAIRS: Triggers map transition when stepped on. [Verified]
-- LADDER: Triggers map transition when stepped on. [Verified]
-- WARP: (Door/Entrance) Triggers map transition when stepped on. [Verified]
+- WARP_CARPET_DOWN/UP: Triggers map transition. [Verified]
+- STAIRS/LADDER: Triggers map transition. [Verified]
+- WARP: (Door/Entrance) Triggers map transition. [Verified]
 - FLOOR: Standard traversable tile. [Verified]
 - WALL: Impassable barrier. [Verified]
 
