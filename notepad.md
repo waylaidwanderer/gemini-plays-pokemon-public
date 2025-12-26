@@ -146,8 +146,8 @@
 - **Reasoning:** Muk has +Defense (Acid Armor) and +Evasion (Minimize). Muscle (Physical) can't hit/hurt it. Gyarados (Special, Surf) ignores Defense buff.
 - **Plan:** Surf until Muk faints.
 - **Note:** Gyarados must tank Sludge Bomb on switch.
-- **Turn 19257:** Gyarados fainted.
-- **Action:** Switch to Muscle (Slot 1).
-- **Sequence:** Up x2 (Select Muscle) -> A (Select) -> A (Confirm Switch).
-- **Status:** Muscle (60/208, Poisoned).
-- **Plan:** Use Dig. High risk/reward. If Muscle faints, revive him clean.
+- **Turn 19258:** Switching Muscle in.
+- **Critical Correction:** Inventory check confirms **NO** Full Restores or Hyper Potions. Only 2 Super Potions and 11 Revives.
+- **Strategy Update:** "Zombie Mode". Muscle fights until he drops. If he faints, sacrifice a weaker mon (Garnet/Kunai) to Revive him.
+- **Immediate Action:** Muscle uses Dig.
+- **Matchup:** Muscle (60 HP, PSN) vs Muk (54% HP, +Evasion, +Defense). Dig is our best/only hope.
