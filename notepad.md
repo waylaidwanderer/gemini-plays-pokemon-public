@@ -201,3 +201,7 @@
   3. Gyarados tanks hit (or faints).
   4. Switch to Muscle (Full HP).
   5. Strength to win.
+- **Turn 19160:** Confirmed selection of Gyarados (Cursor was already on it).
+- **Next Turn:** Main Battle Menu.
+- **Action:** PACK -> MAX REVIVE -> MUSCLE.
+- **Reasoning:** Items have priority. Muscle revives before Gyarados takes damage. Even if Gyarados faints this turn, Muscle is ready to switch in.
