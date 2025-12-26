@@ -42,3 +42,5 @@
   - T4: Muscle vs Gengar. Gengar used Curse. Muscle used Dig.
   - T5: Muscle fainted from Curse. Mistral sent in.
   - T6 (Current): Mistral is fodder. Reviving Muscle.
+- **Correction:** Previous turn inputs truncated. Now selecting Revive.
+- **Action:** Press A to open Party Menu. Will select Muscle next turn to ensure cursor placement.
