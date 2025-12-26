@@ -13,23 +13,16 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Goal): Route 42 Central Island. Triggered by Surfing to the island with three Apricorn trees. [Next]
+- Sighting 3 (Goal): Route 42 Central Island. Suicune should be visible as a sprite and flee when approached.
 - Sighting 4: Route 36 (Sudowoodo junction).
-- Sighting 5: Tin Tower 1F (Final Battle).
-- Note: Sages in the gatehouse (4_1) are currently passive ("Please, do go on."). They likely only battle after sightings 3 and 4 are complete.
+- Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
+- Note: If Route 42 sighting fails to trigger, check Route 36 or Tin Tower directly.
 
 # Lessons Learned
-- PC Mechanics: "MOVE PKMN W/O MAIL" is best for inventory checks.
-- Interaction: Never mix directional inputs and action buttons in the same turn.
-- Suicune Sequence: Crystal sequence is fixed: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Navigation: Use manual presses or a robust tool to avoid looping. Fixed menu_navigator_v3_fixed_borders (Turn 22008).
-- Multi-map Navigation: find_path_v2 only works on the current map. Use manual planning for paths through warps.
-
-# Tasks & Progress
-- Goal: Trigger Suicune sighting on Route 42. [Start Turn 22061]
-- Status: Searching for Suicune on Route 42. It hasn't appeared on the central island yet.
-- Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
+- Suicune Sequence: Scripted sightings are NOT visible in the Pokedex.
+- Verification: Always check "Map Objects On Screen" before asserting a sprite's presence.
+- Stagnation: If an area fails to trigger an event after thorough exploration, pivot to the next likely location.
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
