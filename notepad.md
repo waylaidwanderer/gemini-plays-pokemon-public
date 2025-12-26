@@ -31,3 +31,10 @@
 - Sighting 2 (Cianwood): Turn 20088. Approached at (10, 14), it fled.
 - Eusine Battle (Cianwood): Turn 20110. Won.
 - Note: Clear Bell obtained at Turn 21217.
+## Tile Mechanics: Mount Mortar
+- FLOOR: Standard traversable ground. [Verified]
+- WALL: Impassable barrier. [Verified]
+- WATER: Requires SURF to traverse. [Verified]
+- LADDER: Triggers map transition. [Verified]
+- WARP_CARPET_DOWN: Triggers map transition. [Verified]
+- FLOOR_UP_WALL: Impassable wall (ledge/cliff). [Verified]
