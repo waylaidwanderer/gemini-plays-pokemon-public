@@ -37,9 +37,9 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Teaching TM41 (ThunderPunch) to Muscle.
+- Status: Teaching TM33 (Ice Punch) to Muscle.
 Plan:
 1. Teach TM33 (Ice Punch) to Muscle (Replacing Rock Smash).
-2. Teach TM41 (ThunderPunch) to Muscle (Replacing Dig).
+2. Taught TM41 (ThunderPunch) to Muscle (Replaced Dig).
    - Note: Elemental Punches are Special in Gen 2, but 4x effectiveness vs Lance's Dragons/Flyers compensates for Machoke's low SpAtk.
 3. Fly to Indigo Plateau.
