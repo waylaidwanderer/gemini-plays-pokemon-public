@@ -1,9 +1,8 @@
 # Operation: Dragon Slayer
-- **Current State:** In Bag (Ice Berry Menu).
-- **Action:** Reviving Gyarados.
-- **Plan:** Close Ice Berry -> Select Revive -> Use on Gyarados (Slot 3).
-- **Cursor Logic:** Assuming cursor is on Slot 4 (Kunai) from previous turn. Press Up to reach Slot 3.
-- **Team Update:** Muscle (112/225). Gyarados (FNT). Kunai (32/65).
+- **Current State:** In Bag (Hyper Potion).
+- **Action:** Healed Muscle with Hyper Potion.
+- **Plan:** Next, use Lemonade on Gyarados (Slot 3) and Kunai (Slot 4).
+- **Team Update:** Muscle (Full). Gyarados (Half). Kunai (Half).
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
