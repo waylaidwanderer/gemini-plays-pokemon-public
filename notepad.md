@@ -51,3 +51,4 @@
 - **Observation:** Row 35 consists of ledges (jump down).
 - **Hypothesis:** This Eastern area is a connector. If no ladder is found here, the path likely loops back West via y=36 (gap at 17, 36) to access the central area.
 - **Plan:** Investigate North-East corner (19, 36) for items/ladders. Then attempt to travel West through (17, 36).
+- **Encounter:** Wild Golbat at (19, 36).
