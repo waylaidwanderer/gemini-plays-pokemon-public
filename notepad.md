@@ -3,19 +3,21 @@
 - WALL: Impassable. [Verified]
 - WATER: Traversable via Surf. [Verified]
 - HEADBUTT_TREE: Impassable. [Verified]
-- CUT_TREE: Impassable. [Verified]
+- CUT_TREE: Impassable. Requires HM01 Cut. [Verified]
 - PC: Standard interaction. [Verified]
 - COUNTER: Impassable. Interaction with NPCs behind them must be done from an adjacent tile. [Verified]
 - WARP_CARPET: Traversable, triggers map transition. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into (e.g. LEDGE_HOP_DOWN blocks movement from the South). [Verified]
 - FRUIT_TREE: Impassable. [Verified]
+- DOOR: Traversable, triggers map transition. [Verified]
+- TALL_GRASS: Traversable, triggers wild encounters. [Verified]
 
 # Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island.
-    - Status: Not found. Systematic sweep of grove (Turns 22580-22620) and plateau (Turns 22621-22631) turned up nothing. Sprite is missing.
-    - Hypothesis: Missing a prerequisite or already triggered. Moving to Route 36 to verify.
+- Sighting 3: Route 42 Central Island Grove.
+    - Status: Verification failed. Systematic sweep (Turns 22580-22640) found no sprite.
+    - Plan: Return to Route 42 for exhaustive search near Apricorn trees.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
     - Status: Not found. Walked to junction, no sprite appeared.
     - Hypothesis: Route 42 sighting is mandatory and was not successfully triggered.
@@ -27,8 +29,9 @@
 
 # Timestamps
 - Suicune Hunt (Phase 3/4): Started Turn 22256.
-- Route 42 Island Sweep: Started Turn 22580.
-- Clear Bell Obtained: Turn 22100 (approx).
+- Route 42 Island Sweep: Started Turn 22580. Ended Turn 22640.
+- Route 36 Verification: Started Turn 22665. Ended Turn 22681.
+- Current Status: Returning to Route 42.
 
 # Area Mechanics & Warps
 ## Ecruteak City (4_9)
@@ -52,12 +55,4 @@
 - Island entry via Cut at (24, 13). Trees at Y=13, 14, 16, 17 are impassable.
 - (28, 16): Berry Tree (Empty at Turn 21678)
 - (27, 16): Berry Tree (Turn 21682)
-- Route 42 Island Sweep: Ended Turn 22640. Result: Suicune not found. Systematic search of both levels complete. Moving to Route 36.
-- Preparation: Healing at Violet City PC complete. Gastly's Mean Look PP restored (5/5). Moving to Route 36.
-
-# Suicune Hunt - Route 36 Plan
-- Current Location: Violet City (26, 24).
-- Goal: Reach Sudowoodo junction at (35, 9) on Route 36.
-- Path: Exit Violet City at (0, 9).
-- Expected Outcome: Suicune sighting and flight.
-- Note: Systematic search of Route 42 island (Turns 22580-22640) confirmed Suicune is not there. Prerequisite (Clear Bell) is met.
+- Note: Preparation: Healing at Violet City PC complete. Gastly's Mean Look PP restored (5/5). Moving to Route 42.
