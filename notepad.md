@@ -52,3 +52,5 @@
   5. Goal Clarity: Primary goal is Tin Tower Suicune. Secondary is Route 42 trigger.
   6. Root Hypothesis: Suicune should be on Route 42 island. Investigation: Sprite is missing. Root cause may be a missing prerequisite or incorrect sequence.
 - Task: Investigating Suicune Sighting 3 requirements. [Start Turn 21907]
+- Lesson: Turn mismatch detected at Turn 21914. Must verify game state thoroughly. [Turn 21914]
+- Strategy: Heading to Route 36 via Violet City to trigger Suicune Sighting 4. [Turn 21914]
