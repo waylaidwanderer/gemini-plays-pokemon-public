@@ -14,6 +14,6 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Menu:** Open Party menu and switch Muscle (Slot 3) to Slot 1 (Lead).
+1.  **Menu:** Select Muscle (Slot 3) to complete the swap with Gyarados (Slot 1).
 2.  **Navigate:** Head East (Right) to find the Elite Four entrance.
 3.  **Challenge:** Enter and defeat Will.
