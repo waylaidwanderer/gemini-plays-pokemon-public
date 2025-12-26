@@ -49,3 +49,7 @@
 - **Move:** Strength (Slot 1).
 - **Strategy:** Ignore Paralysis. If Muscle faints -> Zombie Revive. Strength is best neutral option.
 - **Anomaly:** Vileplume HP bar appears full despite taking a Strength hit. Possible high Def or visual bug. Keep attacking.
+- **Turn 3 Result:** Vileplume fainted to Strength. Muscle Paralyzed (20/211 HP).
+- **Incoming:** Gengar.
+- **Decision:** Stay in.
+- **Plan:** Gengar (Lv45) likely has Lick/Curse/Destiny Bond. Muscle might survive Lick. If so, Dig (Slot 2). If Muscle faints (Damage or Destiny Bond), switch to Gyarados -> Revive Muscle.
