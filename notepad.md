@@ -45,12 +45,12 @@
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23836
-- Suicune Hunt Duration: 136 turns (since turn 23700)
+- Current Turn: 23837
+- Suicune Hunt Duration: 137 turns (since turn 23700)
 
 # Suicune Hunt Progress Log
-- Sighting 3 (Route 42): Systematic sweep of island FLOOR tiles in progress. Checked ~40 tiles.
+- Sighting 3 (Route 42): Systematic sweep of island FLOOR tiles in progress. Checked ~41 tiles.
 - Current Status: Pokedex confirms Suicune on Route 42. Wise Trio locked.
 - Plan: Complete island sweep. If fail, Fly to Mahogany and approach from East (Mahogany side).
-- Progress: Checked (20, 11). Moving to (20, 10).
+- Progress: Checked (20, 10). Moving to next unmarked tile.
 - Start Turn: 23700 | Dec 26, 2025 1:31 PM PST.
