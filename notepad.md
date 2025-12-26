@@ -16,7 +16,9 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Purchase Plan:** Sell TMs -> Go to 2F for Hyper Potions (Battle Heals). Rooftop for Lemonade (Cost-effective). Funds: ~¥8000.
+- **League Preparation:**
+    - Healing Items: 14 Lemonades (1120 HP), 7 Revives, 8 Full Heals, 5 Hyper Potions.
+    - Strategy: Muscle carries. Revives for emergencies. Lemonade for post-battle top-ups.
 - **Shop Inventory:**
     - 2F (Top Clerk): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
     - 2F (Bottom Clerk): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
