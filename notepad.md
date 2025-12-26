@@ -36,5 +36,4 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: In Victory Road 1F (West Section). Heading to Ladder at (1, 35) to exit via 2F West.
-- Goal: Exit to Route 26 to Fly to Goldenrod.
+- Status: In Victory Road 1F (West Section). Path: (2, 39) -> (1, 39) -> Up to Ladder at (1, 35).
