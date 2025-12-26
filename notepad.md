@@ -21,6 +21,12 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Sneasel.
-- **Action:** Select FIGHT, then CROSS CHOP (Slot 4).
-- **Matchup:** Machoke (Fighting) vs Sneasel (Dark/Ice). 4x Super Effective.
-- **Goal:** One-shot Sneasel.
+- **Action:** Executing Cross Chop (Slot 4).
+- **Battle Plan:**
+  - **Sneasel:** Cross Chop (4x SE).
+  - **Magneton:** Dig (4x SE).
+  - **Gengar:** Dig (2x SE, no Levitate in Gen 2).
+  - **Golbat:** Strength (Neutral).
+  - **Alakazam:** Strength (Physical vs Low Def).
+  - **Feraligatr:** Cross Chop.
+- **Goal:** Sweep with Muscle.
