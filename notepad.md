@@ -1,11 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Houndoom (Lv47). Muscle Critical (14 HP, Paralyzed).
-- **Battle Plan:** Attempt Cross Chop (Slot 4). Expecting Muscle to faint.
-- **Next:** Switch to Gyarados (QAAGMAQNJW). Use Surf.
-- **Matchup:** Muscle (Lv68) vs Houndoom. Cross Chop is SE.
-- **Risk:** Houndoom outspeeds and KOs Muscle.
-- **Menu State:** Cursor on ThunderPunch (Slot 2).
+- **Current State:** Switching to Gyarados (QAAGMAQNJW).
+- **Battle Plan:** Use Surf (Slot 4).
+- **Matchup:** Gyarados (Lv35) vs Houndoom (Lv47). Water resists Fire. Surf (Special, Water) is SE vs Fire/Dark.
+- **Notes:** Muscle fainted. Kunai fainted. Garnet/Zenith/Mistral available but weak. Gyarados is the last stand.
+- **Menu State:** Selection menu open. Cursor on Muscle.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
