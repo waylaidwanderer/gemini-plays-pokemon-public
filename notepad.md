@@ -50,3 +50,12 @@
 - Island entry via Cut at (24, 13). Trees at Y=13, 14, 16, 17 are impassable.
 - (28, 16): Berry Tree (Empty at Turn 21678)
 - (27, 16): Berry Tree (Turn 21682)
+
+# Tool Maintenance
+- menu_navigator_v2_fixed: Updated in Turn 22532 to normalize text (ignoring special characters like 'é') and detect menu spacing more reliably. This should prevent failures when selecting 'POKéMON'.
+- find_path_v2: Updated in Turn 22517 to recognize warp carpets, ledges, and other passable tile types.
+
+# Suicune Sighting 3 Details
+- Location: Route 42, central island.
+- Trigger: Suicune is a visible sprite at (10, 14) on the island. Approach it (from the south or west) to trigger the flee event.
+- Prerequisite: Must have Surf and Cut (Ravioli and KIMCHI have these).
