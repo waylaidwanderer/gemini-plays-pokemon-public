@@ -56,3 +56,7 @@
 - **Turn 19335:** Declining switch. Muscle stays in vs Murkrow.
 - **Mistral Update:** Forgot Tackle, learned Quick Attack.
 - **Strategy:** Strength (Slot 1) vs Murkrow. Expecting OHKO.
+- **Turn 19336:** Dig failed (Flying immune). Murkrow used Faint Attack (12 dmg).
+- **Turn 19337:** Using Strength (Slot 1).
+- **Reasoning:** Fighting moves are Neutral vs Dark/Flying. Dig is Immune. Strength is reliable neutral damage.
+- **Matchup:** Muscle (87/211 HP) vs Murkrow. Muscle is safe.
