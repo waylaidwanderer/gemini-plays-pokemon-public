@@ -23,3 +23,8 @@
 # Plan
 1.  **Vs Aerodactyl:** Rock Smash until empty -> Struggle.
 2.  **Vs Charizard/Dragonites:** Struggle.
+- **Turn 19413:** Correcting menu state.
+- **Situation:** Acciidentally opened PACK. Cursor on QUIT.
+- **Action:** A (Exit Bag) -> Up (Select Fight) -> A (Open Move Menu) -> A (Select Rock Smash).
+- **Note:** Rock Smash cursor memory assumed from Turn 19409.
+- **Strategy:** Rock Smash Attrition continues.
