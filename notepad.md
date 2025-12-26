@@ -5,9 +5,9 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Status:** Muscle Lv61 (165/201). Past Cooltrainer Jake.
-- **Location:** Route 26 (14, 20).
-- **Next:** Continue North. Watch for Cooltrainer Beth.
+- **Status:** Muscle Lv61 (165/201). Navigating Route 26 Maze.
+- **Location:** Route 26 (14, 16).
+- **Next:** Navigate North through the fences. Search for hidden items.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
