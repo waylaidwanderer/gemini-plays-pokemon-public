@@ -12,24 +12,12 @@
 - FLOOR_UP_WALL: Impassable from below. [Verified]
 
 # Battle and Pokemon Information
-## Type Effectiveness (Verified/Standard)
-- Normal: Immune: Ghost.
-- Fire: SE vs Grass, Ice, Bug, Steel.
-- Water: SE vs Fire, Ground, Rock.
-- Electric: SE vs Water, Flying. Immune: Ground.
-- Grass: SE vs Water, Ground, Rock.
-- Ice: SE vs Grass, Ground, Flying, Dragon.
-- Fighting: SE vs Normal, Ice, Rock, Dark, Steel. Immune: Ghost.
-- Poison: SE vs Grass.
-- Ground: SE vs Fire, Electric, Poison, Rock, Steel. Immune: Flying.
-- Flying: SE vs Grass, Fighting, Bug.
-- Psychic: SE vs Fighting, Poison. Immune: Dark.
-- Bug: SE vs Grass, Psychic, Dark.
-- Rock: SE vs Fire, Ice, Flying, Bug.
-- Ghost: SE vs Psychic, Ghost. Immune: Normal, Fighting.
-- Dragon: SE vs Dragon.
-- Steel: SE vs Ice, Rock.
-- Dark: SE vs Psychic, Ghost.
+## Type Immunities (Target-based)
+- Ghost: Immune to Normal, Fighting.
+- Ground: Immune to Electric.
+- Steel: Immune to Poison.
+- Flying: Immune to Ground.
+- Dark: Immune to Psychic.
 
 ## Party Movesets
 - Calcifer (TYPHLOSION): Lv45. Flame Wheel, Headbutt, Smokescreen, Thunderpunch.
@@ -45,12 +33,14 @@
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Pokedex confirms location]
-     - Strategy: Approach from East (Mahogany Town) and interact with trees (A button) or stand on (26, 14).
-     - Pivot Condition: If sprite won't load after Mahogany entry and grove sweep, proceed to Route 36 sighting.
-  4. Route 36 (Sudowoodo junction): Near fat guy NPC.
-  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Locked by sighting 3]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Stalled/Failed]
+  4. Route 36 (Sudowoodo junction): (35, 9). [Current Objective]
+  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1).
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
+
+# Strategy for Route 36
+- Investigation Points: Sudowoodo junction (35, 9), fat guy NPC (44, 9).
+- Action: Verify Suicune's location in Pokedex (Turn 24001). If showing Route 42, return to island and interact with trees. If showing Route 36, sweep junction.
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
