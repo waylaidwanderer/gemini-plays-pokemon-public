@@ -41,3 +41,6 @@
 - **Plan:** Decline Switch -> Use Hyper Potion (Priority) -> Survive Psychic -> OHKO with Strength.
 - **Turn 19103:** Confirmed "NO" to switch. Jynx coming out.
 - **Action:** Use Hyper Potion on Muscle immediately.
+- **Turn 19105:** In Bag. Selected Hyper Potion.
+- **Action:** Confirm Use on Muscle.
+- **Next:** Muscle heals. Jynx attacks (Psychic). Muscle survives -> Strength KO next turn.
