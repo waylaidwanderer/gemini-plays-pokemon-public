@@ -101,3 +101,8 @@
 - **Decision:** Decline switch ("NO"). Stay with Muscle.
 - **Status:** Muscle 24/205 HP. Critical.
 - **Plan:** Use Hyper Potion immediately. Muscle survives Psychic (~90 dmg). Then Strength.
+- **Turn 19138:** Cancelled switch (B button). Muscle stays in.
+- **Battle:** Will sends Xatu (Lv 42).
+- **Plan:** Use Hyper Potion (Priority). Muscle (24 HP) will heal to full.
+- **Math:** Muscle (205 HP) vs Xatu Psychic (~80 dmg). Muscle survives.
+- **Next:** Strength to KO.
