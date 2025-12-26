@@ -24,8 +24,7 @@
 - **Vs Will:**
   - **Xatu:** Defeated.
   - **Jynx:** Current opponent.
-    - **Situation:** We are in a heal loop. Healing puts us at 205, Jynx hits us down to ~111.
-    - **Game State Logic:** HP is 111/205. The "Recovered 94 HP" text is on screen, but the game has already calculated the *next* hit from Jynx.
-    - **Trajectory:** Once text clears, Jynx attacks. We end up at 111 HP.
-    - **Decision:** We MUST attack next turn. We can survive one hit (111 HP > ~94 Dmg). Healing again is futile.
-    - **Action:** Advance text. Next turn: STRENGTH.
+    - **Status:** Muscle 108/205 HP. Jynx Full HP.
+    - **Speed:** Jynx is faster.
+    - **Action:** Muscle uses STRENGTH.
+    - **Outcome Prediction:** Jynx uses Psychic (~90 dmg). Muscle survives with <20 HP. Strength OHKOs Jynx.
