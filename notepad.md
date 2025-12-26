@@ -75,3 +75,6 @@
 - **Turn 19365:** Mistral uses Quick Attack.
 - **Expectation:** Gyarados recharges (unable to move). Mistral survives this turn.
 - **Next:** Gyarados attacks Mistral (likely KO). Muscle switches in safely.
+- **Turn 19369:** Switching to Gyarados (Lv35).
+- **Reasoning:** Taking advantage of opponent's recharge turn to switch in Gyarados freely.
+- **Strategy:** Use Thrash/Bite with Gyarados. If Gyarados faints, switch Muscle back in.
