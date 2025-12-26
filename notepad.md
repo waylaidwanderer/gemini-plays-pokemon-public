@@ -62,3 +62,6 @@
 - **Turn 19359:** Executing Revive Use (A -> USE -> A).
 - **Status:** Mistral is safe (Gyarados recharging).
 - **Next:** Select Muscle in Party Menu.
+- **Turn 19361:** Selecting Muscle (Slot 1) with Revive.
+- **Action:** Up x5 -> A.
+- **Next:** Confirm revitalization, exit menu, sacrifice Mistral.
