@@ -74,3 +74,7 @@
 - **Action:** A (Open Submenu) -> A (Select USE).
 - **Next Turn:** Select Muscle in Party Menu to apply Max Revive.
 - **Status:** Zenith active (Fodder). Dragonite recharging (Safe).
+- **Turn 19393:** Cursor on Zenith. Moving Up x4 to Muscle.
+- **Action:** Up x4 -> A (Confirm Max Revive on Muscle).
+- **Outcome:** Muscle fully restored (HP & PP).
+- **Next:** Exit menus. End turn. Zenith is active.
