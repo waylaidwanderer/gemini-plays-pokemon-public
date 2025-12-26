@@ -56,3 +56,8 @@
 - **Gamble:** Hope Aerodactyl uses a status move or misses on the switch-in.
 - **If Garnet faints:** Switch to Kunai.
 - **If Garnet survives:** Use Revive on Muscle immediately.
+- **Turn 19431:** In Bag. Selecting Revive.
+- **Action:** A (Select Revive) -> A (Select USE).
+- **Goal:** Open Party Menu to revive Muscle.
+- **Context:** Garnet is active. Battle is paused in menu.
+- **Next:** Select Muscle -> Confirm Revive. Then Garnet takes the hit.
