@@ -1,8 +1,8 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower -> 2. Cianwood -> 3. Route 42 -> 4. Route 38 Sighting (Current) -> 5. Route 14 -> 6. Tin Tower 1F.
+- Sequence: 1. Burned Tower -> 2. Cianwood -> 3. Route 42 (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower 1F.
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Logic: Scripted sightings (1-5) are fixed overworld events. Suicune remains stationary until approached. The Pokedex "AREA" map tracks the roamer, which only begins appearing AFTER the Tin Tower event.
-- Status: North grass and Trough on Route 38 cleared. Sighting 4 not yet triggered.
+- Status: Sighting 3 on Route 42 island not yet triggered. Need Surf and Cut.
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 
 # Tile Mechanics (Global)
