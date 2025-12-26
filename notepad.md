@@ -1,8 +1,8 @@
 # Operation: Dragon Slayer
-- **Current State:** In Bag (Hyper Potion).
-- **Action:** Healed Muscle with Hyper Potion.
-- **Plan:** Next, use Lemonade on Gyarados (Slot 3) and Kunai (Slot 4).
-- **Team Update:** Muscle (Full). Gyarados (Half). Kunai (Half).
+- **Current State:** Entering Bag to Heal.
+- **Action:** Navigate to Pack.
+- **Plan:** Verify Item cursor location. Then use Hyper Potion/Lemonade.
+- **Reason:** Cursor position is ambiguous (Ice Berry vs Revive). Better to confirm than waste turn using wrong item.
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
