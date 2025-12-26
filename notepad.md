@@ -6,9 +6,9 @@
 
 # Current Status (Turn 18801)
 - **Battle:** Defeated Cooltrainer Jake (Parasect, Golduck).
-- **Status:** Muscle Lv61 (165/201).
+- **Status:** Muscle Lv61 (165/201). Battle complete.
 - **Location:** Route 26 (12, 24).
-- **Next:** Navigate North to Victory Road.
+- **Next:** Navigate North (Column 14) to avoid wall. Reach Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
