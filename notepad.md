@@ -53,3 +53,7 @@
 - **Action:** Up x2 (Select PACK) -> A (Enter).
 - **Next:** Find Revive (Scroll Down).
 - **Inventory Note:** Revive is ~12-15 items down.
+- **Turn 19267:** Inside Pack. Cursor on Antidote.
+- **Action:** Scrolling down to find Revive.
+- **Input:** Down x8.
+- **Goal:** Revive Gyarados.
