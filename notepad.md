@@ -68,3 +68,7 @@
 - **Turn 19362:** Confirmed Revive on Muscle (A).
 - **Outcome:** Muscle revived (105 HP). Gyarados recharging.
 - **Next:** Clear text, let turn end. Mistral stays in to be sacrificed next turn.
+- **Turn 19364:** Menu closed. Cursor on PACK.
+- **Action:** Select FIGHT -> Quick Attack.
+- **Reasoning:** Gyarados is recharging (free turn). Mistral gets a free hit (negligible damage) to pass the turn.
+- **Next Turn:** Gyarados will likely KO Mistral. This gives Muscle a safe switch-in.
