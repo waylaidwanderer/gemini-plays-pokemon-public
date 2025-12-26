@@ -16,10 +16,10 @@
 - Sighting 3: Route 42 Central Island. [Start Turn 21950]
   - HOW: Step on the trigger tiles in the grove (approx 26, 14).
   - Note: Harvesting Apricorns does NOT trigger the sighting. Must step on the specific tile.
-- Sighting 4: Tin Tower 1F (Final Battle).
-  - Prerequisite: Clear Bell (Obtained).
-  - Prerequisite: All 3 scripted sightings (Burned Tower, Cianwood, Route 42) must be triggered.
-- Note: Crystal sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower. No sightings on Route 36 or Fuchsia City.
+- Sighting 4: Route 36 (Sudowoodo junction). [Turn 21964]
+- Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell. [Turn 21964]
+- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. Fuchsia City is NOT in Crystal. [Correction - Turn 21964]
+- Strategy: Finish sighting on Route 42, then head to Route 36. [Turn 21964]
 
 # Gym Progress
 - Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
