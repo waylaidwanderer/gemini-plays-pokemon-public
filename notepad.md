@@ -1,14 +1,12 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) and northern strip to trigger Sighting 3 flee event.
-- Progress:
-    - Island sweep started: Turn 21455.
-    - Failed attempts to trigger: 2 (Central sweep, Northern strip sweep).
+- Strategy: Reset map (enter Mount Mortar) then methodical floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
 - Lessons Learned:
-    - Pokedex: Default order is Johto Order (#245).
+    - Pokedex: Currently in Alphabetical order. SUICUNE is located above SUNKERN.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Animation: Sprite flees with a visible jump. If no jump seen, event is not complete.
-    - Map Reset: If a scripted event fails to trigger after a sweep, try resetting the map by Flying or entering a cave.
+    - Map Reset: If a scripted event fails to trigger after a sweep, reset the map by entering a cave or using Fly.
+    - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
@@ -28,10 +26,10 @@
 - Previous Milestones: Sighting 1 (Burned Tower), Sighting 2 (Cianwood).
 - Eusine: Defeated in Cianwood.
 - Problem: Complete floor sweep of Route 42 island (X=24-30, Y=14-17) failed to trigger flee.
-- Hypothesis 1: Trigger is on a specific tile missed. (Step on (27, 15) again).
-- Hypothesis 2: Trigger is on the water surrounding the island.
-- Hypothesis 3: Milestone confusion - Suicune has already moved to Sighting 4.
+- Hypothesis: Sprite didn't load or trigger failed. Reset required.
 
-# Failed Hypothesis: Island Floor Sweep
-- Sweep of (24-30, 13-17) floor tiles failed to trigger Suicune flee.
-- Contingency: If sweep fails, reset map by flying or entering cave.
+# Island Sweep Contingency
+- If methodical sweep after map reset fails, I will:
+    1. Re-verify Pokedex AREA map for exact blinking box.
+    2. Check if Suicune moved to Route 36 (Sighting 4).
+    3. Visit Tin Tower to see if sequence skipped.
