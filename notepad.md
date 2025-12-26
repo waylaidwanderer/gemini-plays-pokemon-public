@@ -37,5 +37,5 @@
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
 - **Encounter:** Wild Graveler at (8, 54).
-- **Exploration:** Collected HP Up at (7, 38). Confirmed 2F West is an item loop.
-- **Strategy:** Return to 1F via ladder at (1, 35) and explore the Southeast corner near the entrance (9, 67) for a path to 2F East.
+- **Exploration:** 2F West was a loop for HP Up. Backtracking to 1F Entrance.
+- **Strategy:** Navigate South from (1, 49) to (9, 67), then explore the Southeast corner (x=12) for the path to 2F East.
