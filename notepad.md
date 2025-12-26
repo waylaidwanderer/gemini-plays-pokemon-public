@@ -32,10 +32,7 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA (Raticate), CINNABAR (Goldeen), VORTEX (Poliwag), INTERCEPT (Yanma), ROCKY (Onix), EGG (Cleffa), XFDW (Meowth), FRITTATA (Togepi), SHUCKIE (Shuckle), Blarney (Sudowoodo).
-- Item Storage: Currently checking for Hard Stone.
-- PC Check: Gem's PC Item Storage is empty (Turn 21844).
-- PC Check: Box 1 withdrawal list showed no item icons next to names (Turn 21852).
-- PC Check: Currently accessing "MOVE PKMN W/O MAIL" for final confirmation of held items in Box 1.
-- Suicune Prerequisite: Need to re-confirm if Eusine battle in Cianwood is the absolute trigger for Route 42. (Note: I have the Storm Badge, so I must have beaten Chuck).
-- Lesson: The Pokedex "Area" for Suicune is not used in Crystal's scripted quest; it likely shows Raikou/Entei. Ignore Pokedex for Suicune.
-- Strategy: If Hard Stone is not in PC, I will assume it was lost or never given (despite the loop) and proceed to Route 42.
+- PC Check: Item Storage and Box 1 (all 10 Pokémon) confirmed empty of items (Turns 21844-21861).
+- Party Check: Checking held items now.
+- Suicune Strategy: Proceed to Route 42 center island. Use Surf and Cut.
+- Lesson: PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
