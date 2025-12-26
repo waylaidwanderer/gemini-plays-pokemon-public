@@ -13,14 +13,15 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island grove. [Start Turn 21950]
-  - HOW: Step on trigger tiles (approx 26, 14). Approach sprite to trigger flee.
+- Prerequisite: Defeat Wise Trio in Ecruteak City (Required after obtaining Clear Bell). [Turn 21985]
+- Sighting 3: Route 42 Central Island grove.
+  - HOW: Step on trigger tiles (approx 26, 14).
 - Sighting 4: Route 36 (Sudowoodo junction).
   - HOW: Approach the clearing near the junction after Sighting 3.
 - Sighting 5: Tin Tower 1F (Final Battle).
   - Prerequisite: Clear Bell (Obtained).
   - Prerequisite: All 4 scripted sightings must be triggered.
-- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Correction - Turn 21973]
+- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Correction - Turn 21985]
 
 # Gym Progress
 - Rising Badge (Clair): Next Gym Badge required. Travel to Blackthorn City.
