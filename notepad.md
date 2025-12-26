@@ -14,6 +14,8 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Navigate:** Walk up the corridor on the right (x=16) to the door.
-2.  **Challenge:** Enter and defeat Will.
-3.  **Battle Strategy:** Use Muscle (Strength/Cross Chop). If Will uses Psychics, switch to Sneasel (Shadow Ball).
+1.  **Challenge:** Enter and defeat Will.
+2.  **Battle Strategy:**
+    - **vs Xatu:** Muscle uses Strength (Cross Chop is resisted 1/4x). If HP drops low, switch to Gyarados (Bite).
+    - **vs Others:** Strength/Cross Chop/Dig as appropriate.
+3.  **Note:** Muscle holds Amulet Coin for double money.
