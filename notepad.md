@@ -120,8 +120,8 @@
 - **Opponent:** Muk (Minimize +2).
 - **Plan:** Muscle uses Dig. High damage, but acc check is scary.
 - **Note:** Muscle was revived, so Poison should be gone.
-- **Turn 19242:** Muscle (8/208 HP, Poisoned).
-- **Situation:** Critical HP. Sludge Bomb deals ~37 dmg. Poison deals ~26 dmg. Muscle dies end of turn without heal.
-- **Action:** Select PACK.
-- **Plan:** Use **Full Restore**. Cures Poison + Full HP. Resets the fight (except Muk's evasion).
-- **Note:** Muk has +2 Evasion. Dig is risky but necessary after healing.
+- **Turn 19243:** Finding Hyper Potion.
+- **Inventory Check:** NO Full Restores. 1 Hyper Potion. 11 Revives.
+- **Situation:** Muscle (8/208 HP, Poisoned).
+- **Action:** Scroll Down x5 to find Hyper Potion.
+- **Plan:** Use Hyper Potion. Muscle heals to full, stays poisoned. Next turn: Dig.
