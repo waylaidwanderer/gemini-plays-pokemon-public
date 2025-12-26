@@ -1,51 +1,27 @@
 # Global Tile Mechanics
-- FLOOR: Traversable. Standard ground. [Verified]
-- WALL: Impassable. Rock faces and boundaries. [Verified]
+- FLOOR: Traversable. [Verified]
+- WALL: Impassable. [Verified]
 - WATER: Traversable via Surf. [Verified]
-- HEADBUTT_TREE: Impassable. Interaction only. [Verified]
-- CUT_TREE: Impassable. Can be removed with Cut. [Verified]
-- FLOOR_UP_WALL: Impassable ledge (one-way down). [Verified]
-- CAVE: Traversable. Warp point leading to interiors. [Verified]
-- WARP_CARPET: Traversable. Transition between maps/gatehouses. [Verified]
-- TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
-- PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
-- WARP_CARPET_RIGHT: Traversable. Transition between maps/gatehouses. [Verified]
-- WARP_CARPET_LEFT: Traversable. Transition between maps/gatehouses. [Verified]
+- HEADBUTT_TREE: Impassable. [Verified]
+- CUT_TREE: Impassable. [Verified]
+- PC: Standard interaction. [Verified]
 
-# General Lessons
-- Suicune Sequence Linearity: Suicune follows a strict order: Burned Tower -> Cianwood City -> Route 42 -> Route 36 -> Tin Tower. Sightings cannot be skipped.
-- Event Triggers: Scripted encounters are sprite-based. If the sprite is missing, the event cannot trigger.
-- Troubleshooting Stalls: If a scripted event doesn't trigger, re-verify the previous step's completion and ensure all trigger tiles (often directional) are crossed.
-- Map Marker Integrity: Markers linked to object IDs will move with those objects. Use static markers for fixed locations like trees.
-
-# Strategy: Suicune Hunt (Crystal Version)
+# Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-    - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
-- Sighting 3 (Goal): Route 42 Central Island.
-    - How: Surf to the island, Cut at (24, 13). Approach the three Apricorn trees. Suicune flees.
-    - **CRITICAL:** Suicune's scripted path in Crystal is NOT shown in the Pokedex 'Nest' screen. Red dots are Raikou/Entei.
-- Sighting 4: Route 36 (Sudowoodo junction).
-    - How: Approach junction at (35, 9) after sighting 3.
+- Sighting 3: Route 42 Central Island (Approach Apricorn trees).
+- Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
 - Sighting 5: Tin Tower 1F (Final Battle).
-    - Requirement: Defeat Wise Trio. They appear after Sightings 3 and 4 are complete.
-
-# Suicune Battle Strategy (Crystal)
-- Location: Tin Tower 1F.
-- Level 40. Strategy: Induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer).
+    - Requirement: Defeat Wise Trio. They appear after Sightings 3 and 4.
+- **Verification Strategy:** If Route 42 trigger stalls, check Tin Tower 1F for the Wise Trio to see if requirements were met silently.
+- Battle Strategy: Level 40. Induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Returning to Route 42 to trigger Sighting 3.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256.
 
-# Tile Mechanics (Route 37)
-- FLOOR: Traversable. [Verified]
-- TALL_GRASS: Traversable. [Verified]
-
-# Tile Mechanics (Route 42)
-- Water at (22, 12) is traversable via Surf from the land.
-- Island Grove entry requires Cut at (24, 13).
-- Headbutt trees at (28, 14), (31, 14), (31, 16), (31, 17) are impassable obstacles.
-- Trees at (22, 13), (23, 13), (25, 13), (26, 13), (27, 13), (29, 13) are impassable obstacles.
+# Area Mechanics
+- Route 42: Island entry via Cut at (24, 13). Trees at Y=13, 14, 16, 17 are impassable.
+- Route 37: FLOOR/TALL_GRASS traversable.
