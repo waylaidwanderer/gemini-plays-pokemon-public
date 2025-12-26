@@ -9,21 +9,22 @@
   - Muscle (Lv65): 215/215 HP. (PP Restored).
   - Gyarados (Lv35): 24/114 HP.
   - Mistral (Lv15): Fainted.
-  - Zenith (Lv15): Active (Fodder).
+  - Zenith (Lv15): Fainted.
   - Others: Healthy (Fodder).
 - **Inventory:** 0 Max Revives.
 
 # Battle Log: Champion Lance
 - **Vs Gyarados:** My Gyarados (QAAGMAQNJW) won via Thrash.
 - **Vs Dragonite (Lv47):**
-  - **Crisis:** Muscle ran out of PP.
-  - **Solution:** Executed "Max Zombie" strategy. Muscle sacrificed, now revived with Max Revive.
-  - **Current State:** Zenith active. Dragonite recharging (Hyper Beam).
-  - **Next Step:** Let Dragonite KO Zenith. Switch Muscle in safely.
+  - Muscle fainted to Hyper Beam.
+  - Switched to Zenith.
+  - Used Max Revive on Muscle (Dragonite recharged).
+  - Zenith fainted to 2nd Hyper Beam.
+  - **Current Situation:** Switching Muscle in. Dragonite MUST recharge.
 
 # Plan
-1.  **Sacrifice Zenith:** Give Muscle a clean switch-in.
+1.  **Muscle Enters:** Safe switch-in due to recharge.
 2.  **Muscle Sweeps:**
-    - **Vs Dragonite:** Strength.
+    - **Vs Dragonite:** Strength (Free hit + Next turn).
     - **Vs Aerodactyl:** Cross Chop.
     - **Vs Charizard:** Strength.
