@@ -30,3 +30,4 @@
 # Contingency Plan
 - If trigger fails on island, check mainland Route 42 or Route 36.
 - Re-verify Pokedex AREA map if location changes.
+- Turn 21701: Movement Right from (24, 13) blocked by HEADBUTT_TREE at (25, 13). Navigating around via (24, 14).
