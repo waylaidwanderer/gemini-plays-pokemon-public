@@ -8,7 +8,8 @@
 - **Battle:** Defeated Cooltrainer Beth (Rapidash).
 - **Status:** Gyarados (76/111). Muscle Lv61.
 - **Location:** Victory Road 1F (3_91).
-- **Next:** Verify west path dead end, then navigate north via east path.
+- **Status:** West path blocked by ledges (one-way return path).
+- **Next:** Navigate north via east path.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
