@@ -61,10 +61,10 @@
 - Prerequisite: Must have encountered Suicune at Route 42 and Route 36 sightings before they will battle.
 
 # Suicune Hunt Progress Log
-- Sighting 3 (Route 42): 21+ failed attempts on island floor tiles.
+- Sighting 3 (Route 42): 22+ failed attempts on island floor tiles.
 - Mt. Mortar Reset Hypothesis Result (Turn 23791): Failed to trigger sighting on checked tiles.
 - Current Status: Pokedex confirms Suicune on Route 42. Wise Trio locked.
 - Plan: Systematic sweep of all island FLOOR tiles using 'find_unmarked_floor_tiles_v2_fixed'. If sweep fails, pivot to 'Hard Reset' (Mahogany approach).
-- Progress: Checked (30, 16). Moving to (27, 14) as part of tool-directed path to remaining unmarked tiles. Remaining targets: Row 12, (24, 13), (24, 14), (25, 14), (26, 16).
-- Current Turn: 23822
-- Suicune Hunt Duration: 122 turns (since turn 23700)
+- Progress: Checked (24, 14). Remaining targets on island being calculated by tool.
+- Current Position: (24, 14)
+- Suicune Hunt Duration: 123 turns (since turn 23700)
