@@ -47,3 +47,8 @@
 # Metadata
 - Current Turn: 23761
 - Suicune Hunt Duration: 61 turns (since turn 23700)
+## Wise Trio Roster (Tin Tower Gatehouse)
+- Sage GAKU: Noctowl (Lv32)
+- Sage MASA: Flareon (Lv32), Jolteon (Lv32)
+- Sage KOJI: Kadabra (Lv32)
+- Prerequisite: Must have encountered Suicune at Route 42 and Route 36 sightings before they will battle.
