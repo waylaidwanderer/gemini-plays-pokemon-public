@@ -1,8 +1,8 @@
 # Operation: Dragon Slayer
-- **Current State:** Main Menu.
-- **Action:** Entering Pack.
-- **Plan:** Locate REVIVE. Revive Gyarados & Kunai. Heal Muscle.
-- **Team Update:** Muscle (112/225). Gyarados (FNT). Kunai (FNT).
+- **Current State:** In Bag.
+- **Action:** Reviving Gyarados.
+- **Plan:** Use Revive on Slot 3 (Gyarados). Then Revive Kunai. Then heal Muscle.
+- **Team Update:** Muscle (112/225). Gyarados (FNT -> Reviving). Kunai (FNT).
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
