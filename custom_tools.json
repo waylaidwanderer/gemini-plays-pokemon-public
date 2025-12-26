@@ -197,7 +197,7 @@
         }
       }
     },
-    "python_script": "import json\ntarget = input_data.get('target', '').upper()\nscreen_text = input_data.get('screen_text', '')\nlines = screen_text.split('\\n')\ncur_idx = -1\ntar_idx = -1\nfor i, line in enumerate(lines):\n    if '▶' in line or '\\u25b6' in line:\n        cur_idx = i\n    if target in line.upper():\n        tar_idx = i\n\nif tar_idx != -1 and cur_idx != -1:\n    diff = tar_idx - cur_idx\n    buttons = (['Down'] * diff) if diff > 0 else (['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps(['Down'] * 3))\n",
+    "python_script": "import json\ninput_data = input_data or {}\ntarget = input_data.get('target', '').upper()\nscreen_text = input_data.get('screen_text', '')\n\n# Check for sub-menu presence\nif any(opt in screen_text.upper() for opt in ['▶USE', '▶GIVE', '▶TOSS', '▶QUIT']):\n    if target not in ['USE', 'GIVE', 'TOSS', 'QUIT']:\n        print(json.dumps(['B']))\n        exit()\n\nlines = screen_text.split('\\n')\nselectable_indices = []\nfor i, line in enumerate(lines):\n    clean = line.strip()\n    if not clean: continue\n    if any(x in line for x in ['×', '<MAP>', '<PHONE>', '┌', '│', '└', 'POCKET', 'ITEMS']): continue\n    selectable_indices.append(i)\n\ncur_idx = -1\ntar_idx = -1\nfor i, line in enumerate(lines):\n    if any(c in line for c in ['▶', '\\u25b6', '▷']):\n        cur_idx = min(selectable_indices, key=lambda x: abs(x-i)) if selectable_indices else i\n    if target in line.upper():\n        tar_idx = i\n\nif tar_idx != -1 and cur_idx != -1 and tar_idx in selectable_indices:\n    s_cur = selectable_indices.index(cur_idx)\n    s_tar = selectable_indices.index(tar_idx)\n    diff = s_tar - s_cur\n    buttons = (['Down'] * diff) if diff > 0 else (['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps(['Down'] * 3))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -208,6 +208,11 @@
         "commit_message": "Fixed script to correctly access input_data and handle missing items by scrolling.",
         "timestamp": "2025-12-26T01:14:52.915Z",
         "action_counter": 21095
+      },
+      {
+        "commit_message": "Improved menu_navigator to handle multi-line item lists (like the Bag) and sub-menus. Now correctly calculates button presses by identifying selectable lines and exits sub-menus if the target is not a sub-menu option.",
+        "timestamp": "2025-12-26T01:17:32.959Z",
+        "action_counter": 21101
       }
     ]
   }
