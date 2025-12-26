@@ -13,16 +13,15 @@
 # Strategy: Suicune Hunt (Johto)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood (Complete)
-- Sighting 3: Route 42 (Pending). Approach Suicune on the center island (requires Surf and Cut).
-- Sighting 4: Route 36 (Next). Triggered at the Sudowoodo junction after Route 42.
+- Sighting 3: Route 42. Approach Suicune on the center island (requires Surf and Cut). [Start Turn 21694]
+- Sighting 4: Route 36. Triggered at the Sudowoodo junction after Route 42.
 - Sighting 5: Fuchsia City (Kanto).
 - Final Battle: Tin Tower 1F (Requires Clear Bell).
 - Primary Goal HOW: Complete all 5 sightings. Enter Tin Tower 1F. Use Xenon (Gastly) for Hypnosis and Mean Look. Use Ultra/Great Balls.
-- Hypothesis: The Pokedex status "Route 38" refers to Raikou/Entei, not Suicune.
+- Note: Pokedex "Area" is for Raikou/Entei. Suicune is scripted.
 
 # Week Siblings Strategy
-- Arthur (Thursday): Route 36. Provides Hard Stone.
-- Arthur Note: If dialogue intro loops, the flag is likely set. Check PC and party held items.
+- Arthur (Thursday): Route 36. Provides Hard Stone. [COMPLETED - Turn 21872]
 - Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place.
 - Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
 
@@ -32,8 +31,7 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA (Raticate), CINNABAR (Goldeen), VORTEX (Poliwag), INTERCEPT (Yanma), ROCKY (Onix), EGG (Cleffa), XFDW (Meowth), FRITTATA (Togepi), SHUCKIE (Shuckle), Blarney (Sudowoodo).
-- PC Check: Item Storage and Box 1 (all 10 Pokémon) confirmed empty of items (Turns 21844-21861).
-- Party Check: XENON, ICARUS, and GNEISS have item icons in the party menu. Checking Gneiss first (Turn 21867).
-- Suicune Strategy: Proceed to Route 42 center island. Use Surf and Cut.
-- Lesson: PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
-- Lesson: Menu navigation tools must handle border characters (│, ┌, └) correctly. Fix applied in menu_navigator_v2_fixed_v2.
+
+# NPC & Interaction Lessons
+- PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
+- Check held items if an NPC dialogue loops or item seems missing.
