@@ -1,9 +1,10 @@
 # Operation: Elemental Upgrade
 - **Status:** Inside Victory Road (1F).
-- **Plan:** Test North path on East Side:
-    1. Move West to (7, 64), North to (7, 61), East to (12, 61).
-    2. Move North to (12, 53).
-    3. If (12, 52) is passable, cross West to (1, 49).
+- **Plan:** Detour around wall at (9, 64):
+    1. South to (10, 66), West to (7, 66).
+    2. North to (7, 61), East to (12, 61).
+    3. North to (12, 53).
+    4. Cross West to Ladder at (1, 49).
 - **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
 - **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
