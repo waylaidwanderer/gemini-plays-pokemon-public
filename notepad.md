@@ -9,6 +9,7 @@
 - DOOR/STAIRS/CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
+- FLOOR_UP_WALL: Impassable from below, likely a ledge or wall variant. [Verified]
 
 # Battle and Pokemon Information
 ## Type Effectiveness (Verified)
@@ -49,10 +50,12 @@
   - Attempt 2: (28, 15). No trigger.
   - Attempt 3: Approached from East (y=15). No trigger.
   - Attempt 4: Reset map script (Mt. Mortar) and returned. No trigger.
+  - Attempt 5: (27, 14). No trigger.
 - Next: approach from the east side of the entire map (Surf west from Mahogany side).
 
 # Money & Economy
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23731
+- Current Turn: 23735
+- Suicune Hunt Duration: 35 turns (since turn 23700)
