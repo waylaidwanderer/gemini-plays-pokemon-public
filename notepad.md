@@ -14,6 +14,6 @@
 - **Indigo Plateau:** Currently in the lobby.
 
 # Plan
-1.  **Heal:** Locate Nurse Joy and heal the team.
-2.  **Shop:** Buy Full Restores/Revives if available.
-3.  **Prepare:** Review movesets and PP (Muscle needs Cross Chop PP restored).
+1.  **Shop:** Locate the Mart Clerk on the right side and buy Full Restores and Revives.
+2.  **Prepare:** Organize team order and held items.
+3.  **Challenge:** Enter the door to the Elite Four.
