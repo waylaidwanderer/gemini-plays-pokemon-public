@@ -77,3 +77,14 @@
 - **Result:** Muscle heals +100 HP (Total ~134/208).
 - **Inventory:** 0 Super Potions left.
 - **Next:** Advance to Bruno.
+- **Turn 19273:** Healing complete. No potions left.
+- **Strategy:** Zombie Mode activated. Rely on Revives to restore 50% HP if team members faint.
+- **Action:** B x3 (Exit Party -> Exit Bag -> Exit Menu).
+- **Next:** Advance North to Bruno.
+- **Bruno Matchups:**
+  - **Hitmontop:** Dig/Strength.
+  - **Hitmonlee:** Dig/Strength.
+  - **Hitmonchan:** Dig/Strength.
+  - **Onix:** Surf (Gyarados) or Dig/Cross Chop (Muscle).
+  - **Machamp:** Strength/Dig. Watch for Cross Chop.
+  - **Note:** Gyarados resists Fighting. Good pivot.
