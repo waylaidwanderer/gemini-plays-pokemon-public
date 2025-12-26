@@ -31,3 +31,8 @@
 - **Reasoning:** Rock Smash (Fighting) is Neutral vs Aerodactyl. Need to empty PP to reach Struggle (50 BP, Normal) which is better vs Charizard/Dragonite (Neutral) than Rock Smash (Resisted).
 - **Status:** Rock Smash 7 PP left.
 - **Strategy Update:** Embracing the "Struggle Sweep". Muscle will become a berserker.
+- **Turn 19419:** Aerodactyl used Wing Attack (Super Effective, ~60 dmg). Muscle used Rock Smash (Crit! Def fell!).
+- **Status:** Muscle 96/215 HP. Aerodactyl HP low (Yellow/Red?).
+- **Action:** Use Rock Smash (Slot 3).
+- **Reasoning:** Muscle survives one more hit. Rock Smash to finish or weaken further.
+- **PP:** Rock Smash 7/15.
