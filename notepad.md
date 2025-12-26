@@ -21,3 +21,15 @@
 - Pokémon: Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 - Items (Bag): BERRY, FRESH WATER, FULL RESTORE, GRN APRICORN x3, GUARD SPEC., ICE BERRY, ICE HEAL, LEMONADE x2, MAX ETHER, PNK APRICORN x3, THUNDERSTONE, X ATTACK, X SPECIAL, YLW APRICORN x2.
 - Items (PC): Empty (Verified Turn 21268).
+## Tile Mechanics: Route 42
+- FLOOR: Standard traversable ground. [Verified]
+- WALL: Impassable barrier (cliffs, rocks). [Verified]
+- WATER: Requires SURF to traverse. [Verified]
+- HEADBUTT_TREE: Can be interacted with via Headbutt. [Verified]
+- CUT_TREE: Impassable until removed with CUT. [Verified]
+
+## Suicune Tracking Notes
+- Sighting 2 (Cianwood): Turn 20088. Approached at (10, 14), it fled.
+- Eusine Battle (Cianwood): Turn 20110. Won.
+- Sighting 3 (Route 42): Currently at (26, 14) but sprite is not present. Checking Pokedex AREA map to confirm current location.
+- Note: Clear Bell obtained at Turn 21217.
