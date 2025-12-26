@@ -21,8 +21,9 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
-- **Condition:** Muscle (71/201 HP) is Confused.
-- **Correction:** Last turn, Muscle used Cross Chop (Slot 4) due to menu memory, which was NVE.
-- **Action:** Correctly navigate to Strength (Slot 1) from Slot 4.
-- **Risk:** Muscle is low HP and Confused. If she hits herself, she will be critical.
-- **Goal:** Defeat Golbat with Strength.
+- **Condition:** Muscle (39/201 HP) is Confused and in critical health.
+- **Urgent Action:** Heal Muscle immediately.
+- **Plan:**
+  1. Open PACK.
+  2. Locate and use MAX POTION.
+- **Goal:** Survive the turn and reset health to full.
