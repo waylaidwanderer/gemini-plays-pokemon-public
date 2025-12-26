@@ -46,3 +46,7 @@
 
 # Money & Economy
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
+
+# Metadata
+- Last sighting check: Turn 23645 (Suicune on Route 42).
+- Current Turn: 23648
