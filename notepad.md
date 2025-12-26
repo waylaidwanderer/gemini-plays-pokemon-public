@@ -71,3 +71,13 @@
 - **Action:** Use Strength again.
 - **Reasoning:** Must breakthrough evasion.
 - **Risk:** Toxic damage ramping up. Crobat might heal again.
+- **Turn 19226:** Crobat defeated. Muscle grew to Lv 63.
+- **Incoming:** Forretress (Lv 43).
+- **Action:** Decline switch (Down -> A).
+- **Matchup:** Muscle (Physical) vs Forretress (High Def).
+- **Type Analysis:** Bug/Steel.
+  - Fire: 4x (Garnet is underleveled).
+  - Fighting: 1x (Neutral).
+  - Ground: 1x (Neutral).
+  - Normal: 0.5x (Resisted).
+- **Plan:** Use Cross Chop or Dig. Muscle is best bet despite high enemy Def.
