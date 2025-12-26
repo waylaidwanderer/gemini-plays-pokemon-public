@@ -4,9 +4,11 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18799)
-- **Location:** Route 26 (9, 51).
-- **Team:** Muscle (Machoke Lv60) leading. Team healthy.
+# Current Status (Turn 18801)
+- **Location:** Route 26 (9, 39).
+- **Activity:** Engaging Cooltrainer M.
+- **Team:** Muscle (Machoke Lv60) leading.
+- **Next:** Defeat Cooltrainer M. Continue North to Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
