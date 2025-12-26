@@ -13,17 +13,17 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island. [Start Turn 21950]
-  - HOW: Step on the trigger tiles in the grove (approx 26, 14).
-- Sighting 4: Route 36 (Sudowoodo junction). [Turn 21973]
-  - HOW: Clear Sudowoodo first (Complete). Approach the clearing near the junction.
-- Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell.
-  - Prerequisite: All 4 scripted sightings (Burned Tower, Cianwood, Route 42, Route 36) must be triggered.
+- Sighting 3: Route 42 Central Island grove. [Start Turn 21950]
+  - HOW: Step on trigger tiles (approx 26, 14). Approach sprite to trigger flee.
+- Sighting 4: Route 36 (Sudowoodo junction).
+  - HOW: Approach the clearing near the junction after Sighting 3.
+- Sighting 5: Tin Tower 1F (Final Battle).
+  - Prerequisite: Clear Bell (Obtained).
+  - Prerequisite: All 4 scripted sightings must be triggered.
 - Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Correction - Turn 21973]
-- Strategy: Finish sighting on Route 42, then head to Route 36. [Turn 21973]
 
 # Gym Progress
-- Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
+- Rising Badge (Clair): Next Gym Badge required. Travel to Blackthorn City.
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
@@ -31,12 +31,12 @@
 
 # NPC & Interaction Lessons
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
-- Check held items if an NPC dialogue loops or item seems missing.
 - Menu Navigation: Use menu_navigator_v3_fixed_borders to handle borders.
 - Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place.
-- Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
+- Lesson: Never mix directional inputs and the A button in the same turn.
 
 # Error Analysis Log
-- [Turn 21931] Mistake: Assumed a Suicune sighting existed on Route 36. Root Cause: Confused Crystal mechanics with other games. Correction: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Turn 21967]
-- [Turn 21931] Mistake: Assumed harvesting Apricorns on Route 42 triggered Sighting 3. Root Cause: Sprite didn't appear but I assumed it happened off-screen. Correction: Must return and step on the trigger tile.
-- [Turn 21957] Mistake: Mixed directional and action buttons (Down, A, A). Result: Only Down was executed. Correction: Move first, then perform action.
+- [Turn 21931] Mistake: Assumed Suicune sighting existed on Route 36 before 42. Correction: Sequence is 42 then 36. [Turn 21973]
+- [Turn 21931] Mistake: Assumed harvesting Apricorns triggered Sighting 3. Correction: Must step on trigger tile.
+- [Turn 21957] Mistake: Mixed directional and action buttons. Result: Action stripped.
+- [Turn 21976] Mystery: Suicune not appearing on Route 42 despite prerequisites (Cianwood, Eusine battle, Clear Bell). Troubleshooting...
