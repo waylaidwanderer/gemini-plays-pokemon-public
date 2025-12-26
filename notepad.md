@@ -33,18 +33,14 @@
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective - Missed previously]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective]
   4. Route 36 (Sudowoodo junction): [Pending]
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1).
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
 # Strategy for Suicune on Route 42
-- Investigation Points: The central island with three Apricorn trees.
-- Action: Fly to Mahogany Town, enter Route 42 from the east, Surf to the island. Walk around the trees and the perimeter of the island.
-- Note: Pokedex confirmed Suicune is currently on Route 42 (Turn 24005). Previous attempts at the island grove failed, possibly due to missing the exact trigger tile.
-
-# Strategy for Route 36
-- Status: Failed (Turn 24005). Suicune not present. Pokedex indicates it is still at the previous location (Route 42).
+- Investigation Points: The central island with three Apricorn trees. Use Suicune Tracker agent for exact trigger coordinates.
+- Action: Fly to Mahogany Town, enter Route 42 from the east, Surf to the island.
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
