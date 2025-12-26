@@ -18,7 +18,8 @@
 - Sighting 3: Route 42 (In Progress)
     - Trigger Location: Central island grove.
     - Specific Tile: Adjacency to (26, 13) (Headbutt Tree).
-    - Status: Map Reset performed at Turn 22903. Currently attempting trigger at (26, 14).
+    - Status: Map Reset performed at Turn 22903. Currently testing Headbutt interaction at (26, 13) as potential trigger.
+- Outcome: Testing...
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
