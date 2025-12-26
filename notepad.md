@@ -131,3 +131,7 @@
 - **Matchup:** Muscle (126/205) vs Xatu (Lv 42).
 - **Prediction:** Strength deals ~50-60%. Xatu attacks (Psychic). Muscle survives.
 - **Next:** Finish with Strength.
+- **Turn 19146:** Muscle uses Strength.
+- **HP Status:** Muscle 126/205.
+- **Prediction:** Strength deals ~50%. Xatu attacks (Psychic -> ~46 HP).
+- **Next:** Finish with Strength or heal if crit happens.
