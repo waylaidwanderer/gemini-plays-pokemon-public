@@ -25,6 +25,7 @@
 # Repetitive Task: Suicune Island Sweep
 - Start Turn: 21556 (Current Turn: 21601)
 - Status: Abandoning "facing" hypothesis. Transitioning to "walking south from cave" approach.
+- Strategy: Approach (28, 15) from the north (28, 10).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
