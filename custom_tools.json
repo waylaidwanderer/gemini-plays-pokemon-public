@@ -224,16 +224,22 @@
         "x_max",
         "y_min",
         "y_max",
-        "emoji"
+        "emoji",
+        "autopress_buttons"
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef find_unmarked_tiles(xml_string, x_min, x_max, y_min, y_max, emoji):\n    root = ET.fromstring(xml_string)\n    unmarked = []\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        if y_min <= y <= y_max:\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                if x_min <= x <= x_max:\n                    if tile.get('type') == 'FLOOR' and not tile.find('Object'):\n                        has_marker = any(m.get('emoji') == emoji for m in tile.findall('Marker'))\n                        if not has_marker:\n                            unmarked.append((x, y))\n    return unmarked\n\nunmarked_coords = find_unmarked_tiles(map_xml_string, input_data['x_min'], input_data['x_max'], input_data['y_min'], input_data['y_max'], input_data['emoji'])\n\nif input_data.get('autopress_buttons'):\n    # This tool is primarily for finding, but if buttons are requested, \n    # we'd need a pathfinding integration. For now, just return the coords as a string \n    # to avoid the 'not a string' error if the system expects strings.\n    print(json.dumps([str(coord) for coord in unmarked_coords]))\nelse:\n    print(json.dumps(unmarked_coords))\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef find_unmarked():\n    try:\n        root = ET.fromstring(map_xml_string)\n        x_min, x_max = int(input_data['x_min']), int(input_data['x_max'])\n        y_min, y_max = int(input_data['y_min']), int(input_data['y_max'])\n        emoji = input_data['emoji']\n        autopress = bool(input_data.get('autopress_buttons', False))\n        \n        px, py = -1, -1\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                    px, py = x, y\n                t_type = tile.attrib['type']\n                has_obj = tile.attrib.get('has-object') == 'true'\n                has_marker = any(m.attrib.get('emoji') == emoji for m in tile.findall('Marker'))\n                grid[(x, y)] = {'type': t_type, 'obj': has_obj, 'marker': has_marker}\n        \n        targets = []\n        for x in range(x_min, x_max + 1):\n            for y in range(y_min, y_max + 1):\n                if (x, y) in grid:\n                    t = grid[(x, y)]\n                    if t['type'] in ['FLOOR', 'GRASS', 'TALL_GRASS'] and not t['obj'] and not t['marker']:\n                        targets.append((x, y))\n        \n        if not targets:\n            print(json.dumps([]))\n            return\n            \n        if not autopress:\n            print(json.dumps([f\"({x}, {y})\" for x, y in targets]))\n            return\n\n        queue = deque([(px, py, [])])\n        visited = set([(px, py)])\n        passable = ['FLOOR', 'GRASS', 'TALL_GRASS', 'CAVE', 'WARP', 'DOOR', 'STAIRS', 'STAIRCASE', 'PATH', 'DIRT', 'SAND', 'WATER']\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            if (cx, cy) in targets:\n                print(json.dumps(path))\n                return\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in grid and (nx, ny) not in visited:\n                    t = grid[(nx, ny)]\n                    if t['type'] in passable and not t['obj']:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps([str(e)]))\n\nfind_unmarked()",
     "history": [
       {
         "commit_message": "Fixed input schema to correctly handle autopress_buttons and updated logic to avoid type errors. Added logic to return button strings if autopress_buttons is True.",
         "timestamp": "2025-12-26T06:25:22.066Z",
         "action_counter": 21752
+      },
+      {
+        "commit_message": "Fix find_unmarked_floor_tiles_v2_fixed to correctly return a JSON array of button strings when autopress_buttons is true, by implementing a basic BFS pathfinder within the tool.",
+        "timestamp": "2025-12-26T12:31:45.484Z",
+        "action_counter": 22582
       }
     ]
   },
