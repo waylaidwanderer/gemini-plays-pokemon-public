@@ -23,3 +23,16 @@
 - WARP_CARPET_DOWN: Warp. [Verified]
 - LADDER: Warp. [Verified]
 - FLOOR_UP_WALL: Impassable. Ledge that can be jumped over from above. [Verified]
+
+# Milestone Audit (Turn 21517)
+- Current Milestone: Sighting 3 (Route 42).
+- Previous Milestones: Sighting 1 (Burned Tower), Sighting 2 (Cianwood).
+- Eusine: Defeated in Cianwood.
+- Problem: Complete floor sweep of Route 42 island (X=24-30, Y=14-17) failed to trigger flee.
+- Hypothesis 1: Trigger is on a specific tile missed (Check Pokedex AREA for exact location).
+- Hypothesis 2: Trigger is on the water surrounding the island.
+- Hypothesis 3: Milestone confusion - Suicune has already moved to Sighting 4.
+
+# Pokedex Navigation Log
+- Turn 21510: Failed to find Suicune (stuck on Sunkern).
+- Turn 21517: Restarting search for SUICUNE entry.
