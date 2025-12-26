@@ -87,3 +87,8 @@
 - **Strategy:** Use Cross Chop (Slot 4). Strongest neutral move.
 - **Action:** Smart Move (Current: 3, Target: 4).
 - **Risk:** Miss (80% acc) or survival. Muscle likely faints after this turn due to Poison.
+- **Turn 19230:** Muscle fainted (Poison damage).
+- **Status:** Forretress at Full HP (Protected last turn).
+- **Action:** Switch to Gyarados (Slot 3).
+- **Reasoning:** Gyarados (Lv 35) is tankier than Garnet (Lv 29). Surf is special (hits lower SpDef). Fire (Garnet) is 4x effective but too risky due to low level/defense.
+- **Plan:** Use Surf. Recover momentum. Revive Muscle later if needed.
