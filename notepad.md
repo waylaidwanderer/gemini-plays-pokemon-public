@@ -1,9 +1,9 @@
 # Operation: Dragon Slayer
-- **Current State:** In Bag. Revive selected.
-- **Action:** Reviving Kunai (Slot 4) and Gyarados (Slot 3).
-- **Assumption:** Party cursor is on Slot 5 (Zenith).
-- **Sequence:** Use Revive -> Up (Slot 4) -> Use -> Clear Text -> Up (Slot 3) -> Use.
-- **Next:** Heal everyone with Lemonade.
+- **Current State:** In Bag (Ice Berry Menu).
+- **Action:** Reviving Gyarados.
+- **Plan:** Close Ice Berry -> Select Revive -> Use on Gyarados (Slot 3).
+- **Cursor Logic:** Assuming cursor is on Slot 4 (Kunai) from previous turn. Press Up to reach Slot 3.
+- **Team Update:** Muscle (112/225). Gyarados (FNT). Kunai (32/65).
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
