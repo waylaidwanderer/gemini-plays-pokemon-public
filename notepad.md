@@ -82,3 +82,9 @@
 - Started: Turn 22256.
 - Gatehouse hopping started Turn 23337.
 - Current observation: Suicune is currently in the east (approx. Route 44/45) as of Turn 23357.
+- Turn 23362: Correcting turn count mismatch. 
+- Note: find_path_v3 does not automatically press A to Surf. When reaching water, the player must face the water and press A manually to trigger the prompt.
+- Strategy: Moving to (0, 9) gatehouse to perform map-transition hopping until Suicune is on Route 42.
+- Current Suicune Location (Pokedex Area): 
+    - Turn 23357: East (Route 44/45).
+    - Turn 23362: To be checked.
