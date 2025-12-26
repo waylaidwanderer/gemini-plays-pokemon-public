@@ -75,3 +75,7 @@
   - **Vs Muk:** Dig (Super Effective).
   - **Vs Crobat:** Strength (Neutral). Dig fails (Flying).
 - **Backup:** Gyarados (Surf) for neutral coverage.
+- **Turn 19203:** Engaging Koga.
+- **Action:** Press A to talk.
+- **Expectation:** Battle start.
+- **First Move:** Muscle vs Ariados (likely lead). Use Strength.
