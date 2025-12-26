@@ -1,6 +1,8 @@
 # Operation: Machamp Champ
 - **Current State:** About to fight Hitmonlee.
-- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def).
+- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def). Hitmonlee has very low Defense.
+
+# Team Status
 
 # Team Status
 - Muscle (Lv67): 208/222 HP.
