@@ -2,7 +2,7 @@
 - FLOOR: Traversable. [Verified]
 - WALL: Impassable. [Verified]
 - WATER: Traversable via Surf (Ravioli). [Verified]
-- HEADBUTT_TREE: Impassable. [Verified]
+- HEADBUTT_TREE: Impassable. Note: Tile (28, 14) on Route 42 has a Headbutt Tree collision despite appearing as floor visually. [Verified]
 - CUT_TREE: Impassable. Requires HM01 Cut (KIMCHI). [Verified]
 - PC: Standard interaction. [Verified]
 - COUNTER: Impassable. Interaction with NPCs behind them must be done from an adjacent tile. [Verified]
