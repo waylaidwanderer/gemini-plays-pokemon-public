@@ -27,6 +27,8 @@
 - **Current:** Navigating North towards Victory Road.
 
 # Current Status (Turn 18848)
-- **Status:** Muscle Lv61 (165/201). Call complete.
-- **Location:** Route 26 (13, 11).
-- **Next:** Navigate to (9, 8). Explore path to Item. Then check House at (7, 5).
+- **Battle:** Fighting Cooltrainer Beth (Rapidash Lv36).
+- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire). Advantage: Gyarados.
+- **Action:** Using Surf (Slot 4) for super-effective damage.
+- **Location:** Route 26 (9, 8).
+- **Next:** Defeat Cooltrainer Beth. Explore West path to Item. Check House at (7, 5).
