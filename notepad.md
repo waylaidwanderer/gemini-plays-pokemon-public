@@ -1,7 +1,7 @@
 # Operation: Machamp Champ
-- **Current State:** About to fight Hitmonchan.
-- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def).
-- **Matchup Notes:** Hitmonchan has elemental punches (Special), but low Sp.Atk. Muscle is safe.
+- **Current State:** Fighting Hitmonchan (Lv42).
+- **Battle Plan:** Use Strength (Physical vs Low Def).
+- **Matchup Notes:** Hitmonchan has high Sp.Def, so avoid elemental punches. Strength is best.
 
 # Team Status
 
