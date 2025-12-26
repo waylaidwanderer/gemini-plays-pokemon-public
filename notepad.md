@@ -36,3 +36,8 @@
 # Pokedex Navigation Log
 - Turn 21510: Failed to find Suicune (stuck on Sunkern).
 - Turn 21517: Restarting search for SUICUNE entry.
+
+# Failed Hypothesis: Island Floor Sweep
+- Sweep of (24-30, 13-17) floor tiles failed to trigger Suicune flee.
+- Overwatch notes order difference (Route 42 before Cianwood), but tracker and player data confirm Sighting 3 is next.
+- New Strategy: Verify exact blinking location in Pokedex AREA. If on island, check water tiles (Y=14-17) and northern strip (Y=11-12).
