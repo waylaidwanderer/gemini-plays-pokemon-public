@@ -23,4 +23,4 @@
 - Sighting 5: Tin Tower 1F (Final)
 
 # Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22942.
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22944. Attempting systematic sweep after map reset.
