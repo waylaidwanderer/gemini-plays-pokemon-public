@@ -5,8 +5,9 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer Jake (Route 26).
-- **Status:** Gyarados (Lv34) leading. Muscle (Lv60) in reserve.
+- **Battle:** Fighting Cooltrainer Jake (Parasect Lv33).
+- **Matchup:** Gyarados (Lv34) vs Parasect.
+- **Action:** Using Thrash (Slot 1).
 - **Location:** Route 26 (12, 24).
 - **Next:** Defeat Cooltrainer Jake. Continue North.
 
