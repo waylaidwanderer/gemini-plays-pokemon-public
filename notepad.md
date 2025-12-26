@@ -1,32 +1,31 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Complete methodical sweep of the island floor after map reset.
+- Strategy: Complete methodical sweep of the island floor (Y=10-17) after map reset to trigger Sighting 3 flee event.
 - Lessons Learned:
     - Pokedex: Alphabetical order places SUICUNE between SUDOWOODO and SUNKERN.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Map Reset: Performed map reset by entering Mount Mortar (Turn 21550).
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
-- Unmarked Floor Tiles (Turn 21535): (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 15).
+- Unmarked Floor Tiles (Mental Map): (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 15).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
 - WALL: Impassable. [Verified]
 - WATER: Traversable via Surf. [Verified]
-- HEADBUTT_TREE: Impassable. Interaction triggers Headbutt. [Verified]
-- CUT_TREE: Impassable. Interaction triggers Cut. [Verified]
-- FRUIT_TREE: Impassable. Interaction gives Apricorn/Berry. [Verified]
+- HEADBUTT_TREE/CUT_TREE/FRUIT_TREE: Impassable. Interaction only. [Verified]
 - TALL_GRASS: Traversable. Wild encounters. [Verified]
-- CAVE: Warp. [Verified]
-- WARP_CARPET_LEFT/DOWN: Warp. [Verified]
-- LADDER: Warp. [Verified]
-- FLOOR_UP_WALL: Impassable. Ledge that can be jumped over from above. [Verified]
+- WARP: CAVE, WARP_CARPET, LADDER. [Verified]
+- FLOOR_UP_WALL: Impassable ledge (one-way down). [Verified]
 
 # Milestone Audit
-- Current Milestone: Sighting 3 (Route 42).
-- Previous Milestones: Sighting 1 (Burned Tower), Sighting 2 (Cianwood).
-- Eusine: Defeated in Cianwood.
+- Sighting 1: Burned Tower (Complete).
+- Sighting 2: Cianwood (Complete).
+- Eusine: Defeated in Cianwood (Complete).
+- Sighting 3: Route 42 (Current).
 
-# Island Sweep Plan
-1. Re-verify Suicune AREA box in Pokedex.
-2. Step on all unmarked floor tiles: (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 15).
-3. If trigger fails, Fly to Ecruteak and return to re-verify.
+# Contingency Plan
+- If sweep fails to trigger Suicune, I will:
+    1. Re-verify Pokedex AREA map for exact location.
+    2. Check Route 36 (Sighting 4) to see if sequence advanced.
+    3. Visit Tin Tower (Sighting 5) if others are skipped.
+    4. Fly to Ecruteak to reset the map and return.
