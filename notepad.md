@@ -17,15 +17,14 @@
 # General Notes
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
-- **Battle:** Elite Four Will.
-- **Status:** Defeated!
-- **Next:** Koga (Poison Type).
-- **Strategy:** Muscle (Lv66) leads.
-    - **Crobat:** Ice Punch / ThunderPunch.
-    - **Muk:** Strength (High Defense/Minimise risk).
-    - **Forretress/Ariados:** Strength/Fire (if switch to Garnet, but risky). Stick to Muscle.
-    - **Venomoth:** Ice Punch / ThunderPunch.
-- **Team Health:** Muscle (181/218). Good.
+- **Battle:** Elite Four Koga.
+- **Status:** Challenging Koga.
+- **Opponent:** Koga (Poison Type).
+- **Strategy:** Muscle (Lv66) leads. Avoid Fighting moves (Resisted).
+    - **Crobat:** ThunderPunch / Ice Punch.
+    - **Ariados/Venomoth/Muk:** Strength (Neutral).
+    - **Forretress:** Strength or Cross Chop (Neutral).
+- **Next:** Approach Koga at (5, 7).
 
 # Tile Mechanics
 - **WALL**: Impassable.
