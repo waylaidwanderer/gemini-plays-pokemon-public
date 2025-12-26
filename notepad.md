@@ -21,10 +21,8 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
     - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
-- Sighting 3 & 4 (Stalled): Route 42 Island & Route 36 Junction.
-    - Status: Thoroughly explored both locations multiple times [Turns 22256-22315]. No sprites appeared. 
-    - Failed Attempts: ~10 separate sweeps of both areas.
-    - New Hypothesis: These sightings might be optional or triggered by the Wise Trio battle, OR they were somehow skipped/completed without notice.
+- Sighting 3 & 4: Route 42 Island & Route 36 Junction.
+    - Status: Exploring Wise Trio Room to verify if these sightings are prerequisites or if they trigger after the Sage battle. [Turn 22332]
 - Sighting 5 (Goal): Tin Tower 1F (Final Battle).
     - How: Enter Tin Tower 1F via the NE Barrier Station in Ecruteak City. Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
