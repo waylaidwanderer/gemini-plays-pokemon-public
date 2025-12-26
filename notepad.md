@@ -1,10 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Houndoom (Lv47). Gyarados (Lv35) active.
-- **Battle Plan:** Use Surf (Slot 4).
-- **Matchup:** Gyarados resists Fire. Surf (Water, Special) is 2x Effective.
-- **Stats:** Gyarados has low Sp.Atk (Gen 2 Water is Special), but 2x SE + STAB should hurt.
-- **Risk:** Level gap (12 levels). Houndoom outspeeds. Gyarados is the last capable member.
+- **Current State:** Critical Situation. Gyarados (54/114 HP) vs Houndoom (Red HP).
+- **Analysis:** Houndoom outspeeds and 2HKOs Gyarados with Crunch. Staying in risks a wipe if Gyarados falls without killing.
+- **Strategy:** Revive Muscle (Lv68) to ensure victory. Muscle resists Dark and can tank hits easily.
+- **Immediate Action:** Open Pack to use Revive on Muscle.
+- **Backup:** If Gyarados survives the turn, great. If not, Muscle sweeps.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
