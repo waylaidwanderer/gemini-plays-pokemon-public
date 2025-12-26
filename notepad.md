@@ -54,3 +54,4 @@
 - Task: Investigating Suicune Sighting 3 requirements. [Start Turn 21907]
 - Lesson: Turn mismatch detected at Turn 21914. Must verify game state thoroughly. [Turn 21914]
 - Strategy: Heading to Route 36 via Violet City to trigger Suicune Sighting 4. [Turn 21914]
+- Task: Travel to Route 36 via Violet City west exit. [Start Turn 21922]
