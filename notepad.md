@@ -18,7 +18,8 @@
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
 - **Purchase Plan:** Sell TMs -> Go to 2F for Hyper Potions (Battle Heals). Rooftop for Lemonade (Cost-effective). Funds: ~¥8000.
 - **Shop Inventory:**
-    - 2F: Super Potion, Status Heals, Balls, Revive, Full Heal, Mail.
+    - 2F (Top Clerk): Super Potion, Status Heals (No Hyper Potions).
+    - 2F (Bottom Clerk): Unknown (Checking).
     - 3F: Battle Collection (X Items).
     - 4F: Vitamins (Protein, Iron, Carbos, Calcium).
     - 5F: TM Corner.
