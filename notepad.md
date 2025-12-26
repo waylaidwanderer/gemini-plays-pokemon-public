@@ -31,7 +31,6 @@
 # Event Mechanics: Suicune Hunt (Crystal)
 - Status: Suicune appears at fixed sighting locations. Final encounter at Tin Tower.
 - Prerequisite: "Tower Shook" event in Ecruteak City + Possession of CLEAR BELL.
-- Hypothesis: Suicune sighting 3 on Route 42 may be skipped or unavailable because the Clear Bell and Tin Tower Shaking event have already been triggered, directing Suicune to its final location.
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
@@ -43,7 +42,8 @@
 # Strategy for Tin Tower
 - Current Items: Clear Bell in inventory.
 - Event Status: Tin Tower has already shaken (Sage mentioned a Pokemon returned to the top).
-- Action: Return to Ecruteak City. Visit Tin Tower Gatehouse and proceed to the Tower for the final encounter.
+- Hypothesis: Suicune has moved to Tin Tower because the Clear Bell is in inventory and the Tower has shaken.
+- Action: Visit Tin Tower Gatehouse at (18, 11) and proceed to the Tower for the final encounter.
 
 # NPC & Interaction Rules
 - Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
