@@ -1,7 +1,7 @@
 # Operation: Dark Days
 - **Current State:** Healing Team.
-- **Action:** Healed Sneasel.
-- **Plan:** After healing, exit menus and enter Karen's Room.
+- **Action:** Retrying heal for Sneasel (18/65 HP).
+- **Plan:** Re-enter Pack -> Use Lemonade on Sneasel. Then enter Karen's Room.
 - **Opponent:** Karen (Dark Type).
 - **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
 
