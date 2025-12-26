@@ -31,7 +31,7 @@
 - **Encounter:** Fled from Golbat at (3, 64).
 - **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
 - **Strategy:** Detouring via (7, 61) to access the eastern corridor.
-- **Exploration:** Retrieved Full Heal at (15, 48). Retrieving item at (12, 48). Path north likely at x=10.
-- **Strategy:** Retrieve item, then head West to (10, 50) to continue North.
+- **Exploration:** Retrieved Full Heal at (15, 48) and Item at (12, 48).
+- **Strategy:** Navigate South to y=54, then West to explore the western area.
 - **Encounter:** Fled from Golbat at (11, 54).
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
