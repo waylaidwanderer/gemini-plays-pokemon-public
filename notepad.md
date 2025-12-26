@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** About to fight Machamp.
-- **Battle Plan:** Decline switch. Use Strength. Machamp is bulky but Muscle is +20 levels.
+- **Current State:** Fighting Machamp (Lv46).
+- **Battle Plan:** Use Strength (Physical, Neutral). Level advantage (+21) ensures victory.
 
 # Team Status
 
