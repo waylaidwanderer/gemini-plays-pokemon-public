@@ -6,7 +6,7 @@
 # Tile Mechanics (Global)
 - FLOOR: Traversable.
 - DOOR/WARP/WARP_CARPET_DOWN: Trigger map transition.
-- WALL/HEADBUTT_TREE/BERRY_TREE/BUOY/VOID: Impassable.
+- WALL/HEADBUTT_TREE/BERRY_TREE/BUOY/VOID: Impassable (Note: Route 38 (3, 9) is traversable FLOOR despite WALL label).
 - TALL_GRASS: Traversable; triggers wild encounters.
 - LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal.
 - WATER: Traversable with Surf.
