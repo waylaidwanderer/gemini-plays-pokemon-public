@@ -85,3 +85,6 @@
 - **Matchup:** My Gyarados vs Lance's Gyarados.
 - **Plan:** Use Thrash. Physical damage vs Special defense heavy opponent.
 - **Reminder (Post-Battle):** Mark warps at (4,1) and (5,1). Immediate priority.
+- **Turn 19372:** Lance's Gyarados recharging. Free turn.
+- **Action:** Use Thrash (Slot 1).
+- **Expectation:** Significant damage. Gyarados locked into Thrash.
