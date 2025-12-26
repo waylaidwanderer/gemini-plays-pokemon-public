@@ -12,14 +12,6 @@
 - **Takeaway:** Need MAX Revives and Hyper Potions. Muscle needs full PP. Maybe grind a bit?
 - **Lance's Team:** Gyarados, Dragonite x2 (Lv47), Charizard, Aerodactyl, Dragonite (Lv50).
 
-# Current Plan
-1. **Heal:** Enter Indigo Plateau Lobby (Done).
-2. **Shop:** Buying supplies (Done).
-   - Bought: 5 Revives (7500).
-   - Bought: 5 Hyper Potions (6000).
-3. **Rest & Restore:** Talk to Nurse Joy to fully heal (HP/PP).
-4. **Re-Challenge:** Go back in.
-
 # Team Status
 - Muscle (Lv65): Carry.
 - Others: Fodder/Pivot.
