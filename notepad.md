@@ -26,7 +26,7 @@
 - **Milestone:** Registered Cooltrainer Gaven.
 - **Current:** Navigating North towards Victory Road.
 
-# Current Status (Turn 18842)
-- **Status:** Muscle Lv61 (165/201). Spotted Item (9, 15).
-- **Location:** Route 26 (13, 15).
-- **Next:** Navigate North. Look for path to Item.
+# Current Status (Turn 18843)
+- **Status:** Muscle Lv61 (165/201).
+- **Location:** Route 26 (13, 11).
+- **Next:** Navigate to (9, 8) to find a way to the Item at (9, 15).
