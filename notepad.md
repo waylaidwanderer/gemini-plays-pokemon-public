@@ -24,3 +24,5 @@
 - **Turn 19091:** Previous attempt to use Full Restore was partially blocked (mixed inputs). Cursor is now on Full Restore. Confirming usage on Muscle.
 - **Turn 19094:** Full Restore successful. Muscle at 100% HP and cured.
 - **Next:** Opponent's turn (Xatu will attack). Then Muscle attacks with Strength.
+- **Turn 19095:** Full Restore healed Muscle to max, but Xatu used Psychic (Crit or High Roll? ~80 dmg). Muscle HP 120/201.
+- **Next:** Muscle outspeeds. Strength to finish Xatu.
