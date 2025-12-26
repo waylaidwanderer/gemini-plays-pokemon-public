@@ -5,11 +5,11 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer Gaven (Victreebel Lv32).
-- **Matchup:** Muscle (Machoke Lv60) vs Victreebel.
-- **Action:** Executing Strength (Slot 1).
+- **Battle:** Fighting Cooltrainer Gaven (Kingler Lv32).
+- **Matchup:** Muscle (Machoke Lv60) vs Kingler.
+- **Action:** Using Strength (Slot 1). Kingler used Protect last turn.
 - **Location:** Route 26 (9, 39).
-- **Next:** Defeat Cooltrainer Gaven. Continue North.
+- **Next:** Defeat Kingler. Finish battle. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
