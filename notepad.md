@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: In Goldenrod Dept Store 1F. Taking elevator to 5F to sell items and buy TMs.
+- Status: Inside Goldenrod Dept Store Elevator. Taking it to 5F to buy TMs.
