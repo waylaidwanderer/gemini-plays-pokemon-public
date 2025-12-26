@@ -17,3 +17,4 @@
 - Arthur (Route 36): Thursday only. Gives Hard Stone. Failed attempt (Turn 21127-21134): Repeats intro loop, no item given. missing unknown trigger.
 - Clear Bell: In Key Items.
 - Week Siblings: Arthur (Thursday) is on Route 36 near the Ruins of Alph path.
+- COUNTER: Impassable; allows interaction with NPCs behind it. [Verified]
