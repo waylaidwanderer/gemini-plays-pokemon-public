@@ -38,4 +38,4 @@
 - **Battle:** Defeated Psychic Richard (Espeon Lv36). (Turn 18767)
 - **Status:** Team Healed! Full strength.
 - **Location:** Route 26 Heal House (2, 4).
-- **Next:** Exit house. Navigate North to Victory Road.
+- **Next:** Exit house (Warp at 2,7). Navigate North to Victory Road.
