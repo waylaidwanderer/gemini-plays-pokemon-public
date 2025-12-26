@@ -28,7 +28,6 @@
     - **Speed:** Jynx is faster.
     - **Action:** Muscle uses STRENGTH.
     - **Outcome Prediction:** Jynx uses Psychic (~90 dmg). Muscle survives with <20 HP. Strength OHKOs Jynx.
-- **Turn 19116:** Previous inputs absorbed by text scrolling. Menu is NOW open. Cursor on PACK.
-- **Action:** Manual navigate: Up (FIGHT) -> A -> A (STRENGTH).
-- **HP Status:** 108/205. Surviving (~11 HP).
-- **Goal:** Break the healing loop. Kill Jynx.
+- **Turn 19117:** Previous attempt failed to register (inputs eaten by lag/animation?). Menu is stable now. Cursor on PACK.
+- **Action:** Manual Input: Up (FIGHT) -> A -> A (STRENGTH).
+- **Status:** Muscle 108/205. Committing to attack to break the heal loop.
