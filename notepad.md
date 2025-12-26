@@ -36,4 +36,5 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: In Victory Road 1F (West Section). Path: (2, 39) -> (1, 39) -> Up to Ladder at (1, 35).
+- Status: In Victory Road (Exit Section). Path: (1, 49) -> South to Exit at (9, 67).
+- Note: Avoided dead-end loops. Proceeding to exit.
