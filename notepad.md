@@ -31,8 +31,4 @@
 - **Reflection (Turn 20151):** Reviewed state. Markers accurate. Tools sufficient. Cleared old observation logs.
 - **Observation:** Row of ledges at Y=23 blocks Northward movement on the left side. Must navigate East to X=12 to proceed North.
 
-- **Observation:** Persistent Rhyhorn encounter at (3, 55). Fleeing again.
-- **Observation:** Encountered Wild Onix at (3, 56). Fleeing.
-- **Observation:** Encountered Wild Onix at (9, 54). Fleeing.
-- **Observation:** Encountered Wild Graveler at (3, 55). Fleeing.
 - **Observation:** Encountered Wild Rhyhorn at (13, 40). Fleeing.
