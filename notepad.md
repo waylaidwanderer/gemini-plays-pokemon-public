@@ -43,7 +43,8 @@
 - Trigger Tile: (26, 13) or (26, 14) on the central island.
 - Suicune sighting 3 (Route 42) failure log:
   - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
-  - Lesson: Map script likely requires entry from Route 42 East (Mahogany Town side).
+  - Attempt 2: Approach from East (Fly to Mahogany), Surf to island. Result: Fail.
+  - Current Status: Suicune sprite not present. Checking Pokedex for roaming status.
 - Verified Sightings:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
