@@ -20,9 +20,9 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Haunter defeated. Silver sending out Feraligatr.
-- **Action:** Decline switch (Keep Muscle in).
-- **Matchup:** Muscle (Lv61 Machoke) vs Feraligatr (Water).
-- **Strategy:** Use Cross Chop (Slot 4).
-  - **Reasoning:** Strongest STAB move. Muscle's level advantage (Lv61 vs ~Lv38) should allow a win despite Feraligatr's bulk.
+- **Status:** Battle with Rival Silver. Feraligatr incoming.
+- **Action:** Advance text (B presses) to bring Feraligatr onto the field.
+- **Next:** Select FIGHT -> CROSS CHOP (Slot 4).
+- **Matchup:** Muscle (Lv61) vs Feraligatr (Water).
 - **Goal:** Defeat Feraligatr.
+- **Remaining Opponent:** Magneton (Likely).
