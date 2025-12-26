@@ -5,16 +5,15 @@
 
 # Battle Status: Lance (Champion)
 - **Opponent:** Charizard (Lv46).
-- **Active:** Gyarados (Lv35) - 57/114 HP (Fodder).
-- **Reserve:** None (Urgent: Revive Muscle).
-- **Fainted:** Muscle, Garnet, Kunai, Zenith, Mistral.
-- **Items:** 2 Revives. No Potions.
+- **Active:** Muscle (Lv65) - 107/215 HP.
+- **Reserve:** None (Urgent: Revive Gyarados).
+- **Fainted:** Gyarados, Garnet, Kunai, Zenith, Mistral.
+- **Items:** 1 Revive. No Potions.
 
 # Moveset Status (Muscle)
 - All moves 0 PP. (Using Struggle).
 
-# Strategy: Survival Protocol
-1. **Switch:** Send Gyarados (57 HP).
-2. **Revive:** Gyarados uses Revive on Muscle immediately.
-3. **Sacrifice:** Gyarados likely faints. Muscle returns.
-4. **Endgame:** Muscle Struggles vs Charizard.
+# Strategy: The Final Stand
+1. **Action:** Use LAST Revive on Gyarados.
+2. **Reason:** Charizard is recharging. Gyarados has Surf (Backup).
+3. **Endgame:** Muscle Struggles. If he falls, Gyarados Surfs.
