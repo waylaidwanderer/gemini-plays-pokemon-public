@@ -20,13 +20,9 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Muscle (Machoke) vs Sneasel.
-- **Action:** Executing Cross Chop (Slot 4).
-- **Battle Plan:**
-  - **Sneasel:** Cross Chop (4x SE).
-  - **Magneton:** Dig (4x SE).
-  - **Gengar:** Dig (2x SE, no Levitate in Gen 2).
-  - **Golbat:** Strength (Neutral).
-  - **Alakazam:** Strength (Physical vs Low Def).
-  - **Feraligatr:** Cross Chop.
-- **Goal:** Sweep with Muscle.
+- **Status:** Battle with Rival Silver. Sneasel defeated. Silver sending out Golbat.
+- **Action:** Decline switch (Keep Muscle in).
+- **Matchup:** Muscle (Machoke, Lv61) vs Golbat (Flying/Poison).
+- **Strategy:** Use Strength (Normal, Neutral).
+  - Note: Cross Chop/Rock Smash are 4x resisted. Dig is ineffective (Flying immunity).
+- **Goal:** Defeat Golbat efficiently.
