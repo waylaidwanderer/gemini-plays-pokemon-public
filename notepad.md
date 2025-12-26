@@ -34,3 +34,5 @@
 - **Turn 19118:** Cursor confirmed on FIGHT.
 - **Action:** Manual Input: A (Select Fight) -> A (Select Strength).
 - **Prediction:** Jynx attacks (Muscle survives ~14 HP). Strength kills Jynx.
+- **Turn 19119:** Menu confirmed open. Selecting STRENGTH.
+- **Contingency:** If Muscle faints (Crit), send **Sneasel** (Immune to Psychic, Resists Ice). Use Shadow Ball.
