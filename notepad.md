@@ -7,7 +7,7 @@
 - PC: Standard interaction. [Verified]
 - COUNTER: Impassable. Interaction with NPCs behind them must be done from an adjacent tile. [Verified]
 - WARP_CARPET: Traversable, triggers map transition. [Verified]
-- LEDGE: One-way traversal (hop down/left/right). [Verified]
+- LEDGE: One-way traversal. Blocks movement from the direction it hops into (e.g. LEDGE_HOP_DOWN blocks movement from the South). [Verified]
 - FRUIT_TREE: Impassable. [Verified]
 
 # Suicune Hunt (Crystal Version)
