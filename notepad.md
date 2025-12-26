@@ -93,3 +93,8 @@
   - **Forretress:** Dig (Muscle) or switch to Gyarados/Quilava.
   - **Muk:** Dig (Muscle).
   - **Crobat:** Strength (Muscle).
+- **Turn 19208:** Battle vs Koga started.
+- **Opponent:** Ariados (Lv 40).
+- **My Pokemon:** Muscle (Lv 62).
+- **Action:** Use Strength (Slot 1).
+- **Reasoning:** Fighting moves are 1/4x effective against Bug/Poison. Strength is neutral and strong.
