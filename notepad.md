@@ -32,3 +32,7 @@
 - **Observation:** Muscle is faster than Xatu (based on Turn 19085). Should KO.
 - **Turn 19098:** Accidental Full Restore confirmed (Tool assumed cursor at FIGHT, but it was at PACK). Muscle at 100% HP. Now waiting for Xatu's turn.
 - **Correction:** Must manually navigate menu (Up -> Fight) next turn.
+- **Turn 19099:** Muscle confused (again). Cursor on PACK.
+- **Action:** Manual navigate to FIGHT (Up) -> STRENGTH (A -> A).
+- **Status:** Muscle 201/201 (Confused). Xatu ~45%.
+- **Note:** Used 2 Full Restores? Game State lists "FULL RESTORE" (1?). Saving it.
