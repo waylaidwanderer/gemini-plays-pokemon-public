@@ -36,3 +36,7 @@
 # Pokedex Navigation (A-Z Mode)
 - Current List: STARYU, STEELIX, SUDOWOODO, SUICUNE, SUNKERN, TOGEPI, TOTODILE.
 - Suicune is 2 positions above Togepi in the SEEN list.
+
+# Lessons Learned
+- Suicune Sightings (Crystal): Triggered by movement/proximity to specific tiles, not by facing direction (Turn 21600).
+- Repetitive Tasks: Record start turn to avoid stagnation (Current task: Route 42 Suicune, started Turn 21556).
