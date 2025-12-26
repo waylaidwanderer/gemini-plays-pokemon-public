@@ -1,8 +1,6 @@
 # Operation: Machamp Champ
-- **Status:** Indigo Plateau (Bruno's Room).
-- **Plan:** Defeat Elite Four Bruno.
-- **Opponent:** Bruno (Fighting).
-- **Strategy:** Muscle leads. Gyarados for Onix.
+- **Current State:** Fighting Hitmontop.
+- **Battle Plan:** Use Strength (Physical, targets lower Def). Level advantage is huge.
 
 # Team Status
 - Muscle (Lv67): 208/222 HP.
