@@ -13,14 +13,17 @@
 - **Lance's Team:** Gyarados, Dragonite x2 (Lv47), Charizard, Aerodactyl, Dragonite (Lv50).
 
 # Current Plan
-1. **Heal:** Enter Indigo Plateau Lobby.
-2. **Shop:** Buy Full Restores/Hyper Potions and Revives with remaining cash (13k).
-3. **Re-Challenge:** Go back in. We were close.
+1. **Heal:** Enter Indigo Plateau Lobby (Done).
+2. **Shop:** Buying supplies.
+   - Bought: 5 Revives (7500).
+   - Next: Buy 5 Hyper Potions (6000).
+3. **Re-Challenge:** Go back in.
 
 # Team Status
 - Muscle (Lv65): Carry.
 - Others: Fodder/Pivot.
-- Money: 13,719.
+- Money: 6,219 (After Revives).
+- Inventory: 5 Revives, 8 Full Heals.
 
 # Tile Mechanics
 - **WALL**: Impassable.
