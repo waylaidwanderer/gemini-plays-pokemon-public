@@ -1,8 +1,7 @@
-# Champion Status
-- **Status:** Champion Lance Defeated!
-- **Location:** Indigo Plateau (Lance's Room).
-- **Current Action:** Loading Save File to start Post-Game.
-- **Achievement:** Became the Pokémon League Champion!
+# Post-Game: Kanto & Red
+- **Status:** Johto Champion. Started Post-Game.
+- **Current Action:** Going to Elm's Lab to get the S.S. Ticket.
+- **Goal:** Board the S.S. Aqua to Kanto.
 
 # Team Status
 
