@@ -4,7 +4,7 @@
 - **Tertiary:** Train team.
 
 # Current Status
-- **Location:** Indigo Plateau Lobby.
+- **Location:** Will's Room (Elite Four).
 - **Party:** Healthy. Muscle (Lv61) leading.
 - **Inventory:** 6 Hyper Potions, 10 Revives, 2 Full Restores.
 - **Money:** Low (¥589).
@@ -15,7 +15,7 @@
 
 # Plan
 1.  **Battle:** Talk to Will and win.
-    - **Turn 1:** Strength (likely OHKO on Xatu/Jynx due to level difference).
-    - **Strategy:** Muscle (Lv61) should outspeed and OHKO most of his team with Strength or Cross Chop.
-    - **Backup:** Gyarados (Bite) if Psychic moves are a threat.
+    - **Strategy:** Muscle (Lv61) spams Strength.
+    - **Reasoning:** Strength (Normal) is neutral vs all his dual-Psychic types (Flying, Ice, Grass, Water). Cross Chop (Fighting) is resisted by Psychic and Flying, making it poor vs Xatu, Exeggutor, Slowbro.
+    - **Matchup:** Muscle outlevels by ~20 levels. Expect OHKOs.
 2.  **Next:** Advance to Koga's room.
