@@ -238,11 +238,12 @@
     ]
   },
   "menu_navigator_v2_fixed": {
-    "description": "Navigates a vertical list (Bag, Pokedex, etc.) to a target string and selects it. Accounts for cursor position and scrolls if necessary.",
+    "description": "Navigates a vertical list (Bag, Pokedex, etc.) to a target string and selects it. Accounts for cursor position and scrolls if necessary. Now handles special characters and menu spacing.",
     "input_schema": {
       "properties": {
         "autopress_buttons": {
           "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
           "type": "boolean"
         },
         "screen_text": {
@@ -259,12 +260,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef solve():\n    screen_text = input_data[\"screen_text\"]\n    target = input_data[\"target\"]\n    \n    lines = [line.strip() for line in screen_text.split('\\n') if line.strip() and not line.startswith('┌') and not line.startswith('└') and not line.startswith('│')]\n    # Try to find target in lines\n    target_idx = -1\n    cursor_idx = -1\n    \n    for i, line in enumerate(lines):\n        if '▶' in line:\n            cursor_idx = i\n        if target.lower() in line.lower():\n            target_idx = i\n            \n    if target_idx == -1:\n        print(f\"Error: Target '{target}' not found in screen text.\")\n        return\n        \n    if cursor_idx == -1:\n        # Assume top if no cursor\n        cursor_idx = 0\n        \n    buttons = []\n    diff = target_idx - cursor_idx\n    if diff > 0:\n        buttons.extend([\"Down\"] * diff)\n    elif diff < 0:\n        buttons.extend([\"Up\"] * abs(diff))\n    \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nsolve()\n",
+    "python_script": "import json\nimport re\n\ndef menu_navigator():\n    screen_text = input_data['screen_text']\n    target = input_data['target']\n    \n    def normalize(s):\n        return re.sub(r'[^a-zA-Z0-9]', '', s).lower()\n\n    target_norm = normalize(target)\n    lines = screen_text.split('\\n')\n    \n    target_idx = -1\n    for i, line in enumerate(lines):\n        if target_norm in normalize(line):\n            target_idx = i\n            break\n            \n    if target_idx == -1:\n        print(json.dumps([f\"Error: Target '{target}' not found in screen text.\"]))\n        return\n\n    cursor_idx = -1\n    for i, line in enumerate(lines):\n        if any(c in line for c in ['▶', '>', '▶']):\n            cursor_idx = i\n            break\n            \n    if cursor_idx == -1:\n        print(json.dumps([\"Error: Cursor not found.\"]))\n        return\n\n    diff = target_idx - cursor_idx\n    \n    # In Crystal main menus, items are 2 lines apart. In Bag/Pokedex, they are 1.\n    spacing = 1\n    if \"POKEDEX\" in screen_text.upper():\n        spacing = 2\n        \n    steps = abs(diff) // spacing\n    btn = 'Down' if diff > 0 else 'Up'\n    \n    buttons = [btn] * steps\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nmenu_navigator()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-26T07:04:25.186Z",
         "action_counter": 21855
+      },
+      {
+        "commit_message": "Update menu_navigator_v2_fixed to normalize text (ignoring special characters like 'é') and detect menu spacing more reliably.",
+        "timestamp": "2025-12-26T12:12:41.020Z",
+        "action_counter": 22532
       }
     ]
   },
