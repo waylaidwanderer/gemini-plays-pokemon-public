@@ -50,6 +50,8 @@
 - **Turn 19107:** Selected "USE" on Hyper Potion.
 - **Next:** Select Muscle to apply.
 - **Battle State:** Muscle (99/205) will heal to full. Jynx will attack (Priority: Item > Speed). Muscle survives.
-- **Turn 19108:** Input 'A' failed to apply potion (likely timing). Retrying.
-- **Action:** Press A to apply Hyper Potion to Muscle.
-- **Battle Calc:** Jynx Psychic deals ~80 dmg. Muscle (205 HP) survives easily. Strength OHKOs Jynx next turn.
+- **Turn 19110:** Muscle healed to full (205/205).
+- **Next:** Clearing text. Jynx will attack (Psychic).
+- **Prediction:** Muscle takes ~100 dmg (unless Crit).
+- **Next Turn:** Strength to OHKO Jynx.
+- **Backup:** If Muscle faints (Crit), send Sneasel (Shadow Ball).
