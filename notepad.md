@@ -15,8 +15,7 @@
 - **Will:** Defeated.
 
 # Plan
-1.  **Advance:** Find Koga.
-2.  **Battle Koga:**
+1.  **Battle Koga:**
     - **Strategy:** Muscle (Strength/Dig) and Gyarados (Surf).
     - **Counters:**
       - **Muk:** Dig (Muscle).
@@ -25,99 +24,12 @@
     - **Note:** Bug resists Ground (Dig). Steel resists Normal (Strength).
 
 # Battle Log
-- **Vs Will:** Defeated. (Muscle swept).
-- **Next:** Koga.
-- **Turn 19179:** Opening Pack to heal.
-- **Goal:** Revive Kunai, Heal Muscle.
-- **Turn 19180:** Searching for Revives in Pack.
-- **Action:** Scrolling down (Down x5).
-- **Goal:** Find Revive to use on Kunai.
-- **Turn 19182:** Navigating from Flower Mail to Revive.
-- **Action:** Up x3 (Select Revive) -> A (Select) -> A (Use).
-- **Next:** Select Kunai -> Revive.
-- **Turn 19184:** Reviving Kunai.
-- **Action:** Down x3 (Select Kunai) -> A (Use Revive).
-- **Next:** Confirm Revive message -> Use Hyper Potion on Muscle.
-- **Turn 19185:** Healing Sequence.
-- **Action:** B (Clear Text), B (Exit Party), Down x5 (Search for Hyper Potion).
-- **Goal:** Locate Hyper Potion in bag.
-- **Turn 19187:** Entering Pack.
-- **Inventory Update:** Only 1 Hyper Potion left. 5 Super Potions.
-- **Decision:** Use Super Potions on Muscle (save Hyper Potion for battle emergencies).
-- **Goal:** Locate and use Super Potion x2 on Muscle.
-- **Turn 19188:** Selecting Super Potion.
-- **Action:** Down (Select Super Potion) -> A (Select) -> A (Use).
-- **Next:** Select Muscle -> Heal. Repeat.
-- **Turn 19189:** Selecting Muscle for Super Potion 1.
-- **Action:** Up x3 (Select Muscle) -> A (Use).
-- **Next:** Confirm heal message -> Use Super Potion 2 on Muscle.
-- **Turn 19190:** Muscle recovered 50 HP (172/205).
-- **Action:** B (Clear Text), A (Use Super Potion on Muscle again).
-- **Goal:** Top off Muscle's HP.
-- **Next:** Heal Kunai (32/65 HP).
-- **Turn 19192:** Using Super Potion on Muscle (2nd).
-- **Action:** Press A (Use).
-- **Expected Result:** Muscle heals to full (205/205).
-- **Next:** Heal Kunai.
-- **Turn 19193:** Healing Kunai.
-- **Action:** B (Clear Text) -> Down x3 (Select Kunai) -> A (Use Super Potion).
-- **Next:** Exit Menu -> Navigate to Koga's Room.
-- **Turn 19194:** Navigation Correction.
-- **Observation:** In Bag, selected Ice Berry by mistake.
-- **Action:** B (Cancel), Up x3 (Select Super Potion), A (Select), A (Use).
-- **Goal:** Return to Party Menu to heal Kunai.
-- **Turn 19202:** Approaching Koga.
-- **Action:** Navigate to (5, 8). Talk to Koga.
-- **Strategy Refined:**
-  - **Lead:** Muscle (Lv62).
-  - **Vs Ariados/Venomoth:** Strength (Neutral).
-  - **Vs Forretress:** Dig or Cross Chop (Neutral). Strength is Resisted (Steel). Note: Garnet (Fire) is 4x effective but underleveled/risky.
-  - **Vs Muk:** Dig (Super Effective).
-  - **Vs Crobat:** Strength (Neutral). Dig fails (Flying).
-- **Backup:** Gyarados (Surf) for neutral coverage.
-- **Turn 19203:** Engaging Koga.
-- **Action:** Press A to talk.
-- **Expectation:** Battle start.
-- **First Move:** Muscle vs Ariados (likely lead). Use Strength.
-- **Turn 19204:** Advancing Koga's pre-battle dialogue.
-- **Action:** Press B.
-- **Next:** Continue advancing text until battle starts.
-- **Turn 19206:** Advancing Koga's dialogue ("I live in shadows...").
-- **Action:** Press B.
-- **Next:** Battle Start.
-- **Turn 19207:** Dialogue complete. Battle starting.
-- **Action:** Press A.
-- **Battle Plan:**
-  - **Ariados:** Strength (Muscle).
-  - **Venomoth:** Strength (Muscle).
-  - **Forretress:** Dig (Muscle) or switch to Gyarados/Quilava.
-  - **Muk:** Dig (Muscle).
-  - **Crobat:** Strength (Muscle).
-- **Turn 19208:** Battle vs Koga started.
-- **Opponent:** Ariados (Lv 40).
-- **My Pokemon:** Muscle (Lv 62).
-- **Action:** Use Strength (Slot 1).
-- **Reasoning:** Fighting moves are 1/4x effective against Bug/Poison. Strength is neutral and strong.
-- **Turn 19209:** Ariados defeated (OHKO with Strength).
-- **Next:** Awaiting Koga's next Pokemon.
-- **Plan:**
-  - If Venomoth/Crobat: Stay in, use Strength.
-  - If Muk: Stay in, use Dig.
-  - If Forretress: Consider switching or use Dig.
-- **Turn 19210:** Declined switch (Venomoth incoming).
-- **Action:** Down (Select NO) -> A (Confirm).
-- **Matchup:** Muscle (Lv 62) vs Venomoth.
-- **Strategy:** Strength (Neutral, 80 BP). Fighting moves are 1/4x effective. Dig is Neutral (60 BP).
-- **Note:** Muscle outlevels significantly. Should be a 2HKO at worst.
-- **Turn 19211:** Venomoth active.
-- **Action:** Use Strength.
-- **Reasoning:** Fighting moves 0.25x. Ground 1x. Normal 1x. Strength has higher BP than Dig and no charge turn.
-- **Turn 19213:** Retrying "Decline Switch" due to input/turn mismatch.
-- **Action:** Down (Select NO) -> A (Confirm).
-- **Matchup:** Muscle (Lv 62) vs Crobat (Lv 44).
-- **Strategy:** Strength (Neutral). Fighting is 0.25x, Dig is 0x.
-- **Note:** Crobat is fast and has Wing Attack (SE). Muscle should tank it.
-- **Turn 19214:** Correction - Accidental Pack Entry.
-- **Analysis:** Turn 19212 successfully declined the switch. Turn 19213 repeated the input (Down, A) on the Battle Menu, selecting PACK.
-- **Action:** Press B to exit Pack.
-- **Next:** Battle Menu -> Select FIGHT -> Strength.
+- **Vs Will:** Won (Muscle swept).
+- **Vs Koga:**
+  - **Ariados:** Defeated (Strength).
+  - **Venomoth:** Defeated (Strength).
+  - **Crobat:** Current opponent.
+    - **Status:** Muscle (Full HP) vs Crobat (Full HP).
+    - **Cursor:** On PACK.
+    - **Action:** Select FIGHT -> Strength.
+    - **Plan:** Strength is neutral. Crobat is fast/flying. Tank hit, hit back.
