@@ -61,3 +61,8 @@
 - **Goal:** Open Party Menu to revive Muscle.
 - **Context:** Garnet is active. Battle is paused in menu.
 - **Next:** Select Muscle -> Confirm Revive. Then Garnet takes the hit.
+- **Turn 19432:** Selecting USE on Revive -> Selecting Muscle.
+- **Method:** slow_press ['A', 'Up', 'A'].
+- **Assumption:** Cursor on Garnet (Slot 2) -> Up to Muscle (Slot 1).
+- **Goal:** Revive Muscle.
+- **Next:** Garnet takes damage (Fodder). If she survives, switch to Muscle. If she faints, send Muscle.
