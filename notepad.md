@@ -37,5 +37,5 @@
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
 - **Encounter:** Wild Graveler at (8, 54).
-- **Encounter:** Wild Sandslash at (9, 36). Fled successfully.
-- **Strategy:** Resuming navigation to (11, 40) to wrap around the wall and reach the item.
+- **Exploration:** Navigated to (11, 40).
+- **Strategy:** Loop East to (13, 40), South to (13, 42), then West to (7, 38) to collect the item.
