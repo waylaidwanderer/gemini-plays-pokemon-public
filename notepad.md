@@ -21,4 +21,5 @@
 - **Water Moves:** Special in Gen 2. Gyarados uses Sp.Atk for Surf/Waterfall.
 - **Warp Carpets:** Directional exits.
 - **LADDER tiles:** Bridges on Route 27; vertical transport in Victory Road.
-- **Encounter:** Wild Rhydon at (9, 66).
+- **Encounter:** Wild Rhydon at (9, 66). Fled successfully.
+- **Strategy:** Resuming navigation to (12, 68) to attempt ledge jump and explore the southern strip (rows 69-71).
