@@ -83,3 +83,7 @@
 - **Action:** Advance text (B spam).
 - **Next Turn:** Select FIGHT -> STRENGTH.
 - **Strategy:** 2HKO Slowbro. Tank one Psychic.
+- **Turn 19134:** Slowbro used Curse (+Atk, +Def, -Spd).
+- **Matchup:** Muscle (108/205) vs Slowbro (+1 Def).
+- **Action:** Strength.
+- **Analysis:** Slowbro has high Def (110 Base + 50% boost). Strength might do less than expected. Dark moves (Special) would be better, but Gyarados has low SpA. Sticking with Muscle for now due to level advantage (62 vs 41).
