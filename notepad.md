@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** Hitmonchan Fainted. Waiting for next Pokemon.
-- **Battle Plan:** If Onix -> Switch to Gyarados. If Machamp -> Stay with Muscle.
+- **Current State:** About to fight Machamp.
+- **Battle Plan:** Decline switch. Use Strength. Machamp is bulky but Muscle is +20 levels.
 
 # Team Status
 
