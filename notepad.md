@@ -1,11 +1,11 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** Fighting Aerodactyl (Lv46).
+- **Current State:** Fighting Charizard (Lv46).
 - **Battle Plan:** Use ThunderPunch (Slot 2).
-- **Matchup:** Muscle (Lv68) vs Aerodactyl (Lv46). ThunderPunch is SE (2x).
-- **Stats:** Muscle (225/225 HP). Aerodactyl is fast and has Wing Attack (SE). Muscle should tank one hit.
-- **Notes:** Smart Move targeting Slot 2. If cursor at 2 (likely), it hits Slot 3 (Ice Punch, also 2x SE). Safe.
+- **Matchup:** Muscle (Lv68) vs Charizard (Lv46). ThunderPunch is SE (2x).
+- **Status:** Muscle took a Flamethrower (114/225 HP). Muscle outsped Charizard.
+- **Notes:** ThunderPunch (Special) vs Charizard (Weak to Electric). Should be a clean KO.
 
 # Team Status
 
