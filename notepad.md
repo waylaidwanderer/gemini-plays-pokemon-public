@@ -32,3 +32,11 @@
 - **Action:** Use Strength (Slot 1).
 - **Reasoning:** Free hit. Best neutral damage option.
 - **Next:** Dragonite will attack next turn. Muscle tanks and hits again.
+- **CRITICAL:** Max Revive DID NOT restore PP (Glitch/Mechanic?).
+- **Result:** Strength/Cross Chop still 0 PP.
+- **New Strategy:** **Rock Smash Attrition** & **Intimidate Loop**.
+  - Use Rock Smash (10 PP left).
+  - Use Gyarados (Intimidate) to lower Dragonite's Atk if needed.
+  - If PP runs out: Struggle.
+- **Immediate Action:** Select Rock Smash (Slot 3). Dragonite recharging.
+- **Reminder:** Mark warps at (4,1) and (5,1) after battle.
