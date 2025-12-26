@@ -107,3 +107,7 @@
 - **Action:** Press A (Open Menu) -> Press A (Select SHIFT).
 - **Context:** Switching Muscle in before Lance sends out Dragonite. Muscle will enter safely.
 - **Next:** Battle vs Dragonite begins. Muscle (109 HP) vs Dragonite.
+- **Turn 19377:** Muscle (109/215 HP) vs Dragonite (Lv47).
+- **Action:** Use Strength (Slot 1).
+- **Reasoning:** Dragonite is Dragon/Flying. Fighting (Cross Chop) is resisted. Ground (Dig) is immune. Normal (Strength) is neutral and best option.
+- **Strategy:** Tank hit, deal damage. If Muscle faints -> Zombie Strategy.
