@@ -45,8 +45,8 @@
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23767
-- Suicune Hunt Duration: 67 turns (since turn 23700)
+- Current Turn: 23771
+- Suicune Hunt Duration: 71 turns (since turn 23700)
 ## Wise Trio Roster (Tin Tower Gatehouse)
 - Sage GAKU: Noctowl (Lv32)
 - Sage MASA: Flareon (Lv32), Jolteon (Lv32)
