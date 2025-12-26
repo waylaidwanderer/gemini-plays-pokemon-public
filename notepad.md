@@ -1,127 +1,31 @@
 # Strategic Objectives
 - **Primary:** Challenge the Pokémon League.
-- **Secondary:** Defeat the Elite Four.
-- **Tertiary:** Train team.
+- **Secondary:** Defeat Champion Lance.
+- **Tertiary:** Become Champion.
 
 # Current Status
 - **Location:** Lance's Room.
 - **Party:**
-  - Muscle (Lv64): 54/211 HP.
-  - Gyarados (Lv35): 107/114 HP.
-  - Others: Healthy (unused).
-- **Inventory:**
-  - Healing: 0 Potions, 11 Revives, 1 Max Revive, 2 Berries.
-  - Status: 3 Antidotes, 8 Full Heals.
-- **Money:** ¥20389.
+  - Muscle (Lv65): 109/215 HP. (PP Depleted: Strength/Cross Chop).
+  - Gyarados (Lv35): 24/114 HP.
+  - Mistral (Lv15): Fainted.
+  - Others: Healthy (Fodder).
+- **Inventory:** 1 Max Revive.
 
-# Exploration Log
-- **Elite Four Progress:**
-  - Will: Defeated.
-  - Koga: Defeated.
-  - Bruno: Defeated.
-  - Next: Karen.
+# Battle Log: Champion Lance
+- **Vs Gyarados:** My Gyarados (QAAGMAQNJW) won via Thrash.
+- **Vs Dragonite (Lv47):** Current matchup.
+  - **Crisis:** Muscle is out of PP for Strength and Cross Chop.
+  - **Strategy (The Max Zombie):**
+    1. Sacrifice Muscle (let him faint to Dragonite).
+    2. Switch to Fodder (Zenith/Kunai).
+    3. Use **MAX REVIVE** on Muscle (Restore Full HP & PP).
+    4. Muscle sweeps.
+- **Current Turn:** Muscle using Rock Smash until KO'd.
 
 # Plan
-1.  **Champion Lance:**
-    - **Lead:** Muscle (26 HP). Sacrificial lead.
-    - **Matchup Reality Check:**
-      - Lance's team is ALL Flying-types (Gyarados, Dragonites, Charizard, Aerodactyl).
-      - **Fighting (Cross Chop) is Not Very Effective (0.5x)** on all except Aerodactyl (Neutral).
-      - **Ground (Dig) is IMMUNE (0x)** on all.
-      - **Normal (Strength) is Neutral (1.0x)** on all except Aerodactyl (Resisted).
-    - **Strategy:** Spam **Strength**. It is my most reliable damage source (80 BP + STAB > 50 BP effective Cross Chop).
-    - **Aerodactyl:** Use Gyarados (Surf) or Muscle (Cross Chop - Neutral).
-    - **Zombie Mode:** Revive Muscle repeatedly. Strength spam to win.
-
-# Battle Log
-- **Vs Bruno:** Victory.
-- **Vs Karen:** Victory.
-- **Next:** Champion Lance.
-- **Vs Lance:** Battle starting.
-- **Matchup Correction:**
-  - **Strength (Normal):** Neutral vs Gyarados/Dragonite/Charizard. Resisted by Aerodactyl (Rock).
-  - **Cross Chop (Fighting):** Resisted by Gyarados/Dragonite/Charizard. Neutral vs Aerodactyl.
-- **Plan:**
-  - **General:** Strength (120 Power).
-  - **Vs Aerodactyl:** Cross Chop (150 Power).
-  - **Lead:** Muscle (26 HP). Expecting to faint quickly.
-- **Turn 19352:** Muscle fainted to Hyper Beam.
-- **Mechanic:** In Gen 2, Hyper Beam requires recharge even on KO.
-- **Opportunity:** Lance's Gyarados cannot move next turn.
-- **Plan:** Send in Mistral (Sacrifice). Use turn to Revive Muscle safely. Then Mistral faints -> Muscle returns.
-- **Turn 19355:** In Pack menu. Scrolling down to find Revives.
-- **Status:** Mistral active (Fodder). Gyarados recharging (free turn).
-- **Goal:** Revive Muscle.
-- **Turn 19358:** Selecting Revive (Down -> A).
-- **Note:** Gyarados is recharging this turn, so Mistral is safe.
-- **Next:** Confirm 'USE' and select Muscle.
-- **Turn 19359:** Cursor on CANCEL. Moving Up x5 to select REVIVE.
-- **Visual Confirmation:** REVIVE is visible at top of list in screenshot.
-- **Action:** Select REVIVE -> Use on Muscle.
-- **Note:** Gyarados recharge confirmed (Turn 19352 Hyper Beam). Mistral safe.
-- **Turn 19359:** Executing Revive Use (A -> USE -> A).
-- **Status:** Mistral is safe (Gyarados recharging).
-- **Next:** Select Muscle in Party Menu.
-- **Turn 19361:** Selecting Muscle (Slot 1) with Revive.
-- **Action:** Up x5 -> A.
-- **Next:** Confirm revitalization, exit menu, sacrifice Mistral.
-- **Turn 19362:** Confirmed Revive on Muscle (A).
-- **Outcome:** Muscle revived (105 HP). Gyarados recharging.
-- **Next:** Clear text, let turn end. Mistral stays in to be sacrificed next turn.
-- **Turn 19364:** Menu closed. Cursor on PACK.
-- **Action:** Select FIGHT -> Quick Attack.
-- **Reasoning:** Gyarados is recharging (free turn). Mistral gets a free hit (negligible damage) to pass the turn.
-- **Next Turn:** Gyarados will likely KO Mistral. This gives Muscle a safe switch-in.
-- **Turn 19365:** Mistral uses Quick Attack.
-- **Expectation:** Gyarados recharges (unable to move). Mistral survives this turn.
-- **Next:** Gyarados attacks Mistral (likely KO). Muscle switches in safely.
-- **Turn 19369:** Switching to Gyarados (Lv35).
-- **Reasoning:** Taking advantage of opponent's recharge turn to switch in Gyarados freely.
-- **Strategy:** Use Thrash/Bite with Gyarados. If Gyarados faints, switch Muscle back in.
-- **Turn 19370:** Completing switch to Gyarados (A -> SHIFT).
-- **Context:** Previous inputs truncated. Cursor currently on Gyarados.
-- **Next:** Gyarados enters battle. Use Thrash.
-- **Turn 19371:** Switch confirmed. Gyarados (Lv35) enters.
-- **Matchup:** My Gyarados vs Lance's Gyarados.
-- **Plan:** Use Thrash. Physical damage vs Special defense heavy opponent.
-- **Reminder (Post-Battle):** Mark warps at (4,1) and (5,1). Immediate priority.
-- **Turn 19372:** Lance's Gyarados recharging. Free turn.
-- **Action:** Use Thrash (Slot 1).
-- **Expectation:** Significant damage. Gyarados locked into Thrash.
-- **Turn 19373:** Recharge turn consumed by switch.
-- **Current State:** Fresh turn. Lance's Gyarados is active.
-- **Action:** Fight -> Thrash.
-- **Expectation:** Lance outspeeds and KOs my Gyarados (24 HP).
-- **Result:** Free switch to Muscle (105 HP).
-- **If I survive:** Bonus damage.
-- **Turn 19374:** My Gyarados (QAAGMAQNJW) defeated Lance's Gyarados! Muscle grew to Lv65.
-- **Incoming:** Dragonite (Likely Lv47).
-- **Decision:** Switch to Muscle (109/215 HP).
-- **Reasoning:** Dragonite resists Water/Grass/Fire/Fighting. Strength (Normal) is Neutral. Muscle is best tank.
-- **Turn 19375:** Navigating Party Menu.
-- **Action:** Switch from Gyarados (Slot 3) to Muscle (Slot 1).
-- **Input:** Up, Up, A.
-- **Reasoning:** Muscle (Lv65) is the only one who can stand up to Dragonite. Strength is neutral damage. Sneasel lacks Ice moves.
-- **Matchup:** Muscle vs Dragonite. Watch out for Thunder Wave/Hyper Beam.
-- **Turn 19376:** Cursor on Muscle.
-- **Action:** Press A (Open Menu) -> Press A (Select SHIFT).
-- **Context:** Switching Muscle in before Lance sends out Dragonite. Muscle will enter safely.
-- **Next:** Battle vs Dragonite begins. Muscle (109 HP) vs Dragonite.
-- **Turn 19377:** Muscle (109/215 HP) vs Dragonite (Lv47).
-- **Action:** Use Strength (Slot 1).
-- **Reasoning:** Dragonite is Dragon/Flying. Fighting (Cross Chop) is resisted. Ground (Dig) is immune. Normal (Strength) is neutral and best option.
-- **Strategy:** Tank hit, deal damage. If Muscle faints -> Zombie Strategy.
-- **CRITICAL UPDATE:** Muscle is out of PP for Strength and Cross Chop!
-- **Current Status:** Muscle is useless offensively (Rock Smash is weak/resisted, Dig is immune).
-- **New Plan (The Max Zombie):**
-  1. Let Muscle faint (stay in and use Rock Smash until KO).
-  2. Switch to fodder (Zenith/Kunai).
-  3. Use **MAX REVIVE** on Muscle (Restores Full HP & PP). This is my ONLY Max Revive.
-  4. Let fodder faint.
-  5. Muscle returns with full PP to sweep.
-- **Turn 19379:** Using Rock Smash to pass turn.
-- **Turn 19380:** Previous tool failed (tried to select empty Strength).
-- **Correction:** Manually selecting Rock Smash (Slot 3).
-- **Status:** Muscle (109 HP). Goal: Faint to Dragonite.
-- **Next:** Use Rock Smash. Wait for Dragonite to attack.
-- **Inventory:** 1 Max Revive available for the Plan.
+1.  **Execute Max Zombie Strategy.**
+2.  **Sweep Lance's Team:**
+    - Dragonites: Strength (Neutral).
+    - Aerodactyl: Cross Chop (Neutral).
+    - Charizard: Strength (Neutral) or Gyarados (Surf).
