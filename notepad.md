@@ -48,3 +48,8 @@
   - If PP runs out, use Struggle.
   - Zombie Loop: If Muscle faints, switch to fodder -> Revive Muscle -> Repeat.
 - **Current Turn:** Use Rock Smash (Slot 3). Dragonite recharging.
+- **Turn 19404:** Dragonite is recharging. Free turn.
+- **Action:** Use Rock Smash (Slot 3).
+- **Strategy:** "Rock Smash Attrition". Dragonite is at -3 Defense. Even resisted hits will add up.
+- **Status:** Muscle Full HP. 9 PP left on Rock Smash.
+- **Note:** Max Revive failure confirmed (Gen 2 mechanic). We grind from here.
