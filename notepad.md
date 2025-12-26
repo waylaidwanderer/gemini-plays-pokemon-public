@@ -65,3 +65,6 @@
 - **Turn 19361:** Selecting Muscle (Slot 1) with Revive.
 - **Action:** Up x5 -> A.
 - **Next:** Confirm revitalization, exit menu, sacrifice Mistral.
+- **Turn 19362:** Confirmed Revive on Muscle (A).
+- **Outcome:** Muscle revived (105 HP). Gyarados recharging.
+- **Next:** Clear text, let turn end. Mistral stays in to be sacrificed next turn.
