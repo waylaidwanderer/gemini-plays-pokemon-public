@@ -36,4 +36,4 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: At base of eastern waterfall in Tohjo Falls (21, 10). Ascending to the upper level.
+- Status: Surfing on upper level of Tohjo Falls. Heading to western waterfall crest at (9, 7).
