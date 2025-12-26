@@ -45,3 +45,7 @@
 - **Turn 2:** Muscle (54/211 HP) vs Vileplume.
 - **Move:** Strength (Slot 1).
 - **Reasoning:** Cross Chop is resisted (0.5x). Strength (80 Power, Neutral) > Dig (60 Power, Neutral). Cursor at Slot 4, moving to Slot 1.
+- **Turn 3:** Muscle (Paralyzed, 54/211 HP). Vileplume (HP Full?).
+- **Move:** Strength (Slot 1).
+- **Strategy:** Ignore Paralysis. If Muscle faints -> Zombie Revive. Strength is best neutral option.
+- **Anomaly:** Vileplume HP bar appears full despite taking a Strength hit. Possible high Def or visual bug. Keep attacking.
