@@ -1,10 +1,12 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** Battle Start. Waiting for Lance's lead (Gyarados).
-- **Plan:** Use ThunderPunch on Gyarados.
-- **Matchup:** Muscle (Lv68) vs Lance's Team.
-- **Strategy:** ThunderPunch for Gyarados/Charizard. Ice Punch for Dragonites/Aerodactyl.
+- **Current State:** Fighting Lance's Gyarados (Lv44).
+- **Battle Plan:** Use ThunderPunch (Slot 2).
+- **Matchup:** Muscle (Lv68) vs Gyarados (Lv44). ThunderPunch is 4x Effective. OHKO guaranteed.
+- **Notes:** ThunderPunch is Slot 2.
+
+# Team Status
 
 # Team Status
 - Muscle (Lv68): Full HP. 0 Strength PP.
