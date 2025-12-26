@@ -36,7 +36,7 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: In Victory Road Gate (23_13). Heading South to Route 26.
-- Goal: Exit building to Fly to Goldenrod City.
-- Item detected: Poke Ball at (18, 29) (Victory Road, unreachable).
-- Note: Rhyhorn and Golbat encounters delayed progress. Resuming exit path.
+- Status: On Route 26 (Outdoors). Successfully exited Victory Road complex.
+- Action: Opening Start Menu to Fly to Goldenrod City.
+- Goal: Sell items, buy Elemental Punches, update movesets.
+- Note: Rock Smash (TM08) will be replaced by Ice Punch. Dig will be replaced by ThunderPunch.
