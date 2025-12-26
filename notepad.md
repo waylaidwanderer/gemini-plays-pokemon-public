@@ -1,7 +1,7 @@
 # Champion Status
 - **Status:** Champion Lance Defeated!
 - **Location:** Indigo Plateau (Lance's Room).
-- **Current Action:** Attempting to return to Title Screen from 'THE END' screen.
+- **Current Action:** Loading Save File to start Post-Game.
 - **Achievement:** Became the Pokémon League Champion!
 
 # Team Status
