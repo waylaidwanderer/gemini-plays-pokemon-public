@@ -112,9 +112,8 @@
 - **Turn 19211:** Venomoth active.
 - **Action:** Use Strength.
 - **Reasoning:** Fighting moves 0.25x. Ground 1x. Normal 1x. Strength has higher BP than Dig and no charge turn.
-- **Turn 19212:** Venomoth defeated (OHKO Strength).
-- **Incoming:** Crobat (Lv 44).
-- **Action:** Decline switch (Down -> A).
-- **Matchup:** Muscle vs Crobat.
+- **Turn 19213:** Retrying "Decline Switch" due to input/turn mismatch.
+- **Action:** Down (Select NO) -> A (Confirm).
+- **Matchup:** Muscle (Lv 62) vs Crobat (Lv 44).
 - **Strategy:** Strength (Neutral). Fighting is 0.25x, Dig is 0x.
 - **Note:** Crobat is fast and has Wing Attack (SE). Muscle should tank it.
