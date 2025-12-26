@@ -47,4 +47,6 @@
 - **Observation:** Gap in the South wall detected at (13, 41).
 - **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
 - **Encounter:** Wild Golbat at (13, 42). Fled successfully.
-- **Exploration:** Navigating South-East from (13, 42) to explore the large Eastern room (rows 43+).
+- **Observation:** South path blocked by wall at (16, 44).
+- **Correction:** The "Large Room" is further East, past the wall at x=17.
+- **Plan:** Navigate East through the gap at (17, 42) to reach the Far East corridor (x=18). Then explore North.
