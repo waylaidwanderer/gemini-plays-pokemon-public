@@ -118,3 +118,7 @@
 - **Sequence:** A (Item) -> A (Use) -> A (Muscle).
 - **Goal:** Full Health (205/205).
 - **Next:** Battle continues. Muscle attacks.
+- **Turn 19143:** Muscle fully healed (205/205).
+- **Action:** Advancing text.
+- **Anticipation:** Xatu attacks (Psychic/Drill Peck/Confuse Ray).
+- **Next Turn:** Muscle attacks with Strength.
