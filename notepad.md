@@ -1,12 +1,12 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** "Change Pokémon?" Menu.
-- **Action:** Decline Switch (Press B).
-- **Next:** Fight Dragonite.
+- **Current State:** Fighting Lance's Ace (Dragonite Lv50).
 - **Battle Plan:** Use Ice Punch (Slot 3).
-- **Matchup:** Muscle (Lv69) vs Dragonite. 4x SE.
-- **Status:** Muscle 118/229 HP. Should be safe.
+- **Matchup:** Muscle (Lv69) vs Dragonite (Lv50). Ice Punch is 4x SE.
+- **Speed:** Muscle (100 Speed) vs Dragonite (~100 Speed). Tie/Close.
+- **Notes:** If Muscle hits first, OHKO. If Dragonite hits first, Muscle should survive (118 HP).
+- **Remaining:** 1 Dragonite (Lv47).
 
 # Team Status
 
