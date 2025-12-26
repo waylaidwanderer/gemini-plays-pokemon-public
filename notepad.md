@@ -28,7 +28,7 @@
 
 # Tasks & Progress
 - Goal: Trigger Suicune sighting on Route 42. [Start Turn 22061]
-- Status: On Route 42 central island.
+- Status: Collecting Apricorns on Route 42 central island.
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
