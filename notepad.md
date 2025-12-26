@@ -59,3 +59,5 @@
 
 # Timestamps
 - Suicune Hunt (Phase 3/4): Started Turn 22256.
+- Pokedex Check (Turn 22799): 'AREA' shows 'SUICUNE'S NEST' over the Johto map, but no blinking roaming tiles are present. This confirms Sighting 3 (Route 42) has not been triggered yet, as Suicune only roams after Sighting 3.
+- Hypothesis update: Sighting 3 trigger on Route 42 is likely on the eastern path or specific water tiles, as the central island sweep was unsuccessful.
