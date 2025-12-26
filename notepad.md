@@ -101,3 +101,7 @@
 - **Action:** Decline Switch (Down -> A).
 - **Plan:** Use Revive on Muscle immediately. Gyarados tanks a hit.
 - **Reasoning:** Gyarados can survive one hit. Muscle (Dig) is needed to kill Muk efficiently. Mistral sack is risky if Muk attacks on switch-in.
+- **Turn 19234:** Opening Pack.
+- **Goal:** Revive Muscle.
+- **Context:** Muk active. Gyarados active.
+- **Next:** Find Revive -> Use on Muscle.
