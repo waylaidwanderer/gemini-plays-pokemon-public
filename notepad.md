@@ -17,14 +17,15 @@
 
 # Plan: Reach Route 38 Western Ledge
 - Start Turn: 20970
-- Status: On Route 38. Heading to jump into the central trough at (7, 12).
+- Status: On Route 38. Trough and Chad's corridor cleared. Heading back to western ledge.
 - Strategy:
   1. Exit Pokecenter. (Done)
   2. Walk North to Route 39 (exit at 21, 0). (Done)
   3. Walk North to Route 38 West. (Done)
   4. Explore ledge to find Suicune. (In Progress)
      - Checked Chad's corridor (X=4).
-     - Jump into trough via (7, 12).
+     - Jumped into trough via (7, 12).
+     - Heading to far west ledge (X=0-7).
   5. Trigger Suicune flee (Scripted).
 
 # Side Quests & Observations
