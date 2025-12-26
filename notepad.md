@@ -66,3 +66,7 @@
 - **Observation:** In Bag, selected Ice Berry by mistake.
 - **Action:** B (Cancel), Up x3 (Select Super Potion), A (Select), A (Use).
 - **Goal:** Return to Party Menu to heal Kunai.
+- **Turn 19197:** Healing Complete.
+- **Action:** B x4 (Exit all menus).
+- **Next:** Navigate around Will (at 5,7) to the North door.
+- **Path:** Left (4,8) -> Up (4,7) -> Up -> ... -> Door.
