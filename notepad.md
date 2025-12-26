@@ -18,7 +18,7 @@
 - Sighting 3: Route 42 (In Progress). 
     - Objective: Trigger Suicune on the central island.
     - Status: Island surface swept - No trigger. 
-    - Strategy: Use Surf to reach the middle island. Approach the center area.
+    - Strategy: Use Surf to reach the middle island. Approach the center area (trees).
 - Sighting 4: Route 36 (Sudowoodo junction). Locked.
 - Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
 
