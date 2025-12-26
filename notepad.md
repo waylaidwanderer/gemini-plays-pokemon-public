@@ -22,3 +22,5 @@
 - **Battle Update:** Xatu survived first Strength (~45% HP remaining). Confuse Ray is problematic.
 - **Action:** Using Full Restore to heal HP and cure Confusion. Priority is keeping Muscle healthy and active.
 - **Turn 19091:** Previous attempt to use Full Restore was partially blocked (mixed inputs). Cursor is now on Full Restore. Confirming usage on Muscle.
+- **Turn 19094:** Full Restore successful. Muscle at 100% HP and cured.
+- **Next:** Opponent's turn (Xatu will attack). Then Muscle attacks with Strength.
