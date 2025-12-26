@@ -47,6 +47,7 @@
 - **Observation:** Gap in the South wall detected at (13, 41).
 - **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
 - **Encounter:** Wild Golbat at (13, 42). Fled successfully.
-- **Observation:** South path blocked by wall at (16, 44).
-- **Correction:** The "Large Room" is further East, past the wall at x=17.
-- **Plan:** Navigate East through the gap at (17, 42) to reach the Far East corridor (x=18). Then explore North.
+- **Status:** Reached 2F East Corridor (x=18).
+- **Observation:** Row 35 consists of ledges (jump down).
+- **Hypothesis:** This Eastern area is a connector. If no ladder is found here, the path likely loops back West via y=36 (gap at 17, 36) to access the central area.
+- **Plan:** Investigate North-East corner (19, 36) for items/ladders. Then attempt to travel West through (17, 36).
