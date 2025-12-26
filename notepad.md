@@ -27,7 +27,7 @@
 - **PC**: Impassable. Interact to access Pokemon Storage System.
 
 # Operation: Elemental Upgrade
-1. **Fly to Goldenrod:** Select Mistral -> Fly.
+1. **Fly to Goldenrod:** (In Progress) Open Fly Map -> Navigate to Goldenrod.
 2. **Fundraising:**
    - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
    - Have: 219.
@@ -37,8 +37,3 @@
 4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
-
-# Reflection (Turn 19579)
-- **Lesson Learned:** Menu navigation requires step-by-step visual verification. Long input chains ("macros") lead to desynchronization and unintended actions (like opening the Pokedex instead of Party).
-- **Corrective Action:** Using short button sequences (1-3 inputs) and verifying screen state between them.
-- **Current State:** Stuck in Pack (Ball Pocket). Need to back out to Start Menu, then enter Pokémon Menu.
