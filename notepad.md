@@ -232,3 +232,8 @@
 - **Analysis:** Muscle survives another hit. This is the last Pokemon.
 - **Action:** Use Strength (Slot 1).
 - **Goal:** Win Battle.
+- **Turn 19173:** Gyarados grew to Lv 35. Attempting to learn Twister.
+- **Decision:** Reject Twister (40 BP Special move on Gyarados is bad).
+- **Action:** Select NO (Down -> A).
+- **Status:** Muscle 122/205 HP (Likely still Confused).
+- **Next:** Confirm "Stop learning" -> Battle continues.
