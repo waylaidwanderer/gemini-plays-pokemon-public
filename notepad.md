@@ -1,7 +1,10 @@
 # Strategy: Suicune Hunt (Johto)
 - Objective: Trigger scripted flee event (Sighting 3) on Route 42 island.
-- Status: Sprite missing. Pokedex AREA verification required.
-- Strategy: If Pokedex shows Route 42, explore water around the island. If Route 38, move to Moomoo Farm.
+- Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433). Sprite not yet visible.
+- Strategy: Walk over all floor tiles on the Route 42 island to trigger the sighting. Start with northern section.
+- Observations:
+    - Turn 21433: Pokedex AREA map shows Suicune blinking on Route 42.
+    - Turn 21434: Arrived on island floor. Sprite missing. Trigger tile required.
 - Lessons Learned:
     - Pokedex: Alphabetical (A-Z). Suicune follows Sudowoodo.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks the current scripted location.
