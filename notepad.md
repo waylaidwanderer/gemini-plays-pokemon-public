@@ -4,11 +4,11 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18851)
+# Current Status (Turn 18855)
 - **Battle:** Defeated Cooltrainer Beth (Rapidash).
 - **Status:** Gyarados (76/111). Muscle Lv61.
-- **Location:** Route 26 (9, 8).
-- **Next:** Enter House at (7, 5). Then explore path to Item at (9, 15).
+- **Location:** Victory Road Gate (23_13).
+- **Next:** Pass through badge check to Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
