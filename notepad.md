@@ -22,17 +22,12 @@
   - Next: Karen.
 
 # Plan
-1.  **Battle Karen:**
-    - **Note:** "Zombie Mode" active (0 Potions). Rely on Revives (restores 50% HP) if Muscle faints.
-    - **Umbreon:** Muscle (Cross Chop/Strength).
-    - **Vileplume:** Muscle (Strength) or Garnet (Ember). Watch for Powders.
-    - **Gengar:** Muscle (Dig). *Note: No Levitate in Gen 2, Ground hits Ghost/Poison.*
-    - **Murkrow:** Muscle (Strength). Weak Defense.
-    - **Houndoom:** Muscle (Cross Chop/Dig) or Gyarados (Surf).
-2.  **Champion Lance:**
-    - Ice moves needed (Gyarados has none, Muscle has none).
-    - Rely on Muscle (Strength/Cross Chop) and Gyarados (Surf/Thrash).
-    - Zenith (Dratini) has DragonBreath/Twister? No, Zenith is Lv15.
+1.  **Champion Lance:**
+    - **Lead:** Muscle (26 HP). Sacrificial lead for clean switch.
+    - **Vs Gyarados:** My Gyarados (Thrash/Bite).
+    - **Vs Charizard/Aerodactyl:** My Gyarados (Surf).
+    - **Vs Dragonites:** Muscle (Strength).
+    - **Strategy:** Zombie Mode. Revive spam.
 
 # Battle Log
 - **Vs Bruno:** Victory.
