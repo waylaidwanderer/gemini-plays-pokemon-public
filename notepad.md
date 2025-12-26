@@ -9,15 +9,17 @@
 - WARP_CARPET: Traversable. Transition between maps/gatehouses. [Verified]
 - TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 - PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
+- WARP_CARPET_RIGHT: Traversable. Transition between maps/gatehouses. [Verified]
+- WARP_CARPET_LEFT: Traversable. Transition between maps/gatehouses. [Verified]
 
 # General Lessons
 - Scripted Events: Scripted encounters (like Suicune sightings) are based on visible sprites in the Map Objects list, not hidden tile triggers. If the sprite is not present, the event cannot be triggered by walking. [Turn 22217]
 - Ecruteak Geography: There are two distinct buildings in northern Ecruteak. The NW building leads to the Burned Tower. The NE building (Barrier Station) leads to the Tin Tower. The Wise Trio appears in the Barrier Station after getting the Clear Bell. [Turn 22217]
 
 # Strategy: Suicune Hunt (Crystal Version)
-- Sighting 2 (Goal): Cianwood City. Suicune appears at the north end of the city.
+- Sighting 2 (Goal): Cianwood City.
     - How: Walk to the extreme northern edge of Cianwood City (above the Gym). Suicune will be standing there and flee when approached. [Hypothesis: This sighting was missed or didn't trigger correctly.]
-- Sighting 3: Route 42 Central Island. Suicune appears as a visible sprite on the island.
+- Sighting 3: Route 42 Central Island.
     - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune will be standing near them and flee when approached.
 - Sighting 4: Route 36 (Sudowoodo junction).
     - How: Approach the junction at (35, 9) after the Route 42 sighting. Suicune will appear and flee.
@@ -39,4 +41,4 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM). Goal is to trigger sightings 3 and 4.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM).
