@@ -2,8 +2,8 @@
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
 - Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
 - Progress:
-    - Island sweep started: Turn 21455.
-    - Tiles remaining: (28, 17), (29, 17).
+    - Island sweep started: Turn 21455 (Thursday, Dec 25, 2025).
+    - Current Task: Sweeping remaining floor tiles.
 - Lessons Learned:
     - Pokedex: Alphabetical (A-Z). Suicune follows Sudowoodo.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
