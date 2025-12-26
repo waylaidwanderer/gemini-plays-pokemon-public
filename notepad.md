@@ -22,7 +22,8 @@
   1. Exit Pokecenter.
   2. Walk North to Route 39 (exit at 21, 0).
   3. Walk North to Route 38 West.
-  4. Trigger Suicune flee at (3, 10).
+  4. Explore ledge to find Suicune (Failed trigger at 3, 10).
+  5. Trigger Suicune flee (Scripted).
 
 # Side Quests & Observations
 - Arthur (Route 36): Looping introduction on Thursday. Hypothesis: May require specific badge or story trigger not yet met.
