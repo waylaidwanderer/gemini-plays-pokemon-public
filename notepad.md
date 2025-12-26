@@ -60,4 +60,5 @@
 - Hypothesis: Hard Map Reset (Fly to Ecruteak and return) will re-initialize the script.
 - Test 1 (Turn 23203): Approach (26, 14) from the north after clearing the tree.
 - Result: FAILED. Suicune sprite not present; proximity trigger did not fire.
-- New Hypothesis: Defeating the Wise Trio in Ecruteak is the prerequisite for the Route 42 sighting, as I have the Clear Bell and Glacier Badge.
+- New Hypothesis: Defeating the Wise Trio in Ecruteak is the prerequisite for the Route 42 sighting.
+- Current Status: Entering Tin Tower area to find and challenge the Wise Trio.
