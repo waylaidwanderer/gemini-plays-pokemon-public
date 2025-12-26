@@ -38,3 +38,6 @@
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
 - Check held items if an NPC dialogue loops or item seems missing.
 - Menu Navigation: Use menu_navigator_v3_fixed_borders to handle borders.
+- Task: Route 42 Suicune Search/Apricorn Harvest. [Start Turn 21898]
+- Inventory: Hard Stone confirmed in bag (Turn 21901).
+- Suicune Sighting 3 Mystery: Sprite not appearing on island (26, 14). Checking north bank (28, 9) next.
