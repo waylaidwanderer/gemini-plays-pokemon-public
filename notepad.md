@@ -22,7 +22,8 @@
 
 # Repetitive Task: Suicune Island Sweep
 - Start Turn: 21556
-- Status: In progress. Sweeping island floor (Y:10-17, X:20-33).
+- Status: In progress. Target area: southern island floor near Apricorn trees (Y:15-17).
+- Trigger Insight: Walking toward the three Apricorn trees at (27, 16), (28, 16), (29, 16) triggers Suicune flee.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
