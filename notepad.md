@@ -8,7 +8,10 @@
 ## Tile Mechanics
 - COUNTER: Impassable; allows interaction with NPCs behind it. [Verified]
 - WARP_CARPET_DOWN: Triggers map transition when stepped on. [Verified]
+- WARP_CARPET_UP: Triggers map transition when stepped on. [Verified]
+- STAIRS: Triggers map transition when stepped on. [Verified]
 - LADDER: Triggers map transition when stepped on. [Verified]
+- WARP: (Door/Entrance) Triggers map transition when stepped on. [Verified]
 - FLOOR: Standard traversable tile. [Verified]
 - WALL: Impassable barrier. [Verified]
 
