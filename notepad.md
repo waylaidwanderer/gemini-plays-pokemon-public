@@ -19,5 +19,5 @@
 - Primary Goal HOW: Complete all 5 sightings. Enter Tin Tower 1F. Use Xenon (Gastly) for Hypnosis and Mean Look. Use Ultra/Great Balls.
 
 # Week Siblings Strategy
-- Arthur (Thursday): Route 36 (31, 7). Provides Hard Stone. [Urgent - Thursday 10:24 PM]
-- How to reach Arthur: Fly to Violet City. Exit west to Route 36. Head northeast towards the Route 37 gate.
+- Arthur (Thursday): Route 36 (31, 7). Provides Hard Stone. [Urgent - Thursday 10:28 PM]
+- How to reach Arthur: Fly to Violet City. Exit west to Route 36. Head northeast towards the Route 37 gate (northeast corner of the route).
