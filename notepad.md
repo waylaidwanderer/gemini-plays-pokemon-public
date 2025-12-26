@@ -59,3 +59,6 @@
 - **Visual Confirmation:** REVIVE is visible at top of list in screenshot.
 - **Action:** Select REVIVE -> Use on Muscle.
 - **Note:** Gyarados recharge confirmed (Turn 19352 Hyper Beam). Mistral safe.
+- **Turn 19359:** Executing Revive Use (A -> USE -> A).
+- **Status:** Mistral is safe (Gyarados recharging).
+- **Next:** Select Muscle in Party Menu.
