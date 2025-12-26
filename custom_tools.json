@@ -161,5 +161,38 @@
         "action_counter": 9999
       }
     ]
+  },
+  "buy_vending_drinks": {
+    "description": "Buys a specified quantity of a drink from the vending machine. Assumes the menu cursor is currently at the top (Fresh Water).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "drink_name": {
+          "type": "string",
+          "enum": [
+            "Fresh Water",
+            "Soda Pop",
+            "Lemonade"
+          ]
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        }
+      },
+      "required": [
+        "drink_name",
+        "quantity"
+      ]
+    },
+    "python_script": "import json\n\nbuttons = []\ndrink = drink_name.lower()\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(quantity):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\") # Wait for \"Clang!\"\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Using B is safer to avoid accidental purchase of Fresh Water\n    for _ in range(5):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 800\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-26T15:59:38.260Z",
+        "action_counter": 20043
+      }
+    ]
   }
 }
