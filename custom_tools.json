@@ -161,58 +161,5 @@
         "action_counter": 9999
       }
     ]
-  },
-  "buy_vending_drinks": {
-    "description": "Buys a specified quantity of a drink from the vending machine. Assumes the menu cursor is currently at the top (Fresh Water).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "drink_name": {
-          "type": "string",
-          "enum": [
-            "Fresh Water",
-            "Soda Pop",
-            "Lemonade"
-          ]
-        },
-        "quantity": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 20
-        }
-      },
-      "required": [
-        "drink_name",
-        "quantity"
-      ]
-    },
-    "python_script": "import json\n\n# Robust argument retrieval for drink_name\ntry:\n    drink = drink_name.lower()\nexcept NameError:\n    if 'drink_name' in locals():\n         drink = locals()['drink_name'].lower()\n    elif 'args' in locals():\n        drink = args.get('drink_name', '').lower()\n    elif 'input_data' in locals():\n        drink = input_data.get('drink_name', '').lower()\n    else:\n        drink = \"lemonade\" # Default\n\n# Robust argument retrieval for quantity\ntry:\n    qty = int(quantity)\nexcept NameError:\n    if 'quantity' in locals():\n         qty = int(locals()['quantity'])\n    elif 'args' in locals():\n        qty = int(args.get('quantity', 1))\n    elif 'input_data' in locals():\n        qty = int(input_data.get('quantity', 1))\n    else:\n        qty = 1 # Default\n\nbuttons = []\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(qty):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2500\") # Wait for \"Clang!\" and processing\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Based on observation, 4 Bs brings us back to the menu.\n    for j in range(4):\n        buttons.append(\"B\")\n        if j == 3:\n            # Last B press, include the menu reload buffer here to avoid consecutive sleeps\n            buttons.append(\"sleep 1500\")\n        else:\n            buttons.append(\"sleep 1000\")\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-26T15:59:38.260Z",
-        "action_counter": 20043
-      },
-      {
-        "commit_message": "Fixed off-by-one error in B presses (changed 5 to 4) to keep menu open.",
-        "timestamp": "2025-12-26T16:01:30.001Z",
-        "action_counter": 20045
-      },
-      {
-        "commit_message": "Fixed NameError by adding robust argument retrieval and refined button timing.",
-        "timestamp": "2025-12-26T16:02:51.316Z",
-        "action_counter": 20047
-      },
-      {
-        "commit_message": "Fixed NameError for 'quantity' variable by adding robust argument retrieval.",
-        "timestamp": "2025-12-26T16:03:27.420Z",
-        "action_counter": 20049
-      },
-      {
-        "commit_message": "Fixed consecutive sleep error by merging the final buffer into the last button press delay.",
-        "timestamp": "2025-12-26T16:04:06.758Z",
-        "action_counter": 20051
-      }
-    ]
   }
 }
