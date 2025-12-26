@@ -5,10 +5,11 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer M (Route 26).
-- **Status:** Gyarados (Lv34) leading. Muscle (Lv60) in reserve.
+- **Battle:** Fighting Cooltrainer Gaven (Victreebel Lv32).
+- **Matchup:** Gyarados (Water/Flying) vs Victreebel (Grass/Poison).
+- **Action:** Water resisted. Switching to Muscle (Machoke Lv60) to overpower.
 - **Location:** Route 26 (9, 39).
-- **Next:** Defeat Cooltrainer M. Continue North.
+- **Next:** Defeat Cooltrainer Gaven. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
