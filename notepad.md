@@ -7,7 +7,7 @@
 # Current Status (Turn 18801)
 - **Battle:** Fighting Cooltrainer Gaven (Victreebel Lv32).
 - **Matchup:** Muscle (Machoke Lv60) vs Victreebel.
-- **Action:** Backing out of Party Menu. Using Strength (Slot 1).
+- **Action:** Executing Strength (Slot 1).
 - **Location:** Route 26 (9, 39).
 - **Next:** Defeat Cooltrainer Gaven. Continue North.
 
