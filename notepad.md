@@ -36,6 +36,6 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: Traversing Victory Road Southbound (1F). Path: (13, 31) -> (18, 42) -> West to Ledge at (6, 41).
-- Note: Bypassing FLOOR_UP_WALLs on Row 38 by going East.
+- Status: Traversing Victory Road Southbound (1F). Path: (18, 37) -> (18, 42) -> (7, 42) -> (7, 41) -> Jump Ledge at (6, 41).
+- Note: Bypassing FLOOR_UP_WALLs on Row 38 by going East. Confirmed wall at (6, 42), must go to (7, 41) to access ledge.
 - Goal: Exit to Route 26 to Fly to Goldenrod.
