@@ -21,7 +21,6 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Exploring 3F.
-- **Analysis:** Direct path South to (17, 19) is blocked by walls.
-- **Observation:** x=16 North is blocked by FLOOR_UP_WALL at Row 12. x=18 North is open.
-- **Plan:** Navigate East to x=18, then North to Row 11. Traverse West along Row 11 to loop around to the South-West section (ledges).
-- **Hypothesis:** The path loops counter-clockwise: (13, 17) -> East -> North -> West -> South -> Ledge Hop -> East -> Ladder (17, 19).
+- **Correction:** Wall at (17, 14) blocks direct East movement. Gap detected South at (17, 16).
+- **Plan:** Navigate South to (16, 16), East through gap at (17, 16) to x=18 corridor, then North to (18, 11).
+- **Goal:** Traverse West along Row 11 (Upper Level) to find path to ladder (17, 19).
