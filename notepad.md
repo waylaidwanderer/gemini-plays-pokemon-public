@@ -66,7 +66,12 @@
 - **Observation:** In Bag, selected Ice Berry by mistake.
 - **Action:** B (Cancel), Up x3 (Select Super Potion), A (Select), A (Use).
 - **Goal:** Return to Party Menu to heal Kunai.
-- **Turn 19197:** Healing Complete.
-- **Action:** B x4 (Exit all menus).
-- **Next:** Navigate around Will (at 5,7) to the North door.
-- **Path:** Left (4,8) -> Up (4,7) -> Up -> ... -> Door.
+- **Turn 19202:** Approaching Koga.
+- **Action:** Navigate to (5, 8). Talk to Koga.
+- **Strategy Refined:**
+  - **Lead:** Muscle (Lv62).
+  - **Vs Ariados/Venomoth:** Strength (Neutral).
+  - **Vs Forretress:** Dig or Cross Chop (Neutral). Strength is Resisted (Steel). Note: Garnet (Fire) is 4x effective but underleveled/risky.
+  - **Vs Muk:** Dig (Super Effective).
+  - **Vs Crobat:** Strength (Neutral). Dig fails (Flying).
+- **Backup:** Gyarados (Surf) for neutral coverage.
