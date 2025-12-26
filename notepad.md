@@ -17,16 +17,14 @@
 - Sighting 2: Cianwood City (Complete).
 - Sighting 3: Route 42 (In Progress).
     - Objective: Trigger Suicune fleeing on Route 42.
-    - Strategy: Approach the central island grove. Current hypothesis: Trigger might be on a water tile bordering the island or requires entry from the water.
+    - Strategy: Approach the central island grove. 
+    - Trigger Tile Hypothesis: (26, 13) is the object, trigger occurs when adjacent (e.g. at 26, 14).
+    - Map Reset: Performed at Turn 22903.
 - Sighting 4: Route 36 (Sudowoodo junction). Locked.
 - Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
 
 # PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Lessons Learned
-- Lesson: Route 42 Suicune trigger (Sighting 3) is not guaranteed by a simple approach to the island trees. 100% tile sweep of the island grove (Turn 22782-22883) failed to trigger the event.
-- Hypothesis: The trigger may require a 'Map Reset' (leaving and re-entering Route 42 from Ecruteak) or is located on a specific water tile bordering the island.
-- Timestamp: Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22891 (635 turns elapsed).
-- Map Reset: Exited to Ecruteak and re-entered Route 42 at Turn 22903 to attempt to fix Suicune Sighting 3 trigger.
-- Current Plan: Surf to (26, 13) on the central island to trigger Suicune. Target tile (26, 13) identified as sighting trigger.
+# Tracking
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22921.
