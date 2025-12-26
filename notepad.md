@@ -38,3 +38,4 @@
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
 - Current Status: On Fly Map (Kanto View). Attempting to switch to Johto view using SELECT to reach Goldenrod.
+- Confirmed: Cannot Fly from current location (Indigo Plateau Lobby). Exiting south to Route 23 to Fly.
