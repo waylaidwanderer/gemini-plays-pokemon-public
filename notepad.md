@@ -31,8 +31,8 @@
 - **Encounter:** Fled from Golbat at (3, 64).
 - **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
 - **Strategy:** Detouring via (7, 61) to access the eastern corridor.
-- **Exploration:** Arrived at Victory Road 2F (West) via ladder.
-- **Strategy:** Navigate South to y=38 to cross the central wall, then explore the eastern section.
+- **Exploration:** Arrived at Victory Road 2F (West). Found Item at (7, 38) behind ledge.
+- **Strategy:** Navigate North-East via (5, 37) to find a path around the ledge to the item.
 - **Encounter:** Fled from Golbat at (11, 54).
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
