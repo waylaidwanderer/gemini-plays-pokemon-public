@@ -13,7 +13,7 @@
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
 - Sighting 5: Tin Tower 1F (Final Battle).
     - Requirement: Defeat Wise Trio. They appear after Sightings 3 and 4.
-- **Verification Strategy:** If Route 42 trigger stalls, check Tin Tower 1F for the Wise Trio to see if requirements were met silently.
+- **Verification Result:** Checked Tin Tower 1F (Turn 22482-22492). Sages are present but only providing lore. This confirms Sightings 3 and 4 are still required.
 - Battle Strategy: Level 40. Induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
