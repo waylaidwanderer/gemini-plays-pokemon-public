@@ -14,14 +14,17 @@
 - Scripted Events: Scripted encounters (like Suicune sightings) are based on visible sprites in the Map Objects list, not hidden tile triggers. If the sprite is not present, the event cannot be triggered by walking. [Turn 22217]
 - Ecruteak Geography: There are two distinct buildings in northern Ecruteak. The NW building leads to the Burned Tower. The NE building (Barrier Station) leads to the Tin Tower. The Wise Trio appears in the Barrier Station after getting the Clear Bell. [Turn 22217]
 
-# Strategy: Suicune Hunt (Crystal Version)
+# Strategy: Suicune Hunt Verification
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island. (Attempted Turn 22061, sprite not found).
-- Sighting 4 (Goal): Route 36 (Sudowoodo junction). [Start Turn 22215]
+- Sighting 3 (Goal): Route 42 Central Island. Suicune appears as a visible sprite.
+- Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
-- Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Note: If Route 36 is empty, I will re-verify the Barrier Station in Ecruteak.
+- Current Status: Suicune sprite missing from Route 42 and Route 36.
+- Plan:
+  1. Visit Morty in Ecruteak Gym to check for quest flags.
+  2. Check Burned Tower for Eusine.
+  3. Re-verify Route 42 approach from the west.
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
