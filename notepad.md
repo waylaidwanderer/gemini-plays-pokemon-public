@@ -125,3 +125,8 @@
 - **Situation:** Muscle (8/208 HP, Poisoned).
 - **Action:** Scroll Down x5 to find Hyper Potion.
 - **Plan:** Use Hyper Potion. Muscle heals to full, stays poisoned. Next turn: Dig.
+- **Turn 19244:** Selecting Hyper Potion.
+- **Action:** Up (Select Hyper Potion) -> A (Select) -> A (Use).
+- **Next:** Select Muscle -> Heal.
+- **Note:** Muscle will heal to 200+. Poison remains.
+- **Strategy:** Muscle must survive the turn (Dig avoids attack).
