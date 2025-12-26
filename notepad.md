@@ -1,10 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Switching to Gyarados (QAAGMAQNJW).
+- **Current State:** Sending out Gyarados (QAAGMAQNJW).
 - **Battle Plan:** Use Surf (Slot 4).
-- **Matchup:** Gyarados (Lv35) vs Houndoom (Lv47). Water resists Fire. Surf (Special, Water) is SE vs Fire/Dark.
-- **Notes:** Muscle fainted. Kunai fainted. Garnet/Zenith/Mistral available but weak. Gyarados is the last stand.
-- **Menu State:** Selection menu open. Cursor on Muscle.
+- **Matchup:** Gyarados (Lv35) vs Houndoom (Lv47). Water resists Fire. Surf is SE.
+- **Critical:** Gyarados must survive to hit Surf.
+- **Menu State:** Party Menu. Cursor on Gyarados.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
