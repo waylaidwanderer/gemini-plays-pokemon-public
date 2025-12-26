@@ -20,11 +20,9 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
-- **Condition:** Muscle (39/201 HP, Confused).
-- **Correction:** Accidentally navigated to SUPER POTION.
-- **Action:** 
-  1. Press B to cancel Super Potion.
-  2. Scroll DOWN to MAX POTION.
-  3. Select USE.
-- **Goal:** Open Party Menu to apply Max Potion to Muscle.
+- **Status:** Battle with Rival Silver. Haunter defeated. Silver sending out Feraligatr.
+- **Action:** Decline switch (Keep Muscle in).
+- **Matchup:** Muscle (Lv61 Machoke) vs Feraligatr (Water).
+- **Strategy:** Use Cross Chop (Slot 4).
+  - **Reasoning:** Strongest STAB move. Muscle's level advantage (Lv61 vs ~Lv38) should allow a win despite Feraligatr's bulk.
+- **Goal:** Defeat Feraligatr.
