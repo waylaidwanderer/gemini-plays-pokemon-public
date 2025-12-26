@@ -1,7 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** Fighting Hitmonchan (Lv42).
-- **Battle Plan:** Use Strength (Physical vs Low Def).
-- **Matchup Notes:** Hitmonchan has high Sp.Def, so avoid elemental punches. Strength is best.
+- **Current State:** Hitmonchan Fainted. Waiting for next Pokemon.
+- **Battle Plan:** If Onix -> Switch to Gyarados. If Machamp -> Stay with Muscle.
 
 # Team Status
 
