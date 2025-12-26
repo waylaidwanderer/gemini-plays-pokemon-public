@@ -169,3 +169,7 @@
 - **Action:** B (Back) -> Down (Select Pack) -> A (Open Pack).
 - **Goal:** Open Bag to access Hyper Potions.
 - **Status:** Muscle 97/205 (Confused). Critical HP.
+- **Turn 19154:** Menu confirmed on FIGHT.
+- **Action:** Select PACK (via tool).
+- **Goal:** Use Hyper Potion.
+- **Status:** Muscle 97/205 (Confused). Critical danger.
