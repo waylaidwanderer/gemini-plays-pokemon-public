@@ -73,3 +73,8 @@
 - **Decision:** Stay in with Muscle (108/205 HP).
 - **Analysis:** Jynx (Higher Sp.Atk) did ~94 dmg. Slowbro should do less (~80-85). Muscle survives one Psychic.
 - **Plan:** Attack with Strength. Muscle is faster.
+- **Turn 19131:** Declined switch. Slowbro entering.
+- **Analysis:** Muscle (108 HP) vs Slowbro (Lv 41).
+- **Damage Calc:** Jynx (115 SpA) did 94 dmg. Slowbro (100 SpA) will do less (~80). Muscle survives non-crit.
+- **Action:** Strength (80 BP, Neutral). Dig (60 BP) is weaker. Cross Chop/Rock Smash resisted.
+- **Plan:** 2HKO Slowbro. Survive one Psychic.
