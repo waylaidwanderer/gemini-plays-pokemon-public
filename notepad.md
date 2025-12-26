@@ -66,3 +66,19 @@
 - Turn 23337: Mt. Mortar reset failed (sprite did not appear at (26, 14)). 
 - New Strategy: Gatehouse hopping. Cross the Route 42/Ecruteak boundary repeatedly and check the Pokédex until Suicune is on Route 42. Then check the island.
 - Reason: Scripted sightings in Crystal may be tied to the roaming Suicune's current map location.
+
+# Reflection & Lessons Learned
+- **Turn 23357 Reflection:**
+    1. **Immediate Execution:** No deferred tasks.
+    2. **Notepad Hygiene:** Added "Reflection & Lessons Learned" and strategy timestamps.
+    3. **Map Hygiene:** Planned move of Suicune trigger marker to (26, 15).
+    4. **Automation Strategy:** Decided to rely on menu_navigator_v4_robust for Pokedex checks.
+    5. **Goal Clarity:** Goals are concrete.
+    6. **Error Analysis:** Corrected turn count hallucination.
+- **Lesson:** Turn count in `tools_to_call` must match the current turn number provided in the Game State.
+- **Lesson:** Pokedex Area screen is purely visual; interpret the Johto map based on blue square (city) positions. Ecruteak is (20, 8), Mahogany is (22, 8).
+
+# Suicune Hunt Strategy (Crystal)
+- Started: Turn 22256.
+- Gatehouse hopping started Turn 23337.
+- Current observation: Suicune is currently in the east (approx. Route 44/45) as of Turn 23357.
