@@ -1,15 +1,15 @@
 # Tile Mechanics (Global)
-- FLOOR: Traversable. Standard collision. [Verified]
+- FLOOR: Walkable. Standard collision. [Verified]
 - WALL: Impassable. [Verified]
 - WATER: Traversable only when using HM03 Surf. [Verified]
-- TALL_GRASS: Traversable. Triggers wild encounters. [Verified]
+- TALL_GRASS: Walkable. Triggers wild encounters. [Verified]
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. [Verified]
 - CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. [Verified]
 - WARP_CARPET: Traversable. Triggers map transition. [Verified]
 - DOOR/STAIRS/CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
-- FLOOR_UP_WALL: Impassable from below, likely a ledge or wall variant. [Verified]
+- FLOOR_UP_WALL: Impassable from below. [Verified]
 
 # Battle and Pokemon Information
 ## Type Effectiveness (Verified)
@@ -30,33 +30,22 @@
 ## PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
-# Suicune Hunt Strategy (Crystal)
+# Event Mechanics: Suicune Hunt (Crystal)
 - Status: Suicune is a visible overworld sprite.
-- Trigger: The "Tower Shook" event in Ecruteak City is required to progress the hunt.
+- Trigger: The "Tower Shook" event in Ecruteak City is required.
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Pokedex shows Route 42]
+     - Trigger Hypothesis: Approach from East (Mahogany Town) to force script load.
+     - Targeted Trigger Tile: (26, 13) [Per Agent Advice]
   4. Route 36 (Sudowoodo junction): Near the fat guy.
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Locked by sighting 3]
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
 # Money & Economy
-- Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
-
-# Metadata
-- Current Turn: 23871
-- Suicune Hunt Duration: 171 turns (since turn 23700)
-
-# Suicune Hunt Progress Log
-- Sighting 3 (Route 42): Systematic sweep of island floor tiles (55+ tiles checked). No trigger.
-- Current Status: Pokedex confirms Suicune on Route 42. Wise Trio locked.
-- Conclusion: Simple map reset (Mt. Mortar) failed. Sprite is not spawned.
-- Plan: 'Hard Reset' - Fly to Mahogany, enter Route 42 from East, Surf West to island, approach from East side.
-- Start Turn: 23700.
-- Turn 23906: Entered Route 42 from Mahogany Gate. Current position (50, 7). Proceeding West to Surf.
-- Turn 23909: At (46, 8). Approaching island from the East. Pathing to (26, 14).
+- Current Balance: ¥373. Need to prioritize trainer battles.
 
 # Lessons Learned
-- FLY Map Navigation: The FLY map is a grid. Cities are selected by moving the cursor (Up/Down/Left/Right) to the city icon and pressing A. The Johto map layout determines relative positions (e.g., Ecruteak is North of Violet, Mahogany is East of Ecruteak).
-- Suicune Sighting 3: Simple map resets via Mt. Mortar may not trigger the event. Systematic sweeping of the island also failed. Testing a "Hard Reset" by entering Route 42 from the East (Mahogany Town) after Flying.
+- FLY Map Navigation: Grid-based. Relative positions match region map.
+- Suicune Sighting 3: Approaching from West/Mt. Mortar failed. Trying East approach (Hard Reset).
