@@ -63,4 +63,4 @@
 - Sighting 3 (Route 42): 5 failed attempts at (26, 14). Hypothesis: Approach direction or map script reset is required.
 - Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
 - Plan: Fly to Ecruteak, head to Route 42, enter/exit Mt. Mortar, stand on (26, 14).
-- Turn 23773: Final conversation check with Gramps confirmed he is still in "lore mode". Heading to Route 42 now.
+- Turn 23791: Entered Mt. Mortar (middle entrance). Heading out now to reset the script.
