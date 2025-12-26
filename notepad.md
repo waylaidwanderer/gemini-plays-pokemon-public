@@ -20,8 +20,7 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Exploring 3F.
-- **Correction:** Wall at (17, 14) blocks direct East movement. Gap detected South at (17, 16).
-- **Plan:** Navigate South to (16, 16), East through gap at (17, 16) to x=18 corridor, then North to (18, 11).
-- **Goal:** Traverse West along Row 11 (Upper Level) to find path to ladder (17, 19).
-- **Encounter:** Wild Graveler at (16, 16).
+- **Status:** Resuming navigation after fleeing Graveler at (16, 16).
+- **Plan:** Move East through gap at (17, 16) to the East Corridor (x=18).
+- **Next:** Navigate North along x=18 to Row 11.
+- **Goal:** Traverse West along Row 11 to reach the area above the ladder at (17, 19).
