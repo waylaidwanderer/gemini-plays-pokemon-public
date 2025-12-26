@@ -50,3 +50,12 @@
 - (27, 16): Berry Tree
 ## Violet City (10_5)
 - (27, 23): Ledge gap. Allows passage north without hopping the ledge.
+
+# Lessons Learned & Failures
+- FLY Map Navigation (Turns 22696-22709): Attempted to move cursor with D-pad for 14 turns without success. FLY map cursor movement is not 1:1 with D-pad presses and may require specific logic or repeated inputs. Avoided for now by walking.
+- Suicune Trigger Hypothesis (Route 42): Sighting 3 is triggered by approaching the central island grove with three Apricorn trees. Exhaustive sweep of the island is the current priority.
+
+# Area Mechanics & Warps (Continued)
+## Route 36 (10_3)
+- (35, 9): Sudowoodo junction. Previously blocked by Sudowoodo. Sighting 4 location.
+- "WEIRD_TREE" tiles are Sudowoodo-like sprites. Interaction requires Squirtbottle if they block the path. [Hypothesis]
