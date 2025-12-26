@@ -57,3 +57,6 @@
 - **Move:** Dig (Slot 2).
 - **Reasoning:** Ghost is immune to Normal/Fighting. Dig (Ground) is 2x effective vs Poison.
 - **Expectation:** Gengar outspeeds. If Muscle faints -> Zombie Plan. If Muscle survives -> Dig.
+- **Turn 5:** Muscle fainted (Curse damage). Gengar cut its own HP.
+- **Action:** Switch to Mistral (Slot 6).
+- **Plan:** Sacrifice Mistral. Use Revive on Muscle immediately. Then switch Muscle back in (clean switch if Mistral faints, or hard switch).
