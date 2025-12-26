@@ -18,10 +18,11 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Muscle (181/218) vs Exeggutor (Full).
-- **Matchup:** Muscle outspeeds. Ice Punch (2x) vs Grass/Psychic.
-- **Plan:** OHKO with Ice Punch.
-- **Next:** Probably Slowbro or Xatu #2.
+- **State:** Muscle (181/218) vs Slowbro (Incoming).
+- **Matchup:** Slowbro (Water/Psychic). Weak to Electric.
+- **Plan:** ThunderPunch.
+- **Risk:** Psychic moves.
+- **Notes:** ThunderPunch is Special in Gen 2 (Electric), targeting Slowbro's lower Sp.Def. Muscle's Sp.Atk isn't great, but Lv66 helps.
 
 # Tile Mechanics
 - **WALL**: Impassable.
