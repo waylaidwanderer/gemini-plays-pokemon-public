@@ -48,7 +48,8 @@
 - **Next:** Find Revive.
 - **Search:** Scrolling Down x5.
 - **Reasoning:** Revive is likely further down the list. Inventory is manually sorted.
-- **Turn 19265:** Scrolling for Revives.
-- **Action:** Down x5.
-- **Goal:** Reach Revives (below Charcoal).
-- **Inventory Order:** Antidote -> ... -> Burn Heal -> Charcoal -> ... -> Revive.
+- **Turn 19266:** Re-entering Pack.
+- **State:** Start Menu (Cursor on GEM).
+- **Action:** Up x2 (Select PACK) -> A (Enter).
+- **Next:** Find Revive (Scroll Down).
+- **Inventory Note:** Revive is ~12-15 items down.
