@@ -44,11 +44,12 @@
 - Suicune sighting 3 (Route 42) failure log:
   - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
   - Attempt 2: Approach from East (Fly to Mahogany), Surf to island. Result: Fail.
-  - Current Status: Suicune sprite not present. Checking Pokedex for roaming status.
+  - Attempt 3: Full island sweep. Result: Fail. Sprite is NOT in the map object list.
+  - Observation: Pokedex shows Suicune on Route 42. If sprite is missing from island, it may be roaming in grass or sighting was skipped.
 - Verified Sightings:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective - Discrepancy detected]
 
 # NPC & Interaction Rules
 - Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
