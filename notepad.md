@@ -38,7 +38,7 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Verifying Sighting 4 on Route 36.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Returning to Route 42 to trigger Sighting 3.
 
 # Tile Mechanics (Route 37)
 - FLOOR: Traversable. [Verified]
