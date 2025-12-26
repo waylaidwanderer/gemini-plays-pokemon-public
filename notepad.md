@@ -82,3 +82,6 @@
 - **Turn 19204:** Advancing Koga's pre-battle dialogue.
 - **Action:** Press B.
 - **Next:** Continue advancing text until battle starts.
+- **Turn 19206:** Advancing Koga's dialogue ("I live in shadows...").
+- **Action:** Press B.
+- **Next:** Battle Start.
