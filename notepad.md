@@ -1,12 +1,12 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** In Switch Menu (Accidental Entry).
-- **Action:** Cancel switch (Press B). Keep Muscle in.
-- **Battle Plan:** Use Ice Punch (Slot 3) on Dragonite.
-- **Matchup:** Muscle (Lv69, 118/229 HP) vs Dragonite (Lv47).
-- **Strategy:** Ice Punch is 4x SE. OHKO.
-- **Correction:** Gyarados is at 57/114 HP (Not Full). Healing sequence missed him.
+- **Current State:** In Party Menu. Exiting.
+- **Action:** Press B to return to Battle Menu.
+- **Next:** Select FIGHT -> Ice Punch (Slot 3).
+- **Matchup:** Muscle (Lv69) vs Dragonite (Lv47).
+- **Strategy:** Ice Punch (4x SE) for OHKO.
+- **Team Status:** Muscle 118/229 HP. Gyarados 57/114 HP. Kunai 32/65 HP.
 
 # Team Status
 - Muscle (Lv69): 118/229 HP.
