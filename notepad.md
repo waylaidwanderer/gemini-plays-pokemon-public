@@ -25,3 +25,4 @@
 - **Fly Map Issue:** Unable to select Indigo Plateau on Fly map. Cycling through towns loops without showing it.
 - **Plan B:** Surf from New Bark Town to Route 27 -> Tohjo Falls -> Victory Road.
 - **Observation:** Attempt to descend waterfall at (18, 6) was interrupted by a wild battle (Goldeen). This likely caused the "Movement Blocked" alert, not an actual terrain blockage. Retrying descent at (19, 6) to be safe.
+- **Observation:** Encountered Wild Golbat at (23, 14), confirming the "Movement Blocked" was due to a battle.
