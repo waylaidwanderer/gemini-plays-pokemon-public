@@ -126,3 +126,8 @@
 - **Action:** Manual Input: Up (FIGHT) -> A -> A (STRENGTH).
 - **Matchup:** Muscle (126/205) vs Xatu (Full).
 - **Prediction:** Xatu attacks (Psychic, ~80 dmg). Muscle survives (unless Crit). Muscle uses Strength (~50% dmg).
+- **Turn 19145:** Menu confirmed on FIGHT.
+- **Action:** Manual Input: A (Enter Fight Menu) -> A (Select Strength).
+- **Matchup:** Muscle (126/205) vs Xatu (Lv 42).
+- **Prediction:** Strength deals ~50-60%. Xatu attacks (Psychic). Muscle survives.
+- **Next:** Finish with Strength.
