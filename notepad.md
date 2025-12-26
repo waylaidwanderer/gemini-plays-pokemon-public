@@ -47,3 +47,11 @@
 - Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), and exhaustive sweep.
 - Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate.
 - Current Attempt: Hard Map Reset via Fly (Ecruteak City). Returning to Route 42 central island to trigger Sighting 3.
+
+# Route 42 Tile Mechanics
+- WATER: Traversable with HM03 Surf. [Verified]
+- HEADBUTT_TREE: Impassable. Interacting with Headbutt may trigger encounters. [Verified]
+- CUT_TREE: Impassable. Removed with HM01 Cut. [Verified]
+- CAVE: Warp to Mount Mortar. [Verified]
+- WARP_CARPET_LEFT: Warp to Ecruteak Gatehouse. [Verified]
+- FLOOR_UP_WALL: Impassable. Visual boundary. [Verified]
