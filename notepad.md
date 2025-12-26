@@ -13,9 +13,10 @@
 - WARP_CARPET_LEFT: Traversable. Transition between maps/gatehouses. [Verified]
 
 # General Lessons
-- Scripted Events: Sightings are sprite-based. If a sprite is missing, the event cannot trigger. [Turn 22217]
-- Ecruteak Geography: NW = Burned Tower; NE = Barrier Station (leads to Tin Tower). Wise Trio is in Barrier Station (Map 4_2) or Tin Tower 1F. [Turn 22217]
-- Root Hypothesis Failure: If a scripted sequence stalls (e.g., Suicune sightings), the assumed order or prerequisite might be wrong. Pivot to the next major hurdle (Wise Trio battle) instead of looping. [Turn 22321]
+- Suicune Sequence Linearity: Suicune follows a strict order: Burned Tower -> Cianwood City -> Route 42 -> Route 36 -> Tin Tower. Sightings cannot be skipped.
+- Event Triggers: Scripted encounters are sprite-based. If the sprite is missing, the event cannot trigger.
+- Troubleshooting Stalls: If a scripted event doesn't trigger, re-verify the previous step's completion and ensure all trigger tiles (often directional) are crossed.
+- Map Marker Integrity: Markers linked to object IDs will move with those objects. Use static markers for fixed locations like trees.
 
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
@@ -31,11 +32,11 @@
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F.
 - Status: Stationary encounter. Level 40.
-- Strategy: induced sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer). Mean Look NOT required.
+- Strategy: induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer). Mean Look NOT required.
 - Prerequisite: Defeat Wise Trio.
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM). Stalled at Turn 22315.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256 (Dec 26, 2:00 AM). Current Turn: 22372. Goal: Trigger sighting 3.
