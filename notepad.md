@@ -224,3 +224,7 @@
 - **Turn 19170:** Open Party Menu.
 - **Action:** Press A (Select PKMN).
 - **Next:** Select Muscle -> Switch.
+- **Turn 19171:** Party Menu Open.
+- **Action:** Select Muscle (A) -> Select Switch (A).
+- **Result:** Muscle switches in.
+- **Next:** Battle continues (Muscle vs Xatu).
