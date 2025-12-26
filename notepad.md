@@ -45,3 +45,6 @@
 - **Inventory Update:** Only 1 Hyper Potion left. 5 Super Potions.
 - **Decision:** Use Super Potions on Muscle (save Hyper Potion for battle emergencies).
 - **Goal:** Locate and use Super Potion x2 on Muscle.
+- **Turn 19188:** Selecting Super Potion.
+- **Action:** Down (Select Super Potion) -> A (Select) -> A (Use).
+- **Next:** Select Muscle -> Heal. Repeat.
