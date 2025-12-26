@@ -68,3 +68,8 @@
 - **Action:** Selected STRENGTH.
 - **Reasoning:** Fighting moves are resisted by Psychic. Ground is resisted by Grass. Normal (Strength) is neutral and our strongest option.
 - **Prediction:** Exeggutor takes heavy damage/faints. Muscle likely takes a Psychic if Exeggutor survives.
+- **Turn 19130:** Exeggutor defeated. Sneasel fainted earlier.
+- **Incoming:** Slowbro (Lv 41).
+- **Decision:** Stay in with Muscle (108/205 HP).
+- **Analysis:** Jynx (Higher Sp.Atk) did ~94 dmg. Slowbro should do less (~80-85). Muscle survives one Psychic.
+- **Plan:** Attack with Strength. Muscle is faster.
