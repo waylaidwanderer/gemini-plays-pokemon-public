@@ -29,3 +29,5 @@
 - **Current:** Navigating North towards Victory Road.
 - **Badge Check:** Passed! The officer verified all 8 badges.
 - **Encounter:** Fled from Golbat at (3, 64).
+- **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
+- **Strategy:** Detouring via (7, 61) to access the eastern corridor.
