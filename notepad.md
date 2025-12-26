@@ -160,3 +160,8 @@
 - **Risk:** Confusion check.
 - **Next:** Xatu attacks (Psychic).
 - **Goal:** Land 2 hits to KO Xatu again.
+- **Turn 19152 Result:** Muscle hurt itself (~30 dmg) + Psychic (~80 dmg).
+- **Status:** Muscle 97/205 HP. Confused. Xatu 100% HP.
+- **Crisis:** HP critical. Psychic (80-95 dmg) could kill next turn.
+- **Action:** Opening Pack.
+- **Plan:** MUST use Hyper Potion. Full Heal/Bitter Berry is too risky (Muscle might die to Psychic this turn). Healing HP is priority.
