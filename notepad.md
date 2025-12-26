@@ -38,5 +38,5 @@
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
 - Status: Goldenrod Dept Store 5F. In transaction menu.
-Goal: Sell 2 Revives (1500) to reach >6000. (Full Heals not visible in menu).
-Then Buy TM33 (Ice Punch) and TM41 (ThunderPunch).
+Goal: Buy TM33 (Ice Punch) and TM41 (ThunderPunch). Cost: 6000. Current Money: 6619.
+Then: Teach moves to Muscle and Fly to Indigo Plateau.
