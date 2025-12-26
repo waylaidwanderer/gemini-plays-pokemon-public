@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower 1F.
-- Current Hypothesis: Trigger for Sighting 3 is in the water surrounding the island or requires a specific approach angle.
+- Hypothesis: Trigger requires approaching from a specific direction (possibly from the water) or standing on a specific tile not yet hit.
 - Lessons Learned:
     - Pokedex: S is before T. Scroll UP from Togepi.
     - Scripted: Suicune is scripted until Sighting 5. Pokedex AREA is the source of truth.
