@@ -65,4 +65,4 @@
 - Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
 - Plan: Cut tree at (24, 13), walk to (26, 14).
 - Turn 23791: Entered and exited Mt. Mortar (middle entrance) to reset map script.
-- Turn 23795: Clearing tree at (24, 13) to access (26, 14). Result of Reset Hypothesis: [Pending].
+- Turn 23798: Tree at (24, 13) cleared. Moving to trigger tile at (26, 14). Result of Reset Hypothesis: [Pending].
