@@ -1,24 +1,15 @@
 # Operation: Dragon Slayer
-- **Current State:** Approaching Champion Lance.
-- **Action:** Walking up the red carpet to (5, 5).
-- **Plan:** Challenge Lance.
-- **Reflection (Turn 20359):**
-    - **Execution:** Generally good, some menu slips. Corrected immediately.
-    - **Hygiene:** Notepad updated for E4. Map markers for warps confirmed present.
-    - **Automation:** `smart_battle_move` is effective. `slow_press` requires careful counting.
-    - **Goals:** Clear (Defeat Lance).
-    - **Errors:** Menu navigation. Lesson: Verify cursor or use safer sequences.
+- **Status:** Indigo Plateau (Lance's Room).
+- **Action:** In Dialogue with Lance.
+- **Plan:** Defeat Champion Lance.
+- **Matchup:** Muscle (Lv68) vs Lance's Team.
+- **Strategy:** ThunderPunch for Gyarados/Charizard. Ice Punch for Dragonites/Aerodactyl.
 
 # Team Status
-- Muscle (Lv68): Full.
+- Muscle (Lv68): Full HP. 0 Strength PP.
 - Garnet (Lv29): Full.
 - Gyarados (Lv35): Full.
 - Kunai (Lv24): Full.
-- Zenith/Mistral: Full.
-- Muscle (Lv68): 112/225 HP. Healthy.
-- Garnet (Lv29): Full.
-- Gyarados (Lv35): Fainted. Needs Revive.
-- Kunai (Lv24): Fainted. Needs Revive.
 - Zenith/Mistral: Full.
 
 # Lance's Team (Gen 2)
