@@ -40,3 +40,11 @@
   - If PP runs out: Struggle.
 - **Immediate Action:** Select Rock Smash (Slot 3). Dragonite recharging.
 - **Reminder:** Mark warps at (4,1) and (5,1) after battle.
+- **CRITICAL REALIZATION:** Max Revive ONLY restores HP in Gen 2. It does NOT restore PP.
+- **Status:** Muscle has 0 PP for Strength/Cross Chop.
+- **Offense:** Only have Rock Smash (10 PP) and Dig (Immune).
+- **New Strategy (Rock Smash Attrition):**
+  - Spam Rock Smash. Hope for Defense drops.
+  - If PP runs out, use Struggle.
+  - Zombie Loop: If Muscle faints, switch to fodder -> Revive Muscle -> Repeat.
+- **Current Turn:** Use Rock Smash (Slot 3). Dragonite recharging.
