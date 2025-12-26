@@ -18,7 +18,7 @@
   3. Route 42 (Central Island): Middle Apricorn grove. Trigger tile is likely (26, 14) or (26, 13) (Adjacency to trees). Note: (26, 13) is a Headbutt tree, not a floor tile. Requires map reload (enter/exit cave).
   4. Route 36 (Sudowoodo junction): Near the fat guy.
   5. Tin Tower 1F (Final Battle): Requires Clear Bell (In Inventory).
-- Progress: Hunt started Turn 23560. Attempted Sighting 3 reset loop multiple times on Route 42. (Current Turn: 23634)
+- Progress: Hunt started Turn 23560. Attempted Sighting 3 reset loop multiple times on Route 42. (Current Turn: 23641)
 
 # Ecruteak Investigation Plan
 1. Fly to Ecruteak City.
