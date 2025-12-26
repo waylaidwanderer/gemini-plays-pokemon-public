@@ -66,3 +66,7 @@
 - **Action:** Down (Select Max Revive) -> A (Open Menu) -> A (Use).
 - **Status:** Zenith active. Dragonite recharging.
 - **Next:** Select Muscle in Party Menu.
+- **Turn 19391:** Cursor drifted to Flower Mail.
+- **Action:** Pressing Up to select MAX REVIVE.
+- **Protocol:** Step-by-step menu navigation to prevent errors.
+- **Risk:** Using regular Revive leaves Muscle with 0 PP (Game Over). Must confirm Max Revive.
