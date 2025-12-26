@@ -36,5 +36,6 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Phone Call: Gaven (Cooltrainer) wants to battle on Route 26.
-- Status: Moving South to exit Route 23 and find a valid Fly location (Route 26).
+- Status: Traversing Victory Road Southbound. Target: Ladder at (13, 17) to 2F.
+- Note: Avoided FLOOR_UP_WALL tiles by going East around column 18.
+- Goal: Exit to Route 26 to Fly to Goldenrod.
