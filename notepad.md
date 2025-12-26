@@ -39,3 +39,4 @@
 - **Observation:** Encountered Wild Onix at (3, 56). Fleeing.
 - **Observation:** Encountered Wild Onix at (9, 54). Fleeing.
 - **Observation:** Encountered Wild Graveler at (3, 55). Fleeing.
+- **Observation:** Encountered Wild Rhyhorn at (13, 40). Fleeing.
