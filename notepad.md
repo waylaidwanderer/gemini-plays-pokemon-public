@@ -44,3 +44,8 @@
 - **Turn 19218:** Muscle uses Strength.
 - **Reasoning:** Dig fails vs Flying. Fighting moves resisted. Strength is best option.
 - **Risk:** Another miss or Confuse Ray. Muscle has HP to spare.
+- **Turn 19219:** Strength is out of PP (0/15)!
+- **Crisis:** Main damage source is gone. Dig is useless vs Flying. Cross Chop/Rock Smash are resisted (0.25x).
+- **Solution:** Use **Max Ether** on Strength.
+- **Action:** B (Exit Move Menu) -> Down (Select Pack) -> A (Open Pack).
+- **Next:** Find Max Ether -> Restore Strength PP.
