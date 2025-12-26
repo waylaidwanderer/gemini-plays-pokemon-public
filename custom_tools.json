@@ -33,32 +33,6 @@
       }
     ]
   },
-  "find_reachable_unseen": {
-    "description": "Analyzes the provided map XML to find all reachable 'unseen' tiles from the start coordinates. Returns a list of coordinates.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef get_reachable_unseen(map_xml, start_x, start_y):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    unseen = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            if t_type == 'unseen':\n                unseen.add((x, y))\n                grid[(x, y)] = False # Not walkable, but a target\n            else:\n                # Treat FLOOR, ICE, WARP_CARPET as walkable.\n                walkable = t_type in ['FLOOR', 'ICE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n                grid[(x, y)] = walkable\n\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_unseen = []\n    \n    while queue:\n        x, y = queue.popleft()\n        \n        # Directions: Up, Down, Left, Right\n        moves = [(0, -1), (0, 1), (-1, 0), (1, 0)]\n        \n        for dx, dy in moves:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited:\n                    if (nx, ny) in unseen:\n                        # Found an adjacent unseen tile\n                        reachable_unseen.append((nx, ny))\n                        visited.add((nx, ny)) # Don't re-add\n                    elif grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny))\n                    \n    return f\"Reachable Unseen Tiles: {reachable_unseen}\"\n\nprint(get_reachable_unseen(map_xml_string, input_data['start_x'], input_data['start_y']))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-24T17:27:08.960Z",
-        "action_counter": 16456
-      }
-    ]
-  },
   "flee_battle": {
     "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
     "input_schema": {},
