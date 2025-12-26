@@ -17,7 +17,8 @@
     - Status: Not found. Systematic sweep of grove (Turns 22580-22620) and plateau (Turns 22621-22631) turned up nothing. Sprite is missing.
     - Hypothesis: Missing a prerequisite or already triggered. Moving to Route 36 to verify.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
-    - Strategy: Walk west from Violet City to the junction. Suicune should appear and flee.
+    - Status: Not found. Walked to junction, no sprite appeared.
+    - Hypothesis: Route 42 sighting is mandatory and was not successfully triggered.
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell (Obtained).
 - Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
 
