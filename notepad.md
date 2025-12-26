@@ -32,4 +32,7 @@
 - **Analysis:** 2F West was a dead-end loop with an item.
 - **Strategy:** Navigate to 1F East Corridor (x=18) via the central junction at (11, 54).
 - **Goal:** Explore North of (18, 51) in the East Corridor, suspecting a missed ladder to 2F East.
-- **Encounter:** Wild Graveler at (3, 51).
+- **Encounter:** Wild Graveler at (3, 51). Fled successfully.
+- **Strategy:** Resuming navigation to 1F East Corridor (x=18).
+- **Path:** Loop South to (3, 56), East to (15, 56), then North to (18, 51).
+- **Goal:** Explore North of (18, 51) for missed ladder.
