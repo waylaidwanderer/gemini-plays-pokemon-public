@@ -19,9 +19,11 @@
 - Primary Goal HOW: Complete all 5 sightings. Enter Tin Tower 1F. Use Xenon (Gastly) for Hypnosis and Mean Look. Use Ultra/Great Balls.
 
 # Week Siblings Strategy
-- Arthur (Thursday): Route 36 (45, 6). Provides Hard Stone. [Urgent - Thursday 10:39 PM]
-- How to reach Arthur: From the Violet City entrance (59, 9), head west and then north towards the tree line. Arthur is standing at (45, 6).
+- Arthur (Thursday): Route 36 (47, 6). Provides Hard Stone. [Urgent - Thursday 10:41 PM]
+- How to reach Arthur: From the Violet City entrance (59, 9), head west and then north towards the tree line. Arthur is standing at (47, 6).
 - Suicune Hunt Sighting 3 Attempt (Route 42 Island): Swept all floor tiles in the grove (Turns 21733-21741). Flee event did not trigger. Investigating prerequisites.
 - Suicune Hunt Start: Turn 21694.
 - Primary Goal HOW: Complete all 5 sightings. Enter Tin Tower 1F. Use Xenon (Gastly) for Hypnosis and Mean Look. Use Ultra/Great Balls.
 - Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
+- Note: Arthur's position is dynamic. He was seen at (47, 6) on Turn 21798.
+- Mystery: Empty text box on screen at Turn 21798. Pressing B to clear.
