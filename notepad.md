@@ -48,3 +48,6 @@
 - **Turn 19188:** Selecting Super Potion.
 - **Action:** Down (Select Super Potion) -> A (Select) -> A (Use).
 - **Next:** Select Muscle -> Heal. Repeat.
+- **Turn 19189:** Selecting Muscle for Super Potion 1.
+- **Action:** Up x3 (Select Muscle) -> A (Use).
+- **Next:** Confirm heal message -> Use Super Potion 2 on Muscle.
