@@ -122,3 +122,7 @@
 - **Action:** Advancing text.
 - **Anticipation:** Xatu attacks (Psychic/Drill Peck/Confuse Ray).
 - **Next Turn:** Muscle attacks with Strength.
+- **Turn 19144:** Cursor on PACK.
+- **Action:** Manual Input: Up (FIGHT) -> A -> A (STRENGTH).
+- **Matchup:** Muscle (126/205) vs Xatu (Full).
+- **Prediction:** Xatu attacks (Psychic, ~80 dmg). Muscle survives (unless Crit). Muscle uses Strength (~50% dmg).
