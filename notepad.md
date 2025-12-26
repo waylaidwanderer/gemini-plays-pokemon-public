@@ -143,3 +143,12 @@
   - **Wait:** If Machamp is out, Onix must be next? Or I missed Onix.
   - **Correction:** Machamp is usually the ace (last). Maybe Onix is next? Or maybe the order is different.
   - **Anyway:** Focus on Machamp.
+- **Turn 19296:** Machamp defeated (4th Pokemon).
+- **Incoming:** Onix (Lv 43). This is Bruno's last Pokemon.
+- **Action:** Decline switch (Down -> A).
+- **Matchup:** Muscle (54/211 HP) vs Onix.
+- **Strategy:** Cross Chop.
+  - Onix Def is high, but Cross Chop is 2x Effective + STAB (300 Power).
+  - Dig is 2x but non-STAB (120 Power) -> likely 2HKO.
+  - Muscle survives any hit from Onix (Low Atk) except maybe Crit Earthquake.
+- **Goal:** Defeat Bruno.
