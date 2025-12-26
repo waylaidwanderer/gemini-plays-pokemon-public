@@ -29,27 +29,21 @@
 - KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
 
 # Event Mechanics: Suicune Hunt (Crystal)
-- Status: Suicune is a visible overworld sprite for sightings. Roaming phase begins after Tin Tower?
-- Trigger: The "Tower Shook" event in Ecruteak City is required.
+- Status: Suicune appears at fixed sighting locations. Final encounter at Tin Tower.
+- Prerequisite: "Tower Shook" event in Ecruteak City + Possession of CLEAR BELL.
+- Hypothesis: Suicune sighting 3 on Route 42 may be skipped or unavailable because the Clear Bell and Tin Tower Shaking event have already been triggered, directing Suicune to its final location.
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective - Sprite Missing]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Sighting FAILED/SKIPPED]
   4. Route 36 (Sudowoodo junction): [Pending]
-  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1).
-  6. Tin Tower 1F (Final Battle): Requires Clear Bell.
+  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Pending]
+  6. Tin Tower 1F (Final Battle): Requires Clear Bell. [Current Target]
 
-# Strategy for Suicune on Route 42
-- Trigger Tile: (26, 13) or (26, 14) on the central island.
-- Failure Log:
-  - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
-  - Attempt 2: Approach from East (Fly to Mahogany), Surf to island. Result: Fail.
-  - Attempt 3: Full island sweep. Result: Fail. Sprite is NOT in the map object list.
-- Roaming vs Sighting Test Plan:
-  1. Check Pokedex location on Route 42. [Done: Pokedex shows blue squares on Route 42]
-  2. Change maps (e.g., enter Mt. Mortar at 28, 9).
-  3. Check Pokedex again. If location moves, Suicune is in roaming phase.
-- Discrepancy: Pokedex shows Suicune on Route 42, but sprite is missing from island. Roaming encounter in tall grass is a high possibility.
+# Strategy for Tin Tower
+- Current Items: Clear Bell in inventory.
+- Event Status: Tin Tower has already shaken (Sage mentioned a Pokemon returned to the top).
+- Action: Return to Ecruteak City. Visit Tin Tower Gatehouse and proceed to the Tower for the final encounter.
 
 # NPC & Interaction Rules
 - Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
