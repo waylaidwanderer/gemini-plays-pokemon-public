@@ -62,3 +62,7 @@
 - **Action:** Select PACK.
 - **Goal:** Use Max Revive on Muscle.
 - **Plan:** Revive Muscle this turn (safe). Next turn Dragonite KOs Zenith -> Muscle sweeps.
+- **Turn 19390:** Navigating to MAX REVIVE.
+- **Action:** Down (Select Max Revive) -> A (Open Menu) -> A (Use).
+- **Status:** Zenith active. Dragonite recharging.
+- **Next:** Select Muscle in Party Menu.
