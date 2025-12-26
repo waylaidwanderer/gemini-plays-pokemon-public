@@ -39,3 +39,11 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
+
+# Suicune Battle Strategy (Crystal)
+- Location: Tin Tower 1F (Final Sighting).
+- Status: Stationary encounter (does not flee).
+- Level: 40.
+- Strategy: Use KIMCHI (Sleep Powder) or XENON (Hypnosis) to induce sleep. Weaken with GNEISS or Calcifer.
+- Note: Mean Look is NOT required for this specific battle.
+- Requirement: Must defeat the Wise Trio in the Wise Trio Room first.
