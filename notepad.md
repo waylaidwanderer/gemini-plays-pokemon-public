@@ -27,7 +27,7 @@
 - **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
 - **PC**: Impassable. Interact to access Pokemon Storage System.
 
-# Operation: Elemental Upgrade
+# Operation: Elemental Upgrade (Started ~Turn 19600)
 1. **Fly to Goldenrod:** (In Progress) Open Start Menu -> Pokemon -> Fly to Goldenrod.
 2. **Fundraising:**
    - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
