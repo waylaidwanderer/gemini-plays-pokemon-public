@@ -28,6 +28,7 @@
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
 - **Encounter:** Wild Onix at (15, 56). Fled successfully.
 - **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Encounter:** Wild Rhyhorn at (6, 54). Fled successfully.
-- **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Next:** From (1, 35) on 2F, explore the NORTH path (y=33) which was previously missed.
+- **Exploration:** Rhyhorn battle at (6, 54) ended.
+- **Navigation:** Path from (5, 54) to West Corridor requires looping South through gap at (7, 55).
+- **Goal:** Reach Ladder at (1, 49) to access 2F West.
+- **Next:** From 2F West landing (1, 35), explore NORTH.
