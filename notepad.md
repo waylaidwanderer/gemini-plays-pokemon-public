@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Will's Room (Elite Four).
-- **Party:** Muscle (Lv62, 122/205 HP), Sneasel (Fainted), others healthy.
-- **Inventory:** 6 Hyper Potions, 13 Revives, 2 Full Restores.
+- **Party:** Full Health.
+- **Inventory:** 1 Hyper Potion, 5 Super Potions, 13 Revives, 2 Full Restores.
 - **Money:** ¥6889.
 
 # Exploration Log
@@ -14,9 +14,8 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Heal:** Revive Sneasel, Heal Muscle.
-2.  **Advance:** Move to Koga's Room.
-3.  **Battle Koga:**
+1.  **Advance:** Move to Koga's Room.
+2.  **Battle Koga:**
     - **Strategy:** Muscle (Strength/Dig) and Gyarados (Surf).
     - **Counters:**
       - **Muk:** Dig (Muscle).
