@@ -3,91 +3,23 @@
 - **Secondary:** Defeat Champion Lance.
 - **Tertiary:** Become Champion.
 
-# Current Status
-- **Location:** Lance's Room.
-- **Party:**
-  - Muscle (Lv65): Fainted.
-  - Garnet (Lv29): Active (81/81 HP).
-  - Kunai (Lv24): Healthy.
-  - Gyarados: Low HP.
-- **Inventory:** 8 Revives.
+# Battle Status: Lance (Champion)
+- **Opponent:** Dragonite (Lv47).
+- **Active:** Kunai (Lv24 Sneasel) - 65/65 HP.
+- **Reserve:** Gyarados (24/114).
+- **Fainted:** Muscle, Garnet, Zenith, Mistral.
+- **Items:** 7 Revives. No Potions.
 
-# Battle Status
-- **Opponent:** Lance (Champion).
-- **Active Matchup:** Muscle vs Aerodactyl.
-- **Strategy:** Attrition (Rock Smash -> Struggle).
-- **Remaining Enemies:** Aerodactyl, Charizard, Dragonite x2.
+# Moveset Status (Muscle)
+- Strength (Normal): 0/15 PP.
+- Dig (Ground): 0/10 PP.
+- Rock Smash (Fighting): 6/15 PP.
+- Cross Chop (Fighting): 0/5 PP.
 
-# Plan
-1.  **Vs Aerodactyl:** Spam Rock Smash (8 PP left).
-2.  **Vs Others:** Struggle (if PP empty) or Rock Smash.
-3.  **Emergency:** If Muscle faints, switch to fodder -> Revive -> Resume.
-- **Turn 19417 Result:** Aerodactyl outsped (Wing Attack, 60 dmg). Muscle used Rock Smash (Crit + Def Drop!).
-- **Status:** Muscle 155/215 HP. Aerodactyl took significant damage.
-- **Action:** Use Rock Smash (Slot 3).
-- **Reasoning:** Aerodactyl is faster but Muscle can tank 2 more hits easily. -1 Defense makes Rock Smash more viable.
-- **PP:** Rock Smash 8/15.
-- **Turn 19418:** Muscle (155/215 HP) vs Aerodactyl.
-- **Action:** Use Rock Smash (Slot 3).
-- **Reasoning:** Rock Smash (Fighting) is Neutral vs Aerodactyl. Need to empty PP to reach Struggle (50 BP, Normal) which is better vs Charizard/Dragonite (Neutral) than Rock Smash (Resisted).
-- **Status:** Rock Smash 7 PP left.
-- **Strategy Update:** Embracing the "Struggle Sweep". Muscle will become a berserker.
-- **Turn 19419:** Aerodactyl used Wing Attack (Super Effective, ~60 dmg). Muscle used Rock Smash (Crit! Def fell!).
-- **Status:** Muscle 96/215 HP. Aerodactyl HP low (Yellow/Red?).
-- **Action:** Use Rock Smash (Slot 3).
-- **Reasoning:** Muscle survives one more hit. Rock Smash to finish or weaken further.
-- **PP:** Rock Smash 7/15.
-- **Turn 19425:** Garnet active.
-- **Action:** Select PACK -> Use Revive on Muscle.
-- **Reasoning:** Cannot waste a turn attacking with Garnet (fodder). Must revive Muscle while Garnet takes the hit.
-- **Outcome:** Muscle will be at 50% HP. Garnet likely faints.
-- **Next:** Switch Muscle in. Resume Rock Smash.
-- **Turn 19426:** Mistakenly entered FIGHT menu.
-- **Correction:** B (Back) -> Down (PACK) -> A (Select).
-- **Goal:** Open Pack to use Revive on Muscle.
-- **Priority:** Items act before attacks. Revive Muscle NOW. Garnet will take the hit afterwards.
-- **Turn 19427:** Input truncated last turn (only 'B' processed).
-- **Current State:** Main Battle Menu. Cursor on FIGHT.
-- **Action:** Select PACK.
-- **Goal:** Use Revive on Muscle (Priority move).
-- **Outcome:** Muscle revives. Garnet takes the hit (fodder).
-- **Turn 19430:** Switching to Garnet (A).
-- **Situation:** Muscle Fainted. Need a live Pokemon to use Revive.
-- **Gamble:** Hope Aerodactyl uses a status move or misses on the switch-in.
-- **If Garnet faints:** Switch to Kunai.
-- **If Garnet survives:** Use Revive on Muscle immediately.
-- **Turn 19431:** In Bag. Selecting Revive.
-- **Action:** A (Select Revive) -> A (Select USE).
-- **Goal:** Open Party Menu to revive Muscle.
-- **Context:** Garnet is active. Battle is paused in menu.
-- **Next:** Select Muscle -> Confirm Revive. Then Garnet takes the hit.
-- **Turn 19432:** Selecting USE on Revive -> Selecting Muscle.
-- **Method:** slow_press ['A', 'Up', 'A'].
-- **Assumption:** Cursor on Garnet (Slot 2) -> Up to Muscle (Slot 1).
-- **Goal:** Revive Muscle.
-- **Next:** Garnet takes damage (Fodder). If she survives, switch to Muscle. If she faints, send Muscle.
-- **Turn 19433:** Clearing menus (B spam).
-- **Status:** Muscle Revived (107 HP). Garnet active.
-- **Expectation:** Aerodactyl attacks Garnet. Garnet likely faints.
-- **Next:** Switch Muscle (107 HP) in. Resume Rock Smash Attrition.
-- **Turn 19434:** Aerodactyl missed! Garnet survived (81 HP). Muscle is Revived (107 HP).
-- **Plan:** Sacrifice Garnet for safe switch.
-- **Action:** Use Quick Attack (Guaranteed chip damage via priority).
-- **Reasoning:** Garnet is slower than Aerodactyl. Quick Attack hits first. Smokescreen would fail if she dies first.
-- **Outcome:** Garnet deals damage -> Faints -> Muscle enters safely.
-- **Turn 19435:** In Fight Menu. Cursor on LEER.
-- **Action:** Select Quick Attack (Down -> A).
-- **Reasoning:** Garnet (Fodder) uses priority move for guaranteed chip damage before fainting.
-- **Outcome:** Garnet deals small damage -> Aerodactyl attacks -> Garnet likely faints -> Muscle gets safe switch-in.
-- **Muscle Status:** 107 HP. Rock Smash 6 PP.
-- **Turn 19438:** Declined switch. Garnet (Lv29) stays in.
-- **Plan:** Attempt Smokescreen.
-- **Goal:** Lower Dragonite's accuracy to help Muscle survive later.
-- **Expectation:** Garnet likely faints (Fodder). Muscle gets safe switch-in.
-- **Turn 19439:** Cancelled switch (B). Garnet stays in.
-- **Reasoning:** Garnet (81 HP) is already active. Switching Muscle in exposes him to damage. Garnet can try Smokescreen or serve as Hyper Beam fodder to give Muscle a safe entry.
-- **Next:** Fight -> Smokescreen.
-- **Turn 19446:** Garnet active (81/81 HP). Dragonite active.
-- **Action:** Use Smokescreen (Slot 3).
-- **Reasoning:** High risk/reward. If successful, accuracy drop helps Muscle survive later. If Garnet faints first, she did her job as fodder. Quick Attack damage is negligible.
-- **Next:** Switch to Muscle (107 HP) when Garnet faints. Muscle uses Rock Smash (6 PP).
+# Strategy: Zombie Loop
+1. **Sacrifice:** Kunai is active.
+2. **Revive:** Use Revive on Muscle (Priority Item Usage).
+3. **Fodder:** Let Kunai faint.
+4. **Return:** Send Muscle back in (107 HP).
+5. **Attack:** Use remaining Rock Smash PP or Struggle.
+6. **Repeat:** If Muscle faints again, use Gyarados as fodder.
