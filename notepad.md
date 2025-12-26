@@ -40,3 +40,5 @@
 - [Turn 21931] Mistake: Assumed harvesting Apricorns triggered Sighting 3. Correction: Must step on trigger tile.
 - [Turn 21957] Mistake: Mixed directional and action buttons. Result: Action stripped.
 - [Turn 21976] Mystery: Suicune not appearing on Route 42 despite prerequisites (Cianwood, Eusine battle, Clear Bell). Troubleshooting...
+- Prerequisite discovered: Must defeat Wise Trio in Ecruteak City to trigger remaining Suicune sightings (Route 42, Route 36) because Clear Bell is in inventory. [Turn 21977]
+- Task: Travel to Ecruteak City to confront the Wise Trio. [Start Turn 21977]
