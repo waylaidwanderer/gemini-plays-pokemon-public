@@ -78,3 +78,8 @@
 - **Damage Calc:** Jynx (115 SpA) did 94 dmg. Slowbro (100 SpA) will do less (~80). Muscle survives non-crit.
 - **Action:** Strength (80 BP, Neutral). Dig (60 BP) is weaker. Cross Chop/Rock Smash resisted.
 - **Plan:** 2HKO Slowbro. Survive one Psychic.
+- **Turn 19132:** Confirming "NO" to switch (A button).
+- **Next:** Will sends Slowbro.
+- **Action:** Advance text (B spam).
+- **Next Turn:** Select FIGHT -> STRENGTH.
+- **Strategy:** 2HKO Slowbro. Tank one Psychic.
