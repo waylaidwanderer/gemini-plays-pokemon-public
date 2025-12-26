@@ -23,8 +23,9 @@
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
 - **Condition:** Muscle (39/201 HP) is Confused and in critical health.
 - **Action:** Scrolling Bag for Max Potion.
-- **Observation:** Currently at CHARCOAL. Need to scroll further down.
+- **Observation:** Scrolled past MAX REVIVE. Max Potion not yet found.
+- **Hypothesis:** Max Potion is further down the list (possibly acquired recently or sorted differently).
 - **Plan:**
-  1. Scroll down 5 times to reach Max Potion section.
-  2. Use Max Potion.
-  3. Resume battle (Strength vs Golbat).
+  1. Scroll down 5 more times.
+  2. Locate Max Potion.
+  3. Use Max Potion on Muscle.
