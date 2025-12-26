@@ -16,7 +16,7 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Purchase Plan:** Inventory Gaps: 2 Revives, 3 Hyper Potions. Search Status: Clerk 1 (Status/Super only), Clerk 2 (Balls/Revives). Next: Check Directory -> 3F/4F.
+- **Purchase Plan:** 2F is 'Trainer's Market' (Balls/Mail/Status/Revives). No Hyper Potions. Next: Go to 3F to search for Hyper Potions.
 - **Shop Inventory:**
     - 2F Clerk 1 (13,5): Potion, Super Potion, Status Heals.
     - 2F Clerk 2 (13,6): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
