@@ -4,11 +4,11 @@
 - **Tertiary:** Become Champion.
 
 # Battle Status: Lance (Champion)
-- **Opponent:** Dragonite (Lv47).
-- **Active:** Gyarados (Lv35) - 24/114 HP (Fodder).
-- **Reserve:** None (All others fainted).
-- **Fainted:** Muscle, Kunai, Garnet, Zenith, Mistral.
-- **Items:** 6 Revives. No Potions.
+- **Opponent:** Charizard (Lv46).
+- **Active:** Garnet (Lv29) - 40/81 HP (Fodder).
+- **Reserve:** Muscle (Lv65) - 107/215 HP (Revived, Struggle Mode).
+- **Fainted:** Gyarados, Kunai, Zenith, Mistral.
+- **Items:** 4 Revives. No Potions.
 
 # Moveset Status (Muscle)
 - Strength (Normal): 0/15 PP.
