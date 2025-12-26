@@ -43,3 +43,8 @@
 - **Action:** Press A (Select Muscle).
 - **Next:** Revive Gyarados.
 - **Sequence:** B (Clear text) -> B (Exit Party) -> Up/Down to Revive -> Use on Gyarados.
+- **Turn 19264:** Muscle is cured (34/208 HP).
+- **Action:** B (Exit selection).
+- **Next:** Find Revive.
+- **Search:** Scrolling Down x5.
+- **Reasoning:** Revive is likely further down the list. Inventory is manually sorted.
