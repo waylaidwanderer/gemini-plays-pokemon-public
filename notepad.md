@@ -1,45 +1,24 @@
-# Strategic Objectives
-- **Primary:** Challenge the Pokémon League.
-- **Secondary:** Defeat Champion Lance.
-- **Tertiary:** Become Champion.
-
 # Operation: Elemental Upgrade
-1. **Journey to Goldenrod:** (In Progress) Cannot Fly from Kanto routes. Walking to New Bark Town to enable Fly.
-   - Path: Route 26 (South) -> Route 27 (West) -> Tohjo Falls -> New Bark Town.
-2. **Fundraising:**
-   - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
-   - Have: 219.
-   - Sell: HP Up (+4900). Total: 5119.
-   - Sell: 3 Full Heals (+900). Total: ~6019. (Just enough!)
-3. **Shopping:** Buy TM33 (Ice Punch) & TM41 (ThunderPunch).
-4. **Moveset Update:**
-   - **Rock Smash is TM08 in Gen 2!** Can overwrite without Move Deleter.
-   - Overwrite Rock Smash with Ice Punch.
-   - Overwrite Dig with Thunder Punch.
-   - *Final Moveset:* Cross Chop, Strength, Ice Punch, ThunderPunch.
-5. **Return:** Fly back to Indigo Plateau and win.
-
-# Post-Mortem: Lance Attempt #1
-- **Result:** Loss vs Champion Lance.
-- **Key Issues:** Lack of coverage vs Flying/Dragon types. Muscle ran out of PP.
-- **Solution:** Elemental Punches (4x effectiveness vs Dragonite/Gyarados) + Level 65 stats.
+- **Status:** Teaching Ice Punch to Muscle (Replacing Rock Smash).
+- **Completed:**
+    - Traveled Kanto -> Johto.
+    - Sold HP Up & Full Heals (~6000 yen).
+    - Bought TM33 (Ice Punch) & TM41 (ThunderPunch).
+    - Taught ThunderPunch (Replaced Dig).
+- **Next Steps:**
+    1. Finish learning Ice Punch.
+    2. Verify final moveset: Cross Chop, Strength, Ice Punch, ThunderPunch.
+    3. Fly to Indigo Plateau for Rematch.
 
 # Team Status
-- Muscle (Lv65): Carry.
-- Others: Fodder/Pivot.
-- Inventory: 5 Revives, 5 Hyper Potions, 8 Full Heals.
+- Muscle (Lv65): Cross Chop, Strength, ThunderPunch, (Learning Ice Punch).
+- Others: Fodder.
 
 # Tile Mechanics
 - **WALL**: Impassable.
-- **FLOOR**: Passable. Standard movement.
-- **LADDER**: Warp. Transitions between floors.
-- **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
-- **COUNTER**: Impassable. Interact to talk.
-- **PC**: Impassable. Interact to access Storage.
-- **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Teaching TM33 (Ice Punch) to Muscle.
-Plan:
-1. Teach TM33 (Ice Punch) to Muscle (Replacing Rock Smash).
-2. Taught TM41 (ThunderPunch) to Muscle (Replaced Dig).
-   - Note: Elemental Punches are Special in Gen 2, but 4x effectiveness vs Lance's Dragons/Flyers compensates for Machoke's low SpAtk.
-3. Fly to Indigo Plateau.
+- **FLOOR**: Passable.
+- **LADDER/STAIRS**: Warp.
+- **WARP_CARPET**: Warp.
+- **COUNTER**: Impassable. Talk over.
+- **PC**: Impassable. Access storage.
+- **WATERFALL**: HM07 required.
