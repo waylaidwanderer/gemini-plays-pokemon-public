@@ -33,3 +33,9 @@
     - **Cursor:** On PACK.
     - **Action:** Select FIGHT -> Strength.
     - **Plan:** Strength is neutral. Crobat is fast/flying. Tank hit, hit back.
+- **Turn 19217:** Muscle attacked Crobat (Strength).
+- **Result:** Hit despite Double Team. Crobat at ~50% HP.
+- **Opponent Action:** Crobat used Double Team (Evasion +1).
+- **Current State:** Muscle (Full HP) vs Crobat (Yellow HP, +1 Evasion).
+- **Action:** Up (Select FIGHT) -> A (Select) -> A (Strength).
+- **Plan:** Finish it off. High level difference mitigates evasion luck.
