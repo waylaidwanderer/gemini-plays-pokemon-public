@@ -48,3 +48,6 @@
 - **Matchup:** Sneasel vs Exeggutor.
 - **Prediction:** Exeggutor uses Psychic (Immune). Sneasel enters safely.
 - **Next Turn:** Use Shadow Ball (Super Effective) or Screech.
+- **Turn 19123:** Confirming switch to Kunai (Sneasel).
+- **Strategy:** Sneasel absorbs Psychic (Immune).
+- **Follow-up:** Sneasel uses Shadow Ball (Super Effective) or Screech. If Sneasel faints, Muscle returns to finish.
