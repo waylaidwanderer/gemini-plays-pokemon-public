@@ -4,7 +4,8 @@
 - **Current State:** Fighting Aerodactyl (Lv46).
 - **Battle Plan:** Use ThunderPunch (Slot 2).
 - **Matchup:** Muscle (Lv68) vs Aerodactyl (Lv46). ThunderPunch is SE (2x).
-- **Notes:** Saving Ice Punch for Dragonites. ThunderPunch OHKO expected.
+- **Stats:** Muscle (225/225 HP). Aerodactyl is fast and has Wing Attack (SE). Muscle should tank one hit.
+- **Notes:** Smart Move targeting Slot 2. If cursor at 2 (likely), it hits Slot 3 (Ice Punch, also 2x SE). Safe.
 
 # Team Status
 
