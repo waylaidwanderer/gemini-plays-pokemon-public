@@ -64,3 +64,7 @@
 - **Battle Plan:** Muscle (108 HP) vs Exeggutor (~60% HP).
 - **Action:** Use Strength.
 - **Prediction:** Muscle outspeeds and KOs Exeggutor.
+- **Turn 19129:** Muscle is active. Main Menu Open.
+- **Action:** Selected STRENGTH.
+- **Reasoning:** Fighting moves are resisted by Psychic. Ground is resisted by Grass. Normal (Strength) is neutral and our strongest option.
+- **Prediction:** Exeggutor takes heavy damage/faints. Muscle likely takes a Psychic if Exeggutor survives.
