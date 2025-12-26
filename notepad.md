@@ -36,4 +36,6 @@
 - **Strategy:** Resuming navigation to 1F East Corridor (x=18).
 - **Path:** Loop South to (3, 56), East to (15, 56), then North to (18, 51).
 - **Goal:** Explore North of (18, 51) for missed ladder.
-- **Encounter:** Wild Golbat at (7, 56).
+- **Correction:** 2F is NOT fully explored. I visited (11, 40) on 2F East to get the HP Up but then backtracked.
+- **Realization:** 2F West (Ladder) connects to 2F East via the path at y=36.
+- **Strategy:** Return to Ladder at (1, 49). Ascend to 2F. Navigate from (1, 35) -> (5, 37) -> (9, 36) -> East to unexplored area (x>11).
