@@ -14,5 +14,6 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Navigate:** Head North/East to finding the door to the Elite Four (likely past the counter or in the back wall).
+1.  **Navigate:** Walk up the corridor on the right (x=16) to the door.
 2.  **Challenge:** Enter and defeat Will.
+3.  **Battle Strategy:** Use Muscle (Strength/Cross Chop). If Will uses Psychics, switch to Sneasel (Shadow Ball).
