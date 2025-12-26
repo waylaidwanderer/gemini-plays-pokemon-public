@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** Fighting Hitmontop (Vulnerable).
-- **Battle Plan:** Use Strength. He just surfaced from Dig.
+- **Current State:** About to fight Hitmonlee.
+- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def).
 
 # Team Status
 - Muscle (Lv67): 208/222 HP.
