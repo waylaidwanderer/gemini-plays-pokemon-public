@@ -47,3 +47,5 @@
 - **Turn 19324:** Pressed A to select 'USE'. Party menu opening. Target: Muscle (Slot 1). Only valid target for Revive.
 - **Turn 19325:** Moving cursor from Mistral (Slot 6) to Muscle (Slot 1).
 - **Next:** Confirm Revive on Muscle. Then wait for Mistral to faint.
+- **Turn 19326:** Used Revive on Muscle. Muscle restored to 105/211 HP (50%).
+- **Next:** Exit menus, let Mistral faint, switch Muscle in.
