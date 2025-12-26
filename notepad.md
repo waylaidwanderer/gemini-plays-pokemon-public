@@ -6,7 +6,7 @@
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. [Verified]
 - CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. [Verified]
 - WARP_CARPET: Traversable. Triggers map transition. [Verified]
-- DOOR/STAIRS/CAVE: Warp point. [Verified]
+- CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 - FLOOR_UP_WALL: Impassable from below. [Verified]
@@ -34,6 +34,7 @@
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective]
+     - Start: Turn 23905 (Approx), Dec 26, 3:20 PM.
   4. Route 36 (Sudowoodo junction): [Pending]
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1).
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
