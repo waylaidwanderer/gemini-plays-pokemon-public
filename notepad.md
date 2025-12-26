@@ -27,7 +27,7 @@
     - How: Enter Tin Tower 1F via the NE Barrier Station in Ecruteak City. Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Note: Scripted sightings are sprite-based. If Suicune is not at Route 42, re-verify previous steps or check for missed triggers.
-- Current Status: Island grove thoroughly explored. No Suicune sprite found. NPC troubleshooter suggests Cianwood trigger might be the issue. [Turn 22293]
+- Current Status: Island grove thoroughly explored. No Suicune sprite found. Checking Route 36 junction. [Turn 22308]
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
