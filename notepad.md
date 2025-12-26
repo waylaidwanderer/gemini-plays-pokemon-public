@@ -11,7 +11,10 @@
 - **Items:** 6 Revives. No Potions.
 
 # Moveset Status (Muscle)
-- All moves 0 PP. (Target: Struggle).
+- Strength (Normal): 0/15 PP.
+- Dig (Ground): 0/10 PP.
+- Rock Smash (Fighting): 1/15 PP. (Target: Burn this).
+- Cross Chop (Fighting): 0/5 PP.
 
 # Strategy: Zombie Loop (Phase 2)
 1. **Sacrifice:** Gyarados is active. Dragonite recharging (Free turn!).
