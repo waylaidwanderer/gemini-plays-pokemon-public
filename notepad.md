@@ -63,3 +63,7 @@
 - **Reasoning:** Dragonite KO'd Zenith with Hyper Beam last turn. It MUST recharge this turn. Free hit.
 - **Status:** Muscle Full HP. Rock Smash 9 PP.
 - **Plan:** Grind Dragonite down with Rock Smash drops.
+- **Turn 19407:** Cursor confirmed on Rock Smash (Slot 3).
+- **Action:** Press A to Execute.
+- **Context:** Dragonite is recharging from the Hyper Beam that KO'd Zenith.
+- **Status:** Free hit. Muscle (Full HP) vs Recharge.
