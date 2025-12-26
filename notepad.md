@@ -84,3 +84,6 @@
 - **Plan:** Attempt Smokescreen.
 - **Goal:** Lower Dragonite's accuracy to help Muscle survive later.
 - **Expectation:** Garnet likely faints (Fodder). Muscle gets safe switch-in.
+- **Turn 19439:** Cancelled switch (B). Garnet stays in.
+- **Reasoning:** Garnet (81 HP) is already active. Switching Muscle in exposes him to damage. Garnet can try Smokescreen or serve as Hyper Beam fodder to give Muscle a safe entry.
+- **Next:** Fight -> Smokescreen.
