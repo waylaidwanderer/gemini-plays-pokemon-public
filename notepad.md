@@ -72,3 +72,6 @@
 - **Action:** Select FIGHT -> Quick Attack.
 - **Reasoning:** Gyarados is recharging (free turn). Mistral gets a free hit (negligible damage) to pass the turn.
 - **Next Turn:** Gyarados will likely KO Mistral. This gives Muscle a safe switch-in.
+- **Turn 19365:** Mistral uses Quick Attack.
+- **Expectation:** Gyarados recharges (unable to move). Mistral survives this turn.
+- **Next:** Gyarados attacks Mistral (likely KO). Muscle switches in safely.
