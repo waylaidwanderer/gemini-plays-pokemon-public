@@ -36,3 +36,7 @@
 - **Prediction:** Jynx attacks (Muscle survives ~14 HP). Strength kills Jynx.
 - **Turn 19119:** Menu confirmed open. Selecting STRENGTH.
 - **Contingency:** If Muscle faints (Crit), send **Sneasel** (Immune to Psychic, Resists Ice). Use Shadow Ball.
+- **Turn 19120:** Declined switch. Will sending Exeggutor.
+- **Matchup:** Muscle (108/205) vs Exeggutor (Lv 41).
+- **Analysis:** Muscle outspeeds (88 vs ~55). Strength is neutral. Exeggutor has high Sp.Atk (Psychic is dangerous).
+- **Plan:** Strength. Hoping for OHKO. If not, pray to survive Psychic or use Sneasel as pivot to revive.
