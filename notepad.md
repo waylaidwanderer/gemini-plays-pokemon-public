@@ -177,3 +177,7 @@
 - **Sequence:** A (Select Item) -> A (Select Use) -> A (Select Muscle).
 - **Status:** Muscle 97/205 -> 205/205.
 - **Next:** Muscle heals. Xatu attacks. Muscle (Confused) attacks next turn.
+- **Turn 19156:** Cleared heal text.
+- **Next:** Xatu attacks.
+- **Status:** Muscle Full HP (Confused).
+- **Goal:** Survive attack -> Attack with Strength next turn.
