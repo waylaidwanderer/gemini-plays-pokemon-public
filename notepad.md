@@ -41,3 +41,7 @@
 - **Turn 19185:** Healing Sequence.
 - **Action:** B (Clear Text), B (Exit Party), Down x5 (Search for Hyper Potion).
 - **Goal:** Locate Hyper Potion in bag.
+- **Turn 19186:** Navigation Error Correction.
+- **Observation:** Accidental exit to Pause Menu. Cursor on EXIT.
+- **Action:** Up x5 (Navigate to Pack) -> A (Select Pack).
+- **Goal:** Return to Bag to heal Muscle.
