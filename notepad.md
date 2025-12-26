@@ -18,7 +18,7 @@
 - Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 
 # Side Quests
-- Arthur (Route 36): Thursday only. Gives Hard Stone. (Current Attempt: Turn 21127, Thursday 5:28 PM). Previous sighting at (46, 7).
+- Arthur (Route 36): Thursday only. Gives Hard Stone. Failed attempt (Turn 21127-21134): Repeats intro loop, no item given. missing unknown trigger.
 - Clear Bell: In Key Items.
 
 # Lessons Learned
