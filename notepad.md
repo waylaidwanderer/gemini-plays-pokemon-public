@@ -53,3 +53,10 @@
 - (27, 16): Berry Tree (Turn 21682)
 - Route 42 Island Sweep: Ended Turn 22640. Result: Suicune not found. Systematic search of both levels complete. Moving to Route 36.
 - Preparation: Healing at Violet City PC complete. Gastly's Mean Look PP restored (5/5). Moving to Route 36.
+
+# Suicune Hunt - Route 36 Plan
+- Current Location: Violet City (26, 24).
+- Goal: Reach Sudowoodo junction at (35, 9) on Route 36.
+- Path: Exit Violet City at (0, 9).
+- Expected Outcome: Suicune sighting and flight.
+- Note: Systematic search of Route 42 island (Turns 22580-22640) confirmed Suicune is not there. Prerequisite (Clear Bell) is met.
