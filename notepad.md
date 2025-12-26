@@ -3,13 +3,12 @@
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Sighting 3 (Route 42): 
     - Verified in Pokedex at Turn 21303 (Dec 25, 6:58 PM).
-    - Status: Visited island FLOOR tiles. Sprite did NOT appear.
+    - Status: Visited ALL FLOOR tiles on the island. Sprite did NOT appear.
     - Attempted trigger tiles: (24,14)-(27,14), (25,15)-(30,15), (26,16), (30,16), (26,17)-(30,17).
-    - New Hypothesis: Trigger requires walking specifically between/near Apricorn trees at (27,16)-(29,16).
-    - Plan: Re-verify Pokedex (S is before T), then sweep south island tiles.
-- Milestones:
-    - Team Rocket disbanded at Turn 19500.
-    - Clear Bell obtained at Turn 21217.
+    - Started Route 42 Island Sweep at Turn 21330.
+    - Hypothesis: Specific trigger tile required on the island.
+    - Plan: Walk on all island FLOOR tiles. Remaining: None. Re-entering Route 42 from Mt. Mortar (Turn 21349) failed to reset sprite.
+    - New Hypothesis: Sighting 3 was triggered earlier (maybe during the Surfing or Cutting) and I missed the animation. Checking Pokedex AREA map to see if it moved to Route 38.
 - Lessons Learned:
     - Pokedex Navigation: Alphabetical order check! S is before T. Scroll UP from Togepi to find Suicune.
     - Scripted vs Roaming: Suicune is scripted until Sighting 5. Pokedex "AREA" dot for Suicune is reliable during sightings.
@@ -19,8 +18,9 @@
 - FLOOR: Standard traversable ground. [Verified]
 - WALL: Impassable barrier (cliffs, rocks). [Verified]
 - WATER: Requires SURF to traverse. [Verified]
-- HEADBUTT_TREE: Can be interacted with via Headbutt. [Verified]
+- HEADBUTT_TREE: Impassable, interaction only. [Verified]
 - CUT_TREE: Impassable until removed with CUT. [Verified]
+- FRUIT_TREE: Impassable, interaction only. [Verified]
 
 # Side Quests
 - Week Siblings: Arthur (Thursday) on Route 36 (45, 6). Status: Loop (missing prerequisites).
