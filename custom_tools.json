@@ -260,7 +260,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport re\n\ndef menu_navigator():\n    screen_text = input_data['screen_text']\n    target = input_data['target']\n    \n    def normalize(s):\n        return re.sub(r'[^a-zA-Z0-9]', '', s).lower()\n\n    target_norm = normalize(target)\n    lines = screen_text.split('\\n')\n    \n    target_idx = -1\n    for i, line in enumerate(lines):\n        if target_norm in normalize(line):\n            target_idx = i\n            break\n            \n    if target_idx == -1:\n        print(json.dumps([f\"Error: Target '{target}' not found in screen text.\"]))\n        return\n\n    cursor_idx = -1\n    for i, line in enumerate(lines):\n        if any(c in line for c in ['▶', '>', '▶']):\n            cursor_idx = i\n            break\n            \n    if cursor_idx == -1:\n        print(json.dumps([\"Error: Cursor not found.\"]))\n        return\n\n    diff = target_idx - cursor_idx\n    \n    # In Crystal main menus, items are 2 lines apart. In Bag/Pokedex, they are 1.\n    spacing = 1\n    if \"POKEDEX\" in screen_text.upper():\n        spacing = 2\n        \n    steps = abs(diff) // spacing\n    btn = 'Down' if diff > 0 else 'Up'\n    \n    buttons = [btn] * steps\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nmenu_navigator()",
+    "python_script": "import json\nimport re\n\ndef menu_navigator():\n    screen_text = input_data['screen_text']\n    target = input_data['target']\n    \n    def normalize(s):\n        # Replace common special characters with their base letters\n        s = s.replace('é', 'e').replace('É', 'e')\n        # Remove everything except lowercase letters and numbers\n        return re.sub(r'[^a-z0-9]', '', s.lower())\n\n    target_norm = normalize(target)\n    lines = screen_text.split('\\n')\n    \n    target_idx = -1\n    for i, line in enumerate(lines):\n        if target_norm in normalize(line):\n            target_idx = i\n            break\n            \n    if target_idx == -1:\n        print(json.dumps([f\"Error: Target '{target}' not found in screen text.\"]))\n        return\n\n    cursor_idx = -1\n    for i, line in enumerate(lines):\n        # Match various cursor symbols\n        if any(c in line for c in ['▶', '>', '▷']):\n            cursor_idx = i\n            break\n            \n    if cursor_idx == -1:\n        print(json.dumps([\"Error: Cursor not found.\"]))\n        return\n\n    diff = target_idx - cursor_idx\n    \n    # Detect spacing dynamically\n    spacing = 1\n    if abs(diff) >= 2:\n        mid_idx = (target_idx + cursor_idx) // 2\n        mid_line = lines[mid_idx]\n        mid_norm = normalize(mid_line)\n        if mid_norm == \"\":\n            spacing = 2\n        elif \"|\" in mid_line or \"│\" in mid_line:\n            if not any(c.isalnum() for c in mid_norm):\n                spacing = 2\n\n    steps = abs(diff) // spacing\n    btn = 'Down' if diff > 0 else 'Up'\n    \n    buttons = [btn] * steps\n    buttons.append('A')\n    print(json.dumps(buttons))\n\nmenu_navigator()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -271,6 +271,11 @@
         "commit_message": "Update menu_navigator_v2_fixed to normalize text (ignoring special characters like 'é') and detect menu spacing more reliably.",
         "timestamp": "2025-12-26T12:12:41.020Z",
         "action_counter": 22532
+      },
+      {
+        "commit_message": "Refine menu_navigator_v2_fixed to better handle special characters like 'é' and detect menu spacing dynamically.",
+        "timestamp": "2025-12-26T12:23:25.396Z",
+        "action_counter": 22559
       }
     ]
   },
