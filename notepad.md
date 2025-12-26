@@ -36,3 +36,5 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
+- Phone Call: Gaven (Cooltrainer) wants to battle on Route 26.
+- Status: Moving South to exit Route 23 and find a valid Fly location (Route 26).
