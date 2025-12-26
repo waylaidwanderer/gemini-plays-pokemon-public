@@ -1,7 +1,8 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
-- **Action:** In Dialogue with Lance.
-- **Plan:** Defeat Champion Lance.
+- **Action:** Battling Champion Lance.
+- **Current State:** Battle Start. Waiting for Lance's lead (Gyarados).
+- **Plan:** Use ThunderPunch on Gyarados.
 - **Matchup:** Muscle (Lv68) vs Lance's Team.
 - **Strategy:** ThunderPunch for Gyarados/Charizard. Ice Punch for Dragonites/Aerodactyl.
 
