@@ -30,11 +30,7 @@
 - **Plan B:** Surf from New Bark Town to Route 27 -> Tohjo Falls -> Victory Road.
 - **Reflection (Turn 20151):** Reviewed state. Markers accurate. Tools sufficient. Cleared old observation logs.
 - **Observation:** Row of ledges at Y=23 blocks Northward movement on the left side. Must navigate East to X=12 to proceed North.
-- **Observation:** Encountered Wild Golbat at (7, 62). Fleeing.
-- **Observation:** Encountered Wild Graveler at (7, 61). Fleeing.
-- **Observation:** Encountered Wild Graveler at (12, 58). Fleeing.
-- **Observation:** Encountered Wild Onix at (6, 56). Fleeing.
-- **Observation:** Encountered Wild Rhyhorn at (3, 55). Fleeing.
+
 - **Observation:** Persistent Rhyhorn encounter at (3, 55). Fleeing again.
 - **Observation:** Encountered Wild Onix at (3, 56). Fleeing.
 - **Observation:** Encountered Wild Onix at (9, 54). Fleeing.
