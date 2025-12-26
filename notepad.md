@@ -60,3 +60,7 @@
 - **Turn 19337:** Using Strength (Slot 1).
 - **Reasoning:** Fighting moves are Neutral vs Dark/Flying. Dig is Immune. Strength is reliable neutral damage.
 - **Matchup:** Muscle (87/211 HP) vs Murkrow. Muscle is safe.
+- **Turn 19337 Result:** Murkrow defeated.
+- **Incoming:** Houndoom (Lv47).
+- **Decision:** Stay in. Muscle (87/211 HP).
+- **Strategy:** Cross Chop (1 PP left). It's Super Effective. If it hits, OHKO. If miss/faint -> Zombie Plan. Gyarados (Lv35) is too low level to tank hits.
