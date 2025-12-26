@@ -16,14 +16,12 @@
 - Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 
 # Plan: Find Suicune on Route 38
-- Objective: Trigger Sighting 4.
 - Strategy:
   1. Check Pokedex AREA map for the exact location dot.
   2. Navigate to the blinking dot on Route 38.
-  3. Look for the Suicune overworld sprite.
 
 # Side Quests
-- Arthur (Route 36): Thursday only. Gives Hard Stone. (Check today!)
+- Arthur (Route 36): Thursday only. Gives Hard Stone at (15, 7).
 - Clear Bell: In Key Items.
 
 # Lessons Learned
@@ -31,3 +29,5 @@
 - Pathfinding: Avoid find_path_v2 near warps to prevent accidental entry. Walk final tiles manually.
 - Collision Verification: Some WALL-labeled tiles (like Route 38 (3, 9)) are traversable. Test everything.
 - Sprite Identification: Verify sprites before assuming (e.g. Beauty vs Suicune).
+- Pokedex Tracking: Suicune is stationary in scripted spots; the blinking dot is the target. Use Alphabetical mode for faster searching.
+- Week Siblings: Arthur (Thursday) is on Route 36 near the Ruins of Alph path.
