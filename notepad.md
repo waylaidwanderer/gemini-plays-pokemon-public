@@ -1,33 +1,28 @@
 # Strategy: Suicune Hunt (Johto)
-- Objective: Trigger scripted flee event (Sighting 3) on Route 42 island.
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Sweep Progress:
-    - Turn 21441: Starting grid search of island floor. Start Turn: 21441.
-- Strategy: Systematically step on every FLOOR tile of the Route 42 central island.
+- Strategy: Surf to the central island (Y=16) and walk on the floor tiles to trigger the Sighting 3 flee event.
 - Observations:
     - Turn 21433: Pokedex AREA map shows Suicune blinking on Route 42.
-    - Turn 21434: Arrived on island floor. Sprite missing. Trigger tile required.
+    - Turn 21451: Realized I was sweeping the northern land strip instead of the central island.
 - Lessons Learned:
     - Pokedex: Alphabetical (A-Z). Suicune follows Sudowoodo.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks the current scripted location.
     - Animation: Sprite flees with a visible jump. If no jump seen, event is not complete.
+    - Location: Route 42 Suicune is on the southern Apricorn island, not the northern path.
 
-## Tile Mechanics
-### Route 42
-- FLOOR: Standard ground. [Verified]
+# Tile Mechanics
+- FLOOR: Traversable. Standard ground. [Verified]
 - WALL: Impassable. [Verified]
-- WATER: Requires SURF. [Verified]
-- HEADBUTT_TREE: Impassable, interaction only. [Verified]
-- CUT_TREE: Impassable until CUT. [Verified]
-- FRUIT_TREE: Impassable, interaction only. [Verified]
-
-### Mount Mortar
-- FLOOR: Standard ground. [Verified]
-- WALL: Impassable. [Verified]
-- WATER: Requires SURF. [Verified]
-- LADDER: Warp. [Verified]
+- WATER: Traversable via Surf. [Verified]
+- HEADBUTT_TREE: Impassable. Interaction triggers Headbutt. [Verified]
+- CUT_TREE: Impassable. Interaction triggers Cut. [Verified]
+- FRUIT_TREE: Impassable. Interaction gives Apricorn/Berry. [Verified]
+- TALL_GRASS: Traversable. Wild encounters. [Verified]
+- CAVE: Warp. [Verified]
+- WARP_CARPET_LEFT: Warp. [Verified]
 - WARP_CARPET_DOWN: Warp. [Verified]
-- FLOOR_UP_WALL: Impassable ledge. [Verified]
+- LADDER: Warp. [Verified]
+- FLOOR_UP_WALL: Impassable. Ledge that can be jumped over from above. [Verified]
 
 # PC Inventory
 - Pokémon: Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
