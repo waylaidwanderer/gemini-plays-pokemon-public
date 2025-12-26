@@ -5,7 +5,7 @@
 - **Next Step:** Board S.S. Aqua -> Vermilion City (Kanto).
 
 # Team Status
-- **Muscle (Machoke)**: Lv69. MVP. Needs healing.
+- **Muscle (Machoke)**: Lv69. MVP.
 - **Garnet (Quilava)**: Lv29.
 - **Gyarados**: Lv35.
 - **Kunai (Sneasel)**: Lv24.
