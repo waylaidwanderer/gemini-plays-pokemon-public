@@ -51,3 +51,7 @@
 - **Turn 19189:** Selecting Muscle for Super Potion 1.
 - **Action:** Up x3 (Select Muscle) -> A (Use).
 - **Next:** Confirm heal message -> Use Super Potion 2 on Muscle.
+- **Turn 19190:** Muscle recovered 50 HP (172/205).
+- **Action:** B (Clear Text), A (Use Super Potion on Muscle again).
+- **Goal:** Top off Muscle's HP.
+- **Next:** Heal Kunai (32/65 HP).
