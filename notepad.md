@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Indigo Plateau Lobby.
-- **Party:** Healthy. Muscle (Lv61) leading.
+- **Party:** Healthy. Gyarados leading (Need to switch to Muscle).
 - **Inventory:** 6 Hyper Potions, 10 Revives, 2 Full Restores.
 - **Money:** Low (¥589).
 
@@ -14,6 +14,6 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Navigate:** Explore the path on the East side (x=16) to find the Elite Four entrance.
-2.  **Setup:** Check team order before entering.
-3.  **Challenge:** Defeat the Elite Four.
+1.  **Menu:** Open Party menu and switch Muscle (Slot 3) to Slot 1 (Lead).
+2.  **Navigate:** Head East (Right) to find the Elite Four entrance.
+3.  **Challenge:** Enter and defeat Will.
