@@ -105,3 +105,7 @@
 - **Goal:** Revive Muscle.
 - **Context:** Muk active. Gyarados active.
 - **Next:** Find Revive -> Use on Muscle.
+- **Turn 19235:** Selecting Muscle to Revive.
+- **Action:** Up x2 (Select Muscle) -> A (Use Revive).
+- **Result:** Muscle revived to 50% HP.
+- **Next:** Gyarados tanks Muk's attack. Then decide: Switch to Muscle or Attack.
