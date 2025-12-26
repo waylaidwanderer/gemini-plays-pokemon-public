@@ -36,5 +36,7 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: In Victory Road (Exit Section). Final stretch: (4, 64) -> (9, 67).
+- Status: In Victory Road Gate (23_13). Heading South to Route 26.
+- Goal: Exit building to Fly to Goldenrod City.
+- Item detected: Poke Ball at (18, 29) (Victory Road, unreachable).
 - Note: Rhyhorn and Golbat encounters delayed progress. Resuming exit path.
