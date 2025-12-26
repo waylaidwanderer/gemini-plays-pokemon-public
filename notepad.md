@@ -39,7 +39,7 @@
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
 - Current Status: Traversing Victory Road Southbound to reach Route 23/26.
-- Exploration: Exiting Victory Road via ledge at (2, 61) to reach Route 23 exit at (9, 67).
+- Exploration: Exited Victory Road. Currently in Victory Road Gate (23_13). Heading South to Route 26 to Fly.
 - Goal: Reach Indigo Plateau/Route 23 to fly.
 - Item detected: Poke Ball at (18, 29) (Currently unreachable).
 - Note: Victory Road is a single map ID (3_91) with disconnected sections. I am now in the final section leading to the exit.
