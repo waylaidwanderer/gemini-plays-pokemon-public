@@ -6,8 +6,8 @@
 
 # Current Status (Turn 18801)
 - **Battle:** Cooltrainer Jake (Golduck Defeated).
-- **Event:** Muscle grew to Lv61. Trying to learn Submission.
-- **Action:** Rejecting Submission (Inferior to Cross Chop).
+- **Event:** Muscle grew to Lv61. Rejecting Submission (Inferior to Cross Chop).
+- **Action:** Confirming 'NO' to replace move.
 - **Location:** Route 26 (12, 24).
 - **Next:** Finish battle. Continue North.
 
