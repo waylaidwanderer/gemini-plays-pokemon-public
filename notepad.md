@@ -1,4 +1,4 @@
-# Global Tile Mechanics
+# Tile Mechanics
 - FLOOR: Traversable. [Verified]
 - WALL: Impassable. [Verified]
 - WATER: Traversable via Surf (Ravioli). [Verified]
@@ -12,23 +12,24 @@
 - DOOR: Traversable, triggers map transition. [Verified]
 - TALL_GRASS: Traversable, triggers wild encounters. [Verified]
 
-# Suicune Hunt (Crystal Version)
-- Sighting 1: Burned Tower (Complete)
-- Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island Grove.
-    - Strategy: Use Surf to reach island, use Cut to enter grove. Perform 100% tile coverage sweep.
-    - Status: Island sweep complete (Turn 22782). No trigger.
-    - Hypothesis: Trigger is on the water surrounding the island or the eastern path toward Mahogany Town.
-- Sighting 4: Route 36 (Sudowoodo junction). Status: Locked until Sighting 3 is cleared.
-- Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell (Obtained).
-- Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
+# Suicune Sighting Log (Crystal)
+- Sighting 1: Burned Tower (Complete). Legendary beasts fled.
+- Sighting 2: Cianwood City (Complete). Suicune fled; defeated Eusine.
+- Sighting 3: Route 42 (In Progress). 
+    - Objective: Trigger Suicune on the central island.
+    - Status: Island surface swept (Turn 22782) - No trigger.
+    - Next Steps: Sweep water tiles surrounding the island and the eastern land path. Verify Pokedex 'AREA' again.
+- Sighting 4: Route 36 (Sudowoodo junction). Locked.
+- Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
+
+# Suicune Battle Strategy
+- Target: Level 40.
+- Sleep: XENON (Hypnosis) or KIMCHI (Sleep Powder).
+- Weaken: GNEISS (Strength/Rollout) or Calcifer (Headbutt/Thunderpunch).
+- Prevent Fleeing: XENON (Mean Look).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
-
-# Lessons Learned & Failures
-- FLY Map Navigation: Attempted to move cursor with D-pad without success. FLY map cursor movement is not 1:1 with D-pad presses and may require specific logic or repeated inputs.
-- Suicune Trigger Hypothesis (Route 42): Sighting 3 is triggered by approaching the central island area. Exhaustive island sweep failed. Next: Check water and eastern land path.
 
 # Area Mechanics & Warps
 ## Ecruteak City (4_9)
@@ -48,16 +49,8 @@
 - (40, 10): ☠️ Fisher Tully
 - (47, 8): ☠️ Pokemaniac Shane
 - (49, 9): ☠️ Hiker Benjamin
-- (4, 10), (7, 5), (45, 9), (54, 8): 🪧 Signs
-
-## Route 36 (10_3)
-- (35, 9): Sudowoodo junction. Sighting 4 location.
-- "WEIRD_TREE" tiles (Sudowoodo) require Squirtbottle if blocking path.
-
-## Violet City (10_5)
-- (27, 23): Ledge gap. Allows passage north without hopping the ledge.
 
 # Timestamps
-- Suicune Hunt (Phase 3/4): Started Turn 22256.
-- Pokedex Check (Turn 22799): 'AREA' shows 'SUICUNE'S NEST' over the Johto map, but no blinking roaming tiles are present. This confirms Sighting 3 (Route 42) has not been triggered yet, as Suicune only roams after Sighting 3.
-- Hypothesis update: Sighting 3 trigger on Route 42 is likely on the eastern path or specific water tiles, as the central island sweep was unsuccessful.
+- Suicune Hunt Phase 3 (Route 42): Started Turn 22256.
+- Island Sweep Failed: Turn 22782.
+- Pokedex 'Nest' Confirmation: Turn 22799. Area shows Route 42.
