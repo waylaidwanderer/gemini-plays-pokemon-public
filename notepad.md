@@ -26,7 +26,7 @@
 - **Milestone:** Registered Cooltrainer Gaven.
 - **Current:** Navigating North towards Victory Road.
 
-# Current Status (Turn 18843)
-- **Status:** Muscle Lv61 (165/201). Finishing call with Wade.
+# Current Status (Turn 18848)
+- **Status:** Muscle Lv61 (165/201). Call complete.
 - **Location:** Route 26 (13, 11).
-- **Next:** Finish call. Navigate to (9, 8) to explore West path to Item.
+- **Next:** Navigate to (9, 8). Explore path to Item. Then check House at (7, 5).
