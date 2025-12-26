@@ -53,3 +53,8 @@
 - **Strategy:** "Rock Smash Attrition". Dragonite is at -3 Defense. Even resisted hits will add up.
 - **Status:** Muscle Full HP. 9 PP left on Rock Smash.
 - **Note:** Max Revive failure confirmed (Gen 2 mechanic). We grind from here.
+- **Turn 19405:** Dragonite finished recharging.
+- **Action:** Select Rock Smash.
+- **Method:** Press A (Fight) -> A (Select Move, assuming cursor memory on Rock Smash).
+- **Expectation:** Dragonite attacks (Hyper Beam/Wing Attack/Thunder Wave). Muscle uses Rock Smash.
+- **Note:** If "No PP" appears, cursor was reset. Will correct next turn.
