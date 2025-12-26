@@ -45,3 +45,8 @@
 - **Correction:** B (Back) -> Down (PACK) -> A (Select).
 - **Goal:** Open Pack to use Revive on Muscle.
 - **Priority:** Items act before attacks. Revive Muscle NOW. Garnet will take the hit afterwards.
+- **Turn 19427:** Input truncated last turn (only 'B' processed).
+- **Current State:** Main Battle Menu. Cursor on FIGHT.
+- **Action:** Select PACK.
+- **Goal:** Use Revive on Muscle (Priority move).
+- **Outcome:** Muscle revives. Garnet takes the hit (fodder).
