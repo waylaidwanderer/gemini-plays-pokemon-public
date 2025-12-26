@@ -20,7 +20,7 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Fled Graveler at (12, 35).
-- **Observation:** Discovered a new Ladder at (13, 31).
-- **Plan:** Navigate North to (12, 31).
-- **Decision:** Check if path continues East to the ladder at (17, 33). If blocked, take the ladder at (13, 31).
+- **Status:** At 2F East, Corridor x=12.
+- **Observation:** North (Row 27) and East (x=14) are blocked by walls.
+- **Decision:** Taking Ladder at (13, 31).
+- **Hypothesis:** This ladder leads to 3F or an isolated section of another floor that eventually connects to the exit.
