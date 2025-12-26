@@ -5,10 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Interaction:** Registered Cooltrainer Gaven.
+- **Interaction:** Battle and Registration with Cooltrainer Gaven complete.
 - **Status:** Muscle Lv60 (162/198). Team healthy.
-- **Location:** Route 26 (9, 39).
-- **Next:** Navigate North (Keep Left to avoid walls). Reach Victory Road.
+- **Location:** Route 26 (6, 35).
+- **Next:** Navigate North to Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
