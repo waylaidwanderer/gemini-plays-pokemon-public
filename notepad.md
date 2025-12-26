@@ -6,8 +6,8 @@
 
 # Current Status (Turn 18801)
 - **Battle:** Fighting Cooltrainer Jake (Golduck).
-- **Matchup:** Switching Gyarados -> Muscle (Machoke Lv60).
-- **Action:** Switching to Muscle to overpower Golduck.
+- **Matchup:** Muscle (Machoke Lv60) vs Golduck.
+- **Action:** Using Strength (Slot 1).
 - **Location:** Route 26 (12, 24).
 - **Next:** Defeat Cooltrainer Jake. Continue North.
 
