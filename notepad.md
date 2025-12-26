@@ -1,8 +1,8 @@
 # Operation: Elemental Upgrade
-- **Status:** Inside Victory Road (2F - Secluded Room).
-- **Plan:** Return to 1F via ladder at (1, 35).
-- **Reason:** Current room appears to be a dead end (ledge landing zone). The main path must be on 1F, likely crossing the potential ramp at (12, 52).
-- **Next Step:** Navigate to (12, 52) on 1F and attempt to cross North.
+- **Status:** Inside Victory Road (1F).
+- **Plan:** Verify path at (12, 52).
+- **Path:** (1, 49) -> (3, 56) -> (7, 56) -> (12, 54) -> (12, 52).
+- **Goal:** Cross North past ledges.
 - **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
 - **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
