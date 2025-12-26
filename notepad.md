@@ -130,3 +130,7 @@
 - **Next:** Select Muscle -> Heal.
 - **Note:** Muscle will heal to 200+. Poison remains.
 - **Strategy:** Muscle must survive the turn (Dig avoids attack).
+- **Turn 19245:** Using Hyper Potion on Muscle.
+- **Action:** Press A.
+- **Result:** Muscle heals to full (208/208). Poison persists.
+- **Next:** Back out of menus -> End turn (Muk attacks).
