@@ -23,7 +23,6 @@
     - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
 - Sighting 3 (Current Goal): Route 42 Central Island.
     - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune should appear as a sprite and flee.
-    - Status: Missing trigger. If not on island, check Cianwood for missed Eusine dialogue.
 - Sighting 4: Route 36 (Sudowoodo junction).
     - How: Approach the junction at (35, 9) after the Route 42 sighting.
 - Sighting 5: Tin Tower 1F (Final Battle).
