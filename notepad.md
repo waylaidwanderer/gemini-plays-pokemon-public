@@ -49,3 +49,5 @@
 - Pokedex Status: Suicune confirmed on Route 42.
 - Expert Advice: approach from the east side of the Apricorn trees. Possible map script reset needed (enter/exit Mt. Mortar).
 - Plan: Exit menu -> Move to (30, 16) -> Approach trees from the east. If fails, enter/exit Mt. Mortar (28, 9) and repeat.
+- Failed Attempt 3: Approached (26, 14) from the east (y=15 line). No trigger.
+- Next: Resetting map script via Mt. Mortar (28, 9).
