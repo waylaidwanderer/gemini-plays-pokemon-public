@@ -18,9 +18,10 @@
 # Plan: Find Suicune on Route 38
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Strategy:
-  1. Use Super Repel.
-  2. Navigate to the western side of Route 38, near the ledge by Moomoo Farm (Route 39 border).
-  3. Look for the Suicune overworld sprite (Sighting 4).
+  1. Use Super Repel. (Active: Turn 21106)
+  2. Navigate to the trough area on the western side of Route 38 (approx 10, 14).
+  3. Trigger Suicune Sighting 4.
+  4. Fly to Route 36 to collect Hard Stone from Arthur.
 
 # Side Quests
 - Arthur (Route 36): Thursday only. Gives Hard Stone at (15, 7).
