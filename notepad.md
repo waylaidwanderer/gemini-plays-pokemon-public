@@ -23,22 +23,17 @@
 
 # Plan
 1.  **Champion Lance:**
-    - **Lead:** Muscle (26 HP). Sacrificial lead for clean switch.
-    - **Vs Gyarados:** My Gyarados (Thrash/Bite).
-    - **Vs Charizard/Aerodactyl:** My Gyarados (Surf).
-    - **Vs Dragonites:** Muscle (Strength).
-    - **Strategy:** Zombie Mode. Revive spam.
+    - **Lead:** Muscle (26 HP). Sacrificial lead.
+    - **Matchup Reality Check:**
+      - Lance's team is ALL Flying-types (Gyarados, Dragonites, Charizard, Aerodactyl).
+      - **Fighting (Cross Chop) is Not Very Effective (0.5x)** on all except Aerodactyl (Neutral).
+      - **Ground (Dig) is IMMUNE (0x)** on all.
+      - **Normal (Strength) is Neutral (1.0x)** on all except Aerodactyl (Resisted).
+    - **Strategy:** Spam **Strength**. It is my most reliable damage source (80 BP + STAB > 50 BP effective Cross Chop).
+    - **Aerodactyl:** Use Gyarados (Surf) or Muscle (Cross Chop - Neutral).
+    - **Zombie Mode:** Revive Muscle repeatedly. Strength spam to win.
 
 # Battle Log
 - **Vs Bruno:** Victory.
 - **Vs Karen:** Victory.
-  - Muscle (26 HP) survived.
 - **Next:** Champion Lance.
-  - **Strategy:** "Zombie Mode" (Revive spam). Muscle is key.
-  - **Lance's Team:** Gyarados, Dragonites (x3), Charizard, Aerodactyl.
-  - **Matchups:**
-    - Gyarados/Charizard/Aerodactyl: Weak to Rock/Electric. My Gyarados has Surf (Good vs Charizard/Aerodactyl/Rock-types).
-    - Dragonites: Weak to Ice/Rock/Dragon. I have no Ice. Muscle's Strength is best bet.
-    - **Plan:** Lead with Muscle (26 HP). Let him faint. Max Revive (Full HP) or Revive (50%).
-    - **Note:** I have 1 Max Revive. Save for emergency? Or use early to establish dominance?
-    - **Actually:** Use Mistral as fodder to revive Muscle.
