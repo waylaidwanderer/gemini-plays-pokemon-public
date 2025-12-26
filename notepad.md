@@ -16,8 +16,8 @@
 - Sighting 1: Burned Tower (Complete).
 - Sighting 2: Cianwood City (Complete).
 - Sighting 3: Route 42 (In Progress).
-    - Objective: Trigger Suicune on the central island.
-    - Strategy: Walk in a full circle around the Apricorn trees (27, 16), (28, 16), (29, 16).
+    - Objective: Trigger Suicune fleeing on Route 42.
+    - Strategy: Complete land perimeter sweep of the central island grove. If fails, sweep water tiles bordering the island.
 - Sighting 4: Route 36 (Sudowoodo junction). Locked.
 - Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
 
