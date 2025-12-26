@@ -17,7 +17,7 @@
 - Sighting 3 (Goal): Route 42 Central Island grove. 
   - HOW: Step on trigger tiles (approx 26, 14).
   - Test: Approach after defeating Wise Trio.
-- Sighting 4 (Hypothesis): Route 36 (Sudowoodo junction). Mandatory encounter before Tin Tower.
+- Sighting 4 (Hypothesis): Route 36 (Sudowoodo junction). [Requires verification]
 - Sighting 5 (Hypothesis): Tin Tower 1F (Final Battle).
 - Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 
@@ -26,10 +26,10 @@
 - Interaction: Never mix directional inputs and action buttons in the same turn.
 - Suicune Sequence: Crystal sequence is fixed: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Navigation: If stuck in a menu loop, verify cursor position and manual button indices. Fixed menu_navigator_v3_fixed_borders (Turn 21992).
-- [Turn 21991] Stagnation: Attempting to Fly to Ecruteak since Turn 21977 due to menu navigator failure. [Turn 21994]
+- Stagnation: Attempting to Fly to Ecruteak since Turn 21977. [Turn 22000]
 
 # Tasks & Progress
-- Task: Fly to Ecruteak City to confront the Wise Trio. [Start Turn 21977, Timestamp: Friday, Dec 26, 2025 at 12:03 AM]
+- Task: Defeat the Wise Trio in Ecruteak City. [Start Turn 22000]
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
