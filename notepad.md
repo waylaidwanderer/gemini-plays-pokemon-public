@@ -16,10 +16,11 @@
 - Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). Landing at (26, 15) from south is the recommended approach.
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
-- Current Reset Strategy: Mt. Mortar Middle Entrance Reset. [Started Turn 23254]
-    1. Surf to Mt. Mortar middle entrance (28, 9).
-    2. Enter and exit immediately to re-initialize Route 42 script.
-    3. Surf to central island and land at (26, 15) from the south.
+- Current Reset Strategy: Gatehouse hopping. [Started Turn 23337]
+    1. Travel to Route 42 West Gatehouse at (0, 9).
+    2. Toggle map transitions between Route 42 and the Gatehouse (or Ecruteak City).
+    3. Check Pokédex after each transition.
+    4. Once Suicune is on Route 42, surf to the central island and land at (26, 15).
 - Failed Trigger Attempts: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), exhaustive sweep, and Hard Map Reset (Fly).
 - Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate, Ecruteak City (Fly).
 
