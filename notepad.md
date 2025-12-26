@@ -33,3 +33,11 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map (usually south).
 - **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
 - **PC**: Impassable. Interact to access Pokemon Storage System.
+
+# Operation: Elemental Upgrade
+1. **Fly to Goldenrod:** Go to Dept Store (5F/2F?).
+2. **Fundraising:** Sell HP Up (Worth ~4900) and other loot. Need ~6000 for 2 TMs.
+3. **Shopping:** Buy TM33 (Ice Punch) and TM41 (ThunderPunch).
+4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
+   - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
+5. **Return:** Fly back to Indigo Plateau and win.
