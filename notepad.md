@@ -209,3 +209,7 @@
 - **Goal:** Navigate to Max Revive.
 - **Status:** Gyarados active. Muscle Fainted.
 - **Next:** Find Max Revive in bag -> Use on Muscle.
+- **Turn 19166:** Item Menu. Selected Max Revive.
+- **Action:** Using Max Revive on Muscle.
+- **State:** Gyarados active. Muscle Fainted. Xatu Full HP.
+- **Plan:** Revive Muscle -> Switch to Muscle -> Strength.
