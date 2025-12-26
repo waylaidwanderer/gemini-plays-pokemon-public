@@ -5,22 +5,16 @@
 
 # Battle Status: Lance (Champion)
 - **Opponent:** Dragonite (Lv47).
-- **Active:** Muscle (Lv65 Machoke) - 107/215 HP (Fresh).
-- **Reserve:** Gyarados (24/114).
-- **Fainted:** Kunai, Garnet, Zenith, Mistral.
+- **Active:** Gyarados (Lv35) - 24/114 HP (Fodder).
+- **Reserve:** None (All others fainted).
+- **Fainted:** Muscle, Kunai, Garnet, Zenith, Mistral.
 - **Items:** 6 Revives. No Potions.
 
 # Moveset Status (Muscle)
-- Strength (Normal): 0/15 PP.
-- Dig (Ground): 0/10 PP.
-- Rock Smash (Fighting): 3/15 PP. (Target: Burn this).
-- Cross Chop (Fighting): 0/5 PP.
+- All moves 0 PP. (Target: Struggle).
 
-# Strategy: Operation Smash & Struggle
-1. **Smash:** Use Rock Smash (Slot 3) to lower Defense and burn PP.
-2. **Struggle:** Once Rock Smash is 0 PP, Struggle (50 BP) is the win condition.
-3. **Zombie Loop:** If Muscle faints:
-   - Switch to Gyarados (Fodder).
-   - Use Revive on Muscle.
-   - Let Gyarados faint.
-   - Switch Muscle back in.
+# Strategy: Zombie Loop (Phase 2)
+1. **Sacrifice:** Gyarados is active. Dragonite recharging (Free turn!).
+2. **Revive:** Use Revive on Muscle immediately.
+3. **Fodder:** Gyarados faints next turn.
+4. **Berserker:** Muscle returns (107 HP) and uses Struggle until victory or death.
