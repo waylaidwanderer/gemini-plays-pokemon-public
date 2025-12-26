@@ -60,3 +60,7 @@
 - **Matchup:** Muscle (Faster) vs Exeggutor (60% HP).
 - **Prediction:** Strength deals ~95% of remaining HP. Muscle likely faints to Psychic.
 - **Cleanup:** Finish low HP Exeggutor with Garnet (Quick Attack) or Gyarados. Revive Muscle after battle (or during if needed).
+- **Turn 19128:** Cursor is on Muscle. Selecting to switch in.
+- **Battle Plan:** Muscle (108 HP) vs Exeggutor (~60% HP).
+- **Action:** Use Strength.
+- **Prediction:** Muscle outspeeds and KOs Exeggutor.
