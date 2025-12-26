@@ -186,12 +186,17 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\nbuttons = []\ndrink = drink_name.lower()\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(quantity):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\") # Wait for \"Clang!\"\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Using B is safer to avoid accidental purchase of Fresh Water\n    for _ in range(5):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 800\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nbuttons = []\ndrink = drink_name.lower()\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(quantity):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1500\") # Wait for \"Clang!\"\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Using B is safer to avoid accidental purchase of Fresh Water\n    for _ in range(4):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 800\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-26T15:59:38.260Z",
         "action_counter": 20043
+      },
+      {
+        "commit_message": "Fixed off-by-one error in B presses (changed 5 to 4) to keep menu open.",
+        "timestamp": "2025-12-26T16:01:30.001Z",
+        "action_counter": 20045
       }
     ]
   }
