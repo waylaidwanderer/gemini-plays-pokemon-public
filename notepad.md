@@ -5,9 +5,9 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer Jake (Parasect Lv33).
-- **Matchup:** Gyarados (Lv34) vs Parasect.
-- **Action:** Using Thrash (Slot 1).
+- **Battle:** Fighting Cooltrainer Jake (Golduck).
+- **Matchup:** Switching Gyarados -> Muscle (Machoke Lv60).
+- **Action:** Switching to Muscle to overpower Golduck.
 - **Location:** Route 26 (12, 24).
 - **Next:** Defeat Cooltrainer Jake. Continue North.
 
