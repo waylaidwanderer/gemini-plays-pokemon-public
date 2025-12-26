@@ -50,3 +50,12 @@
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
+
+# Tool & Mechanic Notes
+- find_path_v3: Provides directional inputs but does NOT trigger context-sensitive actions like Surf or Cut. Manual interaction is required to transition between movement modes.
+- Suicune Roaming: In Pokémon Crystal, Suicune does not roam until after the fixed encounter at Tin Tower. Pokedex "blue squares" represent fixed sighting locations.
+
+# Strategy for Beating Suicune
+- Status: Lv40 legendary.
+- Lead: Gneiss (Lv44) for durability or XENON (Lv21) for Hypnosis/Mean Look if capture is attempted.
+- Capture Strategy: Use XENON to sleep it, then switch to a high-level attacker to weaken. Great Balls ready.
