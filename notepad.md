@@ -28,3 +28,4 @@
 - **Milestone:** Registered Cooltrainer Gaven.
 - **Current:** Navigating North towards Victory Road.
 - **Badge Check:** Passed! The officer verified all 8 badges.
+- **Encounter:** Fled from Golbat at (3, 64).
