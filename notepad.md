@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Surfing in Tohjo Falls (9, 13). Moving to exit at (13, 15).
+- Status: Exiting Tohjo Falls at (13, 15) to enter Route 27 (West).
