@@ -237,3 +237,6 @@
 - **Action:** Select NO (Down -> A).
 - **Status:** Muscle 122/205 HP (Likely still Confused).
 - **Next:** Confirm "Stop learning" -> Battle continues.
+- **Turn 19175:** Battle End Phase.
+- **Action:** Confirming rejection of Twister (Select NO).
+- **Next:** Confirm "Stop Learning?" (Select YES) -> Heal Team -> Koga.
