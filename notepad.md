@@ -1,8 +1,8 @@
 # Operation: Elemental Upgrade
 - **Status:** Inside Victory Road (2F).
-- **Plan:** Reach Ladder at (13, 31).
-- **Path:** From (12, 38) -> East to (13, 38) -> North to (13, 31).
-- **Goal:** Take ladder at (13, 31) to next floor (likely 3F).
+- **Plan:** Reach Ladder at (13, 31) via South Loop.
+- **Path:** South to (13, 42) -> East to (18, 42) -> North to (18, 36) -> West to (12, 36) -> North to (12, 31) -> East to Ladder at (13, 31).
+- **Reason:** Direct North path from (13, 38) is blocked by ledge bottoms. Must loop around obstacles.
 - **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
 - **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
