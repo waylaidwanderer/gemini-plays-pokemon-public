@@ -73,3 +73,7 @@
 - **Sequence:** B (Clear) -> A (Fight) -> A (Rock Smash).
 - **Prediction:** Dragonite attacks (Hyper Beam/Thunder Wave). Muscle uses Rock Smash.
 - **Status:** Muscle Full HP. Rock Smash 8 PP.
+- **Turn 19409:** Muscle used Rock Smash.
+- **Status:** Clearing text ("It's not very effective...").
+- **Sequence:** Muscle attacked first (Faster). Dragonite has yet to move this turn.
+- **Next:** Advance text -> Dragonite attacks -> Next Turn.
