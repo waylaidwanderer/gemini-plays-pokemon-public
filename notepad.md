@@ -10,6 +10,11 @@
 - TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 - PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
 
+# Strategy: Wise Trio Room Sweep
+1. Enter Wise Trio Room (Map 4_2) via warp at (20, 2) in Ecruteak City.
+2. Systematically explore the top half (Y < 4) to locate the Sages.
+3. Defeat the Wise Trio to unlock the path to Suicune.
+
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
