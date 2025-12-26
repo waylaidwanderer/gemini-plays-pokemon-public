@@ -31,3 +31,4 @@
 - **Observation:** Row of ledges at Y=23 blocks Northward movement on the left side. Must navigate East to X=12 to proceed North.
 
 - **Observation:** Encountered Wild Rhyhorn at (13, 40). Fleeing.
+- **Observation:** Encountered Wild Graveler at (13, 36). Fleeing.
