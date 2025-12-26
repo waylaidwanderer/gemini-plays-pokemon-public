@@ -11,19 +11,14 @@
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 
 # Suicune Hunt Strategy (Crystal)
-- Sighting 1: Burned Tower (Complete)
-- Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42
-    - Trigger Tile: (26, 14) (Middle of the island grove). [Hypothesis: Failed Attempt 1]
-    - Logic: Proximity-based trigger in front of the three Apricorn trees. Approaches should be made slowly (walking) to ensure script execution.
-    - Strategy: Mahogany Entrance Reset.
-- Sighting 4: Route 36 (Sudowoodo junction)
-- Sighting 5: Tin Tower 1F (Final)
-- Note: Suicune does not roam in Crystal; it follows a scripted sighting sequence. Pokedex 'Area' may show 'Unknown' or indicate the next scripted location. Currently verifying sighting status via Pokedex.
+- Trigger Logic: Proximity-based sighting sequence. Suicune does NOT roam. Pokedex "Area" will be "Unknown" until Tin Tower.
+- Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17).
+- Sighting 4: Route 36 (Sudowoodo junction).
+- Sighting 5: Tin Tower 1F (Final).
 
 # Battle Strategy: Suicune
 - Status: Leading with XENON (Gastly).
-- Overworld: The Route 42 encounter is a scripted fleeing event. Mean Look not required.
+- Overworld: Scripted fleeing events. Mean Look not required.
 - Scripted Battle (Tin Tower): Focus on Hypnosis/Sleep Powder and chip damage.
 
 # Type Effectiveness (Verified)
@@ -43,3 +38,8 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Timestamps & Tracking
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256.
+- Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14).
+- Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate.
