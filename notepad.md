@@ -16,6 +16,6 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Purchase Plan:** Budget ¥8619. Buy 3 Lemonades (Roof) -> Go to 2F -> Buy Max Revives possible (Target 5 @ 1500ea). Total Revives: 8. Total Hyper Potions: 5.
+- **Purchase Plan:** Lemonades acquired. Go to 2F. Buy 2 Revives (¥3000) -> Total 5. Buy ~3 Hyper Potions (¥3600) -> Total 8. Remaining funds: ~¥900.
 - **Healing Efficiency:** Fresh Water (4¥/HP), Soda Pop (5¥/HP), Lemonade (4.375¥/HP), Hyper Potion (6¥/HP). Fresh Water is best value! Change plan to buy Fresh Water? No, Lemonade is faster per heal.
 - **Gen 2 Mechanics:** Ghost is Physical, Dark is Special. Sneasel (Dark/Ice) has bad Sp.Atk, so Dark moves like Thief are bad. Shadow Ball (Ghost) is good.
