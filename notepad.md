@@ -59,4 +59,3 @@
 
 # Timestamps
 - Suicune Hunt (Phase 3/4): Started Turn 22256.
-- Island Sweep #2 (Exhaustive): Started Turn 22724. Ended Turn 22782. Result: No trigger.
