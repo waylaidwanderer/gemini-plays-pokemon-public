@@ -142,3 +142,7 @@
 - **Opponent Action:** Muk will attack (free turn while I healed).
 - **Status:** Muscle Full HP.
 - **Next:** Fight -> Dig.
+- **Turn 19254:** Switched to Gyarados.
+- **Reasoning:** Muk has +Defense (Acid Armor) and +Evasion (Minimize). Muscle (Physical) can't hit/hurt it. Gyarados (Special, Surf) ignores Defense buff.
+- **Plan:** Surf until Muk faints.
+- **Note:** Gyarados must tank Sludge Bomb on switch.
