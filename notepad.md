@@ -39,3 +39,8 @@
 - **Current State:** Muscle (Full HP) vs Crobat (Yellow HP, +1 Evasion).
 - **Action:** Up (Select FIGHT) -> A (Select) -> A (Strength).
 - **Plan:** Finish it off. High level difference mitigates evasion luck.
+- **Turn 19217 Outcome:** Crobat used Wing Attack (Super Effective). Muscle missed (Evasion).
+- **Status:** Muscle 152/205 HP. Crobat ~50% HP (from T19216 hit).
+- **Turn 19218:** Muscle uses Strength.
+- **Reasoning:** Dig fails vs Flying. Fighting moves resisted. Strength is best option.
+- **Risk:** Another miss or Confuse Ray. Muscle has HP to spare.
