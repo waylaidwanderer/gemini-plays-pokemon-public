@@ -59,3 +59,6 @@
 - **Action:** Press A (Use).
 - **Expected Result:** Muscle heals to full (205/205).
 - **Next:** Heal Kunai.
+- **Turn 19193:** Healing Kunai.
+- **Action:** B (Clear Text) -> Down x3 (Select Kunai) -> A (Use Super Potion).
+- **Next:** Exit Menu -> Navigate to Koga's Room.
