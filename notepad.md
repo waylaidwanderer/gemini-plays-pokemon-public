@@ -14,12 +14,10 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood (Complete)
 - Sighting 3: Route 42 island grove. [Start Turn 21694]
-- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island floor at (22, 12). Land and move to (24, 12). Use CUT on tree at (24, 13). Approach Suicune in the grove (approx 26, 14) to trigger flee.
-- Sighting 4: Route 36. Triggered at the Sudowoodo junction after Route 42.
-- Sighting 5: Fuchsia City (Kanto).
-- Final Battle: Tin Tower 1F (Requires Clear Bell).
-- Primary Goal HOW: Complete all 5 sightings. Enter Tin Tower 1F. Use Xenon (Gastly) for Hypnosis and Mean Look. Use Ultra/Great Balls.
-- Note: Pokedex "Area" is for Raikou/Entei. Suicune is scripted.
+- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island floor at (22, 12). Land and move to (24, 12). Use CUT on tree at (24, 13). Step on the central island tiles (approx 26, 14) to trigger flee. [Confirmed by Suicune Tracker - Turn 21931]
+- Sighting 3 Update: My previous assumption that harvest = trigger was WRONG. Must return to Route 42 island and step on the trigger tile. [Turn 21931]
+- Sighting 4: Route 36. Triggered at the Sudowoodo junction after Route 42. [Note: Tracker says this sighting doesn't exist in Crystal, sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower. Must verify.]
+- Strategy: Return to Route 42 via Fly to Ecruteak City. [Turn 21931]
 
 # Week Siblings Strategy
 - Arthur (Thursday): Route 36. Provides Hard Stone. [COMPLETED - Turn 21872]
