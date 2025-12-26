@@ -20,7 +20,6 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Resuming navigation after fleeing Graveler at (16, 16).
-- **Plan:** Move East through gap at (17, 16) to the East Corridor (x=18).
-- **Next:** Navigate North along x=18 to Row 11.
-- **Goal:** Traverse West along Row 11 to reach the area above the ladder at (17, 19).
+- **Status:** Reached East Corridor of 3F at (18, 16).
+- **Plan:** Navigate North along x=18 to (18, 11).
+- **Next:** Traverse West along Row 11 to loop around to the ladder area.
