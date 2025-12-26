@@ -5,10 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
+- **Battle:** Fighting Cooltrainer M (Route 26).
+- **Status:** Gyarados (Lv34) leading. Muscle (Lv60) in reserve.
 - **Location:** Route 26 (9, 39).
-- **Activity:** Engaging Cooltrainer M.
-- **Team:** Muscle (Machoke Lv60) leading.
-- **Next:** Defeat Cooltrainer M. Continue North to Victory Road.
+- **Next:** Defeat Cooltrainer M. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
