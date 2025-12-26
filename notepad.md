@@ -5,7 +5,7 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Defeated Cooltrainer Gaven (Victreebel, Kingler, Flareon). (Turn 18815)
+- **Interaction:** Registering Cooltrainer Gaven's phone number.
 - **Status:** Muscle Lv60 (162/198). Team healthy.
 - **Location:** Route 26 (9, 39).
 - **Next:** Continue North towards Victory Road Gate.
