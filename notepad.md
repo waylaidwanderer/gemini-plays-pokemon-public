@@ -1,10 +1,7 @@
 # Operation: Elemental Upgrade
-- **Status:** Heading to Indigo Plateau.
+- **Status:** Resupplying at Goldenrod Dept Store.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
-- **Immediate Task:** Elevator to Rooftop (6F) -> Buy Drinks -> Elevator to 1F -> Fly to Indigo Plateau.
-- **Next Steps:**
-    1. Heal at Indigo Plateau.
-    2. Rematch Elite Four.
+- **Immediate Task:** Exit Elevator (5F) -> Sell TMs -> Elevator to 2F -> Buy Hyper Potions/Revives -> Fly to Indigo Plateau.
 
 # Team Status
 - Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
@@ -19,4 +16,3 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Shopping List:** Buy Fresh Water/Soda/Lemonade at Rooftop if possible.
