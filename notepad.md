@@ -81,3 +81,7 @@
 - **Turn 19370:** Completing switch to Gyarados (A -> SHIFT).
 - **Context:** Previous inputs truncated. Cursor currently on Gyarados.
 - **Next:** Gyarados enters battle. Use Thrash.
+- **Turn 19371:** Switch confirmed. Gyarados (Lv35) enters.
+- **Matchup:** My Gyarados vs Lance's Gyarados.
+- **Plan:** Use Thrash. Physical damage vs Special defense heavy opponent.
+- **Reminder (Post-Battle):** Mark warps at (4,1) and (5,1). Immediate priority.
