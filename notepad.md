@@ -88,3 +88,8 @@
   - **Onix:** Surf (Gyarados) or Dig/Cross Chop (Muscle).
   - **Machamp:** Strength/Dig. Watch for Cross Chop.
   - **Note:** Gyarados resists Fighting. Good pivot.
+- **Turn 19275:** Realized one Super Potion remains (Gyarados took one).
+- **Action:** Open Pack -> Use last Super Potion on Muscle.
+- **Sequence:** Start -> A (Pack) -> A (Select Potion) -> A (Use) -> Up x2 (Select Muscle) -> A.
+- **Goal:** Heal Muscle to ~84 HP.
+- **Next:** Navigate around Koga to exit.
