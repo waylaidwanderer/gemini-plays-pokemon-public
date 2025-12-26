@@ -3,9 +3,9 @@
 - **Action:** Battling Champion Lance.
 - **Current State:** Fighting Charizard (Lv46).
 - **Battle Plan:** Use ThunderPunch (Slot 2).
-- **Matchup:** Muscle (Lv68) vs Charizard (Lv46). ThunderPunch is SE (2x).
-- **Status:** Muscle took a Flamethrower (114/225 HP). Muscle outsped Charizard.
-- **Notes:** ThunderPunch (Special) vs Charizard (Weak to Electric). Should be a clean KO.
+- **Matchup:** Muscle (Lv68, 114/225 HP) vs Charizard (Lv46). ThunderPunch is SE (4x).
+- **Status:** Muscle took ~55 dmg from Flamethrower. 114 HP is plenty safe (takes ~2 more hits).
+- **Correction:** Previous turn failed due to 0 PP on Strength. Cursor is at Slot 1.
 
 # Team Status
 
