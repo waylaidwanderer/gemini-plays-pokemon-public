@@ -37,4 +37,4 @@
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Strategy: Mahogany Entrance reset. Currently heading east to Mahogany Town.
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Strategy: Mahogany Entrance reset. Arrived in Mahogany Town. Moving west to Route 42 to trigger sighting.
