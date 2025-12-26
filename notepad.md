@@ -14,10 +14,10 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 Central Island.
-    - Status: Searching island grove (approx X:24-31, Y:13-17).
+    - Status: Searching island grove (approx X:24-31, Y:10-17).
     - Strategy: Suicune should be a visible sprite on the island. Reach island (Surf/Cut) and approach it to trigger the flee event. If not visible, I will systematically step on every FLOOR tile in the grove to ensure the trigger isn't tile-based or hidden.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
-- Sighting 5: Tin Tower 1F (Final Battle).
+- Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell (Obtained).
 - Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
