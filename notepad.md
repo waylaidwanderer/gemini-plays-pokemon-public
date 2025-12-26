@@ -21,8 +21,12 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Feraligatr.
-- **Condition:** Muscle (124/201 HP). Cross Chop is empty.
-- **Action:** Executing Strength (Slot 1).
-- **Matchup:** Muscle (Lv61) vs Feraligatr (Water). Strength is Neutral.
-- **Goal:** Defeat Feraligatr.
-- **Remaining Opponent:** Magneton.
+- **Condition:** Muscle (124/201 HP). Speed lowered. Feraligatr in RED HP (Critical).
+- **Observation:** Cursor on PACK. Last move used was DIG (Slot 2).
+- **Action:** 
+  1. Navigate UP to FIGHT.
+  2. Select FIGHT.
+  3. Navigate UP to STRENGTH (Slot 1).
+  4. Select STRENGTH.
+- **Goal:** Finish off Feraligatr.
+- **Next:** Magneton. Use DIG (4x Effective).
