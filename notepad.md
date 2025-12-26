@@ -37,5 +37,5 @@
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
 - **Battle:** Defeated Psychic Richard (Espeon Lv36). (Turn 18767)
 - **Status:** Team Healed! Full strength.
-- **Location:** Route 26 Heal House (2, 4).
-- **Next:** Exit house (Warp at 2,7). Navigate North to Victory Road.
+- **Location:** Route 26 (15, 58) - Outside Rest House.
+- **Next:** Harvest Fruit Tree (14, 54). Navigate North to Victory Road.
