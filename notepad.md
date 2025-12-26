@@ -28,3 +28,7 @@
     - **Vs Dragonite:** Strength (Free hit + Next turn).
     - **Vs Aerodactyl:** Cross Chop.
     - **Vs Charizard:** Strength.
+- **Turn 19400:** Muscle active (Full HP/PP). Dragonite recharging.
+- **Action:** Use Strength (Slot 1).
+- **Reasoning:** Free hit. Best neutral damage option.
+- **Next:** Dragonite will attack next turn. Muscle tanks and hits again.
