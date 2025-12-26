@@ -52,4 +52,4 @@
 - (28, 16): Berry Tree (Empty at Turn 21678)
 - (27, 16): Berry Tree (Turn 21682)
 - Route 42 Island Sweep: Ended Turn 22640. Result: Suicune not found. Systematic search of both levels complete. Moving to Route 36.
-- Preparation: Healing at Violet City PC to restore Gastly's Mean Look PP (3/5).
+- Preparation: Healing at Violet City PC complete. Gastly's Mean Look PP restored (5/5). Moving to Route 36.
