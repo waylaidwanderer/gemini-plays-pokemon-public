@@ -39,4 +39,9 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Investigating Route 42/36 trigger stall.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Checking Pokédex for Suicune location after failed Route 42 trigger.
+
+# Tile Mechanics (Route 42)
+- Water at (22, 12) is traversable via Surf from the land.
+- Island Grove entry requires Cut at (24, 13).
+- Headbutt trees at (28, 14) and (31, 14) are impassable obstacles.
