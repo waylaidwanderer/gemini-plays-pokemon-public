@@ -34,4 +34,4 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 - Observation: Tin Tower 1F Sages provided lore but no battles. [Turn 22026]
 - Observation: Wise Trio Room (4_2) is empty. [Turn 22030]
-- Discovery: Three Sages found in gatehouse (4_1) at (4, 6), (1, 1), and (1, 15). Only (4, 6) has been talked to. [Turn 22040]
+- Hypothesis: The Wise Trio are Sages in the Tin Tower gatehouse (4_1). I need to locate and defeat them to progress the Suicune questline. [Turn 22043]
