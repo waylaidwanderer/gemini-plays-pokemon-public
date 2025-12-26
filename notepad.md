@@ -1,8 +1,9 @@
 # Operation: Dragon Slayer
-- **Current State:** In Bag.
-- **Action:** Reviving Gyarados.
-- **Plan:** Use Revive on Slot 3 (Gyarados). Then Revive Kunai. Then heal Muscle.
-- **Team Update:** Muscle (112/225). Gyarados (FNT -> Reviving). Kunai (FNT).
+- **Current State:** In Bag. Revive selected.
+- **Action:** Reviving Kunai (Slot 4) and Gyarados (Slot 3).
+- **Assumption:** Party cursor is on Slot 5 (Zenith).
+- **Sequence:** Use Revive -> Up (Slot 4) -> Use -> Clear Text -> Up (Slot 3) -> Use.
+- **Next:** Heal everyone with Lemonade.
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
