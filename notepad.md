@@ -10,21 +10,16 @@
 - TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 - PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
 
-# Strategy: Suicune Hunt (Johto)
+# Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
-- Sighting 2: Cianwood (Complete)
-- Sighting 3: Route 42 island grove. [Start Turn 21694]
-- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island floor at (22, 12). Land and move to (24, 12). Use CUT on tree at (24, 13). Step on the central island tiles (approx 26, 14) to trigger flee. [Confirmed by Suicune Tracker - Turn 21931]
-- Sighting 3 Update: My previous assumption that harvest = trigger was WRONG. Must return to Route 42 island and step on the trigger tile. [Turn 21931]
-- Sighting 4: Tin Tower 1F (Final Battle). Requires Clear Bell. [Turn 21931]
-- Note: Tracker confirms sightings on Route 36 and Fuchsia City do NOT exist in Crystal. Sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower.
-- Strategy: Return to Route 42 via Fly to Ecruteak City. [Turn 21931]
-
-# Week Siblings Strategy
-- Arthur (Thursday): Route 36. Provides Hard Stone. [COMPLETED - Turn 21872]
-- Hard Stone Mystery: Found held by GNEISS (Turn 21872).
-- Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place.
-- Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
+- Sighting 2: Cianwood City (Complete)
+- Sighting 3: Route 42 Central Island. [Start Turn 21950]
+  - HOW: Step on the trigger tiles in the grove (approx 26, 14).
+  - Note: Harvesting Apricorns does NOT trigger the sighting. Must step on the specific tile.
+- Sighting 4: Tin Tower 1F (Final Battle).
+  - Prerequisite: Clear Bell (Obtained).
+  - Prerequisite: All 3 scripted sightings (Burned Tower, Cianwood, Route 42) must be triggered.
+- Note: Crystal sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower. No sightings on Route 36 or Fuchsia City.
 
 # Gym Progress
 - Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
@@ -37,21 +32,10 @@
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
 - Check held items if an NPC dialogue loops or item seems missing.
 - Menu Navigation: Use menu_navigator_v3_fixed_borders to handle borders.
-- Task: Route 42 Suicune Search/Apricorn Harvest. [Start Turn 21898]
-- Inventory: Hard Stone confirmed in bag (Turn 21901).
-- Suicune Sighting 3 Mystery: Sprite not appearing on island (26, 14). 
-- Troubleshooter Insight (Turn 21907): Since I have 3 Green, 3 Pink, and 2 Yellow Apricorns (harvested from this island earlier), the sighting at Route 42 was likely triggered already, even if I missed the animation.
-- Strategy: If Suicune is not at Mt. Mortar entrance (28, 9), I will check Route 36 (Sudowoodo spot) and then attempt to enter Tin Tower (possess Clear Bell).
-- Task: Final sweep of Route 42 for Suicune. [Start Turn 21909]
-- Reflection (Turn 21907):
-  1. Immediate Execution: Deferred using npc_troubleshooter_agent for Suicune mystery. Performing now.
-  2. Notepad Hygiene: Organized. Added Suicune search task tracking.
-  3. Map Hygiene: Relevant locations marked.
-  4. Automation: Using Troubleshooter agent to investigate missing Suicune trigger.
-  5. Goal Clarity: Primary goal is Tin Tower Suicune. Secondary is Route 42 trigger.
-  6. Root Hypothesis: Suicune should be on Route 42 island. Investigation: Sprite is missing. Root cause may be a missing prerequisite or incorrect sequence.
-- Task: Investigating Suicune Sighting 3 requirements. [Start Turn 21907]
-- Lesson: Turn mismatch detected at Turn 21914. Must verify game state thoroughly. [Turn 21914]
-- Strategy: Heading to Route 36 via Violet City to trigger Suicune Sighting 4. [Turn 21914]
-- Task: Travel to Route 36 via Violet City west exit. [Start Turn 21922]
-- Task: Trigger Suicune Sighting 4 on Route 36 at (35, 9). [Start Turn 21928]
+- Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place.
+- Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
+
+# Error Analysis Log
+- [Turn 21931] Mistake: Assumed a Suicune sighting existed on Route 36. Root Cause: Confused Crystal mechanics with other games. Correction: Suicune Tracker confirmed sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower.
+- [Turn 21931] Mistake: Assumed harvesting Apricorns on Route 42 triggered Sighting 3. Root Cause: Sprite didn't appear but I assumed it happened off-screen. Correction: Must return and step on the trigger tile.
+- [Turn 21957] Mistake: Mixed directional and action buttons (Down, A, A). Result: Only Down was executed. Correction: Move first, then perform action.
