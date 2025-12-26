@@ -18,3 +18,5 @@
 - **COUNTER**: Impassable. Talk over.
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
+- **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
+- **Shopping List:** Buy Fresh Water/Soda/Lemonade at Rooftop if possible.
