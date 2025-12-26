@@ -34,3 +34,8 @@
 - **WATERFALL**: HM07.
 - **ICE**: Slide.
 - **LEDGE**: One-way jump.
+
+# Run Log
+- E4 Attempt 2 Start: Turn ~20200
+- Will Defeated: Turn 20235
+- Koga Challenge: Turn 20238
