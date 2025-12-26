@@ -39,3 +39,7 @@
 - **Turn 19262:** Using Antidote.
 - **Action:** A (Select Antidote) -> A (Select USE).
 - **Next:** Select Muscle to cure Poison.
+- **Turn 19263:** Cured Muscle's Poison.
+- **Action:** Press A (Select Muscle).
+- **Next:** Revive Gyarados.
+- **Sequence:** B (Clear text) -> B (Exit Party) -> Up/Down to Revive -> Use on Gyarados.
