@@ -14,7 +14,5 @@
 - **Indigo Plateau:** Lobby explored. Shopping done.
 
 # Plan
-1.  **Menu:** Navigate to Muscle (Slot 1).
-2.  **Menu:** Select Muscle and Give Amulet Coin.
-3.  **Navigate:** Head East (Right) to find the Elite Four entrance.
-4.  **Challenge:** Enter and defeat Will.
+1.  **Navigate:** Head North/East to finding the door to the Elite Four (likely past the counter or in the back wall).
+2.  **Challenge:** Enter and defeat Will.
