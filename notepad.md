@@ -55,3 +55,8 @@
 - **Situation:** Kunai (Full HP) vs Exeggutor (~60% HP).
 - **Action:** Shadow Ball again. Expecting Kunai to outspeed.
 - **Contingency:** If Kunai faints, Muscle finishes with Strength.
+- **Turn 19127:** Kunai fainted (Crit Egg Bomb).
+- **Strategy:** Send **Muscle** (108 HP).
+- **Matchup:** Muscle (Faster) vs Exeggutor (60% HP).
+- **Prediction:** Strength deals ~95% of remaining HP. Muscle likely faints to Psychic.
+- **Cleanup:** Finish low HP Exeggutor with Garnet (Quick Attack) or Gyarados. Revive Muscle after battle (or during if needed).
