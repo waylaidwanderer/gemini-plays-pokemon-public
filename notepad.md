@@ -78,3 +78,6 @@
 - **Turn 19369:** Switching to Gyarados (Lv35).
 - **Reasoning:** Taking advantage of opponent's recharge turn to switch in Gyarados freely.
 - **Strategy:** Use Thrash/Bite with Gyarados. If Gyarados faints, switch Muscle back in.
+- **Turn 19370:** Completing switch to Gyarados (A -> SHIFT).
+- **Context:** Previous inputs truncated. Cursor currently on Gyarados.
+- **Next:** Gyarados enters battle. Use Thrash.
