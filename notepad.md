@@ -1,6 +1,6 @@
 # Operation: Elemental Upgrade
-- **Status:** Ascending Waterfall at (9, 11).
-- **Plan:** Ascend Waterfall at (9, 11) -> Traverse Upper Level -> Descend Waterfall at (18, 6) -> Exit East.
+- **Status:** Traversing Upper Level.
+- **Plan:** Navigate to Waterfall crest at (18, 5) -> Descend Waterfall -> Exit East.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
