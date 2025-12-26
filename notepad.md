@@ -12,19 +12,15 @@
 - DOOR: Traversable, triggers map transition. [Verified]
 - TALL_GRASS: Traversable, triggers wild encounters. [Verified]
 
-# Suicune Sighting Log (Crystal)
-- Sighting 1: Burned Tower (Complete).
-- Sighting 2: Cianwood City (Complete).
-- Sighting 3: Route 42 (In Progress).
-    - Objective: Trigger Suicune fleeing on Route 42.
-    - Strategy: Approach the central island grove. 
-    - Trigger Tile Hypothesis: (26, 13) is the object, trigger occurs when adjacent (e.g. at 26, 14).
-    - Map Reset: Performed at Turn 22903.
-- Sighting 4: Route 36 (Sudowoodo junction). Locked.
-- Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
-
-# PC Storage Inventory
-- Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+# Suicune Hunt Strategy (Crystal)
+- Sighting 1: Burned Tower (Complete)
+- Sighting 2: Cianwood City (Complete)
+- Sighting 3: Route 42 (In Progress)
+    - Trigger Location: Central island grove.
+    - Specific Tile: Adjacency to (26, 13) (Headbutt Tree).
+    - Status: Map Reset performed at Turn 22903. Currently attempting trigger at (26, 14).
+- Sighting 4: Route 36 (Sudowoodo junction)
+- Sighting 5: Tin Tower 1F (Final)
 
 # Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22934.
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22942.
