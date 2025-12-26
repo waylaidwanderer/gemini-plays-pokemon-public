@@ -53,3 +53,7 @@
 - **Action:** Up (Select Max Ether) -> A (Select) -> A (Use).
 - **Target:** Muscle -> Strength.
 - **Reason:** Restore PP to continue sweeping.
+- **Turn 19222:** Applying Max Ether to Strength.
+- **Action:** A (Select Muscle) -> A (Select Strength).
+- **Result:** Strength PP fully restored.
+- **Next:** Return to Battle -> Use Strength on Crobat.
