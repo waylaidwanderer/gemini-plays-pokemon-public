@@ -44,3 +44,8 @@
 # Metadata
 - Last sighting check: Turn 23645 (Suicune on Route 42).
 - Current Turn: 23680
+## Suicune Route 42 Troubleshooting
+- Observation: Stood on (26, 14) and (28, 15) after Tin Tower shook event. No trigger.
+- Pokedex Status: Suicune confirmed on Route 42.
+- Expert Advice: approach from the east side of the Apricorn trees. Possible map script reset needed (enter/exit Mt. Mortar).
+- Plan: Exit menu -> Move to (30, 16) -> Approach trees from the east. If fails, enter/exit Mt. Mortar (28, 9) and repeat.
