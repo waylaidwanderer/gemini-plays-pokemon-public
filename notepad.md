@@ -44,4 +44,5 @@
 # Tile Mechanics (Route 42)
 - Water at (22, 12) is traversable via Surf from the land.
 - Island Grove entry requires Cut at (24, 13).
-- Headbutt trees at (28, 14) and (31, 14) are impassable obstacles.
+- Headbutt trees at (28, 14), (31, 14), (31, 16), (31, 17) are impassable obstacles.
+- Trees at (22, 13), (23, 13), (25, 13), (26, 13), (27, 13), (29, 13) are impassable obstacles.
