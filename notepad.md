@@ -38,3 +38,4 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map (usually south).
 - **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
 - **PC**: Impassable. Interact to access Pokemon Storage System.
+- Fly Map Navigation: Scrolling Left/Down did not change destination from Indigo Plateau. Trying SELECT to switch to Johto map.
