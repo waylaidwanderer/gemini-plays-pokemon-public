@@ -38,5 +38,5 @@
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
 - Status: Goldenrod Dept Store 5F. In transaction menu.
-Goal: Sell HP Up (4900) and 3 Full Heals (900) to reach ~6019.
-Buy TM33 (Ice Punch) and TM41 (ThunderPunch) (3000 each).
+Goal: Sell 2 Revives (1500) to reach >6000. (Full Heals not visible in menu).
+Then Buy TM33 (Ice Punch) and TM41 (ThunderPunch).
