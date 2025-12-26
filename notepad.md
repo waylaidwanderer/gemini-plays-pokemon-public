@@ -109,3 +109,7 @@
 - **Action:** Up x2 (Select Muscle) -> A (Use Revive).
 - **Result:** Muscle revived to 50% HP.
 - **Next:** Gyarados tanks Muk's attack. Then decide: Switch to Muscle or Attack.
+- **Turn 19236:** Muscle revived (104/208 HP).
+- **Action:** Press B to clear message.
+- **Expectation:** Menu closes, turn ends, Muk attacks Gyarados.
+- **Next Turn:** Switch Muscle in. Use Dig.
