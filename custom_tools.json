@@ -72,14 +72,26 @@
     ]
   },
   "slow_press": {
-    "description": "Presses a sequence of buttons with a configurable delay between each press to ensure inputs are registered by the game.",
+    "description": "Presses a sequence of buttons with a configurable delay between each press. Input 'buttons' should be a list of button names (e.g., 'A', 'B', 'Up'). 'sleep' commands in the input list are ignored to prevent errors; use the 'delay' parameter instead.",
     "input_schema": {
       "type": "object",
       "properties": {
         "buttons": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "Select",
+              "Start",
+              "Right",
+              "Left",
+              "Up",
+              "Down",
+              "R",
+              "L"
+            ]
           }
         },
         "delay": {
@@ -92,12 +104,17 @@
         "buttons"
       ]
     },
-    "python_script": "import json\nbuttons = input_data['buttons']\ndelay = input_data.get('delay', 500)\noutput = []\nfor b in buttons:\n    output.append(b)\n    output.append(f\"sleep {delay}\")\nprint(json.dumps(output))",
+    "python_script": "buttons = input_data.get('buttons', [])\ndelay = input_data.get('delay', 500)\n\nsequence = []\nfor btn in buttons:\n    # Filter out any accidentally passed sleep commands or invalid strings\n    if btn in [\"A\", \"B\", \"Select\", \"Start\", \"Right\", \"Left\", \"Up\", \"Down\", \"R\", \"L\"]:\n        sequence.append(btn)\n        sequence.append(f\"sleep {delay}\")\n\n# Remove the trailing sleep if it exists\nif sequence and sequence[-1].startswith(\"sleep\"):\n    sequence.pop()\n\nprint(json.dumps(sequence))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-20T10:42:11.488Z",
         "action_counter": 8108
+      },
+      {
+        "commit_message": "Refined slow_press to prevent consecutive sleep errors by sanitizing input and ensuring correct interleaving of delays.",
+        "timestamp": "2025-12-26T10:25:26.235Z",
+        "action_counter": 19531
       }
     ]
   },

@@ -21,3 +21,11 @@
 - Muscle (Lv65): Carry.
 - Others: Fodder/Pivot.
 - Money: 13,719.
+
+# Tile Mechanics
+- **WALL**: Impassable.
+- **FLOOR**: Passable. Standard movement.
+- **LADDER**: Warp. Transitions between floors.
+- **WARP_CARPET_DOWN**: Warp. Transitions to a different map (usually south).
+- **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
+- **PC**: Impassable. Interact to access Pokemon Storage System.
