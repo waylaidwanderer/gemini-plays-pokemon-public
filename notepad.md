@@ -31,3 +31,4 @@
 - **Observation:** Encountered Wild Arbok at (54, 6). Fleeing.
 - **Observation:** Encountered Wild Doduo at (14, 84). Fleeing.
 - **Observation:** Encountered Wild Doduo at (16, 76). Fleeing.
+- **Observation:** Wall at (12, 51) blocks direct path North. Must detour South-West to (9, 54) to bypass it.
