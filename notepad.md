@@ -4,9 +4,9 @@
 - **Current State:** Fighting Dragonite #2 (Lv47).
 - **Battle Plan:** Use Ice Punch (Slot 3).
 - **Menu State:** Cursor verified at Strength (Slot 1).
-- **Action:** Navigate Down -> Down -> Select Ice Punch.
-- **Matchup:** Muscle (Lv69) vs Dragonite. Ice Punch is 4x SE.
-- **Lance's Dragonites:** Lv47 ones usually have Thunder Wave/Twister/Hyper Beam. Ice Punch should OHKO.
+- **Action:** Manual navigation: Down -> Down -> A (Select Ice Punch).
+- **Matchup:** Muscle (Lv69) vs Dragonite. Ice Punch is 4x SE. OHKO expected.
+- **Notes:** Previous tool usage failed due to starting 'A' press on empty move.
 
 # Team Status
 
