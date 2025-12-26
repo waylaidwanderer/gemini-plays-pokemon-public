@@ -58,3 +58,9 @@
 - Sage MASA: Flareon (Lv32), Jolteon (Lv32)
 - Sage KOJI: Kadabra (Lv32)
 - Prerequisite: Must have encountered Suicune at Route 42 and Route 36 sightings before they will battle.
+
+# Suicune Hunt Progress Log
+- Sighting 3 (Route 42): 5 failed attempts at (26, 14). Hypothesis: Approach direction or map script reset is required.
+- Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
+- Plan: Fly to Ecruteak, head to Route 42, enter/exit Mt. Mortar, stand on (26, 14).
+- Turn 23773: Final conversation check with Gramps confirmed he is still in "lore mode". Heading to Route 42 now.
