@@ -11,15 +11,17 @@
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 
 # Suicune Hunt Strategy (Crystal)
-- Trigger Logic: Proximity-based sighting sequence. Suicune does NOT roam. Pokedex "Area" will be "Unknown" until Tin Tower.
-- Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). landing at (26, 15) from south.
+- Started: Turn 22256.
+- Trigger Logic: Proximity-based sighting sequence. Suicune roams ONLY after the Tin Tower event if not caught.
+- Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). Landing at (26, 15) from south is the recommended approach.
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
 - Current Reset Strategy: Mt. Mortar Middle Entrance Reset. [Started Turn 23254]
-    1. Fly to Mahogany Town.
-    2. Surf to Mt. Mortar middle entrance (28, 9).
-    3. Enter and exit immediately to re-initialize Route 42 script.
-    4. Surf to central island and land at (26, 15).
+    1. Surf to Mt. Mortar middle entrance (28, 9).
+    2. Enter and exit immediately to re-initialize Route 42 script.
+    3. Surf to central island and land at (26, 15) from the south.
+- Failed Trigger Attempts: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), exhaustive sweep, and Hard Map Reset (Fly).
+- Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate, Ecruteak City (Fly).
 
 # Battle Strategy: Suicune
 - Status: Leading with XENON (Gastly).
