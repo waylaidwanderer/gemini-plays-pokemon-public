@@ -28,7 +28,8 @@
 
 # Current Status (Turn 18848)
 - **Battle:** Fighting Cooltrainer Beth (Rapidash Lv36).
-- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire). Advantage: Gyarados.
-- **Action:** Using Surf (Slot 4) for super-effective damage.
+- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire).
+- **Status:** Rapidash HP Critical. Gyarados Healthy.
+- **Action:** Using Surf (Slot 4) to finish it.
 - **Location:** Route 26 (9, 8).
 - **Next:** Defeat Cooltrainer Beth. Explore West path to Item. Check House at (7, 5).
