@@ -117,3 +117,7 @@
 - **Matchup:** Muscle (Lv 62) vs Crobat (Lv 44).
 - **Strategy:** Strength (Neutral). Fighting is 0.25x, Dig is 0x.
 - **Note:** Crobat is fast and has Wing Attack (SE). Muscle should tank it.
+- **Turn 19214:** Correction - Accidental Pack Entry.
+- **Analysis:** Turn 19212 successfully declined the switch. Turn 19213 repeated the input (Down, A) on the Battle Menu, selecting PACK.
+- **Action:** Press B to exit Pack.
+- **Next:** Battle Menu -> Select FIGHT -> Strength.
