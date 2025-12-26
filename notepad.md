@@ -29,4 +29,4 @@
 - Hypothesis: The trigger may require a 'Map Reset' (leaving and re-entering Route 42 from Ecruteak) or is located on a specific water tile bordering the island.
 - Timestamp: Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22891 (635 turns elapsed).
 - Map Reset: Exited to Ecruteak and re-entered Route 42 at Turn 22903 to attempt to fix Suicune Sighting 3 trigger.
-- Current Plan: Navigate to the central island grove via Surf and approach the Apricorn trees.
+- Current Plan: Surf to (26, 13) on the central island to trigger Suicune. Target tile (26, 13) identified as sighting trigger.
