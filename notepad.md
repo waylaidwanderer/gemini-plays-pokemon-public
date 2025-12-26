@@ -37,10 +37,10 @@
 
 # Plan: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: On Fly map. Cursor at Olivine City (Turn 20968).
+- Current Status: In Olivine City (Turn 20969). Successfully landed!
 - Strategy:
-  1. Press A to Fly.
-  2. Walk North to Route 39 -> Route 38 West.
+  1. Walk North to Route 39 (exit at 21, 0).
+  2. Continue North to Route 38 West.
   3. Trigger Suicune flee at (3, 10).
 
 # Lessons Learned
