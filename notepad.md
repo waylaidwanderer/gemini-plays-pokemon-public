@@ -29,3 +29,7 @@
     - Dragonites: Strength (Neutral).
     - Aerodactyl: Cross Chop (Neutral).
     - Charizard: Strength (Neutral) or Gyarados (Surf).
+- **Turn 19382 Result:** Muscle used Rock Smash (Not very effective, Def fell). Dragonite used Thunder Wave (Muscle Paralyzed).
+- **Status:** Muscle (109 HP, PAR).
+- **Action:** Continue spamming Rock Smash (Slot 3).
+- **Goal:** Chip damage/Def drop, but primarily waiting for Muscle to faint for Max Revive plan.
