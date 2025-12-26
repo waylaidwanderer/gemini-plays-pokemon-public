@@ -40,8 +40,11 @@
 
 # Strategy for Suicune on Route 42
 - Trigger Tile: (26, 14) on the central island.
-- Script Reset: Enter and exit Mt. Mortar (middle entrance at 28, 9) to refresh the map script if Suicune is not visible.
-- Action: Fly to Mahogany Town, travel West to Route 42, Surf to the island. Step directly on (26, 14).
+- Suicune sighting 3 (Route 42) failed. Hypothesis: Missing prerequisite or incorrect trigger tile. Stepped on (26, 14) multiple times after re-zoning; Suicune did not appear.
+- Verified Sightings:
+  1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
+  2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective - FAILED TO TRIGGER]
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
