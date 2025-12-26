@@ -80,3 +80,7 @@
 - **Reasoning:** Garnet (Fodder) uses priority move for guaranteed chip damage before fainting.
 - **Outcome:** Garnet deals small damage -> Aerodactyl attacks -> Garnet likely faints -> Muscle gets safe switch-in.
 - **Muscle Status:** 107 HP. Rock Smash 6 PP.
+- **Turn 19438:** Declined switch. Garnet (Lv29) stays in.
+- **Plan:** Attempt Smokescreen.
+- **Goal:** Lower Dragonite's accuracy to help Muscle survive later.
+- **Expectation:** Garnet likely faints (Fodder). Muscle gets safe switch-in.
