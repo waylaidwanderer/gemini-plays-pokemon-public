@@ -17,7 +17,7 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Goal): Route 42 Central Island. Suicune appears as a visible sprite on the island.
+- Sighting 3 (Goal): Route 42 Central Island. Suicune appears as a visible sprite on the island. [Turn 22256]
     - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune will be standing near them and flee when approached.
 - Sighting 4: Route 36 (Sudowoodo junction).
     - How: Approach the junction at (35, 9) after the Route 42 sighting. Suicune will appear and flee.
