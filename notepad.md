@@ -21,13 +21,12 @@
 - **LADDER tiles:** On Route 27 (x=58+), they function as a walkable bridge.
 
 # Journey Log
-- **Milestone:** Stepped into Kanto on Route 27! (Turn 18570)
-- **Exploration:** Ascended the waterfall in Tohjo Falls. (Turn 18586)
-- **Exploration:** Exited Tohjo Falls to Route 27 East. (Turn 18592)
-- **Interaction:** Granny at (2,4) in Route 27 House gives advice on trust. (Turn 18615)
-- **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
-- **Battle:** Defeated Fisher Scott (Seaking Lv34). (Turn 18754)
-- **Battle:** Defeated Psychic Richard (Espeon Lv36). (Turn 18767)
-- **Battle:** Defeated Cooltrainer Joyce (Pikachu, Blastoise). (Turn 18794)
-- **Status:** Muscle Lv60 (171/198). Team healthy.
-- **Next:** Harvested Ice Berry. Navigating North.
+- **Route 27:** Entered Kanto, traversed Tohjo Falls.
+- **Route 26:** Defeated trainers (Gilbert, Scott, Richard, Joyce, Gaven, Jake).
+- **Milestone:** Registered Cooltrainer Gaven.
+- **Current:** Navigating North towards Victory Road.
+
+# Current Status (Turn 18842)
+- **Status:** Muscle Lv61 (165/201). Spotted Item (9, 15).
+- **Location:** Route 26 (13, 15).
+- **Next:** Navigate North. Look for path to Item.
