@@ -37,6 +37,5 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - Status: Traversing Route 26 South (Outdoors).
-- Goal: Reach New Bark Town -> Fly to Goldenrod City.
-- Route: Route 26 (South) -> Route 27 (West) -> Tohjo Falls -> Route 27 (West) -> New Bark Town.
-- Note: Jumping ledges for speed. All trainers likely defeated.
+- Route: Route 26 (South) -> Route 27 (West) -> Tohjo Falls -> New Bark Town.
+- Note: Jumping ledges for speed. Trainers defeated. Received phone call from Wade (Bug Catcher).
