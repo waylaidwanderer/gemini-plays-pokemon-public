@@ -135,3 +135,8 @@
 - **HP Status:** Muscle 126/205.
 - **Prediction:** Strength deals ~50%. Xatu attacks (Psychic -> ~46 HP).
 - **Next:** Finish with Strength or heal if crit happens.
+- **Turn 19147:** Muscle used Strength. Xatu used Confuse Ray.
+- **Status:** Muscle 126/205 HP (Confused). Xatu ~60% HP.
+- **Inventory Note:** Out of Full Restores.
+- **Plan:** Use **Full Heal** (or Bitter Berry) to cure confusion.
+- **Reasoning:** Cannot risk confusion self-hit loops. Muscle outspeeds Xatu, so clearing status guarantees an attack next turn.
