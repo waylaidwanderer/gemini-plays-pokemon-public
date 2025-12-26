@@ -32,3 +32,4 @@
 - **Observation:** Encountered Wild Golbat at (7, 62). Fleeing.
 - **Observation:** Encountered Wild Graveler at (7, 61). Fleeing.
 - **Observation:** Encountered Wild Graveler at (12, 58). Fleeing.
+- **Observation:** Encountered Wild Onix at (6, 56). Fleeing.
