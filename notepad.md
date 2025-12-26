@@ -22,10 +22,10 @@
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
 - **Condition:** Muscle (39/201 HP) is Confused and in critical health.
-- **Action:** Scrolling Bag for Max Potion.
-- **Observation:** Scrolled past MAX REVIVE. Max Potion not yet found.
-- **Hypothesis:** Max Potion is further down the list (possibly acquired recently or sorted differently).
+- **Action:** Selecting Max Potion.
+- **Correction:** Overshot while scrolling down. Max Potion is visible at the top of the current screen.
 - **Plan:**
-  1. Scroll down 5 more times.
-  2. Locate Max Potion.
-  3. Use Max Potion on Muscle.
+  1. Scroll UP 4 times to highlight Max Potion.
+  2. Press A to select it.
+  3. (Next Turn) Select Muscle from the party list to heal her.
+- **Goal:** Restore Muscle to full HP to tank the confusion/attacks.
