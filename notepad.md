@@ -1,10 +1,10 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** Fighting Lance's Gyarados (Lv44).
-- **Battle Plan:** Use ThunderPunch (Slot 2).
-- **Matchup:** Muscle (Lv68) vs Gyarados (Lv44). ThunderPunch is 4x Effective. OHKO guaranteed.
-- **Notes:** ThunderPunch is Slot 2.
+- **Current State:** About to fight Aerodactyl.
+- **Battle Plan:** Decline switch (Stay with Muscle). Use ThunderPunch (Slot 2).
+- **Matchup:** Muscle (Lv68) vs Aerodactyl. ThunderPunch is SE (2x).
+- **Notes:** Saving Ice Punch for Dragonites (4x weak). Aerodactyl is fast, might hit first. Muscle can tank it.
 
 # Team Status
 
