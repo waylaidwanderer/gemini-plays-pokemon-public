@@ -28,3 +28,5 @@
 - **Next:** Muscle outspeeds. Strength to finish Xatu.
 - **Turn 19096:** Selected Fight -> Strength (Manual input due to cursor memory on PACK). Finishing Xatu.
 - **Anticipation:** Will sends Jynx or Exeggutor next. Muscle stays in.
+- **Turn 19097:** Retrying Strength (Turn 19096 inputs didn't register/menu state persisted). Muscle (120/201) vs Xatu (~45%).
+- **Observation:** Muscle is faster than Xatu (based on Turn 19085). Should KO.
