@@ -24,4 +24,6 @@
 - **Encounter:** Wild Rhydon at (9, 66). Fled successfully.
 - **Exploration:** Confirmed (12, 68) is impassable (Wall). Southern strip inaccessible from here.
 - **Strategy:** Backtracking to the Eastern Corridor (x=18) via (11, 54) to inspect the east wall (x=19) for hidden paths or missed ladders.
-- **Encounter:** Wild Rhyhorn at (18, 56).
+- **Exploration:** Rhyhorn encounter at (18, 56) cleared.
+- **Hypothesis:** 2F North (above (1, 35)) was missed. The loop from (1, 49) dropped me at (1, 35) on 2F, and I immediately went down instead of checking North.
+- **Strategy:** Quickly check East wall at (19, 52) for hidden items, then navigate to Ladder at (1, 35) to ascend and explore 2F North.
