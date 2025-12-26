@@ -1,5 +1,5 @@
 # Operation: Elemental Upgrade
-- **Status:** Resupplying at Goldenrod Dept Store (Complete).
+- **Status:** Traveling to Indigo Plateau (Surfing Route 27).
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
