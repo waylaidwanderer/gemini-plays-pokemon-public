@@ -8,7 +8,7 @@
 - **Battle:** Defeated Cooltrainer Beth (Rapidash).
 - **Status:** Gyarados (76/111). Muscle Lv61.
 - **Location:** Victory Road Gate (23_13).
-- **Next:** Pass through badge check to Victory Road.
+- **Next:** Exit Victory Road Gate to Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
