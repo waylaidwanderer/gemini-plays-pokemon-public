@@ -35,28 +35,10 @@
     - Zenith (Dratini) has DragonBreath/Twister? No, Zenith is Lv15.
 
 # Battle Log
-- **Vs Bruno:** Victory. Muscle swept.
-- **Strategy:** Muscle grew to Lv64. Cross Chop OHKO'd Onix.
-- **Vs Karen:** Battle started.
-- **Turn 1:** Muscle (54/211 HP) vs Umbreon. Using Cross Chop (Slot 4) for expected OHKO. Risk: 80% acc. Backup: Zombie Mode.
-- **Turn 1 Result:** Umbreon fainted. Muscle (54/211 HP).
-- **Incoming:** Vileplume.
-- **Decision:** Decline switch. Muscle stays in. Strategy: Strength. If Muscle faints -> Fodder -> Revive.
-- **Turn 2:** Muscle (54/211 HP) vs Vileplume.
-- **Move:** Strength (Slot 1).
-- **Reasoning:** Cross Chop is resisted (0.5x). Strength (80 Power, Neutral) > Dig (60 Power, Neutral). Cursor at Slot 4, moving to Slot 1.
-- **Turn 3:** Muscle (Paralyzed, 54/211 HP). Vileplume (HP Full?).
-- **Move:** Strength (Slot 1).
-- **Strategy:** Ignore Paralysis. If Muscle faints -> Zombie Revive. Strength is best neutral option.
-- **Anomaly:** Vileplume HP bar appears full despite taking a Strength hit. Possible high Def or visual bug. Keep attacking.
-- **Turn 3 Result:** Vileplume fainted to Strength. Muscle Paralyzed (20/211 HP).
-- **Incoming:** Gengar.
-- **Decision:** Stay in.
-- **Plan:** Gengar (Lv45) likely has Lick/Curse/Destiny Bond. Muscle might survive Lick. If so, Dig (Slot 2). If Muscle faints (Damage or Destiny Bond), switch to Gyarados -> Revive Muscle.
-- **Turn 4:** Muscle (Paralyzed, 20/211 HP) vs Gengar (Lv45).
-- **Move:** Dig (Slot 2).
-- **Reasoning:** Ghost is immune to Normal/Fighting. Dig (Ground) is 2x effective vs Poison.
-- **Expectation:** Gengar outspeeds. If Muscle faints -> Zombie Plan. If Muscle survives -> Dig.
-- **Turn 5:** Muscle fainted (Curse damage). Gengar cut its own HP.
-- **Action:** Switch to Mistral (Slot 6).
-- **Plan:** Sacrifice Mistral. Use Revive on Muscle immediately. Then switch Muscle back in (clean switch if Mistral faints, or hard switch).
+- **Vs Bruno:** Victory.
+- **Vs Karen:**
+  - T1: Muscle OHKO Umbreon (Cross Chop).
+  - T2-3: Muscle 2HKO Vileplume (Strength). Muscle Paralyzed.
+  - T4: Muscle vs Gengar. Gengar used Curse. Muscle used Dig.
+  - T5: Muscle fainted from Curse. Mistral sent in.
+  - T6 (Current): Mistral is fodder. Reviving Muscle.
