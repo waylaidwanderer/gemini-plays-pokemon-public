@@ -5,10 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Interaction:** Interacting with Cooltrainer M at (13, 24).
-- **Status:** Muscle Lv60 (162/198). Team healthy.
+- **Battle:** Fighting Cooltrainer Jake (Route 26).
+- **Status:** Gyarados (Lv34) leading. Muscle (Lv60) in reserve.
 - **Location:** Route 26 (12, 24).
-- **Next:** Defeat Cooltrainer M (if he battles). Continue North.
+- **Next:** Defeat Cooltrainer Jake. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
