@@ -36,7 +36,8 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: On Route 26 (Outdoors). Successfully exited Victory Road complex.
-- Action: Opening Start Menu to Fly to Goldenrod City.
-- Goal: Sell items, buy Elemental Punches, update movesets.
-- Note: Rock Smash (TM08) will be replaced by Ice Punch. Dig will be replaced by ThunderPunch.
+- Status: On Route 26 (Outdoors). Unable to Fly to Johto from here (likely map region restriction).
+- Action: Closing menu to trek South back to New Bark Town (Johto).
+- Goal: Reach New Bark Town -> Fly to Goldenrod City.
+- Route: Route 26 (South) -> Route 27 (West) -> Tohjo Falls -> Route 27 (West) -> New Bark Town.
+- Note: All trainers on Route 26 appear defeated. Ledges allow quick Southbound travel.
