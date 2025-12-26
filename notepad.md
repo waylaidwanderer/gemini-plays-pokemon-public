@@ -13,18 +13,7 @@
 - LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal. [Tested]
 - Route 38 (3, 9): FLOOR. [Verified via Game State]
 
-# Navigation: Fly Map (Johto)
-- Discovery: Linear list navigated by Up/Down.
-- Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
-
 # Side Quests
 - Arthur (Route 36): Thursday only. Gives Hard Stone. Failed attempt (Turn 21127-21134): Repeats intro loop, no item given. missing unknown trigger.
 - Clear Bell: In Key Items.
-
-# Lessons Learned
-- Fly Map: Linear list, not 2D grid. Use Up/Down and check Screen Text.
-- Pathfinding: Avoid find_path_v2 near warps to prevent accidental entry. Walk final tiles manually.
-- Collision Verification: Verify collision using movement tests before documenting.
-- Sprite Identification: Verify sprites before assuming (e.g. Beauty vs Suicune).
-- Pokedex Tracking: Pokedex "AREA" map is for the roamer. Scripted sightings are fixed overworld events.
 - Week Siblings: Arthur (Thursday) is on Route 36 near the Ruins of Alph path.
