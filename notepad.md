@@ -28,3 +28,4 @@
 - **Observation:** Attempt to descend waterfall at (18, 6) was interrupted by a wild battle (Goldeen). This likely caused the "Movement Blocked" alert, not an actual terrain blockage. Retrying descent at (19, 6) to be safe.
 - **Observation:** Encountered Wild Golbat at (23, 14), confirming the "Movement Blocked" was due to a battle.
 - **Observation:** Encountered Wild Arbok at (54, 6). Fleeing.
+- **Observation:** Encountered Wild Doduo at (14, 84). Fleeing.
