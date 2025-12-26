@@ -36,3 +36,4 @@
 - **Strategy:** Resuming navigation to 1F East Corridor (x=18).
 - **Path:** Loop South to (3, 56), East to (15, 56), then North to (18, 51).
 - **Goal:** Explore North of (18, 51) for missed ladder.
+- **Encounter:** Wild Golbat at (7, 56).
