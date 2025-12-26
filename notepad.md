@@ -38,8 +38,7 @@
 4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
-- Current Status: Traversing Victory Road Southbound to reach Route 23/26.
-- Exploration: Exiting Victory Road Gate (23_13) South to Route 26.
-- Goal: Fly to Goldenrod City from Route 26.
-- Item detected: Poke Ball at (18, 29) (Currently unreachable).
+- Current Status: On Route 26 (Outdoors). Opening Fly Map to travel to Goldenrod City.
+- Goal: Fly to Goldenrod City to sell items and buy TMs (Ice Punch, ThunderPunch).
+- Item detected: Poke Ball at (18, 29) (Victory Road, unreachable).
 - Note: Exiting the league area to regroup and upgrade team movesets.
