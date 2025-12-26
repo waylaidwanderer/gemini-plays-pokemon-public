@@ -1,6 +1,9 @@
 # Operation: Machamp Champ
-- **Current State:** Fighting Hitmonlee (Lv42).
-- **Battle Plan:** Use Strength (Physical). Target Slot 1.
+- **Current State:** About to fight Hitmonchan.
+- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def).
+- **Matchup Notes:** Hitmonchan has elemental punches (Special), but low Sp.Atk. Muscle is safe.
+
+# Team Status
 
 # Team Status
 
