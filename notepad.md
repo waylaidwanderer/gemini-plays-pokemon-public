@@ -55,3 +55,5 @@
 
 ## Violet City (10_5)
 - (27, 23): Ledge gap. Allows passage north without hopping the ledge.
+- Island Sweep #2 Result: Completed Turn 22782. 100% floor tile coverage on central island. Suicune did not appear.
+- Next Step: Check eastern Route 42 and Pokedex map.
