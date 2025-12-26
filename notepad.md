@@ -29,3 +29,6 @@
 - **Next:** Koga.
 - **Turn 19179:** Opening Pack to heal.
 - **Goal:** Revive Kunai, Heal Muscle.
+- **Turn 19180:** Searching for Revives in Pack.
+- **Action:** Scrolling down (Down x5).
+- **Goal:** Find Revive to use on Kunai.
