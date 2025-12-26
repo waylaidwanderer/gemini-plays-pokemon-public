@@ -128,8 +128,18 @@
 - **Action:** Strength again.
 - **Reasoning:** Strength is best neutral damage. Mach Punch does low damage, so Muscle is safe for now.
 - **Next:** Onix or Machamp.
-- **Current Battle:** Muscle (51/208 HP) vs Machamp (Full HP).
-- **Correction:** Accidentally entered Pack -> Item Use.
-- **Action:** Back out (B, B) -> Select Fight (Up, A) -> Strength (A).
-- **Strategy:** Zombie Mode. Attack until faint.
-- **Next:** Win or Revive loop.
+- **Current Battle:** Muscle (51/208 HP) vs Machamp (~45% HP).
+- **Status:** Muscle is healthy (No Poison). Machamp missed Cross Chop.
+- **Action:** Strength.
+- **Strategy:** Finish Machamp. If Muscle faints, sacrifice fodder (Mistral/Zenith) to Revive.
+- **Bruno Matchups:**
+  - **Hitmontop:** Defeated.
+  - **Hitmonlee:** Defeated.
+  - **Hitmonchan:** Defeated.
+  - **Onix:** Defeated? (Wait, did we fight Onix? No, usually Onix is first or second? Bruno's order: Hitmontop, Hitmonlee, Hitmonchan, Onix, Machamp. Or maybe Onix was skipped? Or I missed it in the logs? Wait, I saw Hitmontop, Hitmonlee, Hitmonchan... Machamp is 5th? Let me check the order.)
+  - **Check:** I fought Hitmontop (Turn 19283), Hitmonlee (Turn 19286), Hitmonchan (Turn 19288).
+  - **Missing:** Onix. Did I miss Onix? Or is Machamp #4?
+  - **Gen 2 Bruno Order:** Hitmontop, Hitmonlee, Hitmonchan, Onix, Machamp.
+  - **Wait:** If Machamp is out, Onix must be next? Or I missed Onix.
+  - **Correction:** Machamp is usually the ace (last). Maybe Onix is next? Or maybe the order is different.
+  - **Anyway:** Focus on Machamp.
