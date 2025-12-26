@@ -1,6 +1,6 @@
 # Operation: Elemental Upgrade
 - **Status:** Surfing on Route 27 (East Side).
-- **Plan:** Surf East to (60, 10) -> Land and enter Route 26.
+- **Plan:** Surf to Land at (46, 5) -> Cross Bridges East -> Enter Route 26.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
