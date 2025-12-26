@@ -1,11 +1,11 @@
 # Operation: Dragon Slayer
-- **Status:** Indigo Plateau (Karen's Room).
-- **Plan:** Heal Team, then Challenge Champion Lance.
-- **Opponent:** Lance (Dragon/Flying).
-- **Strategy:** Muscle carries with Ice Punch (Dragonites) and ThunderPunch (Gyarados/Charizard).
+- **Current State:** Item Menu. Muscle is NOT paralyzed (fainting cured it).
+- **Action:** navigating to REVIVE.
+- **Plan:** Revive Gyarados and Kunai. Then heal everyone.
+- **Team Update:** Muscle (112/225, Healthy). Gyarados (FNT). Kunai (FNT).
 
 # Team Status
-- Muscle (Lv68): 112/225 HP (Paralyzed). Needs Full Heal + HP.
+- Muscle (Lv68): 112/225 HP. Healthy.
 - Garnet (Lv29): Full.
 - Gyarados (Lv35): Fainted. Needs Revive.
 - Kunai (Lv24): Fainted. Needs Revive.
