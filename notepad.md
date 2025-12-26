@@ -59,3 +59,6 @@
 - **Action:** Up x2 (Select Revive) -> A (Select) -> A (Use).
 - **Target:** Gyarados.
 - **Strategy:** Heal Muscle with Super Potions after reviving Gyarados. Rely on Revive spam for future battles ("Zombie Mode").
+- **Turn 19269:** Reviving Gyarados.
+- **Action:** Down x2 (Select Gyarados) -> A (Confirm).
+- **Next:** Confirm Revive message -> Use Super Potions on Muscle.
