@@ -1,6 +1,6 @@
 # Operation: Elemental Upgrade
-- **Status:** Descending Waterfall.
-- **Plan:** Descend Waterfall from (18, 6) to (18, 10) -> Surf to Exit at (25, 15).
+- **Status:** Exiting Tohjo Falls.
+- **Plan:** Surf East to land at (22, 14) -> Walk to Exit at (25, 15).
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
