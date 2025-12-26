@@ -21,20 +21,19 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
     - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
-- Overworld Sightings (Stalled): Route 42 & Route 36.
-    - Failed Attempts: Thorough sweeps of Route 42 island and Route 36 junction [Turns 22256-22315]. Sprites did not appear.
-    - Strategy Shift: Proceeding directly to Tin Tower to engage the Wise Trio. Hypothesis: The sages or the tower itself may trigger the remaining sequence or the sightings were somehow bypassed. [Turn #22336]
-- Sighting 5 (Goal): Tin Tower 1F (Final Battle).
-    - How: Enter Tin Tower 1F via the NE entrance in Ecruteak City (37, 7). Requires Clear Bell and defeating the Wise Trio.
-- Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
+- Sighting 3 (Current Goal): Route 42 Central Island.
+    - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune should appear as a sprite and flee.
+    - Status: Missing trigger. If not on island, check Cianwood for missed Eusine dialogue.
+- Sighting 4: Route 36 (Sudowoodo junction).
+    - How: Approach the junction at (35, 9) after the Route 42 sighting.
+- Sighting 5: Tin Tower 1F (Final Battle).
+    - Requirement: Must defeat the Wise Trio (Sages) in the Barrier Station/Tin Tower 1F. They appear after Sightings 3 and 4 are complete.
 
 # Suicune Battle Strategy (Crystal)
-- Location: Tin Tower 1F (Final Sighting).
-- Status: Stationary encounter (does not flee).
-- Level: 40.
-- Strategy: Use KIMCHI (Sleep Powder) or XENON (Hypnosis) to induce sleep. Weaken with GNEISS or Calcifer.
-- Note: Mean Look is NOT required for this specific battle.
-- Requirement: Must defeat the Wise Trio first.
+- Location: Tin Tower 1F.
+- Status: Stationary encounter. Level 40.
+- Strategy: induced sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer). Mean Look NOT required.
+- Prerequisite: Defeat Wise Trio.
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
