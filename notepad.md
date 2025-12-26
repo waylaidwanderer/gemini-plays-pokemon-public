@@ -13,15 +13,15 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Prerequisite: Defeat Wise Trio in Ecruteak City (Required after obtaining Clear Bell). [Turn 21985]
+- Prerequisite: Defeat Wise Trio in Ecruteak City (Required because Clear Bell is in bag). [Turn 21985]
 - Sighting 3: Route 42 Central Island grove.
-  - HOW: Step on trigger tiles (approx 26, 14).
-- Sighting 4: Route 36 (Sudowoodo junction).
-  - HOW: Approach the clearing near the junction after Sighting 3.
+  - HOW: Step on trigger tiles (approx 26, 14) AFTER defeating Wise Trio.
+- Sighting 4: Route 36 (Sudowoodo junction). [Verified mandatory by Critique Turn #21960]
+  - HOW: Approach the junction after Sighting 3.
 - Sighting 5: Tin Tower 1F (Final Battle).
   - Prerequisite: Clear Bell (Obtained).
   - Prerequisite: All 4 scripted sightings must be triggered.
-- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Correction - Turn 21985]
+- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. Fuchsia City and Kanto routes are NOT in Crystal's sequence.
 
 # Gym Progress
 - Rising Badge (Clair): Next Gym Badge required. Travel to Blackthorn City.
@@ -39,6 +39,4 @@
 # Error Analysis Log
 - [Turn 21931] Mistake: Assumed Suicune sighting existed on Route 36 before 42. Correction: Sequence is 42 then 36. [Turn 21973]
 - [Turn 21957] Mistake: Mixed directional and action buttons. Result: Action stripped.
-- [Turn 21976] Mystery: Suicune not appearing on Route 42 despite prerequisites (Cianwood, Eusine battle, Clear Bell). Troubleshooting...
-- Prerequisite discovered: Must defeat Wise Trio in Ecruteak City to trigger remaining Suicune sightings (Route 42, Route 36) because Clear Bell is in inventory. [Turn 21977]
-- Task: Travel to Ecruteak City to confront the Wise Trio. [Start Turn 21977]
+- [Turn 21976] Mystery: Suicune not appearing on Route 42 despite prerequisites. Troubleshooting: NPC Troubleshooter confirmed Wise Trio must be defeated first when Clear Bell is held. [Turn 21985]
