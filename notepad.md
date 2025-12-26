@@ -6,8 +6,8 @@
 
 # Current Status (Turn 18801)
 - **Battle:** Fighting Cooltrainer Gaven (Victreebel Lv32).
-- **Matchup:** Gyarados (Water/Flying) vs Victreebel (Grass/Poison).
-- **Action:** Water resisted. Switching to Muscle (Machoke Lv60) to overpower.
+- **Matchup:** Muscle (Machoke Lv60) vs Victreebel.
+- **Action:** Switching in Muscle. Plan to use Strength.
 - **Location:** Route 26 (9, 39).
 - **Next:** Defeat Cooltrainer Gaven. Continue North.
 
