@@ -14,12 +14,11 @@
 - Start Turn: 22061
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Goal): Route 42 Central Island. Suicune should flee when approached.
-  - Target Area: Southern grove with Apricorn trees (27, 16), (28, 16), (29, 16).
-  - Hypothesis: Stepping on a specific tile near the trees triggers the event.
-- Sighting 4: Route 36 (Sudowoodo junction).
+- Sighting 3 (Attempted): Route 42 Central Island. No sprite found in object list after thorough search (Turns 22061-22202).
+- Sighting 4 (Goal): Route 36 (Sudowoodo junction). Checking if sequence progressed.
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
+- Note: If Route 36 is empty, I may need to re-verify the Cianwood trigger or check if a specific NPC dialogue is missing.
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
