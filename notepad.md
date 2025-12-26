@@ -36,6 +36,6 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: Traversing Route 26 South (Outdoors).
+- Status: Traversing Route 26 South. Detour to Rest House (15, 57) to heal.
 - Route: Route 26 (South) -> Route 27 (West) -> Tohjo Falls -> New Bark Town.
 - Note: Jumping ledges for speed. Trainers defeated. Received phone call from Wade (Bug Catcher).
