@@ -193,3 +193,11 @@
 - **Risk:** Confusion self-hit.
 - **Outcome Prediction:** If successful, Xatu takes ~50%. If self-hit, Muscle drops to ~95, then Xatu attacks (Psychic -> ~15 HP).
 - **Next:** If Xatu survives, repeat attack. If Muscle critical HP, heal again.
+- **Turn 19159:** Muscle fainted (Crit Psychic).
+- **Crisis Management:** Sending Gyarados (Lv 34).
+- **Plan:**
+  1. Gyarados enters.
+  2. Use **Max Revive** on Muscle.
+  3. Gyarados tanks hit (or faints).
+  4. Switch to Muscle (Full HP).
+  5. Strength to win.
