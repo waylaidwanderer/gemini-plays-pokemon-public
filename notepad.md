@@ -49,3 +49,6 @@
   2. Talk to the Sage in the Dance Hall.
   3. Talk to the Wise Trio in the Tin Tower Gatehouse/Wise Trio Room.
   4. Verify if Sighting 3 flag is set by checking if Suicune moves in Pokedex.
+- Turn 23568: Reset Route 42 by entering/exiting Mt. Mortar.
+- Turn 23565: Confirmed Suicune location is "Route 42" in Pokedex.
+- Observation: Suicune sprite is not yet visible on screen. Cutting tree at (24, 13) to access island.
