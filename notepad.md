@@ -51,3 +51,8 @@
 - Plan: Exit menu -> Move to (30, 16) -> Approach trees from the east. If fails, enter/exit Mt. Mortar (28, 9) and repeat.
 - Failed Attempt 3: Approached (26, 14) from the east (y=15 line). No trigger.
 - Next: Resetting map script via Mt. Mortar (28, 9).
+## Reflection (Turn 23720)
+- Root Hypothesis Check: Suicune hunt on Route 42. Pokedex confirms presence. Expert tracker suggests specific trigger tile (26, 14) and approach direction (East).
+- Lesson: Map reloads (entering/exiting warps) regrow Cut trees.
+- Strategy: Clear Sighting 3 (Route 42) and Sighting 4 (Route 36) to unlock the Wise Trio battle at Tin Tower.
+- Start Turn (Suicune Hunt Reset): 23700.
