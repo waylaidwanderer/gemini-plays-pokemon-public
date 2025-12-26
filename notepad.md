@@ -1,4 +1,4 @@
-# Tile Mechanics
+# Global Tile Mechanics
 - FLOOR: Traversable. Standard collision. [Verified]
 - WALL: Impassable. [Verified]
 - WATER: Traversable only when using HM03 Surf. [Verified]
@@ -6,9 +6,7 @@
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. [Verified]
 - CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. [Verified]
 - WARP_CARPET: Traversable. Triggers map transition. [Verified]
-- DOOR: Warp point. [Verified]
-- STAIRS: Warp point. [Verified]
-- CAVE: Warp point. [Verified]
+- DOOR/STAIRS/CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 
@@ -20,7 +18,14 @@
   3. Route 42 (Central Island): Middle Apricorn grove. Trigger tile (26, 14). Requires map reload (enter/exit cave) if it doesn't appear.
   4. Route 36 (Sudowoodo junction): Near the fat guy.
   5. Tin Tower 1F (Final Battle): Requires Clear Bell (In Inventory).
-- Current Objective: Trigger Sighting 3 on Route 42 island.
+- Progress: Hunt started Turn 23560. Attempted Sighting 3 reset loop multiple times on Route 42.
+
+# Ecruteak Investigation Plan
+1. Fly to Ecruteak City.
+2. Visit Dance Hall: Talk to Sage/Kimono Girls.
+3. Visit Tin Tower Gatehouse: Talk to Wise Trio (Sage trio).
+4. Visit Tin Tower 1F: Check if Suicune is already there (requires Clear Bell).
+5. Visit Route 36: Check if Sighting 3 was skipped or auto-cleared.
 
 # Type Effectiveness (Verified)
 - Fire -> Grass: Super Effective
@@ -42,13 +47,3 @@
 
 # Money & Economy
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
-
-# Ecruteak Contingency Plan
-- If island sighting fails:
-  1. Go to Ecruteak City.
-  2. Talk to the Sage in the Dance Hall.
-  3. Talk to the Wise Trio in the Tin Tower Gatehouse/Wise Trio Room.
-  4. Verify if Sighting 3 flag is set by checking if Suicune moves in Pokedex.
-- Turn 23568: Reset Route 42 by entering/exiting Mt. Mortar.
-- Turn 23565: Confirmed Suicune location is "Route 42" in Pokedex.
-- Observation: Suicune sprite is not yet visible on screen. Cutting tree at (24, 13) to access island.
