@@ -1,7 +1,7 @@
 # Operation: Machamp Champ
-- **Current State:** About to fight Onix.
-- **Battle Plan:** Switch to Gyarados (Slot 3). Use Surf (4x Effective).
-- **Matchup:** Gyarados Intimidate cuts Onix's weak attack. Surf OHKOs.
+- **Current State:** Fighting Onix (Lv43). Gyarados Active.
+- **Battle Plan:** Use Surf (Slot 4). OHKO likely.
+- **Matchup:** Gyarados (Intimidate) vs Onix (Weak Attack). Rock Throw is 2x effective but weak.
 
 # Team Status
 
