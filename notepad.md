@@ -10,14 +10,18 @@
 - TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 - PC: Standing below (facing up) and pressing A allows access to item and Pokémon storage. [Verified]
 
+# General Lessons
+- Scripted Events: Scripted encounters (like Suicune sightings) are based on visible sprites in the Map Objects list, not hidden tile triggers. If the sprite is not present, the event cannot be triggered by walking. [Turn 22217]
+- Ecruteak Geography: There are two distinct buildings in northern Ecruteak. The NW building leads to the Burned Tower. The NE building (Barrier Station) leads to the Tin Tower. The Wise Trio appears in the Barrier Station after getting the Clear Bell. [Turn 22217]
+
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island. (Attempted, sprite not found).
-- Sighting 4 (Goal): Route 36 (Sudowoodo junction).
+- Sighting 3: Route 42 Central Island. (Attempted Turn 22061, sprite not found).
+- Sighting 4 (Goal): Route 36 (Sudowoodo junction). [Start Turn 22215]
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Note: Scripted sightings are sprite-based. If Suicune is not at Route 36, I will re-verify Route 42 or check Tin Tower.
+- Note: If Route 36 is empty, I will re-verify the Barrier Station in Ecruteak.
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
