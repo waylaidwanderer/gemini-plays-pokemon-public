@@ -150,3 +150,8 @@
 - **Turn 19150:** Will used Max Potion. Xatu back to 100% HP. Muscle 100% HP (Confused).
 - **Action:** Select FIGHT.
 - **Next:** Select Strength. Hope to break through confusion.
+- **Turn 19151:** Menu is on STRENGTH.
+- **Action:** Press A to Attack.
+- **Risk:** Confusion self-hit (~30 dmg).
+- **Prediction:** Muscle attacks (or hurts self). Xatu attacks.
+- **Goal:** Chip Xatu down again.
