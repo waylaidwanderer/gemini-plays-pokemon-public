@@ -1,6 +1,7 @@
 # Operation: Machamp Champ
-- **Current State:** Fighting Machamp (Lv46).
-- **Battle Plan:** Use Strength (Physical, Neutral). Level advantage (+21) ensures victory.
+- **Current State:** About to fight Onix.
+- **Battle Plan:** Switch to Gyarados (Slot 3). Use Surf (4x Effective).
+- **Matchup:** Gyarados Intimidate cuts Onix's weak attack. Surf OHKOs.
 
 # Team Status
 
