@@ -7,7 +7,7 @@
 # Current Status (Turn 18855)
 - **Battle:** Defeated Cooltrainer Beth (Rapidash).
 - **Status:** Gyarados (76/111). Muscle Lv61.
-- **Location:** Entering Victory Road.
+- **Location:** Victory Road (3_91).
 - **Next:** Traverse Victory Road to the Indigo Plateau.
 
 # Plan
