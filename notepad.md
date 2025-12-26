@@ -62,3 +62,6 @@
 - Observation: Suicune is currently on the east side of Johto.
 - Hypothesis: Scripted sightings in Crystal may require the roaming icon to be present on the current route to trigger the overworld event.
 - Plan: Cycle map transitions at the Route 42/Ecruteak gatehouse until Suicune is on Route 42.
+- Turn 23337: Mt. Mortar reset failed (sprite did not appear at (26, 14)). 
+- New Strategy: Gatehouse hopping. Cross the Route 42/Ecruteak boundary repeatedly and check the Pokédex until Suicune is on Route 42. Then check the island.
+- Reason: Scripted sightings in Crystal may be tied to the roaming Suicune's current map location.
