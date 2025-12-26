@@ -1,10 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Sending out Gyarados (QAAGMAQNJW).
+- **Current State:** Fighting Houndoom (Lv47). Gyarados (Lv35) active.
 - **Battle Plan:** Use Surf (Slot 4).
-- **Matchup:** Gyarados (Lv35) vs Houndoom (Lv47). Water resists Fire. Surf is SE.
-- **Critical:** Gyarados must survive to hit Surf.
-- **Menu State:** Party Menu. Cursor on Gyarados.
+- **Matchup:** Gyarados resists Fire. Surf (Water, Special) is 2x Effective.
+- **Stats:** Gyarados has low Sp.Atk (Gen 2 Water is Special), but 2x SE + STAB should hurt.
+- **Risk:** Level gap (12 levels). Houndoom outspeeds. Gyarados is the last capable member.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
