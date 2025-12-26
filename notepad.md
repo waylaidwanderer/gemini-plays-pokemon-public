@@ -97,3 +97,7 @@
 - **Action:** Use Surf (Slot 4).
 - **Reasoning:** STAB, Special attack vs Forretress (Lower SpDef).
 - **Risk:** Explosion. Gyarados is best tank available.
+- **Turn 19233:** Forretress defeated. Muk incoming.
+- **Action:** Decline Switch (Down -> A).
+- **Plan:** Use Revive on Muscle immediately. Gyarados tanks a hit.
+- **Reasoning:** Gyarados can survive one hit. Muscle (Dig) is needed to kill Muk efficiently. Mistral sack is risky if Muk attacks on switch-in.
