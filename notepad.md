@@ -24,3 +24,4 @@
 - **Correction:** Wall at (17, 14) blocks direct East movement. Gap detected South at (17, 16).
 - **Plan:** Navigate South to (16, 16), East through gap at (17, 16) to x=18 corridor, then North to (18, 11).
 - **Goal:** Traverse West along Row 11 (Upper Level) to find path to ladder (17, 19).
+- **Encounter:** Wild Graveler at (16, 16).
