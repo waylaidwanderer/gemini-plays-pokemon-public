@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Trigger Sighting 3 flee event by approaching the water edge near the Cut tree at (24, 13).
+- Strategy: Trigger Sighting 3 flee event by approaching the Apricorn trees (Y=16) from the island interior.
 
 # Primary Goal Strategy: Catch Suicune at Tin Tower 1F
 1. Complete scripted Johto sightings (Burned Tower, Cianwood, Route 42).
@@ -15,19 +15,17 @@
 - Sighting 2: Cianwood (Complete).
 - Eusine: Defeated in Cianwood (Complete).
 - Sighting 3: Route 42 (Current).
-- Arthur (Thursday): Located on Route 36. Provides Hard Stone.
 
-# Pokedex Navigation
-- A-Z Mode: Alphabetical list. Current sort.
-- Johto/National Mode: Numeric list. Press Start to change.
-
-# Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Surf required.
-- HEADBUTT_TREE: Impassable. Interaction only.
-- CUT_TREE: Blockage. Cut required.
-- FLOOR_UP_WALL: Ledge (one-way).
+# Tile Mechanics (Route 42)
+- FLOOR: Traversable. Standard ground. [Verified]
+- WALL: Impassable. Rock faces and boundaries. [Verified]
+- WATER: Traversable via Surf. [Verified]
+- HEADBUTT_TREE: Impassable. Interaction only. [Verified]
+- CUT_TREE: Impassable. Can be removed with Cut. [Verified]
+- FLOOR_UP_WALL: Impassable ledge (one-way down). [Verified]
+- CAVE: Warp to Mount Mortar. [Verified]
+- WARP_CARPET_LEFT: Warp to Ecruteak Gate. [Verified]
+- TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 
 # Contingency Plan
 - If trigger fails, check Route 36 to see if sequence advanced.
