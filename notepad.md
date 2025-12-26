@@ -23,23 +23,26 @@
 - Sighting 2: Cianwood City (Complete)
     - Note: Observed Suicune at (10, 14) and defeated Eusine. [Verified]
 - Sighting 3 (Goal): Route 42 Central Island.
-    - How: Surf from the mainland (e.g., from (13, 8)) to the island. Use Cut at (24, 13) to enter the grove. Approach the three Apricorn trees. Suicune should appear as a sprite and flee.
+    - How: Surf to the island, Cut at (24, 13). Approach the three Apricorn trees. Suicune flees.
+    - **CRITICAL:** Suicune's scripted path in Crystal is NOT shown in the Pokedex 'Nest' screen. Red dots are Raikou/Entei.
 - Sighting 4: Route 36 (Sudowoodo junction).
-    - How: Approach the junction at (35, 9) after the Route 42 sighting.
+    - How: Approach junction at (35, 9) after sighting 3.
 - Sighting 5: Tin Tower 1F (Final Battle).
-    - Requirement: Must defeat the Wise Trio (Sages) in the Barrier Station/Tin Tower 1F. They appear after Sightings 3 and 4 are complete.
+    - Requirement: Defeat Wise Trio. They appear after Sightings 3 and 4 are complete.
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F.
-- Status: Stationary encounter. Level 40.
-- Strategy: induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer). Mean Look NOT required.
-- Prerequisite: Defeat Wise Trio.
+- Level 40. Strategy: Induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # Timestamps
-- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Checking Pokédex for Suicune location after failed Route 42 trigger.
+- Suicune Hunt (Route 42/36 Phase): Started Turn 22256. Current Status: Verifying Sighting 4 on Route 36.
+
+# Tile Mechanics (Route 37)
+- FLOOR: Traversable. [Verified]
+- TALL_GRASS: Traversable. [Verified]
 
 # Tile Mechanics (Route 42)
 - Water at (22, 12) is traversable via Surf from the land.
