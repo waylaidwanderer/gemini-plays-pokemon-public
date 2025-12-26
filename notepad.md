@@ -27,3 +27,5 @@
 # Battle Log
 - **Vs Will:** Defeated. (Muscle swept).
 - **Next:** Koga.
+- **Turn 19179:** Opening Pack to heal.
+- **Goal:** Revive Kunai, Heal Muscle.
