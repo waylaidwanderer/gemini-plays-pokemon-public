@@ -65,3 +65,9 @@
 - **Action:** Up (Select FIGHT) -> A (Select) -> A (Select Strength).
 - **Status:** Muscle Poisoned. Crobat Full HP.
 - **Strategy:** Strength is the only viable move. Keep attacking.
+- **Turn 19225:** Muscle used Strength (Turn 19224).
+- **Opponent Action:** Crobat used Double Team (Evasion +2).
+- **Status:** Muscle 140/205 (Badly Poisoned). Crobat ~40% HP.
+- **Action:** Use Strength again.
+- **Reasoning:** Must breakthrough evasion.
+- **Risk:** Toxic damage ramping up. Crobat might heal again.
