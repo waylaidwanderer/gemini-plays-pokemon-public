@@ -31,8 +31,8 @@
 - **Encounter:** Fled from Golbat at (3, 64).
 - **Exploration:** Central path at (7, 60) appears blocked by elevated terrain (FLOOR_UP_WALL).
 - **Strategy:** Detouring via (7, 61) to access the eastern corridor.
-- **Exploration:** Navigated loop to (11, 54).
-- **Strategy:** Continue West along y=54 to explore unseen area.
+- **Exploration:** Navigated loop to (11, 54). Then West to (8, 54).
+- **Strategy:** Navigate South to (7, 56), then West to explore the area at x=3.
 - **Encounter:** Fled from Golbat at (11, 54).
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
