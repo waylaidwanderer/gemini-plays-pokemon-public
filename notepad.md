@@ -23,6 +23,8 @@
   2. Walk North to Route 39 (exit at 21, 0). (Done)
   3. Walk North to Route 38 West. (Done)
   4. Explore ledge to find Suicune. (In Progress)
+     - Checked Chad's corridor (X=4).
+     - Hypothesis: Isolated pocket at X=0-2, Y=1-6 is reachable via a second entrance from Route 39 at Y=6.
   5. Trigger Suicune flee (Scripted).
 
 # Side Quests & Observations
