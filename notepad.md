@@ -20,15 +20,12 @@
 - Ghost -> Psychic: Super Effective
 
 ## Party Movesets
-- Calcifer (TYPHLOSION): Flame Wheel, Headbutt, Smokescreen, Thunderpunch.
-- ICARUS (PIDGEY): Quick Attack, Sand-Attack, Gust, Fly.
-- GNEISS (GRAVELER): Earthquake, Defense Curl, Strength, Rollout.
-- Ravioli (KRABBY): Bubble, Leer, Surf.
-- XENON (GASTLY): Hypnosis, Lick, Night Shade, Mean Look.
-- KIMCHI (GLOOM): Absorb, Sweet Scent, Cut, Sleep Powder.
-
-## PC Storage Inventory
-- Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+- Calcifer (TYPHLOSION): Lv45. Flame Wheel, Headbutt, Smokescreen, Thunderpunch.
+- ICARUS (PIDGEY): Lv16. Quick Attack, Sand-Attack, Gust, Fly.
+- GNEISS (GRAVELER): Lv44. Earthquake, Defense Curl, Strength, Rollout.
+- Ravioli (KRABBY): Lv10. Bubble, Leer, Surf.
+- XENON (GASTLY): Lv21. Hypnosis, Lick, Night Shade, Mean Look.
+- KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
 
 # Event Mechanics: Suicune Hunt (Crystal)
 - Status: Suicune is a visible overworld sprite.
@@ -38,10 +35,9 @@
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Pokedex shows Route 42]
      - Hard Reset Start Turn: 23902
-     - Trigger Hypothesis: Approach from East (Mahogany Town) to force script load.
-     - Recommended Interaction: Face (26, 13) from (26, 14) and press A. Or interact with Apricorn trees.
-     - Contingency: If island interactions fail, leave Route 42 and check Route 36 or Ecruteak for missed flags.
-  4. Route 36 (Sudowoodo junction): Near the fat guy.
+     - Strategy: Approach from East (Mahogany Town) and interact with trees or stand on (26, 14).
+     - Contingency: If no trigger after Pokedex verification, check Route 36 or Ecruteak flags.
+  4. Route 36 (Sudowoodo junction): Near fat guy NPC.
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Locked by sighting 3]
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
@@ -51,5 +47,5 @@
 # Lessons Learned
 - FLY Map Navigation: Grid-based. Relative positions match region map.
 - Suicune Sighting 3: Simple map resets (Mt. Mortar) failed. Approaching from East (Mahogany) is required to trigger the island event.
-- Trigger Logic: The event likely requires walking on a specific tile (possibly 26, 14) while approaching from the right side of the grove. Interaction (A button) with the trees may also be required.
-- Stagnation: Spending too much time on one trigger (200+ turns) is inefficient. If Pokedex confirms location but sprite won't load, checking other sightings is the next logical step.
+- Trigger Logic: Event likely requires walking on (26, 14) or interacting with trees. Approach from Right/East side is recommended.
+- Stagnation: Spending 200+ turns on one trigger is excessive. Verify location and pivot if needed.
