@@ -16,10 +16,10 @@
 - Sighting 3: Route 42
     - Trigger Tile: (26, 14) (Middle of the island grove). [Hypothesis: Failed Attempt 1]
     - Logic: Proximity-based trigger in front of the three Apricorn trees. Approaches should be made slowly (walking) to ensure script execution.
-    - Strategy: Mahogany Entrance Reset. Currently verifying sighting status via Pokedex.
+    - Strategy: Mahogany Entrance Reset.
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
-- Note: Suicune does not roam in Crystal; it follows a scripted sighting sequence. Pokedex 'Area' may show 'Unknown'.
+- Note: Suicune does not roam in Crystal; it follows a scripted sighting sequence. Pokedex 'Area' may show 'Unknown' or indicate the next scripted location. Currently verifying sighting status via Pokedex.
 
 # Battle Strategy: Suicune
 - Status: Leading with XENON (Gastly).
