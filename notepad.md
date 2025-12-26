@@ -26,3 +26,4 @@
     - Rooftop: Vending Machines.
 - **Healing Efficiency:** Fresh Water (4¥/HP), Soda Pop (5¥/HP), Lemonade (4.375¥/HP), Hyper Potion (6¥/HP). Fresh Water is best value! Change plan to buy Fresh Water? No, Lemonade is faster per heal.
 - **Gen 2 Mechanics:** Ghost is Physical, Dark is Special. Sneasel (Dark/Ice) has bad Sp.Atk, so Dark moves like Thief are bad. Shadow Ball (Ghost) is good.
+- **Tool Fix (Turn 20048):** Updated `buy_vending_drinks` to handle potential variable injection issues and refined timing.
