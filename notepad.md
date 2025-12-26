@@ -27,4 +27,4 @@
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22921.
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22934.
