@@ -114,6 +114,9 @@
 - **Expectation:** Menu closes, turn ends, Muk attacks Gyarados.
 - **Next Turn:** Switch Muscle in. Use Dig.
 - **Turn 19237 (Opponent):** Muk used Minimize (Evasion +2).
-- **Turn 19238:** Muscle active (Poisoned).
-- **Action:** Select FIGHT (Up -> A).
-- **Plan:** Use Dig (Super Effective). Minimize makes hitting harder, but we must try.
+- **Turn 19238:** Input error (only Up registered). Cursor on FIGHT.
+- **Correction:** Gyarados is still active. Need to switch to Muscle.
+- **Action:** Right (Select PKMN) -> A (Open Party).
+- **Next:** Switch to Muscle.
+- **Context:** Muk used Minimize (+2 Evasion). Muscle is Poisoned (104/208 HP).
+- **Strategy:** Switch Muscle in. Use Dig (Super Effective). Pray for hit.
