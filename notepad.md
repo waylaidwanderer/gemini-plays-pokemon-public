@@ -3,8 +3,8 @@
 - **Plan:** Defeat Elite Four Koga.
 - **Opponent:** Koga (Poison Type).
 - **Strategy:** Muscle leads. Garnet for Forretress (4x Fire weak).
-- **Current State:** Muscle defeated Ariados. Venomoth is next.
-- **Battle Plan:** Stay in with Muscle. Use Strength (Physical, Neutral) on Venomoth.
+- **Current State:** Fighting Venomoth (Lv41).
+- **Battle Plan:** Use Strength (Neutral, Physical).
 
 # Team Status
 - Muscle (Lv66): ThunderPunch/Ice Punch (vs Crobat), Strength.
