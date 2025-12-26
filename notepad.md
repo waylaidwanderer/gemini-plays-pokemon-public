@@ -9,11 +9,12 @@
 # Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3: Route 42 Central Island (Approach Apricorn trees).
+- Sighting 3: Route 42 Central Island.
+    - Status: Not triggered yet.
+    - Strategy: Reach island (Surf/Cut). Use 'find_unmarked_floor_tiles' to systematically walk on EVERY FLOOR tile in the grove (approx x=24-30, y=14-17) to hit the scripted trigger.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
 - Sighting 5: Tin Tower 1F (Final Battle).
-    - Requirement: Defeat Wise Trio. They appear after Sightings 3 and 4.
-- **Verification Result:** Checked Tin Tower 1F (Turn 22482-22492). Sages are present but only providing lore. This confirms Sightings 3 and 4 are still required.
+- **Verification Result:** Checked Tin Tower 1F. Sages present but lore-only. Sightings 3 & 4 are definitely still required.
 - Battle Strategy: Level 40. Induce sleep (KIMCHI/XENON), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
