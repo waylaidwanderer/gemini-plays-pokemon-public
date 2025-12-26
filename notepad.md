@@ -26,9 +26,5 @@
 - **Fly Map Order (Up Button):** New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> ...
 - **Fly Map Issue:** Unable to select Indigo Plateau on Fly map. Cycling through towns loops without showing it.
 - **Plan B:** Surf from New Bark Town to Route 27 -> Tohjo Falls -> Victory Road.
-- **Observation:** Attempt to descend waterfall at (18, 6) was interrupted by a wild battle (Goldeen). This likely caused the "Movement Blocked" alert, not an actual terrain blockage. Retrying descent at (19, 6) to be safe.
-- **Observation:** Encountered Wild Golbat at (23, 14), confirming the "Movement Blocked" was due to a battle.
-- **Observation:** Encountered Wild Arbok at (54, 6). Fleeing.
-- **Observation:** Encountered Wild Doduo at (14, 84). Fleeing.
-- **Observation:** Encountered Wild Doduo at (16, 76). Fleeing.
-- **Observation:** Wall at (12, 51) blocks direct path North. Must detour South-West to (9, 54) to bypass it.
+- **Reflection (Turn 20151):** Reviewed state. Markers accurate. Tools sufficient. Cleared old observation logs.
+- **Observation:** Row of ledges at Y=23 blocks Northward movement on the left side. Must navigate East to X=12 to proceed North.
