@@ -4,7 +4,7 @@
 - **Tertiary:** Train team.
 
 # Current Status
-- **Location:** Bruno's Room -> Karen's Room.
+- **Location:** Karen's Room.
 - **Party:**
   - Muscle (Lv64): 54/211 HP.
   - Gyarados (Lv35): 107/114 HP.
