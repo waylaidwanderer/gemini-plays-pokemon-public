@@ -46,4 +46,4 @@
 - Suicune Hunt Phase 3 (Route 42) started Turn 22256.
 - Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14).
 - Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate.
-- Island Sweep Progress: (21, 11) checked. Currently at (21, 11). Summary: (20-22, 10), (20-21, 11), (22-24, 11), (22-23, 12), (24, 12-14), (25, 14-15), (26, 14-17), (27, 14-15, 17), (28, 15, 17), (29, 15, 17), (30, 15-17) checked.
+- Island Sweep Progress: (23, 10) checked. Currently at (23, 10). Summary: (20-23, 10), (20-21, 11), (22-24, 11), (22-23, 12), (24, 12-14), (25, 14-15), (26, 14-17), (27, 14-15, 17), (28, 15, 17), (29, 15, 17), (30, 15-17) checked.
