@@ -128,9 +128,8 @@
 - **Action:** Strength again.
 - **Reasoning:** Strength is best neutral damage. Mach Punch does low damage, so Muscle is safe for now.
 - **Next:** Onix or Machamp.
-- **Current Battle:** Muscle (51/208 HP) vs Hitmonchan (~40% HP).
-- **State:** Accidentally in Party Menu.
-- **Action:** Back out (B) -> Select Fight (Left, A) -> Strength (A).
-- **Goal:** Finish Hitmonchan.
-- **Next:** Onix or Machamp.
-- **Strategy:** Zombie Mode (0 Potions). Use Revives if Muscle falls.
+- **Current Battle:** Muscle (51/208 HP) vs Machamp (Full HP).
+- **Correction:** Opponent is Machamp, not Hitmonchan (Fainted).
+- **State:** In Party Menu.
+- **Action:** Back out (B) -> Fight (Strength).
+- **Strategy:** Zombie Mode. Attack until faint.
