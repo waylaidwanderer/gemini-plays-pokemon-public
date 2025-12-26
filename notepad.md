@@ -111,3 +111,12 @@
 - **Action:** Use Strength (Slot 1).
 - **Reasoning:** Dragonite is Dragon/Flying. Fighting (Cross Chop) is resisted. Ground (Dig) is immune. Normal (Strength) is neutral and best option.
 - **Strategy:** Tank hit, deal damage. If Muscle faints -> Zombie Strategy.
+- **CRITICAL UPDATE:** Muscle is out of PP for Strength and Cross Chop!
+- **Current Status:** Muscle is useless offensively (Rock Smash is weak/resisted, Dig is immune).
+- **New Plan (The Max Zombie):**
+  1. Let Muscle faint (stay in and use Rock Smash until KO).
+  2. Switch to fodder (Zenith/Kunai).
+  3. Use **MAX REVIVE** on Muscle (Restores Full HP & PP). This is my ONLY Max Revive.
+  4. Let fodder faint.
+  5. Muscle returns with full PP to sweep.
+- **Turn 19379:** Using Rock Smash to pass turn.
