@@ -4,6 +4,9 @@
 - Logic: Scripted sightings (1-5) are overworld events. Suicune remains stationary until approached.
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 - Note: Suicune was not found on Route 42 island clearing despite Pokedex showing it on Route 42. Pivoting to Route 36 to verify prerequisites.
+- Strategy: Fly to Violet City, head west to Route 36.
+- Arthur (Thursday): Route 36 (15, 7).
+- Suicune Sighting 4: Route 36.
 
 ## Tile Mechanics
 - FLOOR: Traversable. [Tested]
