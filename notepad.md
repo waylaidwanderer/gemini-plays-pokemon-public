@@ -37,5 +37,5 @@
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
 - **Encounter:** Wild Golbat at (15, 50).
 - **Encounter:** Wild Graveler at (8, 54).
-- **Exploration:** Navigated to (11, 40).
-- **Strategy:** Loop East to (13, 40), South to (13, 42), then West to (7, 38) to collect the item.
+- **Exploration:** Retrieved Item at (7, 38).
+- **Strategy:** Hop ledge left, then navigate North from (1, 35) to explore the northern section of Victory Road 2F.
