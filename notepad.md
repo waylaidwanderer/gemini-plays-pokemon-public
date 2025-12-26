@@ -41,3 +41,7 @@
 - **Status:** Dragonite is recharging (Hyper Beam mechanic).
 - **Action:** Use Rock Smash (Slot 3).
 - **Reasoning:** Free turn. Muscle will likely faint next turn, initiating the Max Revive sequence.
+- **Turn 19385:** Dragonite is recharging (Hyper Beam). Free turn!
+- **Action:** Rock Smash (Slot 3).
+- **Goal:** Chip damage/Def drop. Muscle safe this turn.
+- **Next Turn (19386):** Dragonite attacks -> Muscle faints -> Max Zombie Plan begins.
