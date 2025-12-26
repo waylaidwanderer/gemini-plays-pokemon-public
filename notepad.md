@@ -17,8 +17,7 @@
 - Sighting 2: Cianwood City (Complete).
 - Sighting 3: Route 42 (In Progress).
     - Objective: Trigger Suicune on the central island.
-    - Hypothesis 1: Trigger is at (27, 14) or (28, 15) near Apricorn trees. [Failed]
-    - Hypothesis 2: Trigger is on the eastern land path or bordering water. [Testing]
+    - Strategy: Approach the Apricorn trees (27, 16), (28, 16), (29, 16) on the central island.
 - Sighting 4: Route 36 (Sudowoodo junction). Locked.
 - Sighting 5: Tin Tower 1F (Final). Requires Clear Bell.
 
