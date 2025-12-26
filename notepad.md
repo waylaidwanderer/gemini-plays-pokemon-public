@@ -36,38 +36,14 @@
 
 # Battle Log
 - **Vs Bruno:** Victory.
-- **Vs Karen:**
-  - T1: Muscle OHKO Umbreon (Cross Chop).
-  - T2-3: Muscle 2HKO Vileplume (Strength). Muscle Paralyzed.
-  - T4: Muscle vs Gengar. Gengar used Curse. Muscle used Dig.
-  - T5: Muscle fainted from Curse. Mistral sent in.
-  - T6 (Current): Mistral is fodder. Reviving Muscle.
-- **Correction:** Previous turn inputs truncated. Now selecting Revive.
-- **Action:** Press A to open Party Menu. Will select Muscle next turn to ensure cursor placement.
-- **Turn 19324:** Pressed A to select 'USE'. Party menu opening. Target: Muscle (Slot 1). Only valid target for Revive.
-- **Turn 19325:** Moving cursor from Mistral (Slot 6) to Muscle (Slot 1).
-- **Next:** Confirm Revive on Muscle. Then wait for Mistral to faint.
-- **Turn 19326:** Used Revive on Muscle. Muscle restored to 105/211 HP (50%).
-- **Next:** Exit menus, let Mistral faint, switch Muscle in.
-- **Turn 19329:** Switching Muscle in.
-- **Plan:** Muscle (105/211 HP) enters. Gengar will move (Destiny Bond likely fails or ends). Next turn: Dig.
-- **Turn 19330:** Retry switching Muscle in using slow_press (A, A). Previous attempt likely failed due to input speed.
-- **Strategy:** Dig (Slot 2) once Muscle is in. Dig avoids Destiny Bond from faster Gengar.
-- **Turn 19335:** Declining switch. Muscle stays in vs Murkrow.
-- **Mistral Update:** Forgot Tackle, learned Quick Attack.
-- **Strategy:** Strength (Slot 1) vs Murkrow. Expecting OHKO.
-- **Turn 19336:** Dig failed (Flying immune). Murkrow used Faint Attack (12 dmg).
-- **Turn 19337:** Using Strength (Slot 1).
-- **Reasoning:** Fighting moves are Neutral vs Dark/Flying. Dig is Immune. Strength is reliable neutral damage.
-- **Matchup:** Muscle (87/211 HP) vs Murkrow. Muscle is safe.
-- **Turn 19337 Result:** Murkrow defeated.
-- **Incoming:** Houndoom (Lv47).
-- **Decision:** Stay in. Muscle (87/211 HP).
-- **Strategy:** Cross Chop (1 PP left). It's Super Effective. If it hits, OHKO. If miss/faint -> Zombie Plan. Gyarados (Lv35) is too low level to tank hits.
-- **Turn 19338 Result:** Declined switch.
-- **Matchup:** Muscle (87/211 HP) vs Houndoom (Lv47).
-- **Strategy:** Use last Cross Chop PP. Super Effective STAB. Should OHKO.
-- **Backup:** If miss/faint, use Zombie Plan (Revive). Dig is also Super Effective.
-- **Turn 19340 Result:** Houndoom outsped, used Flamethrower (Muscle down to 26 HP). Muscle landed Cross Chop (Super Effective).
-- **Expectation:** Houndoom faints. Karen defeated.
-- **Next:** Advance text. Heal up/Revive strategy for Lance.
+- **Vs Karen:** Victory.
+  - Muscle (26 HP) survived.
+- **Next:** Champion Lance.
+  - **Strategy:** "Zombie Mode" (Revive spam). Muscle is key.
+  - **Lance's Team:** Gyarados, Dragonites (x3), Charizard, Aerodactyl.
+  - **Matchups:**
+    - Gyarados/Charizard/Aerodactyl: Weak to Rock/Electric. My Gyarados has Surf (Good vs Charizard/Aerodactyl/Rock-types).
+    - Dragonites: Weak to Ice/Rock/Dragon. I have no Ice. Muscle's Strength is best bet.
+    - **Plan:** Lead with Muscle (26 HP). Let him faint. Max Revive (Full HP) or Revive (50%).
+    - **Note:** I have 1 Max Revive. Save for emergency? Or use early to establish dominance?
+    - **Actually:** Use Mistral as fodder to revive Muscle.
