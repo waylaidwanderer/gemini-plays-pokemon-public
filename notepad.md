@@ -1,8 +1,8 @@
 # Operation: Dragon Slayer
-- **Current State:** Item Menu. Muscle is NOT paralyzed (fainting cured it).
-- **Action:** navigating to REVIVE.
-- **Plan:** Revive Gyarados and Kunai. Then heal everyone.
-- **Team Update:** Muscle (112/225, Healthy). Gyarados (FNT). Kunai (FNT).
+- **Current State:** Reviving Team.
+- **Action:** Reviving Gyarados and Kunai.
+- **Plan:** Use Revive on Slot 3 & 4. Then switch to Potions to top everyone up.
+- **Team Update:** Muscle (112/225). Gyarados (Reviving). Kunai (Reviving).
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
