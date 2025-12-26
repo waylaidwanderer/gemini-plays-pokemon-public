@@ -37,3 +37,4 @@
 - **Observation:** Encountered Wild Rhyhorn at (3, 55). Fleeing.
 - **Observation:** Persistent Rhyhorn encounter at (3, 55). Fleeing again.
 - **Observation:** Encountered Wild Onix at (3, 56). Fleeing.
+- **Observation:** Encountered Wild Onix at (9, 54). Fleeing.
