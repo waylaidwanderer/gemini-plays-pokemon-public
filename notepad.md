@@ -4,7 +4,7 @@
 - **Tertiary:** Become Champion.
 
 # Operation: Elemental Upgrade
-1. **Fly to Goldenrod:** (In Progress) Move South from Indigo Plateau entrance to enable Fly.
+1. **Fly to Goldenrod:** (In Progress) Route 23 forbids Flying. Exiting South to Route 26/Victory Road Gate to find a valid Fly spot.
 2. **Fundraising:**
    - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
    - Have: 219.
