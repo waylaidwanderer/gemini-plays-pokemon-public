@@ -5,11 +5,11 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer Jake (Golduck).
-- **Matchup:** Muscle (Machoke Lv60) vs Golduck.
-- **Action:** Using Strength (Slot 1).
+- **Battle:** Cooltrainer Jake (Golduck Defeated).
+- **Event:** Muscle grew to Lv61. Trying to learn Submission.
+- **Action:** Rejecting Submission (Inferior to Cross Chop).
 - **Location:** Route 26 (12, 24).
-- **Next:** Defeat Cooltrainer Jake. Continue North.
+- **Next:** Finish battle. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
