@@ -21,6 +21,7 @@
 # Tile Mechanics
 - **WALL**: Impassable.
 - **FLOOR**: Passable. Standard movement.
+- **FLOOR_UP_WALL**: Impassable from North (behaves like a wall).
 - **LADDER**: Warp. Transitions between floors.
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map (usually south).
 - **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
@@ -37,5 +38,4 @@
 4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
-- Current Status: On Fly Map (Kanto View). Attempting to switch to Johto view using SELECT to reach Goldenrod.
-- Confirmed: Cannot Fly from current location (Indigo Plateau Lobby). Exiting south to Route 23 to Fly.
+- Current Status: Traversing Victory Road Southbound to reach Route 23/26.
