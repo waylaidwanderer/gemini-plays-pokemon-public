@@ -128,8 +128,9 @@
 - **Action:** Strength again.
 - **Reasoning:** Strength is best neutral damage. Mach Punch does low damage, so Muscle is safe for now.
 - **Next:** Onix or Machamp.
-- **Turn 19289:** Hitmonchan used Mach Punch (17 dmg). Muscle used Strength.
-- **Status:** Muscle 67/208 HP. Hitmonchan ~40% HP.
-- **Action:** Strength again.
-- **Reasoning:** Reliable damage. Hitmonchan isn't threatening enough to risk a Cross Chop miss.
+- **Current Battle:** Muscle (51/208 HP) vs Hitmonchan (~40% HP).
+- **State:** Accidentally in Party Menu.
+- **Action:** Back out (B) -> Select Fight (Left, A) -> Strength (A).
+- **Goal:** Finish Hitmonchan.
 - **Next:** Onix or Machamp.
+- **Strategy:** Zombie Mode (0 Potions). Use Revives if Muscle falls.
