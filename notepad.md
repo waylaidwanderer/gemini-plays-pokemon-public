@@ -16,12 +16,13 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 (In Progress)
-    - Strategy: Hard Map Reset via Mt. Mortar (28, 9). 
-    - Plan: Enter/exit Mt. Mortar at (28, 9), then step on (27, 14) or (26, 14) while not surfing.
+    - Strategy: Mahogany Entrance Reset.
+    - Plan: Fly to Mahogany Town and enter Route 42 from the east.
     - Failed Hypotheses:
         - Adjacency to (26, 13) (Headbutt Tree) did not trigger.
         - Interaction (Headbutt) with (26, 13) did not trigger (Outcome: Spearow).
         - Simple route reset (Ecruteak) + 100% floor sweep did not trigger.
+        - Hard Map Reset via Mt. Mortar (28, 9) + target (27, 14) did not trigger.
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
