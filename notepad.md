@@ -5,11 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Fighting Cooltrainer Gaven (Flareon).
-- **Matchup:** Muscle (Machoke Lv60) vs Flareon.
-- **Action:** Using Strength (Slot 1) to finish off low HP Flareon.
+- **Battle:** Defeated Cooltrainer Gaven (Victreebel, Kingler, Flareon). (Turn 18815)
+- **Status:** Muscle Lv60 (162/198). Team healthy.
 - **Location:** Route 26 (9, 39).
-- **Next:** Defeat Flareon. Finish battle. Continue North.
+- **Next:** Continue North towards Victory Road Gate.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
