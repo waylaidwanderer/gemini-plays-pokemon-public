@@ -1,11 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Using Revive on Muscle.
-- **Battle Plan:** Revive Muscle (Slot 1).
-- **Turn Outcome:** Gyarados will likely faint to Houndoom's attack while I use the item.
-- **Next:** Send out revived Muscle (112 HP). Use Cross Chop/Strength to finish Houndoom.
-- **Matchup:** Muscle resists Dark. 112 HP is enough to tank.
-- **Notes:** Desperate play to save the run.
+- **Current State:** Muscle Revived (112/225 HP). Exiting Menus.
+- **Battle Plan:** Close menus to let the turn play out.
+- **Expectation:** Houndoom attacks Gyarados. Gyarados likely faints.
+- **Next:** Send out Muscle. Use Cross Chop/Strength to finish Houndoom.
+- **Matchup:** Muscle (Lv68) vs Houndoom (Red HP). Muscle outlevels significantly and resists Dark. 112 HP is plenty.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
