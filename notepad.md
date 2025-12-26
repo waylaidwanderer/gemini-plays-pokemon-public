@@ -45,14 +45,15 @@
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23789
-- Suicune Hunt Duration: 89 turns (since turn 23700)
+- Current Turn: 23795
+- Suicune Hunt Duration: 95 turns (since turn 23700)
 
 # General Lessons Learned
 - **Interaction Mechanics:** When interacting with NPCs, ensure you are stationary and facing them. Do not mix movement and action buttons in the same sequence.
 - **Sequential Progression:** Suicune sightings must follow a strict order. Since the Pokédex still shows Suicune on Route 42, the Route 42 sighting at (26, 14) is a hard prerequisite for the Wise Trio battle.
 - **NPC Tracking:** Stun moving NPCs before interacting to ensure they stay in range.
 - **Root Hypothesis Testing:** Use the Pokédex as a primary source of truth for legendary tracking. If it says an area is active, that area's trigger must be cleared first.
+
 ## Wise Trio Roster (Tin Tower Gatehouse)
 - Sage GAKU: Noctowl (Lv32)
 - Sage MASA: Flareon (Lv32), Jolteon (Lv32)
@@ -62,5 +63,6 @@
 # Suicune Hunt Progress Log
 - Sighting 3 (Route 42): 5 failed attempts at (26, 14). Hypothesis: Approach direction or map script reset is required.
 - Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
-- Plan: Fly to Ecruteak, head to Route 42, enter/exit Mt. Mortar, stand on (26, 14).
-- Turn 23791: Entered Mt. Mortar (middle entrance). Heading out now to reset the script.
+- Plan: Cut tree at (24, 13), walk to (26, 14).
+- Turn 23791: Entered and exited Mt. Mortar (middle entrance) to reset map script.
+- Turn 23795: Clearing tree at (24, 13) to access (26, 14). Result of Reset Hypothesis: [Pending].
