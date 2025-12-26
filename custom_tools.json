@@ -248,5 +248,21 @@
         "action_counter": 21284
       }
     ]
+  },
+  "find_unmarked_floor_tiles": {
+    "description": "Finds all FLOOR tiles on the current map that do not have a map marker and have not been stepped on by the player. Returns a list of coordinates.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef find_unmarked_tiles():\n    root = ET.fromstring(map_xml_string)\n    unmarked_tiles = []\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            if tile.get('type') == 'FLOOR':\n                has_marker = tile.find('Marker') is not None\n                has_player = tile.find('Player') is not None\n                has_object = tile.find('Object') is not None\n                if not has_marker and not has_player and not has_object:\n                    unmarked_tiles.append({\"x\": x, \"y\": y})\n    return unmarked_tiles\n\nprint(json.dumps(find_unmarked_tiles()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-26T04:44:55.017Z",
+        "action_counter": 21541
+      }
+    ]
   }
 }

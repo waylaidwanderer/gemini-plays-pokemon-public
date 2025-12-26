@@ -1,9 +1,9 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
+- Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) and northern strip to trigger Sighting 3 flee event.
 - Progress:
     - Island sweep started: Turn 21455 (Thursday, Dec 25, 2025).
-    - Current Task: Sweep northern island shore (Y=12). Central sweep (Y=14-17) failed (Turn 21536).
+    - Failed attempts to trigger: 2 (Central sweep, Northern strip sweep).
 - Lessons Learned:
     - Pokedex: Johto Order. Suicune is #245.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
@@ -29,15 +29,16 @@
 - Previous Milestones: Sighting 1 (Burned Tower), Sighting 2 (Cianwood).
 - Eusine: Defeated in Cianwood.
 - Problem: Complete floor sweep of Route 42 island (X=24-30, Y=14-17) failed to trigger flee.
-- Hypothesis 1: Trigger is on a specific tile missed (Check Pokedex AREA for exact location).
+- Hypothesis 1: Trigger is on a specific tile missed.
 - Hypothesis 2: Trigger is on the water surrounding the island.
 - Hypothesis 3: Milestone confusion - Suicune has already moved to Sighting 4.
 
 # Pokedex Navigation Log
 - Turn 21510: Failed to find Suicune (stuck on Sunkern).
 - Turn 21517: Restarting search for SUICUNE entry.
+- Turn 21533: Pokedex AREA map shows Suicune on Route 42 island.
 
 # Failed Hypothesis: Island Floor Sweep
 - Sweep of (24-30, 13-17) floor tiles failed to trigger Suicune flee.
-- Overwatch notes order difference (Route 42 before Cianwood), but tracker and player data confirm Sighting 3 is next.
 - New Strategy: Verify exact blinking location in Pokedex AREA. If on island, check water tiles (Y=14-17) and northern strip (Y=11-12).
+- Contingency: If sweep fails, reset map by flying or entering cave.
