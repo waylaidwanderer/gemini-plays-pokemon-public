@@ -1,9 +1,9 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** About to fight Houndoom.
-- **Battle Plan:** Decline switch. Use Cross Chop (Slot 4).
-- **Matchup:** Muscle (Lv68, Paralyzed) vs Houndoom (Dark/Fire). Cross Chop is SE.
-- **Backup:** Gyarados (Surf) if Muscle faints.
+- **Current State:** Fighting Houndoom (Lv47).
+- **Battle Plan:** Use Cross Chop (Slot 4).
+- **Matchup:** Muscle (Lv68, Paralyzed) vs Houndoom. Cross Chop is SE.
+- **Team:** Muscle (Paralyzed). Garnet, Gyarados, Zenith, Mistral healthy. Kunai fainted.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
