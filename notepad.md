@@ -1,6 +1,7 @@
 # Operation: Elemental Upgrade
 - **Status:** Traversing Route 26 (North).
-- **Plan:** Pass defeated Cooltrainer Gaven -> Reach Victory Road Gate.
+- **Plan:** Enter Victory Road Gate at (7, 5).
+- **Observation:** Wall at (12, 7) blocks direct North path. Detouring West.
 - **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
 - **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
