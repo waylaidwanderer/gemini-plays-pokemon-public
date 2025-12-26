@@ -47,3 +47,6 @@
 - **Turn 19106:** Used Hyper Potion on Muscle.
 - **Anticipation:** Muscle heals to full. Jynx attacks (Psychic). Muscle survives with ~50% HP.
 - **Next Turn:** Use Strength to OHKO Jynx.
+- **Turn 19107:** Selected "USE" on Hyper Potion.
+- **Next:** Select Muscle to apply.
+- **Battle State:** Muscle (99/205) will heal to full. Jynx will attack (Priority: Item > Speed). Muscle survives.
