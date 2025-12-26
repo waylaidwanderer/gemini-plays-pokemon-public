@@ -18,10 +18,11 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Muscle (178/215) vs Jynx (~40%).
-- **Matchup:** Muscle active. Jynx weakened.
-- **Plan:** Use Strength to KO Jynx.
-- **Next:** Expect Exeggutor or Slowbro next? Will's team is Xatu, Jynx, Exeggutor, Slowbro, Xatu.
+- **State:** Muscle (Lv66, 181/218 HP) vs Exeggutor (Incoming).
+- **Matchup:** Muscle is weak to Psychic, but Exeggutor is weak to Ice Punch (2x).
+- **Plan:** Stay in with Muscle. Outspeed and OHKO with Ice Punch.
+- **Risk:** If Exeggutor survives and uses Psychic, Muscle takes heavy damage.
+- **Note:** Sneasel is immune to Psychic but too underleveled to kill quickly.
 
 # Tile Mechanics
 - **WALL**: Impassable.
