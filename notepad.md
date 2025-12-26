@@ -20,10 +20,9 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Feraligatr defeated. Silver sending out Magneton.
-- **Action:** Decline switch (Keep Muscle in).
-- **Matchup:** Muscle (Lv61 Machoke) vs Magneton (Electric/Steel).
-- **Condition:** Muscle (109/201 HP, Speed -1). Not Confused.
+- **Status:** Battle with Rival Silver. Feraligatr defeated. Magneton sent out.
+- **Matchup:** Muscle (Lv61 Machoke) vs Magneton (Lv ~37 Electric/Steel).
+- **Condition:** Muscle (109/201 HP).
 - **Strategy:** Use Dig (Slot 2).
-  - **Reasoning:** Ground is 4x Super Effective against Electric/Steel. OHKO guaranteed.
-- **Goal:** Defeat Magneton and win the battle.
+  - **Reasoning:** Ground is 4x Super Effective against Electric/Steel. OHKO guaranteed. Muscle likely outspeeds due to level advantage.
+- **Goal:** Defeat Magneton and continue sweep.
