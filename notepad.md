@@ -32,3 +32,7 @@
 # Contingency Plan
 - If trigger fails, check Route 36 to see if sequence advanced.
 - Re-verify Pokedex AREA map after every major move.
+
+# Pokedex Navigation (A-Z Mode)
+- Current List: STARYU, STEELIX, SUDOWOODO, SUICUNE, SUNKERN, TOGEPI, TOTODILE.
+- Suicune is 2 positions above Togepi in the SEEN list.
