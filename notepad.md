@@ -45,3 +45,12 @@
 - **Action:** Rock Smash (Slot 3).
 - **Goal:** Chip damage/Def drop. Muscle safe this turn.
 - **Next Turn (19386):** Dragonite attacks -> Muscle faints -> Max Zombie Plan begins.
+- **Turn 19386 Result:** Dragonite used Hyper Beam. Muscle fainted.
+- **Mechanic:** Dragonite MUST recharge next turn (Gen 2 rule: Recharge even on KO).
+- **Plan (Max Zombie Phase 2):**
+  1. Send out Zenith (Fodder).
+  2. Dragonite recharges (Free Turn).
+  3. Use **MAX REVIVE** on Muscle (Restore Full HP & PP).
+  4. Dragonite attacks (likely KO Zenith).
+  5. Send in fully powered Muscle to sweep.
+- **Current Action:** Select Zenith (Slot 5).
