@@ -28,7 +28,6 @@
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
 - **Encounter:** Wild Onix at (15, 56). Fled successfully.
 - **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Exploration:** Rhyhorn battle at (6, 54) ended.
-- **Navigation:** Path from (5, 54) to West Corridor requires looping South through gap at (7, 55).
-- **Goal:** Reach Ladder at (1, 49) to access 2F West.
-- **Next:** From 2F West landing (1, 35), explore NORTH.
+- **Exploration:** 2F West North (3, 32) is a dead end (bottom of ledges). Item at (3, 28) inaccessible from here.
+- **Hypothesis:** Missed path in 1F East Corridor (x=18). I diverted left at (18, 51) for an item and likely missed the path continuing North to a ladder.
+- **Strategy:** Return to 1F via ladder at (1, 35). Navigate to 1F East Corridor (x=18) and explore North of y=51.
