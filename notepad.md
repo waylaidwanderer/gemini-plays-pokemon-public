@@ -22,10 +22,7 @@
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
 - **Condition:** Muscle (71/201 HP) is Confused.
-- **Risk Assessment:** 
-  - Wing Attack does ~33 damage. 
-  - Self-hit does ~20-30 damage.
-  - Worst case (Self-hit + Wing Attack): ~60 damage. Muscle survives with ~10 HP.
-- **Action:** Gamble on Strength (Slot 1).
-- **Contingency:** If Muscle gets low, use Max Potion next turn.
-- **Goal:** Defeat Golbat.
+- **Correction:** Last turn, Muscle used Cross Chop (Slot 4) due to menu memory, which was NVE.
+- **Action:** Correctly navigate to Strength (Slot 1) from Slot 4.
+- **Risk:** Muscle is low HP and Confused. If she hits herself, she will be critical.
+- **Goal:** Defeat Golbat with Strength.
