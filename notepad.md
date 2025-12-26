@@ -35,9 +35,8 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Fighting Cooltrainer Joyce.
-- **Opponent:** Blastoise (Switching in).
+- **Battle:** Fighting Cooltrainer Joyce (Blastoise Lv32).
 - **Matchup:** Muscle (Machoke Lv60) vs Blastoise.
-- **Plan:** Stay in with Muscle. Overpower with Strength/Cross Chop.
+- **Action:** Using Strength (Slot 1).
 - **Location:** Route 26 (13, 56).
 - **Next:** Defeat Blastoise. Harvest Fruit Tree. Navigate North.
