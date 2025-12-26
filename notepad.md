@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Trigger Sighting 3 flee event by approaching the Apricorn trees (Y=16) from the island interior.
+- Strategy: Trigger Sighting 3 flee event. Current hypothesis: Approach from the east (near Fisher Tully) or reset map.
 
 # Primary Goal Strategy: Catch Suicune at Tin Tower 1F
 1. Complete scripted Johto sightings (Burned Tower, Cianwood, Route 42).
@@ -14,7 +14,7 @@
 - Sighting 1: Burned Tower (Complete).
 - Sighting 2: Cianwood (Complete).
 - Eusine: Defeated in Cianwood (Complete).
-- Sighting 3: Route 42 (Current).
+- Sighting 3: Route 42 (In progress).
 
 # Tile Mechanics (Route 42)
 - FLOOR: Traversable. Standard ground. [Verified]
@@ -28,5 +28,5 @@
 - TALL_GRASS: Traversable. Wild Pokémon encounters. [Verified]
 
 # Contingency Plan
-- If trigger fails, check Route 36 to see if sequence advanced.
-- Re-verify Pokedex AREA map after every major move.
+- If trigger fails on island, check mainland Route 42 or Route 36.
+- Re-verify Pokedex AREA map if location changes.
