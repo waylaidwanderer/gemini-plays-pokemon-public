@@ -1,6 +1,6 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower -> 2. Cianwood -> 3. Route 42 -> 4. Route 38 Sighting (Current) -> 5. Route 14 -> 6. Tin Tower 1F.
-- Route 38: Pokedex confirms location. Checked western ledge and trough. Sighting 4 is stationary until approached.
+- Logic: Suicune is stationary in scripted spots until Tin Tower. The Pokedex "AREA" dot shows the scripted location.
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 
 # Tile Mechanics (Global)
@@ -8,7 +8,7 @@
 - DOOR/WARP: Map transition.
 - WALL/HEADBUTT_TREE: Impassable.
 - TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal.
+- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal. Can only jump in the direction indicated.
 - Route 38 (3, 9): Verified traversable FLOOR despite WALL label.
 
 # Navigation: Fly Map (Johto)
@@ -16,16 +16,14 @@
 - Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 
 # Plan: Find Suicune on Route 38
-- Objective Start: Turn 20970
-- Status: Western ledge and trough cleared. Suicune not found.
+- Objective: Trigger Sighting 4.
 - Strategy:
-  1. Check northern grass patch (Patch 1) at (6, 5) from the west.
-  2. If not found, Fly to Ecruteak and enter Route 38 from the east to check the main path.
-  3. Look for the Suicune overworld sprite (Sighting 4).
-  4. Note: If the Pokedex "AREA" map shows a blinking dot, that is the roamer, not the sighting. Sighting 4 must be triggered to progress.
+  1. Check Pokedex AREA map for the exact location dot.
+  2. Navigate to the blinking dot on Route 38.
+  3. Look for the Suicune overworld sprite.
 
 # Side Quests
-- Arthur (Route 36): Thursday only. Dialogue loop confirmed. Missing trigger hypothesis (Radio Tower? Elite Four?).
+- Arthur (Route 36): Thursday only. Gives Hard Stone. (Check today!)
 - Clear Bell: In Key Items.
 
 # Lessons Learned
