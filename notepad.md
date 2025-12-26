@@ -1,14 +1,16 @@
 # Operation: Dragon Slayer
-- **Current State:** Main Menu (Pack selected).
-- **Action:** Heal Kunai (Slot 4) with Lemonade.
-- **Sequence:** Enter Pack (A) -> Lemonade (A, A) -> Slot 4 (Down) -> Heal (A).
-- **Team Status:**
-    - Gyarados: Full (114/114).
-    - Kunai: 32/65 HP.
-    - Muscle: 112/225 HP.
-- **Next:** Heal Muscle with Hyper Potion.
+- **Current State:** Healing Muscle with Hyper Potion.
+- **Action:** Select Hyper Potion -> Target Muscle (Slot 1).
+- **Sequence:** Up (Item) -> A, A -> Up x3 (Party Slot 4 to 1) -> A (Heal) -> B (Exit).
+- **Team Update:** All Pokemon Full HP. Ready for Lance.
+- **Next:** Exit Menu -> Navigate to Lance.
 
 # Team Status
+- Muscle (Lv68): Full.
+- Garnet (Lv29): Full.
+- Gyarados (Lv35): Full.
+- Kunai (Lv24): Full.
+- Zenith/Mistral: Full.
 - Muscle (Lv68): 112/225 HP. Healthy.
 - Garnet (Lv29): Full.
 - Gyarados (Lv35): Fainted. Needs Revive.
