@@ -113,3 +113,7 @@
 - **Matchup:** Muscle (84/208 HP) vs Hitmonlee.
 - **Strategy:** Strength. Hitmonlee has very low Defense. Should be OHKO.
 - **Risk:** Hitmonlee is fast and hits hard. If Muscle is slower/doesn't OHKO, he takes damage. But level gap (63 vs 42) is huge.
+- **Turn 19284:** Hitmonlee sent out.
+- **Action:** Press B to advance text.
+- **Next:** Fight -> Strength.
+- **Matchup:** Muscle (84 HP) vs Hitmonlee. Muscle should outspeed and OHKO due to low Def.
