@@ -56,3 +56,4 @@
 - (28, 16): Berry Tree (Empty at Turn 21678)
 - (27, 16): Berry Tree (Turn 21682)
 - Note: Preparation: Healing at Violet City PC complete. Gastly's Mean Look PP restored (5/5). Moving to Route 42.
+- Island Sweep #2 (Exhaustive): Started Turn 22684. Objective: 100% tile coverage of the central island grove.
