@@ -30,16 +30,19 @@
 - Clear Bell: In Key Items (Verified).
 - Arthur (Hard Stone): Route 36. Thursday only. (Targeting now).
 
+# Navigation: Fly Map (Johto)
+- Discovery (Turn 20966): The Fly map is a linear list navigated by Up/Down buttons, NOT a 2D grid.
+- Verified Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn -> (Loop to New Bark).
+- Strategy: Use Up/Down to cycle through cities. Verify target city name in Screen Text before pressing A.
+
 # Plan: Reach Route 38 Western Ledge
 - Objective Start: Turn 20922
-- Current Status: In Azalea Town (Turn 20942). Manual Fly navigation in progress.
+- Current Status: On Fly map. Cursor at Goldenrod City (Turn 20966).
 - Strategy:
-  1. Fly to Olivine City (Manual sequence: Up, Up, A from Azalea).
-  2. Walk North to Route 39 -> Route 38 West.
-  3. Trigger Suicune flee at (3, 10).
-
-# Navigation: Fly Map (Johto)
-- Grid: Cianwood(0,0), Olivine(1,0), Ecruteak(2,0), Mahogany(3,0), Blackthorn(4,0); Goldenrod(1,1), Violet(3,1); Azalea(1,2), Cherrygrove(3,2), New Bark(4,2).
+  1. Navigate to Olivine City (Goldenrod -> Up -> Ecruteak -> Up -> Olivine).
+  2. Press A to Fly.
+  3. Walk North to Route 39 -> Route 38 West.
+  4. Trigger Suicune flee at (3, 10).
 
 # Lessons Learned
 - Fly Map Vertical Snapping: Vertical movement snaps to the closest city in the new row.
