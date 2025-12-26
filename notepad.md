@@ -1,7 +1,7 @@
 # Operation: Dragon Slayer
-- **Current State:** Recovering from Input Error (Accidental Mail).
-- **Action:** Finishing Mail entry to return to bag.
-- **Plan:** Locate REVIVE (likely below Flower Mail). Revive Gyarados/Kunai.
+- **Current State:** Main Menu.
+- **Action:** Entering Pack.
+- **Plan:** Locate REVIVE. Revive Gyarados & Kunai. Heal Muscle.
 - **Team Update:** Muscle (112/225). Gyarados (FNT). Kunai (FNT).
 
 # Team Status
