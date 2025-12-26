@@ -1,12 +1,12 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Reset map (enter Mount Mortar) then methodical floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
+- Strategy: Complete methodical sweep of the island floor after map reset.
 - Lessons Learned:
-    - Pokedex: Currently in Alphabetical order. SUICUNE is located above SUNKERN.
+    - Pokedex: Alphabetical order places SUICUNE between SUDOWOODO and SUNKERN.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
-    - Animation: Sprite flees with a visible jump. If no jump seen, event is not complete.
-    - Map Reset: If a scripted event fails to trigger after a sweep, reset the map by entering a cave or using Fly.
+    - Map Reset: Performed map reset by entering Mount Mortar (Turn 21550).
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
+- Unmarked Floor Tiles (Turn 21535): (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 15).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
@@ -25,11 +25,8 @@
 - Current Milestone: Sighting 3 (Route 42).
 - Previous Milestones: Sighting 1 (Burned Tower), Sighting 2 (Cianwood).
 - Eusine: Defeated in Cianwood.
-- Problem: Complete floor sweep of Route 42 island (X=24-30, Y=14-17) failed to trigger flee.
-- Hypothesis: Sprite didn't load or trigger failed. Reset required.
 
-# Island Sweep Contingency
-- If methodical sweep after map reset fails, I will:
-    1. Re-verify Pokedex AREA map for exact blinking box.
-    2. Check if Suicune moved to Route 36 (Sighting 4).
-    3. Visit Tin Tower to see if sequence skipped.
+# Island Sweep Plan
+1. Re-verify Suicune AREA box in Pokedex.
+2. Step on all unmarked floor tiles: (22, 12), (23, 12), (24, 12), (25, 12), (26, 12), (27, 12), (28, 12), (27, 15).
+3. If trigger fails, Fly to Ecruteak and return to re-verify.
