@@ -1,13 +1,13 @@
 # Operation: Dragon Slayer
-- **Current State:** Ready to Challenge Lance.
-- **Action:** Exit Menus. Navigate to Lance's Room.
-- **Team Status:** All Full HP. Muscle Lv68.
+- **Current State:** Moving to Lance's Room.
+- **Action:** Navigate to (4, 2).
+- **Plan:** Challenge Champion Lance.
+- **Team Status:** Full HP. Muscle (Lv68) has 0 Strength PP, but 9 ThunderPunch and 10 Ice Punch. Cross Chop 3 PP.
 - **Lance Strategy:**
     - **Gyarados:** ThunderPunch.
     - **Dragonites:** Ice Punch.
-    - **Charizard:** ThunderPunch or Gyarados Surf.
-    - **Aerodactyl:** Ice Punch / Surf.
-- **Items:** 4 Revives, 4 Hyper Potions, 9 Lemonades.
+    - **Charizard:** ThunderPunch or Surf.
+    - **Aerodactyl:** Ice Punch/Surf/ThunderPunch.
 
 # Team Status
 - Muscle (Lv68): Full.
