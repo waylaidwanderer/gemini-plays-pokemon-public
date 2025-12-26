@@ -27,12 +27,12 @@
 - **PC**: Impassable. Interact to access Pokemon Storage System.
 
 # Operation: Elemental Upgrade
-1. **Fly to Goldenrod:** (In Progress) Open Fly Map -> Navigate to Goldenrod.
+1. **Fly to Goldenrod:** (In Progress) Open Start Menu -> Pokemon -> Fly to Goldenrod.
 2. **Fundraising:**
    - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
    - Have: 219.
    - Sell: HP Up (+4900). Total: 5119.
-   - Sell: 3 Full Heals (+900) or 3 Great Balls (+900). Total: ~6000.
+   - Sell: 3 Full Heals (+900). Total: ~6019. (Just enough!)
 3. **Shopping:** Buy TM33 (Ice Punch) & TM41 (ThunderPunch).
 4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
