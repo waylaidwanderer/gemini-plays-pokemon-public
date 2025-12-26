@@ -19,9 +19,10 @@
 - Objective Start: Turn 20970
 - Status: Western ledge and trough cleared. Suicune not found.
 - Strategy:
-  1. Re-verify Pokedex AREA map blinking.
-  2. Check Route 39 northern edge for hidden paths.
-  3. If not found, Fly to Ecruteak and check the eastern side of Route 38.
+  1. Check northern grass patch (Patch 1) at (6, 5) from the west.
+  2. If not found, Fly to Ecruteak and enter Route 38 from the east to check the main path.
+  3. Look for the Suicune overworld sprite (Sighting 4).
+  4. Note: If the Pokedex "AREA" map shows a blinking dot, that is the roamer, not the sighting. Sighting 4 must be triggered to progress.
 
 # Side Quests
 - Arthur (Route 36): Thursday only. Dialogue loop confirmed. Missing trigger hypothesis (Radio Tower? Elite Four?).
