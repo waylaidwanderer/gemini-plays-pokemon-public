@@ -23,6 +23,7 @@
 
 # Week Siblings Strategy
 - Arthur (Thursday): Route 36. Provides Hard Stone. [COMPLETED - Turn 21872]
+- Hard Stone Mystery: Found held by GNEISS (Turn 21872).
 - Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place.
 - Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
 
@@ -36,5 +37,4 @@
 # NPC & Interaction Lessons
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
 - Check held items if an NPC dialogue loops or item seems missing.
-- Hard Stone Mystery: Found held by GNEISS (Turn 21872).
 - Menu Navigation: Use menu_navigator_v3_fixed_borders to handle borders.
