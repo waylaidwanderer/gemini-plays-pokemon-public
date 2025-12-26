@@ -36,4 +36,4 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map.
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
-- Status: Surfing on Route 27 towards Tohjo Falls entrance at (36, 5).
+- Status: Inside Tohjo Falls. Approaching water at (22, 15) to Surf and ascend the eastern waterfall.
