@@ -4,11 +4,12 @@
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
 
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- DOOR/WARP: Map transition.
-- WALL/HEADBUTT_TREE: Impassable.
-- TALL_GRASS: Traversable; wild encounters.
-- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal. Can only jump in the direction indicated.
+- FLOOR: Traversable. (Verified)
+- DOOR/WARP: Map transition. (Verified)
+- WALL/HEADBUTT_TREE: Impassable. (Verified)
+- TALL_GRASS: Traversable; wild encounters. (Verified)
+- LEDGE_HOP (DOWN/LEFT/RIGHT): One-way traversal. (Verified)
+- Route 38 (3, 9): Confirmed WALL via movement test.
 
 # Navigation: Fly Map (Johto)
 - Discovery: Linear list navigated by Up/Down.
