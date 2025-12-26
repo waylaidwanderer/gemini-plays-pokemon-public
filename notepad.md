@@ -5,6 +5,7 @@
 - HEADBUTT_TREE: Impassable. [Verified]
 - CUT_TREE: Impassable. [Verified]
 - PC: Standard interaction. [Verified]
+- COUNTER: Impassable. Interaction with NPCs behind them must be done from an adjacent tile. [Verified]
 - WARP_CARPET: Traversable, triggers map transition. [Verified]
 - LEDGE: One-way traversal (hop down/left/right). [Verified]
 
