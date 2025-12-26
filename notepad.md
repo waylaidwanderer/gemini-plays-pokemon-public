@@ -62,3 +62,8 @@
 - **Turn 19269:** Reviving Gyarados.
 - **Action:** Down x2 (Select Gyarados) -> A (Confirm).
 - **Next:** Confirm Revive message -> Use Super Potions on Muscle.
+- **Turn 19270:** Gyarados Revived.
+- **Action:** B (Clear text), B (Exit Party), Down (Select Super Potion).
+- **Goal:** Use Super Potions on Muscle.
+- **Status:** Muscle 34/208 HP. Gyarados 57/114 HP.
+- **Inventory:** 2 Super Potions left.
