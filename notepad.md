@@ -35,8 +35,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Fighting Cooltrainer Joyce (Blastoise Lv32).
-- **Matchup:** Muscle (Machoke Lv60) vs Blastoise.
-- **Action:** Using Strength (Slot 1).
+- **Battle:** Defeated Cooltrainer Joyce (Pikachu, Blastoise). (Turn 18794)
+- **Status:** Muscle Lv60 (171/198). Team healthy.
 - **Location:** Route 26 (13, 56).
-- **Next:** Defeat Blastoise. Harvest Fruit Tree. Navigate North.
+- **Next:** Harvest Fruit Tree at (14, 54). Navigate North towards Victory Road.
