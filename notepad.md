@@ -3,15 +3,10 @@
 - **Action:** Battling Champion Lance.
 - **Current State:** Fighting Dragonite #1 (Lv47).
 - **Battle Plan:** Use Ice Punch (Slot 3).
-- **Matchup:** Muscle (Lv69, 118/229 HP) vs Dragonite (Lv47).
-- **Strategy:** Ice Punch is 4x SE. OHKO guaranteed.
-- **Team Status (Verified):**
-    - Muscle: 118/229 HP.
-    - Garnet: Full.
-    - Gyarados: Full (114/114).
-    - Kunai: Full (65/65).
-    - Zenith/Mistral: Full.
-- **Notes:** Muscle took damage from Aerodactyl and Charizard but is still standing strong.
+- **Correction:** Last turn used Cross Chop (Slot 4) due to cursor misalignment. Correcting now.
+- **Menu State:** Cursor at Slot 4. Moving to Slot 3.
+- **Matchup:** Muscle (Lv69) vs Dragonite. Ice Punch is 4x SE.
+- **Observation:** Dragonite's Thunder Wave failed (Immunity? Miss? Glitch?). Muscle has no status.
 
 # Team Status
 - Muscle (Lv69): 118/229 HP.
