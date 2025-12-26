@@ -14,6 +14,7 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood (Complete)
 - Sighting 3: Route 42. Approach Suicune on the center island (requires Surf and Cut). [Start Turn 21694]
+- Sighting 3 HOW: Enter Route 42 from Ecruteak. Surf east to the island with 3 Apricorn trees. Cut the tree if necessary. Approach Suicune.
 - Sighting 4: Route 36. Triggered at the Sudowoodo junction after Route 42.
 - Sighting 5: Fuchsia City (Kanto).
 - Final Battle: Tin Tower 1F (Requires Clear Bell).
@@ -35,3 +36,4 @@
 # NPC & Interaction Lessons
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
 - Check held items if an NPC dialogue loops or item seems missing.
+- Hard Stone Mystery: Found held by GNEISS (Turn 21872).
