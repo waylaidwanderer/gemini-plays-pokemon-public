@@ -98,3 +98,8 @@
 - **Incoming:** Dragonite (Likely Lv47).
 - **Decision:** Switch to Muscle (109/215 HP).
 - **Reasoning:** Dragonite resists Water/Grass/Fire/Fighting. Strength (Normal) is Neutral. Muscle is best tank.
+- **Turn 19375:** Navigating Party Menu.
+- **Action:** Switch from Gyarados (Slot 3) to Muscle (Slot 1).
+- **Input:** Up, Up, A.
+- **Reasoning:** Muscle (Lv65) is the only one who can stand up to Dragonite. Strength is neutral damage. Sneasel lacks Ice moves.
+- **Matchup:** Muscle vs Dragonite. Watch out for Thunder Wave/Hyper Beam.
