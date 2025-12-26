@@ -2,8 +2,10 @@
 - **Status:** Indigo Plateau (Karen's Room).
 - **Current State:** Fighting Houndoom (Lv47). Muscle Paralyzed.
 - **Battle Plan:** Use Cross Chop (Slot 4).
+- **Previous Action:** Accidentally used ThunderPunch (Slot 2).
+- **Menu State:** Cursor likely on Slot 2.
 - **Matchup:** Muscle (Lv68) vs Houndoom. Cross Chop is SE.
-- **Risk:** Paralysis chance (25%). Speed drop might let Houndoom hit first.
+- **Risk:** Paralysis chance.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
