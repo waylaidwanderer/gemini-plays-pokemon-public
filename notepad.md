@@ -140,3 +140,7 @@
 - **Inventory Note:** Out of Full Restores.
 - **Plan:** Use **Full Heal** (or Bitter Berry) to cure confusion.
 - **Reasoning:** Cannot risk confusion self-hit loops. Muscle outspeeds Xatu, so clearing status guarantees an attack next turn.
+- **Turn 19148:** Using Hyper Potion on Muscle (126/205 HP).
+- **Reasoning:** Cursor is already on Hyper Potion. Scrolling for Full Heal is risky/slow. Healing to 205 HP protects against Critical Hit Psychic (which deals ~160+).
+- **Sequence:** A (Item) -> A (Use) -> A (Muscle).
+- **Next:** Muscle heals to full. Xatu attacks. Muscle (Confused) tries to attack next turn.
