@@ -18,5 +18,6 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **Turn 1:** Muscle (Lv65) vs Will's Lead (Likely Xatu).
-- **Strategy:** Muscle is weak to Psychic but has level advantage and coverage. Using ThunderPunch/Ice Punch on Birds.
+- **State:** Xatu defeated. Jynx incoming.
+- **Matchup:** Muscle vs Jynx -> Switching to Sneasel.
+- **Reasoning:** Jynx (Ice/Psychic) threatens Muscle. Sneasel (Dark/Ice) is immune to Psychic and resists Ice. Shadow Ball targets Jynx's weak Defense.
