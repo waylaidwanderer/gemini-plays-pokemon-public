@@ -35,3 +35,4 @@
 - **Strategy:** Backtrack to x=18 corridor, loop South to y=57, then North-West to explore West path at y=54.
 - **Encounter:** Fled from Golbat at (11, 54).
 - **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
+- **Encounter:** Wild Golbat at (15, 50).
