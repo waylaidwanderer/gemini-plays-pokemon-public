@@ -54,5 +54,5 @@
 
 # Suicune Sighting 3 Details
 - Location: Route 42, central island.
-- Trigger: Suicune is a visible sprite at (10, 14) on the island. Approach it (from the south or west) to trigger the flee event.
+- Trigger: Suicune is a visible sprite on the island (approx X=26, Y=15). Approach it to trigger the flee event.
 - Prerequisite: Must have Surf and Cut (Ravioli and KIMCHI have these).
