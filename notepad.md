@@ -21,3 +21,8 @@
 1.  **Vs Aerodactyl:** Spam Rock Smash (8 PP left).
 2.  **Vs Others:** Struggle (if PP empty) or Rock Smash.
 3.  **Emergency:** If Muscle faints, switch to fodder -> Revive -> Resume.
+- **Turn 19417 Result:** Aerodactyl outsped (Wing Attack, 60 dmg). Muscle used Rock Smash (Crit + Def Drop!).
+- **Status:** Muscle 155/215 HP. Aerodactyl took significant damage.
+- **Action:** Use Rock Smash (Slot 3).
+- **Reasoning:** Aerodactyl is faster but Muscle can tank 2 more hits easily. -1 Defense makes Rock Smash more viable.
+- **PP:** Rock Smash 8/15.
