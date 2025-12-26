@@ -39,5 +39,5 @@
    - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
 5. **Return:** Fly back to Indigo Plateau and win.
 - Current Status: Traversing Victory Road Southbound to reach Route 23/26.
-- Exploration: South path via column 18 appears valid. Navigating to (18, 42) then West to jump ledge at (6, 41).
+- Exploration: South path via column 18 is valid. Navigating along bottom wall (Row 42) to reach ledge jump at (6, 41).
 - Item detected: Poke Ball at (18, 29) (Currently unreachable from below due to ledges).
