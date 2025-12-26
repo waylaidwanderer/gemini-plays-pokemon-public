@@ -22,4 +22,5 @@
 - **Warp Carpets:** Directional exits.
 - **LADDER tiles:** Bridges on Route 27; vertical transport in Victory Road.
 - **Encounter:** Wild Rhydon at (9, 66). Fled successfully.
-- **Strategy:** Resuming navigation to (12, 68) to attempt ledge jump and explore the southern strip (rows 69-71).
+- **Exploration:** Jumping ledge at (12, 68) to explore southern strip.
+- **Hypothesis:** This area connects to the unseen Southeast section or contains a hidden item/warp.
