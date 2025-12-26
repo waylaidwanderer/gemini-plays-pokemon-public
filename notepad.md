@@ -1,11 +1,11 @@
 # Strategy: Suicune Hunt (Johto)
 - Status: Suicune confirmed on Route 42 via Pokedex (Turn 21433).
-- Strategy: Complete methodical sweep of the island floor (Y=10-17) after map reset to trigger Sighting 3 flee event.
+- Strategy: Trigger Sighting 3 flee event by walking toward the Apricorn trees (Y=16) from the north (Mt. Mortar entrance).
 - Lessons Learned:
     - Pokedex: Alphabetical order places SUICUNE between SUDOWOODO and SUNKERN.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Map Reset: Performed map reset by entering Mount Mortar (Turn 21550).
-    - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor.
+    - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island floor, likely activated by walking south from the Mt. Mortar middle entrance toward the trees.
 
 # Primary Goal Strategy: Catch Suicune at Tin Tower 1F
 1. Complete scripted Johto sightings (Burned Tower, Cianwood, Route 42).
@@ -20,15 +20,11 @@
 - Sighting 2: Cianwood (Complete).
 - Eusine: Defeated in Cianwood (Complete).
 - Sighting 3: Route 42 (Current).
+- Arthur (Thursday): Located on Route 36. Provides Hard Stone.
 
 # Repetitive Task: Suicune Island Sweep
-- Start Turn: 21556 (Current Turn: 21596)
-- Status: In progress. Testing "face the trees" hypothesis at (28, 17) [Failed] and (27, 17).
-- Trigger Insight: Walking toward/facing the three Apricorn trees at (27, 16), (28, 16), (29, 16) triggers Suicune flee.
-- Failed Hypotheses:
-    1. Walking past trees at Y=15 (Turn 21579-21587).
-    2. Walking past trees at Y=17 (Turn 21571).
-    3. Facing tree at (28, 16) from (28, 17) (Turn 21597).
+- Start Turn: 21556 (Current Turn: 21601)
+- Status: Abandoning "facing" hypothesis. Transitioning to "walking south from cave" approach.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
