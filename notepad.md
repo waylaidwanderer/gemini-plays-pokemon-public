@@ -3,31 +3,33 @@
 - WALL: Impassable. [Verified]
 - WATER: Traversable only when using HM03 Surf. [Verified]
 - TALL_GRASS: Traversable. Triggers wild encounters. [Verified]
-- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. (e.g., 28,14) [Verified]
-- CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. (e.g., 24,13) [Verified]
+- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. [Verified]
+- CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. [Verified]
 - WARP_CARPET: Traversable. Triggers map transition. [Verified]
+- DOOR: Warp point. [Verified]
+- STAIRS: Warp point. [Verified]
 - CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 
 # Suicune Hunt Strategy (Crystal)
-- Started: Turn 22256.
+- Started: Turn 22256 (Friday, Dec 26, 2025).
 - Trigger Logic: Proximity-based sighting sequence. Suicune roams ONLY after the Tin Tower event if not caught.
 - Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17). Landing at (26, 15) from south is the recommended approach.
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
-- Current Reset Strategy: Gatehouse hopping. [Started Turn 23337]
-    1. Travel to Route 42 West Gatehouse at (0, 9).
-    2. Toggle map transitions between Route 42 and the Gatehouse (or Ecruteak City).
-    3. Check Pokédex after each transition.
-    4. Once Suicune is on Route 42, surf to the central island and land at (26, 15).
-- Failed Trigger Attempts: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14), exhaustive sweep, and Hard Map Reset (Fly).
-- Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate, Ecruteak City (Fly).
 
-# Battle Strategy: Suicune
-- Status: Leading with XENON (Gastly).
-- Overworld: Scripted fleeing events. Mean Look not required.
-- Scripted Battle (Tin Tower): Focus on Hypnosis/Sleep Powder and chip damage.
+## Quest Timestamps
+- Turn 23337: Ecruteak/Route 42 West Gatehouse hopping started.
+- Turn 23387: Route 36 junction attempt (failed). Agent confirmed Route 42 sighting is mandatory.
+- Turn 23389: Flying to Ecruteak to restart Route 42 sequence.
+
+## Current Sighting Plan: Route 42
+1. Fly to Ecruteak City.
+2. Enter Route 42 from the West Gatehouse.
+3. Surf to the central island.
+4. Approach the Apricorn trees (approx. 26, 14).
+5. If trigger fails, perform map reset (Ecruteak boundary).
 
 # Type Effectiveness (Verified)
 - Fire -> Grass: Super Effective
@@ -46,51 +48,3 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
-
-# Route 42 Tile Mechanics
-- WATER: Traversable with HM03 Surf. [Verified]
-- HEADBUTT_TREE: Impassable. Interacting with Headbutt may trigger encounters. [Verified]
-- CUT_TREE: Impassable. Removed with HM01 Cut. [Verified]
-- CAVE: Warp to Mount Mortar. [Verified]
-- WARP_CARPET_LEFT: Warp to Ecruteak Gatehouse. [Verified]
-- FLOOR_UP_WALL: Impassable. Visual boundary. [Verified]
-## Sighting 3 (Route 42) - Attempt Log
-- Turn 23306: Map reset via Mt. Mortar performed. Approaching (26, 14) from the south via Surf.
-- Hypothesis: Eusine battle flag in Cianwood is the primary gate. If Suicune doesn't appear now, I must return to Cianwood and verify Eusine's defeat.
-- Observation: (26, 14) was previously stepped on without trigger. Cave-exit reset is the current test.
-## Roaming Suicune Hypothesis (Crystal)
-- Turn 23321: Pokédex confirms Suicune is roaming (icon visible on map).
-- Observation: Suicune is currently on the east side of Johto.
-- Hypothesis: Scripted sightings in Crystal may require the roaming icon to be present on the current route to trigger the overworld event.
-- Plan: Cycle map transitions at the Route 42/Ecruteak gatehouse until Suicune is on Route 42.
-- Turn 23337: Mt. Mortar reset failed (sprite did not appear at (26, 14)). 
-- New Strategy: Gatehouse hopping. Cross the Route 42/Ecruteak boundary repeatedly and check the Pokédex until Suicune is on Route 42. Then check the island.
-- Reason: Scripted sightings in Crystal may be tied to the roaming Suicune's current map location.
-
-# Reflection & Lessons Learned
-- **Turn 23357 Reflection:**
-    1. **Immediate Execution:** No deferred tasks.
-    2. **Notepad Hygiene:** Added "Reflection & Lessons Learned" and strategy timestamps.
-    3. **Map Hygiene:** Planned move of Suicune trigger marker to (26, 15).
-    4. **Automation Strategy:** Decided to rely on menu_navigator_v4_robust for Pokedex checks.
-    5. **Goal Clarity:** Goals are concrete.
-    6. **Error Analysis:** Corrected turn count hallucination.
-- **Lesson:** Turn count in `tools_to_call` must match the current turn number provided in the Game State.
-- **Lesson:** Pokedex Area screen is purely visual; interpret the Johto map based on blue square (city) positions. Ecruteak is (20, 8), Mahogany is (22, 8).
-
-# Suicune Hunt Strategy (Crystal)
-- Started: Turn 22256.
-- Gatehouse hopping started Turn 23337.
-- Current observation: Suicune is currently in the east (approx. Route 44/45) as of Turn 23357.
-- Turn 23362: Correcting turn count mismatch. 
-- Note: find_path_v3 does not automatically press A to Surf. When reaching water, the player must face the water and press A manually to trigger the prompt.
-- Strategy: Moving to (0, 9) gatehouse to perform map-transition hopping until Suicune is on Route 42.
-- Current Suicune Location (Pokedex Area): 
-    - Turn 23357: East (Route 44/45).
-    - Turn 23362: To be checked.
-
-# Suicune Hunt Update - Turn 23377
-- Agent `suicune_tracker_v3_troubleshooter` confirms Route 42 sighting is likely skipped/superseded by the Radio Tower liberation.
-- Pokedex "checkerboard" pattern confirms Suicune is roaming.
-- Next Trigger: Route 36 junction at (35, 9) (where Sudowoodo was).
-- Plan: Warp to Ecruteak, head south through Route 37 to Route 36.
