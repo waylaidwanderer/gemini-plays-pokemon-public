@@ -1,198 +1,4 @@
 {
-  "find_path_v2": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a list of button strings. Updated to include more traversable tile types.",
-    "input_schema": {
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
-          "type": "boolean"
-        },
-        "can_surf": {
-          "default": false,
-          "type": "boolean"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "nullable": true,
-          "type": "integer"
-        },
-        "start_y": {
-          "nullable": true,
-          "type": "integer"
-        }
-      },
-      "required": [
-        "end_x",
-        "end_y",
-        "autopress_buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        can_surf = bool(input_data.get('can_surf', False))\n        \n        if start_x is None or start_y is None:\n            for row in root.findall('Row'):\n                y = int(row.attrib['id'])\n                for tile in row.findall('Tile'):\n                    if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                        start_x = int(tile.attrib['id'])\n                        start_y = y\n                        break\n                if start_x is not None: break\n\n        if start_x is None:\n            print(json.dumps([]))\n            return\n\n        grid = {}\n        warps = set()\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                has_object = tile.attrib.get('has-object') == 'true'\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                \n                passable_types = [\n                    'FLOOR', 'TALL_GRASS', 'CAVE', 'GRASS', 'SAND', 'STAIRS', 'DOCK', 'WARP', \n                    'STAIRCASE', 'ICE', 'WHIRLPOOL', 'WATER', 'DIRT', 'PATH', 'DOOR',\n                    'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN',\n                    'LEDGE_HOP_DOWN', 'LEDGE_HOP_RIGHT', 'LEDGE_HOP_LEFT', 'FLOOR_UP_WALL'\n                ]\n                is_blocked = (t_type not in passable_types)\n                \n                if has_object:\n                    if tile.find('Player') is None and tile.attrib.get('has-player') != 'true':\n                        is_blocked = True\n\n                if t_type == 'WATER' and not can_surf: is_blocked = True\n                if t_type == 'WHIRLPOOL': is_blocked = True\n\n                grid[(x, y)] = is_blocked\n                if is_warp: warps.add((x, y))\n\n        queue = deque([(start_x, start_y, [])])\n        visited = set([(start_x, start_y)])\n        while queue:\n            x, y, path = queue.popleft()\n            if x == end_x and y == end_y:\n                print(json.dumps(path))\n                return\n            \n            # Don't walk through warps unless it's the start or end\n            if (x, y) in warps and (x != start_x or y != start_y) and (x != end_x or y != end_y):\n                continue\n                \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = x + dx, y + dy\n                if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                    # Allow moving onto the target even if it's \"blocked\" (e.g. an NPC or unseen tile)\n                    if not grid.get((nx, ny), True) or (nx == end_x and ny == end_y):\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps([str(e)]))\n\nfind_path()",
-    "history": [
-      {
-        "commit_message": "Refined find_path to use the globally available map_xml_string and removed it from input_schema. Fixed one-way logic and impassable types.",
-        "timestamp": "2025-12-23T14:36:16.850Z",
-        "action_counter": 14568
-      },
-      {
-        "commit_message": "Updated find_path_v2 to automatically detect player position from map_xml_string if start_x/y are not provided. Added start_x/y to input_schema as optional properties.",
-        "timestamp": "2025-12-23T14:37:43.655Z",
-        "action_counter": 14570
-      },
-      {
-        "commit_message": "Fixed a bug in find_path_v2 where the path reconstruction loop would never terminate if the start position was found, leading to a KeyError: (None, None). Also fixed start_x/y handling to properly detect player position from XML if not provided as arguments.",
-        "timestamp": "2025-12-23T14:38:20.004Z",
-        "action_counter": 14571
-      },
-      {
-        "commit_message": "Corrected output format of find_path_v2 to return a flat list of coordinates, matching the expected input for the navigate tool.",
-        "timestamp": "2025-12-23T14:41:01.719Z",
-        "action_counter": 14573
-      },
-      {
-        "commit_message": "Fixed a bug in path reconstruction where (None, None) was not correctly identified as the termination condition, causing a KeyError. Also improved player position detection.",
-        "timestamp": "2025-12-23T14:54:49.565Z",
-        "action_counter": 14596
-      },
-      {
-        "commit_message": "Refined find_path_v2 to handle pathfinding more robustly, correctly detecting the player's position from the XML if not provided, and returning a list of coordinate objects suitable for the navigate tool's path_plan. Added checks for impassable tiles including HEADBUTT_TREE and WATER.",
-        "timestamp": "2025-12-23T14:56:11.952Z",
-        "action_counter": 14599
-      },
-      {
-        "commit_message": "Fixing find_path_v2 to correctly return a JSON array of button strings when autopress_buttons is true, and ensuring it handles the end tile correctly even if it's marked as impassable (like an NPC).",
-        "timestamp": "2025-12-23T17:23:41.688Z",
-        "action_counter": 14852
-      },
-      {
-        "commit_message": "Updating find_path_v2 to support an optional 'can_surf' parameter. When true, WATER tiles are treated as traversable. This allows for pathfinding across ponds and oceans when the player has a Pokemon with Surf.",
-        "timestamp": "2025-12-23T18:04:50.520Z",
-        "action_counter": 14936
-      },
-      {
-        "commit_message": "Refined passable types and added better error handling for unreachable destinations.",
-        "timestamp": "2025-12-23T20:52:10.769Z",
-        "action_counter": 15273
-      },
-      {
-        "commit_message": "Refined passable types, added better error handling, and fixed button output for overworld/menu navigation.",
-        "timestamp": "2025-12-23T20:52:38.251Z",
-        "action_counter": 15274
-      },
-      {
-        "commit_message": "Reverted to returning coordinates for 'navigate' tool and added specific logic for FLOOR_UP_WALL one-way tiles.",
-        "timestamp": "2025-12-23T20:54:14.377Z",
-        "action_counter": 15278
-      },
-      {
-        "commit_message": "Fix find_path_v2 to handle autopress_buttons correctly by returning a JSON array of button strings when enabled, and account for one-way tiles like LEDGE and FLOOR_UP_WALL.",
-        "timestamp": "2025-12-23T21:48:39.009Z",
-        "action_counter": 15375
-      },
-      {
-        "commit_message": "Fix find_path_v2 to handle autopress_buttons correctly and add one-way tile logic for LEDGE and FLOOR_UP_WALL.",
-        "timestamp": "2025-12-23T21:49:12.615Z",
-        "action_counter": 15376
-      },
-      {
-        "commit_message": "Fix find_path_v2 by removing the function wrapper and ensuring it prints the result directly to stdout, and refine traversable types to include CAVE and warps.",
-        "timestamp": "2025-12-23T21:51:09.492Z",
-        "action_counter": 15382
-      },
-      {
-        "commit_message": "Refine find_path_v2 to handle traversable types more robustly (including LONG_GRASS), fix button output logic, and improve error reporting when no path is found.",
-        "timestamp": "2025-12-23T21:52:41.372Z",
-        "action_counter": 15383
-      },
-      {
-        "commit_message": "Ensure all outputs of find_path_v2 are JSON-encoded arrays of strings to prevent parsing errors in the harness, and include WARP in the passable list.",
-        "timestamp": "2025-12-23T21:55:48.757Z",
-        "action_counter": 15387
-      },
-      {
-        "commit_message": "Added can_surf parameter and updated pathfinding logic for ledges and one-way walls.",
-        "timestamp": "2025-12-24T02:44:55.343Z",
-        "action_counter": 16074
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic and improved ledge hopping.",
-        "timestamp": "2025-12-24T02:48:02.495Z",
-        "action_counter": 16081
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic to block Southward movement as verified on Route 42.",
-        "timestamp": "2025-12-24T02:53:18.188Z",
-        "action_counter": 16094
-      },
-      {
-        "commit_message": "Fixed FLOOR_UP_WALL logic to block Northward entry.",
-        "timestamp": "2025-12-24T02:56:43.743Z",
-        "action_counter": 16101
-      },
-      {
-        "commit_message": "Corrected FLOOR_UP_WALL logic to block Southward movement.",
-        "timestamp": "2025-12-24T03:01:54.819Z",
-        "action_counter": 16109
-      },
-      {
-        "commit_message": "Finalized ledge and FLOOR_UP_WALL (Southward block) logic for accurate pathfinding.",
-        "timestamp": "2025-12-24T03:26:52.936Z",
-        "action_counter": 16154
-      },
-      {
-        "commit_message": "Implement robust BFS pathfinding for overworld navigation, accounting for ledge directions and hypothetical floor-up-wall behavior.",
-        "timestamp": "2025-12-24T04:03:42.841Z",
-        "action_counter": 16231
-      },
-      {
-        "commit_message": "Refine pathfinding logic: allow destination to be an object-occupied tile and ensure the start tile's object/impassable status doesn't block the initial step.",
-        "timestamp": "2025-12-24T04:09:54.304Z",
-        "action_counter": 16244
-      },
-      {
-        "commit_message": "Fix IndexError by checking sys.argv length and improve player position detection.",
-        "timestamp": "2025-12-24T04:16:01.527Z",
-        "action_counter": 16258
-      },
-      {
-        "commit_message": "Refine find_path_v2 to use the injected input_data dictionary instead of sys.argv, and improve error handling.",
-        "timestamp": "2025-12-24T04:18:55.006Z",
-        "action_counter": 16263
-      },
-      {
-        "commit_message": "Refined to avoid unintentional map transitions by treating warp tiles as impassable unless they are the intended destination. Also added a check for 'unseen' tiles to prioritize verified paths.",
-        "timestamp": "2025-12-24T20:58:30.935Z",
-        "action_counter": 18061
-      },
-      {
-        "commit_message": "Refined find_path_v2 to correctly handle MART_SHELF and COUNTER collision, and avoid unintentional warps.",
-        "timestamp": "2025-12-24T23:59:49.423Z",
-        "action_counter": 18378
-      },
-      {
-        "commit_message": "Refined find_path_v2: improved player detection, added more passable types, and allowed the destination tile to be visited even if it is marked as blocked or contains an object.",
-        "timestamp": "2025-12-25T00:02:22.686Z",
-        "action_counter": 18383
-      },
-      {
-        "commit_message": "Added DOOR to passable types in find_path_v2.",
-        "timestamp": "2025-12-25T00:38:17.038Z",
-        "action_counter": 18482
-      },
-      {
-        "commit_message": "Update find_path_v2 to recognize warp carpets, ledges, and other passable tile types, and allow pathing through the start/end warp tiles.",
-        "timestamp": "2025-12-26T12:00:18.041Z",
-        "action_counter": 22517
-      }
-    ]
-  },
   "find_unmarked_floor_tiles_v2_fixed": {
     "description": "Finds all FLOOR tiles on the current map within the specified bounds that do not have a map marker with the given emoji and do not contain any objects. Useful for tracking exploration or sweeping an area. Returns a list of coordinates or button strings. Excludes the player's current tile from targets.",
     "input_schema": {
@@ -248,44 +54,8 @@
       }
     ]
   },
-  "menu_navigator_v3_fixed_borders": {
-    "description": "Navigates a vertical list (Bag, Pokedex, etc.) to a target string and selects it. Accounts for cursor position and scrolls if necessary. Supports menu borders. Optimized for the Johto main menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target"
-      ]
-    },
-    "python_script": "import json\n\ndef navigate():\n    screen_text = input_data['screen_text']\n    target = input_data['target'].upper()\n    \n    # Johto Start Menu (Crystal) keywords\n    menu_items = [\"POKéDEX\", \"POKéMON\", \"PACK\", \"GEAR\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    \n    lines = screen_text.split('\\n')\n    \n    # 1. Find the cursor and its index in the menu_items list\n    cursor_idx = -1\n    for line in lines:\n        clean = line.strip(' │┌┐└┘─').strip()\n        if not clean: continue\n        if any(c in clean for c in ['▶', '▷', '◀']):\n            clean_no_cursor = clean.replace('▶', '').replace('▷', '').replace('◀', '').strip().upper()\n            for i, item in enumerate(menu_items):\n                if item in clean_no_cursor:\n                    cursor_idx = i\n                    break\n            if cursor_idx != -1: break\n            \n    # 2. Find the target's index in the menu_items list\n    target_idx = -1\n    for i, item in enumerate(menu_items):\n        if target in item.upper():\n            target_idx = i\n            break\n            \n    if cursor_idx != -1 and target_idx != -1:\n        diff = target_idx - cursor_idx\n        print(json.dumps((['Down'] * diff if diff > 0 else ['Up'] * abs(diff)) + ['A']))\n        return\n\n    # Fallback to general list logic (picks the FIRST match to avoid overshooting)\n    valid_lines = []\n    target_line = -1\n    cursor_line = -1\n    for line in lines:\n        c = line.strip(' │┌┐└┘─').strip()\n        if not c: continue\n        if any(char in c for char in ['▶', '▷', '◀']):\n            cursor_line = len(valid_lines)\n        if target in c.upper() and target_line == -1:\n            target_line = len(valid_lines)\n        valid_lines.append(c)\n        \n    if target_line != -1 and cursor_line != -1:\n        diff = target_line - cursor_line\n        print(json.dumps((['Down'] * diff if diff > 0 else ['Up'] * abs(diff)) + ['A']))\n    else:\n        print(json.dumps([]))\n\nnavigate()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-26T07:09:20.190Z",
-        "action_counter": 21872
-      },
-      {
-        "commit_message": "Refined keyword matching and added a robust fallback for general list navigation. Optimized for the Johto Start menu keywords and cursor detection.",
-        "timestamp": "2025-12-26T08:05:05.458Z",
-        "action_counter": 21992
-      },
-      {
-        "commit_message": "Fixed overshooting bug by using the first match for the target and improved Start Menu detection by prioritizing the main list over bottom-screen status text.",
-        "timestamp": "2025-12-26T08:12:33.741Z",
-        "action_counter": 22008
-      }
-    ]
-  },
   "find_path_v3": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a list of button strings. Updated to include more traversable tile types.",
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a list of button strings. Updated to include more traversable tile types (including WARP_CARPET and STAIRS) and robust player position detection from the Mental Map.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -318,12 +88,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Get current position from XML if not provided\n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    if start_x is None or start_y is None:\n        player_node = root.find(\".//Player/..\")\n        if player_node is not None:\n            start_x = int(player_node.attrib['id'])\n            start_y = int(player_node.attrib.get('y_id', player_node.getparent().attrib['id'] if hasattr(player_node, 'getparent') else root.find(f\".//Tile[@id='{player_node.attrib['id']}']/..\").attrib['id']))\n        else:\n            # Fallback to searching all rows\n            for row in root.findall('Row'):\n                y = int(row.attrib['id'])\n                for tile in row.findall('Tile'):\n                    if tile.find('Player') is not None:\n                        start_x = int(tile.attrib['id'])\n                        start_y = y\n                        break\n                if start_x is not None: break\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n\n    # Build grid\n    grid = {}\n    objects = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None or tile.attrib.get('has-object') == 'true':\n                objects.add((x, y))\n\n    def is_traversable(x, y, from_x, from_y):\n        if (x, y) not in grid: return False\n        if (x, y) in objects and (x, y) != (end_x, end_y): return False\n        \n        t_type = grid[(x, y)]\n        if t_type in ['FLOOR', 'TALL_GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'CAVE', 'FLOOR_UP_WALL', 'STAIRS']:\n            return True\n        if can_surf and t_type == 'WATER':\n            return True\n        return False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) not in visited and is_traversable(nx, ny, cx, cy):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nsolve()",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    \n    # Get current position from XML if not provided\n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    if start_x is None or start_y is None:\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    start_x = int(tile.attrib['id'])\n                    start_y = y\n                    break\n            if start_x is not None: break\n\n    if start_x is None:\n        print(json.dumps([]))\n        return\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n\n    # Build grid\n    grid = {}\n    objects = set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Object') is not None or tile.attrib.get('has-object') == 'true':\n                objects.add((x, y))\n\n    def is_traversable(x, y):\n        if (x, y) not in grid: return False\n        # Allow walking onto the target even if it has an object (e.g. interacting with an item)\n        if (x, y) in objects and (x, y) != (end_x, end_y): return False\n        \n        t_type = grid[(x, y)]\n        traversable_types = [\n            'FLOOR', 'TALL_GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', \n            'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'CAVE', 'FLOOR_UP_WALL', \n            'STAIRS', 'WARP_CARPET'\n        ]\n        if t_type in traversable_types:\n            return True\n        if can_surf and t_type == 'WATER':\n            return True\n        return False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if (cx, cy) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) not in visited and is_traversable(nx, ny):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Refined pathfinding with more robust tile type handling and improved BFS for overworld navigation.",
         "timestamp": "2025-12-26T16:54:12.345Z",
         "action_counter": 23112
+      },
+      {
+        "commit_message": "Refined pathfinding with robust position detection and improved traversability checks for overworld navigation.",
+        "timestamp": "2025-12-26T16:56:20.298Z",
+        "action_counter": 23116
       }
     ]
   },
