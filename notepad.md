@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Status:** Indigo Plateau (Koga's Room).
-- **Plan:** Advance to Bruno.
+- **Status:** Indigo Plateau (Bruno's Room).
+- **Plan:** Defeat Elite Four Bruno.
 - **Opponent:** Bruno (Fighting).
 - **Strategy:** Muscle leads. Gyarados for Onix.
 
