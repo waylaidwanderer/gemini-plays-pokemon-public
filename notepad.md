@@ -96,3 +96,8 @@
 - **Turn 19136:** Muscle uses Strength.
 - **Goal:** Chip damage. Hopefully 2HKO even with +1 Def.
 - **Note:** Slowbro's Speed fell, so Muscle is definitely faster.
+- **Turn 19137:** Slowbro defeated.
+- **Incoming:** Xatu (Lv 42).
+- **Decision:** Decline switch ("NO"). Stay with Muscle.
+- **Status:** Muscle 24/205 HP. Critical.
+- **Plan:** Use Hyper Potion immediately. Muscle survives Psychic (~90 dmg). Then Strength.
