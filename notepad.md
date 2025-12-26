@@ -88,12 +88,15 @@
   - **Onix:** Surf (Gyarados) or Dig/Cross Chop (Muscle).
   - **Machamp:** Strength/Dig. Watch for Cross Chop.
   - **Note:** Gyarados resists Fighting. Good pivot.
-- **Turn 19277:** Menu closed. Muscle at 84/208 HP.
-- **Inventory:** 0 Potions confirmed (Zombie Mode active).
-- **Strategy:** Lead with Muscle. If he faints, sack fodder (Mistral/Zenith) to Revive him.
-- **Navigation:** Walking North to Bruno's Room.
+- **Turn 19278:** Recovered from menu loop. Muscle at 84/208 HP.
+- **Status:** All Party Members Alive. No Potions left.
+- **Strategy:** Zombie Mode confirmed.
+- **Action:** Exiting menus and walking North to Bruno.
 - **Next:** Battle Bruno.
-- **Bruno Matchups:**
-  - **Onix:** Switch to Gyarados -> Surf.
-  - **Fighting Types:** Muscle (Strength/Dig). Gyarados (Waterfall) if needed.
-  - **Machamp:** Muscle (Dig). Watch for Cross Chop.
+- **Bruno Strategy:**
+  - **Hitmontop:** Muscle (Strength/Dig).
+  - **Hitmonchan:** Muscle (Strength/Dig).
+  - **Hitmonlee:** Muscle (Strength/Dig).
+  - **Onix:** Gyarados (Surf) or Muscle (Dig).
+  - **Machamp:** Muscle (Dig/Strength) or Gyarados (Surf/Strength).
+  - **Note:** Gyarados resists Fighting. Use him to pivot if Muscle is in trouble.
