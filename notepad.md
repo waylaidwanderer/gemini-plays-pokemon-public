@@ -20,6 +20,6 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Reached East Corridor of 3F at (18, 16).
-- **Plan:** Navigate North along x=18 to (18, 11).
-- **Next:** Traverse West along Row 11 to loop around to the ladder area.
+- **Status:** Reached 3F North-East corner (18, 11).
+- **Plan:** Traverse West along the Northern corridor (Row 11) to (11, 11).
+- **Goal:** Find the path South-West to reach the ladder at (17, 19).
