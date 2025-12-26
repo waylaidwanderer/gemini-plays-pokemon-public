@@ -22,10 +22,10 @@
 
 # Battle Log
 - **Vs Will:**
-  - **Xatu:** Defeated by Strength (2 hits + Confusion dmg). Muscle grew to Lv 62.
+  - **Xatu:** Defeated.
   - **Jynx:** Current opponent.
-    - Muscle used Hyper Potion (111/205 -> 205/205).
-    - Jynx used Psychic (205/205 -> 111/205).
-    - **Status:** Muscle 111/205. Jynx Full HP.
-    - **Speed Analysis:** Muscle (88 Spd) vs Jynx (Est 95 Spd). Jynx likely faster.
-    - **Strategy:** Commit to Attack. Strength (Slot 1). Expecting to survive one more Psychic if Jynx outspeeds (111 HP > ~94 dmg).
+    - **Situation:** We are in a heal loop. Healing puts us at 205, Jynx hits us down to ~111.
+    - **Game State Logic:** HP is 111/205. The "Recovered 94 HP" text is on screen, but the game has already calculated the *next* hit from Jynx.
+    - **Trajectory:** Once text clears, Jynx attacks. We end up at 111 HP.
+    - **Decision:** We MUST attack next turn. We can survive one hit (111 HP > ~94 Dmg). Healing again is futile.
+    - **Action:** Advance text. Next turn: STRENGTH.
