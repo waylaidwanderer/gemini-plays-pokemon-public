@@ -1,5 +1,6 @@
 # Operation: Elemental Upgrade
-- **Status:** Traveling to Indigo Plateau (Route 27).
+- **Status:** Traversing Tohjo Falls (Inside).
+- **Plan:** Surf at (10, 14) -> Ascend Waterfall at (9, 11) -> Traverse Upper Level -> Descend Waterfall at (18, 6) -> Exit East.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
