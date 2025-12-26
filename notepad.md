@@ -61,3 +61,7 @@
 - **Action:** B x4 (Close text -> Exit Move Select -> Exit Party -> Exit Bag).
 - **Goal:** Return to Battle Menu.
 - **Next:** Select FIGHT -> Strength.
+- **Turn 19224:** Strength PP restored.
+- **Action:** Up (Select FIGHT) -> A (Select) -> A (Select Strength).
+- **Status:** Muscle Poisoned. Crobat Full HP.
+- **Strategy:** Strength is the only viable move. Keep attacking.
