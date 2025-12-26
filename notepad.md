@@ -26,3 +26,4 @@
 - **Route 26:** Defeated trainers (Gilbert, Scott, Richard, Joyce, Gaven, Jake).
 - **Milestone:** Registered Cooltrainer Gaven.
 - **Current:** Navigating North towards Victory Road.
+- **Badge Check:** Passed! The officer verified all 8 badges.
