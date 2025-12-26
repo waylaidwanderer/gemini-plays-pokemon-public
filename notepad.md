@@ -33,5 +33,3 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
-- Observation: Tin Tower 1F Sages provided lore but no battles. [Turn 22026]
-- Observation: Wise Trio Room (4_2) is empty. [Turn 22030]
