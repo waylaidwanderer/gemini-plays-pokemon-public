@@ -240,3 +240,8 @@
 - **Turn 19175:** Battle End Phase.
 - **Action:** Confirming rejection of Twister (Select NO).
 - **Next:** Confirm "Stop Learning?" (Select YES) -> Heal Team -> Koga.
+- **Turn 19176:** Confirming "Stop learning Twister" (YES).
+- **Action:** Press A.
+- **Next:** Battle End -> Overworld.
+- **Post-Battle:** Revive Sneasel, Heal Muscle.
+- **Goal:** Advance to Koga.
