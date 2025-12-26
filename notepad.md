@@ -54,3 +54,7 @@
   4. Dragonite attacks (likely KO Zenith).
   5. Send in fully powered Muscle to sweep.
 - **Current Action:** Select Zenith (Slot 5).
+- **Turn 19387:** Confirming switch to Zenith (Fodder).
+- **Context:** Muscle fainted. Dragonite must recharge next turn.
+- **Next Turn Goal:** Use MAX REVIVE on Muscle.
+- **Note:** This is the critical moment of the Max Zombie strategy.
