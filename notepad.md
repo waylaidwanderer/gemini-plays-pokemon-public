@@ -14,9 +14,9 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 (In Progress)
-    - Trigger Tile: (26, 14) (Middle of the island grove).
+    - Trigger Tile: (26, 14) (Middle of the island grove). [Hypothesis: Failed Attempt 1]
     - Logic: Proximity-based trigger in front of the three Apricorn trees. Approaches should be made slowly (walking) to ensure script execution.
-    - Strategy: Mahogany Entrance Reset.
+    - Strategy: Mahogany Entrance Reset. Currently performing Mt. Mortar map script reset.
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
