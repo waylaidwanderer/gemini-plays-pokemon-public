@@ -38,3 +38,5 @@
 - Observation: Wise Trio Room (4_2) appears empty at Turn 22030. [Turn 22030]
 - Observation: Tin Tower 1F Sage (5, 9) said: "Could it mean the legendary POKéMON are testing us humans?" [Turn 22023]
 - Hypothesis: The Wise Trio might appear in 4_2 after a specific trigger, or the battle occurs elsewhere. [Turn 22030]
+- Hypothesis: Wise Trio Room (4_2) is empty because a prerequisite (like talking to Eusine or triggering Route 42) is missing. [Turn 22034]
+- Strategy: Check Ecruteak Pokemon Center for Eusine, then head to Route 42. [Turn 22034]
