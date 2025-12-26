@@ -27,3 +27,4 @@
 - **Exploration:** Checked East corridor. Dead end at (19, 52).
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
 - **Next:** From (1, 35) on 2F, explore the NORTH path (y=33) which was previously missed.
+- **Encounter:** Wild Onix at (15, 56).
