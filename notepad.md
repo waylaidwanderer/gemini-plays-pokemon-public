@@ -37,3 +37,7 @@
 - **Action:** Using Rock Smash (Slot 3).
 - **Tool Config:** current_slot=3 (Memory), target_slot=3.
 - **Plan:** Waiting for Muscle to faint for Max Revive reset.
+- **Turn 19384:** Dragonite used Hyper Beam (Muscle survived with 47 HP!). Muscle used Rock Smash (Def fell).
+- **Status:** Dragonite is recharging (Hyper Beam mechanic).
+- **Action:** Use Rock Smash (Slot 3).
+- **Reasoning:** Free turn. Muscle will likely faint next turn, initiating the Max Revive sequence.
