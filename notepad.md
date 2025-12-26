@@ -49,3 +49,7 @@
 - **Solution:** Use **Max Ether** on Strength.
 - **Action:** B (Exit Move Menu) -> Down (Select Pack) -> A (Open Pack).
 - **Next:** Find Max Ether -> Restore Strength PP.
+- **Turn 19221:** Using Max Ether.
+- **Action:** Up (Select Max Ether) -> A (Select) -> A (Use).
+- **Target:** Muscle -> Strength.
+- **Reason:** Restore PP to continue sweeping.
