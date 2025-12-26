@@ -15,11 +15,12 @@
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 Central Island. [Start Turn 21950]
   - HOW: Step on the trigger tiles in the grove (approx 26, 14).
-- Sighting 4: Route 36 (Sudowoodo junction). [Turn 21964]
+- Sighting 4: Route 36 (Sudowoodo junction). [Turn 21973]
   - HOW: Clear Sudowoodo first (Complete). Approach the clearing near the junction.
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell.
   - Prerequisite: All 4 scripted sightings (Burned Tower, Cianwood, Route 42, Route 36) must be triggered.
-- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. Fuchsia City is NOT in Crystal. [Correction - Turn 21961]
+- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Correction - Turn 21973]
+- Strategy: Finish sighting on Route 42, then head to Route 36. [Turn 21973]
 
 # Gym Progress
 - Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
