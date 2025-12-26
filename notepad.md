@@ -1,7 +1,7 @@
 # Operation: Dark Days
-- **Status:** Indigo Plateau (Bruno's Room).
-- **Action:** Moving to Karen's Room.
-- **Plan:** Defeat Elite Four Karen.
+- **Status:** Indigo Plateau (Karen's Room).
+- **Current State:** Fighting Gengar (Lv45).
+- **Battle Plan:** Use Shadow Ball (Slot 1).
 - **Opponent:** Karen (Dark Type).
 - **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
 
