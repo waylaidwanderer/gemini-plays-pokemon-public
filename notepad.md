@@ -4,7 +4,7 @@
 - WATER: Traversable only when using HM03 Surf. [Verified]
 - TALL_GRASS: Traversable. Triggers wild encounters. [Verified]
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. (e.g., 28,14) [Verified]
-- CUT_TREE: Impassable. Can be removed using HM01 Cut. (e.g., 24,13) [Verified]
+- CUT_TREE: Impassable. Can be removed using HM01 Cut. Regrows upon map reload. (e.g., 24,13) [Verified]
 - WARP_CARPET: Traversable. Triggers map transition. [Verified]
 - CAVE: Warp point. [Verified]
 - LEDGE: One-way traversal. Blocks movement from the direction it hops into. [Verified]
