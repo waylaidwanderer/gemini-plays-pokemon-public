@@ -39,12 +39,17 @@
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
 # Strategy for Suicune on Route 42
-- Trigger Tile: (26, 14) on the central island.
-- Suicune sighting 3 (Route 42) failed. Hypothesis: Missing prerequisite or incorrect trigger tile. Stepped on (26, 14) multiple times after re-zoning; Suicune did not appear.
+- Trigger Tile: (26, 13) or (26, 14) on the central island.
+- Suicune sighting 3 (Route 42) failure log:
+  - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
+  - Lesson: Map script likely requires entry from Route 42 East (Mahogany Town side).
 - Verified Sightings:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective - FAILED TO TRIGGER]
+  3. Route 42 (Central Island): Middle Apricorn grove. [Current Objective]
+
+# NPC & Interaction Rules
+- Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
