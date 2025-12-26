@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: In Fly Menu. Selecting Goldenrod City to buy Elemental Punches.
+- Status: In Goldenrod City (15, 28). Walking to Department Store (24, 27) to sell items and buy TMs.
