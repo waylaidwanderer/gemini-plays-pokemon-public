@@ -173,3 +173,7 @@
 - **Action:** Select PACK (via tool).
 - **Goal:** Use Hyper Potion.
 - **Status:** Muscle 97/205 (Confused). Critical danger.
+- **Turn 19155:** Using Hyper Potion on Muscle.
+- **Sequence:** A (Select Item) -> A (Select Use) -> A (Select Muscle).
+- **Status:** Muscle 97/205 -> 205/205.
+- **Next:** Muscle heals. Xatu attacks. Muscle (Confused) attacks next turn.
