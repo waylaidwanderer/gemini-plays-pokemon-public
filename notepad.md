@@ -5,7 +5,7 @@
     - Island sweep started: Turn 21455 (Thursday, Dec 25, 2025).
     - Current Task: Verify blinking location in Pokedex. Sweep of floor tiles complete (Turn 21492).
 - Lessons Learned:
-    - Pokedex: Alphabetical (A-Z). Suicune follows Sudowoodo.
+    - Pokedex: Johto Order. Suicune is #245.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
     - Animation: Sprite flees with a visible jump. If no jump seen, event is not complete.
     - Trigger: Suicune on Route 42 is a tile trigger on the southern Apricorn island.
