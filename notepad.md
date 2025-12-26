@@ -16,5 +16,5 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Purchase Plan:** Budget is ¥8619. Prioritize Revives (target 5-6 total) and Hyper Potions. Full Heals are sufficient (x8).
+- **Purchase Plan:** Budget is ¥8619. Check Rooftop for Vending Machines (Lemonade/Soda) for cost-effective healing. If not, fallback to 2F.
 - **Gen 2 Mechanics:** Ghost is Physical, Dark is Special. Sneasel (Dark/Ice) has bad Sp.Atk, so Dark moves like Thief are bad. Shadow Ball (Ghost) is good.
