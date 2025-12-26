@@ -1,6 +1,7 @@
 # Operation: Dark Days
-- **Status:** Indigo Plateau (Karen's Room).
-- **Plan:** Heal Team, then Defeat Elite Four Karen.
+- **Current State:** Healing Team.
+- **Action:** Healed Muscle. Next: Heal Sneasel (Slot 4).
+- **Plan:** After healing, exit menus and enter Karen's Room.
 - **Opponent:** Karen (Dark Type).
 - **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
 
