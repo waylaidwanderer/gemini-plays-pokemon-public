@@ -38,7 +38,8 @@
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Pokedex shows Route 42]
      - Trigger Hypothesis: Approach from East (Mahogany Town) to force script load.
-     - Targeted Trigger Tile: (26, 13) [Per Agent Advice]
+     - Targeted Trigger Area: Right side of Apricorn trees (27-29, 16).
+     - Recommended Trigger Tile: (26, 13) or (26, 14) approached from East.
   4. Route 36 (Sudowoodo junction): Near the fat guy.
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Locked by sighting 3]
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
@@ -48,4 +49,5 @@
 
 # Lessons Learned
 - FLY Map Navigation: Grid-based. Relative positions match region map.
-- Suicune Sighting 3: Approaching from West/Mt. Mortar failed. Trying East approach (Hard Reset).
+- Suicune Sighting 3: Simple map resets (Mt. Mortar) failed. Approaching from East (Mahogany) is required to trigger the island event.
+- Trigger Logic: The event likely requires walking on a specific tile (possibly 26, 14) while approaching from the right side of the grove.
