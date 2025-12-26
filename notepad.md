@@ -14,4 +14,5 @@
 
 # PC Inventory
 - Pokémon: Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
-- Items: Not yet verified. Check PC storage at next PokeCenter.
+- Items (Bag): BERRY, FRESH WATER, FULL RESTORE, GRN APRICORN x3, GUARD SPEC., ICE BERRY, ICE HEAL, LEMONADE x2, MAX ETHER, PNK APRICORN x3, THUNDERSTONE, X ATTACK, X SPECIAL, YLW APRICORN x2. (Verified Turn 21263).
+- Items (PC): Not yet verified. Checking now.
