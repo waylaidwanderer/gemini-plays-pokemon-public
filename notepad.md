@@ -41,3 +41,7 @@
 - **Reasoning:** Cannot waste a turn attacking with Garnet (fodder). Must revive Muscle while Garnet takes the hit.
 - **Outcome:** Muscle will be at 50% HP. Garnet likely faints.
 - **Next:** Switch Muscle in. Resume Rock Smash.
+- **Turn 19426:** Mistakenly entered FIGHT menu.
+- **Correction:** B (Back) -> Down (PACK) -> A (Select).
+- **Goal:** Open Pack to use Revive on Muscle.
+- **Priority:** Items act before attacks. Revive Muscle NOW. Garnet will take the hit afterwards.
