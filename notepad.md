@@ -13,11 +13,11 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Sighting 3 (Goal): Route 42 Central Island. Suicune appears as a visible sprite. If missing, check Route 36.
-- Sighting 4: Route 36 (Sudowoodo junction).
+- Sighting 3: Route 42 Central Island. (Attempted, sprite not found).
+- Sighting 4 (Goal): Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell and defeating the Wise Trio.
 - Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
-- Note: Scripted sightings are sprite-based, not hidden tile triggers.
+- Note: Scripted sightings are sprite-based. If Suicune is not at Route 36, I will re-verify Route 42 or check Tin Tower.
 
 # Suicune Battle Strategy (Crystal)
 - Location: Tin Tower 1F (Final Sighting).
