@@ -26,3 +26,8 @@
 - **Action:** Use Rock Smash (Slot 3).
 - **Reasoning:** Aerodactyl is faster but Muscle can tank 2 more hits easily. -1 Defense makes Rock Smash more viable.
 - **PP:** Rock Smash 8/15.
+- **Turn 19418:** Muscle (155/215 HP) vs Aerodactyl.
+- **Action:** Use Rock Smash (Slot 3).
+- **Reasoning:** Rock Smash (Fighting) is Neutral vs Aerodactyl. Need to empty PP to reach Struggle (50 BP, Normal) which is better vs Charizard/Dragonite (Neutral) than Rock Smash (Resisted).
+- **Status:** Rock Smash 7 PP left.
+- **Strategy Update:** Embracing the "Struggle Sweep". Muscle will become a berserker.
