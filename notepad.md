@@ -6,10 +6,11 @@
 # Current Status
 - **Location:** Lance's Room.
 - **Party:**
-  - Muscle (Lv65): 215/215 HP. (PP: 0 Str/Cross, 0 Dig, 8 Rock Smash).
-  - Gyarados (Lv35): 24/114 HP.
-  - Others: Fainted/Fodder.
-- **Inventory:** 0 Max Revives, 8 Revives.
+  - Muscle (Lv65): Fainted.
+  - Garnet (Lv29): Active (81/81 HP).
+  - Kunai (Lv24): Healthy.
+  - Gyarados: Low HP.
+- **Inventory:** 8 Revives.
 
 # Battle Status
 - **Opponent:** Lance (Champion).
