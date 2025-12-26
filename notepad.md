@@ -68,3 +68,6 @@
 - **Matchup:** Muscle (87/211 HP) vs Houndoom (Lv47).
 - **Strategy:** Use last Cross Chop PP. Super Effective STAB. Should OHKO.
 - **Backup:** If miss/faint, use Zombie Plan (Revive). Dig is also Super Effective.
+- **Turn 19340 Result:** Houndoom outsped, used Flamethrower (Muscle down to 26 HP). Muscle landed Cross Chop (Super Effective).
+- **Expectation:** Houndoom faints. Karen defeated.
+- **Next:** Advance text. Heal up/Revive strategy for Lance.
