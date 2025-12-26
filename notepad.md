@@ -1,8 +1,9 @@
 # Operation: Elemental Upgrade
-- **Status:** Indigo Plateau (Lobby).
-- **Plan:** Heal at PokeCenter.
-- **Next:** Verify entrance to Elite Four (North door).
-- **Goal:** Defeat the Elite Four and Champion.
+- **Status:** Indigo Plateau (Will's Room).
+- **Plan:** Challenge Elite Four Will.
+- **Opponent:** Will (Psychic Type).
+- **Strategy:** Use Sneasel (Shadow Ball) and Muscle (ThunderPunch/Ice Punch for Flying/Birds). Gyarados can bite.
+- **Next:** Approach Will at (5, 7) and talk.
 
 # Team Status
 - Muscle (Lv65): Cross Chop, Strength, ThunderPunch, Ice Punch.
