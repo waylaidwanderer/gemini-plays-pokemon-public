@@ -43,4 +43,4 @@
 
 # Metadata
 - Last sighting check: Turn 23645 (Suicune on Route 42).
-- Current Turn: 23674
+- Current Turn: 23680
