@@ -35,7 +35,8 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Encountered Cooltrainer F (Route 26) at (12, 56).
-- **Status:** In dialogue. Gyarados leading.
+- **Battle:** Fighting Cooltrainer Joyce (Pikachu Lv36).
+- **Matchup:** Gyarados (Water/Flying) vs Pikachu (Electric). 4x Weakness!
+- **Action:** DANGEROUS MATCHUP. Switching to Muscle (Machoke Lv60) immediately.
 - **Location:** Route 26 (13, 56).
-- **Next:** Defeat trainer. Harvest Fruit Tree at (14, 54). Navigate North.
+- **Next:** Defeat Pikachu with Muscle. Harvest Fruit Tree. Navigate North.
