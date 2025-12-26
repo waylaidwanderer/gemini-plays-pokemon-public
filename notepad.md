@@ -1,33 +1,24 @@
-# Operation: Dark Days
+# Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Houndoom (Lv47, Red HP).
-- **Battle Plan:** Use Cross Chop (Slot 4) or Strength (Slot 1).
-- **Logic:** Assuming cursor is at Slot 4 (last used) or Slot 1 (reset). Setting current_slot=4 means:
-    - If cursor at 4 -> Uses Cross Chop (SE).
-    - If cursor at 1 -> Uses Strength (Neutral, Physical).
-    - Both should KO.
-- **Matchup:** Muscle (Lv68) vs Houndoom (Lv47).
-- **Status:** Muscle Paralyzed.
+- **Plan:** Heal Team, then Challenge Champion Lance.
+- **Opponent:** Lance (Dragon/Flying).
+- **Strategy:** Muscle carries with Ice Punch (Dragonites) and ThunderPunch (Gyarados/Charizard).
 
 # Team Status
-- **Opponent:** Karen (Dark Type).
-- **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
-
-# Team Status
-- Muscle (Lv67): 160/222 HP. Needs Healing.
+- Muscle (Lv68): 112/225 HP (Paralyzed). Needs Full Heal + HP.
 - Garnet (Lv29): Full.
-- Gyarados (Lv35): Full.
-- Sneasel (Lv24): 18/65 HP. Needs Healing (Critical for Gengar).
+- Gyarados (Lv35): Fainted. Needs Revive.
+- Kunai (Lv24): Fainted. Needs Revive.
+- Zenith/Mistral: Full.
 
-# Karen's Team (Gen 2)
-1. **Umbreon** (Dark): Bulky. Weak to Fighting. Muscle (Cross Chop/Strength).
-2. **Vileplume** (Grass/Poison): Muscle (Ice Punch).
-3. **Gengar** (Ghost/Poison): Fast. Immune to Fight/Normal. Weak to Ghost/Dark/Psychic/Ground. Sneasel (Shadow Ball) or Gyarados.
-4. **Murkrow** (Dark/Flying): Weak to Ice/Electric/Rock. Muscle (Ice/ThunderPunch).
-5. **Houndoom** (Dark/Fire): Weak to Water/Fight/Ground/Rock. Gyarados (Surf) or Muscle (Cross Chop).
+# Lance's Team (Gen 2)
+1. **Gyarados** (Water/Flying): 4x Weak Electric. Muscle (ThunderPunch).
+2. **Dragonite** x3 (Dragon/Flying): 4x Weak Ice. Muscle (Ice Punch).
+3. **Charizard** (Fire/Flying): 4x Weak Rock, 2x Water/Electric. Muscle (ThunderPunch) or Gyarados (Surf).
+4. **Aerodactyl** (Rock/Flying): Weak to Water/Electric/Ice.
 
 # Run Log
-- E4 Attempt 2 Start: Turn ~20200
-- Will Defeated: Turn 20235
-- Koga Defeated: Turn 20258
-- Bruno Defeated: Turn 20293
+- Will: Turn 20235
+- Koga: Turn 20258
+- Bruno: Turn 20293
+- Karen: Turn 20341
