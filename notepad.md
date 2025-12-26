@@ -27,3 +27,8 @@
 - Rising Badge (Clair): Next Gym Badge required. Need to travel to Blackthorn City.
 - Note: Arthur's position is dynamic. He was seen at (47, 6) on Turn 21798.
 - Mystery: Empty text box on screen at Turn 21798. Pressing B to clear.
+- Session Start: Turn 21792 (Thursday 10:39 PM).
+- Lesson: Moving NPCs like Arthur can be difficult to interact with. Use `stun_npc` to freeze them in place before attempting to talk.
+- Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact in a separate turn.
+- Arthur Dialogue Progress: He is currently introducing himself as the second son of seven.
+- Hard Stone: Not yet received. Continuing dialogue.
