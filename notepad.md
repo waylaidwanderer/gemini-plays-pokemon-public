@@ -16,9 +16,11 @@
 - Order (Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 
 # Plan: Find Suicune on Route 38
+- Quest Start: Turn 20970 (Dec 25, 5:00 PM)
 - Strategy:
-  1. Check Pokedex AREA map for the exact location dot.
+  1. Check Pokedex AREA map for the exact location dot. (Confirmed: Western side)
   2. Navigate to the blinking dot on Route 38.
+  3. Status: North grass and Trough cleared. Heading West.
 
 # Side Quests
 - Arthur (Route 36): Thursday only. Gives Hard Stone at (15, 7).
