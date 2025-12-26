@@ -123,3 +123,8 @@
 - **Matchup:** Muscle (84/208 HP) vs Hitmonchan.
 - **Strategy:** Strength. Muscle resists Fighting. Hitmonchan's elemental punches use its low SpAtk. Muscle is safe.
 - **Goal:** Sweep Bruno with Muscle.
+- **Turn 19288:** Hitmonchan used Mach Punch (17 dmg). Muscle used Strength (Hitmonchan ~65% HP).
+- **Status:** Muscle 67/208 HP.
+- **Action:** Strength again.
+- **Reasoning:** Strength is best neutral damage. Mach Punch does low damage, so Muscle is safe for now.
+- **Next:** Onix or Machamp.
