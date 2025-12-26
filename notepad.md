@@ -3,7 +3,7 @@
 - Strategy: Systematic floor sweep of the central island (X=24-30, Y=14-17) to trigger Sighting 3 flee event.
 - Progress:
     - Island sweep started: Turn 21455 (Thursday, Dec 25, 2025).
-    - Current Task: Verify blinking location in Pokedex. Sweep of floor tiles complete (Turn 21492).
+    - Current Task: Sweep northern island shore (Y=12). Central sweep (Y=14-17) failed (Turn 21536).
 - Lessons Learned:
     - Pokedex: Johto Order. Suicune is #245.
     - Scripted: Sighting sequence is fixed. Pokedex AREA map tracks current scripted location.
