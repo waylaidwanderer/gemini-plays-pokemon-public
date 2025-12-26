@@ -39,3 +39,5 @@
 - **Turn 19102:** Xatu fainted. Muscle grew to Lv 62. Stats: 99/205 HP, 88 Speed.
 - **Analysis:** Will sending Jynx (Lv 41, Base Spd 95). Jynx likely faster (>90 Spd). Psychic (~110 dmg) will KO Muscle (99 HP).
 - **Plan:** Decline Switch -> Use Hyper Potion (Priority) -> Survive Psychic -> OHKO with Strength.
+- **Turn 19103:** Confirmed "NO" to switch. Jynx coming out.
+- **Action:** Use Hyper Potion on Muscle immediately.
