@@ -22,9 +22,12 @@
 - Sighting 3: Route 42 (Current).
 
 # Repetitive Task: Suicune Island Sweep
-- Start Turn: 21556
-- Status: In progress. Target area: southern island floor near Apricorn trees (Y:15-17).
-- Trigger Insight: Walking toward the three Apricorn trees at (27, 16), (28, 16), (29, 16) triggers Suicune flee.
+- Start Turn: 21556 (Current Turn: 21596)
+- Status: In progress. Testing "face the trees" hypothesis at (28, 15) and (28, 17).
+- Trigger Insight: Walking toward/facing the three Apricorn trees at (27, 16), (28, 16), (29, 16) triggers Suicune flee.
+- Failed Hypotheses:
+    1. Walking past trees at Y=15 (Turn 21579-21587).
+    2. Walking past trees at Y=17 (Turn 21571).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
