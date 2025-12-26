@@ -31,3 +31,6 @@
 - **Turn 19117:** Previous attempt failed to register (inputs eaten by lag/animation?). Menu is stable now. Cursor on PACK.
 - **Action:** Manual Input: Up (FIGHT) -> A -> A (STRENGTH).
 - **Status:** Muscle 108/205. Committing to attack to break the heal loop.
+- **Turn 19118:** Cursor confirmed on FIGHT.
+- **Action:** Manual Input: A (Select Fight) -> A (Select Strength).
+- **Prediction:** Jynx attacks (Muscle survives ~14 HP). Strength kills Jynx.
