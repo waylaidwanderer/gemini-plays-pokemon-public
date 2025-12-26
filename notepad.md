@@ -13,11 +13,11 @@
 # Strategy: Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
-- Hypothesis: The "Wise Trio" are the Sages in the Tin Tower gatehouse (4_1) at (4, 6), (1, 1), and (1, 15). Defeating them is required to trigger Sighting 3 if the Clear Bell is held. [Turn 22040]
-- Sighting 3 (Goal): Route 42 Central Island. Triggered after defeating the Wise Trio.
-- Sighting 4 (Hypothesis): Route 36 (Sudowoodo junction).
-- Sighting 5 (Hypothesis): Tin Tower 1F (Final Battle).
-- Note: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
+- Sighting 3 (Goal): Route 42 Central Island. Triggered by Surfing to the island with three Apricorn trees. [Next]
+- Sighting 4: Route 36 (Sudowoodo junction).
+- Sighting 5: Tin Tower 1F (Final Battle).
+- Note: Sages in the gatehouse (4_1) are currently passive ("Please, do go on."). They likely only battle after sightings 3 and 4 are complete.
+- Sequence: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 
 # Lessons Learned
 - PC Mechanics: "MOVE PKMN W/O MAIL" is best for inventory checks.
@@ -27,11 +27,11 @@
 - Multi-map Navigation: find_path_v2 only works on the current map. Use manual planning for paths through warps.
 
 # Tasks & Progress
-- Goal: Defeat the Wise Trio Sages in the Tin Tower gatehouse (4_1). [Start Turn 22040, Timestamp: Friday, Dec 26, 2025 at 12:35 AM]
+- Goal: Trigger Suicune sighting on Route 42. [Start Turn 22053]
+- Status: Leaving Tin Tower gatehouse to head to Route 42 central island via Surf.
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 - Observation: Tin Tower 1F Sages provided lore but no battles. [Turn 22026]
 - Observation: Wise Trio Room (4_2) is empty. [Turn 22030]
-- Hypothesis: The Wise Trio are Sages in the Tin Tower gatehouse (4_1). I need to locate and defeat them to progress the Suicune questline. [Turn 22043]
