@@ -55,3 +55,7 @@
 - **Turn 19358:** Selecting Revive (Down -> A).
 - **Note:** Gyarados is recharging this turn, so Mistral is safe.
 - **Next:** Confirm 'USE' and select Muscle.
+- **Turn 19359:** Cursor on CANCEL. Moving Up x5 to select REVIVE.
+- **Visual Confirmation:** REVIVE is visible at top of list in screenshot.
+- **Action:** Select REVIVE -> Use on Muscle.
+- **Note:** Gyarados recharge confirmed (Turn 19352 Hyper Beam). Mistral safe.
