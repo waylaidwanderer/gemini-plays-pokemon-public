@@ -29,3 +29,4 @@
 - **Observation:** Encountered Wild Golbat at (23, 14), confirming the "Movement Blocked" was due to a battle.
 - **Observation:** Encountered Wild Arbok at (54, 6). Fleeing.
 - **Observation:** Encountered Wild Doduo at (14, 84). Fleeing.
+- **Observation:** Encountered Wild Doduo at (16, 76). Fleeing.
