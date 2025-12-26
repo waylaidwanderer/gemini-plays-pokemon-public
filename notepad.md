@@ -1,10 +1,10 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** New Turn. Houndoom Healed (Full HP). Gyarados (54/114 HP). Muscle (112/225 HP).
-- **Battle Plan:** Sacrifice Gyarados. Use Surf.
-- **Reasoning:** Switching to Muscle manually exposes him to 2 hits. Letting Gyarados faint gives a safe switch.
-- **Matchup:** Gyarados vs Houndoom. Houndoom outspeeds and likely KOs.
-- **Next:** Send out Muscle. Tank 1 hit. Use Cross Chop.
+- **Current State:** Sending out Muscle (112/225 HP, Paralyzed).
+- **Battle Plan:** Select Muscle. Use Cross Chop (Slot 4).
+- **Matchup:** Muscle (Lv68) vs Houndoom (Lv47). Cross Chop is SE. Muscle resists Dark.
+- **Status:** Gyarados fainted. Muscle is the last effective Pokemon.
+- **Menu State:** "Which PKMN?" menu. Cursor on Muscle.
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
