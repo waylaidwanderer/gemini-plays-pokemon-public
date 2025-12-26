@@ -4,15 +4,15 @@
 - **Tertiary:** Train team.
 
 # Current Status
-- **Location:** Koga's Room (Elite Four).
+- **Location:** Bruno's Room (Elite Four).
 - **Party:**
-  - Muscle (Lv63): 60/208 HP, Poisoned.
-  - Gyarados (Lv35): Fainted.
+  - Muscle (Lv63): 84/208 HP.
+  - Gyarados (Lv35): 107/114 HP.
   - Others: Healthy.
 - **Inventory:** 
-  - Healing: 2 Super Potions, 11 Revives, 1 Max Revive.
+  - Healing: 0 Potions, 11 Revives, 1 Max Revive.
   - Status: 3 Antidotes, 8 Full Heals, 3 Bitter Berries.
-- **Money:** ¥15689 (Approx).
+- **Money:** ¥15689.
 
 # Exploration Log
 - **Victory Road:** Fully traversed.
@@ -21,21 +21,17 @@
   - Koga: Defeated.
 
 # Plan
-1.  **Recovery:**
-    - Cure Muscle's Poison (Antidote/Full Heal).
-    - Revive Gyarados (Revive).
-    - Heal Muscle (Super Potions).
-2.  **Advance:** Move to Bruno's Room.
-3.  **Battle Bruno:**
-    - **Threats:** Hitmonchan, Hitmonlee, Hitmontop, Onix, Machamp.
-    - **Strategy:**
-      - **Onix:** Gyarados (Surf) or Muscle (Rock Smash/Dig).
-      - **Fighting Types:** Muscle (Strength/Cross Chop). Gyarados (Waterfall/Strength).
-      - **Machamp:** Muscle (Strength/Dig). Watch for Cross Chop.
+1.  **Battle Bruno:**
+    - **Hitmontop:** Muscle (Strength).
+    - **Hitmonlee:** Muscle (Strength).
+    - **Hitmonchan:** Muscle (Strength).
+    - **Onix:** Switch to Gyarados -> Surf.
+    - **Machamp:** Muscle (Dig/Strength) or Gyarados (Surf).
+    - **Note:** Muscle HP is low. Be ready to switch to Gyarados or sacrifice fodder to Revive Muscle.
 
 # Battle Log
-- **Vs Koga:** Victory. Muscle grew to Lv 63.
-- **Next:** Heal & Advance.
+- **Vs Koga:** Victory.
+- **Next:** Bruno.
 - **Turn 19262:** Using Antidote.
 - **Action:** A (Select Antidote) -> A (Select USE).
 - **Next:** Select Muscle to cure Poison.
