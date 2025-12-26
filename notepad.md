@@ -52,3 +52,6 @@
 - **Turn 19355:** In Pack menu. Scrolling down to find Revives.
 - **Status:** Mistral active (Fodder). Gyarados recharging (free turn).
 - **Goal:** Revive Muscle.
+- **Turn 19358:** Selecting Revive (Down -> A).
+- **Note:** Gyarados is recharging this turn, so Mistral is safe.
+- **Next:** Confirm 'USE' and select Muscle.
