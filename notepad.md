@@ -22,5 +22,7 @@
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
-# Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22951. Systematic sweep in progress.
+# Battle Strategy: Suicune
+- Status: Leading with XENON (Gastly).
+- Plan: Use Mean Look to prevent escape (if wild encounter). For scripted encounter at Tin Tower, focus on status (Hypnosis/Sleep Powder) and chip damage. Avoid KO.
+- Team: GNEISS (Graveler) for bulk, Calcifer (Typhlosion) for Thunderpunch, KIMCHI (Gloom) for Sleep Powder.
