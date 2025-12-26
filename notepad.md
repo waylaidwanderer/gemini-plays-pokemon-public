@@ -29,3 +29,4 @@
 - **Encounter:** Wild Onix at (15, 56). Fled successfully.
 - **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
 - **Next:** From (1, 35) on 2F, explore the NORTH path (y=33) which was previously missed.
+- **Encounter:** Wild Rhyhorn at (6, 54).
