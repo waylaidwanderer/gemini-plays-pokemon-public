@@ -5,10 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Interaction:** Spotted Cooltrainer M at (14, 24).
+- **Interaction:** Interacting with Cooltrainer M at (13, 24).
 - **Status:** Muscle Lv60 (162/198). Team healthy.
-- **Location:** Route 26 (10, 24).
-- **Next:** Engage Cooltrainer M. Continue North.
+- **Location:** Route 26 (12, 24).
+- **Next:** Defeat Cooltrainer M (if he battles). Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
