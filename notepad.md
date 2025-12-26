@@ -43,4 +43,6 @@
 - **Correction:** 1F East (around 18, 51) is a dead end.
 - **Realization:** 2F East is accessible from the 2F West Ladder (1, 35). I previously reached (11, 40) on 2F but turned back after getting the HP Up.
 - **Strategy:** Return to Ladder at (1, 49) on 1F. Take it to 2F. Navigate to 2F East (x > 10) and explore North/East for the exit ladder.
-- **Encounter:** Wild Onix at (11, 39).
+- **Encounter:** Wild Onix at (11, 39). Fled successfully.
+- **Observation:** Gap in the South wall detected at (13, 41).
+- **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
