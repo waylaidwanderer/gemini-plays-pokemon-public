@@ -221,3 +221,6 @@
 - **Action:** Manual Navigation (Pack -> Fight -> Pkmn): Up, Right, A.
 - **Reasoning:** Gyarados is confused and weak. Muscle is full HP and can tank Psychic.
 - **Next:** Select Muscle -> Switch.
+- **Turn 19170:** Open Party Menu.
+- **Action:** Press A (Select PKMN).
+- **Next:** Select Muscle -> Switch.
