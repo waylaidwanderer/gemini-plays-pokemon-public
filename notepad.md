@@ -27,7 +27,7 @@
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
-- Box 1: RICOTTA (Raticate), CINNABAR (Goldeen), VORTEX (Poliwag), INTERCEPT (Yanma), ROCKY (Onix), EGG (Cleffa), XFDW (Meowth), FRITTATA (Togepi), SHUCKIE (Shuckle), Blarney (Sudowoodo).
+- Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 
 # NPC & Interaction Lessons
 - PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
@@ -37,7 +37,6 @@
 
 # Error Analysis Log
 - [Turn 21931] Mistake: Assumed Suicune sighting existed on Route 36 before 42. Correction: Sequence is 42 then 36. [Turn 21973]
-- [Turn 21931] Mistake: Assumed harvesting Apricorns triggered Sighting 3. Correction: Must step on trigger tile.
 - [Turn 21957] Mistake: Mixed directional and action buttons. Result: Action stripped.
 - [Turn 21976] Mystery: Suicune not appearing on Route 42 despite prerequisites (Cianwood, Eusine battle, Clear Bell). Troubleshooting...
 - Prerequisite discovered: Must defeat Wise Trio in Ecruteak City to trigger remaining Suicune sightings (Route 42, Route 36) because Clear Bell is in inventory. [Turn 21977]
