@@ -37,7 +37,7 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: In TM Pocket. Scrolling to TMs.
+- Status: Teaching TM41 (ThunderPunch) to Muscle.
 Plan:
 1. Teach TM33 (Ice Punch) to Muscle (Replacing Rock Smash).
 2. Teach TM41 (ThunderPunch) to Muscle (Replacing Dig).
