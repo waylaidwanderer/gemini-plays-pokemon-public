@@ -1,6 +1,6 @@
 # Operation: Machamp Champ
-- **Current State:** About to fight Hitmonlee.
-- **Battle Plan:** Decline switch. Use Strength (Physical vs Low Def). Hitmonlee has very low Defense.
+- **Current State:** Fighting Hitmonlee (Lv42).
+- **Battle Plan:** Use Strength (Physical). Target Slot 1.
 
 # Team Status
 
