@@ -18,8 +18,8 @@
 - Sighting 3: Route 42 (In Progress)
     - Trigger Location: Central island grove.
     - Specific Tile: Adjacency to (26, 13) (Headbutt Tree).
-    - Status: Map Reset performed at Turn 22903. Currently testing Headbutt interaction at (26, 13) as potential trigger.
-- Outcome: Testing...
+    - Status: Map Reset performed at Turn 22903. Tested Headbutt interaction at (26, 13).
+- Outcome: Triggered wild Spearow encounter. Not the Suicune trigger. Continuing systematic sweep.
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
