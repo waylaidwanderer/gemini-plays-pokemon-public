@@ -14,6 +14,6 @@
 - **Indigo Plateau:** Currently in the lobby.
 
 # Plan
-1.  **Shop:** Buy 2 Full Restores, then prioritize Revives (aim for 10+) and Hyper Potions.
+1.  **Shop:** Buy 6 Hyper Potions.
 2.  **Prepare:** Organize team order and held items.
 3.  **Challenge:** Enter the door to the Elite Four.
