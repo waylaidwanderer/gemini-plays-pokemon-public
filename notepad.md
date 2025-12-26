@@ -1,8 +1,8 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
 - **Location:** New Bark Town.
-- **Immediate Goal:** Get S.S. Ticket from Prof. Elm.
-- **Next Step:** Fly to Olivine City -> S.S. Aqua -> Vermilion City (Kanto).
+- **Immediate Goal:** Fly to Olivine City.
+- **Next Step:** Board S.S. Aqua -> Vermilion City (Kanto).
 
 # Team Status
 - **Muscle (Machoke)**: Lv69. MVP. Needs healing.
