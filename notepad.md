@@ -3,6 +3,18 @@
 - **Secondary:** Defeat Champion Lance.
 - **Tertiary:** Become Champion.
 
+# Operation: Elemental Upgrade
+1. **Fly to Goldenrod:** (In Progress) Open Start Menu -> Pokemon -> Fly to Goldenrod.
+2. **Fundraising:**
+   - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
+   - Have: 219.
+   - Sell: HP Up (+4900). Total: 5119.
+   - Sell: 3 Full Heals (+900). Total: ~6019. (Just enough!)
+3. **Shopping:** Buy TM33 (Ice Punch) & TM41 (ThunderPunch).
+4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
+   - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
+5. **Return:** Fly back to Indigo Plateau and win.
+
 # Post-Mortem: Lance Attempt #1
 - **Result:** Loss vs Champion Lance (Final Dragonite).
 - **Key Issues:**
@@ -26,19 +38,3 @@
 - **WARP_CARPET_DOWN**: Warp. Transitions to a different map (usually south).
 - **COUNTER**: Impassable. Interact over it to talk to NPCs (Nurse, Clerk).
 - **PC**: Impassable. Interact to access Pokemon Storage System.
-
-# Operation: Elemental Upgrade (Started ~Turn 19600)
-1. **Fly to Goldenrod:** (In Progress) Open Start Menu -> Pokemon -> Fly to Goldenrod.
-2. **Fundraising:**
-   - Need: 6000 for TM33 (Ice Punch) & TM41 (ThunderPunch).
-   - Have: 219.
-   - Sell: HP Up (+4900). Total: 5119.
-   - Sell: 3 Full Heals (+900). Total: ~6019. (Just enough!)
-3. **Shopping:** Buy TM33 (Ice Punch) & TM41 (ThunderPunch).
-4. **Move Deletion:** Fly to Blackthorn City. Delete Rock Smash (HM) from Muscle.
-   - *Goal Moveset:* Cross Chop, Ice Punch, ThunderPunch, Strength/Dig.
-5. **Return:** Fly back to Indigo Plateau and win.
-- Current Status: On Route 26 (Outdoors). Opening Fly Map to travel to Goldenrod City.
-- Goal: Fly to Goldenrod City to sell items and buy TMs (Ice Punch, ThunderPunch).
-- Item detected: Poke Ball at (18, 29) (Victory Road, unreachable).
-- Note: Exiting the league area to regroup and upgrade team movesets.
