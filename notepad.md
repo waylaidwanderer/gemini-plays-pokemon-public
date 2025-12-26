@@ -21,10 +21,10 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
-- **Correction:** Previous turn failed to heal Muscle. Selected Zenith (Full HP) by mistake because the menu defaulted to the active Pokemon (Muscle) and I moved down.
-- **Current State:** Cursor on Zenith (Slot 5). Error message "It won't have any effect" visible.
+- **Condition:** Muscle (39/201 HP, Confused).
+- **Correction:** Accidentally navigated to SUPER POTION.
 - **Action:** 
-  1. Dismiss error message (B).
-  2. Move cursor UP twice to Muscle (Slot 3).
-  3. Confirm usage (A).
-- **Goal:** Restore Muscle to 201/201 HP.
+  1. Press B to cancel Super Potion.
+  2. Scroll DOWN to MAX POTION.
+  3. Select USE.
+- **Goal:** Open Party Menu to apply Max Potion to Muscle.
