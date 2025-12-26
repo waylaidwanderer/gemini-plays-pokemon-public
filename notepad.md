@@ -205,3 +205,7 @@
 - **Next Turn:** Main Battle Menu.
 - **Action:** PACK -> MAX REVIVE -> MUSCLE.
 - **Reasoning:** Items have priority. Muscle revives before Gyarados takes damage. Even if Gyarados faints this turn, Muscle is ready to switch in.
+- **Turn 19161:** Selecting PACK.
+- **Goal:** Navigate to Max Revive.
+- **Status:** Gyarados active. Muscle Fainted.
+- **Next:** Find Max Revive in bag -> Use on Muscle.
