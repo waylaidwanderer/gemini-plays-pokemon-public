@@ -67,3 +67,9 @@
 - **Action:** Press A to Execute.
 - **Context:** Dragonite is recharging from the Hyper Beam that KO'd Zenith.
 - **Status:** Free hit. Muscle (Full HP) vs Recharge.
+- **Turn 19408:** Clearing text "It's not very effective...".
+- **State:** Dragonite finished recharging. It WILL attack this turn.
+- **Action:** Select Rock Smash (Slot 3).
+- **Sequence:** B (Clear) -> A (Fight) -> A (Rock Smash).
+- **Prediction:** Dragonite attacks (Hyper Beam/Thunder Wave). Muscle uses Rock Smash.
+- **Status:** Muscle Full HP. Rock Smash 8 PP.
