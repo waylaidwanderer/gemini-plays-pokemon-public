@@ -45,24 +45,13 @@
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23824
-- Suicune Hunt Duration: 124 turns (since turn 23700)
-
-# General Lessons Learned
-- **Interaction Mechanics:** When interacting with NPCs, ensure you are stationary and facing them. Do not mix movement and action buttons in the same sequence.
-- **Sequential Progression:** Suicune sightings must follow a strict order. Since the Pokédex still shows Suicune on Route 42, the Route 42 sighting is a hard prerequisite for the Wise Trio battle.
-- **NPC Tracking:** Stun moving NPCs before interacting to ensure they stay in range.
-- **Root Hypothesis Testing:** Use the Pokédex as a primary source of truth for legendary tracking. If it says an area is active, that area's trigger must be cleared first.
-- **Navigation Safety:** Hallucinated position (30, 16) when actually at (27, 14). Lesson: Aggressively re-verify Game State Information every turn.
-
-## Wise Trio Roster (Tin Tower Gatehouse)
-- Sage GAKU: Noctowl (Lv32)
-- Sage MASA: Flareon (Lv32), Jolteon (Lv32)
-- Sage KOJI: Kadabra (Lv32)
+- Current Turn: 23826
+- Suicune Hunt Duration: 126 turns (since turn 23700)
 
 # Suicune Hunt Progress Log
 - Sighting 3 (Route 42): Systematic sweep of island FLOOR tiles in progress.
 - Mt. Mortar Reset Hypothesis Result (Turn 23791): Performed. Trigger check ongoing.
 - Current Status: Pokedex confirms Suicune on Route 42. Wise Trio locked.
-- Plan: Complete sweep using 'find_unmarked_floor_tiles_v2_fixed'. If sweep fails, pivot to 'Hard Reset' (Mahogany approach/manual walk from Ecruteak).
+- Plan: Complete island sweep using 'find_unmarked_floor_tiles_v2_fixed'. If sweep fails, pivot to 'Hard Reset' (Mahogany approach).
+- Progress: Checked (24, 11). Moving to next unmarked tile.
 - Start Turn: 23700 | Dec 26, 2025 1:31 PM PST.
