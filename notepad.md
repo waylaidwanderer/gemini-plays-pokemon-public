@@ -37,9 +37,10 @@
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Pokedex shows Route 42]
+     - Hard Reset Start Turn: 23902
      - Trigger Hypothesis: Approach from East (Mahogany Town) to force script load.
-     - Targeted Trigger Area: Right side of Apricorn trees (27-29, 16).
-     - Recommended Trigger Tile: (26, 14) approached from East.
+     - Recommended Interaction: Face (26, 13) from (26, 14) and press A. Or interact with Apricorn trees.
+     - Contingency: If island interactions fail, leave Route 42 and check Route 36 or Ecruteak for missed flags.
   4. Route 36 (Sudowoodo junction): Near the fat guy.
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Locked by sighting 3]
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
