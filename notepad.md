@@ -1,12 +1,17 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** In Party Menu. Exiting.
-- **Action:** Press B to return to Battle Menu.
-- **Next:** Select FIGHT -> Ice Punch (Slot 3).
-- **Matchup:** Muscle (Lv69) vs Dragonite (Lv47).
-- **Strategy:** Ice Punch (4x SE) for OHKO.
-- **Team Status:** Muscle 118/229 HP. Gyarados 57/114 HP. Kunai 32/65 HP.
+- **Current State:** Fighting Dragonite #1 (Lv47).
+- **Battle Plan:** Use Ice Punch (Slot 3).
+- **Matchup:** Muscle (Lv69, 118/229 HP) vs Dragonite (Lv47).
+- **Strategy:** Ice Punch is 4x SE. OHKO guaranteed.
+- **Team Status (Verified):**
+    - Muscle: 118/229 HP.
+    - Garnet: Full.
+    - Gyarados: Full (114/114).
+    - Kunai: Full (65/65).
+    - Zenith/Mistral: Full.
+- **Notes:** Muscle took damage from Aerodactyl and Charizard but is still standing strong.
 
 # Team Status
 - Muscle (Lv69): 118/229 HP.
