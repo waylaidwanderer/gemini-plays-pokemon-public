@@ -152,3 +152,8 @@
   - Dig is 2x but non-STAB (120 Power) -> likely 2HKO.
   - Muscle survives any hit from Onix (Low Atk) except maybe Crit Earthquake.
 - **Goal:** Defeat Bruno.
+- **Turn 19297:** Declining switch.
+- **Matchup:** Muscle (54/211 HP) vs Onix.
+- **Action:** Down (Select NO) -> A.
+- **Next:** Onix enters. Select FIGHT -> Cross Chop.
+- **Reasoning:** Cross Chop is 2x effective (Fighting vs Rock/Ground) and STAB. Should OHKO.
