@@ -6,9 +6,9 @@
 
 # Current Status (Turn 18801)
 - **Battle:** Cooltrainer Jake defeated.
-- **Event:** Rejected Submission.
+- **Event:** Rejected Submission. Muscle did not learn it.
 - **Location:** Route 26 (12, 24).
-- **Next:** Continue North to Victory Road.
+- **Next:** Handle post-battle dialogue. Continue North.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
