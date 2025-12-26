@@ -27,8 +27,8 @@
 - Multi-map Navigation: find_path_v2 only works on the current map. Use manual planning for paths through warps.
 
 # Tasks & Progress
-- Goal: Trigger Suicune sighting on Route 42. [Start Turn 22053]
-- Status: Leaving Tin Tower gatehouse to head to Route 42 central island via Surf.
+- Goal: Trigger Suicune sighting on Route 42. [Start Turn 22061]
+- Status: On Route 42 central island.
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
