@@ -37,3 +37,11 @@
 - **Vs Bruno:** Victory.
 - **Vs Karen:** Victory.
 - **Next:** Champion Lance.
+- **Vs Lance:** Battle starting.
+- **Matchup Correction:**
+  - **Strength (Normal):** Neutral vs Gyarados/Dragonite/Charizard. Resisted by Aerodactyl (Rock).
+  - **Cross Chop (Fighting):** Resisted by Gyarados/Dragonite/Charizard. Neutral vs Aerodactyl.
+- **Plan:**
+  - **General:** Strength (120 Power).
+  - **Vs Aerodactyl:** Cross Chop (150 Power).
+  - **Lead:** Muscle (26 HP). Expecting to faint quickly.
