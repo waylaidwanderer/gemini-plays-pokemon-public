@@ -186,7 +186,7 @@
         "quantity"
       ]
     },
-    "python_script": "import json\n\n# Robust argument retrieval for drink_name\ntry:\n    drink = drink_name.lower()\nexcept NameError:\n    if 'drink_name' in locals():\n         drink = locals()['drink_name'].lower()\n    elif 'args' in locals():\n        drink = args.get('drink_name', '').lower()\n    elif 'input_data' in locals():\n        drink = input_data.get('drink_name', '').lower()\n    else:\n        drink = \"lemonade\" # Default\n\n# Robust argument retrieval for quantity\ntry:\n    qty = int(quantity)\nexcept NameError:\n    if 'quantity' in locals():\n         qty = int(locals()['quantity'])\n    elif 'args' in locals():\n        qty = int(args.get('quantity', 1))\n    elif 'input_data' in locals():\n        qty = int(input_data.get('quantity', 1))\n    else:\n        qty = 1 # Default\n\nbuttons = []\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(qty):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2000\") # Wait for \"Clang!\" and processing\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Based on observation, 4 Bs brings us back to the menu.\n    for _ in range(4):\n        buttons.append(\"B\")\n        buttons.append(\"sleep 1000\")\n        \n    buttons.append(\"sleep 500\") # Extra buffer for menu reload\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\n# Robust argument retrieval for drink_name\ntry:\n    drink = drink_name.lower()\nexcept NameError:\n    if 'drink_name' in locals():\n         drink = locals()['drink_name'].lower()\n    elif 'args' in locals():\n        drink = args.get('drink_name', '').lower()\n    elif 'input_data' in locals():\n        drink = input_data.get('drink_name', '').lower()\n    else:\n        drink = \"lemonade\" # Default\n\n# Robust argument retrieval for quantity\ntry:\n    qty = int(quantity)\nexcept NameError:\n    if 'quantity' in locals():\n         qty = int(locals()['quantity'])\n    elif 'args' in locals():\n        qty = int(args.get('quantity', 1))\n    elif 'input_data' in locals():\n        qty = int(input_data.get('quantity', 1))\n    else:\n        qty = 1 # Default\n\nbuttons = []\ndowns = 0\nif \"soda\" in drink:\n    downs = 1\nelif \"lemon\" in drink:\n    downs = 2\n\nfor _ in range(qty):\n    # Navigate to drink\n    for _ in range(downs):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 300\")\n    \n    # Select Drink\n    buttons.append(\"A\")\n    buttons.append(\"sleep 2500\") # Wait for \"Clang!\" and processing\n    \n    # Clear Text (4 screens: Clang -> Popped -> Put -> Pocket -> Menu)\n    # Based on observation, 4 Bs brings us back to the menu.\n    for j in range(4):\n        buttons.append(\"B\")\n        if j == 3:\n            # Last B press, include the menu reload buffer here to avoid consecutive sleeps\n            buttons.append(\"sleep 1500\")\n        else:\n            buttons.append(\"sleep 1000\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -207,6 +207,11 @@
         "commit_message": "Fixed NameError for 'quantity' variable by adding robust argument retrieval.",
         "timestamp": "2025-12-26T16:03:27.420Z",
         "action_counter": 20049
+      },
+      {
+        "commit_message": "Fixed consecutive sleep error by merging the final buffer into the last button press delay.",
+        "timestamp": "2025-12-26T16:04:06.758Z",
+        "action_counter": 20051
       }
     ]
   }
