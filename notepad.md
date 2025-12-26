@@ -1,9 +1,9 @@
 # Strategy: Suicune Hunt (Crystal)
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 Island (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower 1F.
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
-- Sighting 3 (Route 42):
+- Sighting 3 (Route 42): 
     - Verified in Pokedex at Turn 21303.
-    - Status: Visited ALL island FLOOR tiles (Turn 21330-21340). Sprite did NOT appear.
+    - Status: Island Sweep started Turn 21330. Visited ALL island FLOOR tiles (Turn 21330-21340). Sprite did NOT appear.
     - Map reset via Mt. Mortar at Turn 21349.
     - Current Task: Verify Pokedex AREA map to see if sighting triggered silently.
 - Sighting 4 (Route 38): Next destination if Sighting 3 is confirmed complete.
@@ -27,6 +27,9 @@
 - LADDER: Triggers map transition. [Verified]
 - WARP_CARPET_DOWN: Triggers map transition. [Verified]
 - FLOOR_UP_WALL: Impassable wall (ledge/cliff). [Verified]
+
+# Side Quests
+- Week Siblings: Arthur (Thursday) on Route 36 (45, 6). Status: Loop (missing prerequisites).
 
 # PC Inventory
 - Pokémon: Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
