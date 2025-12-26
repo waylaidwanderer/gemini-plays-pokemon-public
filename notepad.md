@@ -37,3 +37,5 @@
 # Battle Log
 - **Vs Bruno:** Victory. Muscle swept.
 - **Strategy:** Muscle grew to Lv64. Cross Chop OHKO'd Onix.
+- **Vs Karen:** Battle started.
+- **Turn 1:** Muscle (54/211 HP) vs Umbreon. Using Cross Chop (Slot 4) for expected OHKO. Risk: 80% acc. Backup: Zombie Mode.
