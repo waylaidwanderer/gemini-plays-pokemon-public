@@ -138,3 +138,7 @@
 - **Action:** Press B to advance text/turn.
 - **Result:** Turn ends. Muk attacks.
 - **Next:** Muscle (Poisoned) vs Muk. Use Dig (Super Effective).
+- **Turn 19247:** Cleared heal text.
+- **Opponent Action:** Muk will attack (free turn while I healed).
+- **Status:** Muscle Full HP.
+- **Next:** Fight -> Dig.
