@@ -23,3 +23,8 @@
 
 # PC Storage Inventory
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Lessons Learned
+- Lesson: Route 42 Suicune trigger (Sighting 3) is not guaranteed by a simple approach to the island trees. 100% tile sweep of the island grove (Turn 22782-22883) failed to trigger the event.
+- Hypothesis: The trigger may require a 'Map Reset' (leaving and re-entering Route 42 from Ecruteak) or is located on a specific water tile bordering the island.
+- Timestamp: Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22891 (635 turns elapsed).
