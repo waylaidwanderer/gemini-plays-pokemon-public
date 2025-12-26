@@ -58,3 +58,8 @@
 - **Method:** Press A (Fight) -> A (Select Move, assuming cursor memory on Rock Smash).
 - **Expectation:** Dragonite attacks (Hyper Beam/Wing Attack/Thunder Wave). Muscle uses Rock Smash.
 - **Note:** If "No PP" appears, cursor was reset. Will correct next turn.
+- **Turn 19406:** Cursor on Strength (0 PP).
+- **Action:** Move Down x2 -> Rock Smash (Slot 3).
+- **Reasoning:** Dragonite KO'd Zenith with Hyper Beam last turn. It MUST recharge this turn. Free hit.
+- **Status:** Muscle Full HP. Rock Smash 9 PP.
+- **Plan:** Grind Dragonite down with Rock Smash drops.
