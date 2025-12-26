@@ -21,7 +21,8 @@
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
 - **Status:** Battle with Rival Silver. Muscle (Machoke) vs Golbat.
-- **Condition:** Muscle is Confused.
-- **Action:** Execute Strength (Slot 1).
-- **Strategy:** Muscle (Lv61) acts as the tank/sweeper. Confusion is a risk, but manageable due to high HP and Defense. Switching to lower-level team members is too risky.
+- **Condition:** Muscle (104/201 HP) is Confused.
+- **Opponent:** Golbat used Confuse Ray and Wing Attack.
+- **Action:** Attempt Strength (Slot 1) again.
+- **Strategy:** Power through confusion. Muscle is the only team member capable of taking hits.
 - **Goal:** Defeat Golbat.
