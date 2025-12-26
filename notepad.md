@@ -55,6 +55,7 @@
 - Plan: 'Hard Reset' - Fly to Mahogany, enter Route 42 from East, Surf West to island, approach from East side.
 - Start Turn: 23700.
 - Turn 23906: Entered Route 42 from Mahogany Gate. Current position (50, 7). Proceeding West to Surf.
+- Turn 23909: At (46, 8). Approaching island from the East. Pathing to (26, 14).
 
 # Lessons Learned
 - FLY Map Navigation: The FLY map is a grid. Cities are selected by moving the cursor (Up/Down/Left/Right) to the city icon and pressing A. The Johto map layout determines relative positions (e.g., Ecruteak is North of Violet, Mahogany is East of Ecruteak).
