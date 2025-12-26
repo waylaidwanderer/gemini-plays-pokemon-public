@@ -96,3 +96,8 @@
   - **Onix:** Gyarados (Surf) or Muscle (Dig).
   - **Machamp:** Muscle (Dig/Strength) or Gyarados (Surf/Strength).
   - **Note:** Gyarados resists Fighting. Use him to pivot if Muscle is in trouble.
+- **Turn 19280:** Initiating battle with Bruno.
+- **Action:** Press A to talk.
+- **Condition:** Zombie Mode (0 Potions). Muscle 40% HP.
+- **Plan:** Lead Muscle. If he faints, switch to fodder (Mistral/Zenith) -> Revive Muscle (50% HP) -> Switch Muscle back in.
+- **Matchup 1:** Hitmontop. Use Strength.
