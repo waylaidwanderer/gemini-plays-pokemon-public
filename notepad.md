@@ -20,12 +20,7 @@
 1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
 2.  **Gap:** Enter x=12 corridor at (12, 36).
 3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Encountered Rival Silver at 3F (12, 9).
-- **Battle Strategy:** Switch to Muscle (Lv61 Machoke) immediately.
-  - **Sneasel:** Use Cross Chop or Strength.
-  - **Magneton:** Use Dig (4x effective).
-  - **Gengar:** Use Dig (SE in Gen 2, no Levitate).
-  - **Golbat:** Use Strength (Neutral).
-  - **Alakazam:** Use Strength or Dig (Physical defense is low).
-  - **Feraligatr:** Use Cross Chop or Strength.
-- **Goal:** Defeat Rival and proceed to the Exit Warp at (13, 5).
+- **Status:** Battle with Rival Silver. Muscle (Machoke) vs Sneasel.
+- **Action:** Select FIGHT, then CROSS CHOP (Slot 4).
+- **Matchup:** Machoke (Fighting) vs Sneasel (Dark/Ice). 4x Super Effective.
+- **Goal:** One-shot Sneasel.
