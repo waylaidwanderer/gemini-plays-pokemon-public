@@ -36,6 +36,6 @@
 - Lesson: Never mix directional inputs and the A button in the same turn; the system will strip the A button to prevent errors. Move first, then interact.
 
 # Error Analysis Log
-- [Turn 21931] Mistake: Assumed a Suicune sighting existed on Route 36. Root Cause: Confused Crystal mechanics with other games. Correction: Suicune Tracker confirmed sequence is Burned Tower -> Cianwood -> Route 42 -> Tin Tower.
+- [Turn 21931] Mistake: Assumed a Suicune sighting existed on Route 36. Root Cause: Confused Crystal mechanics with other games. Correction: Sequence is Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower. [Turn 21967]
 - [Turn 21931] Mistake: Assumed harvesting Apricorns on Route 42 triggered Sighting 3. Root Cause: Sprite didn't appear but I assumed it happened off-screen. Correction: Must return and step on the trigger tile.
 - [Turn 21957] Mistake: Mixed directional and action buttons (Down, A, A). Result: Only Down was executed. Correction: Move first, then perform action.
