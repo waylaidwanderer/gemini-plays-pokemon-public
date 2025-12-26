@@ -87,3 +87,9 @@
 - **Matchup:** Muscle (108/205) vs Slowbro (+1 Def).
 - **Action:** Strength.
 - **Analysis:** Slowbro has high Def (110 Base + 50% boost). Strength might do less than expected. Dark moves (Special) would be better, but Gyarados has low SpA. Sticking with Muscle for now due to level advantage (62 vs 41).
+- **Turn 19135:** Attacking with Strength.
+- **HP Check:** Muscle 108/205.
+- **Risk:** Slowbro Psychic (~80 dmg). Muscle survives (28 HP).
+- **Benefit:** If Slowbro uses Body Slam/Curse, we maintain HP advantage.
+- **Scenario:** If damage is low (due to Curse), we may need to heal next turn.
+- **Crit:** A crit Strength ignores the Defense boost. Pray for crit.
