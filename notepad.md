@@ -27,6 +27,6 @@
 - **Current:** Navigating North towards Victory Road.
 
 # Current Status (Turn 18843)
-- **Status:** Muscle Lv61 (165/201). Taking call from Wade.
+- **Status:** Muscle Lv61 (165/201). Finishing call with Wade.
 - **Location:** Route 26 (13, 11).
 - **Next:** Finish call. Navigate to (9, 8) to explore West path to Item.
