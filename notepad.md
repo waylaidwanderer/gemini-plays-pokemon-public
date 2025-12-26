@@ -37,4 +37,4 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: In New Bark Town (19, 6). Landing to Fly to Goldenrod.
+- Status: In New Bark Town. Flying to Goldenrod City to buy Elemental Punches.
