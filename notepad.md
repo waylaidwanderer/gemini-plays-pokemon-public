@@ -1,11 +1,11 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Houndoom (Lv47). Muscle Paralyzed.
-- **Battle Plan:** Use Cross Chop (Slot 4).
-- **Previous Action:** Accidentally used ThunderPunch (Slot 2).
-- **Menu State:** Cursor likely on Slot 2.
+- **Current State:** Fighting Houndoom (Lv47). Muscle Critical (14 HP, Paralyzed).
+- **Battle Plan:** Attempt Cross Chop (Slot 4). Expecting Muscle to faint.
+- **Next:** Switch to Gyarados (QAAGMAQNJW). Use Surf.
 - **Matchup:** Muscle (Lv68) vs Houndoom. Cross Chop is SE.
-- **Risk:** Paralysis chance.
+- **Risk:** Houndoom outspeeds and KOs Muscle.
+- **Menu State:** Cursor on ThunderPunch (Slot 2).
 
 # Team Status
 - **Opponent:** Karen (Dark Type).
