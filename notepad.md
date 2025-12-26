@@ -40,3 +40,4 @@
 - Sighting 2 (Cianwood): Turn 20088. Approached at (10, 14), it fled.
 - Eusine Battle (Cianwood): Turn 20110. Won.
 - Clear Bell obtained: Turn 21217.
+- Sighting 3 (Route 42): Verified in Pokedex at Turn 21303. Island Sweep (all floor tiles) completed Turn 21330-21340. Map reset via Mt. Mortar at Turn 21349. Sprite still missing.
