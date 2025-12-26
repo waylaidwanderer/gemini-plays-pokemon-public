@@ -1,8 +1,8 @@
 # Operation: Dragon Slayer
-- **Current State:** Reviving Team.
-- **Action:** Reviving Gyarados and Kunai.
-- **Plan:** Use Revive on Slot 3 & 4. Then switch to Potions to top everyone up.
-- **Team Update:** Muscle (112/225). Gyarados (Reviving). Kunai (Reviving).
+- **Current State:** Recovering from Input Error (Accidental Mail).
+- **Action:** Finishing Mail entry to return to bag.
+- **Plan:** Locate REVIVE (likely below Flower Mail). Revive Gyarados/Kunai.
+- **Team Update:** Muscle (112/225). Gyarados (FNT). Kunai (FNT).
 
 # Team Status
 - Muscle (Lv68): 112/225 HP. Healthy.
