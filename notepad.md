@@ -107,3 +107,9 @@
 - **Expectation:** Hitmontop (Lv 42).
 - **Plan:** Use Strength. Muscle outlevels significantly.
 - **Note:** Fighting does not resist Fighting. Neutral damage.
+- **Turn 19283:** Hitmontop defeated (OHKO Critical Strength).
+- **Incoming:** Hitmonlee (Lv 42).
+- **Action:** Decline switch (Down -> A).
+- **Matchup:** Muscle (84/208 HP) vs Hitmonlee.
+- **Strategy:** Strength. Hitmonlee has very low Defense. Should be OHKO.
+- **Risk:** Hitmonlee is fast and hits hard. If Muscle is slower/doesn't OHKO, he takes damage. But level gap (63 vs 42) is huge.
