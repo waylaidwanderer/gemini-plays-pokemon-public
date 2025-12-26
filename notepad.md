@@ -31,3 +31,4 @@
 - Koga: Turn 20258
 - Bruno: Turn 20293
 - Karen: Turn 20341
+- **Hall of Fame Registered:** Turn 20395. Play Time: 264:06.
