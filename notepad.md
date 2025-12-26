@@ -213,3 +213,6 @@
 - **Action:** Using Max Revive on Muscle.
 - **State:** Gyarados active. Muscle Fainted. Xatu Full HP.
 - **Plan:** Revive Muscle -> Switch to Muscle -> Strength.
+- **Turn 19167:** Retry Revive.
+- **Action:** Up, Up, A (Select Muscle).
+- **Plan:** Revive Muscle (Turn Ends) -> Gyarados tanks hit -> Switch to Muscle.
