@@ -53,3 +53,7 @@
 - **Incoming:** Gengar.
 - **Decision:** Stay in.
 - **Plan:** Gengar (Lv45) likely has Lick/Curse/Destiny Bond. Muscle might survive Lick. If so, Dig (Slot 2). If Muscle faints (Damage or Destiny Bond), switch to Gyarados -> Revive Muscle.
+- **Turn 4:** Muscle (Paralyzed, 20/211 HP) vs Gengar (Lv45).
+- **Move:** Dig (Slot 2).
+- **Reasoning:** Ghost is immune to Normal/Fighting. Dig (Ground) is 2x effective vs Poison.
+- **Expectation:** Gengar outspeeds. If Muscle faints -> Zombie Plan. If Muscle survives -> Dig.
