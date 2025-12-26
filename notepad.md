@@ -47,7 +47,7 @@
 - **Observation:** Gap in the South wall detected at (13, 41).
 - **Plan:** Navigate East to (13, 39), then South through the gap at (13, 41) to explore the large room to the South-East.
 - **Encounter:** Wild Golbat at (13, 42). Fled successfully.
-- **Status:** Explored 2F North-East corner (19, 36). Dead end (below ledges).
-- **Observation:** Spotted Warp (LADDER) at (17, 33) on 2F, but it is unreachable from here (blocked by ledges at y=35).
-- **Hypothesis:** To reach (17, 33) on 2F, I must find the corresponding ladder on 1F. This ladder is likely located in the unexplored Northern section of 1F East (x=17, y=33 area).
-- **Strategy:** Backtrack to Ladder (1, 35) -> 1F (1, 49). Navigate to 1F East Corridor (x=18) and head NORTH past y=48 into the unknown.
+- **Status:** 2F East (below ledges) fully explored. Dead end.
+- **Analysis:** The Warp (LADDER) at (17, 33) is unreachable from here due to ledges.
+- **Hypothesis:** The path to (17, 33) starts from a ladder on 1F East, likely around (17, 47) which I failed to reach previously.
+- **Strategy:** Backtrack to (1, 35) -> Descend to 1F -> Navigate to 1F East Corridor (x=18) -> Push NORTH past y=51 to find the ladder.
