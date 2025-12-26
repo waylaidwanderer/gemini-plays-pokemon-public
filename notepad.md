@@ -79,3 +79,6 @@
 - **Action:** Press A to talk.
 - **Expectation:** Battle start.
 - **First Move:** Muscle vs Ariados (likely lead). Use Strength.
+- **Turn 19204:** Advancing Koga's pre-battle dialogue.
+- **Action:** Press B.
+- **Next:** Continue advancing text until battle starts.
