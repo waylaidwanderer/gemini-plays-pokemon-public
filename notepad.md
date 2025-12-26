@@ -5,149 +5,34 @@
 
 # Current Status
 - **Location:** Koga's Room (Elite Four).
-- **Party:** Full Health.
-- **Inventory:** 1 Hyper Potion, 5 Super Potions, 13 Revives, 2 Full Restores.
-- **Money:** ¥6889.
+- **Party:**
+  - Muscle (Lv63): 60/208 HP, Poisoned.
+  - Gyarados (Lv35): Fainted.
+  - Others: Healthy.
+- **Inventory:** 
+  - Healing: 2 Super Potions, 11 Revives, 1 Max Revive.
+  - Status: 3 Antidotes, 8 Full Heals, 3 Bitter Berries.
+- **Money:** ¥15689 (Approx).
 
 # Exploration Log
 - **Victory Road:** Fully traversed.
-- **Indigo Plateau:** Lobby explored. Shopping done.
-- **Will:** Defeated.
+- **Elite Four:**
+  - Will: Defeated.
+  - Koga: Defeated.
 
 # Plan
-1.  **Battle Koga:**
-    - **Strategy:** Muscle (Strength/Dig) and Gyarados (Surf).
-    - **Counters:**
-      - **Muk:** Dig (Muscle).
-      - **Forretress:** Surf (Gyarados) or Ember (Quilava - Risky).
-      - **Ariados/Venomoth/Crobat:** Strength (Muscle) or Surf (Gyarados).
-    - **Note:** Bug resists Ground (Dig). Steel resists Normal (Strength).
+1.  **Recovery:**
+    - Cure Muscle's Poison (Antidote/Full Heal).
+    - Revive Gyarados (Revive).
+    - Heal Muscle (Super Potions).
+2.  **Advance:** Move to Bruno's Room.
+3.  **Battle Bruno:**
+    - **Threats:** Hitmonchan, Hitmonlee, Hitmontop, Onix, Machamp.
+    - **Strategy:**
+      - **Onix:** Gyarados (Surf) or Muscle (Rock Smash/Dig).
+      - **Fighting Types:** Muscle (Strength/Cross Chop). Gyarados (Waterfall/Strength).
+      - **Machamp:** Muscle (Strength/Dig). Watch for Cross Chop.
 
 # Battle Log
-- **Vs Will:** Won (Muscle swept).
-- **Vs Koga:**
-  - **Ariados:** Defeated (Strength).
-  - **Venomoth:** Defeated (Strength).
-  - **Crobat:** Current opponent.
-    - **Status:** Muscle (Full HP) vs Crobat (Full HP).
-    - **Cursor:** On PACK.
-    - **Action:** Select FIGHT -> Strength.
-    - **Plan:** Strength is neutral. Crobat is fast/flying. Tank hit, hit back.
-- **Turn 19217:** Muscle attacked Crobat (Strength).
-- **Result:** Hit despite Double Team. Crobat at ~50% HP.
-- **Opponent Action:** Crobat used Double Team (Evasion +1).
-- **Current State:** Muscle (Full HP) vs Crobat (Yellow HP, +1 Evasion).
-- **Action:** Up (Select FIGHT) -> A (Select) -> A (Strength).
-- **Plan:** Finish it off. High level difference mitigates evasion luck.
-- **Turn 19217 Outcome:** Crobat used Wing Attack (Super Effective). Muscle missed (Evasion).
-- **Status:** Muscle 152/205 HP. Crobat ~50% HP (from T19216 hit).
-- **Turn 19218:** Muscle uses Strength.
-- **Reasoning:** Dig fails vs Flying. Fighting moves resisted. Strength is best option.
-- **Risk:** Another miss or Confuse Ray. Muscle has HP to spare.
-- **Turn 19219:** Strength is out of PP (0/15)!
-- **Crisis:** Main damage source is gone. Dig is useless vs Flying. Cross Chop/Rock Smash are resisted (0.25x).
-- **Solution:** Use **Max Ether** on Strength.
-- **Action:** B (Exit Move Menu) -> Down (Select Pack) -> A (Open Pack).
-- **Next:** Find Max Ether -> Restore Strength PP.
-- **Turn 19221:** Using Max Ether.
-- **Action:** Up (Select Max Ether) -> A (Select) -> A (Use).
-- **Target:** Muscle -> Strength.
-- **Reason:** Restore PP to continue sweeping.
-- **Turn 19222:** Applying Max Ether to Strength.
-- **Action:** A (Select Muscle) -> A (Select Strength).
-- **Result:** Strength PP fully restored.
-- **Next:** Return to Battle -> Use Strength on Crobat.
-- **Turn 19223:** Backing out of menus.
-- **Action:** B x4 (Close text -> Exit Move Select -> Exit Party -> Exit Bag).
-- **Goal:** Return to Battle Menu.
-- **Next:** Select FIGHT -> Strength.
-- **Turn 19224:** Strength PP restored.
-- **Action:** Up (Select FIGHT) -> A (Select) -> A (Select Strength).
-- **Status:** Muscle Poisoned. Crobat Full HP.
-- **Strategy:** Strength is the only viable move. Keep attacking.
-- **Turn 19225:** Muscle used Strength (Turn 19224).
-- **Opponent Action:** Crobat used Double Team (Evasion +2).
-- **Status:** Muscle 140/205 (Badly Poisoned). Crobat ~40% HP.
-- **Action:** Use Strength again.
-- **Reasoning:** Must breakthrough evasion.
-- **Risk:** Toxic damage ramping up. Crobat might heal again.
-- **Turn 19226:** Crobat defeated. Muscle grew to Lv 63.
-- **Incoming:** Forretress (Lv 43).
-- **Action:** Decline switch (Down -> A).
-- **Matchup:** Muscle (Physical) vs Forretress (High Def).
-- **Type Analysis:** Bug/Steel.
-  - Fire: 4x (Garnet is underleveled).
-  - Fighting: 1x (Neutral).
-  - Ground: 1x (Neutral).
-  - Normal: 0.5x (Resisted).
-- **Plan:** Use Cross Chop or Dig. Muscle is best bet despite high enemy Def.
-- **Turn 19228 Analysis:** Forretress used Protect. Muscle used Rock Smash (Input error: assumed cursor reset to 1, but was at 4. 4->Down x3->3 Rock Smash).
-- **Correction:** Cursor is now on Slot 3 (Rock Smash).
-- **Turn 19229:** Muscle (29/208 HP, Toxic) vs Forretress (Full HP).
-- **Strategy:** Use Cross Chop (Slot 4). Strongest neutral move.
-- **Action:** Smart Move (Current: 3, Target: 4).
-- **Risk:** Miss (80% acc) or survival. Muscle likely faints after this turn due to Poison.
-- **Turn 19230:** Muscle fainted (Poison damage).
-- **Status:** Forretress at Full HP (Protected last turn).
-- **Action:** Switch to Gyarados (Slot 3).
-- **Reasoning:** Gyarados (Lv 35) is tankier than Garnet (Lv 29). Surf is special (hits lower SpDef). Fire (Garnet) is 4x effective but too risky due to low level/defense.
-- **Plan:** Use Surf. Recover momentum. Revive Muscle later if needed.
-- **Turn 19231:** Switched to Gyarados.
-- **Turn 19232:** Gyarados active.
-- **Action:** Use Surf (Slot 4).
-- **Reasoning:** STAB, Special attack vs Forretress (Lower SpDef).
-- **Risk:** Explosion. Gyarados is best tank available.
-- **Turn 19233:** Forretress defeated. Muk incoming.
-- **Action:** Decline Switch (Down -> A).
-- **Plan:** Use Revive on Muscle immediately. Gyarados tanks a hit.
-- **Reasoning:** Gyarados can survive one hit. Muscle (Dig) is needed to kill Muk efficiently. Mistral sack is risky if Muk attacks on switch-in.
-- **Turn 19234:** Opening Pack.
-- **Goal:** Revive Muscle.
-- **Context:** Muk active. Gyarados active.
-- **Next:** Find Revive -> Use on Muscle.
-- **Turn 19235:** Selecting Muscle to Revive.
-- **Action:** Up x2 (Select Muscle) -> A (Use Revive).
-- **Result:** Muscle revived to 50% HP.
-- **Next:** Gyarados tanks Muk's attack. Then decide: Switch to Muscle or Attack.
-- **Turn 19236:** Muscle revived (104/208 HP).
-- **Action:** Press B to clear message.
-- **Expectation:** Menu closes, turn ends, Muk attacks Gyarados.
-- **Next Turn:** Switch Muscle in. Use Dig.
-- **Turn 19237 (Opponent):** Muk used Minimize (Evasion +2).
-- **Turn 19240:** Switching to Muscle.
-- **Action:** Select Muscle (A) -> Shift (A).
-- **Status:** Muscle (104/208 HP, Healthy). Gyarados (Full HP).
-- **Opponent:** Muk (Minimize +2).
-- **Plan:** Muscle uses Dig. High damage, but acc check is scary.
-- **Note:** Muscle was revived, so Poison should be gone.
-- **Turn 19243:** Finding Hyper Potion.
-- **Inventory Check:** NO Full Restores. 1 Hyper Potion. 11 Revives.
-- **Situation:** Muscle (8/208 HP, Poisoned).
-- **Action:** Scroll Down x5 to find Hyper Potion.
-- **Plan:** Use Hyper Potion. Muscle heals to full, stays poisoned. Next turn: Dig.
-- **Turn 19244:** Selecting Hyper Potion.
-- **Action:** Up (Select Hyper Potion) -> A (Select) -> A (Use).
-- **Next:** Select Muscle -> Heal.
-- **Note:** Muscle will heal to 200+. Poison remains.
-- **Strategy:** Muscle must survive the turn (Dig avoids attack).
-- **Turn 19245:** Using Hyper Potion on Muscle.
-- **Action:** Press A.
-- **Result:** Muscle heals to full (208/208). Poison persists.
-- **Next:** Back out of menus -> End turn (Muk attacks).
-- **Turn 19246:** Muscle fully healed (200HP recovered).
-- **Action:** Press B to advance text/turn.
-- **Result:** Turn ends. Muk attacks.
-- **Next:** Muscle (Poisoned) vs Muk. Use Dig (Super Effective).
-- **Turn 19247:** Cleared heal text.
-- **Opponent Action:** Muk will attack (free turn while I healed).
-- **Status:** Muscle Full HP.
-- **Next:** Fight -> Dig.
-- **Turn 19254:** Switched to Gyarados.
-- **Reasoning:** Muk has +Defense (Acid Armor) and +Evasion (Minimize). Muscle (Physical) can't hit/hurt it. Gyarados (Special, Surf) ignores Defense buff.
-- **Plan:** Surf until Muk faints.
-- **Note:** Gyarados must tank Sludge Bomb on switch.
-- **Turn 19258:** Switching Muscle in.
-- **Critical Correction:** Inventory check confirms **NO** Full Restores or Hyper Potions. Only 2 Super Potions and 11 Revives.
-- **Strategy Update:** "Zombie Mode". Muscle fights until he drops. If he faints, sacrifice a weaker mon (Garnet/Kunai) to Revive him.
-- **Immediate Action:** Muscle uses Dig.
-- **Matchup:** Muscle (60 HP, PSN) vs Muk (54% HP, +Evasion, +Defense). Dig is our best/only hope.
+- **Vs Koga:** Victory. Muscle grew to Lv 63.
+- **Next:** Heal & Advance.
