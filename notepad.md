@@ -14,16 +14,17 @@
 
 # Current Plan
 1. **Heal:** Enter Indigo Plateau Lobby (Done).
-2. **Shop:** Buying supplies.
+2. **Shop:** Buying supplies (Done).
    - Bought: 5 Revives (7500).
-   - Next: Buy 5 Hyper Potions (6000).
-3. **Re-Challenge:** Go back in.
+   - Bought: 5 Hyper Potions (6000).
+3. **Rest & Restore:** Talk to Nurse Joy to fully heal (HP/PP).
+4. **Re-Challenge:** Go back in.
 
 # Team Status
 - Muscle (Lv65): Carry.
 - Others: Fodder/Pivot.
-- Money: 6,219 (After Revives).
-- Inventory: 5 Revives, 8 Full Heals.
+- Money: 219.
+- Inventory: 5 Revives, 5 Hyper Potions, 8 Full Heals.
 
 # Tile Mechanics
 - **WALL**: Impassable.
