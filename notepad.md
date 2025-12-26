@@ -104,3 +104,8 @@
   - If Venomoth/Crobat: Stay in, use Strength.
   - If Muk: Stay in, use Dig.
   - If Forretress: Consider switching or use Dig.
+- **Turn 19210:** Declined switch (Venomoth incoming).
+- **Action:** Down (Select NO) -> A (Confirm).
+- **Matchup:** Muscle (Lv 62) vs Venomoth.
+- **Strategy:** Strength (Neutral, 80 BP). Fighting moves are 1/4x effective. Dig is Neutral (60 BP).
+- **Note:** Muscle outlevels significantly. Should be a 2HKO at worst.
