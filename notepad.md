@@ -36,7 +36,7 @@
 - **Strategy:** Resuming navigation to 1F East Corridor (x=18).
 - **Path:** Loop South to (3, 56), East to (15, 56), then North to (18, 51).
 - **Goal:** Explore North of (18, 51) for missed ladder.
-- **Status:** Resuming navigation after fleeing Golbat at (7, 56).
-- **Goal:** Reach Ladder at (1, 49).
-- **Plan:** West to x=3 corridor, then North to y=49. Ascend to 2F West.
-- **Next Step:** On 2F, traverse from (1, 35) -> (5, 37) -> (9, 36) -> East to explore the large unseen area (x>11).
+- **Status:** 2F West (current location) is a dead end/landing area.
+- **Analysis:** The 2F West area is isolated by ledges. The ladder at (1, 35) is the only exit.
+- **Strategy:** Descend ladder at (1, 35) to return to 1F.
+- **Next:** Navigate to 1F East Corridor (x=18). Go NORTH from (18, 51) into the unexplored area to find the path to 2F East.
