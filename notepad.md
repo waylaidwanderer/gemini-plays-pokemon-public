@@ -28,7 +28,7 @@
 
 # Tasks & Progress
 - Goal: Trigger Suicune sighting on Route 42. [Start Turn 22061]
-- Status: Searching northern/western part of Route 42 central island.
+- Status: Suicune spotted at (27, 15)! Approaching to trigger flee event.
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
