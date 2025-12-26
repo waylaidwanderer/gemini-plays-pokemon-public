@@ -101,3 +101,9 @@
 - **Condition:** Zombie Mode (0 Potions). Muscle 40% HP.
 - **Plan:** Lead Muscle. If he faints, switch to fodder (Mistral/Zenith) -> Revive Muscle (50% HP) -> Switch Muscle back in.
 - **Matchup 1:** Hitmontop. Use Strength.
+- **Turn 19281:** Battle with Bruno starting.
+- **Opponent:** Bruno.
+- **Lead:** Muscle (Lv 63, 84/208 HP).
+- **Expectation:** Hitmontop (Lv 42).
+- **Plan:** Use Strength. Muscle outlevels significantly.
+- **Note:** Fighting does not resist Fighting. Neutral damage.
