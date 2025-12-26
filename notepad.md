@@ -5,21 +5,22 @@
 
 # Battle Status: Lance (Champion)
 - **Opponent:** Dragonite (Lv47).
-- **Active:** Kunai (Lv24 Sneasel) - 65/65 HP.
+- **Active:** Muscle (Lv65 Machoke) - 107/215 HP (Fresh).
 - **Reserve:** Gyarados (24/114).
-- **Fainted:** Muscle, Garnet, Zenith, Mistral.
-- **Items:** 7 Revives. No Potions.
+- **Fainted:** Kunai, Garnet, Zenith, Mistral.
+- **Items:** 6 Revives. No Potions.
 
 # Moveset Status (Muscle)
 - Strength (Normal): 0/15 PP.
 - Dig (Ground): 0/10 PP.
-- Rock Smash (Fighting): 6/15 PP.
+- Rock Smash (Fighting): 6/15 PP. (Target: Burn this).
 - Cross Chop (Fighting): 0/5 PP.
 
-# Strategy: Zombie Loop
-1. **Sacrifice:** Kunai is active.
-2. **Revive:** Use Revive on Muscle (Priority Item Usage).
-3. **Fodder:** Let Kunai faint.
-4. **Return:** Send Muscle back in (107 HP).
-5. **Attack:** Use remaining Rock Smash PP or Struggle.
-6. **Repeat:** If Muscle faints again, use Gyarados as fodder.
+# Strategy: Operation Smash & Struggle
+1. **Smash:** Use Rock Smash (Slot 3) to lower Defense and burn PP.
+2. **Struggle:** Once Rock Smash is 0 PP, Struggle (50 BP) is the win condition.
+3. **Zombie Loop:** If Muscle faints:
+   - Switch to Gyarados (Fodder).
+   - Use Revive on Muscle.
+   - Let Gyarados faint.
+   - Switch Muscle back in.
