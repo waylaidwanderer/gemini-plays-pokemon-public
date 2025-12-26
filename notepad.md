@@ -1,8 +1,8 @@
 # Operation: Elemental Upgrade
-- **Status:** Inside Victory Road (2F - Dead End Room).
-- **Plan:** Return to 1F by taking the ladder back down.
-- **Reason:** The area around (1, 35) is enclosed by one-way ledges, making it a dead end from this direction. This implies the ladder at (1, 49) is a shortcut *from* 2F, not the way up.
-- **New Strategy:** Explore the Eastern corridor on 1F starting at (12, 54).
+- **Status:** Inside Victory Road (Transitions).
+- **Plan:** Take Ladder at (1, 49) UP to (1, 35).
+- **Correction:** (1, 35) is NOT a dead end. There is a path South from (1, 35) that seems to lead deeper into the cave.
+- **Next:** Follow path South from (1, 35).
 - **Plan:** Head North on Route 26 -> Reach Victory Road Gate.
 - **Note:** Most trainers on this route are already defeated from previous descent.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
