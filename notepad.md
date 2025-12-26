@@ -18,11 +18,10 @@
 - **Mechanics:** Max Revive restores HP but NOT PP.
 - **Type Matchups (Gen 2):** Ghost is Physical (Good for Sneasel/Shadow Ball). Dark is Special (Bad for Sneasel).
 - **Battle:** Elite Four Will.
-- **State:** Muscle (Lv66, 181/218 HP) vs Exeggutor (Incoming).
-- **Matchup:** Muscle is weak to Psychic, but Exeggutor is weak to Ice Punch (2x).
-- **Plan:** Stay in with Muscle. Outspeed and OHKO with Ice Punch.
-- **Risk:** If Exeggutor survives and uses Psychic, Muscle takes heavy damage.
-- **Note:** Sneasel is immune to Psychic but too underleveled to kill quickly.
+- **State:** Muscle (181/218) vs Exeggutor (Full).
+- **Matchup:** Muscle outspeeds. Ice Punch (2x) vs Grass/Psychic.
+- **Plan:** OHKO with Ice Punch.
+- **Next:** Probably Slowbro or Xatu #2.
 
 # Tile Mechanics
 - **WALL**: Impassable.
