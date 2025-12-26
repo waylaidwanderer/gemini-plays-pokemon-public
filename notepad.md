@@ -5,16 +5,17 @@
 - HEADBUTT_TREE: Impassable. [Verified]
 - CUT_TREE: Impassable. [Verified]
 - PC: Standard interaction. [Verified]
+- WARP_CARPET: Traversable, triggers map transition. [Verified]
+- LEDGE: One-way traversal (hop down/left/right). [Verified]
 
 # Suicune Hunt (Crystal Version)
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 Central Island.
     - Status: Not triggered yet.
-    - Strategy: Reach island (Surf/Cut). Use 'find_unmarked_floor_tiles' to systematically walk on EVERY FLOOR tile in the grove (approx x=24-30, y=14-17) to hit the scripted trigger.
+    - Strategy: Reach island (Surf/Cut). Suicune is a visible sprite at (10, 14) or similar - approach it to trigger the flee event.
 - Sighting 4: Route 36 (Sudowoodo junction at (35, 9)).
 - Sighting 5: Tin Tower 1F (Final Battle).
-- **Verification Result:** Checked Tin Tower 1F. Sages present but lore-only. Sightings 3 & 4 are definitely still required.
 - Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
 
 # PC Storage Inventory
