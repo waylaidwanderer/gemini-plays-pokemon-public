@@ -78,3 +78,7 @@
 - **Action:** Up x4 -> A (Confirm Max Revive on Muscle).
 - **Outcome:** Muscle fully restored (HP & PP).
 - **Next:** Exit menus. End turn. Zenith is active.
+- **Turn 19394:** Confirmed Max Revive on Muscle.
+- **Outcome:** Muscle fully restored (215/215 HP, Full PP).
+- **Game State:** Dragonite recharging (Safe turn).
+- **Next:** Exit menus. Sacrifice Zenith. Switch to Muscle.
