@@ -1,9 +1,11 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Murkrow (Lv44). Muscle Active (Paralyzed).
-- **Battle Plan:** Use Ice Punch (Slot 3). Super Effective.
-- **Matchup:** Muscle (Lv68) vs Murkrow (Dark/Flying).
-- **Team:** Kunai Fainted. Muscle Paralyzed.
+- **Current State:** About to fight Houndoom.
+- **Battle Plan:** Decline switch. Use Cross Chop (Slot 4).
+- **Matchup:** Muscle (Lv68, Paralyzed) vs Houndoom (Dark/Fire). Cross Chop is SE.
+- **Backup:** Gyarados (Surf) if Muscle faints.
+
+# Team Status
 - **Opponent:** Karen (Dark Type).
 - **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
 
