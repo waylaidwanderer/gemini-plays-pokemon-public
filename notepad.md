@@ -57,3 +57,8 @@
 - Turn 23306: Map reset via Mt. Mortar performed. Approaching (26, 14) from the south via Surf.
 - Hypothesis: Eusine battle flag in Cianwood is the primary gate. If Suicune doesn't appear now, I must return to Cianwood and verify Eusine's defeat.
 - Observation: (26, 14) was previously stepped on without trigger. Cave-exit reset is the current test.
+## Roaming Suicune Hypothesis (Crystal)
+- Turn 23321: Pokédex confirms Suicune is roaming (icon visible on map).
+- Observation: Suicune is currently on the east side of Johto.
+- Hypothesis: Scripted sightings in Crystal may require the roaming icon to be present on the current route to trigger the overworld event.
+- Plan: Cycle map transitions at the Route 42/Ecruteak gatehouse until Suicune is on Route 42.
