@@ -17,8 +17,9 @@
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 Central Island Grove.
     - Strategy: Use Surf to reach island, use Cut to enter grove. Perform 100% tile coverage sweep.
-    - Current Sweep: Started Turn 22724.
-- Sighting 4: Route 36 (Sudowoodo junction).
+    - Status: Island sweep complete (Turn 22782). No trigger.
+    - Hypothesis: Trigger is on the water surrounding the island or the eastern path toward Mahogany Town.
+- Sighting 4: Route 36 (Sudowoodo junction). Status: Locked until Sighting 3 is cleared.
 - Sighting 5: Tin Tower 1F (Final Battle). Requires Clear Bell (Obtained).
 - Battle Strategy: Level 40. Induce sleep (XENON/KIMCHI), weaken (GNEISS/Calcifer).
 
@@ -27,7 +28,7 @@
 
 # Lessons Learned & Failures
 - FLY Map Navigation: Attempted to move cursor with D-pad without success. FLY map cursor movement is not 1:1 with D-pad presses and may require specific logic or repeated inputs.
-- Suicune Trigger Hypothesis (Route 42): Sighting 3 is triggered by approaching the central island grove with three Apricorn trees. Exhaustive sweep of the island is the current priority.
+- Suicune Trigger Hypothesis (Route 42): Sighting 3 is triggered by approaching the central island area. Exhaustive island sweep failed. Next: Check water and eastern land path.
 
 # Area Mechanics & Warps
 ## Ecruteak City (4_9)
@@ -55,5 +56,7 @@
 
 ## Violet City (10_5)
 - (27, 23): Ledge gap. Allows passage north without hopping the ledge.
-- Island Sweep #2 Result: Completed Turn 22782. 100% floor tile coverage on central island. Suicune did not appear.
-- Next Step: Check eastern Route 42 and Pokedex map.
+
+# Timestamps
+- Suicune Hunt (Phase 3/4): Started Turn 22256.
+- Island Sweep #2 (Exhaustive): Started Turn 22724. Ended Turn 22782. Result: No trigger.
