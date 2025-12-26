@@ -120,3 +120,8 @@
   4. Let fodder faint.
   5. Muscle returns with full PP to sweep.
 - **Turn 19379:** Using Rock Smash to pass turn.
+- **Turn 19380:** Previous tool failed (tried to select empty Strength).
+- **Correction:** Manually selecting Rock Smash (Slot 3).
+- **Status:** Muscle (109 HP). Goal: Faint to Dragonite.
+- **Next:** Use Rock Smash. Wait for Dragonite to attack.
+- **Inventory:** 1 Max Revive available for the Plan.
