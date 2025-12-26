@@ -67,3 +67,8 @@
 - **Goal:** Use Super Potions on Muscle.
 - **Status:** Muscle 34/208 HP. Gyarados 57/114 HP.
 - **Inventory:** 2 Super Potions left.
+- **Turn 19271:** Navigating to Super Potion.
+- **Action:** Up (Select Pack) -> A (Open) -> Down (Select Super Potion) -> A (Select) -> A (Use).
+- **Target:** Muscle (Slot 1).
+- **Goal:** Heal Muscle. Muscle needs ~174 HP. Super Potion gives +50.
+- **Inventory:** 2 Super Potions. Will use both.
