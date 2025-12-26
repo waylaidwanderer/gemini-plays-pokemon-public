@@ -1,12 +1,14 @@
 # Operation: Dragon Slayer
 - **Status:** Indigo Plateau (Lance's Room).
 - **Action:** Battling Champion Lance.
-- **Current State:** Fighting Dragonite #1 (Lv47).
+- **Current State:** Fighting Dragonite #2 (Lv47).
 - **Battle Plan:** Use Ice Punch (Slot 3).
-- **Correction:** Last turn used Cross Chop (Slot 4) due to cursor misalignment. Correcting now.
-- **Menu State:** Cursor at Slot 4. Moving to Slot 3.
+- **Menu State:** Cursor verified at Strength (Slot 1).
+- **Action:** Navigate Down -> Down -> Select Ice Punch.
 - **Matchup:** Muscle (Lv69) vs Dragonite. Ice Punch is 4x SE.
-- **Observation:** Dragonite's Thunder Wave failed (Immunity? Miss? Glitch?). Muscle has no status.
+- **Lance's Dragonites:** Lv47 ones usually have Thunder Wave/Twister/Hyper Beam. Ice Punch should OHKO.
+
+# Team Status
 
 # Team Status
 - Muscle (Lv69): 118/229 HP.
