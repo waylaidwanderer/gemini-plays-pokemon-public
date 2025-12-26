@@ -35,3 +35,6 @@
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
 - Observation: Tin Tower 1F Sages (11, 11), (14, 6), and (5, 9) provided lore but no battles. [Turn 22026]
 - Strategy: Re-check Wise Trio room (4_2) and gatehouse Sage (4_1) after entering Tin Tower. [Turn 22026]
+- Observation: Wise Trio Room (4_2) appears empty at Turn 22030. [Turn 22030]
+- Observation: Tin Tower 1F Sage (5, 9) said: "Could it mean the legendary POKéMON are testing us humans?" [Turn 22023]
+- Hypothesis: The Wise Trio might appear in 4_2 after a specific trigger, or the battle occurs elsewhere. [Turn 22030]
