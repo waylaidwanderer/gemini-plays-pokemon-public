@@ -1,12 +1,9 @@
 # Strategy: Suicune Hunt (Crystal)
-- Sequence: 1. Burned Tower -> 2. Cianwood -> 3. Route 42 (Current) -> 4. Route 36 -> 5. Route 38 -> 6. Route 14 -> 7. Tin Tower 1F.
+- Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 Island (Current) -> 4. Route 36 -> 5. Route 14 -> 6. Tin Tower 1F.
 - Quest Start: Turn 20970 (Dec 25, 5:00 PM)
-- Logic: Scripted sightings (1-5) are overworld events. Suicune remains stationary until approached.
+- Logic: Scripted sightings (1-5) are fixed overworld events. Suicune remains stationary until approached.
+- Sighting 3 Strategy: Return to Route 42 island. Thoroughly explore the clearing between the Apricorn trees.
 - Battle Strategy (Tin Tower): Lead XENON (GASTLY). Use MEAN LOOK, HYPNOSIS, NIGHT SHADE.
-- Note: Suicune was not found on Route 42 island clearing despite Pokedex showing it on Route 42. Pivoting to Route 36 to verify prerequisites.
-- Strategy: Fly to Violet City, head west to Route 36.
-- Arthur (Thursday): Route 36 (15, 7).
-- Suicune Sighting 4: Route 36.
 
 ## Tile Mechanics
 - FLOOR: Traversable. [Tested]
@@ -18,9 +15,10 @@
 - COUNTER: Impassable; allows interaction with NPCs behind it. [Verified]
 
 # Side Quests
-- Arthur (Route 36): Thursday only. Gives Hard Stone. Failed attempt (Turn 21127-21134): Repeats intro loop, no item given. missing unknown trigger.
+- Week Siblings:
+  - Arthur (Thursday): Route 36 (45, 6). Gives Hard Stone. 
+  - Status: Stalled in intro loop. Possible missing trigger or prerequisite.
 - Clear Bell: In Key Items.
-- Week Siblings: Arthur (Thursday) is on Route 36 near the Ruins of Alph path.
 
 # PC Inventory
 - Box 1: RICOTTA (Raticate), CINNABAR (Goldeen), VORTEX (Poliwag), INTERCEPT (Yanma), ROCKY (Onix), EGG (Cleffa), XFDW (Meowth), FRITTATA (Togepi), SHUCKIE (Shuckle), Blarney (Sudowoodo).
