@@ -33,3 +33,7 @@
 - **Status:** Muscle (109 HP, PAR).
 - **Action:** Continue spamming Rock Smash (Slot 3).
 - **Goal:** Chip damage/Def drop, but primarily waiting for Muscle to faint for Max Revive plan.
+- **Turn 19383:** Muscle is Paralyzed.
+- **Action:** Using Rock Smash (Slot 3).
+- **Tool Config:** current_slot=3 (Memory), target_slot=3.
+- **Plan:** Waiting for Muscle to faint for Max Revive reset.
