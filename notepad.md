@@ -217,3 +217,7 @@
 - **Action:** Press B to clear text and proceed to opponent's turn.
 - **State:** Gyarados active. Muscle Full HP.
 - **Plan:** Gyarados tanks hit -> Switch to Muscle -> Strength.
+- **Turn 19169:** Switching to Muscle.
+- **Action:** Manual Navigation (Pack -> Fight -> Pkmn): Up, Right, A.
+- **Reasoning:** Gyarados is confused and weak. Muscle is full HP and can tank Psychic.
+- **Next:** Select Muscle -> Switch.
