@@ -1,6 +1,6 @@
 # Operation: Elemental Upgrade
-- **Status:** Exiting Tohjo Falls.
-- **Plan:** Surf East to land at (22, 14) -> Walk to Exit at (25, 15).
+- **Status:** Entering Route 27 (East Side).
+- **Plan:** Head East on Route 27 -> Enter Victory Road Gate.
 - **Muscle Moveset:** Cross Chop, Strength, Ice Punch, ThunderPunch.
 
 # Team Status
