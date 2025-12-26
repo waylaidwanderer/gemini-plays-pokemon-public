@@ -37,6 +37,9 @@
 - **COUNTER**: Impassable. Interact to talk.
 - **PC**: Impassable. Interact to access Storage.
 - **WATERFALL**: Passable with HM07 Waterfall. Allows vertical ascent/descent.
-- Status: Goldenrod Dept Store 5F. Bought TM33 & TM41.
-Next: Teach Ice Punch (TM33) and ThunderPunch (TM41) to Muscle.
-Then: Fly to Indigo Plateau for Rematch.
+- Status: In TM Pocket. Scrolling to TMs.
+Plan:
+1. Teach TM33 (Ice Punch) to Muscle (Replacing Rock Smash).
+2. Teach TM41 (ThunderPunch) to Muscle (Replacing Dig).
+   - Note: Elemental Punches are Special in Gen 2, but 4x effectiveness vs Lance's Dragons/Flyers compensates for Machoke's low SpAtk.
+3. Fly to Indigo Plateau.
