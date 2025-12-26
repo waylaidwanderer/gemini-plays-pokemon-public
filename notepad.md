@@ -45,8 +45,8 @@
 - Current Balance: ¥373. Very low. Need to prioritize trainer battles for cash.
 
 # Metadata
-- Current Turn: 23802
-- Suicune Hunt Duration: 102 turns (since turn 23700)
+- Current Turn: 23807
+- Suicune Hunt Duration: 107 turns (since turn 23700)
 
 # General Lessons Learned
 - **Interaction Mechanics:** When interacting with NPCs, ensure you are stationary and facing them. Do not mix movement and action buttons in the same sequence.
@@ -61,10 +61,7 @@
 - Prerequisite: Must have encountered Suicune at Route 42 and Route 36 sightings before they will battle.
 
 # Suicune Hunt Progress Log
-- Sighting 3 (Route 42): 5 failed attempts at (26, 14). Hypothesis: Approach direction or map script reset is required.
+- Sighting 3 (Route 42): 10+ failed attempts at various island tiles.
+- Mt. Mortar Reset Hypothesis Result: Failed to trigger sighting at (26, 14), (28, 15), (27, 15), (26, 15), (25, 15), (27, 14), (29, 15), (30, 15).
 - Current Status: Wise Trio in Ecruteak will not battle. Pokedex shows Suicune on Route 42.
-- Plan: Cut tree at (24, 13), walk to (26, 14).
-- Turn 23791: Entered and exited Mt. Mortar (middle entrance) to reset map script.
-- Turn 23798: Tree at (24, 13) cleared. Moved to (26, 14). No trigger.
-- Turn 23801: Attempted (28, 15) near Apricorn trees after Mt. Mortar reset. No trigger.
-- Plan: Check (27, 15) and (29, 15), then Fly to Ecruteak for a hard reset if needed.
+- Plan: Verify Pokedex location, then sweep remaining island tiles. If all fail, approach from Mahogany (East).
