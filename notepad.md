@@ -16,9 +16,9 @@
 - **PC**: Impassable. Access storage.
 - **WATERFALL**: HM07 required.
 - **Game Mechanics:** Max Revive restores HP but NOT PP (confirmed turn 19401).
-- **Purchase Plan:** 2F is 'Trainer's Market' (Balls/Mail/Status/Revives). No Hyper Potions. Next: Go to 3F to search for Hyper Potions.
+- **Purchase Plan:** 3F is 'Battle Collection' (X Items). Search 4F for Hyper Potions. Funds: ¥4569.
 - **Shop Inventory:**
-    - 2F Clerk 1 (13,5): Potion, Super Potion, Status Heals.
-    - 2F Clerk 2 (13,6): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
+    - 2F: Super Potion, Status Heals, Balls, Revive, Full Heal, Mail.
+    - 3F: Battle Collection (X Items).
 - **Healing Efficiency:** Fresh Water (4¥/HP), Soda Pop (5¥/HP), Lemonade (4.375¥/HP), Hyper Potion (6¥/HP). Fresh Water is best value! Change plan to buy Fresh Water? No, Lemonade is faster per heal.
 - **Gen 2 Mechanics:** Ghost is Physical, Dark is Special. Sneasel (Dark/Ice) has bad Sp.Atk, so Dark moves like Thief are bad. Shadow Ball (Ghost) is good.
