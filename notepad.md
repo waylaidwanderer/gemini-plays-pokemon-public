@@ -4,15 +4,16 @@
 - **Tertiary:** Train team for Victory Road.
 
 # Current Status
-- **Location:** Route 23 (Entrance to Indigo Plateau).
+- **Location:** Indigo Plateau Pokémon Center (Lobby).
 - **Party:** Gyarados (76/111), Muscle (Lv61), others healthy.
-- **Recent Events:** Defeated Rival Silver, exited Victory Road.
+- **Recent Events:** Arrived at Indigo Plateau.
 
 # Exploration Log
 - **Victory Road:** Fully traversed.
-- **Route 23:** Arrived at Indigo Plateau entrance.
+- **Route 23:** Traversed.
+- **Indigo Plateau:** Currently in the lobby.
 
 # Plan
-1.  **Navigate:** Enter Indigo Plateau (9, 5).
-2.  **Heal:** Use the Pokémon Center inside.
-3.  **Prepare:** Buy items and organize team for the Elite Four.
+1.  **Heal:** Locate Nurse Joy and heal the team.
+2.  **Shop:** Buy Full Restores/Revives if available.
+3.  **Prepare:** Review movesets and PP (Muscle needs Cross Chop PP restored).
