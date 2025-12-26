@@ -26,5 +26,6 @@
 - **Strategy:** Backtracking to the Eastern Corridor (x=18) via (11, 54) to inspect the east wall (x=19) for hidden paths or missed ladders.
 - **Exploration:** Checked East corridor. Dead end at (19, 52).
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
+- **Encounter:** Wild Onix at (15, 56). Fled successfully.
+- **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
 - **Next:** From (1, 35) on 2F, explore the NORTH path (y=33) which was previously missed.
-- **Encounter:** Wild Onix at (15, 56).
