@@ -39,3 +39,6 @@
 - **Strategy:** Muscle grew to Lv64. Cross Chop OHKO'd Onix.
 - **Vs Karen:** Battle started.
 - **Turn 1:** Muscle (54/211 HP) vs Umbreon. Using Cross Chop (Slot 4) for expected OHKO. Risk: 80% acc. Backup: Zombie Mode.
+- **Turn 1 Result:** Umbreon fainted. Muscle (54/211 HP).
+- **Incoming:** Vileplume.
+- **Decision:** Decline switch. Muscle stays in. Strategy: Strength. If Muscle faints -> Fodder -> Revive.
