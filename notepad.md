@@ -2,34 +2,34 @@
 - Sequence: 1. Burned Tower (Done) -> 2. Cianwood (Done) -> 3. Route 42 Island (Current) -> 4. Route 38 -> 5. Route 14 -> 6. Tin Tower 1F.
 - Progress:
     - Sighting 1 (Burned Tower): Done.
-    - Sighting 2 (Cianwood): Turn 20088. Approached at (10, 14), it fled.
+    - Sighting 2 (Cianwood): Turn 20088. Fled.
     - Eusine Battle (Cianwood): Turn 20110. Won.
     - Clear Bell: Obtained Turn 21217.
     - Sighting 3 (Route 42): 
-        - Island Sweep started Turn 21330. Visited ALL island FLOOR tiles (Turn 21330-21340). Sprite did NOT appear.
-        - Map reset via Mt. Mortar at Turn 21349.
-        - Current Task: Verify Pokedex AREA map to see if sighting triggered silently.
+        - Started Island Sweep at Turn 21330.
+        - Status: Island swept (all floor tiles). Sprite missing.
+        - Current Task: Verify Pokedex AREA map to confirm if sighting 3 is complete.
 - Lessons Learned:
-    - Pokedex Navigation: Alphabetical (A-Z). Suicune is after Sudowoodo.
-    - Scripted vs Roaming: Suicune is scripted until Sighting 5. Pokedex "AREA" dot is reliable.
+    - Pokedex: S is before T. Scroll UP from Togepi.
+    - Scripted: Suicune is scripted until Sighting 5. Pokedex AREA is the source of truth for current sighting location.
     - Menu Stagnation: Do not loop in menus. Use tools/agents.
 
 ## Tile Mechanics
 ### Route 42
-- FLOOR: Standard traversable ground. [Verified]
-- WALL: Impassable barrier (cliffs, rocks). [Verified]
-- WATER: Requires SURF to traverse. [Verified]
+- FLOOR: Standard ground. [Verified]
+- WALL: Impassable. [Verified]
+- WATER: Requires SURF. [Verified]
 - HEADBUTT_TREE: Impassable, interaction only. [Verified]
-- CUT_TREE: Impassable until removed with CUT. [Verified]
+- CUT_TREE: Impassable until CUT. [Verified]
 - FRUIT_TREE: Impassable, interaction only. [Verified]
 
 ### Mount Mortar
-- FLOOR: Standard traversable ground. [Verified]
-- WALL: Impassable barrier. [Verified]
-- WATER: Requires SURF to traverse. [Verified]
-- LADDER: Triggers map transition. [Verified]
-- WARP_CARPET_DOWN: Triggers map transition. [Verified]
-- FLOOR_UP_WALL: Impassable wall (ledge/cliff). [Verified]
+- FLOOR: Standard ground. [Verified]
+- WALL: Impassable. [Verified]
+- WATER: Requires SURF. [Verified]
+- LADDER: Warp. [Verified]
+- WARP_CARPET_DOWN: Warp. [Verified]
+- FLOOR_UP_WALL: Impassable ledge. [Verified]
 
 # PC Inventory
 - Pokémon: Box 1 (10/20): RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
