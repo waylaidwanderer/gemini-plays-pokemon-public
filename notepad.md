@@ -33,6 +33,7 @@
 # PC Storage Inventory
 - Box 1: RICOTTA (Raticate), CINNABAR (Goldeen), VORTEX (Poliwag), INTERCEPT (Yanma), ROCKY (Onix), EGG (Cleffa), XFDW (Meowth), FRITTATA (Togepi), SHUCKIE (Shuckle), Blarney (Sudowoodo).
 - PC Check: Item Storage and Box 1 (all 10 Pokémon) confirmed empty of items (Turns 21844-21861).
-- Party Check: Checking held items now.
+- Party Check: XENON, ICARUS, and GNEISS have item icons in the party menu. Checking Gneiss first (Turn 21867).
 - Suicune Strategy: Proceed to Route 42 center island. Use Surf and Cut.
 - Lesson: PC "MOVE PKMN W/O MAIL" is the most reliable way to check stored items.
+- Lesson: Menu navigation tools must handle border characters (│, ┌, └) correctly. Fix applied in menu_navigator_v2_fixed_v2.
