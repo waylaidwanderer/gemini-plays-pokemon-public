@@ -2,27 +2,17 @@
 - **Primary:** Challenge the Pokémon League.
 - **Secondary:** Traverse Victory Road.
 - **Tertiary:** Train team for Victory Road.
-- **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18955)
-- **Location:** Victory Road 2F East (17, 37).
-- **Party:** Gyarados (76/111), Muscle (Lv61).
-- **Goal:** Reach Ladder at (17, 33).
+# Current Status
+- **Location:** Route 23 (Entrance to Indigo Plateau).
+- **Party:** Gyarados (76/111), Muscle (Lv61), others healthy.
+- **Recent Events:** Defeated Rival Silver, exited Victory Road.
 
 # Exploration Log
-- **1F:** West and East corridors largely explored. East side of 1F (north end) was a dead end.
-- **2F West:** Loop with HP Up.
-- **2F East:** Large room. Ladder at (17, 33) spotted but blocked by ledges from South.
-- **Key Discovery:** Vertical corridor at x=12 appears open from y=36 Northwards.
-- **Hypothesis:** The path to the ladder at (17, 33) involves navigating North along x=12, then looping East across the top (unseen area around y=30) to drop down to the ladder.
+- **Victory Road:** Fully traversed.
+- **Route 23:** Arrived at Indigo Plateau entrance.
 
 # Plan
-1.  **Navigate:** From current position (17, 37), go West to (12, 37) area.
-2.  **Gap:** Enter x=12 corridor at (12, 36).
-3.  **Explore:** Head North along x=12 to (12, 31) and see if it connects East.
-- **Status:** Battle with Rival Silver. Feraligatr defeated. Magneton sent out.
-- **Matchup:** Muscle (Lv61 Machoke) vs Magneton (Lv ~37 Electric/Steel).
-- **Condition:** Muscle (109/201 HP).
-- **Strategy:** Use Dig (Slot 2).
-  - **Reasoning:** Ground is 4x Super Effective against Electric/Steel. OHKO guaranteed. Muscle likely outspeeds due to level advantage.
-- **Goal:** Defeat Magneton and continue sweep.
+1.  **Navigate:** Enter Indigo Plateau (9, 5).
+2.  **Heal:** Use the Pokémon Center inside.
+3.  **Prepare:** Buy items and organize team for the Elite Four.
