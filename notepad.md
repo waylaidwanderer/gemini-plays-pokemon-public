@@ -4,10 +4,13 @@
 - **Tertiary:** Train team for Victory Road.
 - **Immediate:** Navigate Route 26 North.
 
-# Current Status (Turn 18801)
-- **Status:** Muscle Lv61 (165/201). Navigating Route 26 Maze.
-- **Location:** Route 26 (14, 16).
-- **Next:** Navigate North through the fences. Search for hidden items.
+# Current Status (Turn 18851)
+- **Battle:** Fighting Cooltrainer Beth (Rapidash Lv36).
+- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire).
+- **Status:** Gyarados (76/111). Rapidash damaged.
+- **Action:** Using Surf (Slot 4).
+- **Location:** Route 26 (9, 8).
+- **Next:** Defeat Cooltrainer Beth. Explore West path to Item. Check House at (7, 5).
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
@@ -25,11 +28,3 @@
 - **Route 26:** Defeated trainers (Gilbert, Scott, Richard, Joyce, Gaven, Jake).
 - **Milestone:** Registered Cooltrainer Gaven.
 - **Current:** Navigating North towards Victory Road.
-
-# Current Status (Turn 18848)
-- **Battle:** Fighting Cooltrainer Beth (Rapidash Lv36).
-- **Matchup:** Gyarados (Water/Flying) vs Rapidash (Fire).
-- **Status:** Rapidash HP Critical. Gyarados Healthy.
-- **Action:** Using Surf (Slot 4) to finish it.
-- **Location:** Route 26 (9, 8).
-- **Next:** Defeat Cooltrainer Beth. Explore West path to Item. Check House at (7, 5).
