@@ -29,9 +29,7 @@
 - [Turn 21988] Tool Failure: menu_navigator_v3_fixed_borders overshot POKEMON and selected GEM because it matched status text at the bottom. Fixed in Turn 22008.
 
 # Tasks & Progress
-- Goal: Defeat the Wise Trio in Ecruteak City gatehouse. [Start Turn 22000, Timestamp: Friday, Dec 26, 2025 at 12:12 AM]
 - Badges Obtained: Zephyr, Hive, Plain, Fog, Mineral, Storm, Glacier. (7/8 Johto Badges).
 
 # PC Storage Inventory
 - Box 1: RICOTTA (RATICATE), CINNABAR (GOLDEEN), VORTEX (POLIWAG), INTERCEPT (YANMA), ROCKY (ONIX), EGG (CLEFFA), XFDW (MEOWTH), FRITTATA (TOGEPI), SHUCKIE (SHUCKLE), Blarney (SUDOWOODO).
-- Task: Confront the Sage at (11, 11) in Tin Tower 1F. [Start Turn 22012]
