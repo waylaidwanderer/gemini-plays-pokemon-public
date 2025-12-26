@@ -113,3 +113,7 @@
 - **Action:** Press B to clear message.
 - **Expectation:** Menu closes, turn ends, Muk attacks Gyarados.
 - **Next Turn:** Switch Muscle in. Use Dig.
+- **Turn 19237 (Opponent):** Muk used Minimize (Evasion +2).
+- **Turn 19238:** Muscle active (Poisoned).
+- **Action:** Select FIGHT (Up -> A).
+- **Plan:** Use Dig (Super Effective). Minimize makes hitting harder, but we must try.
