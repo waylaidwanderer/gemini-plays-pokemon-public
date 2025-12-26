@@ -103,3 +103,7 @@
 - **Input:** Up, Up, A.
 - **Reasoning:** Muscle (Lv65) is the only one who can stand up to Dragonite. Strength is neutral damage. Sneasel lacks Ice moves.
 - **Matchup:** Muscle vs Dragonite. Watch out for Thunder Wave/Hyper Beam.
+- **Turn 19376:** Cursor on Muscle.
+- **Action:** Press A (Open Menu) -> Press A (Select SHIFT).
+- **Context:** Switching Muscle in before Lance sends out Dragonite. Muscle will enter safely.
+- **Next:** Battle vs Dragonite begins. Muscle (109 HP) vs Dragonite.
