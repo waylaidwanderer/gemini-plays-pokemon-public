@@ -85,3 +85,11 @@
 - **Turn 19206:** Advancing Koga's dialogue ("I live in shadows...").
 - **Action:** Press B.
 - **Next:** Battle Start.
+- **Turn 19207:** Dialogue complete. Battle starting.
+- **Action:** Press A.
+- **Battle Plan:**
+  - **Ariados:** Strength (Muscle).
+  - **Venomoth:** Strength (Muscle).
+  - **Forretress:** Dig (Muscle) or switch to Gyarados/Quilava.
+  - **Muk:** Dig (Muscle).
+  - **Crobat:** Strength (Muscle).
