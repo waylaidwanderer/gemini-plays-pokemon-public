@@ -4,156 +4,36 @@
 - **Tertiary:** Train team.
 
 # Current Status
-- **Location:** Bruno's Room (Elite Four).
+- **Location:** Bruno's Room -> Karen's Room.
 - **Party:**
-  - Muscle (Lv63): 84/208 HP.
+  - Muscle (Lv64): 54/211 HP.
   - Gyarados (Lv35): 107/114 HP.
-  - Others: Healthy.
-- **Inventory:** 
-  - Healing: 0 Potions, 11 Revives, 1 Max Revive.
-  - Status: 3 Antidotes, 8 Full Heals, 3 Bitter Berries.
-- **Money:** ¥15689.
+  - Others: Healthy (unused).
+- **Inventory:**
+  - Healing: 0 Potions, 11 Revives, 1 Max Revive, 2 Berries.
+  - Status: 3 Antidotes, 8 Full Heals.
+- **Money:** ¥20389.
 
 # Exploration Log
-- **Victory Road:** Fully traversed.
-- **Elite Four:**
+- **Elite Four Progress:**
   - Will: Defeated.
   - Koga: Defeated.
+  - Bruno: Defeated.
+  - Next: Karen.
 
 # Plan
-1.  **Battle Bruno:**
-    - **Hitmontop:** Muscle (Strength).
-    - **Hitmonlee:** Muscle (Strength).
-    - **Hitmonchan:** Muscle (Strength).
-    - **Onix:** Switch to Gyarados -> Surf.
-    - **Machamp:** Muscle (Dig/Strength) or Gyarados (Surf).
-    - **Note:** Muscle HP is low. Be ready to switch to Gyarados or sacrifice fodder to Revive Muscle.
+1.  **Battle Karen:**
+    - **Note:** "Zombie Mode" active (0 Potions). Rely on Revives (restores 50% HP) if Muscle faints.
+    - **Umbreon:** Muscle (Cross Chop/Strength).
+    - **Vileplume:** Muscle (Strength) or Garnet (Ember). Watch for Powders.
+    - **Gengar:** Muscle (Dig). *Note: No Levitate in Gen 2, Ground hits Ghost/Poison.*
+    - **Murkrow:** Muscle (Strength). Weak Defense.
+    - **Houndoom:** Muscle (Cross Chop/Dig) or Gyarados (Surf).
+2.  **Champion Lance:**
+    - Ice moves needed (Gyarados has none, Muscle has none).
+    - Rely on Muscle (Strength/Cross Chop) and Gyarados (Surf/Thrash).
+    - Zenith (Dratini) has DragonBreath/Twister? No, Zenith is Lv15.
 
 # Battle Log
-- **Vs Koga:** Victory.
-- **Next:** Bruno.
-- **Turn 19262:** Using Antidote.
-- **Action:** A (Select Antidote) -> A (Select USE).
-- **Next:** Select Muscle to cure Poison.
-- **Turn 19263:** Cured Muscle's Poison.
-- **Action:** Press A (Select Muscle).
-- **Next:** Revive Gyarados.
-- **Sequence:** B (Clear text) -> B (Exit Party) -> Up/Down to Revive -> Use on Gyarados.
-- **Turn 19264:** Muscle is cured (34/208 HP).
-- **Action:** B (Exit selection).
-- **Next:** Find Revive.
-- **Search:** Scrolling Down x5.
-- **Reasoning:** Revive is likely further down the list. Inventory is manually sorted.
-- **Turn 19266:** Re-entering Pack.
-- **State:** Start Menu (Cursor on GEM).
-- **Action:** Up x2 (Select PACK) -> A (Enter).
-- **Next:** Find Revive (Scroll Down).
-- **Inventory Note:** Revive is ~12-15 items down.
-- **Turn 19268:** Selecting Revive.
-- **Correction:** Muscle is NOT poisoned (Antidote had no effect).
-- **Inventory:** 11 Revives, 2 Super Potions.
-- **Action:** Up x2 (Select Revive) -> A (Select) -> A (Use).
-- **Target:** Gyarados.
-- **Strategy:** Heal Muscle with Super Potions after reviving Gyarados. Rely on Revive spam for future battles ("Zombie Mode").
-- **Turn 19269:** Reviving Gyarados.
-- **Action:** Down x2 (Select Gyarados) -> A (Confirm).
-- **Next:** Confirm Revive message -> Use Super Potions on Muscle.
-- **Turn 19270:** Gyarados Revived.
-- **Action:** B (Clear text), B (Exit Party), Down (Select Super Potion).
-- **Goal:** Use Super Potions on Muscle.
-- **Status:** Muscle 34/208 HP. Gyarados 57/114 HP.
-- **Inventory:** 2 Super Potions left.
-- **Turn 19271:** Navigating to Super Potion.
-- **Action:** Up (Select Pack) -> A (Open) -> Down (Select Super Potion) -> A (Select) -> A (Use).
-- **Target:** Muscle (Slot 1).
-- **Goal:** Heal Muscle. Muscle needs ~174 HP. Super Potion gives +50.
-- **Inventory:** 2 Super Potions. Will use both.
-- **Turn 19272:** Using Super Potions on Muscle.
-- **Action:** A (Use 1st) -> B (Clear text) -> A (Use 2nd) -> B (Clear text).
-- **Result:** Muscle heals +100 HP (Total ~134/208).
-- **Inventory:** 0 Super Potions left.
-- **Next:** Advance to Bruno.
-- **Turn 19273:** Healing complete. No potions left.
-- **Strategy:** Zombie Mode activated. Rely on Revives to restore 50% HP if team members faint.
-- **Action:** B x3 (Exit Party -> Exit Bag -> Exit Menu).
-- **Next:** Advance North to Bruno.
-- **Bruno Matchups:**
-  - **Hitmontop:** Dig/Strength.
-  - **Hitmonlee:** Dig/Strength.
-  - **Hitmonchan:** Dig/Strength.
-  - **Onix:** Surf (Gyarados) or Dig/Cross Chop (Muscle).
-  - **Machamp:** Strength/Dig. Watch for Cross Chop.
-  - **Note:** Gyarados resists Fighting. Good pivot.
-- **Turn 19278:** Recovered from menu loop. Muscle at 84/208 HP.
-- **Status:** All Party Members Alive. No Potions left.
-- **Strategy:** Zombie Mode confirmed.
-- **Action:** Exiting menus and walking North to Bruno.
-- **Next:** Battle Bruno.
-- **Bruno Strategy:**
-  - **Hitmontop:** Muscle (Strength/Dig).
-  - **Hitmonchan:** Muscle (Strength/Dig).
-  - **Hitmonlee:** Muscle (Strength/Dig).
-  - **Onix:** Gyarados (Surf) or Muscle (Dig).
-  - **Machamp:** Muscle (Dig/Strength) or Gyarados (Surf/Strength).
-  - **Note:** Gyarados resists Fighting. Use him to pivot if Muscle is in trouble.
-- **Turn 19280:** Initiating battle with Bruno.
-- **Action:** Press A to talk.
-- **Condition:** Zombie Mode (0 Potions). Muscle 40% HP.
-- **Plan:** Lead Muscle. If he faints, switch to fodder (Mistral/Zenith) -> Revive Muscle (50% HP) -> Switch Muscle back in.
-- **Matchup 1:** Hitmontop. Use Strength.
-- **Turn 19281:** Battle with Bruno starting.
-- **Opponent:** Bruno.
-- **Lead:** Muscle (Lv 63, 84/208 HP).
-- **Expectation:** Hitmontop (Lv 42).
-- **Plan:** Use Strength. Muscle outlevels significantly.
-- **Note:** Fighting does not resist Fighting. Neutral damage.
-- **Turn 19283:** Hitmontop defeated (OHKO Critical Strength).
-- **Incoming:** Hitmonlee (Lv 42).
-- **Action:** Decline switch (Down -> A).
-- **Matchup:** Muscle (84/208 HP) vs Hitmonlee.
-- **Strategy:** Strength. Hitmonlee has very low Defense. Should be OHKO.
-- **Risk:** Hitmonlee is fast and hits hard. If Muscle is slower/doesn't OHKO, he takes damage. But level gap (63 vs 42) is huge.
-- **Turn 19284:** Hitmonlee sent out.
-- **Action:** Press B to advance text.
-- **Next:** Fight -> Strength.
-- **Matchup:** Muscle (84 HP) vs Hitmonlee. Muscle should outspeed and OHKO due to low Def.
-- **Turn 19286:** Hitmonlee defeated (OHKO Strength).
-- **Incoming:** Hitmonchan (Lv 42).
-- **Action:** Decline switch (Down -> A).
-- **Matchup:** Muscle (84/208 HP) vs Hitmonchan.
-- **Strategy:** Strength. Muscle resists Fighting. Hitmonchan's elemental punches use its low SpAtk. Muscle is safe.
-- **Goal:** Sweep Bruno with Muscle.
-- **Turn 19288:** Hitmonchan used Mach Punch (17 dmg). Muscle used Strength (Hitmonchan ~65% HP).
-- **Status:** Muscle 67/208 HP.
-- **Action:** Strength again.
-- **Reasoning:** Strength is best neutral damage. Mach Punch does low damage, so Muscle is safe for now.
-- **Next:** Onix or Machamp.
-- **Current Battle:** Muscle (51/208 HP) vs Machamp (~45% HP).
-- **Status:** Muscle is healthy (No Poison). Machamp missed Cross Chop.
-- **Action:** Strength.
-- **Strategy:** Finish Machamp. If Muscle faints, sacrifice fodder (Mistral/Zenith) to Revive.
-- **Bruno Matchups:**
-  - **Hitmontop:** Defeated.
-  - **Hitmonlee:** Defeated.
-  - **Hitmonchan:** Defeated.
-  - **Onix:** Defeated? (Wait, did we fight Onix? No, usually Onix is first or second? Bruno's order: Hitmontop, Hitmonlee, Hitmonchan, Onix, Machamp. Or maybe Onix was skipped? Or I missed it in the logs? Wait, I saw Hitmontop, Hitmonlee, Hitmonchan... Machamp is 5th? Let me check the order.)
-  - **Check:** I fought Hitmontop (Turn 19283), Hitmonlee (Turn 19286), Hitmonchan (Turn 19288).
-  - **Missing:** Onix. Did I miss Onix? Or is Machamp #4?
-  - **Gen 2 Bruno Order:** Hitmontop, Hitmonlee, Hitmonchan, Onix, Machamp.
-  - **Wait:** If Machamp is out, Onix must be next? Or I missed Onix.
-  - **Correction:** Machamp is usually the ace (last). Maybe Onix is next? Or maybe the order is different.
-  - **Anyway:** Focus on Machamp.
-- **Turn 19296:** Machamp defeated (4th Pokemon).
-- **Incoming:** Onix (Lv 43). This is Bruno's last Pokemon.
-- **Action:** Decline switch (Down -> A).
-- **Matchup:** Muscle (54/211 HP) vs Onix.
-- **Strategy:** Cross Chop.
-  - Onix Def is high, but Cross Chop is 2x Effective + STAB (300 Power).
-  - Dig is 2x but non-STAB (120 Power) -> likely 2HKO.
-  - Muscle survives any hit from Onix (Low Atk) except maybe Crit Earthquake.
-- **Goal:** Defeat Bruno.
-- **Turn 19297:** Declining switch.
-- **Matchup:** Muscle (54/211 HP) vs Onix.
-- **Action:** Down (Select NO) -> A.
-- **Next:** Onix enters. Select FIGHT -> Cross Chop.
-- **Reasoning:** Cross Chop is 2x effective (Fighting vs Rock/Ground) and STAB. Should OHKO.
+- **Vs Bruno:** Victory. Muscle swept.
+- **Strategy:** Muscle grew to Lv64. Cross Chop OHKO'd Onix.
