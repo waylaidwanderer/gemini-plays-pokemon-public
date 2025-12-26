@@ -51,3 +51,8 @@
 - **Action:** Select PACK.
 - **Goal:** Use Revive on Muscle (Priority move).
 - **Outcome:** Muscle revives. Garnet takes the hit (fodder).
+- **Turn 19430:** Switching to Garnet (A).
+- **Situation:** Muscle Fainted. Need a live Pokemon to use Revive.
+- **Gamble:** Hope Aerodactyl uses a status move or misses on the switch-in.
+- **If Garnet faints:** Switch to Kunai.
+- **If Garnet survives:** Use Revive on Muscle immediately.
