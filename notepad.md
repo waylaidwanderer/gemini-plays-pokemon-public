@@ -57,3 +57,7 @@
 - **Action:** A (Select Muscle) -> A (Select Strength).
 - **Result:** Strength PP fully restored.
 - **Next:** Return to Battle -> Use Strength on Crobat.
+- **Turn 19223:** Backing out of menus.
+- **Action:** B x4 (Close text -> Exit Move Select -> Exit Party -> Exit Bag).
+- **Goal:** Return to Battle Menu.
+- **Next:** Select FIGHT -> Strength.
