@@ -23,11 +23,12 @@
 
 # Repetitive Task: Suicune Island Sweep
 - Start Turn: 21556 (Current Turn: 21596)
-- Status: In progress. Testing "face the trees" hypothesis at (28, 15) and (28, 17).
+- Status: In progress. Testing "face the trees" hypothesis at (28, 17) [Failed] and (27, 17).
 - Trigger Insight: Walking toward/facing the three Apricorn trees at (27, 16), (28, 16), (29, 16) triggers Suicune flee.
 - Failed Hypotheses:
     1. Walking past trees at Y=15 (Turn 21579-21587).
     2. Walking past trees at Y=17 (Turn 21571).
+    3. Facing tree at (28, 16) from (28, 17) (Turn 21597).
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground. [Verified]
