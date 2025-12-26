@@ -35,4 +35,4 @@
 - Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
 
 # Tracking
-- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22981. Sweep in progress after map reset. Leading with XENON (Gastly) for Mean Look.
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22996. Sweep failed; switching to Mahogany Entrance strategy. Leading with XENON (Gastly) for Mean Look.
