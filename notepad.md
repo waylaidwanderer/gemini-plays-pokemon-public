@@ -53,3 +53,6 @@
 - **Plan:** Muscle (105/211 HP) enters. Gengar will move (Destiny Bond likely fails or ends). Next turn: Dig.
 - **Turn 19330:** Retry switching Muscle in using slow_press (A, A). Previous attempt likely failed due to input speed.
 - **Strategy:** Dig (Slot 2) once Muscle is in. Dig avoids Destiny Bond from faster Gengar.
+- **Turn 19335:** Declining switch. Muscle stays in vs Murkrow.
+- **Mistral Update:** Forgot Tackle, learned Quick Attack.
+- **Strategy:** Strength (Slot 1) vs Murkrow. Expecting OHKO.
