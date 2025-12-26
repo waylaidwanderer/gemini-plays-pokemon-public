@@ -1,7 +1,9 @@
 # Operation: Dark Days
 - **Status:** Indigo Plateau (Karen's Room).
-- **Current State:** Fighting Gengar (Lv45).
-- **Battle Plan:** Use Shadow Ball (Slot 1).
+- **Current State:** Fighting Murkrow (Lv44). Muscle Active (Paralyzed).
+- **Battle Plan:** Use Ice Punch (Slot 3). Super Effective.
+- **Matchup:** Muscle (Lv68) vs Murkrow (Dark/Flying).
+- **Team:** Kunai Fainted. Muscle Paralyzed.
 - **Opponent:** Karen (Dark Type).
 - **Strategy:** Muscle for Umbreon/Houndoom/Murkrow. Sneasel/Gyarados for Gengar.
 
