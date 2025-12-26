@@ -16,10 +16,10 @@
 - Sighting 1: Burned Tower (Complete)
 - Sighting 2: Cianwood City (Complete)
 - Sighting 3: Route 42 (In Progress)
-    - Trigger Location: Central island grove.
-    - Specific Tile: Adjacency to (26, 13) (Headbutt Tree).
-    - Status: Map Reset performed at Turn 22903. Tested Headbutt interaction at (26, 13).
-- Outcome: Triggered wild Spearow encounter. Not the Suicune trigger. Continuing systematic sweep.
+    - Strategy: Systematic sweep of central island floor tiles after map reset (Turn 22903).
+    - Failed Hypotheses:
+        - Adjacency to (26, 13) (Headbutt Tree) did not trigger.
+        - Interaction (Headbutt) with (26, 13) did not trigger (Outcome: Spearow).
 - Sighting 4: Route 36 (Sudowoodo junction)
 - Sighting 5: Tin Tower 1F (Final)
 
@@ -27,3 +27,9 @@
 - Status: Leading with XENON (Gastly).
 - Plan: Use Mean Look to prevent escape (if wild encounter). For scripted encounter at Tin Tower, focus on status (Hypnosis/Sleep Powder) and chip damage. Avoid KO.
 - Team: GNEISS (Graveler) for bulk, Calcifer (Typhlosion) for Thunderpunch, KIMCHI (Gloom) for Sleep Powder.
+
+# PC Storage Inventory
+- Box 1: RICOTTA, CINNABAR, VORTEX, INTERCEPT, ROCKY, EGG, XFDW, FRITTATA, SHUCKIE, Blarney.
+
+# Tracking
+- Suicune Hunt Phase 3 (Route 42) started Turn 22256. Currently Turn 22972. Sweep in progress.
