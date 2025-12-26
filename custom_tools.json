@@ -197,12 +197,17 @@
         }
       }
     },
-    "python_script": "import json\n\ndef run(target, screen_text):\n    lines = screen_text.split('\\n')\n    cur_idx = -1\n    tar_idx = -1\n    for i, line in enumerate(lines):\n        if '\\u25b6' in line: cur_idx = i\n        if target.upper() in line.upper(): tar_idx = i\n    \n    if tar_idx != -1 and cur_idx != -1:\n        diff = tar_idx - cur_idx\n        buttons = (['Down'] * diff) if diff > 0 else (['Up'] * abs(diff))\n        buttons.append('A')\n        print(json.dumps(buttons))\n    else:\n        # Item not found on screen, scroll down\n        print(json.dumps(['Down'] * 5))\n",
+    "python_script": "import json\ntarget = input_data.get('target', '').upper()\nscreen_text = input_data.get('screen_text', '')\nlines = screen_text.split('\\n')\ncur_idx = -1\ntar_idx = -1\nfor i, line in enumerate(lines):\n    if '▶' in line or '\\u25b6' in line:\n        cur_idx = i\n    if target in line.upper():\n        tar_idx = i\n\nif tar_idx != -1 and cur_idx != -1:\n    diff = tar_idx - cur_idx\n    buttons = (['Down'] * diff) if diff > 0 else (['Up'] * abs(diff))\n    buttons.append('A')\n    print(json.dumps(buttons))\nelse:\n    print(json.dumps(['Down'] * 3))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-26T01:13:57.134Z",
         "action_counter": 21093
+      },
+      {
+        "commit_message": "Fixed script to correctly access input_data and handle missing items by scrolling.",
+        "timestamp": "2025-12-26T01:14:52.915Z",
+        "action_counter": 21095
       }
     ]
   }
