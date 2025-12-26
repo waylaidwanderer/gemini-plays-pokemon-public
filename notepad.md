@@ -64,3 +64,7 @@
 - **Incoming:** Houndoom (Lv47).
 - **Decision:** Stay in. Muscle (87/211 HP).
 - **Strategy:** Cross Chop (1 PP left). It's Super Effective. If it hits, OHKO. If miss/faint -> Zombie Plan. Gyarados (Lv35) is too low level to tank hits.
+- **Turn 19338 Result:** Declined switch.
+- **Matchup:** Muscle (87/211 HP) vs Houndoom (Lv47).
+- **Strategy:** Use last Cross Chop PP. Super Effective STAB. Should OHKO.
+- **Backup:** If miss/faint, use Zombie Plan (Revive). Dig is also Super Effective.
