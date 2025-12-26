@@ -51,3 +51,4 @@
 - **Correction:** The North area of 2F is NOT blocked by ledges everywhere. There is a gap in the ledges at x=12-14 (Row 35).
 - **Strategy:** Navigate South-East to bypass the wall at (17, 38), loop back West to x=13, then head NORTH through the gap at (13, 35) to reach the ladder at (17, 33).
 - **Hypothesis:** The ladder at (17, 33) leads to the Exit or 3F.
+- **Encounter:** Wild Graveler at (17, 37).
