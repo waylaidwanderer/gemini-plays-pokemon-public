@@ -72,3 +72,8 @@
 - **Target:** Muscle (Slot 1).
 - **Goal:** Heal Muscle. Muscle needs ~174 HP. Super Potion gives +50.
 - **Inventory:** 2 Super Potions. Will use both.
+- **Turn 19272:** Using Super Potions on Muscle.
+- **Action:** A (Use 1st) -> B (Clear text) -> A (Use 2nd) -> B (Clear text).
+- **Result:** Muscle heals +100 HP (Total ~134/208).
+- **Inventory:** 0 Super Potions left.
+- **Next:** Advance to Bruno.
