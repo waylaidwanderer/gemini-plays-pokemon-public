@@ -181,3 +181,10 @@
 - **Next:** Xatu attacks.
 - **Status:** Muscle Full HP (Confused).
 - **Goal:** Survive attack -> Attack with Strength next turn.
+- **Turn 19157:** Xatu used Psychic (205 -> 125 HP). Damage: 80.
+- **Status:** Muscle 125/205 (Confused). Xatu 100% HP.
+- **Action:** Manual Input: Up (FIGHT) -> A -> A (STRENGTH).
+- **Risk Assessment:**
+  - If self-hit: 125 - ~30 = 95. Xatu hits for ~80. Survives with ~15 HP.
+  - If successful: Xatu takes ~50-60% damage.
+- **Decision:** Must attack. Cannot stall forever.
