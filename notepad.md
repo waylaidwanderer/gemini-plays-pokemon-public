@@ -81,3 +81,9 @@
   - Ground: 1x (Neutral).
   - Normal: 0.5x (Resisted).
 - **Plan:** Use Cross Chop or Dig. Muscle is best bet despite high enemy Def.
+- **Turn 19228 Analysis:** Forretress used Protect. Muscle used Rock Smash (Input error: assumed cursor reset to 1, but was at 4. 4->Down x3->3 Rock Smash).
+- **Correction:** Cursor is now on Slot 3 (Rock Smash).
+- **Turn 19229:** Muscle (29/208 HP, Toxic) vs Forretress (Full HP).
+- **Strategy:** Use Cross Chop (Slot 4). Strongest neutral move.
+- **Action:** Smart Move (Current: 3, Target: 4).
+- **Risk:** Miss (80% acc) or survival. Muscle likely faints after this turn due to Poison.
