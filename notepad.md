@@ -88,3 +88,9 @@
 - **Turn 19372:** Lance's Gyarados recharging. Free turn.
 - **Action:** Use Thrash (Slot 1).
 - **Expectation:** Significant damage. Gyarados locked into Thrash.
+- **Turn 19373:** Recharge turn consumed by switch.
+- **Current State:** Fresh turn. Lance's Gyarados is active.
+- **Action:** Fight -> Thrash.
+- **Expectation:** Lance outspeeds and KOs my Gyarados (24 HP).
+- **Result:** Free switch to Muscle (105 HP).
+- **If I survive:** Bonus damage.
