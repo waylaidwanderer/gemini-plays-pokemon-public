@@ -26,3 +26,5 @@
 - **Next:** Opponent's turn (Xatu will attack). Then Muscle attacks with Strength.
 - **Turn 19095:** Full Restore healed Muscle to max, but Xatu used Psychic (Crit or High Roll? ~80 dmg). Muscle HP 120/201.
 - **Next:** Muscle outspeeds. Strength to finish Xatu.
+- **Turn 19096:** Selected Fight -> Strength (Manual input due to cursor memory on PACK). Finishing Xatu.
+- **Anticipation:** Will sends Jynx or Exeggutor next. Muscle stays in.
