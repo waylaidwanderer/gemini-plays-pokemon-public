@@ -39,8 +39,9 @@
   6. Tin Tower 1F (Final Battle): Requires Clear Bell.
 
 # Strategy for Suicune on Route 42
-- Investigation Points: The central island with three Apricorn trees. Use Suicune Tracker agent for exact trigger coordinates.
-- Action: Fly to Mahogany Town, enter Route 42 from the east, Surf to the island.
+- Trigger Tile: (26, 14) on the central island.
+- Script Reset: Enter and exit Mt. Mortar (middle entrance at 28, 9) to refresh the map script if Suicune is not visible.
+- Action: Fly to Mahogany Town, travel West to Route 42, Surf to the island. Step directly on (26, 14).
 
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
