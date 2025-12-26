@@ -188,3 +188,8 @@
   - If self-hit: 125 - ~30 = 95. Xatu hits for ~80. Survives with ~15 HP.
   - If successful: Xatu takes ~50-60% damage.
 - **Decision:** Must attack. Cannot stall forever.
+- **Turn 19158:** Selected Strength.
+- **Status:** Muscle 125/205 (Confused). Xatu 100% HP.
+- **Risk:** Confusion self-hit.
+- **Outcome Prediction:** If successful, Xatu takes ~50%. If self-hit, Muscle drops to ~95, then Xatu attacks (Psychic -> ~15 HP).
+- **Next:** If Xatu survives, repeat attack. If Muscle critical HP, heal again.
