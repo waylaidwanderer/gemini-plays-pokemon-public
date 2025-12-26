@@ -106,3 +106,7 @@
 - **Plan:** Use Hyper Potion (Priority). Muscle (24 HP) will heal to full.
 - **Math:** Muscle (205 HP) vs Xatu Psychic (~80 dmg). Muscle survives.
 - **Next:** Strength to KO.
+- **Turn 19139:** Advancing text (Xatu entry).
+- **Next:** Menu opens. Use Hyper Potion on Muscle immediately.
+- **Battle:** Muscle (24/205) vs Xatu.
+- **Notes:** Muscle speed (88) vs Xatu (Est ~85). Close call. Healing ensures survival.
