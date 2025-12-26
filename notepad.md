@@ -35,7 +35,7 @@
 - **Battle:** Defeated Psychic Gilbert (Youngster) on Route 27 bridge. (Turn 18694)
 - **Status:** Team weak. Need healing.
 - **Status:** Kunai fainted. Switching to Gyarados. (Turn 18706)
-- **Battle:** Defeated Psychic Richard (Espeon Lv36). (Turn 18767)
-- **Status:** Team Healed! Full strength.
-- **Location:** Route 26 (15, 58) - Outside Rest House.
-- **Next:** Harvest Fruit Tree (14, 54). Navigate North to Victory Road.
+- **Battle:** Encountered Cooltrainer F (Route 26) at (12, 56).
+- **Status:** In dialogue. Gyarados leading.
+- **Location:** Route 26 (13, 56).
+- **Next:** Defeat trainer. Harvest Fruit Tree at (14, 54). Navigate North.
