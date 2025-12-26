@@ -88,3 +88,9 @@
 - Current Suicune Location (Pokedex Area): 
     - Turn 23357: East (Route 44/45).
     - Turn 23362: To be checked.
+
+# Suicune Hunt Update - Turn 23377
+- Agent `suicune_tracker_v3_troubleshooter` confirms Route 42 sighting is likely skipped/superseded by the Radio Tower liberation.
+- Pokedex "checkerboard" pattern confirms Suicune is roaming.
+- Next Trigger: Route 36 junction at (35, 9) (where Sudowoodo was).
+- Plan: Warp to Ecruteak, head south through Route 37 to Route 36.
