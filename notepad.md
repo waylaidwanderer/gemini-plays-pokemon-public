@@ -98,3 +98,9 @@
 - **My Pokemon:** Muscle (Lv 62).
 - **Action:** Use Strength (Slot 1).
 - **Reasoning:** Fighting moves are 1/4x effective against Bug/Poison. Strength is neutral and strong.
+- **Turn 19209:** Ariados defeated (OHKO with Strength).
+- **Next:** Awaiting Koga's next Pokemon.
+- **Plan:**
+  - If Venomoth/Crobat: Stay in, use Strength.
+  - If Muk: Stay in, use Dig.
+  - If Forretress: Consider switching or use Dig.
