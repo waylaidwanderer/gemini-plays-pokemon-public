@@ -5,10 +5,10 @@
 - **Immediate:** Navigate Route 26 North.
 
 # Current Status (Turn 18801)
-- **Battle:** Cooltrainer Jake defeated.
-- **Event:** Rejected Submission. Muscle did not learn it.
+- **Battle:** Defeated Cooltrainer Jake (Parasect, Golduck).
+- **Status:** Muscle Lv61 (165/201).
 - **Location:** Route 26 (12, 24).
-- **Next:** Handle post-battle dialogue. Continue North.
+- **Next:** Navigate North to Victory Road.
 
 # Plan
 1. **Navigate:** Continue North on Route 26.
