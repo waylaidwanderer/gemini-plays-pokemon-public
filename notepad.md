@@ -34,3 +34,4 @@
 - **Exploration:** Retrieved Full Heal at (15, 48). Retrieving item at (12, 48). Path north likely at x=10.
 - **Strategy:** Retrieve item, then head West to (10, 50) to continue North.
 - **Encounter:** Fled from Golbat at (11, 54).
+- **Encounter:** Wild Golbat at (12, 49) interrupted path to item.
