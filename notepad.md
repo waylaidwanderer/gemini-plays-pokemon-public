@@ -15,6 +15,9 @@
 - Sighting 3 (Route 42): Proximity trigger on central island (X:22-30, Y:12-17).
 - Sighting 4: Route 36 (Sudowoodo junction).
 - Sighting 5: Tin Tower 1F (Final).
+- Pivot Plan: If Route 42 sweep fails, verify prerequisites:
+    - Ecruteak City: Check Wise Trio (Tin Tower Gatehouse).
+    - Cianwood City: Re-verify Eusine dialogue post-Suicune sighting.
 
 # Battle Strategy: Suicune
 - Status: Leading with XENON (Gastly).
@@ -43,3 +46,4 @@
 - Suicune Hunt Phase 3 (Route 42) started Turn 22256.
 - Failed Trigger Attempts at: (26, 13), (27, 14), (26, 14), (25, 14), (24, 14).
 - Resets attempted: Ecruteak Gate, Mt. Mortar Entrance, Mahogany Gate.
+- Island Sweep Progress: (24, 14), (25, 14), (26, 14), (26, 15), (26, 16), (26, 17), (27, 17) checked. Currently at (28, 17).
