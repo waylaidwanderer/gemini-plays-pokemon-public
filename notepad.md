@@ -28,6 +28,6 @@
 - **Strategy:** Returning to Ladder at (1, 49) to ascend to 2F West.
 - **Encounter:** Wild Onix at (15, 56). Fled successfully.
 - **Strategy:** Resuming navigation to Ladder at (1, 49) to ascend to 2F West.
-- **Analysis:** 1F East Corridor (x=18) and Center (x=7) are dead ends. 2F West Loop (x=1-9) contained an HP Up.
-- **Correction:** I missed exploring the large Eastern section of 2F (x>10) while focusing on the HP Up item.
-- **Strategy:** Re-ascend ladder at (1, 49) to 2F. Navigate East from (1, 35) to x=10+, then explore the Southeast area of 2F.
+- **Analysis:** 2F West (current location) is isolated by walls at x=2.
+- **Hypothesis:** The path to 2F East is via a different ladder in the 1F East Corridor (x=18), specifically North of y=51 which I previously bypassed.
+- **Strategy:** Descend ladder at (1, 35) to return to 1F. Navigate to x=18 corridor and explore North.
