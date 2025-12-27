@@ -4,9 +4,9 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): Relocated to Tin Tower 1F (Clear Bell + Tower Shook event).
-4. Route 36 (Sudowoodo Junction): Relocated to Tin Tower 1F (Clear Bell + Tower Shook event).
-5. Tin Tower 1F: Static encounter (Current Goal).
+3. Route 42 (Central Island): [MISSING] Re-evaluating based on tracker 26064.
+4. Route 36 (Sudowoodo Junction): [MISSING] Mandatory after Route 42.
+5. Tin Tower 1F: Static encounter (Enabled after sighting #4).
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -20,10 +20,10 @@
 - CAVE: Entrance/Exit warp.
 
 ## Strategy
-- Current: Navigate to Tin Tower 1F.
-- Method: Enter Tin Tower via the Gatehouse in the northeast of Ecruteak City.
-- Goal: Battle/Catch Suicune at Tin Tower 1F. Static encounter enabled by Clear Bell and "Tower Shook" event.
-- Prep: Use Sleep Powder (Kimchi) or Hypnosis (Xenon). Carry Great Balls (43).
+- Current: Return to Route 42 island.
+- Method: Fly to Mahogany Town and enter Route 42 from the east. Approach the island (24, 13) to trigger Suicune sighting #3.
+- Goal: Complete all 4 overworld sightings. Tracker (26064) confirms sightings are mandatory despite Clear Bell.
+- Next: Route 36 sighting after Route 42 is confirmed.
 
 ## Time Tracking
 - Tin Tower Mission Start: Turn 26041.
