@@ -47,7 +47,7 @@
 - **Route 9 Navigation:**
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
   - **Issue:** Access to Upper Path is tricky.
-  - **Verified Path:**
+  - **Planned Path:**
     1. From (27, 12), go East to (33, 12).
     2. Go South down the alley (Col 33) to (33, 16).
     3. Go East through the gap to (34, 16).
