@@ -11,15 +11,15 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Route 42 sighting failed (Turn 25425).
+3. Route 42 (Central Island): Failed (Turn 25425). Likely missed specific trigger tile. [Current Target]
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Final Encounter.
+5. Tin Tower 1F: Checked (Turn 25477). Suicune not present.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. (Failed)
+- Hypothesis 1: Route 42 sighting is next. (Failed once - likely missed tile)
 - Hypothesis 2: Route 36 sighting is next.
 - Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed)
-- Hypothesis 4: Suicune is already at Tin Tower 1F.
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (Failed)
 
 ## Tile Mechanics
 - FLOOR: Traversable.
