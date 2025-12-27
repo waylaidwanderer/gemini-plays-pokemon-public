@@ -46,10 +46,12 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** At (28, 12). Executing Step 3: Heading North up Column 28.
+  - **Status:** Reached Upper Tier via Column 28. Currently at (28, 8).
+  - **Path:** Wall at (30, 8) blocks direct East movement.
   - **Plan:**
-    3. Go North up Column 28 to Row 8.
-    4. Explore East from (28, 8).
+    1. Go North to Row 7.
+    2. Go East along Row 7 to x=31.
+    3. Look for a way further East or South-East to the Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
