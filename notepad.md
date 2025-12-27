@@ -127,3 +127,6 @@
 - If successful, head East on Row 17 to the river.
 - Jumped ledge at (35, 16).
 - Heading East on Row 17 to water's edge at (56, 17).
+- Failed to jump ledge at (41, 16).
+- Moving to (38, 15) to retry ledge jump at (38, 16).
+- If Row 16 is impassable, will check if (42, 15) is a Cut tree.
