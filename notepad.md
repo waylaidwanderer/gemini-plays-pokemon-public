@@ -1,7 +1,7 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Clear Wade's phone call, then interact with the tree at (33, 24) to Cut it.
+- **Immediate Task:** Walk through the path opened by the cut tree at (33, 24).
 
 # Strategic Goals
 1. **Restore Power:**
