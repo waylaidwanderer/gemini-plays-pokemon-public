@@ -23,21 +23,15 @@
 - CAVE: Entrance/Exit warp.
 - DOOR: Interactive warp tile.
 
-## Time Tracking
-- Current Attempt Start: Turn 26101.
+## Diagnostic Result Log
+- Route 42 Island (Turn 26164): Southern/Northern clearings empty.
+- Route 36 (Turn 26177): Sudowoodo spot empty.
+- Ecruteak PC (Turn 26204): Eusine NOT present.
+- Tin Tower Gatehouse Sages: Mentioned "tower shook" (Turn 26110).
 
-## Lessons Learned
-- Suicune overworld events are strictly linear.
-- NPC dialogue hints (e.g., "tower shook") indicate quest progression but do not always skip steps.
-- Check all adjacent tiles when blocked by an NPC.
-- Do not mix directional and action buttons in a single press_buttons call.
-- Tile 'type' in XML is the source of truth for collision (e.g., visual carpets are type FLOOR).
-- If overworld sightings fail to trigger, check intermediate NPC flags (Eusine/Sages).
-
-## Milestones
-- Turn 26110: Triggered "Tin Tower Shake" event by entering the gatehouse with the Clear Bell.
-- Route 36 Sudowoodo Spot (Turn 26177): Suicune NOT found.
-## Suicune Quest Diagnostic Log (Updated)
-- Ecruteak PC Check (Turn 26204): Eusine NOT present.
-- Current Hypothesis: Missing dialogue with Wise Trio in the restricted room.
-- Goal: Talk to all three members of the Wise Trio.
+## Hypothesis: Wise Trio Flags
+- Goal: Talk to all three members of the Wise Trio to unlock Route 42 trigger.
+- Locations:
+  1. Sage at (7, 10) in Gatehouse.
+  2. Gramps at (2, 12) in Gatehouse.
+  3. Third member (location unknown, likely restricted area or Wise Trio Room).
