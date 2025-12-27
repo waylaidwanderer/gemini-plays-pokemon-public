@@ -1,21 +1,21 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
 - Quest Start: Turn 24182.
+- Session Start: Turn 26246.
 
 ## Current Strategy
 - Plan:
-  1. Return to Route 42 (Central Island).
-  2. Manually walk to (26, 15) to trigger the Suicune sighting.
-  3. If Suicune appears, follow it to Route 36.
-  4. If Suicune is missing, check Route 36 junction (35, 9) just in case.
-  5. If both are missing, re-verify all Wise Trio dialogues.
+  1. Navigate to (26, 15) on Route 42 island.
+  2. If Suicune appears, follow it to Route 36 junction (35, 9).
+  3. If Suicune is missing, check Route 36 junction just in case.
+  4. If both are missing, re-verify all Wise Trio dialogues.
+- Attempt 2 (Route 42): Turn 26311.
 
 ## Suicune Quest Diagnostic Log
 - Burned Tower: Flee event completed.
 - Cianwood City (North): Flee event completed. Eusine defeated.
-- Route 42: Attempted sighting at Turn 26277 (Failed).
 - Ecruteak PC: Eusine missing (Turn 26293). Agent suggests he appears AFTER Route 42/36.
-- Current Status: Returning to Route 42 for a manual approach. [START TURN: 26303]
+- Status: Approaching Route 42 island clearing.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
@@ -32,8 +32,7 @@
 
 ## Tile Traversal and Movement Rules
 - Standard Movement: Up, Down, Left, Right moves one tile.
-- Ledges: Can jump over FLOOR_UP_WALL from South to North? NO, ledges are usually North to South. (Verification needed).
-- One-Way Paths: Verified ledges are one-way.
+- Ledges: Verified ledges are one-way (North to South).
 - Surf: Required to enter WATER tiles. Interaction from adjacent tile.
 - Cut: Required to remove CUT_TREE. Interaction from adjacent tile.
 
