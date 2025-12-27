@@ -53,5 +53,4 @@
 - **Observation:** Found a gap in the ledges at x=6 (Row 19).
 - **Strategy:** Heading North through (6, 19) to reach Route 24.
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
-- **Observation:** The bridge is currently empty (no trainers visible yet). This aligns with the "Power Plant quest not started" state.
-- **Immediate Task:** Challenge the Lass at (16, 10).
+- **Immediate Task:** Defeat Schoolboy Joe (No. 3) on Route 25.
