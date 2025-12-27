@@ -74,69 +74,6 @@
       }
     ]
   },
-  "find_path_v4": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Specifically handles landing from water onto floor tiles.",
-    "input_schema": {
-      "properties": {
-        "can_surf": {
-          "default": false,
-          "type": "boolean"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "nullable": true,
-          "type": "integer"
-        },
-        "start_y": {
-          "nullable": true,
-          "type": "integer"
-        }
-      },
-      "required": [
-        "end_x",
-        "end_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is not None:\n        start_x = int(player_tile.get('id'))\n        for row in root.findall('Row'):\n            if player_tile in row.findall('Tile'):\n                start_y = int(row.get('id'))\n                break\n    else:\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        if start_x is None or start_y is None:\n            print(json.dumps({\"error\": \"Player position not found\"}))\n            return\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            tiles[(x, y)] = tile\n\n    passable_types = ['FLOOR', 'GRASS', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'STAIRS', 'FLOOR_UP_WALL', 'DOOR', 'CAVE', 'WARP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'LADDER']\n\n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if (nx, ny) in tiles and (nx, ny) not in visited:\n                tile = tiles[(nx, ny)]\n                t_type = tile.get('type')\n                is_warp = tile.get('is-warp') == 'true'\n                has_obj = tile.find('Object') is not None\n                \n                passable = False\n                if t_type in passable_types:\n                    passable = not has_obj\n                elif t_type == 'WATER' and can_surf:\n                    passable = not has_obj\n                \n                curr_tile = tiles.get((curr_x, curr_y))\n                if curr_tile is not None and curr_tile.get('type') == 'WATER' and t_type in passable_types:\n                    passable = not has_obj\n\n                if is_warp and (nx != end_x or ny != end_y):\n                    passable = False\n                \n                if passable:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps({\"error\": \"Path not found\"}))\n\nfind_path()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T11:19:09.748Z",
-        "action_counter": 25621
-      },
-      {
-        "commit_message": "Fix parent traversal error and simplify player position detection.",
-        "timestamp": "2025-12-27T11:22:42.826Z",
-        "action_counter": 25624
-      },
-      {
-        "commit_message": "Fix parent traversal error, simplify player position detection, and add robust error handling.",
-        "timestamp": "2025-12-27T11:23:40.857Z",
-        "action_counter": 25625
-      },
-      {
-        "commit_message": "Fix output format to use json.dumps for proper JSON array compatibility with autopress_buttons.",
-        "timestamp": "2025-12-27T11:32:10.711Z",
-        "action_counter": 25643
-      },
-      {
-        "commit_message": "Expand passable_types to include DOOR and various WARP_CARPET types to fix navigation to building entrances.",
-        "timestamp": "2025-12-27T11:49:56.943Z",
-        "action_counter": 25684
-      },
-      {
-        "commit_message": "Add LADDER to passable_types in find_path_v4.",
-        "timestamp": "2025-12-27T11:58:14.551Z",
-        "action_counter": 25707
-      }
-    ]
-  },
   "get_exploration_targets": {
     "description": "Analyzes the current map XML and identifies unseen tiles that are adjacent to known walkable tiles, helping prioritize exploration.",
     "input_schema": {},
@@ -149,8 +86,8 @@
       }
     ]
   },
-  "find_path_v4_refined": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Handles landing from water and cutting trees.",
+  "find_path_v5": {
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Handles landing from water and cutting trees. Uses global map_xml_string and input_data.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -182,12 +119,12 @@
         "end_y"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef solve():\n    try:\n        input_data = json.load(sys.stdin)\n        map_xml = input_data.get('map_xml_string', '')\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        end_x = int(input_data.get('end_x'))\n        end_y = int(input_data.get('end_y'))\n        can_surf = input_data.get('can_surf', False)\n        can_cut = input_data.get('can_cut', False)\n        \n        if not map_xml:\n            print(json.dumps({\"error\": \"Map XML is empty\"}))\n            return\n\n        root = ET.fromstring(map_xml)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        if start_x is None or start_y is None:\n            player = root.find(\".//Player/..\")\n            if player is not None:\n                start_x = int(player.attrib['id'])\n                start_y = int(player.find(\"..\").attrib['id'])\n            else:\n                print(json.dumps({\"error\": \"Start position not found\"}))\n                return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                has_obj = tile.attrib.get('has-object') == 'true'\n                \n                passable = True\n                if t_type in ['WALL', 'unseen', 'HEADBUTT_TREE']:\n                    passable = False\n                elif t_type == 'WATER' and not can_surf:\n                    passable = False\n                elif t_type == 'CUT_TREE' and not can_cut:\n                    passable = False\n                elif has_obj:\n                    passable = False\n                \n                if is_warp and (x != end_x or y != end_y):\n                    passable = False\n                \n                if x == end_x and y == end_y:\n                    passable = True\n                \n                grid[(x, y)] = passable\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            curr_x, curr_y, path = queue.popleft()\n            if curr_x == end_x and curr_y == end_y:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = curr_x + dx, curr_y + dy\n                if 0 <= nx < width and 0 <= ny < height and grid.get((nx, ny)) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        \n        print(json.dumps({\"error\": \"Path not found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        # map_xml_string and input_data are global\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        end_x = int(input_data.get('end_x'))\n        end_y = int(input_data.get('end_y'))\n        can_surf = input_data.get('can_surf', False)\n        can_cut = input_data.get('can_cut', False)\n        \n        if not map_xml_string:\n            print(json.dumps({\"error\": \"Map XML is empty\"}))\n            return\n\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        if start_x is None or start_y is None:\n            player = root.find(\".//Player/..\")\n            if player is not None:\n                start_x = int(player.attrib['id'])\n                start_y = int(player.find(\"..\").attrib['id'])\n            else:\n                print(json.dumps({\"error\": \"Start position not found\"}))\n                return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                has_obj = tile.attrib.get('has-object') == 'true'\n                \n                passable = True\n                if t_type in ['WALL', 'unseen', 'HEADBUTT_TREE']:\n                    passable = False\n                elif t_type == 'WATER' and not can_surf:\n                    passable = False\n                elif t_type == 'CUT_TREE' and not can_cut:\n                    passable = False\n                elif has_obj:\n                    passable = False\n                \n                # Treat warps as walls unless they are the destination\n                if is_warp and (x != end_x or y != end_y):\n                    passable = False\n                \n                # Destination is always passable\n                if x == end_x and y == end_y:\n                    passable = True\n                \n                grid[(x, y)] = passable\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            curr_x, curr_y, path = queue.popleft()\n            if curr_x == end_x and curr_y == end_y:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = curr_x + dx, curr_y + dy\n                if 0 <= nx < width and 0 <= ny < height and grid.get((nx, ny)) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        \n        print(json.dumps({\"error\": \"Path not found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-27T17:51:55.049Z",
-        "action_counter": 26431
+        "timestamp": "2025-12-27T18:00:32.003Z",
+        "action_counter": 26449
       }
     ]
   }
