@@ -5,21 +5,20 @@
 
 ## Current Strategy
 - Plan:
-  1. Navigate to Tin Tower Gatehouse (18, 11).
-  2. Talk to Sages to verify "Tower Shook" event status.
-  3. Enter Wise Trio Room (Map 4_2 via (20, 2)) and check for the Trio battle triggers.
-  4. If Trio is absent, re-consult Suicune tracker with new data.
-  5. If still stuck, attempt to reach Blackthorn City for the 8th badge.
+  1. Trigger Route 42 sighting at (26, 15).
+  2. Trigger Route 36 sighting at (35, 9).
+  3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
+  4. Battle Wise Trio to gain access to Tin Tower roof.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed (Suicune fled).
-- 3. Eusine Battle (Cianwood): Marker at (11, 20) says defeated. Sightings #4 and #5 FAILED.
-- 4. Route 42 sighting: FAILED (Reached clearing at (26, 15) on Turn 26434, no trigger).
-- 5. Route 36 sighting: FAILED (Reached junction at (35, 9) on Turn 26450, no trigger).
+- 3. Eusine Battle (Cianwood): Marker at (11, 20) says defeated.
+- 4. Route 42 sighting: Required trigger at (26, 15). Previous attempt at Turn 26434 failed, possibly due to sequence flags (Radio Tower must be cleared first).
+- 5. Route 36 sighting: Required trigger at (35, 9).
 - 6. Burned Tower Basement: Checked at Turn 26482 (Empty, confirm flee).
-- 7. Ecruteak PC (Eusine): MISSING (Checked Turn 26404).
-- 8. Dance Theater (Eusine): MISSING (Checked Turn 26415).
+- 7. Ecruteak PC (Eusine): Checked Turn 26404.
+- 8. Dance Theater (Eusine): Checked Turn 26415.
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
