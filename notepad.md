@@ -1,6 +1,5 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
-- Status: Searching for Suicune sighting #3 or #4.
 
 ## Sighting Progress
 1. Burned Tower: Verified.
@@ -21,18 +20,16 @@
 - CAVE: Entrance/Exit warp.
 
 ## Strategy
-- Current: Fly to Ecruteak City.
-- Method: Enter Tin Tower via the Gatehouse in the northeast of the city.
+- Current: Navigate to Tin Tower 1F.
+- Method: Enter Tin Tower via the Gatehouse in the northeast of Ecruteak City.
 - Goal: Battle/Catch Suicune at Tin Tower 1F. Static encounter enabled by Clear Bell and "Tower Shook" event.
-- Prep: Use Mean Look (Xenon) if needed, but Suicune is a static encounter here. Carry Great Balls (43).
+- Prep: Use Sleep Powder (Kimchi) or Hypnosis (Xenon). Carry Great Balls (43).
 
-## Timestamps
+## Time Tracking
+- Tin Tower Mission Start: Turn 26041.
 - Suicune Quest Start: Turn 24182.
-- Route 42 Island Search Start: Turn 26011.
 
 ## Lessons Learned
 - Suicune overworld events are strictly linear. Check the current location's trigger before moving to the next.
 - If a path is blocked by an NPC, check all adjacent tiles for a detour.
-- Do not mix directional and action buttons in a single press_buttons call.
-- Fly map navigation requires precise city selection.
-- The Route 42 island flee event is mandatory before Route 36 or Tin Tower.
+- **CRITICAL:** Pay immediate attention to NPC dialogue hints (e.g., "tower shook") to avoid wasting time on obsolete overworld sightings.
