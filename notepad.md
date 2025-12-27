@@ -1,10 +1,13 @@
 # Strategy for Suicune Encounter (Crystal)
 1. Prerequisites: Clear Bell and Fog Badge (Obtained).
-2. Trigger Hypothesis: Speaking to the three Sages in Tin Tower 1F while holding the Clear Bell will trigger the Suicune encounter, even if sightings on Route 42 and 36 were skipped. (Source: objective_analyst).
-3. Verification Steps:
-   - Sage at (11, 11): [Done] Lore: Ho-Oh resurrected Suicune, Entei, and Raikou after the Brass Tower fire.
-   - Sage at (5, 9): [Done] Lore: A rainbow-colored Pokémon descends when souls of Pokémon and humans commune.
-   - Sage at (14, 6): [Pending]
+2. Trigger Hypothesis: Speaking to the three Sages in Tin Tower 1F while holding the Clear Bell will trigger the Suicune encounter.
+   - Status: FAILED (Turn 24576). Spoke to all three, no encounter triggered.
+3. Revised Strategy: Complete mandatory sightings in order:
+   - Burned Tower: Beasts flee. [Done]
+   - Cianwood City (North): Suicune observed. [Done]
+   - Route 42 (Central Island): Approach Apricorn trees. [Pending]
+   - Route 36 (Sudowoodo junction): Approach junction. [Pending]
+   - Tin Tower 1F: Return for battle.
 4. Battle Strategy: Use Sleep Powder (KIMCHI) to prevent Suicune from using Roar. Weaken carefully and capture with Ultra/Great Balls.
 
 # Tile Mechanics (Global)
