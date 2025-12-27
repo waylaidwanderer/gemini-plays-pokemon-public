@@ -11,7 +11,7 @@
   5. Sighting #4: Route 36 (Sudowoodo Junction).
 
 ## Suicune Quest Diagnostic Log
-- Current Status: Checking Ecruteak Pokémon Center for Eusine to trigger Route 42 sighting. [START TURN: 26286]
+- Current Status: Eusine MISSING from Ecruteak PC (Checked 1F/2F at Turn 26293). Checking Dance Theater next.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
