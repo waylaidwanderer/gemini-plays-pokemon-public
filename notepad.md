@@ -1,7 +1,3 @@
-# Kanto Campaign Status
-- **Location:** Lavender Town.
-- **Objective:** Get Radio Expansion Card.
-
 # Strategic Goals
 1. **Restore Power:** Power restored! (Machine Part delivered).
 2. **Wake Snorlax:** Needs Poke Flute & Power.
