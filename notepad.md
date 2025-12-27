@@ -5,7 +5,7 @@
 ## Suicune Quest Diagnostic Log
 1. Burned Tower: Flee event completed.
 2. Cianwood City (North): Flee event completed. Eusine defeated.
-3. Flag: Eusine dialogue in Ecruteak PC. [PENDING]
+3. Flag: Eusine dialogue in Ecruteak PC. [REQUIRED for Route 42 trigger]
 4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [PENDING - Sages mentioned 'tower shook' at Turn 26110]
 5. Sighting #3: Route 42 (Central Island). [FAILED - Swept (21,10) to (31,17) at Turn 26164]
 6. Sighting #4: Route 36 (Sudowoodo Junction). [FAILED - Swept (34,8) to (37,10) at Turn 26177]
