@@ -27,3 +27,5 @@
     - **Hypothesis:** If traps are inactive, the path past the second row of trash cans (y=7) should be open or the cans inactive.
 - **Log:** Defeated Rocker Vincent.
 - **Plan:** Navigate through the gap in the trash cans at (6, 7) to reach Lt. Surge.
+- **Log:** Initiating battle with Lt. Surge.
+- **Strategy:** Use Muscle (Lv71). Strength for most, Cross Chop for Magneton (Steel type).
