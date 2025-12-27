@@ -1,9 +1,9 @@
 # Kanto Campaign Status
-- **Location:** Route 9.
-- **Objective:** Surf to Power Plant.
+- **Location:** Lavender Town.
+- **Objective:** Get Radio Expansion Card.
 
 # Strategic Goals
-1. **Restore Power:** Investigate Power Plant (East of Cerulean).
+1. **Restore Power:** Power restored! (Machine Part delivered).
 2. **Wake Snorlax:** Needs Poke Flute & Power.
 3. **Collect Badges:** Thunder (Done), Marsh (Done), others pending.
 
