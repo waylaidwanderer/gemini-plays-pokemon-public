@@ -24,13 +24,13 @@
   - X SPECIAL: ¥175 (Sold)
   - X ATTACK: ¥250 (Sold)
   - TM50 NIGHTMARE: ¥1000 (Sold)
+  - TM23 IRON TAIL: ¥1500 (Sold Turn 25249)
 - Remaining Sellables:
-  - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
   - TM46 THIEF: ¥1500
   - TM49 FURY CUTTER: ¥1000
   - HARD STONE: ¥25
-- Strategy: Reach ~¥16,200 to buy 27 more Great Balls (Total 50). Current: ¥6148.
+- Strategy: Reach ~¥16,200 to buy 27 more Great Balls (Total 50). Current: ¥7648.
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
