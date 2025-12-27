@@ -29,9 +29,10 @@
 - **Sequential Events:** Legendary beast sightings are strictly sequential. Do not skip steps.
 
 ## Progress Tracking
-- Suicune Quest: Ongoing. Re-verifying overworld sightings.
-- Route 42 Target: (26, 15). Status: Empty.
-- Route 36 Target: (35, 9). Status: Empty.
-- Current Task: Checking Tin Tower Gatehouse (Ecruteak) for shaking/Sage dialogue.
-- Hypothesis: Sightings 3 and 4 (Route 42 and 36) are already complete.
-- Lesson Learned (Turn 26831): If a legendary beast sighting doesn't trigger at the correct coordinates after multiple sweeps, it's likely already been flagged as complete. Proceed to the next step in the sequence or verify the final gatekeeper (e.g., Tin Tower sages).
+- Suicune Quest: Overworld sightings confirmed complete (Sage permitted passage).
+- Current Task: Defeat the Wise Trio in the Wise Trio Room.
+- Wise Trio Battle Preparation:
+  - Sage Gaku: Noctowl (Lv32)
+  - Sage Masa: Noctowl (Lv32)
+  - Sage Koji: Noctowl (Lv32)
+  - Note: Sages use Noctowl and Kadabra. Lead Calcifer with Thunderpunch.
