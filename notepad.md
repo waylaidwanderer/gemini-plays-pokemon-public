@@ -88,9 +88,9 @@
 - Currently at (5, 4) (North Bridge).
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
-- Checked (5, 5): No item (Surf prompt).
-- Checking (4, 5) from (4, 4).
+- Checked (4, 5): No item (Surf prompt).
+- Moving to (3, 4) to check (3, 5).
 - Plan:
-  1. Move Left to (4, 4).
-  2. Face Down to check (4, 5).
-  3. If empty, check (3, 5) and (2, 5).
+  1. Check (3, 5) from (3, 4) facing Down.
+  2. If empty, check (2, 5) from (2, 4).
+  3. If those fail, go to (5, 8) and check (6, 8).
