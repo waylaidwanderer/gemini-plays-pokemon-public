@@ -89,8 +89,11 @@
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
 - Checked (3, 6): No item (Surf prompt).
-- Plan:
-  1. Check (3, 8) (Down from 3, 7).
-  2. Move to (4, 7) and re-check (4, 8) (Down).
-  3. Move to (5, 9) to check (4, 9) and (6, 9).
-  4. If fails, check top pool (Row 2-3).
+- Current Action: Check (3, 8) (Down from 3, 7).
+- Next Plan:
+  1. Move Right to (4, 7).
+  2. Check (4, 8) (Down).
+  3. Move to (5, 9) (via 5, 8).
+  4. Check (4, 9) (Left) and (6, 9) (Right).
+  5. Check (5, 10) (Ladder?) No, (5, 9) is floor.
+- Remaining Candidates: (3, 8), (4, 8), (4, 9), (6, 9).
