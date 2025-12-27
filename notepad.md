@@ -36,3 +36,6 @@
 - **Log:** Approaching building at (20, 5) to check if it's the Pokemon Center.
 - **Log:** Standing at Pokemon Center entrance (20, 6). Entering to heal.
 - **Correction:** Entrance at (20, 5) was blocked. Trying adjacent tile (19, 5).
+- **Correction:** The building at (20, 5) has NO door. It is NOT the Pokemon Center (or it's closed).
+- **Plan:** Read the City Sign at (25, 3) for orientation.
+- **Hypothesis:** The Pokemon Center might be elsewhere, or I need to clear an event.
