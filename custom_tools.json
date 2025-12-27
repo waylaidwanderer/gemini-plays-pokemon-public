@@ -1,6 +1,6 @@
 {
   "find_path": {
-    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. robustly handles obstacles and ledges.",
+    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. Robustly handles obstacles and ledges. Supports 'walking' (default) and 'surfing' modes.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -15,6 +15,14 @@
         },
         "target_y": {
           "type": "integer"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "walking",
+            "surfing"
+          ],
+          "default": "walking"
         }
       },
       "required": [
@@ -24,7 +32,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(map_xml, start, target):\n    try:\n        root = ET.fromstring(map_xml)\n    except Exception as e:\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    \n    # Parse map\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            type_ = tile.attrib['type']\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            grid[(x, y)] = {'type': type_, 'has_object': has_object}\n\n    queue = deque([(start, [])])\n    visited = set([start])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == target:\n            return path\n        \n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), \n            (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, btn in moves:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                \n                # Basic collision logic\n                # Treat objects as walls unless it is the target (e.g. interacting with NPC/Door)\n                if tile['has_object'] and (nx, ny) != target:\n                    continue \n                \n                t_type = tile['type']\n                walkable = True\n                \n                if t_type == 'WALL':\n                    walkable = False\n                elif t_type == 'LEDGE_HOP_DOWN':\n                    # Treat ledges as impassable for auto-pathing to be safe\n                    walkable = False\n                elif t_type == 'WATER':\n                    # Treat as walkable (assuming Surf)\n                    pass\n                \n                if walkable:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n                    \n    return None\n\nstart_x = int(input_data.get('start_x'))\nstart_y = int(input_data.get('start_y'))\ntarget_x = int(input_data.get('target_x'))\ntarget_y = int(input_data.get('target_y'))\n\nstart = (start_x, start_y)\ntarget = (target_x, target_y)\n\npath_buttons = find_path(map_xml_string, start, target)\n\nif path_buttons is not None:\n    print(json.dumps(path_buttons))\nelse:\n    print(\"[]\")",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(map_xml, start, target, mode='walking'):\n    try:\n        root = ET.fromstring(map_xml)\n    except Exception as e:\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    \n    # Parse map\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            type_ = tile.attrib['type']\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            grid[(x, y)] = {'type': type_, 'has_object': has_object}\n\n    queue = deque([(start, [])])\n    visited = set([start])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == target:\n            return path\n        \n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), \n            (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, btn in moves:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                \n                # Basic collision logic\n                # Treat objects as walls unless it is the target (e.g. interacting with NPC/Door)\n                if tile['has_object'] and (nx, ny) != target:\n                    continue \n                \n                t_type = tile['type']\n                walkable = False\n                \n                if mode == 'walking':\n                    if t_type == 'FLOOR' or t_type == 'LADDER' or t_type == 'CUT_TREE' or t_type == 'WARP_CARPET_DOWN' or t_type == 'WARP_CARPET_UP' or t_type == 'WARP_CARPET_LEFT' or t_type == 'WARP_CARPET_RIGHT':\n                        walkable = True\n                    # Treat others as obstacles\n                elif mode == 'surfing':\n                    if t_type == 'WATER':\n                        walkable = True\n                \n                if walkable:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n                    \n    return None\n\nstart_x = int(input_data.get('start_x'))\nstart_y = int(input_data.get('start_y'))\ntarget_x = int(input_data.get('target_x'))\ntarget_y = int(input_data.get('target_y'))\nmode = input_data.get('mode', 'walking')\n\nstart = (start_x, start_y)\ntarget = (target_x, target_y)\n\npath_buttons = find_path(map_xml_string, start, target, mode)\n\nif path_buttons is not None:\n    print(json.dumps(path_buttons))\nelse:\n    print(\"[]\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -65,6 +73,11 @@
         "commit_message": "Initial definition of BFS pathfinding tool to automate navigation and reduce manual coordinate calculation errors.",
         "timestamp": "2025-12-27T15:04:50.460Z",
         "action_counter": 21725
+      },
+      {
+        "commit_message": "Updated find_path to support movement modes ('walking', 'surfing') for context-aware navigation.",
+        "timestamp": "2025-12-27T15:19:15.563Z",
+        "action_counter": 21741
       }
     ]
   },
