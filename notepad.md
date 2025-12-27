@@ -44,3 +44,5 @@
 - **Action:** Interacting with Sailor 2 to clear the path.
 - **Log:** Retrying interaction with Sailor 2 at (31, 6) (Facing Up).
 - **Hypothesis:** If Sailor 2 doesn't move/battle, I must return to 1F to find the "lazy buddy" to clear the path.
+- **Observation:** Sailor 2 at (31, 6) appears to be non-interactable (no text). The path West is fully blocked by two sailors.
+- **Action:** Returning to 1F to find the "lazy buddy" (suspected Sailor at 1F 22,17).
