@@ -38,3 +38,4 @@
 - **WARP_CARPET_DOWN:** Transition to map below.
 - **DOOR:** Warp to interior.
 - **WATER:** Requires Surf.
+- **Observation:** Tried to move past tree at (33, 24) but failed. Tree is still there. Retrying Cut action.
