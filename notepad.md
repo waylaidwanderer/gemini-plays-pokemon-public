@@ -1,12 +1,12 @@
 # Suicune Quest Log
-- **Start Turn:** ~24175
+- **Start Turn:** 24175 (2025-12-26 20:30)
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
 - **Progress:**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
   3. Route 42 (Central Island): Sighting check. [Sprite missing - Turn 24768]
   4. Route 36 (Sudowoodo junction): Sighting check. [Sprite missing - Turn 24733]
-  5. Tin Tower 1F: Talk to all three Sages with Clear Bell & Fog Badge. [Next Step]
+  5. Tin Tower 1F: Talk to all three Sages with Clear Bell & Fog Badge. [In Progress]
 
 # Immediate Plan
 - Exit Pokemon Center area and head to the gatehouse at (18, 11).
