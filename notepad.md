@@ -39,9 +39,9 @@
 
 # Active Plans
 - **Restore Power:**
-  - **Status:** In Cerulean City. **Possess Machine Part.**
-  - **Immediate:** Enter Pokemon Center (19, 21) to unlock Fly point.
-  - **Next:** Go North to Route 24 -> Surf East/South to Power Plant.
+  - **Status:** In Cerulean Pokemon Center. Fly point unlocked.
+  - **Immediate:** Heal Party to set checkpoint.
+  - **Next:** Exit -> Route 24 -> Surf East/South to Power Plant.
   - **Goal:** Deliver Machine Part to Manager.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
