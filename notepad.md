@@ -40,9 +40,10 @@
 - Traveling to Route 36 via Ecruteak City. [Turn 25627]
 - Note: find_path_v4 failed to transition from FLOOR (42, 9) to WATER (41, 9). Manual Surf required. [Turn 25633]
 ## Strategy for Route 42 Suicune Sighting
-1. Surf west from (41, 9) to (34, 9).
-2. Land at (33, 9).
-3. Walk to (24, 12) via (33, 11) and (24, 11).
-4. Face (24, 13) and use CUT on the tree.
-5. Walk to (26, 14) to trigger Suicune sighting.
-6. If Suicune is still not visible, re-verify all previous sightings and flags. [Turn 25636]
+1. Land at (33, 9). [Done]
+2. Walk to (21, 11) via y=10 path.
+3. Surf on (21, 12) and land at (22, 12).
+4. Walk to (24, 12).
+5. Face (24, 13) and use CUT on the tree.
+6. Walk to (26, 14) to trigger Suicune sighting.
+7. If Suicune is still not visible, re-verify all previous sightings and flags. [Turn #25637]
