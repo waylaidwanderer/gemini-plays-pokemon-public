@@ -28,7 +28,7 @@
 - **DOOR:** Warp to interior.
 
 # Post-Game Status
-- **Location:** Cerulean City (South Entrance - Center Lane).
-- **Status:** Dead end detected (blocked by walls North, West, East).
-- **Goal:** Reach Power Plant.
-- **Immediate:** Backtrack to Route 5 and explore the East side for a path to Cerulean.
+- **Location:** Route 5 (North End).
+- **Status:** Retrying Cerulean City entrance.
+- **Goal:** Navigate through the "Dead End" (likely a winding path East).
+- **Immediate:** Enter Cerulean and navigate carefully through the obstacles at y=32/33 to reach the city center.
