@@ -154,13 +154,13 @@
 - Realized I was facing UP while trying to Cut.
 - Action: Exiting menu, turning RIGHT, and pressing A to Cut (42, 15).
 - If this fails, will use Fly to Cerulean.
-- Route 9 'Trap' Area Confirmed:
-  - (42, 15) is NOT a cuttable tree (multiple attempts failed).
-  - Row 16 'Ledges' are impassable walls from the North.
-  - This area (Row 14-15) seems to be a dead end if entered from the West ledges.
-- Strategic Pivot:
-  - Escaping via Fly to Cerulean City.
-  - New Route Plan: Surf from Route 24/25 (North of Cerulean) to bypass Route 9 land obstacles.
+- Route 9 'Trap' confirmed. Escape via Fly initiated.
+- Navigation Plan:
+  1. Fly to Cerulean City.
+  2. Heal at Center (Muscle PP is low).
+  3. Go North to Route 24.
+  4. Surf South-East along the river to bypass Route 9 obstacles.
+  5. Reach Power Plant via Water.
 - Opening Party Menu.
 - Selecting Mistral (Slot 5).
 - Intent: Use Fly to return to Cerulean City and attempt the water route from Route 24.
