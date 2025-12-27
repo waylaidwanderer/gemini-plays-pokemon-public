@@ -89,9 +89,13 @@
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
 - Checked (6, 5): No item (Surf prompt).
-- Moving to (6, 7) to check (6, 6).
-- Remaining Candidates:
-  1. Check (6, 6) from (6, 7).
-  2. Check (3, 6) from (3, 7).
-  3. Check (3, 5) from (3, 4).
-  4. If all fails, check outer ring.
+- Moved to (6, 7).
+- Hypothesis: "Center of Gym" (10x16 map) is around (4, 8).
+- Checked (4, 8): Empty.
+- (5, 8) is Floor.
+- Next Candidates:
+  1. (6, 6) (Current pos facing Up).
+  2. (6, 8) (Current pos facing Down).
+  3. (4, 9), (6, 9) (In the lower pool).
+  4. (7, 7) has a different water layout? No, map says Row 8 has water at 3,4,6,7,8.
+- Plan: Check (6, 6), then (6, 8).
