@@ -20,3 +20,5 @@
     - Exiting North to Vermilion City.
     - Ladders at x=3 seem to be a separate path.
 - **Log:** Arrived in Vermilion City (12_3). Exploring.
+- **Observation:** Water blocks the path North at y=23.
+- **Plan:** Explore East along the path (y=24/25) to find the entrance to the city.
