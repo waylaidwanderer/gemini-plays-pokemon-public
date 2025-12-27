@@ -23,10 +23,11 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** Have Machine Part. En route to Power Plant.
-  1. Navigate to Route 9 (East of Cerulean).
-  2. Surf East/South to reach the Power Plant.
-  3. Deliver Machine Part to the Manager.
+  - **Status:** Machine Part delivered! Received TM07 (Zap Cannon).
+  1. Exit Power Plant.
+  2. Travel to Lavender Town (South of Route 10).
+  3. Talk to the Radio Tower Director to get the Expansion Card.
+  4. Wake Snorlax in Vermilion City.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 
 # Lessons Learned
