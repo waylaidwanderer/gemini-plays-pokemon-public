@@ -16,12 +16,12 @@
     - Warp G (15, 9) -> Room 4 (15, 3) [Warp J]
     - Warp H (19, 11) [From W]
     - Warp I (15, 11) -> Room 6 (9, 3) [Warp U]
-- **Room 4 (Top Right) [Current]:**
+- **Room 4 (Top Right):**
     - Warp J (15, 3) [From G]
     - Warp K (19, 3) -> Room 2 (15, 15) [Warp E]
-    - Warp L (15, 5) [From BB]
-    - Warp M (19, 5) -> ?
-- **Room 5 (Bottom Left):**
+    - Warp L (15, 5) <-> Room 8 (1, 3) [Warp BB]
+    - Warp M (19, 5) -> Room 5 (1, 15) [Warp O]
+- **Room 5 (Bottom Left) [Current]:**
     - Warp N (5, 15) [From D]
     - Warp O (1, 15) -> ?
     - Warp P (1, 17) -> Room 6 (11, 5) [Warp R]
@@ -38,20 +38,17 @@
     - Warp Y (5, 11) -> ?
 - **Room 8 (Top Left):**
     - Warp AA (5, 3) [From T]
-    - Warp BB (1, 3) -> Room 4 (15, 5) [Warp L]
+    - Warp BB (1, 3) <-> Room 4 (15, 5) [Warp L]
     - Warp CC (1, 5) -> ?
     - Warp DD (5, 5) -> ?
+- **Sabrina's Room (Middle Center):**
+    - Contains Warp at (11, 9). Needs an entry.
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp M at (19, 5).
-- **Status:** In Room 4 (Top Right). Defeated Psychic Jared (Youngster).
+- **Immediate:** Test Warp O at (1, 15).
+- **Status:** In Room 5 (Bottom Left). Arrived via Warp M.
 - **Next Steps:**
-    1. Navigate to Warp M (19, 5).
-    2. Determine destination.
-    3. Continue mapping warps until Sabrina is found.
-
-# Tile Mechanics
-- **WARP_PANEL:** Stepping on these instantly teleports the player to another location. If you arrive on one, you must step off and step back on to use it again.
-- **FLOOR:** Standard walkable tile.
-- **WALL:** Impassable tile.
+    1. Step off/on Warp O to verify destination.
+    2. If loop (to Room 4), return to Room 5 and test Warp Q.
+    3. If new room, map it.
