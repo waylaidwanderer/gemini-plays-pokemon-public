@@ -36,3 +36,6 @@
 - **Log:** Defeated Sailor Stanly. Reported to Sailor at (31, 6).
 - **Clue:** Sailor saw the little girl go "by here" (North).
 - **Plan:** Explore the area North of the sailors.
+- **Log:** Talked to Super Nerd at (26, 9). He is seasick and blocking a room/path.
+- **Hypothesis:** He might be blocking a room. Or the girl is elsewhere.
+- **Plan:** Explore the cabins to the West (X=24, X=22) to see if the girl is there.
