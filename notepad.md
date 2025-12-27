@@ -33,3 +33,4 @@
 - **Log:** Entered House at (13, 13) (Vermilion Magnet Train Speech House).
 - **Plan:** Talk to the residents (Pokefan F and Youngster).
 - **Contingency:** If Gym is blocked by Cut tree and no other path exists, retrieve Belladonna from PC.
+- **Log:** Talked to Pokefan F. She explained the Magnet Train connects to Goldenrod in Johto.
