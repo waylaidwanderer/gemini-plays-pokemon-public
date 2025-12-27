@@ -42,3 +42,8 @@
 - Suicune Sightings: Strictly linear. Route 42 MUST be triggered before Route 36.
 - Tool Refinement: `find_path_v4` refined for complex types. [Turn 25707]
 - Proximity Triggers: Suicune sightings may be zone-based, not just single-tile. [Turn 25741]
+## Suicune Quest Update
+- Tin Tower Shook: Turn 25687.
+- Sages Dialogue: Completed Turn 25726.
+- Current Hypothesis: Sages' dialogue was a required trigger for Route 42 sighting.
+- Strategy: Re-check Route 42 central island now that tower has shook and Sages are talked to.
