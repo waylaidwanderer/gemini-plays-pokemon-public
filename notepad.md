@@ -46,12 +46,12 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Hopped ledge to Row 6. Now on Lower Tier.
-  - **Immediate Target:** Picnicker Heidi at (39, 8).
+  - **Status:** Defeated Picnicker Heidi at (39, 8).
+  - **Correction:** Row 11/12 is blocked at x=42.
   - **Plan:**
-    1. Defeat Picnicker Heidi.
-    2. Continue South to Row 12.
-    3. Head East to Power Plant.
+    1. Go South to Row 9 to bypass Heidi.
+    2. Continue East on Row 8/9 (Upper Path).
+    3. Avoid hopping ledges to the South unless blocked East.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
