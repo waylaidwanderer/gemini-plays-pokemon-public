@@ -20,9 +20,10 @@
 - CAVE: Entrance/Exit warp.
 
 ## Strategy
-- Current: Fly to Mahogany Town and approach Route 42 island from the East.
-- Goal: Trigger Suicune sighting #3 (Route 42) and #4 (Route 36).
+- Current: Cut the tree at (24, 13) and sweep the southern portion of the Route 42 island (Rows 14-17).
+- Goal: Trigger Suicune sighting #3. Previous sweep (Turn 26014) was incomplete because the Cut tree was not removed.
 - Verification: Tracker (Turn 26064) confirms overworld sightings are required despite having the Clear Bell.
+- Contradiction Note: Tracker previously claimed (Turn 26015) that the tower event supersedes sightings. If the southern island sweep fails, I will re-verify Route 36 then Tin Tower 1F.
 
 ## Time Tracking
 - Suicune Quest Start: Turn 24182.
