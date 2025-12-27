@@ -116,3 +116,6 @@
 - Engaging Pokefan M at (36, 15).
 - Battle initiated ("But first, we battle!").
 - After battle, head East to gap at (42, 16).
+- Muscle is out of PP for Ice Punch and Cross Chop.
+- Relying on Strength (9 PP) for now.
+- Need to heal at Route 10 Pokemon Center soon.
