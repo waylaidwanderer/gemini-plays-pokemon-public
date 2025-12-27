@@ -46,3 +46,6 @@
 - **Log:** Gym Guide says traps are inactive! I might be able to walk straight to Lt. Surge.
 - **Plan:** Battle Gentleman at (8, 8) and Rocker at (4, 7) to clear the room.
 - **Hypothesis:** If traps are inactive, I should be able to walk past the trash cans at y=11 without solving a puzzle.
+- **Log:** Defeated Gentleman Gregory.
+- **Plan:** Battle Rocker at (4, 7).
+- **Hypothesis:** After defeating Rocker, verify if gaps in trash cans allow passage to Lt. Surge.
