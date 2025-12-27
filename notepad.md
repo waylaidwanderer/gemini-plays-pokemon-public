@@ -70,3 +70,6 @@
   - Navigated to Party Menu.
   - Selected Mistral (Slot 5) -> Fly.
 - Next Step: Verify Fly Map is open and navigate to Cerulean City.
+- Realization: Cannot Fly from inside the Pokemon Center.
+- Action: Closing menus (B spam) and walking Down to exit to Route 23.
+- Next: Fly to Cerulean City from outside.
