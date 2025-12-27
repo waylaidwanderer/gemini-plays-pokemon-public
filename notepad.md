@@ -171,3 +171,7 @@
 - Current Fly Map Position: Indigo Plateau (Default?).
 - Action: Moving Cursor Right to target Cerulean City.
 - Next: Land, Heal, Surf from Route 24 to Power Plant.
+- Fly Map Input Check: Previous 'Right, Right' left us at Indigo Plateau.
+- Hypothesis: Input was ignored or map allows 'Right' from Indigo.
+- Action: Pressing 'Right' 3 times to traverse Indigo -> Pewter -> Cerulean -> ?.
+- Goal: Verify cursor movement and target Cerulean.
