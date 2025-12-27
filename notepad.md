@@ -42,4 +42,4 @@
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
-- 12. Lead Swapping: Attempting to swap Calcifer to lead to handle wild encounters while Surfing.
+- 12. Lead Swapping: Calcifer (Lv45) is now leading to handle wild encounters while Surfing.
