@@ -1,7 +1,7 @@
 # Post-Game: Kanto Adventure
-- **Status:** Arrived in Kanto.
-- **Location:** Vermilion City (12_5 - Pokemon Center).
-- **Goal:** Heal team, then explore Vermilion City.
+- **Status:** Exploring Kanto.
+- **Location:** Vermilion City.
+- **Goal:** Find Vermilion Gym.
 
 # Achievements
 - **Johto League:** Champion.
@@ -16,9 +16,6 @@
 
 # Exploration Notes
 - **Vermilion City:**
-    - Path North blocked by fence at y=11.
-    - Buildings at (20, 5) and (12, 5) have no doors.
-    - Gramps/Machop construction site at (23, 6).
-    - Snorlax blocking path at (34, 8).
-    - Vermilion Port Passage leads south.
-    - Pokemon Center located at (9, 5) / (12_5).
+    - **POIs:** Pokemon Center (9, 5), Mart (21, 13), Port Passage (South).
+    - **Blockages:** Fence (North y=11), Snorlax (East 34, 8).
+    - **Other:** Construction at (23, 6). Fake doors at (20, 5), (12, 5).
