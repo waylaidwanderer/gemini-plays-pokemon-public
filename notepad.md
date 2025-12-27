@@ -28,7 +28,8 @@
 - **DOOR:** Warp to interior.
 
 # Post-Game Status
-- **Location:** Cerulean City (South Entrance).
-- **Status:** Navigating East Gap.
-- **Goal:** Reach Cerulean City Center.
-- **Immediate:** Pass through the gap at (20, 31) to bypass the wall.
+- **Location:** Cerulean City (Center).
+- **Status:** Exploring City.
+- **Goal:** Locate Gym and Route 9 (East).
+- **Observations:** Bike Shop appears closed (Locked Door).
+- **Immediate:** Check house at (25, 29), then head North/East.
