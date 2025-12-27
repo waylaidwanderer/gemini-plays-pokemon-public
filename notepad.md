@@ -5,9 +5,9 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [IN PROGRESS] Route 36 verified empty. Performing tile-by-tile search (24, 12 to 31, 17 area).
-4. Route 36 (Sudowoodo Junction): [EMPTY] Verified on Turn 25992.
-5. Tin Tower 1F: Final encounter (requires all 4 overworld sightings).
+3. Route 42 (Central Island): Relocated to Tin Tower 1F (Clear Bell + Tower Shook event).
+4. Route 36 (Sudowoodo Junction): Relocated to Tin Tower 1F (Clear Bell + Tower Shook event).
+5. Tin Tower 1F: Static encounter (Current Goal).
 
 ## Tile Mechanics
 - FLOOR: Traversable.
