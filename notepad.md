@@ -47,17 +47,14 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Chasing Rocket Grunt. Heading to Route 24 via the Burgled House.
   - **Clues:**
     - Rocket Grunt at Gym: "Oops! I so sorry! ... I make big mistake! ... Bye-bye a go-go!"
     - Confirmed: The Rocket Grunt is the thief.
-    - Lead: He fled North. The Cut tree at (33, 24) is uncuttable, so the path must be through the Burgled House at (25, 29).
+    - Lead: He fled North. Chase him to Route 24 (Nugget Bridge).
   - **Plan:**
-    1. Enter the House at (25, 29).
-    2. Exit through the back to reach the backyard.
-    3. Head North to Route 24 (Nugget Bridge).
-    4. Find and defeat the Rocket Grunt.
-    5. Recover the Machine Part.
+    1. Head North to Route 24 (Nugget Bridge).
+    2. Find and defeat the Rocket Grunt.
+    3. Recover the Machine Part.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
