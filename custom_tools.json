@@ -209,35 +209,5 @@
         "action_counter": 9999
       }
     ]
-  },
-  "attempt_cut_via_menu": {
-    "description": "Attempt to use CUT on a target tile. This tool opens the menu, selects the Pokemon with CUT, and attempts to use the move. It handles the menu navigation. If CUT is not usable or fails, it returns a failure message.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pokemon_slot": {
-          "type": "integer",
-          "description": "The slot number (1-6) of the Pokemon with CUT."
-        },
-        "target_direction": {
-          "type": "string",
-          "enum": [
-            "Up",
-            "Down",
-            "Left",
-            "Right"
-          ],
-          "description": "The direction to face before cutting."
-        }
-      }
-    },
-    "python_script": "def run(input_data):\n    # This is a complex macro, so we'll just return the button sequence.\n    # In a real tool, this would be more dynamic.\n    # For now, we'll manually output the button presses in the thoughts.\n    return {\"status\": \"Use manual button presses for this complex interaction\"}",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T16:48:28.257Z",
-        "action_counter": 21851
-      }
-    ]
   }
 }
