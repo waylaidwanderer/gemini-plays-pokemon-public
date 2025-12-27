@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Press 'B' multiple times to finish Gaven's phone call, then resume the plan to Cut the tree at (33, 24).
-- **Observation:** A phone call from Gaven interrupted the previous attempt to move and cut. Player is still at (32, 25). Must clear dialogue first.
+- **Immediate Task:** Move Up to (32, 24), Face Right, and Interact (A) to Cut the tree at (33, 24).
+- **Observation:** The phone call interrupted the previous move attempt. Player is still at (32, 25). Retrying the move and cut sequence. The tree top at (33, 24) is the likely interaction point.
 
 # Strategic Goals
 1. **Restore Power:**
