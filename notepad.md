@@ -49,3 +49,5 @@
 - *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
 - *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
 - *Navigation:* Exiting Wise Trio Room via (7, 4) to Ecruteak City (20, 2).
+- *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
+- *Navigation:* Exiting Wise Trio Room via (7, 4) to Ecruteak City (20, 2). Proceeding to Tin Tower Entrance (37, 7).
