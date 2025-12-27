@@ -37,3 +37,5 @@
 - **Log:** Stairs at 1F (19, 15) lead to an empty cabin (Map 15_5, South Room).
 - **Plan:** Explore the West side of 1F to find the stairs to the Northern Room (Captain's quarters?).
 - **Log:** Returned to 1F. Now checking stairs at (19, 15).
+- **Log:** Middle Room (15_5, Rows 25-31) is empty. Returning to 1F.
+- **Plan:** Search the far West side of 1F for the third set of stairs (likely to the Northern Room).
