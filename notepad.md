@@ -40,3 +40,6 @@
 - **Log:** Super Nerd confirms the big building is Vermilion's Gym.
 - **Log:** Cut Tree at (13, 18) blocks the path.
 - **Plan:** Bypassing Cut Tree by Surfing from (14, 17) to (14, 18) and landing at (13, 19).
+- **Log:** Entered Vermilion Gym.
+- **Plan:** Talk to Gym Guide for tips.
+- **Plan:** Defeat trainers and solve the trash can puzzle to reach Lt. Surge.
