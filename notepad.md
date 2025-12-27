@@ -1,10 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Fix Facing and Cut: Exit Menu (B x2), Face Right, Open Menu (Start), Select Pokemon (A), Select Belladonna (Down x4 from Garnet), Cut (A, A).
-- **Observation:** Cursor logic confirmed: Re-entering Party Menu places cursor on Garnet (Slot 2).
-- **Correction:** Previous failure was due to Player facing UP (verified by Game State). Must face RIGHT to cut the tree.
-- **Plan:** Exit menu -> Turn Right -> Re-enter Menu -> Navigate to Belladonna -> Cut.
+- **Immediate Task:** Exit Menu (B x3) and navigate West to (20, 24) to bypass the ledge at (32, 23).
+- **Observation:** The tree at (33, 24) is NOT cuttable ("There's nothing to CUT here"). This means the path to Route 9 is not through this tree.
+- **Hypothesis:** I must circumnavigate the ledge by going North (near Route 24) and then East.
+- **Markers:** Removing 'Cut Tree' marker and replacing with 'Uncuttable'.
 
 # Strategic Goals
 1. **Restore Power:**
