@@ -144,5 +144,28 @@
         "action_counter": 25202
       }
     ]
+  },
+  "open_fly_map_v2": {
+    "description": "Opens the FLY map from the main menu by selecting a Pokemon in the party. Assumes the main menu is already open with the cursor on POKEMON.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_index": {
+          "type": "integer",
+          "description": "The 1-indexed position of the Pokemon with FLY in the party."
+        }
+      },
+      "required": [
+        "party_index"
+      ]
+    },
+    "python_script": "import json\ndef main(input_data):\n    index = int(input_data.get('party_index', 2))\n    buttons = [\"A\", \"sleep 500\"]\n    for _ in range(index - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T09:07:23.644Z",
+        "action_counter": 25369
+      }
+    ]
   }
 }
