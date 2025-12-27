@@ -23,12 +23,8 @@
 
 # Exploration Status: S.S. Aqua
 - **Quest:** Find Gentleman's Granddaughter.
-- **1F:**
-  - Cabins: (19,8), (15,8) checked (Empty).
-  - Stairs:
-    - (15,15) -> Lower Deck South (Dead end, Lyle defeated).
-    - (19,15) -> Lower Deck Middle (Empty).
-    - (23,15) -> Lower Deck East (Colin & Twins defeated).
-  - **Next:** Search West side of 1F for more stairs/cabins.
-- **Log:** Found Far East Cabin (Map 15_6, South Room) via stairs at (27, 15).
-- **Log:** Room contains a Gentleman and a Little Girl. Approaching the girl.
+- **Progress:**
+  - Checked 1F East/Mid: Empty/Dead Ends.
+  - Checked 1F West: Pending.
+  - **Current Location:** Lower Deck Far East (via 1F 27,15).
+  - **Findings:** Found a Little Girl here. Investigating.
