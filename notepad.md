@@ -29,12 +29,14 @@
   3. Deliver Machine Part to the Manager.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 - **Route 9 Maze Solution:**
-  - *Refined: Turn 22070 (Sat Dec 27 12:15 PM)*
-  1. From (29, 6), go North through gap at (29, 5) to (29, 3).
+  - *Refined: Turn 22071 (Sat Dec 27 12:15 PM)*
+  1. From (29, 6), go North to (29, 3).
   2. Go East along Row 3 to (37, 3).
-  3. Go South, hopping the ledge at (37, 5), to reach (37, 8).
-  4. Go East to (42, 8), then North through gap at (42, 7).
-  5. Navigate Northeast to reaching the water at (55, 4).
+  3. Go South to (37, 5) and hop the ledge down to (37, 6).
+  4. Continue South to (37, 8).
+  5. Go East to (44, 8).
+  6. Go North to (44, 3) to reach the water.
+  7. Surf to Power Plant.
 
 # Lessons Learned
 - **Inventory Check:** Always verify Inventory for Key Items before assuming they are missing. Do not rely solely on memory or previous notepad entries.
