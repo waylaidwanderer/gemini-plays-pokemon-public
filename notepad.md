@@ -42,3 +42,5 @@
 - **WATER:** Requires Surf.
 - **LADDER:** Walkable (bridge).
 - **CUT_TREE:** Requires Cut.
+- Found the path to Route 9! It was a gap in the wall at (36, 22), bypassing the cuttable tree.
+- Heading East to enter Route 9 and find the Power Plant.
