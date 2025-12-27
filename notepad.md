@@ -48,3 +48,5 @@
 - **Action:** Returning to 1F to find the "lazy buddy" (suspected Sailor at 1F 22,17).
 - **Action:** Navigating to 1F (22, 17) to find the "lazy buddy" Sailor (ID 3).
 - **Goal:** Talk to him to clear the blockade in B1F.
+- **Action:** Stunned Sailor (ID 3) at (22, 17) to ensure interaction.
+- **Goal:** Confront him about being the "lazy buddy".
