@@ -36,3 +36,5 @@
 - **Route 8:** Collected PRZCureBerry from tree at (33, 5).
 - **Receptionist:** Just a greeter. Need to find Director elsewhere (likely upstairs).
 - **Radio Tower Directory:** 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director.
+- **Menu Behavior:** The Start Menu remembers the last used cursor position. Always check current cursor position or navigate relatively.
+- **Pokegear:** Radio is required for Snorlax.
