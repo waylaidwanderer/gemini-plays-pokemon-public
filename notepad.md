@@ -70,3 +70,6 @@
 - Conclusion: The Police Chief's hint is not enough. Must trigger the event at the Power Plant first.
 - Plan: Exit Gym, head to Route 9 (via 27, 12), and proceed to the Power Plant.
     - Officer at (6, 12): "I just got word from CERULEAN." (Confirming the lead).
+- Checked (5, 5) from (5, 6): No item.
+- Plan: Move to Floor at (5, 7) to search (5, 6) and (4, 6) from the south.
+- Moving Down to (5, 7), then facing Up to check (5, 6).
