@@ -34,3 +34,7 @@
 
 ## Strategy
 - Current: Check Route 36 for the next Suicune sighting.
+## Reflection - Turn 25794
+- Quest status: Stuck on Suicune sighting #3/4.
+- Hypothesis: Missing a specific trigger or standing on the wrong tile.
+- Action: Re-check Route 36 junction thoroughly, then check Tin Tower 1F for hints.
