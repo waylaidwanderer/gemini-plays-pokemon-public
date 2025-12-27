@@ -5,17 +5,18 @@
 
 ## Current Strategy
 - Plan:
-  1. Navigate to (26, 15) on Route 42 island.
-  2. If Suicune appears, follow it to Route 36 junction (35, 9).
-  3. If Suicune is missing, check Route 36 junction just in case.
-  4. If both are missing, re-verify all Wise Trio dialogues.
-- Attempt 2 (Route 42): Turn 26311.
+  1. Fly to Ecruteak City and check Pokémon Center for Eusine. [RE-VERIFYING FLAG]
+  2. Perform a full-tile sweep of the Pokémon Center (1F and 2F).
+  3. Talk to Eusine to set the Route 42 sighting flag.
+  4. Return to Route 42 (Central Island) and approach (26, 15).
+  5. Sighting #4: Route 36 (Sudowoodo Junction).
+- Attempt 3 (Route 42): Turn 26322 (Failed - Suicune missing).
 
 ## Suicune Quest Diagnostic Log
 - Burned Tower: Flee event completed.
 - Cianwood City (North): Flee event completed. Eusine defeated.
-- Ecruteak PC: Eusine missing (Turn 26293). Agent suggests he appears AFTER Route 42/36.
-- Status: Approaching Route 42 island clearing.
+- Route 42: Attempt 1 (Turn 26164) and Attempt 2 (Turn 26322) failed.
+- Status: Re-checking Ecruteak PC for Eusine flag. [START TURN: 26326]
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
