@@ -1,7 +1,7 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
-- **Location:** New Bark Town.
-- **Immediate Goal:** Fly to Olivine City.
+- **Location:** Olivine Port Passage.
+- **Immediate Goal:** Reach Olivine Port and board S.S. Aqua.
 - **Next Step:** Board S.S. Aqua -> Vermilion City (Kanto).
 
 # Team Status
