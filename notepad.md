@@ -164,3 +164,6 @@
 - Opening Party Menu.
 - Selecting Mistral (Slot 5).
 - Intent: Use Fly to return to Cerulean City and attempt the water route from Route 24.
+- Correcting menu selection: Moving from Gyarados (Slot 3) to Mistral (Slot 5).
+- Using FLY to escape the Route 9 trap.
+- Next destination: Cerulean City (to access Route 24/25 water route).
