@@ -29,3 +29,7 @@
 ## Trainer & Party Info
 - **Lead:** XENON (Gastly) Lv21 with Mean Look/Hypnosis.
 - **Current Party:** Gastly, Pidgey, Graveler, Krabby, Gloom, Typhlosion.
+## Tin Tower 1F Sages (Wise Trio)
+- **Masa (14, 6):** Friendship and hope (700 years ago).
+- **Gaku (11, 11):** Legend of Ho-Oh reviving Suicune, Entei, Raikou.
+- **Koji (5, 9):** Souls of Pokemon and humans commune; testing humans.
