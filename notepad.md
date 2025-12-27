@@ -27,3 +27,4 @@
 - **Log:** Cabin at (19, 8) was empty.
 - **Log:** Cabin at (15, 8) is empty (Player Cabin?).
 - **Log:** (11, 8) is not a cabin, it's a hallway junction. Exploring West Hallway.
+- **Log:** Heading to Lower Deck via stairs at (15, 15).
