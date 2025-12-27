@@ -27,4 +27,4 @@
   1. Return to Cerulean City.
   2. Enter Route 9 and Surf to Power Plant.
   3. Deliver Machine Part.
-- **Bill's Grandpa Request:** Wants to see a Pokémon with a "long tongue" (Lickitung). I don't have one.
+- **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
