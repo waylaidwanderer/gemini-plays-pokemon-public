@@ -104,3 +104,6 @@
 - Navigating Route 9 East.
 - Passing Hiker Tim (Defeated) at (28, 3).
 - Path ahead involves looping around walls on Row 3/8.
+- Route Analysis: Cut tree forced me to Lower Path (Y>8).
+- Path forward likely involves going South to Y=16/17 and heading East.
+- Testing path to (42, 17).
