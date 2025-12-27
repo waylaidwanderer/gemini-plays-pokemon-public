@@ -47,19 +47,19 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Navigating Route 9 Ledge Maze.
+  - **Status:** Navigating Route 9 Ledge Maze (Solved).
   - **Clues:**
     - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
     - Confirmed: The part was stolen.
     - Lead: The "shady character" in Cerulean City (mentioned by Police Chief) is almost certainly the thief.
     - Route 9 Maze Solution:
-      1. Go West on bottom path to x=20.
-      2. Go North through gap at (20, 13) to middle section.
-      3. Go West to x=16.
-      4. Go North through gap at (16, 9) to top section.
-      5. Go West to Cut Tree at (5, 8).
+      1. From (16, 8), go East to (17, 8).
+      2. Go North to (17, 6).
+      3. Go West to (15, 6).
+      4. Go North to (15, 4) (Top Path).
+      5. Go West to Cerulean City.
   - **Plan:**
-    1. Navigate through maze gaps to reach Cerulean City.
+    1. Execute the maze solution to reach Cerulean City.
     2. Go to the Cerulean Gym to find the Rocket Grunt.
     3. Recover the Machine Part.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
