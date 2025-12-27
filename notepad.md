@@ -13,7 +13,7 @@
 2. Cianwood City (North): [Verified]
 3. Route 42 (Central Island): Pending.
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Pending (Checked Turn 25477).
+5. Tin Tower 1F: Pending.
 
 ## Hypotheses & Strategy
 - Hypothesis 1: Route 42 sighting is next.
