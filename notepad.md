@@ -33,3 +33,7 @@
 - **Goal:** Locate Gym and Route 9 (East).
 - **Info:** Cooltrainer M mentions many trainers at Cerulean Cape (Route 25).
 - **Immediate:** Talk to the Fisherman north of the Mart (requires navigating around the building).
+## Cerulean City Notes
+- **Locked Door:** Found at (14, 29).
+- **Bike Shop:** Sign located at (11, 29).
+- **Mart:** Sign located at (26, 29).
