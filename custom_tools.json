@@ -139,7 +139,7 @@
     ]
   },
   "menu_navigator_crystal_v2": {
-    "description": "Navigates the Crystal main menu. Handles the vertical layout including OPTION and EXIT.",
+    "description": "Navigates the Crystal main menu. Handles the vertical layout including OPTION and EXIT. Robust against special characters like 'é'.",
     "input_schema": {
       "properties": {
         "screen_text": {
@@ -165,12 +165,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    curr_idx = -1\n    lines = screen_text.split('\\n')\n    for i, line in enumerate(lines):\n        if \"▶\" in line:\n            for j, name in enumerate(order):\n                if name.lower() in line.lower():\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = order.index(target.upper())\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    def normalize(s):\n        return re.sub(r'[^a-z]', '', s.lower())\n\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    norm_order = [normalize(n) for n in order]\n    norm_target = normalize(target)\n    \n    if norm_target not in norm_order:\n        return [f\"Error: Target '{target}' not in menu order\"]\n    \n    target_idx = norm_order.index(norm_target)\n    \n    curr_idx = -1\n    lines = screen_text.split('\\n')\n    for i, line in enumerate(lines):\n        if \"▶\" in line or \"▷\" in line:\n            line_norm = normalize(line)\n            for j, n_name in enumerate(norm_order):\n                if n_name in line_norm:\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = norm_order.index(norm_target)\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-27T05:50:42.249Z",
         "action_counter": 24933
+      },
+      {
+        "commit_message": "Refined menu_navigator_crystal_v2 to handle special characters like 'é' by normalizing strings (removing non-alpha characters) before matching. Also added support for the '▷' cursor.",
+        "timestamp": "2025-12-27T05:53:07.908Z",
+        "action_counter": 24940
       }
     ]
   }
