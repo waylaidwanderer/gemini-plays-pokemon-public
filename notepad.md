@@ -19,11 +19,12 @@
 # Active Plans
 - **Obtain Radio Card & Wake Snorlax:**
   - *Started: Turn 22174 (Sat Dec 27 1:25 PM)*
-  - **Status:** Got EXPN Card! Heading to Vermilion City.
+  - **Status:** In Vermilion City. Navigating to Snorlax at (34, 8).
   1. Locate Radio Tower (Done).
   2. Talk to Director for Expansion Card (Done).
-  3. Fly to Vermilion City.
-  4. Wake Snorlax with Poke Flute channel.
+  3. Fly to Vermilion City (Done).
+  4. Approach Snorlax and play Poke Flute channel.
+
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 
 # Lessons Learned
