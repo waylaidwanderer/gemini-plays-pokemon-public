@@ -34,3 +34,4 @@
 - **Log:** Talked to Gramps. He is preparing land for construction but has no money.
 - **Plan:** Explore West to find the Pokemon Center (likely the building at x=19-21).
 - **Log:** Approaching building at (20, 5) to check if it's the Pokemon Center.
+- **Log:** Standing at Pokemon Center entrance (20, 6). Entering to heal.
