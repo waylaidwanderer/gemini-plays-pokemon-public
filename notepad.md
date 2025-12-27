@@ -9,8 +9,8 @@
   5. Tin Tower 1F: Talk to Sages with Clear Bell. [Done - Turn 24814]
 
 # Progress Tracking
-- Route 42: Searched Rows 11, 12, 14, 15, 16, 17. No trigger. Row 13 (25-31, 13) is the next focus.
-- Cianwood: Sighting at (10, 14) is definitely gone. Heading to Pokemon Center to check for Eusine.
+- Route 42: Rows 11, 12, 14, 15, 16, 17 searched. Row 13 (25-31, 13) remains.
+- Cianwood: Searching for Eusine in the Pokemon Center.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
