@@ -148,5 +148,47 @@
         "action_counter": 25794
       }
     ]
+  },
+  "find_path_v4_refined": {
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Handles landing from water and cutting trees.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "can_cut": {
+          "default": false,
+          "type": "boolean"
+        },
+        "can_surf": {
+          "default": false,
+          "type": "boolean"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "nullable": true,
+          "type": "integer"
+        },
+        "start_y": {
+          "nullable": true,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\nimport sys\n\ndef solve():\n    try:\n        input_data = json.load(sys.stdin)\n        map_xml = input_data.get('map_xml_string', '')\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        end_x = int(input_data.get('end_x'))\n        end_y = int(input_data.get('end_y'))\n        can_surf = input_data.get('can_surf', False)\n        can_cut = input_data.get('can_cut', False)\n        \n        if not map_xml:\n            print(json.dumps({\"error\": \"Map XML is empty\"}))\n            return\n\n        root = ET.fromstring(map_xml)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        if start_x is None or start_y is None:\n            player = root.find(\".//Player/..\")\n            if player is not None:\n                start_x = int(player.attrib['id'])\n                start_y = int(player.find(\"..\").attrib['id'])\n            else:\n                print(json.dumps({\"error\": \"Start position not found\"}))\n                return\n\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                is_warp = tile.attrib.get('is-warp') == 'true'\n                has_obj = tile.attrib.get('has-object') == 'true'\n                \n                passable = True\n                if t_type in ['WALL', 'unseen', 'HEADBUTT_TREE']:\n                    passable = False\n                elif t_type == 'WATER' and not can_surf:\n                    passable = False\n                elif t_type == 'CUT_TREE' and not can_cut:\n                    passable = False\n                elif has_obj:\n                    passable = False\n                \n                if is_warp and (x != end_x or y != end_y):\n                    passable = False\n                \n                if x == end_x and y == end_y:\n                    passable = True\n                \n                grid[(x, y)] = passable\n\n        queue = deque([(start_x, start_y, [])])\n        visited = {(start_x, start_y)}\n        \n        while queue:\n            curr_x, curr_y, path = queue.popleft()\n            if curr_x == end_x and curr_y == end_y:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = curr_x + dx, curr_y + dy\n                if 0 <= nx < width and 0 <= ny < height and grid.get((nx, ny)) and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        \n        print(json.dumps({\"error\": \"Path not found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T17:51:55.049Z",
+        "action_counter": 26431
+      }
+    ]
   }
 }

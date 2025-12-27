@@ -2,15 +2,12 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
-- Current Turn: 26426.
-
 ## Current Strategy
 - Plan:
-  1. Navigate to (24, 12) and use CUT on the tree at (24, 13).
-  2. Walk to (26, 15) to trigger the Suicune sighting on Route 42.
-  3. If no trigger, check the Burned Tower basement for Eusine.
-  4. If progress stalls, head to Route 36 junction (35, 9).
-  5. If all overworld sightings fail, attempt to enter Tin Tower.
+  1. Walk to (26, 15) to trigger the Suicune sighting on Route 42.
+  2. If no trigger, check the Burned Tower basement for Eusine.
+  3. If progress stalls, head to Route 36 junction (35, 9).
+  4. If all overworld sightings fail, attempt to enter Tin Tower.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
