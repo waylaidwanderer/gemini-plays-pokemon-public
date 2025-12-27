@@ -16,10 +16,10 @@
 5. Tin Tower 1F: Pending.
 
 ## Hypotheses & Strategy
-- Hypothesis 1: Route 42 sighting is next. (Attempted Turn 25515 sweep, failed).
+- Hypothesis 1: Route 42 sighting is next.
 - Hypothesis 2: Route 36 sighting is next. [Current Target - Started Turn 25535]
-- Hypothesis 3: Eusine provides a trigger. (No)
-- Hypothesis 4: Suicune is already at Tin Tower 1F. (Checked Turn 25477, No)
+- Hypothesis 3: Eusine provides a trigger. (Confirmed: No at Ecruteak Pokecenter)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
 ## Strategy Details
 - Route 36 sighting: Navigate to the Sudowoodo junction via Route 37 and approach from the south (Route 35 entrance).
@@ -53,10 +53,5 @@
 
 ## Tool Notes
 - `find_path_v3`: Robust pathfinding. Fails between separate Ecruteak maps.
-- `suicune_tracker_v2`: Confirms Route 42 sighting is required next.
-- `open_fly_map_v4`: Robust Fly map opener (Turn 25531).
-
-## General Lessons
-- Menu State: Always ensure menus are closed before overworld navigation.
-- Persistent Cursors: Party menus remember cursor positions; mash 'Up' to reset.
-- False Constraints: Don't assume a sighting is "skipped"; re-verify trigger tiles.
+- `suicune_tracker_v2`: Expert on sightings.
+- `open_fly_map_v4`: Robust Fly map opener (Turn 25536).
