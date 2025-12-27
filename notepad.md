@@ -55,4 +55,4 @@
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
 - **Immediate Task:** Challenge Lass (No. 4) at (22, 6).
 - **Next Task:** Challenge Youngster (No. 5) at (25, 4).
-- **Battle Log:** Defeated Schoolboy Joe (No. 3).
+- **Battle Log:** Defeated Lass Laura's Gloom and Pidgeotto. Now facing Bellossom.
