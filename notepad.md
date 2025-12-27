@@ -1,7 +1,7 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Use Cut via the Party Menu (Slot 6: Belladonna) to ensure the tree at (33, 24) is removed, then navigate to Route 9.
+- **Immediate Task:** Exit menus, Face Right (towards tree), then use Cut from the Party Menu (Slot 6: Belladonna).
 
 # Strategic Goals
 1. **Restore Power:**
