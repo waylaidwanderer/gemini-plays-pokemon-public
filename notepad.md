@@ -26,12 +26,12 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** Exited Pokemon Center. Heading East to find a path North.
-- **Action:** Navigate to Column 24 (potential vertical street) via Row 31 to avoid NPCs.
+- **Status:** At Mr. Psychic's House (27, 29).
+- **Action:** Read sign, then enter house to meet Mr. Psychic (Expected: Get TM29).
 - **Next Steps:**
-    1. Check if path North at Column 24 is open.
-    2. Locate Saffron Gym and Silph Co (likely North/Central).
-    3. Visit Mr. Psychic (South-East?) and Copycat's House (North-West?).
+    1. Locate Saffron Gym and Silph Co (likely North/Central).
+    2. Locate Copycat's House (North-West?).
+    3. Check fighting Dojo.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
