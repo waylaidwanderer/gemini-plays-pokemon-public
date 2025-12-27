@@ -34,4 +34,4 @@
 - If a path is blocked by an NPC, check all adjacent tiles for a detour.
 - **CRITICAL:** Pay immediate attention to NPC dialogue hints (e.g., "tower shook") to avoid wasting time on obsolete overworld sightings.
 - Spoken to all three Sages (Wise Trio) in Tin Tower 1F (Turns 26047-26053).
-- Moving to center of room (approx 10, 11) to trigger Suicune encounter.
+- Approaching center stage (11, 8) to trigger Suicune encounter.
