@@ -38,7 +38,10 @@
 
 # Suicune Sighting Strategy (Route 42/36)
 - If Tin Tower Sages do not trigger the battle, return to Route 42 and Route 36.
-- Route 42: Use list_reachable_unseen_v1 to ensure no trigger tiles are missed on the central island.
+- Route 42:
+  1. Surf to the central island.
+  2. Use `list_reachable_unseen_v1` to identify any unstepped tiles.
+  3. Methodically walk over EVERY reachable tile on the island.
 - Route 36: Approach the Sudowoodo junction from the Violet City side.
 - Note: Sighting on Route 42 MUST occur before Route 36.
 
