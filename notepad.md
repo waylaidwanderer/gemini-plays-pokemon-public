@@ -109,3 +109,8 @@
 - Testing path to (42, 17).
 - Jumped ledge at (28, 13) to access southern path.
 - Heading East towards the river at x=56.
+- Route 9 Strategy:
+  - Row 16 is a ledge/wall. Must stay on Row 14/15 to clear trainers.
+  - Heading West to defeat Lass at (12, 15).
+  - Then Heading East to defeat Pokefan M at (36, 15).
+  - Then using gap at (42, 16) to bypass wall and reach Power Plant.
