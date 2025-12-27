@@ -1,43 +1,43 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
 - Start: Turn 24182, Saturday 12:45 AM.
-- Current Attempt Duration: ~1500 turns.
+- Current Attempt Duration: ~1550 turns.
 
 ## Story Progress
 - Clear Bell: Obtained.
 - Team Rocket: Disbanded at Radio Tower.
 - Tin Tower: Shook after entering gatehouse with Clear Bell.
 - Wise Trio Room: Emptied.
+- Sages (Gatehouse & 1F): All talked to after tower shook. [Turn 25726]
 
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): Failed (Turn 25654, Sprite not visible after thorough sweep). Note: Prerequisites might be missing despite completed sightings.
-4. Route 36 (Sudowoodo Junction): Failed (Turn 25667, Sprite not visible). Note: Sighting #3 must be completed first.
-5. Tin Tower 1F: Checked (Turn 25726, Sprite not visible).
-## Hypotheses & Strategy
-- Hypothesis: Talking to all Sages in the Gatehouse and Tin Tower 1F while the Clear Bell is active has set the flag for the Route 42 sighting.
-- Strategy:
-    1. Exit Tin Tower 1F and Ecruteak.
-    2. Travel to Route 42 central island.
-    3. Scour the island for Suicune sighting.
-    4. If unsuccessful, re-check Cianwood for missed flags.
+3. Route 42 (Central Island): Failed (Turn 25654). Re-attempting after Sage dialogue.
+4. Route 36 (Sudowoodo Junction): Pending.
+5. Tin Tower 1F: Pending.
 
-## Tin Tower Gatehouse Investigation (Archived Results)
-- Result: Gramps talked about the two towers and the two Pokémon that flew away. Sages mentioned a Pokémon returned to the top. This dialogue confirms the Clear Bell is recognized and the tower is active. [Turn 25706]
+## Hypotheses & Strategy
+- Hypothesis: Talking to all Sages in Ecruteak while the Clear Bell is active is the final trigger for the Route 42 sighting.
+- Strategy:
+    1. Travel to Route 42 central island.
+    2. Use CUT on tree at (24, 13).
+    3. Sweep the southern part of the island to trigger Suicune.
+    4. If unsuccessful, return to Cianwood to re-verify Eusine battle outcome.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable with SURF.
 - CUT_TREE: Impassable; remove with CUT.
-- GRASS: Traversable; triggers wild encounters.
-- CAVE/DOOR: Warp/Entry point.
-- LEDGE_HOP: One-way traversal.
-- LADDER: Warp tile; triggers transition upon entry or movement. [Verified - Turn 25708]
+- GRASS / TALL_GRASS: Traversable; triggers encounters.
+- CAVE / DOOR / WARP: Warp points.
+- LADDER: Warp point.
+- HEADBUTT_TREE: Impassable.
+- FLOOR_UP_WALL: Traversable (ledges/stairs).
 
 ## Lessons Learned
-- Notepad Management: Only one `notepad_edit` call is allowed per turn. [Turn 25561]
-- Suicune Sightings: Suicune is a static overworld sprite. If not visible at (26, 14), prerequisites are likely unmet. [Turn 25620]
-- Tool Refinement: `find_path_v4` refined to handle floor-to-water transitions and ladder/door types. [Turn 25707]
-- Sequence Locking: Suicune sightings are strictly linear. Route 42 MUST be triggered before Route 36. [Turn 25682]
+- Notepad Management: Only one `notepad_edit` call is allowed per turn.
+- Suicune Sightings: Strictly linear. Route 42 MUST be triggered before Route 36.
+- Tool Refinement: `find_path_v4` refined for complex types. [Turn 25707]
+- Proximity Triggers: Suicune sightings may be zone-based, not just single-tile. [Turn 25741]
