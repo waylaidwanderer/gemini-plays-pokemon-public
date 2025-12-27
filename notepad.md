@@ -1,26 +1,18 @@
 # Suicune Quest Log
 - **Start Turn:** 24175 (2025-12-26 20:30)
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
-- **Progress:**
+- **Sighting Requirements:**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting check. [Sprite missing - Turn 24768. MUST FIND]
-  4. Route 36 (Sudowoodo junction): Sighting check. [Sprite missing - Turn 24733. MUST FIND]
+  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24860]
+  4. Route 36 (Sudowoodo junction): Sighting [Sprite missing - Turn 24733. MUST FIND]
   5. Tin Tower 1F: Talk to all three Sages. [Failed - Turn 24814. Prerequisites missing]
 
 # Immediate Plan
-- Navigate to Route 42 Central Island.
-- Search Central Island (27-29, 16) and surrounding tiles for Suicune.
-- If Suicune is not found on the central island:
-    - Walk every single tile on the island to find the trigger.
-    - If still missing, return to Cianwood City (North) to re-verify sighting.
-- Battle and capture Suicune.
-
-# Battle Strategy: Suicune
-- **Lead:** KIMCHI (Gloom) Lv21.
-- **Move:** Sleep Powder to induce sleep (prevents Roar/Escape).
-- **Support:** XENON (Gastly) Lv21 with Mean Look.
-- **Capture:** Weaken with low-damage moves and use Ultra/Great Balls.
+- Navigate to Route 36 junction (where Sudowoodo was).
+- Search Route 36 for Suicune sighting.
+- If Suicune is found on Route 36, re-check Route 42.
+- If still missing, return to Cianwood City (North) to re-verify sighting.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
@@ -35,6 +27,10 @@
 - **DOOR/STAIRS/LADDER:** Traversable. Triggers map transition.
 - **PC/COUNTER/SIGN:** Impassable. Interact from an adjacent tile.
 
+# Progress Tracking
+- Route 42 Island Search: Thoroughly searched Turn 24851-24860. No Suicune sprite or Eusine sighting. Trigger might require Route 36 sighting first or a specific approach.
+- Route 36 Search: Briefly checked Turn 24733. Need exhaustive search.
+
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated.
 - Route 42: Fisher Tully, Hiker Benjamin, Pokemaniac Shane defeated.
@@ -42,10 +38,8 @@
 # General Lessons
 - **Suicune Trigger:** Overworld sightings on Route 42 and Route 36 are MANDATORY prerequisites for the Tin Tower battle in Crystal.
 - **Fly Map:** "Up" scrolls cities (New Bark -> Violet -> Ecruteak).
+- **Violet City West Exit:** (0, 9) leads to Route 36.
+- **Route 36 Sudowoodo Junction:** (35, 9) approx. location.
 
-# Money Management
-- Current: ¥373. Needs: ~¥1200 per Ultra Ball.
-- Strategy: Battle trainers on Route 42 (if any left) or Route 38/39. Sell unnecessary items (Hard Stone, TMs I won't use).
-- Note: High-priority to have at least 5-10 Ultra Balls before the final Suicune fight.
-- **Suicune Search (Route 42):** Attempted to move Down from (27, 15) to (27, 16) but was blocked by a FRUIT_TREE. Need to navigate around trees to reach the southern row (y=17).
-- **Strategy:** Move to (26, 15) -> (26, 16) -> (26, 17) then walk east.
+# PC Storage
+- Box 1: BRIMSTONE, HELIODOR, COBALT, QUARTZ, DIVA, PENDULUM, JASPER, UNAKITE, EGG, AMETHYST, AZURITE, HEMATITE, KENYA, TOGEPI, LUCID, BELLADONNA, TRUFFLE, LAPIS.
