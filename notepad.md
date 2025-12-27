@@ -34,3 +34,4 @@
 - Route 36 Target: (35, 9).
 - Hypothesis: Sighting might require map reset or specific approach.
 - Status: Island at (26, 15) appears empty. Checking map reset via Mt. Mortar.
+- Lesson Learned (Turn 26831): If a legendary beast sighting doesn't trigger at the correct coordinates after multiple sweeps, it's likely already been flagged as complete. Proceed to the next step in the sequence or verify the final gatekeeper (e.g., Tin Tower sages).
