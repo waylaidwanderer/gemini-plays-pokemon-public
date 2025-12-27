@@ -46,14 +46,11 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** At (29, 7). Found path North via Column 29.
-  - **Obstacle:** Wall at x=32 on Row 7.
-  - **Solution:** Go North to Row 3 to bypass the wall.
-  - **Hazard:** Pokefan M at (28, 3) facing Right.
+  - **Status:** Battling Hiker Tim at (28, 3). Upper Tier (Row 3).
   - **Plan:**
-    1. Go North to (29, 3).
-    2. Defeat Pokefan M.
-    3. Proceed East on Row 3.
+    1. Win battle.
+    2. Continue East along Row 3.
+    3. Look for path South-East to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
