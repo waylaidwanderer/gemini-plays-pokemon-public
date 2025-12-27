@@ -44,7 +44,8 @@
 - **CUT_TREE:** Requires Cut.
 - Found the path to Route 9! It was a gap in the wall at (36, 22), bypassing the cuttable tree.
 - Heading East to enter Route 9 and find the Power Plant.
-- Route 9 Navigation: The route is split into Upper and Lower paths by ledges and walls. 
-- I am currently on the Lower path (Row 8+), which is one-way (East to West or Ledge Down).
-- To reach the Youngster and the Grass area (Upper Path), I must enter Route 9 from a different (Northern) entrance in Cerulean City.
-- Plan: Return to Cerulean, backtrack up the hidden path, and look for a way East that stays North (around y=12-16).
+- **Route 9 Navigation:**
+  - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
+  - **Issue:** Entered via Lower path (gap at 7_17 (36,22)). Stuck below ledges.
+  - **Solution:** Return to Cerulean City and find a Northern entrance to access the Upper path.
+  - **Timestamp:** Turn 21450 - Beginning backtracking to Cerulean.
