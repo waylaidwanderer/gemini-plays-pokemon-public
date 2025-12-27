@@ -36,3 +36,4 @@
 - **Hypothesis:** The "Northern Part" of Map 15_5 (with Bed/PC) is accessible via a different staircase on 1F. Need to find it.
 - **Log:** Stairs at 1F (19, 15) lead to an empty cabin (Map 15_5, South Room).
 - **Plan:** Explore the West side of 1F to find the stairs to the Northern Room (Captain's quarters?).
+- **Log:** Returned to 1F. Now checking stairs at (19, 15).
