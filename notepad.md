@@ -10,7 +10,12 @@
 
 # Progress Tracking
 - Route 42: Rows 11, 12, 14, 15, 16, 17 searched. Row 13 (25-31, 13) remains.
-- Cianwood: Sighting verified. Defeated Eusine at (11, 17) [Turn 24981]. Route 42 sighting is now available.
+## Suicune Sighting Sequence (Crystal)
+1. Burned Tower (Ecruteak): Beasts flee. [Verified]
+2. Cianwood City (North): Sighting. [Verified]
+3. Route 42 (Central Island): Sighting. [In Progress]
+4. Route 36 (Sudowoodo junction): Sighting. [Pending]
+5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
@@ -18,10 +23,10 @@
 - **WATER:** Traversable only with HM03 Surf.
 - **TALL_GRASS:** Traversable. Triggers wild encounters.
 - **HEADBUTT_TREE:** Impassable. Can be interacted with using Headbutt.
-- **CUT_TREE:** Impassable. Can be removed using HM01 Cut.
+- **CUT_TREE:** Impassable. Removed using HM01 Cut. Regrows when the map is reloaded (e.g., after warping or flying).
 - **FRUIT_TREE:** Impassable. Interact to obtain berries/apricorns.
-- **WARP_CARPET:** Traversable. Triggers map transition/warp.
-- **LEDGE:** One-way traversable (down/right/left as indicated). Hop over.
+- **WARP_CARPET:** Traversable. Triggers map transition/warp when walking "off" the map edge or onto the specific tile.
+- **LEDGE:** One-way traversable (down/right/left as indicated). Hop over to descend.
 - **DOOR/STAIRS/LADDER:** Traversable. Triggers map transition.
 - **PC/COUNTER/SIGN:** Impassable. Interact from an adjacent tile.
 
