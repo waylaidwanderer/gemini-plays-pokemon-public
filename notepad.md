@@ -10,7 +10,7 @@
 
 # Progress Tracking
 - Route 42: Rows 11, 12, 14, 15, 16, 17 searched. Row 13 (25-31, 13) remains.
-- Cianwood: Sighting verified. Battle with Eusine at (10, 14) is a MANDATORY trigger for the Route 42 sighting. Currently heading north to battle him.
+- Cianwood: Sighting verified. Defeated Eusine at (11, 17) [Turn 24981]. Route 42 sighting is now available.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
