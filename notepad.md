@@ -30,7 +30,7 @@
 
 ## Progress Tracking
 - Current Task: Re-verify Suicune sightings on Route 42 and Route 36.
-- Status: Crossing gatehouse to Route 42. Target: Island clearing (26, 15).
+- Status: Flying to Ecruteak to re-verify Burned Tower B1F flee event.
 ## Suicune Sighting Troubleshooting
 - Route 42 (26, 15): Confirmed empty 4+ times (Turn 26911).
 - Hypothesis 1: Already triggered (Sages should battle, but they won't).
