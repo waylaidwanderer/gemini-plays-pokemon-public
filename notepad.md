@@ -65,3 +65,6 @@
 - **Correction:** Adjusted position from hallucinated (30, 14) to actual (26, 6).
 - **Action:** Entering Cabin at (27, 8).
 - **Log:** Retrying entry to Cabin at (27, 8). Previous navigation attempt didn't trigger warp.
+- **Log:** Successfully moved onto warp tile at (27, 8) but warp did not trigger immediately.
+- **Action:** Pressing 'Down' again to force the warp or bump the wall.
+- **Hypothesis:** Warp might require walking 'into' the wall or didn't trigger due to turn ending mid-animation.
