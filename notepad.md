@@ -22,7 +22,7 @@
 
 # NPC & Interaction Rules
 - Sage (4, 6): Passage guard. Granted access. [Verified]
-- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
+- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42. [Empty on Turn 24373]
 
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated.
