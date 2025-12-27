@@ -41,3 +41,5 @@
 - **Plan:** Exiting cabin to re-check the other 1F cabins (19, 8) and (15, 8). The quest trigger might have spawned the sailor there.
 - **Log:** Exited cabin at (23, 8). Pokefan M confirmed.
 - **Action:** Investigating cabin at (19, 8).
+- **Log:** Standing on Warp Carpet at (19, 8). Warp didn't trigger yet.
+- **Action:** Pressing Down to force entry into the cabin.
