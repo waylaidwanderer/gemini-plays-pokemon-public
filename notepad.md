@@ -11,12 +11,19 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island):
-   - Attempt 1 (Turn 25425): Stepped on (26, 14). Failed.
-   - Attempt 2 (Turn 25515): Thorough sweep of island (22, 12) to (30, 17). Failed.
-   - Attempt 3 (Turn 25526): Entering Route 42 from Mahogany Town (East). [Current Target]
+3. Route 42 (Central Island): Pending.
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Checked (Turn 25477). Suicune not present.
+5. Tin Tower 1F: Pending (Checked Turn 25477, not present).
+
+## Hypotheses
+- Hypothesis 1: Route 42 sighting is next. [Current Target - Attempt 3 started Turn 25526]
+- Hypothesis 2: Route 36 sighting is next.
+- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Confirmed: No)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
+
+## Strategy & Planning
+- Route 42 sighting: Approach the central island from the east (Mahogany side).
+- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -50,3 +57,8 @@
 - Ecruteak Pokecenter: Nurse (3, 1), Gym Guide (7, 1), Pokefan M (7, 6), Cooltrainer F (1, 4) [All Checked]
 - Tin Tower Gatehouse: Sage (4, 6) [Pass], Sage (6, 9) [Info], Gramps (3, 11) [Info]
 - Tin Tower 1F: Sage (11, 11), Sage (5, 9), Sage (14, 6) [All Info]
+
+## Tool Notes
+- `find_path_v3`: Fails between Ecruteak Main and Restricted areas; use bridge or Fly.
+- `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
+- `open_fly_map_v4`: Robust Fly map opener (Created Turn 25531).

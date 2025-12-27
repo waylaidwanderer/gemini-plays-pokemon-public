@@ -106,5 +106,28 @@
         "action_counter": 24932
       }
     ]
+  },
+  "open_fly_map_v4": {
+    "description": "Robustly opens the FLY map from the main menu. Clears existing menus, resets Start and Party menu cursors, and selects the Pokemon at the given party index.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "party_index": {
+          "type": "integer",
+          "description": "The 1-indexed position of the Pokemon with FLY in the party."
+        }
+      },
+      "required": [
+        "party_index"
+      ]
+    },
+    "python_script": "import json\nindex = int(input_data['party_index'])\nbuttons = []\n# Ensure menus closed\nfor _ in range(3): buttons.extend(['B', 'sleep 100'])\n# Open Start Menu\nbuttons.extend(['Start', 'sleep 500'])\n# Reset Start Menu cursor to top (POKEDEX)\nfor _ in range(7): buttons.extend(['Up', 'sleep 100'])\n# Move to POKEMON\nbuttons.extend(['Down', 'sleep 100', 'A', 'sleep 500'])\n# Reset Party Menu cursor to top\nfor _ in range(7): buttons.extend(['Up', 'sleep 100'])\n# Move to target index\nfor _ in range(index - 1): buttons.extend(['Down', 'sleep 100'])\n# Select FLY\nbuttons.extend(['A', 'sleep 500', 'A', 'sleep 500'])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T10:33:33.191Z",
+        "action_counter": 25531
+      }
+    ]
   }
 }
