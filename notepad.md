@@ -48,8 +48,8 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Exit Saffron Gym.
-- **Status:** Saffron City. Heading to Pokemon Center.
+- **Status:** In Saffron Pokemon Center. Healing team.
 - **Next Steps:**
-    1. Enter Pokemon Center.
-    2. Heal team.
+    1. Heal team.
+    2. Exit Pokemon Center.
     3. Head North to Route 5/Cerulean City.
