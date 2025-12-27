@@ -39,11 +39,4 @@
 - Sages granting passage to Tin Tower doesn't mean sightings are done.
 - Tile 'type' in XML is the source of truth for collision.
 - Wise Trio battle might be a separate requirement or a trigger for Eusine's appearance.
-
-## Suicune Quest Diagnostic Log
-- Burned Tower: Flee event completed.
-- Cianwood City (North): Flee event completed. Eusine defeated.
-- Route 42: Attempt 1 (Turn 26164) and Attempt 2 (Turn 26322) failed.
-- Ecruteak PC: Eusine MISSING (Confirmed at Turn 26293 and 26333).
-- Wise Trio: Room (4_2) was empty at Turn 26233.
-- Status: Searching for the 'Wise Trio' battle or next trigger in Ecruteak. [START TURN: 26341]
+- Confirmation bias is real: I thought I beat Eusine, but the Analyst corrected me! Always verify battle outcomes in the notepad.
