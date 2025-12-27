@@ -23,7 +23,7 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** In Saffron City. Heading to Lavender Town.
+  - **Status:** On Route 8, heading East to Lavender Town.
   1. Fly to Saffron City. (Done)
   2. Walk East to Route 8 and continue to Lavender Town.
   3. Talk to the Radio Tower Director to get the Expansion Card.
