@@ -41,6 +41,7 @@
 - Start Turn: 25687
 - NPCs to talk to:
     - Sage ID 1 at (4, 6): [X]
-    - Sage ID 3: [X]
-    - Gramps ID 4 at (3, 11): [ ]
-- Goal: Determine if dialogue changed after Tin Tower shook and if it triggers Suicune sightings. [Turn 25690]
+    - Sage ID 3 at (6, 9): [X]
+    - Gramps ID 4 at (4, 10): [X]
+- Goal: Determine if dialogue changed after Tin Tower shook and if it triggers Suicune sightings. [Turn 25706]
+- Result: Gramps talked about the two towers and the two Pokémon that flew away. Sages mentioned a Pokémon returned to the top. Checking Tin Tower 1F next.
