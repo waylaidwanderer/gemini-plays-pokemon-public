@@ -47,8 +47,10 @@
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
   - **Status:** Surfing on Route 9.
+  - **Correction:** The water channel runs South along the eastern edge (Columns 56-57).
   - **Plan:**
-    1. Navigate the water route (likely South-East) to find the Power Plant entrance.
+    1. Surf South along the channel.
+    2. Look for the Power Plant entrance or a transition to Route 10.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
