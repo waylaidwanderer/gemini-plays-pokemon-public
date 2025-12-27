@@ -2,7 +2,6 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
-- Mahogany Approach Start: Turn 26573 (Timestamp: Saturday, Dec 27, 2025, 11:03 AM PST).
 
 ## Current Strategy
 - Plan:
@@ -17,12 +16,13 @@
   - To reach SWITCH: Press Down (num_field_moves + 1) times, then A.
 
 ## Tile Mechanics - Route 42
-- FLOOR: Traversable.
-- WALL: Impassable.
+- FLOOR: Traversable. Verified.
+- WALL: Impassable. Verified.
 - WATER: Traversable ONLY with SURF. Verified at (13, 9).
 - CUT_TREE: Remove with CUT. Verified at (24, 13).
-- TALL_GRASS: Walkable, triggers wild encounters.
-- HEADBUTT_TREE: Impassable.
+- TALL_GRASS: Walkable, triggers wild encounters. Verified.
+- HEADBUTT_TREE: Impassable. Verified.
+- CAVE: Entrance/Exit warp. Verified.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
