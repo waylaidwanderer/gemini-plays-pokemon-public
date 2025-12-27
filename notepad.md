@@ -122,13 +122,9 @@
 - Hiker Sidney (Object: POKEFAN_M) defeated at (36, 15).
 - Muscle Strength PP: 6.
 - Heading East towards Route 10 / Power Plant.
-- Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16 (suspected ledges).
-- Pokefan M Post-Battle Dialogue: "The POWER PLANT is across a small river."
-- Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16. Expecting a ledge jump.
-- Dialogue closed.
-- Jumping ledge at (35, 16) to reach Row 17.
-- Plan:
-  1. Head East along Row 17 to the river (x=56).
-  2. Surf across the river to reach the Power Plant.
+- Tested Row 16 'FLOOR_UP_WALL' tiles: they act as WALLS from the North, not ledges.
+- Pokefan M blocked path at (36, 15).
+- Plan: Go around Pokefan M via Row 14, then head East to gap at (42, 16).
+- Target: (42, 17) (South of the wall).
 - Jumped ledge at (35, 16).
 - Heading East on Row 17 to water's edge at (56, 17).
