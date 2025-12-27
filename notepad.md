@@ -30,3 +30,4 @@
 - **Log:** Encountered another Teacher at (19, 8).
 - **Plan:** Talk to her, then check the building to the North/West.
 - **Log:** Heading to Gramps at (23, 6). Possible Pokemon Center nearby.
+- **Observation:** Found a Machop at (26, 7) stomping the ground. Gramps is watching.
