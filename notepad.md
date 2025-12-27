@@ -6,10 +6,10 @@
 ## Current Strategy
 - Plan:
   1. Fly to Ecruteak City.
-  2. Perform a precision sweep of Route 42 island (walk onto (26, 15)).
-  3. If no trigger, perform a precision sweep of Route 36 junction (walk onto (35, 9)).
-  4. If both fail, talk to the Sages in the Tin Tower Gatehouse again.
-  5. Check Ecruteak PC for Eusine AFTER overworld sightings.
+  2. Go to Ecruteak Pokémon Center and talk to Eusine (Mandatory trigger for overworld sightings).
+  3. Return to Route 42 island and walk onto (26, 15) to trigger the sighting.
+  4. If that fails, go to the Route 36 junction and walk onto (35, 9).
+  5. If both fail, re-consult with Sages in Tin Tower Gatehouse.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
