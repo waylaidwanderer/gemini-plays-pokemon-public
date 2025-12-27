@@ -32,10 +32,10 @@
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed.
 - 3. Eusine Battle (Cianwood): Defeated.
-- 4. Route 42 sighting: COMPLETED (Turn 26678).
-- 5. Route 36 sighting: ATTEMPTING. Trigger tile: (35, 9). Currently heading there from Route 42.
-- 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
-- 7. Wise Trio Room: Empty at Turn 26628.
+- 4. Route 42 sighting: REQUIRED. Trigger tile: (26, 15).
+- 5. Route 36 sighting: REQUIRED. Trigger tile: (35, 9).
+- 6. Tin Tower Shook: Dialogue reported at Turn 26214. (Re-verifying).
+- 7. Wise Trio Room: Empty. (Re-verifying).
 
 ## General Lessons Learned
 - **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately. Do not persist with failing logic.
