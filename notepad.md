@@ -11,6 +11,25 @@
   3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
   4. Battle Wise Trio to gain access to Tin Tower roof.
 
+## Menu Structures
+- Pokémon Sub-menu (with field moves):
+  1. [Field Move (e.g., CUT, SURF, HEADBUTT)]
+  2. STATS
+  3. SWITCH
+  4. MOVE
+  5. ITEM
+  6. CANCEL
+- Pokémon Sub-menu (no field moves):
+  1. STATS
+  2. SWITCH
+  3. MOVE
+  4. ITEM
+  5. CANCEL
+
+## Tile Mechanics - Route 42
+- WATER: Traversable ONLY with SURF. Verified at (13, 9).
+- While SURFing, selecting a Pokémon in the party menu may show their field move (e.g., HEADBUTT) as the first option if they have one.
+
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed (Suicune fled).
@@ -23,26 +42,4 @@
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
-
-## Tile Mechanics
-- FLOOR: Traversable. Verified.
-- WALL: Impassable. Verified.
-- WATER: Traversable ONLY with SURF. Verified at (13, 9).
-- CUT_TREE: Remove with CUT. Verified at (24, 13).
-- LADDER/STAIRS: Warp. Verified.
-- FLOOR_UP_WALL: Ledge (North to South). Verified.
-- LEDGE_HOP_DOWN: One-way (North to South). Cannot walk up.
-- HEADBUTT_TREE: Impassable. Verified.
-- TALL_GRASS: Walkable. Verified.
-- WARP_CARPET: Warp. Verified.
-
-## Lessons Learned
-- Suicune events are strictly linear.
-- Eusine's location depends on quest progress.
-- Sages granting passage to Tin Tower indicates the "Clear Bell" event is active.
-- Verification is key: Marker at (11, 20) confirms defeat, but sightings failure suggests missing flag or sequence issue.
-## Strategy for Blackthorn City
-- Route: Route 44 -> Ice Path -> Blackthorn City.
-- Requirements: Waterfall (HM07) likely needed for navigation.
-- Objective: Obtain the Rising Badge from Gym Leader Clair at next opportunity if Suicune hunt remains stalled.
-- 12. Turn 26530: Encountered Wild Seaking at (18, 12). KIMCHI at 4 HP. Swapped lead to Calcifer.
+- 12. Lead Swapping: Attempting to swap Calcifer to lead to handle wild encounters while Surfing.
