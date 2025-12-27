@@ -40,3 +40,5 @@
 
 # Lessons Learned
 - **Inventory Check:** Always verify Inventory for Key Items before assuming they are missing. Do not rely solely on memory or previous notepad entries.
+- **Ledge Mechanics:** Confirmed that pressing 'Down' at a ledge tile moves the player 2 tiles (hopping the ledge) but only consumes 1 movement input.
+- **Lass Location:** Confirmed Lass is at (39, 8) and blocks that tile. Successfully navigated around via Row 9.
