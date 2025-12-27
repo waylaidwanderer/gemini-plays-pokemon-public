@@ -5,7 +5,7 @@
 ## Story Progress
 - Clear Bell: Obtained.
 - Team Rocket: Disbanded at Radio Tower.
-- Tin Tower: Shook after entering gatehouse with Clear Bell.
+- Tin Tower: Shook after entering gatehouse with Clear Bell. (Note: This confirms Clear Bell recognition, not Suicune's arrival).
 - Wise Trio Room: Emptied.
 
 ## Sighting Progress
@@ -16,9 +16,9 @@
 5. Tin Tower 1F: Pending.
 
 ## Hypotheses & Strategy
-- Hypothesis 1: Suicune is a visible overworld sprite on the Route 42 island.
-- Hypothesis 2: A specific flag from Cianwood is missing. [Action: Re-verify Eusine battle]
-- Hypothesis 3: Sighting sequence is non-linear or differs in Crystal. [Action: Check Route 36]
+- Hypothesis 1: Suicune is a visible overworld sprite on the Route 42 island. (Status: Not visible at Turn 25571).
+- Hypothesis 2: A specific flag from Cianwood is missing. [Action: Re-verify Eusine battle outcome].
+- Hypothesis 3: Sighting sequence is non-linear or differs in Crystal. [Action: Check Route 36].
 
 ## Strategy & Planning
 - Route 42 sighting: Confirm Suicune sprite visibility on the central island. (Status: Failed to find sprite after multiple sweeps).
