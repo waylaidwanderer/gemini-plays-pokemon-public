@@ -10,7 +10,6 @@
 
 # Progress Tracking
 - Route 42: Rows 11, 12, 14, 15, 16, 17 searched. Row 13 (25-31, 13) remains.
-- Cianwood: Searching for Eusine in the Pokemon Center.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
