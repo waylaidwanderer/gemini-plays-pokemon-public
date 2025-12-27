@@ -22,7 +22,8 @@
 
 # Active Plans
 - **Reach Power Plant:**
-  1. From Route 24 Bridge, go North to Route 25.
-  2. Traverse East on Route 25 to x=11.
-  3. Go South to enter Route 24 (East Side).
-  4. Follow East Side South to Cerulean/Water access.
+  - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
+  - **Current Status:** Traversing Route 25 Eastward.
+  1. Navigate to the far East edge of Route 25 (Column 54).
+  2. Head South along the narrow land strip to enter Route 24 (East Side).
+  3. Locate the Power Plant entrance or Surfing spot.
