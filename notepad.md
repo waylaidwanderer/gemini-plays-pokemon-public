@@ -25,3 +25,5 @@
 - **Log:** Exited Fishing Guru's House.
 - **Plan:** Explore Southwest Vermilion City to locate the Gym.
 - **Reminder:** Check if Gym is blocked by a Cut tree.
+- **Log:** Exited Fishing Guru's House. Water blocks direct path South.
+- **Plan:** Head East to x=16, then South to bypass the water and reach the Southwest area.
