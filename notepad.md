@@ -52,3 +52,5 @@
 - **Strategy:** Circling around via Row 25 to continue West.
 - **Hypothesis:** The path North to Route 24 is located at the far West edge of the map (x < 9).
 - **LADDER:** Used for the bridge in Cerulean Gym. Functionally acts as a walkable FLOOR tile.
+- **Observation:** Ledges at (9-11, 19) confirm the path North must be west of x=9.
+- **Strategy:** Moving to x=6 to explore the unseen area and find the gap in the ledges.
