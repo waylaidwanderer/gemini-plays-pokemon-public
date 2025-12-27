@@ -6,26 +6,23 @@
 
 ## Current Strategy
 - Plan:
-  1. Enter Route 42 from Mahogany Town (0, 7).
-  2. Trigger Route 42 sighting at (26, 15).
-  3. Trigger Route 36 sighting at (35, 9).
-  4. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
-  5. Battle Wise Trio to gain access to Tin Tower roof.
+  1. Trigger Route 42 sighting at (26, 15) by Mt. Mortar.
+  2. Trigger Route 36 sighting at (35, 9).
+  3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
+  4. Battle Wise Trio to gain access to Tin Tower roof.
 
 ## Menu Structures
-- Pokémon Sub-menu (with field moves):
-  1. [Field Move 1]
-  2. [Field Move 2 (if applicable)]
-  ...
-  n. STATS
-  n+1. SWITCH
-  n+2. MOVE
-  n+3. ITEM
-  n+4. CANCEL
+- Pokémon Sub-menu:
+  - Positions of STATS and SWITCH depend on the number of field moves.
+  - To reach SWITCH: Press Down (num_field_moves + 1) times, then A.
 
 ## Tile Mechanics - Route 42
+- FLOOR: Traversable.
+- WALL: Impassable.
 - WATER: Traversable ONLY with SURF. Verified at (13, 9).
-- While SURFing, selecting a Pokémon in the party menu shows field moves first. Verified with Typhlosion (HEADBUTT).
+- CUT_TREE: Remove with CUT. Verified at (24, 13).
+- TALL_GRASS: Walkable, triggers wild encounters.
+- HEADBUTT_TREE: Impassable.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
@@ -39,5 +36,3 @@
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
-- 12. Lead Swapping: Calcifer (Lv45) is now leading. Verified.
-- 13. Route 42 Sighting: Radio Tower cleared, sequence should be active. Heading to (26, 15).

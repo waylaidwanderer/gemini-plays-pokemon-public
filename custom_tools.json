@@ -156,18 +156,28 @@
         "target_index": {
           "type": "integer",
           "description": "The 1-based index of the Pokémon to move to the lead position (2-6)."
+        },
+        "num_field_moves": {
+          "type": "integer",
+          "description": "The number of field moves the current lead Pokémon has (0-4)."
         }
       },
       "required": [
-        "target_index"
+        "target_index",
+        "num_field_moves"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    target_index = int(input_data['target_index'])\n    if not (2 <= target_index <= 6):\n        return json.dumps([])\n    \n    buttons = [\"Start\", \"Down\", \"A\"] # Open menu, go to POKEMON, select it\n    \n    # We are now in the party menu, cursor on index 1\n    # We select index 1 (the current lead)\n    buttons.append(\"A\")\n    \n    # Now in sub-menu for index 1.\n    # We assume index 1 has at least one field move (very common for Gem's team).\n    # 1. [Field Move], 2. STATS, 3. SWITCH\n    buttons.extend([\"Down\", \"Down\", \"A\"])\n    \n    # Now in \"Move to where?\" mode, cursor on index 1.\n    # Move to target_index.\n    for _ in range(target_index - 1):\n        buttons.append(\"Down\")\n    \n    # Select target and swap\n    buttons.append(\"A\")\n    \n    # Exit menu\n    buttons.extend([\"B\", \"B\"])\n    \n    return json.dumps(buttons)\n",
+    "python_script": "import json\n\ndef run(input_data):\n    target_index = int(input_data['target_index'])\n    num_field_moves = int(input_data['num_field_moves'])\n    if not (2 <= target_index <= 6):\n        return json.dumps([])\n    \n    buttons = [\"Start\", \"Down\", \"A\"] # Open menu, go to POKEMON, select it\n    \n    # We are now in the party menu, cursor on index 1\n    buttons.append(\"A\") # Select index 1 (the current lead)\n    \n    # Now in sub-menu for index 1.\n    # 1..n [Field Moves], n+1. STATS, n+2. SWITCH\n    for _ in range(num_field_moves + 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    \n    # Now in \"Move to where?\" mode, cursor on index 1.\n    for _ in range(target_index - 1):\n        buttons.append(\"Down\")\n    \n    buttons.append(\"A\") # Select target and swap\n    buttons.extend([\"B\", \"B\", \"B\"]) # Exit menus\n    \n    return json.dumps(buttons)\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-27T18:52:58.051Z",
         "action_counter": 26551
+      },
+      {
+        "commit_message": "Added num_field_moves parameter to handle variable menu structures.",
+        "timestamp": "2025-12-27T19:09:03.419Z",
+        "action_counter": 26581
       }
     ]
   }
