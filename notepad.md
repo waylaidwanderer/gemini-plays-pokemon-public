@@ -2,10 +2,11 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Enter and explore the house at (7, 15).
-- **Observation:** Found a house with a Youngster in the backyard. Access to the backyard is likely through this house.
-- **Strategy:** Check if the house has a back door to reach the Youngster and the area behind.
-- **Hypothesis:** This path leads to Route 24/25.
+- **Immediate Task:** Finish dialogue with Pokefan M, then Exit the house.
+- **Observation:** Map data confirms ONLY exit warps are at (2,7) and (3,7). There is NO back door.
+- **Conclusion:** The path to the Youngster at (6, 12) is NOT through this house. I must find a path around it outside (likely to the West of the house).
+- **Current Location:** Cerulean Badge Speech House.
+- **Strategy:** Exit, move West to x=5 or x=4, and try to walk North around the house to reach the backyard.
 
 # Strategic Goals
 1. **Restore Power:**
