@@ -7,9 +7,9 @@
 
 ## Current Strategy
 - Plan:
-  1. Navigate to Route 42 clearing at (26, 15) to trigger Suicune sighting.
-  2. Navigate to Route 36 junction at (35, 9) to trigger Suicune sighting.
-  3. If Route 36 fails, sweep the island clearing on Route 42 (24, 14) to (30, 17) tile-by-tile.
+  1. Navigate to Tin Tower Gatehouse in Ecruteak and speak to Sages to trigger "Tin Tower shook" event.
+  2. Navigate to Route 42 clearing at (26, 15) to trigger Suicune sighting.
+  3. Navigate to Route 36 junction at (35, 9) to trigger Suicune sighting.
   4. Return to Wise Trio Room.
 
 ## Strategy for Wise Trio Battle
