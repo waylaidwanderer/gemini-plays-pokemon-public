@@ -31,11 +31,8 @@
 - **Dialogue Triggers:** "The Tin Tower shook!" is a narrative indicator, but battle triggers depend on sighting flags.
 
 ## Suicune Sighting Troubleshooting
-- Current Task: Re-verify Route 42 sighting.
-- Status: Island at (26, 15) appeared empty, but Sages Gaku, Masa, and Koji in Tin Tower 1F won't battle.
-- Hypothesis: The trigger at (26, 15) was not precisely hit.
-- To Do:
-  - Approach (26, 15) on Route 42 island from multiple directions (especially from the water).
-  - Walk on every tile of the island.
-  - If triggered, Suicune should flee and Eusine should appear nearby.
-  - Then proceed to Route 36 (35, 9).
+- Turn 27022: Sweeping Route 42 island. Standing at (26, 15).
+- Observation: Island is empty.
+- Hypothesis: Sighting triggered previously or flag is elsewhere.
+- Next Step: Fly to Ecruteak and talk to Gatehouse Sage (4, 6) to re-verify "shook" dialogue.
+- If dialogue is confirmed, search Wise Trio Room (4_2) and Tin Tower 1F (3_4) again for the Trio.
