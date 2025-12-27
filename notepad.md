@@ -99,3 +99,5 @@
 - Remaining Candidates: (3, 8), (4, 8), (4, 9), (6, 9).
 - **Update:** Found Machine Part at (3, 8)!
 - **Next Steps:** Return to Power Plant immediately.
+- Reached Route 9 entrance at (39, 22).
+- Proceeding East to Power Plant.
