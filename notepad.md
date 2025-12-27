@@ -46,7 +46,7 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 10 North Navigation:**
   - **Goal:** Reach Power Plant (South).
-  - **Status:** Surfing South on Route 10 North (currently at Row 8).
+  - **Status:** Surfing South on Route 10 North (currently at Row 16).
   - **Plan:**
     1. Continue Surfing South to the Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
