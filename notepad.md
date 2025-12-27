@@ -24,3 +24,4 @@
 
 # Logs
 - **Started S.S. Aqua:** Turn 20464.
+- **Quest Update:** A Gentleman bumped into me and asked to find his missing granddaughter.
