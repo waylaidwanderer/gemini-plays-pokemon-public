@@ -1,36 +1,27 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
-- Start: Turn 24182, Saturday 12:45 AM.
-
-## Story Progress
-- Team Rocket: Disbanded at Radio Tower.
-- Tin Tower: Shook after entering gatehouse with Clear Bell.
-- Sages (Gatehouse & 1F): All talked to after tower shook.
+- Status: Searching for Suicune sighting #3 or #4.
 
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [FAILED] Full sweep of island on Turn 25893 yielded no sighting.
-   - Hypothesis: Sighting may only trigger when entering Route 42 from the Ecruteak (West) side.
+3. Route 42 (Central Island): [FAILED] Full sweep of island multiple times (Turns 25893, 25974). Suicune did not appear.
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Pending.
+5. Tin Tower 1F: Final encounter (requires all 4 overworld sightings).
 
 ## Tile Mechanics
-- FLOOR: Traversable. Standard ground collision.
+- FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable with SURF. 
-- CUT_TREE: Impassable; remove with CUT. Regrows.
-- GRASS / TALL_GRASS: Traversable; triggers encounters.
-- CAVE / DOOR / WARP: Transitions.
-- LADDER: Vertical transition. Functions as a warp. Verified at (5, 3), (17, 15), (17, 3), and (1, 4).
-- HEADBUTT_TREE: Impassable.
-- FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as the top edge of a wall or ledge. Verified at (53, 14) and (55, 10).
+- WATER: Traversable with SURF.
+- CUT_TREE: Impassable; remove with CUT.
+- LADDER: Vertical transition (Warp).
+- FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as a wall or ledge bottom.
 
 ## Strategy
-- Current: Exit the Tin Tower Gatehouse and re-enter Route 42 from the Ecruteak (West) side.
-- Goal: Trigger the Suicune sighting on the central island of Route 42.
+- Current: Fly to Violet City and navigate to Route 36 (near Sudowoodo spot) to check for Suicune.
+- Pivot: If Suicune is NOT found on Route 36, return to Ecruteak and re-investigate the Wise Trio Room and Tin Tower Gatehouse.
 
 ## Timestamps
-- Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
-- Troubleshooting Prerequisites: Turn 25949, Saturday 5:56 AM. (Wise Trio Room check)
-- Route 42 Re-entry Attempt: Turn 25954. (Hypothesis: West entry required)
+- Suicune Quest Start: Turn 24182.
+- Failed Route 42 Island Sweep: Turn 25893, 25974.
+- Pivot to Route 36: Turn 25981.
