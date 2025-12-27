@@ -25,3 +25,5 @@
 - Suicune Quest Start: Turn 24182.
 - Failed Route 42 Island Sweep: Turn 25893, 25974.
 - Pivot to Route 36: Turn 25981.
+- Suicune Tracker Advice: Route 42 sighting is mandatory before Route 36. If Route 36 is empty, return to Route 42 and perform a tile-by-tile sweep of the island (24, 13 to 30, 17 area).
+- Verification: Route 36 (35, 9) check in progress.
