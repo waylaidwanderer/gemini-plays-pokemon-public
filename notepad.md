@@ -2,13 +2,15 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
+- Wise Trio Battle Objective Start: Turn 26612 (Timestamp: Saturday, Dec 27, 2025, 11:23 AM PST).
 
 ## Current Strategy
 - Plan:
-  1. Trigger Route 42 sighting at (26, 15) by Mt. Mortar.
-  2. Trigger Route 36 sighting at (35, 9).
-  3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
-  4. Battle Wise Trio to gain access to Tin Tower roof.
+  1. Fly to Ecruteak City.
+  2. Heal at Pokémon Center (KIMCHI is low).
+  3. Navigate to Tin Tower Gatehouse (18, 11).
+  4. Enter Wise Trio Room (Map 4_2 via (20, 2)).
+  5. Defeat the Wise Trio to gain access to Tin Tower 1F.
 
 ## Strategy for Wise Trio Battle
 - The Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
@@ -24,20 +26,17 @@
 - WALL: Impassable. Verified.
 - WATER: Traversable ONLY with SURF. Verified at (13, 9).
 - CUT_TREE: Remove with CUT. Verified at (24, 13).
-- TALL_GRASS / LONG_GRASS: Walkable, triggers wild encounters. Verified.
+- TALL_GRASS / LONG_GRASS: Walkable. Verified.
 - HEADBUTT_TREE: Impassable. Verified.
 - CAVE: Entrance/Exit warp. Verified.
-- VOID: Impassable. Verified.
+- VOID: Impassable. Verified at (26, 17) on Route 42.
+- GATEHOUSE_FLOOR: Traversable. Verified.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed (Suicune fled).
-- 3. Eusine Battle (Cianwood): Marker at (11, 20) says defeated.
-- 4. Route 42 sighting: Required trigger at (26, 15). Previous attempt at Turn 26434 failed (Radio Tower not cleared).
-- 5. Route 36 sighting: Required trigger at (35, 9).
-- 6. Burned Tower Basement: Checked at Turn 26482 (Empty).
-- 7. Ecruteak PC (Eusine): Checked Turn 26404.
-- 8. Dance Theater (Eusine): Checked Turn 26415.
-- 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
-- 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
-- 11. Tin Tower roof access: LOCKED.
+- 3. Eusine Battle (Cianwood): Marker at (11, 20) confirms defeat.
+- 4. Sightings (Route 42/36): Likely complete (Sage dialogue "Tin Tower shook" confirmed at Turn 26214).
+- 5. Wise Trio Battle: PENDING (Room 4_2 was empty at Turn 26495, re-checking now).
+- 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
+- 7. Tin Tower roof access: LOCKED.
