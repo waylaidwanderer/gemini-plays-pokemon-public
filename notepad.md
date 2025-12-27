@@ -55,6 +55,6 @@
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
 - **Immediate Task:** Challenge Lass (No. 4) at (22, 6).
 - **Next Task:** Challenge Youngster (No. 5) at (25, 4).
-- **Battle Log:** Lass Shannon (No. 6) - Defeated Paras. Muscle Lv74. Facing Parasect.
-- **Immediate Task:** Defeat Lass Shannon (No. 6).
-- **Next Task:** Claim the prize for defeating all 6 trainers.
+- **Battle Log:** Defeated Lass Shannon (No. 6).
+- **Immediate Task:** Find the "Prize Giver" (likely the Super Nerd ahead) to claim the Nugget.
+- **Hypothesis:** The Super Nerd at (31, 7) might be the final challenge or the Rocket Grunt.
