@@ -41,6 +41,6 @@
 - Start Turn: 25687
 - NPCs to talk to:
     - Sage ID 1 at (4, 6): [X]
-    - Sage ID 3 at (6, 9): [X]
-    - Gramps ID 4 at (2, 10): [ ]
+    - Sage ID 3: [X]
+    - Gramps ID 4 at (3, 11): [ ]
 - Goal: Determine if dialogue changed after Tin Tower shook and if it triggers Suicune sightings. [Turn 25690]
