@@ -28,3 +28,4 @@
   2. Return to Cerulean City.
   3. Enter Route 9 and Surf to Power Plant.
   4. Deliver Machine Part.
+- **Bill's Grandpa Request:** Wants to see a Pokémon with a "long tongue" (Lickitung). I don't have one.
