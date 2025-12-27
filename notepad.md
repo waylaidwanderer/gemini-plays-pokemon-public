@@ -21,3 +21,5 @@
 - Seen: 168, Owned: 30.
 - **Log:** Defeated Juggler Fritz (Super Nerd) at (26, 9). He is blocking the room at x=26.
 - **Plan:** Explore the unblocked cabins at x=24 and x=22. The granddaughter might be there.
+- **Log:** Explored cabin at x=24. It is empty (just beds).
+- **Plan:** Explore the cabin at x=22.
