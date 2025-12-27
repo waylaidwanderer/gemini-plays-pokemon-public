@@ -3,16 +3,13 @@
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
 - Wise Trio Battle Objective Start: Turn 26612 (Timestamp: Saturday, Dec 27, 2025, 11:23 AM PST).
-- Sage Passage Guard (4, 6): Permitted passage at Turn 26487.
-- Path to Wise Trio: Ladder at (5, 3) -> Arrive at (17, 15) -> Ladder at (17, 3) -> Wise Trio Room.
 
 ## Current Strategy
 - Plan:
-  1. Fly to Ecruteak City.
-  2. Heal at Pokémon Center (KIMCHI is low).
-  3. Navigate to Tin Tower Gatehouse (18, 11).
-  4. Enter Wise Trio Room (Map 4_2 via (20, 2)).
-  5. Defeat the Wise Trio to gain access to Tin Tower 1F.
+  1. Trigger Route 36 sighting at (35, 9).
+  2. If Route 36 fails, re-attempt Route 42 sighting at (26, 15) by walking on every tile in the clearing.
+  3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
+  4. Battle Wise Trio to gain access to Tin Tower 1F.
 
 ## Strategy for Wise Trio Battle
 - The Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
@@ -39,15 +36,7 @@
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed (Suicune fled).
 - 3. Eusine Battle (Cianwood): Marker at (11, 20) confirms defeat.
-- 4. Sightings (Route 42/36): Likely complete (Sage dialogue "Tin Tower shook" confirmed at Turn 26214).
-- 5. Wise Trio Battle: PENDING (Room 4_2 was empty at Turn 26495, re-checking now).
+- 4. Sightings (Route 42/36): PENDING. Room 4_2 was empty at Turn 26628 despite "Tin Tower shook" dialogue.
+- 5. Wise Trio Battle: PENDING.
 - 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 7. Tin Tower roof access: LOCKED.
-## WiseTriosRoom Exploration
-- Turn 26628: Entered WiseTriosRoom (4_2) via ladder (1, 4).
-- Observations: Room layout has internal walls. NPCs are not immediately visible.
-- Tile Mechanics - WiseTriosRoom:
-  - FLOOR: Traversable.
-  - WALL: Impassable.
-  - LADDER: Warp (1, 4).
-  - WARP_CARPET_RIGHT: Warp (7, 4), (7, 5).
