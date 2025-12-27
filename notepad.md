@@ -35,7 +35,7 @@
 - **Koji (5, 9):** Souls of Pokemon and humans commune; testing humans.
 ## Wise Trio Battle Sequence
 1. Enter Gatehouse (Map 4_1) via (18, 11) in Ecruteak City.
-2. Talk to the Sage on the far left in the Gatehouse to ensure the Trio spawns in Map 4_2.
-3. Enter the Wise Trio Room (Map 4_2) via the ladder/warp at (7, 4) in the Gatehouse.
+2. Talk to the Sage (Passage Guard) at (4, 6) in the Gatehouse to ensure the Trio spawns in Map 4_2. (Talked on Turn 27142, he said "Please, do go on.")
+3. Enter the Wise Trio Room (Map 4_2) via the ladder at (17, 3) in the Gatehouse.
 4. Defeat Sages Gaku, Masa, and Koji in consecutive battles.
 5. Proceed to Tin Tower 1F (Map 3_4) to encounter Suicune.
