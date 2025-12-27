@@ -62,3 +62,8 @@
 - Status: Lv40 legendary.
 - Lead: Gneiss (Lv44) for durability or XENON (Lv21) for Hypnosis/Mean Look if capture is attempted.
 - Capture Strategy: Use XENON to sleep it, then switch to a high-level attacker to weaken. Great Balls ready.
+
+# Trainer Defeats
+- Sage Gaku: Defeated in Wise Trio Room (4_2).
+- Sage Masa: Defeated in Wise Trio Room (4_2).
+- Sage [Third]: Pending. Likely in Tin Tower Gatehouse (4_1).
