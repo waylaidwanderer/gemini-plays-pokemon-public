@@ -121,12 +121,17 @@
         "party_index"
       ]
     },
-    "python_script": "import json\nindex = int(input_data['party_index'])\nbuttons = ['A', 'sleep 500']\n# Reset cursor to top of party menu (max 6 members)\nfor _ in range(5):\n    buttons.append('Up')\n    buttons.append('sleep 100')\n# Move to target index\nfor _ in range(index - 1):\n    buttons.append('Down')\n    buttons.append('sleep 100')\n# Open menu and select Fly (Fly is always first if available)\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
+    "python_script": "import json\nindex = int(input_data['party_index'])\nbuttons = ['A', 'sleep 500']\n# Reset cursor to top of party menu (max 6 members) by mashing Up.\nfor _ in range(6):\n    buttons.append('Up')\n    buttons.append('sleep 100')\n# Move to target index\nfor _ in range(index - 1):\n    buttons.append('Down')\n    buttons.append('sleep 100')\n# Open menu and select Fly (Fly is always first if available)\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-27T10:12:21.935Z",
         "action_counter": 25485
+      },
+      {
+        "commit_message": "Refined open_fly_map_v3 to be more robust against menu wrapping by using more Up presses to reset the cursor.",
+        "timestamp": "2025-12-27T10:20:32.211Z",
+        "action_counter": 25502
       }
     ]
   }

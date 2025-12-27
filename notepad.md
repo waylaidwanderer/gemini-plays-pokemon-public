@@ -50,21 +50,11 @@
 - XENON (GASTLY): HYPNOSIS, LICK, NIGHT SHADE, MEAN LOOK
 
 ## NPC Registry
-- Ecruteak Pokecenter:
-  - Nurse (3, 1) [Checked]
-  - Gym Guide (7, 1) [Checked]
-  - Pokefan M (7, 6) [Checked]
-  - Cooltrainer F (1, 4) [Checked]
-- Tin Tower Gatehouse:
-  - Sage (4, 6) [Allowed passage]
-  - Sage (6, 9) [Tin Tower shook info]
-  - Gramps (3, 11) [Tower history info]
-- Tin Tower 1F:
-  - Sage (11, 11) [Beast legend info]
-  - Sage (5, 9) [Rainbow Pokemon legend info]
-  - Sage (14, 6) [Tower history info]
+- Ecruteak Pokecenter: Nurse (3, 1), Gym Guide (7, 1), Pokefan M (7, 6), Cooltrainer F (1, 4) [All Checked]
+- Tin Tower Gatehouse: Sage (4, 6) [Pass], Sage (6, 9) [Info], Gramps (3, 11) [Info]
+- Tin Tower 1F: Sage (11, 11), Sage (5, 9), Sage (14, 6) [All Info]
 
 ## Tool Notes
-- `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use bridge (Wise Trio Room/Gatehouse) or Fly.
-- `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
-- `open_fly_map_v3`: Robust Fly map opener. Still vulnerable to menu wrapping if cursor position is unknown.
+- `find_path_v3`: Fails between Ecruteak Main and Restricted areas; use bridge or Fly.
+- `suicune_tracker_v2`: Confirms Route 42 sighting is required.
+- `open_fly_map_v3`: Robust Fly map opener (Refined Turn 25502).
