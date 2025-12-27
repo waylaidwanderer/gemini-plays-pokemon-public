@@ -10,7 +10,7 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [FAILED] Full sweep of island on Turn 25893 yielded no sighting. Testing east side of route.
+3. Route 42 (Central Island): [FAILED] Full sweep of island on Turn 25893 yielded no sighting. Hypothesis: sighting may only trigger when entering Route 42 from the Ecruteak (West) side. Testing east grass first, then flying to Ecruteak.
 4. Route 36 (Sudowoodo Junction): Pending. Checked once.
 5. Tin Tower 1F: Pending.
 
