@@ -51,3 +51,6 @@
 - *Navigation:* Exiting Wise Trio Room via (7, 4) to Ecruteak City (20, 2).
 - *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
 - *Navigation:* Exiting Wise Trio Room via (7, 4) to Ecruteak City (20, 2). Proceeding to Tin Tower Entrance (37, 7).
+- *Observation (Tin Tower Shook):* Turn 25133 & 25137 - Sage mentioned the tower shook. This usually indicates Suicune is present, but I may still need to trigger the Route 36/42 sightings if they were missed.
+- *Status:* Wise Trio Room (4_2) explored Turn 25149; no NPCs found. Exited to Ecruteak Restricted Area (20, 2).
+- *Navigation:* (37, 7) is unreachable from (20, 2) on map 4_9. Path likely requires another exit from Wise Trio Room or completing sightings.
