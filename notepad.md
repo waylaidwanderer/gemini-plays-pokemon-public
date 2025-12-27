@@ -20,3 +20,4 @@
 # Pokedex
 - Seen: 168, Owned: 30.
 - **Battle:** Juggler Fritz sent out Magmar (Lv 29).
+- **Battle:** Juggler Fritz sending out Machoke.
