@@ -65,3 +65,8 @@
 - Step 2: Select Mistral (Slot 5).
 - Step 3: Select Fly.
 - Step 4: Verify cursor position on map before moving.
+- Menu Navigation Correction:
+  - Backed out of Item Menu (Burn Heal).
+  - Navigated to Party Menu.
+  - Selected Mistral (Slot 5) -> Fly.
+- Next Step: Verify Fly Map is open and navigate to Cerulean City.
