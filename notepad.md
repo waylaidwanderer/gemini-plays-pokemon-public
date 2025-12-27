@@ -5,7 +5,7 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): [Status: Exploring]
+3. Route 42 (Central Island): Swept area (24-30, 12-17). [Status: No sighting triggered]
 4. Route 36 (Sudowoodo Junction): Near Violet City entrance. [Status: Pending]
 5. Tin Tower 1F: Static Encounter. [Status: Triggered (Tower Shook)]
 
