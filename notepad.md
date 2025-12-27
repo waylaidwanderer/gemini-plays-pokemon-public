@@ -32,8 +32,7 @@
 # Event Mechanics: Suicune Hunt (Crystal)
 - Status: Talked to all 3 Sages on Tin Tower 1F. Ritual complete.
 - Prerequisite: CLEAR BELL + Fog Badge. [Both held]
-- Current Target: Trigger Suicune encounter in center of 1F.
-- Central Area Entry Points: (4, 10), (5, 10), (14, 10), (15, 10).
+- Current Target: Trigger Suicune encounter by approaching the central area (Row 11).
 
 # Strategy for Beating Suicune
 - Status: Lv40 legendary.
