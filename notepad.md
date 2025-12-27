@@ -39,4 +39,5 @@
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
-- 12. Lead Swapping: Calcifer (Lv45) leading for encounters.
+- 12. Lead Swapping: Calcifer (Lv45) is now leading. Verified.
+- 13. Route 42 Sighting: Radio Tower cleared, sequence should be active. Heading to (26, 15).
