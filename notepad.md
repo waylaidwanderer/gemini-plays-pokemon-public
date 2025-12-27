@@ -27,3 +27,4 @@
 # Current Plan
 - **Immediate:** Exit Gym and Heal at Pokemon Center.
 - **Next:** Head North to Saffron City (since Snorlax blocks East).
+- **Log:** Entered Route 6 from Vermilion City. Heading North.
