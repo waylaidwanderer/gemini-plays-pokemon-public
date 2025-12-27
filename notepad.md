@@ -9,9 +9,9 @@
   5. Tin Tower 1F: Talk to all three Sages with Clear Bell & Fog Badge. [In Progress]
 
 # Immediate Plan
-- Exit Pokemon Center area and head to the gatehouse at (18, 11).
-- Navigate: Gatehouse -> Wise Trio Room -> Ecruteak Restricted Area -> Tin Tower 1F.
 - Talk to all three Sages on Tin Tower 1F to trigger Suicune.
+- If Suicune doesn't appear, re-verify overworld sightings on Route 42 and Route 36.
+- Battle and capture Suicune.
 
 # Battle Strategy: Suicune
 - **Lead:** KIMCHI (Gloom) Lv21.
