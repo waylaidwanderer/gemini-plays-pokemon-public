@@ -25,14 +25,14 @@
     - **Mechanic:** Trash can switches were inactive.
 
 # Current Plan
-- **Goal:** Explore Saffron City.
-- **Status:** Outside Silph Co. (18, 22).
-- **Action:** Entering Saffron Gym to challenge Sabrina.
+- **Goal:** Earn Marsh Badge.
+- **Status:** Inside Saffron Gym (Entrance).
+- **Action:** Begin navigating the warp puzzle. Taking the first available warp at (11, 15).
+- **Strategy:** Systematically map warps.
 - **Next Steps:**
-    1. Locate Saffron Gym (Sabrina) - Likely North-East.
-    2. Locate Fighting Dojo - Likely near Gym.
-    3. Locate Copycat's House - Likely North-West.
-    4. Explore remaining city grid.
+    1. Take Warp A at (11, 15).
+    2. Identify new room and available warps.
+    3. Find Sabrina.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
