@@ -32,3 +32,5 @@
 - **Log:** Defeated Raichu. Declining switch against Electabuzz.
 - **Log:** Defeated first Electrode. Declining switch against second Electrode.
 - **Battle Log:** Electrode is spamming Double Team. Evasion is high. Muscle missing attacks. Persisting with Strength.
+- **Battle Update:** Electrode's evasion is high (Double Team x3+). Muscle missing attacks. Swift chipping damage.
+- **Strategy:** Persist with Strength. Muscle has HP to spare. Expecting a hit eventually.
