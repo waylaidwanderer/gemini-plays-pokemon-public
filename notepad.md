@@ -38,12 +38,12 @@
 - **FLOOR_UP_WALL:** Acts as a WALL from the North. Cannot be jumped. (Confirmed Route 9).
 
 # Active Plans
-- **Restore Power:**
-  - **Status:** Traversing Route 25 Fence Maze (21, 10).
-  - **Action:** Navigate to East side of Route 25 (Bill's House).
-  - **Correction:** Previous target (42, 10) was Water. Targeting Land tile (38, 8) instead.
-  - **Route:** Snake through fences -> Reach Water Edge -> Surf.
-  - **Goal:** Deliver Machine Part to Manager.
+- **Restore Power & Badges:**
+  - **Status:** At Route 25 Surf Spot (41, 7).
+  - **Observation:** **Misty is visible at the Cape (46, 9).**
+  - **Immediate Action:** Surf East to interrupt Misty's date (sends her to Gym).
+  - **Then:** Surf South to Power Plant to deliver Machine Part.
+  - **Goal:** Clear Misty event AND restore power in one trip.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
