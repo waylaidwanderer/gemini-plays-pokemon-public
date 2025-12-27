@@ -47,7 +47,6 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Cutting Tree at (5, 8) to reach Cerulean City.
   - **Clues:**
     - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
     - Confirmed: The part was stolen.
