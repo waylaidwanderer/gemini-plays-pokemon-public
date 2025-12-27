@@ -41,6 +41,13 @@
   5. Night Shade: Deals exactly 21 damage. Use only if HP is high (Suicune has ~125 HP).
   6. Priority: Keep Suicune asleep at all times.
 
+# Suicune Sighting Sequence (Crystal)
+1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
+2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
+3. Route 42 (Central Island): Middle Apricorn grove. [Pending]
+4. Route 36 (Sudowoodo junction): [Pending]
+5. Tin Tower 1F (Final Battle): Requires all previous sightings. [Current Target after sightings]
+
 # NPC & Interaction Rules
 - Sage (4, 6): Passage guard. Granted access. [Verified]
 - Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
@@ -49,8 +56,3 @@
 - Wise Trio (Wise Trio Room): Defeated.
 - Sage at (4, 6) (Gatehouse): Granted passage.
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
-
-# Navigation: Tin Tower 1F Maze
-- Central Area Access: The central floor area (Rows 5-9, X=7-12) is isolated by walls.
-- Potential Entry: Approach from the top (Row 2/3) or find the specific trigger tile.
-- Current Position: (10, 11). Target: (10, 9).
