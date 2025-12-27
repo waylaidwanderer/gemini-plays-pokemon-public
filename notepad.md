@@ -56,3 +56,7 @@
 - `find_path_v3`: Robust pathfinding. Fails between separate Ecruteak maps.
 - `suicune_tracker_v2`: Expert on sightings.
 - `open_fly_map_v4`: Robust Fly map opener (Turn 25536).
+## Lessons Learned
+- Notepad Management: Only one `notepad_edit` call is allowed per turn. [Turn 25561]
+- Suicune Sightings: Sweeping every tile on the Route 42 island may not trigger the event. Approach vector or specific coordinate triggers are more likely. [Turn 25572]
+- Battle State: Navigation tools (like `find_path_v3`) cannot be used while in battle. Use `select_battle_option` instead. [Turn 25560]
