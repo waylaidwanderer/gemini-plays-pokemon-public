@@ -138,10 +138,13 @@
       }
     ]
   },
-  "menu_navigator_crystal_v1": {
-    "description": "Navigates the main menu or options menu to a target string and selects it. Handles the two-column layout of the Crystal main menu. Returns a list of button strings.",
+  "menu_navigator_crystal_v2": {
+    "description": "Navigates the Crystal main menu. Handles the vertical layout including OPTION and EXIT.",
     "input_schema": {
       "properties": {
+        "screen_text": {
+          "type": "string"
+        },
         "target": {
           "enum": [
             "POKEDEX",
@@ -157,16 +160,17 @@
         }
       },
       "required": [
+        "screen_text",
         "target"
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef navigate_main_menu(target):\n    # Main Menu Layout (Wraps):\n    # POKEDEX (0) | OPTION (6)\n    # POKEMON (1) | EXIT (7)\n    # PACK (2)\n    # GEAR (3)\n    # GEM (4)\n    # SAVE (5)\n    \n    # This tool assumes it's called when the main menu is open.\n    # It uses a heuristic based on the target name to provide the correct buttons.\n    # It's better than parsing the messy screen text for this specific menu.\n    \n    target_map = {\n        \"POKEDEX\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"POKEMON\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"PACK\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"GEAR\": [\"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"GEM\": [\"Up\", \"Up\", \"Up\", \"A\"],\n        \"SAVE\": [\"Up\", \"Up\", \"A\"],\n        \"OPTION\": [\"Up\", \"A\"],\n        \"EXIT\": [\"A\"] # Assuming cursor starts on EXIT as it often does\n    }\n    \n    return target_map.get(target, [\"B\"])\n\ntry:\n    print(json.dumps(navigate_main_menu(input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    curr_idx = -1\n    lines = screen_text.split('\\n')\n    for i, line in enumerate(lines):\n        if \"▶\" in line:\n            for j, name in enumerate(order):\n                if name.lower() in line.lower():\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = order.index(target.upper())\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
-        "commit_message": "Robust menu navigator that handles multi-column layouts like the Crystal main menu by mapping common targets to fixed button sequences.",
-        "timestamp": "2025-12-27T05:49:48.092Z",
-        "action_counter": 24932
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T05:50:42.249Z",
+        "action_counter": 24933
       }
     ]
   }
