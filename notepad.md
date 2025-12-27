@@ -5,12 +5,16 @@
 
 ## Current Strategy
 - Plan:
-  1. Travel to Cianwood City.
-  2. Locate Eusine in the north (near (10, 14)) and defeat him in battle.
-  3. Talk to Eusine in Ecruteak Pokémon Center (Prerequisite for sightings).
-  4. Trigger Route 42 sighting (Central Island).
-  5. Trigger Route 36 sighting (Sudowoodo Junction).
-- Attempt 5 (Sequence Correction): Turn 26344.
+  1. Travel to Cianwood City and defeat Eusine in the north.
+  2. Talk to Eusine in Ecruteak Pokémon Center.
+  3. Trigger Route 42 sighting (Central Island).
+  4. Trigger Route 36 sighting (Sudowoodo Junction).
+
+## Strategy for Eusine (Cianwood)
+- Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
+- Tactics:
+  - Gneiss (Graveler) counters Electrode (Electric immunity) and Haunter (Earthquake).
+  - Calcifer (Typhlosion) for Drowzee.
 
 ## Suicune Quest Diagnostic Log
 - Burned Tower: Flee event completed.
