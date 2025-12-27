@@ -30,3 +30,4 @@
 - **Map Transitions:** Leaving a map from specific coordinates triggers transitions (e.g., Ecruteak (18, 11) -> Tin Tower Gatehouse).
 - Talked to Sage (Passage Guard) at (4, 6). He said: "Please, do go on." (Turn 27070)
 - Talked to Gramps at (4, 12). He said: "Two towers… Two POKéMON… But when one burned down, both POKéMON flew away, never to return." (Turn 27081)
+- Talked to Sage at (7, 10). He said: "The TIN TOWER shook! A POKéMON must have returned to the top!" (Turn 27084). This confirms the Wise Trio should now be in their room.
