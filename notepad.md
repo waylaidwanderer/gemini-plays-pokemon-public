@@ -32,3 +32,4 @@
 - **Route 8 Obstacle:** Three Bikers blocking the path at x=10 (Rows 8, 9, 10). Must defeat them to progress.
 - **Route 8 Bypass:** Successfully bypassed the bikers by taking the northern path (Row 6) and hopping down the ledges at x=13 (Rows 7 and 9). This avoids the battles entirely.
 - **Route 8:** Collected PRZCureBerry from tree at (33, 5).
+- **Receptionist:** Just a greeter. Need to find Director elsewhere (likely upstairs).
