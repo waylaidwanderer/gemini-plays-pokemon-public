@@ -103,5 +103,26 @@
         "action_counter": 24583
       }
     ]
+  },
+  "list_reachable_unseen_v1": {
+    "description": "Analyzes the mental map to identify unseen tiles (❓) that are physically reachable from the player's current position using standard walking or surfing (if can_surf is true).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "can_surf": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": []
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    can_surf = input_data.get('can_surf', False)\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            has_player = any(child.tag == 'Player' for child in tile)\n            has_object = any(child.tag == 'Object' for child in tile)\n            \n            grid[(x, y)] = {\n                'type': tile_type,\n                'seen': seen,\n                'has_object': has_object\n            }\n            if has_player:\n                player_pos = (x, y)\n    \n    if not player_pos:\n        print(json.dumps({\"error\": \"Player position not found\"}))\n        return\n\n    walkable_types = ['FLOOR', 'TALL_GRASS', 'WARP_CARPET', 'STAIRS', 'LADDER', 'CAVE', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n    if can_surf:\n        walkable_types.append('WATER')\n\n    queue = deque([player_pos])\n    visited = {player_pos}\n    reachable_unseen = []\n\n    while queue:\n        cx, cy = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                tile = grid.get((nx, ny))\n                if tile:\n                    if not tile['seen']:\n                        if (nx, ny) not in reachable_unseen:\n                            reachable_unseen.append({\"x\": nx, \"y\": ny})\n                    elif tile['type'] in walkable_types and not tile['has_object']:\n                        if (nx, ny) not in visited:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n    \n    print(json.dumps(reachable_unseen))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T03:41:54.242Z",
+        "action_counter": 24651
+      }
+    ]
   }
 }
