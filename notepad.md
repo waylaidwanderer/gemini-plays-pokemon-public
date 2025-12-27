@@ -91,7 +91,6 @@
 - Checked (6, 6): No item (Surf prompt).
 - Plan:
   1. Check (6, 8) (Down from 6, 7).
-  2. Move to (3, 7).
-  3. Check (3, 6) (Up from 3, 7).
-  4. Check (3, 8) (Down from 3, 7).
-- Note: "Inner Pool" seems to be Rows 5-6. "Lower Pool" is Rows 8+. "Center" is ambiguous.
+  2. If empty, move to (3, 7).
+  3. Check (3, 6) (Up) and (3, 8) (Down).
+  4. If those fail, check (4, 9) and (6, 9) (Row 9).
