@@ -46,3 +46,5 @@
 - **Hypothesis:** If Sailor 2 doesn't move/battle, I must return to 1F to find the "lazy buddy" to clear the path.
 - **Observation:** Sailor 2 at (31, 6) appears to be non-interactable (no text). The path West is fully blocked by two sailors.
 - **Action:** Returning to 1F to find the "lazy buddy" (suspected Sailor at 1F 22,17).
+- **Action:** Navigating to 1F (22, 17) to find the "lazy buddy" Sailor (ID 3).
+- **Goal:** Talk to him to clear the blockade in B1F.
