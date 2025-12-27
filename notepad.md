@@ -63,3 +63,6 @@
 - Plan: Check Cerulean Gym (30, 23) for the Grunt. If not there, proceed to Route 9.
 - Police Chief confirmed a "shady character" is skulking about. This is likely the Rocket Grunt.
 - Heading to Cerulean Gym (30, 23) to intercept him.
+- Searched Cerulean Gym back walkway. No Rocket Grunt found.
+- Conclusion: The Police Chief's hint is not enough. Must trigger the event at the Power Plant first.
+- Plan: Exit Gym, head to Route 9 (via 27, 12), and proceed to the Power Plant.
