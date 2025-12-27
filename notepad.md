@@ -3,7 +3,6 @@
 - Quest Start: Turn 24182.
 
 ## Current Strategy
-- Goal: Complete Suicune overworld sightings sequence.
 - Plan:
   1. Fly to Ecruteak City and check Pokémon Center for Eusine. [NEW TRIGGER]
   2. If Eusine is present, talk to him to flag the Route 42 sighting.
