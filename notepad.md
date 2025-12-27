@@ -67,5 +67,6 @@
 - Kevin defeated. Path to Bill's House should be clear.
 - Retrieved Item Ball (Protein) at (32, 4).
 - Arrived at Bill's House (Map 7_11).
-- NPC 'GRAMPS' is present.
-- Plan: Talk to Gramps to see if he knows anything about the Power Plant or has a reward.
+- Talked to Gramps. He requested to see a Lickitung ("long tongue").
+- Current Status: I do not have a Lickitung. Cannot progress this quest.
+- Objective: Return to Cerulean City and find the path to Route 9 (likely via Surfing).
