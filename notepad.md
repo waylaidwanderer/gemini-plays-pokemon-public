@@ -27,5 +27,5 @@
   - Checked 1F East/Mid: Empty/Dead Ends.
   - Checked 1F West: Pending.
   - **Current Location:** Lower Deck Far East (via 1F 27,15).
-  - **Findings:** Found a Gentleman here. The "Little Girl" sighting at (6, 17) was a false positive (empty tile).
-- **Action:** Talking to the Gentleman to see if he knows anything.
+  - **Findings:** Found Gentleman (Grandfather). He says the girl is "bugging someone."
+- **Action:** Exiting to 1F. Heading West to find the Captain's Quarters (likely the Northern Room of 15_5).
