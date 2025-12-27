@@ -1,7 +1,5 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
-- **Location:** S.S. Aqua.
-- **Immediate Goal:** Find the Captain's Granddaughter.
 - **Next Step:** Vermilion City (Kanto).
 - **Current Task:** Exploring S.S. Aqua 1F.
 
