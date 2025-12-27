@@ -12,7 +12,7 @@
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): Pending (Sprite not visible at Turn 25571).
+3. Route 42 (Central Island): Failed (Turn 25654, Sprite not visible after thorough sweep).
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Pending.
 
