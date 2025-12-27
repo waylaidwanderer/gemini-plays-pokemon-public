@@ -22,7 +22,10 @@
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
 ## Strategy & Planning
-- Route 42 sighting: [Current Target - Started Turn 25547] Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform (Hypothesis: Standing on every tile triggers the event). [Status: Failed to trigger from West and North-East; trying approach from East water (33, 10) to landing (30, 15)]
+- Route 42 sighting: [Current Target - Started Turn 25547] Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform.
+  - Attempt 1: West approach (Turn 25571) - Failed.
+  - Attempt 2: North-East approach (Turn 25597) - Failed (accidental cave entry).
+  - Attempt 3: East approach (Turn 25614) - In Progress.
 - Route 36 sighting: Fly to Ecruteak, walk south to Route 36 junction via Route 37, and approach from the south (Route 35 entrance).
 
 ## Tile Mechanics
