@@ -147,3 +147,6 @@
 - Cleared Wade's call.
 - Attempting CUT on (42, 15) again.
 - If this fails, the 'ledge' tiles on Row 16 might actually be impassable walls, and I might need to find another way around or I am softlocked in this small area (unlikely).
+- Cleared final dialogue from Wade.
+- Pressed A on (42, 15) to attempt Cut.
+- Anticipating "This tree can be CUT!" message.
