@@ -1,8 +1,8 @@
 # Strategy for Suicune Encounter (Crystal)
 1. Prerequisites: Clear Bell and Fog Badge (Obtained).
-2. Sightings: Burned Tower (Done), Cianwood (Done), Route 42 (Pending?), Route 36 (Pending?).
-3. Trigger: Speak to all three Sages on the ground floor (1F) of Tin Tower. Suicune will appear in the center.
-4. Battle: STATIC encounter. Does NOT roam/run.
+2. Status: Checked 1F on Turn 24410, Suicune not present.
+3. Trigger: Speak to all three Sages on the ground floor (1F) of Tin Tower while holding Clear Bell.
+4. Battle: STATIC encounter. Does NOT roam/run. Roar ends battle (reload if used).
 
 # Battle Strategy for Suicune
 - Status: Lv40 legendary.
@@ -12,8 +12,7 @@
   1. Weaken Suicune carefully (Calcifer/GNEISS).
   2. Switch to XENON (Gastly).
   3. Use Hypnosis to keep it asleep.
-  4. If Roar is used: The battle ends. Reload save.
-  5. Throw Great/Ultra Balls while it is asleep.
+  4. Throw Great/Ultra Balls while it is asleep.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
@@ -38,5 +37,4 @@
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
 - Turn 24395: Started Suicune Trigger Verification.
-- Sage at (4, 6) (Gatehouse): Granted passage.
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
