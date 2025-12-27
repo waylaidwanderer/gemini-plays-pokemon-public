@@ -28,3 +28,6 @@
 
 # Pokedex
 - Seen: 168, Owned: 30.
+- **Log:** Defeated Sailor Stanly (Lazy Buddy).
+- **Hypothesis:** Defeating him should clear the blockade on B1F.
+- **Plan:** Return to B1F via ladder at 1F (30, 14) to check the sailors.
