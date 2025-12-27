@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Interact (A) with the tree trunk at (33, 25).
-- **Observation:** Player is at (32, 25) facing Right. The tile (33, 25) appears to be the base of the tree. Previous attempt at (33, 24) failed. Attempting interaction with the base now.
+- **Immediate Task:** Move Up to (32, 24), Face Right, and Interact (A) with the tree top at (33, 24).
+- **Observation:** Interaction with the base at (33, 25) failed. Re-attempting interaction with the top tile (33, 24), ensuring correct positioning and facing. If 'A' fails, will attempt Menu interaction.
 
 # Strategic Goals
 1. **Restore Power:**
