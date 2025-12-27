@@ -66,4 +66,6 @@
 - Battling Cooltrainer Kevin. Defeated Rhyhorn, Charmeleon, and Wartortle. Victory!
 - Kevin defeated. Path to Bill's House should be clear.
 - Retrieved Item Ball (Protein) at (32, 4).
-- Heading East to Bill's House.
+- Arrived at Bill's House (Map 7_11).
+- NPC 'GRAMPS' is present.
+- Plan: Talk to Gramps to see if he knows anything about the Power Plant or has a reward.
