@@ -54,5 +54,4 @@
 - **Strategy:** Heading North through (6, 19) to reach Route 24.
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
 - **Observation:** The bridge is currently empty (no trainers visible yet). This aligns with the "Power Plant quest not started" state.
-- **Battle Log:** Defeated Schoolboy Dudley (Oddish Lv35). Gained 877 EXP, 2240 Yen.
-- **Immediate Task:** Challenge the Lass at (16, 11).
+- **Immediate Task:** Challenge the Lass at (16, 10).
