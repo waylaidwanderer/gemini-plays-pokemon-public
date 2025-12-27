@@ -39,3 +39,4 @@
 - **Log:** Talked to Super Nerd at (26, 9). He is seasick and blocking a room/path.
 - **Hypothesis:** He might be blocking a room. Or the girl is elsewhere.
 - **Plan:** Explore the cabins to the West (X=24, X=22) to see if the girl is there.
+- **Battle:** Juggler Fritz sent out Magmar (Lv ~30).
