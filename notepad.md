@@ -141,3 +141,6 @@
 - Clearing Wade's phone call.
 - Retrying interaction with (42, 15).
 - If Cut fails, immediate backup: Fly to Cerulean City.
+- Clearing remaining dialogue from Wade.
+- Executing Cut attempt on (42, 15).
+- If tree is a WALL: Will attempt ledge jump at (41, 16) again, ensuring no dialogue is active.
