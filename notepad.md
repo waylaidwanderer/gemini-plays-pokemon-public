@@ -167,3 +167,7 @@
 - Correcting menu selection: Moving from Gyarados (Slot 3) to Mistral (Slot 5).
 - Using FLY to escape the Route 9 trap.
 - Next destination: Cerulean City (to access Route 24/25 water route).
+- Escape Plan Active: Flying to Cerulean City.
+- Current Fly Map Position: Indigo Plateau (Default?).
+- Action: Moving Cursor Right to target Cerulean City.
+- Next: Land, Heal, Surf from Route 24 to Power Plant.
