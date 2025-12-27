@@ -1,10 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Check Rhydon (5, 2), Radio (7, 1), and Bookshelves (0, 1) for any hidden items or info.
-- **Observation:** Gramps is just "happy" about his trades. No trade offered.
-- **Strategy:** Clear the room of interactions, then leave to find the real path to the Power Plant.
-- **Map:** Rhydon is at (5, 2). Radio at (7, 1). Bookshelves at (0, 1).
+- **Immediate Task:** Check Rhydon at (5, 2).
+- **Observation:** Gramps is happy, Granny talks about trades. TV is just a TV.
+- **Strategy:** Interact with Rhydon. Then check Radio/Bookshelves. Then leave to continue search for Route 9 path (West/North outside).
+- **Map:** Table blocks (3,3)-(4,4). Path to Rhydon is via Row 2.
 
 # Strategic Goals
 1. **Restore Power:**
