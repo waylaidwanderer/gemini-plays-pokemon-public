@@ -138,3 +138,6 @@
 - Phone call from Wade interrupted Cut attempt.
 - Clearing dialogue.
 - Will retry Cut on (42, 15) immediately after.
+- Clearing Wade's phone call.
+- Retrying interaction with (42, 15).
+- If Cut fails, immediate backup: Fly to Cerulean City.
