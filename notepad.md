@@ -31,3 +31,4 @@
 - **Plan:** Backtrack to x=24, go North to the top corridor (y=5), then head West to reach the far left area.
 - **Observation:** Found a Lass at (6, 4).
 - **Plan:** Interact with the Lass to see if she is the granddaughter or has info. Then continue West to the Kitchen/Engine Room.
+- **Battle:** Picnicker Debra sent out Seaking (Lv 33).
