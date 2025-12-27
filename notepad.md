@@ -29,5 +29,5 @@
 # Pokedex
 - Seen: 168, Owned: 30.
 - **Log:** Defeated Sailor Stanly (Lazy Buddy).
-- **Hypothesis:** Defeating him should clear the blockade on B1F.
-- **Plan:** Talk to the Sailor at B1F (30, 6) to report success.
+- **Hypothesis:** The "Blocking Sailor" at (31, 6) might be the key or the quest giver moved.
+- **Plan:** Talk to the Sailor at (31, 6).
