@@ -24,15 +24,17 @@
 - WARP_CARPET_LEFT: Triggers map transition when walking OFF the map westwards.
 
 ## Strategy
-- Current: Check Route 36 (Sudowoodo junction) for Suicune sighting #4.
+- Current: Return to Route 42 to trigger Suicune sighting #3.
 - How:
-  1. Navigate to (35, 9) on Route 36 using BFS pathfinding.
-  2. Stand on or adjacent to (35, 9) to trigger the flee event.
-  3. If Suicune is present, watch it flee and then head to Tin Tower 1F.
-  4. If Suicune is NOT present, Fly back to Ecruteak and talk to Eusine in the Pokemon Center (if present) or the Sages in the Gatehouse.
-  5. If still stuck, revisit Cianwood (North) to ensure no missed dialogue.
+  1. Fly to Ecruteak City.
+  2. Travel east to Route 42.
+  3. Surf to the central island.
+  4. Perform an exhaustive, tile-by-tile sweep of the island's clearing (especially near the Apricorn trees) to trigger Suicune.
+  5. If Suicune flees, immediately proceed to Route 36 (Sudowoodo junction).
+  6. If Suicune is still missing, talk to Eusine in Ecruteak Pokemon Center and the Sages.
 - Result Log:
-  - Route 42 Island (Turn 26164): Sweep of southern and northern clearings yielded no Suicune.
+  - Route 42 Island (Turn 26164): Initial sweep yielded no Suicune. Retrying after confirming sequence with tracker.
+  - Route 36 (Turn 26177): Suicune not found (confirmed unavailable until Route 42 is triggered).
 
 ## Time Tracking
 - Current Attempt Start: Turn 26101.
