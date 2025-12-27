@@ -36,7 +36,7 @@
 # Suicune Sighting Sequence (Crystal)
 1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
 2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> Sweep required. Clear Bell may be a prerequisite.
+3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> Sweep required. Clear Bell may be a prerequisite. Status: Island sweep ~90% complete. No sighting yet.
 4. Route 36 (Sudowoodo junction): [Pending]
 5. Tin Tower 1F (Final Battle): Requires all previous sightings. [Current Target after sightings]
 
