@@ -59,5 +59,8 @@
 - **Immediate Task:** Defeat the Super Nerd (Cooltrainer Kevin / Rocket Imposter?).
 - **Hypothesis:** He is an enemy blocking the path to the Item Ball and Cut Tree. Defeating him might yield the Nugget or clear the way.
 - Defeated Super Nerd Pat.
-- He apologized for cheating ("I'm sorry... I won't cheat anymore...").
-- Checking for a reward (Nugget?).
+- He apologized for cheating.
+- Met Cooltrainer M at (37, 8).
+- Received a NUGGET from him!
+- He challenged me to a battle ("Let me take you on").
+- Battle imminent.
