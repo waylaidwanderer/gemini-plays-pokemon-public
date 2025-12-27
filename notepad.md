@@ -14,7 +14,7 @@
 - WATER: Traversable with SURF.
 - CUT_TREE: Impassable; remove with CUT.
 - LADDER: Vertical transition (Warp).
-- FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as a wall or ledge bottom.
+- FLOOR_UP_WALL (Hypothesis): Impassable from the NORTH (cannot move DOWN into it). Acts as a wall or ledge bottom.
 - HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
 - TALL_GRASS: Walkable. Triggers wild encounters.
 - CAVE: Entrance/Exit warp.
