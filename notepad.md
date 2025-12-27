@@ -4,23 +4,17 @@
 - **Sighting Requirements (Sequential in Crystal):**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting check. [In Progress - Row 13 needs verification]
+  3. Route 42 (Central Island): Sighting check. [In Progress]
+     - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Active - Entered Turn 25051]
   4. Route 36 (Sudowoodo junction): Sighting check. [Pending]
-  5. Tin Tower 1F: Talk to Sages with Clear Bell. [Done - Turn 24814]
+  5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
 # Progress Tracking
-## Suicune Sighting Sequence (Crystal)
-1. Burned Tower (Ecruteak): Beasts flee. [Verified]
-2. Cianwood City (North): Sighting. [Verified]
-3. Route 42 (Central Island): Sighting. [In Progress]
-   - *Hypothesis 1:* Speak to Eusine in Ecruteak PKMN Center. [Failed - Searched both floors Turn 25036-25043]
-   - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Pending]
-4. Route 36 (Sudowoodo junction): Sighting. [Pending]
-5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
+- Route 42: Central island requires CUT at (24, 13) to access sighting area.
 
 # Failed Hypotheses & Troubleshooting
-- **Suicune on Route 42 Island:** Searched all floor tiles (Turn 25009). Suicune was not present. 
-- **Eusine in Ecruteak PKMN Center:** Thoroughly swept 1F and 2F. Eusine is not present.
+- **Hypothesis 1 (Eusine in Ecruteak PKMN Center):** Searched both floors Turn 25036-25043. Eusine is not present.
+- **Suicune on Route 42 Island (Direct arrival):** Searched all floor tiles (Turn 25009). Suicune was not present. 
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
