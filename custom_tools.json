@@ -136,14 +136,9 @@
     ]
   },
   "find_path_v4": {
-    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a list of button strings. Updated to include more traversable tile types (including WATER, WARP_CARPET and STAIRS) and robust player position detection from the Mental Map. Specifically handles landing from water onto floor tiles.",
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Specifically handles landing from water onto floor tiles.",
     "input_schema": {
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
-          "type": "boolean"
-        },
         "can_surf": {
           "default": false,
           "type": "boolean"
@@ -165,12 +160,11 @@
       },
       "required": [
         "end_x",
-        "end_y",
-        "autopress_buttons"
+        "end_y"
       ],
       "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return\n\n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    tile_map = {}\n    found_player = False\n    for row in root.findall('Row'):\n        y_coord = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x_coord = int(tile.attrib['id'])\n            tile_map[(x_coord, y_coord)] = tile\n            if start_x is None and tile.find('Player') is not None:\n                start_x, start_y = x_coord, y_coord\n                found_player = True\n    \n    if start_x is None:\n        print(\"Error: Player position not found.\")\n        return\n\n    try:\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n    except:\n        print(\"Error: Invalid end coordinates.\")\n        return\n        \n    can_surf = input_data.get('can_surf', False)\n    walkable_types = {'FLOOR', 'TALL_GRASS', 'GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'STAIRS', 'FLOOR_UP_WALL', 'WARP_CARPET'}\n    if can_surf:\n        walkable_types.add('WATER')\n\n    queue = deque([(int(start_x), int(start_y), [])])\n    visited = set([(int(start_x), int(start_y))])\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(path)\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in tile_map and (nx, ny) not in visited:\n                tile = tile_map[(nx, ny)]\n                if tile.attrib['type'] in walkable_types and tile.find(\"Object\") is None:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(\"Error: Path not found.\")\n\nsolve()\n",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is not None:\n        start_x = int(player_tile.get('id'))\n        for row in root.findall('Row'):\n            if player_tile in row.findall('Tile'):\n                start_y = int(row.get('id'))\n                break\n    else:\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        if start_x is None or start_y is None:\n            print(json.dumps({\"error\": \"Player position not found\"}))\n            return\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            tiles[(x, y)] = tile\n\n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if (nx, ny) in tiles and (nx, ny) not in visited:\n                tile = tiles[(nx, ny)]\n                t_type = tile.get('type')\n                is_warp = tile.get('is-warp') == 'true'\n                has_obj = tile.find('Object') is not None\n                \n                passable = False\n                if t_type in ['FLOOR', 'GRASS', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'STAIRS', 'FLOOR_UP_WALL']:\n                    passable = not has_obj\n                elif t_type == 'WATER' and can_surf:\n                    passable = not has_obj\n                \n                curr_tile = tiles.get((curr_x, curr_y))\n                if curr_tile is not None and curr_tile.get('type') == 'WATER' and t_type in ['FLOOR', 'GRASS', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'STAIRS', 'FLOOR_UP_WALL']:\n                    passable = not has_obj\n\n                if is_warp and (nx != end_x or ny != end_y):\n                    passable = False\n                \n                if passable:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps({\"error\": \"Path not found\"}))\n\nfind_path()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -186,6 +180,11 @@
         "commit_message": "Fix parent traversal error, simplify player position detection, and add robust error handling.",
         "timestamp": "2025-12-27T11:23:40.857Z",
         "action_counter": 25625
+      },
+      {
+        "commit_message": "Fix output format to use json.dumps for proper JSON array compatibility with autopress_buttons.",
+        "timestamp": "2025-12-27T11:32:10.711Z",
+        "action_counter": 25643
       }
     ]
   }
