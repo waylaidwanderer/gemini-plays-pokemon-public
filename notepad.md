@@ -37,3 +37,4 @@
 - **Quest Info:** Sailor at B1F (30, 6) wants me to find his "lazy buddy" who is goofing off.
 - **Hypothesis:** The "buddy" might be the Sailor I saw earlier on 1F at (22, 17).
 - **Plan:** Quick check of the north end of this corridor, then return to 1F to find the buddy and explore the West side.
+- **Observation:** Wall at Column 29 has an opening at Rows 4 and 5. This is the path West.
