@@ -30,4 +30,4 @@
   - Stairs at (23,15) -> Lower Deck East (Current).
 - **Lower Deck East:**
   - Contains Pokefan Colin (Defeated).
-  - Contains Twins (To do).
+  - Contains Twins (Battling).
