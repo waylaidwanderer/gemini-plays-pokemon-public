@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Cut the tree at (33, 24) using the Start Menu (Pokemon -> Belladonna -> Cut) since the interaction button failed.
-- **Observation:** Pressing 'A' on the tree produced no text box. This is unexpected. Using the menu is a failsafe method to verify Cut eligibility and execute it.
+- **Immediate Task:** Exit Trainer Card (B), Navigate to Pokemon Menu (Up x3, A), Select Belladonna (Down x5, A), and use Cut (A).
+- **Observation:** Previous attempt opened the Trainer Card instead of the Party Menu. The menu cursor memory likely placed it on 'GEAR' or 'GEM'. Correcting navigation relative to 'GEM'.
 
 # Strategic Goals
 1. **Restore Power:**
