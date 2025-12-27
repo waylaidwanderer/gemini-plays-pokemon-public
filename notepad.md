@@ -37,7 +37,7 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: SURF required.
-- CUT_TREE: CUT required. Regrows after leaving map.
+- CUT_TREE: CUT required. Regrows after leaving map. Standing adjacent to tree and pressing A triggers menu.
 - HEADBUTT_TREE: Impassable. Can be headbutted.
 - TALL_GRASS: Traversable. Triggers wild encounters.
 - WARP_CARPET_LEFT: Warp point.
