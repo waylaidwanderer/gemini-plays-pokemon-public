@@ -31,12 +31,12 @@
     - Warp S (9, 5) -> Room 7 (5, 9) [Warp V]
     - Warp T (11, 3) -> Room 8 (5, 3) [Warp AA]
     - Warp U (9, 3) [From I]
-- **Room 7 (Middle Left) [Current]:**
+- **Room 7 (Middle Left):**
     - Warp V (5, 9) <-> Room 6 (9, 5) [Warp S]
     - Warp W (1, 9) -> Room 3 (19, 11) [Warp H]
     - Warp X (1, 11) <-> Room 8 (5, 5) [Warp DD]
     - Warp Y (5, 11) <-> Room 5 (5, 17) [Warp Q]
-- **Room 8 (Top Left):**
+- **Room 8 (Top Left) [Current]:**
     - Warp AA (5, 3) <-> Room 6 (11, 3) [Warp T]
     - Warp BB (1, 3) <-> Room 4 (15, 5) [Warp L]
     - Warp CC (1, 5) <-> Sabrina's Room (11, 9)
