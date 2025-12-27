@@ -49,5 +49,10 @@
 - *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
 - *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
 - *Observation (Tin Tower Shook):* Turn 25133 & 25137 - Sage mentioned the tower shook. This usually indicates Suicune is present.
-- *Navigation (Tin Tower Path):* [Turn 25159] Confirmed path from (20, 2) to (37, 7) is reachable within the restricted area: Right to (29, 2), Down to (29, 4), Right to (33, 4), Down to (33, 7), Right to (35, 7), Down to (35, 9), Right to (37, 9), Up to (37, 7).
+- *Navigation (Tin Tower Path):* [Turn 25159] Confirmed path from (20, 2) to (37, 7) is reachable within the restricted area: (20, 2) -> (29, 2) -> (29, 4) -> (33, 4) -> (33, 7) -> (34, 7) -> (34, 8) -> (35, 8) -> (35, 9) -> (37, 9) -> (37, 7).
 - *Plan:* Proceeding to Tin Tower 1F to check for Suicune. Leading with KIMCHI (Lv21) for Sleep Powder. GNEISS (Lv44) and Calcifer (Lv45) are backup for durability.
+- *Verified Tile Mechanics:*
+  - FLOOR: Verified traversable Turn 25141.
+  - WALL: Verified impassable Turn 25141.
+  - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
+  - DOOR: Verified as targetable warp point at (37, 7).
