@@ -18,7 +18,7 @@
 # Vermilion City Notes
 - **POIs:** Pokemon Center (9, 5), Mart (21, 13), Port Passage (South).
 - **Blockages:** Fence (North y=11), Snorlax (East 34, 8).
-- **Lore:** Magnet Train connects to Goldenrod. 8 Gyms in Kanto.
+- **Lore:** Magnet Train connects to Goldenrod (Johto). Pokefan confirms it can be used to return home if running. 8 Gyms in Kanto.
 - **Gym Status:**
     - **Progress:** Cleared. Defeated Lt. Surge.
     - **Note:** Surge did not give a TM after the battle.
