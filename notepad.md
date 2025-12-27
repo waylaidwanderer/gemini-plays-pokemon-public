@@ -1,13 +1,13 @@
 # Strategy for Suicune Encounter (Crystal)
-- **Status:** Sightings on Route 42 and Route 36 are required before the Tin Tower battle.
+- **Status:** Sightings on Route 42 and Route 36 are required before the Tin Tower battle. (Note: Objective Analyst suggests Sages in Tin Tower 1F are the final trigger).
 - **Quest Start:** Turn 24509 (Route 42 exploration).
 - **Sequence:**
   1. Burned Tower: Beasts flee. [Verified]
   2. Cianwood City (North): Suicune observed. [Verified]
-  3. Route 42 (Central Island): Approach Apricorn trees. [In Progress]
+  3. Route 42 (Central Island): Approach Apricorn trees. [Attempted - Sprite not seen]
   4. Route 36 (Sudowoodo junction): Approach junction. [Pending]
   5. Tin Tower 1F: Return for battle.
-- **Battle Strategy:** Use KIMCHI (Gloom) with Sleep Powder to prevent Roar. Use XENON (Gastly) with Mean Look if necessary. Weaken carefully and capture.
+- **Battle Strategy:** Use KIMCHI (Gloom) at Lv21 with Sleep Powder to induce sleep. If Suicune wakes up, re-apply Sleep Powder immediately. Use XENON (Gastly) with Mean Look to prevent escape (though Suicune in Tin Tower 1F typically battles normally). Weaken with KIMCHI's Absorb or switch to a higher level Pokemon like Calcifer (Typhlosion) to use non-lethal moves if available. Use Ultra/Great Balls for capture.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
