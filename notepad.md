@@ -10,14 +10,14 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Attempted (Turn 25425), not present.
+3. Route 42 (Central Island): Attempted, not present.
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Final Encounter.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. (Failed - Turn 25425)
-- Hypothesis 2: Route 36 sighting is next. [Current Target]
-- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed - Turn 25441)
+- Hypothesis 1: Route 42 sighting is next. (Failed)
+- Hypothesis 2: Route 36 sighting is next.
+- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. [Current Target]
 
 ## Tile Mechanics
@@ -31,6 +31,7 @@
 - HEADBUTT_TREE: Impassable; can be Headbutted.
 - WATER: Traversable with HM03 SURF.
 - GRASS: Traversable; wild encounters possible.
+- LEDGE_HOP_DOWN/RIGHT: One-way traversal (down/right only).
 
 ## Type Effectiveness (Verified in Crystal)
 - Ghost vs Normal: Immune (XENON Lick vs Raticate)
@@ -47,10 +48,10 @@
 
 ## NPC Registry & Checked Status
 - Ecruteak Pokecenter:
-  - Nurse (3, 1) [Checked - Turn 25441]
-  - Gym Guide (7, 1) [Checked - Turn 25441]
-  - Pokefan M (7, 6) [Checked - Turn 25441]
-  - Cooltrainer F (1, 4) [Checked - Turn 25441]
+  - Nurse (3, 1) [Checked]
+  - Gym Guide (7, 1) [Checked]
+  - Pokefan M (7, 6) [Checked]
+  - Cooltrainer F (1, 4) [Checked]
 - Tin Tower Gatehouse:
   - Sage (4, 6) [Allowed passage]
   - Sage (6, 9) [Tin Tower shook info]
