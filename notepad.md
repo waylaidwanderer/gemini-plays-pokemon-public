@@ -30,12 +30,13 @@
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Battle Youngster at (3, 16).
+- **Immediate:** Test Warp P (1, 17).
+- **Status:** Defeated Psychic Franklin (disguised as Youngster).
 - **Next Steps:**
-    1. Defeat Youngster.
-    2. Test Warp O (1, 15).
-    3. Test Warp P (1, 17).
-    4. Test Warp Q (5, 17).
+    1. Navigate to Warp P (1, 17).
+    2. Determine destination.
+    3. If P leads somewhere new, map it.
+    4. Otherwise, return and test Warp O and Warp Q.
 
 # Saffron City POIs
 - Gym (Here)
