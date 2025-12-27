@@ -44,3 +44,5 @@
 - **Plan:** Talk to Gym Guide for tips.
 - **Plan:** Defeat trainers and solve the trash can puzzle to reach Lt. Surge.
 - **Log:** Gym Guide says traps are inactive! I might be able to walk straight to Lt. Surge.
+- **Plan:** Battle Gentleman at (8, 8) to clear the room.
+- **Hypothesis:** If traps are inactive, I should be able to walk past the trash cans at y=11 without solving a puzzle.
