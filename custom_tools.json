@@ -28,6 +28,7 @@
   "sweep_area_v2": {
     "description": "Iteratively walks all floor tiles within a specified bounding box on the current map to trigger events or find objects. Uses BFS for robust movement between points and handles obstacles. Returns a list of button strings for the path.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "bottom_y": {
           "type": "integer"
@@ -47,15 +48,19 @@
         "top_y",
         "right_x",
         "bottom_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_player(root):\n    for row in root.findall('Row'):\n        row_id = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                return int(tile.get('id')), row_id\n    return None\n\ndef bfs(start, end, root):\n    if start == end: return []\n    q = deque([(start, [])])\n    visited = {start}\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    while q:\n        (cx, cy), path = q.popleft()\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') in ['FLOOR', 'WARP_CARPET', 'STAIRS', 'CAVE', 'WATER']:\n                    # Note: Simplified collision. Objects are walls.\n                    if tile.find('Object') is not None:\n                        continue\n                    if (nx, ny) == end:\n                        return path + [btn]\n                    visited.add((nx, ny))\n                    q.append(((nx, ny), path + [btn]))\n    return None\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    left = int(input_data['left_x'])\n    top = int(input_data['top_y'])\n    right = int(input_data['right_x'])\n    bottom = int(input_data['bottom_y'])\n    \n    player_pos = find_player(root)\n    if not player_pos: \n        print(json.dumps([\"Error: Player not found\"]))\n    else:\n        # Generate target floor tiles in a snake pattern for efficiency\n        targets = []\n        for y in range(top, bottom + 1):\n            x_range = range(left, right + 1) if (y - top) % 2 == 0 else range(right, left - 1, -1)\n            for x in x_range:\n                tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n                if tile is not None and tile.get('type') == 'FLOOR':\n                    targets.append((x, y))\n        \n        full_path = []\n        curr_pos = player_pos\n        for target in targets:\n            sub_path = bfs(curr_pos, target, root)\n            if sub_path is not None:\n                full_path.extend(sub_path)\n                curr_pos = target\n        \n        print(json.dumps(full_path))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    # Build adjacency and walkable map\n    walkable = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            # Floor, grass, etc are walkable. Walls and objects are not.\n            is_walkable = t_type in ['FLOOR', 'TALL_GRASS', 'LONG_GRASS'] and not has_obj\n            walkable[(x, y)] = is_walkable\n\n    # Correct way to find player\n    start_x, start_y = -1, -1\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                start_x = int(tile.get('id'))\n                start_y = y\n                break\n        if start_x != -1: break\n\n    left_x = int(input_data['left_x'])\n    top_y = int(input_data['top_y'])\n    right_x = int(input_data['right_x'])\n    bottom_y = int(input_data['bottom_y'])\n\n    targets = []\n    for y in range(top_y, bottom_y + 1):\n        if (y - top_y) % 2 == 0:\n            for x in range(left_x, right_x + 1):\n                if walkable.get((x, y)): targets.append((x, y))\n        else:\n            for x in range(right_x, left_x - 1, -1):\n                if walkable.get((x, y)): targets.append((x, y))\n\n    if not targets:\n        print(json.dumps([]))\n        return\n\n    def get_path(s_x, s_y, e_x, e_y):\n        q = deque([(s_x, s_y, [])])\n        visited = set([(s_x, s_y)])\n        while q:\n            cx, cy, path = q.popleft()\n            if cx == e_x and cy == e_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in walkable and walkable[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    q.append((nx, ny, path + [btn]))\n        return None\n\n    full_path = []\n    curr_x, curr_y = start_x, start_y\n    for tx, ty in targets:\n        p = get_path(curr_x, curr_y, tx, ty)\n        if p:\n            full_path.extend(p)\n            curr_x, curr_y = tx, ty\n    \n    print(json.dumps(full_path))\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version of a robust area sweep tool using BFS for navigation between floor tiles.",
         "timestamp": "2025-12-27T05:49:48.091Z",
         "action_counter": 24932
+      },
+      {
+        "commit_message": "Fixing typo 'intelligence' to 'in' and improving logic.",
+        "timestamp": "2025-12-27T14:27:39.597Z",
+        "action_counter": 26009
       }
     ]
   },
