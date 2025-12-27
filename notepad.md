@@ -10,7 +10,7 @@
 
 ## Strategy
 - Sequence: Route 42 -> Route 36 -> Tin Tower 1F.
-- Current Task: Buy Great Balls at Ecruteak Mart.
+- Current Task: Head to Route 42 for Suicune sighting.
 
 # Money Management
 - Target: 40-50 Great Balls.
