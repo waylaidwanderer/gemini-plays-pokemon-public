@@ -47,15 +47,15 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Exploring the right side of the Power Plant.
+  - **Status:** Spoke to Manager.
   - **Clues:**
-    - Officer at (4, 14): "A thief broke into the POWER PLANT..."
-    - Worker at (2, 9): "Someone made off with a part that's essential for the generator. Without it, the new generator's useless!"
-    - Wall at x=10 separates the room. Access to the right side seems to be via the top (Row 4).
+    - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
+    - Confirmed: The part was stolen.
+    - Lead: The "shady character" in Cerulean City (mentioned by Police Chief) is almost certainly the thief.
   - **Plan:**
-    1. Cross to the east side via the north corridor.
-    2. Talk to the Fisher at (14, 10).
-    3. Find the Plant Manager.
+    1. Return to Cerulean City.
+    2. Go to the Cerulean Gym to find the Rocket Grunt.
+    3. Recover the Machine Part.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
