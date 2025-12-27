@@ -29,12 +29,13 @@
 - **Sage Passage:** Passing the gatehouse sage does NOT mean sightings are complete; it only means you have the Clear Bell (or Eusine is defeated). The Trio inside is the final check.
 
 ## Progress Tracking
-- Current Task: Trigger Suicune sighting on Route 36 (35, 9).
-- Status: Confirmed Route 42 sighting is complete (location empty). Flying to Ecruteak to reach Route 36.
+- Current Task: Trigger Suicune sighting on Route 42 (26, 15).
+- Status: Sighting at (35, 9) on Route 36 failed to trigger. Suspect Route 42 sighting is actually NOT complete. Flying to Mahogany to check (26, 15) precisely.
 ## Suicune Sighting Troubleshooting
-- Route 42 (26, 15): Confirmed triggered (location empty, sage passage granted).
-- Route 36 (35, 9): Next target. Junction near Violet City / Ruins of Alph.
-- Hypothesis: Route 36 is the final overworld trigger required before the Wise Trio will battle.
+- Route 42 (26, 15): Target. Must approach precisely. If empty, check for Eusine nearby.
+- Route 36 (35, 9): Attempted (Turn 26933) - No trigger.
+- Hypothesis: Tracker assumed "empty" meant "triggered," but it might mean "not yet spawned."
 - To Check:
-  - Approach (35, 9) on Route 36.
-  - If triggered, return to Tin Tower Gatehouse.
+  - Approach (26, 15) on Route 42 from the water/south.
+  - Check if Eusine appears after the flee.
+  - If Route 42 triggers, THEN go to Route 36.
