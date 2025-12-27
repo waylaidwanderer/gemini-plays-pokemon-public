@@ -64,3 +64,7 @@
 - Visual Confirmation: Start Menu Open, Cursor on POKEMON.
 - Action: Pressing A to enter Party Menu.
 - Strategy: Single-step execution to prevent desync. Next step: Select Mistral.
+- Party Menu: Navigated to Mistral (Slot 5).
+- Action: Selected Mistral.
+- Anticipating: Context menu with 'FLY' option.
+- Next: Select 'FLY' -> Open Map -> Target Cerulean.
