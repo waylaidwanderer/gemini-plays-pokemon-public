@@ -38,3 +38,4 @@
 - Suicune Sightings: Suicune is a static overworld sprite. If not visible at (26, 14), prerequisites are likely unmet. [Turn 25620]
 - Tool Refinement: `find_path_v4` created to handle complex traversals and player detection. [Turn 25624]
 - Traveling to Route 36 via Ecruteak City. [Turn 25627]
+- Note: find_path_v4 failed to transition from FLOOR (42, 9) to WATER (41, 9). Manual Surf required. [Turn 25633]
