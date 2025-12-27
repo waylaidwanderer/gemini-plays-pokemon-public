@@ -31,17 +31,16 @@
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
 
 # Strategy for Beating Suicune
-- Status: Lv40 legendary.
+- Status: Lv40 legendary. **Static encounter at Tin Tower 1F (Crystal).** Does NOT roam/run during battle.
 - Moveset: Leer, Bubblebeam, Rain Dance, Roar.
-- Lead: XENON (Lv21).
+- Lead: Calcifer (Lv45) or GNEISS (Lv44) to tank.
 - Tactical Plan:
-  1. Turn 1: Mean Look (prevents fleeing, but NOT Roar).
-  2. Turn 2+: Hypnosis (MANDATORY to prevent Roar and Bubblebeam).
-  3. If Roar is used: The battle ends. I must reload the save.
-  4. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
-  5. Night Shade: Deals exactly 21 damage. Use only if HP is high (Suicune has ~125 HP).
+  1. Weaken with non-lethal moves (Typhlosion/Graveler).
+  2. Switch to XENON (Gastly).
+  3. Use Hypnosis (MANDATORY to prevent Roar and Bubblebeam).
+  4. If Roar is used: The battle ends. I must reload the save.
+  5. Throw Great Balls while Suicune is asleep.
   6. Priority: Keep Suicune asleep at all times.
 
-# Navigation to Tin Tower
-- Path: Ecruteak City (18, 11) -> Tin Tower Gatehouse (5, 3) warp -> (17, 15) -> (17, 3) warp -> Wise Trio Room (1, 4) -> (7, 4) warp -> Ecruteak Restricted Area (20, 2) -> (37, 7) warp -> Tin Tower 1F.
-- Requirements: Clear Bell, Fog Badge, and Sages' approval (all obtained).
+# Tile Mechanics (Global)
+- WARP_CARPET_LEFT/RIGHT: Warp triggered by moving in the direction the carpet faces while standing on it. [Verified]
