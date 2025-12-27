@@ -19,5 +19,5 @@
 
 # Pokedex
 - Seen: 168, Owned: 30.
-- **Battle:** Juggler Fritz sent out Magmar (Lv 29).
-- **Battle:** Juggler Fritz sending out Machoke.
+- **Log:** Defeated Juggler Fritz (Super Nerd) at (26, 9). He is blocking the room at x=26.
+- **Plan:** Explore the unblocked cabins at x=24 and x=22. The granddaughter might be there.
