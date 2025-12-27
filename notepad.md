@@ -26,14 +26,13 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** Inside Silph Co. Office (1F Lobby).
-- **Action:** Receptionist was silent. Moving East to find stairs or elevator.
+- **Status:** Leaving Silph Co. (1F Lobby).
+- **Action:** Exit building. Upper floors are restricted. Received Up-Grade from Officer.
 - **Next Steps:**
-    1. Explore the rest of the lobby (East side).
-    2. Find access to upper floors.
-    3. Locate Saffron Gym (Sabrina).
-    4. Locate Copycat's House (North-West?).
-    5. Check fighting Dojo.
+    1. Locate Saffron Gym (Sabrina).
+    2. Locate Copycat's House (North-West?).
+    3. Check fighting Dojo.
+    4. Explore remaining city grid.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
