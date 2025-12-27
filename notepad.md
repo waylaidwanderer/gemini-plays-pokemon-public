@@ -9,16 +9,16 @@
 - Wise Trio Room: Emptied.
 
 ## Sighting Progress
-1. Burned Tower: Beasts fled. [Verified]
-2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Pending. (Swept island Turn 25515, no trigger).
+1. Burned Tower: [Verified]
+2. Cianwood City (North): [Verified]
+3. Route 42 (Central Island): Pending.
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Pending. (Checked Turn 25477, no encounter).
+5. Tin Tower 1F: Pending (Checked Turn 25477).
 
 ## Hypotheses & Strategy
 - Hypothesis 1: Route 42 sighting is next.
 - Hypothesis 2: Route 36 sighting is next. [Current Target - Started Turn 25535]
-- Hypothesis 3: Eusine provides a trigger. (Confirmed: No at Ecruteak Pokecenter)
+- Hypothesis 3: Eusine provides a trigger. (Confirmed: No)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
 ## Strategy & Planning
