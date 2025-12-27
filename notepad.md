@@ -26,12 +26,13 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** Outside Mr. Psychic's House (27, 30).
-- **Action:** Head West to the main vertical street (Column 16), then head North to finding the Gym and Silph Co.
+- **Status:** On Southern Street (Row 31).
+- **Action:** Navigate West to Column 6 to find a vertical path North (Middle of Row 29 is blocked by buildings).
 - **Next Steps:**
-    1. Locate Saffron Gym and Silph Co (likely North/Central).
-    2. Locate Copycat's House (North-West?).
-    3. Check fighting Dojo.
+    1. Find path North on the West side.
+    2. Locate Saffron Gym and Silph Co (likely North/Central).
+    3. Locate Copycat's House (North-West?).
+    4. Check fighting Dojo.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
