@@ -1,7 +1,12 @@
 # Strategy for Suicune Encounter (Crystal)
 1. Prerequisites: Clear Bell and Fog Badge (Obtained).
-2. Status: Sages Lore shared. Suicune expected to appear in center of 1F.
-3. Battle: STATIC encounter. Does NOT roam/run. Roar ends battle (reload if used).
+2. Sightings Required:
+   - Burned Tower (Ecruteak): Beasts flee. [Done]
+   - Cianwood City (North): Suicune observed. [Done]
+   - Route 42 (Central Island): Middle Apricorn grove. [Pending]
+   - Route 36 (Sudowoodo junction): [Pending]
+3. Final Trigger: Return to Tin Tower 1F. Suicune will appear in the center.
+4. Battle: STATIC encounter. Does NOT roam/run. Roar ends battle (reload if used).
 
 # Battle Strategy for Suicune
 - Status: Lv40 legendary.
@@ -11,6 +16,12 @@
   1. Turn 1: Sleep Powder (keep it asleep to prevent Roar).
   2. Weaken carefully with other party members if needed.
   3. Throw Great/Ultra Balls while it is asleep.
+
+# Strategy for Triggering Suicune (Route 42 & 36)
+1. Fly to Ecruteak City to reach the main area.
+2. Route 42: Surf to central island (24, 13). Approach Apricorn trees to trigger sighting.
+3. Route 36: Navigate to Sudowoodo junction. Trigger sighting.
+4. Return to Tin Tower 1F for the battle.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
@@ -31,9 +42,3 @@
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
-
-# Strategy for Triggering Suicune (Route 42 & 36)
-1. Fly to Ecruteak City (Main).
-2. Route 42: Surf to central island (24, 13). Approach Apricorn trees to trigger sighting.
-3. Route 36: Navigate to Sudowoodo junction. Trigger sighting.
-4. Return to Tin Tower 1F for the battle.
