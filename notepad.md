@@ -39,9 +39,10 @@
 
 # Active Plans
 - **Restore Power & Badges:**
-  - **Status:** Surfing on Route 25 (42, 7). **Misty event cleared.**
-  - **Immediate Action:** Surf South along the river to reach Power Plant.
-  - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
+  - **Status:** Backtracking on Route 25.
+  - **Correction:** Water at Bill's House is a dead end.
+  - **Action:** Return to Bridge (West Side). Surf from (6, 16).
+  - **Route:** Surf South on West Channel -> Route 24 -> Find path East to Route 9.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
