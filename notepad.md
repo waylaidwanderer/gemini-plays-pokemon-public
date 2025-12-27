@@ -68,3 +68,5 @@
 - **Log:** Successfully moved onto warp tile at (27, 8) but warp did not trigger immediately.
 - **Action:** Pressing 'Down' again to force the warp or bump the wall.
 - **Hypothesis:** Warp might require walking 'into' the wall or didn't trigger due to turn ending mid-animation.
+- **Log:** Cabin at 1F (27, 8) (Map 15_4, North Room) is empty.
+- **Plan:** Exit and check the next cabin at (23, 8).
