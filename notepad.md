@@ -6,7 +6,7 @@
   3. Route 42 (Central Island): Suicune sighting near Apricorn trees. [Attempted - Sprite missing]
   4. Route 36 (Sudowoodo junction): Suicune sighting. [Pending]
   5. Tin Tower 1F: Final encounter with Suicune.
-- **Immediate Plan:** Exit menu, face right (14, 9), and Surf to the central island of Route 42. Check for Suicune near the Apricorn trees (27-29, 16). If sighted and it flees, proceed to Route 36. If not present, re-verify Cianwood sighting or talk to Eusine in Ecruteak. Finally, trigger Suicune at Tin Tower 1F by talking to all three Sages.
+- **Immediate Plan:** Exit the Pokémon Center and head to the gatehouse at (18, 11). Navigate through the Tin Tower Gatehouse, Wise Trio Room, and the restricted area to reach Tin Tower 1F. Once there, talk to all three Sages to trigger the Suicune encounter. [Analyst Advice: Holding Clear Bell and Fog Badge is the key trigger].
 
 # Battle Strategy: Suicune
 - **Lead:** KIMCHI (Gloom) Lv21.
