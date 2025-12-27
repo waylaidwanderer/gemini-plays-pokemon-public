@@ -39,9 +39,9 @@
 
 # Active Plans
 - **Escape to Cerulean:**
-  - **Status:** Fly Map Open. Cursor on Saffron City.
-  - **Action:** Pressing 'Up' to select Cerulean City (North of Saffron).
-  - **Execution:** Up -> A (Fly).
+  - **Status:** Party Menu. Selected 'FLY'. Opening Map.
+  - **Action:** Navigate Fly Map to Cerulean City.
+  - **Execution:** Determine path -> Select Cerulean -> Fly.
   - **Next:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
