@@ -26,13 +26,12 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** Inside Saffron Pokemon Center. Healing team.
-- **Action:** Finish healing dialogue, then exit the building to the South.
+- **Status:** Exited Pokemon Center. Heading East to find a path North.
+- **Action:** Navigate to Column 24 (potential vertical street) via Row 31 to avoid NPCs.
 - **Next Steps:**
-    1. Locate Saffron Gym (Sabrina).
-    2. Locate Fighting Dojo.
-    3. Locate Silph Co.
-    4. Check out Mr. Psychic and Copycat's house.
+    1. Check if path North at Column 24 is open.
+    2. Locate Saffron Gym and Silph Co (likely North/Central).
+    3. Visit Mr. Psychic (South-East?) and Copycat's House (North-West?).
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
