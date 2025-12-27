@@ -12,7 +12,7 @@
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): [Pending]
+3. Route 42 (Central Island): [In Progress]
 4. Route 36 (Sudowoodo Junction): [Pending]
 5. Tin Tower 1F: Pending.
 
@@ -28,10 +28,11 @@
 - FLOOR_UP_WALL: Traversable (ledges/stairs). Typically one-way down for ledges. [Verified]
 
 ## Failed Hypotheses & Attempts
-- Attempt 1 (Route 42): Swept island after tower shook and Sages were talked to. No trigger found. (Turns 25639-25771).
+- Attempt 1 (Route 42): Swept southern island clearing (Turns 25639-25771). No trigger.
+- Attempt 2 (Route 36): Swept Sudowoodo junction (Turns 25787-25794). No trigger.
 - Hypothesis: Talking to all Sages was the final trigger for Route 42. [Denied - Swept island, no trigger].
 
 ## Strategy
-- Current: Navigate to Route 42 central island and perform a granular sweep to find the Suicune trigger tile.
-- Next: Check Route 36 for the final overworld sighting.
-- Final: Return to Tin Tower 1F for the static encounter.
+- Current: Perform a granular sweep of the northern part of the Route 42 island floor (22, 12) to (28, 12).
+- Next: If no trigger, perform a full granular sweep of the entire island floor again.
+- Final: Check Route 36 junction one more time.
