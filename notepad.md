@@ -30,43 +30,30 @@
 - KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
 
 # Event Mechanics: Suicune Hunt (Crystal)
-- Status: Suicune appears at fixed sighting locations. Final encounter at Tin Tower 1F.
-- Prerequisite: "Tower Shook" event in Ecruteak City + Possession of CLEAR BELL + Fog Badge.
-- Trigger: Talk to all three Sages on Tin Tower 1F.
-- Sightings Sequence:
-  1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
-  2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-  3. Route 42 (Central Island): Middle Apricorn grove. [Sighting FAILED/SKIPPED]
-  4. Route 36 (Sudowoodo junction): [Pending]
-  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Cleared]
-  6. Tin Tower 1F (Final Battle): Talk to all 3 Sages on 1F. [Current Target]
+- Status: Talked to all 3 Sages on Tin Tower 1F. Ritual complete.
+- Prerequisite: CLEAR BELL + Fog Badge. [Both held]
+- Current Target: Trigger Suicune encounter in center of 1F.
+- Central Area Entry Points: (4, 10), (5, 10), (14, 10), (15, 10).
 
 # Strategy for Beating Suicune
 - Status: Lv40 legendary.
+- Moveset: Leer, Bubblebeam, Rain Dance, Roar.
 - Lead: XENON (Lv21).
-- Capture Sequence:
-  1. Mean Look (prevent escape).
-  2. Hypnosis (induce sleep).
-  3. Night Shade (weaken to low HP without KO).
-  4. Great Balls (repeat until caught).
+- Tactical Plan:
+  1. Turn 1: Mean Look (prevents fleeing, but NOT Roar).
+  2. Turn 2+: Hypnosis (MANDATORY to prevent Roar and Bubblebeam).
+  3. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
+  4. Night Shade: Deals 21 damage. Use only if HP is high.
+  5. Priority: Keep Suicune asleep at all times.
 
 # NPC & Interaction Rules
-- Sage (4, 6): Passage guard. Granted access after confirming Clear Bell and Fog Badge. [Verified]
-- Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
+- Sage (4, 6): Passage guard. Granted access. [Verified]
+- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
 
 # Money & Economy
-- Current Balance: ¥373. Need to prioritize trainer battles.
+- Current Balance: ¥373.
 
 # Trainer Defeats
-- Sage Gaku: Defeated in Wise Trio Room (4_2).
-- Sage Masa: Defeated in Wise Trio Room (4_2).
-- Sage [Third]: Sage at (4, 6) in 4_1 granted passage.
-
-# Tactical Plan: Suicune Capture
-1. Lead with XENON (Gastly).
-2. Turn 1: Use Mean Look to prevent Suicune from fleeing.
-3. Turn 2+: Use Hypnosis until Suicune is asleep.
-4. If XENON is at risk, switch to a high-HP wall (GNEISS or Calcifer) to soak hits while throwing Great Balls.
-5. Only use Night Shade if Suicune's HP is very high; at Lv21, Night Shade deals exactly 21 damage. Suicune is Lv40 (approx 120-130 HP).
-6. Maintain Sleep status as a priority.
-- Quest Start: Suicune Encounter (Turn 24238, 2025-12-26 16:30)
+- Wise Trio (Wise Trio Room): Defeated.
+- Sage at (4, 6) (Gatehouse): Granted passage.
+- Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
