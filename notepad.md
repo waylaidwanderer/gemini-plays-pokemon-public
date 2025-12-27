@@ -1,6 +1,6 @@
 # Kanto Campaign Status
-- **Location:** Route 24 (Nugget Bridge).
-- **Objective:** Access East side path to reach Power Plant.
+- **Location:** Route 9.
+- **Objective:** Surf to Power Plant.
 
 # Strategic Goals
 1. **Restore Power:** Investigate Power Plant (East of Cerulean).
