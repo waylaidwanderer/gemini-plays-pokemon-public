@@ -50,3 +50,6 @@
   - **Solution:** Return to Cerulean City and find a Northern entrance to access the Upper path.
   - **Status:** The "Cut Tree" at (33, 24) is UNCUTTABLE (confirmed). Must loop back West and North.
   - **Timestamp:** Turn 21458 - Backtracking to find Northern path (target approx 33, 12).
+- Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
+- New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
+- Target: Reach (6, 24) first.
