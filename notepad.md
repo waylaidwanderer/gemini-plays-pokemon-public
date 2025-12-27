@@ -40,3 +40,4 @@
 - **Plan:** Decline switch. Use Cross Chop on Magneton (Super Effective).
 - **Correction:** Tool error caused Ice Punch usage (Resisted).
 - **Strategy:** Manually selecting Cross Chop (Slot 4) to ensure correct move usage against Magneton. Cursor is currently on Slot 3 (Ice Punch).
+- **Correction:** Manually moving cursor Down from Ice Punch to Cross Chop to hit Magneton.
