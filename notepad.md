@@ -3,6 +3,8 @@
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
 - Wise Trio Battle Objective Start: Turn 26612 (Timestamp: Saturday, Dec 27, 2025, 11:23 AM PST).
+- Sage Passage Guard (4, 6): Permitted passage at Turn 26487.
+- Path to Wise Trio: Ladder at (5, 3) -> Arrive at (17, 15) -> Ladder at (17, 3) -> Wise Trio Room.
 
 ## Current Strategy
 - Plan:
