@@ -73,3 +73,5 @@
 - Checked (5, 5) from (5, 6): No item.
 - Plan: Move to Floor at (5, 7) to search (5, 6) and (4, 6) from the south.
 - Moving Down to (5, 7), then facing Up to check (5, 6).
+- Checked (5, 6): No item (Surf prompt).
+- Moving to (4, 7) to check (4, 6).
