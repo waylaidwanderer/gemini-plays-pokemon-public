@@ -61,3 +61,6 @@
 - Used Strength (Muscle) by mistake.
 - Action: Clearing text and opening Start Menu.
 - Next: Navigate to Pokemon -> Mistral -> Fly.
+- Visual Confirmation: Start Menu Open, Cursor on POKEMON.
+- Action: Pressing A to enter Party Menu.
+- Strategy: Single-step execution to prevent desync. Next step: Select Mistral.
