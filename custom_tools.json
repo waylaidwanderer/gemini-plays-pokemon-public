@@ -1,6 +1,6 @@
 {
   "find_path": {
-    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses.",
+    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. robustly handles obstacles and ledges.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -25,11 +25,10 @@
         "start_x",
         "start_y",
         "target_x",
-        "target_y",
-        "autopress_buttons"
+        "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\nimport sys\n\n# Inputs are expected to be in global scope: start_x, start_y, target_x, target_y, autopress_buttons\n\ntry:\n    root = ET.fromstring(map_xml_string)\nexcept Exception:\n    print(json.dumps([]))\n    sys.exit()\n\ngrid = {}\nfor row in root.findall('Row'):\n    y_coord = int(row.get('id'))\n    for tile in row.findall('Tile'):\n        x_coord = int(tile.get('id'))\n        t_type = tile.get('type')\n        \n        has_object = False\n        for child in tile:\n            if child.tag == 'Object':\n                has_object = True\n                break\n        \n        grid[(x_coord, y_coord)] = {'type': t_type, 'has_object': has_object}\n\ntry:\n    sx = int(start_x)\n    sy = int(start_y)\n    tx = int(target_x)\n    ty = int(target_y)\nexcept NameError:\n    print(json.dumps([]))\n    sys.exit()\n\nstart = (sx, sy)\ntarget = (tx, ty)\n\nif start not in grid or target not in grid:\n    print(json.dumps([]))\n    sys.exit()\n\nqueue = collections.deque([[start]])\nseen = {start}\n\nwhile queue:\n    path = queue.popleft()\n    curr = path[-1]\n    \n    if curr == target:\n        btns = []\n        for i in range(len(path)-1):\n            cx, cy = path[i]\n            nx, ny = path[i+1]\n            if nx > cx: btns.append('Right')\n            elif nx < cx: btns.append('Left')\n            elif ny > cy: btns.append('Down')\n            elif ny < cy: btns.append('Up')\n        print(json.dumps(btns))\n        sys.exit()\n\n    cx, cy = curr\n    neighbors = [\n        (cx, cy-1, 'Up'),\n        (cx, cy+1, 'Down'),\n        (cx-1, cy, 'Left'),\n        (cx+1, cy, 'Right')\n    ]\n    \n    for nx, ny, move in neighbors:\n        if (nx, ny) in seen: continue\n        if (nx, ny) not in grid: continue\n        \n        tile = grid[(nx, ny)]\n        \n        if tile['has_object'] and (nx, ny) != start:\n             continue\n        \n        t = tile['type']\n        walkable = True\n        if t == 'WALL': walkable = False\n        elif t == 'CUT_TREE': walkable = False\n        elif 'LEDGE_HOP_DOWN' in t and move != 'Down': walkable = False\n        elif 'LEDGE_HOP_UP' in t and move != 'Up': walkable = False\n        elif 'LEDGE_HOP_LEFT' in t and move != 'Left': walkable = False\n        elif 'LEDGE_HOP_RIGHT' in t and move != 'Right': walkable = False\n        \n        if walkable:\n            seen.add((nx, ny))\n            new_path = list(path)\n            new_path.append((nx, ny))\n            queue.append(new_path)\n\nprint(json.dumps([]))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\nstart = (input_data['start_x'], input_data['start_y'])\ntarget = (input_data['target_x'], input_data['target_y'])\nxml_data = map_xml_string\n\nroot = ET.fromstring(xml_data)\nwidth = int(root.attrib['width'])\nheight = int(root.attrib['height'])\n\ngrid = {}\nobstacles = set()\nledges = {}\n\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        t_type = tile.attrib['type']\n        grid[(x,y)] = t_type\n        \n        has_object = False\n        for child in tile:\n            if child.tag == 'Object':\n                has_object = True\n            if child.tag == 'Marker':\n                 if child.attrib.get('object_id'):\n                     has_object = True\n        \n        if t_type == 'WALL' or t_type == 'VOID':\n            obstacles.add((x,y))\n        elif t_type == 'LEDGE_HOP_DOWN':\n            ledges[(x,y)] = 'DOWN'\n            obstacles.add((x,y))\n        elif has_object and (x,y) != start and (x,y) != target:\n            obstacles.add((x,y))\n\nqueue = deque([(start, [])])\nvisited = set([start])\n\nfound_path = []\n\nwhile queue:\n    (cx, cy), path = queue.popleft()\n    \n    if (cx, cy) == target:\n        found_path = path\n        break\n    \n    moves = [\n        (0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')\n    ]\n    \n    for dx, dy, direction in moves:\n        nx, ny = cx + dx, cy + dy\n        \n        if 0 <= nx < width and 0 <= ny < height:\n            if (nx, ny) in visited:\n                continue\n            \n            if (nx, ny) not in obstacles:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [direction]))\n            elif direction == 'Down' and (nx, ny) in ledges and ledges[(nx, ny)] == 'DOWN':\n                lx, ly = nx, ny + 1\n                if 0 <= lx < width and 0 <= ly < height:\n                    if (lx, ly) not in obstacles and (lx, ly) not in visited:\n                         visited.add((lx, ly))\n                         queue.append(((lx, ly), path + ['Down']))\n\nprint(json.dumps(found_path))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -55,6 +54,11 @@
         "commit_message": "Refined find_path to remove function wrapper, ensuring global variable access.",
         "timestamp": "2025-12-27T11:03:30.933Z",
         "action_counter": 21426
+      },
+      {
+        "commit_message": "Fixing pathfinding tool: Added proper ledge jumping logic and commit message.",
+        "timestamp": "2025-12-27T12:53:54.906Z",
+        "action_counter": 21575
       }
     ]
   },
