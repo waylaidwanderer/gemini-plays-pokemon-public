@@ -42,3 +42,4 @@
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
+- Turn 24485: Starting search for Suicune sightings on Route 42 and Route 36.
