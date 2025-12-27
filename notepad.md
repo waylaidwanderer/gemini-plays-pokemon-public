@@ -54,3 +54,5 @@
 - **LADDER:** Used for the bridge in Cerulean Gym. Functionally acts as a walkable FLOOR tile.
 - **Observation:** Ledges at (9-11, 19) confirm the path North must be west of x=9.
 - **Strategy:** Moving to x=6 to explore the unseen area and find the gap in the ledges.
+- **Observation:** Found a gap in the ledges at x=6 (Row 19).
+- **Strategy:** Heading North through (6, 19) to reach Route 24.
