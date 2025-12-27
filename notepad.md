@@ -45,3 +45,5 @@
 - **Hypothesis:** The real Pokemon Center is further West or South.
 - **Log:** Read Vermilion City sign. Confirmed location.
 - **Plan:** Head South to y=15, then explore West to find the Gym and Pokemon Center. The building at (20, 5) is inaccessible.
+- **Log:** Returning South to y=15 to explore the West side of the city.
+- **Plan:** Head to (15, 15) west of the Mart to look for the Gym and Pokemon Center.
