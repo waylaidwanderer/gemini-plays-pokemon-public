@@ -21,13 +21,15 @@
   - GUARD SPEC: ¥350 (Sold)
   - LEMONADE (x2): ¥350 (Sold)
   - FRESH WATER: ¥100 (Sold)
-  - X SPECIAL: ¥175 (Sold Turn 25237)
+  - X SPECIAL: ¥175 (Sold)
 - Remaining Sellables:
   - TM50 NIGHTMARE: ¥1000
   - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
   - X ATTACK: ¥250
   - HARD STONE: ¥25
+  - Other TMs: ¥1000-2500 each.
+- Strategy: Sell TMs to reach ~¥16,200 for 27 more Great Balls.
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
