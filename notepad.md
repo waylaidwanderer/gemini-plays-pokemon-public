@@ -58,3 +58,6 @@
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
 - Plan: Resume travel to Route 9 via the Northern entrance at (27, 12).
+- Police Chief (Fishing Guru sprite) says: "I heard that some shady character is skulking about. I won't stand for it if he turns out to be a thief."
+- Hypothesis: This might trigger the Rocket Grunt's appearance in the Cerulean Gym.
+- Plan: Check Cerulean Gym (30, 23) for the Grunt. If not there, proceed to Route 9.
