@@ -63,4 +63,6 @@
 - Met Cooltrainer M at (37, 8).
 - Received a NUGGET from him!
 - He challenged me to a battle ("Let me take you on").
-- Battling Cooltrainer Kevin. Defeated Rhyhorn and Charmeleon. Facing Wartortle.
+- Battling Cooltrainer Kevin. Defeated Rhyhorn, Charmeleon, and Wartortle. Victory!
+- Kevin defeated. Path to Bill's House should be clear.
+- Going to retrieve the Item Ball at (32, 4) using Cut.
