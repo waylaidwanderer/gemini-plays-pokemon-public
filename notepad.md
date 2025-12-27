@@ -17,13 +17,13 @@
 - **FLOOR_UP_WALL:** Acts as a WALL from the North.
 
 # Active Plans
-- **Reach Power Plant:**
-  - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** On Route 8, heading East to Lavender Town.
-  1. Fly to Saffron City. (Done)
-  2. Walk East to Route 8 and continue to Lavender Town.
-  3. Talk to the Radio Tower Director to get the Expansion Card.
-  4. Wake Snorlax in Vermilion City.
+- **Obtain Radio Card & Wake Snorlax:**
+  - *Started: Turn 22174 (Sat Dec 27 1:25 PM)*
+  - **Status:** In Lavender Town.
+  1. Locate Radio Tower (likely Northeast).
+  2. Talk to Director for Expansion Card.
+  3. Fly to Vermilion City.
+  4. Wake Snorlax with Poke Flute channel.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 
 # Lessons Learned
