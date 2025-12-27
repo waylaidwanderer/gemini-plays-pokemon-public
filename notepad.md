@@ -46,13 +46,15 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** On Upper Tier (Row 3), heading East.
-  - **Observation:** Dead end at x=38. Ledges at (36, 5) and (37, 5) allow access to Row 6.
-  - **New Intel:** Lass detected at (39, 8).
+  - **Status:** Planning to hop ledge at (37, 5).
+  - **Analysis:**
+    - Hopping at (37, 5) lands in Chute 37.
+    - Chute 37 appears to connect South to Row 11/12 via ledges.
+    - Row 11/12 allows Eastward movement past the barrier at x=38.
   - **Plan:**
-    1. Go East to (37, 3).
-    2. Go South and hop ledge at (37, 5) to reach Row 6.
-    3. Head towards the Lass at (39, 8) and continue East.
+    1. Hop ledge at (37, 5).
+    2. Go South to Row 11/12.
+    3. Go East to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
