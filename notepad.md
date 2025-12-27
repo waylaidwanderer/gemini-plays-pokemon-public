@@ -23,8 +23,8 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** In Cerulean City.
-  1. Enter Cerulean Gym and find Machine Part (hidden in water).
-  2. Enter Route 9 and Surf to Power Plant.
-  3. Deliver Machine Part.
+  - **Status:** Have Machine Part. En route to Power Plant.
+  1. Navigate to Route 9 (East of Cerulean).
+  2. Surf East/South to reach the Power Plant.
+  3. Deliver Machine Part to the Manager.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
