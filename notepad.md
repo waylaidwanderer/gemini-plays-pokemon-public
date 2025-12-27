@@ -30,8 +30,8 @@
 
 ## Progress Tracking
 - Suicune Quest: Ongoing. Re-verifying overworld sightings.
-- Route 42 Target: (26, 15).
-- Route 36 Target: (35, 9).
-- Hypothesis: Sighting might require map reset or specific approach.
-- Status: Island at (26, 15) appears empty. Checking map reset via Mt. Mortar.
+- Route 42 Target: (26, 15). Status: Empty.
+- Route 36 Target: (35, 9). Status: Empty.
+- Current Task: Checking Tin Tower Gatehouse (Ecruteak) for shaking/Sage dialogue.
+- Hypothesis: Sightings 3 and 4 (Route 42 and 36) are already complete.
 - Lesson Learned (Turn 26831): If a legendary beast sighting doesn't trigger at the correct coordinates after multiple sweeps, it's likely already been flagged as complete. Proceed to the next step in the sequence or verify the final gatekeeper (e.g., Tin Tower sages).
