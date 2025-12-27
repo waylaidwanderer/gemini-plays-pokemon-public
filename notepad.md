@@ -30,3 +30,6 @@
   - **Findings:** Found Gentleman (Grandfather). He says the girl is "bugging someone."
 - **Action:** Exiting to 1F. Heading West to find the Captain's Quarters (likely the Northern Room of 15_5).
 - **Log:** Exiting Lower Deck Far East. Heading to 1F West side.
+- **Log:** Accidentally entered B1F (Map 15_7) via ladder at 1F (30, 14).
+- **Observation:** I am in a section of B1F separated by a wall at Column 29.
+- **Plan:** Explore this section to find a way West (to the main B1F area) or return to 1F if stuck.
