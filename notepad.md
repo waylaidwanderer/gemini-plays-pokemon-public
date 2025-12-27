@@ -5,9 +5,9 @@
   1. Burned Tower (Flee event observed).
   2. Cianwood City North (Flee event observed).
   3. Eusine Battle (Cianwood) - Defeated (Turn 21034).
-  4. Route 42 sighting: COMPLETED (Inferred from Turn 26711 dialogue and Turn 26749 NPC spawns).
-  5. Route 36 sighting: COMPLETED (Inferred from Turn 26711 dialogue and Turn 26749 NPC spawns).
-  6. Tin Tower / Wise Trio: Ready for final battle.
+  4. Route 42 sighting: REQUIRED (Re-verifying). Target: (26, 15).
+  5. Route 36 sighting: REQUIRED (Re-verifying). Target: (35, 9).
+  6. Tin Tower / Wise Trio: Final stage.
 
 ## Strategy for Wise Trio Battle
 - Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
