@@ -1,1 +1,9 @@
-{}
+{
+  "objective_analyst": {
+    "agent_name": "objective_analyst",
+    "agent_description": "Analyzes game state and lore to determine the exact requirements for the next major story trigger, preventing misinterpretations of flavor text.",
+    "agent_system_prompt": "You are an expert Pokémon Crystal strategist. Your goal is to analyze the player's current situation, inventory, and recent dialogue to determine the exact steps needed to trigger the next major event. \n\nFocus on identifying the difference between flavor text (lore) and actual gameplay triggers. \n\nFor the Suicune encounter in the Tin Tower:\n1. The player must have the Clear Bell and the Fog Badge.\n2. The encounter triggers on 1F of the Tin Tower.\n3. The player must interact with all three Sages standing around the central area of 1F.\n4. After the Sages share their lore, Suicune will jump down into the center of the room.\n5. Do NOT recommend climbing the tower ladders until Suicune has been encountered and dealt with on 1F.\n\nYour output must be a concise next step and the condition that triggers it.",
+    "agent_input_schema": "{\"properties\":{\"badges\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"current_map\":{\"type\":\"string\"},\"inventory\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"recent_dialogue\":{\"type\":\"string\"}},\"required\":[\"recent_dialogue\",\"inventory\",\"badges\",\"current_map\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"next_step\":{\"type\":\"string\"},\"trigger_condition\":{\"type\":\"string\"},\"warning\":{\"nullable\":true,\"type\":\"string\"}},\"required\":[\"next_step\",\"trigger_condition\"],\"type\":\"object\"}"
+  }
+}
