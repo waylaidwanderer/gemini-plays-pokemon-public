@@ -47,9 +47,9 @@
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Challenge Sabrina.
-- **Status:** In Sabrina's Room. Standing on Warp (11, 9).
+- **Immediate:** Defeat Leader Sabrina.
+- **Status:** In Battle. Muscle vs Mr. Mime (Incoming).
 - **Next Steps:**
-    1. Approach Sabrina.
-    2. Defeat Sabrina.
-    3. Get Marsh Badge.
+    1. Sweep team with Muscle.
+    2. Collect Marsh Badge.
+    3. **CRITICAL:** Fix map marker for Medium Doris at (18, 16) immediately after battle.
