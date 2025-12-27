@@ -45,3 +45,4 @@
 - Route: Route 44 -> Ice Path -> Blackthorn City.
 - Requirements: Waterfall (HM07) likely needed for navigation.
 - Objective: Obtain the Rising Badge from Gym Leader Clair at next opportunity if Suicune hunt remains stalled.
+- 12. Turn 26530: Encountered Wild Seaking at (18, 12). KIMCHI at 4 HP. Swapped lead to Calcifer.
