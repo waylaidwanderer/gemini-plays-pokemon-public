@@ -13,9 +13,14 @@
     - Warp E (15, 15) -> ?
 - **Room 3 (Top Right):**
     - Warp F (19, 9) [From C]
-    - Warp G (15, 9) -> ?
+    - Warp G (15, 9) -> Room 4 (15, 3)
     - Warp H (19, 11) -> ?
     - Warp I (15, 11) -> ?
+- **Room 4 (Top Center):**
+    - Warp J (15, 3) [From G]
+    - Warp K (19, 3) -> ?
+    - Warp L (15, 5) -> ?
+    - Warp M (19, 5) -> ?
 
 # Current Plan
 - **Goal:** Win Battle against Medium Rebecca.
