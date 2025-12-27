@@ -32,4 +32,4 @@
 - **Status:** Exiting.
 - **Goal:** Locate Gym and Route 9 (East).
 - **Info:** Cooltrainer M mentions many trainers at Cerulean Cape (Route 25).
-- **Immediate:** Exit Mart, then head North/East to find the Gym and Route 9/25.
+- **Immediate:** Talk to the Fisherman north of the Mart (requires navigating around the building).
