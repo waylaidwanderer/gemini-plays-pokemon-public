@@ -1,6 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
-- Start: Turn 24182, Saturday 12:45 AM.
+- Start: Saturday 12:45 AM.
 
 ## Story Progress
 - Clear Bell: Obtained.
@@ -11,8 +11,8 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): In Progress. Checked island clearing multiple times (Ecruteak entry).
-4. Route 36 (Sudowoodo Junction): Pending. Checked once (Ecruteak entry).
+3. Route 42 (Central Island): In Progress. Multiple sweeps failed.
+4. Route 36 (Sudowoodo Junction): Pending. Checked once.
 5. Tin Tower 1F: Pending.
 
 ## Tile Mechanics
@@ -27,6 +27,7 @@
 - FLOOR_UP_WALL: Traversable (ledges/stairs).
 
 ## Strategy
-- Current: Test "Entry Direction" hypothesis. Fly to Mahogany and enter Route 42 from the East, then surf to the island.
-- Alternative: Re-verify Wise Trio Room (Tin Tower Gatehouse) for any missed battles.
+- Current: Test "Entry Direction" hypothesis. Enter Route 42 from the East (Mahogany) and surf to island.
+- Alternative 1: Re-verify Wise Trio Room for missed battles/interactions.
+- Alternative 2: Interact with trees on Route 42 island.
 - Note: Suicune tracker insists on Route 42 island sighting #3.
