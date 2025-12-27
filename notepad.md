@@ -1,6 +1,7 @@
 ## Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182.
+- Re-verification Start: Turn 26780.
 - Sequence:
   1. Burned Tower (Flee event observed).
   2. Cianwood City North (Flee event observed).
@@ -20,19 +21,16 @@
 - WATER: Traversable via SURF. Interaction from land (facing water) triggers SURF menu.
 - CUT_TREE: Impassable. Requires CUT to clear. Regrows after leaving map.
 - TALL_GRASS: Traversable on foot. Wild encounters.
-- LEDGE_HOP: One-way jump (down/right/left/up as named).
-- WARP: Map transition.
+- LEDGE_HOP: One-way jump (usually downward/outward). Impassable in opposite direction.
 
 ## General Lessons Learned
-- **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately.
+- **Tool Failure Recognition:** If 'find_path_v6' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately.
 - **SURF Transitions:** BFS must account for the interaction required to enter water.
 - **Sequential Events:** Legendary beast sightings are strictly sequential. Do not skip steps.
 
 ## Progress Tracking
 - Suicune Quest: Ongoing. Re-verifying overworld sightings.
-- Current Task: Fly to Ecruteak, then head east to Route 42 island.
 - Route 42 Target: (26, 15).
 - Route 36 Target: (35, 9).
-- Turn 26815-26817: Walked clearing on Route 42 island. Suicune did not appear.
-- Hypothesis: Need to step on a specific trigger tile or approach from a different direction.
-- Action: Walking a serpentine path through the clearing.
+- Hypothesis: Sighting might require map reset or specific approach.
+- Status: Island at (26, 15) appears empty. Checking map reset via Mt. Mortar.
