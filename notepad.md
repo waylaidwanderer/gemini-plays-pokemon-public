@@ -48,3 +48,5 @@
 - **Next:** Heal at Center, then check Snorlax or head North to Saffron.
 - **Observation:** Talked to Surge after battle. He gave Thunder Badge but no TM yet.
 - **Plan:** Talk to him again to check for TM. Then exit and heal.
+- **Observation:** Talked to Surge again. He still didn't give a TM.
+- **Plan:** Exit Gym, heal, and head North to Saffron City (since Snorlax likely blocks East).
