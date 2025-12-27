@@ -33,7 +33,7 @@
 - 2. Cianwood City (North): Flee event observed.
 - 3. Eusine Battle (Cianwood): Defeated.
 - 4. Route 42 sighting: COMPLETED (Turn 26678).
-- 5. Route 36 sighting: REQUIRED. Trigger tile: (35, 9).
+- 5. Route 36 sighting: ATTEMPTING. Trigger tile: (35, 9). Currently heading there from Route 42.
 - 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 7. Wise Trio Room: Empty at Turn 26628.
 
