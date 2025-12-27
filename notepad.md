@@ -58,3 +58,8 @@
 
 # Task Tracking
 - Suicune Tracking: Started Turn 24305 (Friday, Dec 26, 5:07 PM).
+
+# Suicune Sighting Hypothesis (Crystal)
+- Hypothesis: Suicune sighting on Route 42 (Island) might be gated by the Route 36 sighting or a specific trigger area.
+- Analyst Tip: Final battle in Tin Tower 1F is triggered by talking to the three Sages with Clear Bell and Fog Badge. I have both.
+- Test 1: Sweep entire Route 42 island floor. [In Progress]
