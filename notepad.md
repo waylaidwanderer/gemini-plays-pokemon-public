@@ -51,3 +51,4 @@
 - **Action:** Stunned Sailor (ID 3) at (22, 17) to ensure interaction.
 - **Goal:** Confront him about being the "lazy buddy".
 - **Log:** Sailor (ID 3) moved to (20, 17). Moving to interact.
+- **Log:** Retrying interaction with Sailor (ID 3) at (20, 17) from (21, 17). Previous attempt failed (no text).
