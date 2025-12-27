@@ -9,10 +9,9 @@
   5. Tin Tower 1F: Talk to all three Sages. [Talked to all - Turn 24814. Prerequisites missing]
 
 # Progress Tracking
-- Sweep Started: Turn 24851
-- Route 42 Island Search: Thoroughly searched Row 12, 14, 15, 16, 17. Row 13 tiles (25-31, 13) need verification. No Suicune sprite or Eusine sighting triggered.
+- Route 42 Island Search: Thoroughly searched Row 11, 12, 14, 15, 16, 17. Row 13 tiles (25-31, 13) need verification. No Suicune sprite or Eusine sighting triggered.
 - Route 36 Search: Checked junction at (35, 9). Sighting depends on Route 42.
-- Cianwood Verification: Returning to verify no missing triggers/dialogue.
+- Cianwood Verification: Sighting at (10, 14) is definitely gone. No NPCs in the city have new dialogue.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
