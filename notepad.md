@@ -4,10 +4,11 @@
 - Loop Start: Turn 26164 (Stuck on sightings).
 ## Current Strategy
 - Plan:
-  1. Walk to (26, 15) to trigger the Suicune sighting on Route 42.
-  2. If no trigger, check the Burned Tower basement for Eusine.
-  3. If progress stalls, head to Route 36 junction (35, 9).
-  4. If all overworld sightings fail, attempt to enter Tin Tower.
+  1. Fly to Ecruteak City.
+  2. Head South to Route 36 junction.
+  3. Walk onto (35, 9) on Route 36 to trigger the Suicune sighting.
+  4. If that fails, check the Burned Tower basement for Eusine.
+  5. If progress stalls, attempt to enter Tin Tower and climb.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
