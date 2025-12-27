@@ -45,3 +45,4 @@
   - **Correction:** West side water is a dead end.
   - **Route:** Route 24 (Land) -> Surf from East side of bridge -> Route 9 (Water) -> Power Plant.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
+- **Lesson:** West side water on Route 24/25 dead-ends in Cerulean. Must use East side water to reach Power Plant.
