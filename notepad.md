@@ -27,12 +27,14 @@
 # Current Plan
 - **Goal:** Earn Marsh Badge.
 - **Status:** Inside Saffron Gym (Entrance).
-- **Action:** Begin navigating the warp puzzle. Taking the first available warp at (11, 15).
-- **Strategy:** Systematically map warps.
+- **Action:** In Room 2 (Bottom Right). Mapping warps and battling trainers.
+- **Warp Connections:**
+    - Warp A (11, 15) -> Warp B (19, 17)
 - **Next Steps:**
-    1. Take Warp A at (11, 15).
-    2. Identify new room and available warps.
-    3. Find Sabrina.
+    1. Battle Medium at (17, 16).
+    2. Test Warp C (19, 15).
+    3. Test Warp D (15, 17).
+    4. Test Warp E (15, 15).
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
