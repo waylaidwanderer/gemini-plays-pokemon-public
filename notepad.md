@@ -46,3 +46,5 @@
 - **Log:** Defeated Lt. Surge! Earned Thunder Badge. Muscle grew to Lv72.
 - **Plan:** Talk to Surge to get TM (Thunderbolt expected).
 - **Next:** Heal at Center, then check Snorlax or head North to Saffron.
+- **Observation:** Talked to Surge after battle. He gave Thunder Badge but no TM yet.
+- **Plan:** Talk to him again to check for TM. Then exit and heal.
