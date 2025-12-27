@@ -11,19 +11,20 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Failed (Turn 25425). Likely missed specific trigger tile. [Current Target]
+3. Route 42 (Central Island): First attempt failed (likely missed trigger tile).
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Checked (Turn 25477). Suicune not present.
+5. Tin Tower 1F: Checked. Suicune not present.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. (Failed once - likely missed tile)
+- Hypothesis 1: Route 42 sighting is next. (Likely missed tile)
 - Hypothesis 2: Route 36 sighting is next.
-- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed)
-- Hypothesis 4: Suicune is already at Tin Tower 1F. (Failed)
+- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Confirmed: No)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
+- DOOR: Map transition (Building entrance).
 - COUNTER: Impassable; interact with NPC behind it.
 - WARP_CARPET_DOWN/LEFT/RIGHT: Map transition.
 - LADDER/STAIRS: Map transition.
@@ -62,5 +63,7 @@
   - Sage (11, 11) [Beast legend info]
   - Sage (5, 9) [Rainbow Pokemon legend info]
   - Sage (14, 6) [Tower history info]
+
 ## Tool Notes
-- `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use warps at (18, 11) and (20, 2).
+- `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use bridge (Wise Trio Room/Gatehouse) or Fly.
+- `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
