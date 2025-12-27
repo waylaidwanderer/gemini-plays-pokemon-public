@@ -28,7 +28,7 @@
 - **DOOR:** Warp to interior.
 
 # Post-Game Status
-- **Location:** Route 5 (North End).
-- **Status:** Retrying Cerulean City entrance.
-- **Goal:** Navigate through the "Dead End" (likely a winding path East).
-- **Immediate:** Enter Cerulean and navigate carefully through the obstacles at y=32/33 to reach the city center.
+- **Location:** Cerulean City (South Entrance).
+- **Status:** Navigating East Gap.
+- **Goal:** Reach Cerulean City Center.
+- **Immediate:** Pass through the gap at (20, 31) to bypass the wall.
