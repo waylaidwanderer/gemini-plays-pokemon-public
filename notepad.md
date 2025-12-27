@@ -45,3 +45,4 @@
 ## Quest Progress Tracking
 - Suicune Quest: Started Turn 24182. Ongoing.
 - Wise Trio Battle: Triggered by Suicune sightings. Ongoing.
+- Turn 26724: Manual override for Surfing on Route 42. Initiating Surf at (13, 9).
