@@ -38,3 +38,6 @@
 - **Test 2:** If Route 42 fails, approach Route 36 junction from all four directions (North, South, East, West).
 - **Hypothesis 3:** Eusine needs to be spoken to again.
 - **Test 3:** Check Ecruteak Pokemon Center for Eusine.
+- **Attempt 1 (Turn 25425):** Stepped on (26, 14) on Route 42 island. Suicune did not appear.
+- **Attempt 2 (Turn 25426):** Swept the entire island platform. Suicune did not appear.
+- **Conclusion:** Route 42 sighting is either not next or requires another trigger. Moving to Hypothesis 2 (Route 36) and Hypothesis 3 (Eusine).
