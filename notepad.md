@@ -31,3 +31,4 @@
 - **Strategy:** Use Muscle (Lv71). Strength for most, Cross Chop for Magneton (Steel type).
 - **Log:** Defeated Raichu. Declining switch against Electabuzz.
 - **Log:** Defeated first Electrode. Declining switch against second Electrode.
+- **Battle Log:** Electrode is spamming Double Team. Evasion is high. Muscle missing attacks. Persisting with Strength.
