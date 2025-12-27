@@ -14,7 +14,7 @@
 3. Route 42 (Central Island):
    - Attempt 1 (Turn 25425): Stepped on (26, 14). Failed.
    - Attempt 2 (Turn 25515): Thorough sweep of island (22, 12) to (30, 17). Failed.
-   - Attempt 3: Entering Route 42 from Mahogany Town (East). [Current Target]
+   - Attempt 3 (Turn 25526): Entering Route 42 from Mahogany Town (East). [Current Target]
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Checked (Turn 25477). Suicune not present.
 
