@@ -30,10 +30,6 @@
 - WARP_CARPET_DOWN: Traversable. Triggers exit to overworld. [Verified]
 - WARP_CARPET_LEFT/RIGHT: Warp triggered by moving in the direction the carpet faces while standing on it. [Verified]
 
-# NPC & Interaction Rules
-- Sage (4, 6): Passage guard. Granted access. [Verified]
-- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42. [All empty on Turn 24380]
-
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
 - Turn 24395: Started Suicune Trigger Verification.
