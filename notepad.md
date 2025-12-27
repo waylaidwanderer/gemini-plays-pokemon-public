@@ -48,12 +48,10 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Exit Saffron Gym.
-- **Status:** Defeated Sabrina. Obtained Marsh Badge.
+- **Status:** In Room 4 (Top Right). Heading to exit.
 - **Next Steps:**
-    1. Warp (11, 9) -> Room 8.
-    2. Warp BB (1, 3) -> Room 4.
-    3. Warp K (19, 3) -> Room 2.
-    4. Warp B (19, 17) -> Room 1.
-    5. Exit Gym.
-    6. Heal at Pokemon Center.
-    7. Head North to Route 5/Cerulean City.
+    1. Warp K (19, 3) -> Room 2.
+    2. Warp B (19, 17) -> Room 1.
+    3. Exit Gym.
+    4. Heal at Pokemon Center.
+    5. Head North to Route 5/Cerulean City.
