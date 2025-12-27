@@ -34,8 +34,8 @@
 - 3. Eusine Battle (Cianwood): Defeated.
 - 4. Route 42 sighting: REQUIRED. Trigger tile: (26, 15).
 - 5. Route 36 sighting: REQUIRED. Trigger tile: (35, 9).
-- 6. Tin Tower Shook: COMPLETED (Turn 26711). Dialogue: "The TIN TOWER shook! A POKéMON must have returned to the top!"
-- 7. Wise Trio Room: Empty. (Re-verifying after sightings).
+- 6. Tin Tower Shook: COMPLETED (Turn 26711).
+- 7. Wise Trio Room: Empty (Turn 26628). Re-verification required after sightings.
 
 ## General Lessons Learned
 - **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately. Do not persist with failing logic.
