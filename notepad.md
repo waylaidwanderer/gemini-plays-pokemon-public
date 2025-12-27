@@ -39,3 +39,5 @@
 - **Plan:** Talk to Pokefan, then re-check "Empty" cabins at (19, 8) and (15, 8) in case I missed the sailor.
 - **Log:** Pokefan M at (4, 17) only talks about Kanto mountains. Not the lazy sailor.
 - **Plan:** Exiting cabin to re-check the other 1F cabins (19, 8) and (15, 8). The quest trigger might have spawned the sailor there.
+- **Log:** Exited cabin at (23, 8). Pokefan M confirmed.
+- **Action:** Investigating cabin at (19, 8).
