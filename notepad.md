@@ -119,8 +119,6 @@
 - Muscle is out of PP for Ice Punch and Cross Chop.
 - Relying on Strength (9 PP) for now.
 - Need to heal at Route 10 Pokemon Center soon.
-- Facing Onix. Staying in with Muscle (Strength).
-- Onix sent out. Using Strength.
-- Strength is not very effective against Onix (Rock/Ground).
-- Muscle took negligible damage from Rock Throw.
-- Continuing to spam Strength.
+- Facing Onix. Using Strength (only valid move).
+- Muscle Strength PP: 6.
+- Need to heal PP ASAP after this battle.
