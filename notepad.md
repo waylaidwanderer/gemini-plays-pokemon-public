@@ -1,6 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - **Prerequisites:** Clear Bell (Obtained), All Sightings Completed.
-- **Current Task:** Fund capture attempt at Ecruteak Mart.
+- **Current Task:** Fund capture attempt at Ecruteak Mart. (Start: Turn 25201)
 
 ## Sighting Progress
 1. **Burned Tower:** Beasts fled. [Verified]
@@ -11,16 +11,16 @@
 
 ## Strategy
 - Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
-- Current: Sell high-value items (Thunderstone, Max Ether, TMs) to buy Great Balls.
+- Current: Sell high-value items (Max Ether, TMs) to buy Great Balls.
 - Target: 50+ Great Balls.
 
 # Money Management
 - Current Money: ¥2923
-- Inventory for Sale:
+- Sell Values:
   - MAX ETHER: ¥1000
   - TM50 NIGHTMARE: ¥1000
-  - FULL RESTORE: ¥1500 (Sold Turn 25215)
-  - THUNDERSTONE: ¥1050 (Sold Turn 25211)
+  - FULL RESTORE: ¥1500 (Sold)
+  - THUNDERSTONE: ¥1050 (Sold)
   - TMs (Shadow Ball, Iron Tail, etc.): ~¥1000-2500 each.
 
 # Tile Mechanics
@@ -31,7 +31,8 @@
 - DOOR/LADDER/STAIRS: Map transition.
 - WARP_CARPET: Step on to trigger transition. (Verified Turn 25195)
 
-# Progress Log
-- Tin Tower shook after obtaining Clear Bell (Turns 25133-25141).
-- Wise Trio Room (4_2) emptied after the tower shook (Turn 25173).
-- Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are done.
+# Progress & Lore
+- Tin Tower shook after obtaining Clear Bell (Confirmed by Sages).
+- Ho-Oh gave new life to the Beasts after the Brass Tower fire.
+- Wise Trio Room (4_2) emptied after the tower shook.
+- Suicune is a Level 40 static encounter at Tin Tower 1F.
