@@ -47,9 +47,9 @@
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
   - **Status:** Hopped ledge to Row 6. Now on Lower Tier.
-  - **Immediate Target:** Lass at (39, 8).
+  - **Immediate Target:** Picnicker Heidi at (39, 8).
   - **Plan:**
-    1. Move to (38, 8) to engage Lass.
+    1. Defeat Picnicker Heidi.
     2. Continue South to Row 12.
     3. Head East to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
