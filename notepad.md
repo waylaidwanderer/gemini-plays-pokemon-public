@@ -39,7 +39,7 @@
 
 # Active Plans
 - **Restore Power:**
-  - **Status:** On Route 25 (6, 15).
+  - **Status:** Surfing on Route 25 (6, 15).
   - **Action:** Surfing South to Power Plant.
   - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
   - **Goal:** Deliver Machine Part to Manager.
