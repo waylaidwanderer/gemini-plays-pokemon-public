@@ -35,3 +35,4 @@
 - **Plan:** Explore West to find the Pokemon Center (likely the building at x=19-21).
 - **Log:** Approaching building at (20, 5) to check if it's the Pokemon Center.
 - **Log:** Standing at Pokemon Center entrance (20, 6). Entering to heal.
+- **Correction:** Entrance at (20, 5) was blocked. Trying adjacent tile (19, 5).
