@@ -1,7 +1,7 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
-- **Location:** Olivine Port.
-- **Immediate Goal:** Board S.S. Aqua.
+- **Location:** S.S. Aqua.
+- **Immediate Goal:** Find the Captain's Granddaughter.
 - **Next Step:** Vermilion City (Kanto).
 
 # Team Status
