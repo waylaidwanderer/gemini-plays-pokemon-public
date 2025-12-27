@@ -4,19 +4,22 @@
 ## Sighting Progress
 1. **Burned Tower:** Beasts fled. [Status: Verified]
 2. **Cianwood City (North):** [Status: Verified]
-3. **Route 36 (Sudowoodo Junction):** [Status: Pending]
-4. **Route 42 (Central Island):** [Status: Pending - Re-check after Route 36]
-5. **Tin Tower 1F:** [Status: Triggered (Tower Shook)]
+3. **Route 42 (Central Island):** Platform by water, requires CUT. [Status: Pending]
+4. **Route 36 (Sudowoodo Junction):** Near Violet City entrance. [Status: Pending]
+5. **Tin Tower 1F:** Static Encounter. [Status: Triggered (Tower Shook)]
 
 ## Strategy
 - Sighting Hunt Start: Turn 25202.
 - Fly to Ecruteak, sell items, buy balls. [Turn 25201]
-- Complete sightings in order: Route 36 -> Route 42.
+- Complete sightings in order: Route 42 -> Route 36.
 - Return to Tin Tower 1F for the battle.
 
 # Money Management
 - Current: ¥373.
-- Sell Values: THUNDERSTONE (¥1050), HARD STONE (¥25), TM50 NIGHTMARE (¥1000).
+- Sell Values:
+  - THUNDERSTONE: ¥1050
+  - HARD STONE: ¥25
+  - TM50 NIGHTMARE: ¥1000
 - Purchase Plan: Great Balls (¥600 each). Target 50+.
 
 # Tile Mechanics (Global)
