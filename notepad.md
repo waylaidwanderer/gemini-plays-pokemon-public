@@ -2,13 +2,10 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Exit Gym and go North to Route 24 to find the path to Route 9.
-- **Observation:** The Gym is empty. No Misty, no Rocket Grunt.
-- **Lore:** The Rocket Grunt appears after the "Missing Machine Part" quest starts.
-- **Strategy:**
-    1. Go North to Route 24 (Golden Bridge).
-    2. Look for a path East (usually involving water or a cuttable tree gap) to reach Route 9.
-    3. Reach the Power Plant.
+- **Immediate Task:** Enter and explore the house at (7, 15).
+- **Observation:** Found a house with a Youngster in the backyard. Access to the backyard is likely through this house.
+- **Strategy:** Check if the house has a back door to reach the Youngster and the area behind.
+- **Hypothesis:** This path leads to Route 24/25.
 
 # Strategic Goals
 1. **Restore Power:**
