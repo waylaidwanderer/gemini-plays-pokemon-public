@@ -34,3 +34,5 @@
 - **Battle Log:** Electrode is spamming Double Team. Evasion is high. Muscle missing attacks. Persisting with Strength.
 - **Battle Update:** Electrode's evasion is high (Double Team x3+). Muscle missing attacks. Swift chipping damage.
 - **Strategy:** Persist with Strength. Muscle has HP to spare. Expecting a hit eventually.
+- **Battle Update:** Strength is out of PP (0/15).
+- **Strategy:** Switching to Cross Chop (Fighting, High Crit, STAB) despite low accuracy. If that fails, will use Ice Punch.
