@@ -39,10 +39,10 @@
 
 # Active Plans
 - **Restore Power:**
-  - **Status:** Surfing on Route 25 (6, 15).
-  - **Action:** Surfing South to Power Plant.
-  - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
-  - **Goal:** Deliver Machine Part to Manager.
+  - **Status:** Correction: Wrong side of Route 25.
+  - **Action:** Landing and heading East across Route 25.
+  - **Correction:** Must Surf from the **East** side (x=42) to reach Route 9 water channel.
+  - **Goal:** Traverse Route 25 -> Surf South -> Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
