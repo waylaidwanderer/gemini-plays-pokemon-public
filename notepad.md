@@ -43,3 +43,4 @@
 - **Log:** Entered Vermilion Gym.
 - **Plan:** Talk to Gym Guide for tips.
 - **Plan:** Defeat trainers and solve the trash can puzzle to reach Lt. Surge.
+- **Log:** Gym Guide says traps are inactive! I might be able to walk straight to Lt. Surge.
