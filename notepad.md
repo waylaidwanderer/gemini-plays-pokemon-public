@@ -54,3 +54,5 @@
 - *Observation (Tin Tower Shook):* Turn 25133 & 25137 - Sage mentioned the tower shook. This usually indicates Suicune is present, but I may still need to trigger the Route 36/42 sightings if they were missed.
 - *Status:* Wise Trio Room (4_2) explored Turn 25149; no NPCs found. Exited to Ecruteak Restricted Area (20, 2).
 - *Navigation:* (37, 7) is unreachable from (20, 2) on map 4_9. Path likely requires another exit from Wise Trio Room or completing sightings.
+- *Navigation (Tin Tower Path):* [Turn 25159] Confirmed path from (20, 2) to (37, 7) is reachable within the restricted area: Right to (29, 2), Down to (29, 4), Right to (33, 4), Down to (33, 7), Right to (35, 7), Down to (35, 9), Right to (37, 9), Up to (37, 7).
+- *Plan:* Proceeding to Tin Tower 1F to check for Suicune. Leading with KIMCHI (Lv21) for Sleep Powder.
