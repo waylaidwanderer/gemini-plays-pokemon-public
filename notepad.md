@@ -28,17 +28,7 @@
   2. Surf East/South to reach the Power Plant.
   3. Deliver Machine Part to the Manager.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
-- **Route 9 Maze Solution:**
-  - *Refined: Turn 22071 (Sat Dec 27 12:15 PM)*
-  1. From (29, 6), go North to (29, 3).
-  2. Go East along Row 3 to (37, 3).
-  3. Go South to (37, 5) and hop the ledge down to (37, 6).
-  4. Continue South to (37, 8).
-  5. Go East to (44, 8).
-  6. Go North to (44, 3) to reach the water.
-  7. Surf to Power Plant.
 
 # Lessons Learned
 - **Inventory Check:** Always verify Inventory for Key Items before assuming they are missing. Do not rely solely on memory or previous notepad entries.
 - **Ledge Mechanics:** Confirmed that pressing 'Down' at a ledge tile moves the player 2 tiles (hopping the ledge) but only consumes 1 movement input.
-- **Lass Location:** Confirmed Lass is at (39, 8) and blocks that tile. Successfully navigated around via Row 9.
