@@ -47,3 +47,5 @@
   - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
 - *Strategy (Suicune Encounter):* [Turn 25150] Heading to Tin Tower 1F via Ecruteak City (20, 2). Plan to lead with GNEISS (Lv44) for durability or KIMCHI (Lv21) for Sleep Powder.
 - *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
+- *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
+- *Navigation:* Exiting Wise Trio Room via (7, 4) to Ecruteak City (20, 2).
