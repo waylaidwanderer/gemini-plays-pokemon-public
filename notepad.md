@@ -81,3 +81,6 @@
   3. Check (4, 8) (Right side) and (6, 8) from (5, 8).
   4. Move to (5, 9), check (4, 9) and (6, 9).
   5. Loop to top bridge (Row 4) via (7, 7) -> (7, 4) path to check (4, 5).
+- Checked (4, 8): Empty.
+- Moving to North Bridge (Row 4) via East path (Column 7).
+- Plan: Go to (4, 4) and (5, 4), face Down, check (4, 5) and (5, 5).
