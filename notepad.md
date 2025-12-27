@@ -78,3 +78,8 @@
 - Fly Navigation Sequence: Down (to Viridian?) -> Right (to Saffron) -> Up (to Cerulean) -> A (Fly).
 - Confirmation: Screen text previously showed 'Saffron City' after Down+Right.
 - Target: Cerulean City.
+- Executing Fly Sequence:
+  - Entering Party Menu.
+  - Selecting Mistral (Slot 5).
+  - Selecting 'FLY'.
+  - Next Turn: Manually navigate Fly Map to Cerulean (Up from Saffron).
