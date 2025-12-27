@@ -21,13 +21,14 @@
   - LEMONADE (x2): ¥350 (Sold)
   - FRESH WATER: ¥100 (Sold)
   - X SPECIAL: ¥175 (Sold)
-  - X ATTACK: ¥250 (Sold Turn 25240)
+  - X ATTACK: ¥250 (Sold)
 - Remaining Sellables:
   - TM50 NIGHTMARE: ¥1000
   - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
+  - TM46 THIEF: ¥1500
+  - TM49 FURY CUTTER: ¥1000
   - HARD STONE: ¥25
-  - Other TMs: ¥1000-2500 each.
 - Strategy: Sell TMs to reach ~¥16,200 for 27 more Great Balls.
 
 # NPC Registry
