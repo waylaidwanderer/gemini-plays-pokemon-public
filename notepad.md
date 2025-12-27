@@ -61,3 +61,5 @@
 - *Status:* Wise Trio Room (4_2) empty Turn 25149. Sages present in Tin Tower 1F (3_4).
 - *Strategy:* Talk to Sages in Tin Tower 1F to check for hints or battles. If Suicune is missing, prioritize Route 36 and Route 42 sightings.
 - *Battle Lead:* KIMCHI (Lv21) for Sleep Powder. Backup: GNEISS (Lv44), Calcifer (Lv45).
+- *Observation (Tin Tower 1F Sages):* [Turn 25169] Spoke to Sage at (11, 11). He shared the legend of Ho-Oh giving life to Suicune, Entei, and Raikou. 
+- *Status:* Three Sages on 1F spoken to. Proceeding to the center of the floor to trigger the beasts' encounter.
