@@ -29,4 +29,4 @@
 
 ## Progress Tracking
 - Current Task: Defeat the Wise Trio in Tin Tower 1F.
-- Status: Engaging Sage Gaku at (11, 11).
+- Status: Spoken to Sages at (11, 11) and (14, 6). Now interacting with Sage at (5, 9).
