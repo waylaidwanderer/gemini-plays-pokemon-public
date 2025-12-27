@@ -6,17 +6,13 @@
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
 3. Route 42 (Central Island): Swept area (24-30, 12-17). [Status: No sighting triggered]
-4. Route 36 (Sudowoodo Junction): Near Violet City entrance. [Status: Pending]
+4. Route 36 (Sudowoodo Junction): Checked area (35, 9). [Status: No sighting triggered]
 5. Tin Tower 1F: Static Encounter. [Status: Triggered (Tower Shook)]
 
 ## Strategy
 - Sequence: Route 42 -> Route 36 -> Tin Tower 1F.
-- Current Task: Head to Route 42 central island (26, 15) to trigger Suicune.
+- Current Task: Head to Route 42 central island (26, 14) and stand on the platform.
 - Note: The Tin Tower shook after obtaining the Clear Bell, which is the final trigger phase.
-
-# Money Management
-- Target: 40-50 Great Balls.
-- Note: Keeping TM28 DIG and TM27 RETURN for now.
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
@@ -26,8 +22,8 @@
 - FLOOR: Traversable.
 - WALL/NPC/COUNTER/SIGN: Impassable.
 - WATER: Surf required.
-- CUT_TREE: Removed via CUT.
-- HEADBUTT_TREE: Impassable; can be Headbutted.
+- CUT_TREE: Impassable until removed via CUT.
+- HEADBUTT_TREE: Impassable; can be Headbutted for encounters.
 - DOOR/LADDER/STAIRS: Map transition.
 - WARP_CARPET: Step on to trigger transition.
 
@@ -36,4 +32,3 @@
 - Ho-Oh gave new life to the Beasts after the Brass Tower fire.
 - Wise Trio Room (4_2) emptied after the tower shook.
 - Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are complete.
-- Sighting on Route 42 is expected on the central island near the Apricorn trees.

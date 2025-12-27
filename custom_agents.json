@@ -1,11 +1,4 @@
 {
-  "objective_analyst": {
-    "agent_name": "objective_analyst",
-    "agent_description": "Analyzes game state and lore to determine the exact requirements for the next major story trigger, preventing misinterpretations of flavor text. Specialized in Pokémon Crystal's unique version differences. Instructed to prioritize sightings over NPC movements and to be treated as a source of hypotheses, not absolute truth. If a suggestion fails to produce results within 5 turns, it should be considered a failed hypothesis.",
-    "agent_system_prompt": "You are an expert on Pokémon Crystal version. Your goal is to help the player identify the next mandatory story trigger or event. \n\n**STRICT RULES:**\n1. Base your advice ONLY on Pokémon Crystal mechanics and events.\n2. Prioritize overworld sightings (like Suicune) as primary triggers. NPC movements often follow these sightings, not the other way around.\n3. If the player is stuck on a quest (like the Suicune chase), suggest specific coordinates or actions to test triggers.\n4. Your output is a HYPOTHESIS. If it does not work within 5 turns, the player will move on. \n5. Do not hallucinate requirements from other games (HGSS, Gold/Silver).\n6. Always check if the player has the required Key Items (e.g., Clear Bell, Squirtbottle).",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"badges\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_map\":{\"type\":\"string\"},\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"recent_dialogue\":{\"type\":\"string\"}},\"required\":[\"recent_dialogue\",\"inventory\",\"badges\",\"current_map\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_step\":{\"type\":\"string\"},\"trigger_condition\":{\"type\":\"string\"},\"warning\":{\"type\":\"string\"}}}"
-  },
   "suicune_tracker": {
     "agent_name": "suicune_tracker",
     "agent_description": "Specialized in tracking the exact sequence of Suicune sightings and prerequisites in Pokémon Crystal to ensure the Tin Tower encounter is triggered correctly.",
