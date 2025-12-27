@@ -175,3 +175,6 @@
 - Hypothesis: Input was ignored or map allows 'Right' from Indigo.
 - Action: Pressing 'Right' 3 times to traverse Indigo -> Pewter -> Cerulean -> ?.
 - Goal: Verify cursor movement and target Cerulean.
+- Fly Map Navigation Issue: Rapid 'Right' inputs were ignored due to menu debounce.
+- Correction: Using 'slow_press' with 500ms delay to navigate Fly Map.
+- Target: Cerulean City (Approx 2-3 Right presses from Indigo Plateau).
