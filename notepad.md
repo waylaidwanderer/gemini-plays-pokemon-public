@@ -41,10 +41,9 @@
 - **Restore Power & Badges:**
   - **Status:** Backtracking on Route 25.
   - **Correction:** Water at Bill's House is a dead end.
-  - **Action:** Return to Route 24 Bridge (9, 11).
-  - **Reason:** Water at Bill's House is isolated/dead-end.
-  - **Route:** Navigate back through maze to Bridge.
-  - **Next:** Surf South from East side of Route 24 Bridge to reach Power Plant.
+  - **Action:** Cross Nugget Bridge to Route 24.
+  - **Route:** Go South from (9, 9) to exit at (9, 17).
+  - **Next:** On Route 24, access East side water and Surf South to Power Plant.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Lesson:** West side water on Route 24/25 dead-ends in Cerulean. Must use East side water to reach Power Plant.
 - **Maze Path (East to West):** 
