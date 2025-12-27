@@ -53,3 +53,6 @@
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
+- Navigation Success: Bypassed the stunned Super Nerd. Currently at the Northern Route 9 entrance (27, 12).
+- Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
+- Note: Access to (28, 17) requires looping around the block via (24, 18).
