@@ -48,18 +48,14 @@
 - *Strategy (Suicune Encounter):* [Turn 25150] Heading to Tin Tower 1F via Ecruteak City (20, 2). Plan to lead with GNEISS (Lv44) for durability or KIMCHI (Lv21) for Sleep Powder.
 - *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
 - *Observation (Tin Tower Shook):* Turn 25133, 25137, 25141 - Sage mentioned the tower shook. This event is active.
-- *Verified Tile Mechanics:*
-  - FLOOR: Verified traversable Turn 25141.
-  - WALL: Verified impassable Turn 25141.
-  - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
-  - DOOR: Verified as targetable warp point at (37, 7).
+- *Plan:* Sell Thunderstone at Ecruteak Mart to fund capture prep (Great Balls).
 - *Suicune Sighting Progress (Crystal):*
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting check. [Failed - Turn 25101. No sprite seen.]
+  3. Route 42 (Central Island): Sighting check. [Failed - Turn 25101. No sprite seen. Root Hypothesis: Sighting requires specific approach or trigger.]
   4. Route 36 (Sudowoodo junction): Sighting check. [Pending]
 - *Status:* Wise Trio Room (4_2) empty Turn 25149. Sages present in Tin Tower 1F (3_4).
-- *Strategy:* Talk to Sages in Tin Tower 1F to check for hints or battles. If Suicune is missing, prioritize Route 36 and Route 42 sightings.
+- *Strategy:* Talk to all Sages on 1F. If no cutscene at (10, 9), pivot to completing sightings on Route 36/42.
 - *Battle Lead:* KIMCHI (Lv21) for Sleep Powder. Backup: GNEISS (Lv44), Calcifer (Lv45).
 - *Observation (Tin Tower 1F Sages):* [Turn 25169] Spoke to Sage at (11, 11). He shared the legend of Ho-Oh giving life to Suicune, Entei, and Raikou. 
 - *Status:* Three Sages on 1F spoken to. Proceeding to the center of the floor to trigger the beasts' encounter.
