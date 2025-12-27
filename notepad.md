@@ -51,3 +51,4 @@
 - **Observation:** Direct West path on Row 24 is blocked by Cooltrainer F (21, 24) and Slowpoke (20, 24).
 - **Strategy:** Circling around via Row 25 to continue West.
 - **Hypothesis:** The path North to Route 24 is located at the far West edge of the map (x < 9).
+- **LADDER:** Used for the bridge in Cerulean Gym. Functionally acts as a walkable FLOOR tile.
