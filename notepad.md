@@ -49,3 +49,7 @@
 - Result: Walked back inside Indigo Plateau Center.
 - Action: Exiting Center (Down) to retry Fly sequence from scratch.
 - Lesson: Verify menu state visually before inputting directional commands.
+- Exited Pokemon Center.
+- Opening Menu to Fly.
+- Sequence: Start -> Pokemon -> Mistral -> Fly.
+- Goal: Reach Cerulean City to bypass Route 9.
