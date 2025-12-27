@@ -32,3 +32,16 @@
 - Ho-Oh gave new life to the Beasts after the Brass Tower fire.
 - Wise Trio Room (4_2) emptied after the tower shook.
 - Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are complete.
+## Reflection & Error Analysis (Turn #25327)
+- **Error:** Spent multiple turns in a menu loop trying to use FLY without the map being open.
+- **Lesson:** Always verify the "Current Screen Text" or "Intermediate States" before calling a menu-navigation tool like `navigate_fly_map_v2`.
+- **Root Hypothesis Check:** I assumed standing on (26, 15) was enough to trigger Suicune. The tracker says the "central island," but it might be a specific tile like (26, 14) which is the platform.
+- **Timestamp:** Turn #25327 (Sat Dec 27 00:49 AM). Long-running task: Suicune sightings.
+
+## Strategy for Route 42
+1. Fly to Ecruteak City. [Done]
+2. Enter Route 42 from the East Gate.
+3. Surf to the central island.
+4. Cut the tree at (24, 13).
+5. Stand on (26, 14) (the platform) to trigger the sighting.
+6. If no sighting, sweep (26, 13) to (27, 15).
