@@ -10,10 +10,10 @@
 5. Tin Tower 1F: Final Encounter.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. (Failed twice)
-- Hypothesis 2: Route 36 sighting is next.
-- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger.
-- Hypothesis 4: Suicune is already at Tin Tower 1F (Overwatch suggestion).
+- Hypothesis 1: Route 42 sighting is next. (Failed - Turn 25425)
+- Hypothesis 2: Route 36 sighting is next. [Current Target]
+- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed - Turn 25441)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (Pending verification after Route 36)
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -27,6 +27,11 @@
 - WATER: Traversable with HM03 SURF.
 - GRASS: Traversable; wild encounters possible.
 
+## Type Effectiveness (Verified in Crystal)
+- Ghost vs Normal: Immune (XENON Lick vs Raticate)
+- Fire vs Grass: Super Effective (Calcifer Flame Wheel vs Oddish)
+- Water vs Rock/Ground: Super Effective (Ravioli Bubble vs Geodude)
+
 ## Party Movesets
 - KIMCHI (GLOOM): ABSORB, SWEET SCENT, CUT, SLEEP POWDER
 - ICARUS (PIDGEY): FLY, SAND-ATTACK, GUST, QUICK ATTACK
@@ -37,10 +42,10 @@
 
 ## NPC Registry & Checked Status
 - Ecruteak Pokecenter:
-  - Nurse (3, 1)
-  - Gym Guide (7, 1)
-  - Pokefan M (7, 6)
-  - Cooltrainer F (1, 4) [Next]
+  - Nurse (3, 1) [Checked - Turn 25441]
+  - Gym Guide (7, 1) [Checked - Turn 25441]
+  - Pokefan M (7, 6) [Checked - Turn 25441]
+  - Cooltrainer F (1, 4) [Checked - Turn 25441]
 - Tin Tower Gatehouse:
   - Sage (4, 6) [Allowed passage]
   - Sage (6, 9) [Tin Tower shook info]
