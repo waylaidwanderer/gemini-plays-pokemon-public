@@ -42,3 +42,8 @@
 # General Lessons
 - **Suicune Trigger:** Overworld sightings on Route 42 and Route 36 are MANDATORY prerequisites for the Tin Tower battle in Crystal.
 - **Fly Map:** "Up" scrolls cities (New Bark -> Violet -> Ecruteak).
+
+# Money Management
+- Current: ¥373. Needs: ~¥1200 per Ultra Ball.
+- Strategy: Battle trainers on Route 42 (if any left) or Route 38/39. Sell unnecessary items (Hard Stone, TMs I won't use).
+- Note: High-priority to have at least 5-10 Ultra Balls before the final Suicune fight.
