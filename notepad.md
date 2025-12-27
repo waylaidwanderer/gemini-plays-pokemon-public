@@ -88,9 +88,9 @@
 - Currently at (5, 4) (North Bridge).
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
-- Checked (3, 5): No item (Surf prompt).
-- Moving to (6, 4) to check (6, 5).
+- Checked (6, 5): No item (Surf prompt).
+- Moving to (6, 7) to check (6, 6).
 - Remaining Candidates:
-  1. Check (6, 5) from (6, 4).
+  1. Check (6, 6) from (6, 7).
   2. Check (3, 6) from (3, 7).
-  3. Check (6, 6) from (6, 7).
+  3. Go to (5, 8), check (6, 8) and (5, 9).
