@@ -28,3 +28,5 @@
   - Checked 1F West: Pending.
   - **Current Location:** Lower Deck Far East (via 1F 27,15).
   - **Findings:** Found a Little Girl here. Investigating.
+- **Log:** Tried to talk to the Little Girl at (6, 17), but she didn't respond (no text).
+- **Hypothesis:** Need to talk to the Gentleman first, or the girl is not the interactable target yet.
