@@ -30,4 +30,4 @@
 
 ## Progress Tracking
 - Current Task: Re-verify Suicune sightings on Route 42 and Route 36.
-- Status: Heading to Route 42 island clearing (26, 15).
+- Status: Crossing gatehouse to Route 42. Target: Island clearing (26, 15).
