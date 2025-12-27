@@ -43,3 +43,12 @@
 
 # PC Storage
 - Box 1: BRIMSTONE, HELIODOR, COBALT, QUARTZ, DIVA, PENDULUM, JASPER, UNAKITE, EGG, AMETHYST, AZURITE, HEMATITE, KENYA, TOGEPI, LUCID, BELLADONNA, TRUFFLE, LAPIS.
+
+# Route 36 Observations
+- Fisher at (44, 9) blocks direct path to the junction.
+- Path around: (45, 9) -> (45, 8) -> (35, 8) -> (35, 9).
+- Searching for Suicune at the Sudowoodo junction (35, 9).
+
+# NPC Registry
+- Route 36: Lass (50, 8), Fisher (44, 9).
+- Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
