@@ -133,40 +133,6 @@
       }
     ]
   },
-  "find_path_bfs_v2": {
-    "description": "Finds a path between two coordinates on the current map using BFS, accounting for walls and objects. Returns a list of button strings. Designed for overworld navigation. Supports warp carpet exit directions.",
-    "input_schema": {
-      "properties": {
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "nullable": true,
-          "type": "integer"
-        },
-        "start_y": {
-          "nullable": true,
-          "type": "integer"
-        }
-      },
-      "required": [
-        "end_x",
-        "end_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception:\n        print(json.dumps([]))\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    px, py = None, None\n    if input_data.get('start_x') is not None and input_data.get('start_y') is not None:\n        px, py = int(input_data['start_x']), int(input_data['start_y'])\n    else:\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                if tile.find('Player') is not None:\n                    px = int(tile.get('id'))\n                    py = int(row.get('id'))\n                    break\n            if px is not None: break\n\n    if px is None:\n        print(json.dumps([]))\n        return\n\n    target_x, target_y = int(input_data['end_x']), int(input_data['end_y'])\n    \n    impassable = set()\n    warp_tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            if t_type == 'WALL' or (tile.find('Object') is not None and tile.find('Player') is None):\n                impassable.add((x, y))\n            if 'WARP_CARPET' in t_type:\n                warp_tiles[(x, y)] = t_type\n    \n    queue = collections.deque([(px, py, [])])\n    visited = {(px, py)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == target_x and y == target_y:\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            \n            # Check for warp carpet exit\n            is_warp_exit = False\n            if (x, y) in warp_tiles:\n                wt = warp_tiles[(x, y)]\n                if (wt == 'WARP_CARPET_UP' and btn == 'Up') or \\\n                   (wt == 'WARP_CARPET_DOWN' and btn == 'Down') or \\\n                   (wt == 'WARP_CARPET_LEFT' and btn == 'Left') or \\\n                   (wt == 'WARP_CARPET_RIGHT' and btn == 'Right'):\n                    is_warp_exit = True\n\n            if 0 <= nx < width and 0 <= ny < height:\n                # Standard move or warp exit into wall\n                if (nx, ny) not in visited:\n                    if (nx, ny) not in impassable or is_warp_exit:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n            elif is_warp_exit:\n                # Off-map movement\n                if (nx == target_x and ny == target_y):\n                    print(json.dumps(path + [btn]))\n                    return\n                \n    print(json.dumps([]))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Refined BFS to handle warp carpet directions and off-map movement.",
-        "timestamp": "2025-12-27T01:12:08.762Z",
-        "action_counter": 24302
-      }
-    ]
-  },
   "navigate_fly_map_v1": {
     "description": "Navigates the Johto FLY map from a known starting city to a target city. City names: 'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town', 'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City', 'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Mt. Silver', 'Indigo Plateau'. Assumes the FLY map is already open.",
     "input_schema": {

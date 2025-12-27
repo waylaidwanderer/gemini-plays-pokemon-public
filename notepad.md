@@ -44,3 +44,8 @@
 - Turn 24485: Starting search for Suicune sightings on Route 42 and Route 36.
 - Turn 24512: Started Suicune hunt.
 - Turn 24541: Using objective_analyst to verify sighting prerequisites.
+
+# Suicune Hunt Timeline
+- Turn 24512: Started Suicune hunt.
+- Turn 24541: Verified prerequisites with objective_analyst. Sightings on Route 42/36 are NOT strictly required if the player has the Clear Bell and Fog Badge; speaking to the Sages in Tin Tower 1F is the trigger.
+- Turn 24548: Flying to Ecruteak City to trigger Suicune at Tin Tower 1F.
