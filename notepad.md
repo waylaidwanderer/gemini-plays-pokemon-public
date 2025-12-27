@@ -99,10 +99,5 @@
 - Remaining Candidates: (3, 8), (4, 8), (4, 9), (6, 9).
 - **Update:** Found Machine Part at (3, 8)!
 - **Next Steps:** Return to Power Plant immediately.
-- Reached Route 9 entrance at (39, 22).
-- Proceeding East to Power Plant.
-- Entered Route 9.
-- Heading East towards the Power Plant (Route 10).
-- Taking the northern path to avoid the Cut Tree if possible.
-- Cutting tree at (5, 8) to access the eastern part of Route 9.
-- Tree Cut Successful. Proceeding East.
+- Navigating East through Route 9 towards the Power Plant (Route 10).
+- Successfully cut the tree at (5, 8) and jumped ledges to the lower path.
