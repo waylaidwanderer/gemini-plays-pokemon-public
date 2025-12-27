@@ -1,18 +1,18 @@
 # Suicune Quest Log
 - **Start Turn:** 24175 (2025-12-26 20:30)
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
-- **Sighting Requirements:**
+- **Sighting Requirements (Sequential in Crystal):**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24860]
-  4. Route 36 (Sudowoodo junction): Sighting [Sprite missing - Turn 24733. MUST FIND]
+  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24860. MUST TRIGGER FIRST]
+  4. Route 36 (Sudowoodo junction): Sighting [Sprite missing - Turn 24733. Triggered after Route 42]
   5. Tin Tower 1F: Talk to all three Sages. [Failed - Turn 24814. Prerequisites missing]
 
 # Immediate Plan
-- Navigate to Route 36 junction (where Sudowoodo was).
-- Search Route 36 for Suicune sighting.
-- If Suicune is found on Route 36, re-check Route 42.
-- If still missing, return to Cianwood City (North) to re-verify sighting.
+- Fly to Ecruteak City.
+- Navigate to Route 42 Central Island (Apricorn trees).
+- Walk every single tile on the island (x=24-32, y=14-17) until Suicune appears.
+- Once triggered on Route 42, return to Route 36.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
