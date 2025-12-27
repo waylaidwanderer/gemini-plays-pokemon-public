@@ -38,11 +38,13 @@
 - **FLOOR_UP_WALL:** Acts as a WALL from the North. Cannot be jumped. (Confirmed Route 9).
 
 # Active Plans
-- **Escape to Cerulean:**
-  - **Status:** Fly Map Open. Cursor on Indigo Plateau.
-  - **Action:** Pressing 'Down' to return to Saffron City.
-  - **Reasoning:** 'Up' from Saffron led to Indigo Plateau. 'Right' from Indigo was invalid. Cerulean must be accessed from Saffron via a different direction (Right/Left) or isn't unlocked.
-  - **Backup:** If Cerulean isn't found, Fly to Saffron and walk North to Cerulean.
+- **Escape to Cerulean (Modified):**
+  - **Hypothesis:** Cerulean City Fly point is **not unlocked** (likely missed entering the Pokemon Center).
+  - **Status:** Fly Map Open. Cursor on Saffron City.
+  - **Action:** Select Saffron City (A) -> Fly.
+  - **New Route:** Land Saffron -> Walk North (Route 5) -> Cerulean City.
+  - **Critical:** Enter Cerulean Pokemon Center upon arrival to unlock Fly point.
+  - **Next:** Search Gym for Machine Part -> Route 24 -> Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
