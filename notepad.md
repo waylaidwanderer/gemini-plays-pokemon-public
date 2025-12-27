@@ -55,7 +55,7 @@
     3. Go East along Row 17 to X=20 (Corridor behind PokeCenter).
     4. Go North through gap at (20, 15).
     5. Go East along Row 12 to (27, 12).
-  - **Current Step:** Reaching (6, 20).
+  - **Current Step:** Executing Step 5: Going East along Row 12 to (27, 12).
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
