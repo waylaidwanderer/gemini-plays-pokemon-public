@@ -34,3 +34,6 @@
 
 # Pokedex
 - Seen: 168, Owned: 30.
+- **Log:** Entered Cabin from 1F (23, 8). Arrived at 15_4 (2, 13).
+- **Observation:** Room contains Pokefan M. He is NOT the lazy sailor.
+- **Plan:** Talk to Pokefan, then re-check "Empty" cabins at (19, 8) and (15, 8) in case I missed the sailor.
