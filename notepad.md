@@ -29,3 +29,4 @@
 - **Log:** Navigating North via the path at x=19 to bypass the Mart.
 - **Log:** Encountered another Teacher at (19, 8).
 - **Plan:** Talk to her, then check the building to the North/West.
+- **Log:** Heading to Gramps at (23, 6). Possible Pokemon Center nearby.
