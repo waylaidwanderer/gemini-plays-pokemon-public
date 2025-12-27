@@ -18,7 +18,7 @@
 - Hypothesis 1: Route 42 sighting is next. (Failed - Turn 25425)
 - Hypothesis 2: Route 36 sighting is next. [Current Target]
 - Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed - Turn 25441)
-- Hypothesis 4: Suicune is already at Tin Tower 1F. (Pending verification after Route 36)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. [Current Target]
 
 ## Tile Mechanics
 - FLOOR: Traversable.
