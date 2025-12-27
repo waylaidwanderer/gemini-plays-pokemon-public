@@ -46,11 +46,13 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Moving East along Row 8 (Upper Path). Passing tall grass section.
+  - **Status:** At East end of Row 8 (x=53). Blocked North by wall at Row 5.
+  - **Correction:** Must backtrack West to gap at x=45 to cross to Northern Tier (Row 4).
   - **Plan:**
-    1. Continue East to the end of Route 9.
-    2. Look for the Power Plant entrance (likely water or a building).
-    3. Avoid hopping ledges South.
+    1. Go West to (45, 8).
+    2. Go North through gap at (45, 5) to Row 4.
+    3. Go East to water edge at (55, 4).
+    4. Surf East to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
