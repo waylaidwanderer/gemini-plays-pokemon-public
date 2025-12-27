@@ -62,3 +62,5 @@
   - Sage (11, 11) [Beast legend info]
   - Sage (5, 9) [Rainbow Pokemon legend info]
   - Sage (14, 6) [Tower history info]
+## Tool Notes
+- `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use warps at (18, 11) and (20, 2).
