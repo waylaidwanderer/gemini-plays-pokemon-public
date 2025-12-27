@@ -13,17 +13,17 @@
 2. Cianwood City (North): Seen at (10, 14). [Verified]
 3. Route 42 (Central Island): Pending.
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Pending (Checked Turn 25477, not present).
+5. Tin Tower 1F: Pending.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. [Current Target - Attempt 3 started Turn 25526]
-- Hypothesis 2: Route 36 sighting is next.
-- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Confirmed: No)
-- Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
+- Hypothesis 1: Route 42 sighting is next.
+- Hypothesis 2: Route 36 sighting is next. [Current Target - Started Turn 25532]
+- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (No)
+- Hypothesis 4: Suicune is already at Tin Tower 1F. (No)
 
 ## Strategy & Planning
-- Route 42 sighting: Approach the central island from the east (Mahogany side).
-- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37.
+- Route 42 sighting: Sweep central island (22, 12) to (30, 17) using Surf/Cut.
+- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37 and approach from the south.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
