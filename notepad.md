@@ -88,3 +88,11 @@
 - Currently at (5, 4) (North Bridge).
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
+- Checked (5, 5): Pending result.
+- Plan:
+  1. Move Left to (4, 4).
+  2. Face Down to check (4, 5).
+  3. Move Left to (3, 4).
+  4. Face Down to check (3, 5).
+  5. Move Left to (2, 4).
+  6. Face Down to check (2, 5).
