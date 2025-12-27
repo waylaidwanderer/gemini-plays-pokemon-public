@@ -26,8 +26,8 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** At Mr. Psychic's House (27, 29).
-- **Action:** Read sign, then enter house to meet Mr. Psychic (Expected: Get TM29).
+- **Status:** Leaving Mr. Psychic's House (Got TM29).
+- **Action:** Exit house and head North to find the Gym/Dojo.
 - **Next Steps:**
     1. Locate Saffron Gym and Silph Co (likely North/Central).
     2. Locate Copycat's House (North-West?).
