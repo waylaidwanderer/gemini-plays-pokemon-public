@@ -55,8 +55,6 @@
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
 - **Immediate Task:** Challenge Lass (No. 4) at (22, 6).
 - **Next Task:** Challenge Youngster (No. 5) at (25, 4).
-- **Battle Log:** Defeated all 6 trainers on Route 25. Received phone call from Wade.
-- **Immediate Task:** Press 'A' to interact with the Super Nerd at (31, 7).
-- **Goal:** Claim the Nugget prize.
-- **Lore Check:** In GSC, this trainer (Cooltrainer Kevin) usually gives the Nugget. The Rocket Grunt is a separate event involving the Power Plant.
-- **Next Steps:** Get Nugget, likely battle him, then Cut the tree at (34, 6) to reach the Item Ball.
+- **Battle Log:** Defeated all 6 trainers. Super Nerd denied association with them and threatened to attack.
+- **Immediate Task:** Defeat the Super Nerd (Cooltrainer Kevin / Rocket Imposter?).
+- **Hypothesis:** He is an enemy blocking the path to the Item Ball and Cut Tree. Defeating him might yield the Nugget or clear the way.
