@@ -24,17 +24,19 @@
 - WARP_CARPET_LEFT: Triggers map transition when walking OFF the map westwards.
 
 ## Strategy
-- Current: Return to Route 42 to trigger Suicune sighting #3.
-- How:
-  1. Fly to Ecruteak City.
-  2. Travel east to Route 42.
-  3. Surf to the central island.
-  4. Perform an exhaustive, tile-by-tile sweep of the island's clearing (especially near the Apricorn trees) to trigger Suicune.
-  5. If Suicune flees, immediately proceed to Route 36 (Sudowoodo junction).
-  6. If Suicune is still missing, talk to Eusine in Ecruteak Pokemon Center and the Sages.
+- Goal: Complete Suicune overworld sightings (Crystal Version).
+- Current Step: Identify why sighting #3 (Route 42) or #4 (Route 36) hasn't triggered.
+- Hypotheses:
+  1. Missed dialogue with Eusine in Ecruteak Pokemon Center.
+  2. Missed dialogue with Wise Trio in Tin Tower Gatehouse.
+  3. Specific trigger tile on Route 42 island clearing was missed.
+- Action Plan:
+  1. Check Ecruteak Pokemon Center for Eusine.
+  2. Check Wise Trio room in Tin Tower Gatehouse.
+  3. Re-sweep Route 42 island (tile-by-tile).
 - Result Log:
-  - Route 42 Island (Turn 26164): Initial sweep yielded no Suicune. Retrying after confirming sequence with tracker.
-  - Route 36 (Turn 26177): Suicune not found (confirmed unavailable until Route 42 is triggered).
+  - Route 42 Island (Turn 26164): Southern/Northern clearings empty.
+  - Route 36 (Turn 26177): Sudowoodo spot empty.
 
 ## Time Tracking
 - Current Attempt Start: Turn 26101.
