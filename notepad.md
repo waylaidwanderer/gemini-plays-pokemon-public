@@ -43,11 +43,13 @@
     - Warp DD (5, 5) -> ?
 
 # Current Plan
-- **Immediate:** Handle Youngster interaction (Battle likely).
+- **Goal:** Earn Marsh Badge.
+- **Immediate:** Test Warp M at (19, 5).
+- **Status:** In Room 4 (Top Right). Defeated Psychic Jared (Youngster).
 - **Next Steps:**
-    1. Defeat Youngster.
-    2. Test Warp M (19, 5).
-    3. Determine if M leads to Sabrina or a new room.
+    1. Navigate to Warp M (19, 5).
+    2. Determine destination.
+    3. Continue mapping warps until Sabrina is found.
 
 # Tile Mechanics
 - **WARP_PANEL:** Stepping on these instantly teleports the player to another location. If you arrive on one, you must step off and step back on to use it again.
