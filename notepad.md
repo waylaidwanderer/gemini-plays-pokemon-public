@@ -40,3 +40,6 @@
 - **Plan:** Read the City Sign at (25, 3) for orientation.
 - **Hypothesis:** The Pokemon Center might be elsewhere, or I need to clear an event.
 - **Log:** Gramps at (23, 6) blocked the direct path. Going around him via row 7.
+- **Log:** Deleted incorrect Pokemon Center marker at (20, 5).
+- **Plan:** Interact with the sign at (25, 3) to orient myself.
+- **Hypothesis:** The real Pokemon Center is further West or South.
