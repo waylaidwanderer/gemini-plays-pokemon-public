@@ -2,7 +2,7 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Immediate Task:** Interact (A) to Cut the tree at (33, 24), then navigate East to Route 9.
-- **Observation:** Successfully exited menus and oriented Player to Face Right. Ready to Cut.
+- **Observation:** Successfully exited menus and oriented Player to Face Right. Previous 'A' press failed because I was likely still in a menu state or facing wrong. Now confirmed in Overworld and facing Right. Retrying Cut.
 
 # Strategic Goals
 1. **Restore Power:**
