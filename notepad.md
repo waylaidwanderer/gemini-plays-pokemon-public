@@ -35,3 +35,4 @@
 - Order: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower.
 - Tool Usage: Use custom tools for repetitive navigation/menu tasks.
 - Johto Fly Map: "Up" scrolls cities (New Bark -> Violet -> Ecruteak).
+- **Tin Tower Trigger (Analyst Advice):** If overworld sightings fail, talk to all three Sages on Tin Tower 1F while holding the Clear Bell and Fog Badge. Suicune should jump down. [To be tested after Route 42/36 sightings]
