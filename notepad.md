@@ -43,3 +43,6 @@
 - **Action:** Investigating cabin at (19, 8).
 - **Log:** Standing on Warp Carpet at (19, 8). Warp didn't trigger yet.
 - **Action:** Pressing Down to force entry into the cabin.
+- **Log:** Entered Cabin from 1F (19, 8). Arrived at 15_4 (2, 25) (South Room).
+- **Observation:** Found Sailor (ID 5) at (4, 26).
+- **Action:** Interacting with Sailor to check if he is the "lazy buddy".
