@@ -13,7 +13,7 @@
 ## Suicune Sighting Sequence (Crystal)
 1. Burned Tower (Ecruteak): Beasts flee. [Verified]
 2. Cianwood City (North): Sighting. [Verified]
-3. Route 42 (Central Island): Sighting. [In Progress]
+3. Route 42 (Central Island): Sighting. [In Progress - Trigger: Speak to Eusine in Ecruteak PKMN Center after Cianwood sighting, then enter Route 42 from Ecruteak side]
 4. Route 36 (Sudowoodo junction): Sighting. [Pending]
 5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
