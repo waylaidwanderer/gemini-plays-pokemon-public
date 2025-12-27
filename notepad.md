@@ -35,3 +35,4 @@
 - **Contingency:** If Gym is blocked by Cut tree and no other path exists, retrieve Belladonna from PC.
 - **Log:** Talked to Pokefan F. She explained the Magnet Train connects to Goldenrod in Johto.
 - **Log:** Youngster in house (12_8) wants to go to Saffron to see the Magnet Train.
+- **Plan:** Surf from (14, 18) around the Cut tree to reach Vermilion Gym at (10, 19). Path: (14, 18) -> (14, 19) -> (13, 19) -> (13, 20) -> (10, 20) -> (10, 19).
