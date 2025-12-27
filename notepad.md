@@ -43,3 +43,6 @@
 - **Correction:** Manually moving cursor Down from Ice Punch to Cross Chop to hit Magneton.
 - **Correction Success:** Cursor moved to Cross Chop.
 - **Action:** Pressing A to execute Cross Chop.
+- **Log:** Defeated Lt. Surge! Earned Thunder Badge. Muscle grew to Lv72.
+- **Plan:** Talk to Surge to get TM (Thunderbolt expected).
+- **Next:** Heal at Center, then check Snorlax or head North to Saffron.
