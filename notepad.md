@@ -5,33 +5,36 @@
 ## Suicune Quest Diagnostic Log
 1. Burned Tower: Flee event completed.
 2. Cianwood City (North): Flee event completed. Eusine defeated.
-3. Flag: Eusine dialogue in Ecruteak PC. [REQUIRED for Route 42 trigger]
-4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [PENDING - Sages mentioned 'tower shook' at Turn 26110]
-5. Sighting #3: Route 42 (Central Island). [FAILED - Swept (21,10) to (31,17) at Turn 26164]
-6. Sighting #4: Route 36 (Sudowoodo Junction). [FAILED - Swept (34,8) to (37,10) at Turn 26177]
+3. Flag: Eusine dialogue in Ecruteak PC. [STATUS: Eusine missing from PC at Turn 26204]
+4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [STATUS: Sages mentioned 'tower shook' at Turn 26110]
+5. Sighting #3: Route 42 (Central Island). [FAILED - Swept clearing at Turn 26164]
+6. Sighting #4: Route 36 (Sudowoodo Junction). [FAILED - Swept spot at Turn 26177]
 7. Tin Tower 1F: Static encounter. [LOCKED]
 
+## Strategy
+- Current: Investigate missing overworld triggers.
+- Plan:
+  1. Talk to Gramps in Tin Tower Gatehouse (Turn 26222).
+  2. Re-verify Route 42 island (tile-by-tile search including boundaries).
+  3. If Suicune is still missing, check Mt. Mortar or other nearby areas.
+
 ## Global Tile Mechanics (Verified)
-- FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
+- FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable ONLY with SURF.
-- CUT_TREE: Impassable; remove with CUT. Regrows when map is reloaded.
+- CUT_TREE: Impassable; remove with CUT.
 - LADDER: Vertical transition (Warp).
-- FLOOR_UP_WALL: Impassable from the NORTH. Functions like a ledge.
-- HEADBUTT_TREE: Impassable. Can be interacted with using HEADBUTT.
-- TALL_GRASS: Walkable. Triggers wild encounters.
+- FLOOR_UP_WALL: Impassable from the NORTH.
+- HEADBUTT_TREE: Impassable.
+- TALL_GRASS: Walkable.
 - CAVE: Entrance/Exit warp.
 - DOOR: Interactive warp tile.
 
-## Diagnostic Result Log
-- Route 42 Island (Turn 26164): Southern/Northern clearings empty.
-- Route 36 (Turn 26177): Sudowoodo spot empty.
-- Ecruteak PC (Turn 26204): Eusine NOT present.
-- Tin Tower Gatehouse Sages: Mentioned "tower shook" (Turn 26110).
+## Lessons Learned
+- Suicune events are linear and mandatory.
+- Eusine dialogue in Ecruteak PC is a known prerequisite in Crystal.
+- Sages granting passage to Tin Tower doesn't mean sightings are done.
 
-## Hypothesis: Wise Trio Flags
-- Goal: Talk to all three members of the Wise Trio to unlock Route 42 trigger.
-- Locations:
-  1. Sage at (7, 10) in Gatehouse.
-  2. Gramps at (2, 12) in Gatehouse.
-  3. Third member (location unknown, likely restricted area or Wise Trio Room).
+## Milestones
+- Turn 26110: Triggered 'Tin Tower Shake' event.
+- Turn 26204: Confirmed Ecruteak PC is empty of Eusine.
