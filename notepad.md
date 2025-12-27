@@ -5,8 +5,8 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [FAILED] Full sweep of island multiple times (Turns 25893, 25974). Suicune did not appear.
-4. Route 36 (Sudowoodo Junction): Pending.
+3. Route 42 (Central Island): [IN PROGRESS] Route 36 verified empty. Returning for a tile-by-tile search (24, 12 to 31, 17 area).
+4. Route 36 (Sudowoodo Junction): [EMPTY] Verified on Turn 25992.
 5. Tin Tower 1F: Final encounter (requires all 4 overworld sightings).
 
 ## Tile Mechanics
