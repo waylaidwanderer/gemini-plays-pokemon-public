@@ -34,3 +34,5 @@
 - NPC dialogue hints (e.g., "tower shook") indicate quest progression but do not always skip steps.
 - Check all adjacent tiles when blocked by an NPC.
 - Do not mix directional and action buttons in a single press_buttons call.
+## Verification Plans
+- FLOOR_UP_WALL: Test collision from SOUTH, EAST, and WEST (current hypothesis: only impassable from NORTH).
