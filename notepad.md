@@ -1,11 +1,17 @@
 # Strategy for Suicune Encounter (Crystal)
 - **Status:** Sightings on Route 42 and Route 36 are required before the Tin Tower battle.
+- **Quest Start:** Turn 24509.
+- **Current Turn:** 24703.
 - **Sequence:**
   1. Burned Tower: Beasts flee. [Verified]
   2. Cianwood City (North): Suicune observed. [Verified]
-  3. Route 42 (Central Island): Suicune sprite must be seen near Apricorn trees. [Sprite Missing]
+  3. Route 42 (Central Island): Suicune sprite must be seen near Apricorn trees. [Sprite Missing - Turn 24701]
   4. Route 36 (Sudowoodo junction): Suicune sprite must be seen near the junction. [Pending]
   5. Tin Tower 1F: Return for battle after all sightings.
+
+# Menu Navigation Lessons
+- Sub-menus (STATS, SWITCH, etc.) block main menu navigation tools. Close them with 'B' before calling a navigator.
+- Cursor position persists between menu openings; verify start position before pathing.
 - **Battle Strategy:** Use KIMCHI (Gloom) at Lv21 with Sleep Powder. Use XENON (Gastly) with Mean Look. Weaken carefully and capture with Ultra/Great Balls.
 
 # Tile Mechanics (Global)
