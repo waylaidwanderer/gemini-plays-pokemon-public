@@ -47,16 +47,10 @@
 - **Route 9 Navigation:**
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
   - **Issue:** Entered via Lower path (gap at 36, 22). Stuck below ledges previously.
-  - **Status:** The path via (34, 16) leads forcedly to the gap at (36, 22).
-  - **Hypothesis:** There must be a way to transition from Lower to Upper Route 9, or a Surfable water route on Route 9 itself.
-  - **Plan:**
-    1. Enter Route 9 via (39, 22).
-    2. Immediately look for:
-       - Surfable water.
-       - Gaps in the ledge.
-       - A path wrapping around.
-  - **Note:** The "Upper" entrance might actually be the one North of the ledges on Route 9, accessible from Route 10 or Surf.
-  - **Confirmed:** Col 34 is a one-way corridor South to row 22. No Northern East exit.
+  - **Status:** Successfully entered Route 9 via Cerulean (39, 22).
+  - **Observation:** I am in a small enclosed area on Route 9, blocked to the East by walls and a Cut Tree at (5, 8).
+  - **Hypothesis:** This path requires Cutting the tree to access the main part of Route 9.
+  - **Plan:** Cut the tree at (5, 8) and proceed East to the Power Plant.
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
