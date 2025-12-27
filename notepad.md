@@ -13,7 +13,8 @@
 
 ## Strategy
 - Order: Route 42 -> Route 36 -> Tin Tower (Confirmed by Analyst).
-- Battle Lead: KIMCHI (Lv21 GLOOM) for Sleep Powder.
+- Current Task: Sell items at Ecruteak Mart to fund Great Balls.
+- Order: Route 42 (Platform by water) -> Route 36 (Sudowoodo Junction) -> Tin Tower 1F.
 
 # Money Management
 - Current: ¥373.
