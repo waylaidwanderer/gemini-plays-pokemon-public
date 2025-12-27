@@ -144,3 +144,6 @@
 - Clearing remaining dialogue from Wade.
 - Executing Cut attempt on (42, 15).
 - If tree is a WALL: Will attempt ledge jump at (41, 16) again, ensuring no dialogue is active.
+- Cleared Wade's call.
+- Attempting CUT on (42, 15) again.
+- If this fails, the 'ledge' tiles on Row 16 might actually be impassable walls, and I might need to find another way around or I am softlocked in this small area (unlikely).
