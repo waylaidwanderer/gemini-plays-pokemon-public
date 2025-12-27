@@ -46,11 +46,14 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Backtracking West to find a way to the upper/lower tiers.
+  - **Puzzle:** Route 9 consists of multiple tiers connected by vertical chutes.
+  - **Discovery:** 
+    - Chute at x=20 leads South (Dead End on Row 14).
+    - Chute at x=16 leads North (to Upper Tiers).
   - **Plan:**
-    1. Go West to x=20.
-    2. Go North to x=20, y=10.
-    3. Explore the upper tier heading West/North.
+    1. Go West to x=16.
+    2. Go North up Column 16 to the top tier (Row 6/7).
+    3. Head East towards the Power Plant on the high road.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
