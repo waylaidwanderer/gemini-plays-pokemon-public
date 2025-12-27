@@ -2,10 +2,10 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym.
-- **Immediate Task:** Walk North along the central bridge to search for the Rocket Grunt or Misty.
-- **Lore:** In Crystal, a Rocket Grunt is usually encountered here, which triggers the Machine Part quest.
-- **Observation:** Entered the Gym. Layout consists of a central bridge (LADDER tiles) over a pool of water.
-- **Strategy:** Move North to reveal the rest of the room and trigger events.
+- **Immediate Task:** Navigate to the back of the Gym (7, 6) to check for Misty or Rocket Grunt.
+- **Lore:** Misty is likely at Cerulean Cape (Route 25) if not here. Rocket Grunt event usually triggers after visiting Power Plant.
+- **Strategy:** Quick check of Gym interior, then exit and head North to Route 24/25 to find Misty or path to Power Plant.
+- **Pathing:** Gym bridge requires zigzagging Right at Row 7.
 
 # Strategic Goals
 1. **Restore Power:**
