@@ -1,22 +1,24 @@
 # Suicune Quest Strategy (Crystal Version)
-- **Status:** Possession of Clear Bell confirmed.
-- **Sightings:** 4 sightings confirmed (Burned Tower, Cianwood, Route 42, Route 36).
-- **Trigger:** Sage at (7, 10) in Gatehouse (4_1) confirmed "Tower Shook."
-- **Current Objective:** Talk to Sage at (7, 9) to ensure all hall dialogue is complete.
-- **Problem:** Wise Trio missing from battle room; center of 1F blocked.
-- **Plan:** 
-  1. Talk to Sage at (7, 9).
-  2. If no change, return to 1F and explore the perimeter of the blocked center.
+- **Status:** Possession of Clear Bell confirmed. All 4 overworld sightings complete.
+- **Current State:** Sage in Gatehouse (4_1) says "The TIN TOWER shook! A POKéMON must have returned to the top!"
+- **Observation:** Wise Trio Room (4_2) is empty. Sages named Gaku, Masa, and Koji are present on Tin Tower 1F (3_4) but only provide lore.
+- **Problem:** The center of Tin Tower 1F is blocked by statues/walls, and Suicune is not visible.
+- **Objective:** Trigger the Suicune encounter on Tin Tower 1F.
+
+## Strategy & Hypotheses
+- **Hypothesis 1:** The Wise Trio battle on 1F (3_4) is triggered by talking to the Sages in a specific order or after a specific event.
+- **Hypothesis 2:** There is an NPC in Ecruteak City or the Gatehouse that needs to be spoken to again to "activate" the 1F Sages for battle.
+- **Plan:**
+  1. Return to Tin Tower 1F (3_4).
+  2. Talk to Gaku (11, 11), Masa (14, 6), and Koji (5, 9) in sequence.
+  3. Attempt to walk into the center area (10, 8) after each interaction.
 
 ## Tile Mechanics - Global
-- **FLOOR**: Standard walkable tile. Traversable.
-- **WALL / VOID / HEADBUTT_TREE**: Impassable terrain.
-- **WATER**: Traversable via SURF.
-- **CUT_TREE**: Requires CUT to clear.
-- **LEDGE_HOP / LEDGE**: One-way traversal (jump). Impassable from most directions.
-- **DOOR / STAIRS / LADDER**: Warp tiles.
-- **WARP_CARPET**: Map transition tile.
+- **FLOOR**: Standard walkable tile.
+- **WALL / VOID**: Impassable.
+- **WATER**: Requires SURF.
+- **LADDER / STAIRS / DOOR**: Warp.
 
 ## Trainer & Party Info
-- **Lead:** XENON (Gastly) Lv21.
-- **Current Party:** Gastly, Pidgey, Graveler, Krabby, Gloom, Typhlosion.
+- **Lead:** XENON (Gastly) Lv21 (Hypnosis/Mean Look).
+- **Party:** Gastly, Pidgey, Graveler, Krabby, Gloom, Typhlosion.
