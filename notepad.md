@@ -58,3 +58,5 @@
 - `find_path_v3`: Fails between Ecruteak Main and Restricted areas; use bridge or Fly.
 - `suicune_tracker_v2`: Confirms Route 42 sighting is required.
 - `open_fly_map_v3`: Robust Fly map opener (Refined Turn 25502).
+- **Attempt 3 (Turn 25515):** Exhaustive sweep of Route 42 island floor tiles (22, 12) to (30, 17). Suicune not present.
+- **Hypothesis 5:** Trigger requires entering Route 42 from Mahogany Town (East). [Current Target]
