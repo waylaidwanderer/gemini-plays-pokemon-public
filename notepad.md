@@ -120,3 +120,4 @@
 - Relying on Strength (9 PP) for now.
 - Need to heal at Route 10 Pokemon Center soon.
 - Facing Onix. Staying in with Muscle (Strength).
+- Onix sent out. Using Strength.
