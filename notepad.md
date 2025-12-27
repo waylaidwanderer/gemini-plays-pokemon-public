@@ -46,9 +46,10 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 10 North Navigation:**
   - **Goal:** Reach Power Plant (South).
-  - **Status:** Surfing South on Route 10 North (currently at Row 16).
+  - **Status:** Surfing on Route 10 North at (12, 13). Blocked by ledge to the South.
   - **Plan:**
-    1. Continue Surfing South to the Power Plant.
+    1. Surf West to find a landing spot or continuation of the river.
+    2. Reach Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
