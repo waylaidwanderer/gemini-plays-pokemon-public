@@ -1,8 +1,8 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
-- **Location:** Olivine Port Passage.
-- **Immediate Goal:** Reach Olivine Port and board S.S. Aqua.
-- **Next Step:** Board S.S. Aqua -> Vermilion City (Kanto).
+- **Location:** Olivine Port.
+- **Immediate Goal:** Board S.S. Aqua.
+- **Next Step:** Vermilion City (Kanto).
 
 # Team Status
 - **Muscle (Machoke)**: Lv69. MVP.
@@ -17,5 +17,6 @@
 - **Owned:** 30
 
 # Strategy Notes
-- **Kanto Gyms:** Need to defeat all 8 Kanto Gym Leaders to open the path to Mt. Silver.
-- **Red:** Ultimate goal at Mt. Silver.
+- **Kanto Gyms:** Defeat all 8 Leaders -> Mt. Silver.
+- **Red:** Ultimate goal.
+- **Tile Mechanics:** LADDER tiles on Olivine Port map are walkable pier structures.
