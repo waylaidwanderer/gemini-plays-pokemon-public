@@ -31,5 +31,5 @@
 - **Location:** Cerulean City (Poke Mart).
 - **Status:** Gathering Info.
 - **Goal:** Locate Gym and Route 9 (East).
-- **Observations:** Bike Shop closed. Mart active.
-- **Immediate:** Talk to Cooltrainer M and Clerk, then exit to continue search.
+- **Info:** Cooltrainer M mentions many trainers at Cerulean Cape (Route 25).
+- **Immediate:** Talk to Clerk (stand at 3,3), then exit to continue search.
