@@ -150,6 +150,7 @@
 - Cleared final dialogue from Wade.
 - Pressed A on (42, 15) to attempt Cut.
 - Anticipating "This tree can be CUT!" message.
-- Pressing A on (42, 15) failed to trigger Cut.
-- Attempting one last check via Party Menu -> Cut.
-- If this fails, I am confirmed trapped and will Fly to Cerulean.
+- Stuck in Route 9 'Trap' Area (x=20-41, y=14-15).
+- Accessing Party Menu to select Belladonna (Slot 6).
+- If 'CUT' appears, will use it on (42, 15).
+- If 'CUT' is missing or fails, will switch to Mistral (Slot 5) and use 'FLY' to Cerulean.
