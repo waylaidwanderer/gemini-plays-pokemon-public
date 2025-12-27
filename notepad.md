@@ -3,16 +3,15 @@
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
 - **Sighting Requirements (Sequential in Crystal):**
   1. Burned Tower: Beasts fled. [Verified]
-  2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24860. MUST TRIGGER FIRST]
+  2. Cianwood City (North): Sighting. [Verified - Turn 24175-24509 summary]
+  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24931. MUST TRIGGER FIRST]
   4. Route 36 (Sudowoodo junction): Sighting [Sprite missing - Turn 24733. Triggered after Route 42]
-  5. Tin Tower 1F: Talk to all three Sages. [Failed - Turn 24814. Prerequisites missing]
+  5. Tin Tower 1F: Talk to all three Sages. [Talked to all - Turn 24814. Prerequisites missing]
 
-# Immediate Plan
-- Fly to Ecruteak City.
-- Navigate to Route 42 Central Island (Apricorn trees).
-- Walk every single tile on the island (x=24-32, y=14-17) until Suicune appears.
-- Once triggered on Route 42, return to Route 36.
+# Progress Tracking
+- Sweep Started: Turn 24851
+- Route 42 Island Search: Thoroughly searched (x=24-31, y=12-17). No Suicune sprite or Eusine sighting triggered. 
+- Route 36 Search: Checked junction at (35, 9). 
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
@@ -26,10 +25,6 @@
 - **LEDGE:** One-way traversable (down/right/left as indicated). Hop over.
 - **DOOR/STAIRS/LADDER:** Traversable. Triggers map transition.
 - **PC/COUNTER/SIGN:** Impassable. Interact from an adjacent tile.
-
-# Progress Tracking
-- Route 42 Island Search: Thoroughly searched Turn 24851-24860. No Suicune sprite or Eusine sighting. Trigger might require Route 36 sighting first or a specific approach.
-- Route 36 Search: Briefly checked Turn 24733. Need exhaustive search.
 
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated.
@@ -47,18 +42,8 @@
 # Route 36 Observations
 - Fisher at (44, 9) blocks direct path to the junction.
 - Path around: (45, 9) -> (45, 8) -> (35, 8) -> (35, 9).
-- Searching for Suicune at the Sudowoodo junction (35, 9).
 
 # NPC Registry
-- Route 36: Lass (50, 8), Fisher (44, 9).
-- Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
-
-# Route 36 Observations (Restored)
-- Fisher at (44, 9) blocks direct path to the junction.
-- Path around: (45, 9) -> (45, 8) -> (35, 8) -> (35, 9).
-- Searching for Suicune at the Sudowoodo junction (35, 9).
-
-# NPC Registry (Restored)
 - Route 36: Lass (50, 8), Fisher (44, 9).
 - Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
 
