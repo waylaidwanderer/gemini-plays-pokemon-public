@@ -61,3 +61,5 @@
 - Police Chief (Fishing Guru sprite) says: "I heard that some shady character is skulking about. I won't stand for it if he turns out to be a thief."
 - Hypothesis: This might trigger the Rocket Grunt's appearance in the Cerulean Gym.
 - Plan: Check Cerulean Gym (30, 23) for the Grunt. If not there, proceed to Route 9.
+- Police Chief confirmed a "shady character" is skulking about. This is likely the Rocket Grunt.
+- Heading to Cerulean Gym (30, 23) to intercept him.
