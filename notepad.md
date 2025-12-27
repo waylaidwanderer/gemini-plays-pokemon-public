@@ -1,10 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Check Radio (7, 1) and Bookshelves (0, 1).
-- **Observation:** Gramps is happy. The "Rhydon" is actually a Kangaskhan. TV is just a TV.
-- **Strategy:** Check Radio/Bookshelves, then leave to find the path to Route 9 (likely North/West outside).
-- **Map:** Table blocks (3,3)-(4,4). Path to Rhydon is via Row 2.
+- **Immediate Task:** Exit the house and head North/East to locate the path to Route 9/Power Plant.
+- **Observation:** Radio and NPCs provided only flavor text. This house appears to be a tutorial/flavor location ("Trade Speech House").
+- **Strategy:** Navigate outside. The path to Route 9 likely involves going North around the Gym/Ledges (towards Route 24) and cutting East.
+- **Hypothesis:** The "Uncuttable Tree" was a misleading tile. The real path is a detour.
 
 # Strategic Goals
 1. **Restore Power:**
