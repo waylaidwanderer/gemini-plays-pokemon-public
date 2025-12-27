@@ -25,9 +25,14 @@
     - **Mechanic:** Trash can switches were inactive.
 
 # Current Plan
-- **Goal:** Reach Saffron City (North of Route 6).
-- **Status:** East path led to blocked Underground Path Entrance. Ledges block Northward movement on East side.
-- **Action:** Traverse West across Row 4 to explore the Western side of Route 6 for a path North.
+- **Goal:** Explore Saffron City.
+- **Status:** Inside Saffron Pokemon Center. Healing team.
+- **Action:** Finish healing dialogue, then exit the building to the South.
+- **Next Steps:**
+    1. Locate Saffron Gym (Sabrina).
+    2. Locate Fighting Dojo.
+    3. Locate Silph Co.
+    4. Check out Mr. Psychic and Copycat's house.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
