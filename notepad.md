@@ -22,3 +22,6 @@
 - **Log:** Entered Fishing Guru's House (12_4). Talking to him.
 - **Hypothesis:** Might be the Fishing Guru's house or Fan Club.
 - **Note:** I do not have a Cut user in my party. Check if Gym requires Cut.
+- **Log:** Talked to Fishing Guru. He wants to see a big Magikarp.
+- **Plan:** Exit house and head Southwest to find the Gym.
+- **Reminder:** Check if Gym is blocked by a Cut tree.
