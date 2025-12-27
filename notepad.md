@@ -14,7 +14,7 @@
 - **Room 3 (Middle Right):**
     - Warp F (19, 9) [From C]
     - Warp G (15, 9) -> Room 4 (15, 3)
-    - Warp H (19, 11) -> ?
+    - Warp H (19, 11) [From W]
     - Warp I (15, 11) -> ?
 - **Room 4 (Top Right):**
     - Warp J (15, 3) [From G]
@@ -33,15 +33,15 @@
     - Warp U (9, 3) -> ?
 - **Room 7 (Middle Left):**
     - Warp V (5, 9) [From S]
-    - Warp W (1, 9) -> ?
+    - Warp W (1, 9) -> Room 3 (19, 11) [Warp H]
     - Warp X (1, 11) -> ?
     - Warp Y (5, 11) -> ?
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp W at (1, 9).
+- **Immediate:** Test Warp I at (15, 11).
 - **Next Steps:**
-    1. Navigate to Warp W (1, 9).
+    1. Navigate to Warp I (15, 11).
     2. Continue mapping warps until Sabrina is found (Middle Center Room).
 
 # Saffron City POIs
