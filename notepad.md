@@ -1,6 +1,6 @@
 # Kanto Campaign Status
-- **Location:** Route 25 (Cerulean Cape).
-- **Objective:** Return to Cerulean City and find the path to Route 9 (likely via Surfing from the Cape or near the Gym).
+- **Location:** Indigo Plateau (Route 23).
+- **Objective:** Fly to Cerulean City to bypass Route 9 obstacles.
 
 # Strategic Goals
 1. **Restore Power:**
