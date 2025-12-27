@@ -52,3 +52,9 @@
 # Navigation: Tin Tower 1F Maze
 - Central Area Access: The central floor area (Rows 5-9, X=7-12) is isolated by walls/pillars.
 - Final Battle Trigger: Requires completion of all roaming sightings (Route 42, Route 36).
+
+# Tile Mechanics (Route 42)
+- CUT_TREE at (24, 13): Regrows immediately upon map reload (e.g., entering/exiting gatehouses or buildings). [Verified]
+
+# Task Tracking
+- Suicune Tracking: Started Turn 24305 (Friday, Dec 26, 5:07 PM).
