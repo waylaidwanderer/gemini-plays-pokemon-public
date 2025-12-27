@@ -5,12 +5,17 @@
 
 # Warp Puzzle Log
 - **Room 1 (Entrance):**
-    - Warp A (11, 15) -> Room 2
+    - Warp A (11, 15) -> Room 2 (19, 17)
 - **Room 2 (Bottom Right):**
-    - Warp B (19, 17) -> leads back to Room 1 (Confirmed)
-    - Warp C (19, 15) -> ?
+    - Warp B (19, 17) -> Room 1 (11, 15)
+    - Warp C (19, 15) -> Room 3 (19, 9)
     - Warp D (15, 17) -> ?
     - Warp E (15, 15) -> ?
+- **Room 3 (Top Right):**
+    - Warp F (19, 9) [From C]
+    - Warp G (15, 9) -> ?
+    - Warp H (19, 11) -> ?
+    - Warp I (15, 11) -> ?
 
 # Current Plan
 - **Goal:** Win Battle against Medium Rebecca.
