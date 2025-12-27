@@ -38,3 +38,6 @@
 - **Plan:** Explore the far West end of the current room (x=0 to 4).
 - **Hypothesis:** The granddaughter might be in the Kitchen (usually West on ships) or I missed something.
 - **Reminder:** Check if Juggler Fritz moved after the battle (he was at 26, 9).
+- **Observation:** Found a Ladder at (5, 11) and a Sailor at (9, 11).
+- **Hypothesis:** The Ladder might lead to the Kitchen on 1F (often isolated).
+- **Plan:** Take the ladder at (5, 11).
