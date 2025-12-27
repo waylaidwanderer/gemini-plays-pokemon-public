@@ -11,32 +11,33 @@
     - Warp C (19, 15) -> Room 3 (19, 9)
     - Warp D (15, 17) -> Room 5 (5, 15)
     - Warp E (15, 15) -> Room 2 (15, 15) [Self-Loop]
-- **Room 3 (Top Right):**
+- **Room 3 (Middle Right):**
     - Warp F (19, 9) [From C]
     - Warp G (15, 9) -> Room 4 (15, 3)
     - Warp H (19, 11) -> ?
     - Warp I (15, 11) -> ?
-- **Room 4 (Top Center):**
+- **Room 4 (Top Right):**
     - Warp J (15, 3) [From G]
     - Warp K (19, 3) -> Room 2 (15, 15) [Warp E]
     - Warp L (15, 5) -> ?
     - Warp M (19, 5) -> ?
-    - Unmarked Warps: (11, 3), (11, 5)
 - **Room 5 (Bottom Left):**
     - Warp N (5, 15) [From D]
     - Warp O (1, 15) -> ?
-    - Warp P (1, 17) -> ?
+    - Warp P (1, 17) -> Room 6 (11, 5)
     - Warp Q (5, 17) -> ?
+- **Room 6 (Top Center):**
+    - Warp R (11, 5) [From P]
+    - Warp S (9, 5) -> ?
+    - Warp T (11, 3) -> ?
+    - Warp U (9, 3) -> ?
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp P (1, 17).
-- **Status:** Defeated Psychic Franklin (disguised as Youngster).
+- **Immediate:** Test Warp S at (9, 5).
 - **Next Steps:**
-    1. Navigate to Warp P (1, 17).
-    2. Determine destination.
-    3. If P leads somewhere new, map it.
-    4. Otherwise, return and test Warp O and Warp Q.
+    1. Navigate to Warp S (9, 5).
+    2. Continue mapping warps until Sabrina is found (Middle Center Room).
 
 # Saffron City POIs
 - Gym (Here)
