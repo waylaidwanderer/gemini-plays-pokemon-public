@@ -73,9 +73,11 @@
 - Checked (5, 5) from (5, 6): No item.
 - Plan: Move to Floor at (5, 7) to search (5, 6) and (4, 6) from the south.
 - Moving Down to (5, 7), then facing Up to check (5, 6).
-- Checked (5, 6): No item (Surf prompt).
-- Moving to (4, 7) to check (4, 6).
+- Checked (5, 6) from (5, 7): No item.
+- Checked (4, 6) from (4, 7): No item (Surf prompt).
 - Plan:
-  1. Check (4, 6) from (4, 7) facing Up.
-  2. If empty, move to bridge at (4, 4) / (5, 4).
-  3. Check (4, 5) and (5, 5) from the bridge (facing Down).
+  1. Check (4, 8) from (4, 7) facing Down.
+  2. If empty, move to (5, 7) -> (5, 8).
+  3. Check (4, 8) (Right side) and (6, 8) from (5, 8).
+  4. Move to (5, 9), check (4, 9) and (6, 9).
+  5. Loop to top bridge (Row 4) via (7, 7) -> (7, 4) path to check (4, 5).
