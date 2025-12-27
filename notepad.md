@@ -1,11 +1,14 @@
 ## Suicune Quest Strategy (Crystal Version)
 - Status: All overworld sightings confirmed complete via "Tin Tower shook" dialogue (Turn 26214, 26920).
 - Current Objective: Defeat the Wise Trio to access Suicune in Tin Tower.
-- Wise Trio Locations (Tin Tower 1F - Map 3_4):
-  - Sage Gaku: (11, 11)
-  - Sage Masa: (14, 6)
-  - Sage Koji: (5, 9)
-- Strategy: Talk to all three Sages in Tin Tower 1F. If they don't battle, verify if another NPC trigger (Morty, Eusine, or Dance Theater) is required.
+- Triggering the Trio: Talk to all Sages in the Tin Tower Gatehouse hall (Map 4_1) to trigger their relocation to the Wise Trio Room (Map 4_2).
+- NPCs to consult in Gatehouse (Map 4_1):
+  - Sage (Passage Guard): (4, 6)
+  - Sage: (7, 8)
+  - Gramps: (3, 10)
+- Wise Trio Room (Map 4_2) Sages:
+  - Sage Gaku, Sage Masa, Sage Koji.
+- Strategy: Once the Trio spawns in 4_2, defeat them to gain access to the Tin Tower interior.
 
 ## Strategy for Wise Trio Battle
 - Pokémon: Noctowl (Lv32) and Kadabra (Lv32).
@@ -21,7 +24,7 @@
 - **WARP_CARPET**: Map transition tile.
 
 ## Key Discoveries & Lessons Learned
-- **Dialogue Triggers:** "The Tin Tower shook!" is the definitive narrative flag that all overworld sightings (Burned Tower, Cianwood, Route 42, Route 36) are complete and registered by the game engine.
+- **Dialogue Triggers:** "The Tin Tower shook!" is the definitive narrative flag that all overworld sightings (Burned Tower, Cianwood, Route 42, Route 36) are complete.
 - **Sequential Requirements:** Clear Bell + Sightings -> "Shook" dialogue -> Wise Trio Battle -> Suicune Encounter.
 - **NPC Solidity:** NPCs are solid objects; paths must detour around them.
 - **Map Transitions:** Leaving a map from specific coordinates triggers transitions (e.g., Ecruteak (18, 11) -> Tin Tower Gatehouse).
