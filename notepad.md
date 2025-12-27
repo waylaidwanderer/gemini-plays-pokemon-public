@@ -101,3 +101,6 @@
 - **Next Steps:** Return to Power Plant immediately.
 - Reached Route 9 entrance at (39, 22).
 - Proceeding East to Power Plant.
+- Entered Route 9.
+- Heading East towards the Power Plant (Route 10).
+- Taking the northern path to avoid the Cut Tree if possible.
