@@ -4,14 +4,14 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 36 (Sudowoodo Junction): Next Sighting.
-4. Route 42 (Central Island): Requires Route 36 sighting first.
+3. Route 42 (Central Island): Next Sighting.
+4. Route 36 (Sudowoodo Junction): Requires Route 42 sighting first.
 5. Tin Tower 1F: Static Encounter (Level 40). Triggered after overworld sightings.
 
 ## Strategy
-- Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
-- Route 36: Approach the junction from the south (Route 35 entrance).
+- Sequence: Route 42 -> Route 36 -> Tin Tower 1F.
 - Route 42: Stand on the platform at (26, 14).
+- Route 36: Approach the junction from the south (Route 35 entrance).
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
