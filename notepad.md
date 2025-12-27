@@ -24,14 +24,12 @@
 - WARP_CARPET_LEFT: Triggers map transition when walking OFF the map westwards.
 
 ## Strategy
-- Current: Resolve missing Suicune trigger for sighting #3 (Route 42).
-- Goal: Trigger Suicune sighting #3 and #4.
-- Verification: Tracker (Turn 26064) confirms overworld sightings are required despite having the Clear Bell.
+- Current: Resolve missing Suicune trigger for sighting #3 (Route 42) or #4 (Route 36).
 - Plan:
-  1. Surf to the central island on Route 42.
-  2. Explore the island (both north and south of the Cut tree) to trigger Suicune.
-  3. If triggered, proceed to Route 36.
-  4. If not triggered, revisit Ecruteak Sages.
+  1. Perform a final, exhaustive tile-by-tile sweep of the Route 42 island southern clearing.
+  2. If Suicune does not appear, Fly to Ecruteak and check Route 36 (Sudowoodo junction).
+  3. If still missing, check Tin Tower 1F again.
+  4. Document each location checked and the result.
 
 ## Time Tracking
 - Current Attempt Start: Turn 26101.
