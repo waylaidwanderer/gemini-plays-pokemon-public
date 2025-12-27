@@ -1,6 +1,7 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
 - Start: Turn 24182, Saturday 12:45 AM.
+- Current Attempt Duration: ~1450 turns (Turn 24182 to 25638).
 
 ## Story Progress
 - Clear Bell: Obtained.
@@ -21,7 +22,16 @@
 - Hypothesis 3: Sighting sequence is non-linear or differs in Crystal. [Action: Check Route 36].
 
 ## Strategy & Planning
-- Route 42 sighting: Confirm Suicune sprite visibility on the central island. (Status: Failed to find sprite after multiple sweeps).
+### Strategy for Route 42 Suicune Sighting
+1. Land at (33, 9). [Done]
+2. Walk to (21, 11) via y=10 path.
+3. Surf on (21, 12) and land at (22, 12).
+4. Walk to (24, 12).
+5. Face (24, 13) and use CUT on the tree.
+6. Walk to (26, 14) to trigger Suicune sighting.
+7. If Suicune is still not visible, re-verify all previous sightings and flags. [Turn #25637]
+
+### General Exploration
 - Route 36 sighting: Fly to Ecruteak, walk south to Route 36 junction via Route 37, and approach from the south (Route 35 entrance).
 
 ## Tile Mechanics
@@ -37,13 +47,4 @@
 - Notepad Management: Only one `notepad_edit` call is allowed per turn. [Turn 25561]
 - Suicune Sightings: Suicune is a static overworld sprite. If not visible at (26, 14), prerequisites are likely unmet. [Turn 25620]
 - Tool Refinement: `find_path_v4` created to handle complex traversals and player detection. [Turn 25624]
-- Traveling to Route 36 via Ecruteak City. [Turn 25627]
 - Note: find_path_v4 failed to transition from FLOOR (42, 9) to WATER (41, 9). Manual Surf required. [Turn 25633]
-## Strategy for Route 42 Suicune Sighting
-1. Land at (33, 9). [Done]
-2. Walk to (21, 11) via y=10 path.
-3. Surf on (21, 12) and land at (22, 12).
-4. Walk to (24, 12).
-5. Face (24, 13) and use CUT on the tree.
-6. Walk to (26, 14) to trigger Suicune sighting.
-7. If Suicune is still not visible, re-verify all previous sightings and flags. [Turn #25637]
