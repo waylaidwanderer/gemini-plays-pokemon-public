@@ -33,3 +33,6 @@
 - Current Task: Fly to Ecruteak, then head east to Route 42 island.
 - Route 42 Target: (26, 15).
 - Route 36 Target: (35, 9).
+- Turn 26815-26817: Walked clearing on Route 42 island. Suicune did not appear.
+- Hypothesis: Need to step on a specific trigger tile or approach from a different direction.
+- Action: Walking a serpentine path through the clearing.
