@@ -2,25 +2,26 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
-- Current Turn: 26416.
+- Current Turn: 26426.
 
 ## Current Strategy
 - Plan:
-  1. Head to Route 42 island (26, 15) to trigger the sighting (Eusine not in PC or Dance Theater).
-  2. If that fails, go to Route 36 junction (35, 9).
-  3. If both sightings fail, talk to the Sages in the Tin Tower Gatehouse again.
-  4. Fight the Wise Trio in the room north of the Tin Tower Gatehouse (Need to verify entrance).
-  5. Obtain 8th badge in Blackthorn City if Suicune hunt stalls.
+  1. Navigate to (24, 12) and use CUT on the tree at (24, 13).
+  2. Walk to (26, 15) to trigger the Suicune sighting on Route 42.
+  3. If no trigger, check the Burned Tower basement for Eusine.
+  4. If progress stalls, head to Route 36 junction (35, 9).
+  5. If all overworld sightings fail, attempt to enter Tin Tower.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event completed.
 - 3. Eusine Battle (Cianwood): COMPLETED (Marker at (11, 20)).
-- 4. Route 42 sighting: Attempting (Turn 26374).
+- 4. Route 42 sighting: Attempting (Turn 26426).
 - 5. Route 36 sighting: PENDING.
-- 6. Ecruteak PC (Eusine): PENDING (Missing at Turn 26333).
-- 7. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26233).
-- 8. Tin Tower Battle: LOCKED.
+- 6. Ecruteak PC (Eusine): MISSING (Checked Turn 26404).
+- 7. Dance Theater (Eusine): MISSING (Checked Turn 26415).
+- 8. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26233).
+- 9. Tin Tower Battle: LOCKED.
 
 ## Tile Mechanics
 - FLOOR: Traversable. Verified by walking.
@@ -35,7 +36,6 @@
 
 ## Lessons Learned
 - Suicune events are strictly linear.
-- Eusine moves to Ecruteak PC likely AFTER overworld sightings (Hypothesis).
-- Sages granting passage to Tin Tower doesn't mean sightings are complete.
-- Tile 'type' in XML is the source of truth for collision.
-- Verification is key: Marker at (11, 20) confirms Eusine's defeat despite agent confusion.
+- Eusine's location depends on quest progress.
+- Sages granting passage to Tin Tower indicates the "Clear Bell" event is active.
+- Verification is key: Marker at (11, 20) in Cianwood confirms Eusine's defeat.
