@@ -2,20 +2,14 @@
 - Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
 - Quest Start: Turn 24182.
 
-## Sighting Progress
-1. Burned Tower: Verified.
-2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [MISSING] Mandatory before Route 36. Checked clearing at Turn 26164 (Empty).
-4. Route 36 (Sudowoodo Junction): [MISSING] Mandatory after Route 42. Checked spot at Turn 26177 (Empty).
-5. Tin Tower 1F: Static encounter (Enabled after sighting #4).
-
-## Suicune Quest Hypotheses & Tests
-- Hypothesis 1: Eusine dialogue in Ecruteak PC is required.
-  - Test: Check Ecruteak PC.
-- Hypothesis 2: Wise Trio dialogue in Tin Tower Gatehouse is required.
-  - Test: Talk to all Sages again.
-- Hypothesis 3: Sighting #3 trigger is a specific tile on Route 42 island.
-  - Test: Tile-by-tile sweep of (21,10) to (31,17).
+## Suicune Quest Diagnostic Log
+1. Burned Tower: Flee event completed.
+2. Cianwood City (North): Flee event completed. Eusine defeated.
+3. Intermediate: Eusine dialogue in Ecruteak PC. [PENDING]
+4. Intermediate: Sage dialogue in Tin Tower Gatehouse. [PENDING - Sages mentioned 'tower shook' at Turn 26110]
+5. Route 42 (Central Island): Mandatory. Swept tiles (22,13) to (31,17) at Turn 26164. Result: Empty.
+6. Route 36 (Sudowoodo Junction): Mandatory. Swept tiles (34,8) to (37,10) at Turn 26177. Result: Empty.
+7. Tin Tower 1F: Static encounter. [LOCKED until #5 and #6]
 
 ## Time Tracking
 - Current Attempt Start: Turn 26101.
