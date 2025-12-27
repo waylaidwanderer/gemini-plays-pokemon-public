@@ -5,20 +5,19 @@
 ## Sighting Progress
 1. **Burned Tower:** Beasts fled. [Status: Verified]
 2. **Cianwood City (North):** [Status: Verified]
-3. **Route 42 (Central Island):** [Status: Failed - Turn 25101. Sprite not present.]
-   - *Hypothesis:* Requires specific trigger (likely Route 36 sighting first) or sequential order.
-4. **Route 36 (Sudowoodo Junction):** [Status: Pending]
-5. **Tin Tower 1F:** [Status: Testing - Turn 25174. Empty.]
+3. **Route 36 (Sudowoodo Junction):** [Status: Pending]
+4. **Route 42 (Central Island):** [Status: Pending - Re-check after Route 36]
+5. **Tin Tower 1F:** [Status: Triggered (Tower Shook), waiting for sightings]
 
-## Strategy: Sequential Triggering
-- If Tin Tower 1F is empty at (10, 9), pivot immediately to Route 36, then retry Route 42.
-- Completion of sightings is mandatory for the static encounter.
+## Strategy
+- Fly to Ecruteak, sell Thunderstone, buy balls.
+- Complete sightings in order: Route 36 -> Route 42.
+- Return to Tin Tower 1F for the battle.
 
-# Money & Item Management
-- **Current Funds:** ¥373
-- **Inventory for Sale:** THUNDERSTONE (Estimated ¥1050)
-- **Purchase Plan:** Great Balls (¥600 each) at Ecruteak Mart.
-- **Note:** Only 1 Ultra Ball and 23 Great Balls. Need more for a Level 40 legendary.
+# Money Management
+- Current: ¥373.
+- Assets: THUNDERSTONE (¥1050), HARD STONE, TMs.
+- Plan: Sell items at Ecruteak Mart to fund Great Ball stock (target 50+).
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable.
