@@ -19,4 +19,4 @@
     - Multiple paths. Currently on the right side (x=15 path).
     - Exiting North to Vermilion City.
     - Ladders at x=3 seem to be a separate path.
-- **Log:** Entering Vermilion City.
+- **Log:** Arrived in Vermilion City (12_3). Exploring.
