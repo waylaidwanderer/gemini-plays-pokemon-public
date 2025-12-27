@@ -1,12 +1,15 @@
 # Suicune Quest Strategy (Crystal Version)
 - **Status:** Possession of Clear Bell confirmed. Sightings on Route 42 and 36 complete.
 - **Narrative Flag:** Gatehouse Sage confirmed "The TIN TOWER shook! A POKéMON must have returned to the top!"
-- **Current Objective:** Trigger the Suicune encounter on Tin Tower 1F (Map 3_4).
-- **Hypothesis:** The Wise Trio are the Sages on Tin Tower 1F. I need to interact with them to trigger the battle or the Suicune appearance.
+- **Current Objective:** Trigger the Wise Trio battle in Map 4_2.
+- **Problem:** Wise Trio Room (4_2) is empty despite "shook" dialogue.
+- **Hypothesis:** One or more NPCs in the Gatehouse (4_1) must be spoken to in a specific sequence to trigger the Trio's appearance in 4_2.
 - **Plan:**
-  1. Return to Tin Tower 1F (3_4).
-  2. Interact with the three Sages (Gaku, Masa, Koji) on 1F.
-  3. Document their exact dialogue to identify the trigger.
+  1. Return to the Gatehouse (4_1).
+  2. Use `run_code` to identify all objects in 4_1.
+  3. Talk to every NPC in 4_1.
+  4. Check 4_2 for the Wise Trio.
+  5. If successful, defeat Gaku, Masa, and Koji.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Standard walkable tile.
