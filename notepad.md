@@ -1,9 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Execute Menu Sequence: Exit all menus (B x5), Start, Up, A (Pokemon), Down x4 (Select Belladonna), A, A (Cut).
-- **Observation:** Verified cursor persistence: exiting the menu leaves the cursor on the last selected Pokemon (Garnet/Slot 2). Therefore, from a fresh menu open, I need 4 Downs to reach Belladonna (Slot 6).
-- **Backup:** If this fails, the tree requires a specific event or badge (though I have Hive). Next step would be to investigate the house at (30, 23).
+- **Immediate Task:** Recovery and Cut: Exit Pokedex (B x5), Move Up x4 (to fix potential position slide), Face Right, Open Menu, Select Pokemon (Down, A), Select Belladonna (Down x4), Cut (A, A).
+- **Observation:** Game State places player at (32, 28) despite being in Pokedex. This implies a sync issue or movement occurred during menuing. Moving Up x4 corrects this (safe if already at 32, 24 due to ledge).
+- **Cursor Logic:** Main Menu cursor likely on Pokedex (last used). Party cursor likely on Garnet (Slot 2, last used).
 
 # Strategic Goals
 1. **Restore Power:**
