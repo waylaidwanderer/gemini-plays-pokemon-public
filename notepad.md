@@ -1,6 +1,11 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
-- Current Status: Clear Bell obtained, Tin Tower shook, Wise Trio Room emptied.
+
+## Story Progress
+- Clear Bell: Obtained.
+- Team Rocket: Disbanded at Radio Tower.
+- Tin Tower: Shook after obtaining Clear Bell.
+- Wise Trio Room: Emptied.
 
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
@@ -19,7 +24,7 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - COUNTER: Impassable; interact with NPC behind it.
-- WARP_CARPET_DOWN: Map transition (Exit).
+- WARP_CARPET_DOWN/LEFT/RIGHT: Map transition.
 - LADDER/STAIRS: Map transition.
 - PC: Impassable; interact for storage.
 - CUT_TREE: Impassable; remove with HM01 CUT.
