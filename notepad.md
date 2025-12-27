@@ -68,3 +68,4 @@
 - Searched Cerulean Gym back walkway. No Rocket Grunt found.
 - Conclusion: The Police Chief's hint is not enough. Must trigger the event at the Power Plant first.
 - Plan: Exit Gym, head to Route 9 (via 27, 12), and proceed to the Power Plant.
+    - Officer at (6, 12): "I just got word from CERULEAN." (Confirming the lead).
