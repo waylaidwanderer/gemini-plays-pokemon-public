@@ -26,13 +26,13 @@
 
 # Current Plan
 - **Goal:** Explore Saffron City.
-- **Status:** On Southern Street (Row 31).
-- **Action:** Navigate West to Column 3 (Westmost street), then head North.
+- **Status:** West side of Saffron (Column 3).
+- **Action:** Head East along Row 24/25 to reach the center of the city (Silph Co area).
 - **Next Steps:**
-    1. Head North on the Western street (Column 2/3).
-    2. Locate Saffron Gym and Silph Co (likely North/Central).
-    3. Locate Copycat's House (North-West?).
-    4. Check fighting Dojo.
+    1. Locate Saffron Gym and Silph Co (likely North/Central).
+    2. Locate Copycat's House (North-West?).
+    3. Check fighting Dojo.
+    4. Explore the rest of the city grid.
 
 # Saffron City Notes
 - **Arrival:** Entered from South (Route 6).
