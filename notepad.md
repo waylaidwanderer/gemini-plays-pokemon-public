@@ -1,7 +1,7 @@
 # Kanto Campaign Status
-- **Location:** Cerulean City (Coordinates: 28, 26).
-- **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Finish conversation with Fisherman, then head East.
+- **Location:** Cerulean Pokemon Center.
+- **Current Objective:** Retrieve Belladonna (Cut User) from PC.
+- **Immediate Task:** Access PC, deposit a Pokemon, withdraw Belladonna.
 
 # Strategic Goals
 1. **Restore Power:**
