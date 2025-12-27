@@ -1,14 +1,15 @@
 # Post-Game: Kanto Adventure
 - **Status:** Exploring Kanto.
 - **Location:** Vermilion City.
-- **Goal:** Find Vermilion Gym.
+- **Goal:** Explore Saffron City.
 
 # Achievements
 - **Johto League:** Champion.
 - **S.S. Aqua:** Granddaughter Rescue Complete (Reward: Metal Coat).
+- **Kanto Badges:** Thunder Badge (Vermilion).
 
 # Team Status
-- **Muscle (Machoke)**: Lv71.
+- **Muscle (Machoke)**: Lv72.
 - **Others:** Garnet (29), Gyarados (35), Kunai (24), Zenith (15), Mistral (15).
 
 # Pokedex
@@ -19,34 +20,10 @@
 - **Blockages:** Fence (North y=11), Snorlax (East 34, 8).
 - **Lore:** Magnet Train connects to Goldenrod. 8 Gyms in Kanto.
 - **Gym Status:**
-    - **Location:** Southwest, blocked by Cut tree (Surfed around).
-    - **Mechanic:** Trash can switches (usually).
-    - **Intel:** Gym Guide claims traps are **inactive**.
-    - **Progress:** Defeated Gentleman Gregory.
-    - **Current Task:** Defeat Rocker at (4, 7).
-    - **Hypothesis:** If traps are inactive, the path past the second row of trash cans (y=7) should be open or the cans inactive.
-- **Log:** Defeated Rocker Vincent.
-- **Plan:** Navigate through the gap in the trash cans at (6, 7) to reach Lt. Surge.
-- **Log:** Initiating battle with Lt. Surge.
-- **Strategy:** Use Muscle (Lv71). Strength for most, Cross Chop for Magneton (Steel type).
-- **Log:** Defeated Raichu. Declining switch against Electabuzz.
-- **Log:** Defeated first Electrode. Declining switch against second Electrode.
-- **Battle Log:** Electrode is spamming Double Team. Evasion is high. Muscle missing attacks. Persisting with Strength.
-- **Battle Update:** Electrode's evasion is high (Double Team x3+). Muscle missing attacks. Swift chipping damage.
-- **Strategy:** Persist with Strength. Muscle has HP to spare. Expecting a hit eventually.
-- **Battle Update:** Strength is out of PP (0/15).
-- **Strategy:** Switching to Cross Chop (Fighting, High Crit, STAB) despite low accuracy. If that fails, will use Ice Punch.
-- **Log:** Defeated second Electrode with Cross Chop.
-- **Plan:** Decline switch. Use Cross Chop on Magneton (Super Effective).
-- **Correction:** Tool error caused Ice Punch usage (Resisted).
-- **Strategy:** Manually selecting Cross Chop (Slot 4) to ensure correct move usage against Magneton. Cursor is currently on Slot 3 (Ice Punch).
-- **Correction:** Manually moving cursor Down from Ice Punch to Cross Chop to hit Magneton.
-- **Correction Success:** Cursor moved to Cross Chop.
-- **Action:** Pressing A to execute Cross Chop.
-- **Log:** Defeated Lt. Surge! Earned Thunder Badge. Muscle grew to Lv72.
-- **Plan:** Talk to Surge to get TM (Thunderbolt expected).
-- **Next:** Heal at Center, then check Snorlax or head North to Saffron.
-- **Observation:** Talked to Surge after battle. He gave Thunder Badge but no TM yet.
-- **Plan:** Talk to him again to check for TM. Then exit and heal.
-- **Observation:** Talked to Surge again. He still didn't give a TM.
-- **Plan:** Exit Gym, heal, and head North to Saffron City (since Snorlax likely blocks East).
+    - **Progress:** Cleared. Defeated Lt. Surge.
+    - **Note:** Surge did not give a TM after the battle.
+    - **Mechanic:** Trash can switches were inactive.
+
+# Current Plan
+- **Immediate:** Exit Gym and Heal at Pokemon Center.
+- **Next:** Head North to Saffron City (since Snorlax blocks East).
