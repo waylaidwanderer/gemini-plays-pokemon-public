@@ -1,11 +1,10 @@
 # Strategy for Suicune Encounter (Crystal)
 1. Prerequisites: Clear Bell and Fog Badge (Obtained).
-2. Sightings Required:
+2. Trigger Sequence (Verified by objective_analyst):
    - Burned Tower (Ecruteak): Beasts flee. [Done]
    - Cianwood City (North): Suicune observed. [Done]
-   - Route 42 (Central Island): Middle Apricorn grove. [Checked at Turn 24513 - Nothing found]
-   - Route 36 (Sudowoodo junction): [Pending]
-3. Final Trigger: Return to Tin Tower 1F. Suicune will appear in the center.
+   - Tin Tower 1F: Speak to the three Sages while holding the Clear Bell. [Pending]
+3. Final Trigger: Suicune will appear in the center of Tin Tower 1F.
 4. Battle: STATIC encounter. Does NOT roam/run. Roar ends battle (reload if used).
 
 # Battle Strategy for Suicune
@@ -17,11 +16,11 @@
   2. Weaken carefully with other party members if needed.
   3. Throw Great/Ultra Balls while it is asleep.
 
-# Strategy for Triggering Suicune (Route 42 & 36)
-1. Fly to Ecruteak City to reach the main area.
-2. Route 42: Surf to central island (24, 13). Approach Apricorn trees to trigger sighting.
-3. Route 36: Navigate to Sudowoodo junction. Trigger sighting.
-4. Return to Tin Tower 1F for the battle.
+# Strategy for Triggering Suicune
+1. Fly to Ecruteak City.
+2. Enter Tin Tower via the Wise Trio Room.
+3. Speak to each of the three Sages on 1F.
+4. Battle Suicune.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
