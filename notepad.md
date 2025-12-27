@@ -22,4 +22,4 @@
     - Snorlax blocking path at (34, 8).
     - Vermilion Port Passage leads south.
 - **Log:** Moving West to (12, 6) to investigate the western building and look for the Gym.
-- **Log:** Found real Pokemon Center at (9, 5). Entering to heal.
+- **Log:** Inside Vermilion Pokemon Center (12_5). Healing team.
