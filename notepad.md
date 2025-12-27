@@ -25,3 +25,5 @@
     - **Progress:** Defeated Gentleman Gregory.
     - **Current Task:** Defeat Rocker at (4, 7).
     - **Hypothesis:** If traps are inactive, the path past the second row of trash cans (y=7) should be open or the cans inactive.
+- **Log:** Defeated Rocker Vincent.
+- **Plan:** Navigate through the gap in the trash cans at (6, 7) to reach Lt. Surge.
