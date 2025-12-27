@@ -21,23 +21,13 @@
 - **Red:** Ultimate goal.
 - **Tile Mechanics:** LADDER tiles on Olivine Port map are walkable pier structures.
 
-# Logs
-- **Started S.S. Aqua:** Turn 20464.
-- **Quest Update:** A Gentleman bumped into me and asked to find his missing granddaughter.
-- **Battle Log:** Defeated Firebreather Lyle (Fisher sprite) at (1, 15).
-- **Log:** Lower Deck is divided. Northern part blocked by wall at Row 12. Need to find another entrance (likely other stairs on 1F).
-- **Log:** Cabin at (19, 8) was empty.
-- **Log:** Cabin at (15, 8) is empty (Player Cabin?).
-- **Log:** (11, 8) is not a cabin, it's a hallway junction. Exploring West Hallway.
-- **Log:** Heading to Lower Deck via stairs at (15, 15).
-- **Log:** Arrived at S.S. Aqua Lower Deck (Map 15_5) via stairs at (15, 15).
-- **Log:** The Lower Deck (Map 15_5) consists of separate, non-connected rooms.
-- **Log:** Room South (current) is a dead end with one trainer. Returning to 1F.
-- **Hypothesis:** The "Northern Part" of Map 15_5 (with Bed/PC) is accessible via a different staircase on 1F. Need to find it.
-- **Log:** Stairs at 1F (19, 15) lead to an empty cabin (Map 15_5, South Room).
-- **Plan:** Explore the West side of 1F to find the stairs to the Northern Room (Captain's quarters?).
-- **Log:** Returned to 1F. Now checking stairs at (19, 15).
-- **Log:** Middle Room (15_5, Rows 25-31) is empty. Returning to 1F.
-- **Plan:** Search the far West side of 1F for the third set of stairs (likely to the Northern Room).
-- **Log:** Entered Lower Deck East (Map 15_6). Contains separate cabins.
-- **Log:** Current room has Twins and a Pokefan. Checking for the girl.
+# Exploration Status: S.S. Aqua
+- **Quest:** Find Gentleman's Granddaughter.
+- **1F:**
+  - Cabins at (19,8) and (15,8) are empty.
+  - Stairs at (15,15) -> Lower Deck South (Dead end, Firebreather Lyle defeated).
+  - Stairs at (19,15) -> Lower Deck Middle (Empty).
+  - Stairs at (23,15) -> Lower Deck East (Current).
+- **Lower Deck East:**
+  - Contains Pokefan Colin (Defeated).
+  - Contains Twins (To do).
