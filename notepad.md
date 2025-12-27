@@ -46,10 +46,13 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Defeated Hiker Tim. Proceeding East on Row 3.
+  - **Status:** On Upper Tier (Row 3), heading East.
+  - **Observation:** Dead end at x=38. Ledges at (36, 5) and (37, 5) allow access to Row 6.
+  - **New Intel:** Lass detected at (39, 8).
   - **Plan:**
-    1. Go East on Row 3 past x=30.
-    2. Scout for ledges or turns South leading to the Power Plant.
+    1. Go East to (37, 3).
+    2. Go South and hop ledge at (37, 5) to reach Row 6.
+    3. Head towards the Lass at (39, 8) and continue East.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
