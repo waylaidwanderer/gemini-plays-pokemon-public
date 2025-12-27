@@ -27,6 +27,7 @@
 - TALL_GRASS / LONG_GRASS: Walkable, triggers wild encounters. Verified.
 - HEADBUTT_TREE: Impassable. Verified.
 - CAVE: Entrance/Exit warp. Verified.
+- VOID: Impassable. Verified.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
