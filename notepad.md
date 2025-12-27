@@ -6,11 +6,12 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Gather info and head to Cerulean.
-- **Status:** Route 5 Gate (Saffron Side).
+- **Status:** Route 5. Heading North to Cerulean.
+- **Info:** Magnet Train disabled. Power Plant issue confirmed.
 - **Next Steps:**
-    1. Exit North to Route 5.
-    2. Reach Cerulean City.
-    3. Investigate Power Plant.
+    1. Head North to Cerulean City.
+    2. Investigate Power Plant.
+    3. Wake Snorlax (requires Radio expansion?).
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
