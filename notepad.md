@@ -3,7 +3,7 @@
 2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
 3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> My analyst suggests the next major trigger is in the Tin Tower 1F. I will attempt to trigger the battle there.
 4. Route 36 (Sudowoodo junction): [Pending]
-5. Tin Tower 1F (Final Battle): Requires all previous sightings. I have the Clear Bell and Fog Badge.
+5. Tin Tower 1F (Final Battle): Requires all previous sightings. I have the Clear Bell and Fog Badge. [Checked on Turn 24410 - Suicune not present]
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
