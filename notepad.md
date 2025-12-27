@@ -48,4 +48,5 @@
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
   - **Issue:** Entered via Lower path (gap at 7_17 (36,22)). Stuck below ledges.
   - **Solution:** Return to Cerulean City and find a Northern entrance to access the Upper path.
-  - **Timestamp:** Turn 21450 - Beginning backtracking to Cerulean.
+  - **Status:** The "Cut Tree" at (33, 24) is UNCUTTABLE (confirmed). Must loop back West and North.
+  - **Timestamp:** Turn 21458 - Backtracking to find Northern path (target approx 33, 12).
