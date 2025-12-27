@@ -49,7 +49,5 @@
 - Tool Refinement: `find_path_v4` created to handle complex traversals and player detection. [Turn 25624]
 - Note: find_path_v4 refined to handle floor-to-water transitions. [Turn 25643]
 - Hypothesis: Route 42 sighting might be skipped or already triggered. Moving to Route 36. [Turn 25654]
-- Entered Route 37 from Ecruteak City. [Turn 25663]
 - Route 36 (Sudowoodo Junction): Failed (Turn 25667, Sprite not visible).
-- Current Hypothesis: Missing interaction with Eusine in Ecruteak or a flag in Cianwood.
-- Plan: Fly to Ecruteak, check Pokemon Center for Eusine. [Turn 25668]
+- Current Hypothesis: Eusine or Wise Trio at Tin Tower Gatehouse hold the next trigger. [Turn 25681]
