@@ -135,3 +135,6 @@
 - Inspecting (42, 15).
 - Opening Party Menu to attempt CUT on (42, 15) with Belladonna.
 - Backup: Use FLY with Mistral if CUT is unavailable.
+- Phone call from Wade interrupted Cut attempt.
+- Clearing dialogue.
+- Will retry Cut on (42, 15) immediately after.
