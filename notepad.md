@@ -29,3 +29,5 @@
 - **Plan:** Explore the cabin at x=20 (if it exists) or the area at the far left.
 - **Observation:** A wall at x=17-18 blocks the B1F corridor at y=9.
 - **Plan:** Backtrack to x=24, go North to the top corridor (y=5), then head West to reach the far left area.
+- **Observation:** Found a Lass at (6, 4).
+- **Plan:** Interact with the Lass to see if she is the granddaughter or has info. Then continue West to the Kitchen/Engine Room.
