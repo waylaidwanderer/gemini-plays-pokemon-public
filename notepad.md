@@ -150,3 +150,6 @@
 - Cleared final dialogue from Wade.
 - Pressed A on (42, 15) to attempt Cut.
 - Anticipating "This tree can be CUT!" message.
+- Pressing A on (42, 15) failed to trigger Cut.
+- Attempting one last check via Party Menu -> Cut.
+- If this fails, I am confirmed trapped and will Fly to Cerulean.
