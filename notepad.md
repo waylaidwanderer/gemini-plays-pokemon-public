@@ -9,9 +9,11 @@
   5. Tin Tower 1F: Talk to all three Sages. [Failed - Turn 24814. Prerequisites missing]
 
 # Immediate Plan
-- Navigate to Route 42 via Ecruteak East Gate.
-- Search Central Island (27-29, 16) for Suicune.
-- If not found, re-verify Cianwood sighting or check other Route 42 tiles.
+- Navigate to Route 42 Central Island.
+- Search Central Island (27-29, 16) and surrounding tiles for Suicune.
+- If Suicune is not found on the central island:
+    - Walk every single tile on the island to find the trigger.
+    - If still missing, return to Cianwood City (North) to re-verify sighting.
 - Battle and capture Suicune.
 
 # Battle Strategy: Suicune
