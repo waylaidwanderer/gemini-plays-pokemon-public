@@ -6,17 +6,18 @@
   2. Cianwood City (North): Sighting. [Verified]
   3. Route 42 (Central Island): Sighting check. [In Progress]
      - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Failed - Entered Turn 25051, searched island floor Turn 25056-25065. No sighting.]
-  4. Route 36 (Sudowoodo junction): Sighting check. [Next Step]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Failed - Searched junction Turn 25074. No sighting.]
   5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
 # Failed Hypotheses & Troubleshooting
 - **Hypothesis 1 (Eusine in Ecruteak PKMN Center):** Searched both floors Turn 25036-25043. Eusine is not present.
 - **Hypothesis 2 (Re-enter Route 42 West):** Entered from Ecruteak side, searched entire island floor. No Suicune sighting triggered.
+- **Hypothesis 3 (Check Route 36):** Searched junction Turn 25074. No Suicune sighting triggered.
 - **Suicune on Route 42 Island (Direct arrival):** Searched all floor tiles (Turn 25009). Suicune was not present. 
 
-# Strategy: Route 36 Check
-- If Route 42 sighting is not triggering, check if Suicune has already moved to Route 36. This would imply the Route 42 sighting was either completed previously or skipped by the game engine.
-- Destination: Route 36 Sudowoodo junction (West of Violet City).
+# Strategy: Mahogany Approach
+- Hypothesis 4: Enter Route 42 from Mahogany Town (East side). Some triggers in Johto are sensitive to the direction of map entry.
+- Destination: Mahogany Town. Then walk West to Route 42.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
