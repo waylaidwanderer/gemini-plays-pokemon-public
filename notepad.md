@@ -2,10 +2,10 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Navigate East to x=13 to circle around the Badge Speech House and reach the Youngster at (6, 12).
-- **Observation:** Walls at x=5 block the West path. The only option is to circle East.
-- **Strategy:** Move to (13, 16), then head North to finding the backyard entrance.
-- **Correction:** Previous hypothesis of going West was incorrect due to wall blocking.
+- **Immediate Task:** Navigate East along Row 16 to find a gap in the walls (Row 14-15) to head North to Route 24.
+- **Observation:** A continuous wall (Row 14-15) blocks North movement from x=5 to at least x=17.
+- **Strategy:** Explore further East (x>17) to find the opening to the Northern area (Route 24).
+- **Correction:** The Youngster at (6, 12) is likely accessible from the North side, not directly from here.
 
 # Strategic Goals
 1. **Restore Power:**
