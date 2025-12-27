@@ -75,3 +75,7 @@
 - Moving Down to (5, 7), then facing Up to check (5, 6).
 - Checked (5, 6): No item (Surf prompt).
 - Moving to (4, 7) to check (4, 6).
+- Plan:
+  1. Check (4, 6) from (4, 7) facing Up.
+  2. If empty, move to bridge at (4, 4) / (5, 4).
+  3. Check (4, 5) and (5, 5) from the bridge (facing Down).
