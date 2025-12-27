@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Exit Pokegear (B), Face Right, Cut the tree (A), then move East/North to the gap at (36, 22) to enter Route 9.
-- **Observation:** Previous attempt to Cut failed because the player was facing Up (not at the tree) and/or was stuck in the Pokegear menu. Retrying with explicit B presses to exit menu and facing Right.
+- **Immediate Task:** Cut the tree at (33, 24) using the Start Menu (Pokemon -> Belladonna -> Cut) since the interaction button failed.
+- **Observation:** Pressing 'A' on the tree produced no text box. This is unexpected. Using the menu is a failsafe method to verify Cut eligibility and execute it.
 
 # Strategic Goals
 1. **Restore Power:**
