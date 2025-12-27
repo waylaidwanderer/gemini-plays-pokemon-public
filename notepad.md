@@ -58,3 +58,5 @@
 - **Log:** Navigating East to column 31 to bypass the B1F Ladder at (30, 14).
 - **Plan:** Check cabins at (27, 8) and (23, 8) for the "lazy buddy".
 - **Insight:** The central block (rows 12-14) forces movement to the far East or West corridors.
+- **Log:** Accidentally warped back to B1F. Climbing back to 1F.
+- **Plan:** On 1F, verify if x=31 is walkable to bypass the ladder at (30, 14).
