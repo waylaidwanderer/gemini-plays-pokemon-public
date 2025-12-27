@@ -52,3 +52,16 @@
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
 - Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
+
+# Route 36 Observations (Restored)
+- Fisher at (44, 9) blocks direct path to the junction.
+- Path around: (45, 9) -> (45, 8) -> (35, 8) -> (35, 9).
+- Searching for Suicune at the Sudowoodo junction (35, 9).
+
+# NPC Registry (Restored)
+- Route 36: Lass (50, 8), Fisher (44, 9).
+- Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
+
+# Lesson: Tree Cutting
+- To use CUT, face the tree and press A. When prompted "Want to use CUT?", press A again (default is YES). Do NOT press Down, as that selects NO.
+- Verified: CUT tree at (24, 13) on Route 42 cleared successfully Turn 24899.
