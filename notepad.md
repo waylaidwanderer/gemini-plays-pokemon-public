@@ -107,3 +107,5 @@
 - Route Analysis: Cut tree forced me to Lower Path (Y>8).
 - Path forward likely involves going South to Y=16/17 and heading East.
 - Testing path to (42, 17).
+- Jumped ledge at (28, 13) to access southern path.
+- Heading East towards the river at x=56.
