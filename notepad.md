@@ -38,3 +38,5 @@
 - **Strategy:** Switching to Cross Chop (Fighting, High Crit, STAB) despite low accuracy. If that fails, will use Ice Punch.
 - **Log:** Defeated second Electrode with Cross Chop.
 - **Plan:** Decline switch. Use Cross Chop on Magneton (Super Effective).
+- **Correction:** Tool error caused Ice Punch usage (Resisted).
+- **Strategy:** Manually selecting Cross Chop (Slot 4) to ensure correct move usage against Magneton. Cursor is currently on Slot 3 (Ice Punch).
