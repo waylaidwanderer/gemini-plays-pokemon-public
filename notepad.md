@@ -22,3 +22,4 @@
 - **Log:** Arrived in Vermilion City (12_3). Exploring.
 - **Log:** Entered Vermilion City via the East path (x=28).
 - **Plan:** Explore the city center. Locate Gym and Pokemon Center.
+- **Observation:** Spotted a Sleeping Snorlax at (34, 8) blocking the path.
