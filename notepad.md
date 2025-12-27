@@ -39,7 +39,9 @@
 
 # Active Plans
 - **Escape to Cerulean:**
-  - **Status:** Resetting menu navigation to Fly.
-  - **Plan:** Overworld -> Start -> Pokemon -> Mistral -> Fly -> Cerulean.
+  - **Status:** Fly Map Open. Cursor on Saffron City.
+  - **Action:** Pressing 'Up' to select Cerulean City (North of Saffron).
+  - **Execution:** Up -> A (Fly).
+  - **Next:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
