@@ -27,3 +27,5 @@
 - **Log:** Path North is blocked by fences/buildings at y=11.
 - **Plan:** Go around the Mart to the West (x<20) to find a path North to the Pokemon Center.
 - **Log:** Navigating North via the path at x=19 to bypass the Mart.
+- **Log:** Encountered another Teacher at (19, 8).
+- **Plan:** Talk to her, then check the building to the North/West.
