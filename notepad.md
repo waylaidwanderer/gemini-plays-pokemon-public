@@ -20,31 +20,6 @@
 # Pokedex
 - Seen: 168, Owned: 30.
 - **Log:** Defeated Juggler Fritz (Super Nerd) at (26, 9). He is blocking the room at x=26.
-- **Plan:** Explore the unblocked cabins at x=24 and x=22. The granddaughter might be there.
-- **Log:** Explored cabin at x=24. It is empty (just beds).
-- **Plan:** Explore the cabin at x=22.
-- **Log:** Cabin at x=22 is blocked from the top (beds).
-- **Plan:** Go around via x=24 and enter x=22 from the bottom (y=9).
-- **Log:** Explored cabin at x=22. It is empty.
-- **Plan:** Explore the cabin at x=20 (if it exists) or the area at the far left.
-- **Observation:** A wall at x=17-18 blocks the B1F corridor at y=9.
-- **Plan:** Backtrack to x=24, go North to the top corridor (y=5), then head West to reach the far left area.
-- **Observation:** Found a Lass at (6, 4).
-- **Plan:** Interact with the Lass to see if she is the granddaughter or has info. Then continue West to the Kitchen/Engine Room.
-- **Battle:** Picnicker Debra sent out Seaking (Lv 33).
-- **Log:** Defeated Picnicker Debra (Lass at 6, 4).
-- **Plan:** Talk to Debra again to check for new dialogue. If none, continue West to the Kitchen/Engine Room.
-- **Log:** Picnicker Debra (Lass) is likely just a trainer. Her dialogue is generic about Kanto cities.
-- **Plan:** Explore the far West end of the current room (x=0 to 4).
-- **Hypothesis:** The granddaughter might be in the Kitchen (usually West on ships) or I missed something.
-- **Reminder:** Check if Juggler Fritz moved after the battle (he was at 26, 9).
-- **Observation:** Found a Ladder at (5, 11) and a Sailor at (9, 11).
-- **Hypothesis:** The Ladder might lead to the Kitchen on 1F (often isolated).
-- **Plan:** Take the ladder at (5, 11).
-- **Log:** Arrived at FastShip1F (West Area) via ladder at (6, 12).
-- **Observation:** This area is isolated from the main deck.
-- **Plan:** Explore this isolated area. Check the staircase at (3, 13) and unseen tiles to the left.
-- **Log:** Arrived at South end of Cabin Corridor (15_6) via 1F West stairs.
-- **Observation:** This map contains the Gentleman (y=17). I have looped back to the "East" map, but from the South.
-- **Hypothesis:** The Captain's Cabin is at the North end (y=0) and I missed it or the granddaughter is there.
-- **Plan:** Head North to the Captain's Cabin.
+- **Log:** Arrived at Captain's Cabin corridor. Found Captain and a little girl (Twin) at (2, 25).
+- **Hypothesis:** The "Twin" is the granddaughter bugging the Captain.
+- **Plan:** Interact with the Twin and the Captain.
