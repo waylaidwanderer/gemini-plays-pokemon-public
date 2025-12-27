@@ -1,15 +1,15 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
-- Quest Start: Turn 24182.
+- Quest Start: Turn 24182. Timestamp: Saturday, Dec 27, 2025.
 - Wise Trio Objective Start: Turn 26612.
 - Sage Passage Guard (4, 6): Permitted passage.
 - Wise Trio Room (4_2): Empty at Turn 26628.
 
 ## Current Strategy
 - Plan:
-  1. Navigate to Route 36 junction at (35, 9) to trigger Suicune sighting.
-  2. If Route 36 fails, return to Route 42 and sweep the island clearing (24, 14) to (30, 17) tile-by-tile.
-  3. Re-verify Eusine's location (Check PC and Dance Theater).
+  1. Navigate to Route 42 clearing at (26, 15) to trigger Suicune sighting.
+  2. Navigate to Route 36 junction at (35, 9) to trigger Suicune sighting.
+  3. If Route 36 fails, sweep the island clearing on Route 42 (24, 14) to (30, 17) tile-by-tile.
   4. Return to Wise Trio Room.
 
 ## Strategy for Wise Trio Battle
@@ -21,9 +21,12 @@
 - FLOOR / GATEHOUSE_FLOOR: Traversable.
 - WALL / VOID / HEADBUTT_TREE: Impassable.
 - WATER: SURF required.
-- CUT_TREE: CUT required.
+- CUT_TREE: CUT required. Regrows after leaving map. Standing adjacent and pressing A triggers menu.
 - TALL_GRASS: Encounters.
 - COUNTER: Interaction tile for NPCs.
+- WARP_CARPET: Warp point.
+- CAVE: Warp point.
+- FLOOR_UP_WALL: Impassable (ledge/elevation change).
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
@@ -31,18 +34,13 @@
 - 3. Eusine Battle (Cianwood): Defeated.
 - 4. Route 42 sighting: REQUIRED. Trigger tile: (26, 15).
 - 5. Route 36 sighting: PENDING (requires Route 42 event first). Trigger tile: (35, 9).
-- 6. Tin Tower Shook: Dialogue confirmed at Turn 26214. (Note: May trigger before sightings are done).
+- 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 7. Wise Trio Room: Empty at Turn 26628.
-## Tile Mechanics - Global
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: SURF required.
-- CUT_TREE: CUT required. Regrows after leaving map. Standing adjacent to tree and pressing A triggers menu.
-- HEADBUTT_TREE: Impassable. Can be headbutted.
-- TALL_GRASS: Traversable. Triggers wild encounters.
-- WARP_CARPET_LEFT: Warp point.
-- CAVE: Warp point.
-- FLOOR_UP_WALL: Impassable (ledge/elevation change).
+
+## General Lessons Learned
+- **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately. Do not persist with failing logic.
+- **CUT_TREE Interaction:** 'find_path_v5' with 'can_cut=True' is unreliable for the actual interaction. Use 'interact_with_tile_v1' or manual positioning for cutting trees.
+- **Root Hypothesis Verification:** Before pursuing complex quest sequences, verify the exact trigger requirements with 'suicune_tracker_v2' to avoid wasted effort.
 
 ## Quest Progress Tracking
 - Suicune Quest: Started Turn 24182. Ongoing.
