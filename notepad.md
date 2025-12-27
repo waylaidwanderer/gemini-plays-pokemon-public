@@ -4,13 +4,14 @@
 - **Progress:**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
-  3. Route 42 (Central Island): Sighting check. [Sprite missing - Turn 24768]
-  4. Route 36 (Sudowoodo junction): Sighting check. [Sprite missing - Turn 24733]
-  5. Tin Tower 1F: Talk to all three Sages with Clear Bell & Fog Badge. [In Progress]
+  3. Route 42 (Central Island): Sighting check. [Sprite missing - Turn 24768. MUST FIND]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Sprite missing - Turn 24733. MUST FIND]
+  5. Tin Tower 1F: Talk to all three Sages. [Failed - Turn 24814. Prerequisites missing]
 
 # Immediate Plan
-- Talk to all three Sages on Tin Tower 1F to trigger Suicune.
-- If Suicune doesn't appear, re-verify overworld sightings on Route 42 and Route 36.
+- Navigate to Route 42 via Ecruteak East Gate.
+- Search Central Island (27-29, 16) for Suicune.
+- If not found, re-verify Cianwood sighting or check other Route 42 tiles.
 - Battle and capture Suicune.
 
 # Battle Strategy: Suicune
@@ -37,6 +38,5 @@
 - Route 42: Fisher Tully, Hiker Benjamin, Pokemaniac Shane defeated.
 
 # General Lessons
-- **Suicune Trigger:** Suicune is an overworld sprite. If missing from the map objects list on routes, check the final trigger at Tin Tower.
+- **Suicune Trigger:** Overworld sightings on Route 42 and Route 36 are MANDATORY prerequisites for the Tin Tower battle in Crystal.
 - **Fly Map:** "Up" scrolls cities (New Bark -> Violet -> Ecruteak).
-- **Analyst Advice:** Trigger Suicune at Tin Tower 1F by talking to all three Sages while holding the Clear Bell and Fog Badge.
