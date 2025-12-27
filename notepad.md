@@ -45,3 +45,5 @@
   - FLOOR: Verified traversable Turn 25141.
   - WALL: Verified impassable Turn 25141.
   - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
+- *Strategy (Suicune Encounter):* [Turn 25150] Heading to Tin Tower 1F via Ecruteak City (20, 2). Plan to lead with GNEISS (Lv44) for durability or KIMCHI (Lv21) for Sleep Powder.
+- *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
