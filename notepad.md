@@ -1,9 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Navigate North to (13, 20) to investigate the "Unknown Door" at (13, 19).
-- **Strategy:** If the door is passable or leads somewhere, it might be the way forward. If not, will continue exploring West/North for a path to Route 24.
-- **Hypothesis:** The "Unknown Door" might be a house or passage that allows bypassing obstacles.
+- **Immediate Task:** Talk to the Granny at (2, 4) and investigate the back of the house (Row 2) for a potential back exit or "Gramps".
+- **Observation:** Entered the "Unknown House". It contains a Granny and a Zubat. There appears to be more room to the north (Rows 0-3).
+- **Hypothesis:** This house might connect to another area or contain a useful trade/info.
 
 # Strategic Goals
 1. **Restore Power:**
