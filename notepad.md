@@ -33,3 +33,4 @@
 # Lessons Learned
 - **Inventory Check:** Always verify Inventory for Key Items before assuming they are missing. Do not rely solely on memory or previous notepad entries.
 - **Ledge Mechanics:** Confirmed that pressing 'Down' at a ledge tile moves the player 2 tiles (hopping the ledge) but only consumes 1 movement input.
+- **Route 8 Obstacle:** Three Bikers blocking the path at x=10 (Rows 8, 9, 10). Must defeat them to progress.
