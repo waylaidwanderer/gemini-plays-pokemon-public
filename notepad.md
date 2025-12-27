@@ -41,3 +41,6 @@
 - **Observation:** Found a Ladder at (5, 11) and a Sailor at (9, 11).
 - **Hypothesis:** The Ladder might lead to the Kitchen on 1F (often isolated).
 - **Plan:** Take the ladder at (5, 11).
+- **Log:** Arrived at FastShip1F (West Area) via ladder at (6, 12).
+- **Observation:** This area is isolated from the main deck.
+- **Plan:** Explore this isolated area. Check the staircase at (3, 13) and unseen tiles to the left.
