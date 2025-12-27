@@ -49,3 +49,15 @@
 - Turn 24512: Started Suicune hunt.
 - Turn 24541: Verified prerequisites with objective_analyst. Sightings on Route 42/36 are NOT strictly required if the player has the Clear Bell and Fog Badge; speaking to the Sages in Tin Tower 1F is the trigger.
 - Turn 24548: Flying to Ecruteak City to trigger Suicune at Tin Tower 1F.
+
+# General Lessons
+- Suicune Trigger (Crystal): The objective analyst indicates that holding the Clear Bell and Fog Badge and speaking to the three Sages in Tin Tower 1F is the primary trigger. Sightings on Route 42/36 may be optional or skipped if this condition is met. [Verification Pending]
+- Tool Error: Custom tools receive `input_data` directly. Do not use `sys.stdin.read()` for inputs.
+
+# 50-Turn Reflection (Turn 24549)
+1. Deferred Tasks: Fixed broken FLY map tool logic.
+2. Notepad: Suicune strategy updated. Added General Lessons.
+3. Map: Ecruteak markers verified.
+4. Automation: Deleting unused sweep tool, refining FLY tool.
+5. Goals: Pivoted to Tin Tower strategy based on analyst advice.
+6. Error Analysis: Corrected assumption about sighting order. Testing Sage trigger now.
