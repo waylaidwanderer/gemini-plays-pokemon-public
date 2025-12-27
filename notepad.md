@@ -133,3 +133,5 @@
 - Failed to jump ledge at (41, 16) due to tile collision (FLOOR_UP_WALL).
 - Suspect (42, 15) is a Cut Tree blocking the path to the gap at (42, 16).
 - Inspecting (42, 15).
+- Opening Party Menu to attempt CUT on (42, 15) with Belladonna.
+- Backup: Use FLY with Mistral if CUT is unavailable.
