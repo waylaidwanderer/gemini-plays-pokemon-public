@@ -6,11 +6,11 @@
 - **Wake Snorlax (Recovery Mission):**
   - *Started: Turn 22219*
   - **CRITICAL ISSUE:** Missing base Radio Card! Cannot use EXPN Card without it.
-  - **Status:** At Indigo Plateau. Fly to Goldenrod City.
-  1. Fly to Goldenrod City.
-  2. Go to Radio Tower and complete the Quiz to get the Radio Card.
-  3. Fly back to Vermilion City.
-  4. Wake Snorlax.
+  - **Status:** At Indigo Plateau. Transit to Johto.
+  1. Buy Max Repels at Indigo Plateau.
+  2. Walk through Victory Road/Route 27 to New Bark Town.
+  3. Fly to Goldenrod City.
+  4. Get Radio Card -> Fly Vermilion -> Wake Snorlax.
 
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone).
 
