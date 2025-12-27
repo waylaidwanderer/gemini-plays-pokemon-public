@@ -22,21 +22,22 @@
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
 ## Strategy & Planning
-- Route 42 sighting: [Current Target - Started Turn 25547] Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform.
+- Route 42 sighting: [Current Target - Started Turn 25547] Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform (Hypothesis: Standing on every tile triggers the event).
 - Route 36 sighting: Fly to Ecruteak, walk south to Route 36 junction via Route 37, and approach from the south (Route 35 entrance).
 
 ## Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- DOOR: Map transition.
-- COUNTER: Impassable; interact with NPC behind it.
-- WARP_CARPET: Map transition.
-- LADDER/STAIRS: Map transition.
-- CUT_TREE: Impassable; remove with CUT.
-- HEADBUTT_TREE: Impassable; can be Headbutted.
-- WATER: Traversable with SURF.
-- GRASS: Traversable; wild encounters.
-- LEDGE_HOP: One-way traversal.
+- FLOOR: Traversable. [Verified]
+- WALL: Impassable. [Verified]
+- DOOR: Map transition. [Verified]
+- COUNTER: Impassable; interact with NPC behind it. [Verified]
+- WARP_CARPET: Map transition. [Verified]
+- LADDER/STAIRS: Map transition. [Verified]
+- CUT_TREE: Impassable; remove with CUT. [Verified]
+- HEADBUTT_TREE: Impassable; can be Headbutted. [Verified]
+- WATER: Traversable with SURF. [Verified]
+- GRASS: Traversable; triggers wild encounters. [Verified]
+- LEDGE_HOP: One-way traversal. [Verified]
+- CAVE: Warp/Entry point. [Verified]
 
 ## Party Movesets
 - KIMCHI (GLOOM): ABSORB, SWEET SCENT, CUT, SLEEP POWDER
