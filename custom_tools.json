@@ -159,12 +159,17 @@
         "party_index"
       ]
     },
-    "python_script": "import json\ndef main(input_data):\n    index = int(input_data.get('party_index', 2))\n    buttons = [\"A\", \"sleep 500\"]\n    for _ in range(index - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))",
+    "python_script": "import json\ndef main(input_data):\n    index = int(input_data.get('party_index', 2))\n    buttons = [\"A\", \"sleep 500\"]\n    for _ in range(index - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nif __name__ == \"__main__\":\n    import sys\n    input_json = sys.stdin.read()\n    if input_json:\n        main(json.loads(input_json))\n    else:\n        main({})",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-27T09:07:23.644Z",
         "action_counter": 25369
+      },
+      {
+        "commit_message": "Fixed the script to properly use input_data and ensured it prints a valid JSON array of buttons.",
+        "timestamp": "2025-12-27T09:08:49.327Z",
+        "action_counter": 25374
       }
     ]
   }
