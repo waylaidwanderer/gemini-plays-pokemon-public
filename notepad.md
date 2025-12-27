@@ -21,9 +21,10 @@
 - CAVE: Entrance/Exit warp.
 
 ## Strategy
-- Current: Navigate to Route 42 island via Surf.
-- Method: Perform a tile-by-tile sweep of the island (24, 12 to 31, 17 area) to trigger the Suicune flee event.
-- Tool: Use sweep_area_v2 for exhaustive coverage.
+- Current: Fly to Ecruteak City.
+- Method: Enter Tin Tower via the Gatehouse in the northeast of the city.
+- Goal: Battle/Catch Suicune at Tin Tower 1F. Static encounter enabled by Clear Bell and "Tower Shook" event.
+- Prep: Use Mean Look (Xenon) if needed, but Suicune is a static encounter here. Carry Great Balls (43).
 
 ## Timestamps
 - Suicune Quest Start: Turn 24182.
