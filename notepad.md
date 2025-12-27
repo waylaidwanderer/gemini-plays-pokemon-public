@@ -23,7 +23,8 @@
     1. Travel to Route 42 central island.
     2. Use CUT on tree at (24, 13).
     3. Sweep the southern part of the island to trigger Suicune.
-    4. If unsuccessful, return to Cianwood to re-verify Eusine battle outcome.
+    4. If unsuccessful, return to Cianwood City to re-verify Eusine battle outcome and talk to the Seer.
+    5. If still stuck, re-explore Mt. Mortar for any missed triggers.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
