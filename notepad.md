@@ -39,11 +39,10 @@
 
 # Active Plans
 - **Restore Power & Badges:**
-  - **Status:** At Route 25 Surf Spot (41, 7).
-  - **Observation:** **Misty is visible at the Cape (46, 9).**
-  - **Immediate Action:** Surf East to interrupt Misty's date (sends her to Gym).
-  - **Then:** Surf South to Power Plant to deliver Machine Part.
-  - **Goal:** Clear Misty event AND restore power in one trip.
+  - **Status:** Route 25 (42, 7). **Misty event triggered.** She has returned to Cerulean Gym.
+  - **Immediate Action:** Surf South/East to Power Plant.
+  - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
+  - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
