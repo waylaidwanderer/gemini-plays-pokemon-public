@@ -37,3 +37,7 @@
 ## Milestones
 - Turn 26110: Triggered "Tin Tower Shake" event by entering the gatehouse with the Clear Bell.
 - Route 36 Sudowoodo Spot (Turn 26177): Suicune NOT found.
+## Suicune Quest Diagnostic Log (Updated)
+- Ecruteak PC Check (Turn 26204): Eusine NOT present.
+- Current Hypothesis: Missing dialogue with Wise Trio in the restricted room.
+- Goal: Talk to all three members of the Wise Trio.
