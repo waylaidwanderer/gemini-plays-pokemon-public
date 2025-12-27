@@ -36,19 +36,20 @@
     - Warp W (1, 9) -> Room 3 (19, 11) [Warp H]
     - Warp X (1, 11) <-> Room 8 (5, 5) [Warp DD]
     - Warp Y (5, 11) <-> Room 5 (5, 17) [Warp Q]
-- **Room 8 (Top Left) [Current]:**
+- **Room 8 (Top Left):**
     - Warp AA (5, 3) <-> Room 6 (11, 3) [Warp T]
     - Warp BB (1, 3) <-> Room 4 (15, 5) [Warp L]
     - Warp CC (1, 5) <-> Sabrina's Room (11, 9)
     - Warp DD (5, 5) <-> Room 7 (1, 11) [Warp X]
-- **Sabrina's Room (Middle Center):**
+- **Sabrina's Room (Middle Center) [Current]:**
     - Warp (11, 9) <-> Room 8 (1, 5) [Warp CC]
+    - **Sabrina is located at (9, 8).**
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Reach Sabrina's Room via Room 8.
-- **Status:** In Room 7 at Warp Y (5, 11).
+- **Immediate:** Challenge Sabrina.
+- **Status:** In Sabrina's Room. Standing on Warp (11, 9).
 - **Next Steps:**
-    1. Take Warp X (1, 11) to Room 8 (5, 5).
-    2. Take Warp CC (1, 5) to Sabrina's Room (11, 9).
-    3. Challenge Sabrina.
+    1. Approach Sabrina.
+    2. Defeat Sabrina.
+    3. Get Marsh Badge.
