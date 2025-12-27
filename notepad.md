@@ -25,7 +25,8 @@
 - Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42. [All empty on Turn 24380]
 
 # Trainer Defeats
-- Wise Trio (Wise Trio Room): Defeated.
+- Wise Trio (Wise Trio Room): [Pending]
+- Turn 24395: Started Suicune Trigger Verification.
 - Sage at (4, 6) (Gatehouse): Granted passage.
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
 
