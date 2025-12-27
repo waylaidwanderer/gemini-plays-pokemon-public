@@ -32,5 +32,4 @@
 
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
-- Turn 24395: Started Suicune Trigger Verification.
-- Sages at (11, 11) [Done], (5, 9) [Done], (14, 6) [Pending] (Tin Tower 1F): Lore shared.
+- Sages at (11, 11) [Done], (5, 9) [Done], (14, 6) [Done] (Tin Tower 1F): Lore shared.
