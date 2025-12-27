@@ -63,4 +63,4 @@
 - Met Cooltrainer M at (37, 8).
 - Received a NUGGET from him!
 - He challenged me to a battle ("Let me take you on").
-- Battle imminent.
+- Battling Cooltrainer Kevin. Defeated Rhyhorn and Charmeleon. Facing Wartortle.
