@@ -39,3 +39,4 @@
 - **Plan:** Quick check of the north end of this corridor, then return to 1F to find the buddy and explore the West side.
 - **Observation:** Wall at Column 29 has an opening at Rows 4 and 5. This is the path West.
 - **Action:** Stunned Sailor (ID 1) at (30, 6) to bypass him via (31, 6).
+- **Log:** Successfully navigating around stunned Sailor (ID 1) via (31, 7) -> (31, 6) -> (29, 5).
