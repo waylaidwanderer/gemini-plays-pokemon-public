@@ -2,21 +2,22 @@
 - Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
 - Quest Start: Turn 24182.
 
+## Current Strategy
+- Goal: Complete Suicune overworld sightings sequence.
+- Plan:
+  1. Travel to Route 42 (Central Island).
+  2. Perform a precision approach to the sighting spot at (24, 13) after Cutting the tree.
+  3. If Suicune appears, follow it to Route 36.
+  4. If Suicune does not appear, re-verify Ecruteak PC for Eusine.
+
 ## Suicune Quest Diagnostic Log
 1. Burned Tower: Flee event completed.
 2. Cianwood City (North): Flee event completed. Eusine defeated.
 3. Flag: Eusine dialogue in Ecruteak PC. [STATUS: Eusine missing from PC at Turn 26204]
 4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [STATUS: Sages mentioned 'tower shook' at Turn 26110]
-5. Sighting #3: Route 42 (Central Island). [FAILED - Swept clearing at Turn 26164]
-6. Sighting #4: Route 36 (Sudowoodo Junction). [FAILED - Swept spot at Turn 26177]
+5. Sighting #3: Route 42 (Central Island). [STATUS: Attempting precision approach]
+6. Sighting #4: Route 36 (Sudowoodo Junction). [LOCKED]
 7. Tin Tower 1F: Static encounter. [LOCKED]
-
-## Current Strategy
-- Goal: Unlock Suicune sightings by completing Wise Trio interactions.
-- Plan:
-  1. Talk to all Sages in Tin Tower 1F (Turn 26237).
-  2. If Suicune is still missing, perform a tile-by-tile sweep of Route 36 again.
-  3. If still missing, re-sweep Route 42 island clearing.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
