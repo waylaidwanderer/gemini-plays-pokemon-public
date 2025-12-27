@@ -2,10 +2,9 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Navigate North from (21, 16) to reach Route 24.
-- **Observation:** The path North is open around x=20-25. The Super Nerd is at (23, 15).
-- **Strategy:** Move North. I can likely bypass the Super Nerd or fight him. Heading to (21, 10) to confirm passage to Route 24.
-- **Correction:** The path was not blocked by the wall at x=17; the wall ended, opening up this area.
+- **Immediate Task:** Cross Nugget Bridge (Route 24) and investigate paths East/South to reach Route 9/Power Plant.
+- **Hypothesis:** Since the tree at (33, 24) was uncuttable, the path to Route 9 might involve Surfing down the river from Route 24 or finding a different connector.
+- **Lore:** Route 24 connects to Route 25 (Bill's House). Route 9 is usually accessed from Cerulean via the South-East exit (Cut tree). If that's blocked, Surfing might be the key.
 
 # Strategic Goals
 1. **Restore Power:**
