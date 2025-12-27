@@ -48,13 +48,14 @@
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
   - **Clues:**
-    - Rocket Grunt at Gym: "Oops! I so sorry! ... I make big mistake! ... Bye-bye a go-go!"
-    - Confirmed: The Rocket Grunt is the thief.
-    - Lead: He fled North. Chase him to Route 24 (Nugget Bridge).
+    - Rocket Grunt (Route 24): Confessed to hiding the part.
+    - **Location:** "Inside water put it I did. Look for in water center of GYM at." -> Cerulean Gym, center pool.
   - **Plan:**
-    1. Head North to Route 24 (Nugget Bridge).
-    2. Find and defeat the Rocket Grunt.
-    3. Recover the Machine Part.
+    1. Return to Cerulean City (South).
+    2. Enter Cerulean Gym.
+    3. Surf to the center of the pool.
+    4. Find and recover the Machine Part.
+    5. Return to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
