@@ -6,12 +6,12 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Gather info and head to Cerulean.
-- **Status:** In Saffron Pokemon Center. Exiting.
+- **Status:** Saffron City (West). Investigating unmarked warp.
 - **Next Steps:**
-    1. Exit Pokemon Center.
-    2. Head North to Route 5.
+    1. Investigate warp at (8, 3).
+    2. Head East to find Route 5 Gate.
     3. Reach Cerulean City.
-    4. Investigate Power Plant rumors (Fisher mentioned commotion).
+    4. Investigate Power Plant rumors.
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
