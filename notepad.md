@@ -25,3 +25,5 @@
 - **Plan:** Explore the cabin at x=22.
 - **Log:** Cabin at x=22 is blocked from the top (beds).
 - **Plan:** Go around via x=24 and enter x=22 from the bottom (y=9).
+- **Log:** Explored cabin at x=22. It is empty.
+- **Plan:** Explore the cabin at x=20 (if it exists) or the area at the far left.
