@@ -47,3 +47,6 @@
   - **Next:** Surf South from East side of Route 24 Bridge to reach Power Plant.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Lesson:** West side water on Route 24/25 dead-ends in Cerulean. Must use East side water to reach Power Plant.
+- **Maze Path (East to West):** 
+  - From (21, 7): Right -> Right -> Up -> Right -> Right -> Down -> Down -> Down -> Right -> Down -> Down to (26, 11).
+  - Then Left along Row 11 to x=23, Up to Row 9, Left across Row 9.
