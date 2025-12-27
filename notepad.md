@@ -56,5 +56,6 @@
 - **Immediate Task:** Challenge Lass (No. 4) at (22, 6).
 - **Next Task:** Challenge Youngster (No. 5) at (25, 4).
 - **Battle Log:** Defeated all 6 trainers on Route 25. Received phone call from Wade.
-- **Immediate Task:** Talk to the Super Nerd at (31, 7) to claim the prize.
-- **Hypothesis:** The Super Nerd gives a Nugget.
+- **Immediate Task:** Talk to the Super Nerd at (31, 7) to claim the prize (Nugget).
+- **Hypothesis:** After receiving the prize, he may battle me or reveal himself as a Rocket (based on RBY lore, though this is Crystal).
+- **Next Task:** After dealing with him, investigate the area behind him (Cut Tree at 34, 6 and Item Ball at 32, 4).
