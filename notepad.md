@@ -1,10 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Cross Nugget Bridge (Route 24) and investigate paths East/South to reach Route 9/Power Plant.
-- **Hypothesis:** Since the tree at (33, 24) was uncuttable, the path to Route 9 might involve Surfing down the river from Route 24 or finding a different connector.
-- **Lore:** Route 24 connects to Route 25 (Bill's House). Route 9 is usually accessed from Cerulean via the South-East exit (Cut tree). If that's blocked, Surfing might be the key.
+- **Location:** Route 25 (North of Nugget Bridge).
+- **Immediate Task:** Defeat the trainers on Route 25 (starting with the Youngster at 12, 8) to clear the path to Bill's House.
+- **Hypothesis:** One of these trainers or Bill himself might give a hint about the Power Plant or a way to Route 9.
+- **Lore:** This area is famous for the "Nuget Bridge Challenge".
 
 # Strategic Goals
 1. **Restore Power:**
