@@ -6,12 +6,12 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Gather info and head to Cerulean.
-- **Status:** In Saffron Pokemon Center. Talking to NPCs.
+- **Status:** In Saffron Pokemon Center. Exiting.
 - **Next Steps:**
-    1. Talk to Fisher (8, 6).
-    2. Exit Pokemon Center.
-    3. Head North to Route 5.
-    4. Reach Cerulean City.
+    1. Exit Pokemon Center.
+    2. Head North to Route 5.
+    3. Reach Cerulean City.
+    4. Investigate Power Plant rumors (Fisher mentioned commotion).
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
