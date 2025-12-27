@@ -32,3 +32,5 @@
 - **Observation:** Found a Lass at (6, 4).
 - **Plan:** Interact with the Lass to see if she is the granddaughter or has info. Then continue West to the Kitchen/Engine Room.
 - **Battle:** Picnicker Debra sent out Seaking (Lv 33).
+- **Log:** Defeated Picnicker Debra (Lass at 6, 4).
+- **Plan:** Talk to Debra again to check for new dialogue. If none, continue West to the Kitchen/Engine Room.
