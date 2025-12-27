@@ -3,15 +3,14 @@
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
 - **Sighting Requirements (Sequential in Crystal):**
   1. Burned Tower: Beasts fled. [Verified]
-  2. Cianwood City (North): Sighting. [Verified - Turn 24175-24509 summary]
-  3. Route 42 (Central Island): Sighting [Sprite missing - exhaustive search performed Turn 24768-24931. MUST TRIGGER FIRST]
-  4. Route 36 (Sudowoodo junction): Sighting [Sprite missing - Turn 24733. Triggered after Route 42]
-  5. Tin Tower 1F: Talk to all three Sages. [Talked to all - Turn 24814. Prerequisites missing]
+  2. Cianwood City (North): Sighting. [Verified]
+  3. Route 42 (Central Island): Sighting check. [In Progress - Row 13 needs verification]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Pending]
+  5. Tin Tower 1F: Talk to Sages with Clear Bell. [Done - Turn 24814]
 
 # Progress Tracking
-- Route 42 Island Search: Thoroughly searched Row 11, 12, 14, 15, 16, 17. Row 13 tiles (25-31, 13) need verification. No Suicune sprite or Eusine sighting triggered.
-- Route 36 Search: Checked junction at (35, 9). Sighting depends on Route 42.
-- Cianwood Verification: Sighting at (10, 14) is definitely gone. No NPCs in the city have new dialogue.
+- Route 42: Searched Rows 11, 12, 14, 15, 16, 17. No trigger. Row 13 (25-31, 13) is the next focus.
+- Cianwood: Sighting at (10, 14) is definitely gone. Heading to Pokemon Center to check for Eusine.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
@@ -26,26 +25,12 @@
 - **DOOR/STAIRS/LADDER:** Traversable. Triggers map transition.
 - **PC/COUNTER/SIGN:** Impassable. Interact from an adjacent tile.
 
-# Trainer Defeats
-- Wise Trio (Wise Trio Room): Defeated.
-- Route 42: Fisher Tully, Hiker Benjamin, Pokemaniac Shane defeated.
-
-# General Lessons
-- **Suicune Trigger:** Overworld sightings on Route 42 and Route 36 are MANDATORY prerequisites for the Tin Tower battle in Crystal.
-- **Fly Map:** "Up" scrolls cities (New Bark -> Violet -> Ecruteak).
-- **Violet City West Exit:** (0, 9) leads to Route 36.
-- **Route 36 Sudowoodo Junction:** (35, 9) approx. location.
-
-# PC Storage
-- Box 1: BRIMSTONE, HELIODOR, COBALT, QUARTZ, DIVA, PENDULUM, JASPER, UNAKITE, EGG, AMETHYST, AZURITE, HEMATITE, KENYA, TOGEPI, LUCID, BELLADONNA, TRUFFLE, LAPIS.
-
-# Route 36 Observations
-- Fisher at (44, 9) blocks direct path to the junction.
-- Path around: (45, 9) -> (45, 8) -> (35, 8) -> (35, 9).
-
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
 - Route 42: Fisher Tully (25, 6), Hiker Benjamin (14, 10), Pokemaniac Shane (28, 11).
+
+# PC Storage
+- Box 1: BRIMSTONE, HELIODOR, COBALT, QUARTZ, DIVA, PENDULUM, JASPER, UNAKITE, EGG, AMETHYST, AZURITE, HEMATITE, KENYA, TOGEPI, LUCID, BELLADONNA, TRUFFLE, LAPIS.
 
 # Lesson: Tree Cutting
 - To use CUT, face the tree and press A. When prompted "Want to use CUT?", press A again (default is YES). Do NOT press Down, as that selects NO.
