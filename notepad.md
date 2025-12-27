@@ -2,10 +2,10 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym.
-- **Immediate Task:** Navigate to the back of the Gym (7, 6) to check for Misty or Rocket Grunt.
-- **Lore:** Misty is likely at Cerulean Cape (Route 25) if not here. Rocket Grunt event usually triggers after visiting Power Plant.
-- **Strategy:** Quick check of Gym interior, then exit and head North to Route 24/25 to find Misty or path to Power Plant.
-- **Pathing:** Gym bridge requires zigzagging Right at Row 7.
+- **Immediate Task:** Navigate to the central platform (4, 3) to inspect the pool and back area.
+- **Lore:** The Rocket Grunt event likely requires visiting the Power Plant first.
+- **Strategy:** Quick visual sweep of the Gym. If empty, exit and head North to Route 24 to find the path to the Power Plant (since the South path was blocked).
+- **Note:** I have SURF (Gyarados/Poliwag) if needed to cross the water.
 
 # Strategic Goals
 1. **Restore Power:**
