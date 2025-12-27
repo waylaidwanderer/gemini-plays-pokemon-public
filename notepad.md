@@ -1,5 +1,5 @@
 # Suicune Quest Log (Crystal Version)
-- Prerequisites: Clear Bell (Obtained), All Sightings Completed.
+- Prerequisites: Clear Bell (Obtained), All overworld sightings must be triggered in order.
 - Start: Turn 24182, Saturday 12:45 AM.
 
 ## Story Progress
@@ -10,7 +10,9 @@
 ## Sighting Progress
 1. Burned Tower: Verified.
 2. Cianwood City (North): Verified.
-3. Route 42 (Central Island): [FAILED] Full sweep of island on Turn 25893 yielded no sighting. Hypothesis: sighting may only trigger when entering Route 42 from the Ecruteak (West) side. Testing east grass first, then flying to Ecruteak.
+3. Route 42 (Central Island): [FAILED] Full sweep of island on Turn 25893 yielded no sighting. 
+   - Hypothesis 1: Sighting may only trigger when entering Route 42 from the Ecruteak (West) side. 
+   - Hypothesis 2: Missing prerequisite in Ecruteak (Wise Trio Room interaction).
 4. Route 36 (Sudowoodo Junction): Pending. Checked once.
 5. Tin Tower 1F: Pending.
 
@@ -23,13 +25,13 @@
 - CAVE / DOOR / WARP: Transitions.
 - LADDER: Vertical transition.
 - HEADBUTT_TREE: Impassable.
-- FLOOR_UP_WALL: Traversable (ledges/stairs). Ledges are one-way down.
+- FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as the top edge of a wall or ledge. Verified at (53, 14) and (55, 10).
 
 ## Strategy
-- Current: Test "Entry Direction" hypothesis. Entered Route 42 from Mahogany. Surf to the island and sweep again.
-- Exploration: Explore unseen tiles on the east side of Route 42 (around x=55-59) if the sighting fails.
-- Alternative: If the island sweep fails again, I will stop repeating it. My next steps will be: 1. Re-check the Sudowoodo junction on Route 36. 2. Visit the Poké Seer in Cianwood for potential clues. 3. Re-examine the Wise Trio Room in Ecruteak for any missed interactions. 4. Check Tin Tower 1F again.
+- Current: Fly to Ecruteak. Re-enter Route 42 from the West. Surf to the island and check for Suicune.
+- Troubleshooting: If the island sighting still fails, re-examine the Wise Trio Room in Ecruteak for missed dialogue.
+- Alternative: If Route 42 is cleared, check the Sudowoodo junction on Route 36.
+
 ## Timestamps
 - Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
-- Current Status: Turn 25898. Searching Route 42 East.
-- Turn 25911: Movement blocked moving Down into (53, 14) [FLOOR_UP_WALL] from (53, 13). Attempting to navigate around via y=7.
+- Current Status: Turn 25921. Abandoning Route 42 East exploration. Moving to Ecruteak.
