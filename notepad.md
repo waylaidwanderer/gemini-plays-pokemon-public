@@ -161,3 +161,6 @@
 - Strategic Pivot:
   - Escaping via Fly to Cerulean City.
   - New Route Plan: Surf from Route 24/25 (North of Cerulean) to bypass Route 9 land obstacles.
+- Opening Party Menu.
+- Selecting Mistral (Slot 5).
+- Intent: Use Fly to return to Cerulean City and attempt the water route from Route 24.
