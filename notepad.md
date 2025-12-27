@@ -21,14 +21,6 @@
 - Flying: Immune to Ground.
 - Dark: Immune to Psychic.
 
-## Party Movesets
-- XENON (GASTLY): Lv21. Hypnosis, Lick, Night Shade, Mean Look. [Lead]
-- Calcifer (TYPHLOSION): Lv45. Flame Wheel, Headbutt, Smokescreen, Thunderpunch.
-- GNEISS (GRAVELER): Lv44. Earthquake, Defense Curl, Strength, Rollout.
-- ICARUS (PIDGEY): Lv16. Quick Attack, Sand-Attack, Gust, Fly.
-- Ravioli (KRABBY): Lv10. Bubble, Leer, Surf.
-- KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
-
 # Strategy for Beating Suicune
 - Status: Lv40 legendary.
 - Moveset: Leer, Bubblebeam, Rain Dance, Roar.
@@ -44,7 +36,7 @@
 # Suicune Sighting Sequence (Crystal)
 1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
 2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-3. Route 42 (Central Island): Middle Apricorn grove. [Pending]
+3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> Use Surf to reach (26, 14).
 4. Route 36 (Sudowoodo junction): [Pending]
 5. Tin Tower 1F (Final Battle): Requires all previous sightings. [Current Target after sightings]
 
@@ -56,3 +48,7 @@
 - Wise Trio (Wise Trio Room): Defeated.
 - Sage at (4, 6) (Gatehouse): Granted passage.
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
+
+# Navigation: Tin Tower 1F Maze
+- Central Area Access: The central floor area (Rows 5-9, X=7-12) is isolated by walls/pillars.
+- Final Battle Trigger: Requires completion of all roaming sightings (Route 42, Route 36).
