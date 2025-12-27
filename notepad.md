@@ -34,4 +34,5 @@
 
 ## Timestamps
 - Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
-- Current Status: Turn 25921. Abandoning Route 42 East exploration. Moving to Ecruteak.
+- Troubleshooting Prerequisites: Turn 25949, Saturday 5:56 AM. (Wise Trio Room check)
+- Current Status: Turn 25950. Entering Wise Trio Room to battle Sages.
