@@ -113,3 +113,5 @@
   - Skipped Lass at (12, 15) to avoid backtracking.
   - Heading East to defeat Pokefan M at (36, 15).
   - Then using gap at (42, 16) to bypass wall and reach Power Plant.
+- Engaging Pokefan M at (36, 15).
+- After battle, head East to gap at (42, 16).
