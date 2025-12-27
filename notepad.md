@@ -23,16 +23,15 @@
 - CUT_TREE: Impassable; remove with CUT. Regrows.
 - GRASS / TALL_GRASS: Traversable; triggers encounters.
 - CAVE / DOOR / WARP: Transitions.
-- LADDER: Vertical transition.
+- LADDER: Vertical transition. Functions as a warp.
 - HEADBUTT_TREE: Impassable.
 - FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as the top edge of a wall or ledge. Verified at (53, 14) and (55, 10).
 
 ## Strategy
-- Current: Fly to Ecruteak. Re-enter Route 42 from the West. Surf to the island and check for Suicune.
-- Troubleshooting: If the island sighting still fails, re-examine the Wise Trio Room in Ecruteak for missed dialogue.
+- Current: Navigate the Tin Tower Gatehouse restricted area to reach the Wise Trio Room.
+- Troubleshooting: Battle and defeat the Wise Trio to unlock the Suicune sighting on Route 42.
 - Alternative: If Route 42 is cleared, check the Sudowoodo junction on Route 36.
 
 ## Timestamps
 - Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
 - Troubleshooting Prerequisites: Turn 25949, Saturday 5:56 AM. (Wise Trio Room check)
-- Current Status: Turn 25950. Entering Wise Trio Room to battle Sages.
