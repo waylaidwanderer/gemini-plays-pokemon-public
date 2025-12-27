@@ -33,3 +33,17 @@
 - 5. Route 36 sighting: PENDING (requires Route 42 event first). Trigger tile: (35, 9).
 - 6. Tin Tower Shook: Dialogue confirmed at Turn 26214. (Note: May trigger before sightings are done).
 - 7. Wise Trio Room: Empty at Turn 26628.
+## Tile Mechanics - Global
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: SURF required.
+- CUT_TREE: CUT required. Regrows after leaving map.
+- HEADBUTT_TREE: Impassable. Can be headbutted.
+- TALL_GRASS: Traversable. Triggers wild encounters.
+- WARP_CARPET_LEFT: Warp point.
+- CAVE: Warp point.
+- FLOOR_UP_WALL: Impassable (ledge/elevation change).
+
+## Quest Progress Tracking
+- Suicune Quest: Started Turn 24182. Ongoing.
+- Wise Trio Battle: Triggered by Suicune sightings. Ongoing.
