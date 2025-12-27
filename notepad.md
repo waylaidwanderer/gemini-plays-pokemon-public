@@ -7,14 +7,13 @@
 - Clear Bell: Obtained.
 - Team Rocket: Disbanded at Radio Tower.
 - Tin Tower: Shook after entering gatehouse with Clear Bell.
-- Wise Trio Room: Emptied.
 - Sages (Gatehouse & 1F): All talked to after tower shook. [Turn 25726]
 
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): [Pending/Checked] Swept island Turn 25761. run_code found no Suicune object Turn 25767.
-4. Route 36 (Sudowoodo Junction): [Next Target]
+3. Route 42 (Central Island): [Pending/Checked] Swept island Turn 25761.
+4. Route 36 (Sudowoodo Junction): [Pending/Checked] Swept junction Turn 25794.
 5. Tin Tower 1F: Pending.
 
 ## Tile Mechanics
@@ -33,12 +32,4 @@
 - Hypothesis: Talking to all Sages was the final trigger for Route 42. [Denied - Swept island, no trigger].
 
 ## Strategy
-- Current: Check Route 36 for the next Suicune sighting.
-## Reflection - Turn 25794
-- Quest status: Stuck on Suicune sighting #3/4.
-- Hypothesis: Missing a specific trigger or standing on the wrong tile.
-- Action: Re-check Route 36 junction thoroughly, then check Tin Tower 1F for hints.
-## Suicune Quest Update - Turn 25798
-- Status: Sightings 3 & 4 not triggering.
-- New Hypothesis: Wise Trio battle is required to 'prove worth' before Suicune appears in the overworld after the tower shakes.
-- Action: Flying to Ecruteak to challenge Wise Trio.
+- Current: Check Wise Trio Room in Ecruteak to prove worth and unlock overworld sightings.
