@@ -5,24 +5,22 @@
 
 ## Current Strategy
 - Plan:
-  1. Travel to Cianwood City and defeat Eusine in the north.
-  2. Talk to Eusine in Ecruteak Pokémon Center.
-  3. Trigger Route 42 sighting (Central Island).
-  4. Trigger Route 36 sighting (Sudowoodo Junction).
-
-## Strategy for Eusine (Cianwood)
-- Team: Drowzee (Lv23), Haunter (Lv23), Electrode (Lv25).
-- Tactics:
-  - Gneiss (Graveler) counters Electrode (Electric immunity) and Haunter (Earthquake).
-  - Calcifer (Typhlosion) for Drowzee.
+  1. Finish dialogue with Poke Seer.
+  2. Fly to Ecruteak City.
+  3. Perform a comprehensive full-island sweep of Route 42 (x=21-32, y=11-18).
+  4. If Suicune triggers, follow to Route 36.
+  5. If no trigger, check Route 36 junction (35, 9) anyway.
+  6. If both fail, re-verify Sage dialogues in Gatehouse and Tin Tower 1F.
+- Loop Start: Turn 26164 (Stuck on sightings).
 
 ## Suicune Quest Diagnostic Log
 - Burned Tower: Flee event completed.
-- Cianwood City (North): Flee event completed. [STATUS: Eusine BATTLE PENDING]
-- Route 42: Attempt 1 (Turn 26164) and Attempt 2 (Turn 26322) failed.
-- Ecruteak PC: Eusine MISSING (Confirmed at Turn 26293 and 26333).
-- Wise Trio: Room (4_2) was empty at Turn 26233.
-- Status: Correcting sequence error - heading to Cianwood for Eusine battle. [START TURN: 26344]
+- Cianwood City (North): Flee event completed.
+- Eusine Battle: COMPLETED (Verified by summary and marker).
+- Ecruteak PC: Eusine MISSING (Checked 1F/2F at Turn 26293 and 26333).
+- Wise Trio Room (4_2): EMPTY (Checked at Turn 26233).
+- Tin Tower 1F: Explored (Turn 26236). Clear Bell reactivated 'Tower Shake' event (Turn 26110).
+- Status: Re-attempting Route 42 sighting with a wider sweep. [START TURN: 26371]
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
