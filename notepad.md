@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Missing Radio Card. At Route 26 (Turn 22278).
-   - *Plan:* Walk to New Bark -> Fly Goldenrod (Get Card) -> Fly Vermilion.
+   - *Status:* Missing Radio Card. In Tohjo Falls (Turn 22324).
+   - *Plan:* Traverse Tohjo Falls -> Route 27 -> New Bark -> Fly Goldenrod (Get Card) -> Fly Vermilion.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
