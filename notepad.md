@@ -17,32 +17,27 @@
 
 ## Hypotheses & Strategy
 - Hypothesis 1: Suicune is a visible overworld sprite on the Route 42 island.
-- Hypothesis 2: A specific flag from Cianwood (e.g., Eusine battle) is required.
+- Hypothesis 2: A specific flag from Cianwood (e.g., Eusine battle) is required. [Verified: Defeated Eusine]
 - Hypothesis 3: Approaching from Route 36 first is required.
 
 ## Strategy & Planning
 - Route 42 sighting: [Current Target - Started Turn 25547]
   - Goal: Confirm Suicune sprite visibility on the central island.
-  - Plan: Surf to the island, use Cut, and stand on the center tiles.
-  - Failed Attempts: 3 (Swept island multiple times).
+  - Plan: Surf to the island, use Cut, and check for sprite at (26, 14).
+  - Failed Attempts: 3 (Swept island multiple times, sprite not visible).
 - Route 36 sighting: Fly to Ecruteak, walk south to Route 36 junction via Route 37, and approach from the south (Route 35 entrance).
 
 ## Tile Mechanics
 - FLOOR: Traversable. [Verified]
 - WALL: Impassable. [Verified]
-- DOOR: Map transition. [Verified]
-- COUNTER: Impassable; interact with NPC behind it. [Verified]
-- WARP_CARPET: Map transition. [Verified]
-- LADDER/STAIRS: Map transition. [Verified]
-- CUT_TREE: Impassable; remove with CUT. [Verified]
-- HEADBUTT_TREE: Impassable; can be Headbutted. [Verified]
 - WATER: Traversable with SURF. [Verified]
+- CUT_TREE: Impassable; remove with CUT. [Verified]
 - GRASS: Traversable; triggers wild encounters. [Verified]
+- CAVE/DOOR: Warp/Entry point. [Verified]
 - LEDGE_HOP: One-way traversal. [Verified]
-- CAVE: Warp/Entry point. [Verified]
 
 ## Lessons Learned
 - Notepad Management: Only one `notepad_edit` call is allowed per turn. [Turn 25561]
 - Suicune Sightings: Sweeping every tile on the Route 42 island may not trigger the event if the sprite is missing. Prerequisites are likely unmet. [Turn 25572]
 - Battle State: Navigation tools (like `find_path_v3`) cannot be used while in battle. Use `select_battle_option` instead. [Turn 25560]
-- Tool Refinement: `find_path_v3` needs debugging for water-to-land transitions. [Turn 25620]
+- Tool Refinement: `find_path_v3` needs debugging for water-to-land transitions. `find_path_v4` created. [Turn 25620]
