@@ -18,8 +18,9 @@
 - FLOOR_UP_WALL: Impassable from the NORTH (cannot move DOWN into it). Acts as a wall or ledge bottom.
 
 ## Strategy
-- Current: Fly to Violet City and navigate to Route 36 (near Sudowoodo spot) to check for Suicune.
-- Pivot: If Suicune is NOT found on Route 36, return to Ecruteak and re-investigate the Wise Trio Room and Tin Tower Gatehouse.
+- Current: Fly to Ecruteak City and navigate to Route 42 island.
+- Method: Perform a tile-by-tile sweep of the island (24, 12 to 31, 17 area) to trigger the Suicune flee event.
+- Observation: Route 36 (Sudowoodo spot) was verified empty on Turn 25992, confirming Route 42 must be completed first.
 
 ## Timestamps
 - Suicune Quest Start: Turn 24182.
