@@ -55,3 +55,5 @@
 - **Log:** Sailor at (20, 17) is generic. Heading West on 1F to find the real "lazy buddy".
 - **Log:** Heading Far West on 1F (Row 16) to look for a path to the Upper Corridor (Row 8) or more cabins.
 - **Goal:** Find the "lazy buddy" or the Granddaughter in the unexplored West section.
+- **Log:** West side of 1F is blocked by a wall at x=9. Returning to East side.
+- **Plan:** Check unvisited Upper Deck cabins at (23, 8) and (27, 8) for the "lazy buddy".
