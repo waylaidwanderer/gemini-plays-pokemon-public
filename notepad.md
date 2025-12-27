@@ -122,9 +122,8 @@
 - Hiker Sidney (Object: POKEFAN_M) defeated at (36, 15).
 - Muscle Strength PP: 6.
 - Heading East towards Route 10 / Power Plant.
-- Tested Row 16 'FLOOR_UP_WALL' tiles: they act as WALLS from the North, not ledges.
-- Pokefan M blocked path at (36, 15).
-- Plan: Go around Pokefan M via Row 14, then head East to gap at (42, 16).
-- Target: (42, 17) (South of the wall).
+- Realization: Previous attempts to jump ledge at Row 16 failed due to open dialogue boxes, not tile collision.
+- Plan: Retry jumping ledge at (41, 16).
+- If successful, head East on Row 17 to the river.
 - Jumped ledge at (35, 16).
 - Heading East on Row 17 to water's edge at (56, 17).
