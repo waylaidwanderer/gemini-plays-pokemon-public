@@ -43,3 +43,11 @@
 - 5. Wise Trio Battle: PENDING (Room 4_2 was empty at Turn 26495, re-checking now).
 - 6. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 7. Tin Tower roof access: LOCKED.
+## WiseTriosRoom Exploration
+- Turn 26628: Entered WiseTriosRoom (4_2) via ladder (1, 4).
+- Observations: Room layout has internal walls. NPCs are not immediately visible.
+- Tile Mechanics - WiseTriosRoom:
+  - FLOOR: Traversable.
+  - WALL: Impassable.
+  - LADDER: Warp (1, 4).
+  - WARP_CARPET_RIGHT: Warp (7, 4), (7, 5).
