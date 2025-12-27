@@ -11,9 +11,7 @@
   5. Sighting #4: Route 36 (Sudowoodo Junction).
 
 ## Suicune Quest Diagnostic Log
-- Burned Tower: Flee event completed.
-- Cianwood City (North): Flee event completed. Eusine defeated.
-- Current Status: Checking Ecruteak Pokémon Center for Eusine to trigger Route 42 sighting.
+- Current Status: Checking Ecruteak Pokémon Center for Eusine to trigger Route 42 sighting. [START TURN: 26286]
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
