@@ -5,45 +5,38 @@
 ## Story Progress
 - Clear Bell: Obtained.
 - Team Rocket: Disbanded at Radio Tower.
-- Tin Tower: Shook after obtaining Clear Bell.
+- Tin Tower: Shook after entering gatehouse with Clear Bell.
 - Wise Trio Room: Emptied.
 
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Pending.
+3. Route 42 (Central Island): Pending. (Multiple attempts failed, likely missed specific trigger tile).
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Pending (Checked Turn 25477, not present).
 
-## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. [Current Target - Attempt 3 started Turn 25526]
-- Hypothesis 2: Route 36 sighting is next.
-- Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Confirmed: No)
+## Hypotheses & Strategy
+- Hypothesis 1: Route 42 sighting is next. [Current Target - Retrying thorough search at Apricorn Trees]
+- Hypothesis 2: Route 36 sighting is next. (Fallback if Route 42 fails)
+- Hypothesis 3: Eusine provides a trigger. (Confirmed: No)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
-## Strategy & Planning
-- Route 42 sighting: Approach the central island from the east (Mahogany side).
-- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37.
+## Strategy Details
+- Route 42 sighting: Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform, especially near coordinates (26, 14).
+- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37 and approach from the south.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- DOOR: Map transition (Building entrance).
+- DOOR: Map transition.
 - COUNTER: Impassable; interact with NPC behind it.
-- WARP_CARPET_DOWN/LEFT/RIGHT: Map transition.
+- WARP_CARPET: Map transition.
 - LADDER/STAIRS: Map transition.
-- PC: Impassable; interact for storage.
-- CUT_TREE: Impassable; remove with HM01 CUT.
+- CUT_TREE: Impassable; remove with CUT.
 - HEADBUTT_TREE: Impassable; can be Headbutted.
-- WATER: Traversable with HM03 SURF.
-- GRASS: Traversable; wild encounters possible.
-- LEDGE_HOP_DOWN/RIGHT: One-way traversal (down/right only).
-
-## Type Effectiveness (Verified in Crystal)
-- Ghost vs Normal: Immune (XENON Lick vs Raticate)
-- Fire vs Grass: Super Effective (Calcifer Flame Wheel vs Oddish)
-- Water vs Rock/Ground: Super Effective (Ravioli Bubble vs Geodude)
-- Psychic vs Poison: Super Effective (Lucid Confusion vs Koffing)
+- WATER: Traversable with SURF.
+- GRASS: Traversable; wild encounters.
+- LEDGE_HOP: One-way traversal.
 
 ## Party Movesets
 - KIMCHI (GLOOM): ABSORB, SWEET SCENT, CUT, SLEEP POWDER
@@ -54,11 +47,16 @@
 - XENON (GASTLY): HYPNOSIS, LICK, NIGHT SHADE, MEAN LOOK
 
 ## NPC Registry
-- Ecruteak Pokecenter: Nurse (3, 1), Gym Guide (7, 1), Pokefan M (7, 6), Cooltrainer F (1, 4) [All Checked]
+- Ecruteak Pokecenter: Nurse, Gym Guide, Pokefan M, Cooltrainer F [All Checked]
 - Tin Tower Gatehouse: Sage (4, 6) [Pass], Sage (6, 9) [Info], Gramps (3, 11) [Info]
-- Tin Tower 1F: Sage (11, 11), Sage (5, 9), Sage (14, 6) [All Info]
+- Tin Tower 1F: Sages at (11, 11), (5, 9), (14, 6) [All Info]
 
 ## Tool Notes
-- `find_path_v3`: Fails between Ecruteak Main and Restricted areas; use bridge or Fly.
-- `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
-- `open_fly_map_v4`: Robust Fly map opener (Created Turn 25531).
+- `find_path_v3`: Robust pathfinding. Fails between separate Ecruteak maps.
+- `suicune_tracker_v2`: Confirms Route 42 sighting is required next.
+- `open_fly_map_v4`: Robust Fly map opener (Turn 25531).
+
+## General Lessons
+- Menu State: Always ensure menus are closed before overworld navigation.
+- Persistent Cursors: Party menus remember cursor positions; mash 'Up' to reset.
+- False Constraints: Don't assume a sighting is "skipped"; re-verify trigger tiles.
