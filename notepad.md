@@ -34,3 +34,7 @@
 - **Battle:** Picnicker Debra sent out Seaking (Lv 33).
 - **Log:** Defeated Picnicker Debra (Lass at 6, 4).
 - **Plan:** Talk to Debra again to check for new dialogue. If none, continue West to the Kitchen/Engine Room.
+- **Log:** Picnicker Debra (Lass) is likely just a trainer. Her dialogue is generic about Kanto cities.
+- **Plan:** Explore the far West end of the current room (x=0 to 4).
+- **Hypothesis:** The granddaughter might be in the Kitchen (usually West on ships) or I missed something.
+- **Reminder:** Check if Juggler Fritz moved after the battle (he was at 26, 9).
