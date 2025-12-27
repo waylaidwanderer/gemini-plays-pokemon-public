@@ -123,3 +123,5 @@
 - Muscle Strength PP: 6.
 - Heading East towards Route 10 / Power Plant.
 - Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16 (suspected ledges).
+- Pokefan M Post-Battle Dialogue: "The POWER PLANT is across a small river."
+- Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16. Expecting a ledge jump.
