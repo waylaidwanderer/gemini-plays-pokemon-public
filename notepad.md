@@ -37,6 +37,7 @@
 - Ghost vs Normal: Immune (XENON Lick vs Raticate)
 - Fire vs Grass: Super Effective (Calcifer Flame Wheel vs Oddish)
 - Water vs Rock/Ground: Super Effective (Ravioli Bubble vs Geodude)
+- Psychic vs Poison: Super Effective (Lucid Confusion vs Koffing)
 
 ## Party Movesets
 - KIMCHI (GLOOM): ABSORB, SWEET SCENT, CUT, SLEEP POWDER
