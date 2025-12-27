@@ -11,12 +11,12 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): First attempt failed (likely missed trigger tile).
+3. Route 42 (Central Island): First attempt failed. Starting thorough sweep on Turn 25501. [Current Target]
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Checked. Suicune not present.
 
 ## Hypotheses
-- Hypothesis 1: Route 42 sighting is next. (Likely missed tile)
+- Hypothesis 1: Route 42 sighting is next. (Likely missed trigger tile)
 - Hypothesis 2: Route 36 sighting is next.
 - Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Confirmed: No)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
@@ -67,9 +67,4 @@
 ## Tool Notes
 - `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use bridge (Wise Trio Room/Gatehouse) or Fly.
 - `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
-## Tool Notes
-- `open_fly_map_v2`: Unreliable because party menu cursor position is persistent. Use `open_fly_map_v3` instead.
-- **Tool Update (Turn 25485):** Replaced `open_fly_map_v2` with `open_fly_map_v3` for better reliability.
-- **Strategy Update:** Retrying Route 42 island sighting. Plan is to use `sweep_area_v2` on the entire island platform to find the exact trigger tile.
-- **Tool Failure (Turn 25486):** `open_fly_map_v3` failed due to party menu wrapping. Cursor landed on XENON stats.
-- **Plan:** Manually Fly to Ecruteak Pokemon Center, then head to Route 42 island.
+- `open_fly_map_v3`: Robust Fly map opener. Still vulnerable to menu wrapping if cursor position is unknown.
