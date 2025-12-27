@@ -53,4 +53,4 @@
 - Opening Menu to Fly.
 - Sequence: Start -> Pokemon -> Mistral -> Fly.
 - Goal: Reach Cerulean City to bypass Route 9.
-- Status: Retrying Fly sequence from Overworld (Route 23).
+- Status: Navigating Start Menu (GEM -> POKEMON). Entering Party Menu.
