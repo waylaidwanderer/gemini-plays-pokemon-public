@@ -41,3 +41,9 @@
 - Route 42: Use list_reachable_unseen_v1 to ensure no trigger tiles are missed on the central island.
 - Route 36: Approach the Sudowoodo junction from the Violet City side.
 - Note: Sighting on Route 42 MUST occur before Route 36.
+
+# Tin Tower Attempt 1
+- Turn 24662: Spoke to all 3 Sages on 1F.
+- Result: No Suicune appearance.
+- Conclusion: Mandatory sightings on Route 42 and/or Route 36 are incomplete.
+- Pivot: Return to Route 42 to verify trigger.
