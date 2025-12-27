@@ -19,3 +19,4 @@
     - Multiple paths. Currently on the right side (x=15 path).
     - Exiting North to Vermilion City.
     - Ladders at x=3 seem to be a separate path.
+- **Log:** Encountered Teacher at (17, 1). Talking to her.
