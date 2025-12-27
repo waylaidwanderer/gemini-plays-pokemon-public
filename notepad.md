@@ -39,3 +39,4 @@
 - **Correction:** The building at (20, 5) has NO door. It is NOT the Pokemon Center (or it's closed).
 - **Plan:** Read the City Sign at (25, 3) for orientation.
 - **Hypothesis:** The Pokemon Center might be elsewhere, or I need to clear an event.
+- **Log:** Gramps at (23, 6) blocked the direct path. Going around him via row 7.
