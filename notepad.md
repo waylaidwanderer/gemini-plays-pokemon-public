@@ -38,12 +38,11 @@
 - **FLOOR_UP_WALL:** Acts as a WALL from the North. Cannot be jumped. (Confirmed Route 9).
 
 # Active Plans
-- **Escape to Cerulean (Modified):**
-  - **Status:** Inside Route 5 Gate (25_14).
-  - **Action:** Exiting North to Route 5.
-  - **Route:** Saffron -> Route 5 -> Cerulean City.
-  - **Critical:** Enter Cerulean Pokemon Center upon arrival to unlock Fly point.
-  - **Next:** Search Gym for Machine Part -> Route 24 -> Power Plant.
+- **Restore Power:**
+  - **Status:** In Cerulean City. **Possess Machine Part.**
+  - **Immediate:** Enter Pokemon Center (19, 21) to unlock Fly point.
+  - **Next:** Go North to Route 24 -> Surf East/South to Power Plant.
+  - **Goal:** Deliver Machine Part to Manager.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
