@@ -29,7 +29,7 @@
 
 # Post-Game Status
 - **Location:** Cerulean City (Poke Mart).
-- **Status:** Buying Supplies.
+- **Status:** Exiting.
 - **Goal:** Locate Gym and Route 9 (East).
 - **Info:** Cooltrainer M mentions many trainers at Cerulean Cape (Route 25).
-- **Immediate:** Buy Ultra Balls, then exit to continue search.
+- **Immediate:** Exit Mart, then head North/East to find the Gym and Route 9/25.
