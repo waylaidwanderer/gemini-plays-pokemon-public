@@ -1,31 +1,27 @@
 # Suicune Quest Log (Crystal Version)
-- **Sighting Hunt Start:** Turn 25202
 - **Prerequisites:** Clear Bell (Obtained), All Sightings Completed.
 - **Current Task:** Fund capture attempt at Ecruteak Mart.
 
 ## Sighting Progress
-1. **Burned Tower:** Beasts fled. [Status: Verified]
-2. **Cianwood City (North):** [Status: Verified]
-3. **Route 36 (Sudowoodo Junction):** Near Violet City entrance. [Status: Pending]
-4. **Route 42 (Central Island):** Platform by water, requires CUT. [Status: Pending - Re-check after Route 36]
-5. **Tin Tower 1F:** Static Encounter. [Status: Triggered (Tower Shook)]
+1. **Burned Tower:** Beasts fled. [Verified]
+2. **Cianwood City (North):** [Verified]
+3. **Route 36 (Sudowoodo Junction):** [Pending] (Hunt Start: Turn 25202)
+4. **Route 42 (Central Island):** [Pending] (Requires Route 36 sighting first)
+5. **Tin Tower 1F:** [Triggered (Tower Shook)]
 
 ## Strategy
-- Order: Route 36 -> Route 42 -> Tin Tower (Confirmed by mechanics critique).
-- Current Task: Sell items at Ecruteak Mart to fund Great Balls.
+- Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
+- Current: Sell high-value items (Thunderstone, Max Ether, TMs) to buy Great Balls.
+- Target: 50+ Great Balls.
 
 # Money Management
-- Current: ¥2923.
-- Sell Values:
+- Current Money: ¥2923
+- Inventory for Sale:
   - MAX ETHER: ¥1000
   - TM50 NIGHTMARE: ¥1000
-  - GUARD SPEC: ¥350
-  - X ATTACK: ¥250
-  - X SPECIAL: ¥175
-  - LEMONADE: ¥175
-  - FRESH WATER: ¥100
-  - HARD STONE: ¥25
-- Purchase Plan: Great Balls (¥600 each). Target 50+.
+  - FULL RESTORE: ¥1500 (Sold Turn 25215)
+  - THUNDERSTONE: ¥1050 (Sold Turn 25211)
+  - TMs (Shadow Ball, Iron Tail, etc.): ~¥1000-2500 each.
 
 # Tile Mechanics
 - FLOOR: Traversable.
@@ -37,5 +33,5 @@
 
 # Progress Log
 - Tin Tower shook after obtaining Clear Bell (Turns 25133-25141).
-- Wise Trio Room (4_2) was empty after tower shook (Turn 25173).
-- Sequential Sighting order is mandatory for the static encounter.
+- Wise Trio Room (4_2) emptied after the tower shook (Turn 25173).
+- Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are done.
