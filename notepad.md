@@ -31,3 +31,9 @@
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated (Room is empty).
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
+
+# Strategy for Triggering Suicune (Route 42 & 36)
+1. Fly to Ecruteak City (Main).
+2. Route 42: Surf to central island (24, 13). Approach Apricorn trees to trigger sighting.
+3. Route 36: Navigate to Sudowoodo junction. Trigger sighting.
+4. Return to Tin Tower 1F for the battle.
