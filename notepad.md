@@ -8,10 +8,9 @@
 - **Immediate:** Gather info and head to Cerulean.
 - **Status:** Route 5 Gate (Saffron Side).
 - **Next Steps:**
-    1. Talk to Officer (0, 4).
-    2. Exit North to Route 5.
-    3. Reach Cerulean City.
-    4. Investigate Power Plant.
+    1. Exit North to Route 5.
+    2. Reach Cerulean City.
+    3. Investigate Power Plant.
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
