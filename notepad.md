@@ -1,9 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Navigate West to (15, 24) by circling North around the NPCs at (21, 24) and (20, 24).
-- **Observation:** Path West on Row 24 is blocked by Cooltrainer F and Slowpoke. Row 23 is clear.
-- **Strategy:** Go Up to Row 23, travel West past the obstacles, then continue North to find the Route 9 connector.
+- **Immediate Task:** Navigate North to (13, 20) to investigate the "Unknown Door" at (13, 19).
+- **Strategy:** If the door is passable or leads somewhere, it might be the way forward. If not, will continue exploring West/North for a path to Route 24.
+- **Hypothesis:** The "Unknown Door" might be a house or passage that allows bypassing obstacles.
 
 # Strategic Goals
 1. **Restore Power:**
