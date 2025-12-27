@@ -23,3 +23,4 @@
 - **Log:** Arrived at Captain's Cabin corridor. Found Captain and a little girl (Twin) at (2, 25).
 - **Hypothesis:** The "Twin" is the granddaughter bugging the Captain.
 - **Plan:** Interact with the Twin and the Captain.
+- **Correction:** Fell down ladder at 1F (30, 14). Need to go back up and walk around it (use x=31).
