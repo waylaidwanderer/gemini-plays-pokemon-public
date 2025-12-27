@@ -39,3 +39,5 @@
 - **Log:** Returned to 1F. Now checking stairs at (19, 15).
 - **Log:** Middle Room (15_5, Rows 25-31) is empty. Returning to 1F.
 - **Plan:** Search the far West side of 1F for the third set of stairs (likely to the Northern Room).
+- **Log:** Entered Lower Deck East (Map 15_6). Contains separate cabins.
+- **Log:** Current room has Twins and a Pokefan. Checking for the girl.
