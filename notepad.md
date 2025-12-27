@@ -42,3 +42,7 @@
 # Progress Log
 - Clear Bell trigger ("Tin Tower Shook") confirmed by Sages.
 - Wise Trio Room (4_2) explored; empty after tower shook.
+
+# Hunt Strategy
+- Sighting Hunt Start: Turn 25202.
+- Sequential Order: Route 36 -> Route 42 -> Tin Tower.
