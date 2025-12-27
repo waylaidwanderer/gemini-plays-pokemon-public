@@ -2,7 +2,6 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
-- Loop Start: Turn 26164 (Stuck on sightings).
 
 ## Current Strategy
 - Plan:
@@ -13,33 +12,29 @@
 
 ## Menu Structures
 - Pokémon Sub-menu (with field moves):
-  1. [Field Move (e.g., CUT, SURF, HEADBUTT)]
-  2. STATS
-  3. SWITCH
-  4. MOVE
-  5. ITEM
-  6. CANCEL
-- Pokémon Sub-menu (no field moves):
-  1. STATS
-  2. SWITCH
-  3. MOVE
-  4. ITEM
-  5. CANCEL
+  1. [Field Move 1]
+  2. [Field Move 2 (if applicable)]
+  ...
+  n. STATS
+  n+1. SWITCH
+  n+2. MOVE
+  n+3. ITEM
+  n+4. CANCEL
 
 ## Tile Mechanics - Route 42
 - WATER: Traversable ONLY with SURF. Verified at (13, 9).
-- While SURFing, selecting a Pokémon in the party menu may show their field move (e.g., HEADBUTT) as the first option if they have one.
+- While SURFing, selecting a Pokémon in the party menu shows field moves first.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event observed (Suicune fled).
 - 3. Eusine Battle (Cianwood): Marker at (11, 20) says defeated.
-- 4. Route 42 sighting: Required trigger at (26, 15). Previous attempt at Turn 26434 failed, possibly due to sequence flags (Radio Tower must be cleared first).
+- 4. Route 42 sighting: Required trigger at (26, 15). Previous attempt at Turn 26434 failed (Radio Tower not cleared).
 - 5. Route 36 sighting: Required trigger at (35, 9).
-- 6. Burned Tower Basement: Checked at Turn 26482 (Empty, confirm flee).
+- 6. Burned Tower Basement: Checked at Turn 26482 (Empty).
 - 7. Ecruteak PC (Eusine): Checked Turn 26404.
 - 8. Dance Theater (Eusine): Checked Turn 26415.
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
 - 11. Tin Tower Battle: LOCKED.
-- 12. Lead Swapping: Calcifer (Lv45) is now leading to handle wild encounters while Surfing.
+- 12. Lead Swapping: Calcifer (Lv45) leading for Surfing encounters.
