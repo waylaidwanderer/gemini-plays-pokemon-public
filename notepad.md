@@ -87,3 +87,8 @@
   - Currently in Garnet's Stats.
   - Action: B (Exit Stats) -> B (Close Context) -> Down x3 (To Mistral) -> A (Select) -> A (Fly).
   - Next Turn: Navigating Fly Map to Cerulean.
+- Menu Correction:
+  - Backed out of Garnet's menu (B, B).
+  - Navigated Down x3 to Mistral.
+  - Selected Mistral -> Fly.
+  - Next: Navigate cursor from Indigo Plateau to Cerulean City.
