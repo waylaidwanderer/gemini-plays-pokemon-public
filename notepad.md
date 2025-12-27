@@ -8,11 +8,10 @@
 - **Immediate:** Gather info and head to Cerulean.
 - **Status:** In Saffron Pokemon Center. Talking to NPCs.
 - **Next Steps:**
-    1. Talk to Teacher (7, 3).
-    2. Talk to Fisher (8, 6).
-    3. Exit Pokemon Center.
-    4. Head North to Route 5.
-    5. Reach Cerulean City.
+    1. Talk to Fisher (8, 6).
+    2. Exit Pokemon Center.
+    3. Head North to Route 5.
+    4. Reach Cerulean City.
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
