@@ -27,7 +27,7 @@
 # Current Plan
 - **Goal:** Explore Saffron City.
 - **Status:** Outside Silph Co. (18, 22).
-- **Action:** Found North-South street at Column 34. Heading North to find the Gym.
+- **Action:** Found Saffron Gym. Reading sign to confirm Leader, then entering.
 - **Next Steps:**
     1. Locate Saffron Gym (Sabrina) - Likely North-East.
     2. Locate Fighting Dojo - Likely near Gym.
