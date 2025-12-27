@@ -43,3 +43,6 @@
 - Turn 25133-25141: Sage confirmed "Tin Tower Shook" (Clear Bell trigger).
 - Turn 25169: Sage (11, 11) shared Ho-Oh/Beasts legend.
 - Turn 25173: Wise Trio Room (4_2) was empty.
+
+# Repositioning Plan
+- Use FLY with ICARUS to land at Ecruteak City Pokemon Center (23, 28) to exit the restricted area efficiently.
