@@ -97,3 +97,5 @@
   4. Check (4, 9) (Left) and (6, 9) (Right).
   5. Check (5, 10) (Ladder?) No, (5, 9) is floor.
 - Remaining Candidates: (3, 8), (4, 8), (4, 9), (6, 9).
+- **Update:** Found Machine Part at (3, 8)!
+- **Next Steps:** Return to Power Plant immediately.
