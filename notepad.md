@@ -1,5 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained), All Sightings Completed.
+- Start: Turn 24182, Saturday 12:45 AM.
 
 ## Story Progress
 - Team Rocket: Disbanded at Radio Tower.
@@ -16,21 +17,15 @@
 ## Tile Mechanics
 - FLOOR: Traversable. Standard ground collision.
 - WALL: Impassable.
-- WATER: Traversable with SURF.
+- WATER: Traversable with SURF. 
 - CUT_TREE: Impassable; remove with CUT. Regrows.
 - GRASS / TALL_GRASS: Traversable; triggers encounters.
 - CAVE / DOOR / WARP: Transitions.
 - LADDER: Vertical transition.
-- HEADBUTT_TREE: Impassable. Interacts with Headbutt.
+- HEADBUTT_TREE: Impassable.
 - FLOOR_UP_WALL: Traversable (ledges/stairs). Ledges are one-way down.
 
 ## Strategy
 - Current: Test "Entry Direction" hypothesis. Entered Route 42 from Mahogany. Surf to the island and sweep again.
-- Exploration: Explore unseen tiles on the east side of Route 42 (around x=55-59) before heading to the island.
-- Alternative: If island sweep fails again, re-verify Wise Trio Room (Tin Tower Gatehouse) for missed battle triggers.
-
-## Reflection Turn 25846
-- Hallucination Fix: Acknowledged Route 42 is 60x18. (55, 16) is valid.
-- Stagnation: Island sweeps from West failed. Switching to East entry.
-- Logic: Suicune is a static overworld sprite. If not present, sighting hasn't triggered.
-- Verification: Must step on every FLOOR tile in the island's southern clearing.
+- Exploration: Explore unseen tiles on the east side of Route 42 (around x=55-59) if the sighting fails.
+- Alternative: If the island sweep fails again, I will stop repeating it. My next steps will be: 1. Re-check the Sudowoodo junction on Route 36. 2. Visit the Poké Seer in Cianwood for potential clues. 3. Re-examine the Wise Trio Room in Ecruteak for any missed interactions. 4. Check Tin Tower 1F again.
