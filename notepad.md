@@ -38,3 +38,5 @@
 - **Plan:** Surf from (14, 18) around the Cut tree to reach Vermilion Gym at (10, 19). Path: (14, 18) -> (14, 19) -> (13, 19) -> (13, 20) -> (10, 20) -> (10, 19).
 - **Log:** Super Nerd at (14, 15) says "There are eight GYMS in KANTO."
 - **Log:** Super Nerd confirms the big building is Vermilion's Gym.
+- **Log:** Cut Tree at (13, 18) blocks the path.
+- **Plan:** Bypassing Cut Tree by Surfing from (14, 17) to (14, 18) and landing at (13, 19).
