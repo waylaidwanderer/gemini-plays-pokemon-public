@@ -14,9 +14,10 @@
 ## Current Strategy
 - Goal: Unlock Suicune sightings by completing Wise Trio interactions.
 - Plan:
-  1. Talk to Gramps in Tin Tower Gatehouse (2, 11).
-  2. Find and talk to the third Wise Trio member (likely in the restricted area).
-  3. Re-verify Route 42 island clearing (southern side) after all dialogue is done.
+  1. Talk to all members of the Wise Trio. (Gramps and Sage 1 done).
+  2. Head to Wise Trio Room via ladder at (17, 3).
+  3. Talk to the final Wise Trio member.
+  4. Re-verify Route 42 island clearing (southern side) after all dialogue is done.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
@@ -40,5 +41,5 @@
 - Turn 26110: Triggered 'Tin Tower Shake' event.
 - Turn 26204: Confirmed Ecruteak PC is empty of Eusine.
 - Turn 26214: Talked to Sage member of Wise Trio.
-- Turn 26227: Talked to Gramps (Wise Trio member?) in Gatehouse. He spoke of the tower legends.
-- Next: Heading to Wise Trio Room to find the remaining members.
+- Turn 26227: Talked to Gramps (Wise Trio member?) in Gatehouse.
+- Next: Find final member in Wise Trio Room.
