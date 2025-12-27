@@ -5,16 +5,16 @@
   1. Burned Tower (Flee event observed).
   2. Cianwood City North (Flee event observed).
   3. Eusine Battle (Cianwood) - Defeated (Turn 21034).
-  4. Route 42 sighting: REQUIRED. Target: (26, 15).
-  5. Route 36 sighting: REQUIRED. Target: (35, 9).
-  6. Tin Tower Gatehouse: Sage passage granted (Turn 26846).
-  7. Wise Trio Battle: Gated by sightings.
+  4. Route 42 sighting: COMPLETE (Confirmed by dialogue).
+  5. Route 36 sighting: COMPLETE (Confirmed by dialogue).
+  6. Tin Tower Gatehouse: Dialogue "The Tin Tower shook!" confirmed (Turn 26214).
+  7. Wise Trio Battle: NEXT. Location: Wise Trio Room (Map 4_2).
 
 ## Strategy for Wise Trio Battle
 - Sages: Gaku, Masa, Koji.
 - Pokémon: Noctowl (Lv32) and Kadabra (Lv32).
 - Strategy: Lead Calcifer (Typhlosion) with Thunderpunch.
-- Note: Sages will ONLY battle once all Suicune sightings are complete.
+- Note: Sages are in the Wise Trio Room, NOT the main gatehouse.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Standard walkable tile. Traversable.
@@ -29,13 +29,13 @@
 - **Sequential Events:** Legendary beast sightings are strictly sequential.
 - **Verification:** An empty location does NOT mean a sighting is complete. The event must be triggered by approaching the specific coordinates.
 - **Sage Passage:** Passing the gatehouse sage does NOT mean sightings are complete; it only means you have the Clear Bell (or Eusine is defeated). The Trio inside is the final check.
+- **Dialogue Triggers:** "The Tin Tower shook!" is the definitive proof that all overworld sightings are flagged as complete.
 
 ## Suicune Sighting Troubleshooting
-- Route 42 (26, 15): Target. Must approach precisely. Current Status: Empty. Eusine not present.
-- Route 36 (35, 9): Attempted (Turn 26933) - No trigger.
-- Hypothesis: Tracker assumed "empty" meant "triggered," but it might mean "not yet spawned."
-- Dialogue Check: Tin Tower Gatehouse Sages say "The Tin Tower shook! A Pokemon returned to the top!" but won't battle.
-- To Check:
-  - Approach (26, 15) on Route 42 from the water/south.
-  - Check if Eusine appears after the flee.
-  - If Route 42 triggers, THEN go to Route 36.
+- Route 42 (26, 15): Confirmed complete via dialogue.
+- Route 36 (35, 9): Confirmed complete via dialogue.
+- Status: Ready for Wise Trio.
+- To Do:
+  - Enter Tin Tower Gatehouse.
+  - Go to Wise Trio Room (Map 4_2).
+  - Defeat Sages Gaku, Masa, and Koji.
