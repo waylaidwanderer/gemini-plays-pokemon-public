@@ -46,16 +46,17 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
-  - **Issue:** Access to Upper Path is tricky.
-  - **Planned Path:**
-    1. From (27, 12), go East to (33, 12).
-    2. Go South down the alley (Col 33) to (33, 16).
-    3. Go East through the gap to (34, 16).
-    4. Go South down Col 34 to bypass the "Uncuttable Tree" area.
-    5. Exit East to Route 9.
-  - **Status:** Executing path.
-  - **Note:** The "Unmarked House" at (28, 17) is likely just the Police Station (already visited).
-  - **Plan:** Head to (34, 16).
+  - **Issue:** Entered via Lower path (gap at 36, 22). Stuck below ledges previously.
+  - **Status:** The path via (34, 16) leads forcedly to the gap at (36, 22).
+  - **Hypothesis:** There must be a way to transition from Lower to Upper Route 9, or a Surfable water route on Route 9 itself.
+  - **Plan:**
+    1. Enter Route 9 via (39, 22).
+    2. Immediately look for:
+       - Surfable water.
+       - Gaps in the ledge.
+       - A path wrapping around.
+  - **Note:** The "Upper" entrance might actually be the one North of the ledges on Route 9, accessible from Route 10 or Surf.
+  - **Confirmed:** Col 34 is a one-way corridor South to row 22. No Northern East exit.
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
