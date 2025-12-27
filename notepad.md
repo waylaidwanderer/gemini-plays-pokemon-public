@@ -29,3 +29,4 @@
   - **Current Location:** Lower Deck Far East (via 1F 27,15).
   - **Findings:** Found Gentleman (Grandfather). He says the girl is "bugging someone."
 - **Action:** Exiting to 1F. Heading West to find the Captain's Quarters (likely the Northern Room of 15_5).
+- **Log:** Exiting Lower Deck Far East. Heading to 1F West side.
