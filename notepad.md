@@ -9,7 +9,6 @@
   5. Tin Tower 1F: Talk to Sages with Clear Bell. [Done - Turn 24814]
 
 # Progress Tracking
-- Route 42: Rows 11, 12, 14, 15, 16, 17 searched. Row 13 (25-31, 13) remains.
 ## Suicune Sighting Sequence (Crystal)
 1. Burned Tower (Ecruteak): Beasts flee. [Verified]
 2. Cianwood City (North): Sighting. [Verified]
