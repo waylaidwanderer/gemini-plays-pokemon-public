@@ -42,16 +42,5 @@
   - **Status:** Backtracking on Route 25.
   - **Correction:** Water at Bill's House is a dead end.
   - **Action:** Return to Bridge (West Side). Surf from (6, 15).
-  - **Route:** Navigate to (8, 11), go South down the ladders to (8, 15), then West to (6, 15).
+  - **Route:** Navigate to (6, 15) by going West (using ledges if necessary) then South.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
-- **Restore Power Route:**
-  - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
-- Navigation Error: Mistook Overworld movement for Fly Map navigation.
-- Result: Walked back inside Indigo Plateau Center.
-- Action: Exiting Center (Down) to retry Fly sequence from scratch.
-- Lesson: Verify menu state visually before inputting directional commands.
-- Exited Pokemon Center.
-- Opening Menu to Fly.
-- Sequence: Start -> Pokemon -> Mistral -> Fly.
-- Goal: Reach Cerulean City to bypass Route 9.
-- Status: Party Menu Open. Cursor on Garnet. Navigating to Mistral (Slot 5) to Fly.
