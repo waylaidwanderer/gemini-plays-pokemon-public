@@ -1,9 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Talk to the Granny at (2, 4) and investigate the back of the house (Row 2) for a potential back exit or "Gramps".
-- **Observation:** Entered the "Unknown House". It contains a Granny and a Zubat. There appears to be more room to the north (Rows 0-3).
-- **Hypothesis:** This house might connect to another area or contain a useful trade/info.
+- **Immediate Task:** Talk to Gramps (currently at 1, 2) and check the Rhydon at (5, 2).
+- **Observation:** Granny mentioned her husband lives happily with Pokemon he got through trades.
+- **Hypothesis:** Gramps might offer a trade or have more info. The house seems to be a "Trade House".
+- **Map:** Map 7_3 has unseen tiles at the top row. Need to check if there's a back door or upstairs.
 
 # Strategic Goals
 1. **Restore Power:**
