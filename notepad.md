@@ -58,3 +58,6 @@
   - Selected Mistral -> FLY.
   - Anticipating Fly Map to open.
   - Next: Navigate cursor to Cerulean City.
+- Used Strength (Muscle) by mistake.
+- Action: Clearing text and opening Start Menu.
+- Next: Navigate to Pokemon -> Mistral -> Fly.
