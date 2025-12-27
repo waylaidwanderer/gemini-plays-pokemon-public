@@ -39,9 +39,9 @@
 
 # Active Plans
 - **Restore Power:**
-  - **Status:** Exiting Cerulean Pokemon Center.
-  - **Immediate:** Head North to Route 24.
-  - **Next:** Surf East/South to Power Plant.
+  - **Status:** On Route 25 (6, 15).
+  - **Action:** Surfing South to Power Plant.
+  - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
   - **Goal:** Deliver Machine Part to Manager.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
