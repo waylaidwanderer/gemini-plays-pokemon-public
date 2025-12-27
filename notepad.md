@@ -46,10 +46,16 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
-  - **Issue:** Entered via Lower path (gap at 7_17 (36,22)). Stuck below ledges.
+  - **Issue:** Entered via Lower path. Stuck below ledges.
   - **Solution:** Return to Cerulean City and find a Northern entrance to access the Upper path.
-  - **Status:** The "Cut Tree" at (33, 24) is UNCUTTABLE (confirmed). Must loop back West and North.
-  - **Current Plan:** From (30, 24), head West to X=6, go North through the gap at (6, 19), then East along Row 12 to reach (27, 12).
+  - **Status:** Direct North blocked by buildings.
+  - **Verified Path:**
+    1. Go West to X=6 (Vertical corridor at the edge of town).
+    2. Go North to Row 17 (Gap at 6, 19).
+    3. Go East along Row 17 to X=20 (Corridor behind PokeCenter).
+    4. Go North through gap at (20, 15).
+    5. Go East along Row 12 to (27, 12).
+  - **Current Step:** Reaching (6, 20).
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
