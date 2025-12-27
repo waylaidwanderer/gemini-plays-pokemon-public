@@ -23,7 +23,8 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Current Status:** Traversing Route 25 Eastward.
-  1. Navigate to the far East edge of Route 25 (Column 54).
-  2. Head South along the narrow land strip to enter Route 24 (East Side).
-  3. Locate the Power Plant entrance or Surfing spot.
+  - **Status:** Route 25 East is a dead end. Returning to Cerulean.
+  1. Visit Bill's House (Route 25) to show Oddish to Grandpa.
+  2. Return to Cerulean City.
+  3. Enter Route 9 and Surf to Power Plant.
+  4. Deliver Machine Part.
