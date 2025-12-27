@@ -17,12 +17,13 @@
 - Note: Sages will ONLY battle once all Suicune sightings are complete.
 
 ## Tile Mechanics - Global
-- **FLOOR**: Standard walkable tile.
+- **FLOOR**: Standard walkable tile. Traversable.
 - **WALL / VOID / HEADBUTT_TREE**: Impassable terrain.
 - **WATER**: Traversable via SURF.
 - **CUT_TREE**: Requires CUT to clear.
 - **LEDGE_HOP**: One-way traversal (jump).
 - **DOOR / STAIRS / LADDER**: Warp tiles.
+- **WARP_CARPET**: Map transition tile.
 
 ## General Lessons Learned
 - **Sequential Events:** Legendary beast sightings are strictly sequential.
@@ -30,9 +31,10 @@
 - **Sage Passage:** Passing the gatehouse sage does NOT mean sightings are complete; it only means you have the Clear Bell (or Eusine is defeated). The Trio inside is the final check.
 
 ## Suicune Sighting Troubleshooting
-- Route 42 (26, 15): Target. Must approach precisely. If empty, check for Eusine nearby.
+- Route 42 (26, 15): Target. Must approach precisely. Current Status: Empty. Eusine not present.
 - Route 36 (35, 9): Attempted (Turn 26933) - No trigger.
 - Hypothesis: Tracker assumed "empty" meant "triggered," but it might mean "not yet spawned."
+- Dialogue Check: Tin Tower Gatehouse Sages say "The Tin Tower shook! A Pokemon returned to the top!" but won't battle.
 - To Check:
   - Approach (26, 15) on Route 42 from the water/south.
   - Check if Eusine appears after the flee.
