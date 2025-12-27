@@ -18,3 +18,16 @@
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
 - **Silph Co:** Tourist spot (according to Youngster).
 - **Magnet Train:** Connects to Goldenrod (needs pass).
+
+# Tile Mechanics
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable tile.
+- **LEDGE_HOP_DOWN:** One-way jumpable ledge (South).
+- **TALL_GRASS:** Wild Pokemon encounters.
+- **WARP_CARPET_DOWN:** Transition to map below.
+- **DOOR:** Warp to interior.
+
+# Post-Game Status
+- **Location:** Cerulean City (South Entrance).
+- **Goal:** Reach Power Plant.
+- **Obstacle:** Wall at y=31 blocking North path. Exploring West.
