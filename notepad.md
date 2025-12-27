@@ -68,3 +68,6 @@
 - Action: Selected Mistral.
 - Anticipating: Context menu with 'FLY' option.
 - Next: Select 'FLY' -> Open Map -> Target Cerulean.
+- Mistral's menu open. 'FLY' selected.
+- Action: Pressing A to open Fly Map.
+- Next: Determine cursor path to Cerulean City (likely Right or Down).
