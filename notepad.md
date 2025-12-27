@@ -24,4 +24,5 @@
 - **Plan:** Explore the city center. Locate Gym and Pokemon Center.
 - **Observation:** Spotted a Sleeping Snorlax at (34, 8) blocking the path.
 - **Log:** Found Vermilion Mart at (21, 13).
-- **Plan:** Head North to find the Pokemon Center (expected around x=25, y=7). Then find the Gym.
+- **Log:** Path North is blocked by fences/buildings at y=11.
+- **Plan:** Go around the Mart to the West (x<20) to find a path North to the Pokemon Center.
