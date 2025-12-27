@@ -1,11 +1,9 @@
 # Suicune Quest Strategy (Crystal Version)
-- **Status:** All overworld sightings (Burned Tower, Cianwood, Route 42, Route 36) confirmed via "Tin Tower shook" dialogue (Turn 27084).
-- **Current Objective:** Defeat the Wise Trio to access Suicune in Tin Tower.
-- **Problem:** Wise Trio is missing from Map 4_2 despite "shook" dialogue.
-- **Hypothesis:** A specific NPC interaction or event flag is missing.
-- **Plan:** 
-  1. Use `suicune_tracker_v2` to verify exact requirements.
-  2. Re-check the Tin Tower entrance at (37, 7) on Map 4_9.
+- **Status:** All overworld sightings confirmed. Gatehouse Sage (4_1) confirmed "Tower Shook" (Turn 27084).
+- **Tracker Update:** `suicune_tracker_v2` confirms the Wise Trio stage is bypassed/complete and Suicune is waiting on Tin Tower 1F (Turn 27090).
+- **Current Objective:** Battle Suicune on 1F.
+- **Battle Prep:** Switch Gastly (XENON) to lead for Hypnosis/Mean Look.
+- **Wise Trio Sages on 1F:** Gaku (11, 11), Masa (14, 6), Koji (5, 9). Talk to all to ensure Suicune spawns.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Standard walkable tile. Traversable.
