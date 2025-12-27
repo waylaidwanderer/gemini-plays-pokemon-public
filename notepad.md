@@ -24,7 +24,7 @@
 - **Cerulean City:**
   - **Fisherman:** Confirmed Power Plant is near end of Route 9.
   - **Cooltrainer M:** Mentions trainers at Cerulean Cape (Route 25).
-  - **Gym:** Located, but ignoring for now to focus on Power Plant.
+  - **Gym:** Located at (30, 23).
   - **Bike Shop:** Found sign.
 - **Saffron City:**
   - Magnet Train station exists but no power.
