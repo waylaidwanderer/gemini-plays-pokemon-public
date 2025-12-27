@@ -53,4 +53,6 @@
 - **Observation:** Found a gap in the ledges at x=6 (Row 19).
 - **Strategy:** Heading North through (6, 19) to reach Route 24.
 - **Hypothesis:** To reach Route 9, I may need to Surf South from the water accessible at the North end of Nugget Bridge (Route 24), since the bridge itself is walled off.
-- **Immediate Task:** Defeat Schoolboy Joe (No. 3) on Route 25.
+- **Battle Log:** Defeated Schoolboy Joe (No. 3) on Route 25.
+- **Immediate Task:** Bypass Schoolboy Joe and challenge the Lass at (22, 6).
+- **Observation:** Joe appears to be blocking the only path North. He may move after dialogue or be passable.
