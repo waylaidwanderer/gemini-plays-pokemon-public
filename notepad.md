@@ -1,10 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Exit Menu (B x3) and navigate West to (20, 24) to bypass the ledge at (32, 23).
-- **Observation:** The tree at (33, 24) is NOT cuttable ("There's nothing to CUT here"). This means the path to Route 9 is not through this tree.
-- **Hypothesis:** I must circumnavigate the ledge by going North (near Route 24) and then East.
-- **Markers:** Removing 'Cut Tree' marker and replacing with 'Uncuttable'.
+- **Immediate Task:** Navigate West to (15, 24) by circling North around the NPCs at (21, 24) and (20, 24).
+- **Observation:** Path West on Row 24 is blocked by Cooltrainer F and Slowpoke. Row 23 is clear.
+- **Strategy:** Go Up to Row 23, travel West past the obstacles, then continue North to find the Route 9 connector.
 
 # Strategic Goals
 1. **Restore Power:**
