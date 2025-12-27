@@ -41,3 +41,7 @@
 - Eusine's location depends on quest progress.
 - Sages granting passage to Tin Tower indicates the "Clear Bell" event is active.
 - Verification is key: Marker at (11, 20) confirms defeat, but sightings failure suggests missing flag or sequence issue.
+## Strategy for Blackthorn City
+- Route: Route 44 -> Ice Path -> Blackthorn City.
+- Requirements: Waterfall (HM07) likely needed for navigation.
+- Objective: Obtain the Rising Badge from Gym Leader Clair at next opportunity if Suicune hunt remains stalled.
