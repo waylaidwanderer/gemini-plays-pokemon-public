@@ -12,8 +12,8 @@
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): [Pending/Checked] Swept island Turn 25761.
-4. Route 36 (Sudowoodo Junction): [Pending/Checked] Swept junction Turn 25794.
+3. Route 42 (Central Island): [Pending]
+4. Route 36 (Sudowoodo Junction): [Pending]
 5. Tin Tower 1F: Pending.
 
 ## Tile Mechanics
@@ -32,4 +32,6 @@
 - Hypothesis: Talking to all Sages was the final trigger for Route 42. [Denied - Swept island, no trigger].
 
 ## Strategy
-- Current: Check Wise Trio Room in Ecruteak to prove worth and unlock overworld sightings.
+- Current: Navigate to Route 42 central island and perform a granular sweep to find the Suicune trigger tile.
+- Next: Check Route 36 for the final overworld sighting.
+- Final: Return to Tin Tower 1F for the static encounter.
