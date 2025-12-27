@@ -3,7 +3,7 @@
 2. Revised Trigger Sequence (Mandatory Sightings):
    - Burned Tower: Beasts flee. [Done]
    - Cianwood City (North): Suicune observed. [Done]
-   - Route 42 (Central Island): Approach Apricorn trees. [Pending]
+   - Route 42 (Central Island): Approach Apricorn trees. [In Progress]
    - Route 36 (Sudowoodo junction): Approach junction. [Pending]
    - Tin Tower 1F: Return for battle. (Dialogue with Sages alone is NOT enough).
 3. Battle Strategy: Use Sleep Powder (KIMCHI) to prevent Suicune from using Roar. Weaken carefully and capture with Ultra/Great Balls.
