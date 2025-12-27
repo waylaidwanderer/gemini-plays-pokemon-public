@@ -45,11 +45,12 @@
 - Found the path to Route 9! It was a gap in the wall at (36, 22), bypassing the cuttable tree.
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
-  - **Current Status:** Traversing Route 9 Eastbound towards Power Plant.
-  - **Path Taken:** Cerulean City -> Route 9 Entrance (39, 22) -> Cut Tree at (5, 8) -> Lower Ledge Path (Row 12).
-  - **Observation:** Upper path has grass/trainers. Lower path seems to bypass some, but contains trainers too (Lass ahead).
-  - **Immediate Goal:** Continue East on Route 9 towards the Power Plant.
-  - **Status:** Defeated Youngster Dean. Avoiding the Lass on the lower path for now to stay on the main route.
+  - **Goal:** Reach Power Plant (East).
+  - **Status:** Backtracking West to find a way to the upper/lower tiers.
+  - **Plan:**
+    1. Go West to x=20.
+    2. Go North to x=20, y=10.
+    3. Explore the upper tier heading West/North.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
