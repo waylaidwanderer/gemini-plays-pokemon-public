@@ -23,9 +23,8 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** Route 25 East is a dead end. Returning to Cerulean.
-  1. Visit Bill's House (Route 25) to show Oddish to Grandpa.
-  2. Return to Cerulean City.
-  3. Enter Route 9 and Surf to Power Plant.
-  4. Deliver Machine Part.
+  - **Status:** Bill's Grandpa checked (Needs Lickitung). Returning to Cerulean.
+  1. Return to Cerulean City.
+  2. Enter Route 9 and Surf to Power Plant.
+  3. Deliver Machine Part.
 - **Bill's Grandpa Request:** Wants to see a Pokémon with a "long tongue" (Lickitung). I don't have one.
