@@ -75,3 +75,6 @@
 - Current Location: Indigo Plateau.
 - Target: Cerulean City.
 - Next Action: Navigate cursor to Cerulean and press A.
+- Fly Navigation Sequence: Down (to Viridian?) -> Right (to Saffron) -> Up (to Cerulean) -> A (Fly).
+- Confirmation: Screen text previously showed 'Saffron City' after Down+Right.
+- Target: Cerulean City.
