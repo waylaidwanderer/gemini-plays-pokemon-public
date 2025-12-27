@@ -47,13 +47,13 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Surfing in Cerulean Gym to find the Machine Part.
+  - **Status:** Searching Center Pool for Machine Part (checking 5,5; 5,6; 4,6).
   - **Clues:**
     - Rocket Grunt (Route 24): Confessed to hiding the part.
     - **Location:** "Inside water put it I did. Look for in water center of GYM at." -> Cerulean Gym, center pool.
   - **Plan:**
-    1. Surf to the center of the pool (approx 5, 7).
-    2. Find and recover the Machine Part (Press A on the water tiles).
+    1. Search water tiles at (5,5), (5,6), (4,6), (4,5).
+    2. Recover the Machine Part.
     3. Return to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
