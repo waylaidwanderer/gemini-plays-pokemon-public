@@ -130,3 +130,5 @@
 - Plan:
   1. Head East along Row 17 to the river (x=56).
   2. Surf across the river to reach the Power Plant.
+- Jumped ledge at (35, 16).
+- Heading East on Row 17 to water's edge at (56, 17).
