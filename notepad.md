@@ -42,9 +42,10 @@
 - Tactical Plan:
   1. Turn 1: Mean Look (prevents fleeing, but NOT Roar).
   2. Turn 2+: Hypnosis (MANDATORY to prevent Roar and Bubblebeam).
-  3. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
-  4. Night Shade: Deals 21 damage. Use only if HP is high.
-  5. Priority: Keep Suicune asleep at all times.
+  3. If Roar is used: The battle ends. I must save before the encounter.
+  4. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
+  5. Night Shade: Deals 21 damage. Use only if HP is high.
+  6. Priority: Keep Suicune asleep at all times.
 
 # NPC & Interaction Rules
 - Sage (4, 6): Passage guard. Granted access. [Verified]
