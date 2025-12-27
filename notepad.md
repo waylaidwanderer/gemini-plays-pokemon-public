@@ -19,7 +19,7 @@
 - **Room 4 (Top Right):**
     - Warp J (15, 3) [From G]
     - Warp K (19, 3) -> Room 2 (15, 15) [Warp E]
-    - Warp L (15, 5) -> ?
+    - Warp L (15, 5) [From BB]
     - Warp M (19, 5) -> ?
 - **Room 5 (Bottom Left):**
     - Warp N (5, 15) [From D]
@@ -38,17 +38,18 @@
     - Warp Y (5, 11) -> ?
 - **Room 8 (Top Left):**
     - Warp AA (5, 3) [From T]
-    - Warp BB (1, 3) -> ?
+    - Warp BB (1, 3) -> Room 4 (15, 5) [Warp L]
     - Warp CC (1, 5) -> ?
     - Warp DD (5, 5) -> ?
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp BB at (1, 3).
-- **Status:** Defeated Medium Doris.
+- **Immediate:** Battle Youngster at (17, 4).
+- **Status:** Just arrived in Room 4 via Warp BB -> L.
 - **Next Steps:**
-    1. Navigate to Warp BB (1, 3).
-    2. Continue mapping warps until Sabrina is found.
+    1. Defeat Youngster.
+    2. Take Warp K (19, 3) to return to Room 2.
+    3. Take Warp D -> Warp P -> Warp S to reach Sabrina.
 
 # Tile Mechanics
 - **WARP_PANEL:** Stepping on these instantly teleports the player to another location. If you arrive on one, you must step off and step back on to use it again.
