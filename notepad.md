@@ -1,51 +1,28 @@
 # Kanto Campaign Status
-- **Location:** Indigo Plateau (Route 23).
-- **Objective:** Fly to Cerulean City to bypass Route 9 obstacles.
+- **Location:** Route 24 (Nugget Bridge).
+- **Objective:** Access East side path to reach Power Plant.
 
 # Strategic Goals
-1. **Restore Power:**
-   - Investigate Power Plant (East of Cerulean, end of Route 9).
-   - Fix the Generator (likely requires a part).
-2. **Wake Snorlax:**
-   - Requires Poke Flute functionality.
-   - Requires Power restored.
-3. **Collect Kanto Badges:**
-   - [x] Vermilion (Thunder)
-   - [x] Saffron (Marsh)
-   - [ ] Cerulean (Cascade)
-   - [ ] Celadon (Rainbow)
-   - [ ] Fuchsia (Soul)
-   - [ ] Pewter (Boulder)
-   - [ ] Viridian (Earth)
-   - [ ] Cinnabar (Volcano)
+1. **Restore Power:** Investigate Power Plant (East of Cerulean).
+2. **Wake Snorlax:** Needs Poke Flute & Power.
+3. **Collect Badges:** Thunder (Done), Marsh (Done), others pending.
 
-# Active Quests & Leads
-- **Bill's Grandpa (Route 25):** Wants to see a Lickitung. Reward: Everstone.
-- **Power Plant:** Located at the end of Route 9.
-- **Copycat Girl (Saffron):** Missing doll.
+# Active Quests
+- **Bill's Grandpa:** Route 25.
+- **Power Plant:** Generator Part needed.
+- **Copycat Girl:** Missing Doll.
 
 # Discovery Log
-- **Cerulean City:**
-  - Gym located at (30, 23).
-  - Cooltrainer M mentions trainers at Cerulean Cape (Route 25).
-- **Saffron City:**
-  - Magnet Train station exists but no power.
-- **Route 9:**
-  - Land route (x=20-41) is a trap/dead end due to impassable ledges/walls.
-  - Must access Power Plant via water (Surf from Route 24/25).
+- **Cerulean City:** Gym at (30, 23).
+- **Route 9:** Land route is blocked. Must Surf to Power Plant.
+- **Route 24/25:** West side water dead-ends in Cerulean. Must use East side path.
 
 # Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as a WALL from the North. Cannot be jumped. (Confirmed Route 9).
+- **FLOOR_UP_WALL:** Acts as a WALL from the North.
 
 # Active Plans
-- **Restore Power & Badges:**
-  - **Status:** Backtracking on Route 25.
-  - **Correction:** Water at Bill's House is a dead end.
-  - **Action:** Cross Nugget Bridge to Route 24.
-  - **Route:** Go South from (9, 9) to exit at (9, 17).
-  - **Next:** On Route 24, access East side water and Surf South to Power Plant.
-  - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
-- **Lesson:** West side water on Route 24/25 dead-ends in Cerulean. Must use East side water to reach Power Plant.
-- **Maze Path (East to West):** 
-  - From (21, 7): Right -> Right -> Up -> Right -> Right -> Down -> Down -> Down -> Right -> Down -> Down to (26, 11).
-  - Then Left along Row 11 to x=23, Up to Row 9, Left across Row 9.
+- **Reach Power Plant:**
+  1. From Route 24 Bridge, go North to Route 25.
+  2. Traverse East on Route 25 to x=11.
+  3. Go South to enter Route 24 (East Side).
+  4. Follow East Side South to Cerulean/Water access.
