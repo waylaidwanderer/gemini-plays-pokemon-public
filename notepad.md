@@ -46,10 +46,14 @@
     - **Sabrina is located at (9, 8).**
 
 # Current Plan
-- **Goal:** Earn Marsh Badge.
-- **Immediate:** Defeat Leader Sabrina.
-- **Status:** In Battle. Muscle vs Alakazam.
+- **Goal:** Explore Kanto.
+- **Immediate:** Exit Saffron Gym.
+- **Status:** Defeated Sabrina. Obtained Marsh Badge.
 - **Next Steps:**
-    1. Defeat Alakazam with Strength.
-    2. Collect Marsh Badge.
-    3. **CRITICAL:** Fix map marker for Medium Doris at (18, 16) immediately after battle.
+    1. Warp (11, 9) -> Room 8.
+    2. Warp BB (1, 3) -> Room 4.
+    3. Warp K (19, 3) -> Room 2.
+    4. Warp B (19, 17) -> Room 1.
+    5. Exit Gym.
+    6. Heal at Pokemon Center.
+    7. Head North to Route 5/Cerulean City.
