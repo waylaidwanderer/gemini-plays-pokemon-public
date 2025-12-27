@@ -134,5 +134,49 @@
         "action_counter": 25536
       }
     ]
+  },
+  "find_path_v4": {
+    "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a list of button strings. Updated to include more traversable tile types (including WATER, WARP_CARPET and STAIRS) and robust player position detection from the Mental Map. Specifically handles landing from water onto floor tiles.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
+          "type": "boolean"
+        },
+        "can_surf": {
+          "default": false,
+          "type": "boolean"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "nullable": true,
+          "type": "integer"
+        },
+        "start_y": {
+          "nullable": true,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "end_x",
+        "end_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    start_x = input_data.get('start_x')\n    start_y = input_data.get('start_y')\n    \n    if start_x is None or start_y is None:\n        player_tile = root.find(\".//Tile[Player]\")\n        if player_tile is not None:\n            start_x = int(player_tile.attrib['id'])\n            start_y = int(player_tile.find(\"..\").attrib['id'])\n        else:\n            print(\"Error: Player position not found.\")\n            return\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n\n    walkable_types = ['FLOOR', 'TALL_GRASS', 'GRASS', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'STAIRS', 'FLOOR_UP_WALL']\n    if can_surf:\n        walkable_types.append('WATER')\n\n    def is_traversable(x, y, from_x, from_y):\n        if not (0 <= x < width and 0 <= y < height): return False\n        tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n        if tile is None: return False\n        \n        t_type = tile.attrib['type']\n        if t_type not in walkable_types: return False\n        \n        # Check for Objects (NPCs, items, etc.)\n        if tile.find(\"Object\") is not None: return False\n        \n        # Check for landing from water\n        if from_x is not None and from_y is not None:\n            prev_tile = root.find(f\".//Row[@id='{from_y}']/Tile[@id='{from_x}']\")\n            if prev_tile is not None and prev_tile.attrib['type'] == 'WATER' and t_type != 'WATER':\n                # Landing requires facing and pressing A? No, usually just walking. \n                # But find_path should just return the direction.\n                pass\n        \n        return True\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(path)\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited and is_traversable(nx, ny, x, y):\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n\n    print(\"Error: Path not found.\")\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T11:19:09.748Z",
+        "action_counter": 25621
+      }
+    ]
   }
 }
