@@ -5,19 +5,18 @@
 ## Current Strategy
 - Goal: Complete Suicune overworld sightings sequence.
 - Plan:
-  1. Use Surf at (13, 9) to enter Route 42 water. [START TURN: 26262]
-  2. Navigate to (24, 12) on the central island.
-  3. Use Cut on the tree at (24, 13).
-  4. Approach Suicune at the sighting spot.
-  5. If Suicune appears, follow it to Route 36.
-  6. If Suicune does not appear, re-verify Ecruteak PC for Eusine.
+  1. Fly to Ecruteak City and check Pokémon Center for Eusine. [NEW TRIGGER]
+  2. If Eusine is present, talk to him to flag the Route 42 sighting.
+  3. Return to Route 42 (Central Island) and approach the sighting spot.
+  4. If Suicune appears, follow it to Route 36.
+  5. Sighting #4: Route 36 (Sudowoodo Junction).
 
 ## Suicune Quest Diagnostic Log
 1. Burned Tower: Flee event completed.
 2. Cianwood City (North): Flee event completed. Eusine defeated.
-3. Flag: Eusine dialogue in Ecruteak PC. [STATUS: Eusine missing from PC at Turn 26204]
+3. Flag: Eusine dialogue in Ecruteak PC. [STATUS: Missing at Turn 26204; Re-checking after Sage dialogue]
 4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [STATUS: Sages mentioned 'tower shook' at Turn 26110]
-5. Sighting #3: Route 42 (Central Island). [STATUS: Attempting precision approach]
+5. Sighting #3: Route 42 (Central Island). [STATUS: Failed at Turn 26277; awaiting PC flag]
 6. Sighting #4: Route 36 (Sudowoodo Junction). [LOCKED]
 7. Tin Tower 1F: Static encounter. [LOCKED]
 
