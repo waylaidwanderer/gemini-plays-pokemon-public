@@ -47,6 +47,7 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
+  - **Status:** Returning to Cerulean City (Gym).
   - **Clues:**
     - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
     - Confirmed: The part was stolen.
