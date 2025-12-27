@@ -3,7 +3,7 @@
 2. Sightings Required:
    - Burned Tower (Ecruteak): Beasts flee. [Done]
    - Cianwood City (North): Suicune observed. [Done]
-   - Route 42 (Central Island): Middle Apricorn grove. [Pending]
+   - Route 42 (Central Island): Middle Apricorn grove. [Checked at Turn 24513 - Nothing found]
    - Route 36 (Sudowoodo junction): [Pending]
 3. Final Trigger: Return to Tin Tower 1F. Suicune will appear in the center.
 4. Battle: STATIC encounter. Does NOT roam/run. Roar ends battle (reload if used).
