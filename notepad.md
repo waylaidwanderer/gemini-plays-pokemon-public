@@ -14,15 +14,14 @@
 2. Cianwood City (North): [Verified]
 3. Route 42 (Central Island): Failed (Turn 25654, Sprite not visible after thorough sweep). Note: Prerequisites might be missing despite completed sightings.
 4. Route 36 (Sudowoodo Junction): Failed (Turn 25667, Sprite not visible). Note: Sighting #3 must be completed first.
-5. Tin Tower 1F: Pending.
-
+5. Tin Tower 1F: Checked (Turn 25726, Sprite not visible).
 ## Hypotheses & Strategy
-- Hypothesis: The Wise Trio or Eusine at the Tin Tower Gatehouse hold the next flag now that Team Rocket is gone.
+- Hypothesis: Talking to all Sages in the Gatehouse and Tin Tower 1F while the Clear Bell is active has set the flag for the Route 42 sighting.
 - Strategy:
-    1. Talk to all Sages and Gramps in the Gatehouse. [Done - Turn 25706]
-    2. Investigate Tin Tower grounds via Section 3 (Left Strip) of map 4_1.
-    3. Reach Section 3 via the Wise Trio Room (4_2) ladder at (17, 3) in map 4_1.
-    4. If Suicune is not at Tin Tower, return to Cianwood to check for missed Eusine dialogue.
+    1. Exit Tin Tower 1F and Ecruteak.
+    2. Travel to Route 42 central island.
+    3. Scour the island for Suicune sighting.
+    4. If unsuccessful, re-check Cianwood for missed flags.
 
 ## Tin Tower Gatehouse Investigation (Archived Results)
 - Result: Gramps talked about the two towers and the two Pokémon that flew away. Sages mentioned a Pokémon returned to the top. This dialogue confirms the Clear Bell is recognized and the tower is active. [Turn 25706]
