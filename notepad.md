@@ -23,8 +23,8 @@
     - Warp M (19, 5) -> ?
 
 # Current Plan
-- **Goal:** Win Battle against Medium Rebecca.
-- **Immediate:** Defeat her Pokemon.
+- **Goal:** Win Battle against Psychic Jared.
+- **Immediate:** Defeat Exeggcute (2nd Pokemon).
 - **Next Steps:**
     1. Test Warp C (19, 15).
     2. Test Warp D (15, 17).
