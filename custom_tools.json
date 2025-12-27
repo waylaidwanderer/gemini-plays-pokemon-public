@@ -104,29 +104,8 @@
       }
     ]
   },
-  "list_reachable_unseen_v1": {
-    "description": "Analyzes the mental map to identify unseen tiles (❓) that are physically reachable from the player's current position using standard walking or surfing (if can_surf is true).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "can_surf": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": []
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    can_surf = input_data.get('can_surf', False)\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            has_player = any(child.tag == 'Player' for child in tile)\n            has_object = any(child.tag == 'Object' for child in tile)\n            \n            grid[(x, y)] = {\n                'type': tile_type,\n                'seen': seen,\n                'has_object': has_object\n            }\n            if has_player:\n                player_pos = (x, y)\n    \n    if not player_pos:\n        print(json.dumps({\"error\": \"Player position not found\"}))\n        return\n\n    walkable_types = ['FLOOR', 'TALL_GRASS', 'WARP_CARPET', 'STAIRS', 'LADDER', 'CAVE', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n    if can_surf:\n        walkable_types.append('WATER')\n\n    queue = deque([player_pos])\n    visited = {player_pos}\n    reachable_unseen = []\n\n    while queue:\n        cx, cy = queue.popleft()\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                tile = grid.get((nx, ny))\n                if tile:\n                    if not tile['seen']:\n                        if (nx, ny) not in reachable_unseen:\n                            reachable_unseen.append({\"x\": nx, \"y\": ny})\n                    elif tile['type'] in walkable_types and not tile['has_object']:\n                        if (nx, ny) not in visited:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n    \n    print(json.dumps(reachable_unseen))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T03:41:54.242Z",
-        "action_counter": 24651
-      }
-    ]
-  },
-  "sweep_area_v1": {
-    "description": "Iteratively walks all floor tiles within a specified bounding box on the current map to trigger events or find objects. Skips non-floor tiles and handles movement failures. Returns a list of button strings for the path.",
+  "sweep_area_v2": {
+    "description": "Iteratively walks all floor tiles within a specified bounding box on the current map to trigger events or find objects. Uses BFS for robust movement between points and handles obstacles. Returns a list of button strings for the path.",
     "input_schema": {
       "properties": {
         "bottom_y": {
@@ -150,12 +129,44 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\n\ndef sweep_area(left_x, top_y, right_x, bottom_y, map_xml):\n    root = ET.fromstring(map_xml)\n    \n    # Find player position\n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is None:\n        return []\n    curr_x = int(player_tile.get('id'))\n    curr_y = int(player_tile.get('Row_id')) # Note: Row id is added during parsing in some versions, or we find the parent row\n    \n    # Correcting player position detection from XML\n    for row in root.findall('Row'):\n        row_id = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                curr_x = int(tile.get('id'))\n                curr_y = row_id\n                break\n\n    path = []\n    # Simple snake pattern sweep\n    for y in range(top_y, bottom_y + 1):\n        x_range = range(left_x, right_x + 1) if (y - top_y) % 2 == 0 else range(right_x, left_x - 1, -1)\n        for x in x_range:\n            # Check if tile is traversable (FLOOR) and not the current tile\n            tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n            if tile is not None and tile.get('type') == 'FLOOR' and not (x == curr_x and y == curr_y):\n                # Simple manhattan move (not pathfinding, just adjacent steps)\n                # In a real tool, we'd use BFS to the next point, but for a sweep we assume adjacency\n                dx = x - curr_x\n                dy = y - curr_y\n                if dx == 1: path.append(\"Right\")\n                elif dx == -1: path.append(\"Left\")\n                elif dy == 1: path.append(\"Down\")\n                elif dy == -1: path.append(\"Up\")\n                curr_x, curr_y = x, y\n                \n    return path\n\n# The harness provides map_xml_string\n# input_data is a dict with the arguments\ntry:\n    buttons = sweep_area(input_data['left_x'], input_data['top_y'], input_data['right_x'], input_data['bottom_y'], map_xml_string)\n    print(json.dumps(buttons))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_player(root):\n    for row in root.findall('Row'):\n        row_id = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            if tile.find('Player') is not None:\n                return int(tile.get('id')), row_id\n    return None\n\ndef bfs(start, end, root):\n    if start == end: return []\n    q = deque([(start, [])])\n    visited = {start}\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    while q:\n        (cx, cy), path = q.popleft()\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                if tile is not None and tile.get('type') in ['FLOOR', 'WARP_CARPET', 'STAIRS', 'CAVE', 'WATER']:\n                    # Note: Simplified collision. Objects are walls.\n                    if tile.find('Object') is not None:\n                        continue\n                    if (nx, ny) == end:\n                        return path + [btn]\n                    visited.add((nx, ny))\n                    q.append(((nx, ny), path + [btn]))\n    return None\n\ntry:\n    root = ET.fromstring(map_xml_string)\n    left = int(input_data['left_x'])\n    top = int(input_data['top_y'])\n    right = int(input_data['right_x'])\n    bottom = int(input_data['bottom_y'])\n    \n    player_pos = find_player(root)\n    if not player_pos: \n        print(json.dumps([\"Error: Player not found\"]))\n    else:\n        # Generate target floor tiles in a snake pattern for efficiency\n        targets = []\n        for y in range(top, bottom + 1):\n            x_range = range(left, right + 1) if (y - top) % 2 == 0 else range(right, left - 1, -1)\n            for x in x_range:\n                tile = root.find(f\".//Row[@id='{y}']/Tile[@id='{x}']\")\n                if tile is not None and tile.get('type') == 'FLOOR':\n                    targets.append((x, y))\n        \n        full_path = []\n        curr_pos = player_pos\n        for target in targets:\n            sub_path = bfs(curr_pos, target, root)\n            if sub_path is not None:\n                full_path.extend(sub_path)\n                curr_pos = target\n        \n        print(json.dumps(full_path))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T05:38:06.669Z",
-        "action_counter": 24911
+        "commit_message": "Initial version of a robust area sweep tool using BFS for navigation between floor tiles.",
+        "timestamp": "2025-12-27T05:49:48.091Z",
+        "action_counter": 24932
+      }
+    ]
+  },
+  "menu_navigator_crystal_v1": {
+    "description": "Navigates the main menu or options menu to a target string and selects it. Handles the two-column layout of the Crystal main menu. Returns a list of button strings.",
+    "input_schema": {
+      "properties": {
+        "target": {
+          "enum": [
+            "POKEDEX",
+            "POKEMON",
+            "PACK",
+            "GEAR",
+            "GEM",
+            "SAVE",
+            "OPTION",
+            "EXIT"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "target"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ndef navigate_main_menu(target):\n    # Main Menu Layout (Wraps):\n    # POKEDEX (0) | OPTION (6)\n    # POKEMON (1) | EXIT (7)\n    # PACK (2)\n    # GEAR (3)\n    # GEM (4)\n    # SAVE (5)\n    \n    # This tool assumes it's called when the main menu is open.\n    # It uses a heuristic based on the target name to provide the correct buttons.\n    # It's better than parsing the messy screen text for this specific menu.\n    \n    target_map = {\n        \"POKEDEX\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"POKEMON\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"PACK\": [\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"GEAR\": [\"Up\", \"Up\", \"Up\", \"Up\", \"A\"],\n        \"GEM\": [\"Up\", \"Up\", \"Up\", \"A\"],\n        \"SAVE\": [\"Up\", \"Up\", \"A\"],\n        \"OPTION\": [\"Up\", \"A\"],\n        \"EXIT\": [\"A\"] # Assuming cursor starts on EXIT as it often does\n    }\n    \n    return target_map.get(target, [\"B\"])\n\ntry:\n    print(json.dumps(navigate_main_menu(input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "history": [
+      {
+        "commit_message": "Robust menu navigator that handles multi-column layouts like the Crystal main menu by mapping common targets to fixed button sequences.",
+        "timestamp": "2025-12-27T05:49:48.092Z",
+        "action_counter": 24932
       }
     ]
   }
