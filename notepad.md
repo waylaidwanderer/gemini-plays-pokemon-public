@@ -19,3 +19,6 @@
     - **POIs:** Pokemon Center (9, 5), Mart (21, 13), Port Passage (South).
     - **Blockages:** Fence (North y=11), Snorlax (East 34, 8).
     - **Other:** Construction at (23, 6). Fake doors at (20, 5), (12, 5).
+- **Log:** Exited Pokemon Center. Checking building at (5, 5).
+- **Hypothesis:** Might be the Fishing Guru's house or Fan Club.
+- **Note:** I do not have a Cut user in my party. Check if Gym requires Cut.
