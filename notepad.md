@@ -31,3 +31,10 @@
 - Ho-Oh gave new life to the Beasts after the Brass Tower fire.
 - Wise Trio Room (4_2) emptied after the tower shook.
 - Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are complete.
+## Hypothesis Testing: Suicune sighting sequence
+- **Hypothesis 1:** Suicune is on Route 42 island.
+- **Test 1:** Fly to Ecruteak, go to Route 42, and step on EVERY tile of the island and surrounding water.
+- **Hypothesis 2:** Suicune is on Route 36 junction.
+- **Test 2:** If Route 42 fails, approach Route 36 junction from all four directions (North, South, East, West).
+- **Hypothesis 3:** Eusine needs to be spoken to again.
+- **Test 3:** Check Ecruteak Pokemon Center for Eusine.
