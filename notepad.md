@@ -24,12 +24,13 @@
 - WARP_CARPET_LEFT: Triggers map transition when walking OFF the map westwards.
 
 ## Strategy
-- Current: Resolve missing Suicune trigger for sighting #3 (Route 42) or #4 (Route 36).
+- Current: Check Route 36 or Tin Tower 1F for Suicune.
 - Plan:
-  1. Perform a final, exhaustive tile-by-tile sweep of the Route 42 island southern clearing.
-  2. If Suicune does not appear, Fly to Ecruteak and check Route 36 (Sudowoodo junction).
-  3. If still missing, check Tin Tower 1F again.
-  4. Document each location checked and the result.
+  1. Fly to Ecruteak City.
+  2. Travel south to Route 36 (Sudowoodo junction) and check for Suicune.
+  3. If Suicune is not there, enter Tin Tower 1F and check the ground floor.
+  4. If still missing, revisit the Burned Tower and Cianwood to ensure no triggers were missed.
+  5. Document result: Route 42 island sweep (Turn 26164) yielded no Suicune.
 
 ## Time Tracking
 - Current Attempt Start: Turn 26101.
