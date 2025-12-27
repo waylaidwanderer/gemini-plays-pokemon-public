@@ -1,6 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
-- Quest Start: Turn 24182.
+- Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
 
 ## Current Strategy
@@ -21,16 +21,16 @@
 - 7. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26233).
 - 8. Tin Tower Battle: LOCKED.
 
-## Global Tile Mechanics (Verified)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Traversable ONLY with SURF.
-- CUT_TREE: Remove with CUT.
-- LADDER/STAIRS: Warp.
-- FLOOR_UP_WALL: Ledge (North to South).
-- HEADBUTT_TREE: Impassable.
-- TALL_GRASS: Walkable.
-- WARP_CARPET: Warp.
+## Tile Mechanics
+- FLOOR: Traversable. Verified by walking.
+- WALL: Impassable. Verified by bumping.
+- WATER: Traversable ONLY with SURF. Verified by using Surf at (13, 9).
+- CUT_TREE: Remove with CUT. Verified at (24, 13).
+- LADDER/STAIRS: Warp. Verified in Tin Tower Gatehouse.
+- FLOOR_UP_WALL: Ledge (North to South). Verified on Route 42.
+- HEADBUTT_TREE: Impassable. Verified by bumping.
+- TALL_GRASS: Walkable. Verified on Route 42.
+- WARP_CARPET: Warp. Verified at Route 42 Gatehouse.
 
 ## Lessons Learned
 - Suicune events are strictly linear.
