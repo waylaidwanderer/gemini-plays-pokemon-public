@@ -11,13 +11,9 @@
   5. Sighting #4: Route 36 (Sudowoodo Junction).
 
 ## Suicune Quest Diagnostic Log
-1. Burned Tower: Flee event completed.
-2. Cianwood City (North): Flee event completed. Eusine defeated.
-3. Flag: Eusine dialogue in Ecruteak PC. [STATUS: Missing at Turn 26204; Re-checking after Sage dialogue]
-4. Flag: Wise Trio dialogue in Tin Tower Gatehouse. [STATUS: Sages mentioned 'tower shook' at Turn 26110]
-5. Sighting #3: Route 42 (Central Island). [STATUS: Failed at Turn 26277; awaiting PC flag]
-6. Sighting #4: Route 36 (Sudowoodo Junction). [LOCKED]
-7. Tin Tower 1F: Static encounter. [LOCKED]
+- Burned Tower: Flee event completed.
+- Cianwood City (North): Flee event completed. Eusine defeated.
+- Current Status: Checking Ecruteak Pokémon Center for Eusine to trigger Route 42 sighting.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
