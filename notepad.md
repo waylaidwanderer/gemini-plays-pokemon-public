@@ -28,8 +28,8 @@
 - **DOOR:** Warp to interior.
 
 # Post-Game Status
-- **Location:** Cerulean City (Center).
-- **Status:** Exploring City.
+- **Location:** Cerulean City (Poke Mart).
+- **Status:** Gathering Info.
 - **Goal:** Locate Gym and Route 9 (East).
-- **Observations:** Bike Shop appears closed (Locked Door).
-- **Immediate:** Check house at (25, 29), then head North/East.
+- **Observations:** Bike Shop closed. Mart active.
+- **Immediate:** Talk to Cooltrainer M and Clerk, then exit to continue search.
