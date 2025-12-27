@@ -30,4 +30,4 @@
 - **Log:** Initiating battle with Lt. Surge.
 - **Strategy:** Use Muscle (Lv71). Strength for most, Cross Chop for Magneton (Steel type).
 - **Log:** Defeated Raichu. Declining switch against Electabuzz.
-- **Log:** Defeated Electabuzz. Declining switch against Electrode.
+- **Log:** Defeated first Electrode. Declining switch against second Electrode.
