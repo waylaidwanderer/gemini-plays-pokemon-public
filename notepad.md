@@ -154,7 +154,10 @@
 - Realized I was facing UP while trying to Cut.
 - Action: Exiting menu, turning RIGHT, and pressing A to Cut (42, 15).
 - If this fails, will use Fly to Cerulean.
-- Facing Right (Correct).
-- Screen shows Party Menu.
-- Attempting CUT by selecting Belladonna -> CUT (or interacting if menu is actually closed).
-- Sequence: A, A, A.
+- Route 9 'Trap' Area Confirmed:
+  - (42, 15) is NOT a cuttable tree (multiple attempts failed).
+  - Row 16 'Ledges' are impassable walls from the North.
+  - This area (Row 14-15) seems to be a dead end if entered from the West ledges.
+- Strategic Pivot:
+  - Escaping via Fly to Cerulean City.
+  - New Route Plan: Surf from Route 24/25 (North of Cerulean) to bypass Route 9 land obstacles.
