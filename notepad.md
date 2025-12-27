@@ -45,3 +45,4 @@
     - Gramps ID 4 at (4, 10): [X]
 - Goal: Determine if dialogue changed after Tin Tower shook and if it triggers Suicune sightings. [Turn 25706]
 - Result: Gramps talked about the two towers and the two Pokémon that flew away. Sages mentioned a Pokémon returned to the top. Checking Tin Tower 1F next.
+- Note: Ladder at (5, 3) leads to Section 1 (Entrance area) at (17, 15). To reach Tin Tower, exit West from Section 3. [Turn 25708]
