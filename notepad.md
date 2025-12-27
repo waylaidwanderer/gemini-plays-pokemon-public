@@ -121,3 +121,6 @@
 - Need to heal at Route 10 Pokemon Center soon.
 - Facing Onix. Staying in with Muscle (Strength).
 - Onix sent out. Using Strength.
+- Strength is not very effective against Onix (Rock/Ground).
+- Muscle took negligible damage from Rock Throw.
+- Continuing to spam Strength.
