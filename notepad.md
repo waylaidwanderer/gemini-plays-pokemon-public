@@ -31,3 +31,5 @@
 - **Plan:** Talk to her, then check the building to the North/West.
 - **Log:** Heading to Gramps at (23, 6). Possible Pokemon Center nearby.
 - **Observation:** Found a Machop at (26, 7) stomping the ground. Gramps is watching.
+- **Log:** Talked to Gramps. He is preparing land for construction but has no money.
+- **Plan:** Explore West to find the Pokemon Center (likely the building at x=19-21).
