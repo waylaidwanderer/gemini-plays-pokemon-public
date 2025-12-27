@@ -13,9 +13,9 @@
 # Side Quest: Lazy Sailor
 - **Client:** Sailor at B1F (30,6).
 - **Task:** Find his "lazy buddy" who is goofing off.
-- **Current Status:** Defeated Sailor Stanly. Returning to B1F to check if blockade is cleared.
+- **Status:** Defeated "Lazy Buddy" Stanly at 1F (4, 26). Returning to B1F to check blockade.
 
-# Tile Mechanics
+# Exploration Notes
 - **FLOOR:** Walkable standard movement.
 - **WALL:** Impassable obstacle.
 - **STAIRCASE/LADDER:** Transitions between map floors.
