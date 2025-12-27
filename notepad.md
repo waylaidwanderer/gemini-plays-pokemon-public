@@ -53,3 +53,8 @@
 - Opening Menu to Fly.
 - Sequence: Start -> Pokemon -> Mistral -> Fly.
 - Goal: Reach Cerulean City to bypass Route 9.
+- Menu Navigation:
+  - Moved cursor Up to Mistral (Slot 5).
+  - Selected Mistral -> FLY.
+  - Anticipating Fly Map to open.
+  - Next: Navigate cursor to Cerulean City.
