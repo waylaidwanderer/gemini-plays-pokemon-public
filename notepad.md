@@ -1,23 +1,18 @@
 # Suicune Quest Log
-- **Start Turn:** 24175 (2025-12-26 20:30)
 - **Goal:** Trigger Suicune battle at Tin Tower 1F.
 - **Sighting Requirements (Sequential in Crystal):**
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
   3. Route 42 (Central Island): Sighting check. [In Progress]
-     - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Failed - Entered Turn 25051, searched island floor Turn 25056-25065. No sighting.]
-  4. Route 36 (Sudowoodo junction): Sighting check. [Failed - Searched junction Turn 25074. No sighting.]
+     - *Hypothesis 1 (Eusine in Ecruteak PKMN Center):* [Failed - Turn 25036-25043]
+     - *Hypothesis 2 (Re-enter Route 42 West):* [Failed - Turn 25051-25065]
+     - *Hypothesis 4 (Mahogany Approach - East):* [Active - Start Turn 25081]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Failed - Turn 25074]
   5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
-# Failed Hypotheses & Troubleshooting
-- **Hypothesis 1 (Eusine in Ecruteak PKMN Center):** Searched both floors Turn 25036-25043. Eusine is not present.
-- **Hypothesis 2 (Re-enter Route 42 West):** Entered from Ecruteak side, searched entire island floor. No Suicune sighting triggered.
-- **Hypothesis 3 (Check Route 36):** Searched junction Turn 25074. No Suicune sighting triggered.
-- **Suicune on Route 42 Island (Direct arrival):** Searched all floor tiles (Turn 25009). Suicune was not present. 
-
 # Strategy: Mahogany Approach
-- Hypothesis 4: Enter Route 42 from Mahogany Town (East side). Some triggers in Johto are sensitive to the direction of map entry.
-- Destination: Mahogany Town. Then walk West to Route 42.
+- Enter Route 42 from Mahogany Town (East side).
+- Note: Central island requires CUT at (24, 13) to access sighting area.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
