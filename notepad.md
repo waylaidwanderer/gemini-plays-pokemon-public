@@ -39,11 +39,10 @@
 
 # Active Plans
 - **Escape to Cerulean:**
-  - **Status:** Fly Map Open. Cursor on Indigo Plateau.
-  - **Action:** Pressing 'Down' to move cursor south towards Viridian/Pewter.
-  - **Previous:** 'Right' input did not move cursor from Indigo Plateau.
-  - **Next:** Navigate to Cerulean (likely Right/Up from Viridian) -> Fly.
-  - **Route:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
+  - **Status:** Fly Map Open. Cursor on Saffron City.
+  - **Action:** Pressing 'Up' to target Cerulean City.
+  - **Next:** Confirm destination is Cerulean -> Fly.
+  - **Route:** Land in Cerulean -> Enter Gym -> Find Machine Part -> Route 24 -> Surf to Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
