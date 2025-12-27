@@ -71,3 +71,7 @@
 - Mistral's menu open. 'FLY' selected.
 - Action: Pressing A to open Fly Map.
 - Next: Determine cursor path to Cerulean City (likely Right or Down).
+- Fly Map Opening.
+- Current Location: Indigo Plateau.
+- Target: Cerulean City.
+- Next Action: Navigate cursor to Cerulean and press A.
