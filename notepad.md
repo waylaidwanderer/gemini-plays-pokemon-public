@@ -10,17 +10,21 @@
   3. Return to Ecruteak City and check Wise Trio Room (Map 4_2 via (20, 2)).
   4. Battle Wise Trio to gain access to Tin Tower roof.
 
+## Strategy for Wise Trio Battle
+- The Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
+- Plan: Use Calcifer (Typhlosion) with Thunderpunch for Noctowl and STAB Flame Wheel/Headbutt for Kadabra. Gneiss (Graveler) is a backup for Noctowl.
+
 ## Menu Structures
 - Pokémon Sub-menu:
   - Positions of STATS and SWITCH depend on the number of field moves.
   - To reach SWITCH: Press Down (num_field_moves + 1) times, then A.
 
-## Tile Mechanics - Route 42
+## Tile Mechanics - Global
 - FLOOR: Traversable. Verified.
 - WALL: Impassable. Verified.
 - WATER: Traversable ONLY with SURF. Verified at (13, 9).
 - CUT_TREE: Remove with CUT. Verified at (24, 13).
-- TALL_GRASS: Walkable, triggers wild encounters. Verified.
+- TALL_GRASS / LONG_GRASS: Walkable, triggers wild encounters. Verified.
 - HEADBUTT_TREE: Impassable. Verified.
 - CAVE: Entrance/Exit warp. Verified.
 
@@ -35,4 +39,4 @@
 - 8. Dance Theater (Eusine): Checked Turn 26415.
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
 - 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
-- 11. Tin Tower Battle: LOCKED.
+- 11. Tin Tower roof access: LOCKED.
