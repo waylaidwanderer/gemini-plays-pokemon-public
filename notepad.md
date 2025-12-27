@@ -14,10 +14,9 @@
 ## Current Strategy
 - Goal: Unlock Suicune sightings by completing Wise Trio interactions.
 - Plan:
-  1. Talk to all members of the Wise Trio. (Gramps and Sage 1 done).
-  2. Head to Wise Trio Room via ladder at (17, 3).
-  3. Talk to the final Wise Trio member.
-  4. Re-verify Route 42 island clearing (southern side) after all dialogue is done.
+  1. Talk to all Sages in Tin Tower 1F (Turn 26237).
+  2. If Suicune is still missing, perform a tile-by-tile sweep of Route 36 again.
+  3. If still missing, re-sweep Route 42 island clearing.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
