@@ -29,14 +29,12 @@
 - **Sage Passage:** Passing the gatehouse sage does NOT mean sightings are complete; it only means you have the Clear Bell (or Eusine is defeated). The Trio inside is the final check.
 
 ## Progress Tracking
-- Current Task: Re-verify Suicune sightings on Route 42 and Route 36.
-- Status: Flying to Ecruteak to re-verify Burned Tower B1F flee event.
+- Current Task: Trigger Suicune sighting on Route 36 (35, 9).
+- Status: Confirmed Route 42 sighting is complete (location empty). Flying to Ecruteak to reach Route 36.
 ## Suicune Sighting Troubleshooting
-- Route 42 (26, 15): Confirmed empty 4+ times (Turn 26911).
-- Hypothesis 1: Already triggered (Sages should battle, but they won't).
-- Hypothesis 2: Prerequisite missing.
+- Route 42 (26, 15): Confirmed triggered (location empty, sage passage granted).
+- Route 36 (35, 9): Next target. Junction near Violet City / Ruins of Alph.
+- Hypothesis: Route 36 is the final overworld trigger required before the Wise Trio will battle.
 - To Check:
-  - Re-visit Burned Tower B1F (did I actually trigger the flee event?).
-  - Talk to Ecruteak Dance Theater NPCs.
-  - Check Route 42 center/east entrances of Mt. Mortar.
-  - Verify if Morty or Jasmine have specific dialogue.
+  - Approach (35, 9) on Route 36.
+  - If triggered, return to Tin Tower Gatehouse.
