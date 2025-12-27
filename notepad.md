@@ -6,12 +6,13 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Gather info and head to Cerulean.
-- **Status:** Saffron City. Heading North.
+- **Status:** Saffron City (North). Investigating unmarked warp.
 - **Info:** Magnet Train disabled (Power Plant issue).
 - **Next Steps:**
-    1. Find Route 5 Gate (North Saffron).
-    2. Reach Cerulean City.
-    3. Investigate Power Plant.
+    1. Investigate warp at (18, 3) (Likely Dojo).
+    2. Find Route 5 Gate (North Saffron).
+    3. Reach Cerulean City.
+    4. Investigate Power Plant.
 
 # Key Locations
 - **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
