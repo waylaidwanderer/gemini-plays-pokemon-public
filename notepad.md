@@ -46,10 +46,9 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 10 North Navigation:**
   - **Goal:** Enter Power Plant.
-  - **Status:** Surfing near Power Plant Sign (found at 5, 11).
+  - **Status:** Found Power Plant entrance at (3, 9).
   - **Plan:**
-    1. Land on the north bank near the sign.
-    2. Locate Power Plant entrance (likely West).
+    1. Enter the Power Plant and investigate the generator.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
