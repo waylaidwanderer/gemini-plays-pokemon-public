@@ -17,8 +17,8 @@
 # Exploration Notes
 - **Vermilion City:**
     - Path North blocked by fence at y=11.
-    - Building at (20, 5) is inaccessible (no door).
+    - Buildings at (20, 5) and (12, 5) appear to have no doors on the south side.
     - Gramps/Machop construction site at (23, 6).
     - Snorlax blocking path at (34, 8).
     - Vermilion Port Passage leads south.
-- **Log:** Closed sign text at (25, 4). Moving South to (24, 7) to bypass obstacles.
+- **Log:** Moving West to (12, 6) to investigate the western building and look for the Gym.
