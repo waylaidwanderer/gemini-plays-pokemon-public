@@ -70,3 +70,6 @@
 - Talked to Gramps. He requested to see a Lickitung ("long tongue").
 - Current Status: I do not have a Lickitung. Cannot progress this quest.
 - Objective: Return to Cerulean City and find the path to Route 9 (likely via Surfing).
+- Quest info: Bill's Grandpa requires a Lickitung first (gives Everstone). Subsequent requests (Oddish for Leaf Stone, etc.) are locked behind this.
+- Route 9 Access: Need to return to Cerulean and find the path East. Likely involves Surfing.
+- Power Plant Quest chain: Probably need to visit Power Plant -> Cerulean Gym -> Route 24 -> Gym -> Power Plant -> Misty.
