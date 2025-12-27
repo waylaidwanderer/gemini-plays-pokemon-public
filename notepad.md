@@ -39,8 +39,8 @@
 
 # Active Plans
 - **Restore Power & Badges:**
-  - **Status:** Route 25 (42, 7). **Misty event triggered.** She has returned to Cerulean Gym.
-  - **Immediate Action:** Surf South/East to Power Plant.
+  - **Status:** Surfing on Route 25 (42, 7). **Misty event cleared.**
+  - **Immediate Action:** Surf South along the river to reach Power Plant.
   - **Route:** Route 25 River -> Route 24 Channel -> Route 9 (Water) -> Power Plant.
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Restore Power Route:**
