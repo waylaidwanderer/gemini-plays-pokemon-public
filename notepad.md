@@ -67,3 +67,5 @@
 ## Tool Notes
 - `find_path_v3`: Fails if target is in Ecruteak Restricted Area while player is in Main Ecruteak (and vice versa) because there is no walking path on map 4_9. Must use bridge (Wise Trio Room/Gatehouse) or Fly.
 - `suicune_tracker_v2`: Expert on sightings. Confirms Route 42 sighting is required.
+## Tool Notes
+- `open_fly_map_v2`: Unreliable because party menu cursor position is persistent. Use `open_fly_map_v3` instead.
