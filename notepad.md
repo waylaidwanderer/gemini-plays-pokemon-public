@@ -44,3 +44,4 @@
 - Do not mix directional and action buttons in a single press_buttons call.
 ## Milestones
 - Turn 26110: Triggered "Tin Tower Shake" event by entering the gatehouse with the Clear Bell.
+- Route 36 Sudowoodo Spot (Turn 26177): Suicune NOT found.
