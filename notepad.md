@@ -9,7 +9,8 @@
 5. **Tin Tower 1F:** [Status: Triggered (Tower Shook)]
 
 ## Strategy
-- Fly to Ecruteak, sell Thunderstone, buy balls. [Turn 25201]
+- Sighting Hunt Start: Turn 25202.
+- Fly to Ecruteak, sell items, buy balls. [Turn 25201]
 - Complete sightings in order: Route 36 -> Route 42.
 - Return to Tin Tower 1F for the battle.
 
@@ -40,9 +41,6 @@
 - **Status:** Suicune is Level 40 static encounter.
 
 # Progress Log
-- Clear Bell trigger ("Tin Tower Shook") confirmed by Sages.
-- Wise Trio Room (4_2) explored; empty after tower shook.
-
-# Hunt Strategy
-- Sighting Hunt Start: Turn 25202.
-- Sequential Order: Route 36 -> Route 42 -> Tin Tower.
+- Clear Bell trigger ("Tin Tower Shook") confirmed by Sages (Turns 25133-25141).
+- Sage (11, 11) shared legend of Ho-Oh and the Beasts (Turn 25169).
+- Wise Trio Room (4_2) was empty after tower shook (Turn 25173).
