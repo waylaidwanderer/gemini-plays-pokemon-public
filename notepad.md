@@ -6,7 +6,7 @@
   3. Route 42 (Central Island): Sighting check. [In Progress]
      - *Hypothesis 1 (Eusine in Ecruteak PKMN Center):* [Failed - Turn 25036-25043]
      - *Hypothesis 2 (Re-enter Route 42 West):* [Failed - Turn 25051-25065]
-     - *Hypothesis 4 (Mahogany Approach - East):* [Active - Start Turn 25081]
+     - *Hypothesis 4 (Mahogany Approach - East):* [Failed - Entered Turn 25081, searched island Turn 25101-25104. No sighting.]
   4. Route 36 (Sudowoodo junction): Sighting check. [Failed - Turn 25074]
   5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
 
