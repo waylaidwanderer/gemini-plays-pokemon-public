@@ -106,41 +106,5 @@
         "action_counter": 24932
       }
     ]
-  },
-  "menu_navigator_crystal_v3": {
-    "description": "Navigates the Crystal main menu (POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT). Robust against special characters and cursor variations.",
-    "input_schema": {
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target": {
-          "enum": [
-            "POKEDEX",
-            "POKEMON",
-            "PACK",
-            "GEAR",
-            "GEM",
-            "SAVE",
-            "OPTION",
-            "EXIT"
-          ],
-          "type": "string"
-        }
-      },
-      "required": [
-        "screen_text",
-        "target"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    def normalize(s):\n        return re.sub(r'[^a-z]', '', s.lower())\n\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    norm_order = [normalize(n) for n in order]\n    norm_target = normalize(target)\n    \n    if norm_target not in norm_order:\n        return [f\"Error: Target '{target}' not in menu order\"]\n    \n    lines = screen_text.split('\\n')\n    curr_idx = -1\n    \n    for i, line in enumerate(lines):\n        # Look for the cursor symbol by stripping known text and border characters\n        # Alphanumeric, spaces, borders, and common text punctuation\n        clean_line = re.sub(r'[a-z0-9\\s|┌┐└┘─│é\\.\\!\\?]', '', line, flags=re.IGNORECASE)\n        if clean_line:\n            line_norm = normalize(line)\n            for j, n_name in enumerate(norm_order):\n                if n_name in line_norm:\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = norm_order.index(norm_target)\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
-    "history": [
-      {
-        "commit_message": "Refined menu navigator for Crystal's main menu. Uses a more robust method to identify the cursor by stripping away known characters (alphanumeric, borders, common punctuation) and checking for remaining symbols. Normalizes text to handle 'é' and other special characters.",
-        "timestamp": "2025-12-27T06:04:19.589Z",
-        "action_counter": 24963
-      }
-    ]
   }
 }
