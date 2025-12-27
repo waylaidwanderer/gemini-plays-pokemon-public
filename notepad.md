@@ -44,3 +44,7 @@
 - **Log:** Arrived at FastShip1F (West Area) via ladder at (6, 12).
 - **Observation:** This area is isolated from the main deck.
 - **Plan:** Explore this isolated area. Check the staircase at (3, 13) and unseen tiles to the left.
+- **Log:** Arrived at South end of Cabin Corridor (15_6) via 1F West stairs.
+- **Observation:** This map contains the Gentleman (y=17). I have looped back to the "East" map, but from the South.
+- **Hypothesis:** The Captain's Cabin is at the North end (y=0) and I missed it or the granddaughter is there.
+- **Plan:** Head North to the Captain's Cabin.
