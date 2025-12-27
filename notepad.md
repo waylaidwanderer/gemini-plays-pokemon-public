@@ -31,24 +31,24 @@
     - Warp S (9, 5) -> Room 7 (5, 9) [Warp V]
     - Warp T (11, 3) -> Room 8 (5, 3) [Warp AA]
     - Warp U (9, 3) [From I]
-- **Room 7 (Middle Left):**
-    - Warp V (5, 9) [From S]
+- **Room 7 (Middle Left) [Current]:**
+    - Warp V (5, 9) <-> Room 6 (9, 5) [Warp S]
     - Warp W (1, 9) -> Room 3 (19, 11) [Warp H]
-    - Warp X (1, 11) -> ?
-    - Warp Y (5, 11) -> ?
+    - Warp X (1, 11) <-> Room 8 (5, 5) [Warp DD]
+    - Warp Y (5, 11) <-> Room 5 (5, 17) [Warp Q]
 - **Room 8 (Top Left):**
-    - Warp AA (5, 3) [From T]
+    - Warp AA (5, 3) <-> Room 6 (11, 3) [Warp T]
     - Warp BB (1, 3) <-> Room 4 (15, 5) [Warp L]
-    - Warp CC (1, 5) -> ?
-    - Warp DD (5, 5) -> ?
+    - Warp CC (1, 5) <-> Sabrina's Room (11, 9)
+    - Warp DD (5, 5) <-> Room 7 (1, 11) [Warp X]
 - **Sabrina's Room (Middle Center):**
-    - Contains Warp at (11, 9). Needs an entry.
+    - Warp (11, 9) <-> Room 8 (1, 5) [Warp CC]
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp O at (1, 15).
-- **Status:** In Room 5 (Bottom Left). Arrived via Warp M.
+- **Immediate:** Reach Sabrina's Room via Room 8.
+- **Status:** In Room 7 at Warp Y (5, 11).
 - **Next Steps:**
-    1. Step off/on Warp O to verify destination.
-    2. If loop (to Room 4), return to Room 5 and test Warp Q.
-    3. If new room, map it.
+    1. Take Warp X (1, 11) to Room 8 (5, 5).
+    2. Take Warp CC (1, 5) to Sabrina's Room (11, 9).
+    3. Challenge Sabrina.
