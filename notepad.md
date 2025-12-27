@@ -47,13 +47,13 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Surfing West on Route 9 returning to Cerulean City.
+  - **Status:** Navigating West on Route 9 (Lower Path) towards Cerulean.
   - **Clues:**
     - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
     - Confirmed: The part was stolen.
     - Lead: The "shady character" in Cerulean City (mentioned by Police Chief) is almost certainly the thief.
   - **Plan:**
-    1. Return to Cerulean City.
+    1. Return to Cerulean City (West).
     2. Go to the Cerulean Gym to find the Rocket Grunt.
     3. Recover the Machine Part.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
