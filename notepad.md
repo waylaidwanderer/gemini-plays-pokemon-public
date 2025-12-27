@@ -84,3 +84,7 @@
 - Checked (4, 8): Empty.
 - Moving to North Bridge (Row 4) via East path (Column 7).
 - Plan: Go to (4, 4) and (5, 4), face Down, check (4, 5) and (5, 5).
+- Re-evaluating checks due to coordinate confusion.
+- Currently at (5, 4) (North Bridge).
+- Checking (5, 5) (Water) from the North.
+- Next: Check (4, 5) from (4, 4).
