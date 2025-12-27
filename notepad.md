@@ -24,7 +24,8 @@
 # Logs
 - **Started S.S. Aqua:** Turn 20464.
 - **Quest Update:** A Gentleman bumped into me and asked to find his missing granddaughter.
-- **Battle Log:** Defeated Pokefan M (Hiker Noland). Muscle took Selfdestruct damage (167/229 HP).
+- **Battle Log:** Defeated Firebreather Lyle (Fisher sprite) at (1, 15).
+- **Log:** Lower Deck is divided. Northern part blocked by wall at Row 12. Need to find another entrance (likely other stairs on 1F).
 - **Log:** Cabin at (19, 8) was empty.
 - **Log:** Cabin at (15, 8) is empty (Player Cabin?).
 - **Log:** (11, 8) is not a cabin, it's a hallway junction. Exploring West Hallway.
