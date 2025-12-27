@@ -39,10 +39,9 @@
 
 # Active Plans
 - **Escape to Cerulean (Modified):**
-  - **Hypothesis:** Cerulean City Fly point is **not unlocked** (likely missed entering the Pokemon Center).
-  - **Status:** Fly Map Open. Cursor on Saffron City.
-  - **Action:** Select Saffron City (A) -> Fly.
-  - **New Route:** Land Saffron -> Walk North (Route 5) -> Cerulean City.
+  - **Status:** Inside Route 5 Gate (25_14).
+  - **Action:** Exiting North to Route 5.
+  - **Route:** Saffron -> Route 5 -> Cerulean City.
   - **Critical:** Enter Cerulean Pokemon Center upon arrival to unlock Fly point.
   - **Next:** Search Gym for Machine Part -> Route 24 -> Power Plant.
 - **Restore Power Route:**
