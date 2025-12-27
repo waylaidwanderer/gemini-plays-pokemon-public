@@ -50,6 +50,6 @@
     3. Determine if M leads to Sabrina or a new room.
 
 # Tile Mechanics
-- **WARP_PANEL:** Stepping on these instantly teleports the player. Must step off/on to re-use.
-- **FLOOR:** Walkable.
-- **WALL:** Impassable.
+- **WARP_PANEL:** Stepping on these instantly teleports the player to another location. If you arrive on one, you must step off and step back on to use it again.
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable tile.
