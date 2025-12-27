@@ -1,15 +1,12 @@
 # Suicune Quest Strategy (Crystal Version)
-- **Status:** All overworld sightings confirmed. Gatehouse Sage (4_1) confirmed "Tower Shook" (Turn 27084).
-- **Tracker Update:** `suicune_tracker_v2` confirms the Wise Trio battle in Map 4_2 is MANDATORY (Turn 27124). Center of 1F is blocked until they are defeated.
-- **Current Objective:** Defeat the Wise Trio in Map 4_2.
-- **Battle Prep:** Xenon (Gastly) is in the lead for Mean Look and Hypnosis. (Note: Wise Trio may require a higher level team; keep Calcifer ready).
-
-## Strategy for Suicune Capture
-1. **Approach:** Move to the center area of 1F (around (10, 9)) to trigger the encounter.
-2. **Mean Look:** Use Mean Look immediately to prevent Suicune from fleeing (though it may be stationary here).
-3. **Hypnosis:** Put Suicune to sleep to increase capture rate and reduce damage.
-4. **Chip Damage:** Use Night Shade for fixed damage or switch to a lower-level Pokemon if needed (be careful of Suicune's level).
-5. **Capture:** Use Great Balls/Ultra Balls while it is asleep and at low HP.
+- **Status:** Possession of Clear Bell confirmed.
+- **Sightings:** 4 sightings confirmed (Burned Tower, Cianwood, Route 42, Route 36).
+- **Trigger:** Sage at (7, 10) in Gatehouse (4_1) confirmed "Tower Shook."
+- **Current Objective:** Talk to Sage at (7, 9) to ensure all hall dialogue is complete.
+- **Problem:** Wise Trio missing from battle room; center of 1F blocked.
+- **Plan:** 
+  1. Talk to Sage at (7, 9).
+  2. If no change, return to 1F and explore the perimeter of the blocked center.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Standard walkable tile. Traversable.
@@ -20,22 +17,6 @@
 - **DOOR / STAIRS / LADDER**: Warp tiles.
 - **WARP_CARPET**: Map transition tile.
 
-## Key Discoveries & Lessons Learned
-- **Dialogue Triggers:** "The Tin Tower shook!" is the definitive narrative flag that all overworld sightings are complete.
-- **Sequential Requirements:** Clear Bell + Sightings -> "Shook" dialogue -> Wise Trio Battle -> Suicune Encounter.
-- **NPC Solidity:** NPCs are solid objects; paths must detour around them.
-- **Map Transitions:** Leaving a map from specific coordinates triggers transitions (e.g., Ecruteak (18, 11) -> Tin Tower Gatehouse).
-
 ## Trainer & Party Info
-- **Lead:** XENON (Gastly) Lv21 with Mean Look/Hypnosis.
+- **Lead:** XENON (Gastly) Lv21.
 - **Current Party:** Gastly, Pidgey, Graveler, Krabby, Gloom, Typhlosion.
-## Tin Tower 1F Sages (Wise Trio)
-- **Masa (14, 6):** Friendship and hope (700 years ago).
-- **Gaku (11, 11):** Legend of Ho-Oh reviving Suicune, Entei, Raikou.
-- **Koji (5, 9):** Souls of Pokemon and humans commune; testing humans.
-## Wise Trio Battle Sequence
-1. Enter Gatehouse (Map 4_1) via (18, 11) in Ecruteak City.
-2. Talk to the Sage (Passage Guard) at (4, 6) in the Gatehouse to ensure the Trio spawns in Map 4_2. (Talked on Turn 27142, he said "Please, do go on.")
-3. Enter the Wise Trio Room (Map 4_2) via the ladder at (17, 3) in the Gatehouse.
-4. Defeat Sages Gaku, Masa, and Koji in consecutive battles.
-5. Proceed to Tin Tower 1F (Map 3_4) to encounter Suicune.
