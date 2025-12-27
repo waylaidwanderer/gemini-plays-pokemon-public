@@ -50,3 +50,4 @@
 - **Goal:** Talk to him to clear the blockade in B1F.
 - **Action:** Stunned Sailor (ID 3) at (22, 17) to ensure interaction.
 - **Goal:** Confront him about being the "lazy buddy".
+- **Log:** Sailor (ID 3) moved to (20, 17). Moving to interact.
