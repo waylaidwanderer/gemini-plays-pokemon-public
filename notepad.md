@@ -4,15 +4,16 @@
 ## Sighting Progress
 1. **Burned Tower:** Beasts fled. [Status: Verified]
 2. **Cianwood City (North):** [Status: Verified]
-3. **Route 36 (Sudowoodo Junction):** [Status: Pending] (Hunt Start: Turn 25202)
-4. **Route 42 (Central Island):** [Status: Pending] (Note: Re-check after Route 36 sighting)
-5. **Tin Tower 1F:** [Status: Triggered (Tower Shook)]
+3. **Route 42 (Central Island):** Platform by water, requires CUT. [Status: Pending] (Failed Turn 25101 - Re-check required)
+4. **Route 36 (Sudowoodo Junction):** Near Violet City entrance. [Status: Pending]
+5. **Tin Tower 1F:** Static Encounter. [Status: Triggered (Tower Shook)]
 
 ## Strategy
-- Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
-- Current Strategy: Sell high-value items to buy 50+ Great Balls.
+- Sequence: Route 42 -> Route 36 -> Tin Tower 1F. (Sequence confirmed by Analyst Turn 25202)
+- Current Strategy: Sell items at Ecruteak Mart to buy 50+ Great Balls.
 - Target: ¥16,200 for 27 more Great Balls.
 
+# Money Management
 - Sell Values (Verified):
   - THUNDERSTONE: ¥1050 (Sold)
   - FULL RESTORE: ¥1500 (Sold)
@@ -22,14 +23,13 @@
   - FRESH WATER: ¥100 (Sold)
   - X SPECIAL: ¥175 (Sold)
   - X ATTACK: ¥250 (Sold)
+  - TM50 NIGHTMARE: ¥1000 (Sold Turn 25244)
 - Remaining Sellables:
-  - TM50 NIGHTMARE: ¥1000
   - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
   - TM46 THIEF: ¥1500
   - TM49 FURY CUTTER: ¥1000
   - HARD STONE: ¥25
-- Strategy: Sell TMs to reach ~¥16,200 for 27 more Great Balls.
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
@@ -41,7 +41,7 @@
 - WATER: Surf required.
 - CUT_TREE: Removed via CUT.
 - DOOR/LADDER/STAIRS: Map transition.
-- WARP_CARPET: Step on to trigger transition. (Verified Turn 25195)
+- WARP_CARPET: Step on to trigger transition.
 
 # Progress Log
 - Tin Tower shook after obtaining Clear Bell (Turns 25133-25141).
