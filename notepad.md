@@ -35,6 +35,9 @@
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Sighting FAILED/SKIPPED]
+     - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
+     - Attempt 2: Approach from East (Fly to Mahogany), Surf to island. Result: Fail.
+     - Attempt 3: Full island sweep. Result: Fail. Sprite is NOT in the map object list.
   4. Route 36 (Sudowoodo junction): [Pending]
   5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Pending]
   6. Tin Tower 1F (Final Battle): Requires Clear Bell. [Current Target]
