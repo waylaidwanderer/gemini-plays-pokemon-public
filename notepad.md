@@ -11,6 +11,7 @@
 - PC/COUNTER/SIGN: Impassable. Interact from adjacent tile. [Verified]
 - FLOOR_UP_WALL: Impassable from below. [Verified]
 - VOID: Impassable. Map boundary. [Verified]
+- WARP_CARPET_DOWN: Traversable. Triggers exit to overworld. [Verified]
 
 # Battle and Pokemon Information
 ## Type Immunities (Target-based)
@@ -29,23 +30,25 @@
 - KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
 
 # Event Mechanics: Suicune Hunt (Crystal)
-- Status: Suicune appears at fixed sighting locations. Final encounter at Tin Tower.
-- Prerequisite: "Tower Shook" event in Ecruteak City + Possession of CLEAR BELL.
+- Status: Suicune appears at fixed sighting locations. Final encounter at Tin Tower 1F.
+- Prerequisite: "Tower Shook" event in Ecruteak City + Possession of CLEAR BELL + Fog Badge.
+- Trigger: Talk to all three Sages on Tin Tower 1F.
 - Sightings Sequence:
   1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
   2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
   3. Route 42 (Central Island): Middle Apricorn grove. [Sighting FAILED/SKIPPED]
-     - Attempt 1: Re-zoned via Mt. Mortar (middle), stepped on (26, 14). Result: Fail.
-     - Attempt 2: Approach from East (Fly to Mahogany), Surf to island. Result: Fail.
-     - Attempt 3: Full island sweep. Result: Fail. Sprite is NOT in the map object list.
   4. Route 36 (Sudowoodo junction): [Pending]
-  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Pending]
-  6. Tin Tower 1F (Final Battle): Requires Clear Bell. [Current Target]
+  5. Wise Trio Battle: In Tin Tower Gatehouse (Map 4_1). [Cleared]
+  6. Tin Tower 1F (Final Battle): Talk to all 3 Sages on 1F. [Current Target]
 
-# Strategy for Tin Tower
-- Current Items: Clear Bell in inventory.
-- Event Status: Tin Tower has already shaken (Sage mentioned a Pokemon returned to the top). Sage at (4, 6) in Gatehouse has granted passage.
-- Action: Climb ladder at (5, 3) to Tin Tower Entrance, then proceed to the Tower.
+# Strategy for Beating Suicune
+- Status: Lv40 legendary.
+- Lead: XENON (Lv21).
+- Capture Sequence:
+  1. Mean Look (prevent escape).
+  2. Hypnosis (induce sleep).
+  3. Night Shade (weaken to low HP without KO).
+  4. Great Balls (repeat until caught).
 
 # NPC & Interaction Rules
 - Sage (4, 6): Passage guard. Granted access after confirming Clear Bell and Fog Badge. [Verified]
@@ -54,17 +57,7 @@
 # Money & Economy
 - Current Balance: ¥373. Need to prioritize trainer battles.
 
-# Tool & Mechanic Notes
-- find_path_v3: Provides directional inputs but does NOT trigger context-sensitive actions like Surf or Cut. Manual interaction is required to transition between movement modes.
-- Suicune Roaming: In Pokémon Crystal, Suicune does not roam until after the fixed encounter at Tin Tower. Pokedex "blue squares" represent fixed sighting locations.
-
-# Strategy for Beating Suicune
-- Status: Lv40 legendary.
-- Lead: Gneiss (Lv44) for durability or XENON (Lv21) for Hypnosis/Mean Look if capture is attempted.
-- Capture Strategy: Use XENON to sleep it, then switch to a high-level attacker to weaken. Great Balls ready.
-
 # Trainer Defeats
 - Sage Gaku: Defeated in Wise Trio Room (4_2).
 - Sage Masa: Defeated in Wise Trio Room (4_2).
-- Sage [Third]: Likely in Tin Tower or already satisfied by my progress.
-- Quest Progress: Wise Trio members in 4_2 defeated. Sage at (4, 6) in 4_1 granted passage. (Turn 24196)
+- Sage [Third]: Sage at (4, 6) in 4_1 granted passage.
