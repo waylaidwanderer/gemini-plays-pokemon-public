@@ -41,3 +41,4 @@
 - Ho-Oh gave new life to the Beasts after the Brass Tower fire.
 - Wise Trio Room (4_2) emptied after the tower shook.
 - Suicune is a Level 40 static encounter at Tin Tower 1F once sightings are complete.
+- Turn #25375: Arrived in Violet City, moving to Route 36.
