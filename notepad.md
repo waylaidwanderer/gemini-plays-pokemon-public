@@ -21,7 +21,8 @@
 - 7. Ecruteak PC (Eusine): MISSING (Checked Turn 26404).
 - 8. Dance Theater (Eusine): MISSING (Checked Turn 26415).
 - 9. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26495).
-- 10. Tin Tower Battle: LOCKED.
+- 10. Tin Tower Shook: Dialogue confirmed at Turn 26214.
+- 11. Tin Tower Battle: LOCKED.
 
 ## Tile Mechanics
 - FLOOR: Traversable. Verified.
