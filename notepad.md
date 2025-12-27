@@ -17,14 +17,14 @@
 - **FLOOR_UP_WALL:** Acts as a WALL from the North.
 
 # Active Plans
-- **Obtain Radio Card & Wake Snorlax:**
-  - *Started: Turn 22174 (Sat Dec 27 1:25 PM)*
-  - **Status:** At Snorlax. Tuning Radio to Poke Flute channel.
-  1. Locate Radio Tower (Done).
-  2. Talk to Director for Expansion Card (Done).
-  3. Fly to Vermilion City (Done).
-  4. Approach Snorlax (Done).
-  5. Play Poke Flute channel and interact to wake Snorlax.
+- **Wake Snorlax (Recovery Mission):**
+  - *Started: Turn 22219*
+  - **CRITICAL ISSUE:** Missing base Radio Card! Cannot use EXPN Card without it.
+  - **Status:** Fly to Goldenrod City.
+  1. Fly to Goldenrod City.
+  2. Go to Radio Tower and complete the Quiz to get the Radio Card.
+  3. Fly back to Vermilion City.
+  4. Wake Snorlax.
 
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 
