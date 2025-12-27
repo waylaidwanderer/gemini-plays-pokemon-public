@@ -58,3 +58,10 @@
 - Wise Trio (Wise Trio Room): Defeated.
 - Sage at (4, 6) (Gatehouse): Granted passage.
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
+
+# Navigation: Tin Tower 1F Maze
+- Access to Middle Section (Ladder/Suicune): Via Row 2.
+- Path from Entrance: (10, 15) -> (15, 15) -> (15, 2) -> (10, 2).
+- The central floor area (Row 5-9, X=7-12) is isolated by walls except for the top entry at (10, 2).
+- Current Position: (10, 12).
+- Target: (10, 5) to prepare for Suicune.
