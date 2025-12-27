@@ -25,8 +25,6 @@
     - **Mechanic:** Trash can switches were inactive.
 
 # Current Plan
-- **Immediate:** Exit Gym and Heal at Pokemon Center.
-- **Next:** Head North to Saffron City (since Snorlax blocks East).
-- **Log:** Entered Route 6 from Vermilion City. Heading North.
-- **Log:** Encountered a large pond and two Pokefans blocking the direct path North on Route 6.
-- **Plan:** Navigate East along the south side of the pond (Row 13) to bypass the obstacles and reach the eastern side of the route.
+- **Goal:** Reach Saffron City (North of Route 6).
+- **Status:** East path led to blocked Underground Path Entrance. Ledges block Northward movement on East side.
+- **Action:** Traverse West across Row 4 to explore the Western side of Route 6 for a path North.
