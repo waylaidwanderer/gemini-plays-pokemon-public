@@ -5,11 +5,10 @@
 
 ## Current Strategy
 - Plan:
-  1. Navigate to the north shore of Cianwood City (around (10, 14)).
-  2. Verify if Eusine or Suicune are present.
-  3. If Eusine is present, battle and defeat him.
-  4. If both are absent, re-check the Burned Tower basement (Trigger flag check).
-  5. If sightings still won't trigger, talk to the Sages in the Tin Tower Gatehouse again.
+  1. Fly to Ecruteak City.
+  2. Check Burned Tower basement (around (9, 14)) for Eusine or Suicune.
+  3. Re-check Wise Trio Room (Map 4_2) for the Trio battle.
+  4. If sightings still won't trigger, re-consult with Sages in Tin Tower Gatehouse.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
