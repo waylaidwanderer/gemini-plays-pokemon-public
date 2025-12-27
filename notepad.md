@@ -59,3 +59,9 @@
 # Failed Hypotheses Log
 - **Route 9 Ledges:** Thought Row 16 tiles were jumpable ledges. **Result:** False. They are walls.
 - **Route 9 Tree:** Thought (42, 15) was a cuttable tree. **Result:** False. It is a static wall tile.
+- Accidental landing at Indigo Plateau (Route 23).
+- Plan Correction: Re-opening Fly map.
+- Step 1: Open Party Menu.
+- Step 2: Select Mistral (Slot 5).
+- Step 3: Select Fly.
+- Step 4: Verify cursor position on map before moving.
