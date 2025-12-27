@@ -1,9 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Execute Menu Sequence to Cut tree: Exit Menu (B x4), Start, Up, A (Pokemon), Down x5 (Belladonna), A, A (Cut).
-- **Observation:** Direct 'A' interaction with the tree failed multiple times. The tree is not listed as a Map Object, suggesting it's a tile. If Menu Cut fails, the tree is likely not cuttable, and the path forward is through the house at (30, 23).
-- **Hypothesis:** This tree might be the "Burgled House" backyard access point, requiring passage through the house instead of Cutting. But testing Cut via Menu is the definitive check.
+- **Immediate Task:** Exit Menu (B x6), Face Right (to tree), Re-enter Menu (Start, Up, A), Select Belladonna (Down x4 from Garnet), and Cut (A, A).
+- **Observation:** Previous attempt failed to select Belladonna because cursor started at Slot 4 (Kunai) instead of Slot 1, and I incorrectly assumed the starting position. I ended up on Garnet.
+- **Correction:** Exiting menu now should save cursor on Garnet (Slot 2). To reach Belladonna (Slot 6), I need exactly 4 Downs. Also ensuring I face the tree first.
 
 # Strategic Goals
 1. **Restore Power:**
