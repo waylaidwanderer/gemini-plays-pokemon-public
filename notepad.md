@@ -1,13 +1,12 @@
 # Strategy for Suicune Encounter (Crystal)
-- **Status:** Sightings on Route 42 and Route 36 are required before the Tin Tower battle. (Note: Objective Analyst suggests Sages in Tin Tower 1F are the final trigger).
-- **Quest Start:** Turn 24509 (Route 42 exploration).
+- **Status:** Sightings on Route 42 and Route 36 are required before the Tin Tower battle.
 - **Sequence:**
   1. Burned Tower: Beasts flee. [Verified]
   2. Cianwood City (North): Suicune observed. [Verified]
-  3. Route 42 (Central Island): Approach Apricorn trees. [Attempted - Sprite not seen]
-  4. Route 36 (Sudowoodo junction): Approach junction. [Pending]
-  5. Tin Tower 1F: Return for battle.
-- **Battle Strategy:** Use KIMCHI (Gloom) at Lv21 with Sleep Powder to induce sleep. If Suicune wakes up, re-apply Sleep Powder immediately. Use XENON (Gastly) with Mean Look to prevent escape (though Suicune in Tin Tower 1F typically battles normally). Weaken with KIMCHI's Absorb or switch to a higher level Pokemon like Calcifer (Typhlosion) to use non-lethal moves if available. Use Ultra/Great Balls for capture.
+  3. Route 42 (Central Island): Suicune sprite must be seen near Apricorn trees. [Sprite Missing]
+  4. Route 36 (Sudowoodo junction): Suicune sprite must be seen near the junction. [Pending]
+  5. Tin Tower 1F: Return for battle after all sightings.
+- **Battle Strategy:** Use KIMCHI (Gloom) at Lv21 with Sleep Powder. Use XENON (Gastly) with Mean Look. Weaken carefully and capture with Ultra/Great Balls.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
@@ -32,21 +31,7 @@
 - Route 42: Shane (47, 8), Benjamin (49, 9), Tully (40, 10) defeated.
 
 # General Lessons
-- Suicune Trigger (Crystal): Mandatory sightings on Route 42 and 36 must be completed before the Tin Tower encounter.
-- Tool Usage: Always prioritize custom tools (menu_navigator, find_path) for repetitive tasks.
-- Johto Fly Map: "Up" moves forward in the city list (New Bark -> Cherrygrove -> Violet).
-
-# Suicune Sighting Strategy (Route 42/36)
-- If Tin Tower Sages do not trigger the battle, return to Route 42 and Route 36.
-- Route 42:
-  1. Surf to the central island.
-  2. Use `list_reachable_unseen_v1` to identify any unstepped tiles.
-  3. Methodically walk over EVERY reachable tile on the island.
-- Route 36: Approach the Sudowoodo junction from the Violet City side.
-- Note: Sighting on Route 42 MUST occur before Route 36.
-
-# Tin Tower Attempt 1
-- Turn 24662: Spoke to all 3 Sages on 1F.
-- Result: No Suicune appearance.
-- Conclusion: Mandatory sightings on Route 42 and/or Route 36 are incomplete.
-- Pivot: Return to Route 42 to verify trigger.
+- Suicune Trigger (Crystal): Suicune is a visible overworld sprite. If the sprite is not present, the trigger is not active.
+- Sightings Order: Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower 1F.
+- Tool Usage: Always prioritize custom tools for repetitive tasks.
+- Johto Fly Map: "Up" moves forward in the city list.
