@@ -17,3 +17,4 @@
 
 # Active Quests
 - **Bill's Grandpa:** Wants Lickitung (Everstone).
+- **Pathing:** Unseen objects (like item balls) can block paths. Mark them immediately when discovered.
