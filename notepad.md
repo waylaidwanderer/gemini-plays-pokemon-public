@@ -48,8 +48,9 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Exit Saffron Gym.
-- **Status:** In Saffron Pokemon Center. Exiting.
+- **Status:** In Saffron Pokemon Center. Talking to NPCs.
 - **Next Steps:**
-    1. Exit Pokemon Center.
-    2. Head North to Route 5.
-    3. Reach Cerulean City.
+    1. Talk to Youngster, Teacher, and Fisher.
+    2. Exit Pokemon Center.
+    3. Head North to Route 5.
+    4. Reach Cerulean City.
