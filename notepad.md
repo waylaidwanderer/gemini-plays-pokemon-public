@@ -23,12 +23,11 @@
     - Warp M (19, 5) -> ?
 
 # Current Plan
-- **Goal:** Win Battle against Psychic Jared.
-- **Immediate:** Defeat Exeggcute (2nd Pokemon).
+- **Goal:** Earn Marsh Badge.
+- **Immediate:** Test Warp K (19, 3).
 - **Next Steps:**
-    1. Test Warp C (19, 15).
-    2. Test Warp D (15, 17).
-    3. Test Warp E (15, 15).
+    1. Determine where Warp K leads.
+    2. Continue mapping warps until Sabrina is found.
 
 # Saffron City POIs
 - Gym (Here)
