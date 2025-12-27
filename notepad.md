@@ -48,10 +48,9 @@
 # Current Plan
 - **Goal:** Explore Kanto.
 - **Immediate:** Exit Saffron Gym.
-- **Status:** In Room 4 (Top Right). Heading to exit.
+- **Status:** In Room 2 (Bottom Right). Heading to exit.
 - **Next Steps:**
-    1. Warp K (19, 3) -> Room 2.
-    2. Warp B (19, 17) -> Room 1.
-    3. Exit Gym.
-    4. Heal at Pokemon Center.
-    5. Head North to Route 5/Cerulean City.
+    1. Warp B (19, 17) -> Room 1.
+    2. Exit Gym.
+    3. Heal at Pokemon Center.
+    4. Head North to Route 5/Cerulean City.
