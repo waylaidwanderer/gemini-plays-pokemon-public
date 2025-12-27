@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Interact (A) to Cut the tree at (33, 24), then navigate East to Route 9.
-- **Observation:** Successfully exited menus and oriented Player to Face Right. Previous 'A' press failed because I was likely still in a menu state or facing wrong. Now confirmed in Overworld and facing Right. Retrying Cut.
+- **Immediate Task:** Move Down to (32, 25), Face Right, and Interact (A) with the tree's trunk.
+- **Observation:** Visual inspection reveals the tree spans two tiles vertically. (33, 24) is the top, (33, 25) is the trunk. The top tile was unresponsive. Standard interaction requires targeting the base/trunk.
 
 # Strategic Goals
 1. **Restore Power:**
