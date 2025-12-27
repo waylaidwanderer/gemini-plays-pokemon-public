@@ -1,10 +1,11 @@
 # Post-Game: Kanto Adventure
 - **Status:** Johto Champion.
-- **Next Step:** Vermilion City (Kanto).
-- **Current Task:** Exploring S.S. Aqua 1F.
+- **Location:** S.S. Aqua (Lower Deck).
+- **Goal:** Find the Gentleman's Granddaughter.
+- **Next Step:** Vermilion City.
 
 # Team Status
-- **Muscle (Machoke)**: Lv69. MVP.
+- **Muscle (Machoke)**: Lv70. MVP.
 - **Garnet (Quilava)**: Lv29.
 - **Gyarados**: Lv35.
 - **Kunai (Sneasel)**: Lv24.
