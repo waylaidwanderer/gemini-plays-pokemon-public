@@ -28,6 +28,6 @@
 
 # Pokedex
 - Seen: 168, Owned: 30.
-- **Log:** Defeated Sailor Stanly (Lazy Buddy).
-- **Hypothesis:** The "Blocking Sailor" at (31, 6) might be the key or the quest giver moved.
-- **Plan:** Talk to the Sailor at (31, 6).
+- **Log:** Defeated Sailor Stanly. Reported to Sailor at (31, 6).
+- **Clue:** Sailor saw the little girl go "by here" (North).
+- **Plan:** Explore the area North of the sailors.
