@@ -47,13 +47,15 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Investigating interior.
+  - **Status:** Exploring the right side of the Power Plant.
   - **Clues:**
     - Officer at (4, 14): "A thief broke into the POWER PLANT..."
     - Worker at (2, 9): "Someone made off with a part that's essential for the generator. Without it, the new generator's useless!"
+    - Wall at x=10 separates the room. Access to the right side seems to be via the top (Row 4).
   - **Plan:**
-    1. Find the Plant Manager (likely in the back/north).
-    2. Investigate the generator.
+    1. Cross to the east side via the north corridor.
+    2. Talk to the Fisher at (14, 10).
+    3. Find the Plant Manager.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
