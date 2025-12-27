@@ -48,8 +48,8 @@
 # Current Plan
 - **Goal:** Earn Marsh Badge.
 - **Immediate:** Defeat Leader Sabrina.
-- **Status:** In Battle. Muscle vs Mr. Mime (Incoming).
+- **Status:** In Battle. Muscle vs Alakazam.
 - **Next Steps:**
-    1. Sweep team with Muscle.
+    1. Defeat Alakazam with Strength.
     2. Collect Marsh Badge.
     3. **CRITICAL:** Fix map marker for Medium Doris at (18, 16) immediately after battle.
