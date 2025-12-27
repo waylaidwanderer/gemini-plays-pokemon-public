@@ -28,3 +28,14 @@
 - **Goal:** Reach Saffron City (North of Route 6).
 - **Status:** East path led to blocked Underground Path Entrance. Ledges block Northward movement on East side.
 - **Action:** Traverse West across Row 4 to explore the Western side of Route 6 for a path North.
+
+# Saffron City Notes
+- **Arrival:** Entered from South (Route 6).
+- **Status:** Just arrived. Need to explore.
+- **POIs to Find:**
+    - Saffron Gym (Sabrina)
+    - Fighting Dojo
+    - Silph Co.
+    - Magnet Train Station
+    - Mr. Psychic
+    - Copycat's House
