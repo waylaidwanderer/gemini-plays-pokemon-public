@@ -40,3 +40,5 @@
 - Turn 26110: Triggered 'Tin Tower Shake' event.
 - Turn 26204: Confirmed Ecruteak PC is empty of Eusine.
 - Turn 26214: Talked to Sage member of Wise Trio.
+- Turn 26227: Talked to Gramps (Wise Trio member?) in Gatehouse. He spoke of the tower legends.
+- Next: Heading to Wise Trio Room to find the remaining members.
