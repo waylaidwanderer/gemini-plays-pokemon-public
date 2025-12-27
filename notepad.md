@@ -90,7 +90,10 @@
 - Next: Check (4, 5) from (4, 4).
 - Checked (4, 5): No item (Surf prompt).
 - Moving to (3, 4) to check (3, 5).
-- Plan:
-  1. Check (3, 5) from (3, 4) facing Down.
-  2. If empty, check (2, 5) from (2, 4).
-  3. If those fail, go to (5, 8) and check (6, 8).
+- "Center" seems to be the inner pool enclosed by the walkway (Rows 5-6, Cols 3-6).
+- Checked: (4, 5), (5, 5), (4, 6), (5, 6).
+- Remaining Candidates:
+  1. Check (3, 5) from (3, 4).
+  2. Check (6, 5) from (6, 4).
+  3. Check (3, 6) from (3, 7).
+  4. Check (6, 6) from (6, 7).
