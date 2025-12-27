@@ -42,5 +42,5 @@
 - **Log:** Successfully navigating around stunned Sailor (ID 1) via (31, 7) -> (31, 6) -> (29, 5).
 - **Observation:** A second Sailor (ID 2) appeared at (31, 6), blocking the path alongside Sailor 1 at (30, 6).
 - **Action:** Interacting with Sailor 2 to clear the path.
-- **Log:** Interacting with Sailor 2 at (31, 6) after Wade's call.
+- **Log:** Retrying interaction with Sailor 2 at (31, 6) (Facing Up).
 - **Hypothesis:** If Sailor 2 doesn't move/battle, I must return to 1F to find the "lazy buddy" to clear the path.
