@@ -47,37 +47,6 @@
       }
     ]
   },
-  "menu_navigator_v4_robust": {
-    "description": "Navigates a vertical list (Bag, Pokedex, etc.) to a target string and selects it. Accounts for cursor position and scrolls if necessary. Supports menu borders. Optimized for the Johto main menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "screen_text": {
-          "type": "string"
-        },
-        "target": {
-          "type": "string"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "screen_text",
-        "target",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\n\ndef solve():\n    text = input_data['screen_text']\n    target = input_data['target'].upper()\n    \n    lines = [line.strip() for line in text.split('\\n') if line.strip() and not all(c in '┌┐└┘─│' for c in line.strip())]\n    \n    # Identify options and current cursor position\n    options = []\n    cursor_idx = -1\n    for i, line in enumerate(lines):\n        clean_line = line.replace('▶', '').replace('▷', '').strip()\n        if '▶' in line or '▷' in line:\n            cursor_idx = len(options)\n        if clean_line:\n            options.append(clean_line)\n\n    if target not in options:\n        # Fallback for partial matches or common misspellings\n        for i, opt in enumerate(options):\n            if target in opt or opt in target:\n                target = opt\n                break\n        else:\n            print(json.dumps([]))\n            return\n\n    target_idx = options.index(target)\n    diff = target_idx - cursor_idx\n    \n    buttons = []\n    if diff > 0:\n        buttons.extend(['Down'] * diff)\n    elif diff < 0:\n        buttons.extend(['Up'] * abs(diff))\n    \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Improved menu navigation with better target matching and border handling.",
-        "timestamp": "2025-12-26T16:54:12.346Z",
-        "action_counter": 23112
-      }
-    ]
-  },
   "navigate_fly_map_v2": {
     "description": "Navigates the Johto FLY map from a known starting city to a target city. City names: 'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town', 'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City', 'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Mt. Silver', 'Indigo Plateau'. Assumes the FLY map is already open.",
     "input_schema": {
@@ -138,8 +107,8 @@
       }
     ]
   },
-  "menu_navigator_crystal_v2": {
-    "description": "Navigates the Crystal main menu. Handles the vertical layout including OPTION and EXIT. Robust against special characters like 'é'.",
+  "menu_navigator_crystal_v3": {
+    "description": "Navigates the Crystal main menu (POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT). Robust against special characters and cursor variations.",
     "input_schema": {
       "properties": {
         "screen_text": {
@@ -165,17 +134,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    def normalize(s):\n        return re.sub(r'[^a-z]', '', s.lower())\n\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    norm_order = [normalize(n) for n in order]\n    norm_target = normalize(target)\n    \n    if norm_target not in norm_order:\n        return [f\"Error: Target '{target}' not in menu order\"]\n    \n    target_idx = norm_order.index(norm_target)\n    \n    curr_idx = -1\n    lines = screen_text.split('\\n')\n    for i, line in enumerate(lines):\n        if \"▶\" in line or \"▷\" in line:\n            line_norm = normalize(line)\n            for j, n_name in enumerate(norm_order):\n                if n_name in line_norm:\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = norm_order.index(norm_target)\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
+    "python_script": "import json\nimport re\n\ndef navigate_menu(screen_text, target):\n    def normalize(s):\n        return re.sub(r'[^a-z]', '', s.lower())\n\n    order = [\"POKEDEX\", \"POKEMON\", \"PACK\", \"GEAR\", \"GEM\", \"SAVE\", \"OPTION\", \"EXIT\"]\n    norm_order = [normalize(n) for n in order]\n    norm_target = normalize(target)\n    \n    if norm_target not in norm_order:\n        return [f\"Error: Target '{target}' not in menu order\"]\n    \n    lines = screen_text.split('\\n')\n    curr_idx = -1\n    \n    for i, line in enumerate(lines):\n        # Look for the cursor symbol by stripping known text and border characters\n        # Alphanumeric, spaces, borders, and common text punctuation\n        clean_line = re.sub(r'[a-z0-9\\s|┌┐└┘─│é\\.\\!\\?]', '', line, flags=re.IGNORECASE)\n        if clean_line:\n            line_norm = normalize(line)\n            for j, n_name in enumerate(norm_order):\n                if n_name in line_norm:\n                    curr_idx = j\n                    break\n            if curr_idx != -1: break\n    \n    if curr_idx == -1:\n        return [\"Error: Cursor not found\"]\n        \n    target_idx = norm_order.index(norm_target)\n    diff = target_idx - curr_idx\n    buttons = []\n    if diff > 0:\n        buttons = [\"Down\"] * diff\n    elif diff < 0:\n        buttons = [\"Up\"] * abs(diff)\n    buttons.append(\"A\")\n    return buttons\n\ntry:\n    print(json.dumps(navigate_menu(input_data['screen_text'], input_data['target'])))\nexcept Exception as e:\n    print(json.dumps([f\"Error: {str(e)}\"]))\n",
     "history": [
       {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T05:50:42.249Z",
-        "action_counter": 24933
-      },
-      {
-        "commit_message": "Refined menu_navigator_crystal_v2 to handle special characters like 'é' by normalizing strings (removing non-alpha characters) before matching. Also added support for the '▷' cursor.",
-        "timestamp": "2025-12-27T05:53:07.908Z",
-        "action_counter": 24940
+        "commit_message": "Refined menu navigator for Crystal's main menu. Uses a more robust method to identify the cursor by stripping away known characters (alphanumeric, borders, common punctuation) and checking for remaining symbols. Normalizes text to handle 'é' and other special characters.",
+        "timestamp": "2025-12-27T06:04:19.589Z",
+        "action_counter": 24963
       }
     ]
   }
