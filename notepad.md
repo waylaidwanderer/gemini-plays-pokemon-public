@@ -17,20 +17,18 @@
 - Note: Sages will ONLY battle once all Suicune sightings are complete.
 
 ## Tile Mechanics - Global
-- FLOOR: Traversable.
-- WALL / VOID / HEADBUTT_TREE: Impassable.
-- WATER: Traversable via SURF.
-- CUT_TREE: Requires CUT.
-- LEDGE_HOP: One-way jump.
+- **FLOOR**: Standard walkable tile.
+- **WALL / VOID / HEADBUTT_TREE**: Impassable terrain.
+- **WATER**: Traversable via SURF.
+- **CUT_TREE**: Requires CUT to clear.
+- **LEDGE_HOP**: One-way traversal (jump).
+- **DOOR / STAIRS / LADDER**: Warp tiles.
 
 ## General Lessons Learned
 - **Sequential Events:** Legendary beast sightings are strictly sequential.
 - **Verification:** An empty location does NOT mean a sighting is complete. The event must be triggered by approaching the specific coordinates.
 - **Sage Passage:** Passing the gatehouse sage does NOT mean sightings are complete; it only means you have the Clear Bell (or Eusine is defeated). The Trio inside is the final check.
 
-## Progress Tracking
-- Current Task: Trigger Suicune sighting on Route 42 (26, 15).
-- Status: Sighting at (35, 9) on Route 36 failed to trigger. Suspect Route 42 sighting is actually NOT complete. Flying to Mahogany to check (26, 15) precisely.
 ## Suicune Sighting Troubleshooting
 - Route 42 (26, 15): Target. Must approach precisely. If empty, check for Eusine nearby.
 - Route 36 (35, 9): Attempted (Turn 26933) - No trigger.
