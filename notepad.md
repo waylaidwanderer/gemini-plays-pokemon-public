@@ -9,8 +9,8 @@
 - **Room 2 (Bottom Right):**
     - Warp B (19, 17) -> Room 1 (11, 15)
     - Warp C (19, 15) -> Room 3 (19, 9)
-    - Warp D (15, 17) -> ?
-    - Warp E (15, 15) -> Room 2 (15, 15) [Self-Loop?]
+    - Warp D (15, 17) -> Room 5 (5, 15)
+    - Warp E (15, 15) -> Room 2 (15, 15) [Self-Loop]
 - **Room 3 (Top Right):**
     - Warp F (19, 9) [From C]
     - Warp G (15, 9) -> Room 4 (15, 3)
@@ -22,13 +22,20 @@
     - Warp L (15, 5) -> ?
     - Warp M (19, 5) -> ?
     - Unmarked Warps: (11, 3), (11, 5)
+- **Room 5 (Bottom Left):**
+    - Warp N (5, 15) [From D]
+    - Warp O (1, 15) -> ?
+    - Warp P (1, 17) -> ?
+    - Warp Q (5, 17) -> ?
 
 # Current Plan
 - **Goal:** Earn Marsh Badge.
-- **Immediate:** Test Warp D (15, 17).
+- **Immediate:** Battle Youngster at (3, 16).
 - **Next Steps:**
-    1. Navigate to Warp D (15, 17).
-    2. Continue mapping warps until Sabrina is found.
+    1. Defeat Youngster.
+    2. Test Warp O (1, 15).
+    3. Test Warp P (1, 17).
+    4. Test Warp Q (5, 17).
 
 # Saffron City POIs
 - Gym (Here)
