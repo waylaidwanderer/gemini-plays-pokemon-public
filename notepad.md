@@ -10,7 +10,7 @@
 
 ## Strategy
 - Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
-- Current: Sell high-value items to buy 50+ Great Balls.
+- Current Strategy: Sell high-value items to buy 50+ Great Balls.
 - Target: ¥16,200 for 27 more Great Balls.
 
 # Money Management
