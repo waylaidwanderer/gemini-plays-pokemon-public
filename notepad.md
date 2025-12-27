@@ -50,9 +50,10 @@
   - **Obstacle:** Wall at (5, 4) blocked direct access to grass.
   - **Action:** Went South to (4, 8), Cut tree at (5, 8).
   - **Current Path:** Moving East on Row 8 (Below the Ledges).
-  - **Observation:** The grass/trainers are on the Upper Tier (Row 4-6). I am on the Lower Tier (Row 8+).
+  - **Observation:** The grass/trainers are on the Upper Tier (Row 4-6). I am on the Middle Tier (Row 8-10), which is blocked by a wall at x=10.
+  - **Action:** Hopping the ledge at (9, 11) to reach the Lower Tier (Row 12), which appears open to the East.
   - **Hypothesis:** This Lower Tier path leads to the Power Plant.
-  - **Plan:** Follow the path East.
+  - **Plan:** Follow the path East on Row 12.
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
