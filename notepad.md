@@ -47,3 +47,5 @@
 - Current: ¥373. Needs: ~¥1200 per Ultra Ball.
 - Strategy: Battle trainers on Route 42 (if any left) or Route 38/39. Sell unnecessary items (Hard Stone, TMs I won't use).
 - Note: High-priority to have at least 5-10 Ultra Balls before the final Suicune fight.
+- **Suicune Search (Route 42):** Attempted to move Down from (27, 15) to (27, 16) but was blocked by a FRUIT_TREE. Need to navigate around trees to reach the southern row (y=17).
+- **Strategy:** Move to (26, 15) -> (26, 16) -> (26, 17) then walk east.
