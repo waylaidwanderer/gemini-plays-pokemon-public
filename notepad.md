@@ -37,3 +37,10 @@
 - Suicune Sightings: Suicune is a static overworld sprite. If not visible at (26, 14), prerequisites are likely unmet. [Turn 25620]
 - Tool Refinement: `find_path_v4` refined to handle floor-to-water transitions. [Turn 25643]
 - Sequence Locking: Suicune sightings are strictly linear. Route 42 MUST be triggered before Route 36. [Turn 25682]
+## Tin Tower Gatehouse Investigation
+- Start Turn: 25687
+- NPCs to talk to:
+    - Sage ID 1 at (4, 6): [ ]
+    - Sage ID 3 at (5, 8): [ ]
+    - Gramps ID 4 at (3, 11): [ ]
+- Goal: Determine if dialogue changed after Tin Tower shook and if it triggers Suicune sightings. [Turn 25690]
