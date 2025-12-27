@@ -42,5 +42,15 @@
 - Eusine dialogue in Ecruteak PC is a known prerequisite in Crystal.
 - Sages granting passage to Tin Tower doesn't mean sightings are done.
 - Tile 'type' in XML is the source of truth for collision.
-- Wise Trio battle might be a separate requirement or a trigger for Eusine's appearance.
-- Confirmation bias is real: I thought I beat Eusine, but the Analyst corrected me! Always verify battle outcomes in the notepad.
+- Wise Trio battle happens AFTER all overworld sightings (Route 42/36).
+- Confirmation bias is real: I thought I beat Eusine, but I need to re-verify the Cianwood battle.
+
+## Suicune Quest Diagnostic Log
+- Burned Tower: Flee event completed.
+- Cianwood City (North): Flee event completed. [STATUS: PENDING BATTLE CHECK]
+- Route 42: Attempt 1 (Turn 26164) and Attempt 2 (Turn 26322) failed.
+- Ecruteak PC: Eusine MISSING (Confirmed at Turn 26293 and 26333).
+- Wise Trio: Room (4_2) was empty at Turn 26233.
+- Status: Verifying northern Cianwood for Eusine battle. [START TURN: 26364]
+- Cianwood Sweep Result: Swept (1, 10) to (16, 15) at Turn 26363. No Eusine found. Suicune spot (10, 14) is empty.
+- Current Hypothesis: Eusine moves to Ecruteak PC ONLY after being defeated in Cianwood. If he's missing from both, check if the Cianwood flee event actually happened (Summary says yes).
