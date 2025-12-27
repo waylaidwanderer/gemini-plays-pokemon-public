@@ -21,12 +21,12 @@
   - GUARD SPEC: ¥350 (Sold)
   - LEMONADE (x2): ¥350 (Sold)
   - FRESH WATER: ¥100 (Sold)
+  - X SPECIAL: ¥175 (Sold Turn 25237)
 - Remaining Sellables:
   - TM50 NIGHTMARE: ¥1000
   - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
   - X ATTACK: ¥250
-  - X SPECIAL: ¥175
   - HARD STONE: ¥25
 
 # NPC Registry
