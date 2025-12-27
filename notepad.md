@@ -47,12 +47,15 @@
 - **Route 9 Navigation:**
   - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
   - **Issue:** Access to Upper Path is tricky.
-  - **Hypothesis 1:** The "Uncuttable" tree at (33, 24) might actually be cuttable (verifying with Oddish/Hive Badge).
-  - **Hypothesis 2:** The unmarked house at (28, 17) might be a passage.
-  - **Plan:**
-    1. Navigate to (28, 18) to check the house door at (28, 17).
-    2. Navigate to (32, 24) to retry cutting the tree.
-    3. If both fail, reconsider Surf options from Route 24.
+  - **Verified Path:**
+    1. From (27, 12), go East to (33, 12).
+    2. Go South down the alley (Col 33) to (33, 16).
+    3. Go East through the gap to (34, 16).
+    4. Go South down Col 34 to bypass the "Uncuttable Tree" area.
+    5. Exit East to Route 9.
+  - **Status:** Executing path.
+  - **Note:** The "Unmarked House" at (28, 17) is likely just the Police Station (already visited).
+  - **Plan:** Head to (34, 16).
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
