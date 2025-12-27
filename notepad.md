@@ -1,5 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
+- Quest Start Turn: #25275 (Sat Dec 27 00:27 AM)
 
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
