@@ -50,7 +50,7 @@
 - **Immediate:** Exit Saffron Gym.
 - **Status:** In Saffron Pokemon Center. Talking to NPCs.
 - **Next Steps:**
-    1. Talk to Youngster, Teacher, and Fisher.
+    1. Talk to Teacher and Fisher.
     2. Exit Pokemon Center.
     3. Head North to Route 5.
     4. Reach Cerulean City.
