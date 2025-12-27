@@ -2,7 +2,6 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
-- Burned Tower Check Start: Turn 26470.
 
 ## Current Strategy
 - Plan:
