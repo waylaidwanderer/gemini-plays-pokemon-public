@@ -13,7 +13,6 @@
 - Current Strategy: Sell high-value items to buy 50+ Great Balls.
 - Target: ¥16,200 for 27 more Great Balls.
 
-# Money Management
 - Sell Values (Verified):
   - THUNDERSTONE: ¥1050 (Sold)
   - FULL RESTORE: ¥1500 (Sold)
@@ -22,11 +21,11 @@
   - LEMONADE (x2): ¥350 (Sold)
   - FRESH WATER: ¥100 (Sold)
   - X SPECIAL: ¥175 (Sold)
+  - X ATTACK: ¥250 (Sold Turn 25240)
 - Remaining Sellables:
   - TM50 NIGHTMARE: ¥1000
   - TM23 IRON TAIL: ¥1500
   - TM30 SHADOW BALL: ¥1500
-  - X ATTACK: ¥250
   - HARD STONE: ¥25
   - Other TMs: ¥1000-2500 each.
 - Strategy: Sell TMs to reach ~¥16,200 for 27 more Great Balls.
