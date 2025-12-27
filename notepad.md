@@ -73,3 +73,8 @@
 - Realization: Cannot Fly from inside the Pokemon Center.
 - Action: Closing menus (B spam) and walking Down to exit to Route 23.
 - Next: Fly to Cerulean City from outside.
+- Correcting Menu Navigation:
+  - Exiting Pokegear (accidental entry).
+  - Opening Start Menu -> Pokemon.
+  - Selecting Mistral (Slot 5) -> Fly.
+  - Goal: Open Fly Map to manually select Cerulean City in next turn.
