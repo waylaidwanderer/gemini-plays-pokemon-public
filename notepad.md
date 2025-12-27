@@ -154,3 +154,7 @@
 - Realized I was facing UP while trying to Cut.
 - Action: Exiting menu, turning RIGHT, and pressing A to Cut (42, 15).
 - If this fails, will use Fly to Cerulean.
+- Facing Right (Correct).
+- Screen shows Party Menu.
+- Attempting CUT by selecting Belladonna -> CUT (or interacting if menu is actually closed).
+- Sequence: A, A, A.
