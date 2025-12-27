@@ -47,7 +47,7 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Bypassing Youngster to reach Cut Tree.
+  - **Status:** Cutting Tree at (5, 8) to reach Cerulean City.
   - **Clues:**
     - Manager at (14, 10): "Who would dare ruin my generator? If I catch him, he's going to get a taste of my ZAP CANNON!"
     - Confirmed: The part was stolen.
@@ -58,11 +58,10 @@
       3. Go South at x=6 to hop ledge at (6, 7).
       4. Cut Tree at (5, 8) to exit.
   - **Plan:**
-    1. Bypass Youngster and reach (6, 8).
-    2. Cut the tree at (5, 8).
-    3. Return to Cerulean City.
-    4. Go to the Cerulean Gym to find the Rocket Grunt.
-    5. Recover the Machine Part.
+    1. Cut the tree at (5, 8).
+    2. Return to Cerulean City.
+    3. Go to the Cerulean Gym to find the Rocket Grunt.
+    4. Recover the Machine Part.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
