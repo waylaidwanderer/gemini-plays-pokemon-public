@@ -46,11 +46,10 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Battling Hiker Tim at (28, 3). Upper Tier (Row 3).
+  - **Status:** Defeated Hiker Tim. Proceeding East on Row 3.
   - **Plan:**
-    1. Win battle.
-    2. Continue East along Row 3.
-    3. Look for path South-East to Power Plant.
+    1. Go East on Row 3 past x=30.
+    2. Scout for ledges or turns South leading to the Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
