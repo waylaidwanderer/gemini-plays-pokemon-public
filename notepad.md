@@ -1,5 +1,6 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
+- Start: Turn 24182, Saturday 12:45 AM.
 
 ## Story Progress
 - Clear Bell: Obtained.
@@ -10,7 +11,7 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Attempted, not present.
+3. Route 42 (Central Island): Route 42 sighting failed (Turn 25425).
 4. Route 36 (Sudowoodo Junction): Pending.
 5. Tin Tower 1F: Final Encounter.
 
@@ -18,7 +19,7 @@
 - Hypothesis 1: Route 42 sighting is next. (Failed)
 - Hypothesis 2: Route 36 sighting is next.
 - Hypothesis 3: Eusine at Ecruteak Pokecenter provides a trigger. (Failed)
-- Hypothesis 4: Suicune is already at Tin Tower 1F. [Current Target]
+- Hypothesis 4: Suicune is already at Tin Tower 1F.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
@@ -47,7 +48,7 @@
 - Calcifer (TYPHLOSION): FLAME WHEEL, HEADBUTT, SMOKESCREEN, THUNDERPUNCH
 - XENON (GASTLY): HYPNOSIS, LICK, NIGHT SHADE, MEAN LOOK
 
-## NPC Registry & Checked Status
+## NPC Registry
 - Ecruteak Pokecenter:
   - Nurse (3, 1) [Checked]
   - Gym Guide (7, 1) [Checked]
