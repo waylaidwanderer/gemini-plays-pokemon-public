@@ -41,8 +41,8 @@
 - **Restore Power & Badges:**
   - **Status:** Backtracking on Route 25.
   - **Correction:** Water at Bill's House is a dead end.
-  - **Action:** Return to Bridge (West Side). Surf from (6, 16).
-  - **Route:** Surf South on West Channel -> Route 24 -> Find path East to Route 9.
+  - **Action:** Return to Bridge (West Side). Surf from (6, 15).
+  - **Route:** Navigate to (8, 11), go South down the ladders to (8, 15), then West to (6, 15).
   - **Goal:** Deliver Machine Part to Manager, then challenge Misty.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
