@@ -23,12 +23,11 @@
 # Active Plans
 - **Reach Power Plant:**
   - *Started: Turn 22019 (Sat Dec 27 11:20 AM)*
-  - **Status:** Machine Part delivered! Received TM07 (Zap Cannon).
-  1. Exit Power Plant.
-  2. Fly to Saffron City.
-  3. Walk East to Route 8 and continue to Lavender Town.
-  4. Talk to the Radio Tower Director to get the Expansion Card.
-  5. Wake Snorlax in Vermilion City.
+  - **Status:** In Saffron City. Heading to Lavender Town.
+  1. Fly to Saffron City. (Done)
+  2. Walk East to Route 8 and continue to Lavender Town.
+  3. Talk to the Radio Tower Director to get the Expansion Card.
+  4. Wake Snorlax in Vermilion City.
 - **Bill's Grandpa Request:** Wants to see Lickitung (Everstone). NOTE: Requests are sequential. Must show Lickitung before he will ask for Oddish (Leaf Stone).
 
 # Lessons Learned
