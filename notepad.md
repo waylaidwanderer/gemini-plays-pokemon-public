@@ -37,3 +37,5 @@
 # Lesson: Tree Cutting
 - To use CUT, face the tree and press A. When prompted "Want to use CUT?", press A again (default is YES). Do NOT press Down, as that selects NO.
 - Verified: CUT tree at (24, 13) on Route 42 cleared successfully Turn 24899.
+- *Hypothesis 5 (Wise Trio Check):* [In Progress - Turn 25117] Consulting the Wise Trio to verify if the Suicune quest has progressed or if a sighting was missed.
+- *Observation (Tin Tower Shook):* Turn 24187 - Sage mentioned the tower shook. This is a key indicator.
