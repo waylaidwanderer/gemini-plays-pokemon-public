@@ -1,9 +1,11 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Navigate to Cerulean Gym (30, 23) to investigate.
-- **Observation:** "Unknown Door" is the Trade Speech House (flavor only).
-- **Hypothesis:** The "Uncuttable Tree" might be a mechanic triggered by Gym events or finding the Machine Part. Investigating the Gym is the logical next step.
+- **Location:** Cerulean Gym.
+- **Immediate Task:** Walk North along the central bridge to search for the Rocket Grunt or Misty.
+- **Lore:** In Crystal, a Rocket Grunt is usually encountered here, which triggers the Machine Part quest.
+- **Observation:** Entered the Gym. Layout consists of a central bridge (LADDER tiles) over a pool of water.
+- **Strategy:** Move North to reveal the rest of the room and trigger events.
 
 # Strategic Goals
 1. **Restore Power:**
