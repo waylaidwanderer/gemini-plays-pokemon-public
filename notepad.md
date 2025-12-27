@@ -2,10 +2,10 @@
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
 - **Location:** Cerulean Gym (Exit).
-- **Immediate Task:** Navigate East along Row 16 to find a gap in the walls (Row 14-15) to head North to Route 24.
-- **Observation:** A continuous wall (Row 14-15) blocks North movement from x=5 to at least x=17.
-- **Strategy:** Explore further East (x>17) to find the opening to the Northern area (Route 24).
-- **Correction:** The Youngster at (6, 12) is likely accessible from the North side, not directly from here.
+- **Immediate Task:** Navigate North from (21, 16) to reach Route 24.
+- **Observation:** The path North is open around x=20-25. The Super Nerd is at (23, 15).
+- **Strategy:** Move North. I can likely bypass the Super Nerd or fight him. Heading to (21, 10) to confirm passage to Route 24.
+- **Correction:** The path was not blocked by the wall at x=17; the wall ended, opening up this area.
 
 # Strategic Goals
 1. **Restore Power:**
