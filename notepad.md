@@ -130,3 +130,6 @@
 - Failed to jump ledge at (41, 16).
 - Moving to (38, 15) to retry ledge jump at (38, 16).
 - If Row 16 is impassable, will check if (42, 15) is a Cut tree.
+- Failed to jump ledge at (41, 16) due to tile collision (FLOOR_UP_WALL).
+- Suspect (42, 15) is a Cut Tree blocking the path to the gap at (42, 16).
+- Inspecting (42, 15).
