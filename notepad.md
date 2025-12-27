@@ -27,10 +27,12 @@
   - TM23 IRON TAIL: ¥1500 (Sold)
   - TM30 SHADOW BALL: ¥1500 (Sold)
   - TM46 THIEF: ¥1500 (Sold)
+  - TM49 FURY CUTTER: ¥1500 (Sold Turn 25258)
 - Remaining Sellables:
-  - TM49 FURY CUTTER: ¥1000
   - HARD STONE: ¥25
-- Strategy: Sell items to reach ~¥16,200 for 27 more Great Balls (Total 50). Current: ¥10648.
+  - TM27 RETURN: ~¥1000+
+  - TM28 DIG: ~¥1000+
+- Strategy: Sell items to reach ~¥16,200 for 27 more Great Balls (Total 50). Current Money: ¥10648 (pre-sale).
 
 # NPC Registry
 - Route 36: Lass (50, 8), Fisher (44, 9).
