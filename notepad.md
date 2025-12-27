@@ -38,3 +38,6 @@
 - NPC dialogue hints (e.g., "tower shook") indicate quest progression but do not always skip steps.
 - Check all adjacent tiles when blocked by an NPC.
 - Do not mix directional and action buttons in a single press_buttons call.
+## Tile Mechanics Update
+- WARP_CARPET_DOWN: Triggers map transition when walking OFF the map (e.g., EcruteakTinTowerEntrance (5, 17)).
+- DOOR: Interactive warp tile (e.g., EcruteakCity (18, 11)).
