@@ -23,3 +23,5 @@
 - **Plan:** Explore the unblocked cabins at x=24 and x=22. The granddaughter might be there.
 - **Log:** Explored cabin at x=24. It is empty (just beds).
 - **Plan:** Explore the cabin at x=22.
+- **Log:** Cabin at x=22 is blocked from the top (beds).
+- **Plan:** Go around via x=24 and enter x=22 from the bottom (y=9).
