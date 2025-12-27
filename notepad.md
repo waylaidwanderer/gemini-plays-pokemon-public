@@ -14,6 +14,7 @@
 - **Route 9/10:** Power Plant requires Surf.
 - **Cerulean:** Gym at (30, 23).
 - **Saffron:** Silph Co Upgrade obtained.
+- **Route 27:** Fisher at (21, 10) blocks land path.
 
 # Active Quests
 - **Bill's Grandpa:** Wants Lickitung (Everstone).
