@@ -83,3 +83,7 @@
   - Selecting Mistral (Slot 5).
   - Selecting 'FLY'.
   - Next Turn: Manually navigate Fly Map to Cerulean (Up from Saffron).
+- Correcting Menu State:
+  - Currently in Garnet's Stats.
+  - Action: B (Exit Stats) -> B (Close Context) -> Down x3 (To Mistral) -> A (Select) -> A (Fly).
+  - Next Turn: Navigating Fly Map to Cerulean.
