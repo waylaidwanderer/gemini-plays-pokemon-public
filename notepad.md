@@ -1,7 +1,7 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell, All Sightings Completed.
 - Start: Turn 24182, Saturday 12:45 AM.
-- Current Attempt Duration: ~1550 turns.
+- Current Attempt Duration: ~1600 turns.
 
 ## Story Progress
 - Clear Bell: Obtained.
@@ -13,37 +13,24 @@
 ## Sighting Progress
 1. Burned Tower: [Verified]
 2. Cianwood City (North): [Verified]
-3. Route 42 (Central Island): Failed (Turn 25654). Re-attempting after Sage dialogue.
-4. Route 36 (Sudowoodo Junction): Pending.
+3. Route 42 (Central Island): [Pending/Checked] Swept island Turn 25761. run_code found no Suicune object Turn 25767.
+4. Route 36 (Sudowoodo Junction): [Next Target]
 5. Tin Tower 1F: Pending.
 
-## Hypotheses & Strategy
-- Hypothesis: Talking to all Sages in Ecruteak while the Clear Bell is active is the final trigger for the Route 42 sighting.
-- Strategy:
-    1. Travel to Route 42 central island.
-    2. Use CUT on tree at (24, 13).
-    3. Sweep the southern part of the island to trigger Suicune.
-    4. If unsuccessful, return to Cianwood City to re-verify Eusine battle outcome and talk to the Seer.
-    5. If still stuck, re-explore Mt. Mortar for any missed triggers.
-
 ## Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Traversable with SURF.
-- CUT_TREE: Impassable; remove with CUT.
-- GRASS / TALL_GRASS: Traversable; triggers encounters.
-- CAVE / DOOR / WARP: Warp points.
-- LADDER: Warp point.
-- HEADBUTT_TREE: Impassable.
-- FLOOR_UP_WALL: Traversable (ledges/stairs).
+- FLOOR: Traversable. Standard ground collision. [Verified]
+- WALL: Impassable. Structural/boundary collision. [Verified]
+- WATER: Traversable with SURF. Triggers wild encounters (e.g., Goldeen). [Verified]
+- CUT_TREE: Impassable. Can be removed with HM01 CUT. Regrows on map reload. [Verified]
+- GRASS / TALL_GRASS: Traversable. Triggers wild encounters. [Verified]
+- CAVE / DOOR / WARP: Transitions between maps. [Verified]
+- LADDER: Vertical transition between map levels. [Verified]
+- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt. [Verified]
+- FLOOR_UP_WALL: Traversable (ledges/stairs). Typically one-way down for ledges. [Verified]
 
-## Lessons Learned
-- Notepad Management: Only one `notepad_edit` call is allowed per turn.
-- Suicune Sightings: Strictly linear. Route 42 MUST be triggered before Route 36.
-- Tool Refinement: `find_path_v4` refined for complex types. [Turn 25707]
-- Proximity Triggers: Suicune sightings may be zone-based, not just single-tile. [Turn 25741]
-## Suicune Quest Update
-- Tin Tower Shook: Turn 25687.
-- Sages Dialogue: Completed Turn 25726.
-- Current Hypothesis: Sages' dialogue was a required trigger for Route 42 sighting.
-- Strategy: Re-check Route 42 central island now that tower has shook and Sages are talked to.
+## Failed Hypotheses & Attempts
+- Attempt 1 (Route 42): Swept island after tower shook and Sages were talked to. No trigger found. (Turns 25639-25771).
+- Hypothesis: Talking to all Sages was the final trigger for Route 42. [Denied - Swept island, no trigger].
+
+## Strategy
+- Current: Check Route 36 for the next Suicune sighting.
