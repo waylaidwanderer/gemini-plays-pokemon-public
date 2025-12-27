@@ -1,8 +1,8 @@
 # Suicune Quest Strategy (Crystal Version)
 - **Status:** All overworld sightings confirmed. Gatehouse Sage (4_1) confirmed "Tower Shook" (Turn 27084).
-- **Tracker Update:** `suicune_tracker_v2` confirms the Wise Trio stage is bypassed/complete and Suicune is waiting on Tin Tower 1F (Turn 27090).
-- **Current Objective:** Battle and capture Suicune on 1F.
-- **Battle Prep:** Xenon (Gastly) is in the lead for Mean Look and Hypnosis.
+- **Tracker Update:** `suicune_tracker_v2` confirms the Wise Trio battle in Map 4_2 is MANDATORY (Turn 27124). Center of 1F is blocked until they are defeated.
+- **Current Objective:** Defeat the Wise Trio in Map 4_2.
+- **Battle Prep:** Xenon (Gastly) is in the lead for Mean Look and Hypnosis. (Note: Wise Trio may require a higher level team; keep Calcifer ready).
 
 ## Strategy for Suicune Capture
 1. **Approach:** Move to the center area of 1F (around (10, 9)) to trigger the encounter.
