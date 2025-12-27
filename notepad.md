@@ -24,10 +24,9 @@
 # Exploration Status: S.S. Aqua
 - **Quest:** Find Gentleman's Granddaughter.
 - **1F:**
-  - Cabins at (19,8) and (15,8) are empty.
-  - Stairs at (15,15) -> Lower Deck South (Dead end, Firebreather Lyle defeated).
-  - Stairs at (19,15) -> Lower Deck Middle (Empty).
-  - Stairs at (23,15) -> Lower Deck East (Current).
-- **Lower Deck East:**
-  - Contains Pokefan Colin (Defeated).
-  - Contains Twins (Battling).
+  - Cabins: (19,8), (15,8) checked (Empty).
+  - Stairs:
+    - (15,15) -> Lower Deck South (Dead end, Lyle defeated).
+    - (19,15) -> Lower Deck Middle (Empty).
+    - (23,15) -> Lower Deck East (Colin & Twins defeated).
+  - **Next:** Search West side of 1F for more stairs/cabins.
