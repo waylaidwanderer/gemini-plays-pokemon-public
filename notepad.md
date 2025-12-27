@@ -29,3 +29,4 @@
 - **Plan:** Navigate through the gap in the trash cans at (6, 7) to reach Lt. Surge.
 - **Log:** Initiating battle with Lt. Surge.
 - **Strategy:** Use Muscle (Lv71). Strength for most, Cross Chop for Magneton (Steel type).
+- **Log:** Defeated Raichu. Declining switch against Electabuzz.
