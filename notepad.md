@@ -46,13 +46,12 @@
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
   - **Goal:** Reach Power Plant (East).
-  - **Status:** Reached Upper Tier (Row 2) via Column 15. Currently at (15, 2).
-  - **Puzzle:** Need to cross from the West/Central section to the East section.
-  - **Observation:** Row 2 leads West towards a grass patch.
+  - **Status:** At (6, 2) in West Grass. Confirmed dead end (Upper Loop).
+  - **Correction:** The path forward is likely a missed turn North at x=28 on the Lower Highway (Row 10-12).
   - **Plan:**
-    1. Go West along Row 2 to investigate the grass area and potential hidden paths.
-    2. Check for gaps in the southern ledge of the upper tier.
-    3. If blocked, check Row 0/1 for a northern bypass.
+    1. Exit Grass South to Row 6.
+    2. Go East to (16, 6) -> South to (16, 10) (Lower Highway).
+    3. Go East to (28, 11) and head North.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
