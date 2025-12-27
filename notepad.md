@@ -5,11 +5,11 @@
 
 ## Current Strategy
 - Plan:
-  1. Fly to Ecruteak City.
-  2. Head South to Route 36 junction.
-  3. Walk onto (35, 9) on Route 36 to trigger the Suicune sighting.
-  4. If that fails, check the Burned Tower basement for Eusine.
-  5. If progress stalls, attempt to enter Tin Tower and climb.
+  1. Fly to Cianwood City.
+  2. Check the north shore (around (10, 14)) for Eusine.
+  3. If Eusine is present, battle and defeat him.
+  4. If Eusine is absent, return to Ecruteak and check the Burned Tower basement.
+  5. If sightings still won't trigger, re-consult with Sages in Tin Tower Gatehouse.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
