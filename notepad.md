@@ -1,51 +1,33 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
-- Quest Start: Turn 24182. Timestamp: Saturday, Dec 27, 2025.
-- Wise Trio Objective Start: Turn 26612.
-- Sage Passage Guard (4, 6): Permitted passage.
-- Wise Trio Room (4_2): Empty at Turn 26628.
-
-## Current Strategy
-- Plan:
-  1. Navigate to Tin Tower Gatehouse in Ecruteak and speak to Sages to trigger "Tin Tower shook" event.
-  2. Navigate to Route 42 clearing at (26, 15) to trigger Suicune sighting.
-  3. Navigate to Route 36 junction at (35, 9) to trigger Suicune sighting.
-  4. Return to Wise Trio Room.
+- Quest Start: Turn 24182.
+- Sequence:
+  1. Burned Tower (Flee event observed).
+  2. Cianwood City North (Flee event observed).
+  3. Eusine Battle (Cianwood) - Defeated (Turn 21034).
+  4. Route 42 sighting: REQUIRED. Near Apricorn trees. Target: (26, 15).
+  5. Route 36 sighting: REQUIRED. Near Sudowoodo spot. Target: (35, 9).
+  6. Tin Tower / Wise Trio: Final stage.
 
 ## Strategy for Wise Trio Battle
 - Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
-- Lead: Calcifer (Typhlosion) with Thunderpunch (for Noctowl) and STAB moves.
-- Backup: Gneiss (Graveler) for Noctowl.
+- Lead: Calcifer (Typhlosion) with Thunderpunch (for Noctowl).
+- Backup: Gneiss (Graveler).
 
 ## Tile Mechanics - Global
-- FLOOR / GATEHOUSE_FLOOR: Traversable.
+- FLOOR / GATEHOUSE_FLOOR: Traversable on foot.
 - WALL / VOID / HEADBUTT_TREE: Impassable.
-- WATER: SURF required.
-- CUT_TREE: CUT required. Regrows after leaving map. Standing adjacent and pressing A triggers menu.
-- TALL_GRASS: Encounters.
-- COUNTER: Interaction tile for NPCs.
-- WARP_CARPET: Warp point.
-- CAVE: Warp point.
-- FLOOR_UP_WALL: Impassable (ledge/elevation change).
-
-## Suicune Quest Diagnostic Log
-- 1. Burned Tower: Flee event completed.
-- 2. Cianwood City (North): Flee event observed.
-- 3. Eusine Battle (Cianwood): Defeated.
-- 4. Route 42 sighting: Attempted Turn 26734. No event. (May be done or blocked).
-- 5. Route 36 sighting: REQUIRED. Target tile: (35, 9).
-- 6. Tin Tower Shook: COMPLETED (Turn 26711).
-- 7. Wise Trio Room: EMPTY at Turn 26750. Sighting 4 or 5 likely missing.
+- WATER: Traversable via SURF. Interaction from land (facing water) triggers SURF menu.
+- CUT_TREE: Impassable. Requires CUT to clear. Regrows after leaving map.
+- TALL_GRASS: Traversable on foot. Wild encounters.
+- LEDGE_HOP: One-way jump (down/right/left/up as named).
+- WARP: Map transition.
 
 ## General Lessons Learned
-- **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately. Do not persist with failing logic.
-- **CUT_TREE Interaction:** 'find_path_v5' with 'can_cut=True' is unreliable for the actual interaction. Use 'interact_with_tile_v1' or manual positioning for cutting trees.
-- **Root Hypothesis Verification:** Before pursuing complex quest sequences, verify the exact trigger requirements with 'suicune_tracker_v2' to avoid wasted effort.
+- **Tool Failure Recognition:** If 'find_path_v5' or any automation fails to progress for 2+ turns, switch to manual control or specialized tools immediately.
+- **SURF Transitions:** BFS must account for the interaction required to enter water.
+- **Sequential Events:** Legendary beast sightings are strictly sequential. Do not skip steps.
 
-## Quest Progress Tracking
-- Suicune Quest: Started Turn 24182. Ongoing.
-- Wise Trio Battle: Triggered by Suicune sightings. Ongoing.
-- Turn 26724: Manual override for Surfing on Route 42. Initiating Surf at (13, 9).
-## Reflection Log
-- Turn 26728: Performed mandatory reflection. No deferred tasks. Reorganized Suicune Quest section and added manual override notes. Markers are accurate. Using manual control for Surf transition and island landing due to 'find_path_v5' unreliability in these specific cases. Goals are outcome-focused. Root hypothesis (Suicune location) is being tested.
-- Turn 26728: Manual navigation to (22, 12) to land on island. Path: Down x3, Right x8.
+## Progress Tracking
+- Suicune Quest: Ongoing. Currently seeking Route 42 sighting.
+- Wise Trio Room: Empty until all overworld sightings are complete.

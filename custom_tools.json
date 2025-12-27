@@ -25,55 +25,6 @@
       }
     ]
   },
-  "sweep_area_v2": {
-    "description": "Iteratively walks all floor tiles within a specified bounding box on the current map to trigger events or find objects. Uses BFS for robust movement between points and handles obstacles. Returns a list of button strings for the path.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "bottom_y": {
-          "type": "integer"
-        },
-        "left_x": {
-          "type": "integer"
-        },
-        "right_x": {
-          "type": "integer"
-        },
-        "top_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "left_x",
-        "top_y",
-        "right_x",
-        "bottom_y"
-      ]
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(json.dumps([]))\n        return\n\n    # Build adjacency and walkable map\n    walkable = {}\n    start_x, start_y = -1, -1\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            \n            # Floor, grass, dirt, sand, and cut trees are generally walkable.\n            # Walls, water (without surf), and objects are not.\n            walkable_types = [\n                'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'GRASS', 'DIRT', 'SAND',\n                'CUT_TREE', 'CUT_08', 'CUT_28_GARBAGE'\n            ]\n            \n            is_walkable = t_type in walkable_types and not has_obj\n            walkable[(x, y)] = is_walkable\n            \n            if tile.find('Player') is not None:\n                start_x, start_y = x, y\n\n    if start_x == -1:\n        print(json.dumps([]))\n        return\n\n    left_x = int(input_data['left_x'])\n    top_y = int(input_data['top_y'])\n    right_x = int(input_data['right_x'])\n    bottom_y = int(input_data['bottom_y'])\n\n    # Determine targets within the bounding box\n    targets = []\n    for y in range(top_y, bottom_y + 1):\n        # Use a snake pattern for efficiency\n        if (y - top_y) % 2 == 0:\n            x_range = range(left_x, right_x + 1)\n        else:\n            x_range = range(right_x, left_x - 1, -1)\n        \n        for x in x_range:\n            if walkable.get((x, y)):\n                targets.append((x, y))\n\n    if not targets:\n        print(json.dumps([]))\n        return\n\n    def get_path(s_x, s_y, e_x, e_y):\n        if s_x == e_x and s_y == e_y:\n            return []\n            \n        q = deque([(s_x, s_y, [])])\n        visited = set([(s_x, s_y)])\n        while q:\n            cx, cy, path = q.popleft()\n            if cx == e_x and cy == e_y:\n                return path\n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in walkable and walkable[(nx, ny)] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    q.append((nx, ny, path + [btn]))\n        return None\n\n    full_path = []\n    curr_x, curr_y = start_x, start_y\n    \n    # We want to visit EVERY target. If a target is unreachable from the current\n    # position, we skip it and move to the next.\n    for tx, ty in targets:\n        p = get_path(curr_x, curr_y, tx, ty)\n        if p:\n            full_path.extend(p)\n            curr_x, curr_y = tx, ty\n        elif curr_x == tx and curr_y == ty:\n            continue\n            \n    print(json.dumps(full_path))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Initial version of a robust area sweep tool using BFS for navigation between floor tiles.",
-        "timestamp": "2025-12-27T05:49:48.091Z",
-        "action_counter": 24932
-      },
-      {
-        "commit_message": "Fixing typo 'intelligence' to 'in' and improving logic.",
-        "timestamp": "2025-12-27T14:27:39.597Z",
-        "action_counter": 26009
-      },
-      {
-        "commit_message": "Fixing 'is_walkable' logic to include more tile types and cleaning up start position detection.",
-        "timestamp": "2025-12-27T14:28:45.750Z",
-        "action_counter": 26011
-      },
-      {
-        "commit_message": "Adding more walkable tile types (CUT_TREE, etc.) and improving error handling.",
-        "timestamp": "2025-12-27T14:30:38.821Z",
-        "action_counter": 26014
-      }
-    ]
-  },
   "find_path_v5": {
     "description": "Calculates a path between two coordinates on the current map using BFS, accounting for walls, objects, and avoiding unintentional warps. Returns a JSON array of button strings. Handles landing from water, cutting trees, and one-way ledges. Uses global map_xml_string and input_data.",
     "input_schema": {
@@ -192,6 +143,40 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-27T19:51:30.216Z",
         "action_counter": 26672
+      }
+    ]
+  },
+  "find_path_v6": {
+    "description": "Advanced pathfinding that tracks surfing state and handles land-to-water transitions by inserting the necessary 'A' button presses. Returns a JSON array of button strings.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "can_surf": {
+          "type": "boolean",
+          "default": false
+        },
+        "can_cut": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    player_tile = root.find(\".//Player/..\")\n    if player_tile is None:\n        print(json.dumps([]))\n        return\n    \n    start_x = int(player_tile.get('id'))\n    start_y = -1\n    for row in root.findall('Row'):\n        if row.find(f\"Tile[@id='{start_x}']/Player\") is not None:\n            start_y = int(row.get('id'))\n            break\n            \n    if start_y == -1:\n        print(json.dumps([]))\n        return\n\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_surf = input_data.get('can_surf', False)\n    can_cut = input_data.get('can_cut', False)\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            tiles[(x, y)] = {\n                'type': tile.get('type'),\n                'is_warp': tile.get('is-warp') == 'true',\n                'has_object': tile.get('has-object') == 'true'\n            }\n\n    is_initially_surfing = tiles[(start_x, start_y)]['type'] == 'WATER'\n    queue = deque([(start_x, start_y, is_initially_surfing, [])])\n    visited = set([(start_x, start_y, is_initially_surfing)])\n    \n    while queue:\n        x, y, surfing, path = queue.popleft()\n        \n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in tiles: continue\n            \n            target = tiles[(nx, ny)]\n            ntype = target['type']\n            \n            if target['has_object']: continue\n            if ntype in ['WALL', 'VOID', 'HEADBUTT_TREE']: continue\n            \n            new_surfing = surfing\n            new_path = path + [btn]\n            \n            if ntype == 'CUT_TREE':\n                if not can_cut: continue\n                new_path = path + ['A', 'A', btn]\n            elif not surfing and ntype == 'WATER':\n                if not can_surf: continue\n                new_surfing = True\n                new_path = path + ['A', 'A', btn]\n            elif surfing and ntype != 'WATER':\n                new_surfing = False\n            \n            state = (nx, ny, new_surfing)\n            if state not in visited:\n                visited.add(state)\n                queue.append((nx, ny, new_surfing, new_path))\n                \n    print(json.dumps([]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-27T20:34:03.253Z",
+        "action_counter": 26762
       }
     ]
   }
