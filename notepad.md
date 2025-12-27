@@ -20,5 +20,5 @@
     - Exiting North to Vermilion City.
     - Ladders at x=3 seem to be a separate path.
 - **Log:** Arrived in Vermilion City (12_3). Exploring.
-- **Observation:** The path north is blocked by water at x=24.
-- **Plan:** Head East to x=28, where the path turns North into the city.
+- **Log:** Entered Vermilion City via the East path (x=28).
+- **Plan:** Explore the city center. Locate Gym and Pokemon Center.
