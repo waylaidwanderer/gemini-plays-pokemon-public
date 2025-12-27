@@ -44,11 +44,11 @@
 
 # Strategy for Tin Tower
 - Current Items: Clear Bell in inventory.
-- Event Status: Tin Tower has already shaken (Sage mentioned a Pokemon returned to the top).
-- Hypothesis: Suicune has moved to Tin Tower because the Clear Bell is in inventory and the Tower has shaken.
-- Action: Visit Tin Tower Gatehouse at (18, 11) and proceed to the Tower for the final encounter.
+- Event Status: Tin Tower has already shaken (Sage mentioned a Pokemon returned to the top). Sage at (4, 6) in Gatehouse has granted passage.
+- Action: Climb ladder at (5, 3) to Tin Tower Entrance, then proceed to the Tower.
 
 # NPC & Interaction Rules
+- Sage (4, 6): Passage guard. Granted access after confirming Clear Bell and Fog Badge. [Verified]
 - Apricorn Trees: Face and press A to receive an Apricorn. One per day. (27, 16), (28, 16), (29, 16) on Route 42.
 
 # Money & Economy
