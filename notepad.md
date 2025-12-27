@@ -29,8 +29,9 @@
 - TALL_GRASS / LONG_GRASS: Walkable. Verified.
 - HEADBUTT_TREE: Impassable. Verified.
 - CAVE: Entrance/Exit warp. Verified.
-- VOID: Impassable. Verified at (26, 17) on Route 42.
+- VOID: Impassable. Verified at (26, 17) on Route 42. Effectively an out-of-bounds area.
 - GATEHOUSE_FLOOR: Traversable. Verified.
+- COUNTER: Impassable. Used to interact with NPCs behind them. Verified at (3, 2) in Ecruteak PC.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
