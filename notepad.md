@@ -45,9 +45,15 @@
 # Current Plan
 - **Goal:** Earn Marsh Badge.
 - **Immediate:** Test Warp BB at (1, 3).
+- **Status:** Defeated Medium Doris.
 - **Next Steps:**
     1. Navigate to Warp BB (1, 3).
-    2. Continue mapping warps until Sabrina is found (Middle Center Room).
+    2. Continue mapping warps until Sabrina is found.
+
+# Tile Mechanics
+- **WARP_PANEL:** Stepping on these instantly teleports the player to another location. If you arrive on one, you must step off and step back on to use it again.
+- **FLOOR:** Standard walkable tile.
+- **WALL:** Impassable tile.
 
 # Saffron City POIs
 - Gym (Here)
