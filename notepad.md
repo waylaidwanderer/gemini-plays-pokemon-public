@@ -47,11 +47,12 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Inside Power Plant Entrance.
+  - **Status:** Investigating interior.
   - **Clues:**
-    - Officer at (4, 14): "A thief broke into the POWER PLANT... What is the world coming to?"
+    - Officer at (4, 14): "A thief broke into the POWER PLANT..."
+    - Worker at (2, 9): "Someone made off with a part that's essential for the generator. Without it, the new generator's useless!"
   - **Plan:**
-    1. Find the Plant Manager (likely in the back).
+    1. Find the Plant Manager (likely in the back/north).
     2. Investigate the generator.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
