@@ -23,3 +23,5 @@
 - **Log:** Entered Vermilion City via the East path (x=28).
 - **Plan:** Explore the city center. Locate Gym and Pokemon Center.
 - **Observation:** Spotted a Sleeping Snorlax at (34, 8) blocking the path.
+- **Log:** Found Vermilion Mart at (21, 13).
+- **Plan:** Head North to find the Pokemon Center (expected around x=25, y=7). Then find the Gym.
