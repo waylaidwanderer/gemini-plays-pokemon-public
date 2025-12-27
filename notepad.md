@@ -1,23 +1,34 @@
-# Post-Game: Kanto Adventure
-- **Status:** In Saffron Pokemon Center.
-- **Goal:** Explore Kanto.
-- **Task Start:** Turn 21088 (Exploration).
+# Kanto Campaign Status
+- **Location:** Cerulean City (Coordinates: 28, 26).
+- **Current Objective:** Reach the Power Plant via Route 9.
+- **Immediate Task:** Finish conversation with Fisherman, then head East.
 
-# Current Plan
-- **Goal:** Explore Kanto.
-- **Immediate:** Gather info and head to Cerulean.
-- **Status:** Entering Cerulean City.
-- **Info:** Magnet Train disabled. Power Plant issue confirmed.
-- **Next Steps:**
-    1. Enter Cerulean City.
-    2. Locate path to Power Plant (East).
-    3. Investigate Power Plant.
-    4. Wake Snorlax.
+# Strategic Goals
+1. **Restore Power:**
+   - Investigate Power Plant (East of Cerulean, end of Route 9).
+   - Fix the Generator (likely requires a part).
+2. **Wake Snorlax:**
+   - Requires Poke Flute functionality (Radio expansion card?).
+   - Requires Power restored.
+3. **Collect Kanto Badges:**
+   - [x] Vermilion (Thunder)
+   - [x] Saffron (Marsh)
+   - [ ] Cerulean (Cascade) - Misty?
+   - [ ] Celadon (Rainbow)
+   - [ ] Fuchsia (Soul)
+   - [ ] Pewter (Boulder)
+   - [ ] Viridian (Earth)
+   - [ ] Cinnabar (Volcano)
 
-# Key Locations
-- **Saffron Gym:** Defeated Sabrina. (Warp puzzle solved).
-- **Silph Co:** Tourist spot (according to Youngster).
-- **Magnet Train:** Connects to Goldenrod (needs pass).
+# Discovery Log
+- **Cerulean City:**
+  - **Fisherman:** Confirmed Power Plant is near end of Route 9.
+  - **Cooltrainer M:** Mentions trainers at Cerulean Cape (Route 25).
+  - **Gym:** Located, but ignoring for now to focus on Power Plant.
+  - **Bike Shop:** Found sign.
+- **Saffron City:**
+  - Magnet Train station exists but no power.
+  - Copycat girl (lost doll?).
 
 # Tile Mechanics
 - **FLOOR:** Standard walkable tile.
@@ -26,14 +37,4 @@
 - **TALL_GRASS:** Wild Pokemon encounters.
 - **WARP_CARPET_DOWN:** Transition to map below.
 - **DOOR:** Warp to interior.
-
-# Post-Game Status
-- **Location:** Cerulean City (Poke Mart).
-- **Status:** Exiting.
-- **Goal:** Locate Gym and Route 9 (East).
-- **Info:** Cooltrainer M mentions many trainers at Cerulean Cape (Route 25).
-- **Immediate:** Talk to the Fisherman north of the Mart (requires navigating around the building).
-## Cerulean City Notes
-- **Locked Door:** Found at (14, 29).
-- **Bike Shop:** Sign located at (11, 29).
-- **Mart:** Sign located at (26, 29).
+- **WATER:** Requires Surf.
