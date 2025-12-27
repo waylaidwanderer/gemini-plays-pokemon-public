@@ -56,3 +56,5 @@
 - Navigation Success: Bypassed the stunned Super Nerd. Currently at the Northern Route 9 entrance (27, 12).
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
+- Police Station Investigation: The "Fishing Guru" (Chief?) mentioned they were held up by robbers. Possible connection to the Power Plant commotion?
+- Plan: Resume travel to Route 9 via the Northern entrance at (27, 12).
