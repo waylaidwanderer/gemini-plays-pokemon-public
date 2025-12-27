@@ -1,8 +1,8 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Press 'B' multiple times to force-exit the persistent Sneasel Summary screen and return to the Overworld.
-- **Observation:** Previous `slow_press` failed to exit the menu; I am still viewing Sneasel's stats. Splitting the action: Exit Menu first, then Cut Tree in the next turn to ensure inputs don't bleed into menu navigation.
+- **Immediate Task:** Interact (A) to Cut the tree at (33, 24), then navigate East to Route 9.
+- **Observation:** Successfully exited menus and oriented Player to Face Right. Ready to Cut.
 
 # Strategic Goals
 1. **Restore Power:**
