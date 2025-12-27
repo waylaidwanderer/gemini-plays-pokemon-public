@@ -41,3 +41,5 @@
 - NPC dialogue hints (e.g., "tower shook") indicate quest progression but do not always skip steps.
 - Check all adjacent tiles when blocked by an NPC.
 - Do not mix directional and action buttons in a single press_buttons call.
+## Milestones
+- Turn 26110: Triggered "Tin Tower Shake" event by entering the gatehouse with the Clear Bell.
