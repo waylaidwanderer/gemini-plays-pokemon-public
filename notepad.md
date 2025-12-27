@@ -27,9 +27,9 @@
 # Current Plan
 - **Goal:** Explore Saffron City.
 - **Status:** On Southern Street (Row 31).
-- **Action:** Navigate West to Column 6 to find a vertical path North (Middle of Row 29 is blocked by buildings).
+- **Action:** Navigate West to Column 3 (Westmost street), then head North.
 - **Next Steps:**
-    1. Find path North on the West side.
+    1. Head North on the Western street (Column 2/3).
     2. Locate Saffron Gym and Silph Co (likely North/Central).
     3. Locate Copycat's House (North-West?).
     4. Check fighting Dojo.
