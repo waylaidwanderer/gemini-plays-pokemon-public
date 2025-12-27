@@ -64,3 +64,4 @@
 - **Hypothesis:** "Lazy Buddy" sailor or the Granddaughter might be inside one of these cabins.
 - **Correction:** Adjusted position from hallucinated (30, 14) to actual (26, 6).
 - **Action:** Entering Cabin at (27, 8).
+- **Log:** Retrying entry to Cabin at (27, 8). Previous navigation attempt didn't trigger warp.
