@@ -33,4 +33,4 @@
 ## Timestamps
 - Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
 - Troubleshooting Prerequisites: Turn 25949, Saturday 5:56 AM. (Wise Trio Room check)
-- Route 42 Re-entry Attempt: Turn 25954.
+- Route 42 Re-entry Attempt: Turn 25954. (Hypothesis: West entry required)
