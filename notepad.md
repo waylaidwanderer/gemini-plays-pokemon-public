@@ -40,3 +40,7 @@
   4. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
   5. Night Shade: Deals exactly 21 damage. Use only if HP is high (Suicune has ~125 HP).
   6. Priority: Keep Suicune asleep at all times.
+
+# Navigation to Tin Tower
+- Path: Ecruteak City (18, 11) -> Tin Tower Gatehouse (5, 3) warp -> (17, 15) -> (17, 3) warp -> Wise Trio Room (1, 4) -> (7, 4) warp -> Ecruteak Restricted Area (20, 2) -> (37, 7) warp -> Tin Tower 1F.
+- Requirements: Clear Bell, Fog Badge, and Sages' approval (all obtained).
