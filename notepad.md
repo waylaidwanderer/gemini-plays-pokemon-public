@@ -11,19 +11,18 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): Pending.
+3. Route 42 (Central Island): Pending. (Swept island Turn 25515, no trigger).
 4. Route 36 (Sudowoodo Junction): Pending.
-5. Tin Tower 1F: Pending.
+5. Tin Tower 1F: Pending. (Checked Turn 25477, no encounter).
 
 ## Hypotheses & Strategy
 - Hypothesis 1: Route 42 sighting is next.
 - Hypothesis 2: Route 36 sighting is next. [Current Target - Started Turn 25535]
-- Strategy: Fly to Ecruteak, walk south to Route 36 junction, approach from Route 35 side.
 - Hypothesis 3: Eusine provides a trigger. (Confirmed: No at Ecruteak Pokecenter)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
-## Strategy Details
-- Route 36 sighting: Navigate to the Sudowoodo junction via Route 37 and approach from the south (Route 35 entrance).
+## Strategy & Planning
+- Route 36 sighting: Fly to Ecruteak, walk south to Route 36 junction via Route 37, and approach from the south (Route 35 entrance).
 - Route 42 sighting: Use Surf to reach the island and Cut to remove the tree. Stand on every tile of the island platform.
 
 ## Tile Mechanics
