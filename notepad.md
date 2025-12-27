@@ -25,9 +25,9 @@
   - X ATTACK: ¥250 (Sold)
   - TM50 NIGHTMARE: ¥1000 (Sold)
   - TM23 IRON TAIL: ¥1500 (Sold)
-  - TM30 SHADOW BALL: ¥1500 (Sold Turn 25254)
+  - TM30 SHADOW BALL: ¥1500 (Sold)
+  - TM46 THIEF: ¥1500 (Sold Turn 25255)
 - Remaining Sellables:
-  - TM46 THIEF: ¥1500
   - TM49 FURY CUTTER: ¥1000
   - HARD STONE: ¥25
 
