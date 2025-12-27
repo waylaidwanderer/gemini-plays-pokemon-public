@@ -38,3 +38,7 @@
 - Quest status: Stuck on Suicune sighting #3/4.
 - Hypothesis: Missing a specific trigger or standing on the wrong tile.
 - Action: Re-check Route 36 junction thoroughly, then check Tin Tower 1F for hints.
+## Suicune Quest Update - Turn 25798
+- Status: Sightings 3 & 4 not triggering.
+- New Hypothesis: Wise Trio battle is required to 'prove worth' before Suicune appears in the overworld after the tower shakes.
+- Action: Flying to Ecruteak to challenge Wise Trio.
