@@ -1,6 +1,7 @@
 # Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
+- Sighting Hunt Start: Turn 26522 (Timestamp: Saturday, Dec 27, 2025, 10:41 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
 
 ## Current Strategy
