@@ -27,3 +27,6 @@
 - **Reminder:** Check if Gym is blocked by a Cut tree.
 - **Log:** Exited Fishing Guru's House. Water blocks direct path South.
 - **Plan:** Head East to x=16, then South to bypass the water and reach the Southwest area.
+- **Observation:** Found a Cut Tree at (13, 18) likely blocking the Gym.
+- **Plan:** Check the house at (13, 13).
+- **Hypothesis:** If Gym is blocked, I need to get Belladonna (Oddish) from PC.
