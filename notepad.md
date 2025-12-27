@@ -32,3 +32,4 @@
 ## Timestamps
 - Suicune Quest Start: Turn 24182, Saturday 12:45 AM.
 - Current Status: Turn 25898. Searching Route 42 East.
+- Turn 25911: Movement blocked moving Down into (53, 14) [FLOOR_UP_WALL] from (53, 13). Attempting to navigate around via y=7.
