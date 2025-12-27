@@ -39,10 +39,10 @@
 
 # Active Plans
 - **Escape to Cerulean:**
-  - **Status:** Party Menu. Selected 'FLY'. Opening Map.
-  - **Action:** Navigate Fly Map to Cerulean City.
-  - **Execution:** Determine path -> Select Cerulean -> Fly.
-  - **Next:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
+  - **Status:** Fly Map Open. Cursor on Indigo Plateau.
+  - **Action:** Pressing 'Right' to target Cerulean City (or Saffron).
+  - **Next:** Confirm destination is Cerulean -> Fly.
+  - **Route:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
 - Navigation Error: Mistook Overworld movement for Fly Map navigation.
