@@ -69,3 +69,4 @@
 4. If XENON is at risk, switch to a high-HP wall (GNEISS or Calcifer) to soak hits while throwing Great Balls.
 5. Only use Night Shade if Suicune's HP is very high; at Lv21, Night Shade deals exactly 21 damage. Suicune is Lv40 (approx 120-130 HP).
 6. Maintain Sleep status as a priority.
+- Quest Start: Suicune Encounter (Turn 24238, 2025-12-26 16:30)
