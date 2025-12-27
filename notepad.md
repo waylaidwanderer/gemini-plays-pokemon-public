@@ -47,12 +47,17 @@
   - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
 - *Strategy (Suicune Encounter):* [Turn 25150] Heading to Tin Tower 1F via Ecruteak City (20, 2). Plan to lead with GNEISS (Lv44) for durability or KIMCHI (Lv21) for Sleep Powder.
 - *Status:* "Tin Tower shook" event triggered. Wise Trio Room explored, no Sages found. Proceeding to tower base.
-- *Observation (Wise Trio Room Empty):* [Turn 25151] Explored 64/64 tiles. No NPCs present. Sages must have moved after the Tin Tower shook.
-- *Observation (Tin Tower Shook):* Turn 25133 & 25137 - Sage mentioned the tower shook. This usually indicates Suicune is present.
-- *Navigation (Tin Tower Path):* [Turn 25159] Confirmed path from (20, 2) to (37, 7) is reachable within the restricted area: (20, 2) -> (29, 2) -> (29, 4) -> (33, 4) -> (33, 7) -> (34, 7) -> (34, 8) -> (35, 8) -> (35, 9) -> (37, 9) -> (37, 7).
-- *Plan:* Proceeding to Tin Tower 1F to check for Suicune. Leading with KIMCHI (Lv21) for Sleep Powder. GNEISS (Lv44) and Calcifer (Lv45) are backup for durability.
+- *Observation (Tin Tower Shook):* Turn 25133, 25137, 25141 - Sage mentioned the tower shook. This event is active.
 - *Verified Tile Mechanics:*
   - FLOOR: Verified traversable Turn 25141.
   - WALL: Verified impassable Turn 25141.
   - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
   - DOOR: Verified as targetable warp point at (37, 7).
+- *Suicune Sighting Progress (Crystal):*
+  1. Burned Tower: Beasts fled. [Verified]
+  2. Cianwood City (North): Sighting. [Verified]
+  3. Route 42 (Central Island): Sighting check. [Failed - Turn 25101. No sprite seen.]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Pending]
+- *Status:* Wise Trio Room (4_2) empty Turn 25149. Sages present in Tin Tower 1F (3_4).
+- *Strategy:* Talk to Sages in Tin Tower 1F to check for hints or battles. If Suicune is missing, prioritize Route 36 and Route 42 sightings.
+- *Battle Lead:* KIMCHI (Lv21) for Sleep Powder. Backup: GNEISS (Lv44), Calcifer (Lv45).
