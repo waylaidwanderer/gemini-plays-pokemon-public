@@ -2,6 +2,7 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
+
 ## Current Strategy
 - Plan:
   1. Fly to Ecruteak City.
@@ -14,8 +15,8 @@
 - 1. Burned Tower: Flee event completed.
 - 2. Cianwood City (North): Flee event completed.
 - 3. Eusine Battle (Cianwood): COMPLETED (Marker at (11, 20)).
-- 4. Route 42 sighting: Attempting (Turn 26426).
-- 5. Route 36 sighting: PENDING.
+- 4. Route 42 sighting: FAILED (Reached clearing at (26, 15) on Turn 26434, no trigger).
+- 5. Route 36 sighting: Attempting.
 - 6. Ecruteak PC (Eusine): MISSING (Checked Turn 26404).
 - 7. Dance Theater (Eusine): MISSING (Checked Turn 26415).
 - 8. Wise Trio Battle: PENDING (Room 4_2 empty at Turn 26233).
