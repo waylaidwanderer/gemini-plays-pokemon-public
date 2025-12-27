@@ -28,3 +28,4 @@
 - **Sequential Requirements:** Clear Bell + Sightings -> "Shook" dialogue -> Wise Trio Battle -> Suicune Encounter.
 - **NPC Solidity:** NPCs are solid objects; paths must detour around them.
 - **Map Transitions:** Leaving a map from specific coordinates triggers transitions (e.g., Ecruteak (18, 11) -> Tin Tower Gatehouse).
+- Talked to Sage (Passage Guard) at (4, 6). He said: "Please, do go on." (Turn 27070)
