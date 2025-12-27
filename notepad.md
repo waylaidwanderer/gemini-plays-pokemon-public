@@ -71,3 +71,5 @@
 - `open_fly_map_v2`: Unreliable because party menu cursor position is persistent. Use `open_fly_map_v3` instead.
 - **Tool Update (Turn 25485):** Replaced `open_fly_map_v2` with `open_fly_map_v3` for better reliability.
 - **Strategy Update:** Retrying Route 42 island sighting. Plan is to use `sweep_area_v2` on the entire island platform to find the exact trigger tile.
+- **Tool Failure (Turn 25486):** `open_fly_map_v3` failed due to party menu wrapping. Cursor landed on XENON stats.
+- **Plan:** Manually Fly to Ecruteak Pokemon Center, then head to Route 42 island.
