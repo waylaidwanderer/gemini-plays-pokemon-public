@@ -40,3 +40,5 @@
 - **Observation:** Wall at Column 29 has an opening at Rows 4 and 5. This is the path West.
 - **Action:** Stunned Sailor (ID 1) at (30, 6) to bypass him via (31, 6).
 - **Log:** Successfully navigating around stunned Sailor (ID 1) via (31, 7) -> (31, 6) -> (29, 5).
+- **Observation:** A second Sailor (ID 2) appeared at (31, 6), blocking the path alongside Sailor 1 at (30, 6).
+- **Action:** Interacting with Sailor 2 to clear the path.
