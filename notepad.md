@@ -34,3 +34,6 @@
 - **Observation:** I am in a section of B1F separated by a wall at Column 29.
 - **Plan:** Explore this section to find a way West (to the main B1F area) or return to 1F if stuck.
 - **Action:** Battling Sailor in B1F East section before returning to 1F.
+- **Quest Info:** Sailor at B1F (30, 6) wants me to find his "lazy buddy" who is goofing off.
+- **Hypothesis:** The "buddy" might be the Sailor I saw earlier on 1F at (22, 17).
+- **Plan:** Quick check of the north end of this corridor, then return to 1F to find the buddy and explore the West side.
