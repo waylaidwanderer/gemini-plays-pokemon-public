@@ -5,12 +5,13 @@
 ## Sighting Progress
 1. Burned Tower: Beasts fled. [Verified]
 2. Cianwood City (North): Seen at (10, 14). [Verified]
-3. Route 42 (Central Island): [Status: Blocked by Route 36 sighting]
-4. Route 36 (Sudowoodo Junction): [Status: Next Sighting]
+3. Route 36 (Sudowoodo Junction): [Status: Next Sighting (Prerequisite for Route 42)]
+4. Route 42 (Central Island): [Status: Blocked by Route 36 sighting]
 5. Tin Tower 1F: Static Encounter. [Status: Triggered (Tower Shook)]
 
 ## Strategy
 - Sequence: Route 36 -> Route 42 -> Tin Tower 1F.
+- Note: Stand on (35, 9) on Route 36 to trigger, then (26, 14) on Route 42.
 - Note: The Tin Tower shook after obtaining the Clear Bell, which is the final trigger phase.
 
 # NPC/Event Prerequisites
