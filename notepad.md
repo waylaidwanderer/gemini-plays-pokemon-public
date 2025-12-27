@@ -1,14 +1,12 @@
 # Strategy for Suicune Encounter (Crystal)
 1. Prerequisites: Clear Bell and Fog Badge (Obtained).
-2. Trigger Hypothesis: Speaking to the three Sages in Tin Tower 1F while holding the Clear Bell will trigger the Suicune encounter.
-   - Status: FAILED (Turn 24576). Spoke to all three, no encounter triggered.
-3. Revised Strategy: Complete mandatory sightings in order:
+2. Revised Trigger Sequence (Mandatory Sightings):
    - Burned Tower: Beasts flee. [Done]
    - Cianwood City (North): Suicune observed. [Done]
    - Route 42 (Central Island): Approach Apricorn trees. [Pending]
    - Route 36 (Sudowoodo junction): Approach junction. [Pending]
-   - Tin Tower 1F: Return for battle.
-4. Battle Strategy: Use Sleep Powder (KIMCHI) to prevent Suicune from using Roar. Weaken carefully and capture with Ultra/Great Balls.
+   - Tin Tower 1F: Return for battle. (Dialogue with Sages alone is NOT enough).
+3. Battle Strategy: Use Sleep Powder (KIMCHI) to prevent Suicune from using Roar. Weaken carefully and capture with Ultra/Great Balls.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
@@ -32,6 +30,6 @@
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
 
 # General Lessons
-- Suicune Trigger (Crystal): Testing if Sage dialogue is the primary trigger. Standard mechanics suggest Route 42/36 sightings are required first.
+- Suicune Trigger (Crystal): Sightings on Route 42 and 36 are mandatory before the Tin Tower battle. The Sages' dialogue is lore, not the primary trigger.
 - Tool Error: Custom tools receive `input_data` directly. Do not use `sys.stdin.read()` for inputs.
 - Johto Fly Map: "Up" moves forward in the city list (New Bark -> Cherrygrove -> Violet).
