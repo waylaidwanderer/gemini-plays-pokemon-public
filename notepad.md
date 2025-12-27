@@ -45,3 +45,7 @@
   - **Next:** Land in Cerulean -> Heal -> Route 24 -> Surf to Power Plant.
 - **Restore Power Route:**
   - Fly to Cerulean -> Heal -> Route 24 -> Surf South-East -> Power Plant.
+- Navigation Error: Mistook Overworld movement for Fly Map navigation.
+- Result: Walked back inside Indigo Plateau Center.
+- Action: Exiting Center (Down) to retry Fly sequence from scratch.
+- Lesson: Verify menu state visually before inputting directional commands.
