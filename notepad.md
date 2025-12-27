@@ -1,3 +1,10 @@
+# Strategy for Suicune Sighting (Crystal)
+1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
+2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
+3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> My analyst suggests the next major trigger is in the Tin Tower 1F. I will attempt to trigger the battle there.
+4. Route 36 (Sudowoodo junction): [Pending]
+5. Tin Tower 1F (Final Battle): Requires all previous sightings. I have the Clear Bell and Fog Badge.
+
 # Tile Mechanics (Global)
 - FLOOR: Walkable. Standard collision. [Verified]
 - WALL: Impassable. [Verified]
@@ -13,13 +20,14 @@
 - VOID: Impassable. Map boundary. [Verified]
 - WARP_CARPET_DOWN: Traversable. Triggers exit to overworld. [Verified]
 
-# Battle and Pokemon Information
-## Type Immunities (Target-based)
-- Ghost: Immune to Normal, Fighting.
-- Ground: Immune to Electric.
-- Steel: Immune to Poison.
-- Flying: Immune to Ground.
-- Dark: Immune to Psychic.
+# NPC & Interaction Rules
+- Sage (4, 6): Passage guard. Granted access. [Verified]
+- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
+
+# Trainer Defeats
+- Wise Trio (Wise Trio Room): Defeated.
+- Sage at (4, 6) (Gatehouse): Granted passage.
+- Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
 
 # Strategy for Beating Suicune
 - Status: Lv40 legendary.
@@ -32,34 +40,3 @@
   4. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
   5. Night Shade: Deals exactly 21 damage. Use only if HP is high (Suicune has ~125 HP).
   6. Priority: Keep Suicune asleep at all times.
-
-# Suicune Sighting Sequence (Crystal)
-1. Burned Tower (Ecruteak City): Beasts flee. [Cleared]
-2. Cianwood City (North): Suicune observed at (10, 14). [Cleared]
-3. Route 42 (Central Island): Middle Apricorn grove. [Pending] -> Sweep required. Clear Bell may be a prerequisite. Status: Island sweep ~90% complete. No sighting yet.
-4. Route 36 (Sudowoodo junction): [Pending]
-5. Tin Tower 1F (Final Battle): Requires all previous sightings. [Current Target after sightings]
-
-# NPC & Interaction Rules
-- Sage (4, 6): Passage guard. Granted access. [Verified]
-- Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
-
-# Trainer Defeats
-- Wise Trio (Wise Trio Room): Defeated.
-- Sage at (4, 6) (Gatehouse): Granted passage.
-- Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
-
-# Navigation: Tin Tower 1F Maze
-- Central Area Access: The central floor area (Rows 5-9, X=7-12) is isolated by walls/pillars.
-- Final Battle Trigger: Requires completion of all roaming sightings (Route 42, Route 36).
-
-# Tile Mechanics (Route 42)
-- CUT_TREE at (24, 13): Regrows immediately upon map reload (e.g., entering/exiting gatehouses or buildings). [Verified]
-
-# Task Tracking
-- Suicune Tracking: Started Turn 24305 (Friday, Dec 26, 5:07 PM).
-
-# Suicune Sighting Hypothesis (Crystal)
-- Hypothesis: Suicune sighting on Route 42 (Island) might be gated by the Route 36 sighting or a specific trigger area.
-- Analyst Tip: Final battle in Tin Tower 1F is triggered by talking to the three Sages with Clear Bell and Fog Badge. I have both.
-- Test 1: Sweep entire Route 42 island floor. [In Progress]
