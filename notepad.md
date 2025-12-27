@@ -88,9 +88,8 @@
 - Currently at (5, 4) (North Bridge).
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
-- Checking (6, 8) (Down from 6, 7).
-- Next Plan:
-  1. Move Left to (3, 7).
-  2. Check (3, 6) (Up) - Last candidate in Inner Pool.
-  3. Check (3, 8) (Down).
-  4. If fails, check (4, 9) and (6, 9).
+- Checked (6, 8): No item (Surf prompt).
+- Moving to (3, 7).
+- Checking (3, 6) (Up).
+- If that fails, will check (3, 8) (Down).
+- Remaining Candidates: (3, 6), (3, 8), (4, 9), (6, 9).
