@@ -133,39 +133,5 @@
         "action_counter": 25794
       }
     ]
-  },
-  "exhaustive_tile_sweep": {
-    "description": "Iteratively walks every single tile within a specified bounding box on the current map. This tool is designed for exhaustive searches where trigger tiles are unknown or extremely specific. It uses find_path_v4 for robust movement and automatically skips non-walkable tiles. Returns a list of button strings.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "left_x": {
-          "type": "integer"
-        },
-        "top_y": {
-          "type": "integer"
-        },
-        "right_x": {
-          "type": "integer"
-        },
-        "bottom_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "left_x",
-        "top_y",
-        "right_x",
-        "bottom_y"
-      ]
-    },
-    "python_script": "import json\n\ndef generate_sweep_path(left_x, top_y, right_x, bottom_y):\n    path = []\n    for y in range(top_y, bottom_y + 1):\n        # Even rows go left to right, odd rows go right to left\n        if (y - top_y) % 2 == 0:\n            x_range = range(left_x, right_x + 1)\n        else:\n            x_range = range(right_x, left_x - 1, -1)\n        \n        for x in x_range:\n            path.append({\"x\": x, \"y\": y})\n    return path\n\n# This is a placeholder. In a real scenario, this would be integrated with the navigation logic.\n# For now, we'll just output the target coordinates for the player to follow.\ninput_data = {\n    \"left_x\": 24,\n    \"top_y\": 12,\n    \"right_x\": 31,\n    \"bottom_y\": 17\n}\n\nsweep_path = generate_sweep_path(input_data[\"left_x\"], input_data[\"top_y\"], input_data[\"right_x\"], input_data[\"bottom_y\"])\nprint(json.dumps(sweep_path))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T14:25:07.536Z",
-        "action_counter": 26004
-      }
-    ]
   }
 }
