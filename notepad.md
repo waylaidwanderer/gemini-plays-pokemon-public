@@ -21,3 +21,4 @@
     - Gramps/Machop construction site at (23, 6).
     - Snorlax blocking path at (34, 8).
     - Vermilion Port Passage leads south.
+- **Log:** Closed sign text at (25, 4). Moving South to (24, 7) to bypass obstacles.
