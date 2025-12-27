@@ -45,12 +45,14 @@
 - Found the path to Route 9! It was a gap in the wall at (36, 22), bypassing the cuttable tree.
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
-  - **Structure:** Split into Upper (Grass, Trainers) and Lower (One-way West) paths by ledges.
-  - **Issue:** Entered via Lower path (gap at 36, 22). Stuck below ledges previously.
-  - **Status:** Successfully entered Route 9 via Cerulean (39, 22).
-  - **Observation:** I am in a small enclosed area on Route 9, blocked to the East by walls and a Cut Tree at (5, 8).
-  - **Hypothesis:** This path requires Cutting the tree to access the main part of Route 9.
-  - **Plan:** Cut the tree at (5, 8) and proceed East to the Power Plant.
+  - **Status:** On Route 9 (East Side).
+  - **Path:** Came from Cerulean (Row 22) -> Route 9 (0, 4).
+  - **Obstacle:** Wall at (5, 4) blocked direct access to grass.
+  - **Action:** Went South to (4, 8), Cut tree at (5, 8).
+  - **Current Path:** Moving East on Row 8 (Below the Ledges).
+  - **Observation:** The grass/trainers are on the Upper Tier (Row 4-6). I am on the Lower Tier (Row 8+).
+  - **Hypothesis:** This Lower Tier path leads to the Power Plant.
+  - **Plan:** Follow the path East.
 - Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
 - New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
 - Target: Reach (6, 24) first.
