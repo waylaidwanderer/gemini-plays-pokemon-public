@@ -18,6 +18,7 @@
 ## Hypotheses & Strategy
 - Hypothesis 1: Route 42 sighting is next.
 - Hypothesis 2: Route 36 sighting is next. [Current Target - Started Turn 25535]
+- Strategy: Fly to Ecruteak, walk south to Route 36 junction, approach from Route 35 side.
 - Hypothesis 3: Eusine provides a trigger. (Confirmed: No at Ecruteak Pokecenter)
 - Hypothesis 4: Suicune is already at Tin Tower 1F. (Confirmed: No)
 
