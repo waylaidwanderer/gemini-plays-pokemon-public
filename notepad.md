@@ -1,11 +1,18 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Location:** Cerulean Gym.
-- **Immediate Task:** Navigate to the central platform (4, 3) to inspect the pool and back area.
-- **Lore:** The Rocket Grunt event likely requires visiting the Power Plant first.
-- **Strategy:** Quick visual sweep of the Gym. If empty, exit and head North to Route 24 to find the path to the Power Plant (since the South path was blocked).
-- **Note:** I have SURF (Gyarados/Poliwag) if needed to cross the water.
+- **Location:** Cerulean Gym (Center Platform).
+- **Immediate Task:** Explore the walkable area (Row 4-5) to verify if Misty or the Rocket Grunt is present.
+- **Hypothesis:** The Gym is likely empty because I haven't triggered the Power Plant quest yet.
+- **Strategy:**
+    1. Verify Gym is empty.
+    2. Exit and travel North to Route 24/25.
+    3. Find the path East to Route 9 and the Power Plant.
+    4. Trigger the quest at the Power Plant.
+    5. Return to Cerulean Gym to find the Rocket Grunt.
+- **Lesson:** If the game explicitly says "There's nothing to CUT here", accept it immediately. Do not test facing or menu options repeatedly.
+- **Tile Mechanics:**
+    - **LADDER:** Used for the bridge in Cerulean Gym. Functionally acts as a walkable FLOOR tile.
 
 # Strategic Goals
 1. **Restore Power:**
