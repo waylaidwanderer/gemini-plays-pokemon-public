@@ -20,10 +20,10 @@
     - Warp J (15, 3) [From G]
     - Warp K (19, 3) -> Room 2 (15, 15) [Warp E]
     - Warp L (15, 5) <-> Room 8 (1, 3) [Warp BB]
-    - Warp M (19, 5) -> Room 5 (1, 15) [Warp O]
-- **Room 5 (Bottom Left) [Current]:**
+    - Warp M (19, 5) <-> Room 5 (1, 15) [Warp O]
+- **Room 5 (Bottom Left):**
     - Warp N (5, 15) [From D]
-    - Warp O (1, 15) -> ?
+    - Warp O (1, 15) <-> Room 4 (19, 5) [Warp M]
     - Warp P (1, 17) -> Room 6 (11, 5) [Warp R]
     - Warp Q (5, 17) -> ?
 - **Room 6 (Top Center):**
