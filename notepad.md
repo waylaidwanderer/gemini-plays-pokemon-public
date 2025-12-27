@@ -58,3 +58,6 @@
 - **Battle Log:** Defeated all 6 trainers. Super Nerd denied association with them and threatened to attack.
 - **Immediate Task:** Defeat the Super Nerd (Cooltrainer Kevin / Rocket Imposter?).
 - **Hypothesis:** He is an enemy blocking the path to the Item Ball and Cut Tree. Defeating him might yield the Nugget or clear the way.
+- Defeated Super Nerd Pat.
+- He apologized for cheating ("I'm sorry... I won't cheat anymore...").
+- Checking for a reward (Nugget?).
