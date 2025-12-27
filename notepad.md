@@ -47,3 +47,8 @@
 - **Automation:** `find_path_v3` is working well.
 - **Goal Clarity:** Goals are outcome-focused.
 - **Error Analysis:** Sighting search on Route 42 failed. Pivot to Wise Trio to verify progression state.
+- *Observation (Tin Tower Shook):* Turn 25133 & 25137 - Sage mentioned the tower shook. Confirmed current turn event.
+- *Verified Tile Mechanics:*
+  - FLOOR: Verified traversable Turn 25141.
+  - WALL: Verified impassable Turn 25141.
+  - LADDER/WARP: Verified triggers transition upon entry Turn 25129.
