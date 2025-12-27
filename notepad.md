@@ -104,3 +104,4 @@
 - Entered Route 9.
 - Heading East towards the Power Plant (Route 10).
 - Taking the northern path to avoid the Cut Tree if possible.
+- Cutting tree at (5, 8) to access the eastern part of Route 9.
