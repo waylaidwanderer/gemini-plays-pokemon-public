@@ -1,10 +1,10 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Escape Pokedex (B x4), Face Right, Open Menu (Start), Select Pokemon (Down, A), Select Belladonna (Down x5), Cut (A, A).
-- **Observation:** I am deep in the Pokedex (Feraligatr entry). Must back out fully.
-- **Position:** Confirmed at (32, 24) facing Up. Tree is to the Right.
-- **Strategy:** Using Menu-based Cut because context-sensitive 'A' has failed repeatedly. 5 Downs ensures reaching the bottom slot (Belladonna).
+- **Immediate Task:** Fix Facing and Cut: Exit Menu (B x2), Face Right, Open Menu (Start), Select Pokemon (A), Select Belladonna (Down x4 from Garnet), Cut (A, A).
+- **Observation:** Cursor logic confirmed: Re-entering Party Menu places cursor on Garnet (Slot 2).
+- **Correction:** Previous failure was due to Player facing UP (verified by Game State). Must face RIGHT to cut the tree.
+- **Plan:** Exit menu -> Turn Right -> Re-enter Menu -> Navigate to Belladonna -> Cut.
 
 # Strategic Goals
 1. **Restore Power:**
