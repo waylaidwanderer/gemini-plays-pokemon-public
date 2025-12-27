@@ -1,8 +1,9 @@
 # Kanto Campaign Status
 - **Location:** Cerulean Pokemon Center.
 - **Current Objective:** Reach the Power Plant via Route 9.
-- **Immediate Task:** Move Up to (32, 24), Face Right, and Interact (A) to Cut the tree at (33, 24).
-- **Observation:** The phone call interrupted the previous move attempt. Player is still at (32, 25). Retrying the move and cut sequence. The tree top at (33, 24) is the likely interaction point.
+- **Immediate Task:** Attempt to Cut the tree at (33, 24) using the Menu to bypass potential context-button issues.
+- **Observation:** Direct 'A' interaction failed. Testing Menu activation: Start -> Pokemon -> Belladonna -> Cut/Status. If "Cut" is valid, it will trigger. If not, "Status" will open (harmless).
+- **Backup Plan:** If this fails, the tree is likely uncuttable. Will then investigate the house at (30, 23) as a potential path.
 
 # Strategic Goals
 1. **Restore Power:**
