@@ -31,3 +31,12 @@
 ## Progress Tracking
 - Current Task: Re-verify Suicune sightings on Route 42 and Route 36.
 - Status: Crossing gatehouse to Route 42. Target: Island clearing (26, 15).
+## Suicune Sighting Troubleshooting
+- Route 42 (26, 15): Confirmed empty 4+ times (Turn 26911).
+- Hypothesis 1: Already triggered (Sages should battle, but they won't).
+- Hypothesis 2: Prerequisite missing.
+- To Check:
+  - Re-visit Burned Tower B1F (did I actually trigger the flee event?).
+  - Talk to Ecruteak Dance Theater NPCs.
+  - Check Route 42 center/east entrances of Mt. Mortar.
+  - Verify if Morty or Jasmine have specific dialogue.
