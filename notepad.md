@@ -22,17 +22,12 @@
 - Dark: Immune to Psychic.
 
 ## Party Movesets
+- XENON (GASTLY): Lv21. Hypnosis, Lick, Night Shade, Mean Look. [Lead]
 - Calcifer (TYPHLOSION): Lv45. Flame Wheel, Headbutt, Smokescreen, Thunderpunch.
-- ICARUS (PIDGEY): Lv16. Quick Attack, Sand-Attack, Gust, Fly.
 - GNEISS (GRAVELER): Lv44. Earthquake, Defense Curl, Strength, Rollout.
+- ICARUS (PIDGEY): Lv16. Quick Attack, Sand-Attack, Gust, Fly.
 - Ravioli (KRABBY): Lv10. Bubble, Leer, Surf.
-- XENON (GASTLY): Lv21. Hypnosis, Lick, Night Shade, Mean Look.
 - KIMCHI (GLOOM): Lv21. Absorb, Sweet Scent, Cut, Sleep Powder.
-
-# Event Mechanics: Suicune Hunt (Crystal)
-- Status: Talked to all 3 Sages on Tin Tower 1F. Ritual complete.
-- Prerequisite: CLEAR BELL + Fog Badge. [Both held]
-- Current Target: Trigger Suicune encounter by approaching the central area (Row 11).
 
 # Strategy for Beating Suicune
 - Status: Lv40 legendary.
@@ -41,17 +36,14 @@
 - Tactical Plan:
   1. Turn 1: Mean Look (prevents fleeing, but NOT Roar).
   2. Turn 2+: Hypnosis (MANDATORY to prevent Roar and Bubblebeam).
-  3. If Roar is used: The battle ends. I must save before the encounter.
+  3. If Roar is used: The battle ends. I must reload the save.
   4. If XENON is KO'd: Switch to Calcifer or GNEISS to tank while throwing Great Balls.
-  5. Night Shade: Deals 21 damage. Use only if HP is high.
+  5. Night Shade: Deals exactly 21 damage. Use only if HP is high (Suicune has ~125 HP).
   6. Priority: Keep Suicune asleep at all times.
 
 # NPC & Interaction Rules
 - Sage (4, 6): Passage guard. Granted access. [Verified]
 - Apricorn Trees: (27, 16), (28, 16), (29, 16) on Route 42.
-
-# Money & Economy
-- Current Balance: ¥373.
 
 # Trainer Defeats
 - Wise Trio (Wise Trio Room): Defeated.
@@ -59,8 +51,6 @@
 - Sages at (11, 11), (5, 9), (14, 6) (Tin Tower 1F): Lore shared.
 
 # Navigation: Tin Tower 1F Maze
-- Access to Middle Section (Ladder/Suicune): Via Row 2.
-- Path from Entrance: (10, 15) -> (15, 15) -> (15, 2) -> (10, 2).
-- The central floor area (Row 5-9, X=7-12) is isolated by walls except for the top entry at (10, 2).
-- Current Position: (10, 12).
-- Target: (10, 5) to prepare for Suicune.
+- Central Area Access: The central floor area (Rows 5-9, X=7-12) is isolated by walls.
+- Potential Entry: Approach from the top (Row 2/3) or find the specific trigger tile.
+- Current Position: (10, 11). Target: (10, 9).
