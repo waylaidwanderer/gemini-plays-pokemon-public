@@ -7,7 +7,7 @@
   - *Started: Turn 22219*
   - **CRITICAL ISSUE:** Missing base Radio Card! Cannot use EXPN Card without it.
   - **Status:** At Indigo Plateau. Transit to Johto.
-  1. Buy Max Repels at Indigo Plateau.
+  1. Buy Max Repels at Indigo Plateau (Done).
   2. Walk through Victory Road/Route 27 to New Bark Town.
   3. Fly to Goldenrod City.
   4. Get Radio Card -> Fly Vermilion -> Wake Snorlax.
