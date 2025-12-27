@@ -7,26 +7,20 @@
 # Quest Log: Missing Granddaughter
 - **Client:** Gentleman (Lower Deck Far East).
 - **Clue:** She is "bugging someone".
-- **Search Progress:**
-  - **1F East:**
-    - Cabins at (19,8), (15,8): Empty.
-    - Stairs (15,15) -> Lower Deck South (Dead End).
-    - Stairs (19,15) -> Lower Deck Mid (Empty).
-    - Stairs (23,15) -> Lower Deck East (Twins/Colin).
-    - Stairs (27,15) -> Lower Deck Far East (Grandfather found).
-    - Cabin (27,8): Empty (Checked Turn 20619).
-  - **1F West:**
-    - Blocked by Sailor at (21,17). Need to find "Lazy Buddy" to clear B1F path to access West side from below? Or maybe just find the buddy to move the 1F sailor?
-    - **Current Plan:** Check remaining cabins on 1F East (23,8) then find the "Lazy Buddy".
+- **Progress:** Checked 1F East cabins (Empty) and Lower Deck East (Found Grandfather). 1F West corridor is blocked.
+- **Current Status:** Interacting with "Lazy Buddy" Sailor at 1F Cabin (4, 26). He is defensive.
 
 # Side Quest: Lazy Sailor
 - **Client:** Sailor at B1F (30,6).
 - **Task:** Find his "lazy buddy" who is goofing off.
-- **Suspect:** Sailor at 1F (22,17) / (20,17). (Tried interacting, generic text. Might need to check cabins).
+- **Current Status:** Confronting the buddy (Sailor ID 5) at 1F Cabin (4, 26).
 
-# Exploration Notes
-- **B1F:** East section accessible via ladder at 1F (30,14). Blocked by sailors at (30,6).
-- **1F:** Central block forces movement to far East/West.
+# Tile Mechanics
+- **FLOOR:** Walkable standard movement.
+- **WALL:** Impassable obstacle.
+- **STAIRCASE/LADDER:** Transitions between map floors.
+- **WARP CARPET:** Transitions between maps (usually at edges).
+- **BOOKSHELF:** Interactable object, often contains books/magazines.
 
 # Team Status
 - **Muscle (Machoke)**: Lv70.
@@ -34,17 +28,3 @@
 
 # Pokedex
 - Seen: 168, Owned: 30.
-- **Log:** Entered Cabin from 1F (23, 8). Arrived at 15_4 (2, 13).
-- **Observation:** Room contains Pokefan M. He is NOT the lazy sailor.
-- **Plan:** Talk to Pokefan, then re-check "Empty" cabins at (19, 8) and (15, 8) in case I missed the sailor.
-- **Log:** Pokefan M at (4, 17) only talks about Kanto mountains. Not the lazy sailor.
-- **Plan:** Exiting cabin to re-check the other 1F cabins (19, 8) and (15, 8). The quest trigger might have spawned the sailor there.
-- **Log:** Exited cabin at (23, 8). Pokefan M confirmed.
-- **Action:** Investigating cabin at (19, 8).
-- **Log:** Standing on Warp Carpet at (19, 8). Warp didn't trigger yet.
-- **Action:** Pressing Down to force entry into the cabin.
-- **Log:** Entered Cabin from 1F (19, 8). Arrived at 15_4 (2, 25) (South Room).
-- **Observation:** Found Sailor (ID 5) at (4, 26).
-- **Action:** Interacting with Sailor to check if he is the "lazy buddy".
-- **Observation:** Sailor at (4, 26) says "Yeah, I'm a sailor, all right."
-- **Hypothesis:** This is likely the "Lazy Buddy". Expecting him to battle or flee.
