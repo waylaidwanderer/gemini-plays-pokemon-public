@@ -5,10 +5,12 @@
 ## Current Strategy
 - Goal: Complete Suicune overworld sightings sequence.
 - Plan:
-  1. Travel to Route 42 (Central Island).
-  2. Perform a precision approach to the sighting spot at (24, 13) after Cutting the tree.
-  3. If Suicune appears, follow it to Route 36.
-  4. If Suicune does not appear, re-verify Ecruteak PC for Eusine.
+  1. Use Surf at (13, 9) to enter Route 42 water. [START TURN: 26262]
+  2. Navigate to (24, 12) on the central island.
+  3. Use Cut on the tree at (24, 13).
+  4. Approach Suicune at the sighting spot.
+  5. If Suicune appears, follow it to Route 36.
+  6. If Suicune does not appear, re-verify Ecruteak PC for Eusine.
 
 ## Suicune Quest Diagnostic Log
 1. Burned Tower: Flee event completed.
@@ -30,6 +32,14 @@
 - TALL_GRASS: Walkable.
 - CAVE: Entrance/Exit warp.
 - DOOR: Interactive warp tile.
+- WARP_CARPET_LEFT: Warp tile at map edge.
+
+## Tile Traversal and Movement Rules
+- Standard Movement: Up, Down, Left, Right moves one tile.
+- Ledges: Can jump over FLOOR_UP_WALL from South to North? NO, ledges are usually North to South. (Verification needed).
+- One-Way Paths: Verified ledges are one-way.
+- Surf: Required to enter WATER tiles. Interaction from adjacent tile.
+- Cut: Required to remove CUT_TREE. Interaction from adjacent tile.
 
 ## Lessons Learned
 - Suicune events are strictly linear and mandatory.
@@ -42,6 +52,5 @@
 - Turn 26204: Confirmed Ecruteak PC is empty of Eusine.
 - Turn 26214: Talked to Sage member of Wise Trio.
 - Turn 26227: Talked to Gramps (Wise Trio member?) in Gatehouse.
-- Next: Find final member in Wise Trio Room.
 - Turn 26233: Wise Trio Room (4_2) confirmed EMPTY. No NPCs present.
-- Turn 26233: Returning to Tin Tower 1F to check for Suicune encounter.
+- Turn 26245: Completed dialogue with all Sages in Tin Tower 1F. Clear Bell reactive.
