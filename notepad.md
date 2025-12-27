@@ -10,8 +10,9 @@
 
 # Progress Tracking
 - Sweep Started: Turn 24851
-- Route 42 Island Search: Thoroughly searched (x=24-31, y=12-17). No Suicune sprite or Eusine sighting triggered. 
-- Route 36 Search: Checked junction at (35, 9). 
+- Route 42 Island Search: Thoroughly searched Row 12, 14, 15, 16, 17. Row 13 tiles (25-31, 13) need verification. No Suicune sprite or Eusine sighting triggered.
+- Route 36 Search: Checked junction at (35, 9). Sighting depends on Route 42.
+- Cianwood Verification: Returning to verify no missing triggers/dialogue.
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
