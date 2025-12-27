@@ -41,3 +41,4 @@
 - **Attempt 1 (Turn 25425):** Stepped on (26, 14) on Route 42 island. Suicune did not appear.
 - **Attempt 2 (Turn 25426):** Swept the entire island platform. Suicune did not appear.
 - **Conclusion:** Route 42 sighting is either not next or requires another trigger. Moving to Hypothesis 2 (Route 36) and Hypothesis 3 (Eusine).
+- **Pivot Started (Turn 25430):** Moving to Ecruteak City to check Hypothesis 3 (Eusine) and then Hypothesis 2 (Route 36). Timestamp: Turn 25430, Saturday 1:41 AM.
