@@ -13,7 +13,7 @@
 # Side Quest: Lazy Sailor
 - **Client:** Sailor at B1F (30,6).
 - **Task:** Find his "lazy buddy" who is goofing off.
-- **Current Status:** Battling Sailor Stanly (Lazy Buddy). Opponent: Machoke.
+- **Current Status:** Defeated Sailor Stanly. Returning to B1F to check if blockade is cleared.
 
 # Tile Mechanics
 - **FLOOR:** Walkable standard movement.
