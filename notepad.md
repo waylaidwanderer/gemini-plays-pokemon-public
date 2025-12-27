@@ -125,5 +125,8 @@
 - Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16 (suspected ledges).
 - Pokefan M Post-Battle Dialogue: "The POWER PLANT is across a small river."
 - Testing traversal of 'FLOOR_UP_WALL' tiles on Row 16. Expecting a ledge jump.
-- Dialogue 'across a small river' persisted after B press. Trying A to close.
-- Plan: Close text, then Jump Down.
+- Dialogue closed.
+- Jumping ledge at (35, 16) to reach Row 17.
+- Plan:
+  1. Head East along Row 17 to the river (x=56).
+  2. Surf across the river to reach the Power Plant.
