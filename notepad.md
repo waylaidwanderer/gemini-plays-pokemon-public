@@ -88,14 +88,10 @@
 - Currently at (5, 4) (North Bridge).
 - Checking (5, 5) (Water) from the North.
 - Next: Check (4, 5) from (4, 4).
-- Checked (6, 5): No item (Surf prompt).
-- Moved to (6, 7).
-- Hypothesis: "Center of Gym" (10x16 map) is around (4, 8).
-- Checked (4, 8): Empty.
-- (5, 8) is Floor.
-- Next Candidates:
-  1. (6, 6) (Current pos facing Up).
-  2. (6, 8) (Current pos facing Down).
-  3. (4, 9), (6, 9) (In the lower pool).
-  4. (7, 7) has a different water layout? No, map says Row 8 has water at 3,4,6,7,8.
-- Plan: Check (6, 6), then (6, 8).
+- Checked (6, 6): No item (Surf prompt).
+- Plan:
+  1. Check (6, 8) (Down from 6, 7).
+  2. Move to (3, 7).
+  3. Check (3, 6) (Up from 3, 7).
+  4. Check (3, 8) (Down from 3, 7).
+- Note: "Inner Pool" seems to be Rows 5-6. "Lower Pool" is Rows 8+. "Center" is ambiguous.
