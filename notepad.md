@@ -2,15 +2,15 @@
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182 (Timestamp: Saturday, Dec 27, 2025, 9:35 AM PST).
 - Loop Start: Turn 26164 (Stuck on sightings).
-- Current Turn: 26414.
+- Current Turn: 26416.
 
 ## Current Strategy
 - Plan:
-  1. Check Ecruteak Dance Theater for Eusine.
-  2. If not found, head to Route 42 island (26, 15) to trigger the sighting.
-  3. If that fails, go to Route 36 junction (35, 9).
-  4. If both sightings fail, talk to the Sages in the Tin Tower Gatehouse again.
-  5. If Eusine appears in the PC at any point, talk to him immediately.
+  1. Head to Route 42 island (26, 15) to trigger the sighting (Eusine not in PC or Dance Theater).
+  2. If that fails, go to Route 36 junction (35, 9).
+  3. If both sightings fail, talk to the Sages in the Tin Tower Gatehouse again.
+  4. Fight the Wise Trio in the room north of the Tin Tower Gatehouse (Need to verify entrance).
+  5. Obtain 8th badge in Blackthorn City if Suicune hunt stalls.
 
 ## Suicune Quest Diagnostic Log
 - 1. Burned Tower: Flee event completed.
