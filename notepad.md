@@ -28,5 +28,5 @@
 - **Sequential Events:** Legendary beast sightings are strictly sequential. Sage dialogue in Gatehouse is the ultimate confirmation of completion.
 
 ## Progress Tracking
-- Current Task: Locate and defeat the Wise Trio in WiseTriosRoom (Map 4_2).
-- Status: Searching the room. Starting search at (4, 4).
+- Current Task: Defeat the Wise Trio in Tin Tower 1F.
+- Status: Engaging Sage Gaku at (11, 11).
