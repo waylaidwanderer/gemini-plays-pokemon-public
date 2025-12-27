@@ -5,18 +5,20 @@
 
 ## Current Strategy
 - Plan:
-  1. Fly to Ecruteak City and check Pokémon Center for Eusine. [RE-VERIFYING FLAG]
-  2. Perform a full-tile sweep of the Pokémon Center (1F and 2F).
-  3. Talk to Eusine to set the Route 42 sighting flag.
-  4. Return to Route 42 (Central Island) and approach (26, 15).
-  5. Sighting #4: Route 36 (Sudowoodo Junction).
-- Attempt 3 (Route 42): Turn 26322 (Failed - Suicune missing).
+  1. Exit Pokémon Center and go to Tin Tower Gatehouse (18, 11).
+  2. Re-talk to all Sages in the Gatehouse to ensure the 'Wise Trio' event is primed.
+  3. Check the Wise Trio Room (4_2) for the battle event.
+  4. If the battle occurs, complete it and then re-attempt the Route 42 sighting.
+  5. If no battle, proceed to Route 36 junction (35, 9) to check for Suicune there.
+- Attempt 4 (Trigger Search): Turn 26333.
 
 ## Suicune Quest Diagnostic Log
 - Burned Tower: Flee event completed.
 - Cianwood City (North): Flee event completed. Eusine defeated.
 - Route 42: Attempt 1 (Turn 26164) and Attempt 2 (Turn 26322) failed.
-- Status: Re-checking Ecruteak PC for Eusine flag. [START TURN: 26326]
+- Ecruteak PC: Eusine MISSING (Confirmed at Turn 26293 and 26333).
+- Wise Trio: Room (4_2) was empty at Turn 26233.
+- Status: Searching for the 'Wise Trio' battle or next trigger in Ecruteak.
 
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable. Includes visual "Warp Carpets" and "Exit Mats".
