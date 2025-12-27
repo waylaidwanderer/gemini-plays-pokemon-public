@@ -5,16 +5,18 @@
   1. Burned Tower: Beasts fled. [Verified]
   2. Cianwood City (North): Sighting. [Verified]
   3. Route 42 (Central Island): Sighting check. [In Progress]
-     - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Active - Entered Turn 25051]
-  4. Route 36 (Sudowoodo junction): Sighting check. [Pending]
+     - *Hypothesis 2:* Re-enter Route 42 from Ecruteak City (West side) to update flags. [Failed - Entered Turn 25051, searched island floor Turn 25056-25065. No sighting.]
+  4. Route 36 (Sudowoodo junction): Sighting check. [Next Step]
   5. Tin Tower 1F: Battle Suicune with Clear Bell. [Pending]
-
-# Progress Tracking
-- Route 42: Central island requires CUT at (24, 13) to access sighting area.
 
 # Failed Hypotheses & Troubleshooting
 - **Hypothesis 1 (Eusine in Ecruteak PKMN Center):** Searched both floors Turn 25036-25043. Eusine is not present.
+- **Hypothesis 2 (Re-enter Route 42 West):** Entered from Ecruteak side, searched entire island floor. No Suicune sighting triggered.
 - **Suicune on Route 42 Island (Direct arrival):** Searched all floor tiles (Turn 25009). Suicune was not present. 
+
+# Strategy: Route 36 Check
+- If Route 42 sighting is not triggering, check if Suicune has already moved to Route 36. This would imply the Route 42 sighting was either completed previously or skipped by the game engine.
+- Destination: Route 36 Sudowoodo junction (West of Violet City).
 
 # Tile Mechanics (Global)
 - **FLOOR:** Traversable. Standard walking surface.
