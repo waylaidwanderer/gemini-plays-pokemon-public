@@ -47,17 +47,16 @@
 - **Power Plant Investigation:**
   - **Start Time:** Turn 21653 (Sat Dec 27 2025 05:57 AM PST)
   - **Goal:** Restore Power.
-  - **Status:** Searching Center Pool along the central walkway (Column 5).
+  - **Status:** Surfing to checking (4, 9).
   - **Clues:**
     - Rocket Grunt (Route 24): Confessed to hiding the part.
     - **Location:** "Inside water put it I did. Look for in water center of GYM at."
   - **Plan:**
-    1. Search (4, 6) from (4, 7).
-    2. Search (5, 6) from (5, 7).
-    3. Search (4, 8) from (5, 8).
-    4. Search (4, 9) from (5, 9).
-    5. Recover Machine Part.
-    6. Return to Power Plant.
+    1. Surf South from (4, 7) to (4, 8).
+    2. Check (4, 9) for the Machine Part.
+    3. If not found, check surrounding water tiles (4, 6), (5, 6).
+    4. Recover Machine Part.
+    5. Return to Power Plant.
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
