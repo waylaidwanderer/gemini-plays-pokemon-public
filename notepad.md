@@ -6,9 +6,9 @@
 1. **Burned Tower:** Beasts fled. [Status: Verified]
 2. **Cianwood City (North):** [Status: Verified]
 3. **Route 42 (Central Island):** [Status: Failed - Turn 25101. Sprite not present.]
-   - *Hypothesis:* Requires specific trigger or sequential order.
+   - *Hypothesis:* Requires specific trigger (likely Route 36 sighting first) or sequential order.
 4. **Route 36 (Sudowoodo Junction):** [Status: Pending]
-5. **Tin Tower 1F:** [Status: Testing - Turn 25174]
+5. **Tin Tower 1F:** [Status: Testing - Turn 25174. Empty.]
 
 ## Strategy: Sequential Triggering
 - If Tin Tower 1F is empty at (10, 9), pivot immediately to Route 36, then retry Route 42.
@@ -16,8 +16,8 @@
 
 # Money & Item Management
 - **Current Funds:** ¥373
-- **Inventory for Sale:** THUNDERSTONE
-- **Purchase Plan:** Great Balls (at Ecruteak Mart)
+- **Inventory for Sale:** THUNDERSTONE (Estimated ¥1050)
+- **Purchase Plan:** Great Balls (¥600 each) at Ecruteak Mart.
 - **Note:** Only 1 Ultra Ball and 23 Great Balls. Need more for a Level 40 legendary.
 
 # Tile Mechanics (Global)
