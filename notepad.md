@@ -30,4 +30,6 @@
 
 ## Progress Tracking
 - Suicune Quest: Ongoing. Re-verifying overworld sightings.
-- Goal: Complete overworld sequence to unlock Tin Tower.
+- Current Task: Fly to Ecruteak, then head east to Route 42 island.
+- Route 42 Target: (26, 15).
+- Route 36 Target: (35, 9).
