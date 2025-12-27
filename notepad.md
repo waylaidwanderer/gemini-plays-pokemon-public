@@ -43,3 +43,5 @@
 - Turn 26214: Talked to Sage member of Wise Trio.
 - Turn 26227: Talked to Gramps (Wise Trio member?) in Gatehouse.
 - Next: Find final member in Wise Trio Room.
+- Turn 26233: Wise Trio Room (4_2) confirmed EMPTY. No NPCs present.
+- Turn 26233: Returning to Tin Tower 1F to check for Suicune encounter.
