@@ -1,13 +1,13 @@
-# Suicune Quest Log (Crystal Version)
+## Suicune Quest Log (Crystal Version)
 - Prerequisites: Clear Bell (Obtained).
 - Quest Start: Turn 24182.
 - Sequence:
   1. Burned Tower (Flee event observed).
   2. Cianwood City North (Flee event observed).
   3. Eusine Battle (Cianwood) - Defeated (Turn 21034).
-  4. Route 42 sighting: REQUIRED. Near Apricorn trees. Target: (26, 15).
-  5. Route 36 sighting: REQUIRED. Near Sudowoodo spot. Target: (35, 9).
-  6. Tin Tower / Wise Trio: Final stage.
+  4. Route 42 sighting: COMPLETED (Inferred from Turn 26711 dialogue and Turn 26749 NPC spawns).
+  5. Route 36 sighting: COMPLETED (Inferred from Turn 26711 dialogue and Turn 26749 NPC spawns).
+  6. Tin Tower / Wise Trio: Ready for final battle.
 
 ## Strategy for Wise Trio Battle
 - Sages use Noctowl (Normal/Flying) and Kadabra (Psychic).
