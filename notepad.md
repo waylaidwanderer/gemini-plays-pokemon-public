@@ -45,19 +45,10 @@
 - Found the path to Route 9! It was a gap in the wall at (36, 22), bypassing the cuttable tree.
 - Heading East to enter Route 9 and find the Power Plant.
 - **Route 9 Navigation:**
-  - **Status:** On Route 9 (East Side).
-  - **Path:** Came from Cerulean (Row 22) -> Route 9 (0, 4).
-  - **Obstacle:** Wall at (5, 4) blocked direct access to grass.
-  - **Action:** Went South to (4, 8), Cut tree at (5, 8).
-  - **Current Path:** Moving East on Row 8 (Below the Ledges).
-  - **Observation:** The grass/trainers are on the Upper Tier (Row 4-6). I am on the Middle Tier (Row 8-10), which is blocked by a wall at x=10.
-  - **Action:** Hopping the ledge at (9, 11) to reach the Lower Tier (Row 12), which appears open to the East.
-  - **Hypothesis:** This Lower Tier path leads to the Power Plant.
-  - **Plan:** Follow the path East on Row 12.
-- Navigation Correction: Lower Route 9 path is a dead end. Cut tree at (33, 24) is uncuttable.
-- New Path: Loop West to X=6, go North through the gap at (6, 19), then East along Row 17/10 to reach (33, 12) from the North.
-- Target: Reach (6, 24) first.
-- Navigation Update: Traversing back alleys (Row 17) to reach the Northern Route 9 entrance (27, 12).
+  - **Current Status:** Traversing Route 9 Eastbound towards Power Plant.
+  - **Path Taken:** Cerulean City -> Route 9 Entrance (39, 22) -> Cut Tree at (5, 8) -> Lower Ledge Path (Row 12).
+  - **Observation:** Upper path has grass/trainers. Lower path seems to bypass some, but contains trainers too (Lass ahead).
+  - **Immediate Goal:** Defeat trainers and reach the Eastern end of Route 9 (Power Plant).
 - Detour: Investigating an unmarked house at (28, 17) before heading East to Route 9.
 - Note: Access to (28, 17) requires looping around the block via (24, 18).
 - Police Station Investigation: The Pokefan F mentioned they were held up by robbers. Possible connection to the Power Plant commotion? Need to speak to the Chief (Fishing Guru sprite) for details.
