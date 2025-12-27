@@ -145,8 +145,8 @@
       }
     ]
   },
-  "open_fly_map_v2": {
-    "description": "Opens the FLY map from the main menu by selecting a Pokemon in the party. Assumes the main menu is already open with the cursor on POKEMON.",
+  "open_fly_map_v3": {
+    "description": "Opens the FLY map from the main menu by selecting a Pokemon in the party. Assumes the main menu is already open with the cursor on POKEMON. Robust against persistent cursor positions in the party menu.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -159,17 +159,12 @@
         "party_index"
       ]
     },
-    "python_script": "import json\ndef main(input_data):\n    index = int(input_data.get('party_index', 2))\n    buttons = [\"A\", \"sleep 500\"]\n    for _ in range(index - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\nif __name__ == \"__main__\":\n    import sys\n    input_json = sys.stdin.read()\n    if input_json:\n        main(json.loads(input_json))\n    else:\n        main({})",
+    "python_script": "import json\nindex = int(input_data['party_index'])\nbuttons = ['A', 'sleep 500']\n# Reset cursor to top of party menu (max 6 members)\nfor _ in range(5):\n    buttons.append('Up')\n    buttons.append('sleep 100')\n# Move to target index\nfor _ in range(index - 1):\n    buttons.append('Down')\n    buttons.append('sleep 100')\n# Open menu and select Fly (Fly is always first if available)\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-27T09:07:23.644Z",
-        "action_counter": 25369
-      },
-      {
-        "commit_message": "Fixed the script to properly use input_data and ensured it prints a valid JSON array of buttons.",
-        "timestamp": "2025-12-27T09:08:49.327Z",
-        "action_counter": 25374
+        "timestamp": "2025-12-27T10:12:21.935Z",
+        "action_counter": 25485
       }
     ]
   }
