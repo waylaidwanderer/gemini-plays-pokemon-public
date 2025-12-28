@@ -28,17 +28,9 @@
 3. Move to (11, 0).
 4. Push Down to (11, 2). [PIT]
 
-## Boulder 2 Sequence (ID 2)
-- Boulder currently at (5, 8). (Pushed during pathing at T28416).
-1. Move to (5, 9).
-2. Push Up to (5, 6).
-3. Move to (6, 6).
-4. Push Left to (4, 6).
-5. Move to (4, 5).
-6. Push Down to (4, 7). [PIT]
-
 # Current Status (B1F)
-- Boulders reset due to floor exit at Turn 28385.
+- Start Turn: 28207.
+- Reset Turn: 28385 (Fell through pit, floor reset).
 - Player at (17, 15) (in battle), Boulder 1 (ID 1) at (10, 1).
 - Boulder 2 (ID 2) is at (5, 8).
 
@@ -48,4 +40,4 @@
 - If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
 - Time Tracking: Boulder puzzle started Turn 28207.
 - Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. Reorder party in overworld menu immediately after this battle.
-- Tool Hygiene: Double-check boulder coordinates before calling plan_boulder_push_v2 to avoid nonsensical path sequences.
+- Tool Hygiene: Double-check boulder coordinates before calling plan_boulder_push_v2.
