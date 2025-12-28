@@ -41,9 +41,10 @@
   - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
   - **Conclusion:** Cafe is a dead end.
 - **Gym Location:** Unknown. Searching South.
-  - **Hypothesis:** Gym is in the Southwest, possibly behind a Cut tree.
-  - **Action:** Exit Cafe and look for Cut trees or paths East/South.
-- **Loot:** Found Leftovers in trash can at (7, 1). **INVENTORY FULL**.
-  - **Action:** Toss Antidotes to make space, then pick up Leftovers.
+  - **Hypothesis:** Gym is in the Southwest, accessible via Cut from the main city (North).
+  - **Observation:** A vertical wall at X=15 seems to separate the Southeast (Cafe) from the Southwest (Gym?).
+  - **Action:** Inspect the wall south of (10, 22) for a Cut tree.
+- **Loot:** Retrieved Leftovers.
+- **Quest Start:** Turn 24041 (Searching Celadon Cafe).
 - **Tool Diagnostic:** `bfs_pathfinder` failed with "name 'start_x' is not defined". Suspect variable injection issue. Will revert or debug later. Proceeding manually.
 - **Quest Start:** Turn 24041 (Searching Celadon Cafe).
