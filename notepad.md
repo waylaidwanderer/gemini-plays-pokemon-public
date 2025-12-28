@@ -1,17 +1,5 @@
-## Battle Strategy (Blackthorn Gym)
-- Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
-- Strategy: Typhlosion (Lv45) w/ Thunderpunch, Graveler (Lv44) w/ Earthquake. Jynx backup recommended.
-
-## Tile Mechanics
-- FLOOR: Walkable. NOTE: B1F floor tiles do NOT slide. B2F floor tiles (non-islands) DO slide.
-- WALL: Impassable.
-- WATER: Needs Surf (HM03).
-- ICE: Sliding mechanic. B1F northern corridor (Row 1-2) and B2F large rink. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
-- PIT: Warp to B2F. Dropping a boulder fills the pit on B2F, creating a "stopper" tile. (Current Pits: All 4 unfilled).
-- BOULDER: Pushable with Strength (HM04). Resets to start position when changing floors via ladder or pit. (Hypothesis: Pits might NOT reset boulders. To be verified).
-- STRENGTH: Must be re-activated after every floor transition or battle.
-
-# B1F Boulder Puzzle (Attempt Turn 28546)
+# B1F Boulder Puzzle
+- Attempt Start: Turn 28546.
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
@@ -36,5 +24,24 @@
 1. Move to (18, 7), push LEFT to (12, 7).
 2. Move to (12, 6), push DOWN into Pit 4.
 
-# B2F Layout
-- Stopper Boulders: (3, 12) and (12, 13) present.
+# Game Mechanics
+## Tile Mechanics
+- FLOOR: Walkable. NOTE: B1F floor tiles do NOT slide. B2F floor tiles (non-islands) DO slide.
+- WALL: Impassable.
+- WATER: Needs Surf (HM03).
+- ICE: Sliding mechanic. B1F northern corridor (Row 1-2) and B2F large rink. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
+- PIT: Warp to B2F. Dropping a boulder fills the pit on B2F, creating a "stopper" tile. (Current Pits: All 4 unfilled).
+- BOULDER: Pushable with Strength (HM04). Resets to start position when changing floors via ladder or pit. Verified.
+- STRENGTH: Must be re-activated after every floor transition or battle. Verified.
+
+## Battle Strategy (Blackthorn Gym)
+- Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
+- Strategy: Typhlosion (Lv45) w/ Thunderpunch, Graveler (Lv44) w/ Earthquake. Jynx backup recommended.
+- Catch List: Swinub (Common), Jynx (Rare). Use Sleep Powder (Kimchi) or Hypnosis (Xenon).
+
+# Tracking
+- B2F Stopper Boulders: (3, 12) and (12, 13) present.
+- Verification: All 4 pits are currently UNFILLED.
+- Lessons Learned:
+  - Wild battles: Prioritize escaping.
+  - Boulders: Dropped boulders serve as stoppers on B2F ice to reach the central ladder at (9, 11).
