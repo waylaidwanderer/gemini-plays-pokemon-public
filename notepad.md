@@ -29,9 +29,10 @@
 
 # Blackthorn Gym Exploration
 - Strategy:
-  1. Defeat Gym Trainers for EXP [Current: Turn 29227]
-  2. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
-  3. Defeat Gym Leader Clair.
+  1. Find the Blackthorn City Gym [Done: Turn 29225]
+  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
+  3. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
+  4. Defeat Gym Leader Clair.
 
 # Blackthorn Gym Discoveries
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
