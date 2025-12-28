@@ -18,18 +18,17 @@
 - Exit Ladder: (3, 15).
 
 ## Hypotheses
-- Item at (8, 16) is HM07 Waterfall.
+- Item at (8, 16) was TM44 Rest (Verified Turn 29075).
 
 ## Strategy
-1. Pick up item at (8, 16).
-2. Slide Left to (0, 16).
-3. Slide Up to (0, 5) (FLOOR).
-4. Walk to (9, 3) via northern corridor: (0,5)->(0,4)->(1,4)->(1,3)->(2,3)->(2,2)->(3,2)->(3,1)->(9,1)->(9,3).
-5. Slide Down from (9, 4) to (9, 8) (FLOOR).
-6. Walk to (5, 8).
-7. Jump West over ledge (4, 8) to (3, 8) (ICE).
-8. Slide Down to (3, 14) (FLOOR).
-9. Walk to exit ladder (3, 15).
+1. Slide Left to (0, 16).
+2. Slide Up to (0, 5) (FLOOR).
+3. Walk to (9, 3) via northern corridor: (0,5)->(0,4)->(1,4)->(1,3)->(2,3)->(2,2)->(3,2)->(3,1)->(9,1)->(9,3).
+4. Slide Down from (9, 4) to (9, 8) (FLOOR).
+5. Walk to (5, 8).
+6. Jump West over ledge (4, 8) to (3, 8) (ICE).
+7. Slide Down to (3, 14) (FLOOR).
+8. Walk to exit ladder (3, 15).
 
 ## Reflection & Lessons Learned
 - Warp Pathing: The navigate tool does not automatically avoid warp tiles. Use intermediate coordinates.
