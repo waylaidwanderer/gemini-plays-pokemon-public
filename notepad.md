@@ -1,6 +1,6 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Radio Tower 1F. Left Receptionist just said "Welcome!". Checking Right Receptionist.
+   - *Status:* Taking Radio Quiz. Q1: Morning Pokemon (Yes). Q2: Berry at Mart (Yes).
    - *Plan:* Get Radio Card (Quiz) -> Fly Lavender (Expansion) -> Fly Vermilion (Wake Snorlax).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
