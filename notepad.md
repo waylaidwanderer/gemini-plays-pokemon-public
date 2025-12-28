@@ -9,8 +9,8 @@
 3. Boulder 3: UNKNOWN - Searching North.
 4. Boulder 4: UNKNOWN - Searching North.
 
-## Strategy: DECISIVE ACTION
-1. Visually confirm all 4 boulders in the northern area (Rows 0-16).
+## Strategy: SEARCH AND DESTROY
+1. Systematic sweep of Rows 0-16 to locate boulders. Spawn points (11, 7), (7, 8), (8, 9), (17, 7) are currently EMPTY.
 2. Once all 4 are in the mental map, call `puzzle_strategist_v1` for the solution.
 3. Execute push sequences without leaving B1F.
 
