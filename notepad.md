@@ -39,11 +39,12 @@
 
 # Exploration Plan: Ice Path 1F
 - Goal: Reach the exit to Route 44/Blackthorn City.
-- Step 1: Reach the eastern section via Row 8 gap: (15, 7) -> (2, 7) [Left], then (2, 8) [Down], then (16, 8) [Right]. (In progress)
-- Step 2: Explore the north-east area (Row 3-6, Col 17-25).
-- Step 3: Investigate the ice at X=32 and the item at (32, 23).
-- Step 4: Look for a ladder to B1F.
-- Status: At (15, 7). Preparing to slide Left. (Turn 28147)
+- Step 1: Reveal unseen tiles in the central ice lake to find stopping points. (In progress)
+- Step 2: Navigate through the gap at (16, 8) or (16, 9) to reach the eastern section.
+- Step 3: Explore the north-east area (Row 3-6, Col 17-25).
+- Step 4: Investigate the ice at X=32 and the item at (32, 23).
+- Step 5: Look for a ladder to B1F.
+- Status: At (2, 13). Preparing to slide Up to (2, 7). (Turn 28148)
 
 # Nicknaming
 - Delibird: 'Parcel'.
