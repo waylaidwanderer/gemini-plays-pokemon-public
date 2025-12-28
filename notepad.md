@@ -16,7 +16,7 @@
 2. Cianwood City: Confirmed at (10, 14).
 3. Route 42: Trigger at (26, 15) clearing near Apricorn trees.
    - Status: Failed to trigger (Turn 27329).
-   - Troubleshooting: Talked to Gatehouse Sages (Turn 27380: "Please, do go on."), Ecruteak PC (Turn 27389: Eusine absent).
+   - Troubleshooting: Talked to Gatehouse Sages (Turn 27380: "Please, do go on."), Ecruteak PC (Turn 27389: Eusine absent), Burned Tower 1F (Turn 27411: Eusine absent).
    - Note: Eusine already defeated in Cianwood.
 4. Route 36: Trigger at (35, 9) near Sudowoodo spot.
 5. Tin Tower: Battle Wise Trio, then encounter Suicune.
