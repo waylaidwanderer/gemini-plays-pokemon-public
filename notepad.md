@@ -53,3 +53,5 @@
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
 - **Boulder Persistence:** Pushed boulders stay in pits even if the 2F floor is reset by changing floors.
+- **Scientific Method:** Formed hypothesis that Boulder 7 was the key for Pit (8,7). Disproved it by observing Row 0 walls. Revised to Boulder 5.
+- **Warp Safety:** Entry points on 1F (6, 7, 5) correspond to specific pits on 2F. Verified via entry point data. (Turn 29374)
