@@ -62,3 +62,5 @@
 - **WARP:** Step on to transition maps.
 - **CUT TREE:** Obstacle until Cut is used.
 - **Route 17 (Cycling Road):** The slope forces rapid southbound movement. The road splits; the center is blocked by water/gap.
+- **Navigation Note:** The path at x=24 is separated from the Pokemon Center by a fence. Gaps at (25, 26-27) lead to building walls. Must circle around South to access the PC entrance at (27, 28).
+- **Ledges:** Column 23 has `LEDGE_HOP_RIGHT`, acting as a one-way wall from Left to Right. I am on the Right side, so I cannot go Left.
