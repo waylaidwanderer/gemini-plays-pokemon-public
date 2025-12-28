@@ -46,3 +46,6 @@
 - Plan: Use slow_press to navigate Right x3 to Radio, then A to select.
 - Inventory check: EXPN CARD is missing from GameState Key Items list. However, Radio UI shows scale up to 20 (past 15), suggesting the upgrade is active. Proceeding with tuning.
 - Tuning Plan: Press Up x5 to clamp to Channel 20 (Max). Check for 'POKE FLUTE' text next turn.
+- Radio tuned to max (approx Channel 20). Assuming this is the Poke Flute channel.
+- Attempting to exit Pokegear (B, B) and interact with Snorlax (A).
+- If interaction fails (menu loop), will try long press B or Start.
