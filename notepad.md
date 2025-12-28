@@ -21,13 +21,13 @@
 - **Lessons:** Trust collision data (WALL) over visual similarity (Ledge).
 
 # Fuchsia Gym Strategy
-- **Mechanic:** Invisible Walls.
-- **Protocol:**
-  1. Attempt path.
-  2. If blocked, mark tile with 🚫.
-  3. Update pathfinder to avoid 🚫.
-  4. Retry.
-- **Walls Found:** (8, 12) [Suspected].
+- **Layout:**
+  - **Right Side (Cols 8-9):** Leads to Trainer (9, 4). Isolated from Center/Left by staggered walls at x=6,7.
+  - **Left Side (Cols 1-5):** Likely path to Janine (4, 2).
+  - **Crossover:** Must cross at Lobby (y=16).
+- **Plan:** Backtrack to Lobby (y=16). Switch to Left path (Column 5). Probe North.
+- **Invisible Walls Found:** (9, 10), (9, 11).
+- **Clear Paths:** Column 8 (y=6 to y=16).
 
 # Quest Log
 - **Current Task:** Defeat Janine.
