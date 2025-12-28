@@ -11,17 +11,18 @@
 
 # Ice Path Exploration
 - Start Turn (B2F Blackthorn Side): 29044
+- Start Turn (B1F Exit Area): 29086
 - Goal: Reach Blackthorn City.
 
 ## Strategy
-1. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
-2. Walk to exit ladder (3, 15).
+1. Explore the southern section of B1F to find the ladder to 1F (Blackthorn side).
+2. Navigate to Blackthorn City.
 
 ## Hypotheses
-- Item at (8, 16) was TM44 Rest (Verified).
+- The exit to 1F is located in the eastern/southern part of this B1F section.
 
 ## Reflection & Lessons Learned
 - Warp Pathing: Navigate tool does not avoid warp tiles. Use intermediate coordinates.
 - Ledge Verification: (3, 4) on B2F is a FLOOR_UP_WALL and is impassable from the North.
 - B3F Rock: The rock at (6, 6) on B3F requires Rock Smash.
-- Time Tracking: Exploration of B2F (Blackthorn Side) began at Turn 29044. Progress is efficient.
+- Time Tracking: Progression is efficient. Item TM44 Rest collected at Turn 29075.
