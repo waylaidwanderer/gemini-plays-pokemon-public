@@ -34,15 +34,14 @@
 
 # Boulder Pushing Sequence (B1F)
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
-1. Move to (6, 6) via loop around top. [NEXT]
-2. Push Left to (4, 6).
-3. Move to (4, 5).
-4. Push Down to (4, 7) [Target: Pit 2].
+1. Navigate to (6, 6). [NEXT]
+2. Push Left. Boulder moves to (4, 6).
+3. Navigate to (4, 5).
+4. Push Down. Boulder moves to (4, 7) [Target: Pit 2].
 
 ## Boulder 1 (11, 7) to Pit 1 (11, 2)
 1. Move to (11, 8).
 2. Push Up 5 times to (11, 2) [Target: Pit 1].
 
 ## Boulder 4 (17, 7) to Pit 4 (12, 13)
-1. Navigate via eastern corridor to (18, 13).
-2. Push Left to (12, 13) [Target: Pit 4].
+1. Complex pathing required around walls. Plan TBD.
