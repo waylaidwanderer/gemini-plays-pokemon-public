@@ -39,8 +39,10 @@
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (7, 8)
+- Boulder 2: (11, 7)
 - Pit 1: (4, 7)
 - Pit 2: (5, 12)
+- Pit 3: (11, 2)
 - Note: Need to find more boulders/pits. Likely 4 total.
 
 ## Party
