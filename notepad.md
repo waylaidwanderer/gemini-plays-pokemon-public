@@ -41,18 +41,15 @@
 - Strategy: Fill all three pits to complete the bridge to Clair.
 - Verified Mechanics:
   - Silver blocks are WALLS. (Turn 29653)
-  - Test 1 (Turn 29675): (5, 0) is a WALL.
-  - Test 2 (Turn 29678): (7, 0) is a WALL.
-  - Test 3 (Turn 29679): Attempting to move into (9, 0).
+  - Row 0 Tests: (5, 0) WALL, (7, 0) WALL, (9, 0) WALL.
+  - Column 9 Test: (9, 4) is a WALL.
   - Pushing a boulder: First press pushes it, second press moves player into its old tile.
   - All pits are empty after gym reset. (Turn 29620)
-  - Column 4 is mostly WALL, gap at Row 13.
-  - Column 9 is a north-south corridor.
-- Layout Corrections:
-  - (4, 1) is Cody (Wall).
-  - (4, 11) is Fran (Wall). Gap to east is at Row 13.
   - Row 13 passage at (4, 13) connects east/west sections.
-  - Boulder 7 was pushed Right from (6, 1) to (8, 1) (Turns 29674-29675).
+- Potential Boulder Paths:
+  - Pit (8, 7): Boulder 8 (8, 14) -> (8, 12) -> (9, 12)? -> (7, 12) -> (6, 12) -> (6, 7) -> (8, 7).
+  - Pit (2, 5): Boulder 6 (3, 3) -> (3, 1) -> (1, 1) -> (1, 5) -> (2, 5)?
+  - Pit (8, 3): Boulder 7 (8, 1) -> (8, 2) -> (8, 3)? (Requires 8, 0 passable).
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
@@ -65,13 +62,11 @@
 
 # Boulder Puzzle Manual Analysis (Turn 29650)
 - Observation: Row 0 tiles (silver blocks) are marked as WALL. Boulder 7 at (8, 1) cannot be pushed down from Row 1.
-- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675, 29678)
-- Test 3: Check (9, 0) for passability.
+- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675-29680)
 - Hypothesis 2: Boulder 7 must be pushed around the gym via Column 9 or Row 13.
 - Strategy for Pit (2, 5): 
-  1. Push Boulder 6 (3, 3) down to (3, 11).
-  2. Push left at (3, 11) to (1, 11) (requires Fran defeated).
-  3. Push up to (1, 5), then right into pit.
+  1. Push Boulder 6 (3, 3) down to (3, 11). (Wait, (3, 8) is WALL).
+  2. Alternative: Push Boulder 6 UP to (3, 1), then LEFT to (1, 1).
 - Strategy for Pit (8, 7):
-  1. Push Boulder 8 (8, 14) up to (8, 10), then left to (6, 10).
-  2. Push up to (6, 7), then right into pit.
+  1. Push Boulder 8 (8, 14) up to (8, 12), then LEFT to (6, 12) (Requires (9, 12) passable).
+  2. Push up to (6, 7), then RIGHT into pit.
