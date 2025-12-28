@@ -1,6 +1,6 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Vermilion City. Standing directly below Snorlax.
+   - *Status:* In Vermilion City (34, 10). Menu Open.
    - *Plan:* Open Pokegear -> Radio -> Tune to Poke Flute (Top) -> Interact with Snorlax.
    - *Next:* Battle Snorlax (Catch/Defeat) -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
