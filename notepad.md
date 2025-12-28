@@ -2,7 +2,8 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Resetting position to maze entrance (11, 4) to access northern path to Bill's House.
+- **Action:** Navigating East through maze to Bill's House (47, 6).
+- **Correction:** Found path East from (15, 9) through gaps at x=22 and x=29. No need to reset to start.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
