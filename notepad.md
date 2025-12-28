@@ -23,12 +23,11 @@
 
 ## Boulder 1 Sequence (ID 1)
 - Boulder currently at (10, 2).
-1. Move to (10, 3).
-2. Push Up to (10, 1).
-3. Move to (9, 1).
-4. Push Right to (11, 1).
-5. Move to (11, 0).
-6. Push Down to (11, 2). [PIT]
+1. Push Up to (10, 1).
+2. Move to (9, 1).
+3. Push Right to (11, 1).
+4. Move to (11, 0).
+5. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Push Left to (5, 8).
@@ -41,7 +40,7 @@
 
 # Current Status (B1F)
 - Boulders reset due to floor exit at Turn 28385.
-- Boulder 1 (ID 1) is at (10, 2).
+- Player at (10, 3), Boulder 1 (ID 1) at (10, 2).
 - Boulder 2 (ID 2) is at (5, 8).
 
 # Lessons Learned
@@ -49,3 +48,4 @@
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
 - If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
 - Time Tracking: Boulder puzzle started Turn 28207.
+- Leads: Always lead with Calcifer (Lv45) in wild areas to ensure escape.
