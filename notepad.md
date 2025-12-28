@@ -32,7 +32,7 @@
 # Blackthorn Gym Layout & Boulders
 - 2F Boulders (Current Positions):
   - Boulder 6: (3, 3)
-  - Boulder 7: (7, 1)
+  - Boulder 7: (8, 1)
   - Boulder 8: (8, 14) (Off-screen)
 - 2F Pits (All empty after reset):
   - Pit (2, 5) -> 1F (2, 6)
@@ -41,7 +41,8 @@
 - Strategy: Fill all three pits to complete the bridge to Clair.
 - Verified Mechanics:
   - Silver blocks are WALLS. (Turn 29653)
-  - Test 1 (Turn 29675): Attempt to walk onto (5, 0) from (5, 1) failed. (5, 0) is a WALL.
+  - Test 1 (Turn 29675): (5, 0) is a WALL.
+  - Test 2 (Turn 29678): (7, 0) is a WALL.
   - Pushing a boulder: First press pushes it, second press moves player into its old tile.
   - All pits are empty after gym reset. (Turn 29620)
   - Column 4 is mostly WALL, gap at Row 13.
@@ -50,7 +51,7 @@
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at Row 13.
   - Row 13 passage at (4, 13) connects east/west sections.
-  - Boulder 7 was pushed Right from (6, 1) to (7, 1) at Turn 29674.
+  - Boulder 7 was pushed Right from (6, 1) to (8, 1) (Turns 29674-29675).
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
@@ -62,11 +63,10 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Manual Analysis (Turn 29650)
-- Observation: Row 0 tiles (silver blocks) are marked as WALL. If they are truly impassable, Boulder 7 at (7, 1) cannot be pushed down.
-- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675)
-- Test 2: Attempt to walk onto (7, 0) and (8, 0) to see if ANY Row 0 tile is passable.
-- Hypothesis 2: Boulder 7 must be pushed left/right to a gap in Row 0.
-- Observation: Column 4 is mostly WALL. Row 11 (Fran) and Row 13 are the only known east-west passages.
+- Observation: Row 0 tiles (silver blocks) are marked as WALL. Boulder 7 at (8, 1) cannot be pushed down from Row 1.
+- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675, 29678)
+- Test 3: Check (9, 0) for passability.
+- Hypothesis 2: Boulder 7 must be pushed around the gym via Column 9 or Row 13.
 - Strategy for Pit (2, 5): 
   1. Push Boulder 6 (3, 3) down to (3, 11).
   2. Push left at (3, 11) to (1, 11) (requires Fran defeated).
