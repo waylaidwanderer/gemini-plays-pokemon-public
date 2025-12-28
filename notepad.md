@@ -17,11 +17,16 @@
 
 # Strategies
 ## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
-1. Position: Player at (11, 8).
-2. Push UP to (11, 5). (Player at 11, 6).
-3. Push LEFT to (10, 5). (Player at 11, 5).
-4. Push UP to (10, 2). (Player at 10, 3).
-5. Push RIGHT into Pit 1 (11, 2). (Player at 10, 2).
+1. Navigate to (10, 1) via (10, 5), (10, 2).
+2. Slide RIGHT to (17, 1).
+3. Navigate to Section 3 bottom at (14, 16) via Row 16.
+4. Enter Section 2 at (13, 16).
+5. Navigate to (11, 8) via (12, 8).
+6. Activate Strength.
+7. Push UP to (11, 5). (Player at 11, 6).
+8. Push LEFT to (10, 5). (Player at 11, 5).
+9. Push UP to (10, 2). (Player at 10, 3).
+10. Push RIGHT into Pit 1 (11, 2). (Player at 10, 2).
 
 ## Fill Pit 2 (4, 7) with Boulder 2 (7, 8)
 1. Position: Player at (8, 8).
