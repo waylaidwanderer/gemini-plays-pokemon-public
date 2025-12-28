@@ -2,8 +2,8 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Using custom `bfs_pathfinder` to navigate to Bill's House, ignoring trainer sight lines.
-- **Target:** (47, 6).
+- **Action:** Manually crossing column 31 (Pat's LOS) to (32, 8).
+- **Next:** Continue to Bill's House (47, 6).
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
