@@ -27,3 +27,5 @@
 - **Verified Path:** (15, 9) -> (23, 9) -> (23, 11) -> (26, 11).
 - **Gym Strategy:** Walk to (5, 7) (End of Bridge). Surf North from there to reach the back platform.
 - **Tool Check:** `bfs_pathfinder` handles walking. Surfing must be manual or new tool.
+- **Battle Log:** Defeated Swimmer Parker (Horsea x2, Seadra).
+- **Next:** Advance to (5, 7) and Surf North. Expecting battle with Swimmer Girl at (4, 6).
