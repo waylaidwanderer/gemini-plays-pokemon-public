@@ -1,9 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute (EXPN Card) & Power.
-   - *Status:* FAILED. Missing EXPN Card.
-   - *Diagnosis:* GameState does NOT list 'EXPN CARD' in Key Items. Summary might be misleading.
-   - *Correction:* Fly to Lavender Town -> Talk to Director -> Get EXPN Card -> Return.
-   - *Next:* Fly to Lavender Town.
+   - *Status:* FAILED to Fly to Lavender (Landed in Saffron).
+   - *Correction:* Walk East to Lavender Town -> Talk to Director -> Get EXPN Card -> Return.
+   - *Next:* Walk to Lavender Town via Route 8.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
