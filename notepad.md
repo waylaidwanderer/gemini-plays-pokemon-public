@@ -49,6 +49,9 @@
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
 - **Current Status:** Standing at (5, 12). Lass Linda at (5, 11).
-- **Action:** Dismiss dialogue (Press B).
-- **Next Step:** TEST WALL at (4, 12). If real, test (6, 12). If both real and Linda stays put, BACKTRACK.
+- **Test:** Trying to walk through 'walls' at (4, 12).
+- **Plan:**
+  1. Try moving Left into (4, 12).
+  2. If blocked, try moving Right into (6, 12).
+  3. If both blocked, backtrack to Lobby and investigate Column 3 and 4 near the statues.
 - **Hypothesis:** One of the walls boxing me in is fake. Or Linda moves.
