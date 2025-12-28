@@ -47,4 +47,16 @@
 
 # Nicknaming
 - Delibird: 'Parcel'.
-- Zubat: 'Sonar' (In progress).
+- Zubat: 'Sonar'. (Turn 28120)
+
+## Party
+- KIMCHI (Gloom): Lv 21.
+- ICARUS (Pidgey): Lv 16.
+- Calcifer (Typhlosion): Lv 45.
+- Ravioli (Krabby): Lv 10.
+- GNEISS (Graveler): Lv 44.
+- XENON (Gastly): Lv 21.
+
+## PC Box Status
+- ZUBAT (Sonar): Lv 22.
+- DELIBIRD (Parcel): Lv 21.
