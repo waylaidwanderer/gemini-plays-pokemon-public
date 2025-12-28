@@ -1,10 +1,10 @@
 # Current Status
-- **Location:** Celadon City (Outdoors).
+- **Location:** Route 16.
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
-  1. Explore path North of Main Street (at X=12) to find a way West.
-  2. Locate Route 16 Exit.
-  3. Ride to Fuchsia City.
+  1. Traverse Route 16 West to Cycling Road.
+  2. Enter Cycling Road (Route 17).
+  3. Ride South to Fuchsia City.
 
 # Celadon City Notes
 - **Game Corner:** (18, 19). Investigated. No Rocket Hideout found.
