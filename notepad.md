@@ -58,8 +58,8 @@
 3. Push Boulder 2 (7, 8) Left to (6, 8). [DONE]
 4. Move to (7, 8). [DONE]
 5. Push Boulder 2 (6, 8) Left to (5, 8). [DONE]
-6. Move to (5, 9). [NEXT]
-7. Push Boulder 2 (5, 8) Up to (5, 7).
+6. Move to (5, 9). [DONE]
+7. Push Boulder 2 (5, 8) Up to (5, 7). [NEXT]
 8. Move to (5, 8).
 9. Push Boulder 2 (5, 7) Up to (5, 6).
 10. Move to (6, 6).
