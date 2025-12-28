@@ -1,8 +1,8 @@
 # Strategic Goals
-1. **Wake Snorlax:** Needs Poke Flute (EXPN Card) & Power.
-   - *Status:* Inside Radio Tower. Talking to Director.
-   - *Action:* Talk to Director -> Get EXPN Card -> Fly to Vermilion.
-   - *Next:* Get EXPN Card.
+1. **Wake Snorlax:** Needs Poke Flute (EXPN Card obtained) & Power.
+   - *Status:* EXPN Card obtained (Dialogue confirmed).
+   - *Action:* Exit Radio Tower -> Fly to Vermilion -> Wake Snorlax.
+   - *Next:* Exit Radio Tower.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
