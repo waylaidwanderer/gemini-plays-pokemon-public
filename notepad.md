@@ -12,3 +12,15 @@
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
 - **Bill's Grandpa Quest:** Wants to see a Lickitung. I do not have one.
+
+# Tile Mechanics
+- **FLOOR:** Standard traversable tile.
+- **WALL:** Impassable obstacle.
+- **WATER:** Traversable only with Surf.
+- **TALL_GRASS:** Traversable, chance of wild encounters.
+- **LEDGE_HOP_DOWN:** One-way movement South. Impassable from other directions.
+- **LEDGE_HOP_RIGHT:** One-way movement East. Impassable from other directions.
+- **LEDGE_HOP_LEFT:** One-way movement West. Impassable from other directions.
+- **CUT_TREE:** Obstacle. Removable with Cut HM.
+- **LADDER:** Warps to another map or floor.
+- **DOOR:** Warps to another map or interior.
