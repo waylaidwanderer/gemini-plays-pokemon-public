@@ -12,9 +12,12 @@
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
 
 # Suicune Quest Strategy (Crystal)
-- Sequence: Burned Tower -> Cianwood North Shore (Sighting + Eusine Battle) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Status: Sightings complete. Proceeding to Wise Trio battle.
-- Clear Bell: Required for Wise Trio to appear. (Status: Acquired).
+- Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
+- Current Status: Wise Trio Room (4_2) is EMPTY. Sightings are NOT complete.
+- Plan: 
+  1. Re-verify Route 42 sighting at (26, 15).
+  2. Verify Route 36 sighting at (35, 9).
+- Clear Bell: Required for final encounter. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
@@ -29,6 +32,7 @@
 
 # Lessons Learned
 - Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
-- Tin Tower Sages: Dialogue "Tin Tower shook and a Pokemon must have returned to the top" (Turn 27084) confirms all sightings are done.
-- Fly Map (Johto): A 2D grid, cursor movement depends on spatial relationship of cities. Tool navigate_fly_map_v2 is currently unreliable.
-- Strategy Pivot: Sage dialogue overrides visual absence of Suicune if flags are set. Proceed to Wise Trio.
+- Tin Tower Sages: Dialogue "Tin Tower shook" (Turn 27084) is triggered by Clear Bell, NOT by sighting completion. Do not use as a progress indicator.
+- Wise Trio Room: If empty, sightings are incomplete.
+- Fly Map (Johto): A 2D grid, cursor movement depends on spatial relationship of cities.
+- Strategy Pivot: Empty Wise Trio room overrides previous assumptions of completion. Return to wild sightings.
