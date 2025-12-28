@@ -2,10 +2,11 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Executing manual maneuver through gap: (26, 9) -> (25, 9) -> (25, 6) -> (26, 6) to bypass wall at (26, 7).
+- **Action:** Crossing x=27 at y=6, then heading South to gap at (29, 10).
 - **Path Plan:**
-  1. Manual: Left, Up, Up, Up, Right.
-  2. Then find_path to Bill's House.
+  1. (26, 6) -> (28, 6) (East).
+  2. (28, 6) -> (28, 10) (South).
+  3. (28, 10) -> (29, 10) (East).
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
