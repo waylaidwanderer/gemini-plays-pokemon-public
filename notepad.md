@@ -50,3 +50,6 @@
 - Cut confirmed. Tree at (15, 18) removed.
 - Path to South/East is now open.
 - Proceeding towards Pewter City.
+- Cut tree at (15, 18) leads to Ledges (One-way South?). Avoiding for now.
+- Re-evaluating North path: East side of Nugget House (x>17) seems open North.
+- Backtracking to (18, 16) and heading North to find Pewter City.
