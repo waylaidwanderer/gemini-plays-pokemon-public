@@ -32,4 +32,6 @@
 # Lessons Learned
 - Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
 - Tin Tower Sages: Dialogue change (tower shaking) indicates Clear Bell is recognized.
-- Fly Map (Johto): Horizontal layout. Use Left/Right to navigate cities. Corrected tool navigate_fly_map_v2 at Turn 27768.
+- Fly Map (Johto): A 2D grid, not a 1D list. Cursor movement is spatial.
+- Strategy Pivot: If Route 42 trigger fails despite Eusine's defeat, verify at Route 36 before backtracking.
+- Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
