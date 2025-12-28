@@ -1,5 +1,5 @@
 # Current Status
-- **Location:** Route 16 (Cycling Road Entrance).
+- **Location:** Route 17 (Cycling Road).
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
   1. Ride South down Cycling Road (Route 17).
@@ -15,13 +15,15 @@
 - **Prize Exchange:** (23, 19).
 - **Pokemon Center:** (29, 9).
 - **Mansion:** (16, 9) & (6, 9 back door?).
-- **Gym Location:** Unknown. Searching South.
+- **Gym Location:** Celadon Gym (21_21). Cleared.
+- **Progress:** Defeated Erika (Rainbow Badge). Obtained TM19 Giga Drain.
+- **Loot:** Retrieved Leftovers from Cafe.
+- **Quest Start:** Turn 24041.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
-- **Obtained:** Boulder, Cascade, Thunder, Marsh.
+- **Obtained:** Boulder, Cascade, Thunder, Marsh, Rainbow.
 - **Remaining:**
-  - **Rainbow (Celadon):** Erika (Giga Drain TM?).
   - **Soul (Fuchsia):** Janine (Toxic TM?).
   - **Volcano (Seafoam):** Blaine.
   - **Earth (Viridian):** Blue.
@@ -39,20 +41,10 @@
   - **Obstacle:** A wall/fence at Y=21 blocks direct south movement from the entrance. Must go around via X=26 (East) or X=12 (West - but blocked by water).
   - **Investigation:** No Hideout found.
   - **Interactions:** Fisher (Coins), Guru (Coins). Teacher at (21, 24) mentions slots.
-- **Gym Location:** Unknown. Searching South.
-  - **Hypothesis:** Gym is in the Southwest.
-  - **Exploration:** Entered Celadon Cafe (25, 29).
-  - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
-  - **Conclusion:** Cafe is a dead end.
-- **Gym Location:** Celadon Gym (21_21). Cleared.
-- **Goal:** Travel to Fuchsia City (Soul Badge).
-- **Progress:** Defeated Erika (Rainbow Badge). Obtained TM19 Giga Drain.
-- **Loot:** Retrieved Leftovers from Cafe.
-- **Quest Start:** Turn 24041.
 
 # Tile Mechanics
 - **COUNTER:** Acts as a wall. Interact from adjacent tile.
 - **LEDGE:** One-way traversal (jump down/over).
 - **WARP:** Step on to transition maps.
 - **CUT TREE:** Obstacle until Cut is used.
-- **Route 17 (Cycling Road):** The slope forces rapid southbound movement. Currently at (9, 53). The road splits; the center is blocked by water/gap. Heading to the west side (x=5) to continue south.
+- **Route 17 (Cycling Road):** The slope forces rapid southbound movement. The road splits; the center is blocked by water/gap.
