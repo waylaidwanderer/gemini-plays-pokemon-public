@@ -43,3 +43,9 @@
 - POKECENTER_SIGN: Background object; displays Pokemon Center info. Verified interactable.
 - MART_SIGN: Background object; displays Poké Mart info. Verified interactable.
 - SIGNPOST: Background object; displays area or direction info. Verified interactable.
+
+# Exploration: Route 44 Central Lake
+- Hypothesis: Surfing across the central lake from the mainland launch point at (20, 12) will allow access to the northern path leading to the Ice Path.
+- Test 1: Navigate to (19, 12), face (20, 12), and use HM03 Surf.
+- Status: In progress.
+- Attempt 1: Turn 28000.
