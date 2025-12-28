@@ -132,3 +132,7 @@
 - Standing on Warp Carpet at (15, 5).
 - Action: Moving Down to trigger exit to Route 2.
 - Destination: Pewter City (North of Route 2).
+- Arrived on Route 2 (East Side).
+- Box 1 Full. Cannot catch.
+- Pewter City is NOT unlocked for Fly yet. Must walk.
+- Path North blocked by mountains. Heading South to find path.
