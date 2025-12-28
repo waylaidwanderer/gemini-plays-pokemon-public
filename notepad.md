@@ -1,11 +1,11 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Initiating Battle.
-   - *Plan:* Battle Snorlax.
+   - *Status:* Phone call interrupted interaction. Call ending.
+   - *Plan:* Close call (B) -> Move Up (to 34, 9) -> Interact (A) -> Battle Snorlax.
    - *Battle Strategy:*
      - **Lead:** Machoke (Lv75).
      - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP (Machoke Low SpAtk vs Snorlax High SpDef). Avoid Cross Chop (OHKO risk).
-     - **Capture:** Ultra Balls when low/statused.
+     - **Capture:** Ultra Balls when low. Be aware of Rest.
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
