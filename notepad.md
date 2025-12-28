@@ -13,11 +13,10 @@
 - Start Turn (B2F Blackthorn Side): 29044
 - Goal: Reach Blackthorn City.
 
-## Strategy (B1F Exit)
-1. Slide Left from (17, 31) to (13, 31) (Hits WALL at 12,31).
-2. Slide Up to (13, 30) (Hits WALL at 13,29).
-3. Slide Left to (11, 30) (FLOOR).
+## Strategy (B1F Southern Section)
+1. Walk West along Row 30 to explore unseen area: (11, 30) -> (7, 30) -> (6, 30).
+2. Locate the exit ladder to 1F.
 
 ## Hypotheses
-- Item at (8, 16) was TM44 Rest (Verified).
 - The exit to 1F is in the southern floor area (Row 30+).
+- TM44 Rest was at (8, 16) on B2F. Verified.
