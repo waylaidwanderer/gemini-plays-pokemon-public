@@ -121,3 +121,5 @@
 - East side appears blocked by wall at col 8.
 - Path forces West to column 3.
 - Navigating to (3, 9) to continue North.
+- Navigating North along western corridor (cols 2-3).
+- Targeted destination: (3, 4) (currently unseen).
