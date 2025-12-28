@@ -102,72 +102,20 @@
       }
     ]
   },
-  "activate_strength_gneiss": {
-    "description": "Robustly activates Strength using GNEISS (5th slot). Resets menu cursors.",
-    "input_schema": {
-      "type": "object"
-    },
-    "python_script": "import json\n# 1. Close any open menus\n# 2. Open Start menu\n# 3. Reset Start cursor to POKEDEX (Up 10)\n# 4. Move to POKEMON (Down 1)\n# 5. Enter Party (A)\n# 6. Reset Party cursor to Slot 1 (Up 6)\n# 7. Select GNEISS in Slot 5 (Down 4)\n# 8. Select (A)\n# 9. Select Strength (A)\n# 10. Close menus (B x3)\n# 11. Attempt Push (Up)\nbtns = [\"B\"]*3 + [\"Start\", \"sleep 500\"] + [\"Up\"]*10 + [\"Down\", \"A\", \"sleep 500\"] + [\"Up\"]*6 + [\"Down\"]*4 + [\"A\", \"sleep 500\", \"A\", \"sleep 1000\"] + [\"B\"]*3 + [\"Up\"]\nprint(json.dumps(btns))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T12:43:17.561Z",
-        "action_counter": 28688
-      },
-      {
-        "commit_message": "Improved robustness by ensuring the cursor starts at the top of the menu.",
-        "timestamp": "2025-12-28T13:04:33.329Z",
-        "action_counter": 28718
-      },
-      {
-        "commit_message": "Fixed activate_strength_gneiss to assume cursor is on PACK and move to POKEMON.",
-        "timestamp": "2025-12-28T13:08:22.104Z",
-        "action_counter": 28722
-      },
-      {
-        "commit_message": "Refined activate_strength_gneiss to be fully robust by resetting both Start and Party menu cursors. Added sleeps for menu stability.",
-        "timestamp": "2025-12-28T13:16:48.667Z",
-        "action_counter": 28727
-      },
-      {
-        "commit_message": "Refined activate_strength_gneiss to be fully robust by closing any open menus, resetting the Start menu cursor to POKEDEX, and resetting the Party menu cursor to Slot 1. Added an 'Up' press at the end to immediately attempt a boulder push.",
-        "timestamp": "2025-12-28T13:18:22.602Z",
-        "action_counter": 28729
-      }
-    ]
-  },
-  "activate_strength_gneiss_and_push_up_v2": {
-    "description": "Robustly activates Strength using GNEISS (5th slot) and attempts a boulder push. Assumes the Start menu cursor is on OPTION.",
-    "input_schema": {
-      "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n# Sequence for Turn 28731:\n# 1. Clear any accidental menus (B x3)\n# 2. Open Start menu (Start)\n# 3. Move from OPTION (7) to POKEMON (2) (Up x5)\n# 4. Enter Party (A)\n# 5. Reset Party cursor to Slot 1 (Up x6)\n# 6. Move to Slot 5 - GNEISS (Down x4)\n# 7. Select (A), then Select Strength (A)\n# 8. Close menus (B x3)\n# 9. Attempt Push (Up)\nbtns = [\"B\"]*3 + [\"Start\", \"sleep 500\"] + [\"Up\"]*5 + [\"A\", \"sleep 500\"] + [\"Up\"]*6 + [\"Down\"]*4 + [\"A\", \"sleep 500\", \"A\", \"sleep 1000\"] + [\"B\"]*3 + [\"Up\"]\nprint(json.dumps(btns))\n",
-    "history": [
-      {
-        "commit_message": "Refined activate_strength_gneiss to handle the current menu state (cursor on OPTION) and perform a boulder push. Added a sequence to reset both Start and Party menu cursors for maximum robustness.",
-        "timestamp": "2025-12-28T13:21:21.828Z",
-        "action_counter": 28731
-      }
-    ]
-  },
   "activate_strength_v3": {
-    "description": "Activates Strength using GNEISS (5th slot) with a robust reset sequence.",
+    "description": "Activates Strength using GNEISS (5th slot) with a robust reset sequence. Assumes GNEISS is in the 5th party slot.",
     "input_schema": {},
-    "python_script": "import json\n\ndef run():\n    buttons = []\n    # Reset to overworld\n    for _ in range(5):\n        buttons.append(\"B\")\n    \n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    \n    # Assume cursor is somewhere. Pressing Up many times usually lands on POKEDEX.\n    for _ in range(8):\n        buttons.append(\"Up\")\n    \n    # Now at POKEDEX. Go to POKEMON.\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In POKEMON menu. Assume cursor is at top (Calcifer).\n    # GNEISS is in slot 5.\n    for _ in range(4):\n        buttons.append(\"Down\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In GNEISS sub-menu. Strength is usually first.\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Close dialogue\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nrun()\n",
+    "python_script": "import json\n\ndef run():\n    buttons = []\n    # Reset to overworld\n    for _ in range(10):\n        buttons.append(\"B\")\n    \n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    \n    # Ensure cursor is at the bottom (EXIT)\n    for _ in range(8):\n        buttons.append(\"Down\")\n    \n    # Navigate to POKEMON (Up 6 times from EXIT)\n    # 8: EXIT, 7: OPTION, 6: SAVE, 5: GEM, 4: GEAR, 3: PACK, 2: POKEMON, 1: POKEDEX\n    for _ in range(6):\n        buttons.append(\"Up\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In POKEMON menu. Assume cursor is at top (Calcifer).\n    # GNEISS is in slot 5.\n    for _ in range(4):\n        buttons.append(\"Down\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In GNEISS sub-menu. Strength is the first entry.\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Close dialogue\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nrun()\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-28T13:48:24.721Z",
         "action_counter": 28773
+      },
+      {
+        "commit_message": "Refined Strength activation with a robust 'reset-to-bottom' sequence for the Start menu.",
+        "timestamp": "2025-12-28T13:54:43.403Z",
+        "action_counter": 28784
       }
     ]
   }
