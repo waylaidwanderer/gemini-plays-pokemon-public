@@ -15,9 +15,8 @@
 - BOULDER: Pushable with Strength (HM04). Verified.
 
 # Exploration Plan: Ice Path B1F
-- Goal: Push all 4 boulders into pits on B1F.
-- Status: 1/4 boulders pushed. Boulder 3 is done. Boulders 1, 2, 4 remain.
-- Connection: Exploring the long eastern passage (Row 16 to Row 0) to reach the northern area and the other side of boulders.
+- Status: Boulders 1, 2, 4 remain.
+- Puzzle Start Turn: 28207.
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1 (Status: Stationary)
@@ -30,23 +29,29 @@
 
 # Boulder Pushing Sequence (B1F)
 ## Boulder 4 (17, 7) to Pit 4 (12, 13)
-- Plan: Currently at (18, 7), adjacent to Boulder 4. Need to calculate the push sequence to avoid getting it stuck against walls at (14, 7) or (19, 7).
+1. Move to (16, 7) via (18, 6), (17, 6), (16, 6).
+2. Push Right to (18, 7).
+3. Move to (18, 6).
+4. Push Down 5 times to (18, 12).
+5. Move to (19, 12).
+6. Push Left 3 times to (15, 12).
+7. Move to (15, 11).
+8. Push Down to (15, 13).
+9. Move to (16, 13).
+10. Push Left 3 times to (12, 13) [Target: Pit 4].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
-1. Navigate to (6, 6) via the eastern loop once the path is confirmed.
-2. Push Left to (4, 6).
-3. Navigate to (4, 5).
-4. Push Down to (4, 7) into Pit 2.
+1. Move to (5, 5).
+2. Push Down to (5, 7).
+3. Move to (6, 7).
+4. Push Left to (4, 7) [Target: Pit 2].
 
 ## Boulder 1 (11, 7) to Pit 1 (11, 2)
 1. Move to (11, 8).
 2. Push Up to (11, 5).
-3. Push Right to (13, 5).
-4. Push Up to (13, 1).
-5. Push Left to (11, 1).
-6. Push Down to (11, 2) into Pit 1.
-
-# Wild Pokemon in Ice Path
-- Swinub: High priority catch for Ice/Ground coverage against Clair.
-- Jynx: Secondary priority for Ice coverage.
-- Goal: Catch one and train to Lv 38-40.
+3. Move to (12, 5).
+4. Push Left to (10, 5).
+5. Move to (10, 6).
+6. Push Up 3 times to (10, 2).
+7. Move to (9, 2).
+8. Push Right to (11, 2) [Target: Pit 1].
