@@ -24,7 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23092)
-- **Status:** Route 3, near Mt. Moon Square entrance.
+# Reflection (Turn 23093)
+- **Status:** Route 3, climbing the stairs to Mt. Moon Square.
 - **Goal:** Enter Mt. Moon Square.
-- **Next:** Navigate around the sign and go up the stairs at (49, 10).
+- **Next:** Continue moving North up the stairs.
