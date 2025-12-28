@@ -3,7 +3,6 @@
 - Current Turn: 28957 | Current Time: Sunday, Dec 28, 8:02 AM
 - Goal: Fill all 4 pits with boulders in a single session.
 - Reset Trigger: Leaving floor or falling through pits.
-- Status: All 4 pits are currently EMPTY (verified by Map Events).
 
 ## Boulder Spawn Points
 1. Boulder 1: (11, 7)
@@ -15,12 +14,13 @@
 1. Navigate to each spawn point to visually confirm boulders.
 2. Once all 4 are in the mental map, call `puzzle_strategist_v1`.
 3. Execute push sequences without leaving B1F.
+   - Pushing into a pit counts as a floor change for that boulder, but you MUST NOT fall in yourself.
 
 ## Tile Mechanics
 - FLOOR: Walkable.
 - WALL: Impassable.
 - ICE: Sliding.
-- PIT: Warp to B2F. Resets boulders. Must be filled.
+- PIT: Warp to B2F. Resets ALL boulders if player enters. Must be filled to solve B2F.
 - BOULDER: Movable with Strength. Resets on floor change.
 
 ## Navigation
