@@ -31,7 +31,7 @@
 # Current Status (B1F)
 - Start Turn: 28207.
 - Reset Turn: 28385 (Fell through pit, floor reset).
-- Player at (17, 15), Boulder 1 (ID 1) at (10, 1).
+- Boulder 1 (ID 1) is at (10, 1).
 - Boulder 2 (ID 2) is at (5, 8).
 
 # Lessons Learned
