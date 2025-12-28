@@ -70,3 +70,8 @@
 - Attempt 3: Move to Column 0 (clear of NPCs), then head north to Row 8/7. [Turn 29241]
 - Path: (1, 16) -> (0, 16) -> (0, 8) -> (0, 7).
 - Attempt 4: Use the ladder at (1, 7) or (2, 6) to reach 2F. [Turn 29242]
+
+# Blackthorn Gym Puzzle (2F) - Boulder 1
+- Observation: Boulder (ID 4) at (2, 3) and Boulder (ID 6) at (3, 3). Pit at (2, 5).
+- Hypothesis: Pushing the boulder at (2, 3) down twice will drop it into the pit at (2, 5).
+- Test: Approach (2, 3) and push Down. [Turn 29245]
