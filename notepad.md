@@ -103,3 +103,6 @@
 - Cut tree at (12, 50) successful.
 - Path West is open.
 - Proceeding West to find the road to Viridian City.
+- Navigating West from cut tree.
+- Heading towards the main road of Route 2.
+- Expecting to find a path South to Viridian City.
