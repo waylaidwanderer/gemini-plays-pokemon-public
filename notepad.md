@@ -39,9 +39,14 @@
   - Pit (8, 3) -> 1F (7, 6)
   - Pit (8, 7) -> 1F (7, 7)
 - Strategy: Fill all three pits to complete the bridge to Clair.
+- Verified Mechanics:
+  - Silver blocks are WALLS. (Turn 29653)
+  - All pits are empty after gym reset. (Turn 29620)
+  - Column 4 is mostly WALL, gap at Row 13.
+  - Column 9 is a north-south corridor.
 - Layout Corrections:
   - (4, 1) is Cody (Wall).
-  - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
+  - (4, 11) is Fran (Wall). Gap to east is at Row 13.
   - Row 13 passage at (4, 13) connects east/west sections.
 
 # Battle Lessons
