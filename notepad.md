@@ -29,3 +29,4 @@
 - **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
 - **Correction:** The water pool at (42-45, 8-11) is isolated. Surfing South from (42, 7) leads to a dead-end strip at Row 12.
 - **Plan:** Surf back North to (42, 7) to exit the dead end. Then proceed to Route 24.
+- **Discovery:** A path at x=11 on the South side of Route 25 (Row 13-17) connects Route 25 to Route 24 (East side). This is the way to the water channel.
