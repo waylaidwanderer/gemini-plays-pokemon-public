@@ -73,8 +73,6 @@
 - **Plan:** Enter gap at (30, 29), circle back West to the door.
 - **Warden's Home:** (27, 27). Warden is on vacation. Safari Zone is closed.
 - **Pokemon Center:** Located near sign at (20, 27).
-- **Navigation Analysis:** The Gym/PC Enclave is walled off.
-  - **East Access:** Blocked by wall at (19, 32). Cannot cross from East side along Row 32.
-  - **West Access:** Column 1 is clear from y=21 down to y=31.
-  - **South Access:** Gap in ledges at (4, 31).
-- **Plan:** Take Western Bypass. Go West to x=1. Go South to y=31. Check if y=32 is passable to reach x=4. Enter gap at (4, 31).
+- **Status:** Successfully traversed Western Bypass. Currently at (1, 31).
+- **Navigation:** The gap to enter the Gym/PC sector is at (4, 31).
+- **Plan:** Go South to Row 32, East to Column 4, then North through the gap at (4, 31). Then head North-East to the Pokemon Center.
