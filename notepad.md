@@ -15,13 +15,12 @@
 - BOULDER: Pushable with Strength (HM04). Verified.
 
 # Exploration Plan: Ice Path B1F
-- Status: Boulders 1, 2, 4 remain.
 - Puzzle Start Turn: 28207.
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1 (Status: Stationary)
 - Boulder 2: (5, 6) - ID 2 (Status: Stationary)
-- Boulder 4: (17, 7) - ID 4 (Status: Stationary)
+- Boulder 4: (18, 7) - ID 4 (Status: In Transit)
 - Pit 1: (11, 2) (Target for Boulder 1)
 - Pit 2: (4, 7) (Target for Boulder 2)
 - Pit 4: (12, 13) (Target for Boulder 4)
