@@ -15,6 +15,7 @@
   - Cooltrainer F (7,6): Warns that Erika is a master of Grass Pokemon and very tough.
 - **Outdoors:**
   - Youngster (16, 13): Mentions hidden back door in Celadon Mansion.
+  - Teacher (7, 15): Advertises Celadon Dept. Store.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
