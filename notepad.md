@@ -18,12 +18,13 @@
 - Section 3 (Right): (14, 1) to (19, 16). Contains Ladder to B2F (17, 3) and Boulder 4 (17, 7).
 
 # Strategies
-## Fill Pit 1 (11, 2) with Boulder 1 (10, 5)
-1. At (10, 6), face UP and push to (10, 1). (Player at 10, 2).
-2. Move to (9, 1).
-3. Face RIGHT and push to (11, 1). (Player at 10, 1).
-4. Move to (11, 0).
-5. Face DOWN and push into Pit 1 (11, 2).
+## Fill Pit 1 (11, 2) with Boulder 1 (10, 3)
+1. Move to (10, 4). (Next)
+2. Face UP and push to (10, 1). (Player at 10, 2).
+3. Move to (9, 1).
+4. Face RIGHT and push to (11, 1). (Player at 10, 1).
+5. Move to (11, 0).
+6. Face DOWN and push into Pit 1 (11, 2).
 
 ## Fill Pit 3 (5, 12) with Boulder 3 (8, 9)
 1. Push LEFT to (6, 9).
