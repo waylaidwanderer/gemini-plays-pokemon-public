@@ -26,16 +26,13 @@
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1
 - Boulder 2: (5, 6) - ID 2
-- Boulder 3: (4, 11) - ID 3
 - Boulder 4: (17, 7) - ID 4
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
-- Pit 3: (5, 12)
 - Pit 4: (12, 13)
+- Pit 3 (5, 12): COMPLETED with Boulder 3.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (4, 12) to Pit 3 (5, 12) - COMPLETED
-
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (6, 6) via loop around top. [NEXT]
 2. Push Left to (4, 6).
