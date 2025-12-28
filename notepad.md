@@ -22,10 +22,7 @@
 - Pit 4 (12, 13): COMPLETED.
 
 ## Boulder 1 Sequence (ID 1)
-1. Push Up to (11, 5).
-2. Move to (12, 5).
-3. Push Left to (10, 5).
-4. Move to (10, 6).
+- Boulder currently at (10, 5).
 5. Push Up to (10, 1).
 6. Move to (9, 1).
 7. Push Right to (11, 1).
@@ -42,10 +39,9 @@
 7. Push Down to (4, 7). [PIT]
 
 # Current Status (B1F)
-- Boulders reset due to floor exit.
+- Boulders reset due to floor exit at Turn 28385.
 - Boulder 1 (ID 1) is at (10, 5).
 - Boulder 2 (ID 2) is at (7, 8).
-- Goal: Push Boulder 1 into Pit 1.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
