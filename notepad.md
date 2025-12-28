@@ -29,3 +29,4 @@
 - Observed: (13, 17) -> (15, 17) via Right. Blocked by WALL at (16, 17).
 - Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
 - Observed: (15, 21) -> (19, 21) via Right. Blocked by WALL at (20, 21).
+- Observed: (19, 21) -> (19, 23) via Down. Blocked by FLOOR_UP_WALL at (19, 24).
