@@ -61,3 +61,7 @@
 - Path North is blocked by a wall at Row 1.
 - Navigating West along the corridor (Row 2/3) to find the path to Pewter City.
 - Avoiding ledges at Row 4 for now to maintain height.
+- Phone call from Gaven (Cooltrainer) completed.
+- North path (Row 3) is a dead end blocked by walls at x=10 and y=0.
+- Strategy: Jump ledge at (14, 4) to shortcut back to Diglett's Cave area.
+- Next Plan: Explore South through the Cut tree at (15, 18) to find a path West/North to Pewter.
