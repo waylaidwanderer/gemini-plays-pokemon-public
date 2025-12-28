@@ -2,7 +2,7 @@
 - **Status:** On Route 25.
 - **Location:** (40, 4).
 - **Goal:** Return to Cerulean City to access Route 9 (Power Plant).
-- **Action:** Navigate Route 25 Maze to Bill's House.
+- **Action:** Traverse Route 25 Maze (East then Down).
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
@@ -17,7 +17,8 @@
 # Navigation Notes
 - **Route 25:** Trainer maze.
 - **Defeated Trainers:** Marked on map. Avoid collisions.
-- **Target:** North-East corner (Bill's House).
+- **Current Position:** (15, 9).
+- **Next Waypoint:** (23, 11).
 
 ## Tile Mechanics
 - **WATER:** Requires SURF to traverse.
@@ -26,4 +27,4 @@
 - **LADDER:** Walkable (Bridge/Stairs). In Cerulean North, leads to Route 24.
 
 ## Task Timestamp
-- **Finding Misty:** Started ~Turn 23600. Current Turn: 23641.
+- **Finding Misty:** Started ~Turn 23600. Current Turn: 23650.
