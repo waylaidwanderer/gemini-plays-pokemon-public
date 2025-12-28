@@ -23,8 +23,8 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 22905)
-- **Status:** Route 2 North (Entering Viridian Forest Gate).
-- **Achievement:** Defeated Bug Catchers. Box 2 Active.
-- **Goal:** Traverse Viridian Forest to Pewter City.
-- **Next:** Viridian Forest.
+# Reflection (Turn 22907)
+- **Status:** Arrived in Pewter City (via Route 2 East).
+- **Achievement:** Bypassed Viridian Forest using Cut.
+- **Goal:** Locate Gym and obtain Boulder Badge.
+- **Next:** Pewter City Gym.
