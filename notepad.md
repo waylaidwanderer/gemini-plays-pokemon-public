@@ -33,7 +33,7 @@
 - 2F Boulders (Current Positions):
   - Boulder 6: (3, 3)
   - Boulder 7: (8, 1)
-  - Boulder 8: (8, 14) (Off-screen)
+  - Boulder 8: (8, 14)
 - 2F Pits (All empty after reset):
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
@@ -42,14 +42,14 @@
 - Verified Mechanics:
   - Silver blocks are WALLS. (Turn 29653)
   - Row 0 Tests: (1,0), (3,0), (5,0), (7,0), (9,0) are all confirmed WALLS. (Turns 29675-29685)
-  - Pushing a boulder: First press pushes it, second press moves player into its old tile.
-  - All pits are empty after gym reset. (Turn 29620)
-  - Row 13 passage at (4, 13) connects east/west sections.
-- Potential Boulder Paths:
-  - Pit (8, 7): Boulder 8 (8, 14) -> (8, 12) -> (7, 12) -> (6, 12) -> (6, 7) -> (8, 7).
-  - Pit (2, 5): Boulder 6 (3, 3) -> (3, 2) -> (2, 2) -> (2, 1) -> (1, 1) -> (1, 5) -> (2, 5).
-  - Pit (8, 3): Boulder 7 (8, 1) -> (9, 1) -> (9, 3) -> (8, 3). (Requires (9,2) and (9,3) passable).
-- Observation: The floor has a blue/white pattern similar to the Ice Path. This might be cosmetic or indicate sliding mechanics, but Strength has been used successfully on it.
+  - Row 1 Pushes: Boulders in Row 1 cannot be pushed DOWN because Row 0 is impassable.
+  - Column 9: Dead end at (9, 4).
+  - Row 13: Passage at (4, 13) connects east and west sections.
+- Boulder Path Analysis:
+  - Pit (8, 7): Reachable from Column 5 -> (6, 7) -> (7, 7) -> push RIGHT.
+  - Pit (8, 3): Reachable from (7, 1) -> (7, 2) -> (7, 3) -> push RIGHT. (Requires pushing a boulder from west side to Row 1).
+  - Pit (2, 5): Reachable from (1, 5) or (3, 5).
+- Observation: The floor has a blue/white pattern similar to the Ice Path. Cosmetic only for player, but strength moves boulders one tile.
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
@@ -60,11 +60,11 @@
 - Kingdra (Water/Dragon) resists: Fire (1/4x), Water (1/4x), Electric (1/2x), Grass (1/2x).
 - Normal & Ground: Neutral vs Dragon.
 
-# Boulder Puzzle Manual Analysis (Turn 29650)
-- Observation: Row 0 is impassable. Boulders in Row 1 cannot be pushed DOWN.
-- Hypothesis: Boulders in Row 1 must be pushed into pits in Row 3 or 5 via the side corridors (Column 0 or 9).
-- Test 4 (Turn 29685): Use run_code to find ALL reachable pits for Boulder 7.
+# Boulder Puzzle Manual Analysis (Turn 29687)
+- Observation: Boulder 7 at (8, 1) is likely a trap or intended for a specific pit that doesn't require pushing it down.
+- New Hypothesis: Boulder 8 (8, 14) is the key to the east side pits.
+- Task: Navigate to Boulder 8 and analyze its pathing options.
 - Start Time: Turn 29620 (Gym Reset).
 - Failed Hypotheses:
-  1. Row 0 is passable (Tested (5,0), (7,0), (9,0) - Denied).
-  2. Boulders must go to the "nearest" pit (Likely wrong due to Row 0 barrier).
+  1. Row 0 is passable (Tested - Denied).
+  2. Boulder 7 can be pushed into (8, 3) from Row 1 (Requires player in Row 0 - Denied).
