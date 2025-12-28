@@ -27,3 +27,4 @@
 - **Route 4:** Arrived from Mt. Moon. Currently on the upper ledges.
 - **Picnicker Hope:** Defeated on Route 4.
 - **Lass (Route 4):** Located at (21, 6) but unreachable from the west side due to ledges.
+- **Phone Call:** Gaven (Cooltrainer) called. Mentioned Route 26 battle and failing to catch a Raticate.
