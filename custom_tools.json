@@ -135,5 +135,28 @@
         "action_counter": 28729
       }
     ]
+  },
+  "activate_strength_gneiss_and_push_up_v2": {
+    "description": "Robustly activates Strength using GNEISS (5th slot) and attempts a boulder push. Assumes the Start menu cursor is on OPTION.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n# Sequence for Turn 28731:\n# 1. Clear any accidental menus (B x3)\n# 2. Open Start menu (Start)\n# 3. Move from OPTION (7) to POKEMON (2) (Up x5)\n# 4. Enter Party (A)\n# 5. Reset Party cursor to Slot 1 (Up x6)\n# 6. Move to Slot 5 - GNEISS (Down x4)\n# 7. Select (A), then Select Strength (A)\n# 8. Close menus (B x3)\n# 9. Attempt Push (Up)\nbtns = [\"B\"]*3 + [\"Start\", \"sleep 500\"] + [\"Up\"]*5 + [\"A\", \"sleep 500\"] + [\"Up\"]*6 + [\"Down\"]*4 + [\"A\", \"sleep 500\", \"A\", \"sleep 1000\"] + [\"B\"]*3 + [\"Up\"]\nprint(json.dumps(btns))\n",
+    "history": [
+      {
+        "commit_message": "Refined activate_strength_gneiss to handle the current menu state (cursor on OPTION) and perform a boulder push. Added a sequence to reset both Start and Party menu cursors for maximum robustness.",
+        "timestamp": "2025-12-28T13:21:21.828Z",
+        "action_counter": 28731
+      }
+    ]
   }
 }
