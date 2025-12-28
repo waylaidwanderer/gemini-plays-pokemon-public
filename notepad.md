@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute (EXPN Card) & Power.
-   - *Status:* Arrived in Lavender Town.
-   - *Action:* Enter Radio Tower -> Talk to Director -> Get EXPN Card -> Fly to Vermilion.
-   - *Next:* Enter Radio Tower.
+   - *Status:* Inside Radio Tower. Talking to Director.
+   - *Action:* Talk to Director -> Get EXPN Card -> Fly to Vermilion.
+   - *Next:* Get EXPN Card.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
