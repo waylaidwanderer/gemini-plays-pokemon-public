@@ -30,51 +30,6 @@
       }
     ]
   },
-  "find_path_v11": {
-    "description": "Advanced pathfinding tool that handles land-water transitions and avoids obstacles. Uses global map_xml_string.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "can_surf": {
-          "type": "boolean",
-          "default": true
-        }
-      },
-      "required": [
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run():\n    try:\n        root = ET.fromstring(map_xml_string)\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        can_surf = input_data.get('can_surf', True)\n        \n        grid = {}\n        player_pos = None\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                if tile.find('Player') is not None:\n                    player_pos = (x, y)\n                \n                has_obstacle = False\n                if tile.attrib.get('has-object') == 'true':\n                    has_obstacle = True\n                \n                grid[(x, y)] = {\n                    'type': tile.attrib['type'],\n                    'seen': tile.attrib['seen'] == 'true',\n                    'has_obstacle': has_obstacle,\n                    'is_warp': tile.attrib.get('is-warp') == 'true'\n                }\n        \n        if not player_pos:\n            print(\"Error: Player position not found.\")\n            return\n\n        passable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'ICE', 'LADDER', 'PIT', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n        if can_surf:\n            passable_types.append('WATER')\n\n        queue = deque([(player_pos, [])])\n        visited = {player_pos}\n\n        while queue:\n            (cx, cy), path = queue.popleft()\n            if (cx, cy) == (end_x, end_y):\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in grid and (nx, ny) not in visited:\n                    tile = grid[(nx, ny)]\n                    if tile['seen'] and tile['type'] in passable_types:\n                        # Allow entering pits if it's the destination, otherwise avoid them\n                        if (nx, ny) == (end_x, end_y):\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [move]))\n                        elif not tile['has_obstacle'] and not tile['is_warp']:\n                            visited.add((nx, ny))\n                            queue.append(((nx, ny), path + [move]))\n        print(\"No path found.\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n\nrun()",
-    "history": [
-      {
-        "commit_message": "Initial version of refined pathfinding tool for land/water transitions.",
-        "timestamp": "2025-12-28T06:02:21.601Z",
-        "action_counter": 27924
-      },
-      {
-        "commit_message": "Fixing pathfinding tool by allowing movement into PITS if they are the target.",
-        "timestamp": "2025-12-28T09:33:19.995Z",
-        "action_counter": 28367
-      },
-      {
-        "commit_message": "Updating pathfinding tool to handle land-water transitions and avoid obstacles.",
-        "timestamp": "2025-12-28T09:40:39.021Z",
-        "action_counter": 28377
-      },
-      {
-        "commit_message": "Refining pathfinding tool to handle land-water transitions, avoid obstacles, and correctly identify the player position from map XML.",
-        "timestamp": "2025-12-28T09:41:08.852Z",
-        "action_counter": 28378
-      }
-    ]
-  },
   "get_reachable_unseen_tiles": {
     "description": "Finds all unseen tiles that are directly adjacent to reachable, passable tiles on the current map. Returns a JSON array of coordinates.",
     "input_schema": {
@@ -108,45 +63,6 @@
         "commit_message": "Refining exploration tool to accurately identify reachable unseen tiles from the current player position.",
         "timestamp": "2025-12-28T09:41:08.853Z",
         "action_counter": 28378
-      }
-    ]
-  },
-  "plan_boulder_push_v2": {
-    "description": "Calculates a sequence of pushes to move a boulder to a target tile. Returns a list of button presses.",
-    "input_schema": {
-      "properties": {
-        "boulder_x": {
-          "type": "integer"
-        },
-        "boulder_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "boulder_x",
-        "boulder_y",
-        "target_x",
-        "target_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "\nimport xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef get_map_data(xml_str):\n    root = ET.fromstring(xml_str)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n    return grid, width, height, player_pos\n\ndef get_path(grid, start, end, obstacles):\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == end:\n            return path\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited and grid.get((nx, ny)) in ['FLOOR', 'ICE'] and (nx, ny) not in obstacles:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n    return None\n\ndef solve():\n    try:\n        # Arguments are in input_data dictionary\n        bx, by = int(input_data['boulder_x']), int(input_data['boulder_y'])\n        tx, ty = int(input_data['target_x']), int(input_data['target_y'])\n        grid, w, h, p_pos = get_map_data(map_xml_string)\n        \n        # BFS for boulder move\n        queue = collections.deque([( (bx, by), p_pos, [] )])\n        visited = { ((bx, by), p_pos) }\n        \n        while queue:\n            (cbx, cby), (cpx, cpy), full_path = queue.popleft()\n            if (cbx, cby) == (tx, ty):\n                print(json.dumps(full_path))\n                return\n            \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                push_pos = (cbx - dx, cby - dy)\n                next_pos = (cbx + dx, cby + dy)\n                \n                if grid.get(push_pos) in ['FLOOR', 'ICE'] and grid.get(next_pos) in ['FLOOR', 'ICE', 'PIT']:\n                    p_path = get_path(grid, (cpx, cpy), push_pos, {(cbx, cby)})\n                    if p_path is not None:\n                        if grid.get(next_pos) == 'PIT':\n                            print(json.dumps(full_path + p_path + [btn]))\n                            return\n                        new_state = (next_pos, (cbx, cby))\n                        if new_state not in visited:\n                            visited.add(new_state)\n                            queue.append((next_pos, (cbx, cby), full_path + p_path + [btn]))\n        print(\"[]\")\n    except Exception as e:\n        print(json.dumps([f\"Error: {str(e)}\"]))\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T09:49:23.277Z",
-        "action_counter": 28390
-      },
-      {
-        "commit_message": "Fixed input handling. Arguments are in the 'input_data' dictionary, not stdin.",
-        "timestamp": "2025-12-28T09:51:09.109Z",
-        "action_counter": 28395
       }
     ]
   },
