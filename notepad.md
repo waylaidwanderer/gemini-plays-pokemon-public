@@ -13,12 +13,13 @@
 ## Fill Pit 1 (11, 2) with Boulder 1 (11, 5)
 1. Navigate to (12, 5).
 2. Push B1 LEFT to (10, 5).
-3. Navigate to (10, 6).
-4. Push B1 UP to (10, 1).
-5. Navigate to (9, 1).
-6. Push B1 RIGHT to (11, 1).
-7. Navigate to (11, 0).
-8. Push B1 DOWN into Pit 1 (11, 2).
+3. Navigate to (10, 3) or (10, 6).
+4. Push B1 UP to (10, 1) (will stop at wall at 10, 0).
+5. Navigate to (8, 1) via (8, 3).
+6. Move RIGHT from (8, 1) to (9, 1) (slide into boulder at 10, 1).
+7. Push B1 RIGHT to (11, 1).
+8. Navigate to (11, 0).
+9. Push B1 DOWN into Pit 1 (11, 2).
 
 # Lessons Learned & Tile Mechanics
 - **Immovable Boulders:** Boulders pushed into pits on B1F become permanent, immovable "stoppers" on B2F. They cannot be pushed once imbedded.
