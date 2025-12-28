@@ -26,131 +26,20 @@
 - **Repel active:** Turn 22378 (Max Repel)
 
 # Lessons Learned
-- **Verification:** Always verify possession of Key Items (like EXPN Card) in the inventory before attempting to use them. Do not assume they were acquired during story events.
-- **Troubleshooting:** If a mechanic (like the Radio) fails, check the prerequisites (Key Items) first before blaming the mechanics (tuning).
-- **Route 8:** Underground Path is closed (shut down by police). Bikers control the surface road.
-- **Radio Tuning:** Must press 'A' to enter the Radio module before tuning works. Cursor position alone is insufficient.
-- **Menu Navigation:** Start menu cursor wraps and remembers position. Double check cursor starting point.
+- **Verification:** Always verify possession of Key Items (like EXPN Card) in the inventory before attempting to use them.
+- **Troubleshooting:** If a mechanic (like the Radio) fails, check the prerequisites (Key Items) first.
+- **Route 8:** Underground Path is closed. Bikers control the surface road.
+- **Radio Tuning:** Must press 'A' to enter the Radio module before tuning works.
+- **Menu Navigation:** Start menu cursor wraps and remembers position. Check cursor starting point.
+- **Interaction:** Stun NPCs before talking to ensure correct positioning and prevent wandering.
+- **Inventory:** Check PC Box capacity before battles to avoid missed catches.
 
-# Reflection (Turn 22694)
-- **Execution:** No deferred tasks. Fixed EXPN card oversight immediately.
-- **Notepad:** Organized. Added "Lessons Learned".
-- **Map:** Markers are accurate. Snorlax marked.
-- **Tools:** Pathfinding and Battle tools are performing well.
-- **Goals:** Clear. Wake Snorlax -> Diglett's Cave.
-- **Errors:** Radio tuning failure analyzed and corrected. Inventory assumption corrected.
-- Attempting to interact with Snorlax from (34, 9) or (34, 10).
-- If Snorlax doesn't wake, verify Radio Channel 20.
-- Discrepancy detected: ScreenText shows Pokegear active, but CurrentScreen shows Start Menu. Trusting CurrentScreen and inputs (B, Start).
-- Start Menu cursor is on POKEGEAR. Pressing A to open.
-- Menu loop detected: Start Menu -> A -> Pokegear (Intermediate) -> Start Menu (Current).
-- Resolved: Previous input failure (mixed buttons) caused cursor to not move.
-- Current State: Pokegear Open, Cursor on BACK.
-- Plan: Use slow_press to navigate Right x3 to Radio, then A to select.
-- Inventory check: EXPN CARD is missing from GameState Key Items list. However, Radio UI shows scale up to 20 (past 15), suggesting the upgrade is active. Proceeding with tuning.
-- Tuning Plan: Press Up x5 to clamp to Channel 20 (Max). Check for 'POKE FLUTE' text next turn.
-- Snorlax interaction confirmed "Snoring peacefully".
-- Hypothesis: Radio was not actually tuned to the Poke Flute channel or stopped playing.
-- Action: Re-opening Radio to visually confirm "POKE FLUTE" text.
-- Navigation Plan: B (Close Text) -> Start (Menu) -> A (Pokegear) -> Right x3 (Radio) -> A (Enter).
-- Radio Tuning: Currently at max frequency (approx 20+). Text shows "TUNING".
-- Hypothesis: Poke Flute is at Channel 20.0. Need to tune down slightly to find the exact frequency.
-- Action: Pressing 'Down' to decrease frequency.
-- Observation needed: Does text change to "POKE FLUTE"?
-- Radio Tuning Successful: 'POKé FLUTE' text confirmed near max frequency.
-- Action: Exiting Radio/Pokegear (B, B) and interacting with Snorlax (A) to trigger battle.
-- Snorlax woke up! Battle imminent.
-- Battle Plan: Lead with Muscle. Use weak moves (Ice Punch/Thunderpunch) to chip. Try to catch with Ultra Balls. If failing/low health, knock it out.
-- Snorlax is blocking Diglett's Cave entrance at (34, 7).
-- Snorlax HP ~70%. Holding Leftovers (recovers HP).
-- Snorlax used Rollout.
-- Muscle's Thunderpunch does ~30%.
-- Strategy: Use Thunderpunch again to chip. If Snorlax uses Rest, prepare to catch while asleep.
-- Note: 'smart_battle_move' with current_slot=2 and target_slot=2 should safely select the current cursor position (likely Thunderpunch or Strength).
-- Battle Update: Muscle used Thunderpunch (Low dmg). Snorlax used Rollout. Leftovers recovery.
-- Cursor Logic: Assuming cursor remains on Thunderpunch (Slot 2).
-- Plan: Continue using Thunderpunch to fish for Paralysis and chip HP. Avoid physical moves for now to prevent accidental KO.
-- Snorlax Status: Red HP, Paralyzed.
-- Danger: Do NOT attack again. Muscle is too strong.
-- Action: Throw Ultra Balls until caught. Snorlax has Leftovers, so it will heal slowly.
-- Snorlax has Rest (likely). If it Rests, it will wake up and cure paralysis. Be ready to re-paralyze if safe, or just throw balls at full health sleep.
-- Throwing Ultra Ball (Attempt 1) - Confirmed.
-- Current Stock: 20 Ultra Balls (after this throw).
-- Snorlax is Paralyzed and Low HP. This is the best chance.
-- Catch Attempt 1 failed ("So close!").
-- Snorlax used Rollout (locked in). Muscle taking negligible damage.
-- Snorlax recovered with Leftovers. Status still Paralyzed.
-- Action: Throwing Ultra Ball (Attempt 2). Count: 20.
-- Catch Attempt 2 failed ("Almost had it!").
-- Snorlax used Rollout. Muscle HP 228/254. Snorlax HP ~Red.
-- Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
-- Current State: Ball thrown. Watching result.
-
-- Entered Diglett's Cave.
-- PC Box 1 Status: 19/20 slots. ONE slot remaining.
-- Goal: Reach Pewter City (north exit).
-- Catch: Diglett or Dugtrio on the way.
-- Mechanics: Diglett's Cave connects Vermilion (South) to Route 2 (North).
-- Warped from (5, 31) to (17, 33).
-- Mechanics: Ladders connect separated sections of the cave.
-- Current Location: Bottom-Right section. Exploring West.
-- Hit wall at (13, 32). Changing direction to North.
-- Corridor seems to be columns 14-15.
-- Goal: Find the path to the western section or exit.
-- Catch Successful! Diglett caught (Lv 8).
-- Bill called: Confirmed Box 1 is FULL.
-- Goal: Exit Diglett's Cave (North) -> Route 2 -> Pewter City to switch boxes.
-- Current Loc: Diglett's Cave (14, 30). Moving North.
-- Winding path detected: Moving North requires navigating around walls at (14, 20).
-- Path: (14, 22) -> (14, 21) -> (13, 21) -> North.
-- Encountered Wild Diglett (Male, Lv 8).
-- Box 1 is FULL (20/20). Cannot catch.
-- Action: Running to save time. Heading to Pewter City PC.
-- Ran from Diglett (Box Full).
-- Navigating North towards Pewter City.
-- Path continues through (12, 17).
-- Dead end North at (12, 16).
-- Path forces West. Exploring towards (8, 17).
-- Note: East side (x>14) appears separated by a wall.
-- Escaped from Diglett.
-- Exploring West branch.
-- West branch: Hit wall at (5, 17).
-- Action: Moving North along column 6.
-- Goal: Find north exit to Route 2.
-- Obstacle at (6, 11) and Wall at Row 9 (cols 4-8).
-- East side appears blocked by wall at col 8.
-- Path forces West to column 3.
-- Navigating to (3, 9) to continue North.
-- Navigating North along western corridor (cols 2-3).
-- Targeted destination: (3, 4) (currently unseen).
-- Found ladder at (3, 3) in western corridor.
-- This should be the exit to Route 2 (Pewter City side).
-- Box 1 is still full. Priority is PC.
-- Ladder at (3, 3) warped to (17, 3) (Top-Right section).
-- Found Exit Warp at (15, 5). This MUST be Route 2.
-- Action: Exiting cave now.
-- Standing on Warp Carpet at (15, 5).
-- Action: Moving Down to trigger exit to Route 2.
-- Destination: Pewter City (North of Route 2).
-- Arrived on Route 2 (East Side).
-- Box 1 Full. Cannot catch.
-- Pewter City is NOT unlocked for Fly yet. Must walk.
-- Path North blocked by mountains. Heading South to find path.
-- Diglett's Cave Exit is at (12, 7).
-- North path blocked by walls/cave entrance.
-- South path blocked by walls at Row 12 (West side).
-- Hypothesis: Path to Pewter City loops South-East then West/North.
-- Action: Exploring East side (x > 14).
-- Blocked by text box (Sign). Closing.
-- Map Analysis: Row 12 is a wall blocking South on the West side.
-- Path to Pewter likely requires going East to x=14 to bypass the wall.
-- Fruit Tree at (10, 14) appears inaccessible from current position due to Row 12 wall. Need to find entrance (Cut tree?).
-- Entered Route 2 Nugget House.
-- Investigating Fisher NPC.
-- Search for exit to Pewter City (North or West?).
-- Route 2 Nugget House appears to have no North exit (64/64 tiles seen).
-- Only warps are South (Exit to Route 2).
-- Plan: Talk to Fisher -> Exit House -> Check for cuttable trees or hidden paths East of the wall.
+# Reflection (Turn 22795)
+- **Status:** Box 1 Full (20/20). Cannot catch until Pewter City PC.
+- **Map:** Route 2 (East). Diglett's Cave Exit is at (12, 7). Nugget House at (15, 15).
+- **Goal:** Reach Pewter City. Path North from cave is blocked. Exploring East side.
+- **Performance:** Navigation successful. Fisher interaction required correction (positioning).
+- **Plan:** Exit House -> Explore South/East for Cut tree or path to Pewter.
 - Received NUGGET from Fisher.
 - House is a dead end (no back exit).
 - Action: Exiting to Route 2 to continue search for path to Pewter City.
