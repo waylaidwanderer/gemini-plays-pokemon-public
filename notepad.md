@@ -41,5 +41,6 @@
 - Discrepancy detected: ScreenText shows Pokegear active, but CurrentScreen shows Start Menu. Trusting CurrentScreen and inputs (B, Start).
 - Start Menu cursor is on POKEGEAR. Pressing A to open.
 - Menu loop detected: Start Menu -> A -> Pokegear (Intermediate) -> Start Menu (Current).
-- Hypothesis: Cursor in Pokegear defaults to 'BACK'. Pressing A opens Pokegear, but next A closes it if cursor isn't moved.
-- Plan: Open Pokegear (A), then immediately move Right to select Radio.
+- Resolved: Previous input failure (mixed buttons) caused cursor to not move.
+- Current State: Pokegear Open, Cursor on BACK.
+- Plan: Use slow_press to navigate Right x3 to Radio, then A to select.
