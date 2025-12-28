@@ -13,8 +13,9 @@
 
 # Suicune Quest Strategy (Crystal)
 - Quest Start Turn: 27180
-- Route 42 Sighting Attempt Start: Turn 27570
-- Current Status: Pacing Route 42 clearing (26, 15), trigger failed to activate.
+- Route 42 Sighting Attempt: Turn 27570 (Failed to trigger at 26, 15)
+- Route 36 Sighting Attempt: Turn 27612 (Failed to trigger at 35, 9)
+- Current Status: Heading to Tin Tower Gatehouse to verify if sightings were already recorded or if Wise Trio is accessible.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger. (Status: Verified, Eusine missing from shore).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
