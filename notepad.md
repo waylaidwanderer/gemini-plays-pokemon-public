@@ -20,7 +20,7 @@
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1 (Stationary)
 - Boulder 2: (5, 6) - ID 2 (Stationary)
-- Boulder 4: (18, 8) - ID 4 (In Transit)
+- Boulder 4: (18, 9) - ID 4 (In Transit)
 - Pit 1: (11, 2) (Target: Boulder 1)
 - Pit 2: (4, 7) (Target: Boulder 2)
 - Pit 4: (12, 13) (Target: Boulder 4)
