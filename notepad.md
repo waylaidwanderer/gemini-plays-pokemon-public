@@ -1,21 +1,13 @@
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- PIT: Warp tile. Falling through takes you to the floor below.
-- LADDER: Warp tile. Used to travel between floors.
-- BOULDER: Object. Impassable. Can be pushed with Strength.
-- ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER.
-- ROCK: Destructible with ROCK SMASH.
-- FLOOR_UP_WALL: Impassable ledge face. Blocks N->S movement.
-- LEDGE_HOP_RIGHT: One-way jump West to East.
-- LEDGE_HOP_LEFT: One-way jump East to West.
-- LEDGE_HOP_DOWN: One-way jump North to South.
-- CAVE: Warp tile (Cave entrance).
-- WATER: Requires Surf to traverse.
-- DOOR: Warp tile.
-- WARP: Static transition between maps/locations.
-- Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
-- Spatial Constraint: Boulders cannot be pushed down from Row 1 because Row 0 is all WALL. Boulder 7 (6, 1) is a decoy.
+- FLOOR: Traversable. (Verified: Turn 29224)
+- WALL: Impassable. (Verified: Turn 29307)
+- PIT: Warp tile. Falling through takes you to the floor below. (Verified: Turn 29374)
+- LADDER: Warp tile. Used to travel between floors. (Verified: Turn 29242)
+- BOULDER: Object. Impassable. Can be pushed with Strength. (Verified: Turn 29284)
+- ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER. (Verified: Turn 28256)
+- ROCK: Destructible with ROCK SMASH. (Verified: Turn 29041)
+- WATER: Requires Surf to traverse. (Verified: Turn 26645)
+- WARP: Static transition between maps/locations. (Verified: Turn 29125)
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29).
