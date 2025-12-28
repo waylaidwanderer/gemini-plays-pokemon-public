@@ -25,3 +25,6 @@
 - **Turn 23808:** Defeated Misty (Cerulean Gym). Earned Cascade Badge. No TM received.
 - **Turn 23789:** Defeated Trainers Parker and Diana.
 - **Turn 23600:** Fixed Power Plant (Machine Part).
+## Tool Notes
+- `bfs_pathfinder`: Ignores Trainer LOS. Handles LEDGEs correctly.
+- `smart_battle_move`: Remembers last cursor position in battle.
