@@ -1,11 +1,10 @@
 ## Battle Strategy (Blackthorn Gym)
-- Gym Leader Clair: Dragon-types.
-- Team: Dragonair (Lv 37) x3, Kingdra (Lv 40).
-- Strategy:
-  - Calcifer (Typhlosion): Lead. Use neutral damage (Headbutt/Thunderpunch).
-  - GNEISS (Graveler): Earthquake/Rollout for non-Water/Ice opponents.
-  - XENON (Gastly): Hypnosis to disable dragons.
-  - KIMCHI (Gloom): Sleep Powder support.
+- Gym Leader Clair: Dragon-types (Dragonair Lv 37 x3, Kingdra Lv 40).
+- Recommended Lead: Calcifer (Typhlosion).
+- Against Kingdra: Use Thunderpunch (Typhlosion).
+- Against Dragonairs: Use Headbutt or Flame Wheel (Typhlosion), or Earthquake (Graveler).
+- Support: Use XENON (Gastly) Hypnosis or KIMCHI (Gloom) Sleep Powder to disable dragons.
+- Note: Severe level gap for support Pokemon; use them as fodder for healing primary attackers if needed.
 
 ## Training & Prep
 - Goal: Level XENON and KIMCHI to Lv 38-40.
