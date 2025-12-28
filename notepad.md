@@ -27,6 +27,6 @@
 - **Correction:** The "Cape" tip at (50-55, 4) is walled off from the land. The only access is via the water channel at x=56.
 - **Correction:** Access to the x=56 water channel is blocked on Route 25 by walls. Must access from Route 24 (Nugget Bridge) East side.
 - **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
-- **Route 24/25 Connection:** Crossed gap at (14, 13). Now on East side. Heading South to Route 24 water access.
-- **Path:** (15,13) -> Down to Route 24 (15,0) -> Water.
-- **Hypothesis:** Tile type `FLOOR_UP_WALL` at (15,14) is likely a one-way ledge allowing movement South.
+- **Route 24/25 Connection:** `FLOOR_UP_WALL` at Row 14 (x=15..39) blocks South movement. The South-East corridor is a dead end.
+- **New Plan:** Backtrack to Route 25 West Side. Access water at x=4. Surf South into Route 24, loop around bridge to East side, then North to Cape.
+- **Path:** (15,13) -> (11,13) -> North to Maze -> West to x=4 -> South to Water -> Surf.
