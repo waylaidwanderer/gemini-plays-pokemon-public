@@ -13,11 +13,17 @@
 # Ice Path Exploration
 - Goal: Reach Blackthorn City.
 
-## Strategy (Item Hunt & Exit)
-1. Walk to (35, 9) to collect item. (Current Position: 32, 15)
-2. Navigate to (36, 25) to exit to Blackthorn City.
+## Strategy (Exit to Blackthorn)
+1. Walk Down to (35, 16).
+2. Walk Right to (37, 16).
+3. Jump Down over ledge at (37, 17) to land on (37, 18) (ICE).
+4. Slide Down to stop at (37, 21) (Hits WALL at 37,22).
+5. Slide Left to stop at (34, 21) (Hits WALL at 33,21).
+6. Walk Down to (34, 22) (FLOOR).
+7. Navigate to exit mat at (36, 25) or (36, 27).
 
 ## History (Archive)
 - B1F/B2F Puzzles: Solved.
 - TM44 Rest collected at (8, 16) on B2F (Turn 29075).
 - PP UP collected at (32, 23) on 1F (Turn 29116).
+- PROTEIN collected at (35, 9) on 1F (Turn 29124).
