@@ -75,3 +75,7 @@
 - Now at (17, 22), South of the ledges.
 - Heading West to (11, 22) to find the main path (likely leads South to Viridian or North to Pewter).
 - Hypothesis: This connects to the main Route 2 path.
+- Blocked West at (14, 22). Wall separates East/West sides.
+- Navigating South through gap at (17, 23).
+- Found building entrance at Row 26. Investigating if this connects to West side or Viridian.
+- Backup Plan: Backtrack to Diglett's Cave and check North of (12, 7) (previously skipped).
