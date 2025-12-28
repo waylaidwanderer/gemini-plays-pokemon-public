@@ -136,3 +136,8 @@
 - Box 1 Full. Cannot catch.
 - Pewter City is NOT unlocked for Fly yet. Must walk.
 - Path North blocked by mountains. Heading South to find path.
+- Diglett's Cave Exit is at (12, 7).
+- North path blocked by walls/cave entrance.
+- South path blocked by walls at Row 12 (West side).
+- Hypothesis: Path to Pewter City loops South-East then West/North.
+- Action: Exploring East side (x > 14).
