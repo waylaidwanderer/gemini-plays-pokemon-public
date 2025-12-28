@@ -42,6 +42,11 @@
   - **Conclusion:** Cafe is a dead end.
 - **Gym Location:** Celadon Gym (21_21). Entered.
 - **Goal:** Defeat Erika.
-- **Status:** At entrance. Moving north to find trainers/Leader.
 - **Loot:** Retrieved Leftovers from Cafe.
 - **Quest Start:** Turn 24041.
+
+# Tile Mechanics
+- **COUNTER:** Acts as a wall. Interact from adjacent tile.
+- **LEDGE:** One-way traversal (jump down/over).
+- **WARP:** Step on to transition maps.
+- **CUT TREE:** Obstacle until Cut is used.
