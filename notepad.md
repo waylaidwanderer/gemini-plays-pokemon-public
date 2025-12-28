@@ -1,22 +1,22 @@
 # Tile Mechanics - Global
-- FLOOR: Walkable.
-- WALL: Impassable.
-- WATER: Surf required.
-- WARP_CARPET: Map transition.
-- HEADBUTT_TREE: Can be headbutted.
-- CUT_TREE: Can be cut.
+- FLOOR: Standard walkable tile.
+- WALL: Impassable boundary.
+- WATER: Traversable only with Surf.
+- WARP_CARPET: Triggers map transition when walked off the map edge.
+- HEADBUTT_TREE: Can be interacted with using Headbutt.
+- CUT_TREE: Blocking object; requires HM01 Cut and interaction from adjacent tile to remove.
+- CAVE: Map transition entry point.
+- TALL_GRASS: Walkable; triggers wild battles.
 
 # Suicune Quest Strategy (Crystal)
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
 - Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
 - Key Items: Clear Bell (Acquired)
-
-## Suicune Tracking Log
-- [ ] Cianwood Battle: Verify Eusine is defeated at north shore.
-- [ ] Route 42 Encounter: Target (26, 15) - Clearing with 3 Apricorn trees.
-- [ ] Route 36 Encounter: Target location TBD.
-- [ ] Tin Tower Battle: Triggered after wild sightings.
+- Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger.
+- Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
+- Route 36 Trigger: Location TBD.
+- Final Encounter: Tin Tower (static battle) after all wild sightings.
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
