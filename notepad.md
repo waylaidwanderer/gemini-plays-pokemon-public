@@ -1,10 +1,10 @@
 # Current Status
-- **Location:** Celadon City (Pokemon Center).
+- **Location:** Celadon City.
 - **Goal:** Defeat Erika (Rainbow Badge).
 - **Plan:**
-  1. Heal at Pokemon Center.
-  2. Talk to remaining NPCs (Super Nerd, Cooltrainer F).
-  3. Investigate Game Corner (verify Pharmacist's claim).
+  1. (Done) Heal and gather intel at Pokemon Center.
+  2. Explore West Celadon.
+  3. Locate Game Corner (investigate Pharmacist's claim).
   4. Locate Gym and defeat Erika.
 
 # Celadon City Notes
