@@ -36,4 +36,4 @@
 # Capture Strategy: Zubat
 - Target: Zubat (Lv 22, Female)
 - Strategy: KIMCHI (Gloom) -> Sleep Powder -> Great Ball.
-- Status: Zubat is asleep. Using Great Ball. (Turn 28096)
+- Status: Zubat is asleep. Using Great Ball. (Turn 28100)
