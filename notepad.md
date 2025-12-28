@@ -47,4 +47,4 @@
 - Turn 28021: Entered Ice Path 1F.
 
 # Capture Strategy: Delibird
-- Status: Caught! Entered 'Parcel', confirming. (Turn 28046)
+- Status: Caught! Entered 'Parce', typing 'l'. (Turn 28048)
