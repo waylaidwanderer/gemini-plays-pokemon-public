@@ -1,19 +1,19 @@
 # Current Status
-- **Status:** End of Nugget Bridge (Route 24).
-- **Location:** (9, 0).
-- **Goal:** Exit North to Route 25.
-- **Action:** Press Up.
-- **Note:** Seemingly crossed Nugget Bridge without battling trainers? (Intermediate states show move from (9, 16) to (9, 0)).
+- **Status:** On Route 25.
+- **Location:** (9, 17).
+- **Goal:** Reach the Cape (East End) to find Misty.
+- **Action:** Navigate East through the maze.
 
 # Future Strategy
-1. Reach Route 25 (The Cape).
-2. Find Misty.
+1. Reach Bill's House (Cape).
+2. Talk to Misty (if present).
 3. Return to Cerulean Gym to earn Cascade Badge.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
 - **LEDGE_HOP_DOWN:** One-way movement DOWN.
 - **PIT:** Warps to floor below.
+- **LADDER (Route 25):** Likely traversable steps or decorative, not actual warps.
 
 # Key Locations
 - **Cape (Route 25):** Target. East side.
