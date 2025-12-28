@@ -74,3 +74,4 @@
     - **Hope:** Gatehouse connects to Route 22 (Viridian) to Fly.
     - **Fear:** Gatehouse connects to Victory Road (Must traverse again).
 - **Next Action:** Walk South -> Enter Gatehouse.
+- Found TM26 (Earthquake) at (3, 28) on 2F West.
