@@ -37,8 +37,8 @@
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is reachable on foot by navigating around walls and rocks. The path involves going to X=8 or X=13 to bypass the Y=13 wall.
-- Tool Hygiene: Fixed find_path_v9 to handle Objects and Ledges.
+- Navigation (Cianwood): The northern shore is reachable on foot by navigating around walls and rocks. The path involves going to X=6 to bypass the Y=13 wall and the rocks at X=8 and X=9.
+- Tool Hygiene: Fixed find_path_v9 to handle Objects, Ledges, and XML root issues. Outdated tools v6 and v7 deleted.
 
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
