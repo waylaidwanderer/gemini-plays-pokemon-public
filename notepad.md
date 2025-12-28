@@ -14,6 +14,7 @@
 - WATER: Requires Surf to traverse.
 - DOOR: Warp tile.
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
+- Spatial Constraint: Boulders cannot be pushed down from Row 1 because Row 0 is all WALL. Boulder 7 (6, 1) is a decoy.
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29).
@@ -25,32 +26,36 @@
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
 
 # Blackthorn Gym Exploration
-- Strategy:
-  1. Defeat Gym Trainers for EXP [Done]
-  2. Solve Gym Puzzle (2F/1F) [In Progress]
-  3. Defeat Gym Leader Clair.
 - Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
-# Strategy: Gym Leader Clair
+# Strategy: Gym Leader Clair (Battle Analyst Turn 29347)
 - Opponent: Clair (Dragon User).
-- Team (Crystal): 
+- Team:
   - Dragonair (Lv37): Dragonbreath, Surf, Thunder Wave, Slam.
   - Dragonair (Lv37): Dragonbreath, Ice Beam, Thunder Wave, Slam.
   - Dragonair (Lv37): Dragonbreath, Thunderbolt, Thunder Wave, Slam.
   - Kingdra (Lv40): Dragonbreath, Surf, Smokescreen, Hyper Beam.
-- Battle Strategy: Lead with Calcifer. Use Thunderpunch (Special in Gen II). Use fodder for healing.
+- Battle Strategy: Lead with Calcifer (Lv46). Use Thunderpunch as primary attack (Special in Gen II). Use other Pokemon as fodder to heal Calcifer if paralyzed.
+
+# Blackthorn Gym Layout Theory
+- 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
+- 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West sides.
+- Pit Destinations:
+  - 2F Pit (2, 5) -> 1F (2, 6) [Entry 5]
+  - 2F Pit (8, 7) -> 1F (7, 7) [Entry 6]
+  - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
+
+# Blackthorn Gym Puzzle Strategy
+- Status: Pits (8, 3) and (2, 5) are filled. Pit (8, 7) is EMPTY.
+- Goal: Fill Pit (8, 7) using Boulder 5 (6, 16).
+- Plan:
+  1. Move Boulder 8 (8, 17) to clear Column 8 [Done].
+  2. Navigate to (6, 17).
+  3. Push Boulder 5 (6, 16) north to (6, 7).
+  4. Move to (5, 7), push Boulder 5 right into Pit (8, 7).
+- Verification: Boulders 3 and 4 were pushed in turns 29284 and 29318. They remain in pits after reset.
 
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
-- **Boulder Tracking:** Link markers to object_id. Boulders 3 and 4 stay in pits after floor reset on 2F.
-- **Pit Destinations:** Pit (2, 5) -> 1F Entry 5. Pit (8, 7) -> 1F Entry 6. Pit (8, 3) -> 1F Entry 7.
-
-# Blackthorn Gym Puzzle Progress
-- Status: Pits (8, 3) and (2, 5) are filled. Pit (8, 7) is EMPTY.
-- The Loop Plan (Turn 29368):
-  1. Push Boulder 8 (8, 15) DOWN to (8, 17) to clear Column 8.
-  2. Walk (8, 13) -> (8, 17) -> (7, 17) -> (6, 17).
-  3. From (6, 17), push Boulder 5 (6, 16) all the way UP to (6, 7).
-  4. Navigate to (5, 7), push Boulder 5 RIGHT to (8, 7) (PIT).
-- Current Status: Strength active. Boulder 8 at (8, 16). Pushing to (8, 17). [Time: Turn 29369]
+- **Boulder Persistence:** Pushed boulders stay in pits even if the 2F floor is reset by changing floors.
