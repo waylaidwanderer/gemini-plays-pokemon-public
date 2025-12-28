@@ -36,5 +36,6 @@
   - **Investigation:** No Hideout found.
   - **Interactions:** Fisher (Coins), Guru (Coins). Teacher at (21, 24) mentions slots.
 - **Gym Location:** Unknown. Searching South.
-  - **Hypothesis:** Gym is in the Southwest, possibly requiring Cut.
-  - **Path:** Exploring gap in the wall at (18, 26).
+  - **Hypothesis:** Gym is in the Southwest, possibly behind a Cut tree.
+  - **Path:** Navigating through gap at (18, 26).
+  - **Observations:** Teacher mentions slots (irrelevant). Gap south of Teacher looks promising.
