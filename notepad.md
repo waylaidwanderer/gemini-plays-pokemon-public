@@ -40,4 +40,4 @@
 - Tool Hygiene: Refined find_path_v9 to handle Objects, Ledges, Warps, and 'seen' tiles. Outdated tools deleted.
 
 ## Task Log
-- Verifying Eusine status in Cianwood City: Started Turn 27474. (Turn 27558: Exiting PokeSeer's House).
+- Verifying Eusine status in Cianwood City: Started Turn 27474. (Turn 27559: Back on land at (5, 18) heading for north shore).
