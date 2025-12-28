@@ -2,9 +2,9 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Status:** Resuming navigation to (11, 4) after battle.
-- **Hypothesis:** Entrance to 'High Ground' (Row 2) is near the Route 24/25 junction.
-- **Next:** Reach (11, 4), then check x=0-9 for access to Row 2.
+- **Status:** Navigating to Ledge Gap at (5, 7) to access North-West area.
+- **Path:** South to Row 8, West to Col 5, North to (5, 7).
+- **Hypothesis:** This gap leads to the 'High Ground' where Misty might be.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
