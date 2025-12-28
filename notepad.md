@@ -10,20 +10,17 @@
 - CAVE: Map transition entry point. Verified functional.
 - TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
-- FLOOR_UP_WALL: Collision type for walls that look like floor? Needs verification. (Present on Route 42).
 
 # Suicune Quest Strategy (Crystal)
 - Quest Phase Start: Turn 27180
-- Current Status: Eusine's defeat in Cianwood verified at Turn 27735. Flying to Mahogany Town to thoroughly explore Route 42 middle island for Suicune sighting.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
 - Route 36 Trigger: (35, 9) - Near the junction where Sudowoodo was.
-- Final Encounter: Tin Tower (static battle) after all wild sightings and Wise Trio battle.
+- Final Encounter: Tin Tower (Lv40) after all wild sightings and Wise Trio battle.
 
 ## Time Tracking
 - Suicune Quest Sequence: Started Turn 27180.
-- Route 42 Attempt 1: Turn 27718 (Reached 26, 15 - No trigger).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
@@ -43,7 +40,3 @@
 - Wise Trio: Battle sequence is the final gate to Suicune in the Tin Tower.
 - Lesson: Suicune sightings are strictly sequential (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower). If sages don't battle at Tin Tower, verify previous sightings using the tracker. Trigger points must be stepped on directly.
 - Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
-- Attempt: Route 42 (26, 15) reached at Turn 27718, but no sighting triggered.
-- Hypothesis: Missing Eusine battle flag in Cianwood or sighting sequence is out of order.
-- Plan: Fly to Cianwood to verify Eusine's presence.
-- Strategy: Returning to Route 42 for Suicune sighting trigger at (26, 15).
