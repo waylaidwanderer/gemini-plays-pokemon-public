@@ -63,3 +63,6 @@
 - **Remaining Badges:** Rainbow (Celadon), Soul (Fuchsia), Volcano (Seafoam), Earth (Viridian).
 - **Next Destination:** Check Fly points. Likely Saffron -> Celadon or Fuchsia.
 - **Current Action:** Checking Misty one last time for TM. Then Exiting.
+- **Misty Update:** Confirmed NO TM received. She just talks about traveling.
+- **Next:** Exit Gym, Fly to Saffron City (Central Hub).
+- **Reasoning:** Saffron connects to Celadon (Rainbow), Lavender, Vermilion, and Cerulean. Good base of operations.
