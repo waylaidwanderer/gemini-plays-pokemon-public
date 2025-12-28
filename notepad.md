@@ -36,7 +36,9 @@
   - **Gates:** West (to R7), North (to R5), East (to R8), South (to R6).
 - **Route 7:** Locked Door (Underground Path), gap in ledges at x=12. Northern path leads to Celadon.
 - **Game Corner:** Located at (18, 19). Entrance at (18, 19).
-  - **Investigation:** Posters checked (nothing). "Lighter" slot found (no effect). Pharmacist said "3 years ago" (Hideout likely gone).
-  - **Layout:** `COUNTER` tiles block movement. Left area accessible via gap at Row 4.
+  - **Investigation:** Posters checked (nothing). "Lighter" slot found (no effect).
+  - **Layout:** `COUNTER` tiles block movement.
+  - **Navigation:** Row 4 (y=4) is a clear path connecting all aisles (Cols 1-19).
+  - **Aisles:** Aisle 1 (Cols 2-5), Aisle 2 (Cols 8-11), Aisle 3 (Cols 14-17).
   - **Conclusion:** Likely no Hideout here. Finishing exploration then leaving.
 - **Gym Location:** Unknown. Need to explore city (likely South). Expecting a Cut tree.
