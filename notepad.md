@@ -30,17 +30,14 @@
 - SIGNPOST / POKECENTER_SIGN / MART_SIGN: Background object. Verified interactable.
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 
-# Ice Path Exploration
-- Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
-- Observed: Sliding on ICE stops when hitting a WALL or entering a non-ICE tile (like FLOOR).
-- Observed: Gap in the wall at (16, 8) and (16, 9) allows access to the eastern section from the central ice lake.
-
 # Exploration Plan: Ice Path 1F
 - Goal: Reach the exit to Route 44/Blackthorn City.
 - Step 1: Reach the eastern section via Row 8 gap at (16, 8). (Completed Turn 28191)
-- Step 2: Explore the north-east area and collect item at (31, 7).
-- Step 3: Investigate the item at (32, 23).
-- Step 4: Find the ladder to B1F.
+- Step 2: Explore the NE floor "island" and ladder at (37, 5). (In progress, Start: 28196)
+- Step 3: Reach item at (31, 7) via Row 8/9 ice.
+  - HOW: Need to find a slide sequence to land on (30, 7) or adjacent FLOOR.
+- Step 4: Investigate the item at (32, 23).
+- Step 5: Find the ladder to B1F.
 - Start Turn: 28132.
 
 ## Party
