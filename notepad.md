@@ -53,4 +53,4 @@
 # Capture Strategy: Delibird
 - Target: Delibird (Lv 21, Male)
 - Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
-- Current Status: KIMCHI is active. (Turn 28027)
+- Current Status: Throwing Great Ball. (Turn 28033)
