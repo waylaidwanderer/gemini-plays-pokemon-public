@@ -1,10 +1,13 @@
 # Current Status
-- **Status:** Traversing Victory Road 2F (East Side - Post Jump).
-- **Location:** Approaching (17, 19).
-- **Goal:** Reach Ladder at (17, 19).
-- **Route:** Jump Ledge -> Walk East to (16, 20) -> North to (16, 19) -> East to (17, 19).
-- **Next:** Interact with Ladder to Warp to (17, 33).
-- **Quest Start:** Turn 23264 (Find Misty).
+- **Status:** At Victory Road 3F East (Dead End Loop).
+- **Discovery:** Ladder (17, 33) leads to an isolated section with an item (18, 29) and a return ladder (13, 31).
+- **Correction:** The "Correct Route" involving a ledge jump at (16, 35) is blocked by a wall at (11, 36). I cannot cross East-to-West on this floor.
+- **New Strategy:**
+    1. Grab Item at (18, 29).
+    2. Take Ladder (13, 31) back to 2F.
+    3. On 2F, traverse to the **West Corridor** (x=3) again.
+    4. Search for a hidden/missed ladder in the West Corridor (likely at x=1 or x=2) to access the West side of 3F.
+- **Next:** Get Item -> Go to Ladder (13, 31).
 
 # Lessons Learned
 - **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
