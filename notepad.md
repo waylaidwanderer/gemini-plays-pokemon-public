@@ -29,3 +29,6 @@
 - **Tool Check:** `bfs_pathfinder` handles walking. Surfing must be manual or new tool.
 - **Battle Log:** Defeated Swimmer Parker (Horsea x2, Seadra).
 - **Next:** Advance to (5, 7) and Surf North. Expecting battle with Swimmer Girl at (4, 6).
+- **Misty Found:** Visually confirmed at (5, 3) in Cerulean Gym.
+- **Gym Strategy:** Surf North to engage Misty. Beware of Swimmer Girl at (4, 6).
+- **Task Timestamp:** Gym Battle Start - Turn 23782.
