@@ -7,17 +7,15 @@
 - CUT_TREE: Can be cut.
 
 # Suicune Quest Strategy (Crystal)
-- Quest Phase Start: Turn 27180
+- Phase Start: Turn 27180
 - Key Items: Clear Bell (Acquired)
 
 ## Sighting Sequence & Logic
 1. Burned Tower: Confirmed.
 2. Cianwood City: Confirmed at (10, 14).
 3. Route 42: Trigger at (26, 15) clearing near Apricorn trees.
-   - Status: Failed to trigger in Turn 27329.
-   - Troubleshooting Step 1: Talk to Wise Trio in Ecruteak.
-   - Troubleshooting Step 2: Talk to Eusine (Burned Tower/PC).
-   - Troubleshooting Step 3: Re-verify trigger tile (26, 15).
+   - Status: Failed to trigger (Turn 27329).
+   - Troubleshooting: Talked to Gatehouse Sages (Turn 27380), checked Ecruteak PC (Turn 27389: Eusine absent).
 4. Route 36: Trigger at (35, 9) near Sudowoodo spot.
 5. Tin Tower: Battle Wise Trio, then encounter Suicune.
 
