@@ -24,13 +24,12 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Rival Silver Roster (Mt. Moon)
-- Sneasel (Lv 41)
-- Golbat (Lv 42)
-- Alakazam (Lv 43)
-- Gengar (Lv 43)
-- Feraligatr (Lv 45)
-- Magneton (Lv 41)
+# Current Status
+- **Location:** Route 4, heading East to Cerulean.
+- **Goal:** Reach Cerulean City.
+
+# Rival Silver Roster (Last Known)
+- Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
 - **Sign (17, 7):** "MT.MOON SQUARE DON'T LITTER"
 - **Mt. Moon Square Shop:** Visited at night. Empty.
 - **Phone Call:** Gaven (Cooltrainer) wants to battle on Route 26.
