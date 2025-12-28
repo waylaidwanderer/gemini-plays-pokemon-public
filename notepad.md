@@ -1,11 +1,9 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Interaction initiated. Text: "SNORLAX is snoring peacefully..."
-   - *Action:* Press A to advance. If radio is working, battle starts.
-   - *Battle Strategy:*
-     - **Lead:** Muscle (Machoke Lv75).
-     - **Chip:** Thunderpunch/Ice Punch.
-     - **Catch:** Ultra Ball.
+   - *Status:* Interaction failed (Snorlax still snoring).
+   - *Diagnosis:* **I tuned DOWN in turn 22619 to scan, but never tuned back UP to 20.** The radio is currently on the wrong station.
+   - *Correction:* Close text -> Open Gear -> Tune UP to Max (20) -> Exit -> Interact.
+   - *Battle Strategy:* Lead with Muscle. Chip with elemental punches. Catch with Ultra Ball.
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
