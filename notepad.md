@@ -29,7 +29,8 @@
 - **Puzzle Logic:** B2F requires these stoppers to create a path to the ladder at (9, 11). Without them, the player slides past critical junctions.
 
 # Game Mechanics
-- FLOOR (Brown): Walkable. Non-sliding except for B1F Rows 1-2.
+- FLOOR (Brown): Walkable. Standard floor behavior in most areas.
+- SLIDING FLOOR: Specific tiles in B1F Rows 1-2 labeled "FLOOR" function as ICE and cause sliding. Verified.
 - ICE: Sliding mechanic. Verified.
 - PIT: Warp to B2F. Filling a pit creates a permanent stopper on B2F. Verified.
 - BOULDER: Resets on ladder use. Permanent if in pit. Verified.
