@@ -44,3 +44,6 @@
 - **Route 7:**
   - Locked Door at (6, 9) (likely Underground Path, inaccessible).
   - Gap in ledges at x=12 allows access to south side.
+- **Route 7 Navigation:**
+  - Southern path (row 2+) is blocked by walls on the west side.
+  - Northern path (rows 0-1) appears open to the west. Taking this route to Celadon.
