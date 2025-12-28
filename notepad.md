@@ -1,9 +1,9 @@
 # Current Status
-- **Status:** Traversing Victory Road 2F (East Side).
+- **Status:** Traversing Victory Road 2F (West Side Loop).
 - **Goal:** Reach Ladder at (17, 19).
-- **Pathing:** Direct path blocked by walls. Must loop North-West -> South -> East.
-- **Route:** (13, 17) -> (16, 14) -> (9, 14) -> (9, 18) -> (8, 20) [Ledge Hop] -> (17, 19).
-- **Next:** Navigate to (9, 14) to clear path around walls.
+- **Pathing:** Loop through West corridor to bypass central walls.
+- **Route:** (5, 18) -> (3, 16) -> (3, 20) -> (9, 20) [Ledge Hop Right] -> (17, 19).
+- **Next:** Execute path to Ladder.
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
