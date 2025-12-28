@@ -35,6 +35,8 @@
 - **Finding Misty:** Started ~Turn 23600. Current Turn: 23713.
 - **Verified Path Segment:** (15, 9) is connected to (23, 9) by a straight line. (23, 9) connects to (23, 11). (23, 11) connects to (26, 11).
 - **Tool Note:** `find_path` appears to treat Trainer Line-of-Sight as impassable, even if the trainer is marked as defeated. Must use manual movement to cross these lines.
-- **Status:** Checking potential Cut tree at (4, 19).
-- **Next:** If failed, head West to Route 4 to find water access.
-- **Goal:** Reach the water on the West side of Cerulean/Route 24.
+- **Status:** Exploring Route 4 (West of Cerulean) for water access.
+- **Fact:** Wall at (4, 19) in Cerulean is NOT cuttable.
+- **Fact:** NW Cerulean Pocket (accessed via 19, 10) is a dead end with no water access.
+- **Hypothesis:** Access to the river (to reach Route 25 High Ground) is via Route 4 or a hidden path on Route 24.
+- **Next:** Enter Route 4. If no water/path found, return to Route 24 and check entrance area carefully.
