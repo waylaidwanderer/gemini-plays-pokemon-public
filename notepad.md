@@ -50,3 +50,19 @@
 ## PC Box Status
 - ZUBAT (Sonar): Lv 22.
 - DELIBIRD (Parcel): Lv 21.
+
+# Boulder Pushing Sequence (B1F)
+## Boulder 2 (7, 8) to Pit 2 (4, 7)
+1. Push Boulder 3 (8, 9) Right to (9, 9) to clear path.
+2. Move to (8, 8).
+3. Push Boulder 2 (7, 8) Left to (6, 8).
+4. Move to (7, 8).
+5. Push Boulder 2 (6, 8) Left to (5, 8).
+6. Move to (5, 9).
+7. Push Boulder 2 (5, 8) Up to (5, 7).
+8. Move to (5, 8).
+9. Push Boulder 2 (5, 7) Up to (5, 6).
+10. Move to (6, 6).
+11. Push Boulder 2 (5, 6) Left to (4, 6).
+12. Move to (4, 5).
+13. Push Boulder 2 (4, 6) Down to (4, 7). [Target: Pit 2]
