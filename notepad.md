@@ -18,31 +18,19 @@
 - Pit 3 (5, 12): COMPLETED with Boulder 3.
 - Pit 4 (12, 13): COMPLETED with Boulder 4.
 
-## Boulder 4 Sequence (ID 4) - COMPLETED
-1. Push Down to (18, 12). [DONE - T28328]
-2. Navigate to (19, 12). [DONE - T28338]
-3. Push Left to (15, 12). [DONE - T28341]
-4. Push Down to (15, 13). [DONE - T28343]
-5. Push Left to (14, 13). [DONE - T28345]
-6. Push Left to (13, 13). [DONE - T28352]
-7. Push Left to (12, 13). [DONE - T28353]
-
 ## Boulder 1 Sequence (ID 1)
-1. Move to (11, 8). [DONE - T28358]
-2. Push Up to (11, 6). [DONE - T28360]
-3. Move to (11, 7). [NEXT]
-4. Push Up to (11, 5).
-5. Move to (12, 5).
-6. Push Left to (10, 5).
-7. Move to (10, 6).
-8. Push Up to (10, 1).
-9. Move to (9, 1).
-10. Push Right to (11, 1).
-11. Move to (11, 0).
-12. Push Down to (11, 2). [PIT]
+1. Push Up to (11, 5). [DONE - T28361]
+2. Move to (12, 5) via (11, 6), (10, 6), (10, 3), (12, 3). [NEXT]
+3. Push Left to (10, 5).
+4. Move to (10, 6).
+5. Push Up to (10, 1).
+6. Move to (9, 1).
+7. Push Right to (11, 1).
+8. Move to (11, 0).
+9. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
-1. Move to (6, 6).
+1. Move to (6, 6) via loop around top.
 2. Push Left to (4, 6).
 3. Move to (4, 5).
 4. Push Down to (4, 7). [PIT]
