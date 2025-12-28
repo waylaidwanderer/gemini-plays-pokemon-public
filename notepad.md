@@ -37,8 +37,8 @@
 ## Boulder 3 (4, 12) to Pit 3 (5, 12)
 1. Move to (4, 10) via (7, 11), (10, 11), (10, 13), (4, 13), (3, 10). [DONE]
 2. Push Down to (4, 12). [DONE]
-3. Move to (3, 12). [NEXT]
-4. Push Right to (5, 12) [Target: Pit 3].
+3. Move to (3, 12). [DONE]
+4. Push Right to (5, 12) [Target: Pit 3]. [NEXT]
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (6, 6) via loop around top.
