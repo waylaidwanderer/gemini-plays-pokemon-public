@@ -36,7 +36,8 @@
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
 - Pit 3: (5, 12)
-- Note: Likely 4 total boulder/pit pairs. Need to find the 4th pair.
+- Pit 4: (12, 13)
+- Note: Found all 4 boulder/pit pairs. Ready to push!
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
