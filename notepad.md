@@ -25,3 +25,5 @@
 2. Travel to Route 36 (South of Ecruteak) and check for Suicune.
 3. Once sightings are confirmed, return to Tin Tower 1F (3_4) to battle the Wise Trio.
 4. Catch Suicune in the center of Tin Tower 1F.
+- **Task Start:** Verify Route 42/36 sightings. Started Turn 27247, 4:23 PM.
+- **Lesson Learned:** Sages providing lore does NOT mean they are defeated. Always trust the `suicune_tracker_v2` agent's 'missing_flags' output over personal assumptions.
