@@ -9,6 +9,10 @@
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
+# Menu Navigation Correction
+- Cursor was remembered on Mistral, caused overshoot to Garnet.
+- Correcting: Cancel Garnet menu -> Move down to Mistral -> Select -> Fly.
+
 # Reflection (Turn 22538)
 - **Status:** All tasks current. No deferred actions.
 - **Hygiene:** Notepad/Map clean.
