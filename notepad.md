@@ -41,3 +41,10 @@
 - "Boulder 3 on B2F is moveable" (Failed Turn 28742) - "Immovably imbedded in ice."
 - "B3 is unreachable from entry (4, 17)" (Failed Turn 28650) - Reached via (3, 17) FLOOR.
 - **Navigation Safety:** Warps (Ladders/Stairs) trigger immediately upon stepping. Avoid including them in path plans unless the intention is to change floors.
+
+# Map Sections (B1F)
+- Section 1 (Left): (0, 1) to (7, 16). Contains Ladder to 1F (3, 15) and Pit 2 (4, 7).
+- Section 2 (Middle): (9, 1) to (13, 15). Contains Pit 1 (11, 2) and Boulder 1 (11, 7).
+- Section 3 (Right): (14, 1) to (19, 16). Contains Ladder to B2F (17, 3) and Pit 4 (12, 13).
+- Connectivity: Row 1 (ICE) connects Sections 1 and 3, but sliding makes stopping in Section 2 difficult without a boulder stopper. Row 16 connects Section 3 (Bottom) to Section 2 (Bottom). Section 3 is split by a wall at Row 5.
+- Pathfinding: To reach Section 2, I must find a way to Row 16 or use a boulder in Row 1 as a stopper. Current access (17, 3) is in Section 3 (Top).
