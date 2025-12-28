@@ -1,6 +1,6 @@
 # Ice Path B1F Puzzle Status
 - Start Turn: 28759 | Start Time: Sunday, Dec 28, 5:32 AM
-- B1: (11, 7) | B2: (5, 8)
+- B1: (11, 7) | B2: (5, 7)
 - Pit 1 (11, 2): UNFILLED
 - Pit 2 (4, 7): UNFILLED
 - Pit 3 (5, 12): FILLED (Stopper at B2F 5, 12)
