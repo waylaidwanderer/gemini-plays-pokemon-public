@@ -12,11 +12,23 @@
 - Target: Catch Swinub or Jynx in Ice Path for Ice-type coverage.
 - Calcifer: Look for TM for Return to increase physical damage.
 
-# Tile Mechanics - Unique/Non-Obvious
-- LEDGE_HOP_DOWN / LEFT: One-way traversable.
-- FLOOR_UP_WALL: Impassable barrier (base of buildings/fences).
-- ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR.
-- Trainers: Defeated trainers may stay in place; detour around them.
+# Tile Mechanics - Global
+- FLOOR: Standard walkable tile. Verified traversable.
+- WALL: Impassable boundary. Verified impassable.
+- WATER: Traversable only with Surf (HM03). Verified traversable.
+- BUOY: Impassable boundary in water. Verified impassable.
+- WARP_CARPET: Triggers map transition. Verified functional.
+- HEADBUTT_TREE: Blocking; interact with Headbutt. Verified impassable.
+- CUT_TREE: Blocking; requires Cut (HM01). Verified impassable.
+- COUNTER: Impassable barrier; allows interaction with NPCs behind. Verified impassable.
+- CAVE: Map transition entry point. Verified functional.
+- TALL_GRASS / LONG_GRASS: Walkable; triggers wild battles. Verified traversable.
+- LEDGE_HOP_DOWN: One-way jump down. Verified impassable from below.
+- LEDGE_HOP_LEFT: One-way jump left. Verified impassable from right.
+- FLOOR_UP_WALL: Impassable barrier (base of buildings/fences). Verified impassable.
+- VOID: Impassable area outside map boundaries. Verified impassable.
+- SIGNPOST / POKECENTER_SIGN / MART_SIGN: Background object. Verified interactable.
+- ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 
 # Ice Path Exploration
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
@@ -24,16 +36,16 @@
 - Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
 - Observed: (15, 21) -> (19, 21) via Right. Blocked by WALL at (20, 21).
 - Observed: (19, 21) -> (19, 23) via Down. Blocked by FLOOR_UP_WALL at (19, 24).
-- Lesson: In menus, ALWAYS separate directional inputs from action inputs (A, B, Start, Select) into separate turns to avoid input truncation.
+- Lesson: In menus, ALWAYS separate directional inputs from action inputs into separate turns.
 
 # Exploration Plan: Ice Path 1F
 - Goal: Reveal unseen tiles and find the path to the exit.
 - Step 1: Explore north part of Row 14.
 - Step 2: Investigate the ice at X=32 and the item at (32, 23).
 - Step 3: Look for a ladder to B1F.
-- Status: Navigating to (21, 12) to explore western Row 12. (Turn 28089)
+- Status: In battle with wild Zubat. (Turn 28111)
 
 # Capture Strategy: Zubat
 - Target: Zubat (Lv 22, Female)
 - Strategy: KIMCHI (Gloom) -> Sleep Powder -> Great Ball.
-- Status: Zubat is asleep. Using Great Ball #4. (Turn 28105)
+- Status: Zubat is asleep. Attempting 5th Great Ball. (Turn 28111)
