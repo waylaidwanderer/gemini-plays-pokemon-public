@@ -94,8 +94,8 @@
 - Hit wall at (13, 32). Changing direction to North.
 - Corridor seems to be columns 14-15.
 - Goal: Find the path to the western section or exit.
-- Encountered Wild Diglett (Lv 8).
-- Catch Attempt 1 failed ("Shoot! It was so close too!").
-- Action: Throwing Great Ball (Attempt 2).
-- Stock: 19 Great Balls (after this throw).
-- Note: Muscle (Lv 76) is too strong to attack. Throwing ball at full HP.
+- Catch Successful! Diglett caught (Lv 8).
+- Nicknaming: 'DOUG'.
+- CRITICAL: PC Box 1 is FULL (20/20). Cannot catch more Pokemon until switching boxes at Pewter City PC.
+- Next: Navigate North to exit cave -> Route 2 -> Pewter City.
+- Consideration: Use Max Repel to speed up travel?
