@@ -37,11 +37,7 @@
 # Blackthorn Gym Exploration
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 - Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
-
-# Current Battle: Cooltrainer Paul
-- Opponent: Cooltrainer Paul
-- Team: Dratini (Lv34) x3.
-- Strategy: Use Calcifer's Headbutt for neutral damage and flinch chance. Calcifer is much higher level and should 1-2HKO.
+- Trainers Defeated: Paul (1, 15).
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
