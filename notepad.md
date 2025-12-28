@@ -2,9 +2,9 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Status:** Navigating to Ledge Gap at (5, 7) to access North-West area.
-- **Path:** South to Row 8, West to Col 5, North to (5, 7).
-- **Hypothesis:** This gap leads to the 'High Ground' where Misty might be.
+- **Status:** Moving to North-West corner (0, 4) to investigate potential path to 'High Ground' (Row 2).
+- **Hypothesis:** The entrance to the northern area is at x=0.
+- **Next:** Reach (0, 4), then attempt to move North into unseen area.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
