@@ -37,8 +37,8 @@
 - **Route 7:** Locked Door (Underground Path), gap in ledges at x=12. Northern path leads to Celadon.
 - **Game Corner:** Located at (18, 19). Entrance at (18, 19).
   - **Investigation:** Posters checked (nothing). "Lighter" slot found (no effect).
-  - **Interactions:** Fisher at (8, 10) gave 18 Coins.
+  - **Interactions:** Fisher at (8, 10) gave 18 Coins. Fishing Guru at (11, 7) gave Coins.
   - **Layout:** `COUNTER` tiles block movement.
   - **Navigation:** Row 4 (y=4) is a clear path connecting all aisles (Cols 1-19).
-  - **Conclusion:** Likely no Hideout here. Finishing exploration then leaving.
+  - **Conclusion:** No Hideout here. Leftover "Lighter" script suggests features removed from Gen 2.
 - **Gym Location:** Unknown. Need to explore city (likely South). Expecting a Cut tree.
