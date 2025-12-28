@@ -42,3 +42,5 @@
 - Turn 27838: Arrived at (26, 15). Walking around the island to trigger cutscene.
 - Systematic Patrol: (26, 15) -> (27, 14) -> (28, 15) -> (29, 15) -> (30, 15).
 - Observation: Suicune not currently in Map Objects. Expecting scripted spawn.
+- Turn 27843: Attempted sighting at Route 42 (26, 15). No cutscene triggered after walking over the coordinates. Moving to Route 36 to check for sighting there.
+- Path: Fly to Ecruteak City -> Walk south to Route 36 Sudowoodo spot.
