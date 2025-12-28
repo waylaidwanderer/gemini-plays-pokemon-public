@@ -40,14 +40,21 @@
   - 2F Pit (8, 7) -> 1F (7, 7) [Entry 6]
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
-# Blackthorn Gym Boulder Puzzle Strategy
-- Status: All Pits ((8, 3), (2, 5), (8, 7)) are filled. Puzzle COMPLETE.
-- Goal: Challenge Gym Leader Clair on 1F.
-- Plan:
-  1. Return to 1F via Ladder at (7, 9).
-  2. Cross the bridge formed by boulders.
-  3. Battle Clair.
-- Verification: Boulders 3 and 4 were pushed in turns 29284 and 29318. They remain in pits after reset.
+# Blackthorn Gym Progression
+- Start Turn: 29224
+- Puzzle: All boulders pushed into pits (Turns 29284, 29318, 29390). Bridge complete.
+- Remaining Trainers: Cooltrainer Lola (In Battle).
+- Goal: Defeat Clair.
+
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- PIT: Warp tile. Falling through takes you to the floor below.
+- LADDER: Warp tile. Used to travel between floors.
+- BOULDER: Object. Impassable. Can be pushed with Strength.
+- ICE: Sliding mechanic (Ice Path).
+- WATER: Requires Surf to traverse.
+- WARP: Static transition between maps/locations.
 
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
