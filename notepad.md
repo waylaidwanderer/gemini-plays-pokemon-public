@@ -32,6 +32,6 @@
 - **Plan B:** If East passage blocked, return to Maze (West side), go to (4, 17), Surf South to Route 24 West, then Surf East under bridge.
 - **Correction:** The water pool at (42-53, 8-11) is ISOLATED. The 'LADDER' tiles allow access to the East side of the pool, but there is no exit to the main channel (x=56).
 - **Plan:** Surf West back to (42, 12) -> Walk West to (11, 13) -> South to Route 24 -> Surf North from Route 24 East side.
-- **Route 25 South Trap:** The area south of the maze (Rows 13-17, x=11-39) and the grassy area on Route 24 East are a dead end. They only connect to the isolated pool at (42, 12).
-- **Correction:** The pool at (42, 12) is the only entry/exit to this trap.
-- **New Plan:** Go to (42, 12) -> Surf North to (42, 7) -> Walk West through Maze to (4, 15) -> Surf South to Route 24 West.
+- **Route 25 South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end reachable only via the isolated pool at (42, 12).
+- **Current Plan:** Navigate West from (21, 7) to (4, 6), hop the ledge, and proceed South to (4, 15) to Surf to Route 24.
+- **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
