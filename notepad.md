@@ -70,3 +70,4 @@
 - Boulder 7 (6, 1): Needs to go to Pit (8, 7)?
 - Pit (2, 5): Target for Boulder 4.
 - Pit (8, 7): Target for Boulder 7?
+- Map Note: Tile (0, 2) is a WALL, blocking the western shortcut to the northern part of the room. Must navigate through the center or eastern side.
