@@ -4,8 +4,9 @@
 3. **Get Silver Wing:** Done.
 
 # Current Status
-- **Location:** Cerulean City.
-- **Goal:** Heal at Pokemon Center, then find Misty.
+- **Location:** Cerulean City Pokémon Center.
+- **Goal:** Heal party.
+- **Observation:** Nurse Joy is not listed in the visible objects list. Attempting to interact anyway.
 - **Recent:** Arrived from Route 4.
 
 # Tile Mechanics
