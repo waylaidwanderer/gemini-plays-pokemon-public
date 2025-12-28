@@ -15,6 +15,8 @@
 
 # B1F Boulder Puzzle
 - Start Turn: 28207.
+- Pit 1 (11, 2): Pushing Boulder 1 (ID 1).
+- Pit 2 (4, 7): Pending Boulder 2 (ID 2).
 - Pit 3 (5, 12): COMPLETED with Boulder 3 (ID 3).
 - Pit 4 (12, 13): COMPLETED with Boulder 4 (ID 4).
 
@@ -24,11 +26,10 @@
 3. Push Left to (10, 5). [DONE - T28363]
 4. Move to (10, 6). [DONE - T28367]
 5. Push Up to (10, 1). [DONE - T28373]
-6. Move to (10, 2). [NEXT]
-7. Loop to (9, 1).
-8. Push Right to (11, 1).
-9. Move to (11, 0).
-10. Push Down to (11, 2). [PIT]
+6. Move to (9, 1). [DONE - T28380]
+7. Push Right to (11, 1). [NEXT]
+8. Move to (11, 0).
+9. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Move to (6, 6) via loop around top.
@@ -36,9 +37,8 @@
 3. Move to (4, 5).
 4. Push Down to (4, 7). [PIT]
 
-# Current Status (B2F)
-- Accidentally fell through Pit 4 at (12, 13) on B1F.
-- Landed at (12, 12) on B2F.
-- Boulder 3 is at (3, 12) on B2F (ID 3).
-- Boulder 4 is at (12, 13) on B2F (ID 4).
-- Goal: Return to B1F via ladder at (9, 11).
+# Current Status (B1F)
+- Successfully returned to B1F via ladder at (17, 3).
+- Goal: Finish pushing Boulder 1 and Boulder 2 into their respective pits.
+- Boulder 1 (ID 1) is at (10, 1).
+- Boulder 2 (ID 2) is at (5, 6).
