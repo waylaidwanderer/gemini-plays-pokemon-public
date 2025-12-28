@@ -11,21 +11,15 @@
 - TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
 
-# Suicune Quest Strategy (Crystal) - ABANDONED
-- Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Hypothesis Test (Turns 27899-27940): Possessing Clear Bell bypasses wild sightings.
-- Result: DENIED. Sages Masa, Gaku, and Koji only provide lore. No battle triggered.
-- Decision: Pivot to main story progression to avoid stagnation.
-
 # Main Story Progression: 8th Gym Badge
 - Goal: Reach Blackthorn City and defeat Gym Leader Clair.
 - Current Status: 7 Badges.
+- Quest Start Turn: 27941.
 - Plan:
-  1. Exit Tin Tower and Ecruteak City.
-  2. Fly to Mahogany Town.
-  3. Travel East through Route 44.
-  4. Navigate Ice Path to reach Blackthorn City.
-  5. Challenge Blackthorn Gym.
+  1. Fly to Mahogany Town.
+  2. Travel East through Route 44.
+  3. Navigate Ice Path to reach Blackthorn City.
+  4. Challenge Blackthorn Gym.
 
 ## Battle Strategy (Blackthorn Gym)
 - Gym Leader Clair: Dragon-types.
@@ -40,3 +34,4 @@
 - Decision Making: If a side quest stalls for >100 turns, pivot to main story progression.
 - Tin Tower Sages: Do not engage until wild sightings are confirmed in Pokedex or cutscene.
 - HM Usage: Whirlpool will be needed for Dragon's Den after the 8th Gym. Ensure a party member can learn it (Ravioli/Krabby can).
+- Fly Map Navigation: Cursor cycles through visited cities. Observe movement rather than geographic directions.
