@@ -41,11 +41,6 @@
   - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
   - **Conclusion:** Cafe is a dead end.
 - **Gym Location:** Southwest Celadon (10, 29).
-- **Navigation Error:** (10, 26) is the back/roof of the Gym. Cannot enter from North.
-- **New Plan:** Navigate East to Cafe area, then South to Y=34, then West through the gap to reach the front entrance.
-- **Loot:** Retrieved Leftovers.
-- **Quest Start:** Turn 24041 (Searching Celadon Cafe).
-- **Loot:** Retrieved Leftovers.
-- **Quest Start:** Turn 24041 (Searching Celadon Cafe).
-- **Tool Diagnostic:** `bfs_pathfinder` failed with "name 'start_x' is not defined". Suspect variable injection issue. Will revert or debug later. Proceeding manually.
+- **Navigation:** Found gap in ledge at X=5. Path to entrance clear.
+- **Tool Status:** `bfs_pathfinder` operational.
 - **Quest Start:** Turn 24041 (Searching Celadon Cafe).
