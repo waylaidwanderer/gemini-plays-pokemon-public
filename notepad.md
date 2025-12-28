@@ -14,13 +14,14 @@
 # Suicune Quest Strategy (Crystal)
 - Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
 - Current Quest Start Turn: 27830.
-- Current Status: Wise Trio Room (4_2) is EMPTY. Sightings are NOT complete.
-- Hypothesis: Route 42 sighting at (26, 15) requires a specific approach or tile interaction.
+- Current Status: Sages Gaku (11, 11), Masa (14, 6), and Koji (5, 9) are confirmed present in Tin Tower 1F (4_3). Overworld sightings may be complete or bypassed by Clear Bell.
+- Goal: Talk to all three Sages in Tin Tower 1F to trigger the Wise Trio battle sequence.
+- Hypothesis: The Wise Trio battle is the final gate to Suicune. approach them in the order: Masa, Koji, then Gaku.
 - Plan: 
   1. Fly to Ecruteak City.
-  2. Reach Route 42 island via Surf and Cut.
-  3. Walk every tile of the island clearing to trigger sighting.
-  4. If fails, check Route 42 water for Suicune sprite.
+  2. Enter Tin Tower 1F via the Gatehouse.
+  3. Talk to Sage Masa (14, 6), Sage Koji (5, 9), and Sage Gaku (11, 11).
+  4. Defeat them in battle to access Suicune.
 - Clear Bell: Required for final encounter. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
