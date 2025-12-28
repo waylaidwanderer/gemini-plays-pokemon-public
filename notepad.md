@@ -34,4 +34,4 @@
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" was too broad; Row 1-2 ice tiles DO slide.
 - "Boulder 1 is at (11, 5)" - Incorrect, it was pushed to (10, 5).
-- "B3 at (3, 12) is unreachable from B2F entry point (4, 17)" - Incorrect, can be reached via (3, 17) FLOOR.
+- "B3 at (3, 12) is unreachable" - Incorrect, I'm right in front of it at (3, 13).
