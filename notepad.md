@@ -20,7 +20,7 @@
 - **Lead:** GNEISS (Graveler) Lv44.
 - **Moves:** Earthquake, Rollout.
 - **Opponents:** Wise Trio (Sages and Gramps in Gatehouse).
-- **Status:** Challenging Sage (ID 3) at (6, 10).
+- **Status:** Exploring Wise Trio Room (4_2) for the Sages. Gneiss is lead.
 
 ## Navigation Plan
 1. Defeat Wise Trio members (ID 2, 3, 4) in the Gatehouse.
