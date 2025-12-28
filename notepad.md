@@ -28,3 +28,16 @@
 ## Tool Notes
 - `bfs_pathfinder`: Ignores Trainer LOS. Handles LEDGEs correctly.
 - `smart_battle_move`: Remembers last cursor position in battle.
+
+# Saffron City Locations
+- **PokeCenter:** (9, 29)
+- **Magnet Train:** (8, 3)
+- **Gym:** (34, 3) (Psychic - Sabrina)
+- **Dojo:** (26, 3) (Fighting)
+- **Silph Co:** (18, 21)
+- **Mr. Psychic:** (27, 29) (TM29 Psychic acquired)
+- **Copycat's House:** (9, 11) (Suspected)
+- **West Gate (to Route 7):** (0, 24)
+- **North Gate (to Route 5):** (18, 3)
+- **East Gate (to Route 8):** (39, 22)
+- **South Gate (to Route 6):** (16, 33)
