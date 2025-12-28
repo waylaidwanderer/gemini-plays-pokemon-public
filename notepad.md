@@ -62,6 +62,7 @@
 - Master Puzzle Plan (Turn 29330):
   1. Fill Pit (8, 3): Use Boulder 3 (8, 2). Reach from (8, 1).
   2. Fill Pit (2, 5): Use Boulder 4 (2, 3). Reach from (2, 2). Must move Boulder 6 (3, 3) first.
-  3. Fill Pit (8, 7): Use Boulder 5 (6, 17). Push up to (6, 7) then right into pit.
-- Boulder 8 (8, 13) status: Blocking column 8. Pushing to (8, 10) to clear path to NE.
-- Current Status: Strength active. Pushing Boulder 8 north. [Time: Turn 29330]
+  3. Fill Pit (8, 7): Use Boulder 8 (8, 12). Push north to (8, 11), then right to (9, 11), then up to (9, 7), then left into pit.
+- Boulder 8 (8, 12) status: Current target for Pit (8, 7).
+- Boulder 5 (6, 17) status: Path blocker, moved to clear SE quadrant.
+- Strategy: Use 1F as a hub to travel between quadrants. Solve boulders in each. [Time Tracking: Started Turn 29238]
