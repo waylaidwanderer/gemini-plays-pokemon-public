@@ -31,7 +31,7 @@
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - Object ID 1
 - Boulder 2: (5, 6) - Object ID 2
-- Boulder 3: (9, 9) - Object ID 3
+- Boulder 3: (9, 11) - Object ID 3
 - Boulder 4: (17, 7) - Object ID 4
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
@@ -52,15 +52,16 @@
 - DELIBIRD (Parcel): Lv 21.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (9, 10) to Pit 3 (5, 12)
-1. Push Down to (9, 10). [DONE]
-2. Push Down to (9, 11). [NEXT]
-3. Move to (10, 11) via (11, 8), (12, 8), (12, 11).
+## Boulder 3 (9, 11) to Pit 3 (5, 12)
+1. Push Down to (9, 12). [NEXT]
+2. Move to (10, 11) via (10, 12).
+3. Push Up to (9, 11).
 4. Push Left 4 times to (5, 11).
-5. Move to (4, 10) via (4, 11).
-6. Push Down to (4, 12).
-7. Move to (3, 12).
-8. Push Right to (5, 12) [Target: Pit 3].
+5. Push Left to (4, 11).
+6. Move to (4, 10).
+7. Push Down to (4, 12).
+8. Move to (3, 12).
+9. Push Right to (5, 12) [Target: Pit 3].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (6, 6) (requires long loop around top).
