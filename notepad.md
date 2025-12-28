@@ -1,14 +1,16 @@
 # Suicune Quest Strategy (Crystal Version)
 ## Suicune Quest History
 - **Quest Start Turn:** ~27180
+- **Status:** Searching for missing overworld sightings.
 
 ## Status & Progress
 - **Key Items:** Clear Bell (Acquired)
 - **Sightings:**
-  - Cianwood City: Confirmed
-  - Route 42: Pending Verification
-  - Route 36: Pending Verification
-- **Current Objective:** Determine definitive next step for Suicune quest.
+  - Burned Tower: Confirmed
+  - Cianwood City: Confirmed (10, 14)
+  - Route 42: MISSING (Target: Island at 26, 15)
+  - Route 36: MISSING (Target: Near Sudowoodo spot)
+- **Current Objective:** Trigger Suicune sighting on Route 42.
 
 ## Capture Strategy (Tin Tower)
 - **Lead:** XENON (Gastly) Lv21.
@@ -19,10 +21,7 @@
 ## Battle Strategy (Wise Trio)
 - **Lead:** GNEISS (Graveler) Lv44.
 - **Moves:** Earthquake, Rollout.
-
-## Hypotheses for Sightings
-1. **Route 42:** Trigger is near the Mt. Mortar entrance (26, 15) or the Apricorn trees.
-2. **Route 36:** Trigger is near the Sudowoodo spot (35, 9) or the Ruins of Alph entrance.
+- **Status:** Sages on 1F currently providing lore; will battle only after sightings are complete.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Walkable.
