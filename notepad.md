@@ -103,3 +103,6 @@
 - Encountered Wild Diglett (Male, Lv 8).
 - Box 1 is FULL (20/20). Cannot catch.
 - Action: Running to save time. Heading to Pewter City PC.
+- Ran from Diglett (Box Full).
+- Navigating North towards Pewter City.
+- Path continues through (12, 17).
