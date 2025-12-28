@@ -5,8 +5,8 @@
   1. Locate and heal at Pokemon Center.
   2. Locate Fuchsia Gym.
   3. Defeat Janine.
-- **Turn:** 24200.
-- **Progress:** Defeated Bird Keeper Bob.
+- **Turn:** 24206.
+- **Progress:** Defeated Bird Keeper Bob. Arrived in Fuchsia City.
 - **Time:** Sunday, December 28, 2025.
 
 # Reflection (Turn 24197)
