@@ -4,9 +4,10 @@
 3. **Get Silver Wing:** Done.
 
 # Current Status
-- **Location:** Cerulean City.
-- **Goal:** Explore city, check Gym, then head North to Route 24/25 to find Misty.
-- **Recent:** Healed at Pokemon Center.
+- **Location:** Cerulean Gym.
+- **Goal:** Talk to the Gym Guide to locate Misty.
+- **Observation:** Gym looks empty except for the guide.
+- **Recent:** Entered Gym from Cerulean City.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
