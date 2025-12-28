@@ -1,8 +1,8 @@
 # Current Status
 - **Status:** In Saffron City.
-- **Location:** (9, 30).
+- **Location:** (2, 24).
 - **Goal:** Walk to Route 5 Gate (18, 3).
-- **Action:** Navigating West to avoid buildings, then North to the gate.
+- **Action:** Walking North along the western avenue, then East to the northern gate.
 
 # Future Strategy
 1. Exit North to Route 5.
