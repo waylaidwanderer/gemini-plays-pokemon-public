@@ -23,16 +23,17 @@
 
 ## Boulder 1 Sequence (ID 1)
 - Starting at (11, 7).
-1. Move to (11, 8).
-2. Push Up to (11, 5).
-3. Move to (12, 5).
-4. Push Left to (10, 5).
-5. Move to (10, 6).
-6. Push Up to (10, 1).
-7. Move to (9, 1).
-8. Push Right to (11, 1).
-9. Move to (11, 0).
-10. Push Down to (11, 2). [PIT]
+1. Move to (11, 8). [DONE - T28481]
+2. Activate Strength. [NEXT]
+3. Push Up to (11, 5).
+4. Move to (12, 5).
+5. Push Left to (10, 5).
+6. Move to (10, 6).
+7. Push Up to (10, 1).
+8. Move to (9, 1).
+9. Push Right to (11, 1).
+10. Move to (11, 0).
+11. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 - Starting at (7, 8).
@@ -59,7 +60,7 @@
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
-- Wild battles: Prioritize escaping. Calcifer is available in battle if needed.
+- Wild battles: Prioritize escaping.
 - Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. (Note: Swap abandoned to prioritize puzzle).
 - Tool Hygiene: Verify coordinates against Map Markers before tool use.
 - Menu Mechanics: Swap = Select (item 1) -> Move -> Select (item 2).
