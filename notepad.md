@@ -43,7 +43,3 @@
 - Failed Hypotheses:
   1. Row 0 is passable (Tested (5,0), (7,0), (9,0) - Denied).
   2. Boulder 7 can be pushed into (8, 3) from Row 1 (Requires player in Row 0 - Denied).
-
-# Navigation Insights
-- 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
-- 1F Access: Must use 2F detour to move between top and bottom halves of 1F. (Verified Turn 29706)
