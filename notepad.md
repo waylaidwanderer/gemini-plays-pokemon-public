@@ -95,5 +95,6 @@
 - Corridor seems to be columns 14-15.
 - Goal: Find the path to the western section or exit.
 - Encountered Wild Diglett (Lv 8).
-- Action: Catching with Great Ball to fill the 20th slot in Box 1.
+- Action: Throwing Great Ball (Attempt 1).
+- Stock: 21 Great Balls.
 - Note: Muscle (Lv 76) is too strong to attack. Throwing ball at full HP.
