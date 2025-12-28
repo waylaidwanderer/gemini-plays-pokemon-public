@@ -14,8 +14,8 @@
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
 - Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
-- Verifying Eusine status in Cianwood City: Started Turn 27474. (Current Turn: 27548)
-- Current Plan: Walk south to Y=30, then west to X=2, then north to (11, 12) to bypass the Y=15 wall.
+- Verifying Eusine status in Cianwood City: Started Turn 27474. (Current Turn: 27550)
+- Current Plan: Exit house, then navigate to (11, 12) land tile via land route (Western detour to X=1/2, then east to X=8/11).
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger.
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
