@@ -1,11 +1,11 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Interaction active. Radio tuned to Channel 20.
-   - *Action:* Press A to advance text.
+   - *Status:* Interaction active. Radio tuned.
+   - *Action:* Press A to advance text. Snorlax should wake up.
    - *Battle Strategy:*
      - **Lead:** Muscle (Machoke Lv75).
-     - **Chip:** Thunderpunch/Ice Punch.
-     - **Catch:** Ultra Ball.
+     - **Chip:** Thunderpunch (aim for Paralysis). Avoid Cross Chop (OHKO).
+     - **Catch:** Ultra Ball (x21).
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
