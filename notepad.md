@@ -46,7 +46,7 @@
   - Test: Stand at (5, 3) and press Right.
   - Result: DENIED (Turn 29747).
 - Hypothesis 3: NPC Cody at (4, 1) is passable.
-  - Test: Stand at (4, 2) and press Up.
+  - Test: Stand at (5, 1) and press Left.
   - Result: [Pending].
 - Hypothesis 4: Tile (8, 9) is a fake wall.
   - Test: Stand at (8, 10) and press Up.
