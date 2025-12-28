@@ -53,4 +53,4 @@
   2. Walk (8, 13) -> (8, 17) -> (7, 17) -> (6, 17).
   3. From (6, 17), push Boulder 5 (6, 16) all the way UP to (6, 7).
   4. Navigate to (5, 7), push Boulder 5 RIGHT to (8, 7) (PIT).
-- Current Status: Strength active. Pushing Boulder 8 south. [Time: Turn 29368]
+- Current Status: Strength active. Boulder 8 at (8, 16). Pushing to (8, 17). [Time: Turn 29369]
