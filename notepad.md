@@ -71,3 +71,5 @@
 - **Ledges:** Column 23 has `LEDGE_HOP_RIGHT`, acting as a one-way wall from Left to Right. I am on the Right side, so I cannot go Left.
 - **Navigation Correction:** The Pokemon Center entrance (27, 27) is enclosed. Access is via the gap at (30, 29).
 - **Plan:** Enter gap at (30, 29), circle back West to the door.
+- **Correction:** Entered Warden's Home (27, 27) by mistake. Pokemon Center is likely at (21, 27) near the sign at (20, 27).
+- **Warden's Home:** Contains a Lass. Investigating.
