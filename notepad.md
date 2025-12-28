@@ -41,7 +41,9 @@
 - **INVISIBLE WALL:** Mark with 🚫.
 - **New Invisible Wall:** (8, 13).
 - **Correction:** Column 8 is NOT clear. Must navigate around (8, 13).
-- **Observation:** Janine Impersonator at (5, 11) is blocking the path.
-- **Analysis:** Columns 0, 1, 2 are blocked by walls at y=11. Column 5 is blocked by the NPC. Column 8 is isolated.
-- **Hypothesis:** One of the 'walls' boxing me in at (5, 12) is fake, OR the wall at (3, 14) is fake.
-- **Plan:** Probe (4, 12) and (6, 12). If blocked, backtrack to probe (3, 14).
+- **Observation:** Janine Impersonator at (5, 11) confirmed. "Fooled you!" dialogue.
+- **Analysis:** Columns 0, 1, 2 are blocked by walls at y=11. Column 5 is blocked by the NPC.
+- **Hypothesis:** This path (Column 5) is a dead end.
+- **Plan:** Close dialogue. Probe (4, 12) and (6, 12) just in case. If blocked, backtrack to (5, 16) and try to find a path through Column 3 or 4, or re-examine the right side.
+- **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
+- **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
