@@ -23,8 +23,8 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 22900)
-- **Status:** Battling Bug Catcher Ed (Route 2).
-- **Achievement:** Box 2 Active. Snorlax caught.
-- **Goal:** Defeat Trainer & Enter Viridian Forest.
+# Reflection (Turn 22905)
+- **Status:** Route 2 North (Entering Viridian Forest Gate).
+- **Achievement:** Defeated Bug Catchers. Box 2 Active.
+- **Goal:** Traverse Viridian Forest to Pewter City.
 - **Next:** Viridian Forest.
