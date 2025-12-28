@@ -78,3 +78,5 @@
 - **Plan:** Go South to Row 32, East to Column 4, then North through the gap at (4, 31). Then head North-East to the Pokemon Center.
 - **Progress:** Successfully located gap at (4, 31). Entering the Gym/PC Enclave.
 - **Next Step:** Navigate to (19, 28) to locate the Pokemon Center entrance near the sign at (20, 27).
+- **Progress:** Confirmed Gym at (8, 27) (Sign at 5, 29). Heading to Pokemon Center (Sign at 20, 27).
+- **Target:** Pokemon Center entrance likely at (19, 27) or (18, 27). Navigating to (19, 28) to find it.
