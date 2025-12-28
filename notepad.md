@@ -58,8 +58,14 @@
 - Strategy: Use 2F Row 13 to move between quadrants.
 
 # Blackthorn Gym Puzzle Progress
-- Master Puzzle Plan (Turn 29327):
-  1. Fill Pit (8, 3): Push Boulder 3 (8, 2) down from (8, 1).
-  2. Fill Pit (8, 7): Push Boulder 5 (6, 16) north to (6, 7) from (6, 17), then push right into pit from (5, 7).
-  3. Fill Pit (2, 5): Push Boulder 6 (3, 3) down to (3, 4) from (3, 2), then push Boulder 4 (2, 3) down into pit from (2, 2).
-- Current Status: Strength active. Heading to (8, 1) to fill Pit (8, 3). [Time: Turn 29327]
+- Pits Filled:
+  - Pit (8, 3): Filled by Boulder 3 [Turn 29284]
+  - Pit (2, 5): Filled by Boulder 4 [Turn 29318]
+- Remaining Task:
+  - Fill Pit (8, 7): Target is Boulder 8 (8, 14).
+- Boulder 8 (8, 14) Plan:
+  1. Push UP to (8, 11). [Current]
+  2. Move to (7, 11), push RIGHT to (9, 11).
+  3. Move to (9, 12), push UP to (9, 7).
+  4. Move to (9, 8), push LEFT into Pit (8, 7).
+- Current Status: Strength active. Pushing Boulder 8 north. [Time: Turn 29328]
