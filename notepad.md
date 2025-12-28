@@ -1,10 +1,9 @@
 # Current Status
-- **Location:** Cerulean City (Outside Gym).
-- **Goal:** Fly to Saffron City.
+- **Location:** Saffron City.
+- **Goal:** Heal and head to Celadon.
 - **Plan:**
-  1. Use Fly to reach Saffron City.
-  2. Heal up at PokeCenter (Saffron).
-  3. Head West to Celadon City for Rainbow Badge.
+  1. Enter PokeCenter (9, 29) and Heal.
+  2. Exit and travel West to Route 7 -> Celadon City.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
