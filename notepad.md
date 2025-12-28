@@ -1,8 +1,8 @@
 # Current Status
-- **Location:** Gatehouse (Saffron -> Route 7).
+- **Location:** Route 7.
 - **Goal:** Travel to Celadon City (Rainbow Badge).
 - **Plan:**
-  1. Exit West to Route 7.
+  1. (Done) Exit West to Route 7.
   2. Continue West to Celadon City.
   3. Locate Gym and defeat Erika.
 
