@@ -1,14 +1,13 @@
 # Current Status
-- **Status:** Crossing Nugget Bridge (Cerulean City -> Route 24).
-- **Location:** (21, 0).
-- **Goal:** Cross the bridge and defeat the 5 trainers.
-- **Action:** Move North to enter Route 24.
+- **Status:** Crossing Nugget Bridge (Route 24).
+- **Location:** (9, 17).
+- **Goal:** Reach Route 25 (North/East).
+- **Action:** Walk North across the bridge.
 
 # Future Strategy
-1. Cross Nugget Bridge (Route 24).
-2. Continue East to Route 25 (The Cape).
-3. Find Misty.
-4. Return to Gym to earn Cascade Badge.
+1. Reach Route 25 (The Cape).
+2. Find Misty.
+3. Return to Cerulean Gym to earn Cascade Badge.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
