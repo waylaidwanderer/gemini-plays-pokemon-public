@@ -2,17 +2,18 @@
 - Attempt Start: Turn 28546.
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
+## Boulder 2 (ID 2) -> Pit 2 (4, 7)
+1. Navigate to (8, 8). [CURRENT]
+2. Push LEFT to (5, 8).
+3. Move to (5, 9), push UP to (5, 6).
+4. Move to (6, 6), push LEFT to (4, 6).
+5. Move to (4, 5), push DOWN into Pit 2.
+
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Navigate to (11, 8) via western loop and southern crossing. [CURRENT]
+1. Detour around boulder to (11, 8).
 2. Push UP to (11, 5), then LEFT to (10, 5), then UP to (10, 1).
 3. Move to (9, 1) and push RIGHT to (11, 1).
 4. Move to (11, 0) and push DOWN into Pit 1. (Do NOT push to 10,0).
-
-## Boulder 2 (ID 2) -> Pit 2 (4, 7)
-1. Move to (8, 8), push LEFT to (5, 8).
-2. Move to (5, 9), push UP to (5, 6).
-3. Move to (6, 6), push LEFT to (4, 6).
-4. Move to (4, 5), push DOWN into Pit 2.
 
 ## Boulder 3 (ID 3) -> Pit 3 (5, 12)
 1. Move to (9, 9), push LEFT to (5, 9).
