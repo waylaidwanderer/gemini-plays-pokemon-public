@@ -88,4 +88,9 @@
 - Observation: Tile (1, 2) is currently marked as WALL.
 - Hypothesis: (1, 2) is an impassable WALL tile.
 - Test: Move to (1, 3) and attempt to move UP into (1, 2).
-- Result: TBD. [Attempt 1]
+- Result: Confirmed. (1, 2) is an impassable WALL tile. [Turn 29307]
+- NW Puzzle Plan (Turn 29307):
+  1. Navigate to (3, 4).
+  2. Push Boulder 6 (3, 3) up to (3, 1) to clear path to (2, 2).
+  3. Move (3, 4) -> (3, 3) -> (3, 2) -> (2, 2).
+  4. Push Boulder 4 (2, 3) down into Pit (2, 5). [Time: Turn 29307]
