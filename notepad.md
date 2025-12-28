@@ -32,3 +32,8 @@
 - Step 2: Investigate the ice at X=32 and the item at (32, 23).
 - Step 3: Look for a ladder to B1F.
 - Status: Navigating to (21, 12) to explore western Row 12. (Turn 28089)
+
+# Capture Strategy: Zubat
+- Target: Zubat (Lv 22, Female)
+- Strategy: KIMCHI (Gloom) -> Sleep Powder -> Great Ball.
+- Status: Using Sleep Powder. (Turn 28095)
