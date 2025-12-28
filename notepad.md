@@ -29,10 +29,9 @@
 
 # Blackthorn Gym Exploration
 - Strategy:
-  1. Find the Blackthorn City Gym [Done: Turn 29225]
-  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
-  3. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
-  4. Defeat Gym Leader Clair.
+  1. Defeat Gym Trainers for EXP [Current: Turn 29252]
+  2. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
+  3. Defeat Gym Leader Clair.
 
 # Blackthorn Gym Discoveries
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
@@ -60,6 +59,7 @@
 
 # Blackthorn Gym Puzzle (2F) - Boulder 1
 - Observation: Boulder (ID 4) at (2, 3) and Boulder (ID 6) at (3, 3). Pit at (2, 5).
-- Hypothesis: Pushing the boulder at (2, 3) down twice will drop it into the pit at (2, 5).
-- Test: Approach (2, 3) from (2, 2) and push Down. [Turn 29251]
-- Note: Ladder at (1, 7) triggers on entry. Must move to (1, 6) or (2, 7) to avoid warping.
+- Goal: Push boulder at (2, 3) into pit at (2, 5).
+- Path to Reach (2, 2): (1, 3) -> (0, 3) -> (0, 13) -> (6, 13) -> (6, 7) -> (5, 7) -> (5, 1) -> (2, 1) -> (2, 2).
+- Obstacle: Cooltrainer F at (4, 11) and Cooltrainer M at (4, 1) block the path.
+- Strategy: Defeat trainers while navigating to the top of the room.
