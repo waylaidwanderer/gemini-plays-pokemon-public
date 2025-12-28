@@ -8,8 +8,8 @@
 - **Sightings:**
   - Burned Tower: Confirmed
   - Cianwood City: Confirmed (10, 14)
-  - Route 42: MISSING (Target: Island at 26, 15)
-  - Route 36: MISSING (Target: Near Sudowoodo spot)
+  - Route 42: MISSING (Target: 26, 15 near Apricorn trees)
+  - Route 36: MISSING (Target: 35, 9 near Sudowoodo spot)
 - **Current Objective:** Trigger Suicune sighting on Route 42.
 
 ## Capture Strategy (Tin Tower)
@@ -21,7 +21,7 @@
 ## Battle Strategy (Wise Trio)
 - **Lead:** GNEISS (Graveler) Lv44.
 - **Moves:** Earthquake, Rollout.
-- **Status:** Sages on 1F currently providing lore; will battle only after sightings are complete.
+- **Status:** Sages on 1F (Map 3_4) currently providing lore; will battle only after Route 42 and 36 sightings are complete.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Walkable.
