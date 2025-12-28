@@ -3,9 +3,10 @@
 2. **Collect Badges:** Thunder (Done), Marsh (Done), Boulder (Done), Cascade (Next).
 3. **Get Silver Wing:** Done.
 
-# Mechanics & Discoveries
-- **Snorlax:** Caught (Pavlov).
-- **Route 2 East:** Diglett's Cave exit is on the East side. Connects South to Viridian City via Cut tree at (12, 50). Path North to Pewter is blocked by ledges on this side.
+# Current Status
+- **Location:** Route 4, heading East to Cerulean.
+- **Goal:** Reach Cerulean City.
+- **Recent:** Defeated Bird Keeper Hank.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
@@ -13,20 +14,10 @@
 - **LADDER:** Interact/Walk to warp.
 - **FLOOR_UP_WALL:** Blocked from North.
 - **WARP_CARPET_DOWN:** Walk off map edge.
-- **Ledge:** Jump down (South) only.
+- **LEDGE_HOP_DOWN:** Jump down (South) only.
+- **LEDGE_HOP_LEFT:** Jump Left only. Acts as wall from Left.
+- **LEDGE_HOP_RIGHT:** Jump Right only. Acts as wall from Right.
 - **COUNTER:** Impassable. Interact across to talk.
-
-# Active Quests
-- **Bill's Grandpa:** Wants Lickitung.
-
-# Lessons Learned
-- **Verification:** Always verify possession of Key Items.
-- **Route 8:** Underground Path is closed.
-- **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
-
-# Current Status
-- **Location:** Route 4. Battling Bird Keeper Hank.
-- **Goal:** Defeat Pidgey and reach Cerulean City.
 
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
