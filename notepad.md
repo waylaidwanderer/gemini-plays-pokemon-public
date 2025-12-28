@@ -69,3 +69,6 @@
 - Hypothesis: Row 7 (currently unseen) provides a path to enter the ladder section from the north.
 - Test: Navigate to the left side (Row 8), enter Row 7, and attempt to reach the ladder from the north. [Turn 29239]
 - Attempt 1: Moving to (1, 8) to access Row 7.
+- Attempt 1 Conclusion: Failed. Path blocked by WALL at (3, 14).
+- Attempt 2: Use Row 16 (all FLOOR) to reach the left side, then head north. [Turn 29240]
+- Path: (4, 14) -> (4, 16) -> (1, 16) -> (1, 8).
