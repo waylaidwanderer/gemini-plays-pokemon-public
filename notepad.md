@@ -1,11 +1,14 @@
 # Suicune Quest Strategy (Crystal Version)
+## Suicune Quest History
+- **Quest Start Turn:** ~27180
+
 ## Status & Progress
 - **Key Items:** Clear Bell (Acquired)
 - **Sightings:**
   - Cianwood City: Confirmed
-  - Route 42: Pending (Target: Middle area near Mt. Mortar/Apricorn trees)
-  - Route 36: Pending (Target: Near the Sudowoodo spot/Ruins of Alph)
-- **Current Objective:** Trigger Suicune sighting on Route 36. The Wise Trio will only battle on Tin Tower 1F (3_4) once all sightings are complete.
+  - Route 42: Pending Verification
+  - Route 36: Pending Verification
+- **Current Objective:** Determine definitive next step for Suicune quest.
 
 ## Capture Strategy (Tin Tower)
 - **Lead:** XENON (Gastly) Lv21.
@@ -28,7 +31,3 @@
 - **WARP_CARPET**: Map transition.
 - **HEADBUTT_TREE**: Can be headbutted.
 - **CUT_TREE**: Can be cut.
-
-## Reflection (Turn 27299)
-- **Skepticism:** The tracker claims the Wise Trio is defeated, but the lore dialogue suggests they are waiting for sighting requirements. I will prioritize Route 36 sighting.
-- **Efficiency:** Exit gatehouse south to reach Route 36 quickly.
