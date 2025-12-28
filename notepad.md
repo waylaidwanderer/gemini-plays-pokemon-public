@@ -55,3 +55,4 @@
 - **LEDGE:** One-way traversal (jump down/over).
 - **WARP:** Step on to transition maps.
 - **CUT TREE:** Obstacle until Cut is used.
+- **Route 17 (Cycling Road):** The slope forces rapid southbound movement. Currently at (9, 53). The road splits; the center is blocked by water/gap. Heading to the west side (x=5) to continue south.
