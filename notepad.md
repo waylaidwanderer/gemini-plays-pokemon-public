@@ -81,3 +81,7 @@
 - Backup Plan: Backtrack to Diglett's Cave and check North of (12, 7) (previously skipped).
 - Marking and entering building at (17, 27).
 - Hope: This connects to the West side of Route 2 (North path to Pewter) or is a gatehouse.
+- Inside Route 2 Gatehouse.
+- Exiting South via (5, 7).
+- Expecting to emerge on the West side of Route 2 or near Viridian City.
+- Goal: Find path North to Pewter City.
