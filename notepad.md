@@ -50,3 +50,7 @@
 - Hypothesis: Radio was not actually tuned to the Poke Flute channel or stopped playing.
 - Action: Re-opening Radio to visually confirm "POKE FLUTE" text.
 - Navigation Plan: B (Close Text) -> Start (Menu) -> A (Pokegear) -> Right x3 (Radio) -> A (Enter).
+- Radio Tuning: Currently at max frequency (approx 20+). Text shows "TUNING".
+- Hypothesis: Poke Flute is at Channel 20.0. Need to tune down slightly to find the exact frequency.
+- Action: Pressing 'Down' to decrease frequency.
+- Observation needed: Does text change to "POKE FLUTE"?
