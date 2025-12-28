@@ -96,6 +96,7 @@
 - Action: Picking up item.
 - Observation: West blocked by wall (Col 12). Cut Trees at (12, 46) & (12, 50).
 - Plan: Cut Tree at (12, 50) to proceed to Viridian.
-- Cutting tree at (12, 50) to open path West to Viridian City.
-- Box 1 is Full (20/20). Priority: Reach Viridian/Pewter PC to switch boxes.
-- Current Route: East side of Route 2 -> Viridian City.
+- Current Location: Route 2 East, South end (13, 50).
+- Cutting tree at (12, 50) to access Viridian City.
+- Box 1 is Full (20/20). Priority: Reach Viridian PC.
+- Plan: Cut Tree -> West -> South to Viridian City.
