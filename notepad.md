@@ -21,14 +21,13 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer (66/148 HP, PAR) is in danger.
+- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. KIMCHI fainted. Calcifer (66/148 HP, PAR) is in danger.
 - Plan:
-  1. Switch to KIMCHI (Gloom, 57 HP). Resists Surf. (In Progress)
-  2. Use Sleep Powder to disable Kingdra.
-  3. Switch to Calcifer.
+  1. Send in fodder (ICARUS, Ravioli, XENON) to take hits. (In Progress)
+  2. Once a fodder is out, use MAX POTION on Calcifer.
+  3. Send in Calcifer.
   4. Use Smokescreen (2-3 times) to lower accuracy.
-  5. Use Thunderpunch/Headbutt to finish.
-  6. Use MAX POTION on Calcifer if needed once Kingdra is disabled.
+  5. Use Headbutt to finish (Kingdra is 1/4x resistant to Fire/Water, neutral to Normal).
 
 # Blackthorn Gym Layout Theory
 - Pit Destinations:
@@ -43,4 +42,5 @@
 
 # Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
+- Kingdra (Water/Dragon) resists: Fire (1/4x), Water (1/4x), Electric (1/2x), Grass (1/2x).
 - Normal & Ground: Neutral vs Dragon.
