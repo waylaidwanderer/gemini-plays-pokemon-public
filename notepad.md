@@ -44,3 +44,6 @@
 - **Next:** Starmie (Ace).
 - **Strategy:** Refuse switch. Use Thunderpunch (Slot 2). Starmie is Water/Psychic (Weak to Electric).
 - **Note:** Cursor will be on Strength (Slot 1) at start of turn.
+- **Battle Update:** Starmie (Lv 47) is out.
+- **Action:** Using Thunderpunch (Slot 2).
+- **Cursor Check:** Cursor is on Strength (Slot 1) from previous turn. Moving Down to Slot 2.
