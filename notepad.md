@@ -59,3 +59,8 @@
 - Snorlax woke up! Battle imminent.
 - Battle Plan: Lead with Muscle. Use weak moves (Ice Punch/Thunderpunch) to chip. Try to catch with Ultra Balls. If failing/low health, knock it out.
 - Snorlax is blocking Diglett's Cave entrance at (34, 7).
+- Snorlax HP ~70%. Holding Leftovers (recovers HP).
+- Snorlax used Rollout.
+- Muscle's Thunderpunch does ~30%.
+- Strategy: Use Thunderpunch again to chip. If Snorlax uses Rest, prepare to catch while asleep.
+- Note: 'smart_battle_move' with current_slot=2 and target_slot=2 should safely select the current cursor position (likely Thunderpunch or Strength).
