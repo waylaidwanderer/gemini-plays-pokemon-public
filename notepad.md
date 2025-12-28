@@ -36,3 +36,9 @@
 - Event Verification: If Eusine is missing from the Cianwood beach after Suicune flees, the battle flag is likely set.
 - Navigation: Entering water costs 3 actions (Face/A, Confirm A, Move).
 - Tool Hygiene: find_path_v9 refined to use Dijkstra for accurate cost estimation and 'seen' tile filtering.
+- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it.
+
+## Plan for Route 42 Sighting
+1. Exit Route 42 Gatehouse at (9, 5).
+2. Travel east on Route 42 to (26, 15).
+3. Sighting should trigger automatically upon approaching the Apricorn trees.
