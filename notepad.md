@@ -54,17 +54,9 @@
 - Strategy: Use 2F Row 13 to move between quadrants.
 
 # Blackthorn Gym Puzzle Progress
-- Status:
-  - Pit (8, 3): Filled by Boulder 3 [Turn 29284]. Verified: Boulder 3 missing from 2F.
-  - Pit (2, 5): Filled by Boulder 4 [Turn 29318]. Verified: Boulder 4 missing from 2F.
-  - Pit (8, 7): EMPTY. Target is Boulder 7 (6, 1) or Boulder 8 (8, 13).
-- Master Puzzle Plan (Turn 29341):
-  1. Push Boulder 7 (6, 1) to Pit (8, 7).
-     - Push RIGHT to (7, 1).
-     - Push DOWN to (7, 3).
-     - Push RIGHT to (8, 3). (Wait, Pit 8,3 is filled).
-     - Push DOWN to (8, 7).
-  2. Verify all 3 pits are filled on 1F.
-  3. Challenge Clair.
-- SE Puzzle Plan (Archive): Push Boulder 8 (8, 13) UP to (8, 11), RIGHT to (9, 11), UP to (9, 7), LEFT to (8, 7). (Plan B if Boulder 7 fails).
-- NW Puzzle Plan (Archive): Push Boulder 6 (3, 3) up to (3, 1) to clear path to (2, 2) for Boulder 4. (Superseded: Boulder 4 is already in pit).
+- Status: Verifying if floor reset (Turn 29336) restored Boulders 3 and 4 or if they remain in pits.
+- Pit Landing Spots (Hypothesis):
+  - Pit (8, 3) -> 1F (7, 6)
+  - Pit (2, 5) -> 1F (2, 6)
+  - Pit (8, 7) -> 1F (7, 7)
+- Current Status: Heading to 1F to check landing spots. [Time: Turn 29346]
