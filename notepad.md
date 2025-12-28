@@ -4,38 +4,30 @@
 - ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER.
 - BOULDER: Stopper for sliding.
 - ROCK: Destructible with ROCK SMASH. (6, 6) on B3F is a ROCK.
-- FLOOR_UP_WALL: Impassable ledge face. (9, 2), (10, 2), (12, 4) on B3F. Blocks N->S and S->N movement.
+- FLOOR_UP_WALL: Impassable ledge face. Blocks N->S and S->N movement. Verified at (9, 2), (10, 2), (12, 4) on B3F.
 - LEDGE_HOP_RIGHT: One-way jump from West to East. (11, 8), (11, 9) on B3F.
 
 # Ice Path Exploration
 - Start Turn (B3F): 29033
+- Start Turn (B2F Blackthorn Side): 29044
 - Goal: Reach Blackthorn City.
 
-## Ice Path B3F
+## Ice Path B3F (Completed)
 - Item: (5, 7). Blocked by ROCK at (6, 6).
 - ROCK (ID 2) at (6, 6): Confirmed Rock Smash target (Turn 29041).
-- Ladder to B2F: (3, 5).
-- Ladder to B4F: (15, 5).
+- Ladder to B2F/B4F: (15, 5).
+
+## Ice Path B2F (Blackthorn Side)
+- Status: Exploring western floor area.
+- Ladder back to B3F: (3, 3).
+- Potential Ledge: (3, 4) (FLOOR_UP_WALL).
 
 ## Strategy
-1. Proceed to ladder at (15, 5) to bypass Rock Smash requirement.
+1. Map the western floor section and test the ledge at (3, 4).
+2. Enter the ice at (0, 6) to reach the southern unseen area.
+3. Locate the exit to Blackthorn City.
 
 ## History (Archive)
 - B1F Puzzle: Solved Turn 28985.
-- B2F Puzzle: Solved Turn 29028.
-- B3F Rock: Verified Rock Smash requirement at Turn 29041. Proceeding to bypass.
-
-# Ice Path B2F (Blackthorn Side)
-- Start Turn: 29044
-- Goal: Find the exit to Blackthorn City.
-
-## Exploration
-- Just arrived from B3F via ladder at (3, 3).
-- Map appears to have a large ice section to the south and east.
-- Initial surroundings: FLOOR at (3, 3), (2, 3), (3, 1), (4, 1). WALL at (3, 0), (4, 0), (4, 3), (1, 1), (2, 1).
-- FLOOR_UP_WALL (ledge face) at (3, 4). Testing if it's a jumpable ledge or just a wall.
-
-## Strategy
-1. Explore the reachable floor areas near the ladder.
-2. Navigate the ice puzzle to find the exit.
-3. Record all new tile behaviors and obstacles.
+- B2F Puzzle (Mahogany Side): Solved Turn 29028.
+- B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
