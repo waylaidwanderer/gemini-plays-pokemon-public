@@ -1,11 +1,9 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute (EXPN Card obtained) & Power.
-   - *Status:* Interaction failed (Snorlax still snoring).
-   - *Diagnosis:* Radio likely not tuned to 20.0 correctly or station was missed.
-   - *Correction:* Retune Radio. Maximize UP inputs to ensure Channel 20.
-   - *Action:* Close Text -> Open Gear -> Radio -> Tune UP x25 -> Interact.
-   - *Battle Strategy:* Lead with Muscle. Chip with Thunderpunch. Catch with Ultra Ball.
-   - *Next:* Battle Snorlax.
+   - *Status:* In Pokedex (accidentally). Resetting to Gear.
+   - *Action:* Exit Pokedex -> Open Gear -> Tune Radio (Ch 20) -> Wake Snorlax.
+   - *Correction:* Detected accidental Pokedex entry. Exiting and selecting Gear properly.
+   - *Next:* Tune Radio.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
@@ -26,6 +24,7 @@
 - **Troubleshooting:** If a mechanic (like the Radio) fails, check the prerequisites (Key Items) first before blaming the mechanics (tuning).
 - **Route 8:** Underground Path is closed (shut down by police). Bikers control the surface road.
 - **Radio Tuning:** Must press 'A' to enter the Radio module before tuning works. Cursor position alone is insufficient.
+- **Menu Navigation:** Start menu cursor wraps and remembers position. Double check cursor starting point.
 
 # Reflection (Turn 22694)
 - **Execution:** No deferred tasks. Fixed EXPN card oversight immediately.
