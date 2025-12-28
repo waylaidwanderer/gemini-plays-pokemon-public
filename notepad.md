@@ -23,9 +23,8 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 22891)
-- **Status:** Navigating Route 2 Maze Northbound.
-- **Achievement:** Snorlax caught! Box 1 is now full (20/20).
-- **Goal:** Switch to Box 2 to enable future catches.
-- **Next:** Head North to Viridian Forest.
-- Found Max Potion at Route 2 (2, 23).
+# Reflection (Turn 22900)
+- **Status:** Battling Bug Catcher Ed (Route 2).
+- **Achievement:** Box 2 Active. Snorlax caught.
+- **Goal:** Defeat Trainer & Enter Viridian Forest.
+- **Next:** Viridian Forest.
