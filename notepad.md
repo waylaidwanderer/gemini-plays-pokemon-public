@@ -2,8 +2,10 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Exploring the unseen area East of Bill's House (Cape).
-- **Target:** (53, 6).
+- **Status:** Checked Cape (East of House). Misty NOT found.
+- **Hypothesis:** Misty is at the 'High Ground' (North of Maze) or back at the Gym.
+- **Action:** Backtrack to start of Route 25 and check for Northern path.
+- **Target:** (10, 4) area.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
