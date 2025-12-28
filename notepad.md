@@ -6,6 +6,9 @@
   2. Locate Gym and defeat Erika.
   3. Check Department Store for TMs/Items.
 
+# Key Locations
+- **Pokemon Center:** (29, 9)
+
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
 - **Obtained:** Boulder, Cascade, Thunder, Marsh.
