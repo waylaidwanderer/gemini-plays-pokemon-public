@@ -2,19 +2,19 @@
 - **Status:** On Route 25.
 - **Location:** (40, 4).
 - **Goal:** Return to Cerulean City to access Route 9 (Power Plant).
-- **Action:** Talk to Gramps (Bill's Grandfather).
+- **Action:** Exit House and Resume Search.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
 2. **Fact:** Misty is NOT in the Gym.
 3. **Fact:** Misty was NOT at the Cape Pier.
-4. **Current Task:** Check Bill's House.
-5. **Opportunity:** Gramps is here. I have Oddish. He gives Leaf Stone for Oddish.
+4. **Current Task:** Search Route 25 High Ground.
+5. **Gramps:** Asking for Lickitung (Everstone). I need to show Lickitung before I can show Oddish for Leaf Stone.
 6. **Plan:**
-    - Talk to Gramps (Show Oddish?).
-    - Exit House.
-    - Check for Misty again (Refresh).
-    - If not found, look for "High Ground" entrance West of House.
+    - Exit Bill's House.
+    - Check for "High Ground" entrance West of House (Cut tree?).
+    - Or re-check the North-East corner (maybe hidden path?).
+    - If all else fails, re-check Gym (maybe entering house triggered reset).
 
 # Navigation Notes
 - **Route 25:** Trainer maze.
