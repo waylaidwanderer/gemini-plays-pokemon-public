@@ -1,25 +1,22 @@
 # Current Status
-- **Location:** Cerulean City (4, 20).
-- **Goal:** Find Misty.
+- **Location:** Cerulean Gym (4, 15).
+- **Goal:** Verify if Misty has returned to the Gym.
 - **Plan:**
-  1. Check Cerulean Gym.
-  2. If empty, go to Route 25 Cape (End of Promontory).
+  1. Walk to the back of the Gym (approx 5, 2).
+  2. If Misty is present -> Battle.
+  3. If Misty is absent -> Talk to Gym Guide for hints, then re-check Cape (VERY thoroughly).
 
 # Quest Logic (Cascade Badge)
-1. **Fact:** I have TM07 => Power Plant fixed.
-2. **Fact:** Misty is NOT in the Gym (last checked Turn ~23600).
-3. **Fact:** Misty was NOT at the Cape Pier (last checked Turn ~23737).
-4. **Gramps:** Asking for Lickitung (Everstone). Need to show Lickitung before Oddish (Leaf Stone).
+1. **Fact:** Power Plant fixed (TM07 obtained).
+2. **Fact:** Rocket Grunt defeated.
+3. **Fact:** Misty *should* be at the Cape (Route 25) if not here.
+4. **Correction:** Previous Cape check might have been insufficient or triggered too early?
 
 # Navigation Notes
-- **Route 25:** Trainer maze.
-- **Target:** Bill's House (47, 5).
-- **Shortcut:** Walk North on "Ladder" tiles at x=49.
+- **Cerulean Gym:** Uses LADDER tiles as bridges over water.
+- **Route 25:** Cape is at the far East end.
 
 ## Tile Mechanics
-- **WATER:** Requires SURF.
-- **LEDGE_HOP_DOWN:** One-way (Down).
-- **WALL:** Impassable.
 - **LADDER:** Walkable (Bridge/Stairs).
 
 ## Tool Notes
