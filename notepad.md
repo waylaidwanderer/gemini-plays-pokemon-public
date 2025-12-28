@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute (EXPN Card obtained) & Power.
-   - *Status:* In Vermilion City. Heading to Snorlax.
-   - *Action:* Tune Radio (Ch 20) -> Interact with Snorlax (Battle).
-   - *Next:* Navigate to Snorlax.
+   - *Status:* In Vermilion City. Tuning Radio.
+   - *Action:* Open Pokegear -> Tune Radio (Ch 20) -> Move Up -> Interact.
+   - *Next:* Enter Pokegear.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
