@@ -37,3 +37,6 @@
 - **Battle Log:** Defeated Golduck (Lv 42).
 - **Next:** Expecting Starmie. Continue Thunderpunch sweep.
 - **Battle Strategy:** Quagsire is Water/Ground (Immune to Electric). Do NOT use Thunderpunch. Use Strength or Cross Chop.
+- **Battle Mechanic:** Cursor remembers last used move. Last used: Thunderpunch (Slot 2).
+- **Action:** Switching to Strength (Slot 1).
+- **Target:** Quagsire (Lv 42). Strength should KO.
