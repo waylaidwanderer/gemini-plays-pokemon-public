@@ -78,3 +78,6 @@
 - Snorlax used Rollout (locked in). Muscle taking negligible damage.
 - Snorlax recovered with Leftovers. Status still Paralyzed.
 - Action: Throwing Ultra Ball (Attempt 2). Count: 20.
+- Catch Attempt 2 failed ("Almost had it!").
+- Snorlax used Rollout. Muscle HP 228/254. Snorlax HP ~Red (recovering with Leftovers).
+- Action: Throwing Ultra Ball (Attempt 3). Count: 19.
