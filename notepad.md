@@ -47,3 +47,6 @@
 - Cutting tree at (15, 18).
 - Path forward: South/East towards Pewter City.
 - Box 1 Full. Priority: Reach PC.
+- Cut confirmed. Tree at (15, 18) removed.
+- Path to South/East is now open.
+- Proceeding towards Pewter City.
