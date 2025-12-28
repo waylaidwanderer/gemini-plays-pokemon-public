@@ -32,11 +32,13 @@
 - **Route 24 Connectivity:**
     - **West Channel (Cerulean):** Dead end.
     - **East Channel (Cerulean):** Accessible via Route 9 or potentially through the Burgled House (28, 17).
+    - **South Access:** Blocked by ledges. I am currently stuck in South Cerulean.
+    - **Recovery Plan:** Must cut the tree at (33, 24) to access Route 9 and the North side of Cerulean.
 - **Current Strategy:**
-    1. Exit Poke Mart.
-    2. Enter Burgled House at (28, 17).
-    3. Check for backyard access to the East side.
-    4. If blocked, proceed to Route 9 and look for a surf spot.
+    1. Navigate to Cut Tree at (33, 24).
+    2. Cut the tree (Bellsprout has Cut).
+    3. Navigate North to Burgled House (28, 17).
+    4. Access East Channel/Route 9.
     5. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
