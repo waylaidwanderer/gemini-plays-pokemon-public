@@ -1,16 +1,14 @@
 # Current Status
-- **Status:** At Victory Road 3F East (Item Collection).
+- **Status:** Backtracking from Victory Road 3F East.
 - **Location:** (18, 30).
-- **Goal:** Pick up Item at (18, 29) and return to 2F via Ladder (13, 31).
-- **Reasoning:** The East side of 3F is isolated. Ladder (1, 35) is on the West side, unreachable from here due to wall at (11, 36).
+- **Action:** Jumping ledge at (18, 35) to reach return ladder.
 - **Route:**
-    1. Pick up Item (A button).
-    2. Walk South to Ledge (16, 35).
-    3. Jump Ledge (Down).
-    4. Walk North to Ladder (13, 31).
-    5. Take Ladder to 2F (13, 17).
-    6. Traverse to West Loop on 2F to find the correct ladder.
-- **Next:** Pick up item, then head to ledge.
+    1. Jump Ledge (18, 35) to (18, 36).
+    2. Walk West to (13, 36).
+    3. Walk North to Ladder (13, 31).
+    4. Take Ladder to 2F.
+    5. On 2F, traverse to West Side (Column 1-3).
+- **Next:** Jump ledge, then head to ladder.
 
 # Lessons Learned
 - **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
