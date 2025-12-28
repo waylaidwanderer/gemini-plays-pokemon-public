@@ -1,8 +1,9 @@
 # Current Status
-- **Location:** Route 26 (Arrival).
-- **Goal:** Fly to Cerulean City.
-- **Context:** Exiting Victory Road Gate to reach Flyable area.
-- **Next:** Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
+- **Status:** Back in Victory Road (North Entrance).
+- **Situation:** Flew to Indigo Plateau by mistake (navigation error on Fly map). Route 23 is No-Fly Zone.
+- **Task:** Must re-traverse Victory Road South to reach Route 26/22 to Fly.
+- **Route:** (13, 6) -> (13, 17) Ladder -> (13, 31) -> (1, 35) Ladder -> (1, 49) -> (9, 67) Exit.
+- **Next:** Reach Route 26 -> Fly to Cerulean (Carefully check destination!).
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
