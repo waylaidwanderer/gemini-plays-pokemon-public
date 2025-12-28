@@ -64,3 +64,6 @@
 - Muscle's Thunderpunch does ~30%.
 - Strategy: Use Thunderpunch again to chip. If Snorlax uses Rest, prepare to catch while asleep.
 - Note: 'smart_battle_move' with current_slot=2 and target_slot=2 should safely select the current cursor position (likely Thunderpunch or Strength).
+- Battle Update: Muscle used Thunderpunch (Low dmg). Snorlax used Rollout. Leftovers recovery.
+- Cursor Logic: Assuming cursor remains on Thunderpunch (Slot 2).
+- Plan: Continue using Thunderpunch to fish for Paralysis and chip HP. Avoid physical moves for now to prevent accidental KO.
