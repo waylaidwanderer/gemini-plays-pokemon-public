@@ -27,6 +27,6 @@
 - **Correction:** The "Cape" tip at (50-55, 4) is walled off from the land. The only access is via the water channel at x=56.
 - **Correction:** Access to the x=56 water channel is blocked on Route 25 by walls. Must access from Route 24 (Nugget Bridge) East side.
 - **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
-- **Correction:** The path South at x=11 (Route 25) is open (`FLOOR`) and leads to the East side of Route 24 (the grassy area).
-- **Plan:** Walk South from (11, 13) to Route 24 -> Surf North from the grassy area to reach the Cape (x=56).
-- **Discarded Plan:** No need to loop back to the West side (x=4) since x=11 provides direct access.
+- **Correction:** `FLOOR_UP_WALL` at Route 25 (15, 14) blocks South movement.
+- **Solution:** I was standing next to WATER at (16, 13) on Route 25! I don't need to go to Route 24.
+- **New Plan:** Return to Route 25 -> Go to (15, 13) -> Surf East into the water -> Navigate to Cape.
