@@ -20,7 +20,6 @@
 - Blackthorn Gym Entrance: (18, 11).
 - Trainers Defeated: Paul (1, 14), Mike (6, 6), Lola (9, 2) on 1F; Fran (4, 11), Cody (4, 1) on 2F.
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
-- Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (REVISED)
 - Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
@@ -37,10 +36,10 @@
   - 2F Pit (2, 5) -> 1F (2, 6)
   - 2F Pit (8, 7) -> 1F (7, 7)
   - 2F Pit (8, 3) -> 1F (7, 6)
-
-# Navigation & Battle Lessons
+- Navigation: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross. (Turn 29420)
 - Warp Safety: 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
-- Isolation: Isolated map areas (like Gym Island) require indirect paths (e.g., through 2F). (Turn 29420)
+
+# Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
 - Type Effectiveness: Dragon resists Fire/Electric. Use physical neutral moves (Return) for better DPS. (Turn 29459)
 
