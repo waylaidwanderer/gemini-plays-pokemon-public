@@ -22,7 +22,7 @@
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Reset floor via ladder at (17, 3). [DONE]
 2. Move to (11, 8). [DONE]
-3. Push Up to (11, 5). [CURRENT]
+3. Interact and Push Up to (11, 5). [CURRENT]
 4. Move to (12, 5).
 5. Push Left to (10, 5).
 6. Move to (10, 6).
