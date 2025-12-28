@@ -26,9 +26,8 @@
 1. Move to (11, 8). [DONE - T28481]
 2. Activate Strength. [DONE - T28484]
 3. Push Up to (11, 5). [DONE - T28486]
-4. Move to (12, 5). [NEXT]
-4. Move to (12, 5).
-5. Push Left to (10, 5).
+4. Move to (12, 5). [DONE - T28488]
+5. Push Left to (10, 5). [NEXT]
 6. Move to (10, 6).
 7. Push Up to (10, 1).
 8. Move to (9, 1).
