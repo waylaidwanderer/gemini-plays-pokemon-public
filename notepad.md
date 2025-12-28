@@ -31,10 +31,8 @@
   - **Key Locs:** PokeCenter (9, 29), Gym (34, 3), Dojo (26, 3), Silph Co (18, 21), Mr. Psychic (27, 29).
   - **Gates:** West (to R7), North (to R5), East (to R8), South (to R6).
 - **Route 7:** Locked Door (Underground Path), gap in ledges at x=12. Northern path leads to Celadon.
-- **Game Corner:** Located at (18, 19). Entrance at (18, 19).
-  - **Investigation:** Posters checked (nothing). "Lighter" slot found (no effect).
-  - **Interactions:** Fisher at (8, 10) gave 18 Coins. Fishing Guru at (11, 7) gave Coins.
-  - **Layout:** `COUNTER` tiles block movement.
-  - **Navigation:** Row 4 (y=4) is a clear path connecting all aisles (Cols 1-19).
-  - **Conclusion:** No Hideout here. Leftover "Lighter" script suggests features removed from Gen 2.
+- **Game Corner:** Located at (18, 19).
+  - **Obstacle:** A wall/fence at Y=21 blocks direct south movement from the entrance. Must go around via X=26 (East) or X=12 (West - but blocked by water).
+  - **Investigation:** No Hideout found.
+  - **Interactions:** Fisher (Coins), Guru (Coins).
 - **Gym Location:** Unknown. Need to explore city (likely South). Expecting a Cut tree.
