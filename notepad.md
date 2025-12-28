@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Interaction initiated. Text: "SNORLAX is snoring peacefully..."
-   - *Action:* Press A to advance. If radio is working, battle starts.
+   - *Status:* Interaction failed. Radio was NOT tuned (I didn't press A to enter the Radio screen).
+   - *Correction:* Close text -> Open Gear -> Select Radio (A) -> Tune UP to 20 -> Exit -> Interact.
    - *Battle Strategy:*
      - **Lead:** Muscle (Machoke Lv75).
      - **Chip:** Thunderpunch/Ice Punch.
