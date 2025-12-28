@@ -68,3 +68,6 @@
 - Jumped ledge at (11, 4) to return to main area.
 - Northern path was a dead end (Item only).
 - Now proceeding to (15, 18) to explore South past the cut tree.
+- Navigating South through the Cut Tree area.
+- Identified a gap in the ledges at (17, 21).
+- Hypothesis: This path loops West and then North to Pewter City (West side of Route 2).
