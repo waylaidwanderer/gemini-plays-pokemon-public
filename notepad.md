@@ -30,3 +30,7 @@
 - **Next:** Find Brock.
 - Landmark: Pewter Museum Sign at (15, 9).
 - Pewter Museum is closed for renovations.
+
+# Pewter Gym Notes
+- Leader uses Rock-type Pokémon.
+- Strategy: Use Muscle (Fighting) or Qaagmaqnjw (Water).
