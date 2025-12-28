@@ -43,7 +43,7 @@
   - Gym reset. Starting puzzle from scratch.
   - Goal: Fill (2, 5) and (8, 3).
   - (7, 7) bridge is active. 
-- Layout Corrections:
+  - Activating Strength at Boulder 6 (Turn 29636).- Layout Corrections:
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
 
