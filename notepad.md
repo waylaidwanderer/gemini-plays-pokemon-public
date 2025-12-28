@@ -31,3 +31,4 @@
 - Gengar (Lv 43)
 - Feraligatr (Lv 45)
 - Magneton (Lv 41)
+- **Sign (17, 7):** "MT.MOON SQUARE DON'T LITTER"
