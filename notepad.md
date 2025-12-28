@@ -49,6 +49,6 @@
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
 - **Current Status:** Standing at (5, 12). Lass Linda at (5, 11).
-- **Plan:** Dismiss dialogue. Check if Linda moves. If not, TEST WALLS at (4, 12) and (6, 12). One might be fake.
-- **Hypothesis:** Path is through a fake wall (visual Wall, acts like Floor).
-- **Gym Mechanics:** Invisible walls (Floor=Wall). Fake Walls (Wall=Floor)?
+- **Action:** Dismiss dialogue (Press B).
+- **Next Step:** TEST WALL at (4, 12). If real, test (6, 12). If both real and Linda stays put, BACKTRACK.
+- **Hypothesis:** One of the walls boxing me in is fake. Or Linda moves.
