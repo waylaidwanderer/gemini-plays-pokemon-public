@@ -1,15 +1,14 @@
 # Current Status
-- **Status:** On Route 26 (Outside Victory Road).
-- **Location:** (7, 6).
-- **Goal:** Fly to Cerulean City (via Saffron).
-- **Action:** Flying to Saffron City (Map navigation to Cerulean was inconsistent).
+- **Status:** In Saffron City.
+- **Location:** (9, 30).
+- **Goal:** Walk to Route 5 Gate (18, 3).
+- **Action:** Navigating West to avoid buildings, then North to the gate.
 
 # Future Strategy
-1. Land in Saffron City.
-2. Walk North to Route 5.
-3. Arrive in Cerulean City.
-4. Go North to Route 24/25.
-5. Find Misty at the Cape.
+1. Exit North to Route 5.
+2. Walk to Cerulean City.
+3. Go North to Route 24/25.
+4. Find Misty at the Cape.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
