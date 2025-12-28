@@ -61,3 +61,4 @@
 - **Game Corner:** Located at (18, 19). Investigating for Team Rocket Hideout.
 - **Game Corner Access:** Entrance is at (18, 19). Must wrap around the fence at x=26 to reach it.
 - **Prize Exchange:** Located at (23, 19).
+- **Suspicious Finding:** Slot machine at (18, 8) uses `CeladonGameCornerLighterScript` instead of the standard `LuckySlotMachine`. This is likely the secret switch.
