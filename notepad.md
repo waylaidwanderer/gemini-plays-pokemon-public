@@ -9,21 +9,21 @@
 - FLOOR: Walkable. Verified.
 - WALL: Impassable. Verified.
 - WATER: Needs Surf (HM03). Verified.
-- ICE: Sliding mechanic. Verified. You slide until you hit a wall, an object, or a non-ice tile.
+- ICE: Sliding mechanic. You slide until you hit a wall, an object, or a non-ice tile. Verified.
 - PIT: Warp to B2F. Verified.
 - BOULDER: Pushable with Strength (HM04). Verified.
 
 # B1F Boulder Puzzle
 - Start Turn: 28207.
-- Pit 3 (5, 12): COMPLETED with Boulder 3.
-- Pit 4 (12, 13): COMPLETED with Boulder 4.
+- Pit 3 (5, 12): COMPLETED with Boulder 3 (Object ID 3).
+- Pit 4 (12, 13): COMPLETED with Boulder 4 (Object ID 4).
 
 ## Boulder 1 Sequence (ID 1)
 1. Push Up to (11, 5). [DONE - T28361]
 2. Move to (12, 5). [DONE - T28362]
 3. Push Left to (10, 5). [DONE - T28363]
-4. Move to (10, 6). [NEXT]
-5. Push Up to (10, 1).
+4. Move to (10, 6). [DONE - T28367]
+5. Push Up to (10, 1). [NEXT]
 6. Move to (9, 1).
 7. Push Right to (11, 1).
 8. Move to (11, 0).
