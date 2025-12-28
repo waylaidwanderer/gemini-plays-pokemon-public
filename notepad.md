@@ -8,10 +8,10 @@
 - FLOOR: Walkable. Verified.
 - WALL: Impassable. Verified.
 - WATER: Needs Surf (HM03). Verified.
-- ICE: Sliding mechanic. Verified.
+- ICE: Sliding mechanic. Moving onto an ICE tile causes the player to slide in that direction until hitting a non-ICE tile, a wall, or an object. Verified.
 - PIT: Warp to B2F. Verified.
 - BOULDER: Pushable with Strength (HM04). Verified.
-- RESET MECHANICS: Boulders DO NOT reset when switching between B1F and B2F (via ladder or pit). Verified. (Turn 28527).
+- RESET MECHANICS: Leaving the floor via ladder or pit resets all boulders to their starting positions. Verified. (Turn 28531).
 
 # B1F Boulder Puzzle (All Pits Pending)
 - Start Turn: 28207.
@@ -21,10 +21,17 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Move to (9, 1). [NEXT]
-2. Push Right to (11, 1).
-3. Move to (11, 0).
-4. Push Down to (11, 2). [PIT]
+1. Reset floor via ladder at (17, 3). [CURRENT]
+2. Move to (11, 8).
+3. Push Up to (11, 5).
+4. Move to (12, 5).
+5. Push Left to (10, 5).
+6. Move to (10, 6).
+7. Push Up to (10, 1).
+8. Move to (9, 1).
+9. Push Right to (11, 1).
+10. Move to (11, 0).
+11. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8).
@@ -37,8 +44,6 @@
 8. Push Down to (4, 7). [PIT]
 
 # Lessons Learned
-- Boulders DO NOT reset when switching between B1F and B2F.
 - Wild battles: Prioritize escaping.
-- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. Verified.
 - Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process (same as the 'Select' button shortcut). To swap two Pokémon, select the first, choose "SWITCH", move to the second, and press 'A'. Verified.
-- Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified. (Turn 28527).
+- Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified. (Turn 28531).
