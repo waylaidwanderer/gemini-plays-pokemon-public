@@ -23,8 +23,8 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 22848)
-- **Status:** At Viridian City PC.
+# Reflection (Turn 22891)
+- **Status:** Navigating Route 2 Maze Northbound.
 - **Achievement:** Snorlax caught! Box 1 is now full (20/20).
 - **Goal:** Switch to Box 2 to enable future catches.
 - **Next:** Head North to Viridian Forest.
