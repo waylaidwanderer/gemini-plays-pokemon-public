@@ -73,7 +73,11 @@
 - **Plan:** Enter gap at (30, 29), circle back West to the door.
 - **Warden's Home:** (27, 27). Warden is on vacation. Safari Zone is closed.
 - **Pokemon Center:** Located near sign at (20, 27).
-- **Navigation Analysis:** The city is split into a "Left Sector" (Gym/PC) and "Right Sector" (Safari Zone) by a wall/ledge at x=23.
-- **Problem:** I am currently in the "Right Sector" (or the narrow connecting strip at y=32). The "Left Sector" is blocked from the South by ledges at y=31 and from the East by ledges at x=23.
-- **Solution:** Take the "Western Bypass". Go North to the Upper City (Row 21) via the gap at (24, 22). Travel West to x=1. Go South at x=1 to access the Left Sector (Row 28).
-- **Plan:** Navigate to (24, 21), then (1, 21), then South to (1, 28), then East to PC.
+- **Navigation Analysis:** The Gym/PC Enclave (West Sector) is walled off by ledges.
+- **Entrances:** 
+  - North: Blocked (FLOOR_UP_WALL).
+  - East: Blocked (LEDGE_HOP_RIGHT).
+  - West: Blocked (LEDGE_HOP_LEFT).
+  - South: Gap found at (4, 31)!
+- **Solution:** Navigate to the South Street (Row 32) via Column 24 (East side) or Column 1 (West side). Enter the Enclave from the South at x=4.
+- **Plan:** Go South to Row 32. Travel West to x=4. Enter gap. Go North to PC.
