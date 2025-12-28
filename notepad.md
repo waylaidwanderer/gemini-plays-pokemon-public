@@ -82,4 +82,4 @@
 - Pit (8, 3): Target for Boulder 3 (Done).
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- Current Status (Turn 29299): Reset 2F floor. Returning to 2F via (7, 9) to use the Row 13 bridge to reach the NW quadrant. [Time: Turn 29299]
+- Current Status (Turn 29302): On 1F (1, 7). Moving off and back onto the ladder to trigger the warp to 2F NW. [Time: Turn 29302]
