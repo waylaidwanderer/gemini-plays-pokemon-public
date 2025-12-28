@@ -22,9 +22,15 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Push Boulder 1 DOWN to (11, 8) to open path south. [CURRENT]
-2. Navigate to western/southern quadrants to solve other boulders.
-3. Return to Boulder 1: Push UP to (11, 5), then LEFT to (10, 5), then UP to (10, 1), then RIGHT to (11, 1), then DOWN into Pit 1.
+1. Reset floor (Complete).
+2. Detour to (11, 8) to push Boulder 1 UP. [CURRENT]
+   - Route: (11, 6) -> (10, 6) -> (10, 5) -> (9, 5) -> (9, 1) -> (17, 1) -> (18, 16) -> (11, 16) -> (11, 8).
+   - WARNING: Do NOT push Boulder 1 DOWN to (11, 8) as it becomes stuck against the wall at (11, 9).
+3. Push Boulder 1 UP to (11, 5).
+4. Move to (12, 5) and push Boulder 1 LEFT to (10, 5).
+5. Move to (10, 6) and push Boulder 1 UP to (10, 1).
+6. Move to (9, 1) and push Boulder 1 RIGHT to (11, 1).
+7. Move to (11, 0) and push Boulder 1 DOWN into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8).
@@ -37,8 +43,8 @@
 8. Push Down to (4, 7). [PIT]
 
 # Lessons Learned
-- Wild battles: Prioritize escaping.
-- Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process (same as the 'Select' button shortcut). To swap two Pokémon, select the first, choose "SWITCH", move to the second, and press 'A'. Verified.
-- Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified. (Turn 28531).
-- Boulders: Leaving the floor via ladder or pit RESETS all boulders to their starting positions. Verified. (Turn 28535).
-- Hypothesis: Strength must be re-activated after every floor transition or battle. Verified. (Turn 28568).
+- Wild battles: Prioritize escaping unless it's a Swinub or Jynx.
+- Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process. Verified.
+- Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified.
+- Boulders: Leaving the floor via ladder or pit RESETS all boulders. Verified.
+- Catch List: Swinub (Common), Jynx (Rare). Use Sleep Powder/Hypnosis.
