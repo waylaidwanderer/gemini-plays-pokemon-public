@@ -22,14 +22,18 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-- Current: (10, 1).
-1. Move to (9, 1). [NEXT]
-2. Push Right to (11, 1).
-3. Move to (11, 0).
-4. Push Down to (11, 2). [PIT]
+1. Move to (11, 8). [NEXT]
+2. Push Up to (11, 5).
+3. Move to (12, 5).
+4. Push Left to (10, 5).
+5. Move to (10, 6).
+6. Push Up to (10, 1).
+7. Move to (9, 1).
+8. Push Right to (11, 1).
+9. Move to (11, 0).
+10. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
-- Current: (7, 8).
 1. Move to (8, 8).
 2. Push Left to (5, 8).
 3. Move to (5, 9).
