@@ -13,6 +13,7 @@
 - Key Items: Clear Bell (Acquired)
 
 ## Suicune Tracking Log
+- [ ] Cianwood Battle: Verify Eusine is defeated at north shore.
 - [ ] Route 42 Encounter: Target (26, 15) - Clearing with 3 Apricorn trees.
 - [ ] Route 36 Encounter: Target location TBD.
 - [ ] Tin Tower Battle: Triggered after wild sightings.
