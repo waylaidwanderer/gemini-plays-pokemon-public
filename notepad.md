@@ -25,10 +25,10 @@
   - **Right Side (Cols 8-9):** Leads to Trainer (9, 4). Isolated from Center/Left by staggered walls at x=6,7.
   - **Left Side (Cols 1-5):** Likely path to Janine (4, 2).
   - **Crossover:** Must cross at Lobby (y=16).
-- **Plan:** Probe North along Column 1 (Leftmost path).
-- **Navigation:** Move to (1, 12). Probe (1, 11) [Unseen].
+- **Analysis:** Column 1 is a dead end (blocked by walls at y=11).
+- **Plan:** Move to (5, 12). Probe 'walls' at (4, 12) and (6, 12) for fake tiles. Confront Trainer at (5, 11).
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
-- **Clear Paths:** Lobby (y=16). Column 1 (y=12 to y=16) appears clear.
+- **Clear Paths:** Lobby (y=16). Column 5 up to y=12.
 
 # Quest Log
 - **Current Task:** Defeat Janine.
