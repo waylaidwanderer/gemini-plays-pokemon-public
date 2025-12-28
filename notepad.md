@@ -4,8 +4,9 @@
 3. **Get Silver Wing:** Done.
 
 # Current Status
-- **Location:** Route 4, heading East to Cerulean.
+- **Location:** Route 4, South side.
 - **Goal:** Reach Cerulean City.
+- **Barrier:** Wall at x=24 blocking direct East path. Attempting South route via ledges at y=13.
 - **Recent:** Defeated Bird Keeper Hank.
 
 # Tile Mechanics
