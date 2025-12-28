@@ -18,7 +18,7 @@
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
-- Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
+- Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 6) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 
 # Current Strategy: Return and Challenge Clair
@@ -31,7 +31,7 @@
   4. Traverse 2F to Ladder at (7, 9).
   5. Ladder at (7, 9) [2F -> 1F].
   6. Cross bridge to Clair at (5, 3).
-- Navigation Note: Navigate around NPCs at (1, 14) and (6, 8) in Gym 1F.
+- Navigation Note: Navigate around NPCs at (1, 14) and (6, 6) in Gym 1F.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
