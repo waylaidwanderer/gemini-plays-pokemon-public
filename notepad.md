@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Pokegear (Radio). Needle at max (20). Verifying Station.
-   - *Plan:* Pin to Max Frequency (Up x5) -> Check for "POKe FLUTE" text -> If verified, Exit -> Interact.
+   - *Status:* Radio Tuned to 20 (Poke Flute). Initiating Battle.
+   - *Plan:* Exit Pokegear (B, B) -> Move Up (to 34, 9) -> Interact (A).
    - *Battle Strategy:*
      - **Lead:** Machoke (Lv75).
      - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP (Machoke Low SpAtk vs Snorlax High SpDef). Avoid Cross Chop (OHKO risk).
