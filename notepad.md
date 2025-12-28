@@ -29,12 +29,13 @@
     - **Barriers:** The land area is walled off from the water channel.
     - **South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end, only reachable via the isolated pool at (42, 12).
     - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
-- **Route 24 Connectivity:** The bridge separates the West and East water channels.
+- **Route 24 Connectivity:**
+    - **West Channel:** Isolated dead end. Walls block access to Cerulean City East or the Bridge.
+    - **Hypothesis:** Must cross from West to East on Route 24 or Route 25 water.
 - **Current Strategy:**
-    1. Surf South from Route 25 (West side) to Route 24.
-    2. Continue South to Cerulean City's water area.
-    3. Loop around to the East side of the bridge on Route 24.
-    4. Surf North up the East channel to reach the Cape on Route 25.
+    1. Return North to Route 24.
+    2. Attempt to Surf East under the bridge.
+    3. If blocked, return to land on Route 25 (4, 15) and find a different exit from the "South Trap".
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
