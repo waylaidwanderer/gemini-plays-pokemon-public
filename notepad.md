@@ -24,3 +24,18 @@
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle: Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Proceeding to bypass.
+
+# Ice Path B2F (Blackthorn Side)
+- Start Turn: 29044
+- Goal: Find the exit to Blackthorn City.
+
+## Exploration
+- Just arrived from B3F via ladder at (3, 3).
+- Map appears to have a large ice section to the south and east.
+- Initial surroundings: FLOOR at (3, 3), (2, 3), (3, 1), (4, 1). WALL at (3, 0), (4, 0), (4, 3), (1, 1), (2, 1).
+- FLOOR_UP_WALL (ledge face) at (3, 4). Testing if it's a jumpable ledge or just a wall.
+
+## Strategy
+1. Explore the reachable floor areas near the ladder.
+2. Navigate the ice puzzle to find the exit.
+3. Record all new tile behaviors and obstacles.
