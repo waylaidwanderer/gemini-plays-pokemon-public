@@ -31,17 +31,18 @@
   6. Keep HP > 50% with Hyper Potions. Use XENON as fodder for safe healing.
 
 # Blackthorn Gym Layout & Boulders
-- 2F Boulders:
+- 2F Boulders (Initial Positions):
   - Boulder 6: (3, 3)
   - Boulder 7: (6, 1)
-  - Boulder 8: (8, 14)
+  - Boulder 8: (8, 14) (To be verified)
 - 2F Pits:
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
   - Pit (8, 7) -> 1F (7, 7) (Status: FILLED)
-- Progress (Start Turn: 29560):
-  - (7, 7) bridge is active. Need to fill (2, 6) and (7, 6).
-  - 2F Pits (2, 5) and (8, 3) correspond to these.
+- Progress (Start Turn: 29620):
+  - Gym reset. Starting puzzle from scratch.
+  - Goal: Fill (2, 5) and (8, 3).
+  - (7, 7) bridge is active. 
 - Layout Corrections:
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
