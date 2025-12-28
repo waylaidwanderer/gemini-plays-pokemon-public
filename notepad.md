@@ -1,8 +1,8 @@
 # Current Status
-- **Status:** In Cerulean City.
-- **Location:** (14, 32).
-- **Goal:** Reach Route 24 (North).
-- **Action:** Navigate East to (20, 32) to bypass the wall, then North through the gap.
+- **Status:** Crossing Nugget Bridge (Cerulean City -> Route 24).
+- **Location:** (21, 0).
+- **Goal:** Cross the bridge and defeat the 5 trainers.
+- **Action:** Move North to enter Route 24.
 
 # Future Strategy
 1. Cross Nugget Bridge (Route 24).
