@@ -34,5 +34,7 @@
 - **Game Corner:** Located at (18, 19).
   - **Obstacle:** A wall/fence at Y=21 blocks direct south movement from the entrance. Must go around via X=26 (East) or X=12 (West - but blocked by water).
   - **Investigation:** No Hideout found.
-  - **Interactions:** Fisher (Coins), Guru (Coins).
-- **Gym Location:** Unknown. Need to explore city (likely South). Expecting a Cut tree.
+  - **Interactions:** Fisher (Coins), Guru (Coins). Teacher at (21, 24) mentions slots.
+- **Gym Location:** Unknown. Searching South.
+  - **Hypothesis:** Gym is in the Southwest, possibly requiring Cut.
+  - **Path:** Exploring gap in the wall at (18, 26).
