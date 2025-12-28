@@ -31,15 +31,14 @@
     - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
 - **Route 24 Connectivity:**
     - **West Channel (Cerulean):** Dead end.
-    - **East Channel (Cerulean):** Accessible via Route 9 or potentially through the Burgled House (28, 17).
-    - **South Access:** Blocked by ledges. I am currently stuck in South Cerulean.
-    - **Recovery Plan:** Must cut the tree at (33, 24) to access Route 9 and the North side of Cerulean.
+    - **East Channel (Cerulean):** Accessible via Route 9 or Burgled House (28, 17).
+    - **South Access:** Blocked by ledges.
+    - **Recovery Plan:** Tree at (33, 24) appears static/uncuttable. Must use Fly to reach North Cerulean (PokeCenter).
 - **Current Strategy:**
-    1. Navigate to Cut Tree at (33, 24).
-    2. Cut the tree (Bellsprout has Cut).
-    3. Navigate North to Burgled House (28, 17).
-    4. Access East Channel/Route 9.
-    5. Surf North to Route 25 Cape.
+    1. Fly to Cerulean City (Target: PokeCenter at 19, 21).
+    2. Walk North to Burgled House (28, 17).
+    3. Access East Channel/Route 9.
+    4. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
