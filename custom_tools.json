@@ -73,5 +73,65 @@
         "action_counter": 27592
       }
     ]
+  },
+  "find_path_v11": {
+    "description": "Advanced pathfinding tool that handles land-water transitions and avoids obstacles. Uses global map_xml_string.",
+    "input_schema": {
+      "properties": {
+        "can_cut": {
+          "default": true,
+          "type": "boolean"
+        },
+        "can_surf": {
+          "default": true,
+          "type": "boolean"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "end_x",
+        "end_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\nimport sys\n\ndef solve():\n    global map_xml_string\n    if 'map_xml_string' not in globals() or not map_xml_string:\n        print(json.dumps([]))\n        return\n\n    input_data = {}\n    try:\n        raw_input = sys.stdin.read()\n        if raw_input:\n            input_data = json.loads(raw_input)\n    except:\n        pass\n        \n    root = ET.fromstring(map_xml_string)\n    if 'end_x' not in input_data or 'end_y' not in input_data:\n        print(json.dumps([]))\n        return\n        \n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_cut = input_data.get('can_cut', True)\n    can_surf = input_data.get('can_surf', True)\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            if has_player:\n                player_pos = (x, y)\n            \n            grid[(x, y)] = {\n                'type': t_type,\n                'has_object': has_object\n            }\n\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n\n    def get_buttons(path):\n        buttons = []\n        for i in range(len(path) - 1):\n            curr = path[i]\n            nxt = path[i+1]\n            if nxt[0] > curr[0]: buttons.append(\"Right\")\n            elif nxt[0] < curr[0]: buttons.append(\"Left\")\n            elif nxt[1] > curr[1]: buttons.append(\"Down\")\n            elif nxt[1] < curr[1]: buttons.append(\"Up\")\n        return buttons\n\n    queue = collections.deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    impassable_types = {'WALL', 'BUOY', 'COUNTER', 'HEADBUTT_TREE'}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            print(json.dumps(get_buttons(path + [(curr_x, curr_y)])))\n            return\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                \n                is_blocked = False\n                if tile['type'] in impassable_types: is_blocked = True\n                if tile['type'] == 'CUT_TREE' and not can_cut: is_blocked = True\n                if tile['type'] == 'WATER' and not can_surf: is_blocked = True\n                if tile['has_object'] and (nx != end_x or ny != end_y): is_blocked = True\n                \n                if not is_blocked:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [(curr_x, curr_y)]))\n    \n    print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    solve()",
+    "history": [
+      {
+        "commit_message": "Initial version of refined pathfinding tool for land/water transitions.",
+        "timestamp": "2025-12-28T06:02:21.601Z",
+        "action_counter": 27924
+      }
+    ]
+  },
+  "interact_with_tile_v2": {
+    "description": "Navigates to and interacts with a target tile. Uses global map_xml_string.",
+    "input_schema": {
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\nimport sys\n\ndef solve():\n    global map_xml_string\n    if 'map_xml_string' not in globals() or not map_xml_string:\n        print(json.dumps([]))\n        return\n\n    input_data = {}\n    try:\n        raw_input = sys.stdin.read()\n        if raw_input:\n            input_data = json.loads(raw_input)\n    except:\n        pass\n        \n    root = ET.fromstring(map_xml_string)\n    if 'target_x' not in input_data or 'target_y' not in input_data:\n        print(json.dumps([]))\n        return\n        \n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    \n    grid = {}\n    player_pos = None\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            if tile.find('Player') is not None: player_pos = (x, y)\n            grid[(x, y)] = {\n                'type': tile.get('type'),\n                'has_object': tile.find('Object') is not None\n            }\n\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n\n    def get_buttons(path):\n        buttons = []\n        for i in range(len(path) - 1):\n            curr = path[i]\n            nxt = path[i+1]\n            if nxt[0] > curr[0]: buttons.append(\"Right\")\n            elif nxt[0] < curr[0]: buttons.append(\"Left\")\n            elif nxt[1] > curr[1]: buttons.append(\"Down\")\n            elif nxt[1] < curr[1]: buttons.append(\"Up\")\n        return buttons\n\n    queue = collections.deque([(player_pos, [])])\n    visited = {player_pos}\n    impassable = {'WALL', 'BUOY', 'COUNTER', 'HEADBUTT_TREE'}\n    \n    best_path = None\n    best_adj = None\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if abs(curr_x - target_x) + abs(curr_y - target_y) == 1:\n            best_path = path + [(curr_x, curr_y)]\n            best_adj = (curr_x, curr_y)\n            break\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                if tile['type'] in impassable or tile['has_object']: continue\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(curr_x, curr_y)]))\n                \n    if best_path:\n        buttons = get_buttons(best_path)\n        if target_x > best_adj[0]: buttons.append(\"Right\")\n        elif target_x < best_adj[0]: buttons.append(\"Left\")\n        elif target_y > best_adj[1]: buttons.append(\"Down\")\n        elif target_y < best_adj[1]: buttons.append(\"Up\")\n        buttons.append(\"A\")\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    solve()",
+    "history": [
+      {
+        "commit_message": "Initial version of refined interaction tool.",
+        "timestamp": "2025-12-28T06:02:21.601Z",
+        "action_counter": 27924
+      }
+    ]
   }
 }
