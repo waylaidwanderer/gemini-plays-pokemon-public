@@ -11,38 +11,32 @@
 - TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
 
-# Suicune Quest Strategy (Crystal)
+# Suicune Quest Strategy (Crystal) - ABANDONED
 - Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Current Quest Start Turn: 27830.
-- Goal: Defeat the Wise Trio in Tin Tower 1F to access Suicune.
-- Plan: 
-  1. Talk to Sage Masa (14, 6). (DONE: Lore dialogue only).
-  2. Talk to Sage Gaku (11, 11). (DONE: Lore dialogue only).
-  3. Talk to Sage Koji (5, 9).
-  4. Defeat them in battle to access Suicune.
-- Clear Bell: Required for final encounter. (Status: Acquired).
+- Hypothesis Test (Turns 27899-27940): Possessing Clear Bell bypasses wild sightings.
+- Result: DENIED. Sages Masa, Gaku, and Koji only provide lore. No battle triggered.
+- Decision: Pivot to main story progression to avoid stagnation.
 
-### Hypothesis Testing: Suicune Sightings Bypass
-- **Hypothesis:** The Wise Trio battle in Tin Tower 1F can be triggered by possessing the Clear Bell, even if the overworld sightings on Route 42 and Route 36 were not witnessed.
-- **Test:** Talk to all three Sages (Masa, Koji, Gaku) in Tin Tower 1F and check if they initiate a battle.
-- **Status:** In progress (Masa: NO BATTLE).
-- **Failure Condition:** If the Sages do not battle, abandon Suicune quest and pivot to Blackthorn City (8th Badge).
+# Main Story Progression: 8th Gym Badge
+- Goal: Reach Blackthorn City and defeat Gym Leader Clair.
+- Current Status: 7 Badges.
+- Plan:
+  1. Exit Tin Tower and Ecruteak City.
+  2. Fly to Mahogany Town.
+  3. Travel East through Route 44.
+  4. Navigate Ice Path to reach Blackthorn City.
+  5. Challenge Blackthorn Gym.
 
-## Battle Strategy (Wise Trio)
-- Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
-- Sage Masa: Noctowl (32), Vaporeon (32). Counter: KIMCHI (Sleep Powder) or Calcifer (Thunderpunch).
-- Sage Koji: Noctowl (32), Jolteon (32). Counter: GNEISS (Earthquake).
-
-## Capture Strategy (Suicune)
-- Static Lv40 encounter in Tin Tower.
-- Lead: XENON (Gastly) Lv21 (Hypnosis). Risk: Underleveled.
-- Plan: Use Night Shade for fixed damage, Hypnosis for status.
-- Items: 43 Great Balls, 1 Ultra Ball.
+## Battle Strategy (Blackthorn Gym)
+- Gym Leader Clair: Dragon-types.
+- Counters: 
+  - GNEISS (Graveler): Earthquake/Rollout for general damage.
+  - Calcifer (Typhlosion): Thunderpunch for Gyarados/Kingdra (if applicable).
+  - Ravioli (Krabby): Needs training or replacement.
+  - KIMCHI (Gloom): Sleep Powder for status support.
 
 # Lessons Learned
-- Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
-- Tin Tower Sages: Dialogue "Tin Tower shook" (Turn 27084) is triggered by Clear Bell, NOT by sighting completion. Do not use as a progress indicator.
-- Wise Trio Room: If empty, sightings are incomplete.
-- Route 42 Trigger: (26, 15) is the clearing with three Apricorn trees. Must be reached on foot.
-- In Crystal, all outdoor sightings must be triggered before the Wise Trio appears.
-- If a scripted event doesn't trigger, re-verify previous flags and approach the area from different directions.
+- Suicune Sighting Sequence: Strictly sequential and mandatory. Clear Bell does NOT bypass sightings.
+- Decision Making: If a side quest stalls for >100 turns, pivot to main story progression.
+- Tin Tower Sages: Do not engage until wild sightings are confirmed in Pokedex or cutscene.
+- HM Usage: Whirlpool will be needed for Dragon's Den after the 8th Gym. Ensure a party member can learn it (Ravioli/Krabby can).
