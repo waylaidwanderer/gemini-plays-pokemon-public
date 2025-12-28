@@ -47,4 +47,4 @@
 - Turn 28021: Entered Ice Path 1F.
 
 # Capture Strategy: Delibird
-- Status: Caught! Nickname 'Parcel' in progress. (Turn 28042)
+- Status: Caught! Entered 'Parcel', confirming. (Turn 28044)
