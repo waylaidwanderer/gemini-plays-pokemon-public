@@ -40,3 +40,7 @@
 - **Battle Mechanic:** Cursor remembers last used move. Last used: Thunderpunch (Slot 2).
 - **Action:** Switching to Strength (Slot 1).
 - **Target:** Quagsire (Lv 42). Strength should KO.
+- **Battle Log:** Defeated Quagsire (Lv 42) with Strength.
+- **Next:** Starmie (Ace).
+- **Strategy:** Refuse switch. Use Thunderpunch (Slot 2). Starmie is Water/Psychic (Weak to Electric).
+- **Note:** Cursor will be on Strength (Slot 1) at start of turn.
