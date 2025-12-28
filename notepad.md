@@ -20,7 +20,7 @@
 
 # Strategies
 ## Fill Pit 1 (11, 2) with Boulder 1 (10, 1)
-- Current State: Boulder at (10, 1). Player in battle at (17, 14).
+- Current State: Boulder at (10, 1). Player in battle at (14, 16).
 - Steps:
   1. Escape battle.
   2. Navigate to (9, 1).
