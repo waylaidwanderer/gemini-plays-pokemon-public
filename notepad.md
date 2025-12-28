@@ -17,7 +17,6 @@
 
 # Active Quests
 - **Bill's Grandpa:** Wants Lickitung.
-- **Repel active:** Turn 22378 (Max Repel)
 
 # Lessons Learned
 - **Verification:** Always verify possession of Key Items.
