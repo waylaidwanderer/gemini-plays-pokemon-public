@@ -31,3 +31,4 @@
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
+- Note: Accidentally took the ladder at (3, 3) on B2F back to B3F. Navigating back to B2F. Be careful to avoid warp tiles in path plans.
