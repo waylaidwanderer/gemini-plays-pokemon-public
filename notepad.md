@@ -2,7 +2,7 @@
 - **Status:** On Route 26 (Outside Victory Road).
 - **Location:** (7, 6).
 - **Goal:** Fly to Cerulean City.
-- **Action:** Navigating Fly Map. Indigo Plateau (Top) -> Down -> Right -> Cerulean?
+- **Action:** Navigating Fly Map. Current: Saffron City. Pressing Up to find Cerulean.
 
 # Future Strategy
 1. Select Cerulean City on Map.
