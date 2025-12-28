@@ -100,3 +100,6 @@
 - Cutting tree at (12, 50) to access Viridian City.
 - Box 1 is Full (20/20). Priority: Reach Viridian PC.
 - Plan: Cut Tree -> West -> South to Viridian City.
+- Cut tree at (12, 50) successful.
+- Path West is open.
+- Proceeding West to find the road to Viridian City.
