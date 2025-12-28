@@ -1,8 +1,8 @@
 # Current Status
-- **Location:** Victory Road (1F).
-- **Goal:** Exit Victory Road South to reach a Flyable area.
-- **Context:** Just descended from 2F via ladder at (1, 35). Now on 1F at (1, 49).
-- **Next:** Walk to South Exit (9, 67) -> Exit to Route 23 -> Fly to Cerulean.
+- **Location:** Victory Road Gate.
+- **Goal:** Exit South to Route 26 to Fly.
+- **Context:** Just exited Victory Road. Need to reach outdoor area to Fly to Cerulean.
+- **Next:** Exit South -> Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
