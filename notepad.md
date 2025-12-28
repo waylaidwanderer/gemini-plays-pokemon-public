@@ -47,5 +47,5 @@
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Wild battles: Prioritize escaping.
 - Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. (Swap abandoned).
-- Menu Mechanics: To switch lead, use the 'A' button sub-menu "SWITCH" option. Shortcut "Select" is unreliable.
+- Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process (same as the 'Select' button shortcut). To swap two Pokémon, select the first, choose "SWITCH", move to the second, and press 'A'. Verified.
 - Verification: Game State warps at (5, 12) and (12, 13) indicate pits are NOT filled.
