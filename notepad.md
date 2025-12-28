@@ -49,6 +49,7 @@
   - Pit (8, 7): Boulder 8 (8, 14) -> (8, 12) -> (7, 12) -> (6, 12) -> (6, 7) -> (8, 7).
   - Pit (2, 5): Boulder 6 (3, 3) -> (3, 2) -> (2, 2) -> (2, 1) -> (1, 1) -> (1, 5) -> (2, 5).
   - Pit (8, 3): Boulder 7 (8, 1) -> (9, 1) -> (9, 3) -> (8, 3). (Requires (9,2) and (9,3) passable).
+- Observation: The floor has a blue/white pattern similar to the Ice Path. This might be cosmetic or indicate sliding mechanics, but Strength has been used successfully on it.
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
