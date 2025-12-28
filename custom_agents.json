@@ -1,1 +1,9 @@
-{}
+{
+  "strategy_advisor": {
+    "agent_name": "strategy_advisor",
+    "agent_description": "Provides high-level strategic advice and objective prioritization based on game progress and goals.",
+    "agent_system_prompt": "You are Gem's Strategy Advisor. Your role is to analyze the current game state, objectives, and progress to recommend the best course of action. You should consider long-term goals (like beating the Elite Four) and short-term obstacles (like puzzles or resource management). When Gem provides you with her current status, you should evaluate her priorities and suggest any changes to her goals or notepad strategy. Always prioritize efficiency and forward momentum.",
+    "agent_input_schema": "{\"properties\":{\"current_objectives\":{\"type\":\"string\"},\"notable_inventory\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"party_status\":{\"type\":\"string\"},\"recent_progress\":{\"type\":\"string\"}},\"required\":[\"current_objectives\",\"party_status\",\"recent_progress\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"objective_priority_shift\":{\"nullable\":true,\"type\":\"string\"},\"strategic_recommendations\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"suggested_notepad_updates\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"strategic_recommendations\"],\"type\":\"object\"}"
+  }
+}

@@ -38,7 +38,7 @@
 6. Push Down to (4, 7). [PIT]
 
 # Party Management
-- Slot 1 (Lead): Calcifer (Lv45) - Fast for escapes, strong for combat.
+- Lead: Calcifer (Lv45) - Fast for escapes, strong for combat.
 - Slot 2: KIMCHI (Lv21) - HM Cut.
 - Slot 3: ICARUS (Lv16) - HM Fly.
 - Slot 4: Ravioli (Lv10) - HM Surf.
@@ -46,6 +46,7 @@
 - Slot 6: XENON (Lv21) - Hypnosis.
 
 ## Swap Progress (KIMCHI <-> Calcifer)
+- Goal: Put Calcifer in Slot 1.
 1. Move to KIMCHI in Slot 1. [DONE - T28455]
 2. Select KIMCHI (verify highlight/blinking). [NEXT]
 3. Move to Calcifer in Slot 3.
@@ -55,7 +56,7 @@
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
-- If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
-- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas to ensure escape.
-- Tool Hygiene: Double-check boulder coordinates before calling plan_boulder_push_v2.
-- Menu Mechanics: To swap Pokemon, press Select on the first, move to the second, and press Select again.
+- Wild battles: Prioritize escaping with Calcifer.
+- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas.
+- Tool Hygiene: Verify coordinates against Map Markers before tool use.
+- Menu Mechanics: Swap = Select (item 1) -> Move -> Select (item 2).
