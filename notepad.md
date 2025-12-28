@@ -25,5 +25,5 @@
 ## History & Corrections
 - **Correction:** Abandoned "High Ground/West Corridor" search. It was a geographic hallucination. Route 4 does not connect to Route 24 water.
 - **Verified Path:** (15, 9) -> (23, 9) -> (23, 11) -> (26, 11).
-- **Gym Strategy:** Walk to (5, 9) via central bridge. Surf from (5, 9) to reach the back platform (Row 1).
-- **Tool Check:** `bfs_pathfinder` currently does not support surfing (treats WATER as obstacle). Will navigate to water edge then Surf manually.
+- **Gym Strategy:** Walk to (5, 7) (End of Bridge). Surf North from there to reach the back platform.
+- **Tool Check:** `bfs_pathfinder` handles walking. Surfing must be manual or new tool.
