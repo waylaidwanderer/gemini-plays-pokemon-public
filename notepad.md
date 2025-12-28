@@ -46,3 +46,6 @@
 - Attempt: Route 42 (26, 15) reached at Turn 27718, but no sighting triggered.
 - Hypothesis: Missing Eusine battle flag in Cianwood or sighting sequence is out of order.
 - Plan: Fly to Cianwood to verify Eusine's presence.
+- Verification: Eusine is NOT at (11, 17) in Cianwood City at Turn 27735. This confirms he was previously defeated.
+- Strategy: Returning to Route 42 to explore the entire central island (24, 13 area) to trigger the sighting. If that fails, I'll check Route 36.
+- Observation: Sages in Tin Tower Gatehouse (7, 10) say the tower shook, confirming Clear Bell is active. Sages in Tin Tower 1F are present but not battling, confirming sightings are incomplete.
