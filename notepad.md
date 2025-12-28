@@ -43,6 +43,7 @@
   - Silver blocks are WALLS. (Turn 29653)
   - Test 1 (Turn 29675): (5, 0) is a WALL.
   - Test 2 (Turn 29678): (7, 0) is a WALL.
+  - Test 3 (Turn 29679): Attempting to move into (9, 0).
   - Pushing a boulder: First press pushes it, second press moves player into its old tile.
   - All pits are empty after gym reset. (Turn 29620)
   - Column 4 is mostly WALL, gap at Row 13.
