@@ -44,3 +44,5 @@
 - Resolved: Previous input failure (mixed buttons) caused cursor to not move.
 - Current State: Pokegear Open, Cursor on BACK.
 - Plan: Use slow_press to navigate Right x3 to Radio, then A to select.
+- Inventory check: EXPN CARD is missing from GameState Key Items list. However, Radio UI shows scale up to 20 (past 15), suggesting the upgrade is active. Proceeding with tuning.
+- Tuning Plan: Press Up x5 to clamp to Channel 20 (Max). Check for 'POKE FLUTE' text next turn.
