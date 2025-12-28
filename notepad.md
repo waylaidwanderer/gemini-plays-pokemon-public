@@ -33,3 +33,11 @@
 - Turn 28021: Entered Ice Path. (Sat Dec 27, 11:00 PM)
 - Lesson: In menus, ALWAYS separate directional inputs from action inputs (A, B, Start, Select) into separate turns to avoid input truncation.
 - Turn 28078: Mandatory 50-turn reflection performed. Notepad updated.
+
+# Exploration Plan: Ice Path 1F
+- Goal: Reveal unseen tiles and find the path to the exit.
+- Step 1: Head north along the X=29/30 corridor to Row 14.
+- Step 2: Explore Row 14 to find a gap in the X=31 wall.
+- Step 3: Investigate the ice at X=32 and the item at (32, 23).
+- Step 4: Look for a ladder to B1F.
+- Status: Starting Step 1. (Turn 28079)
