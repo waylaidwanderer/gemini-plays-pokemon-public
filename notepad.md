@@ -23,8 +23,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23001)
-- **Status:** Defeated Brock in Pewter Gym.
-- **Achievement:** Earned Boulder Badge.
-- **Goal:** Heal, get Silver Wing, then Fly to Cerulean.
-- **Next:** Exit Gym.
+# Reflection (Turn 23004)
+- **Status:** In Pewter City. Defeated Brock.
+- **Goal:** Heal at Pokemon Center, then find Silver Wing man.
+- **Next:** Navigate through wall gap at (19, 21) to reach Center.
