@@ -52,16 +52,15 @@
 - DELIBIRD (Parcel): Lv 21.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (9, 11) to Pit 3 (5, 12)
-1. Push Down to (9, 12). [NEXT]
-2. Move to (10, 11) via (10, 12).
-3. Push Up to (9, 11).
-4. Push Left 4 times to (5, 11).
-5. Push Left to (4, 11).
-6. Move to (4, 10).
-7. Push Down to (4, 12).
-8. Move to (3, 12).
-9. Push Right to (5, 12) [Target: Pit 3].
+## Boulder 3 (9, 12) to Pit 3 (5, 12)
+1. Move to (9, 13) via (9, 11), (10, 11), (10, 12), (10, 13). [NEXT]
+2. Push Up to (9, 11).
+3. Move to (10, 11) via (10, 12).
+4. Push Left 5 times to (4, 11).
+5. Move to (4, 10) via (3, 10).
+6. Push Down to (4, 12).
+7. Move to (3, 12) via (3, 11).
+8. Push Right to (5, 12) [Target: Pit 3].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (6, 6) (requires long loop around top).
