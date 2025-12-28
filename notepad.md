@@ -13,9 +13,6 @@
 - Start Turn (B2F Blackthorn Side): 29044
 - Goal: Reach Blackthorn City.
 
-## Hypotheses
-- Item at (8, 16) was TM44 Rest. (Note: Labeled as 'Potential HM07' prior to collection).
-
 ## Strategy
 1. Walk to (6, 5) via northern corridor: (2,2)->(3,2)->(3,1)->(6,1)->(6,5).
 2. Move Down from (6, 5) onto ICE (6, 6). Slide Down to stop on FLOOR at (6, 8).
@@ -24,6 +21,9 @@
 5. Move Right from (0, 8) to slide to (3, 8).
 6. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
 7. Walk to exit ladder (3, 15).
+
+## Hypotheses
+- Item at (8, 16) was TM44 Rest. (Note: Labeled as 'Potential HM07' prior to collection).
 
 ## Reflection & Lessons Learned
 - Warp Pathing: Navigate tool does not avoid warp tiles. Use intermediate coordinates.
