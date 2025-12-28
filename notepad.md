@@ -5,7 +5,7 @@
 ## Boulder Stoppers (Confirmed)
 - Boulder 1: (11, 3). Status: Confirmed (Turn 29023).
 - Boulder 2: (4, 7). Status: Confirmed (Turn 29019).
-- Boulder 3: (3, 12). Status: To be verified.
+- Boulder 3: (3, 12). Status: Confirmed (Turn 29026).
 - Boulder 4: (12, 13). Status: Confirmed (Turn 29025).
 
 ## Sliding Sequence
