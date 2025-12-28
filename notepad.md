@@ -4,9 +4,12 @@
 - **Current State:** The center of Tin Tower 1F (3_4) is blocked by an inner ring of walls (statues). Suicune encounter is pending.
 - **Goal:** Trigger Suicune encounter on Tin Tower 1F.
 - **Plan:**
-  1. Navigate to the inner walkable ring around the central statues on 1F.
-  2. Walk around the statues at (9, 6-8) and (10, 6-8) to trigger the cutscene.
-  3. Use Xenon (Gastly) to trap Suicune with Mean Look and put it to sleep with Hypnosis.
+  1. Go to the "Wise Trio Room" (3_5) via Ecruteak City (20, 2).
+  2. Defeat the three Sages (Wise Trio) there.
+  3. Return to Tin Tower 1F (3_4) to encounter Suicune.
+  4. Navigate to the inner walkable ring around the central statues on 1F.
+  5. Walk around the statues at (9, 6-8) and (10, 6-8) to trigger the cutscene.
+  6. Use Xenon (Gastly) to trap Suicune with Mean Look and put it to sleep with Hypnosis.
 
 ## Suicune Capture Strategy
 - **Lead:** XENON (Gastly) Lv21.
