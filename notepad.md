@@ -28,9 +28,9 @@
   1. Exit Pokemon Center. (Done)
   2. Enter Gym at (18, 11) in Blackthorn City. (Done)
   3. Ladder at (1, 7) [1F -> 2F]. (In Progress)
-  4. Traverse 2F to Ladder at (7, 9).
-  5. Ladder at (7, 9) [2F -> 1F].
-  6. Cross bridge to Clair at (5, 3).
+  4. Traverse 2F to Ladder at (7, 9). (Done)
+  5. Ladder at (7, 9) [2F -> 1F]. (Done)
+  6. Cross bridge to Clair at (5, 3). (In Progress)
 - Navigation Note: Navigate around NPCs at (1, 14) and (6, 6) in Gym 1F.
 
 # Blackthorn Gym Layout Theory
