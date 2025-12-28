@@ -2,10 +2,10 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Status:** Checked Cape (East of House). Misty NOT found.
-- **Hypothesis:** Misty is at the 'High Ground' (North of Maze) or back at the Gym.
-- **Action:** Backtrack to start of Route 25 and check for Northern path.
-- **Target:** (10, 4) area.
+- **Status:** Searching for Northern Path / High Ground.
+- **Target:** (11, 4) (Start of Route 25 Maze).
+- **Hypothesis:** Access to northern unseen tiles is near the start.
+- **Backup Plan:** If High Ground is empty, check Cerulean Gym again.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
