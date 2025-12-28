@@ -56,3 +56,6 @@
 - Observation needed: Does text change to "POKE FLUTE"?
 - Radio Tuning Successful: 'POKé FLUTE' text confirmed near max frequency.
 - Action: Exiting Radio/Pokegear (B, B) and interacting with Snorlax (A) to trigger battle.
+- Snorlax woke up! Battle imminent.
+- Battle Plan: Lead with Muscle. Use weak moves (Ice Punch/Thunderpunch) to chip. Try to catch with Ultra Balls. If failing/low health, knock it out.
+- Snorlax is blocking Diglett's Cave entrance at (34, 7).
