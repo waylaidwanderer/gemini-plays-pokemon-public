@@ -30,3 +30,9 @@
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
 - B2F (Blackthorn Side): Reached (9, 8) at Turn 29060. Path to exit is clear.
+## Reflection & Lessons Learned (Turn 29061)
+- **Warp Pathing:** The `navigate` tool does not automatically avoid warp tiles (ladders, doors, exit mats) unless they are the destination. To avoid accidental floor changes, always use intermediate coordinates to steer the path plan around these tiles.
+- **Ledge Verification:** (3, 4) on B2F is a FLOOR_UP_WALL (ledge face) and is impassable from the North.
+- **B3F Rock:** The rock at (6, 6) on B3F requires Rock Smash. Since this move is currently unavailable, the item at (5, 7) is temporarily inaccessible.
+- **Ice Path Exit:** The ladder at (3, 15) on B2F is the primary target for exiting to Blackthorn City.
+- **Time Check:** Exploration of B3F/B2F (Blackthorn Side) began at Turn 29033. Total time in cave: ~30 turns. Progression is efficient.
