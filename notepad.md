@@ -29,3 +29,4 @@
 - **Goal:** Challenge Pewter Gym.
 - **Next:** Find Brock.
 - Landmark: Pewter Museum Sign at (15, 9).
+- Pewter Museum is closed for renovations.
