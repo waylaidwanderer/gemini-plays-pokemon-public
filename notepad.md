@@ -47,11 +47,14 @@
 
 ## Swap Progress (KIMCHI <-> Calcifer)
 - Goal: Put Calcifer in Slot 1.
-1. Exit KIMCHI's status screen. [DONE]
-2. Press Select on KIMCHI (verify highlight/blinking). [DONE - T28463]
-3. Move to Calcifer in Slot 3. [DONE - T28465]
-4. Press Select on Calcifer to swap. [NEXT]
+1. Move to KIMCHI in Slot 1. [NEXT]
+2. Press Select on KIMCHI (verify highlight/blinking).
+3. Move to Calcifer in Slot 3.
+4. Press Select on Calcifer to swap.
 5. Exit menu.
+
+# Failed Attempts (Swap)
+- Turn 28466: Pressed Select on Calcifer, but swap did not occur. Suspect KIMCHI was not correctly marked. restarting.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
