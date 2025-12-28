@@ -18,7 +18,7 @@
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29).
 - Emy's House: (29, 23). Inside: Lass wants to trade DODRIO for female DRAGONAIR.
-- Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
+- Sign at (34, 24): "A Quiet Mountain Retreat"
 - Ice Path Exit: (36, 9) on map 5_10.
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
@@ -45,18 +45,14 @@
 - **Turn Tracking:** Sourced from Game State Info.
 - **Warp Pathing:** Navigate tool does not avoid warps. Manually steer around.
 - **Boulder Tracking:** Link markers to object_id for moving objects.
-- **Pit Destinations:** Pit (2, 5) -> (2, 6) on 1F. Pit (8, 7) -> (7, 7) on 1F. Pit (8, 3) -> (7, 6) on 1F.
-
-# Blackthorn Gym Layout Theory
-- The gym is split into sections on both floors.
-- 1F Layout: West side contains Ladders (1, 7). East side island (7, 9).
-- 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West.
-- Strategy: Use 2F Row 13 to move between quadrants.
+- **Pit Destinations (Verified):** Pit (2, 5) -> 1F (2, 6). Pit (8, 7) -> 1F (7, 7). Pit (8, 3) -> 1F (7, 6).
 
 # Blackthorn Gym Puzzle Progress
 - Status: Verifying if floor reset (Turn 29336) restored Boulders 3 and 4 or if they remain in pits.
-- Pit Landing Spots (Hypothesis):
-  - Pit (8, 3) -> 1F (7, 6)
-  - Pit (2, 5) -> 1F (2, 6)
-  - Pit (8, 7) -> 1F (7, 7)
-- Current Status: Heading to 1F to check landing spots. [Time: Turn 29346]
+- Master Puzzle Plan (Turn 29347):
+  1. Check landing spots (2, 6), (7, 6), (7, 7) on 1F.
+  2. If boulders are missing, return to 2F and push them again.
+  3. Final Pit to fill: (8, 7). Target: Boulder 8 (8, 14) or Boulder 7 (6, 1).
+- SE Puzzle Plan (Plan B): Push Boulder 8 (8, 14) north to row 11, then right to col 9, then up to row 7, then left into pit (8, 7).
+- NW Puzzle Plan (Plan C): Use Boulder 6 to clear path for Boulder 4 if reset.
+- Verification: Stand at (6, 7) to see (7, 6) and (7, 7). Stand at (2, 7) to see (2, 6).
