@@ -13,6 +13,8 @@
   - Pharmacist (0,3): Claims Rocket Hideout in Game Corner basement (then retracted "3 years ago"). Suspicious.
   - Eusine (4,3): Visiting hometown.
   - Cooltrainer F (7,6): Warns that Erika is a master of Grass Pokemon and very tough.
+- **Outdoors:**
+  - Youngster (16, 13): Mentions hidden back door in Celadon Mansion.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
