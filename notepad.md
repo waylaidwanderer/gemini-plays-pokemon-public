@@ -24,7 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23098)
+# Reflection (Turn 23099)
 - **Status:** Battling Firebreather Burt on Route 3.
-- **Goal:** Defeat Burt.
-- **Next:** Advance text to see next opponent.
+- **Goal:** Defeat Burt's Slugma.
+- **Next:** Use Strength on Slugma.
