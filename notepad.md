@@ -15,8 +15,8 @@
 
 # B1F Boulder Puzzle
 - Start Turn: 28207.
-- Pit 3 (5, 12): COMPLETED with Boulder 3 (Object ID 3).
-- Pit 4 (12, 13): COMPLETED with Boulder 4 (Object ID 4).
+- Pit 3 (5, 12): COMPLETED with Boulder 3 (ID 3).
+- Pit 4 (12, 13): COMPLETED with Boulder 4 (ID 4).
 
 ## Boulder 1 Sequence (ID 1)
 1. Push Up to (11, 5). [DONE - T28361]
@@ -25,9 +25,9 @@
 4. Move to (10, 6). [DONE - T28367]
 5. Push Up to (10, 3). [DONE - T28371]
 6. Push Up to (10, 2). [DONE - T28372]
-7. Move to (10, 3). [NEXT]
-8. Push Up to (10, 1).
-9. Move to (9, 1).
+7. Push Up to (10, 1). [DONE - T28373]
+8. Move to (10, 2). [NEXT]
+9. Loop to (9, 1).
 10. Push Right to (11, 1).
 11. Move to (11, 0).
 12. Push Down to (11, 2). [PIT]
