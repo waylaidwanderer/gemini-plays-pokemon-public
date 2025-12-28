@@ -2,15 +2,10 @@
 ## Status & Progress
 - **Key Items:** Clear Bell (Acquired)
 - **Sightings:**
-  - Cianwood City: Confirmed (Observed at 10, 14; defeated Eusine at 11, 17)
-  - Route 42: Pending (Target: Middle area near Mt. Mortar/Apricorn trees)
-  - Route 36: Pending (Target: Near the Sudowoodo spot/Ruins of Alph)
-- **Narrative Flag:** Gatehouse Sage (4_1) confirmed "The TIN TOWER shook!"
-- **Sage Dialogue (Tin Tower 1F):**
-  - Gaku: Legend of Ho-Oh reviving the three beasts.
-  - Masa: Towers built 700 years ago for friendship.
-  - Koji: Legend of rainbow Pokemon testing humans.
-- **Current Objective:** Trigger Suicune sighting on Route 42.
+  - Cianwood City: Confirmed
+  - Route 42: Confirmed (Implicit: Wise Trio are in post-battle state)
+  - Route 36: Confirmed (Implicit: Wise Trio are in post-battle state)
+- **Current Objective:** Battle Suicune in the center of Tin Tower 1F (Map 3_4). The Wise Trio are confirmed defeated because they are providing lore dialogue instead of challenging the player.
 
 ## Capture Strategy (Tin Tower)
 - **Lead:** XENON (Gastly) Lv21.
