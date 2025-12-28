@@ -16,15 +16,16 @@
 - Current Quest Start Turn: 27830.
 - Goal: Defeat the Wise Trio in Tin Tower 1F to access Suicune.
 - Plan: 
-  1. Enter Tin Tower 1F via the Gatehouse (18, 11).
-  2. Talk to Sage Masa (14, 6), Sage Koji (5, 9), and Sage Gaku (11, 11).
-  3. Defeat them in battle to access Suicune.
+  1. Talk to Sage Masa (14, 6).
+  2. Talk to Sage Koji (5, 9).
+  3. Talk to Sage Gaku (11, 11).
+  4. Defeat them in battle to access Suicune.
 - Clear Bell: Required for final encounter. (Status: Acquired).
 
 ### Hypothesis Testing: Suicune Sightings Bypass
 - **Hypothesis:** The Wise Trio battle in Tin Tower 1F can be triggered by possessing the Clear Bell, even if the overworld sightings on Route 42 and Route 36 were not witnessed.
 - **Test:** Talk to all three Sages (Masa, Koji, Gaku) in Tin Tower 1F and check if they initiate a battle.
-- **Status:** In progress.
+- **Status:** In progress (Step 1: Talk to Masa).
 - **Failure Condition:** If the Sages do not battle, abandon Suicune quest and pivot to Blackthorn City (8th Badge).
 
 ## Battle Strategy (Wise Trio)
