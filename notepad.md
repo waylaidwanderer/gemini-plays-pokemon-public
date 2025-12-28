@@ -1,14 +1,14 @@
 # Current Status
 - **Status:** Backtracking from Victory Road 3F East.
-- **Location:** (18, 30).
-- **Action:** Jumping ledge at (18, 35) to reach return ladder.
+- **Location:** (14, 36) (In Battle).
+- **Action:** En route to Ladder (13, 31).
 - **Route:**
-    1. Jump Ledge (18, 35) to (18, 36).
-    2. Walk West to (13, 36).
+    1. Jump Ledge (18, 35) to (18, 36) [Done].
+    2. Walk West to (13, 36) [In Progress].
     3. Walk North to Ladder (13, 31).
     4. Take Ladder to 2F.
     5. On 2F, traverse to West Side (Column 1-3).
-- **Next:** Jump ledge, then head to ladder.
+- **Next:** Run from battle -> Continue to Ladder.
 
 # Lessons Learned
 - **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
