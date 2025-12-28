@@ -30,17 +30,17 @@
   6. Keep HP > 50% with Hyper Potions. Use XENON as fodder for safe healing.
 
 # Blackthorn Gym Layout & Boulders
-- 2F Boulders (Initial Positions):
+- 2F Boulders (Current Positions):
   - Boulder 6: (3, 3)
-  - Boulder 7: (6, 1)
-  - Boulder 8: (8, 14)
+  - Boulder 7: (7, 1)
+  - Boulder 8: (8, 14) (Off-screen)
 - 2F Pits (All empty after reset):
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
   - Pit (8, 7) -> 1F (7, 7)
 - Strategy: Fill all three pits to complete the bridge to Clair.
 - Verified Mechanics:
-  - Silver blocks are WALLS. (Turn 29653)
+  - Silver blocks are WALLS. (Turn 29653) - ***PENDING RE-VERIFICATION***
   - All pits are empty after gym reset. (Turn 29620)
   - Column 4 is mostly WALL, gap at Row 13.
   - Column 9 is a north-south corridor.
@@ -48,6 +48,7 @@
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at Row 13.
   - Row 13 passage at (4, 13) connects east/west sections.
+  - Boulder 7 was pushed Right from (6, 1) to (7, 1) at Turn 29674.
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
@@ -59,9 +60,9 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Manual Analysis (Turn 29650)
-- Observation: Row 0 tiles (silver blocks) are marked as WALL. If they are truly impassable, Boulder 7 at (6, 1) cannot be pushed down from its starting position.
+- Observation: Row 0 tiles (silver blocks) are marked as WALL. If they are truly impassable, Boulder 7 at (7, 1) cannot be pushed down.
 - Hypothesis 1: Row 0 tiles are actually passable FLOOR.
-- Test 1: Attempt to walk onto (5, 0).
+- Test 1 (Turn 29675): Attempt to walk onto (5, 0) from (5, 1).
 - Hypothesis 2: Boulder 7 must be pushed left/right to a gap in Row 0.
 - Observation: Column 4 is mostly WALL. Row 11 (Fran) and Row 13 are the only known east-west passages.
 - Strategy for Pit (2, 5): 
