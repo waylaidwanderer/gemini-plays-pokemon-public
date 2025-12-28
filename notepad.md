@@ -16,7 +16,7 @@
 2. Cianwood City: Confirmed at (10, 14).
 3. Route 42: Trigger at (26, 15). FAILED (Turn 27329).
 4. Route 36: Trigger at (35, 9). FAILED (Turn 27421).
-5. Troubleshooting: Route 42/36 sightings failed. Next step: Check Tin Tower Gatehouse for "tower shaking" dialogue (Wise Trio prerequisite).
+5. Troubleshooting: Sightings failed despite Clear Bell. Next: Precision search of Route 42 clearing.
 6. Tin Tower: Battle Wise Trio, then encounter Suicune.
 
 ## Battle Strategy (Wise Trio)
