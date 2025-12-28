@@ -19,7 +19,7 @@
 - Black Belt NPC: (25, 31).
 - Ice Path Exit: (36, 9) on map 5_10 (Warp from 3_61 at 36, 27).
 - Move Deleter's House: (9, 31).
-- Blackthorn Gym: (13, 21).
+- Dragon Speech House: (13, 21). Inside: Granny and Ekans.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
