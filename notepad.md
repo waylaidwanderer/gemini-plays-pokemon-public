@@ -72,5 +72,8 @@
 - **Navigation Correction:** The Pokemon Center entrance (27, 27) is enclosed. Access is via the gap at (30, 29).
 - **Plan:** Enter gap at (30, 29), circle back West to the door.
 - **Warden's Home:** (27, 27). Warden is on vacation. Safari Zone is closed.
-- **Pokemon Center:** Located near sign at (20, 27). Path requires going South to Row 32 to bypass the one-way ledge at x=23.
-- **Plan:** Circle South to (27, 32), West to (19, 32), then North to the Center.
+- **Pokemon Center:** Located near sign at (20, 27).
+- **Navigation Analysis:** The city is split into a "Left Sector" (Gym/PC) and "Right Sector" (Safari Zone) by a wall/ledge at x=23.
+- **Problem:** I am currently in the "Right Sector" (or the narrow connecting strip at y=32). The "Left Sector" is blocked from the South by ledges at y=31 and from the East by ledges at x=23.
+- **Solution:** Take the "Western Bypass". Go North to the Upper City (Row 21) via the gap at (24, 22). Travel West to x=1. Go South at x=1 to access the Left Sector (Row 28).
+- **Plan:** Navigate to (24, 21), then (1, 21), then South to (1, 28), then East to PC.
