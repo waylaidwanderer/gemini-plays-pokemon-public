@@ -29,8 +29,8 @@
 
 ## Boulder 1 Sequence (ID 1)
 1. Move to (11, 8). [DONE - T28358]
-2. Push Up to (11, 6). [NEXT]
-3. Move to (11, 7).
+2. Push Up to (11, 6). [DONE - T28360]
+3. Move to (11, 7). [NEXT]
 4. Push Up to (11, 5).
 5. Move to (12, 5).
 6. Push Left to (10, 5).
