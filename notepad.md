@@ -25,8 +25,8 @@
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
 # Current Status
-- **Location:** Route 4, heading East to Cerulean.
-- **Goal:** Reach Cerulean City.
+- **Location:** Route 4. Battling Bird Keeper Hank.
+- **Goal:** Defeat Pidgey and reach Cerulean City.
 
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
