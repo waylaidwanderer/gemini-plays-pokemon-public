@@ -4,9 +4,9 @@
 3. **Get Silver Wing:** Done.
 
 # Current Status
-- **Location:** Route 4, East end.
-- **Goal:** Enter Cerulean City.
-- **Recent:** Jumped final ledge at (35, 9). Path forward is clear.
+- **Location:** Arriving at Cerulean City (Route 4 Gate).
+- **Goal:** Explore Cerulean City and find Misty.
+- **Recent:** Defeated trainers on Route 4.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
