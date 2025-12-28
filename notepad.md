@@ -38,3 +38,5 @@
 - **Errors:** Radio tuning failure analyzed and corrected. Inventory assumption corrected.
 - Attempting to interact with Snorlax from (34, 9) or (34, 10).
 - If Snorlax doesn't wake, verify Radio Channel 20.
+- Discrepancy detected: ScreenText shows Pokegear active, but CurrentScreen shows Start Menu. Trusting CurrentScreen and inputs (B, Start).
+- Start Menu cursor is on POKEGEAR. Pressing A to open.
