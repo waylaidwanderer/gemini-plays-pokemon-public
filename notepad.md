@@ -15,10 +15,9 @@
 
 # Blackthorn City Exploration
 - Strategy:
-  1. Find the Blackthorn City Gym [Done: Turn 29225]
-  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
-  3. Solve Gym Puzzle (2F/1F)
-  4. Defeat Gym Leader Clair.
+  1. Defeat Gym Trainers for EXP [Current: Turn 29227]
+  2. Solve Gym Puzzle (2F/1F)
+  3. Defeat Gym Leader Clair.
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29). Sign at (22, 29).
@@ -37,6 +36,11 @@
 # Blackthorn Gym Exploration
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 - Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
+
+# Current Battle: Cooltrainer Paul
+- Opponent: Cooltrainer Paul
+- Team: Dratini (Lv34)
+- Strategy: Use Calcifer's Headbutt for neutral damage and flinch chance. Calcifer is much higher level and should 1-2HKO.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
