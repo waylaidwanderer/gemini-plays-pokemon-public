@@ -18,10 +18,11 @@
 1. Position: Player at (11, 1) facing Boulder 1 at (10, 1).
 2. Action: Activate Strength.
 3. Navigate to Section 1 (Left) via Row 9 gap at (8, 9).
+    - Path: (11, 1) -> (12, 1) (slide) -> (17, 1) (slide) -> (17, 4) (slide) -> (17, 9) (walk) -> (8, 9) (gap) -> (7, 9) (Section 1).
 4. Move to (7, 1) in Section 1.
 5. Move RIGHT from (7, 1). Slide on ice until hitting Boulder 1 at (10, 1). Stop at (9, 1).
 6. Push Boulder 1 RIGHT to (11, 1). (Player at 10, 1).
-7. Navigate around the pit to (11, 0). (e.g., via Row 0).
+7. Navigate to (11, 0).
 8. Push Boulder 1 DOWN into Pit 1 (11, 2).
 
 ## Fill Pit 2 (4, 7) with Boulder 2 (5, 6)
