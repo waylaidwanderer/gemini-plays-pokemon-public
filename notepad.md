@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
    - *Status:* EXPN Card CONFIRMED.
-   - *Plan:* Exit Radio Tower -> Fly to Vermilion -> Stand next to Snorlax -> Tune Radio to Poke Flute -> Wake Snorlax.
+   - *Plan:* Fly to Vermilion City -> Stand next to Snorlax -> Tune Radio to Poke Flute -> Wake Snorlax.
    - *Battle Strategy:*
      - **Lead:** Machoke (Lv75).
      - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP. Avoid Cross Chop.
