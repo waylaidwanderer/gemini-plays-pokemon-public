@@ -28,3 +28,4 @@
 - **Achievement:** Snorlax caught! Box 1 is now full (20/20).
 - **Goal:** Switch to Box 2 to enable future catches.
 - **Next:** Head North to Viridian Forest.
+- Found Max Potion at Route 2 (2, 23).
