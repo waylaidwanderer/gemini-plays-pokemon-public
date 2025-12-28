@@ -65,3 +65,4 @@
 - **Game Corner Investigation:** Interacted with slot machine at (18, 8). Found a lighter. No obvious immediate effect, but checking for hidden stairs in the top area.
 - **Layout:** Rows 2-3 appear to be a dividing wall. Attempting to flank left to reach the northernmost area (Row 1).
 - **Blocked Path:** The path at (13, 4) appears blocked despite looking like a floor tile. Attempting to cross to the left side via the bottom path (Row 13).
+- **Tool Note:** `bfs_pathfinder` attempted to route through a COUNTER tile at (13, 5). It may not recognize COUNTER as an obstacle. Manually routing around obstacles may be safer.
