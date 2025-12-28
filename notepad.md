@@ -13,7 +13,7 @@
 # Blackthorn Gym Layout & Boulders
 - 2F Boulders (Initial Positions):
   - Boulder 6: (3, 3)
-  - Boulder 7: (8, 1)
+  - Boulder 7: (6, 1)
   - Boulder 8: (8, 14)
 - 2F Pits:
   - Pit (2, 5) -> 1F (2, 6)
