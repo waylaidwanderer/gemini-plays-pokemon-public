@@ -1,5 +1,5 @@
 # Current Status
-- **Location:** Route 16.
+- **Location:** Route 16 (West of Gatehouse).
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
   1. Traverse Route 16 West to Cycling Road.
