@@ -20,17 +20,13 @@
 - Exit Ladder: (3, 15).
 
 ## Strategy
-1. Walk to (9, 3).
-2. Slide Down from (9, 4) to reach the southern ice area.
-3. Slide Left to (6, 7) (stopped by WALL at (5, 7)).
-4. Slide Up from (6, 7) to stop on FLOOR at (6, 5).
-5. Walk to (6, 6) and slide Down to stop on FLOOR at (6, 8).
-6. Walk to (5, 8) and jump West over LEDGE_HOP_LEFT at (4, 8) to land on (3, 8) (ICE).
-7. Slide Down from (3, 8) through ICE to stop on FLOOR at (3, 14).
-8. Walk to exit ladder at (3, 15).
+1. Walk West from (9, 8) to (5, 8) (all FLOOR).
+2. Jump West over LEDGE_HOP_LEFT at (4, 8) to land on (3, 8) (ICE).
+3. Slide Down from (3, 8) through ICE to stop on FLOOR at (3, 14).
+4. Walk to exit ladder at (3, 15).
 
 ## History (Archive)
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
-- B2F (Blackthorn Side): Reached (8, 3) at Turn 29059. Identified slide path to exit.
+- B2F (Blackthorn Side): Reached (9, 8) at Turn 29060. Path to exit is clear.
