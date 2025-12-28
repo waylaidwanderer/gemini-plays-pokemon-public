@@ -1,8 +1,8 @@
 # Current Status
-- **Status:** Exiting Victory Road 1F.
-- **Location:** (9, 67) (Victory Road Exit).
-- **Goal:** Trigger Warp to Gatehouse.
-- **Action:** Step Up, then Down into the Warp.
+- **Status:** Inside Victory Road Gate.
+- **Location:** (9, 1).
+- **Goal:** Exit South to Route 26.
+- **Action:** Talk to Black Belt, then walk South past Officer.
 
 # Future Strategy (Post-Victory Road)
 1. Enter Gatehouse.
