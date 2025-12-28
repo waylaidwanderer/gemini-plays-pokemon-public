@@ -135,7 +135,7 @@
     ]
   },
   "get_reachable_unseen_tiles": {
-    "description": "Finds all unseen tiles that are directly adjacent to reachable, passable tiles on the current map.",
+    "description": "Finds all unseen tiles that are directly adjacent to reachable, passable tiles on the current map. Returns a JSON array of coordinates.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -151,12 +151,17 @@
         "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run(input_data):\n    xml_string = map_xml_string\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    \n    root = ET.fromstring(xml_string)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tile_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            grid[(x, y)] = {'type': tile_type, 'seen': seen}\n            \n    reachable = set()\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    \n    passable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'WATER']\n    \n    while queue:\n        cx, cy = queue.popleft()\n        reachable.add((cx, cy))\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                if grid[(nx, ny)]['seen'] and grid[(nx, ny)]['type'] in passable_types:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n    \n    unseen_reachable = set()\n    for rx, ry in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['seen']:\n                unseen_reachable.add((nx, ny))\n    \n    print(json.dumps(sorted(list(unseen_reachable))))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\n# map_xml_string and input_data are provided by the harness\n\nroot = ET.fromstring(map_xml_string)\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\n\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        tile_type = tile.attrib['type']\n        seen = tile.attrib['seen'] == 'true'\n        grid[(x, y)] = {'type': tile_type, 'seen': seen}\n        \nreachable = set()\nqueue = deque([(start_x, start_y)])\nvisited = set([(start_x, start_y)])\n\n# Passable types including WATER for surfing\npassable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'WATER']\n\nwhile queue:\n    cx, cy = queue.popleft()\n    reachable.add((cx, cy))\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) in grid and (nx, ny) not in visited:\n            if grid[(nx, ny)]['seen'] and grid[(nx, ny)]['type'] in passable_types:\n                visited.add((nx, ny))\n                queue.append((nx, ny))\n\nunseen_reachable = set()\nfor rx, ry in reachable:\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = rx + dx, ry + dy\n        if (nx, ny) in grid and not grid[(nx, ny)]['seen']:\n            unseen_reachable.add((nx, ny))\n\nprint(json.dumps(sorted(list(unseen_reachable))))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-28T06:20:54.963Z",
         "action_counter": 27975
+      },
+      {
+        "commit_message": "Fixed the tool to execute the logic and print the result properly. Removed function wrapping to ensure execution in the harness environment.",
+        "timestamp": "2025-12-28T06:21:58.588Z",
+        "action_counter": 27977
       }
     ]
   }
