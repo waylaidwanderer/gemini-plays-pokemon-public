@@ -29,7 +29,7 @@
   1. Defeat Gym Trainers for EXP [Done]
   2. Solve Gym Puzzle (2F/1F) [In Progress]
   3. Defeat Gym Leader Clair.
-- Trainers Defeated: Paul (1, 15) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
+- Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
 # Strategy: Gym Leader Clair
