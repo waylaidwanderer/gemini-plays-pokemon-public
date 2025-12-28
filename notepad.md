@@ -145,3 +145,6 @@
 - Map Analysis: Row 12 is a wall blocking South on the West side.
 - Path to Pewter likely requires going East to x=14 to bypass the wall.
 - Fruit Tree at (10, 14) appears inaccessible from current position due to Row 12 wall. Need to find entrance (Cut tree?).
+- Entered Route 2 Nugget House.
+- Investigating Fisher NPC.
+- Search for exit to Pewter City (North or West?).
