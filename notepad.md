@@ -20,6 +20,8 @@
 - Ice Path Exit: (36, 9) on map 5_10 (Warp from 3_61 at 36, 27).
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini (Ekans sprite).
+- Gym Sign: (17, 13).
+- Water area: (12, 12) to (15, 13).
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
