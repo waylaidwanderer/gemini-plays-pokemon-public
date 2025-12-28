@@ -1,77 +1,26 @@
 # Current Status
-- **Status:** Navigating Victory Road 1F to Exit.
-- **Location:** (2, 53) (1F West).
+- **Status:** Exiting Victory Road 1F.
+- **Location:** (2, 53).
 - **Goal:** Reach Exit at (9, 67).
-- **Path:** South to Ledge (2, 61) -> Jump Down -> South to (2, 66) -> East to Exit.
+- **Path:** South to Ledge (2, 61) -> Jump -> South to (2, 66) -> East to Exit.
+
+# Future Strategy (Post-Victory Road)
+1. Enter Gatehouse.
+2. Exit to Route 22/26.
+3. Fly to Cerulean City.
+4. Go North to Route 24/25.
+5. Find Misty at the Cape.
 
 # Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as a WALL when moving UP into it. Acts as a FLOOR when moving DOWN/LEFT/RIGHT into it. Visual barrier for tiles "behind" it.
-- **LEDGE_HOP_DOWN:** One-way movement DOWN. Cannot move UP, LEFT, or RIGHT onto it.
-- **PIT:** Warps player to the floor below.
+- **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
+- **LEDGE_HOP_DOWN:** One-way movement DOWN.
+- **PIT:** Warps to floor below.
 
 # Victory Road Map Structure
-- **Vertical Layout:** Single map ID 3_91 contains all floors.
-- **3F (Top):** Rows 0-23. East side has ladder (13, 17). Gap at (16, 15) connects East to Main.
-- **2F (Middle):** Rows 24-47. East side (13, 31) is isolated. West side has ladder (1, 35).
-- **1F (Bottom):** Rows 48-71. Ladder (1, 49) connects to 2F. Exit at (9, 67).
-- **Connection:** (13, 17) <-> (13, 31). This East path is a dead end on 2F. Must cross to West on 3F.
+- **1F (Bottom):** Rows 48-71. Exit at (9, 67).
+- **2F (Middle):** Rows 24-47.
+- **3F (Top):** Rows 0-23.
 
-# Lessons Learned
-- **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
-- **Victory Road:** The ladder at (13, 17) leads to a dead end on 3F. The correct path uses the ladder at (17, 19).
-
-# Strategic Goals
-1. **Earn Cascade Badge:** Defeat Misty.
-2. **Collect Badges:** Thunder, Marsh, Boulder (Done). Cascade (Next).
-
-# Rival Silver Roster (Last Known)
-- Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
-
-# Tile Mechanics
-- **FLOOR:** Standard traversable tile.
-- **WALL:** Impassable obstacle.
-- **WATER:** Traversable only with Surf.
-- **TALL_GRASS:** Traversable, chance of wild encounters.
-- **LEDGE_HOP_DOWN:** One-way movement South. Impassable from other directions.
-- **LEDGE_HOP_RIGHT:** One-way movement East. Impassable from other directions.
-- **LEDGE_HOP_LEFT:** One-way movement West. Impassable from other directions.
-- **CUT_TREE:** Obstacle. Removable with Cut HM.
-- **LADDER:** Warps to another map or floor.
-- **DOOR:** Warps to another map or interior.
-
-# Route 25 Observations
-- **The Cape (Target):** Located at the far east (x=56), accessible only via water.
-- **Barriers:** The land area is walled off from the water channel.
-- **South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end, only reachable via the isolated pool at (42, 12).
-- **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
-
-# Route 24 Connectivity
-- **West Channel (Cerulean):** Dead end.
-- **East Channel (Cerulean):** Accessible via Route 9 or Burgled House (28, 17).
-- **South Access:** Blocked by ledges.
-- **Current Action:** Attempting to Fly from South of Indigo Plateau (Route 23 is No Fly Zone).
-
-# Current Strategy
-1. Move South to Gatehouse (Victory Road Gate).
-2. Exit Gatehouse to outdoor area (Route 22 or 26).
-3. Fly to Cerulean City.
-4. Walk North to Burgled House (28, 17).
-5. Access East Channel/Route 9.
-6. Surf North to Route 25 Cape.
-- **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
-
-# Wild Pokemon Locations
-- **Route 24/25 (Water):** Goldeen
-- **Victory Road:** Graveler, Rhyhorn, Sandslash
-- **Fly Map Navigation:**
-    - Indigo Plateau -> Down -> Saffron City.
-    - Saffron City -> Up -> Indigo Plateau (Unexpected! result).
-    - **Conclusion:** Saffron and Indigo are vertically linked. Cerulean might be `Right` from Pewter or `Up` from Vermilion/Lavender.
-- **Current Status:**
-    - Landed at Indigo Plateau (Route 23).
-    - Cannot Fly from here (No-Fly Zone).
-    - Must walk South to Gatehouse (16_2).
-    - **Hope:** Gatehouse connects to Route 22 (Viridian) to Fly.
-    - **Fear:** Gatehouse connects to Victory Road (Must traverse again).
-- **Next Action:** Walk South -> Enter Gatehouse.
-- Found TM26 (Earthquake) at (3, 28) on 2F West.
+# Key Locations
+- **Cape (Route 25):** Target. East side.
+- **Burgled House (Cerulean):** Access to Route 9/Water.
