@@ -2,21 +2,19 @@
 - Attempt Start: Turn 28546 (Sunday, Dec 28, 4:26 AM).
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 - B1F Layout: Brown floor tiles are NOT slippery. Northern corridor (Rows 1-2) has ICE tiles.
-- Status: B1 at (11, 5). B2 at (5, 6). B3 and B4 locations unverified. Path from (15, 13) to (12, 5) confirmed via Middle Side and Row 1 bridge.
+- Status: B1 at (11, 5). B2 at (5, 6). B3 and B4 unverified.
 
 ## Strategy: Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Position at (11, 7). (Done).
-2. Push UP to (11, 5). (Done).
-3. Move to (12, 5), push LEFT to (10, 5).
-4. Move to (10, 6), push UP to (10, 1).
-5. Move to (9, 1), push RIGHT to (11, 1).
-6. Move to (11, 0), push DOWN into Pit 1 (11, 2).
+1. Position at (12, 5).
+2. Push LEFT to (10, 5).
+3. Move to (10, 6), push UP to (10, 1).
+4. Move to (9, 1), push RIGHT to (11, 1).
+5. Move to (11, 0), push DOWN into Pit 1 (11, 2).
 
 ## Strategy: Boulder 2 (ID 2) -> Pit 2 (4, 7)
-1. Push UP to (5, 6). (Done).
-2. Navigate to (6, 6) via loop.
-3. Push LEFT to (4, 6).
-4. Move to (4, 5), push DOWN into Pit 2 (4, 7).
+1. Navigate to (6, 6) via loop.
+2. Push LEFT to (4, 6).
+3. Move to (4, 5), push DOWN into Pit 2 (4, 7).
 
 # Game Mechanics & Discoveries
 ## Tile Mechanics
@@ -24,7 +22,7 @@
 - ICE (B1F Rows 1-2): Sliding mechanic.
 - PIT: Warp to B2F. Filling a pit creates a stopper on B2F.
 - BOULDER: Boulders on floor reset on ladder use. Boulders in pits are permanent.
-- STRENGTH: Must be re-activated after battle or floor change. Verified.
+- STRENGTH: Deactivates after battle or floor change. Verified.
 
 ## Encounters
 - Golbat (Lv25) at (5, 9).
