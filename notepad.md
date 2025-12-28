@@ -27,5 +27,6 @@
 - **Correction:** The "Cape" tip at (50-55, 4) is walled off from the land. The only access is via the water channel at x=56.
 - **Correction:** Access to the x=56 water channel is blocked on Route 25 by walls. Must access from Route 24 (Nugget Bridge) East side.
 - **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
-- **Route 24/25 Connection:** To reach the East water channel on Route 24 (to Surf to Misty), I must enter Route 25, cross the wall at (14, 13), go East to x=15, and then South back into Route 24.
-- **Path:** Route 24 (11,0) -> Up to Route 25 -> (11,13) -> Right to (15,13) -> Down to Route 24 (15,0) -> Water.
+- **Route 24/25 Connection:** Crossed gap at (14, 13). Now on East side. Heading South to Route 24 water access.
+- **Path:** (15,13) -> Down to Route 24 (15,0) -> Water.
+- **Hypothesis:** Tile type `FLOOR_UP_WALL` at (15,14) is likely a one-way ledge allowing movement South.
