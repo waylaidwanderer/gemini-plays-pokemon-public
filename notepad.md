@@ -151,3 +151,7 @@
 - Route 2 Nugget House appears to have no North exit (64/64 tiles seen).
 - Only warps are South (Exit to Route 2).
 - Plan: Talk to Fisher -> Exit House -> Check for cuttable trees or hidden paths East of the wall.
+- Received NUGGET from Fisher.
+- House is a dead end (no back exit).
+- Action: Exiting to Route 2 to continue search for path to Pewter City.
+- Check: Can I go further South on Route 2 East side? Or is there a cuttable tree?
