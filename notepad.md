@@ -88,3 +88,6 @@
 - Goal: Reach Pewter City (north exit).
 - Catch: Diglett or Dugtrio on the way.
 - Mechanics: Diglett's Cave connects Vermilion (South) to Route 2 (North).
+- Warped from (5, 31) to (17, 33).
+- Mechanics: Ladders connect separated sections of the cave.
+- Current Location: Bottom-Right section. Exploring West.
