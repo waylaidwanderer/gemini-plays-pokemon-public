@@ -4,7 +4,7 @@
 - WATER: Traversable only with Surf.
 - BUOY: Impassable boundary in water.
 - WARP_CARPET: Triggers map transition when walked off the map edge.
-- HEADBUTT_TREE: Can be interacted with using Headbutt.
+- HEADBUTT_TREE: Blocking object; can be interacted with using Headbutt.
 - CUT_TREE: Blocking object; requires HM01 Cut and interaction from adjacent tile to remove.
 - CAVE: Map transition entry point.
 - TALL_GRASS: Walkable; triggers wild battles.
