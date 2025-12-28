@@ -54,3 +54,5 @@
 - Hypothesis: Poke Flute is at Channel 20.0. Need to tune down slightly to find the exact frequency.
 - Action: Pressing 'Down' to decrease frequency.
 - Observation needed: Does text change to "POKE FLUTE"?
+- Radio Tuning Successful: 'POKé FLUTE' text confirmed near max frequency.
+- Action: Exiting Radio/Pokegear (B, B) and interacting with Snorlax (A) to trigger battle.
