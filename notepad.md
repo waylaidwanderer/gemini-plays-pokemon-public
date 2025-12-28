@@ -79,3 +79,5 @@
 - Navigating South through gap at (17, 23).
 - Found building entrance at Row 26. Investigating if this connects to West side or Viridian.
 - Backup Plan: Backtrack to Diglett's Cave and check North of (12, 7) (previously skipped).
+- Marking and entering building at (17, 27).
+- Hope: This connects to the West side of Route 2 (North path to Pewter) or is a gatehouse.
