@@ -82,4 +82,6 @@
 - **Target:** Pokemon Center entrance likely at (19, 27) or (18, 27). Navigating to (19, 28) to find it.
 - **Janine Impersonator:** Confirmed just a fan.
 - **Gym Location:** Building at (8, 27). Sign at (5, 29).
-- **Next Step:** Exit PokeCenter, travel West to the Gym. Challenge the real Janine.
+- **Progress:** Entered Fuchsia Gym (17_8).
+- **Goal:** Navigate the invisible walls (presumably) to reach Janine.
+- **Immediate:** Talk to Gym Guide for tips.
