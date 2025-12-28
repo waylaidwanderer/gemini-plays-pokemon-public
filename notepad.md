@@ -36,3 +36,5 @@
 - **Tools:** Pathfinding and Battle tools are performing well.
 - **Goals:** Clear. Wake Snorlax -> Diglett's Cave.
 - **Errors:** Radio tuning failure analyzed and corrected. Inventory assumption corrected.
+- Attempting to interact with Snorlax from (34, 9) or (34, 10).
+- If Snorlax doesn't wake, verify Radio Channel 20.
