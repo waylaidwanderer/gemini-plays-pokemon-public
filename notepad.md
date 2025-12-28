@@ -56,3 +56,8 @@
 - SE Puzzle Plan (Plan B): Push Boulder 8 (8, 14) north to row 11, then right to col 9, then up to row 7, then left into pit (8, 7).
 - NW Puzzle Plan (Plan C): Use Boulder 6 to clear path for Boulder 4 if reset.
 - Verification: Stand at (6, 7) to see (7, 6) and (7, 7). Stand at (2, 7) to see (2, 6).
+
+# Current Battle: Cooltrainer Mike (1F)
+- Opponent Lead: Dragonair (Lv37).
+- Strategy: Use Thunderpunch with Calcifer. neutral damage + level advantage.
+- Goal: Defeat Mike to clear the path to the pits.
