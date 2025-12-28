@@ -23,7 +23,7 @@
 
 ## Boulder 1 Sequence (ID 1)
 - Boulder currently at (10, 1).
-1. Move to (9, 1).
+1. Move to (9, 1). [NEXT]
 2. Push Right to (11, 1).
 3. Move to (11, 0).
 4. Push Down to (11, 2). [PIT]
@@ -44,6 +44,12 @@
 - Slot 4: Ravioli (Lv10) - HM Surf.
 - Slot 5: GNEISS (Lv44) - HM Strength.
 - Slot 6: XENON (Lv21) - Hypnosis.
+
+## Swap Progress (KIMCHI <-> Calcifer)
+1. Select KIMCHI in Slot 1. [DONE - T28450]
+2. Move to Calcifer in Slot 3. [DONE - T28452]
+3. Select Calcifer to swap. [NEXT]
+4. Exit menu.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
