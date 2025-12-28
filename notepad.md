@@ -40,8 +40,9 @@
   - **Exploration:** Entered Celadon Cafe (25, 29).
   - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
   - **Conclusion:** Cafe is a dead end.
-- **Gym Location:** Found! It's in the Southwest, blocked by a Cut tree at (10, 26).
-  - **Action:** Cut the tree and enter the Gym.
+- **Gym Location:** Southwest Celadon (10, 29).
+- **Navigation Error:** (10, 26) is the back/roof of the Gym. Cannot enter from North.
+- **New Plan:** Navigate East to Cafe area, then South to Y=34, then West through the gap to reach the front entrance.
 - **Loot:** Retrieved Leftovers.
 - **Quest Start:** Turn 24041 (Searching Celadon Cafe).
 - **Loot:** Retrieved Leftovers.
