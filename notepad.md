@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Lavender Radio Tower. Radio Interface Open. Needle approaching 20.
+   - *Status:* In Lavender Radio Tower. Radio Interface Open. Tuning to Max (20).
    - *Insight:* EXPN Card is a Pokegear upgrade, NOT a Key Item.
-   - *Plan:* Tune Up repeatedly (x20) -> Verify "POKe FLUTE" text -> Fly to Vermilion -> Wake Snorlax.
+   - *Plan:* Tune Up repeatedly -> Verify "POKe FLUTE" text -> Fly to Vermilion -> Wake Snorlax.
    - *Next:* Battle Snorlax -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
