@@ -1,7 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Leaving Saffron Gatehouse. Entering Route 6.
-   - *Plan:* Route 6 -> Vermilion City.
+   - *Status:* On Route 6. Walking South to Vermilion.
+   - *Plan:* Navigate around water (East side) -> Enter Vermilion City.
+   - *Note:* Repel wore off (Turn 22512). Watch for wild encounters.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
