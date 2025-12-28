@@ -39,12 +39,9 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Analysis
-- Observation: Boulder 8 is trapped in Column 8 (Rows 10-17) by walls in Col 7 and Col 9.
-- Observation: Boulder 7 is trapped in Row 1 by the Row 0 wall.
-- Hypothesis: Boulders must be moved between sections via Row 1 or Row 13, but NPCs and walls block most paths.
-- Task: Visually confirm all boulders have reset, then use solve_gym_puzzle_v3.
+- Hypothesis: Tile (8, 0) is a fake wall. Test: Move to (8, 1) and press Up. Result: [Pending].
 - Failed Hypotheses:
-  1. Row 0 is passable (Tested - Denied).
+  1. Row 0 is passable (Tested (5,0), (7,0), (9,0) - Denied).
   2. Boulder 7 can be pushed into (8, 3) from Row 1 (Requires player in Row 0 - Denied).
 
 # Navigation Insights
