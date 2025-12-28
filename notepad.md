@@ -28,3 +28,6 @@
 - **WARP_CARPET**: Map transition.
 - **HEADBUTT_TREE**: Can be headbutted.
 - **CUT_TREE**: Can be cut.
+## Specific Sighting Coordinates (Verified by Tracker)
+- **Route 42:** (26, 15) near the three Apricorn trees.
+- **Route 36:** (35, 9) near the junction to Violet City.
