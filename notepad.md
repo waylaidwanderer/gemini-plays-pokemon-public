@@ -2,9 +2,10 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Status:** Moving to North-West corner (0, 4) to investigate potential path to 'High Ground' (Row 2).
-- **Hypothesis:** The entrance to the northern area is at x=0.
-- **Next:** Reach (0, 4), then attempt to move North into unseen area.
+- **Status:** Moving to Route 24 to access West Corridor (Column 0).
+- **Hypothesis:** The 'High Ground' (Row 2) is accessible via the West Corridor (x=0), which connects from Route 24.
+- **Fact:** Column 1 is a solid wall, preventing direct access from the maze.
+- **Next:** Exit to Route 24, then explore the west side.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
