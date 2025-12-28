@@ -38,10 +38,10 @@
 - **Gym Location:** Unknown. Searching South.
   - **Hypothesis:** Gym is in the Southwest.
   - **Exploration:** Entered Celadon Cafe (25, 29).
-  - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon). All useless.
-  - **Conclusion:** Cafe is a dead end for Gym info.
+  - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
+  - **Conclusion:** Cafe is a dead end.
 - **Gym Location:** Unknown. Searching South.
-  - **Hypothesis:** Gym is in the Southwest, possibly behind a Cut tree I missed.
+  - **Hypothesis:** Gym is in the Southwest, possibly behind a Cut tree.
   - **Action:** Exit Cafe and look for Cut trees or paths East/South.
-- **Tool Diagnostic:** `bfs_pathfinder` flaky. Using manual movement/interaction.
+- **Tool Diagnostic:** `bfs_pathfinder` updated with debug prints. Monitoring performance.
 - **Quest Start:** Turn 24041 (Searching Celadon Cafe).
