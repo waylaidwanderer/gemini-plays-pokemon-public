@@ -48,8 +48,8 @@
 ## Swap Progress (KIMCHI <-> Calcifer)
 - Goal: Put Calcifer in Slot 1.
 1. Exit KIMCHI's status screen. [DONE]
-2. Press Select on KIMCHI (verify highlight/blinking). [NEXT]
-3. Move to Calcifer in Slot 3.
+2. Press Select on KIMCHI (verify highlight/blinking). [DONE - T28463]
+3. Move to Calcifer in Slot 3. [NEXT]
 4. Press Select on Calcifer to swap.
 5. Exit menu.
 
