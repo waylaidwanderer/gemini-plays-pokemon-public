@@ -112,3 +112,6 @@
 - Dead end North at (12, 16).
 - Path forces West. Exploring towards (8, 17).
 - Note: East side (x>14) appears separated by a wall.
+- Battle State Anomaly: Text history says "Got away safely!" but screen shows Battle Menu.
+- Action: Attempting to RUN again.
+- Next: Use Max Repel immediately upon exiting battle to prevent high encounter rate.
