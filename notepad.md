@@ -15,7 +15,7 @@
 
 # B1F Boulder Puzzle
 - Start Turn: 28207.
-- Reset Turn: 28385 (Fell through pit, floor reset).
+- Reset Turn: 28476 (Fell through Pit 1).
 - Pit 1 (11, 2): Pending Boulder 1 (ID 1).
 - Pit 2 (4, 7): Pending Boulder 2 (ID 2).
 - Pit 3 (5, 12): COMPLETED.
@@ -23,13 +23,13 @@
 
 ## Boulder 1 Sequence (ID 1)
 - Starting at (11, 7).
-1. Move to (11, 8). [DONE - T28481]
-2. Activate Strength. [DONE - T28484]
-3. Push Up to (11, 5). [DONE - T28486]
-4. Move to (12, 5). [DONE - T28488]
-5. Push Left to (10, 5). [DONE - T28489]
-6. Move to (10, 6). [NEXT]
-7. Push Up to (10, 1).
+1. Move to (11, 8). [DONE]
+2. Activate Strength. [DONE]
+3. Push Up to (11, 5). [DONE]
+4. Move to (12, 5). [DONE]
+5. Push Left to (10, 5). [DONE]
+6. Move to (10, 6). [DONE]
+7. Push Up to (10, 1). [IN PROGRESS - Current: (10, 3)]
 8. Move to (9, 1).
 9. Push Right to (11, 1).
 10. Move to (11, 0).
@@ -46,21 +46,12 @@
 7. Move to (4, 5).
 8. Push Down to (4, 7). [PIT]
 
-# Current Status (B1F)
-- Successfully returned to B1F via ladder at (17, 3).
-- Boulders reset to starting positions due to Pit 1 reset.
-- Player at (10, 5), Boulder 1 (ID 1) is at (10, 3).
-- Boulder 2 (ID 2) is at (7, 8).
-- Pit 1 (11, 2): Pending.
-- Pit 2 (4, 7): Pending.
-- Pit 3 (5, 12): COMPLETED.
-- Pit 4 (12, 13): COMPLETED.
-- Goal: Push Boulder 1 into Pit 1.
+# Party Management
+- Lead: KIMCHI (Lv21)
+- Note: Party swap to Calcifer abandoned at Turn 28473 to prioritize puzzle.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
-- Wild battles: Prioritize escaping.
-- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. (Note: Swap abandoned to prioritize puzzle).
-- Tool Hygiene: Verify coordinates against Map Markers before tool use.
-- Menu Mechanics: Swap = Select (item 1) -> Move -> Select (item 2).
+- Optimization Trap: Do not spend more turns on a "safety" optimization (like party swapping) than the optimization actually saves.
+- Verification: Always verify boulder coordinates in Game State before updating notepad "Current Status".
