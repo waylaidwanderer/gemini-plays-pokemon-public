@@ -1,13 +1,14 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* On Route 27 (Kanto). Checking if Fly map allows Kanto destinations.
-   - *Plan:* If Kanto Map: Fly Lavender. If Johto Map: Surf East to Tohjo Falls.
+   - *Status:* On Route 27 (Kanto). Kanto Fly Map CONFIRMED.
+   - *Plan:* Fly Lavender (Get Expansion Card) -> Fly Vermilion (Wake Snorlax).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Blocked from North (Verified Turn 22278).
 - **WARP_CARPET_DOWN:** Walk off map edge to trigger.
 - **Ledge:** Jump down (South) only.
+- **Fly Map:** Must be in the region (Johto/Kanto) to Fly to towns there. Route 27 = Kanto.
 
 # Discovery Log (Condensed)
 - **Route 26:** Rest House at (15, 57).
