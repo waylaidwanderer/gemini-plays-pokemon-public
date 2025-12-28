@@ -9,7 +9,14 @@
 - LEDGE_HOP_LEFT: One-way jump East to West.
 - LEDGE_HOP_DOWN: One-way jump North to South.
 - CAVE: Warp tile (Cave entrance).
+- WATER: Requires Surf to traverse.
+- DOOR: Warp tile.
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
+
+# Blackthorn City Exploration
+- Strategy:
+  1. Find the Blackthorn City Gym [Started: Turn 29169]
+  2. Defeat Gym Leader Clair.
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29). Sign at (22, 29).
@@ -22,6 +29,8 @@
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini (Ekans sprite).
 - Gym Sign: (17, 13).
 - Water area: (12, 12) to (15, 13).
+- Super Nerd NPC: (19, 12).
+- Youngster NPC: (12, 15).
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
@@ -44,9 +53,3 @@
 - **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
-
-# Tile Mechanics Update
-- WATER: Requires Surf to traverse.
-- DOOR: Warp tile.
-- LEDGE_HOP_DOWN: One-way movement (North to South).
-- CAVE: Warp tile.
