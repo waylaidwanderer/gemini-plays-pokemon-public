@@ -28,16 +28,18 @@
 7. Push Left to (12, 13). [DONE - T28353]
 
 ## Boulder 1 Sequence (ID 1)
-1. Move to (11, 8). [NEXT]
-2. Push Up to (11, 5).
-3. Move to (12, 5).
-4. Push Left to (10, 5).
-5. Move to (10, 6).
-6. Push Up 4 times to (10, 1).
-7. Move to (9, 1).
-8. Push Right to (11, 1).
-9. Move to (11, 0).
-10. Push Down to (11, 2). [PIT]
+1. Move to (11, 8). [DONE - T28358]
+2. Push Up to (11, 6). [NEXT]
+3. Move to (11, 7).
+4. Push Up to (11, 5).
+5. Move to (12, 5).
+6. Push Left to (10, 5).
+7. Move to (10, 6).
+8. Push Up to (10, 1).
+9. Move to (9, 1).
+10. Push Right to (11, 1).
+11. Move to (11, 0).
+12. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Move to (6, 6).
