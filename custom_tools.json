@@ -105,7 +105,7 @@
   "activate_strength_gneiss": {
     "description": "Navigates the menu to activate Strength using GNEISS (5th party member).",
     "input_schema": {},
-    "python_script": "import json\n# Press Up 10 times to ensure we are at the top (Pokedex)\n# Then Down once to Pokemon\n# A to enter\n# Down 4 times for 5th slot\n# A to select\n# A for Strength (assuming first move)\n# B to exit\nbtns = [\"Start\"] + [\"Up\"]*10 + [\"Down\", \"A\"] + [\"Down\"]*4 + [\"A\", \"A\", \"B\", \"B\", \"B\"]\nprint(json.dumps(btns))\n",
+    "python_script": "import json\n# Assumes cursor is on POKEMON (1) or PACK (2)\n# Start, Up (to Pokemon), A, Down 4, A, A, B, B, B\nbtns = [\"Start\", \"sleep 500\", \"Up\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\"]\nprint(json.dumps(btns))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -116,6 +116,11 @@
         "commit_message": "Improved robustness by ensuring the cursor starts at the top of the menu.",
         "timestamp": "2025-12-28T13:04:33.329Z",
         "action_counter": 28718
+      },
+      {
+        "commit_message": "Fixed activate_strength_gneiss to assume cursor is on PACK and move to POKEMON.",
+        "timestamp": "2025-12-28T13:08:22.104Z",
+        "action_counter": 28722
       }
     ]
   }

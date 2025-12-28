@@ -29,7 +29,7 @@
 ## Experiment: Boulder Sliding
 - Hypothesis: Boulders pushed onto ICE slide until hitting an obstacle.
 - Test: Push Boulder 3 (3, 12) UP from (3, 13) onto (3, 11) ICE.
-- Observation: [PENDING]
+- Observation: [PUSHING NOW]
 
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" was too broad; Row 1-2 ice tiles DO slide.
