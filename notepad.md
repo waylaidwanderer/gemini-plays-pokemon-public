@@ -33,3 +33,7 @@
 # History (Archive)
 - Ice Path Exit: (36, 27) on 1F.
 - Items: TM44 Rest (B2F), PP UP (1F), PROTEIN (1F).
+
+# Battle Analyst Update
+- battle_analyst failed with 400 error. Defined battle_analyst_v2 with simplified output schema.
+- Next step: Call battle_analyst_v2 for Clair strategy once outside.
