@@ -30,15 +30,13 @@
     - **South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end, only reachable via the isolated pool at (42, 12).
     - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
 - **Route 24 Connectivity:**
-    - **West Channel (Cerulean):** Dead end (x=16-18). Blocked by walls at Row 6. Cannot land.
-    - **East Channel (Cerulean):** Accessible from Cerulean City land (x=27+).
-    - **Bridge Access:** Must enter Nugget Bridge from the North end on Route 25 (approx (8, 11)).
+    - **West Channel (Cerulean):** Dead end.
+    - **East Channel (Cerulean):** Accessible via Route 9 or potentially through the Burgled House (25, 29).
 - **Current Strategy:**
-    1. Land on Route 25 (West side).
-    2. Walk to Bridge Entrance at (8, 11).
-    3. Cross Nugget Bridge South to Cerulean City.
-    4. Walk East and Surf into the East Channel (x=27).
-    5. Surf North to Route 25 Cape.
+    1. Enter Burgled House at (25, 29).
+    2. Check for backyard access to the East side.
+    3. If blocked, proceed to Route 9 and look for a surf spot.
+    4. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
