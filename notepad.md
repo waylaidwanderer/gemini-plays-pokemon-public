@@ -13,15 +13,10 @@
 
 # Suicune Quest Strategy (Crystal)
 - Sequence: Burned Tower -> Cianwood North Shore (Sighting + Eusine Battle) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Prerequisite: Eusine must be defeated in Cianwood. (Status: Confirmed Defeated at Turn 27735).
+- Prerequisite: Eusine must be defeated in Cianwood. (Status: Confirmed Defeated).
 - Route 42 Trigger: (26, 15) - Step on this tile on foot.
 - Route 36 Trigger: (35, 9) - Step on this tile on foot.
 - Clear Bell: Required for Wise Trio to appear. (Status: Acquired).
-
-## Quest Log
-- Sighting Attempt (Route 42): Started Turn 27756. 
-- Attempt 1 (R42): Turn 27718 (Failed, Eusine flag was unknown).
-- Attempt 2 (R42): Turn 27768 (Current).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
