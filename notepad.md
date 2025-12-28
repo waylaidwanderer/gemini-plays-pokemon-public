@@ -1,9 +1,9 @@
 # Current Status
-- **Location:** Celadon City (Pokemon Center).
+- **Location:** Celadon City (Outdoors).
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
-  1. Heal at Pokemon Center.
-  2. Travel West to Cycling Road (Route 16/17).
+  1. Explore path North of Main Street (at X=12) to find a way West.
+  2. Locate Route 16 Exit.
   3. Ride to Fuchsia City.
 
 # Celadon City Notes
