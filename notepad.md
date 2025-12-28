@@ -15,11 +15,13 @@
 2. Push B1 LEFT to (10, 5).
 3. Navigate to (10, 3) or (10, 6).
 4. Push B1 UP to (10, 1) (will stop at wall at 10, 0).
-5. Navigate to (8, 1) via (8, 3).
-6. Move RIGHT from (8, 1) to (9, 1) (slide into boulder at 10, 1).
-7. Push B1 RIGHT to (11, 1).
-8. Navigate to (11, 0).
-9. Push B1 DOWN into Pit 1 (11, 2).
+5. Navigate to (7, 2).
+6. Move UP to (7, 1) (slide to wall at 7, 0).
+7. Move RIGHT from (7, 1) to (9, 1) (slide into boulder at 10, 1).
+8. Push B1 RIGHT to (11, 1). (Player at 10, 1).
+9. Move UP to (10, 0).
+10. Move RIGHT to (11, 0).
+11. Push B1 DOWN into Pit 1 (11, 2).
 
 # Lessons Learned & Tile Mechanics
 - **Immovable Boulders:** Boulders pushed into pits on B1F become permanent, immovable "stoppers" on B2F. They cannot be pushed once imbedded.
