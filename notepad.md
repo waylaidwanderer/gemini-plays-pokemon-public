@@ -87,3 +87,7 @@
 - Snorlax recovered with Leftovers. Status: Paralyzed.
 - Action: Throwing Ultra Ball (Attempt 4). Count: 18 (currently selecting).
 - Current State: Throwing ball now.
+- Catch Attempt 4 failed ("Oh no! The POKéMON broke free!").
+- Snorlax's Rollout missed! Chain broken. Damage threat is reset to low.
+- Snorlax HP ~Red. Recovering with Leftovers. Status: Paralyzed.
+- Action: Throwing Ultra Ball (Attempt 5). Count: 17.
