@@ -24,19 +24,13 @@
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
-
-# Blackthorn Gym Exploration
 - Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
 # Strategy: Gym Leader Clair (Battle Analyst Turn 29347)
 - Opponent: Clair (Dragon User).
-- Team:
-  - Dragonair (Lv37): Dragonbreath, Surf, Thunder Wave, Slam.
-  - Dragonair (Lv37): Dragonbreath, Ice Beam, Thunder Wave, Slam.
-  - Dragonair (Lv37): Dragonbreath, Thunderbolt, Thunder Wave, Slam.
-  - Kingdra (Lv40): Dragonbreath, Surf, Smokescreen, Hyper Beam.
-- Battle Strategy: Lead with Calcifer (Lv46). Use Thunderpunch as primary attack (Special in Gen II). Use other Pokemon as fodder to heal Calcifer if paralyzed.
+- Team: Dragonair (Lv37) x3 (Surf, Ice Beam, Thunderbolt), Kingdra (Lv40).
+- Battle Strategy: Lead with Calcifer (Lv46). Use Thunderpunch as primary attack. Use fodder to heal/revive Calcifer.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
@@ -46,13 +40,13 @@
   - 2F Pit (8, 7) -> 1F (7, 7) [Entry 6]
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
-# Blackthorn Gym Puzzle Strategy
+# Blackthorn Gym Boulder Puzzle Strategy
 - Status: Pits (8, 3) and (2, 5) are filled. Pit (8, 7) is EMPTY.
 - Goal: Fill Pit (8, 7) using Boulder 5 (6, 16).
 - Plan:
   1. Move Boulder 8 (8, 17) to clear Column 8 [Done].
-  2. Navigate to (6, 17).
-  3. Push Boulder 5 (6, 16) north to (6, 7).
+  2. Navigate to (6, 17). [Done]
+  3. Push Boulder 5 (6, 16) north to (6, 7). [In Progress]
   4. Move to (5, 7), push Boulder 5 right into Pit (8, 7).
 - Verification: Boulders 3 and 4 were pushed in turns 29284 and 29318. They remain in pits after reset.
 
