@@ -91,3 +91,6 @@
 - Warped from (5, 31) to (17, 33).
 - Mechanics: Ladders connect separated sections of the cave.
 - Current Location: Bottom-Right section. Exploring West.
+- Hit wall at (13, 32). Changing direction to North.
+- Corridor seems to be columns 14-15.
+- Goal: Find the path to the western section or exit.
