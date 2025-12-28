@@ -11,7 +11,7 @@
 - **Pokemon Center:**
   - Gentleman (0,5): Checks Friendship.
   - Pharmacist (0,3): Claims Rocket Hideout in Game Corner basement (then retracted "3 years ago"). Suspicious.
-  - Super Nerd (4,3): Unspoken.
+  - Eusine (4,3): Visiting hometown.
   - Cooltrainer F (7,6): Unspoken.
 
 # Quest Logic (Kanto Badges)
