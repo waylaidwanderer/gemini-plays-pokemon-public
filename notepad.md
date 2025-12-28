@@ -67,7 +67,7 @@
 - **Blocked Path:** The path at (13, 4) appears blocked despite looking like a floor tile. Attempting to cross to the left side via the bottom path (Row 13).
 - **Tool Note:** `bfs_pathfinder` attempted to route through a COUNTER tile at (13, 5). It may not recognize COUNTER as an obstacle. Manually routing around obstacles may be safer.
 - **Left Area Access:** Gap at Row 4 (y=4) allows access to the left side of the room (Columns 0-6).
-- **Poster Check:** Checking poster at (9, 0) first, then (15, 0).
-- **Game Corner Conclusion:** The "Lighter" and posters appear to be red herrings or references to Gen 1. The Pharmacist's comment about "3 years ago" implies the Rocket Hideout is no longer here.
+- **Poster Check:** (15, 0) checked - "There's nothing!". Checking poster at (9, 0) next.
+- **Game Corner Conclusion:** The "Lighter" (text only, not an item) and posters might be red herrings. The Pharmacist's comment about "3 years ago" implies the Rocket Hideout is no longer here.
 - **Gym Guide:** Found slacking off in Game Corner (11,3). Useless - just gambling. Did not provide Gym location.
 - **Gym Location:** Unknown. Need to explore city (likely South).
