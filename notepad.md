@@ -2,7 +2,7 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Navigating East through maze to Bill's House (47, 6).
+- **Action:** Navigating to gap at x=25 to bypass potential blockage at x=21. Target: (25, 6).
 - **Correction:** Found path East from (15, 9) through gaps at x=22 and x=29. No need to reset to start.
 
 # Quest Logic (Cascade Badge)
