@@ -12,8 +12,7 @@
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below.
 
 # Suicune Quest Strategy (Crystal)
-- Quest Phase Start: Turn 27180
-- Current Status: Re-evaluating sighting triggers. Sages in Tin Tower 1F have been spoken to. Sage at Gatehouse (4, 6) said "Please, do go on," implying sightings are done.
+- Current Status: Re-evaluating sighting triggers. Sage at Gatehouse (4, 6) said "Please, do go on," implying sightings are done. Sages in Tin Tower 1F are giving fluff dialogue.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
@@ -21,10 +20,9 @@
 - Final Encounter: Tin Tower (static battle) after all wild sightings and Wise Trio battle.
 
 ## Battle Strategy (Wise Trio)
-- Trio will only battle after Route 42 and 36 sightings are complete.
-- Sage Gaku: Flareon (Fire). Best counter: GNEISS (Earthquake).
-- Sage Masa: Noctowl (Normal/Flying). Best counter: GNEISS (Rollout) or Calcifer (Thunderpunch).
-- Sage Koji: Vaporeon (Water). Best counter: KIMCHI (Sleep Powder) or Calcifer (Thunderpunch).
+- Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
+- Sage Masa: Noctowl (32), Vaporeon (32). Counter: KIMCHI (Sleep Powder) or Calcifer (Thunderpunch).
+- Sage Koji: Noctowl (32), Jolteon (32). Counter: GNEISS (Earthquake).
 
 ## Capture Strategy (Suicune)
 - Hypothesis: Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
