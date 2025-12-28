@@ -38,7 +38,7 @@
 6. Push Down to (4, 7). [PIT]
 
 # Party Management
-- Lead: Calcifer (Lv45) - Fast for escapes, strong for combat.
+- Slot 1 (Lead): Calcifer (Lv45) - Fast for escapes, strong for combat.
 - Slot 2: KIMCHI (Lv21) - HM Cut.
 - Slot 3: ICARUS (Lv16) - HM Fly.
 - Slot 4: Ravioli (Lv10) - HM Surf.
