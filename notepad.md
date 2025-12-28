@@ -34,22 +34,15 @@
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
 - Observed: Sliding on ICE stops when hitting a WALL or entering a non-ICE tile (like FLOOR).
 - Observed: Gap in the wall at (16, 8) and (16, 9) allows access to the eastern section from the central ice lake.
-- Observed: (13, 17) -> (15, 17) via Right. Blocked by WALL at (16, 17).
-- Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
 
 # Exploration Plan: Ice Path 1F
 - Goal: Reach the exit to Route 44/Blackthorn City.
-- Step 1: Reveal unseen tiles in the central ice lake to find stopping points. (In progress)
-- Step 2: Navigate through the gap at (16, 8) or (16, 9) to reach the eastern section.
-- Step 3: Explore the north-east area (Row 3-6, Col 17-25).
-- Step 4: Investigate the ice at X=32 and the item at (32, 23).
-- Step 5: Look for a ladder to B1F.
-- Status: At (2, 13). Preparing to slide Up to (2, 7). (Turn 28148)
-
-# Nicknaming
-- Delibird: 'Parcel'.
-- Zubat: 'Sonar'.
-- Status: Completed.
+- Step 1: Reach the eastern section via Row 8 gap.
+- Current Sequence: [Right, Up, Left, Up, Right, Down, Right] from (2, 7).
+- Step 2: Explore the north-east area (Row 3-6, Col 17-25).
+- Step 3: Investigate the ice at X=32 and the item at (32, 23).
+- Step 4: Look for a ladder to B1F.
+- Start Turn: 28132.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
