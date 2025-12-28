@@ -52,11 +52,6 @@
   - Gneiss is immune to Thunderbolt, but 4x weak to Surf and 2x weak to Ice Beam. Use with extreme caution.
   - Strategy: Chip away at Kingdra with Calcifer. Switch to Gneiss to tank Hyper Beam (Rock resists Normal), then use recharge turn to attack or switch. Use others as fodder for safe switching/healing.
 
-# History (Archive)
-- Ice Path Items: TM44 Rest (B2F), PP UP (1F), PROTEIN (1F).
-- Rescued Director from Team Rocket in Goldenrod.
-- Disbanded Team Rocket at Goldenrod Radio Tower.
-
 # Reflection Lessons (Turn 29216)
 - **Verification:** Always verify Agent/NPC claims about party movesets against Game State Information. (Avoided "Graveler with Thunderbolt" error).
 - **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
@@ -66,5 +61,5 @@
 # Blackthorn Gym Puzzle (2F) - Boulder 1
 - Observation: Boulder (ID 4) at (2, 3) and Boulder (ID 6) at (3, 3). Pit at (2, 5).
 - Hypothesis: Pushing the boulder at (2, 3) down twice will drop it into the pit at (2, 5).
-- Test: Approach (2, 3) and push Down. [Turn 29245]
-- Note: Accidentally warped back to 1F at (1, 7) during navigation in turn 29246.
+- Test: Approach (2, 3) from (2, 2) and push Down. [Turn 29251]
+- Note: Ladder at (1, 7) triggers on entry. Must move to (1, 6) or (2, 7) to avoid warping.
