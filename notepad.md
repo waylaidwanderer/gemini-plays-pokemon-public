@@ -18,7 +18,7 @@
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger. (Status: Verified, Eusine missing from shore).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
-- Route 36 Trigger: Target location TBD.
+- Route 36 Trigger: (35, 9) - Near the junction where Sudowoodo was.
 - Final Encounter: Tin Tower (static battle) after all wild sightings.
 
 ## Battle Strategy (Wise Trio)
