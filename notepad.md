@@ -82,7 +82,7 @@
 - Pit (8, 3): Target for Boulder 3 (Done).
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- Current Status (Turn 29308): At (3, 4). Activating Strength to push Boulder 6 up to (3, 1). [Time: Turn 29308]
+- Current Status (Turn 29310): At (3, 4). Strength active. Pushing Boulder 6 up to (3, 2). [Time: Turn 29310]
 
 # Blackthorn Gym Wall Test (Turn 29305)
 - Observation: Tile (1, 2) is currently marked as WALL.
