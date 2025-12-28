@@ -117,3 +117,7 @@
 - West branch: Hit wall at (5, 17).
 - Action: Moving North along column 6.
 - Goal: Find north exit to Route 2.
+- Obstacle at (6, 11) and Wall at Row 9 (cols 4-8).
+- East side appears blocked by wall at col 8.
+- Path forces West to column 3.
+- Navigating to (3, 9) to continue North.
