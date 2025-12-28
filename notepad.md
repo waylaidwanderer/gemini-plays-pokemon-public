@@ -41,9 +41,14 @@
   - Pit (8, 3) -> 1F (7, 6)
   - Pit (8, 7) -> 1F (7, 7) (Status: FILLED)
 - Strategy:
-  1. Determine path for Boulder 6 to Pit (2, 5).
-  2. Determine path for Boulder 7 to Pit (8, 3).
-  3. Investigate purpose of Boulder 8.
+  1. Boulder 8 (8, 17) seems most accessible from the entrance. Investigate its path to Pit (8, 3).
+  2. Boulder 6 (3, 3) to Pit (2, 5).
+  3. Boulder 7 (6, 1) to Pit (8, 3). (Wait, two boulders for one pit? No, check if there's another pit).
+- 1F Path to Clair:
+  - The "bridge" requires pits at (2, 6), (7, 6), and (7, 7) to be filled.
+  - (7, 7) is filled.
+  - Need to fill (2, 6) and (7, 6).
+  - 2F Pits (2, 5) and (8, 3) correspond to these. (Turn 29374)
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
