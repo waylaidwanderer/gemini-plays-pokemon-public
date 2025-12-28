@@ -65,10 +65,18 @@
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
 - Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
-- Boulder 7 (6, 1): Target is Pit (8, 7)? [Starting position verified as (6, 1)]
+- Boulder 7 (6, 1): Target is Pit (8, 7). [Time: Turn 29290]
+  1. Push right to (7, 1).
+  2. Move to (7, 0), push down to (7, 3).
+  3. Move to (7, 3), push left to (5, 3).
+  4. Move to (5, 2), push down to (5, 5).
+  5. Move to (5, 5), push right to (9, 5).
+  6. Move to (9, 5), push down to (9, 7).
+  7. Move to (9, 7), push left to (8, 7).
+  8. Move to (8, 6), push down into Pit.
 - Pit (2, 5): Target for Boulder 4.
 - Pit (8, 3): Target for Boulder 3 (Done).
-- Pit (8, 7): Target for Boulder 7?
+- Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
 - Strategy: Solve eastern side first (Boulders 3 and 7), then re-evaluate western side access.
-- Current Status (Turn 29289): Returning to 2F to reset boulders. Boulder 3 is complete. [Time: Turn 29289]
+- Current Status (Turn 29290): Returned to 2F. Heading to (6, 1) to start Boulder 7 sequence. [Time: Turn 29290]
