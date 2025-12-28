@@ -2,12 +2,13 @@
 - **Status:** On Route 26 (Outside Victory Road).
 - **Location:** (7, 6).
 - **Goal:** Fly to Cerulean City.
-- **Action:** Confirming "FLY". Next step: Navigate Map to Cerulean.
+- **Action:** Navigating Fly Map. Current: Indigo Plateau. Pressing Right to find Cerulean.
 
 # Future Strategy
-1. Navigate Fly Map to Cerulean City.
-2. Go North to Route 24/25.
-3. Find Misty at the Cape.
+1. Select Cerulean City on Map.
+2. Fly there.
+3. Go North to Route 24/25.
+4. Find Misty at the Cape.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
