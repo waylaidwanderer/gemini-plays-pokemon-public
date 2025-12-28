@@ -1,9 +1,10 @@
 # Current Status
-- **Location:** Saffron PokeCenter.
-- **Goal:** Heal Party.
+- **Location:** Saffron City.
+- **Goal:** Travel to Celadon City (Rainbow Badge).
 - **Plan:**
-  1. Talk to Nurse Joy.
-  2. Exit and head West to Celadon City.
+  1. Head West to Route 7 Gate (0, 24).
+  2. Continue West to Celadon City.
+  3. Locate Gym and defeat Erika.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
