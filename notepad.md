@@ -20,71 +20,21 @@
 - **Strategy:** Circling the block to access Pokemon Center from the East.
 - **Lessons:** Trust collision data (WALL) over visual similarity (Ledge).
 
+# Fuchsia Gym Strategy
+- **Mechanic:** Invisible Walls.
+- **Protocol:**
+  1. Attempt path.
+  2. If blocked, mark tile with 🚫.
+  3. Update pathfinder to avoid 🚫.
+  4. Retry.
+- **Walls Found:** (8, 12) [Suspected].
+
 # Quest Log
-- **Current Task:** Reach Fuchsia Pokemon Center.
-- **Started:** Turn 24231 (Fuchsia Arrival).
-- **Timestamp:** Sunday, December 28, 2025.
-
-# Route 16 Notes
-- **East Side:** Cut Tree at (15, 4). Leads to secluded area (maybe house?).
-- **West Side:** Connects to Cycling Road (South). Dead end to West.
-
-# Celadon City Notes
-- **Game Corner:** (18, 19). Investigated. No Rocket Hideout found.
-- **Prize Exchange:** (23, 19).
-- **Pokemon Center:** (29, 9).
-- **Mansion:** (16, 9) & (6, 9 back door?).
-- **Gym Location:** Celadon Gym (21_21). Cleared.
-- **Progress:** Defeated Erika (Rainbow Badge). Obtained TM19 Giga Drain.
-- **Loot:** Retrieved Leftovers from Cafe.
-- **Quest Start:** Turn 24041.
-
-# Quest Logic (Kanto Badges)
-- **Badges:** 12/16.
-- **Obtained:** Boulder, Cascade, Thunder, Marsh, Rainbow.
-- **Remaining:**
-  - **Soul (Fuchsia):** Janine (Toxic TM?).
-  - **Volcano (Seafoam):** Blaine.
-  - **Earth (Viridian):** Blue.
-
-# Game Mechanics Notes
-- **Kanto TMs:** Misty did not give a TM. Note that most Kanto leaders in Gen 2 do not give TMs (exceptions: Janine and Erika).
-- **Tile Mechanics:** `COUNTER` tiles act as walls/obstacles.
-
-# Navigation Notes
-- **Saffron City:** Hub for Celadon, Lavender, Vermilion, Cerulean.
-  - **Key Locs:** PokeCenter (9, 29), Gym (34, 3), Dojo (26, 3), Silph Co (18, 21), Mr. Psychic (27, 29).
-  - **Gates:** West (to R7), North (to R5), East (to R8), South (to R6).
-- **Route 7:** Locked Door (Underground Path), gap in ledges at x=12. Northern path leads to Celadon.
-- **Game Corner:** Located at (18, 19).
-  - **Obstacle:** A wall/fence at Y=21 blocks direct south movement from the entrance. Must go around via X=26 (East) or X=12 (West - but blocked by water).
-  - **Investigation:** No Hideout found.
-  - **Interactions:** Fisher (Coins), Guru (Coins). Teacher at (21, 24) mentions slots.
+- **Current Task:** Defeat Janine.
+- **Started:** Turn 24302.
+- **Badges:** 12/16. Next: Seafoam (Blaine).
 
 # Tile Mechanics
-- **COUNTER:** Acts as a wall. Interact from adjacent tile.
-- **LEDGE:** One-way traversal (jump down/over).
-- **WARP:** Step on to transition maps.
-- **CUT TREE:** Obstacle until Cut is used.
-- **Route 17 (Cycling Road):** The slope forces rapid southbound movement. The road splits; the center is blocked by water/gap.
-- **Navigation Note:** The path at x=24 is separated from the Pokemon Center by a fence. Gaps at (25, 26-27) lead to building walls. Must circle around South to access the PC entrance at (27, 28).
-- **Ledges:** Column 23 has `LEDGE_HOP_RIGHT`, acting as a one-way wall from Left to Right. I am on the Right side, so I cannot go Left.
-- **Navigation Correction:** The Pokemon Center entrance (27, 27) is enclosed. Access is via the gap at (30, 29).
-- **Plan:** Enter gap at (30, 29), circle back West to the door.
-- **Warden's Home:** (27, 27). Warden is on vacation. Safari Zone is closed.
-- **Pokemon Center:** Located near sign at (20, 27).
-- **Status:** Successfully traversed Western Bypass. Currently at (1, 31).
-- **Navigation:** The gap to enter the Gym/PC sector is at (4, 31).
-- **Plan:** Go South to Row 32, East to Column 4, then North through the gap at (4, 31). Then head North-East to the Pokemon Center.
-- **Progress:** Successfully located gap at (4, 31). Entering the Gym/PC Enclave.
-- **Next Step:** Navigate to (19, 28) to locate the Pokemon Center entrance near the sign at (20, 27).
-- **Progress:** Confirmed Gym at (8, 27) (Sign at 5, 29). Heading to Pokemon Center (Sign at 20, 27).
-- **Target:** Pokemon Center entrance likely at (19, 27) or (18, 27). Navigating to (19, 28) to find it.
-- **Janine Impersonator:** Confirmed just a fan.
-- **Gym Location:** Building at (8, 27). Sign at (5, 29).
-- **Progress:** Entered Fuchsia Gym (17_8).
-- **Goal:** Navigate the invisible walls (presumably) to reach Janine.
-- **Immediate:** Talk to Gym Guide for tips.
-- **Gym Mechanics:** Invisible walls. "Janine" lookalikes are trainers.
-- **Mapping:** Need to identify invisible walls by collision.
-- **Strategy:** Hug the right wall to start. Mark invisible walls as I find them.
+- **COUNTER:** Wall. Interact from adjacent.
+- **LEDGE:** One-way (Jump).
+- **INVISIBLE WALL:** Mark with 🚫.
