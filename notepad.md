@@ -3,7 +3,8 @@
 - Reset Trigger: Leaving floor (ladders or falling through pits).
 - Current Session: Started Turn 28986 (Returned from B2F).
 - Status: All 4 pits are currently EMPTY.
-- Strength: OFF (Lost on floor change).
+- Strength: OFF (Lost on floor change at Turn 29001).
+- Note: Accidentally stepped on warp (17, 3) while navigating. Returning to B1F.
 
 ## Boulder Search Status
 - Boulder 1: Checking (11, 7).
