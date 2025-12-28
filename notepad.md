@@ -23,7 +23,7 @@
 # Strategy: Gym Leader Clair (Start Turn: 29455)
 - Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI, ICARUS, XENON & Ravioli fainted. GNEISS (126/126 HP) is my last hope. No Revives or major healing items left. Kingdra accuracy -1.
 - Plan:
-  1. Send in GNEISS (Graveler, Lv45). (In Progress)
+  1. GNEISS is on the field. Select FIGHT.
   2. Use Earthquake (Neutral damage).
   3. Hope for accuracy misses or Kingdra using non-lethal moves.
 
