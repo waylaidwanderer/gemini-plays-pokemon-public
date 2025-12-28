@@ -1,9 +1,9 @@
 # Current Status
-- **Location:** Saffron City.
-- **Goal:** Heal and head to Celadon.
+- **Location:** Saffron PokeCenter.
+- **Goal:** Heal Party.
 - **Plan:**
-  1. Enter PokeCenter (9, 29) and Heal.
-  2. Exit and travel West to Route 7 -> Celadon City.
+  1. Talk to Nurse Joy.
+  2. Exit and head West to Celadon City.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
