@@ -36,3 +36,6 @@
     3. Loop around to the East side of the bridge on Route 24.
     4. Surf North up the East channel to reach the Cape on Route 25.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
+
+# Wild Pokemon Locations
+- **Route 24/25 (Water):** Goldeen
