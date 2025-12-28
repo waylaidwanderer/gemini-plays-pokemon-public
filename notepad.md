@@ -41,15 +41,14 @@
 - Strategy: Fill all three pits to complete the bridge to Clair.
 - Verified Mechanics:
   - Silver blocks are WALLS. (Turn 29653)
-  - Row 0 Tests: (5, 0) WALL, (7, 0) WALL, (9, 0) WALL.
-  - Column 9 Test: (9, 4) is a WALL.
+  - Row 0 Tests: (1,0), (3,0), (5,0), (7,0), (9,0) are all confirmed WALLS. (Turns 29675-29685)
   - Pushing a boulder: First press pushes it, second press moves player into its old tile.
   - All pits are empty after gym reset. (Turn 29620)
   - Row 13 passage at (4, 13) connects east/west sections.
 - Potential Boulder Paths:
-  - Pit (8, 7): Boulder 8 (8, 14) -> (8, 12) -> (9, 12)? -> (7, 12) -> (6, 12) -> (6, 7) -> (8, 7).
-  - Pit (2, 5): Boulder 6 (3, 3) -> (3, 1) -> (1, 1) -> (1, 5) -> (2, 5)?
-  - Pit (8, 3): Boulder 7 (8, 1) -> (8, 2) -> (8, 3)? (Requires 8, 0 passable).
+  - Pit (8, 7): Boulder 8 (8, 14) -> (8, 12) -> (7, 12) -> (6, 12) -> (6, 7) -> (8, 7).
+  - Pit (2, 5): Boulder 6 (3, 3) -> (3, 2) -> (2, 2) -> (2, 1) -> (1, 1) -> (1, 5) -> (2, 5).
+  - Pit (8, 3): Boulder 7 (8, 1) -> (9, 1) -> (9, 3) -> (8, 3). (Requires (9,2) and (9,3) passable).
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
@@ -61,12 +60,10 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Manual Analysis (Turn 29650)
-- Observation: Row 0 tiles (silver blocks) are marked as WALL. Boulder 7 at (8, 1) cannot be pushed down from Row 1.
-- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675-29680)
-- Hypothesis 2: Boulder 7 must be pushed around the gym via Column 9 or Row 13.
-- Strategy for Pit (2, 5): 
-  1. Push Boulder 6 (3, 3) down to (3, 11). (Wait, (3, 8) is WALL).
-  2. Alternative: Push Boulder 6 UP to (3, 1), then LEFT to (1, 1).
-- Strategy for Pit (8, 7):
-  1. Push Boulder 8 (8, 14) up to (8, 12), then LEFT to (6, 12) (Requires (9, 12) passable).
-  2. Push up to (6, 7), then RIGHT into pit.
+- Observation: Row 0 is impassable. Boulders in Row 1 cannot be pushed DOWN.
+- Hypothesis: Boulders in Row 1 must be pushed into pits in Row 3 or 5 via the side corridors (Column 0 or 9).
+- Test 4 (Turn 29685): Use run_code to find ALL reachable pits for Boulder 7.
+- Start Time: Turn 29620 (Gym Reset).
+- Failed Hypotheses:
+  1. Row 0 is passable (Tested (5,0), (7,0), (9,0) - Denied).
+  2. Boulders must go to the "nearest" pit (Likely wrong due to Row 0 barrier).
