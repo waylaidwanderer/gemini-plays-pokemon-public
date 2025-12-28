@@ -52,3 +52,17 @@
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
 - Kingdra (Water/Dragon) resists: Fire (1/4x), Water (1/4x), Electric (1/2x), Grass (1/2x).
 - Normal & Ground: Neutral vs Dragon.
+
+# Boulder Puzzle Manual Analysis (Turn 29650)
+- Observation: Row 0 tiles (silver blocks) are marked as WALL. If they are truly impassable, Boulder 7 at (6, 1) cannot be pushed down from its starting position.
+- Hypothesis 1: Row 0 tiles are actually passable FLOOR.
+- Test 1: Attempt to walk onto (5, 0).
+- Hypothesis 2: Boulder 7 must be pushed left/right to a gap in Row 0.
+- Observation: Column 4 is mostly WALL. Row 11 (Fran) and Row 13 are the only known east-west passages.
+- Strategy for Pit (2, 5): 
+  1. Push Boulder 6 (3, 3) down to (3, 11).
+  2. Push left at (3, 11) to (1, 11) (requires Fran defeated).
+  3. Push up to (1, 5), then right into pit.
+- Strategy for Pit (8, 7):
+  1. Push Boulder 8 (8, 14) up to (8, 10), then left to (6, 10).
+  2. Push up to (6, 7), then right into pit.
