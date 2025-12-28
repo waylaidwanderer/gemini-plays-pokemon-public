@@ -39,11 +39,11 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Analysis
-- Hypothesis 1: Tile (8, 0) is a fake wall.
-  - Test: Push Boulder 7 (8, 1) north.
-  - Result: DENIED (Turn 29737).
-- Hypothesis 2: Tile (4, 3) is a fake wall.
-  - Test: Attempt to walk onto (4, 3) or push Boulder 6 (3, 3) into it.
+- Hypothesis 1: Tile (4, 3) is a fake wall.
+  - Test: Stand at (5, 3) and press Left.
+  - Result: [Pending].
+- Hypothesis 2: Tile (2, 0) is a fake wall.
+  - Test: Stand at (3, 0) and press Left.
   - Result: [Pending].
 - Hypothesis 3: Tile (8, 9) is a fake wall.
   - Test: Push Boulder 8 (8, 14) north.
