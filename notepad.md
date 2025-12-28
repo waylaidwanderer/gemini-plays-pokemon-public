@@ -39,27 +39,18 @@
   - Dragonair (Lv37): Dragonbreath, Ice Beam, Thunder Wave, Slam.
   - Dragonair (Lv37): Dragonbreath, Thunderbolt, Thunder Wave, Slam.
   - Kingdra (Lv40): Dragonbreath, Surf, Smokescreen, Hyper Beam.
-- Battle Strategy: Lead with Calcifer. Chip away at Kingdra. Switch to Gneiss to tank Hyper Beam.
+- Battle Strategy: Lead with Calcifer. Use Thunderpunch (Special in Gen II). Use fodder for healing.
 
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
-- **Warp Pathing:** Navigate tool does not avoid warps. Manually steer around.
-- **Boulder Tracking:** Link markers to object_id for moving objects.
-- **Pit Destinations (Verified):** Pit (2, 5) -> 1F (2, 6). Pit (8, 7) -> 1F (7, 7). Pit (8, 3) -> 1F (7, 6).
+- **Boulder Tracking:** Link markers to object_id. Boulders 3 and 4 stay in pits after floor reset on 2F.
+- **Pit Destinations:** Pit (2, 5) -> 1F Entry 5. Pit (8, 7) -> 1F Entry 6. Pit (8, 3) -> 1F Entry 7.
 
 # Blackthorn Gym Puzzle Progress
-- Status: Boulders 3 and 4 are confirmed missing from 2F, likely in pits. Pits (8, 3) and (2, 5) are presumed filled.
-- Final Goal: Fill Pit (8, 7) using Boulder 5 (6, 16).
-- The Loop Plan (Turn 29363):
-  1. Navigate to (8, 13).
-  2. Push Boulder 8 (8, 14) DOWN to (8, 17) to clear Column 8.
-  3. Walk (8, 13) -> (8, 14) -> (8, 15) -> (8, 16) -> (8, 17) -> (7, 17) -> (6, 17).
-  4. From (6, 17), push Boulder 5 (6, 16) all the way UP to (6, 7).
-  5. Navigate to (5, 7), push Boulder 5 RIGHT to (8, 7) (PIT).
-- Verification: Pits (8, 3) and (2, 5) were filled in turns 29284 and 29318. Resetting the floor did NOT restore them to 2F, indicating success.
-- Current Status: Strength active. Heading to (8, 13). [Time: Turn 29363]
-
-# Current Battle: Cooltrainer Mike (1F)
-- Opponent Lead: Dragonair (Lv37).
-- Strategy: Use Headbutt with Calcifer. Thunderpunch and Flame Wheel are resisted by pure Dragon-types.
-- Goal: Defeat Mike to clear the path to the pits.
+- Status: Pits (8, 3) and (2, 5) are filled. Pit (8, 7) is EMPTY.
+- The Loop Plan (Turn 29368):
+  1. Push Boulder 8 (8, 15) DOWN to (8, 17) to clear Column 8.
+  2. Walk (8, 13) -> (8, 17) -> (7, 17) -> (6, 17).
+  3. From (6, 17), push Boulder 5 (6, 16) all the way UP to (6, 7).
+  4. Navigate to (5, 7), push Boulder 5 RIGHT to (8, 7) (PIT).
+- Current Status: Strength active. Pushing Boulder 8 south. [Time: Turn 29368]
