@@ -1,27 +1,24 @@
 # Ice Path B1F Puzzle Status
 - Start Turn: 28759 | Start Time: Sunday, Dec 28, 5:32 AM
-- B1: (11, 6) | B2: (5, 6)
+- B1: (11, 5) | B2: (5, 6)
 
 # Strategies
 ## Fill Pit 2 (4, 7) with Boulder 2 (5, 6)
-1. Navigate to (11, 8) via the right-side corridor.
-2. Complete "Fill Pit 1" strategy.
-3. Continue to (6, 6) from the top section.
-4. Push B2 LEFT to (4, 6). (Player at 5, 6).
-5. Navigate to (4, 5).
-6. Push B2 DOWN into Pit 2 (4, 7).
+1. Complete "Fill Pit 1" strategy.
+2. Navigate to (6, 6) from the top section.
+3. Push B2 LEFT to (4, 6). (Player at 5, 6).
+4. Navigate to (4, 5).
+5. Push B2 DOWN into Pit 2 (4, 7).
 
-## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
-1. Navigate to (11, 8).
-2. Push B1 UP to (11, 5).
-3. Navigate to (12, 5).
-4. Push B1 LEFT to (10, 5).
-5. Navigate to (10, 6).
-6. Push B1 UP to (10, 1).
-7. Navigate to (9, 1).
-8. Push B1 RIGHT to (11, 1).
-9. Navigate to (11, 0).
-10. Push B1 DOWN into Pit 1 (11, 2).
+## Fill Pit 1 (11, 2) with Boulder 1 (11, 5)
+1. Navigate to (12, 5).
+2. Push B1 LEFT to (10, 5).
+3. Navigate to (10, 6).
+4. Push B1 UP to (10, 1).
+5. Navigate to (9, 1).
+6. Push B1 RIGHT to (11, 1).
+7. Navigate to (11, 0).
+8. Push B1 DOWN into Pit 1 (11, 2).
 
 # Lessons Learned & Tile Mechanics
 - **Immovable Boulders:** Boulders pushed into pits on B1F become permanent, immovable "stoppers" on B2F. They cannot be pushed once imbedded.
