@@ -34,10 +34,10 @@
 - Pit 4: (12, 13)
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (4, 11) to Pit 3 (5, 12)
+## Boulder 3 (4, 12) to Pit 3 (5, 12)
 1. Move to (4, 10) via (7, 11), (10, 11), (10, 13), (4, 13), (3, 10). [DONE]
-2. Push Down to (4, 12). [NEXT]
-3. Move to (3, 12).
+2. Push Down to (4, 12). [DONE]
+3. Move to (3, 12). [NEXT]
 4. Push Right to (5, 12) [Target: Pit 3].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
