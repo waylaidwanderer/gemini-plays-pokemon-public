@@ -21,12 +21,11 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI, ICARUS & XENON fainted. Ravioli (27/27 HP) on field. GNEISS (126/126 HP) in reserve. No Revives or major healing items left. Kingdra accuracy -1.
+- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI, ICARUS, XENON & Ravioli fainted. GNEISS (126/126 HP) is my last hope. No Revives or major healing items left. Kingdra accuracy -1.
 - Plan:
-  1. Ravioli on field. Select FIGHT (scout/fodder).
-  2. Once Ravioli faints, send in GNEISS (Graveler, Lv45).
-  3. Use Earthquake (Neutral damage).
-  4. Hope for accuracy misses or Kingdra using non-lethal moves.
+  1. Send in GNEISS (Graveler, Lv45). (In Progress)
+  2. Use Earthquake (Neutral damage).
+  3. Hope for accuracy misses or Kingdra using non-lethal moves.
 
 # Blackthorn Gym Layout Theory
 - Pit Destinations:
