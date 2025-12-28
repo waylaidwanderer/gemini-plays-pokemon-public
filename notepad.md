@@ -8,6 +8,7 @@
 - ROCK: Destructible with ROCK SMASH. (Verified: Turn 29041)
 - WATER: Requires Surf to traverse. (Verified: Turn 26645)
 - WARP: Static transition between maps/locations. (Verified: Turn 29125)
+- BOULDER BRIDGES: In Blackthorn Gym, boulders in pits (1F 2,6; 7,6; 7,7) act as passable FLOOR. (Verified: Turn 29431)
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29).
@@ -17,7 +18,7 @@
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
-- Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
+- Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
 - Gym Guide (7, 15) Advice: Dragon-type Pokemon are weak against Ice-type moves.
 
 # Current Strategy: Heal and Return
@@ -44,7 +45,5 @@
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
 # Reflection & Lessons
-- **Turn Tracking:** Sourced from Game State Info.
 - **NPC Collision:** Defeated NPCs still occupy their tiles and are impassable objects. Always path around them. (Turn 29424)
-- **Boulder Persistence:** Pushed boulders stay in pits even if the 2F floor is reset by changing floors.
 - **Warp Safety:** Entry points on 1F (6, 7, 5) correspond to specific pits on 2F. Verified via entry point data. (Turn 29374)
