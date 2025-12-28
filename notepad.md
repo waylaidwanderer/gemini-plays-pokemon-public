@@ -76,3 +76,5 @@
 - **Status:** Successfully traversed Western Bypass. Currently at (1, 31).
 - **Navigation:** The gap to enter the Gym/PC sector is at (4, 31).
 - **Plan:** Go South to Row 32, East to Column 4, then North through the gap at (4, 31). Then head North-East to the Pokemon Center.
+- **Progress:** Successfully located gap at (4, 31). Entering the Gym/PC Enclave.
+- **Next Step:** Navigate to (19, 28) to locate the Pokemon Center entrance near the sign at (20, 27).
