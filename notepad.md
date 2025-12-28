@@ -1,14 +1,13 @@
 # Reflection (Turn 23212)
-- **Status:** Leaving Cerulean Gym.
-- **Goal:** Head North to Route 24/25 to find Misty.
-- **Gym Status:** Misty is absent. Gym Guide confirmed she is "out having fun".
-- **Immediate Action:** Move Right to (4, 15) to exit the Gym.
-- **Correction:** Adjusted position belief from (5, 15) to (3, 15).
+- **Status:** Left Cerulean Gym.
+- **Goal:** Head North to Route 24/25.
+- **Gym Status:** Empty. Misty is likely at the Cape.
+- **Next:** Navigate through the city to the North Bridge (Route 24).
 
 # Strategic Goals
-1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25), then challenge Cerulean Gym.
+1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25).
 2. **Collect Badges:** Thunder (Done), Marsh (Done), Boulder (Done), Cascade (Next).
-3. **Get Silver Wing:** Done.
+3. **Power Plant:** Investigate if Misty is not at the Cape (Post-game quest).
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
