@@ -69,3 +69,9 @@
 - Failed Hypotheses:
   1. Row 0 is passable (Tested - Denied).
   2. Boulder 7 can be pushed into (8, 3) from Row 1 (Requires player in Row 0 - Denied).
+
+# Navigation Insights
+- 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
+- 1F Access: The only way to move between the top and bottom halves of 1F is via Column 1 or Column 0.
+- 1F Connectivity: The top-right area (where Clair is) is disconnected from Column 1 on 1F.
+- Conclusion: To exit the gym from the top-right area, you MUST go to 2F via the (7,9) ladder, walk to the (1,7) ladder, and then descend back to 1F. (Verified Turn 29706)
