@@ -49,7 +49,7 @@
 # Current Status (B1F)
 - Successfully returned to B1F via ladder at (17, 3).
 - Boulders reset to starting positions due to Pit 1 reset.
-- Player at (10, 6), Boulder 1 (ID 1) is at (10, 5).
+- Player at (10, 5), Boulder 1 (ID 1) is at (10, 3).
 - Boulder 2 (ID 2) is at (7, 8).
 - Pit 1 (11, 2): Pending.
 - Pit 2 (4, 7): Pending.
