@@ -22,10 +22,13 @@
 
 # Strategy: Gym Leader Clair (REVISED)
 - Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
-- Battle Plan:
-  1. Lead Calcifer. Use RETURN vs Dragonairs.
-  2. Lower Kingdra accuracy with SMOKESCREEN immediately.
-  3. Use GNEISS as secondary attacker with EARTHQUAKE.
+- Battle Strategy (Analyst Turn 29611):
+  1. Lead Calcifer (Lv47). Use RETURN or THUNDERPUNCH vs Dragonairs. Avoid Flame Wheel.
+  2. Use FULL HEALS immediately if paralyzed.
+  3. GNEISS (Lv45) can switch in against the Thunderbolt Dragonair to use EARTHQUAKE.
+  4. Vs Kingdra: Calcifer uses SMOKESCREEN 2-3 times first. Then chip with THUNDERPUNCH.
+  5. If Kingdra charges Hyper Beam, switch to GNEISS to tank, then retaliate with EARTHQUAKE.
+  6. Keep HP > 50% with Hyper Potions.
 
 # Blackthorn Gym Layout & Boulders
 - 2F Boulders:
