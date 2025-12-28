@@ -1,21 +1,17 @@
 # Current Status
-- **Location:** Celadon City.
-- **Goal:** Defeat Erika (Rainbow Badge).
+- **Location:** Celadon City (Outdoors).
+- **Goal:** Find and Defeat Erika (Rainbow Badge).
 - **Plan:**
-  1. (Done) Heal and gather intel at Pokemon Center.
-  2. Explore West Celadon.
-  3. Locate Game Corner (investigate Pharmacist's claim).
-  4. Locate Gym and defeat Erika.
+  1. Search Southern Celadon for the Gym (look for Cut trees).
+  2. Defeat Erika.
+  3. Explore rest of Celadon.
 
 # Celadon City Notes
-- **Pokemon Center:**
-  - Gentleman (0,5): Checks Friendship.
-  - Pharmacist (0,3): Claims Rocket Hideout in Game Corner basement (then retracted "3 years ago"). Suspicious.
-  - Eusine (4,3): Visiting hometown.
-  - Cooltrainer F (7,6): Warns that Erika is a master of Grass Pokemon and very tough.
-- **Outdoors:**
-  - Youngster (16, 13): Mentions hidden back door in Celadon Mansion.
-  - Teacher (7, 15): Advertises Celadon Dept. Store.
+- **Game Corner:** (18, 19). Investigated. No Rocket Hideout found.
+- **Prize Exchange:** (23, 19).
+- **Pokemon Center:** (29, 9).
+- **Mansion:** (16, 9) & (6, 9 back door?).
+- **Gym Location:** Unknown. Searching South.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
