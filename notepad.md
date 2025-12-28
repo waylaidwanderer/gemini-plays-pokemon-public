@@ -5,15 +5,17 @@
 - **Action:** Navigate West back to Nugget Bridge (Route 24).
 
 # Quest Logic (Cascade Badge)
-1. **Hypothesis Confirmed:** Misty is NOT at the Cape yet.
-2. **Next Step:** Start Power Plant Quest.
-3. **Sequence:**
-    - Go to Power Plant (Route 9). Talk to Manager.
-    - Go to Cerulean Gym (Rocket Event).
-    - Go to Route 24 (Defeat Rocket).
-    - Get Machine Part in Gym.
-    - Return Part to Power Plant.
-    - Find Misty at Cape.
+1. **Status:** Misty is missing.
+2. **Current Task:** Investigate Power Plant to trigger her return.
+3. **Plan:**
+    - Navigate Route 25 -> Route 24 -> Route 9 (East of Cerulean).
+    - Power Plant: Talk to Manager.
+    - Cerulean Gym: Witness Rocket fleeing.
+    - Route 24: Defeat Rocket Grunt.
+    - Cerulean Gym: Retrieve Machine Part (Surf required).
+    - Power Plant: Return Machine Part.
+    - Route 25 (Cape): Find Misty.
+    - Cerulean Gym: Battle Misty.
 
 # Route 9 Access
 - **Location:** East of Cerulean City.
