@@ -15,17 +15,18 @@
 - Goal: Reach Blackthorn City.
 
 ## Ice Path B2F (Blackthorn Side)
-- Status: Returning to floor after accidental ladder use.
+- Status: Exploring northern corridor.
 - Ladder to B3F: (3, 3).
+- Ledge Face: (3, 4) (FLOOR_UP_WALL).
 - Observed ICE: Starts at row 6.
 
 ## Strategy
-1. Return to B2F via ladder at (15, 5) on B3F.
-2. Navigate to (6, 1) on B2F, avoiding (3, 3).
-3. Follow the ice/ledge path to the south exit at (3, 15).
+1. Navigate to (8, 1) via the northern corridor, avoiding the ladder at (3, 3).
+2. Scout the eastern side for a path to the southern exit.
+3. Locate and use the exit ladder at (3, 15).
 
 ## History (Archive)
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
-- B2F (Blackthorn Side): Accidental backtrack to B3F at Turn 29054. Returning.
+- B2F (Blackthorn Side): Slid to (0, 17) and returned to (1, 3) at Turn 29054. Exploring North.
