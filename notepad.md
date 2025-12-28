@@ -14,6 +14,7 @@
 - **FLOOR_UP_WALL:** Blocked from North.
 - **WARP_CARPET_DOWN:** Walk off map edge.
 - **Ledge:** Jump down (South) only.
+- **COUNTER:** Impassable. Interact across to talk.
 
 # Active Quests
 - **Bill's Grandpa:** Wants Lickitung.
@@ -23,7 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23004)
-- **Status:** In Pewter City. Defeated Brock.
-- **Goal:** Heal at Pokemon Center, then find Silver Wing man.
-- **Next:** Navigate through wall gap at (19, 21) to reach Center.
+# Reflection (Turn 23011)
+- **Status:** Inside Pewter Pokémon Center.
+- **Goal:** Heal team, then find Silver Wing man in East Pewter.
+- **Next:** Finish phone call, then talk to Nurse Joy.
