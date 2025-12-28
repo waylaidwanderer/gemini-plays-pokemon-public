@@ -1,8 +1,8 @@
 # Current Status
-- **Location:** Route 23 (Outside Indigo Plateau).
+- **Location:** Victory Road (Descending).
 - **Goal:** Find Misty at Cerulean Cape (Route 25).
-- **Context:** Gym Guide confirmed Misty is "away" having "fun". Power Plant is fixed (TM07 obtained).
-- **Next:** Go South through Gatehouse -> Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
+- **Context:** Gym Guide confirmed Misty is "away" having "fun". Power Plant is fixed (TM07 obtained). Route 23 is a No-Fly Zone.
+- **Next:** Traverse Victory Road South to Gatehouse -> Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
