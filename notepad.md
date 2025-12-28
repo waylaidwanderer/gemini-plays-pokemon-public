@@ -12,21 +12,24 @@
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
 
 # Blackthorn City Exploration
-- Goal: Acquire the 8th Gym Badge from Clair.
-
 ## Strategy
-1. Jump down ledge at (36, 11).
-2. Locate and enter Pokemon Center to heal.
-3. Explore the city to find the Gym.
-4. Defeat Gym Leader Clair.
-
-# Ice Path (Completed)
-- Exit reached at (36, 27) on 1F.
-- TM44 Rest collected at (8, 16) on B2F.
-- PP UP collected at (32, 23) on 1F.
-- PROTEIN collected at (35, 9) on 1F.
+1. Locate and enter Pokemon Center to heal. [Turn 29155]
+2. Explore the city to find the Gym.
+3. Defeat Gym Leader Clair.
 
 # Blackthorn City Discoveries
-- Building at (29, 23) is Emy's House. Inside: Lass wants to trade DODRIO for DRAGONAIR (Female).
+- Pokemon Center (21, 29). Sign at (22, 29).
+- Emy's House (29, 23). Inside: Lass wants to trade DODRIO for female DRAGONAIR.
 - Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
 - Cooltrainer F (Flavor NPC) at (35, 19).
+- Black Belt NPC at (25, 31).
+
+# Strategy: Gym Leader Clair
+- Opponent: Clair (Dragon User).
+- Team (Crystal): Dragonair (Lv37), Dragonair (Lv37), Dragonair (Lv37), Kingdra (Lv40).
+- Party Status: Calcifer (Lv45), Gneiss (Lv44) are main fighters. Others are underleveled (Lv10-21).
+- Plan: Use battle_analyst agent for detailed strategy.
+
+# History (Archive)
+- Ice Path Exit: (36, 27) on 1F.
+- Items: TM44 Rest (B2F), PP UP (1F), PROTEIN (1F).
