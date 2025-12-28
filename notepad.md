@@ -1,15 +1,18 @@
 # Current Status
-- **Location:** Celadon City.
+- **Location:** Celadon City (Pokemon Center).
 - **Goal:** Defeat Erika (Rainbow Badge).
 - **Plan:**
-  1. Explore Celadon City.
-  2. Locate Gym and defeat Erika.
-  3. Check Department Store for TMs/Items.
+  1. Heal at Pokemon Center.
+  2. Talk to remaining NPCs (Super Nerd, Cooltrainer F).
+  3. Investigate Game Corner (verify Pharmacist's claim).
+  4. Locate Gym and defeat Erika.
 
-# Key Locations
-- **Pokemon Center:** Outside (29, 9) | Inside (21_17)
+# Celadon City Notes
+- **Pokemon Center:**
   - Gentleman (0,5): Checks Friendship.
-  - Pharmacist (0,3): Mentions Team Rocket Hideout in Game Corner basement (then claims it was "three years ago").
+  - Pharmacist (0,3): Claims Rocket Hideout in Game Corner basement (then retracted "3 years ago"). Suspicious.
+  - Super Nerd (4,3): Unspoken.
+  - Cooltrainer F (7,6): Unspoken.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
