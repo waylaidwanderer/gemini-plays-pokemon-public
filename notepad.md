@@ -1,9 +1,8 @@
 # Current Status
-- **Location:** Route 24 (Nugget Bridge).
+- **Location:** Cerulean City.
 - **Goal:** Find Misty.
-- **Context:** Power Plant fixed (TM07 obtained). Misty not seen at Cape? Checking Gym.
-- **Next:** Cerulean Gym -> Route 25 Cape.
-- **Note:** Map XML height (18) is incorrect; map extends further South (seen up to Y=21).
+- **Context:** Returned from Route 24/25. Checking Gym for Misty.
+- **Next:** Enter Cerulean Gym. If empty, return to Route 25 (Cape).
 
 # Strategic Goals
 1. **Earn Cascade Badge:** Find and defeat Misty.
