@@ -11,6 +11,7 @@
 - PIT: Warp to B2F. Verified.
 - BOULDER: Pushable with Strength (HM04). Verified.
 - RESET MECHANICS: Leaving the floor via ladder or pit resets all boulders to their starting positions. Verified. (Turn 28531).
+- STRENGTH MECHANICS: Strength must be re-activated after every floor transition or battle. Verified. (Turn 28568).
 
 # B1F Boulder Puzzle (All Pits Pending)
 - Start Turn: 28207.
@@ -21,11 +22,9 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Push Boulder 1 DOWN to (11, 8). [CURRENT]
-2. Move to (12, 8).
-3. Push Boulder 1 LEFT to (10, 8) WALL to clear the path.
-4. Solve Boulders 2, 3, 4 in their respective quadrants.
-5. Push Boulder 1 back to (11, 8), then (12, 8), then UP to Row 2, then LEFT into Pit 1.
+1. Push Boulder 1 DOWN to (11, 8) to open path south. [CURRENT]
+2. Navigate to western/southern quadrants to solve other boulders.
+3. Return to Boulder 1: Push UP to (11, 5), then LEFT to (10, 5), then UP to (10, 1), then RIGHT to (11, 1), then DOWN into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8).
@@ -42,4 +41,4 @@
 - Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process (same as the 'Select' button shortcut). To swap two Pokémon, select the first, choose "SWITCH", move to the second, and press 'A'. Verified.
 - Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified. (Turn 28531).
 - Boulders: Leaving the floor via ladder or pit RESETS all boulders to their starting positions. Verified. (Turn 28535).
-- Hypothesis: Strength must be re-activated after every floor transition or battle. To be verified.
+- Hypothesis: Strength must be re-activated after every floor transition or battle. Verified. (Turn 28568).
