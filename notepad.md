@@ -2,10 +2,10 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Status:** Moving to Route 24 to access West Corridor (Column 0).
-- **Hypothesis:** The 'High Ground' (Row 2) is accessible via the West Corridor (x=0), which connects from Route 24.
-- **Fact:** Column 1 is a solid wall, preventing direct access from the maze.
-- **Next:** Exit to Route 24, then explore the west side.
+- **Status:** On Route 24 (Bridge).
+- **Obstacle:** Wall at Column 7 prevents direct access to water/west side.
+- **Action:** Head South to Cerulean City to access the river/west bank from there.
+- **Next:** Surf North from Cerulean to reach Route 25 West Corridor.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
