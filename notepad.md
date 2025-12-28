@@ -46,10 +46,11 @@
 - Slot 6: XENON (Lv21) - Hypnosis.
 
 ## Swap Progress (KIMCHI <-> Calcifer)
-1. Select KIMCHI in Slot 1. [DONE - T28450]
-2. Move to Calcifer in Slot 3. [DONE - T28452]
-3. Select Calcifer to swap. [NEXT]
-4. Exit menu.
+1. Move to KIMCHI in Slot 1. [DONE - T28455]
+2. Select KIMCHI (verify highlight/blinking). [NEXT]
+3. Move to Calcifer in Slot 3.
+4. Select Calcifer to swap (verify swap).
+5. Exit menu.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
