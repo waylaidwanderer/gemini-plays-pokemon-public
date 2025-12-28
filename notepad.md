@@ -12,13 +12,7 @@
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below.
 
 # Suicune Quest Strategy (Crystal)
-- Quest Start Turn: 27180
-- Route 42 Sighting Attempt 1: Turn 27570 (Failed - Sages not spoken to)
-- Route 36 Sighting Attempt 1: Turn 27612 (Failed - Sages not spoken to)
-- Sages Spoken To: Turn 27650 (Gaku, Koji, Masa)
-- Current Status: Heading back to Route 42. In Crystal, you MUST hear the legends from the Sages in Tin Tower 1F BEFORE the Route 42 and 36 sightings will activate.
-- Route 42 Sighting Attempt 2: In progress.
-- Route 36 Sighting Attempt 2: Pending.
+- Current Status: Re-evaluating sighting triggers. Sages in Tin Tower 1F have been spoken to.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
@@ -27,7 +21,9 @@
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
-- Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
+- Sage Gaku (Lead): GNEISS (Graveler) Lv44 (Earthquake, Rollout).
+- Sage Masa: GNEISS or Calcifer.
+- Sage Koji: GNEISS (Rollout) or Kimchi.
 
 ## Capture Strategy (Suicune)
 - Hypothesis: Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
