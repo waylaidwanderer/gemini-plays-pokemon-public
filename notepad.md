@@ -44,19 +44,6 @@
 - MART_SIGN: Background object; displays Poké Mart info. Verified interactable.
 - SIGNPOST: Background object; displays area or direction info. Verified interactable.
 
-# Exploration: Route 44 Central Lake
-- Hypothesis: Surfing across the central lake from the mainland launch point at (20, 12) will allow access to the northern path leading to the Ice Path.
-- Test 1: Navigate to (19, 12), face (20, 12), and use HM03 Surf.
-- Status: In progress.
-- Attempt 1: Turn 28000.
-
-# Navigation: Reaching Ice Path Entrance
-- Observation: The eastern part of Route 44 is on a high platform.
-- Barrier: Row 9 (X=51-57) and Row 13 (X=47-48, 50-53) are one-way ledges hopping down.
-- Discovery: X=49 is a traversable corridor from Row 14 up to Row 4.
-- Route:
-  1. (19, 12) -> (18, 14) to avoid Fisher Edgar.
-  2. (18, 14) -> (49, 14) east along the main path.
-  3. (49, 14) -> (49, 7) north through the corridor.
-  4. (49, 7) -> (52, 7) -> (52, 8) -> (56, 8) -> (56, 7) to bypass the sign at (53, 7).
-- Status: Commencing. Turn 28010.
+# Ice Path Exploration
+- Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
+- Turn 28021: Entered Ice Path 1F.

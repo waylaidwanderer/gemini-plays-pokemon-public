@@ -1,1 +1,9 @@
-{}
+{
+  "gym_strategy_analyst": {
+    "agent_name": "gym_strategy_analyst",
+    "agent_description": "Analyzes team composition and suggests strategies for upcoming major battles (Gym Leaders, Rivals, Elite Four).",
+    "agent_system_prompt": "You are an expert Pokemon strategist. Your goal is to analyze the user's current party and the known team of an upcoming opponent to provide the most effective battle strategy. Consider type matchups, movesets, levels, and item usage. Suggest party changes or training targets if necessary. Your output must be a JSON object with 'analysis', 'recommended_lead', 'switch_strategy', and 'training_suggestions' fields.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"types\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"opponent_name\":{\"type\":\"string\"},\"opponent_known_pokemon\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"party\",\"opponent_name\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"recommended_lead\":{\"type\":\"string\"},\"switch_strategy\":{\"type\":\"string\"},\"training_suggestions\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"recommended_lead\",\"switch_strategy\",\"training_suggestions\"]}"
+  }
+}
