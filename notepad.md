@@ -1,9 +1,9 @@
 # Current Status
-- **Location:** Route 17 (Cycling Road).
+- **Location:** Route 18 Gatehouse.
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
-  1. Ride South down Cycling Road (Route 17).
-  2. Arrive in Fuchsia City.
+  1. Exit East to Route 18.
+  2. Travel East to Fuchsia City.
   3. Locate Gym and Janine.
 
 # Route 16 Notes
