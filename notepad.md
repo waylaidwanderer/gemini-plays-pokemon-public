@@ -141,3 +141,7 @@
 - South path blocked by walls at Row 12 (West side).
 - Hypothesis: Path to Pewter City loops South-East then West/North.
 - Action: Exploring East side (x > 14).
+- Blocked by text box (Sign). Closing.
+- Map Analysis: Row 12 is a wall blocking South on the West side.
+- Path to Pewter likely requires going East to x=14 to bypass the wall.
+- Fruit Tree at (10, 14) appears inaccessible from current position due to Row 12 wall. Need to find entrance (Cut tree?).
