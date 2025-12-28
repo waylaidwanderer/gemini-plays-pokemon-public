@@ -71,3 +71,7 @@
 - Navigating South through the Cut Tree area.
 - Identified a gap in the ledges at (17, 21).
 - Hypothesis: This path loops West and then North to Pewter City (West side of Route 2).
+- Navigated through ledge gap at (17, 21).
+- Now at (17, 22), South of the ledges.
+- Heading West to (11, 22) to find the main path (likely leads South to Viridian or North to Pewter).
+- Hypothesis: This connects to the main Route 2 path.
