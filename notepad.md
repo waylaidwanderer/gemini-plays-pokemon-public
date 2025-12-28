@@ -1,13 +1,14 @@
+# Reflection (Turn 23212)
+- **Status:** Leaving Cerulean Gym.
+- **Goal:** Head North to Route 24/25 to find Misty.
+- **Gym Status:** Misty is absent. Gym Guide confirmed she is "out having fun".
+- **Immediate Action:** Move Right to (4, 15) to exit the Gym.
+- **Correction:** Adjusted position belief from (5, 15) to (3, 15).
+
 # Strategic Goals
 1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25), then challenge Cerulean Gym.
 2. **Collect Badges:** Thunder (Done), Marsh (Done), Boulder (Done), Cascade (Next).
 3. **Get Silver Wing:** Done.
-
-# Current Status
-- **Location:** Cerulean Gym.
-- **Goal:** Find Misty at Cerulean Cape (Route 25).
-- **Info:** Gym Guide confirmed Misty is away.
-- **Recent:** Talked to Gym Guide.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
@@ -22,11 +23,3 @@
 
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
-- **Sign (17, 7):** "MT.MOON SQUARE DON'T LITTER"
-- **Mt. Moon Square Shop:** Visited at night. Empty.
-- **Phone Call:** Gaven (Cooltrainer) wants to battle on Route 26.
-- **Route 4:** Arrived from Mt. Moon. Currently on the upper ledges.
-- **Picnicker Hope:** Defeated on Route 4.
-- **Lass (Route 4):** Located at (21, 6) but unreachable from the west side due to ledges.
-- **Phone Call:** Gaven (Cooltrainer) called. Mentioned Route 26 battle and failing to catch a Raticate.
-- **Slowbro:** Found at (20, 24). Says "Yarah?".
