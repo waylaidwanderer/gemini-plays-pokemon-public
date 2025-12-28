@@ -3,7 +3,7 @@
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Navigate to (11, 8) via long loop. [CURRENT]
+1. Navigate to (11, 8) via western loop and southern crossing. [CURRENT]
 2. Push UP to (11, 5), then LEFT to (10, 5), then UP to (10, 1).
 3. Move to (9, 1) and push RIGHT to (11, 1).
 4. Move to (11, 0) and push DOWN into Pit 1. (Do NOT push to 10,0).
