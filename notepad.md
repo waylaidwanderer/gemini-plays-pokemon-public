@@ -1,8 +1,11 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Tuning Radio (Current: ~15, Target: 20).
-   - *Plan:* Tune Up repeatedly to reach Channel 20 -> Verify "POKe FLUTE" -> Exit -> Interact -> Battle.
-   - *Battle Strategy:* Switch from Machoke (Lv75) to Gyarados/Quilava to weaken. Capture if possible.
+   - *Status:* Radio Tuned to 20. Exiting to Overworld.
+   - *Plan:* Exit Pokegear (B) -> Move Up (to 34, 9) -> Interact (A).
+   - *Battle Strategy:*
+     - **Lead:** Machoke (Lv75).
+     - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP (Machoke Low SpAtk vs Snorlax High SpDef). Avoid Cross Chop (OHKO risk).
+     - **Capture:** Ultra Balls when low/statused.
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
