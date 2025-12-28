@@ -3,13 +3,14 @@
 - **Key Items:** Clear Bell (Acquired)
 - **Sightings:** Route 42 (Seen), Route 36 (Seen), Cianwood City (Seen)
 - **Narrative Flag:** Gatehouse Sage (4_1) confirmed "The TIN TOWER shook! A POKéMON must have returned to the top!"
-- **Current Objective:** Defeat the Wise Trio in the Tin Tower Gatehouse (4_1) to trigger the Suicune encounter on Tin Tower 1F (3_4).
+- **Current Objective:** Find the north exit in the Wise Trio Room (4_2) to reach the Suicune encounter area. The Wise Trio are confirmed defeated based on the lore dialogue heard earlier.
 
 ## Suicune Capture Strategy
 - **Lead:** XENON (Gastly) Lv21.
 - **Moves:** Mean Look (trap), Hypnosis (sleep), Night Shade (fixed damage).
 - **Items:** 43 Great Balls, 1 Ultra Ball.
 - **Backup:** Calcifer (Typhlosion) Lv45.
+- **Note:** Swap Xenon to lead before entering the Suicune area.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Standard walkable tile.
