@@ -207,5 +207,39 @@
         "action_counter": 9999
       }
     ]
+  },
+  "bfs_pathfinder": {
+    "description": "A custom Breadth-First Search pathfinder that calculates a walking path from start to target coordinates. It strictly avoids obstacles defined in the map XML (WALLs, WATER, Objects) but intentionally IGNORES 'Line of Sight' for trainers, allowing navigation past defeated trainers. Returns a list of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef bfs_pathfinder(start_x, start_y, target_x, target_y):\n    # map_xml_string is injected by the environment\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Build grid\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'FLOOR')\n            # Check for objects (obstacles) - CRITICAL: Objects are obstacles.\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            \n            # Determine walkability\n            # We treat walls, water, and ledges (wrong direction) as blocked.\n            # For simplicity in this specific maze, we avoid ledges entirely to prevent traps.\n            # We DO NOT check for trainer line of sight.\n            walkable = True\n            if t_type in ['WALL', 'WATER', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT', 'unseen']:\n                walkable = False\n            if has_object:\n                walkable = False\n                \n            grid[(x, y)] = walkable\n\n    start_pos = (start_x, start_y)\n    target_pos = (target_x, target_y)\n    \n    if not grid.get(target_pos, False):\n        print(f\"Target {target_pos} is not walkable.\")\n        return []\n\n    queue = deque([(start_pos, [])])\n    visited = set([start_pos])\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if (curr_x, curr_y) == target_pos:\n            import json\n            print(json.dumps(path)) # Return the list of buttons\n            return\n\n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, move_name in moves:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) not in visited and grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move_name]))\n\n    print(\"No path found.\")\n\nbfs_pathfinder(start_x, start_y, target_x, target_y)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T17:21:58.587Z",
+        "action_counter": 23731
+      }
+    ]
   }
 }

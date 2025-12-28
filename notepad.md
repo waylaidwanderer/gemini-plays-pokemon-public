@@ -2,11 +2,8 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Crossing x=27 at y=6, then heading South to gap at (29, 10).
-- **Path Plan:**
-  1. (26, 6) -> (28, 6) (East).
-  2. (28, 6) -> (28, 10) (South).
-  3. (28, 10) -> (29, 10) (East).
+- **Action:** Navigating manually around defeated trainers to reach Bill's House.
+- **Path:** Weaving through columns 30-32 to bypass Super Nerd Pat.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
