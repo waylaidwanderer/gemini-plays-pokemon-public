@@ -2,7 +2,7 @@
 - **Status:** On Route 26 (Outside Victory Road).
 - **Location:** (7, 6).
 - **Goal:** Fly to Cerulean City.
-- **Action:** Selecting Pidgey (Mistral) to use Fly.
+- **Action:** Selecting Pidgey (Mistral) -> Fly.
 
 # Future Strategy
 1. Fly to Cerulean City.
