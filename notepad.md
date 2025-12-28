@@ -1,8 +1,9 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Arrived in Lavender Town. Heading to Radio Tower for EXPN Card.
-   - *Plan:* Enter Radio Tower -> Talk to Director -> Get EXPN Card -> Return to Snorlax.
-   - *Next:* Battle Snorlax after obtaining EXPN Card.
+   - *Status:* Talked to Director (Gentleman). Dialogue confirms "With that thing, you can tune into...".
+   - *Issue:* EXPN Card NOT in Key Items list. Verifying with one more interaction.
+   - *Plan:* Verify Dialogue -> Exit Radio Tower -> Fly to Vermilion -> Battle Snorlax.
+   - *Next:* Battle Snorlax -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Reflection (Turn 22538)
