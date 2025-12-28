@@ -13,6 +13,7 @@
 - CAVE: Warp tile (Cave entrance).
 - WATER: Requires Surf to traverse.
 - DOOR: Warp tile.
+- WARP: Static transition between maps/locations.
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
 - Spatial Constraint: Boulders cannot be pushed down from Row 1 because Row 0 is all WALL. Boulder 7 (6, 1) is a decoy.
 
@@ -28,6 +29,7 @@
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
 # Strategy: Gym Leader Clair (Battle Analyst Turn 29347)
+- Primary Goal: Acquire the 8th Gym Badge (Start Turn: 29224).
 - Opponent: Clair (Dragon User).
 - Team: Dragonair (Lv37) x3 (Surf, Ice Beam, Thunderbolt), Kingdra (Lv40).
 - Battle Strategy: Lead with Calcifer (Lv46). Use Thunderpunch as primary attack. Use fodder to heal/revive Calcifer.
@@ -41,20 +43,8 @@
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
 # Blackthorn Gym Progression
-- Start Turn: 29224
 - Puzzle: All boulders pushed into pits (Turns 29284, 29318, 29390). Bridge complete.
 - Remaining Trainers: Cooltrainer Lola (In Battle).
-- Goal: Defeat Clair.
-
-# Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- PIT: Warp tile. Falling through takes you to the floor below.
-- LADDER: Warp tile. Used to travel between floors.
-- BOULDER: Object. Impassable. Can be pushed with Strength.
-- ICE: Sliding mechanic (Ice Path).
-- WATER: Requires Surf to traverse.
-- WARP: Static transition between maps/locations.
 
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
