@@ -31,3 +31,14 @@
 # Goal Log
 - [Turn 27331] Attempting to Fly to Ecruteak City to check prerequisites.
 - [Turn 27329] Walked on (26, 15) and (26, 14) on Route 42. No Suicune appeared. Sprite was not visible.
+
+# Tile Mechanics - EcruteakTinTowerEntrance (4_1)
+- FLOOR: Walkable.
+- WALL: Impassable.
+- LADDER: Warp.
+- WARP_CARPET_DOWN: Warp.
+
+# NPC Interaction Log - Tin Tower Gatehouse
+- [Turn 27070] Sage (4, 6): "Go on."
+- [Turn 27081] Gramps (4, 12): Spoke about tower history and the two flying Pokemon.
+- [Turn 27084] Sage (7, 10): "Tin Tower shook and a Pokemon returned to the top." (Note: This dialogue suggests the Clear Bell is active).
