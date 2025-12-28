@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25), then challenge Cerulean Gym.
 2. **Collect Badges:** Thunder (Done), Marsh (Done), Boulder (Done), Cascade (Next).
-3. **Get Silver Wing:** Look for the old man in Pewter City (East side).
+3. **Get Silver Wing:** Done.
 
 # Mechanics & Discoveries
 - **Snorlax:** Caught (Pavlov).
@@ -24,7 +24,8 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23020)
+# Reflection (Turn 23029)
 - **Status:** In Pewter City (East).
-- **Goal:** Talk to the old man to get the Silver Wing.
-- **Next:** Approach and interact with Gramps at (30, 17). Then identify the house at (29, 13).
+- **Achievement:** Obtained Silver Wing from Gramps.
+- **Goal:** Travel to Cerulean City via Route 3 and Mt. Moon.
+- **Next:** Exit Pewter City to the East.
