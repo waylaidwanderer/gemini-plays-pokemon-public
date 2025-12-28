@@ -30,3 +30,11 @@
 
 # Tile Mechanics - Ecruteak (4_9)
 - WARP_CARPET_LEFT at (20, 2): Entrance to Wise Trio Room.
+
+# Navigation - Path to Tin Tower
+1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
+2. Gatehouse (5, 3) [Ladder] -> Gatehouse (17, 15).
+3. Gatehouse (17, 3) [Warp] -> Wise Trio Room (4_2) (1, 4).
+4. Wise Trio Room (7, 4) [Warp] -> Ecruteak Restricted Area (20, 2).
+5. Restricted Area (20, 2) -> Walk East to (35, 6) -> Tin Tower Area (37, 7).
+6. Enter Tin Tower 1F at (37, 7).
