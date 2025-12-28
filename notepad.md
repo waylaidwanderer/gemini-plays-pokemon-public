@@ -9,7 +9,7 @@
 # Key Locations
 - **Pokemon Center:** Outside (29, 9) | Inside (21_17)
   - Gentleman (0,5): Checks Friendship.
-  - Pharmacist (0,3): Mentions Team Rocket Hideout in Game Corner basement.
+  - Pharmacist (0,3): Mentions Team Rocket Hideout in Game Corner basement (then claims it was "three years ago").
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
