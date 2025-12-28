@@ -27,10 +27,15 @@
 5. Push Left to (10, 5). [DONE]
 6. Move to (10, 6). [DONE]
 7. Push Up to (10, 1). [CURRENT]
-8. Move to (9, 1). (Long walk around west)
+8. Move to (9, 1) via (12, 1). (Long walk around)
 9. Push Right to (11, 1).
 10. Move to (11, 0).
 11. Push Down to (11, 2). [PIT]
+
+# Catch List
+- Swinub (Ice/Ground): High priority for Blackthorn Gym.
+- Jynx (Ice/Psychic): High priority for Blackthorn Gym.
+- Strategy: Use Sleep Powder (Kimchi) or Hypnosis (Xenon), then Great Balls.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8).
