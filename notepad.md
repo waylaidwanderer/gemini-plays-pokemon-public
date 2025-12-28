@@ -15,8 +15,10 @@
 
 # Blackthorn City Exploration
 - Strategy:
-  1. Find the Blackthorn City Gym [Started: Turn 29169]
-  2. Defeat Gym Leader Clair.
+  1. Find the Blackthorn City Gym [Done: Turn 29225]
+  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
+  3. Solve Gym Puzzle (2F/1F)
+  4. Defeat Gym Leader Clair.
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29). Sign at (22, 29).
@@ -31,6 +33,10 @@
 - Water area: (12, 12) to (15, 13).
 - Super Nerd NPC: (19, 12).
 - Youngster NPC: (12, 15).
+
+# Blackthorn Gym Exploration
+- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
+- Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
@@ -53,8 +59,3 @@
 - **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
-
-# Blackthorn Gym Exploration
-- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
-- Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
-- Current Task: Defeating trainers for EXP and exploring. [Turn 29227]
