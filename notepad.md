@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* On Route 6. Walking South to Vermilion.
-   - *Plan:* Navigate around water (East side) -> Enter Vermilion City.
-   - *Note:* Repel wore off (Turn 22512). Watch for wild encounters.
+   - *Status:* Entering Vermilion City.
+   - *Plan:* Locate Snorlax (Diglett's Cave Entrance) -> Wake with Radio -> Go through Diglett's Cave.
+   - *Progression:* Opens West Kanto (Pewter, Viridian).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
