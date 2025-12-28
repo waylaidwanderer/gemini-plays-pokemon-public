@@ -22,6 +22,7 @@
 # Exploration Plan: Ice Path B1F
 - Goal: Push all 4 boulders into pits.
 - Status: 1/4 boulders pushed. Boulders 1, 2, 4 remain.
+- Connection: Exploring eastern passage (Row 16 to Row 0) to reach northern area.
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1
