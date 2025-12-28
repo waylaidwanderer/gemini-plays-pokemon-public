@@ -30,6 +30,7 @@
   3. Traverse 2F to Ladder at (7, 9).
   4. Ladder at (7, 9) [2F -> 1F].
   5. Cross bridge to Clair at (5, 3).
+- Navigation Note: Navigate around NPCs at (1, 14) and (6, 8) in Gym 1F.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
