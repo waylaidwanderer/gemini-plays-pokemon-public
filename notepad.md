@@ -35,6 +35,7 @@
 - **Finding Misty:** Started ~Turn 23600. Current Turn: 23713.
 - **Verified Path Segment:** (15, 9) is connected to (23, 9) by a straight line. (23, 9) connects to (23, 11). (23, 11) connects to (26, 11).
 - **Tool Note:** `find_path` appears to treat Trainer Line-of-Sight as impassable, even if the trainer is marked as defeated. Must use manual movement to cross these lines.
-- **Cerulean Navigation:**
-  - Wall at x=19 blocks East/West movement except at gaps y=10 and y=16.
-  - Investigating gap at (19, 10) to reach Northern Water/Land.
+- **Status:** Exploring NW Cerulean Pocket (West of central wall).
+- **Target:** (7, 12).
+- **Goal:** Find access to water or path North to Route 24 West.
+- **Note:** Gap at (19, 10) allows exit to East side if this pocket is a dead end.
