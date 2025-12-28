@@ -24,11 +24,10 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23099)
-- **Status:** Battling Firebreather Burt on Route 3.
-- **Goal:** Defeat Burt's Slugma.
-- **Next:** Use Strength on Slugma.
-- **Firebreather Burt:** Defeated on Route 3.
-- **Phone Call:** Wade called about Bug-Catching Contest at National Park.
-- **Sign (49, 13):** "MT.MOON SQUARE Just go up the stairs."
-- **Rival Silver:** Encountered at Mt. Moon entrance (3, 3).
+# Rival Silver Battle (Mt. Moon)
+- **Sneasel (Lv 41):** Defeated (Strength).
+- **Golbat (Lv 42):** Defeated (Thunderpunch).
+- **Alakazam (Lv 43):** Defeated (Strength).
+- **Gengar (Lv 43):** Defeated (Thunderpunch).
+- **Feraligatr (Lv 45):** Defeated (Cross Chop).
+- **Magneton:** Active. Weak to Fighting/Fire/Ground.
