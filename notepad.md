@@ -5,8 +5,8 @@
 - Pit 2 (4, 7): FILLED (Turn 28885).
 - Pit 3 (5, 12): Empty.
 - Pit 4 (12, 13): Empty.
-- Boulder 3: UNKNOWN (Not at 8, 9). Searching Section 1 and southern area.
-- Boulder 4: (17, 7) (Verifying).
+- Boulder 3: UNKNOWN (Not at 8, 9). Searching Section 1.
+- Boulder 4: UNKNOWN (Not at 17, 7). Searching Section 3.
 
 # Tile Mechanics
 - FLOOR: Walkable.
