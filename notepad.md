@@ -5,7 +5,8 @@
   1. Traverse Route 18 East.
   2. Arrive in Fuchsia City.
   3. Locate Gym and Janine.
-- **Turn:** 24197.
+- **Turn:** 24200.
+- **Progress:** Defeated Bird Keeper Bob.
 - **Time:** Sunday, December 28, 2025.
 
 # Reflection (Turn 24197)
