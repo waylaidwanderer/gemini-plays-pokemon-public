@@ -18,6 +18,7 @@
 - WATER: Traversable only with Surf (HM03). Verified traversable.
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 - PIT: Warp tile. Leads to floor below.
+- BOULDER: Impassable object; can be pushed with Strength.
 
 # Exploration Plan: Ice Path B1F
 - Goal: Find all boulders and push them into pits to clear the path on B2F.
