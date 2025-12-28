@@ -65,9 +65,12 @@
 - Strategy: Defeat trainers while navigating to the top of the room.
 
 # Blackthorn Gym Puzzle Progress
-- Boulder 4 (2, 3): Needs to go to Pit (2, 5). Reach from (2, 2).
-- Boulder 6 (3, 3): Blocking path to Boulder 4 or needs to be pushed elsewhere.
-- Boulder 7 (6, 1): Needs to go to Pit (8, 7)?
+- Boulder 4 (2, 3): Needs to go to Pit (2, 5). Reach from (2, 2) via Cody (4, 1) or complex path.
+- Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
+- Boulder 3 (8, 2): Target is Pit (8, 3). Reach from (8, 1).
+- Boulder 7 (6, 1): Target is Pit (8, 7). Path: (6, 1) -> (9, 1) -> (9, 6) -> (8, 6) -> (8, 7).
 - Pit (2, 5): Target for Boulder 4.
-- Pit (8, 7): Target for Boulder 7?
-- Map Note: Tile (0, 2) is a WALL, blocking the western shortcut to the northern part of the room. Must navigate through the center or eastern side.
+- Pit (8, 3): Target for Boulder 3.
+- Pit (8, 7): Target for Boulder 7.
+- Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
+- Strategy: Solve eastern side first (Boulders 3 and 7), then re-evaluate western side access.
