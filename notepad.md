@@ -59,24 +59,23 @@
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
 
+# Blackthorn Gym Layout Theory
+- The gym is split into 4 quadrants on 2F:
+  - NW (0-7, 0-3): Contains Boulders 4, 6, Pit (2, 5). Accessible via Ladder (1, 7) from 1F.
+  - NE (0-7, 5-9): Contains Boulder 7, Pits (8, 3), (8, 7). Accessible from entrance.
+  - SW (8-17, 0-3): Accessible from SE via gap in Row 13.
+  - SE (8-17, 5-9): Contains Ladder (7, 9), Boulders 5, 8. Accessible from entrance.
+- Strategy: Use 1F as a hub to travel between quadrants. Solve boulders in each.
+
 # Blackthorn Gym Puzzle Progress (Started Turn 29238)
-- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
-- Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
-- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
+- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2) via Ladder (1, 7).
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
-- Boulder 7 (6, 1): Target is Pit (8, 7). [Time: Turn 29290]
-  1. Push right to (7, 1).
-  2. Move to (7, 0), push down to (7, 3).
-  3. Move to (7, 3), push left to (5, 3).
-  4. Move to (5, 2), push down to (5, 5).
-  5. Move to (5, 5), push right to (9, 5).
-  6. Move to (9, 5), push down to (9, 7).
-  7. Move to (9, 7), push left to (8, 7).
-  8. Move to (8, 6), push down into Pit.
+- Boulder 7 (6, 1): Target is Pit (8, 7).
+- Boulder 8 (8, 14): Investigating.
+- Boulder 5 (6, 16): Investigating.
 - Pit (2, 5): Target for Boulder 4.
 - Pit (8, 3): Target for Boulder 3 (Done).
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- Strategy: Solve eastern side first (Boulders 3 and 7), then re-evaluate western side access.
-- Current Status (Turn 29290): Returned to 2F. Heading to (6, 1) to start Boulder 7 sequence. [Time: Turn 29290]
+- Current Status (Turn 29295): NE quadrant partially explored. Heading south to investigate SE quadrant boulders. [Time: Turn 29295]
