@@ -40,3 +40,6 @@
 - Wise Trio: Battle sequence is the final gate to Suicune in the Tin Tower.
 - Lesson: Suicune sightings are strictly sequential (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower). If sages don't battle at Tin Tower, verify previous sightings using the tracker. Trigger points must be stepped on directly.
 - Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
+- Current Status: In Mahogany Town, heading to Route 42 for Suicune sighting trigger at (26, 15).
+- Turn 27754: Successfully arrived in Mahogany Town via Fly.
+- Hypothesis: Stepping on (26, 15) on Route 42 will trigger the Suicune appearance. If it doesn't, I will search the surrounding tiles.
