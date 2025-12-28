@@ -83,7 +83,8 @@
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
 
-- Snorlax (PAVLOV) caught and sent to PC Box 1.
+- Entered Diglett's Cave.
 - PC Box 1 Status: 19/20 slots. ONE slot remaining.
-- Next: Enter Diglett's Cave. Catch Diglett/Dugtrio if found (only 1 slot!).
-- Goal: Reach Pewter City to switch boxes.
+- Goal: Reach Pewter City (north exit).
+- Catch: Diglett or Dugtrio on the way.
+- Mechanics: Diglett's Cave connects Vermilion (South) to Route 2 (North).
