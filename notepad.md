@@ -1,9 +1,10 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Lavender Radio Tower. Dialogue was ambiguous ("With that thing...").
-   - *Issue:* EXPN Card NOT in Key Items list. "UP-GRADE" is for Porygon.
-   - *Hypothesis:* Either EXPN Card is a flag, or I haven't received it yet.
-   - *Plan:* Talk to Director again (A) -> Verify receipt -> Exit -> Fly Vermilion -> Tune Radio to 20 -> Wake Snorlax.
+   - *Status:* Testing Radio capability in Lavender Town.
+   - *Hypothesis:* Director gave the upgrade (EXPN Card) as a flag, not a visible item.
+   - *Test:* Open Pokegear -> Tune to Kanto stations (e.g. Poke Flute).
+   - *If Success:* Fly to Vermilion -> Wake Snorlax.
+   - *If Fail:* Re-read Director dialogue / Check for other requirements.
    - *Next:* Battle Snorlax -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
