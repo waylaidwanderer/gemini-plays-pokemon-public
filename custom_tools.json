@@ -57,5 +57,41 @@
         "action_counter": 28951
       }
     ]
+  },
+  "calculate_ice_slide": {
+    "description": "Calculates the resulting coordinate of a slide on ice in a given direction.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "UP",
+            "DOWN",
+            "LEFT",
+            "RIGHT"
+          ]
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "direction"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef run():\n    try:\n        root = ET.fromstring(map_xml_string)\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        direction = input_data['direction'].upper()\n        \n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                grid[(x, y)] = {\n                    'type': tile.attrib['type'],\n                    'seen': tile.attrib['seen'] == 'true',\n                    'has_object': tile.attrib.get('has-object') == 'true',\n                    'is_warp': tile.attrib.get('is-warp') == 'true'\n                }\n        \n        dx, dy = 0, 0\n        if direction == 'UP': dy = -1\n        elif direction == 'DOWN': dy = 1\n        elif direction == 'LEFT': dx = -1\n        elif direction == 'RIGHT': dx = 1\n        \n        curr_x, curr_y = start_x, start_y\n        \n        while True:\n            next_x, next_y = curr_x + dx, curr_y + dy\n            \n            if (next_x, next_y) not in grid:\n                break\n            \n            next_tile = grid[(next_x, next_y)]\n            \n            # Collision logic\n            if next_tile['type'] == 'WALL' or next_tile['type'] == 'FLOOR_UP_WALL' or next_tile['has_object']:\n                break\n            \n            # Warp logic (sliding stops on warps)\n            if next_tile['is_warp']:\n                curr_x, curr_y = next_x, next_y\n                break\n                \n            curr_x, curr_y = next_x, next_y\n            \n            # Stop if the tile we just moved onto is not ICE\n            if next_tile['type'] != 'ICE':\n                break\n                \n        print(json.dumps({'x': curr_x, 'y': curr_y}))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\n\nrun()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T17:24:10.640Z",
+        "action_counter": 29101
+      }
+    ]
   }
 }
