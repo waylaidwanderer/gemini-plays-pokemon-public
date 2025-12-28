@@ -44,7 +44,7 @@
   - Result: DENIED (Turn 29746).
 - Hypothesis 2: Tile (6, 3) is a fake wall.
   - Test: Stand at (5, 3) and press Right.
-  - Result: [Pending].
+  - Result: DENIED (Turn 29747).
 - Hypothesis 3: NPC Cody at (4, 1) is passable.
   - Test: Stand at (4, 2) and press Up.
   - Result: [Pending].
