@@ -55,3 +55,6 @@
 - **Next:** Lapras (Water/Ice).
 - **Analysis:** Cross Chop (Fighting, STAB, Physical) is much stronger than Thunderpunch (Electric, Special) on Machoke, but has lower accuracy. Thunderpunch is safer and likely sufficient due to level advantage (Lv 79 vs Lv 47).
 - **Strategy:** Thunderpunch (Slot 2). If it fails to OHKO, switch to Cross Chop (Slot 4).
+- **Battle Update:** Lapras survived the first Thunderpunch and used Rain Dance.
+- **Action:** Using Thunderpunch (Slot 2) again to finish it.
+- **Note:** Cursor should be on Slot 2 (Thunderpunch).
