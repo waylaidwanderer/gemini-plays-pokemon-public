@@ -51,3 +51,7 @@
 - **Next:** Lapras (Lv 47?). Water/Ice.
 - **Strategy:** Refuse switch. Use Thunderpunch (Slot 2). 
 - **Note:** Cursor remembers Thunderpunch (Slot 2).
+- **Battle Log:** Starmie defeated.
+- **Next:** Lapras (Water/Ice).
+- **Analysis:** Cross Chop (Fighting, STAB, Physical) is much stronger than Thunderpunch (Electric, Special) on Machoke, but has lower accuracy. Thunderpunch is safer and likely sufficient due to level advantage (Lv 79 vs Lv 47).
+- **Strategy:** Thunderpunch (Slot 2). If it fails to OHKO, switch to Cross Chop (Slot 4).
