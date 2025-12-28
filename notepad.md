@@ -1,8 +1,8 @@
 # Current Status
 - **Status:** Exiting Victory Road 1F.
-- **Location:** (2, 53).
-- **Goal:** Reach Exit at (9, 67).
-- **Path:** South to Ledge (2, 61) -> Jump -> South to (2, 66) -> East to Exit.
+- **Location:** (9, 67) (Victory Road Exit).
+- **Goal:** Trigger Warp to Gatehouse.
+- **Action:** Step Up, then Down into the Warp.
 
 # Future Strategy (Post-Victory Road)
 1. Enter Gatehouse.
