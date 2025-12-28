@@ -40,7 +40,7 @@
 
 # Game Mechanics
 - FLOOR: Walkable.
-- ICE: Sliding mechanic. Row 1 is confirmed ICE.
+- ICE: Sliding mechanic. (Note: Row 1 is NOT ice, verified Turn 28856).
 - PIT: Warp to B2F. Must fill to solve B2F.
 - BOULDER: RESETS on floor change (verified Turn 28854). Must do all in one run.
 - STRENGTH: Deactivates after every floor change.
@@ -48,5 +48,5 @@
 # Lessons Learned
 - Boulders reset! My previous note about them being permanent was wrong. I must push all four without leaving the floor.
 - Row 16 is a safe corridor across the entire map.
-- Row 1 allows fast travel between sections via sliding.
+- Row 1 is standard FLOOR, not ice. (Corrected Turn 28856).
 - Avoid (12, 6) - it's a WALL. (Corrected Turn 28854).
