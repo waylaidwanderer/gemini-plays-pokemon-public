@@ -1,4 +1,6 @@
 # Ice Path B1F Boulder Puzzle
+- Start Turn: 28627 | Start Time: Sunday, Dec 28, 5:32 AM
+- Current Turn: 28957 | Current Time: Sunday, Dec 28, 8:02 AM
 - Goal: Fill all 4 pits with boulders in a single session.
 - Reset Trigger: Leaving floor or falling through pits.
 - Status: All 4 pits are currently EMPTY (verified by Map Events).
