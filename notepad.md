@@ -2,15 +2,14 @@
 - **Status:** On Route 25.
 - **Location:** (40, 4).
 - **Goal:** Return to Cerulean City to access Route 9 (Power Plant).
-- **Action:** Continue "West Highway" Plan (East on Row 16).
+- **Action:** Continue "West Highway" Plan (North to Bridge).
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
 2. **Fact:** Misty is NOT in the Gym (checked 23612).
 3. **Conclusion:** I missed the "Interrupt Date" event at the Cape.
 4. **Plan:**
-    - Go East on Row 16 to x=21.
-    - Go North to Route 24 Bridge.
+    - Go North to Route 24 Bridge (from 21, 16).
     - Cross Nugget Bridge to Route 25.
     - Find Misty at the Cape.
     - Return to Gym for battle.
@@ -26,4 +25,4 @@
 - **LADDER:** Walkable (Bridge/Stairs).
 
 ## Task Timestamp
-- **Finding Misty:** Started ~Turn 23600. Current Turn: 23627.
+- **Finding Misty:** Started ~Turn 23600. Current Turn: 23630.
