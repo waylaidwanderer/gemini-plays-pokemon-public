@@ -94,3 +94,6 @@
 - Hit wall at (13, 32). Changing direction to North.
 - Corridor seems to be columns 14-15.
 - Goal: Find the path to the western section or exit.
+- Encountered Wild Diglett (Lv 8).
+- Action: Catching with Great Ball to fill the 20th slot in Box 1.
+- Note: Muscle (Lv 76) is too strong to attack. Throwing ball at full HP.
