@@ -69,5 +69,5 @@
 - **Route 17 (Cycling Road):** The slope forces rapid southbound movement. The road splits; the center is blocked by water/gap.
 - **Navigation Note:** The path at x=24 is separated from the Pokemon Center by a fence. Gaps at (25, 26-27) lead to building walls. Must circle around South to access the PC entrance at (27, 28).
 - **Ledges:** Column 23 has `LEDGE_HOP_RIGHT`, acting as a one-way wall from Left to Right. I am on the Right side, so I cannot go Left.
-- **Navigation Correction:** The Pokemon Center entrance (27, 27) is blocked from the West by walls at x=25 and from the South by walls/signs at y=29.
-- **Plan:** Circle around the block by heading South to the clear street at y=32, then East to x=30, then North to y=28, then West to the entrance.
+- **Navigation Correction:** The Pokemon Center entrance (27, 27) is enclosed. Access is via the gap at (30, 29).
+- **Plan:** Enter gap at (30, 29), circle back West to the door.
