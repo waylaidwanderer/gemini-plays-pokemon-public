@@ -108,7 +108,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence: Reset with B, Start, Up*3 (from GEM to POKEMON), A, Down*4 (to GNEISS), A, A (Strength), B mashing\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\", \"B\"]\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n# Sequence: Reset with B, Start, Up*10 (to POKEDEX), Down (to POKEMON), A, sleep 500\n# Then Down*4 (to GNEISS), A, sleep 500\n# Then A (Strength is usually the first option in Crystal for usable HMs), sleep 1000\n# Then mash B.\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\", \"B\"]\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -124,6 +124,11 @@
         "commit_message": "Refined Strength tool to navigate from GEM (default cursor position) to POKEMON accurately.",
         "timestamp": "2025-12-28T14:27:53.036Z",
         "action_counter": 28827
+      },
+      {
+        "commit_message": "Refined Strength tool to be menu-agnostic by navigating to the top of the menu first. Added a Down press to select Strength from the Pokemon sub-menu.",
+        "timestamp": "2025-12-28T14:49:50.770Z",
+        "action_counter": 28851
       }
     ]
   }

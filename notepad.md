@@ -16,22 +16,23 @@
 - Row 1 (ICE): Connects all sections.
 
 # Strategies
-## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
-1. Navigate to (10, 1) via (10, 5), (10, 2).
-2. Slide RIGHT to (17, 1).
-3. Navigate to Section 3 bottom at (14, 16) via Row 16.
-4. Enter Section 2 at (13, 16).
-5. Navigate to (11, 8) via (12, 8).
-6. Activate Strength.
-7. Push UP to (11, 5). (Player at 11, 6).
-8. Push LEFT to (10, 5). (Player at 11, 5).
-9. Push UP to (10, 2). (Player at 10, 3).
-10. Push RIGHT into Pit 1 (11, 2). (Player at 10, 2).
-
 ## Fill Pit 2 (4, 7) with Boulder 2 (7, 8)
-1. Position: Player at (8, 8).
-2. Push LEFT to (4, 8). (Player at 5, 8).
-3. Push UP into Pit 2 (4, 7). (Player at 4, 8).
+1. Navigate to (10, 1) from (10, 3).
+2. Walk Left to (7, 1).
+3. Navigate to (8, 8) via (5, 9) and (8, 9).
+   Path: (7, 1) -> (7, 2) -> (6, 2) -> (5, 2) -> (5, 9) -> (8, 9) -> (8, 8).
+4. Activate Strength.
+5. Push LEFT to (4, 8). (Player at 5, 8).
+6. Push UP into Pit 2 (4, 7). (Player at 4, 8).
+
+## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
+1. Complete "Fill Pit 2" strategy.
+2. Navigate to (11, 8) via Section 3 and the Row 16 gap.
+3. Activate Strength.
+4. Push UP to (11, 5). (Player at 11, 6).
+5. Push LEFT to (10, 5). (Player at 11, 5).
+6. Push UP to (10, 2). (Player at 10, 3).
+7. Push RIGHT into Pit 1 (11, 2). (Player at 10, 2).
 
 # Game Mechanics
 - FLOOR: Walkable. Standard behavior in most of B1F.
