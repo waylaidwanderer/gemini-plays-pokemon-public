@@ -1,13 +1,14 @@
 # Current Status
-- **Status:** Leaving Bill's House (Route 25).
-- **Location:** (2, 4).
-- **Goal:** Explore Route 25 East (The Cape) to find Misty.
-- **Action:** Exit house, then go East.
+- **Status:** Outside Bill's House (Route 25).
+- **Location:** (47, 6).
+- **Goal:** Find Misty at the Cape (East of Bill's House).
+- **Action:** Walking East to the end of the peninsula.
 
 # Future Strategy
-1. Find Misty at the Cape (East of Bill's House).
-2. Defeat Misty at Cerulean Gym.
-3. Earn Cascade Badge.
+1. Find Misty (she should be on a date).
+2. Interrupt the date (she will return to the Gym).
+3. Go to Cerulean Gym.
+4. Defeat Misty for the Cascade Badge.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
