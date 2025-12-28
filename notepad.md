@@ -87,3 +87,7 @@
 - Goal: Find path North to Pewter City.
 - Stepping South from (5, 7) to trigger warp.
 - Anticipating arrival on Route 2 (West) or near Viridian City.
+- Exited Gatehouse at (15, 31) on Route 2.
+- Path leads South over ledges.
+- Deduced that this East Side path connects Diglett's Cave to Viridian City.
+- New Plan: Go South to Viridian City -> Switch PC Box -> Go North via West Route 2 -> Viridian Forest -> Pewter City.
