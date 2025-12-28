@@ -75,20 +75,19 @@
 
 # Blackthorn Gym Puzzle Progress (Started Turn 29238)
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
-- Boulder 4 (2, 4): Target is Pit (2, 5). [Turn 29317]
+- Boulder 4 (2, 4): Pushed into Pit (2, 5). [Turn 29318]
 - Boulder 6 (3, 1): Moved to clear path.
-- Boulder 7 (6, 1): Target is Pit (8, 7).
-- Boulder 8 (8, 14): Target is Pit (8, 7). Path: (8, 14) -> (8, 10) -> (9, 10) -> (9, 7) -> (8, 7).
+- Boulder 7 (6, 1): Investigating.
+- Boulder 8 (8, 14): Target is Pit (8, 7). Path: (8, 14) -> (8, 11) -> (9, 11) -> (9, 7) -> (8, 7).
 - Boulder 5 (6, 16): Investigating.
-- Pit (2, 5): Target for Boulder 4.
-- Pit (8, 3): Target for Boulder 3 (Done).
-- Pit (8, 7): Target for Boulder 7 or 8.
+- Pit (2, 5): Filled by Boulder 4.
+- Pit (8, 3): Filled by Boulder 3.
+- Pit (8, 7): Target for Boulder 8.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- NW Puzzle Plan:
-  1. Push Boulder 4 (2, 4) down into Pit (2, 5). [Current]
 - SE Puzzle Plan:
   1. Navigate to SE quadrant via Row 13.
-  2. Push Boulder 8 (8, 14) up to (8, 10).
-  3. Push RIGHT to (9, 10).
-  4. Push UP to (9, 7).
-  5. Push LEFT into Pit (8, 7).
+  2. Push Boulder 8 (8, 14) up to (8, 11).
+  3. Move to (8, 12), push RIGHT to (9, 11)? No, push from (8, 11) to (9, 11).
+  4. Move to (10, 11) - wait, map width is 10 (0-9).
+  5. Push UP to (9, 7).
+  6. Push LEFT into Pit (8, 7). [Time: Turn 29318]
