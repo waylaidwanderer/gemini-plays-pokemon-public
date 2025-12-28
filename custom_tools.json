@@ -36,34 +36,39 @@
   "find_path_v11": {
     "description": "Advanced pathfinding tool that handles land-water transitions and avoids obstacles. Uses global map_xml_string.",
     "input_schema": {
+      "type": "object",
       "properties": {
-        "can_cut": {
-          "default": true,
-          "type": "boolean"
-        },
-        "can_surf": {
-          "default": true,
-          "type": "boolean"
-        },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
           "type": "integer"
+        },
+        "can_surf": {
+          "type": "boolean",
+          "default": true
+        },
+        "can_cut": {
+          "type": "boolean",
+          "default": true
         }
       },
       "required": [
         "end_x",
         "end_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\nimport sys\n\ndef solve():\n    global map_xml_string\n    if 'map_xml_string' not in globals() or not map_xml_string:\n        print(json.dumps([]))\n        return\n\n    input_data = {}\n    try:\n        raw_input = sys.stdin.read()\n        if raw_input:\n            input_data = json.loads(raw_input)\n    except:\n        pass\n        \n    root = ET.fromstring(map_xml_string)\n    if 'end_x' not in input_data or 'end_y' not in input_data:\n        print(json.dumps([]))\n        return\n        \n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    can_cut = input_data.get('can_cut', True)\n    can_surf = input_data.get('can_surf', True)\n    \n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_player = tile.find('Player') is not None\n            has_object = tile.find('Object') is not None\n            \n            if has_player:\n                player_pos = (x, y)\n            \n            grid[(x, y)] = {\n                'type': t_type,\n                'has_object': has_object\n            }\n\n    if player_pos is None:\n        print(json.dumps([]))\n        return\n\n    def get_buttons(path):\n        buttons = []\n        for i in range(len(path) - 1):\n            curr = path[i]\n            nxt = path[i+1]\n            if nxt[0] > curr[0]: buttons.append(\"Right\")\n            elif nxt[0] < curr[0]: buttons.append(\"Left\")\n            elif nxt[1] > curr[1]: buttons.append(\"Down\")\n            elif nxt[1] < curr[1]: buttons.append(\"Up\")\n        return buttons\n\n    queue = collections.deque([(player_pos, [])])\n    visited = {player_pos}\n    \n    impassable_types = {'WALL', 'BUOY', 'COUNTER', 'HEADBUTT_TREE'}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            print(json.dumps(get_buttons(path + [(curr_x, curr_y)])))\n            return\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                \n                is_blocked = False\n                if tile['type'] in impassable_types: is_blocked = True\n                if tile['type'] == 'CUT_TREE' and not can_cut: is_blocked = True\n                if tile['type'] == 'WATER' and not can_surf: is_blocked = True\n                if tile['has_object'] and (nx != end_x or ny != end_y): is_blocked = True\n                \n                if not is_blocked:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [(curr_x, curr_y)]))\n    \n    print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    solve()",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\nimport sys\n\ndef run():\n    try:\n        root = ET.fromstring(map_xml_string)\n        end_x = int(input_data['end_x'])\n        end_y = int(input_data['end_y'])\n        can_surf = input_data.get('can_surf', True)\n        can_cut = input_data.get('can_cut', True)\n        \n        grid = {}\n        player_pos = None\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                if tile.find('Player') is not None:\n                    player_pos = (x, y)\n                grid[(x, y)] = {\n                    'type': tile.attrib['type'],\n                    'seen': tile.attrib['seen'] == 'true',\n                    'has_object': tile.attrib.get('has-object') == 'true',\n                    'is_warp': tile.attrib.get('is-warp') == 'true'\n                }\n        \n        if not player_pos:\n            print(\"Error: Player position not found in map XML.\")\n            return\n\n        passable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET', 'ICE', 'LADDER', 'PIT', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n        if can_surf:\n            passable_types.append('WATER')\n\n        queue = deque([(player_pos, [])])\n        visited = {player_pos}\n\n        while queue:\n            (cx, cy), path = queue.popleft()\n            if (cx, cy) == (end_x, end_y):\n                print(json.dumps(path))\n                return\n            \n            for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = cx + dx, cy + dy\n                if (nx, ny) in grid and (nx, ny) not in visited:\n                    tile = grid[(nx, ny)]\n                    if tile['seen'] and tile['type'] in passable_types and not tile['has_object']:\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path + [move]))\n        print(\"No path found.\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n\nrun()",
     "history": [
       {
         "commit_message": "Initial version of refined pathfinding tool for land/water transitions.",
         "timestamp": "2025-12-28T06:02:21.601Z",
         "action_counter": 27924
+      },
+      {
+        "commit_message": "Fixing pathfinding tool by allowing movement into PITS if they are the target.",
+        "timestamp": "2025-12-28T09:33:19.995Z",
+        "action_counter": 28367
       }
     ]
   },
@@ -100,6 +105,40 @@
         "commit_message": "Added 'ICE' and 'WARP_CARPET_DOWN' to passable types for better exploration.",
         "timestamp": "2025-12-28T07:02:21.682Z",
         "action_counter": 28055
+      }
+    ]
+  },
+  "plan_boulder_push": {
+    "description": "Calculates a sequence of pushes to move a boulder to a target tile.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulder_x": {
+          "type": "integer"
+        },
+        "boulder_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "boulder_x",
+        "boulder_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run():\n    try:\n        root = ET.fromstring(map_xml_string)\n        boulder_x = int(input_data['boulder_x'])\n        boulder_y = int(input_data['boulder_y'])\n        target_x = int(input_data['target_x'])\n        target_y = int(input_data['target_y'])\n        \n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                grid[(x, y)] = {\n                    'type': tile.attrib['type'],\n                    'seen': tile.attrib['seen'] == 'true',\n                    'has_object': tile.attrib.get('has-object') == 'true'\n                }\n                \n        passable_types = ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WATER', 'ICE', 'LADDER']\n\n        queue = deque([( (boulder_x, boulder_y), [] )])\n        visited = {(boulder_x, boulder_y)}\n        \n        while queue:\n            (bx, by), path = queue.popleft()\n            if (bx, by) == (target_x, target_y):\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, move_name in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nbx, nby = bx + dx, by + dy\n                px, py = bx - dx, by - dy\n                \n                if (nbx, nby) in grid and (nbx, nby) not in visited:\n                    btile = grid[(nbx, nby)]\n                    if (px, py) in grid:\n                        ptile = grid[(px, py)]\n                        if btile['seen'] and btile['type'] in passable_types and not btile['has_object'] \\\n                           and ptile['seen'] and ptile['type'] in passable_types:\n                            visited.add((nbx, nby))\n                            queue.append(( (nbx, nby), path + [{'push': move_name, 'boulder_to': (nbx, nby), 'player_at': (px, py)}] ))\n        print(\"No solution found.\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n\nrun()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T09:33:19.996Z",
+        "action_counter": 28367
       }
     ]
   }
