@@ -31,16 +31,17 @@
 - 2F Boulders:
   - Boulder 6: (3, 3)
   - Boulder 7: (6, 1)
-  - Boulder 8: (8, 14) (Likely extra)
+  - Boulder 8: (8, 14)
 - 2F Pits:
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
-  - Pit (8, 7) -> 1F (7, 7) (Status: FILLED by Boulder 5)
-- Strategy (Start Turn: 29560):
-  1. Push Boulder 7 (6, 1) -> (8, 1) -> (8, 3) (Pit).
-  2. Push Boulder 6 (3, 3) -> (2, 3) -> (2, 5) (Pit).
-- Progress:
+  - Pit (8, 7) -> 1F (7, 7) (Status: FILLED)
+- Progress (Start Turn: 29560):
   - (7, 7) bridge is active. Need to fill (2, 6) and (7, 6).
+  - 2F Pits (2, 5) and (8, 3) correspond to these.
+- Layout Corrections:
+  - (4, 1) is Cody (Wall).
+  - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
