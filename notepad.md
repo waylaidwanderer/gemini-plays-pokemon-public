@@ -47,3 +47,7 @@
 - **Battle Update:** Starmie (Lv 47) is out.
 - **Action:** Using Thunderpunch (Slot 2).
 - **Cursor Check:** Cursor is on Strength (Slot 1) from previous turn. Moving Down to Slot 2.
+- **Battle Log:** Defeated Starmie (Lv 47) with Thunderpunch.
+- **Next:** Lapras (Lv 47?). Water/Ice.
+- **Strategy:** Refuse switch. Use Thunderpunch (Slot 2). 
+- **Note:** Cursor remembers Thunderpunch (Slot 2).
