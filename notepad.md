@@ -2,13 +2,12 @@
 - **Status:** On Route 26 (Outside Victory Road).
 - **Location:** (7, 6).
 - **Goal:** Fly to Cerulean City.
-- **Action:** Resetting Menu Navigation (Stuck in Pokedex) -> Return to Overworld.
+- **Action:** Confirming "FLY". Next step: Navigate Map to Cerulean.
 
 # Future Strategy
-1. Open Start Menu -> Pokemon -> Mistral -> Fly.
-2. Fly to Cerulean City.
-3. Go North to Route 24/25.
-4. Find Misty at the Cape.
+1. Navigate Fly Map to Cerulean City.
+2. Go North to Route 24/25.
+3. Find Misty at the Cape.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
