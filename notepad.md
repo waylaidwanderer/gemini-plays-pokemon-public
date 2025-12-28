@@ -1,8 +1,8 @@
 # Ice Path B1F Puzzle Status
 - Start Turn: 28759 | Start Time: Sunday, Dec 28, 5:32 AM
 - Status: Boulders RESET on floor change. All 4 must be pushed in one session.
-- Boulder 1: (11, 7) | Target Pit 1: (11, 2)
-- Boulder 2: (5, 7) | Target Pit 2: (4, 7)
+- Boulder 1: (11, 5) | Target Pit 1: (11, 2)
+- Boulder 2: (5, 6) | Target Pit 2: (4, 7)
 - Boulder 3: (??) | Target Pit 3: (5, 12)
 - Boulder 4: (17, 7) | Target Pit 4: (12, 13)
 
