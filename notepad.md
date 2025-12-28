@@ -2,6 +2,12 @@
 - **Status:** Navigating Victory Road 1F to Exit.
 - **Location:** (2, 53) (1F West).
 - **Goal:** Reach Exit at (9, 67).
+- **Path:** South to Ledge (2, 61) -> Jump Down -> South to (2, 66) -> East to Exit.
+
+# Tile Mechanics
+- **FLOOR_UP_WALL:** Acts as a WALL when moving UP into it. Acts as a FLOOR when moving DOWN/LEFT/RIGHT into it. Visual barrier for tiles "behind" it.
+- **LEDGE_HOP_DOWN:** One-way movement DOWN. Cannot move UP, LEFT, or RIGHT onto it.
+- **PIT:** Warps player to the floor below.
 
 # Victory Road Map Structure
 - **Vertical Layout:** Single map ID 3_91 contains all floors.
