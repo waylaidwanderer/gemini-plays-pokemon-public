@@ -133,5 +133,20 @@
         "action_counter": 28789
       }
     ]
+  },
+  "activate_strength_v3_fixed2": {
+    "description": "Activates Strength using GNEISS (5th slot) with a robust reset sequence. Assumes GNEISS is in the 5th party slot.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n\ndef main():\n    # 1. Exit any current menu/dialogue\n    buttons = [\"B\"] * 6\n    # 2. Open Menu\n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    # 3. Navigate to POKEMON (2nd option)\n    # Ensure we are at the top first\n    buttons.extend([\"Up\"] * 8)\n    buttons.extend([\"Down\"] * 1)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    # 4. Navigate to GNEISS (5th slot)\n    # Ensure we are at the top first\n    buttons.extend([\"Up\"] * 6)\n    buttons.extend([\"Down\"] * 4)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    # 5. Select Strength (Assume it's the first menu option)\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    # 6. Clear the \"Used Strength\" message and exit\n    buttons.extend([\"B\"] * 5)\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main()",
+    "history": [
+      {
+        "commit_message": "Refined Strength activation with boundary-hitting navigation for menu reliability.",
+        "timestamp": "2025-12-28T14:00:53.223Z",
+        "action_counter": 28791
+      }
+    ]
   }
 }
