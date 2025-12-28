@@ -14,6 +14,9 @@
 - **Snorlax:** Located at (34, 8) in Vermilion City. Blocks Diglett's Cave.
 
 # Tile Mechanics
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
+- **LADDER:** Interact/Walk to warp.
 - **FLOOR_UP_WALL:** Blocked from North.
 - **WARP_CARPET_DOWN:** Walk off map edge.
 - **Ledge:** Jump down (South) only.

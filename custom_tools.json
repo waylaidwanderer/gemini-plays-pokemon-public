@@ -81,18 +81,6 @@
       }
     ]
   },
-  "flee_battle": {
-    "description": "Automates fleeing from a wild battle. Presses B repeatedly to advance entry text, then navigates to and selects the 'RUN' option. Assumes the cursor starts at 'FIGHT' (Top-Left).",
-    "input_schema": {},
-    "python_script": "import json\ncmds = []\n# Spam B to clear text (Wild X appeared, Go X!, etc)\nfor _ in range(8):\n    cmds.append(\"B\")\n    cmds.append(\"sleep 300\")\n\n# Break any potential sleep chain from the loop and give time for menu\ncmds.append(\"B\")\ncmds.append(\"sleep 600\")\n\n# Navigation from FIGHT (Top-Left) to RUN (Bottom-Right)\n# Layout:\n# FIGHT  PKMN\n# PACK   RUN\ncmds.append(\"Down\")\ncmds.append(\"sleep 250\")\ncmds.append(\"Right\")\ncmds.append(\"sleep 250\")\ncmds.append(\"A\")\n\nprint(json.dumps(cmds))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-17T19:06:41.047Z",
-        "action_counter": 3674
-      }
-    ]
-  },
   "slow_press": {
     "description": "Presses a sequence of buttons with a configurable delay between each press. Input 'buttons' should be a list of button names (e.g., 'A', 'B', 'Up'). 'sleep' commands in the input list are ignored to prevent errors; use the 'delay' parameter instead.",
     "input_schema": {
