@@ -8,7 +8,7 @@
 - ROCK: Destructible with ROCK SMASH. (Verified: Turn 29041)
 - WATER: Requires Surf to traverse. (Verified: Turn 26645)
 - WARP: Static transition between maps/locations. (Verified: Turn 29125)
-- BOULDER BRIDGES: In Blackthorn Gym, boulders in pits (1F 2,6; 7,6; 7,7) act as passable FLOOR. (Verified: Turn 29431)
+- BOULDER BRIDGES: In Blackthorn Gym, boulders in pits act as passable FLOOR. (Verified: Turn 29431)
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29).
@@ -25,17 +25,20 @@
 - Status: Party fully healed.
 - Goal: Defeat Gym Leader Clair.
 - Plan:
-  1. Navigate to (5, 4) on 1F.
-  2. Interact with Clair (5, 3).
-  3. Win the Rising Badge.
+  1. Move to (9, 3).
+  2. Move to (6, 3) via (8, 3) bridge.
+  3. Move to (5, 4).
+  4. Interact with Clair (5, 3).
+  5. Win the Rising Badge.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
 - 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West sides.
 - Pit Destinations:
+  - 2F Pit (2, 2) -> 1F (8, 3)?
+  - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
   - 2F Pit (2, 5) -> 1F (2, 6) [Entry 5]
   - 2F Pit (8, 7) -> 1F (7, 7) [Entry 6]
-  - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
 # Reflection & Lessons
 - **NPC Collision:** Defeated NPCs still occupy their tiles and are impassable objects. Always path around them. (Turn 29424)
