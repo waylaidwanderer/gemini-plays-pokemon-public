@@ -83,11 +83,8 @@
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
 
-# Battle Status: Snorlax
-- HP: Red (Low)
-- Status: Paralyzed
-- Item: Leftovers (Recovering HP)
-- Moves Known: Rollout (Missed last turn), Rest (Likely), Snore (Likely)
-- Catch Attempts: 4 failed.
-- Current Action: Throwing Ultra Ball (Attempt 5).
-- Stock: 17 Ultra Balls remaining.
+- Snorlax Caught! Added to Pokedex.
+- Post-Battle State: Viewing Pokedex entry.
+- PC Box 1: 19/20 slots filled. Approaching capacity.
+- Planned Nickname: PAVLOV.
+- Next: Enter Diglett's Cave.
