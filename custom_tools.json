@@ -116,5 +116,39 @@
         "action_counter": 29341
       }
     ]
+  },
+  "find_path_v2": {
+    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls and objects as obstacles. Returns a JSON array of coordinates.",
+    "input_schema": {
+      "properties": {
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run():\n    root = ET.fromstring(map_xml_string)\n    start = (int(input_data['start_x']), int(input_data['start_y']))\n    end = (int(input_data['end_x']), int(input_data['end_y']))\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type')\n            \n            # Passable types for navigation within a map\n            is_passable = t_type in ['FLOOR', 'LADDER', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']\n            \n            # Objects (NPCs, Boulders, Items) are impassable\n            if tile.find('Object') is not None:\n                is_passable = False\n                \n            # The destination tile is passable even if it's a warp or has an object (to allow interaction)\n            if (x, y) == end:\n                is_passable = True\n                \n            grid[(x, y)] = is_passable\n\n    queue = deque([(start, [start])])\n    visited = {start}\n    \n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == end:\n            print(json.dumps(path))\n            return\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [{\"x\": nx, \"y\": ny}]))\n    \n    print(json.dumps([]))\n\nrun()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T20:27:16.465Z",
+        "action_counter": 29425
+      }
+    ]
   }
 }
