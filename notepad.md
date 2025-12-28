@@ -24,16 +24,15 @@
 - **CUT_TREE:** Obstacle. Removable with Cut HM.
 - **LADDER:** Warps to another map or floor.
 - **DOOR:** Warps to another map or interior.
-- **Correction:** The "Cape" tip at (50-55, 4) is walled off from the land. The only access is via the water channel at x=56.
-- **Correction:** Access to the x=56 water channel is blocked on Route 25 by walls. Must access from Route 24 (Nugget Bridge) East side.
-- **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
-- **Route 25:** Water at (42-45, 8-11) might connect to the Cape channel (x=56).
-- **Plan A:** Go to (42, 12), Surf North to (42, 11), check East passage. If open, proceed to Cape.
-- **Plan B:** If East passage blocked, return to Maze (West side), go to (4, 17), Surf South to Route 24 West, then Surf East under bridge.
-- **Correction:** The water pool at (42-53, 8-11) is ISOLATED. The 'LADDER' tiles allow access to the East side of the pool, but there is no exit to the main channel (x=56).
-- **Plan:** Surf West back to (42, 12) -> Walk West to (11, 13) -> South to Route 24 -> Surf North from Route 24 East side.
-- **Route 25 South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end reachable only via the isolated pool at (42, 12).
-- **Geography:** East-West crossing is possible at Row 8. Vertical barrier (Ladders) exists only at x=8-9, y=12-17.
-- **Route 24 Connectivity:** West and East water channels are likely separated by the Nugget Bridge. Must loop through Cerulean City water to switch sides.
-- **Current Plan:** Surf South from (4, 15) to Route 24 (West) -> Continue South to Cerulean City -> Loop around to Route 24 (East) -> North to Route 25 Cape.
+- **Route 25 Observations:**
+    - **The Cape (Target):** Located at the far east (x=56), accessible only via water.
+    - **Barriers:** The land area is walled off from the water channel.
+    - **South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end, only reachable via the isolated pool at (42, 12).
+    - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
+- **Route 24 Connectivity:** The bridge separates the West and East water channels.
+- **Current Strategy:**
+    1. Surf South from Route 25 (West side) to Route 24.
+    2. Continue South to Cerulean City's water area.
+    3. Loop around to the East side of the bridge on Route 24.
+    4. Surf North up the East channel to reach the Cape on Route 25.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
