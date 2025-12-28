@@ -5,16 +5,18 @@
 - Pit 2 (4, 7): Empty.
 - Pit 3 (5, 12): Empty.
 - Pit 4 (12, 13): Empty.
-- Boulder 1: (11, 7) (Searching).
-- Boulder 2: (7, 8) (Searching).
-- Boulder 3: (8, 9) (Searching).
-- Boulder 4: (17, 7) (Searching).
+
+# Known Spawn Points (Verification Required)
+- Boulder 1: (11, 7)
+- Boulder 2: (7, 8)
+- Boulder 3: (8, 9)
+- Boulder 4: (17, 7)
 
 # Tile Mechanics
 - FLOOR: Walkable.
 - WALL: Impassable.
 - ICE: Sliding mechanic.
-- PIT: Warp to B2F. Becomes traversable on B2F once filled.
+- PIT: Warp to B2F. Must be filled to solve B2F.
 - BOULDER: Movable object. Resets if player leaves the floor.
 
 # Map Sections (B1F)
@@ -24,11 +26,11 @@
 
 # Strategies
 ## Locate all Boulders
-1. Search northern area spawn points: (11, 7), (7, 8), (8, 9), (17, 7).
-2. Mark each boulder with a unique emoji.
+1. Navigate to each spawn point to confirm presence.
+2. Do NOT leave the floor or fall through pits during the search or push.
 
 # Lessons Learned
 - Boulders reset if you leave the floor (including falling through pits).
-- Pits are still warps in Game State Information, meaning they are NOT filled.
+- Pits are currently empty.
 - Row 1 and Row 16 are non-ice corridors.
-- (17, 8) and (17, 13) are WALLs, use Column 18 to go north in Section 3.
+- (17, 5), (17, 10), (17, 13) are nearby WALLs or obstacles. Use Column 18/19 for Section 3 navigation.
