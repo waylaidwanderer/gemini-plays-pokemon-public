@@ -1,8 +1,8 @@
 # Current Status
-- **Status:** On Route 25.
-- **Location:** (40, 4).
-- **Goal:** Return to Cerulean City to access Route 9 (Power Plant).
-- **Action:** Exit House and Resume Search.
+- **Status:** On Route 25 (Maze Area).
+- **Location:** (15, 9).
+- **Goal:** Find Misty at the Cape (East of Bill's House).
+- **Action:** Navigate back to Bill's House to search the Cape area.
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
