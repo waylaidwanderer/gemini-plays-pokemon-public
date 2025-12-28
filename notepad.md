@@ -27,6 +27,6 @@
 - PROTEIN collected at (35, 9) on 1F.
 
 # Blackthorn City Discoveries
-- Building at (29, 23) is Emy's House.
+- Building at (29, 23) is Emy's House. Inside: Lass wants to trade DODRIO for DRAGONAIR (Female).
 - Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
 - Cooltrainer F (Flavor NPC) at (35, 19).
