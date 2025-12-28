@@ -123,5 +123,17 @@
         "action_counter": 28722
       }
     ]
+  },
+  "activate_strength_gneiss_and_push_up": {
+    "description": "Robustly navigates the menu to activate Strength using GNEISS (5th party member) and then attempts to push a boulder UP. Assumes the Start menu cursor is already on POKEMON.",
+    "input_schema": {},
+    "python_script": "import json\n# 1. Open menu (assumes cursor on POKEMON)\n# 2. Enter Party (A)\n# 3. Reset Party cursor (Up 6 times to ensure Slot 1)\n# 4. Select GNEISS (Down 4 times to Slot 5)\n# 5. Select STRENGTH (A, A)\n# 6. Close menus (B, B, B)\n# 7. Attempt Push (Up)\nbtns = [\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"Up\"]\nprint(json.dumps(btns))\n",
+    "history": [
+      {
+        "commit_message": "Refined activate_strength_gneiss to robustly navigate the party menu by resetting the cursor to Slot 1 before selecting GNEISS. Added an 'Up' press at the end to immediately attempt a boulder push.",
+        "timestamp": "2025-12-28T13:10:57.019Z",
+        "action_counter": 28724
+      }
+    ]
   }
 }
