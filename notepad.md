@@ -1,12 +1,14 @@
 # Ice Path B1F Puzzle Status
 - Current Session Start: Turn 28627
 - Status: Boulders RESET on floor change. All 4 must be pushed in one session.
-- Pit 1 (11, 2): FILLED (Turn 28912).
-- Pit 2 (4, 7): FILLED (Turn 28885).
+- Pit 1 (11, 2): Empty.
+- Pit 2 (4, 7): Empty.
 - Pit 3 (5, 12): Empty.
 - Pit 4 (12, 13): Empty.
-- Boulder 3: UNKNOWN (Not at 8, 9). Searching Section 1.
-- Boulder 4: UNKNOWN (Not at 17, 7). Searching Section 3.
+- Boulder 1: (11, 7) (Searching).
+- Boulder 2: (7, 8) (Searching).
+- Boulder 3: (8, 9) (Searching).
+- Boulder 4: (17, 7) (Searching).
 
 # Tile Mechanics
 - FLOOR: Walkable.
@@ -16,17 +18,17 @@
 - BOULDER: Movable object. Resets if player leaves the floor.
 
 # Map Sections (B1F)
-- Section 1 (Left): (0, 1) to (8, 16). Contains Ladder to 1F (3, 15), Pit 2 (Filled), and Pit 3 (5, 12).
-- Section 2 (Middle): (9, 1) to (13, 15). Contains Pit 1 (Filled), and Pit 4 (12, 13).
-- Section 3 (Right): (14, 1) to (19, 16). Contains Ladder to B2F (17, 3) and Boulder 4 (17, 7).
+- Section 1 (Left): (0, 1) to (8, 16). Contains Ladder to 1F (3, 15), Pit 2, and Pit 3.
+- Section 2 (Middle): (9, 1) to (13, 15). Contains Pit 1, and Pit 4.
+- Section 3 (Right): (14, 1) to (19, 16). Contains Ladder to B2F (17, 3) and Boulder 4.
 
 # Strategies
-## Fill Pit 4 (12, 13) with Boulder 4 (17, 7)
-1. Verify Boulder 4 at (17, 7).
-2. Use puzzle_strategist_v1 to generate sequence.
+## Locate all Boulders
+1. Search northern area spawn points: (11, 7), (7, 8), (8, 9), (17, 7).
+2. Mark each boulder with a unique emoji.
 
 # Lessons Learned
 - Boulders reset if you leave the floor (including falling through pits).
-- Pit 1 (11, 2) and Pit 2 (4, 7) are currently filled in this session.
+- Pits are still warps in Game State Information, meaning they are NOT filled.
 - Row 1 and Row 16 are non-ice corridors.
 - (17, 8) and (17, 13) are WALLs, use Column 18 to go north in Section 3.
