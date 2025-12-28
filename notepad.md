@@ -17,7 +17,7 @@
 - Goal: Defeat the Wise Trio in Tin Tower 1F to access Suicune.
 - Plan: 
   1. Talk to Sage Masa (14, 6). (DONE: Lore dialogue only).
-  2. Talk to Sage Gaku (11, 11).
+  2. Talk to Sage Gaku (11, 11). (DONE: Lore dialogue only).
   3. Talk to Sage Koji (5, 9).
   4. Defeat them in battle to access Suicune.
 - Clear Bell: Required for final encounter. (Status: Acquired).
