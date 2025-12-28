@@ -4,7 +4,8 @@
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Reset floor via pit (Complete). Boulders are back at start positions. [DONE]
-2. Return to B1F via ladder at (17, 1). [CURRENT]
+2. Return to B1F via ladder at (17, 1). [DONE]
+3. Navigate to (11, 8) via northern corridor and long western loop. [CURRENT]
 3. Navigate to (11, 8) and push UP to (11, 5).
 4. Move to (12, 5) and push LEFT to (10, 5).
 5. Move to (10, 6) and push UP to (10, 1).
