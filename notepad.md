@@ -55,12 +55,14 @@
 - The gym is split into sections on both floors.
 - 1F Layout: West side contains Ladders (1, 7). East side island (7, 9).
 - 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West.
+- Pit Destinations (Confirmed via Entry Points):
+  - 2F Pit (2, 5) -> 1F (2, 6) [Entry 3]
+  - 2F Pit (8, 7) -> 1F (7, 7) [Entry 4]
+  - 2F Pit (8, 3) -> 1F (7, 6) [Entry 5]
 - Strategy: Use 2F Row 13 to move between quadrants.
 
 # Blackthorn Gym Puzzle Progress
-- Status: All pits are EMPTY (reset after Turn 29320).
-- Master Puzzle Plan (Turn 29332):
-  1. Fill Pit (8, 3): Use Boulder 3 (8, 2). Reach from (8, 1). (Need to move Boulder 7 to (9, 1) first).
-  2. Fill Pit (2, 5): Use Boulder 6 (3, 3). Reach from (2, 2). (Need to move Boulder 4 first? No, use Boulder 6 for pit 2,5).
-  3. Fill Pit (8, 7): Use Boulder 4 (2, 3). Push down to row 13, right to col 6, north to row 7, then right into pit.
-- Current Status: Heading to (5, 1) to start NE sequence. [Time: Turn 29332]
+- Status: Boulders 3 and 4 are in pits. Resetting floor to fix Boulder 7 positioning.
+- Master Puzzle Plan (Turn 29336):
+  1. Fill Pit (8, 7): Use Boulder 7 (6, 1).
+- Current Status: On 1F (7, 9). Returning to 2F. [Time: Turn 29336]
