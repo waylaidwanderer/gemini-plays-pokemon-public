@@ -30,12 +30,14 @@
     - **South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end, only reachable via the isolated pool at (42, 12).
     - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
 - **Route 24 Connectivity:**
-    - **West Channel:** Isolated dead end. Walls block access to Cerulean City East or the Bridge.
-    - **Hypothesis:** Must cross from West to East on Route 24 or Route 25 water.
+    - **West Channel (Cerulean):** Dead end (x=16-18). Blocked by walls at Row 6. Cannot land.
+    - **East Channel (Cerulean):** Accessible from Cerulean City land (x=27+).
 - **Current Strategy:**
-    1. Return North to Route 24.
-    2. Attempt to Surf East under the bridge.
-    3. If blocked, return to land on Route 25 (4, 15) and find a different exit from the "South Trap".
+    1. Surf North back to Route 24 West.
+    2. Land on West bank.
+    3. Cross Nugget Bridge South to Cerulean City.
+    4. Walk East and Surf into the East Channel (x=27).
+    5. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
