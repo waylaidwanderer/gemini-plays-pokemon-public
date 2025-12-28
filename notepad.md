@@ -4,6 +4,7 @@
 - Against Kingdra: Use Thunderpunch (Typhlosion).
 - Against Dragonairs: Use Headbutt or Flame Wheel (Typhlosion), or Earthquake (Graveler).
 - Support: Use XENON (Gastly) Hypnosis or KIMCHI (Gloom) Sleep Powder to disable dragons.
+- Training: Catch Swinub/Jynx for Ice coverage. Evolve Gastly to Haunter.
 - Note: Severe level gap for support Pokemon; use them as fodder for healing primary attackers if needed.
 
 ## Training & Prep
