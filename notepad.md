@@ -27,6 +27,6 @@
 - **Correction:** The "Cape" tip at (50-55, 4) is walled off from the land. The only access is via the water channel at x=56.
 - **Correction:** Access to the x=56 water channel is blocked on Route 25 by walls. Must access from Route 24 (Nugget Bridge) East side.
 - **Plan:** Return to Route 24 -> Surf East of Bridge -> Head North to (56, 4).
-- **Correction:** The water pool at (42-45, 8-11) is isolated. Surfing South from (42, 7) leads to a dead-end strip at Row 12.
-- **Plan:** Surf back North to (42, 7) to exit the dead end. Then proceed to Route 24.
+- **Correction:** The strip of land at Row 12 is NOT a dead end. There is a passage at x=39 that leads to the southern path (Row 13-17).
+- **Plan:** Surf South to (42, 12) -> Go West to x=39 -> Go South to Row 13 -> Go West to x=11 -> Exit to Route 24 East Side.
 - **Discovery:** A path at x=11 on the South side of Route 25 (Row 13-17) connects Route 25 to Route 24 (East side). This is the way to the water channel.
