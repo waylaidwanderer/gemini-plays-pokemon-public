@@ -31,7 +31,8 @@
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - Object ID 1
 - Boulder 2: (7, 8) - Object ID 2
-- Boulder 3: (17, 7) - Object ID 4
+- Boulder 3: (8, 9) - Object ID 3
+- Boulder 4: (17, 7) - Object ID 4
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
 - Pit 3: (5, 12)
