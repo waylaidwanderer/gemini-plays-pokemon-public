@@ -43,9 +43,9 @@
 - Step 1: Explore north part of Row 14.
 - Step 2: Investigate the ice at X=32 and the item at (32, 23).
 - Step 3: Look for a ladder to B1F.
-- Status: In battle with wild Zubat. (Turn 28111)
+- Status: In battle with wild Zubat. (Turn 28112)
 
 # Capture Strategy: Zubat
 - Target: Zubat (Lv 22, Female)
 - Strategy: KIMCHI (Gloom) -> Sleep Powder -> Great Ball.
-- Status: Zubat is asleep. Attempting 5th Great Ball. (Turn 28111)
+- Status: Zubat is asleep. Attempting 6th Great Ball. (Turn 28112)
