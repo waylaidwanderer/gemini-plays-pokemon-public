@@ -38,7 +38,7 @@
 # Exploration Plan: Ice Path 1F
 - Goal: Reach the exit to Route 44/Blackthorn City.
 - Step 1: Reach the eastern section via Row 8 gap at (16, 8). (Completed Turn 28191)
-- Step 2: Explore the north-east area.
+- Step 2: Explore the north-east area and collect item at (31, 7).
 - Step 3: Investigate the item at (32, 23).
 - Step 4: Find the ladder to B1F.
 - Start Turn: 28132.
