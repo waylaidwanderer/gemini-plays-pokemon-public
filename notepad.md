@@ -1,10 +1,10 @@
 ## Battle Strategy (Blackthorn Gym)
 - Gym Leader Clair: Dragon-types (Dragonair Lv 37 x3, Kingdra Lv 40).
-- Recommended Lead: Typhlosion (Lv 45).
-- Against Kingdra: Use Thunderpunch. It's the only weakness in Gen 2 besides Dragon.
-- Against Dragonairs: Use Headbutt/Flame Wheel or Graveler's Earthquake.
-- Support: Use Gloom/Gastly for status (Sleep/Hypnosis). They are low level, so use them as fodder to heal main attackers.
-- Prep: Catch Swinub or Jynx in Ice Path for Ice-type coverage. Evolve Gastly.
+- Recommended Lead: Typhlosion (Lv 45) with Thunderpunch (Kingdra's only non-Dragon weakness).
+- Strategy: Use Earthquake (Graveler) or Headbutt/Flame Wheel (Typhlosion) for Dragonairs.
+- Fodder Switching: Use low-level members (Gloom, Pidgey, Krabby, Gastly) as sacrifices to safely heal or switch primary attackers.
+- Status Support: Use Hypnosis (Gastly) or Sleep Powder (Gloom) if they can survive a turn.
+- Training Goal: Reach Lv 38-40 with support team and catch Swinub/Jynx in Ice Path for Ice-type moves.
 
 ## Training & Prep
 - Goal: Level support team (Gloom, Gastly) to Lv 38-40.
