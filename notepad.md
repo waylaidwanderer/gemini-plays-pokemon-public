@@ -1,9 +1,9 @@
 # Current Status
-- **Status:** Traversing Victory Road 2F (West Side Loop).
-- **Location:** (5, 17).
+- **Status:** Traversing Victory Road 2F (East Side - Post Jump).
+- **Location:** Approaching (17, 19).
 - **Goal:** Reach Ladder at (17, 19).
-- **Route:** (5, 17) -> (3, 18) -> (3, 20) -> (9, 20) [Ledge Hop Right] -> (17, 19).
-- **Next:** Navigate to (8, 20) to prepare for ledge jump.
+- **Route:** Jump Ledge -> Walk East to (16, 20) -> North to (16, 19) -> East to (17, 19).
+- **Next:** Interact with Ladder to Warp to (17, 33).
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Lessons Learned
