@@ -14,12 +14,11 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy
-1. Move Right from (0, 8) to slide to (3, 8).
-2. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
-3. Walk to exit ladder (3, 15).
+1. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
+2. Walk to exit ladder (3, 15).
 
 ## Hypotheses
-- Item at (8, 16) was TM44 Rest.
+- Item at (8, 16) was TM44 Rest (Verified).
 
 ## Reflection & Lessons Learned
 - Warp Pathing: Navigate tool does not avoid warp tiles. Use intermediate coordinates.
