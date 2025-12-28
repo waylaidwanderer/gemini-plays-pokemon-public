@@ -2,8 +2,7 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Walking East on Row 8 to pass Defeated Cooltrainer Kevin at (37, 8).
-- **Next:** Continue to Bill's House (47, 6).
+- **Action:** Navigating around Kevin (Object at 37, 8) to reach Bill's House (47, 6).
 
 # Quest Logic (Cascade Badge)
 1. **Fact:** I have TM07 => Power Plant fixed.
