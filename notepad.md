@@ -106,3 +106,4 @@
 - Navigating West from cut tree.
 - Heading towards the main road of Route 2.
 - Expecting to find a path South to Viridian City.
+- Status: At Viridian City PC. Accessing Bill's PC to switch boxes.
