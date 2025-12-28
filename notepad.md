@@ -35,7 +35,6 @@
 - **Finding Misty:** Started ~Turn 23600. Current Turn: 23713.
 - **Verified Path Segment:** (15, 9) is connected to (23, 9) by a straight line. (23, 9) connects to (23, 11). (23, 11) connects to (26, 11).
 - **Tool Note:** `find_path` appears to treat Trainer Line-of-Sight as impassable, even if the trainer is marked as defeated. Must use manual movement to cross these lines.
-- **Status:** Moving to South-West Cerulean (Route 4 Entrance) to check for water access.
-- **Fact:** Wall at (5, 8) is NOT cuttable.
-- **Hypothesis:** Access to the western water channel is via a cuttable tree near (4, 20) or from Route 4.
-- **Target:** (4, 20).
+- **Status:** Checking potential Cut tree at (4, 19).
+- **Next:** If failed, head West to Route 4 to find water access.
+- **Goal:** Reach the water on the West side of Cerulean/Route 24.
