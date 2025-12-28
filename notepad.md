@@ -31,12 +31,13 @@
     - **East Water Pool:** The pool at (42-53, 8-11) is isolated and does not connect to the main channel.
 - **Route 24 Connectivity:**
     - **West Channel (Cerulean):** Dead end.
-    - **East Channel (Cerulean):** Accessible via Route 9 or potentially through the Burgled House (25, 29).
+    - **East Channel (Cerulean):** Accessible via Route 9 or potentially through the Burgled House (28, 17).
 - **Current Strategy:**
-    1. Enter Burgled House at (25, 29).
-    2. Check for backyard access to the East side.
-    3. If blocked, proceed to Route 9 and look for a surf spot.
-    4. Surf North to Route 25 Cape.
+    1. Exit Poke Mart.
+    2. Enter Burgled House at (28, 17).
+    3. Check for backyard access to the East side.
+    4. If blocked, proceed to Route 9 and look for a surf spot.
+    5. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
