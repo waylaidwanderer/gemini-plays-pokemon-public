@@ -8,6 +8,7 @@
 
 # Key Locations
 - **Pokemon Center:** Outside (29, 9) | Inside (21_17)
+  - Gentleman (0,5): Checks Friendship.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
