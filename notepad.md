@@ -1,20 +1,7 @@
-# Tile Mechanics - Global
-- FLOOR: Standard walkable tile. Verified traversable.
-- WALL: Impassable boundary. Verified impassable.
-- WATER: Traversable only with Surf. Verified traversable with HM03.
-- BUOY: Impassable boundary in water. Verified impassable.
-- WARP_CARPET: Triggers map transition when walked off the map edge. Verified functional.
-- HEADBUTT_TREE: Blocking object; can be interacted with using Headbutt. Verified impassable.
-- CUT_TREE: Blocking object; requires HM01 Cut. Verified impassable until cut. Regrows on map reload.
-- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it. Verified impassable.
-- CAVE: Map transition entry point. Verified functional.
-- TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
-- LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
-
 # Main Story Progression: 8th Gym Badge
 - Goal: Reach Blackthorn City and defeat Gym Leader Clair.
 - Current Status: 7 Badges.
-- Quest Start Turn: 27941.
+- Quest Start: Turn 27941 | Saturday, Dec 27, 2024, 10:15 PM
 - Plan:
   1. Fly to Mahogany Town.
   2. Travel East through Route 44.
@@ -36,4 +23,18 @@
 - HM Usage: Whirlpool will be needed for Dragon's Den after the 8th Gym. Ensure a party member can learn it (Ravioli/Krabby can).
 - Fly Map Navigation: Cursor cycles through visited cities. Observe movement rather than geographic directions.
 - FLOOR_UP_WALL: Impassable barrier, likely representing the base of a building or fence. Verified impassable from above.
-- Turn 27975: Mandatory 50-turn reflection performed. No deferred tasks. Markers updated. New tool 'get_reachable_unseen_tiles' defined.
+
+# Tile Mechanics - Global
+- FLOOR: Standard walkable tile. Verified traversable.
+- WALL: Impassable boundary. Verified impassable.
+- WATER: Traversable only with Surf. Verified traversable with HM03.
+- BUOY: Impassable boundary in water. Verified impassable.
+- WARP_CARPET: Triggers map transition when walked off the map edge. Verified functional.
+- HEADBUTT_TREE: Blocking object; can be interacted with using Headbutt. Verified impassable.
+- CUT_TREE: Blocking object; requires HM01 Cut. Verified impassable until cut. Regrows on map reload.
+- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it. Verified impassable.
+- CAVE: Map transition entry point. Verified functional.
+- TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
+- LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
+- LEDGE_HOP_LEFT: One-way jump left; impassable from right. Verified one-way movement.
+- FLOOR_UP_WALL: Impassable boundary. Verified impassable.
