@@ -14,17 +14,12 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy
-- Current Position: (12, 28).
-1. Walk to (17, 27) via (12,26) to avoid ladder.
-2. Slide Down from (17, 27) to (17, 29).
-3. Slide Right to (19, 29).
-4. Slide Down to (19, 33).
-5. Slide Left to (17, 33).
-6. Slide Up to (17, 31).
-7. Slide Left to (12, 31).
-8. Slide Up to (12, 30).
-9. Slide Left to (11, 30) (FLOOR).
-10. Explore Row 30 West to find the exit.
+- Current Position: (17, 33).
+1. Slide Up to (17, 31) (Hits WALL at 17,30).
+2. Slide Left to (13, 31) (Hits WALL at 12,31).
+3. Slide Up to (13, 30) (Hits WALL at 13,29).
+4. Slide Left to (11, 30) (FLOOR).
+5. Explore Row 30 West to find the exit.
 
 ## Hypotheses
 - Item at (8, 16) was TM44 Rest (Verified).
