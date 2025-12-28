@@ -41,13 +41,12 @@
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
 # Blackthorn Gym Boulder Puzzle Strategy
-- Status: Pits (8, 3) and (2, 5) are filled. Pit (8, 7) is EMPTY.
-- Goal: Fill Pit (8, 7) using Boulder 5 (6, 16).
+- Status: All Pits ((8, 3), (2, 5), (8, 7)) are filled. Puzzle COMPLETE.
+- Goal: Challenge Gym Leader Clair on 1F.
 - Plan:
-  1. Move Boulder 8 (8, 17) to clear Column 8 [Done].
-  2. Navigate to (6, 17). [Done]
-  3. Push Boulder 5 from (7, 7) right into Pit (8, 7). [In Progress: Currently at (6, 7)]
-  4. Push Boulder 5 right into (8, 7).
+  1. Return to 1F via Ladder at (7, 9).
+  2. Cross the bridge formed by boulders.
+  3. Battle Clair.
 - Verification: Boulders 3 and 4 were pushed in turns 29284 and 29318. They remain in pits after reset.
 
 # Reflection & Lessons
