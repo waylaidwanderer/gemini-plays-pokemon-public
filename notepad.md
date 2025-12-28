@@ -48,8 +48,8 @@
 - Hypothesis 3: NPC Cody at (4, 1) is passable.
   - Test: Stand at (5, 1) and press Left.
   - Result: DENIED (Turn 29751).
-- Hypothesis 4: Tile (8, 9) is a fake wall.
-  - Test: Stand at (8, 10) and press Up.
+- Hypothesis 4: Tile (8, 9) or (7, 10) is a fake wall.
+  - Test: Attempt to walk onto (8, 9) from (7, 9) or (7, 10) from (6, 10).
   - Result: [Pending].
 - Failed Hypotheses:
   1. Row 0 is passable (Tested (5,0), (7,0), (8,0), (9,0) - Denied).
