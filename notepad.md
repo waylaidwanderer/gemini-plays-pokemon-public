@@ -20,20 +20,23 @@
 - Exit Ladder: (3, 15).
 
 ## Strategy
-1. Navigate to (9, 3) via the northern corridor, avoiding the ladder at (3, 3).
-2. Slide Down from (9, 4) to stop on FLOOR at (9, 8).
-3. Walk to (5, 8).
-4. Jump Down over the ledge at (5, 9) to land on (5, 10) (ICE).
-5. Slide Down from (5, 10) to stop on ICE at (5, 16) (hits wall at (5, 17)).
-6. Slide Right from (5, 16) to stop on FLOOR at (8, 16).
-7. Collect the item (Potential HM07 Waterfall).
-8. Exit via the ladder at (3, 15).
+1. Move Down to (6, 3) to get off the ledge face.
+2. Walk to (6, 5).
+3. Step Down onto ICE at (6, 6) and slide Right to (9, 6).
+4. Slide Up from (9, 6) through ICE to stop on FLOOR at (9, 3).
+5. Step Down onto ICE at (9, 4) and slide Down to stop on FLOOR at (9, 8).
+6. Walk to (5, 8).
+7. Jump Down over the ledge at (5, 9) to land on (5, 10) (ICE).
+8. Slide Down from (5, 10) to stop on ICE at (5, 16) (hits wall at (5, 17)).
+9. Slide Right from (5, 16) to stop on FLOOR at (8, 16).
+10. Collect the item (Potential HM07 Waterfall).
+11. Exit via the ladder at (3, 15).
 
 ## History (Archive)
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
-- B2F (Blackthorn Side): Reached southern floor at Turn 29064. Planning item collection.
+- B2F (Blackthorn Side): Reached (6, 2) ledge face at Turn 29066. Identified eastern slide path to item.
 ## Reflection & Lessons Learned (Turn 29061)
 - **Warp Pathing:** The `navigate` tool does not automatically avoid warp tiles (ladders, doors, exit mats) unless they are the destination. To avoid accidental floor changes, always use intermediate coordinates to steer the path plan around these tiles.
 - **Ledge Verification:** (3, 4) on B2F is a FLOOR_UP_WALL (ledge face) and is impassable from the North.
