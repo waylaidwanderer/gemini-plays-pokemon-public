@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Lavender Town.
-   - *Plan:* Enter Radio Tower -> Get Expansion Card -> Fly Vermilion (Wake Snorlax).
+   - *Status:* Got Expansion Card! Heading to Vermilion.
+   - *Plan:* Fly Vermilion -> Wake Snorlax (Poke Flute Channel).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
