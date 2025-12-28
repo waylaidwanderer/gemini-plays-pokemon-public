@@ -15,8 +15,8 @@
 - Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
 - Current Status: Wise Trio Room (4_2) is EMPTY. Sightings are NOT complete.
 - Plan: 
-  1. Re-verify Route 42 sighting at (26, 15).
-  2. Verify Route 36 sighting at (35, 9).
+  1. Re-verify Route 42 sighting at (26, 15) on foot.
+  2. Verify Route 36 sighting at (35, 9) on foot.
 - Clear Bell: Required for final encounter. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
@@ -36,3 +36,4 @@
 - Wise Trio Room: If empty, sightings are incomplete.
 - Fly Map (Johto): A 2D grid, cursor movement depends on spatial relationship of cities.
 - Strategy Pivot: Empty Wise Trio room overrides previous assumptions of completion. Return to wild sightings.
+- Route 42 Trigger: (26, 15) is the clearing with three Apricorn trees. Must be reached on foot.
