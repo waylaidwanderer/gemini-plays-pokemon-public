@@ -1,10 +1,14 @@
 # Current Status
 - **Status:** Traversing Victory Road 2F (West Side Loop).
+- **Location:** (5, 17).
 - **Goal:** Reach Ladder at (17, 19).
-- **Pathing:** Loop through West corridor to bypass central walls.
-- **Route:** (5, 18) -> (3, 16) -> (3, 20) -> (9, 20) [Ledge Hop Right] -> (17, 19).
-- **Next:** Execute path to Ladder.
+- **Route:** (5, 17) -> (3, 18) -> (3, 20) -> (9, 20) [Ledge Hop Right] -> (17, 19).
+- **Next:** Navigate to (8, 20) to prepare for ledge jump.
 - **Quest Start:** Turn 23264 (Find Misty).
+
+# Lessons Learned
+- **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
+- **Victory Road:** The ladder at (13, 17) leads to a dead end on 3F. The correct path uses the ladder at (17, 19).
 
 # Strategic Goals
 1. **Earn Cascade Badge:** Defeat Misty.
