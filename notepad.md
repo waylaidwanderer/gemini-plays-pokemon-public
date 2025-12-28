@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Visited Elm (nothing new). Missing Radio Card.
-   - *Plan:* Fly Goldenrod (Quiz) -> Fly Lavender (Expansion) -> Fly Vermilion (Wake Snorlax).
+   - *Status:* In Goldenrod Radio Tower (1F). Missing Radio Card.
+   - *Plan:* Win Quiz -> Fly Lavender (Expansion) -> Fly Vermilion (Wake Snorlax).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
