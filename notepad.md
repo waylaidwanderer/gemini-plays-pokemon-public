@@ -16,10 +16,9 @@
 - Current Quest Start Turn: 27830.
 - Goal: Defeat the Wise Trio in Tin Tower 1F to access Suicune.
 - Plan: 
-  1. Fly to Ecruteak City.
-  2. Enter Tin Tower 1F via the Gatehouse.
-  3. Talk to Sage Masa (14, 6), Sage Koji (5, 9), and Sage Gaku (11, 11).
-  4. Defeat them in battle to access Suicune.
+  1. Enter Tin Tower 1F via the Gatehouse (18, 11).
+  2. Talk to Sage Masa (14, 6), Sage Koji (5, 9), and Sage Gaku (11, 11).
+  3. Defeat them in battle to access Suicune.
 - Clear Bell: Required for final encounter. (Status: Acquired).
 
 ### Hypothesis Testing: Suicune Sightings Bypass
