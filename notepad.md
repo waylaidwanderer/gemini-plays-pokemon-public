@@ -28,13 +28,8 @@
   1. Ladder at (7, 9) [1F -> 2F]. (Done)
   2. Traverse 2F to Ladder at (1, 7). (Done)
   3. Ladder at (1, 7) [2F -> 1F]. (Done)
-  4. Exit Gym at (4, 17) or (5, 17). (In Progress)
-- Return Path:
-  1. Enter Gym.
-  2. Ladder at (1, 7) [1F -> 2F].
-  3. Traverse 2F to Ladder at (7, 9).
-  4. Ladder at (7, 9) [2F -> 1F].
-  5. Cross bridge to Clair at (5, 3).
+  4. Exit Gym at (4, 17) or (5, 17). (Done)
+- Goal: Heal at Blackthorn Pokemon Center and return to challenge Clair.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
