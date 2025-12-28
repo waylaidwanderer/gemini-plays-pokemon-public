@@ -82,3 +82,7 @@
 - Snorlax used Rollout. Muscle HP 228/254. Snorlax HP ~Red.
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
+- Catch Attempt 3 failed ("Shoot! It was so close too!").
+- Snorlax used Rollout. Muscle HP 210/254.
+- Snorlax recovered with Leftovers. Status: Paralyzed.
+- Action: Throwing Ultra Ball (Attempt 4). Count: 18.
