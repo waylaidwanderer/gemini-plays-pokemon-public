@@ -13,14 +13,9 @@
 # Ice Path Exploration
 - Goal: Reach Blackthorn City.
 
-## Strategy (1F Exit)
-1. Move Up to (32, 22).
-2. Move Up to (32, 21) -> Slide to (32, 18).
-3. Move Right to (33, 18) -> Slide to (37, 18).
-4. Move Down to (37, 19) -> Slide to (37, 21).
-5. Move Left to (36, 21) -> Slide to (34, 21).
-6. Move Down to (34, 22).
-7. Walk to exit at (36, 25) via (36, 22).
+## Strategy (Item Hunt & Exit)
+1. Walk to (35, 9) to collect item. (Current Position: 32, 15)
+2. Navigate to (36, 25) to exit to Blackthorn City.
 
 ## History (Archive)
 - B1F/B2F Puzzles: Solved.
