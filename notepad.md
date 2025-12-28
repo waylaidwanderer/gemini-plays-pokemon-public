@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Vermilion City (East Side). Standing near Snorlax.
-   - *Plan:* Tune Radio to Poke Flute -> Interact with Snorlax -> Battle/Catch.
-   - *Progression:* Opens West Kanto (Pewter, Viridian).
+   - *Status:* In Vermilion City. Standing directly below Snorlax.
+   - *Plan:* Open Pokegear -> Radio -> Tune to Poke Flute (Top) -> Interact with Snorlax.
+   - *Next:* Battle Snorlax (Catch/Defeat) -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
