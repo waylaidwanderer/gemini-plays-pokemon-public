@@ -20,6 +20,10 @@
 - Route 36 Trigger: Location TBD.
 - Final Encounter: Tin Tower (static battle) after all wild sightings.
 
+## Battle Strategy (Eusine - Cianwood)
+- Eusine's Team: Drowzee Lv23, Haunter Lv23, Electrode Lv25.
+- Strategy: Lead with GNEISS (Graveler) Lv44 (Earthquake) or Calcifer (Typhlosion) Lv45 (Thunderpunch/Flame Wheel). Xenon (Lv21 Gastly) is too weak.
+
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
 - Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
@@ -31,11 +35,8 @@
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is segmented by walls and buoys. Surfing far east is likely required to bypass the buoy barrier and reach the northernmost edge.
-
-## Task Log
-- Turn 27474: Started verifying Eusine's defeat in Cianwood. (Timestamp: Turn 27474)
-- Turn 27511: Fixing pathfinding tool and continuing to bypass buoy barrier via eastern water route.
+- Navigation (Cianwood): The northern shore is segmented by walls and buoys. Surfing far east is required to bypass the buoy barrier and reach the northernmost edge.
+- Tool Hygiene: Fixed find_path_v8 to handle XML root being the Map element.
 
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
