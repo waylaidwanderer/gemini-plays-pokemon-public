@@ -1,8 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute (EXPN Card obtained) & Power.
-   - *Status:* Outside Radio Tower. Flying to Vermilion.
-   - *Action:* Fly to Vermilion -> Tune Radio (Ch 20) -> Wake Snorlax.
-   - *Next:* Fly to Vermilion.
+   - *Status:* In Vermilion City. Heading to Snorlax.
+   - *Action:* Tune Radio (Ch 20) -> Interact with Snorlax (Battle).
+   - *Next:* Navigate to Snorlax.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
@@ -22,3 +22,12 @@
 - **Verification:** Always verify possession of Key Items (like EXPN Card) in the inventory before attempting to use them. Do not assume they were acquired during story events.
 - **Troubleshooting:** If a mechanic (like the Radio) fails, check the prerequisites (Key Items) first before blaming the mechanics (tuning).
 - **Route 8:** Underground Path is closed (shut down by police). Bikers control the surface road.
+- **Radio Tuning:** Must press 'A' to enter the Radio module before tuning works. Cursor position alone is insufficient.
+
+# Reflection (Turn 22694)
+- **Execution:** No deferred tasks. Fixed EXPN card oversight immediately.
+- **Notepad:** Organized. Added "Lessons Learned".
+- **Map:** Markers are accurate. Snorlax marked.
+- **Tools:** Pathfinding and Battle tools are performing well.
+- **Goals:** Clear. Wake Snorlax -> Diglett's Cave.
+- **Errors:** Radio tuning failure analyzed and corrected. Inventory assumption corrected.
