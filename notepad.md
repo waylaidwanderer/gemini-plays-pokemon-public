@@ -58,3 +58,4 @@
 - **Route 7 Navigation:**
   - Southern path (row 2+) is blocked by walls on the west side.
   - Northern path (rows 0-1) appears open to the west. Taking this route to Celadon.
+- **Game Corner:** Located at (18, 19). Investigating for Team Rocket Hideout.
