@@ -15,8 +15,9 @@
 - Sequence: Burned Tower (DONE) -> Cianwood North Shore (DONE) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
 - Current Status: Wise Trio Room (4_2) is EMPTY. Sightings are NOT complete.
 - Plan: 
-  1. Re-verify Route 42 sighting at (26, 15) on foot.
-  2. Verify Route 36 sighting at (35, 9) on foot.
+  1. Reach Route 42 island (24, 12) to cut the tree at (24, 13).
+  2. Step on (26, 15) on foot to trigger sighting.
+  3. Travel to Route 36 (35, 9) on foot to trigger final sighting.
 - Clear Bell: Required for final encounter. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
@@ -25,7 +26,7 @@
 - Sage Koji: Noctowl (32), Jolteon (32). Counter: GNEISS (Earthquake).
 
 ## Capture Strategy (Suicune)
-- Hypothesis: Lv40 static encounter in Tin Tower.
+- Static Lv40 encounter in Tin Tower.
 - Lead: XENON (Gastly) Lv21 (Hypnosis). Risk: Underleveled.
 - Plan: Use Night Shade for fixed damage, Hypnosis for status.
 - Items: 43 Great Balls, 1 Ultra Ball.
@@ -34,11 +35,6 @@
 - Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
 - Tin Tower Sages: Dialogue "Tin Tower shook" (Turn 27084) is triggered by Clear Bell, NOT by sighting completion. Do not use as a progress indicator.
 - Wise Trio Room: If empty, sightings are incomplete.
-- Fly Map (Johto): A 2D grid, cursor movement depends on spatial relationship of cities.
 - Strategy Pivot: Empty Wise Trio room overrides previous assumptions of completion. Return to wild sightings.
 - Route 42 Trigger: (26, 15) is the clearing with three Apricorn trees. Must be reached on foot.
-## Strategy: Route 42 Sighting (Attempt 3)
-- Start Turn: 27819
-- Goal: Reach (26, 15) on foot.
-- Status: Exiting Ecruteak Gatehouse to the east.
-- Note: Do not use Surf near the clearing; must be on land to trigger.
+- Lesson: In Crystal, all outdoor sightings must be triggered before the Wise Trio appears.
