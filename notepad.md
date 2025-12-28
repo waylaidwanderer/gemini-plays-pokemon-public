@@ -19,12 +19,15 @@
 # Strategies
 ## Fill Pit 2 (4, 7) with Boulder 2 (5, 7)
 1. Move to (5, 8). (Done)
-2. Push UP to (5, 6). (Next step)
-3. Navigate to (6, 6) via Row 16 and Row 1.
-   Path: (5, 7) -> (5, 8) -> (9, 8) -> (9, 16) -> (12, 16) -> (12, 1) -> (8, 1) -> (6, 1) -> (6, 2) -> (5, 2) -> (5, 5) -> (6, 5) -> (6, 6).
-4. Push LEFT to (4, 6). (Player at 5, 6).
-5. Move to (4, 5).
-6. Push DOWN into Pit 2 (4, 7).
+2. Push UP to (5, 6). (Done)
+3. Clear path to Row 1:
+   a. Navigate to (11, 8) via Row 16 and (11, 11).
+   b. Push Boulder 1 (11, 7) UP twice to (11, 5).
+4. Navigate to (6, 6) via Row 1.
+   Path: (11, 5) -> (10, 5) -> (10, 1) -> (6, 1) -> (6, 2) -> (5, 2) -> (5, 5) -> (6, 5) -> (6, 6).
+5. Push LEFT to (4, 6). (Player at 5, 6).
+6. Move to (4, 5).
+7. Push DOWN into Pit 2 (4, 7).
 
 ## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
 1. Complete "Fill Pit 2" strategy.
