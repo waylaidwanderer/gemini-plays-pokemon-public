@@ -59,6 +59,9 @@
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
 
+# Time Tracking
+- Boulder Puzzle Started: Turn 29238.
+
 # Blackthorn Gym Layout Theory
 - The gym is split into sections on both floors.
 - 1F Layout:
