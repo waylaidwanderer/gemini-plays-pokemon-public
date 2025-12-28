@@ -24,8 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23029)
-- **Status:** In Pewter City (East).
-- **Achievement:** Obtained Silver Wing from Gramps.
-- **Goal:** Travel to Cerulean City via Route 3 and Mt. Moon.
-- **Next:** Exit Pewter City to the East.
+# Reflection (Turn 23036)
+- **Status:** On Route 3.
+- **Goal:** Traverse Route 3 to reach Mt. Moon.
+- **Next:** Move East, battle trainers, and reach the Pokemon Center before Mt. Moon.
