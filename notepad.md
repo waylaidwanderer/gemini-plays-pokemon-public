@@ -1,21 +1,20 @@
 # Ice Path B1F Puzzle Status
 - Start Turn: 28759 | Start Time: Sunday, Dec 28, 5:32 AM
-- B1: (11, 7) | B2: (6, 8)
+- B1: (11, 7) | B2: (5, 8)
 - Pit 1 (11, 2): UNFILLED
 - Pit 2 (4, 7): UNFILLED
 - Pit 3 (5, 12): FILLED (Stopper at B2F 5, 12)
 - Pit 4 (12, 13): FILLED (Stopper at B2F 12, 13)
 
 # Strategies
-## Fill Pit 2 (4, 7) with Boulder 2 (7, 8)
-1. At (8, 8), push B2 LEFT to (6, 8). (Player at 7, 8).
-2. At (7, 8), push B2 LEFT to (5, 8). (Player at 6, 8).
-3. Navigate to (5, 9).
-4. Push B2 UP to (5, 6). (Player at 5, 7).
-5. Navigate to (6, 6).
-6. Push B2 LEFT to (4, 6). (Player at 5, 6).
-7. Navigate to (4, 5).
-8. Push B2 DOWN into Pit 2 (4, 7).
+## Fill Pit 2 (4, 7) with Boulder 2 (5, 8)
+1. Navigate to (5, 9).
+2. Push B2 UP to (5, 7). (Player at 5, 8).
+3. Push B2 UP to (5, 6). (Player at 5, 7).
+4. Navigate to (6, 6).
+5. Push B2 LEFT to (4, 6). (Player at 5, 6).
+6. Navigate to (4, 5).
+7. Push B2 DOWN into Pit 2 (4, 7).
 
 ## Fill Pit 1 (11, 2) with Boulder 1 (11, 7)
 1. Navigate to (11, 8).
