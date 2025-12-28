@@ -57,3 +57,7 @@
 - Observation: North (Row 1) appears to be a wall.
 - Hypothesis: This is the North-East corner. Path to Pewter City likely continues West along Row 2/3.
 - Action: Pick up item, then navigate West.
+- Picked up Carbos.
+- Path North is blocked by a wall at Row 1.
+- Navigating West along the corridor (Row 2/3) to find the path to Pewter City.
+- Avoiding ledges at Row 4 for now to maintain height.
