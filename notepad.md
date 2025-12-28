@@ -1,13 +1,16 @@
 # Current Status
-- **Status:** At Victory Road 3F East (Dead End Loop).
-- **Discovery:** Ladder (17, 33) leads to an isolated section with an item (18, 29) and a return ladder (13, 31).
-- **Correction:** The "Correct Route" involving a ledge jump at (16, 35) is blocked by a wall at (11, 36). I cannot cross East-to-West on this floor.
-- **New Strategy:**
-    1. Grab Item at (18, 29).
-    2. Take Ladder (13, 31) back to 2F.
-    3. On 2F, traverse to the **West Corridor** (x=3) again.
-    4. Search for a hidden/missed ladder in the West Corridor (likely at x=1 or x=2) to access the West side of 3F.
-- **Next:** Get Item -> Go to Ladder (13, 31).
+- **Status:** At Victory Road 3F East (Item Collection).
+- **Location:** (18, 30).
+- **Goal:** Pick up Item at (18, 29) and return to 2F via Ladder (13, 31).
+- **Reasoning:** The East side of 3F is isolated. Ladder (1, 35) is on the West side, unreachable from here due to wall at (11, 36).
+- **Route:**
+    1. Pick up Item (A button).
+    2. Walk South to Ledge (16, 35).
+    3. Jump Ledge (Down).
+    4. Walk North to Ladder (13, 31).
+    5. Take Ladder to 2F (13, 17).
+    6. Traverse to West Loop on 2F to find the correct ladder.
+- **Next:** Pick up item, then head to ledge.
 
 # Lessons Learned
 - **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
