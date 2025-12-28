@@ -1,10 +1,10 @@
 # Current Status
-- **Location:** Route 7.
-- **Goal:** Travel to Celadon City (Rainbow Badge).
+- **Location:** Celadon City.
+- **Goal:** Defeat Erika (Rainbow Badge).
 - **Plan:**
-  1. (Done) Exit West to Route 7.
-  2. Continue West to Celadon City.
-  3. Locate Gym and defeat Erika.
+  1. Explore Celadon City.
+  2. Locate Gym and defeat Erika.
+  3. Check Department Store for TMs/Items.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
