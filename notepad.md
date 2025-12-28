@@ -2,13 +2,18 @@
 - **Status:** On Route 25.
 - **Location:** (40, 4).
 - **Goal:** Return to Cerulean City to access Route 9 (Power Plant).
-- **Action:** Talk to Gym Guide to check status.
+- **Action:** Return to Route 25 (Cape).
 
 # Quest Logic (Cascade Badge)
-1. **Fact:** I possess TM07 (Zap Cannon) => Power Plant Quest Complete.
-2. **Current Task:** Search Cerulean Gym for Misty.
-3. **Contingency:** If she's not here, I must have missed a trigger or location at the Cape.
-4. **Hypothesis:** She is likely at the back of the Gym (North).
+1. **Fact:** I have TM07 => Power Plant fixed.
+2. **Fact:** Misty is NOT in the Gym (Map data confirms rows 0-1 are empty).
+3. **Conclusion:** I missed the "Interrupt Date" event at the Cape.
+4. **Plan:**
+    - Exit Gym.
+    - Go North to Route 24 -> Route 25.
+    - Navigate to the area near Bill's Cottage.
+    - Find Misty and her date.
+    - She will then return to the Gym.
 
 # Route 9 Access
 - **Location:** East of Cerulean City.
