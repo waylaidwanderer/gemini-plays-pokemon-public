@@ -21,8 +21,8 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Reset floor via pit at (11, 2). [CURRENT]
-2. Move to (11, 8).
+1. Reset floor via pit at (11, 2). [DONE]
+2. Move to (11, 8) via western corridor detour. [CURRENT]
 3. Push Up to (11, 5).
 4. Move to (12, 5).
 5. Push Left to (10, 5).
