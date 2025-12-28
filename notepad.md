@@ -62,3 +62,10 @@
 - **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
+
+# Blackthorn Gym Puzzle (1F)
+- Observation: The ladder at (7, 9) is in an isolated section (X=5-7, Y=8-10).
+- Blockages: WALLs at (5-7, 11), (4, 8-11), and (8, 8-10).
+- Hypothesis: Row 7 (currently unseen) provides a path to enter the ladder section from the north.
+- Test: Navigate to the left side (Row 8), enter Row 7, and attempt to reach the ladder from the north. [Turn 29239]
+- Attempt 1: Moving to (1, 8) to access Row 7.
