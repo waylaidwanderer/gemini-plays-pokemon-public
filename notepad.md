@@ -26,10 +26,11 @@
 3. Push Left to (10, 5). [DONE - T28363]
 4. Move to (10, 6). [DONE - T28367]
 5. Push Up to (10, 1). [DONE - T28373]
-6. Move to (9, 1). [DONE - T28380]
-7. Push Right to (11, 1). [NEXT]
-8. Move to (11, 0).
-9. Push Down to (11, 2). [PIT]
+6. Push Right to (12, 1). [DONE - T28383]
+7. Move to (13, 1). [NEXT]
+8. Push Left to (11, 1).
+9. Move to (11, 0).
+10. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Move to (6, 6) via loop around top.
