@@ -36,7 +36,7 @@
 # Blackthorn Gym Discoveries
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 - Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
-- Trainers Defeated: Paul (1, 15) on 1F, Fran (4, 11) on 2F.
+- Trainers Defeated: Paul (1, 15) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
