@@ -67,3 +67,7 @@
 - Battle Update: Muscle used Thunderpunch (Low dmg). Snorlax used Rollout. Leftovers recovery.
 - Cursor Logic: Assuming cursor remains on Thunderpunch (Slot 2).
 - Plan: Continue using Thunderpunch to fish for Paralysis and chip HP. Avoid physical moves for now to prevent accidental KO.
+- Snorlax Status: Red HP, Paralyzed.
+- Danger: Do NOT attack again. Muscle is too strong.
+- Action: Throw Ultra Balls until caught. Snorlax has Leftovers, so it will heal slowly.
+- Snorlax has Rest (likely). If it Rests, it will wake up and cure paralysis. Be ready to re-paralyze if safe, or just throw balls at full health sleep.
