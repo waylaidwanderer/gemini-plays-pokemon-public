@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Retuning Radio. Failed to wake Snorlax last attempt.
-   - *Plan:* Close text -> Open Gear -> Radio -> Refresh Station (Down/Up) -> Exit -> Interact.
+   - *Status:* In Pokegear (Radio). Tuning to Poke Flute.
+   - *Plan:* Tune to Channel 20 (Poke Flute) -> Verify text -> Exit -> Interact.
    - *Battle Strategy:*
      - **Lead:** Muscle (Machoke Lv75).
      - **Chip Damage:** Use **Thunderpunch** or **Ice Punch** (Special moves). Avoid Cross Chop (OHKO risk).
