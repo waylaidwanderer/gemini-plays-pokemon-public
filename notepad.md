@@ -22,10 +22,9 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Reset floor (Complete).
-2. Detour to (11, 8) via B2F transit. [CURRENT]
+1. Detour to (11, 8) via B2F transit. [CURRENT]
    - Map Discovery: B1F is partitioned. The NE section (ladder 17,3) is isolated from the rest.
-   - Transit Route: B1F (17,3) -> B2F (17,1) -> B2F (3,13) -> B1F (3,15) -> B1F (11,8).
+   - Transit Route: B1F (17,3) -> B2F (17,1) -> B2F (9,11) -> B1F (3,15) -> B1F (11,8).
    - WARNING: Do NOT push Boulder 1 DOWN to (11, 8) from Row 6; it must be pushed UP from Row 8.
 3. Push Boulder 1 UP to (11, 5).
 4. Move to (12, 5) and push Boulder 1 LEFT to (10, 5).
