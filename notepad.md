@@ -5,8 +5,8 @@
   1. Locate and heal at Pokemon Center.
   2. Locate Fuchsia Gym.
   3. Defeat Janine.
-- **Turn:** 24228.
-- **Progress:** Defeated Bird Keeper Bob. Arrived in Fuchsia City. Standing at (21, 14) outside Building (22, 13). Delayed by Wade's phone call.
+- **Turn:** 24229.
+- **Progress:** Defeated Bird Keeper Bob. Arrived in Fuchsia City. Standing at (21, 14). Call with Wade finished. Entering Building (22, 13).
 - **Time:** Sunday, December 28, 2025.
 
 # Reflection (Turn 24197)

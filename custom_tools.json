@@ -1,4 +1,86 @@
 {
+  "bfs_pathfinder": {
+    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. Robustly handles obstacles (including COUNTERs), ledges, and map markers. Supports 'walking' (default) and 'surfing' modes.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "walking",
+            "surfing"
+          ],
+          "default": "walking"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\n# Fallback for argument injection failure\nif 'start_x' not in locals():\n    if 'input_data' in locals() and isinstance(input_data, dict):\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        target_x = input_data.get('target_x')\n        target_y = input_data.get('target_y')\n        mode = input_data.get('mode', 'walking')\n\n# Ensure mode has a default\nif 'mode' not in locals():\n    mode = 'walking'\n\ndef bfs(start, target, obstacles, width, height, ledges):\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if (x, y) == target:\n            return path\n        \n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, direction in moves:\n            nx, ny = x + dx, y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in obstacles:\n                    continue\n                if (nx, ny) in visited:\n                    continue\n                \n                # Check if we are moving FROM a ledge that blocks this direction\n                if (x, y) in ledges:\n                    ledge_dir = ledges[(x, y)]\n                    if ledge_dir == 'DOWN' and direction != 'Down': continue\n                    if ledge_dir == 'UP' and direction != 'Up': continue\n                    if ledge_dir == 'LEFT' and direction != 'Left': continue\n                    if ledge_dir == 'RIGHT' and direction != 'Right': continue\n                \n                # Check if we are moving INTO a ledge from the blocked side\n                if (nx, ny) in ledges:\n                    l_dir = ledges[(nx, ny)]\n                    if l_dir == 'DOWN' and direction == 'Up': continue\n                    if l_dir == 'UP' and direction == 'Down': continue\n                    if l_dir == 'LEFT' and direction == 'Right': continue\n                    if l_dir == 'RIGHT' and direction == 'Left': continue\n\n                new_path = list(path)\n                new_path.append((nx, ny))\n                queue.append(new_path)\n                visited.add((nx, ny))\n                \n    return None\n\ntry:\n    # Parse XML\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    obstacles = set()\n    ledges = {}\n\n    impassable_types = {'WALL', 'COUNTER', 'BOOKSHELF', 'PC', 'SIGN', 'TREE', 'ROCK', 'WINDOW'}\n    if mode == 'walking':\n        impassable_types.add('WATER')\n        impassable_types.add('WHIRLPOOL')\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'FLOOR')\n            \n            # Check type\n            if t_type in impassable_types:\n                obstacles.add((x, y))\n            \n            # Check objects (always obstacles for movement)\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            if has_object:\n                 obstacles.add((x, y))\n                 \n            # Check ledges\n            if 'LEDGE' in t_type:\n                if 'DOWN' in t_type: ledges[(x, y)] = 'DOWN'\n                elif 'UP' in t_type: ledges[(x, y)] = 'UP'\n                elif 'LEFT' in t_type: ledges[(x, y)] = 'LEFT'\n                elif 'RIGHT' in t_type: ledges[(x, y)] = 'RIGHT'\n\n    # Run BFS\n    path_coords = bfs((start_x, start_y), (target_x, target_y), obstacles, width, height, ledges)\n\n    buttons = []\n    if path_coords:\n        for i in range(len(path_coords) - 1):\n            cx, cy = path_coords[i]\n            nx, ny = path_coords[i+1]\n            if nx > cx: buttons.append('Right')\n            elif nx < cx: buttons.append('Left')\n            elif ny > cy: buttons.append('Down')\n            elif ny < cy: buttons.append('Up')\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    # Fail gracefully\n    print(json.dumps([]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T17:21:58.587Z",
+        "action_counter": 23731
+      },
+      {
+        "commit_message": "Fixed variable injection issue by checking globals and input_data explicitly.",
+        "timestamp": "2025-12-28T17:24:21.919Z",
+        "action_counter": 23734
+      },
+      {
+        "commit_message": "Updated `bfs_pathfinder` to correctly handle one-way LEDGE tiles. Ledges are now traversable if approached from the correct direction (e.g., LEDGE_HOP_LEFT is walkable only when moving Left).",
+        "timestamp": "2025-12-28T17:34:00.923Z",
+        "action_counter": 23742
+      },
+      {
+        "commit_message": "Fixed missing commit message and ensured COUNTER is treated as an obstacle.",
+        "timestamp": "2025-12-28T20:02:52.628Z",
+        "action_counter": 23991
+      },
+      {
+        "commit_message": "Added debug printing for exceptions and validation of start/target nodes to help diagnose pathfinding failures.",
+        "timestamp": "2025-12-28T20:32:58.520Z",
+        "action_counter": 24048
+      },
+      {
+        "commit_message": "Fixed 'name mode is not defined' error by adding default value for mode variable.",
+        "timestamp": "2025-12-28T20:35:49.036Z",
+        "action_counter": 24052
+      },
+      {
+        "commit_message": "Added fallback argument retrieval from input_data to prevent 'variable not defined' errors.",
+        "timestamp": "2025-12-28T20:39:25.843Z",
+        "action_counter": 24058
+      },
+      {
+        "commit_message": "Fixed LEDGE detection logic to correctly identify 'LEDGE_HOP_DOWN' and similar types by checking for 'LEDGE' and the direction string separately.",
+        "timestamp": "2025-12-28T20:59:55.774Z",
+        "action_counter": 24087
+      },
+      {
+        "commit_message": "Consolidated and cleaned up code. Includes fixes for variable injection, ledge logic, and counter obstacles.",
+        "timestamp": "2025-12-28T21:04:01.326Z",
+        "action_counter": 24093
+      }
+    ]
+  },
   "find_path": {
     "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. Robustly handles obstacles, ledges, and map markers. Supports 'walking' (default) and 'surfing' modes.",
     "input_schema": {
@@ -205,88 +287,6 @@
         "commit_message": "Fixed bug causing consecutive sleep commands when target_slot equals current_slot.",
         "timestamp": "2025-12-21T11:30:47.944Z",
         "action_counter": 9999
-      }
-    ]
-  },
-  "bfs_pathfinder": {
-    "description": "Finds a path from start to target using BFS on the current mental map XML. Returns a list of button presses. Robustly handles obstacles (including COUNTERs), ledges, and map markers. Supports 'walking' (default) and 'surfing' modes.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "mode": {
-          "type": "string",
-          "enum": [
-            "walking",
-            "surfing"
-          ],
-          "default": "walking"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\n# Fallback for argument injection failure\nif 'start_x' not in locals():\n    if 'input_data' in locals() and isinstance(input_data, dict):\n        start_x = input_data.get('start_x')\n        start_y = input_data.get('start_y')\n        target_x = input_data.get('target_x')\n        target_y = input_data.get('target_y')\n        mode = input_data.get('mode', 'walking')\n\n# Ensure mode has a default\nif 'mode' not in locals():\n    mode = 'walking'\n\ndef bfs(start, target, obstacles, width, height, ledges):\n    queue = collections.deque([[start]])\n    visited = set([start])\n    \n    while queue:\n        path = queue.popleft()\n        x, y = path[-1]\n        \n        if (x, y) == target:\n            return path\n        \n        # Directions: Up, Down, Left, Right\n        moves = [\n            (0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')\n        ]\n        \n        for dx, dy, direction in moves:\n            nx, ny = x + dx, y + dy\n            \n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in obstacles:\n                    continue\n                if (nx, ny) in visited:\n                    continue\n                \n                # Check if we are moving FROM a ledge that blocks this direction\n                if (x, y) in ledges:\n                    ledge_dir = ledges[(x, y)]\n                    if ledge_dir == 'DOWN' and direction != 'Down': continue\n                    if ledge_dir == 'UP' and direction != 'Up': continue\n                    if ledge_dir == 'LEFT' and direction != 'Left': continue\n                    if ledge_dir == 'RIGHT' and direction != 'Right': continue\n                \n                # Check if we are moving INTO a ledge from the blocked side\n                if (nx, ny) in ledges:\n                    l_dir = ledges[(nx, ny)]\n                    if l_dir == 'DOWN' and direction == 'Up': continue\n                    if l_dir == 'UP' and direction == 'Down': continue\n                    if l_dir == 'LEFT' and direction == 'Right': continue\n                    if l_dir == 'RIGHT' and direction == 'Left': continue\n\n                new_path = list(path)\n                new_path.append((nx, ny))\n                queue.append(new_path)\n                visited.add((nx, ny))\n                \n    return None\n\ntry:\n    # Parse XML\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    obstacles = set()\n    ledges = {}\n\n    impassable_types = {'WALL', 'COUNTER', 'BOOKSHELF', 'PC', 'SIGN', 'TREE', 'ROCK', 'WINDOW'}\n    if mode == 'walking':\n        impassable_types.add('WATER')\n        impassable_types.add('WHIRLPOOL')\n\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'FLOOR')\n            \n            # Check type\n            if t_type in impassable_types:\n                obstacles.add((x, y))\n            \n            # Check objects (always obstacles for movement)\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            if has_object:\n                 obstacles.add((x, y))\n                 \n            # Check ledges\n            if 'LEDGE' in t_type:\n                if 'DOWN' in t_type: ledges[(x, y)] = 'DOWN'\n                elif 'UP' in t_type: ledges[(x, y)] = 'UP'\n                elif 'LEFT' in t_type: ledges[(x, y)] = 'LEFT'\n                elif 'RIGHT' in t_type: ledges[(x, y)] = 'RIGHT'\n\n    # Run BFS\n    path_coords = bfs((start_x, start_y), (target_x, target_y), obstacles, width, height, ledges)\n\n    buttons = []\n    if path_coords:\n        for i in range(len(path_coords) - 1):\n            cx, cy = path_coords[i]\n            nx, ny = path_coords[i+1]\n            if nx > cx: buttons.append('Right')\n            elif nx < cx: buttons.append('Left')\n            elif ny > cy: buttons.append('Down')\n            elif ny < cy: buttons.append('Up')\n        print(json.dumps(buttons))\n    else:\n        print(json.dumps([]))\n\nexcept Exception as e:\n    # Fail gracefully\n    print(json.dumps([]))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T17:21:58.587Z",
-        "action_counter": 23731
-      },
-      {
-        "commit_message": "Fixed variable injection issue by checking globals and input_data explicitly.",
-        "timestamp": "2025-12-28T17:24:21.919Z",
-        "action_counter": 23734
-      },
-      {
-        "commit_message": "Updated `bfs_pathfinder` to correctly handle one-way LEDGE tiles. Ledges are now traversable if approached from the correct direction (e.g., LEDGE_HOP_LEFT is walkable only when moving Left).",
-        "timestamp": "2025-12-28T17:34:00.923Z",
-        "action_counter": 23742
-      },
-      {
-        "commit_message": "Fixed missing commit message and ensured COUNTER is treated as an obstacle.",
-        "timestamp": "2025-12-28T20:02:52.628Z",
-        "action_counter": 23991
-      },
-      {
-        "commit_message": "Added debug printing for exceptions and validation of start/target nodes to help diagnose pathfinding failures.",
-        "timestamp": "2025-12-28T20:32:58.520Z",
-        "action_counter": 24048
-      },
-      {
-        "commit_message": "Fixed 'name mode is not defined' error by adding default value for mode variable.",
-        "timestamp": "2025-12-28T20:35:49.036Z",
-        "action_counter": 24052
-      },
-      {
-        "commit_message": "Added fallback argument retrieval from input_data to prevent 'variable not defined' errors.",
-        "timestamp": "2025-12-28T20:39:25.843Z",
-        "action_counter": 24058
-      },
-      {
-        "commit_message": "Fixed LEDGE detection logic to correctly identify 'LEDGE_HOP_DOWN' and similar types by checking for 'LEDGE' and the direction string separately.",
-        "timestamp": "2025-12-28T20:59:55.774Z",
-        "action_counter": 24087
-      },
-      {
-        "commit_message": "Consolidated and cleaned up code. Includes fixes for variable injection, ledge logic, and counter obstacles.",
-        "timestamp": "2025-12-28T21:04:01.326Z",
-        "action_counter": 24093
       }
     ]
   },
