@@ -2,7 +2,7 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER.
-- BOULDER: Stopper for sliding.
+- BOULDER: Stopper for sliding. 
 - ROCK: Destructible with ROCK SMASH.
 - FLOOR_UP_WALL: Impassable ledge face. Blocks N->S movement.
 - LEDGE_HOP_RIGHT: One-way jump West to East.
@@ -28,13 +28,15 @@
 - Youngster NPC: (12, 15).
 
 # Blackthorn Gym Exploration
-- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
-- Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
-- Trainers Defeated: Paul (1, 15).
 - Strategy:
   1. Defeat Gym Trainers for EXP [Current: Turn 29227]
   2. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
   3. Defeat Gym Leader Clair.
+
+# Blackthorn Gym Discoveries
+- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
+- Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
+- Trainers Defeated: Paul (1, 15).
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
@@ -60,18 +62,8 @@
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
 
-# Blackthorn Gym Puzzle (1F)
-- Observation: The ladder at (7, 9) is in an isolated section (X=5-7, Y=8-10).
-- Blockages: WALLs at (5-7, 11), (4, 8-11), and (8, 8-10).
-- Hypothesis: Row 7 (currently unseen) provides a path to enter the ladder section from the north.
-- Test: Navigate to the left side (Row 8), enter Row 7, and attempt to reach the ladder from the north. [Turn 29239]
-- Attempt 1: Moving to (1, 8) to access Row 7. Conclusion: Failed. Path blocked by WALL at (3, 14).
-- Attempt 2: Use Row 16 (all FLOOR) to reach the left side, then head north. [Turn 29240]. Conclusion: Failed. NPC at (1, 15) blocks the path.
-- Attempt 3: Move to Column 0 (clear of NPCs), then head north to Row 8/7. [Turn 29241]
-- Path: (1, 16) -> (0, 16) -> (0, 8) -> (0, 7).
-- Attempt 4: Use the ladder at (1, 7) or (2, 6) to reach 2F. [Turn 29242]
-
 # Blackthorn Gym Puzzle (2F) - Boulder 1
 - Observation: Boulder (ID 4) at (2, 3) and Boulder (ID 6) at (3, 3). Pit at (2, 5).
 - Hypothesis: Pushing the boulder at (2, 3) down twice will drop it into the pit at (2, 5).
 - Test: Approach (2, 3) and push Down. [Turn 29245]
+- Note: Accidentally warped back to 1F at (1, 7) during navigation in turn 29246.
