@@ -2,7 +2,7 @@
 - **Location:** Route 23 (Outside Indigo Plateau).
 - **Goal:** Find Misty at Cerulean Cape (Route 25).
 - **Context:** Gym Guide confirmed Misty is "away" having "fun". Power Plant is fixed (TM07 obtained).
-- **Next:** Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
+- **Next:** Go South through Gatehouse -> Fly to Cerulean -> North to Route 25 -> East to Cape -> Interrupt Date -> Battle Misty.
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
@@ -34,13 +34,15 @@
 - **West Channel (Cerulean):** Dead end.
 - **East Channel (Cerulean):** Accessible via Route 9 or Burgled House (28, 17).
 - **South Access:** Blocked by ledges.
-- **Current Action:** Flying to Cerulean City to bypass ledges.
+- **Current Action:** Attempting to Fly from South of Indigo Plateau (Route 23 is No Fly Zone).
 
 # Current Strategy
-1. Fly to Cerulean City (Target: PokeCenter at 19, 21).
-2. Walk North to Burgled House (28, 17).
-3. Access East Channel/Route 9.
-4. Surf North to Route 25 Cape.
+1. Move South to Gatehouse (Victory Road Gate).
+2. Exit Gatehouse to outdoor area (Route 22 or 26).
+3. Fly to Cerulean City.
+4. Walk North to Burgled House (28, 17).
+5. Access East Channel/Route 9.
+6. Surf North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
 
 # Wild Pokemon Locations
