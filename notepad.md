@@ -49,9 +49,12 @@
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
 - **Current Status:** Standing at (5, 12). Lass Linda at (5, 11).
-- **Test:** Trying to walk through 'walls' at (4, 12).
+- **Test Results:** (4, 12) is a SOLID WALL.
+- **Action:** Testing (6, 12) (Right).
 - **Plan:**
-  1. Try moving Left into (4, 12).
-  2. If blocked, try moving Right into (6, 12).
-  3. If both blocked, backtrack to Lobby and investigate Column 3 and 4 near the statues.
-- **Hypothesis:** One of the walls boxing me in is fake. Or Linda moves.
+  1. Test Right (6, 12).
+  2. If blocked, backtrack to Lobby (5, 16).
+  3. Probe for FAKE WALLS surrounding Column 3.
+     - Target: (4, 14). Test (3, 14) [Left] and (4, 13) [Up].
+     - Target: (2, 14). Test (3, 14) [Right] and (2, 13) [Up].
+- **Hypothesis:** Entry to the inner maze is through a fake wall into Column 3.
