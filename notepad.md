@@ -13,8 +13,7 @@
 
 # Suicune Quest Strategy (Crystal)
 - Sequence: Burned Tower -> Cianwood North Shore (Sighting + Eusine Battle) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Status: All sightings (Cianwood, Route 42, Route 36) confirmed completed via Sages' "tower shaking" dialogue (Turn 27084).
-- Next Step: Defeat the Wise Trio in the Tin Tower Wise Trio Room (Map 4_2).
+- Status: Sightings complete. Proceeding to Wise Trio battle.
 - Clear Bell: Required for Wise Trio to appear. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
