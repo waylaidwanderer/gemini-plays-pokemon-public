@@ -21,10 +21,10 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. KIMCHI & ICARUS fainted. Calcifer (148/148 HP, PAR).
+- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. KIMCHI & ICARUS fainted. Calcifer (53/148 HP, PAR).
 - Plan:
-  1. Send in Calcifer. (In Progress)
-  2. Use Smokescreen (2-3 times) to lower accuracy.
+  1. Send in Calcifer. (Done)
+  2. Use Smokescreen (2-3 times) to lower accuracy. (1/3 Done)
   3. Use Headbutt to finish (Kingdra is 1/4x resistant to Fire/Water, neutral to Normal).
 
 # Blackthorn Gym Layout Theory
