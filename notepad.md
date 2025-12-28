@@ -2,11 +2,13 @@
 - Goal: Fill all 4 pits with boulders in a single session.
 - Reset Trigger: Leaving floor (ladders or falling through pits).
 
-## Strategy: FORCE RESET
-1. Current State: Boulders missing from spawn points, pits are active warps.
-2. Action: Use ladder at (3, 15) to change floors and force a reset.
-3. Return to B1F and visually confirm boulders at (11, 7), (7, 8), (8, 9), (17, 7).
-4. Call `puzzle_strategist_v1` and execute pushes without leaving the floor.
+## Strategy: DECISIVE ACTION (Post-Reset)
+1. Current State: Just returned to B1F from B2F. Boulders should be at spawn points.
+2. Step 1: Confirm Boulder 4 at (17, 7).
+3. Step 2: Confirm Boulder 1 at (11, 7).
+4. Step 3: Confirm Boulder 2 at (7, 8).
+5. Step 4: Confirm Boulder 3 at (8, 9).
+6. Call `puzzle_strategist_v1` and execute.
 
 ## Tile Mechanics
 - FLOOR: Walkable.
@@ -14,6 +16,7 @@
 - ICE: Sliding.
 - PIT: Warp to B2F. Resets ALL boulders if entered. Must be filled to solve B2F.
 - BOULDER: Movable with Strength. Resets on floor change.
+- STRENGTH: Persists through battles but is LOST on floor changes (ladders/pits). (Note: Re-activated Turn 28979).
 
 ## Navigation Notes
 - Section 3: (17, 5), (17, 8), (17, 10), (17, 13) are WALLs. Use Column 18/19.
