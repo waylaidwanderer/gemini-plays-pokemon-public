@@ -28,16 +28,27 @@
 3. Move to (11, 0).
 4. Push Down to (11, 2). [PIT]
 
-# Current Status (B1F)
-- Start Turn: 28207.
-- Reset Turn: 28385 (Fell through pit, floor reset).
-- Boulder 1 (ID 1) is at (10, 1).
-- Boulder 2 (ID 2) is at (5, 8).
+## Boulder 2 Sequence (ID 2)
+- Boulder currently at (5, 8).
+1. Move to (5, 9).
+2. Push Up to (5, 6).
+3. Move to (6, 6).
+4. Push Left to (4, 6).
+5. Move to (4, 5).
+6. Push Down to (4, 7). [PIT]
+
+# Party Management
+- Lead: Calcifer (Lv45) - Fast for escapes, strong for combat.
+- Slot 2: KIMCHI (Lv21) - HM Cut.
+- Slot 3: ICARUS (Lv16) - HM Fly.
+- Slot 4: Ravioli (Lv10) - HM Surf.
+- Slot 5: GNEISS (Lv44) - HM Strength.
+- Slot 6: XENON (Lv21) - Hypnosis.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
 - If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
-- Time Tracking: Boulder puzzle started Turn 28207.
-- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. Reorder party in overworld menu immediately after this battle.
+- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas to ensure escape.
 - Tool Hygiene: Double-check boulder coordinates before calling plan_boulder_push_v2.
+- Menu Mechanics: To swap Pokemon, press Select on the first, move to the second, and press Select again.
