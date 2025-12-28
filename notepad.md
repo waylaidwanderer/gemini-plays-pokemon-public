@@ -24,8 +24,8 @@
 2. Move to (11, 8). [DONE]
 3. Interact and Push Up to (11, 5). [DONE]
 4. Move to (12, 5). [DONE]
-5. Push Left to (10, 5). [CURRENT]
-6. Move to (10, 6).
+5. Push Left to (10, 5). [DONE]
+6. Move to (10, 6). [CURRENT]
 7. Push Up to (10, 1).
 8. Move to (9, 1). (Long walk around west)
 9. Push Right to (11, 1).
