@@ -4,7 +4,7 @@
 - PIT: Warp tile. Falling through takes you to the floor below. (Verified: Turn 29374)
 - LADDER: Warp tile. Used to travel between floors. (Verified: Turn 29242)
 - BOULDER: Object. Impassable. Can be pushed with Strength. (Verified: Turn 29284)
-- ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER. (Verified: Turn 28256)
+- ICE: Sliding mechanic (Ice Path). (Verified: Turn 28256)
 - ROCK: Destructible with ROCK SMASH. (Verified: Turn 29041)
 - WATER: Requires Surf to traverse. (Verified: Turn 26645)
 - WARP: Static transition between maps/locations. (Verified: Turn 29125)
@@ -20,7 +20,7 @@
 - Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
-# Strategy: Gym Leader Clair (Battle Analyst Turn 29347)
+# Strategy: Gym Leader Clair
 - Primary Goal: Acquire the 8th Gym Badge (Start Turn: 29224).
 - Opponent: Clair (Dragon User).
 - Team: Dragonair (Lv37) x3 (Surf, Ice Beam, Thunderbolt), Kingdra (Lv40).
