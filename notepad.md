@@ -114,3 +114,6 @@
 - Note: East side (x>14) appears separated by a wall.
 - Escaped from Diglett.
 - Exploring West branch.
+- West branch: Hit wall at (5, 17).
+- Action: Moving North along column 6.
+- Goal: Find north exit to Route 2.
