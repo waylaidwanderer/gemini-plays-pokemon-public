@@ -63,3 +63,10 @@
 - Path to Reach (2, 2): (1, 3) -> (0, 3) -> (0, 13) -> (6, 13) -> (6, 7) -> (5, 7) -> (5, 1) -> (2, 1) -> (2, 2).
 - Obstacle: Cooltrainer F at (4, 11) and Cooltrainer M at (4, 1) block the path.
 - Strategy: Defeat trainers while navigating to the top of the room.
+
+# Blackthorn Gym Puzzle Progress
+- Boulder 4 (2, 3): Needs to go to Pit (2, 5). Reach from (2, 2).
+- Boulder 6 (3, 3): Blocking path to Boulder 4 or needs to be pushed elsewhere.
+- Boulder 7 (6, 1): Needs to go to Pit (8, 7)?
+- Pit (2, 5): Target for Boulder 4.
+- Pit (8, 7): Target for Boulder 7?
