@@ -12,7 +12,7 @@
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below.
 
 # Suicune Quest Strategy (Crystal)
-- Current Status: Re-evaluating sighting triggers. Sage at Gatehouse (4, 6) says "Please, do go on." Sages in Tin Tower 1F are giving lore dialogue but not battling. This indicates sightings on Route 42 and 36 are NOT yet registered.
+- Current Status: Re-evaluating sighting triggers. Sage at Gatehouse (4, 6) says "Please, do go on." Sages in Tin Tower 1F are giving lore dialogue but not battling.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
