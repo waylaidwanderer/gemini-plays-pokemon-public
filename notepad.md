@@ -5,9 +5,9 @@
 
 # Current Status
 - **Location:** Cerulean Gym.
-- **Goal:** Talk to the Gym Guide to locate Misty.
-- **Observation:** Gym contains swimmers and a guide. Misty is not visible.
-- **Recent:** Entered Gym from Cerulean City.
+- **Goal:** Find Misty at Cerulean Cape (Route 25).
+- **Info:** Gym Guide confirmed Misty is away.
+- **Recent:** Talked to Gym Guide.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
