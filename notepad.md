@@ -17,17 +17,14 @@
 - Ladder to B3F: (3, 3).
 - Exit Ladder: (3, 15).
 
-## Hypotheses
-- Item at (8, 16) was TM44 Rest (Verified Turn 29075).
-
 ## Strategy
-1. Slide Left to (0, 16).
-2. Slide Up to (0, 5) (FLOOR).
-3. Walk to (9, 3) via northern corridor: (0,5)->(0,4)->(1,4)->(1,3)->(2,3)->(2,2)->(3,2)->(3,1)->(9,1)->(9,3).
-4. Slide Down from (9, 4) to (9, 8) (FLOOR).
-5. Walk to (5, 8).
-6. Jump West over ledge (4, 8) to (3, 8) (ICE).
-7. Slide Down to (3, 14) (FLOOR).
+1. Slide Up from (0, 16) to stop on FLOOR at (0, 5).
+2. Walk to (6, 5) via northern corridor: (0,5)->(0,4)->(1,4)->(1,3)->(2,3)->(2,2)->(3,2)->(3,1)->(6,1)->(6,5).
+3. Move Down from (6, 5) onto ICE (6, 6). Slide Down to stop on FLOOR at (6, 8).
+4. Walk to (5, 8).
+5. Jump West over ledge (4, 8) to (3, 8) (ICE). Player slides to (0, 8).
+6. Move Right from (0, 8) to slide to (3, 8).
+7. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
 8. Walk to exit ladder (3, 15).
 
 ## Reflection & Lessons Learned
