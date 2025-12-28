@@ -60,16 +60,20 @@
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
 
 # Blackthorn Gym Layout Theory
-- The gym is split into 4 quadrants on 2F:
-  - NW (0-7, 0-3): Contains Boulders 4, 6, Pit (2, 5). Accessible via Ladder (1, 7) from 1F.
-  - NE (0-7, 5-9): Contains Boulder 7, Pits (8, 3), (8, 7). Accessible from entrance.
-  - SW (8-17, 0-3): Accessible from SE via gap in Row 13.
-  - SE (8-17, 5-9): Contains Ladder (7, 9), Boulders 5, 8. Accessible from entrance.
-- Strategy: Use 1F as a hub to travel between quadrants. Solve boulders in each.
+- The gym is split into sections on both floors.
+- 1F Layout:
+  - Entrance area (Rows 12-17) connects the East and West sides.
+  - West side (Rows 6-11) contains Ladders at (1, 7) and (2, 6).
+  - East side (Rows 6-10) is an island accessible only via Ladder at (7, 9) from 2F.
+- 2F Layout:
+  - Divided into 4 quadrants (NW, NE, SW, SE).
+  - Row 13 acts as a horizontal bridge connecting the East and West sides.
+  - Cody (4, 1) and Fran (4, 11) block other North-South passages.
+- Strategy: Use 2F Row 13 to move between quadrants. Use 1F West side ladders to reach NW/SW.
 
 # Blackthorn Gym Puzzle Progress (Started Turn 29238)
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
-- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2) via Ladder (1, 7).
+- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2) via Ladder (1, 7) or 2F Row 13.
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
 - Boulder 7 (6, 1): Target is Pit (8, 7).
 - Boulder 8 (8, 14): Investigating.
@@ -78,4 +82,4 @@
 - Pit (8, 3): Target for Boulder 3 (Done).
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- Current Status (Turn 29295): NE quadrant partially explored. Heading south to investigate SE quadrant boulders. [Time: Turn 29295]
+- Current Status (Turn 29299): Reset 2F floor. Returning to 2F via (7, 9) to use the Row 13 bridge to reach the NW quadrant. [Time: Turn 29299]
