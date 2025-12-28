@@ -30,3 +30,5 @@
 - **Route 25:** Water at (42-45, 8-11) might connect to the Cape channel (x=56).
 - **Plan A:** Go to (42, 12), Surf North to (42, 11), check East passage. If open, proceed to Cape.
 - **Plan B:** If East passage blocked, return to Maze (West side), go to (4, 17), Surf South to Route 24 West, then Surf East under bridge.
+- **Discovery:** The 'LADDER' tiles at (46-49, 8-11) are traversable while Surfing. They act like water despite their appearance/label.
+- **Plan:** Surf East across the 'LADDER' tiles to reach the open water at x=50, then head North to the Cape.
