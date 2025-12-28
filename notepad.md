@@ -53,6 +53,7 @@
 - Cut tree at (15, 18) leads to Ledges (One-way South?). Avoiding for now.
 - Re-evaluating North path: East side of Nugget House (x>17) seems open North.
 - Backtracking to (18, 16) and heading North to find Pewter City.
-- Found Item Ball at (19, 2) on Route 2 East.
-- Navigating to pick it up.
-- Path continues North past this point.
+- At (19, 3), facing North towards Item Ball at (19, 2).
+- Observation: North (Row 1) appears to be a wall.
+- Hypothesis: This is the North-East corner. Path to Pewter City likely continues West along Row 2/3.
+- Action: Pick up item, then navigate West.
