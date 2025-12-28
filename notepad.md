@@ -28,3 +28,4 @@
 - **Achievement:** Team restored.
 - **Goal:** Challenge Pewter Gym.
 - **Next:** Find Brock.
+- Landmark: Pewter Museum Sign at (15, 9).
