@@ -38,3 +38,5 @@
 - **COUNTER:** Wall. Interact from adjacent.
 - **LEDGE:** One-way (Jump).
 - **INVISIBLE WALL:** Mark with 🚫.
+- **New Invisible Wall:** (8, 13).
+- **Correction:** Column 8 is NOT clear. Must navigate around (8, 13).
