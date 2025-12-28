@@ -23,9 +23,10 @@
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Reset floor (Complete).
-2. Detour to (11, 8) to push Boulder 1 UP. [CURRENT]
-   - Route: (11, 6) -> (10, 6) -> (10, 5) -> (9, 5) -> (9, 1) -> (17, 1) -> (18, 16) -> (11, 16) -> (11, 8).
-   - WARNING: Do NOT push Boulder 1 DOWN to (11, 8) as it becomes stuck against the wall at (11, 9).
+2. Detour to (11, 8) via B2F transit. [CURRENT]
+   - Map Discovery: B1F is partitioned. The NE section (ladder 17,3) is isolated from the rest.
+   - Transit Route: B1F (17,3) -> B2F (17,1) -> B2F (3,13) -> B1F (3,15) -> B1F (11,8).
+   - WARNING: Do NOT push Boulder 1 DOWN to (11, 8) from Row 6; it must be pushed UP from Row 8.
 3. Push Boulder 1 UP to (11, 5).
 4. Move to (12, 5) and push Boulder 1 LEFT to (10, 5).
 5. Move to (10, 6) and push Boulder 1 UP to (10, 1).
