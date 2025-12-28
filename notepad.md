@@ -64,3 +64,4 @@
 - **Suspicious Finding:** Slot machine at (18, 8) uses `CeladonGameCornerLighterScript` instead of the standard `LuckySlotMachine`. This is likely the secret switch.
 - **Game Corner Investigation:** Interacted with slot machine at (18, 8). Found a lighter. No obvious immediate effect, but checking for hidden stairs in the top area.
 - **Layout:** Rows 2-3 appear to be a dividing wall. Attempting to flank left to reach the northernmost area (Row 1).
+- **Blocked Path:** The path at (13, 4) appears blocked despite looking like a floor tile. Attempting to cross to the left side via the bottom path (Row 13).
