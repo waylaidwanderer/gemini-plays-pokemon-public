@@ -29,3 +29,8 @@
 - Section 3 (Right): (17, 5), (17, 8), (17, 10), (17, 13) are WALLs. Use Column 18/19.
 - Row 1: Safe non-ice corridor.
 - Avoid (12, 6) and (11, 11) - they are WALLs.
+## Lessons Learned
+- Strength is lost immediately upon changing floors (using ladders or falling through pits).
+- Navigation tools may accidentally path through warps/ladders (e.g., (17, 3)). Always check for warps on the intended path and use intermediate coordinates to bypass them.
+- `find_map_objects` only detects objects currently on the screen. Manual scouting is required to verify off-screen spawn points.
+- Confirmation bias: I assumed the boulder at (17, 7) hadn't respawned because I saw it empty once. Boulders reset whenever the floor is exited and re-entered. I must verify all four points now.
