@@ -1,14 +1,13 @@
 # Current Status
-- **Status:** In Saffron City.
-- **Location:** (2, 6).
-- **Goal:** Walk to Route 5 Gate (18, 3).
-- **Action:** Navigating East to bypass wall, then North to the gate.
+- **Status:** On Route 5.
+- **Location:** (8, 17).
+- **Goal:** Walk North to Cerulean City.
+- **Action:** Navigating West around ledges, then North.
 
 # Future Strategy
-1. Exit North to Route 5.
-2. Walk to Cerulean City.
-3. Go North to Route 24/25.
-4. Find Misty at the Cape.
+1. Arrive in Cerulean City.
+2. Go North to Route 24/25.
+3. Find Misty at the Cape (East side of Route 25).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
