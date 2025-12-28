@@ -62,7 +62,11 @@
 - Strategy: Use 2F Row 13 to move between quadrants.
 
 # Blackthorn Gym Puzzle Progress
-- Status: Boulders 3 and 4 are in pits. Resetting floor to fix Boulder 7 positioning.
-- Master Puzzle Plan (Turn 29336):
-  1. Fill Pit (8, 7): Use Boulder 7 (6, 1).
-- Current Status: On 1F (7, 9). Returning to 2F. [Time: Turn 29336]
+- Status: All pits are EMPTY (reset after Turn 29336).
+- Master Puzzle Plan (Turn 29338):
+  1. Push Boulder 7 (6, 1) RIGHT to (9, 1). (Clears path to NE corner).
+  2. Push Boulder 3 (8, 2) DOWN into Pit (8, 3). (Stand at 8, 1).
+  3. Push Boulder 4 (2, 3) DOWN into Pit (2, 5). (Stand at 2, 2, then 2, 3).
+  4. Push Boulder 5 (6, 16) RIGHT to (7, 16). (Clears path to SE corner).
+  5. Push Boulder 8 (8, 13) UP to (8, 6), then DOWN into Pit (8, 7)? No, use path: (8, 13) -> (8, 12) -> (9, 12) -> (9, 6) -> (8, 6) -> (8, 7).
+- Current Status: On 2F (7, 9). Heading to (5, 1). [Time: Turn 29338]
