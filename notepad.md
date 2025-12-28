@@ -41,3 +41,10 @@
 
 ## Exploration
 - Path to (5, 7) is blocked by walls (9, 2) and the rock at (6, 6). Exploring the eastern corridor via (13, 1) to find a way around.
+## Tile Mechanics (B3F)
+- LEDGE_HOP_RIGHT: One-way jump from West to East. Located at (11, 8) and (11, 9).
+- FLOOR_UP_WALL: Potential one-way barrier. (9, 2), (10, 2), (12, 4). Testing traversability from North to South.
+
+## Exploration
+- Verified eastern corridor south of Row 9 is a dead end.
+- Returning to west side via Row 1 to test (10, 2) and reach item at (5, 7).
