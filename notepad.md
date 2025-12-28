@@ -20,25 +20,18 @@
 - Emy's House: (29, 23). Inside: Lass wants to trade DODRIO for female DRAGONAIR.
 - Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
 - Cooltrainer F (Flavor NPC): (35, 19).
-- Black Belt NPC: (25, 31).
 - Ice Path Exit: (36, 9) on map 5_10 (Warp from 3_61 at 36, 27).
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini (Ekans sprite).
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
-- Water area: (12, 12) to (15, 13).
-- Super Nerd NPC: (19, 12).
-- Youngster NPC: (12, 15).
 
 # Blackthorn Gym Exploration
 - Strategy:
-  1. Defeat Gym Trainers for EXP [Current: Turn 29252]
-  2. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
+  1. Defeat Gym Trainers for EXP [Done]
+  2. Solve Gym Puzzle (2F/1F) [In Progress]
   3. Defeat Gym Leader Clair.
-
-# Blackthorn Gym Discoveries
-- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
-- Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
 - Trainers Defeated: Paul (1, 15) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
+- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
@@ -47,44 +40,32 @@
   - Dragonair (Lv37): Dragonbreath, Ice Beam, Thunder Wave, Slam.
   - Dragonair (Lv37): Dragonbreath, Thunderbolt, Thunder Wave, Slam.
   - Kingdra (Lv40): Dragonbreath, Surf, Smokescreen, Hyper Beam.
-- Party Status: Calcifer (Lv46), Gneiss (Lv44) are main fighters. Others are underleveled (Lv10-21).
-- Battle Strategy (battle_analyst_v2 - Verified):
-  - Lead with Calcifer.
-  - Gneiss is immune to Thunderbolt, but 4x weak to Surf and 2x weak to Ice Beam. Use with extreme caution.
-  - Strategy: Chip away at Kingdra with Calcifer. Switch to Gneiss to tank Hyper Beam (Rock resists Normal), then use recharge turn to attack or switch. Use others as fodder for safe switching/healing.
+- Battle Strategy: Lead with Calcifer. Chip away at Kingdra. Switch to Gneiss to tank Hyper Beam.
 
-# Reflection Lessons (Turn 29216)
-- Turn Tracking: Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
-- Water Navigation: The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
-- Warp Marking: Visit and mark all discovered warps immediately to prevent navigation errors.
+# Reflection & Lessons
+- **Turn Tracking:** Sourced from Game State Info.
+- **Warp Pathing:** Navigate tool does not avoid warps. Manually steer around.
+- **Boulder Tracking:** Link markers to object_id for moving objects.
+- **Pit Destinations:** Pit (2, 5) -> (2, 6) on 1F.
 
 # Time Tracking
 - Boulder Puzzle Started: Turn 29238.
 
 # Blackthorn Gym Layout Theory
 - The gym is split into sections on both floors.
-- 1F Layout:
-  - Entrance area (Rows 12-17) connects the East and West sides.
-  - West side (Rows 6-11) contains Ladders at (1, 7) and (2, 6).
-  - East side (Rows 6-10) is an island accessible only via Ladder at (7, 9) from 2F.
-- 2F Layout:
-  - Divided into 4 quadrants (NW, NE, SW, SE).
-  - Row 13 acts as a horizontal bridge connecting the East and West sides.
-  - Cody (4, 1) and Fran (4, 11) block other North-South passages.
-- Strategy: Use 2F Row 13 to move between quadrants. Use 1F West side ladders to reach NW/SW.
+- 1F Layout: West side contains Ladders (1, 7). East side island (7, 9).
+- 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West.
+- Strategy: Use 2F Row 13 to move between quadrants.
 
-# Blackthorn Gym Puzzle Progress (Started Turn 29238)
+# Blackthorn Gym Puzzle Progress
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
 - Boulder 4 (2, 4): Pushed into Pit (2, 5). [Turn 29318]
-- Boulder 6 (3, 1): Moved to clear path.
+- Boulder 6 (3, 3): Moved to clear path. [Currently at (3, 3) after reset]
 - Boulder 7 (6, 1): Investigating.
 - Boulder 8 (8, 14): Target is Pit (8, 7). Path: (8, 14) -> (8, 11) -> (9, 11) -> (9, 7) -> (8, 7).
-- Boulder 5 (6, 16): Decatur/Path blocker. Target Pit (8, 7)?
-- Pit (2, 5): Filled by Boulder 4.
-- Pit (8, 3): Filled by Boulder 3.
-- Pit (8, 7): Target for Boulder 8.
-- Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- SE Puzzle Plan (Turn 29319):
+- Boulder 5 (6, 16): Path blocker.
+- Pits filled: (8, 3), (2, 5).
+- SE Puzzle Plan:
   1. Navigate to (6, 15).
   2. Push Boulder 5 (6, 16) DOWN to (6, 17).
   3. Walk (6, 15) -> (6, 16) -> (7, 16) -> (8, 16) -> (8, 15).
