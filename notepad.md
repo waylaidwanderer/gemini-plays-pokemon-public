@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In New Bark Town. Have Radio Card.
-   - *Plan:* Surf East to Route 27 -> Fly Lavender (Expansion Card) -> Fly Vermilion (Wake Snorlax).
+   - *Status:* On Route 27 (Kanto). Checking if Fly map allows Kanto destinations.
+   - *Plan:* If Kanto Map: Fly Lavender. If Johto Map: Surf East to Tohjo Falls.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
