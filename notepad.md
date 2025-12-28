@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Initiating Battle sequence.
-   - *Plan:* Tune to 20 (Poke Flute) -> Exit Pokegear -> Interact (A) -> Battle Snorlax.
+   - *Status:* Tuning Radio (Current: ~15, Target: 20).
+   - *Plan:* Tune Up repeatedly to reach Channel 20 -> Verify "POKe FLUTE" -> Exit -> Interact -> Battle.
    - *Battle Strategy:* Switch from Machoke (Lv75) to Gyarados/Quilava to weaken. Capture if possible.
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
