@@ -7,7 +7,7 @@
   3. Check Department Store for TMs/Items.
 
 # Key Locations
-- **Pokemon Center:** (29, 9)
+- **Pokemon Center:** Outside (29, 9) | Inside (21_17)
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
