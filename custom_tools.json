@@ -107,7 +107,7 @@
     "input_schema": {
       "type": "object"
     },
-    "python_script": "import json\n# 1. Start menu\n# 2. Reset Start cursor (Up 10) to Pokedex\n# 3. Move to Pokemon (Down 1)\n# 4. Enter Party (A)\n# 5. Reset Party cursor (Up 6) to Slot 1\n# 6. Move to Slot 5 (Down 4)\n# 7. Select (A)\n# 8. Select Strength (A)\n# 9. Close menus (B x3)\nbtns = [\"Start\", \"sleep 500\"] + [\"Up\"]*10 + [\"Down\", \"A\", \"sleep 500\"] + [\"Up\"]*6 + [\"Down\"]*4 + [\"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\"]\nprint(json.dumps(btns))\n",
+    "python_script": "import json\n# 1. Close any open menus\n# 2. Open Start menu\n# 3. Reset Start cursor to POKEDEX (Up 10)\n# 4. Move to POKEMON (Down 1)\n# 5. Enter Party (A)\n# 6. Reset Party cursor to Slot 1 (Up 6)\n# 7. Select GNEISS in Slot 5 (Down 4)\n# 8. Select (A)\n# 9. Select Strength (A)\n# 10. Close menus (B x3)\n# 11. Attempt Push (Up)\nbtns = [\"B\"]*3 + [\"Start\", \"sleep 500\"] + [\"Up\"]*10 + [\"Down\", \"A\", \"sleep 500\"] + [\"Up\"]*6 + [\"Down\"]*4 + [\"A\", \"sleep 500\", \"A\", \"sleep 1000\"] + [\"B\"]*3 + [\"Up\"]\nprint(json.dumps(btns))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -128,6 +128,11 @@
         "commit_message": "Refined activate_strength_gneiss to be fully robust by resetting both Start and Party menu cursors. Added sleeps for menu stability.",
         "timestamp": "2025-12-28T13:16:48.667Z",
         "action_counter": 28727
+      },
+      {
+        "commit_message": "Refined activate_strength_gneiss to be fully robust by closing any open menus, resetting the Start menu cursor to POKEDEX, and resetting the Party menu cursor to Slot 1. Added an 'Up' press at the end to immediately attempt a boulder push.",
+        "timestamp": "2025-12-28T13:18:22.602Z",
+        "action_counter": 28729
       }
     ]
   }
