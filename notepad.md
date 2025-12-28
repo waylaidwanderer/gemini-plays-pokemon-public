@@ -85,3 +85,5 @@
 - Exiting South via (5, 7).
 - Expecting to emerge on the West side of Route 2 or near Viridian City.
 - Goal: Find path North to Pewter City.
+- Stepping South from (5, 7) to trigger warp.
+- Anticipating arrival on Route 2 (West) or near Viridian City.
