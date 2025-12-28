@@ -21,13 +21,12 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI & ICARUS fainted. No Revives in inventory.
+- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI, ICARUS & XENON fainted. No Revives or healing items left. Kingdra accuracy -1.
 - Plan:
-  1. Send in XENON (Gastly, Lv21). (In Progress)
-  2. Use Hypnosis to disable Kingdra.
-  3. If Kingdra is asleep, switch to GNEISS (Graveler, Lv45).
-  4. Use Earthquake (Neutral damage, but Gneiss has high level/attack).
-  5. Sacrifice Ravioli (Krabby, Lv10) if needed for a safe switch or to scout moves.
+  1. Send in Ravioli (Krabby, Lv10) as fodder. (In Progress)
+  2. Send in GNEISS (Graveler, Lv45).
+  3. Use Earthquake (Neutral damage).
+  4. Hope for accuracy misses or Kingdra using non-lethal moves.
 
 # Blackthorn Gym Layout Theory
 - Pit Destinations:
