@@ -14,12 +14,10 @@
 ## Sighting Sequence & Logic
 1. Burned Tower: Confirmed.
 2. Cianwood City: Confirmed at (10, 14).
-3. Route 42: Trigger at (26, 15) clearing near Apricorn trees.
-   - Status: Failed to trigger (Turn 27329).
-   - Troubleshooting: Talked to Gatehouse Sages (Turn 27380: "Please, do go on."), Ecruteak PC (Turn 27389: Eusine absent), Burned Tower 1F (Turn 27411: Eusine absent).
-   - Note: Eusine already defeated in Cianwood.
-4. Route 36: Trigger at (35, 9) near Sudowoodo spot.
-5. Tin Tower: Battle Wise Trio, then encounter Suicune.
+3. Route 42: Trigger at (26, 15). FAILED (Turn 27329).
+4. Route 36: Trigger at (35, 9). FAILED (Turn 27421).
+5. Troubleshooting: Route 42/36 sightings failed. Next step: Check Tin Tower Gatehouse for "tower shaking" dialogue (Wise Trio prerequisite).
+6. Tin Tower: Battle Wise Trio, then encounter Suicune.
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
