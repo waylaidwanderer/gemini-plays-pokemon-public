@@ -40,7 +40,9 @@
   - Pit (8, 7) -> 1F (7, 7)
 - Strategy: Fill all three pits to complete the bridge to Clair.
 - Verified Mechanics:
-  - Silver blocks are WALLS. (Turn 29653) - ***PENDING RE-VERIFICATION***
+  - Silver blocks are WALLS. (Turn 29653)
+  - Test 1 (Turn 29675): Attempt to walk onto (5, 0) from (5, 1) failed. (5, 0) is a WALL.
+  - Pushing a boulder: First press pushes it, second press moves player into its old tile.
   - All pits are empty after gym reset. (Turn 29620)
   - Column 4 is mostly WALL, gap at Row 13.
   - Column 9 is a north-south corridor.
@@ -61,8 +63,8 @@
 
 # Boulder Puzzle Manual Analysis (Turn 29650)
 - Observation: Row 0 tiles (silver blocks) are marked as WALL. If they are truly impassable, Boulder 7 at (7, 1) cannot be pushed down.
-- Hypothesis 1: Row 0 tiles are actually passable FLOOR.
-- Test 1 (Turn 29675): Attempt to walk onto (5, 0) from (5, 1).
+- Hypothesis 1: Row 0 tiles are actually passable FLOOR. (DENIED - Turn 29675)
+- Test 2: Attempt to walk onto (7, 0) and (8, 0) to see if ANY Row 0 tile is passable.
 - Hypothesis 2: Boulder 7 must be pushed left/right to a gap in Row 0.
 - Observation: Column 4 is mostly WALL. Row 11 (Fran) and Row 13 are the only known east-west passages.
 - Strategy for Pit (2, 5): 
