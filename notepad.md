@@ -12,6 +12,7 @@
 
 # Blackthorn City & Gym Discoveries
 - Pokemon Center: (21, 29).
+- Blackthorn Mart: (15, 29).
 - Emy's House: (29, 23). Trade DODRIO for female DRAGONAIR.
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21).
@@ -20,12 +21,15 @@
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
-# Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI, ICARUS, XENON & Ravioli fainted. GNEISS (126/126 HP) is my last hope. No Revives or major healing items left. Kingdra accuracy -1.
-- Plan:
-  1. GNEISS is on the field. Select FIGHT.
-  2. Use Earthquake (Neutral damage).
-  3. Hope for accuracy misses or Kingdra using non-lethal moves.
+# Strategy: Gym Leader Clair (REVISED)
+- Status: Whited out Turn 29510. Party fully healed. Money halved (¥5942).
+- Preparation:
+  1. Visit Mart (15, 29) to buy FULL HEALS and HYPER POTIONS.
+  2. Evaluate TM27 RETURN for Calcifer (happiness-based neutral physical damage).
+- Battle Plan:
+  1. Lead Calcifer. Use physical neutral moves (Return/Headbutt) vs Dragonairs.
+  2. Lower Kingdra accuracy with SMOKESCREEN immediately.
+  3. Use GNEISS as secondary attacker with EARTHQUAKE.
 
 # Blackthorn Gym Layout Theory
 - Pit Destinations:
@@ -34,10 +38,9 @@
   - 2F Pit (8, 3) -> 1F (7, 6)
 
 # Reflection & Lessons
+- **Clair Battle:** Kingdra's Surf is the primary threat to Calcifer and Gneiss. Fodder-healing strategy is viable but requires more items.
 - **NPC Collision:** Defeated NPCs are impassable. (Turn 29424)
 - **Warp Safety:** 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
-- **Isolation:** Isolated map areas require indirect paths (e.g., through 2F). (Turn 29420)
-- **Item Management:** Running out of Max Potions and having no Revives makes Kingdra extremely dangerous. Smokescreen was a good attempt but failed due to Surf's high damage and Typhlosion's paralysis.
 
 # Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
