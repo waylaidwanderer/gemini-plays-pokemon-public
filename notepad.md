@@ -3,6 +3,7 @@
    - *Status:* FAILED to Fly to Lavender (Landed in Saffron).
    - *Correction:* Walk East to Lavender Town -> Talk to Director -> Get EXPN Card -> Return.
    - *Next:* Walk to Lavender Town via Route 8.
+   - *Route 8 Path:* North to Row 6 (gap at x=11) -> East to x=12 -> Hop Ledges to Row 10 -> East to x=16 -> Down to Row 13 -> East past x=21 -> North to Row 8 -> East to Lavender.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
