@@ -30,7 +30,7 @@
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - Object ID 1
-- Boulder 2: (5, 8) - Object ID 2
+- Boulder 2: (5, 6) - Object ID 2
 - Boulder 3: (9, 9) - Object ID 3
 - Boulder 4: (17, 7) - Object ID 4
 - Pit 1: (11, 2)
@@ -52,17 +52,28 @@
 - DELIBIRD (Parcel): Lv 21.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 2 (5, 8) to Pit 2 (4, 7)
-1. Push Boulder 3 (8, 9) Right to (9, 9) to clear path. [DONE]
-2. Move to (8, 8). [DONE]
-3. Push Boulder 2 (7, 8) Left to (6, 8). [DONE]
-4. Move to (7, 8). [DONE]
-5. Push Boulder 2 (6, 8) Left to (5, 8). [DONE]
-6. Move to (5, 9). [DONE]
-7. Push Boulder 2 (5, 8) Up to (5, 7). [DONE]
-8. Move to (5, 8). [NEXT]
-9. Push Boulder 2 (5, 7) Up to (5, 6).
-10. Move to (6, 6).
-11. Push Boulder 2 (5, 6) Left to (4, 6).
-12. Move to (4, 5).
-13. Push Boulder 2 (4, 6) Down to (4, 7). [Target: Pit 2]
+## Boulder 3 (9, 9) to Pit 3 (5, 12)
+1. Move to (9, 8). [NEXT]
+2. Push Down to (9, 10).
+3. Move to (9, 9).
+4. Push Down to (9, 11).
+5. Move to (10, 11) via (9, 12) and (10, 12).
+6. Push Left 4 times to (5, 11).
+7. Move to (4, 10) via (4, 11).
+8. Push Down to (4, 12).
+9. Move to (3, 12).
+10. Push Right to (5, 12) [Target: Pit 3].
+
+## Boulder 2 (5, 6) to Pit 2 (4, 7)
+1. Move to (6, 6) (requires long loop around top).
+2. Push Left to (4, 6).
+3. Move to (4, 5).
+4. Push Down to (4, 7) [Target: Pit 2].
+
+## Boulder 1 (11, 7) to Pit 1 (11, 2)
+1. Move to (11, 8).
+2. Push Up 5 times to (11, 2) [Target: Pit 1].
+
+## Boulder 4 (17, 7) to Pit 4 (12, 13)
+1. Navigate via eastern corridor to (18, 13).
+2. Push Left to (12, 13) [Target: Pit 4].
