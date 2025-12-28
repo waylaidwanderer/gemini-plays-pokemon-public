@@ -23,6 +23,8 @@
 - HM Usage: Whirlpool will be needed for Dragon's Den after the 8th Gym. Ensure a party member can learn it (Ravioli/Krabby can).
 - Fly Map Navigation: Cursor cycles through visited cities. Observe movement rather than geographic directions.
 - FLOOR_UP_WALL: Impassable barrier, likely representing the base of a building or fence. Verified impassable from above.
+- Trainers: Some trainers (like Cybil) remain in place after defeat. Detour around them.
+- Turn 28027: Mandatory 50-turn reflection performed. Notepad cleaned. 'gym_strategy_analyst' agent defined.
 
 # Tile Mechanics - Global
 - FLOOR: Standard walkable tile. Verified traversable.
@@ -51,4 +53,4 @@
 # Capture Strategy: Delibird
 - Target: Delibird (Lv 21, Male)
 - Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
-- Current Status: Switching to KIMCHI. (Turn 28024)
+- Current Status: KIMCHI is active. (Turn 28027)
