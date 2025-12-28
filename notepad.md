@@ -11,3 +11,4 @@
 
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
+- **Route 25:** Trainers appear to be already defeated (markers present). Path to Bill's House should be clear.
