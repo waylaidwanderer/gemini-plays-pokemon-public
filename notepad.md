@@ -27,3 +27,5 @@
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
 - Sliding Mechanic: Moving on ICE tile slides player until hitting obstacle or FLOOR.
 - Observed: (13, 17) -> (15, 17) via Right. Blocked by WALL at (16, 17).
+- Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
+- Observed: (15, 21) -> (19, 21) via Right. Blocked by WALL at (20, 21).
