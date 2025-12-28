@@ -65,3 +65,6 @@
 - North path (Row 3) is a dead end blocked by walls at x=10 and y=0.
 - Strategy: Jump ledge at (14, 4) to shortcut back to Diglett's Cave area.
 - Next Plan: Explore South through the Cut tree at (15, 18) to find a path West/North to Pewter.
+- Jumped ledge at (11, 4) to return to main area.
+- Northern path was a dead end (Item only).
+- Now proceeding to (15, 18) to explore South past the cut tree.
