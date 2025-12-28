@@ -21,11 +21,16 @@
 - Observed ICE: Starts at row 6.
 
 ## Strategy
-1. Test the ledge at (3, 4) by attempting to walk Down from (3, 3).
-2. If blocked, navigate around to explore the ice at (0, 6).
-3. Locate the exit to Blackthorn City in the southern unseen area.
+1. Navigate to (6, 1) via the northern corridor, avoiding the ladder at (3, 3).
+2. Test if (6, 2) (FLOOR_UP_WALL) is traversable from the North.
+3. If traversable, reach (6, 5) and slide Down to (6, 8).
+4. If blocked, explore (9, 0)-(9, 7) to find a path to the eastern floor.
+5. From (5, 8), jump Left over the ledge at (4, 8) to land on (3, 8).
+6. Slide Down from (3, 8) to land on the floor at (3, 14).
+7. Walk to the exit ladder at (3, 15).
 
 ## History (Archive)
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
+- B2F (Blackthorn Side): Slid to (0, 17) and returned to (0, 5) at Turn 29054. planning path to exit.
