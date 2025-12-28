@@ -23,3 +23,14 @@
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" - Too broad; Row 1-2 ice tiles DO slide.
 - "B3 is unreachable from entry (4, 17)" - Incorrect, reached via (3, 17) FLOOR.
+## Strategy for Boulder 1 (ID 1) -> Pit 1 (11, 2)
+1. Navigate to (9, 1).
+2. Push Boulder 1 RIGHT to (11, 1).
+3. Navigate to (11, 0).
+4. Push Boulder 1 DOWN into Pit 1 at (11, 2).
+
+## Strategy for Boulder 2 (ID 2) -> Pit 2 (4, 7)
+1. Navigate to (6, 6).
+2. Push Boulder 2 LEFT to (4, 6).
+3. Navigate to (4, 5).
+4. Push Boulder 2 DOWN into Pit 2 at (4, 7).
