@@ -48,6 +48,7 @@
 
 # Wild Pokemon Locations
 - **Route 24/25 (Water):** Goldeen
+- **Victory Road:** Graveler, Rhyhorn, Sandslash
 - **Fly Map Navigation:**
     - Indigo Plateau -> Down -> Saffron City.
     - Saffron City -> Up -> Indigo Plateau (Unexpected! result).
