@@ -1,8 +1,13 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* EXPN Card CONFIRMED (Saw "POKé FLUTE" station).
-   - *Plan:* Tune Radio to 20 (Up to Max) -> Exit Pokegear -> Exit Tower -> Fly to Vermilion -> Wake Snorlax.
-   - *Next:* Battle Snorlax -> Enter Diglett's Cave.
+   - *Status:* EXPN Card CONFIRMED (Saw "Let's All Sing" station).
+   - *Issue:* Channel 20 (Max) showed "TUNING". Poke Flute might be slightly lower or requires location.
+   - *Plan:* Fly to Vermilion -> Stand next to Snorlax -> Tune Radio to Poke Flute -> Wake Snorlax.
+   - *Battle Strategy:*
+     - **Lead:** Machoke (Lv75).
+     - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP (Machoke Low SpAtk vs Snorlax High SpDef). Avoid Cross Chop (OHKO risk).
+     - **Capture:** Ultra Balls when low. Be aware of Rest.
+   - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Reflection (Turn 22538)
