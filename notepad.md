@@ -37,3 +37,9 @@
 2. Push Left to (4, 6).
 3. Move to (4, 5).
 4. Push Down to (4, 7). [PIT]
+
+# Current Status (B2F)
+- Accidentally fell through Pit 4 at (12, 13) on B1F.
+- Landed at (12, 12) on B2F.
+- Boulder 4 is at (12, 13) on B2F.
+- Goal: Return to B1F via ladder at (9, 11).
