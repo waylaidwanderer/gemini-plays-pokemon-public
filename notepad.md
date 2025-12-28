@@ -28,3 +28,14 @@
 ## Progress
 - Turn 29021: Confirmed all 4 boulders are in position on B2F. Verified sliding path to ladder.
 - Turn 29031: Item collected. Proceeding to ladder at (9, 11).
+
+# Ice Path B3F
+- Goal: Explore and find exit to B4F or beyond.
+- Status: Just arrived from B2F.
+
+## Map Objects
+- Item: (5, 7) - Uncollected.
+- Rock: (6, 6) - Likely requires Strength.
+
+## Exploration
+- Path to (5, 7) currently seems blocked by walls/rocks. Exploring unseen tiles to the right.
