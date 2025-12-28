@@ -19,8 +19,8 @@
 1. Detour around boulder to (11, 8). [DONE]
 2. Push Boulder 1 UP to (11, 5). [DONE]
 3. Move to (12, 5) and push LEFT to (10, 5). [DONE]
-4. Move to (10, 6) and push UP to (10, 1). [CURRENT]
-5. Move to (9, 1) and push RIGHT to (11, 1).
+4. Move to (10, 6) and push UP to (10, 1). [DONE]
+5. Move to (9, 1) and push RIGHT to (11, 1). [CURRENT]
 6. Move to (11, 0) and push DOWN into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
