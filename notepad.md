@@ -34,5 +34,6 @@
 - **Plan:** Surf West back to (42, 12) -> Walk West to (11, 13) -> South to Route 24 -> Surf North from Route 24 East side.
 - **Route 25 South Trap:** The area south of the maze (Rows 13-17, x=11-39) is a dead end reachable only via the isolated pool at (42, 12).
 - **Geography:** East-West crossing is possible at Row 8. Vertical barrier (Ladders) exists only at x=8-9, y=12-17.
-- **Current Plan:** Walk West to (4, 15) (avoiding Youngster at 12,8), Surf South to Route 24 West, then Surf East under bridge to Cape.
+- **Route 24 Connectivity:** West and East water channels are likely separated by the Nugget Bridge. Must loop through Cerulean City water to switch sides.
+- **Current Plan:** Surf South from (4, 15) to Route 24 (West) -> Continue South to Cerulean City -> Loop around to Route 24 (East) -> North to Route 25 Cape.
 - **Goal:** Reach Cape (Route 25) via Route 24 East water channel.
