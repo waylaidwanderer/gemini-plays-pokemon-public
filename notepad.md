@@ -6,7 +6,7 @@
 # Current Status
 - **Location:** Cerulean Gym.
 - **Goal:** Talk to the Gym Guide to locate Misty.
-- **Observation:** Gym looks empty except for the guide.
+- **Observation:** Gym contains swimmers and a guide. Misty is not visible.
 - **Recent:** Entered Gym from Cerulean City.
 
 # Tile Mechanics
