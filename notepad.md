@@ -40,9 +40,9 @@
   - **Exploration:** Entered Celadon Cafe (25, 29).
   - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
   - **Conclusion:** Cafe is a dead end.
-- **Gym Location:** Celadon Gym (21_21). Entered.
-- **Goal:** Defeat Erika.
-- **Progress:** Defeated Twins Jo & Zoe, Picnicker Tanya, Beauty Julia.
+- **Gym Location:** Celadon Gym (21_21). Cleared.
+- **Goal:** Travel to Fuchsia City (Soul Badge).
+- **Progress:** Defeated Erika (Rainbow Badge). Obtained TM19 Giga Drain.
 - **Loot:** Retrieved Leftovers from Cafe.
 - **Quest Start:** Turn 24041.
 
