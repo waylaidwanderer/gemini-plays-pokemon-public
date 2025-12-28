@@ -31,13 +31,19 @@
   2. Lower Kingdra accuracy with SMOKESCREEN immediately.
   3. Use GNEISS as secondary attacker with EARTHQUAKE.
 
-# Blackthorn Gym Layout Theory
-- Pit Destinations:
-  - 2F Pit (2, 5) -> 1F (2, 6)
-  - 2F Pit (8, 7) -> 1F (7, 7)
-  - 2F Pit (8, 3) -> 1F (7, 6)
-- Navigation: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross. (Turn 29420)
-- Warp Safety: 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
+# Blackthorn Gym Layout & Boulders
+- 2F Boulders:
+  - Boulder 6: (3, 3)
+  - Boulder 7: (6, 1)
+  - Boulder 8: (8, 17)
+- 2F Pits:
+  - Pit (2, 5) -> 1F (2, 6)
+  - Pit (8, 3) -> 1F (7, 6)
+  - Pit (8, 7) -> 1F (7, 7) (Status: FILLED)
+- Strategy:
+  1. Determine path for Boulder 6 to Pit (2, 5).
+  2. Determine path for Boulder 7 to Pit (8, 3).
+  3. Investigate purpose of Boulder 8.
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
