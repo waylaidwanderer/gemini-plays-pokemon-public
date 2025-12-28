@@ -13,7 +13,7 @@
 
 # Blackthorn City Exploration
 ## Strategy
-1. Locate and enter Pokemon Center to heal. [Turn 29155]
+1. Locate and enter Pokemon Center to heal. [Started: Turn 29155, Healing: Turn 29162]
 2. Explore the city to find the Gym.
 3. Defeat Gym Leader Clair.
 
