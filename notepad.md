@@ -45,17 +45,6 @@
 - Slot 5: GNEISS (Lv44) - HM Strength.
 - Slot 6: XENON (Lv21) - Hypnosis.
 
-## Swap Progress (KIMCHI <-> Calcifer)
-- Goal: Put Calcifer in Slot 1.
-1. Move to KIMCHI in Slot 1. [DONE - T28468]
-2. Press Select on KIMCHI (verify highlight/blinking). [DONE - T28468]
-3. Move to Calcifer in Slot 3. [NEXT]
-4. Press Select on Calcifer to swap.
-5. Exit menu.
-
-# Failed Attempts (Swap)
-- Turn 28466: Pressed Select on Calcifer, but swap did not occur. Suspect KIMCHI was not correctly marked. restarting.
-
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
