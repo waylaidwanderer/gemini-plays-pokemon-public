@@ -23,11 +23,10 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (REVISED)
-- Status: Whited out Turn 29510. Party fully healed. Money: ¥4142. Inventory: 3 Full Heals.
+- Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
 - Preparation (Start Turn: 29511):
-  1. Sell PROTEIN for funds. (In Progress)
-  2. Buy as many HYPER POTIONS as possible.
-  3. Teach TM27 RETURN to Calcifer.
+  1. Buy 7 HYPER POTIONS at Mart (In Progress).
+  2. Teach TM27 RETURN to Calcifer.
 - Battle Plan:
   1. Lead Calcifer. Use RETURN vs Dragonairs.
   2. Lower Kingdra accuracy with SMOKESCREEN immediately.
@@ -39,9 +38,11 @@
   - 2F Pit (8, 7) -> 1F (7, 7)
   - 2F Pit (8, 3) -> 1F (7, 6)
 
-# Navigation Insights
+# Navigation & Battle Lessons
 - Warp Safety: 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
 - Isolation: Isolated map areas (like Gym Island) require indirect paths (e.g., through 2F). (Turn 29420)
+- Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
+- Type Effectiveness: Dragon resists Fire/Electric. Use physical neutral moves (Return) for better DPS. (Turn 29459)
 
 # Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
