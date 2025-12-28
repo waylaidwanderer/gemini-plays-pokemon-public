@@ -1,7 +1,6 @@
 ## Battle Strategy (Blackthorn Gym)
 - Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
-- Primary Attackers: Typhlosion (Lv45) w/ Thunderpunch, Graveler (Lv44) w/ Earthquake.
-- Optional Backup: Catch Swinub (Common) or Jynx (Rare) in Ice Path. Use Sleep Powder (Kimchi) or Hypnosis (Xenon).
+- Strategy: Typhlosion (Lv45) w/ Thunderpunch, Graveler (Lv44) w/ Earthquake. Jynx backup recommended.
 
 ## Tile Mechanics
 - FLOOR: Walkable. NOTE: B1F floor tiles do NOT slide. B2F floor tiles (non-islands) DO slide.
@@ -9,7 +8,7 @@
 - WATER: Needs Surf (HM03).
 - ICE: Sliding mechanic. B1F northern corridor (Row 1-2) and B2F large rink. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
 - PIT: Warp to B2F. Dropping a boulder fills the pit on B2F, creating a "stopper" tile. (Current Pits: All 4 unfilled).
-- BOULDER: Pushable with Strength (HM04). Resets to start position when changing floors via ladder or pit.
+- BOULDER: Pushable with Strength (HM04). Resets to start position when changing floors via ladder or pit. (Hypothesis: Pits might NOT reset boulders. To be verified).
 - STRENGTH: Must be re-activated after every floor transition or battle.
 
 # B1F Boulder Puzzle (Attempt Turn 28546)
@@ -20,11 +19,11 @@
 2. Push Boulder 1 UP to (11, 5). [DONE]
 3. Move to (12, 5) and push LEFT to (10, 5). [DONE]
 4. Move to (10, 6) and push UP to (10, 1). [DONE]
-5. Move to (9, 1) and push RIGHT to (11, 1). [CURRENT]
+5. Move to (9, 1) and push RIGHT to (11, 1).
 6. Move to (11, 0) and push DOWN into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
-1. Move to (8, 8), push LEFT to (5, 8).
+1. Move to (8, 8), push LEFT to (5, 8). [CURRENT]
 2. Move to (5, 9), push UP to (5, 6).
 3. Move to (6, 6), push LEFT to (4, 6).
 4. Move to (4, 5), push DOWN into Pit 2.
