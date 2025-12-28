@@ -1,10 +1,14 @@
 # Current Status
-- **Location:** Route 16 (West of Gatehouse).
+- **Location:** Route 16 (Cycling Road Entrance).
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
-  1. Traverse Route 16 West to Cycling Road.
-  2. Enter Cycling Road (Route 17).
-  3. Ride South to Fuchsia City.
+  1. Ride South down Cycling Road (Route 17).
+  2. Arrive in Fuchsia City.
+  3. Locate Gym and Janine.
+
+# Route 16 Notes
+- **East Side:** Cut Tree at (15, 4). Leads to secluded area (maybe house?).
+- **West Side:** Connects to Cycling Road (South). Dead end to West.
 
 # Celadon City Notes
 - **Game Corner:** (18, 19). Investigated. No Rocket Hideout found.
