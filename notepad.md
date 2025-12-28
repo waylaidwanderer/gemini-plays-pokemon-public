@@ -62,11 +62,13 @@
 # Blackthorn Gym Puzzle Progress (Started Turn 29238)
 - Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
-- Boulder 3 (8, 2): Target is Pit (8, 3). Reach from (8, 1).
-- Boulder 7 (7, 1): Target is Pit (8, 7). Path: (7, 1) -> (9, 1) -> (9, 6) -> (8, 6) -> (8, 7).
+- Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
+- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
+- Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
+- Boulder 7 (6, 1): Target is Pit (8, 7)? [Starting position verified as (6, 1)]
 - Pit (2, 5): Target for Boulder 4.
-- Pit (8, 3): Target for Boulder 3.
-- Pit (8, 7): Target for Boulder 7.
+- Pit (8, 3): Target for Boulder 3 (Done).
+- Pit (8, 7): Target for Boulder 7?
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
 - Strategy: Solve eastern side first (Boulders 3 and 7), then re-evaluate western side access.
-- Current Status (Turn #29288): Boulder 3 is in pit. Resetting floor to fix Boulder 7 positioning. Returning to 2F. [Time: Turn #29288]
+- Current Status (Turn 29289): Returning to 2F to reset boulders. Boulder 3 is complete. [Time: Turn 29289]
