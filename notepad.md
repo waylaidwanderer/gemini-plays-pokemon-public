@@ -53,13 +53,7 @@
 # Capture Strategy: Delibird
 - Target: Delibird (Lv 21, Male)
 - Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
-- Status: Caught! Entered 'P', typing 'a'. (Turn 28040)
-
-# Nickname Test: Delibird
-- Observation: Screen shows cursor at 'A' (6, 17), but system note says 'P' (12, 18).
-- Hypothesis: Pressing 'A' will enter 'A' if the image is correct, or 'P' if the system note is correct.
-- Test: Press 'A'.
-- Turn: 28037.
+- Status: Caught! Entered 'Pa', typing 'r'. (Turn 28041)
 
 # Strategy: 8th Gym Badge (Clair)
 - Opponent: Clair (Dragon-types)
