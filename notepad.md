@@ -44,7 +44,6 @@
 - House is a dead end (no back exit).
 - Action: Exiting to Route 2 to continue search for path to Pewter City.
 - Check: Can I go further South on Route 2 East side? Or is there a cuttable tree?
-- Exited Nugget House.
-- Found CUT Tree at (15, 18).
-- Action: Cutting tree to proceed South/East.
-- Route 2 East seems to be the only path forward.
+- Cutting tree at (15, 18).
+- Path forward: South/East towards Pewter City.
+- Box 1 Full. Priority: Reach PC.
