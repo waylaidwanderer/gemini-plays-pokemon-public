@@ -47,6 +47,14 @@
 
 # Wild Pokemon Locations
 - **Route 24/25 (Water):** Goldeen
-- **Fly Map Navigation:** Indigo Plateau -> Down (Viridian/Pewter?) -> Right (Saffron City).
-- **Hypothesis:** Saffron City is centrally located. Pressing `Up` should target Cerulean City.
-- **Next Action:** Press `Up`, then `A` to Fly to Cerulean.
+- **Fly Map Navigation:**
+    - Indigo Plateau -> Down -> Saffron City.
+    - Saffron City -> Up -> Indigo Plateau (Unexpected! result).
+    - **Conclusion:** Saffron and Indigo are vertically linked. Cerulean might be `Right` from Pewter or `Up` from Vermilion/Lavender.
+- **Current Status:**
+    - Landed at Indigo Plateau (Route 23).
+    - Cannot Fly from here (No-Fly Zone).
+    - Must walk South to Gatehouse (16_2).
+    - **Hope:** Gatehouse connects to Route 22 (Viridian) to Fly.
+    - **Fear:** Gatehouse connects to Victory Road (Must traverse again).
+- **Next Action:** Walk South -> Enter Gatehouse.
