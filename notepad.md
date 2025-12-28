@@ -69,4 +69,5 @@
 - **Left Area Access:** Gap at Row 4 (y=4) allows access to the left side of the room (Columns 0-6).
 - **Poster Check:** Checking poster at (9, 0) first, then (15, 0).
 - **Game Corner Conclusion:** The "Lighter" and posters appear to be red herrings or references to Gen 1. The Pharmacist's comment about "3 years ago" implies the Rocket Hideout is no longer here.
-- **Next Step:** Talk to the Gym Guide (found slacking off in the Game Corner) to find the Gym's location.
+- **Gym Guide:** Found slacking off in Game Corner (11,3). Useless - just gambling. Did not provide Gym location.
+- **Gym Location:** Unknown. Need to explore city (likely South).
