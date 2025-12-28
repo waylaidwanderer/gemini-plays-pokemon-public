@@ -11,3 +11,5 @@
 
 # Rival Silver Roster (Last Known)
 - Sneasel (41), Golbat (42), Alakazam (43), Gengar (43), Feraligatr (45), Magneton (41).
+- **Bill's Grandpa Quest:** Wants to see a Lickitung. I do not have one.
+- **Next Step:** Return to Cerulean, then East to Route 9 for Power Plant.
