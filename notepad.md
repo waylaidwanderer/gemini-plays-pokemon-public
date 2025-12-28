@@ -4,10 +4,9 @@
 3. **Get Silver Wing:** Done.
 
 # Current Status
-- **Location:** Route 4, East side.
-- **Goal:** Reach Cerulean City.
-- **Success:** Bypassed the wall at x=24 by looping South and back North through the gap.
-- **Next:** Continue East to the city.
+- **Location:** Route 4, East end.
+- **Goal:** Enter Cerulean City.
+- **Recent:** Jumped final ledge at (35, 9). Path forward is clear.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
