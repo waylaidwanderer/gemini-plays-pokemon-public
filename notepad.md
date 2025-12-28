@@ -71,6 +71,6 @@
 - Danger: Do NOT attack again. Muscle is too strong.
 - Action: Throw Ultra Balls until caught. Snorlax has Leftovers, so it will heal slowly.
 - Snorlax has Rest (likely). If it Rests, it will wake up and cure paralysis. Be ready to re-paralyze if safe, or just throw balls at full health sleep.
-- Throwing Ultra Ball (Attempt 1).
-- Current Stock: 21 Ultra Balls.
+- Throwing Ultra Ball (Attempt 1) - Confirmed.
+- Current Stock: 20 Ultra Balls (after this throw).
 - Snorlax is Paralyzed and Low HP. This is the best chance.
