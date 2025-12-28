@@ -21,7 +21,7 @@
 1. Move to (5, 8). (Done)
 2. Push UP to (5, 6). (Done)
 3. Clear path to Row 1:
-   a. Navigate to (11, 8) via Row 16 and (11, 11).
+   a. Navigate to (11, 8) via Row 16 detour through Section 3 and Column 12 corridor.
    b. Push Boulder 1 (11, 7) UP twice to (11, 5).
 4. Navigate to (6, 6) via Row 1.
    Path: (11, 5) -> (10, 5) -> (10, 1) -> (6, 1) -> (6, 2) -> (5, 2) -> (5, 5) -> (6, 5) -> (6, 6).
