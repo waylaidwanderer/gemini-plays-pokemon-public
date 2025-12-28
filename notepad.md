@@ -30,3 +30,6 @@
 - Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
 - Observed: (15, 21) -> (19, 21) via Right. Blocked by WALL at (20, 21).
 - Observed: (19, 21) -> (19, 23) via Down. Blocked by FLOOR_UP_WALL at (19, 24).
+- Turn 28021: Entered Ice Path. (Sat Dec 27, 11:00 PM)
+- Lesson: In menus, ALWAYS separate directional inputs from action inputs (A, B, Start, Select) into separate turns to avoid input truncation.
+- Turn 28078: Mandatory 50-turn reflection performed. Notepad updated.
