@@ -47,6 +47,6 @@
 
 # Wild Pokemon Locations
 - **Route 24/25 (Water):** Goldeen
-- **Fly Map Navigation:** Attempted `Right` x2 from Indigo Plateau, but cursor did not move.
-- **Hypothesis:** Indigo Plateau is only connected downwards to Viridian City.
-- **Next Test:** Press `Down`, then `Right` to see if cursor moves to Saffron or Pewter.
+- **Fly Map Navigation:** Indigo Plateau -> Down (Viridian/Pewter?) -> Right (Saffron City).
+- **Hypothesis:** Saffron City is centrally located. Pressing `Up` should target Cerulean City.
+- **Next Action:** Press `Up`, then `A` to Fly to Cerulean.
