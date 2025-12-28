@@ -1,10 +1,10 @@
 # Current Status
-- **Location:** Route 18.
-- **Goal:** Travel to Fuchsia City (Soul Badge).
+- **Location:** Fuchsia City.
+- **Goal:** Earn Soul Badge (Janine).
 - **Plan:**
-  1. Traverse Route 18 East.
-  2. Arrive in Fuchsia City.
-  3. Locate Gym and Janine.
+  1. Locate and heal at Pokemon Center.
+  2. Locate Fuchsia Gym.
+  3. Defeat Janine.
 - **Turn:** 24200.
 - **Progress:** Defeated Bird Keeper Bob.
 - **Time:** Sunday, December 28, 2025.
