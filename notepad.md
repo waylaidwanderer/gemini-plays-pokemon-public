@@ -40,7 +40,8 @@
   - **Exploration:** Entered Celadon Cafe (25, 29).
   - **NPCs (Cafe):** Fisher (eating), Teacher (concentration), Super Nerd (Eatathon), Gaven (Phone call). All useless.
   - **Conclusion:** Cafe is a dead end.
-- **Gym Location:** Southwest Celadon (10, 29).
-- **Navigation:** Found gap in ledge at X=5. Path to entrance clear.
-- **Tool Status:** `bfs_pathfinder` operational.
-- **Quest Start:** Turn 24041 (Searching Celadon Cafe).
+- **Gym Location:** Celadon Gym (21_21). Entered.
+- **Goal:** Defeat Erika.
+- **Status:** At entrance. Moving north to find trainers/Leader.
+- **Loot:** Retrieved Leftovers from Cafe.
+- **Quest Start:** Turn 24041.
