@@ -4,11 +4,14 @@
 - B1F is NOT partitioned; all areas are accessible via Row 2 and Row 16 bridges.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
-1. Navigate to (8, 8). [CURRENT]
-2. Push LEFT to (5, 8).
-3. Move to (5, 9), push UP to (5, 6).
-4. Move to (6, 6), push LEFT to (4, 6).
-5. Move to (4, 5), push DOWN into Pit 2.
+1. Move to (7, 9).
+2. Activate Strength.
+3. Push Boulder 3 RIGHT to (9, 9).
+4. Navigate to (8, 8).
+5. Push Boulder 2 LEFT to (5, 8).
+6. Move to (5, 9), push UP to (5, 6).
+7. Move to (6, 6), push LEFT to (4, 6).
+8. Move to (4, 5), push DOWN into Pit 2.
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Navigate to (11, 8).
