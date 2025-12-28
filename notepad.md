@@ -2,10 +2,10 @@
 - Attempt Start: Turn 28546 (Sunday, Dec 28, 4:26 AM).
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 - B1F Layout: Brown floor tiles are NOT slippery. Northern corridor (Rows 1-2) has ICE tiles.
-- Status: B1 at (11, 6). B2 at (5, 6). B3 and B4 locations unverified.
+- Status: B1 at (11, 6). B2 at (5, 6). B3 and B4 locations unverified (off-screen).
 
 ## Strategy: Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Stand at (11, 7).
+1. Position at (11, 7). (Done).
 2. Push UP to (11, 5).
 3. Move to (12, 5), push LEFT to (10, 5).
 4. Move to (10, 6), push UP to (10, 1).
@@ -23,7 +23,7 @@
 - FLOOR (Brown): Walkable, non-sliding.
 - ICE (B1F Rows 1-2): Sliding mechanic.
 - PIT: Warp to B2F. Filling a pit creates a stopper on B2F.
-- BOULDER: Boulders in pits do NOT reset. Boulders on floor reset on ladder use.
+- BOULDER: Boulders on floor reset on ladder use. Boulders in pits are permanent.
 - STRENGTH: Must be re-activated after battle or floor change. Verified.
 
 ## Encounters
@@ -38,6 +38,6 @@
 
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" was too broad; Row 1-2 ice tiles DO slide.
-- Mixed inputs in menus cause errors; use single actions or autopress.
-- "Boulder 1 is at (11, 7)" - Incorrect, it is at (11, 6).
 - "B3 and B4 are verified in pits" - Incorrect, presence only confirmed when on-screen.
+- "Boulder 1 is at (11, 7)" - Incorrect, it is at (11, 6).
+- "navigation_and_puzzle_solver" tool - Hallucinated, does not exist. Use built-in tools.
