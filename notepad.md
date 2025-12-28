@@ -14,7 +14,7 @@
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
 - Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
-- Verifying Eusine status in Cianwood City: Started Turn 27474.
+- Verifying Eusine status in Cianwood City: Started Turn 27474. (Current Turn: 27534)
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger.
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
@@ -37,8 +37,8 @@
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is segmented by walls and buoys. Surfing far east is required to bypass the buoy barrier and reach the northernmost edge.
-- Tool Hygiene: Fixed find_path_v8 to handle XML root being the Map element.
+- Navigation (Cianwood): The northern shore is reachable on foot by navigating around walls and rocks. The path involves going to X=8 or X=13 to bypass the Y=13 wall.
+- Tool Hygiene: Fixed find_path_v9 to handle Objects and Ledges.
 
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
