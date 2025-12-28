@@ -14,7 +14,9 @@
 ## Suicune Quest Logic
 - Clear Bell: Obtained.
 - Tower Shook Flag: Reported by Sage (Turn 27084).
-- Current Strategy: Checking Tin Tower 1F for Wise Trio and Suicune.
+- Current Strategy: Must complete sightings on Route 42 and Route 36 before Suicune appears at Tin Tower.
+- Next Trigger: Route 42 (26, 15) - Clearing with 3 Apricorn trees.
+- Following Trigger: Route 36.
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
