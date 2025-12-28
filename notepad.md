@@ -1,13 +1,7 @@
 # Current Status
-- **Status:** Navigating Victory Road (Backtracking to 3F).
-- **Location:** (13, 31) (2F East).
-- **Action:** Retaking ladder to 3F to find West path.
-- **Plan:**
-    1. Take ladder (13, 31) UP to 3F (13, 17).
-    2. Go East/North through gap at (16, 15) to Main Hub.
-    3. Go West along Row 10 to reach West Side 3F.
-    4. Find ladder on West Side to descend to 2F (West).
-    5. Find ladder to 1F (likely (1, 35)).
+- **Status:** Navigating Victory Road 1F to Exit.
+- **Location:** (2, 53) (1F West).
+- **Goal:** Reach Exit at (9, 67).
 
 # Victory Road Map Structure
 - **Vertical Layout:** Single map ID 3_91 contains all floors.
