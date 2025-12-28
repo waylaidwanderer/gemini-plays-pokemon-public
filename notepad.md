@@ -3,10 +3,10 @@
 - Strategy: Use boulders as stoppers to land on the central FLOOR strip.
 
 ## Boulder Stoppers (Confirmed)
-- Boulder 1: (11, 3)
-- Boulder 2: (4, 7)
-- Boulder 3: (3, 12)
-- Boulder 4: (12, 13)
+- Boulder 1: (11, 3). Status: Confirmed (Turn 29023).
+- Boulder 2: (4, 7). Status: Confirmed (Turn 29019).
+- Boulder 3: (3, 12). Status: To be verified.
+- Boulder 4: (12, 13). Status: Confirmed (Turn 29023).
 
 ## Sliding Sequence
 1. From (3, 17), move Right -> Slide to (16, 17).
