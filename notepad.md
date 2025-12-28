@@ -2,14 +2,14 @@
 - Goal: Fill all 4 pits with boulders in a single session.
 - Reset Trigger: Leaving floor (ladders or falling through pits).
 - Current Session: Started Turn 28986 (Returned from B2F).
-- Status: All 4 pits are currently EMPTY (verified by Game State Map Events).
-- Strength: ACTIVE (Activated Turn 28979).
+- Status: All 4 pits are currently EMPTY.
+- Strength: OFF (Lost on floor change).
 
 ## Boulder Search Status
 - Boulder 1: Checking (11, 7).
 - Boulder 2: Checking (7, 8).
 - Boulder 3: Checking (8, 9).
-- Boulder 4: Checking (17, 7).
+- Boulder 4: (17, 7) is EMPTY (Turn 28988).
 
 ## Strategy: DECISIVE ACTION
 1. Confirm boulder locations at (11, 7), (7, 8), (8, 9), (17, 7).
