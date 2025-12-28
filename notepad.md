@@ -106,3 +106,6 @@
 - Ran from Diglett (Box Full).
 - Navigating North towards Pewter City.
 - Path continues through (12, 17).
+- Dead end North at (12, 16).
+- Path forces West. Exploring towards (8, 17).
+- Note: East side (x>14) appears separated by a wall.
