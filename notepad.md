@@ -21,17 +21,11 @@
 - Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Reset floor via pit at (11, 2). [DONE]
-2. Move to (11, 8) via western corridor detour. [CURRENT]
-3. Push Up to (11, 5).
-4. Move to (12, 5).
-5. Push Left to (10, 5).
-6. Move to (10, 6).
-7. Push Up to (10, 1). (CRITICAL: Do not push to 10,0)
-8. Move to (9, 1) via (12, 1) detour.
-9. Push Right to (11, 1).
-10. Move to (11, 0).
-11. Push Down to (11, 2). [PIT]
+1. Push Boulder 1 DOWN to (11, 8). [CURRENT]
+2. Move to (12, 8).
+3. Push Boulder 1 LEFT to (10, 8) WALL to clear the path.
+4. Solve Boulders 2, 3, 4 in their respective quadrants.
+5. Push Boulder 1 back to (11, 8), then (12, 8), then UP to Row 2, then LEFT into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8).
