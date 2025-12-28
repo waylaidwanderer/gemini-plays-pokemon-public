@@ -1,13 +1,14 @@
 # Current Status
-- **Status:** On Route 5.
-- **Location:** (8, 17).
-- **Goal:** Walk North to Cerulean City.
-- **Action:** Navigating West around ledges, then North.
+- **Status:** On Route 5 (North End).
+- **Location:** (4, 0).
+- **Goal:** Enter Cerulean City.
+- **Action:** Walk North to exit Route 5.
 
 # Future Strategy
 1. Arrive in Cerulean City.
-2. Go North to Route 24/25.
-3. Find Misty at the Cape (East side of Route 25).
+2. Go North to Route 24 (Nugget Bridge).
+3. Continue East to Route 25 (The Cape).
+4. Find Misty.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
