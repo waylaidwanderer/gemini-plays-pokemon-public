@@ -95,7 +95,6 @@
 - Corridor seems to be columns 14-15.
 - Goal: Find the path to the western section or exit.
 - Catch Successful! Diglett caught (Lv 8).
-- Nicknaming: 'DOUG'.
+- Nickname: 'DOUG' (Confirmed).
 - CRITICAL: PC Box 1 is FULL (20/20). Must switch boxes at Pewter City PC.
-- Current Progress: [D] [O] [U] [G]
-- Action: Typing 'U', 'G'. Next: Confirm (Start -> A).
+- Next: Navigate North to exit cave -> Route 2 -> Pewter City.
