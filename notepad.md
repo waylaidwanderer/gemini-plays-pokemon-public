@@ -1,14 +1,20 @@
 # Current Status
-- **Status:** Backtracking from Victory Road 3F East.
-- **Location:** (14, 36) (In Battle).
-- **Action:** En route to Ladder (13, 31).
-- **Route:**
-    1. Jump Ledge (18, 35) to (18, 36) [Done].
-    2. Walk West to (13, 36) [In Progress].
-    3. Walk North to Ladder (13, 31).
-    4. Take Ladder to 2F.
-    5. On 2F, traverse to West Side (Column 1-3).
-- **Next:** Run from battle -> Continue to Ladder.
+- **Status:** Navigating Victory Road (Backtracking to 3F).
+- **Location:** (13, 31) (2F East).
+- **Action:** Retaking ladder to 3F to find West path.
+- **Plan:**
+    1. Take ladder (13, 31) UP to 3F (13, 17).
+    2. Go East/North through gap at (16, 15) to Main Hub.
+    3. Go West along Row 10 to reach West Side 3F.
+    4. Find ladder on West Side to descend to 2F (West).
+    5. Find ladder to 1F (likely (1, 35)).
+
+# Victory Road Map Structure
+- **Vertical Layout:** Single map ID 3_91 contains all floors.
+- **3F (Top):** Rows 0-23. East side has ladder (13, 17). Gap at (16, 15) connects East to Main.
+- **2F (Middle):** Rows 24-47. East side (13, 31) is isolated. West side has ladder (1, 35).
+- **1F (Bottom):** Rows 48-71. Ladder (1, 49) connects to 2F. Exit at (9, 67).
+- **Connection:** (13, 17) <-> (13, 31). This East path is a dead end on 2F. Must cross to West on 3F.
 
 # Lessons Learned
 - **Fly Map Navigation:** "Up" from Saffron City leads to Indigo Plateau, NOT Cerulean. Navigation logic is not a simple grid. **ALWAYS** read the destination text before confirming flight.
