@@ -48,7 +48,7 @@
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
-- **Current Status:** Standing at (5, 12). Lass Linda at (5, 11).
-- **Plan:** Dismiss dialogue. Check if Linda moves. If blocked, probe walls at (4, 12) and (6, 12). If those are real walls, backtrack to lobby.
-- **Hypothesis:** Path to Janine is likely behind Linda or through a fake wall.
+- **Current Status:** Standing at (5, 12). Lass Linda at (5, 11). Text box stuck open?
+- **Plan:** Press A to dismiss dialogue (B failed). Probe walls at (4, 12) and (6, 12) for fake tiles. If blocked, backtrack to lobby.
+- **Hypothesis:** Path to Janine is likely through a fake wall nearby.
 - **Gym Mechanics:** Invisible walls (Floor=Wall). Possibility of Fake Walls (Wall=Floor)?
