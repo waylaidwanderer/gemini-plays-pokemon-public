@@ -30,14 +30,14 @@
 - Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
 
 ## Capture Strategy (Suicune)
-- Suicune is a static encounter in Tin Tower (Crystal).
+- Suicune is a static encounter in Tin Tower (Crystal). 
 - Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
 - Items: 43 Great Balls, 1 Ultra Ball.
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is reachable by land via a western detour (X=2) to bypass the Y=15-18 walls, then heading north to Y=14, east to X=8, and north through the gap at (8, 13).
+- Navigation (Cianwood): The northern shore is reachable on foot via a western detour (X=2) to bypass the Y=15-18 walls, then heading north to Y=14, east to X=8, and north through the gap at (8, 13).
 - Tool Hygiene: Refined find_path_v9 to handle Objects, Ledges, Warps, and 'seen' tiles. Outdated tools deleted.
 
 ## Task Log
-- Verifying Eusine status in Cianwood City: Started Turn 27474. (Turn 27555: Currently surfing at (13, 18) heading for north shore via land detour).
+- Verifying Eusine status in Cianwood City: Started Turn 27474. (Turn 27557: Currently surfing at (14, 18) heading for north shore via land detour).
