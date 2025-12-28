@@ -1,8 +1,9 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Talked to Director (Gentleman). Dialogue confirms "With that thing, you can tune into...".
-   - *Issue:* EXPN Card NOT in Key Items list. Verifying with one more interaction.
-   - *Plan:* Verify Dialogue -> Exit Radio Tower -> Fly to Vermilion -> Battle Snorlax.
+   - *Status:* In Lavender Radio Tower. Dialogue was ambiguous ("With that thing...").
+   - *Issue:* EXPN Card NOT in Key Items list. "UP-GRADE" is for Porygon.
+   - *Hypothesis:* Either EXPN Card is a flag, or I haven't received it yet.
+   - *Plan:* Talk to Director again (A) -> Verify receipt -> Exit -> Fly Vermilion -> Tune Radio to 20 -> Wake Snorlax.
    - *Next:* Battle Snorlax -> Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
