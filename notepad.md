@@ -12,16 +12,16 @@
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
 
 # Suicune Quest Strategy (Crystal)
-- Quest Phase Start: Turn 27180
-- Key Items: Clear Bell (Acquired)
-- Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
-- Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
-- Route 36 Trigger: (35, 9) - Near the junction where Sudowoodo was.
-- Final Encounter: Tin Tower (Lv40) after all wild sightings and Wise Trio battle.
+- Sequence: Burned Tower -> Cianwood North Shore (Sighting + Eusine Battle) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
+- Prerequisite: Eusine must be defeated in Cianwood. (Status: Confirmed Defeated at Turn 27735).
+- Route 42 Trigger: (26, 15) - Step on this tile on foot.
+- Route 36 Trigger: (35, 9) - Step on this tile on foot.
+- Clear Bell: Required for Wise Trio to appear. (Status: Acquired).
 
-## Time Tracking
-- Suicune Quest Sequence: Started Turn 27180.
-- Route 42 Attempt 2: Started Turn 27756.
+## Quest Log
+- Sighting Attempt (Route 42): Started Turn 27756. 
+- Attempt 1 (R42): Turn 27718 (Failed, Eusine flag was unknown).
+- Attempt 2 (R42): Turn 27768 (Current).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
@@ -29,16 +29,12 @@
 - Sage Koji: Noctowl (32), Jolteon (32). Counter: GNEISS (Earthquake).
 
 ## Capture Strategy (Suicune)
-- Hypothesis: Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
-- Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
-- **CRITICAL RISK:** Xenon is severely underleveled. Suicune will likely outspeed and KO Xenon. Consider training or using items.
+- Hypothesis: Lv40 static encounter in Tin Tower.
+- Lead: XENON (Gastly) Lv21 (Hypnosis). Risk: Underleveled.
+- Plan: Use Night Shade for fixed damage, Hypnosis for status.
 - Items: 43 Great Balls, 1 Ultra Ball.
 
-## Lessons Learned
-- Suicune Quest (Crystal): Sages in Tin Tower 1F telling lore indicates progress. If they don't battle, a sighting is missing.
-- Gatehouse Sages: The Sage at (4, 6) only checks for the Clear Bell. The Sage at (7, 10) tracks Suicune sighting progress.
-- Flight Check: Always verify destination city before confirming Fly.
-- Wise Trio: Battle sequence is the final gate to Suicune in the Tin Tower.
-- Lesson: Suicune sightings are strictly sequential (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower). If sages don't battle at Tin Tower, verify previous sightings using the tracker. Trigger points must be stepped on directly.
-- Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
-- Hypothesis: Triggering Suicune on Route 42 requires stepping on (26, 15). If it fails, I will step on all surrounding tiles (25, 15), (27, 15), (26, 14), (26, 16).
+# Lessons Learned
+- Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
+- Tin Tower Sages: Dialogue change (tower shaking) indicates Clear Bell is recognized.
+- Fly Map (Johto): Horizontal layout. Use Left/Right to navigate cities. Corrected tool navigate_fly_map_v2 at Turn 27768.
