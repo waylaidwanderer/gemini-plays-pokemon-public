@@ -100,3 +100,6 @@
 - Deleting item marker.
 - Navigating to (13, 50) to cut the tree at (12, 50).
 - This should open the path West to Viridian City.
+- Facing Cut Tree at (12, 50).
+- Action: interacting to Cut it.
+- Expecting prompt to use CUT.
