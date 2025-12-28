@@ -18,13 +18,12 @@
 - Pit 1: (11, 2), Pit 2: (4, 7), Pit 3: (5, 12), Pit 4: (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. From B1F (17, 3), move to (16, 1) and slide Left to (0, 1).
-2. Walk south to (0, 16), then east to (11, 16), then north to (11, 8).
-3. Push Boulder 1 UP to (11, 5).
-4. Move to (12, 5) and push LEFT to (10, 5).
-5. Move to (10, 6) and push UP to (10, 1).
-6. Move to (9, 1) and push RIGHT to (11, 1).
-7. Move to (11, 0) and push DOWN into Pit 1.
+1. Detour to (11, 8) using B1F northern ice corridor. [CURRENT]
+2. Push Boulder 1 UP to (11, 5).
+3. Move to (12, 5) and push LEFT to (10, 5).
+4. Move to (10, 6) and push UP to (10, 1).
+5. Move to (9, 1) and push RIGHT to (11, 1).
+6. Move to (11, 0) and push DOWN into Pit 1.
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
 1. Move to (8, 8), push LEFT to (5, 8).
