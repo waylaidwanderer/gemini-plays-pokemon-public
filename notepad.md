@@ -58,3 +58,9 @@
 - **Battle Update:** Lapras survived the first Thunderpunch and used Rain Dance.
 - **Action:** Using Thunderpunch (Slot 2) again to finish it.
 - **Note:** Cursor should be on Slot 2 (Thunderpunch).
+- **Victory:** Defeated Misty! Received Cascade Badge.
+- **Badge Count:** 12 (8 Johto + Boulder, Thunder, Marsh, Cascade).
+- **Remaining Badges:** Soul (Fuchsia), Volcano (Seafoam), Earth (Viridian).
+- **Next Destination:** Fuchsia City (Soul Badge).
+- **Route:** Fly to Lavender/Celadon or walk? I have the Map card, I should check Fly points later.
+- **Misty Dialogue:** She mentioned traveling. No TM received yet? Checking dialogue.
