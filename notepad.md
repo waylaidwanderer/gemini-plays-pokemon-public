@@ -93,6 +93,6 @@
 - New Plan: Go South to Viridian City -> Switch PC Box -> Go North via West Route 2 -> Viridian Forest -> Pewter City.
 - Jumped ledges to (17, 48).
 - Found Item Ball at (14, 50).
-- Navigating to pick it up.
-- Area seems enclosed by walls to the South (Row 51).
-- Plan: Get item, then explore West to find the path to Viridian City.
+- Action: Picking up item.
+- Observation: West blocked by wall (Col 12). Cut Trees at (12, 46) & (12, 50).
+- Plan: Cut Tree at (12, 50) to proceed to Viridian.
