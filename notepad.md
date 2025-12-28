@@ -22,54 +22,41 @@
 
 # Exploration Plan: Ice Path B1F
 - Goal: Find all boulders and push them into pits to clear the path on B2F.
-- Step 1: Explore B1F to locate remaining boulders and pits. (In progress)
+- Step 1: Explore B1F to locate remaining boulders and pits. [DONE]
 - Step 2: Hypothesis: Boulders pushed into pits on B1F appear as stopping points on B2F. (Unverified)
-- Step 3: Use Strength to push boulders into pits.
+- Step 3: Use Strength to push boulders into pits. [In Progress]
 - Step 4: Find the ladder to B2F once the path is clear.
 - Start Turn: 28207.
 
 # Boulders & Pits Tracking (B1F)
-- Boulder 1: (11, 7) - Object ID 1
-- Boulder 2: (5, 6) - Object ID 2
-- Boulder 3: (9, 11) - Object ID 3
-- Boulder 4: (17, 7) - Object ID 4
+- Boulder 1: (11, 7) - ID 1
+- Boulder 2: (5, 6) - ID 2
+- Boulder 3: (7, 11) - ID 3
+- Boulder 4: (17, 7) - ID 4
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
 - Pit 3: (5, 12)
 - Pit 4: (12, 13)
-- Note: Found all 4 boulder/pit pairs. Ready to push!
-
-## Party
-- KIMCHI (Gloom): Lv 21.
-- ICARUS (Pidgey): Lv 16.
-- Calcifer (Typhlosion): Lv 45.
-- Ravioli (Krabby): Lv 10.
-- GNEISS (Graveler): Lv 44.
-- XENON (Gastly): Lv 21.
-
-## PC Box Status
-- ZUBAT (Sonar): Lv 22.
-- DELIBIRD (Parcel): Lv 21.
+- Note: Found all 4 boulder/pit pairs.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (9, 11) to Pit 3 (5, 12)
-1. Move to (10, 11) via (10, 13), (10, 12). [NEXT]
-2. Push Left 4 times to (5, 11).
-3. Move to (5, 10).
-4. Push Down to (5, 12) [Target: Pit 3].
+## Boulder 3 (7, 11) to Pit 3 (5, 12)
+1. Push Left 3 times to (4, 11).
+2. Move to (4, 10).
+3. Push Down to (4, 12).
+4. Move to (3, 12).
+5. Push Right to (5, 12) [Target: Pit 3].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
-1. Move to (6, 6).
+1. Move to (6, 6) via loop around top.
 2. Push Left to (4, 6).
 3. Move to (4, 5).
 4. Push Down to (4, 7) [Target: Pit 2].
 
 ## Boulder 1 (11, 7) to Pit 1 (11, 2)
-1. Push to (11, 5).
-2. Push Right to (12, 5).
-3. Push Up to (12, 2).
-4. Push Left to (11, 2) [Target: Pit 1].
+1. Move to (11, 8).
+2. Push Up 5 times to (11, 2) [Target: Pit 1].
 
 ## Boulder 4 (17, 7) to Pit 4 (12, 13)
-1. Explore eastern corridor to confirm path.
-2. Push to (18, 13) and then Left to (12, 13) [Target: Pit 4].
+1. Navigate via eastern corridor to (18, 13).
+2. Push Left to (12, 13) [Target: Pit 4].
