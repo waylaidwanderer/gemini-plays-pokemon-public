@@ -1,8 +1,10 @@
 # Tile Mechanics (Global)
-- FLOOR: Walkable.
+- FLOOR: Traversable.
 - WALL: Impassable.
+- PIT: Warp tile. Falling through takes you to the floor below.
+- LADDER: Warp tile. Used to travel between floors.
+- BOULDER: Object. Impassable. Can be pushed with Strength.
 - ICE: Sliding mechanic. Moving onto ICE causes player to slide until hitting a WALL, non-ICE tile, or BOULDER.
-- BOULDER: Stopper for sliding. 
 - ROCK: Destructible with ROCK SMASH.
 - FLOOR_UP_WALL: Impassable ledge face. Blocks N->S movement.
 - LEDGE_HOP_RIGHT: One-way jump West to East.
@@ -57,15 +59,8 @@
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
 
-# Blackthorn Gym Puzzle (2F) - Boulder 1
-- Observation: Boulder (ID 4) at (2, 3) and Boulder (ID 6) at (3, 3). Pit at (2, 5).
-- Goal: Push boulder at (2, 3) into pit at (2, 5).
-- Path to Reach (2, 2): (1, 3) -> (0, 3) -> (0, 13) -> (6, 13) -> (6, 7) -> (5, 7) -> (5, 1) -> (2, 1) -> (2, 2).
-- Obstacle: Cooltrainer F at (4, 11) and Cooltrainer M at (4, 1) block the path.
-- Strategy: Defeat trainers while navigating to the top of the room.
-
-# Blackthorn Gym Puzzle Progress
-- Boulder 4 (2, 3): Needs to go to Pit (2, 5). Reach from (2, 2) via Cody (4, 1) or complex path.
+# Blackthorn Gym Puzzle Progress (Started Turn 29238)
+- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2).
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
 - Boulder 3 (8, 2): Target is Pit (8, 3). Reach from (8, 1).
 - Boulder 7 (7, 1): Target is Pit (8, 7). Path: (7, 1) -> (9, 1) -> (9, 6) -> (8, 6) -> (8, 7).
@@ -74,3 +69,4 @@
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
 - Strategy: Solve eastern side first (Boulders 3 and 7), then re-evaluate western side access.
+- Current Status (Turn 29281): Boulder 7 at (7, 1). Pushing to (9, 1) to reach Boulder 3.
