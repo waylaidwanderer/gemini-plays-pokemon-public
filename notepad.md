@@ -30,15 +30,12 @@
 - SIGNPOST / POKECENTER_SIGN / MART_SIGN: Background object. Verified interactable.
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 
-# Exploration Plan: Ice Path 1F
-- Goal: Reach the exit to Route 44/Blackthorn City.
-- Step 1: Reach the eastern section via Row 8 gap at (16, 8). (Completed Turn 28191)
-- Step 2: Explore the NE floor "island" and ladder at (37, 5). (In progress, Start: 28196)
-- Step 3: Reach item at (31, 7) via Row 8/9 ice.
-  - HOW: Need to find a slide sequence to land on (30, 7) or adjacent FLOOR.
-- Step 4: Investigate the item at (32, 23).
-- Step 5: Find the ladder to B1F.
-- Start Turn: 28132.
+# Exploration Plan: Ice Path B1F
+- Goal: Reach the exit to Blackthorn City.
+- Step 1: Explore reachable areas of B1F to reveal the layout.
+- Step 2: Identify and solve sliding puzzles.
+- Step 3: Find the exit or ladder to the next section.
+- Start Turn: 28207.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
