@@ -29,6 +29,14 @@
 - Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
 - Items: 43 Great Balls, 1 Ultra Ball.
 
+## Lessons Learned
+- Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
+- Navigation (Cianwood): The northern shore is segmented by walls and buoys. Surfing far east is likely required to bypass the buoy barrier and reach the northernmost edge.
+
+## Task Log
+- Turn 27474: Started verifying Eusine's defeat in Cianwood.
+- Turn 27506: Attempting to bypass buoy barrier via eastern water route.
+
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
 2. Gatehouse (5, 3) [Ladder] -> Gatehouse (17, 15).
