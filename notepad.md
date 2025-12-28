@@ -1,9 +1,12 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* In Lavender Radio Tower. Radio Interface Open. Tuning to Max (20).
-   - *Insight:* Needle is at far right (~20). Functionality confirmed.
-   - *Plan:* Verify "POKe FLUTE" text -> Exit -> Fly to Vermilion -> Wake Snorlax.
-   - *Next:* Battle Snorlax -> Enter Diglett's Cave.
+   - *Status:* In Lavender Radio Tower. Testing Radio Card.
+   - *Problem:* Tuned to 20 but text was "TUNING".
+   - *Hypothesis:* Need to confirm if I have the EXPN Card functionality.
+   - *Test:* Tune Down (~20 presses) to find *any* Kanto station (e.g. 18.5 or 10.5).
+   - *If Station Found:* I have the card. Will tune back to 20 carefully.
+   - *If No Station:* I don't have the card. Must investigate Director/Quests.
+   - *Next:* Verify Card -> Tune to 20 -> Fly Vermilion -> Wake Snorlax.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Reflection (Turn 22538)
