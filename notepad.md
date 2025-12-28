@@ -22,7 +22,7 @@
 
 # Strategy: Gym Leader Clair (REVISED)
 - Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
-- Battle Strategy (Analyst Turn 29629):
+- Battle Strategy (Analyst Turn 29637):
   1. Lead GNEISS (Lv45). Use EARTHQUAKE vs Dragonairs.
   2. If first Dragonair uses Surf, switch to Calcifer to absorb and finish with RETURN.
   3. Use FULL HEALS immediately if paralyzed.
@@ -34,7 +34,7 @@
 - 2F Boulders (Initial Positions):
   - Boulder 6: (3, 3)
   - Boulder 7: (6, 1)
-  - Boulder 8: (8, 14) (To be verified)
+  - Boulder 8: (8, 14)
 - 2F Pits:
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
@@ -43,9 +43,11 @@
   - Gym reset. Starting puzzle from scratch.
   - Goal: Fill (2, 5) and (8, 3).
   - (7, 7) bridge is active. 
-  - Activating Strength at Boulder 6 (Turn 29636).- Layout Corrections:
+  - Strength active. (Turn 29637).
+- Layout Corrections:
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
+  - Row 13 passage at (4, 13) connects east/west sections.
 
 # Battle Lessons
 - Item Scarcity: Running out of Revives/Max Potions is lethal. Always stock up before major battles. (Turn 29510)
