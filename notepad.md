@@ -31,11 +31,17 @@
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 
 # Exploration Plan: Ice Path B1F
-- Goal: Reach the exit to Blackthorn City.
-- Step 1: Explore reachable areas of B1F to reveal the layout.
-- Step 2: Identify and solve sliding puzzles.
-- Step 3: Find the exit or ladder to the next section.
+- Goal: Find all boulders and push them into pits to clear the path on B2F.
+- Step 1: Explore reachable areas of B1F to locate boulders and pits.
+- Step 2: Use Strength to push boulders into the corresponding pits.
+- Step 3: Find the ladder to B2F once the path is clear.
 - Start Turn: 28207.
+
+# Boulders & Pits Tracking (B1F)
+- Boulder 1: (7, 8)
+- Pit 1: (4, 7)
+- Pit 2: (5, 12)
+- Note: Need to find more boulders/pits. Likely 4 total.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
