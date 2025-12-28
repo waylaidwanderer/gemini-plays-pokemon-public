@@ -9,14 +9,13 @@
 # Suicune Quest Strategy (Crystal)
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
+- Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
 - Key Items: Clear Bell (Acquired)
 
-## Suicune Quest Logic
-- Clear Bell: Obtained.
-- Tower Shook Flag: Reported by Sage (Turn 27084).
-- Current Strategy: Must complete sightings on Route 42 and Route 36 before Suicune appears at Tin Tower.
-- Next Trigger: Route 42 (26, 15) - Clearing with 3 Apricorn trees.
-- Following Trigger: Route 36.
+## Suicune Tracking Log
+- [ ] Route 42 Encounter: Target (26, 15) - Clearing with 3 Apricorn trees.
+- [ ] Route 36 Encounter: Target location TBD.
+- [ ] Tin Tower Battle: Triggered after wild sightings.
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
