@@ -85,3 +85,6 @@
 - **Progress:** Entered Fuchsia Gym (17_8).
 - **Goal:** Navigate the invisible walls (presumably) to reach Janine.
 - **Immediate:** Talk to Gym Guide for tips.
+- **Gym Mechanics:** Invisible walls. "Janine" lookalikes are trainers.
+- **Mapping:** Need to identify invisible walls by collision.
+- **Strategy:** Hug the right wall to start. Mark invisible walls as I find them.
