@@ -17,7 +17,7 @@
 - Topic: Boulder Sliding on Ice
 - Hypothesis: Boulders pushed onto ICE slide until hitting an obstacle.
 - Test: Push Boulder 3 (3, 12) UP from (3, 13) onto (3, 11) ICE.
-- Result: [PUSHING NOW]
+- Result: Attempting push (Turn 28733). Strength activation sequence: Start, Down*8, Up*5, A, Down*4, A, A, B*3, Up.
 
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" - Too broad; Row 1-2 ice tiles DO slide.
