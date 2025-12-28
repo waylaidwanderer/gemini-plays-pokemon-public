@@ -6,11 +6,13 @@
   2. Locate Fuchsia Gym.
   3. Defeat Janine.
 - **Turn:** 24231.
-- **Progress:** Checked Safari Zone Office (22, 13) - it is closed/empty. Now searching for Fuchsia Gym.
+- **Progress:** Checked Safari Zone Office (22, 13) - closed. Navigated to (6, 21). Crossing ledge to reach Gym.
 - **Time:** Sunday, December 28, 2025.
 
 # Fuchsia City Notes
 - **Safari Zone Office:** (22, 13). Empty.
+- **Gym Location:** (5, 29) Sign. Entrance likely nearby.
+- **Ledges:** Row 22 is passable (ledge).
 
 # Reflection (Turn 24197)
 - **Execution:** No tasks deferred. Progressing steadily.
