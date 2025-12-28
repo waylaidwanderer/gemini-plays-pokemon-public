@@ -19,13 +19,16 @@
 - Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 6) on 1F, Lola (9, 2) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 
-# Strategy: Challenge Clair
-- Status: Party fully healed.
-- Goal: Defeat Gym Leader Clair at (5, 3) on 1F.
-- Plan:
-  1. Navigate to (5, 4) on 1F.
-  2. Interact with Clair (5, 3).
-  3. Defeat Clair and obtain the Rising Badge.
+# Strategy: Gym Leader Clair
+- Roster: Dragonair (Lv37) x3, Kingdra (Lv40).
+- Dragonair Moves: Thunder Wave, Surf/Thunderbolt/Ice Beam, Slam, Dragonbreath.
+- Kingdra Moves: Surf, Dragonbreath, Smokescreen, Hyper Beam.
+- Battle Plan:
+  1. Lead with Calcifer. Use Thunderpunch vs Dragonairs (neutral damage, bypasses Fire resistance).
+  2. If paralyzed, use Full Heal or fodder swap.
+  3. Against Kingdra: Use Smokescreen 2-3 times to force misses on Surf/Hyper Beam.
+  4. Use Thunderpunch/Earthquake to finish Kingdra.
+  5. Use low-level PKMN as shields for healing/reviving.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: Mainland (Rows 12-17) and Island (Rows 2-10) are isolated on 1F.
