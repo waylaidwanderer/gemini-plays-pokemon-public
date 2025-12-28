@@ -123,3 +123,6 @@
 - Navigating to (3, 9) to continue North.
 - Navigating North along western corridor (cols 2-3).
 - Targeted destination: (3, 4) (currently unseen).
+- Found ladder at (3, 3) in western corridor.
+- This should be the exit to Route 2 (Pewter City side).
+- Box 1 is still full. Priority is PC.
