@@ -24,7 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23011)
-- **Status:** Inside Pewter Pokémon Center.
-- **Goal:** Heal team, then find Silver Wing man in East Pewter.
-- **Next:** Finish phone call, then talk to Nurse Joy.
+# Reflection (Turn 23020)
+- **Status:** In Pewter City (East).
+- **Goal:** Talk to the old man to get the Silver Wing.
+- **Next:** Approach and interact with Gramps at (30, 17). Then identify the house at (29, 13).
