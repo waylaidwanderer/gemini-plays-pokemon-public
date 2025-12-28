@@ -83,3 +83,9 @@
 - Pit (8, 7): Target for Boulder 7.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
 - Current Status (Turn 29302): On 1F (1, 7). Moving off and back onto the ladder to trigger the warp to 2F NW. [Time: Turn 29302]
+
+# Blackthorn Gym Wall Test (Turn 29305)
+- Observation: Tile (1, 2) is currently marked as WALL.
+- Hypothesis: (1, 2) is an impassable WALL tile.
+- Test: Move to (1, 3) and attempt to move UP into (1, 2).
+- Result: TBD. [Attempt 1]
