@@ -163,5 +163,17 @@
         "action_counter": 28591
       }
     ]
+  },
+  "activate_strength_gneiss": {
+    "description": "Navigates the menu to activate Strength using GNEISS (5th party member).",
+    "input_schema": {},
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\"]))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T12:43:17.561Z",
+        "action_counter": 28688
+      }
+    ]
   }
 }

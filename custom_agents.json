@@ -1,9 +1,1 @@
-{
-  "boulder_puzzle_expert": {
-    "agent_name": "boulder_puzzle_expert",
-    "agent_description": "Puzzle strategist for the 4-boulder puzzle in Ice Path B1F.",
-    "agent_system_prompt": "You are an expert at solving the Ice Path boulder puzzle in Pokemon Crystal. Given the positions of 4 boulders, 4 pits, and the player, provide a step-by-step plan and the immediate next move. Remember that corridors are narrow (width 1) and the player cannot walk past a boulder. Pushing a boulder into a pit removes it and creates a traversable tile on the floor below.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"boulders\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"id\",\"x\",\"y\"]}},\"pits\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"id\",\"x\",\"y\"]}},\"player\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"boulders\",\"pits\",\"player\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"plan\":{\"type\":\"string\"},\"next_move\":{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"navigate\",\"push\"]},\"target_x\":{\"type\":\"integer\"},\"target_y\":{\"type\":\"integer\"}},\"required\":[\"action\",\"target_x\",\"target_y\"]}},\"required\":[\"plan\",\"next_move\"]}"
-  }
-}
+{}

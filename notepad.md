@@ -6,7 +6,7 @@
 
 ## Strategy: Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Position at (11, 7). (Done).
-2. Push UP to (11, 5).
+2. Push UP to (11, 5). (Done).
 3. Move to (12, 5), push LEFT to (10, 5).
 4. Move to (10, 6), push UP to (10, 1).
 5. Move to (9, 1), push RIGHT to (11, 1).
@@ -30,6 +30,7 @@
 - Golbat (Lv25) at (5, 9).
 - Delibird at (7, 9).
 - Zubat at (12, 11).
+- Swinub (Lv24) at (15, 13).
 
 # Tracking & Verification
 - B2F Stoppers: P3 and P4 (Likely filled, but unverified).
@@ -39,5 +40,5 @@
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" was too broad; Row 1-2 ice tiles DO slide.
 - "B3 and B4 are verified in pits" - Incorrect, presence only confirmed when on-screen.
-- "Boulder 1 is at (11, 7)" - Incorrect, it is at (11, 6).
+- "Boulder 1 is at (11, 7)" - Incorrect, it was at (11, 6).
 - "navigation_and_puzzle_solver" tool - Hallucinated, does not exist. Use built-in tools.
