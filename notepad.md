@@ -37,5 +37,5 @@
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is reachable by surfing far east (X=23) to bypass the buoy barrier at Y=15, then looping back west.
-- Tool Hygiene: Fixed find_path_v9 to handle Objects, Ledges, and Warps. Outdated tools deleted.
+- Navigation (Cianwood): The northern shore is reachable by surfing far east (X=23) to bypass the buoy barrier at Y=15, then looping back west. Land routes are blocked by walls at Y=13 and Y=15.
+- Tool Hygiene: Refined find_path_v9 to handle Objects, Ledges, and Warps. Outdated tools deleted.
