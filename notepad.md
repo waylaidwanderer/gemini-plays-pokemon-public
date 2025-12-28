@@ -8,22 +8,20 @@
 - LEDGE_HOP_RIGHT: One-way jump West to East.
 - LEDGE_HOP_LEFT: One-way jump East to West.
 - LEDGE_HOP_DOWN: One-way jump North to South.
+- CAVE: Warp tile (Cave entrance).
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
 
-# Ice Path Exploration
-- Goal: Reach Blackthorn City.
+# Blackthorn City Exploration
+- Goal: Acquire the 8th Gym Badge from Clair.
 
-## Strategy (Exit to Blackthorn)
-1. Walk Down to (35, 16).
-2. Walk Right to (37, 16).
-3. Jump Down over ledge at (37, 17) to land on (37, 18) (ICE).
-4. Slide Down to stop at (37, 21) (Hits WALL at 37,22).
-5. Slide Left to stop at (34, 21) (Hits WALL at 33,21).
-6. Walk Down to (34, 22) (FLOOR).
-7. Navigate to exit mat at (36, 25) or (36, 27).
+## Strategy
+1. Jump down ledge at (36, 11).
+2. Locate and enter Pokemon Center to heal.
+3. Explore the city to find the Gym.
+4. Defeat Gym Leader Clair.
 
-## History (Archive)
-- B1F/B2F Puzzles: Solved.
-- TM44 Rest collected at (8, 16) on B2F (Turn 29075).
-- PP UP collected at (32, 23) on 1F (Turn 29116).
-- PROTEIN collected at (35, 9) on 1F (Turn 29124).
+# Ice Path (Completed)
+- Exit reached at (36, 27) on 1F.
+- TM44 Rest collected at (8, 16) on B2F.
+- PP UP collected at (32, 23) on 1F.
+- PROTEIN collected at (35, 9) on 1F.
