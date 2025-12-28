@@ -14,8 +14,8 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy
-1. Walk to (6, 5) via northern corridor: (2,2)->(3,2)->(3,1)->(6,1)->(6,5).
-2. Move Down from (6, 5) onto ICE (6, 6). Slide Down to stop on FLOOR at (6, 8).
+1. Walk to (9, 4) via northern corridor: (2,2)->(3,2)->(3,1)->(9,1)->(9,4).
+2. Slide Down from (9, 4) to stop on FLOOR at (9, 8).
 3. Walk to (5, 8).
 4. Jump West over ledge (4, 8) to (3, 8) (ICE). Player slides to (0, 8).
 5. Move Right from (0, 8) to slide to (3, 8).
