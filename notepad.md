@@ -35,3 +35,4 @@
 - Tin Tower Sages: Do not engage until wild sightings are confirmed in Pokedex or cutscene.
 - HM Usage: Whirlpool will be needed for Dragon's Den after the 8th Gym. Ensure a party member can learn it (Ravioli/Krabby can).
 - Fly Map Navigation: Cursor cycles through visited cities. Observe movement rather than geographic directions.
+- FLOOR_UP_WALL: Impassable barrier, likely representing the base of a building or fence. Verified impassable from above.
