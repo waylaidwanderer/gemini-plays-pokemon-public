@@ -22,12 +22,12 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (REVISED)
-- Status: Whited out Turn 29510. Party fully healed. Money halved (¥5942).
+- Status: Whited out Turn 29510. Party fully healed. Money: ¥5942.
 - Preparation:
-  1. Visit Mart (15, 29) to buy FULL HEALS and HYPER POTIONS.
-  2. Evaluate TM27 RETURN for Calcifer (happiness-based neutral physical damage).
+  1. Buy FULL HEALS and HYPER POTIONS at Mart (In Progress).
+  2. Teach TM27 RETURN to Calcifer.
 - Battle Plan:
-  1. Lead Calcifer. Use physical neutral moves (Return/Headbutt) vs Dragonairs.
+  1. Lead Calcifer. Use RETURN vs Dragonairs.
   2. Lower Kingdra accuracy with SMOKESCREEN immediately.
   3. Use GNEISS as secondary attacker with EARTHQUAKE.
 
