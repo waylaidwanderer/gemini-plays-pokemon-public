@@ -1,24 +1,29 @@
 # Tile Mechanics - Global
-- FLOOR: Standard walkable tile.
-- WALL: Impassable boundary.
-- WATER: Traversable only with Surf.
-- BUOY: Impassable boundary in water.
-- WARP_CARPET: Triggers map transition when walked off the map edge.
-- HEADBUTT_TREE: Blocking object; can be interacted with using Headbutt.
-- CUT_TREE: Blocking object; requires HM01 Cut and interaction from adjacent tile to remove.
-- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it.
-- CAVE: Map transition entry point.
-- TALL_GRASS: Walkable; triggers wild battles.
-- LEDGE_HOP_DOWN: One-way jump down; impassable from below.
+- FLOOR: Standard walkable tile. Verified traversable.
+- WALL: Impassable boundary. Verified impassable.
+- WATER: Traversable only with Surf. Verified traversable with HM03.
+- BUOY: Impassable boundary in water. Verified impassable.
+- WARP_CARPET: Triggers map transition when walked off the map edge. Verified functional.
+- HEADBUTT_TREE: Blocking object; can be interacted with using Headbutt. Verified impassable.
+- CUT_TREE: Blocking object; requires HM01 Cut. Verified impassable until cut. Regrows on map reload.
+- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it. Verified impassable.
+- CAVE: Map transition entry point. Verified functional.
+- TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
+- LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
+- FLOOR_UP_WALL: Collision type for walls that look like floor? Needs verification. (Present on Route 42).
 
 # Suicune Quest Strategy (Crystal)
 - Quest Phase Start: Turn 27180
-- Current Status: Confirmed missing sightings on Route 42 (26, 15) and Route 36 (35, 9) via Suicune Tracker. Flying to Mahogany Town to reach Route 42 trigger point.
+- Current Status: Suicune did not appear at Route 42 (26, 15). Consulting tracker for missing flags.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
 - Route 36 Trigger: (35, 9) - Near the junction where Sudowoodo was.
 - Final Encounter: Tin Tower (static battle) after all wild sightings and Wise Trio battle.
+
+## Time Tracking
+- Suicune Quest Sequence: Started Turn 27180.
+- Route 42 Attempt 1: Turn 27718 (Reached 26, 15 - No trigger).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
