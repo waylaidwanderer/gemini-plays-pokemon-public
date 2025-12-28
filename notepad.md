@@ -23,14 +23,12 @@
 2. Move to (12, 5). [DONE - T28362]
 3. Push Left to (10, 5). [DONE - T28363]
 4. Move to (10, 6). [DONE - T28367]
-5. Push Up to (10, 3). [DONE - T28371]
-6. Push Up to (10, 2). [DONE - T28372]
-7. Push Up to (10, 1). [DONE - T28373]
-8. Move to (10, 2). [NEXT]
-9. Loop to (9, 1).
-10. Push Right to (11, 1).
-11. Move to (11, 0).
-12. Push Down to (11, 2). [PIT]
+5. Push Up to (10, 1). [DONE - T28373]
+6. Move to (10, 2). [NEXT]
+7. Loop to (9, 1).
+8. Push Right to (11, 1).
+9. Move to (11, 0).
+10. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Move to (6, 6) via loop around top.
@@ -41,5 +39,6 @@
 # Current Status (B2F)
 - Accidentally fell through Pit 4 at (12, 13) on B1F.
 - Landed at (12, 12) on B2F.
-- Boulder 4 is at (12, 13) on B2F.
+- Boulder 3 is at (3, 12) on B2F (ID 3).
+- Boulder 4 is at (12, 13) on B2F (ID 4).
 - Goal: Return to B1F via ladder at (9, 11).
