@@ -15,34 +15,25 @@
 - FLOOR: Standard walkable tile. Verified traversable.
 - WALL: Impassable boundary. Verified impassable.
 - WATER: Traversable only with Surf (HM03). Verified traversable.
-- BUOY: Impassable boundary in water. Verified impassable.
-- WARP_CARPET: Triggers map transition. Verified functional.
-- HEADBUTT_TREE: Blocking; interact with Headbutt. Verified impassable.
-- CUT_TREE: Blocking; requires Cut (HM01). Verified impassable.
-- COUNTER: Impassable barrier; allows interaction with NPCs behind. Verified impassable.
-- CAVE: Map transition entry point. Verified functional.
-- TALL_GRASS / LONG_GRASS: Walkable; triggers wild battles. Verified traversable.
-- LEDGE_HOP_DOWN: One-way jump down. Verified impassable from below.
-- LEDGE_HOP_LEFT: One-way jump left. Verified impassable from right.
-- FLOOR_UP_WALL: Impassable barrier (base of buildings/fences). Verified impassable.
-- VOID: Impassable area outside map boundaries. Verified impassable.
-- SIGNPOST / POKECENTER_SIGN / MART_SIGN: Background object. Verified interactable.
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
+- PIT: Warp tile. Leads to floor below.
 
-# Exploration Plan: Ice Path B2F
-- Goal: Navigate the ice lake to reach the next section.
-- Step 1: Explore reachable areas of B2F and locate all pits/warps. (In progress)
+# Exploration Plan: Ice Path B1F
+- Goal: Find all boulders and push them into pits to clear the path on B2F.
+- Step 1: Explore B1F to locate remaining boulders and pits. (In progress)
 - Step 2: Hypothesis: Boulders pushed into pits on B1F appear as stopping points on B2F. (Unverified)
-- Step 3: Find the ladder to the next floor.
-- Start Turn: 28220.
+- Step 3: Use Strength to push boulders into pits.
+- Step 4: Find the ladder to B2F once the path is clear.
+- Start Turn: 28207.
 
 # Boulders & Pits Tracking (B1F)
-- Boulder 1: (7, 8)
-- Boulder 2: (11, 7)
-- Pit 1: (4, 7)
-- Pit 2: (5, 12)
-- Pit 3: (11, 2)
-- Note: Likely 4 total boulder/pit pairs based on typical Ice Path puzzles.
+- Boulder 1: (11, 7) - Object ID 1
+- Boulder 2: (7, 8) - Object ID 2
+- Boulder 3: (17, 7) - Object ID 4
+- Pit 1: (11, 2)
+- Pit 2: (4, 7)
+- Pit 3: (5, 12)
+- Note: Likely 4 total boulder/pit pairs. Need to find the 4th pair.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
