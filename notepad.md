@@ -47,3 +47,8 @@
 # Ice Path Exploration
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
 - Turn 28021: Entered Ice Path 1F.
+
+# Capture Strategy: Delibird
+- Target: Delibird (Lv 21, Male)
+- Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
+- Current Status: Switching to KIMCHI. (Turn 28024)
