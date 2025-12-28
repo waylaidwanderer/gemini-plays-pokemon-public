@@ -83,6 +83,7 @@
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
 
-- Snorlax Caught! Nicknaming 'PAVLOV'.
-- PC Box 1: 19/20 slots filled. Approaching capacity.
-- Next: Enter Diglett's Cave (Entrance at 34, 7).
+- Snorlax (PAVLOV) caught and sent to PC Box 1.
+- PC Box 1 Status: 19/20 slots. ONE slot remaining.
+- Next: Enter Diglett's Cave. Catch Diglett/Dugtrio if found (only 1 slot!).
+- Goal: Reach Pewter City to switch boxes.
