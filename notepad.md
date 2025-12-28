@@ -1,10 +1,10 @@
 # Current Status
 - **Location:** Celadon City (Outdoors).
-- **Goal:** Find and Defeat Erika (Rainbow Badge).
+- **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
-  1. Search Southern Celadon for the Gym (look for Cut trees).
-  2. Defeat Erika.
-  3. Explore rest of Celadon.
+  1. Heal at Pokemon Center.
+  2. Travel West to Cycling Road (Route 16/17).
+  3. Ride to Fuchsia City.
 
 # Celadon City Notes
 - **Game Corner:** (18, 19). Investigated. No Rocket Hideout found.
