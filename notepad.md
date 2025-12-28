@@ -31,4 +31,4 @@
 - Step 1: Explore north part of Row 14.
 - Step 2: Investigate the ice at X=32 and the item at (32, 23).
 - Step 3: Look for a ladder to B1F.
-- Status: Step 1 complete. Scanning for path to X=32. (Turn 28081)
+- Status: Exploring west reachable unseen tiles at X=24. (Turn 28086)
