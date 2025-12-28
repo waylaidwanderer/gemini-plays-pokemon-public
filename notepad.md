@@ -7,10 +7,16 @@
 - Pit 4 (12, 13): Empty.
 
 # Known Spawn Points (Verification Required)
-- Boulder 1: (11, 7)
-- Boulder 2: (7, 8)
-- Boulder 3: (8, 9)
-- Boulder 4: (17, 7)
+- Boulder 1: (11, 7) (Empty Turn 28940)
+- Boulder 2: (7, 8) (Empty Turn 28940)
+- Boulder 3: (8, 9) (Empty Turn 28919)
+- Boulder 4: (17, 7) (Empty Turn 28925)
+
+# Search Progress
+- Section 3 (Right): Checked (17, 7), empty.
+- Section 2 (Middle): Checked (11, 7), empty.
+- Section 1 (Left): Checked (8, 9) and (7, 8), empty.
+- Next: Search far west and southern corridors.
 
 # Tile Mechanics
 - FLOOR: Walkable.
