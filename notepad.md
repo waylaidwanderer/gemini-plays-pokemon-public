@@ -36,3 +36,4 @@
 - Gatehouse Sages: The Sage at (4, 6) only checks for the Clear Bell. The Sage at (7, 10) tracks Suicune sighting progress.
 - Flight Check: Always verify destination city before confirming Fly.
 - Wise Trio: Battle sequence is the final gate to Suicune in the Tin Tower.
+- Lesson: Suicune sightings are strictly sequential (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower). If sages don't battle at Tin Tower, verify previous sightings using the tracker. Trigger points must be stepped on directly.
