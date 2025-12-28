@@ -28,3 +28,5 @@
 - **Status:** Battling Firebreather Burt on Route 3.
 - **Goal:** Defeat Burt's Slugma.
 - **Next:** Use Strength on Slugma.
+- **Firebreather Burt:** Defeated on Route 3.
+- **Phone Call:** Wade called about Bug-Catching Contest at National Park.
