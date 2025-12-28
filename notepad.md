@@ -15,9 +15,10 @@
 
 # Blackthorn City Exploration
 - Strategy:
-  1. Defeat Gym Trainers for EXP [Current: Turn 29227]
-  2. Solve Gym Puzzle (2F/1F)
-  3. Defeat Gym Leader Clair.
+  1. Find the Blackthorn City Gym [Done: Turn 29225]
+  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
+  3. Solve Gym Puzzle (2F/1F)
+  4. Defeat Gym Leader Clair.
 
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29). Sign at (22, 29).
@@ -39,18 +40,20 @@
 
 # Current Battle: Cooltrainer Paul
 - Opponent: Cooltrainer Paul
-- Team: Dratini (Lv34)
+- Team: Dratini (Lv34) x3.
 - Strategy: Use Calcifer's Headbutt for neutral damage and flinch chance. Calcifer is much higher level and should 1-2HKO.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
-- Team (Crystal): Dragonair (Lv37) x3, Kingdra (Lv40).
-- Party Status: Calcifer (Lv45), Gneiss (Lv44) are main fighters. Others are underleveled (Lv10-21).
+- Team (Crystal): 
+  - Dragonair (Lv37): Dragonbreath, Surf, Thunder Wave, Slam.
+  - Dragonair (Lv37): Dragonbreath, Ice Beam, Thunder Wave, Slam.
+  - Dragonair (Lv37): Dragonbreath, Thunderbolt, Thunder Wave, Slam.
+  - Kingdra (Lv40): Dragonbreath, Surf, Smokescreen, Hyper Beam.
+- Party Status: Calcifer (Lv46), Gneiss (Lv44) are main fighters. Others are underleveled (Lv10-21).
 - Battle Strategy (battle_analyst_v2 - Verified):
   - Lead with Calcifer.
-  - Dragonairs use Dragonbreath, Surf, Ice Beam, Thunderbolt, and Thunder Wave.
   - Gneiss is immune to Thunderbolt, but 4x weak to Surf and 2x weak to Ice Beam. Use with extreme caution.
-  - Kingdra uses Dragonbreath, Surf, Smokescreen, and Hyper Beam.
   - Strategy: Chip away at Kingdra with Calcifer. Switch to Gneiss to tank Hyper Beam (Rock resists Normal), then use recharge turn to attack or switch. Use others as fodder for safe switching/healing.
 
 # History (Archive)
