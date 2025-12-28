@@ -2,7 +2,7 @@
 - **Status:** On Route 25 (Maze Area).
 - **Location:** (15, 9).
 - **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Manually crossing column 31 (Pat's LOS) to (32, 8).
+- **Action:** Walking East on Row 8 to pass Defeated Cooltrainer Kevin at (37, 8).
 - **Next:** Continue to Bill's House (47, 6).
 
 # Quest Logic (Cascade Badge)
