@@ -69,3 +69,4 @@
 - Attempt 2: Use Row 16 (all FLOOR) to reach the left side, then head north. [Turn 29240]. Conclusion: Failed. NPC at (1, 15) blocks the path.
 - Attempt 3: Move to Column 0 (clear of NPCs), then head north to Row 8/7. [Turn 29241]
 - Path: (1, 16) -> (0, 16) -> (0, 8) -> (0, 7).
+- Attempt 4: Use the ladder at (1, 7) or (2, 6) to reach 2F. [Turn 29242]
