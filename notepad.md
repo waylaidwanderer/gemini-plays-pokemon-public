@@ -19,7 +19,15 @@
 # Strategies
 ## Fill Pit 1 (11, 2) with Boulder 1 (11, 5)
 1. Navigate to (11, 6).
-2. Push UP twice into Pit 1 (11, 2).
+2. Push LEFT to (10, 5). (Player at 11, 5).
+3. Move to (10, 6).
+4. Push UP to (10, 3). (Player at 10, 4).
+5. Move to (9, 3).
+6. Push RIGHT to (12, 3). (Player at 11, 3).
+7. Move to (12, 4).
+8. Push UP to (12, 2). (Player at 12, 3).
+9. Move to (13, 2) (via Row 1).
+10. Push LEFT into Pit 1 (11, 2). (Player at 12, 2).
 
 ## Fill Pit 3 (5, 12) with Boulder 3 (8, 9)
 1. Navigate to (9, 9).
