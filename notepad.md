@@ -18,26 +18,23 @@
 - Puzzle Start Turn: 28207.
 
 # Boulders & Pits Tracking (B1F)
-- Boulder 1: (11, 7) - ID 1 (Status: Stationary)
-- Boulder 2: (5, 6) - ID 2 (Status: Stationary)
-- Boulder 4: (18, 7) - ID 4 (Status: In Transit)
-- Pit 1: (11, 2) (Target for Boulder 1)
-- Pit 2: (4, 7) (Target for Boulder 2)
-- Pit 4: (12, 13) (Target for Boulder 4)
-- Pit 3 (5, 12): COMPLETED with Boulder 3.
+- Boulder 1: (11, 7) - ID 1 (Stationary)
+- Boulder 2: (5, 6) - ID 2 (Stationary)
+- Boulder 4: (18, 8) - ID 4 (In Transit)
+- Pit 1: (11, 2) (Target: Boulder 1)
+- Pit 2: (4, 7) (Target: Boulder 2)
+- Pit 4: (12, 13) (Target: Boulder 4)
+- Pit 3 (5, 12): COMPLETED
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 4 (18, 7) to Pit 4 (12, 13)
-1. Move to (16, 7). [DONE]
-2. Push Right to (18, 7). [DONE]
-3. Move to (18, 6). [DONE]
-4. Push Down 5 times to (18, 12). [NEXT]
-5. Move to (19, 12).
-6. Push Left 3 times to (15, 12).
-7. Move to (15, 11).
-8. Push Down to (15, 13).
-9. Move to (16, 13).
-10. Push Left 3 times to (12, 13) [Target: Pit 4].
+## Boulder 4 (18, 8) to Pit 4 (12, 13)
+1. Push Down to (18, 12). [NEXT]
+2. Move to (19, 12).
+3. Push Left 3 times to (15, 12).
+4. Move to (15, 11).
+5. Push Down to (15, 13).
+6. Move to (16, 13).
+7. Push Left 3 times to (12, 13) [Target: Pit 4].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (5, 5).
