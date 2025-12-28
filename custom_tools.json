@@ -140,10 +140,9 @@
       }
     ]
   },
-  "solve_gym_puzzle": {
-    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle using persistent Mental Map data. Returns a list of buttons.",
+  "solve_gym_puzzle_v3": {
+    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle using persistent Mental Map data. Handles player movement and boulder pushing. Returns a JSON array of buttons.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "start_x": {
           "type": "integer"
@@ -155,54 +154,15 @@
       "required": [
         "start_x",
         "start_y"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef run():\n    try:\n        root = ET.fromstring(map_xml_string)\n        map_elem = root if root.attrib.get('id') == '5_2' else root.find(\".//Map[@id='5_2']\")\n        \n        passable = set()\n        pits = set()\n        boulders = {}\n        walls = set()\n        \n        for row in map_elem.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t = tile.attrib['type']\n                \n                # TEST HYPOTHESIS: Row 0 is passable floor (silver blocks)\n                if y == 0:\n                    passable.add((x, y))\n                    continue\n\n                if t in ('FLOOR', 'LADDER'): passable.add((x, y))\n                if t == 'PIT': pits.add((x, y))\n                if t == 'WALL': walls.add((x, y))\n                \n                obj = tile.find('Object')\n                if obj is not None:\n                    n = obj.attrib.get('id-name', '').upper()\n                    oid = int(obj.attrib.get('id', 0))\n                    if 'BOULDER' in n: boulders[oid] = (x, y)\n                    elif 'COOLTRAINER' in n or 'NPC' in n: walls.add((x, y))\n                \n                for marker in tile.findall('Marker'):\n                    l = marker.text.upper()\n                    if 'BOULDER' in l:\n                        oid = int(marker.attrib.get('object_id', 99))\n                        if oid not in boulders: boulders[oid] = (x, y)\n                    elif 'DEFEATED' in l: walls.add((x, y))\n\n        start_p = (int(input_data['start_x']), int(input_data['start_y']))\n        start_b = tuple(sorted(boulders.values()))\n        start_pits = tuple(sorted(pits))\n        \n        queue = collections.deque([(start_p, start_b, start_pits, [])])\n        visited = { (start_p, start_b, start_pits) }\n        \n        count = 0\n        while queue:\n            cp, cb_t, cpits_t, path = queue.popleft()\n            if len(cpits_t) == 0:\n                print(json.dumps(path))\n                return\n            \n            if len(path) > 300: continue\n            count += 1\n            if count > 300000: break\n\n            cb_l = list(cb_t)\n            cpits_s = set(cpits_t)\n            for dx, dy, btn in [(0,-1,'Up'), (0,1,'Down'), (-1,0,'Left'), (1,0,'Right')]:\n                nx, ny = cp[0]+dx, cp[1]+dy\n                if (nx, ny) in cb_l:\n                    bx, by = nx+dx, ny+dy\n                    if (bx, by) in (passable | cpits_s) and (bx, by) not in cb_l and (bx, by) not in walls:\n                        nb = [b for b in cb_l if b != (nx, ny)]\n                        npits = set(cpits_s)\n                        if (bx, by) in cpits_s:\n                            npits.remove((bx, by))\n                        else:\n                            nb.append((bx, by))\n                        \n                        nt_b = tuple(sorted(nb))\n                        nt_p = tuple(sorted(npits))\n                        state = (nx, ny, nt_b, nt_p)\n                        if state not in visited:\n                            visited.add(state)\n                            queue.append(((nx, ny), nt_b, nt_p, path + [btn]))\n                elif (nx, ny) in passable and (nx, ny) not in walls:\n                    state = (nx, ny, cb_t, cpits_t)\n                    if state not in visited:\n                        visited.add(state)\n                        queue.append(((nx, ny), cb_t, cpits_t, path + [btn]))\n        print(json.dumps({\"error\": \"No solution found even with Row 0 passable\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nrun()\n",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        passable = set()\n        pits = set()\n        boulders = {}\n        \n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                if t_type in ['FLOOR', 'LADDER', 'ICE']:\n                    has_obj = tile.get('has-object') == 'true'\n                    if has_obj:\n                        obj = tile.find('Object')\n                        if obj is not None and obj.get('id-name') == 'BOULDER':\n                            boulders[int(obj.get('id'))] = (x, y)\n                        else:\n                            continue\n                    passable.add((x, y))\n                elif t_type == 'PIT':\n                    pits.add((x, y))\n\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        \n        def solve_one(b_id, current_boulders, p_pos):\n            bx, by = current_boulders[b_id]\n            others = {pos for id, pos in current_boulders.items() if id != b_id}\n            q = deque([(bx, by, p_pos[0], p_pos[1], [])])\n            v = set([(bx, by, p_pos[0], p_pos[1])])\n            while q:\n                cbx, cby, cpx, cpy, path = q.popleft()\n                if (cbx, cby) in pits: return path\n                if len(path) > 150: continue\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    npx, npy = cpx + dx, cpy + dy\n                    if 0 <= npx < width and 0 <= npy < height and (npx, npy) in passable and (npx, npy) not in others:\n                        if (npx, npy) == (cbx, cby):\n                            nbx, nby = cbx + dx, cby + dy\n                            if 0 <= nbx < width and 0 <= nby < height and ((nbx, nby) in passable or (nbx, nby) in pits) and (nbx, nby) not in others:\n                                if (nbx, nby, npx, npy) not in v:\n                                    v.add((nbx, nby, npx, npy))\n                                    btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                    q.append((nbx, nby, npx, npy, path + [btn]))\n                        else:\n                            if (cbx, cby, npx, npy) not in v:\n                                v.add((cbx, cby, npx, npy))\n                                btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                q.append((cbx, cby, npx, npy, path + [btn]))\n            return None\n\n        for b_id in boulders:\n            path = solve_one(b_id, boulders, (start_x, start_y))\n            if path:\n                print(json.dumps(path))\n                return\n        print(json.dumps({\"error\": \"No solution found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-28T22:28:24.749Z",
-        "action_counter": 29623
-      },
-      {
-        "commit_message": "Increase search depth and ensure filled pits are treated as floor.",
-        "timestamp": "2025-12-28T22:30:10.927Z",
-        "action_counter": 29626
-      },
-      {
-        "commit_message": "Refine BFS logic: handle filled pits correctly, include marker-based objects, and increase search depth.",
-        "timestamp": "2025-12-28T22:30:37.058Z",
-        "action_counter": 29627
-      },
-      {
-        "commit_message": "Refine BFS logic to solve the Blackthorn Gym boulder puzzle from a reset state, correctly identifying all three target pits and boulders.",
-        "timestamp": "2025-12-28T22:38:49.016Z",
-        "action_counter": 29642
-      },
-      {
-        "commit_message": "Refine logic to solve for all 3 boulders and 3 pits from the reset state.",
-        "timestamp": "2025-12-28T22:46:55.372Z",
-        "action_counter": 29657
-      },
-      {
-        "commit_message": "Fix success condition (len(cb_t) == 0) and increase search depth for 3-boulder solution.",
-        "timestamp": "2025-12-28T22:47:29.978Z",
-        "action_counter": 29659
-      },
-      {
-        "commit_message": "Implement robust BFS for 3-boulder puzzle with dynamic map parsing and state tracking for pits.",
-        "timestamp": "2025-12-28T22:49:00.589Z",
-        "action_counter": 29660
-      },
-      {
-        "commit_message": "Refine BFS logic: properly track remaining pits and boulder positions, increase search limit to 500k states, and handle all three boulders.",
-        "timestamp": "2025-12-28T22:51:55.385Z",
-        "action_counter": 29662
-      },
-      {
-        "commit_message": "Refine BFS logic to test Row 0 passability hypothesis and handle all three boulders/pits from current position.",
-        "timestamp": "2025-12-28T22:52:53.124Z",
-        "action_counter": 29663
+        "timestamp": "2025-12-28T23:28:51.968Z",
+        "action_counter": 29702
       }
     ]
   }
