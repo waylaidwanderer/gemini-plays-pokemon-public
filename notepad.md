@@ -1,6 +1,6 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Taking Radio Quiz. Q1: Morning (Yes). Q2: Berry (Yes). Q3: HM01 Flash (No).
+   - *Status:* Taking Radio Quiz. Q1: Morning (Yes). Q2: Berry (Yes). Q3: Flash (No). Q4: Falkner (Yes).
    - *Plan:* Get Radio Card (Quiz) -> Fly Lavender (Expansion) -> Fly Vermilion (Wake Snorlax).
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
