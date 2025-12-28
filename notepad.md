@@ -1,5 +1,5 @@
 # Current Status
-- **Location:** Celadon City (Outdoors).
+- **Location:** Celadon City (Pokemon Center).
 - **Goal:** Travel to Fuchsia City (Soul Badge).
 - **Plan:**
   1. Heal at Pokemon Center.
