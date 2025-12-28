@@ -29,14 +29,7 @@
 - Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
 
 ## Capture Strategy (Suicune)
-- Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
+- Hypothesis: Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
 - Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
 - **CRITICAL RISK:** Xenon is severely underleveled (Lv21 vs Lv40). Suicune will likely outspeed and KO Xenon before Hypnosis can be used. Consider training a faster/bulkier sleep inducer or using items to boost speed.
 - Items: 43 Great Balls, 1 Ultra Ball.
-
-## Lessons Learned
-- Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers.
-- Event Verification: If Eusine is missing from the Cianwood beach after Suicune flees, the battle flag is likely set.
-- Navigation: Entering water costs 3 actions (Face/A, Confirm A, Move).
-- Tool Hygiene: find_path_v9/v10 refined to handle trees and surfing.
-- COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it.
