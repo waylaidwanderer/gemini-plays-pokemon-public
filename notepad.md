@@ -40,3 +40,4 @@
 - "B1F floor tiles do NOT slide" (Failed Turn 28160) - Row 1-2 tiles observed to slide.
 - "Boulder 3 on B2F is moveable" (Failed Turn 28742) - "Immovably imbedded in ice."
 - "B3 is unreachable from entry (4, 17)" (Failed Turn 28650) - Reached via (3, 17) FLOOR.
+- **Navigation Safety:** Warps (Ladders/Stairs) trigger immediately upon stepping. Avoid including them in path plans unless the intention is to change floors.
