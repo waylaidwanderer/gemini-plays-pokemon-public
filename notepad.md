@@ -14,9 +14,9 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy (B1F Southern Section)
-1. Walk West along Row 30 to explore unseen area: (11, 30) -> (7, 30) -> (6, 30).
-2. Locate the exit ladder to 1F.
+1. Navigate to (3, 26) via (5, 27) to avoid walls.
+2. Explore the western unseen area (Columns 0-2) to find the exit ladder to 1F.
 
 ## Hypotheses
-- The exit to 1F is in the southern floor area (Row 30+).
+- The exit to 1F is in the western part of this B1F section (near Row 26-30).
 - TM44 Rest was at (8, 16) on B2F. Verified.
