@@ -1,9 +1,14 @@
 # Current Status
-- **Status:** Back in Victory Road (North Entrance).
-- **Situation:** Flew to Indigo Plateau by mistake (navigation error on Fly map). Route 23 is No-Fly Zone.
-- **Task:** Must re-traverse Victory Road South to reach Route 26/22 to Fly.
-- **Route:** (13, 6) -> (13, 17) Ladder -> (13, 31) -> (1, 35) Ladder -> (1, 49) -> (9, 67) Exit.
-- **Next:** Reach Route 26 -> Fly to Cerulean (Carefully check destination!).
+- **Status:** Back in Victory Road (Section 2 - Dead End).
+- **Situation:** Took Ladder at (13, 17) to (13, 31), which is a dead end.
+- **Correction:** Must use Ladder at (17, 19) instead.
+- **Correct Route:**
+    1. Warp back: (13, 31) -> (13, 17).
+    2. Walk to (17, 19) -> Warp to (17, 33).
+    3. Jump Ledge at (16, 35) -> Walk West to x=1 -> Walk North to (1, 35).
+    4. Warp (1, 35) -> (1, 49).
+    5. Walk South to Exit (9, 67).
+- **Next:** Step off/on ladder to warp back -> Navigate to (17, 19).
 - **Quest Start:** Turn 23264 (Find Misty).
 
 # Strategic Goals
