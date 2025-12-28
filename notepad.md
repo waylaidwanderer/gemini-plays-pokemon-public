@@ -22,12 +22,13 @@
 - Pit 4 (12, 13): COMPLETED.
 
 ## Boulder 1 Sequence (ID 1)
-- Boulder currently at (10, 5).
-5. Push Up to (10, 1).
-6. Move to (9, 1).
-7. Push Right to (11, 1).
-8. Move to (11, 0).
-9. Push Down to (11, 2). [PIT]
+- Boulder currently at (10, 2).
+1. Move to (10, 3).
+2. Push Up to (10, 1).
+3. Move to (9, 1).
+4. Push Right to (11, 1).
+5. Move to (11, 0).
+6. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
 1. Push Left to (5, 8).
@@ -40,10 +41,11 @@
 
 # Current Status (B1F)
 - Boulders reset due to floor exit at Turn 28385.
-- Boulder 1 (ID 1) is at (10, 5).
-- Boulder 2 (ID 2) is at (7, 8).
+- Boulder 1 (ID 1) is at (10, 2).
+- Boulder 2 (ID 2) is at (5, 8).
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
 - If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
+- Time Tracking: Boulder puzzle started Turn 28207.
