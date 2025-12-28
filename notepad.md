@@ -97,5 +97,5 @@
 - Catch Successful! Diglett caught (Lv 8).
 - Nicknaming: 'DOUG'.
 - CRITICAL: PC Box 1 is FULL (20/20). Must switch boxes at Pewter City PC.
-- Current Progress: [D] [O] [ ] [ ]
-- Action: Typing 'D', 'O'. Next: 'U', 'G'.
+- Current Progress: [D] [O] [U] [G]
+- Action: Typing 'U', 'G'. Next: Confirm (Start -> A).
