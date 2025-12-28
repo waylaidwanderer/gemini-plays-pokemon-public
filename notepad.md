@@ -1,8 +1,8 @@
-# Reflection (Turn 23212)
-- **Status:** Left Cerulean Gym.
-- **Goal:** Head North to Route 24/25.
-- **Gym Status:** Empty. Misty is likely at the Cape.
-- **Next:** Navigate through the city to the North Bridge (Route 24).
+# Reflection (Turn 23214)
+- **Status:** In Cerulean City, moving to Route 24.
+- **Goal:** Cross Nugget Bridge (Route 24) to reach the Cape.
+- **Correction:** Previous path blocked by buildings at (6, 15). Rerouting East to the main road (column 20) then North.
+- **Next:** Navigate to (21, 0).
 
 # Strategic Goals
 1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25).
