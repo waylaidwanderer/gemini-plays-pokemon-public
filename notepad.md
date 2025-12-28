@@ -34,8 +34,8 @@
 - Navigation (Cianwood): The northern shore is segmented by walls and buoys. Surfing far east is likely required to bypass the buoy barrier and reach the northernmost edge.
 
 ## Task Log
-- Turn 27474: Started verifying Eusine's defeat in Cianwood.
-- Turn 27506: Attempting to bypass buoy barrier via eastern water route.
+- Turn 27474: Started verifying Eusine's defeat in Cianwood. (Timestamp: Turn 27474)
+- Turn 27511: Fixing pathfinding tool and continuing to bypass buoy barrier via eastern water route.
 
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
