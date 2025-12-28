@@ -30,8 +30,8 @@
 ## Boulder 4 (18, 7) to Pit 4 (12, 13)
 1. Move to (16, 7). [DONE]
 2. Push Right to (18, 7). [DONE]
-3. Move to (18, 6). [NEXT]
-4. Push Down 5 times to (18, 12).
+3. Move to (18, 6). [DONE]
+4. Push Down 5 times to (18, 12). [NEXT]
 5. Move to (19, 12).
 6. Push Left 3 times to (15, 12).
 7. Move to (15, 11).
