@@ -23,7 +23,7 @@
 
 ## Boulder 1 Sequence (ID 1)
 - Boulder currently at (10, 1).
-1. Move to (9, 1). [NEXT]
+1. Move to (9, 1).
 2. Push Right to (11, 1).
 3. Move to (11, 0).
 4. Push Down to (11, 2). [PIT]
@@ -47,8 +47,8 @@
 
 ## Swap Progress (KIMCHI <-> Calcifer)
 - Goal: Put Calcifer in Slot 1.
-1. Move to KIMCHI in Slot 1. [DONE - T28455]
-2. Select KIMCHI (verify highlight/blinking). [NEXT]
+1. Open sub-menu for KIMCHI. [DONE]
+2. Select SWITCH option. [NEXT]
 3. Move to Calcifer in Slot 3.
 4. Select Calcifer to swap (verify swap).
 5. Exit menu.
