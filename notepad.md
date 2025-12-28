@@ -1,15 +1,14 @@
 # Current Status
-- **Status:** Inside Victory Road Gate.
-- **Location:** (9, 1).
+- **Status:** Exiting Victory Road Gate.
+- **Location:** (8, 5).
 - **Goal:** Exit South to Route 26.
-- **Action:** Talk to Black Belt, then walk South past Officer.
+- **Action:** Walk South through the gate.
 
-# Future Strategy (Post-Victory Road)
-1. Enter Gatehouse.
-2. Exit to Route 22/26.
-3. Fly to Cerulean City.
-4. Go North to Route 24/25.
-5. Find Misty at the Cape.
+# Future Strategy (Post-Gate)
+1. Exit to Route 26.
+2. Fly to Cerulean City.
+3. Go North to Route 24/25.
+4. Find Misty at the Cape.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
