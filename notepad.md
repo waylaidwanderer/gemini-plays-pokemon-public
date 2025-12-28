@@ -32,8 +32,8 @@
 
 # Exploration Plan: Ice Path B2F
 - Goal: Navigate the ice lake to reach the next section.
-- Step 1: Explore reachable areas of B2F.
-- Step 2: Identify if boulders from B1F are needed to progress.
+- Step 1: Explore reachable areas of B2F and locate all pits/warps. (In progress)
+- Step 2: Hypothesis: Boulders pushed into pits on B1F appear as stopping points on B2F. (Unverified)
 - Step 3: Find the ladder to the next floor.
 - Start Turn: 28220.
 
@@ -43,7 +43,7 @@
 - Pit 1: (4, 7)
 - Pit 2: (5, 12)
 - Pit 3: (11, 2)
-- Note: Boulders pushed into these pits will appear as obstacles on B2F.
+- Note: Likely 4 total boulder/pit pairs based on typical Ice Path puzzles.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
