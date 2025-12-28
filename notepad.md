@@ -1,12 +1,9 @@
 # Strategic Goals
-1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Interaction active. Radio tuned.
-   - *Action:* Press A to advance text. Snorlax should wake up.
-   - *Battle Strategy:*
-     - **Lead:** Muscle (Machoke Lv75).
-     - **Chip:** Thunderpunch (aim for Paralysis). Avoid Cross Chop (OHKO).
-     - **Catch:** Ultra Ball (x21).
-   - *Next:* Enter Diglett's Cave.
+1. **Wake Snorlax:** Needs Poke Flute (EXPN Card) & Power.
+   - *Status:* FAILED. Missing EXPN Card.
+   - *Diagnosis:* GameState does NOT list 'EXPN CARD' in Key Items. Summary might be misleading.
+   - *Correction:* Fly to Lavender Town -> Talk to Director -> Get EXPN Card -> Return.
+   - *Next:* Fly to Lavender Town.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Mechanics & Discoveries
