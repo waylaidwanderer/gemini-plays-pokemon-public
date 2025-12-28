@@ -32,18 +32,18 @@
 
 # Ice Path Exploration
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
+- Observed: Sliding on ICE stops when hitting a WALL or entering a non-ICE tile (like FLOOR).
+- Observed: Gap in the wall at (16, 8) and (16, 9) allows access to the eastern section from the central ice lake.
 - Observed: (13, 17) -> (15, 17) via Right. Blocked by WALL at (16, 17).
 - Observed: (15, 17) -> (15, 21) via Down. Blocked by WALL at (15, 22).
-- Observed: (15, 21) -> (19, 21) via Right. Blocked by WALL at (20, 21).
-- Observed: (19, 21) -> (19, 23) via Down. Blocked by FLOOR_UP_WALL at (19, 24).
-- Lesson: In menus, ALWAYS separate directional inputs from action inputs into separate turns.
 
 # Exploration Plan: Ice Path 1F
-- Goal: Reveal unseen tiles and find the path to the exit.
-- Step 1: Reach the western area via (15, 13) -> (2, 13). (In progress)
-- Step 2: Investigate the ice at X=32 and the item at (32, 23).
-- Step 3: Look for a ladder to B1F.
-- Status: Sliding west. (Turn 28141)
+- Goal: Reach the exit to Route 44/Blackthorn City.
+- Step 1: Reach the eastern section via Row 8 gap: (15, 7) -> (2, 7) [Left], then (2, 8) [Down], then (16, 8) [Right]. (In progress)
+- Step 2: Explore the north-east area (Row 3-6, Col 17-25).
+- Step 3: Investigate the ice at X=32 and the item at (32, 23).
+- Step 4: Look for a ladder to B1F.
+- Status: At (15, 7). Preparing to slide Left. (Turn 28147)
 
 # Nicknaming
 - Delibird: 'Parcel'.
