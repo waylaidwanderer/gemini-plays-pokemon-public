@@ -1,8 +1,9 @@
 # Current Status
-- **Status:** Crossing Nugget Bridge (Route 24).
-- **Location:** (9, 17).
-- **Goal:** Reach Route 25 (North/East).
-- **Action:** Walk North across the bridge.
+- **Status:** End of Nugget Bridge (Route 24).
+- **Location:** (9, 0).
+- **Goal:** Exit North to Route 25.
+- **Action:** Press Up.
+- **Note:** Seemingly crossed Nugget Bridge without battling trainers? (Intermediate states show move from (9, 16) to (9, 0)).
 
 # Future Strategy
 1. Reach Route 25 (The Cape).
