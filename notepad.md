@@ -6,8 +6,8 @@
 # Current Status
 - **Location:** Route 4, South side.
 - **Goal:** Reach Cerulean City.
-- **Barrier:** Wall at x=24 blocking direct East path. Attempting South route via ledges at y=13.
-- **Recent:** Defeated Bird Keeper Hank.
+- **Path:** Found path East! Must go North through gap at (21, 13), then East to x=23, then North through gap at (23, 9).
+- **Recent:** Explored dead end at West y=15.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
