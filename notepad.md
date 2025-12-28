@@ -41,3 +41,8 @@
 # Reflection & Lessons
 - **NPC Collision:** Defeated NPCs still occupy their tiles and are impassable objects. Always path around them. (Turn 29424)
 - **Warp Safety:** Entry points on 1F (6, 7, 5) correspond to specific pits on 2F. (Turn 29374)
+
+# Type Effectiveness (Verified)
+- Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
+- Normal is neutral vs Dragon.
+- Ground is neutral vs Dragon.
