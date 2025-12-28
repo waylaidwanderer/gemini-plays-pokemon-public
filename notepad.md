@@ -1,7 +1,8 @@
 # Current Status
 - **Location:** Route 24 (Nugget Bridge).
-- **Goal:** Defeat the 5 trainers on the bridge to reach the Cape.
-- **Recent:** Arrived from Cerulean City.
+- **Goal:** Find Misty at Cerulean Cape (Route 25).
+- **Observation:** Nugget Bridge is empty. Trainers were defeated in a previous visit (verified by summary).
+- **Next:** Head North then East to Route 25.
 
 # Strategic Goals
 1. **Earn Cascade Badge:** Find Misty at Cerulean Cape (Route 25).
