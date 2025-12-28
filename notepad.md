@@ -34,13 +34,14 @@
 3. Push UP into Pit 2 (4, 7). (Player at 4, 8).
 
 # Game Mechanics
-- FLOOR: Walkable. Standard behavior.
-- ICE (Rows 1-2): Sliding mechanic. Verified.
+- FLOOR: Walkable. Standard behavior in most of B1F.
+- ICE: Sliding mechanic. Present in specific patches, but Row 1 and Row 17 are standard FLOOR.
 - PIT: Warp to B2F. Filling a pit creates a permanent stopper on B2F. Verified.
 - BOULDER: Resets on ladder use. Permanent if in pit. Verified.
-- STRENGTH: Deactivates after floor change. Verified.
+- STRENGTH: Deactivates after every battle or floor change. Verified.
 
 # Lessons Learned
 - Boulders on B1F fall into pits to become stoppers on B2F.
 - The B2F ice puzzle requires all 4 stoppers to reach the ladder at (9, 11).
 - Navigation between sections requires specific gaps in the walls (Row 9 and Row 16).
+- Row 1 and Row 17 are confirmed to be standard FLOOR, allowing safe navigation around the perimeter. (Corrected Turn 28849).
