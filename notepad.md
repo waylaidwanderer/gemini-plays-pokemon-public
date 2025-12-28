@@ -24,10 +24,10 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Rival Silver Battle (Mt. Moon)
-- **Sneasel (Lv 41):** Defeated (Strength).
-- **Golbat (Lv 42):** Defeated (Thunderpunch).
-- **Alakazam (Lv 43):** Defeated (Strength).
-- **Gengar (Lv 43):** Defeated (Thunderpunch).
-- **Feraligatr (Lv 45):** Defeated (Cross Chop).
-- **Magneton:** Active. Weak to Fighting/Fire/Ground.
+# Rival Silver Roster (Mt. Moon)
+- Sneasel (Lv 41)
+- Golbat (Lv 42)
+- Alakazam (Lv 43)
+- Gengar (Lv 43)
+- Feraligatr (Lv 45)
+- Magneton (Lv 41)
