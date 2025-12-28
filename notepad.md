@@ -59,5 +59,5 @@
 
 # Current Battle: Cooltrainer Mike (1F)
 - Opponent Lead: Dragonair (Lv37).
-- Strategy: Use Thunderpunch with Calcifer. neutral damage + level advantage.
+- Strategy: Use Headbutt with Calcifer. Thunderpunch and Flame Wheel are resisted by pure Dragon-types.
 - Goal: Defeat Mike to clear the path to the pits.
