@@ -111,5 +111,57 @@
         "action_counter": 28506
       }
     ]
+  },
+  "solve_ice_puzzle_v1_reusable": {
+    "description": "Calculates a path through ice sliding tiles using the global map_xml_string. Returns a JSON array of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "extra_obstacles": {
+          "items": {
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef run():\n    xml_str = map_xml_string\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    target_x = int(input_data['target_x'])\n    target_y = int(input_data['target_y'])\n    extra_obstacles = input_data.get('extra_obstacles', [])\n    \n    root = ET.fromstring(xml_str)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile.attrib['type']\n            if tile.attrib.get('has-object') == 'true':\n                 grid[(x, y)] = 'WALL'\n            if tile.attrib['seen'] == 'false':\n                 grid[(x, y)] = 'WALL'\n\n    for obs in extra_obstacles:\n        grid[(int(obs['x']), int(obs['y']))] = 'WALL'\n\n    queue = deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        if (curr_x, curr_y) == (target_x, target_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x, curr_y\n            while True:\n                tx, ty = nx + dx, ny + dy\n                if (tx, ty) not in grid or grid[(tx, ty)] == 'WALL':\n                    break\n                nx, ny = tx, ty\n                if grid[(nx, ny)] != 'ICE':\n                    break\n            \n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [move]))\n    print(json.dumps([]))\n\nrun()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T11:43:15.128Z",
+        "action_counter": 28591
+      }
+    ]
   }
 }
