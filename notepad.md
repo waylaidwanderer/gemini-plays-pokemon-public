@@ -27,3 +27,8 @@
 4. Catch Suicune in the center of Tin Tower 1F.
 - **Task Start:** Verify Route 42/36 sightings. Started Turn 27247, 4:23 PM.
 - **Lesson Learned:** Sages providing lore does NOT mean they are defeated. Always trust the `suicune_tracker_v2` agent's 'missing_flags' output over personal assumptions.
+## Tile Mechanics - Global
+- **FLOOR**: Standard walkable tile.
+- **WALL**: Impassable terrain.
+- **COUNTER**: Impassable. Interact with NPCs behind them by facing the counter.
+- **WARP_CARPET_LEFT/RIGHT**: Triggers map transition when walked onto.
