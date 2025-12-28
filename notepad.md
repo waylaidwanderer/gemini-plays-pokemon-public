@@ -28,45 +28,15 @@
 
 # Game Mechanics Notes
 - **Kanto TMs:** Misty did not give a TM. Note that most Kanto leaders in Gen 2 do not give TMs (exceptions: Janine and Erika).
+- **Tile Mechanics:** `COUNTER` tiles act as walls/obstacles.
 
 # Navigation Notes
-- **Saffron City:** Central hub connecting to Celadon, Lavender, Vermilion, Cerulean.
-
-# History
-- **Turn 23808:** Defeated Misty (Cerulean Gym). Earned Cascade Badge. No TM received.
-- **Turn 23789:** Defeated Trainers Parker and Diana.
-- **Turn 23600:** Fixed Power Plant (Machine Part).
-## Tool Notes
-- `bfs_pathfinder`: Ignores Trainer LOS. Handles LEDGEs correctly.
-- `smart_battle_move`: Remembers last cursor position in battle.
-
-# Saffron City Locations
-- **PokeCenter:** (9, 29)
-- **Magnet Train:** (8, 3)
-- **Gym:** (34, 3) (Psychic - Sabrina)
-- **Dojo:** (26, 3) (Fighting)
-- **Silph Co:** (18, 21)
-- **Mr. Psychic:** (27, 29) (TM29 Psychic acquired)
-- **Copycat's House:** (9, 11) (Suspected)
-- **West Gate (to Route 7):** (0, 24)
-- **North Gate (to Route 5):** (18, 3)
-- **East Gate (to Route 8):** (39, 22)
-- **South Gate (to Route 6):** (16, 33)
-- **Route 7:**
-  - Locked Door at (6, 9) (likely Underground Path, inaccessible).
-  - Gap in ledges at x=12 allows access to south side.
-- **Route 7 Navigation:**
-  - Southern path (row 2+) is blocked by walls on the west side.
-  - Northern path (rows 0-1) appears open to the west. Taking this route to Celadon.
-- **Game Corner:** Located at (18, 19). Investigating for Team Rocket Hideout.
-- **Game Corner Access:** Entrance is at (18, 19). Must wrap around the fence at x=26 to reach it.
-- **Prize Exchange:** Located at (23, 19).
-- **Suspicious Finding:** Slot machine at (18, 8) uses `CeladonGameCornerLighterScript` instead of the standard `LuckySlotMachine`. This is likely the secret switch.
-- **Game Corner Investigation:** Interacted with slot machine at (18, 8). Found a lighter. No obvious immediate effect, but checking for hidden stairs in the top area.
-- **Layout:** Rows 2-3 appear to be a dividing wall. Attempting to flank left to reach the northernmost area (Row 1).
-- **Blocked Path:** The path at (13, 4) appears blocked despite looking like a floor tile. Attempting to cross to the left side via the bottom path (Row 13).
-- **Left Area Access:** Gap at Row 4 (y=4) allows access to the left side of the room (Columns 0-6).
-- **Poster Check:** Both posters (15, 0) and (9, 0) checked. Result: "There's nothing!".
-- **Game Corner Conclusion:** The "Lighter" script and posters appear to be red herrings or references to Gen 1. The Pharmacist's comment about "3 years ago" implies the Rocket Hideout is no longer accessible here.
-- **Gym Guide:** Found slacking off in Game Corner (11,3). Useless - just gambling. Did not provide Gym location.
+- **Saffron City:** Hub for Celadon, Lavender, Vermilion, Cerulean.
+  - **Key Locs:** PokeCenter (9, 29), Gym (34, 3), Dojo (26, 3), Silph Co (18, 21), Mr. Psychic (27, 29).
+  - **Gates:** West (to R7), North (to R5), East (to R8), South (to R6).
+- **Route 7:** Locked Door (Underground Path), gap in ledges at x=12. Northern path leads to Celadon.
+- **Game Corner:** Located at (18, 19). Entrance at (18, 19).
+  - **Investigation:** Posters checked (nothing). "Lighter" slot found (no effect). Pharmacist said "3 years ago" (Hideout likely gone).
+  - **Layout:** `COUNTER` tiles block movement. Left area accessible via gap at Row 4.
+  - **Conclusion:** Likely no Hideout here. Finishing exploration then leaving.
 - **Gym Location:** Unknown. Need to explore city (likely South). Expecting a Cut tree.
