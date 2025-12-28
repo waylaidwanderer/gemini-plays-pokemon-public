@@ -46,8 +46,8 @@
 - Plan:
   1. Move Boulder 8 (8, 17) to clear Column 8 [Done].
   2. Navigate to (6, 17). [Done]
-  3. Push Boulder 5 (6, 8) north to (6, 7). [In Progress: Currently at (6, 8)]
-  4. Move to (5, 7), push Boulder 5 right into Pit (8, 7).
+  3. Push Boulder 5 from (6, 7) right into Pit (8, 7). [In Progress: Currently at (5, 7)]
+  4. Push Boulder 5 right to (7, 7), then push again to (8, 7).
 - Verification: Boulders 3 and 4 were pushed in turns 29284 and 29318. They remain in pits after reset.
 
 # Reflection & Lessons
