@@ -20,17 +20,25 @@
 
 # Strategies
 ## Fill Pit 1 (11, 2) with Boulder 1 (10, 1)
-1. Navigate to (9, 1). (Current Goal)
-2. Face RIGHT and push to (11, 1). (Player at 10, 1).
-3. Move to (11, 0).
-4. Face DOWN and push into Pit 1 (11, 2).
+- Current State: Boulder at (10, 1). Player in battle at (17, 14).
+- Steps:
+  1. Escape battle.
+  2. Navigate to (9, 1).
+  3. Face RIGHT and push to (11, 1).
+  4. Move to (11, 0).
+  5. Face DOWN and push into Pit 1 (11, 2).
 
 ## Fill Pit 3 (5, 12) with Boulder 3
-1. Locate Boulder 3.
-2. Use puzzle_strategist_v1 to generate sequence.
+- Current State: Boulder 3 location UNKNOWN.
+- Steps:
+  1. Locate Boulder 3 (Search Section 1).
+  2. Use puzzle_strategist_v1.
 
 ## Fill Pit 4 (12, 13) with Boulder 4 (17, 7)
-1. Use puzzle_strategist_v1 to generate sequence.
+- Current State: Boulder 4 at (17, 7).
+- Steps:
+  1. Navigate to Boulder 4.
+  2. Use puzzle_strategist_v1.
 
 # Lessons Learned
 - Boulders reset if you leave the floor.
