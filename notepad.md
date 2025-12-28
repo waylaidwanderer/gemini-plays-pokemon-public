@@ -24,8 +24,8 @@
 # Strategy: Gym Leader Clair (REVISED)
 - Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
 - Preparation (Start Turn: 29511):
-  1. Buy 7 HYPER POTIONS at Mart (In Progress).
-  2. Teach TM27 RETURN to Calcifer.
+  1. Buy 7 HYPER POTIONS at Mart (Done).
+  2. Teach TM27 RETURN to Calcifer (In Progress).
 - Battle Plan:
   1. Lead Calcifer. Use RETURN vs Dragonairs.
   2. Lower Kingdra accuracy with SMOKESCREEN immediately.
