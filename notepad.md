@@ -32,3 +32,6 @@
 - **Plan B:** If East passage blocked, return to Maze (West side), go to (4, 17), Surf South to Route 24 West, then Surf East under bridge.
 - **Correction:** The water pool at (42-53, 8-11) is ISOLATED. The 'LADDER' tiles allow access to the East side of the pool, but there is no exit to the main channel (x=56).
 - **Plan:** Surf West back to (42, 12) -> Walk West to (11, 13) -> South to Route 24 -> Surf North from Route 24 East side.
+- **Observation:** The grassy area on Route 24 East (x=11-13) is walled off from the water at x=15 by a wall at x=14.
+- **Observation:** `FLOOR_UP_WALL` at Route 25 (15, 14) blocked South movement. This might be a one-way ledge facing North, or just a wall.
+- **Plan:** Return to Route 25. Go to (15, 13). Try to walk East to (16, 13). If (16, 13) is FLOOR, continue East. If WATER, Surf.
