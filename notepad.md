@@ -35,8 +35,9 @@
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
 # Blackthorn Gym Progression
-- Puzzle: All boulders pushed into pits (Turns 29284, 29318, 29390). Bridge complete.
-- Remaining Trainers: Cooltrainer Lola (In Battle).
+- Puzzle: All boulders pushed into pits (8, 3), (2, 5), (8, 7). Bridge complete. (Confirmed Turn 29415)
+- Remaining Trainers: None. (Paul, Mike, Fran, Cody, Lola defeated).
+- Goal: Defeat Clair.
 
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
