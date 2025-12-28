@@ -54,7 +54,6 @@
   - Strategy: Chip away at Kingdra with Calcifer. Switch to Gneiss to tank Hyper Beam (Rock resists Normal), then use recharge turn to attack or switch. Use others as fodder for safe switching/healing.
 
 # Reflection Lessons (Turn 29216)
-- **Verification:** Always verify Agent/NPC claims about party movesets against Game State Information. (Avoided "Graveler with Thunderbolt" error).
 - **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
 - **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
 - **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
@@ -76,17 +75,20 @@
 
 # Blackthorn Gym Puzzle Progress (Started Turn 29238)
 - Boulder 3 (8, 2): Pushed into Pit (8, 3). [Turn 29284]
-- Boulder 4 (2, 3): Target is Pit (2, 5). Reach from (2, 2) via Ladder (1, 7) or 2F Row 13.
-- Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
+- Boulder 4 (2, 4): Target is Pit (2, 5). [Turn 29317]
+- Boulder 6 (3, 1): Moved to clear path.
 - Boulder 7 (6, 1): Target is Pit (8, 7).
-- Boulder 8 (8, 14): Investigating.
+- Boulder 8 (8, 14): Target is Pit (8, 7). Path: (8, 14) -> (8, 10) -> (9, 10) -> (9, 7) -> (8, 7).
 - Boulder 5 (6, 16): Investigating.
 - Pit (2, 5): Target for Boulder 4.
 - Pit (8, 3): Target for Boulder 3 (Done).
-- Pit (8, 7): Target for Boulder 7.
+- Pit (8, 7): Target for Boulder 7 or 8.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- NW Puzzle Plan (Turn 29307):
-  1. Navigate to (3, 4).
-  2. Push Boulder 6 (3, 3) up to (3, 1) to clear path to (2, 2).
-  3. Move (3, 4) -> (3, 3) -> (3, 2) -> (2, 2).
-  4. Push Boulder 4 (2, 3) down into Pit (2, 5). [Time: Turn 29307]
+- NW Puzzle Plan:
+  1. Push Boulder 4 (2, 4) down into Pit (2, 5). [Current]
+- SE Puzzle Plan:
+  1. Navigate to SE quadrant via Row 13.
+  2. Push Boulder 8 (8, 14) up to (8, 10).
+  3. Push RIGHT to (9, 10).
+  4. Push UP to (9, 7).
+  5. Push LEFT into Pit (8, 7).
