@@ -72,4 +72,5 @@
 - **Navigation Correction:** The Pokemon Center entrance (27, 27) is enclosed. Access is via the gap at (30, 29).
 - **Plan:** Enter gap at (30, 29), circle back West to the door.
 - **Warden's Home:** (27, 27). Warden is on vacation. Safari Zone is closed.
-- **Pokemon Center:** Likely at (21, 27) near sign (20, 27). Heading there.
+- **Pokemon Center:** Located near sign at (20, 27). Path requires going South to Row 32 to bypass the one-way ledge at x=23.
+- **Plan:** Circle South to (27, 32), West to (19, 32), then North to the Center.
