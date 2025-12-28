@@ -68,7 +68,7 @@
 - Boulder 4 (2, 3): Needs to go to Pit (2, 5). Reach from (2, 2) via Cody (4, 1) or complex path.
 - Boulder 6 (3, 3): Needs to be moved to clear path for Boulder 4.
 - Boulder 3 (8, 2): Target is Pit (8, 3). Reach from (8, 1).
-- Boulder 7 (6, 1): Target is Pit (8, 7). Path: (6, 1) -> (9, 1) -> (9, 6) -> (8, 6) -> (8, 7).
+- Boulder 7 (7, 1): Target is Pit (8, 7). Path: (7, 1) -> (9, 1) -> (9, 6) -> (8, 6) -> (8, 7).
 - Pit (2, 5): Target for Boulder 4.
 - Pit (8, 3): Target for Boulder 3.
 - Pit (8, 7): Target for Boulder 7.
