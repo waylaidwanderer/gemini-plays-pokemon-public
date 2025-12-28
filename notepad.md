@@ -24,9 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23056)
-- **Status:** Route 3 (East of Pewter).
-- **Observation:** The lower path (rows 2-4) appears to dead-end at x=24.
-- **Correction:** Found a gap in the northern wall at (4, 1).
-- **Goal:** Backtrack to (4, 1) to access the upper path of Route 3.
-- **Next:** Navigate to (4, 1).
+# Reflection (Turn 23071)
+- **Status:** Battling Firebreather Otis on Route 3.
+- **Goal:** Defeat Otis and continue East to Mt. Moon.
+- **Next:** Defeat Weezing.
