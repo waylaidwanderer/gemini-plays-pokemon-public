@@ -1,9 +1,10 @@
 ## Battle Strategy (Blackthorn Gym)
 - Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
-- Strategy: Typhlosion (Lv45) with Thunderpunch and Graveler (Lv44) with Earthquake. Jynx (Ice Path) is a good backup for Dragonairs.
+- Strategy: Typhlosion (Lv45) with Thunderpunch and Graveler (Lv44) with Earthquake.
+- Backup: Catch Jynx (Rare) or Swinub (Common) in Ice Path for Ice-type moves. Strategy advisor confirms level advantage but warns of Graveler's 4x Water weakness.
 
 ## Tile Mechanics
-- FLOOR: Walkable. Verified: B1F floor tiles do NOT slide. B2F floor islands are walkable.
+- FLOOR: Walkable. NOTE: B1F floor tiles do NOT slide. B2F floor tiles (non-islands) DO slide.
 - WALL: Impassable.
 - WATER: Needs Surf (HM03).
 - ICE: Sliding mechanic. B2F only. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
