@@ -20,11 +20,20 @@
 - Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
-# Strategy: Gym Leader Clair
-- Primary Goal: Acquire the 8th Gym Badge (Start Turn: 29224).
-- Opponent: Clair (Dragon User).
-- Team: Dragonair (Lv37) x3 (Surf, Ice Beam, Thunderbolt), Kingdra (Lv40).
-- Battle Strategy: Lead with Calcifer (Lv46). Use Thunderpunch as primary attack. Use fodder to heal/revive Calcifer.
+# Strategy: Heal and Return
+- Status: Party weakened (Calcifer PAR 65/145, Gneiss 46/126).
+- Goal: Heal at Blackthorn Pokemon Center and return to challenge Clair.
+- Exit Path:
+  1. Ladder at (7, 9) [1F -> 2F].
+  2. Traverse 2F to Ladder at (1, 7).
+  3. Ladder at (1, 7) [2F -> 1F].
+  4. Exit Gym at (4, 17) or (5, 17).
+- Return Path:
+  1. Enter Gym.
+  2. Ladder at (1, 7) [1F -> 2F].
+  3. Traverse 2F to Ladder at (7, 9).
+  4. Ladder at (7, 9) [2F -> 1F].
+  5. Cross bridge to Clair at (5, 3).
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
