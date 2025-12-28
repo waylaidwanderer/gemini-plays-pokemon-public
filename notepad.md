@@ -13,9 +13,8 @@
 
 # Suicune Quest Strategy (Crystal)
 - Sequence: Burned Tower -> Cianwood North Shore (Sighting + Eusine Battle) -> Route 42 (Middle Island) -> Route 36 (Sudowoodo area) -> Tin Tower (Wise Trio + Suicune Battle).
-- Prerequisite: Eusine must be defeated in Cianwood. (Status: Confirmed Defeated).
-- Route 42 Trigger: (26, 15) - Step on this tile on foot.
-- Route 36 Trigger: (35, 9) - Step on this tile on foot.
+- Status: All sightings (Cianwood, Route 42, Route 36) confirmed completed via Sages' "tower shaking" dialogue (Turn 27084).
+- Next Step: Defeat the Wise Trio in the Tin Tower Wise Trio Room (Map 4_2).
 - Clear Bell: Required for Wise Trio to appear. (Status: Acquired).
 
 ## Battle Strategy (Wise Trio)
@@ -31,7 +30,6 @@
 
 # Lessons Learned
 - Suicune Sighting Sequence: Strictly sequential. Eusine battle in Cianwood is a mandatory flag.
-- Tin Tower Sages: Dialogue change (tower shaking) indicates Clear Bell is recognized.
-- Fly Map (Johto): A 2D grid, not a 1D list. Cursor movement is spatial.
-- Strategy Pivot: If Route 42 trigger fails despite Eusine's defeat, verify at Route 36 before backtracking.
-- Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
+- Tin Tower Sages: Dialogue "Tin Tower shook and a Pokemon must have returned to the top" (Turn 27084) confirms all sightings are done.
+- Fly Map (Johto): A 2D grid, cursor movement depends on spatial relationship of cities. Tool navigate_fly_map_v2 is currently unreliable.
+- Strategy Pivot: Sage dialogue overrides visual absence of Suicune if flags are set. Proceed to Wise Trio.

@@ -25,37 +25,6 @@
       }
     ]
   },
-  "navigate_fly_map_v2": {
-    "description": "Navigates the Johto FLY map from a known starting city to a target city. City names: 'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town', 'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City', 'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Mt. Silver', 'Indigo Plateau'. Assumes the FLY map is already open. Uses Left/Right for horizontal navigation.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_city": {
-          "type": "string",
-          "default": "New Bark Town"
-        },
-        "target_city": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_city"
-      ]
-    },
-    "python_script": "import json\nimport sys\n\ndef navigate_fly_map(start_city, target_city):\n    cities = [\n        'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town',\n        'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City',\n        'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Mt. Silver',\n        'Indigo Plateau'\n    ]\n    \n    if start_city not in cities:\n        print(f\"Error: Start city '{start_city}' not found.\")\n        return\n    if target_city not in cities:\n        print(f\"Error: Target city '{target_city}' not found.\")\n        return\n    \n    start_idx = cities.index(start_city)\n    target_idx = cities.index(target_city)\n    diff = target_idx - start_idx\n    \n    buttons = []\n    if diff > 0:\n        buttons.extend(['Right'] * diff)\n    elif diff < 0:\n        buttons.extend(['Left'] * abs(diff))\n    \n    buttons.append('A')\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    input_data = json.loads(sys.argv[1])\n    navigate_fly_map(input_data.get('start_city', 'New Bark Town'), input_data['target_city'])\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-27T03:08:24.414Z",
-        "action_counter": 24583
-      },
-      {
-        "commit_message": "Fixed Johto Fly map navigation to use horizontal inputs (Left/Right) as suggested by overwatch.",
-        "timestamp": "2025-12-28T04:56:57.213Z",
-        "action_counter": 27768
-      }
-    ]
-  },
   "find_path_v10": {
     "description": "Improved pathfinding that treats HEADBUTT_TREE and CUT_TREE as impassable and handles surfing transitions. Returns a JSON array of button strings.",
     "input_schema": {
