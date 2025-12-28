@@ -21,15 +21,16 @@
 - Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
 - Gym Guide (7, 15) Advice: Dragon-type Pokemon are weak against Ice-type moves.
 
-# Current Strategy: Heal and Return
-- Status: Party weakened (Calcifer 65/145 HP PAR, Gneiss 46/126 HP).
-- Goal: Heal at Blackthorn Pokemon Center and return to challenge Clair.
+# Current Strategy: Return and Challenge Clair
+- Status: Party fully healed.
+- Goal: Return to challenge Clair.
 - Return Path:
-  1. Enter Gym.
-  2. Ladder at (1, 7) [1F -> 2F].
-  3. Traverse 2F to Ladder at (7, 9).
-  4. Ladder at (7, 9) [2F -> 1F].
-  5. Cross bridge to Clair at (5, 3).
+  1. Exit Pokemon Center.
+  2. Enter Gym at (18, 11) in Blackthorn City.
+  3. Ladder at (1, 7) [1F -> 2F].
+  4. Traverse 2F to Ladder at (7, 9).
+  5. Ladder at (7, 9) [2F -> 1F].
+  6. Cross bridge to Clair at (5, 3).
 - Navigation Note: Navigate around NPCs at (1, 14) and (6, 8) in Gym 1F.
 
 # Blackthorn Gym Layout Theory
