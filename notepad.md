@@ -42,6 +42,7 @@
   - **Conclusion:** Cafe is a dead end.
 - **Gym Location:** Celadon Gym (21_21). Entered.
 - **Goal:** Defeat Erika.
+- **Progress:** Defeated Twins Jo & Zoe.
 - **Loot:** Retrieved Leftovers from Cafe.
 - **Quest Start:** Turn 24041.
 
