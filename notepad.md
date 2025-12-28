@@ -13,13 +13,6 @@
 - DOOR: Warp tile.
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
 
-# Blackthorn City Exploration
-- Strategy:
-  1. Find the Blackthorn City Gym [Done: Turn 29225]
-  2. Defeat Gym Trainers for EXP [Current: Turn 29227]
-  3. Solve Gym Puzzle (2F/1F)
-  4. Defeat Gym Leader Clair.
-
 # Blackthorn City Discoveries
 - Pokemon Center: (21, 29). Sign at (22, 29).
 - Emy's House: (29, 23). Inside: Lass wants to trade DODRIO for female DRAGONAIR.
@@ -38,6 +31,10 @@
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 - Gym Layout: 1F seems to have multiple paths and statues. Likely requires a puzzle from 2F.
 - Trainers Defeated: Paul (1, 15).
+- Strategy:
+  1. Defeat Gym Trainers for EXP [Current: Turn 29227]
+  2. Solve Gym Puzzle (2F/1F) [Started: Turn 29238]
+  3. Defeat Gym Leader Clair.
 
 # Strategy: Gym Leader Clair
 - Opponent: Clair (Dragon User).
@@ -68,7 +65,7 @@
 - Blockages: WALLs at (5-7, 11), (4, 8-11), and (8, 8-10).
 - Hypothesis: Row 7 (currently unseen) provides a path to enter the ladder section from the north.
 - Test: Navigate to the left side (Row 8), enter Row 7, and attempt to reach the ladder from the north. [Turn 29239]
-- Attempt 1: Moving to (1, 8) to access Row 7.
-- Attempt 1 Conclusion: Failed. Path blocked by WALL at (3, 14).
-- Attempt 2: Use Row 16 (all FLOOR) to reach the left side, then head north. [Turn 29240]
-- Path: (4, 14) -> (4, 16) -> (1, 16) -> (1, 8).
+- Attempt 1: Moving to (1, 8) to access Row 7. Conclusion: Failed. Path blocked by WALL at (3, 14).
+- Attempt 2: Use Row 16 (all FLOOR) to reach the left side, then head north. [Turn 29240]. Conclusion: Failed. NPC at (1, 15) blocks the path.
+- Attempt 3: Move to Column 0 (clear of NPCs), then head north to Row 8/7. [Turn 29241]
+- Path: (1, 16) -> (0, 16) -> (0, 8) -> (0, 7).
