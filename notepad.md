@@ -40,4 +40,6 @@
   - **Exploration:** Entered Celadon Cafe (25, 29).
   - **Action:** Asking NPCs (Fisher, Teacher, Super Nerd) for Gym info.
   - **Fisher (4, 6):** Busy eating ("Snarfle, chew"). Useless.
+  - **Teacher (4, 3):** "You'll break my concentration!" Useless.
 - **Tool Diagnostic:** `bfs_pathfinder` flaky. Using manual movement/interaction.
+- **Quest Start:** Turn 24041 (Searching Celadon Cafe).
