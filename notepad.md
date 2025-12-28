@@ -32,3 +32,5 @@
 - **Misty Found:** Visually confirmed at (5, 3).
 - **Gym Strategy:** Surf North to engage Misty. Beware of Swimmer Girl at (4, 6).
 - **Task Timestamp:** Gym Battle Start - Turn 23782.
+- **Misty Battle Start:** Turn 23791.
+- **Strategy:** Thunderpunch sweep.
