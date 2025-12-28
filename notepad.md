@@ -96,10 +96,6 @@
 - Action: Picking up item.
 - Observation: West blocked by wall (Col 12). Cut Trees at (12, 46) & (12, 50).
 - Plan: Cut Tree at (12, 50) to proceed to Viridian.
-- Picked up Elixer.
-- Deleting item marker.
-- Navigating to (13, 50) to cut the tree at (12, 50).
-- This should open the path West to Viridian City.
-- Facing Cut Tree at (12, 50).
-- Action: interacting to Cut it.
-- Expecting prompt to use CUT.
+- Cutting tree at (12, 50) to open path West to Viridian City.
+- Box 1 is Full (20/20). Priority: Reach Viridian/Pewter PC to switch boxes.
+- Current Route: East side of Route 2 -> Viridian City.
