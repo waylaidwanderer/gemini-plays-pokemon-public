@@ -1,21 +1,24 @@
 # Current Status
-- **Status:** Outside Bill's House (Route 25).
-- **Location:** (47, 6).
-- **Goal:** Find Misty at the Cape (East of Bill's House).
-- **Action:** Walking East to the end of the peninsula.
+- **Status:** On Route 25 (East End).
+- **Location:** (54, 8).
+- **Goal:** Check the Northern Cape (Row 4) for Misty.
+- **Action:** Backtrack West to (40, 6), then Up to Row 4, then East to the Cape.
 
-# Future Strategy
-1. Find Misty (she should be on a date).
-2. Interrupt the date (she will return to the Gym).
-3. Go to Cerulean Gym.
-4. Defeat Misty for the Cascade Badge.
+# Quest Logic (Cascade Badge)
+1. **Hypothesis:** Misty appears at the Cape only *after* the Power Plant quest.
+2. **Test:** Check Cape now. If empty, proceed to Power Plant.
+3. **Sequence:**
+    - Power Plant (Talk to Manager).
+    - Cerulean Gym (Rocket Event).
+    - Route 24 (Defeat Rocket).
+    - Gym (Find Part).
+    - Power Plant (Return Part).
+    - Cape (Find Misty).
 
 # Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
-- **LEDGE_HOP_DOWN:** One-way movement DOWN.
-- **PIT:** Warps to floor below.
+- **Row 5 Wall:** Blocks access to Cape from South.
+- **Access Point:** Gap at (40, 5) or Cut Tree at (34, 6). Gap is closer.
 
 # Key Locations
-- **Cape (Route 25):** Target. East of Bill's House.
-- **Bill's House:** (47, 5) on Route 25.
-- **Nugget Bridge:** Route 24.
+- **Cape (Route 25):** Northern strip (Row 4).
+- **Power Plant:** East of Cerulean (Route 9).
