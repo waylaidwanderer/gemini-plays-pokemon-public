@@ -62,3 +62,5 @@
 - **Game Corner Access:** Entrance is at (18, 19). Must wrap around the fence at x=26 to reach it.
 - **Prize Exchange:** Located at (23, 19).
 - **Suspicious Finding:** Slot machine at (18, 8) uses `CeladonGameCornerLighterScript` instead of the standard `LuckySlotMachine`. This is likely the secret switch.
+- **Game Corner Investigation:** Interacted with slot machine at (18, 8). Found a lighter. No obvious immediate effect, but checking for hidden stairs in the top area.
+- **Layout:** Rows 2-3 appear to be a dividing wall. Attempting to flank left to reach the northernmost area (Row 1).
