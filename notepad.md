@@ -54,9 +54,9 @@
   - Strategy: Chip away at Kingdra with Calcifer. Switch to Gneiss to tank Hyper Beam (Rock resists Normal), then use recharge turn to attack or switch. Use others as fodder for safe switching/healing.
 
 # Reflection Lessons (Turn 29216)
-- **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
-- **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
-- **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
+- Turn Tracking: Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
+- Water Navigation: The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
+- Warp Marking: Visit and mark all discovered warps immediately to prevent navigation errors.
 
 # Time Tracking
 - Boulder Puzzle Started: Turn 29238.
@@ -79,15 +79,16 @@
 - Boulder 6 (3, 1): Moved to clear path.
 - Boulder 7 (6, 1): Investigating.
 - Boulder 8 (8, 14): Target is Pit (8, 7). Path: (8, 14) -> (8, 11) -> (9, 11) -> (9, 7) -> (8, 7).
-- Boulder 5 (6, 16): Investigating.
+- Boulder 5 (6, 16): Decatur/Path blocker. Target Pit (8, 7)?
 - Pit (2, 5): Filled by Boulder 4.
 - Pit (8, 3): Filled by Boulder 3.
 - Pit (8, 7): Target for Boulder 8.
 - Map Note: Tile (4, 1) (Cody) is a wall, blocking direct access to the northern western side.
-- SE Puzzle Plan:
-  1. Navigate to SE quadrant via Row 13.
-  2. Push Boulder 8 (8, 14) up to (8, 11).
-  3. Move to (8, 12), push RIGHT to (9, 11)? No, push from (8, 11) to (9, 11).
-  4. Move to (10, 11) - wait, map width is 10 (0-9).
-  5. Push UP to (9, 7).
-  6. Push LEFT into Pit (8, 7). [Time: Turn 29318]
+- SE Puzzle Plan (Turn 29319):
+  1. Navigate to (6, 15).
+  2. Push Boulder 5 (6, 16) DOWN to (6, 17).
+  3. Walk (6, 15) -> (6, 16) -> (7, 16) -> (8, 16) -> (8, 15).
+  4. Push Boulder 8 (8, 14) UP to (8, 11).
+  5. Move to (8, 12), push RIGHT to (9, 11).
+  6. Push UP to (9, 7).
+  7. Push LEFT into Pit (8, 7).
