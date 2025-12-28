@@ -37,14 +37,12 @@
 5. Move to (4, 5).
 6. Push Down to (4, 7). [PIT]
 
-# Party Management
-- Lead: KIMCHI (Lv21) - HM Cut.
-- Slot 2: ICARUS (Lv16) - HM Fly.
-- Slot 3: Calcifer (Lv45) - Fast for escapes, strong for combat.
-- Slot 4: Ravioli (Lv10) - HM Surf.
-- Slot 5: GNEISS (Lv44) - HM Strength.
-- Slot 6: XENON (Lv21) - Hypnosis.
-- Decision: Abandoned Lead Swap at Turn 28473 (stagnation).
+# Current Status (B2F)
+- Fell through Pit 1 at (11, 2) on B1F to reset the floor.
+- Landed at (11, 4) on B2F.
+- Goal: Return to B1F via ladder at (17, 1) to restart the boulder puzzle.
+- Boulder 1 and 2 reset to their starting positions on B1F.
+- Boulder 3 and 4 are already in their pits.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
