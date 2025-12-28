@@ -37,12 +37,16 @@
 5. Move to (4, 5).
 6. Push Down to (4, 7). [PIT]
 
-# Current Status (B2F)
-- Fell through Pit 1 at (11, 2) on B1F to reset the floor.
-- Landed at (11, 4) on B2F.
-- Goal: Return to B1F via ladder at (17, 1) to restart the boulder puzzle.
-- Boulder 1 and 2 reset to their starting positions on B1F.
-- Boulder 3 and 4 are already in their pits.
+# Current Status (B1F)
+- Successfully returned to B1F via ladder at (17, 3).
+- Boulders reset to starting positions due to Pit 1 reset.
+- Boulder 1 (ID 1) is at (11, 7).
+- Boulder 2 (ID 2) is at (7, 8).
+- Pit 1 (11, 2): Pending.
+- Pit 2 (4, 7): Pending.
+- Pit 3 (5, 12): COMPLETED.
+- Pit 4 (12, 13): COMPLETED.
+- Goal: Push Boulder 1 into Pit 1.
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
