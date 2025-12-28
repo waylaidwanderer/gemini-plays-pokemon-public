@@ -17,8 +17,8 @@
 - Topic: Boulder Sliding on Ice
 - Hypothesis: Boulders pushed onto ICE slide until hitting an obstacle.
 - Test: Push Boulder 3 (3, 12) UP from (3, 13) onto (3, 11) ICE.
-- Result: Pushed UP at (3, 13) on Turn 28739, 28740, 28741. Received "GNEISS can move boulders" text on Turn 28739. Boulder did not move. Hypothesis: A button interaction or another push is required.
-- Attempting A button interaction at (3, 13) facing UP.
+- Result: Interacted with A. Screen Text: "It's immovably imbedded in ice." (Turn 28742).
+- Conclusion: Boulders in pits cannot be moved. They serve as permanent stoppers for the B2F ice puzzle. I must fill the remaining two pits on B1F.
 
 # Failed Hypotheses
 - "B1F floor tiles do NOT slide" - Too broad; Row 1-2 ice tiles DO slide.
