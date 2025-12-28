@@ -54,3 +54,14 @@
 - Target: Delibird (Lv 21, Male)
 - Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
 - Status: Caught! Nicknaming 'Parcel'. (Turn 28036)
+
+# Nickname Test: Delibird
+- Observation: Screen shows cursor at 'A' (6, 17), but system note says 'P' (12, 18).
+- Hypothesis: Pressing 'A' will enter 'A' if the image is correct, or 'P' if the system note is correct.
+- Test: Press 'A'.
+- Turn: 28037.
+
+# Strategy: 8th Gym Badge (Clair)
+- Opponent: Clair (Dragon-types)
+- Known Team: Dragonair (Lv 37) x3, Kingdra (Lv 40)
+- Task: Use 'gym_strategy_analyst' to evaluate party and training needs.
