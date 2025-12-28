@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Got Expansion Card! Heading to Vermilion.
-   - *Plan:* Fly Vermilion -> Wake Snorlax (Poke Flute Channel).
+   - *Status:* In Saffron City (3, 30). Clearing Repel Msg.
+   - *Plan:* Walk East to Gate (16, 33) -> Route 6 -> Vermilion City.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Tile Mechanics
