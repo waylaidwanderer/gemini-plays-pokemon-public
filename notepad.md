@@ -47,3 +47,6 @@
 - **Plan:** Close dialogue. Probe (4, 12) and (6, 12) just in case. If blocked, backtrack to (5, 16) and try to find a path through Column 3 or 4, or re-examine the right side.
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
+- **Battle:** Defeated Lass Linda.
+- **Plan:** Interact with Linda. Check if she moves. If not, check walls at (4, 12) and (6, 12) for fake tiles. If boxed in, backtrack.
+- **Hypothesis:** Path to Janine is (5, 11) -> (4, 11) -> (3, 11) -> (3, 10) -> (3, 9) -> (2, 9) -> (1, 9) -> Janine. Requires passing Linda.
