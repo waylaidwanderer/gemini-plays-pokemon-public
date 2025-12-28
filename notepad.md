@@ -11,13 +11,10 @@
 - Exploration Phase Start: Turn 27390
 - Key Items: Clear Bell (Acquired)
 
-## Sighting Sequence & Logic
-1. Burned Tower: Confirmed.
-2. Cianwood City: Confirmed at (10, 14).
-3. Route 42: Trigger at (26, 15). FAILED (Turn 27329).
-4. Route 36: Trigger at (35, 9). FAILED (Turn 27421).
-5. Troubleshooting: Sightings failed despite Clear Bell. Next: Precision search of Route 42 clearing.
-6. Tin Tower: Battle Wise Trio, then encounter Suicune.
+## Suicune Quest Logic
+- Clear Bell: Obtained.
+- Tower Shook Flag: Reported by Sage (Turn 27084).
+- Current Strategy: Checking Tin Tower 1F for Wise Trio and Suicune.
 
 ## Battle Strategy (Wise Trio)
 - Trio will only battle after Route 42 and 36 sightings are complete.
