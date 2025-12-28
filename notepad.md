@@ -47,3 +47,5 @@
 - Menu Mechanics: In the POKéMON menu, the 'A' button sub-menu "SWITCH" option initiates the reordering process (same as the 'Select' button shortcut). To swap two Pokémon, select the first, choose "SWITCH", move to the second, and press 'A'. Verified.
 - Verification: Game State warps at (11, 2), (4, 7), (5, 12), and (12, 13) indicate all 4 pits are currently UNFILLED. Verified. (Turn 28531).
 - Boulders: Leaving the floor via ladder or pit RESETS all boulders to their starting positions. Verified. (Turn 28535).
+- Puzzle Attempt #2 Start Turn: 28546.
+- Hypothesis: Strength must be re-activated after every floor transition or battle. To be verified.
