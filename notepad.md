@@ -39,3 +39,4 @@
   - **Hypothesis:** Gym is in the Southwest, possibly behind a Cut tree.
   - **Path:** Entering building at (25, 29).
   - **Observations:** Teacher mentions slots (irrelevant). Gap south of Teacher leads to a building.
+- **Tool Diagnostic:** `bfs_pathfinder` failed to return a path in Turn 24030, but a `run_code` diagnostic with identical logic and the same map state found a path (Length 10). This suggests the tool logic is correct but the execution environment or input might be flaky. Proceeding with manual movement.
