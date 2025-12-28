@@ -39,6 +39,7 @@
 - Goal: Reach the exit to Route 44/Blackthorn City.
 - Step 1: Reach the eastern section via Row 8 gap at (16, 8).
 - Strategy: Use the `find_ice_path_v1` tool to calculate the sequence.
+- Current Sequence: [Right, Down, Left, Down, Right, Up, Left, Up, Left, Down, Right, Down, Right] from (2, 7).
 - Step 2: Explore the north-east area.
 - Step 3: Investigate the item at (32, 23).
 - Step 4: Find the ladder to B1F.
