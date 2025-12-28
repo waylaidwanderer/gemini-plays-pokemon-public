@@ -25,3 +25,12 @@
 ## Trainer & Party Info
 - **Lead:** XENON (Gastly) Lv21.
 - **Party:** Gastly, Pidgey, Graveler, Krabby, Gloom, Typhlosion.
+## Tile Mechanics - Global
+- **FLOOR**: Standard walkable tile.
+- **WALL / VOID**: Impassable terrain.
+- **LADDER / STAIRS**: Warp points.
+
+## Wise Trio Battle Strategy
+- **Lead:** GNEISS (Graveler) Lv44.
+- **Strategy:** Use Earthquake or Rollout against their Noctowl/Hoothoot. Gneiss's high level and defensive typing should make these battles straightforward.
+- **Status:** Challenging Sage at (7, 9) first.
