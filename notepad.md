@@ -16,13 +16,12 @@
 - Warp Pathing: Navigate tool does not automatically avoid warp tiles. Use intermediate coordinates to steer around.
 
 # Blackthorn City Discoveries
-- Pokemon Center: (21, 29). Sign at (22, 29).
+- Pokemon Center: (21, 29).
 - Emy's House: (29, 23). Inside: Lass wants to trade DODRIO for female DRAGONAIR.
 - Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
-- Cooltrainer F (Flavor NPC): (35, 19).
-- Ice Path Exit: (36, 9) on map 5_10 (Warp from 3_61 at 36, 27).
+- Ice Path Exit: (36, 9) on map 5_10.
 - Move Deleter's House: (9, 31).
-- Dragon Speech House: (13, 21). Inside: Granny and Dratini (Ekans sprite).
+- Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
 
 # Blackthorn Gym Exploration
@@ -46,27 +45,26 @@
 - **Turn Tracking:** Sourced from Game State Info.
 - **Warp Pathing:** Navigate tool does not avoid warps. Manually steer around.
 - **Boulder Tracking:** Link markers to object_id for moving objects.
-- **Pit Destinations:** Pit (2, 5) -> (2, 6) on 1F.
-
-# Time Tracking
-- Boulder Puzzle Started: Turn 29238.
+- **Pit Destinations:** Pit (2, 5) -> (2, 6) on 1F. Pit (8, 7) -> (7, 7) on 1F. Pit (8, 3) -> (7, 6) on 1F.
 
 # Blackthorn Gym Layout Theory
 - The gym is split into sections on both floors.
 - 1F Layout: West side contains Ladders (1, 7). East side island (7, 9).
 - 2F Layout: Quadrants NW, NE, SW, SE. Row 13 connects East and West.
-- Pit Destinations (Confirmed via Entry Points):
-  - 2F Pit (2, 5) -> 1F (2, 6) [Entry 3]
-  - 2F Pit (8, 7) -> 1F (7, 7) [Entry 4]
-  - 2F Pit (8, 3) -> 1F (7, 6) [Entry 5]
 - Strategy: Use 2F Row 13 to move between quadrants.
 
 # Blackthorn Gym Puzzle Progress
-- Status: All pits are EMPTY (reset after Turn 29336).
-- Master Puzzle Plan (Turn 29338):
-  1. Push Boulder 7 (6, 1) RIGHT to (9, 1). (Clears path to NE corner).
-  2. Push Boulder 3 (8, 2) DOWN into Pit (8, 3). (Stand at 8, 1).
-  3. Push Boulder 4 (2, 3) DOWN into Pit (2, 5). (Stand at 2, 2, then 2, 3).
-  4. Push Boulder 5 (6, 16) RIGHT to (7, 16). (Clears path to SE corner).
-  5. Push Boulder 8 (8, 13) UP to (8, 6), then DOWN into Pit (8, 7)? No, use path: (8, 13) -> (8, 12) -> (9, 12) -> (9, 6) -> (8, 6) -> (8, 7).
-- Current Status: On 2F (7, 9). Heading to (5, 1). [Time: Turn 29338]
+- Status:
+  - Pit (8, 3): Filled by Boulder 3 [Turn 29284]. Verified: Boulder 3 missing from 2F.
+  - Pit (2, 5): Filled by Boulder 4 [Turn 29318]. Verified: Boulder 4 missing from 2F.
+  - Pit (8, 7): EMPTY. Target is Boulder 7 (6, 1) or Boulder 8 (8, 13).
+- Master Puzzle Plan (Turn 29341):
+  1. Push Boulder 7 (6, 1) to Pit (8, 7).
+     - Push RIGHT to (7, 1).
+     - Push DOWN to (7, 3).
+     - Push RIGHT to (8, 3). (Wait, Pit 8,3 is filled).
+     - Push DOWN to (8, 7).
+  2. Verify all 3 pits are filled on 1F.
+  3. Challenge Clair.
+- SE Puzzle Plan (Archive): Push Boulder 8 (8, 13) UP to (8, 11), RIGHT to (9, 11), UP to (9, 7), LEFT to (8, 7). (Plan B if Boulder 7 fails).
+- NW Puzzle Plan (Archive): Push Boulder 6 (3, 3) up to (3, 1) to clear path to (2, 2) for Boulder 4. (Superseded: Boulder 4 is already in pit).
