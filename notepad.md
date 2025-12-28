@@ -14,8 +14,7 @@
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
 - Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
-- Verifying Eusine status in Cianwood City: Started Turn 27474. (Current Turn: 27550)
-- Current Plan: Exit house, then navigate to (11, 12) land tile via land route (Western detour to X=1/2, then east to X=8/11).
+- Verifying Eusine status in Cianwood City: Started Turn 27474.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger.
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
@@ -38,5 +37,5 @@
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers. Missing this battle is a common cause of progress stalling.
-- Navigation (Cianwood): The northern shore is reachable by surfing far east (X=23) to bypass the buoy barrier at Y=15, then looping back west. Land routes are blocked by walls at Y=13 and Y=15.
-- Tool Hygiene: Refined find_path_v9 to handle Objects, Ledges, and Warps. Outdated tools deleted.
+- Navigation (Cianwood): The northern shore is reachable on foot via a western detour (X=2) to bypass the Y=15-18 walls, then heading north to Y=14, east to X=8, and through the gap at (8, 13).
+- Tool Hygiene: Refined find_path_v9 to handle Objects, Ledges, Warps, and 'seen' tiles. Outdated tools deleted.
