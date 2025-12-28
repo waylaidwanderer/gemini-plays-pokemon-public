@@ -96,6 +96,6 @@
 - Goal: Find the path to the western section or exit.
 - Catch Successful! Diglett caught (Lv 8).
 - Nicknaming: 'DOUG'.
-- CRITICAL: PC Box 1 is FULL (20/20). Cannot catch more Pokemon until switching boxes at Pewter City PC.
-- Next: Navigate North to exit cave -> Route 2 -> Pewter City.
-- Consideration: Use Max Repel to speed up travel?
+- CRITICAL: PC Box 1 is FULL (20/20). Must switch boxes at Pewter City PC.
+- Current Progress: [D] [O] [ ] [ ]
+- Action: Typing 'D', 'O'. Next: 'U', 'G'.
