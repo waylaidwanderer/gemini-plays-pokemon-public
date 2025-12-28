@@ -27,4 +27,4 @@
 
 ## Progress
 - Turn 29021: Confirmed all 4 boulders are in position on B2F. Verified sliding path to ladder.
-- Turn 29028: Puzzle solved. Reached central floor area. Picking up item at (8, 9).
+- Turn 29031: Item collected. Proceeding to ladder at (9, 11).
