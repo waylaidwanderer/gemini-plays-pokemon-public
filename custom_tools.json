@@ -105,12 +105,17 @@
   "activate_strength_gneiss": {
     "description": "Navigates the menu to activate Strength using GNEISS (5th party member).",
     "input_schema": {},
-    "python_script": "import json\nprint(json.dumps([\"Start\", \"sleep 500\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\"]))\n",
+    "python_script": "import json\n# Press Up 10 times to ensure we are at the top (Pokedex)\n# Then Down once to Pokemon\n# A to enter\n# Down 4 times for 5th slot\n# A to select\n# A for Strength (assuming first move)\n# B to exit\nbtns = [\"Start\"] + [\"Up\"]*10 + [\"Down\", \"A\"] + [\"Down\"]*4 + [\"A\", \"A\", \"B\", \"B\", \"B\"]\nprint(json.dumps(btns))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2025-12-28T12:43:17.561Z",
         "action_counter": 28688
+      },
+      {
+        "commit_message": "Improved robustness by ensuring the cursor starts at the top of the menu.",
+        "timestamp": "2025-12-28T13:04:33.329Z",
+        "action_counter": 28718
       }
     ]
   }
