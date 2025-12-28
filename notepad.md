@@ -82,12 +82,12 @@
 - Snorlax used Rollout. Muscle HP 228/254. Snorlax HP ~Red.
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
-- Catch Attempt 3 failed ("Shoot! It was so close too!").
-- Snorlax used Rollout. Muscle HP 210/254.
-- Snorlax recovered with Leftovers. Status: Paralyzed.
-- Action: Throwing Ultra Ball (Attempt 4). Count: 18 (currently selecting).
-- Current State: Throwing ball now.
-- Catch Attempt 4 failed ("Oh no! The POKéMON broke free!").
-- Snorlax's Rollout missed! Chain broken. Damage threat is reset to low.
-- Snorlax HP ~Red. Recovering with Leftovers. Status: Paralyzed.
-- Action: Throwing Ultra Ball (Attempt 5). Count: 17.
+
+# Battle Status: Snorlax
+- HP: Red (Low)
+- Status: Paralyzed
+- Item: Leftovers (Recovering HP)
+- Moves Known: Rollout (Missed last turn), Rest (Likely), Snore (Likely)
+- Catch Attempts: 4 failed.
+- Current Action: Throwing Ultra Ball (Attempt 5).
+- Stock: 17 Ultra Balls remaining.
