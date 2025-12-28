@@ -1,7 +1,5 @@
 # Suicune Quest Strategy (Crystal Version)
-## Suicune Quest History
 - **Quest Start Turn:** ~27180
-- **Status:** Searching for missing overworld sightings.
 
 ## Status & Progress
 - **Key Items:** Clear Bell (Acquired)
@@ -16,12 +14,12 @@
 - **Lead:** XENON (Gastly) Lv21.
 - **Moves:** Hypnosis (sleep), Night Shade (fixed damage).
 - **Items:** 43 Great Balls, 1 Ultra Ball.
-- **Note:** Suicune is a static encounter in Tin Tower and does NOT flee. Mean Look is not required.
+- **Note:** Suicune is a static encounter in Tin Tower and does NOT flee.
 
 ## Battle Strategy (Wise Trio)
 - **Lead:** GNEISS (Graveler) Lv44.
 - **Moves:** Earthquake, Rollout.
-- **Status:** Sages on 1F (Map 3_4) currently providing lore; will battle only after Route 42 and 36 sightings are complete.
+- **Requirement:** Trio will only battle after Route 42 and 36 sightings are complete.
 
 ## Tile Mechanics - Global
 - **FLOOR**: Walkable.
