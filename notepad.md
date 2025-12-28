@@ -29,3 +29,4 @@
 - "Boulder 1 is at (11, 5)" - Incorrect, it was pushed to (10, 5).
 - "Mixed inputs in menus" - Always use single actions or autopress.
 - "navigation_and_puzzle_solver" tool - Hallucinated. Use built-in tools.
+- "B3 at (3, 12) is unreachable from B2F entry point (4, 17)" - Attempted and tool returned no path. Must return to B1F.
