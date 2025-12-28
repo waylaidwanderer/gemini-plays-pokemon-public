@@ -23,7 +23,8 @@
 - ICE (Rows 1-2): Sliding mechanic. Boulders do NOT slide on ice.
 - PIT: Warp to B2F. Filling a pit creates a stopper on B2F.
 - BOULDER: Boulders on floor reset on ladder use. Boulders in pits are permanent.
-- STRENGTH: Deactivates after battle or floor change. Verified.
+- STRENGTH: Deactivates after EVERY battle or floor change. Verified. MUST reactivate immediately after any battle when puzzling.
+- Puzzle Start Turn: 28546. Current Turn: 28702.
 
 ## Encounters
 - Golbat (Lv25) at (5, 9).
