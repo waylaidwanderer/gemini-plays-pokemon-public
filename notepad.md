@@ -74,3 +74,7 @@
 - Throwing Ultra Ball (Attempt 1) - Confirmed.
 - Current Stock: 20 Ultra Balls (after this throw).
 - Snorlax is Paralyzed and Low HP. This is the best chance.
+- Catch Attempt 1 failed ("So close!").
+- Snorlax used Rollout (locked in). Muscle taking negligible damage.
+- Snorlax recovered with Leftovers. Status still Paralyzed.
+- Action: Throwing Ultra Ball (Attempt 2). Count: 20.
