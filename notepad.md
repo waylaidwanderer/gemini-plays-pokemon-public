@@ -1,7 +1,7 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* CRITICAL: Missing EXPN Card. Cannot tune to Poke Flute.
-   - *Plan:* Fly to Lavender Town -> Enter Radio Tower -> Talk to Director -> Get EXPN Card -> Return to Snorlax.
+   - *Status:* Arrived in Lavender Town. Heading to Radio Tower for EXPN Card.
+   - *Plan:* Enter Radio Tower -> Talk to Director -> Get EXPN Card -> Return to Snorlax.
    - *Next:* Battle Snorlax after obtaining EXPN Card.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
