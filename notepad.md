@@ -31,7 +31,6 @@
 - 2F Boulders:
   - Boulder 6: (3, 3)
   - Boulder 7: (6, 1)
-  - Boulder 8: (8, 17) (UNVERIFIED - suspected hallucination)
 - 2F Pits:
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
