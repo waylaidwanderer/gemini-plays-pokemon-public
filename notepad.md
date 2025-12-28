@@ -126,3 +126,6 @@
 - Found ladder at (3, 3) in western corridor.
 - This should be the exit to Route 2 (Pewter City side).
 - Box 1 is still full. Priority is PC.
+- Ladder at (3, 3) warped to (17, 3) (Top-Right section).
+- Found Exit Warp at (15, 5). This MUST be Route 2.
+- Action: Exiting cave now.
