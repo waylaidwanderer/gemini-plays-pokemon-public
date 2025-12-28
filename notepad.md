@@ -12,7 +12,7 @@
 # Fuchsia City Notes
 - **Safari Zone Office:** (22, 13). Empty.
 - **Gym Location:** (5, 29) Sign. Entrance likely nearby.
-- **Ledges:** Row 22 is passable (ledge).
+- **Ledges:** Row 22 is IMPASSABLE (Wall). Gap at (24, 22).
 
 # Reflection (Turn 24197)
 - **Execution:** No tasks deferred. Progressing steadily.
