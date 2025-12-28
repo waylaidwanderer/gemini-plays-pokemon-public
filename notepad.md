@@ -98,3 +98,5 @@
 - Bill called: Confirmed Box 1 is FULL.
 - Goal: Exit Diglett's Cave (North) -> Route 2 -> Pewter City to switch boxes.
 - Current Loc: Diglett's Cave (14, 30). Moving North.
+- Winding path detected: Moving North requires navigating around walls at (14, 20).
+- Path: (14, 22) -> (14, 21) -> (13, 21) -> North.
