@@ -19,16 +19,15 @@
 - Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 6) on 1F, Lola (9, 2) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 
-# Strategy: Gym Leader Clair
-- Roster: Dragonair (Lv37) x3, Kingdra (Lv40).
-- Dragonair Moves: Thunder Wave, Surf/Thunderbolt/Ice Beam, Slam, Dragonbreath.
-- Kingdra Moves: Surf, Dragonbreath, Smokescreen, Hyper Beam.
-- Battle Plan:
-  1. Lead with Calcifer. Use Thunderpunch vs Dragonairs (neutral damage, bypasses Fire resistance).
-  2. If paralyzed, use Full Heal or fodder swap.
-  3. Against Kingdra: Use Smokescreen 2-3 times to force misses on Surf/Hyper Beam.
-  4. Use Thunderpunch/Earthquake to finish Kingdra.
-  5. Use low-level PKMN as shields for healing/reviving.
+# Strategy: Kingdra
+- Status: Kingdra (Lv40) is out. Calcifer (66 HP, PAR) is in danger.
+- Plan:
+  1. Switch to KIMCHI (Gloom, 57 HP). Resists Surf. (In Progress)
+  2. Use Sleep Powder to disable Kingdra.
+  3. Switch to Calcifer.
+  4. Use Smokescreen (2-3 times) to lower accuracy.
+  5. Use Thunderpunch/Headbutt to finish.
+  6. Use MAX POTION on Calcifer if needed once Kingdra is disabled.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: Mainland (Rows 12-17) and Island (Rows 2-10) are isolated on 1F.
