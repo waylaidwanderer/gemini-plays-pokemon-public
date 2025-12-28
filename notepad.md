@@ -3,17 +3,13 @@
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Reset floor via pit (Complete). Boulders are back at start positions. [DONE]
-2. Return to B1F via ladder at (17, 1). [DONE]
-3. Navigate to (11, 8) via northern corridor and long western loop. [CURRENT]
-3. Navigate to (11, 8) and push UP to (11, 5).
-4. Move to (12, 5) and push LEFT to (10, 5).
-5. Move to (10, 6) and push UP to (10, 1).
-6. Move to (9, 1) and push RIGHT to (11, 1).
-7. Move to (11, 0) and push DOWN into Pit 1. (CRITICAL: Do NOT push to 10,0).
+1. Navigate to (11, 8) via long loop. [CURRENT]
+2. Push UP to (11, 5), then LEFT to (10, 5), then UP to (10, 1).
+3. Move to (9, 1) and push RIGHT to (11, 1).
+4. Move to (11, 0) and push DOWN into Pit 1. (Do NOT push to 10,0).
 
 ## Boulder 2 (ID 2) -> Pit 2 (4, 7)
-1. Move to (8, 8), push LEFT to (5, 8). [CURRENT]
+1. Move to (8, 8), push LEFT to (5, 8).
 2. Move to (5, 9), push UP to (5, 6).
 3. Move to (6, 6), push LEFT to (4, 6).
 4. Move to (4, 5), push DOWN into Pit 2.
@@ -33,8 +29,9 @@
 - WATER: Needs Surf (HM03).
 - ICE: Sliding mechanic. B1F northern corridor (Row 1-2) and B2F large rink.
 - PIT: Warp to B2F. Filling a pit with a boulder creates a stopper on B2F.
-- BOULDER: Pushable with Strength. Resets on floor change.
-- STRENGTH: Must be re-activated after every floor transition or battle. (Last Battle: Turn 28621).
+- BOULDER: Pushable with Strength. Resets to start position when changing floors via ladder or pit. Verified.
+- STRENGTH: Must be re-activated after every floor transition or battle. Verified.
+- PIT RESET: Hypothesis - Falling through a pit resets boulders. To be verified.
 
 ## Battle Strategy
 - Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
