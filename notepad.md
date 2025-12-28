@@ -21,7 +21,6 @@
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 
 # Strategy: Gym Leader Clair (REVISED)
-- Status: Whited out Turn 29510. Money: ¥9042 (after selling Protein). Inventory: 3 Full Heals.
 - Battle Strategy (Analyst Turn 29637):
   1. Lead GNEISS (Lv45). Use EARTHQUAKE vs Dragonairs.
   2. If first Dragonair uses Surf, switch to Calcifer to absorb and finish with RETURN.
@@ -35,15 +34,11 @@
   - Boulder 6: (3, 3)
   - Boulder 7: (6, 1)
   - Boulder 8: (8, 14)
-- 2F Pits:
+- 2F Pits (All empty after reset):
   - Pit (2, 5) -> 1F (2, 6)
   - Pit (8, 3) -> 1F (7, 6)
-  - Pit (8, 7) -> 1F (7, 7) (Status: FILLED)
-- Progress (Start Turn: 29620):
-  - Gym reset. Starting puzzle from scratch.
-  - Goal: Fill (2, 5) and (8, 3).
-  - (7, 7) bridge is active. 
-  - Strength active. (Turn 29637).
+  - Pit (8, 7) -> 1F (7, 7)
+- Strategy: Fill all three pits to complete the bridge to Clair.
 - Layout Corrections:
   - (4, 1) is Cody (Wall).
   - (4, 11) is Fran (Wall). Gap to east is at (5, 11).
