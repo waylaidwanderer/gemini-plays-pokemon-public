@@ -1,7 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Standing next to Snorlax (34, 10). EXPN Card verified.
-   - *Plan:* Open Pokegear -> Tune Radio to Poke Flute (Channel 20) -> Interact (A) -> Battle Snorlax.
+   - *Status:* Standing next to Snorlax. "Snoring peacefully".
+   - *Problem:* Radio likely not actively playing Poke Flute.
+   - *Plan:* Open Pokegear -> Radio -> Find "POKé FLUTE" station (Tune near 20) -> Exit -> Interact.
    - *Battle Strategy:* Lead with Muscle. Use Ice Punch/Thunderpunch. Catch with Ultra Balls.
    - *Next:* Enter Diglett's Cave.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
