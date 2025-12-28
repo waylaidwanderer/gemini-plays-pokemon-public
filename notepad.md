@@ -1,24 +1,22 @@
 ## Battle Strategy (Blackthorn Gym)
 - Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
-- Kingdra Strategy: Only weak to Dragon. Use Typhlosion (Lv45) with Thunderpunch and Graveler (Lv44) with Earthquake.
-- Dragonair Strategy: Weak to Ice. Catch Swinub or Jynx in Ice Path.
+- Strategy: Typhlosion (Lv45) with Thunderpunch and Graveler (Lv44) with Earthquake. Jynx (Ice Path) is a good backup for Dragonairs.
 
 ## Tile Mechanics
-- FLOOR: Walkable. NOTE: B1F floor tiles do NOT slide. B2F floor islands are walkable.
+- FLOOR: Walkable. Verified: B1F floor tiles do NOT slide. B2F floor islands are walkable.
 - WALL: Impassable.
 - WATER: Needs Surf (HM03).
-- ICE: Sliding mechanic. B1F northern corridor (Row 1-2) and B2F large rink. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
+- ICE: Sliding mechanic. B2F only. Moving onto ICE causes sliding until hitting non-ICE, wall, or object.
 - PIT: Warp to B2F. Dropping a boulder fills the pit on B2F, creating a "stopper" tile.
 - BOULDER: Pushable with Strength (HM04). Resets to start position when changing floors via ladder or pit.
 - STRENGTH: Must be re-activated after every floor transition or battle.
 
 # B1F Boulder Puzzle (All Pits Pending)
-- Start Turn: 28207.
-- Current Attempt Start: 28546.
-- Pit 1: (11, 2), Pit 2: (4, 7), Pit 3: (5, 12), Pit 4: (12, 13)
+- Attempt Start: Turn 28546.
+- Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Detour to (11, 8) using B1F northern ice corridor. [CURRENT]
+1. Detour to (11, 8) via B2F (9,11) transit (B1F is partitioned). [CURRENT]
 2. Push Boulder 1 UP to (11, 5).
 3. Move to (12, 5) and push LEFT to (10, 5).
 4. Move to (10, 6) and push UP to (10, 1).
@@ -39,6 +37,7 @@
 1. Move to (18, 7), push LEFT to (12, 7).
 2. Move to (12, 6), push DOWN into Pit 4.
 
-# Lessons Learned
-- Boulders: Dropped boulders serve as stoppers on B2F ice to reach the central ladder at (9, 11).
-- Catch List: Swinub (Common), Jynx (Rare). Use Sleep Powder/Hypnosis. Strategy Advisor says not strictly necessary but helpful.
+# Tracking
+- B2F Stopper Boulders: (3, 12) and (12, 13) present.
+- Verification: All 4 pits are currently UNFILLED.
+- Catch List: Swinub, Jynx (Rare). Use Sleep Powder/Hypnosis. Strategy Advisor says not strictly necessary but helpful.
