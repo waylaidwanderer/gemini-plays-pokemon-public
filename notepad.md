@@ -15,31 +15,34 @@
 
 # B1F Boulder Puzzle
 - Start Turn: 28207.
-- Pit 1 (11, 2): Pushing Boulder 1 (ID 1).
+- Reset Turn: 28385 (Fell through pit, floor reset).
+- Pit 1 (11, 2): Pending Boulder 1 (ID 1).
 - Pit 2 (4, 7): Pending Boulder 2 (ID 2).
-- Pit 3 (5, 12): COMPLETED with Boulder 3 (ID 3).
-- Pit 4 (12, 13): COMPLETED with Boulder 4 (ID 4).
+- Pit 3 (5, 12): COMPLETED.
+- Pit 4 (12, 13): COMPLETED.
 
 ## Boulder 1 Sequence (ID 1)
-1. Push Up to (11, 5). [DONE - T28361]
-2. Move to (12, 5). [DONE - T28362]
-3. Push Left to (10, 5). [DONE - T28363]
-4. Move to (10, 6). [DONE - T28367]
-5. Push Up to (10, 1). [DONE - T28373]
-6. Push Right to (12, 1). [DONE - T28383]
-7. Move to (13, 1). [NEXT]
-8. Push Left to (11, 1).
-9. Move to (11, 0).
-10. Push Down to (11, 2). [PIT]
+1. Push Up to (11, 5).
+2. Move to (12, 5).
+3. Push Left to (10, 5).
+4. Move to (10, 6).
+5. Push Up to (10, 1).
+6. Move to (9, 1).
+7. Push Right to (11, 1).
+8. Move to (11, 0).
+9. Push Down to (11, 2). [PIT]
 
 ## Boulder 2 Sequence (ID 2)
-1. Move to (6, 6) via loop around top.
-2. Push Left to (4, 6).
-3. Move to (4, 5).
-4. Push Down to (4, 7). [PIT]
+1. Push Left to (5, 8).
+2. Move to (5, 9).
+3. Push Up to (5, 6).
+4. Move to (6, 6).
+5. Push Left to (4, 6).
+6. Move to (4, 5).
+7. Push Down to (4, 7). [PIT]
 
 # Current Status (B1F)
-- Successfully returned to B1F via ladder at (17, 3).
-- Goal: Finish pushing Boulder 1 and Boulder 2 into their respective pits.
-- Boulder 1 (ID 1) is at (10, 1).
-- Boulder 2 (ID 2) is at (5, 6).
+- Boulders reset due to floor exit.
+- Boulder 1 (ID 1) is at (11, 7).
+- Boulder 2 (ID 2) is at (7, 8).
+- Goal: Push Boulder 1 into Pit 1.
