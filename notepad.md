@@ -14,8 +14,9 @@
 - Phase Start: Turn 27180
 - Exploration Phase Start: Turn 27390
 - Tracking Wild Suicune Phase Start: Turn 27442 (Dec 27, 2025)
+- Route 42 Sighting Attempt: Started Turn 27570.
 - Key Items: Clear Bell (Acquired)
-- Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger.
+- Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore before wild sightings on Route 42 and 36 will trigger. (Status: Verified, Eusine missing from shore).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees outside Mt. Mortar middle entrance.
 - Route 36 Trigger: Target location TBD.
 - Final Encounter: Tin Tower (static battle) after all wild sightings.
@@ -25,15 +26,13 @@
 - Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
 
 ## Capture Strategy (Suicune)
-- Suicune is a static encounter in Tin Tower (Crystal). 
+- Suicune is a static encounter in Tin Tower (Crystal) at Lv40.
 - Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
+- **CRITICAL RISK:** Xenon is severely underleveled (Lv21 vs Lv40). Suicune will likely outspeed and KO Xenon before Hypnosis can be used. Consider training a faster/bulkier sleep inducer or using items to boost speed.
 - Items: 43 Great Balls, 1 Ultra Ball.
 
 ## Lessons Learned
 - Suicune Quest (Crystal): The quest is strictly gated. Eusine must be defeated in Cianwood before the Route 42 sighting triggers.
-- Navigation (Cianwood): The northern shore is complex to reach by land due to wall placement.
-- Event Verification: If Eusine is missing from the Cianwood beach after Suicune flees, the battle flag is likely set or the event was completed.
-
-## Task Log
-- Turn 27474: Started verifying Eusine's defeat in Cianwood.
-- Turn 27564: Eusine confirmed missing from shore; battle flag verified. Proceeding to Route 42.
+- Event Verification: If Eusine is missing from the Cianwood beach after Suicune flees, the battle flag is likely set.
+- Navigation: Entering water costs 3 actions (Face/A, Confirm A, Move).
+- Tool Hygiene: find_path_v9 refined to use Dijkstra for accurate cost estimation and 'seen' tile filtering.
