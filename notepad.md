@@ -12,7 +12,7 @@
   - Gentleman (0,5): Checks Friendship.
   - Pharmacist (0,3): Claims Rocket Hideout in Game Corner basement (then retracted "3 years ago"). Suspicious.
   - Eusine (4,3): Visiting hometown.
-  - Cooltrainer F (7,6): Unspoken.
+  - Cooltrainer F (7,6): Warns that Erika is a master of Grass Pokemon and very tough.
 
 # Quest Logic (Kanto Badges)
 - **Badges:** 12/16.
