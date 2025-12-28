@@ -1,53 +1,46 @@
 ## Battle Strategy (Blackthorn Gym)
 - Gym Leader Clair: Dragon-types (Dragonair Lv 37 x3, Kingdra Lv 40).
-- Recommended Lead: Calcifer (Typhlosion).
-- Against Kingdra: Use Thunderpunch (Typhlosion).
-- Against Dragonairs: Use Headbutt or Flame Wheel (Typhlosion), or Earthquake (Graveler).
-- Support: Use XENON (Gastly) Hypnosis or KIMCHI (Gloom) Sleep Powder to disable dragons.
-- Training: Catch Swinub/Jynx for Ice coverage. Evolve Gastly to Haunter.
-- Note: Severe level gap for support Pokemon; use them as fodder for healing primary attackers if needed.
+- Recommended Lead: Typhlosion (Lv 45).
+- Against Kingdra: Use Thunderpunch. It's the only weakness in Gen 2 besides Dragon.
+- Against Dragonairs: Use Headbutt/Flame Wheel or Graveler's Earthquake.
+- Support: Use Gloom/Gastly for status (Sleep/Hypnosis). They are low level, so use them as fodder to heal main attackers.
+- Prep: Catch Swinub or Jynx in Ice Path for Ice-type coverage. Evolve Gastly.
 
 ## Training & Prep
-- Goal: Level XENON and KIMCHI to Lv 38-40.
-- Target: Catch Swinub or Jynx in Ice Path for Ice-type coverage.
-- Calcifer: Look for TM for Return to increase physical damage.
+- Goal: Level support team (Gloom, Gastly) to Lv 38-40.
+- Target: Catch Swinub/Jynx for Ice coverage.
+- Typhlosion: Look for TM for Return.
 
 # Tile Mechanics - Global
-- FLOOR: Standard walkable tile. Verified traversable.
-- WALL: Impassable boundary. Verified impassable.
-- WATER: Traversable only with Surf (HM03). Verified traversable.
-- ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
-- PIT: Warp tile. Leads to floor below.
-- BOULDER: Impassable object; can be pushed with Strength.
+- FLOOR: Walkable.
+- WALL: Impassable.
+- WATER: Needs Surf.
+- ICE: Sliding mechanic.
+- PIT: Warp to floor below.
+- BOULDER: Pushable with Strength.
 
 # Exploration Plan: Ice Path B1F
-- Goal: Find all boulders and push them into pits to clear the path on B2F.
-- Step 1: Explore B1F to locate remaining boulders and pits. [DONE]
-- Step 2: Hypothesis: Boulders pushed into pits on B1F appear as stopping points on B2F. (Unverified)
-- Step 3: Use Strength to push boulders into pits. [In Progress]
-- Step 4: Find the ladder to B2F once the path is clear.
-- Start Turn: 28207.
+- Goal: Push all 4 boulders into pits.
+- Status: 4/4 boulders and pits located. Pushing in progress.
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (11, 7) - ID 1
 - Boulder 2: (5, 6) - ID 2
-- Boulder 3: (7, 11) - ID 3
+- Boulder 3: (6, 11) - ID 3
 - Boulder 4: (17, 7) - ID 4
 - Pit 1: (11, 2)
 - Pit 2: (4, 7)
 - Pit 3: (5, 12)
 - Pit 4: (12, 13)
-- Note: Found all 4 boulder/pit pairs.
 
 # Boulder Pushing Sequence (B1F)
-## Boulder 3 (7, 11) to Pit 3 (5, 12)
-1. Push Left to (6, 11). [NEXT]
-2. Push Left to (5, 11).
-3. Push Left to (4, 11).
-4. Move to (4, 10).
-5. Push Down to (4, 12).
-6. Move to (3, 12).
-7. Push Right to (5, 12) [Target: Pit 3].
+## Boulder 3 (6, 11) to Pit 3 (5, 12)
+1. Push Left to (5, 11). [NEXT]
+2. Push Left to (4, 11).
+3. Move to (4, 10) via (3, 11) and (3, 10).
+4. Push Down to (4, 12).
+5. Move to (3, 12).
+6. Push Right to (5, 12) [Target: Pit 3].
 
 ## Boulder 2 (5, 6) to Pit 2 (4, 7)
 1. Move to (6, 6) via loop around top.
