@@ -1,14 +1,14 @@
 # Current Status
-- **Status:** On Route 5 (North End).
-- **Location:** (4, 0).
-- **Goal:** Enter Cerulean City.
-- **Action:** Walk North to exit Route 5.
+- **Status:** In Cerulean City.
+- **Location:** (14, 35).
+- **Goal:** Reach Route 24 (North).
+- **Action:** Navigate North through the city to the Nugget Bridge.
 
 # Future Strategy
-1. Arrive in Cerulean City.
-2. Go North to Route 24 (Nugget Bridge).
-3. Continue East to Route 25 (The Cape).
-4. Find Misty.
+1. Cross Nugget Bridge (Route 24).
+2. Continue East to Route 25 (The Cape).
+3. Find Misty.
+4. Return to Gym to earn Cascade Badge.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
