@@ -29,4 +29,4 @@
 - **LADDER:** Walkable (Bridge/Stairs). In Cerulean North, leads to Route 24.
 
 ## Task Timestamp
-- **Finding Misty:** Started ~Turn 23600. Current Turn: 23666.
+- **Finding Misty:** Started ~Turn 23600. Current Turn: 23713.
