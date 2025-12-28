@@ -83,8 +83,6 @@
 - Action: Throwing Ultra Ball (Attempt 3). Count: 18 (after this throw).
 - Current State: Ball thrown. Watching result.
 
-- Snorlax Caught! Added to Pokedex.
-- Post-Battle State: Viewing Pokedex entry.
+- Snorlax Caught! Nicknaming 'PAVLOV'.
 - PC Box 1: 19/20 slots filled. Approaching capacity.
-- Planned Nickname: PAVLOV.
-- Next: Enter Diglett's Cave.
+- Next: Enter Diglett's Cave (Entrance at 34, 7).
