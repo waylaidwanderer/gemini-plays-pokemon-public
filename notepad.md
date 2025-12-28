@@ -42,3 +42,7 @@
 - Flight Check: Always verify destination city before confirming Fly.
 - Wise Trio: Battle sequence is the final gate to Suicune in the Tin Tower.
 - Lesson: Suicune sightings are strictly sequential (Burned Tower -> Cianwood -> Route 42 -> Route 36 -> Tin Tower). If sages don't battle at Tin Tower, verify previous sightings using the tracker. Trigger points must be stepped on directly.
+- Suicune Quest Detail: Sage at Gatehouse (Turn 27216) said "Tin Tower shook and a Pokemon must have returned to the top." This suggests the Clear Bell is active.
+- Attempt: Route 42 (26, 15) reached at Turn 27718, but no sighting triggered.
+- Hypothesis: Missing Eusine battle flag in Cianwood or sighting sequence is out of order.
+- Plan: Fly to Cianwood to verify Eusine's presence.
