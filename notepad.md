@@ -41,3 +41,6 @@
 - **North Gate (to Route 5):** (18, 3)
 - **East Gate (to Route 8):** (39, 22)
 - **South Gate (to Route 6):** (16, 33)
+- **Route 7:**
+  - Locked Door at (6, 9) (likely Underground Path, inaccessible).
+  - Gap in ledges at x=12 allows access to south side.
