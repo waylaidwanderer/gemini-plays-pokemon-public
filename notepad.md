@@ -25,3 +25,8 @@
 - TM44 Rest collected at (8, 16) on B2F.
 - PP UP collected at (32, 23) on 1F.
 - PROTEIN collected at (35, 9) on 1F.
+
+# Blackthorn City Discoveries
+- Building at (29, 23) confirmed as Pokemon Center (suspected). Entrance is at (29, 23). Wall at (31, 23) blocks direct access from the east.
+- Sign at (34, 24): "BLACKTHORN CITY - A Quiet Mountain Retreat"
+- Cooltrainer F (Flavor NPC) at (35, 19).
