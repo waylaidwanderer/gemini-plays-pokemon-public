@@ -36,4 +36,4 @@
 
 ## Task Log
 - Turn 27474: Started verifying Eusine's defeat in Cianwood.
-- Turn 27564: Eusine confirmed missing from shore; proceeding to Route 42.
+- Turn 27564: Eusine confirmed missing from shore; battle flag verified. Proceeding to Route 42.
