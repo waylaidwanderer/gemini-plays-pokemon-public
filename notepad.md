@@ -45,3 +45,4 @@
   - **Action:** Exit Cafe and look for Cut trees or paths East/South.
 - **Tool Diagnostic:** `bfs_pathfinder` updated with debug prints. Monitoring performance.
 - **Quest Start:** Turn 24041 (Searching Celadon Cafe).
+- **Hidden Item Check:** Checking trash can at (7, 1) in Celadon Cafe for Leftovers (classic location).
