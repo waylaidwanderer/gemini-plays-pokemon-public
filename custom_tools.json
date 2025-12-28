@@ -108,7 +108,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Sequence: Reset with B, Start, Up*10 (to POKEDEX), Down (to POKEMON), A, Down*4 (to GNEISS), A, A (Strength), B mashing\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\", \"B\"]\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n# Sequence: Reset with B, Start, Up*3 (from GEM to POKEMON), A, Down*4 (to GNEISS), A, A (Strength), B mashing\nbuttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\", \"B\"]\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -119,6 +119,11 @@
         "commit_message": "Improved Strength activation logic to be more robust to starting menu position by navigating to the top of the menu first.",
         "timestamp": "2025-12-28T14:26:41.203Z",
         "action_counter": 28826
+      },
+      {
+        "commit_message": "Refined Strength tool to navigate from GEM (default cursor position) to POKEMON accurately.",
+        "timestamp": "2025-12-28T14:27:53.036Z",
+        "action_counter": 28827
       }
     ]
   }
