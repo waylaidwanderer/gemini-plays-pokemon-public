@@ -17,15 +17,16 @@
 - Move Deleter's House: (9, 31).
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
-- Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F.
+- Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
 - Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
 
 # Strategy: Heal and Return
+- Primary Goal: Acquire the 8th Gym Badge (Start Turn: 29224).
 - Status: Party weakened (Calcifer PAR 65/145, Gneiss 46/126).
 - Goal: Heal at Blackthorn Pokemon Center and return to challenge Clair.
 - Exit Path:
-  1. Ladder at (7, 9) [1F -> 2F].
-  2. Traverse 2F to Ladder at (1, 7).
+  1. Ladder at (7, 9) [1F -> 2F]. (Done)
+  2. Traverse 2F to Ladder at (1, 7). (In Progress)
   3. Ladder at (1, 7) [2F -> 1F].
   4. Exit Gym at (4, 17) or (5, 17).
 - Return Path:
@@ -43,13 +44,9 @@
   - 2F Pit (8, 7) -> 1F (7, 7) [Entry 6]
   - 2F Pit (8, 3) -> 1F (7, 6) [Entry 7]
 
-# Blackthorn Gym Progression
-- Puzzle: All boulders pushed into pits (8, 3), (2, 5), (8, 7). Bridge complete. (Confirmed Turn 29415)
-- Remaining Trainers: None. (Paul, Mike, Fran, Cody, Lola defeated).
-- Goal: Defeat Clair.
-
 # Reflection & Lessons
 - **Turn Tracking:** Sourced from Game State Info.
+- **NPC Collision:** Defeated NPCs still occupy their tiles and are impassable objects. Always path around them. (Turn 29424)
 - **Boulder Persistence:** Pushed boulders stay in pits even if the 2F floor is reset by changing floors.
 - **Scientific Method:** Formed hypothesis that Boulder 7 was the key for Pit (8,7). Disproved it by observing Row 0 walls. Revised to Boulder 5.
 - **Warp Safety:** Entry points on 1F (6, 7, 5) correspond to specific pits on 2F. Verified via entry point data. (Turn 29374)
