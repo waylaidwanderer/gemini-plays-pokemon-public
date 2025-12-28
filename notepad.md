@@ -26,6 +26,7 @@
 - **Hypothesis:** The Wise Trio battle in Tin Tower 1F can be triggered by possessing the Clear Bell, even if the overworld sightings on Route 42 and Route 36 were not witnessed.
 - **Test:** Talk to all three Sages (Masa, Koji, Gaku) in Tin Tower 1F and check if they initiate a battle.
 - **Status:** In progress.
+- **Failure Condition:** If the Sages do not battle, abandon Suicune quest and pivot to Blackthorn City (8th Badge).
 
 ## Battle Strategy (Wise Trio)
 - Sage Gaku: Noctowl (32), Flareon (32). Counter: GNEISS (Rollout/Earthquake).
