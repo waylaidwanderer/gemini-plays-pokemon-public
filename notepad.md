@@ -91,3 +91,8 @@
 - Path leads South over ledges.
 - Deduced that this East Side path connects Diglett's Cave to Viridian City.
 - New Plan: Go South to Viridian City -> Switch PC Box -> Go North via West Route 2 -> Viridian Forest -> Pewter City.
+- Jumped ledges to (17, 48).
+- Found Item Ball at (14, 50).
+- Navigating to pick it up.
+- Area seems enclosed by walls to the South (Row 51).
+- Plan: Get item, then explore West to find the path to Viridian City.
