@@ -38,3 +38,7 @@
 - Strategy Pivot: Empty Wise Trio room overrides previous assumptions of completion. Return to wild sightings.
 - Route 42 Trigger: (26, 15) is the clearing with three Apricorn trees. Must be reached on foot.
 - Lesson: In Crystal, all outdoor sightings must be triggered before the Wise Trio appears.
+## Suicune Sighting Attempt - Route 42
+- Turn 27838: Arrived at (26, 15). Walking around the island to trigger cutscene.
+- Systematic Patrol: (26, 15) -> (27, 14) -> (28, 15) -> (29, 15) -> (30, 15).
+- Observation: Suicune not currently in Map Objects. Expecting scripted spawn.
