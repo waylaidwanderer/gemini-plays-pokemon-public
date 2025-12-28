@@ -48,14 +48,16 @@
 - **Pit Destinations (Verified):** Pit (2, 5) -> 1F (2, 6). Pit (8, 7) -> 1F (7, 7). Pit (8, 3) -> 1F (7, 6).
 
 # Blackthorn Gym Puzzle Progress
-- Status: Boulders 3 and 4 are missing from 2F and 1F landing spots. [Turn 29361]
-- Hypothesis: PROGRESS IS SAVED. Pits (8, 3) and (2, 5) are likely filled, but boulders are in unseen areas of 1F.
-- Master Puzzle Plan (Turn 29361):
-  1. Locate Boulders 5 and 8 in the SE quadrant of 2F.
-  2. Push one of them into Pit (8, 7).
-  3. Verify the final result on 1F.
-- SE Puzzle Attempt 1: Stand at (8, 14), push Boulder 8 UP to (8, 11). Move to (8, 12), push RIGHT to (9, 11). Move to (9, 12), push UP to (9, 7). Move to (9, 8), push LEFT into Pit (8, 7). (Wait, X=10 is invalid).
-- SE Puzzle Attempt 2: Push Boulder 5 (6, 17) UP to (6, 13), RIGHT to (7, 13), then find path to (8, 7).
+- Status: Boulders 3 and 4 are confirmed missing from 2F, likely in pits. Pits (8, 3) and (2, 5) are presumed filled.
+- Final Goal: Fill Pit (8, 7) using Boulder 5 (6, 16).
+- The Loop Plan (Turn 29363):
+  1. Navigate to (8, 13).
+  2. Push Boulder 8 (8, 14) DOWN to (8, 17) to clear Column 8.
+  3. Walk (8, 13) -> (8, 14) -> (8, 15) -> (8, 16) -> (8, 17) -> (7, 17) -> (6, 17).
+  4. From (6, 17), push Boulder 5 (6, 16) all the way UP to (6, 7).
+  5. Navigate to (5, 7), push Boulder 5 RIGHT to (8, 7) (PIT).
+- Verification: Pits (8, 3) and (2, 5) were filled in turns 29284 and 29318. Resetting the floor did NOT restore them to 2F, indicating success.
+- Current Status: Strength active. Heading to (8, 13). [Time: Turn 29363]
 
 # Current Battle: Cooltrainer Mike (1F)
 - Opponent Lead: Dragonair (Lv37).
