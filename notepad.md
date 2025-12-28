@@ -3,7 +3,7 @@
 - WALL: Impassable.
 - PIT: Warp tile. Falling through takes you to the floor below.
 - LADDER: Warp tile. Used to travel between floors.
-- BOULDER: Object. Impassable. Can be pushed with Strength.
+- BOULDER: Object. Impassable. Can be pushed with Strength. All objects (NPCs, items) are impassable and act as walls. (Turn 29424)
 - ICE: Sliding mechanic (Ice Path).
 - ROCK: Destructible with ROCK SMASH.
 - WATER: Requires Surf to traverse.
@@ -22,10 +22,11 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (REVISED)
-- Status: Whited out Turn 29510. Party fully healed. Money: ¥5942.
-- Preparation:
+- Status: Whited out Turn 29510. Party fully healed. Money: ¥4142.
+- Preparation (Start Turn: 29511):
   1. Buy FULL HEALS and HYPER POTIONS at Mart (In Progress).
-  2. Teach TM27 RETURN to Calcifer.
+  2. Sell PROTEIN for funds.
+  3. Teach TM27 RETURN to Calcifer.
 - Battle Plan:
   1. Lead Calcifer. Use RETURN vs Dragonairs.
   2. Lower Kingdra accuracy with SMOKESCREEN immediately.
@@ -37,10 +38,9 @@
   - 2F Pit (8, 7) -> 1F (7, 7)
   - 2F Pit (8, 3) -> 1F (7, 6)
 
-# Reflection & Lessons
-- **Clair Battle:** Kingdra's Surf is the primary threat to Calcifer and Gneiss. Fodder-healing strategy is viable but requires more items.
-- **NPC Collision:** Defeated NPCs are impassable. (Turn 29424)
-- **Warp Safety:** 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
+# Navigation Insights
+- Warp Safety: 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
+- Isolation: Isolated map areas (like Gym Island) require indirect paths (e.g., through 2F). (Turn 29420)
 
 # Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
