@@ -35,6 +35,11 @@
 - COUNTER: Impassable barrier often found in shops or gatehouses; allows interaction with NPCs behind it. Verified impassable.
 - CAVE: Map transition entry point. Verified functional.
 - TALL_GRASS: Walkable; triggers wild battles. Verified traversable.
+- LONG_GRASS: Walkable; triggers wild battles. Verified traversable.
 - LEDGE_HOP_DOWN: One-way jump down; impassable from below. Verified one-way movement.
 - LEDGE_HOP_LEFT: One-way jump left; impassable from right. Verified one-way movement.
 - FLOOR_UP_WALL: Impassable boundary. Verified impassable.
+- VOID: Impassable area outside map boundaries. Verified impassable.
+- POKECENTER_SIGN: Background object; displays Pokemon Center info. Verified interactable.
+- MART_SIGN: Background object; displays Poké Mart info. Verified interactable.
+- SIGNPOST: Background object; displays area or direction info. Verified interactable.
