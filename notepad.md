@@ -18,10 +18,9 @@
 - Dragon Speech House: (13, 21). Inside: Granny and Dratini.
 - Blackthorn Gym Entrance: (18, 11). Sign at (17, 13).
 - Trainers Defeated: Paul (1, 15) on 1F, Mike (6, 8) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
-- Gym Guide (7, 15) Advice: Clair uses Dragon-type Pokemon. They are weak against Ice-type moves.
+- Gym Guide (7, 15) Advice: Dragon-type Pokemon are weak against Ice-type moves.
 
-# Strategy: Heal and Return
-- Primary Goal: Acquire the 8th Gym Badge (Start Turn: 29224).
+# Current Strategy: Heal and Return
 - Status: Party weakened (Calcifer PAR 65/145, Gneiss 46/126).
 - Goal: Heal at Blackthorn Pokemon Center and return to challenge Clair.
 - Exit Path:
@@ -48,5 +47,4 @@
 - **Turn Tracking:** Sourced from Game State Info.
 - **NPC Collision:** Defeated NPCs still occupy their tiles and are impassable objects. Always path around them. (Turn 29424)
 - **Boulder Persistence:** Pushed boulders stay in pits even if the 2F floor is reset by changing floors.
-- **Scientific Method:** Formed hypothesis that Boulder 7 was the key for Pit (8,7). Disproved it by observing Row 0 walls. Revised to Boulder 5.
 - **Warp Safety:** Entry points on 1F (6, 7, 5) correspond to specific pits on 2F. Verified via entry point data. (Turn 29374)
