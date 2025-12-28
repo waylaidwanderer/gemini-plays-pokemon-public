@@ -2,11 +2,13 @@
 - FLOOR: Standard walkable tile.
 - WALL: Impassable boundary.
 - WATER: Traversable only with Surf.
+- BUOY: Impassable boundary in water.
 - WARP_CARPET: Triggers map transition when walked off the map edge.
 - HEADBUTT_TREE: Can be interacted with using Headbutt.
 - CUT_TREE: Blocking object; requires HM01 Cut and interaction from adjacent tile to remove.
 - CAVE: Map transition entry point.
 - TALL_GRASS: Walkable; triggers wild battles.
+- LEDGE_HOP_DOWN: One-way jump down; impassable from below.
 
 # Suicune Quest Strategy (Crystal)
 - Phase Start: Turn 27180
@@ -26,9 +28,6 @@
 - Suicune is a static encounter in Tin Tower (Crystal).
 - Lead: XENON (Gastly) Lv21 (Hypnosis, Night Shade).
 - Items: 43 Great Balls, 1 Ultra Ball.
-
-# Tile Mechanics - Ecruteak (4_9)
-- WARP_CARPET_LEFT at (20, 2): Entrance to Wise Trio Room.
 
 # Navigation - Path to Tin Tower
 1. Ecruteak City (18, 11) -> Enter Gatehouse (4_1).
