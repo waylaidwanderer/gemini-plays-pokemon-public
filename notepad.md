@@ -4,7 +4,7 @@
 - Graveler (Lv44) with Earthquake for Dragonairs.
 - Prep: Catch Swinub/Jynx in Ice Path for Ice-type moves.
 
-# Tile Mechanics
+## Tile Mechanics
 - FLOOR: Walkable. Verified.
 - WALL: Impassable. Verified.
 - WATER: Needs Surf (HM03). Verified.
