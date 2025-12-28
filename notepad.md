@@ -17,7 +17,7 @@
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
-1. Detour to (11, 8) via long western loop (Column 1-2) and southern crossing (Row 16). [DONE]
+1. Detour to (11, 8) via northern corridor and western loop. (B1F is NOT partitioned). [DONE]
 2. Push Boulder 1 UP to (11, 5). [CURRENT]
 3. Move to (12, 5) and push LEFT to (10, 5).
 4. Move to (10, 6) and push UP to (10, 1).
