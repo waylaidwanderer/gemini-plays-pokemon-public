@@ -14,16 +14,12 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy
-1. Walk to (9, 4) via northern corridor: (2,2)->(3,2)->(3,1)->(9,1)->(9,4).
-2. Slide Down from (9, 4) to stop on FLOOR at (9, 8).
-3. Walk to (5, 8).
-4. Jump West over ledge (4, 8) to (3, 8) (ICE). Player slides to (0, 8).
-5. Move Right from (0, 8) to slide to (3, 8).
-6. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
-7. Walk to exit ladder (3, 15).
+1. Move Right from (0, 8) to slide to (3, 8).
+2. Move Down from (3, 8) to slide to (3, 14) (FLOOR).
+3. Walk to exit ladder (3, 15).
 
 ## Hypotheses
-- Item at (8, 16) was TM44 Rest. (Note: Labeled as 'Potential HM07' prior to collection).
+- Item at (8, 16) was TM44 Rest.
 
 ## Reflection & Lessons Learned
 - Warp Pathing: Navigate tool does not avoid warp tiles. Use intermediate coordinates.
