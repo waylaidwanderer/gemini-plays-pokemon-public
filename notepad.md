@@ -2,7 +2,11 @@
 - Attempt Start: Turn 28546 (Sunday, Dec 28, 4:26 AM).
 - Pit Locations: P1 (11, 2), P2 (4, 7), P3 (5, 12), P4 (12, 13)
 - B1F Layout: Brown floor tiles are NOT slippery. Rows 1-2 have ICE tiles.
-- Status: B1 at (10, 1). B2 at (5, 6). B3 unverified. B4 verified at (12, 13) on B2F (P4 filled).
+- Status: B1 at (10, 1) in B1F. B2 at (5, 6) in B1F. B3 at (3, 12) in B2F. B4 at (12, 13) in B2F.
+- Pit 3 (5, 12) and Pit 4 (12, 13) FILLED (Confirmed by boulders on B2F).
+- Pits 1 (11, 2) and 2 (4, 7) UNFILLED.
+- Strength: OFF. Must reactivate.
+- Goal: Return to B1F via ladder at (9, 11). Grab item at (8, 9) first.
 
 ## Strategy: Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Move to (10, 6).
