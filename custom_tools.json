@@ -149,5 +149,39 @@
         "action_counter": 28368
       }
     ]
+  },
+  "plan_boulder_push_v2": {
+    "description": "Calculates a sequence of pushes to move a boulder to a target tile. Returns a list of button presses.",
+    "input_schema": {
+      "properties": {
+        "boulder_x": {
+          "type": "integer"
+        },
+        "boulder_y": {
+          "type": "integer"
+        },
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "boulder_x",
+        "boulder_y",
+        "target_x",
+        "target_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "\nimport xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef get_map_data(xml_str):\n    root = ET.fromstring(xml_str)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    grid = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n    return grid, width, height, player_pos\n\ndef get_path(grid, start, end, obstacles):\n    queue = collections.deque([(start, [])])\n    visited = {start}\n    while queue:\n        (x, y), path = queue.popleft()\n        if (x, y) == end:\n            return path\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in visited and grid.get((nx, ny)) in ['FLOOR', 'ICE'] and (nx, ny) not in obstacles:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n    return None\n\ndef solve():\n    try:\n        input_data = json.loads(input())\n        bx, by = int(input_data['boulder_x']), int(input_data['boulder_y'])\n        tx, ty = int(input_data['target_x']), int(input_data['target_y'])\n        grid, w, h, p_pos = get_map_data(map_xml_string)\n        \n        # BFS for boulder move\n        queue = collections.deque([( (bx, by), p_pos, [] )])\n        visited = { ((bx, by), p_pos) }\n        \n        while queue:\n            (cbx, cby), (cpx, cpy), full_path = queue.popleft()\n            if (cbx, cby) == (tx, ty):\n                print(json.dumps(full_path))\n                return\n            \n            for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                push_pos = (cbx - dx, cby - dy)\n                next_pos = (cbx + dx, cby + dy)\n                \n                if grid.get(push_pos) in ['FLOOR', 'ICE'] and grid.get(next_pos) in ['FLOOR', 'ICE', 'PIT']:\n                    p_path = get_path(grid, (cpx, cpy), push_pos, {(cbx, cby)})\n                    if p_path is not None:\n                        if grid.get(next_pos) == 'PIT':\n                            print(json.dumps(full_path + p_path + [btn]))\n                            return\n                        new_state = (next_pos, (cbx, cby))\n                        if new_state not in visited:\n                            visited.add(new_state)\n                            queue.append((next_pos, (cbx, cby), full_path + p_path + [btn]))\n        print(\"[]\")\n    except Exception as e:\n        print(json.dumps([f\"Error: {str(e)}\"]))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T09:49:23.277Z",
+        "action_counter": 28390
+      }
+    ]
   }
 }

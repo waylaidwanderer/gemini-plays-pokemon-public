@@ -46,3 +46,8 @@
 - Boulder 1 (ID 1) is at (11, 7).
 - Boulder 2 (ID 2) is at (7, 8).
 - Goal: Push Boulder 1 into Pit 1.
+
+# Lessons Learned
+- Falling through a PIT on B1F resets the entire floor's boulder puzzle.
+- Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
+- If a wild battle occurs during a puzzle, prioritize escaping with a fast Pokemon (Calcifer) to avoid distraction and resource drain.
