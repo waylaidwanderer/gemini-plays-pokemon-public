@@ -48,13 +48,11 @@
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
-- **Current Status:** Standing at (5, 12). Lass Linda at (5, 11).
-- **Test Results:** (4, 12) is a SOLID WALL.
-- **Action:** Testing (6, 12) (Right).
+- **Current Status:** Backtracking to Lobby.
+- **Test Results:** (4, 12) and (6, 12) are SOLID WALLS.
+- **Action:** Probing for FAKE WALLS at (3, 14) and (6, 14).
 - **Plan:**
-  1. Test Right (6, 12).
-  2. If blocked, backtrack to Lobby (5, 16).
-  3. Probe for FAKE WALLS surrounding Column 3.
-     - Target: (4, 14). Test (3, 14) [Left] and (4, 13) [Up].
-     - Target: (2, 14). Test (3, 14) [Right] and (2, 13) [Up].
-- **Hypothesis:** Entry to the inner maze is through a fake wall into Column 3.
+  1. Move to (4, 14). Test Left into (3, 14).
+  2. Move to (6, 14). Test Right into (6, 14) [Wait, I need to be at (5, 14) to test Right into (6, 14)].
+  3. If fails, test (3, 15) and (6, 15).
+- **Hypothesis:** Entry to the outer columns (3 and 6) is through a fake wall from the central path.
