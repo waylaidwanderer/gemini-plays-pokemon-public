@@ -53,7 +53,7 @@
 # Capture Strategy: Delibird
 - Target: Delibird (Lv 21, Male)
 - Strategy: Switch to KIMCHI (Gloom) -> Sleep Powder -> Catch with Great Ball.
-- Status: Caught! Nicknaming 'Parcel'. (Turn 28036)
+- Status: Caught! Entered 'P', typing 'a'. (Turn 28040)
 
 # Nickname Test: Delibird
 - Observation: Screen shows cursor at 'A' (6, 17), but system note says 'P' (12, 18).
