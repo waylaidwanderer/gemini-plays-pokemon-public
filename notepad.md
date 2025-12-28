@@ -18,7 +18,7 @@
 
 # Navigation Notes
 - **Route 25:** Trainer maze.
-- **Current Position:** (50, 12).
+- **Location:** Near Bill's House.
 - **Target:** Bill's House (47, 5).
 - **Shortcut:** Try walking North on "Ladder" tiles at x=49.
 
