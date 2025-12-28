@@ -35,7 +35,9 @@
 
 ## Map Objects
 - Item: (5, 7) - Uncollected.
-- Rock: (6, 6) - Likely requires Strength.
+- Rock: (6, 6) - ID 2.
+- Wall: (9, 2) and (10, 2) are FLOOR_UP_WALL tiles that block movement from above.
+- Wall: (12, 4) is a FLOOR_UP_WALL tile.
 
 ## Exploration
-- Path to (5, 7) currently seems blocked by walls/rocks. Exploring unseen tiles to the right.
+- Path to (5, 7) is blocked by walls (9, 2) and the rock at (6, 6). Exploring the eastern corridor via (13, 1) to find a way around.
