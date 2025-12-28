@@ -1,33 +1,33 @@
-# Suicune Quest Strategy (Crystal Version)
-- **Quest Start Turn:** ~27180
+# Tile Mechanics - Global
+- FLOOR: Walkable.
+- WALL: Impassable.
+- WATER: Surf required.
+- WARP_CARPET: Map transition.
+- HEADBUTT_TREE: Can be headbutted.
+- CUT_TREE: Can be cut.
 
-## Status & Progress
-- **Key Items:** Clear Bell (Acquired)
-- **Sightings:**
-  - Burned Tower: Confirmed
-  - Cianwood City: Confirmed (10, 14)
-  - Route 42: MISSING (Target: 26, 15 near Apricorn trees)
-  - Route 36: MISSING (Target: 35, 9 near Sudowoodo spot)
-- **Current Objective:** Trigger Suicune sighting on Route 42.
+# Suicune Quest Strategy (Crystal)
+- Quest Start Turn: ~27180
+- Key Items: Clear Bell (Acquired)
 
-## Capture Strategy (Tin Tower)
-- **Lead:** XENON (Gastly) Lv21.
-- **Moves:** Hypnosis (sleep), Night Shade (fixed damage).
-- **Items:** 43 Great Balls, 1 Ultra Ball.
-- **Note:** Suicune is a static encounter in Tin Tower and does NOT flee.
+## Sighting Progress
+1. Burned Tower: Confirmed.
+2. Cianwood City: Confirmed at (10, 14).
+3. Route 42: FAILED to trigger at (26, 15) in Turn 27329.
+   - Hypothesis 1: Missing prerequisite dialogue (Ecruteak Wise Trio or Eusine).
+   - Hypothesis 2: Trigger tile is different.
+   - Hypothesis 3: Sighting already happened (unlikely, no memory of it).
+4. Route 36: Target (35, 9) near Sudowoodo spot.
 
 ## Battle Strategy (Wise Trio)
-- **Lead:** GNEISS (Graveler) Lv44.
-- **Moves:** Earthquake, Rollout.
-- **Requirement:** Trio will only battle after Route 42 and 36 sightings are complete.
+- Trio will only battle after Route 42 and 36 sightings are complete.
+- Lead: GNEISS (Graveler) Lv44 (Earthquake, Rollout).
 
-## Tile Mechanics - Global
-- **FLOOR**: Walkable.
-- **WALL**: Impassable.
-- **WATER**: Surf required.
-- **WARP_CARPET**: Map transition.
-- **HEADBUTT_TREE**: Can be headbutted.
-- **CUT_TREE**: Can be cut.
-## Specific Sighting Coordinates (Verified by Tracker)
-- **Route 42:** (26, 15) near the three Apricorn trees.
-- **Route 36:** (35, 9) near the junction to Violet City.
+## Capture Strategy (Tin Tower)
+- Suicune is a static encounter in Tin Tower.
+- Lead: XENON (Gastly) Lv21 (Hypnosis, Mean Look).
+- Items: 43 Great Balls, 1 Ultra Ball.
+
+# Goal Log
+- [Turn 27331] Attempting to Fly to Ecruteak City to check prerequisites.
+- [Turn 27329] Walked on (26, 15) and (26, 14) on Route 42. No Suicune appeared. Sprite was not visible.
