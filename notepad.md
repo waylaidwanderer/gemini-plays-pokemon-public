@@ -29,7 +29,7 @@
 - B1F Puzzle: Solved Turn 28985.
 - B2F Puzzle (Mahogany Side): Solved Turn 29028.
 - B3F Rock: Verified Rock Smash requirement at Turn 29041. Bypassed.
-- B2F (Blackthorn Side): Slid to (0, 8) at Turn 29062. Approaching exit ladder at (3, 15).
+- B2F (Blackthorn Side): Slid to (3, 8) at Turn 29063. Sliding Down to exit ladder at (3, 15).
 ## Reflection & Lessons Learned (Turn 29061)
 - **Warp Pathing:** The `navigate` tool does not automatically avoid warp tiles (ladders, doors, exit mats) unless they are the destination. To avoid accidental floor changes, always use intermediate coordinates to steer the path plan around these tiles.
 - **Ledge Verification:** (3, 4) on B2F is a FLOOR_UP_WALL (ledge face) and is impassable from the North.
