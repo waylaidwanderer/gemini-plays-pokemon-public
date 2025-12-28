@@ -30,12 +30,12 @@
 - SIGNPOST / POKECENTER_SIGN / MART_SIGN: Background object. Verified interactable.
 - ICE: Sliding mechanic. Player slides until hitting obstacle or FLOOR. Verified traversable.
 
-# Exploration Plan: Ice Path B1F
-- Goal: Find all boulders and push them into pits to clear the path on B2F.
-- Step 1: Explore reachable areas of B1F to locate boulders and pits.
-- Step 2: Use Strength to push boulders into the corresponding pits.
-- Step 3: Find the ladder to B2F once the path is clear.
-- Start Turn: 28207.
+# Exploration Plan: Ice Path B2F
+- Goal: Navigate the ice lake to reach the next section.
+- Step 1: Explore reachable areas of B2F.
+- Step 2: Identify if boulders from B1F are needed to progress.
+- Step 3: Find the ladder to the next floor.
+- Start Turn: 28220.
 
 # Boulders & Pits Tracking (B1F)
 - Boulder 1: (7, 8)
@@ -43,7 +43,7 @@
 - Pit 1: (4, 7)
 - Pit 2: (5, 12)
 - Pit 3: (11, 2)
-- Note: Need to find more boulders/pits. Likely 4 total.
+- Note: Boulders pushed into these pits will appear as obstacles on B2F.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
