@@ -38,17 +38,18 @@
 6. Push Down to (4, 7). [PIT]
 
 # Party Management
-- Lead: Calcifer (Lv45) - Fast for escapes, strong for combat.
-- Slot 2: KIMCHI (Lv21) - HM Cut.
-- Slot 3: ICARUS (Lv16) - HM Fly.
+- Lead: KIMCHI (Lv21) - HM Cut.
+- Slot 2: ICARUS (Lv16) - HM Fly.
+- Slot 3: Calcifer (Lv45) - Fast for escapes, strong for combat.
 - Slot 4: Ravioli (Lv10) - HM Surf.
 - Slot 5: GNEISS (Lv44) - HM Strength.
 - Slot 6: XENON (Lv21) - Hypnosis.
+- Decision: Abandoned Lead Swap at Turn 28473 (stagnation).
 
 # Lessons Learned
 - Falling through a PIT on B1F resets the entire floor's boulder puzzle.
 - Be extremely cautious when moving near (11, 2), (4, 7), (5, 12), and (12, 13) on B1F.
-- Wild battles: Prioritize escaping with Calcifer.
-- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas.
+- Wild battles: Prioritize escaping. Calcifer is available in battle if needed.
+- Leads: ALWAYS lead with Calcifer (Lv45) in wild areas. (Note: Swap abandoned to prioritize puzzle).
 - Tool Hygiene: Verify coordinates against Map Markers before tool use.
 - Menu Mechanics: Swap = Select (item 1) -> Move -> Select (item 2).
