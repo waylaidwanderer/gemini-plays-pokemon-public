@@ -13,7 +13,7 @@
 
 # Suicune Quest Strategy (Crystal)
 - Quest Phase Start: Turn 27180
-- Current Status: Re-evaluating sighting triggers. Sage at Gatehouse (7, 10) mentioned the tower shaking at Turn 27084. Need to verify if sightings on Route 42 and 36 are truly missing or if progress is stalled elsewhere.
+- Current Status: Confirmed missing sightings on Route 42 (26, 15) and Route 36 (35, 9) via Suicune Tracker. Flying to Mahogany Town to reach Route 42 trigger point.
 - Key Items: Clear Bell (Acquired)
 - Prerequisite Strategy: Eusine must be defeated at Cianwood City north shore. (Status: Verified).
 - Route 42 Trigger: (26, 15) - Small clearing with 3 Apricorn trees.
