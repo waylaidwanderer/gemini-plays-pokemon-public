@@ -25,6 +25,5 @@
 
 # Ice Path Exploration
 - Strategy: Navigate through the cave to reach Blackthorn City. Watch for ice sliding puzzles.
-
-# Nicknaming
-- Delibird: 'Parcel'. (Turn 28051)
+- Sliding Mechanic: Moving on ICE tile slides player until hitting obstacle or FLOOR.
+- Observed: (13, 17) -> (15, 17) via Right. Blocked by WALL at (16, 17).
