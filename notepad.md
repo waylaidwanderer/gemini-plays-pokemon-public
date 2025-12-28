@@ -1,8 +1,8 @@
 # Ice Path B1F Puzzle Status
 - Start Turn: 28759 | Start Time: Sunday, Dec 28, 5:32 AM
 - Status: Boulders RESET on floor change. All 4 must be pushed in one session.
-- Pit 2 (4, 7): FILLED (Turn 28885).
-- Boulder 1: (10, 2) | Target Pit 1: (11, 2)
+- Pit 2 (4, 7): FILLED (Turn 28885). (Marker placed).
+- Boulder 1: (10, 1) | Target Pit 1: (11, 2)
 - Boulder 3: (??)
 - Boulder 4: (17, 7) | Target Pit 4: (12, 13)
 
@@ -15,16 +15,15 @@
 
 # Map Sections (B1F)
 - Section 1 (Left): (0, 1) to (8, 16). Contains Ladder to 1F (3, 15), Pit 2 (Filled), and Pit 3 (5, 12).
-- Section 2 (Middle): (9, 1) to (13, 15). Contains Boulder 1 (10, 2), Pit 1 (11, 2), and Pit 4 (12, 13).
+- Section 2 (Middle): (9, 1) to (13, 15). Contains Boulder 1 (10, 1), Pit 1 (11, 2), and Pit 4 (12, 13).
 - Section 3 (Right): (14, 1) to (19, 16). Contains Ladder to B2F (17, 3) and Boulder 4 (17, 7).
 
 # Strategies
-## Fill Pit 1 (11, 2) with Boulder 1 (10, 2)
-1. At (10, 3), face UP and push to (10, 1). (Player at 10, 2).
-2. Move to (9, 1).
-3. Face RIGHT and push to (11, 1). (Player at 10, 1).
-4. Move to (11, 0).
-5. Face DOWN and push into Pit 1 (11, 2).
+## Fill Pit 1 (11, 2) with Boulder 1 (10, 1)
+1. Navigate to (9, 1). (Current Goal)
+2. Face RIGHT and push to (11, 1). (Player at 10, 1).
+3. Move to (11, 0).
+4. Face DOWN and push into Pit 1 (11, 2).
 
 ## Fill Pit 3 (5, 12) with Boulder 3
 1. Locate Boulder 3.
