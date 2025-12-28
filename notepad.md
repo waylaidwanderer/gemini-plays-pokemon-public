@@ -21,11 +21,13 @@
 - Gym Layout: Island (Rows 2-10) is isolated from Mainland (Rows 12-17). Use 2F detours to cross.
 
 # Strategy: Gym Leader Clair (Start Turn: 29455)
-- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. KIMCHI & ICARUS fainted. Calcifer (53/148 HP, PAR).
+- Status: 1 Dragonair defeated. Kingdra (Lv40) is out. Calcifer, KIMCHI & ICARUS fainted. No Revives in inventory.
 - Plan:
-  1. Send in Calcifer. (Done)
-  2. Use Smokescreen (2-3 times) to lower accuracy. (1/3 Done)
-  3. Use Headbutt to finish (Kingdra is 1/4x resistant to Fire/Water, neutral to Normal).
+  1. Send in XENON (Gastly, Lv21). (In Progress)
+  2. Use Hypnosis to disable Kingdra.
+  3. If Kingdra is asleep, switch to GNEISS (Graveler, Lv45).
+  4. Use Earthquake (Neutral damage, but Gneiss has high level/attack).
+  5. Sacrifice Ravioli (Krabby, Lv10) if needed for a safe switch or to scout moves.
 
 # Blackthorn Gym Layout Theory
 - Pit Destinations:
@@ -34,9 +36,10 @@
   - 2F Pit (8, 3) -> 1F (7, 6)
 
 # Reflection & Lessons
-- **NPC Collision:** Defeated NPCs are impassable objects. (Turn 29424)
+- **NPC Collision:** Defeated NPCs are impassable. (Turn 29424)
 - **Warp Safety:** 1F Entry Points (5, 6, 7) correspond to specific 2F pits. (Turn 29374)
-- **Isolation:** Isolated map areas (like Gym Island) require indirect paths (e.g., through 2F). (Turn 29420)
+- **Isolation:** Isolated map areas require indirect paths (e.g., through 2F). (Turn 29420)
+- **Item Management:** Running out of Max Potions and having no Revives makes Kingdra extremely dangerous. Smokescreen was a good attempt but failed due to Surf's high damage and Typhlosion's paralysis.
 
 # Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass. (Verified vs Dragonair, Turn 29459)
