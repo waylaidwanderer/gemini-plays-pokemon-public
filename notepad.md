@@ -1,20 +1,20 @@
 # Current Status
-- **Status:** On Route 25.
-- **Location:** (9, 17).
-- **Goal:** Reach the Cape (East End) to find Misty.
-- **Action:** Navigate East through the maze.
+- **Status:** Inside Bill's House.
+- **Location:** (2, 7).
+- **Goal:** Talk to Gramps, then exit and explore East for Misty.
+- **Action:** Talk to Gramps.
 
 # Future Strategy
-1. Reach Bill's House (Cape).
-2. Talk to Misty (if present).
-3. Return to Cerulean Gym to earn Cascade Badge.
+1. Exit Bill's House.
+2. Explore Route 25 East of the house (The Cape).
+3. Find Misty.
+4. Return to Cerulean Gym to earn Cascade Badge.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as WALL from below, FLOOR from other directions.
 - **LEDGE_HOP_DOWN:** One-way movement DOWN.
 - **PIT:** Warps to floor below.
-- **LADDER (Route 25):** Likely traversable steps or decorative, not actual warps.
 
 # Key Locations
-- **Cape (Route 25):** Target. East side.
-- **Burgled House (Cerulean):** Access to Route 9/Water.
+- **Cape (Route 25):** Target. East of Bill's House.
+- **Bill's House:** (47, 5) on Route 25.
