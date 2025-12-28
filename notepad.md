@@ -24,7 +24,7 @@
 - **Route 8:** Underground Path is closed.
 - **Inventory:** Check PC Box capacity. Box 1 filled up after Snorlax.
 
-# Reflection (Turn 23093)
-- **Status:** Route 3, climbing the stairs to Mt. Moon Square.
-- **Goal:** Enter Mt. Moon Square.
-- **Next:** Continue moving North up the stairs.
+# Reflection (Turn 23098)
+- **Status:** Battling Firebreather Burt on Route 3.
+- **Goal:** Defeat Burt.
+- **Next:** Advance text to see next opponent.
