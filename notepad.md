@@ -14,9 +14,9 @@
 - Goal: Reach Blackthorn City.
 
 ## Strategy (B1F Southern Section)
-1. Navigate to (3, 26) via (5, 27) to avoid walls.
-2. Explore the western unseen area (Columns 0-2) to find the exit ladder to 1F.
+1. Use the ladder at (5, 25) to reach Ice Path 1F (Blackthorn Side).
+2. Locate the exit to Blackthorn City.
 
 ## Hypotheses
-- The exit to 1F is in the western part of this B1F section (near Row 26-30).
+- The ladder at (5, 25) leads to the final section of Ice Path 1F.
 - TM44 Rest was at (8, 16) on B2F. Verified.
