@@ -43,7 +43,7 @@
 
 # Current Status (B1F)
 - Boulders reset due to floor exit.
-- Boulder 1 (ID 1) is at (11, 6).
+- Boulder 1 (ID 1) is at (11, 5).
 - Boulder 2 (ID 2) is at (7, 8).
 - Goal: Push Boulder 1 into Pit 1.
 
