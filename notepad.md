@@ -38,3 +38,15 @@
 - Ice Path Items: TM44 Rest (B2F), PP UP (1F), PROTEIN (1F).
 - Rescued Director from Team Rocket in Goldenrod.
 - Disbanded Team Rocket at Goldenrod Radio Tower.
+
+# Reflection Lessons (Turn 29216)
+- **Verification:** Always verify Agent/NPC claims about party movesets against Game State Information. (Avoided "Graveler with Thunderbolt" error).
+- **Turn Tracking:** Turn numbers must be sourced directly from Game State Information to avoid hallucinations.
+- **Water Navigation:** The water at (12, 11)-(15, 13) may require Surf/Whirlpool to access the Gym or other key areas.
+- **Warp Marking:** Visit and mark all discovered warps immediately to prevent navigation errors.
+
+# Tile Mechanics Update
+- WATER: Requires Surf to traverse.
+- DOOR: Warp tile.
+- LEDGE_HOP_DOWN: One-way movement (North to South).
+- CAVE: Warp tile.
