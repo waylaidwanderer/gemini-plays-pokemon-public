@@ -11,7 +11,7 @@
 - ICE: Sliding mechanic. Verified.
 - PIT: Warp to B2F. Verified.
 - BOULDER: Pushable with Strength (HM04). Verified.
-- RESET MECHANICS: Leaving the floor or falling through a PIT on B1F resets ALL boulders to their starting positions, including those already in pits. Verified.
+- RESET MECHANICS: Leaving the floor via a ladder resets boulders. Falling through a PIT on B1F might NOT reset boulders. Hypothesis under test.
 
 # B1F Boulder Puzzle (All Pits Pending)
 - Start Turn: 28207.
