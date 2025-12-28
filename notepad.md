@@ -24,8 +24,8 @@
 ## Boulder 1 Sequence (ID 1)
 - Starting at (11, 7).
 1. Move to (11, 8). [DONE - T28481]
-2. Activate Strength. [NEXT]
-3. Push Up to (11, 5).
+2. Activate Strength. [DONE - T28484]
+3. Push Up to (11, 5). [NEXT]
 4. Move to (12, 5).
 5. Push Left to (10, 5).
 6. Move to (10, 6).
