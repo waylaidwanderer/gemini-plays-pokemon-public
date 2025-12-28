@@ -39,15 +39,16 @@
   - Pit (8, 3) -> 1F (7, 6)
   - Pit (8, 7) -> 1F (7, 7)
 - Strategy: Fill all three pits to complete the bridge to Clair.
-- Verified Mechanics:
-  - Silver blocks are WALLS. (Turn 29653)
+- Verified Mechanics (2F):
+  - Silver blocks (Row 0) are WALLS. (Turn 29653)
   - Row 0 Tests: (1,0), (3,0), (5,0), (7,0), (9,0) are all confirmed WALLS. (Turns 29675-29685)
-  - Row 1 Pushes: Boulders in Row 1 cannot be pushed DOWN because Row 0 is impassable.
-  - Column 9: Dead end at (9, 4).
+  - Column 9: Dead end at (9, 4). (9, 12)-(9, 15) are WALLS.
   - Row 13: Passage at (4, 13) connects east and west sections.
+  - Pushing a boulder: First press pushes it, second press moves player into its old tile.
+  - Gym Reset: Exiting and re-entering resets all boulders to initial positions.
 - Boulder Path Analysis:
   - Pit (8, 7): Reachable from Column 5 -> (6, 7) -> (7, 7) -> push RIGHT.
-  - Pit (8, 3): Reachable from (7, 1) -> (7, 2) -> (7, 3) -> push RIGHT. (Requires pushing a boulder from west side to Row 1).
+  - Pit (8, 3): Reachable from (7, 1) -> (7, 2) -> (7, 3) -> push RIGHT.
   - Pit (2, 5): Reachable from (1, 5) or (3, 5).
 - Observation: The floor has a blue/white pattern similar to the Ice Path. Cosmetic only for player, but strength moves boulders one tile.
 
