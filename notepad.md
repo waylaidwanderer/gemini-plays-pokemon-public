@@ -3,7 +3,8 @@
 - WALL: Impassable.
 - PIT: Warp tile. Falling through takes you to the floor below.
 - LADDER: Warp tile. Used to travel between floors.
-- BOULDER: Object. Impassable. Can be pushed with Strength. All objects (NPCs, items) are impassable and act as walls. (Turn 29424)
+- BOULDER: Object. Impassable. Can be pushed with Strength.
+- OBJECTS: All objects (NPCs, items, boulders) are impassable and act as walls. Defeated NPCs still occupy their tiles. (Turn 29424)
 - ICE: Sliding mechanic (Ice Path).
 - ROCK: Destructible with ROCK SMASH.
 - WATER: Requires Surf to traverse.
