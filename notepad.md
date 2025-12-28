@@ -34,3 +34,4 @@
 - **Sign (17, 7):** "MT.MOON SQUARE DON'T LITTER"
 - **Mt. Moon Square Shop:** Visited at night. Empty.
 - **Phone Call:** Gaven (Cooltrainer) wants to battle on Route 26.
+- **Route 4:** Arrived from Mt. Moon. Currently on the upper ledges.
