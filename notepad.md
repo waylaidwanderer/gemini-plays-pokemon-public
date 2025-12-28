@@ -1,12 +1,8 @@
 # Strategic Goals
 1. **Wake Snorlax:** Needs Poke Flute & Power.
-   - *Status:* Interaction failed ("Snoring"). Radio likely not on Channel 20.
-   - *Plan:* Close Text (B) -> Open Pokegear -> Radio -> Tune Up to Max -> Verify "POKe FLUTE" -> Exit -> Interact.
-   - *Battle Strategy:*
-     - **Lead:** Machoke (Lv75).
-     - **Tactic:** Use **Special Moves** (Thunderpunch/Ice Punch) to chip HP (Machoke Low SpAtk vs Snorlax High SpDef). Avoid Cross Chop (OHKO risk).
-     - **Capture:** Ultra Balls when low. Be aware of Rest.
-   - *Next:* Enter Diglett's Cave.
+   - *Status:* CRITICAL: Missing EXPN Card. Cannot tune to Poke Flute.
+   - *Plan:* Fly to Lavender Town -> Enter Radio Tower -> Talk to Director -> Get EXPN Card -> Return to Snorlax.
+   - *Next:* Battle Snorlax after obtaining EXPN Card.
 2. **Collect Badges:** Thunder (Done), Marsh (Done).
 
 # Reflection (Turn 22538)
