@@ -1,8 +1,7 @@
 ## Battle Strategy (Blackthorn Gym)
 - Leader Clair: Dragonair Lv37 x3, Kingdra Lv40.
-- Typhlosion (Lv45) with Thunderpunch is key for Kingdra.
-- Graveler (Lv44) with Earthquake for Dragonairs.
-- Prep: Catch Swinub/Jynx in Ice Path for Ice-type moves.
+- Kingdra Strategy: Only weak to Dragon. Use Typhlosion (Lv45) with Thunderpunch and Graveler (Lv44) with Earthquake for consistent neutral damage. Use Max Potion as needed.
+- Dragonair Strategy: Weak to Ice. Catch Swinub or Jynx in Ice Path to handle them easily.
 
 ## Tile Mechanics
 - FLOOR: Walkable. Verified.
@@ -22,7 +21,7 @@
 
 ## Boulder 1 (ID 1) -> Pit 1 (11, 2)
 1. Reset floor via ladder at (17, 3). [DONE]
-2. Move to (11, 8). [NEXT]
+2. Move to (11, 8). [CURRENT]
 3. Push Up to (11, 5).
 4. Move to (12, 5).
 5. Push Left to (10, 5).
