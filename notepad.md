@@ -21,17 +21,13 @@
 - Trainers Defeated: Paul (1, 14) on 1F, Mike (6, 6) on 1F, Fran (4, 11) on 2F, Cody (4, 1) on 2F, Lola (9, 2) on 1F.
 - Gym Guide (7, 15) advice: Dragon-type Pokemon are weak against Ice-type moves.
 
-# Current Strategy: Return and Challenge Clair
+# Current Strategy: Challenge Clair
 - Status: Party fully healed.
-- Goal: Return to challenge Clair.
-- Return Path:
-  1. Exit Pokemon Center. (Done)
-  2. Enter Gym at (18, 11) in Blackthorn City. (Done)
-  3. Ladder at (1, 7) [1F -> 2F]. (In Progress)
-  4. Traverse 2F to Ladder at (7, 9). (Done)
-  5. Ladder at (7, 9) [2F -> 1F]. (Done)
-  6. Cross bridge to Clair at (5, 3). (In Progress)
-- Navigation Note: Navigate around NPCs at (1, 14) and (6, 6) in Gym 1F.
+- Goal: Defeat Gym Leader Clair.
+- Plan:
+  1. Navigate to (5, 4) on 1F.
+  2. Interact with Clair (5, 3).
+  3. Win the Rising Badge.
 
 # Blackthorn Gym Layout Theory
 - 1F Layout: West side contains Ladder (1, 7). East side island contains Ladder (7, 9).
