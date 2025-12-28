@@ -158,5 +158,17 @@
         "action_counter": 28731
       }
     ]
+  },
+  "activate_strength_v3": {
+    "description": "Activates Strength using GNEISS (5th slot) with a robust reset sequence.",
+    "input_schema": {},
+    "python_script": "import json\n\ndef run():\n    buttons = []\n    # Reset to overworld\n    for _ in range(5):\n        buttons.append(\"B\")\n    \n    buttons.append(\"Start\")\n    buttons.append(\"sleep 500\")\n    \n    # Assume cursor is somewhere. Pressing Up many times usually lands on POKEDEX.\n    for _ in range(8):\n        buttons.append(\"Up\")\n    \n    # Now at POKEDEX. Go to POKEMON.\n    buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In POKEMON menu. Assume cursor is at top (Calcifer).\n    # GNEISS is in slot 5.\n    for _ in range(4):\n        buttons.append(\"Down\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # In GNEISS sub-menu. Strength is usually first.\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Close dialogue\n    buttons.append(\"B\")\n    \n    print(json.dumps(buttons))\n\nrun()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T13:48:24.721Z",
+        "action_counter": 28773
+      }
+    ]
   }
 }
