@@ -23,11 +23,11 @@
 1. Reset floor via ladder at (17, 3). [DONE]
 2. Move to (11, 8). [DONE]
 3. Interact and Push Up to (11, 5). [DONE]
-4. Move to (12, 5). [CURRENT]
-5. Push Left to (10, 5).
+4. Move to (12, 5). [DONE]
+5. Push Left to (10, 5). [CURRENT]
 6. Move to (10, 6).
 7. Push Up to (10, 1).
-8. Move to (9, 1).
+8. Move to (9, 1). (Long walk around west)
 9. Push Right to (11, 1).
 10. Move to (11, 0).
 11. Push Down to (11, 2). [PIT]
