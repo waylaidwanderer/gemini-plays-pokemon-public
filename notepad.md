@@ -43,11 +43,12 @@
 - Step 1: Explore north part of Row 14.
 - Step 2: Investigate the ice at X=32 and the item at (32, 23).
 - Step 3: Look for a ladder to B1F.
-- Status: Nicknaming Zubat 'Sonar'. (Turn 28128)
+- Status: Exploration in progress. (Turn 28132)
 
 # Nicknaming
 - Delibird: 'Parcel'.
-- Zubat: 'Sonar'. (Turn 28120)
+- Zubat: 'Sonar'.
+- Status: Completed.
 
 ## Party
 - KIMCHI (Gloom): Lv 21.
