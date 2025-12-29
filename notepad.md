@@ -12,7 +12,7 @@
 
 # Strategy: Decisive Action Phase
 1. Reset floor via ladder (Done Turn 30214).
-2. Reactivate Strength.
+2. Reactivate Strength (In Progress).
 3. Use specialized solver (run_code) to find the exact push sequence.
 4. Execute pushes based on confirmed FLOOR paths in XML.
 5. Goal: Fill all three pits.
