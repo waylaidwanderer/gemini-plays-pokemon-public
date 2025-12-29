@@ -4,9 +4,9 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Route 21 -> Viridian City
-- **Location:** Route 21 (Surfing North).
-- **Status:** Avoided Swimmer Guy. Passed Fisher. Approaching Swimmer Nikki (Defeated).
-- **Next Action:** Arrive in Pallet Town, heal at mom's or proceed to Viridian Pokemon Center.
+- **Location:** Route 21 (Almost at Pallet Town).
+- **Status:** Surfing North. Just escaped a Tentacool.
+- **Next Action:** Arrive in Pallet Town, heal at mom's, then walk North to Viridian.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
