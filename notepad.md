@@ -4,10 +4,10 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Pallet Town -> Viridian City
-- **Location:** Red's House (Inside).
-- **Status:** Mom (5, 3) did not heal (Expected for non-Red protagonist).
-- **Next Action:** Exit house, head North to Viridian City Pokemon Center.
-- **Teacher Patrol:** Avoid (5, 10) outside.
+- **Location:** Pallet Town (Outside Red's House).
+- **Status:** Leaving Pallet Town.
+- **Next Action:** Navigate North to Route 1, then to Viridian City.
+- **Teacher Patrol:** Avoid (3, 8) area.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
