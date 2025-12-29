@@ -281,7 +281,7 @@
     ]
   },
   "smart_battle_move": {
-    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Assumes the Move Menu is a vertical list. Auto-presses buttons. Includes wrapping logic.",
+    "description": "Selects 'FIGHT' and then navigates to the target move slot (1-4). Auto-presses buttons. Includes wrapping logic and handles cursor persistence via current_slot.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -292,16 +292,21 @@
         },
         "current_slot": {
           "type": "integer",
-          "default": 1,
           "minimum": 1,
-          "maximum": 4
+          "maximum": 4,
+          "default": 1
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
-        "target_slot"
+        "target_slot",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ntry:\n    target = int(input_data.get('target_slot', 1))\n    current = int(input_data.get('current_slot', 1))\n    \n    buttons = []\n    # Select FIGHT\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Navigate\n    added_nav = False\n    if current == 1:\n        if target == 1: pass\n        elif target == 2: \n            buttons.append(\"Down\")\n            added_nav = True\n        elif target == 3: \n            buttons.extend([\"Down\", \"Down\"])\n            added_nav = True\n        elif target == 4: \n            buttons.append(\"Up\")\n            added_nav = True\n    elif current == 2:\n        if target == 1: \n            buttons.append(\"Up\")\n            added_nav = True\n        elif target == 2: pass\n        elif target == 3: \n            buttons.append(\"Down\")\n            added_nav = True\n        elif target == 4: \n            buttons.extend([\"Down\", \"Down\"])\n            added_nav = True\n    elif current == 3:\n        if target == 1: \n            buttons.extend([\"Up\", \"Up\"])\n            added_nav = True\n        elif target == 2: \n            buttons.append(\"Up\")\n            added_nav = True\n        elif target == 3: pass\n        elif target == 4: \n            buttons.append(\"Down\")\n            added_nav = True\n    elif current == 4:\n        if target == 1: \n            buttons.append(\"Down\")\n            added_nav = True\n        elif target == 2: \n            buttons.extend([\"Down\", \"Down\"])\n            added_nav = True\n        elif target == 3: \n            buttons.append(\"Up\")\n            added_nav = True\n        elif target == 4: pass\n            \n    # Avoid consecutive sleeps\n    if added_nav:\n        buttons.append(\"sleep 250\")\n    \n    buttons.append(\"A\") # Select Move\n    \n    print(json.dumps(buttons))\nexcept Exception as e:\n    # Fallback to simple A press if logic fails\n    print(json.dumps([\"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\n\ntry:\n    target = int(input_data['target_slot'])\n    current = int(input_data.get('current_slot', 1))\n    \n    buttons = [\"A\", \"sleep 500\"] # Select FIGHT\n    \n    # Calculate distance\n    diff = target - current\n    \n    # Handle wrapping for quicker access\n    if diff == 3: # 1 -> 4\n        buttons.extend([\"Up\", \"sleep 250\"])\n    elif diff == -3: # 4 -> 1\n        buttons.extend([\"Down\", \"sleep 250\"])\n    elif diff > 0:\n        for _ in range(diff):\n            buttons.extend([\"Down\", \"sleep 250\"])\n    elif diff < 0:\n        for _ in range(abs(diff)):\n            buttons.extend([\"Up\", \"sleep 250\"])\n            \n    buttons.append(\"A\") # Select the move\n    \n    print(json.dumps(buttons))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Created smart_battle_move to handle cursor memory in battle menus.",
@@ -347,6 +352,11 @@
         "commit_message": "Fixed bug causing consecutive sleep commands when target_slot equals current_slot.",
         "timestamp": "2025-12-21T11:30:47.944Z",
         "action_counter": 9999
+      },
+      {
+        "commit_message": "Updated to accept `current_slot` parameter to handle Gen 2 cursor persistence in the Move menu. Implemented smart wrapping logic for navigation (e.g., 1->4 uses Up).",
+        "timestamp": "2025-12-29T04:13:55.750Z",
+        "action_counter": 24693
       }
     ]
   },
