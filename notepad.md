@@ -17,9 +17,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24768)
-- **Status:** Entering Seafoam Islands Gym (Route 20).
-- **Location:** Cave entrance at (38, 7).
-- **Goal:** Find Blaine and win the Volcano Badge.
-- **Next:** Navigate the gym.
-- **Action Required:** Walk North into the cave.
+# Reflection (Turn 24769)
+- **Status:** Inside Seafoam Gym (6_4).
+- **Location:** Blaine is directly ahead at (5, 2).
+- **Goal:** Defeat Blaine for the Volcano Badge.
+- **Next:** Talk to Blaine.
+- **Action Required:** Walk North to (5, 3) and interact.
