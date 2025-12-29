@@ -6,7 +6,7 @@
 # Current Strategy: Post-Gym
 - **Location:** Viridian City (Menu).
 - **Status:** Selecting Destination (Fly).
-- **Action:** At Cinnabar Island. Moving Up to Pallet Town.
+- **Action:** At Pallet Town (Expected).
 - **Next:** Confirm Fly -> Enter Oak's Lab.
 - **Goal:** Get permission for Mt. Silver.
 
