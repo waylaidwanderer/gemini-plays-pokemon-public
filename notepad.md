@@ -6,15 +6,14 @@
 - BOULDER: Can be pushed with Strength.
 
 # Strategy: Final Badge
-- Defeat Gym Leader Clair to earn the Rising Badge.
-- If fainted: Return to Pokemon Center, heal, and reconsider team composition or grinding.
+- Defeat Gym Leader Clair for the Rising Badge.
+- Post-Blackout Plan: Heal at Blackthorn Center, buy Revives if possible, and level up the team.
 
-# Battle Progress: Clair
-- Start Turn: 30301
-- Opponent: Kingdra (Lv40) ~40% HP. (1x Dragonair Lv37 defeated)
+# Battle Status: Clair
+- Opponent: Kingdra (Lv40) - HP is low (approx 25-30%).
 - Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Icarus (16) FNT.
-- Active: Kimchi (21) 1 HP.
-- Plan: Use Sleep Powder (75% acc). This is the final miracle attempt.
+- Active: Kimchi (21) 1 HP - Goal: Land Sleep Powder.
+- Last Stand: Ravioli (10) 27 HP.
 
 # Type Effectiveness (Gen 2)
 - Dragon resists: Fire, Water, Electric, Grass.
@@ -22,7 +21,6 @@
 - Normal, Ground, Rock: Neutral.
 
 # General Lessons
-- Puzzle Bypass: Explore room perimeters before complex puzzles.
-- Battle Strategy: High-level starters are essential. Fixed damage and status are vital when underleveled.
-- Error Analysis: Over-reliance on underleveled Pokemon leads to rapid team collapse. Ensure core members are healthy.
-- Confirmation Bias Check: Don't assume a boulder puzzle must be solved to reach a boss; verify all paths first.
+- Puzzle Bypass: Check perimeters before committing to complex puzzles.
+- Battle Strategy: Use status moves (Sleep) and fixed damage (Night Shade) to overcome level gaps.
+- Resource Management: Always carry Revives and healing items before a Gym Leader.
