@@ -1,13 +1,13 @@
 # Quest Log
 - **Goal:** Unlock Mt. Silver by talking to Professor Oak.
 - **Badges:** 16/16 (Earth Badge obtained).
-- **Next:** Talk to Blue (check for TM), then travel to Pallet Town.
+- **Next:** Travel to Pallet Town to talk to Oak.
 
 # Current Strategy: Viridian Gym - POST-BATTLE
 - **Location:** Viridian Gym (5, 4).
-- **Status:** Defeated Leader Blue.
-- **Action:** Talk to Blue again.
-- **Next:** Exit Gym -> Fly to Pallet Town -> Talk to Oak.
+- **Status:** Defeated Leader Blue. Spoke to him post-battle.
+- **Action:** Exit the Gym.
+- **Next:** Fly to Pallet Town -> Talk to Oak.
 - **Goal:** Get permission to enter Mt. Silver.
 
 # Tile Mechanics
