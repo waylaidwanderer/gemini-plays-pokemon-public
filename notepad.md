@@ -7,12 +7,12 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados.
-- **Current Enemy:** Exeggutor (Lv58) - Low HP.
-- **My Pokemon:** Muscle (Machoke Lv82).
-- **Condition:** Muscle is Seeded (taking ~34 dmg/turn).
-- **Plan:** Use Ice Punch (Slot 3) to finish Exeggutor.
-- **Next:** Rhydon likely next. Plan to use Cross Chop (Physical Fighting vs Rock/Ground).
+- **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados, Exeggutor.
+- **Current Enemy:** Rhydon (Incoming).
+- **My Pokemon:** Muscle (Machoke Lv83).
+- **Condition:** Muscle is Seeded.
+- **Plan:** Stay in (Select NO). Use Ice Punch (Slot 3).
+- **Reasoning:** Ice Punch hits Rhydon's weak Special Defense. 2x Effective. 100% Accuracy. Cross Chop risks a miss.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
