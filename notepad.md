@@ -30,4 +30,11 @@
   5. Push Boulder 6 (1, 5) right to (2, 5) PIT.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12. Detour through row 13 and column 1 is the only way for B6.
-- Failed Strength Activation Attempts: 5. I will be extremely slow and precise.
+- Failed Strength Activation Attempts: 6. I will be extremely slow and precise.
+- Turn 29995 Reflection:
+  1. No deferred tasks found.
+  2. Notepad organized. B6 path updated.
+  3. Markers updated. Redundant ones removed.
+  4. solve_blackthorn_boulders failed; manually executing.
+  5. Goals are WHAT, plans are HOW.
+  6. Root hypothesis for B6: column 4 is a wall. Verified by movement. Detour is required.
