@@ -13,7 +13,7 @@
     3. Level up the utility Pokémon (Xenon, Kimchi, Icarus) to survive at least one hit.
     4. Consider teaching better coverage moves if TMs are available.
 
-# Battle Status: Clair (Turn 30367)
+# Battle Status: Clair (Turn 30368)
 - Opponent: Kingdra (Lv40) - HP ~40%.
 - Progress: 1x Dragonair (Lv37) defeated.
 - Player Status: All Pokemon except Ravioli are FNT. No Revives.
