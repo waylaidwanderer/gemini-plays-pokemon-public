@@ -3,10 +3,10 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Cinnabar -> Viridian City
-- **Location:** Cinnabar Island (Surfing North).
-- **Status:** Fly to Viridian failed (endpoint likely unlocked). Surfing to Pallet Town via Route 21.
-- **Next Action:** Arrive in Pallet Town, heal, then walk North to Viridian.
+# Current Strategy: Route 21 -> Viridian City
+- **Location:** Route 21 (Surfing North).
+- **Status:** Avoided Swimmer Guy. Passed Fisher. Approaching Swimmer Nikki (Defeated).
+- **Next Action:** Arrive in Pallet Town, heal at mom's or proceed to Viridian Pokemon Center.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
