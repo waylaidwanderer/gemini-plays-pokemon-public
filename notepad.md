@@ -1,25 +1,24 @@
 # Tile Mechanics (Global)
-- FLOOR: Passable. Standard traversable terrain.
-- WALL: Impassable silver blocks. Absolute barrier for player and boulders.
-- PIT: Hazardous for player (warp to 1F). Target for boulders (forms bridge on 1F).
+- FLOOR: Passable.
+- WALL: Impassable silver blocks. 
+- PIT: Player falls to 1F. Boulder destination.
 - LADDER: Warp between floors. Deactivates Strength.
-- Strength: Active (Turn 30101). Reactivate by interacting with a boulder (A button).
+- Strength: Active (Turn 30101).
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 12).
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Pits: (2, 5), (8, 3), (8, 7).
-- NPCs: Cody (4, 1), Fran (4, 11). Both act as solid obstacles.
-- Barriers: Column 4 wall Row 0-12. Column 2 wall Row 10-17. Row 8 wall at (2,8)-(4,8).
-- Crossings: Row 13 gap at (4, 13) is the primary crossing. Row 1 gap at (2, 1).
+- NPCs: Cody (4, 1), Fran (4, 11). Solid.
+- Choke Point 1: B8 at (8, 11). To reach Pit (8, 7), it must go through (8, 10), (8, 9), (8, 8). 
+- Choke Point 2: Walls at (8, 9) and (8, 8) block Column 8.
+- Choke Point 3: Wall at (7, 10) and (7, 11) block pushing B8 Right into Column 9.
 
-# Time Tracking
-- Puzzle Start Turn: 29931.
-- Current Attempt Start: Turn 30104.
-
-# Strategy: Boulder Puzzle
-- Goal: Drop all boulders into pits.
+# Strategy: Testing Boundaries
+- Hypothesis: One of the silver blocks in the right quadrant is passable.
+- Test 1: Is (7, 10) or (7, 11) passable? (Allows pushing B8 Right).
+- Test 2: Is (8, 8) or (8, 9) passable? (Allows pushing B8 Up).
 - Plan:
-  1. Verify the state of Pit (8, 7) and Boulder 8.
-  2. Map out paths: B8 -> (8, 7), B7 -> (8, 3), B6 -> (2, 5).
-  3. Identify and test potential "fake walls" blocking boulder paths (e.g., Row 0 or Row 4/8/12).
-  4. Use `solve_blackthorn_boulders` with confirmed coordinates.
+  1. Navigate to (6, 10).
+  2. Attempt to move Right to (7, 10).
+  3. Navigate to (6, 8).
+  4. Attempt to move Right to (7, 8) then to (8, 8).
