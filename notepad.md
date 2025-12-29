@@ -8,15 +8,22 @@
 - Boulders (Initial): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
-- Strength: Inactive (Turn 30193). Reset by ladder.
+- Strength: Activating (Turn 30197).
 
 # Strategy: Solve Boulders
-1. Reset floor to return all boulders to initial positions.
-2. Reactivate Strength on Boulder 8 at (8, 14).
-3. Push Boulder 8 north to (8, 12).
-4. Analyze paths from (8, 12) to avoid the corner at (8, 10).
-5. Target Pits: B8 -> P3 (8, 7), B7 -> P2 (8, 3), B6 -> P1 (2, 5).
+1. **Boulder 8 (8, 14) -> Pit P3 (8, 7)**
+   - Push north to (8, 12).
+   - Push left to (6, 12).
+   - Push north to (6, 7).
+   - Push right to (8, 7).
+2. **Boulder 7 (6, 1) -> Pit P2 (8, 3)**
+   - Plan TBD.
+3. **Boulder 6 (3, 3) -> Pit P1 (2, 5)**
+   - Push south to (3, 13).
+   - Push left to (1, 13).
+   - Push north to (1, 5).
+   - Push right to (2, 5).
 
 # Verification Status
-- (8, 9), (8, 8), (7, 10), (7, 11): Verified REAL WALLS.
-- (2, 2), (6, 10), (7, 12): Verified FLOOR.
+- (2, 2), (6, 10), (7, 12), (7, 11): Verified FLOOR.
+- (8, 9), (8, 8), (7, 10): Verified REAL WALLS.
