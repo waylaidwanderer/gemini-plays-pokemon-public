@@ -8,10 +8,11 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam.
-- **Current Enemy:** Arcanine (Incoming).
-- **My Pokemon:** Switching to Qaagmaqnjw (Gyarados Lv35).
-- **Action:** Confirming switch (Select -> Shift).
-- **Plan:** Intimidate Arcanine. Use Surf (Slot 4) for massive damage.
+- **Current Enemy:** Arcanine (Lv58).
+- **My Pokemon:** Qaagmaqnjw (Gyarados Lv35).
+- **Matchup:** Lv35 vs Lv58. Dangerous.
+- **Advantage:** Water resists Fire. Intimidate lowers Arcanine's Attack.
+- **Plan:** Surf (Slot 4) for STAB + Super Effective damage.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
