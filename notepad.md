@@ -6,8 +6,8 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28.
 - **Status:** Traversing Westwards.
-- **Action:** Walk West via the grass path (Rows 10-11).
-- **Reasoning:** A land path exists south of the water. Walking is preferred to avoid Surf menu interactions.
+- **Action:** Follow the grass path North-West to bypass walls at (17, 10).
+- **Reasoning:** The path at Row 10 is blocked by a wall at x=17, but the path continues on Row 9 (Grass/Floor).
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
