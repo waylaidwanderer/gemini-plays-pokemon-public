@@ -18,7 +18,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24927)
-- **Self-Assessment:** Previous movement command (Turn 24926) was partially executed (only 1 step taken). Retrying movement to Gym Guide.
-- **Goal:** Talk to Gym Guide to get info/check status. Then explore North.
+# Reflection (Turn 24928)
+- **Self-Assessment:** Movement to Gym Guide was interrupted again. Only 'Up' executed. Attempting to move Right to (7, 14).
+- **Hypothesis:** Possible input drop or invisible obstacle. If 'Right' fails, will inspect tile (5, 14).
+- **Goal:** Talk to Gym Guide, then explore North.
 - **Gym Start:** Turn 24925.
