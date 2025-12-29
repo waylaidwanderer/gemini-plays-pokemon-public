@@ -38,10 +38,11 @@
 - Kingdra (Water/Dragon) resists: Fire (1/4x), Water (1/4x), Electric (1/2x), Grass (1/2x).
 - Normal & Ground: Neutral vs Dragon.
 
-# Boulder Puzzle Analysis
-- Phase: Fake Wall Testing (Started Turn 29744)
 - Hypothesis: Tile (8, 9) is a fake wall.
   - Test: Stand at (7, 9) and press Right.
+  - Result: DENIED (Turn 29767).
+- Hypothesis: Tile (7, 10) is a fake wall.
+  - Test: Stand at (6, 10) and press Right.
   - Result: [Pending].
 - Failed Hypotheses:
   1. Row 0 is passable (Tested - Denied).
@@ -52,6 +53,7 @@
   6. Tile (4, 4) is a fake wall (Denied Turn 29759).
   7. Tile (4, 5) is a fake wall (Denied Turn 29762).
   8. Tile (4, 6) is a fake wall (Denied Turn 29763).
+  9. Tile (8, 9) is a fake wall (Denied Turn 29767).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
