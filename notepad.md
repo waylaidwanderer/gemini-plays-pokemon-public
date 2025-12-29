@@ -17,7 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24801)
-- **Status:** Surfing on Route 20 (12, 16).
-- **Action:** Defeated Swimmer Cameron. Navigating around him and debris at (11, 16).
-- **Path:** Detouring North (Right -> Up -> Up -> Left) to bypass obstacles, then West to Cinnabar.
+# Reflection (Turn 24803)
+- **Status:** Surfing at the west edge of Route 20 (0, 16).
+- **Action:** Crossing map border to Cinnabar Island.
+- **Next:** Arrive in Cinnabar, then Fly to Viridian City.
