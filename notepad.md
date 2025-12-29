@@ -19,13 +19,9 @@
 
 # Strategy: Boulder Puzzle
 - Goal: Drop all three boulders into pits to bridge gaps on 1F.
-- Phase 1: Test "fake wall" candidates.
-  - Hypothesis: (9, 13) is passable despite appearing as a WALL.
-  - Test: Attempt to move to (9, 13).
-- Phase 2: Use `solve_blackthorn_boulders` with corrected grid.
-
-# Lessons Learned
-- Dialogue Loops: Pressing A while facing a boulder triggers a "Boulders may now be moved!" prompt. If already active, it just loops. Move away or push immediately.
-- Coordinate Precision: Always verify boulder positions against Game State (Map Objects) before planning. Hallucinating a 1-tile offset (e.g., 8,14 vs 8,13) causes navigation loops.
-- Strength Activation: Interacting with a boulder is the fastest way to activate Strength.
-- Map Layout: Column 4 and Column 2 are major wall barriers. Use Row 1, Row 9, and Row 13 for horizontal movement.
+- Phase 1: Return to 2F and test (2, 13) passability.
+  - Hypothesis: (2, 13) is a fake wall on 2F.
+  - Test: Push B6 to (3, 13), then try to push it to (2, 13).
+- Phase 2: Solve B7 and B8 using confirmed paths.
+  - B7: (6, 1) -> (7, 1) -> (7, 3) -> (8, 3) Pit.
+  - B8: (8, 12) -> (8, 10) -> (9, 10) -> (9, 7) -> (8, 7) Pit.
