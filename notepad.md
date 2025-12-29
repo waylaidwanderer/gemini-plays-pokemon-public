@@ -8,18 +8,14 @@
 # Blackthorn Gym Boulder Puzzle
 - Start Turn: 30123
 - Boulders on 2F (Reset Positions):
-    - ID 6: (3, 3) (Verified Turn 30284)
-    - ID 7: (6, 1) (Verified Turn 30284)
-    - ID 8: (8, 14)? (Heading to verify)
+    - ID 6: (3, 3) (Verified Turn 30287)
+    - ID 7: (6, 1) (Verified Turn 30287)
+    - ID 8: (8, 14) (Verified Turn 30286)
 - Pits on 2F:
     - P1: (2, 5)
     - P2: (8, 3)
     - P3: (8, 7)
-- Strategy: Use run_code to calculate the shortest path of pushes for all three boulders once 1F gaps are confirmed.
-
-# Verified Bridge Gaps (1F)
-- (8, 7): Filled (Boulder present)
-- Remaining gaps to identify.
+- Strategy: Use solve_blackthorn_boulders to find the sequence of pushes for all three boulders.
 
 # Verified Map Constraints (2F)
 - Row 0: WALL.
