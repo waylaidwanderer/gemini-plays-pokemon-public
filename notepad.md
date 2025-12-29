@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** In wild battle (Golbat).
-- **Action:** Run from battle -> Navigate to Pokemon Center (23, 19).
-- **Reasoning:** The sign confirms the Pokemon Center is at (23, 19). I need to find a path to it, likely by continuing North or finding a way East.
+- **Status:** Navigating to Pokemon Center.
+- **Action:** Go South to Row 24, East to Column 23, then North to PC.
+- **Reasoning:** Direct East path is blocked by ledges. The map shows a gap in the ledges at (23, 23) allowing access to the PC from the South.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
