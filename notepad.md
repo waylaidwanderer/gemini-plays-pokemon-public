@@ -7,15 +7,15 @@
 
 # Blackthorn Gym Boulder Puzzle
 - Boulders on 2F (Current Positions):
-    - ID 6: (3, 3) (Verified Turn 30255)
-    - ID 7: (7, 1) (Verified Turn 30255)
-    - ID 8: (8, 13) (Verified Turn 30256)
+    - ID 6: (3, 3) (Verified Turn 30266)
+    - ID 7: (6, 1) (Verified Turn 30266)
+    - ID 8: (8, 14) (Verified Turn 30267)
 - Pits on 2F:
     - P1: (2, 5) - UNFILLED
     - P2: (8, 3) - UNFILLED
-    - P3: (8, 7) - FILLED (Verified on 1F Turn 30257)
+    - P3: (8, 7) - FILLED (Verified on 1F Turn 30257, need to verify on 2F)
 - Goal: Fill P1 and P2 to complete the bridge on 1F.
-- Strategy: Use boulder_pathfinder_v2 to calculate the moves for the remaining boulders.
+- Strategy: Verify P3 is a floor on 2F, then use solve_blackthorn_boulders.
 
 # Verified Map Constraints (2F)
 - Row 0 and Row 17: Boundaries.
