@@ -31,5 +31,4 @@
 - Current Status: Calcifer (47), GNEISS (45), Xenon (22, EXP: 8127), Kimchi (21, EXP: 7006), Icarus (16).
 
 # General Lessons
-- Puzzle Bypass: Blackthorn Gym's boulder puzzle is skippable via the right-side path.
 - Pathfinding: Always explore perimeters to find detours around complex obstacles.
