@@ -4,9 +4,9 @@
 - **Next:** Talk to Professor Oak in Pallet Town.
 
 # Current Strategy: Post-Game
-- **Location:** Flying to Pallet Town.
-- **Status:** En route to Oak's Lab.
-- **Action:** Land in Pallet Town -> Enter Lab -> Talk to Oak.
+- **Location:** Pallet Town (5, 7).
+- **Status:** Walking to Oak's Lab.
+- **Action:** Enter Oak's Lab (12, 11) -> Talk to Oak.
 - **Goal:** Get permission for Mt. Silver.
 
 # Tile Mechanics
