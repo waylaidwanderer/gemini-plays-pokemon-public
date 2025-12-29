@@ -11,7 +11,7 @@
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
 - Blockages: Column 4 wall Row 0-12. Column 2 wall Row 10-17. Row 8 wall at (2,8)-(4,8).
 - Reset Required: Completed. Boulders are at their initial positions.
-- Strength: Inactive (Turn 30126). Reset by ladder warp.
+- Strength: Active (Turn 30130). Activated on Boulder 8 at (8, 14).
 
 # Strategy: Reactivate and Solve
 - Phase 1: Reactivate Strength.
