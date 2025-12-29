@@ -8,6 +8,7 @@
 - Boulders (Initial): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
+- Strength: Inactive (Turn 30193). Reset by ladder.
 
 # Strategy: Solve Boulders
 1. Reset floor to return all boulders to initial positions.
