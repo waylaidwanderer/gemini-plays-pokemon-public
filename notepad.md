@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Route 28.
-- **Status:** Entering Mt. Silver.
-- **Action:** Move Left from (0, 13) to exit Route 28.
-- **Reasoning:** I am at the map border. Moving West will transition to the Mt. Silver area.
-- **Goal:** Reach Mt. Silver Entrance.
+- **Location:** Silver Cave Outside (Mt. Silver).
+- **Status:** Just arrived.
+- **Action:** Explore West to find the Pokemon Center.
+- **Reasoning:** Need to establish a Fly point and heal before entering the cave.
+- **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
