@@ -27,9 +27,9 @@
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
 # Training Log
-- Turn 30372: Whited out against Clair. Kingdra's Smokescreen and Dragonbreath were the primary threats.
-- Turn 30412 (Sunday, 11:46 PM): Started grind session on Route 45.
-- Current Levels: Calcifer (47), GNEISS (45), Xenon (21), Kimchi (21), Icarus (16).
+- Turn 30372: Whited out against Clair. Team was insufficient for Kingdra's Smokescreen/Dragonbreath.
+- Turn 30412 (Sun 11:46 PM): Start grind on Route 45. Target: Lv30+ for Xenon/Kimchi.
+- Current Status: Calcifer (47), GNEISS (45), Xenon (21), Kimchi (21), Icarus (16).
 
 # General Lessons
 - Puzzle Bypass: Blackthorn Gym's boulder puzzle is skippable via the right-side path.
