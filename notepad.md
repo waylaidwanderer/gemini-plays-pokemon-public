@@ -3,10 +3,10 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Viridian City
-- **Location:** Viridian City (32, 8).
-- **Status:** Entering Gym.
-- **Plan:** Enter the Gym, navigate to the Leader, and defeat Blue.
+# Current Strategy: Viridian Gym
+- **Location:** Viridian Gym (23_4).
+- **Status:** Just entered.
+- **Plan:** Explore the Gym, identify the puzzle mechanics (likely spin tiles), and locate Leader Blue.
 - **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
