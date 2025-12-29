@@ -62,11 +62,12 @@
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 
 # Quest Log
-- **Current Task:** Defeat Janine.
-- **Started:** Turn 24302.
-- **Badges:** 12/16. Next: Seafoam (Blaine).
-- **Status:** Defeated Picnicker Cindy at (9, 4).
-- **Location:** (8, 1). Top-right corner of gym.
-- **Plan:** Traverse Row 1 to the left (West) to reach the top-left corner. Explore unseen area (Cols 0-3) and find a path down to Janine at (1, 10).
-- **Potential Obstacles:** Invisible walls in the top corridor.
-- Battle Update: Muscle (Lv 81) defeated Weezing #2. Facing Ariados. Using Thunderpunch.
+- **Current Task:** Reach Seafoam Islands.
+- **Started:** Turn 24398.
+- **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
+- **Status:** Defeated Janine. Exiting Gym.
+- **Location:** Fuchsia Gym Exit.
+- **Immediate Plan:**
+  1. Exit Gym.
+  2. Heal at Pokemon Center (19, 27).
+  3. Head South to Route 19 -> Route 20 -> Seafoam Islands.
