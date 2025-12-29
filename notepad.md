@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Navigating Lower Path West.
-- **Action:** Jump ledge at (10, 11) and travel West on Row 12.
-- **Reasoning:** The upper path was a dead end. Accessing the lower path via the ledge allows travel further West towards Mt. Silver.
+- **Status:** Reaching West Exit.
+- **Action:** Move to (0, 13) to exit map.
+- **Reasoning:** I am at the western edge. Walking off the map at (0, 13) should transition to Mt. Silver.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
