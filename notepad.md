@@ -8,7 +8,8 @@
 - Strength: Must be re-activated after falling through a pit or changing maps.
 
 # Physically Tested Tiles (2F)
-- WALL confirmed: (0,0), (0,2), (1,0), (2,0), (3,0), (5,0), (6,0), (7,0), (8,0), (4,1), (4,2)-(4,7), (6,4), (8,8), (8,9), (4,11).
+- WALL confirmed: (0,0), (0,2), (1,0), (1,2), (2,0), (3,0), (5,0), (6,0), (7,0), (8,0), (4,1), (6,4), (8,8), (8,9), (4,11).
+- Note: Previous tests of (4,2)-(4,7) might have only been turning to face them. Re-testing required.
 - Passable (Boulder Pushes): (5,1)->(6,1), (7,1)->(8,1), (8,1)->(9,1).
 
 # Blackthorn Gym Layout & Boulders
