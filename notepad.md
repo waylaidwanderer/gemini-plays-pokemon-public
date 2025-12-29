@@ -1,42 +1,17 @@
 # Tile Mechanics (Global)
 - FLOOR: Traversable. Standard ground.
 - WALL: Impassable. Silver blocks, statues, and boundaries.
-- PIT: Warp tile. Falling through takes you to the floor below (landing on specific tiles).
-- LADDER: Warp tile. Used to travel between floors.
-- BOULDER: Object. Impassable. Can be pushed with Strength.
-- NPC: Object. Impassable. Acts as a wall even when defeated.
-- ICE: Sliding mechanic (Ice Path).
-- ROCK: Destructible with ROCK SMASH.
-- WATER: Requires Surf to traverse.
+- PIT: Warp tile. Falling through takes you to the floor below.
+- LADDER: Warp tile.
+- BOULDER: Object. Impassable. Push with Strength.
+- NPC: Object. Impassable.
 - BOULDER BRIDGES: Boulders in pits act as passable FLOOR.
+- Strength must be re-activated after falling through a pit.
 
 # Blackthorn Gym Layout & Boulders
-- 2F Boulders (Initial Positions):
-  - Boulder 6: (3, 3)
-  - Boulder 7: (6, 1)
-  - Boulder 8: (8, 14)
-- 2F Pits:
-  - Pit (2, 5) -> 1F (2, 6)
-  - Pit (8, 3) -> 1F (7, 6)
-  - Pit (8, 7) -> 1F (7, 7)
-- Verified Mechanics (2F):
-  - Silver blocks (Row 0) are WALLS. Boulders in Row 1 cannot be pushed DOWN.
-  - Column 9: Dead end at (9, 4). (9, 12)-(9, 17) are WALLS.
-  - Column 2: Wall from (2, 10) to (2, 17).
-  - Row 13: Passage at (4, 13) connects east and west sections. (2, 13) is a WALL.
-  - Gym Reset: Exiting and re-entering resets all boulders to initial positions.
-
-# Strategy: Gym Leader Clair
-- Battle Strategy (Turn 29637):
-  1. Lead GNEISS (Lv45). Use EARTHQUAKE vs Dragonairs.
-  2. Vs Kingdra: Switch to Calcifer. Use SMOKESCREEN 3-4 times.
-  3. Switch to GNEISS. Use DEFENSE CURL then ROLLOUT.
-  4. Keep HP > 50% with Hyper Potions.
-
-# Type Effectiveness (Verified)
-- Dragon resists: Fire, Water, Electric, Grass.
-- Kingdra (Water/Dragon) resists: Fire (1/4x), Water (1/4x), Electric (1/2x), Grass (1/2x).
-- Normal & Ground: Neutral vs Dragon.
+- 2F Boulders (Initial): Boulder 6 (3,3), Boulder 7 (6,1), Boulder 8 (8,14).
+- 2F Pits: Pit (2,5), Pit (8,3), Pit (8,7).
+- 1F Bridge: Boulders land at (2,6), (7,6), (7,7) to create path to Clair at (5,3).
 
 # Boulder Puzzle Analysis
 - Failed Hypotheses (Confirmed Walls):
@@ -45,9 +20,15 @@
   - Col 6: (6,2), (6,3)
   - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
   - NPCs: Cody (4,1)
-- Current Strategy: Use 'puzzle_analyst' agent to find the missing link.
-- Tile Mechanics: Strength resets after falling through pits.
+- Current Strategy: Use 'puzzle_analyst_v2' to find the missing link.
+- Note: Turn 29746 "confirmed" fake wall at (4,3) was a hallucination.
+
+# Strategy: Gym Leader Clair
+- Battle Strategy (Turn 29637):
+  1. Lead GNEISS (Lv45). Use EARTHQUAKE vs Dragonairs.
+  2. Vs Kingdra: Switch to Calcifer. Use SMOKESCREEN 3-4 times.
+  3. Switch to GNEISS. Use DEFENSE CURL then ROLLOUT.
 
 # Navigation Insights
-- 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
-- 1F Access: Must use 2F detour to move between top and bottom halves of 1F. (Verified Turn 29706)
+- 1F Partition: Row 11 is a wall from (2,11) to (9,11).
+- 1F Access: Must use 2F detour (Ladder at 7,9 to Ladder at 1,7) to move between halves.
