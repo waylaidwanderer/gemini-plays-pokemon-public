@@ -7,9 +7,9 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Current Enemy:** Pidgeot (Lv56).
+- **Current Enemy:** Pidgeot (Lv56) - Red HP.
 - **My Pokemon:** Muscle (Machoke Lv82).
-- **Action:** Use Thunderpunch (Slot 2) for Super Effective damage.
+- **Action:** Thunderpunch (Slot 2) to finish it.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
