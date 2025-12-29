@@ -40,17 +40,14 @@
 
 # Boulder Puzzle Analysis
 - Phase: Fake Wall Testing (Started Turn 29744)
-- Hypothesis: Tile (2, 0) is a fake wall.
-  - Test: Stand at (2, 1) and press Up.
-  - Result: [Pending].
 - Hypothesis: Tile (3, 8) is a fake wall.
   - Test: Stand at (3, 9) and press Up.
   - Result: [Pending].
-- Hypothesis: NPC Fran at (4, 11) is passable.
-  - Test: Stand at (3, 11) and press Right.
+- Hypothesis: Tile (7, 1) is a fake wall (Wait, it's marked floor but might be blocked).
+  - Test: Walk onto (7, 1).
   - Result: [Pending].
 - Failed Hypotheses:
-  1. Row 0 (3,0), (5,0), (7,0), (8,0), (9,0) are passable (Denied).
+  1. Row 0 (2,0), (3,0), (5,0), (7,0), (8,0), (9,0) are passable (Denied).
   2. NPC Cody at (4, 1) is passable (Denied).
   3. Tile (4, 2)-(4, 7) are fake walls (Denied).
   4. Tile (6, 2), (6, 3) are fake walls (Denied).
