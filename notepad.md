@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Victory Road (2F).
-- **Status:** Navigating 2F to reach 1F.
-- **Action:** Navigate to (12, 34) to bypass Ladder at (13, 31).
-- **Reasoning:** Need to avoid stepping on Ladder (13, 31) to avoid warping back to 3F. x=12 column is safe.
+- **Status:** Navigating to 1F Ladder.
+- **Action:** Pathing to Bottom Loop (Row 42) -> Ledge Hop Left at (6, 41) -> Ladder (1, 35).
+- **Reasoning:** Direct left path is blocked. Must traverse the bottom loop to cross from East side to West side via one-way ledges.
 - **Goal:** Reach Ladder (1, 35) -> 1F.
 
 # Tile Mechanics
