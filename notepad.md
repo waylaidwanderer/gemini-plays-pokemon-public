@@ -3,10 +3,10 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Route 21 -> Viridian City
-- **Location:** Entering Pallet Town.
-- **Status:** Crossing map border from Route 21.
-- **Next Action:** Arrive in Pallet Town, heal at mom's, then walk North to Viridian.
+# Current Strategy: Pallet Town -> Viridian City
+- **Location:** Pallet Town (Shoreline).
+- **Status:** Landing on the west side to avoid the Fisher. Heading to Red's House (5, 5) to heal.
+- **Next Action:** Heal at Mom's, then walk North to Viridian City.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
