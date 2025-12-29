@@ -11,8 +11,6 @@
 - NPCs: Cody (4, 1), Fran (4, 11).
 
 # Strategy: Decisive Action Phase
-1. Reset floor via ladder (Done Turn 30214).
-2. Reactivate Strength (Done Turn 30218).
-3. Focus on pushing Boulder 8 (8, 14) north toward pit P3 (8, 7).
-4. Use run_code to verify individual boulder paths.
-5. Goal: Fill all three pits.
+1. Push Boulder 8 (8, 12) north toward Pit P3 (8, 7).
+2. Navigate around to Column 6 to push B8 right into the pit if blocked north.
+3. Solve B7 and B6.
