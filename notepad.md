@@ -3,11 +3,12 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Pallet Town -> Viridian City
-- **Location:** Pallet Town (Outside Red's House).
-- **Status:** Leaving Pallet Town.
-- **Next Action:** Navigate North to Route 1, then to Viridian City.
-- **Teacher Patrol:** Avoid (3, 8) area.
+# Current Strategy: Route 1 -> Viridian City
+- **Location:** Route 1 (South end).
+- **Status:** Just entered from Pallet Town.
+- **Next Action:** Navigate North through Route 1, avoiding ledges, to reach Viridian City.
+- **Pathing:** Must flank ledges (likely right side at top) to progress North.
+- **Trainers:** Watch out for Youngster and Cooltrainer F.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
