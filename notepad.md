@@ -31,4 +31,3 @@
 
 # General Lessons
 - Pathfinding: Always explore perimeters to find detours around complex obstacles.
-- Progress (Turn 30488): Xenon Lv22 (8312 EXP), Kimchi Lv21 (7006 EXP). GNEISS Earthquake PP: 4/10.
