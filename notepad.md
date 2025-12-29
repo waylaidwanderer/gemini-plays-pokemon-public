@@ -33,3 +33,6 @@
 - Pathfinding: Explore perimeters to bypass obstacles.
 - Encounter: Wild Gligar (Lv24) defeated. Yielded 370 EXP (185 to Xenon).
 - Strategy: Continue pacing on Route 45 for levels and trainer money.
+- Encounter: Wild Geodude (Lv23) defeated. Yielded 282 EXP (141 to Xenon).
+- Resource: GNEISS Earthquake PP 1/10.
+- Strategy: Continue pacing on Route 45. If Earthquake runs out, switch to Calcifer or Gneiss's other moves.
