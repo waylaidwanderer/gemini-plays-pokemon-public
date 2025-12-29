@@ -8,7 +8,8 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Current Enemy:** Alakazam (Incoming).
-- **Action:** Switch to Kunai (Sneasel) to exploit Dark-type immunity to Psychic.
+- **Action:** Confirming switch to Kunai (Sneasel).
+- **Plan:** Exploiting Dark-type immunity to Psychic. Kunai's Shadow Ball (Physical) vs Alakazam's low Defense.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
