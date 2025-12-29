@@ -39,16 +39,11 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Analysis
-- Hypothesis 1: Tile (4, 3) is a fake wall.
-  - Test: Stand at (5, 3), face Left, press Left.
-  - Result: DENIED (Turn 29758).
-- Hypothesis 2: Tile (4, 4) is a fake wall.
-  - Test: Stand at (5, 4) and press Left.
-  - Result: DENIED (Turn 29759).
-- Hypothesis 3: Tile (4, 5) is a fake wall.
+- Phase: Fake Wall Testing (Started Turn 29744)
+- Hypothesis 1: Tile (4, 5) is a fake wall.
   - Test: Stand at (5, 5) and press Left.
   - Result: [Pending].
-- Hypothesis 3: Tile (8, 9) is a fake wall.
+- Hypothesis 2: Tile (8, 9) is a fake wall.
   - Test: Stand at (7, 9) and press Right.
   - Result: [Pending].
 - Failed Hypotheses:
@@ -56,6 +51,8 @@
   2. NPC Cody at (4, 1) is passable (Denied Turn 29751).
   3. Tile (4, 2) is a fake wall (Denied Turn 29748).
   4. Tile (6, 3) is a fake wall (Denied Turn 29747).
+  5. Tile (4, 3) is a fake wall (Denied Turn 29758).
+  6. Tile (4, 4) is a fake wall (Denied Turn 29759).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
