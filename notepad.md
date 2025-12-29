@@ -4,7 +4,7 @@
 - **Next:** Talk to Professor Oak in Pallet Town.
 
 # Current Strategy: Post-Game
-- **Location:** Pallet Town (5, 7).
+- **Location:** Pallet Town (6, 7).
 - **Status:** Walking to Oak's Lab.
 - **Action:** Enter Oak's Lab (12, 11) -> Talk to Oak.
 - **Goal:** Get permission for Mt. Silver.
