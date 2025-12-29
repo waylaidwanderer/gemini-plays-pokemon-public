@@ -9,10 +9,10 @@
 - **Opponent:** Leader Blue.
 - **Current Enemy:** Alakazam (Lv54).
 - **My Pokemon:** Kunai (Sneasel Lv24).
-- **Condition:** Alakazam Defense -3 (Screech + Leer). Disable ENDED.
+- **Condition:** Alakazam Defense -3. Disable ENDED.
 - **Insight:** Kunai is immune to Psychic. Shadow Ball is available.
 - **Plan:** OHKO with Shadow Ball (Slot 1).
-- **Cursor:** Currently on Slot 2 (Leer).
+- **Cursor:** Move menu cursor likely on Slot 2 (Leer).
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
