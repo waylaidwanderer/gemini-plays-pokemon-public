@@ -4,9 +4,10 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Pallet Town -> Viridian City
-- **Location:** Pallet Town (Shoreline).
-- **Status:** Landing on the west side to avoid the Fisher. Heading to Red's House (5, 5) to heal.
-- **Next Action:** Heal at Mom's, then walk North to Viridian City.
+- **Location:** Pallet Town (5, 11).
+- **Status:** Flanking Teacher (Patrols 3,10 to 5,10).
+- **Next Action:** Move Right to column 8, then Up to reach Red's House (5, 5).
+- **Teacher Patrol:** Confirmed moving between (3,10) and (5,10). Must avoid (5,10).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
