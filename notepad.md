@@ -4,10 +4,10 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road (3F) (13, 17).
-- **Status:** Exploring 3F for a better route down.
-- **Action:** Navigate to Ladder at (17, 19).
-- **Reasoning:** Ladder at (13, 17) led to a blocked area on 2F. Trying the other ladder.
+- **Location:** Victory Road (3F) (10, 16).
+- **Status:** In wild battle (Graveler Lv38).
+- **Action:** Run from battle -> Navigate East to Ladder at (17, 19).
+- **Reasoning:** Need to traverse 3F to find the correct path down to 2F.
 - **Goal:** Reach 2F via a valid path.
 
 # Tile Mechanics
