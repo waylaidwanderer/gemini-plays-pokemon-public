@@ -8,10 +8,11 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados.
-- **Current Enemy:** Exeggutor (Incoming).
+- **Current Enemy:** Exeggutor (Lv58).
 - **My Pokemon:** Muscle (Machoke Lv82).
-- **Action:** Stay in (Select NO).
-- **Plan:** Use Ice Punch (Slot 3). Super Effective.
+- **Plan:** Use Ice Punch (Slot 3).
+- **Reasoning:** Ice Punch is 2x Effective vs Grass/Psychic. It is Muscle's strongest option despite being Special, as Fighting is Resisted.
+- **Cursor Memory:** Currently on Slot 2 (Thunderpunch).
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
