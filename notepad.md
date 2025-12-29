@@ -65,3 +65,5 @@
 - **Current Task:** Defeat Janine.
 - **Started:** Turn 24302.
 - **Badges:** 12/16. Next: Seafoam (Blaine).
+- **New Invisible Wall:** (8, 7).
+- **Plan:** Detour to Column 9. Path: (8, 8) -> (9, 8) -> (9, 7) -> (9, 6) -> (8, 6).
