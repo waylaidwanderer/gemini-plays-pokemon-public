@@ -9,9 +9,9 @@
 - **Opponent:** Leader Blue.
 - **Current Enemy:** Alakazam (Lv54).
 - **My Pokemon:** Kunai (Sneasel Lv24).
-- **Condition:** Alakazam's Reflect faded. Defense -2. Shadow Ball might be Disabled.
-- **Insight:** Kunai is immune to Psychic.
-- **Plan:** Attempt Shadow Ball (Slot 1). If disabled, will use Screech/Quick Attack next.
+- **Condition:** Alakazam's Reflect faded. Defense -2. Shadow Ball Disabled.
+- **Insight:** Kunai is immune to Psychic. Shadow Ball is my only real damage source (Ghost is Physical in Gen 2).
+- **Plan:** Stall with Screech (Slot 4) until Disable wears off, then OHKO with Shadow Ball.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
