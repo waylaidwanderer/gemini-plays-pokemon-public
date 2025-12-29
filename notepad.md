@@ -16,11 +16,10 @@
 
 # Strategy
 - Goal: Drop all three boulders into pits.
-- Current Status: B8 is at (8, 12). Player at (8, 13).
+- Current Status: B8 is at (8, 12). Player at (8, 13). Strength active.
 - Plan:
-  1. Confirm Strength is active by interacting with B8.
-  2. Push B8 UP to (8, 10) or LEFT to (7, 12) if possible.
-  3. Run a focused BFS for B8 to Pit (8, 7).
-- B8 Path Hypothesis: (8, 12) -> (8, 10) -> (9, 10) -> (9, 7) -> (8, 7) PIT.
-  - Test: Can I push B8 right at (8, 10)? (Player needs to be at (7, 10) WALL).
-  - Test: Can I push B8 down at (9, 6)? (Player needs to be at (9, 5) FLOOR).
+  1. Clear "Boulders may now be moved!" text.
+  2. Push B8 UP to (8, 11).
+  3. Test if (9, 13) or (8, 9) are passable.
+- B8 Path Hypothesis: (8, 12) -> (8, 11) -> (8, 10).
+  - If (8, 9) is a wall, B8 is stuck unless Column 9 or 7 is accessible.
