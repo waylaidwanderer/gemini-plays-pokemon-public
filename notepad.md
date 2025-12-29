@@ -17,9 +17,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24766)
-- **Status:** Surfing East on Route 20. Found Seafoam Islands/Gym.
-- **Location:** Entrance detected at x=38. Land at x=36.
-- **Lore:** Blaine is here. This is the Cinnabar Gym (relocated).
-- **Next:** Land on the island and enter the cave.
-- **Action Required:** Surf to (36, 12).
+# Reflection (Turn 24767)
+- **Status:** At Seafoam Islands entrance (38, 11).
+- **Navigation:** Surf into the cave entrance at (38, 11).
+- **Observation:** Entrance is accessible from water. Sign confirms Cinnabar Gym.
+- **Next:** Enter the gym and find Blaine.
+- **Action Required:** Enter the cave.
