@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** In wild battle (Golbat).
-- **Action:** Run from battle -> Continue West.
-- **Reasoning:** Interrupted by wild Golbat. Need to escape.
+- **Status:** Exploring Westwards.
+- **Action:** Continue West to Mt. Silver Entrance.
+- **Reasoning:** Resuming exploration after wild battle. Following the lower path West.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
