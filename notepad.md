@@ -18,7 +18,7 @@
   - NPCs: Cody (4,1)
 - Hypothesis: One of the remaining Row 0 tiles (0,0), (1,0), (4,0), (6,0) is passable.
 - Task: Detour to (6, 1) and test (6, 0).
-- Current Turn: 29799.
+- Current Turn: 29813.
 
 # Strategy: Gym Leader Clair
 - Lead GNEISS (Lv45) vs Dragonairs (Earthquake).
