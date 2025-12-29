@@ -17,6 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24787)
-- **Status:** Exiting Seafoam Gym.
-- **Next:** Exit gym (South).
+# Reflection (Turn 24791)
+- **Status:** Surfing West on Route 20 towards Cinnabar Island.
+- **Goal:** Reach Cinnabar Island to Fly to Viridian City.
+- **Next:** Surf to (0, 16) and exit map.
