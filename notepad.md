@@ -29,5 +29,7 @@
 - **Next:** Continue South to Cinnabar Island.
 - **Battle Cursor Persistence:** The cursor position in the "FIGHT" menu is remembered between turns and even between opponent Pokémon switches. It does NOT reset to the first move.
 - **smart_battle_move Tool Note:** The tool assumes the cursor is at slot 1. Since the cursor persists, this causes incorrect move selection in subsequent turns. Use `current_slot` parameter or fix tool to reset cursor.
-- **Observation:** Route 21 (6_7) south edge (y=36) is blocked by `WALL` from x=4 eastwards, but OPEN (`WATER`) at x=1-3.
-- **Strategy:** Surf South through the gap at x=3 to reach Cinnabar Island.
+- **Location:** Cinnabar Island (6_8).
+- **Observation:** Currently surfing south in the western channel (x=3). A wall at x=4 separates the water from the main island.
+- **Strategy:** Continue surfing South to find a break in the wall or a landing spot.
+- **Note:** NPC 'Blue' detected at (9, 6) by game state, but currently behind the wall.
