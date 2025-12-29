@@ -3,13 +3,12 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Fuchsia City (17_5).
-- **Observation:** Direct path to West side of Route 19 blocked by walls south of the ledge.
-- **Conclusion:** Must use the Gatehouse.
+- **Location:** Fuchsia City (17_5) - Entrance to Route 19 Gatehouse.
+- **Action:** Retrying Gatehouse entry via tile (7, 35). Tile (8, 35) did not trigger warp.
 - **Immediate Plan:**
-  1. Navigate to Gatehouse Entrance (8, 35).
-  2. Enter and take the Left Exit (4, 7).
-  3. Surf South to Seafoam Islands.
+  1. Move Left to (7, 35).
+  2. Enter Gatehouse (Map 6_3).
+  3. Take Left Exit (4, 7) to Route 19 Beach.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
