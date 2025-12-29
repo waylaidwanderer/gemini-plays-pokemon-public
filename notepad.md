@@ -32,3 +32,4 @@
 - Puzzle Bypass: Always explore the perimeter of a room before committing to a complex puzzle.
 - Tile Verification: Test collision of hazard-looking tiles.
 - Battle Strategy: Starters can brute-force with powerful neutral moves like Return.
+- Turn 30347: Xenon used Night Shade. Kingdra is asleep.
