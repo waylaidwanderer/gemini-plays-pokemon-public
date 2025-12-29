@@ -18,8 +18,9 @@
 # Strategy: Finding the Path
 - Problem: All pits seem unreachable for boulders due to WALL constraints (especially Row 0 blocking Down pushes from Row 1).
 - Hypothesis: One of the 'WALL' tiles is actually passable or an NPC tile becomes passable after defeat.
-- Test 1: Is (4, 1) (Cody's tile) passable now that he's defeated?
-- Test 2: Is (2, 13) actually a WALL?
-- Test 3: Is (3, 0) or (5, 0) a 'fake' wall?
+- Test 1: Is (4, 1) (Cody's tile) passable? Result: NO (Turn 30069).
+- Test 2: Is (3, 0) a fake wall?
+- Test 3: Is (2, 13) actually a WALL?
+- Test 4: Is (3, 8) actually a WALL?
 
 # Puzzle Start Turn: 29931.
