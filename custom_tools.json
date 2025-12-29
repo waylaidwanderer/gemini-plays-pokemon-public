@@ -58,37 +58,6 @@
       }
     ]
   },
-  "solve_gym_puzzle_v3": {
-    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle using persistent Mental Map data. Handles player movement and boulder pushing. Returns a JSON array of buttons.",
-    "input_schema": {
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        passable = set()\n        pits = set()\n        boulders = {}\n        \n        # Identify passable tiles and on-screen boulders\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                if t_type in ['FLOOR', 'LADDER', 'ICE']:\n                    has_obj = tile.get('has-object') == 'true'\n                    if has_obj:\n                        obj = tile.find('Object')\n                        if obj is not None and obj.get('id-name') == 'BOULDER':\n                            boulders[int(obj.get('id'))] = (x, y)\n                        else:\n                            continue\n                    passable.add((x, y))\n                elif t_type == 'PIT':\n                    pits.add((x, y))\n        \n        # Include off-screen boulders from markers\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                for marker in tile.findall('Marker'):\n                    if 'Boulder' in marker.text:\n                        bid = int(marker.get('object_id'))\n                        if bid not in boulders:\n                            boulders[bid] = (x, y)\n                            passable.add((x, y))\n\n        start_x = int(input_data['start_x'])\n        start_y = int(input_data['start_y'])\n        \n        def solve_one(b_id, current_boulders, p_pos):\n            bx, by = current_boulders[b_id]\n            others = {pos for id, pos in current_boulders.items() if id != b_id}\n            q = deque([(bx, by, p_pos[0], p_pos[1], [])])\n            v = set([(bx, by, p_pos[0], p_pos[1])])\n            while q:\n                cbx, cby, cpx, cpy, path = q.popleft()\n                if (cbx, cby) in pits: return path\n                if len(path) > 250: continue\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    npx, npy = cpx + dx, cpy + dy\n                    if 0 <= npx < width and 0 <= npy < height and (npx, npy) in passable and (npx, npy) not in others:\n                        if (npx, npy) == (cbx, cby):\n                            nbx, nby = cbx + dx, cby + dy\n                            if 0 <= nbx < width and 0 <= nby < height and ((nbx, nby) in passable or (nbx, nby) in pits) and (nbx, nby) not in others:\n                                if (nbx, nby, npx, npy) not in v:\n                                    v.add((nbx, nby, npx, npy))\n                                    btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                    q.append((nbx, nby, npx, npy, path + [btn]))\n                        else:\n                            if (cbx, cby, npx, npy) not in v:\n                                v.add((cbx, cby, npx, npy))\n                                btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                q.append((cbx, cby, npx, npy, path + [btn]))\n            return None\n\n        # Try to solve for each boulder in order\n        for b_id in sorted(boulders.keys()):\n            path = solve_one(b_id, boulders, (start_x, start_y))\n            if path:\n                print(json.dumps(path))\n                return\n        print(json.dumps({\"error\": \"No solution found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T23:28:51.968Z",
-        "action_counter": 29702
-      },
-      {
-        "commit_message": "Improving boulder puzzle solver to handle off-screen boulders via markers and increasing search depth.",
-        "timestamp": "2025-12-28T23:36:42.932Z",
-        "action_counter": 29717
-      }
-    ]
-  },
   "analyze_missing_links": {
     "description": "Tests if making specific tiles passable would solve the boulder puzzle.",
     "input_schema": {
@@ -123,37 +92,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-28T23:46:49.073Z",
         "action_counter": 29731
-      }
-    ]
-  },
-  "solve_gym_puzzle_v4": {
-    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle using persistent Mental Map data. Tracks all boulders simultaneously to handle interleaved sequences and bridges. Returns a JSON array of buttons.",
-    "input_schema": {
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, initial_b_pos = set(), set(), {}\n        \n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                if t_type in ['FLOOR', 'LADDER', 'ICE']:\n                    if tile.get('has-object') == 'true':\n                        obj = tile.find('Object')\n                        if obj is not None and obj.get('id-name') == 'BOULDER':\n                            initial_b_pos[int(obj.get('id'))] = (x, y)\n                        else: continue\n                    passable.add((x, y))\n                elif t_type == 'PIT': pits.add((x, y))\n        \n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                for marker in tile.findall('Marker'):\n                    if 'Boulder' in marker.text:\n                        bid = int(marker.get('object_id'))\n                        if bid not in initial_b_pos:\n                            initial_b_pos[bid] = (int(tile.get('id')), int(row.get('id')))\n                            passable.add((int(tile.get('id')), int(row.get('id'))))\n\n        start_x, start_y = int(input_data['start_x']), int(input_data['start_y'])\n        b_ids = sorted(initial_b_pos.keys())\n        start_b_state = tuple(initial_b_pos[bid] for bid in b_ids)\n        \n        q = deque([(start_b_state, (start_x, start_y), [])])\n        v = set([(start_b_state, (start_x, start_y))])\n        \n        while q:\n            b_state, p_pos, path = q.popleft()\n            filled_pits = {pos for pos in b_state if pos in pits}\n            if len(filled_pits) == 3:\n                print(json.dumps(path))\n                return\n            if len(path) > 150: continue\n            \n            px, py = p_pos\n            current_passable = passable | filled_pits\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                npx, npy = px + dx, py + dy\n                if 0 <= npx < width and 0 <= npy < height and (npx, npy) in current_passable:\n                    b_idx = -1\n                    for i, pos in enumerate(b_state):\n                        if pos == (npx, npy) and pos not in pits:\n                            b_idx = i\n                            break\n                    if b_idx != -1:\n                        bx, by = b_state[b_idx]\n                        nbx, nby = bx + dx, by + dy\n                        if 0 <= nbx < width and 0 <= nby < height and (nbx, nby) not in b_state:\n                            if (nbx, nby) in current_passable or (nbx, nby) in pits:\n                                new_b_state = list(b_state)\n                                new_b_state[b_idx] = (nbx, nby)\n                                new_b_state = tuple(new_b_state)\n                                if (new_b_state, (npx, npy)) not in v:\n                                    v.add((new_b_state, (npx, npy)))\n                                    btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                    q.append((new_b_state, (npx, npy), path + [btn]))\n                    else:\n                        if (b_state, (npx, npy)) not in v:\n                            v.add((b_state, (npx, npy)))\n                            btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                            q.append((b_state, (npx, npy), path + [btn]))\n        print(json.dumps({\"error\": \"No solution found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Upgrading boulder solver to a multi-boulder state-space search and cleaning up unused tools.",
-        "timestamp": "2025-12-29T00:13:17.393Z",
-        "action_counter": 29776
-      },
-      {
-        "commit_message": "Fixed multi-boulder solver to handle filled pits as passable floor.",
-        "timestamp": "2025-12-29T00:14:50.272Z",
-        "action_counter": 29777
       }
     ]
   },
@@ -200,6 +138,31 @@
         "commit_message": "Increase state limit to 200,000 and path limit to 400. Added more detailed debug output.",
         "timestamp": "2025-12-29T01:48:50.392Z",
         "action_counter": 29921
+      }
+    ]
+  },
+  "press_menu_buttons": {
+    "description": "Presses a sequence of buttons to navigate menus, bypassing the directional/action mixing restriction. Use for menu navigation ONLY. Returns the sequence of buttons as a JSON array.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-29T01:56:30.654Z",
+        "action_counter": 29934
       }
     ]
   }
