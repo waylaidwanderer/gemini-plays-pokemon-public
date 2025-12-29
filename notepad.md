@@ -4,9 +4,9 @@
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 
 # Current Strategy: Pallet Town to Cinnabar Island
-- **Location:** Pallet Town.
-- **Status:** Arrived in Pallet Town.
-- **Action:** Walk South to the water's edge and Surf to Cinnabar Island (Route 21).
+- **Location:** Pallet Town (Water's Edge).
+- **Status:** Initiating Surf.
+- **Action:** Surf onto Route 21 and travel South to Cinnabar Island.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
