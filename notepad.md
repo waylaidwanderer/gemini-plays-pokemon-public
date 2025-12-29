@@ -69,4 +69,4 @@
 - **Location:** (8, 1). Top-right corner of gym.
 - **Plan:** Traverse Row 1 to the left (West) to reach the top-left corner. Explore unseen area (Cols 0-3) and find a path down to Janine at (1, 10).
 - **Potential Obstacles:** Invisible walls in the top corridor.
-- Battle Update: Muscle (Lv 81) defeated Weezing #2. Next up: Ariados. Staying with Muscle.
+- Battle Update: Muscle (Lv 81) defeated Weezing #2. Facing Ariados. Using Thunderpunch.
