@@ -10,22 +10,15 @@
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
 
 # Strategy: Solve Boulders
-1. **Boulder 8 (8, 13) -> Pit P3 (8, 7)**
-   - Goal: Fill the pit at (8, 7) to create a bridge on 1F.
-   - Current: Pushing north from (8, 14) to (8, 13).
-   - Next: Continue pushing north toward Row 10.
-2. **Boulder 7 (6, 1) -> Pit P2 (8, 3)**
-   - Goal: Fill the pit at (8, 3) to create a bridge on 1F.
-   - Initial position is (6, 1).
-3. **Boulder 6 (3, 3) -> Pit P1 (2, 5)**
-   - Goal: Fill the pit at (2, 5) to create a bridge on 1F.
-   - Initial position is (3, 3).
+1. Push Boulder 8 north from (8, 13) toward (8, 10).
+2. At (8, 10), test if (7, 10) or (8, 9) are traversable FLOOR tiles.
+3. Solve B7 and B6 once B8 is positioned.
 
 # Verification Status
 - (2, 2): Verified FLOOR in XML.
 - (6, 10): Verified FLOOR in XML.
 - (7, 12): Verified FLOOR in XML.
-- (7, 11): Verified WALL in XML and confirmed by collision.
+- (7, 11): Verified WALL in XML.
 - (8, 9): Verified WALL in XML.
 - (8, 8): Verified WALL in XML.
 - (7, 10): Verified WALL in XML.
