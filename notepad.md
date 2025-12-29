@@ -4,11 +4,10 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian City
-- **Location:** Viridian Pokemon Center (Inside).
-- **Status:** Healing Muscle (Burned).
-- **Action:** Talk to Nurse Joy.
-- **Next:** Exit and head to Gym (if unlocked) or explore.
-- **Goal:** Defeat Blue.
+- **Location:** Viridian City (Exiting Pokemon Center).
+- **Status:** Team healed.
+- **Next Action:** Locate Viridian Gym (Likely North-East) and challenge Blue.
+- **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
