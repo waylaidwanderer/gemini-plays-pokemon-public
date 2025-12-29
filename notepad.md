@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating around obstacles.
-- **Action:** Move North to Row 29, then West.
-- **Reasoning:** Direct West path at Row 32 is blocked by a wall. Map shows open path to the North on Row 29.
+- **Status:** In wild battle (Poliwhirl Lv40).
+- **Action:** Run from battle -> Continue West.
+- **Reasoning:** Interrupted by wild Poliwhirl. Need to escape to continue exploring.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
