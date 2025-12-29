@@ -6,7 +6,6 @@
 # Current Strategy: Viridian City to Pallet Town
 - **Location:** Viridian City (South-East).
 - **Task:** Exit South to Route 1.
-- **Status:** Found main road at columns 28-29.
 - **Action:** Travel South on the main road to Route 1.
 
 # Tile Mechanics
