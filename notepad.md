@@ -5,8 +5,8 @@
 
 # Current Strategy: Pallet Town -> Viridian City
 - **Location:** Red's House (Inside).
-- **Status:** Walking to Mom (5, 3) to heal.
-- **Next Action:** Talk to Mom, confirm heal, then exit and head North to Viridian.
+- **Status:** Mom (5, 3) did not heal (Expected for non-Red protagonist).
+- **Next Action:** Exit house, head North to Viridian City Pokemon Center.
 - **Teacher Patrol:** Avoid (5, 10) outside.
 
 # Tile Mechanics
