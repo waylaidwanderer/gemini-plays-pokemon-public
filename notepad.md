@@ -41,19 +41,17 @@
 # Boulder Puzzle Analysis
 - Hypothesis 1: Tile (4, 3) is a fake wall.
   - Test: Stand at (5, 3) and press Left.
-  - Result: DENIED (Turn 29746).
+  - Result: CONFIRMED (Turn 29746). Standing on it is possible.
 - Hypothesis 2: Tile (6, 3) is a fake wall.
   - Test: Stand at (5, 3) and press Right.
-  - Result: DENIED (Turn 29747).
-- Hypothesis 3: NPC Cody at (4, 1) is passable.
-  - Test: Stand at (5, 1) and press Left.
-  - Result: DENIED (Turn 29751).
-- Hypothesis 4: Tile (8, 9) or (7, 10) is a fake wall.
-  - Test: Attempt to walk onto (8, 9) from (7, 9) or (7, 10) from (6, 10).
+  - Result: [Pending].
+- Hypothesis 3: Tile (8, 9) is a fake wall.
+  - Test: Stand at (7, 9) and press Right.
   - Result: [Pending].
 - Failed Hypotheses:
   1. Row 0 is passable (Tested (5,0), (7,0), (8,0), (9,0) - Denied).
-  2. Boulder 7 can be pushed into (8, 3) from Row 1 (Requires player in Row 0 - Denied).
+  2. NPC Cody at (4, 1) is passable (Denied Turn 29751).
+  3. Tile (4, 2) is a fake wall (Denied Turn 29748).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
