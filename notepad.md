@@ -1,13 +1,13 @@
 # Quest Log
-- **Goal:** Unlock Mt. Silver by talking to Professor Oak.
-- **Badges:** 16/16 (Earth Badge obtained).
-- **Next:** Talk to Professor Oak in Pallet Town.
+- **Goal:** Challenge Red at Mt. Silver.
+- **Status:** Oak granted permission. Party Healed.
+- **Next:** Traverse Victory Road South -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Pallet Town (6, 8).
-- **Status:** Walking to Oak's Lab.
-- **Action:** Enter Oak's Lab (12, 11) -> Talk to Oak.
-- **Goal:** Get permission for Mt. Silver.
+- **Location:** Victory Road (3F) (14, 17).
+- **Status:** Traversing Victory Road backwards.
+- **Action:** Take Ladder at (13, 17) to 2F.
+- **Goal:** Reach Mt. Silver.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
@@ -18,7 +18,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24935)
-- **Self-Assessment:** Found Blue at (5, 3). The path straight North seems clear of spin tiles so far.
-- **Action:** Move to (5, 4) to interact with Blue.
-- **Gym Start:** Turn 24925.
+# Reflection (Turn 25045)
+- **Status:** Traversing Victory Road backwards to reach Mt. Silver.
+- **Issue:** Notepad was desynchronized for ~20 turns. Fixed via overwrite.
+- **Next:** Ladder to 2F.
