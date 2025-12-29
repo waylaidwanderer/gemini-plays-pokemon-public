@@ -40,8 +40,8 @@
 
 # Boulder Puzzle Analysis
 - Phase: Fake Wall Testing (Started Turn 29744)
-- Hypothesis: Tile (4, 7) is a fake wall.
-  - Test: Stand at (5, 7) and press Left.
+- Hypothesis: Tile (6, 2) is a fake wall.
+  - Test: Stand at (7, 2) and press Left.
   - Result: [Pending].
 - Failed Hypotheses:
   1. Row 0 is passable (Tested - Denied).
@@ -56,6 +56,7 @@
   10. Tile (7, 10) is a fake wall (Denied Turn 29768).
   11. Tile (7, 11) is a fake wall (Denied Turn 29770).
   12. Tile (9, 16) is a fake wall (Denied Turn 29773).
+  13. Tile (4, 7) is a fake wall (Denied Turn 29775).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
