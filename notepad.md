@@ -6,24 +6,26 @@
 - BOULDER: Can be pushed with Strength.
 
 # Strategy: Final Badge
-- Defeat Gym Leader Clair for the Rising Badge.
-- Immediate Task: Send out Ravioli, then handle the blackout.
-- Post-Blackout Plan: Heal at Blackthorn Center, buy items, and level up the team.
+- Goal: Defeat Gym Leader Clair for the Rising Badge.
+- Post-Blackout Plan:
+    1. Heal at Blackthorn Pokémon Center.
+    2. Buy Revives and more Hyper Potions if possible.
+    3. Level up the utility Pokémon (Xenon, Kimchi, Icarus) to survive at least one hit.
+    4. Consider teaching better coverage moves if TMs are available.
 
-# Battle Status: Clair
-- Opponent: Kingdra (Lv40).
+# Battle Status: Clair (Turn 30365)
+- Opponent: Kingdra (Lv40) - HP ~40%.
 - Progress: 1x Dragonair (Lv37) defeated.
-- Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Icarus (16) FNT, Kimchi (21) FNT.
-- Active: Ravioli (10) 27/27 HP.
-- Note: No Revives available. Blackout is certain.
+- Player Status: Calcifer, Gneiss, Xenon, Icarus, Kimchi are FNT.
+- Active: Ravioli (Lv10) 27/27 HP.
+- Outcome: Blackout imminent.
 
-# Type Effectiveness (Verified by Battle Analyst)
+# Type Effectiveness (Verified)
 - Dragon resists: Fire, Water, Electric, Grass.
 - Dragon weak to: Dragon, Ice.
 - Normal, Ground, Rock: Neutral.
 
 # General Lessons
-- Puzzle Bypass: Explore perimeters before committing to complex puzzles.
-- Battle Strategy: High-level starters are essential. Underleveled utility Pokemon are too fragile against bosses.
-- Resource Management: Stock up on Revives before major battles.
-- Pathfinding: Perimeter exploration found a skip for the Blackthorn boulder puzzle.
+- Puzzle Bypass: Always explore the perimeter of a room. The Blackthorn boulder puzzle is skippable via the right-side path.
+- Battle Strategy: Fixed damage (Night Shade) and status (Sleep Powder) are great, but the user must be high enough level to not be OHKO'd before acting.
+- Resource Management: Carrying zero Revives into a late-game Gym Leader battle is a critical error.
