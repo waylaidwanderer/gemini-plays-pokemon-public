@@ -5,8 +5,9 @@
 
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
-- **Status:** Traveling South on Route 1.
-- **Action:** Navigate past Youngster (stay East to avoid line of sight).
+- **Status:** Navigating Route 1 Southbound.
+- **Obstacle:** Wall at Row 13 (x=8-11).
+- **Action:** Move East to x=12 to bypass wall, then continue South through tall grass.
 - **Next:** Reach Pallet Town.
 
 # Tile Mechanics
