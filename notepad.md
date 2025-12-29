@@ -42,14 +42,16 @@
 - Boulder 7 Plan: Push into PIT (8, 3).
 - Boulder 8 Plan: Push into PIT (8, 7).
 - Verification: Column 4 (WALL) blocks direct access from the right. Column 2 (WALL) from row 8-12 blocks access from the left. Only Row 13 and Row 1 are open for cross-gym navigation.
-- Turn 30006 Strategy:
-  1. I am at (1, 7) on 2F. Strength is OFF.
-  2. Navigate to (3, 4), face Boulder 6 at (3, 3), and press A to activate Strength.
-  3. Once Strength is active, I will use a custom tool to solve the entire puzzle.
-- Boulder 6 Path (Hypothesis): (3, 3) -> (3, 2) -> (2, 2) -> (2, 5) PIT.
-  - To push left at (3, 2), I need to be at (4, 2). (4, 2) is a WALL.
-  - To push down at (2, 2), I need to be at (2, 1). (2, 1) is floor.
-- Boulder 7 Path (Hypothesis): (6, 1) -> (7, 1) -> (8, 1) -> (8, 3) PIT.
-  - To push down at (8, 1), I need to be at (8, 0). (8, 0) is a WALL.
-- Boulder 8 Path (Hypothesis): (8, 14) -> (8, 10) -> (6, 10) -> (6, 7) -> (8, 7) PIT.
-  - To push right at (6, 7), I need to be at (5, 7). (5, 7) is floor.
+- Failed Strength Activation Attempts: 7 (Succeeded on Turn 30009).
+- Strength Status: ACTIVE.
+- Turn 30010 Strategy:
+  1. Clear "Boulders may now be moved!" text.
+  2. Use gym_puzzle_expert to find the next move.
+  3. Execute pushes for Boulder 6 (3, 3) towards Pit (2, 5).
+- Boulder 6 Path (Validated):
+  1. Push B6 down to (3, 13).
+  2. Navigate to (4, 13) via Row 1.
+  3. Push B6 left to (1, 13).
+  4. Push B6 up to (1, 5).
+  5. Push B6 right to (2, 5) PIT.
+- Lessons: Interacting with boulders is the fastest way to use Strength. Row 13 is a key corridor for crossing between column 3 and column 1.
