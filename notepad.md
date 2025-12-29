@@ -12,7 +12,7 @@
 
 # Strategy: Decisive Action Phase
 1. Reset floor via ladder (Done Turn 30214).
-2. Reactivate Strength (In Progress).
-3. Use specialized solver (run_code) to find the exact push sequence.
-4. Execute pushes based on confirmed FLOOR paths in XML.
+2. Reactivate Strength (Done Turn 30218).
+3. Focus on pushing Boulder 8 (8, 14) north toward pit P3 (8, 7).
+4. Use run_code to verify individual boulder paths.
 5. Goal: Fill all three pits.
