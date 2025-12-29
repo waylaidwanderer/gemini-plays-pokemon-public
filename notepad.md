@@ -15,7 +15,7 @@
 - (8,1) -> (9,1): Passable (pushed boulder).
 
 # Blackthorn Gym Layout & Boulders
-- 2F Boulders (Current): Boulder 6 (3,3), Boulder 7 (9,1), Boulder 8 (8,14).
+- 2F Boulders (Initial): Boulder 6 (3,3), Boulder 7 (6,1), Boulder 8 (8,14).
 - 2F Pits: Pit (2,5), Pit (8,3), Pit (8,7).
 
 # Strategy: Gym Leader Clair
@@ -23,6 +23,9 @@
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
 
 # Boulder Puzzle Decisive Action Phase
-- Hypothesis: Standard boulder-pushing mechanics are required. Fake wall tests (50 turns) failed.
-- Plan: Use refined automation to find the sequence for Boulders 6, 7, and 8.
-- Start Turn: 29851.
+- Plan: Reset boulders by leaving 2F, then use BFS to find the push sequence.
+- Step 1: Reach Ladder at (1, 7).
+- Step 2: Transition to 1F and back.
+- Step 3: Run BFS simulation for all 3 boulders.
+- Puzzle Start: Turn 29800.
+- Decisive Phase Start: Turn 29851.
