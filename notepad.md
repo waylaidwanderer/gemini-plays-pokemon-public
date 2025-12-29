@@ -21,3 +21,8 @@
 - Battle Strategy: High-level starters are essential. Fixed damage (Night Shade) and status (Sleep Powder) are great, but the user must be high enough level to not be OHKO'd before acting.
 - Resource Management: Carrying zero Revives into a late-game Gym Leader battle is a critical error.
 - Pathfinding: Don't assume a boulder puzzle is mandatory; explore all paths first.
+
+# Training Log
+- Turn 30372: Whited out against Clair. Team was insufficient for Kingdra. 
+- Current Levels: Calcifer (47), GNEISS (45), Xenon (21), Kimchi (21), Icarus (16).
+- Strategy: Grind Xenon and Kimchi to at least Lv30 on Route 45. Xenon's Night Shade and Kimchi's Sleep Powder are key utility moves.
