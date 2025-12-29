@@ -31,4 +31,5 @@
 - Failed Strength Activation Attempts:
   - Turn 29988: Attempted Start -> Up x5. Result: Exited menu.
   - Turn 29987: Attempted Start -> Up x2. Result: Entered Pokedex (cursor was on Gear).
+  - Turn 29990: Attempted Start -> Down -> A -> 4 Downs. Result: Selected KIMCHI (Party pos 3) instead of GNEISS (Party pos 5). KIMCHI has CUT, not STRENGTH.
 - Strategy: Use solve_blackthorn_boulders with the full map to find the path.
