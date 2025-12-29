@@ -28,3 +28,8 @@
 
 # Battle Log: Clair
 - Turn 30303: Battle Start. Calcifer vs Dragonair (Lv37).
+
+# General Lessons
+- Puzzle Bypass: Always explore the perimeter of a room before committing to a complex puzzle. Many puzzles have non-obvious bypasses or simpler solutions than they first appear.
+- Tile Verification: Explicitly test the collision of "lava" or "hazard" tiles; they may be standard floor tiles with a different sprite.
+- Battle Strategy: High-level starters can often brute-force through type resistances with powerful neutral moves like Return.
