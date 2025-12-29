@@ -8,18 +8,15 @@
 # Strategy: Final Badge
 - Goal: Defeat Gym Leader Clair for the Rising Badge.
 - Post-Blackout Plan:
-    1. Heal at Blackthorn Pokémon Center.
+    1. Heal at Blackthorn Pokémon Center (Done).
     2. Buy Revives and more Hyper Potions if possible.
     3. Level up the utility Pokémon (Xenon, Kimchi, Icarus) to survive at least one hit.
     4. Consider teaching better coverage moves if TMs are available.
 
-# Battle Status: Clair (Turn 30368)
-- Opponent: Kingdra (Lv40) - HP ~40%.
+# Battle Status: Clair
+- Opponent: Kingdra (Lv40).
 - Progress: 1x Dragonair (Lv37) defeated.
-- Player Status: All Pokemon except Ravioli are FNT. No Revives.
-- Active: Ravioli (Lv10) 27/27 HP.
-- Note: Kingdra must recharge from Hyper Beam this turn.
-- Outcome: Blackout imminent.
+- Rematch Prep: Whited out at Turn 30372. Current funds ¥321.
 
 # Type Effectiveness (Verified by Battle Analyst)
 - Dragon resists: Fire, Water, Electric, Grass.
@@ -28,12 +25,6 @@
 
 # General Lessons
 - Puzzle Bypass: Always explore the perimeter of a room. The Blackthorn boulder puzzle is skippable via the right-side path.
-- Battle Strategy: High-level starters are essential. Fixed damage and status are vital when underleveled.
+- Battle Strategy: High-level starters are essential. Fixed damage (Night Shade) and status (Sleep Powder) are great, but the user must be high enough level to not be OHKO'd before acting.
 - Resource Management: Carrying zero Revives into a late-game Gym Leader battle is a critical error.
 - Pathfinding: Don't assume a boulder puzzle is mandatory; explore all paths first.
-
-# Battle Log: Clair (Rematch Prep)
-- Turn 30372: Whited out against Gym Leader Clair. Respawned at Blackthorn Pokémon Center. Party is fully healed.
-- Current Money: ¥321.
-- Need: Revives (¥1500), Hyper Potions (¥1200).
-- Strategy: Visit Mart to sell items and check prices. Consider training utility Pokémon to survive Kingdra's hits.
