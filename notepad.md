@@ -11,7 +11,7 @@
 - NPCs: Cody (4, 1), Fran (4, 11).
 
 # Strategy: Decisive Action Phase
-1. Reset floor via ladder.
+1. Reset floor via ladder (Done Turn 30214).
 2. Reactivate Strength.
 3. Use specialized solver (run_code) to find the exact push sequence.
 4. Execute pushes based on confirmed FLOOR paths in XML.
