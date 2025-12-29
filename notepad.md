@@ -17,8 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24798)
+# Reflection (Turn 24801)
 - **Status:** Surfing on Route 20 (12, 16).
-- **Obstacle:** "Impossible to swim all the way to JOHTO." text confirmed. Debris at (11, 16).
-- **Action:** Cleared text. Navigating around Swimmer Guy (12, 15) and debris to continue West.
-- **Path:** Right -> Up -> Up -> Left -> Left to reach (11, 14).
+- **Action:** Defeated Swimmer Cameron. Navigating around him and debris at (11, 16).
+- **Path:** Detouring North (Right -> Up -> Up -> Left) to bypass obstacles, then West to Cinnabar.
