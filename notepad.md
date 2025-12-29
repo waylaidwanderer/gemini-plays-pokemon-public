@@ -1,12 +1,13 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Oak granted permission. Party Healed.
-- **Next:** Traverse Victory Road South -> Reception Gate -> West -> Mt. Silver.
+- **Status:** Traversing Victory Road backwards.
+- **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road (3F) (14, 17).
-- **Status:** Traversing Victory Road backwards.
-- **Action:** Take Ladder at (13, 17) to 2F.
+- **Location:** Victory Road (2F) (10, 29).
+- **Status:** Hit a dead end (Ledge).
+- **Action:** Return to Ladder at (13, 31) -> Go UP to 3F.
+- **Next Plan:** On 3F, navigate East to Ladder at (17, 19).
 - **Goal:** Reach Mt. Silver.
 
 # Tile Mechanics
