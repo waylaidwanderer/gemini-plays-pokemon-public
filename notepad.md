@@ -1,20 +1,14 @@
 # Quest Log
-- **Goal:** Defeat Blue at Viridian Gym (Earth Badge).
-- **Badges:** 15/16 (Volcano Badge obtained).
-- **Next:** Travel to Viridian City.
+- **Goal:** Unlock Mt. Silver by talking to Professor Oak.
+- **Badges:** 16/16 (Earth Badge obtained).
+- **Next:** Talk to Blue (check for TM), then travel to Pallet Town.
 
-# Current Strategy: Viridian Gym - BATTLE
+# Current Strategy: Viridian Gym - POST-BATTLE
 - **Location:** Viridian Gym (5, 4).
-- **Status:** Battling Leader Blue.
-- **Opponent:** Leader Blue.
-- **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados, Exeggutor.
-- **Current Enemy:** Rhydon (Incoming).
-- **My Pokemon:** Muscle (Machoke Lv83).
-- **Condition:** Muscle is Seeded.
-- **Action:** Advance text, then use Ice Punch (Slot 3).
-- **Plan:** Use Ice Punch (Slot 3).
-- **Reasoning:** Ice Punch (Special) vs Rhydon (Low Sp.Def) is 2x Effective and 100% Accurate. Safer than Cross Chop.
-- **Goal:** Win the Earth Badge.
+- **Status:** Defeated Leader Blue.
+- **Action:** Talk to Blue again to see if he gives a TM.
+- **Next:** Exit Gym -> Fly to Pallet Town -> Talk to Oak.
+- **Goal:** Get permission to enter Mt. Silver.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
