@@ -10,9 +10,6 @@
   1. Return to Fuchsia City.
   2. Explore the area East of the Gatehouse (Columns 10-19) for a path South.
 
-# Game State Notes
-- **Time:** Sunday, December 28, 2025.
-
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
 - **WARP_CARPET:** Step on to exit map.
