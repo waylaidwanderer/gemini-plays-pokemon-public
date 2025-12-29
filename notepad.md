@@ -29,3 +29,4 @@
 - **Next:** Continue South to Cinnabar Island.
 - **Battle Cursor Persistence:** The cursor position in the "FIGHT" menu is remembered between turns and even between opponent Pokémon switches. It does NOT reset to the first move.
 - **smart_battle_move Tool Note:** The tool assumes the cursor is at slot 1. Since the cursor persists, this causes incorrect move selection in subsequent turns. Use `current_slot` parameter or fix tool to reset cursor.
+- **Observation:** Route 21 (6_7) appears to end at y=35, but visual map shows row 36 with `WALL` and `FLOOR_UP_WALL` tiles. `WALL` blocks movement. Testing `FLOOR_UP_WALL` for landing potential or checking further East for a beach.
