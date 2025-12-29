@@ -5,8 +5,8 @@
 
 # Current Strategy: Viridian Gym - POST-BATTLE
 - **Location:** Viridian Gym (5, 4).
-- **Status:** Defeated Leader Blue. Spoke to him post-battle.
-- **Action:** Exit the Gym.
+- **Status:** Defeated Leader Blue.
+- **Action:** Exiting the Gym.
 - **Next:** Fly to Pallet Town -> Talk to Oak.
 - **Goal:** Get permission to enter Mt. Silver.
 
