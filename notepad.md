@@ -8,7 +8,7 @@
 - **Status:** Moving North.
 - **Next Action:** Navigate through the gap in ledges at Row 27 (cols 4-6).
 - **Pathing:** Move Left to col 5, then Up.
-- **Trainers:** Avoiding Cooltrainer F at (9, 25). Watch out for Youngster near (4, 12).
+- **Trainers:** Avoiding Cooltrainer F at (9, 25) (Faces DOWN). Watch out for Youngster near (4, 12).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
