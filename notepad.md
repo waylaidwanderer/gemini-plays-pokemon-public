@@ -44,3 +44,5 @@
 - Resource: GNEISS Earthquake PP 0/10. Strategy: Using Strength.
 - Encounter: Wild Graveler (Lv27) defeated. Yielded 516 EXP (258 to Xenon).
 - Current Status: New wild battle started at (4, 12).
+- Turn 30564: Switch-training Xenon vs Lv23 Graveler.
+- Strategy: Switching to Calcifer (Lv47).
