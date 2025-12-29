@@ -45,3 +45,4 @@
 - Strategy: Send out Kimchi (Lv21) for Sleep Powder (75% acc) or Xenon (Lv21) for Hypnosis (60% acc).
 - Goal: Disable Kingdra to allow for chip damage or a lucky turnaround.
 - Turn 30327: Gneiss fainted. Switching to Kimchi (Lv21) to attempt Sleep Powder (75% acc). Cursor is on Kimchi.
+- Turn 30328: Kimchi is out against Kingdra. Using Sleep Powder to disable Kingdra.
