@@ -21,10 +21,10 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (2, 7) on 2F. Activating Strength. Then testing 'WALL' tiles at (2, 8).
+- Current Status: At (2, 7) on 2F. Testing 'WALL' tile at (2, 8).
 - Plan: 
-  1. Activate Strength: B (clear message) -> 3 Downs (to GNEISS) -> A (Select) -> A (Strength) -> B (clear message) -> B (exit party) -> B (exit menu).
-  2. Test wall: Move Down into (2, 8).
+  1. Test wall: Move Down into (2, 8).
+  2. If blocked, activate Strength: Start -> Down (Pokemon) -> A -> 4 Downs (GNEISS) -> A -> A (Strength) -> B (exit).
   3. Navigate to (3, 3) and push Boulder 6 -> (2, 3) -> (2, 5).
   4. Push Boulder 7 (6, 1) -> (8, 1) -> (8, 3).
   5. Push Boulder 8 (8, 14) -> (8, 7).
