@@ -11,7 +11,7 @@
 - **My Pokemon:** Kunai (Sneasel Lv24).
 - **Condition:** Alakazam has Reflect up. Defense -2. Shadow Ball Disabled.
 - **Insight:** Kunai is immune to Psychic. Shadow Ball is my only real damage source.
-- **Plan:** Stall with Quick Attack (Slot 3) until Disable wears off. Screech failed last turn (accuracy or immunity?), so switching to damage to pass turns.
+- **Plan:** Using Quick Attack (Slot 3) to stall for Disable to end and chip health. Screech failed last turn.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
