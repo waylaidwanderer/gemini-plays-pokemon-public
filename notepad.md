@@ -6,16 +6,16 @@
 - Strength: Active (Turn 30101).
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 10).
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Pits: (2, 5), (8, 3), (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
 - Blockages: Column 4 wall Row 0-12. Column 2 wall Row 10-17. Row 8 wall at (2,8)-(4,8).
-- Reset Required: B8 is stuck at (8, 10) and B6/B7 are in suboptimal positions.
+- Reset Required: Completed. Boulders are at their initial positions.
+- Strength: Inactive (Turn 30126). Reset by ladder warp.
 
-# Strategy: Reset and Solve
-- Phase 1: Use ladder at (1, 7) or (7, 9) to reset the floor.
-- Phase 2: Reactivate Strength.
-- Phase 3: Use `run_code` to calculate the full 3-boulder sequence from the initial state.
+# Strategy: Reactivate and Solve
+- Phase 1: Reactivate Strength.
+- Phase 2: Use `run_code` to calculate the full 3-boulder sequence from the initial state.
 - Initial State Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Initial State Pits: (2, 5), (8, 3), (8, 7).
 
