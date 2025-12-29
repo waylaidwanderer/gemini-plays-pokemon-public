@@ -41,3 +41,6 @@
 - Turn 30319: Kingdra used Hyper Potion (Full HP). Xenon used Hypnosis. Kingdra is SLP. Opening party menu to switch to Gneiss.
 - Turn 30323: Switched Xenon for Gneiss. Clair used Full Heal on Kingdra. Kingdra is awake and at full HP.
 - Turn 30324: Gneiss is out. Using Earthquake.
+- Turn 30326: Gneiss fainted to Surf. Calcifer and Gneiss are both FNT.
+- Strategy: Send out Kimchi (Lv21) for Sleep Powder (75% acc) or Xenon (Lv21) for Hypnosis (60% acc).
+- Goal: Disable Kingdra to allow for chip damage or a lucky turnaround.
