@@ -3,12 +3,12 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Route 19 (North).
-- **Observation:** Currently at (7, 4). The area appears enclosed by walls.
+- **Location:** Route 19 (North/Gatehouse Area).
+- **Observation:** The area accessible from the Gatehouse (Exits 4,7 and 5,7) is enclosed by walls and dead ends. No water access found.
+- **Hypothesis:** Access to the beach/water is via a separate path South from Fuchsia City, likely East of the Gatehouse.
 - **Immediate Plan:**
-  1. Read "Careful Swimming" Sign at (11, 1).
-  2. Inspect walls at (5, 4) and (5, 5) for Cut trees.
-  3. If trapped, return to Fuchsia City and search for a West Exit (possibly via the water in the city?).
+  1. Return to Fuchsia City.
+  2. Explore the area East of the Gatehouse (Columns 10-19) for a path South.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
