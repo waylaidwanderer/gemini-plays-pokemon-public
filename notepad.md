@@ -18,8 +18,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24929)
-- **Self-Assessment:** Moved to (5, 14). Still need to reach (7, 14) to talk to Gym Guide.
-- **Action:** moving to (7, 14) and then interacting.
+# Reflection (Turn 24930)
+- **Self-Assessment:** Moved to (6, 14). Previous move command was cut short.
+- **Action:** Move to (7, 14) to talk to the Gym Guide.
 - **Goal:** Talk to Gym Guide, then explore North.
 - **Gym Start:** Turn 24925.
