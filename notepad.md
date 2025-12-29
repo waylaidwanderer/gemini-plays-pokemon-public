@@ -6,6 +6,7 @@
 - BOULDER: Object. Can be pushed with Strength. Impassable.
 
 # Blackthorn Gym Boulder Puzzle
+- Start Turn: 30123
 - Boulders on 2F (Verified Positions):
     - ID 6: (3, 3) (Verified Turn 30266)
     - ID 7: (6, 1) (Verified Turn 30266)
@@ -14,7 +15,6 @@
     - P1: (2, 5) - UNFILLED
     - P2: (8, 3) - UNFILLED
     - P3: (8, 7) - UNFILLED (Fell through Turn 30268)
-- Goal: Push B6, B7, and B8 into P1, P2, and P3 to complete the bridge on 1F.
 - Strategy: Use run_code to calculate the shortest path of pushes for all three boulders.
 
 # Verified Map Constraints (2F)
