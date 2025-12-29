@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Just arrived.
-- **Action:** Explore West to find the Pokemon Center.
-- **Reasoning:** Need to establish a Fly point and heal before entering the cave.
+- **Status:** Searching for Pokemon Center.
+- **Action:** Continue West to (28, 32).
+- **Reasoning:** Continuing West from the entrance to locate the Pokemon Center for healing and a Fly point.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
