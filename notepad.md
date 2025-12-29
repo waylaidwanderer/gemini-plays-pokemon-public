@@ -1,17 +1,24 @@
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- PIT: Impassable. Falling into a pit warps the player to the floor below (1F).
+- LADDER: Warp to the floor below (1F).
+- BOULDER: Object. Can be pushed with Strength. Impassable.
+
 # Blackthorn Gym Boulder Puzzle
 - Start Turn: 30123
-- Boulders (Verified): B7 (3, 3), B8 (6, 1), B9 (8, 13).
-- Boulders (Searching): B6 (Initial pos 6, 7).
-- Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
-- NPCs: Cody (4, 1), Fran (4, 11). Both solid.
-- Strength: Active.
+- Boulders Found (2F):
+    - B6: (3, 3) (Verified Turn 30255)
+    - B7: (7, 1) (Verified Turn 30255)
+    - B9: (8, 13)? (Need to verify)
+- Pits (2F):
+    - P1: (2, 5)
+    - P2: (8, 3)
+    - P3: (8, 7) (Summary says one boulder was pushed here)
+- Goal: Push boulders into pits to create bridges on 1F.
+- Strategy: Verify all boulders on 2F, then check 1F to see which pits still need filling.
 
-# Strategy: Final Verification
-1. Navigate to (6, 7) to confirm if B6 exists at its initial position.
-2. Once all boulders are located, use run_code to find the definitive solution path.
-3. Execute the solution strictly following the path.
-
-# Verified Map Constraints (XML)
+# Verified Map Constraints (2F)
 - Row 0 and Row 17: Boundaries.
 - Column 0 and Column 9: Boundaries.
 - Column 2 Wall: Rows 10-17.
