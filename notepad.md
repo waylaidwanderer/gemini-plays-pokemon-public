@@ -14,12 +14,11 @@
 
 # Time Tracking
 - Puzzle Start Turn: 29931.
-- Current Attempt Start: Turn 30091.
+- Attempt 1: Turns 29931-30103 (Manual and brittle tool usage). Zero progress.
 
 # Strategy: Boulder Puzzle
 - Goal: Drop all boulders into pits.
 - Plan:
-  1. Activate Strength at (8, 15) by facing Boulder 8 and selecting YES.
-  2. Clear confirmation text.
-  3. Use `solve_blackthorn_boulders` (dynamic version) to get the push sequence.
-  4. Execute pushes for B8, then B6 and B7.
+  1. Push Boulder 8 UP to (8, 7) Pit.
+  2. Use refined `solve_blackthorn_boulders` to calculate the sequence for B6 and B7.
+  3. Execute pushes precisely.
