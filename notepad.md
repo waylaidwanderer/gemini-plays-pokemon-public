@@ -18,3 +18,4 @@
 - **PIT:** Drops player to floor below.
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
+- **BUOY:** Water boundary/Wall.
