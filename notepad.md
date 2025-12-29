@@ -30,11 +30,11 @@
   5. Push Boulder 6 (1, 5) right to (2, 5) PIT.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12. Detour through row 13 and column 1 is the only way for B6.
-- Failed Strength Activation Attempts: 6. I will be extremely slow and precise.
-- Turn 29995 Reflection:
-  1. No deferred tasks found.
-  2. Notepad organized. B6 path updated.
-  3. Markers updated. Redundant ones removed.
-  4. solve_blackthorn_boulders failed; manually executing.
-  5. Goals are WHAT, plans are HOW.
-  6. Root hypothesis for B6: column 4 is a wall. Verified by movement. Detour is required.
+- Failed Strength Activation Attempts: 7. I will be extremely slow and precise.
+- Turn 29996 Strategy:
+  1. Menu is open, cursor on POKEDEX.
+  2. Sequence: Down (POKEMON) -> A -> Down x4 (GNEISS) -> A -> Down (STRENGTH) -> A -> A -> A -> B x3.
+  3. Once active, test push Boulder 6 down to (3, 7).
+  4. If (3, 8) is truly a wall, I will pivot to Boulder 7 at (6, 1).
+- Boulder 7 Path: (6, 1) Down to (6, 3), Right to (8, 3) PIT.
+- Boulder 6 Maze: Must investigate Column 4/Column 2 gaps.
