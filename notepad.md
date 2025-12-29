@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road (Exit).
-- **Status:** Standing on Exit Warp (9, 67).
-- **Action:** Walk Down to exit.
-- **Reasoning:** Standing on the South Exit warp carpet. Must walk South (into the boundary) to trigger the map transition to the Reception Gate/Route 23.
-- **Goal:** Exit Victory Road -> Reception Gate -> Mt. Silver.
+- **Location:** Victory Road Gate (Reception Gate).
+- **Status:** Navigating West to Route 28/Mt. Silver.
+- **Action:** Walk South to y=5, then West through the corridor at (5, 5).
+- **Reasoning:** The West exit to Mt. Silver is accessed via the corridor at Row 5. I have all 16 badges, so I should be allowed to pass.
+- **Goal:** Reach Route 28.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
