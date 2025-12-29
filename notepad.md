@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road (2F) (10, 29).
-- **Status:** Hit a dead end (Ledge).
-- **Action:** Return to Ladder at (13, 31) -> Go UP to 3F.
-- **Next Plan:** On 3F, navigate East to Ladder at (17, 19).
-- **Goal:** Reach Mt. Silver.
+- **Location:** Victory Road (3F) (13, 17).
+- **Status:** Exploring 3F for a better route down.
+- **Action:** Navigate to Ladder at (17, 19).
+- **Reasoning:** Ladder at (13, 17) led to a blocked area on 2F. Trying the other ladder.
+- **Goal:** Reach 2F via a valid path.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
