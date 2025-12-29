@@ -7,9 +7,8 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Current Enemy:** Pidgeot (Lv56) - Red HP.
-- **My Pokemon:** Muscle (Machoke Lv82).
-- **Action:** Thunderpunch (Slot 2) to finish it.
+- **Current Enemy:** Alakazam (Incoming).
+- **Action:** Switch to Kunai (Sneasel) to exploit Dark-type immunity to Psychic.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
