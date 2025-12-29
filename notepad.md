@@ -6,11 +6,10 @@
 - **Location:** Viridian City (North-West).
 - **Obstacle:** Wall at Row 21 (x=3 to 7) and Cut Tree at (8, 22).
 - **Plan:**
-  1. Navigate East to x=8 to bypass wall.
-  2. Go South to (8, 21).
-  3. Cut Tree at (8, 22).
-  4. Continue South past the Fisher.
-  5. Exit South to Route 1.
+  1. Cut Tree at (8, 22).
+  2. Navigate West to x=6 (past Fisher).
+  3. Continue South to Route 1.
+  4. Travel South to Pallet Town.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
