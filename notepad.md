@@ -1,11 +1,11 @@
 # Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
+- FLOOR: Traversable. Standard collision.
+- WALL: Impassable. Silver blocks or solid boundaries.
 - PIT: Warp tile. Falling through takes you to the floor below.
-- LADDER: Warp tile.
-- ICE: Slippery movement.
-- BOULDER BRIDGES: Boulders in pits act as passable FLOOR.
-- Strength must be re-activated after falling through a pit.
+- LADDER: Warp tile. Transfers between floors.
+- ICE: Slippery movement. Causes sliding until an obstacle is hit.
+- BOULDER BRIDGES: Boulders in pits act as passable FLOOR on the floor below.
+- Strength: Must be re-activated after falling through a pit or changing maps.
 
 # Physically Tested Tiles (2F)
 - (5,0), (6,0), (7,0), (8,0): WALL confirmed.
@@ -25,12 +25,8 @@
   - Col 6: (6,2), (6,3), (6,4)
   - Misc: (8,8), (8,9), (7,10), (7,11), (9,16), (2,13)
 - Task: Identify "fake" walls blocking boulder solutions.
-- Current Turn: 29830.
+- Current Turn: 29831.
 
 # Strategy: Gym Leader Clair
 - Lead GNEISS (Lv45) vs Dragonairs (Earthquake).
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
-
-# Navigation Insights
-- 1F Access: Must use 2F detour (Ladder at 7,9 to Ladder at 1,7) to move between halves.
-- 2F Crossing: Gap in the central wall exists at Row 13 (4, 13 is FLOOR). Column 4 is otherwise mostly WALLs and NPCs (Cody at 4,1, Fran at 4,11).
