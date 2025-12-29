@@ -2,13 +2,13 @@
 - **Goal:** Reach Seafoam Islands via Pallet Town.
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
-- **Status:** Traveling East on Route 22 towards Viridian City.
-- **Immediate Goal:** Enter Viridian City.
+- **Current Task:** Navigate West to column 16 to find a path South to the lower road (Row 17).
+- **Reason:** Blocked by walls at East end of current path (Row 14/15).
+- **Correction:** The tile type `FLOOR_UP_WALL` is an obstacle (Wall from North), not a ledge.
 - **Plan:**
-  1. Continue East on Route 22.
-  2. Enter Viridian City.
-  3. Travel South to Pallet Town.
-  4. Surf South to Cinnabar Island.
+  1. Travel West to (16, 15).
+  2. Travel South to (16, 16) and check access to Row 17.
+  3. Travel East on Row 17 to Viridian City.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
