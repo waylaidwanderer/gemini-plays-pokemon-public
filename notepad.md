@@ -17,7 +17,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24796)
-- **Status:** Surfing on Route 20 (13, 16).
-- **Action:** Ran from Tentacool. Resuming travel West.
-- **Next:** Continue Surfing West to Cinnabar Island.
+# Reflection (Turn 24797)
+- **Status:** Surfing on Route 20 (12, 16).
+- **Obstacle:** "Impossible to swim" text encountered at (11, 16). Likely volcanic debris.
+- **Action:** Marking debris. Navigating around Swimmer Guy at (12, 15) to find a clear path West.
+- **Next:** Move Right -> Up -> Up to bypass blockage and Swimmer.
