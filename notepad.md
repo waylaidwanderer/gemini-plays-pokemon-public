@@ -10,10 +10,9 @@
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
 
 # Strategy: Solve Boulders
-1. Push Boulder 8 (8, 13) north toward Pit P3 (8, 7).
-2. Push Boulder 7 (6, 1) toward Pit P2 (8, 3).
-3. Push Boulder 6 (3, 4) toward Pit P1 (2, 5).
+1. Use run_code solver results to push boulders into pits.
+2. Current Focus: Boulder 8 toward P3 (8, 7).
 
 # Verification Status
-- (2, 2): Verified FLOOR.
-- (7, 11): Verified FLOOR.
+- (2, 2): Verified FLOOR (looks like silver block).
+- (7, 11): Checking XML type via run_code.
