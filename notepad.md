@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** In wild battle (Tangela).
-- **Action:** Run from battle -> Resume navigation to (23, 24).
-- **Reasoning:** Interrupted by wild Tangela. Need to escape to continue to the Pokemon Center.
+- **Status:** Resuming navigation to Pokemon Center.
+- **Action:** Move East to (23, 24), then North to (23, 19).
+- **Reasoning:** Battle ended. I am now past the ledge blockage. The path to the Pokemon Center is clear.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
