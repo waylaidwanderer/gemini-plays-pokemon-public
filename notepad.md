@@ -5,8 +5,8 @@
 
 # Current Strategy: Cinnabar Island
 - **Location:** Cinnabar Pokemon Center.
-- **Status:** Talking to NPCs before leaving.
-- **Next Action:** Surf East to Seafoam Islands.
+- **Status:** Exiting to surf to Seafoam Islands.
+- **Next Action:** Surf East (Route 20).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
@@ -23,4 +23,4 @@
 - **Automation:** `find_path` tool repaired and verified. `smart_battle_move` requires manual `current_slot` tracking due to cursor persistence.
 - **Goals:** Clear. Healing, then Seafoam Islands.
 - **Error Analysis:** Proved that Gen 2 battle menus persist cursor position; strategy adapted to track slot or check manually.
-- **Lore:** Blue is at Viridian Gym. Cinnabar is destroyed. Blaine is at Seafoam Islands.
+- **Lore:** Met Blue at Cinnabar (Viridian Gym Leader). Blaine is in a cave at **Seafoam Islands** (East).
