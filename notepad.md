@@ -6,8 +6,8 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28.
 - **Status:** Exploring Westwards.
-- **Action:** Move West across Route 28.
-- **Reasoning:** Successfully entered Route 28. Mt. Silver should be at the far West end.
+- **Action:** Navigate via (26, 8) ledge hop to continue West.
+- **Reasoning:** The path West is blocked by walls on Rows 6-7. Must go South to Row 8 and hop the ledge at (26, 8) to proceed.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
