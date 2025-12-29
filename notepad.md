@@ -17,11 +17,11 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24775)
+# Reflection (Turn 24778)
 - **Status:** Battling Blaine.
 - **Opponent:** Blaine (Gym Leader).
-- **Active Enemy:** Magmar (Lv 45) incoming.
-- **Defeated:** Magcargo (Lv 45).
+- **Active Enemy:** Rapidash incoming.
+- **Defeated:** Magcargo (Lv 45), Magmar (Lv 45).
 - **My Pokemon:** Muscle (Lv 82 Machoke).
 - **Strategy:** Decline switch, use Strength/Cross Chop.
-- **Next:** Fight Magmar.
+- **Next:** Fight Rapidash.
