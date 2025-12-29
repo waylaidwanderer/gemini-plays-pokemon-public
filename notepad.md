@@ -1,12 +1,12 @@
 # Quest Log
-- **Goal:** Reach Seafoam Islands via Pallet Town.
-- **Reason:** Route 19 is blocked by boulders.
-- **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
+- **Goal:** Defeat Blue at Viridian Gym (Earth Badge).
+- **Badges:** 15/16 (Volcano Badge obtained).
+- **Next:** Travel to Viridian City.
 
-# Current Strategy: Cinnabar Island
-- **Location:** Cinnabar Pokemon Center.
-- **Status:** Exiting to surf to Seafoam Islands.
-- **Next Action:** Surf East (Route 20).
+# Current Strategy: Seafoam Islands -> Viridian City
+- **Location:** Seafoam Gym (6_4).
+- **Status:** Defeated Blaine. No TM received.
+- **Next Action:** Exit Gym, Surf West to Cinnabar, Fly to Viridian City.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
@@ -17,11 +17,6 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24782)
-- **Status:** Battling Blaine (Final Pokemon).
-- **Opponent:** Rapidash (Lv 50).
-- **My Pokemon:** Muscle (Lv 82 Machoke) - Burned.
-- **Battle State:** Muscle HP 188/276. Rapidash damaged slightly.
-- **Error Correction:** Accidental Ice Punch last turn (Slot 3). Cursor is at Slot 3.
-- **Strategy:** Switch to Cross Chop (Slot 4). Burn halves attack, but Cross Chop (100 BP + STAB) > Ice Punch (75 BP + Resist).
-- **Next:** Win battle.
+# Reflection (Turn 24787)
+- **Status:** Exiting Seafoam Gym.
+- **Next:** Exit gym (South).
