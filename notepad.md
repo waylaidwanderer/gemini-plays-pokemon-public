@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Gym
 - **Location:** Viridian City (Menu).
-- **Status:** Selecting Fly.
-- **Action:** Flying to Pallet Town.
-- **Next:** Enter Oak's Lab.
+- **Status:** Selecting Destination (Fly).
+- **Action:** Moving cursor to Pallet Town (South of Indigo/Viridian).
+- **Next:** Confirm Fly -> Enter Oak's Lab.
 - **Goal:** Get permission for Mt. Silver.
 
 # Tile Mechanics
