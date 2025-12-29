@@ -17,10 +17,11 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24773)
-- **Status:** In front of Blaine (Seafoam Gym).
-- **Situation:** Dialogue finished, battle should start.
-- **Action:** Press A to confirm engagement/start battle.
-- **Goal:** Defeat Blaine.
-- **Strategy:** Muscle (Lv 81) -> Strength/Cross Chop.
-- **Next:** Fight.
+# Reflection (Turn 24775)
+- **Status:** Battling Blaine.
+- **Opponent:** Blaine (Gym Leader).
+- **Active Enemy:** Magmar (Lv 45) incoming.
+- **Defeated:** Magcargo (Lv 45).
+- **My Pokemon:** Muscle (Lv 82 Machoke).
+- **Strategy:** Decline switch, use Strength/Cross Chop.
+- **Next:** Fight Magmar.
