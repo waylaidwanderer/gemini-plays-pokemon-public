@@ -18,15 +18,11 @@
 - 2F Boulders (Current): Boulder 6 (3,3), Boulder 7 (9,1), Boulder 8 (8,14).
 - 2F Pits: Pit (2,5), Pit (8,3), Pit (8,7).
 
-# Boulder Puzzle Analysis
-- Visual Walls (Unverified):
-  - Row 0: (0,0), (1,0), (2,0), (3,0), (4,0), (9,0)
-  - Col 6: (6,2), (6,3)
-  - Misc: (7,10), (7,11), (9,16), (2,13)
-- Task: Identify "fake" walls blocking boulder solutions.
-- Current Turn: 29849.
-- Puzzle Start: Turn 29800 (Dec 28 4:00 PM).
-
 # Strategy: Gym Leader Clair
 - Lead GNEISS (Lv45) vs Dragonairs (Earthquake).
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
+
+# Boulder Puzzle Decisive Action Phase
+- Hypothesis: Standard boulder-pushing mechanics are required. Fake wall tests (50 turns) failed.
+- Plan: Use refined automation to find the sequence for Boulders 6, 7, and 8.
+- Start Turn: 29851.
