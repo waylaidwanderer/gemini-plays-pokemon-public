@@ -8,7 +8,7 @@
 - Strength: Must be re-activated after falling through a pit or changing maps.
 
 # Physically Tested Tiles (2F)
-- (4,2), (4,3), (4,4), (4,5), (4,6), (4,7), (5,0), (6,0), (6,4), (7,0), (8,0), (8,8): WALL confirmed.
+- (4,2)-(4,7), (5,0), (6,0), (6,4), (7,0), (8,0), (8,8), (8,9): WALL confirmed.
 - (3,11) -> (4,11): Blocked by Fran (NPC).
 - (5,1) -> (6,1): Passable (pushed boulder).
 - (7,1) -> (8,1): Passable (pushed boulder).
@@ -22,9 +22,9 @@
 - Visual Walls (Unverified):
   - Row 0: (0,0), (1,0), (2,0), (3,0), (4,0), (9,0)
   - Col 6: (6,2), (6,3)
-  - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
+  - Misc: (7,10), (7,11), (9,16), (2,13)
 - Task: Identify "fake" walls blocking boulder solutions.
-- Current Turn: 29848.
+- Current Turn: 29849.
 - Puzzle Start: Turn 29800 (Dec 28 4:00 PM).
 
 # Strategy: Gym Leader Clair
