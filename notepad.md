@@ -36,3 +36,4 @@
 - Turn 30309: Dragonair fainted. Clair sent out Kingdra (Lv40). Calcifer is out.
 - Turn 30311: Move menu opened. Kingdra (Lv40) is the opponent.
 - Turn 30314: Calcifer (29/148 HP) vs Kingdra (Lv40). Using Thunderpunch.
+- Turn 30315: Calcifer fainted. Sending out Xenon (Lv21) to attempt Hypnosis.
