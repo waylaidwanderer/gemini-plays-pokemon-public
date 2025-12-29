@@ -36,3 +36,5 @@
 - **Progress:** Landed on Cinnabar Island (6_8).
 - **Navigation:** Moving to interact with Blue at (9, 6).
 - **Observation:** Ledges block direct north movement at x=7-9. Gap at x=6 allows access to the northern part.
+- **Lore:** Met Blue at Cinnabar. He declined a battle here due to the volcano destruction but agreed to battle at **Viridian Gym**.
+- **Objective:** Find Blaine at Seafoam Islands (East of Cinnabar).
