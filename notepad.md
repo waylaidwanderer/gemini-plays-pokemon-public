@@ -3,11 +3,10 @@
 - **Reason:** Route 19 is blocked by boulders.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 
-# Current Strategy: Route 1 to Pallet Town
-- **Location:** Route 1.
-- **Status:** Bypassed wall at Row 32.
-- **Action:** Travel South through the grass to Pallet Town.
-- **Next:** Reach Pallet Town and Surf South.
+# Current Strategy: Pallet Town to Cinnabar Island
+- **Location:** Pallet Town.
+- **Status:** Arrived in Pallet Town.
+- **Action:** Walk South to the water's edge and Surf to Cinnabar Island (Route 21).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
