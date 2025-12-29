@@ -3,12 +3,12 @@
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Navigating Route 22 Eastbound.
-- **Observation:** Found gap in wall at Row 12.
-- **Immediate Goal:** Pass through wall gap at (16, 12) and continue East to Viridian City.
+- **Immediate Goal:** Reach Viridian City Entrance.
 - **Plan:**
-  1. Navigate East through (16, 12).
-  2. Continue East to Viridian City.
+  1. Continue East on Route 22.
+  2. Enter Viridian City.
   3. Travel South to Pallet Town.
+  4. Surf South to Cinnabar Island.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
