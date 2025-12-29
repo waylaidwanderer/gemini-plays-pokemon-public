@@ -21,15 +21,11 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (3, 6) on 2F. Strength activation failed.
+- Current Status: At (3, 6) on 2F. Strength activation in progress.
 - Plan: 
-  1. Activate Strength: Start -> Down (to POKEMON) -> A -> 4 Downs (to GNEISS) -> A -> A (Strength) -> 3 Bs (exit).
-  2. Move to (3, 4) to face Boulder 6.
-  3. Execute pushing sequence for Boulder 6.
+  1. Activate Strength: Start -> Down (to POKEMON) -> A -> Up x5 (reset) -> Down x4 (GNEISS) -> A -> Down x2 (STRENGTH) -> A -> 3 Bs.
+  2. Navigate to (3, 2) to push Boulder 6 (3, 3) DOWN.
+  3. Path for Boulder 6: (3, 3) -> (3, 13) -> (2, 13) -> (1, 13) -> (1, 8) -> (0, 8) -> (0, 6) -> (1, 6) -> (1, 3) -> (2, 3) -> (2, 5).
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
-- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Menu cursor defaults to POKEDEX on map entry. Column 4 is a wall from row 2-12.
-- Failed Strength Activation Attempts:
-  - Turn 29988: Attempted Start -> Up x5. Result: Exited menu.
-  - Turn 29987: Attempted Start -> Up x2. Result: Entered Pokedex (cursor was on Gear).
-  - Turn 29990: Attempted Start -> Down -> A -> 4 Downs. Result: Selected KIMCHI (Party pos 3) instead of GNEISS (Party pos 5). KIMCHI has CUT, not STRENGTH.
-- Strategy: Use solve_blackthorn_boulders with the full map to find the path.
+- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12, blocking direct left pushes. Detour through row 13 and column 0 is necessary for B6.
+- Failed Strength Activation Attempts: 4 (Last turn: A pressed on Gneiss but menu didn't behave as expected).
