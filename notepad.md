@@ -3,12 +3,11 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Route 1 -> Viridian City
-- **Location:** Route 1 (North End).
-- **Status:** Approaching Viridian City.
-- **Next Action:** Navigate to gap at (8, 1) or (9, 1) to bypass the final Wall at Row 1.
-- **Goal:** Exit map at (8, 0) or (9, 0) to enter Viridian City.
-- **Trainers:** Path seems clear.
+# Current Strategy: Viridian City
+- **Location:** Entering Viridian City.
+- **Status:** Muscle is Burned and injured.
+- **Next Action:** Go directly to Pokemon Center to heal.
+- **Goal:** Prepare for Blue's Gym Battle.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
