@@ -17,9 +17,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24758)
-- **Status:** Surfing West on Route 19 (6_5) towards Route 20. Max Repel active.
-- **Navigation:** Heading West to find Seafoam Islands.
+# Reflection (Turn 24760)
+- **Status:** Surfing West on Route 20 (6_6). Searching for Seafoam Islands.
+- **Navigation:** Surf West to find the islands.
 - **Lore:** Blaine is at Seafoam Islands.
-- **Next:** Enter Route 20.
-- **Action Required:** Clear phone call, then Surf West.
+- **Next:** Find cave entrance.
+- **Action Required:** Keep Surfing West.
