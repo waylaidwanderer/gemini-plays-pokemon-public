@@ -4,9 +4,9 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian Gym
-- **Location:** Viridian Gym (5, 10).
-- **Status:** Exploring North.
-- **Plan:** Walk North to the back of the gym to find Blue. No puzzles observed so far.
+- **Location:** Viridian Gym (5, 4).
+- **Status:** Standing before Blue.
+- **Plan:** Challenge and defeat Leader Blue.
 - **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
