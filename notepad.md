@@ -1,23 +1,19 @@
-# Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable silver blocks.
-- PIT: Warp for player (to 1F), destination for boulders.
-- LADDER: Warp between floors.
-- Strength: Active (Turn 30009). Required to push boulders.
+# Tile Mechanics
+- FLOOR: Passable.
+- WALL: Impassable silver blocks. Tested at (4,5), (9,13), (2,13), (3,0) - all solid.
+- PIT: Boulder destination. Forms bridge on 1F.
+- LADDER: Map transition. Deactivates Strength.
+- Strength: Reactivating at (3,4) on Turn 30085.
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 6), B7 (6, 1), B8 (8, 12).
+- Boulders: B6 (3, 3), B7 (6, 1). Verify B8.
 - Pits: (2, 5), (8, 3), (8, 7).
-- B8 Status: Marker says (8, 12). Overwatch suggests it might be in (8, 7). Need to verify.
 - NPCs: Cody (4, 1), Fran (4, 11). Both defeated.
 
-# Strategy: Breaking the Deadlock
-- Problem: Idealized BFS says puzzle is impossible with current WALL layout.
-- Hypothesis: One or more "WALL" tiles are actually passable, or NPCs move.
-- Test 1: Is (4, 1) (Cody's tile) passable? Result: NO (Turn 30080).
-- Test 2: Is (3, 0) a fake wall? Result: NO (Turn 30070).
-- Test 3: Is (2, 13) actually a WALL? Result: YES (Turn 30021).
-- Test 4: Is (4, 5) a fake wall? Result: YES (Turn 30059).
-- B8 Status: Need to verify if it's at (8, 12) or in pit (8, 7).
-
-# Puzzle Start Turn: 29931.
+# Strategy
+- Puzzle Start Turn: 29931.
+- Goal: Drop B6 and B7 into pits.
+- Plan:
+  1. Activate Strength.
+  2. Verify B8 status.
+  3. Use optimized BFS solver to find the push sequence.
