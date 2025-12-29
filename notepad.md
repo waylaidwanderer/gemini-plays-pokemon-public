@@ -11,7 +11,7 @@
 - **Current Enemy:** Rhydon (Incoming).
 - **My Pokemon:** Muscle (Machoke Lv83).
 - **Condition:** Muscle is Seeded.
-- **Action:** Cancelled accidental switch menu. Staying with Muscle.
+- **Action:** Advance text, then use Ice Punch (Slot 3).
 - **Plan:** Use Ice Punch (Slot 3).
 - **Reasoning:** Ice Punch (Special) vs Rhydon (Low Sp.Def) is 2x Effective and 100% Accurate. Safer than Cross Chop.
 - **Goal:** Win the Earth Badge.
