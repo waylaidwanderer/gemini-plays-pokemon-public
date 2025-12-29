@@ -3,10 +3,10 @@
 - **Reason:** Route 19 is blocked by boulders.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 
-# Current Strategy: Pallet Town to Cinnabar Island
-- **Location:** Pallet Town (Surfing).
-- **Status:** Surfing South to Route 21.
-- **Action:** Travel South.
+# Current Strategy: Cinnabar Island
+- **Location:** Cinnabar Pokemon Center.
+- **Status:** Healing Pokemon.
+- **Next Action:** Surf East to Seafoam Islands.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
@@ -17,22 +17,10 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24613)
-- **Execution:** Addressed Route 22 wall/ledge confusion.
-- **Hygiene:** Added timestamp to current task. Map markers are up to date.
-- **Automation:** Tools are functioning, though `find_path` had some JSON hiccups.
-- **Goals:** Clear path South to Cinnabar.
-- **Error Analysis:** `FLOOR_UP_WALL` mechanics verified. Fly map limitations noted.
-- **Observation:** Encountered strange "Ladder" tiles (blocky platform) at Route 21 (x=4-7, y=14-15). Treating as obstacle.
-- **Status:** Encountered Wild Tentacool.
-- **Action:** Run away.
-- **Next:** Continue South to Cinnabar Island.
-- **Battle Cursor Persistence:** The cursor position in the "FIGHT" menu is remembered between turns and even between opponent Pokémon switches. It does NOT reset to the first move.
-- **smart_battle_move Tool Note:** The tool assumes the cursor is at slot 1. Since the cursor persists, this causes incorrect move selection in subsequent turns. Use `current_slot` parameter or fix tool to reset cursor.
-- **Location:** Cinnabar Island (6_8).
-- **Observation:** Currently surfing south in the western channel (x=3). A wall at x=4 separates the water from the main island.
-- **Strategy:** Continue surfing South to find a break in the wall or a landing spot.
-- **Note:** NPC 'Blue' detected at (9, 6) by game state, but currently behind the wall.
-- **Observation:** Ledges block direct north movement at x=7-9. Gap at x=6 allows access to the northern part.
-- **Lore:** Met Blue at Cinnabar. He declined a battle here due to the volcano destruction but agreed to battle at **Viridian Gym**.
-- **Objective:** Find Blaine at Seafoam Islands (East of Cinnabar).
+# Reflection (Turn 24666)
+- **Execution:** Successfully navigated Route 21 debris by finding the gap at x=3.
+- **Hygiene:** Marking warps to clear system warnings. Removed redundant progress logs.
+- **Automation:** `find_path` tool repaired and verified. `smart_battle_move` requires manual `current_slot` tracking due to cursor persistence.
+- **Goals:** Clear. Healing, then Seafoam Islands.
+- **Error Analysis:** Proved that Gen 2 battle menus persist cursor position; strategy adapted to track slot or check manually.
+- **Lore:** Blue is at Viridian Gym. Cinnabar is destroyed. Blaine is at Seafoam Islands.
