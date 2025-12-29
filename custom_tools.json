@@ -157,5 +157,34 @@
         "action_counter": 30552
       }
     ]
+  },
+  "get_type_effectiveness": {
+    "description": "Returns the type effectiveness multiplier for an attacking type against one or more defending types.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "attack_type": {
+          "type": "string"
+        },
+        "defender_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "attack_type",
+        "defender_types"
+      ]
+    },
+    "python_script": "import json\n\ndef get_effectiveness(attack_type, defender_types):\n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"STEEL\": 0.5, \"GHOST\": 0},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"GRASS\": 2, \"ELECTRIC\": 0.5, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"FIGHTING\": 0.5, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5}\n    }\n    eff = 1.0\n    for t in defender_types:\n        eff *= chart.get(attack_type, {}).get(t, 1.0)\n    return eff\n\nattack = input_data['attack_type'].upper()\ndefenders = [t.upper() for t in input_data['defender_types']]\nprint(json.dumps({\"effectiveness\": get_effectiveness(attack, defenders)}))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-29T09:15:53.174Z",
+        "action_counter": 30566
+      }
+    ]
   }
 }
