@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Resuming travel to West Exit.
-- **Action:** Move to (0, 13) to exit map.
-- **Reasoning:** Previous move was interrupted by a phone call from Gaven. Resuming path to Mt. Silver.
+- **Status:** Entering Mt. Silver.
+- **Action:** Move Left from (0, 13) to exit Route 28.
+- **Reasoning:** I am at the map border. Moving West will transition to the Mt. Silver area.
+- **Goal:** Reach Mt. Silver Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
