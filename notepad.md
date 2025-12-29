@@ -10,9 +10,9 @@
 - **Defeated:** Pidgeot, Alakazam.
 - **Current Enemy:** Arcanine (Lv58).
 - **My Pokemon:** Qaagmaqnjw (Gyarados Lv35).
-- **Matchup:** Lv35 vs Lv58. Dangerous.
-- **Advantage:** Water resists Fire. Intimidate lowers Arcanine's Attack.
-- **Plan:** Surf (Slot 4) for STAB + Super Effective damage.
+- **Situation:** Gyarados took 70 dmg from Extremespeed. Has 44 HP left. Another hit kills.
+- **Action:** Switch to Muscle (Machoke Lv82).
+- **Reasoning:** Muscle can tank Extremespeed easily and OHKO Arcanine. Saving Gyarados for Rhydon if needed.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
