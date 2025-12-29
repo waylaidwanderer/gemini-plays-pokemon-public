@@ -1,25 +1,25 @@
 # Tile Mechanics (Global)
-- FLOOR: Passable terrain. Standard traversable.
-- WALL: Impassable silver blocks. Absolute barrier.
-- PIT: Player falls to 1F. Boulder destination (forms bridge on 1F).
-- LADDER: Warp between floors. Deactivates Strength. 
-- Strength: Active (Turn 30101).
+- FLOOR: Passable. Standard traversable terrain.
+- WALL: Impassable silver blocks. Absolute barrier for player and boulders.
+- PIT: Hazardous for player (warp to 1F). Target for boulders (forms bridge on 1F).
+- LADDER: Warp between floors. Deactivates Strength.
+- Strength: Active (Turn 30101). Reactivate by interacting with a boulder (A button).
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 13).
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 12).
 - Pits: (2, 5), (8, 3), (8, 7).
-- NPCs: Cody (4, 1), Fran (4, 11). Solid barriers.
-- Obstacles: Row 8 wall (2,8)-(4,8). Row 14/15 wall (7,14)-(7,15).
-- Crossing Points: Row 13 gap at (4, 13).
+- NPCs: Cody (4, 1), Fran (4, 11). Both act as solid obstacles.
+- Barriers: Column 4 wall Row 0-12. Column 2 wall Row 10-17. Row 8 wall at (2,8)-(4,8).
+- Crossings: Row 13 gap at (4, 13) is the primary crossing. Row 1 gap at (2, 1).
 
 # Time Tracking
 - Puzzle Start Turn: 29931.
-- Attempt 1: Turns 29931-30103. (Zero progress).
-- Attempt 2 Start: Turn 30104.
+- Current Attempt Start: Turn 30104.
 
 # Strategy: Boulder Puzzle
 - Goal: Drop all boulders into pits.
 - Plan:
-  1. Push B8 UP from (8, 13) to (8, 12).
-  2. Map out the path for B8 -> (2, 5), B6 -> (8, 3), B7 -> (8, 7).
-  3. Use dynamic `solve_blackthorn_boulders` to refine the sequence.
+  1. Verify the state of Pit (8, 7) and Boulder 8.
+  2. Map out paths: B8 -> (8, 7), B7 -> (8, 3), B6 -> (2, 5).
+  3. Identify and test potential "fake walls" blocking boulder paths (e.g., Row 0 or Row 4/8/12).
+  4. Use `solve_blackthorn_boulders` with confirmed coordinates.
