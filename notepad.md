@@ -67,3 +67,6 @@
 - **Badges:** 12/16. Next: Seafoam (Blaine).
 - **New Invisible Wall:** (8, 7).
 - **Plan:** Detour to Column 9. Path: (8, 8) -> (9, 8) -> (9, 7) -> (9, 6) -> (8, 6).
+- Correction: (8, 7) is clear (player standing on it).
+- Path: Heading up Column 9.
+- Object 4 at (9, 4) is likely a trainer.
