@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road Gate (Reception Gate).
-- **Status:** Navigating West to Route 28/Mt. Silver.
-- **Action:** Walk South to y=5, then West through the corridor at (5, 5).
-- **Reasoning:** The West exit to Mt. Silver is accessed via the corridor at Row 5. I have all 16 badges, so I should be allowed to pass.
-- **Goal:** Reach Route 28.
+- **Location:** Route 28.
+- **Status:** Just entered from Reception Gate.
+- **Action:** Traverse Route 28 West to Mt. Silver.
+- **Reasoning:** Passed the badge check. Now heading to the final dungeon to challenge Red.
+- **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
