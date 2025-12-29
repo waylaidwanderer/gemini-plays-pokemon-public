@@ -2,8 +2,8 @@
 - **Goal:** Reach Seafoam Islands via Pallet Town.
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
-- **Status:** Inside Route 26 Healer House.
-- **Immediate Goal:** Heal Party.
+- **Status:** Leaving Route 26 Healer House.
+- **Immediate Goal:** Continue South on Route 26 to Viridian City.
 - **Plan:**
   1. Heal Party.
   2. Exit House.
