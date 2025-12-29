@@ -19,8 +19,9 @@
 - Problem: All pits seem unreachable for boulders due to WALL constraints (especially Row 0 blocking Down pushes from Row 1).
 - Hypothesis: One of the 'WALL' tiles is actually passable or an NPC tile becomes passable after defeat.
 - Test 1: Is (4, 1) (Cody's tile) passable? Result: NO (Turn 30069).
-- Test 2: Is (3, 0) a fake wall?
-- Test 3: Is (2, 13) actually a WALL?
-- Test 4: Is (3, 8) actually a WALL?
+- Test 2: Is (3, 0) a fake wall? Result: NO (Turn 30070).
+- Test 3: Is (3, 8) a fake wall?
+- Test 4: Is (6, 3) a fake wall?
+- Test 5: Is (6, 0) a fake wall?
 
 # Puzzle Start Turn: 29931.
