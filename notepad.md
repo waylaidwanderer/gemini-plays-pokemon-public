@@ -9,10 +9,8 @@
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam.
 - **Current Enemy:** Arcanine (Incoming).
-- **My Pokemon:** Kunai (Sneasel Lv26) -> Switching out.
-- **Switch:** To Qaagmaqnjw (Gyarados Lv35).
-- **Reasoning:** Water resists Fire. Intimidate cuts Arcanine's Attack. Surf for Super Effective damage.
-- **Backup:** If Gyarados falls, Muscle cleans up.
+- **My Pokemon:** Switching to Qaagmaqnjw (Gyarados Lv35).
+- **Plan:** Intimidate Arcanine. Use Surf (Slot 4) for massive damage.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
