@@ -4,12 +4,10 @@
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 
 # Current Strategy: Viridian City to Pallet Town
-- **Location:** Viridian City (North-West).
-- **Task:** Navigate South to Route 1.
-- **Step 1:** Cut tree at (8, 22).
-- **Step 2:** Navigate around Fisher at (6, 23).
-- **Step 3:** Exit South to Route 1.
-- **Step 4:** Travel South to Pallet Town.
+- **Location:** Viridian City (South).
+- **Task:** Find Route 1 Exit.
+- **Status:** Traveling East along southern fence (Row 30).
+- **Next:** Locate gap in fence or main road to exit South.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
