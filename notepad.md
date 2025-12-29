@@ -3,7 +3,7 @@
 - WALL: Impassable silver blocks.
 - PIT: Player falls to 1F. Boulder destination (forms bridge on 1F).
 - LADDER: Warp between floors. Deactivates Strength.
-- Strength: Inactive. Reactivate by interacting with a boulder (A button).
+- Strength: Active (Turn 30101).
 
 # Blackthorn Gym 2F State
 - Boulders (Verified): B6 (3, 3), B7 (6, 1), B8 (8, 14).
