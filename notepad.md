@@ -42,7 +42,7 @@
 - Phase: Fake Wall Testing (Started Turn 29744)
 - Hypothesis: Tile (2, 13) is a fake wall.
   - Test: Stand at (3, 13) and press Left.
-  - Result: [Pending].
+  - Result: DENIED (Turn 29779).
 - Hypothesis: Tile (3, 8) is a fake wall.
   - Test: Stand at (3, 9) and press Up.
   - Result: [Pending].
@@ -61,6 +61,7 @@
   12. Tile (9, 16) is a fake wall (Denied Turn 29773).
   13. Tile (4, 7) is a fake wall (Denied Turn 29775).
   14. Tile (6, 2) is a fake wall (Denied Turn 29777).
+  15. Tile (2, 13) is a fake wall (Denied Turn 29779).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
