@@ -3,10 +3,10 @@
 - **Reason:** Route 19 is blocked by boulders.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 
-# Current Strategy: Viridian City to Pallet Town
-- **Location:** Route 1 (North).
-- **Task:** Traverse Route 1 South to Pallet Town.
-- **Action:** Travel South.
+# Current Strategy: Route 1 to Pallet Town
+- **Location:** Route 1.
+- **Status:** Battling Youngster.
+- **Action:** Win battle, then continue South.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
