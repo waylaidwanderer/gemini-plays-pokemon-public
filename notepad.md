@@ -9,9 +9,8 @@
 - **Opponent:** Leader Blue.
 - **Current Enemy:** Alakazam (Lv54).
 - **My Pokemon:** Kunai (Sneasel Lv24).
-- **Condition:** Alakazam has Reflect up. Disable failed last turn.
-- **Insight:** Kunai is immune to Psychic.
-- **Plan:** Spam Shadow Ball (Slot 1). If Disabled, switch or use Screech.
+- **Condition:** Alakazam has Reflect up. Immune to his Psychic attacks.
+- **Plan:** Use Screech (Slot 4) to lower Defense, then finish with Shadow Ball.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
