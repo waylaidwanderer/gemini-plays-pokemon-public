@@ -18,8 +18,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24926)
-- **Self-Assessment:** All immediate tasks handled. Notepad clean. Map markers for exit placed.
-- **Automation:** 'find_path' is working, though execution seems to have been partial last turn. Will monitor.
-- **Goal:** Defeat Blue. Strategy: Explore gym layout (no assumptions on spin tiles), find Blue.
+# Reflection (Turn 24927)
+- **Self-Assessment:** Previous movement command (Turn 24926) was partially executed (only 1 step taken). Retrying movement to Gym Guide.
+- **Goal:** Talk to Gym Guide to get info/check status. Then explore North.
 - **Gym Start:** Turn 24925.
