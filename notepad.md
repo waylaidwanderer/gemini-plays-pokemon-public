@@ -8,14 +8,11 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam.
-- **My Pokemon:** Kunai (Sneasel Lv26).
-- **Event:** Confirmed rejection of Faint Attack.
-- **Next:** Identify incoming Pokemon and switch if necessary.
-- **Matchups:**
-  - **Rhydon:** Switch to Gyarados (Surf).
-  - **Arcanine:** Switch to Gyarados (Surf).
-  - **Exeggutor:** Stay with Kunai (Shadow Ball).
-  - **Gyarados:** Switch to Muscle (Thunderpunch).
+- **Current Enemy:** Arcanine (Incoming).
+- **My Pokemon:** Kunai (Sneasel Lv26) -> Switching out.
+- **Switch:** To Qaagmaqnjw (Gyarados Lv35).
+- **Reasoning:** Water resists Fire. Intimidate cuts Arcanine's Attack. Surf for Super Effective damage.
+- **Backup:** If Gyarados falls, Muscle cleans up.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
