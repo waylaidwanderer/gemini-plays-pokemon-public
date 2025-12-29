@@ -65,12 +65,7 @@
 - **Current Task:** Defeat Janine.
 - **Started:** Turn 24302.
 - **Badges:** 12/16. Next: Seafoam (Blaine).
-- **New Invisible Wall:** (8, 7).
-- **Plan:** Detour to Column 9. Path: (8, 8) -> (9, 8) -> (9, 7) -> (9, 6) -> (8, 6).
-- Correction: (8, 7) is clear (player standing on it).
-- Path: Heading up Column 9.
-- Object 4 at (9, 4) is likely a trainer.
-- Battle: Challenged Trainer at (9, 4). Disguised as Janine. Revealed to be PICNICKER CINDY.
-- Analysis:
-  - Center Path (Col 5) blocked by Linda (Lass).
-  - Left Path (Cols 1-2) blocked by walls at y=11.
+- **Status:** Defeated Picnicker Cindy at (9, 4).
+- **Location:** (8, 1). Top-right corner of gym.
+- **Plan:** Traverse Row 1 to the left (West) to reach the top-left corner. Explore unseen area (Cols 0-3) and find a path down to Janine at (1, 10).
+- **Potential Obstacles:** Invisible walls in the top corridor.
