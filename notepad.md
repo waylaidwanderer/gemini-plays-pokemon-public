@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Approaching Mt. Silver.
-- **Action:** Continue West through the grass path (Row 9).
-- **Reasoning:** The path continues West. I need to traverse the entire route to reach the entrance of Mt. Silver.
+- **Status:** In wild battle (Tangela Lv40).
+- **Action:** Run from battle -> Continue West through grass (Row 9).
+- **Reasoning:** Interrupted by wild Tangela. Need to escape to continue to Mt. Silver.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
