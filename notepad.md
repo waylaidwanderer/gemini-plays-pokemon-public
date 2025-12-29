@@ -3,10 +3,10 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Fuchsia City (South).
+- **Location:** Route 19 (North).
 - **Immediate Plan:**
-  1. Head South to Route 19 (Surf).
-  2. Travel East on Route 20 to Seafoam Islands.
+  1. Navigate South over ledges.
+  2. Surf to Route 20 -> Seafoam Islands.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
