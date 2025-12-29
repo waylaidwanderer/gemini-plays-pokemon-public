@@ -42,3 +42,12 @@
 - Turn 30293: Heading to (8, 7) to verify if a boulder is there.
 - Then checking (7, 7), (6, 7), (5, 7), (4, 7), (3, 7) to identify gaps.
 - Gap Hypothesis: The "WALL" tiles at (4, 7) and (5, 7) are the gaps that need boulders.
+
+# 1F Bridge Exploration (Turn 30296)
+- Hypothesis: The path (8, 7) -> (9, 7) -> (9, 3) -> (5, 3) is clear and allows reaching Clair without the boulder puzzle.
+- Test: Attempt to walk this path.
+- Result: TBD.
+
+# Puzzle Analyst Agent
+- Purpose: Map 2F pits to 1F gaps.
+- Status: Pending gap verification.
