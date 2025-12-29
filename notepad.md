@@ -2,14 +2,13 @@
 - **Goal:** Reach Seafoam Islands via Pallet Town.
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
-- **Status:** Traversing Route 26 Southbound.
-- **Immediate Goal:** Reach Route 26/22 Junction (Viridian Gate).
+- **Status:** Realized Route 26 leads South to Johto (Wrong Way).
+- **Correction:** Need to reach Viridian City via Route 22 (East of Gatehouse) or Fly.
+- **Immediate Goal:** Fly to Viridian City, Pallet Town, or Saffron City.
 - **Plan:**
-  1. Heal Party.
-  2. Exit House.
-  3. Continue South on Route 26 to Viridian City.
-  4. Travel South to Pallet Town.
-  5. Surf South to Cinnabar Island.
+  1. Open Fly Map.
+  2. Select Viridian, Pallet, or Saffron.
+  3. If unable to select, Fly to Indigo Plateau and re-navigate Gatehouse to Route 22.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
