@@ -1,21 +1,29 @@
 # Tile Mechanics (Global)
 - FLOOR: Passable. Standard movement.
-- WALL: Impassable silver blocks.
-- Verified REAL Walls: (6, 0), (7, 11), (8, 9), (7, 10), (5, 12).
-- Verified FLOOR: (7, 12), (7, 13), (4, 11).
+- WALL: Impassable silver blocks. 
+- PIT: Player falls to 1F. Boulders falling in create bridges on 1F.
+- LADDER: Warp between floors. Resets boulder positions. Deactivates Strength.
 
 # Blackthorn Gym 2F Puzzle Analysis
 - Start Turn: 30151
-- Boulders: B6 (3, 3), B7 (7, 1), B8 (8, 14).
+- Boulders: B6 (3, 4), B7 (6, 1), B8 (8, 14).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
-- Problem: B8 is currently blocked from reaching P3 by real walls at (8, 9), (7, 10), and (7, 11). Direct northern and western paths from its current corridor are sealed.
+- Problem: All boulders appear to be trapped in corridors by silver blocks.
+- Hypothesis: Some silver blocks (WALL tiles) are actually FLOOR.
+
+# Investigation Log: Wall Testing
+- (6, 0): REAL WALL (Turn 30157).
+- (7, 11): REAL WALL (Turn 30160).
+- (8, 9): REAL WALL (Turn 30140).
+- (7, 10): REAL WALL (Turn 30143).
+- (5, 12): REAL WALL (Turn 30163).
+- (4, 2): Testing now.
 
 # Strategy: Systematic Fake Wall Search
-1. B8 is likely the last boulder to solve. Focus on B6 and B7 first.
-2. B6 at (3, 3) needs to reach P1 at (2, 5).
-   - Hypothesis: Tile (4, 3) or (4, 5) is a FAKE WALL (FLOOR). This would allow pushing B6 left.
-   - Hypothesis: Tile (2, 3) or (2, 4) is a FAKE WALL (FLOOR). This would allow pushing B6 into the pit from the right.
-3. B7 at (7, 1) needs to reach P2 at (8, 3).
-   - Hypothesis: Tile (8, 0), (8, 1), or (8, 2) is a FAKE WALL (FLOOR).
-4. Test x=4 wall by walking on it. Starting with (4, 3).
+1. Walk into every adjacent silver block to identify floor tiles.
+2. Focus on Column 4 and Column 2 as they block most lateral pushes.
+3. Update solver once a fake wall is found.
+
+# Progress Log
+- Turn 30176: Pushed B6 to (3, 4). Strength is active.
