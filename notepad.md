@@ -48,11 +48,11 @@
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
 - **Battle:** Defeated Lass Linda.
-- **Current Status:** Backtracking to Lobby.
+- **Current Status:** Back at Lobby (3, 16).
 - **Test Results:** (4, 12) and (6, 12) are SOLID WALLS.
-- **Action:** Probing for FAKE WALLS at (3, 14) and (6, 14).
+- **Action:** Probing for FAKE WALLS at (3, 14) and (4, 13).
 - **Plan:**
   1. Move to (4, 14). Test Left into (3, 14).
-  2. Move to (6, 14). Test Right into (6, 14) [Wait, I need to be at (5, 14) to test Right into (6, 14)].
-  3. If fails, test (3, 15) and (6, 15).
-- **Hypothesis:** Entry to the outer columns (3 and 6) is through a fake wall from the central path.
+  2. If blocked, Test Up into (4, 13).
+  3. If both blocked, check (6, 14) and (6, 13) via Column 5.
+- **Hypothesis:** Entry to the outer columns is through a fake wall.
