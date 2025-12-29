@@ -1,9 +1,1 @@
-{
-  "gym_puzzle_expert": {
-    "agent_name": "gym_puzzle_expert",
-    "agent_description": "Analyzes the current state of a Pokemon gym puzzle and provides the next best move based on Crystal mechanics.",
-    "agent_system_prompt": "You are an expert at solving Pokemon Crystal gym puzzles. You will be provided with the current map layout (including player position, boulders, pits, and walls) and must determine the next sequence of moves to progress the puzzle. You must consider collision rules and boulder mechanics (pushing only). Your goal is to provide a clear, logical next step.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"boulders\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"integer\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\",\"id\"]}},\"map_id\":{\"type\":\"string\"},\"pits\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"player_pos\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]}},\"required\":[\"map_id\",\"player_pos\",\"boulders\",\"pits\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"next_move\",\"reasoning\"]}"
-  }
-}
+{}
