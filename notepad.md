@@ -11,7 +11,6 @@
 - WATER: Traversable only with Surf (HM03).
 
 # Strategy: Final Badge
-- Goal: Defeat Gym Leader Clair for the Rising Badge.
 - Training Plan:
   1. Travel to Route 45 south of Blackthorn City.
   2. Engage in wild battles in grass patches.
