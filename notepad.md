@@ -9,8 +9,8 @@
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam.
 - **My Pokemon:** Kunai (Sneasel Lv26).
-- **Event:** Kunai trying to learn Faint Attack.
-- **Decision:** REJECT. Faint Attack is Special (bad for Sneasel). Shadow Ball (Physical) is superior.
+- **Event:** Handling move learning (Rejecting Faint Attack).
+- **Next:** Confirm "Stop learning" prompt, then see next opponent.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
