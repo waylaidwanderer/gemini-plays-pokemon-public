@@ -6,22 +6,16 @@
 - Strength: Active (Turn 30009). Required to push boulders.
 
 # Blackthorn Gym 2F State
-- Boulders (Current):
-  - B6: (3, 4)
-  - B7: (6, 1)
-  - B8: (8, 12)
-- Pits: (2, 5), (8, 3), (8, 7).
+- Boulders: B6 (3, 6), B7 (6, 1).
+- Pits: (2, 5), (8, 3).
+- B8: Pushed into Pit (8, 7) on Turn 29670.
 - Crossing Points:
-  - Row 1: Main horizontal corridor.
-  - Row 13: Horizontal corridor, but (2, 13) is labeled WALL.
+  - Row 1: Gap in Column 2, but Cody (NPC) blocks Column 4.
+  - Row 9: Gap in Column 2 at (2, 9).
+  - Row 13: Gap in Column 4 at (4, 13).
 
-# Strategy: Finding the Path
-- Problem: All pits seem unreachable for boulders due to WALL constraints (especially Row 0 blocking Down pushes from Row 1).
-- Hypothesis: One of the 'WALL' tiles is actually passable or an NPC tile becomes passable after defeat.
-- Test 1: Is (4, 1) (Cody's tile) passable? Result: NO (Turn 30069).
-- Test 2: Is (3, 0) a fake wall? Result: NO (Turn 30070).
-- Test 3: Is (3, 8) a fake wall?
-- Test 4: Is (6, 3) a fake wall?
-- Test 5: Is (6, 0) a fake wall?
-
-# Puzzle Start Turn: 29931.
+# Strategy: Boulder Puzzle
+- Goal: Drop B6 into Pit (2, 5) and B7 into Pit (8, 3).
+- Puzzle Start Turn: 29931.
+- Current Phase: Investigating Cody at (4, 1).
+- Verified Walls: (4, 5), (9, 13), (2, 13), (3, 0).
