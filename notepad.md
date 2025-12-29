@@ -6,17 +6,16 @@
 - BOULDER: Object. Can be pushed with Strength. Impassable.
 
 # Blackthorn Gym Boulder Puzzle
-- Start Turn: 30123
-- Boulders Found (2F):
-    - B6: (3, 3) (Verified Turn 30255)
-    - B7: (7, 1) (Verified Turn 30255)
-    - B9: (8, 13)? (Need to verify)
-- Pits (2F):
+- Boulders on 2F:
+    - ID 6: (3, 3) (Verified Turn 30255)
+    - ID 7: (7, 1) (Verified Turn 30255)
+    - ID 8: (8, 13) (Verified Turn 30256)
+- Pits on 2F:
     - P1: (2, 5)
     - P2: (8, 3)
-    - P3: (8, 7) (Summary says one boulder was pushed here)
-- Goal: Push boulders into pits to create bridges on 1F.
-- Strategy: Verify all boulders on 2F, then check 1F to see which pits still need filling.
+    - P3: (8, 7) (Summary says a boulder was pushed here)
+- Goal: Fill remaining pits to complete the bridge on 1F.
+- Strategy: Go to 1F and verify which pits are filled. Then return to 2F to push the remaining boulders.
 
 # Verified Map Constraints (2F)
 - Row 0 and Row 17: Boundaries.
