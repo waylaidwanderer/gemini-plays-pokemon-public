@@ -17,8 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24792)
-- **Status:** Standing on platform (38, 11) in Route 20.
-- **Problem:** Attempted to surf using pathfinder, but failed because I wasn't surfing yet.
-- **Action:** Manually interact with water to start Surfing.
-- **Next:** Surf West to Cinnabar Island.
+# Reflection (Turn 24793)
+- **Status:** Surfing on Route 20 (38, 11).
+- **Action:** Cleared "Used Surf" text, navigating around sign to head West.
+- **Next:** Continue Surfing West to Cinnabar Island.
