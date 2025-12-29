@@ -42,7 +42,14 @@
 - Boulder 7 Plan: Push into PIT (8, 3).
 - Boulder 8 Plan: Push into PIT (8, 7).
 - Verification: Column 4 (WALL) blocks direct access from the right. Column 2 (WALL) from row 8-12 blocks access from the left. Only Row 13 and Row 1 are open for cross-gym navigation.
-- Turn 30005: Fell through pit at (2, 5) on 2F, landed at (2, 6) on 1F.
-- Strength Status: DEACTIVATED (due to map change/fall).
-- Immediate Plan: Use ladder at (1, 7) to return to 2F.
-- Goal: Resume boulder puzzle.
+- Turn 30006 Strategy:
+  1. I am at (1, 7) on 2F. Strength is OFF.
+  2. Navigate to (3, 4), face Boulder 6 at (3, 3), and press A to activate Strength.
+  3. Once Strength is active, I will use a custom tool to solve the entire puzzle.
+- Boulder 6 Path (Hypothesis): (3, 3) -> (3, 2) -> (2, 2) -> (2, 5) PIT.
+  - To push left at (3, 2), I need to be at (4, 2). (4, 2) is a WALL.
+  - To push down at (2, 2), I need to be at (2, 1). (2, 1) is floor.
+- Boulder 7 Path (Hypothesis): (6, 1) -> (7, 1) -> (8, 1) -> (8, 3) PIT.
+  - To push down at (8, 1), I need to be at (8, 0). (8, 0) is a WALL.
+- Boulder 8 Path (Hypothesis): (8, 14) -> (8, 10) -> (6, 10) -> (6, 7) -> (8, 7) PIT.
+  - To push right at (6, 7), I need to be at (5, 7). (5, 7) is floor.
