@@ -1,35 +1,24 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- PIT: Impassable. Falling into a pit warps the player to the floor below (1F).
-- LADDER: Warp to the floor below (1F).
-- BOULDER: Object. Can be pushed with Strength. Impassable.
+- PIT: Impassable. Warps to 1F.
+- LADDER: Warp to 1F.
+- BOULDER: Can be pushed with Strength.
 
 # Strategy: Final Badge
 - Defeat Gym Leader Clair to earn the Rising Badge.
-- Note: Post-battle event likely involves the Dragon's Den.
 
-# Battle Status: Clair
-- Opponent: Kingdra (Lv40) - Status: Asleep.
-- Player Status: Calcifer (Lv47) FNT, Gneiss (Lv45) FNT, Kimchi (Lv21, 1 HP), Icarus (Lv16, Full HP), Ravioli (Lv10, Full HP).
-- Active: Xenon (Lv21) - Goal: Use Night Shade (fixed 21 damage).
-- Progress: Defeated 1x Dragonair (Lv37).
+# Battle Progress: Clair
+- Opponent: Kingdra (Lv40) ~40-50% HP.
+- Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Kimchi (21) 1 HP.
+- Plan: Use Icarus (Lv16) to land Sand-Attack. Lowering accuracy is the only way to potentially land Sleep Powder with Kimchi or chip away with Ravioli.
 
-# Type Effectiveness (Verified)
+# Type Effectiveness (Gen 2)
 - Dragon resists: Fire, Water, Electric, Grass.
 - Dragon weak to: Dragon, Ice.
-- Normal, Ground, Rock: Neutral damage to Dragon.
-
-# Battle Summary: Clair
-- Calcifer (Lv47) defeated first Dragonair (Lv37) with Return.
-- Kingdra (Lv40) fainted Calcifer with a critical Surf.
-- Switched to Xenon (Lv21), used Hypnosis to sleep Kingdra.
-- Switched to Gneiss (Lv45), but Kingdra was healed with Full Heal and fainted Gneiss with Surf.
-- Switched to Kimchi (Lv21), landed Sleep Powder.
-- Currently: Xenon is out to chip away with Night Shade while Kingdra sleeps.
+- Normal, Ground, Rock: Neutral.
 
 # General Lessons
-- Puzzle Bypass: Always explore the perimeter of a room before committing to a complex puzzle.
-- Tile Verification: Test collision of hazard-looking tiles.
-- Battle Strategy: Starters can brute-force with powerful neutral moves like Return.
-- Turn 30347: Xenon used Night Shade. Kingdra is asleep.
+- Puzzle Bypass: Explore room perimeters before complex puzzles.
+- Battle Strategy: High-level starters can brute-force with powerful neutral moves like Return. Fixed damage (Night Shade) and accuracy reduction (Sand-Attack) are vital when underleveled.
+- Turn 30350: Xenon fainted. Choosing Icarus.
