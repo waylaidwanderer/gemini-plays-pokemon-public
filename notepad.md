@@ -5,8 +5,8 @@
 
 # Current Strategy: Post-Game
 - **Location:** Pallet Town (6, 8).
-- **Status:** Interrupted by phone call (Wade).
-- **Action:** Clear dialogue -> Enter Oak's Lab (12, 11) -> Talk to Oak.
+- **Status:** Walking to Oak's Lab.
+- **Action:** Enter Oak's Lab (12, 11) -> Talk to Oak.
 - **Goal:** Get permission for Mt. Silver.
 
 # Tile Mechanics
