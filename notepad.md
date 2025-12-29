@@ -17,8 +17,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24797)
+# Reflection (Turn 24798)
 - **Status:** Surfing on Route 20 (12, 16).
-- **Obstacle:** "Impossible to swim" text encountered at (11, 16). Likely volcanic debris.
-- **Action:** Marking debris. Navigating around Swimmer Guy at (12, 15) to find a clear path West.
-- **Next:** Move Right -> Up -> Up to bypass blockage and Swimmer.
+- **Obstacle:** "Impossible to swim all the way to JOHTO." text confirmed. Debris at (11, 16).
+- **Action:** Cleared text. Navigating around Swimmer Guy (12, 15) and debris to continue West.
+- **Path:** Right -> Up -> Up -> Left -> Left to reach (11, 14).
