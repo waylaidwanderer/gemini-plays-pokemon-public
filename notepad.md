@@ -26,3 +26,5 @@
 
 # Navigation Insights
 - 1F Access: Must use 2F detour (Ladder at 7,9 to Ladder at 1,7) to move between halves.
+- 2F Crossing: Gap in the central wall exists at Row 13 (4, 13 is FLOOR). Column 4 is otherwise mostly WALLs and NPCs (Cody at 4,1, Fran at 4,11).
+- Pathing Note: Previous attempt to cross at (4, 11) failed due to Fran. Must detour via (4, 13).
