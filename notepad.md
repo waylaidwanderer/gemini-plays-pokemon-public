@@ -4,8 +4,8 @@
 - **Next:** Fly to Pallet Town -> Talk to Oak.
 
 # Current Strategy: Post-Gym
-- **Location:** Viridian City (32, 8).
-- **Status:** Earth Badge obtained.
+- **Location:** Viridian City (Menu).
+- **Status:** Selecting Fly.
 - **Action:** Flying to Pallet Town.
 - **Next:** Enter Oak's Lab.
 - **Goal:** Get permission for Mt. Silver.
