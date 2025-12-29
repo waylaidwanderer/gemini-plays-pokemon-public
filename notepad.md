@@ -26,7 +26,7 @@
 # Boulder Puzzle Decisive Action Phase
 - Plan: Reset boulders by leaving 2F, then use BFS to find the push sequence.
 - Step 1: Reach Ladder at (1, 7).
-- Step 2: Transition to 1F and back.
+- Step 2: Transition to 1F and back. (COMPLETED)
 - Step 3: Run BFS simulation for all 3 boulders.
 - Puzzle Start: Turn 29800.
 - Decisive Phase Start: Turn 29851.
