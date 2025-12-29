@@ -8,11 +8,11 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados.
-- **Current Enemy:** Exeggutor (Lv58) - ~45% HP.
+- **Current Enemy:** Exeggutor (Lv58) - Low HP.
 - **My Pokemon:** Muscle (Machoke Lv82).
-- **Condition:** Muscle is Seeded.
+- **Condition:** Muscle is Seeded (taking ~34 dmg/turn).
 - **Plan:** Use Ice Punch (Slot 3) to finish Exeggutor.
-- **Cursor Memory:** Currently on Slot 3 (Ice Punch).
+- **Next:** Rhydon likely next. Plan to use Cross Chop (Physical Fighting vs Rock/Ground).
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
