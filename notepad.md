@@ -24,5 +24,6 @@
 - **Goals:** Clear. Healing, then Seafoam Islands.
 - **Error Analysis:** Proved that Gen 2 battle menus persist cursor position; strategy adapted to track slot or check manually.
 - **Lore:** Met Blue at Cinnabar (Viridian Gym Leader). Blaine is in a cave at **Seafoam Islands** (East).
-- **Observation:** The path East is blocked by a debris wall at x=14 (Rows 12-15).
-- **Strategy:** Surf South to y=16 where there is a gap (WATER tiles at x=14+), then head East to Seafoam Islands.
+- **Observation:** The path East on Cinnabar (6_8) was blocked by debris, but Route 20 (6_6) appears open so far.
+- **Strategy:** Surf East along the southern edge (Row 16) to map the route.
+- **Note:** Swimmer Guy at (12, 13) may block the path or initiate battle.
