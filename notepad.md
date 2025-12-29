@@ -11,8 +11,9 @@
 - **Current Enemy:** Rhydon (Incoming).
 - **My Pokemon:** Muscle (Machoke Lv83).
 - **Condition:** Muscle is Seeded.
-- **Plan:** Stay in (Select NO). Use Ice Punch (Slot 3).
-- **Reasoning:** Ice Punch hits Rhydon's weak Special Defense. 2x Effective. 100% Accuracy. Cross Chop risks a miss.
+- **Action:** Cancelled accidental switch menu. Staying with Muscle.
+- **Plan:** Use Ice Punch (Slot 3).
+- **Reasoning:** Ice Punch (Special) vs Rhydon (Low Sp.Def) is 2x Effective and 100% Accurate. Safer than Cross Chop.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
