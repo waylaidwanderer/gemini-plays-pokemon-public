@@ -17,11 +17,10 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24778)
-- **Status:** Battling Blaine.
-- **Opponent:** Blaine (Gym Leader).
-- **Active Enemy:** Rapidash incoming.
-- **Defeated:** Magcargo (Lv 45), Magmar (Lv 45).
-- **My Pokemon:** Muscle (Lv 82 Machoke).
-- **Strategy:** Decline switch, use Strength/Cross Chop.
-- **Next:** Fight Rapidash.
+# Reflection (Turn 24781)
+- **Status:** Battling Blaine (Final Pokemon).
+- **Opponent:** Rapidash (Lv 50).
+- **My Pokemon:** Muscle (Lv 82 Machoke) - Burned.
+- **Defeated:** Magcargo, Magmar.
+- **Strategy:** Use Cross Chop (Slot 4). Burn halves attack, but STAB + Level advantage + High Crit rate makes it the best option.
+- **Next:** Win battle.
