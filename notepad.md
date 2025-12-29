@@ -7,20 +7,19 @@
 
 # Blackthorn Gym 2F State
 - Boulders (Current):
-  - B6: (3, 3)
+  - B6: (3, 4)
   - B7: (6, 1)
   - B8: (8, 12)
 - Pits: (2, 5), (8, 3), (8, 7).
 - Crossing Points:
-  - Row 9: Gap in Column 2 at (2, 9).
-  - Row 13: Gap in Column 4 at (4, 13).
-  - Row 1: Gap in Column 4, but Cody (NPC) blocks (4, 1).
-  - Row 11: Gap in Column 4, but Fran (NPC) blocks (4, 11).
+  - Row 1: Main horizontal corridor.
+  - Row 13: Horizontal corridor, but (2, 13) is labeled WALL.
 
-# Strategy: Boulder Puzzle
-- Goal: Drop all three boulders into pits.
-- Puzzle Start Turn: 29931.
-- Plan:
-  1. Solve the puzzle using optimized BFS.
-  2. Execute sequence.
-- Verified Walls: (4, 5), (9, 13), (2, 13).
+# Strategy: Finding the Path
+- Problem: All pits seem unreachable for boulders due to WALL constraints (especially Row 0 blocking Down pushes from Row 1).
+- Hypothesis: One of the 'WALL' tiles is actually passable or an NPC tile becomes passable after defeat.
+- Test 1: Is (4, 1) (Cody's tile) passable now that he's defeated?
+- Test 2: Is (2, 13) actually a WALL?
+- Test 3: Is (3, 0) or (5, 0) a 'fake' wall?
+
+# Puzzle Start Turn: 29931.
