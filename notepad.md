@@ -5,9 +5,10 @@
 
 # Current Strategy: Route 1 -> Viridian City
 - **Location:** Route 1 (Middle).
-- **Status:** Moving North.
-- **Next Action:** Navigate through Gap at (7, 19), then move Right to Col 12 to bypass Ledges/Walls at Row 13.
+- **Status:** Correcting path. Blocked by Ledges at Row 19.
+- **Next Action:** Move Left to gap at (7, 19), then Up to (7, 18). Afterwards, head Right to Col 12.
 - **Trainers:** Avoiding Youngster at (4, 12) by flanking Right.
+- **Note:** Pathfinder treats Ledges as passable from South. Must manually target gaps.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
