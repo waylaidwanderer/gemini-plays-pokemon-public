@@ -46,3 +46,6 @@
 - Current Status: New wild battle started at (4, 12).
 - Turn 30564: Switch-training Xenon vs Lv23 Graveler.
 - Strategy: Switching to Calcifer (Lv47).
+- Encounter: Wild Graveler (Lv23) defeated. Yielded 440 EXP (220 to Xenon).
+- Resource: Calcifer Flame Wheel PP 23/25.
+- Milestone: Xenon Lv24 progress: 10523 EXP.
