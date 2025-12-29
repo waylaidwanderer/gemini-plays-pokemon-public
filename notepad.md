@@ -19,7 +19,8 @@
 - (7, 10): REAL WALL (Turn 30143).
 - (5, 12): REAL WALL (Turn 30163).
 - (4, 2): REAL WALL (Turn 30177).
-- (4, 4): Testing now.
+- (4, 4): REAL WALL (Turn 30179).
+- (2, 2): Testing now.
 
 # Strategy: Systematic Fake Wall Search
 1. Walk into every adjacent silver block to identify floor tiles.
