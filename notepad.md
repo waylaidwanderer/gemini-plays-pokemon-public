@@ -16,7 +16,7 @@
 # Battle Status: Clair
 - Opponent: Kingdra (Lv40).
 - Progress: 1x Dragonair (Lv37) defeated.
-- Rematch Prep: Whited out at Turn 30372. Current funds ¥321.
+- Rematch Prep: Whited out at Turn 30372. Current funds ¥5221 (Sold PP UP). Goal: Buy 3x Revive.
 
 # Type Effectiveness (Verified by Battle Analyst)
 - Dragon resists: Fire, Water, Electric, Grass.
