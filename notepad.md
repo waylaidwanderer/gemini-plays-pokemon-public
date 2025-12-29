@@ -10,6 +10,7 @@
 - **Defeated:** Pidgeot, Alakazam.
 - **Current Enemy:** Arcanine (Incoming).
 - **My Pokemon:** Switching to Qaagmaqnjw (Gyarados Lv35).
+- **Action:** Confirming switch (Select -> Shift).
 - **Plan:** Intimidate Arcanine. Use Surf (Slot 4) for massive damage.
 - **Goal:** Win the Earth Badge.
 
