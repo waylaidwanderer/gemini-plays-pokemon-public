@@ -5,9 +5,9 @@
 
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
-- **Status:** Encountered Wild Rattata.
-- **Action:** Run away.
-- **Next:** Continue South to Pallet Town.
+- **Status:** Traveling South on Route 1.
+- **Action:** Continue South to Pallet Town.
+- **Next:** Reach Pallet Town and Surf South.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
