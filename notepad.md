@@ -5,8 +5,8 @@
 
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
-- **Status:** Navigating Route 1 Southbound.
-- **Action:** Hop ledge at (12, 19) and continue South to Pallet Town.
+- **Status:** Traveling South on Route 1.
+- **Action:** Continue South past Cooltrainer F (stay East at x=12 to avoid contact).
 - **Next:** Reach Pallet Town.
 
 # Tile Mechanics
