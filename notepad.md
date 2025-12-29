@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Exploring Westwards.
-- **Action:** Continue West to Mt. Silver Entrance.
-- **Reasoning:** Resuming exploration after wild battle. Following the lower path West.
+- **Status:** Correcting path to Mt. Silver.
+- **Action:** Backtrack East to (10, 7), then jump Ledge South to (10, 12) to access the lower path West.
+- **Reasoning:** Current location (4, 9) is a cul-de-sac blocked by walls West and South. The actual path West is on Row 12, accessible by jumping the ledge at (10, 11).
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
