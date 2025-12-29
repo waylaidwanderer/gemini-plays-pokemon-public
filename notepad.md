@@ -21,12 +21,11 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: Back on 2F at (1, 7). Strength INACTIVE.
+- Current Status: At (2, 7) on 2F. Strength INACTIVE.
 - Plan: 
-  1. Move to (2, 7) to get off the ladder.
-  2. Activate Strength.
-  3. Navigate to (3, 3) and push Boulder 6 -> (2, 3) -> (2, 5).
-  4. Push Boulder 7 (6, 1) -> (8, 1) -> (8, 3).
-  5. Push Boulder 8 (8, 14) -> (8, 7).
+  1. Activate Strength.
+  2. Navigate to (3, 3) and push Boulder 6 -> (2, 3) -> (2, 5).
+  3. Push Boulder 7 (6, 1) -> (8, 1) -> (8, 3).
+  4. Push Boulder 8 (8, 14) -> (8, 7).
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder.
