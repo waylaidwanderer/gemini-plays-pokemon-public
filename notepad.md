@@ -43,19 +43,11 @@
 - Boulder 8 Plan: Push into PIT (8, 7).
 - Verification: Column 4 (WALL) blocks direct access from the right. Column 2 (WALL) from row 8-12 blocks access from the left. Only Row 13 and Row 1 are open for cross-gym navigation.
 - Strength Status: ACTIVE (Activated Turn 30009).
-- Turn 30014 Strategy:
-  1. Use solve_blackthorn_boulders to get the sequence.
-  2. The solver previously failed, likely due to search depth or incorrect initial state. I will provide current coordinates.
-  3. Current Boulder positions: B6(3, 4), B7(6, 1), B8(8, 14).
-  4. Current Player: (3, 2).
-- Boulder 6 Path (Hypothesis 2):
-  1. Move to (3, 5) via (1, 5) detour.
-  2. Push B6 UP to (3, 1).
-  3. Push B6 LEFT from (4, 1) to (2, 1).
-  4. Push B6 DOWN to (2, 5) PIT.
-- Boulder 7 Path (Hypothesis 2):
-  1. Push B7 LEFT to (5, 1).
-  2. Push B7 DOWN to (5, 7).
-  3. Push B7 RIGHT to (8, 7) PIT? (Requires check of (4, 7) wall).
-- Boulder 8 Path (Hypothesis 2):
-  1. Push B8 UP to (8, 3) PIT.
+- Turn 30017 Strategy:
+  1. I am at (3, 3), B6 is at (3, 4).
+  2. Push B6 down to (3, 13).
+  3. Navigate to (1, 13) via Row 13.
+  4. Push B6 up to (1, 5).
+  5. Push B6 right to (2, 5) PIT.
+- Verification: Column 4 is a wall from Row 2-12. Cody blocks Row 1. Row 13 is the only horizontal crossing.
+- Decisive Action Phase: Committing to B6 -> Pit (2, 5) via Row 13 detour.
