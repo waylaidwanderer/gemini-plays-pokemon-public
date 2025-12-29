@@ -21,15 +21,10 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (2, 7) on 2F. Activating Strength on GNEISS.
+- Current Status: At (2, 7) on 2F. Strength INACTIVE. Main Menu open on POKEMON.
 - Plan: 
-  1. Activate Strength: A (Enter Party) -> 4 Downs (to GNEISS) -> A (Select) -> A (Strength) -> 3 Bs (exit).
-  2. Navigate to (3, 4) to reach Boulder 6.
-  3. Push Boulder 6 (3, 3) UP to (3, 2).
-  4. Move to (2, 2) and push Boulder 6 RIGHT to (3, 2). (Wait, checking if (4, 2) is a wall...)
-  5. Re-evaluate Boulder 6 path: If (4,3) is a wall, I must push it to (3,2), then maybe (2,2), then (2,5).
-  6. To get to (2,5) from (2,2), push DOWN twice.
+  1. Activate Strength: A (Enter Party) -> Navigate to GNEISS -> A (Select) -> A (Strength) -> 3 Bs (exit).
+  2. Use gym_puzzle_expert agent to determine the path for Boulder 6.
+  3. Execute pushing sequence for Boulder 6.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
-- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder. (4,3) is labeled WALL, blocking direct left push.
-- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
-- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder.
+- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder. Column 4 (WALL) blocks direct left pushes from the right.
