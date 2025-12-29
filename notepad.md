@@ -21,6 +21,7 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: Strength is active. Boulders 6, 7, and 8 are at their initial positions.
-- Plan: Use solve_blackthorn_boulders tool to complete the puzzle.
-- Start Turn: 29800. Decisive Phase Start: Turn 29911.
+- Current Status: Strength is active. I moved Boulder 6 to (3, 1), which is a difficult spot to recover from. Resetting by changing maps.
+- Plan: Reset boulders, then push Boulder 6 at (3, 3) left once to (2, 3), then down twice to (2, 5).
+- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
+- Lessons: Don't push boulders into corners or against NPCs without a clear path forward. Built-in solver might fail if state space is too complex.
