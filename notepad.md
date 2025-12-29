@@ -27,3 +27,4 @@
 - **Observation:** The path East on Cinnabar (6_8) was blocked by debris, but Route 20 (6_6) appears open so far.
 - **Strategy:** Surf East along the southern edge (Row 16) to map the route.
 - **Note:** Swimmer Guy at (12, 13) may block the path or initiate battle.
+- **Action Required:** Use MAX REPEL immediately after escaping battle to stop constant wild encounters.
