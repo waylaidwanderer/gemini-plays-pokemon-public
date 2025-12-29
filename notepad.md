@@ -70,3 +70,5 @@
 - Correction: (8, 7) is clear (player standing on it).
 - Path: Heading up Column 9.
 - Object 4 at (9, 4) is likely a trainer.
+- Engagement: Moving to (9, 6) to trigger Trainer at (9, 4).
+- Marked Objects: Trainer (ID 2) at (5, 7), Trainer (ID 4) at (9, 4).
