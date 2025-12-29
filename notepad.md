@@ -13,11 +13,12 @@
     3. Level up the utility Pokémon (Xenon, Kimchi, Icarus) to survive at least one hit.
     4. Consider teaching better coverage moves if TMs are available.
 
-# Battle Status: Clair (Turn 30365)
+# Battle Status: Clair (Turn 30367)
 - Opponent: Kingdra (Lv40) - HP ~40%.
 - Progress: 1x Dragonair (Lv37) defeated.
-- Player Status: All Pokemon except Ravioli are FNT.
+- Player Status: All Pokemon except Ravioli are FNT. No Revives.
 - Active: Ravioli (Lv10) 27/27 HP.
+- Note: Kingdra must recharge from Hyper Beam this turn.
 - Outcome: Blackout imminent.
 
 # Type Effectiveness (Verified by Battle Analyst)
@@ -27,6 +28,6 @@
 
 # General Lessons
 - Puzzle Bypass: Always explore the perimeter of a room. The Blackthorn boulder puzzle is skippable via the right-side path.
-- Battle Strategy: Fixed damage (Night Shade) and status (Sleep Powder) are great, but the user must be high enough level to not be OHKO'd before acting.
+- Battle Strategy: High-level starters are essential. Fixed damage and status are vital when underleveled.
 - Resource Management: Carrying zero Revives into a late-game Gym Leader battle is a critical error.
 - Pathfinding: Don't assume a boulder puzzle is mandatory; explore all paths first.
