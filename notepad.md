@@ -31,10 +31,12 @@
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12. Detour through row 13 and column 1 is the only way for B6.
 - Failed Strength Activation Attempts: 7. I will be extremely slow and precise.
-- Turn 29996 Strategy:
-  1. Menu is open, cursor on POKEDEX.
-  2. Sequence: Down (POKEMON) -> A -> Down x4 (GNEISS) -> A -> Down (STRENGTH) -> A -> A -> A -> B x3.
-  3. Once active, test push Boulder 6 down to (3, 7).
-  4. If (3, 8) is truly a wall, I will pivot to Boulder 7 at (6, 1).
-- Boulder 7 Path: (6, 1) Down to (6, 3), Right to (8, 3) PIT.
-- Boulder 6 Maze: Must investigate Column 4/Column 2 gaps.
+- Turn 29997 Strategy:
+  1. Use direct interaction to activate Strength (A, A, A, A).
+  2. Push Boulder 6 (3, 3) Down to (3, 4).
+  3. Re-evaluate path based on "Want to use Strength" ease.
+- Boulder 6 Path Hypothesis: (3, 3) -> (3, 7) -> (2, 7) -> (2, 6) -> (2, 5) PIT.
+  - Test: Can I stand at (4, 7) to push left? (Mental Map says WALL, but let's look at the sprite).
+- Boulder 7 Path Hypothesis: (6, 1) -> (7, 1) -> (8, 1) -> (8, 2) -> (8, 3) PIT.
+  - Test: Can I stand at (8, 0) to push down? (Mental Map says WALL).
+- Boulder 8 Path Hypothesis: (8, 14) -> (8, 7) PIT.
