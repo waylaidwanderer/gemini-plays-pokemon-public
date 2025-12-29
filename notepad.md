@@ -16,6 +16,7 @@
 
 # Blackthorn Gym Layout & Boulders
 - 2F Boulders (Initial): Boulder 6 (3,3), Boulder 7 (6,1), Boulder 8 (8,14).
+- Boulders reset to initial positions at Turn 29858.
 - 2F Pits: Pit (2,5), Pit (8,3), Pit (8,7).
 
 # Strategy: Gym Leader Clair
