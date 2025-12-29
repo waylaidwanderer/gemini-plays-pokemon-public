@@ -21,11 +21,14 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (3, 6) on 2F. Strength activation failed last turn.
+- Current Status: At (3, 6) on 2F. Strength activation failed.
 - Plan: 
   1. Activate Strength: Start -> Down (to POKEMON) -> A -> 4 Downs (to GNEISS) -> A -> A (Strength) -> 3 Bs (exit).
   2. Move to (3, 4) to face Boulder 6.
   3. Execute pushing sequence for Boulder 6.
-- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
+- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Menu cursor defaults to POKEDEX on map entry. Column 4 is a wall from row 2-12.
+- Failed Strength Activation Attempts:
+  - Turn 29988: Attempted Start -> Up x5. Result: Exited menu.
+  - Turn 29987: Attempted Start -> Up x2. Result: Entered Pokedex (cursor was on Gear).
 - Strategy: Use solve_blackthorn_boulders with the full map to find the path.
