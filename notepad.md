@@ -19,9 +19,10 @@
 
 # Strategy: Boulder Puzzle
 - Goal: Drop all three boulders into pits to bridge gaps on 1F.
-- Phase 1: Break interaction loops by moving away from boulders before planning.
-- Phase 2: Use `solve_blackthorn_boulders` to calculate the sequence.
-- Phase 3: Execute sequence precisely.
+- Phase 1: Test "fake wall" candidates.
+  - Hypothesis: (9, 13) is passable despite appearing as a WALL.
+  - Test: Attempt to move to (9, 13).
+- Phase 2: Use `solve_blackthorn_boulders` with corrected grid.
 
 # Lessons Learned
 - Dialogue Loops: Pressing A while facing a boulder triggers a "Boulders may now be moved!" prompt. If already active, it just loops. Move away or push immediately.
