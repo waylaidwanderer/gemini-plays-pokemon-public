@@ -4,10 +4,11 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian City
-- **Location:** Entering Viridian City.
-- **Status:** Muscle is Burned and injured.
-- **Next Action:** Go directly to Pokemon Center to heal.
-- **Goal:** Prepare for Blue's Gym Battle.
+- **Location:** Viridian City (Outside Pokemon Center).
+- **Status:** Navigating manually to (23, 25) because `find_path` failed to see Ledges as obstacles from the South.
+- **Action:** Move Left to gap at (19, 27), then to Pokemon Center door.
+- **Goal:** Heal at Pokemon Center.
+- **Tool Note:** `find_path` needs fixing to treat `LEDGE_HOP_DOWN` as a wall when moving North.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
