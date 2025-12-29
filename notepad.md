@@ -3,13 +3,12 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Route 19 (North).
-- **Observation:** East path blocked by wall at Col 5.
-- **Hypothesis:** West side accessible via Gatehouse Left Exit.
+- **Location:** Route 19 Gatehouse (6_3).
+- **Hypothesis:** Exiting via the left-most warp (4, 7) leads to the accessible West side of Route 19. Exiting via (5, 7) led to the blocked East side.
 - **Immediate Plan:**
-  1. Re-enter Gatehouse at (7, 3).
-  2. Exit via Left Door (expected at Col 4 inside).
-  3. Explore West side for path South.
+  1. Exit South via (4, 7).
+  2. Verify position on Route 19.
+  3. Surf South to Route 20.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
