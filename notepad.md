@@ -18,8 +18,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24932)
-- **Self-Assessment:** Interaction interrupted due to missing marker. Marker placed.
-- **Action:** Pressing 'A' to talk to Gym Guide.
-- **Goal:** Get info from Guide, then explore North.
+# Reflection (Turn 24933)
+- **Self-Assessment:** Spoke to Gym Guide. Confirmed Leader is the former Champion (Blue).
+- **Observation:** No mention of spin tiles. The floor looks normal so far.
+- **Action:** Moving North to explore the gym layout and find Blue.
 - **Gym Start:** Turn 24925.
