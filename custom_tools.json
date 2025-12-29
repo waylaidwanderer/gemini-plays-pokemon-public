@@ -125,5 +125,31 @@
         "action_counter": 29731
       }
     ]
+  },
+  "solve_gym_puzzle_v4": {
+    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle using persistent Mental Map data. Tracks all boulders simultaneously to handle interleaved sequences and bridges. Returns a JSON array of buttons.",
+    "input_schema": {
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, initial_b_pos = set(), set(), {}\n        \n        # Parse map for passable tiles, pits, and boulders\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                if t_type in ['FLOOR', 'LADDER', 'ICE']:\n                    if tile.get('has-object') == 'true':\n                        obj = tile.find('Object')\n                        if obj is not None and obj.get('id-name') == 'BOULDER':\n                            initial_b_pos[int(obj.get('id'))] = (x, y)\n                        else: continue\n                    passable.add((x, y))\n                elif t_type == 'PIT': pits.add((x, y))\n        \n        # Include off-screen boulders from markers\n        for row in root.findall('Row'):\n            for tile in row.findall('Tile'):\n                for marker in tile.findall('Marker'):\n                    if 'Boulder' in marker.text:\n                        bid = int(marker.get('object_id'))\n                        if bid not in initial_b_pos:\n                            initial_b_pos[bid] = (int(tile.get('id')), int(row.get('id')))\n                            passable.add((int(tile.get('id')), int(row.get('id'))))\n\n        start_x, start_y = int(input_data['start_x']), int(input_data['start_y'])\n        b_ids = sorted(initial_b_pos.keys())\n        start_b_state = tuple(initial_b_pos[bid] for bid in b_ids)\n        \n        # State: (tuple of boulder positions, player_pos)\n        q = deque([(start_b_state, (start_x, start_y), [])])\n        v = set([(start_b_state, (start_x, start_y))])\n        \n        while q:\n            b_state, p_pos, path = q.popleft()\n            if all(pos in pits for pos in b_state):\n                print(json.dumps(path))\n                return\n            \n            if len(path) > 200: continue\n            \n            px, py = p_pos\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                npx, npy = px + dx, py + dy\n                if 0 <= npx < width and 0 <= npy < height and (npx, npy) in passable:\n                    # Check if player is moving into a boulder\n                    b_idx = -1\n                    for i, pos in enumerate(b_state):\n                        if pos == (npx, npy):\n                            b_idx = i\n                            break\n                    \n                    if b_idx != -1:\n                        # Push attempt\n                        bx, by = b_state[b_idx]\n                        nbx, nby = bx + dx, by + dy\n                        if 0 <= nbx < width and 0 <= nby < height and (nbx, nby) not in b_state:\n                            if (nbx, nby) in passable or (nbx, nby) in pits:\n                                new_b_state = list(b_state)\n                                new_b_state[b_idx] = (nbx, nby)\n                                new_b_state = tuple(new_b_state)\n                                if (new_b_state, (npx, npy)) not in v:\n                                    v.add((new_b_state, (npx, npy)))\n                                    btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                                    q.append((new_b_state, (npx, npy), path + [btn]))\n                    else:\n                        # Regular movement\n                        if (b_state, (npx, npy)) not in v:\n                            v.add((b_state, (npx, npy)))\n                            btn = 'Up' if dy==-1 else 'Down' if dy==1 else 'Left' if dx==-1 else 'Right'\n                            q.append((b_state, (npx, npy), path + [btn]))\n        print(json.dumps({\"error\": \"No solution found\"}))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Upgrading boulder solver to a multi-boulder state-space search and cleaning up unused tools.",
+        "timestamp": "2025-12-29T00:13:17.393Z",
+        "action_counter": 29776
+      }
+    ]
   }
 }

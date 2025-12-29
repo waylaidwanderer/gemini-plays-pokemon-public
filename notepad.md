@@ -43,6 +43,9 @@
 - Hypothesis: Tile (6, 2) is a fake wall.
   - Test: Stand at (7, 2) and press Left.
   - Result: [Pending].
+- Hypothesis: Tile (2, 13) is a fake wall.
+  - Test: Walk onto (2, 13) from (3, 13).
+  - Result: [Pending].
 - Failed Hypotheses:
   1. Row 0 is passable (Tested - Denied).
   2. NPC Cody at (4, 1) is passable (Denied Turn 29751).
