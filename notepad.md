@@ -1,13 +1,12 @@
 # Quest Log
 - **Goal:** Unlock Mt. Silver by talking to Professor Oak.
 - **Badges:** 16/16 (Earth Badge obtained).
-- **Next:** Fly to Pallet Town -> Talk to Oak.
+- **Next:** Talk to Professor Oak in Pallet Town.
 
-# Current Strategy: Post-Gym
-- **Location:** Viridian City (Menu).
-- **Status:** Selecting Destination (Fly).
-- **Action:** At Pallet Town (Expected).
-- **Next:** Confirm Fly -> Enter Oak's Lab.
+# Current Strategy: Post-Game
+- **Location:** Flying to Pallet Town.
+- **Status:** En route to Oak's Lab.
+- **Action:** Land in Pallet Town -> Enter Lab -> Talk to Oak.
 - **Goal:** Get permission for Mt. Silver.
 
 # Tile Mechanics
