@@ -17,6 +17,25 @@
     - P3: (8, 7) - UNFILLED (Fell through Turn 30268)
 - Strategy: Use run_code to calculate the shortest path of pushes for all three boulders.
 
+# Verified Bridge Gaps (1F)
+- (7, 7): Filled (Corresponds to 2F Pit at 8, 7) - WAIT, I fell through (8, 7) on 2F.
+- (4, 3): Gap
+- (3, 7): Gap
+- (5, 7): Gap
+- (4, 7): Gap
+- Note: I need to re-verify the 1F gaps carefully. 1F (8, 7) had a boulder, but 2F (8, 7) was a pit. This means (8, 7) on 2F fills (8, 7) on 1F. Wait, the bridge is at Y=7 and Y=3.
+- (7, 7) on 1F is a warp to Clair.
+- (6, 7) on 1F is floor.
+- (8, 7) on 1F is a filled pit.
+- (3, 7), (4, 7), (5, 7) on 1F are gaps.
+- (4, 3) on 1F is a gap.
+- Pits on 2F: (2, 5), (8, 3), (8, 7).
+- Hypothesis: 
+    - (8, 7) 2F -> (8, 7) 1F (Done)
+    - (8, 3) 2F -> (8, 3) 1F?
+    - (2, 5) 2F -> (3, 7) 1F?
+- I need to test this.
+
 # Verified Map Constraints (2F)
 - Row 0: WALL.
 - Column 4 Wall: Rows 2-10, 12.
