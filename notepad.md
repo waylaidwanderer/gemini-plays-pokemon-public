@@ -21,11 +21,12 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (2, 7) on 2F. Strength activation in progress (attempt 3).
+- Current Status: At (2, 7) on 2F. Strength activation in progress (attempt 4).
 - Plan: 
-  1. Activate Strength: Start -> Up, Up (to POKEMON from GEAR) -> A -> 4 Downs (to GNEISS) -> A -> A (Strength) -> 3 Bs (exit).
-  2. Execute pushing sequence for Boulder 6: (3, 3) -> (3, 2) -> (3, 1) -> (2, 1) -> (1, 1) -> (1, 2) -> (1, 3) -> (1, 4) -> (2, 4) -> (2, 5).
+  1. Activate Strength: Start -> Up (to POKEMON from PACK) -> A -> 2 Downs (to GNEISS from KIMCHI) -> A -> Down (to Strength) -> A -> 3 Bs (exit).
+  2. Execute pushing sequence for Boulder 6.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder. Column 4 (WALL) blocks direct left pushes from the right. (1,2) and (0,2) are also WALLs.
-- Strategy: Use the found path for Boulder 6 once Strength is active. 10 steps for the boulder.
-- Boulder 6 Path: Up, Up, Left, Left, Down, Down, Down, Right, Down. (Wait, let's verify this after activation).
+- Strategy: Use the found path for Boulder 6 once Strength is active. 
+- Boulder 6 Path (from code): ['Right', 'Up', 'Up', 'Up', 'Up', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Down', 'Down', 'Left', 'Down', 'Down', 'Down', 'Right', 'Down']
+- Wait, that path looks long! I'll re-verify it.
