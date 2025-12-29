@@ -4,11 +4,11 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Route 1 -> Viridian City
-- **Location:** Route 1 (East Side).
-- **Status:** Moving North on Column 12.
-- **Next Action:** Continue North on Col 12 to bypass Walls at Row 13 and Ledges at Row 5.
-- **Trainers:** Staying on Col 12 avoids Youngster at (4, 12) (Range ~4 tiles).
-- **Goal:** Reach Viridian City (Map Transition at Row 0).
+- **Location:** Route 1 (North End).
+- **Status:** Approaching Viridian City.
+- **Next Action:** Navigate to gap at (8, 1) or (9, 1) to bypass the final Wall at Row 1.
+- **Goal:** Exit map at (8, 0) or (9, 0) to enter Viridian City.
+- **Trainers:** Path seems clear.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
