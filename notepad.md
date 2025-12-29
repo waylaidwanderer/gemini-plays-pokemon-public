@@ -6,8 +6,7 @@
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
 - **Status:** Navigating Route 1 Southbound.
-- **Obstacle:** Wall at Row 13 (x=8-11).
-- **Action:** Move East to x=12 to bypass wall, then continue South through tall grass.
+- **Action:** Hop ledge at (12, 19) and continue South to Pallet Town.
 - **Next:** Reach Pallet Town.
 
 # Tile Mechanics
