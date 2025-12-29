@@ -17,14 +17,11 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24666)
-- **Execution:** Successfully navigated Route 21 debris by finding the gap at x=3.
-- **Hygiene:** Marking warps to clear system warnings. Removed redundant progress logs.
-- **Automation:** `find_path` tool repaired and verified. `smart_battle_move` requires manual `current_slot` tracking due to cursor persistence.
-- **Goals:** Clear. Healing, then Seafoam Islands.
-- **Error Analysis:** Proved that Gen 2 battle menus persist cursor position; strategy adapted to track slot or check manually.
-- **Lore:** Met Blue at Cinnabar (Viridian Gym Leader). Blaine is in a cave at **Seafoam Islands** (East).
-- **Observation:** The path East on Cinnabar (6_8) was blocked by debris, but Route 20 (6_6) appears open so far.
-- **Strategy:** Surf East along the southern edge (Row 16) to map the route.
-- **Note:** Swimmer Guy at (12, 13) may block the path or initiate battle.
+# Reflection (Turn 24747)
+- **Status:** On Route 19 (6_5). Paused to use Max Repel.
+- **Navigation:** Successfully surfed through Route 20. Heading East on Route 19.
+- **Goal:** Reach Seafoam Islands.
+- **Lore:** Blaine is at Seafoam Islands.
+- **Tools:** Functioning.
+- **Next:** Apply Repel, then Surf East.
 - **Action Required:** Use MAX REPEL immediately after escaping battle to stop constant wild encounters.
