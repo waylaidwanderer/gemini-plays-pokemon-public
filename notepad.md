@@ -5,9 +5,9 @@
 
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
-- **Status:** Encountered Wild Hoothoot.
-- **Action:** Run away.
-- **Next:** Continue South to Pallet Town (avoid Youngster at 4,12).
+- **Status:** Traveling South on Route 1.
+- **Action:** Navigate past Youngster (stay East to avoid line of sight).
+- **Next:** Reach Pallet Town.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
