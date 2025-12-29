@@ -2,11 +2,11 @@
 - **Goal:** Reach Seafoam Islands via Pallet Town.
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
-- **Status:** Exiting Victory Road to Route 23.
-- **Immediate Goal:** Walk South to exit the map.
+- **Status:** In Victory Road Gatehouse.
+- **Immediate Goal:** Exit South to Route 22/26 towards Viridian City.
 - **Plan:**
-  1. Exit to Route 23/Gatehouse.
-  2. Travel South to Viridian City.
+  1. Exit Gatehouse South.
+  2. Travel South/East to Viridian City.
   3. Travel South to Pallet Town.
   4. Surf South to Cinnabar Island.
 
