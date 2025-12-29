@@ -17,7 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24803)
-- **Status:** Surfing at the west edge of Route 20 (0, 16).
-- **Action:** Crossing map border to Cinnabar Island.
-- **Next:** Arrive in Cinnabar, then Fly to Viridian City.
+# Reflection (Turn 24806)
+- **Status:** Cinnabar Island. Menu open.
+- **Action:** Using Mistral (Slot 2) to Fly to Viridian City.
+- **Next:** Select Viridian City on map.
