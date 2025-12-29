@@ -27,3 +27,9 @@
 - Hypothesis: Tiles (8, 9) and (8, 8) are actually FLOOR, allowing Boulder 8 to reach pit (8, 7).
 - Test: Push Boulder 8 north from (8, 11) to (8, 7).
 - Step 1: Push to (8, 10). (In progress)
+
+# Hypothesis Testing: Boulder 8 Lateral Movement
+- Observation: Boulder 8 is at (8, 10). (7, 10) is labeled WALL.
+- Hypothesis: (7, 10) is actually FLOOR.
+- Test: Move to (9, 10) and push Boulder 8 left into (7, 10).
+- Step 1: Move to (9, 10). (In progress)
