@@ -8,7 +8,7 @@
 - Strength: Must be re-activated after falling through a pit or changing maps.
 
 # Physically Tested Tiles (2F)
-- (4,2)-(4,7), (5,0), (6,0), (6,4), (7,0), (8,0), (8,8), (8,9): WALL confirmed.
+- (4,1), (4,2)-(4,7), (5,0), (6,0), (6,4), (7,0), (8,0), (8,8), (8,9): WALL confirmed.
 - (3,11) -> (4,11): Blocked by Fran (NPC).
 - (5,1) -> (6,1): Passable (pushed boulder).
 - (7,1) -> (8,1): Passable (pushed boulder).
@@ -24,6 +24,7 @@
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
 
 # Boulder Puzzle Decisive Action Phase
-- Plan: Use the solve_blackthorn_boulders tool to find the exact push sequence and execute it.
+- Plan: Systematically test "Fake Wall" candidates to find the hidden path.
+- Candidates: (6,2), (7,10), (8,4), (9,4), (6,3), (6,6).
 - Puzzle Start: Turn 29800.
 - Decisive Phase Start: Turn 29851.
