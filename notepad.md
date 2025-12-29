@@ -38,4 +38,5 @@
 - Observation: Boulder 8 is at (8, 10). (8, 9) is labeled WALL.
 - Hypothesis: (8, 9) is actually FLOOR.
 - Test: Move to (8, 11) and push Boulder 8 north into (8, 9).
-- Step 1: Move to (8, 11). (In progress)
+- Conclusion: Push failed (Turn #30145). (8, 9) is confirmed as a WALL.
+- Status: Boulder 8 is STUCK at (8, 10). Reset required.
