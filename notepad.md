@@ -23,3 +23,6 @@
 - **Automation:** Tools are functioning, though `find_path` had some JSON hiccups.
 - **Goals:** Clear path South to Cinnabar.
 - **Error Analysis:** `FLOOR_UP_WALL` mechanics verified. Fly map limitations noted.
+- **Observation:** Encountered strange "Ladder" tiles (blocky platform) at Route 21 (x=4-7, y=14-15). Treating as obstacle.
+- **Status:** Surfing South on Route 21.
+- **Immediate Goal:** Navigate around obstacle and Swimmer Girl to reach Cinnabar.
