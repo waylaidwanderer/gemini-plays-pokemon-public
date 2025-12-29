@@ -4,9 +4,9 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian City
-- **Location:** Viridian City (29, 8).
-- **Status:** Blocked by Gramps at (30, 8).
-- **Plan:** Navigate West to (26, 8), then North to (26, 3), then East across the back of the Gym (Row 3) to reach the entrance at (32, 7).
+- **Location:** Viridian City (26, 3).
+- **Status:** Flanking the Gym.
+- **Plan:** Navigate East along Row 3 to (31, 3), uncover the path to the East side of the Gym (likely Column 34), then head South to the entrance at (32, 7).
 - **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
