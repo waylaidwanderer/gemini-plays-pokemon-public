@@ -5,44 +5,22 @@
 - LADDER: Warp to the floor below (1F).
 - BOULDER: Object. Can be pushed with Strength. Impassable.
 
-# Blackthorn Gym Discovery
-- The boulder puzzle is skippable! A clear path exists along the right side of the gym: (8, 7) -> (9, 7) -> (9, 3) -> (6, 3).
-- I am currently standing at (6, 3) facing Clair at (5, 3).
+# Strategy: Final Badge
+- Defeat Gym Leader Clair to earn the Rising Badge.
+- Note: Post-battle event likely involves the Dragon's Den.
 
-# Battle Preparation: Clair
-- Team Status: Calcifer (Lv47), Gneiss (Lv45) are the heavy hitters.
-- Clair's Team (Expected): Dragonair x3, Kingdra.
-- Strategy: Use Calcifer's Thunderpunch for coverage and Gneiss's Earthquake for raw power.
-- Note: Be prepared for a long battle.
+# Battle Status: Clair
+- Opponent: Kingdra (Lv40).
+- Player Status: Calcifer (Lv47) FNT, Gneiss (Lv45) FNT.
+- Active: Kimchi (Lv21) - Goal: Land Sleep Powder.
+- Progress: Defeated 1x Dragonair (Lv37).
 
 # Type Effectiveness (Verified)
-- Fire -> Dragon: Not very effective.
-- Water -> Dragon: Not very effective.
-- Electric -> Dragon: Not very effective.
-- Grass -> Dragon: Not very effective.
-- Dragon -> Dragon: Super effective.
-- Ice -> Dragon: Super effective.
-- Ground -> Dragon: Neutral.
-- Rock -> Dragon: Neutral.
-- Normal -> Dragon: Neutral.
-
-# Battle Log: Clair
-- Turn 30303: Battle Start. Calcifer vs Dragonair (Lv37).
+- Dragon resists: Fire, Water, Electric, Grass.
+- Dragon weak to: Dragon, Ice.
+- Normal, Ground, Rock: Neutral damage to Dragon.
 
 # General Lessons
-- Puzzle Bypass: Always explore the perimeter of a room before committing to a complex puzzle. Many puzzles have non-obvious bypasses or simpler solutions than they first appear.
-- Tile Verification: Explicitly test the collision of "lava" or "hazard" tiles; they may be standard floor tiles with a different sprite.
-- Battle Strategy: High-level starters can often brute-force through type resistances with powerful neutral moves like Return.
-- Turn 30309: Dragonair fainted. Clair sent out Kingdra (Lv40). Calcifer is out.
-- Turn 30311: Move menu opened. Kingdra (Lv40) is the opponent.
-- Turn 30314: Calcifer (29/148 HP) vs Kingdra (Lv40). Using Thunderpunch.
-- Turn 30315: Calcifer fainted. Sending out Xenon (Lv21) to attempt Hypnosis.
-- Turn 30318: Xenon is out vs Kingdra. Move menu is open. Goal: Use Hypnosis to disable Kingdra, then switch to Gneiss for Earthquake.
-- Turn 30319: Kingdra used Hyper Potion (Full HP). Xenon used Hypnosis. Kingdra is SLP. Opening party menu to switch to Gneiss.
-- Turn 30323: Switched Xenon for Gneiss. Clair used Full Heal on Kingdra. Kingdra is awake and at full HP.
-- Turn 30324: Gneiss is out. Using Earthquake.
-- Turn 30326: Gneiss fainted to Surf. Calcifer and Gneiss are both FNT.
-- Strategy: Send out Kimchi (Lv21) for Sleep Powder (75% acc) or Xenon (Lv21) for Hypnosis (60% acc).
-- Goal: Disable Kingdra to allow for chip damage or a lucky turnaround.
-- Turn 30327: Gneiss fainted. Switching to Kimchi (Lv21) to attempt Sleep Powder (75% acc). Cursor is on Kimchi.
-- Turn 30328: Kimchi is out against Kingdra. Using Sleep Powder to disable Kingdra.
+- Puzzle Bypass: Always explore the perimeter of a room before committing to a complex puzzle.
+- Tile Verification: Test collision of hazard-looking tiles.
+- Battle Strategy: Starters can brute-force with powerful neutral moves like Return.
