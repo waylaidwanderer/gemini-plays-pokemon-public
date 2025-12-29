@@ -31,5 +31,5 @@
 
 # General Lessons
 - Pathfinding: Always explore perimeters to find detours around complex obstacles.
-- Training Milestone: Xenon Lv23 (9154 EXP). Target: Lv30.
+- Training Milestone: Xenon Lv23 reached. Target: Lv30.
 - Resource Alert: GNEISS Earthquake PP low (2/10).
