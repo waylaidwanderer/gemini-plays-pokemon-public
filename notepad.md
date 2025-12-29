@@ -3,10 +3,10 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Seafoam Islands -> Viridian City
-- **Location:** Seafoam Gym (6_4).
-- **Status:** Defeated Blaine. No TM received.
-- **Next Action:** Exit Gym, Surf West to Cinnabar, Fly to Viridian City.
+# Current Strategy: Cinnabar -> Viridian City
+- **Location:** Cinnabar Island (Surfing North).
+- **Status:** Fly to Viridian failed (endpoint likely unlocked). Surfing to Pallet Town via Route 21.
+- **Next Action:** Arrive in Pallet Town, heal, then walk North to Viridian.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
