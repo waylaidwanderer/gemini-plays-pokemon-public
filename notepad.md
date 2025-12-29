@@ -42,7 +42,7 @@
 - Phase: Fake Wall Testing (Started Turn 29744)
 - Hypothesis: Tile (3, 0) is a fake wall.
   - Test: Stand at (3, 1) and press Up.
-  - Result: [Pending].
+  - Result: DENIED (Turn 29783).
 - Hypothesis: Tile (2, 0) is a fake wall.
   - Test: Stand at (2, 1) and press Up.
   - Result: [Pending].
