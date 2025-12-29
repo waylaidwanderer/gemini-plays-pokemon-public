@@ -9,11 +9,19 @@
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11).
 
-# Strategy: Solve B7
-1. Navigate to (5, 1) via the central corridor.
-2. Attempt to push Boulder 7 (6, 1) to the right.
-3. Test if Row 0 contains any hidden floor tiles by attempting to move north from Row 1.
+# Strategy: Solve Boulders
+1. Use run_code to perform a full map scan of tile types.
+2. Identify which 'silver block' tiles are actually FLOOR in the XML.
+3. Formulate a push sequence based on verified traversable tiles.
 
 # Verification Status
-- (7, 11), (7, 10), (8, 9), (8, 8), (6, 0): Verified REAL WALLS.
-- (2, 2), (6, 10), (7, 12), (7, 13): Verified FLOOR.
+- (7, 11): WALL in XML.
+- (2, 2): FLOOR in XML.
+- (6, 10): FLOOR in XML.
+- (7, 12): FLOOR in XML.
+- (7, 13): FLOOR in XML.
+- (8, 10): FLOOR in XML.
+- (8, 9): WALL in XML.
+- (8, 8): WALL in XML.
+- (7, 10): WALL in XML.
+- (6, 0): WALL in XML.
