@@ -28,7 +28,7 @@
 # Training Log
 - Turn 30372: Whited out against Clair. Team was insufficient for Kingdra's Smokescreen/Dragonbreath.
 - Turn 30412 (Sun 11:46 PM): Start grind on Route 45. Target: Lv30+ for Xenon/Kimchi.
-- Current Status: Calcifer (47), GNEISS (45), Xenon (21, EXP: 7608), Kimchi (21, EXP: 7006), Icarus (16).
+- Current Status: Calcifer (47), GNEISS (45), Xenon (21, EXP: 7467), Kimchi (21, EXP: 7006), Icarus (16).
 
 # General Lessons
 - Puzzle Bypass: Blackthorn Gym's boulder puzzle is skippable via the right-side path.
