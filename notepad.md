@@ -17,7 +17,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24806)
+# Reflection (Turn 24814)
 - **Status:** Cinnabar Island. Menu open.
-- **Action:** Using Mistral (Slot 2) to Fly to Viridian City.
-- **Next:** Select Viridian City on map.
+- **Problem:** Fly map could not select Viridian City (likely due to not visiting the Pokemon Center there recently or alignment issue).
+- **Action:** Canceling Fly. Exiting menu.
+- **Plan:** Surf North from Cinnabar (3, 0) to Route 21, then reach Pallet Town. Walk North to Viridian City.
