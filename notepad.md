@@ -21,7 +21,11 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: Strength INACTIVE. Moving to (1, 10) to activate.
+- Current Status: Strength INACTIVE. Deep in Pokedex (Wooper entry).
+- Plan: 
+  1. Exit Pokedex (B, B, B).
+  2. Activate Strength: Start -> POKEMON -> GNEISS (4 Downs) -> STRENGTH (A).
+  3. Move to (3, 3) to start boulder puzzle.
 - Plan: 
   1. Reactivate Strength (after moving off ladder).
   2. Push Boulder 6 (3, 3) -> (2, 3) -> (2, 5). (Checking path...)
