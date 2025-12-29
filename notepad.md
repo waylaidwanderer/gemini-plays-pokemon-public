@@ -18,8 +18,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24903)
-- **Location:** Viridian City (Outside Pokemon Center).
-- **Status:** Finishing phone call. Tool `find_path` patched.
-- **Next:** Head North-East to find the Gym.
-- **Goal:** Defeat Blue.
+# Reflection (Turn 24909)
+- **Location:** Viridian City (South of Ledges).
+- **Status:** Moving to Viridian Gym.
+- **Pathing:** Ledges at Row 9 block direct North access. Must loop West to X=19, then North, then East.
+- **Next:** Enter Gym and challenge Blue.
+- **Note:** `find_path` tool logic for ledges was fixed, so it should find this route automatically.
