@@ -4,11 +4,12 @@
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
 - **Location:** Route 19 (North).
-- **Observation:** East path (Col 13) is a dead end. Center is walled off.
-- **Hypothesis:** Path South is on the far West side (Cols 0-2).
+- **Observation:** East path blocked by wall at Col 5.
+- **Hypothesis:** West side accessible via Gatehouse Left Exit.
 - **Immediate Plan:**
-  1. Backtrack to (2, 4).
-  2. Explore West edge for a path South.
+  1. Re-enter Gatehouse at (7, 3).
+  2. Exit via Left Door (expected at Col 4 inside).
+  3. Explore West side for path South.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
