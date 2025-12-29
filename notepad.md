@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Resuming navigation to Pokemon Center.
-- **Action:** Move East to (23, 24), then North to (23, 19).
-- **Reasoning:** Battle ended. I am now past the ledge blockage. The path to the Pokemon Center is clear.
-- **Goal:** Reach Pokemon Center / Cave Entrance.
+- **Location:** Silver Cave Pokemon Center.
+- **Status:** Inside Pokemon Center.
+- **Action:** Approach Nurse Joy to heal.
+- **Reasoning:** Arrived at the PC. Need to heal party before entering Mt. Silver Cave.
+- **Goal:** Heal at Counter -> Enter Mt. Silver Cave.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
