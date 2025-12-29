@@ -1,17 +1,17 @@
 # Blackthorn Gym Boulder Puzzle
 - Puzzle Start: Turn 30123
-- Current Turn: 30242
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Current Turn: 30241
+- Boulders (Verified): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
-- Strength: Inactive (Turn 30242).
+- Strength: Inactive (Turn 30241).
 
 # Strategy: Systematic Execution
 1. Navigate to (8, 15) and reactivate Strength on B8.
-2. Use run_code to find a mathematically valid push sequence that accounts for player reachability.
+2. Use boulder_pathfinder_v2 to find the mathematically valid push sequence.
 3. Execute the solution strictly following the path.
 
-# Verified Map Constraints
+# Verified Map Data (XML)
 - Row 0: All WALL.
 - (8, 9), (8, 8): WALL.
 - (7, 11), (7, 10), (7, 14), (7, 15): WALL.
