@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating North along the western path.
-- **Action:** Move West to column 18, then North to (18, 21).
-- **Reasoning:** The path North on column 20 is blocked by a wall at (20, 23). Columns 18-19 are open grass/floor, allowing travel North.
+- **Status:** In wild battle (Golbat Lv44).
+- **Action:** Run from battle -> Resume navigation to (18, 21).
+- **Reasoning:** Interrupted by wild Golbat while navigating North. Need to escape to reach the Pokemon Center.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
