@@ -24,5 +24,5 @@
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
 
 # Boulder Puzzle Decisive Action Phase
-- Plan: Identify the 'fake wall' that makes the puzzle solvable by refining the solver tool to test visual wall candidates.
+- Plan: Reset boulders by leaving 2F, then use refined solve_blackthorn_boulders tool to find the sequence.
 - Decisive Phase Start: Turn 29851.
