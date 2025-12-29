@@ -32,4 +32,10 @@
 - Observation: Boulder 8 is at (8, 10). (7, 10) is labeled WALL.
 - Hypothesis: (7, 10) is actually FLOOR.
 - Test: Move to (9, 10) and push Boulder 8 left into (7, 10).
-- Step 1: Move to (9, 10). (In progress)
+- Conclusion: Push failed (Turn 30143). (7, 10) is confirmed as a WALL.
+
+# Hypothesis Testing: Boulder 8 Northward Movement
+- Observation: Boulder 8 is at (8, 10). (8, 9) is labeled WALL.
+- Hypothesis: (8, 9) is actually FLOOR.
+- Test: Move to (8, 11) and push Boulder 8 north into (8, 9).
+- Step 1: Move to (8, 11). (In progress)
