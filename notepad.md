@@ -16,3 +16,10 @@
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
+
+# Reflection (Turn 24613)
+- **Execution:** Addressed Route 22 wall/ledge confusion.
+- **Hygiene:** Added timestamp to current task. Map markers are up to date.
+- **Automation:** Tools are functioning, though `find_path` had some JSON hiccups.
+- **Goals:** Clear path South to Cinnabar.
+- **Error Analysis:** `FLOOR_UP_WALL` mechanics verified. Fly map limitations noted.
