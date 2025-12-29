@@ -9,6 +9,7 @@
 - BOULDER: Impassable unless pushed. Can be moved with Strength (HM04).
 - LAVA: Impassable. Functions as WALL collision in Blackthorn Gym.
 - WATER: Traversable only with Surf (HM03).
+- LEDGE_HOP_DOWN: One-way traversable. Can jump down from above to the tile below, but cannot be entered from the bottom or sides.
 
 # Strategy: Final Badge
 - Training Plan:
