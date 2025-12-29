@@ -10,9 +10,9 @@
 - Note: Post-battle event likely involves the Dragon's Den.
 
 # Battle Status: Clair
-- Opponent: Kingdra (Lv40).
+- Opponent: Kingdra (Lv40) - Status: Asleep.
 - Player Status: Calcifer (Lv47) FNT, Gneiss (Lv45) FNT.
-- Active: Kimchi (Lv21) - Goal: Land Sleep Powder.
+- Active: Xenon (Lv21) - Goal: Use Night Shade (fixed 21 damage).
 - Progress: Defeated 1x Dragonair (Lv37).
 
 # Type Effectiveness (Verified)
