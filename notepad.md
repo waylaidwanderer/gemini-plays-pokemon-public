@@ -3,12 +3,13 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Route 19 Gatehouse (6_3).
-- **Observation:** Both South exits ((4, 7) and (5, 7)) lead to a blocked area on Route 19 (East side). Unable to reach water/surf.
-- **Hypothesis:** Must find a different path to the beach/water from Fuchsia City. Possibly on the West side of town.
+- **Location:** Fuchsia City (17_5).
+- **Observation:** Route 19 East side is blocked.
+- **Hypothesis:** Access to Route 19 West side (beach) might be through a house or hidden path in Fuchsia.
 - **Immediate Plan:**
-  1. Exit North to Fuchsia City via (4, 0).
-  2. Explore Fuchsia City west of the Gym for another southbound path.
+  1. Investigate "House?" at (11, 27).
+  2. If that fails, explore the far West side of Fuchsia City.
+  3. Check for any cuttable trees or hidden paths.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
