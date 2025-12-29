@@ -39,3 +39,5 @@
 - Turn 30315: Calcifer fainted. Sending out Xenon (Lv21) to attempt Hypnosis.
 - Turn 30318: Xenon is out vs Kingdra. Move menu is open. Goal: Use Hypnosis to disable Kingdra, then switch to Gneiss for Earthquake.
 - Turn 30319: Kingdra used Hyper Potion (Full HP). Xenon used Hypnosis. Kingdra is SLP. Opening party menu to switch to Gneiss.
+- Turn 30323: Switched Xenon for Gneiss. Clair used Full Heal on Kingdra. Kingdra is awake and at full HP.
+- Turn 30324: Gneiss is out. Using Earthquake.
