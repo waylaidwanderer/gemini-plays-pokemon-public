@@ -31,3 +31,9 @@
 - Battle Strategy: High-level starters are essential. Fixed damage and status are vital when underleveled.
 - Resource Management: Carrying zero Revives into a late-game Gym Leader battle is a critical error.
 - Pathfinding: Don't assume a boulder puzzle is mandatory; explore all paths first.
+
+# Battle Log: Clair (Rematch Prep)
+- Turn 30372: Whited out against Gym Leader Clair. Respawned at Blackthorn Pokémon Center. Party is fully healed.
+- Current Money: ¥321.
+- Need: Revives (¥1500), Hyper Potions (¥1200).
+- Strategy: Visit Mart to sell items and check prices. Consider training utility Pokémon to survive Kingdra's hits.
