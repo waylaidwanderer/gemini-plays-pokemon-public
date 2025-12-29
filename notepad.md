@@ -2,15 +2,13 @@
 - **Goal:** Reach Seafoam Islands via Pallet Town.
 - **Reason:** Route 19 is blocked by boulders from Cinnabar's volcano eruption.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
-- **Status:** Inside Reception Gate (Victory Road Gatehouse).
-- **Observation:** Exit to Route 22 (Viridian) is likely at Row 5 (East).
-- **Obstacle:** Black Belt NPCs detected at (7, 5) [West] and (12, 5) [East].
-- **Immediate Goal:** Approach Black Belt at (12, 5) and attempt to pass/interact.
+- **Status:** On Route 22 (West side).
+- **Immediate Goal:** Travel East to Viridian City.
 - **Plan:**
-  1. Navigate to (11, 5).
-  2. Interact with Black Belt if he blocks the path.
-  3. Exit East to Route 22.
-  4. Travel East to Viridian City.
+  1. Travel East on Route 22.
+  2. Enter Viridian City.
+  3. Travel South to Pallet Town.
+  4. Surf South to Cinnabar Island.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
