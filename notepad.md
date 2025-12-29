@@ -28,6 +28,7 @@
 - Turn 30412: Started Route 45 grind.
 - Milestone: Xenon Lv24 reached.
 - Resource: GNEISS Earthquake PP 0/10. HP: 30/126.
+- Strategy: Use Calcifer (Lv47) for switch-training due to Gneiss's low HP and PP.
 
 # General Lessons
 - Pathfinding: Explore perimeters to bypass obstacles.
