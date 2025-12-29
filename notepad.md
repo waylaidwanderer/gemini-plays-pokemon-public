@@ -6,16 +6,18 @@
 - Strength: Active (Turn 30009). Required to push boulders.
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 6), B7 (6, 1).
-- Pits: (2, 5), (8, 3).
-- B8: Pushed into Pit (8, 7) on Turn 29670.
-- Crossing Points:
-  - Row 1: Gap in Column 2, but Cody (NPC) blocks Column 4.
-  - Row 9: Gap in Column 2 at (2, 9).
-  - Row 13: Gap in Column 4 at (4, 13).
+- Boulders: B6 (3, 6), B7 (6, 1), B8 (8, 12).
+- Pits: (2, 5), (8, 3), (8, 7).
+- B8 Status: Marker says (8, 12). Overwatch suggests it might be in (8, 7). Need to verify.
+- NPCs: Cody (4, 1), Fran (4, 11). Both defeated.
 
-# Strategy: Boulder Puzzle
-- Goal: Drop B6 into Pit (2, 5) and B7 into Pit (8, 3).
-- Puzzle Start Turn: 29931.
-- Current Phase: Investigating Cody at (4, 1).
-- Verified Walls: (4, 5), (9, 13), (2, 13), (3, 0).
+# Strategy: Breaking the Deadlock
+- Problem: Idealized BFS says puzzle is impossible with current WALL layout.
+- Hypothesis: One or more "WALL" tiles are actually passable, or NPCs move.
+- Test 1: Talk to Cody at (4, 1). Result: Pending.
+- Test 2: Attempt to move onto (4, 2).
+- Test 3: Attempt to move onto (3, 0).
+- Test 4: Attempt to move onto (3, 8).
+- Test 5: Verify B8 status at (8, 12) or (8, 7).
+
+# Puzzle Start Turn: 29931.
