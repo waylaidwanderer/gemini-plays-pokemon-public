@@ -38,3 +38,8 @@
 - Hypothesis: Some "WALL" tiles are actually passable.
 - Target: Row 0 (0-9, 0) and surrounding "silver blocks".
 - Plan: Navigate to (6, 1) and test Up into (6, 0).
+
+# Observation: Boulder 7 Displacement
+- Turn 30155: Pushed Boulder 7 from (6, 1) to (7, 1) while navigating to (6, 1).
+- Status: Boulder 7 is now at (7, 1). Tile (6, 1) is now clear FLOOR.
+- Current Test: Moving to (6, 1) and testing UP into (6, 0).
