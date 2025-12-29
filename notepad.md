@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** In wild battle (Golbat Lv44).
-- **Action:** Run from battle -> Resume navigation to (18, 21).
-- **Reasoning:** Interrupted by wild Golbat while navigating North. Need to escape to reach the Pokemon Center.
+- **Status:** In wild battle (Golbat).
+- **Action:** Run from battle -> Navigate to Pokemon Center (23, 19).
+- **Reasoning:** The sign confirms the Pokemon Center is at (23, 19). I need to find a path to it, likely by continuing North or finding a way East.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
