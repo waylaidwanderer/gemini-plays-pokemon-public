@@ -6,7 +6,7 @@
 - Strength: Active (Turn 30009). Required to push boulders.
 
 # Blackthorn Gym 2F State
-- Boulders: B6 (3, 6), B7 (6, 1), B8 (8, 14).
+- Boulders: B6 (3, 5), B7 (6, 1), B8 (8, 14).
 - Pits: (2, 5), (8, 3), (8, 7).
 - Crossing Points:
   - Row 1: Gap in Column 2, but Cody (NPC) blocks Column 4.
@@ -16,9 +16,11 @@
 
 # Strategy
 - Goal: Drop all three boulders into pits.
-- Current Task: Confirm B8 position at (8, 14).
-- Path to (8, 14) from (1, 13):
-  (1, 13) -> (1, 9) -> (2, 9) -> (3, 9) -> (3, 13) -> (4, 13) -> (8, 13) -> (8, 14).
+- Current Status: B8 pushed from (8, 15) to (8, 14).
+- Plan:
+  1. Move to (8, 15) to get behind B8.
+  2. Run solve_blackthorn_boulders from (8, 15).
+  3. Execute sequence.
 
 # Failed Hypotheses
 - Row 13 crossing from (1, 13) to (3, 13) failed: (2, 13) is a WALL.
