@@ -4,8 +4,8 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Route 21 -> Viridian City
-- **Location:** Route 21 (Almost at Pallet Town).
-- **Status:** Surfing North. Just escaped a Tentacool.
+- **Location:** Entering Pallet Town.
+- **Status:** Crossing map border from Route 21.
 - **Next Action:** Arrive in Pallet Town, heal at mom's, then walk North to Viridian.
 
 # Tile Mechanics
