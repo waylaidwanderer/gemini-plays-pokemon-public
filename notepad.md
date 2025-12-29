@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** In wild battle (Poliwhirl Lv40).
-- **Action:** Run from battle -> Continue West.
-- **Reasoning:** Interrupted by wild Poliwhirl. Need to escape to continue exploring.
+- **Status:** Exploring Mt. Silver Outside.
+- **Action:** Move West to (24, 29).
+- **Reasoning:** Battle ended. Resuming Westward exploration to find the Pokemon Center.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
