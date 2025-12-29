@@ -18,8 +18,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24875)
-- **Status:** Traversing Route 1 Northbound.
-- **Lesson:** Red's Mom (Pallet Town) does not heal the player in this version.
-- **Strategy:** Bypass ledges via the gap at Cols 4-6. Flank Cooltrainer F (9, 25) by staying on the left (she faces Right).
-- **Next:** Reach Viridian City Pokemon Center.
+# Reflection (Turn 24901)
+- **Location:** Viridian City (Exiting Pokemon Center).
+- **Status:** In a phone call with Gaven. Team is fully healed.
+- **Immediate Task:** Finish call, then fix `find_path` tool (ledge bug).
+- **Next:** Challenge Blue at Viridian Gym.
