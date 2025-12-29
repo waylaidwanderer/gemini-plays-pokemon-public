@@ -5,9 +5,9 @@
 
 # Current Strategy: Route 1 -> Viridian City
 - **Location:** Route 1 (Middle).
-- **Status:** Moving North-West.
-- **Next Action:** Navigate to (5, 20) to bypass ledges at Row 19 (which block cols 8-15).
-- **Trainers:** Defeated Cooltrainer F. Watch out for Youngster near (4, 12).
+- **Status:** Moving North.
+- **Next Action:** Navigate through Gap at (7, 19), then move Right to Col 12 to bypass Ledges/Walls at Row 13.
+- **Trainers:** Avoiding Youngster at (4, 12) by flanking Right.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
