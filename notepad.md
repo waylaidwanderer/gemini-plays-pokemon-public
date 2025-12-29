@@ -47,12 +47,21 @@
 - **Plan:** Close dialogue. Probe (4, 12) and (6, 12) just in case. If blocked, backtrack to (5, 16) and try to find a path through Column 3 or 4, or re-examine the right side.
 - **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
 - **Clear Paths:** Lobby (y=16). Column 5 up to y=12 (Dead End).
-- **Battle:** Defeated Lass Linda.
-- **Current Status:** At (4, 14).
-- **Test Results:** (4, 12), (6, 12), (3, 14) are SOLID WALLS.
-- **Action:** Probing (4, 13) and (6, 14).
-- **Plan:**
-  1. Test Up into (4, 13).
-  2. Test Right into (6, 14) (via 5, 14).
-  3. If both blocked, check (3, 15) and (6, 15).
-- **Hypothesis:** Entry to the outer columns is through a fake wall.
+
+# Fuchsia Gym Strategy
+- **Battle:** Defeated Lass Linda at (5, 11). She did not move.
+- **Analysis:**
+  - Center Path (Col 5) blocked by Linda.
+  - Left Path (Cols 1-2) blocked by walls at y=11.
+  - Right Path (Col 8) blocked by Invisible Wall at (8, 13).
+  - Walls at (4, 12), (6, 12), (3, 14), (4, 13) are REAL visible walls.
+- **New Plan (North Route):** Flank Right. Go up Col 7/8, bypass (8, 13), reach the top (Row 0-5), and cross Left to reach Janine at (1, 10).
+- **Navigation:**
+  1. Go to (8, 12) via Col 7 (avoiding 8, 13).
+  2. Go North to Row 5.
+- **Invisible Walls Found:** (9, 10), (9, 11), (8, 13).
+
+# Quest Log
+- **Current Task:** Defeat Janine.
+- **Started:** Turn 24302.
+- **Badges:** 12/16. Next: Seafoam (Blaine).
