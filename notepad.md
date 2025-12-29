@@ -37,3 +37,4 @@
 - Turn 30311: Move menu opened. Kingdra (Lv40) is the opponent.
 - Turn 30314: Calcifer (29/148 HP) vs Kingdra (Lv40). Using Thunderpunch.
 - Turn 30315: Calcifer fainted. Sending out Xenon (Lv21) to attempt Hypnosis.
+- Turn 30318: Xenon is out vs Kingdra. Move menu is open. Goal: Use Hypnosis to disable Kingdra, then switch to Gneiss for Earthquake.
