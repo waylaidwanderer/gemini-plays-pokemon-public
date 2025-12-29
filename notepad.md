@@ -5,7 +5,7 @@
 
 # Current Strategy: Cinnabar Island
 - **Location:** Cinnabar Pokemon Center.
-- **Status:** Healing Pokemon.
+- **Status:** Talking to NPCs before leaving.
 - **Next Action:** Surf East to Seafoam Islands.
 
 # Tile Mechanics
