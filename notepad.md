@@ -4,9 +4,9 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian City
-- **Location:** Viridian City (26, 3).
-- **Status:** Flanking the Gym.
-- **Plan:** Navigate East along Row 3 to (31, 3), uncover the path to the East side of the Gym (likely Column 34), then head South to the entrance at (32, 7).
+- **Location:** Viridian City (31, 3).
+- **Status:** Approaching Gym Entrance.
+- **Plan:** Move East to Column 34, South to Row 8, then West to (32, 8) to face the door.
 - **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
