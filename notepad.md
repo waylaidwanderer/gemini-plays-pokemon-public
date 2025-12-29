@@ -31,3 +31,5 @@
 
 # General Lessons
 - Pathfinding: Explore perimeters to bypass obstacles.
+- Encounter: Wild Gligar (Lv24) defeated. Yielded 370 EXP (185 to Xenon).
+- Strategy: Continue pacing on Route 45 for levels and trainer money.
