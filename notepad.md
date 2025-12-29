@@ -18,10 +18,8 @@
 - **BUOY:** Water boundary/Wall.
 
 # Reflection (Turn 24747)
-- **Status:** On Route 19 (6_5). Paused to use Max Repel.
-- **Navigation:** Successfully surfed through Route 20. Heading East on Route 19.
-- **Goal:** Reach Seafoam Islands.
+- **Status:** Surfing East on Route 19 (6_5). Max Repel active.
+- **Navigation:** Heading East to find Seafoam Islands.
 - **Lore:** Blaine is at Seafoam Islands.
-- **Tools:** Functioning.
-- **Next:** Apply Repel, then Surf East.
+- **Next:** Surf East.
 - **Action Required:** Use MAX REPEL immediately after escaping battle to stop constant wild encounters.
