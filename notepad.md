@@ -11,13 +11,15 @@
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
 - Blockages: Column 4 wall Row 0-12. Column 2 wall Row 10-17. Row 8 wall at (2,8)-(4,8).
 - Reset Required: Completed. Boulders are at their initial positions.
-- Strength: Active (Turn 30130). Activated on Boulder 8 at (8, 14).
+- Strength: Inactive (Turn 30148). Reset by ladder warp.
+- Boulder Positions: Reset to initial. B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Pits: (2, 5), (8, 3), (8, 7).
 
-# Strategy: Reactivate and Solve
-- Phase 1: Reactivate Strength.
-- Phase 2: Use `run_code` to calculate the full 3-boulder sequence from the initial state.
-- Initial State Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Initial State Pits: (2, 5), (8, 3), (8, 7).
+# Strategy: Fresh Start
+- Step 1: Reactivate Strength on Boulder 8 at (8, 14).
+- Step 2: Run path analysis to verify if B8 is column-locked.
+- Step 3: Execute the solution if found, or explore alternative paths.
+- Note: (8, 9) and (7, 10) were previously confirmed as WALLS. Checking if B8 can move south or if there's a hidden path.
 
 # Progress Log
 - Turn 30121: Dialogue cleared. B8 marker corrected. Reset initiated.
