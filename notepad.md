@@ -5,26 +5,28 @@
 - LADDER: Warp between floors. Resets boulder positions. Deactivates Strength.
 
 # Blackthorn Gym 2F Puzzle Analysis
-- Boulders (Initial): B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 13).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
 
 # Strategy: Solve Boulders
-1. **Boulder 8 (8, 14) -> Pit P3 (8, 7)**
-   - Push north to (8, 11).
-   - Push left to (6, 11). (Assumes (7, 11) is FLOOR per system overwatch)
-   - Push north to (6, 7).
-   - Push right to (8, 7) [PIT].
+1. **Boulder 8 (8, 13) -> Pit P3 (8, 7)**
+   - Goal: Fill the pit at (8, 7) to create a bridge on 1F.
+   - Current: Pushing north from (8, 14) to (8, 13).
+   - Next: Continue pushing north toward Row 10.
 2. **Boulder 7 (6, 1) -> Pit P2 (8, 3)**
-   - Push right to (8, 1).
-   - Push south to (8, 3) [PIT].
+   - Goal: Fill the pit at (8, 3) to create a bridge on 1F.
+   - Initial position is (6, 1).
 3. **Boulder 6 (3, 3) -> Pit P1 (2, 5)**
-   - Push south to (3, 13).
-   - Push left to (1, 13).
-   - Push north to (1, 5).
-   - Push right to (2, 5) [PIT].
+   - Goal: Fill the pit at (2, 5) to create a bridge on 1F.
+   - Initial position is (3, 3).
 
 # Verification Status
-- (2, 2), (6, 10), (7, 12): Verified FLOOR.
-- (7, 11): Labeled FLOOR per overwatch (XML check pending).
-- (8, 9), (8, 8), (7, 10): Verified REAL WALLS.
+- (2, 2): Verified FLOOR in XML.
+- (6, 10): Verified FLOOR in XML.
+- (7, 12): Verified FLOOR in XML.
+- (7, 11): Verified WALL in XML and confirmed by collision.
+- (8, 9): Verified WALL in XML.
+- (8, 8): Verified WALL in XML.
+- (7, 10): Verified WALL in XML.
+- NPC Cody at (4, 1) and Fran at (4, 11) are solid obstacles.
