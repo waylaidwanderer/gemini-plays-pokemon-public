@@ -25,3 +25,6 @@
 - Ground -> Dragon: Neutral.
 - Rock -> Dragon: Neutral.
 - Normal -> Dragon: Neutral.
+
+# Battle Log: Clair
+- Turn 30303: Battle Start. Calcifer vs Dragonair (Lv37).
