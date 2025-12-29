@@ -5,9 +5,8 @@
 
 # Current Strategy: Route 1 to Pallet Town
 - **Location:** Route 1.
-- **Status:** Navigating Route 1 Southbound.
-- **Obstacle:** Wall at Row 32 (x=10-15) blocks direct South movement.
-- **Action:** Move West to x=9 to bypass wall, then continue South.
+- **Status:** Bypassed wall at Row 32.
+- **Action:** Travel South through the grass to Pallet Town.
 - **Next:** Reach Pallet Town and Surf South.
 
 # Tile Mechanics
