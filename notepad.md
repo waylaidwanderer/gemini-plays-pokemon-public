@@ -4,9 +4,11 @@
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
 - **Location:** Route 19 (North).
+- **Observation:** East path (Col 13) is a dead end. Center is walled off.
+- **Hypothesis:** Path South is on the far West side (Cols 0-2).
 - **Immediate Plan:**
-  1. Navigate South over ledges.
-  2. Surf to Route 20 -> Seafoam Islands.
+  1. Backtrack to (2, 4).
+  2. Explore West edge for a path South.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
