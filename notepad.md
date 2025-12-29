@@ -1,8 +1,8 @@
 # Tile Mechanics (Global)
-- FLOOR: Passable terrain.
-- WALL: Impassable silver blocks. Absolute barrier for player and boulders.
+- FLOOR: Passable terrain. Standard traversable.
+- WALL: Impassable silver blocks. Absolute barrier.
 - PIT: Player falls to 1F. Boulder destination (forms bridge on 1F).
-- LADDER: Warp between floors. Deactivates Strength.
+- LADDER: Warp between floors. Deactivates Strength. 
 - Strength: Active (Turn 30101).
 
 # Blackthorn Gym 2F State
@@ -20,6 +20,6 @@
 # Strategy: Boulder Puzzle
 - Goal: Drop all boulders into pits.
 - Plan:
-  1. Push B8 UP from (8, 13) towards (8, 7) Pit.
-  2. Use dynamic `solve_blackthorn_boulders` for B6 and B7.
-  3. Execute pushes precisely.
+  1. Push B8 UP from (8, 13) to (8, 12).
+  2. Map out the path for B8 -> (2, 5), B6 -> (8, 3), B7 -> (8, 7).
+  3. Use dynamic `solve_blackthorn_boulders` to refine the sequence.
