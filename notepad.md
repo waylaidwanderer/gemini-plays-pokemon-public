@@ -36,4 +36,4 @@
 - Resource Alert: GNEISS Earthquake PP low (2/10).
 - CAVE: Warp entrance (e.g., Dark Cave at (2, 5)).
 - TALL_GRASS / LONG_GRASS: Reachable tiles where wild Pokemon can be encountered.
-- Training Update: Xenon is Lv23. Switching to GNEISS for Gligar encounter.
+- Training Update: Xenon is Lv23. Continuing training session.
