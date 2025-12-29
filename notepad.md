@@ -31,23 +31,10 @@
 # Observation: Row 0 Collision
 - Confirmed Turn 30291: Row 0 tiles are solid WALLs. They cannot be traversed.
 
-# Bridge Mapping Hypothesis (2F -> 1F)
-- 2F Pit (8, 7) -> 1F Tile (8, 7)?
-- 2F Pit (8, 3) -> 1F Tile (8, 3)?
-- 2F Pit (2, 5) -> 1F Tile (2, 5)?
-- Problem: The bridge to Clair on 1F is at (3, 7), (4, 7), (5, 7) and (4, 3). None of these match the pit coordinates.
-- Task: Verify the exact coordinates of the bridge and any filled pits on 1F.
+# Blackthorn Gym Discovery
+- The boulder puzzle is skippable! A clear path exists along the right side of the gym: (8, 7) -> (9, 7) -> (9, 3) -> (6, 3).
+- I am currently standing at (6, 3) facing Clair at (5, 3).
 
-# 1F Bridge Verification (Attempt 1)
-- Turn 30293: Heading to (8, 7) to verify if a boulder is there.
-- Then checking (7, 7), (6, 7), (5, 7), (4, 7), (3, 7) to identify gaps.
-- Gap Hypothesis: The "WALL" tiles at (4, 7) and (5, 7) are the gaps that need boulders.
-
-# 1F Bridge Exploration (Turn 30296)
-- Hypothesis: The path (8, 7) -> (9, 7) -> (9, 3) -> (5, 3) is clear and allows reaching Clair without the boulder puzzle.
-- Test: Attempt to walk this path.
-- Result: TBD.
-
-# Puzzle Analyst Agent
-- Purpose: Map 2F pits to 1F gaps.
-- Status: Pending gap verification.
+# Strategy: Final Badge
+- Talk to Clair and defeat her to earn the Rising Badge.
+- Note: Clair is known for being difficult and might require a trip to the Dragon's Den after the battle.
