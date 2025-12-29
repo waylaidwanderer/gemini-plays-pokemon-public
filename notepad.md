@@ -6,7 +6,7 @@
 # Current Strategy: Post-Gym
 - **Location:** Viridian City (Menu).
 - **Status:** Selecting Destination (Fly).
-- **Action:** Cursor at Fuchsia City. Moving Left to find Pallet Town.
+- **Action:** At Fuchsia City. Going Up and Left to reach West Kanto (Pallet).
 - **Next:** Confirm Fly -> Enter Oak's Lab.
 - **Goal:** Get permission for Mt. Silver.
 
