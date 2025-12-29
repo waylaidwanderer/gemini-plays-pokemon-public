@@ -7,9 +7,9 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Current Enemy:** Alakazam (Incoming).
-- **Action:** Confirming switch to Kunai (Sneasel).
-- **Plan:** Exploiting Dark-type immunity to Psychic. Kunai's Shadow Ball (Physical) vs Alakazam's low Defense.
+- **Current Enemy:** Alakazam (Lv54).
+- **My Pokemon:** Kunai (Sneasel Lv24).
+- **Plan:** Use Shadow Ball (Physical Ghost vs Low Def Psychic). Exploiting immunity to Psychic moves.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
