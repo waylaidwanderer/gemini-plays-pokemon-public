@@ -17,9 +17,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24767)
-- **Status:** At Seafoam Islands entrance (38, 11).
-- **Navigation:** Surf into the cave entrance at (38, 11).
-- **Observation:** Entrance is accessible from water. Sign confirms Cinnabar Gym.
-- **Next:** Enter the gym and find Blaine.
-- **Action Required:** Enter the cave.
+# Reflection (Turn 24768)
+- **Status:** Entering Seafoam Islands Gym (Route 20).
+- **Location:** Cave entrance at (38, 7).
+- **Goal:** Find Blaine and win the Volcano Badge.
+- **Next:** Navigate the gym.
+- **Action Required:** Walk North into the cave.
