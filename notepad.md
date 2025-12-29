@@ -21,7 +21,7 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: At (2, 7) on 2F. Strength INACTIVE.
+- Current Status: At (2, 7) on 2F. Activating Strength. Then testing 'WALL' tiles at (4, 10).
 - Plan: 
   1. Activate Strength.
   2. Navigate to (3, 3) and push Boulder 6 -> (2, 3) -> (2, 5).
