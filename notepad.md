@@ -19,11 +19,7 @@
 
 # Strategy: Boulder Puzzle
 - Goal: Drop all three boulders into pits.
-- Hypothesis 1: (4, 5) is a fake wall.
-  - Test: Attempt to move into (4, 5) from (3, 5).
-- Hypothesis 2: (2, 13) is a fake wall.
-  - Test: Attempt to move into (2, 13) from (1, 13).
-- Hypothesis 3: (6, 3) is a fake wall.
-  - Test: Attempt to move into (6, 3) from (7, 3).
-- Phase 1: Activate Strength by interacting with B6.
-- Phase 2: Move to (3, 5) and test (4, 5).
+- Puzzle Start Turn: 29931.
+- Verified Walls: (4, 5), (9, 13), (2, 13).
+- Current Phase: Testing Row 0 passability to find push points for Row 1 boulders.
+- Test: Attempt to move to (6, 0) from (6, 1).
