@@ -230,5 +230,31 @@
         "action_counter": 29934
       }
     ]
+  },
+  "boulder_pathfinder_v2": {
+    "description": "Finds the sequence of boulder pushes to fill all pits in Blackthorn Gym 2F using current map data and initial boulder positions. Returns a list of push instructions.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, npcs = set(), set(), set()\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t = tile.get('type')\n                if t in ['FLOOR', 'ICE', 'LADDER']:\n                    passable.add((x, y))\n                    o = tile.find('Object')\n                    if o is not None and o.get('id-name') != 'BOULDER': npcs.add((x, y))\n                elif t == 'PIT': pits.add((x, y))\n        \n        # Initial positions for Blackthorn Gym 2F\n        boulders = {6: (3, 3), 7: (6, 1), 8: (8, 14)}\n        p_start = (int(input_data['player_x']), int(input_data['player_y']))\n        \n        # BFS state: (tuple of boulders not in pits, player_pos)\n        start_b_tuple = tuple(sorted([(bid, pos) for bid, pos in boulders.items() if pos not in pits]))\n        q = deque([ (start_b_tuple, p_start, []) ])\n        v = { (start_b_tuple, p_start) }\n        \n        while q:\n            curr_b_tuple, pp, path = q.popleft()\n            curr_b = dict(curr_b_tuple)\n            if not curr_b:\n                print(json.dumps(path))\n                return\n            \n            b_set = set(curr_b.values())\n            obs = b_set | npcs\n            for bid, (bx, by) in curr_b.items():\n                for dx, dy in [(0,1),(0,-1),(1,0),(-1,0)]:\n                    target, push_pos = (bx+dx, by+dy), (bx-dx, by-dy)\n                    if (0<=target[0]<width and 0<=target[1]<height and (target in passable or target in pits) and target not in obs and\n                        0<=push_pos[0]<width and 0<=push_pos[1]<height and push_pos in passable and push_pos not in obs):\n                        \n                        rq, rv = deque([pp]), {pp}\n                        reachable = False\n                        while rq:\n                            cp = rq.popleft()\n                            if cp == push_pos: reachable = True; break\n                            for rdx, rdy in [(0,1),(0,-1),(1,0),(-1,0)]:\n                                np = (cp[0]+rdx, cp[1]+rdy)\n                                if np in passable and np not in obs and np not in rv: rv.add(np); rq.append(np)\n                        \n                        if reachable:\n                            nb = []\n                            for b_id, b_pos in curr_b.items():\n                                if b_id == bid:\n                                    if target not in pits: nb.append((b_id, target))\n                                else: nb.append((b_id, b_pos))\n                            nb_tuple = tuple(sorted(nb))\n                            if (nb_tuple, (bx, by)) not in v:\n                                v.add((nb_tuple, (bx, by)))\n                                q.append((nb_tuple, (bx, by), path + [{\"bid\": bid, \"from\": (bx, by), \"to\": target}]))\n            if len(v) > 50000: break\n        print(json.dumps({\"error\": \"No solution found\"}))\n    except Exception as e: print(json.dumps({\"error\": str(e)}))\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-29T05:57:10.679Z",
+        "action_counter": 30225
+      }
+    ]
   }
 }
