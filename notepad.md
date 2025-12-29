@@ -7,12 +7,10 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Current Enemy:** Alakazam (Lv54).
-- **My Pokemon:** Kunai (Sneasel Lv24).
-- **Condition:** Alakazam HP Red. Defense Trashed. Reflect up (ignored by Crit, but active).
-- **Insight:** Shadow Ball did massive damage but didn't OHKO. He is clinging on.
-- **Plan:** Shadow Ball (Slot 1) to finish the job.
-- **Cursor:** Currently on Slot 1 (Shadow Ball).
+- **Defeated:** Pidgeot, Alakazam.
+- **My Pokemon:** Kunai (Sneasel Lv26).
+- **Event:** Kunai trying to learn Faint Attack.
+- **Decision:** REJECT. Faint Attack is Special (bad for Sneasel). Shadow Ball (Physical) is superior.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
