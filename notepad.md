@@ -8,7 +8,7 @@
 - Strength: Must be re-activated after falling through a pit or changing maps.
 
 # Physically Tested Tiles (2F)
-- WALL confirmed: (4,1), (4,2)-(4,7), (5,0), (6,0), (6,4), (7,0), (8,0), (8,8), (8,9), (4,11).
+- WALL confirmed: (2,0), (3,0), (5,0), (6,0), (7,0), (8,0), (4,1), (4,2)-(4,7), (6,4), (8,8), (8,9), (4,11).
 - Passable (Boulder Pushes): (5,1)->(6,1), (7,1)->(8,1), (8,1)->(9,1).
 
 # Blackthorn Gym Layout & Boulders
@@ -23,7 +23,8 @@
 # Boulder Puzzle Solve Plan
 - Start Turn: 29800. Decisive Phase Start: 29851.
 - Reset Turn: 29858 (Boulders at initial positions).
-- Current Hypothesis: (2,0) or (3,0) might be a fake wall allowing a Down push for Boulder 7.
-- Step 1: Activate Strength (In progress).
-- Step 2: Test (2,0) and (3,0) for passability.
-- Step 3: Execute push sequence.
+- Current Hypothesis: (1,0) or (0,0) is a fake wall.
+- Step 1: Activate Strength (COMPLETED).
+- Step 2: Test (1,0) and (0,0) for passability.
+- Step 3: Detour to (5,2) and test (6,2), (6,3).
+- Step 4: Execute push sequence.
