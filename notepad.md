@@ -5,10 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Victory Road (2F).
-- **Status:** Reached West Side (Past Ledges).
-- **Action:** Walk North to Ladder (1, 35).
-- **Reasoning:** Successfully crossed the one-way ledges. The path to the 1F ladder is now clear to the north.
-- **Goal:** Reach Ladder (1, 35) -> 1F.
+- **Status:** In South-West Section (Isolated).
+- **Action:** Navigate to Warp (9, 67).
+- **Reasoning:** Arrived at (1, 49) from 3F. The North section of 2F is blocked by walls. The only way forward is the Warp at (9, 67), which likely leads to the Exit or 1F.
+- **Goal:** Reach Warp (9, 67).
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
