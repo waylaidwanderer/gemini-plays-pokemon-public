@@ -7,11 +7,12 @@
 # Blackthorn Gym 2F Puzzle Analysis
 - Start Turn: 30123
 - Boulders (Initial - Assumed): B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Current Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11).
 
 # Strategy: Decisive Action Phase
-1. Use puzzle_analyst to identify the high-level sequence.
-2. Execute the pushes based on confirmed FLOOR paths.
-3. Goal: Fill all three pits.
+1. Reset floor via ladder.
+2. Reactivate Strength.
+3. Use specialized solver (run_code) to find the exact push sequence.
+4. Execute pushes based on confirmed FLOOR paths in XML.
+5. Goal: Fill all three pits.
