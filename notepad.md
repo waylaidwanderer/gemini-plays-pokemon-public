@@ -7,12 +7,11 @@
 - **Location:** Viridian Gym (5, 4).
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
-- **Defeated:** Pidgeot, Alakazam.
-- **Current Enemy:** Arcanine (Lv58).
-- **My Pokemon:** Qaagmaqnjw (Gyarados Lv35).
-- **Situation:** Gyarados in critical danger. Arcanine has ~60% HP.
-- **Action:** Switching to Muscle (Machoke Lv82).
-- **Plan:** Tank the Extremespeed (Muscle has 251 HP). OHKO Arcanine with Cross Chop or Strength.
+- **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados.
+- **Current Enemy:** Exeggutor (Incoming).
+- **My Pokemon:** Muscle (Machoke Lv82).
+- **Action:** Stay in (Select NO).
+- **Plan:** Use Ice Punch (Slot 3). Super Effective.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
