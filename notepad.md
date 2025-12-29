@@ -8,7 +8,7 @@
 - **Status:** Battling Leader Blue.
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam, Arcanine, Gyarados.
-- **Current Enemy:** Exeggutor (Lv58) - Red HP.
+- **Current Enemy:** Exeggutor (Lv58) - ~45% HP.
 - **My Pokemon:** Muscle (Machoke Lv82).
 - **Condition:** Muscle is Seeded.
 - **Plan:** Use Ice Punch (Slot 3) to finish Exeggutor.
