@@ -26,3 +26,4 @@
 - Turn 30372: Whited out against Clair. Team was insufficient for Kingdra. 
 - Current Levels: Calcifer (47), GNEISS (45), Xenon (21), Kimchi (21), Icarus (16).
 - Strategy: Grind Xenon and Kimchi to at least Lv30 on Route 45. Xenon's Night Shade and Kimchi's Sleep Powder are key utility moves.
+- Turn 30412: Starting grind session on Route 45.
