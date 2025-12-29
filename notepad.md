@@ -18,8 +18,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24918)
-- **Location:** Viridian City (North of Ledges).
-- **Status:** Flanked the ledges successfully.
-- **Next:** Enter Viridian Gym at (32, 7).
-- **Goal:** Defeat Blue.
+# Reflection (Turn 24926)
+- **Self-Assessment:** All immediate tasks handled. Notepad clean. Map markers for exit placed.
+- **Automation:** 'find_path' is working, though execution seems to have been partial last turn. Will monitor.
+- **Goal:** Defeat Blue. Strategy: Explore gym layout (no assumptions on spin tiles), find Blue.
+- **Gym Start:** Turn 24925.
