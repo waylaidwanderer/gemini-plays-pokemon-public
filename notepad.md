@@ -36,3 +36,6 @@
 - Encounter: Wild Geodude (Lv23) defeated. Yielded 282 EXP (141 to Xenon).
 - Resource: GNEISS Earthquake PP 1/10.
 - Strategy: Continue pacing on Route 45. If Earthquake runs out, switch to Calcifer or Gneiss's other moves.
+- Encounter: Wild Graveler (Lv25) defeated. Yielded 478 EXP (239 to Xenon).
+- Resource: GNEISS Earthquake PP 0/10.
+- Strategy: Using Calcifer (Lv47) or Gneiss's Strength/Rollout for switch-training now that Earthquake is depleted.
