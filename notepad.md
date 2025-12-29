@@ -31,3 +31,10 @@
 # Progress Log
 - Turn 30148: Floor reset. Boulders at initial positions.
 - Turn 30151: Strength activation in progress.
+
+# Solver Failure Analysis
+- Turn 30151: solver_blackthorn_boulders and run_code (custom solver) both returned "No solution found".
+- Implication: The puzzle is unsolvable with current map data (internal walls).
+- Hypothesis: Some "WALL" tiles are actually passable.
+- Target: Row 0 (0-9, 0) and surrounding "silver blocks".
+- Plan: Navigate to (6, 1) and test Up into (6, 0).
