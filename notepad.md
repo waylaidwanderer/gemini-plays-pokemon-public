@@ -42,3 +42,7 @@
 - Boulder 7 Plan: Push into PIT (8, 3).
 - Boulder 8 Plan: Push into PIT (8, 7).
 - Verification: Column 4 (WALL) blocks direct access from the right. Column 2 (WALL) from row 8-12 blocks access from the left. Only Row 13 and Row 1 are open for cross-gym navigation.
+- Turn 30005: Fell through pit at (2, 5) on 2F, landed at (2, 6) on 1F.
+- Strength Status: DEACTIVATED (due to map change/fall).
+- Immediate Plan: Use ladder at (1, 7) to return to 2F.
+- Goal: Resume boulder puzzle.
