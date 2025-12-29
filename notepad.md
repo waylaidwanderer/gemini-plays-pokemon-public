@@ -39,20 +39,14 @@
 - Normal & Ground: Neutral vs Dragon.
 
 # Boulder Puzzle Analysis
-- Phase: Fake Wall Testing (Started Turn 29744)
-- Hypothesis: Tile (3, 8) is a fake wall.
-  - Test: Stand at (3, 9) and press Up.
-  - Result: [Pending].
-- Hypothesis: Tile (7, 1) is a fake wall (Wait, it's marked floor but might be blocked).
-  - Test: Walk onto (7, 1).
-  - Result: [Pending].
-- Failed Hypotheses:
-  1. Row 0 (2,0), (3,0), (5,0), (7,0), (8,0), (9,0) are passable (Denied).
-  2. NPC Cody at (4, 1) is passable (Denied).
-  3. Tile (4, 2)-(4, 7) are fake walls (Denied).
-  4. Tile (6, 2), (6, 3) are fake walls (Denied).
-  5. Tile (8, 9), (7, 10), (7, 11), (9, 16) are fake walls (Denied).
-  6. Tile (2, 13) is a fake wall (Denied).
+- Failed Hypotheses (Confirmed Walls):
+  - Row 0: (2,0), (3,0), (5,0), (7,0), (8,0), (9,0)
+  - Col 4: (4,2)-(4,7)
+  - Col 6: (6,2), (6,3)
+  - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
+  - NPCs: Cody (4,1)
+- Current Strategy: Use 'puzzle_analyst' agent to find the missing link.
+- Tile Mechanics: Strength resets after falling through pits.
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
