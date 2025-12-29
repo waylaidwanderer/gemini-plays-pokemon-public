@@ -30,13 +30,16 @@
   5. Push Boulder 6 (1, 5) right to (2, 5) PIT.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12. Detour through row 13 and column 1 is the only way for B6.
-- Failed Strength Activation Attempts: 7. I will be extremely slow and precise.
-- Turn 29997 Strategy:
-  1. Use direct interaction to activate Strength (A, A, A, A).
-  2. Push Boulder 6 (3, 3) Down to (3, 4).
-  3. Re-evaluate path based on "Want to use Strength" ease.
-- Boulder 6 Path Hypothesis: (3, 3) -> (3, 7) -> (2, 7) -> (2, 6) -> (2, 5) PIT.
-  - Test: Can I stand at (4, 7) to push left? (Mental Map says WALL, but let's look at the sprite).
-- Boulder 7 Path Hypothesis: (6, 1) -> (7, 1) -> (8, 1) -> (8, 2) -> (8, 3) PIT.
-  - Test: Can I stand at (8, 0) to push down? (Mental Map says WALL).
-- Boulder 8 Path Hypothesis: (8, 14) -> (8, 7) PIT.
+- Failed Strength Activation Attempts: 7.
+- Discovery: Interacting with a boulder (pressing A while facing it) triggers a prompt to use Strength. This is much faster than menu navigation.
+- Turn 29998 Strategy:
+  1. Select YES on Strength prompt.
+  2. Clear the "GNEISS used STRENGTH!" text.
+  3. Push Boulder 6 (3, 3) down to (3, 13).
+- Boulder 6 Detour Plan:
+  1. Push B6 to (3, 13).
+  2. Navigate around the central wall via Row 1 to reach (4, 13).
+  3. Push B6 left to (2, 13).
+  4. Push B6 up to (2, 5) PIT.
+- Boulder 7 Plan: Push into PIT (8, 3).
+- Boulder 8 Plan: Push into PIT (8, 7).
