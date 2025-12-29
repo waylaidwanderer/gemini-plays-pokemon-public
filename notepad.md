@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Exploring Mt. Silver Outside.
-- **Action:** Move West to (24, 29).
-- **Reasoning:** Battle ended. Resuming Westward exploration to find the Pokemon Center.
+- **Status:** Navigating North-West.
+- **Action:** Go East to (25, 29), North to (25, 25), then West to (20, 25).
+- **Reasoning:** Direct West path is blocked by Water. A land path exists to the North on Row 25.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
