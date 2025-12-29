@@ -17,9 +17,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24769)
-- **Status:** Inside Seafoam Gym (6_4).
-- **Location:** Blaine is directly ahead at (5, 2).
-- **Goal:** Defeat Blaine for the Volcano Badge.
-- **Next:** Talk to Blaine.
-- **Action Required:** Walk North to (5, 3) and interact.
+# Reflection (Turn 24771)
+- **Status:** Challenging Blaine in Seafoam Gym.
+- **Goal:** Defeat Blaine (Volcano Badge).
+- **Strategy:** Use Muscle (Lv 81). Strength/Cross Chop.
+- **Next:** Win battle.
