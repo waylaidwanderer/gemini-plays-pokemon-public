@@ -38,3 +38,9 @@
 # Strategy: Final Badge
 - Talk to Clair and defeat her to earn the Rising Badge.
 - Note: Clair is known for being difficult and might require a trip to the Dragon's Den after the battle.
+
+# Battle Preparation: Clair
+- Team Status: Calcifer (Lv47), Gneiss (Lv45) are the heavy hitters.
+- Clair's Team (Expected): Dragon-types (Dratini, Dragonair, Kingdra).
+- Strategy: Use Calcifer's Thunderpunch for coverage and Gneiss's Earthquake for raw power.
+- Note: Be prepared for a long battle.
