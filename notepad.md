@@ -21,7 +21,7 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: Unintentional warp to 1F. Strength INACTIVE. Boulders at starting positions.
+- Current Status: Back on 2F. Strength INACTIVE. Closing menu to move off ladder.
 - Plan: 
   1. Return to 2F via ladder at (1, 7).
   2. Reactivate Strength.
