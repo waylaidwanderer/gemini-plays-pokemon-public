@@ -12,7 +12,7 @@
 - Opponent: Kingdra (Lv40) ~40% HP.
 - Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Icarus (16) FNT.
 - Remaining: Kimchi (21) 1 HP, Ravioli (10) 27 HP.
-- Plan: Send out Kimchi (Lv21) to attempt Sleep Powder (75% acc). This is the only remaining win condition.
+- Plan: Use Kimchi's Sleep Powder (75% acc) to disable Kingdra. This is the final miracle attempt.
 
 # Type Effectiveness (Gen 2)
 - Dragon resists: Fire, Water, Electric, Grass.
@@ -21,5 +21,5 @@
 
 # General Lessons
 - Puzzle Bypass: Explore room perimeters before complex puzzles.
-- Battle Strategy: High-level starters are essential. Fixed damage (Night Shade) and accuracy reduction (Sand-Attack) are vital when underleveled.
-- Turn 30356: Icarus fainted. Switching to Kimchi.
+- Battle Strategy: High-level starters are essential. Fixed damage and status are vital when underleveled.
+- Turn 30357: Icarus fainted. Switching to Kimchi (1 HP).
