@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road (2F).
-- **Status:** In South-West Section (Isolated).
-- **Action:** Navigate to Warp (9, 67).
-- **Reasoning:** Arrived at (1, 49) from 3F. The North section of 2F is blocked by walls. The only way forward is the Warp at (9, 67), which likely leads to the Exit or 1F.
-- **Goal:** Reach Warp (9, 67).
+- **Location:** Victory Road (Exit).
+- **Status:** Standing on Exit Warp (9, 67).
+- **Action:** Walk Down to exit.
+- **Reasoning:** Standing on the South Exit warp carpet. Must walk South (into the boundary) to trigger the map transition to the Reception Gate/Route 23.
+- **Goal:** Exit Victory Road -> Reception Gate -> Mt. Silver.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
