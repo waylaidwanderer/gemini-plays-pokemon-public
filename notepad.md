@@ -17,7 +17,7 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24793)
-- **Status:** Surfing on Route 20 (38, 11).
-- **Action:** Cleared "Used Surf" text, navigating around sign to head West.
+# Reflection (Turn 24796)
+- **Status:** Surfing on Route 20 (13, 16).
+- **Action:** Ran from Tentacool. Resuming travel West.
 - **Next:** Continue Surfing West to Cinnabar Island.
