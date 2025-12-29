@@ -1,23 +1,21 @@
 # Tile Mechanics (Global)
 - FLOOR: Passable.
-- WALL: Impassable silver blocks. 
-- PIT: Player falls to 1F. Boulder destination.
+- WALL: Impassable. (8, 8) is solid (verified Turn 30113).
+- PIT: Player falls to 1F. Boulder destination. (8, 7) is currently empty.
 - LADDER: Warp between floors. Deactivates Strength.
-- Strength: Inactive (Lost Turn 30108 via ladder).
+- Strength: Inactive (Lost Turn 30108).
 
 # Blackthorn Gym 2F State
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Pits: (2, 5), (8, 3), (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
-- Verified Walls: (4, 5), (9, 13), (2, 13), (3, 0), (7, 10), (7, 11).
 
-# Strategy: Boundary Testing
-- Goal: Find the "fake" wall or path that makes the puzzle solvable.
-- Test 1: Is (8, 8) or (8, 9) passable? (Allows B8 to reach (8, 7)).
-- Test 2: Is (4, 3) or (4, 2) passable? (Allows B6 to reach (2, 5)).
-- Test 3: Is (6, 0) passable? (Allows pushing B7 Down).
+# Strategy: Boulder Puzzle
+- Goal: Drop all boulders into pits.
+- Current Status: B8 is at (8, 11). Strength is OFF.
 - Plan:
-  1. Navigate to (7, 8).
-  2. Attempt to move Right to (8, 8).
-  3. Navigate to (8, 12), face B8 at (8, 11), and press A to activate Strength.
-  4. Push B8 UP to (8, 10) and test (8, 9).
+  1. Navigate to (8, 10).
+  2. Face down, press A to activate Strength on B8.
+  3. Push B8 down to (8, 12).
+  4. Re-run solve_blackthorn_boulders.
+- Hypothesis: B8 needs to detour through Row 13 to reach the left side or Row 1 to reach (8, 3).
