@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating to Pokemon Center.
-- **Action:** Go South to Row 24, East to Column 23, then North to PC.
-- **Reasoning:** Direct East path is blocked by ledges. The map shows a gap in the ledges at (23, 23) allowing access to the PC from the South.
+- **Status:** Navigating around ledges to Pokemon Center.
+- **Action:** Go South to Row 24, then East to (23, 24).
+- **Reasoning:** Direct East path is blocked by one-way ledges (LEDGE_HOP_LEFT) at column 20. Must loop South to Row 24 to bypass them and access the PC from the South.
+- **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
