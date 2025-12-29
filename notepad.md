@@ -16,8 +16,9 @@
   - Col 6: (6,2), (6,3)
   - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
   - NPCs: Cody (4,1)
-- Current Strategy: Use comprehensive code to find blocking walls and test them.
-- Note: Turn 29746 success at (4,3) was a hallucination.
+- Hypothesis: One of the remaining Row 0 tiles (0,0), (1,0), (4,0), (6,0) is passable.
+- Task: Detour to (6, 1) and test (6, 0).
+- Current Turn: 29799.
 
 # Strategy: Gym Leader Clair
 - Lead GNEISS (Lv45) vs Dragonairs (Earthquake).
