@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating around ledges to Pokemon Center.
-- **Action:** Go South to Row 24, then East to (23, 24).
-- **Reasoning:** Direct East path is blocked by one-way ledges (LEDGE_HOP_LEFT) at column 20. Must loop South to Row 24 to bypass them and access the PC from the South.
+- **Status:** In wild battle (Tangela).
+- **Action:** Run from battle -> Resume navigation to (23, 24).
+- **Reasoning:** Interrupted by wild Tangela. Need to escape to continue to the Pokemon Center.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
