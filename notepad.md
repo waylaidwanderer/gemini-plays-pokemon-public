@@ -4,9 +4,9 @@
 - **Next:** Travel to Viridian City.
 
 # Current Strategy: Viridian City
-- **Location:** Viridian City (Exiting Pokemon Center).
-- **Status:** Team healed.
-- **Next Action:** Locate Viridian Gym (Likely North-East) and challenge Blue.
+- **Location:** Viridian City (29, 8).
+- **Status:** Blocked by Gramps at (30, 8).
+- **Plan:** Navigate West to (26, 8), then North to (26, 3), then East across the back of the Gym (Row 3) to reach the entrance at (32, 7).
 - **Goal:** Defeat Blue (Earth Badge).
 
 # Tile Mechanics
