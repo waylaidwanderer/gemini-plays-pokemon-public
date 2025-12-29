@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Traversing Westwards.
-- **Action:** Follow the grass path North-West to bypass walls at (17, 10).
-- **Reasoning:** The path at Row 10 is blocked by a wall at x=17, but the path continues on Row 9 (Grass/Floor).
+- **Status:** Approaching Mt. Silver.
+- **Action:** Continue West through the grass path (Row 9).
+- **Reasoning:** The path continues West. I need to traverse the entire route to reach the entrance of Mt. Silver.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
