@@ -27,5 +27,5 @@
   2. Push Boulder 6 (3, 3) -> (2, 3) -> (2, 5).
   3. Push Boulder 7 (6, 1) -> (8, 1) -> (8, 3).
   4. Push Boulder 8 (8, 14) -> (8, 7).
-- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM).
+- Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931 (Sunday 6:00 PM). Turn 29949: Strength activation attempt.
 - Lessons: Resetting by ladder works. Strength must be reactivated after map change. Manual pushing is more reliable for the first boulder.
