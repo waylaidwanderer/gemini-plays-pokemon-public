@@ -40,28 +40,16 @@
 
 # Boulder Puzzle Analysis
 - Phase: Fake Wall Testing (Started Turn 29744)
-- Hypothesis: Tile (2, 13) is a fake wall.
-  - Test: Stand at (3, 13) and press Left.
-  - Result: DENIED (Turn 29779).
-- Hypothesis: Tile (3, 8) is a fake wall.
-  - Test: Stand at (3, 9) and press Up.
+- Hypothesis: Tile (3, 0) or (2, 0) is a fake wall.
+  - Test: Stand at (3, 1) and press Up, then (2, 1) and press Up.
   - Result: [Pending].
 - Failed Hypotheses:
-  1. Row 0 is passable (Tested - Denied).
-  2. NPC Cody at (4, 1) is passable (Denied Turn 29751).
-  3. Tile (4, 2) is a fake wall (Denied Turn 29748).
-  4. Tile (6, 3) is a fake wall (Denied Turn 29747).
-  5. Tile (4, 3) is a fake wall (Denied Turn 29758).
-  6. Tile (4, 4) is a fake wall (Denied Turn 29759).
-  7. Tile (4, 5) is a fake wall (Denied Turn 29762).
-  8. Tile (4, 6) is a fake wall (Denied Turn 29763).
-  9. Tile (8, 9) is a fake wall (Denied Turn 29767).
-  10. Tile (7, 10) is a fake wall (Denied Turn 29768).
-  11. Tile (7, 11) is a fake wall (Denied Turn 29770).
-  12. Tile (9, 16) is a fake wall (Denied Turn 29773).
-  13. Tile (4, 7) is a fake wall (Denied Turn 29775).
-  14. Tile (6, 2) is a fake wall (Denied Turn 29777).
-  15. Tile (2, 13) is a fake wall (Denied Turn 29779).
+  1. Row 0 (5,0), (7,0), (8,0), (9,0) are passable (Denied).
+  2. NPC Cody at (4, 1) is passable (Denied).
+  3. Tile (4, 2)-(4, 7) are fake walls (Denied).
+  4. Tile (6, 2), (6, 3) are fake walls (Denied).
+  5. Tile (8, 9), (7, 10), (7, 11), (9, 16) are fake walls (Denied).
+  6. Tile (2, 13) is a fake wall (Denied).
 
 # Navigation Insights
 - 1F Partition: Row 11 is a solid wall from (2,11) to (9,11).
