@@ -17,7 +17,8 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24791)
-- **Status:** Surfing West on Route 20 towards Cinnabar Island.
-- **Goal:** Reach Cinnabar Island to Fly to Viridian City.
-- **Next:** Surf to (0, 16) and exit map.
+# Reflection (Turn 24792)
+- **Status:** Standing on platform (38, 11) in Route 20.
+- **Problem:** Attempted to surf using pathfinder, but failed because I wasn't surfing yet.
+- **Action:** Manually interact with water to start Surfing.
+- **Next:** Surf West to Cinnabar Island.
