@@ -20,6 +20,7 @@
 # Strategy: Boulder Puzzle
 - Goal: Drop all three boulders into pits.
 - Puzzle Start Turn: 29931.
+- Plan:
+  1. Solve the puzzle using optimized BFS.
+  2. Execute sequence.
 - Verified Walls: (4, 5), (9, 13), (2, 13).
-- Current Phase: Testing Row 0 passability to find push points for Row 1 boulders.
-- Test: Attempt to move to (6, 0) from (6, 1).
