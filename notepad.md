@@ -4,11 +4,11 @@
 - **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
 
 # Current Strategy: Post-Game
-- **Location:** Victory Road Gate (Reception Gate).
-- **Status:** Trying to exit West to Route 28.
-- **Action:** Test Warp at (1, 7) by walking DOWN onto it or into the wall below.
-- **Reasoning:** Walking Left onto (1, 7) didn't warp. The tile is "WARP_CARPET_DOWN", suggesting a directional trigger from the North, or potentially interacting with the boundary below.
-- **Goal:** Trigger Warp to Route 28.
+- **Location:** Route 28.
+- **Status:** Exploring Westwards.
+- **Action:** Move West across Route 28.
+- **Reasoning:** Successfully entered Route 28. Mt. Silver should be at the far West end.
+- **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
