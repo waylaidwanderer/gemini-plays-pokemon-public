@@ -1,27 +1,21 @@
 # Tile Mechanics (Global)
 - FLOOR: Passable. Standard movement.
-- WALL: Impassable silver blocks. Note: (7, 11) is a FAKE WALL (actually FLOOR).
-- PIT: Player falls to 1F. Boulders falling in create bridges on 1F.
-- LADDER: Warp between floors. Resets boulder positions. Deactivates Strength.
+- WALL: Impassable silver blocks.
+- Verified REAL Walls: (6, 0), (7, 11), (8, 9), (7, 10).
+- Verified FLOOR: (7, 12), (7, 13).
 
 # Blackthorn Gym 2F Puzzle Analysis
 - Start Turn: 30151
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs (Solid): Cody (4, 1), Fran (4, 11).
-- Key Barriers: 
-  - (8, 9) and (8, 8) are confirmed REAL WALLS.
-  - (6, 0) is a confirmed REAL WALL.
-  - (7, 11) is confirmed FAKE WALL (FLOOR) (Turn 30145).
-- Hypotheses:
-  - (7, 10) is FAKE WALL (FLOOR).
-  - (5, 10) or (6, 10) might be involved.
+- Problem: B8 is currently blocked from reaching P3 by real walls at (8, 9) and (7, 10).
 
-# Strategy: Systematic Solver
-1. Reactivate Strength (Done).
-2. Verify (7, 11) and (7, 10) by walking on them.
-3. Update solver with verified floor tiles and find solution.
+# Strategy: Fake Wall Identification
+1. Use analyze_missing_links to test which silver blocks must be floor for a solution to exist.
+2. Systematically test those tiles by walking on them or pushing boulders into them.
+3. Once the 'fake' path is found, execute the solution.
 
 # Progress Log
-- Turn 30157: (6, 0) confirmed as REAL WALL.
-- Turn 30159: Corrected pathing to avoid trainer at (4, 1). Heading to (7, 11).
+- Turn 30160: (7, 11) confirmed as REAL WALL.
+- Turn 30161: Moving to (8, 15) to prepare for B8 pushes while analyzing map links.
