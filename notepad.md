@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Victory Road (2F).
-- **Status:** Navigating to 1F Ladder.
-- **Action:** Pathing to Bottom Loop (Row 42) -> Ledge Hop Left at (6, 41) -> Ladder (1, 35).
-- **Reasoning:** Direct left path is blocked. Must traverse the bottom loop to cross from East side to West side via one-way ledges.
+- **Status:** Reached West Side (Past Ledges).
+- **Action:** Walk North to Ladder (1, 35).
+- **Reasoning:** Successfully crossed the one-way ledges. The path to the 1F ladder is now clear to the north.
 - **Goal:** Reach Ladder (1, 35) -> 1F.
 
 # Tile Mechanics
