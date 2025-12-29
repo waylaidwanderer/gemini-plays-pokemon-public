@@ -24,7 +24,6 @@
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
 
 # Boulder Puzzle Decisive Action Phase
-- Plan: Use BFS with multi-tile 'fake wall' hypotheses to find the push sequence.
-- Hypotheses to test: {(7,0), (6,2)}, {(4,8), (3,8)}.
+- Plan: Use the solve_blackthorn_boulders tool to find the exact push sequence and execute it.
 - Puzzle Start: Turn 29800.
 - Decisive Phase Start: Turn 29851.
