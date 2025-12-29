@@ -9,8 +9,13 @@
 - **Opponent:** Leader Blue.
 - **Defeated:** Pidgeot, Alakazam.
 - **My Pokemon:** Kunai (Sneasel Lv26).
-- **Event:** Handling move learning (Rejecting Faint Attack).
-- **Next:** Confirm "Stop learning" prompt, then see next opponent.
+- **Event:** Confirmed rejection of Faint Attack.
+- **Next:** Identify incoming Pokemon and switch if necessary.
+- **Matchups:**
+  - **Rhydon:** Switch to Gyarados (Surf).
+  - **Arcanine:** Switch to Gyarados (Surf).
+  - **Exeggutor:** Stay with Kunai (Shadow Ball).
+  - **Gyarados:** Switch to Muscle (Thunderpunch).
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
