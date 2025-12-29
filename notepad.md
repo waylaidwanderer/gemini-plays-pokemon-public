@@ -21,3 +21,9 @@
 
 # Progress Log
 - Turn 30121: Dialogue cleared. B8 marker corrected. Reset initiated.
+
+# Hypothesis Testing: Boulder 8 Path
+- Observation: Mental Map shows WALL at (8, 9) and (8, 8).
+- Hypothesis: Tiles (8, 9) and (8, 8) are actually FLOOR, allowing Boulder 8 to reach pit (8, 7).
+- Test: Push Boulder 8 north from (8, 11) to (8, 7).
+- Step 1: Push to (8, 10). (In progress)
