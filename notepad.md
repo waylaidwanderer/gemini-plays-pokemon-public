@@ -27,3 +27,13 @@
 - Column 8 Wall: Rows 4, 8-9.
 - Column 9 Wall: Rows 4, 12-17.
 - NPCs: Cody (4, 1), Fran (4, 11). Both solid.
+
+# Observation: Row 0 Collision
+- Confirmed Turn 30291: Row 0 tiles are solid WALLs. They cannot be traversed.
+
+# Bridge Mapping Hypothesis (2F -> 1F)
+- 2F Pit (8, 7) -> 1F Tile (8, 7)?
+- 2F Pit (8, 3) -> 1F Tile (8, 3)?
+- 2F Pit (2, 5) -> 1F Tile (2, 5)?
+- Problem: The bridge to Clair on 1F is at (3, 7), (4, 7), (5, 7) and (4, 3). None of these match the pit coordinates.
+- Task: Verify the exact coordinates of the bridge and any filled pits on 1F.
