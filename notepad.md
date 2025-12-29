@@ -22,3 +22,6 @@
 - (27, 27): Warden's Home
 - (7, 35): To Route 19
 - (8, 35): To Route 19
+- **Status:** Trapped in Fuchsia City (1, 32).
+- **Action:** Using Fly to escape to Fuchsia City Pokemon Center.
+- **Next Step:** Talk to the Officer in the Route 19 Gatehouse.
