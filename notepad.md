@@ -10,12 +10,13 @@
 - Post-Blackout Plan: Heal at Blackthorn Center, buy Revives if possible, and level up the team.
 
 # Battle Status: Clair
-- Opponent: Kingdra (Lv40) - HP is low (approx 25-30%).
+- Opponent: Kingdra (Lv40) - HP approx 25-30%, Status: Asleep.
+- Progress: 1x Dragonair (Lv37) defeated.
 - Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Icarus (16) FNT.
-- Active: Kimchi (21) 1 HP - Goal: Land Sleep Powder.
+- Active: Kimchi (21) 1 HP.
 - Last Stand: Ravioli (10) 27 HP.
 
-# Type Effectiveness (Gen 2)
+# Type Effectiveness (Verified by Battle Analyst)
 - Dragon resists: Fire, Water, Electric, Grass.
 - Dragon weak to: Dragon, Ice.
 - Normal, Ground, Rock: Neutral.
@@ -24,3 +25,4 @@
 - Puzzle Bypass: Check perimeters before committing to complex puzzles.
 - Battle Strategy: Use status moves (Sleep) and fixed damage (Night Shade) to overcome level gaps.
 - Resource Management: Always carry Revives and healing items before a Gym Leader.
+- Pathfinding: Don't assume a boulder puzzle is mandatory; explore all paths first.
