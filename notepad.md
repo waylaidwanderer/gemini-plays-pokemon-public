@@ -6,7 +6,7 @@
 - Strength must be re-activated after falling through a pit.
 
 # Blackthorn Gym Layout & Boulders
-- 2F Boulders (Initial): Boulder 6 (3,3), Boulder 7 (6,1), Boulder 8 (8,14).
+- 2F Boulders (Current): Boulder 6 (3,3), Boulder 7 (7,1), Boulder 8 (8,14).
 - 2F Pits: Pit (2,5), Pit (8,3), Pit (8,7).
 
 # Boulder Puzzle Analysis
@@ -17,8 +17,8 @@
   - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
   - NPCs: Cody (4,1)
 - Hypothesis: One of the remaining Row 0 tiles (0,0), (1,0), (4,0), (6,0) is passable.
-- Task: Detour to (6, 1) and test (6, 0).
-- Current Turn: 29813.
+- Task: Test (6, 0) from (6, 1).
+- Current Turn: 29817.
 
 # Strategy: Gym Leader Clair
 - Lead GNEISS (Lv45) vs Dragonairs (Earthquake).
