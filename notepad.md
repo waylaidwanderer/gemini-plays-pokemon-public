@@ -17,8 +17,9 @@
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
 
-# Reflection (Turn 24764)
-- **Status:** In battle on Route 20 (6_6). Overshot Seafoam Islands.
-- **Navigation:** Escape battle, then Surf East/North to (38, 11).
-- **Observation:** Seafoam Islands entrance is at x=38/39, blocked by a wall at x=35. Must approach from East.
-- **Next:** Run from battle, backtrack East.
+# Reflection (Turn 24766)
+- **Status:** Surfing East on Route 20. Found Seafoam Islands/Gym.
+- **Location:** Entrance detected at x=38. Land at x=36.
+- **Lore:** Blaine is here. This is the Cinnabar Gym (relocated).
+- **Next:** Land on the island and enter the cave.
+- **Action Required:** Surf to (36, 12).
