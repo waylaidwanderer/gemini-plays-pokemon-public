@@ -11,13 +11,13 @@
 
 # Boulder Puzzle Analysis
 - Confirmed Walls:
-  - Row 0: (2,0), (3,0), (5,0), (7,0), (8,0), (9,0)
+  - Row 0: (0,0), (1,0), (2,0), (3,0), (4,0), (5,0), (6,0), (7,0), (8,0), (9,0)
   - Col 4: (4,2)-(4,7)
   - Col 6: (6,2), (6,3)
   - Misc: (8,9), (7,10), (7,11), (9,16), (2,13)
   - NPCs: Cody (4,1)
-- Hypothesis: One of the remaining Row 0 tiles (0,0), (1,0), (4,0), (6,0) is passable.
-- Task: Test (6, 0) from (6, 1).
+- Hypothesis: Row 0 is entirely impassable (Tested 6,0 and 5,0).
+- Task: Push boulders into pits.
 - Current Turn: 29817.
 
 # Strategy: Gym Leader Clair
