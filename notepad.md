@@ -3,12 +3,13 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Bill's Sister's House (Fuchsia City).
-- **Goal:** Find access to Route 19 Beach.
-- **Hypothesis:** This house is likely just lore/flavor, but checking NPCs to be sure.
+- **Location:** Bill's Sister's House (17_9).
+- **Goal:** Find access to Route 19 West (Beach).
+- **Hypothesis:** Access is via a path on the far West side of Fuchsia City (West of the Gym).
 - **Immediate Plan:**
-  1. Talk to Pokefan F.
-  2. Exit and explore West Fuchsia City for path to beach.
+  1. Exit House.
+  2. Travel West past the Gym (at 8, 27).
+  3. Search for a southbound path in columns 0-7.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
