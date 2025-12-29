@@ -23,9 +23,11 @@
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
 - Current Status: At (3, 6) on 2F. Strength activation in progress.
 - Plan: 
-  1. Activate Strength: Start -> Down (to POKEMON) -> A -> Up x5 (reset) -> Down x4 (GNEISS) -> A -> Down x2 (STRENGTH) -> A -> 3 Bs.
-  2. Navigate to (3, 2) to push Boulder 6 (3, 3) DOWN.
-  3. Path for Boulder 6: (3, 3) -> (3, 13) -> (2, 13) -> (1, 13) -> (1, 8) -> (0, 8) -> (0, 6) -> (1, 6) -> (1, 3) -> (2, 3) -> (2, 5).
+  1. Activate Strength: Start -> Up x5 (to POKEDEX) -> Down (to POKEMON) -> A -> Down x4 (to GNEISS) -> A -> Down x2 (to STRENGTH) -> A -> 3 Bs (exit).
+  2. Push Boulder 6 (3, 3) down to (3, 13).
+  3. Push Boulder 6 (3, 13) left to (1, 13).
+  4. Push Boulder 6 (1, 13) up to (1, 5).
+  5. Push Boulder 6 (1, 5) right to (2, 5) PIT.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911. Puzzle Start: Turn 29931.
-- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12, blocking direct left pushes. Detour through row 13 and column 0 is necessary for B6.
-- Failed Strength Activation Attempts: 4 (Last turn: A pressed on Gneiss but menu didn't behave as expected).
+- Lessons: Resetting by ladder works. Strength must be reactivated after map change. Column 4 is a wall from row 2-12. Detour through row 13 and column 1 is the only way for B6.
+- Failed Strength Activation Attempts: 5. I will be extremely slow and precise.
