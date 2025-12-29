@@ -44,3 +44,4 @@
 - Turn 30326: Gneiss fainted to Surf. Calcifer and Gneiss are both FNT.
 - Strategy: Send out Kimchi (Lv21) for Sleep Powder (75% acc) or Xenon (Lv21) for Hypnosis (60% acc).
 - Goal: Disable Kingdra to allow for chip damage or a lucky turnaround.
+- Turn 30327: Gneiss fainted. Switching to Kimchi (Lv21) to attempt Sleep Powder (75% acc). Cursor is on Kimchi.
