@@ -1,9 +1,9 @@
 # Tile Mechanics (Global)
 - FLOOR: Traversable. Standard collision.
-- WALL: Impassable. Silver blocks or solid boundaries.
+- WALL: Impassable.
 - PIT: Warp tile. Falling through takes you to the floor below.
 - LADDER: Warp tile. Transfers between floors.
-- ICE: Slippery movement. Causes sliding until an obstacle is hit.
+- ICE: Slippery movement.
 - BOULDER BRIDGES: Boulders in pits act as passable FLOOR on the floor below.
 - Strength: Must be re-activated after falling through a pit or changing maps.
 
@@ -24,9 +24,7 @@
 - Vs Kingdra: Calcifer (Smokescreen) -> GNEISS (Defense Curl + Rollout).
 
 # Boulder Puzzle Decisive Action Phase
-- Plan: Reset boulders by leaving 2F, then use BFS to find the push sequence.
-- Step 1: Reach Ladder at (1, 7).
-- Step 2: Transition to 1F and back. (COMPLETED)
-- Step 3: Run BFS simulation for all 3 boulders.
+- Plan: Use BFS with multi-tile 'fake wall' hypotheses to find the push sequence.
+- Hypotheses to test: {(7,0), (6,2)}, {(4,8), (3,8)}.
 - Puzzle Start: Turn 29800.
 - Decisive Phase Start: Turn 29851.
