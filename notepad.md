@@ -21,5 +21,6 @@
 
 # Boulder Puzzle Strategy
 - Goal: Push all three boulders into pits on 2F to create a path to Gym Leader Clair on 1F.
-- Current Status: Strength is active. Boulders 6 and 7 are near their starting areas on 2F. Heading to right side of 2F for Boulder 8.
+- Current Status: Strength NOT active. Activating Strength via custom tool. Boulders 6, 7, and 8 are at their initial positions.
+- Plan: Activate Strength, then use solve_blackthorn_boulders tool to complete the puzzle.
 - Start Turn: 29800. Decisive Phase Start: Turn 29911.
