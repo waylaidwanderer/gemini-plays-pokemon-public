@@ -10,9 +10,9 @@
 - Pits: P1 (2, 5), P2 (8, 3), P3 (8, 7).
 - NPCs: Cody (4, 1), Fran (4, 11).
 
-# Strategy: Decisive Action Phase
-1. Reset floor via ladder (Done Turn 30224).
-2. Reactivate Strength.
-3. Use specialized solver (boulder_pathfinder_v2) to find the exact push sequence.
-4. Execute pushes based on confirmed FLOOR paths in XML.
-5. Goal: Fill all three pits.
+# Strategy: Visual Confirmation and Reactivation
+1. Navigate to (5, 1) to confirm B7 at (6, 1).
+2. Navigate to (3, 4) to confirm B6 at (3, 3).
+3. Navigate to (8, 15) to confirm B8 at (8, 14).
+4. Reactivate Strength on B8.
+5. Use specialized solver to find the definitive path.
