@@ -156,5 +156,31 @@
         "action_counter": 29777
       }
     ]
+  },
+  "solve_blackthorn_boulders": {
+    "description": "Calculates the sequence of button presses to solve the Blackthorn Gym boulder puzzle. This tool uses a breadth-first search (BFS) to find the shortest path of pushes to move all three boulders into their respective pits, considering all obstacles and the requirement to detour around boulders to push them. Returns a JSON array of buttons.",
+    "input_schema": {
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import collections\nimport json\n\ndef solve():\n    # Map dimensions\n    width, height = 10, 18\n    \n    # Grid representation (W=Wall, .=Floor, O=Pit, L=Ladder, F=NPC, M=NPC)\n    grid_str = [\n        \"WWWWWWWWWW\", # 0\n        \"..........\", # 1\n        \"WW..W.W...\", # 2\n        \"....W.W.O.\", # 3\n        \"....W.WWWW\", # 4\n        \"..O.W.....\", # 5\n        \"....W.WW..\", # 6\n        \".L..W...O.\", # 7\n        \"..WWW...W.\", # 8\n        \"....W..LW.\", # 9\n        \"..W.WW.W..\", # 10\n        \"..W....W..\", # 11\n        \"..W.WW...W\", # 12\n        \"..W......W\", # 13\n        \"..W....W.W\", # 14\n        \"..W....W.W\", # 15\n        \"..W..W...W\", # 16\n        \"..W..W...W\"  # 17\n    ]\n    \n    passable = set()\n    pits = set()\n    for y, row in enumerate(grid_str):\n        for x, char in enumerate(row):\n            if char in ['.', 'L']:\n                passable.add((x, y))\n            elif char == 'O':\n                pits.add((x, y))\n\n    # NPCs at (4, 1) and (4, 11) are walls\n    if (4, 1) in passable: passable.remove((4, 1))\n    if (4, 11) in passable: passable.remove((4, 11))\n\n    # Initial boulder positions\n    # Boulder 6: (3, 3), Boulder 7: (6, 1), Boulder 8: (8, 14)\n    b_init = tuple(sorted([(3, 3), (6, 1), (8, 14)]))\n    \n    # Start position from input\n    start_p = (int(input_data['start_x']), int(input_data['start_y']))\n    \n    # BFS state: (player_pos, tuple_of_active_boulders)\n    # Note: Boulders in pits are removed from the tuple.\n    start_state = (start_p, b_init)\n    queue = collections.deque([(start_state, [])])\n    visited = {start_state}\n    \n    while queue:\n        (p, b_list), path = queue.popleft()\n        \n        # Success condition: all boulders in pits\n        if not b_list:\n            print(json.dumps(path))\n            return\n\n        # Limit search depth for performance\n        if len(path) > 200: continue\n\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = p[0] + dx, p[1] + dy\n            move_name = { (0,1): \"Down\", (0,-1): \"Up\", (1,0): \"Right\", (-1,0): \"Left\" }[(dx, dy)]\n            \n            if (nx, ny) in passable:\n                if (nx, ny) in b_list:\n                    # Try to push\n                    bx, by = nx + dx, ny + dy\n                    if (bx, by) in pits:\n                        # Boulder falls in\n                        new_b = tuple(sorted([b for b in b_list if b != (nx, ny)]))\n                        if ((nx, ny), new_b) not in visited:\n                            visited.add(((nx, ny), new_b))\n                            queue.append((((nx, ny), new_b), path + [move_name]))\n                    elif (bx, by) in passable and (bx, by) not in b_list:\n                        # Regular push\n                        new_b = tuple(sorted([ (bx, by) if b == (nx, ny) else b for b in b_list ]))\n                        if ((nx, ny), new_b) not in visited:\n                            visited.add(((nx, ny), new_b))\n                            queue.append((((nx, ny), new_b), path + [move_name]))\n                else:\n                    # Regular move\n                    if ((nx, ny), b_list) not in visited:\n                        visited.add(((nx, ny), b_list))\n                        queue.append((((nx, ny), b_list), path + [move_name]))\n\n    print(json.dumps({\"error\": \"No solution found\"}))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-29T01:11:16.604Z",
+        "action_counter": 29868
+      }
+    ]
   }
 }
