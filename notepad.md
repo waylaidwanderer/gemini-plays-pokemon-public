@@ -18,8 +18,9 @@
 - Goal: Drop all three boulders into pits.
 - Current Status: B8 is at (8, 12). Player at (8, 13). Strength active.
 - Plan:
-  1. Clear "Boulders may now be moved!" text.
-  2. Push B8 UP to (8, 11).
-  3. Test if (9, 13) or (8, 9) are passable.
+  1. Clear "Boulders may now be moved!" text with multiple A presses.
+  2. Test tile passability for (9, 13), (6, 0), and (4, 5) to find the "fake" wall.
+  3. Once the grid is verified, solve the puzzle.
 - B8 Path Hypothesis: (8, 12) -> (8, 11) -> (8, 10).
   - If (8, 9) is a wall, B8 is stuck unless Column 9 or 7 is accessible.
+- Verification: I am in a dialogue loop because I'm pressing A while facing the boulder. I must clear the text and then move away or push.
