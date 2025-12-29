@@ -10,9 +10,9 @@
 - **Defeated:** Pidgeot, Alakazam.
 - **Current Enemy:** Arcanine (Lv58).
 - **My Pokemon:** Qaagmaqnjw (Gyarados Lv35).
-- **Situation:** Gyarados took 70 dmg from Extremespeed. Has 44 HP left. Another hit kills.
-- **Action:** Switch to Muscle (Machoke Lv82).
-- **Reasoning:** Muscle can tank Extremespeed easily and OHKO Arcanine. Saving Gyarados for Rhydon if needed.
+- **Situation:** Gyarados in critical danger. Arcanine has ~60% HP.
+- **Action:** Switching to Muscle (Machoke Lv82).
+- **Plan:** Tank the Extremespeed (Muscle has 251 HP). OHKO Arcanine with Cross Chop or Strength.
 - **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
