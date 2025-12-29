@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Route 28.
-- **Status:** Exploring Westwards.
-- **Action:** Navigate via (26, 8) ledge hop to continue West.
-- **Reasoning:** The path West is blocked by walls on Rows 6-7. Must go South to Row 8 and hop the ledge at (26, 8) to proceed.
+- **Status:** Traversing Westwards.
+- **Action:** Walk West via the grass path (Rows 10-11).
+- **Reasoning:** A land path exists south of the water. Walking is preferred to avoid Surf menu interactions.
 - **Goal:** Reach Mt. Silver Entrance.
 
 # Tile Mechanics
