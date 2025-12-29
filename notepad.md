@@ -3,13 +3,13 @@
 - **Started:** Turn 24398.
 - **Badges:** 14/16 (Soul Badge obtained). Next: Volcano (Blaine).
 - **Status:** Defeated Janine. Healed. Heading to Route 19.
-- **Location:** Bill's Sister's House (17_9).
-- **Goal:** Find access to Route 19 West (Beach).
-- **Hypothesis:** Access is via a path on the far West side of Fuchsia City (West of the Gym).
+- **Location:** Fuchsia City (17_5).
+- **Observation:** West side of Fuchsia City (Cols 0-6) appears blocked by walls on the Map.
+- **Revised Hypothesis:** Access to Route 19 Beach IS via the Gatehouse (Left Exit), and I likely missed the Surfable water or a path.
 - **Immediate Plan:**
-  1. Exit House.
-  2. Travel West past the Gym (at 8, 27).
-  3. Search for a southbound path in columns 0-7.
+  1. Return to Route 19 Gatehouse (South).
+  2. Take the Left Exit (4, 7).
+  3. Thoroughly inspect the area for water or a path.
 
 # Game State Notes
 - **Time:** Sunday, December 28, 2025.
