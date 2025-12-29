@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating North-West.
-- **Action:** Go East to (25, 29), North to (25, 25), then West to (20, 25).
-- **Reasoning:** Direct West path is blocked by Water. A land path exists to the North on Row 25.
+- **Status:** Navigating North along the western path.
+- **Action:** Move West to column 18, then North to (18, 21).
+- **Reasoning:** The path North on column 20 is blocked by a wall at (20, 23). Columns 18-19 are open grass/floor, allowing travel North.
 - **Goal:** Reach Pokemon Center / Cave Entrance.
 - **Goal:** Reach Mt. Silver Entrance.
 
