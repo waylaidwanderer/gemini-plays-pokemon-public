@@ -3,11 +3,12 @@
 - **Badges:** 15/16 (Volcano Badge obtained).
 - **Next:** Travel to Viridian City.
 
-# Current Strategy: Viridian Gym
+# Current Strategy: Viridian Gym - BATTLE
 - **Location:** Viridian Gym (5, 4).
-- **Status:** Standing before Blue.
-- **Plan:** Challenge and defeat Leader Blue.
-- **Goal:** Defeat Blue (Earth Badge).
+- **Status:** Battling Leader Blue.
+- **Opponent:** Leader Blue.
+- **Lead:** Muscle (Machoke Lv82).
+- **Goal:** Win the Earth Badge.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
