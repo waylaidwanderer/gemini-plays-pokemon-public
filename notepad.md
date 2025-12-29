@@ -9,9 +9,10 @@
 - Defeat Gym Leader Clair to earn the Rising Badge.
 
 # Battle Progress: Clair
-- Opponent: Kingdra (Lv40) ~40-50% HP.
-- Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Kimchi (21) 1 HP.
-- Plan: Use Icarus (Lv16) to land Sand-Attack. Lowering accuracy is the only way to potentially land Sleep Powder with Kimchi or chip away with Ravioli.
+- Opponent: Kingdra (Lv40) ~40% HP.
+- Player Status: Calcifer (47) FNT, Gneiss (45) FNT, Xenon (21) FNT, Icarus (16) FNT.
+- Remaining: Kimchi (21) 1 HP, Ravioli (10) 27 HP.
+- Note: No Revives in inventory. Fainting is imminent.
 
 # Type Effectiveness (Gen 2)
 - Dragon resists: Fire, Water, Electric, Grass.
@@ -20,5 +21,5 @@
 
 # General Lessons
 - Puzzle Bypass: Explore room perimeters before complex puzzles.
-- Battle Strategy: High-level starters can brute-force with powerful neutral moves like Return. Fixed damage (Night Shade) and accuracy reduction (Sand-Attack) are vital when underleveled.
-- Turn 30350: Xenon fainted. Choosing Icarus.
+- Battle Strategy: High-level starters are essential. Fixed damage (Night Shade) and accuracy reduction (Sand-Attack) are vital when underleveled.
+- Turn 30355: Icarus fainted. Choosing Ravioli.
