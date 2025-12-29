@@ -26,8 +26,8 @@
 # Training Log
 - Turn 30372: Whited out against Clair.
 - Turn 30412: Started Route 45 grind.
-- Milestone: Xenon Lv23 reached.
-- Resource: GNEISS Earthquake PP 0/10. HP: 61/126.
+- Milestone: Xenon Lv24 reached.
+- Resource: GNEISS Earthquake PP 0/10. HP: 30/126.
 
 # General Lessons
 - Pathfinding: Explore perimeters to bypass obstacles.
