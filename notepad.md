@@ -33,14 +33,4 @@
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv24 (Turn 30562).
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
-- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Outcome: Defeated. Xenon gained 402 EXP.
-
-# General Lessons
-- Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges. Once a ledge is jumped, you cannot return north without circling back.
-- Ledge Verification: 
-  - Jumped down at (4, 41). Attempted to move Up at (4, 42) (Turn 30686) - movement blocked. Behavior confirmed as one-way (Down).
-  - Jumped down at (2, 55). Attempted to move Up at (2, 56) (Turn 30701) - movement blocked. Behavior confirmed as one-way (Down).
-  - Jumped down at (2, 63). Attempted to move Up at (2, 64) (Turn 30703) - movement blocked. Behavior confirmed as one-way (Down).
-- Turn 30704: Encountered wild Gligar (Lv24) at (2, 64). Strategy: Switch-train Xenon with Calcifer. Outcome: Defeated. Xenon gained 185 EXP (Total EXP: 13406).
-- Turn 30712: Picked up REVIVE at (5, 66). Strategy: Continuing south on Route 45.
-- Turn 30716: Battling Hiker Timothy (Diglett Lv27) at (9, 65). Strategy: Switch-train Xenon with Calcifer.
+- Turn 30716: Battling Hiker Timothy (Diglett Lv27) at (9, 65). Strategy: Switch-train Xenon with Calcifer. Outcome: Pending.
