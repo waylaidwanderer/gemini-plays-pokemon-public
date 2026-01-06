@@ -15,7 +15,7 @@
 - Pacing: Walk back and forth in TALL_GRASS on Route 45.
 
 # Progress Tracker
-- Xenon (Lv27): 16986 EXP. Target Lv28: 17242 EXP (~256 remaining).
+- Xenon (Lv27): 17206 EXP. Target Lv28: 17242 EXP (~36 remaining).
 - Kimchi (Lv21): 7006 EXP. Target Lv22: 7577 EXP (~571 remaining).
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026).
 
