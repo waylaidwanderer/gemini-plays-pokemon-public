@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Resuming navigation to East Gap.
-- **Action:** Run from battle, then Navigate North to (11, 26) and East to (19, 26).
-- **Reasoning:** Escaping Onix. Row 28 is blocked to the East. Row 26 appears to be an open corridor allowing access to the far East column (19).
+- **Status:** Navigating to West Channel (Column 0).
+- **Action:** Navigate to (0, 35).
+- **Reasoning:** Row 28 blocks Northward movement. West side Item Ball area loops back. Investigating the "West Channel" hypothesis: Column 0 appears to be a clear corridor running North-South. To access it, I must go South to Row 35, traverse West across the bottom, and then head North along Column 0.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
