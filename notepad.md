@@ -1,17 +1,15 @@
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside.
-- **Status:** Searching for West Entrance.
-- **Action:** Explore Route 28 Eastbound.
+- **Location:** Route 28 (South-West Strip).
+- **Status:** Navigating to Water.
+- **Action:** Head East to x=14, then South to Row 14, then East to Water edge.
 - **Reasoning:** 
-  1. Entered Route 28 from Silver Cave Outside.
-  2. The goal is to find a loop back to the inaccessible West/South areas of Silver Cave Outside.
-  3. Current position is (0, 13). The path leads East.
-  4. Will investigate for any other exits or caves.
+  1. The map analysis shows a path around the wall at x=13 via Row 14.
+  2. This leads to a body of water connecting the West strip (current) to the East area (Victory Road Gate).
+  3. Crossing this water should allow access to the Northern path and the unreachable House.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Exited cave at (18, 11) (Main Entrance). 
-  2. The internal West Corridor (Column 0) was inaccessible from the main area due to ledges. It likely connects to a hidden external entrance.
-  3. Row 24 contains water. I will Surf West to search for land and a second cave entrance.
+  1. Need to explore all of Route 28 and Silver Cave.
+  2. The House at (7, 3) is a key point of interest.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
