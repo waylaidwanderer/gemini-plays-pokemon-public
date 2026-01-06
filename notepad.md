@@ -8,17 +8,12 @@
 ## Strategy: Johto League
 - Training: Grind Xenon (Lv26) and Kimchi (Lv21) to Lv30+.
 - Efficiency: Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 move/switch recommendations STRICTLY. Do not ignore agent output.
-- Logistics: Buy Max Repels and healing supplies in Blackthorn City.
 
 # Progress Tracker
 - Xenon (Lv26) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-
-# Tasks
-- Pick up item from Alan on Route 36.
-- Grab Poke Ball at (30, 28) in Dark Cave.
-- Locate the Move Deleter (Blackthorn City) if needed.
+- Current Task: Fly to Blackthorn City (Started Turn 30941)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
