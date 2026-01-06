@@ -5,14 +5,13 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Executing "The Grand Loop" to West Edge.
-- **Action:** Navigate to (3, 21), then South to (3, 32).
+- **Status:** Navigating to Eastern Section.
+- **Action:** Navigate to (15, 26).
 - **Reasoning:** 
-  1. Northbound progress is blocked by "Floor_Up_Wall" tiles at Row 28/34 (Center/East) and Row 14/20 (Center). 
-  2. The only open Northbound path is likely Column 0 (West Edge).
-  3. To reach Col 0, I must reach the bottom open area (Row 32/35).
-  4. The only path to the bottom from here is via the West side ledges (Col 3).
-  5. Path: (8, 27) -> North to Row 21 -> West to Col 3 -> South to Row 32 -> West to Col 0 -> North to Destination.
+  1. West (Col 3) and Center (Col 8) are blocked Northbound by one-way ledges.
+  2. West Edge (Col 0) is inaccessible due to walls on Col 1.
+  3. East Side (Col 14+) is accessible via the gap at (13, 26).
+  4. Mental map suggests Col 15 might allow Northbound progress past Row 20 and Row 14.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
