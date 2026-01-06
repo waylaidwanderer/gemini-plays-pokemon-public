@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
 - **Status:** Battling Wild Ponyta.
-- **Action:** Confirm "USE" to throw Ultra Ball.
+- **Action:** Select PACK -> Ultra Ball -> Use.
 - **Reasoning:** 
-  1. Selected Ultra Ball in menu.
-  2. "USE/QUIT" menu is open with "USE" selected.
-  3. Press A to throw.
+  1. First ball failed but was "close".
+  2. Ponyta is at full HP. Machoke is too strong to attack safely.
+  3. Cursor is already on PACK, so I will press A to enter, then throw another Ultra Ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
