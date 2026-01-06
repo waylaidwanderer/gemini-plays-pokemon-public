@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Exploring North into unseen area.
-- **Action:** Move North from (15, 16).
-- **Reasoning:** Current position is (15, 16). The area to the North is unexplored. Moving Up to reveal the map.
+- **Status:** Backtracking from Dead End.
+- **Action:** Move South to Row 32, then West to (5, 30).
+- **Reasoning:** North path at Column 12 was a dead end (blocked by ledge). North path at Column 15 is blocked by ledges. Attempting to access the West side via Row 32 to reach Item Ball at (5, 30) and find a path North.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
