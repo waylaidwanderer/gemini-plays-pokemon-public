@@ -1,12 +1,13 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
 - **Status:** Battling Wild Rapidash.
-- **Action:** Switch to Balls Pocket -> Throw Ultra Ball.
+- **Action:** Select Ultra Ball (Down -> A).
 - **Reasoning:** 
-  1. Rapidash is still in battle (Lv 40 vs Lv 83).
-  2. Currently in Items Pocket (Pack opened).
-  3. Need to switch to Balls Pocket to use Ultra Balls.
-  4. Ultra Ball count is ~8.
+  1. Currently in Balls Pocket. Cursor on Great Ball.
+  2. Screenshot shows order: Great -> Ultra -> Master.
+  3. Game State shows order: Great -> Master -> Ultra (likely alphabetical).
+  4. Trusting Screenshot, but proceeding cautiously to avoid Master Ball usage.
+  5. Action `Down` -> `A` opens the submenu. I will verify the selection before using.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
