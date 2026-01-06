@@ -6,7 +6,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Navigate South to water (Row 24), then Surf West.
+- **Action:** Move South to Row 31 (jumping ledges), then West to Column 2.
+- **Reasoning:** 
+  1. Northward path at Col 5 is blocked by walls at Row 25.
+  2. Column 3 is a wall blocking Westward movement until Row 30.
+  3. Row 30 contains "FLOOR_UP_WALL" tiles which are likely one-way Southbound ledges.
+  4. Jumping down to Row 31 will allow crossing West through the gap in the wall at (3, 31) to access the West Corridor (Cols 0-2).
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
   2. The internal West Corridor (Column 0) was inaccessible from the main area due to ledges. It likely connects to a hidden external entrance.
