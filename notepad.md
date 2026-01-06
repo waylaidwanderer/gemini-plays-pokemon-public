@@ -6,8 +6,8 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
 - **Status:** Navigating to West Channel (Column 0).
-- **Action:** Navigate to (0, 35).
-- **Reasoning:** Row 28 blocks Northward movement. West side Item Ball area loops back. Investigating the "West Channel" hypothesis: Column 0 appears to be a clear corridor running North-South. To access it, I must go South to Row 35, traverse West across the bottom, and then head North along Column 0.
+- **Action:** Navigate to (0, 35) via Row 32.
+- **Reasoning:** Row 28 blocks Northward movement. Current position `(11, 30)` is blocked South/West. Detouring East to `(13, 31)` to access Row 32, then heading West to the channel at Column 0.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
