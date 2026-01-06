@@ -1,13 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (South Area).
-- **Status:** Moving to Water Edge.
-- **Action:** Move Left to (24, 28) to reach the water.
+- **Status:** Initiating Surf.
+- **Action:** Press A to Surf at (24, 28).
 - **Reasoning:** 
-  1. Caught Arbok. Dialogue closed.
-  2. Resuming path to the main area (Pokemon Center/Cave Entrance).
-  3. The path requires Surfing North from the water at (23, 28).
-  4. Moving to the water's edge now.
+  1. Reached water edge.
+  2. Crossing water to return to the main landmass (Pokemon Center area).
+  3. Will then explore the North-West area for the path to the House.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
-  2. Explore North-West of Silver Cave Outside for the House entrance.
+  2. Explore North-West of Silver Cave Outside.
