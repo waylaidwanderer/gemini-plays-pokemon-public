@@ -15,7 +15,7 @@
 - Xenon (Lv27) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-- Current Task: Training on Route 45 (Turn 31040)
+- Current Task: Training on Route 45 (Turn 31046)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
@@ -24,4 +24,4 @@
 - Strength Mechanic: Strength must be used on each individual boulder; it is not a persistent status.
 - Tool Hygiene: use_item_from_bag_v2 requires the bag to be open. Always use press_menu_buttons to navigate to the Pack first.
 - Fly Map Logic: Destination names MUST be verified in Screen Text after every button press. The cursor does not follow a simple geographical grid.
-- Input Precision: Rushing menus leads to errors. Verify every screen change before the next input.
+- Input Precision: Rushing menus leads to errors. Verify every screen change before the next input. Always use select_battle_option for main menu navigation.
