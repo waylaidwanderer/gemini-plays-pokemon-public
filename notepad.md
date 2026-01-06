@@ -19,3 +19,10 @@
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
+
+# Reflection (Turn 25132)
+- **Status:** Exploring Mt. Silver Cave 1F.
+- **Hygiene:** Notepad and Map Markers are up to date.
+- **Goals:** Clear. Exploring North to find Red.
+- **Strategy:** Testing if FLOOR_UP_WALL tiles at Row 20 are traversable from the South.
+- **Tools:** Current set is sufficient.
