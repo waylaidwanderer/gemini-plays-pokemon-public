@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to East Side.
-- **Action:** Move Down to hop ledge, then East to (15, 29).
-- **Reasoning:** Abandoned Escape Rope. Escaping the West ledge area to reach the East side, where the path North seems open (Columns 14-17) and another Item Ball is located.
+- **Status:** Exploring North via West Side.
+- **Action:** Navigate to (5, 21).
+- **Reasoning:** Row 20 and Row 28 are blocked by FLOOR_UP_WALL tiles in the East and Center. However, Column 5 at Row 20 is unseen. Hypothesizing that the path North is via the West side (Column 5).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
