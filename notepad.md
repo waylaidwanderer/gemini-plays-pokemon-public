@@ -1,8 +1,3 @@
-# Quest Log
-- **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Searching for West Entrance.
-- **Next:** Traverse West Corridor to Red.
-
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
