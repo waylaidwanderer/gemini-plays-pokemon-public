@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Retrieving Item Ball.
-- **Action:** Hop ledge at (3, 27) and navigate to (5, 30).
-- **Reasoning:** Reached the launch point at (3, 26). Hopping down allows access to the Item Ball. After retrieving it, I will loop back to the North path.
+- **Status:** Looping back to West Ledge.
+- **Action:** Navigate to (3, 26) via East path (Col 9).
+- **Reasoning:** I am below the ledges at Row 31. To reach the Item Ball at (5, 30), I must loop back around: East to Col 9, North to Row 25, West to Col 3, then South to (3, 26) to re-enter the ledge area from the top.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
