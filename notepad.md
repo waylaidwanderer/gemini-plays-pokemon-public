@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Pokemon Center.
-- **Status:** Exiting to Silver Cave Outside.
-- **Action:** Move Down to exit the building.
+- **Location:** Silver Cave Outside (Main Area).
+- **Status:** Navigating to NW Water.
+- **Action:** Move West from PC entrance to reach water (approx x=18), then Surf.
 - **Reasoning:** 
-  1. Healing complete. Dialogue closed.
-  2. Exiting to the main map.
-  3. Next Plan: From the PC entrance at (23, 19), move West to the water, then Surf North/West into the unexplored area (x<14).
+  1. Exiting Pokemon Center.
+  2. The North-West area of the map is unexplored and likely contains the path to the Route 28 House.
+  3. Access requires Surfing from the main area.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Find the path to the Route 28 House (likely via NW Silver Cave Outside).
