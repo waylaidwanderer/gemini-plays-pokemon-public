@@ -5,10 +5,14 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Executing Grand Loop.
-- **Start Time:** Turn 25238 (Jan 6, 2026).
-- **Action:** Navigate to (15, 35), then West to (0, 35).
-- **Reasoning:** Northward progress is blocked on all columns (0, 3, 8, 15) by one-way ledges (Row 14, 20, 25). The only viable path to the North appears to be Column 0, which connects to the bottom corridor (Row 35). To reach (0, 35), I must loop through the East side (Col 15) via the gap at Row 26, then head South to Row 35.
+- **Status:** Executing "The Grand Loop" to West Edge.
+- **Action:** Navigate to (3, 21), then South to (3, 32).
+- **Reasoning:** 
+  1. Northbound progress is blocked by "Floor_Up_Wall" tiles at Row 28/34 (Center/East) and Row 14/20 (Center). 
+  2. The only open Northbound path is likely Column 0 (West Edge).
+  3. To reach Col 0, I must reach the bottom open area (Row 32/35).
+  4. The only path to the bottom from here is via the West side ledges (Col 3).
+  5. Path: (8, 27) -> North to Row 21 -> West to Col 3 -> South to Row 32 -> West to Col 0 -> North to Destination.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
