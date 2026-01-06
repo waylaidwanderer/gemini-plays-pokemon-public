@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28 (Gatehouse Area).
-- **Status:** Repositioning to West.
-- **Action:** Move to (24, 8) via the Ledge at (26, 8).
+- **Location:** Route 28 (Middle Section).
+- **Status:** Initiating Surf to West.
+- **Action:** Press A to Surf, then move West to x=19.
 - **Reasoning:** 
-  1. The "hidden path" behind the sign was a bust (tree not cuttable).
-  2. Map analysis reveals a path to the West side of the route by crossing the water at Row 8/9.
-  3. I will hop the ledge at (26, 8) to reach the water's edge, then Surf West to the gap at x=17.
+  1. Reached the water's edge at (24, 8).
+  2. Need to cross the water gap to reach the western landmass.
+  3. The goal is to reach the House at (7, 3), which requires going North from the West side (since the East side is blocked by ledges).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
-  2. Path seems to be: Surf West from Gatehouse area -> Pass gap at x=17 -> Head North/West.
+  2. Path seems to be: Surf West -> Pass gap at x=17 -> Head North/West.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
