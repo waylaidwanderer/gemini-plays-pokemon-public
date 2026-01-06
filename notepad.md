@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (East Edge).
 - **Status:** Nicknaming Arbok.
-- **Action:** Press A to advance from Pokedex entry.
+- **Action:** Select YES to nickname.
 - **Reasoning:** 
-  1. Caught Arbok! Pokedex entry is currently displayed.
-  2. Need to press A to finish the entry and get to the Nickname prompt.
-  3. Will nickname it "Naga".
+  1. "Give a nickname?" prompt is visible.
+  2. "YES" is selected.
+  3. Press A to enter the nickname screen.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
