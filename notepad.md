@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (East Side).
-- **Status:** Exploring East.
-- **Action:** Move East to x=30, then North towards the Victory Road Gate.
+- **Status:** Navigating around Ledge.
+- **Action:** Move South to Row 10, then East to x=30.
 - **Reasoning:** 
-  1. Landed at (22, 11). To the West is a dead end (Wall at x=17).
-  2. To the East is open terrain leading to the Gate area.
-  3. Need to explore the Eastern side to see if there is a path wrapping around to the North-West (House).
+  1. Currently at (25, 8). Path East is blocked by a One-Way Left Ledge at (26, 8).
+  2. Must backtrack South to the open grass area (Row 10/11) to bypass the ledge.
+  3. Destination is the open area near the Victory Road Gate.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to explore all of Route 28.
