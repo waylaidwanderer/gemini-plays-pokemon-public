@@ -234,7 +234,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef solve():\n    inventory = input_data['inventory']\n    target_item = input_data['target_item']\n    pokemon_index = int(input_data['pokemon_index'])\n    target_pocket = input_data['target_pocket']\n    \n    buttons = [\"Start\"]\n    # Navigate to Pack (ensures cursor starts from top to avoid position errors)\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"A\"])\n    \n    if target_pocket == \"Items\":\n        pass\n    elif target_pocket == \"Balls\":\n        buttons.append(\"Right\")\n    elif target_pocket == \"Key Items\":\n        buttons.extend([\"Right\", \"Right\"])\n    elif target_pocket == \"TM/HM\":\n        buttons.append(\"Left\")\n        \n    try:\n        item_index = inventory.index(target_item)\n        for _ in range(item_index):\n            buttons.append(\"Down\")\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    buttons.extend([\"A\", \"A\"])\n    \n    for _ in range(pokemon_index - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nsolve()",
+    "python_script": "import json\n\ndef solve():\n    inventory = input_data['inventory']\n    target_item = input_data['target_item']\n    pokemon_index = int(input_data['pokemon_index'])\n    target_pocket = input_data['target_pocket']\n    \n    buttons = [\"Start\"]\n    # Navigate to Pack\n    # Menu: Pokedex, Pokemon, Pack, Gear, Save, Option, Exit\n    # Go to top then down to Pack (3rd)\n    buttons.extend([\"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"A\"])\n    \n    if target_pocket == \"Items\":\n        pass\n    elif target_pocket == \"Balls\":\n        buttons.append(\"Right\")\n    elif target_pocket == \"Key Items\":\n        buttons.extend([\"Right\", \"Right\"])\n    elif target_pocket == \"TM/HM\":\n        buttons.append(\"Left\")\n        \n    try:\n        item_index = inventory.index(target_item)\n        for _ in range(item_index):\n            buttons.append(\"Down\")\n    except ValueError:\n        print(json.dumps([]))\n        return\n\n    buttons.extend([\"A\", \"A\"])\n    \n    for _ in range(pokemon_index - 1):\n        buttons.append(\"Down\")\n    buttons.append(\"A\")\n    \n    print(json.dumps(buttons))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -245,6 +245,11 @@
         "commit_message": "Refined to include menu navigation from overworld and improved cursor stability.",
         "timestamp": "2026-01-06T22:14:34.854Z",
         "action_counter": 30907
+      },
+      {
+        "commit_message": "Refined to include menu navigation from overworld and improved cursor stability.",
+        "timestamp": "2026-01-06T22:16:04.023Z",
+        "action_counter": 30908
       }
     ]
   }

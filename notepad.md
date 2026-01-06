@@ -7,7 +7,7 @@
 
 ## Strategy: Johto League
 - Training: Grind Xenon (Lv26) and Kimchi (Lv21) to Lv30+.
-- Efficiency: Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 move/switch recommendations strictly.
+- Efficiency: Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 move/switch recommendations STRICTLY. Do not ignore agent output.
 - Logistics: Sell NUGGET (¥5000) at next Mart.
 
 # Progress Tracker
