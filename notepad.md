@@ -34,5 +34,5 @@
 - Milestone: Xenon reached Lv26 (Turn 30724).
 
 # Training Progress Tracker
-- Xenon (Lv26): 13637 / 21760 EXP (Target: Lv30)
+- Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
 - Kimchi (Lv21): 7006 / 21600 EXP (Target: Lv30)
