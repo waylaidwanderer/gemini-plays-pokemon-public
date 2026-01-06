@@ -7,7 +7,7 @@
 - **Location:** Silver Cave Room 1.
 - **Status:** Relocating to West Edge (Column 0).
 - **Action:** Navigate to (0, 35), then North to (0, 10).
-- **Reasoning:** Central North path (Col 8) is blocked. Column 3 is blocked North of Row 14. Column 0 appears to be a clear corridor spanning the entire map height (Row 35 to Row 10), accessible via the bottom corridor (Row 35).
+- **Reasoning:** Central North path (Col 8) is blocked by FLOOR_UP_WALL at (8, 14) which prevents Northbound movement (verified at 14, 28). Column 3 is blocked North of Row 14. Column 0 is the only remaining option, accessible via the bottom corridor (Row 35).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
