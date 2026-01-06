@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Bypassing blockage at (11, 30).
-- **Action:** Manual move: Right x2, Down x2 to (13, 32).
-- **Reasoning:** Automated pathfinding got stuck looping at (11, 30). Manual analysis shows a path East then South through a gap at (13, 31) to reach Row 32, which connects to the West side.
+- **Status:** Backtracking to Main Hub (Column 9).
+- **Action:** Navigate to (9, 29).
+- **Reasoning:** Current area (South-Central) is a cul-de-sac blocked by one-way walls at Row 34. To proceed, I must backtrack North via Column 9 to reach the open corridors at Row 26.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
