@@ -1,12 +1,14 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Navigate to (39, 31) and exit to Route 28.
+- **Action:** Navigate South-East to (38, 34) (Gap in Wall).
 - **Reasoning:** 
-  1. Internal paths South are blocked by `FLOOR_UP_WALL` tiles at Rows 30 and 34 (verified blocking behavior at 5,29).
-  2. Columns 38-39 are blocked Southbound by Walls at Rows 32-33.
-  3. The map transition at (39, 31) leads to Route 28.
-  4. Hypothesis: Route 28 provides the necessary loop to access the inaccessible areas of Silver Cave Outside or a different entrance.
+  1. Tree at (31, 24) is cut.
+  2. Proceed South through the opening to (31, 25).
+  3. Navigate East/South via Col 32 (jumping ledges) to reach Row 32.
+  4. Traverse East to Col 38.
+  5. Go South through the gap at (38, 34) to access the Bottom Corridor (Row 35).
+  6. From Row 35, traverse West to find the hidden entrance.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
