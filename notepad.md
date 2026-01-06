@@ -6,8 +6,8 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
 - **Status:** Exploring West Path.
-- **Action:** Navigate to (3, 21).
-- **Reasoning:** Reached (12, 22) but North path is blocked by Row 20 barriers (FLOOR_UP_WALL) and Row 21 ledges. Heading West to Column 3 where the path seems open Northbound.
+- **Action:** Navigate North to (3, 12).
+- **Reasoning:** West path (Col 3) is open. Moving North to bypass central barriers and uncover the upper-left section of the map.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
