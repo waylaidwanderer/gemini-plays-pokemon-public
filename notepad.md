@@ -1,16 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Exploring West Wall.
-- **Action:** Move West to (4, 6).
+- **Status:** Battling Wild Rapidash.
+- **Action:** Press A to advance battle intro.
 - **Reasoning:** 
-  1. Currently at (9, 6).
-  2. Need to explore the far western edge of this area to verify there are no hidden paths North to the House.
-  3. The map shows ledges at Row 5 blocking Northward movement, but I must confirm visually and clear unseen tiles.
-  4. If no path is found, I will exit to Silver Cave Outside via (0, 13).
-- **Goal:** Reach the House at (7, 3).
+  1. Encountered Wild Rapidash (New Pokedex Entry!).
+  2. Need to advance text to get to the menu.
+  3. Plan: Throw Ultra Ball at full HP (High catch rate, Lv 83 vs Lv 40 risk).
+- **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. The House is likely accessible from a different map transition or a hidden path I haven't found yet.
-  2. Clearing the West end is the final check for this specific area.
+  1. Catch Rapidash.
+  2. After battle, verify if House at (7, 3) is reachable from here (unlikely due to ledges).
+  3. If not, backtrack and check Gatehouse or Silver Cave Outside again.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
