@@ -2,18 +2,22 @@
   "find_path_v2": {
     "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and hazardous tiles (pits/ladders) as obstacles. Returns a JSON array of buttons.",
     "input_schema": {
-      "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
+          "type": "boolean"
         },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
           "type": "integer"
         }
       },
@@ -21,10 +25,12 @@
         "start_x",
         "start_y",
         "end_x",
-        "end_y"
-      ]
+        "end_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tiles[(x, y)] = {\n                'type': tile.attrib['type'],\n                'has_object': tile.find('Object') is not None or tile.attrib.get('has-object') == 'true',\n                'seen': tile.attrib['seen'] == 'true'\n            }\n\n    start_x, start_y = int(input_data['start_x']), int(input_data['start_y'])\n    end_x, end_y = int(input_data['end_x']), int(input_data['end_y'])\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    traversable = ['FLOOR', 'TALL_GRASS', 'CAVE', 'WARP', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT']\n\n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n\n        curr_tile = tiles.get((x, y))\n        if not curr_tile: continue\n\n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in visited: continue\n            \n            target_tile = tiles.get((nx, ny))\n            if not target_tile or not target_tile['seen']: continue\n            \n            can_move = True\n            if curr_tile['type'] == 'LEDGE_HOP_DOWN' and btn != 'Down': can_move = False\n            elif curr_tile['type'] == 'LEDGE_HOP_LEFT' and btn != 'Left': can_move = False\n            elif curr_tile['type'] == 'LEDGE_HOP_RIGHT' and btn != 'Right': can_move = False\n            \n            if can_move and target_tile['type'] in traversable and not target_tile['has_object']:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n            elif can_move and nx == end_x and ny == end_y:\n                print(json.dumps(path + [btn]))\n                return\n\n    print(\"[]\")\n\nsolve()\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile.attrib['type']\n            \n    impassable = {'WALL', 'unseen', 'FLOOR_UP_WALL', 'WATER', 'PIT'}\n    \n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        \n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile_type = grid[(nx, ny)]\n                if tile_type not in impassable:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -70,6 +76,11 @@
         "commit_message": "Initial definition with ledge handling.",
         "timestamp": "2026-01-06T20:56:57.721Z",
         "action_counter": 30778
+      },
+      {
+        "commit_message": "Added commit message to update tool.",
+        "timestamp": "2026-01-06T21:16:09.438Z",
+        "action_counter": 30812
       }
     ]
   },
