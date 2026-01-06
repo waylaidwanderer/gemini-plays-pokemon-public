@@ -15,7 +15,7 @@
 - Xenon (Lv26) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-- Current Task: Buying supplies in Blackthorn Mart (Started Turn 31001)
+- Current Task: Training Xenon and Kimchi on Route 45 (Started Turn 31015)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
