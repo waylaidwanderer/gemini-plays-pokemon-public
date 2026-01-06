@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Just entered.
-- **Action:** Explore North.
-- **Reasoning:** Need to find the path through the cave. The area to the North is unexplored.
+- **Status:** Navigating East path.
+- **Action:** Move to (12, 23).
+- **Reasoning:** North path at Column 9 is blocked. East path at Column 12 seems open.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
