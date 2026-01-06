@@ -1,15 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
 - **Status:** Nicknaming Rapidash.
-- **Action:** Press A to advance Pokedex entry.
+- **Action:** Press A to advance from Pokedex entry.
 - **Reasoning:** 
-  1. Caught Rapidash! Pokedex entry is currently displayed.
-  2. Need to press A to finish the entry and get to the Nickname prompt.
-  3. Will nickname it "Blitz".
+  1. Caught Rapidash.
+  2. Currently viewing/advancing past the Pokedex entry.
+  3. Next prompt should be "Give a nickname?".
+  4. Will select YES to name it "Blitz".
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Explore the West end ledges to confirm no access to House.
-  2. If blocked, backtrack to Gatehouse/Silver Cave Outside to find the true path.
+  2. If blocked, backtrack to Gatehouse/Silver Cave Outside.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
