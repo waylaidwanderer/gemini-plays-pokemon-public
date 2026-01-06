@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Resuming navigation to West Side.
-- **Action:** Move Left to (9, 27), then South to Row 32.
-- **Reasoning:** Battle ended. Tile at (12, 28) is FLOOR_UP_WALL (blocked from North). Must detour Left to Column 9 to go South.
+- **Status:** Navigating to West Side.
+- **Action:** Move Left to (9, 27), then South to Row 32, then West to (5, 30).
+- **Reasoning:** Row 28 is blocked by FLOOR_UP_WALL tiles (cannot walk Down). Must detour Left to Column 9 to find a gap, then circle around to the West side to reach the Item Ball and check for a Northward path.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 
