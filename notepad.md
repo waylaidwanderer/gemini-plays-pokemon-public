@@ -38,3 +38,5 @@
 - Battle: Wild Pokémon on Route 45 (Graveler, Geodude) yield high EXP but frequently use dangerous moves like Selfdestruct (Normal) or Magnitude (Ground).
 - Strategy Insight: Xenon (Gastly) is immune to Selfdestruct (Normal-type).
 - Type Matchups: Normal moves are NOT super effective against Rock; they are 0.5x effective. Trust the get_type_effectiveness tool. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).
+- Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
+- Strategy: Continuing switch-training Xenon to Lv30 using Calcifer as the finisher.
