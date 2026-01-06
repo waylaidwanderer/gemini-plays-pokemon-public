@@ -31,8 +31,8 @@
 - Kimchi (Lv21): 7006 / 21760 EXP (Target: Lv30)
 - Milestones: Xenon Lv25 (Turn 30625), Lv26 (Turn 30724).
 
-# Tasks
-- Take Hyper Potion from Xenon.
-- Give AMULET COIN to Xenon.
-- Verify trainer at (10, 16) later.
-- Continue south on Route 45 vertical lanes.
+# Exploration Progress
+- Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
+- Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
+- Task: Give AMULET COIN to Xenon.
+- Task: Verify trainer at (10, 16) later.
