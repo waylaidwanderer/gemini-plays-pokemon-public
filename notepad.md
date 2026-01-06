@@ -15,7 +15,7 @@
 - Xenon (Lv26) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-- Current Task: Fly to Blackthorn City (Started Turn 30941)
+- Current Task: Buying supplies in Blackthorn Mart (Started Turn 31001)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
@@ -24,11 +24,3 @@
 - Strength Mechanic: Strength must be used on each individual boulder; it is not a persistent status.
 - Tool Hygiene: use_item_from_bag_v2 requires the bag to be open. Always use press_menu_buttons to navigate to the Pack first.
 - Fly Map Logic: Destination names MUST be verified in Screen Text after every button press. The cursor does not follow a simple geographical grid.
-
-## Fly Navigation Attempts (Blackthorn City)
-- Attempt 1 (Turn 30941): Fumbled menus, ended up in Pokegear/Trainer Card.
-- Attempt 2 (Turn 30975): Interrupted by Alan's call, stuck in menu loop.
-- Strategy: Clear menus with B, then Start -> Pokemon -> Icarus -> Fly. Verify destination text after every map move.
-## Decisive Action Phase: Fly to Blackthorn City
-- Turn 30982: Transitioning from exploratory menu attempts to a decisive, step-by-step execution.
-- Protocol: Exit Pokecenter -> Start -> Pokemon -> Icarus -> Fly -> Verify 'Blackthorn City' in text after EACH move -> Press A.
