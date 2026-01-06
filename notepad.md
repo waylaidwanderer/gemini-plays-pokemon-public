@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Water).
 - **Status:** Surfing to Main Area.
-- **Action:** Clear text (B), then Surf West.
+- **Action:** Clear text (B), then Surf West to (19, 28).
 - **Reasoning:** 
-  1. "Used SURF!" text is on screen.
-  2. Pressing B clears it. The player character will automatically be on the water tile (23, 28) after the sequence.
-  3. I will then move West to align with the vertical channel at x=18/19.
-  4. Destination: Land at (18, 24) to reach the Pokemon Center.
+  1. "Used SURF!" text is visible. Clearing it.
+  2. Surfing West to column 19 to align with the northern channel.
+  3. Destination: Land at (19, 25) or (18, 24) to reach the Pokemon Center.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
