@@ -33,7 +33,7 @@
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv24 (Turn 30562).
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
-- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Strategy: Switch-train Xenon with Calcifer.
+- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Strategy: Switch-train Xenon with Calcifer. Outcome: Defeated. Xenon gained 402 EXP (Total EXP: 13221).
 
 # General Lessons
 - Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges (LEDGE_HOP_DOWN, LEDGE_HOP_LEFT). Once a ledge is jumped, you cannot return north/east without circling back from the map entrance.
