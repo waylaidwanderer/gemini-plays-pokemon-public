@@ -6,8 +6,8 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
 - **Status:** Relocating to West Path.
-- **Action:** Move South to (14, 29), then navigate to (3, 21).
-- **Reasoning:** Northbound path at (14, 28) is blocked by FLOOR_UP_WALL. Column 7 is a wall barrier except at Row 32. Plan is to loop South to Row 32, cross West to Column 3, and head North to bypass the central ledge system.
+- **Action:** Move South to (3, 32), then North to (3, 21).
+- **Reasoning:** Central area (Row 28) is blocked by one-way tiles. Moving to the open corridor at Row 32 to cross to the West side (Column 3) and bypass the obstruction.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
