@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Escaping Item Area to reach East Side.
-- **Action:** Press B to clear text, then Move Right to (8, 30) (Hop Ledge).
-- **Reasoning:** Collected Escape Rope. Exiting the enclosed area via the ledge at (7, 30). Then I will head East to retrieve the second Item Ball at (15, 29) and explore the North-East path (Column 15).
+- **Status:** Abandoning Item (Bag Full).
+- **Action:** Press B to clear text, then Move Down to hop ledge at (4, 31).
+- **Reasoning:** Cannot pick up Escape Rope (Bag Full) and it blocks the path Right. Taking the alternative exit South via the ledge at (4, 31) to reach Row 32, then heading East.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
