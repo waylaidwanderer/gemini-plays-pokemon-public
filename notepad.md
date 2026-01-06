@@ -1,13 +1,13 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Traversing Victory Road backwards.
-- **Next:** Reach South Exit of Victory Road -> Reception Gate -> West -> Mt. Silver.
+- **Status:** Leaving Pokemon Center.
+- **Next:** Enter Mt. Silver Cave.
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Pokemon Center.
-- **Status:** Healed. Exiting to Mt. Silver.
-- **Action:** Exit South to outside.
-- **Reasoning:** Party is healed. Ready to enter the cave and find Red.
+- **Status:** Exiting to Mt. Silver.
+- **Action:** Clear text and exit South.
+- **Reasoning:** Healing complete.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
@@ -18,8 +18,3 @@
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
 - **BUOY:** Water boundary/Wall.
-
-# Reflection (Turn 25045)
-- **Status:** Traversing Victory Road backwards to reach Mt. Silver.
-- **Issue:** Notepad was desynchronized for ~20 turns. Fixed via overwrite.
-- **Next:** Ladder to 2F.
