@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28 (South-West Strip).
-- **Status:** Crossing Water.
-- **Action:** Clear text, then Surf North to land on Row 11.
+- **Location:** Route 28.
+- **Status:** Surfing North.
+- **Action:** Move Up to (22, 11) to make landfall.
 - **Reasoning:** 
-  1. "Used SURF!" text is on screen. Need to clear it.
-  2. Will hop onto water at (22, 14) (since facing Right).
-  3. Then surf North to (22, 11) to land on the main path.
+  1. Currently surfing at (22, 14).
+  2. Land (Tall Grass) is visible directly North at Row 11.
+  3. This area connects to the wider Route 28 map.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to explore all of Route 28.
