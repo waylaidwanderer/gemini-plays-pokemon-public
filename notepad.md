@@ -17,7 +17,7 @@
 - **CUT_TREE:** Obstacle unless Cut is used.
 - **PIT:** Drops player to floor below.
 - **LADDER:** Transitions between floors.
-- **FLOOR_UP_WALL:** Walkable from South (Verified at 15,28). Northbound exit needs verification. Southbound entry blocked at (10,34). Likely context-dependent or hidden objects.
+- **FLOOR_UP_WALL:** Walkable from South/Sides. Northbound exit is BLOCKED (Verified at 8,14). Acts as a one-way ledge preventing Northward movement.
 - **BUOY:** Water boundary/Wall.
 
 # Reflection (Turn 25132)
