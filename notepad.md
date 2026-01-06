@@ -1,11 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
 - **Status:** Battling Wild Dodrio.
-- **Action:** Switch to Balls Pocket.
+- **Action:** Select Ultra Ball and USE.
 - **Reasoning:** 
-  1. Currently in Items Pocket.
-  2. Need to switch to Balls Pocket to access Ultra Balls.
-  3. Throwing Ultra Ball at Dodrio (Lv 43).
+  1. Successfully switched to Balls Pocket.
+  2. Cursor is on Great Ball (Top).
+  3. Ultra Ball is second.
+  4. Pressing Down -> A -> A to select and use.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Dodrio.
