@@ -1,11 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Battling Wild Ponyta (Turn 25343).
-- **Action:** Select PACK to throw another Ultra Ball.
+- **Status:** Battling Wild Ponyta (Turn 25344).
+- **Action:** Press A to select Ultra Ball.
 - **Reasoning:** 
-  1. Ponyta broke out and used Fire Spin (Muscle trapped).
-  2. Need to keep throwing balls.
-  3. Selecting PACK to access Ultra Balls.
+  1. Currently in Balls Pocket with Ultra Ball selected.
+  2. Muscle is trapped by Fire Spin, so switching is impossible.
+  3. Attacking risks KOing the target.
+  4. Pressing A opens the "USE/QUIT" sub-menu to throw the ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Ponyta for Pokedex.
