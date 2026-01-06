@@ -9,18 +9,6 @@
 - **Action:** Move South to (14, 29), then navigate to (3, 21).
 - **Reasoning:** Northbound path at (14, 28) is blocked by FLOOR_UP_WALL. Column 7 is a wall barrier except at Row 32. Plan is to loop South to Row 32, cross West to Column 3, and head North to bypass the central ledge system.
 - **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
