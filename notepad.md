@@ -1,31 +1,19 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Battling Wild Ponyta.
+- **Status:** Battling Wild Ponyta (Turn 25341).
 - **Action:** Select PACK -> Ultra Ball -> Use.
 - **Reasoning:** 
-  1. First ball failed but was "close".
-  2. Ponyta is at full HP. Machoke is too strong to attack safely.
-  3. Cursor is already on PACK, so I will press A to enter, then throw another Ultra Ball.
+  1. Ponyta escaped the first ball.
+  2. Selecting PACK to throw another.
+  3. Menu is now visible.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Need to reach the hidden house at (7, 3).
-  2. Validated path: Surf West -> Land -> Go North through gap at (17, 7).
-- **Goal:** Challenge Red at Mt. Silver.
+  1. Catch Ponyta for Pokedex.
+  2. Reach the hidden house at (7, 3) via the West side.
 
-# Tile Mechanics
-- **LEDGE_HOP_DOWN:** One-way South.
-- **LEDGE_HOP_LEFT:** One-way Left.
-- **WARP_CARPET:** Step on to exit map.
-- **CUT_TREE:** Obstacle unless Cut is used.
-- **PIT:** Drops player to floor below.
-- **LADDER:** Transitions between floors.
-- **FLOOR_UP_WALL:** Walkable from South/Sides. Northbound exit is BLOCKED (Verified at 8,14). Acts as a one-way ledge preventing Northward movement.
-- **BUOY:** Water boundary/Wall.
-- **Tree at (31, 3):** Not Cuttable (Verified).
-
-# Reflection (Turn 25132)
-- **Status:** Exploring Mt. Silver Cave 1F.
-- **Hygiene:** Notepad and Map Markers are up to date.
-- **Goals:** Clear. Exploring North to find Red.
-- **Strategy:** Testing if FLOOR_UP_WALL tiles at Row 20 are traversable from the South.
-- **Tools:** Current set is sufficient.
+# Reflection (Turn 25341)
+- **Status:** Battling Wild Ponyta on Route 28.
+- **Hygiene:** Notepad updated. Map markers to be updated post-battle (failed hidden path).
+- **Goals:** Catch Ponyta, then explore West Route 28.
+- **Strategy:** Using Ultra Balls at full health due to level difference risk.
+- **Tools:** `select_battle_option` being used. `find_path` ready for post-battle.
