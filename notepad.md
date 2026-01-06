@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
-- **Status:** Battling Wild Dodrio (Turn 25423).
-- **Action:** Select PACK.
+- **Status:** Battling Wild Dodrio (Turn 25424).
+- **Action:** Use Ultra Ball (A -> A).
 - **Reasoning:** 
-  1. Ultra Ball failed (3 shakes!).
-  2. Muscle took significant damage (145/280 HP) from Drill Peck (Super Effective).
-  3. Still safe for another throw or two.
-  4. Opening Pack to try one more Ultra Ball (5 left).
+  1. Current Screen shows Pack open, Balls Pocket, Ultra Ball selected.
+  2. Need to throw it.
+  3. Pressing A opens the item menu. Pressing A again selects "USE".
+  4. Dodrio is at low HP (red).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Dodrio.
