@@ -17,7 +17,11 @@
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
 - Kimchi (Lv21): 7006 EXP. Target Lv22: 7577 EXP (~571 remaining).
-- Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026).
+- Grinding Start: Turn #31060.
+
+# Evolution Methods (Hypotheses)
+- Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
+- Haunter: Traditionally evolves via trading (needs verification in this version).
 
 # Lessons Learned
 - Route 45 Navigation: Paths are primarily one-way SOUTH due to ledges. To return to Blackthorn, use FLY.
