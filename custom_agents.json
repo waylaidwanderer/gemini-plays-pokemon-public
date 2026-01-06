@@ -1,11 +1,4 @@
 {
-  "battle_analyst": {
-    "agent_name": "battle_analyst",
-    "agent_description": "Analyzes the current battle state and recommends the best move or switch based on type matchups, levels, and observed movesets.",
-    "agent_system_prompt": "You are a battle analyst for a Pokemon Crystal stream. Your goal is to provide the most strategic move or switch based on the current battle state. You will be provided with the opponent's Pokemon, their observed moves, your current party status, and the current turn text. Analyze the type matchups, level differences, and available resources to recommend the best course of action. Your output must be a JSON object with two fields: 'recommendation' (a string describing the recommended action) and 'reasoning' (a string explaining why this action is best).",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"opponent_pokemon\":{\"type\":\"string\"},\"opponent_moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"player_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp\":{\"type\":\"string\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"hp\",\"moves\"]}},\"current_turn_text\":{\"type\":\"string\"}},\"required\":[\"opponent_pokemon\",\"opponent_moves\",\"player_party\",\"current_turn_text\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}"
-  },
   "battle_analyst_v2": {
     "agent_name": "battle_analyst_v2",
     "agent_description": "Analyzes the current battle state and recommends the best move or switch based on type matchups, levels, and observed movesets.",
