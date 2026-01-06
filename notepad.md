@@ -45,3 +45,4 @@
 - Turn 30674: Battling Cooltrainer Kelly (Marill Lv27). Strategy: Switch-train Xenon with Calcifer. Calcifer is using Thunderpunch.
 - Turn 30679: Kelly's Marill fainted. Xenon/Calcifer gained 166 EXP. Kelly sent out Wartortle (Lv24). Strategy: Use Thunderpunch.
 - Turn 30682: Kelly's first Wartortle fainted. Calcifer gained 735 EXP. Kelly sent out her second Wartortle (Lv24). Strategy: Use Thunderpunch.
+- Turn 30684: Defeated Cooltrainer Kelly (Marill Lv27, Wartortle Lv24 x2). Received ¥2304. Xenon reached EXP: 12819. Strategy: Continuing south on Route 45.
