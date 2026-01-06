@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash.
-- **Action:** Wait for catch result.
+- **Status:** Battling Wild Rapidash (Turn 25360).
+- **Action:** Press B to clear text.
 - **Reasoning:** 
-  1. Threw Ultra Ball.
-  2. Rapidash (Lv 40) is at ~full HP.
-  3. Waiting to see if it catches or breaks out.
+  1. "Hit 4 times!" text is on screen with a prompt arrow.
+  2. Need to clear this to return to the battle menu.
+  3. Once menu is open, I will throw another Ultra Ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
