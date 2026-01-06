@@ -150,39 +150,50 @@
       }
     ]
   },
-  "use_item_from_bag_v1": {
-    "description": "Calculates the button sequence to use an item from the bag on a Pokémon. Assumes the bag (Items pocket) is open and the cursor is at the top.",
+  "use_item_from_bag_v2": {
+    "description": "Calculates the button sequence to use an item from a specific bag pocket on a Pokémon. Assumes the bag is open and the cursor is at the top of the 'Items' pocket. Pockets: Items, Balls, Key Items, TM/HM.",
     "input_schema": {
       "type": "object",
       "properties": {
         "inventory": {
-          "type": "array",
+          "description": "The current items list from Game State for the target pocket.",
           "items": {
             "type": "string"
           },
-          "description": "The current items list from Game State."
-        },
-        "target_item": {
-          "type": "string",
-          "description": "The name of the item to use (e.g., 'HYPER POTION')."
+          "type": "array"
         },
         "pokemon_index": {
-          "type": "integer",
-          "description": "The 1-indexed position of the Pokémon in the party."
+          "description": "The 1-indexed position of the Pokémon in the party.",
+          "type": "integer"
+        },
+        "target_item": {
+          "description": "The name of the item to use (e.g., 'HYPER POTION').",
+          "type": "string"
+        },
+        "target_pocket": {
+          "description": "The pocket where the item is located.",
+          "enum": [
+            "Items",
+            "Balls",
+            "Key Items",
+            "TM/HM"
+          ],
+          "type": "string"
         }
       },
       "required": [
         "inventory",
         "target_item",
-        "pokemon_index"
+        "pokemon_index",
+        "target_pocket"
       ]
     },
-    "python_script": "import json\n\nitems = input_data['inventory']\ntarget = input_data['target_item'].upper()\npkmn_idx = int(input_data['pokemon_index'])\n\n# The inventory list in Game State is a list of strings like \"HYPER POTION x6\"\ntarget_idx = -1\nfor i, item_str in enumerate(items):\n    if target in item_str.upper():\n        target_idx = i\n        break\n\nif target_idx == -1:\n    print(json.dumps([]))\nelse:\n    buttons = [\"Down\"] * target_idx + [\"A\", \"A\"]\n    buttons += [\"Down\"] * (pkmn_idx - 1) + [\"A\"]\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\nitems = input_data['inventory']\ntarget = input_data['target_item'].upper()\npkmn_idx = int(input_data['pokemon_index'])\ntarget_pocket = input_data['target_pocket']\n\n# Pocket order: Items <-> Balls <-> Key Items <-> TM/HM\npockets = [\"Items\", \"Balls\", \"Key Items\", \"TM/HM\"]\ntarget_pocket_idx = pockets.index(target_pocket)\n# Current pocket is assumed to be Items (index 0)\npocket_diff = target_pocket_idx - 0\n\nbuttons = []\nif pocket_diff > 0:\n    buttons += [\"Right\"] * pocket_diff\nelif pocket_diff < 0:\n    buttons += [\"Left\"] * abs(pocket_diff)\n\ntarget_idx = -1\nfor i, item_str in enumerate(items):\n    if target in item_str.upper():\n        target_idx = i\n        break\n\nif target_idx == -1:\n    print(json.dumps([]))\nelse:\n    buttons += [\"Down\"] * target_idx + [\"A\", \"A\"]\n    buttons += [\"Down\"] * (pkmn_idx - 1) + [\"A\"]\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-06T19:09:35.516Z",
-        "action_counter": 30618
+        "timestamp": "2026-01-06T19:29:13.516Z",
+        "action_counter": 30642
       }
     ]
   }
