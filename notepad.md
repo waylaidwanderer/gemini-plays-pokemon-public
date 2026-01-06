@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Pathfinding to East Side.
-- **Action:** Use `find_path` to navigate to (19, 35).
-- **Reasoning:** Row 34/35 seems to be the only connection to the Eastern section (columns 18-19). Exploring if a path exists.
+- **Status:** Relocating to West Path.
+- **Action:** Move South to (14, 29), then navigate to (3, 21).
+- **Reasoning:** Northbound path at (14, 28) is blocked by FLOOR_UP_WALL. Column 7 is a wall barrier except at Row 32. Plan is to loop South to Row 32, cross West to Column 3, and head North to bypass the central ledge system.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
