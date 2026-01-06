@@ -5,10 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Relocating to Eastern Section (Col 15+).
-- **Start Time:** Turn 25237 (Jan 6, 2026).
-- **Action:** Navigate to (11, 21).
-- **Reasoning:** West side (Col 3) is a dead end. Walls block South access to Row 32 from Col 3. Must cross East at Row 21 to Central area (Col 11), then navigate South to Row 26 to cross the Column 13 wall gap into the Eastern Section.
+- **Status:** Executing Grand Loop.
+- **Start Time:** Turn 25238 (Jan 6, 2026).
+- **Action:** Navigate to (15, 35), then West to (0, 35).
+- **Reasoning:** Northward progress is blocked on all columns (0, 3, 8, 15) by one-way ledges (Row 14, 20, 25). The only viable path to the North appears to be Column 0, which connects to the bottom corridor (Row 35). To reach (0, 35), I must loop through the East side (Col 15) via the gap at Row 26, then head South to Row 35.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
