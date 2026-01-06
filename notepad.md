@@ -27,9 +27,9 @@
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
 # Training Progress Tracker
-- Xenon (Lv26): 14677 EXP (Target: Lv30)
-- Kimchi (Lv21): 7006 EXP (Target: Lv30)
+- Xenon (Lv26): 14157 EXP (Target: 21200 for Lv30)
+- Kimchi (Lv21): 7006 EXP (Target: 21200 for Lv30)
 
 # Exploration Progress
-- Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63).
+- Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
