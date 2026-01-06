@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Relocating to West Edge (Column 0).
-- **Action:** Navigate to (1, 32), then South to (1, 35).
-- **Reasoning:** Row 34 is blocked by FLOOR_UP_WALL tiles at x=2..17 (except x=9 wall). The only clear Southbound paths are at x=0,1 and x=18. I must navigate to Row 32, traverse West to Column 1, then head South to bypass the blockage.
+- **Status:** Relocating to Column 15.
+- **Action:** Navigate to (3, 19), then East to (15, 19).
+- **Reasoning:** Analysis reveals Column 1 is blocked by walls, making the West Edge unreachable from the South. However, Column 15 (East side) appears open to the North starting from Row 19. To reach (15, 19) North of the ledges, I must loop West to Column 3 (via Row 21), go North to Row 19, then cross back East.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
