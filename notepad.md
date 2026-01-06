@@ -5,13 +5,12 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to Eastern Section.
-- **Action:** Navigate to (12, 21), then South to (12, 26), then East to (15, 26).
+- **Status:** Navigating to East Edge (Column 19).
+- **Action:** Navigate East to (19, 26).
 - **Reasoning:** 
-  1. Southbound on Col 3 is blocked at Row 23.
-  2. Must traverse East to Col 12 to bypass the Row 23 wall.
-  3. Proceed South on Col 12 to Row 26.
-  4. Cross East through the gap at (13, 26) to access the Eastern Section.
+  1. I am at (12, 26). The gap at (13, 26) connects to the Eastern Section.
+  2. Ledges at Row 25 (x=14..17) likely block immediate Northbound travel.
+  3. Column 19 appears to be a clear vertical corridor on the Mental Map. I will aim for it to explore North (or Loop South).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
