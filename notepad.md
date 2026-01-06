@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Onix).
-- **Action:** Run from battle -> Resume North via Column 12.
-- **Reasoning:** Interrupted by wild Onix. Need to escape to continue exploring.
+- **Status:** Resuming North via Column 12.
+- **Action:** Move North to (12, 19).
+- **Reasoning:** Battle ended. Resuming plan. Testing if Row 20 is passable.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
