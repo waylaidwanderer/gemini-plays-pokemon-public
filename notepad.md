@@ -29,7 +29,7 @@
 - **CUT_TREE:** Obstacle unless Cut is used.
 - **PIT:** Drops player to floor below.
 - **LADDER:** Transitions between floors.
-- **FLOOR_UP_WALL:** Walkable (Confirmed at 14,28). Previous "Barrier" assumption incorrect. Likely directional (Ledge?).
+- **FLOOR_UP_WALL:** Walkable from South (Verified at 15,28). Northbound exit needs verification. Southbound entry blocked at (10,34). Likely context-dependent or hidden objects.
 - **BUOY:** Water boundary/Wall.
 
 # Reflection (Turn 25132)
