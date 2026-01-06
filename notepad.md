@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25357).
-- **Action:** Select PACK -> Ultra Ball -> Use.
+- **Status:** Battling Wild Rapidash (Turn 25358).
+- **Action:** Press A to confirm USE of Ultra Ball.
 - **Reasoning:** 
-  1. Rapidash broke out.
-  2. Muscle took damage but is fine (247/280).
-  3. Opening Pack to throw another Ultra Ball.
+  1. Currently in Pack -> Balls -> Ultra Ball -> Sub-menu.
+  2. "USE" is selected.
+  3. Pressing 'A' will throw the ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
