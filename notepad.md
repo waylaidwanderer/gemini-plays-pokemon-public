@@ -29,7 +29,7 @@
 - **CUT_TREE:** Obstacle unless Cut is used.
 - **PIT:** Drops player to floor below.
 - **LADDER:** Transitions between floors.
-- **FLOOR_UP_WALL:** Acts as a Northbound barrier (Row 28) and a Southbound barrier (Row 34). Effectively a wall in this context.
+- **FLOOR_UP_WALL:** Walkable (Confirmed at 14,28). Previous "Barrier" assumption incorrect. Likely directional (Ledge?).
 - **BUOY:** Water boundary/Wall.
 
 # Reflection (Turn 25132)
