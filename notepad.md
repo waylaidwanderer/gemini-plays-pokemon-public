@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25361).
-- **Action:** Press A to clear "Hit 4 times!" text.
+- **Status:** Battling Wild Rapidash (Turn 25362).
+- **Action:** Press A to confirm USE of Ultra Ball.
 - **Reasoning:** 
-  1. "Hit 4 times!" text is still on screen (previous B press didn't clear it).
-  2. Need to advance to the main battle menu.
-  3. Once menu is accessible, I will throw another Ultra Ball.
+  1. Current screen explicitly shows the Bag Menu with Ultra Ball -> USE selected.
+  2. Pressing A will throw the ball.
+  3. Ignoring the confusion about how I got here from the text screen in one turn; the screen state is the source of truth.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
