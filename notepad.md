@@ -1,20 +1,20 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (East Edge).
-- **Status:** Battling Wild Ponyta (Duplicate).
-- **Action:** Press B to advance battle intro.
+- **Status:** Escaping Battle.
+- **Action:** Run from Ponyta.
 - **Reasoning:** 
-  1. Interrupted by Wild Ponyta during movement.
-  2. Already have a Ponyta.
-  3. Need to advance text to reach the "RUN" option.
-  4. Muscle (Lv 83) allows for guaranteed escape.
-- **Goal:** Challenge Red at Mt. Silver.
-- **Reasoning:** 
-  1. Heal at PC.
-  2. Explore North-West of Silver Cave Outside.
+  1. Already have Ponyta.
+  2. Escape to continue exploration.
+- **Next Step:** Navigate to the water at (24, 28) -> Surf North to Pokemon Center area -> Explore NW for House path.
 
-# Reflection (Turn 25341)
-- **Status:** Battling Wild Ponyta on Route 28.
-- **Hygiene:** Notepad updated. Map markers to be updated post-battle (failed hidden path).
-- **Goals:** Catch Ponyta, then explore West Route 28.
-- **Strategy:** Using Ultra Balls at full health due to level difference risk.
-- **Tools:** `select_battle_option` being used. `find_path` ready for post-battle.
+# Tile Mechanics
+- **LEDGE_HOP_RIGHT:** One-way East. Acts as a wall from the West (verified at 35,30).
+- **FLOOR_UP_WALL:** Acts as a Ledge Down (Verified at 39,32).
+
+# Reflection (Turn 25392)
+- **Execution:** Deferred map marker cleanup (failed delete). Must verify marker state post-battle.
+- **Hygiene:** Updating Notepad now. Old reflection removed.
+- **Automation:** Tools are working. No new agents needed yet.
+- **Goals:** Clear. Pivoted from "Explore Route 28 West" (blocked) to "Explore Silver Cave Outside NW".
+- **Errors:** Misinterpreted Route 28 layout. Corrected by observing ledges and backtracking.
+- **Hypothesis:** House entrance is likely a hidden path in Silver Cave Outside or a specific warp I missed.
