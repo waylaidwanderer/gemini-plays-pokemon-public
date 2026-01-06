@@ -1,4 +1,41 @@
 {
+  "analyze_missing_links": {
+    "description": "Tests if making specific tiles passable would solve the boulder puzzle.",
+    "input_schema": {
+      "properties": {
+        "test_tiles": {
+          "items": {
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "test_tiles"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, boulders = set(), [(2, 5), (8, 3), (8, 7)], {6: (3, 3), 7: (6, 1), 8: (8, 14)}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                if tile.get('type') in ['FLOOR', 'LADDER', 'ICE'] and (tile.get('has-object') != 'true' or (tile.find('Object') is not None and tile.find('Object').get('id-name') == 'BOULDER')):\n                    passable.add((x, y))\n        extra = {(t['x'], t['y']) for t in input_data['test_tiles']}\n        temp_passable = passable | extra\n        results = {}\n        for bid, bstart in boulders.items():\n            q, v = deque([bstart]), {bstart}\n            reachable_pit = None\n            while q:\n                bx, by = q.popleft()\n                if (bx, by) in pits: reachable_pit = (bx, by); break\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nbx, nby, px, py = bx + dx, by + dy, bx - dx, by - dy\n                    if 0 <= nbx < width and 0 <= nby < height and 0 <= px < width and 0 <= py < height and ((nbx, nby) in temp_passable or (nbx, nby) in pits) and (px, py) in temp_passable:\n                        if (nbx, nby) not in v:\n                            v.add((nbx, nby))\n                            q.append((nbx, nby))\n            results[bid] = str(reachable_pit) if reachable_pit else None\n        print(json.dumps(results))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-28T23:46:49.073Z",
+        "action_counter": 29731
+      }
+    ]
+  },
   "find_path_v2": {
     "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and hazardous tiles (pits/ladders) as obstacles. Returns a JSON array of buttons.",
     "input_schema": {
@@ -73,40 +110,32 @@
       }
     ]
   },
-  "analyze_missing_links": {
-    "description": "Tests if making specific tiles passable would solve the boulder puzzle.",
+  "get_type_effectiveness": {
+    "description": "Returns the type effectiveness multiplier for an attacking type against one or more defending types.",
     "input_schema": {
+      "type": "object",
       "properties": {
-        "test_tiles": {
+        "attack_type": {
+          "type": "string"
+        },
+        "defender_types": {
+          "type": "array",
           "items": {
-            "properties": {
-              "x": {
-                "type": "integer"
-              },
-              "y": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "x",
-              "y"
-            ],
-            "type": "object"
-          },
-          "type": "array"
+            "type": "string"
+          }
         }
       },
       "required": [
-        "test_tiles"
-      ],
-      "type": "object"
+        "attack_type",
+        "defender_types"
+      ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, boulders = set(), [(2, 5), (8, 3), (8, 7)], {6: (3, 3), 7: (6, 1), 8: (8, 14)}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                if tile.get('type') in ['FLOOR', 'LADDER', 'ICE'] and (tile.get('has-object') != 'true' or (tile.find('Object') is not None and tile.find('Object').get('id-name') == 'BOULDER')):\n                    passable.add((x, y))\n        extra = {(t['x'], t['y']) for t in input_data['test_tiles']}\n        temp_passable = passable | extra\n        results = {}\n        for bid, bstart in boulders.items():\n            q, v = deque([bstart]), {bstart}\n            reachable_pit = None\n            while q:\n                bx, by = q.popleft()\n                if (bx, by) in pits: reachable_pit = (bx, by); break\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nbx, nby, px, py = bx + dx, by + dy, bx - dx, by - dy\n                    if 0 <= nbx < width and 0 <= nby < height and 0 <= px < width and 0 <= py < height and ((nbx, nby) in temp_passable or (nbx, nby) in pits) and (px, py) in temp_passable:\n                        if (nbx, nby) not in v:\n                            v.add((nbx, nby))\n                            q.append((nbx, nby))\n            results[bid] = str(reachable_pit) if reachable_pit else None\n        print(json.dumps(results))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\nsolve()",
+    "python_script": "import json\n\ndef get_effectiveness(attack_type, defender_types):\n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"STEEL\": 0.5, \"GHOST\": 0},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"GRASS\": 2, \"ELECTRIC\": 0.5, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"FIGHTING\": 0.5, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5}\n    }\n    eff = 1.0\n    for t in defender_types:\n        eff *= chart.get(attack_type, {}).get(t, 1.0)\n    return eff\n\nattack = input_data['attack_type'].upper()\ndefenders = [t.upper() for t in input_data['defender_types']]\nprint(json.dumps({\"effectiveness\": get_effectiveness(attack, defenders)}))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2025-12-28T23:46:49.073Z",
-        "action_counter": 29731
+        "timestamp": "2025-12-29T09:15:53.174Z",
+        "action_counter": 30566
       }
     ]
   },
@@ -155,35 +184,6 @@
         "commit_message": "Initial version",
         "timestamp": "2025-12-29T09:08:35.371Z",
         "action_counter": 30552
-      }
-    ]
-  },
-  "get_type_effectiveness": {
-    "description": "Returns the type effectiveness multiplier for an attacking type against one or more defending types.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "attack_type": {
-          "type": "string"
-        },
-        "defender_types": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "attack_type",
-        "defender_types"
-      ]
-    },
-    "python_script": "import json\n\ndef get_effectiveness(attack_type, defender_types):\n    chart = {\n        \"NORMAL\": {\"ROCK\": 0.5, \"STEEL\": 0.5, \"GHOST\": 0},\n        \"FIRE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"DRAGON\": 0.5, \"STEEL\": 2},\n        \"WATER\": {\"FIRE\": 2, \"WATER\": 0.5, \"GRASS\": 0.5, \"GROUND\": 2, \"ROCK\": 2, \"DRAGON\": 0.5},\n        \"ELECTRIC\": {\"WATER\": 2, \"ELECTRIC\": 0.5, \"GRASS\": 0.5, \"GROUND\": 0, \"FLYING\": 2, \"DRAGON\": 0.5},\n        \"GRASS\": {\"FIRE\": 0.5, \"WATER\": 2, \"GRASS\": 0.5, \"POISON\": 0.5, \"GROUND\": 2, \"FLYING\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"DRAGON\": 0.5, \"STEEL\": 0.5},\n        \"ICE\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"GRASS\": 2, \"ICE\": 0.5, \"GROUND\": 2, \"FLYING\": 2, \"DRAGON\": 2, \"STEEL\": 0.5},\n        \"FIGHTING\": {\"NORMAL\": 2, \"ICE\": 2, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 0.5, \"BUG\": 0.5, \"ROCK\": 2, \"GHOST\": 0, \"DARK\": 2, \"STEEL\": 2},\n        \"POISON\": {\"GRASS\": 2, \"POISON\": 0.5, \"GROUND\": 0.5, \"ROCK\": 0.5, \"GHOST\": 0.5, \"STEEL\": 0},\n        \"GROUND\": {\"FIRE\": 2, \"ELECTRIC\": 2, \"GRASS\": 0.5, \"POISON\": 2, \"FLYING\": 0, \"BUG\": 0.5, \"ROCK\": 2, \"STEEL\": 2},\n        \"FLYING\": {\"GRASS\": 2, \"ELECTRIC\": 0.5, \"FIGHTING\": 2, \"BUG\": 2, \"ROCK\": 0.5, \"STEEL\": 0.5},\n        \"PSYCHIC\": {\"FIGHTING\": 2, \"POISON\": 2, \"PSYCHIC\": 0.5, \"DARK\": 0, \"STEEL\": 0.5},\n        \"BUG\": {\"FIRE\": 0.5, \"GRASS\": 2, \"FIGHTING\": 0.5, \"POISON\": 0.5, \"FLYING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 0.5, \"DARK\": 2, \"STEEL\": 0.5},\n        \"ROCK\": {\"FIRE\": 2, \"ICE\": 2, \"FIGHTING\": 0.5, \"GROUND\": 0.5, \"FLYING\": 2, \"BUG\": 2, \"STEEL\": 0.5},\n        \"GHOST\": {\"NORMAL\": 0, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"DRAGON\": {\"DRAGON\": 2, \"STEEL\": 0.5},\n        \"DARK\": {\"FIGHTING\": 0.5, \"PSYCHIC\": 2, \"GHOST\": 2, \"DARK\": 0.5, \"STEEL\": 0.5},\n        \"STEEL\": {\"FIRE\": 0.5, \"WATER\": 0.5, \"ELECTRIC\": 0.5, \"ICE\": 2, \"ROCK\": 2, \"STEEL\": 0.5}\n    }\n    eff = 1.0\n    for t in defender_types:\n        eff *= chart.get(attack_type, {}).get(t, 1.0)\n    return eff\n\nattack = input_data['attack_type'].upper()\ndefenders = [t.upper() for t in input_data['defender_types']]\nprint(json.dumps({\"effectiveness\": get_effectiveness(attack, defenders)}))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-29T09:15:53.174Z",
-        "action_counter": 30566
       }
     ]
   }
