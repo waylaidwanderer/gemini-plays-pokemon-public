@@ -41,3 +41,4 @@
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
 - Strategy: Continuing switch-training Xenon to Lv30 using Calcifer as the finisher.
 - Turn 30649: Defeated wild Gligar (Lv24). Yielded 370 EXP (185 to Xenon).
+- Turn 30655: Battling Hiker Parry (Onix Lv29). Strategy: Switch-train Xenon with Calcifer.
