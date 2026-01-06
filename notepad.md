@@ -1,13 +1,13 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
-- **Status:** Returning to Overworld.
-- **Action:** Press A to clear text and resume navigation.
+- **Status:** Clearing Phone Call.
+- **Action:** Press B to hang up, then move towards PC.
 - **Reasoning:** 
-  1. Dodrio ("Hydra") caught and nicknamed.
-  2. "Sent to BILL's PC" text is displayed.
-  3. Pressing A will close the dialogue and return control to the overworld.
-  4. Next step: Attempt to Fly to "Mt. Silver" (closest heal point) or walk North along x=18 channel.
+  1. Gaven called. Dialogue is finishing ("...").
+  2. Need to clear the text box.
+  3. Destination is the Pokemon Center at (23, 19).
+  4. Path: Move Right to x=23, then Up through the gap in the ledges.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Heal at PC (via Fly if possible, or navigation).
+  1. Heal at PC.
   2. Explore North-West of Silver Cave Outside.
