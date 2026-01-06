@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Onix).
-- **Action:** Run from battle -> Resume navigation to East Gap (19, 28).
-- **Reasoning:** Interrupted by wild Onix. Need to escape to continue traversing to the East side gap at Column 19.
+- **Status:** Resuming navigation to East Gap.
+- **Action:** Run from battle, then Navigate North to (11, 26) and East to (19, 26).
+- **Reasoning:** Escaping Onix. Row 28 is blocked to the East. Row 26 appears to be an open corridor allowing access to the far East column (19).
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
