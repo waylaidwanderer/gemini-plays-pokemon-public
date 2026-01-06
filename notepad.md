@@ -31,7 +31,6 @@
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
 - Milestone: Xenon reached Lv26 (Turn 30724).
-- Turn 30726: Defeated Hiker Timothy (Diglett Lv27, Dugtrio Lv27). Received ¥1728. Calcifer reached Lv48. Strategy: Continuing south.
 
 # Training Progress Tracker
 - Xenon (Lv26): 13637 / 21760 EXP (Target: Lv30)
