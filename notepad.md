@@ -1,13 +1,13 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Navigate North to (25, 27), then to the Pokemon Center area (23, 19).
+- **Action:** Navigate West to (23, 24), North to (23, 22), then East to (30, 22).
 - **Reasoning:** 
-  1. South at (24, 30) is blocked.
-  2. East is blocked by `LEDGE_HOP_LEFT`.
-  3. West is the dead-end I came from.
-  4. The only exit is North via the gap at (25, 27).
-  5. The overarching plan is now to access the Bottom Corridor (Row 35) via the East Side of the map, starting from the North-East.
+  1. Failed to move North at (25, 24) due to ledge.
+  2. Map analysis reveals a gap in the ledge row at (23, 23).
+  3. Navigating through this gap leads to Row 22.
+  4. From (23, 22), a clear path exists to the East (Col 30+).
+  5. The Eastern path likely loops South to bypass the `FLOOR_UP_WALL` barrier at Row 30, granting access to the bottom area.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
