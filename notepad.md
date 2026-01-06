@@ -33,7 +33,8 @@
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
 - Milestone: Xenon reached Lv26 (Turn 30724).
 
+- Turn 30741: Defeated Camper Quentin (Fearow Lv30, Primeape Lv30, Tauros Lv30). Received ¥1200. Calcifer reached Lv48. Strategy: Continuing south.
+
 # Training Progress Tracker
 - Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
 - Kimchi (Lv21): 7006 / 21600 EXP (Target: Lv30)
-- Turn 30741: Battling Camper Quentin's Tauros (Lv30). Strategy: OHKO with Calcifer's Flame Wheel. Outcome: Pending.
