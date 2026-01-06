@@ -1,15 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
 - **Status:** Battling Wild Rapidash.
-- **Action:** Press A to advance battle intro.
+- **Action:** Select PACK to throw Ultra Ball.
 - **Reasoning:** 
-  1. Encountered Wild Rapidash (New Pokedex Entry!).
-  2. Need to advance text to get to the menu.
-  3. Plan: Throw Ultra Ball at full HP (High catch rate, Lv 83 vs Lv 40 risk).
+  1. Main battle menu is open.
+  2. Rapidash (Lv 40) vs Muscle (Lv 83). One hit would likely KO.
+  3. Rapidash has a decent catch rate (60).
+  4. Best strategy is to throw Ultra Balls immediately without attacking.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
-  2. After battle, verify if House at (7, 3) is reachable from here (unlikely due to ledges).
+  2. After battle, verify if House at (7, 3) is reachable from here.
   3. If not, backtrack and check Gatehouse or Silver Cave Outside again.
 
 # Reflection (Turn 25341)
