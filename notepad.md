@@ -1,7 +1,7 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
-- **Status:** Healing at Pokemon Center.
-- **Action:** Move to (23, 19) to enter PC.
+- **Status:** Escaping Battle.
+- **Action:** Select RUN.
 - **Reasoning:** 
   1. Landed at (18, 24).
   2. Heading to PC to heal Muscle and establish a checkpoint.
