@@ -1,16 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25370).
-- **Action:** Use Ultra Ball (A -> A).
+- **Status:** Nicknaming Rapidash.
+- **Action:** Press A to advance Pokedex entry.
 - **Reasoning:** 
-  1. `select_battle_option` successfully opened the Pack.
-  2. Current Screen shows Ultra Ball selected in the Balls pocket.
-  3. "USE" sub-menu is NOT open yet.
-  4. Pressing A opens sub-menu, second A selects USE.
+  1. Caught Rapidash! Pokedex entry is currently displayed.
+  2. Need to press A to finish the entry and get to the Nickname prompt.
+  3. Will nickname it "Blitz".
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Catch Rapidash.
-  2. Post-battle: Delete marker at (31, 3), explore West end.
+  1. Explore the West end ledges to confirm no access to House.
+  2. If blocked, backtrack to Gatehouse/Silver Cave Outside to find the true path.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
