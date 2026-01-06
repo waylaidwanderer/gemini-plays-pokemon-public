@@ -33,6 +33,6 @@
 # Exploration Progress
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
-- Turn 30771: Attempted to heal Calcifer. Xenon and Gneiss are healthy. Calcifer is at 76/152 HP. Next: Use Hyper Potion on Calcifer, take Hyper Potion from Xenon, then give him the Amulet Coin. Then continue south.
+- Turn 30779: Healing Calcifer (76/152 HP) with Hyper Potion. Xenon and Gneiss are healthy. Next: Fix Xenon's held item, then continue south on Route 45.
 - Task: Verify if trainer at (10, 16) is defeated. Requires flying back to Blackthorn and re-entering Route 45 lanes.
 - Turn 30774: [2026-01-06 12:53 PM] Performed 50-turn reflection. Defined find_path_v2 and get_type_effectiveness tools. Navigating to PACK to heal Calcifer and fix Xenon's held item.
