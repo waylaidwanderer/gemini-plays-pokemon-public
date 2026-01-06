@@ -1,14 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
-- **Status:** Battling Wild Dodrio (Turn 25424).
-- **Action:** Use Ultra Ball (A -> A).
+- **Status:** Nicknaming Dodrio.
+- **Action:** Press A to advance Pokedex entry.
 - **Reasoning:** 
-  1. Current Screen shows Pack open, Balls Pocket, Ultra Ball selected.
-  2. Need to throw it.
-  3. Pressing A opens the item menu. Pressing A again selects "USE".
-  4. Dodrio is at low HP (red).
+  1. Caught Dodrio! Pokedex entry is currently displayed.
+  2. Need to press A to finish the entry and get to the Nickname prompt.
+  3. Will nickname it "Hydra".
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Catch Dodrio.
-  2. Heal at PC.
-  3. Explore North-West of Silver Cave Outside.
+  1. Heal at PC.
+  2. Explore North-West of Silver Cave Outside.
