@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Nicknaming Rapidash.
-- **Action:** Select YES to nickname.
+- **Status:** Returning to Overworld.
+- **Action:** Press A to clear text and resume exploration.
 - **Reasoning:** 
-  1. "Give a nickname?" prompt is visible.
-  2. "YES" is selected.
-  3. Press A to enter the nickname screen.
+  1. Nicknaming complete. Text "BLITZ was sent to BILL's PC" is displayed.
+  2. Pressing A will close the dialogue and return control to the overworld.
+  3. Next step: Continue West to check the ledges at Row 5/6.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Explore the West end ledges to confirm no access to House.
