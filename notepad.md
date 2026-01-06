@@ -30,7 +30,7 @@
 - **CUT_TREE:** Obstacle unless Cut is used.
 - **PIT:** Drops player to floor below.
 - **LADDER:** Transitions between floors.
-- **FLOOR_UP_WALL:** Acts as a wall when approaching from above (North).
+- **FLOOR_UP_WALL:** Impassable Northbound (Row 28). Likely traversable path exists at x=19.
 - **BUOY:** Water boundary/Wall.
 
 # Reflection (Turn 25132)
