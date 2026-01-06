@@ -22,15 +22,15 @@
 
 # Kingdra Analysis (Gym Leader Clair)
 - Type: Water/Dragon.
-- Defensive Matchups: Neutral to Electric, Grass, Ice, Ground, Rock, Normal. Resists Fire/Water (1/4x). Weak to Dragon.
+- Defensive Matchups: Neutral to Electric, Grass, Ground, Rock, Normal. Resists Fire/Water (1/4x), Ice (1/2x). Weak to Dragon.
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
 # Training Progress Tracker
-- Xenon (Lv26): 14157 / 21200 EXP (Target: Lv30)
-- Kimchi (Lv21): 7006 / 21200 EXP (Target: Lv30)
+- Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
+- Kimchi (Lv21): 7006 / 21760 EXP (Target: Lv30)
 - Milestones: Xenon reached Lv25 (Turn 30625), Lv26 (Turn 30724).
 
 # Exploration Progress
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
-- Turn 30753: Opening bag to heal Xenon (29/67 HP), Gneiss (30/126 HP), and Calcifer (76/152 HP) using Hyper Potions. Cleaning up markers.
+- Turn 30753: Opening bag to heal Xenon (29/67 HP), Gneiss (30/126 HP), and Calcifer (76/152 HP) using Hyper Potions. Navigating to PACK.
