@@ -44,3 +44,4 @@
 - Type Matchups: Normal moves are 0.5x effective against Rock. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).
 - Turn 30674: Battling Cooltrainer Kelly (Marill Lv27). Strategy: Switch-train Xenon with Calcifer. Calcifer is using Thunderpunch.
 - Turn 30679: Kelly's Marill fainted. Xenon/Calcifer gained 166 EXP. Kelly sent out Wartortle (Lv24). Strategy: Use Thunderpunch.
+- Turn 30682: Kelly's first Wartortle fainted. Calcifer gained 735 EXP. Kelly sent out her second Wartortle (Lv24). Strategy: Use Thunderpunch.
