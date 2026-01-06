@@ -20,7 +20,6 @@
 - Kimchi (Lv21): 7006 / 21760 EXP (Target: Lv30)
 - Milestones: Xenon Lv25 (Turn 30625), Lv26 (Turn 30724).
 
-# Active Tasks
-- Give AMULET COIN to Xenon.
+# Tasks
 - Verify trainer at (10, 16) later.
 - Continue south on Route 45.
