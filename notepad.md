@@ -33,3 +33,4 @@
 # Exploration Progress
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
+- Turn 30753: Opening bag to heal Xenon (29/67 HP), Gneiss (30/126 HP), and Calcifer (76/152 HP) using Hyper Potions. Cleaning up markers.
