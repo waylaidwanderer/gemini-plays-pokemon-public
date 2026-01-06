@@ -6,12 +6,14 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Move South to Row 31 (jumping ledges), then West to Column 2.
+- **Action:** Navigate East to (15, 29), Surf to (24, 29), then South via (28, 30) gap.
 - **Reasoning:** 
-  1. Northward path at Col 5 is blocked by walls at Row 25.
-  2. Column 3 is a wall blocking Westward movement until Row 30.
-  3. Row 30 contains "FLOOR_UP_WALL" tiles which are likely one-way Southbound ledges.
-  4. Jumping down to Row 31 will allow crossing West through the gap in the wall at (3, 31) to access the West Corridor (Cols 0-2).
+  1. Southbound movement at (5, 29) is blocked by "FLOOR_UP_WALL" tiles which act as walls from the North.
+  2. Westward movement is blocked by the wall at Column 3.
+  3. The only exit is to backtrack East.
+  4. Mental Map shows a gap in the South barrier at (28, 30) (Tall Grass). 
+  5. To reach it, I must Surf East from (15, 29), land at (24, 29), then walk East to the gap.
+  6. From the gap, I can reach the bottom corridor (Row 35) and traverse West to the target area.
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
   2. The internal West Corridor (Column 0) was inaccessible from the main area due to ledges. It likely connects to a hidden external entrance.
