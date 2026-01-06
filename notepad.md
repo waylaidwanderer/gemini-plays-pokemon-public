@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to West Ledge.
-- **Action:** Move West to (3, 25), then South to (3, 26).
-- **Reasoning:** Row 26 at Column 5 is blocked by FLOOR_UP_WALL (one-way North). Must loop around via Column 3, crossing the ledge at (3, 27) to reach the southern area and the Item Ball.
+- **Status:** Exploring West Side.
+- **Action:** Hop ledge at (3, 27) to reach Row 28, then navigate to Item Ball at (5, 30).
+- **Reasoning:** I am positioned above the ledge. Hopping down allows access to the enclosed western area where the item ball is located. I will also check for any paths North from this area.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
