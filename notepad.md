@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Graveler).
-- **Action:** Run from battle -> Resume navigation to (5, 25).
-- **Reasoning:** Interrupted by wild Graveler at (8, 27). Need to escape to continue North to Row 25.
+- **Status:** Resuming navigation to West Ledge.
+- **Action:** Move North to (8, 25), West to (3, 25), then South to (3, 26).
+- **Reasoning:** Battle ended. Resuming path to the West side ledge at (3, 27) to access the Item Ball area.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
