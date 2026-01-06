@@ -1,16 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash.
-- **Action:** Select Ultra Ball (Down -> A).
+- **Status:** Battling Wild Rapidash (Duplicate).
+- **Action:** Press B to exit Pack.
 - **Reasoning:** 
-  1. Currently in Balls Pocket. Cursor on Great Ball.
-  2. Screenshot shows order: Great -> Ultra -> Master.
-  3. Game State shows order: Great -> Master -> Ultra (likely alphabetical).
-  4. Trusting Screenshot, but proceeding cautiously to avoid Master Ball usage.
-  5. Action `Down` -> `A` opens the submenu. I will verify the selection before using.
+  1. I already caught a Rapidash ("Blitz") in the previous encounter.
+  2. This is a duplicate.
+  3. Catching and nicknaming takes too long.
+  4. Muscle (Lv 83) should be faster than Rapidash (Lv 40), ensuring a safe Run.
+  5. Exiting Pack to access RUN option.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Catch Rapidash.
+  1. Escape battle.
   2. Resume plan to exit Route 28 West and find the correct path to the House.
 
 # Reflection (Turn 25341)
