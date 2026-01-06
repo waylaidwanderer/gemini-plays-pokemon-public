@@ -1,15 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25362).
+- **Status:** Battling Wild Rapidash (Turn 25363).
 - **Action:** Press A to confirm USE of Ultra Ball.
 - **Reasoning:** 
-  1. Current screen explicitly shows the Bag Menu with Ultra Ball -> USE selected.
-  2. Pressing A will throw the ball.
-  3. Ignoring the confusion about how I got here from the text screen in one turn; the screen state is the source of truth.
+  1. Screen explicitly shows Item Menu with Ultra Ball -> USE selected.
+  2. Ultra Ball count dropped from 12 to 11, indicating one was used previously.
+  3. Despite history confusion, current state demands pressing A to throw.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
-  2. After battle, delete erroneous map marker at (31, 3) and explore West end.
+  2. After battle, delete erroneous map marker at (31, 3).
+  3. Explore West end for hidden paths.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
