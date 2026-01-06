@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (South-West Strip).
-- **Status:** Navigating to Water.
-- **Action:** Head East to x=14, then South to Row 14, then East to Water edge.
+- **Status:** Initiating Surf.
+- **Action:** Surf North-East to land on Row 11 (x>=20).
 - **Reasoning:** 
-  1. The map analysis shows a path around the wall at x=13 via Row 14.
-  2. This leads to a body of water connecting the West strip (current) to the East area (Victory Road Gate).
-  3. Crossing this water should allow access to the Northern path and the unreachable House.
+  1. Reached the water edge at (21, 14).
+  2. The water is separated from the eastern land by a wall at x=28, but connects to land at Row 11 to the North.
+  3. Plan is to surf North to Row 11, land there, and continue exploring East.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Need to explore all of Route 28 and Silver Cave.
-  2. The House at (7, 3) is a key point of interest.
+  1. Need to explore all of Route 28.
+  2. Accessing the Northern/Eastern part of Route 28 is the next step.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
