@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to West Channel (Column 0).
-- **Action:** Navigate to (0, 35) via Row 32.
-- **Reasoning:** Row 28 blocks Northward movement. Current position `(11, 30)` is blocked South/West. Detouring East to `(13, 31)` to access Row 32, then heading West to the channel at Column 0.
+- **Status:** Bypassing blockage at (11, 30).
+- **Action:** Manual move: Right x2, Down x2 to (13, 32).
+- **Reasoning:** Automated pathfinding got stuck looping at (11, 30). Manual analysis shows a path East then South through a gap at (13, 31) to reach Row 32, which connects to the West side.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
