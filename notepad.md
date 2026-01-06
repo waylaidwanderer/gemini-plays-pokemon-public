@@ -26,3 +26,5 @@
     3. Walk North past the cave to Row 8.
     4. Head West along Row 8 to reach the Northwest corner.
     5. Explore the NW corner for hidden items or houses.
+- **Troubleshooting:** Standard exit (Up, Down) failed to trigger the warp. Retrying with `slow_press` and an extra Down input to ensure the warp event registers.
+- **Hypothesis:** The "step-on" event might need more time or a forceful "bump" into the southern wall to trigger properly.
