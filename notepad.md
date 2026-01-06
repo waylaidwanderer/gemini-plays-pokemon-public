@@ -5,10 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Verifying Central North Path.
-- **Action:** Navigate to (8, 14) and attempt to move North to (8, 13).
-- **Reasoning:** Previous attempt to move North from (8, 14) was interrupted by a battle and not definitively proven to be blocked. If (8, 14) is passable Northbound, it opens the central path. If blocked, I will pivot to testing Southbound access at (8, 34) via (9, 33).
-- **Goal:** Challenge Red at Mt. Silver.
+- **Status:** Relocating to West Edge (Column 0).
+- **Action:** Navigate to (8, 35), then West to (0, 35).
+- **Reasoning:** Column 3 is a dead end. Path to Column 0 requires looping South through the central corridor (Column 8), hopping down ledges at Row 20 and Row 34, to reach the bottom corridor (Row 35), which connects to the West Edge.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
