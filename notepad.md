@@ -15,3 +15,4 @@
 - **LEDGE_HOP_LEFT:** One-way Left.
 - **LEDGE_HOP_RIGHT:** One-way East. Acts as a wall from the West (verified at 35,30).
 - **FLOOR_UP_WALL:** Acts as a Ledge Down (Verified at 39,32).
+- **Navigation Update:** Found a gap in the southern ledge at (5, 27). Plan to head North through this gap, then circle East around the wall at Y=25, then cut West at Y=22 to reach the isolated Northwest area.
