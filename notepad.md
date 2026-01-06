@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Graveler).
-- **Action:** Run from battle -> Continue South to Row 32.
-- **Reasoning:** Encountered wild Graveler while navigating South. Need to escape to continue path to West side.
+- **Status:** Resuming navigation to West Side.
+- **Action:** Move Left to (9, 27), then South to Row 32.
+- **Reasoning:** Battle ended. Tile at (12, 28) is FLOOR_UP_WALL (blocked from North). Must detour Left to Column 9 to go South.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
