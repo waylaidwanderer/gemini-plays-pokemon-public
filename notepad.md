@@ -33,9 +33,11 @@
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv24 (Turn 30562).
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
-- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Strategy: Switch-train Xenon with Calcifer. Outcome: Defeated. Xenon gained 402 EXP (Total EXP: 13221).
+- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Outcome: Defeated. Xenon gained 402 EXP.
 
 # General Lessons
-- Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges (LEDGE_HOP_DOWN, LEDGE_HOP_LEFT). Once a ledge is jumped, you cannot return north/east without circling back from the map entrance.
-- Ledge Verification: Jumped down at (4, 41). Behavior confirmed as one-way (downward movement only).
-- Turn 30698: Picked up NUGGET at (6, 51).
+- Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges. Once a ledge is jumped, you cannot return north without circling back.
+- Ledge Verification: 
+  - Jumped down at (4, 41). Attempted to move Up at (4, 42) (Turn 30686) - movement blocked. Behavior confirmed as one-way (Down).
+  - Jumped down at (2, 55). Attempted to move Up at (2, 56) (Turn 30701) - movement blocked. Behavior confirmed as one-way (Down).
+  - Jumped down at (2, 63). Attempted to move Up at (2, 64) (Turn 30703) - movement blocked. Behavior confirmed as one-way (Down).
