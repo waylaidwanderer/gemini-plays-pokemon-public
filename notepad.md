@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Relocating to West Edge (Column 0).
-- **Action:** Navigate to (0, 35), then North to (0, 10).
-- **Reasoning:** Central North path (Col 8) is blocked by FLOOR_UP_WALL at (8, 14) which prevents Northbound movement (verified at 14, 28). Column 3 is blocked North of Row 14. Column 0 is the only remaining option, accessible via the bottom corridor (Row 35).
+- **Status:** Verifying Central North Path.
+- **Action:** Navigate to (8, 14) and attempt to move North to (8, 13).
+- **Reasoning:** Previous attempt to move North from (8, 14) was interrupted by a battle and not definitively proven to be blocked. If (8, 14) is passable Northbound, it opens the central path. If blocked, I will pivot to testing Southbound access at (8, 34) via (9, 33).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
