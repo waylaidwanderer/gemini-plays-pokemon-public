@@ -8,7 +8,6 @@
 ## Strategy: Johto League
 - Training: Grind Xenon (Lv26) and Kimchi (Lv21) to Lv30+.
 - Method: Switch-training. Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 in all battles.
-- Logistics: Sell NUGGET (¥5000) at next Mart.
 
 # Progress Tracker
 - Xenon (Lv26): 14172 / 21760 EXP (Target: Lv30)
@@ -16,9 +15,9 @@
 - Start Turn (Training): 30811
 
 # Tasks
-- Defeat Hiker Bailey at (12, 19) on Route 46 (Current).
 - Pick up item from Alan on Route 36.
 - Grab Poke Ball at (30, 28) in Dark Cave.
+- Sell NUGGET (¥5000) at next Mart.
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
