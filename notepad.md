@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Gatehouse Area).
-- **Status:** Checking potential hidden path.
-- **Action:** Close text, move to (30, 4), check for Cut tree or hidden items.
+- **Status:** Searching Alcove.
+- **Action:** Move to (31, 4) behind the sign.
 - **Reasoning:** 
-  1. The path north of the sign seems to dead-end at (30, 4)/(31, 4) according to the map, but it's suspicious.
-  2. Will investigate if the trees are cuttable.
-  3. If not, will enter the Gatehouse to see if there's a side exit.
+  1. The path wraps around the sign to a small dead-end at (31, 4).
+  2. This is a classic spot for hidden items or secret paths.
+  3. Will inspect the tile and surrounding walls upon arrival.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
