@@ -22,7 +22,7 @@
 
 # Kingdra Analysis (Gym Leader Clair)
 - Type: Water/Dragon.
-- Defensive Matchups: Neutral to Electric, Grass, Ground, Rock, Normal. Resists Fire/Water (1/4x), Ice (1/2x). Weak to Dragon.
+- Defensive Matchups: Neutral to Electric, Grass, Ice, Ground, Rock, Normal. Resists Fire/Water (1/4x). Weak to Dragon.
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
 # Training Progress Tracker
@@ -33,6 +33,5 @@
 # Exploration Progress
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
-- Turn 30779: Healing Calcifer (76/152 HP) with Hyper Potion. Xenon and Gneiss are healthy. Next: Fix Xenon's held item, then continue south on Route 45.
 - Task: Verify if trainer at (10, 16) is defeated. Requires flying back to Blackthorn and re-entering Route 45 lanes.
-- Turn 30774: [2026-01-06 12:53 PM] Performed 50-turn reflection. Defined find_path_v2 and get_type_effectiveness tools. Navigating to PACK to heal Calcifer and fix Xenon's held item.
+- Task: Take Hyper Potion from Xenon and give him the Amulet Coin.
