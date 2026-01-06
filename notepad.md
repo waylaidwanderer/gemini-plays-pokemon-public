@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Looping back to West Ledge.
-- **Action:** Navigate to (3, 26) via East path (Col 9).
-- **Reasoning:** I am below the ledges at Row 31. To reach the Item Ball at (5, 30), I must loop back around: East to Col 9, North to Row 25, West to Col 3, then South to (3, 26) to re-enter the ledge area from the top.
+- **Status:** In wild battle (Onix).
+- **Action:** Run from battle -> Resume navigation to (3, 26).
+- **Reasoning:** Interrupted by wild Onix while looping back to the West Ledge. Need to escape to continue path to (3, 26).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
