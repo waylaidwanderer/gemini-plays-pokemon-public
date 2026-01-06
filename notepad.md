@@ -29,3 +29,4 @@
 - **Tile Verification:** Never assume a tile type (like FLOOR_UP_WALL) is traversable based on its name. Always test collision immediately.
 - **Ledge Awareness:** On maps with many ledges (Route 45, Route 46), use `find_path_v2` with updated ledge logic to avoid getting stuck in pockets.
 - **Training Efficiency:** Use `battle_analyst_v2` during wild encounters to minimize damage and maximize EXP gain for trainees.
+- Pick up item from Alan on Route 36.
