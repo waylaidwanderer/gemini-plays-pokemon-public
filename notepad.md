@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to (5, 25).
-- **Action:** Move North to Row 25, then West to (5, 25).
-- **Reasoning:** Direct access to West side (Item Ball) is blocked from East and South. Attempting to enter from the North. If (5, 26) is impassable, I will explore the unseen area to the West (Column 4).
+- **Status:** In wild battle (Graveler).
+- **Action:** Run from battle -> Resume navigation to (5, 25).
+- **Reasoning:** Interrupted by wild Graveler. Need to escape to continue path to (5, 25).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 
