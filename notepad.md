@@ -23,3 +23,4 @@
 - Warp Safety: find_path_v2 avoid_warps=True prevents accidental transitions.
 - Strength Mechanic: Strength must be used on each individual boulder; it is not a persistent status.
 - Tool Hygiene: use_item_from_bag_v2 requires the bag to be open. Always use press_menu_buttons to navigate to the Pack first.
+- Fly Map Logic: Destination names MUST be verified in Screen Text after every button press. The cursor does not follow a simple geographical grid.
