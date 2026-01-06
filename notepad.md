@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Pokemon Center.
-- **Status:** Healing party.
-- **Action:** Press A to heal, then Exit South to Mt. Silver Outside.
-- **Reasoning:** Healing to prepare for Red. Afterward, enter the cave.
+- **Status:** Healed. Exiting to Mt. Silver.
+- **Action:** Exit South to outside.
+- **Reasoning:** Party is healed. Ready to enter the cave and find Red.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
