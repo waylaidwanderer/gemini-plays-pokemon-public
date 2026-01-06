@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Exploring North.
-- **Action:** Move North via Column 12.
-- **Reasoning:** North path at Column 9 is blocked. East path at Column 12 seems open.
+- **Status:** In wild battle (Onix).
+- **Action:** Run from battle -> Resume North via Column 12.
+- **Reasoning:** Interrupted by wild Onix. Need to escape to continue exploring.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
