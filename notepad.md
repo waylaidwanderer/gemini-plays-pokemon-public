@@ -16,7 +16,7 @@
 - Primary Goal: Acquire the Rising Badge from Gym Leader Clair in Blackthorn City.
 - Training Plan: Grind Xenon (Gastly) and Kimchi (Gloom) to Lv30+ on Route 45 to prepare for Kingdra.
 - Method: Switch-training. Lead with the trainee, then immediately switch to a high-level Pokémon (Calcifer Lv47 or Gneiss Lv45) to finish the battle.
-- Current Status: Using Calcifer as the primary finisher due to Gneiss being low on HP and out of Earthquake PP.
+- Current Status: Calcifer (Lv47) is the primary finisher. Gneiss (Lv45) is low on PP and HP.
 - Logistics: Battle all trainers on Route 45 to earn money for additional Revives and Hyper Potions.
 
 # Kingdra Analysis (Gym Leader Clair)
@@ -34,5 +34,6 @@
 
 # General Lessons
 - Pathfinding: Explore the perimeters of new areas to identify paths around obstacles.
-- Battle: Wild Pokémon on Route 45 (Graveler, Geodude) yield high EXP but frequently use dangerous moves like Selfdestruct or Magnitude. Rock/Ground types are immune to Electric moves (Thunderpunch).
-- Type Matchups: Normal moves are NOT super effective against Rock; they are 0.5x effective. Trust the get_type_effectiveness tool.
+- Battle: Wild Pokémon on Route 45 (Graveler, Geodude) yield high EXP but frequently use dangerous moves like Selfdestruct (Normal) or Magnitude (Ground).
+- Strategy Insight: Xenon (Gastly) is immune to Selfdestruct (Normal-type).
+- Type Matchups: Normal moves are NOT super effective against Rock; they are 0.5x effective. Trust the get_type_effectiveness tool. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).

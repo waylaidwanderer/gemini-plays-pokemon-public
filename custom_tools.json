@@ -1,41 +1,4 @@
 {
-  "analyze_missing_links": {
-    "description": "Tests if making specific tiles passable would solve the boulder puzzle.",
-    "input_schema": {
-      "properties": {
-        "test_tiles": {
-          "items": {
-            "properties": {
-              "x": {
-                "type": "integer"
-              },
-              "y": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "x",
-              "y"
-            ],
-            "type": "object"
-          },
-          "type": "array"
-        }
-      },
-      "required": [
-        "test_tiles"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width, height = int(root.get('width')), int(root.get('height'))\n        passable, pits, boulders = set(), [(2, 5), (8, 3), (8, 7)], {6: (3, 3), 7: (6, 1), 8: (8, 14)}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                if tile.get('type') in ['FLOOR', 'LADDER', 'ICE'] and (tile.get('has-object') != 'true' or (tile.find('Object') is not None and tile.find('Object').get('id-name') == 'BOULDER')):\n                    passable.add((x, y))\n        extra = {(t['x'], t['y']) for t in input_data['test_tiles']}\n        temp_passable = passable | extra\n        results = {}\n        for bid, bstart in boulders.items():\n            q, v = deque([bstart]), {bstart}\n            reachable_pit = None\n            while q:\n                bx, by = q.popleft()\n                if (bx, by) in pits: reachable_pit = (bx, by); break\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nbx, nby, px, py = bx + dx, by + dy, bx - dx, by - dy\n                    if 0 <= nbx < width and 0 <= nby < height and 0 <= px < width and 0 <= py < height and ((nbx, nby) in temp_passable or (nbx, nby) in pits) and (px, py) in temp_passable:\n                        if (nbx, nby) not in v:\n                            v.add((nbx, nby))\n                            q.append((nbx, nby))\n            results[bid] = str(reachable_pit) if reachable_pit else None\n        print(json.dumps(results))\n    except Exception as e:\n        print(json.dumps({'error': str(e)}))\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T23:46:49.073Z",
-        "action_counter": 29731
-      }
-    ]
-  },
   "find_path_v2": {
     "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and hazardous tiles (pits/ladders) as obstacles. Returns a JSON array of buttons.",
     "input_schema": {
