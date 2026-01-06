@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Battling Wild Ponyta (Turn 25345).
-- **Action:** Press A to confirm USE of Ultra Ball (Attempt 2).
+- **Status:** Nicknaming Ponyta.
+- **Action:** Select YES to nickname.
 - **Reasoning:** 
-  1. The "USE/QUIT" menu is still open with "USE" selected.
-  2. Previous 'A' press apparently didn't trigger the throw (menu persisted).
-  3. Pressing 'A' again to force the action.
+  1. Ponyta caught!
+  2. Need to give it a creative nickname.
+  3. Prompt is "Give a nickname?", YES is selected.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Catch Ponyta for Pokedex.
-  2. Reach the hidden house at (7, 3) via the West side.
+  1. Caught Ponyta.
+  2. Resume path: Surf West -> Land -> Go North through gap at (17, 7) to reach the hidden house.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
