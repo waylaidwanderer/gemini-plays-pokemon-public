@@ -1,15 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Nicknaming Ponyta.
-- **Action:** Select YES to nickname.
-- **Reasoning:** 
-  1. Ponyta caught!
-  2. Need to give it a creative nickname.
-  3. Prompt is "Give a nickname?", YES is selected.
-- **Goal:** Challenge Red at Mt. Silver.
+- **Status:** Exploring West Gap.
+- **Action:** Move to (17, 7) then explore West along Row 7.
 - **Reasoning:** 
   1. Caught Ponyta.
-  2. Resume path: Surf West -> Land -> Go North through gap at (17, 7) to reach the hidden house.
+  2. Map shows a gap in the ledges at (17, 7).
+  3. Will navigate through this gap to explore the strip of land running West (Row 7).
+  4. Goal is to see if there is any access North to the hidden house from that strip (checking ledges at Row 5).
+- **Goal:** Challenge Red at Mt. Silver.
+- **Reasoning:** 
+  1. Need to reach the hidden house at (7, 3).
+  2. Verifying if access is possible from the South-West. If not, will check Gatehouse or backtrack to Silver Cave Outside.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
