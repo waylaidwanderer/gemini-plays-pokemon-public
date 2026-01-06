@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Surfing West.
-- **Action:** Clear text (B), then Surf West to (19, 8).
+- **Status:** Surfing to Landfall.
+- **Action:** Surf West to (19, 8) to land.
 - **Reasoning:** 
-  1. "Used SURF!" text is on screen.
-  2. Need to clear it to hop on the water.
-  3. Then surfing West to the land at x=19 to access the western area and the House.
+  1. Currently on water at (23, 8).
+  2. Need to reach the western landmass.
+  3. Will land at (19, 8) and then head for the gap in the ledges at x=17 to go North.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
-  2. Checking if access is possible from the West side (x<20).
+  2. Validated path: Surf West -> Land -> Go North through gap at (17, 7).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
