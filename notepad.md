@@ -10,7 +10,7 @@
 - Method: Switch-training. Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 in all battles.
 
 # Progress Tracker
-- Xenon (Lv26): 15124 / 21760 EXP (Target: Lv30) [6636 left]
+- Xenon (Lv26): 15124 / 21760 EXP (Target: Lv30)
 - Kimchi (Lv21): 7006 / 21760 EXP (Target: Lv30)
 - Start Turn (Training): 30811
 
