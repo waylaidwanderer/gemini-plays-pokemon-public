@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Ursaring).
-- **Action:** Run from battle -> Move Right to (5, 30) (Item Ball).
-- **Reasoning:** Interrupted by wild Ursaring at (3, 30). Need to escape to reach the Item Ball two tiles away.
+- **Status:** Recovering from battle.
+- **Action:** Move Right to (5, 30) to collect the Item Ball.
+- **Reasoning:** Battle ended successfully. The path to the Item Ball is clear.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
