@@ -10,9 +10,9 @@
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
 # Strategy: Johto League Training
-- Efficiency: Lead with trainee (Xenon/Kimchi), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched.
+- Efficiency: Lead with trainee (Kimchi Lv21), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
 - Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
-- Pacing: Walk back and forth in TALL_GRASS on Route 45.
+- Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Sweet Scent to trigger encounters if pacing is slow.
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
