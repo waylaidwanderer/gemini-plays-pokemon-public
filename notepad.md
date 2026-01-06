@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (East Side).
-- **Status:** Approaching Gatehouse.
-- **Action:** Move to (33, 6) near the building entrance.
+- **Status:** Investigating Sign and Northern Path.
+- **Action:** Read Sign at (31, 5), then explore path at x=30.
 - **Reasoning:** 
-  1. Successfully bypassed the ledge.
-  2. Heading to the Victory Road Gate area to establish a landmark.
-  3. Will then scout for a path Westward along the northern tree line to reach the unreachable House.
+  1. Reached the Gatehouse area.
+  2. A path exists to the left of the Gatehouse (x=30, y=5).
+  3. This likely leads to the hidden area behind the trees.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. The House at (7, 3) likely holds a useful item (TM/Gift) or information.
