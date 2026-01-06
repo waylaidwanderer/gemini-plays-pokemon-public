@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Pokemon Center.
-- **Status:** Healing.
-- **Action:** Press A to confirm "YES".
+- **Status:** Exiting PC.
+- **Action:** Press B to cancel dialogue/menu.
 - **Reasoning:** 
-  1. Dialogue prompt "Shall we heal your POKéMON?" is active.
-  2. "YES" is selected.
-  3. Pressing A initiates the healing process.
-  4. Next: Wait for healing to finish, then exit to explore NW Silver Cave Outside.
+  1. The screen shows the "Shall we heal?" prompt again, despite the text history indicating healing completed.
+  2. I likely re-initiated the interaction or the state is desynced.
+  3. Pressing B is the safest way to decline/exit the dialogue loop.
+  4. Once free, I will exit the PC and Surf West.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
