@@ -29,3 +29,6 @@
 - Attempt 1 (Turn 30941): Fumbled menus, ended up in Pokegear/Trainer Card.
 - Attempt 2 (Turn 30975): Interrupted by Alan's call, stuck in menu loop.
 - Strategy: Clear menus with B, then Start -> Pokemon -> Icarus -> Fly. Verify destination text after every map move.
+## Decisive Action Phase: Fly to Blackthorn City
+- Turn 30982: Transitioning from exploratory menu attempts to a decisive, step-by-step execution.
+- Protocol: Exit Pokecenter -> Start -> Pokemon -> Icarus -> Fly -> Verify 'Blackthorn City' in text after EACH move -> Press A.
