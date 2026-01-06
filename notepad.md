@@ -31,6 +31,7 @@
 - Turn 30372: Whited out against Gym Leader Clair.
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv24 (Turn 30562).
+- Milestone: Xenon evolved into HAUNTER at Lv25 (Turn 30625).
 
 # General Lessons
 - Pathfinding: Explore the perimeters of new areas to identify paths around obstacles.
