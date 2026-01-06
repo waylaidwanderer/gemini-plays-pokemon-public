@@ -15,10 +15,9 @@
 
 # Strategy: Final Badge
 - Primary Goal: Acquire the Rising Badge from Gym Leader Clair in Blackthorn City.
-- Training Plan: Grind Xenon (Haunter) and Kimchi (Gloom) to Lv30+ on Route 45 to prepare for Kingdra.
+- Training Plan: Grind Xenon (Haunter) and Kimchi (Gloom) to Lv30+ on Route 45.
 - Method: Switch-training. Lead with trainee, then switch to Calcifer (Lv48) or Gneiss (Lv45).
 - CRITICAL: In trainer battles, switch trainee back in for EVERY new Pokémon sent out to maximize EXP sharing.
-- Current Status: Calcifer (Lv48) is healthy; Gneiss (Lv45) and Xenon (Lv26) are low on HP.
 - Logistics: Battle all trainers on Route 45 to earn money for supplies.
 
 # Kingdra Analysis (Gym Leader Clair)
@@ -27,8 +26,9 @@
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
 # Training Progress Tracker
-- Xenon (Lv26): 14157 EXP (Target: 21200 for Lv30)
-- Kimchi (Lv21): 7006 EXP (Target: 21200 for Lv30)
+- Xenon (Lv26): 14157 / 21200 EXP (Target: Lv30)
+- Kimchi (Lv21): 7006 / 21200 EXP (Target: Lv30)
+- Milestones: Xenon reached Lv25 (Turn 30625), Lv26 (Turn 30724).
 
 # Exploration Progress
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
