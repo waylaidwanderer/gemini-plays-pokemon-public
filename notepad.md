@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25360).
-- **Action:** Press B to clear text.
+- **Status:** Battling Wild Rapidash (Turn 25361).
+- **Action:** Press A to clear "Hit 4 times!" text.
 - **Reasoning:** 
-  1. "Hit 4 times!" text is on screen with a prompt arrow.
-  2. Need to clear this to return to the battle menu.
-  3. Once menu is open, I will throw another Ultra Ball.
+  1. "Hit 4 times!" text is still on screen (previous B press didn't clear it).
+  2. Need to advance to the main battle menu.
+  3. Once menu is accessible, I will throw another Ultra Ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
-  2. After battle, verify markers and explore West end.
+  2. After battle, delete erroneous map marker at (31, 3) and explore West end.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
