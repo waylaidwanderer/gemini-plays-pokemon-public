@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (East Side).
-- **Status:** Navigating around Ledge.
-- **Action:** Move South to Row 10, then East to x=30.
+- **Status:** Approaching Gatehouse.
+- **Action:** Move to (33, 6) near the building entrance.
 - **Reasoning:** 
-  1. Currently at (25, 8). Path East is blocked by a One-Way Left Ledge at (26, 8).
-  2. Must backtrack South to the open grass area (Row 10/11) to bypass the ledge.
-  3. Destination is the open area near the Victory Road Gate.
+  1. Successfully bypassed the ledge.
+  2. Heading to the Victory Road Gate area to establish a landmark.
+  3. Will then scout for a path Westward along the northern tree line to reach the unreachable House.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Need to explore all of Route 28.
-  2. Accessing the Northern/Eastern part of Route 28 is the next step.
+  1. The House at (7, 3) likely holds a useful item (TM/Gift) or information.
+  2. Need to find the path to it, possibly via a Cut tree.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
