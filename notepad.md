@@ -38,3 +38,4 @@
 # General Lessons
 - Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges (LEDGE_HOP_DOWN, LEDGE_HOP_LEFT). Once a ledge is jumped, you cannot return north/east without circling back from the map entrance.
 - Ledge Verification: Jumped down at (4, 41). Behavior confirmed as one-way (downward movement only).
+- Turn 30698: Picked up NUGGET at (6, 51).
