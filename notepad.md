@@ -1,14 +1,14 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25445 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore the western/northwestern section of Silver Cave Outside.
-    - Currently surfing.
-    - Landing on south shore (14, 28) to access the grassy area to the West.
-    - Searching for the "Route 28 House" or any other points of interest.
+- **Immediate Task:** Exit Silver Cave Room 1 and navigate to the Northwest area of Silver Cave Outside.
+    - Accidentally entered the cave at (18, 11).
+    - Need to exit and bypass the cave entrance to reach the northern path at Row 8.
 - **Next Steps:**
-    1. Land on shore.
-    2. Traverse the grass westward.
-    3. Look for a path leading North or further West.
+    1. Exit Cave (Step Up to 9,32 then Down to 9,33).
+    2. Move Left to x=17 to avoid immediate re-entry.
+    3. Head North to Row 8.
+    4. Traverse West along Row 8.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
