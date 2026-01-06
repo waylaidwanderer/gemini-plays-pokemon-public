@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Initiating Surf to West.
-- **Action:** Press A to Surf, then move West to x=19.
+- **Status:** Surfing to West Landmass.
+- **Action:** Press A to confirm Surf, then Move Left to (19, 8).
 - **Reasoning:** 
-  1. Reached the water's edge at (24, 8).
-  2. Need to cross the water gap to reach the western landmass.
-  3. The goal is to reach the House at (7, 3), which requires going North from the West side (since the East side is blocked by ledges).
+  1. Confirming the "Want to SURF?" prompt.
+  2. Crossing the water gap to explore the western side of the route.
+  3. Looking for a path North to the unreachable House area or a hidden cave entrance.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
-  2. Path seems to be: Surf West -> Pass gap at x=17 -> Head North/West.
+  2. Checking if access is possible from the West side (x<20).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
