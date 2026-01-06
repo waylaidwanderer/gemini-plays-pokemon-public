@@ -1,13 +1,12 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28 (West End).
-- **Status:** Exiting to Silver Cave Outside.
-- **Action:** Move to (0, 13) via the ledge at (11, 11).
+- **Location:** Silver Cave Outside.
+- **Status:** Searching for Hidden Entrance.
+- **Action:** Move Left to exit Route 28, then explore the North-West area of Silver Cave Outside.
 - **Reasoning:** 
-  1. Escaped wild battle.
-  2. Confirmed that the current area (Route 28 West Main) is a dead-end loop that does NOT lead to the House at (7, 3).
-  3. To exit this loop, I must head East to x=11, then South to hop the ledge at (11, 11).
-  4. After hopping, I will head West to the map exit at (0, 13).
-  5. Plan: Exit to Silver Cave Outside, then search for a northern/western path I missed (possibly a hidden cave entrance or Cut tree).
+  1. Route 28 West was a dead end for the House.
+  2. The House is in the North-West corner of Route 28.
+  3. This implies a corresponding entrance in the North-West of Silver Cave Outside (or a hidden path).
+  4. I will check for Cut trees or Surf paths I might have missed near the Pokemon Center or the cave entrance.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
