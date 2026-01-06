@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Battling Wild Ponyta (Turn 25342).
-- **Action:** Press A to confirm USE of Ultra Ball.
+- **Status:** Battling Wild Ponyta.
+- **Action:** Confirm "USE" to throw Ultra Ball.
 - **Reasoning:** 
-  1. Menu shows "USE" selected for Ultra Ball.
-  2. Pressing A will throw the ball.
-  3. Previous attempt to use `select_battle_option` failed because we are in a sub-menu.
+  1. The "USE/QUIT" menu is open with "USE" selected.
+  2. Need to press 'A' to confirm the throw.
+  3. Previous 'A' press opened this sub-menu.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Ponyta for Pokedex.
