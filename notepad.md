@@ -36,3 +36,4 @@
 # Training Progress Tracker
 - Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
 - Kimchi (Lv21): 7006 / 21600 EXP (Target: Lv30)
+- Turn 30741: Battling Camper Quentin's Tauros (Lv30). Strategy: OHKO with Calcifer's Flame Wheel. Outcome: Pending.
