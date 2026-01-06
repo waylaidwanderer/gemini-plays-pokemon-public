@@ -4,6 +4,8 @@
 - TALL_GRASS: Reachable encounters.
 - LEDGE_HOP_DOWN: One-way south. Impassable from south/east/west.
 - FLOOR_UP_WALL: Impassable ledge bottom.
+- WATER: Requires SURF to cross.
+- WHIRLPOOL: Requires WHIRLPOOL to clear.
 
 ## Strategy: Johto League
 - Training: Grind Xenon (Lv26) and Kimchi (Lv21) to Lv30+.
