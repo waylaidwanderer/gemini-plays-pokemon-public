@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Positioning for Ledge Jump.
-- **Action:** Navigate to (10, 33).
-- **Reasoning:** Row 34 is blocked by FLOOR_UP_WALL tiles. Hypothesizing these are one-way ledges (Southbound). Moving to (10, 33) to attempt jumping down to (10, 34) to access the southern corridor (Row 35) and reach the Eastern path (Col 19).
+- **Status:** Pathfinding to East Side.
+- **Action:** Use `find_path` to navigate to (19, 35).
+- **Reasoning:** Row 34/35 seems to be the only connection to the Eastern section (columns 18-19). Exploring if a path exists.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
