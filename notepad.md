@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
 - **Status:** Nicknaming Dodrio.
-- **Action:** Press A to finish Pokedex entry.
+- **Action:** Select YES to nickname.
 - **Reasoning:** 
-  1. Currently on Page 2 of Dodrio's Pokedex entry.
-  2. Pressing A will close the entry and prompt for a nickname.
-  3. Will select YES to nickname it "Hydra".
+  1. "Give a nickname?" prompt is visible.
+  2. "YES" is selected.
+  3. Press A to enter the nickname screen.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
