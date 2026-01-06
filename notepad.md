@@ -6,7 +6,7 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Navigate to Pokemon Center (23, 19), heal, then Surf West.
+- **Action:** Navigate South to water (Row 24), then Surf West.
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
   2. The internal West Corridor (Column 0) was inaccessible from the main area due to ledges. It likely connects to a hidden external entrance.
