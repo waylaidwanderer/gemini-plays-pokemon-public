@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside.
 - **Status:** Searching for West Entrance.
-- **Action:** Navigate to (39, 31) (Route 28 Exit).
+- **Action:** Move Right to enter Route 28.
 - **Reasoning:** 
-  1. Internal Southbound paths are blocked by `FLOOR_UP_WALL` barriers.
-  2. The path East from (32, 30) leads to a ledge jump at (35, 30), putting me on the path to (39, 31).
-  3. (39, 31) is marked as the exit to Route 28.
-  4. Accessing Route 28 is the next logical step to find a way around the obstacles to the West/South.
+  1. Reached (39, 31).
+  2. Southbound paths at Col 38 (Wall) and Col 39 (FLOOR_UP_WALL) appear blocked.
+  3. The only available path is East into Route 28.
+  4. Expectation: Route 28 allows access to the blocked southern areas of Silver Cave Outside.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Exited cave at (18, 11) (Main Entrance). 
