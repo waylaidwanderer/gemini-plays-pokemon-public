@@ -43,3 +43,4 @@
 - Strategy Insight: Xenon (Haunter) is immune to Selfdestruct (Normal-type).
 - Type Matchups: Normal moves are 0.5x effective against Rock. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).
 - Turn 30674: Battling Cooltrainer Kelly (Marill Lv27). Strategy: Switch-train Xenon with Calcifer. Calcifer is using Thunderpunch.
+- Turn 30679: Kelly's Marill fainted. Xenon/Calcifer gained 166 EXP. Kelly sent out Wartortle (Lv24). Strategy: Use Thunderpunch.
