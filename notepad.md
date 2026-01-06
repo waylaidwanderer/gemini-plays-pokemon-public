@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28.
-- **Status:** Surfing North.
-- **Action:** Move Up to (22, 11) to make landfall.
+- **Location:** Route 28 (East Side).
+- **Status:** Exploring East.
+- **Action:** Move East to x=30, then North towards the Victory Road Gate.
 - **Reasoning:** 
-  1. Currently surfing at (22, 14).
-  2. Land (Tall Grass) is visible directly North at Row 11.
-  3. This area connects to the wider Route 28 map.
+  1. Landed at (22, 11). To the West is a dead end (Wall at x=17).
+  2. To the East is open terrain leading to the Gate area.
+  3. Need to explore the Eastern side to see if there is a path wrapping around to the North-West (House).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to explore all of Route 28.
