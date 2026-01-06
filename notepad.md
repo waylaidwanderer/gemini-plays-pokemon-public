@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
 - **Status:** Battling Wild Ponyta.
-- **Action:** Catch Ponyta for Pokedex.
+- **Action:** Throw Ultra Ball.
 - **Reasoning:** 
-  1. Interrupted by wild Ponyta while surfing.
-  2. Ponyta is NOT registered in the Pokedex.
-  3. Plan: Advance text -> Switch to Gyarados (to tank/weaken safe) OR Throw Ball immediately (Catch rate is high).
-  4. Machoke (Lv83) is too strong and risks OHKOing it.
+  1. In Battle Menu -> Pack -> Balls Pocket.
+  2. Ponyta (Lv40) vs Machoke (Lv83). Attacking is too risky (OHKO).
+  3. Ponyta has high catch rate. Throwing Ultra Ball at full HP is effective.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
