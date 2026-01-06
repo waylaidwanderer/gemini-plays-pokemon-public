@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Closing Text Box.
-- **Action:** Press B to close the "Bag Full" message.
-- **Reasoning:** Cannot carry the item. Need to dismiss the text to regain movement control. Afterward, I will exit this area via the South ledge and return to the East side to find a path North (Columns 14-16).
+- **Status:** Dismissing "Bag Full" Text.
+- **Action:** Press B again to close the dialogue box.
+- **Reasoning:** The text advanced but hasn't closed yet. Need to clear it to regain movement control. Then I will exit via the South ledge.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
