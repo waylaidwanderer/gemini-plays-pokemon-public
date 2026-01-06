@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** In wild battle (Onix).
-- **Action:** Press B to advance text, then Run.
-- **Reasoning:** Interrupted by wild Onix at (9, 32). Need to escape to continue North to (9, 29).
+- **Status:** Resuming backtrack to Main Hub.
+- **Action:** Move North to (9, 29).
+- **Reasoning:** Battle ended. Resuming Northward movement to escape the southern cul-de-sac and reach the central hub at Row 29/26.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
