@@ -38,3 +38,4 @@
 - Strategy: Route 45 is divided into vertical lanes. Choosing a lane at the top determines which trainers and items are accessible. Southward movement is generally permanent within a lane until the map end.
 - Turn 30760: Cleared Xenon's heal message. Returning to bag to heal Gneiss and Calcifer. Xenon is currently holding a Hyper Potion; need to swap for Amulet Coin later.
 - Turn 30761: Xenon fully healed (67/67 HP). Gneiss (30/126 HP) and Calcifer (76/152 HP) still need healing. Using Hyper Potion on Gneiss.
+- Turn 30764: Healing Calcifer (76/152 HP) with Hyper Potion. Xenon and Gneiss are healthy. Plan: Fix Xenon's held item (take Hyper Potion, give Amulet Coin) then continue south.
