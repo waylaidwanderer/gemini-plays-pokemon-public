@@ -1,16 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Exiting to Silver Cave Outside.
-- **Action:** Move to (0, 13) via the southern ledges.
+- **Status:** Battling Wild Rapidash.
+- **Action:** Switch to Balls Pocket -> Throw Ultra Ball.
 - **Reasoning:** 
-  1. Confirmed that the current area (Route 28 West Main) is a dead-end loop that does NOT lead to the House at (7, 3).
-  2. The House is likely accessed via a separate entrance, possibly corresponding to the top-left of Route 28.
-  3. This entrance is likely in Silver Cave Outside (which I will reach by exiting at (0, 13)) or via the Cave's internal West Corridor.
-  4. Plan: Exit to Silver Cave Outside, then search for a northern/western path I missed.
+  1. Rapidash is still in battle (Lv 40 vs Lv 83).
+  2. Currently in Items Pocket (Pack opened).
+  3. Need to switch to Balls Pocket to use Ultra Balls.
+  4. Ultra Ball count is ~8.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Find the path to the House (likely holds a useful item like TM26 Earthquake or similar).
-  2. Proceed to Silver Cave.
+  1. Catch Rapidash.
+  2. Resume plan to exit Route 28 West and find the correct path to the House.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
