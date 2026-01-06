@@ -42,3 +42,4 @@
 - Battle: Wild Pokémon on Route 45 (Graveler, Geodude) yield high EXP but use Selfdestruct (Normal) or Magnitude (Ground).
 - Strategy Insight: Xenon (Haunter) is immune to Selfdestruct (Normal-type).
 - Type Matchups: Normal moves are 0.5x effective against Rock. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).
+- Turn 30674: Battling Cooltrainer Kelly (Marill Lv27). Strategy: Switch-train Xenon with Calcifer.
