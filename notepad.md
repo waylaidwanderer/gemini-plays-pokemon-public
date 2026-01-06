@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Retrieving Item Ball.
-- **Action:** Jump ledge at (3, 27) and navigate to (5, 30).
-- **Reasoning:** Successfully returned to (3, 26). Jumping the ledge allows access to the enclosed area with the Item Ball. I must be careful not to jump the second ledge at Row 31.
+- **Status:** In wild battle (Ursaring).
+- **Action:** Run from battle -> Move Right to (5, 30) (Item Ball).
+- **Reasoning:** Interrupted by wild Ursaring at (3, 30). Need to escape to reach the Item Ball two tiles away.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
