@@ -1,37 +1,38 @@
 # Tile Mechanics
-- FLOOR: Standard traversable ground.
-- WALL: Impassable structural obstacle.
-- MART_SHELF: Impassable shop display in Poké Marts.
-- FLOOR_UP_WALL: Impassable vertical ledge face (cannot be jumped up).
-- LEDGE_HOP_DOWN: One-way jumpable ledge (jump down to bypass obstacles).
-- LEDGE_HOP_LEFT: One-way jumpable ledge (jump left to bypass obstacles).
-- PIT: Impassable; warps the player to the floor below.
-- LADDER: Warp between different floors of a building or cave.
-- BOULDER: Movable object requiring Strength (HM04) to push.
-- LAVA: Impassable hazard with WALL collision.
-- WATER: Traversable surface requiring Surf (HM03) to cross.
-- CAVE: Warp entrance leading to an interior map.
-- TALL_GRASS: Reachable area where wild Pokémon encounters are triggered.
+- FLOOR: Standard ground.
+- WALL: Impassable.
+- FLOOR_UP_WALL: Impassable ledge face.
+- LEDGE_HOP_DOWN: One-way (Down).
+- LEDGE_HOP_LEFT: One-way (Left).
+- TALL_GRASS: Reachable encounters.
 
 # Strategy: Final Badge
-- Primary Goal: Acquire the Rising Badge from Gym Leader Clair in Blackthorn City.
+- Primary Goal: Acquire the Rising Badge from Gym Leader Clair.
 - Training Plan: Grind Xenon (Haunter) and Kimchi (Gloom) to Lv30+ on Route 45.
-- Method: Switch-training. Lead with trainee, then switch to Calcifer (Lv48) or Gneiss (Lv45).
-- CRITICAL: In trainer battles, switch trainee back in for EVERY new Pokémon sent out to maximize EXP sharing.
-- Logistics: Battle all trainers on Route 45 to earn money for supplies. Sell NUGGET (¥5000) at next opportunity.
+- Method: Switch-training. Lead with trainee, then switch to finisher (Calcifer Lv48 or Gneiss Lv45).
+- EXP MAXIMIZATION: Switch trainee back in for EVERY new Pokémon sent out by trainers.
+- Logistics: Sell NUGGET (¥5000) at next opportunity.
 
-# Kingdra Analysis (Gym Leader Clair)
-- Type: Water/Dragon.
-- Defensive Matchups: Neutral to Electric, Grass, Ice, Ground, Rock, Normal. Resists Fire/Water (1/4x). Weak to Dragon.
-- Observed Moves: Smokescreen, Dragonbreath, Surf.
+# Verified Bag Order (Items Pocket)
+1. ICE BERRY
+2. ICE HEAL
+3. GRN APRICORN
+4. PNK APRICORN
+5. YLW APRICORN
+6. FULL HEAL
+7. HYPER POTION
+8. REVIVE
+9. NUGGET
+10. AMULET COIN
+11. CANCEL
 
 # Training Progress Tracker
 - Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
 - Kimchi (Lv21): 7006 / 21760 EXP (Target: Lv30)
-- Milestones: Xenon reached Lv25 (Turn 30625), Lv26 (Turn 30724).
+- Milestones: Xenon Lv25 (Turn 30625), Lv26 (Turn 30724).
 
-# Exploration Progress
-- Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
-- Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
-- Task: Verify if trainer at (10, 16) is defeated. Requires flying back to Blackthorn and re-entering Route 45 lanes.
-- Task: Take Hyper Potion from Xenon and give him the Amulet Coin.
+# Tasks
+- Take Hyper Potion from Xenon.
+- Give AMULET COIN to Xenon.
+- Verify trainer at (10, 16) later.
+- Continue south on Route 45 vertical lanes.
