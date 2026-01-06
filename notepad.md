@@ -1,11 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Surfing to Landfall.
-- **Action:** Surf West to (19, 8) to land.
+- **Status:** Battling Wild Ponyta.
+- **Action:** Catch Ponyta for Pokedex.
 - **Reasoning:** 
-  1. Currently on water at (23, 8).
-  2. Need to reach the western landmass.
-  3. Will land at (19, 8) and then head for the gap in the ledges at x=17 to go North.
+  1. Interrupted by wild Ponyta while surfing.
+  2. Ponyta is NOT registered in the Pokedex.
+  3. Plan: Advance text -> Switch to Gyarados (to tank/weaken safe) OR Throw Ball immediately (Catch rate is high).
+  4. Machoke (Lv83) is too strong and risks OHKOing it.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
