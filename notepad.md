@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25364).
-- **Action:** Press B to clear recoil text.
+- **Status:** Battling Wild Rapidash (Turn 25365).
+- **Action:** Select PACK -> Ultra Ball -> Use.
 - **Reasoning:** 
-  1. Rapidash used Take Down and took recoil damage.
-  2. Text "hit with recoil!" is waiting to be cleared.
-  3. Need to return to battle menu to throw another Ultra Ball.
+  1. Recoil text cleared (Menu is visible in screenshot).
+  2. Muscle took recoil damage.
+  3. Throwing another Ultra Ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
