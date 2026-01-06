@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Escaping Item Area to reach West Channel.
-- **Action:** Move Right to (8, 30) (Hop Ledge), then South to (8, 33).
-- **Reasoning:** Collected item. Exiting the enclosed area via the ledge at (7, 30). Then heading South to attempt crossing Row 34 into the western channel (Column 0).
+- **Status:** Escaping Item Area to reach East Side.
+- **Action:** Press B to clear text, then Move Right to (8, 30) (Hop Ledge).
+- **Reasoning:** Collected Escape Rope. Exiting the enclosed area via the ledge at (7, 30). Then I will head East to retrieve the second Item Ball at (15, 29) and explore the North-East path (Column 15).
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
