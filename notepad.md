@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (East Edge).
 - **Status:** Battling Wild Arbok.
-- **Action:** Switch to Balls Pocket.
+- **Action:** Use Ultra Ball (A -> A).
 - **Reasoning:** 
-  1. Currently in Items Pocket.
-  2. Need to switch to Balls Pocket to access Ultra Balls.
-  3. Arbok (Lv 42) vs Muscle (Lv 83). Try one ball first.
-  4. If catch fails, consider switching to Gyarados (Lv 36) to weaken safely.
+  1. Cursor is visually on ULTRA BALL (2nd item).
+  2. Pressing A opens the submenu.
+  3. Pressing A again selects "USE".
+  4. Using `slow_press` to ensure inputs register correctly.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Arbok.
