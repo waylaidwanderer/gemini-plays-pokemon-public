@@ -5,12 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Pokemon Center.
-- **Status:** Inside Pokemon Center.
-- **Action:** Approach Nurse Joy to heal.
-- **Reasoning:** Arrived at the PC. Need to heal party before entering Mt. Silver Cave.
-- **Goal:** Heal at Counter -> Enter Mt. Silver Cave.
-- **Goal:** Reach Pokemon Center / Cave Entrance.
-- **Goal:** Reach Mt. Silver Entrance.
+- **Status:** Healing party.
+- **Action:** Press A to heal, then Exit South to Mt. Silver Outside.
+- **Reasoning:** Healing to prepare for Red. Afterward, enter the cave.
+- **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
