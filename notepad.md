@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Navigating to East Gap (Column 19).
-- **Action:** Navigate to (19, 28).
-- **Reasoning:** Row 28 (Columns 11-16) consists of FLOOR_UP_WALL tiles which block Northward movement (verified by failed attempts). Column 19 appears to be a FLOOR tile, offering a potential gap to cross North.
+- **Status:** In wild battle (Onix).
+- **Action:** Run from battle -> Resume navigation to East Gap (19, 28).
+- **Reasoning:** Interrupted by wild Onix. Need to escape to continue traversing to the East side gap at Column 19.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
