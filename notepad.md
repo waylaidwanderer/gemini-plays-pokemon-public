@@ -1,13 +1,13 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Searching for Cave Entrance.
-- **Next:** Enter Mt. Silver Cave.
+- **Status:** Entering Mt. Silver Cave.
+- **Next:** Traverse Cave to Red.
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** In wild battle (Ponyta).
-- **Action:** Run from battle -> Resume navigation to (18, 15).
-- **Reasoning:** Interrupted by wild Ponyta. Need to escape.
+- **Status:** At Cave Entrance.
+- **Action:** Enter the cave.
+- **Reasoning:** Reached the entrance. Proceeding inside.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
