@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Exploring North-East path.
-- **Action:** Navigate to (15, 16).
-- **Reasoning:** Row 20 was traversable Northbound. Ledges at (10, 17) block Northward progress on the West side. Column 15 appears to be an open path North.
+- **Status:** Exploring North into unseen area.
+- **Action:** Move North from (15, 16).
+- **Reasoning:** Current position is (15, 16). The area to the North is unexplored. Moving Up to reveal the map.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
