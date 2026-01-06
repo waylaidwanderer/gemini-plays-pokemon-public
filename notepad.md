@@ -1,14 +1,16 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Navigating Silver Cave Outside Loop.
-- **Action:** Exit Cave at (9, 33).
+- **Status:** Searching for West Entrance.
+- **Next:** Traverse West Corridor to Red.
+
+# Current Strategy: Post-Game
+- **Location:** Silver Cave Outside.
+- **Status:** Searching for West Entrance.
+- **Action:** Clear phone call, navigate South to water, Surf West.
 - **Reasoning:** 
-  1. Internal navigation of Silver Cave Room 1 is dead-ended. 
-     - Center (Col 8) blocked North by Row 14 ledges, South by Row 34 ledges.
-     - West (Col 3) blocked North by Row 14 walls.
-     - East (Col 15) blocked North by Row 26 walls.
-  2. Column 0 is an isolated corridor running the map's length, likely accessible only from a separate external entrance.
-  3. The warp at (9, 33) leads to "Silver Cave Outside". I hypothesize this path leads to the secondary entrance for Column 0.
+  1. Exited cave at (18, 11) (Main Entrance). 
+  2. The internal West Corridor (Column 0) was inaccessible from the main area due to ledges. It likely connects to a hidden external entrance.
+  3. Row 24 contains water. I will Surf West to search for land and a second cave entrance.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
