@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Gatehouse Area).
-- **Status:** Searching Alcove.
-- **Action:** Move to (31, 4) behind the sign.
+- **Status:** Searching Alcove / Entering Gatehouse.
+- **Action:** Face Up, Try Cut/Interact. Then enter Gatehouse at (33, 5).
 - **Reasoning:** 
-  1. The path wraps around the sign to a small dead-end at (31, 4).
-  2. This is a classic spot for hidden items or secret paths.
-  3. Will inspect the tile and surrounding walls upon arrival.
+  1. Tried cutting facing Right, failed. Tree might be above at (31, 3).
+  2. If that fails, the dead end might just be a dead end.
+  3. Will check the Gatehouse for a back exit to the hidden area.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
-  2. Standard pathing hasn't revealed a way yet.
+  2. Standard pathing hasn't revealed a way yet. Likely through the Gatehouse or a hidden path I missed.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
