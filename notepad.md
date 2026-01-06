@@ -1,16 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Middle Section).
-- **Status:** Exploring West Gap.
-- **Action:** Move to (17, 7) then explore West along Row 7.
+- **Status:** Moving West past Ledge.
+- **Action:** Move Up to Row 6, then Left, hopping the ledge at (14, 6).
 - **Reasoning:** 
-  1. Caught Ponyta.
-  2. Map shows a gap in the ledges at (17, 7).
-  3. Will navigate through this gap to explore the strip of land running West (Row 7).
-  4. Goal is to see if there is any access North to the hidden house from that strip (checking ledges at Row 5).
-- **Goal:** Challenge Red at Mt. Silver.
+  1. Currently at (17, 7).
+  2. To access the western area, I need to get past the vertical barrier of ledges.
+  3. The path is North to Row 6, then West.
+  4. (14, 6) is a Left-Hopping Ledge which acts as a one-way gate to the west.
+- **Goal:** Reach the House at (7, 3).
 - **Reasoning:** 
-  1. Need to reach the hidden house at (7, 3).
-  2. Verifying if access is possible from the South-West. If not, will check Gatehouse or backtrack to Silver Cave Outside.
+  1. The House is likely accessible from the far west or north-west.
+  2. Crossing this ledge is the only way forward.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
