@@ -34,3 +34,5 @@
 - Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63), (4, 77).
 - Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
 - Turn 30756: Scrolling to the top of the Items pocket to use Hyper Potions on Xenon (29/67 HP), Gneiss (30/126 HP), and Calcifer (76/152 HP).
+- Task: Verify if trainer at (10, 16) is defeated. Requires flying back to Blackthorn and re-entering Route 45 lanes.
+- Strategy: Route 45 is divided into vertical lanes. Choosing a lane at the top determines which trainers and items are accessible. Southward movement is generally permanent within a lane until the map end.
