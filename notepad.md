@@ -23,3 +23,4 @@
 # Tasks
 - Verify trainer at (10, 16) later.
 - Continue south on Route 45.
+- FLOOR_UP_WALL: Impassable from the north at (6, 87). Acts as a wall or ledge bottom.
