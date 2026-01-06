@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (South-West Strip).
-- **Status:** Initiating Surf.
-- **Action:** Surf North-East to land on Row 11 (x>=20).
+- **Status:** Crossing Water.
+- **Action:** Clear text, then Surf North to land on Row 11.
 - **Reasoning:** 
-  1. Reached the water edge at (21, 14).
-  2. The water is separated from the eastern land by a wall at x=28, but connects to land at Row 11 to the North.
-  3. Plan is to surf North to Row 11, land there, and continue exploring East.
+  1. "Used SURF!" text is on screen. Need to clear it.
+  2. Will hop onto water at (22, 14) (since facing Right).
+  3. Then surf North to (22, 11) to land on the main path.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to explore all of Route 28.
