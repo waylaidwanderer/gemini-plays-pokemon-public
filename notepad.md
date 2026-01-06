@@ -16,23 +16,20 @@
 # Strategy: Final Badge
 - Primary Goal: Acquire the Rising Badge from Gym Leader Clair in Blackthorn City.
 - Training Plan: Grind Xenon (Haunter) and Kimchi (Gloom) to Lv30+ on Route 45 to prepare for Kingdra.
-- Method: Switch-training. Lead with the trainee, then immediately switch to a high-level Pokémon (Calcifer Lv48 or Gneiss Lv45) to finish the battle.
-- Current Status: Calcifer (Lv48) is the primary finisher. Gneiss (Lv45) is low on PP and HP.
-- Logistics: Battle all trainers on Route 45 to earn money for additional Revives and Hyper Potions.
+- Method: Switch-training. Lead with trainee, then switch to Calcifer (Lv48) or Gneiss (Lv45).
+- CRITICAL: In trainer battles, switch trainee back in for EVERY new Pokémon sent out to maximize EXP sharing.
+- Current Status: Calcifer (Lv48) is healthy; Gneiss (Lv45) and Xenon (Lv26) are low on HP.
+- Logistics: Battle all trainers on Route 45 to earn money for supplies.
 
 # Kingdra Analysis (Gym Leader Clair)
 - Type: Water/Dragon.
-- Defensive Matchups:
-  - Neutral: Electric, Grass, Ice, Ground, Rock, Normal.
-  - Resists: Fire (1/4x), Water (1/4x).
-  - Weakness: Dragon.
+- Defensive Matchups: Neutral to Electric, Grass, Ice, Ground, Rock, Normal. Resists Fire/Water (1/4x). Weak to Dragon.
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
-# Training Log
-- Turn 30412: Started grinding session on Route 45.
-- Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
-- Milestone: Xenon reached Lv26 (Turn 30724).
-
 # Training Progress Tracker
-- Xenon (Lv26): 14157 / 21760 EXP (Target: Lv30)
-- Kimchi (Lv21): 7006 / 21600 EXP (Target: Lv30)
+- Xenon (Lv26): 14677 EXP (Target: Lv30)
+- Kimchi (Lv21): 7006 EXP (Target: Lv30)
+
+# Exploration Progress
+- Ledge Verification: Confirmed one-way Down at (4, 41), (2, 55), (2, 63).
+- Route 45 Vertical Lanes: Navigation is limited to southward movement within vertical "lanes" separated by ledges.
