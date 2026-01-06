@@ -1,16 +1,16 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28 (Middle Section).
-- **Status:** Moving West past Ledge.
-- **Action:** Move Up to Row 6, then Left, hopping the ledge at (14, 6).
+- **Location:** Route 28 (West End).
+- **Status:** Exploring West Wall.
+- **Action:** Move West to (4, 6).
 - **Reasoning:** 
-  1. Currently at (17, 7).
-  2. To access the western area, I need to get past the vertical barrier of ledges.
-  3. The path is North to Row 6, then West.
-  4. (14, 6) is a Left-Hopping Ledge which acts as a one-way gate to the west.
+  1. Currently at (9, 6).
+  2. Need to explore the far western edge of this area to verify there are no hidden paths North to the House.
+  3. The map shows ledges at Row 5 blocking Northward movement, but I must confirm visually and clear unseen tiles.
+  4. If no path is found, I will exit to Silver Cave Outside via (0, 13).
 - **Goal:** Reach the House at (7, 3).
 - **Reasoning:** 
-  1. The House is likely accessible from the far west or north-west.
-  2. Crossing this ledge is the only way forward.
+  1. The House is likely accessible from a different map transition or a hidden path I haven't found yet.
+  2. Clearing the West end is the final check for this specific area.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
