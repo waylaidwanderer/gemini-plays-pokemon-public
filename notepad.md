@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (Gatehouse Area).
-- **Status:** Searching Alcove / Entering Gatehouse.
-- **Action:** Face Up, Try Cut/Interact. Then enter Gatehouse at (33, 5).
+- **Status:** Repositioning to West.
+- **Action:** Move to (24, 8) via the Ledge at (26, 8).
 - **Reasoning:** 
-  1. Tried cutting facing Right, failed. Tree might be above at (31, 3).
-  2. If that fails, the dead end might just be a dead end.
-  3. Will check the Gatehouse for a back exit to the hidden area.
+  1. The "hidden path" behind the sign was a bust (tree not cuttable).
+  2. Map analysis reveals a path to the West side of the route by crossing the water at Row 8/9.
+  3. I will hop the ledge at (26, 8) to reach the water's edge, then Surf West to the gap at x=17.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Need to reach the hidden house at (7, 3).
-  2. Standard pathing hasn't revealed a way yet. Likely through the Gatehouse or a hidden path I missed.
+  2. Path seems to be: Surf West from Gatehouse area -> Pass gap at x=17 -> Head North/West.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
@@ -21,6 +21,7 @@
 - **LADDER:** Transitions between floors.
 - **FLOOR_UP_WALL:** Walkable from South/Sides. Northbound exit is BLOCKED (Verified at 8,14). Acts as a one-way ledge preventing Northward movement.
 - **BUOY:** Water boundary/Wall.
+- **Tree at (31, 3):** Not Cuttable (Verified).
 
 # Reflection (Turn 25132)
 - **Status:** Exploring Mt. Silver Cave 1F.
