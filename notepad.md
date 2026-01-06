@@ -4,10 +4,10 @@
 - **Next:** Enter Mt. Silver Cave.
 
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Pokemon Center.
-- **Status:** Exiting to Mt. Silver.
-- **Action:** Clear text and exit South.
-- **Reasoning:** Healing complete.
+- **Location:** Silver Cave Outside (Mt. Silver).
+- **Status:** Approaching Cave Entrance.
+- **Action:** Walk Down to exit PC, then navigate to Cave Entrance.
+- **Reasoning:** Healing complete. Time to face Red.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
