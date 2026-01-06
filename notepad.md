@@ -1,15 +1,15 @@
 # Current Strategy: Post-Game
-- **Location:** Route 28 (East Side).
-- **Status:** Investigating Sign and Northern Path.
-- **Action:** Read Sign at (31, 5), then explore path at x=30.
+- **Location:** Route 28 (Gatehouse Area).
+- **Status:** Checking potential hidden path.
+- **Action:** Close text, move to (30, 4), check for Cut tree or hidden items.
 - **Reasoning:** 
-  1. Reached the Gatehouse area.
-  2. A path exists to the left of the Gatehouse (x=30, y=5).
-  3. This likely leads to the hidden area behind the trees.
+  1. The path north of the sign seems to dead-end at (30, 4)/(31, 4) according to the map, but it's suspicious.
+  2. Will investigate if the trees are cuttable.
+  3. If not, will enter the Gatehouse to see if there's a side exit.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. The House at (7, 3) likely holds a useful item (TM/Gift) or information.
-  2. Need to find the path to it, possibly via a Cut tree.
+  1. Need to reach the hidden house at (7, 3).
+  2. Standard pathing hasn't revealed a way yet.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
