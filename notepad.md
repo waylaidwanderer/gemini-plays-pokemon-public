@@ -41,4 +41,4 @@
   - Jumped down at (4, 41). Attempted to move Up at (4, 42) (Turn 30686) - movement blocked. Behavior confirmed as one-way (Down).
   - Jumped down at (2, 55). Attempted to move Up at (2, 56) (Turn 30701) - movement blocked. Behavior confirmed as one-way (Down).
   - Jumped down at (2, 63). Attempted to move Up at (2, 64) (Turn 30703) - movement blocked. Behavior confirmed as one-way (Down).
-- Turn 30705: Encountered wild Gligar (Lv24) at (2, 64). Strategy: Switch-train Xenon with Calcifer. Outcome: Pending.
+- Turn 30704: Encountered wild Gligar (Lv24) at (2, 64). Strategy: Switch-train Xenon with Calcifer. Outcome: Pending.
