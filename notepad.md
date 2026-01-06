@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** Navigating North-West.
-- **Action:** Jump ledge at (20, 20) and head North.
-- **Reasoning:** Cave entrance is likely North of the Pokemon Center. The path West allows access to the northern area.
+- **Status:** In wild battle (Ponyta).
+- **Action:** Run from battle -> Resume navigation to (18, 15).
+- **Reasoning:** Interrupted by wild Ponyta. Need to escape.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
