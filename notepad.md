@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (Main Area).
 - **Status:** Battling Wild Dodrio.
-- **Action:** Press B to advance battle intro.
+- **Action:** Select PACK to throw Ball.
 - **Reasoning:** 
-  1. Wild Dodrio appeared.
-  2. Dodrio is NOT registered in the Pokedex.
-  3. Plan: Catch it.
-  4. Step 1: Advance text to reach the Battle Menu.
+  1. Dodrio (Lv 43) appeared. New Pokedex entry.
+  2. Opening Pack to throw Ultra Ball.
+  3. Must be careful not to use Master Ball.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Dodrio.
