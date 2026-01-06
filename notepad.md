@@ -1,11 +1,12 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Pokemon Center.
 - **Status:** Healing.
-- **Action:** Press A to speak to Nurse Joy.
+- **Action:** Press A to confirm "YES".
 - **Reasoning:** 
-  1. Positioned at (3, 3) facing the counter.
-  2. Interaction starts the healing sequence.
-  3. After healing, will exit to explore the NW water area.
+  1. Dialogue prompt "Shall we heal your POKéMON?" is active.
+  2. "YES" is selected.
+  3. Pressing A initiates the healing process.
+  4. Next: Wait for healing to finish, then exit to explore NW Silver Cave Outside.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
