@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Traversing Ledge to Central Opening.
-- **Action:** Navigate East to (8, 14), then North to (8, 13).
-- **Reasoning:** Column 3 is a dead end at Row 13. However, Row 14 is traversable Eastward. Mental Map reveals a gap in the North wall at (8, 13), which appears to be the only path forward.
+- **Status:** Relocating to West Edge (Column 0).
+- **Action:** Navigate to (0, 35), then North to (0, 10).
+- **Reasoning:** Central North path (Col 8) is blocked. Column 3 is blocked North of Row 14. Column 0 appears to be a clear corridor spanning the entire map height (Row 35 to Row 10), accessible via the bottom corridor (Row 35).
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
