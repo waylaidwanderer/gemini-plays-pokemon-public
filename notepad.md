@@ -1,13 +1,13 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Entering Mt. Silver Cave.
+- **Status:** Exploring Mt. Silver Cave 1F.
 - **Next:** Traverse Cave to Red.
 
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside (Mt. Silver).
-- **Status:** At Cave Entrance.
-- **Action:** Enter the cave.
-- **Reasoning:** Reached the entrance. Proceeding inside.
+- **Location:** Silver Cave Room 1.
+- **Status:** Just entered.
+- **Action:** Explore North.
+- **Reasoning:** Need to find the path through the cave. The area to the North is unexplored.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
