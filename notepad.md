@@ -15,7 +15,7 @@
 - Xenon (Lv27) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-- Current Task: Training on Route 45 (Turn 31034)
+- Current Task: Training on Route 45 (Turn 31040)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
