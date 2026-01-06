@@ -2,7 +2,7 @@
 - FLOOR: Standard ground.
 - WALL: Impassable.
 - TALL_GRASS: Reachable encounters.
-- LEDGE_HOP_DOWN: One-way south. Impassable from south/east/west.
+- LEDGE_HOP_DOWN: One-way south. Impassable from south/east.
 - FLOOR_UP_WALL: Impassable ledge bottom.
 - WATER: Requires SURF to cross.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
@@ -15,7 +15,7 @@
 - Xenon (Lv26) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
-- Current Task: Training on Route 45 (Turn 31021)
+- Current Task: Training on Route 45 (Turn 31023)
 
 # Lessons Learned
 - Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
