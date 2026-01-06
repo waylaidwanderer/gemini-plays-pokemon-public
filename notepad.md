@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside (Main Area).
-- **Status:** Entering Pokemon Center.
-- **Action:** Move to (23, 19) to heal.
+- **Location:** Silver Cave Pokemon Center.
+- **Status:** Healing at Counter.
+- **Action:** Move to (3, 3) and press A to heal.
 - **Reasoning:** 
-  1. Phone call text cleared.
-  2. Path to PC is open (Right to x=23, then Up).
-  3. Healing is required before exploring the NW area via Surf.
+  1. Successfully entered the PC.
+  2. Nurse Joy is at (3, 1), interact from (3, 3).
+  3. Healing is necessary after the wild battles.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
