@@ -1,17 +1,14 @@
 # Quest Log
 - **Goal:** Challenge Red at Mt. Silver.
-- **Status:** Exploring Mt. Silver Cave 1F.
-- **Next:** Traverse Cave to Red.
-
-# Current Strategy: Post-Game
-- **Location:** Silver Cave Room 1.
-- **Status:** Testing Southbound Exit (Col 8).
-- **Action:** Navigate to (8, 34) and attempt to move South.
+- **Status:** Navigating Silver Cave Outside Loop.
+- **Action:** Exit Cave at (9, 33).
 - **Reasoning:** 
-  1. Row 23 is a wall from Col 1-10, forcing me to cross East to Col 12+ to pass South.
-  2. From Col 12, Row 26 allows crossing back West to Col 8.
-  3. Col 8 is the only column that reaches Row 34 (others blocked by walls at Row 33).
-  4. (8, 34) is a "FLOOR_UP_WALL" tile. I hypothesize this specific tile is traversable Southbound (a hidden ledge or path), allowing access to the bottom corridor (Row 35) and the West Edge (Col 0).
+  1. Internal navigation of Silver Cave Room 1 is dead-ended. 
+     - Center (Col 8) blocked North by Row 14 ledges, South by Row 34 ledges.
+     - West (Col 3) blocked North by Row 14 walls.
+     - East (Col 15) blocked North by Row 26 walls.
+  2. Column 0 is an isolated corridor running the map's length, likely accessible only from a separate external entrance.
+  3. The warp at (9, 33) leads to "Silver Cave Outside". I hypothesize this path leads to the secondary entrance for Column 0.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
