@@ -3,14 +3,12 @@
 - WALL: Impassable.
 - TALL_GRASS: Reachable encounters.
 - LEDGE_HOP_DOWN: One-way south. Impassable from south/east/west.
-- FLOOR_UP_WALL: Impassable. Confirmed at (6, 87) on Route 45, (34, 34) in Dark Cave, and (6, 8) on Route 46.
+- FLOOR_UP_WALL: Impassable ledge bottom.
 
-## Strategy for acquiring the Rising Badge
-- Training Method: Switch-training. Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 in all wild battles.
-- Logistics: Sell NUGGET (5000) at next Mart.
-
-# Verified Bag Order (Items)
-1. ICE BERRY, 2. ICE HEAL, 3. GRN APRICORN, 4. PNK APRICORN, 5. YLW APRICORN, 6. FULL HEAL, 7. HYPER POTION, 8. REVIVE, 9. NUGGET, 10. AMULET COIN, 11. CANCEL
+## Strategy: Johto League
+- Training: Grind Xenon (Lv26) and Kimchi (Lv21) to Lv30+.
+- Method: Switch-training. Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 in all battles.
+- Logistics: Sell NUGGET (¥5000) at next Mart.
 
 # Progress Tracker
 - Xenon (Lv26): 14172 / 21760 EXP (Target: Lv30)
@@ -18,12 +16,12 @@
 - Start Turn (Training): 30811
 
 # Tasks
+- Defeat Hiker Bailey at (12, 19) on Route 46 (Current).
 - Pick up item from Alan on Route 36.
 - Grab Poke Ball at (30, 28) in Dark Cave.
 
 # Lessons Learned
-- Tile Verification: Never assume a tile type (like FLOOR_UP_WALL) is traversable based on its name. Always test collision immediately.
-- Ledge Awareness: On maps with many ledges (Route 45, Route 46), use find_path_v2 with updated ledge logic to avoid getting stuck in pockets.
-- Training Efficiency: Use battle_analyst_v2 during wild encounters to minimize damage and maximize EXP gain for trainees.
-- Warp Safety: find_path_v2 must treat CAVE and WARP tiles as impassable to avoid accidental map transitions during long paths unless they are the destination.
-- Dead Ends: Route 46 (5, 2) is a dead-end corridor, not a gap.
+- Tile Verification: FLOOR_UP_WALL is a wall/ledge bottom. (5, 2) on Route 46 is a dead end.
+- Ledge Awareness: Route 45/46 require careful pathfinding due to one-way ledges.
+- Warp Safety: find_path_v2 avoid_warps=True prevents accidental transitions.
+- Strength Mechanic: Strength must be used on each individual boulder; it is not a persistent status.
