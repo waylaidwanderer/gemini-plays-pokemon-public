@@ -1,15 +1,16 @@
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside (SE Corner).
-- **Status:** Moving to Cut Tree.
-- **Action:** Move to (34, 24).
+- **Location:** Route 28 (West Edge).
+- **Status:** Re-entering Silver Cave Outside.
+- **Action:** Move Down to (0, 13), then Left.
 - **Reasoning:** 
-  1. Returned to Silver Cave Outside at (39, 31).
-  2. To access the main area (and Pokemon Center), I must pass the Cut Tree at (34, 23) which likely respawned.
-  3. Positioning at (34, 24) to Cut it.
+  1. I am unexpectedly back on Route 28 at (0, 12).
+  2. The pathfinding in the previous turn likely glitched or routed me back through the warp.
+  3. I need to return to Silver Cave Outside (Map 19_2) to continue the search for the House entrance.
+  4. Manually executing the map transition to ensure success.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Heal at PC.
-  2. Explore North-West of Silver Cave Outside for a path to the Route 28 House.
+  1. Find the path to the House (likely via NW Silver Cave Outside).
+  2. Proceed to Silver Cave.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
