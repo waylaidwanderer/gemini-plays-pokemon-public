@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Abandoning Item (Bag Full).
-- **Action:** Press B to clear text, then Move Down to hop ledge at (4, 31).
-- **Reasoning:** Cannot pick up Escape Rope (Bag Full) and it blocks the path Right. Taking the alternative exit South via the ledge at (4, 31) to reach Row 32, then heading East.
+- **Status:** Closing Text Box.
+- **Action:** Press B to close the "Bag Full" message.
+- **Reasoning:** Cannot carry the item. Need to dismiss the text to regain movement control. Afterward, I will exit this area via the South ledge and return to the East side to find a path North (Columns 14-16).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
