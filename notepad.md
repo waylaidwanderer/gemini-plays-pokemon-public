@@ -18,3 +18,5 @@
 - **Navigation Update:** The wall at x=3 appears to separate the far west path from the central area. The gap at (5, 27) leads to the central area, which may be a cul-de-sac. To reach the NW corner, I must loop South to Row 30, cross to x=2, and head North.
 - **Observation:** Attempted to walk Down into `FLOOR_UP_WALL` at (6, 30) and was blocked. It acts as a WALL from the North, not a ledge.
 - **Correction:** The gap at (5, 27) allows access to the northern area. The wall at x=3 ends at y=23, allowing passage to the west at y=22.
+- **Navigation Update:** Retrying the ledge jump at Row 30. Previous failure may have been due to alignment or mechanics. Will attempt to force the jump by moving adjacent and pressing Down.
+- **Hypothesis:** `FLOOR_UP_WALL` at Row 30 is a jumpable ledge. If successful, this grants access to the western path (X=2).
