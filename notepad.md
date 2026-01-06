@@ -12,7 +12,7 @@
 - Efficiency: Lead with trainee, switch to Calcifer (Lv48) or Gneiss (Lv45). Use battle_analyst_v2 move/switch recommendations STRICTLY. Do not ignore agent output.
 
 # Progress Tracker
-- Xenon (Lv26) -> Target: Lv30.
+- Xenon (Lv27) -> Target: Lv30.
 - Kimchi (Lv21) -> Target: Lv30.
 - Start Turn (Training): 30811 (Tuesday, Jan 6, 2026, 2:28 PM PST)
 - Current Task: Training on Route 45 (Turn 31028)
