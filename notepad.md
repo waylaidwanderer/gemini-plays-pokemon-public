@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Relocating to Column 15.
-- **Action:** Navigate to (3, 19), then East to (15, 19).
-- **Reasoning:** Analysis reveals Column 1 is blocked by walls, making the West Edge unreachable from the South. However, Column 15 (East side) appears open to the North starting from Row 19. To reach (15, 19) North of the ledges, I must loop West to Column 3 (via Row 21), go North to Row 19, then cross back East.
+- **Status:** Relocating to Eastern Section (Col 15+).
+- **Start Time:** Turn 25237 (Jan 6, 2026).
+- **Action:** Navigate to (11, 21).
+- **Reasoning:** West side (Col 3) is a dead end. Walls block South access to Row 32 from Col 3. Must cross East at Row 21 to Central area (Col 11), then navigate South to Row 26 to cross the Column 13 wall gap into the Eastern Section.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
