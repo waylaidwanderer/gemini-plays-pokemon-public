@@ -1,17 +1,17 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
 - **Status:** Battling Wild Rapidash.
-- **Action:** Select PACK to throw Ultra Ball.
+- **Action:** Select Ultra Ball and USE.
 - **Reasoning:** 
-  1. Main battle menu is open.
-  2. Rapidash (Lv 40) vs Muscle (Lv 83). One hit would likely KO.
-  3. Rapidash has a decent catch rate (60).
-  4. Best strategy is to throw Ultra Balls immediately without attacking.
+  1. In Balls Pocket. Cursor on Great Ball.
+  2. Navigate Down to Ultra Ball.
+  3. Press A to open menu, A to Select USE.
+  4. Using `slow_press` to execute this efficiently.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
-  2. After battle, verify if House at (7, 3) is reachable from here.
-  3. If not, backtrack and check Gatehouse or Silver Cave Outside again.
+  2. After battle, delete erroneous map marker at (31, 3).
+  3. Explore for hidden paths or return to Gatehouse.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
