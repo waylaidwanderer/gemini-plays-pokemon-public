@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Exploring West Path.
-- **Action:** Navigate North to (3, 12).
-- **Reasoning:** West path (Col 3) is open. Moving North to bypass central barriers and uncover the upper-left section of the map.
+- **Status:** Traversing Ledge to Central Opening.
+- **Action:** Navigate East to (8, 14), then North to (8, 13).
+- **Reasoning:** Column 3 is a dead end at Row 13. However, Row 14 is traversable Eastward. Mental Map reveals a gap in the North wall at (8, 13), which appears to be the only path forward.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
