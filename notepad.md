@@ -1,16 +1,15 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Turn 25365).
-- **Action:** Select PACK -> Ultra Ball -> Use.
+- **Status:** Battling Wild Rapidash (Turn 25366).
+- **Action:** Use Ultra Ball (A -> A).
 - **Reasoning:** 
-  1. Recoil text cleared (Menu is visible in screenshot).
-  2. Muscle took recoil damage.
-  3. Throwing another Ultra Ball.
+  1. In Pack -> Balls Pocket -> Ultra Ball selected (confirmed by State #3).
+  2. Pressing A opens submenu, A selects USE.
+  3. Rapidash took recoil, slightly easier to catch.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Rapidash.
-  2. After battle, delete erroneous map marker at (31, 3).
-  3. Explore West end for hidden paths.
+  2. Post-battle: Delete marker at (31, 3), explore West end.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
