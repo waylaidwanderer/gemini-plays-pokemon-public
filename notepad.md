@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Outside (East Edge).
 - **Status:** Battling Wild Arbok.
-- **Action:** Press B to advance battle intro.
+- **Action:** Select PACK to throw Ball.
 - **Reasoning:** 
-  1. Wild Arbok appeared.
-  2. Arbok is NOT registered in the Pokedex.
-  3. Plan: Catch it.
-  4. Step 1: Advance text to reach the Battle Menu.
+  1. Arbok (Lv 42) vs Muscle (Lv 83).
+  2. Going for immediate capture with Ultra Ball to avoid accidental KO.
+  3. Opening Pack now. Will verify Ball order carefully (Master Ball risk).
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Catch Arbok.
