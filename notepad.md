@@ -5,9 +5,10 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Resuming navigation to (5, 25).
-- **Action:** Move Left to (5, 27), then North to (5, 25).
-- **Reasoning:** Battle ended. Resuming attempt to pass North through (5, 26). If blocked, will reconsider West side access.
+- **Status:** Navigating to (5, 25) via Row 25.
+- **Action:** Move North to (8, 25), then West to (5, 25).
+- **Reasoning:** Row 26 is blocked by walls and one-way tiles. Row 25 appears to be a clear corridor allowing access to the West side.
+- **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Goal:** Challenge Red at Mt. Silver.
 
