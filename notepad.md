@@ -1,17 +1,16 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
-- **Status:** Battling Wild Rapidash (Duplicate).
-- **Action:** Press B to exit Pack.
+- **Status:** Exiting to Silver Cave Outside.
+- **Action:** Move to (0, 13) via the southern ledges.
 - **Reasoning:** 
-  1. I already caught a Rapidash ("Blitz") in the previous encounter.
-  2. This is a duplicate.
-  3. Catching and nicknaming takes too long.
-  4. Muscle (Lv 83) should be faster than Rapidash (Lv 40), ensuring a safe Run.
-  5. Exiting Pack to access RUN option.
+  1. Escaped wild battle.
+  2. Confirmed that the current area (Route 28 West Main) is a dead-end loop that does NOT lead to the House at (7, 3) because of the ledges at Row 5.
+  3. The House is likely accessed via a separate entrance.
+  4. Plan: Exit to Silver Cave Outside, then search for a northern/western path I missed.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
-  1. Escape battle.
-  2. Resume plan to exit Route 28 West and find the correct path to the House.
+  1. Find the path to the House.
+  2. Proceed to Silver Cave.
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
