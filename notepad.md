@@ -33,16 +33,8 @@
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
 - Milestone: Xenon reached Lv24 (Turn 30562).
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
-- Turn 30649: Defeated wild Gligar (Lv24). Yielded 370 EXP (185 to Xenon).
-- Turn 30655: Defeated Hiker Parry (Onix Lv29). Received ¥1856. Xenon reached EXP: 12653.
+- Turn 30688: Encountered wild Donphan (Lv30) at (4, 44). Strategy: Switch-train Xenon with Calcifer.
 
 # General Lessons
 - Pathfinding: Route 45 is divided into vertical "lanes" by one-way ledges (LEDGE_HOP_DOWN, LEDGE_HOP_LEFT). Once a ledge is jumped, you cannot return north/east without circling back from the map entrance.
-- NPC Navigation: If an NPC blocks a path, look for detours. Paths are often wider than one tile.
-- Battle: Wild Pokémon on Route 45 (Graveler, Geodude) yield high EXP but use Selfdestruct (Normal) or Magnitude (Ground).
-- Strategy Insight: Xenon (Haunter) is immune to Selfdestruct (Normal-type).
-- Type Matchups: Normal moves are 0.5x effective against Rock. Ground moves are super effective against Fire. Rock/Ground types are immune to Electric (Thunderpunch).
-- Turn 30674: Battling Cooltrainer Kelly (Marill Lv27). Strategy: Switch-train Xenon with Calcifer. Calcifer is using Thunderpunch.
-- Turn 30679: Kelly's Marill fainted. Xenon/Calcifer gained 166 EXP. Kelly sent out Wartortle (Lv24). Strategy: Use Thunderpunch.
-- Turn 30682: Kelly's first Wartortle fainted. Calcifer gained 735 EXP. Kelly sent out her second Wartortle (Lv24). Strategy: Use Thunderpunch.
-- Turn 30684: Defeated Cooltrainer Kelly (Marill Lv27, Wartortle Lv24 x2). Received ¥2304. Xenon reached EXP: 12819. Strategy: Continuing south on Route 45.
+- Ledge Verification: Jumped down at (4, 41). Behavior confirmed as one-way (downward movement only).
