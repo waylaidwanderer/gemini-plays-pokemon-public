@@ -28,12 +28,10 @@
   - Weakness: Dragon.
 - Observed Moves: Smokescreen, Dragonbreath, Surf.
 
-# Training Log
-- Turn 30372: Whited out against Gym Leader Clair.
 - Turn 30412: [2025-12-29 00:54 AM] Started grinding session on Route 45.
-- Milestone: Xenon reached Lv24 (Turn 30562).
 - Milestone: Xenon reached Lv25 and evolved into HAUNTER (Turn 30625).
 - Milestone: Xenon reached Lv26 (Turn 30724).
+- Turn 30726: Defeated Hiker Timothy (Diglett Lv27, Dugtrio Lv27). Received ¥1728. Calcifer reached Lv48. Strategy: Continuing south.
 
 # Training Progress Tracker
 - Xenon (Lv26): 13637 / 21760 EXP (Target: Lv30)
