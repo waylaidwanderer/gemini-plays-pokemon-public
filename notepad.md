@@ -1,17 +1,19 @@
 # Current Strategy: Post-Game
-- **Location:** Silver Cave Outside (SE Area).
-- **Status:** Navigating to Water.
-- **Action:** Move to (24, 28) to access the water.
+- **Location:** Silver Cave Outside (East Edge).
+- **Status:** Repositioning to South Path.
+- **Action:** Move Right to x=39, then Down to Row 33.
 - **Reasoning:** 
-  1. I am at the SE exit (39, 31). The direct path North is blocked by "Ledge Down" tiles.
-  2. The Cut Tree at (34, 23) is likely only accessible from the North side (one-way shortcut).
-  3. The return path to the main area (PC/Cave) requires Surfing.
-  4. I will travel West along the bottom area (Row 34) to reach the water's edge at (24, 28).
-  5. Then I will Surf North to reach the Pokemon Center.
+  1. The path West at Row 30 is blocked by a "Ledge Hop Right" at (35, 30) which acts as a wall from the East.
+  2. To go West, I must use the southern path at Row 33/34.
+  3. I will backtrack East to the open area, then head South over the ledges (FLOOR_UP_WALL) to reach the bottom path.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Heal at PC.
-  2. Explore North-West of Silver Cave Outside for a path to the Route 28 House.
+  2. Explore North-West of Silver Cave Outside.
+
+# Tile Mechanics
+- **LEDGE_HOP_RIGHT:** One-way East. Acts as a wall from the West (verified at 35,30).
+- **FLOOR_UP_WALL:** Acts as a Ledge Down (Verified at 39,32).
 
 # Reflection (Turn 25341)
 - **Status:** Battling Wild Ponyta on Route 28.
