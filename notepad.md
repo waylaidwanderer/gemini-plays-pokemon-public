@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Location:** Route 28 (West End).
 - **Status:** Nicknaming Rapidash.
-- **Action:** Press A to advance from Pokedex entry.
+- **Action:** Select YES to nickname.
 - **Reasoning:** 
-  1. Caught Rapidash.
-  2. Currently viewing/advancing past the Pokedex entry.
-  3. Next prompt should be "Give a nickname?".
-  4. Will select YES to name it "Blitz".
+  1. "Give a nickname?" prompt is visible.
+  2. "YES" is selected.
+  3. Press A to enter the nickname screen.
 - **Goal:** Challenge Red at Mt. Silver.
 - **Reasoning:** 
   1. Explore the West end ledges to confirm no access to House.
