@@ -5,9 +5,9 @@
 
 # Current Strategy: Post-Game
 - **Location:** Silver Cave Room 1.
-- **Status:** Backtracking from Dead End.
-- **Action:** Move South to Row 32, then West to (5, 30).
-- **Reasoning:** North path at Column 12 was a dead end (blocked by ledge). North path at Column 15 is blocked by ledges. Attempting to access the West side via Row 32 to reach Item Ball at (5, 30) and find a path North.
+- **Status:** In wild battle (Graveler).
+- **Action:** Run from battle -> Continue South to Row 32.
+- **Reasoning:** Encountered wild Graveler while navigating South. Need to escape to continue path to West side.
 - **Goal:** Challenge Red at Mt. Silver.
 
 # Tile Mechanics
