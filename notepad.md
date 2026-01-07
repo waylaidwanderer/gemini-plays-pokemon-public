@@ -2,12 +2,13 @@
 - **Start Turn:** 26763 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
 - **Status:** In Battle with Red.
-- **Active Matchup:** Muscle (Lv 83) vs Pikachu (Lv 81).
+- **Active Matchup:** Muscle (Lv 83, -2 Atk) vs Red's Party.
+- **Defeated:** Pikachu.
 - **Goal:** Defeat Red.
 - **Battle Plan (Muscle Lv83):**
-  - **Pikachu:** Cross Chop (High Crit/Power).
-  - **Espeon:** Strength/Cross Chop. Watch out for Psychic.
-  - **Snorlax:** Cross Chop.
+  - **Note:** Muscle has -2 Attack from Charm. Consider switching to reset stats if next opponent is tanky or dangerous.
+  - **Espeon:** **DANGER**. Switch immediately (Sneasel/Gyarados?).
+  - **Snorlax:** Cross Chop might not OHKO at -2.
   - **Venusaur:** Ice Punch.
   - **Charizard:** Thunderpunch.
   - **Blastoise:** Thunderpunch.
