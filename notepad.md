@@ -7,14 +7,11 @@
 
 # Current Status
 - **Location:** Indigo Plateau (Outside).
-- **Next Step:** Enter Lobby -> Use PC -> Prepare Party -> Fly to Cianwood/Olivine.
+- **Next Step:** Fly to Cianwood City -> Surf to Whirl Islands (Route 41).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
-  - Whirlpool: Need to teach HM06 or retrieve Lapis (Poliwag) from PC.
+  - Whirlpool: Lapis (Poliwag).
   - Strength: Muscle (Machoke).
-- **Immediate Action:** Switch to Box 1 to withdraw Lapis.
-- **Party Plan:**
-  - Keep: Mistral (Fly), Muscle (Strength), Gyarados (Surf/Waterfall), Belladonna (Flash).
-  - Deposit: Kunai (Sneasel).
-  - Withdraw: Lapis (Poliwag, has Whirlpool).
+  - Fly: Mistral (Pidgey).
+- **Immediate Action:** Fly to Cianwood City.
