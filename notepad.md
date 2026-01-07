@@ -1,5 +1,5 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25914 (Jan 6, 2026)
+- **Timestamp:** Turn 25915 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
 - **Immediate Task:** Finish Pikachu.
 - **Battle Plan:**
@@ -9,7 +9,7 @@
     4. **Venusaur (Lv77):** Muscle's Ice Punch.
     5. **Charizard (Lv77):** Muscle's ThunderPunch.
     6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
-- **Resources:** Muscle (Full HP, -2 Atk). Items available.
+- **Resources:** Muscle (201/280 HP, -2 Atk). Cursor logic: Last used Ice Punch (3), so need Down -> Cross Chop (4).
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
