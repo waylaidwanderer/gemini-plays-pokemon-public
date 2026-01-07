@@ -14,8 +14,9 @@
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
 - **Tile Mechanics Update:** `FLOOR_UP_WALL` at Row 4 blocked South movement. Treating as impassable for now.
 - **Map Structure:** Upper Ledge is segmented. Center (13) connects to Left (6), but Right (17) is blocked by Wall at Col 16.
-- **Immediate Task:** Exit Item Room and explore Room 2 for other entrances.
+- **Immediate Task:** Surf from (11, 25) to explore the West side of Room 2.
 - **Sequence:**
-    1. Press UP to trigger cave exit (or step off warp).
-    2. If not warped, press DOWN to step back on.
-    3. Find path to Right Side entrance in Room 2.
+    1. Navigate to (11, 25).
+    2. Surf South onto (11, 26).
+    3. Explore the water area to the West and North.
+    4. Look for other cave entrances.
