@@ -21,7 +21,7 @@
 # Training Progress (Route 45)
 - Goal: Lv40 for Xenon and Kimchi.
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
-- Healing Log: Turn #32731 (Start). Night Shade PP was 1. Status: Healing in progress.
+- Healing Log: Turn #32731 (Start). Night Shade PP was 1. Status: Healed (Turn #32733). Ready to resume training.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
