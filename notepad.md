@@ -11,33 +11,33 @@
 - COUNTER/PC: Stand adjacent/below to interact.
 - BUOY: Impassable; water boundary.
 
+# Tile Mechanics
+- FLOOR: Traversable. Standard collision-free tile.
+- WALL: Impassable. Provides collision from all directions.
+- TALL_GRASS: Traversable. Triggers wild Pokemon encounters.
+- LONG_GRASS: Traversable. Triggers wild Pokemon encounters.
+- LEDGE_HOP_DOWN: One-way traversal. Can only be entered from the top to jump down. Impassable from other sides.
+- LEDGE_HOP_LEFT: One-way traversal. Can only be entered from the right to jump left. Impassable from other sides.
+- LEDGE_HOP_RIGHT: One-way traversal. Can only be entered from the left to jump right. Impassable from other sides.
+- CAVE: Map transition warp. Stand on or walk into to trigger.
+- FLOOR_UP_WALL: Traversable. Functions as standard FLOOR collision.
+
 # Strategy: Johto League Training
-- Started: Turn #32266.
-- Goal: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
+- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
+- Started: Turn #32266, 2026-01-07 04:30 AM.
+- Current Status: Xenon Lv30, Kimchi Lv29. Turn #32431.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Training Location: Route 45 (high level Rock/Ground/Flying).
 - Hazards: Magnitude/Earthquake (use GNEISS as backup).
 
 # Strategy: Rising Badge (Gym Leader Clair)
-- Lead: Xenon (Lv40+). Night Shade for fixed damage.
-- Support: Kimchi (Lv40+). Sleep Powder for CC.
-
-# Significant Party Status
-- XENON (Haunter): Lv30. HP 58/77. Night Shade: 1/15.
-- ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
-- KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
-- GNEISS (Graveler): Lv46. HP 129/129.
-- Calcifer (Typhlosion): Lv48. HP 152/152.
-
-# Training Log
-- Turn #32399: Encountered wild Phanpy (Lv20). Xenon used Night Shade (PP: 6). Phanpy fled.
-- Turn #32403: Encountered wild Skarmory (Lv27).
-  - Xenon used Night Shade (PP: 5). Skarmory used Swift (no effect).
-  - Xenon used Night Shade (PP: 4). Skarmory used Agility.
-  - Xenon used Night Shade (PP: 3). Skarmory fainted. Xenon/Kimchi gained 324 EXP. Night Shade PP: 3.
-- Turn #32415: Encountered wild Graveler (Lv23).
-  - Xenon used Night Shade (PP: 2). Graveler used Rock Throw (18 dmg).
-  - Xenon used Night Shade (PP: 1). Graveler fainted. Xenon/Kimchi gained 220 EXP. Night Shade PP: 1. HP: 58/77.
+- Objective: Defeat Clair in Blackthorn Gym.
+- Team Composition:
+    - XENON (Haunter): Main attacker. Goal Lv40+. Use Night Shade for fixed damage against high-defense Dragons.
+    - KIMCHI (Gloom): Support. Goal Lv40+. Use Sleep Powder for crowd control.
+    - CALCIFER (Typhlosion): Heavy hitter backup.
+    - GNEISS (Graveler): Tank backup.
+- Preparation: Heal at Pokemon Center and restore PP before each major training session or gym attempt.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
