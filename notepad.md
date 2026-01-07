@@ -28,3 +28,7 @@
 - **Issue:** Pressing 'A' alone didn't trigger Surf prompt.
 - **Action:** Pressing UP to walk into the water, which should force the prompt.
 - **Plan:** Surf to (6, 6) then ascend Waterfall.
+- **Status:** At (6, 8). Retrying Surf interaction.
+- **Hypothesis:** Previous input (Up+A) might have failed due to collision timing or the tile (FLOOR_UP_WALL) has a North-facing wall property preventing Surfing.
+- **Test:** Pressing 'A' while stationary and facing North.
+- **Contingency:** If this fails, the Western Corridor is confirmed as a dead-end/exit-only path from this side. I will backtrack.
