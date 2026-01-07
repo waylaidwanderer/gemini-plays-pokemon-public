@@ -1,6 +1,6 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26376 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing at (11, 27).
+- **Timestamp:** Turn 26379 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** Surfing at (7, 26). Repel wore off.
 - **Immediate Goal:** Investigate West Landing (5, 21).
 - **Plan:**
   1. Surf to West Landing (5, 21).
@@ -17,4 +17,3 @@
 - **Item Rooms:** Has a "Main" section with a North Hallway (Row 0) that is NOT accessible from the Balcony. Must find the entrance to this Main section.
 - Waterfall Technique: To climb, one must be at the base facing UP. Simply pressing 'Up' into the waterfall causes a bump/slide-back that resets facing to DOWN.
 - Solution: Move Down to (11, 31), then move Up to (11, 30). This lands the player at the base facing UP. Then press 'A'.
-- Action: Executing Down-Up maneuver.
