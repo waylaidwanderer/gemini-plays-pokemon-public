@@ -3,11 +3,10 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Explore Silver Cave Room 1 (Northern Section).
 - **Sequence:**
-    1. From (4, 4), go East to (5, 4) to bypass the wall at (4, 5).
-    2. Go South to (5, 6), then West to (4, 6).
-    3. Jump Ledge South to (4, 8).
-    4. Retrieve Item Ball at (4, 9).
-    5. Loop back East to x=8 to resume North exploration.
+    1. Escape the ledge area: South to (4, 11), Jump Ledge to (4, 12).
+    2. Navigate East to (8, 12).
+    3. Navigate North to (8, 7) (the verified gap).
+    4. Continue North to explore unseen area (x=8, y<4).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
