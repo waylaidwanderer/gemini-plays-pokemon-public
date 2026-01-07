@@ -23,7 +23,7 @@
 - Support: Kimchi (Lv40+). Sleep Powder for CC.
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 76/77. Night Shade: 3/15.
+- XENON (Haunter): Lv30. HP 58/77. Night Shade: 2/15.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
@@ -35,7 +35,8 @@
   - Xenon used Night Shade (PP: 5). Skarmory used Swift (no effect).
   - Xenon used Night Shade (PP: 4). Skarmory used Agility.
   - Xenon used Night Shade (PP: 3). Skarmory fainted. Xenon/Kimchi gained 324 EXP. Night Shade PP: 3.
-- Turn #32415: Encountered wild Graveler (Lv23). Xenon used Night Shade (PP: 2). Night Shade PP: 2.
+- Turn #32415: Encountered wild Graveler (Lv23).
+  - Xenon used Night Shade (PP: 2). Graveler used Rock Throw (18 dmg). Night Shade PP: 2. HP: 58/77.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
