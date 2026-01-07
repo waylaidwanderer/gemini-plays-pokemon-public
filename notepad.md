@@ -27,4 +27,4 @@
 - **Strategy:** Attempting rapid input (Up+A) to interact before movement/pushback occurs.
 - **Correction:** 'Can't use that here' when selecting from menu.
 - **Action:** Must interact with the waterfall directly by pressing A while facing it from the overworld.
-- **Plan:** Close menus (B repeatedly), then press A to trigger Waterfall prompt.
+- **Plan:** Face UP (tap Up), then press A to trigger Waterfall prompt. Confirm with A.
