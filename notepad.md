@@ -1,15 +1,9 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26356 (Jan 7, 2026) [Silver Cave Outside]
 - **Primary Goal:** Defeat Red.
-- **Status:** Just used Escape Rope. Outside Cave.
-- **Plan:**
-  1. Heal at Pokemon Center (23, 19).
-  2. Re-enter Silver Cave.
-  3. Return to Room 2 Waterfall area.
-  4. Search for the TRUE path to Red/Main Item Room.
-     - Check for path North of the waterfall pool.
-     - Re-examine West Landing.
-     - Check for other landings.
+- **Status:** Inside Silver Cave Pokemon Center.
+- **Immediate Goal:** Heal party.
+- **Next:** Return to Silver Cave Room 2 and find the correct path.
 
 # Failed Routes
 - **Room 2 Right Landing (13, 21):** Leads to "Item Rooms Balcony" (Dead End).
