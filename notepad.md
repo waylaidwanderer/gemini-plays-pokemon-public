@@ -1,11 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing in Room 2 (11, 26).
-- **Goal:** Explore the water to find the Southern Item Rooms or Warp (11, 5).
+- **Status:** Surfing West in Room 2. Moving to (4, 23).
+- **Observation:** Wall at (5, 26) blocks direct west movement.
 - **Plan:**
-  1. Explore the West branch of the water first.
-  2. Then explore the East branch.
-  3. Look for landfalls with items or warps.
+  1. Surf North to Row 23.
+  2. Surf West to (4, 23).
+  3. Look for landfall in the Southwest corner.
+- **Hypothesis:** The Southwest corner contains a landfall leading to the Southern Item Rooms.
 
 # Key Findings
 - **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
