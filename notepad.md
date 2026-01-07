@@ -34,3 +34,6 @@
 - Action: Pressing 'Up' to correct facing, then will press 'A'.
 - Facing Reset Strategy: Since moving 'Up' into the waterfall causes a bounce-back that resets facing to 'Down', I must approach (11, 30) from the South to ensure I am facing 'Up' without triggering the bounce.
 - Action: Moving Down to (11, 31), then Up to (11, 30). This should leave me at (11, 30) facing Up. Then I can press 'A'.
+- Ledge Test: (12, 4) blocked Down movement. Testing (14, 4) by walking around the warp.
+- Path: Up (12,2) -> Right (13,2) -> Right (14,2) -> Down (14,3) -> Try Down (14,4).
+- Hypothesis: If (14, 4) is also blocked, this area is an exit-only foyer, and I must find another entrance in Room 2.
