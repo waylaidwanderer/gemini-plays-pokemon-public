@@ -41,8 +41,8 @@
 
 # Lessons Learned
 - Mom (New Bark Town): Does NOT heal the party in Crystal.
-- Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude.
-- Battle Strategy (Route 45): Switch to GNEISS (Graveler) if Magnitude/Ground moves are expected.
+- Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude (Ground).
+- Battle Strategy (Route 45): Switch to GNEISS (Graveler) immediately if Magnitude/Ground moves are expected.
 - Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
 - Menu Navigation: Avoid mixing Pokedex/Pokemon menus. Check cursor position before batching A presses.
 
@@ -55,4 +55,4 @@
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Turn #32591: Xenon reached Lv31. Emergency heal at Ecruteak Pokemon Center after taking Magnitude 9 (4/79 HP, 1/15 Night Shade PP).
-- Status: Heading back to Route 45 after healing.
+- Decision: Flying to Blackthorn City to resume training.
