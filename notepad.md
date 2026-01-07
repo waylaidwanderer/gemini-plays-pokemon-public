@@ -1,47 +1,17 @@
-# Current Strategy: Return to Red
-- **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At (6, 8) in Western Corridor.
-- **Correction:** Successfully walked UP to (6, 8). This tile is NOT a blocking ledge from below.
-- **Discovery:** North of (6, 8) is WATER at (6, 7), leading to Waterfalls at Row 5.
-- **Action:** Surfing North to ascend the Western Waterfalls.
-- **Hypothesis:** These waterfalls lead to the upper area connecting to the unreachable Warp at (11, 5) or the Southern Item Rooms.
-- **Plan:**
-  1. Surf North from (6, 8).
-  2. Ascend Waterfall at (6, 5).
-  3. Explore the area at the top.
+# Current Strategy: Explore Silver Cave Item Rooms
+- **Location:** Silver Cave Item Rooms (3_77)
+- **Status:** At (6, 3) in the Northern Entry Area.
+- **Goal:** Access the Southern Area (Rows 5+) to find items.
+- **Hypothesis:** The tile at (6, 4) is a ledge that can be jumped DOWN. Historical data supports this. The "Blocked Ledge" markers may be incorrect or refer to attempting to climb UP.
 
 # Key Findings
-- **Item Rooms (3_77):**
-  - Northern ledges (Row 4) are impassable/one-way (Tested x=4 to 12).
-  - Center/Right sections of Item Rooms North are dead ends.
+- **Silver Cave Item Rooms (3_77):**
+  - **Layout:** Northern "Entry Box" (Rows 1-3) separated from Southern Area by Ledges (Row 4).
+  - **Warps:** (13, 3) leads back to Silver Cave Room 2 (13, 21).
+  - **Connection:** Need to jump ledges to proceed.
 - **Silver Cave Room 2 (3_75):**
-  - **Waterfall:** Located at (11, 29). Requires facing UP and pressing A to ascend. Entering without interaction pushes player DOWN.
-  - **Warp (13, 21):** Leads to Item Rooms North (Loop).
-  - **Warp (17, 31):** Leads to Room 1 (Loop).
-  - **Layout:** Central area connects via water to West/East. Lower area connects back to Room 1 entrance.
+  - **Waterfall:** Located at (11, 29).
+  - **Warps:** (13, 21) <-> Item Rooms. (17, 31) <-> Room 1.
 
 # Tile Mechanics
-- **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
-- **FLOOR_UP_WALL:** South-facing Ledge (impassable from below, jumpable from above).
-- **WATERFALL:** Impassable tile unless HM Waterfall is used. Interaction: Face Up + A.
-- **Status:** At (6, 8). Attempting to Surf North.
-- **Issue:** Pressing 'A' alone didn't trigger Surf prompt.
-- **Action:** Pressing UP to walk into the water, which should force the prompt.
-- **Plan:** Surf to (6, 6) then ascend Waterfall.
-- **Status:** At (6, 8). Unable to surf North.
-- **Observation:** Pressing 'A' facing Water at (6, 7) yields no response. The tile (6, 8) FLOOR_UP_WALL seems to block interaction or is not a valid surf point.
-- **Action:** Testing adjacent tile (5, 8) just in case.
-- **Plan:**
-  1. Move Left to (5, 8).
-  2. Face North and Press A.
-  3. If fail, accept this is a one-way exit.
-  4. Backtrack to Item Rooms and brute-force the ledges again.
-- **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** At (13, 3) in Item Rooms.
-- **Goal:** Exit the "Central Box" (x=4-15, y=1-3).
-- **Hypothesis:** The "Blocked Ledge" findings were false negatives. Historical data (Turn 25853) claims a successful jump at (6, 3).
-- **Plan:**
-  1. Navigate to (6, 3).
-  2. Attempt to walk DOWN into (6, 4).
-  3. If successful, I will land at (6, 5) outside the box.
-- **Contingency:** If (6, 3) fails again, test (15, 3) and (4, 3) specifically. Also check Walls at (3, 3) and (16, 2).
+- **FLOOR_UP_WALL:** Investigating if this is a South-facing Ledge (jumpable from North).
