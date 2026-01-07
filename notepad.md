@@ -23,9 +23,9 @@
 
 # Progress Tracker
 - Xenon (Lv28): 18741 EXP. Target Lv30: 21760 EXP (~3019 remaining).
-- Kimchi (Lv26): 14133 EXP. Target Lv30: 21760 EXP (~7627 remaining).
+- Kimchi (Lv26): 14649 EXP. Target Lv30: 21760 EXP (~7111 remaining).
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
-- Last Update: Turn #31523 (Tuesday, Jan 6, 2026, 7:26 PM).
+- Last Update: Turn #31529 (Tuesday, Jan 6, 2026, 7:29 PM).
 - Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/27), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack/Poison Sting. 
 
 # Battle Strategies & Observations
