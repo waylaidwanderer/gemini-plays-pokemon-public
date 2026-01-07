@@ -1,15 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25955 (Jan 6, 2026)
+- **Timestamp:** Turn 25956 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
 - **Immediate Task:** Attack with Strength.
 - **Battle Plan:**
     1. **Charizard (Lv77):** Active. Muscle (161/280 HP).
-    2. **Turn 2 (Current):** Select FIGHT -> Strength.
-       - Charizard is faster -> Attacks (Flamethrower/Wing Attack). Muscle estimated to drop to ~40-50 HP.
-       - Muscle uses Strength (Physical, 80 BP).
-    3. **Turn 3:** 
-       - If Muscle survives and Charizard is low -> Attack again.
-       - If Muscle faints -> Send Gyarados -> Max Revive Muscle -> Sacrifice Gyarados -> Muscle returns.
+    2. **Current Turn:** Execute Strength (Physical, 80 BP).
+       - Charizard attacks first (Flamethrower, ~119 dmg). Muscle drops to ~42 HP.
+       - Muscle hits with Strength.
+    3. **Next Turn:**
+       - If Muscle survives: Assess if another attack kills or if healing is needed.
+       - If Muscle faints: Send Gyarados -> Max Revive Muscle -> Sacrifice Gyarados -> Muscle returns.
     4. **Snorlax:** Muscle's Cross Chop.
     5. **Venusaur:** Ice Punch or Strength.
     6. **Blastoise:** Cross Chop.
