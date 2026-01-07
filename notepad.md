@@ -47,7 +47,7 @@
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Defeated in rematch (Turn #32274).
-- Alan (Schoolboy): Route 36. Rematch potential.
+- Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: Interaction did not trigger battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Fly Destinations (List Order)
