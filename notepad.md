@@ -23,7 +23,7 @@
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 9/10.
 - Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
 - Grinding Start: Turn #31060.
-- Encounter Log: Donphan (Lv25), Graveler (Lv23) observed at (4,12)-(5,12).
+- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12).
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
