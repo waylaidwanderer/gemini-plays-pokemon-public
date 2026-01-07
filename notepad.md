@@ -38,10 +38,10 @@
 
 ## Training Strategy: Route 45
 - Started Turn 33130.
-- Lead with Gneiss (Lv47) using STRENGTH (Earthquake PP exhausted).
+- Lead with Gneiss (Lv47) using ROLLOUT/STRENGTH (Earthquake PP exhausted).
 - Xenon gains Exp via Exp. Share.
-- Status: Gneiss (3 Strength PP remaining).
-- Contingency: If Strength PP is exhausted, switch to ROLLOUT. If all offensive moves are low PP, Fly to Blackthorn to heal and return.
+- Status: Gneiss (3 Strength PP, 20 Rollout PP).
+- Contingency: If all offensive moves are low PP, Fly to Blackthorn to heal and return.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
