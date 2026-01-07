@@ -37,27 +37,19 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization
-- Turn #31900. Healing at Cianwood Pokemon Center.
-- Goal: Complete Cianwood Consolidation plan.
+- Turn #31913. Resetting position in Cianwood PC to break menu loop.
 
 # Failed Hypotheses Log (Training Prep)
-1. Give Exp. Share via menu (Turn #31883): Failed, took Amulet Coin.
-2. Swap Xenon to lead (Turn #31886): Failed, entered Save menu.
-3. Give Exp. Share via tool (Turn #31890): Failed, menu lag.
-4. press_menu_buttons sequence (Turn #31892): Failed, entered Option menu.
-5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
-6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
-7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic.
-- Total Failures: 11.
-8. press_menu_buttons (Turn #31903): Failed, entered Pokedex.
-9. use_item_on_pokemon_v2 (Turn #31904): Failed, entered Pokegear menu.
-10. swap_pokemon_v2 (Turn #31906): Failed, gave Xenon an Ice Berry instead of swapping.
-11. press_menu_buttons (Turn #31907): Failed, menu wrapping and lag caused Trainer Card to open.
-12. press_menu_buttons (Turn #31911): Failed to swap Xenon to lead; landed on ITEM instead of SWITCH due to Haunter's sub-menu layout and incorrect Down count. Also took an Ice Berry.
+- Total Failures: 13.
+- Last Failure (Turn #31912): press_menu_buttons failed to swap. Ravioli's sub-menu opened instead of Xenon's.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
-- Step 2: Reset overworld position to break menu loop (Complete).
-- Step 3: Swap Xenon to lead (Current).
+- Step 2: Break loop by moving to (4, 4) (Current).
+- Step 3: Swap Xenon to lead.
 - Step 4: Give Kimchi Exp. Share.
-- Step 5: Fly to Blackthorn City using fly_to_city_v4.
+- Step 5: Fly to Blackthorn City.
+
+# Menu Mapping (Cianwood PC)
+- Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
+- Slot 3 (Xenon): STATS, SWITCH (1 down)
