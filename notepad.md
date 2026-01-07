@@ -43,3 +43,4 @@
 3. Exit south to Route 45.
 4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
 - Started training at Turn #32266.
+- Arnie (Bug Catcher): Route 35. Rematch offered again? (Turn #32311).
