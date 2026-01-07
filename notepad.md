@@ -15,11 +15,13 @@
 8. Cianwood City
 9. Mahogany Town
 10. Blackthorn City
+- Strategy: Use fly_navigator_v2 to generate button sequences. Limit manual menu navigation to 1-3 buttons.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Training: Aiming for Lv40 for Xenon and Kimchi.
+- Training Goal: Reach Lv40 for the entire team.
+- Current Focus: Xenon and Kimchi.
 - Training Start: Turn 32625.
 
 # World Events & Rematches
