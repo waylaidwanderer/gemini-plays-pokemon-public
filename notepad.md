@@ -40,23 +40,21 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Item Audit
-- Xenon: Has item icon. Checking...
-- Icarus: Has item icon.
-- Kimchi: Exp. Share.
-- Ravioli: Empty.
-- Gneiss: Empty.
-- Calcifer: Has item icon.
+- Xenon: Lv29 (20635 EXP). Has item icon. Audit: Taking item.
+- Kimchi: Lv28 (17941 EXP). Holding EXP.SHARE.
+- Icarus: Lv16. Has item icon.
+- Ravioli: Lv10. Empty.
+- Gneiss: Lv46. Empty (Amulet Coin removed).
+- Calcifer: Lv48. Has item icon.
 - Audit Note: Found AMULET COIN on Gneiss. HARD STONE is in Bag.
-- Turn #32062: Hallucination correction. Turn count mismatch fixed. In battle with Geodude (LV23).
-- Current Step: Grinding. Audit paused. Checking Xenon's ITEM slot after battle.
 
 # Party Menu Mapping
-- Slot 1 (XENON): STATS, SWITCH (Offset 1)
-- Slot 2 (ICARUS): FLY, STATS, SWITCH (Offset 2)
+- Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 3 to ITEM)
+- Slot 2 (ICARUS): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 4 to ITEM)
 - Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 4 (Ravioli): SURF, STATS, SWITCH (Offset 2)
-- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (Offset 2)
-- Slot 6 (Calcifer): STATS, SWITCH (Offset 1)
+- Slot 4 (Ravioli): SURF, STATS, SWITCH, MOVE, ITEM, CANCEL
+- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH, MOVE, ITEM, CANCEL
+- Slot 6 (Calcifer): STATS, SWITCH, MOVE, ITEM, CANCEL
 
 # Meta
 - Training Task Start: Turn #31883.
