@@ -156,7 +156,7 @@
         "target_option"
       ]
     },
-    "python_script": "import json\ntarget = int(input_data['target_option'])\ncurrent = int(input_data['current_cursor'])\nbuttons = ['Start', 'sleep 1000']\ndiff = (target - current) % 8\nif diff <= 4:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (8 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
+    "python_script": "import json, sys\ninput_data = json.load(sys.stdin)\ntarget = int(input_data['target_option'])\ncurrent = int(input_data['current_cursor'])\nbuttons = ['Start', 'sleep 1000']\ndiff = (target - current) % 8\nif diff <= 4:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (8 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -167,6 +167,11 @@
         "commit_message": "Fixing logic to execute directly instead of using a run function.",
         "timestamp": "2026-01-07T08:31:15.477Z",
         "action_counter": 31957
+      },
+      {
+        "commit_message": "Adding import json and sys to handle input_data properly.",
+        "timestamp": "2026-01-07T08:32:39.483Z",
+        "action_counter": 31959
       }
     ]
   },
@@ -191,7 +196,7 @@
         "p2_slot"
       ]
     },
-    "python_script": "import json\np1 = int(input_data['p1_slot'])\np2 = int(input_data['p2_slot'])\noffset = int(input_data['p1_switch_offset'])\nbuttons = []\nbuttons += ['Down'] * (p1 - 1)\nbuttons += ['A', 'sleep 500']\nbuttons += ['Down'] * offset\nbuttons += ['A', 'sleep 500']\ndiff = (p2 - p1) % 6\nif diff <= 3:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (6 - diff)\nbuttons += ['A', 'sleep 1000', 'B', 'B', 'B']\nprint(json.dumps(buttons))",
+    "python_script": "import json, sys\ninput_data = json.load(sys.stdin)\np1 = int(input_data['p1_slot'])\np2 = int(input_data['p2_slot'])\noffset = int(input_data['p1_switch_offset'])\nbuttons = []\nbuttons += ['Down'] * (p1 - 1)\nbuttons += ['A', 'sleep 500']\nbuttons += ['Down'] * offset\nbuttons += ['A', 'sleep 500']\ndiff = (p2 - p1) % 6\nif diff <= 3:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (6 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -202,6 +207,11 @@
         "commit_message": "Fixing logic to execute directly instead of using a run function.",
         "timestamp": "2026-01-07T08:31:15.479Z",
         "action_counter": 31957
+      },
+      {
+        "commit_message": "Adding import json and sys to handle input_data properly.",
+        "timestamp": "2026-01-07T08:32:39.484Z",
+        "action_counter": 31959
       }
     ]
   }
