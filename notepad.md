@@ -2,19 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Outside (21, 20). East of Ledge.
-- Action: Jumping ledge and navigating to Cave Entrance (18, 11).
+- Current Location: Silver Cave Room 1 (9, 33). Just Entered.
+- Objective: Find path to Route 28 House.
 - Plan:
-    1. Enter Silver Cave.
-    2. Use Flash if dark.
-    3. Explore for a path that leads back OUT to the NW corner of Silver Cave Outside or Route 28.
-    4. Keep an eye out for Larvitar/Pupitar.
-
-# Exploration Status
-- Route 28 West: Blocked by Ledge (0, 14).
-- Route 28 East: Blocked by Walls/Trees.
-- Silver Cave Outside SE: Blocked by Walls.
-- Conclusion: The path MUST be inside the cave.
+    1. Collect Item Ball at (5, 30).
+    2. Explore North.
+    3. Check for any side paths or hidden ladders.
+    4. Verify if Flash is needed (looks lit enough for now).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
