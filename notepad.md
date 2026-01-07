@@ -17,7 +17,8 @@
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 8/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060.
-- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric and uses Poison Sting.
+- Reflection (Turn 31325): Pacing at (4,12)-(5,12). Kimchi is Lv24. Calcifer and Gneiss are healthy. Training continues.
+- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric and uses Poison Sting. Donphan level 25 moves: Horn Attack, Growl, Defense Curl, Flail.
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
