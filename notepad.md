@@ -4,17 +4,21 @@
 - Blackthorn City (Pokemon Center): Warp at (21, 30).
 - Route 45: High-level training area.
 
-## Tile Mechanics
-- FLOOR: Walkable.
-- WALL: Impassable.
-- TALL_GRASS: Walkable. Triggers wild encounters.
-- WATER: Requires Surf to traverse.
-- WARP_CARPET_DOWN: Triggers map transition when walking down.
-- DOOR: Triggers map transition when entered.
-- HEADBUTT_TREE: Interact to use Headbutt (if learned).
+## Global Tile Mechanics
+- FLOOR: Walkable. Verified.
+- WALL: Impassable. Verified.
+- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
+- WATER: Requires Surf to traverse. Verified.
+- WARP_CARPET_DOWN: Triggers map transition when walking down. Verified.
+- DOOR: Triggers map transition when entered. Verified.
+- HEADBUTT_TREE: Interact to use Headbutt (if learned). Verified.
 - LEDGE_HOP_DOWN: One-way movement (down). Verified.
 - LEDGE_HOP_LEFT: One-way movement (left). Verified.
 - LEDGE_HOP_RIGHT: One-way movement (right). Verified.
+- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Likely a ledge face or similar barrier. Verified (Turn 33461).
+- COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it. Verified.
+- PC (Pokemon Center): Interact to manage Pokemon and items. Verified.
+- LADDER: Triggers map transition between floors. Verified.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
@@ -31,7 +35,7 @@
 - **Move Matchups:** Check party movesets before switching. Kimchi lacked Grass moves for Graveler. (Turn 33260).
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 - **Gligar Typing:** Gligar is Ground/Flying. It is immune to Ground moves and neutral to Normal. It does not learn Faint Attack by level-up in this game. (Turn 33361).
-- **Sleep Powder Failure:** Sleep Powder failed against wild Gligar with 'It didn't affect' (Turn 33432). Reason unknown.
+- **Sleep Powder Failure:** Sleep Powder and Hypnosis failed against wild Gligar with 'It didn't affect' (Turns 33475, 33482). This implies a specific immunity or mechanic.
 - **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
 - **Input Precision:** Avoid mixing directional and action buttons in a single sequence. Verify turn count against Game State before acting. (Turn 33423).
 - **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
@@ -40,26 +44,17 @@
 - Goal: Xenon & Kimchi to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
+- Current Status: Training against wild Donphan (Lv 25). (Turn 33512).
 
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 - Priority: Check for missed items/trainers while grinding.
-- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Likely a ledge face or similar barrier. Verified (Turn 33461).
-- COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it.
-- PC: Interact to manage Pokemon and items.
-- LADDER: Triggers map transition between floors.
+
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
 - Opponent: Clair uses Dragon-type Pokemon.
 - Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
 - Start Turn (Grinding): 33466.
 
-## Additional Observations
-- Sleep Powder (Grass) and Hypnosis (Psychic) both failed against wild Gligar (Ground/Flying) with "It didn't affect" (Turns 33475, 33482). This suggests a specific immunity or mechanic. Gligar's Sand-Attack worked initially but failed later (Turn 33482), likely due to stat caps.
-- LEDGE_HOP_DOWN: One-way movement (down). Verified.
-- LEDGE_HOP_LEFT: One-way movement (left). Verified.
-- LEDGE_HOP_RIGHT: One-way movement (right). Verified.
-- Catch Attempt 1 (Gligar Lv 24): Great Ball failed after 3 shakes. Gligar HP ~50%, Confused. (Turn 33490).
-- Catch Attempt 2 (Gligar Lv 24): Great Ball failed. Gligar HP ~50%, Confused. (Turn 33492).
-- Catch Attempt 3 (Gligar Lv 24): Great Ball failed (Aargh! Almost had it!). Gligar HP ~50%, Confused. (Turn 33495).
-- Catch: Gligar (Lv 24, Male) caught on Turn 33500. Sent to PC Box 1. Nickname: Telson.
+## Historical Data (Archive)
+- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) after several Great Ball attempts at ~50% HP while confused. Failed attempts noted on turns 33490, 33492, 33495.
