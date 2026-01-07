@@ -1,28 +1,12 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25602 (Jan 6, 2026)
+- **Timestamp:** Turn 25703 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (8, 24). West of Main Path.
-- Action: Backtracking to find the Eastern path North.
-- Plan:
-    1. Navigate South/East to (12, 26).
-    2. Head North along x=12.
-    3. Retrieve Item Ball at (7, 18).
-    4. Search for the hidden exit to Route 28 in the NW.
+- **Immediate Task:** Retrieve Item Ball at (7, 18).
+- **Sequence:**
+    1. Navigate West to x=4. North to y=16. East to x=8. South to (8, 18). Get Item Ball.
+    2. Return to x=4, y=21. East to x=12. South to y=26. West to x=3.
+    3. Jump Ledge at (3, 27). Get Item Ball at (5, 30).
+    4. South to y=34. Jump Ledge. West to x=0. North to Exit.
 
-# Tile Mechanics & Observations
-- **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
-- **FLOOR_UP_WALL:** Inconsistent behavior observed.
-    - **Confirmed Ledge:** (39, 32) allowed jumping South.
-    - **Confirmed Wall:** (6, 30) and (28, 34) blocked movement South.
-    - **Strategy:** Treat as WALL unless verified otherwise.
-- **Navigation Notes:**
-    - The "Central" area (x=5) connects to the West path via Row 22 (re-verified via Mental Map).
-    - Row 30 acts as a hard barrier across most of the map, separating the North and South sections.
-
-# Key Locations
-- **Route 28 House:** (7, 3) [Unreachable]
-- **Route 28 Gatehouse:** (33, 5) -> Leads to Viridian/Victory Road
-- **Silver Cave Outside (Next Map):** Entrance at (0, 13) on Route 28.
-- **Mt. Silver Cave Entrance:** (18, 11) [On Silver Cave Outside Map]
-- **Pokemon Center:** (23, 19) [On Silver Cave Outside Map]
+# Tile Mechanics
+- **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
