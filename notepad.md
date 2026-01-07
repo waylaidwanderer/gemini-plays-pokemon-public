@@ -1,16 +1,14 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25445 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
+- **Immediate Task:** Reach the Northwest area of Silver Cave Outside via the Southern Loop.
 - **Route:**
-    1. Go South to Water (Row 24).
-    2. Surf West to the grassy shore (x=13).
-    3. Walk South to Row 28 to bypass ledges.
-    4. Walk West to x=5.
-    5. Go North through gap at (5, 27) up to Row 22.
-    6. Go West at Row 22 to x=1.
-    7. Go North to Row 8.
-- **Correction:** Previous belief that Central Area (x=5) is a dead end was likely incorrect. Row 22 appears to connect the Central Area to the West Path.
+    1. Walk South to Water (18, 24).
+    2. Surf West to the grassy shore at x=13.
+    3. Walk South to Row 31 (to bypass the central blockage).
+    4. Walk West along Row 31 to x=2.
+    5. Walk North along x=2 to the Northwest corner.
+- **Correction:** The area North of the Cave Entrance (Row 11) is blocked by a wall, making the cave the only passage. The exterior path must loop around the entire map.
 
 # Tile Mechanics
 - **LEDGE_HOP_DOWN:** One-way South.
