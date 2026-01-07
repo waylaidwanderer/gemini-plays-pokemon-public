@@ -51,5 +51,8 @@
 - Total Failures: 7.
 7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic (Reset-to-New-Bark failed or cursor logic was off).
 
-# Decisive Action Phase
-- I am manually navigating the fly menu using press_menu_buttons. I've also refined the fly_to_city_v4 tool to be more robust for future use. No more multi-step sequences until we are out of this laggy area!
+# Decisive Action Phase: Cianwood Consolidation
+- Step 1: Heal at Cianwood PC.
+- Step 2: Give Kimchi Exp. Share.
+- Step 3: Swap Xenon to lead.
+- Step 4: Fly to Blackthorn City using fly_to_city_v4.
