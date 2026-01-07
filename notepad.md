@@ -2,12 +2,11 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** Escaping the "Middle Pocket" via Row 32.
-- **Route:**
-    1. Navigate East along Row 32 to x=39.
-    2. Exit East to **Route 28**.
-- **Goal:** Traverse Route 28 Westward to find the hidden entrance to the NW section of Silver Cave Outside.
-- **Observations:** Row 34 is a solid wall of Fake Ledges. Row 30 is blocked by West-facing ledges. Row 32 is the only Eastbound path.
+- **Current Status:** Escaped the "Middle Pocket" (Row 32-33). Currently at (39, 31).
+- **Finding:** The "Middle Pocket" is a dead end. All southern tiles (Row 34) are walls.
+- **Action:** Exiting East to **Route 28**.
+- **Goal:** Explore Route 28 to find a path that loops back into the inaccessible Northwest area of Silver Cave Outside.
+- **Hypothesis:** The entrance to the NW area is likely a hidden path or cut-through on Route 28.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
