@@ -1,17 +1,12 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25809 (Jan 6, 2026)
+- **Timestamp:** Turn 25819 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore Silver Cave Room 1 (Northern Section).
+- **Immediate Task:** Explore Silver Cave Room 2.
 - **Sequence:**
-    1. Navigate North from (14, 6) to (15, 2).
-    2. Enter the warp at (15, 1).
-    3. Determine destination (likely Room 2 or top of waterfall).
-    4. Explore the new area.
+    1. Navigate North from (17, 31) to explore the room.
+    2. Check the Water area to the West (x<13).
+    3. Look for the next exit (likely upwards or across water).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
-- **Maze Solution:** Access the North-East section by crossing the top corridor at Row 4.
-- **Navigation Notes:**
-    - Warp at (15, 1) is the exit from Room 1.
-    - x=14 corridor leads directly to the warp.
-    - Other Eastern corridors (x=16, x=19) might be accessible from different points or are dead ends.
+- **Warp Carpet:** Located at (17, 31) and surroundings. Likely the exit back to Room 1.
