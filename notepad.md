@@ -4,14 +4,9 @@
 - Blackthorn City (Pokemon Center 25_3): Standard healing. Warp at (21, 30).
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
-# Fly Navigation (Johto Directional)
-- New Bark Town (Bottom Right)
-- Up -> Cherrygrove City
-- Up -> Violet City
-- Up -> Ecruteak City
-- Right -> Mahogany Town
-- Right -> Blackthorn City (Top Right)
-- Strategy: Use manual directional buttons. Verify screen after each press.
+# Fly Navigation (Johto Cycle)
+- Sequence (using Up/Down): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
+- Strategy: Press 'Up' to advance through the sequence. Verify town name on screen.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
