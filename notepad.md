@@ -18,16 +18,17 @@
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
 
 # Progress Tracker
-- Last Update: Turn #31593.
+- Last Update: Turn #31594.
 - Grinding Start: Turn #31060.
-- Target Lv30: 21760 EXP (~5916 left for Kimchi, ~2799 left for Xenon).
+- Target Lv30: 21760 EXP (~5691 left for Kimchi, ~2574 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
 # Battle Strategies & Observations
 - Night Shade: Deals fixed damage equal to user level. Essential for grinding and bypassing high Defense.
 - Sleep Powder: "It didn't affect" against certain targets investigated. Not gender-dependent. Likely due to existing status or move-specific failure.
-- Ghost Typing: Xenon is immune to Fighting and Normal moves (e.g., Quick Attack). Perfect for switching into these attacks.
+- Ghost Typing: Xenon is immune to Fighting and Normal moves (e.g., Quick Attack, Selfdestruct). Perfect for switching into these attacks.
 - Selfdestruct: Major threat from wild Graveler. Gneiss resists; Xenon is immune.
+- Hypnosis: Effective status option for Xenon to facilitate safe switches.
 
 # General Mechanics & Lessons
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
