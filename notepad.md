@@ -1,9 +1,9 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26121 (Jan 7, 2026) [Reflected]
 - **Primary Goal:** Defeat Red.
-- **Status:** Navigating to Reception Gate via the lower grass path and the gap at (14, 9).
-- **Route:** (31, 2) -> South to Row 10 -> West to x=14 -> North through gap at (14, 9) -> Gate at (13, 5).
-- **Reasoning:** Validated that the gap at (14, 9) allows Northward movement, bypassing the ledges blocking direct access from the south. The path requires looping south around the water.
+- **Status:** Navigating Route 22 Zigzag Path.
+- **Route:** (33, 14) -> North through gap at (33, 13) -> North through gap at (31, 7) -> West on Row 5 to Gate (13, 5).
+- **Reasoning:** Closest valid path from current position. Verified gaps at (33, 13) and (31, 7).
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
