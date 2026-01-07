@@ -32,7 +32,8 @@
 # Strategy: Current Status
 - Goal: Heal at Cherrygrove City Pokemon Center (Detour via Fly mistake).
 - Status: XENON (Lv30, 33/77 HP, 4 PP Night Shade), KIMCHI (Lv29, 77/77 HP).
-- Next: Resume training on Route 45 or visit Dana (Route 38) / Arnie (Route 35).
+- Next: Fly to Blackthorn City and resume training on Route 45. Try to visit Dana (Route 38) for the gift if convenient.
+- Fly wrap check: Pressing 'Up' from New Bark Town on the map should go to Blackthorn City. Verify next time.
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
