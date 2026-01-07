@@ -1,16 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25958 (Jan 6, 2026)
+- **Timestamp:** Turn 25959 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Send out Gyarados -> Revive Muscle.
+- **Immediate Task:** Use Max Revive on Muscle.
 - **Battle Plan:**
-    1. **Current Turn:** Select Gyarados (Slot 3).
-    2. **Next Turn (Gyarados active):** Open PACK -> Use **MAX REVIVE** on Muscle.
-       - Do NOT attack with Gyarados. He is level 36 vs Lv77 Charizard. He exists only to buy one turn.
-    3. **Aftermath:** Gyarados faints.
-    4. **The Comeback:** Send out Muscle (Full HP).
-       - Muscle vs Charizard (Part 2).
-       - Use Strength.
-    5. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
+    1. **Current Turn:** Gyarados is active (Sacrifice).
+    2. **Action:** Select PACK -> Use **MAX REVIVE** on Muscle.
+    3. **Opponent Turn:** Charizard attacks Gyarados (Likely OHKO).
+    4. **Next:** Send out Muscle (Full HP).
+    5. **Muscle Returns:** Strength vs Charizard.
 - **Resources:** Muscle (Fainted). Gyarados (117/117). 1 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
