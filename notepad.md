@@ -40,7 +40,7 @@
 - Started Turn 33130.
 - Lead with Gneiss (Lv47) using STRENGTH (Earthquake PP exhausted).
 - Xenon gains Exp via Exp. Share.
-- Status: Gneiss (4 Strength PP remaining).
+- Status: Gneiss (3 Strength PP remaining).
 - Contingency: If Strength PP is exhausted, switch to ROLLOUT. If all offensive moves are low PP, Fly to Blackthorn to heal and return.
 
 # Strategy: Rising Badge (Gym Leader Clair)
