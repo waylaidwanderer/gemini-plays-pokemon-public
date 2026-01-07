@@ -21,3 +21,4 @@
 
 # Map Structure (Silver Cave)
 - Upper Ledge is segmented. Center (13) connects to Left (6), but Right (17) is blocked by Wall at Col 16.
+- **Route 2 Navigation:** To head North from the entrance, use the gap in the ledge at (7, 47). The tree at (10, 40) blocks the path further North.
