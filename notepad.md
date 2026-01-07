@@ -7,6 +7,8 @@
 - WATER: Traversable with HM03 SURF.
 - CUT_TREE: Removed with HM01 CUT.
 - BOULDER: Pushed with HM04 STRENGTH.
+- COUNTER: Interaction point for NPCs behind desks.
+- WARP_CARPET: Map transition tile at exits.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Tactical Plan: Use Xenon's Night Shade for fixed damage. Gneiss for physical bulk and STAB Earthquake. Calcifer's Thunderpunch for neutral coverage.
@@ -16,13 +18,12 @@
 - Method: Switch-training. Lead with Kimchi or Xenon to share EXP, then switch to Gneiss or Calcifer for the KO.
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
+- Grinding Session 1: Started Turn #31060.
 
 # Progress Tracker
-- Last Update: Turn #31606.
 - Grinding Start: Turn #31060.
 - Target Lv30: 21760 EXP (~5691 left for Kimchi, ~2574 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
-- Turn #31604: Defeated Hiker Erik on Route 45.
 
 # Key NPC Locations & Gifts
 - Dana (Lass): Route 38. Has a gift. (Turn #31604)
