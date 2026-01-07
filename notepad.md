@@ -3,12 +3,14 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - Current Location: Silver Cave Room 1 (4, 30).
-- Action: Exiting Item Alcove.
+- Status: Bag Full. Could not pick up Escape Rope. Item Ball (5, 30) remains as an obstacle.
+- Action: Exiting Alcove.
 - Plan:
-    1. Jump Ledge at (7, 30) to the Right (East).
-    2. Head North via the main path (x=8/9).
-    3. Retrieve Item Ball at (7, 18).
-    4. Search for the hidden exit to Route 28 (likely in the NW area).
+    1. Jump South over ledge at (4, 31).
+    2. Head East to x=9.
+    3. Head North to explore the rest of the cave.
+    4. Retrieve Item Ball at (7, 18).
+    5. Find the path to the NW Route 28 House.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
