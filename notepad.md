@@ -45,12 +45,12 @@
 - Goal: Xenon & Kimchi to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
-- Current Status: Training. Defeated wild Donphan (Lv 25). (Turn 33517).
-- Party Status (Turn 33517):
-  - Gneiss: Lv 47 (102402 EXP)
-  - Kimchi: Lv 32 (28369 EXP)
-  - Xenon: Lv 35 (38959 EXP)
-  - Calcifer: Lv 48 (109645 EXP)
+- Current Status: Training. Battling wild Graveler (Lv 23). (Turn 33521).
+- Party Status (Turn 33521):
+  - Gneiss: Lv 47 (102292 EXP)
+  - Kimchi: Lv 32 (28259 EXP)
+  - Xenon: Lv 35 (38624 EXP)
+  - Calcifer: Lv 48 (109535 EXP)
 
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
@@ -61,3 +61,6 @@
 - Opponent: Clair uses Dragon-type Pokemon.
 - Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
 - Start Turn (Grinding): 33466.
+
+## Historical Data (Archive)
+- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson).
