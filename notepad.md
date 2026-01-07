@@ -18,15 +18,8 @@
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
 - Started: Turn #32266, 2026-01-07 04:30 AM.
-- Current Status: Xenon Lv31, Kimchi Lv30. Turn #32518.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Training Location: Route 45 (high level Rock/Ground/Flying).
-
-# Incident Log
-- Turn #32469: XENON fainted to a critical hit Magnitude 6 from wild Graveler (Lv23).
-- Turn #32496: Encountered wild Gligar (Lv24). Training spot (12, 10) marked on Route 45.
-- Turn #32505: Defeated wild Gligar (Lv24). Arnie called.
-- Turn #32515: Defeated wild Graveler (Lv23). Magnitude 8 reduced Xenon to 14 HP. Xenon reached Lv31 and learned Confuse Ray.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Objective: Defeat Clair in Blackthorn Gym.
