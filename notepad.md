@@ -1,11 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** Exploring the upper ledge of Item Rooms (3_77).
-- **Immediate Goal:** Determine if the ledge at y=4 is jumpable or if this is a dead end.
+- **Status:** Surfing at (11, 30) in Room 2. Preparing to ascend waterfall.
+- **Immediate Goal:** Re-attempt waterfall ascension with cleaner inputs.
 - **Plan:**
-  1. Test jumping DOWN at various x-coordinates along the ledge.
-  2. If jumpable, explore lower area.
-  3. If not, return to Room 2 via warp (13, 3) and look for another path (e.g., Warp 11, 5).
+  1. Move DOWN to (11, 31) to reset position.
+  2. Move UP to (11, 30) and interact with waterfall.
+  3. Ascend to upper area.
 - **Hypothesis:** This ledge must lead somewhere or contain an item.
 
 # Investigation List
