@@ -22,3 +22,6 @@
   2. Ascend Waterfall at (11, 29).
   3. Explore the area above (Room 2 Upper / Room 3).
 - **Hypothesis:** The waterfall is the exit from the Item Rooms loop and leads to Red.
+- **Observation:** The Waterfall tiles at y=29 are passable but push the player back (DOWN) if entered without the HM active.
+- **Correction:** Must interact (Face Up + Press A) to use HM. Moving into the tile causes a pushback loop.
+- **Strategy:** Attempting rapid input (Up+A) to interact before movement/pushback occurs.
