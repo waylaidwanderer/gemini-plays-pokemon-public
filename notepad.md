@@ -2,13 +2,13 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** At (29, 30), preparing to head East to the "Exit" area.
-- **Hypothesis:** Access to the bottom path (Row 35) is via x=39. Tile (39, 32) is likely a Ledge Down that connects the Exit area to the Bottom Loop.
+- **Current Status:** At (29, 31), navigating East via Row 32.
 - **Route (Double Loop):**
-    1. Navigate to (39, 31) (Route 28 Exit area).
-    2. Attempt to walk Down at (39, 31) to jump the ledge at (39, 32).
-    3. If successful, walk South to Row 35 and Loop West to x=1.
-    4. If unsuccessful, exit to Route 28 and look for another path.
+    1. Go Down to Row 32.
+    2. Go East along Row 32 to x=37.
+    3. Go Up to Row 31.
+    4. Go East to (39, 31).
+    5. Attempt to walk Down at (39, 31) to jump the ledge at (39, 32).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
