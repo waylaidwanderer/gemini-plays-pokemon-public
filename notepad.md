@@ -40,10 +40,10 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Status (Turn #32078)
-- XENON (Haunter): Lv29. Leading. HP 64/74. Item: AMULET COIN.
+- XENON (Haunter): Lv29. Leading. HP 64/74. Item: AMULET COIN (Equipped Turn #32080).
 - KIMCHI (Gloom): Lv28. Item: EXP.SHARE.
-- Audit: COMPLETE. Amulet Coin found and equipped.
-- Goal: Train XENON and KIMCHI to Lv40 on Route 45.
+- Audit: COMPLETE. Amulet Coin found on GNEISS and equipped to XENON.
+- Goal: Train XENON and KIMCHI to Lv40 on Route 45. (Started Turn #31883)
 
 # Meta
 - Training Task Start: Turn #31883.
