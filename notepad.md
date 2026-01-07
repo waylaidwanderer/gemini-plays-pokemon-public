@@ -1,17 +1,13 @@
 # Current Strategy: Resupply at Indigo Plateau
-- **Timestamp:** Turn 26045 (Jan 6, 2026)
+- **Timestamp:** Turn 26065 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Indigo Plateau. Heading to Mart.
-- **Money:** ¥71,333.
-- **Budget Plan:**
-    - 15 Full Restores (¥45,000)
-    - 15 Revives (¥22,500)
-    - Total: ¥67,500. Remaining: ~¥3,800.
-- **Immediate Goal:** Walk to Mart Counter (11, 9) -> Buy Supplies.
+- **Status:** Supplies secured (15 Full Restores, 15 Revives). Exiting Indigo Plateau.
+- **Money:** ¥3,833.
+- **Immediate Goal:** Fly to Silver Cave (Mt. Silver).
 - **Plan:**
-    1. Navigate to (11, 9).
-    2. Buy 15 Full Restores, 15 Revives.
-    3. Fly to Silver Cave.
+    1. Exit Indigo Plateau.
+    2. Fly to Silver Cave.
+    3. Enter cave and return to Red's chamber.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
