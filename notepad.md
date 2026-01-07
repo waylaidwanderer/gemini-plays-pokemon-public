@@ -53,6 +53,6 @@
 - Slot 4 (Ravioli): SURF, STATS, SWITCH (Offset 2)
 - Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (Offset 2)
 - Slot 6 (Calcifer): STATS, SWITCH (Offset 1)
-- Training Task Start: Turn #31883. Current Turn #32019.
+- Training Task Start: Turn #31883. Current Turn #32030.
 - Menu Navigator Agent: Defined Turn #32011.
-- Pathfinding Tool (find_path_v2): Defined Turn #32019.
+- Pathfinding Tool (find_path_v2): Defined/Updated Turn #32021.
