@@ -151,5 +151,26 @@
         "action_counter": 29934
       }
     ]
+  },
+  "grind_encounters": {
+    "description": "Paces back and forth to trigger wild encounters.",
+    "input_schema": {
+      "properties": {
+        "steps": {
+          "default": 10,
+          "description": "The number of steps to pace (total).",
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "python_script": "import json\nsteps = int(input_data.get('steps', 10))\nbuttons = []\nfor _ in range(steps // 2):\n    buttons.extend([\"Left\", \"Right\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T15:39:09.904Z",
+        "action_counter": 32671
+      }
+    ]
   }
 }
