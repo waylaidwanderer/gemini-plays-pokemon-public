@@ -1,13 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25960 (Jan 6, 2026)
+- **Timestamp:** Turn 25962 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Find Max Revive in Pack.
+- **Immediate Task:** Confirm Max Revive Use on Muscle.
 - **Battle Plan:**
-    1. **Current Turn:** Pack opened.
-    2. **Action:** Navigate to **MAX REVIVE** and use on Muscle.
-       - Note: Do NOT use a regular Revive. Muscle needs full HP to tank Charizard.
-    3. **Next:** Gyarados faints.
-    4. **Comeback:** Send Muscle. Strength vs Charizard.
+    1. **Current Turn:** Select Max Revive -> USE.
+    2. **Next Turn:** Select Muscle (Slot 1) in Party Menu.
+    3. **Opponent Turn:** Charizard attacks Gyarados (Likely KO).
+    4. **Comeback:** Send Muscle (Full HP).
+    5. **Muscle Returns:** Strength vs Charizard.
 - **Resources:** Muscle (Fainted). Gyarados (117/117). 1 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
