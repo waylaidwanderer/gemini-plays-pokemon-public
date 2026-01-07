@@ -15,12 +15,14 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (11, 30) in Room 2 (Lower Area).
-- **Action:** Exiting to Room 1.
+  - **Status:** At (15, 2) in Room 1 (Entrance).
+- **Discovery:** Room 2 Lower Area (17, 31) exits to Room 1 (15, 1). This confirms the Lower Area was a loop.
+- **Action:** Re-entering Room 2 via Warp (15, 1).
+- **Hypothesis:** Entering Room 1 (15, 1) will warp to Room 2 (11, 5), which is the Central/Northern area.
 - **Plan:**
-  1. Exit to Room 1 via warp at (17, 31).
-  2. Explore Room 1 for other warps.
-  3. Hypothesis: A different warp in Room 1 leads to the "Central Room" of Room 2 (where Warp 11,5 is) OR to the lower area of Item Rooms.
+  1. Enter Warp (15, 1).
+  2. Confirm arrival at Room 2 (11, 5).
+  3. Find Red.
 - **Warp Discrepancy (Item Rooms):**
   - Item Rooms upper ledge was a dead end.
   - Returned to Room 2 via (13, 21).
