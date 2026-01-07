@@ -183,9 +183,8 @@
     ]
   },
   "swap_pokemon_v2": {
-    "description": "Swaps the positions of two Pokemon in the party.",
+    "description": "Swaps the positions of two Pokemon in the party. Fixed for Crystal menu wrapping and field move offsets.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "p1_index": {
           "type": "integer"
@@ -197,14 +196,20 @@
       "required": [
         "p1_index",
         "p2_index"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "import json\np1 = int(input_data.get('p1_index', 1))\np2 = int(input_data.get('p2_index', 2))\nseq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A']\nseq.extend(['Up']*7 + ['Down']*(p1-1) + ['A', 'Down', 'A'])\nseq.extend(['Up']*7 + ['Down']*(p2-1) + ['A', 'B', 'B', 'B'])\nprint(json.dumps(seq))",
+    "python_script": "import json\n\ndef main(input_data):\n    p1 = int(input_data['p1_index'])\n    p2 = int(input_data['p2_index'])\n    \n    # Party field move counts (Crystal sub-menu offsets)\n    # 0: Kimchi (FLASH, CUT) -> 2\n    # 1: Icarus (FLY) -> 1\n    # 2: Xenon (None) -> 0\n    # 3: Ravioli (SURF) -> 1\n    # 4: Gneiss (STRENGTH) -> 1\n    # 5: Calcifer (None) -> 0\n    party_field_moves = {0: 2, 1: 1, 2: 0, 3: 1, 4: 1, 5: 0}\n    \n    buttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"]\n    \n    # Select p1\n    for _ in range(p1): buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Navigate to SWITCH\n    # Offset is num_field_moves + 1 (for STATS)\n    num_downs = party_field_moves.get(p1, 0) + 1\n    for _ in range(num_downs): buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Select p2\n    diff = p2 - p1\n    if diff > 0:\n        for _ in range(diff): buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(-diff): buttons.append(\"Up\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.extend([\"B\", \"B\", \"B\"])\n    \n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T06:44:21.222Z",
         "action_counter": 31838
+      },
+      {
+        "commit_message": "Fixing swap_pokemon_v2 for Crystal. Hardcoding field move offsets for the current party to ensure reliable 'SWITCH' selection. Added sleep commands to handle menu lag.",
+        "timestamp": "2026-01-07T07:59:29.899Z",
+        "action_counter": 31922
       }
     ]
   },
