@@ -40,12 +40,12 @@
 - Turn #31913. Resetting position in Cianwood PC to break menu loop.
 
 # Failed Hypotheses Log (Training Prep)
-- Total Failures: 15.
-- Last Failure (Turn #31917): press_menu_buttons failed. The cursor in the main menu was on POKEDEX, causing the sequence to enter the Pokedex instead of POKEMON.
+- Total Failures: 16.
+- Last Failure (Turn #31918): press_buttons failed to reach (1, 7) because Lass (ID 2) was blocking (1, 6).
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
-- Step 2: Break loop by moving to (4, 5) (Current).
+- Step 2: Break loop by moving to (1, 7) (Current).
 - Step 3: Swap Xenon to lead.
 - Step 4: Give Kimchi Exp. Share.
 - Step 5: Fly to Blackthorn City.
