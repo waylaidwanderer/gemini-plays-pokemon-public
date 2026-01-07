@@ -39,12 +39,13 @@
 # Progress Tracking
 - Cianwood Consolidation: Started Turn #31883.
 - Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
-- Turn #31924: Refined swap_pokemon_v2 to use a flat script structure for better compatibility. Added Lass marker.
+- Turn #31925: Moving to (2, 7) to avoid Lass and resetting party swap plan. Fixed swap_pokemon_v2 tool logic.
 
 # Strategy: Cianwood Consolidation
-- Step 1: Swap Xenon to lead (Current).
-- Step 2: Give Kimchi Exp. Share.
-- Step 3: Fly to Blackthorn City.
+- Step 1: Move to (2, 7) (Current).
+- Step 2: Swap Xenon to lead.
+- Step 3: Give Kimchi Exp. Share.
+- Step 4: Fly to Blackthorn City.
 
 # Menu Mapping (Cianwood PC)
 - Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
