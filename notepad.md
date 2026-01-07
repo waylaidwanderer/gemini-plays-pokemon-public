@@ -1,13 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25969 (Jan 6, 2026)
+- **Timestamp:** Turn 25970 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Attack with Strength.
+- **Immediate Task:** Execute Strength.
 - **Battle Plan:**
-    1. **Current State:** Muscle (280/280) vs Charizard.
-    2. **Action:** Select FIGHT -> STRENGTH.
-       - Logic: Strength (Physical, 80 BP) > ThunderPunch (Special, 150 BP eff) due to Machoke's stats.
-    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks.
-    4. **Next:** Check HP. If > 120, Attack again. If < 120, Heal.
+    1. **Current State:** Muscle (280/280) vs Charizard. Cursor on STRENGTH.
+    2. **Action:** Press A to use STRENGTH.
+    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks (~120-160 dmg).
+    4. **My Turn:** Strength hits (~80-100 dmg).
+    5. **Next:** Assess HP. If low, Heal. If high, Attack.
 - **Resources:** Muscle (280/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
