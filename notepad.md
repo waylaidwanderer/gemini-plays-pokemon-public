@@ -30,16 +30,13 @@
 - Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
 
 # Strategy: Current Status
-- Pacing in grass at (4, 11) and (4, 12) on Route 45 for levels.
-- Fly map 'Down' from New Bark Town confirmed to wrap to Blackthorn City.
+- Pacing in tall grass at (4, 11) and (4, 12) on Route 45.
 
-# Significant Party Status (Turn #32196)
+# Significant Party Status (Turn #32198)
 - XENON (Haunter): Lv30. HP 54/77. Night Shade: 13/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
-- Ravioli (Krabby): Lv10. HP 27/27.
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
-- ICARUS (Pidgey): Lv16. HP 43/43.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
