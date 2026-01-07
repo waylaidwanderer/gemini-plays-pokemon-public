@@ -1,13 +1,13 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26230 (Jan 7, 2026) [Silver Cave PC]
+- **Timestamp:** Turn 26292 (Jan 7, 2026) [Silver Cave Room 2]
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Silver Cave Room 1. At (15, 15).
-- **Immediate Action:** Use Max Repel to stop excessive encounter rate.
-- **Path to Room 2:**
-  1. Current: (15,15) -> Up to (15,14) -> Left to (14,14) -> Up to (14,9).
-  2. Left to (8,9) -> Up to (8,4) -> Right to (12,4).
-  3. Down to (12,6) -> Right to (15,6) -> Up to Warp at (15,1).
-- **Next Task:** Reach Red in Room 3.
+- **Status:** Entered Silver Cave Room 2. At (17, 31).
+- **Plan:**
+  1. Access water at (13, 30).
+  2. Surf and use Waterfall to ascend the left side.
+  3. Navigate to Warp at (11, 5) leading to Room 3.
+- **Notes:** Right side of Room 2 appears to be a one-way ledge drop (Row 16). Left side requires Surf/Waterfall.
+- **Active Effects:** Max Repel (Turn 26289).
 
 ## Vs Red Strategy
 - (Placeholder for insights)
