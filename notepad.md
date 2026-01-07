@@ -31,6 +31,7 @@
 
 # Training Log
 - Turn #32399: Encountered wild Phanpy (Lv20). Xenon used Night Shade (PP: 6). Phanpy fled.
+- Turn #32403: Encountered wild Skarmory. Xenon leading. Night Shade PP: 6.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
