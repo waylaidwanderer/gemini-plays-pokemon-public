@@ -22,7 +22,7 @@
 - Goal: Lv40 for Xenon and Kimchi.
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
 - Healing Log: Turn #32731 (Start). Night Shade PP was 1. Status: Healed (Turn #32733).
-- Training Session Log: Resumed grind at Turn #32740. Current Status: Xenon Lv31, Kimchi Lv30. Night Shade PP: 15/15.
+- Training Session Log: Resumed grind at Turn #32740. Current Status: Xenon Lv31, Kimchi Lv31 (Level up Turn #32745). Night Shade PP: 13/15. Xenon at 16 HP after Magnitude 8, using Hyper Potion.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
