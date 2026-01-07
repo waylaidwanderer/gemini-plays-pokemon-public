@@ -41,5 +41,5 @@
 # General Mechanics & Lessons
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
-- Tool Usage: Double-check JSON structure for battle_analyst_v2 to avoid malformed party data.
-- Turn #31687: Lesson learned: Magnitude 10 is lethal to Haunter due to Poison sub-type. Underestimated Magnitude's variance. Strategy adjusted.
+- Tool Usage: Ensure perfectly structured JSON for battle_analyst_v2, especially player_party. All party members must be included correctly. Avoid truncation or malformed objects.
+- Lesson: Magnitude 10 is lethal to Haunter due to Poison sub-type. Underestimated Magnitude's variance. Protocol established.
