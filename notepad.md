@@ -22,8 +22,8 @@
 - Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 10/10).
 
 # Progress Tracker
-- Xenon (Lv28): 17752 EXP. Target Lv30: 21760 EXP (~4008 remaining).
-- Kimchi (Lv25): 67/67 HP.
+- Xenon (Lv28): 17972 EXP. Target Lv30: 21760 EXP (~3788 remaining).
+- Kimchi (Lv25): 13003 EXP. Target Lv30: 21760 EXP (~8757 remaining).
 - Gneiss (Lv46): 129/129 HP. Earthquake PP: 10/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
