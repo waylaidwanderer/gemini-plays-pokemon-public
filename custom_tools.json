@@ -183,9 +183,13 @@
     ]
   },
   "swap_pokemon_v2": {
-    "description": "Swaps the positions of two Pokemon in the party. Fixed for Crystal menu wrapping and field move offsets.",
+    "description": "Swaps the positions of two Pokemon in the party. Handles persistent cursor positions with the current_index argument.",
     "input_schema": {
       "properties": {
+        "current_index": {
+          "default": 0,
+          "type": "integer"
+        },
         "p1_index": {
           "type": "integer"
         },
@@ -199,7 +203,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\n# The input is provided in a variable called 'input_data'\np1 = int(input_data['p1_index'])\np2 = int(input_data['p2_index'])\n\n# Party field move counts (Crystal sub-menu offsets)\n# 0: Kimchi (FLASH, CUT) -> 2\n# 1: Icarus (FLY) -> 1\n# 2: Xenon (None) -> 0\n# 3: Ravioli (SURF) -> 1\n# 4: GNEISS (STRENGTH) -> 1\n# 5: Calcifer (None) -> 0\nparty_field_moves = {0: 2, 1: 1, 2: 0, 3: 1, 4: 1, 5: 0}\n\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"]\n\n# Select p1\nfor _ in range(p1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Navigate to SWITCH\n# Offset is num_field_moves + 1 (for STATS)\nnum_downs = party_field_moves.get(p1, 0) + 1\nfor _ in range(num_downs):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Select p2\n# Cursor is on p1 in the party list\ndiff = p2 - p1\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\nelif diff < 0:\n    for _ in range(-diff):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\nbuttons.extend([\"B\", \"B\", \"B\"])\n\nprint(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# The input is provided in a variable called 'input_data'\np1 = int(input_data['p1_index'])\np2 = int(input_data['p2_index'])\ncurrent = int(input_data.get('current_index', 0))\n\n# Party field move counts (Crystal sub-menu offsets)\n# 0: Kimchi (FLASH, CUT) -> 2\n# 1: Icarus (FLY) -> 1\n# 2: Xenon (None) -> 0\n# 3: Ravioli (SURF) -> 1\n# 4: GNEISS (STRENGTH) -> 1\n# 5: Calcifer (None) -> 0\nparty_field_moves = {0: 2, 1: 1, 2: 0, 3: 1, 4: 1, 5: 0}\n\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"]\n\n# Navigate to p1 from current\ndiff_p1 = p1 - current\nif diff_p1 > 0:\n    for _ in range(diff_p1):\n        buttons.append(\"Down\")\nelif diff_p1 < 0:\n    for _ in range(-diff_p1):\n        buttons.append(\"Up\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Navigate to SWITCH\n# Offset is num_field_moves + 1 (for STATS)\nnum_downs = party_field_moves.get(p1, 0) + 1\nfor _ in range(num_downs):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Navigate to p2\n# After selecting p1, the cursor in the party list is on p1\ndiff_p2 = p2 - p1\nif diff_p2 > 0:\n    for _ in range(diff_p2):\n        buttons.append(\"Down\")\nelif diff_p2 < 0:\n    for _ in range(-diff_p2):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\nbuttons.extend([\"B\", \"B\", \"B\"])\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -215,6 +219,11 @@
         "commit_message": "Refined swap_pokemon_v2 to use a flat script structure (no main function) to ensure correct execution and JSON output. Verified field move offsets for the current party.",
         "timestamp": "2026-01-07T08:00:04.135Z",
         "action_counter": 31924
+      },
+      {
+        "commit_message": "Updated swap_pokemon_v2 to include a current_index parameter to handle persistent cursor positions in the party menu. Fixed sub-menu navigation logic for field moves.",
+        "timestamp": "2026-01-07T08:02:36.929Z",
+        "action_counter": 31927
       }
     ]
   },
