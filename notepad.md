@@ -1,13 +1,13 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At (22, 25). Checking dead end at (22, 24).
-- **Observation:** (22, 24) appears to be a dead end, but verifying.
-- **New Insight:** The path North along Column 19 is blocked by a ledge at (19, 16).
-- **Corrected Path:**
-  1. Confirm (22, 24) is empty.
-  2. Backtrack South to (19, 28).
-  3. Go North on Col 19 to Row 17.
-  4. Go West on Row 17 to explore the Western side (Column 7).
+- **Status:** In battle with Ursaring at (22, 24).
+- **Action:** Escape battle.
+- **Plan:**
+  1. Escape battle.
+  2. Confirm (22, 24) is empty (if not already confirmed).
+  3. Backtrack South to (19, 28).
+  4. Go North on Col 19 to Row 17.
+  5. Go West on Row 17 to explore the Western side (Column 7).
 - **Hypothesis:** The path to Red or the South Item Rooms lies to the West, accessible via the corridor on Row 17.
 
 # Key Findings
