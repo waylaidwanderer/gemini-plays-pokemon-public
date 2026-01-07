@@ -2,13 +2,15 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Outside (24, 29). Water's Edge.
+- Current Location: Silver Cave Outside (26, 29). Repel wore off.
+- Action: Clearing text box.
 - Plan:
-    1. Surf onto the water at (23, 29).
-    2. Surf North/West to land at (19, 25).
-    3. Walk East to x=23, then North to Pokemon Center (23, 19).
-    4. Explore for a way to the NW area (Surf/Waterfall?).
-    5. If no external path, enter Silver Cave.
+    1. Close Repel message.
+    2. Walk Left to (24, 29).
+    3. Surf onto the water at (23, 29).
+    4. Surf North/West to land at (19, 25).
+    5. Walk East to x=23, then North to Pokemon Center (23, 19).
+    6. Explore for a way to the NW area.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
