@@ -29,6 +29,9 @@
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
+# Training Log
+- Turn #32399: Encountered wild Phanpy (Lv20). Xenon leading. Night Shade PP: 7.
+
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
