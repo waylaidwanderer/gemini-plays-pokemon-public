@@ -1,17 +1,4 @@
 # Tile Mechanics
-- FLOOR: Traversable. Standard ground.
-- WALL: Impassable.
-- TALL/LONG GRASS: Traversable. Wild encounter trigger.
-- LEDGE_HOP_DOWN/LEFT/RIGHT: One-way jump in indicated direction.
-- CAVE/DOOR/STAIRS/LADDER: Map transitions.
-- WATER: Traversable with HM03 SURF.
-- CUT_TREE: Impassable; removable with HM01 CUT.
-- HEADBUTT_TREE: Impassable; interactive.
-- BOULDER: Impassable; pushable with HM04 STRENGTH.
-- COUNTER/PC: Stand adjacent/below to interact.
-- BUOY: Impassable; water boundary.
-
-# Tile Mechanics
 - FLOOR: Traversable. Standard collision-free tile.
 - WALL: Impassable. Provides collision from all directions.
 - TALL_GRASS: Traversable. Triggers wild Pokemon encounters.
@@ -21,6 +8,12 @@
 - LEDGE_HOP_RIGHT: One-way traversal. Can only be entered from the left to jump right. Impassable from other sides.
 - CAVE: Map transition warp. Stand on or walk into to trigger.
 - FLOOR_UP_WALL: Traversable. Functions as standard FLOOR collision.
+- WATER: Traversable with HM03 SURF.
+- CUT_TREE: Impassable; removable with HM01 CUT.
+- HEADBUTT_TREE: Impassable; interactive.
+- BOULDER: Impassable; pushable with HM04 STRENGTH.
+- COUNTER/PC: Stand adjacent/below to interact.
+- BUOY: Impassable; water boundary.
 
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
@@ -37,6 +30,11 @@
     - KIMCHI (Gloom): Support. Goal Lv40+. Use Sleep Powder for crowd control.
     - CALCIFER (Typhlosion): Heavy hitter backup.
     - GNEISS (Graveler): Tank backup.
+- Detailed Plan:
+    1. Grind Xenon and Kimchi to Lv40 on Route 45.
+    2. Ensure Xenon has full PP for Night Shade.
+    3. Use Hypnosis/Sleep Powder to manage threats.
+    4. Night Shade bypasses the high special defense of Clair's Dragon-types.
 - Preparation: Heal at Pokemon Center and restore PP before each major training session or gym attempt.
 
 # Pending Rematches / Gifts
