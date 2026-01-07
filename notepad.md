@@ -14,8 +14,9 @@
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
-- **FLOOR_UP_WALL:** South-facing Ledge. Usually blocks North movement, allows South (jump). Failed at (4, 4).
+- **FLOOR_UP_WALL:** South-facing Ledge. Failed at (4, 4) and (6, 4).
+  - **Testing:**
+    - Will test (5, 4), then (7, 4), etc.
+    - If all fail, must search for alternate path or mechanic.
   - **Path Verification:**
-    - Ledge jump expected at (6, 3) -> (6, 4) (Based on summary).
-    - Return path: Go East to Col 17, North to Row 0 (Crossing via (16, 0)), West to Col 13, South to Warp.
-    - Confirmed Row 0 is traversable FLOOR.
+    - Return path confirmed via Row 0.
