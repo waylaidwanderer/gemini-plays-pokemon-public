@@ -33,7 +33,6 @@
     2. Ensure Xenon has full PP for Night Shade.
     3. Use Hypnosis/Sleep Powder to manage threats.
     4. Night Shade bypasses the high special defense of Clair's Dragon-types.
-- Preparation: Heal at Pokemon Center and restore PP before each major training session or gym attempt.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential (Turn #32311).
@@ -41,10 +40,11 @@
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Lessons Learned
-- Fly Map: It's a 2D snapping grid. Cursor starts on current city.
-- Button Inputs: Never mix directional and action buttons in a single press_buttons sequence.
-- Battle (Route 45): Haunter is extremely vulnerable to Magnitude. Switch to GNEISS (Graveler) immediately if a Ground move is expected.
-- Haunter Utility: Confuse Ray (Lv31) is a strong addition for disruption.
+- Mom (New Bark Town): Does NOT heal the party in Crystal.
+- Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude.
+- Battle Strategy (Route 45): Switch to GNEISS (Graveler) if Magnitude/Ground moves are expected.
+- Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
+- Menu Navigation: Avoid mixing Pokedex/Pokemon menus. Check cursor position before batching A presses.
 
 # Tile Mechanics: Route 45
 - TALL_GRASS: Traversable. Triggers wild encounters. Verified at (12, 10), (13, 10).
@@ -54,6 +54,5 @@
 
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
-- Status: Xenon reached Lv31. Night Shade PP is 1/15. HP is 4/79.
-- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves. Strategy: Switch to Gneiss (Graveler) immediately if Magnitude is expected.
-- Decision: Flying to Blackthorn City for healing (Mom in New Bark Town does not heal).
+- Turn #32591: Xenon reached Lv31. Emergency heal at Ecruteak Pokemon Center after taking Magnitude 9 (4/79 HP, 1/15 Night Shade PP).
+- Status: Heading back to Route 45 after healing.
