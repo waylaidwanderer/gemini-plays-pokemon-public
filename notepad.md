@@ -47,3 +47,4 @@
 - Turn 33155: Encountered wild Geodude.
 - Turn 33159: Encountered wild Donphan.
 - Turn 33162: Defeated Donphan. Continuing grind.
+- Turn 33165: Defeated Donphan. Gneiss grew to Lv47. Continuing grind.
