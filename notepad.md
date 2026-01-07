@@ -28,3 +28,4 @@
     5. Explore the NW corner for hidden items or houses.
 - **Troubleshooting:** Standard exit (Up, Down) failed to trigger the warp. Retrying with `slow_press` and an extra Down input to ensure the warp event registers.
 - **Hypothesis:** The "step-on" event might need more time or a forceful "bump" into the southern wall to trigger properly.
+- **Reasoning:** Row 30 `FLOOR_UP_WALL` MUST be a ledge. If it were a wall, the area (4-15, 28-29) would be a softlock trap (accessible via Ledge Down at (8, 27) but with no exit). Therefore, previous failure at (6, 30) was likely an anomaly. Attempting jump at (13, 30).
