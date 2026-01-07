@@ -1,10 +1,11 @@
 # Current Strategy: Defeat Red
-- **Start Turn:** 26756 (Jan 7, 2026)
+- **Start Turn:** 26763 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
-- **Status:** Standing in front of Red (9, 10). Saving Game.
+- **Status:** In Battle with Red.
+- **Active Matchup:** Muscle (Lv 83) vs Pikachu (Lv 81).
 - **Goal:** Defeat Red.
 - **Battle Plan (Muscle Lv83):**
-  - **Pikachu:** Cross Chop.
+  - **Pikachu:** Cross Chop (High Crit/Power).
   - **Espeon:** Strength/Cross Chop. Watch out for Psychic.
   - **Snorlax:** Cross Chop.
   - **Venusaur:** Ice Punch.
