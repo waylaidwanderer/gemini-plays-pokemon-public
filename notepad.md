@@ -49,3 +49,4 @@
 - Turn 33162: Defeated Donphan. Continuing grind.
 - Turn 33165: Defeated Donphan. Gneiss grew to Lv47. Continuing grind.
 - Turn 33166: Encountered wild Gligar.
+- Turn 33169: Defeated Gligar. Continuing grind.
