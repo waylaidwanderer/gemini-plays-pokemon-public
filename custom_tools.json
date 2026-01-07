@@ -1,12 +1,15 @@
 {
   "find_path_v2": {
-    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and hazardous tiles (pits/ladders) as obstacles. Returns a JSON array of buttons.",
+    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and hazardous tiles as obstacles. Returns a JSON array of buttons. Re-defined to correctly handle HEADBUTT_TREE as an obstacle.",
     "input_schema": {
       "type": "object",
       "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
         "avoid_warps": {
           "default": true,
-          "description": "If true, treats CAVE and WARP tiles as obstacles unless they are the destination.",
           "type": "boolean"
         },
         "end_x": {
@@ -26,10 +29,11 @@
         "start_x",
         "start_y",
         "end_x",
-        "end_y"
+        "end_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path(map_xml, start, end, avoid_warps):\n    root = ET.fromstring(map_xml)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object') == 'true'\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            \n            passable = True\n            if t_type in [\"WALL\", \"BUOY\", \"CUT_TREE\", \"BOULDER\", \"COUNTER\", \"VOID\"]:\n                passable = False\n            if has_obj:\n                passable = False\n            if avoid_warps and is_warp and (x, y) != end:\n                passable = False\n            \n            grid[(x, y)] = passable\n\n    queue = deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        if (curr_x, curr_y) == end:\n            return path\n        \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                if grid.get((nx, ny), False) or (nx, ny) == end:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return None\n\ntry:\n    path = find_path(map_xml_string, (int(input_data['start_x']), int(input_data['start_y'])), (int(input_data['end_x']), int(input_data['end_y'])), input_data.get('avoid_warps', True))\n    if path:\n        print(json.dumps(path))\n    else:\n        print(json.dumps({\"error\": \"No path found\"}))\nexcept Exception as e:\n    print(json.dumps({\"error\": str(e)}))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    avoid_warps = input_data.get('avoid_warps', True)\n    \n    # Define traversable types based on notepad and observation\n    traversable_types = {'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'CAVE', 'DOOR', 'STAIRS', 'LADDER'}\n    warp_types = {'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'CAVE', 'DOOR', 'STAIRS', 'LADDER'}\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            \n            # Tile is an obstacle if its type is not in traversable_types\n            is_obstacle = t_type not in traversable_types\n            \n            # Warps are obstacles if avoid_warps is True, unless it's the destination\n            if avoid_warps and t_type in warp_types and (x != end_x or y != end_y):\n                is_obstacle = True\n            \n            # Map Objects (NPCs, items) are obstacles. \n            # We ignore the object at the starting position to allow movement.\n            if tile.find('Object') is not None:\n                if x != start_x or y != start_y:\n                    is_obstacle = True\n                \n            grid[(x, y)] = is_obstacle\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                # Tile is traversable if it's not marked as an obstacle\n                # OR if it's the destination (to allow walking into warps)\n                if not grid.get((nx, ny), True) or (nx == end_x and ny == end_y):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n                    \n    print(json.dumps({\"error\": \"No path found\"}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -110,6 +114,11 @@
         "commit_message": "Initial definition with correct schema and logic.",
         "timestamp": "2026-01-07T09:27:38.973Z",
         "action_counter": 32021
+      },
+      {
+        "commit_message": "Refined find_path_v2 to treat HEADBUTT_TREE as an obstacle and allow player to move from their current tile.",
+        "timestamp": "2026-01-07T12:10:42.415Z",
+        "action_counter": 32283
       }
     ]
   },
