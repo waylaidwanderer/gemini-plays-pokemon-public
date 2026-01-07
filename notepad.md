@@ -37,12 +37,10 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** At (14, 30). "Want to SURF?" prompt visible.
-- **Issue:** Previous Surf attempt failed or reset. Game State desync (shows 13, 30, screen shows prompt).
-- **Action:** Confirming Surf (YES), clearing text, and moving onto water.
-- **Goal:** Reach Waterfall Base (11, 30).
+- **Status:** Surfing at (12, 30). Positioning for Waterfall.
+- **Action:** Executing maneuver (Left -> Down -> Up) to arrive at (11, 30) facing UP.
+- **Goal:** Ascend Waterfall at (11, 29).
 - **Plan:**
-  1. Press A (Select YES).
-  2. Press B (Clear "Used SURF!").
-  3. Move Left to (13, 30).
-  4. Continue to (11, 30) and Ascend.
+  1. Move to (11, 30) facing Up.
+  2. Press A to use Waterfall.
+  3. Enter Warp (13, 21) -> Item Rooms (3_77).
