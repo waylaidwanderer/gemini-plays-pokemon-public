@@ -46,8 +46,8 @@
 - Kimchi (Gloom): Lv28 (17615 EXP).
 - Xenon (Haunter): Lv29 (20309 EXP).
 - Turn #31989: GNEISS holding AMULET COIN.
-- Turn #31990: Giving EXP.SHARE to KIMCHI (Slot 3) via manual sequence.
-- Task: Fly to Blackthorn. (Started Turn #31883)
+- Turn #31991: Corrected hallucination: EXP.SHARE is in the Items pocket, not held by Icarus.
+- Task: Give EXP.SHARE to KIMCHI (Slot 3) and Fly to Blackthorn. (Started Turn #31883)
 
 # Pack Item Order (Turn #31989)
 1. ICE HEAL
