@@ -40,10 +40,10 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Status (Turn #32092)
-- XENON (Haunter): Lv29. HP 24/74. Item: AMULET COIN.
+- XENON (Haunter): Lv29. HP 74/74. Item: AMULET COIN.
 - KIMCHI (Gloom): Lv28. HP 74/74. Item: EXP.SHARE.
 - Goal: Train XENON and KIMCHI to Lv40 on Route 45. (Started Turn #31883)
-- Strategy: Use Hyper Potion on Xenon to maintain grinding efficiency. (Turn #32092)
+- Strategy: Xenon healed to 100% HP. Pacing (4, 12) <-> (5, 12) for encounters. (Turn #32094)
 
 # Meta
 - Training Task Start: Turn #31883.
