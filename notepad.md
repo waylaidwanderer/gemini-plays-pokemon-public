@@ -39,3 +39,4 @@
 - Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button does not always move the cursor east; it cycles through the list of available Fly destinations. Verified sequence: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 - Menu Navigation: Use press_menu_buttons to avoid mixing inputs.
 - Counter Interaction: To talk to NPCs behind counters (Nurses/Clerks), face the counter tile and press A. You do not need to be on the counter tile.
+- Turn #32756: Encountered wild Gligar (Lv24). Xenon (Lv31) leading. Night Shade PP: 13/15. Strategy: Night Shade for 2-turn KO.
