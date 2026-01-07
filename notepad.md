@@ -11,7 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Defeat Schoolboy Danny (Electabuzz).
-- **Status:** In Battle. Muscle (Lv 85) vs Electabuzz.
-- **Action:** Keep Muscle in (Select NO). Use Strength.
-- **Reasoning:** Muscle Lv 85 > Electabuzz. Strength is physical (uses high Atk) and 100% accurate. Cross Chop is overkill/low PP.
-- **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
+- **Status:** In Battle. Muscle (Lv 85) executing Strength vs Electabuzz (Lv 31).
+- **Outcome:** Expecting OHKO.
+- **Next Step:** Exit battle screen.
+- **Navigation:** From (5, 12), move Down to jump ledge at (5, 13). Then South to Pallet Town.
