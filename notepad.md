@@ -40,8 +40,8 @@
 - Turn #31913. Resetting position in Cianwood PC to break menu loop.
 
 # Failed Hypotheses Log (Training Prep)
-- Total Failures: 13.
-- Last Failure (Turn #31912): press_menu_buttons failed to swap. Ravioli's sub-menu opened instead of Xenon's.
+- Total Failures: 14.
+- Last Failure (Turn #31916): swap_pokemon_v2 failed. The tool's strategy of mashing 'Up' to reset the cursor fails in Crystal due to menu wrapping. Manual sequence required.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
