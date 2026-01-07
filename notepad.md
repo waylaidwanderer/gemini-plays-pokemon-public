@@ -1,19 +1,19 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25956 (Jan 6, 2026)
+- **Timestamp:** Turn 25957 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Attack with Strength.
+- **Immediate Task:** Send out Gyarados (Last Resort).
 - **Battle Plan:**
-    1. **Charizard (Lv77):** Active. Muscle (161/280 HP).
-    2. **Current Turn:** Execute Strength (Physical, 80 BP).
-       - Charizard attacks first (Flamethrower, ~119 dmg). Muscle drops to ~42 HP.
-       - Muscle hits with Strength.
-    3. **Next Turn:**
-       - If Muscle survives: Assess if another attack kills or if healing is needed.
-       - If Muscle faints: Send Gyarados -> Max Revive Muscle -> Sacrifice Gyarados -> Muscle returns.
-    4. **Snorlax:** Muscle's Cross Chop.
-    5. **Venusaur:** Ice Punch or Strength.
-    6. **Blastoise:** Cross Chop.
-- **Resources:** Muscle (161/280). 1 Hyper Potion left (approx). 1 Max Revive. Gyarados alive.
+    1. **Status:** Muscle Fainted (Crit Flamethrower).
+    2. **Current Action:** Clear "Critical hit!" text -> "Muscle fainted!" -> Send Gyarados.
+    3. **Next Turn (Gyarados):** Use **MAX REVIVE** on Muscle.
+       - Gyarados will faint to Charizard.
+    4. **Turn X (Muscle):** Muscle returns with Full HP (280).
+       - Charizard attacks (~100 dmg). Muscle survives.
+       - Muscle uses Strength (or Rock Slide if I had it... wait, check moveset).
+       - Moveset: Strength, ThunderPunch, Ice Punch, Cross Chop.
+       - Stick with Strength (Physical) or try ThunderPunch (2x Super Effective but Special).
+    5. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
+- **Resources:** Muscle (Fainted). Gyarados (117/117). 1 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
