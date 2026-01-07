@@ -1,5 +1,5 @@
 # Key Locations & Mechanics
-- New Bark Town (Mom's House 24_6): Talking to Mom at (2, 2) heals the party. She then offers to save money. Verified Turn 32799.
+- New Bark Town (Mom's House 24_6): Talking to Mom at (2, 2) allows changing Daylight Saving Time and managing money. She does NOT heal the party. Verified Turn 32802.
 - Blackthorn City (Pokemon Center 25_3): standard healing. Warp at (21, 30).
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
