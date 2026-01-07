@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Retrieve Item at (4, 20).
+- **Immediate Task:** Explore West Water and Land in Room 2.
 - **Sequence:**
-    1. Surf to (5, 22).
-    2. Land North onto (5, 21).
-    3. Walk to (4, 20) and pick up the item.
-    4. Then resume exploration of the West side (Row 24).
+    1. Surf South from (5, 21) to (5, 22).
+    2. Explore West towards (0-5, 24).
+    3. Look for cave entrances or items.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
