@@ -1,11 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26230 (Jan 7, 2026) [Silver Cave PC]
 - **Primary Goal:** Defeat Red.
-- **Status:** Outside Silver Cave. Heading to entrance.
+- **Status:** Inside Silver Cave Room 1. Heading to Room 2.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Teach Flash to Belladonna (Oddish).
-- **Next Task:** Enter Silver Cave (18, 11).
+- **Immediate Goal:** Navigate to Room 2 warp (15, 1).
+- **Next Task:** Reach Red in Room 3.
 
 ## Vs Red Strategy
 - (Placeholder for insights)
