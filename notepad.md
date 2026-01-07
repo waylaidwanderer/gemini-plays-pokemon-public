@@ -62,3 +62,4 @@
 - Catch Attempt 1 (Gligar Lv 24): Great Ball failed after 3 shakes. Gligar HP ~50%, Confused. (Turn 33490).
 - Catch Attempt 2 (Gligar Lv 24): Great Ball failed. Gligar HP ~50%, Confused. (Turn 33492).
 - Catch Attempt 3 (Gligar Lv 24): Great Ball failed (Aargh! Almost had it!). Gligar HP ~50%, Confused. (Turn 33495).
+- Catch: Gligar (Lv 24, Male) caught on Turn 33500. Sent to PC Box 1. Nickname: Telson.
