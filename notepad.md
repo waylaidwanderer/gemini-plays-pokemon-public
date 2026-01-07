@@ -2,14 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Outside (35, 33). Bottom Area.
-- Observation: Successfully navigated from the SE corner.
-- Goal: Reach Pokemon Center at (23, 19).
-- Obstacle: Row 30 appears to be a line of ledges/walls. I need to find a gap or a path North.
+- Current Location: Silver Cave Outside (24, 29). Water's Edge.
 - Plan:
-    1. Travel West to (23, 33).
-    2. Check if I can walk North at x=23 or adjacent columns.
-    3. If blocked, check further West or East for a gap in the Row 30 barrier.
+    1. Surf onto the water at (23, 29).
+    2. Surf North/West to land at (19, 25).
+    3. Walk East to x=23, then North to Pokemon Center (23, 19).
+    4. Explore for a way to the NW area (Surf/Waterfall?).
+    5. If no external path, enter Silver Cave.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
