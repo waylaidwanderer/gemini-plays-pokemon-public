@@ -42,12 +42,14 @@
 - Turn #31927: Party swap successful! Xenon is now in the lead.
 - Turn #31936: give_item_v3_ultimate failed. It opened the Trainer Card because the Start menu wraps and the reset was off.
 - Turn #31937: Giving Exp. Share manually via press_menu_buttons.
-- Turn #31946: Found Exp. Share at the bottom of the Items pocket. Giving it to Kimchi (Slot 3) now.
-- Lesson: Crystal's Start and Party menus WRAP. Up-resetting is unreliable without knowing the exact menu size.
+- Turn #31946: Found Exp. Share at the bottom of the Items pocket.
+- Turn #31947: Accidentally gave Exp. Share to Xenon instead of Kimchi.
+- Plan: Take Exp. Share from Xenon, then give it to Kimchi.
+- Lesson: The party menu also wraps. Down from the bottom goes to the top. I need to be more careful with menu counts.
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (Manual attempt Turn #31937).
+- Step 2: Give Kimchi Exp. Share (Correcting Turn #31947 mistake).
 - Step 3: Fly to Blackthorn City.
 
 # Start Menu (8 options) - WRAPS
