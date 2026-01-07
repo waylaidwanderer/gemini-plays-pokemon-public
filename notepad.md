@@ -2,13 +2,16 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (9, 32). Main Path.
-- Action: Skipped Escape Rope (Bag Full). Heading North.
+- Current Location: Silver Cave Room 1 (5, 25). In Battle.
+- Objective: Collect Item Ball at (5, 30).
 - Plan:
-    1. Navigate North along the main path (x=9).
-    2. Check the Eastern area (x>10) for paths.
-    3. Retrieve Item Ball at (7, 18).
-    4. Search for the hidden exit to Route 28 (likely in the NW area).
+    1. Run from Onix.
+    2. Continue West to (3, 25).
+    3. Go South to (3, 26).
+    4. Jump Ledge at (3, 27) to land at (3, 28).
+    5. Walk South to (3, 30), then East to (5, 30).
+    6. Open Pack: Toss BERRY x2, Use MAX REPEL.
+    7. Pick up Escape Rope (Item Ball).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
