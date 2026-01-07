@@ -1,18 +1,18 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25953 (Jan 6, 2026)
+- **Timestamp:** Turn 25954 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Use Hyper Potion on Muscle.
+- **Immediate Task:** Clear Healing Text -> Tank Charizard's Hit.
 - **Battle Plan:**
-    1. **Charizard (Lv77):** Active. Muscle (133/280 HP).
-    2. **Turn 1 (Current):** Heal. 133 HP is risky range (Charizard deals ~118).
-       - Use Hyper Potion -> 280/280 (Cap is 280, heals 200).
-       - Charizard attacks -> ~162 HP.
-    3. **Turn 2:** Attack with Strength.
-       - Charizard attacks -> ~44 HP.
-    4. **Turn 3:** Heal again or Attack (risk).
-       - Likely Heal cycle to deplete Charizard PP or fish for misses? No, just trade HP for damage.
-    5. **Snorlax/Venusaur/Blastoise:** As planned.
-- **Resources:** Muscle (133/280). 2 Hyper Potions. 1 Max Revive. Gyarados alive.
+    1. **Charizard (Lv77):** Active. Muscle (280/280 HP).
+    2. **Current Turn:** Healing complete.
+       - Charizard attacks (Flamethrower/Wing Attack). Muscle drops to ~160 HP.
+    3. **Next Turn:** Use Strength.
+       - Strength (Physical) > ThunderPunch (Special).
+       - Aim for 2HKO.
+    4. **Snorlax:** Muscle's Cross Chop.
+    5. **Venusaur:** Ice Punch or Strength.
+    6. **Blastoise:** Cross Chop.
+- **Resources:** Muscle (280/280). 1 Hyper Potion left (approx). 1 Max Revive. Gyarados alive.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
