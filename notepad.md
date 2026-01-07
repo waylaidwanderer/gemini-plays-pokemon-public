@@ -56,3 +56,4 @@
 - Turn 33386: Sleep Powder success.
 - Turn 33387: Opened Pack.
 - Turn 33388: Throwing Great Ball. status: SLP. Great Balls: 32.
+- Turn 33389: Gotcha! DONPHAN was caught! Strategy: Great Ball success. Data added to Pokedex. Nicknaming to "Armor". Sent to Box 1.
