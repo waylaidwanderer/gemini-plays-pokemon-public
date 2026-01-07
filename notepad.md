@@ -20,7 +20,7 @@
 
 # Item Tracking
 - AMULET COIN: In Bag (Turn 33085).
-- EXP.SHARE: In Bag (Turn 33091).
+- EXP.SHARE: Held by XENON (Turn 33111).
 - PNK APRICORN: In Bag (Turn 33081).
 - HARD STONE: Held by GNEISS.
 
