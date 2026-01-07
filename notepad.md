@@ -15,11 +15,12 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** Blocked at x=4, 5, 6, 7, 9, 10, 11, 12, 14, 15.
-  - **Hypothesis:** The jumpable spot must be x=8.
-  - **Plan:** Test x=8.
-  - **Goal:** Reach lower area to access western gap at x=2.
-  - **Contingency:** If x=8 fails, this entire upper balcony is a dead end. Return to Room 2 and try Warp (11, 5).
+  - **Status:** Blocked at x=4..15.
+  - **Conclusion:** Upper area is a dead end/entrance only.
+  - **Next Step:** Return to Room 2 via Warp (13, 3).
+  - **New Goal:** Reach Warp (11, 5) in Room 2 (Silver Cave).
+- **Path Verification:**
+  - Walk East to (13, 3) to warp.
 - **Path Verification:**
   - x=3 is a Wall (Row 1-3). Direct access to West is impossible without jumping.
   - x=16 is a Wall (Row 1-3).
