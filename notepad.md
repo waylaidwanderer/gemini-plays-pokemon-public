@@ -78,3 +78,20 @@
 - Strategy: Use specialized tools (`swap_pokemon_v2`, `use_item_on_pokemon_v2`) from a clean overworld state whenever possible.
 - Crystal's Start and Party menus WRAP. Up-resetting is unreliable without knowing the exact menu size.
 - Tool fly_to_city_v4 and give_item_v3_ultimate are currently brittle due to wrapping. Redefinition required.
+
+# Pack Item Order (Observed)
+1. ICE HEAL
+2. GRN APRICORN
+3. PNK APRICORN
+4. YLW APRICORN
+5. HARD STONE
+6. FULL HEAL
+7. HYPER POTION
+8. REVIVE
+9. PRZCUREBERRY
+10. BERRY
+11. MAX REPEL
+12. EXP.SHARE
+13. AMULET COIN
+14. ICE BERRY
+15. CANCEL
