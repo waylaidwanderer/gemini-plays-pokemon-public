@@ -1,12 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (12, 3). Row 3 ledges (4-12) confirmed BLOCKED.
-- **Conclusion:** Northern Item Rooms section is likely a dead end or I am missing the mechanic.
-- **Action:** Exiting to Room 2.
-- **Plan:**
-  1. Warp to Room 2 (13, 21).
-  2. Explore Room 2 (Waterfall Top area) for a different path to the Southern Item Rooms.
-  3. Check specifically for surfable water leading West or East from the waterfall top.
+- **Status:** At (13, 3) on Warp Carpet.
+- **Action:** Pressing DOWN to trigger warp to Room 2.
+- **Observation:** Stepping ONTO the warp didn't trigger it, so must step OFF/INTO the wall below.
+- **Next:** In Room 2, I need to find the entrance to the *Southern* Item Rooms.
+- **Hypothesis:** There is surfable water or a path I missed in Room 2 leading to the South.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
