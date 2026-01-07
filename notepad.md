@@ -1,18 +1,14 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25931 (Jan 6, 2026)
+- **Timestamp:** Turn 25933 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Use Strength vs Espeon.
+- **Immediate Task:** Double Sacrifice to Heal Muscle.
 - **Battle Plan:**
-    1. **Pikachu:** Defeated.
-    2. **Espeon (Lv73):** Muscle (Full HP) vs Espeon.
-       - Espeon is faster. Will likely use Psychic (Super Effective).
-       - Muscle must survive. Use Strength (Physical, Neutral).
-       - If Muscle faints: Send Garnet -> Max Revive Muscle -> Sacrifice Garnet -> Muscle returns.
-    3. **Snorlax (Lv75):** Muscle's Cross Chop.
-    4. **Venusaur (Lv77):** Muscle's Ice Punch.
-    5. **Charizard (Lv77):** Muscle's ThunderPunch.
-    6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
-- **Resources:** Muscle (280/280). 4 Fodder remaining. 1 Max Revive.
+    1. **Step 1 (Current):** Switch to Belladonna (Sacrifice A).
+    2. **Step 2:** Belladonna faints. Send out Garnet (Sacrifice B).
+    3. **Step 3:** While Garnet is out, use Hyper Potion on Muscle (heals to ~260/280).
+    4. **Step 4:** Garnet faints. Send out Muscle.
+    5. **Step 5:** Muscle vs Espeon. Use Strength.
+- **Resources:** Muscle (60/280). 4 Hyper Potions. Fodder: Belladonna, Garnet, Gyarados.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
