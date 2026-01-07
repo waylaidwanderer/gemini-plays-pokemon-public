@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore West Corridor along Row 17/18.
+- **Immediate Task:** Explore North-West Area (Rows 14-18, Cols 0-10).
 - **Sequence:**
-    1. Navigate to (15, 18) to reach the edge of the unseen area.
-    2. Continue West through the unseen section (Columns 11-14).
-    3. Look for a path leading further West or North (possibly to Row 16).
-    4. Goal is to find the entrance to the Right Side of the Item Room.
+    1. Navigate West to (5, 18) to uncover more of the map.
+    2. Check the northern walls for a cave entrance (likely leading to the Item Room).
+    3. If no cave found, explore South towards the water at Row 24.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
