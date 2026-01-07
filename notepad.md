@@ -1,13 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing at (4, 23) [West Corner].
-- **Observation:** (4, 23) is a dead end (blocked by South Ledges). No items found.
-- **Action:** Navigate to the top of the Waterfalls (Row 27).
+- **Status:** Descended waterfall to Room 2 Lower (7, 30).
+- **Observation:** The waterfall path loops back to the Room 1 entrance area (17, 31).
+- **Hypothesis:** The path to Red is NOT via the waterfall descent. It must be via a different path, possibly through the Item Rooms (South Section).
 - **Plan:**
-  1. Surf East to (7, 23).
-  2. Surf South to (7, 27).
-  3. Descend Waterfall to access the lower area.
-- **Hypothesis:** The Southern Item Rooms are accessible via the area below the waterfalls.
+  1. Land at (14, 30) to explore the southern area.
+  2. Look for any other cave entrances or hidden items in this lower section.
+  3. If nothing found, reconsider the Item Rooms ledges or look for a hidden path in Room 1.
 
 # Key Findings
 - **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
