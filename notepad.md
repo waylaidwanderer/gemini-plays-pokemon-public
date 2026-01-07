@@ -28,3 +28,5 @@
 - Unseen Tiles: (19,34), (19,35) are isolated in bottom-right. Ignoring for now.
 - Key Constraints: Row 8 is blocked by ledges except at Cols 0, 2-5, 7-9, 16, 19. Col 8 is the key vertical path.
 - Map Hygiene: Removed old failure logs. Zig-Zag verified.
+- Max Repel active (Turn 26289).
+- Path confirmed clear via map analysis. Expecting smooth sailing.
