@@ -1,25 +1,19 @@
 # Current Strategy: Ascend Western Waterfall
-- **Start Turn:** 26696 (Jan 7, 2026)
+- **Start Turn:** 26699 (Jan 7, 2026)
 - **Location:** Silver Cave Room 2 (3_75)
-- **Status:** In Party Menu. Correcting selection.
-- **Position:** (11, 30).
-- **Goal:** Ascend the waterfall at (11, 29).
+- **Status:** Closing menu, moving to test Left Waterfall.
+- **Position:** Moving from (11, 30) to (7, 30).
+- **Correction:** x=11 rejected "Waterfall" from the menu. It is NOT the climbable tile.
+- **Hypothesis:** I must successfully interact with the Left Waterfall (x=7) *without* moving into it (which triggers the current).
 - **Plan:**
-  1. Select Gyarados (Slot 3).
-  2. Use WATERFALL.
-  3. Ascend x=11 (Right side) to the top (Row 27).
-  4. Surf LEFT immediately to reach the western channel.
-  5. Follow the western channel North to Warp (11, 5).
+  1. Move to (7, 30).
+  2. Face UP.
+  3. Press A (or use Menu) *without* pressing UP.
+  4. Ascend.
 
 # Key Findings
-- **Item Rooms (3_77):**
-  - **North Area:** Exit loop.
-  - **South Area:** Destination. Accessed via Room 2 Warp (11, 5).
-- **Silver Cave Room 2 (3_75):**
-  - **Waterfall:** Left side (x=6-10) is a downward current. Right side (x=11) is climbable.
-  - **Warp (13, 21):** Exit loop return point.
-
-# Tile Mechanics
-- **WATERFALL:** Requires HM Waterfall. Face UP and press A.
-- **Currents:** Some waterfall tiles push the player back (tested x=6 to x=10).
-- **Climbable:** Tiles that act as Walls until interacted with (x=11).
+- **Waterfall Mechanics:**
+  - Moving UP into a waterfall tile pushes you back (Current).
+  - To climb, you must interact (A) from the tile *below*, facing UP.
+  - x=11 is NOT climbable.
+  - Likely climbable spot: x=7 (the main channel).
