@@ -1,11 +1,15 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25832 (Jan 6, 2026)
+- **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Ascend Waterfall at (11, 29).
+- **Immediate Task:** Surf and explore the West side of Room 2 (Upper Area).
 - **Sequence:**
-    1. Navigate to (11, 30).
-    2. Face Up and use Waterfall.
-    3. Explore the Upper Area.
+    1. Walk to (11, 25) (Edge of water).
+    2. Initiate Surf (Down, A, A).
+    3. Explore the water to the West (Columns 0-10).
+    4. Look for land or cave entrances on the West side.
+
+# Recent Discoveries
+- Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
@@ -14,9 +18,3 @@
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
 - **Tile Mechanics Update:** `FLOOR_UP_WALL` at Row 4 blocked South movement. Treating as impassable for now.
 - **Map Structure:** Upper Ledge is segmented. Center (13) connects to Left (6), but Right (17) is blocked by Wall at Col 16.
-- **Immediate Task:** Surf and explore the West side of Room 2 (Upper Area).
-- **Sequence:**
-    1. Walk to (11, 25) (Edge of water).
-    2. Surf onto (11, 26).
-    3. Explore the water to the West (Columns 0-10).
-    4. Look for land or cave entrances on the West side.
