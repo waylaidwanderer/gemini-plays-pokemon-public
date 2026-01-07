@@ -1,14 +1,14 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25713 (Jan 6, 2026)
+- **Timestamp:** Turn 25731 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Retrieve Item Ball at (7, 18).
+- **Immediate Task:** Nickname Graveler "Tectonic", then retrieve Item Ball at (5, 30).
 - **Sequence:**
-    1. Exit Menu.
-    2. Navigate West to x=4. North to y=16. East to x=8. South to (8, 18).
-    3. Face Left. Pick up Item Ball.
-    4. Return to x=4, y=21. East to x=12. South to y=26. West to x=3.
-    5. Jump Ledge at (3, 27). Get Item Ball at (5, 30).
-    6. Exit South.
+    1. Close Pokedex Entry.
+    2. Select "YES" to nickname Graveler.
+    3. Enter "Tectonic".
+    4. Navigate from (14, 19) to (12, 21), then South/West to (3, 26).
+    5. Jump Ledge to (3, 27). Retrieve Item Ball at (5, 30).
+    6. Exit South to Silver Cave Outside.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
