@@ -28,3 +28,6 @@
 - Pathfinding confirmed no route to North Hallway (Row 0).
 - Exit Strategy: Brute-force testing of South Ledges (Row 4) to find a jumpable spot.
 - Test 1: Move to (6, 3) and try Down into (6, 4).
+- Ledge Test: (6, 4) blocked.
+- Action: Moving to (5, 3) to test ledge at (5, 4).
+- Hypothesis: One of these ledges MUST be jumpable. Testing west to east.
