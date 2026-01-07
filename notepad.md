@@ -6,13 +6,11 @@
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: HEAL LOOP.**
-    - **Speed:** Charizard is faster (Flamethrower hit first).
-    - **Damage:** Flamethrower deals ~116 dmg. Crit ~232.
-    - **Muscle Status:** 121 HP. In range of KO from high roll or crit.
-    - **Action:** HEAL with Full Restore.
-    - **Cycle:** Heal (Safe at 167+) -> Attack (Thunderpunch) -> Take Hit (to ~51) -> Heal -> Repeat.
-    - **Backup:** If Muscle faints, sacrifice fodder to Revive Muscle.
-  - **Win Condition:** Charizard faints from Thunderpunch attrition.
+    - **Status:** Muscle 121 HP (Danger Zone). Charizard faster.
+    - **Immediate Action:** Open PACK to use Full Restore.
+    - **Math:** Flamethrower did 116. Max roll could be ~125-136. Must heal.
+    - **Sequence:** Heal -> Tank Hit -> Heal (if crit) OR Attack (if safe).
+  - **Win Condition:** Charizard faints.
 - **Items:** 5 Full Restores, 19 Revives.
 
 # Key Findings
