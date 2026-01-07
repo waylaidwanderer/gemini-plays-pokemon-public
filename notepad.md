@@ -23,14 +23,14 @@
 - Support: Kimchi (Lv40+). Sleep Powder for CC.
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 76/77. Night Shade: 11/15.
+- XENON (Haunter): Lv30. HP 76/77. Night Shade: 10/15.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32321).
+- Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
