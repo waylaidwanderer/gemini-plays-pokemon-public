@@ -3,6 +3,8 @@
 - LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13), (4, 41), (2, 55), (2, 63), (4, 77).
 - WALL: Impassable. Verified at (13, 12).
 - FLOOR: Traversable. Verified at (12, 6).
+- CAVE: Map transition warp. Verified at (2, 5).
+- SIGN: Background object. Verified at (10, 4).
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Objective: Defeat Clair in Blackthorn Gym.
