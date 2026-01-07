@@ -38,3 +38,4 @@
 - Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call.
 - Fly Map: In Crystal, the Up button cycles through visited towns.
 - Battle Mechanics: HP bar animations can occur while move text is displayed, which may look like multi-hit moves. Always verify actual move properties.
+- Input Restrictions: Do NOT mix directional (Up, Down, Left, Right) and action (A, B, Start, Select) buttons in a single manual `press_buttons` call. Use specialized tools like `press_menu_buttons` or `find_path_v2` instead. Verified Turn 32936.
