@@ -1,14 +1,17 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25962 (Jan 6, 2026)
+- **Timestamp:** Turn 25964 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Confirm Max Revive Use on Muscle.
+- **Immediate Task:** Use Max Revive on Muscle.
 - **Battle Plan:**
-    1. **Current Turn:** Select Max Revive -> USE.
-    2. **Next Turn:** Select Muscle (Slot 1) in Party Menu.
-    3. **Opponent Turn:** Charizard attacks Gyarados (Likely KO).
-    4. **Comeback:** Send Muscle (Full HP).
-    5. **Muscle Returns:** Strength vs Charizard.
-- **Resources:** Muscle (Fainted). Gyarados (117/117). 1 Max Revive. 2 Hyper Potions.
+    1. **Action:** Press A on Muscle (Slot 1).
+    2. **Outcome:** Muscle revived to 280/280.
+    3. **Opponent Turn:** Charizard attacks Gyarados.
+       - If Wing Attack: Gyarados faints (likely). Muscle switches in.
+       - If Flamethrower: Gyarados might survive (Resist). Use Surf next? Or switch?
+         - If Gyarados survives, Surf might chip ~30 dmg. Useful.
+    4. **Next:** Muscle vs Charizard.
+       - Use Strength.
+- **Resources:** Muscle (Fainted -> Full). Gyarados (117/117). 0 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
