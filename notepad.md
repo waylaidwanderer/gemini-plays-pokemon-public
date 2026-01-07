@@ -3,11 +3,11 @@
 - WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
 - TALL_GRASS: Can be traversed. Triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way south.
-- LEDGE_HOP_LEFT: One-way west.
-- LEDGE_HOP_RIGHT: One-way east.
 - FLOOR_UP_WALL: Impassable ledge bottom.
 
 # Hypothesized Tile Mechanics
+- LEDGE_HOP_LEFT: One-way west.
+- LEDGE_HOP_RIGHT: One-way east.
 - WATER: Requires SURF to cross.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
@@ -20,9 +20,10 @@
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
 - Kimchi (Lv24): 10240 EXP. Target Lv30: ~21760 EXP (~11520 remaining). Learned Acid.
-- Gneiss (Lv45): 126/126 HP. Earthquake PP: 10/10.
+- Gneiss (Lv45): 108/126 HP. Earthquake PP: 10/10.
 - Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
 - Grinding Start: Turn #31060.
+- Encounter Log: Donphan (Lv25), Graveler (Lv23) observed at (4,12)-(5,12).
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
