@@ -1,12 +1,13 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** In battle with Golduck at (7, 23) [Room 2].
-- **Action:** Escape battle, then resume Surfing West to (4, 23).
+- **Status:** Surfing at (4, 23) [West Corner].
+- **Observation:** (4, 23) is a dead end (blocked by South Ledges). No items found.
+- **Action:** Navigate to the top of the Waterfalls (Row 27).
 - **Plan:**
-  1. Escape battle.
-  2. Surf West to (4, 23).
-  3. Look for landfall in the Southwest corner.
-- **Hypothesis:** The Southwest corner contains a landfall leading to the Southern Item Rooms.
+  1. Surf East to (7, 23).
+  2. Surf South to (7, 27).
+  3. Descend Waterfall to access the lower area.
+- **Hypothesis:** The Southern Item Rooms are accessible via the area below the waterfalls.
 
 # Key Findings
 - **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
