@@ -58,3 +58,4 @@
 
 ## Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45 after multiple Great Ball attempts.
+- **Gen 2 Haunter Weakness:** In this generation, Haunter does NOT have Levitate and is vulnerable to Ground-type moves like Magnitude and Earthquake. (Turn 33588).
