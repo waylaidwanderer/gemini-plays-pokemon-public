@@ -11,6 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Defeated Schoolboy Danny. Clearing phone call.
-- **Path:** Jump ledge at (5, 13) -> Continue South through ledges and grass to (9, 35).
-- **Next Stop:** Pallet Town (Professor Oak).
+- **Status:** Phone call with Wade ended. Clearing interface.
+- **Action:** Press B to close Pokegear/Text, then Down to jump ledge at (5, 13).
+- **Path:** South through Route 1 to (9, 35).
+- **Next Stop:** Pallet Town.
