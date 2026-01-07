@@ -1,18 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25946 (Jan 6, 2026)
+- **Timestamp:** Turn 25948 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Open Pack to Heal Muscle.
+- **Immediate Task:** Back out of Fight Menu -> Heal Muscle.
 - **Battle Plan:**
-    1. **Charizard (Lv77):** Incoming.
-    2. **Turn 1 (Current):** Open Pack -> Use Hyper Potion on Muscle.
-       - Muscle (51 HP) heals to 251.
-       - Charizard attacks (Flamethrower/Wing Attack). Damage estimated ~80. Muscle ~170 HP.
-    3. **Turn 2:** Use Strength (Physical).
-       - Insight: In Gen 2, ThunderPunch is Special. Machoke has low SpAtk.
-       - Strength (80 BP, Physical) > ThunderPunch (75 BP * 2, Special) due to stats.
-    4. **Snorlax:** Muscle's Cross Chop.
-    5. **Venusaur:** Ice Punch (Special, but 2x effective) or Strength/Cross Chop.
-    6. **Blastoise:** Cross Chop (Physical, Neutral) or Strength.
+    1. **Charizard (Lv77):** Active. Muscle (51 HP).
+    2. **Correction:** Currently in Move Menu. Must back out (Press B) to access Pack.
+    3. **Action:** Press B.
+    4. **Next Turn:** Use Hyper Potion (Heal to 251 HP).
+    5. **Subsequent Turn:** Tank hit, then ThunderPunch (Super Effective).
 - **Resources:** Muscle (51/280). 3 Hyper Potions. 1 Max Revive. Gyarados alive.
 
 # Recent Discoveries
