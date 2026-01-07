@@ -3,11 +3,12 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Location:** Route 28 (14, 15). West Bank.
-- **Action:** Testing ledges along Row 16.
+- **Action:** Testing ledge at (14, 16).
 - **Plan:**
-    1. Test ledge at (14, 16) by pressing Down.
-    2. If that fails, go to the Entrance (0, 13) and test the ledge at (0, 14).
-    3. Hypothesis: One of these ledges allows access to the bottom strip (Row 17), which leads to the East Corridor.
+    1. Try to jump ledge at (14, 16).
+    2. If blocked (likely), move to the Map Entrance at (0, 13).
+    3. Test the ledge at (0, 14).
+    4. Hypothesis: The "Entrance Ledge" at (0, 14) is the only way to access the bottom path (Row 17).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
