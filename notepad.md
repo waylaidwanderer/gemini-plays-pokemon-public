@@ -38,7 +38,8 @@
 - Total from Violet: Right x3, Up x1.
 
 # Current Plan: Route 45 Training
-1. Exit Violet Pokemon Center.
-2. Fly to Blackthorn City (Right x3, Up x1 on Fly map).
+1. Exit Violet Pokemon Center. (Done)
+2. Fly to Blackthorn City (Up x2 from NBT on Fly map).
 3. Exit south to Route 45.
 4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
+- Started training at Turn #32266.
