@@ -51,8 +51,8 @@
 - Turn #31951: Swapping Xenon to lead. Icarus is currently leading.
 
 # Strategy: Cianwood Consolidation
-- Step 1: Swap Xenon to lead (In Progress).
-- Step 2: Give Kimchi Exp. Share.
+- Step 1: Swap Xenon to lead (Complete).
+- Step 2: Give Kimchi Exp. Share (In Progress).
 - Step 3: Fly to Blackthorn City.
 
 # Start Menu (8 options) - WRAPS
