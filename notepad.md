@@ -43,3 +43,10 @@
 - Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses. Kingdra only weak to Dragon.
 - Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. Check for TM location (Inventory/PC/Learned).
 - Survival: Level supports to Lv40+ to survive hits from Clair's Lv37-40 team. Verified strategy Turn 32974.
+- LONG_GRASS: Walkable. Similar to TALL_GRASS, can trigger wild encounters.
+- FLOOR_UP_WALL: Acts as a wall when moving from below. Verified Turn 32958.
+
+# Strategy: Rising Badge (Gym Leader Clair) - Refinement
+- Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses. Kingdra only weak to Dragon.
+- Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. Check for TM location (Inventory/PC/Learned).
+- Survival: Level supports to Lv40+ to survive hits from Clair's Lv37-40 team. Verified strategy Turn 32974.
