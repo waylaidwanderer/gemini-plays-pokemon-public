@@ -40,13 +40,14 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Item Audit
-- Xenon: Has item icon.
+- Xenon: Has item icon. Checking...
 - Icarus: Has item icon.
 - Kimchi: Exp. Share.
-- Ravioli: Empty (Bitter Berry removed).
-- Gneiss: Empty (Amulet Coin removed).
-- Calcifer: Has item icon. Checking...
+- Ravioli: Empty.
+- Gneiss: Empty.
+- Calcifer: Has item icon.
 - Audit Note: Found AMULET COIN on Gneiss. HARD STONE is in Bag.
+- Current Step: Checking Xenon (Slot 1).
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
