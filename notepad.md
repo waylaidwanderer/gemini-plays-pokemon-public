@@ -6,12 +6,11 @@
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: SAFETY FIRST.**
-    - **Status:** Muscle 77 HP (Critical). Snorlax hits hard.
+    - **Status:** Muscle 77 HP. Snorlax Incoming.
     - **Inventory:** 2 Full Restores left.
-    - **Action 1:** Decline Switch (Current Turn).
-    - **Action 2:** HEAL with Full Restore (Turn 1 of battle).
-    - **Action 3:** CROSS CHOP (Turn 2).
-    - **Math:** Heal to 283. Tank Snorlax hit. Cross Chop for massive damage.
+    - **Current Action:** Opening PACK.
+    - **Next Turn:** Use Full Restore.
+    - **Then:** CROSS CHOP.
   - **Win Condition:** Snorlax faints.
 - **Items:** 2 Full Restores, 19 Revives.
 
