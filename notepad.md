@@ -18,15 +18,16 @@
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
 
 # Progress Tracker
-- Last Update: Turn #31595.
+- Last Update: Turn #31597.
 - Grinding Start: Turn #31060.
 - Target Lv30: 21760 EXP (~5691 left for Kimchi, ~2574 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
 # Battle Strategies & Observations
-- Night Shade: Deals fixed damage equal to user level. Essential for grinding and bypassing high Defense.
+- Night Shade: Deals fixed damage equal to user level. Essential for grinding and bypassing high Defense. Note: Fixed damage moves are never super-effective.
 - Sleep Powder: "It didn't affect" against certain targets investigated. Not gender-dependent. Likely due to existing status or move-specific failure.
 - Ghost Typing: Xenon is immune to Fighting and Normal moves (e.g., Quick Attack, Selfdestruct). Perfect for switching into these attacks.
+- Ground Sensitivity: Haunter (Poison/Ghost) is weak to Ground-type moves like Magnitude.
 - Selfdestruct: Major threat from wild Graveler. Gneiss resists; Xenon is immune.
 - Hypnosis: Effective status option for Xenon to facilitate safe switches.
 
