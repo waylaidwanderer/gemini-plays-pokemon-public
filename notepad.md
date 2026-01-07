@@ -55,4 +55,5 @@
 - Turn #32530: Started training Xenon and Kimchi on Route 45.
 - Turn #32591: Emergency heal at Ecruteak Pokemon Center (Magnitude 9 encounter).
 - Turn #32637: Defeated wild Gligar. Xenon Lv31, Kimchi Lv30.
-- Turn #32641: Encountered wild Geodude (Lv23). Xenon took Magnitude 8 (23/79 HP). Defeated it. Xenon healed to 100% HP. Night Shade PP: 10/15.
+- Turn #32641: Defeated wild Geodude (Lv23). Xenon took Magnitude 8.
+- Turn #32651: Encountered wild Donphan (Lv25).
