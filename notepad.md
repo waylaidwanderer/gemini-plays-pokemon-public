@@ -1,14 +1,17 @@
 # Current Strategy: Defeat Red
-- **Start Turn:** 26770 (Jan 7, 2026)
+- **Start Turn:** 26773 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
-- **Status:** In Battle with Red.
-- **Action:** Switching to **Kunai (Sneasel)** (Slot 4) to counter Espeon.
-- **Matchup:** Kunai (Dark/Ice) vs Espeon (Psychic).
+- **Status:** In Battle with Red. Kunai fainted.
+- **Action:** Sending **Muscle (Machoke)** back in.
+- **Matchup:** Muscle (Lv 83) vs Espeon (Lv 73).
 - **Goal:** Defeat Red.
 - **Battle Plan:**
-  - **Kunai:** Immune to Psychic. Use Shadow Ball (Ghost vs Psychic is SE) or just serve as a pivot to revive Muscle if needed.
-  - **Muscle:** Currently has -2 Attack. Needs to be switched out to reset stats. This switch accomplishes that.
-  - **Next Steps:** If Kunai can damage Espeon, great. If not, heal Muscle while Kunai tanks.
+  - **Stat Reset:** Muscle's -2 Attack is gone thanks to the switch.
+  - **Espeon:** **High Danger**. Will use Psychic. Muscle must tank one hit and OHKO with **Cross Chop** or **Strength**.
+    - Cross Chop: High Power (150 w/ STAB), Low Accuracy (80%). High Crit.
+    - Strength: Moderate Power (80), High Accuracy (100%).
+    - Decision: Cross Chop for the likely OHKO.
+  - **Healing:** If Muscle takes heavy damage (>50%), assume next Psychic kills. Use Max Potion/Full Restore. If really low, switch to fodder to Revive/Heal safely.
 - **Items:** 15 Full Restores, 19 Revives.
 
 # Key Findings
