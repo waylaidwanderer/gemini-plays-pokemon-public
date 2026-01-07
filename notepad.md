@@ -19,12 +19,10 @@
 - **Route 28:** Path leads West to Silver Cave.
 - **Silver Cave:** Item Room (Left) contains Max Revive. Upper Ledge center connects to Left section.
 - **Route to PC:** From (36, 30), go South to Row 32, West to Column 28, North to Row 28, West to Surf Spot (24, 28). Surf West to (15, 28). Walk West to (1, 28) and North through gap at (1, 23).
-- Path to Room 2: Zig-Zag Route.
-  1. (4,32) -> Right to (8,32) -> Up to (8,27) -> Right to (12,27) -> Up to (12,21).
-  2. (12,21) -> Left to (3,21) -> Up to (3,16) -> Right to (8,16).
-  3. (8,16) -> Down to (8,18) -> Right to (15,18) -> Up to (15,14).
-  4. (15,14) -> Left to (14,14) -> Up to (13,13).
-- Navigation Logic:
-  - Cols 13-16 are separated from Cols 8-11 by a wall at Col 12.
-  - The only gap North on the Right Side is at (15, 17).
-  - Target: Reach (15, 1) Warp.
+- Path to Room 2:
+  1. From (14,18): Right to (15,18) -> Up to (15,14) -> Left to (14,14) -> Up to (14,9).
+  2. Left to (8,9) -> Up to (8,4) -> Right to (12,4).
+  3. Down to (12,6) -> Right to (15,6) -> Up to Warp at (15,1).
+- Unseen Tiles: (19,34), (19,35) are isolated in bottom-right. Ignoring for now.
+- Key Constraints: Row 8 is blocked by ledges except at Cols 0, 2-5, 7-9, 16, 19. Col 8 is the key vertical path.
+- Map Hygiene: Removed old failure logs. Zig-Zag verified.
