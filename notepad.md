@@ -1,14 +1,18 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25934 (Jan 6, 2026)
+- **Timestamp:** Turn 25941 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Send out Garnet (Sacrifice B) then Heal Muscle.
+- **Immediate Task:** Send out Muscle.
 - **Battle Plan:**
-    1. **Step 1:** Belladonna fainted (Sacrifice A complete).
-    2. **Step 2 (Current):** Send out Garnet (Sacrifice B).
-    3. **Step 3:** While Garnet is active, use Hyper Potion on Muscle (heals 200 HP).
-    4. **Step 4:** Garnet faints. Send out Muscle.
-    5. **Step 5:** Muscle vs Espeon. Use Strength.
-- **Resources:** Muscle (60/280). 4 Hyper Potions. Fodder: Garnet, Gyarados.
+    1. **Pikachu:** Defeated.
+    2. **Espeon (Lv73):** Garnet fainted. Sending out Muscle (260/280 HP).
+    3. **Vs Espeon:** Use Strength (Physical targeting low Def).
+       - Espeon uses Psychic. Muscle tanks it.
+       - If Muscle gets critically low: Switch to Gyarados (QAAGMAQNJW) as sacrifice/pivot to Revive/Heal.
+    4. **Snorlax (Lv75):** Muscle's Cross Chop.
+    5. **Venusaur (Lv77):** Muscle's Ice Punch.
+    6. **Charizard (Lv77):** Muscle's ThunderPunch.
+    7. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
+- **Resources:** Muscle (260/280). 1 Sacrifice left (Gyarados). 4 Revives, 3 Hyper Potions.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
