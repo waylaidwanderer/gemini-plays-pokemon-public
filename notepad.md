@@ -1,11 +1,8 @@
 # Tile Mechanics
-- FLOOR: Traversable. Standard collision-free tile.
-- WALL: Impassable.
-- TALL_GRASS: Traversable. Triggers wild Pokemon encounters.
-- LEDGE_HOP_DOWN: One-way traversal (Down only).
-- LEDGE_HOP_LEFT: One-way traversal (Left only).
-- LEDGE_HOP_RIGHT: One-way traversal (Right only).
-- CAVE/DOOR/STAIRS: Map transition warp.
+- TALL_GRASS: Traversable. Triggers wild encounters. Verified at (12, 10), (13, 10).
+- LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13).
+- WALL: Impassable. Verified at (13, 12).
+- FLOOR: Traversable. Verified at (12, 6).
 - WATER: Traversable with HM03 SURF.
 - CUT_TREE: Impassable; removable with HM01 CUT.
 - HEADBUTT_TREE: Impassable; interactive.
@@ -16,9 +13,10 @@
 
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
-- Started: Turn #32266, 2026-01-07 04:30 AM.
+- Started: Turn #32266 (Overall), Route 45 Session Started: Turn #32651.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Training Location: Route 45 (high level Rock/Ground/Flying).
+- PP Management: Fly to Blackthorn and heal when Night Shade PP < 2.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Objective: Defeat Clair in Blackthorn Gym.
@@ -33,6 +31,11 @@
     3. Use Hypnosis/Sleep Powder to manage threats.
     4. Night Shade bypasses the high special defense of Clair's Dragon-types.
 
+# Training Progress (Route 45)
+- Session Start: Turn #32651.
+- Current Status: Xenon Lv31, Kimchi Lv30.
+- Goal: Lv40 for both.
+
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential (Turn #32311).
 - Alan (Schoolboy): Route 36. Rematch potential.
@@ -44,19 +47,3 @@
 - Battle Strategy (Route 45): Switch to GNEISS (Graveler) immediately if Magnitude/Ground moves are expected.
 - Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
 - Menu Navigation: Avoid mixing Pokedex/Pokemon menus. Check cursor position before batching A presses.
-
-# Tile Mechanics: Route 45
-- TALL_GRASS: Traversable. Triggers wild encounters. Verified at (12, 10), (13, 10).
-- LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13).
-- WALL: Impassable. Verified at (13, 12).
-- FLOOR: Traversable. Verified at (12, 6).
-
-# Training Session Log
-- Turn #32530: Started training Xenon and Kimchi on Route 45.
-- Turn #32591: Emergency heal at Ecruteak Pokemon Center (Magnitude 9 encounter).
-- Turn #32637: Defeated wild Gligar. Xenon Lv31, Kimchi Lv30.
-- Turn #32641: Defeated wild Geodude (Lv23). Xenon took Magnitude 8.
-- Turn #32651: Encountered wild Donphan (Lv25). Defeated at turn #32661. Xenon Lv31, Kimchi Lv30.
-- Turn #32662: Continuing training on Route 45.
-- Turn #32662: Encountered wild Gligar (Lv24). Current PP for Night Shade: 6.
-- Turn #32667: Xenon used Night Shade. Gligar used Poison Sting. Xenon HP: 78/79. Gligar HP ~50%.
