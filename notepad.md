@@ -63,4 +63,4 @@
 - Start Turn (Grinding): 33466.
 
 ## Historical Data (Archive)
-- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson).
+- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45 after multiple Great Ball attempts.
