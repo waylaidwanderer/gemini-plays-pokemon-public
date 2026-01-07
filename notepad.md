@@ -40,5 +40,11 @@
 - Ledge Test: (12, 4) blocked Down movement. Testing (14, 4) by walking around the warp.
 - Path: Up (12,2) -> Right (13,2) -> Right (14,2) -> Down (14,3) -> Try Down (14,4).
 - Hypothesis: If (14, 4) is also blocked, this area is an exit-only foyer, and I must find another entrance in Room 2.
-- Warp Hypothesis: Attempting to walk DOWN from (13, 3) into the wall at (13, 4). This should trigger the WARP_CARPET_DOWN.
-- If this fails, the room appears to be a trap/dead end, and I will need to verify walls or use Escape Rope.
+- **Silver Cave Item Rooms:**
+  - Warp at (13, 3) connects to Room 2 (13, 21).
+  - The area accessed via (13, 21) appears to be an isolated balcony/dead end.
+- **Plan:**
+  1. Return to water at (11, 25).
+  2. Surf West to the left channel (Cols 4-7).
+  3. Land at (5, 21) and explore the warp there.
+- **Hypothesis:** The Left Landing leads to the main section of Item Rooms (Max Revive + Exit).
