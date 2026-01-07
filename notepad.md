@@ -9,10 +9,12 @@
     - I entered Route 28 at (0, 13).
     - To reach the *Northwest* corner of the previous map, I need to exit Route 28 further North on the West edge.
     - Tile (0, 3) on Route 28 is a walkable `FLOOR` tile on the West edge, aligning with this goal.
+- **Current Location:** Route 28 (31, 11). East of the hidden gap.
+- **Discovery:** The hidden gap at (28, 11) leads to a secluded area.
 - **Plan:**
-    1. Surf East to the gap at (28, 11).
-    2. Pass through the gap and explore the hidden area to the East.
-    3. Find the path looping North/West to the house at (7, 3).
+    1. Explore the area East of the gap.
+    2. Look for a path leading North to the unreachable house at (7, 3).
+    3. Check for hidden items or new Pokemon.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
