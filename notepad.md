@@ -27,12 +27,13 @@
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
 # Strategy: Current Status
-- Goal: Defeat Lass Dana and collect gift.
-- Status: Battling Dana's Psyduck (Lv18) (Turn #32247).
-- Next: Win the battle and talk to Dana.
+- Goal: Collect gift from Lass Dana on Route 38.
+- Status: Defeated Dana in rematch. Talked again, she said she'll share something "next time".
+- Conclusion: No gift available right now.
+- Next: Fly to Goldenrod City and head to Route 35 for rematch with Arnie (Bug Catcher).
 
-# Significant Party Status (Turn #32247)
-- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 12/15.
+# Significant Party Status (Turn #32249)
+- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 11/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
