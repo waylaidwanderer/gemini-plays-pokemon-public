@@ -1,10 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26230 (Jan 7, 2026) [Silver Cave PC]
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Silver Cave Room 1. Heading to Room 2.
-- **Money:** ¥3,833.
-- **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Navigate to Room 2 warp (15, 1).
+- **Status:** Inside Silver Cave Room 1. At (15, 15).
+- **Immediate Action:** Use Max Repel to stop excessive encounter rate.
+- **Path to Room 2:**
+  1. Current: (15,15) -> Up to (15,14) -> Left to (14,14) -> Up to (14,9).
+  2. Left to (8,9) -> Up to (8,4) -> Right to (12,4).
+  3. Down to (12,6) -> Right to (15,6) -> Up to Warp at (15,1).
 - **Next Task:** Reach Red in Room 3.
 
 ## Vs Red Strategy
