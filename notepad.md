@@ -1,20 +1,19 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25496 (Jan 6, 2026)
+- **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (0, 13). Entered from Silver Cave Outside.
-- **Objective:** Reach the Northwest area of Silver Cave Outside.
-- **Hypothesis:** The entrance to the NW area of Silver Cave Outside is at **Route 28 (0, 3)**.
-- **Reasoning:**
-    - I entered Route 28 at (0, 13).
-    - To reach the *Northwest* corner of the previous map, I need to exit Route 28 further North on the West edge.
-    - Tile (0, 3) on Route 28 is a walkable `FLOOR` tile on the West edge, aligning with this goal.
 - **Current Location:** Victory Road Gate (1, 7).
+- **Objective:** Exit to Route 28 and reach the NW House.
 - **Plan:**
-    1. Exit to Route 28 (Try moving Left).
+    1. Re-trigger warp (Up, then Down) to exit to Route 28.
     2. Go to the Sign at (31, 6).
     3. Head West along the upper path (Row 6) to find the House at (7, 3).
-- **Hypothesis:** The path to the NW area is simply "Keep Left" along the top edge of Route 28.
+- **Hypothesis:** The path to the NW area is "Keep Left" along the top edge of Route 28.
+
+# Tile Mechanics
+- **LEDGE_HOP:** One-way jumpable.
+- **FLOOR_UP_WALL:** Treat as WALL unless verified.
+- **Gatehouse Warps:** Likely trigger on step-on. Re-entry required if spawn didn't trigger.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
