@@ -21,7 +21,7 @@
 - Grinding Session 1: Started Turn #31060 (Tuesday, Jan 6, 2026).
 
 # Progress Tracker
-- Target Lv30: 21760 EXP (~4473 left for Kimchi, ~1356 left for Xenon).
+- Target Lv30: 21760 EXP (~4571 left for Kimchi, ~1595 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
 # Key NPC Locations & Gifts
