@@ -25,15 +25,19 @@
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. Night Shade PP management: Fly to Blackthorn to heal.
 
 # Fly Map Navigation (Experimental)
-- Sequence found via Up/Right presses: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany.
-- Mahogany -> Up -> Lake of Rage.
-- Goal: Blackthorn City (Northeast of Mahogany).
-- Strategy: Try Up/Right combinations from Mahogany/Lake of Rage.
+- Mahogany Town <-> Lake of Rage (Up/Down)
+- Mahogany Town -> Down -> Olivine City? (TBC)
+- Cianwood City -> Up -> Mahogany Town
+- Goal: Find Blackthorn City (Northeast of Mahogany).
+
+# Unexplored Tiles (Route 45)
+- Check (11, 20-36) area; likely behind ledges/walls.
+- Check (17, 82-89) area; south end near Route 46.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Rematch potential.
-- Alan (Schoolboy): Route 36. Rematch potential.
-- Chad (Schoolboy): Route 38. Rematch potential.
+- Arnie (Bug Catcher): Route 35.
+- Alan (Schoolboy): Route 36.
+- Chad (Schoolboy): Route 38.
 
 # Lessons Learned
 - Haunter Mechanics: Grounded in Gen 2; weak to Magnitude.
