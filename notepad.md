@@ -5,7 +5,7 @@
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Reach Silver Cave Entrance (0, 13).
-- **Next Task:** Navigate to Silver Cave Entrance.
+- **Next Task:** Catch Tangela (Pokedex).
 
 ## Vs Red Strategy
 - (Placeholder for insights)
