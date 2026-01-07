@@ -211,8 +211,8 @@
       }
     ]
   },
-  "give_item_v2_robust": {
-    "description": "Gives an item from the PACK to a Pokemon in the party. Handles cursor persistence by resetting to top. Assumes cursor starts at Item Pocket top and PKMN menu top after resets.",
+  "give_item_v3_ultimate": {
+    "description": "Gives an item from the PACK to a Pokemon in the party. Resets all cursors (Start, Pack, Party) for maximum robustness.",
     "input_schema": {
       "properties": {
         "item_slot": {
@@ -230,12 +230,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nitem_slot = int(input_data['item_slot'])\npokemon_slot = int(input_data['pokemon_slot'])\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n# Navigate to PACK (3rd option)\nbuttons.extend([\"Down\", \"sleep 300\", \"Down\", \"sleep 300\", \"A\", \"sleep 1000\"])\n# Reset Item cursor (safety)\nfor _ in range(15): buttons.append(\"Up\")\n# Select Item\nfor _ in range(item_slot - 1): buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 500\", \"Down\", \"A\", \"sleep 1000\"])\n# Reset Party cursor (safety)\nfor _ in range(5): buttons.append(\"Up\")\n# Select Pokemon\nfor _ in range(pokemon_slot - 1): buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\"])\nprint(json.dumps(buttons))",
+    "python_script": "import json\nitem_slot = int(input_data['item_slot'])\npokemon_slot = int(input_data['pokemon_slot'])\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\"]\n# Reset Start menu cursor to top\nfor _ in range(10): buttons.append(\"Up\")\n# Navigate to PACK (3rd option)\nbuttons.extend([\"Down\", \"Down\", \"A\", \"sleep 1000\"])\n# Reset Item cursor\nfor _ in range(20): buttons.append(\"Up\")\n# Select Item\nfor _ in range(item_slot - 1): buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 500\", \"Down\", \"A\", \"sleep 1000\"])\n# Reset Party cursor\nfor _ in range(10): buttons.append(\"Up\")\n# Select Pokemon\nfor _ in range(pokemon_slot - 1): buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 1000\", \"B\", \"B\", \"B\", \"B\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-07T08:07:21.460Z",
-        "action_counter": 31932
+        "timestamp": "2026-01-07T08:09:38.024Z",
+        "action_counter": 31935
       }
     ]
   }
