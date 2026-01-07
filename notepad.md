@@ -18,39 +18,29 @@
 - LEDGE_HOP_RIGHT (↪️): One-way movement (Left -> Right). Verified Turn #31027.
 
 # Strategy: Johto League Training
-- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
+- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40 on Route 45.
 - Start Turn: #31883
-- Start Time: Wednesday, Jan 7, 2026, 2:26 AM PST
-- Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin). Pace in tall grass at (4, 11) and (4, 12) on Route 45.
-- Hazards: Magnitude/Earthquake (Geodude/Graveler). Switch to GNEISS (Graveler) if Xenon is low or out of Night Shade PP.
+- Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
+- Hazards: Magnitude/Earthquake (Geodude/Graveler). Use GNEISS (Graveler) as a backup.
 
 # Strategy: Rising Badge (Gym Leader Clair)
-- Lead: Xenon (Lv40+). Use Night Shade for fixed damage (bypasses Dragon types' natural bulk).
-- Support: Kimchi (Lv40+). Use Sleep Powder for CC, especially against Kingdra.
-- Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
+- Lead: Xenon (Lv40+). Use Night Shade for fixed damage.
+- Support: Kimchi (Lv40+). Use Sleep Powder for CC.
+- Backup: Calcifer (Typhlosion) and Gneiss.
 
-# Strategy: Current Status
-- Pacing in tall grass at (4, 11) and (4, 12) on Route 45.
-
-# Significant Party Status (Turn #32202)
-- XENON (Haunter): Lv30. HP 21/77. Night Shade: 12/15.
+# Significant Party Status (Turn #32204)
+- XENON (Haunter): Lv30. HP 21/77. Night Shade: 11/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
-- GNEISS (Graveler): Lv46. HP 129/129.
-- Calcifer (Typhlosion): Lv48. HP 152/152.
-- ICARUS (Pidgey): Lv16. HP 43/43.
-- Ravioli (Krabby): Lv10. HP 27/27.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
 - Input 'Up' -> Result: Cherrygrove City.
-- Input 'Down' -> Result: Blackthorn City (Wraps from New Bark).
-- Conclusion: The Fly list order is [New Bark Town, Cherrygrove City, ..., Blackthorn City].
+- Input 'Down' -> Result: Blackthorn City (Wraps).
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
 - Party Menu: 6 slots. Wraps.
 - Bag Pockets: Items, Balls, Key Items, TM/HM.
-- Lag: Significant. Use 500ms-1000ms sleep.
 
 # Fly Destinations (List Order)
 - New Bark Town, Cherrygrove City, Violet City, Azalea Town, Goldenrod City, Ecruteak City, Olivine City, Cianwood City, Mahogany Town, Blackthorn City.
