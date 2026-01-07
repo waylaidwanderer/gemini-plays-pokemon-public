@@ -6,8 +6,6 @@
 - FLOOR_UP_WALL: Impassable ledge bottom.
 
 # Hypothesized Tile Mechanics
-- LEDGE_HOP_LEFT: One-way west.
-- LEDGE_HOP_RIGHT: One-way east.
 - WATER: Requires SURF to cross.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
