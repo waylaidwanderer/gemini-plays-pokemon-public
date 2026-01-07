@@ -38,3 +38,8 @@
 - Fly Map: In Crystal, the Up button cycles through visited towns.
 - Battle Mechanics: HP bar animations can occur while move text is displayed, which may look like multi-hit moves. Always verify actual move properties.
 - Input Restrictions: Do NOT mix directional (Up, Down, Left, Right) and action (A, B, Start, Select) buttons in a single manual `press_buttons` call. Use specialized tools like `press_menu_buttons` or `find_path_v2` instead. Verified Turn 32936.
+
+# Strategy: Rising Badge (Gym Leader Clair) - Refinement
+- Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses. Kingdra only weak to Dragon.
+- Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. Check for TM location (Inventory/PC/Learned).
+- Survival: Level supports to Lv40+ to survive hits from Clair's Lv37-40 team. Verified strategy Turn 32974.
