@@ -22,7 +22,7 @@
 
 # Training Progress (Route 45)
 - Session Start: Turn 32625.
-- Status (Turn 33020): Kimchi (Lv32, 85/85 HP, Lead), Xenon (Lv32, 47/82 HP, Night Shade 4 PP).
+- Status (Turn 33026): Kimchi (Lv32, 85/85 HP, Lead), Xenon (Lv32, 47/82 HP, Night Shade 4 PP).
 - Goal: Train Xenon and Kimchi to Lv40 for Gym Leader Clair.
 
 # Strategy: Rising Badge (Gym Leader Clair)
@@ -35,6 +35,7 @@
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Arnie).
+- Tully (Fisher): Route 42. Verified Turn 32394.
 - Arnie (Bug Catcher): Route 35.
 - Alan (Schoolboy): Route 36.
 - Chad (Schoolboy): Route 38.
