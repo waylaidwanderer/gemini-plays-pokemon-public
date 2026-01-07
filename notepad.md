@@ -35,6 +35,7 @@
   - Xenon used Night Shade (PP: 5). Skarmory used Swift (no effect).
   - Xenon used Night Shade (PP: 4). Skarmory used Agility.
   - Xenon used Night Shade (PP: 3). Skarmory fainted. Xenon/Kimchi gained 324 EXP. Night Shade PP: 3.
+- Turn #32415: Encountered wild Graveler (Lv23). Xenon leading. Night Shade PP: 3.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
