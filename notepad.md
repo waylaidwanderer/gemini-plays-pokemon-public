@@ -29,9 +29,10 @@
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC, especially against Kingdra.
 - Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
 
-# Significant Party Status (Turn #32167)
-- XENON (Haunter): Lv30. HP 33/77. Night Shade: 4/15. (Leveled up Turn #32164)
-- KIMCHI (Gloom): Lv29. HP 77/77. (Leveled up Turn #32164)
+# Strategy: Current Status
+- Goal: Heal at Blackthorn City Pokemon Center.
+- Status: XENON (Lv30, 33/77 HP, 4 PP Night Shade), KIMCHI (Lv29, 77/77 HP).
+- Next: Resume training on Route 45 or visit Dana (Route 38) / Arnie (Route 35).
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
