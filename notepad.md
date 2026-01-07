@@ -32,3 +32,8 @@
 
 # Unexplored Areas
 - Route 45: (11, 20-36) area; (17, 82-89) area.
+
+# Training Progress (Route 45)
+- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
+- Status: Xenon Lv32 (64/82 HP, 12/15 Night Shade PP), Kimchi Lv31.
+- Session Turn: 32900.
