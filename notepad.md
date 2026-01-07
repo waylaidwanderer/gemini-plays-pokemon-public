@@ -13,7 +13,7 @@
   - Surf: Qaagmaqnjw (Gyarados).
   - Whirlpool: Need to teach HM06 or retrieve Lapis (Poliwag) from PC.
   - Strength: Muscle (Machoke).
-- **Immediate Action:** Access PC to swap Kunai for Lapis.
+- **Immediate Action:** Withdraw Lapis (Poliwag) from PC.
 - **Party Plan:**
   - Keep: Mistral (Fly), Muscle (Strength), Gyarados (Surf/Waterfall), Belladonna (Flash).
   - Deposit: Kunai (Sneasel).
