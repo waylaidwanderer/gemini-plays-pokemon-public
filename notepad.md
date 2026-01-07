@@ -39,24 +39,12 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Party Item Audit (Turn #32072)
-- Audit: COMPLETE. XENON cleared of ICE HEAL.
-- Goal: Give AMULET COIN to XENON (Slot 1).
-- Status: XENON leading, HP 64/74. KIMCHI holding EXP.SHARE. (Turn #32075)
-
-# Progress Tracker
-- Xenon (Haunter): Lv29 (20635 EXP).
-- Kimchi (Gloom): Lv28 (17941 EXP).
-- Gneiss (Graveler): Lv46 (93886 EXP).
-- Calcifer (Typhlosion): Lv48 (109364 EXP).
-
-# Party Menu Mapping
-- Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 2 (ICARUS): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 4 (Ravioli): SURF, STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH, MOVE, ITEM, CANCEL
-- Slot 6 (Calcifer): STATS, SWITCH, MOVE, ITEM, CANCEL
+# Party Status (Turn #32076)
+- XENON (Haunter): Lv29. Leading. HP 64/74. Item: Receiving AMULET COIN.
+- KIMCHI (Gloom): Lv28. Item: Holding EXP.SHARE.
+- GNEISS (Graveler): Lv46. Item: None.
+- CALCIFER (Typhlosion): Lv48. Item: None.
+- Goal: Train XENON and KIMCHI to Lv40 on Route 45.
 
 # Meta
 - Training Task Start: Turn #31883.
