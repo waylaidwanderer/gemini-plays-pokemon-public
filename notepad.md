@@ -39,8 +39,8 @@
 - Observation (Turn #32359): Blackthorn City reached by pressing Up from Lake of Rage.
 
 # Current Plan: Route 45 Training
-1. Fly to Blackthorn City (A button on current screen).
-2. Exit south from Blackthorn City at (9, 35).
-3. Battle wild Pokemon on Route 45 to level Xenon and Kimchi to Lv40.
+1. Navigate to tall grass (e.g., 12, 10).
+2. Battle wild Pokemon to level Xenon and Kimchi to Lv40.
+3. Monitor HP/PP; Fly to Blackthorn to heal if needed.
 - Started training at Turn #32266.
-- Arnie rematch completed. Alan rematch failed to trigger. Chad rematch pending.
+- Arnie rematch completed. Alan rematch failed. Chad rematch pending.
