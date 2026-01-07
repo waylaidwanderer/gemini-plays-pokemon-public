@@ -63,13 +63,13 @@
 7. OPTION
 8. EXIT
 
-# Menu Mapping (Cianwood PC)
-- Slot 1: FLASH, CUT, STATS, SWITCH
-- Slot 2: FLY, STATS, SWITCH
-- Slot 3: STATS, SWITCH
-- Slot 4: SURF, STATS, SWITCH
-- Slot 5: STRENGTH, STATS, SWITCH
-- Slot 6: STATS, SWITCH
+# Party Menu Mapping
+- Slot 1 (ICARUS): FLY, STATS, SWITCH (Offset 2)
+- Slot 2 (XENON): STATS, SWITCH (Offset 1)
+- Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH (Offset 3)
+- Slot 4 (Ravioli): SURF, STATS, SWITCH (Offset 2)
+- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (Offset 2)
+- Slot 6 (Calcifer): STATS, SWITCH (Offset 1)
 
 # Lessons Learned (Menu Management)
 - Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 
