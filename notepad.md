@@ -47,3 +47,7 @@
 - LEDGE_HOP_DOWN: One-way jump South.
 - LEDGE_HOP_LEFT: One-way jump West.
 - LEDGE_HOP_RIGHT: One-way jump East.
+
+# Bag Order Note
+- Bag is NOT alphabetical. Observed: ICE BERRY, ICE HEAL, GRN, PNK, YLW.
+- Use manual scrolling or multiple turns to find items reliably.
