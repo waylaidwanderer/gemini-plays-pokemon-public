@@ -18,10 +18,17 @@
     2. Ensure Xenon has full PP for Night Shade.
     3. Use Hypnosis/Sleep Powder to manage threats.
     4. Night Shade bypasses high special defense of Clair's Dragon-types.
+    5. **CRITICAL:** Use `battle_advisor` agent for all trainer and significant wild battles to optimize EXP and safety.
 
 # Training Progress (Route 45)
 - Goal: Lv40 for Xenon and Kimchi.
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. Night Shade PP management: Fly to Blackthorn to heal.
+
+# Fly Map Navigation (Experimental)
+- Sequence found via Up/Right presses: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany.
+- Mahogany -> Up -> Lake of Rage.
+- Goal: Blackthorn City (Northeast of Mahogany).
+- Strategy: Try Up/Right combinations from Mahogany/Lake of Rage.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential.
