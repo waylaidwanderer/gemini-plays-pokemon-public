@@ -1,11 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26173 (Jan 7, 2026) [Route 28]
 - **Primary Goal:** Defeat Red.
-- **Status:** On Route 28, heading West to Silver Cave.
+- **Status:** At Mt. Silver Outside. Heading to Pokemon Center to heal and checkpoint.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Reach Silver Cave Entrance (0, 13).
-- **Next Task:** Enter Silver Cave.
+- **Immediate Goal:** Heal at Pokemon Center (23, 19).
+- **Next Task:** Enter Silver Cave (18, 11).
 
 ## Vs Red Strategy
 - (Placeholder for insights)
