@@ -29,3 +29,5 @@
 - **Observation:** Entering the waterfall tile pushes the player back and forces them to face DOWN.
 - **Strategy:** Reset facing by moving away and coming back.
 - **Plan:** Move DOWN to (11, 31), then move UP to (11, 30) (ensuring Face UP), then press A to trigger HM.
+- **Encounter:** Wild Ursaring at (11, 23) in Silver Cave Room 2.
+- **Strategy:** Run (Low on balls, saving Master Ball).
