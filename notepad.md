@@ -1,6 +1,6 @@
 # Key Locations & Mechanics
 - New Bark Town (Mom's House 24_6): Talking to Mom at (2, 2) allows changing Daylight Saving Time and managing money.
-- New Bark Town (Elm's Lab 24_5): Healing Machine at (2, 2) heals the entire party.
+- New Bark Town (Elm's Lab 24_5): Healing Machine at (2, 2) heals the entire party. Verified Turn 32811.
 - Blackthorn City (Pokemon Center 25_3): Standard healing. Warp at (21, 30).
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
@@ -21,8 +21,7 @@
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Level Targets: Xenon Lv40, Kimchi Lv40, Gneiss Lv50, Calcifer Lv50.
-- Training Start: Turn 32625 (Wed Jan 7 9:15 AM).
+- Training Start: Turn 32625 (Wed Jan 7 9:15 AM). Goal: Prep for Clair.
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Arnie).
@@ -31,8 +30,5 @@
 - Chad (Schoolboy): Route 38.
 
 # Lessons Learned
-- Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call. Distinguish between cyclic and directional map navigation.
-
-# Training Progress (Route 45)
-- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
-- Status: Xenon Lv32 (50/82 HP, 10/15 Night Shade PP), Kimchi Lv31.
+- Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call.
+- Fly Map: Distinguish between cyclic and directional navigation. In Crystal, the Up button cycles through visited towns.
