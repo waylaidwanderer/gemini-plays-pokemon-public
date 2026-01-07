@@ -1,11 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** In Silver Cave Item Rooms (3_77).
-- **Hypothesis:** A second exit exists in the lower area (y > 4) leading to the northern part of Room 2.
+- **Status:** At (15, 3) in Item Rooms (3_77). Section 2 (Center) seems to be a dead end.
+- **Observation:** (15, 4) Ledge is blocked. Markers indicate ALL ledges might be blocked.
+- **Hypothesis:** This room is a dead-end loop. The real path is back in Room 2.
 - **Plan:**
-  1. Walk south past the ledges (using the open floor at x>16 or x<4).
-  2. Explore the unseen area (Rows 8-18).
-  3. Locate any items or warps.
+  1. Test ledge at (10, 3) -> (10, 4) just to be 100% sure.
+  2. If blocked, Warp back to Room 2 via (13, 3).
+  3. Explore Room 2 (Top of Waterfall) for other paths (Surf East/West?).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
