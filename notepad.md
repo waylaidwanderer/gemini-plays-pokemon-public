@@ -33,10 +33,3 @@
 # General Mechanics & Lessons
 - Route 45: Ledges make paths one-way SOUTH. Use FLY to return.
 - Fly Map: Systematic navigation required. Confirm name before pressing A.
-
-# Reflection Turn #31553
-- Performed mandatory self-assessment.
-- Updated notepad with latest stats and summary.
-- Verified NPC Pokefan M presence at (10, 16).
-- Identified need for "Reachable Unseen" tool.
-- Corrected Earthquake PP count.
