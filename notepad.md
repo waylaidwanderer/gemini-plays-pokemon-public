@@ -16,9 +16,9 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
-- Kimchi (Lv23): 9879 EXP. Target Lv24: 10140 EXP (~261 remaining).
+- Kimchi (Lv23): 10214 EXP. Target Lv25: 11576 EXP (~1362 remaining).
 - Gneiss (Lv45): Earthquake PP low (2/10).
-- Calcifer (Lv48): Flame Wheel PP (19/25).
+- Calcifer (Lv48): Flame Wheel PP (18/25).
 - Grinding Start: Turn #31060.
 - Reflection (Turn 31190): Pacing at (4,12)-(5,12). Xenon hit 28, Kimchi hit 23. Need to watch Gneiss PP. Use FLY to heal at Blackthorn when Gneiss is empty.
 
