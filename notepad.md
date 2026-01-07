@@ -28,12 +28,10 @@
     5. Explore the NW corner for hidden items or houses.
 - **Troubleshooting:** Standard exit (Up, Down) failed to trigger the warp. Retrying with `slow_press` and an extra Down input to ensure the warp event registers.
 - **Hypothesis:** The "step-on" event might need more time or a forceful "bump" into the southern wall to trigger properly.
-- **Reasoning:** `FLOOR_UP_WALL` at (13, 30) is a solid obstacle, confirming the entire Row 30 barrier is a wall (likely jumpable ledges only from North to South in some places, or just walls).
-- **Solution:** Found a gap in the barrier at x=28, 29 (Tall Grass) based on Mental Map.
-- **New Route:**
-    1. Walk East to Water at (16, 29).
-    2. Surf East to the Main Island (x=18+).
-    3. Head East to x=28 (East of Pokemon Center).
-    4. Walk South through the gap at (28, 30).
-    5. Loop West along the bottom edge (Row 33) to x=1.
-    6. Head North to the NW corner.
+- **Current Action:** Successfully navigated the gap at (28, 30). Now at (28, 32).
+- **Obstacle:** Westward movement at Row 32/33 is blocked by walls (x=25-27).
+- **Solution:** Row 34 contains `FLOOR_UP_WALL` tiles, which likely act as ledges. I must jump South to Row 35 (FLOOR) to traverse West.
+- **Revised Route:**
+    1. Jump South over the ledge at (28, 34) to reach Row 35.
+    2. Walk West along Row 35 to x=1.
+    3. Head North to the Northwest corner.
