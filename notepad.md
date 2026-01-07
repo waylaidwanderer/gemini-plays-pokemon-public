@@ -1,16 +1,16 @@
-# Victory!
-- **Defeated Red:** Jan 7, 2026 (Turn 26976).
-- **MVP:** Muscle (Machoke) with Thunderpunch.
-- **Strategy:** Sacrifice Mistral -> Muscle Clean Switch -> Thunderpunch for the win.
-- **Outcome:** Received ¥15400. Red said "..." and vanished.
-- **Next:** Credits? Return home?
+# Post-Game Goals
+- **Primary:** Complete Pokedex (Current: 39 Owned).
+- **Major Target:** CATCH LUGIA.
+- **Location:** Whirl Islands (Route 41).
+- **Key Item:** Silver Wing (Owned).
+- **Requirements:** Flash, Whirlpool, Surf, Strength.
 
-# Current Strategy: Post-Game
-- **Goal:** Check for credits, then continue completing the Pokedex.
-- **Location:** Route 22 (Map 23_2).
-- **Post-Red Status:** Team fully healed automatically.
-- **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Talk to Professor Oak.
-- **Status:** Inside Oak's Lab.
-- **Action:** Approach Oak at (4, 2) and press A.
-- **Next:** See if he acknowledges Red's defeat or rates the Pokedex.
+# Current Status
+- **Location:** Oak's Lab (Pallet Town).
+- **Next Step:** Exit Lab -> Prepare Party (Need Whirlpool) -> Whirl Islands.
+- **Party Check:**
+  - Flash: Belladonna (Oddish).
+  - Surf: Qaagmaqnjw (Gyarados).
+  - Whirlpool: Need to teach HM06 or retrieve Lapis (Poliwag) from PC.
+  - Strength: Muscle (Machoke).
+- **Immediate Action:** Head to a Pokemon Center (Viridian City) to organize party.
