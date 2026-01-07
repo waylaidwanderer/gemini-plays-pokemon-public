@@ -55,7 +55,7 @@
 - Start Turn (Grinding): 33466.
 
 ## Additional Observations
-- Sleep Powder (Grass) and Hypnosis (Psychic) both failed against wild Gligar (Ground/Flying) with "It didn't affect" (Turns 33475, 33482). This suggests a broad immunity to status moves or a specific mechanic.
+- Sleep Powder (Grass) and Hypnosis (Psychic) both failed against wild Gligar (Ground/Flying) with "It didn't affect" (Turns 33475, 33482). This suggests a specific immunity or mechanic. Gligar's Sand-Attack worked initially but failed later (Turn 33482), likely due to stat caps.
 - LEDGE_HOP_DOWN: One-way movement (down). Verified.
 - LEDGE_HOP_LEFT: One-way movement (left). Verified.
 - LEDGE_HOP_RIGHT: One-way movement (right). Verified.
