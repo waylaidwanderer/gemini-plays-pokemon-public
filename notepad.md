@@ -32,3 +32,4 @@
 # Lessons Learned
 - Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call.
 - Fly Map: Distinguish between cyclic and directional navigation. In Crystal, the Up button cycles through visited towns.
+- Battle Mechanics: HP bar animations can occur while move text ("used PECK!") is still displayed, which may look like multi-hit moves. Always verify the actual move properties.
