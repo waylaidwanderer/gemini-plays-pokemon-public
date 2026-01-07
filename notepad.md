@@ -1,15 +1,16 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26384 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At West Landing (5, 20).
-- **Immediate Goal:** Finish verifying West Landing and return to Central Island.
+- **Timestamp:** Turn 26385 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** At West Landing (4, 20).
+- **Immediate Goal:** Inspect walls at (4, 20) and return to Central Island.
 - **Plan:**
-  1. Check (4, 20) and the wall at (3, 20).
-  2. Return to (5, 21).
-  3. Surf to Central Island (11, 25).
-  4. Enter Warp (13, 21) and re-investigate Item Room Foyer.
+  1. Inspect Left Wall (3, 20).
+  2. Inspect Top Wall (4, 19).
+  3. Return to Landing (5, 21).
+  4. Surf to Central Island (11, 25).
+  5. Enter Warp (13, 21) and re-investigate Item Room Foyer.
 
 # Investigation List
-- **West Landing (5, 21):** Finishing check. (Up/Right checked. Checking Left).
+- **West Landing (5, 21):** Currently checking the alcove at (4, 20).
 - **Item Rooms (Main):** Must access via North Hallway (Row 0). Entrance is likely the warp at (13, 21) on Central Island.
 
 # Tile Mechanics
