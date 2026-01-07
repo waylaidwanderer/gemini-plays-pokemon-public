@@ -31,3 +31,7 @@
   1. Move West to x=3.
   2. Walk South through the gap at (3, 4).
   3. Explore the Southwest area.
+- **Status:** Returned to Silver Cave Room 2 (13, 22).
+- **Observation:** The path North (Item Rooms) loops back here.
+- **Plan:** Walk to (11, 25) and Surf South onto the water.
+- **Hypothesis:** The water leads to the Western or Eastern sections (unexplored).
