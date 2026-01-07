@@ -48,3 +48,14 @@
 - COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it.
 - PC: Interact to manage Pokemon and items.
 - LADDER: Triggers map transition between floors.
+## Strategy for Rising Badge (Gym Leader Clair)
+- Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
+- Opponent: Clair uses Dragon-type Pokemon.
+- Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
+- Start Turn (Grinding): 33466.
+
+## Additional Observations
+- Sleep Powder (Grass) failed twice against Gligar (Ground/Flying) with "It didn't affect" (Turns 33432, 33475). This implies an immunity or specific mechanic.
+- LEDGE_HOP_DOWN: One-way movement (down). Verified.
+- LEDGE_HOP_LEFT: One-way movement (left). Verified.
+- LEDGE_HOP_RIGHT: One-way movement (right). Verified.
