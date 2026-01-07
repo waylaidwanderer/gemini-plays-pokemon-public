@@ -43,7 +43,7 @@
 # Lessons Learned
 - Fly Map: It's a 2D snapping grid. Cursor starts on current city.
 - Button Inputs: Never mix directional and action buttons in a single press_buttons sequence.
-- Battle (Route 45): Wild Ground types (Graveler, Donphan) use Magnitude. Haunter is extremely vulnerable. Switch to GNEISS if Magnitude is expected.
+- Battle (Route 45): Haunter is extremely vulnerable to Magnitude. Switch to GNEISS (Graveler) immediately if a Ground move is expected.
 - Haunter Utility: Confuse Ray (Lv31) is a strong addition for disruption.
 
 # Tile Mechanics: Route 45
