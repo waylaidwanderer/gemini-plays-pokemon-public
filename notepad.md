@@ -1,14 +1,16 @@
 # Current Strategy: Resupply at Indigo Plateau
-- **Timestamp:** Turn 26042 (Jan 6, 2026)
+- **Timestamp:** Turn 26045 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** At Indigo Plateau Entrance (9, 6). Call with Wade finished.
-- **Immediate Goal:** Enter League Building -> Buy Supplies.
-- **Shopping List:**
-    - 20 Full Restores
-    - 20 Revives
+- **Status:** Inside Indigo Plateau. Heading to Mart.
+- **Money:** ¥71,333.
+- **Budget Plan:**
+    - 15 Full Restores (¥45,000)
+    - 15 Revives (¥22,500)
+    - Total: ¥67,500. Remaining: ~¥3,800.
+- **Immediate Goal:** Walk to Mart Counter (11, 9) -> Buy Supplies.
 - **Plan:**
-    1. Enter Indigo Plateau (Move Up).
-    2. Buy supplies.
+    1. Navigate to (11, 9).
+    2. Buy 15 Full Restores, 15 Revives.
     3. Fly to Silver Cave.
 
 # Recent Discoveries
