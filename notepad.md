@@ -50,7 +50,7 @@
 - [ ] Check Party Member 1 (XENON)
 - [ ] Check Party Member 2 (ICARUS)
 - [ ] Check Party Member 3 (KIMCHI) - Holding Exp. Share.
-- [ ] Check Party Member 4 (Ravioli)
+- [>] Check Party Member 4 (Ravioli)
 - [ ] Check Party Member 5 (GNEISS)
 - [ ] Check Party Member 6 (Calcifer)
 - [ ] Check PC Item Storage.
