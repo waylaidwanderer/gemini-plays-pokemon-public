@@ -2,16 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (3, 26). Above Ledge.
-- Objective: Collect Escape Rope at (5, 30).
-- Action: Jumping South and approaching item.
+- Current Location: Silver Cave Room 1 (9, 32). Main Path.
+- Action: Skipped Escape Rope (Bag Full). Heading North.
 - Plan:
-    1. Jump Ledge at (3, 27) to (3, 28).
-    2. Move to (4, 30).
-    3. Toss BERRY x2 to free bag space.
-    4. Pick up Escape Rope.
-    5. Exit alcove via South ledge.
-    6. Continue exploration East/North.
+    1. Navigate North along the main path (x=9).
+    2. Check the Eastern area (x>10) for paths.
+    3. Retrieve Item Ball at (7, 18).
+    4. Search for the hidden exit to Route 28 (likely in the NW area).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
