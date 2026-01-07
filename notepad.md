@@ -37,13 +37,12 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** In battle at (14, 30). Escaping.
-- **Goal:** Reach Waterfall Base (11, 30).
+- **Status:** Surfing at (13, 30). Heading to Waterfall.
+- **Goal:** Reach Waterfall Base (11, 30) and Ascend.
 - **Plan:**
-  1. Escape battle.
-  2. Surf West from (14, 30) to (11, 30).
-  3. Ascend Waterfall at (11, 29).
-  4. Warp (13, 21) -> Item Rooms (3_77).
+  1. Surf West to (11, 30).
+  2. Ascend Waterfall at (11, 29).
+  3. Warp (13, 21) -> Item Rooms (3_77).
 - **Item Rooms Strategy:**
   - Navigate to the North-East corner (x=17, y=0).
   - Verify if the "wall" at (16, 2) allows passage via Row 0 or 1.
