@@ -40,13 +40,9 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Item Audit
-- Xenon: Lv29 (20635 EXP). Has item icon. Audit: Taking item.
-- Kimchi: Lv28 (17941 EXP). Holding EXP.SHARE.
-- Icarus: Lv16. Has item icon.
-- Ravioli: Lv10. Empty.
-- Gneiss: Lv46. Empty (Amulet Coin removed).
-- Calcifer: Lv48. Has item icon.
-- Audit Note: Found AMULET COIN on Gneiss. HARD STONE is in Bag.
+- Xenon: Lv29. Empty (Hyper Potion removed).
+- Icarus: Lv16. Has item icon. Audit: Taking item.
+- Audit Step: Checking Icarus (Slot 2). Found Amulet Coin on Gneiss.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 3 to ITEM)
