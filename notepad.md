@@ -37,7 +37,16 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization
-- Turn #31891. Flying to Blackthorn City. Previous menu actions failed due to cursor positioning.
-- Start Menu Cursor: Last seen at SAVE.
-- Inventory: Exp. Share is in bag.
-- Party: Kimchi is lead. Icarus is slot 2.
+- Turn #31894. Stuck in Option menu due to lag/input buffering. Goal: Close menu and Fly to Blackthorn.
+- Sequence failed: Cursor was at OPTION instead of SAVE.
+- Inventory: Exp. Share in bag. Kimchi is lead.
+
+# Failed Hypotheses Log (Training Prep)
+1. Give Exp. Share via menu (Turn #31883): Failed, took Amulet Coin instead.
+2. Swap Xenon to lead (Turn #31886): Failed, entered Save menu.
+3. Give Exp. Share via tool (Turn #31890): Failed, menu lag.
+4. press_menu_buttons sequence (Turn #31892): Failed, entered Option menu instead of Pack/Fly.
+- Total Failures: 4.
+
+# Decisive Action Phase
+- I will manually back out of the Option menu using 'B' and then use the Fly tool again. I'm done trying to be fancy with multi-step button sequences while the game is lagging.
