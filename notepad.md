@@ -57,4 +57,4 @@
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Status: Xenon reached Lv31. Night Shade PP is 1/15. HP is 4/79.
 - Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves in this generation. Haunter is extremely vulnerable to Magnitude. If a wild Geodude or Graveler is encountered while Xenon is weakened, switch to Gneiss (Graveler) immediately to tank the hit.
-- Decision: Used FLY to New Bark Town for healing. Status: Heading back to Route 45 after healing.
+- Decision: Used FLY to New Bark Town for healing (Failed: Mom does not heal in Crystal). Status: Flying to Blackthorn City for a proper heal.
