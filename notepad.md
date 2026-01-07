@@ -12,9 +12,10 @@
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
-- **Tile Mechanics Update:** `FLOOR_UP_WALL` at Row 4 blocked South movement (failed to jump down). Treating as impassable wall for now.
-- **Immediate Task:** Exit Item Room and explore Room 2 Upper Area.
+- **Tile Mechanics Update:** `FLOOR_UP_WALL` at Row 4 blocked South movement. Treating as impassable for now.
+- **Map Structure:** Upper Ledge is segmented. Center (13) connects to Left (6), but Right (17) is blocked by Wall at Col 16.
+- **Immediate Task:** Exit Item Room and explore Room 2 for other entrances.
 - **Sequence:**
-    1. Navigate East to exit warp at (13, 3).
-    2. Exit to Silver Cave Room 2.
-    3. Explore the rest of the Upper Area (North and West).
+    1. Press UP to trigger cave exit (or step off warp).
+    2. If not warped, press DOWN to step back on.
+    3. Find path to Right Side entrance in Room 2.
