@@ -1,12 +1,15 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26293 (Jan 7, 2026) [Silver Cave Room 2]
+- **Timestamp:** Turn 26313 (Jan 7, 2026) [Silver Cave Item Rooms]
 - **Primary Goal:** Defeat Red.
-- **Status:** Surfing in Silver Cave Room 2.
+- **Status:** Inside Silver Cave Item Rooms at (13, 3).
 - **Plan:**
-  1. Surf from (14, 30) to (11, 30).
-  2. Use Waterfall at (11, 29) to ascend.
-  3. Navigate to Warp at (11, 5) leading to Room 3.
-- **Notes:** Right side of Room 2 appears to be a one-way ledge drop (Row 16). Left side requires Surf/Waterfall.
+  1. Go North to Row 0 (Hallway) to bypass the internal walls.
+  2. Go West to Column 2 to access the West Room (Max Revive).
+  3. Go East to Column 17 to access the East Room (Exit).
+- **Map Analysis:**
+  - The "Foyer" (Cols 4-15) is separated from the side rooms by walls at x=3 and x=16.
+  - Connection exists at Row 0 (North Hallway).
+  - Warp at (13,3) seems to be entrance-only or non-functional as exit.
 - **Active Effects:** Max Repel (Turn 26289).
 
 ## Vs Red Strategy
