@@ -11,6 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Defeat Schoolboy Danny (Magmar).
-- **Status:** In Battle. Muscle (Lv 85) vs Magmar (Lv 31).
-- **Action:** Use Strength (OHKO expected).
+- **Status:** In Battle. Muscle (Lv 85) selected Strength vs Magmar (Lv 31).
+- **Action:** Press A to execute Strength.
+- **Outcome:** Expecting OHKO.
 - **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
