@@ -17,7 +17,7 @@
 # Strategy: Johto League Training
 - Method: Switch-training. Lead with Kimchi or Xenon to share EXP, then switch to finisher (Gneiss/Calcifer).
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
-- Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
+- Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted, or when HP is critical.
 - Grinding Session 1: Started Turn #31060 (Tuesday, Jan 6, 2026).
 
 # Ground-Type Safety Protocol (Lethal Threat)
@@ -33,7 +33,9 @@
   - Xenon (Ghost/Poison): Weak (2x).
 
 # Progress Tracker
-- Target Lv30: 21760 EXP (~4571 left for Kimchi, ~1595 left for Xenon).
+- Target Lv30: 21760 EXP.
+- Kimchi: Lv28 (17333 EXP). ~4427 left.
+- Xenon: Lv29 (20309 EXP). ~1451 left.
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
 # Key NPC Locations & Gifts
