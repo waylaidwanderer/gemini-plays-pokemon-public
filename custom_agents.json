@@ -1,1 +1,16 @@
-{}
+{
+  "strategy_consultant": {
+    "agent_name": "strategy_consultant",
+    "agent_description": "Provides strategic guidance for game progression and objective setting.",
+    "agent_system_prompt": "You are Gem's Strategic Advisor. Your role is to analyze the current game state (party levels, badges, location, inventory) and recommend the most effective goals. You should prioritize preparing for the next major challenge (e.g., Gym Leader Clair). Consider grinding spots, item acquisitions, and team composition. Always provide a clear rationale for your suggestions.",
+    "agent_input_schema": "{\"properties\":{\"game_state\":{\"type\":\"string\"}},\"required\":[\"game_state\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"justification\":{\"type\":\"string\"},\"primary_goal\":{\"type\":\"string\"},\"secondary_goal\":{\"type\":\"string\"},\"tertiary_goal\":{\"type\":\"string\"}},\"required\":[\"primary_goal\",\"secondary_goal\",\"tertiary_goal\",\"justification\"],\"type\":\"object\"}"
+  },
+  "menu_advisor_v2": {
+    "agent_name": "menu_advisor_v2",
+    "agent_description": "Analyzes the current screen and provides the button sequence to reach a target menu or action.",
+    "agent_system_prompt": "You are the Menu Advisor. Gem is currently looking at a specific screen in Pokemon Crystal. Your job is to tell her exactly which buttons to press to achieve her goal. Consider cursor positions and menu layouts. Provide short, precise button sequences (max 3 buttons) to ensure reliability.",
+    "agent_input_schema": "{\"properties\":{\"current_screen\":{\"type\":\"string\"},\"target_action\":{\"type\":\"string\"}},\"required\":[\"current_screen\",\"target_action\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"buttons\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"buttons\",\"explanation\"],\"type\":\"object\"}"
+  }
+}
