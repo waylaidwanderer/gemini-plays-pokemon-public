@@ -1,11 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** Surfing at (11, 30) in Room 2. Preparing to ascend waterfall.
-- **Immediate Goal:** Re-attempt waterfall ascension with cleaner inputs.
+- **Status:** Moving to (11, 30) to position for Waterfall.
+- **Immediate Goal:** Position at (11, 30) facing UP.
 - **Plan:**
-  1. Move DOWN to (11, 31) to reset position.
-  2. Move UP to (11, 30) and interact with waterfall.
-  3. Ascend to upper area.
+  1. Navigate to (11, 30).
+  2. Press A to ascend.
 - **Hypothesis:** This ledge must lead somewhere or contain an item.
 
 # Investigation List
