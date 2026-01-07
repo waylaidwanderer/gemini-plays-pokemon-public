@@ -34,13 +34,13 @@
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Fly Map Navigation
-- The Fly menu appears to be a linear cycle, not a 2D grid.
-- Order discovered (pressing Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage.
-- Observation (Turn #32358): Up from Mahogany moved cursor to Lake of Rage.
+- The Fly menu is a linear cycle (Pressing Up cycles forward).
+- Cycle: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn City.
+- Observation (Turn #32359): Blackthorn City reached by pressing Up from Lake of Rage.
 
 # Current Plan: Route 45 Training
-1. Discover full Fly map cycle by pressing Up.
-2. Identify Blackthorn City in the cycle.
-3. Fly to Blackthorn.
-4. Exit south to Route 45.
-5. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
+1. Fly to Blackthorn City (A button on current screen).
+2. Exit south from Blackthorn City at (9, 35).
+3. Battle wild Pokemon on Route 45 to level Xenon and Kimchi to Lv40.
+- Started training at Turn #32266.
+- Arnie rematch completed. Alan rematch failed to trigger. Chad rematch pending.
