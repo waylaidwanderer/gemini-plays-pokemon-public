@@ -1,7 +1,7 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (4, 3). (4, 3), (5, 3), (6, 3) are BLOCKED.
-- **Action:** Testing remaining ledges in Row 3.
+- **Status:** In battle at (5, 3). Escaping to resume testing.
+- **Action:** Escape battle, then move East.
 - **Plan:**
   1. Move Right to (7, 3). Test Jump.
   2. Move Right to (8, 3). Test Jump.
