@@ -34,14 +34,13 @@
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Fly Map Navigation
-- The Fly menu is a 2D map.
-- Observation (Turn #32346): Cursor started at New Bark Town when Fly was opened in Violet City.
-- Observation (Turn #32347): Pressing Up at New Bark moved cursor to Cherrygrove City.
-- Observation (Turn #32348): Pressing Right at Cherrygrove did not move cursor.
+- The Fly menu appears to be a linear cycle, not a 2D grid.
+- Order discovered (pressing Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod.
+- Observation (Turn #32353): Up from Azalea moved cursor to Goldenrod City.
 
 # Current Plan: Route 45 Training
-1. Open Fly map manually (Done).
-2. Move cursor to Blackthorn City using manual inputs.
-3. Press A to Fly.
+1. Discover full Fly map cycle by pressing Up.
+2. Identify Blackthorn City in the cycle.
+3. Fly to Blackthorn.
 4. Exit south to Route 45.
 5. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
