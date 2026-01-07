@@ -10,6 +10,6 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Escape the ledge trap.
-- **Solution:** Found a gap in the northern ledge at (33, 13). The southern "ledge" at y=16 is actually a wall.
-- **Plan:** Walk East to x=33, go Up through the gap, then proceed North-East to Viridian City exit at (39, 9).
+- **Immediate Task:** Navigate to Viridian City.
+- **Path:** Up to (33, 12), East to (37, 12), North to (37, 9), East to Exit (39, 9).
+- **Reason:** Direct East is blocked by walls at x=34 (rows 9-11) and x=38 (row 12). Must snake through (37, 12).
