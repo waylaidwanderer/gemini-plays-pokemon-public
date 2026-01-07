@@ -50,3 +50,6 @@
 - **Hypothesis:** The Left Landing leads to the main section of Item Rooms (Max Revive + Exit).
 - West Landing Analysis: The landing at (4-5, 20-21) appears to be a dead end.
 - Action: Testing wall at (3, 20) for hidden passage. If failed, returning to Central Landing (11, 25) to explore North path to Room 3 and look for other branches.
+- West Landing (4-5, 20) confirmed empty.
+- Strategy Correction: Previous hypothesis about "dead end" in Item Rooms was premature. I failed to execute the plan to use the North Hallway (Row 0).
+- New Plan: Return to Item Rooms (13, 21), traverse the North Hallway to the West Room, and find the warp to Upper Room 2.
