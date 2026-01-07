@@ -1,13 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (7, 3). Testing ledges 7, 8, 9.
-- **Hypothesis:** One of these is a valid jump point.
+- **Status:** In battle at (8, 3). Testing ledges.
+- **Observation:** Jump at (7, 3) FAILED (blocked).
 - **Plan:**
-  1. Test Jump at (7, 3).
+  1. Escape battle.
   2. Test Jump at (8, 3).
   3. Test Jump at (9, 3).
   4. If all fail, move to (13, 3) and exit back to Room 2.
-  5. In Room 2, investigate the water/surf paths more carefully.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
