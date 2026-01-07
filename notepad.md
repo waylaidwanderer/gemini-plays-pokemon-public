@@ -18,7 +18,7 @@
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
 
 # Progress Tracker
-- Last Update: Turn #31598.
+- Last Update: Turn #31601.
 - Grinding Start: Turn #31060.
 - Target Lv30: 21760 EXP (~5691 left for Kimchi, ~2574 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
