@@ -1,20 +1,19 @@
 # Current Strategy: Ascend Western Waterfall
 - **Location:** Silver Cave Room 2 (3_75)
-- **Status:** Surfing to the base of the waterfall.
+- **Status:** At the bottom lake (Row 31). Moving to (7, 30) to ascend the left waterfall.
 - **Goal:** Reach Warp (11, 5) to access Southern Item Rooms.
 - **Plan:**
-  1. Surf Down to the bottom lake (Row 30).
-  2. Surf West to x=7.
-  3. Ascend the waterfall at (7, 29).
-  4. Follow the river North to the warp.
+  1. Move to (7, 30).
+  2. Face UP and use Waterfall on (7, 29).
+  3. Follow the river North to the warp at (11, 5).
 
 # Key Findings
 - **Item Rooms (3_77):**
   - **North Area:** Dead end / Exit loop.
-  - **Ledges (Row 4):** Confirmed IMPASSABLE from North.
-  - **Warp (13, 3):** Exit to Room 2.
+  - **South Area:** Destination. Accessed via Room 2 Warp (11, 5).
 - **Silver Cave Room 2 (3_75):**
-  - **Goal:** Reach Warp (11, 5) via Western Waterfalls.
+  - **Waterfall:** Left side (x=7) leads to upper area. Right side (x=11) leads to exit loop.
+  - **Warp (13, 21):** Exit loop return point.
 
 # Tile Mechanics
-- **WARP_CARPET_DOWN:** Triggers on stepping ONTO it.
+- **WATERFALL:** Requires HM Waterfall. Face UP and press A.
