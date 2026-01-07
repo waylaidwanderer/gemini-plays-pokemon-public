@@ -1,14 +1,14 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26068 (Jan 6, 2026)
+- **Timestamp:** Turn 26079 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** Supplies secured. Preparing to Fly.
+- **Status:** In Viridian City. Walking to Mt. Silver via Route 22.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Fly to Silver Cave -> Climb to Red.
+- **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
 - **Plan:**
-    1. Fly to Silver Cave.
-    2. Enter cave.
-    3. Navigate to Red's chamber (use Waterfall/Rock Climb paths).
+    1. Walk to Route 22.
+    2. Enter Reception Gate.
+    3. Enter Silver Cave.
     4. BATTLE: Use 'battle_strategist' agent for advice.
 
 # Recent Discoveries
