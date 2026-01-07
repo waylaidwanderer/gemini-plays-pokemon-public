@@ -37,9 +37,8 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization
-- Turn #31896. Manually navigating the POKEMON menu to Fly.
-- Cursor: FLASH (KIMCHI's Menu).
-- Goal: Select FLY on ICARUS and travel to Blackthorn City.
+- Turn #31900. Healing at Cianwood Pokemon Center.
+- Goal: Complete Cianwood Consolidation plan.
 
 # Failed Hypotheses Log (Training Prep)
 1. Give Exp. Share via menu (Turn #31883): Failed, took Amulet Coin.
@@ -48,11 +47,11 @@
 4. press_menu_buttons sequence (Turn #31892): Failed, entered Option menu.
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
 6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
+7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic.
 - Total Failures: 7.
-7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic (Reset-to-New-Bark failed or cursor logic was off).
 
 # Decisive Action Phase: Cianwood Consolidation
-- Step 1: Heal at Cianwood PC.
+- Step 1: Heal at Cianwood PC (Current).
 - Step 2: Give Kimchi Exp. Share.
 - Step 3: Swap Xenon to lead.
 - Step 4: Fly to Blackthorn City using fly_to_city_v4.
