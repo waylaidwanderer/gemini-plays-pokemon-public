@@ -32,13 +32,13 @@
 # Strategy: Current Status
 - Goal: Return to Route 45 to continue training.
 - Status: Party fully healed (Turn #32174). XENON (Lv30), KIMCHI (Lv29).
-- Lesson Learned: Fly map 'Up' from New Bark Town goes to Cherrygrove City. The Fly list order in the notepad needs verification.
-- Next: Fly to Blackthorn City. Carefully observe cursor on map.
+- Next: Fly to Blackthorn City. Pacing in grass at (4, 11) for levels.
 
-# Fly Map Observation (Turn #32170)
+# Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
 - Input 'Up' -> Result: Cherrygrove City.
-- Conclusion: The Fly list order is [New Bark Town, Cherrygrove City, ...]. 'Up' moves forward in the list. To reach Blackthorn (likely the end), I need to move 'Down' from New Bark (if it wraps) or many 'Up's.
+- Input 'Down' -> Result: Blackthorn City (Wraps from New Bark).
+- Conclusion: The Fly list order is [New Bark Town, Cherrygrove City, ..., Blackthorn City].
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
