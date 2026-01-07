@@ -1,12 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (13, 22) in Room 2. Just exited Item Rooms.
-- **Hypothesis:** The Item Rooms (3_77) have a path on the LEFT side that I missed.
-- **Reasoning:** I checked Center (blocked ledges) and Right (blocked wall). Left side is unexplored.
+- **Status:** In battle with Parasect at (5, 3). Escaping to test ledges.
+- **Hypothesis:** Ledge at (6, 3) is jumpable.
 - **Plan:**
-  1. Re-enter Item Rooms via (13, 21).
-  2. Explore the West side (x < 10) for a gap in the ledge or a path around.
-  3. If West side is also blocked, return to Room 2 and try the Surf route to (5, 21).
+  1. Escape battle.
+  2. Move to (6, 3).
+  3. Jump DOWN to (6, 4).
+  4. Explore south.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
