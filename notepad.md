@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25832 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Surf and explore Silver Cave Room 2 West.
+- **Immediate Task:** Ascend Waterfall at (11, 29).
 - **Sequence:**
-    1. Clear "used SURF!" text.
-    2. Navigate West to (11, 30).
-    3. Use Waterfall on the waterfall at (11, 29).
-    4. Explore the Upper Area.
+    1. Navigate to (11, 30).
+    2. Face Up and use Waterfall.
+    3. Explore the Upper Area.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
