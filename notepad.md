@@ -1,11 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** Ascending Waterfall at (11, 30).
-- **Immediate Goal:** Reach the top of the waterfall (likely warp at 11, 5).
+- **Status:** Ascended waterfall. At (11, 27).
+- **Immediate Goal:** Navigate north to warp at (11, 5).
 - **Plan:**
-  1. Clear "Used Waterfall" text.
-  2. Ride waterfall to the top.
-  3. Enter warp at (11, 5).
+  1. Surf/Walk North to (11, 5).
+  2. Enter warp to final area.
 - **Hypothesis:** This ledge must lead somewhere or contain an item.
 
 # Investigation List
