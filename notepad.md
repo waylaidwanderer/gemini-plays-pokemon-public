@@ -10,7 +10,7 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Defeat the Youngster at (4, 12).
-- **Status:** Triggered Trainer Battle at (5, 12).
-- **Plan:** Mash A to win (opponent is ~Lv 4).
+- **Immediate Task:** Defeat Schoolboy Danny (Jynx Lv 31).
+- **Status:** In Battle. Muscle (Lv 84) vs Jynx (Lv 31).
+- **Plan:** Use Strength or Thunderpunch for OHKO.
 - **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
