@@ -1,11 +1,12 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore East Side of Silver Cave Room 2.
+- **Immediate Task:** Explore Bottom East of Silver Cave Room 2.
 - **Sequence:**
-    1. Surf East from (6, 27) towards (20, 27).
-    2. Look for a landing spot on the East bank.
-    3. Search for a cave entrance leading to the Right Side of the Item Room.
+    1. Slide down the waterfall from (6, 27) to Row 30.
+    2. Surf East to land at (14, 30).
+    3. Explore North along the East bank to check if the path (x=17) is blocked by ledges or open.
+    4. If blocked, return to Room 1 to find another entrance.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
