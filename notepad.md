@@ -51,8 +51,10 @@
 - [ ] Check Party Member 2 (ICARUS) - Has item icon.
 - [x] Check Party Member 3 (KIMCHI) - Holding Exp. Share.
 - [x] Check Party Member 4 (Ravioli) - Was holding BITTER BERRY.
-- [>] Check Party Member 5 (GNEISS) - Checking...
-- [ ] Check Party Member 6 (Calcifer) - Has item icon.
+- [x] Check Party Member 5 (GNEISS) - Found AMULET COIN.
+- [>] Check Party Member 6 (Calcifer) - Has item icon.
+- [ ] Check Party Member 1 (XENON) - Check icon.
+- [ ] Check Party Member 2 (ICARUS) - Check icon.
 - [ ] Check PC Item Storage.
 - [ ] Check PC Box 1 (8 Pokemon).
 
