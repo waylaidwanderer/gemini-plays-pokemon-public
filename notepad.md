@@ -15,9 +15,9 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** Blocked at x=4, 5, 6, 7, 12, 14, 15.
-  - **Hypothesis:** The jumpable spot must be between x=8 and x=11.
-  - **Plan:** Test x=11, 10, 9, 8.
+  - **Status:** Blocked at x=4, 5, 6, 7, 11, 12, 14, 15.
+  - **Hypothesis:** The jumpable spot must be between x=8 and x=10.
+  - **Plan:** Test x=10, 9, 8.
   - **Goal:** Reach lower area to access western gap at x=2.
 - **Path Verification:**
   - x=3 is a Wall (Row 1-3). Direct access to West is impossible without jumping.
