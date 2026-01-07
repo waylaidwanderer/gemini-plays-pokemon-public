@@ -47,11 +47,11 @@
 
 # Amulet Coin Search Tracker
 - [x] Check Bag (Items/Key Items/Balls/TMs) - Not found.
-- [ ] Check Party Member 1 (XENON)
-- [ ] Check Party Member 2 (ICARUS)
+- [ ] Check Party Member 1 (XENON) - Checked (Nothing).
+- [ ] Check Party Member 2 (ICARUS) - Checked (Nothing).
 - [ ] Check Party Member 3 (KIMCHI) - Holding Exp. Share.
-- [>] Check Party Member 4 (Ravioli)
-- [ ] Check Party Member 5 (GNEISS)
+- [x] Check Party Member 4 (Ravioli) - Found BITTER BERRY.
+- [>] Check Party Member 5 (GNEISS)
 - [ ] Check Party Member 6 (Calcifer)
 - [ ] Check PC Item Storage.
 - [ ] Check PC Box 1 (8 Pokemon).
