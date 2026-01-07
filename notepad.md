@@ -1,16 +1,15 @@
 # Current Strategy: Resupply at Indigo Plateau
-- **Timestamp:** Turn 26039 (Jan 6, 2026)
+- **Timestamp:** Turn 26042 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** Arrived at Indigo Plateau via Fly. Interrupted by Wade's phone call.
-- **Immediate Goal:** Clear phone call -> Enter League Building -> Buy Supplies.
+- **Status:** At Indigo Plateau Entrance (9, 6). Call with Wade finished.
+- **Immediate Goal:** Enter League Building -> Buy Supplies.
 - **Shopping List:**
     - 20 Full Restores
     - 20 Revives
 - **Plan:**
-    1. Finish conversation with Wade.
-    2. Enter Indigo Plateau (Door at 9,5).
-    3. Buy supplies.
-    4. Fly to Silver Cave.
+    1. Enter Indigo Plateau (Move Up).
+    2. Buy supplies.
+    3. Fly to Silver Cave.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
