@@ -1,14 +1,16 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25949 (Jan 6, 2026)
+- **Timestamp:** Turn 25950 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
 - **Immediate Task:** Use Hyper Potion on Muscle.
 - **Battle Plan:**
     1. **Charizard (Lv77):** Active. Muscle (51 HP).
-    2. **Turn 1 (Current):** Select PACK -> Use Hyper Potion.
+    2. **Turn 1 (Current):** Confirm Hyper Potion Use.
+       - Sequence: Select Hyper Potion (A) -> Select USE (A) -> Select Muscle (A).
        - Muscle heals to 251/280.
-       - Charizard attacks (Flamethrower/Wing Attack). Muscle survives.
-    3. **Turn 2:** Use Strength.
-       - Reason: Strength (80 BP, Physical) uses Muscle's high Attack. ThunderPunch (Electric, Special) uses Muscle's low Special Attack. Despite 2x weakness, Strength is likely safer/stronger.
+       - Charizard attacks.
+    3. **Turn 2:** Attack with Strength.
+       - Strength (Physical, 80 BP) vs ThunderPunch (Special, 75 BP * 2 = 150).
+       - Machoke's Atk >> SpAtk. Strength is likely more consistent.
     4. **Snorlax:** Muscle's Cross Chop.
     5. **Venusaur:** Ice Punch or Strength.
     6. **Blastoise:** Cross Chop.
