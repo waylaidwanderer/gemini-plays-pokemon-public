@@ -65,3 +65,8 @@
 
 # Tile Mechanics: General
 - GRASS: Traversable. Verified in New Bark Town.
+
+# Training Status Update
+- Current Status: Xenon (Haunter) Lv31, fully healed (79/79 HP, 14/15 Night Shade PP).
+- Kimchi (Gloom) Lv30, fully healed (79/79 HP).
+- Location: Route 45, training for Rising Badge.
