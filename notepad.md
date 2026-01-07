@@ -40,13 +40,24 @@
 - Cianwood Consolidation: Started Turn #31883.
 - Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
 - Turn #31927: Party swap successful! Xenon is now in the lead.
-- Turn #31936: Using give_item_v3_ultimate to give Exp. Share (slot 3) to Kimchi (slot 3).
-- Lesson: Crystal remembers Start menu cursor too. Up-reset ALL menus.
+- Turn #31936: give_item_v3_ultimate failed. It opened the Trainer Card because the Start menu wraps and the reset was off.
+- Turn #31937: Giving Exp. Share manually via press_menu_buttons.
+- Lesson: Crystal's Start and Party menus WRAP. Up-resetting is unreliable without knowing the exact menu size.
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (In Progress).
+- Step 2: Give Kimchi Exp. Share (Manual attempt Turn #31937).
 - Step 3: Fly to Blackthorn City.
+
+# Start Menu (8 options) - WRAPS
+1. POKEDEX
+2. POKEMON
+3. PACK
+4. POKEGEAR
+5. GEM (Trainer Card)
+6. SAVE
+7. OPTION
+8. EXIT
 
 # Menu Mapping (Cianwood PC)
 - Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
