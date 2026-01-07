@@ -41,6 +41,5 @@
 - give_item_v2: Definition failed (limit reached). Using use_item_on_pokemon_v2 instead.
 
 # Turn Synchronization
-- Turn #31886. Swapping Xenon to lead using press_menu_buttons. Next: Give Kimchi Exp. Share and Fly to Blackthorn.
-- Start Menu Order: POKéDEX, POKéMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT.
-- Party Menu (KIMCHI): STATS, FLASH, CUT, SWITCH, CANCEL.
+- Turn #31890. Attempting to give Kimchi Exp. Share. Last turn's swap failed due to menu lag.
+- Items: Exp. Share is in pack. Kimchi is lead.
