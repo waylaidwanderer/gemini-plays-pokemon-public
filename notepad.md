@@ -1,18 +1,15 @@
 # Current Strategy: Battle vs Red
 - **Timestamp:** Turn 25973 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Select FIGHT -> Switch to ThunderPunch.
+- **Immediate Task:** Heal Muscle with Hyper Potion.
 - **Battle Plan:**
-    1. **Current State:** Muscle (243/280, Burned). Charizard (~60%).
-    2. **Insight:** Burn halves Attack (Physical). Strength is now weak (~40 BP eff).
-    3. **New Tactic:** Use ThunderPunch (Special).
-       - Electric vs Flying = 2x.
-       - Base 75 * 2 = 150 BP.
-       - Burn does NOT lower Special Attack.
-       - Even with low SpAtk, 150 BP Special > 40 BP Physical.
-    4. **Action:** Select FIGHT to open move menu.
-    5. **Next:** Select ThunderPunch.
-- **Resources:** Muscle (243/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
+    1. **Current State:** Muscle (79/280, Burned). Charizard (~60%).
+    2. **Danger:** 79 HP is lethal range for Flamethrower. Must Heal.
+    3. **Action:** Open PACK -> Use Hyper Potion.
+    4. **Next Turn (Attacking):** Use **ThunderPunch**.
+       - Reason: Burn halves Attack (Strength becomes weak).
+       - ThunderPunch (Special) is unaffected by Burn and is Super Effective.
+- **Resources:** Muscle (79/280). 0 Max Revive. ~2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
