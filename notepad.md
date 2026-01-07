@@ -2,14 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Victory Road Gate (0, 7).
-- **Observation:** Walking "Left" moved me off the warp tile.
-- **Hypothesis:** Stepping back ONTO the warp tile at (1, 7) should trigger the exit to Route 28.
-- **Plan:**
-    1. Walk Right to (1, 7).
-    2. Exit to Route 28.
-    3. Head West along the top edge to find the NW House.
-- **Note:** If this exits me back to the East side (Sign), I will need to look for a different exit in this room or re-evaluate the Route 28 map.
+- **Current Location:** Victory Road Gate (1, 7).
+- **Action:** Attempting to trigger exit warp.
+- **Testing:**
+    1. Down (into potential door trigger).
+    2. Left, Left (walking off map edge).
+- **Hypothesis:** One of these directions triggers the exit to Route 28.
+- **Goal:** Reach the NW House on Route 28.
+- **Route 28 Layout:** East side (33,5) connects to this gate. If I exit here, I might return to (33,5). I need to check if there is a path WEST from (33,5) to the rest of the route.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
