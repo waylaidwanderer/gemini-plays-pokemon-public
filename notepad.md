@@ -15,13 +15,13 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (11, 25) in Room 2, above a waterfall.
-- **Action:** Descending waterfall to exit loop.
+  - **Status:** At (11, 30) in Room 2 (Lower Area).
+- **Action:** Exiting to Room 1.
 - **Plan:**
-  1. Surf and descend waterfall at (11, 28).
-  2. Exit to Room 1 via warp at (17, 31).
-  3. Find path to Warp (11, 5) - likely requires Surfing/Waterfall from the main area of Room 1 or 2.
-- **Hypothesis:** Warp (11, 5) leads to Red.
+  1. Exit to Room 1 via warp at (17, 31).
+  2. Explore Room 1 for other warps.
+  3. Hypothesis: A different warp in Room 1 leads to the "Central Room" of Room 2 (where Warp 11,5 is) OR to the lower area of Item Rooms.
 - **Warp Discrepancy (Item Rooms):**
   - Item Rooms upper ledge was a dead end.
   - Returned to Room 2 via (13, 21).
+  - The "Central Room" of Room 2 (x=9-13, y=6-20) appears walled off from the South (y=21). Must be accessed via another warp.
