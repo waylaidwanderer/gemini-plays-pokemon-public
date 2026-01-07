@@ -244,7 +244,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", # Clear any open menus (Bag, etc.)\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on POKEDEX\n        \"Down\", \"A\", \"sleep 500\", # Select POKEMON\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on KIMCHI\n        \"Down\", \"A\", \"sleep 500\", # Select ICARUS (2nd slot)\n        \"A\", \"sleep 500\", # Select FLY (assumed first field move)\n        \"sleep 2000\"\n    ]\n    buttons.extend(navigation)\n    buttons.append(\"A\") # Confirm destination\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", # Clear any open menus (Bag, Pokedex, etc.)\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on POKEDEX\n        \"Down\", \"A\", \"sleep 500\", # Select POKEMON\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on KIMCHI\n        \"Down\", \"A\", \"sleep 500\", # Select ICARUS (2nd slot)\n        \"A\", \"sleep 500\", # Select FLY (assumed first field move)\n        \"sleep 2000\"\n    ]\n    buttons.extend(navigation)\n    buttons.append(\"A\") # Confirm destination\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -255,6 +255,11 @@
         "commit_message": "Refined fly_to_blackthorn to be more robust by clearing the UI and ensuring correct menu selection.",
         "timestamp": "2026-01-07T06:00:27.598Z",
         "action_counter": 31773
+      },
+      {
+        "commit_message": "Fixed the missing main call and improved menu clearing for fly_to_blackthorn.",
+        "timestamp": "2026-01-07T06:00:52.123Z",
+        "action_counter": 31774
       }
     ]
   }
