@@ -11,7 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Traversing Route 1. Stuck at (2, 12).
-- **Issue:** Movement West and South failed. Likely blockage or menu state.
-- **Action:** Attempting to move East to (3, 12) then South.
-- **Hypothesis:** (1, 12) might be blocked. (2, 13) ledge might be glitchy. Trying x=3 path.
+- **Status:** Traversing Route 1. At (3, 12).
+- **Obstacle:** (2, 13) and (3, 13) are impassable fence/ledge blocks. (4, 12) is blocked by Youngster.
+- **Solution:** The path at x=1 appears to be open grass.
+- **Action:** Move Left to (1, 12), then South to bypass the blockage.
