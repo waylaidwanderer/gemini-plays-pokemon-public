@@ -1,15 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25917 (Jan 6, 2026)
+- **Timestamp:** Turn 25919 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Finish Pikachu.
+- **Immediate Task:** Sacrifice Mistral, then Muscle vs Espeon.
 - **Battle Plan:**
-    1. **Pikachu (Lv81):** HP Yellow. Muscle is -2 Atk and likely Paralyzed (OCR `☎`). Use Cross Chop.
-    2. **Espeon (Lv73):** Switch to Kunai (Sneasel) or Muscle.
+    1. **Pikachu:** Defeated.
+    2. **Espeon (Lv73):** Mistral (Lv15) uses Quick Attack (chip dmg) then faints. Switch to Muscle. Use Strength (Normal is 1x, Fighting is 0.5x vs Psychic).
     3. **Snorlax (Lv75):** Muscle's Cross Chop.
     4. **Venusaur (Lv77):** Muscle's Ice Punch.
     5. **Charizard (Lv77):** Muscle's ThunderPunch.
     6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
-- **Resources:** Muscle (201/280 HP, -2 Atk, PAR?). Cross Chop PP: 4. Cursor on Ice Punch -> Down -> Cross Chop.
+- **Resources:** Muscle (201/280 HP). 5 Revives. 1 Full Restore. Mistral will die this turn.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
