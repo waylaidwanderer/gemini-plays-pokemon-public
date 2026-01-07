@@ -27,12 +27,12 @@
 - Goal: Xenon and Kimchi to Lv40.
 - Hazards: Magnitude/Earthquake. Use Gneiss (Ground type) as backup.
 
-# Party Status (Turn #32108)
+# Party Status (Turn #32109)
 - 1. XENON (Haunter): Lv29. HP 0/74. FAINTED. Holding AMULET COIN.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
 - 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
-- 5. GNEISS (Graveler): Lv46. HP 129/129. Leading (in battle).
+- 5. GNEISS (Graveler): Lv46. HP 129/129.
 - 6. Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Tactics: Rising Badge (Gym Leader Clair)
