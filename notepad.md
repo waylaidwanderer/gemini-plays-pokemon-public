@@ -25,7 +25,7 @@
 - Xenon (Lv28): 18371 EXP. Target Lv30: 21760 EXP (~3389 remaining).
 - Kimchi (Lv25): 13402 EXP. Target Lv30: 21760 EXP (~8358 remaining).
 - Gneiss (Lv46): 129/129 HP. Earthquake PP: 10/10.
-- Xenon Status: 48/72 HP. Night Shade PP: 7/15.
+- Xenon Status: 48/72 HP. Night Shade PP: 6/15.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
 - Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/27), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack/Poison Sting. 
