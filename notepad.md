@@ -1,8 +1,8 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26356 (Jan 7, 2026) [Silver Cave Outside]
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Silver Cave Pokemon Center.
-- **Immediate Goal:** Heal party.
+- **Status:** Outside Silver Cave Pokemon Center (Route 28).
+- **Immediate Goal:** Re-enter Silver Cave.
 - **Next:** Return to Silver Cave Room 2 and find the correct path.
 
 # Failed Routes
