@@ -24,11 +24,13 @@
 - Level Target: Xenon and Kimchi to Lv40.
 - Tactical Plan: Lead with Xenon (Ghost; immune to Selfdestruct). Night Shade for fixed damage. Gneiss/Calcifer as finishers.
 - Preparation: Stock up on Full Heals. Prepare status/counters for Kingdra.
+- Kingdra Tactics: Use Kimchi's Sleep Powder/Stun Spore. Train Xenon for Destiny Bond (Lv45) as a fallback.
 
 # Strategy: Johto League Training
 - Method: Exp. Share on Kimchi, lead with Xenon.
 - Spot: Route 45 grass (4, 12).
 - Resource Management: Fly to Blackthorn PC to heal.
+- Hazards: Watch for Ground moves (Magnitude/Earthquake) on Route 45; they hit Xenon hard. Use Icarus/Gneiss for safety.
 
 # Ground-Type Safety Protocol
 - Problem: Xenon is weak to Ground (Magnitude/Earthquake).
