@@ -1,14 +1,16 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25970 (Jan 6, 2026)
+- **Timestamp:** Turn 25971 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Execute Strength.
+- **Immediate Task:** Attack with Strength.
 - **Battle Plan:**
-    1. **Current State:** Muscle (280/280) vs Charizard. Cursor on STRENGTH.
-    2. **Action:** Press A to use STRENGTH.
-    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks (~120-160 dmg).
-    4. **My Turn:** Strength hits (~80-100 dmg).
-    5. **Next:** Assess HP. If low, Heal. If high, Attack.
-- **Resources:** Muscle (280/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
+    1. **Current State:** Muscle (243/280) vs Charizard (~65% HP).
+    2. **Last Turn:** Charizard used Fire Spin (Low Dmg + Trap). Muscle used Strength.
+    3. **Action:** Select FIGHT -> STRENGTH.
+    4. **Opponent Turn:** Charizard attacks.
+       - If Fire Spin continues: Low damage.
+       - If Flamethrower/Wing Attack: ~120 dmg.
+    5. **Next:** Check HP. If > 120, Attack. If < 120, Heal.
+- **Resources:** Muscle (243/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
