@@ -62,18 +62,19 @@
 # Timestamps & Turn Tracking
 - Grinding Session 1 (Route 45): Started Turn #31060 (Tuesday, Jan 6, 2026, 9:51 PM).
 
-# Fly Map Calibration (List-based)
-- Menu starts at: New Bark Town.
-- Up x1: Cherrygrove City.
-- Up x2: Violet City.
-- Up x3: Azalea Town.
-- Up x4: Goldenrod City.
-- Up x5: Ecruteak City.
-- Up x6: Olivine City.
-- Up x7: Cianwood City.
-- Up x8: Mahogany Town.
-- Up x9: Lake of Rage.
-- Goal: Blackthorn City.
+# Fly Map Calibration (List-based) - CONFIRMED
+- Fly menu ALWAYS starts at New Bark Town regardless of current location.
+- Destinations in order (using UP from New Bark Town):
+  1. Cherrygrove City
+  2. Violet City
+  3. Azalea Town
+  4. Goldenrod City
+  5. Ecruteak City
+  6. Olivine City
+  7. Cianwood City
+  8. Mahogany Town
+  9. Lake of Rage
+  10. Blackthorn City
 
 # Strategy for Beating Gym Leader Clair
 - Team Status: Need Xenon and Kimchi at Lv30+ to handle Dragon-types and Kingdra's bulk.
