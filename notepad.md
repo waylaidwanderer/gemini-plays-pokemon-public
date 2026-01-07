@@ -1,18 +1,17 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25944 (Jan 6, 2026)
+- **Timestamp:** Turn 25945 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Refuse Switch. Save Gyarados.
+- **Immediate Task:** Refuse Switch. Heal Muscle.
 - **Battle Plan:**
-    1. **Pikachu:** Defeated.
-    2. **Espeon:** Defeated.
-    3. **Charizard:** Incoming.
-       - Refuse switch (Keep Gyarados as Revive Pivot).
-       - Turn 1: Use Hyper Potion on Muscle (51 -> 251 HP).
-       - Charizard attacks. Muscle tanks.
-       - Turn 2: ThunderPunch (Super Effective).
-    4. **Snorlax:** Muscle's Cross Chop.
-    5. **Venusaur:** Ice Punch.
-    6. **Blastoise:** ThunderPunch/Cross Chop.
+    1. **Charizard (Lv77):** Incoming.
+    2. **Turn 1:** Stay in. Use Hyper Potion on Muscle.
+       - Muscle (51 HP) heals to 251.
+       - Charizard attacks (Flamethrower/Wing Attack). Damage estimated ~80. Muscle ~170 HP.
+    3. **Turn 2:** Use ThunderPunch.
+       - Super Effective (2x). High damage.
+    4. **Snorlax (Lv75):** Muscle's Cross Chop.
+    5. **Venusaur (Lv77):** Muscle's Ice Punch.
+    6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
 - **Resources:** Muscle (51/280). 3 Hyper Potions. 1 Max Revive. Gyarados alive.
 
 # Recent Discoveries
