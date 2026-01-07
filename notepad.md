@@ -31,19 +31,18 @@
 
 # Progress Tracker
 - Target Lv40: 56660 EXP.
-- Kimchi: Lv28 (17615 EXP). ~39045 left.
-- Xenon: Lv29 (20309 EXP). ~36351 left.
-- Encounter Log: Donphan (25/30), Geodude (23), Graveler (23/25/27), Gligar (24), Skarmory (24).
+- Kimchi (Gloom): Lv28 (17615 EXP). ~39045 left.
+- Xenon (Haunter): Lv29 (20309 EXP). ~36351 left.
 
 # Key Locations & Gifts
+- Mr. Pokemon: Route 30 (17, 5). Trade Red Scale for Exp. Share.
 - Dana (Lass): Route 38. Has a gift.
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization Note
-- Turn counter may be off by 1; verify with Game State. (Observed Turn #31816)
+- Turn #31861.
 
-# Area Mechanics: Route 45
+# Area Mechanics: Route 30
 - TALL_GRASS: Traversable, triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way jump South.
-- LEDGE_HOP_LEFT: One-way jump West.
-- LEDGE_HOP_RIGHT: One-way jump East.
+- LEDGE_HOP_DOWN: One-way jump South. Blocked from moving North.
+- Navigating North: Must detour around ledges using gaps in rocks/trees (e.g., heading right through grass at (12, 48)).
