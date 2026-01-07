@@ -43,3 +43,4 @@
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 - Priority: Check for missed items/trainers while grinding.
+- **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
