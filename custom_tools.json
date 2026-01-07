@@ -139,33 +139,6 @@
       }
     ]
   },
-  "fly_to_city_v2": {
-    "description": "Uses Fly to travel to a city. Assumes Icarus is in slot 2 and Fly is the first field move. Takes a city name and uses the calibrated list.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "city_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "city_name"
-      ]
-    },
-    "python_script": "import json\ncity_name = input_data.get('city_name', '').upper()\ncities = [\"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \"MAHOGANY TOWN\", \"LAKE OF RAGE\", \"BLACKTHORN CITY\"]\nif city_name not in cities: print(json.dumps([]))\nelse:\n    target_idx = cities.index(city_name)\n    seq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'Down', 'A', 'A', 'sleep 2000']\n    for _ in range(target_idx): seq.append('Up')\n    seq.extend(['A', 'sleep 1000', 'A'])\n    print(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T06:34:04.269Z",
-        "action_counter": 31833
-      },
-      {
-        "commit_message": "Refined Fly menu navigation logic.",
-        "timestamp": "2026-01-07T06:34:55.324Z",
-        "action_counter": 31834
-      }
-    ]
-  },
   "use_item_on_pokemon_v2": {
     "description": "Uses an item from the bag on a Pokemon. Automatically finds the item index in the Items pocket and resets the menu state.",
     "input_schema": {
@@ -232,6 +205,28 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T06:44:21.222Z",
         "action_counter": 31838
+      }
+    ]
+  },
+  "fly_to_city_v3": {
+    "description": "Uses Fly to travel to a city. Assumes Icarus is in slot 2 and Fly is the first field move. Uses a robust 'Reset to New Bark' strategy.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "city_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "city_name"
+      ]
+    },
+    "python_script": "import json\n\ndef main(input_data):\n    city_name = input_data['city_name'].lower()\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"Down\", \"A\", \"A\", \"sleep 2000\"]\n    buttons.extend([\"Down\"] * 10)\n    buttons.extend([\"Right\"] * 10)\n    paths = {\n        \"new bark town\": [],\n        \"cherrygrove city\": [\"Left\"],\n        \"violet city\": [\"Left\", \"Up\"],\n        \"azalea town\": [\"Left\", \"Up\", \"Down\"],\n        \"goldenrod city\": [\"Left\", \"Up\", \"Left\"],\n        \"ecruteak city\": [\"Left\", \"Up\", \"Up\"],\n        \"olivine city\": [\"Left\", \"Up\", \"Up\", \"Left\"],\n        \"cianwood city\": [\"Left\", \"Up\", \"Up\", \"Left\", \"Left\"],\n        \"mahogany town\": [\"Left\", \"Up\", \"Up\", \"Right\"],\n        \"lake of rage\": [\"Left\", \"Up\", \"Up\", \"Up\", \"Right\"],\n        \"blackthorn city\": [\"Left\", \"Up\", \"Up\", \"Right\", \"Right\"]\n    }\n    if city_name in paths:\n        buttons.extend(paths[city_name])\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Refined Fly tool with 'Reset to New Bark' strategy for reliable Johto navigation.",
+        "timestamp": "2026-01-07T07:21:03.989Z",
+        "action_counter": 31883
       }
     ]
   }

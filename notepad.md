@@ -37,8 +37,8 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Custom Tool Maintenance
-- fly_to_city_v2: Updated on Turn #31882 to use a robust "Reset to New Bark" strategy for reliable navigation.
-- give_item_v2: Defined on Turn #31882 to automate giving held items.
+- fly_to_city_v3: Refined on Turn #31883 with 'Reset to New Bark' strategy.
+- give_item_v2: Definition failed (limit reached). Using use_item_on_pokemon_v2 instead.
 
 # Turn Synchronization
 - Turn #31882. Swapped Xenon to lead and gave Kimchi Exp. Share. Currently on Route 30. Plan to Fly to Blackthorn next turn.
