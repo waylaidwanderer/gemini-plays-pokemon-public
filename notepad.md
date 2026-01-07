@@ -1,9 +1,13 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Exploring Lower Room 2. Landing at (14, 30).
-- **Hypothesis:** The "loop" confirms that the Waterfall Top area and Item Rooms North are not the way to Red.
-- **Search:** Checking the Lower Area of Room 2 for hidden paths, items, or warps.
-- **Next:** If nothing on land, check the West water (x < 7). If nothing there, return to Room 1 to look for a different exit.
+- **Status:** Exploring Lower Room 2 (Land Area).
+- **Location:** Near Warp (17, 31).
+- **Hypothesis:** This landing connects to Room 1 (confirmed loop). The *real* path is likely the unexplored SW Water (x < 4).
+- **Plan:**
+  1. Verify Warp (17, 31) (Loop).
+  2. Surf West to the far Southwest corner (x < 4).
+  3. Explore for hidden caves or items.
+- **Reference:** Previous loop confirmation at Turn 26455.
 
 # Key Findings
 - **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
