@@ -19,7 +19,6 @@
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
 - Started: Turn #32266, 2026-01-07 04:30 AM.
-- Current Status: Xenon Lv30, Kimchi Lv30. Turn #32485.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Training Location: Route 45 (high level Rock/Ground/Flying).
 
@@ -48,11 +47,3 @@
 - Interaction: Always ensure you are facing the target tile before pressing A.
 - Battle (Route 45): Wild Ground types (Graveler, Donphan) use Magnitude. Haunter is extremely vulnerable to this. Switch to GNEISS or a flyer if a high-magnitude threat is present.
 - Critical Hits: A crit Magnitude 6 can OHKO Haunter even at a level advantage. Don't underestimate wild encounters.
-
-# Reflection (Turn #32485)
-1. Immediate Execution: No deferred tasks.
-2. Notepad Hygiene: Updated Tile Mechanics, consolidated training status, and added Magnitude/Ground threat lesson.
-3. Map Hygiene: Markers are accurate.
-4. Automation Strategy: Tools are effective.
-5. Goal Clarity: Goals are outcome-focused.
-6. Error Analysis: Magnitude threat and button mixing addressed. Root hypothesis (Haunter can tank wild Ground moves) corrected.
