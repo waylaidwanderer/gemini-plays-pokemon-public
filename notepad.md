@@ -19,3 +19,5 @@
 - **Route 28:** Path leads West to Silver Cave.
 - **Silver Cave:** Item Room (Left) contains Max Revive. Upper Ledge center connects to Left section.
 - **Route to PC:** From (36, 30), go South to Row 32, West to Column 28, North to Row 28, West to Surf Spot (24, 28). Surf West to (15, 28). Walk West to (1, 28) and North through gap at (1, 23).
+- Ledge Failure: Attempted to jump down FLOOR_UP_WALL at (10, 34) and failed (Movement Blocked). Trying (8, 34) next.
+- Map Insight: Columns 0 and 19 appear to be the main vertical corridors North, accessible from Row 35 (Bottom). Row 34 is a barrier of ledges.
