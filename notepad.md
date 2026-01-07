@@ -9,7 +9,7 @@
 - WALL: Impassable.
 - TALL_GRASS: Walkable. Wild encounters.
 - WATER: Requires Surf to traverse.
-- WARP_CARPET_DOWN: Triggers map transition when walking down.
+- WARP_CARPET_DOWN: Triggers map transition when walking down. (Verify: check if one-way).
 - DOOR: Triggers map transition when entered.
 - HEADBUTT_TREE: Interact to use Headbutt (if learned).
 - LEDGE_HOP: One-way movement in the direction of the arrow.
@@ -27,8 +27,10 @@
 # Current Plan
 1. Return to Route 45 for efficient training (Lv23+ wild Pokemon).
 2. Train Xenon and Kimchi to Lv40+.
-3. Shadow Punch verified missing at Lv33.
-4. Return to Blackthorn City for Gym challenge.
+3. Return to Blackthorn City for Gym challenge.
+
+## Pokémon Observations
+- Xenon (Haunter): Shadow Punch verified missing at Lv33. (Note: Learned at Lv25 in Crystal).
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
@@ -39,4 +41,6 @@
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
 # Training Log: Route 45
+- Started Turn 33130.
 - Strategy: Lead with Gneiss (Lv46) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
+- Turn 33151: Encountered wild Graveler.
