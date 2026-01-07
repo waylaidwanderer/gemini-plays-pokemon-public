@@ -3,7 +3,7 @@
 - WALL: Impassable.
 - TALL_GRASS: Traversable. Wild encounter trigger.
 - LEDGE_HOP: One-way traversal.
-- CAVE/WARP: Map transitions. Stand on or face and interact.
+- CAVE/WARP: Map transitions.
 - WATER: Traversable (Surf).
 - CUT_TREE: Obstacle (Cut).
 - BOULDER: Obstacle (Strength).
@@ -27,7 +27,7 @@
 - Goal: Xenon and Kimchi to Lv40.
 - Hazards: Magnitude/Earthquake. Use Gneiss (Ground type) as backup.
 
-# Party Status (Turn #32109)
+# Party Status (Turn #32111)
 - 1. XENON (Haunter): Lv29. HP 0/74. FAINTED. Holding AMULET COIN.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
