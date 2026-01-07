@@ -4,7 +4,7 @@
 - Blackthorn City (Pokemon Center): Warp at (21, 30).
 - Route 45: High-level training area.
 
-# Tile Mechanics
+# Tile Mechanics: Johto
 - FLOOR: Walkable.
 - WALL: Impassable.
 - TALL_GRASS: Walkable. Wild encounters.
@@ -13,6 +13,14 @@
 - DOOR: Triggers map transition when entered.
 - HEADBUTT_TREE: Interact to use Headbutt (if learned).
 - LEDGE_HOP: One-way movement in the direction of the arrow.
+
+## Tile Mechanics: Route 45
+- FLOOR: Walkable. Verified.
+- WALL: Impassable. Verified.
+- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
+- LEDGE_HOP_DOWN: One-way movement (down). Verified.
+- LEDGE_HOP_LEFT: One-way movement (left). Verified.
+- LEDGE_HOP_RIGHT: One-way movement (right). Verified.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
@@ -25,12 +33,14 @@
 - HARD STONE: Held by GNEISS.
 
 # Current Plan
-1. Return to Route 45 for efficient training (Lv23+ wild Pokemon).
-2. Train Xenon and Kimchi to Lv40+.
-3. Return to Blackthorn City for Gym challenge.
+1. Continue training Xenon and Kimchi to Lv40+ on Route 45.
+2. Return to Blackthorn City for Gym challenge.
 
-## Pokémon Observations
-- Xenon (Haunter): Shadow Punch verified missing at Lv33. (Note: Learned at Lv25 in Crystal).
+## Training Strategy: Route 45
+- Started Turn 33130.
+- Lead with Gneiss (Lv47) using STRENGTH/EARTHQUAKE for OHKOs.
+- Xenon gains Exp via Exp. Share.
+- Contingency: If Gneiss's PP is low, switch to ROLLOUT. If all offensive moves are low PP, Fly to Blackthorn to heal and return.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
@@ -39,8 +49,3 @@
 - Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. (Note: TM16 not in PC or Inventory).
 - Survival: Level supports to Lv40+ to survive hits.
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
-
-# Training Log: Route 45
-- Started Turn 33130.
-- Strategy: Lead with Gneiss (Lv46+) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
-- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv34 (Turn 33203).
