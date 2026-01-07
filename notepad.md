@@ -1,10 +1,11 @@
 # Current Strategy: Ascend Western Waterfall
-- **Start Turn:** 26692 (Jan 7, 2026)
+- **Start Turn:** 26696 (Jan 7, 2026)
 - **Location:** Silver Cave Room 2 (3_75)
-- **Status:** In Pokemon Menu, selecting Gyarados.
-- **Goal:** Reach Warp (11, 5) to access Southern Item Rooms.
+- **Status:** In Party Menu. Correcting selection.
+- **Position:** (11, 30).
+- **Goal:** Ascend the waterfall at (11, 29).
 - **Plan:**
-  1. Select Gyarados.
+  1. Select Gyarados (Slot 3).
   2. Use WATERFALL.
   3. Ascend x=11 (Right side) to the top (Row 27).
   4. Surf LEFT immediately to reach the western channel.
