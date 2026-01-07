@@ -1,18 +1,10 @@
-# Current Strategy: Defeat Red
-- **Start Turn:** 26813 (Jan 7, 2026)
-- **Location:** Silver Cave Room 3 (3_76)
-- **Status:** In Battle with Red.
-- **Active Matchup:** Mistral (Lv 15) vs Blastoise (Lv 77).
-- **Goal:** Defeat Red.
-- **Battle Plan:**
-  - **TACTIC: THUNDER STRIKE.**
-    - **Status:** Muscle Active (221/283 HP).
-    - **Move Choice:** Thunderpunch (Cross Chop has 0 PP).
-    - **Reasoning:** Strength and Thunderpunch do similar damage (High Atk/Low BP vs Low SpAtk/High BP+SE). Thunderpunch has Paralysis chance.
-    - **Next Turn:** Select Thunderpunch.
-    - **Note:** Muscle needs to tank a hit (likely Surf or Blizzard). Blastoise is faster.
-  - **Win Condition:** Blastoise faints.
-- **Items:** 0 Full Restores, 15 Revives, 8 Full Heals.
+# Victory!
+- **Defeated Red:** Jan 7, 2026 (Turn 26976).
+- **MVP:** Muscle (Machoke) with Thunderpunch.
+- **Strategy:** Sacrifice Mistral -> Muscle Clean Switch -> Thunderpunch for the win.
+- **Outcome:** Received ¥15400. Red said "..." and vanished.
+- **Next:** Credits? Return home?
 
-# Key Findings
-- **Silver Cave:** Room 2 Warp (11, 5) led directly to Room 3 (Red's Chamber), not Item Rooms.
+# Current Strategy: Post-Game
+- **Goal:** Check for credits, then continue completing the Pokedex.
+- **Location:** Silver Cave Room 3.
