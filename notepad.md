@@ -1,8 +1,8 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26121 (Jan 7, 2026) [Reflected]
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Victory Road Gate (Reception Gate). Heading West to Route 28 (Silver Cave entrance).
-- **Route:** Route 22 -> Reception Gate -> West Exit -> Route 28 -> Silver Cave.
+- **Status:** In Victory Road Gate (Reception Gate), attempting to exit West to Route 28.
+- **Route:** Victory Road Gate (Left Exit) -> Route 28 -> Silver Cave.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
