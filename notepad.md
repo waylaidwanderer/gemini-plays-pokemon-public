@@ -12,6 +12,14 @@
 - PC: Interaction point for Pokémon storage. Stand below and face up.
 - WARP: Tile that triggers map transition.
 
+# Tile Mechanics (CianwoodPokecenter1F)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- COUNTER: Impassable. Interaction point for Nurse.
+- PC: Impassable. Interaction point for PC.
+- LADDER: Warp.
+- WARP_CARPET_DOWN: Warp.
+
 # Strategy: Rising Badge (Gym Leader Clair)
 - Level Target: Xenon and Kimchi to Lv40.
 - Tactical Plan: Lead with Xenon (Ghost; immune to Selfdestruct). Night Shade for fixed damage. Gneiss/Calcifer as finishers.
@@ -38,20 +46,11 @@
 
 # Progress Tracking
 - Cianwood Consolidation: Started Turn #31883.
-- Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
-- Turn #31927: Party swap successful! Xenon is now in the lead.
-- Turn #31936: give_item_v3_ultimate failed. It opened the Trainer Card because the Start menu wraps and the reset was off.
-- Turn #31937: Giving Exp. Share manually via press_menu_buttons.
-- Turn #31946: Found Exp. Share at the bottom of the Items pocket.
-- Turn #31947: Accidentally gave Exp. Share to Xenon instead of Kimchi.
-- Turn #31948: Realized sequence failed; Xenon still has it.
-- Turn #31949: Manual correction: Take from Xenon, then Give to Kimchi.
-- Plan: Give Exp. Share to Kimchi (Slot 3).
-- Lesson: The party menu also wraps. Down from the bottom goes to the top. I need to be more careful with menu counts.
+- Turn #31951: Swapping Xenon to lead. Icarus is currently leading.
 
 # Strategy: Cianwood Consolidation
-- Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (Manual correction Turn #31949).
+- Step 1: Swap Xenon to lead (In Progress).
+- Step 2: Give Kimchi Exp. Share.
 - Step 3: Fly to Blackthorn City.
 
 # Start Menu (8 options) - WRAPS
@@ -65,19 +64,15 @@
 8. EXIT
 
 # Menu Mapping (Cianwood PC)
-- Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
-- Slot 2 (Icarus): FLY, STATS, SWITCH (2 downs)
-- Slot 3 (Xenon): STATS, SWITCH (1 down)
-- Slot 4 (Ravioli): SURF, STATS, SWITCH (2 downs)
-- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (2 downs)
-- Slot 6 (Calcifer): STATS, SWITCH (1 down)
+- Slot 1: FLASH, CUT, STATS, SWITCH
+- Slot 2: FLY, STATS, SWITCH
+- Slot 3: STATS, SWITCH
+- Slot 4: SURF, STATS, SWITCH
+- Slot 5: STRENGTH, STATS, SWITCH
+- Slot 6: STATS, SWITCH
 
 # Lessons Learned (Menu Management)
 - Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 
 - Strategy: Use specialized tools (`swap_pokemon_v2`, `use_item_on_pokemon_v2`) from a clean overworld state whenever possible.
-- If tools fail, use `press_menu_buttons` with at least 1000ms `sleep` after any menu-opening action.
-
-# Menu Navigation Notes
-- Start Menu (8 options): Pokedex, Pokemon, Pack, Pokegear, Gem, Save, Option, Exit. Wraps around.
-- Party Menu (6 slots): Wraps around.
-- Tool fly_to_city_v4 is currently unreliable due to wrapping assumptions. Use manual sequence: Start, Down, A (for Pokemon).
+- Crystal's Start and Party menus WRAP. Up-resetting is unreliable without knowing the exact menu size.
+- Tool fly_to_city_v4 and give_item_v3_ultimate are currently brittle due to wrapping. Redefinition required.
