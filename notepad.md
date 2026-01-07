@@ -1,9 +1,9 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25912 (Jan 6, 2026)
+- **Timestamp:** Turn 25913 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
 - **Immediate Task:** Defeat Pikachu.
 - **Battle Plan:**
-    1. **Pikachu (Lv81):** Use Muscle's Cross Chop. High chance to OHKO due to low Defense.
+    1. **Pikachu (Lv81):** Muscle is at -2 Attack (Charm). Pikachu is faster. Cross Chop (Crit or 2-shot).
     2. **Espeon (Lv73):** Switch to Kunai (Sneasel) for Shadow Ball (Ghost vs Psychic) or brute force with Muscle.
     3. **Snorlax (Lv75):** Muscle's Cross Chop (Super Effective).
     4. **Venusaur (Lv77):** Muscle's Ice Punch (Super Effective).
