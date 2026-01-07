@@ -10,4 +10,4 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Jump the ledge at (35, 15) to reach the lower path to Viridian.
+- **Immediate Task:** Shimmy West along the ledge (y=15), trying to jump Down at every tile until a gap is found.
