@@ -54,6 +54,6 @@
 - FLOOR: Traversable. Verified at (12, 6).
 
 # Training Session Log
-- Turn #32530: Started grinding Xenon and Kimchi on Route 45.
-- Turn #32591: Xenon reached Lv31. Emergency heal at Ecruteak Pokemon Center after taking Magnitude 9.
-- Turn #32637: Resumed training. Xenon Lv31, Kimchi Lv30.
+- Turn #32530: Started training Xenon and Kimchi on Route 45.
+- Turn #32591: Emergency heal at Ecruteak Pokemon Center (Magnitude 9 encounter).
+- Turn #32637: Defeated wild Gligar. Xenon Lv31, Kimchi Lv30.
