@@ -37,10 +37,9 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization
-- Turn #31895. Executing manual Fly to Blackthorn City from Option menu state.
-- Cursor: OPTION (Start Menu).
-- Goal: Reach Blackthorn City and heal.
-- Training Plan: Xenon/Kimchi to Lv40.
+- Turn #31896. Manually navigating the POKEMON menu to Fly.
+- Cursor: FLASH (KIMCHI's Menu).
+- Goal: Select FLY on ICARUS and travel to Blackthorn City.
 
 # Failed Hypotheses Log (Training Prep)
 1. Give Exp. Share via menu (Turn #31883): Failed, took Amulet Coin.
@@ -48,7 +47,8 @@
 3. Give Exp. Share via tool (Turn #31890): Failed, menu lag.
 4. press_menu_buttons sequence (Turn #31892): Failed, entered Option menu.
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
-- Total Failures: 5.
+6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
+- Total Failures: 6.
 
 # Decisive Action Phase
 - I am manually navigating the fly menu using press_menu_buttons. I've also refined the fly_to_city_v4 tool to be more robust for future use. No more multi-step sequences until we are out of this laggy area!
