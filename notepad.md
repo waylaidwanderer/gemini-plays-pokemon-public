@@ -16,7 +16,7 @@
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
 - Training: Aiming for Lv40 for Xenon and Kimchi.
-- Training Start: Turn 32625 (Session resumed Turn 32821 after healing).
+- Training Start: Turn 32625 (Session resumed Turn 32847 after healing and accidental flight to Violet City).
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Reported by Arnie, Turn 32791).
