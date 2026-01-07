@@ -81,3 +81,13 @@
 - Move Check: Xenon's Night Shade is reliable fixed damage. Kimchi's Sleep Powder is critical for crowd control.
 - Gneiss (Lv46) is the primary anchor for physical threats.
 - Calcifer (Lv48) provides high-speed special coverage with Thunderpunch.
+
+# Turn Synchronization Note
+- Turn counter may be off by 1; verify with Game State. (Observed Turn #31816)
+
+# Area Mechanics: Route 45
+- TALL_GRASS: Traversable, triggers wild encounters.
+- LEDGE_HOP_DOWN: One-way jump South.
+- LEDGE_HOP_LEFT: One-way jump West.
+- LEDGE_HOP_RIGHT: One-way jump East.
+- CAVE: Entrance to Dark Cave at (2, 5).
