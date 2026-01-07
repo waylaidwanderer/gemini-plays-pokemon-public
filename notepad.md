@@ -12,6 +12,7 @@
 - PC: Pokémon/Item storage. Stand below and face up.
 - WARP: Tile triggering map transition (stairs, doors).
 - BUOY: Impassable water boundary.
+- LADDER: Warp tile for floor transitions.
 
 # Menu Mechanics (Crystal)
 - Start Menu (8 options): POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. WRAPS.
