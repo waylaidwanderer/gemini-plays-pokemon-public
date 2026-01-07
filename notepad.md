@@ -56,17 +56,4 @@
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Turn #32591: Xenon reached Lv31. Emergency heal at Ecruteak Pokemon Center after taking Magnitude 9.
-
-# Tile Mechanics: Lake of Rage
-- WATER: Traversable with HM03 SURF.
-- HEADBUTT_TREE: Impassable; interact to use HM Headbutt. Verified at (26, 25).
-- FLOOR: Traversable. Verified at (21, 29).
-- WALL: Impassable. Verified at (21, 27).
-
-# Tile Mechanics: General
-- GRASS: Traversable. Verified in New Bark Town.
-
-# Training Status Update
-- Current Status: Xenon (Haunter) Lv31, fully healed (79/79 HP, 14/15 Night Shade PP).
-- Kimchi (Gloom) Lv30, fully healed (79/79 HP).
-- Location: Route 45, training for Rising Badge.
+- Turn #32637: Resumed training. Xenon Lv31, Kimchi Lv30.
