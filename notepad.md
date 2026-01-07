@@ -1,9 +1,14 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26356 (Jan 7, 2026) [Silver Cave Outside]
 - **Primary Goal:** Defeat Red.
-- **Status:** Re-entered Silver Cave Room 1. At (9, 33).
-- **Immediate Goal:** Navigate to Warp at (15, 1) to reach Room 2.
-- **Next:** In Room 2, ascend waterfall and Surf NORTH (checking for new path to Red).
+- **Status:** In Silver Cave Room 2 at (17, 31).
+- **Immediate Goal:** Reach the warp at (11, 5).
+- **Path:**
+  1. Walk to water edge at (14, 30).
+  2. Surf to Waterfall (11, 30) and ascend.
+  3. Surf NORTH past the landings at Row 21.
+  4. Continue North to the cave entrance at (11, 5).
+- **Hypothesis:** Warp (11, 5) leads to Room 3 (Red).
 
 # Failed Routes
 - **Room 2 Right Landing (13, 21):** Leads to "Item Rooms Balcony" (Dead End).
