@@ -15,3 +15,10 @@
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
 - **Immediate Action:** Fly to Cianwood City.
+## Tile Mechanics
+- **FLOOR:** Standard traversable tile.
+- **WALL:** Impassable.
+- **WARP_CARPET:** Triggers a warp.
+- **DOOR:** Warp tile.
+- **WATER:** Requires Surf to traverse.
+- **Note:** Verification of tile mechanics is ongoing.
