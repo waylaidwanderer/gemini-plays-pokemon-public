@@ -15,10 +15,10 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At water edge (14, 30) in Room 2.
-- **Action:** Initiating Surf to reach Waterfall.
+  - **Status:** Surfing at (13, 30) in Room 2.
+- **Action:** Navigating to Waterfall base at (11, 30).
 - **Plan:**
-  1. Surf to (11, 30).
+  1. Move to (11, 30).
   2. Ascend Waterfall at (11, 29).
   3. Explore the area above (Room 2 Upper / Room 3).
 - **Hypothesis:** The waterfall is the exit from the Item Rooms loop and leads to Red.
