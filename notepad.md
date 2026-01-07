@@ -57,3 +57,4 @@
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Status: Xenon reached Lv31. Night Shade PP is low (3/15).
 - Post-Battle Plan: Head to Blackthorn City Pokemon Center to heal and restore PP.
+- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves in this generation.
