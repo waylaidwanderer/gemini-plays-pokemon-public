@@ -2,14 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Silver Cave Outside (39, 31).
-- **Issue:** Map Width Mismatch. XML says 40, but visual shows path extending East to at least x=44.
-- **Action:** Exploring East beyond x=39.
+- **Current Location:** Route 28 (0, 13).
+- **Issue:** Walking Right from Silver Cave Outside (39, 31) brought me back here.
+- **Hypothesis:** The SE corner of Silver Cave Outside is a small transit area. I must have missed the way out.
 - **Plan:**
-    1. Walk East to investigate the "hidden" area.
-    2. Try to jump the ledge (Row 32) at a different coordinate (e.g., x=41).
-    3. Navigate to Pokemon Center.
-- **Hypothesis:** The ledge at (39, 32) failed, but maybe (41, 32) works, or there is a gap further East.
+    1. Go Left to return to Silver Cave Outside (39, 31).
+    2. Systematically test ALL South tiles (Row 32) for a jumpable ledge.
+    3. Check the "Wall" to the West (x=36) again.
+    4. Explore East (x>39) in Silver Cave Outside to see if the ledge ends or there is a gap.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
