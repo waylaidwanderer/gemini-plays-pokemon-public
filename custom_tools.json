@@ -173,68 +173,10 @@
       }
     ]
   },
-  "fly_navigator": {
-    "description": "Navigates the Fly map by cycling through the known town sequence using the 'Right' button. Provide the current town selected and the target town.",
-    "input_schema": {
-      "properties": {
-        "current_town": {
-          "enum": [
-            "New Bark Town",
-            "Azalea Town",
-            "Ecruteak City",
-            "Olivine City",
-            "Cianwood City",
-            "Mahogany Town",
-            "Blackthorn City"
-          ],
-          "type": "string"
-        },
-        "target_town": {
-          "enum": [
-            "New Bark Town",
-            "Azalea Town",
-            "Ecruteak City",
-            "Olivine City",
-            "Cianwood City",
-            "Mahogany Town",
-            "Blackthorn City"
-          ],
-          "type": "string"
-        }
-      },
-      "required": [
-        "current_town",
-        "target_town"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ncurrent = input_data.get('current_town')\ntarget = input_data.get('target_town')\n\nsequence = [\n    \"New Bark Town\",\n    \"Azalea Town\",\n    \"Ecruteak City\",\n    \"Olivine City\",\n    \"Cianwood City\",\n    \"Mahogany Town\",\n    \"Blackthorn City\"\n]\n\nif current not in sequence or target not in sequence:\n    print(json.dumps([\"A\"]))\nelse:\n    start_idx = sequence.index(current)\n    end_idx = sequence.index(target)\n    steps = (end_idx - start_idx) % len(sequence)\n    print(json.dumps([\"Right\"] * steps + [\"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T16:17:55.062Z",
-        "action_counter": 32746
-      },
-      {
-        "commit_message": "Refined fly_navigator to handle sequences between known towns based on observed map logic.",
-        "timestamp": "2026-01-07T16:28:58.882Z",
-        "action_counter": 32770
-      },
-      {
-        "commit_message": "Refined fly_navigator to a list-based cycler as suggested by overwatch.",
-        "timestamp": "2026-01-07T16:45:25.759Z",
-        "action_counter": 32791
-      }
-    ]
-  },
   "fly_navigator_v2": {
-    "description": "Navigates the Fly map by cycling through the known town sequence using the 'Right' button. Provide the current town selected and the target town.",
+    "description": "Navigates the Fly map by cycling through the known town sequence using the 'Up' button. Provide the current town selected and the target town.",
     "input_schema": {
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        },
         "current_town": {
           "enum": [
             "New Bark Town",
@@ -246,6 +188,7 @@
             "Olivine City",
             "Cianwood City",
             "Mahogany Town",
+            "Lake of Rage",
             "Blackthorn City"
           ],
           "type": "string"
@@ -261,6 +204,7 @@
             "Olivine City",
             "Cianwood City",
             "Mahogany Town",
+            "Lake of Rage",
             "Blackthorn City"
           ],
           "type": "string"
@@ -272,7 +216,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ntowns = [\n    \"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \n    \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \n    \"Mahogany Town\", \"Blackthorn City\"\n]\n\ndef solve():\n    try:\n        current = input_data[\"current_town\"]\n        target = input_data[\"target_town\"]\n        \n        if current not in towns or target not in towns:\n            print(json.dumps([]))\n            return\n\n        current_idx = towns.index(current)\n        target_idx = towns.index(target)\n        \n        diff = (target_idx - current_idx) % len(towns)\n        buttons = ([\"Right\"] * diff) + [\"A\"]\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve()\n",
+    "python_script": "import json\n\ntowns = [\n    \"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \n    \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \n    \"Mahogany Town\", \"Lake of Rage\", \"Blackthorn City\"\n]\n\ndef solve():\n    try:\n        current = input_data[\"current_town\"]\n        target = input_data[\"target_town\"]\n        \n        if current not in towns or target not in towns:\n            print(json.dumps([]))\n            return\n\n        current_idx = towns.index(current)\n        target_idx = towns.index(target)\n        \n        diff = (target_idx - current_idx) % len(towns)\n        buttons = ([\"Up\"] * diff) + [\"A\"]\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -283,6 +227,11 @@
         "commit_message": "Update town sequence and add validation for current/target towns.",
         "timestamp": "2026-01-07T17:22:58.030Z",
         "action_counter": 32862
+      },
+      {
+        "commit_message": "Update sequence to use 'Up' button and include Lake of Rage.",
+        "timestamp": "2026-01-07T17:29:46.565Z",
+        "action_counter": 32881
       }
     ]
   }
