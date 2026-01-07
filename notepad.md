@@ -2,15 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (3, 26).
-- Objective: Collect Item Ball at (5, 30).
-- Action: Positioning for Ledge Jump.
+- Current Location: Silver Cave Room 1 (4, 30). At Item Ball.
+- Action: Picking up Item.
 - Plan:
-    1. Jump Ledge at (3, 27) to land at (3, 28).
-    2. Walk South to (3, 30).
-    3. Walk East to (5, 30) to collect Item.
-    4. Jump South ledge (Row 31) to exit the alcove.
-    5. Loop back North via x=9 to explore the rest of the cave.
+    1. Confirm Item.
+    2. Jump South over ledge (Row 31) to exit alcove.
+    3. Loop back North via the East path (x=9+) to explore the rest of the cave.
+    4. Retrieve Item Ball at (7, 18).
+    5. Find the path to the NW Route 28 House.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
