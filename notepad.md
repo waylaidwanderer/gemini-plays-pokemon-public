@@ -45,8 +45,9 @@
 # Progress Tracker
 - Kimchi (Gloom): Lv28 (17615 EXP).
 - Xenon (Haunter): Lv29 (20309 EXP).
-- Task: GNEISS holding AMULET COIN (Turn #31989).
-- Task: Give EXP.SHARE to KIMCHI and Fly to Blackthorn. (Started Turn #31883)
+- Turn #31989: GNEISS holding AMULET COIN.
+- Turn #31990: Giving EXP.SHARE to KIMCHI (Slot 3) via manual sequence.
+- Task: Fly to Blackthorn. (Started Turn #31883)
 
 # Pack Item Order (Turn #31989)
 1. ICE HEAL
