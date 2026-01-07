@@ -1,12 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** In battle at (11, 3). Escaping.
-- **Action:** Use Max Repel immediately after battle.
+- **Status:** At (11, 3). Testing (12, 3).
+- **Reasoning:** Skipping Repel due to blind menu navigation risk. High encounter rate accepted.
 - **Plan:**
-  1. Use Max Repel.
-  2. Test Jump at (12, 3).
-  3. If (12, 3) fails, move to (13, 3) and Warp back to Room 2.
-  4. Search Room 2 for a different entrance to the Item Rooms (South).
+  1. Move to (12, 3) and Test Jump.
+  2. If blocked (expected), move to (13, 3) and Warp back to Room 2.
+  3. In Room 2, search for the 'Waterfall Top' area or a different path to the South Item Rooms.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
