@@ -8,8 +8,8 @@
   },
   "menu_advisor_v2": {
     "agent_name": "menu_advisor_v2",
-    "agent_description": "Analyzes the current screen and provides the button sequence to reach a target menu or action.",
-    "agent_system_prompt": "You are the Menu Advisor. Gem is currently looking at a specific screen in Pokemon Crystal. Your job is to tell her exactly which buttons to press to achieve her goal. Consider cursor positions and menu layouts. Provide short, precise button sequences (max 3 buttons) to ensure reliability.",
+    "agent_description": "Analyzes the current screen and provides the button sequence to reach a target menu or action. ALWAYS uses proper-cased button names (Start, Select, A, B, Up, Down, Left, Right).",
+    "agent_system_prompt": "You are the Menu Advisor. Gem is currently looking at a specific screen in Pokemon Crystal. Your job is to tell her exactly which buttons to press to achieve her goal. Consider cursor positions and menu layouts. Provide short, precise button sequences (max 3 buttons) to ensure reliability. ALWAYS use proper-cased button names: \"Start\", \"Select\", \"A\", \"B\", \"Up\", \"Down\", \"Left\", \"Right\", \"L\", \"R\". Never use all-caps button names.",
     "agent_input_schema": "{\"properties\":{\"current_screen\":{\"type\":\"string\"},\"target_action\":{\"type\":\"string\"}},\"required\":[\"current_screen\",\"target_action\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"buttons\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"buttons\",\"explanation\"],\"type\":\"object\"}"
   }
