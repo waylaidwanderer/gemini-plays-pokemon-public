@@ -3,13 +3,6 @@
 - LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13).
 - WALL: Impassable. Verified at (13, 12).
 - FLOOR: Traversable. Verified at (12, 6).
-- WATER: Traversable with HM03 SURF.
-- CUT_TREE: Impassable; removable with HM01 CUT.
-- HEADBUTT_TREE: Impassable; interactive.
-- BOULDER: Impassable; pushable with HM04 STRENGTH.
-- COUNTER/PC: Stand adjacent/below to interact.
-- BUOY: Impassable; water boundary.
-- GRASS: Traversable. Does not trigger encounters. Verified in New Bark Town.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Objective: Defeat Clair in Blackthorn Gym.
@@ -28,6 +21,7 @@
 - Goal: Lv40 for Xenon and Kimchi.
 - Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
 - PP Management: Fly to Blackthorn and heal when Night Shade PP < 2.
+- Current Status: Xenon Lv31, Kimchi Lv30.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential.
@@ -39,4 +33,4 @@
 - Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude (Ground).
 - Battle Strategy (Route 45): Switch to GNEISS (Graveler) immediately if Magnitude/Ground moves are expected.
 - Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
-- Menu Navigation: Avoid mixing Pokedex/Pokemon menus. Check cursor position before batching A presses.
+- Menu Navigation: Use `press_menu_buttons`. Check cursor position before batching A presses.
