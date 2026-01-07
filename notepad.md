@@ -40,12 +40,12 @@
 - Turn #31913. Resetting position in Cianwood PC to break menu loop.
 
 # Failed Hypotheses Log (Training Prep)
-- Total Failures: 14.
-- Last Failure (Turn #31916): swap_pokemon_v2 failed. The tool's strategy of mashing 'Up' to reset the cursor fails in Crystal due to menu wrapping. Manual sequence required.
+- Total Failures: 15.
+- Last Failure (Turn #31917): press_menu_buttons failed. The cursor in the main menu was on POKEDEX, causing the sequence to enter the Pokedex instead of POKEMON.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
-- Step 2: Break loop by moving to (4, 4) (Current).
+- Step 2: Break loop by moving to (4, 5) (Current).
 - Step 3: Swap Xenon to lead.
 - Step 4: Give Kimchi Exp. Share.
 - Step 5: Fly to Blackthorn City.
