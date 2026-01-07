@@ -53,3 +53,13 @@
 # Menu Mapping (Cianwood PC)
 - Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
 - Slot 3 (Xenon): STATS, SWITCH (1 down)
+
+# Lessons Learned (Menu Management)
+- Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 
+- Strategy: Use specialized tools (`swap_pokemon_v2`, `use_item_on_pokemon_v2`) from a clean overworld state whenever possible.
+- If tools fail, use `press_menu_buttons` with at least 1000ms `sleep` after any menu-opening action.
+
+# Reflection Turn #31916
+- Corrected Super Nerd marker label.
+- Attempting `swap_pokemon_v2` from overworld (4, 4).
+- Root Hypothesis: The "stuck" warnings were due to menu desync keeping me on the same tile without overworld movement. Moving to (4, 4) cleared the "stuck" state.
