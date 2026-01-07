@@ -1,9 +1,9 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26121 (Jan 7, 2026) [Reflected]
 - **Primary Goal:** Defeat Red.
-- **Status:** Navigating Route 22 Zigzag Path.
-- **Route:** (33, 14) -> North through gap at (33, 13) -> North through gap at (31, 7) -> West on Row 5 to Gate (13, 5).
-- **Reasoning:** Closest valid path from current position. Verified gaps at (33, 13) and (31, 7).
+- **Status:** Navigating Route 22 to Reception Gate via Row 12 Corridor.
+- **Route:** (21, 8) -> South to Row 12 -> West to x=14 -> North through gap at (14, 9) -> Gate at (13, 5).
+- **Reasoning:** Row 12 provides a clear East-West corridor to bypass the vertical wall at x=17. Gap at (14, 9) allows Northward access to the Gate.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
