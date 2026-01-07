@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Surf and explore the West side of Room 2 (Upper Area).
+- **Immediate Task:** Explore North-West Water and Land at (4, 24).
 - **Sequence:**
-    1. Walk to (11, 25) (Edge of water).
-    2. Initiate Surf (Down, A, A).
-    3. Explore the water to the West (Columns 0-10).
-    4. Look for land or cave entrances on the West side.
+    1. Surf North-West to (4, 23).
+    2. Try to land South onto (4, 24) (Ledge/Land).
+    3. Explore the landmass at Col 3-4.
+    4. Explore North edge (Row 22) to see more of Row 21.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
