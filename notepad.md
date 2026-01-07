@@ -16,9 +16,10 @@
 - Kimchi (Lv25): 12055 EXP. Target Lv30: 21760 EXP (~9705 remaining).
 - Gneiss (Lv46): 106/129 HP. Earthquake PP: 6/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
-- Grinding Start: Turn #31060.
-- Reflection (Turn 31325): Pacing at (4,12)-(5,12). Kimchi is Lv24. Calcifer and Gneiss are healthy. Training continues.
-- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric and uses Poison Sting. Donphan level 25 moves: Horn Attack, Growl, Defense Curl, Flail, Fury Attack. Note: Sleep Powder failed with "It didn't affect" message.
+- Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
+- Reflection (Turn 31346): Training on Route 45 (4,12)-(5,12). Kimchi is Lv25, Xenon is Lv28. Gneiss has 6 EQ PP left. Strategy is working well.
+- Encounter Log: Donphan (Lv25), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24), Donphan (Lv25). Gligar is immune to Electric/Ground. Donphan uses physical moves. Skarmory is very tanky.
+- Lessons Learned: Night Shade is excellent for consistent damage at this stage. Always check Turn Count in Game State Info to avoid mismatch. Ignore nonsensical phone icons in battle text (sprite mapping).
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
