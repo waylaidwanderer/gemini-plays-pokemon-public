@@ -19,7 +19,7 @@
 
 # Training Progress (Route 45)
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
-- Session Log: Resumed grind at Turn #32740. Xenon Lv31, Kimchi Lv31 (Level up at Turn #32763). Night Shade PP: 10/15. Xenon 78/79 HP.
+- Session Log: Resumed grind at Turn #32740. Xenon Lv31, Kimchi Lv31. Night Shade PP: 10/15. Xenon 78/79 HP.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
@@ -33,6 +33,6 @@
 # Lessons Learned
 - Haunter Mechanics: Grounded in Gen 2; weak to Magnitude.
 - Battle Strategy: Switch to GNEISS if Ground moves expected. Use battle_advisor for optimal moves.
-- Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button does not always move the cursor east; it cycles through the list of available Fly destinations. Verified sequence: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
-- Menu Navigation: Use press_menu_buttons to avoid mixing inputs.
-- Counter Interaction: To talk to NPCs behind counters (Nurses/Clerks), face the counter tile and press A. You do not need to be on the counter tile.
+- Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button cycles through destinations. Sequence: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
+- Menu Navigation: Use press_menu_buttons.
+- Counter Interaction: Face counter tile and press A to talk to NPCs behind counters.
