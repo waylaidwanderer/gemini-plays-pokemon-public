@@ -1,15 +1,18 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25965 (Jan 6, 2026)
+- **Timestamp:** Turn 25966 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Clear Text -> Watch Gyarados Die (or survive).
+- **Immediate Task:** Sacrifice Gyarados (Try to Surf).
 - **Battle Plan:**
-    1. **Current State:** Muscle Revived (280/280). Gyarados active.
-    2. **Action:** Press B to clear "Revitalized" text.
-    3. **Opponent Turn:** Charizard attacks Gyarados.
-       - If Gyarados faints: Send Muscle.
-       - If Gyarados survives: Switch to Muscle manually (Charizard is faster, so switching is safe if we accept Gyarados dies on the switch, but wait... if I switch, Muscle takes the hit. No. If Gyarados survives, I should let him die next turn or use an item? No, just let him die to get Muscle in clean).
-    4. **Next:** Muscle vs Charizard. Strength.
-- **Resources:** Muscle (280/280). Gyarados (Active). 0 Max Revive. 2 Hyper Potions.
+    1. **Current State:** Gyarados (7 HP) vs Charizard. Muscle (Full HP).
+    2. **Action:** Select FIGHT -> SURF.
+    3. **Opponent Turn:** Charizard attacks (likely KO).
+       - If Gyarados survives (miracle): Surf hits (2x effective).
+    4. **Aftermath:** Gyarados faints.
+    5. **The Comeback:** Send out Muscle (Full HP).
+       - Muscle vs Charizard (Part 2).
+       - Use Strength.
+    6. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
+- **Resources:** Muscle (280/280). Gyarados (7/117). 0 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
