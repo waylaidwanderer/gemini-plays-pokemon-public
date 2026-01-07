@@ -1,14 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25968 (Jan 6, 2026)
+- **Timestamp:** Turn 25969 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Send out Muscle.
+- **Immediate Task:** Attack with Strength.
 - **Battle Plan:**
-    1. **Current State:** Gyarados fainted. Muscle revived (280/280).
-    2. **Action:** Select Muscle (Slot 1).
-    3. **Next Turn:** Muscle vs Charizard.
-       - Charizard attacks (Flamethrower/Wing Attack). Muscle tanks.
-       - Muscle uses Strength (Physical > Special ThunderPunch).
-    4. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
+    1. **Current State:** Muscle (280/280) vs Charizard.
+    2. **Action:** Select FIGHT -> STRENGTH.
+       - Logic: Strength (Physical, 80 BP) > ThunderPunch (Special, 150 BP eff) due to Machoke's stats.
+    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks.
+    4. **Next:** Check HP. If > 120, Attack again. If < 120, Heal.
 - **Resources:** Muscle (280/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
