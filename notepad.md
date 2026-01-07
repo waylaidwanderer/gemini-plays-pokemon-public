@@ -33,7 +33,7 @@
 - Pacing in tall grass at (4, 11) and (4, 12) on Route 45.
 
 # Significant Party Status (Turn #32202)
-- XENON (Haunter): Lv30. HP 21/77. Night Shade: 11/15.
+- XENON (Haunter): Lv30. HP 21/77. Night Shade: 12/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
