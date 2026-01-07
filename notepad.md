@@ -38,15 +38,12 @@
 
 ## Training Strategy: Route 45
 - Started Turn 33130.
-- Lead with Gneiss (Lv47) using ROLLOUT/STRENGTH (Earthquake PP exhausted).
-- Xenon gains Exp via Exp. Share.
-- Status: Gneiss (3 Strength PP, 18 Rollout PP). Accuracy lowered (-2).
-- Contingency: If all offensive moves are low PP, Fly to Blackthorn to heal and return.
+- Strategy: Lead with Gneiss (Lv47+) while Xenon gains Exp via Exp. Share.
+- Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
 - Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses.
-- Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. (Note: TM16 not in PC or Inventory).
 - Survival: Level supports to Lv40+ to survive hits.
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
