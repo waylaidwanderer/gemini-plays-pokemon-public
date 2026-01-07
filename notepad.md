@@ -37,3 +37,7 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
+- **Status:** At (5, 8). Testing Surf interaction.
+- **Action:** Pressing Up to face Water, then A.
+- **Goal:** Trigger Surf prompt.
+- **Contingency:** If this fails, the Western Corridor is likely an exit-only path, and the water is on a different "elevation" (logic-wise) or blocked by invisible walls.
