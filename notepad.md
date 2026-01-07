@@ -4,12 +4,13 @@
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - Current Location: Silver Cave Room 1 (8, 30).
 - Objective: Collect Item Ball at (5, 30).
-- Obstacle: Ledge at (7, 30) blocks direct Left movement.
+- Strategy: Flank Left.
 - Plan:
-    1. Head North to Row 25.
-    2. Attempt to loop West and then South to reach the item.
-    3. Explore further North for the main path.
-    4. Watch for wild Pokemon.
+    1. Navigate North to (8, 25).
+    2. Go West to (3, 25).
+    3. Go South, jumping ledges at Row 27 to reach the secluded area at Row 30.
+    4. Collect Item.
+    5. Jump South ledge to exit and loop back North for further exploration.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
