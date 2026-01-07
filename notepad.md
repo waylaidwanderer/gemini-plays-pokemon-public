@@ -22,12 +22,12 @@
 - New Bark Town, Cherrygrove City, Violet City, Azalea Town, Goldenrod City, Ecruteak City, Olivine City, Cianwood City, Mahogany Town, Blackthorn City.
 
 # Strategy: Johto League Training
-- Exp. Share on Kimchi. Lead with Xenon (holding Amulet Coin).
-- Spot: Route 45 grass (4, 12).
-- Goal: Xenon and Kimchi to Lv40.
-- Hazards: Magnitude/Earthquake. Use Gneiss (Ground type) as backup.
+- Task: Train XENON and KIMCHI to Lv40 on Route 45.
+- Start: Turn #31883 (Jan 7, 2026, 2:26 AM PST).
+- Method: Exp. Share on Kimchi. Lead with Xenon.
+- Hazards: Magnitude/Earthquake. Switch to GNEISS (Ground sponge) if needed.
 
-# Party Status (Turn #32116)
+# Party Status (Turn #32122)
 - 1. XENON (Haunter): Lv29. HP 74/74. Holding AMULET COIN.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
