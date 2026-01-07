@@ -1,12 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** In battle at (5, 3). Escaping to resume testing.
-- **Action:** Escape battle, then move East.
+- **Status:** At (5, 3). Resuming test after Parasect battle.
+- **Action:** Testing Jump at (7, 3).
 - **Plan:**
-  1. Move Right to (7, 3). Test Jump.
-  2. Move Right to (8, 3). Test Jump.
-  3. Move Right to (9, 3). Test Jump.
-  4. Continue East until a jump works or I hit the wall at (16, 3).
+  1. Move to (7, 3).
+  2. Attempt Jump DOWN.
+  3. If fail, move to (8, 3) and repeat.
+  4. Continue East until a valid ledge is found or I hit the wall at (16, 3).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
