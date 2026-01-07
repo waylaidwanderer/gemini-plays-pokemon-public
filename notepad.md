@@ -2,13 +2,10 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** At (39, 31). Attempted to jump South at (39, 31) but failed (Wall).
-- **New Discovery:** `LEDGE_HOP_DOWN` tiles exist at (31-34, 31). These are reachable from the current position.
-- **Revised Plan:**
-    1. Walk West to (31, 30).
-    2. Jump South over the ledge at (31, 31) to reach the Bottom Loop (Row 32).
-    3. Walk West along Row 32/33 to x=1.
-    4. Walk North along x=1 to the Northwest corner.
+- **Current Status:** Successfully jumped the ledge at (31, 31). Now at (31, 32) in the "Middle Pocket" (Row 32-33).
+- **Obstacle:** West is blocked by Wall at x=27. East is blocked by Wall at x=38. South is `FLOOR_UP_WALL` at Row 34.
+- **Hypothesis:** One of the `FLOOR_UP_WALL` tiles in this pocket MUST be a jumpable ledge to allow exit to Row 35. Previous failure at (28, 34) might be tile-specific.
+- **Action:** Test jumping South at (31, 34). If that fails, traverse East testing each tile.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
