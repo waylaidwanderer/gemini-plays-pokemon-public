@@ -51,3 +51,13 @@
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
 - Tool Usage: Ensure perfectly structured JSON for battle_analyst_v2. Include all party members correctly. Avoid truncation.
+
+# Menu Navigation Lessons
+- Pokemon Menu: Always check the Pokemon's current HP and level before selecting.
+- Fly: In the Fly map, the destination name appears at the bottom. Confirm "BLACKTHORN CITY" before pressing A.
+- Pokegear: Close with B.
+- Pokedex: Close with B.
+
+# Timestamps & Turn Tracking
+- Grinding Session 1 (Route 45): Started Turn #31060 (Tuesday, Jan 6, 2026, 9:51 PM).
+- Reflection Turn #31761: Performing self-assessment and tool refinement.
