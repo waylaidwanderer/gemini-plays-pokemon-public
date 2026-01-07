@@ -11,13 +11,6 @@
 - BUOY: Impassable; water boundary.
 - GRASS: Traversable. Does not trigger encounters. Verified in New Bark Town.
 
-# Strategy: Johto League Training
-- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
-- Started: Turn #32266 (Overall), Route 45 Session Started: Turn #32651.
-- Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
-- Training Location: Route 45 (high level Rock/Ground/Flying).
-- PP Management: Fly to Blackthorn and heal when Night Shade PP < 2.
-
 # Strategy: Rising Badge (Gym Leader Clair)
 - Objective: Defeat Clair in Blackthorn Gym.
 - Team Composition:
@@ -32,12 +25,12 @@
     4. Night Shade bypasses the high special defense of Clair's Dragon-types.
 
 # Training Progress (Route 45)
-- Session Start: Turn #32651.
-- Current Status: Xenon Lv31, Kimchi Lv30.
-- Goal: Lv40 for both.
+- Goal: Lv40 for Xenon and Kimchi.
+- Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
+- PP Management: Fly to Blackthorn and heal when Night Shade PP < 2.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Rematch potential (Turn #32311).
+- Arnie (Bug Catcher): Route 35. Rematch potential.
 - Alan (Schoolboy): Route 36. Rematch potential.
 - Chad (Schoolboy): Route 38. Rematch potential.
 
