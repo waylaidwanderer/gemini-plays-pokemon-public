@@ -2,14 +2,12 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (0, 13).
-- **Issue:** Walking Right from Silver Cave Outside (39, 31) brought me back here.
-- **Hypothesis:** The SE corner of Silver Cave Outside is a small transit area. I must have missed the way out.
-- **Plan:**
-    1. Go Left to return to Silver Cave Outside (39, 31).
-    2. Systematically test ALL South tiles (Row 32) for a jumpable ledge.
-    3. Check the "Wall" to the West (x=36) again.
-    4. Explore East (x>39) in Silver Cave Outside to see if the ledge ends or there is a gap.
+- Current Location: Route 28 (0, 13). Exiting.
+- Correction: The ledge at Silver Cave Outside (39, 32) BLOCKED me last time. It is likely a wall.
+- Plan:
+    1. Exit Left to Silver Cave Outside.
+    2. Test Row 32 at x=36, 37, 38 for a valid ledge.
+    3. If all fail, check for a hidden path through the trees to the East (x>39).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
