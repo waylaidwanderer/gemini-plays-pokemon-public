@@ -3,12 +3,12 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Location:** Route 28 (0, 13).
-- **Action:** Attempting to jump ledge at (0, 14).
-- **Plan:**
-    1. Press Down.
-    2. If I jump to (0, 15), explore the bottom path.
-    3. If blocked (Wall), exit Route 28 by walking Left.
-    4. **Next Step:** Enter Silver Cave (Outside -> Cave Entrance) and look for a hidden path to the NW House.
+- **Result:** The ledge at (0, 14) is a WALL.
+- **Conclusion:** Direct access to the bottom path from the West side is impossible.
+- **New Plan:**
+    1. Exit Route 28 to Silver Cave Outside (Left).
+    2. Check if there is a second, lower entrance to Route 28 from Silver Cave Outside.
+    3. If not, proceed to enter Silver Cave itself to look for a hidden path.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
