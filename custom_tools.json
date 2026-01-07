@@ -226,5 +226,49 @@
         "action_counter": 32791
       }
     ]
+  },
+  "fly_navigator_v2": {
+    "description": "Navigates the Fly map by cycling through the known town sequence using the 'Right' button. Provide the current town selected and the target town.",
+    "input_schema": {
+      "properties": {
+        "current_town": {
+          "enum": [
+            "New Bark Town",
+            "Azalea Town",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ],
+          "type": "string"
+        },
+        "target_town": {
+          "enum": [
+            "New Bark Town",
+            "Azalea Town",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_town",
+        "target_town"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ntowns = [\n    \"New Bark Town\", \"Cherrygrove City\", \"Violet City\", \"Azalea Town\", \n    \"Goldenrod City\", \"Ecruteak City\", \"Olivine City\", \"Cianwood City\", \n    \"Mahogany Town\", \"Blackthorn City\"\n]\n\ndef solve():\n    try:\n        current = towns.index(input_data[\"current_town\"])\n        target = towns.index(input_data[\"target_town\"])\n        \n        diff = (target - current) % len(towns)\n        buttons = ([\"Right\"] * diff) + [\"A\"]\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([]))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T17:18:29.136Z",
+        "action_counter": 32851
+      }
+    ]
   }
 }
