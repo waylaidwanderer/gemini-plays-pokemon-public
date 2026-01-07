@@ -2,7 +2,7 @@
 - FLOOR: Standard ground. Can be traversed.
 - WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
 - TALL_GRASS: Can be traversed. Triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way south.
+- LEDGE: One-way jumpable barrier. (e.g., LEDGE_HOP_DOWN is south, LEDGE_HOP_LEFT is west, LEDGE_HOP_RIGHT is east).
 - FLOOR_UP_WALL: Impassable ledge bottom.
 
 # Hypothesized Tile Mechanics
@@ -17,9 +17,9 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
-- Kimchi (Lv24): 10460 EXP. Target Lv30: ~21760 EXP (~11300 remaining).
+- Kimchi (Lv24): 10645 EXP. Target Lv30: ~21760 EXP (~11115 remaining).
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 9/10.
-- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
+- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 24/25.
 - Grinding Start: Turn #31060.
 - Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric.
 
