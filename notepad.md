@@ -1,7 +1,7 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26121 (Jan 7, 2026) [Reflected]
 - **Primary Goal:** Defeat Red.
-- **Status:** Entering Viridian City from Route 2.
+- **Status:** On Route 22, heading West to Reception Gate.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
