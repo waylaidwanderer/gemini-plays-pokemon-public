@@ -2,13 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (14, 15). West Bank.
-- **Action:** Testing ledge at (14, 16).
+- **Current Location:** Route 28 (15, 15).
+- **Action:** Returning to the Entrance (0, 13) to test the ledge at (0, 14).
+- **Observation:** Movement West from (15, 15) seemed blocked. Routing via Row 14.
 - **Plan:**
-    1. Try to jump ledge at (14, 16).
-    2. If blocked (likely), move to the Map Entrance at (0, 13).
-    3. Test the ledge at (0, 14).
-    4. Hypothesis: The "Entrance Ledge" at (0, 14) is the only way to access the bottom path (Row 17).
+    1. Navigate to (0, 14).
+    2. Test if I can jump DOWN from (0, 13) onto (0, 14).
+    3. If that fails, the "Route 28 Puzzle" is likely unsolvable from the outside.
+    4. **Next Step:** Enter Silver Cave and look for a hidden exit to the NW corner of Route 28.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
