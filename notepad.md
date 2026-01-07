@@ -6,12 +6,12 @@
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: PP STALL (Psychic).**
-    - **Espeon Psychic Count:** 11 used. Incoming #12. (~16 total).
+    - **Espeon Psychic Count:** 11 used. Incoming #12. (Confirmed >10 PP, assume 16).
     - **Damage Analysis:** Psychic deals ~213-237 dmg. Muscle has 280 HP. 2 hits = KO. Must heal EVERY turn after a hit.
     - **Action:** Loop Heal (Full Restore) -> Tank Psychic.
     - **Trigger:** If Espeon uses Reflect/Morning Sun/Swift/Mud-Slap: ATTACK with Strength.
   - **Win Condition:** Espeon runs out of Psychic. Muscle attacks.
-- **Items:** 6 Full Restores, 19 Revives.
+- **Items:** 5 Full Restores (Using 1 now), 19 Revives.
 
 # Key Findings
 - **Silver Cave:** Room 2 Warp (11, 5) led directly to Room 3 (Red's Chamber), not Item Rooms.
