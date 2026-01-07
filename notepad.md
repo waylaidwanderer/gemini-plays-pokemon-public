@@ -1,18 +1,17 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26388 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing from West Landing (5, 22).
-- **Immediate Goal:** Reach the unexplored warp at (11, 5).
+- **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
+- **Status:** Exploring the upper ledge of Item Rooms (3_77).
+- **Immediate Goal:** Determine if the ledge at y=4 is jumpable or if this is a dead end.
 - **Plan:**
-  1. Surf East to (11, 22).
-  2. Surf North to (11, 5).
-  3. Enter Warp (11, 5).
-- **Hypothesis:** Warp (11, 5) leads to Room 3 (Red).
+  1. Test jumping DOWN at various x-coordinates along the ledge.
+  2. If jumpable, explore lower area.
+  3. If not, return to Room 2 via warp (13, 3) and look for another path (e.g., Warp 11, 5).
+- **Hypothesis:** This ledge must lead somewhere or contain an item.
 
 # Investigation List
-- **West Landing (5, 21):** Verified Empty.
-- **Item Rooms (Main):** Entrance likely via (11, 5) or another path in Room 3.
+- **Ledge (x, 4):** Testing if traversable.
+- **Item Rooms (Main):** Likely the lower area (y>4).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
-- **FLOOR_UP_WALL:** South-facing Ledge. Blocks North movement.
-- **Waterfall:** Slide-back unless facing UP + Press A.
+- **FLOOR_UP_WALL:** South-facing Ledge. Usually blocks North movement, allows South (jump). Failed at (4, 4). Testing others.
