@@ -19,9 +19,9 @@
 - Xenon (Lv28): 17426 EXP. Target Lv30: 21760 EXP (~4334 remaining).
 - Kimchi (Lv24): 11535 EXP. Target Lv30: 21760 EXP (~10225 remaining).
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 8/10.
-- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 22/25.
+- Calcifer (Lv48): 150/152 HP. Flame Wheel PP: 22/25.
 - Grinding Start: Turn #31060.
-- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric.
+- Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric and uses Poison Sting.
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
