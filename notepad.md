@@ -5,27 +5,26 @@
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
 # Fly Navigation (Johto Sequence)
-1. New Bark Town
-2. Cherrygrove City
-3. Violet City
-4. Azalea Town
-5. Goldenrod City
-6. Ecruteak City
-7. Olivine City
-8. Cianwood City
-9. Mahogany Town
-10. Blackthorn City
-- Strategy: Use fly_navigator_v2 to generate button sequences. Limit manual menu navigation to 1-3 buttons.
+0. New Bark Town
+1. Cherrygrove City
+2. Violet City
+3. Azalea Town
+4. Goldenrod City
+5. Ecruteak City
+6. Olivine City
+7. Cianwood City
+8. Mahogany Town
+9. Blackthorn City
+- Strategy: Use fly_navigator_v2. Avoid manual sequences > 3 buttons.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Training Goal: Reach Lv40 for the entire team.
-- Current Focus: Xenon and Kimchi.
+- Level Targets: Xenon Lv40, Kimchi Lv40, Gneiss Lv50, Calcifer Lv50.
 - Training Start: Turn 32625.
 
 # World Events & Rematches
-- Yanma Swarm: Route 35 (Reported by Arnie, Turn 32791).
+- Yanma Swarm: Route 35 (Arnie).
 - Arnie (Bug Catcher): Route 35.
 - Alan (Schoolboy): Route 36.
 - Chad (Schoolboy): Route 38.
