@@ -1,15 +1,15 @@
 # Current Strategy: Resupply via Kanto Fly Point
-- **Timestamp:** Turn 26034 (Jan 6, 2026)
+- **Timestamp:** Turn 26036 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** On Route 27. Attempting to use Fly to reach Indigo Plateau.
-- **Immediate Goal:** Open Pokemon Menu -> Select Mistral -> Fly.
+- **Status:** Viewing Trainer Card. Exiting to navigate to Party Menu.
+- **Immediate Goal:** Exit Trainer Card -> Select POKEMON -> Mistral -> Fly.
 - **Plan:**
-    1. Navigate Main Menu to POKEMON (Up x3, A).
-    2. Select Mistral (Down to slot 2, A).
-    3. Select FLY.
-    4. Select Indigo Plateau on the map.
-    5. Buy supplies (Full Restores, Revives).
-    6. Return to Mt. Silver.
+    1. Exit Trainer Card (B).
+    2. Navigate to POKEMON (Up x3, A).
+    3. Select Mistral (Down to slot 2, A).
+    4. Select FLY.
+    5. Select Indigo Plateau.
+    6. Buy supplies and return to Mt. Silver.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
