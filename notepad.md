@@ -45,3 +45,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way jump South. Blocked from moving North.
 - Navigating North: Must detour around ledges using gaps in rocks/trees (e.g., heading right through grass at (13, 41)).
+
+# Lessons Learned
+- HP/PP Verification: Always use Game State Information to confirm current party health and status. Do not rely on memory or duration of training.
+- Quest Tracking: Exp. Share quest started Turn #31846.
