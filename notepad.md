@@ -36,10 +36,14 @@
 # Fly Map Navigation (Hypothesis)
 - The Fly menu is a 2D map.
 - Cursor likely starts on current city (Violet).
-- Violet -> Blackthorn: Right x? Up x?
+- Violet -> Blackthorn: 3 Right, 1 Up (To be verified).
 
 # Current Plan: Route 45 Training
-1. Back out of menus to overworld.
-2. Fly to Blackthorn City manually.
-3. Exit south to Route 45.
-4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
+1. Open Start Menu.
+2. Select POKEMON.
+3. Select ICARUS.
+4. Select FLY.
+5. Verify cursor position on Fly map.
+6. Navigate to Blackthorn City.
+7. Exit south to Route 45.
+8. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
