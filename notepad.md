@@ -12,5 +12,6 @@
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
 - **Status:** Traversing Route 1. At (2, 12).
-- **Action:** Manual navigation South. Jumping ledges to bypass the Youngster and reach Pallet Town.
-- **Observation:** Visuals confirm ledge at (2, 13). Mental map marked it 'unseen', causing pathfinding issues. Manual override initiated.
+- **Obstacle:** (2, 13) is impassable (fence/wall). (4, 12) is blocked by Youngster.
+- **Action:** Flanking West through the tall grass to find a path South.
+- **Observation:** `slow_press` Down failed, confirming (2, 13) is not a jumpable ledge.
