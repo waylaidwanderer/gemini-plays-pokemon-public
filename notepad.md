@@ -56,7 +56,6 @@
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Turn #32591: Xenon reached Lv31. Emergency heal at Ecruteak Pokemon Center after taking Magnitude 9.
-- Status: Fully healed (79/79 HP, 15/15 PP). Resuming training on Route 45.
 
 # Tile Mechanics: Lake of Rage
 - WATER: Traversable with HM03 SURF.
