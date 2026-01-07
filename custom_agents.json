@@ -1,9 +1,1 @@
-{
-  "battle_advisor": {
-    "agent_name": "battle_advisor",
-    "agent_description": "Analyzes battle state and recommends the most efficient move or switch for EXP gain.",
-    "agent_system_prompt": "You are a strategic battle advisor for Pokémon Crystal. Your goal is to analyze the current battle state and recommend the most efficient move or switch to maximize EXP gain and minimize risk. Prioritize moves that result in a quick KO unless training a specific Pokémon. XENON (Haunter) uses Night Shade for fixed damage. KIMCHI (Gloom) uses Exp. Share.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"player_pokemon\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"pp\":{\"type\":\"integer\"}}}}}},\"opponent_pokemon\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"type\":{\"type\":\"string\",\"nullable\":true}}}},\"required\":[\"player_pokemon\",\"opponent_pokemon\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_action\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\"]},\"move_to_use\":{\"type\":\"string\",\"nullable\":true},\"pokemon_to_switch\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_action\",\"reasoning\"]}"
-  }
-}
+{}
