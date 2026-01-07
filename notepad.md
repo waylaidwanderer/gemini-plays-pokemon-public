@@ -48,13 +48,11 @@
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (Manual attempt Turn #31965).
+- Step 2: Give Kimchi Exp. Share.
 - Step 3: Fly to Blackthorn City.
 
 # Progress Tracking
-- Cianwood Consolidation: Started Turn #31883.
-- Turn #31960: Xenon successfully swapped to lead.
-- Turn #31965: Giving Exp. Share to Kimchi (Slot 3).
+- Cianwood Consolidation: Started Turn #31883. Xenon leading. Transferring Exp. Share to Kimchi.
 
 # Start Menu (8 options) - WRAPS
 1. POKEDEX
