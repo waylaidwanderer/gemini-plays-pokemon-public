@@ -38,3 +38,5 @@
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
 - Turn #31686: Xenon Night Shade PP is low (3/15). Plan to heal after this battle or if PP runs out.
+- Turn #31687: Xenon fainted to a wild Geodude's Magnitude 10. Need to return to Blackthorn PC to heal/revive.
+- Strategy Adjustment: Be extremely cautious when training Xenon (Poison/Ghost) against Ground-types (Geodude/Graveler/Donphan/Gligar) due to Magnitude/Earthquake vulnerability. Switch to Gneiss or Calcifer if Magnitude is expected.
