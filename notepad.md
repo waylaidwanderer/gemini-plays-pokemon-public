@@ -2,13 +2,17 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Pokemon Center (3, 3).
-- Action: Skipping heal (Party is full and checkpoint is already set).
+- Current Location: Silver Cave Outside (23, 20). Outside Pokemon Center.
+- Action: Heading to Silver Cave Entrance.
 - Plan:
-    1. Exit Pokemon Center.
+    1. Jump Ledge at (20, 20) to reach the West side.
     2. Enter Silver Cave (18, 11).
-    3. Explore Silver Cave for a hidden path to the Route 28 House.
-    4. Watch for high-level wild Pokemon.
+    3. Search for a hidden path to the Route 28 House.
+
+# Tile Mechanics Update
+- **Route 28/Silver Cave Border:** Ledges at Row 32 (e.g. 39, 32) are FAKE (Walls). Ledges at Row 34 are also likely Fake or one-way wrong direction.
+- **Route 28 Entrance Ledge (0, 14):** Confirmed WALL. Cannot jump South from Route 28 start.
+- **Conclusion:** Access to the Route 28 hidden area is NOT from the Route 28 exterior.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
