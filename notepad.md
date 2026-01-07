@@ -1,14 +1,14 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25933 (Jan 6, 2026)
+- **Timestamp:** Turn 25934 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Double Sacrifice to Heal Muscle.
+- **Immediate Task:** Send out Garnet (Sacrifice B) then Heal Muscle.
 - **Battle Plan:**
-    1. **Step 1 (Current):** Switch to Belladonna (Sacrifice A).
-    2. **Step 2:** Belladonna faints. Send out Garnet (Sacrifice B).
-    3. **Step 3:** While Garnet is out, use Hyper Potion on Muscle (heals to ~260/280).
+    1. **Step 1:** Belladonna fainted (Sacrifice A complete).
+    2. **Step 2 (Current):** Send out Garnet (Sacrifice B).
+    3. **Step 3:** While Garnet is active, use Hyper Potion on Muscle (heals 200 HP).
     4. **Step 4:** Garnet faints. Send out Muscle.
     5. **Step 5:** Muscle vs Espeon. Use Strength.
-- **Resources:** Muscle (60/280). 4 Hyper Potions. Fodder: Belladonna, Garnet, Gyarados.
+- **Resources:** Muscle (60/280). 4 Hyper Potions. Fodder: Garnet, Gyarados.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
