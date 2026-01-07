@@ -45,7 +45,7 @@
 # Progress Tracker
 - Kimchi (Gloom): Lv28 (17615 EXP).
 - Xenon (Haunter): Lv29 (20309 EXP).
-- Task: Equip Exp. Share on Kimchi and Fly to Blackthorn. Started Turn #31883.
+- Primary Task: Equip Exp. Share on Kimchi and Fly to Blackthorn. (Started Turn #31883)
 
 # Pack Item Order (Observed)
 1. ICE HEAL
@@ -59,9 +59,9 @@
 9. PRZCUREBERRY
 10. BERRY
 11. MAX REPEL
-12. AMULET COIN
-13. ICE BERRY
-14. EXP.SHARE
+12. EXP.SHARE
+13. AMULET COIN
+14. ICE BERRY
 15. CANCEL
 
 # Party Menu Mapping
