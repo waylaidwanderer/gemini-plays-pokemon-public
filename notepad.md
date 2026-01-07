@@ -15,7 +15,6 @@
 8. Cianwood City
 9. Mahogany Town
 10. Blackthorn City
-- Strategy: From Violet City, press 'Right' 7 times to reach Blackthorn City.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
