@@ -8,8 +8,8 @@
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team Composition:
-    - XENON (Haunter): Main attacker. Use Night Shade for fixed damage.
-    - KIMCHI (Gloom): Support. Use Sleep Powder.
+    - XENON (Haunter): Main attacker. Goal Lv40+. Use Night Shade for fixed damage.
+    - KIMCHI (Gloom): Support. Goal Lv40+. Use Sleep Powder.
     - CALCIFER (Typhlosion): Heavy hitter backup.
     - GNEISS (Graveler): Tank backup.
 - Detailed Plan:
@@ -19,7 +19,7 @@
 
 # Training Progress (Route 45)
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
-- Session Status: Xenon Lv32 (Level up at Turn #32777), Kimchi Lv31. Night Shade PP: 6/15. Xenon 81/82 HP. Strategy: Continue grinding.
+- Session Status: Xenon Lv32, Kimchi Lv31. Night Shade PP: 5/15. Xenon 81/82 HP.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
