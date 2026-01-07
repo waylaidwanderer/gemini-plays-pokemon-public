@@ -46,3 +46,14 @@
 - Battle (Route 45): Wild Ground types (Graveler, Donphan) use Magnitude. Haunter is extremely vulnerable. Switch to GNEISS if Magnitude is expected.
 - Critical Hits: A crit Magnitude 6 can OHKO Haunter even at a level advantage.
 - Haunter Utility: Confuse Ray (Lv31) is a strong addition for disruption.
+
+# Tile Mechanics: Route 45
+- TALL_GRASS: Traversable. Triggers wild encounters. Verified at (12, 10), (13, 10).
+- LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13).
+- WALL: Impassable. Verified at (13, 12).
+- FLOOR: Traversable. Verified at (12, 6).
+
+# Training Session Log
+- Turn #32530: Started grinding Xenon and Kimchi on Route 45.
+- Status: Xenon reached Lv31. Night Shade PP is low (3/15).
+- Post-Battle Plan: Head to Blackthorn City Pokemon Center to heal and restore PP.
