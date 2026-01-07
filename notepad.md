@@ -28,3 +28,8 @@
 - **Plan:** Move DOWN to (11, 31), then move UP to (11, 30) (ensuring Face UP), then press A to trigger HM.
 - **Encounter:** Wild Ursaring at (11, 23) in Silver Cave Room 2.
 - **Strategy:** Run (Low on balls, saving Master Ball).
+- **Observation:** Row 3 connects to the West side. Row 0 connects to the East side (via x=17).
+- **Refined Plan:**
+  1. Move West to x=3.
+  2. Walk South through the gap at (3, 4).
+  3. Explore the Southwest area.
