@@ -37,11 +37,11 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** At Central Island (11, 24). Moving to Warp (13, 21).
-- **Goal:** Enter Item Rooms (3_77) and solve the navigation puzzle.
-- **Item Rooms Plan:**
-  1. Move East to Column 17 (the long vertical corridor).
-  2. Walk North to the very top (y=0 or y=1).
-  3. Check for a path WEST or SOUTH that bypasses the "blocked" areas.
-  4. Also re-test the ledges in Row 4, but only if the East path fails.
-- **Hypothesis:** The "Wall" at (16, 2) in Item Rooms might be bypassable via Row 0/1, opening up the path to the South Item Rooms.
+- **Status:** At (13, 3) in Item Rooms.
+- **Goal:** Exit the "Central Box" (x=4-15, y=1-3).
+- **Hypothesis:** The "Blocked Ledge" findings were false negatives. Historical data (Turn 25853) claims a successful jump at (6, 3).
+- **Plan:**
+  1. Navigate to (6, 3).
+  2. Attempt to walk DOWN into (6, 4).
+  3. If successful, I will land at (6, 5) outside the box.
+- **Contingency:** If (6, 3) fails again, test (15, 3) and (4, 3) specifically. Also check Walls at (3, 3) and (16, 2).
