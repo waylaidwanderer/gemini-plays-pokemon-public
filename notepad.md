@@ -5,19 +5,13 @@
 - Route 45: High-level training area.
 
 # Tile Mechanics: Johto
-- FLOOR: Walkable.
-- WALL: Impassable.
-- TALL_GRASS: Walkable. Wild encounters.
+- FLOOR: Walkable. Verified.
+- WALL: Impassable. Verified.
+- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN: Triggers map transition when walking down.
 - DOOR: Triggers map transition when entered.
 - HEADBUTT_TREE: Interact to use Headbutt (if learned).
-- LEDGE_HOP: One-way movement in the direction of the arrow.
-
-## Tile Mechanics: Route 45
-- FLOOR: Walkable. Verified.
-- WALL: Impassable. Verified.
-- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
 - LEDGE_HOP_DOWN: One-way movement (down). Verified.
 - LEDGE_HOP_LEFT: One-way movement (left). Verified.
 - LEDGE_HOP_RIGHT: One-way movement (right). Verified.
@@ -32,12 +26,16 @@
 - PNK APRICORN: In Bag (Turn 33081).
 - HARD STONE: Held by GNEISS.
 
+# Lessons Learned
+- **Inventory Verification:** Never assume ownership of TMs/items based on external knowledge. Always verify Bag/PC contents. (Turn 33203).
+- **Move Matchups:** Check party movesets before switching. Kimchi lacked Grass moves for Graveler. (Turn 33260).
+- **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
+
 # Current Plan
-1. Continue training Xenon and Kimchi to Lv40+ on Route 45.
+1. Continue training Xenon and Kimchi to Lv40+ on Route 45. (Started Turn 33130).
 2. Return to Blackthorn City for Gym challenge.
 
 ## Training Strategy: Route 45
-- Started Turn 33130.
 - Strategy: Lead with Gneiss (Lv47+) while Xenon gains Exp via Exp. Share.
 - Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
 - Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv34 (Turn 33203).
