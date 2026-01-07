@@ -45,18 +45,13 @@
 - GNEISS (Graveler): Lv46.
 - Item: HARD STONE is in Bag (Not held by Gneiss).
 
-# Amulet Coin Search Tracker
-- [x] Check Bag (Items/Key Items/Balls/TMs) - Not found.
-- [ ] Check Party Member 1 (XENON) - Has item icon.
-- [ ] Check Party Member 2 (ICARUS) - Has item icon.
-- [x] Check Party Member 3 (KIMCHI) - Holding Exp. Share.
-- [x] Check Party Member 4 (Ravioli) - Was holding BITTER BERRY.
-- [x] Check Party Member 5 (GNEISS) - Found AMULET COIN.
-- [>] Check Party Member 6 (Calcifer) - Has item icon.
-- [ ] Check Party Member 1 (XENON) - Check icon.
-- [ ] Check Party Member 2 (ICARUS) - Check icon.
-- [ ] Check PC Item Storage.
-- [ ] Check PC Box 1 (8 Pokemon).
+# Party Item Audit
+- Xenon: Checking...
+- Icarus: Has item icon.
+- Kimchi: Exp. Share.
+- Ravioli: Was holding Bitter Berry.
+- Gneiss: Was holding Amulet Coin.
+- Calcifer: Has item icon.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
