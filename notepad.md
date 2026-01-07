@@ -29,10 +29,10 @@
 # Strategy: Current Status
 - Goal: Collect gift and battle Dana on Route 38.
 - Current Position: (16, 3) on Route 38.
-- Status: Party fully healed.
-- Next: Talk to Dana at (15, 3).
+- Status: Dialogue initiated with Dana.
+- Next: Complete dialogue to trigger battle or gift.
 
-# Significant Party Status (Turn #32237)
+# Significant Party Status (Turn #32238)
 - 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
