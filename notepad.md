@@ -42,8 +42,8 @@
 # Progress Tracker
 - Kimchi (Gloom): Lv28 (17615 EXP). Holding EXP.SHARE.
 - Xenon (Haunter): Lv29 (20309 EXP).
-- GNEISS (Graveler): Lv46. Holding HARD STONE.
-- Task: Fly to Blackthorn and train on Route 45. (Started Turn #31883)
+- GNEISS (Graveler): Lv46. Holding HARD STONE. (Verified Turn #32020)
+- Task: Train Xenon and Kimchi to Lv40 on Route 45. (Started Turn #31883)
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
