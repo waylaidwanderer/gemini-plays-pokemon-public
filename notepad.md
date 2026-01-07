@@ -31,7 +31,8 @@
 - **Move Matchups:** Check party movesets before switching. Kimchi lacked Grass moves for Graveler. (Turn 33260).
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 - **Gligar Typing:** Gligar is Ground/Flying. It is immune to Ground moves and neutral to Normal. It does not learn Faint Attack by level-up in this game. (Turn 33361).
-- **Sleep Powder Failure:** Sleep Powder failed against wild Gligar with 'It didn't affect' (Turn 33432). Reason unknown; switch to Cut for reliability.
+- **Sleep Powder Failure:** Sleep Powder failed against wild Gligar with 'It didn't affect' (Turn 33432). Reason unknown.
+- **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
 - **Input Precision:** Avoid mixing directional and action buttons in a single sequence. Verify turn count against Game State before acting. (Turn 33423).
 - **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
 
@@ -43,4 +44,3 @@
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 - Priority: Check for missed items/trainers while grinding.
-- **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
