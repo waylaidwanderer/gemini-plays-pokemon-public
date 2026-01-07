@@ -16,7 +16,7 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
-- Kimchi (Lv22): 8341 EXP. Target Lv23: 8825 EXP (~484 remaining).
+- Kimchi (Lv22): 8561 EXP. Target Lv23: 8825 EXP (~264 remaining).
 - Grinding Start: Turn #31060.
 
 # Evolution Methods (Hypotheses)
