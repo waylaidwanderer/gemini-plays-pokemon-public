@@ -69,6 +69,7 @@
 - Up x3: Violet City.
 - Right from Violet City: Toggles to PHONE tab (Horizontal boundary reached).
 - Note: Navigation between tabs (MAP, PHONE, etc.) happens when pressing Left/Right at the boundaries of the map grid.
+- Estimated Sequence to Blackthorn: Right x3, Up x3 (from Cherrygrove start).
 
 # Strategy for Beating Gym Leader Clair
 - Team Status: Need Xenon and Kimchi at Lv30+ to handle Dragon-types and Kingdra's bulk.
