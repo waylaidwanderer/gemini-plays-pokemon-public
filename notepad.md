@@ -1,11 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (11, 3). Testing (12, 3).
-- **Reasoning:** Skipping Repel due to blind menu navigation risk. High encounter rate accepted.
+- **Status:** At (12, 3). Row 3 ledges (4-12) confirmed BLOCKED.
+- **Conclusion:** Northern Item Rooms section is likely a dead end or I am missing the mechanic.
+- **Action:** Exiting to Room 2.
 - **Plan:**
-  1. Move to (12, 3) and Test Jump.
-  2. If blocked (expected), move to (13, 3) and Warp back to Room 2.
-  3. In Room 2, search for the 'Waterfall Top' area or a different path to the South Item Rooms.
+  1. Warp to Room 2 (13, 21).
+  2. Explore Room 2 (Waterfall Top area) for a different path to the Southern Item Rooms.
+  3. Check specifically for surfable water leading West or East from the waterfall top.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
