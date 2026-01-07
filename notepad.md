@@ -40,7 +40,7 @@
 - Cianwood Consolidation: Started Turn #31883.
 - Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
 - Turn #31927: Party swap successful! Xenon is now in the lead.
-- Turn #31929: Moving to (2, 6) to break loop and defining give_item_v2 tool.
+- Turn #31930: Deleted use_item_on_pokemon_v2 and defined give_item_v2. Moving to (2, 6).
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).

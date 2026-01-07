@@ -139,49 +139,6 @@
       }
     ]
   },
-  "use_item_on_pokemon_v2": {
-    "description": "Uses an item from the bag on a Pokemon. Automatically finds the item index in the Items pocket and resets the menu state.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "inventory": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "pokemon_index": {
-          "type": "integer"
-        },
-        "target_item": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "target_item",
-        "pokemon_index",
-        "inventory"
-      ]
-    },
-    "python_script": "import json\ninventory = input_data.get('inventory', [])\ntarget = input_data.get('target_item', '')\npkmn_idx = int(input_data.get('pokemon_index', 1))\nidx = -1\nfor i, item in enumerate(inventory):\n    if target.upper() in item.upper():\n        idx = i + 1\n        break\nif idx == -1: print(json.dumps([]))\nelse:\n    seq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'Down', 'A']\n    for _ in range(20): seq.append('Up')\n    for _ in range(idx - 1): seq.append('Down')\n    seq.extend(['A', 'A'])\n    for _ in range(6): seq.append('Up')\n    for _ in range(pkmn_idx - 1): seq.append('Down')\n    seq.extend(['A', 'A', 'B', 'B', 'B'])\n    print(json.dumps(seq))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T06:34:04.271Z",
-        "action_counter": 31833
-      },
-      {
-        "commit_message": "Fixed Python append error and refined menu navigation logic.",
-        "timestamp": "2026-01-07T06:34:55.322Z",
-        "action_counter": 31834
-      },
-      {
-        "commit_message": "Fixed main menu navigation logic (Up x7, Down x2 for PACK) and added confirmation A press.",
-        "timestamp": "2026-01-07T06:37:30.704Z",
-        "action_counter": 31835
-      }
-    ]
-  },
   "swap_pokemon_v2": {
     "description": "Swaps the positions of two Pokemon in the party. Handles persistent cursor positions with the current_index argument.",
     "input_schema": {
@@ -251,6 +208,34 @@
         "commit_message": "Fixed JSON output and added robust navigation logic.",
         "timestamp": "2026-01-07T07:38:10.740Z",
         "action_counter": 31894
+      }
+    ]
+  },
+  "give_item_v2": {
+    "description": "Gives an item from the PACK to a Pokemon in the party. Assumes cursor starts at Item Pocket top and PKMN menu top.",
+    "input_schema": {
+      "properties": {
+        "item_slot": {
+          "description": "The 1-indexed position of the item in the pocket.",
+          "type": "integer"
+        },
+        "pokemon_slot": {
+          "description": "The 1-indexed position of the Pokemon in the party.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "item_slot",
+        "pokemon_slot"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nitem_slot = int(input_data['item_slot'])\npokemon_slot = int(input_data['pokemon_slot'])\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"Down\", \"A\", \"sleep 1000\"]\nfor _ in range(item_slot - 1):\n    buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"])\nfor _ in range(pokemon_slot - 1):\n    buttons.append(\"Down\")\nbuttons.extend([\"A\", \"sleep 1000\", \"B\", \"B\", \"B\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T08:05:58.509Z",
+        "action_counter": 31930
       }
     ]
   }
