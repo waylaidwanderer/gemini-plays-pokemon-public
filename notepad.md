@@ -11,7 +11,9 @@
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
-- **Waterfall Mechanics:** Walking into a waterfall causes a slide-back. To ascend, face the waterfall and use the move via the Start Menu -> Pokemon to avoid sliding. Requires HM07.
-- **Issue:** 'Can't use that here' because slide-back sets facing to Down.
-- **Plan:** Move Down (to 11, 31), then Up (to 11, 30) to ensure facing Up. Then press A to interact.
-- **Backup:** If 'A' fails, use Menu while facing Up.
+- **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
+- **Immediate Task:** Explore the Upper Area of Silver Cave Room 2.
+- **Sequence:**
+    1. Confirm usage of Waterfall (Press A).
+    2. Explore the area above the waterfall.
+    3. Look for Warps or Items.
