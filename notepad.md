@@ -19,6 +19,7 @@
 - Kimchi (Lv23): 9403 EXP. Target Lv24: 10140 EXP (~737 remaining).
 - Gneiss (Lv45): Earthquake PP low (3/10).
 - Grinding Start: Turn #31060.
+- Reflection (Turn 31190): Pacing at (4,12)-(5,12). Xenon hit 28, Kimchi hit 23. Need to watch Gneiss PP. Use FLY to heal at Blackthorn when Gneiss is empty.
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
