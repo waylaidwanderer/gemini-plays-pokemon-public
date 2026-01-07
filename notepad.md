@@ -39,6 +39,4 @@
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
 # Training Log: Route 35 (Swarm)
-- Turn 33075: Arrived on Route 35.
-- Turn 33091: Item management complete. Starting training.
-- Strategy: Lead with Gneiss (Lv46) to handle encounters quickly while Xenon gains Exp. via Exp. Share.
+- Strategy: Lead with Gneiss (Lv46) to handle encounters quickly while Xenon gains Exp. via Exp. Share. Using the swarm as a high-encounter-rate training opportunity for Xenon and Kimchi (Tertiary Goal).
