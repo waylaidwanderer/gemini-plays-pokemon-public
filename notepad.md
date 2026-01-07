@@ -24,16 +24,11 @@
 - **Silver Cave Room 2:**
   - West Landing (5, 21) is empty/dead end.
   - Right side (Row 16) is a one-way ledge drop.
-- Trap Analysis: Foyer appears to be enclosed by walls (North/East/West) and ledges (South).
-- Pathfinding confirmed no route to North Hallway (Row 0).
-- Exit Strategy: Brute-force testing of South Ledges (Row 4) to find a jumpable spot.
-- Test 1: Move to (6, 3) and try Down into (6, 4).
-- Ledge Test: (6, 4) blocked.
-- Action: Moving to (5, 3) to test ledge at (5, 4).
-- Hypothesis: One of these ledges MUST be jumpable. Testing west to east.
-- Ledge Test: Moving to (5, 3) to test (5, 4).
-- Contingency: If all ledges fail, verify Escape Rope/Dig availability.
-- Ledge Test: (4, 4) blocked.
-- Action: Moving to (5, 3) to test ledge at (5, 4).
-- Remaining Candidates: 5, 7, 8, 9, 10, 11, 15.
-- Observation: (3, 3) is a Wall, preventing access to the far left. (16, 3) is a Wall, preventing access to the far right (except via row 4).
+- Trap Analysis: Foyer (Cols 4-15) is completely enclosed.
+  - North (Row 1) is a solid WALL. Cannot reach Hallway (Row 0).
+  - West (Col 3) and East (Col 16) are WALLS.
+  - South (Row 4) is the ONLY exit via Ledges.
+- Ledge Testing:
+  - Blocked: 4, 5, 6, 12, 14.
+  - Testing: 7, 8, 9, 10, 11, 15.
+- Action: Moving to (7, 3) to test (7, 4).
