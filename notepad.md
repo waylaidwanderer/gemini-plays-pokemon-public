@@ -21,7 +21,7 @@
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Training Start: Turn 32625 (Wed Jan 7 9:15 AM). Goal: Prep for Clair.
+- Training Start: Turn 32625 (Wed Jan 7 9:15 AM).
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Arnie).
@@ -31,5 +31,5 @@
 
 # Lessons Learned
 - Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call.
-- Fly Map: Distinguish between cyclic and directional navigation. In Crystal, the Up button cycles through visited towns.
-- Battle Mechanics: HP bar animations can occur while move text ("used PECK!") is still displayed, which may look like multi-hit moves. Always verify the actual move properties.
+- Fly Map: In Crystal, the Up button cycles through visited towns.
+- Battle Mechanics: HP bar animations can occur while move text is displayed, which may look like multi-hit moves. Always verify actual move properties.
