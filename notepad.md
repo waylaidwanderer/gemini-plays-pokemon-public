@@ -10,8 +10,8 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Defeat Schoolboy Danny (Jynx Lv 31).
-- **Status:** In Battle. Muscle (Lv 84) vs Jynx (Lv 31).
-- **Action:** Use Strength (100% Acc, STAB-ish... wait no Machoke is Fighting). Strength is non-STAB but high power.
-- **Reasoning:** Level 84 vs 31. Accuracy > Type Advantage. Avoid missing Cross Chop.
+- **Immediate Task:** Defeat Schoolboy Danny (Electabuzz).
+- **Status:** In Battle. Muscle (Lv 85) vs Electabuzz.
+- **Action:** Keep Muscle in (Select NO). Use Strength.
+- **Reasoning:** Muscle Lv 85 > Electabuzz. Strength is physical (uses high Atk) and 100% accurate. Cross Chop is overkill/low PP.
 - **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
