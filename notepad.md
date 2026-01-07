@@ -14,11 +14,9 @@
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
-- **FLOOR_UP_WALL:** South-facing Ledge. Failed at (4, 4) to (7, 4).
-  - **Testing:**
-    - (14, 4) Blocked. Testing (15, 4).
-    - If this fails, the "Upper Deck" is a dead end.
-    - **Hypothesis:** This area is an exit-only loop. The real path to the items is via Warp (11, 5) in Room 2, which likely lands on the right side (x>16).
-  - **Path Verification:**
-    - Row 1, 2, 3 blocked by Wall at x=16. Row 1 blocked by Wall at x=3..16.
-    - Cannot reach Row 0 or x=17 from here without jumping a ledge.
+- **FLOOR_UP_WALL:** South-facing Ledge at y=4 blocks ALL South movement tested (4-15).
+  - **Conclusion:** Cannot jump down from here.
+  - **New Path:** Walls at Row 1 (x=3 to 16) trap me. Must go West to x=2 to reach Row 0, then East to x=17 to bypass the wall and reach the item area.
+- **Path Verification:**
+  - (2, 1) is FLOOR. (17, 1) is FLOOR.
+  - Plan: (15, 3) -> West to (2, 3) -> North to (2, 0) -> East to (17, 0) -> South.
