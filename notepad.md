@@ -1,13 +1,17 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25948 (Jan 6, 2026)
+- **Timestamp:** Turn 25949 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Back out of Fight Menu -> Heal Muscle.
+- **Immediate Task:** Use Hyper Potion on Muscle.
 - **Battle Plan:**
     1. **Charizard (Lv77):** Active. Muscle (51 HP).
-    2. **Correction:** Currently in Move Menu. Must back out (Press B) to access Pack.
-    3. **Action:** Press B.
-    4. **Next Turn:** Use Hyper Potion (Heal to 251 HP).
-    5. **Subsequent Turn:** Tank hit, then ThunderPunch (Super Effective).
+    2. **Turn 1 (Current):** Select PACK -> Use Hyper Potion.
+       - Muscle heals to 251/280.
+       - Charizard attacks (Flamethrower/Wing Attack). Muscle survives.
+    3. **Turn 2:** Use Strength.
+       - Reason: Strength (80 BP, Physical) uses Muscle's high Attack. ThunderPunch (Electric, Special) uses Muscle's low Special Attack. Despite 2x weakness, Strength is likely safer/stronger.
+    4. **Snorlax:** Muscle's Cross Chop.
+    5. **Venusaur:** Ice Punch or Strength.
+    6. **Blastoise:** Cross Chop.
 - **Resources:** Muscle (51/280). 3 Hyper Potions. 1 Max Revive. Gyarados alive.
 
 # Recent Discoveries
