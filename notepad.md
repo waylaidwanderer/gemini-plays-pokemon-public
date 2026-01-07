@@ -62,14 +62,13 @@
 # Timestamps & Turn Tracking
 - Grinding Session 1 (Route 45): Started Turn #31060 (Tuesday, Jan 6, 2026, 9:51 PM).
 
-# Fly Map Calibration (Cherrygrove Start)
-- Initial Position: Cherrygrove City (Cursor on Cherrygrove).
-- Up x1: Route 30.
-- Up x2: Route 31.
-- Up x3: Violet City.
-- Right from Violet City: Toggles to PHONE tab (Horizontal boundary reached).
-- Note: Navigation between tabs (MAP, PHONE, etc.) happens when pressing Left/Right at the boundaries of the map grid.
-- Estimated Sequence to Blackthorn: Right x3, Up x3 (from Cherrygrove start).
+# Fly Map Calibration (List-based)
+- Menu starts at: New Bark Town.
+- Up x1: Cherrygrove City.
+- Up x2: Violet City.
+- Up x3: Azalea Town.
+- Up x4: Goldenrod City.
+- Goal: Blackthorn City.
 
 # Strategy for Beating Gym Leader Clair
 - Team Status: Need Xenon and Kimchi at Lv30+ to handle Dragon-types and Kingdra's bulk.
