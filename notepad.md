@@ -44,3 +44,6 @@
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 - Priority: Check for missed items/trainers while grinding.
+- COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it.
+- PC: Interact to manage Pokemon and items.
+- LADDER: Triggers map transition between floors.
