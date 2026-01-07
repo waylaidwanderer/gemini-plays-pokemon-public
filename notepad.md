@@ -1,36 +1,29 @@
 # Key Locations & Mechanics
-- New Bark Town (Mom's House 24_6): Talking to Mom at (2, 2) allows changing Daylight Saving Time and managing money.
-- New Bark Town (Elm's Lab 24_5): Healing Machine at (2, 2) heals the entire party. Verified Turn 32811.
-- Blackthorn City (Pokemon Center 25_3): Standard healing. Warp at (21, 30).
-- Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
+- New Bark Town (Mom's House): Mom at (2, 2) manages money and Daylight Saving Time.
+- New Bark Town (Elm's Lab): Healing Machine at (2, 2).
+- Blackthorn City (Pokemon Center): Warp at (21, 30).
+- Route 45: High-level training area.
 
 # Tile Mechanics
-- FLOOR: Standard walkable surface. No special effects.
-- WALL: Solid obstacle. Prevents movement into the tile from all directions.
-- TALL_GRASS: Walkable. Has a chance to trigger wild Pokemon encounters when stepped on.
-- LONG_GRASS: Walkable. Similar to TALL_GRASS, can trigger wild encounters.
-- LEDGE_HOP_DOWN: One-way vertical jump. Can be traversed from top to bottom, but acts as a wall from all other directions.
-- LEDGE_HOP_LEFT: One-way horizontal jump. Can be traversed from right to left, but acts as a wall from all other directions.
-- LEDGE_HOP_RIGHT: One-way horizontal jump. Can be traversed from left to right, but acts as a wall from all other directions.
-- FLOOR_UP_WALL: Acts as a wall when moving from below. Verified Turn 32958.
-- CAVE: Warp tile. Stepping on it transitions the player to a different map (e.g., inside a cave).
-- SIGN: Background object. Can be interacted with from an adjacent tile to read text.
+- FLOOR: Standard walkable surface.
+- WALL: Solid obstacle.
+- TALL_GRASS: Walkable. Triggers wild encounters.
+- LEDGE_HOP_DOWN: One-way vertical jump (Down).
+- LEDGE_HOP_LEFT: One-way horizontal jump (Left).
+- LEDGE_HOP_RIGHT: One-way horizontal jump (Right).
+- CAVE: Warp tile.
+- SIGN: Background object. Read text from adjacent tile.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
 - Strategy: Use fly_navigator_v2. Verify town name on screen.
 
-# Training Progress (Route 45)
-- Session Start: Turn 32625.
-- Status (Turn 33026): Kimchi (Lv32, 85/85 HP, Lead), Xenon (Lv32, 47/82 HP, Night Shade 4 PP).
-- Goal: Train Xenon and Kimchi to Lv40 for Gym Leader Clair.
-
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses. Kingdra only weak to Dragon.
-- Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. Check for TM location (Inventory/PC/Learned).
-- Survival: Level supports to Lv40+ to survive hits from Clair's Lv37-40 team. Verified strategy Turn 32974.
+- Kingdra Strategy: Use Sleep Powder (Kimchi) and Night Shade (Xenon) to bypass defenses.
+- Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs.
+- Survival: Level supports to Lv40+ to survive hits.
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
 # World Events & Rematches
@@ -41,14 +34,15 @@
 - Chad (Schoolboy): Route 38.
 
 # Lessons Learned
-- Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call.
+- Menu Navigation: Verify screen state after each step. Avoid long blind sequences.
 - Fly Map: In Crystal, the Up button cycles through visited towns.
-- Battle Mechanics: HP bar animations can occur while move text is displayed, which may look like multi-hit moves. Always verify actual move properties.
-- Input Restrictions: Do NOT mix directional (Up, Down, Left, Right) and action (A, B, Start, Select) buttons in a single manual `press_buttons` call. Use specialized tools like `press_menu_buttons` or `find_path_v2` instead. Verified Turn 32936.
+- Battle Mechanics: HP bar animations occur during move text.
+- Input Restrictions: Do NOT mix directional and action buttons in manual `press_buttons`.
 
 # Current Plan
-- Fly to Blackthorn Center to heal PP/HP.
-- Check PC for TM16 (Icy Wind).
-- Swap Exp. Share to Xenon, Amulet Coin to Kimchi.
-- Lead with Gneiss (Lv46) for safe/fast grinding.
-- Fly to Goldenrod, then Route 35 for Yanma swarm.
+1. Fly to Blackthorn City landing point.
+2. Heal at Pokemon Center.
+3. Check PC for TM16 (Icy Wind).
+4. Swap Exp. Share to Xenon, Amulet Coin to Kimchi.
+5. Lead with Gneiss (Lv46) for safe/fast grinding.
+6. Fly to Goldenrod, then Route 35 for Yanma swarm.
