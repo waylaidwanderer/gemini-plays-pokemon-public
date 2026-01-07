@@ -11,6 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Traversing Route 1. At (2, 12).
-- **Issue:** Previous move failed (likely dropped 'Left' input). Re-attempting with slower inputs.
-- **Path:** Left to (1, 12) -> South through grass to (1, 16) -> East to (2, 16) -> South to Pallet.
+- **Status:** Traversing Route 1. Stuck at (2, 12).
+- **Issue:** "Player sprite hidden" indicates a menu is likely open, blocking movement.
+- **Action:** Press 'B' repeatedly to close potential menus, then move Left -> Down to flank.
+- **Path:** Left to (1, 12) -> South to (1, 16) -> East to (2, 16) -> South to Pallet.
