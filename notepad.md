@@ -27,8 +27,8 @@
 - Goal: Xenon and Kimchi to Lv40.
 - Hazards: Magnitude/Earthquake. Use Gneiss (Ground type) as backup.
 
-# Party Status (Turn #32111)
-- 1. XENON (Haunter): Lv29. HP 0/74. FAINTED. Holding AMULET COIN.
+# Party Status (Turn #32116)
+- 1. XENON (Haunter): Lv29. HP 74/74. Holding AMULET COIN.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
 - 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
