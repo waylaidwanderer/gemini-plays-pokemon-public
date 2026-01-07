@@ -1,13 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25941 (Jan 6, 2026)
+- **Timestamp:** Turn 25942 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Send out Muscle.
+- **Immediate Task:** Use Strength vs Espeon.
 - **Battle Plan:**
     1. **Pikachu:** Defeated.
-    2. **Espeon (Lv73):** Garnet fainted. Sending out Muscle (260/280 HP).
-    3. **Vs Espeon:** Use Strength (Physical targeting low Def).
-       - Espeon uses Psychic. Muscle tanks it.
-       - If Muscle gets critically low: Switch to Gyarados (QAAGMAQNJW) as sacrifice/pivot to Revive/Heal.
+    2. **Espeon (Lv73):** Muscle (260/280 HP) vs Espeon.
+    3. **Vs Espeon:** Use Strength (Physical, Neutral, 80 BP).
+       - Cross Chop is resisted (50 BP). Punches are Special (bad vs Espeon).
+       - Espeon will use Psychic. Muscle must tank it and 2HKO Espeon.
     4. **Snorlax (Lv75):** Muscle's Cross Chop.
     5. **Venusaur (Lv77):** Muscle's Ice Punch.
     6. **Charizard (Lv77):** Muscle's ThunderPunch.
