@@ -12,14 +12,14 @@
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
 # Strategy: Johto League Training
-- Efficiency: Lead with trainee (Kimchi Lv24), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
+- Efficiency: Lead with trainee (Kimchi Lv24), switch to Calcifer (Lv48) or Gneiss (Lv46) if outmatched. Xenon (Lv28) is backup.
 - Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
 - Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Acid for STAB damage.
 - Resource Limit: Return to Blackthorn City to heal when Gneiss is at 0 Earthquake PP.
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
-- Kimchi (Lv24): 10460 EXP. Target Lv30: ~21760 EXP (~11300 remaining). Learned Acid.
+- Kimchi (Lv24): 10460 EXP. Target Lv30: ~21760 EXP (~11300 remaining).
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 9/10.
 - Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
 - Grinding Start: Turn #31060.
