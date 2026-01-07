@@ -44,4 +44,4 @@
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 
 # Catch Log
-- Donphan (Wild, Lv 25): Catch attempt started Turn 33363. Strategy: Sleep Powder with KIMCHI. Donphan is asleep. Poké Ball failed (Turn 33371). Great Ball failed (Turns 33372-33375). Throwing another Great Ball (Turn 33376).
+- Donphan (Wild, Lv 25): Catch attempt started Turn 33363. Strategy: Sleep Powder with KIMCHI. Donphan is asleep. Poké Ball failed (Turn 33371). Great Ball failed (Turns 33372-33375). Throwing another Great Ball (Turn 33377).
