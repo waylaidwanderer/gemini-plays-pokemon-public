@@ -45,8 +45,19 @@
 # Progress Tracker
 - Kimchi (Gloom): Lv28 (17615 EXP). Holding EXP.SHARE.
 - Xenon (Haunter): Lv29 (20309 EXP).
-- GNEISS (Graveler): Lv46. Holding AMULET COIN.
+- GNEISS (Graveler): Lv46. Holding HARD STONE (Verify).
 - Task: Fly to Blackthorn and train on Route 45. (Started Turn #31883)
+
+# Tile Mechanics (Cianwood City)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Traversable (Surf).
+- BUOY: Impassable. Water boundary.
+- DOOR: Warp.
+- LEDGE_HOP_DOWN: One-way (South).
+- WARP_CARPET: Map transition at exits. Walk off-grid.
+- WATER: Traversable with HM03 SURF.
+- BUOY: Impassable. Water boundary.
 
 # Pack Item Order (Turn #31989)
 1. ICE HEAL
