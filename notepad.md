@@ -1,13 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (6, 3). Ledge at (6, 3) FAILED to jump (despite history).
-- **Hypothesis:** I misremembered the exact coordinate, or the valid jump spot is elsewhere in the row.
-- **Strategy:** Brute force EVERY tile in Row 3.
+- **Status:** At (4, 3). (4, 3), (5, 3), (6, 3) are BLOCKED.
+- **Action:** Testing remaining ledges in Row 3.
 - **Plan:**
-  1. Test Jump at (5, 3).
-  2. Test Jump at (4, 3).
-  3. If these fail, move Right and test (7, 3) through (15, 3).
-  4. If ALL fail, I am truly stuck and must Warp out or Dig out.
+  1. Move Right to (7, 3). Test Jump.
+  2. Move Right to (8, 3). Test Jump.
+  3. Move Right to (9, 3). Test Jump.
+  4. Continue East until a jump works or I hit the wall at (16, 3).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
