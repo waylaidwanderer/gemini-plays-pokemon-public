@@ -32,9 +32,18 @@
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 
 # Current Plan
-1. Continue training Xenon and Kimchi to Lv40+ on Route 45. (Started Turn 33130).
-2. Return to Blackthorn City for Gym challenge.
+1. Training Phase: Lv40+ for Xenon and Kimchi on Route 45. (Started Turn 33130).
+   - Xenon: Lv34 -> Lv40
+   - Kimchi: Lv32 -> Lv40
+2. Gym Phase: Challenge Blackthorn Gym for the Rising Badge.
 
 ## Training Strategy: Route 45
-- Strategy: Lead with Gneiss (Lv47+). Switch to training targets (Xenon/Kimchi) for participation exp when safe (e.g., against foes they can handle or resist). Current priority: Xenon (Lv34).
-- Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
+- Lead: GNEISS (Lv47).
+- Participation: Switch to Xenon/Kimchi for shared EXP when safe.
+- Passive: XENON holds EXP.SHARE.
+- Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
+
+## Route 45 Exploration Status
+- Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
+- Verified Trainers: Hiker Erik (10, 16), Hiker Parry (5, 28), Cooltrainer Kelly (5, 34), Hiker Timothy (9, 65), Camper Quentin (4, 70).
+- Verified Items: Max Repel (7, 33).
