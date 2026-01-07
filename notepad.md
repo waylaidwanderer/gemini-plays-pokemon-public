@@ -58,4 +58,5 @@
 - Turn #32641: Defeated wild Geodude (Lv23). Xenon took Magnitude 8.
 - Turn #32651: Encountered wild Donphan (Lv25). Defeated at turn #32661. Xenon Lv31, Kimchi Lv30.
 - Turn #32662: Continuing training on Route 45.
-- Turn #32662: Encountered wild Gligar (Lv24). Current PP for Night Shade: 7.
+- Turn #32662: Encountered wild Gligar (Lv24). Current PP for Night Shade: 6.
+- Turn #32667: Xenon used Night Shade. Gligar used Poison Sting. Xenon HP: 78/79. Gligar HP ~50%.
