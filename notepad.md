@@ -2,11 +2,13 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL/LONG GRASS: Traversable (Wild encounters).
-- LEDGE_HOP: One-way traversal.
+- LEDGE_HOP_DOWN: One-way jump (Down).
+- LEDGE_HOP_LEFT: One-way jump (Left).
+- LEDGE_HOP_RIGHT: One-way jump (Right).
 - CAVE/DOOR/STAIRS/LADDER: Map transitions.
 - WATER: Traversable (Surf).
 - CUT_TREE: Impassable (Cut).
-- HEADBUTT_TREE: Impassable obstacle; interactive.
+- HEADBUTT_TREE: Impassable (Headbutt).
 - BOULDER: Impassable (Strength).
 - COUNTER/PC: Stand adjacent/below to interact.
 - BUOY: Impassable; water boundary.
@@ -33,14 +35,10 @@
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
-# Fly Map Navigation
-- The Fly menu is a linear cycle (Pressing Up cycles forward).
+# Fly Map Cycle
 - Cycle: New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn City.
-- Observation (Turn #32359): Blackthorn City reached by pressing Up from Lake of Rage.
 
 # Current Plan: Route 45 Training
-1. Navigate to tall grass (e.g., 12, 10).
+1. Move to tall grass (e.g., 12, 10).
 2. Battle wild Pokemon to level Xenon and Kimchi to Lv40.
 3. Monitor HP/PP; Fly to Blackthorn to heal if needed.
-- Started training at Turn #32266.
-- Arnie rematch completed. Alan rematch failed. Chad rematch pending.
