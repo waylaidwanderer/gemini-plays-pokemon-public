@@ -7,6 +7,6 @@
 
 # Current Strategy: Post-Game
 - **Goal:** Check for credits, then continue completing the Pokedex.
-- **Location:** Silver Cave Room 3.
+- **Location:** Silver Cave Outside (Map 19_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Pallet Town (Professor Oak).
