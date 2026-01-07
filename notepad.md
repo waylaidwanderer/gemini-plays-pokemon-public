@@ -2,15 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (8, 30).
+- Current Location: Silver Cave Room 1 (8, 26).
 - Objective: Collect Item Ball at (5, 30).
-- Strategy: Flank Left.
+- Strategy: Flank Left via Row 25.
 - Plan:
     1. Navigate North to (8, 25).
-    2. Go West to (3, 25).
-    3. Go South, jumping ledges at Row 27 to reach the secluded area at Row 30.
-    4. Collect Item.
-    5. Jump South ledge to exit and loop back North for further exploration.
+    2. Go West to x=5 or x=3.
+    3. Explore South to see if I can reach Row 30.
+    4. Note: There appears to be a corridor at x=5,6 blocked at the bottom by walls. Check for hidden mechanics.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
