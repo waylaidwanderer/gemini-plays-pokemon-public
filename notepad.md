@@ -37,12 +37,9 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** At (6, 8). Surf failed. Testing (7, 8).
-- **Plan:**
-  1. Move Right to (7, 8).
-  2. Face Up (North).
-  3. Press A to Surf.
-- **Contingency:** If this fails, the Western Corridor is a One-Way Exit.
-- **New Strategy:** Backtrack to Item Rooms (3_77).
-  - **Reasoning:** I previously failed to reach the East side (x=17) due to a wall at (16, 2), but I didn't check Row 0 or 1 thoroughly. The path to the South Item Rooms likely requires navigating around the top-right walls.
-  - **Goal:** Reach x=17 in Item Rooms to walk South.
+- **Status:** At (7, 8). Final Surf Test.
+- **Action:** Pressing A (facing North) then Up+A.
+- **Contingency:** If this fails, the Western Corridor is CONFIRMED as an Exit-Only path (from the waterfalls above).
+- **Next Strategy:** Backtrack to Item Rooms (3_77).
+  - **Goal:** Find the entrance to the South Item Rooms or the path to the Northern Waterfalls.
+  - **Hypothesis:** I missed a path in the Item Rooms (likely around the top-right corner x=17 or a specific jumpable ledge).
