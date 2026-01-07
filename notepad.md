@@ -15,7 +15,6 @@
 7. Cianwood City
 8. Mahogany Town
 9. Blackthorn City
-- Strategy: Use fly_navigator_v2. Avoid manual sequences > 3 buttons.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
