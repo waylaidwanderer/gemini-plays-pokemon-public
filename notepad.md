@@ -42,12 +42,5 @@
 
 # Training Log: Route 45
 - Started Turn 33130.
-- Strategy: Lead with Gneiss (Lv46) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
-- Turn 33151: Encountered wild Graveler.
-- Turn 33155: Encountered wild Geodude.
-- Turn 33159: Encountered wild Donphan.
-- Turn 33162: Defeated Donphan. Continuing grind.
-- Turn 33165: Defeated Donphan. Gneiss grew to Lv47. Continuing grind.
-- Turn 33166: Encountered wild Gligar.
-- Turn 33169: Defeated Gligar. Continuing grind.
-- Turn 33178: Encountered wild Gligar.
+- Strategy: Lead with Gneiss (Lv46+) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
+- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv33 (Turn 33119).
