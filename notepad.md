@@ -1,19 +1,18 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26379 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing at (7, 26). Repel wore off.
-- **Immediate Goal:** Investigate West Landing (5, 21).
+- **Timestamp:** Turn 26380 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** Surfing at (7, 26).
+- **Immediate Goal:** Re-verify West Landing (5, 21).
 - **Plan:**
-  1. Surf to West Landing (5, 21).
-  2. Thoroughly check for hidden caves/items at (5, 20), (4, 20), (6, 20).
-  3. If empty, proceed to Central Island (11, 25).
-  4. Enter Warp (13, 21) and re-investigate Item Room Foyer.
-- **Hypothesis:** I missed a hidden path at one of the landings or in the Item Room Foyer.
+  1. Surf to (5, 22).
+  2. Step onto land at (5, 21).
+  3. Bump walls at (5, 20), (4, 20), (6, 20) to check for hidden paths.
+  4. If nothing, proceed to Central Island (11, 25).
 
-# Failed Routes
-- **Room 2 Right Landing (13, 21):** Leads to "Item Rooms Balcony" (Dead End? Re-verifying).
-- **Room 2 West Landing (5, 21):** Appeared empty (Double check).
+# Investigation List
+- **West Landing (5, 21):** Previously marked empty. Checking for hidden items/caves.
+- **Item Rooms (Main):** Must access via North Hallway (Row 0). Entrance is likely the warp at (13, 21) on Central Island.
 
-# Map Notes
-- **Item Rooms:** Has a "Main" section with a North Hallway (Row 0) that is NOT accessible from the Balcony. Must find the entrance to this Main section.
-- Waterfall Technique: To climb, one must be at the base facing UP. Simply pressing 'Up' into the waterfall causes a bump/slide-back that resets facing to DOWN.
-- Solution: Move Down to (11, 31), then move Up to (11, 30). This lands the player at the base facing UP. Then press 'A'.
+# Tile Mechanics
+- **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
+- **FLOOR_UP_WALL:** South-facing Ledge. Blocks North movement.
+- **Waterfall:** Slide-back unless facing UP + Press A.
