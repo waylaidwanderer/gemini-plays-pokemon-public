@@ -1,11 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (11, 23) in Room 2. Moving to Warp (13, 21).
-- **Hypothesis:** The path to Red lies through the Item Rooms (again).
+- **Status:** In Silver Cave Item Rooms (3_77).
+- **Hypothesis:** A second exit exists in the lower area (y > 4) leading to the northern part of Room 2.
 - **Plan:**
-  1. Enter Warp at (13, 21).
-  2. Explore Item Rooms thoroughly for a *second* exit or hidden path.
-  3. Look for a way to reach the Northern area of Room 2 (11, 5).
+  1. Walk south past the ledges (using the open floor at x>16 or x<4).
+  2. Explore the unseen area (Rows 8-18).
+  3. Locate any items or warps.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
