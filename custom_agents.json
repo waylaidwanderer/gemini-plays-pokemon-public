@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are a seasoned Pokemon Master providing strategic advice for a playthrough of Pokemon Crystal. Your goal is to help the player optimize their team, plan training sessions, and prepare for Gym Leader battles. You should consider type advantages, movesets, and level requirements. When given the current party, inventory, and objectives, you should provide a prioritized list of actions to improve the team's chances of success. You must base your advice ONLY on the provided game state and not on general knowledge from other games, although you can use your understanding of Crystal mechanics.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"objectives\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"party\",\"objectives\",\"inventory\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"training_targets\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon\":{\"type\":\"string\"},\"target_level\":{\"type\":\"integer\"},\"location\":{\"type\":\"string\"}},\"required\":[\"pokemon\",\"target_level\",\"location\"]}},\"gym_strategy\":{\"type\":\"string\"}},\"required\":[\"recommendations\",\"training_targets\",\"gym_strategy\"]}"
+  },
+  "strategy_advisor_v2": {
+    "agent_name": "strategy_advisor_v2",
+    "agent_description": "Provides strategic advice for training and battles.",
+    "agent_system_prompt": "You are a Pokemon Master. Given the party, objectives, and inventory, provide a list of recommendations for training and the next gym battle.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"context\":{\"type\":\"string\"}},\"required\":[\"context\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"advice\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"advice\"]}"
   }
 }
