@@ -41,8 +41,8 @@
 
 # Party Item Audit
 - Xenon: Lv29. Empty (Hyper Potion removed).
-- Icarus: Lv16. Has item icon. Audit: Taking item.
-- Audit Step: Checking Icarus (Slot 2). Found Amulet Coin on Gneiss.
+- Icarus: Lv16. Empty (Potion removed).
+- Audit Step: Checking Calcifer (Slot 6). Found Amulet Coin on Gneiss.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 3 to ITEM)
