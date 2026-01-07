@@ -1,14 +1,17 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26375 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Ascending Waterfall at (11, 30).
-- **Path:**
-  1. Ascend to top (Current).
-  2. Surf NORTH to (11, 5).
-- **Hypothesis:** Warp (11, 5) leads to Room 3 (Red).
+- **Timestamp:** Turn 26376 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** Surfing at (11, 27).
+- **Immediate Goal:** Investigate West Landing (5, 21).
+- **Plan:**
+  1. Surf to West Landing (5, 21).
+  2. Thoroughly check for hidden caves/items at (5, 20), (4, 20), (6, 20).
+  3. If empty, proceed to Central Island (11, 25).
+  4. Enter Warp (13, 21) and re-investigate Item Room Foyer.
+- **Hypothesis:** I missed a hidden path at one of the landings or in the Item Room Foyer.
 
 # Failed Routes
-- **Room 2 Right Landing (13, 21):** Leads to "Item Rooms Balcony" (Dead End).
-- **Room 2 West Landing (5, 21):** Appeared empty (Double check?).
+- **Room 2 Right Landing (13, 21):** Leads to "Item Rooms Balcony" (Dead End? Re-verifying).
+- **Room 2 West Landing (5, 21):** Appeared empty (Double check).
 
 # Map Notes
 - **Item Rooms:** Has a "Main" section with a North Hallway (Row 0) that is NOT accessible from the Balcony. Must find the entrance to this Main section.
