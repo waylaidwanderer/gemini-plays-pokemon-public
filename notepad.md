@@ -23,14 +23,14 @@
 - Support: Kimchi (Lv40+). Sleep Powder for CC.
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 76/77. Night Shade: 7/15.
+- XENON (Haunter): Lv30. HP 76/77. Night Shade: 6/15.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Training Log
-- Turn #32399: Encountered wild Phanpy (Lv20). Xenon leading. Night Shade PP: 7.
+- Turn #32399: Encountered wild Phanpy (Lv20). Xenon used Night Shade (PP: 6). Phanpy fled.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
