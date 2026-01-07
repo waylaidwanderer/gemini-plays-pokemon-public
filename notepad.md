@@ -7,14 +7,14 @@
 
 # Current Status
 - **Location:** Indigo Plateau (Outside).
-- **Next Step:** Fly to Cianwood City -> Surf to Whirl Islands (Route 41).
+- **Next Step:** Fly to Vermilion City -> S.S. Aqua to Olivine -> Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
   - Whirlpool: Lapis (Poliwag).
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
-- **Immediate Action:** Fly to Cianwood City.
+- **Immediate Action:** Fly to Vermilion City (Direct Fly to Johto failed).
 ## Tile Mechanics
 - **FLOOR:** Standard traversable tile.
 - **WALL:** Impassable.
