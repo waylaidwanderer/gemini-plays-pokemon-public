@@ -5,8 +5,8 @@
 - LEDGE_HOP: One-way traversal (South/West/East).
 - CAVE: Warp to indoor areas.
 - WATER: Traversable with HM03 SURF.
-- CUT_TREE: Removed with HM01 CUT.
-- BOULDER: Pushed with HM04 STRENGTH.
+- CUT_TREE: Removed with HM01 CUT. (Note: Farfetch'd puzzle solved in Ilex Forest)
+- BOULDER: Pushed with HM04 STRENGTH. (Note: Chuck's Gym and Ice Path puzzles solved)
 - COUNTER: Interaction point for NPCs behind desks.
 - WARP_CARPET: Map transition tile at exits.
 - PC: Interaction point for Pokémon storage. Stand below and face up.
@@ -14,12 +14,12 @@
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Level Target: Xenon and Kimchi to Lv40 (Target: 56660 EXP).
-- Tactical Plan: Lead with Xenon (Immune to Selfdestruct). Use Night Shade for fixed damage. Gneiss for physical bulk and STAB Earthquake. Calcifer's Thunderpunch for coverage.
+- Tactical Plan: Lead with Xenon (Ghost-type; immune to Selfdestruct). Use Night Shade for fixed damage. Gneiss for physical bulk and STAB Earthquake. Calcifer's Thunderpunch for coverage.
 - Prepare for Kingdra: Use status (Sleep Powder) or high Sp.Def tanks. Teach Ice-type moves if possible.
 - Stock up on Full Heals in Blackthorn to handle paralysis.
 
 # Strategy: Johto League Training
-- Method: Switch-training. Lead with Xenon (Safety vs Selfdestruct), switch to finisher (Gneiss/Calcifer).
+- Method: Switch-training. Lead with Xenon (Safety vs Selfdestruct), then switch to finisher (Gneiss/Calcifer) to share EXP.
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
 - Resource Management: Return to Blackthorn PC via FLY when PP or HP is critical.
 - Grinding Session 1: Started Turn #31060.
@@ -47,7 +47,3 @@
 - LEDGE_HOP_DOWN: One-way jump South.
 - LEDGE_HOP_LEFT: One-way jump West.
 - LEDGE_HOP_RIGHT: One-way jump East.
-
-# Bag Order Note
-- Bag is NOT alphabetical. Observed: ICE BERRY, ICE HEAL, GRN, PNK, YLW.
-- Use manual scrolling or multiple turns to find items reliably.
