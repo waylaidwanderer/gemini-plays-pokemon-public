@@ -139,32 +139,6 @@
       }
     ]
   },
-  "navigate_start_menu_v2": {
-    "description": "Navigates the Start menu (8 options) from a known cursor position to a target option. 1: Pokedex, 2: Pokemon, 3: Pack, 4: Gear, 5: Gem, 6: Save, 7: Option, 8: Exit. Handles wrapping.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_cursor": {
-          "type": "integer"
-        },
-        "target_option": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "current_cursor",
-        "target_option"
-      ]
-    },
-    "python_script": "import json\ntarget = int(input_data['target_option'])\ncurrent = int(input_data['current_cursor'])\nbuttons = ['Start', 'sleep 1000']\ndiff = (target - current) % 8\nif diff <= 4:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (8 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T08:39:03.941Z",
-        "action_counter": 31967
-      }
-    ]
-  },
   "swap_pokemon_v5": {
     "description": "Swaps two Pokemon in the party. Assumes the Pokemon menu is already open and the cursor is at Slot 1. Requires the sub-menu offset for the 'SWITCH' command for the first Pokemon.",
     "input_schema": {
@@ -226,6 +200,32 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T08:39:03.943Z",
         "action_counter": 31967
+      }
+    ]
+  },
+  "navigate_start_menu_v3": {
+    "description": "Navigates the Start menu (8 options) from a known cursor position to a target option. 1: Pokedex, 2: Pokemon, 3: Pack, 4: Gear, 5: Gem, 6: Save, 7: Option, 8: Exit. Handles wrapping. Returns buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_cursor": {
+          "type": "integer"
+        },
+        "target_option": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "current_cursor",
+        "target_option"
+      ]
+    },
+    "python_script": "import json\ntarget = int(input_data['target_option'])\ncurrent = int(input_data['current_cursor'])\nbuttons = ['Start', 'sleep 1000']\ndiff = (target - current) % 8\nif diff <= 4:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (8 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T08:45:54.917Z",
+        "action_counter": 31974
       }
     ]
   }
