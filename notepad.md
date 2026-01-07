@@ -1,20 +1,22 @@
-# Current Strategy: Reach Southern Item Rooms via Room 2
-- **Location:** Transitioning from Item Rooms (3_77) to Room 2 (3_75).
-- **Status:** Warping back to Room 2.
-- **Conclusion:** The Northern Item Rooms (Rows 1-3) are an EXIT ONLY area. The ledges at Row 4 block North->South movement.
-- **New Plan:**
-  1. Warp to Room 2 (13, 21).
-  2. Navigate to the Western Waterfalls at (6, 7).
-  3. Figure out how to Surf/Ascend to reach Warp (11, 5).
+# Current Strategy: Return to Room 2 via Warp
+- **Location:** Silver Cave Item Rooms (3_77)
+- **Status:** Trying to trigger Warp at (13, 3).
+- **Issue:** Warp didn't trigger on previous attempt.
+- **Hypothesis:** Need to bump the wall (Down) or re-enter the tile to trigger.
+- **Plan:**
+  1. Move Left off the warp.
+  2. Move Right onto the warp.
+  3. Press Down repeatedly to trigger.
+  4. Once in Room 2, head to Western Waterfalls.
 
 # Key Findings
 - **Item Rooms (3_77):**
-  - **North Area:** Exit loop. Ledges are one-way (South->North or just blocked).
-  - **South Area:** Contains items (likely). Entrance is via Warp (11, 5).
+  - **North Area:** Dead end / Exit loop.
+  - **Ledges (Row 4):** Confirmed IMPASSABLE from North. Must be jumpable from South.
+  - **Warp (13, 3):** Exit to Room 2. Requires careful triggering.
 - **Silver Cave Room 2 (3_75):**
-  - **Western Path:** Water at (6, 7). Previous attempts to surf from (6, 8) failed.
-  - **Hypothesis:** Try surfing from adjacent tiles (e.g., (5, 8)) or check if `FLOOR_UP_WALL` at (6, 8) blocks interaction.
-  - **Waterfall:** (11, 29) leads to the Item Room Exit loop.
+  - **Goal:** Reach Warp (11, 5) via Western Waterfalls.
 
 # Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as a wall when entering from the North (Up). Likely allows entering from South.
+- **WARP_CARPET_DOWN:** Should trigger on entering or stepping Down.
+- **FLOOR_UP_WALL:** Acts as a wall from North. Likely a Ledge.
