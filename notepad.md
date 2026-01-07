@@ -1,30 +1,20 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26121 (Jan 7, 2026) [Reflected]
+- **Timestamp:** Turn 26173 (Jan 7, 2026) [Route 28]
 - **Primary Goal:** Defeat Red.
-- **Status:** In Victory Road Gate (Reception Gate), attempting to exit West to Route 28.
-- **Route:** Victory Road Gate (Left Exit) -> Route 28 -> Silver Cave.
+- **Status:** On Route 28, heading West to Silver Cave.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Walk West to Route 22 -> Reception Gate -> Silver Cave.
-- **Plan:**
-    1. Walk to Route 22.
-    2. Enter Reception Gate.
-    3. Enter Silver Cave.
-    4. BATTLE: Use 'battle_strategist' agent for advice.
+- **Immediate Goal:** Reach Silver Cave Entrance (0, 13).
+- **Next Task:** Test 'battle_strategist' on a wild Pokemon.
 
 ## Vs Red Strategy
 - (Placeholder for insights)
 
-# Recent Discoveries
-- Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
-
 # Tile Mechanics
-- **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
-- **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
-- **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
+- **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp. Sideways movement fails.
+- **FLOOR_UP_WALL:** South-facing Ledge. Blocks North movement.
+- **Waterfall:** Slide-back unless facing UP + Press A. Needs HM07.
 
-# Map Structure (Silver Cave)
-- Upper Ledge is segmented. Center (13) connects to Left (6), but Right (17) is blocked by Wall at Col 16.
-- **Route 2 Navigation:** To head North from the entrance, use the gap in the ledge at (7, 47). The tree at (10, 40) blocks the path further North.
-- **Observation:** Walking Right onto (1, 7) did not trigger the warp.
-- **Hypothesis:** The tile is `WARP_CARPET_DOWN`. It may require stepping *Down* onto it to trigger, even though it's a horizontal hallway. Testing Up -> Down movement.
+# Map Structure & Notes
+- **Route 28:** Path leads West to Silver Cave.
+- **Silver Cave:** Item Room (Left) contains Max Revive. Upper Ledge center connects to Left section.
