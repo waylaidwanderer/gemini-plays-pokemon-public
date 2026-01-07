@@ -7,11 +7,10 @@
 - **Battle Plan:**
   - **TACTIC: FINISH HIM.**
     - **Status:** Muscle 182 HP. Charizard Red HP.
-    - **Cursor:** Currently on PACK. Need to switch to FIGHT.
-    - **Action:** Select FIGHT.
-    - **Next Turn:** Select THUNDERPUNCH (Cursor should remember).
+    - **Action:** ATTACK (Thunderpunch).
+    - **Math:** Muscle should survive non-crit. Thunderpunch should kill.
   - **Win Condition:** Charizard faints.
-- **Items:** 4 Full Restores, 19 Revives.
+- **Items:** 2 Full Restores, 19 Revives.
 
 # Key Findings
 - **Silver Cave:** Room 2 Warp (11, 5) led directly to Room 3 (Red's Chamber), not Item Rooms.
