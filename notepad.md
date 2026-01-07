@@ -19,7 +19,7 @@
 # Strategy: Johto League Training
 - Method: Lead with lower-level Pokemon (Kimchi/Xenon) to share EXP. Switch to Gneiss or Calcifer for heavy lifting.
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
-- Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 6/10).
+- Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 4/10).
 
 # Progress Tracker
 - Xenon (Lv28): 17752 EXP. Target Lv30: 21760 EXP (~4008 remaining).
