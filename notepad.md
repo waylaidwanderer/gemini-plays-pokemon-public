@@ -36,19 +36,14 @@
 - Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
 
-# Turn Synchronization
-- Turn #31913. Resetting position in Cianwood PC to break menu loop.
+# Progress Tracking
+- Cianwood Consolidation: Started Turn #31883.
+- Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
 
-# Failed Hypotheses Log (Training Prep)
-- Total Failures: 16.
-- Last Failure (Turn #31918): press_buttons failed to reach (1, 7) because Lass (ID 2) was blocking (1, 6).
-
-# Decisive Action Phase: Cianwood Consolidation
-- Step 1: Heal at Cianwood PC (Complete).
-- Step 2: Break loop by moving to (1, 7) (Current).
-- Step 3: Swap Xenon to lead.
-- Step 4: Give Kimchi Exp. Share.
-- Step 5: Fly to Blackthorn City.
+# Strategy: Cianwood Consolidation
+- Step 1: Swap Xenon to lead.
+- Step 2: Give Kimchi Exp. Share.
+- Step 3: Fly to Blackthorn City.
 
 # Menu Mapping (Cianwood PC)
 - Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
@@ -58,8 +53,3 @@
 - Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 
 - Strategy: Use specialized tools (`swap_pokemon_v2`, `use_item_on_pokemon_v2`) from a clean overworld state whenever possible.
 - If tools fail, use `press_menu_buttons` with at least 1000ms `sleep` after any menu-opening action.
-
-# Reflection Turn #31916
-- Corrected Super Nerd marker label.
-- Attempting `swap_pokemon_v2` from overworld (4, 4).
-- Root Hypothesis: The "stuck" warnings were due to menu desync keeping me on the same tile without overworld movement. Moving to (4, 4) cleared the "stuck" state.
