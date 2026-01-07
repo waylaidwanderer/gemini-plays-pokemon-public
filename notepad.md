@@ -3,13 +3,14 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Explore Silver Cave Room 1 (Northern Section).
 - **Sequence:**
-    1. Navigate West from (14, 26) to (12, 26).
-    2. Go North to (12, 22), then West to (4, 22).
-    3. Go North to (4, 16) (West Room).
-    4. Navigate East along Row 16 to (8, 16).
-    5. Go South to (8, 18), then East through the gap at (9, 18) to reach the East Section.
-    6. Explore North-East.
+    1. Navigate East from (9, 18) to (15, 18).
+    2. Go North through the gap at (15, 17).
+    3. Continue North to explore the unseen area (x=15, y<15).
+    4. Look for Item Balls and the next map connection.
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
-- **Maze Solution:** The "West Room" is not a dead end. It connects to the East Section via a path at (8, 18).
+- **Maze Solution:** The path at (8, 18) connects the West and East sections.
+- **Navigation Notes:**
+    - East Section access via (9, 18).
+    - Northbound path appears to be at x=15.
