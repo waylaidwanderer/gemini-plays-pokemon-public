@@ -11,7 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Defeat Schoolboy Danny (Magmar).
-- **Status:** In Battle. Muscle (Lv 85) vs Magmar (Next).
-- **Action:** Select NO to switching. Keep Muscle in.
-- **Reasoning:** Muscle is full HP and way overleveled. No need to switch.
+- **Status:** In Battle. Entered Switch menu by mistake.
+- **Action:** Press B to cancel switch and keep Muscle in.
+- **Reasoning:** Muscle is full HP and way overleveled. Switching is unnecessary.
 - **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
