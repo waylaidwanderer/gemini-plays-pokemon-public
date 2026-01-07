@@ -15,3 +15,6 @@
 
 # Map Notes
 - **Item Rooms:** Has a "Main" section with a North Hallway (Row 0) that is NOT accessible from the Balcony. Must find the entrance to this Main section.
+- Waterfall Technique: To climb, one must be at the base facing UP. Simply pressing 'Up' into the waterfall causes a bump/slide-back that resets facing to DOWN.
+- Solution: Move Down to (11, 31), then move Up to (11, 30). This lands the player at the base facing UP. Then press 'A'.
+- Action: Executing Down-Up maneuver.
