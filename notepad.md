@@ -1,13 +1,14 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Exploring Lower Room 2 (Land Area).
-- **Location:** Near Warp (17, 31).
-- **Hypothesis:** This landing connects to Room 1 (confirmed loop). The *real* path is likely the unexplored SW Water (x < 4).
+- **Status:** Exploring Lower Room 2 (Water).
+- **Location:** (14, 30).
+- **Action:** Surfing West to explore the Southwest area.
+- **Rationale:** The Warp at (17, 31) is a confirmed loop to Room 1 (Turn 26455). The only remaining unexplored area is the Southwest water/corner.
+- **Hypothesis:** The entrance to the South Item Rooms or Red's area is hidden in the Southwest corner.
 - **Plan:**
-  1. Verify Warp (17, 31) (Loop).
-  2. Surf West to the far Southwest corner (x < 4).
-  3. Explore for hidden caves or items.
-- **Reference:** Previous loop confirmation at Turn 26455.
+  1. Surf West from (14, 30).
+  2. Investigate the area around x=4, y=30+.
+  3. Look for a landing spot or cave entrance.
 
 # Key Findings
 - **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
