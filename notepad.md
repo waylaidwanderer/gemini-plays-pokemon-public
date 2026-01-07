@@ -37,7 +37,7 @@
 - Lead: GNEISS (Lv47).
 - Participation: Switch to Xenon/Kimchi for shared EXP when safe.
 - Passive: XENON holds EXP.SHARE.
-- Logistics: Fly to Blackthorn PC for healing when PP/HP is low. Goal: Lv40 for targets.
+- Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
 
 ## Route 45 Exploration Status
 - Task started: Turn 32625.
@@ -54,4 +54,5 @@
 - Turns 33382-33384: Great Ball attempts.
 - Turn 33385: Donphan woke up.
 - Turn 33386: Sleep Powder success.
-- Turn 33387: Throwing Great Ball. status: SLP. Great Balls: 32.
+- Turn 33387: Opened Pack.
+- Turn 33388: Throwing Great Ball. status: SLP. Great Balls: 32.
