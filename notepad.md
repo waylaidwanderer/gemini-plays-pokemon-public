@@ -1,6 +1,6 @@
-# Tile Mechanics
+# Tile Mechanics: Route 45
 - TALL_GRASS: Traversable. Triggers wild encounters. Verified at (12, 10), (13, 10).
-- LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13).
+- LEDGE_HOP_DOWN: One-way traversal (Down). Verified at (13, 9), (12, 13), (4, 41), (2, 55), (2, 63), (4, 77).
 - WALL: Impassable. Verified at (13, 12).
 - FLOOR: Traversable. Verified at (12, 6).
 
