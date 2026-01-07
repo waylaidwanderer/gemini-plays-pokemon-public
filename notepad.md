@@ -1,13 +1,14 @@
-# Current Strategy: Resupply and Retry
-- **Timestamp:** Turn 25989 (Jan 6, 2026)
+# Current Strategy: Resupply via Kanto Border
+- **Timestamp:** Turn 26012 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** Lost to Red (Turn 25986).
-- **Immediate Goal:** Fly to Indigo Plateau to buy Full Restores and Revives.
+- **Status:** Fly directly to Indigo Plateau failed (Map selection issue).
+- **Immediate Goal:** Enter Kanto region via Route 27 to enable Kanto Fly map.
 - **Plan:**
-    1. Fly to Indigo Plateau.
-    2. Buy 20 Full Restores, 20 Revives.
-    3. Return to Mt. Silver.
-    4. Rematch Red using aggressive healing.
+    1. Surf East from New Bark Town (Water at 18,6).
+    2. Travel along Route 27 until the map registers as Kanto.
+    3. Fly to Indigo Plateau.
+    4. Buy 20 Full Restores, 20 Revives.
+    5. Return to Mt. Silver for Red rematch.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
