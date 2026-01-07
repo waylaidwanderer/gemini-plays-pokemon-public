@@ -29,8 +29,8 @@
   - West (Col 3) and East (Col 16) are WALLS.
   - South (Row 4) is the ONLY exit via Ledges.
 - Ledge Testing:
-  - Blocked: 4, 5, 6, 7, 8, 9, 12, 14.
-  - Testing: 10, 11, 15.
-- Action: Moving to (10, 3) to test (10, 4).
+  - Blocked: 4, 5, 6, 7, 8, 9, 10, 12, 14.
+  - Testing: 11, 15.
+- Action: Moving to (11, 3) to test (11, 4).
 - Hypothesis: Testing for a valid jump spot continues.
-- Contingency: If all ledges fail, check for hidden doors in North Wall (Row 1).
+- Contingency: If all ledges fail, return to Room 2 and search for a second cave entrance (possibly missed during surf).
