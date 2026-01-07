@@ -5,25 +5,30 @@
 - Route 45: High-level training area.
 
 # Tile Mechanics
-- FLOOR: Standard walkable surface.
-- WALL: Solid obstacle.
-- TALL_GRASS: Walkable. Triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way vertical jump (Down).
-- LEDGE_HOP_LEFT: One-way horizontal jump (Left).
-- LEDGE_HOP_RIGHT: One-way horizontal jump (Right).
-- CAVE: Warp tile.
-- SIGN: Background object. Read text from adjacent tile.
+- FLOOR: Walkable.
+- WALL: Impassable.
+- TALL_GRASS: Walkable. Wild encounters.
+- WATER: Requires Surf to traverse.
+- WARP_CARPET_DOWN: Triggers map transition when walking down.
+- DOOR: Triggers map transition when entered.
+- HEADBUTT_TREE: Interact to use Headbutt (if learned).
+- LEDGE_HOP: One-way movement in the direction of the arrow.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
 - Strategy: Use fly_navigator_v2. Verify town name on screen.
 
+# Item Tracking
+- AMULET COIN: In Bag (Turn 33085).
+- EXP.SHARE: In Bag (Turn 33091).
+- PNK APRICORN: In Bag (Turn 33081).
+- HARD STONE: Held by GNEISS.
+
 # Current Plan
-1. Fly to Goldenrod City.
-2. Investigate Yanma swarm on Route 35.
-3. Swap Exp. Share to Xenon, Amulet Coin to Kimchi (check held items).
-4. Lead with Gneiss (Lv46) for safe/fast grinding.
-5. Return to training on Route 45 after the swarm event.
+1. Give Exp. Share to Xenon for training.
+2. Investigate Route 35 tall grass for training opportunities (Yanma swarm active, Yanma already caught).
+3. Train Xenon and Kimchi to Lv40+.
+4. Return to Blackthorn City for Gym challenge.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
@@ -33,9 +38,7 @@
 - Survival: Level supports to Lv40+ to survive hits.
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
-# Swarm Investigation: Yanma (Route 35)
-- Turn 33075: Arrived on Route 35 to investigate the Yanma swarm reported by Arnie.
-- Strategy: Lead with Gneiss (Lv46) to avoid weak encounters and use Great Balls to catch Yanma if not already caught. 
-- Goal: Verify if Yanma is already in Pokedex and catch one if needed. (Check: Pokedex shows Yanma is already caught).
-- Training: If swarm is active, use the increased encounter rate to train Xenon and Kimchi.
-- Current Status: Swarm reported, starting investigation in tall grass.
+# Training Log: Route 35 (Swarm)
+- Turn 33075: Arrived on Route 35.
+- Turn 33091: Item management complete. Starting training.
+- Strategy: Lead with Gneiss (Lv46) to handle encounters quickly while Xenon gains Exp. via Exp. Share.
