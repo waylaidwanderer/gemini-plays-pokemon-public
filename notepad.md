@@ -19,6 +19,7 @@
 - COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it. Verified.
 - PC (Pokemon Center): Interact to manage Pokemon and items. Verified.
 - LADDER: Triggers map transition between floors. Verified.
+- GRASS: Walkable. Triggers wild encounters. Verified.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
@@ -35,7 +36,7 @@
 - **Move Matchups:** Check party movesets before switching. Kimchi lacked Grass moves for Graveler. (Turn 33260).
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 - **Gligar Typing:** Gligar is Ground/Flying. It is immune to Ground moves and neutral to Normal. It does not learn Faint Attack by level-up in this game. (Turn 33361).
-- **Status Effectiveness:** Sleep Powder and Hypnosis reportedly failed against wild Gligar with 'It didn't affect' (Turns 33475, 33482). This is unusual and needs re-verification to determine if it's a ROM mechanic or a misobservation.
+- **Status Effectiveness:** Sleep Powder and Hypnosis reportedly failed against wild Gligar with 'It didn't affect' (Turns 33475, 33482). Overwatch suggests this is a misunderstanding of mechanics; re-verification required if encountered again.
 - **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
 - **Input Precision:** Avoid mixing directional and action buttons in a single sequence. Verify turn count against Game State before acting. (Turn 33423).
 - **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
@@ -55,6 +56,3 @@
 - Opponent: Clair uses Dragon-type Pokemon.
 - Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
 - Start Turn (Grinding): 33466.
-
-## Historical Data (Archive)
-- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) after several Great Ball attempts at ~50% HP while confused. Failed attempts noted on turns 33490, 33492, 33495.
