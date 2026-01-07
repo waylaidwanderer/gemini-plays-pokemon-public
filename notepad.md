@@ -12,8 +12,9 @@
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
-- **Immediate Task:** Explore Silver Cave Item Rooms (Upper Ledge).
+- **Immediate Task:** Retrieve item at (6, 3) and explore Left Side.
 - **Sequence:**
-    1. Explore the right side of the upper ledge (Columns 17-18).
-    2. Check for items.
-    3. Jump down the ledge to explore the lower area only after clearing the top.
+    1. Go to (6, 2).
+    2. Pick up item at (6, 3).
+    3. Explore West (x<5) to see if there is a path to the Upper Ledge.
+    4. If blocked, jump down to lower area.
