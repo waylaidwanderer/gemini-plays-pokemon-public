@@ -1,20 +1,18 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25950 (Jan 6, 2026)
+- **Timestamp:** Turn 25952 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Use Hyper Potion on Muscle.
+- **Immediate Task:** Clear Text -> Tank Charizard's Hit.
 - **Battle Plan:**
-    1. **Charizard (Lv77):** Active. Muscle (51 HP).
-    2. **Turn 1 (Current):** Confirm Hyper Potion Use.
-       - Sequence: Select Hyper Potion (A) -> Select USE (A) -> Select Muscle (A).
-       - Muscle heals to 251/280.
-       - Charizard attacks.
-    3. **Turn 2:** Attack with Strength.
-       - Strength (Physical, 80 BP) vs ThunderPunch (Special, 75 BP * 2 = 150).
-       - Machoke's Atk >> SpAtk. Strength is likely more consistent.
-    4. **Snorlax:** Muscle's Cross Chop.
-    5. **Venusaur:** Ice Punch or Strength.
-    6. **Blastoise:** Cross Chop.
-- **Resources:** Muscle (51/280). 3 Hyper Potions. 1 Max Revive. Gyarados alive.
+    1. **Charizard (Lv77):** Active. Muscle (251 HP).
+    2. **Action:** Press B to clear healing text.
+    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks.
+    4. **My Turn:** Use Strength.
+       - Math confirmed: Strength (Physical, 80 BP) > ThunderPunch (Special, 150 BP effective).
+       - Machoke's Atk is ~2x SpAtk, and Charizard's Def < SpDef.
+    5. **Snorlax:** Muscle's Cross Chop.
+    6. **Venusaur:** Ice Punch or Strength.
+    7. **Blastoise:** Cross Chop.
+- **Resources:** Muscle (251/280). 3 Hyper Potions. 1 Max Revive. Gyarados alive.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
