@@ -146,5 +146,55 @@
         "action_counter": 29934
       }
     ]
+  },
+  "fly_to": {
+    "description": "Moves the cursor to a specific city on the 2D Fly map and selects it. This tool MUST be called while the Fly map is open. It calculates the necessary directional presses from a starting city to a target city.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_city": {
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Azalea Town",
+            "Goldenrod City",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ],
+          "type": "string"
+        },
+        "current_city": {
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Azalea Town",
+            "Goldenrod City",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_city",
+        "target_city"
+      ]
+    },
+    "python_script": "import json\n\ndef solve():\n    # Coordinates of cities on the 2D Fly map (approximate relative positions)\n    city_coords = {\n        \"New Bark Town\": (7, 3),\n        \"Cherrygrove City\": (6, 3),\n        \"Violet City\": (4, 2),\n        \"Azalea Town\": (4, 4),\n        \"Goldenrod City\": (2, 3),\n        \"Ecruteak City\": (4, 1),\n        \"Olivine City\": (2, 2),\n        \"Cianwood City\": (0, 2),\n        \"Mahogany Town\": (6, 1),\n        \"Blackthorn City\": (7, 1)\n    }\n    \n    current = input_data['current_city']\n    target = input_data['target_city']\n    \n    curr_x, curr_y = city_coords[current]\n    targ_x, targ_y = city_coords[target]\n    \n    buttons = []\n    \n    # Move X\n    dx = targ_x - curr_x\n    if dx > 0:\n        buttons.extend([\"Right\"] * dx)\n    elif dx < 0:\n        buttons.extend([\"Left\"] * abs(dx))\n        \n    # Move Y\n    dy = targ_y - curr_y\n    if dy > 0:\n        buttons.extend([\"Down\"] * dy)\n    elif dy < 0:\n        buttons.extend([\"Up\"] * abs(dy))\n        \n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Created fly_to tool to automate 2D map navigation in the Fly menu.",
+        "timestamp": "2026-01-07T12:25:00.677Z",
+        "action_counter": 32313
+      }
+    ]
   }
 }
