@@ -53,7 +53,7 @@
 9. use_item_on_pokemon_v2 (Turn #31904): Failed, entered Pokegear menu.
 10. swap_pokemon_v2 (Turn #31906): Failed, gave Xenon an Ice Berry instead of swapping.
 11. press_menu_buttons (Turn #31907): Failed, menu wrapping and lag caused Trainer Card to open.
-12. Discovery: Kimchi's field moves (FLASH, CUT) shift the 'SWITCH' option in the sub-menu, causing tool failures when initiated from Slot 1.
+12. press_menu_buttons (Turn #31911): Failed to swap Xenon to lead; landed on ITEM instead of SWITCH due to Haunter's sub-menu layout and incorrect Down count. Also took an Ice Berry.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
