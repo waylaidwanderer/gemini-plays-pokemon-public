@@ -226,5 +226,31 @@
         "action_counter": 31572
       }
     ]
+  },
+  "fly_to_blackthorn": {
+    "description": "Automates the sequence to use Fly from the overworld. Destination must be provided as a list of buttons to navigate the Fly map. Assumes Icarus (Pidgey) is in the 2nd party slot and Fly is the first field move.",
+    "input_schema": {
+      "properties": {
+        "fly_map_navigation": {
+          "description": "An array of directional buttons to reach the destination on the Fly map.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "fly_map_navigation"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data['fly_map_navigation']\n    buttons = [\"Start\", \"Down\", \"A\", \"Down\", \"A\", \"A\", \"sleep 2000\"]\n    buttons.extend(navigation)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T05:56:00.798Z",
+        "action_counter": 31766
+      }
+    ]
   }
 }
