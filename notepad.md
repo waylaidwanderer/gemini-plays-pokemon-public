@@ -39,12 +39,13 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Party Status (Turn #32101)
-- XENON (Haunter): Lv29. HP 74/74. Holding AMULET COIN.
+# Party Status (Turn #32104)
+- XENON (Haunter): Lv29. HP 0/74. FAINTED.
 - KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
-- GNEISS (Graveler): Lv46. HP 129/129. No item.
-- CALCIFER (Typhlosion): Lv48. HP 152/152. No item.
-- Goal: Train XENON and KIMCHI to Lv40 on Route 45. (Started Turn #31883)
+- GNEISS (Graveler): Lv46. HP 129/129.
+- CALCIFER (Typhlosion): Lv48. HP 152/152.
+- Goal: Finish battle with Graveler (LV27), then Fly to Blackthorn to heal.
+- Strategy: Magnitude 7 fainted Xenon. Switching to GNEISS for Ground immunity/resistance. (Turn #32104)
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL
