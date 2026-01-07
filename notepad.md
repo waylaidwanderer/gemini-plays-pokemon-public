@@ -24,3 +24,7 @@
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge (impassable from below, jumpable from above).
 - **WATERFALL:** Impassable tile unless HM Waterfall is used. Interaction: Face Up + A.
+- **Status:** At (6, 8). Attempting to Surf North.
+- **Issue:** Pressing 'A' alone didn't trigger Surf prompt.
+- **Action:** Pressing UP to walk into the water, which should force the prompt.
+- **Plan:** Surf to (6, 6) then ascend Waterfall.
