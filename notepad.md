@@ -1,12 +1,12 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Investigate Warp at (11, 5).
+- **Immediate Task:** Explore Silver Cave Room 3.
 - **Sequence:**
-    1. Navigate from current position (8, 8) to the warp at (11, 5).
-    2. Enter the warp.
-    3. Determine if this leads to the Right Side of the Item Room.
-- **Anomaly:** Unexpectedly relocated to (8, 8) after running from battle at (19, 20). Proceeding from this new location.
+    1. Mark return warp at (9, 33).
+    2. Explore North from the entrance.
+    3. Determine if this leads to Red or just items.
+- **Map Connection:** Room 2 (11, 5) connects to Room 3 (9, 33).
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
