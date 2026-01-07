@@ -33,3 +33,5 @@
 # General Mechanics & Lessons
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
+- Turn #31604: Defeated Hiker Erik on Route 45.
+- Turn #31604: Dana (Lass) on Route 38 has a gift.
