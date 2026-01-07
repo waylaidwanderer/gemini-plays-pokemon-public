@@ -1,17 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25964 (Jan 6, 2026)
+- **Timestamp:** Turn 25965 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Use Max Revive on Muscle.
+- **Immediate Task:** Clear Text -> Watch Gyarados Die (or survive).
 - **Battle Plan:**
-    1. **Action:** Press A on Muscle (Slot 1).
-    2. **Outcome:** Muscle revived to 280/280.
+    1. **Current State:** Muscle Revived (280/280). Gyarados active.
+    2. **Action:** Press B to clear "Revitalized" text.
     3. **Opponent Turn:** Charizard attacks Gyarados.
-       - If Wing Attack: Gyarados faints (likely). Muscle switches in.
-       - If Flamethrower: Gyarados might survive (Resist). Use Surf next? Or switch?
-         - If Gyarados survives, Surf might chip ~30 dmg. Useful.
-    4. **Next:** Muscle vs Charizard.
-       - Use Strength.
-- **Resources:** Muscle (Fainted -> Full). Gyarados (117/117). 0 Max Revive. 2 Hyper Potions.
+       - If Gyarados faints: Send Muscle.
+       - If Gyarados survives: Switch to Muscle manually (Charizard is faster, so switching is safe if we accept Gyarados dies on the switch, but wait... if I switch, Muscle takes the hit. No. If Gyarados survives, I should let him die next turn or use an item? No, just let him die to get Muscle in clean).
+    4. **Next:** Muscle vs Charizard. Strength.
+- **Resources:** Muscle (280/280). Gyarados (Active). 0 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
