@@ -39,11 +39,11 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Party Status (Turn #32078)
-- XENON (Haunter): Lv29. Leading. HP 64/74. Item: AMULET COIN (Equipped Turn #32080).
-- KIMCHI (Gloom): Lv28. Item: EXP.SHARE.
-- Audit: COMPLETE. Amulet Coin found on GNEISS and equipped to XENON.
+# Party Status (Turn #32092)
+- XENON (Haunter): Lv29. HP 24/74. Item: AMULET COIN.
+- KIMCHI (Gloom): Lv28. HP 74/74. Item: EXP.SHARE.
 - Goal: Train XENON and KIMCHI to Lv40 on Route 45. (Started Turn #31883)
+- Strategy: Use Hyper Potion on Xenon to maintain grinding efficiency. (Turn #32092)
 
 # Meta
 - Training Task Start: Turn #31883.
