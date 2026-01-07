@@ -2,14 +2,12 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (17, 15). West Bank.
-- **Finding:** Access to the bottom rows (16-17) and Top Area (Rows 0-4) seems blocked from the main path.
-- **Hypothesis:** The "Secret Area" (House, NW Exit) is accessed via a path inside **Silver Cave**.
+- **Current Location:** Route 28 (18, 15). Facing South.
+- **Action:** Testing if Row 16 is a ledge I can jump over.
 - **Plan:**
-    1. Navigate North to (14, 6) to verify the ledge loop.
-    2. Return to Route 28 Entrance (0, 13).
-    3. Enter Silver Cave Outside.
-    4. Enter Silver Cave (18, 11) and explore for a hidden exit.
+    1. Press Down to attempt jump.
+    2. If successful (land on Row 17), head East to the edge of the map.
+    3. If blocked, go back to the pond and Surf to the North bank (Row 8).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
