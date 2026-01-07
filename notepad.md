@@ -21,7 +21,6 @@
 - Goal: Lv40 for Xenon and Kimchi.
 - Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
 - PP Management: Fly to Blackthorn and heal when Night Shade PP < 2.
-- Current Status: Xenon Lv31, Kimchi Lv30.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential.
