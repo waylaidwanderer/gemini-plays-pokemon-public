@@ -13,36 +13,35 @@
 - WARP: Tile that triggers map transition.
 
 # Strategy: Rising Badge (Gym Leader Clair)
-- Level Target: Xenon and Kimchi to Lv40 (Target: 56660 EXP).
-- Tactical Plan: Lead with Xenon (Ghost-type; immune to Selfdestruct). Use Night Shade for fixed damage. Gneiss for physical bulk and STAB Earthquake. Calcifer's Thunderpunch for coverage.
-- Prepare for Kingdra: Use status (Sleep Powder) or high Sp.Def tanks. Teach Ice-type moves if possible.
-- Stock up on Full Heals in Blackthorn to handle paralysis.
+- Level Target: Xenon and Kimchi to Lv40.
+- Tactical Plan: Lead with Xenon (Ghost; immune to Selfdestruct). Night Shade for fixed damage. Gneiss/Calcifer as finishers.
+- Preparation: Stock up on Full Heals. Prepare status/counters for Kingdra.
+
+# Strategy: Exp. Share Acquisition (Current)
+- Goal: Trade Red Scale for Exp. Share at Mr. Pokemon's House (17, 5).
+- Route: (2, 39) -> (2, 41) -> (13, 41) -> (13, 30) -> (15, 30) -> (15, 20) -> (17, 20) -> (17, 18) -> (18, 18) -> (18, 14) -> (17, 14) -> (17, 6) -> (17, 5).
+- Note: Avoid ledges at (2, 37) by detouring through the right side of the map.
 
 # Strategy: Johto League Training
-- Method: Switch-training. Lead with Xenon (Safety vs Selfdestruct), then switch to finisher (Gneiss/Calcifer) to share EXP.
-- Efficiency: Grind in Route 45 grass (4,12)-(5,12).
-- Resource Management: Return to Blackthorn PC via FLY when PP or HP is critical.
-- Grinding Session 1: Started Turn #31060.
+- Method: Switch-training. Lead with Xenon (Safety), then switch to finisher (Gneiss/Calcifer).
+- Spot: Route 45 grass (4, 12).
+- Resource Management: Fly to Blackthorn PC to heal.
 
-# Ground-Type Safety Protocol (Lethal Threat)
-- Problem: Xenon (Poison/Ghost) is weak to Ground (Magnitude/Earthquake).
-- Solution: NEVER switch Xenon into Ground-types if they are likely to use Ground moves.
-- Safe Alternative: Icarus (Immune) or Gneiss/Calcifer.
+# Ground-Type Safety Protocol
+- Problem: Xenon is weak to Ground (Magnitude/Earthquake).
+- Solution: NEVER switch Xenon into suspected Ground-type users. Use Icarus/Gneiss instead.
 
 # Progress Tracker
-- Target Lv40: 56660 EXP.
-- Kimchi (Gloom): Lv28 (17615 EXP). ~39045 left.
-- Xenon (Haunter): Lv29 (20309 EXP). ~36351 left.
+- Kimchi (Gloom): Lv28 (17615 EXP).
+- Xenon (Haunter): Lv29 (20309 EXP).
 
 # Key Locations & Gifts
-- Mr. Pokemon: Route 30 (17, 5). Trade Red Scale for Exp. Share.
+- Mr. Pokemon: Route 30 (17, 5).
 - Dana (Lass): Route 38. Has a gift.
+- Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
-
-# Turn Synchronization Note
-- Turn #31862.
 
 # Area Mechanics: Route 30
 - TALL_GRASS: Traversable, triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way jump South. Blocked from moving North.
-- Navigating North: Must detour around ledges using gaps in rocks/trees (e.g., heading right through grass at (12, 48)).
+- Navigating North: Must detour around ledges using gaps in rocks/trees (e.g., heading right through grass at (13, 41)).
