@@ -1,17 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25957 (Jan 6, 2026)
+- **Timestamp:** Turn 25958 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Send out Gyarados (Last Resort).
+- **Immediate Task:** Send out Gyarados -> Revive Muscle.
 - **Battle Plan:**
-    1. **Status:** Muscle Fainted (Crit Flamethrower).
-    2. **Current Action:** Clear "Critical hit!" text -> "Muscle fainted!" -> Send Gyarados.
-    3. **Next Turn (Gyarados):** Use **MAX REVIVE** on Muscle.
-       - Gyarados will faint to Charizard.
-    4. **Turn X (Muscle):** Muscle returns with Full HP (280).
-       - Charizard attacks (~100 dmg). Muscle survives.
-       - Muscle uses Strength (or Rock Slide if I had it... wait, check moveset).
-       - Moveset: Strength, ThunderPunch, Ice Punch, Cross Chop.
-       - Stick with Strength (Physical) or try ThunderPunch (2x Super Effective but Special).
+    1. **Current Turn:** Select Gyarados (Slot 3).
+    2. **Next Turn (Gyarados active):** Open PACK -> Use **MAX REVIVE** on Muscle.
+       - Do NOT attack with Gyarados. He is level 36 vs Lv77 Charizard. He exists only to buy one turn.
+    3. **Aftermath:** Gyarados faints.
+    4. **The Comeback:** Send out Muscle (Full HP).
+       - Muscle vs Charizard (Part 2).
+       - Use Strength.
     5. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
 - **Resources:** Muscle (Fainted). Gyarados (117/117). 1 Max Revive. 2 Hyper Potions.
 
