@@ -18,3 +18,5 @@
 # Map Structure & Notes
 - **Route 28:** Path leads West to Silver Cave.
 - **Silver Cave:** Item Room (Left) contains Max Revive. Upper Ledge center connects to Left section.
+- **Issue:** `find_path` incorrectly attempts to traverse `LEDGE_HOP_RIGHT` from Right to Left.
+- **Route to PC:** From (36, 30), go South to Row 32, West to Column 28, North to Row 28, West to Surf Spot (24, 28). Surf West to (15, 28). Walk West to (1, 28) and North through gap at (1, 23).
