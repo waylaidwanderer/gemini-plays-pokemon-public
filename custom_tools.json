@@ -174,30 +174,51 @@
     ]
   },
   "fly_navigator": {
-    "description": "Cycles through the Fly map destinations. Provide the target town and it will attempt a known sequence.",
+    "description": "Navigates the Fly map between known towns. Provide the current town selected and the target town.",
     "input_schema": {
       "properties": {
+        "current_town": {
+          "enum": [
+            "New Bark Town",
+            "Azalea Town",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
+          ],
+          "type": "string"
+        },
         "target_town": {
           "enum": [
-            "Blackthorn City",
             "New Bark Town",
+            "Azalea Town",
             "Ecruteak City",
-            "Mahogany Town"
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City"
           ],
           "type": "string"
         }
       },
       "required": [
+        "current_town",
         "target_town"
       ],
       "type": "object"
     },
-    "python_script": "import json\ntarget = input_data.get('target_town', '')\n# The Fly map cycles through locations. \n# From Route 45 (initial cursor on New Bark), cycling Down reaches Blackthorn.\nif target == 'Blackthorn City':\n    print(json.dumps([\"Down\"] * 10))\nelse:\n    print(json.dumps([\"A\"]))",
+    "python_script": "import json\n\ncurrent = input_data.get('current_town')\ntarget = input_data.get('target_town')\n\n# Observed sequence:\n# New Bark -> Up -> Azalea\n# Azalea -> Up -> Ecruteak\n# Ecruteak -> Right -> Olivine\n# Olivine -> Up -> Cianwood\n# Cianwood -> Up -> Mahogany\n# Mahogany -> Down -> Blackthorn\n\nsequence = [\n    \"New Bark Town\",\n    \"Azalea Town\",\n    \"Ecruteak City\",\n    \"Olivine City\",\n    \"Cianwood City\",\n    \"Mahogany Town\",\n    \"Blackthorn City\"\n]\n\nmoves = {\n    (\"New Bark Town\", \"Azalea Town\"): [\"Up\"],\n    (\"Azalea Town\", \"Ecruteak City\"): [\"Up\"],\n    (\"Ecruteak City\", \"Olivine City\"): [\"Right\"],\n    (\"Olivine City\", \"Cianwood City\"): [\"Up\"],\n    (\"Cianwood City\", \"Mahogany Town\"): [\"Up\"],\n    (\"Mahogany Town\", \"Blackthorn City\"): [\"Down\"],\n    # Reverse moves (Hypothetical/Experimental)\n    (\"Azalea Town\", \"New Bark Town\"): [\"Down\"],\n    (\"Ecruteak City\", \"Azalea Town\"): [\"Down\"],\n    (\"Olivine City\", \"Ecruteak City\"): [\"Left\"],\n    (\"Cianwood City\", \"Olivine City\"): [\"Down\"],\n    (\"Mahogany Town\", \"Cianwood City\"): [\"Down\"],\n    (\"Blackthorn City\", \"Mahogany Town\"): [\"Up\"]\n}\n\ndef find_path(start, end):\n    if start == end:\n        return []\n    \n    # BFS for town path\n    queue = [(start, [])]\n    visited = {start}\n    \n    while queue:\n        curr_node, path = queue.pop(0)\n        if curr_node == end:\n            return path\n        \n        for (s, e), buttons in moves.items():\n            if s == curr_node and e not in visited:\n                visited.add(e)\n                queue.append((e, path + buttons))\n    return None\n\npath_buttons = find_path(current, target)\nif path_buttons:\n    print(json.dumps(path_buttons))\nelse:\n    print(json.dumps([\"A\"])) # Fail-safe if no path found",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T16:17:55.062Z",
         "action_counter": 32746
+      },
+      {
+        "commit_message": "Refined fly_navigator to handle sequences between known towns based on observed map logic.",
+        "timestamp": "2026-01-07T16:28:58.882Z",
+        "action_counter": 32770
       }
     ]
   }
