@@ -43,12 +43,10 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Progress Tracker
-- Kimchi (Gloom): Lv28 (17615 EXP).
+- Kimchi (Gloom): Lv28 (17615 EXP). Holding EXP.SHARE.
 - Xenon (Haunter): Lv29 (20309 EXP).
-- Turn #31989: GNEISS holding AMULET COIN.
-- Turn #31991: Corrected hallucination: EXP.SHARE is in the Items pocket, not held by Icarus.
-- Turn #32004: Menu navigation error; almost tossed Exp. Share. Currently on confirmation menu.
-- Task: Give EXP.SHARE to KIMCHI (Slot 3) and Fly to Blackthorn. (Started Turn #31883)
+- GNEISS (Graveler): Lv46. Holding AMULET COIN.
+- Task: Fly to Blackthorn and train on Route 45. (Started Turn #31883)
 
 # Pack Item Order (Turn #31989)
 1. ICE HEAL
