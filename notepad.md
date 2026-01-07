@@ -1,10 +1,10 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26173 (Jan 7, 2026) [Route 28]
+- **Timestamp:** Turn 26230 (Jan 7, 2026) [Silver Cave PC]
 - **Primary Goal:** Defeat Red.
-- **Status:** Inside Silver Cave Pokemon Center. Preparing to heal.
+- **Status:** Inside Silver Cave Pokemon Center. Healed.
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
-- **Immediate Goal:** Heal at Pokemon Center (23, 19).
+- **Immediate Goal:** Teach Flash to Belladonna (Oddish).
 - **Next Task:** Enter Silver Cave (18, 11).
 
 ## Vs Red Strategy
