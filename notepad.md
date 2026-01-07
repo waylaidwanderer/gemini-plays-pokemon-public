@@ -28,7 +28,12 @@
 - **Issue:** Pressing 'A' alone didn't trigger Surf prompt.
 - **Action:** Pressing UP to walk into the water, which should force the prompt.
 - **Plan:** Surf to (6, 6) then ascend Waterfall.
-- **Status:** At (6, 8). Retrying Surf interaction.
-- **Hypothesis:** Previous input (Up+A) might have failed due to collision timing or the tile (FLOOR_UP_WALL) has a North-facing wall property preventing Surfing.
-- **Test:** Pressing 'A' while stationary and facing North.
-- **Contingency:** If this fails, the Western Corridor is confirmed as a dead-end/exit-only path from this side. I will backtrack.
+- **Status:** At (6, 8). Unable to surf North.
+- **Observation:** Pressing 'A' facing Water at (6, 7) yields no response. The tile (6, 8) FLOOR_UP_WALL seems to block interaction or is not a valid surf point.
+- **Action:** Testing adjacent tile (5, 8) just in case.
+- **Plan:**
+  1. Move Left to (5, 8).
+  2. Face North and Press A.
+  3. If fail, accept this is a one-way exit.
+  4. Backtrack to Item Rooms and brute-force the ledges again.
+- **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
