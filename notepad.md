@@ -47,7 +47,7 @@
 - Xenon (Haunter): Lv29 (20309 EXP).
 - Turn #31989: GNEISS holding AMULET COIN.
 - Turn #31991: Corrected hallucination: EXP.SHARE is in the Items pocket, not held by Icarus.
-- Turn #31996: Menu navigation failed; saved game instead. Cursor starts on GEM. Correct turn 31997 was the Right move.
+- Turn #32002-32003: Menu navigation failed. Cursor currently on GEAR in Start Menu.
 - Task: Give EXP.SHARE to KIMCHI (Slot 3) and Fly to Blackthorn. (Started Turn #31883)
 
 # Pack Item Order (Turn #31989)
