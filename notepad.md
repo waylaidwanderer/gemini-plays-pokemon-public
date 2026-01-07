@@ -43,8 +43,10 @@
 # Progress Tracker
 - Kimchi (Gloom): Lv28 (17615 EXP). Holding EXP.SHARE.
 - Xenon (Haunter): Lv29 (20309 EXP).
-- GNEISS (Graveler): Lv46. Holding HARD STONE. (Verified Turn #32020)
+- GNEISS (Graveler): Lv46. Check held item (Hard Stone is in bag).
 - Task: Train Xenon and Kimchi to Lv40 on Route 45. (Started Turn #31883)
+- Grinding Spot: (4, 12) - (5, 12) tall grass.
+- Status: Exp. Share on Kimchi. Xenon leading. Everyone at 100% HP. (Turn #32031)
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
