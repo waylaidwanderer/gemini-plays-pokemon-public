@@ -1,15 +1,16 @@
-# Current Strategy: Resupply via Kanto Fly Point
-- **Timestamp:** Turn 26036 (Jan 6, 2026)
+# Current Strategy: Resupply at Indigo Plateau
+- **Timestamp:** Turn 26039 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Status:** Viewing Trainer Card. Exiting to navigate to Party Menu.
-- **Immediate Goal:** Exit Trainer Card -> Select POKEMON -> Mistral -> Fly.
+- **Status:** Arrived at Indigo Plateau via Fly. Interrupted by Wade's phone call.
+- **Immediate Goal:** Clear phone call -> Enter League Building -> Buy Supplies.
+- **Shopping List:**
+    - 20 Full Restores
+    - 20 Revives
 - **Plan:**
-    1. Exit Trainer Card (B).
-    2. Navigate to POKEMON (Up x3, A).
-    3. Select Mistral (Down to slot 2, A).
-    4. Select FLY.
-    5. Select Indigo Plateau.
-    6. Buy supplies and return to Mt. Silver.
+    1. Finish conversation with Wade.
+    2. Enter Indigo Plateau (Door at 9,5).
+    3. Buy supplies.
+    4. Fly to Silver Cave.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
