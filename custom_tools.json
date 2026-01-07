@@ -138,35 +138,5 @@
         "action_counter": 29934
       }
     ]
-  },
-  "give_item_v8": {
-    "description": "Gives an item from the bag to a Pokemon. Resets cursors and uses sleeps for maximum reliability. Assumes menu is closed. Returns buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "current_start_cursor": {
-          "type": "integer"
-        },
-        "item_index": {
-          "type": "integer"
-        },
-        "pkmn_slot": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "current_start_cursor",
-        "item_index",
-        "pkmn_slot"
-      ]
-    },
-    "python_script": "import json\ncurr_start = int(input_data['current_start_cursor'])\nitem_idx = int(input_data['item_index'])\npkmn_slot = int(input_data['pkmn_slot'])\nbuttons = ['Start', 'sleep 1000']\ndiff_s = (3 - curr_start) % 8\nif diff_s <= 4:\n    for _ in range(diff_s): buttons += ['Down', 'sleep 500']\nelse:\n    for _ in range(8 - diff_s): buttons += ['Up', 'sleep 500']\nbuttons += ['A', 'sleep 1000']\nfor _ in range(20): buttons += ['Up', 'sleep 200']\nfor _ in range(item_idx - 1): buttons += ['Down', 'sleep 200']\nbuttons += ['A', 'sleep 500']\nbuttons += ['Down', 'sleep 300', 'A', 'sleep 1000']\nfor _ in range(6): buttons += ['Up', 'sleep 200']\nfor _ in range(pkmn_slot - 1): buttons += ['Down', 'sleep 200']\nbuttons += ['A', 'sleep 1000', 'B', 'B', 'B']\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T08:52:29.340Z",
-        "action_counter": 31979
-      }
-    ]
   }
 }

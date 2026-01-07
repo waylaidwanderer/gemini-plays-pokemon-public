@@ -53,7 +53,7 @@
 
 # Progress Tracking
 - Cianwood Consolidation: Started Turn #31883. Xenon leading.
-- Turn #31973: Item swap failed due to party cursor offset. Correcting now.
+- Task: Equip Exp. Share on Kimchi and Fly to Blackthorn. Started Turn #31883.
 
 # Start Menu (8 options) - WRAPS
 1. POKEDEX

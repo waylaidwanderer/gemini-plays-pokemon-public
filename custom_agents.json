@@ -1,9 +1,1 @@
-{
-  "strategy_advisor_v2": {
-    "agent_name": "strategy_advisor_v2",
-    "agent_description": "Provides strategic advice for training and battles.",
-    "agent_system_prompt": "You are a Pokemon Master. Given the party, objectives, and inventory, provide a list of recommendations for training and the next gym battle.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"context\":{\"type\":\"string\"}},\"required\":[\"context\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"advice\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"advice\"]}"
-  }
-}
+{}
