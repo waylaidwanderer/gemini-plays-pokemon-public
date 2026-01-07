@@ -9,7 +9,7 @@
 - WALL: Impassable.
 - TALL_GRASS: Walkable. Wild encounters.
 - WATER: Requires Surf to traverse.
-- WARP_CARPET_DOWN: Triggers map transition when walking down. (Verify: check if one-way).
+- WARP_CARPET_DOWN: Triggers map transition when walking down.
 - DOOR: Triggers map transition when entered.
 - HEADBUTT_TREE: Interact to use Headbutt (if learned).
 - LEDGE_HOP: One-way movement in the direction of the arrow.
@@ -40,6 +40,7 @@
 - Started Turn 33130.
 - Strategy: Lead with Gneiss (Lv47+) while Xenon gains Exp via Exp. Share.
 - Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
+- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv34 (Turn 33203).
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
