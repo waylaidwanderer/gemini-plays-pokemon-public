@@ -1,12 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Exploring Lower Room 2 (Water) at (10, 30).
-- **Goal:** Explore the Southwest corner (x < 7) for hidden paths.
-- **Hypothesis:** The entrance to the South Item Rooms or Red's area is hidden in the Southwest corner, as other paths (Waterfall Top, Item Room North) proved to be loops.
-- **Plan:**
-  1. Surf West to the far Southwest corner.
-  2. Investigate for landfalls or cave entrances.
-  3. If nothing found, return to Room 1 and re-evaluate the entire cave structure.
+- **Status:** Exploring Room 2 SW Corner at (4, 31).
+- **Observation:** Walls at x=3 and y=32 block further West/South movement. This corner appears to be a dead end.
+- **Next:**
+  1. Surf East along the southern edge (Row 31) to check for openings.
+  2. Explore the East Water Branch (x > 14).
+  3. Re-evaluate the "Item Rooms South" entry point.
+- **Hypothesis:** If West is empty, the path must be East or I missed something in Room 1.
 
 # Key Findings
 - **Item Rooms (3_77):**
