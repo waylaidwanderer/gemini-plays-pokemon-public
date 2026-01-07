@@ -2,15 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Outside (24, 29). Surfing.
-- Action: Crossing the water to the central landmass.
+- Current Location: Silver Cave Outside (23, 29). Surfing.
+- Action: Surfing West then North to land at (19, 25).
 - Plan:
-    1. Clear "Used Surf" text.
-    2. Surf Left to (23, 29).
-    3. Surf North/West to land at (19, 25).
-    4. Go to Pokemon Center (23, 19) to heal/checkpoint.
-    5. Check the "Flying" destination list to see if "Silver Cave" is now an option (it should be).
-    6. Enter Silver Cave (18, 11) to find the true path to the Route 28 House.
+    1. Land at (19, 25).
+    2. Walk East to x=23, then North to Pokemon Center (23, 19).
+    3. Heal and set Fly point.
+    4. Enter Silver Cave (18, 11) to find the path to the NW House.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
