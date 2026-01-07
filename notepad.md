@@ -35,7 +35,7 @@
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Battle offered (Turn #32082).
+- Arnie (Bug Catcher): Route 35. Rematch started (Turn #32266).
 - Alan (Schoolboy): Route 36. Rematch potential.
 - Chad (Schoolboy): Route 38. Rematch potential.
 
