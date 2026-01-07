@@ -1,12 +1,13 @@
 # Current Strategy: Post-Game
-- **Timestamp:** Turn 25819 (Jan 6, 2026)
+- **Timestamp:** Turn 25823 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore Silver Cave Room 2.
+- **Immediate Task:** Explore Silver Cave Room 2 (Water Area).
 - **Sequence:**
-    1. Navigate North from (17, 31) to explore the room.
-    2. Check the Water area to the West (x<13).
-    3. Look for the next exit (likely upwards or across water).
+    1. Navigate South to (22, 28).
+    2. Navigate West along Row 28 to (13, 28) to avoid Warp Carpets on Row 29.
+    3. Access the water at (13, 30/31).
+    4. Surf and explore the water area (likely leads North/West).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
-- **Warp Carpet:** Located at (17, 31) and surroundings. Likely the exit back to Room 1.
+- **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
