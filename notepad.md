@@ -44,13 +44,14 @@
 - Turn #31937: Giving Exp. Share manually via press_menu_buttons.
 - Turn #31946: Found Exp. Share at the bottom of the Items pocket.
 - Turn #31947: Accidentally gave Exp. Share to Xenon instead of Kimchi.
-- Turn #31948: Took Exp. Share from Xenon. Correcting mistake now.
+- Turn #31948: Realized sequence failed; Xenon still has it.
+- Turn #31949: Manual correction: Take from Xenon, then Give to Kimchi.
 - Plan: Give Exp. Share to Kimchi (Slot 3).
 - Lesson: The party menu also wraps. Down from the bottom goes to the top. I need to be more careful with menu counts.
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (Manual attempt Turn #31949).
+- Step 2: Give Kimchi Exp. Share (Manual correction Turn #31949).
 - Step 3: Fly to Blackthorn City.
 
 # Start Menu (8 options) - WRAPS
