@@ -6,12 +6,13 @@
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: RESET & SMASH.**
-    - **Status:** Muscle Paralyzed. Speed dropped. 25% miss chance.
-    - **Action:** Use FULL RESTORE (Cure PAR + Heal to 283).
-    - **Risk:** Snorlax might paralyze again with Body Slam (30%).
-    - **Next Turn:** Muscle (Fast) uses CROSS CHOP (2x Effective).
+    - **Status:** Muscle Paralyzed. Healing now.
+    - **Inventory:** 0 Full Restores left (using last one).
+    - **Action:** Select Muscle -> Cure PAR + Heal to 283.
+    - **Next Turn:** Tank Snorlax hit -> CROSS CHOP.
+    - **Risk:** If Body Slam paralyzes again, we are in trouble (no more Full Restores).
   - **Win Condition:** Snorlax faints.
-- **Items:** 1-2 Full Restores, 19 Revives, 8 Full Heals.
+- **Items:** 0 Full Restores, 19 Revives, 8 Full Heals.
 
 # Key Findings
 - **Silver Cave:** Room 2 Warp (11, 5) led directly to Room 3 (Red's Chamber), not Item Rooms.
