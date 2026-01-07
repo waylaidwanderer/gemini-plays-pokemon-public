@@ -52,6 +52,7 @@
 - Ravioli: Empty (Bitter Berry removed).
 - Gneiss: Empty (Amulet Coin removed).
 - Calcifer: Has item icon.
+- Audit Step: Accessing Xenon's ITEM menu to TAKE held item.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
