@@ -33,6 +33,9 @@
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
+# Fly Map Navigation
+- The Fly menu is a 2D grid where the cursor snaps to valid city locations.
+
 # Current Plan: Route 45 Training
 1. Grinding in tall grass.
 2. Battle wild Pokemon to level Xenon and Kimchi to Lv40.
