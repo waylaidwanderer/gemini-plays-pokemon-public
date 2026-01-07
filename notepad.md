@@ -37,7 +37,7 @@
 
 # Training Log: Route 45 (Started Turn 33130)
 - Goal: Xenon & Kimchi to Lv 40.
-- Current Status (Turn 33408): Xenon Lv 35, Kimchi Lv 32.
+- Current Status (Turn 33415): Xenon Lv 35, Kimchi Lv 32.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
 
