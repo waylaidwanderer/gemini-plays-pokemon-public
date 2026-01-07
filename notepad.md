@@ -11,7 +11,6 @@
 - LEDGE_HOP_DOWN: One-way vertical jump (Down).
 - LEDGE_HOP_LEFT: One-way horizontal jump (Left).
 - LEDGE_HOP_RIGHT: One-way horizontal jump (Right).
-- FLOOR_UP_WALL: Acts as a wall when moving from below.
 - CAVE: Warp tile.
 - SIGN: Background object. Read text from adjacent tile.
 
