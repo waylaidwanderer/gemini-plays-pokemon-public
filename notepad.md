@@ -37,14 +37,13 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** In battle with Ursaring at (19, 19). Escaping.
-- **Goal:** Backtrack to Waterfall Base (11, 30).
+- **Status:** Escaped battle at (19, 19). Resuming backtracking.
+- **Goal:** Reach Waterfall Base (11, 30).
 - **Plan:**
-  1. Escape battle.
-  2. Reach (14, 30).
-  3. Surf to (11, 30) and Ascend.
-  4. Warp (13, 21) -> Item Rooms (3_77).
+  1. Navigate South to (14, 30).
+  2. Surf West to (11, 30).
+  3. Ascend Waterfall and Warp to Item Rooms (3_77).
 - **Item Rooms Strategy:**
-  - Go to East side (Row 3).
-  - Walk North to Row 0/1 (x=17).
-  - Check if I can bypass the wall at (16, 2) to reach the South area.
+  - Navigate to the North-East corner (x=17, y=0).
+  - Verify if the "wall" at (16, 2) allows passage via Row 0 or 1.
+  - Explore the Eastern/Southern section if accessible.
