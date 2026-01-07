@@ -19,7 +19,6 @@
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
 - Started: Turn #32266, 2026-01-07 04:30 AM.
-- Current Status: Xenon Lv30, Kimchi Lv30. Turn #32499.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Training Location: Route 45 (high level Rock/Ground/Flying).
 
