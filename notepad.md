@@ -1,18 +1,14 @@
 # Current Strategy: Defeat Red
-- **Start Turn:** 26763 (Jan 7, 2026)
+- **Start Turn:** 26770 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
 - **Status:** In Battle with Red.
-- **Active Matchup:** Switching out Muscle (Lv 83) vs Espeon (Incoming).
-- **Defeated:** Pikachu.
+- **Action:** Switching to **Kunai (Sneasel)** (Slot 4) to counter Espeon.
+- **Matchup:** Kunai (Dark/Ice) vs Espeon (Psychic).
 - **Goal:** Defeat Red.
-- **Battle Plan (Muscle Lv83):**
-  - **Switch Strategy:** Switching to **Sneasel (Kunai)**.
-    - **Why?** Espeon (Psychic) destroys Machoke (Fighting). Sneasel (Dark) is immune to Psychic.
-    - **Benefit:** Sneasel takes 0 damage on the switch. Then Sneasel serves as a pivot (death fodder) to bring Muscle back in safely with stats reset (clearing the -2 Atk from Charm).
-  - **Snorlax:** Muscle Cross Chop (Reset stats).
-  - **Venusaur:** Muscle Ice Punch.
-  - **Charizard:** Muscle Thunderpunch.
-  - **Blastoise:** Muscle Thunderpunch.
+- **Battle Plan:**
+  - **Kunai:** Immune to Psychic. Use Shadow Ball (Ghost vs Psychic is SE) or just serve as a pivot to revive Muscle if needed.
+  - **Muscle:** Currently has -2 Attack. Needs to be switched out to reset stats. This switch accomplishes that.
+  - **Next Steps:** If Kunai can damage Espeon, great. If not, heal Muscle while Kunai tanks.
 - **Items:** 15 Full Restores, 19 Revives.
 
 # Key Findings
