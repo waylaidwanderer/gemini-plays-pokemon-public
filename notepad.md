@@ -1,12 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** In battle with Parasect at (5, 3). Escaping to test ledges.
-- **Hypothesis:** Ledge at (6, 3) is jumpable.
+- **Status:** At (5, 3) in Item Rooms. Escaped battle.
+- **Action:** Forcing jump at Ledge (6, 3).
+- **Hypothesis:** The "Blocked Ledge" markers are incorrect; this ledge IS jumpable.
 - **Plan:**
-  1. Escape battle.
-  2. Move to (6, 3).
-  3. Jump DOWN to (6, 4).
-  4. Explore south.
+  1. Move Right to (6, 3).
+  2. Press Down to jump to (6, 4).
+  3. If successful, this opens the path to the South area.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
