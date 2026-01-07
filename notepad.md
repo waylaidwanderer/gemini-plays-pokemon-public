@@ -2,13 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Room 1 (9, 33). Just Entered.
-- Objective: Find path to Route 28 House.
+- Current Location: Silver Cave Room 1 (8, 30).
+- Objective: Collect Item Ball at (5, 30).
+- Obstacle: Ledge at (7, 30) blocks direct Left movement.
 - Plan:
-    1. Collect Item Ball at (5, 30).
-    2. Explore North.
-    3. Check for any side paths or hidden ladders.
-    4. Verify if Flash is needed (looks lit enough for now).
+    1. Head North to Row 25.
+    2. Attempt to loop West and then South to reach the item.
+    3. Explore further North for the main path.
+    4. Watch for wild Pokemon.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
