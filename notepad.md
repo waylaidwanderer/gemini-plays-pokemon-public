@@ -28,7 +28,8 @@
 - Xenon Status: 48/72 HP. Night Shade PP: 7/15.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
-- Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack. Donphan/Graveler immune to Sleep Powder? (Observed "It didn't affect").
+- Reflection (Turn 31450): Training on Route 45. Kimchi (Lv25) and Xenon (Lv28) are progressing. Gneiss is full health/PP. Sleep Powder/Hypnosis tests ongoing. Notepad is organized and goals are clear. Strategy involves Ghost-types vs Graveler/Donphan to avoid Selfdestruct.
+- Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack. Donphan/Graveler immune to Sleep Powder? (Observed "It didn't affect"). Gligar and Geodude ARE affected by Sleep Powder.
 - Hypnosis Test: Confirmed Hypnosis works on Graveler (Turn 31417). Sleep Powder's failure on Donphan/Graveler is likely move-specific or due to an unknown factor (not type immunity).
 - Inventory Note: Have 4 REVIVEs; can use them to extend training if PP is not an issue.
 - Lessons Learned: Night Shade deals damage equal to user's level. Ignore battle text phone icons (sprite artifacts). Selfdestruct is a major threat from Graveler.
