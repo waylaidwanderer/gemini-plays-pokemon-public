@@ -2,12 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (18, 15). Facing South.
-- **Action:** Testing if Row 16 is a ledge I can jump over.
+- **Current Location:** Route 28 (21, 15). West Bank.
+- **Insight:** The "Ledge" at Row 16 is a wall. I cannot jump it.
+- **New Lead:** The unseen tiles at (37, 12) suggest a path on the far East edge.
 - **Plan:**
-    1. Press Down to attempt jump.
-    2. If successful (land on Row 17), head East to the edge of the map.
-    3. If blocked, go back to the pond and Surf to the North bank (Row 8).
+    1. Surf East to the gap at (28, 11).
+    2. Enter the East Enclave.
+    3. Explore South-East (x=29+, y=12+) to find the path to x=37.
+    4. Follow the perimeter to the NW House.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
