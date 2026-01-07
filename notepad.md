@@ -15,18 +15,13 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** Blocked at x=4..15.
-  - **Conclusion:** Upper area is a dead end/entrance only.
-  - **Next Step:** Return to Room 2 via Warp (13, 3).
-  - **New Goal:** Reach Warp (11, 5) in Room 2 (Silver Cave).
-- **Path Verification:**
-  - Walk East to (13, 3) to warp.
-- **Path Verification:**
-  - x=3 is a Wall (Row 1-3). Direct access to West is impossible without jumping.
-  - x=16 is a Wall (Row 1-3).
-  - Must jump down to proceed.
-- **Warp Discrepancy:**
-  - XML says Warp is at (13, 3).
-  - Visual Screen shows Warp Mat at (13, 4).
-  - Walking onto (13, 3) did nothing.
-  - Plan: Attempt to walk DOWN into (13, 4). The "WALL" label might be incorrect.
+  - **Status:** At (11, 25) in Room 2, above a waterfall.
+- **Action:** Descending waterfall to exit loop.
+- **Plan:**
+  1. Surf and descend waterfall at (11, 28).
+  2. Exit to Room 1 via warp at (17, 31).
+  3. Find path to Warp (11, 5) - likely requires Surfing/Waterfall from the main area of Room 1 or 2.
+- **Hypothesis:** Warp (11, 5) leads to Red.
+- **Warp Discrepancy (Item Rooms):**
+  - Item Rooms upper ledge was a dead end.
+  - Returned to Room 2 via (13, 21).
