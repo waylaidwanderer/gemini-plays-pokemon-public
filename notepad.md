@@ -5,8 +5,8 @@
 - LEDGE_HOP: One-way traversal (South/West/East).
 - CAVE: Warp to indoor areas.
 - WATER: Traversable with HM03 SURF.
-- CUT_TREE: Removed with HM01 CUT. (Note: Farfetch'd puzzle solved in Ilex Forest)
-- BOULDER: Pushed with HM04 STRENGTH. (Note: Chuck's Gym and Ice Path puzzles solved)
+- CUT_TREE: Removed with HM01 CUT.
+- BOULDER: Pushed with HM04 STRENGTH.
 - COUNTER: Interaction point for NPCs behind desks.
 - WARP_CARPET: Map transition tile at exits.
 - PC: Interaction point for Pokémon storage. Stand below and face up.
@@ -27,7 +27,7 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users. Use Icarus/Gneiss instead.
 
 # Progress Tracker
-- Kimchi (Gloom): Lv28 (17615 EXP).
+- Kimchi (Gloom): Lv28 (17615 EXP). Holding: EXP.SHARE.
 - Xenon (Haunter): Lv29 (20309 EXP).
 
 # Key Locations & Completed Tasks
@@ -36,10 +36,9 @@
 - Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
 
-# Lessons Learned
-- HP/PP Verification: Always use Game State Information to confirm current party health and status.
-- Quest Tracking: Exp. Share quest started Turn #31846. Completed Turn #31871.
-- Route 30 Navigation: Avoid ledges by staying on the right side of the map (X >= 13).
+# Custom Tool Maintenance
+- fly_to_city_v2: Updated on Turn #31882 to use a robust "Reset to New Bark" strategy for reliable navigation.
+- give_item_v2: Defined on Turn #31882 to automate giving held items.
 
 # Turn Synchronization
-- Turn #31879.
+- Turn #31882. Swapped Xenon to lead and gave Kimchi Exp. Share. Currently on Route 30. Plan to Fly to Blackthorn next turn.
