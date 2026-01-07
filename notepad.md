@@ -9,6 +9,8 @@
 - BOULDER: Pushed with HM04 STRENGTH.
 - COUNTER: Interaction point for NPCs behind desks.
 - WARP_CARPET: Map transition tile at exits.
+- PC: Interaction point for Pokémon storage. Stand below and face up.
+- WARP: Tile that triggers map transition.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Tactical Plan: Use Xenon's Night Shade for fixed damage. Gneiss for physical bulk and STAB Earthquake. Calcifer's Thunderpunch for neutral coverage.
