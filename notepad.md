@@ -23,8 +23,8 @@
 
 # Progress Tracker
 - Xenon (Lv28): 18556 EXP. Target Lv30: 21760 EXP (~3204 remaining).
-- Kimchi (Lv26): 13587 EXP. Target Lv30: 21760 EXP (~8173 remaining).
-- Gneiss (Lv46): 129/129 HP. Earthquake PP: 10/10.
+- Kimchi (Lv26): 13728 EXP. Target Lv30: 21760 EXP (~8032 remaining).
+- Gneiss (Lv46): 112/129 HP. Earthquake PP: 9/10.
 - Xenon Status: 48/72 HP. Night Shade PP: 3/15.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
