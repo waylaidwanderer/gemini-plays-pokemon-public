@@ -30,3 +30,5 @@
 - Map Hygiene: Removed old failure logs. Zig-Zag verified.
 - Max Repel active (Turn 26289).
 - Path confirmed clear via map analysis. Expecting smooth sailing.
+- Waterfall Interaction Issue: Attempted to ascend but failed. Game state shows 'Facing: down' after pressing Up. Suspect 'bump' animation reset facing.
+- Action: Pressing 'Up' to correct facing, then will press 'A'.
