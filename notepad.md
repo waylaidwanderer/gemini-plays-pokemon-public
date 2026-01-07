@@ -25,7 +25,7 @@
   6. Calcifer (TYPHLOSION): Lv48 (152/152 HP, EXP: 109223) | FLAME WHEEL: 25, RETURN: 20, SMOKESCREEN: 20, THUNDERPUNCH: 15
 
 # Progress Tracker
-- Last Update: Turn #31581.
+- Last Update: Turn #31584.
 - Grinding Start: Turn #31060.
 - Target Lv30: 21760 EXP.
 - Current Battle: Hiker Erik (Route 45).
