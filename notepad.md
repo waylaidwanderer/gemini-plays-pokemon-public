@@ -24,7 +24,7 @@
 # Progress Tracker
 - Xenon (Lv28): 17567 EXP. Target Lv30: 21760 EXP (~4193 remaining).
 - Kimchi (Lv25): 12196 EXP. Target Lv30: 21760 EXP (~9564 remaining).
-- Gneiss (Lv46): 106/129 HP. Earthquake PP: 6/10.
+- Gneiss (Lv46): 105/129 HP. Earthquake PP: 5/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
 - Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24). Gligar immune to Ground/Electric. Donphan is immune to Sleep Powder (observed twice).
