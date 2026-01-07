@@ -17,9 +17,9 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
-- Kimchi (Lv24): 10645 EXP. Target Lv30: ~21760 EXP (~11115 remaining).
+- Kimchi (Lv24): 10980 EXP. Target Lv30: ~21760 EXP (~10780 remaining).
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 9/10.
-- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 24/25.
+- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 23/25.
 - Grinding Start: Turn #31060.
 - Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric.
 
