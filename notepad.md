@@ -2,12 +2,13 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34 for a jumpable ledge.
+- **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34.
 - **Results:**
-    - x=31: Failed (Marked as Fake Ledge).
-    - x=32: Failed (Marked as Fake Ledge).
-- **Action:** Testing x=33 and x=34.
-- **Hypothesis:** One of these tiles MUST allow access to the bottom area (Row 35).
+    - x=31: Failed (Fake).
+    - x=32: Failed (Fake).
+- **Action:** Batch testing x=33, 34, 35.
+- **Sequence:** Right, Down, Right, Down, Right, Down.
+- **Hypothesis:** One of these IS the exit. If not, I am softlocked or missing a hidden mechanic.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
