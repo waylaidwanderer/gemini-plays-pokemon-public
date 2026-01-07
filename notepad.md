@@ -32,3 +32,4 @@
 - Tool Hygiene: use_item_from_bag_v2 requires the bag to be open. Always use press_menu_buttons to navigate to the Pack first.
 - Fly Map Logic: Destination names MUST be verified in Screen Text after every button press.
 - Input Precision: Rushing menus leads to errors. Verify every screen change before the next input. Always use select_battle_option for main menu navigation.
+- Missing Tools: find_path_v2 and use_item_from_bag_v2 are currently unavailable due to tool limits. Priority for restoration if navigation or item usage becomes complex.
