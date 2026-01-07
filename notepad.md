@@ -42,6 +42,7 @@
 - Turn #31927: Party swap successful! Xenon is now in the lead.
 - Turn #31936: give_item_v3_ultimate failed. It opened the Trainer Card because the Start menu wraps and the reset was off.
 - Turn #31937: Giving Exp. Share manually via press_menu_buttons.
+- Turn #31946: Found Exp. Share at the bottom of the Items pocket. Giving it to Kimchi (Slot 3) now.
 - Lesson: Crystal's Start and Party menus WRAP. Up-resetting is unreliable without knowing the exact menu size.
 
 # Strategy: Cianwood Consolidation
