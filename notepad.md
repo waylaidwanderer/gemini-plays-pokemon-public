@@ -1,15 +1,25 @@
-# Verified Tile Mechanics
-- FLOOR: Standard ground. Can be traversed.
-- WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
-- TALL_GRASS: Can be traversed. Triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way south.
-- FLOOR_UP_WALL: Impassable ledge bottom.
+# Tile Mechanics
+- FLOOR: Traversable. Individual Behavior: Standard movement.
+- WALL: Impassable. Individual Behavior: Blocks movement. Mechanics: Interact with objects (signs, PCs) from adjacent tiles.
+- TALL_GRASS: Traversable. Individual Behavior: Triggers wild encounters.
+- LEDGE_HOP_DOWN: Traversable (One-way South). Relational Behavior: Jump down from North; impassable from South/East/West.
+- LEDGE_HOP_LEFT: Traversable (One-way West). Relational Behavior: Jump across from East; impassable from West/North/South.
+- LEDGE_HOP_RIGHT: Traversable (One-way East). Relational Behavior: Jump across from West; impassable from East/North/South.
+- CAVE: Traversable/Warp. Individual Behavior: Entrance to indoor areas.
+- WATER: Traversable with SURF. Mechanics: Requires HM03 Surf and appropriate badge.
+- CUT_TREE: Blockage. Mechanics: Removed by using HM01 Cut.
+- BOULDER: Blockage. Mechanics: Pushed by using HM04 Strength.
+- FLOOR_UP_WALL: Impassable. Individual Behavior: Represents the base of a ledge or wall.
+
+# Strategy: Rising Badge (Gym Leader Clair)
+- Opponent Analysis: Uses Dragon-types. Kingdra (Water/Dragon) is the primary threat, weak only to Dragon-type moves.
+- Tactical Plan: Use Xenon's Night Shade for fixed damage (28+ HP per turn) to bypass high defenses. Gneiss provides physical bulk and Earthquake. Calcifer's Thunderpunch is neutral but powerful.
+- Training Goal: Level Xenon and Kimchi to 30+ to improve stats and move consistency.
 
 # Strategy: Johto League Training
-- Efficiency: Lead with trainee (Kimchi Lv24), switch to Calcifer (Lv48) or Gneiss (Lv46) if outmatched. Xenon (Lv28) is backup.
-- Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
-- Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Acid for STAB damage.
-- Resource Limit: Return to Blackthorn City to heal when Gneiss is at 0 Earthquake PP.
+- Method: Lead with lower-level Pokemon (Kimchi/Xenon) to share EXP. Switch to Gneiss or Calcifer for heavy lifting.
+- Efficiency: Grind in Route 45 grass (4,12)-(5,12).
+- Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 6/10).
 
 # Progress Tracker
 - Xenon (Lv28): 17567 EXP. Target Lv30: 21760 EXP (~4193 remaining).
@@ -17,18 +27,14 @@
 - Gneiss (Lv46): 106/129 HP. Earthquake PP: 6/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
-- Reflection (Turn 31346): Training on Route 45 (4,12)-(5,12). Kimchi is Lv25, Xenon is Lv28. Gneiss has 6 EQ PP left. Strategy is working well.
-- Encounter Log: Donphan (Lv25), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24), Donphan (Lv25). Gligar is immune to Electric/Ground. Donphan uses physical moves. Skarmory is very tanky.
-- Lessons Learned: Night Shade is excellent for consistent damage at this stage. Always check Turn Count in Game State Info to avoid mismatch. Ignore nonsensical phone icons in battle text (sprite mapping).
+- Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24). Gligar immune to Ground/Electric.
+- Lessons Learned: Night Shade deals damage equal to user's level. Ignore battle text phone icons (sprite artifacts).
 
 # Evolution Methods (Hypotheses)
-- Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
-- Haunter: Traditionally evolves via trading (needs verification in this version).
+- Gloom: Likely Leaf or Sun Stone.
+- Haunter: Likely Trading (check for in-game trades or item-based alternatives).
 
-# Lessons Learned
-- Route 45 Navigation: Paths are primarily one-way SOUTH due to ledges. To return to Blackthorn, use FLY.
-- Strength Mechanic: Strength must be used on each individual boulder; it is not a persistent status.
-- Tool Hygiene: use_item_from_bag_v2 requires the bag to be open. Always use press_menu_buttons to navigate to the Pack first.
-- Fly Map Logic: Destination names MUST be verified in Screen Text after every button press.
-- Input Precision: Rushing menus leads to errors. Verify every screen change before the next input. Always use select_battle_option for main menu navigation.
-- Custom Tools (5/5): find_path_v2, press_menu_buttons, switch_to_pokemon_v2, use_item_from_bag_v2, grind_encounters.
+# General Mechanics & Lessons
+- Route 45 Navigation: Ledges make most paths one-way SOUTH. Use FLY to return to Blackthorn.
+- Strength: Must be activated manually via the menu or by interacting with a boulder while the HM is known.
+- Fly Map: Always verify destination city name in screen text before pressing A.
