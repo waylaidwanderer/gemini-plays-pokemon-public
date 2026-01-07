@@ -29,8 +29,8 @@
   - West (Col 3) and East (Col 16) are WALLS.
   - South (Row 4) is the ONLY exit via Ledges.
 - Ledge Testing:
-  - Blocked: 4-12, 14.
-  - Testing: 15.
-- Action: Moving to (15, 3) to test (15, 4).
-- Hypothesis: This is the LAST possible ledge. If this fails, the room is a trap/exit-only.
-- Contingency: Use Escape Rope to reset to Room 2 entrance or PokeCenter.
+  - Blocked: 4-12, 14, 15.
+  - Conclusion: The entire South Wall (Row 4) is blocked. The "Foyer" is a dead end.
+- Action: Using Escape Rope to exit the trap.
+- Contingency: Return to Silver Cave entrance, heal, and re-evaluate Room 2 entrance strategy.
+- Insight: The warp at (13, 3) in Room 2 (upper) likely leads to this dead end. There MUST be another way.
