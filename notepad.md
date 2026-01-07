@@ -18,7 +18,7 @@
 - Method: Switch-training. Lead with Kimchi or Xenon to share EXP, then switch to Gneiss or Calcifer for the KO.
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
-- Grinding Session 1: Started Turn #31060.
+- Grinding Session 1: Started Turn #31060 (Tuesday, Jan 6, 2026).
 
 # Progress Tracker
 - Target Lv30: 21760 EXP (~5321 left for Kimchi, ~2204 left for Xenon).
