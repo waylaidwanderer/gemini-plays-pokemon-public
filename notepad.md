@@ -25,3 +25,6 @@
 - **Observation:** The Waterfall tiles at y=29 are passable but push the player back (DOWN) if entered without the HM active.
 - **Correction:** Must interact (Face Up + Press A) to use HM. Moving into the tile causes a pushback loop.
 - **Strategy:** Attempting rapid input (Up+A) to interact before movement/pushback occurs.
+- **Correction:** 'Can't use that here' when selecting from menu.
+- **Action:** Must interact with the waterfall directly by pressing A while facing it from the overworld.
+- **Plan:** Close menus (B repeatedly), then press A to trigger Waterfall prompt.
