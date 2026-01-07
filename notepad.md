@@ -41,4 +41,4 @@
 - give_item_v2: Definition failed (limit reached). Using use_item_on_pokemon_v2 instead.
 
 # Turn Synchronization
-- Turn #31882. Swapped Xenon to lead and gave Kimchi Exp. Share. Currently on Route 30. Plan to Fly to Blackthorn next turn.
+- Turn #31885. Swap and Exp. Share use failed due to menu timing. Swapping Xenon to lead now using press_menu_buttons. Kimchi still needs Exp. Share.

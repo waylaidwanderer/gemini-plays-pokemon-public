@@ -208,7 +208,7 @@
       }
     ]
   },
-  "fly_to_city_v3": {
+  "fly_to_city_v4": {
     "description": "Uses Fly to travel to a city. Assumes Icarus is in slot 2 and Fly is the first field move. Uses a robust 'Reset to New Bark' strategy.",
     "input_schema": {
       "type": "object",
@@ -221,12 +221,12 @@
         "city_name"
       ]
     },
-    "python_script": "import json\n\ndef main(input_data):\n    city_name = input_data['city_name'].lower()\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"Down\", \"A\", \"A\", \"sleep 2000\"]\n    buttons.extend([\"Down\"] * 10)\n    buttons.extend([\"Right\"] * 10)\n    paths = {\n        \"new bark town\": [],\n        \"cherrygrove city\": [\"Left\"],\n        \"violet city\": [\"Left\", \"Up\"],\n        \"azalea town\": [\"Left\", \"Up\", \"Down\"],\n        \"goldenrod city\": [\"Left\", \"Up\", \"Left\"],\n        \"ecruteak city\": [\"Left\", \"Up\", \"Up\"],\n        \"olivine city\": [\"Left\", \"Up\", \"Up\", \"Left\"],\n        \"cianwood city\": [\"Left\", \"Up\", \"Up\", \"Left\", \"Left\"],\n        \"mahogany town\": [\"Left\", \"Up\", \"Up\", \"Right\"],\n        \"lake of rage\": [\"Left\", \"Up\", \"Up\", \"Up\", \"Right\"],\n        \"blackthorn city\": [\"Left\", \"Up\", \"Up\", \"Right\", \"Right\"]\n    }\n    if city_name in paths:\n        buttons.extend(paths[city_name])\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\ndef main(input_data):\n    city_name = input_data['city_name'].lower()\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"A\", \"A\", \"sleep 2000\"]\n    buttons.extend([\"Down\"] * 10)\n    buttons.extend([\"Right\"] * 10)\n    paths = {\n        \"new bark town\": [],\n        \"cherrygrove city\": [\"Left\"],\n        \"violet city\": [\"Left\", \"Up\"],\n        \"azalea town\": [\"Left\", \"Up\", \"Down\"],\n        \"goldenrod city\": [\"Left\", \"Up\", \"Left\"],\n        \"ecruteak city\": [\"Left\", \"Up\", \"Up\"],\n        \"olivine city\": [\"Left\", \"Up\", \"Up\", \"Left\"],\n        \"cianwood city\": [\"Left\", \"Up\", \"Up\", \"Left\", \"Left\"],\n        \"mahogany town\": [\"Left\", \"Up\", \"Up\", \"Right\"],\n        \"lake of rage\": [\"Left\", \"Up\", \"Up\", \"Up\", \"Right\"],\n        \"blackthorn city\": [\"Left\", \"Up\", \"Up\", \"Right\", \"Right\"]\n    }\n    if city_name in paths:\n        buttons.extend(paths[city_name])\n    buttons.extend([\"A\", \"sleep 1000\", \"A\"])\n    print(json.dumps(buttons))\n",
     "history": [
       {
-        "commit_message": "Refined Fly tool with 'Reset to New Bark' strategy for reliable Johto navigation.",
-        "timestamp": "2026-01-07T07:21:03.989Z",
-        "action_counter": 31883
+        "commit_message": "Fixed Fly tool with robust menu navigation (sleeps and top-reset) and corrected city paths.",
+        "timestamp": "2026-01-07T07:27:04.749Z",
+        "action_counter": 31885
       }
     ]
   }
