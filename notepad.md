@@ -25,9 +25,9 @@
   6. Calcifer (TYPHLOSION): Lv48 (152/152 HP, EXP: 109223) | FLAME WHEEL: 25, RETURN: 20, SMOKESCREEN: 20, THUNDERPUNCH: 15
 
 # Progress Tracker
-- Last Update: Turn #31584.
+- Last Update: Turn #31588.
 - Grinding Start: Turn #31060.
-- Target Lv30: 21760 EXP.
+- Target Lv30: 21760 EXP (~5916 left for Kimchi, ~2799 left for Xenon).
 - Current Battle: Hiker Erik (Route 45).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
