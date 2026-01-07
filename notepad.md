@@ -44,7 +44,6 @@
 - Fly Map: It's a 2D snapping grid. Cursor starts on current city.
 - Button Inputs: Never mix directional and action buttons in a single press_buttons sequence.
 - Battle (Route 45): Wild Ground types (Graveler, Donphan) use Magnitude. Haunter is extremely vulnerable. Switch to GNEISS if Magnitude is expected.
-- Critical Hits: A crit Magnitude 6 can OHKO Haunter even at a level advantage.
 - Haunter Utility: Confuse Ray (Lv31) is a strong addition for disruption.
 
 # Tile Mechanics: Route 45
@@ -56,5 +55,5 @@
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
 - Status: Xenon reached Lv31. Night Shade PP is 1/15. HP is 4/79.
-- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves in this generation. Haunter is extremely vulnerable to Magnitude. If a wild Geodude or Graveler is encountered while Xenon is weakened, switch to Gneiss (Graveler) immediately to tank the hit.
-- Decision: Used FLY to New Bark Town for healing (Failed: Mom does not heal in Crystal). Status: Flying to Blackthorn City for a proper heal.
+- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves. Strategy: Switch to Gneiss (Graveler) immediately if Magnitude is expected.
+- Decision: Flying to Blackthorn City for healing (Mom in New Bark Town does not heal).
