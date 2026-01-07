@@ -32,11 +32,13 @@
 # Strategy: Current Status
 - Pacing in tall grass at (4, 11) and (4, 12) on Route 45.
 
-# Significant Party Status (Turn #32198)
+# Significant Party Status (Turn #32199)
 - XENON (Haunter): Lv30. HP 54/77. Night Shade: 13/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
 - Calcifer (Typhlosion): Lv48. HP 152/152.
+- ICARUS (Pidgey): Lv16. HP 43/43.
+- Ravioli (Krabby): Lv10. HP 27/27.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
