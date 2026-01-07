@@ -42,3 +42,6 @@
 - Task started: Turn 32625.
 - Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
+
+# Catch Log
+- Donphan (Wild, Lv 25): Catch attempt started Turn 33363. Strategy: Sleep Powder with KIMCHI.
