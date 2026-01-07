@@ -6,7 +6,7 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Pallet Town (Outside).
+- **Location:** Indigo Plateau (Route 23).
 - **Next Step:** Fly to Viridian City -> Use PC -> Prepare Party.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
