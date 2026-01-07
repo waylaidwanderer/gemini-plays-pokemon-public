@@ -2,15 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (22, 15). Surfing.
-- **Goal:** Reach the House at (7, 3).
-- **Hypothesis:** The path is via the far East edge corridor (x=36+).
+- **Current Location:** Route 28 (21, 15). Testing Ledge.
+- **Objective:** Access the bottom path (Row 17) to reach the East Corridor.
+- **Hypothesis:** `FLOOR_UP_WALL` tiles (e.g., 21, 16) are ledges jumpable South.
 - **Plan:**
-    1. Land on the West bank at (21, 15).
-    2. Go South to Row 16.
-    3. If Row 16 is a ledge, jump down to Row 17.
-    4. Walk East along Row 17 to find the entrance to the East Corridor.
-    5. Follow the corridor North to the House area.
+    1. Attempt to walk South from (21, 15).
+    2. If successful, walk East along Row 17 to finding the hidden path North.
+    3. If blocked, backtrack to Entrance (0, 13) and try jumping the ledge at (0, 14).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
