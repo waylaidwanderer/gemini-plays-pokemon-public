@@ -39,20 +39,14 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Progress Tracker
-- Kimchi (Gloom): Lv28. Holding EXP.SHARE.
-- Xenon (Haunter): Lv29.
-- GNEISS (Graveler): Lv46.
-- Item: HARD STONE is in Bag (Not held by Gneiss).
-
 # Party Item Audit
 - Xenon: Has item icon.
 - Icarus: Has item icon.
 - Kimchi: Exp. Share.
-- Ravioli: Empty.
+- Ravioli: Empty (Bitter Berry removed).
 - Gneiss: Empty (Amulet Coin removed).
 - Calcifer: Has item icon. Checking...
-- Audit Step: Accessing Calcifer's ITEM menu to TAKE held item.
+- Audit Note: Found AMULET COIN on Gneiss. HARD STONE is in Bag.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
