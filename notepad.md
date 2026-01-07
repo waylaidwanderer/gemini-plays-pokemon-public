@@ -2,10 +2,12 @@
 - FLOOR: Standard ground. Can be traversed.
 - WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
 - TALL_GRASS: Can be traversed. Triggers wild encounters.
-- LEDGE: One-way jumpable barrier. (e.g., LEDGE_HOP_DOWN is south, LEDGE_HOP_LEFT is west, LEDGE_HOP_RIGHT is east).
+- LEDGE_HOP_DOWN: One-way south.
 - FLOOR_UP_WALL: Impassable ledge bottom.
 
 # Hypothesized Tile Mechanics
+- LEDGE_HOP_LEFT: One-way west.
+- LEDGE_HOP_RIGHT: One-way east.
 - WATER: Requires SURF to cross.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
