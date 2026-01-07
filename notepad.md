@@ -67,3 +67,9 @@
 3. Exit south to Route 45.
 4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
 5. Use Gneiss/Calcifer if health gets too low.
+- BUOY: Impassable; marker for water boundaries.
+- LONG_GRASS: Traversable. Wild encounter trigger. Found on Route 35.
+- WARP_CARPET: Map transition; walk off the edge to trigger.
+- DOOR: Map transition; interactive.
+- STAIRS: Map transition; interactive or walk-on.
+- LADDER: Map transition; interactive or walk-on.
