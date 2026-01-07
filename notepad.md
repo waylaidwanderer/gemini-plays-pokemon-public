@@ -37,12 +37,13 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** Backtracking from Western Corridor (Exit Only).
-- **Lesson:** The Western Corridor (Row 8-17) is a one-way return path from the Northern Waterfalls. It cannot be entered from the South.
-- **Action:** Returning to Item Rooms (3_77).
-- **Plan:**
-  1. Navigate to (14, 30) (Central Land).
-  2. Surf to Waterfall (11, 30) -> Ascend.
-  3. Enter Warp (13, 21) -> Item Rooms (3_77).
-  4. **Investigation:** In Item Rooms, navigate to the top-right (x=17, y=0-2). I previously assumed (16, 2) blocked the path, but Row 0 or 1 might be open.
-- **Hypothesis:** The path to the South Item Rooms requires traversing the Northern Item Rooms correctly (likely along the far East wall).
+- **Status:** Backtracking to Waterfall Base (11, 30).
+- **Current Pos:** (19, 17). Navigating South to avoid Warp Carpets at Row 29 via Col 18.
+- **Next:**
+  1. Reach (14, 30).
+  2. Surf to (11, 30) and Ascend.
+  3. Warp (13, 21) -> Item Rooms (3_77).
+- **Item Rooms Strategy:**
+  - Go to East side (Row 3).
+  - Walk North to Row 0/1 (x=17).
+  - Check if I can bypass the wall at (16, 2) to reach the South area.
