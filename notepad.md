@@ -1,14 +1,14 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25927 (Jan 6, 2026)
+- **Timestamp:** Turn 25928 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Use Full Restore on Muscle (Slot 1).
+- **Immediate Task:** React to Espeon's move vs Kunai.
 - **Battle Plan:**
     1. **Pikachu:** Defeated.
-    2. **Espeon (Lv73):** Mistral fainted. Kunai (Sneasel) is active (Sacrifice).
-    3. **Action:** Correcting previous turn. Cursor is on Kunai (Slot 4). Moving UP to Muscle (Slot 1) to use Full Restore.
-    4. **Next:** Kunai faints. Muscle switches in clean.
-    5. **Muscle Returns:** Full HP, No Status. Sweep Espeon.
-- **Resources:** Muscle (201/280, Paralyzed). 5 Revives, 0 Full Restores (after use). Kunai is the sacrifice.
+    2. **Espeon (Lv73):** Kunai is active. Immune to Psychic.
+    3. **Scenario A:** Espeon uses Psychic (0 dmg). Kunai uses Shadow Ball (Ghost, Physical, Super Effective).
+    4. **Scenario B:** Espeon uses Swift/Mud-Slap. Kunai takes damage. Attack if alive, Switch to Muscle if fainted.
+    5. **Next:** Muscle sweeps with Strength/Cross Chop.
+- **Resources:** Muscle (280/280, Healthy). Kunai (70/70, Active).
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
