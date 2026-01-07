@@ -37,7 +37,11 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** At (5, 8). Testing Surf interaction.
-- **Action:** Pressing Up to face Water, then A.
-- **Goal:** Trigger Surf prompt.
-- **Contingency:** If this fails, the Western Corridor is likely an exit-only path, and the water is on a different "elevation" (logic-wise) or blocked by invisible walls.
+- **Status:** At (5, 8). Surf at (5, 8) failed (facing Up).
+- **Action:** Testing Surf at (6, 8).
+- **Plan:**
+  1. Move Right to (6, 8).
+  2. Press Up to Face Water.
+  3. Press A to Surf.
+- **Contingency:** If this fails, the Western Corridor is confirmed as a One-Way Exit from the North.
+- **Next Step (if fail):** Backtrack to Item Rooms (3_77) and re-examine the ledges or look for a hidden switch/item. The "Loop" at Waterfall (11, 29) might hide a secret.
