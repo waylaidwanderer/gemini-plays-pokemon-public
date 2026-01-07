@@ -11,7 +11,7 @@
     - **Action:** Loop Heal (Full Restore) -> Tank Psychic.
     - **Trigger:** If Espeon uses Reflect/Morning Sun/Swift/Mud-Slap: ATTACK with Strength.
   - **Win Condition:** Espeon runs out of Psychic. Muscle attacks.
-- **Items:** 8 Full Restores, 19 Revives.
+- **Items:** 7 Full Restores (Using 1 now), 19 Revives.
 
 # Key Findings
 - **Silver Cave:** Room 2 Warp (11, 5) led directly to Room 3 (Red's Chamber), not Item Rooms.
