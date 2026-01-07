@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Return to Item Cave and Explore Lower West Side.
+- **Immediate Task:** Finish Exploring Silver Cave Room 2 West.
 - **Sequence:**
-    1. Surf back to land at (11, 25).
-    2. Walk to (13, 21) and enter the cave.
-    3. Jump down the ledge inside.
-    4. Explore the West side of the lower area (Left of the exit warp) for hidden paths or items.
+    1. Surf South-West to explore the water/land at (0-5, 24-30).
+    2. Look for other cave entrances (potentially to the Item Room's isolated sections).
+    3. If no other entrances found, return to (13, 21) to retry the ledge jump at a different spot.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
