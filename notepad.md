@@ -2,50 +2,46 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Traversable. Wild encounter trigger.
-- LEDGE_HOP: One-way traversal (South/West/East).
-- CAVE: Warp to cave/indoor areas.
+- LEDGE_HOP: One-way traversal.
+- CAVE/WARP: Map transitions. Stand on or face and interact.
 - WATER: Traversable (Surf).
 - CUT_TREE: Obstacle (Cut).
 - BOULDER: Obstacle (Strength).
-- COUNTER: Interaction point. Stand adjacent.
-- WARP_CARPET: Map transition at exits.
-- PC: Pokémon/Item storage. Face up from below.
-- WARP: Tile triggering map transition.
+- COUNTER: Stand adjacent to interact with NPC behind.
+- WARP_CARPET: Walk off-grid to transition.
+- PC: Stand below and face up to interact.
 - BUOY: Impassable water boundary.
-- LADDER: Warp tile for floor transitions.
 
-# Menu Mechanics (Crystal)
-- Start Menu (8 options): POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. WRAPS.
-- Party Menu (6 slots): WRAPS.
+# Menu Mechanics
+- Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
+- Party Menu: 6 slots. Wraps.
 - Bag Pockets: Items, Balls, Key Items, TM/HM.
-- Menu Lag: Severe. Use 500ms-1000ms sleep.
+- Lag: Significant. Use 500ms-1000ms sleep.
 
-# Fly Map Navigation
-- New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
+# Fly Destinations (List Order)
+- New Bark Town, Cherrygrove City, Violet City, Azalea Town, Goldenrod City, Ecruteak City, Olivine City, Cianwood City, Mahogany Town, Blackthorn City.
 
 # Strategy: Johto League Training
-- Method: Exp. Share on Kimchi, lead with Xenon (holding Amulet Coin).
+- Exp. Share on Kimchi. Lead with Xenon (holding Amulet Coin).
 - Spot: Route 45 grass (4, 12).
-- Resource Management: Fly to Blackthorn PC to heal.
-- Hazards: Watch for Ground moves on Route 45.
+- Goal: Xenon and Kimchi to Lv40.
+- Hazards: Magnitude/Earthquake. Use Gneiss (Ground type) as backup.
 
-# Strategy: Rising Badge (Gym Leader Clair)
-- Level Target: Xenon and Kimchi to Lv40.
-- Tactical Plan: Lead with Xenon. Night Shade for fixed damage.
-- Preparation: Stock up on Full Heals.
-- Kingdra Tactics: Sleep Powder/Stun Spore. Destiny Bond (Lv45) as fallback.
+# Party Status (Turn #32108)
+- 1. XENON (Haunter): Lv29. HP 0/74. FAINTED. Holding AMULET COIN.
+- 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
+- 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
+- 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
+- 5. GNEISS (Graveler): Lv46. HP 129/129. Leading (in battle).
+- 6. Calcifer (Typhlosion): Lv48. HP 152/152.
+
+# Tactics: Rising Badge (Gym Leader Clair)
+- Tactical Plan: Lead with Xenon. fixed damage Night Shade.
+- Kingdra: Use Kimchi's Sleep Powder/Stun Spore.
+- Fallback: Destiny Bond (Xenon Lv45).
 
 # Ground-Type Safety Protocol
-- Problem: Xenon is weak to Ground.
-- Solution: NEVER switch Xenon into suspected Ground-type users.
-
-# Party Status (Turn #32105)
-- XENON (Haunter): Lv29. HP 0/74. FAINTED.
-- KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
-- GNEISS (Graveler): Lv46. HP 129/129.
-- CALCIFER (Typhlosion): Lv48. HP 152/152.
-- Goal: Finish battle with Graveler (LV27), then Fly to Blackthorn to heal.
-- Strategy: Xenon fainted to Magnitude 7. Switching to GNEISS (Slot 5) to finish the battle. (Turn #32105)
+- NEVER switch Xenon into suspected Ground-type users (Magnitude/Earthquake). Gneiss is the dedicated Ground sponge.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL
