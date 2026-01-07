@@ -61,3 +61,17 @@
 
 # Timestamps & Turn Tracking
 - Grinding Session 1 (Route 45): Started Turn #31060 (Tuesday, Jan 6, 2026, 9:51 PM).
+
+# Fly Map Calibration (Cherrygrove Start)
+- Initial Position: Cherrygrove City (Cursor on Cherrygrove).
+- Up x1: Route 30.
+- Up x2: Route 31.
+- Up x3: Violet City.
+- Right from Violet City: Toggles to PHONE tab (Horizontal boundary reached).
+- Note: Navigation between tabs (MAP, PHONE, etc.) happens when pressing Left/Right at the boundaries of the map grid.
+
+# Strategy for Beating Gym Leader Clair
+- Team Status: Need Xenon and Kimchi at Lv30+ to handle Dragon-types and Kingdra's bulk.
+- Move Check: Xenon's Night Shade is reliable fixed damage. Kimchi's Sleep Powder is critical for crowd control.
+- Gneiss (Lv46) is the primary anchor for physical threats.
+- Calcifer (Lv48) provides high-speed special coverage with Thunderpunch.
