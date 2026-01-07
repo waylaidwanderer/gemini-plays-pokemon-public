@@ -28,10 +28,10 @@
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC.
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
-# Significant Party Status (Turn #32212)
+# Significant Party Status (Turn #32215)
 - XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
-- Status: Healing completed. Ready to return to Route 45.
+- Status: Fully healed. Returning to Route 45.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
