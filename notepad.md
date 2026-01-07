@@ -27,7 +27,7 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users. Use Icarus/Gneiss instead.
 
 # Progress Tracker
-- Kimchi (Gloom): Lv28 (17615 EXP). Holding: EXP.SHARE.
+- Kimchi (Gloom): Lv28 (17615 EXP).
 - Xenon (Haunter): Lv29 (20309 EXP).
 
 # Key Locations & Completed Tasks
@@ -36,10 +36,8 @@
 - Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
 
-# Custom Tool Maintenance
-- fly_to_city_v3: Refined on Turn #31883 with 'Reset to New Bark' strategy.
-- give_item_v2: Definition failed (limit reached). Using use_item_on_pokemon_v2 instead.
-
 # Turn Synchronization
-- Turn #31890. Attempting to give Kimchi Exp. Share. Last turn's swap failed due to menu lag.
-- Items: Exp. Share is in pack. Kimchi is lead.
+- Turn #31891. Flying to Blackthorn City. Previous menu actions failed due to cursor positioning.
+- Start Menu Cursor: Last seen at SAVE.
+- Inventory: Exp. Share is in bag.
+- Party: Kimchi is lead. Icarus is slot 2.
