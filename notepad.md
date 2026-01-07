@@ -5,14 +5,14 @@
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
 # Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- TALL_GRASS: Traversable. Triggers wild encounters.
-- LEDGE_HOP_DOWN: One-way traversal (Down).
-- LEDGE_HOP_LEFT: One-way traversal (Left).
-- LEDGE_HOP_RIGHT: One-way traversal (Right).
-- CAVE: Map transition warp.
-- SIGN: Background object.
+- FLOOR: Standard walkable surface. No special effects.
+- WALL: Solid obstacle. Prevents movement into the tile from all directions.
+- TALL_GRASS: Walkable. Has a chance to trigger wild Pokemon encounters when stepped on.
+- LEDGE_HOP_DOWN: One-way vertical jump. Can be traversed from top to bottom, but acts as a wall from all other directions.
+- LEDGE_HOP_LEFT: One-way horizontal jump. Can be traversed from right to left, but acts as a wall from all other directions.
+- LEDGE_HOP_RIGHT: One-way horizontal jump. Can be traversed from left to right, but acts as a wall from all other directions.
+- CAVE: Warp tile. Stepping on it transitions the player to a different map (e.g., inside a cave).
+- SIGN: Background object. Can be interacted with from an adjacent tile to read text.
 
 # Fly Navigation (Johto Cycle)
 - Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
@@ -20,13 +20,12 @@
 
 # Training Progress (Route 45)
 - Session Start: Turn 32625.
-- Status (Turn 32969): Xenon (Lv32, 81/82 HP, Night Shade 13 PP), Kimchi (Lv31, 82/82 HP).
-- Goal: Lv40 for both.
+- Goal: Train Xenon and Kimchi to Lv40 for Gym Leader Clair.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
-- Training Start: Turn 32625 (Wed Jan 7 9:15 AM).
+- Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Arnie).
