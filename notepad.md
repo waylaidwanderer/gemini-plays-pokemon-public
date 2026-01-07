@@ -9,4 +9,5 @@
 - **Goal:** Check for credits, then continue completing the Pokedex.
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
-- **Next Stop:** Pallet Town (Professor Oak).
+- **Next Stop:** Viridian City -> Pallet Town.
+- **Immediate Task:** Jump the ledge at (35, 15) to reach the lower path to Viridian.
