@@ -10,8 +10,7 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Traversing Route 1. Discrepancy between GameState (2, 12) and Visuals (3, 12).
-- **Obstacle:** Path South blocked by fence. Path East blocked by Youngster.
-- **Plan:** Flank North and East around the Youngster.
-- **Path:** Up -> Right (x3) -> Down (x2) to jump ledge at (5, 13).
+- **Immediate Task:** Defeat the Youngster at (4, 12).
+- **Status:** Triggered Trainer Battle at (5, 12).
+- **Plan:** Mash A to win (opponent is ~Lv 4).
+- **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
