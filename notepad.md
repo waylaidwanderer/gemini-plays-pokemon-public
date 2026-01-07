@@ -1,19 +1,18 @@
 # Current Strategy: Ascend Western Waterfall
-- **Start Turn:** 26699 (Jan 7, 2026)
+- **Start Turn:** 26701 (Jan 7, 2026)
 - **Location:** Silver Cave Room 2 (3_75)
-- **Status:** Closing menu, moving to test Left Waterfall.
-- **Position:** Moving from (11, 30) to (7, 30).
-- **Correction:** x=11 rejected "Waterfall" from the menu. It is NOT the climbable tile.
-- **Hypothesis:** I must successfully interact with the Left Waterfall (x=7) *without* moving into it (which triggers the current).
+- **Status:** Moving to (7, 30) to test Left Waterfall.
+- **Hypothesis:** x=11 failed. x=6-10 act as currents (push back). I need to interact with a "current" tile from below to climb it.
 - **Plan:**
   1. Move to (7, 30).
   2. Face UP.
-  3. Press A (or use Menu) *without* pressing UP.
-  4. Ascend.
+  3. Use WATERFALL from the Menu (to prevent walking into the current).
+  4. If successful, ascend and surf North to Warp (11, 5).
+  5. If x=7 fails, test x=8, 9, 10 similarly.
 
 # Key Findings
 - **Waterfall Mechanics:**
-  - Moving UP into a waterfall tile pushes you back (Current).
-  - To climb, you must interact (A) from the tile *below*, facing UP.
-  - x=11 is NOT climbable.
-  - Likely climbable spot: x=7 (the main channel).
+  - x=11: "Can't use that here".
+  - x=6-10: Push player back (Current).
+  - Hypothesis: Climbable tile is one of the "current" tiles (likely x=7).
+- **History:** Summary claims I climbed at (11, 30) before. This contradicts current observation. I must trust current observation.
