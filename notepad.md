@@ -49,3 +49,4 @@
 # Lessons Learned
 - HP/PP Verification: Always use Game State Information to confirm current party health and status. Do not rely on memory or duration of training.
 - Quest Tracking: Exp. Share quest started Turn #31846.
+- Route 30 Navigation: Avoid ledges by staying on the right side of the map (X >= 13).
