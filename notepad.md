@@ -36,7 +36,7 @@
 
 # Progress Tracker
 - Target Lv30: 21760 EXP.
-- Kimchi: Lv28 (17333 EXP). ~4427 left.
+- Kimchi: Lv28 (17615 EXP). ~4145 left.
 - Xenon: Lv29 (20309 EXP). ~1451 left.
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
 
