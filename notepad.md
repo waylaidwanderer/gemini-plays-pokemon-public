@@ -16,7 +16,7 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
-- Kimchi (Lv23): 9001 EXP. Target Lv24: 10140 EXP (~1139 remaining).
+- Kimchi (Lv23): 9403 EXP. Target Lv24: 10140 EXP (~737 remaining).
 - Gneiss (Lv45): Earthquake PP low (3/10).
 - Grinding Start: Turn #31060.
 
