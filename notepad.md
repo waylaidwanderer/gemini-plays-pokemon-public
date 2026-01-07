@@ -1,12 +1,13 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (15, 3) in Item Rooms (3_77). Section 2 (Center) seems to be a dead end.
-- **Observation:** (15, 4) Ledge is blocked. Markers indicate ALL ledges might be blocked.
-- **Hypothesis:** This room is a dead-end loop. The real path is back in Room 2.
+- **Status:** At (10, 3) in Item Rooms (3_77). Center section confirmed as dead end loop from Warp (13, 3).
+- **Observation:** Ledges at y=4 are impassable walls.
+- **Action:** Returning to Room 2 via Warp (13, 3).
+- **Hypothesis:** I missed a path in Room 2 (Middle Section) after the waterfall.
 - **Plan:**
-  1. Test ledge at (10, 3) -> (10, 4) just to be 100% sure.
-  2. If blocked, Warp back to Room 2 via (13, 3).
-  3. Explore Room 2 (Top of Waterfall) for other paths (Surf East/West?).
+  1. Warp back to Room 2 (13, 21).
+  2. Explore the water/land in Room 2 Middle thoroughly.
+  3. Look for hidden caves or surfable paths to the North.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
