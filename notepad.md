@@ -39,7 +39,7 @@
 # Progress Tracking
 - Cianwood Consolidation: Started Turn #31883.
 - Failures Log: 16 failed attempts at party management (Turns 31883-31919). Cause: Menu lag, wrapping, and field move sub-menu offsets in Crystal.
-- Turn #31922: Fixed swap_pokemon_v2 tool with hardcoded offsets and commit message.
+- Turn #31924: Refined swap_pokemon_v2 to use a flat script structure for better compatibility. Added Lass marker.
 
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Current).
@@ -48,7 +48,11 @@
 
 # Menu Mapping (Cianwood PC)
 - Slot 1 (Kimchi): FLASH, CUT, STATS, SWITCH (3 downs)
+- Slot 2 (Icarus): FLY, STATS, SWITCH (2 downs)
 - Slot 3 (Xenon): STATS, SWITCH (1 down)
+- Slot 4 (Ravioli): SURF, STATS, SWITCH (2 downs)
+- Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (2 downs)
+- Slot 6 (Calcifer): STATS, SWITCH (1 down)
 
 # Lessons Learned (Menu Management)
 - Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 

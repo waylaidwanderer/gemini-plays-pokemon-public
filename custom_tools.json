@@ -199,7 +199,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    p1 = int(input_data['p1_index'])\n    p2 = int(input_data['p2_index'])\n    \n    # Party field move counts (Crystal sub-menu offsets)\n    # 0: Kimchi (FLASH, CUT) -> 2\n    # 1: Icarus (FLY) -> 1\n    # 2: Xenon (None) -> 0\n    # 3: Ravioli (SURF) -> 1\n    # 4: Gneiss (STRENGTH) -> 1\n    # 5: Calcifer (None) -> 0\n    party_field_moves = {0: 2, 1: 1, 2: 0, 3: 1, 4: 1, 5: 0}\n    \n    buttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"]\n    \n    # Select p1\n    for _ in range(p1): buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Navigate to SWITCH\n    # Offset is num_field_moves + 1 (for STATS)\n    num_downs = party_field_moves.get(p1, 0) + 1\n    for _ in range(num_downs): buttons.append(\"Down\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    \n    # Select p2\n    diff = p2 - p1\n    if diff > 0:\n        for _ in range(diff): buttons.append(\"Down\")\n    elif diff < 0:\n        for _ in range(-diff): buttons.append(\"Up\")\n    \n    buttons.append(\"A\")\n    buttons.append(\"sleep 1000\")\n    buttons.extend([\"B\", \"B\", \"B\"])\n    \n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# The input is provided in a variable called 'input_data'\np1 = int(input_data['p1_index'])\np2 = int(input_data['p2_index'])\n\n# Party field move counts (Crystal sub-menu offsets)\n# 0: Kimchi (FLASH, CUT) -> 2\n# 1: Icarus (FLY) -> 1\n# 2: Xenon (None) -> 0\n# 3: Ravioli (SURF) -> 1\n# 4: GNEISS (STRENGTH) -> 1\n# 5: Calcifer (None) -> 0\nparty_field_moves = {0: 2, 1: 1, 2: 0, 3: 1, 4: 1, 5: 0}\n\nbuttons = [\"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 1000\", \"Down\", \"A\", \"sleep 1000\"]\n\n# Select p1\nfor _ in range(p1):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Navigate to SWITCH\n# Offset is num_field_moves + 1 (for STATS)\nnum_downs = party_field_moves.get(p1, 0) + 1\nfor _ in range(num_downs):\n    buttons.append(\"Down\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\n\n# Select p2\n# Cursor is on p1 in the party list\ndiff = p2 - p1\nif diff > 0:\n    for _ in range(diff):\n        buttons.append(\"Down\")\nelif diff < 0:\n    for _ in range(-diff):\n        buttons.append(\"Up\")\n\nbuttons.append(\"A\")\nbuttons.append(\"sleep 1000\")\nbuttons.extend([\"B\", \"B\", \"B\"])\n\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -210,6 +210,11 @@
         "commit_message": "Fixing swap_pokemon_v2 for Crystal. Hardcoding field move offsets for the current party to ensure reliable 'SWITCH' selection. Added sleep commands to handle menu lag.",
         "timestamp": "2026-01-07T07:59:29.899Z",
         "action_counter": 31922
+      },
+      {
+        "commit_message": "Refined swap_pokemon_v2 to use a flat script structure (no main function) to ensure correct execution and JSON output. Verified field move offsets for the current party.",
+        "timestamp": "2026-01-07T08:00:04.135Z",
+        "action_counter": 31924
       }
     ]
   },
