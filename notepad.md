@@ -34,6 +34,11 @@
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
+# Current Plan: Route 45 Training
+1. Grinding in tall grass.
+2. Battle wild Pokemon to level Xenon and Kimchi to Lv40.
+3. Monitor HP/PP; Fly to Blackthorn to heal if needed.
+
 # Lessons Learned
 - Fly Map: It's a 2D snapping grid, not a list. Cursor starts on current city.
 - Button Inputs: Never mix directional and action buttons in a single press_buttons sequence. Use press_menu_buttons for menu navigation.
