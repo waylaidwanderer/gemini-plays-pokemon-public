@@ -30,7 +30,7 @@
 - Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
 
 # Strategy: Current Status
-- Goal: Heal at Blackthorn City Pokemon Center.
+- Goal: Heal at Cherrygrove City Pokemon Center (Detour via Fly mistake).
 - Status: XENON (Lv30, 33/77 HP, 4 PP Night Shade), KIMCHI (Lv29, 77/77 HP).
 - Next: Resume training on Route 45 or visit Dana (Route 38) / Arnie (Route 35).
 
