@@ -28,19 +28,21 @@
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Defeated (Turn #32274).
+- Arnie (Bug Catcher): Route 35. Rematch available (Turn #32321).
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Fly Map Navigation
 - The Fly menu is a 2D map.
-- Violet City -> (Right x2, Up x1) -> Mahogany Town -> (Right x1) -> Blackthorn City.
-- Total from Violet: Right x3, Up x1.
+- Violet City -> (Right x3, Up x1) -> Blackthorn City.
+- New Bark Town -> (Up x2) -> Blackthorn City.
 
 # Current Plan: Route 45 Training
-1. Exit Violet Pokemon Center. (Done)
-2. Fly to Blackthorn City (Up x2 from NBT on Fly map).
-3. Exit south to Route 45.
-4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
-- Started training at Turn #32266.
-- Arnie (Bug Catcher): Route 35. Rematch offered again? (Turn #32311).
+1. Fly to Blackthorn City.
+2. Exit south to Route 45.
+3. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
+
+# Error Analysis & Lessons
+- Fly menu is a 2D map, not a list. Treat it spatially.
+- NPCs calling can interrupt menu navigation. Re-verify position after calls.
+- Mixing directional and action buttons in `press_buttons` fails; use `press_menu_buttons`.
