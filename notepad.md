@@ -1,13 +1,17 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25972 (Jan 6, 2026)
+- **Timestamp:** Turn 25973 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Attack with Strength.
+- **Immediate Task:** Select FIGHT -> Switch to ThunderPunch.
 - **Battle Plan:**
-    1. **Current State:** Muscle (243/280, Trapped) vs Charizard (~65% HP).
-    2. **Last Turn:** Charizard used Fire Spin. Muscle used Strength.
-    3. **Action:** Press A (Select STRENGTH).
-    4. **Opponent Turn:** Charizard attacks (Fire Spin continues or new move).
-    5. **Next:** Check HP. Keep attacking with Strength.
+    1. **Current State:** Muscle (243/280, Burned). Charizard (~60%).
+    2. **Insight:** Burn halves Attack (Physical). Strength is now weak (~40 BP eff).
+    3. **New Tactic:** Use ThunderPunch (Special).
+       - Electric vs Flying = 2x.
+       - Base 75 * 2 = 150 BP.
+       - Burn does NOT lower Special Attack.
+       - Even with low SpAtk, 150 BP Special > 40 BP Physical.
+    4. **Action:** Select FIGHT to open move menu.
+    5. **Next:** Select ThunderPunch.
 - **Resources:** Muscle (243/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
