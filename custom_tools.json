@@ -214,5 +214,39 @@
         "action_counter": 31959
       }
     ]
+  },
+  "give_item_v4": {
+    "description": "Gives an item from the bag to a Pokemon. Starts from overworld. Handles menu wrapping for Start menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_pack_cursor": {
+          "type": "integer"
+        },
+        "current_start_cursor": {
+          "type": "integer"
+        },
+        "item_index": {
+          "type": "integer"
+        },
+        "pkmn_slot": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "current_start_cursor",
+        "current_pack_cursor",
+        "item_index",
+        "pkmn_slot"
+      ]
+    },
+    "python_script": "import json, sys\ninput_data = json.load(sys.stdin)\ncurr_start = int(input_data['current_start_cursor'])\ncurr_pack = int(input_data['current_pack_cursor'])\nitem_idx = int(input_data['item_index'])\npkmn_slot = int(input_data['pkmn_slot'])\n\nbuttons = ['Start', 'sleep 1000']\n# Navigate to PACK (3)\ndiff_s = (3 - curr_start) % 8\nif diff_s <= 4: buttons += ['Down'] * diff_s\nelse: buttons += ['Up'] * (8 - diff_s)\nbuttons += ['A', 'sleep 1000']\n\n# Navigate to item index in pocket. Assume linear for simplicity.\ndiff_i = item_idx - curr_pack\nif diff_i > 0: buttons += ['Down'] * diff_i\nelif diff_i < 0: buttons += ['Up'] * abs(diff_i)\nbuttons += ['A', 'sleep 500']\n\n# Select GIVE\nbuttons += ['Down', 'A', 'sleep 1000']\n\n# Select Pokemon\nbuttons += ['Down'] * (pkmn_slot - 1)\nbuttons += ['A', 'sleep 1000', 'B', 'B', 'B']\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T08:36:38.539Z",
+        "action_counter": 31963
+      }
+    ]
   }
 }

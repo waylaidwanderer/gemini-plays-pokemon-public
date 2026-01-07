@@ -52,9 +52,7 @@
 - Step 3: Fly to Blackthorn City.
 
 # Progress Tracking
-- Cianwood Consolidation: Started Turn #31883.
-- Turn #31960: Xenon successfully swapped to lead.
-- Turn #31961: Located Exp. Share on Icarus; switching it to Kimchi.
+- Cianwood Consolidation: Started Turn #31883. Xenon leading. Giving Exp. Share to Kimchi.
 
 # Start Menu (8 options) - WRAPS
 1. POKEDEX
