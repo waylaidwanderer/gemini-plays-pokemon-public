@@ -45,7 +45,7 @@
 - Goal: Xenon & Kimchi to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
-- Status: Training. Defeated wild Skarmory (Lv 27). (Turn #33554).
+- Status: Training. Battling wild Geodude (Lv 23). (Turn #33564).
 - Party Status (Turn #33554):
   - Gneiss: Lv 47 (102593 EXP)
   - Kimchi: Lv 32 (28340 EXP)
