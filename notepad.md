@@ -1,17 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25966 (Jan 6, 2026)
+- **Timestamp:** Turn 25967 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Sacrifice Gyarados (Try to Surf).
+- **Immediate Task:** Sacrifice Gyarados (Select Waterfall).
 - **Battle Plan:**
-    1. **Current State:** Gyarados (7 HP) vs Charizard. Muscle (Full HP).
-    2. **Action:** Select FIGHT -> SURF.
+    1. **Current State:** Gyarados (7 HP).
+    2. **Action:** Select FIGHT -> WATERFALL (Physical, stronger than Surf).
     3. **Opponent Turn:** Charizard attacks (likely KO).
-       - If Gyarados survives (miracle): Surf hits (2x effective).
     4. **Aftermath:** Gyarados faints.
     5. **The Comeback:** Send out Muscle (Full HP).
        - Muscle vs Charizard (Part 2).
        - Use Strength.
-    6. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
 - **Resources:** Muscle (280/280). Gyarados (7/117). 0 Max Revive. 2 Hyper Potions.
 
 # Recent Discoveries
