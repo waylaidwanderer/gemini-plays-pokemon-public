@@ -1,14 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** In battle at (22, 24) [Dead End]. Escaping.
-- **Observation:** Verified (22, 24) is an empty dead end. No visible items.
-- **Plan:**
-  1. Escape battle.
-  2. Backtrack South to (22, 28).
-  3. Go West to (19, 28).
-  4. Go North on Col 19 to Row 17.
-  5. Go West on Row 17 to explore the Western side (Column 7).
-- **Hypothesis:** The path to Red or the South Item Rooms lies to the West, accessible via the corridor on Row 17.
+- **Status:** At (22, 24). Confirmed Dead End.
+- **Action:** Navigating to Western Corridor (Row 17).
+- **Path:** (22, 24) -> South to (22, 28) -> West to (19, 28) -> North to (19, 17).
+- **Goal:** Explore the area West of (19, 17).
+- **Hypothesis:** The path to the South Item Rooms or Red is via the corridor on Row 17.
 
 # Key Findings
 - **Item Rooms (3_77):**
