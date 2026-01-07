@@ -1,15 +1,16 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26386 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At West Landing (5, 21). Verified Empty.
+- **Timestamp:** Turn 26388 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** Surfing from West Landing (5, 22).
 - **Immediate Goal:** Reach the unexplored warp at (11, 5).
 - **Plan:**
-  1. Surf East/North from (5, 22) to (11, 5).
-  2. Enter Warp (11, 5).
-- **Hypothesis:** Warp (11, 5) leads to Room 3 (Red). The other warp (13, 21) led to a dead-end balcony.
+  1. Surf East to (11, 22).
+  2. Surf North to (11, 5).
+  3. Enter Warp (11, 5).
+- **Hypothesis:** Warp (11, 5) leads to Room 3 (Red).
 
 # Investigation List
 - **West Landing (5, 21):** Verified Empty.
-- **Item Rooms (Main):** Still haven't found the entrance. Maybe via (11, 5)?
+- **Item Rooms (Main):** Entrance likely via (11, 5) or another path in Room 3.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
