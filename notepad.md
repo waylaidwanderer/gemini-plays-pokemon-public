@@ -71,3 +71,8 @@
 - Turn #31916: Menu lag in Crystal can be severe. Raw `press_buttons` sequences for deep menus are prone to desync. 
 - Strategy: Use specialized tools (`swap_pokemon_v2`, `use_item_on_pokemon_v2`) from a clean overworld state whenever possible.
 - If tools fail, use `press_menu_buttons` with at least 1000ms `sleep` after any menu-opening action.
+
+# Menu Navigation Notes
+- Start Menu (8 options): Pokedex, Pokemon, Pack, Pokegear, Gem, Save, Option, Exit. Wraps around.
+- Party Menu (6 slots): Wraps around.
+- Tool fly_to_city_v4 is currently unreliable due to wrapping assumptions. Use manual sequence: Start, Down, A (for Pokemon).
