@@ -1,18 +1,14 @@
 # Current Strategy: Defeat Red
-- **Start Turn:** 26779 (Jan 7, 2026)
+- **Start Turn:** 26781 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
 - **Status:** In Battle with Red.
-- **Active Matchup:** Muscle (Lv 83, 44/280 HP) vs Espeon (Lv 73).
+- **Active Matchup:** Muscle (Lv 83, 44/280 HP) vs Espeon (Lv 73, ~45% HP).
 - **Goal:** Defeat Red.
 - **Battle Plan:**
-  - **TACTIC: PP STALL.**
-    - Espeon's Psychic deals ~236 dmg (84%). It's a 2HKO.
-    - Muscle survives 1 hit.
-    - Espeon has ~10 PP for Psychic.
-    - I have 15 Full Restores.
-    - **Action:** Use Full Restore on Muscle every turn until Espeon stops using Psychic.
-    - **Risk:** Sp. Def drop from Psychic (10% chance) or Crit (6.25%). If that happens, I might need to sacrifice fodder to revive/reset.
-  - **After Stall:** Once Psychic is dry, Espeon will likely use Swift. Muscle can tank that easily. Then kill with Strength.
+  - **Situation:** Espeon is faster and hits for ~236 damage (84%). Muscle has 44 HP. Attacking leads to death.
+  - **Action:** **STALL**. Use Full Restore.
+  - **Logic:** Heal to full. Tank the next Psychic (survive with ~44 HP). Repeat until Espeon runs out of Psychic PP (10 total) or uses a non-Psychic move.
+  - **Win Condition:** Espeon runs out of Psychic, or uses a weak move, allowing Muscle to attack with **Strength** (Neutral damage, stronger than resisted Cross Chop).
 - **Items:** 15 Full Restores, 19 Revives.
 
 # Key Findings
