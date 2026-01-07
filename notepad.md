@@ -18,13 +18,17 @@
 - Resource Management: Return to Blackthorn PC via FLY when Xenon's Night Shade or Gneiss's Earthquake PP is depleted.
 
 # Progress Tracker
-- Last Update: Turn #31603.
+- Last Update: Turn #31606.
 - Grinding Start: Turn #31060.
 - Target Lv30: 21760 EXP (~5691 left for Kimchi, ~2574 left for Xenon).
 - Encounter Log Summary: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24).
+- Turn #31604: Defeated Hiker Erik on Route 45.
+
+# Key NPC Locations & Gifts
+- Dana (Lass): Route 38. Has a gift. (Turn #31604)
 
 # Battle Strategies & Observations
-- Night Shade: Deals fixed damage equal to user level. Perfect for grinding and bypassing high Defense. Note: Fixed damage moves are never super-effective.
+- Night Shade: Deals fixed damage equal to user level. Perfect for grinding and bypassing high Defense. Note: Night Shade damage is fixed, but it cannot hit Normal-type Pokemon.
 - Sleep Powder: "It didn't affect" message investigated. Not gender-dependent. Likely due to existing status or move-specific failure.
 - Type Immunities: Ghost-types (Xenon) are immune to Normal and Fighting moves (e.g., Quick Attack, Selfdestruct).
 - Type Weaknesses: Haunter (Poison/Ghost) is weak to Ground-type moves like Magnitude.
@@ -33,5 +37,3 @@
 # General Mechanics & Lessons
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
-- Turn #31604: Defeated Hiker Erik on Route 45.
-- Turn #31604: Dana (Lass) on Route 38 has a gift.
