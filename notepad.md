@@ -46,13 +46,13 @@
 - Item: HARD STONE is in Bag (Not held by Gneiss).
 
 # Party Item Audit
-- Xenon: Has item icon. Checking...
+- Xenon: Has item icon.
 - Icarus: Has item icon.
 - Kimchi: Exp. Share.
-- Ravioli: Empty (Bitter Berry removed).
+- Ravioli: Empty.
 - Gneiss: Empty (Amulet Coin removed).
-- Calcifer: Has item icon.
-- Audit Step: Accessing Xenon's ITEM menu to TAKE held item.
+- Calcifer: Has item icon. Checking...
+- Audit Step: Accessing Calcifer's ITEM menu to TAKE held item.
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
