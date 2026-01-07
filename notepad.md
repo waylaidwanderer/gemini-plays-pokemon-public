@@ -24,3 +24,7 @@
 - **Silver Cave Room 2:**
   - West Landing (5, 21) is empty/dead end.
   - Right side (Row 16) is a one-way ledge drop.
+- Trap Analysis: Foyer appears to be enclosed by walls (North/East/West) and ledges (South).
+- Pathfinding confirmed no route to North Hallway (Row 0).
+- Exit Strategy: Brute-force testing of South Ledges (Row 4) to find a jumpable spot.
+- Test 1: Move to (6, 3) and try Down into (6, 4).
