@@ -244,7 +244,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", # Clear any open menus or gear\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on POKEDEX\n        \"Down\", \"A\", \"sleep 500\", # Select POKEMON\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure cursor is on 1st Pokemon\n        \"Down\", \"A\", \"sleep 500\", # Select 2nd Pokemon (Icarus)\n        \"A\", \"sleep 3000\" # Select FLY and wait for map\n    ]\n    buttons.extend(navigation)\n    buttons.append(\"A\") # Confirm destination\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
+    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", # Clear UI\n        \"Start\", \"sleep 1000\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # POKEDEX\n        \"Down\", \"A\", # POKEMON\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Top\n        \"Down\", \"A\", # Icarus\n        \"A\", \"sleep 3000\" # Select FLY\n    ]\n    if navigation:\n        buttons.extend(navigation)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -270,6 +270,11 @@
         "commit_message": "Refined fly_to_blackthorn to avoid consecutive sleeps and improve menu navigation robustness.",
         "timestamp": "2026-01-07T06:02:39.410Z",
         "action_counter": 31776
+      },
+      {
+        "commit_message": "Refined fly_to_blackthorn to avoid consecutive sleeps and improve menu navigation robustness.",
+        "timestamp": "2026-01-07T06:06:18.517Z",
+        "action_counter": 31779
       }
     ]
   }

@@ -52,7 +52,6 @@
 # General Mechanics & Lessons
 - Route 45: Ledges divide the route into vertically separated sections. Paths are one-way SOUTH. Use HM02 FLY to return to Blackthorn City.
 - Fly Map: Systematic navigation required. Confirm destination name in screen text before pressing A.
-- Tool Usage: Ensure perfectly structured JSON for battle_analyst_v2. Include all party members correctly. Avoid truncation.
 
 # Menu Navigation Lessons
 - Pokemon Menu: Always check the Pokemon's current HP and level before selecting.
