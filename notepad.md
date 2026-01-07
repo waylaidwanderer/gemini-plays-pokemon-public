@@ -60,3 +60,10 @@
 - Slot 4 (Ravioli): SURF, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 5 (GNEISS): STRENGTH, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 6 (Calcifer): STATS, SWITCH, MOVE, ITEM, CANCEL
+
+# Current Plan: Route 45 Training
+1. Fly to Blackthorn City.
+2. Heal at the Pokemon Center (Night Shade PP is low).
+3. Exit south to Route 45.
+4. Battle wild Pokemon to level up Xenon and Kimchi.
+5. Use Gneiss/Calcifer if health gets too low.
