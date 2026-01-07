@@ -5,10 +5,12 @@
 - Route 45: High-level training area. Lead with Xenon (Amulet Coin), Exp. Share on Kimchi.
 
 # Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
 - TALL_GRASS: Traversable. Triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way traversal (Down).
-- WALL: Impassable.
-- FLOOR: Traversable.
+- LEDGE_HOP_LEFT: One-way traversal (Left).
+- LEDGE_HOP_RIGHT: One-way traversal (Right).
 - CAVE: Map transition warp.
 - SIGN: Background object.
 
