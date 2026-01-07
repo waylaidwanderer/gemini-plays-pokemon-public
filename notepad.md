@@ -38,8 +38,6 @@
 - Participation: Switch to Xenon/Kimchi for shared EXP when safe.
 - Passive: XENON holds EXP.SHARE.
 - Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
-- Goals: Xenon Lv40, Kimchi Lv40.
-
 ## Route 45 Exploration Status
 - Task started: Turn 32625.
 - Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
