@@ -1,23 +1,27 @@
-# Tile Mechanics
+# Verified Tile Mechanics
 - FLOOR: Standard ground. Can be traversed.
 - WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
 - TALL_GRASS: Can be traversed. Triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way south.
+- LEDGE_HOP_LEFT: One-way west.
+- LEDGE_HOP_RIGHT: One-way east.
 - FLOOR_UP_WALL: Impassable ledge bottom.
+
+# Hypothesized Tile Mechanics
 - WATER: Requires SURF to cross.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
 # Strategy: Johto League Training
-- Efficiency: Lead with trainee (Kimchi Lv23), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
+- Efficiency: Lead with trainee (Kimchi Lv24), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
 - Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
-- Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Sweet Scent to trigger encounters if pacing is slow.
+- Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Acid for STAB damage.
 - Resource Limit: Return to Blackthorn City to heal when Gneiss is at 0 Earthquake PP.
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
-- Kimchi (Lv24): 10240 EXP. Target Lv30: ~21760 EXP (~11520 remaining). Forgot Sweet Scent, learned Acid.
-- Gneiss (Lv45): Earthquake PP empty (0/10). HP: 38/126.
-- Calcifer (Lv48): Flame Wheel PP (19/25).
+- Kimchi (Lv24): 10240 EXP. Target Lv30: ~21760 EXP (~11520 remaining). Learned Acid.
+- Gneiss (Lv45): 126/126 HP. Earthquake PP: 10/10.
+- Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
 - Grinding Start: Turn #31060.
 
 # Evolution Methods (Hypotheses)
