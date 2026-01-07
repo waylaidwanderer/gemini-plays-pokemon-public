@@ -20,7 +20,7 @@
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
 - Kimchi (Lv24): 10240 EXP. Target Lv30: ~21760 EXP (~11520 remaining). Learned Acid.
-- Gneiss (Lv45): 108/126 HP. Earthquake PP: 10/10.
+- Gneiss (Lv45): 108/126 HP. Earthquake PP: 9/10.
 - Calcifer (Lv48): 152/152 HP. Flame Wheel PP: 25/25.
 - Grinding Start: Turn #31060.
 - Encounter Log: Donphan (Lv25), Graveler (Lv23) observed at (4,12)-(5,12).
