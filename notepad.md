@@ -12,6 +12,6 @@
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
 - **Status:** Traversing Route 1. Stuck at (2, 12).
-- **Issue:** "Player sprite hidden" indicates a menu is likely open, blocking movement.
-- **Action:** Press 'B' repeatedly to close potential menus, then move Left -> Down to flank.
-- **Path:** Left to (1, 12) -> South to (1, 16) -> East to (2, 16) -> South to Pallet.
+- **Issue:** Movement West and South failed. Likely blockage or menu state.
+- **Action:** Attempting to move East to (3, 12) then South.
+- **Hypothesis:** (1, 12) might be blocked. (2, 13) ledge might be glitchy. Trying x=3 path.
