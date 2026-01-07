@@ -48,9 +48,10 @@
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
 6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
 7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic.
-- Total Failures: 9.
+- Total Failures: 10.
 8. press_menu_buttons (Turn #31903): Failed, entered Pokedex.
 9. use_item_on_pokemon_v2 (Turn #31904): Failed, entered Pokegear menu.
+10. swap_pokemon_v2 (Turn #31906): Failed, gave Xenon an Ice Berry instead of swapping.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
