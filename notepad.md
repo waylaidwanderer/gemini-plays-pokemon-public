@@ -27,4 +27,6 @@
 - **Strategy:** Attempting rapid input (Up+A) to interact before movement/pushback occurs.
 - **Correction:** 'Can't use that here' when selecting from menu.
 - **Action:** Must interact with the waterfall directly by pressing A while facing it from the overworld.
-- **Plan:** Face UP (tap Up), then press A to trigger Waterfall prompt. Confirm with A.
+- **Observation:** Entering the waterfall tile pushes the player back and forces them to face DOWN.
+- **Strategy:** Reset facing by moving away and coming back.
+- **Plan:** Move DOWN to (11, 31), then move UP to (11, 30) (ensuring Face UP), then press A to trigger HM.
