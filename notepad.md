@@ -1,14 +1,12 @@
-# Current Strategy: Return to Room 2 via Warp
-- **Location:** Silver Cave Item Rooms (3_77)
-- **Status:** Retrying warp trigger at (13, 3).
-- **Issue:** Warp at (13, 3) failed to trigger on previous attempt (Up, Down).
-- **Hypothesis:** The "Got away safely!" text state might have eaten the input or blocked the warp event.
+# Current Strategy: Ascend Western Waterfall
+- **Location:** Silver Cave Room 2 (3_75)
+- **Status:** Surfing to the base of the waterfall.
+- **Goal:** Reach Warp (11, 5) to access Southern Item Rooms.
 - **Plan:**
-  1. Move Left off the warp.
-  2. Move Right ONTO the warp.
-  3. Press Down to bump the wall (just in case).
-  4. Press A (just in case).
-  5. If this fails, I am potentially stuck, but warps are rarely broken.
+  1. Surf Down to the bottom lake (Row 30).
+  2. Surf West to x=7.
+  3. Ascend the waterfall at (7, 29).
+  4. Follow the river North to the warp.
 
 # Key Findings
 - **Item Rooms (3_77):**
