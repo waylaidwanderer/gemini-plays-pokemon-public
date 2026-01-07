@@ -28,10 +28,10 @@
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC.
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
-# Significant Party Status (Turn #32209)
+# Significant Party Status (Turn #32210)
 - XENON (Haunter): Lv30. HP 21/77. Night Shade: 11/15.
 - KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
-- Status: Flying to Blackthorn City for healing.
+- Status: Inside Blackthorn Pokemon Center for healing.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
