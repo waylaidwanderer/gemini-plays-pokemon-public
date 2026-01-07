@@ -32,3 +32,10 @@
 - Speed Control: Teach TM16 Icy Wind to Naga or Blitz to slow down Dragonairs. (Note: TM16 not in PC or Inventory).
 - Survival: Level supports to Lv40+ to survive hits.
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
+
+# Swarm Investigation: Yanma (Route 35)
+- Turn 33075: Arrived on Route 35 to investigate the Yanma swarm reported by Arnie.
+- Strategy: Lead with Gneiss (Lv46) to avoid weak encounters and use Great Balls to catch Yanma if not already caught. 
+- Goal: Verify if Yanma is already in Pokedex and catch one if needed. (Check: Pokedex shows Yanma is already caught).
+- Training: If swarm is active, use the increased encounter rate to train Xenon and Kimchi.
+- Current Status: Swarm reported, starting investigation in tall grass.
