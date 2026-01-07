@@ -30,10 +30,15 @@
 - Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
 
 # Strategy: Current Status
-- Goal: Heal at Cherrygrove City Pokemon Center (Detour via Fly mistake).
-- Status: XENON (Lv30, 33/77 HP, 4 PP Night Shade), KIMCHI (Lv29, 77/77 HP).
-- Next: Fly to Blackthorn City and resume training on Route 45. Try to visit Dana (Route 38) for the gift if convenient.
-- Fly wrap check: Pressing 'Up' from New Bark Town on the map should go to Blackthorn City. Verify next time.
+- Goal: Return to Route 45 to continue training.
+- Status: Party fully healed (Turn #32174). XENON (Lv30), KIMCHI (Lv29).
+- Lesson Learned: Fly map 'Up' from New Bark Town goes to Cherrygrove City. The Fly list order in the notepad needs verification.
+- Next: Fly to Blackthorn City. Carefully observe cursor on map.
+
+# Fly Map Observation (Turn #32170)
+- Start: New Bark Town.
+- Input 'Up' -> Result: Cherrygrove City.
+- Conclusion: The Fly list order is [New Bark Town, Cherrygrove City, ...]. 'Up' moves forward in the list. To reach Blackthorn (likely the end), I need to move 'Down' from New Bark (if it wraps) or many 'Up's.
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
