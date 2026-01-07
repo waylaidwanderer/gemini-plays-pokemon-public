@@ -40,3 +40,4 @@
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 - Priority: Check for missed items/trainers while grinding.
+- **Input Precision:** Avoid mixing directional and action buttons in a single sequence. Verify turn count against Game State before acting. (Turn 33423).
