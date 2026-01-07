@@ -7,7 +7,6 @@
 - SIGN: Background object. Verified at (10, 4).
 
 # Strategy: Rising Badge (Gym Leader Clair)
-- Objective: Defeat Clair in Blackthorn Gym.
 - Team Composition:
     - XENON (Haunter): Main attacker. Goal Lv40+. Use Night Shade for fixed damage.
     - KIMCHI (Gloom): Support. Goal Lv40+. Use Sleep Powder.
@@ -19,10 +18,8 @@
     3. **CRITICAL:** Use `battle_advisor` agent for all trainer and significant wild battles to optimize EXP and safety.
 
 # Training Progress (Route 45)
-- Goal: Lv40 for Xenon and Kimchi.
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
-- Healing Log: Turn #32731 (Start). Night Shade PP was 1. Status: Healed (Turn #32733).
-- Training Session Log: Resumed grind at Turn #32740. Current Status: Xenon Lv31, Kimchi Lv31 (Level up Turn #32745). Night Shade PP: 13/15. Xenon healed to 79/79 HP at Turn #32752.
+- Session Log: Resumed grind at Turn #32740. Xenon Lv31, Kimchi Lv31. Night Shade PP: 11/15. Xenon 78/79 HP.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
@@ -39,4 +36,4 @@
 - Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button does not always move the cursor east; it cycles through the list of available Fly destinations. Verified sequence: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 - Menu Navigation: Use press_menu_buttons to avoid mixing inputs.
 - Counter Interaction: To talk to NPCs behind counters (Nurses/Clerks), face the counter tile and press A. You do not need to be on the counter tile.
-- Turn #32756: Encountered wild Gligar (Lv24). Xenon (Lv31) leading. Night Shade PP: 13/15. Strategy: Night Shade for 2-turn KO.
+- Turn #32756: Encountered wild Gligar (Lv24). Xenon (Lv31) leading. Night Shade PP: 11/15. Strategy: Night Shade for 2-turn KO.
