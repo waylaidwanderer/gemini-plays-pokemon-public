@@ -1,10 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At (22, 24). Confirmed Dead End.
-- **Action:** Navigating to Western Corridor (Row 17).
-- **Path:** (22, 24) -> South to (22, 28) -> West to (19, 28) -> North to (19, 17).
-- **Goal:** Explore the area West of (19, 17).
-- **Hypothesis:** The path to the South Item Rooms or Red is via the corridor on Row 17.
+- **Status:** At (19, 17). Entrance to Western Corridor.
+- **Action:** Navigating West along Row 17 to (7, 17).
+- **Observation:** This corridor connects the East side to the West side, bypassing the central water area.
+- **Goal:** Explore the Western section (Columns 0-7) for the path to Red.
+- **Hypothesis:** This western area connects to the South Item Rooms or Red's chamber.
 
 # Key Findings
 - **Item Rooms (3_77):**
