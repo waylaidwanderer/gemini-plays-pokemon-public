@@ -17,7 +17,7 @@
 
 # Tile Mechanics
 - **WATERFALL:** Requires HM Waterfall. Face UP and press A.
-- **Observation:** Tested x=6 and x=7 at Row 30. Both resulted in being pushed back (Current behavior) without a Waterfall prompt.
-- **Hypothesis:** Only specific tiles of the waterfall are climbable. The left-most tiles might be "downward current" only.
-- **Test:** Testing x=8, then x=9, x=10. Need to find the tile that prompts "Want to use Waterfall?".
+- **Observation:** Verified x=6, 7, 8 at Row 29 are "Currents" (they push the player back to Row 30).
+- **Test:** Testing x=9. If that fails, x=10.
 - **Goal:** Reach Warp (11, 5).
+- **Hypothesis:** One of the remaining waterfall tiles (9 or 10) must be solid/climbable.
