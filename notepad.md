@@ -40,3 +40,5 @@
 - Ledge Test: (12, 4) blocked Down movement. Testing (14, 4) by walking around the warp.
 - Path: Up (12,2) -> Right (13,2) -> Right (14,2) -> Down (14,3) -> Try Down (14,4).
 - Hypothesis: If (14, 4) is also blocked, this area is an exit-only foyer, and I must find another entrance in Room 2.
+- Warp Hypothesis: Attempting to walk DOWN from (13, 3) into the wall at (13, 4). This should trigger the WARP_CARPET_DOWN.
+- If this fails, the room appears to be a trap/dead end, and I will need to verify walls or use Escape Rope.
