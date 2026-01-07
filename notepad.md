@@ -31,7 +31,7 @@
 - Status: Party fully healed (Turn #32174).
 - Next: Fly to Ecruteak City and head west to Route 38.
 
-# Significant Party Status (Turn #32225)
+# Significant Party Status (Turn #32228)
 - 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
