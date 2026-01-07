@@ -7,7 +7,7 @@
 - WATER: Traversable (Surf).
 - CUT_TREE: Obstacle (Cut).
 - BOULDER: Obstacle (Strength).
-- COUNTER: Stand adjacent to interact with NPC behind.
+- COUNTER: STAND ADJACENT to interact with NPC behind.
 - WARP_CARPET: Walk off-grid to transition.
 - PC: Stand below and face up to interact.
 - BUOY: Impassable water boundary.
@@ -24,10 +24,10 @@
 # Strategy: Johto League Training
 - Task: Train XENON and KIMCHI to Lv40 on Route 45.
 - Start: Turn #31883 (Jan 7, 2026, 2:26 AM PST).
-- Method: Exp. Share on Kimchi. Lead with Xenon.
+- Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Hazards: Magnitude/Earthquake. Switch to GNEISS (Ground sponge) if needed.
 
-# Party Status (Turn #32122)
+# Party Status (Turn #32124)
 - 1. XENON (Haunter): Lv29. HP 74/74. Holding AMULET COIN.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
