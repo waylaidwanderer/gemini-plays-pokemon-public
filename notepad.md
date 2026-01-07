@@ -2,12 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Route 28 (0, 13). Exiting.
-- Correction: The ledge at Silver Cave Outside (39, 32) BLOCKED me last time. It is likely a wall.
+- Current Location: Silver Cave Outside (35, 34). Ledge Jump.
+- Action: Jumping South over ledge at (35, 34).
 - Plan:
-    1. Exit Left to Silver Cave Outside.
-    2. Test Row 32 at x=36, 37, 38 for a valid ledge.
-    3. If all fail, check for a hidden path through the trees to the East (x>39).
+    1. Jump South.
+    2. Head West along the bottom path (Row 35).
+    3. Find path North to Pokemon Center (23, 19).
+    4. Explore towards the NW area for the secret house.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
