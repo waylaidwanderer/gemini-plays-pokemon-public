@@ -46,10 +46,15 @@
 - Item: HARD STONE is in Bag (Not held by Gneiss).
 
 # Amulet Coin Search Tracker
-- [ ] Check Bag (Items/Key Items) - Not in Items.
-- [ ] Check Party Held Items (Xenon, Icarus, Ravioli, Gneiss, Calcifer).
+- [x] Check Bag (Items/Key Items/Balls/TMs) - Not found.
+- [ ] Check Party Member 1 (XENON)
+- [ ] Check Party Member 2 (ICARUS)
+- [ ] Check Party Member 3 (KIMCHI) - Holding Exp. Share.
+- [ ] Check Party Member 4 (Ravioli)
+- [ ] Check Party Member 5 (GNEISS)
+- [ ] Check Party Member 6 (Calcifer)
 - [ ] Check PC Item Storage.
-- [ ] Check Pokémon in PC Boxes.
+- [ ] Check PC Box 1 (8 Pokemon).
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
