@@ -25,3 +25,8 @@
   - x=3 is a Wall (Row 1-3). Direct access to West is impossible without jumping.
   - x=16 is a Wall (Row 1-3).
   - Must jump down to proceed.
+- **Warp Discrepancy:**
+  - XML says Warp is at (13, 3).
+  - Visual Screen shows Warp Mat at (13, 4).
+  - Walking onto (13, 3) did nothing.
+  - Plan: Attempt to walk DOWN into (13, 4). The "WALL" label might be incorrect.
