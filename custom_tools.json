@@ -221,12 +221,17 @@
         "city_name"
       ]
     },
-    "python_script": "import json\n\ndef main(input_data):\n    city_name = input_data['city_name'].lower()\n    buttons = [\"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"sleep 500\", \"Down\", \"A\", \"A\", \"sleep 2000\"]\n    buttons.extend([\"Down\"] * 10)\n    buttons.extend([\"Right\"] * 10)\n    paths = {\n        \"new bark town\": [],\n        \"cherrygrove city\": [\"Left\"],\n        \"violet city\": [\"Left\", \"Up\"],\n        \"azalea town\": [\"Left\", \"Up\", \"Down\"],\n        \"goldenrod city\": [\"Left\", \"Up\", \"Left\"],\n        \"ecruteak city\": [\"Left\", \"Up\", \"Up\"],\n        \"olivine city\": [\"Left\", \"Up\", \"Up\", \"Left\"],\n        \"cianwood city\": [\"Left\", \"Up\", \"Up\", \"Left\", \"Left\"],\n        \"mahogany town\": [\"Left\", \"Up\", \"Up\", \"Right\"],\n        \"lake of rage\": [\"Left\", \"Up\", \"Up\", \"Up\", \"Right\"],\n        \"blackthorn city\": [\"Left\", \"Up\", \"Up\", \"Right\", \"Right\"]\n    }\n    if city_name in paths:\n        buttons.extend(paths[city_name])\n    buttons.extend([\"A\", \"sleep 1000\", \"A\"])\n    print(json.dumps(buttons))\n",
+    "python_script": "import json\n\n# input_data is injected by the harness\ncity = input_data.get(\"city_name\", \"Blackthorn City\")\n\nbuttons = [\"B\", \"B\", \"B\", \"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"A\", \"sleep 1000\", \"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 3000\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\", \"Right\"]\n\nif city == \"Blackthorn City\":\n    buttons.append(\"Up\")\nelif city == \"Goldenrod City\":\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\nelif city == \"Ecruteak City\":\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\n    buttons.append(\"Up\")\nelif city == \"Olivine City\":\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\nelif city == \"Cianwood City\":\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\n    buttons.append(\"Left\")\nelif city == \"Violet City\":\n    buttons.append(\"Left\")\n    buttons.append(\"Up\")\nelif city == \"Mahogany Town\":\n    buttons.append(\"Left\")\n    buttons.append(\"Up\")\n    buttons.append(\"Up\")\nelif city == \"Cherrygrove City\":\n    buttons.append(\"Left\")\n\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Fixed Fly tool with robust menu navigation (sleeps and top-reset) and corrected city paths.",
         "timestamp": "2026-01-07T07:27:04.749Z",
         "action_counter": 31885
+      },
+      {
+        "commit_message": "Fixed JSON output and added robust navigation logic.",
+        "timestamp": "2026-01-07T07:38:10.740Z",
+        "action_counter": 31894
       }
     ]
   }
