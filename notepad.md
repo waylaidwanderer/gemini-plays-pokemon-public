@@ -40,9 +40,9 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
 # Party Item Audit (Turn #32072)
-- Audit: XENON accidentally holding ICE HEAL. Taking it back.
-- Goal: XENON holding AMULET COIN.
-- Status: XENON leading, HP 64/74. KIMCHI holding EXP.SHARE.
+- Audit: COMPLETE. XENON cleared of ICE HEAL.
+- Goal: Give AMULET COIN to XENON (Slot 1).
+- Status: XENON leading, HP 64/74. KIMCHI holding EXP.SHARE. (Turn #32075)
 
 # Progress Tracker
 - Xenon (Haunter): Lv29 (20635 EXP).
