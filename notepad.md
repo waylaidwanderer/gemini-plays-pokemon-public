@@ -4,10 +4,14 @@
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34.
 - **Results:**
-    - x=29-37: Failed (Fake Ledges).
-- **Action:** Test the FINAL candidate: x=28.
-- **Hypothesis:** If x=28 fails, the entire Row 34 is a wall.
-- **Contingency:** Escape via North (Row 31/29 is TALL_GRASS/FLOOR, not ledges) and return to the Central Area (x=5) to re-investigate the North path there.
+    - x=28-37: All confirmed as **Fake Ledges** (Walls).
+- **Conclusion:** The "Middle Pocket" (Row 32-33) has NO South exit.
+- **New Strategy:** The path to the Northwest area is likely NOT on this map.
+- **Hypothesis:** Must exit East to **Route 28** and traverse West on that map to re-enter Silver Cave Outside at a different location (likely the NW corner).
+- **Action:**
+    1. Escape the pocket North to (28, 29).
+    2. Navigate East to (39, 31).
+    3. Exit to Route 28.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
