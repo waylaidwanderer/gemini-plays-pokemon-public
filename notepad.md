@@ -10,9 +10,9 @@
     - To reach the *Northwest* corner of the previous map, I need to exit Route 28 further North on the West edge.
     - Tile (0, 3) on Route 28 is a walkable `FLOOR` tile on the West edge, aligning with this goal.
 - **Plan:**
-    1. Traverse Route 28 Eastward.
-    2. Find a path North that loops back West to (0, 3).
-    3. Exit Route 28 at (0, 3) to re-enter Silver Cave Outside.
+    1. Surf East to the gap at (28, 11).
+    2. Pass through the gap and explore the hidden area to the East.
+    3. Find the path looping North/West to the house at (7, 3).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
