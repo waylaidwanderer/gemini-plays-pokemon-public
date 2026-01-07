@@ -15,13 +15,12 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (17, 31) in Room 2 (Lower Area).
-- **Update:** Warp (15, 1) in Room 1 leads to (17, 31) in Room 2. Loop confirmed.
-- **Objective:** Find path to Upper Area (Warp 11, 5) or East Side (x>24).
+  - **Status:** Exploring East side of Room 2 Lower at (21, 28).
+- **Update:** Successfully navigated past warp carpets at x=21.
+- **Objective:** Follow the corridor at x=22 North to see if it leads to the Upper Area or East side.
 - **Plan:**
-  1. Explore East side of Room 2 Lower (x=17 to 24).
-  2. Check for hidden paths/caves at (22, 24).
-  3. If dead end, re-examine Waterfall Top.
-- **Item Rooms:** Upper Ledge confirmed dead end/entrance only.
-- **Unexplored:** East side of Room 2 Lower (x>17).
-- **Hypothesis:** A path to the East side (x>24) exists, possibly via the column at x=22 or hidden warp.
+  1. Go North to (22, 24).
+  2. Check for connections to the East (x>22).
+  3. If dead end, check other columns.
+- **Hypothesis:** The path to the rest of the map is hidden or requires a specific route in this lower area.
+- **Item Rooms:** Upper Ledge confirmed dead end/entrance only. Loop verified.
