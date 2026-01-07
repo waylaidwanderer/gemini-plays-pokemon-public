@@ -36,3 +36,4 @@
 - Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button cycles through destinations. Sequence: Azalea -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 - Menu Navigation: Use press_menu_buttons.
 - Counter Interaction: Face counter tile and press A to talk to NPCs behind counters.
+- Turn #32786: Encountered wild Geodude (Lv23). Using Night Shade (5 PP remaining). Xenon 81/82 HP. Kimchi Lv31.
