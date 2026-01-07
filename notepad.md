@@ -1,18 +1,24 @@
 # Current Strategy: Return to Red
-- **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Exploring Lower Room 2 (Water).
-- **Location:** (14, 30).
-- **Action:** Surfing West to explore the Southwest area.
-- **Rationale:** The Warp at (17, 31) is a confirmed loop to Room 1 (Turn 26455). The only remaining unexplored area is the Southwest water/corner.
-- **Hypothesis:** The entrance to the South Item Rooms or Red's area is hidden in the Southwest corner.
+- **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
+- **Status:** Exploring Lower Room 2 (Water) at (10, 30).
+- **Goal:** Explore the Southwest corner (x < 7) for hidden paths.
+- **Hypothesis:** The entrance to the South Item Rooms or Red's area is hidden in the Southwest corner, as other paths (Waterfall Top, Item Room North) proved to be loops.
 - **Plan:**
-  1. Surf West from (14, 30).
-  2. Investigate the area around x=4, y=30+.
-  3. Look for a landing spot or cave entrance.
+  1. Surf West to the far Southwest corner.
+  2. Investigate for landfalls or cave entrances.
+  3. If nothing found, return to Room 1 and re-evaluate the entire cave structure.
 
 # Key Findings
-- **Item Rooms (3_77):** Northern ledges (Row 4) are impassable/one-way.
-- **Silver Cave Room 2:**
-  - Water connects central area to unknown West/East areas.
-  - Warp (13, 21) -> Item Rooms North (Loop).
-  - Warp (17, 31) -> Room 1 (Loop).
+- **Item Rooms (3_77):**
+  - Northern ledges (Row 4) are impassable/one-way (Tested x=4 to 12).
+  - Center/Right sections of Item Rooms North are dead ends.
+- **Silver Cave Room 2 (3_75):**
+  - **Waterfall:** Located at (11, 29). Requires facing UP and pressing A to ascend. Entering without interaction pushes player DOWN.
+  - **Warp (13, 21):** Leads to Item Rooms North (Loop).
+  - **Warp (17, 31):** Leads to Room 1 (Loop).
+  - **Layout:** Central area connects via water to West/East. Lower area connects back to Room 1 entrance.
+
+# Tile Mechanics
+- **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
+- **FLOOR_UP_WALL:** South-facing Ledge (impassable from below, jumpable from above).
+- **WATERFALL:** Impassable tile unless HM Waterfall is used. Interaction: Face Up + A.
