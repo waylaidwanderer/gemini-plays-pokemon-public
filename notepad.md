@@ -15,11 +15,14 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (22, 24) in Room 2 Lower.
-- **Result:** Corridor at x=22 is a dead end.
-- **Hypothesis:** The "lanes" at x=19, 21, 23 might be different paths. x=21 was a dead end at y=28.
+  - **Status:** At (19, 20) in Room 2 Lower.
+- **Analysis:**
+  - Lanes at x=19, 21, 23 are blocked by ledges at y=16. They are one-way returns from the North.
+  - Waterfall path (x=11) leads only to Item Rooms (dead end).
+  - Room 2 Lower is fully explored and appears to be an exit area.
+- **Conclusion:** Must return to Room 1 to find the path to Room 2 Central/Upper.
 - **Plan:**
-  1. Test column x=19. It has a Warp Carpet at (19, 29).
-  2. Attempt to cross (19, 29) to reach the corridor North of it.
-  3. If x=19 fails, try other columns or return to waterfall.
-- **Item Rooms:** Upper Ledge confirmed dead end/entrance only. Loop verified.
+  1. Return to Room 1 via warp at (17, 31).
+  2. Explore Room 1 fully (Use Flash if dark).
+  3. Look for other warps leading to Room 2.
+- **Note:** Testing carpet at (19, 29) on the way out, just in case.
