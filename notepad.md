@@ -2,17 +2,17 @@
 - **Start Turn:** 26813 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
 - **Status:** In Battle with Red.
-- **Active Matchup:** Muscle (Lv 84, 237/283 HP) vs Charizard (Lv 77).
+- **Active Matchup:** Muscle (Lv 84, 121/283 HP) vs Charizard (Lv 77).
 - **Goal:** Defeat Red.
 - **Battle Plan:**
-  - **TACTIC: TYPE ADVANTAGE.**
-    - **Matchup:** Charizard (Fire/Flying) vs Muscle.
-    - **Move:** THUNDERPUNCH (Electric, Special).
-    - **Effectiveness:** 2x Super Effective vs Flying (Electric vs Fire is neutral).
-    - **Status:** Muscle is faster? Unlikely. Charizard Base Spd 100 vs Machoke Base 45. Charizard goes first.
-    - **Action:** Select FIGHT -> THUNDERPUNCH.
-    - **Health Check:** If Muscle HP < 120, Heal. Currently 237. Safe.
-  - **Win Condition:** Charizard faints.
+  - **TACTIC: HEAL LOOP.**
+    - **Speed:** Charizard is faster (Flamethrower hit first).
+    - **Damage:** Flamethrower deals ~116 dmg. Crit ~232.
+    - **Muscle Status:** 121 HP. In range of KO from high roll or crit.
+    - **Action:** HEAL with Full Restore.
+    - **Cycle:** Heal (Safe at 167+) -> Attack (Thunderpunch) -> Take Hit (to ~51) -> Heal -> Repeat.
+    - **Backup:** If Muscle faints, sacrifice fodder to Revive Muscle.
+  - **Win Condition:** Charizard faints from Thunderpunch attrition.
 - **Items:** 5 Full Restores, 19 Revives.
 
 # Key Findings
