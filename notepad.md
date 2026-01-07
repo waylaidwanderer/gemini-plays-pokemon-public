@@ -6,9 +6,10 @@
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: THUNDER STRIKE.**
-    - **Status:** Muscle Active (221/283 HP). Mistral Fainted.
-    - **Action:** Switch to Muscle.
-    - **Next Turn:** Thunderpunch.
+    - **Status:** Muscle Active (221/283 HP).
+    - **Move Choice:** Thunderpunch (Cross Chop has 0 PP).
+    - **Reasoning:** Strength and Thunderpunch do similar damage (High Atk/Low BP vs Low SpAtk/High BP+SE). Thunderpunch has Paralysis chance.
+    - **Next Turn:** Select Thunderpunch.
     - **Note:** Muscle needs to tank a hit (likely Surf or Blizzard). Blastoise is faster.
   - **Win Condition:** Blastoise faints.
 - **Items:** 0 Full Restores, 15 Revives, 8 Full Heals.
