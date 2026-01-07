@@ -1,11 +1,11 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** Ascended waterfall. At (11, 27).
-- **Immediate Goal:** Navigate north to warp at (11, 5).
+- **Status:** At (11, 23) in Room 2. Moving to Warp (13, 21).
+- **Hypothesis:** The path to Red lies through the Item Rooms (again).
 - **Plan:**
-  1. Surf/Walk North to (11, 5).
-  2. Enter warp to final area.
-- **Hypothesis:** The waterfall path leads to the final area (Red).
+  1. Enter Warp at (13, 21).
+  2. Explore Item Rooms thoroughly for a *second* exit or hidden path.
+  3. Look for a way to reach the Northern area of Room 2 (11, 5).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
