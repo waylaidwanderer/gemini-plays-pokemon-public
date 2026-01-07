@@ -2,10 +2,10 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Outside (18, 11). Cave Entrance.
-- Action: Entering Silver Cave.
+- Current Location: Silver Cave Outside (21, 20). East of Ledge.
+- Action: Jumping ledge and navigating to Cave Entrance (18, 11).
 - Plan:
-    1. Enter the cave.
+    1. Enter Silver Cave.
     2. Use Flash if dark.
     3. Explore for a path that leads back OUT to the NW corner of Silver Cave Outside or Route 28.
     4. Keep an eye out for Larvitar/Pupitar.
