@@ -40,7 +40,7 @@
 
 # Battle Strategies & Observations
 - Night Shade: Deals fixed damage equal to user level. Cannot hit Normal-types.
-- Sleep Powder: Effective for neutralizing threats before switching.
+- Sleep Powder: Effective for neutralizing threats before switching. Note: Encountered "It didn't affect" on wild Graveler (Turn #31726). Investigating cause (potential immunity or item).
 - Type Immunities: Ghost-types (Xenon) immune to Normal/Fighting moves (e.g., Selfdestruct, Quick Attack).
 - Move Mechanics: Selfdestruct is used by Graveler/Geodude; Xenon is immune. Hypnosis/Sleep Powder are effective for safe switches.
 
