@@ -1,17 +1,13 @@
-# Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25986 (Jan 6, 2026)
+# Current Strategy: Resupply and Retry
+- **Timestamp:** Turn 25989 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Execute ThunderPunch.
-- **Battle Plan:**
-    1. **Current State:** Muscle (65/280, Burned). Charizard (~60%).
-    2. **Menu State:** In Move Selection. Cursor on STRENGTH.
-    3. **Action:** Press Down -> Select **THUNDERPUNCH**.
-    4. **Opponent Turn:** Charizard attacks.
-       - High chance Muscle faints (65 HP is critical).
-       - Small chance to survive if Fire Spin or Miss.
-    5. **If Muscle Survives:** ThunderPunch hits (150 BP Special vs 40 BP Physical).
-    6. **If Muscle Faints:** Game Over (White out).
-- **Resources:** Muscle (65/280). 8 Lemonades. No Revives. Last Stand.
+- **Status:** Lost to Red (Turn 25986).
+- **Immediate Goal:** Fly to Indigo Plateau to buy Full Restores and Revives.
+- **Plan:**
+    1. Fly to Indigo Plateau.
+    2. Buy 20 Full Restores, 20 Revives.
+    3. Return to Mt. Silver.
+    4. Rematch Red using aggressive healing.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
