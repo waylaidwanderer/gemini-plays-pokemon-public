@@ -51,7 +51,7 @@
 - Total Failures: 7.
 
 # Decisive Action Phase: Cianwood Consolidation
-- Step 1: Heal at Cianwood PC (Current).
-- Step 2: Give Kimchi Exp. Share.
+- Step 1: Heal at Cianwood PC (Complete).
+- Step 2: Give Kimchi Exp. Share (Current).
 - Step 3: Swap Xenon to lead.
 - Step 4: Fly to Blackthorn City using fly_to_city_v4.
