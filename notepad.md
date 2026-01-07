@@ -2,12 +2,10 @@
 - FLOOR: Traversable. Standard collision-free tile.
 - WALL: Impassable.
 - TALL_GRASS: Traversable. Triggers wild Pokemon encounters.
-- LONG_GRASS: Traversable. Triggers wild Pokemon encounters.
 - LEDGE_HOP_DOWN: One-way traversal (Down only).
 - LEDGE_HOP_LEFT: One-way traversal (Left only).
 - LEDGE_HOP_RIGHT: One-way traversal (Right only).
 - CAVE/DOOR/STAIRS: Map transition warp.
-- FLOOR_UP_WALL: Traversable (functions as FLOOR).
 - WATER: Traversable with HM03 SURF.
 - CUT_TREE: Impassable; removable with HM01 CUT.
 - HEADBUTT_TREE: Impassable; interactive.
@@ -57,3 +55,4 @@
 - Turn #32530: Started training Xenon and Kimchi on Route 45.
 - Turn #32591: Emergency heal at Ecruteak Pokemon Center (Magnitude 9 encounter).
 - Turn #32637: Defeated wild Gligar. Xenon Lv31, Kimchi Lv30.
+- Turn #32641: Encountered wild Geodude (Lv23).
