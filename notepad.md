@@ -37,18 +37,21 @@
 - Lead: GNEISS (Lv47).
 - Participation: Switch to Xenon/Kimchi for shared EXP when safe.
 - Passive: XENON holds EXP.SHARE.
-- Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
+- Logistics: Fly to Blackthorn PC for healing when PP/HP is low. Goal: Lv40 for targets.
+
 ## Route 45 Exploration Status
 - Task started: Turn 32625.
 - Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
 
-# Catch Log
-- Donphan (Wild, Lv 25): Catch attempt started Turn 33363. Strategy: Sleep Powder with KIMCHI.
-- Poké Ball failed (Turn 33371).
-- Great Ball failed (Turns 33372-33378).
-- Donphan woke up (Turn 33379).
-- Sleep Powder success (Turn 33380).
-- Great Ball failed (Turns 33382-33384).
-- Donphan woke up (Turn 33385).
-- Turn 33387: Using Sleep Powder again. Strategy: Keep asleep and throw Great Balls. Goal: Lv40 for Xenon/Kimchi. Priority: Xenon. Exp.Share active.
+# Catch Log: Donphan (Wild, Lv 25)
+- Strategy: Sleep Powder with KIMCHI, then Great Balls.
+- Turn 33363: Encounter.
+- Turn 33371: Poké Ball failed.
+- Turns 33372-33378: Great Ball attempts.
+- Turn 33379: Donphan woke up.
+- Turn 33380: Sleep Powder success.
+- Turns 33382-33384: Great Ball attempts.
+- Turn 33385: Donphan woke up.
+- Turn 33386: Sleep Powder success.
+- Turn 33387: Throwing Great Ball. status: SLP. Great Balls: 32.
