@@ -36,5 +36,5 @@
 2. Return to Blackthorn City for Gym challenge.
 
 ## Training Strategy: Route 45
-- Strategy: Lead with Gneiss (Lv47+) while Xenon gains Exp via Exp. Share.
+- Strategy: Lead with Gneiss (Lv47+). Switch to training targets (Xenon/Kimchi) for participation exp when safe (e.g., against foes they can handle or resist). Current priority: Xenon (Lv34).
 - Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
