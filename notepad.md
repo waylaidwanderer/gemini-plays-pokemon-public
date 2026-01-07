@@ -12,5 +12,6 @@
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Defeat Schoolboy Danny (Jynx Lv 31).
 - **Status:** In Battle. Muscle (Lv 84) vs Jynx (Lv 31).
-- **Plan:** Use Strength or Thunderpunch for OHKO.
+- **Action:** Use Strength (100% Acc, STAB-ish... wait no Machoke is Fighting). Strength is non-STAB but high power.
+- **Reasoning:** Level 84 vs 31. Accuracy > Type Advantage. Avoid missing Cross Chop.
 - **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
