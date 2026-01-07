@@ -45,3 +45,4 @@
 - Strategy: Lead with Gneiss (Lv46) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
 - Turn 33151: Encountered wild Graveler.
 - Turn 33155: Encountered wild Geodude.
+- Turn 33159: Encountered wild Donphan.
