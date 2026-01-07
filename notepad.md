@@ -5,11 +5,7 @@
 - **Plan:**
   1. Surf/Walk North to (11, 5).
   2. Enter warp to final area.
-- **Hypothesis:** This ledge must lead somewhere or contain an item.
-
-# Investigation List
-- **Ledge (x, 4):** Testing if traversable.
-- **Item Rooms (Main):** Likely the lower area (y>4).
+- **Hypothesis:** The waterfall path leads to the final area (Red).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
