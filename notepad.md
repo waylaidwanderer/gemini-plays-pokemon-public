@@ -33,7 +33,8 @@
 - Turn #32399: Encountered wild Phanpy (Lv20). Xenon used Night Shade (PP: 6). Phanpy fled.
 - Turn #32403: Encountered wild Skarmory (Lv27).
   - Xenon used Night Shade (PP: 5). Skarmory used Swift (no effect).
-  - Xenon used Night Shade (PP: 4). Skarmory used Agility. Night Shade PP: 4.
+  - Xenon used Night Shade (PP: 4). Skarmory used Agility.
+  - Xenon used Night Shade (PP: 3). Skarmory fainted. Xenon/Kimchi gained 324 EXP. Night Shade PP: 3.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch #1 defeated. Rematch #2 available (Turn #32311).
