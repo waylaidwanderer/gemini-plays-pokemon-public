@@ -1,15 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25913 (Jan 6, 2026)
+- **Timestamp:** Turn 25914 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Defeat Pikachu.
+- **Immediate Task:** Finish Pikachu.
 - **Battle Plan:**
-    1. **Pikachu (Lv81):** Muscle is at -2 Attack (Charm). Pikachu is faster. Cross Chop (Crit or 2-shot).
-    2. **Espeon (Lv73):** Switch to Kunai (Sneasel) for Shadow Ball (Ghost vs Psychic) or brute force with Muscle.
-    3. **Snorlax (Lv75):** Muscle's Cross Chop (Super Effective).
-    4. **Venusaur (Lv77):** Muscle's Ice Punch (Super Effective).
-    5. **Charizard (Lv77):** Muscle's ThunderPunch (Super Effective).
-    6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch (Super Effective).
-- **Resources:** Full Restores and Revives are key. Muscle is the MVP.
+    1. **Pikachu (Lv81):** Damaged (Yellow HP). Muscle is -2 Atk. Use Cross Chop (High Crit, STAB).
+    2. **Espeon (Lv73):** Switch to Kunai (Sneasel) for Shadow Ball or brute force.
+    3. **Snorlax (Lv75):** Muscle's Cross Chop.
+    4. **Venusaur (Lv77):** Muscle's Ice Punch.
+    5. **Charizard (Lv77):** Muscle's ThunderPunch.
+    6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch.
+- **Resources:** Muscle (Full HP, -2 Atk). Items available.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
