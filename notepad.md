@@ -32,18 +32,17 @@
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 - **Gligar Typing:** Gligar is Ground/Flying. It is immune to Ground moves and neutral to Normal. It does not learn Faint Attack by level-up in this game. (Turn 33361).
 
-# Current Plan
-## Training Strategy: Route 45
-- Lead: GNEISS (Lv47).
-- Participation: Switch to Xenon/Kimchi for shared EXP when safe.
-- Passive: XENON holds EXP.SHARE.
-- Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
-- Goals: Xenon Lv40, Kimchi Lv40.
+# Catch Log: History
+- Donphan (Wild, Lv 25, Female): Caught Turn 33389 (Route 45). Nicknamed "Armor", sent to Box 1. (Strategy: Sleep Powder/Great Ball).
+
+# Training Log: Route 45 (Started Turn 33130)
+- Goal: Xenon & Kimchi to Lv 40.
+- Current Status (Turn 33408): Xenon Lv 35, Kimchi Lv 32.
+- Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
+- Logistics: Fly to Blackthorn PC for healing.
 
 ## Route 45 Exploration Status
-- Task started: Turn 32625.
-- Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
-
-# Catch Log: Completed
-- Donphan (Wild, Lv 25, Female): Caught Turn 33389 using Sleep Powder (KIMCHI) and Great Balls. Nicknamed "Armor", sent to Box 1. Data added to Pokedex.
+- Priority: Check for missed items/trainers while grinding.
+- Verified Trainers: Hiker Erik (10, 16), Hiker Parry (5, 28), Cooltrainer Kelly (5, 34), Hiker Timothy (9, 65), Camper Quentin (4, 70). All marked as defeated.
+- Verified Items: Max Repel (7, 33). Picked up. (Turn 32915).
