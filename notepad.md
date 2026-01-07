@@ -1,12 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (8, 3). Testing ledges 8 and 9.
-- **Observation:** Ledges at 4, 5, 6, 7 are BLOCKED.
+- **Status:** At (9, 3). Testing ledges 10, 11, 12.
+- **Observation:** Ledges at 4-9 are BLOCKED.
 - **Plan:**
-  1. Test Jump at (8, 3).
-  2. If blocked, move Right to (9, 3) and Test Jump.
-  3. If both fail, continue East.
-  4. If all fail, return to Room 2 via warp (13, 3).
+  1. Test Jump at (10, 3).
+  2. Test Jump at (11, 3).
+  3. Test Jump at (12, 3).
+  4. If all fail, move to (13, 3) and exit back to Room 2 to find the Waterfall top path.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
