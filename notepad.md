@@ -1,11 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Explore Upper East Side via Safe Path.
+- **Immediate Task:** Explore North along East Side (Column 19).
 - **Sequence:**
-    1. Surf East to land at (14, 30).
-    2. Navigate to (18, 28) via column 18 (avoiding Warp Carpets at Row 29).
-    3. Shift to column 19 and head North to explore the unseen area past Row 21.
+    1. Move Right to (19, 28).
+    2. Move North through the narrow passage at (19, 27).
+    3. Continue North to explore the unseen area around Row 21.
     4. Look for the warp to the Right Side of the Item Room.
 
 # Recent Discoveries
