@@ -23,10 +23,10 @@
 
 # Progress Tracker
 - Xenon (Lv28): 18741 EXP. Target Lv30: 21760 EXP (~3019 remaining).
-- Kimchi (Lv26): 14391 EXP. Target Lv30: 21760 EXP (~7369 remaining).
-- Gneiss (Lv46): 109/129 HP. Earthquake PP: 8/10.
+- Kimchi (Lv26): 14630 EXP. Target Lv30: 21760 EXP (~7130 remaining).
+- Gneiss (Lv46): 109/129 HP. Earthquake PP: 7/10.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
-- Last Update: Turn #31534 (Tuesday, Jan 6, 2026, 7:32 PM).
+- Last Update: Turn #31537 (Tuesday, Jan 6, 2026, 7:34 PM).
 - Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack/Poison Sting. 
 
 # Battle Strategies & Observations
