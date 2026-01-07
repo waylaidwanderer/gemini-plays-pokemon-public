@@ -15,15 +15,13 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (15, 2) in Room 1 (Entrance).
-- **Discovery:** Room 2 Lower Area (17, 31) exits to Room 1 (15, 1). This confirms the Lower Area was a loop.
-- **Action:** Re-entering Room 2 via Warp (15, 1).
-- **Hypothesis:** Entering Room 1 (15, 1) will warp to Room 2 (11, 5), which is the Central/Northern area.
+  - **Status:** At (17, 31) in Room 2 (Lower Area).
+- **Update:** Warp (15, 1) in Room 1 leads to (17, 31) in Room 2. Loop confirmed.
+- **Objective:** Find path to Upper Area (Warp 11, 5) or East Side (x>24).
 - **Plan:**
-  1. Enter Warp (15, 1).
-  2. Confirm arrival at Room 2 (11, 5).
-  3. Find Red.
-- **Warp Discrepancy (Item Rooms):**
-  - Item Rooms upper ledge was a dead end.
-  - Returned to Room 2 via (13, 21).
-  - The "Central Room" of Room 2 (x=9-13, y=6-20) appears walled off from the South (y=21). Must be accessed via another warp.
+  1. Explore East side of Room 2 Lower (x=17 to 24).
+  2. Check for hidden paths/caves at (22, 24).
+  3. If dead end, re-examine Waterfall Top.
+- **Item Rooms:** Upper Ledge confirmed dead end/entrance only.
+- **Unexplored:** East side of Room 2 Lower (x>17).
+- **Hypothesis:** A path to the East side (x>24) exists, possibly via the column at x=22 or hidden warp.
