@@ -17,7 +17,11 @@
 
 # Tile Mechanics
 - **WATERFALL:** Requires HM Waterfall. Face UP and press A.
-- **Observation:** Verified x=6, 7, 8 at Row 29 are "Currents" (they push the player back to Row 30).
-- **Test:** Testing x=9. If that fails, x=10.
+- **Observation:** Verified x=6, 7, 8, 9 at Row 29 are "Currents" (they push the player back to Row 30).
+- **Test:** Testing x=10.
+- **Hypothesis:** x=11 is known to be the descent point. It is likely the ONLY ascent point.
+- **Plan:**
+  1. Test x=10.
+  2. If x=10 fails, ascend x=11.
+  3. **Crucial:** Once at the top (Row 27), Surf LEFT to reach the western channel. The water at the top connects!
 - **Goal:** Reach Warp (11, 5).
-- **Hypothesis:** One of the remaining waterfall tiles (9 or 10) must be solid/climbable.
