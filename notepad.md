@@ -44,3 +44,10 @@
 - Fly Map: In Crystal, the Up button cycles through visited towns.
 - Battle Mechanics: HP bar animations can occur while move text is displayed, which may look like multi-hit moves. Always verify actual move properties.
 - Input Restrictions: Do NOT mix directional (Up, Down, Left, Right) and action (A, B, Start, Select) buttons in a single manual `press_buttons` call. Use specialized tools like `press_menu_buttons` or `find_path_v2` instead. Verified Turn 32936.
+
+# Current Plan
+- Fly to Blackthorn Center to heal PP/HP.
+- Check PC for TM16 (Icy Wind).
+- Swap Exp. Share to Xenon, Amulet Coin to Kimchi.
+- Lead with Gneiss (Lv46) for safe/fast grinding.
+- Fly to Goldenrod, then Route 35 for Yanma swarm.
