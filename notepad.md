@@ -1,19 +1,16 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25984 (Jan 6, 2026)
+- **Timestamp:** Turn 25986 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** FIGHT -> THUNDERPUNCH.
+- **Immediate Task:** Execute ThunderPunch.
 - **Battle Plan:**
     1. **Current State:** Muscle (65/280, Burned). Charizard (~60%).
-    2. **Analysis:**
-       - Incoming Damage (Flamethrower) ~115 + Burn (35) = 150.
-       - Healing with Lemonade (+80) leaves us at max 145 HP. We still die to Flamethrower.
-       - Healing is a death spiral.
-    3. **The Play:** **ATTACK.**
-       - If Charizard uses a weak move (Fire Spin) or misses, we survive the hit.
-       - Muscle moves second. If we survive the hit (even with 1 HP), we execute the move.
-       - Burn damage happens *end of turn*. We get the hit off.
-       - Move: **ThunderPunch**. (Special 150 BP vs Physical Burned Strength 40 BP).
-    4. **Outcome:** Hope for a kill or massive damage before fainting.
+    2. **Menu State:** In Move Selection. Cursor on STRENGTH.
+    3. **Action:** Press Down -> Select **THUNDERPUNCH**.
+    4. **Opponent Turn:** Charizard attacks.
+       - High chance Muscle faints (65 HP is critical).
+       - Small chance to survive if Fire Spin or Miss.
+    5. **If Muscle Survives:** ThunderPunch hits (150 BP Special vs 40 BP Physical).
+    6. **If Muscle Faints:** Game Over (White out).
 - **Resources:** Muscle (65/280). 8 Lemonades. No Revives. Last Stand.
 
 # Recent Discoveries
