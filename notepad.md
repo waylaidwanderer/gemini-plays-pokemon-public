@@ -37,10 +37,14 @@
   3. If fail, accept this is a one-way exit.
   4. Backtrack to Item Rooms and brute-force the ledges again.
 - **Hypothesis:** This path is the exit from the Western Waterfalls, which must be accessed from above (via the Item Rooms?).
-- **Status:** Surfing at (12, 30). Positioning for Waterfall.
-- **Action:** Executing maneuver (Left -> Down -> Up) to arrive at (11, 30) facing UP.
-- **Goal:** Ascend Waterfall at (11, 29).
+- **Status:** Ascending Waterfall at (11, 29).
+- **Goal:** Reach the Central Area and Warp to Item Rooms (3_77).
 - **Plan:**
-  1. Move to (11, 30) facing Up.
-  2. Press A to use Waterfall.
-  3. Enter Warp (13, 21) -> Item Rooms (3_77).
+  1. Clear text (B).
+  2. Ride waterfall to the top (y=27).
+  3. Navigate to Warp (13, 21).
+  4. Enter Warp to Item Rooms.
+- **Item Rooms Strategy:**
+  - Navigate to the North-East corner (x=17, y=0).
+  - Verify if the "wall" at (16, 2) allows passage via Row 0 or 1.
+  - Explore the Eastern/Southern section if accessible.
