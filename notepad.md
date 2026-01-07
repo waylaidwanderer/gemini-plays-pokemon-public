@@ -15,7 +15,7 @@
     1. Grind Xenon and Kimchi to Lv40 on Route 45.
     2. Ensure Xenon has full PP for Night Shade.
     3. Use Hypnosis/Sleep Powder to manage threats.
-    4. Night Shade bypasses the high special defense of Clair's Dragon-types.
+    4. Night Shade bypasses high special defense of Clair's Dragon-types.
 
 # Training Progress (Route 45)
 - Goal: Lv40 for Xenon and Kimchi.
@@ -28,7 +28,6 @@
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Lessons Learned
-- Mom (New Bark Town): Does NOT heal the party in Crystal.
 - Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude (Ground).
 - Battle Strategy (Route 45): Switch to GNEISS (Graveler) immediately if Magnitude/Ground moves are expected.
 - Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
