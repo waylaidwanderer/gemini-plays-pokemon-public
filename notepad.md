@@ -31,8 +31,8 @@
 - Status: Battling Dana's Flaaffy (Lv18) (Turn #32241).
 - Next: Win the battle and talk to Dana.
 
-# Significant Party Status (Turn #32241)
-- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
+# Significant Party Status (Turn #32242)
+- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 14/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
