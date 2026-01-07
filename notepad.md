@@ -43,4 +43,4 @@
 # Training Log: Route 45
 - Started Turn 33130.
 - Strategy: Lead with Gneiss (Lv46+) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
-- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv33 (Turn 33119).
+- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv34 (Turn 33203).
