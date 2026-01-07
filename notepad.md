@@ -46,14 +46,15 @@
 - Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
 
-# Progress Tracking
-- Cianwood Consolidation: Started Turn #31883.
-- Turn #31951: Swapping Xenon to lead. Icarus is currently leading.
-
 # Strategy: Cianwood Consolidation
 - Step 1: Swap Xenon to lead (Complete).
-- Step 2: Give Kimchi Exp. Share (In Progress).
+- Step 2: Give Kimchi Exp. Share (Manual confirmation Turn #31962).
 - Step 3: Fly to Blackthorn City.
+
+# Progress Tracking
+- Cianwood Consolidation: Started Turn #31883.
+- Turn #31960: Xenon successfully swapped to lead.
+- Turn #31961: Located Exp. Share on Icarus; switching it to Kimchi.
 
 # Start Menu (8 options) - WRAPS
 1. POKEDEX
