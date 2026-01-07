@@ -1,12 +1,11 @@
 # Current Strategy: Post-Game
 - **Timestamp:** Turn 25861 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Attempt to land at (4, 24) or explore Waterfall crest.
+- **Immediate Task:** Check Waterfall Crest then Explore East Side.
 - **Sequence:**
-    1. Surf Left to (4, 23).
-    2. Attempt to Move Down onto (4, 24).
-    3. If unsuccessful, Surf South to check the Waterfall crest at Row 27.
-    4. If no exits, return to (11, 25).
+    1. Surf to (6, 27) to inspect the area above the waterfall.
+    2. If no access to the West landmass, return to (13, 21).
+    3. Explore the East side of Silver Cave Room 2 for another cave entrance (to the Right Side of the Item Room).
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
