@@ -114,40 +114,6 @@
       }
     ]
   },
-  "get_type_effectiveness": {
-    "description": "Returns the type effectiveness multiplier for an attacking type against one or more defending types.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "attack_type": {
-          "type": "string"
-        },
-        "defender_types": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "attack_type",
-        "defender_types"
-      ]
-    },
-    "python_script": "import json\n\ndef solve():\n    type_chart = {\n        \"Normal\": {\"Rock\": 0.5, \"Ghost\": 0, \"Steel\": 0.5},\n        \"Fire\": {\"Fire\": 0.5, \"Water\": 0.5, \"Grass\": 2, \"Ice\": 2, \"Bug\": 2, \"Rock\": 0.5, \"Dragon\": 0.5, \"Steel\": 2},\n        \"Water\": {\"Fire\": 2, \"Water\": 0.5, \"Grass\": 0.5, \"Ground\": 2, \"Rock\": 2, \"Dragon\": 0.5},\n        \"Electric\": {\"Water\": 2, \"Electric\": 0.5, \"Grass\": 0.5, \"Ground\": 0, \"Flying\": 2, \"Dragon\": 0.5},\n        \"Grass\": {\"Fire\": 0.5, \"Water\": 2, \"Grass\": 0.5, \"Poison\": 0.5, \"Ground\": 2, \"Flying\": 0.5, \"Bug\": 0.5, \"Rock\": 2, \"Dragon\": 0.5, \"Steel\": 0.5},\n        \"Ice\": {\"Fire\": 0.5, \"Water\": 0.5, \"Grass\": 2, \"Ice\": 0.5, \"Ground\": 2, \"Flying\": 2, \"Dragon\": 2, \"Steel\": 0.5},\n        \"Fighting\": {\"Normal\": 2, \"Ice\": 2, \"Poison\": 0.5, \"Flying\": 0.5, \"Psychic\": 0.5, \"Bug\": 0.5, \"Rock\": 2, \"Ghost\": 0, \"Dark\": 2, \"Steel\": 2},\n        \"Poison\": {\"Grass\": 2, \"Poison\": 0.5, \"Ground\": 0.5, \"Bug\": 0.5, \"Rock\": 0.5, \"Ghost\": 0.5, \"Steel\": 0},\n        \"Ground\": {\"Fire\": 2, \"Electric\": 2, \"Grass\": 0.5, \"Poison\": 2, \"Flying\": 0, \"Bug\": 0.5, \"Rock\": 2, \"Steel\": 2},\n        \"Flying\": {\"Electric\": 0.5, \"Grass\": 2, \"Fighting\": 2, \"Bug\": 2, \"Rock\": 0.5, \"Steel\": 0.5},\n        \"Psychic\": {\"Fighting\": 2, \"Poison\": 2, \"Psychic\": 0.5, \"Dark\": 0, \"Steel\": 0.5},\n        \"Bug\": {\"Fire\": 0.5, \"Grass\": 2, \"Fighting\": 0.5, \"Poison\": 0.5, \"Flying\": 0.5, \"Psychic\": 2, \"Ghost\": 0.5, \"Dark\": 2, \"Steel\": 0.5},\n        \"Rock\": {\"Fire\": 2, \"Ice\": 2, \"Fighting\": 0.5, \"Ground\": 0.5, \"Flying\": 2, \"Bug\": 2, \"Steel\": 0.5},\n        \"Ghost\": {\"Normal\": 0, \"Psychic\": 2, \"Ghost\": 2, \"Dark\": 0.5, \"Steel\": 0.5},\n        \"Dragon\": {\"Dragon\": 2, \"Steel\": 0.5},\n        \"Dark\": {\"Fighting\": 0.5, \"Psychic\": 2, \"Ghost\": 2, \"Dark\": 0.5, \"Steel\": 0.5},\n        \"Steel\": {\"Fire\": 0.5, \"Water\": 0.5, \"Electric\": 0.5, \"Ice\": 2, \"Rock\": 2, \"Steel\": 0.5}\n    }\n    \n    attack_type = input_data['attack_type']\n    defender_types = input_data['defender_types']\n    \n    multiplier = 1.0\n    for def_type in defender_types:\n        multiplier *= type_chart.get(attack_type, {}).get(def_type, 1.0)\n        \n    print(multiplier)\n\nsolve()\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-29T09:15:53.174Z",
-        "action_counter": 30566
-      },
-      {
-        "commit_message": "Initial definition with Gen 2 types.",
-        "timestamp": "2026-01-06T20:56:57.722Z",
-        "action_counter": 30778
-      }
-    ]
-  },
   "press_menu_buttons": {
     "description": "Presses a sequence of buttons to navigate menus, bypassing the directional/action mixing restriction. Use for menu navigation ONLY. Returns the sequence of buttons as a JSON array.",
     "input_schema": {
@@ -255,6 +221,18 @@
         "commit_message": "Fixed typo in button sequence and ensured it starts from the overworld by navigating to PACK from the Start menu.",
         "timestamp": "2026-01-06T22:18:45.349Z",
         "action_counter": 30915
+      }
+    ]
+  },
+  "grind_encounters": {
+    "description": "Returns a sequence of buttons (Right, Left) to pace back and forth in tall grass to trigger encounters.",
+    "input_schema": {},
+    "python_script": "import json\ndef main():\n    # Returns 20 buttons alternating Right and Left\n    # Assumes starting position allows moving Right.\n    print(json.dumps(['Right', 'Left'] * 10))\n\nif __name__ == '__main__':\n    main()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T00:49:21.790Z",
+        "action_counter": 31232
       }
     ]
   }
