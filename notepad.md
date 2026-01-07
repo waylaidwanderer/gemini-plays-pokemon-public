@@ -1,14 +1,14 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** At (6, 9) in Western Corridor.
-- **Action:** Testing Ledge at (6, 8).
+- **Status:** At (6, 8) in Western Corridor.
+- **Correction:** Successfully walked UP to (6, 8). This tile is NOT a blocking ledge from below.
+- **Discovery:** North of (6, 8) is WATER at (6, 7), leading to Waterfalls at Row 5.
+- **Action:** Surfing North to ascend the Western Waterfalls.
+- **Hypothesis:** These waterfalls lead to the upper area connecting to the unreachable Warp at (11, 5) or the Southern Item Rooms.
 - **Plan:**
-  1. Try to move North. Expect blockage (One-way ledge).
-  2. If blocked, backtrack to the Central Water area (14, 30).
-  3. Surf to Waterfall (11, 30) and Ascend.
-  4. Enter Warp (13, 21) to Item Rooms (3_77).
-  5. **CRITICAL:** Exhaustively test ALL ledges in Item Rooms (Row 4, x=4 to 15). I must have missed the valid jump spot.
-- **Hypothesis:** The Western Corridor is the exit from the Northern section, not the entrance. The entrance is through the Item Rooms.
+  1. Surf North from (6, 8).
+  2. Ascend Waterfall at (6, 5).
+  3. Explore the area at the top.
 
 # Key Findings
 - **Item Rooms (3_77):**
