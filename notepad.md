@@ -1,22 +1,19 @@
 # Current Strategy: Return to Room 2 via Warp
 - **Location:** Silver Cave Item Rooms (3_77)
 - **Status:** Trying to trigger Warp at (13, 3).
-- **Issue:** Warp didn't trigger on previous attempt.
-- **Hypothesis:** Need to bump the wall (Down) or re-enter the tile to trigger.
+- **Issue:** Previous move (Left) was blocked despite tile being FLOOR. Warp not triggering.
+- **Hypothesis:** Must step OFF (Up) and back ON (Down) to trigger warp.
 - **Plan:**
-  1. Move Left off the warp.
-  2. Move Right onto the warp.
-  3. Press Down repeatedly to trigger.
-  4. Once in Room 2, head to Western Waterfalls.
+  1. Move Up to (13, 2).
+  2. Move Down to (13, 3) to trigger warp.
+  3. If stuck, use Escape Rope/Dig as last resort (noted from historical logs).
 
 # Key Findings
 - **Item Rooms (3_77):**
-  - **North Area:** Dead end / Exit loop.
-  - **Ledges (Row 4):** Confirmed IMPASSABLE from North. Must be jumpable from South.
-  - **Warp (13, 3):** Exit to Room 2. Requires careful triggering.
+  - **North Area:** Trap/Exit loop.
+  - **Warp (13, 3):** Only way out (besides Escape Rope).
 - **Silver Cave Room 2 (3_75):**
   - **Goal:** Reach Warp (11, 5) via Western Waterfalls.
 
 # Tile Mechanics
-- **WARP_CARPET_DOWN:** Should trigger on entering or stepping Down.
-- **FLOOR_UP_WALL:** Acts as a wall from North. Likely a Ledge.
+- **WARP_CARPET_DOWN:** Triggers on stepping ONTO it (usually from above).
