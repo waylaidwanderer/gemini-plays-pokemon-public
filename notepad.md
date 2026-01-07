@@ -26,22 +26,15 @@
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC.
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
-# Strategy: Current Status
-- Goal: Collect gift from Lass Dana on Route 38.
-- Status: Defeated Dana in rematch. Talked again, she said she'll share something "next time".
-- Conclusion: No gift available right now.
-- Next: Fly to Goldenrod City and head to Route 35 for rematch with Arnie (Bug Catcher).
-
-# Significant Party Status (Turn #32249)
-- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 11/15.
-- 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
-- 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
-- 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
-- 5. GNEISS (Graveler): Lv46. HP 129/129.
-- 6. Calcifer (Typhlosion): Lv48. HP 152/152.
+# Significant Party Status
+- XENON (Haunter): Lv30. HP 77/77. Night Shade: 11/15.
+- ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
+- KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
+- Ravioli (Krabby): Lv10. HP 27/27. Surf user.
+- GNEISS (Graveler): Lv46. HP 129/129.
+- Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Pending Rematches / Gifts
-- Dana (Lass): Route 38. Battle/Gift offered (Turn #32125).
 - Arnie (Bug Catcher): Route 35. Battle offered (Turn #32082).
 - Alan (Schoolboy): Route 36. Rematch potential.
 - Chad (Schoolboy): Route 38. Rematch potential.
