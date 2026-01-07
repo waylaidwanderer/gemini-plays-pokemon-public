@@ -1,14 +1,14 @@
 # Tile Mechanics
-- FLOOR: Traversable. Standard ground.
+- FLOOR: Traversable.
 - WALL: Impassable.
-- TALL/LONG GRASS: Traversable. Wild encounter trigger.
-- LEDGE_HOP: One-way traversal (down/left/right).
+- TALL/LONG GRASS: Traversable (Wild encounters).
+- LEDGE_HOP: One-way traversal.
 - CAVE/DOOR/STAIRS/LADDER: Map transitions.
-- WATER: Traversable with HM03 SURF.
-- CUT_TREE: Impassable; removable with HM01 CUT.
+- WATER: Traversable (Surf).
+- CUT_TREE: Impassable (Cut).
 - HEADBUTT_TREE: Impassable; interactive.
-- BOULDER: Impassable; pushable with HM04 STRENGTH.
-- COUNTER: Stand adjacent to interact with NPC behind.
+- BOULDER: Impassable (Strength).
+- COUNTER: Stand adjacent to interact.
 - PC: Stand below and face up to interact.
 
 # Strategy: Johto League Training
