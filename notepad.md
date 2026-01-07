@@ -48,3 +48,5 @@
   2. Surf West to the left channel (Cols 4-7).
   3. Land at (5, 21) and explore the warp there.
 - **Hypothesis:** The Left Landing leads to the main section of Item Rooms (Max Revive + Exit).
+- West Landing Analysis: The landing at (4-5, 20-21) appears to be a dead end.
+- Action: Testing wall at (3, 20) for hidden passage. If failed, returning to Central Landing (11, 25) to explore North path to Room 3 and look for other branches.
