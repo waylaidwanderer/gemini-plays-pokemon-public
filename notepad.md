@@ -35,8 +35,8 @@
 
 # Fly Map Navigation
 - The Fly menu appears to be a linear cycle, not a 2D grid.
-- Order discovered (pressing Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine.
-- Observation (Turn #32354): Up from Ecruteak moved cursor to Olivine City.
+- Order discovered (pressing Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood.
+- Observation (Turn #32356): Up from Olivine moved cursor to Cianwood City.
 
 # Current Plan: Route 45 Training
 1. Discover full Fly map cycle by pressing Up.
