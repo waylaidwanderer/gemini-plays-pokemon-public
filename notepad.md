@@ -1,16 +1,15 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25967 (Jan 6, 2026)
+- **Timestamp:** Turn 25968 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Sacrifice Gyarados (Select Waterfall).
+- **Immediate Task:** Send out Muscle.
 - **Battle Plan:**
-    1. **Current State:** Gyarados (7 HP).
-    2. **Action:** Select FIGHT -> WATERFALL (Physical, stronger than Surf).
-    3. **Opponent Turn:** Charizard attacks (likely KO).
-    4. **Aftermath:** Gyarados faints.
-    5. **The Comeback:** Send out Muscle (Full HP).
-       - Muscle vs Charizard (Part 2).
-       - Use Strength.
-- **Resources:** Muscle (280/280). Gyarados (7/117). 0 Max Revive. 2 Hyper Potions.
+    1. **Current State:** Gyarados fainted. Muscle revived (280/280).
+    2. **Action:** Select Muscle (Slot 1).
+    3. **Next Turn:** Muscle vs Charizard.
+       - Charizard attacks (Flamethrower/Wing Attack). Muscle tanks.
+       - Muscle uses Strength (Physical > Special ThunderPunch).
+    4. **Sweeping:** Snorlax, Venusaur, Blastoise remaining.
+- **Resources:** Muscle (280/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
