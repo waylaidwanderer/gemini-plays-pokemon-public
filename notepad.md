@@ -55,9 +55,6 @@
 
 # Training Session Log
 - Turn #32530: Started grinding Xenon and Kimchi on Route 45.
-- Status: Xenon reached Lv31. Night Shade PP is low (3/15).
-- Post-Battle Plan: Head to Blackthorn City Pokemon Center to heal and restore PP.
-- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves in this generation.
-- Strategy Update: Haunter (Xenon) is extremely vulnerable to Magnitude. If a wild Geodude or Graveler is encountered while Xenon is weakened, switch to Gneiss (Graveler) immediately to tank the hit.
-- Training Status: Xenon reached Lv31. Night Shade PP is 1/15. HP is 4/79.
-- Decision: Using FLY to return to Blackthorn City for healing.
+- Status: Xenon reached Lv31. Night Shade PP is 1/15. HP is 4/79.
+- Battle Observation: Magnitude 9 from a Lv23 Geodude dealt 75 damage to Lv31 Haunter (super-effective). Haunter is extremely fragile against Ground moves in this generation. Haunter is extremely vulnerable to Magnitude. If a wild Geodude or Graveler is encountered while Xenon is weakened, switch to Gneiss (Graveler) immediately to tank the hit.
+- Decision: Used FLY to New Bark Town for healing. Status: Heading back to Route 45 after healing.
