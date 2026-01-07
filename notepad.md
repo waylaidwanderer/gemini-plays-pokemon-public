@@ -2,7 +2,7 @@
 - **Start Turn:** 26813 (Jan 7, 2026)
 - **Location:** Silver Cave Room 3 (3_76)
 - **Status:** In Battle with Red.
-- **Active Matchup:** Muscle (Lv 84, 203/283 HP, PAR) vs Snorlax (Lv 77, Full HP).
+- **Active Matchup:** Muscle (Lv 84, 203/283 HP, PAR) vs Snorlax (Lv 75, Full HP).
 - **Goal:** Defeat Red.
 - **Battle Plan:**
   - **TACTIC: RESET & SMASH.**
