@@ -45,12 +45,6 @@
 - Goal: Xenon & Kimchi to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
-- Current Status: Training. Kimchi healed. Returning to Route 45. (Turn 33539).
-- Party Status (Turn 33539):
-  - Gneiss: Lv 47 (102512 EXP)
-  - Kimchi: Lv 32 (28259 EXP)
-  - Xenon: Lv 35 (38844 EXP)
-  - Calcifer: Lv 48 (109535 EXP)
 
 ## Route 45 Exploration Status
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
