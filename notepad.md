@@ -33,3 +33,7 @@
 - Hypothesis: One of these ledges MUST be jumpable. Testing west to east.
 - Ledge Test: Moving to (5, 3) to test (5, 4).
 - Contingency: If all ledges fail, verify Escape Rope/Dig availability.
+- Ledge Test: (4, 4) blocked.
+- Action: Moving to (5, 3) to test ledge at (5, 4).
+- Remaining Candidates: 5, 7, 8, 9, 10, 11, 15.
+- Observation: (3, 3) is a Wall, preventing access to the far left. (16, 3) is a Wall, preventing access to the far right (except via row 4).
