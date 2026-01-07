@@ -1,27 +1,28 @@
 # Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- TALL/LONG GRASS: Traversable (Wild encounters).
+- TALL/LONG GRASS: Traversable.
 - LEDGE_HOP: One-way traversal.
 - CAVE/DOOR/STAIRS/LADDER: Map transitions.
 - WATER: Traversable (Surf).
 - CUT_TREE: Impassable (Cut).
-- HEADBUTT_TREE: Impassable; interactive.
+- HEADBUTT_TREE: Impassable obstacle; can be interacted with using Headbutt.
 - BOULDER: Impassable (Strength).
 - COUNTER/PC: Stand adjacent/below to interact.
+- BUOY: Impassable; water boundary.
 
 # Strategy: Johto League Training
 - Started: Turn #32266.
 - Goal: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
-- Training Location: Route 45 (high level Rock/Ground/Flying).
+- Training Location: Route 45.
 
 # Strategy: Rising Badge (Gym Leader Clair)
-- Lead: Xenon (Lv40+). Use Night Shade for fixed damage.
-- Support: Kimchi (Lv40+). Use Sleep Powder for CC.
+- Lead: Xenon (Lv40+).
+- Support: Kimchi (Lv40+).
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
+- XENON (Haunter): Lv30. HP 77/77.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
@@ -32,17 +33,13 @@
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
-# Fly Map Navigation
+# Fly Map Navigation (Hypothesis)
 - The Fly menu is a 2D map.
-- Violet City -> (Right x3, Up x1) -> Blackthorn City.
-- New Bark Town -> (Up x2) -> Blackthorn City.
+- Cursor likely starts on current city (Violet).
+- Violet -> Blackthorn: Right x? Up x?
 
 # Current Plan: Route 45 Training
-1. Fly to Blackthorn City.
-2. Exit south to Route 45.
-3. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
-
-# Error Analysis & Lessons
-- Fly menu is a 2D map, not a list. Treat it spatially.
-- NPCs calling can interrupt menu navigation. Re-verify position after calls.
-- Mixing directional and action buttons in `press_buttons` fails; use `press_menu_buttons`.
+1. Back out of menus to overworld.
+2. Fly to Blackthorn City manually.
+3. Exit south to Route 45.
+4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
