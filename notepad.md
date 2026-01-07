@@ -22,7 +22,7 @@
 - Support: Kimchi (Lv40+).
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 76/77. Night Shade: 14/15.
+- XENON (Haunter): Lv30. HP 76/77. Night Shade: 13/15.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - GNEISS (Graveler): Lv46. HP 129/129.
@@ -32,9 +32,6 @@
 - Arnie (Bug Catcher): Route 35. Second rematch available (Turn #32321).
 - Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
-
-# Fly Map Navigation
-- The Fly menu is a 2D grid where the cursor snaps to valid city locations.
 
 # Current Plan: Route 45 Training
 1. Grinding in tall grass.
