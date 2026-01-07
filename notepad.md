@@ -24,7 +24,7 @@
 - New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Blackthorn.
 
 # Strategy: Johto League Training
-- Method: Exp. Share on Kimchi, lead with Xenon.
+- Method: Exp. Share on Kimchi, lead with Xenon (holding Amulet Coin).
 - Spot: Route 45 grass (4, 12).
 - Resource Management: Fly to Blackthorn PC to heal.
 - Hazards: Watch for Ground moves on Route 45.
@@ -39,14 +39,17 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Party Item Audit
-- Xenon: Lv29. Empty (Hyper Potion removed).
-- Icarus: Lv16. Empty (Potion removed).
-- Audit Step: Checking Calcifer (Slot 6). Found Amulet Coin on Gneiss.
+# Party Item Audit (Turn #32071)
+- Xenon: Empty (Hyper Potion removed).
+- Icarus: Empty (Potion removed).
+- Kimchi: Exp. Share.
+- Ravioli: Empty (Bitter Berry removed).
+- Gneiss: Empty (Amulet Coin removed).
+- Calcifer: Audit in progress.
 
 # Party Menu Mapping
-- Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 3 to ITEM)
-- Slot 2 (ICARUS): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL (Offset 4 to ITEM)
+- Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL
+- Slot 2 (ICARUS): FLY, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 4 (Ravioli): SURF, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 5 (GNEISS): STRENGTH, STATS, SWITCH, MOVE, ITEM, CANCEL
