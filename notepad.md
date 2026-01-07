@@ -2,14 +2,14 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Victory Road Gate (1, 7).
-- **Action:** Attempting to trigger exit warp.
-- **Testing:**
-    1. Down (into potential door trigger).
-    2. Left, Left (walking off map edge).
-- **Hypothesis:** One of these directions triggers the exit to Route 28.
-- **Goal:** Reach the NW House on Route 28.
-- **Route 28 Layout:** East side (33,5) connects to this gate. If I exit here, I might return to (33,5). I need to check if there is a path WEST from (33,5) to the rest of the route.
+- **Current Location:** Route 28 (33, 6). East Enclave.
+- **Fact:** The Gatehouse connects Route 28 (West) to Route 22 (East). It does NOT bridge two parts of Route 28.
+- **Conclusion:** The path to the NW House must be found on Route 28 itself, likely via the pond.
+- **Plan:**
+    1. Go South through gap at (30, 9).
+    2. Go West through gap at (28, 11) to the water.
+    3. Surf West and land on the North bank (Row 8).
+    4. Explore North/West to find the path to (0, 3).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
