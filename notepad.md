@@ -11,6 +11,6 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Traversing Route 1. Stuck at (3, 12).
-- **Obstacle:** Path South at (3, 13) seems blocked (possible wall or ledge mechanics issue). NPC Youngster blocks East at (4, 12).
-- **Plan:** Detour West through the tall grass to bypass the obstacle.
+- **Status:** Traversing Route 1. At (2, 12).
+- **Action:** Manual navigation South. Jumping ledges to bypass the Youngster and reach Pallet Town.
+- **Observation:** Visuals confirm ledge at (2, 13). Mental map marked it 'unseen', causing pathfinding issues. Manual override initiated.
