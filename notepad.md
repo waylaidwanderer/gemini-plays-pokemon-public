@@ -29,9 +29,9 @@
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC, especially against Kingdra.
 - Backup: Calcifer (Typhlosion) for raw power. Gneiss for physical walling.
 
-# Significant Party Status (Turn #32166)
-- XENON (Haunter): Lv30. HP 33/77. Night Shade: 4/15.
-- KIMCHI (Gloom): Lv29. HP 77/77.
+# Significant Party Status (Turn #32167)
+- XENON (Haunter): Lv30. HP 33/77. Night Shade: 4/15. (Leveled up Turn #32164)
+- KIMCHI (Gloom): Lv29. HP 77/77. (Leveled up Turn #32164)
 
 # Menu Mechanics
 - Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
