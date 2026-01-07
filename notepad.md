@@ -12,8 +12,8 @@
 - Resource Limit: Return to Blackthorn City to heal when Gneiss is at 0 Earthquake PP.
 
 # Progress Tracker
-- Xenon (Lv28): 17426 EXP. Target Lv30: 21760 EXP (~4334 remaining).
-- Kimchi (Lv25): 12055 EXP. Target Lv30: 21760 EXP (~9705 remaining).
+- Xenon (Lv28): 17567 EXP. Target Lv30: 21760 EXP (~4193 remaining).
+- Kimchi (Lv25): 12196 EXP. Target Lv30: 21760 EXP (~9564 remaining).
 - Gneiss (Lv46): 106/129 HP. Earthquake PP: 6/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
