@@ -5,10 +5,6 @@
 - LEDGE_HOP_DOWN: One-way south.
 - FLOOR_UP_WALL: Impassable ledge bottom.
 
-# Hypothesized Tile Mechanics
-- WATER: Requires SURF to cross.
-- WHIRLPOOL: Requires WHIRLPOOL to clear.
-
 # Strategy: Johto League Training
 - Efficiency: Lead with trainee (Kimchi Lv24), switch to Calcifer (Lv48) or Gneiss (Lv46) if outmatched. Xenon (Lv28) is backup.
 - Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
@@ -17,9 +13,9 @@
 
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: 21760 EXP (~4334 remaining).
-- Kimchi (Lv24): 11535 EXP. Target Lv30: 21760 EXP (~10225 remaining).
+- Kimchi (Lv24): 11720 EXP. Target Lv30: 21760 EXP (~10040 remaining).
 - Gneiss (Lv46): 111/129 HP. Earthquake PP: 8/10.
-- Calcifer (Lv48): 150/152 HP. Flame Wheel PP: 22/25.
+- Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060.
 - Encounter Log: Donphan (Lv25), Graveler (Lv23), Gligar (Lv24) observed at (4,12)-(5,12). Gligar is immune to Electric and uses Poison Sting.
 
