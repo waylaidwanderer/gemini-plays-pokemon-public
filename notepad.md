@@ -11,7 +11,6 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Phone call with Wade ended. Clearing interface.
-- **Action:** Press B to close Pokegear/Text, then Down to jump ledge at (5, 13).
-- **Path:** South through Route 1 to (9, 35).
+- **Status:** Traversing Route 1. At (5, 16).
+- **Navigation:** South to (5, 19) (Ledge) -> East at (5, 20) to avoid wall -> South to Pallet Town (9, 35).
 - **Next Stop:** Pallet Town.
