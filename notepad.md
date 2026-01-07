@@ -1,15 +1,13 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25971 (Jan 6, 2026)
+- **Timestamp:** Turn 25972 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
 - **Immediate Task:** Attack with Strength.
 - **Battle Plan:**
-    1. **Current State:** Muscle (243/280) vs Charizard (~65% HP).
-    2. **Last Turn:** Charizard used Fire Spin (Low Dmg + Trap). Muscle used Strength.
-    3. **Action:** Select FIGHT -> STRENGTH.
-    4. **Opponent Turn:** Charizard attacks.
-       - If Fire Spin continues: Low damage.
-       - If Flamethrower/Wing Attack: ~120 dmg.
-    5. **Next:** Check HP. If > 120, Attack. If < 120, Heal.
+    1. **Current State:** Muscle (243/280, Trapped) vs Charizard (~65% HP).
+    2. **Last Turn:** Charizard used Fire Spin. Muscle used Strength.
+    3. **Action:** Press A (Select STRENGTH).
+    4. **Opponent Turn:** Charizard attacks (Fire Spin continues or new move).
+    5. **Next:** Check HP. Keep attacking with Strength.
 - **Resources:** Muscle (243/280). 0 Max Revive. 2 Hyper Potions. All other mons fainted.
 
 # Recent Discoveries
