@@ -9,13 +9,13 @@
     - I entered Route 28 at (0, 13).
     - To reach the *Northwest* corner of the previous map, I need to exit Route 28 further North on the West edge.
     - Tile (0, 3) on Route 28 is a walkable `FLOOR` tile on the West edge, aligning with this goal.
-- **Current Location:** Route 28 (31, 6).
-- **Action:** Entering the Gatehouse at (33, 5).
-- **Hypothesis:** The Gatehouse acts as a bridge. Entering from the East side might allow exiting to the West side.
+- **Current Location:** Victory Road Gate (1, 7).
+- **Observation:** This hub connects Route 28 (West), Route 22 (East), Route 26 (South), Victory Road (North).
+- **Insight:** The path to the NW House on Route 28 is likely West from the Sign at (31, 6), following the upper edge (Row 6).
 - **Plan:**
-    1. Enter Gatehouse.
-    2. Look for an exit to the West (left side of the room).
-    3. If successful, find the path to the House at (7, 3).
+    1. Exit back to Route 28 (Step Up, then Down).
+    2. From the Sign (31, 6), travel West along the upper path.
+    3. Reach the NW corner and the House at (7, 3).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
