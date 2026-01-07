@@ -1,9 +1,1 @@
-{
-  "menu_navigator": {
-    "agent_name": "menu_navigator",
-    "agent_description": "Helps with navigating complex menus like the Bag or Party menu.",
-    "agent_system_prompt": "You are an expert at navigating the menus of Pokemon Crystal. Given the current menu state, the target option, and the current cursor position, you will provide the exact sequence of button presses required to reach the target. You understand menu wrapping and the layout of the Start menu, Party menu, and Bag pockets.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"target_menu\":{\"type\":\"string\"},\"target_option\":{\"type\":\"string\"},\"current_cursor_position\":{\"type\":\"string\"}},\"required\":[\"target_menu\",\"target_option\",\"current_cursor_position\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"button_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"explanation\":{\"type\":\"string\"}}}"
-  }
-}
+{}
