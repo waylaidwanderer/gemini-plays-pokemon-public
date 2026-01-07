@@ -7,6 +7,6 @@
 
 # Current Strategy: Post-Game
 - **Goal:** Check for credits, then continue completing the Pokedex.
-- **Location:** Route 28 (Map 19_1).
+- **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Pallet Town (Professor Oak).
