@@ -21,8 +21,7 @@
 
 # Training Progress (Route 45)
 - Goal: Lv40 for Xenon and Kimchi.
-- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
-- Efficiency: Fly to Blackthorn and heal when Night Shade PP < 2.
+- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. Night Shade PP management: Fly to Blackthorn to heal.
 
 # Pending Rematches / Gifts
 - Arnie (Bug Catcher): Route 35. Rematch potential.
@@ -30,7 +29,7 @@
 - Chad (Schoolboy): Route 38. Rematch potential.
 
 # Lessons Learned
-- Haunter Mechanics: Grounded in Gen 2 (no Levitate); extremely weak to Magnitude (Ground).
-- Battle Strategy (Route 45): Switch to GNEISS (Graveler) immediately if Magnitude/Ground moves are expected.
-- Fly Map: 2D snapping grid. Move cursor carefully; verify destination text before pressing A.
-- Menu Navigation: Use `press_menu_buttons`. Check cursor position before batching A presses.
+- Haunter Mechanics: Grounded in Gen 2; weak to Magnitude.
+- Battle Strategy: Switch to GNEISS if Ground moves expected. Use battle_advisor for optimal moves.
+- Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. Check text after every press.
+- Menu Navigation: Use press_menu_buttons to avoid mixing inputs.
