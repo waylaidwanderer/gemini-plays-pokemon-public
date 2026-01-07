@@ -12,5 +12,19 @@
     "agent_system_prompt": "You are a menu navigation expert for Pokemon Crystal. Given the current screen description and the target action, provide the exact sequence of buttons (Up, Down, Left, Right, A, B, Select, Start) to reach the goal. Use wrapping for efficiency (e.g., Up from top to reach bottom).",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_screen\":{\"type\":\"string\"},\"target_action\":{\"type\":\"string\"}},\"required\":[\"current_screen\",\"target_action\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"buttons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"buttons\",\"explanation\"]}"
+  },
+  "battle_advisor_v2_new": {
+    "agent_name": "battle_advisor_v2_new",
+    "agent_description": "Provides optimal battle strategy based on the current game state, focusing on efficiency and goal alignment.",
+    "agent_system_prompt": "You are a Pokemon battle expert. Analyze the provided battle context, opponent info, and party info. Suggest the most efficient action (FIGHT, PKMN, PACK, RUN) and specific move or switch target. Consider type matchups, level differences, and PP conservation. Prioritize OHKOs and safety of the party.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"battle_context\":{\"type\":\"string\"},\"opponent_info\":{\"type\":\"string\"},\"party_info\":{\"type\":\"string\"},\"strategy_goal\":{\"type\":\"string\"}},\"required\":[\"battle_context\",\"opponent_info\",\"party_info\",\"strategy_goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"action\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\"]},\"move_name\":{\"type\":\"string\",\"nullable\":true},\"switch_target\":{\"type\":\"string\",\"nullable\":true},\"justification\":{\"type\":\"string\"}},\"required\":[\"action\",\"move_name\",\"switch_target\",\"justification\"]}"
+  },
+  "menu_advisor_v2_new": {
+    "agent_name": "menu_advisor_v2_new",
+    "agent_description": "Calculates the shortest sequence of button presses to navigate menus.",
+    "agent_system_prompt": "You are a menu navigation expert for Pokemon Crystal. Given the current screen description and the target action, provide the exact sequence of buttons (Up, Down, Left, Right, A, B, Select, Start) to reach the goal. Use wrapping for efficiency (e.g., Up from top to reach bottom).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_screen\":{\"type\":\"string\"},\"target_action\":{\"type\":\"string\"}},\"required\":[\"current_screen\",\"target_action\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"buttons\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"explanation\":{\"type\":\"string\"}},\"required\":[\"buttons\",\"explanation\"]}"
   }
 }
