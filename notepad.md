@@ -56,4 +56,5 @@
 - Turn #32591: Emergency heal at Ecruteak Pokemon Center (Magnitude 9 encounter).
 - Turn #32637: Defeated wild Gligar. Xenon Lv31, Kimchi Lv30.
 - Turn #32641: Defeated wild Geodude (Lv23). Xenon took Magnitude 8.
-- Turn #32651: Encountered wild Donphan (Lv25).
+- Turn #32651: Encountered wild Donphan (Lv25). Defeated at turn #32661. Xenon Lv31, Kimchi Lv30.
+- Turn #32662: Continuing training on Route 45.
