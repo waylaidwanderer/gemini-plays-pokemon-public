@@ -4,11 +4,11 @@
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34.
 - **Results:**
-    - x=31: Failed (Fake).
-    - x=32: Failed (Fake).
-- **Action:** Batch testing x=33, 34, 35.
-- **Sequence:** Right, Down, Right, Down, Right, Down.
-- **Hypothesis:** One of these IS the exit. If not, I am softlocked or missing a hidden mechanic.
+    - x=31, 32, 33: Failed (Fake Ledges).
+    - x=28: Failed previously.
+- **Action:** Batch testing x=34, 35, 36, 37.
+- **Sequence:** Right, Down, Right, Down, Right, Down, Right, Down.
+- **Hypothesis:** One of these IS the exit. This area (Row 32-33) is enclosed by One-Way Ledges (North) and Walls (East/West), so South MUST be the exit.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
