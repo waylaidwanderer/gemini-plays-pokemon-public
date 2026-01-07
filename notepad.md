@@ -1,13 +1,12 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (10, 3) in Item Rooms (3_77). Center section confirmed as dead end loop from Warp (13, 3).
-- **Observation:** Ledges at y=4 are impassable walls.
-- **Action:** Returning to Room 2 via Warp (13, 3).
-- **Hypothesis:** I missed a path in Room 2 (Middle Section) after the waterfall.
+- **Status:** At (13, 22) in Room 2. Just exited Item Rooms.
+- **Hypothesis:** The Item Rooms (3_77) have a path on the LEFT side that I missed.
+- **Reasoning:** I checked Center (blocked ledges) and Right (blocked wall). Left side is unexplored.
 - **Plan:**
-  1. Warp back to Room 2 (13, 21).
-  2. Explore the water/land in Room 2 Middle thoroughly.
-  3. Look for hidden caves or surfable paths to the North.
+  1. Re-enter Item Rooms via (13, 21).
+  2. Explore the West side (x < 10) for a gap in the ledge or a path around.
+  3. If West side is also blocked, return to Room 2 and try the Surf route to (5, 21).
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
