@@ -2,14 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (33, 6). East Enclave.
-- **Fact:** The Gatehouse connects Route 28 (West) to Route 22 (East). It does NOT bridge two parts of Route 28.
-- **Conclusion:** The path to the NW House must be found on Route 28 itself, likely via the pond.
+- **Current Location:** Route 28 (25, 11). West of the gap.
+- **Action:** Surfing the pond in the hidden area.
 - **Plan:**
-    1. Go South through gap at (30, 9).
-    2. Go West through gap at (28, 11) to the water.
-    3. Surf West and land on the North bank (Row 8).
-    4. Explore North/West to find the path to (0, 3).
+    1. Surf West/North to explore the water boundaries.
+    2. Land on any accessible North bank (e.g., Row 8).
+    3. Look for a path leading North past the ledges to the NW House.
+- **Hypothesis:** This central area (x=19-28) might have a path North that the far West side didn't.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
