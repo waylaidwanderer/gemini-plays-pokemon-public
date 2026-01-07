@@ -23,6 +23,7 @@
 # Ground-Type Safety Protocol (Lethal Threat)
 - Problem: Xenon (Poison/Ghost) is weak to Ground. Magnitude 10/Earthquake are OHKO threats.
 - Solution: NEVER lead or switch Xenon into Ground-types (Geodude, Graveler, Donphan, Gligar) if they are likely to use a Ground move.
+- Safe Alternative: Use Icarus (Immune) or high-level finishers (Gneiss/Calcifer) to handle Ground-types.
 - Ground Move Resistances:
   - Icarus (Flying): Immune (0x).
   - Kimchi (Grass/Poison): Neutral (1x).
