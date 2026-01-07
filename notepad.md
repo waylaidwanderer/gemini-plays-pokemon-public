@@ -38,7 +38,7 @@
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
 # Significant Party Status
-- XENON (Haunter): Lv30. HP 77/77. Night Shade: 9/15.
+- XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
 - ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
 - Ravioli (Krabby): Lv10. HP 27/27. Surf user.
@@ -62,8 +62,8 @@
 - Slot 6 (Calcifer): STATS, SWITCH, MOVE, ITEM, CANCEL
 
 # Current Plan: Route 45 Training
-1. Fly to Blackthorn City.
-2. Heal at the Pokemon Center (Night Shade PP is low).
+1. Exit Cherrygrove Pokemon Center.
+2. Fly to Blackthorn City.
 3. Exit south to Route 45.
-4. Battle wild Pokemon to level up Xenon and Kimchi.
+4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
 5. Use Gneiss/Calcifer if health gets too low.
