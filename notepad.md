@@ -2,11 +2,12 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** Trapped in the "Middle Pocket" (Row 32-33, x=30-37).
-- **Issue:** Unable to move North (Ledges), West (Wall), or East (Wall). South (Row 34) appears to be `FLOOR_UP_WALL` which blocked me at x=31.
-- **Critical Hypothesis:** One of the tiles in Row 34 MUST be a jumpable ledge, otherwise this area is a softlock.
-- **Action:** systematically test jumping South at x=32, 33, 34, 35, 36, 37.
-- **Testing Sequence:** Right -> Down -> Right -> Down -> Right -> Down.
+- **Current Status:** Systematically testing `FLOOR_UP_WALL` tiles in the Middle Pocket (Row 34).
+- **Results:**
+    - x=31: Failed (Wall).
+    - x=32: Failed (Wall).
+- **Action:** Continue testing x=33, 34, 35, 36, 37.
+- **Hypothesis:** One of these MUST be a ledge. If all fail, this area is a dead end/softlock (highly unlikely for a pocket accessible via one-way ledge).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
