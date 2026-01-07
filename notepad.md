@@ -69,7 +69,7 @@
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH (Offset 1)
 - Slot 2 (ICARUS): FLY, STATS, SWITCH (Offset 2)
-- Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH (Offset 3)
+- Slot 3 (KIMCHI): FLASH, CUT, STATS, SWITCH, MOVE, ITEM, CANCEL
 - Slot 4 (Ravioli): SURF, STATS, SWITCH (Offset 2)
 - Slot 5 (GNEISS): STRENGTH, STATS, SWITCH (Offset 2)
 - Slot 6 (Calcifer): STATS, SWITCH (Offset 1)
