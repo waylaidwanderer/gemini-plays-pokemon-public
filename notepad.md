@@ -45,7 +45,7 @@
 - Goal: Xenon & Kimchi to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
-- Current Status: Training. Battling wild Graveler (Lv 23). (Turn 33522).
+- Current Status: Training. Kimchi fainted to wild Graveler's Selfdestruct. Heading to Blackthorn PC to heal. (Turn 33524).
 - Party Status (Turn 33521):
   - Gneiss: Lv 47 (102292 EXP)
   - Kimchi: Lv 32 (28259 EXP)
