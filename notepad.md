@@ -38,4 +38,3 @@
 ## Training Strategy: Route 45
 - Strategy: Lead with Gneiss (Lv47+) while Xenon gains Exp via Exp. Share.
 - Contingency: If Gneiss's offensive PP is low, Fly to Blackthorn to heal and return.
-- Progress: Gneiss hit Lv47 (Turn 33165). Xenon hit Lv34 (Turn 33203).
