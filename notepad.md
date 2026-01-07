@@ -1,16 +1,13 @@
-# Current Strategy: Enter Warp (11, 5) to Southern Item Rooms
-- **Start Turn:** 26744 (Jan 7, 2026)
-- **Location:** Silver Cave Room 2 (3_75)
-- **Status:** In Battle at (11, 6). Just one tile away from the Warp!
-- **Goal:** Run from battle, then Step North into Warp (11, 5).
-- **Reflection (Turn 26744):**
-  - **Execution:** No deferred tasks.
-  - **Correction:** The `navigate` tool successfully moved me from (6, 13) all the way to (11, 6) before the battle. The "Position Mismatch" warning was just me not realizing how far I got!
-  - **Lesson:** When `navigate` is interrupted, check Game State position immediately. Do not assume I am at the start of the path.
-  - **Navigation:** The "East Path" (Landing at 14, 30 -> Gap at 19, 27 -> North Corridor) is the CORRECT path to the Southern Item Rooms.
+# Current Strategy: Explore Southern Item Rooms
+- **Start Turn:** 26746 (Jan 7, 2026)
+- **Location:** Entering Warp (11, 5) -> Southern Item Rooms (3_77).
+- **Status:** Leaving Silver Cave Room 2 via the Northern Warp.
+- **Goal:** Explore the Southern area of the Item Rooms to find items and potentially the path to Red (if he's not here).
+- **History:**
+  - **North Item Rooms:** Dead end exit loop.
+  - **Room 2 Ascent:** Required climbing Waterfall at x=11 and navigating the East Path via gap at (19, 27).
 
 # Key Findings
-- **Silver Cave Room 2:**
-  - **West Side:** Dead ends / Currents.
-  - **East Side:** Connects Bottom to Top.
-  - **Warp (11, 5):** Leads to Southern Item Rooms.
+- **Silver Cave Layout:**
+  - **Room 2:** Connects Room 1 (Bottom) to Item Rooms (Top).
+  - **Item Rooms (South):** Expected to contain high-level items or route to Room 3/Red.
