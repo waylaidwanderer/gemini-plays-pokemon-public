@@ -5,7 +5,7 @@
 - **Money:** ¥3,833.
 - **Inventory:** 15 Full Restores, 19 Revives.
 - **Immediate Goal:** Reach Silver Cave Entrance (0, 13).
-- **Next Task:** Test 'battle_strategist' on a wild Pokemon.
+- **Next Task:** Battle Strategist verified (OHKO Poliwhirl). Ready for Red.
 
 ## Vs Red Strategy
 - (Placeholder for insights)
