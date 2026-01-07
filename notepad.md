@@ -1,9 +1,9 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26590 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Surfing West in Room 2. Moving to (4, 23).
-- **Observation:** Wall at (5, 26) blocks direct west movement.
+- **Status:** In battle with Golduck at (7, 23) [Room 2].
+- **Action:** Escape battle, then resume Surfing West to (4, 23).
 - **Plan:**
-  1. Surf North to Row 23.
+  1. Escape battle.
   2. Surf West to (4, 23).
   3. Look for landfall in the Southwest corner.
 - **Hypothesis:** The Southwest corner contains a landfall leading to the Southern Item Rooms.
