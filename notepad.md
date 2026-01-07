@@ -12,3 +12,6 @@
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back. To ascend, face the waterfall and use the move via the Start Menu -> Pokemon to avoid sliding. Requires HM07.
+- **Issue:** 'Can't use that here' when selecting Waterfall from menu despite Game State saying 'Facing: up'.
+- **Hypothesis:** The slide-back mechanic might have desynced the actual facing direction or the menu interaction is bugged.
+- **Plan:** Exit menu, move Down then Up to force correct facing, then press A manually.
