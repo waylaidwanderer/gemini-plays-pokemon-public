@@ -13,4 +13,8 @@
   - Surf: Qaagmaqnjw (Gyarados).
   - Whirlpool: Need to teach HM06 or retrieve Lapis (Poliwag) from PC.
   - Strength: Muscle (Machoke).
-- **Immediate Action:** Head to a Pokemon Center (Viridian City) to organize party.
+- **Immediate Action:** Use PC in Oak's Lab to organize party.
+- **Party Plan:**
+  - Keep: Mistral (Fly), Muscle (Strength), Gyarados (Surf/Waterfall), Belladonna (Flash).
+  - Deposit: Kunai (Sneasel).
+  - Withdraw: Lapis (Poliwag, has Whirlpool).
