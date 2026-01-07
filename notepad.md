@@ -1,16 +1,20 @@
 # Current Strategy: Battle vs Red
-- **Timestamp:** Turn 25982 (Jan 6, 2026)
+- **Timestamp:** Turn 25984 (Jan 6, 2026)
 - **Primary Goal:** Defeat Red.
-- **Immediate Task:** Clear Text -> Tank Charizard's Hit.
+- **Immediate Task:** FIGHT -> THUNDERPUNCH.
 - **Battle Plan:**
-    1. **Current State:** Muscle (215/280, Burned). Charizard (~60%).
-    2. **Action:** Press B to clear "recovered HP" text.
-    3. **Opponent Turn:** Charizard attacks (Flamethrower/Wing Attack). Muscle tanks (~120 dmg).
-       - Expected HP: 215 - 120 = 95. Burn (-35) -> 60.
-    4. **Next Turn:** **THUNDERPUNCH**.
-       - Must attack. Lemonade spam (80 HP) can't outpace damage (120+35=155).
-       - ThunderPunch (150 BP Special) is the only win condition.
-- **Resources:** Muscle (215/280). 8 Lemonades. No Revives possible (Last Mon).
+    1. **Current State:** Muscle (65/280, Burned). Charizard (~60%).
+    2. **Analysis:**
+       - Incoming Damage (Flamethrower) ~115 + Burn (35) = 150.
+       - Healing with Lemonade (+80) leaves us at max 145 HP. We still die to Flamethrower.
+       - Healing is a death spiral.
+    3. **The Play:** **ATTACK.**
+       - If Charizard uses a weak move (Fire Spin) or misses, we survive the hit.
+       - Muscle moves second. If we survive the hit (even with 1 HP), we execute the move.
+       - Burn damage happens *end of turn*. We get the hit off.
+       - Move: **ThunderPunch**. (Special 150 BP vs Physical Burned Strength 40 BP).
+    4. **Outcome:** Hope for a kill or massive damage before fainting.
+- **Resources:** Muscle (65/280). 8 Lemonades. No Revives. Last Stand.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
