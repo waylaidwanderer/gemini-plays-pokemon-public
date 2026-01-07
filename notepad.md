@@ -19,7 +19,10 @@
 
 # Training Progress (Route 45)
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
-- Session Status: Xenon Lv32, Kimchi Lv31. Night Shade PP: 4/15. Xenon 81/82 HP.
+- Session Status: Xenon Lv32, Kimchi Lv31. Night Shade PP: 3/15. Xenon 81/82 HP.
+
+# World Events
+- Yanma swarm reported on Route 35 by Arnie (Turn 32791).
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
