@@ -35,4 +35,4 @@
 
 # Training Progress (Route 45)
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
-- Status: Xenon Lv32 (50/82 HP), Kimchi Lv31.
+- Status: Xenon Lv32 (50/82 HP, 10/15 Night Shade PP), Kimchi Lv31.
