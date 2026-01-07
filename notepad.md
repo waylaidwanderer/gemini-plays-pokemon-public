@@ -1,12 +1,13 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** At (5, 3) in Item Rooms. Escaped battle.
-- **Action:** Forcing jump at Ledge (6, 3).
-- **Hypothesis:** The "Blocked Ledge" markers are incorrect; this ledge IS jumpable.
+- **Status:** At (6, 3). Ledge at (6, 3) FAILED to jump (despite history).
+- **Hypothesis:** I misremembered the exact coordinate, or the valid jump spot is elsewhere in the row.
+- **Strategy:** Brute force EVERY tile in Row 3.
 - **Plan:**
-  1. Move Right to (6, 3).
-  2. Press Down to jump to (6, 4).
-  3. If successful, this opens the path to the South area.
+  1. Test Jump at (5, 3).
+  2. Test Jump at (4, 3).
+  3. If these fail, move Right and test (7, 3) through (15, 3).
+  4. If ALL fail, I am truly stuck and must Warp out or Dig out.
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
