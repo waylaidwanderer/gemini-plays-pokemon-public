@@ -19,12 +19,12 @@
 # Strategy: Johto League Training
 - Method: Lead with lower-level Pokemon (Kimchi/Xenon) to share EXP. Switch to Gneiss or Calcifer for heavy lifting.
 - Efficiency: Grind in Route 45 grass (4,12)-(5,12).
-- Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 4/10).
+- Resource Management: Return to Blackthorn PC when Gneiss runs out of Earthquake PP (currently 10/10).
 
 # Progress Tracker
 - Xenon (Lv28): 17752 EXP. Target Lv30: 21760 EXP (~4008 remaining).
-- Kimchi (Lv25): 0/67 HP (Fainted).
-- Gneiss (Lv46): 103/129 HP. Earthquake PP: 4/10.
+- Kimchi (Lv25): 67/67 HP.
+- Gneiss (Lv46): 129/129 HP. Earthquake PP: 10/10.
 - Calcifer (Lv48): 146/152 HP. Flame Wheel PP: 21/25.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
 - Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack. Donphan/Graveler immune to Sleep Powder? (Observed "It didn't affect").
