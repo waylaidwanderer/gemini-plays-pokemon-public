@@ -2,13 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (0, 13).
-- **Result:** The ledge at (0, 14) is a WALL.
-- **Conclusion:** Direct access to the bottom path from the West side is impossible.
-- **New Plan:**
-    1. Exit Route 28 to Silver Cave Outside (Left).
-    2. Check if there is a second, lower entrance to Route 28 from Silver Cave Outside.
-    3. If not, proceed to enter Silver Cave itself to look for a hidden path.
+- **Current Location:** Silver Cave Outside (39, 31). Just arrived from Route 28.
+- **Observation:** I am in the SE corner of Silver Cave Outside.
+- **Plan:**
+    1. Navigate West to the Pokemon Center (23, 19).
+    2. Heal/Set Fly Point.
+    3. Check for other entrances to Route 28 (e.g., North along the East edge).
+    4. If no external path exists, enter Silver Cave (18, 11).
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
