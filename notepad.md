@@ -27,12 +27,11 @@
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
 # Strategy: Current Status
-- Goal: Collect gift and battle Dana on Route 38.
-- Current Position: (16, 3) on Route 38.
-- Status: Dialogue initiated with Dana.
-- Next: Complete dialogue to trigger battle or gift.
+- Goal: Defeat Lass Dana and collect gift.
+- Status: Battling Dana's Flaaffy (Lv18) (Turn #32241).
+- Next: Win the battle and talk to Dana.
 
-# Significant Party Status (Turn #32238)
+# Significant Party Status (Turn #32241)
 - 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
