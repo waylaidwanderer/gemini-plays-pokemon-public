@@ -14,9 +14,9 @@
 
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
-- **FLOOR_UP_WALL:** South-facing Ledge. Failed at (4, 4) and (6, 4).
+- **FLOOR_UP_WALL:** South-facing Ledge. Failed at (4, 4), (5, 4), and (6, 4).
   - **Testing:**
-    - Will test (5, 4), then (7, 4), etc.
-    - If all fail, must search for alternate path or mechanic.
+    - Will test (7, 4), (8, 4).
+    - If all fail, return to Room 2 to check Warp (11, 5).
   - **Path Verification:**
     - Return path confirmed via Row 0.
