@@ -27,8 +27,8 @@
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
 - Hazards: Magnitude/Earthquake. Switch to GNEISS (Ground sponge) if needed.
 
-# Party Status (Turn #32141)
-- 1. XENON (Haunter): Lv29. HP 73/74. Holding AMULET COIN. NIGHT SHADE: 11/15.
+# Party Status (Turn #32143)
+- 1. XENON (Haunter): Lv29. HP 73/74. Holding AMULET COIN. NIGHT SHADE: 10/15.
 - 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
 - 3. KIMCHI (Gloom): Lv28. HP 74/74. Holding EXP.SHARE.
 - 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
