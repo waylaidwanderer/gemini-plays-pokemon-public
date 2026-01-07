@@ -18,7 +18,7 @@
 # Progress Tracker
 - Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
 - Kimchi (Lv23): 10099 EXP. Target Lv24: 10140 EXP (~41 remaining).
-- Gneiss (Lv45): Earthquake PP low (1/10).
+- Gneiss (Lv45): Earthquake PP low (1/10). HP: 38/126.
 - Calcifer (Lv48): Flame Wheel PP (19/25).
 - Grinding Start: Turn #31060.
 - Reflection (Turn 31231): Pacing at (4,12)-(5,12). Gneiss has 2 EQ PP left. Defining 'grind_encounters' tool.
