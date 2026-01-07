@@ -12,9 +12,9 @@
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
-- **Immediate Task:** Retrieve item at (6, 3) and explore Left Side.
+- **Immediate Task:** Retrieve item at (6, 3) and explore Upper Row via Right Side.
 - **Sequence:**
-    1. Go to (6, 2).
-    2. Pick up item at (6, 3).
-    3. Explore West (x<5) to see if there is a path to the Upper Ledge.
-    4. If blocked, jump down to lower area.
+    1. Pick up item at (6, 3) (Press A).
+    2. Navigate East to (17, 2).
+    3. Go North to access Row 0.
+    4. Explore West along Row 0.
