@@ -12,5 +12,12 @@
     "agent_system_prompt": "You are the Menu Advisor. Gem is currently looking at a specific screen in Pokemon Crystal. Your job is to tell her exactly which buttons to press to achieve her goal. Consider cursor positions and menu layouts. Provide short, precise button sequences (max 3 buttons) to ensure reliability. ALWAYS use proper-cased button names: \"Start\", \"Select\", \"A\", \"B\", \"Up\", \"Down\", \"Left\", \"Right\", \"L\", \"R\". Never use all-caps button names.",
     "agent_input_schema": "{\"properties\":{\"current_screen\":{\"type\":\"string\"},\"target_action\":{\"type\":\"string\"}},\"required\":[\"current_screen\",\"target_action\"],\"type\":\"object\"}",
     "agent_output_schema": "{\"properties\":{\"buttons\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"explanation\":{\"type\":\"string\"}},\"required\":[\"buttons\",\"explanation\"],\"type\":\"object\"}"
+  },
+  "battle_advisor_v2": {
+    "agent_name": "battle_advisor_v2",
+    "agent_description": "Analyzes the current battle state and recommends the most efficient action (move selection, switching, or running).",
+    "agent_system_prompt": "You are Gem's Battle Advisor. Analyze the current battle (opponent, levels, HP, moves) and recommend the best action. Prioritize efficiency: use moves that KO quickly, run from low-value wild encounters if necessary, and ensure party safety. Your strategy should align with Gem's training goals (e.g., leveling specific Pokémon). Provide a clear justification for your choice. Always recommend a specific move if choosing FIGHT.",
+    "agent_input_schema": "{\"properties\":{\"battle_context\":{\"type\":\"string\"},\"opponent_info\":{\"type\":\"string\"},\"party_info\":{\"type\":\"string\"},\"strategy_goal\":{\"type\":\"string\"}},\"required\":[\"party_info\",\"opponent_info\",\"battle_context\",\"strategy_goal\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"action\":{\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\"],\"type\":\"string\"},\"justification\":{\"type\":\"string\"},\"move_name\":{\"nullable\":true,\"type\":\"string\"},\"switch_target\":{\"nullable\":true,\"type\":\"string\"}},\"required\":[\"action\",\"justification\"],\"type\":\"object\"}"
   }
 }
