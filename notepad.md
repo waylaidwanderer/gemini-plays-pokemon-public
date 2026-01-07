@@ -1,9 +1,9 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26399 (Jan 7, 2026) [Silver Cave Item Rooms]
-- **Status:** In battle at (11, 3).
-- **Observation:** Ledges at 10 and 11 are BLOCKED.
+- **Status:** In battle at (11, 3). Escaping.
+- **Action:** Use Max Repel immediately after battle.
 - **Plan:**
-  1. Escape battle.
+  1. Use Max Repel.
   2. Test Jump at (12, 3).
   3. If (12, 3) fails, move to (13, 3) and Warp back to Room 2.
   4. Search Room 2 for a different entrance to the Item Rooms (South).
