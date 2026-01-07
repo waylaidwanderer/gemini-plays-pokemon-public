@@ -48,7 +48,8 @@
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
 6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
 7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic.
-- Total Failures: 7.
+- Total Failures: 8.
+8. press_menu_buttons (Turn #31903): Failed to give item, likely menu lag.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
