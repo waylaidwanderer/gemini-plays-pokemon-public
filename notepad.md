@@ -32,11 +32,11 @@
 - Solution: NEVER switch Xenon into suspected Ground-type users. Use Icarus/Gneiss instead.
 
 # Progress Tracker
-- Kimchi (Gloom): Lv28 (17615 EXP).
+- Kimchi (Gloom): Lv28 (17615 EXP). Exp. Share equipped.
 - Xenon (Haunter): Lv29 (20309 EXP).
 
 # Key Locations & Gifts
-- Mr. Pokemon: Route 30 (17, 5).
+- Mr. Pokemon: Route 30 (17, 5). Trade completed.
 - Dana (Lass): Route 38. Has a gift.
 - Chad (Schoolboy): Route 38. Wants to battle.
 - Dark Cave Entrance: Route 45 (2, 5).
@@ -48,5 +48,5 @@
 
 # Lessons Learned
 - HP/PP Verification: Always use Game State Information to confirm current party health and status. Do not rely on memory or duration of training.
-- Quest Tracking: Exp. Share quest started Turn #31846.
+- Quest Tracking: Exp. Share quest started Turn #31846. Completed Turn #31871.
 - Route 30 Navigation: Avoid ledges by staying on the right side of the map (X >= 13).
