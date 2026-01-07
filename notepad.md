@@ -15,14 +15,13 @@
 # Tile Mechanics
 - **WARP_CARPET_DOWN:** Must step DOWN onto this tile to trigger warp.
 - **FLOOR_UP_WALL:** South-facing Ledge at y=4.
-  - **Status:** At (19, 20) in Room 2 Lower.
-- **Analysis:**
-  - Lanes at x=19, 21, 23 are blocked by ledges at y=16. They are one-way returns from the North.
-  - Waterfall path (x=11) leads only to Item Rooms (dead end).
-  - Room 2 Lower is fully explored and appears to be an exit area.
-- **Conclusion:** Must return to Room 1 to find the path to Room 2 Central/Upper.
+  - **Status:** At (21, 30) in Room 2.
+- **Testing:** Warp Carpets on Row 31.
+- **Results:**
+  - (17, 31): Loops to Room 1 (15, 1).
+  - (19, 31): Failed (No warp).
 - **Plan:**
-  1. Return to Room 1 via warp at (17, 31).
-  2. Explore Room 1 fully (Use Flash if dark).
-  3. Look for other warps leading to Room 2.
-- **Note:** Testing carpet at (19, 29) on the way out, just in case.
+  1. Test (21, 31).
+  2. If fail, test (23, 31).
+  3. If all Row 31 carpets fail, try the Row 29 carpets (requires finding a way to step DOWN onto them, likely from Row 28).
+  4. Explore Southeast corner (x>24, y>30).
