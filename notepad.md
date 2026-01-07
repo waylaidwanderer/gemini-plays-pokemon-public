@@ -6,8 +6,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Oak's Lab (Pallet Town).
-- **Next Step:** Exit Lab -> Prepare Party (Need Whirlpool) -> Whirl Islands.
+- **Location:** Pallet Town (Outside).
+- **Next Step:** Fly to Viridian City -> Use PC -> Prepare Party.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
