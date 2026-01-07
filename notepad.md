@@ -8,8 +8,7 @@
 - CUT_TREE: Impassable (Cut).
 - HEADBUTT_TREE: Impassable; interactive.
 - BOULDER: Impassable (Strength).
-- COUNTER: Stand adjacent to interact.
-- PC: Stand below and face up to interact.
+- COUNTER/PC: Stand adjacent/below to interact.
 
 # Strategy: Johto League Training
 - Started: Turn #32266.
@@ -29,18 +28,17 @@
 - Calcifer (Typhlosion): Lv48. HP 152/152.
 
 # Pending Rematches / Gifts
-- Arnie (Bug Catcher): Route 35. Defeated in rematch (Turn #32274).
-- Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: Interaction did not trigger battle).
+- Arnie (Bug Catcher): Route 35. Defeated (Turn #32274).
+- Alan (Schoolboy): Route 36. Rematch potential (Turn #32289: No battle).
 - Chad (Schoolboy): Route 38. Rematch potential.
 
-# Fly Map Navigation (Hypothesis)
-- The Fly menu is a 2D map, not a list.
-- Violet City -> (Right) -> Mahogany Town -> (Right) -> Blackthorn City.
-- Violet City -> (Up) -> Ecruteak City.
-- Violet City -> (Down) -> Azalea Town.
+# Fly Map Navigation
+- The Fly menu is a 2D map.
+- Violet City -> (Right x2, Up x1) -> Mahogany Town -> (Right x1) -> Blackthorn City.
+- Total from Violet: Right x3, Up x1.
 
 # Current Plan: Route 45 Training
-1. Fly to Blackthorn City (Right, Right, A on Fly map).
-2. Exit south to Route 45.
-3. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
-4. Use Gneiss/Calcifer if health gets too low.
+1. Exit Violet Pokemon Center.
+2. Fly to Blackthorn City (Right x3, Up x1 on Fly map).
+3. Exit south to Route 45.
+4. Battle wild Pokemon to level up Xenon and Kimchi to Lv40.
