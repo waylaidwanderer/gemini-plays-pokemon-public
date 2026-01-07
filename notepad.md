@@ -1,7 +1,7 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** In battle with Machoke at (19, 27).
-- **Action:** Escape battle, then resume navigation to (22, 24).
+- **Status:** Escaped battle at (19, 27). Resuming navigation to (22, 24).
+- **Action:** Clearing text and moving to the Eastern corridor.
 - **Path:** (19, 27) -> South to (19, 28) -> East to (22, 28) -> North to (22, 24).
 - **Goal:** Investigate the isolated area at (22, 24) for hidden items or cave entrances.
 
