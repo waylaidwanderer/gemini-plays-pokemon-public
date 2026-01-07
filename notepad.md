@@ -2,11 +2,17 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** Escaped the "Middle Pocket" (Row 32-33). Currently at (39, 31).
-- **Finding:** The "Middle Pocket" is a dead end. All southern tiles (Row 34) are walls.
-- **Action:** Exiting East to **Route 28**.
-- **Goal:** Explore Route 28 to find a path that loops back into the inaccessible Northwest area of Silver Cave Outside.
-- **Hypothesis:** The entrance to the NW area is likely a hidden path or cut-through on Route 28.
+- **Current Location:** Route 28 (0, 13). Entered from Silver Cave Outside.
+- **Objective:** Reach the Northwest area of Silver Cave Outside.
+- **Hypothesis:** The entrance to the NW area of Silver Cave Outside is at **Route 28 (0, 3)**.
+- **Reasoning:**
+    - I entered Route 28 at (0, 13).
+    - To reach the *Northwest* corner of the previous map, I need to exit Route 28 further North on the West edge.
+    - Tile (0, 3) on Route 28 is a walkable `FLOOR` tile on the West edge, aligning with this goal.
+- **Plan:**
+    1. Traverse Route 28 Eastward.
+    2. Find a path North that loops back West to (0, 3).
+    3. Exit Route 28 at (0, 3) to re-enter Silver Cave Outside.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
