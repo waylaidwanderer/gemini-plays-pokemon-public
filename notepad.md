@@ -1,7 +1,7 @@
 # Tile Mechanics
-- FLOOR: Standard ground.
-- WALL: Impassable.
-- TALL_GRASS: Reachable encounters.
+- FLOOR: Standard ground. Can be traversed.
+- WALL: Impassable. Interaction with objects on wall tiles (like signs) must be done from an adjacent tile.
+- TALL_GRASS: Can be traversed. Triggers wild encounters.
 - LEDGE_HOP_DOWN: One-way south. Impassable from south/east.
 - LEDGE_HOP_LEFT: One-way west. Impassable from west.
 - LEDGE_HOP_RIGHT: One-way east. Impassable from east.
@@ -10,17 +10,18 @@
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
 
 # Strategy: Johto League Training
-- Efficiency: Lead with trainee (Kimchi Lv21), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
+- Efficiency: Lead with trainee (Kimchi Lv23), switch to Calcifer (Lv48) or Gneiss (Lv45) if outmatched. Xenon (Lv28) is backup.
 - Target: Get Xenon and Kimchi to Lv30+ before challenging Clair.
 - Pacing: Walk back and forth in TALL_GRASS on Route 45. Use Sweet Scent to trigger encounters if pacing is slow.
+- Resource Limit: Return to Blackthorn City to heal when Gneiss is at 0 Earthquake PP.
 
 # Progress Tracker
-- Xenon (Lv28): 17426 EXP. Target Lv29: 19353 EXP (~1927 remaining).
-- Kimchi (Lv23): 9879 EXP. Target Lv24: 10140 EXP (~261 remaining).
+- Xenon (Lv28): 17426 EXP. Target Lv30: ~21760 EXP (~4334 remaining).
+- Kimchi (Lv23): 9879 EXP. Target Lv30: ~21760 EXP (~11881 remaining).
 - Gneiss (Lv45): Earthquake PP low (2/10).
 - Calcifer (Lv48): Flame Wheel PP (19/25).
 - Grinding Start: Turn #31060.
-- Reflection (Turn 31190): Pacing at (4,12)-(5,12). Xenon hit 28, Kimchi hit 23. Need to watch Gneiss PP. Use FLY to heal at Blackthorn when Gneiss is empty.
+- Reflection (Turn 31231): Pacing at (4,12)-(5,12). Gneiss has 2 EQ PP left. Defining 'grind_encounters' tool.
 
 # Evolution Methods (Hypotheses)
 - Gloom: Likely evolves with an evolution stone (Leaf or Sun Stone).
