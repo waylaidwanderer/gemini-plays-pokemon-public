@@ -4,12 +4,10 @@
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34.
 - **Results:**
-    - x=28-37: Failed (Fake Ledges).
-- **Conclusion:** Row 34 in this pocket is a solid wall. There is no South exit.
-- **Action:** Escape the pocket via the North path.
-    1. Walk North to Row 29 (TALL_GRASS).
-    2. Walk West to `x=27` (FLOOR).
-    3. Determine next move (Likely backtrack to Central Area x=5 to verify path North).
+    - x=29-37: Failed (Fake Ledges).
+- **Action:** Test the FINAL candidate: x=28.
+- **Hypothesis:** If x=28 fails, the entire Row 34 is a wall.
+- **Contingency:** Escape via North (Row 31/29 is TALL_GRASS/FLOOR, not ledges) and return to the Central Area (x=5) to re-investigate the North path there.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
