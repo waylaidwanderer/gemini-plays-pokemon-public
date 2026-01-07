@@ -14,6 +14,7 @@
 - BOULDER: Impassable; pushable with HM04 STRENGTH.
 - COUNTER/PC: Stand adjacent/below to interact.
 - BUOY: Impassable; water boundary.
+- GRASS: Traversable. Does not trigger encounters. Verified in New Bark Town.
 
 # Strategy: Johto League Training
 - Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
