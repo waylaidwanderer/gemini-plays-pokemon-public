@@ -39,3 +39,4 @@
 # General Mechanics & Lessons
 - Route 45: Ledges make paths one-way SOUTH. Use FLY to return.
 - Fly Map: Systematic navigation required. Confirm name before pressing A.
+- Route 45: Ledges divide the route into vertically separated sections. Use FLY to return to Blackthorn City for repeated training runs.
