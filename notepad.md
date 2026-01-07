@@ -4,10 +4,10 @@
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
 - **Current Status:** Testing `FLOOR_UP_WALL` tiles in Row 34.
 - **Results:**
-    - x=28, 31, 32, 33, 34, 35: Failed (Fake Ledges).
-- **Action:** Batch testing x=36, 37.
-- **Sequence:** Right, Down, Right, Down.
-- **Hypothesis:** One of these IS the exit. If these fail, will double back to test x=30 and x=29. The pocket spans x=28 to x=37.
+    - x=28, 31-36: Failed (Fake Ledges).
+- **Action:** Test x=37 (Last one on the East side).
+- **Hypothesis:** If x=37 fails, the exit MUST be at x=29 or x=30.
+- **Sequence:** Right, Down. Then if blocked, traverse Left.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
