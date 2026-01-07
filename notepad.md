@@ -39,13 +39,16 @@
 - Problem: Xenon is weak to Ground.
 - Solution: NEVER switch Xenon into suspected Ground-type users.
 
-# Party Item Audit (Turn #32071)
-- Xenon: Empty (Hyper Potion removed).
-- Icarus: Empty (Potion removed).
-- Kimchi: Exp. Share.
-- Ravioli: Empty (Bitter Berry removed).
-- Gneiss: Empty (Amulet Coin removed).
-- Calcifer: Audit in progress.
+# Party Item Audit (Turn #32072)
+- Audit: COMPLETE. All slots cleared.
+- Kimchi: Holding EXP.SHARE.
+- Xenon: Receiving AMULET COIN.
+
+# Progress Tracker
+- Xenon (Haunter): Lv29 (20635 EXP).
+- Kimchi (Gloom): Lv28 (17941 EXP).
+- Gneiss (Graveler): Lv46 (93886 EXP).
+- Calcifer (Typhlosion): Lv48 (109364 EXP).
 
 # Party Menu Mapping
 - Slot 1 (XENON): STATS, SWITCH, MOVE, ITEM, CANCEL
