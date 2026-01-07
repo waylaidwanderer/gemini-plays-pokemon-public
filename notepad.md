@@ -48,11 +48,12 @@
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
 6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
 7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic.
-- Total Failures: 8.
-8. press_menu_buttons (Turn #31903): Failed, entered Pokedex instead of Pack. Likely due to the menu starting on POKEDEX instead of EXIT or another position.
+- Total Failures: 9.
+8. press_menu_buttons (Turn #31903): Failed, entered Pokedex.
+9. use_item_on_pokemon_v2 (Turn #31904): Failed, entered Pokegear menu.
 
 # Decisive Action Phase: Cianwood Consolidation
 - Step 1: Heal at Cianwood PC (Complete).
-- Step 2: Give Kimchi Exp. Share (Current).
-- Step 3: Swap Xenon to lead.
+- Step 2: Swap Xenon to lead (Current).
+- Step 3: Give Kimchi Exp. Share.
 - Step 4: Fly to Blackthorn City using fly_to_city_v4.
