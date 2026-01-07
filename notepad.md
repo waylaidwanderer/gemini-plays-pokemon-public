@@ -55,3 +55,6 @@
 - Opponent: Clair uses Dragon-type Pokemon.
 - Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
 - Start Turn (Grinding): 33466.
+
+## Historical Data (Archive)
+- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) after several Great Ball attempts at ~50% HP while confused. Failed attempts noted on turns 33490, 33492, 33495.
