@@ -11,6 +11,7 @@
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
 - **Immediate Task:** Traverse Route 1 South to Pallet Town.
-- **Status:** Traversing Route 1. At (5, 16).
-- **Navigation:** South to (5, 19) (Ledge) -> East at (5, 20) to avoid wall -> South to Pallet Town (9, 35).
+- **Status:** Wild Battle with Pidgey at (6, 28).
+- **Action:** Run from battle.
+- **Path:** Continue South to Pallet Town (9, 35).
 - **Next Stop:** Pallet Town.
