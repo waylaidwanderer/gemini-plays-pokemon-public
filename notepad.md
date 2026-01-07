@@ -15,20 +15,14 @@
     - GNEISS (Graveler): Tank backup.
 - Detailed Plan:
     1. Grind Xenon and Kimchi to Lv40 on Route 45.
-    2. Ensure Xenon has full PP for Night Shade.
-    3. Use Hypnosis/Sleep Powder to manage threats.
-    4. Night Shade bypasses high special defense of Clair's Dragon-types.
-    5. **CRITICAL:** Use `battle_advisor` agent for all trainer and significant wild battles to optimize EXP and safety.
+    2. Use Hypnosis/Sleep Powder to manage threats.
+    3. Night Shade bypasses high special defense of Clair's Dragon-types.
+    4. **CRITICAL:** Use `battle_advisor` agent for all trainer and significant wild battles to optimize EXP and safety.
 
 # Training Progress (Route 45)
 - Goal: Lv40 for Xenon and Kimchi.
-- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. Night Shade PP management: Fly to Blackthorn to heal.
-
-# Fly Map Navigation (Experimental)
-- Mahogany Town <-> Lake of Rage (Up/Down)
-- Mahogany Town -> Down -> Olivine City? (TBC)
-- Cianwood City -> Up -> Mahogany Town
-- Goal: Find Blackthorn City (Northeast of Mahogany).
+- Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi. 
+- Healing Log: Turn #32731 (Start). Night Shade PP was 1.
 
 # Unexplored Tiles (Route 45)
 - Check (11, 20-36) area; likely behind ledges/walls.
@@ -42,5 +36,6 @@
 # Lessons Learned
 - Haunter Mechanics: Grounded in Gen 2; weak to Magnitude.
 - Battle Strategy: Switch to GNEISS if Ground moves expected. Use battle_advisor for optimal moves.
-- Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. Check text after every press.
+- Fly Map: Cursor snaps to locations. Movement is not strictly 1:1. The "Right" button does not always move the cursor east; it cycles through the list of available Fly destinations. To reach Blackthorn from the west, cycle through until the name appears.
 - Menu Navigation: Use press_menu_buttons to avoid mixing inputs.
+- Counter Interaction: To talk to NPCs behind counters (Nurses/Clerks), face the counter tile and press A. You do not need to be on the counter tile.
