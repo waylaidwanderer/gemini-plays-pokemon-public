@@ -52,7 +52,8 @@
 - Step 3: Fly to Blackthorn City.
 
 # Progress Tracking
-- Cianwood Consolidation: Started Turn #31883. Xenon leading. Transferring Exp. Share to Kimchi.
+- Cianwood Consolidation: Started Turn #31883. Xenon leading. Step 2: Giving Exp. Share to Kimchi (Slot 3).
+- Turn #31972: Attempted to give item; accidentally selected HYPER POTION due to pack cursor offset. Kimchi likely holding Potion. Correcting now.
 
 # Start Menu (8 options) - WRAPS
 1. POKEDEX
