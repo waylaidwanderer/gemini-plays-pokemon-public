@@ -2,13 +2,13 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** Backtracking from the East side. Currently at (24, 29).
-- **Route:**
-    1. Surf West from (24, 29) to the grassy shore at x=13.
-    2. Walk West to the gap at (5, 27).
-    3. Walk North through the gap to Row 22.
-    4. Walk West along Row 22 to x=1.
-    5. Walk North to the Northwest corner (Row 8).
+- **Current Status:** At (13, 26), preparing to surf East.
+- **Route (Double Loop):**
+    1. Surf East to Main Island (x=24).
+    2. Go East to gap at (28, 30).
+    3. Head East to x=38 to find a gap in the far East wall.
+    4. Loop West along the bottom edge (Row 33/35) to x=1.
+    5. Head North to the Northwest corner.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
