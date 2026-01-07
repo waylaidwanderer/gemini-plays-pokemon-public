@@ -156,12 +156,17 @@
         "target_option"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    target = int(input_data['target_option'])\n    current = int(input_data['current_cursor'])\n    \n    buttons = ['Start', 'sleep 1000']\n    \n    # Calculate shortest path in a wrapping menu of size 8\n    diff = (target - current) % 8\n    if diff <= 4:\n        buttons += ['Down'] * diff\n    else:\n        buttons += ['Up'] * (8 - diff)\n        \n    buttons += ['A', 'sleep 1000']\n    print(json.dumps(buttons))",
+    "python_script": "import json\ntarget = int(input_data['target_option'])\ncurrent = int(input_data['current_cursor'])\nbuttons = ['Start', 'sleep 1000']\ndiff = (target - current) % 8\nif diff <= 4:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (8 - diff)\nbuttons += ['A', 'sleep 1000']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T08:30:15.995Z",
         "action_counter": 31955
+      },
+      {
+        "commit_message": "Fixing logic to execute directly instead of using a run function.",
+        "timestamp": "2026-01-07T08:31:15.477Z",
+        "action_counter": 31957
       }
     ]
   },
@@ -186,12 +191,17 @@
         "p2_slot"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    p1 = int(input_data['p1_slot'])\n    p2 = int(input_data['p2_slot'])\n    offset = int(input_data['p1_switch_offset'])\n    \n    buttons = []\n    # Navigate to P1 (Party menu wraps, but we start at 1)\n    buttons += ['Down'] * (p1 - 1)\n    buttons += ['A', 'sleep 500']\n    \n    # Sub-menu\n    buttons += ['Down'] * offset\n    buttons += ['A', 'sleep 500']\n    \n    # Navigate to P2 from P1\n    diff = (p2 - p1) % 6\n    if diff <= 3:\n        buttons += ['Down'] * diff\n    else:\n        buttons += ['Up'] * (6 - diff)\n        \n    buttons += ['A', 'sleep 1000', 'B', 'B', 'B']\n    print(json.dumps(buttons))",
+    "python_script": "import json\np1 = int(input_data['p1_slot'])\np2 = int(input_data['p2_slot'])\noffset = int(input_data['p1_switch_offset'])\nbuttons = []\nbuttons += ['Down'] * (p1 - 1)\nbuttons += ['A', 'sleep 500']\nbuttons += ['Down'] * offset\nbuttons += ['A', 'sleep 500']\ndiff = (p2 - p1) % 6\nif diff <= 3:\n    buttons += ['Down'] * diff\nelse:\n    buttons += ['Up'] * (6 - diff)\nbuttons += ['A', 'sleep 1000', 'B', 'B', 'B']\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T08:30:15.995Z",
         "action_counter": 31955
+      },
+      {
+        "commit_message": "Fixing logic to execute directly instead of using a run function.",
+        "timestamp": "2026-01-07T08:31:15.479Z",
+        "action_counter": 31957
       }
     ]
   }
