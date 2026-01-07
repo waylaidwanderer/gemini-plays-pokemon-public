@@ -23,14 +23,15 @@
 
 # Progress Tracker
 - Xenon (Lv28): 18741 EXP. Target Lv30: 21760 EXP (~3019 remaining).
-- Kimchi (Lv26): 14649 EXP. Target Lv30: 21760 EXP (~7111 remaining).
+- Kimchi (Lv26): 14391 EXP. Target Lv30: 21760 EXP (~7369 remaining).
+- Gneiss (Lv46): 112/129 HP. Earthquake PP: 8/10.
 - Grinding Start: Turn #31060 (Tuesday, Jan 6, 2026, 3:20 PM).
-- Last Update: Turn #31529 (Tuesday, Jan 6, 2026, 7:29 PM).
-- Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/27), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack/Poison Sting. 
+- Last Update: Turn #31532 (Tuesday, Jan 6, 2026, 7:31 PM).
+- Encounter Log: Donphan (Lv25/30), Geodude (Lv23), Graveler (Lv23/25/27), Gligar (Lv24), Skarmory (Lv24). Gligar uses Sand-Attack/Poison Sting. 
 
 # Battle Strategies & Observations
 - Night Shade: Deals fixed damage equal to user's level. Perfect for grinding and bypassing defenses.
-- Sleep Powder: Confirmed effective against female Gligar and Geodude. Failed on male Gligar, Donphan, and Graveler (Message: "It didn't affect").
+- Sleep Powder: Observed failing on certain targets with the message "It didn't affect". Type immunity (Gligar/Ground) doesn't apply; investigating other causes (status, held items, or unknown mechanics). Gender hypothesis discarded.
 - Hypnosis: Confirmed effective against Graveler. Failed on male Gligar (Message: "It didn't affect").
 - Selfdestruct: Major threat from wild Graveler. Switch to Gneiss or use status moves to mitigate risk.
 
