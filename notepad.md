@@ -6,14 +6,14 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Indigo Plateau (Route 23).
-- **Next Step:** Fly to Viridian City -> Use PC -> Prepare Party.
+- **Location:** Indigo Plateau (Outside).
+- **Next Step:** Enter Lobby -> Use PC -> Prepare Party -> Fly to Cianwood/Olivine.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
   - Whirlpool: Need to teach HM06 or retrieve Lapis (Poliwag) from PC.
   - Strength: Muscle (Machoke).
-- **Immediate Action:** Exit Oak's Lab and Fly to Viridian City (Oak's PC is email-only).
+- **Immediate Action:** Close menu and enter the building.
 - **Party Plan:**
   - Keep: Mistral (Fly), Muscle (Strength), Gyarados (Surf/Waterfall), Belladonna (Flash).
   - Deposit: Kunai (Sneasel).
