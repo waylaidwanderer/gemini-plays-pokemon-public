@@ -36,7 +36,8 @@
 # Fly Map Navigation
 - The Fly menu is a 2D map.
 - Observation (Turn #32346): Cursor started at New Bark Town when Fly was opened in Violet City.
-- Hypothesis: New Bark Town -> (Up x1) -> ?
+- Observation (Turn #32347): Pressing Up at New Bark moved cursor to Cherrygrove City.
+- Observation (Turn #32348): Pressing Right at Cherrygrove did not move cursor.
 
 # Current Plan: Route 45 Training
 1. Open Fly map manually (Done).
