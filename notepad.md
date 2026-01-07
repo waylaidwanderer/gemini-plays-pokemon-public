@@ -10,8 +10,8 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Defeat Schoolboy Danny (Electabuzz).
-- **Status:** In Battle. Muscle (Lv 85) executing Strength vs Electabuzz (Lv 31).
-- **Outcome:** Expecting OHKO.
-- **Next Step:** Exit battle screen.
-- **Navigation:** From (5, 12), move Down to jump ledge at (5, 13). Then South to Pallet Town.
+- **Immediate Task:** Defeat Schoolboy Danny (Magmar).
+- **Status:** In Battle. Muscle (Lv 85) vs Magmar (Next).
+- **Action:** Select NO to switching. Keep Muscle in.
+- **Reasoning:** Muscle is full HP and way overleveled. No need to switch.
+- **Aftermath:** Jump ledge at (5, 13) and continue South to Pallet Town.
