@@ -2,13 +2,15 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Location:** Route 28 (25, 11). West of the gap.
-- **Action:** Surfing the pond in the hidden area.
+- **Current Location:** Route 28 (22, 15). Surfing.
+- **Goal:** Reach the House at (7, 3).
+- **Hypothesis:** The path is via the far East edge corridor (x=36+).
 - **Plan:**
-    1. Surf West/North to explore the water boundaries.
-    2. Land on any accessible North bank (e.g., Row 8).
-    3. Look for a path leading North past the ledges to the NW House.
-- **Hypothesis:** This central area (x=19-28) might have a path North that the far West side didn't.
+    1. Land on the West bank at (21, 15).
+    2. Go South to Row 16.
+    3. If Row 16 is a ledge, jump down to Row 17.
+    4. Walk East along Row 17 to find the entrance to the East Corridor.
+    5. Follow the corridor North to the House area.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
