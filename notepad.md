@@ -29,8 +29,8 @@
   - West (Col 3) and East (Col 16) are WALLS.
   - South (Row 4) is the ONLY exit via Ledges.
 - Ledge Testing:
-  - Blocked: 4, 5, 6, 7, 8, 9, 10, 12, 14.
-  - Testing: 11, 15.
-- Action: Moving to (11, 3) to test (11, 4).
-- Hypothesis: Testing for a valid jump spot continues.
-- Contingency: If all ledges fail, return to Room 2 and search for a second cave entrance (possibly missed during surf).
+  - Blocked: 4-12, 14.
+  - Testing: 15.
+- Action: Moving to (15, 3) to test (15, 4).
+- Hypothesis: This is the LAST possible ledge. If this fails, the room is a trap/exit-only.
+- Contingency: Use Escape Rope to reset to Room 2 entrance or PokeCenter.
