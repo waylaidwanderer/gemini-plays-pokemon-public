@@ -1,13 +1,15 @@
-# Current Strategy: Post-Game
-- **Timestamp:** Turn 25861 (Jan 6, 2026)
-- **Primary Goal:** Challenge Red at Mt. Silver.
-- **Immediate Task:** Challenge Red.
-- **Sequence:**
-    1. Save the game (optional but good practice).
-    2. Approach Red at (9, 10).
-    3. Interact to start the final battle.
-- **Red Found:** He is standing at (9, 10) in Silver Cave Room 3.
-- **Preparation:** Muscle (Machoke Lv83) is the primary carry. Support team is weak. Reliance on items (Revives, Potions) will be heavy if Muscle faints.
+# Current Strategy: Battle vs Red
+- **Timestamp:** Turn 25912 (Jan 6, 2026)
+- **Primary Goal:** Defeat Red.
+- **Immediate Task:** Defeat Pikachu.
+- **Battle Plan:**
+    1. **Pikachu (Lv81):** Use Muscle's Cross Chop. High chance to OHKO due to low Defense.
+    2. **Espeon (Lv73):** Switch to Kunai (Sneasel) for Shadow Ball (Ghost vs Psychic) or brute force with Muscle.
+    3. **Snorlax (Lv75):** Muscle's Cross Chop (Super Effective).
+    4. **Venusaur (Lv77):** Muscle's Ice Punch (Super Effective).
+    5. **Charizard (Lv77):** Muscle's ThunderPunch (Super Effective).
+    6. **Blastoise (Lv77):** Muscle's Cross Chop or ThunderPunch (Super Effective).
+- **Resources:** Full Restores and Revives are key. Muscle is the MVP.
 
 # Recent Discoveries
 - Found Max Revive at (6, 3) in the isolated Left Section of the Item Room.
