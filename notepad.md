@@ -2,14 +2,13 @@
 - **Timestamp:** Turn 25602 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- Current Location: Silver Cave Pokemon Center (3, 7). Inside.
-- Action: Healed at Pokemon Center.
+- Current Location: Silver Cave Pokemon Center (3, 3).
+- Action: Skipping heal (Party is full and checkpoint is already set).
 - Plan:
-    1. Walk to Nurse Joy (3, 3).
-    2. Heal Party.
-    3. Check Fly Map.
-    4. Exit and enter Silver Cave (18, 11).
-    5. Search for hidden path to Route 28 House.
+    1. Exit Pokemon Center.
+    2. Enter Silver Cave (18, 11).
+    3. Explore Silver Cave for a hidden path to the Route 28 House.
+    4. Watch for high-level wild Pokemon.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
