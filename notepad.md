@@ -4,10 +4,10 @@
 - Blackthorn City (Pokemon Center): Warp at (21, 30).
 - Route 45: High-level training area.
 
-# Tile Mechanics: Johto
-- FLOOR: Walkable. Verified.
-- WALL: Impassable. Verified.
-- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
+## Tile Mechanics
+- FLOOR: Walkable.
+- WALL: Impassable.
+- TALL_GRASS: Walkable. Triggers wild encounters.
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN: Triggers map transition when walking down.
 - DOOR: Triggers map transition when entered.
@@ -32,18 +32,13 @@
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
 
 # Current Plan
-1. Training Phase: Lv40+ for Xenon and Kimchi on Route 45. (Started Turn 33130).
-   - Xenon: Lv34 -> Lv40
-   - Kimchi: Lv32 -> Lv40
-2. Gym Phase: Challenge Blackthorn Gym for the Rising Badge.
-
 ## Training Strategy: Route 45
 - Lead: GNEISS (Lv47).
 - Participation: Switch to Xenon/Kimchi for shared EXP when safe.
 - Passive: XENON holds EXP.SHARE.
 - Logistics: Fly to Blackthorn PC for healing when PP/HP is low.
+- Goals: Xenon Lv40+, Kimchi Lv40+.
 
 ## Route 45 Exploration Status
 - Unseen tiles remaining. Priority: Check for missed items/trainers while grinding.
-- Verified Trainers: Hiker Erik (10, 16), Hiker Parry (5, 28), Cooltrainer Kelly (5, 34), Hiker Timothy (9, 65), Camper Quentin (4, 70).
-- Verified Items: Max Repel (7, 33).
+- Verified Items: Max Repel (7, 33). Picked up. (Turn 32915).
