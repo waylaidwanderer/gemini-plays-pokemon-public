@@ -244,7 +244,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", # Clear UI\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure top of menu (POKEDEX)\n        \"Down\", \"A\", \"sleep 500\", # Select POKEMON\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure top of party (KIMCHI)\n        \"Down\", \"A\", \"sleep 500\", # Select ICARUS (2nd slot)\n        \"A\", \"sleep 3000\" # Select FLY\n    ]\n    if navigation:\n        buttons.extend(navigation)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n\nif __name__ == \"__main__\":\n    main(input_data)\n",
+    "python_script": "import json\n\ndef main(input_data):\n    navigation = input_data.get('fly_map_navigation', [])\n    buttons = [\n        \"B\", \"B\", \"B\", \"B\", \"B\", # Clear UI thoroughly\n        \"Start\", \"sleep 500\",\n        \"Up\", \"Up\", \"A\", \"sleep 500\", # Select POKEMON (assuming cursor was on POKEGEAR)\n        \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Ensure top of party (KIMCHI) - does not wrap\n        \"Down\", \"A\", \"sleep 500\", # Select ICARUS (2nd slot)\n        \"A\", \"sleep 3000\" # Select FLY\n    ]\n    if navigation:\n        buttons.extend(navigation)\n    buttons.append(\"A\")\n    print(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -280,6 +280,11 @@
         "commit_message": "Simplified fly_to_blackthorn menu navigation for better reliability. Added more UI clearing and explicit slot selection logic.",
         "timestamp": "2026-01-07T06:08:56.812Z",
         "action_counter": 31784
+      },
+      {
+        "commit_message": "Refined fly_to_blackthorn to account for the Start menu cursor likely being on POKEGEAR and ensured party navigation is robust.",
+        "timestamp": "2026-01-07T06:12:59.392Z",
+        "action_counter": 31787
       }
     ]
   }
