@@ -48,7 +48,8 @@
 4. press_menu_buttons sequence (Turn #31892): Failed, entered Option menu.
 5. fly_to_city_v4 tool call (Turn #31891): Failed, JSON error.
 6. manual fly sequence (Turn #31895): Partially failed due to lag; ended up in KIMCHI's sub-menu instead of ICARUS'.
-- Total Failures: 6.
+- Total Failures: 7.
+7. Manual fly sequence (Turn #31896): Ended in Cianwood City instead of Blackthorn City. Likely due to incorrect scroll logic (Reset-to-New-Bark failed or cursor logic was off).
 
 # Decisive Action Phase
 - I am manually navigating the fly menu using press_menu_buttons. I've also refined the fly_to_city_v4 tool to be more robust for future use. No more multi-step sequences until we are out of this laggy area!
