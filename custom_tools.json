@@ -152,12 +152,17 @@
         "city_name"
       ]
     },
-    "python_script": "import json\ncity_name = input_data.get('city_name', '').upper()\ncities = [\"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \"MAHOGANY TOWN\", \"LAKE OF RAGE\", \"BLACKTHORN CITY\"]\nif city_name not in cities: print(json.dumps([]))\nelse:\n    target_idx = cities.index(city_name)\n    seq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'A', 'A', 'sleep 2000']\n    for _ in range(target_idx): seq.append('Up')\n    seq.extend(['A', 'sleep 1000', 'A'])\n    print(json.dumps(seq))",
+    "python_script": "import json\ncity_name = input_data.get('city_name', '').upper()\ncities = [\"NEW BARK TOWN\", \"CHERRYGROVE CITY\", \"VIOLET CITY\", \"AZALEA TOWN\", \"GOLDENROD CITY\", \"ECRUTEAK CITY\", \"OLIVINE CITY\", \"CIANWOOD CITY\", \"MAHOGANY TOWN\", \"LAKE OF RAGE\", \"BLACKTHORN CITY\"]\nif city_name not in cities: print(json.dumps([]))\nelse:\n    target_idx = cities.index(city_name)\n    seq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'A', 'Down', 'A', 'A', 'sleep 2000']\n    for _ in range(target_idx): seq.append('Up')\n    seq.extend(['A', 'sleep 1000', 'A'])\n    print(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T06:34:04.269Z",
         "action_counter": 31833
+      },
+      {
+        "commit_message": "Refined Fly menu navigation logic.",
+        "timestamp": "2026-01-07T06:34:55.324Z",
+        "action_counter": 31834
       }
     ]
   },
@@ -185,12 +190,32 @@
         "inventory"
       ]
     },
-    "python_script": "import json\ninventory = input_data.get('inventory', [])\ntarget = input_data.get('target_item', '')\npkmn_idx = input_data.get('pokemon_index', 1)\nidx = -1\nfor i, item in enumerate(inventory):\n    if target.upper() in item.upper():\n        idx = i + 1\n        break\nif idx == -1: print(json.dumps([]))\nelse:\n    seq = ['B', 'B', 'B', 'Start', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Down', 'Down', 'A', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up']\n    for _ in range(idx - 1): seq.append('Down')\n    seq.extend(['A', 'A', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up'])\n    for _ in range(pkmn_idx - 1): seq.append('Down')\n    seq.append('A', 'B', 'B', 'B')\n    print(json.dumps(seq))",
+    "python_script": "import json\ninventory = input_data.get('inventory', [])\ntarget = input_data.get('target_item', '')\npkmn_idx = int(input_data.get('pokemon_index', 1))\nidx = -1\nfor i, item in enumerate(inventory):\n    if target.upper() in item.upper():\n        idx = i + 1\n        break\nif idx == -1: print(json.dumps([]))\nelse:\n    seq = ['B', 'B', 'B', 'Start', 'Down', 'Down', 'A']\n    for _ in range(20): seq.append('Up')\n    for _ in range(idx - 1): seq.append('Down')\n    seq.extend(['A', 'A'])\n    for _ in range(6): seq.append('Up')\n    for _ in range(pkmn_idx - 1): seq.append('Down')\n    seq.extend(['A', 'B', 'B', 'B'])\n    print(json.dumps(seq))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-07T06:34:04.271Z",
         "action_counter": 31833
+      },
+      {
+        "commit_message": "Fixed Python append error and refined menu navigation logic.",
+        "timestamp": "2026-01-07T06:34:55.322Z",
+        "action_counter": 31834
+      }
+    ]
+  },
+  "find_reachable_unseen_tiles_v2": {
+    "description": "Finds the coordinates of unseen tiles that are adjacent to currently reachable walkable tiles.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    player_tile = root.find(\".//Tile[Player]\")\n    if player_tile is None: return []\n    start_x = int(player_tile.attrib['id'])\n    start_y = int(player_tile.getparent().attrib['id'])\n    \n    grid = {}\n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile\n            \n    reachable = set()\n    queue = deque([(start_x, start_y)])\n    reachable.add((start_x, start_y))\n    \n    while queue:\n        x, y = queue.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                tile = grid[(nx, ny)]\n                if tile.attrib['seen'] == 'true' and tile.attrib['type'] not in ['WALL', 'unseen']:\n                    if tile.find(\"Object\") is None and (nx, ny) not in reachable:\n                        reachable.add((nx, ny))\n                        queue.append((nx, ny))\n    \n    unseen_reachable = []\n    for x, y in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                tile = grid[(nx, ny)]\n                if tile.attrib['seen'] == 'false':\n                    unseen_reachable.append({\"x\": nx, \"y\": ny})\n                    \n    unique = []\n    seen_coords = set()\n    for item in unseen_reachable:\n        coord = (item[\"x\"], item[\"y\"])\n        if coord not in seen_coords:\n            unique.append(item)\n            seen_coords.add(coord)\n    return unique\n\nprint(json.dumps(solve()))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-07T06:34:55.325Z",
+        "action_counter": 31834
       }
     ]
   }
