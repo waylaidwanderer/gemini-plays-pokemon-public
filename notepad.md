@@ -20,14 +20,14 @@
 
 # Item Tracking
 - AMULET COIN: In Bag (Turn 33085).
-- EXP.SHARE: Held by XENON (Lv33).
+- EXP.SHARE: Held by XENON.
 - PNK APRICORN: In Bag (Turn 33081).
 - HARD STONE: Held by GNEISS.
 
 # Current Plan
-1. Return to Route 45 for efficient training (Lv12 wild Pokemon on Route 35 are too low for current party).
+1. Return to Route 45 for efficient training (Lv23+ wild Pokemon).
 2. Train Xenon and Kimchi to Lv40+.
-3. Verify if Xenon learned Shadow Punch at Lv33.
+3. Shadow Punch verified missing at Lv33.
 4. Return to Blackthorn City for Gym challenge.
 
 # Strategy: Rising Badge (Gym Leader Clair)
@@ -39,4 +39,4 @@
 - Party Management: Swap low-level members (Icarus, Ravioli) for stronger PC options (Naga Lv42, Blitz Lv40) before challenging.
 
 # Training Log: Route 45
-- Strategy: Lead with Gneiss (Lv46) to handle encounters quickly while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
+- Strategy: Lead with Gneiss (Lv46) while Xenon gains Exp. via Exp. Share. Focusing on Route 45 for higher level wild Pokemon (Lv23+).
