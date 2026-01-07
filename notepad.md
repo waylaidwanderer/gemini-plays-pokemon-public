@@ -2,8 +2,16 @@
 - FLOOR: Traversable. Standard ground.
 - WALL: Impassable. Structural barriers.
 - TALL_GRASS: Traversable. Wild encounter trigger.
+- LONG_GRASS: Traversable. Wild encounter trigger.
 - LEDGE_HOP: One-way traversal (down/left/right).
-- CAVE/WARP: Map transitions.
+- CAVE: Traversable; map transition.
+- WARP_CARPET_UP: Traversable; map transition.
+- WARP_CARPET_DOWN: Traversable; map transition.
+- WARP_CARPET_LEFT: Traversable; map transition.
+- WARP_CARPET_RIGHT: Traversable; map transition.
+- DOOR: Traversable; map transition.
+- STAIRS: Traversable; map transition.
+- LADDER: Traversable; map transition.
 - WATER: Traversable with HM03 SURF.
 - CUT_TREE: Impassable obstacle; removable with HM01 CUT.
 - HEADBUTT_TREE: Impassable obstacle; can be interacted with using Headbutt.
