@@ -32,3 +32,5 @@
 - Path confirmed clear via map analysis. Expecting smooth sailing.
 - Waterfall Interaction Issue: Attempted to ascend but failed. Game state shows 'Facing: down' after pressing Up. Suspect 'bump' animation reset facing.
 - Action: Pressing 'Up' to correct facing, then will press 'A'.
+- Facing Reset Strategy: Since moving 'Up' into the waterfall causes a bounce-back that resets facing to 'Down', I must approach (11, 30) from the South to ensure I am facing 'Up' without triggering the bounce.
+- Action: Moving Down to (11, 31), then Up to (11, 30). This should leave me at (11, 30) facing Up. Then I can press 'A'.
