@@ -1,9 +1,10 @@
 # Current Strategy: Return to Red
 - **Timestamp:** Turn 26611 (Jan 7, 2026) [Silver Cave Room 2]
-- **Status:** Exploring East Landmass (Room 2) at (15, 30).
-- **Action:** Navigating North-East to (19, 26).
-- **Path:** (15, 30) -> (16, 30) -> North to Row 28 -> East to Col 19 -> North.
-- **Goal:** Reach the northern open area (around 22, 24) to find the path to Red.
+- **Status:** Exploring East Landmass (Room 2) at (19, 26).
+- **Correction:** Column 19 is blocked to the East at rows 22-27. Must use Row 28 to cross East.
+- **Action:** Navigating to (22, 24).
+- **Path:** (19, 26) -> South to (19, 28) -> East to (22, 28) -> North to (22, 24).
+- **Goal:** Investigate the isolated area at (22, 24) for hidden items or cave entrances.
 
 # Key Findings
 - **Item Rooms (3_77):**
