@@ -21,6 +21,8 @@
     - Row 30 acts as a hard barrier across most of the map, separating the North and South sections.
 
 # Key Locations
-- **Mt. Silver Cave Entrance:** (18, 11)
-- **Pokemon Center:** (23, 19)
-- **Route 28 Exit:** (39, 31)
+- **Route 28 House:** (7, 3) [Unreachable]
+- **Route 28 Gatehouse:** (33, 5) -> Leads to Viridian/Victory Road
+- **Silver Cave Outside (Next Map):** Entrance at (0, 13) on Route 28.
+- **Mt. Silver Cave Entrance:** (18, 11) [On Silver Cave Outside Map]
+- **Pokemon Center:** (23, 19) [On Silver Cave Outside Map]
