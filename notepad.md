@@ -10,7 +10,7 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Talk to Professor Oak in Pallet Town.
-- **Status:** Arriving in Pallet Town from Route 1.
-- **Goal:** See if Oak has any new dialogue after defeating Red.
-- **Next:** Fly to New Bark Town (Prof Elm) or explore other post-game areas (e.g., complete Pokedex).
+- **Immediate Task:** Enter Oak's Lab and talk to the Professor.
+- **Status:** In Pallet Town.
+- **Goal:** Get feedback on Red defeat.
+- **Next:** Fly to New Bark Town.
