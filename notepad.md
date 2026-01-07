@@ -40,7 +40,7 @@
 - Dark Cave Entrance: Route 45 (2, 5).
 
 # Turn Synchronization Note
-- Turn #31861.
+- Turn #31862.
 
 # Area Mechanics: Route 30
 - TALL_GRASS: Traversable, triggers wild encounters.
