@@ -3,17 +3,16 @@
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Explore Silver Cave Room 1 (Northern Section).
 - **Sequence:**
-    1. Backtrack West from (14, 9) to (8, 9).
-    2. Go North to (8, 4).
-    3. Navigate East to (12, 4), then South to (12, 6), then East to (14, 6).
-    4. Explore the East Section (x>=14).
+    1. Backtrack West from (13, 9) to (8, 9).
+    2. Go North through the gap at (8, 7) to (8, 4).
+    3. Navigate East along Row 4 to (12, 4).
+    4. Go South to (12, 6), then East to (14, 6).
+    5. Explore the East Section (x>=14).
 
 # Tile Mechanics
 - **FLOOR_UP_WALL:** Acts as a South-facing Ledge (verified). Blocks North movement.
-- **Maze Solution:** x=13 is the main North-South corridor. x=8 connects to the item area.
+- **Maze Solution:** Access the North-East section by crossing the top corridor at Row 4.
 - **Navigation Notes:**
-    - Central Area (x=8, y=2) is a dead end.
-    - Potential path North located at x=14 (accessed via row 6 crossing).
-    - Ledges at (4, 7) and (5, 7) trap the player. Escape is South.
-    - x=9 is blocked at y=11 and y=14-17. Use x=13.
-    - Wall at (4, 5) blocks direct South movement.
+    - Rows 8, 14, 20, 26, 34 all have ledges blocking North movement in various places.
+    - The gap at (8, 7) is the primary "up" ladder for this section.
+    - x=14 corridor is accessible from the top (Row 6).
