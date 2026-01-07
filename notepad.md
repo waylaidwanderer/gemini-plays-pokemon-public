@@ -2,13 +2,13 @@
 - **Timestamp:** Turn 25496 (Jan 6, 2026)
 - **Primary Goal:** Challenge Red at Mt. Silver.
 - **Immediate Task:** Reach the Northwest area of Silver Cave Outside.
-- **Current Status:** At (29, 31), navigating East via Row 32.
-- **Route (Double Loop):**
-    1. Go Down to Row 32.
-    2. Go East along Row 32 to x=37.
-    3. Go Up to Row 31.
-    4. Go East to (39, 31).
-    5. Attempt to walk Down at (39, 31) to jump the ledge at (39, 32).
+- **Current Status:** At (39, 31). Attempted to jump South at (39, 31) but failed (Wall).
+- **New Discovery:** `LEDGE_HOP_DOWN` tiles exist at (31-34, 31). These are reachable from the current position.
+- **Revised Plan:**
+    1. Walk West to (31, 30).
+    2. Jump South over the ledge at (31, 31) to reach the Bottom Loop (Row 32).
+    3. Walk West along Row 32/33 to x=1.
+    4. Walk North along x=1 to the Northwest corner.
 
 # Tile Mechanics & Observations
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** Standard one-way jumpable tiles.
