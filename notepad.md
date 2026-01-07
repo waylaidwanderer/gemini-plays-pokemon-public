@@ -22,7 +22,7 @@
 - Team: Xenon (Haunter), Kimchi (Gloom), Calcifer (Typhlosion), Gneiss (Graveler).
 - Plan: Use Night Shade (Xenon) for fixed damage. Use Sleep Powder/Hypnosis for control.
 - Level Targets: Xenon Lv40, Kimchi Lv40, Gneiss Lv50, Calcifer Lv50.
-- Training Start: Turn 32625.
+- Training Start: Turn 32625 (Wed Jan 7 9:15 AM).
 
 # World Events & Rematches
 - Yanma Swarm: Route 35 (Arnie).
@@ -30,10 +30,9 @@
 - Alan (Schoolboy): Route 36.
 - Chad (Schoolboy): Route 38.
 
-# Unexplored Areas
-- Route 45: (11, 20-36) area; (17, 82-89) area.
+# Lessons Learned
+- Menu Navigation: Limit manual sequences to 1-3 buttons. Verify screen state after each call. Distinguish between cyclic and directional map navigation.
 
 # Training Progress (Route 45)
 - Strategy: Lead with Xenon (Amulet Coin). Exp. Share on Kimchi.
-- Status: Xenon Lv32 (64/82 HP, 12/15 Night Shade PP), Kimchi Lv31.
-- Session Turn: 32900.
+- Status: Xenon Lv32 (64/82 HP), Kimchi Lv31.
