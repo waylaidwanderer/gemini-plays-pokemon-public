@@ -12,8 +12,7 @@
 - **Warp Carpet:** Located at Row 29/31. Avoid stepping on them unless exiting.
 - **Waterfalls:** Found at Row 28/29. Requires HM07 Waterfall.
 - **Waterfall Mechanics:** Walking into a waterfall causes a slide-back, setting facing to DOWN. To ascend, ensure facing UP (move away and back if needed) then press A to interact. Requires HM07.
-- **Immediate Task:** Explore the Upper Area of Silver Cave Room 2.
+- **Immediate Task:** Explore Silver Cave Room 2 Upper Area.
 - **Sequence:**
-    1. Confirm usage of Waterfall (Press A).
-    2. Explore the area above the waterfall.
-    3. Look for Warps or Items.
+    1. Land at (11, 25).
+    2. Explore North to find Warps or Items.
