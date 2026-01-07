@@ -72,6 +72,7 @@
 - Up x6: Olivine City.
 - Up x7: Cianwood City.
 - Up x8: Mahogany Town.
+- Up x9: Lake of Rage.
 - Goal: Blackthorn City.
 
 # Strategy for Beating Gym Leader Clair
