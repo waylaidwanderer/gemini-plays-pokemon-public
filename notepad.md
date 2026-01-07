@@ -28,10 +28,12 @@
     5. Explore the NW corner for hidden items or houses.
 - **Troubleshooting:** Standard exit (Up, Down) failed to trigger the warp. Retrying with `slow_press` and an extra Down input to ensure the warp event registers.
 - **Hypothesis:** The "step-on" event might need more time or a forceful "bump" into the southern wall to trigger properly.
-- **Current Action:** Successfully navigated the gap at (28, 30). Now at (28, 32).
-- **Obstacle:** Westward movement at Row 32/33 is blocked by walls (x=25-27).
-- **Solution:** Row 34 contains `FLOOR_UP_WALL` tiles, which likely act as ledges. I must jump South to Row 35 (FLOOR) to traverse West.
-- **Revised Route:**
-    1. Jump South over the ledge at (28, 34) to reach Row 35.
-    2. Walk West along Row 35 to x=1.
-    3. Head North to the Northwest corner.
+- **Reasoning:** `FLOOR_UP_WALL` at (28, 34) acts as a solid wall from the North. Cannot jump South.
+- **Correction:** Re-evaluating the path at x=5. My previous note that it was a dead end was likely mistaken. Mental Map shows a clear path North at x=5 from y=27 up to y=22, and then West at y=22 to x=1.
+- **New Plan (Backtrack):**
+    1. Go North to (28, 29).
+    2. Go West to Water (16, 29).
+    3. Surf West to x=13.
+    4. Go West to (5, 27).
+    5. Go North to (5, 22).
+    6. Go West to (1, 22) and explore North.
