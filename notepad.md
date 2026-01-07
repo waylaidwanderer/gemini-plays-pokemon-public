@@ -20,7 +20,7 @@
 
 # Training Progress (Route 45)
 - Session Start: Turn 32625.
-- Status (Turn 32943): Xenon (Lv32, 48/82 HP, Night Shade 1 PP), Kimchi (Lv31, 82/82 HP).
+- Status (Turn 32958): Xenon (Lv32, 82/82 HP), Kimchi (Lv31, 82/82 HP).
 - Goal: Lv40 for both.
 
 # Strategy: Rising Badge (Gym Leader Clair)
