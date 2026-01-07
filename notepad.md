@@ -32,7 +32,8 @@
 # Strategy: Current Status
 - Goal: Return to Route 45 to continue training.
 - Status: Party fully healed (Turn #32174). XENON (Lv30), KIMCHI (Lv29).
-- Next: Fly to Blackthorn City. Pacing in grass at (4, 11) for levels.
+- Next: Pacing in grass at (4, 11) on Route 45 for levels.
+- Fly map 'Down' from New Bark Town confirmed to wrap to Blackthorn City.
 
 # Fly Map Observation (Turn #32180)
 - Start: New Bark Town.
