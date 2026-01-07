@@ -10,6 +10,6 @@
 - **Location:** Route 22 (Map 23_2).
 - **Post-Red Status:** Team fully healed automatically.
 - **Next Stop:** Viridian City -> Pallet Town.
-- **Immediate Task:** Finish testing Ledge Jump at x=20, 19, 18.
-- **Hypothesis:** `FLOOR_UP_WALL` at y=16 is the only exit (South). If walking fails, will try Bicycle next.
-- **Trap Analysis:** Confined to x=18-37, y=14-15. North=Ledge, West=Wall, East=Wall, South=Ledge. Must jump South.
+- **Immediate Task:** Escape the ledge trap.
+- **Solution:** Found a gap in the northern ledge at (33, 13). The southern "ledge" at y=16 is actually a wall.
+- **Plan:** Walk East to x=33, go Up through the gap, then proceed North-East to Viridian City exit at (39, 9).
