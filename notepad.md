@@ -8,40 +8,42 @@
 - CUT_TREE: Obstacle (Cut).
 - BOULDER: Obstacle (Strength).
 - COUNTER: STAND ADJACENT to interact with NPC behind.
-- WARP_CARPET: Walk off-grid to transition.
 - PC: Stand below and face up to interact.
-- BUOY: Impassable water boundary.
 
 # Tile Mechanics: Route 45
-- LEDGE_HOP_DOWN (⤵️): One-way movement (Top -> Bottom). Verified Turn #31027.
-- LEDGE_HOP_LEFT (↩️): One-way movement (Right -> Left). Verified Turn #31027.
-- LEDGE_HOP_RIGHT (↪️): One-way movement (Left -> Right). Verified Turn #31027.
+- LEDGE_HOP_DOWN (⤵️): One-way movement (Top -> Bottom).
+- LEDGE_HOP_LEFT (↩️): One-way movement (Right -> Left).
+- LEDGE_HOP_RIGHT (↪️): One-way movement (Left -> Right).
 
 # Strategy: Johto League Training
-- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40 on Route 45.
-- Start Turn: #31883
+- Task: Train XENON (Haunter) and KIMCHI (Gloom) to Lv40.
 - Method: Exp. Share on Kimchi. Lead with Xenon (Amulet Coin).
-- Hazards: Magnitude/Earthquake (Geodude/Graveler). Use GNEISS (Graveler) as a backup.
+- Training Locations: Route 45 (high level Rock/Ground/Flying), Rematch Trainers (Dana, Arnie, Alan, Chad).
+- Hazards: Magnitude/Earthquake. Use GNEISS (Graveler) as backup.
 
 # Strategy: Rising Badge (Gym Leader Clair)
 - Lead: Xenon (Lv40+). Use Night Shade for fixed damage.
 - Support: Kimchi (Lv40+). Use Sleep Powder for CC.
 - Backup: Calcifer (Typhlosion) and Gneiss.
 
-# Significant Party Status (Turn #32215)
-- XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
-- KIMCHI (Gloom): Lv29. HP 77/77. EXP.SHARE.
-- Status: Fully healed. Returning to Route 45.
+# Strategy: Current Status
+- Goal: Collect gift and battle Dana on Route 38.
+- Status: Party fully healed (Turn #32174).
+- Next: Fly to Ecruteak City and head west to Route 38.
 
-# Fly Map Observation (Turn #32180)
-- Start: New Bark Town.
-- Input 'Up' -> Result: Cherrygrove City.
-- Input 'Down' -> Result: Blackthorn City (Wraps).
+# Significant Party Status (Turn #32221)
+- 1. XENON (Haunter): Lv30. HP 77/77. Night Shade: 15/15.
+- 2. ICARUS (Pidgey): Lv16. HP 43/43. Fly user.
+- 3. KIMCHI (Gloom): Lv29. HP 77/77. Holding EXP.SHARE.
+- 4. Ravioli (Krabby): Lv10. HP 27/27. Surf user.
+- 5. GNEISS (Graveler): Lv46. HP 129/129.
+- 6. Calcifer (Typhlosion): Lv48. HP 152/152.
 
-# Menu Mechanics
-- Start Menu: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT. Wraps.
-- Party Menu: 6 slots. Wraps.
-- Bag Pockets: Items, Balls, Key Items, TM/HM.
+# Pending Rematches / Gifts
+- Dana (Lass): Route 38. Battle/Gift offered (Turn #32125).
+- Arnie (Bug Catcher): Route 35. Battle offered (Turn #32082).
+- Alan (Schoolboy): Route 36. Rematch potential.
+- Chad (Schoolboy): Route 38. Rematch potential.
 
 # Fly Destinations (List Order)
 - New Bark Town, Cherrygrove City, Violet City, Azalea Town, Goldenrod City, Ecruteak City, Olivine City, Cianwood City, Mahogany Town, Blackthorn City.
