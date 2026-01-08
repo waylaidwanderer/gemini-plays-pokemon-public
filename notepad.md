@@ -8,9 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (Fly Map).
-- **Action:** Navigating Fly Map to Cianwood City.
-- **Method:** Using `slow_press` (Left x6, 800ms delay).
-- **Hypothesis:** Previous inputs were consumed by the map's opening animation/fade-in. Map should be fully responsive now.
+- **Action:** Resetting Map & Navigating to Cianwood.
+- **Method:** Using `slow_press` with 1000ms delay.
+- **Sequence:** B (Exit Map), A (Re-enter Map), Left x6 (Move to Cianwood).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
