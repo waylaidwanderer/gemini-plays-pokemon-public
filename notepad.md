@@ -15,9 +15,10 @@
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Use BFS to find the exact sequence. Manual attempts have failed due to complex wall collisions.
 - Verification Status:
-  - Row 0: (5,0), (7,0), (8,0) are WALLs (Verified).
+  - Row 0: (5,0), (8,0) are WALLs (Verified).
   - Column 4: (4,2) to (4,10) are WALLs.
   - Column 6: (6,2), (6,3), (6,4), (6,6) are WALLs.
+- Current Status: Strength active. Standing at (5,1). Heading to B8 to solve first.
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
@@ -32,4 +33,4 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
-- Current Status: Strength active. Standing at (7,9) on 1F. Transitioning to Left side via ladder at (1,7).
+- Boulder 8 Plan: (8,14) -> (6,14) -> (6,7) -> (8,7) PIT. Requires Stand at (9,14), (8,14), (6,15-8), (5,7), (6,7).
