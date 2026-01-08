@@ -44,3 +44,19 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
+
+# Hypotheses to Test
+1. Cody (4, 1) is a wall even after defeat. (Likely True).
+2. Boulders can be pushed into Trainers. (Likely False).
+3. Row 0 walls are all impassable. (Tested (5, 0), need to test others).
+4. Column 8/9 Row 4 walls are impassable. (Visual confirmation).
+5. B8 can be moved to the left side via Row 11 if (7, 11) is actually walkable. (Tested (7, 11), it was WALL).
+
+# Boulder 7 Plan (Revised)
+1. Move to (9, 1) via (7, 1) -> (7, 2) -> (8, 2) -> (9, 2).
+2. Push B7 (8, 1) Left to (7, 1).
+3. Push B7 (7, 1) Left to (6, 1).
+4. Push B7 (6, 1) Left to (5, 1).
+5. See if B7 can be pushed into Cody at (4, 1).
+6. If not, B7 MUST go Down Column 5. (Requires (5, 0) to be walkable, but tested it as WALL).
+7. RE-TEST (5, 0) carefully. Maybe I hit a corner?
