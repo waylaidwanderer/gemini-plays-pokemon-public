@@ -14,17 +14,18 @@
 - **Major Target:** Catch Legendary Beasts (Raikou, Entei, Suicune).
 - **Major Target:** Catch Ho-Oh.
 
-# Reflection (Turn 28561)
-- **Execution:** Successfully healed up.
-- **Error:** Miscounted 'B' presses when navigating Start Menu, accidentally closing it instead of backing up one level.
-- **Lesson:** The Start Menu is the root menu level. Pressing 'B' there closes the menu entirely. Verify menu depth before canceling.
-- **Strategy:** To find Raikou/Entei, use Pokedex -> Search/Scroll -> Check Area.
+# Reflection (Turn 28611)
+- **Status:** In Route 36 Grass, preparing to hunt Roamers.
+- **Execution:** Recovered from menu navigation errors by using `slow_press` and visual confirmation.
+- **Lesson:** Start Menu navigation requires strict state tracking. Visual confirmation is safer than blind input chains.
+- **Hunt Start:** Turn 28611.
+- **Strategy:** Max Repel active. Gyarados (Lv 36) Lead. Run in grass. If encounter != Roamer, Run. If Roamer, Master Ball (if available) or Sleep.
 
 # Legendary Beast Tracking
-- Search Mode: Pokedex List.
-- Target: Raikou (#238 Johto / #243 National) & Entei (#239 Johto / #244 National).
-- Suicune: Fixed encounters/events, not roaming in Crystal.
-- Plan: Scroll UP from #011 to wrap to bottom of list.
+- Search Mode: Blind Hunt (Repel Trick).
+- Target: Raikou (#238) & Entei (#239).
+- Method: Route 36/37 Border hopping.
+- Current Step: Activating Max Repel.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex.
