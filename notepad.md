@@ -10,6 +10,11 @@
 - LADDER: (1, 7), (7, 9)
 - FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
 
+## solve_boulders Schema Reminder
+- boulders: {"ID": [X, Y], ...}
+- player_pos: [X, Y]
+- walls: [[X, Y], ...]
+
 ## Puzzle Strategy
 - Step 1: Call `solve_boulders` with exact [X, Y] coordinates and string IDs.
 - Step 2: Ensure walls list includes borders, confirmed walls, NPCs, and ladders.
