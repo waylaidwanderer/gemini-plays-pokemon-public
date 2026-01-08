@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Start Menu).
-- **Action:** Opening Pokemon Menu.
-- **Sequence:** A (Enter Pokemon) -> Select Mistral -> Select Fly.
+- **Location:** New Bark Town (Pokemon List).
+- **Action:** Selecting Mistral.
+- **Sequence:** A (Open Sub-menu) -> Select Fly.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
