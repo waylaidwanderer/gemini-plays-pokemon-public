@@ -8,9 +8,10 @@
 # Blackthorn Gym Puzzle Analysis
 - Start Turn: 34501
 - Goal: Fill three pits on 2F to bridge gaps on 1F.
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 15) [Default Positions].
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 16) [Current Positions].
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Critical Mechanic: Changing floors (using ladders) RESETS all boulder positions on 2F. (Verified Turn 34592).
+- Push Mechanic: Player stays in place after push (Verified Turn 34644).
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
