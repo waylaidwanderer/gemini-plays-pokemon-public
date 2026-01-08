@@ -43,5 +43,5 @@
 ## Current Targets (Reachable Unseen)
 - Column 10-11: (11, 37), (10, 38). Immediate area.
 - Column 12-14: (14, 68), (14, 69), (14, 70), (14, 72), (14, 73), (12, 74), (13, 74). South area.
-- Items: Poke Ball at (7, 33).
+- Items: Max Potion collected at (7, 33) Turn 33849.
 - Pathing: Hop down ledge at (12, 29) - Completed Turn 33842.
