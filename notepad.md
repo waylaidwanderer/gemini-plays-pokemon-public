@@ -17,9 +17,10 @@
     7. Surf South/East to South Landing at **(36, 22)**.
     8. Walk North to Cave Entrance at **(36, 19)**.
     9. Inside Cave (1F): Navigate North to Row 9 to bypass Wall at (10, 11).
-    10. Attempted to enter Ladder area from Top (Row 9 -> Row 10) - Blocked.
-    11. Hypothesis: Ladder at (13, 11) is an EXIT from B1F. Must access via B1F.
+    10. Attempted to enter Ladder area from Top (Row 9 -> Row 10) - Blocked by FLOOR_UP_WALL (Exit Ledge).
+    11. Confirmed: Ladder at (13, 11) is an EXIT from B1F. Must access via B1F.
     12. Navigate to Upper Ladder at (17, 3) to enter B1F.
+    13. On B1F: Find path to Ladder Up at approx (13, 11).
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Visible].
