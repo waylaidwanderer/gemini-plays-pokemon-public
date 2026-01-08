@@ -4,20 +4,18 @@
 - Requirement: Clair refused to give the badge. Must complete "Dragon User Challenge" in Dragon's Den.
 - Dragon's Den Location: "Behind the Gym".
 
-## Battle Results: Gym Leader Clair
-- Opponent: Leader Clair (4 Pokémon)
-- Pokémon 1: Dragonair (Lv37). Defeated.
-- Pokémon 2: Kingdra (Lv40). Defeated.
-- Pokémon 3: Dragonair (Lv37). Defeated.
-- Pokémon 4: Dragonair (Lv37). Defeated.
-- Victory Turn: 35238. Reward: ¥4000.
+## Strategy: Dragon User Challenge
+1. Heal party at Blackthorn Pokemon Center.
+2. Navigate to the area north (behind) the Blackthorn Gym.
+3. Locate entrance to Dragon's Den.
+4. Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
-- LADDER: Warp between floors (1F/2F).
-- WARP_CARPET_DOWN: Exit from the building.
-- COUNTER: Interaction point for Nurse/Clerk. Face and press A.
+- LADDER: Warp between floors.
+- WARP_CARPET_DOWN: Exit from buildings.
+- COUNTER: Impassable interaction point for Nurse/Clerk. Face and press A from adjacent tile.
 - PC: Access Pokemon storage.
 
 ## Blackthorn Gym Puzzle (2F) - SOLVED
@@ -25,13 +23,11 @@
 - Pits: P1(8,3), P2(2,5), P3(8,7).
 
 ## Lessons Learned
-- Clair's Badge: Defeating her isn't enough; requires a second trial in Dragon's Den.
-- Dragon's Den: Centered around a "small shrine".
-- Dragonair Typing: Dragon. Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
-- Kingdra Typing (Gen 2): Water/Dragon. Resists Fire, Water (0.25x). Neutral (1.0x) to Electric, Grass, Ice. Weak to Dragon (2.0x).
-- Note: Observed Thunderpunch (Electric) was neutral against Kingdra.
-
-## To-Do
-- Heal party at Pokemon Center (21, 29).
-- Find entrance to Dragon's Den north of the Gym.
-- Navigate Dragon's Den to the center shrine.
+- Clair's Badge: Defeating her is not sufficient; a second trial in Dragon's Den is required.
+- Dragon's Den: Contains a central shrine.
+- Type Effectiveness (Gen 2):
+    - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
+    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass (0.5x). Weak to Dragon. Ice is neutral.
+    - Note: High level differences (e.g., Lv49 vs Lv40) can make resisted damage appear neutral.
+- Smokescreen: Reduces accuracy. Stat changes reset upon switching.
+- NPC Interaction: Counter tiles act as barriers; interact with NPCs across them.
