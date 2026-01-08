@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Resuming Hunt (Post-Call/Reset).
-- Action: Grass Sweep (Enter -> Wiggle).
-- Path: Down x2 -> Left -> Right -> Down -> Up.
-- Hunt Session: Turn 28747.
+- Status: Repel Wore Off.
+- Action: Renewing Max Repel.
+- Sequence: Close Text -> Open Pack -> Use Max Repel.
+- Hunt Session: Turn 28748.
