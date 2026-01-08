@@ -1,11 +1,12 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Confirmed)
 - FLOOR / TALL_GRASS / GRASS: Walkable.
-- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12).
+- WALL / COUNTER / PC: Impassable.
+- FLOOR_UP_WALL (from North): Impassable. (Confirmed at 13, 12).
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
-- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement. (Confirmed: LEDGE_HOP_DOWN at 17, 13 triggers 2-tile descent; 12, 25 confirmed).
+- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement. (Confirmed: LEDGE_HOP_DOWN at 17, 13, 12, 25).
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
@@ -16,10 +17,10 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33838).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33841).
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49). Avoid switching KIMCHI into Gravelers.
-  - Progress: Xenon Lv36, Kimchi Lv33. (EXP.SHARE verified on KIMCHI).
+  - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles. Avoid switching KIMCHI into Gravelers.
+  - Progress: Xenon Lv36, Kimchi Lv33. (EXP.SHARE verified).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed.
@@ -38,7 +39,10 @@
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
-- Turn 50 Reflection (Turn 33838): Consistently verified mechanics (ledges, walls). Consolidated training strategy. Resolved menu loop. Pivot to exploration of south-east tiles.
 
 # Exploration Log
-- Potentially Reachable Unseen Tiles detected in column 11 and south-east. Tool 'find_reachable_unseen_tiles' refined for ledge logic.
+## Current Targets (Reachable Unseen)
+- Column 11-13 (y: 32, 33, 34, 36, 37): Path south past ledge at (12, 29).
+- Column 14 (y: 68, 69, 70, 72, 73): Path south/east.
+- Column 10 (y: 38): West of main path.
+- Column 12-13 (y: 74): Deep south.
