@@ -44,3 +44,6 @@
 - **Observed (Turn 27233):** Pallet -> Up -> Right = Viridian City.
 - **Inference:** Pallet -> Up = Viridian. Viridian -> Right = No Effect/Blocked?
 - **Plan:** Trying Up -> Right from Viridian. Expecting Pewter -> Cerulean.
+- **Observed (Turn 27234):** Viridian -> Up -> Right = Pewter City.
+- **Inference:** Viridian -> Up = Pewter. Right from Pewter didn't reach Cerulean (distance?).
+- **Plan:** Right x3 -> Down. Trying to cross the gap to Cerulean and head South to Saffron.
