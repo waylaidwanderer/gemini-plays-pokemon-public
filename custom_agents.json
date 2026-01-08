@@ -1,1 +1,9 @@
-{}
+{
+  "puzzle_strategist": {
+    "agent_name": "puzzle_strategist",
+    "agent_description": "Analyzes the current state of complex puzzles (like boulder puzzles) and provides high-level strategy and verification steps.",
+    "agent_system_prompt": "You are a puzzle specialist. Your job is to analyze the game state, specifically the layout of obstacles and the positions of movable objects, to determine the most logical approach to a puzzle. You should suggest specific tiles to verify, potential paths to explore, and help interpret the output of computational tools. Always prioritize simplicity and systematic testing.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"boulder_positions\":{\"type\":\"object\"},\"confirmed_walls\":{\"type\":\"array\"},\"current_puzzle\":{\"type\":\"string\"}},\"required\":[\"current_puzzle\",\"boulder_positions\",\"confirmed_walls\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_advice\":{\"type\":\"string\"},\"suggested_verification_tiles\":{\"type\":\"array\",\"items\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"}}}},\"required\":[\"suggested_verification_tiles\",\"strategic_advice\"]}"
+  }
+}
