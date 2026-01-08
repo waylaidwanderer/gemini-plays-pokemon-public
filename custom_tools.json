@@ -258,5 +258,31 @@
         "action_counter": 34231
       }
     ]
+  },
+  "solve_blackthorn_boulders_v3": {
+    "description": "Finds the shortest sequence of buttons to solve the Blackthorn Gym boulder puzzle by parsing the map XML. Accounts for the 'stay in place' push mechanic.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\nimport sys\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        input_data = json.loads(sys.argv[1])\n        start_px = input_data['player_x']\n        start_py = input_data['player_y']\n        \n        grid = [[0 for _ in range(width)] for _ in range(height)]\n        pits = []\n        boulders = []\n        \n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                if tile.attrib['type'] == 'WALL':\n                    grid[y][x] = 1\n                elif tile.attrib['type'] == 'PIT':\n                    grid[y][x] = 2\n                    pits.append((x, y))\n                \n                if tile.find('Boulder') is not None:\n                    boulders.append((x, y))\n                \n                if tile.find('Object') is not None:\n                    obj = tile.find('Object')\n                    if obj.attrib.get('id-name') not in ['BOULDER', 'ITEM']:\n                         grid[y][x] = 1\n\n        start_b = tuple(sorted(boulders))\n        queue = collections.deque([( (start_px, start_py), start_b, tuple(), [] )])\n        visited = { ( (start_px, start_py), start_b, tuple() ) }\n        \n        limit = 300000\n        while queue and limit > 0:\n            limit -= 1\n            (px, py), cur_b, filled, path = queue.popleft()\n            if len(filled) == 3:\n                print(json.dumps(path))\n                return\n\n            for dx, dy, name in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n                nx, ny = px + dx, py + dy\n                if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] != 1:\n                    if (nx, ny) in cur_b:\n                        nbx, nby = nx + dx, ny + dy\n                        if 0 <= nbx < width and 0 <= nby < height:\n                            if grid[nby][nbx] == 2 and (nbx, nby) not in filled:\n                                new_b = tuple(sorted([b for b in cur_b if b != (nx, ny)]))\n                                new_f = tuple(sorted(list(filled) + [(nbx, nby)]))\n                                if ((px, py), new_b, new_f) not in visited:\n                                    visited.add(((px, py), new_b, new_f))\n                                    queue.append(( (px, py), new_b, new_f, path + [name] ))\n                            elif grid[nby][nbx] == 0 and (nbx, nby) not in cur_b:\n                                new_b = tuple(sorted([b if b != (nx, ny) else (nbx, nby) for b in cur_b]))\n                                if ((px, py), new_b, filled) not in visited:\n                                    visited.add(((px, py), new_b, filled))\n                                    queue.append(( (px, py), new_b, filled, path + [name] ))\n                    else:\n                        if ((nx, ny), cur_b, filled) not in visited:\n                            visited.add(((nx, ny), cur_b, filled))\n                            queue.append(( (nx, ny), cur_b, filled, path + [name] ))\n        print(\"[]\")\n    except Exception:\n        print(\"[]\")\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T09:00:53.549Z",
+        "action_counter": 34291
+      }
+    ]
   }
 }
