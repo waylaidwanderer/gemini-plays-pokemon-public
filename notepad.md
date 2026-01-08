@@ -7,12 +7,12 @@
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
   - **Access:** Must land at **(36, 22)** (South side).
-  - **Path (Far East Loop):**
-    1. Surf East along Row 9 to **(38, 9)**.
-    2. Surf North to **(38, 7)** to bypass Row 8 Buoys (39-43).
-    3. Surf East along Row 7 to **(44, 7)**.
-    4. Surf South down Column 44 to **(44, 19)**.
-    5. Surf West to Landing at **(41, 19)**.
+  - **Path (East Channel Whirlpool Route):**
+    1. Surf South down Column 48 to **(48, 27)**.
+    2. Surf West along Row 27 to **(42, 27)**.
+    3. Surf North up Column 42 to **(42, 24)**.
+    4. Use Whirlpool at **(42, 24)**.
+    5. Surf North to Landing at **(41, 19)**.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
