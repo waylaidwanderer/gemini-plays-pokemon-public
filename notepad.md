@@ -17,7 +17,7 @@
 
 ## Puzzle Strategy
 - Step 1: Call `solve_boulders` with exact [X, Y] coordinates and string IDs.
-- Step 2: Ensure walls list includes XML walls, NPCs, and ladders.
+- Step 2: Ensure walls list includes borders, confirmed walls, NPCs, and ladders.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
