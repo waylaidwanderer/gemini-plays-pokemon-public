@@ -17,6 +17,9 @@
 1. Audit walls in Column 7 and 9 to find the intended path for B8.
    - (9, 13): Verified WALL (Turn 35095).
    - (7, 14): Verified WALL (Turn 35096).
+   - (9, 12): Verified WALL (Turn 35093).
+   - Test (7, 11) from (7, 12).
+   - Test (8, 9) from (8, 10).
 2. Use run_code to find a solution by testing single-wall removals in the right area.
 3. Verify the discovered "fake" wall in-game.
 4. Execute the verified push sequence.
