@@ -37,7 +37,7 @@
 - **Route 6 Navigation:** Water pond at Row 11 blocks direct path. Must navigate via the eastern side (approx x=16) to cross North.
 - **Map Correction:** House at (13, 13) is Magnet Train Speech House, NOT Fan Club.
 - **Plan:** Check house at (21, 17) (South of Mart). (21, 13) is the Mart.
-- **Investigation:** Inside Magnet Train House (12_8). Talking to NPCs to confirm.
-- **Hypothesis:** Fan Club is likely the building with the "Did you know?" sign near the Gym.
+- **Investigation:** Confirmed 'Magnet Train House' (12_8) is NOT Fan Club.
+- **Search:** Fan Club must be in the Southwest, near the Gym.
 - **Map Correction:** House at (21, 17) is Diglett's Cave Speech House.
 - **Search:** Fan Club must be elsewhere. Checking near Gym (Southwest).
