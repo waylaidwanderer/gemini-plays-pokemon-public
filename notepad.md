@@ -5,10 +5,10 @@
 - Status: Strength ACTIVE (Turn 34932)
 
 ## Tile Mechanics (2F)
-- WALL: (0, 0-17), (9, 0-17), (4, 0-12), (6, 2-4, 6), (7, 4, 6, 10, 11, 14, 15), (8, 0, 4, 8, 9), (2, 2, 8, 10-17), (5, 0, 10, 12, 16, 17), (3, 0, 8), (1, 0, 2)
+- WALL: XML data + (4, 1), (4, 11), (1, 7), (7, 9)
 - PIT: (8, 3), (2, 5), (8, 7)
 - LADDER: (1, 7), (7, 9)
-- FLOOR: (6, 10), (5, 4) gap?, (4, 13) gap
+- FLOOR: (6, 10), (4, 13) gap
 
 ## solve_boulders Schema Reminder
 - boulders: {"ID": [X, Y], ...}
@@ -17,7 +17,7 @@
 
 ## Puzzle Strategy
 - Step 1: Call `solve_boulders` with exact [X, Y] coordinates and string IDs.
-- Step 2: Ensure walls list includes borders, confirmed walls, NPCs, and ladders.
+- Step 2: Ensure walls list includes XML walls, NPCs, and ladders.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
