@@ -8,9 +8,8 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Opening Party Menu.
-- **Risk:** Cursor might remember last position (Mistral).
-- **Immediate Plan:** Press A to open Party. Check cursor position before selecting.
+- **Action:** Selecting Mistral for Fly.
+- **Immediate Plan:** Press A to open options for Mistral -> Select Fly.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
