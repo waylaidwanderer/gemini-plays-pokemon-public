@@ -43,4 +43,4 @@
   1. Hunt in grass (~20 steps total).
   2. If no encounter, exit East to Violet City to reset.
   3. Return and repeat.
-- Current Step Count: ~13 steps in grass.
+- Current Step Count: ~19 steps in grass.
