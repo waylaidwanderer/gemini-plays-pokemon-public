@@ -1,32 +1,26 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Battle Task: Defeat Dragonair #3 (Started Turn 35227)
-- Current Turn: 35232
+- Current Turn: 35234
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). (FAINTED)
 - Pokémon 2: Kingdra (Lv40). (FAINTED)
 - Pokémon 3: Dragonair (Lv37). Moves: Thunderbolt, Thunder Wave. (HP: 100%)
-- Status: Xenon fainted. Calcifer (Lv49) at 108/155 HP (PAR). Kimchi (Lv34) at 51/90 HP.
-- Strategy: Calcifer is paralyzed (Turn 35228). Applying Full Heal. Dragonair resists Fire/Electric/Water/Grass, so use Return for neutral physical damage.
-- Plan: Press A to use Full Heal on Calcifer (Turn 35232). Next turn, use Return.
+- Status: Xenon fainted. Calcifer (Lv49) at 108/155 HP. Kimchi (Lv34) at 51/90 HP.
+- Strategy: Calcifer is cured of paralysis (Full Heal used Turn 35219). Dragonair resists Fire/Electric/Water/Grass, so use Return for neutral physical damage.
+- Plan: Clear text box (Turn 35234). Use Return to defeat Dragonair.
 - Note: Dragonair resists Fire, Water, Electric, Grass (0.5x). Weak to Ice and Dragon (2.0x). Normal is neutral.
-- Type Effectiveness (Gen 2):
+- Type Effectiveness (Gen 2) - Corrected:
     - Dragonair (Dragon): Resists Fire, Water, Electric, Grass (0.5x). Weak to Ice, Dragon (2.0x).
-    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass, Ice (0.5x). Weak to Dragon (2.0x). Ice is neutral for pure Dragon, but Water resists it. Wait, Dragon is neutral to Ice? No, Dragon is weak to Ice. Water resists Ice. So Kingdra is neutral to Ice. Overwatch was wrong? Let me check.
-    - Gen 2: Dragon is weak to Ice. Water resists Ice. So Water/Dragon (Kingdra) is 2.0 * 0.5 = 1.0 (Neutral).
-    - Gen 2: Dragon resists Fire, Water, Electric, Grass. Water resists Fire, Water, Ice.
-    - Kingdra (Water/Dragon):
-        - Fire: 0.5 * 0.5 = 0.25
-        - Water: 0.5 * 0.5 = 0.25
-        - Electric: 0.5 * 1.0 = 0.5
-        - Grass: 0.5 * 1.0 = 0.5
-        - Ice: 2.0 * 0.5 = 1.0 (Neutral)
-    - Dragonair (Dragon):
-        - Fire, Water, Electric, Grass: 0.5
-        - Ice, Dragon: 2.0
-    - Okay, fixing the notepad.
+    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x). Neutral (1.0x) to Electric, Grass, Ice. Weak to Dragon (2.0x).
+    - Note: In Gen 2, Dragon resists Fire/Water/Electric/Grass. Water resists Fire/Water/Ice.
+    - Calculation for Kingdra:
+        - Electric/Grass: 2.0 (Water) * 0.5 (Dragon) = 1.0 (Neutral).
+        - Ice: 0.5 (Water) * 2.0 (Dragon) = 1.0 (Neutral).
+        - Fire/Water: 0.5 (Water) * 0.5 (Dragon) = 0.25 (Resist).
+- Smokescreen: Lowers accuracy. Switching resets stat stages. (Calcifer was switched in Turn 35206, resetting his accuracy).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile. Verified Turn 35145. No special properties.
