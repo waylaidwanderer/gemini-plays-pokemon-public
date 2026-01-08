@@ -19,10 +19,11 @@
 - Test 7: (5, 10) -> Confirmed WALL (Turn 34896).
 - Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
 - Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
-- Test 10: (2, 13) gap -> Pending.
-- Test 12: (6, 10) -> Confirmed FLOOR (Turn 34914).
-- Goal: Reactivate Strength at B8 (8, 14) and verify (3, 8) and (8, 8).
-- Strategy: Move to (8, 13), interact with B8, then navigate to (3, 9) and (7, 8) to test walls.
+- Test 10: (2, 13) -> Pending.
+- Test 13: (3, 8) -> Pending.
+- Test 14: (8, 8) -> Pending.
+- Strategy: Verify (2, 13), then (3, 8), then (8, 8).
+- Goal: Complete the map to find the path for B8 to reach P3 (8, 7).
 
 # Verified Obstacles (2F)
 - Column 4: (4, 1), (4, 9), (4, 10), (4, 11), (4, 12) are WALLs.
