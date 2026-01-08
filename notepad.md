@@ -38,6 +38,5 @@
 - Location: Route 36 (East Side).
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
 - Activity: Resetting Roamer Positions.
-- Action: Walk to East Edge (59, 8) -> Exit to Violet City -> Immediately Return.
-- Current Step: Moving to map edge (x=59).
-- Note: LASS at (53, 8) blocking direct path. Pathfinding will detour.
+- Action: Navigating to Gate (59, 8) to exit map.
+- Plan: Exit -> Re-enter -> Hunt.
