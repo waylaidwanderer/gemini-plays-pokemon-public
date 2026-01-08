@@ -42,3 +42,4 @@
     - Vermilion Fan Club: Southwest Vermilion.
     - Magnet Train Speech House: Vermilion (13, 13).
     - Diglett's Cave Speech House: Vermilion (21, 17).
+- **Tool Failure:** 'find_path' crashed on Turn 27525 (Unexpected end of JSON). Relying on manual navigation.
