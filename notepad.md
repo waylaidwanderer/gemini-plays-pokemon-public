@@ -25,8 +25,8 @@
 - **Plan:** Continue loop. If no luck by Turn 29000, explore Route 37 East or switch to Tin Tower.
 - **Hygiene:** Notepad and markers are good.
 
-- Location: Route 37 (North Grass).
-- Status: Hunting.
-- Action: Wiggle & Reset.
-- Sequence: Down -> Left -> Up -> Exit to Ecruteak.
-- Hunt Session: Turn 28829.
+- Location: Ecruteak City (South Gate).
+- Status: Resetting Map.
+- Action: Enter Ecruteak -> Return to Route 37.
+- Sequence: Up (Reset) -> Down (Return).
+- Hunt Session: Turn 28830.
