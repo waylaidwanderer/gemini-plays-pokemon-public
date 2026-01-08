@@ -15,10 +15,8 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (36, 7) [Surfing].
-- **Action:** Restarting "East Loop" maneuver.
-- **Immediate Plan:** Surf East to (48, 7), then South down Col 48 to (48, 19).
-- **Key Route:** From (48, 19), Surf West to (46, 19), then **NORTH** to (46, 16), then West to Land (43, 16).
+- **Immediate Plan:** Surf South down Col 48 to (48, 19), then West to (46, 19).
+- **Key Route:** From (46, 19), Surf **NORTH** to (46, 16), then West to Land (43, 16).
 - **Correction:** Previously went South at (46, 19) into a dead end. The landing spot is North of the cross-over point.
 
 ## Tile Mechanics
