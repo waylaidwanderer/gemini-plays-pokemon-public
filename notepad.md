@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (5, 7) [Exit].
-- Action: Exiting to Surface.
-- Observation: Standing on Warp Carpet. Pressing Down to exit.
-- Immediate Plan: Press Down to exit to Route 41 (SW Island).
+- Location: Route 41 (12, 38) [SW Island].
+- Action: Re-orienting after exiting cave.
+- Observation: Exited from SW Island Cave. The path from B2F Waterfall Basin was a long one-way loop to this exit.
+- Immediate Plan: Surf back to NE Island Cave Entrance at (36, 19) to explore the missed path (Ladder at 1F 13, 11).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
