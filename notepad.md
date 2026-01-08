@@ -1,11 +1,11 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Confirmed)
 - FLOOR / TALL_GRASS / GRASS: Walkable.
-- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12; 11-14, 58).
+- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12; 11-14, 58; 11, 88).
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
-- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47; 10, 53; 16, 59; 17, 59).
+- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47; 10, 53; 16, 59; 17, 59; 11, 85).
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
@@ -16,9 +16,9 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33901).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33921).
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: KIMCHI holds EXP.SHARE. Switch XENON to lead (Ghost immunity to Selfdestruct).
+  - Method: KIMCHI holds EXP.SHARE. Lead XENON (Ghost immunity to Selfdestruct).
   - Progress: Xenon Lv36, Kimchi Lv33.
 
 # Area Mechanics & Strategy
@@ -26,18 +26,19 @@
 - Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
 - Strategy:
-  - GNEISS (Lv48): Earthquake/Strength for physical damage.
+  - GNEISS (Lv48): Physical damage.
   - XENON (Lv36): Night Shade and Hypnosis (critical for Kingdra).
   - CALCIFER (Lv49): Thunderpunch for coverage vs Kingdra.
 
 # Exploration Log
-- Items: Max Potion collected at (7, 33), Mysteryberry from (16, 82).
-- Exploration: West island shore (10-11, 81) explored (Turn 33917).
-- Target: Unseen tiles in the southern area (17-19, 86-89).
-- Ledges: (10, 85) and (11, 85) are LEDGE_HOP_DOWN. (Turn 33917).
-- Lead: XENON (Ghost immunity to Selfdestruct).
+- Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
+- Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
+- Basin Hypothesis: Middle strip (x=4-11) is a basin from y=68 to y=87.
+- Basin Escape: North to y=83, then East to x=12-16.
+- Blocked Unseen: (14, 61-62). (Hypothesis: Reachable via Dark Cave or alternate strip).
+- Target Unseen: (17-19, 86-89) in the right strip.
 
 # Lessons Learned
-- **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct. (Ideal for Graveler encounters).
-- **Ledge Strips:** Route 45 is divided into vertical strips. (Current strip: x=10-17).
-- **Phone Calls:** Can interrupt movement and trigger wild battles. (Turn 33875).
+- **Ghost Lead:** Haunter lead is ideal for wild Graveler encounters (Selfdestruct immunity).
+- **Strips & Ledges:** Route 45 is a one-way system of vertical strips. Exit to Route 46 is in the leftmost strip (x=0-2).
+- **Basin Navigation:** Some strips are connected at specific latitudes (e.g., y=83 connects middle and right strips).
