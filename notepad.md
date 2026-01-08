@@ -1,5 +1,9 @@
 # Current Status
+- Location: Route 41 (14, 32) [SW Island - Upper Plateau].
+- Immediate Plan: Walk East to (19, 32). Surf South through the East Channel (X=20) to (20, 38). Land at (17, 38).
+- Reasoning: The West Channel is blocked by buoys/walls at Row 38. The Central path requires entering a cave which leads deeper, not south. The East Channel is the only viable route to the Southern Highway.
 - Goal: Find path to Lugia (B3F).
+- Status: Moving to East Shore.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
