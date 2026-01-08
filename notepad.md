@@ -38,8 +38,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Ecruteak City (South Gate).
-- Status: Call with Gaven finished.
-- Action: Resuming Hunt.
-- Sequence: Move Down to Route 37 -> Check Grass.
-- Hunt Session: Turn 28684.
+- Location: Route 37 (North Grass).
+- Action: Hunting Loop (Enter -> Wiggle).
+- Path: Down x2 -> Left -> Right -> Down -> Up.
+- Goal: Trigger Encounter.
+- Hunt Session: Turn 28685.
