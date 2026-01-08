@@ -13,8 +13,8 @@
 - Gaps in Col 4: (4, 1) [Cody gone], (4, 13-17) [Open].
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Reach (7, 9).
-- Step 2: Test (8, 9) collision.
+- Step 1: Reach (8, 13).
+- Step 2: Push B8 (8, 12) UP to test (8, 9) collision.
 - Step 3: If floor, push B8 to P3 (8, 7).
 - Step 4: Move B6 (3, 3) to P2 (2, 5) via (4, 1) gap.
 - Step 5: Move B7 (6, 1) to P1 (8, 3).
