@@ -97,3 +97,4 @@
 2. **Notepad:** Updated Tile Mechanics. Cleared old reflections.
 3. **Map:** Good. Marked the cleared path.
 4. **Strategy:** Successfully cleared the Whirlpool at (42, 24). Now proceeding to the NE Island East Landing at (41, 19) to enter the cave.
+    6. Caught Seel (SELKIE).
