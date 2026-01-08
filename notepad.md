@@ -7,9 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Party Menu).
-- **Action:** Resetting Menu (B -> A -> A) to ensure 'FLY' is selected.
-- **Lesson:** Menu cursor wraps. Menu inputs require significant delay (~500ms+) to register reliably.
+- **Location:** Cherrygrove City (Fly Map).
+- **Action:** Navigating Fly Map to Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
