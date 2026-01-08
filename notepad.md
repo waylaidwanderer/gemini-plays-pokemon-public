@@ -2,7 +2,7 @@
 - Reset Turn: 34998
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7)
 - Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 14)
-- Status: Strength NOT ACTIVE
+- Status: Strength ACTIVE (Turn 35004)
 
 ## Grand Master Plan (Post-Reset)
 - Step 1: Reactivate Strength at B6 (3, 3).
