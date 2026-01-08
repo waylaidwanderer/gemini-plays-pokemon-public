@@ -83,3 +83,4 @@
   - Cherrygrove City -> Left -> [Blocked/No Connection] (Verified).
   - Violet City -> Up -> Azalea Town (Verified).
   - Azalea Town -> Up -> Goldenrod City (Verified).
+  - Goldenrod City -> Up -> Ecruteak City (Verified).
