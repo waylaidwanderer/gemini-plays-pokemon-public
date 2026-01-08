@@ -10,10 +10,13 @@
 - LADDER: (1, 7), (7, 9)
 - FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
 
-## solve_boulders Strategy
-- The tool finds the state-sequence of pushes and converts them to a single button array.
-- It verifies player reachability for every push.
-- Walls, NPCs, and ladders are treated as impassable.
+## Puzzle Strategy (2F)
+- Observation: Diagnostic script says no path for any boulder. Hypothesis: Map is incorrect.
+- Goal: Systematically verify 'Confirmed WALL' tiles to find the actual paths.
+- Test 1: (7, 13) to (4, 13) corridor.
+- Test 2: (4, 1) to (4, 12) vertical wall.
+- Test 3: (6, 2) and (6, 3) center block.
+- Test 4: Row 0 and Row 17 borders.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
