@@ -1,18 +1,14 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (Current): B6 (3, 3), B7 (6, 1), B8 (8, 12).
-- Status: Strength ACTIVE. B8 stuck at (8, 12).
-
-# Game Mechanics
-- Reset: Switching floors via ladder (7, 9) did NOT reset boulders (Turn 34854).
-- Pushing: After activation, player moves into boulder's old tile.
-- Collisions: (4, 10) confirmed WALL (Turn 34863). (8, 9) marked WALL (Testing required).
+- Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 12).
+- Status: Strength ACTIVE.
+- Verified Walls: (4, 10), (4, 11), (4, 12), (8, 9).
 
 # Puzzle Analysis (2F)
-- Hypothesis: Trainers (Fran 4, 11) are passable after defeat.
-- Test: Attempt to walk into (4, 11) from (3, 11).
-- Goal: Verify gaps in Column 4.
+- Problem: B8 (8, 12) is trapped if (7, 11) and (9, 12/13) are walls.
+- Goal: Verify (7, 11) collision. If it's floor, B8 can be pushed right into Column 9.
+- Goal: Search for a 4th boulder in the corners.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Test Fran (4, 11) collision.
