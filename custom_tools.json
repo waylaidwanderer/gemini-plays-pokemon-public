@@ -203,5 +203,31 @@
         "action_counter": 34029
       }
     ]
+  },
+  "solve_gym_puzzle": {
+    "description": "Finds the shortest sequence of pushes to put a boulder into a pit in the Blackthorn Gym.",
+    "input_schema": {
+      "properties": {
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    pits = set()\n    boulders = []\n    npcs = set()\n\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            grid[(x, y)] = t_type\n            if t_type == 'PIT':\n                pits.add((x, y))\n            \n            obj = tile.find('Object')\n            if obj is not None:\n                if obj.get('id-name') == 'BOULDER':\n                    boulders.append((x, y))\n                elif obj.get('id-name') != 'PLAYER':\n                    npcs.add((x, y))\n\n    # Add off-screen boulders known from notepad\n    known = {(3, 3), (6, 1), (8, 14)}\n    for b in known:\n        if b not in boulders: boulders.append(b)\n\n    boulders = tuple(sorted(boulders))\n    player_pos = (input_data['player_x'], input_data['player_y'])\n\n    def is_walkable(pos, cur_b, is_b=False):\n        if pos not in grid: return False\n        t = grid[pos]\n        if t == 'WALL' or t == 'VOID': return False\n        if is_b and (t == 'PIT' or t == 'LADDER'): return t == 'PIT'\n        if not is_b and t == 'PIT': return False\n        if pos in cur_b or pos in npcs: return False\n        return True\n\n    def get_reachable(p, b):\n        reach = set()\n        q = deque([p])\n        vis = {p}\n        while q:\n            curr = q.popleft()\n            reach.add(curr)\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nxt = (curr[0] + dx, curr[1] + dy)\n                if nxt in grid and grid[nxt] in ['FLOOR', 'LADDER'] and nxt not in b and nxt not in npcs and nxt not in vis:\n                    vis.add(nxt)\n                    q.append(nxt)\n        return reach\n\n    start_reach = get_reachable(player_pos, boulders)\n    if not start_reach: return \"Blocked\"\n    \n    q = deque([(boulders, player_pos, [])])\n    vis = {(boulders, min(start_reach))}\n    \n    while q: # BFS\n        cb, cp, path = q.popleft()\n        reach = get_reachable(cp, cb)\n        for i, b in enumerate(cb):\n            others = tuple(x for j, x in enumerate(cb) if i != j)\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                pf = (b[0] - dx, b[1] - dy)\n                pt = (b[0] + dx, b[1] + dy)\n                if pf in reach:\n                    if pt in pits:\n                        return {\"b_idx\": i, \"start\": b, \"pit\": pt, \"pushes\": path + [{\"from\": pf, \"to\": pt}]}\n                    if is_walkable(pt, others, True):\n                        nb = list(cb)\n                        nb[i] = pt\n                        nbt = tuple(sorted(nb))\n                        nr = get_reachable(b, nbt)\n                        if nr:\n                            ns = (nbt, min(nr))\n                            if ns not in vis:\n                                vis.add(ns)\n                                q.append((nbt, b, path + [{\"from\": pf, \"to\": pt}]))\n    return \"None\"\n\nprint(json.dumps(solve()))\n",
+    "history": [
+      {
+        "commit_message": "Defining solve_gym_puzzle to find boulder solutions using BFS.",
+        "timestamp": "2026-01-08T05:42:33.076Z",
+        "action_counter": 34075
+      }
+    ]
   }
 }
