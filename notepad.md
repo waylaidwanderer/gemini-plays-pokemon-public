@@ -15,7 +15,7 @@
 - Strategy: Calcifer (Lv49) use Return for neutral physical damage.
 - Party Status: Xenon 52/92 HP, Calcifer 115/155 HP.
 - Note: Dragonair resists Fire and Electric. Normal (Return) is neutral.
-- Plan: Use Return (Turn 35301) to defeat Dragonair.
+- Plan: Use Return (Turn 35301) to defeat Dragonair. (Selected last turn).
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
