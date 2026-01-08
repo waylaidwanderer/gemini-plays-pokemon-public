@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Traverse Route 38 West to Route 39.
-- Route: West along the main path (y=8/9) to the gate at x=0.
-- Reasoning: Walking to Olivine City since Fly failed.
+- Immediate Plan: Traverse Route 38 West. Check Fruit Tree at (12, 10).
+- Route: Move Left to (12, 12), Up to (12, 11), Interact with Tree (12, 10). Then jump ledge at (10, 11) to continue West.
+- Reasoning: Navigating towards Olivine. Gathering resources (berries) on the way.
 - Goal: Reach Olivine, Surf to Whirl Islands.
 
 # Whirl Islands Mapping
