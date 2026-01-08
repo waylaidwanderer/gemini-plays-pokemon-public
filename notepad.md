@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Surf South on Route 40 towards Route 41.
-- Route: From (19, 4) go South to Water (19, 8). Surf South along the East side.
-- Goal: Reach NE Whirl Island (Route 41 East Side).
+- Immediate Plan: Surf South on Route 40 to Route 41.
+- Route: Press B to clear text. Move Down to Water (19, 8). Move Left to (18, 8) to avoid Buoys at x=19. Surf South.
+- Goal: Reach NE Whirl Island (Route 41).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
