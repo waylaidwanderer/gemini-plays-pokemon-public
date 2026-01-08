@@ -16,8 +16,9 @@
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
 - LADDER: Warp between floors (1F/2F).
-- WARP_CARPET_DOWN: Exit from the Gym.
-- HOLE: Found on 2F. Falling through leads to 1F.
+- WARP_CARPET_DOWN: Exit from the building.
+- COUNTER: Interaction point for Nurse/Clerk. Face and press A.
+- PC: Access Pokemon storage.
 
 ## Blackthorn Gym Puzzle (2F) - SOLVED
 - Status: Boulders pushed into pits.
@@ -27,7 +28,8 @@
 - Clair's Badge: Defeating her isn't enough; requires a second trial in Dragon's Den.
 - Dragon's Den: Centered around a "small shrine".
 - Dragonair Typing: Dragon. Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
-- Kingdra Typing: Water/Dragon. Resists Fire, Water, Electric, Grass. Weak to Dragon. Ice is neutral.
+- Kingdra Typing (Gen 2): Water/Dragon. Resists Fire, Water (0.25x). Neutral (1.0x) to Electric, Grass, Ice. Weak to Dragon (2.0x).
+- Note: Observed Thunderpunch (Electric) was neutral against Kingdra.
 
 ## To-Do
 - Heal party at Pokemon Center (21, 29).
