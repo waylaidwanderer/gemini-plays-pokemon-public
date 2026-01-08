@@ -9,27 +9,20 @@
 - P2: (2, 5)
 - P3: (8, 7)
 
-## Verified Path for B8 (8, 14) to P3 (8, 7)
-1. Push B8 Up to (8, 13). Player at (8, 15).
-2. Push B8 Up to (8, 12). Player at (8, 14).
-3. Push B8 Up to (8, 11). Player at (8, 13).
-4. Push B8 Up to (8, 10). Player at (8, 12).
-5. Push B8 Left to (7, 10). Player at (9, 10).
-6. Push B8 Left to (6, 10). Player at (8, 10).
-7. Push B8 Up to (6, 9). Player at (6, 11).
-8. Push B8 Up to (6, 8). Player at (6, 10).
-9. Push B8 Up to (6, 7). Player at (6, 9).
-10. Push B8 Right to (7, 7). Player at (5, 7).
-11. Push B8 Right to (8, 7) (PIT). Player at (6, 7).
-
 ## Tile Mechanics (2F)
-- FLOOR: Traversable. (7, 10), (7, 12), (7, 13) are verified FLOOR.
-- WALL: Impassable. (8, 9), (7, 11), (7, 14), (7, 15) are verified WALL.
+- FLOOR: Traversable.
+- WALL: Impassable.
 - PIT: Target for boulders; player falls to 1F. Moving a boulder onto this tile removes the boulder and fills the hole on 1F.
 - LADDER: Warp to 1F; resets boulder positions.
 - NPC: Impassable (WALL).
 
+## Strategic Insights
+- Gap at (7, 13): B8 at (8, 13) can be pushed Left into the center area.
+- Gap at (4, 13): Allows movement between the left and right sides of the gym.
+- Strength Status: ACTIVE (Turn 35063).
+
 ## Lessons Learned
-- Step 1 for B8 in previous plan was impossible because (9, 14) is a WALL.
-- Visual inspection of walls is unreliable; must test with player movement or use Game State.
-- Checkerboard walls: (7, 10) FLOOR, (7, 11) WALL, (7, 12) FLOOR, (7, 13) FLOOR.
+- (7, 10) and (7, 11) are definitely WALLS.
+- (8, 9) is a WALL.
+- Visuals are deceptive; trust the 'type' attribute and movement tests.
+- Strength must be reactivated after changing floors.
