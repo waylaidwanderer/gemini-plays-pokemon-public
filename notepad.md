@@ -1,6 +1,7 @@
 # Current Status
-- Immediate Plan: Walk to Olivine City from Ecruteak (Fly menu failed to cooperate).
-- Reasoning: I am in Ecruteak City. I need to travel West through Route 38 and Route 39 to reach Olivine City, then Surf South to Route 41 (NE Island).
+- Immediate Plan: Walk to Olivine City via Route 38 (West Exit).
+- Route: From Pokemon Center (23, 28) -> West to x=10 corridor -> North to y=19 -> West to Exit (0, 19).
+- Reasoning: Fly failed. Manual navigation required. x=10 is a clear vertical corridor bypassing buildings.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
