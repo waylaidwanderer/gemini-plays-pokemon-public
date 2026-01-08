@@ -26,7 +26,7 @@
 - Strategy: Use fly_navigator_v2. Verify town name on screen.
 
 # Item Tracking
-- AMULET COIN: In Bag (Turn 33085).
+- AMULET COIN: Held by ICARUS (Turn 33626).
 - EXP.SHARE: Held by XENON.
 - PNK APRICORN: In Bag (Turn 33081).
 - HARD STONE: Held by GNEISS.
