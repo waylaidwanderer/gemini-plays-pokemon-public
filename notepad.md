@@ -20,9 +20,9 @@
 - Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
 - Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
 - Test 10: (2, 13) gap -> Pending.
-- Test 11: (7, 6) -> Confirmed WALL (Turn 34908). (6, 6) -> Confirmed WALL (Turn 34910).
-- Strategy: Use BFS solver (run_code) with confirmed wall data.
-- Goal: Verify if B8 can reach P1 or P3, or if B7 is the only option.
+- Test 12: (6, 10) -> Confirmed FLOOR (Turn 34914).
+- Goal: Reactivate Strength at B8 (8, 14) and verify (3, 8) and (8, 8).
+- Strategy: Move to (8, 13), interact with B8, then navigate to (3, 9) and (7, 8) to test walls.
 
 # Verified Obstacles (2F)
 - Column 4: (4, 1), (4, 9), (4, 10), (4, 11), (4, 12) are WALLs.
