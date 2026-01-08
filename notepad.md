@@ -28,4 +28,4 @@
 - Hypothesis: The puzzle is solvable, so some "WALL" tiles must be walkable or have gaps.
 - Confirmed WALLS: (4,3), (4,4), (4,5), (5,0), (6,3), (7,11), (9,13), (9,17).
 - Cody (4, 1) is a solid obstacle for boulders.
-- Current Task: Repositioning to push Boulder 8 and test Column 8 walls.
+- Current Task: Moving to Column 8 to test Row 0 walls.
