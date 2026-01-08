@@ -1,12 +1,12 @@
 # Blackthorn Gym 1F - Battle with Clair
-- Current Turn: 35176
+- Current Turn: 35180
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Unknown.
 - Status: Xenon fainted (Turn 35163). Calcifer (Lv49) healthy.
-- Strategy: Calcifer use Return for neutral physical damage. Kingdra resists Fire, Water, Electric, and Grass (Electric/Grass are neutral due to Water typing).
+- Strategy: Calcifer use Thunderpunch for neutral special damage and a 10% paralysis chance. Kingdra resists Fire, Water, Electric, and Grass (Electric/Grass are neutral due to Water typing).
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2.
 
 ## Blackthorn Gym Puzzle (2F)
