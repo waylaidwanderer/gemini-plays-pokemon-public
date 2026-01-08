@@ -1,6 +1,6 @@
 # Current Status
-- Location: Route 41 (20, 32) [Surfing].
-- Immediate Plan: Surf South to (20, 40), West to (14, 40), then South through gap at (14, 41) to access Southern Highway.
+- Location: Route 41 (20, 40) [Surfing].
+- Immediate Plan: Surf West to (14, 40), then South through gap at (14, 41) to access Southern Highway.
 - Reasoning: North (X=20) is blocked. East (X=22) is blocked. South (X=20) is blocked at Y=41. Gap found at (14, 41).
 - Goal: Find path to Lugia (B3F).
 - Status: Navigating to Southern Gap.
