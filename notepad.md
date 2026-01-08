@@ -1,7 +1,7 @@
 # Current Status
-- Location: Whirl Island B2F (Basin/Bottom Area).
-- Immediate Plan: Explore the land to the West (Left) of the basin before taking the ladder.
-- Goal: Find Lugia in the Basin (B3F).
+- Location: Whirl Island Lugia's Chamber (3_73).
+- Immediate Plan: Surf North to find Lugia.
+- Goal: Catch Lugia.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entered via (36, 19).
