@@ -35,12 +35,11 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 36 Grass (In Position).
-- Current State: Gyarados Lead (Lv 36). Max Repel USED (Turn 28613).
-- Immediate Action: Exit Menu -> Start Hunt Loop.
-- Hunt Loop:
-  1. Walk back and forth in grass (Left/Right).
-  2. If encounter: Check if Raikou/Entei.
-     - If yes: Master Ball or Mean Look/Hypnosis strategy? (Check Balls).
-     - If no: Run.
-  3. If no encounter for a while: Exit to Violet City to reset.
+- Location: Route 36 Grass.
+- Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
+- Activity: Hunting Raikou/Entei (Lv 40).
+- Action:
+  1. Close Menu.
+  2. Run in grass (Left/Right) to trigger encounter.
+  3. If no encounter, exit map East to Violet City and return.
+- Note: Unseen tiles at (47, 14) are Ruins of Alph warp. Ignored for now.
