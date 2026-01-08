@@ -7,7 +7,7 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron City (Copycat's House 2F).
+- **Location:** Saffron City.
 - **Next Step:** Go to Vermilion Fan Club -> Get Lost Item.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
