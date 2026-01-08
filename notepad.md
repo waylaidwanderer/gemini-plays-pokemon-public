@@ -1,6 +1,7 @@
 # Current Status
 - Location: Route 41 (18, 40) [Surfing].
-- Immediate Plan: Surf East to X=20, North to Y=35, then East to NE Island (36, 19).
+- Immediate Plan: Surf to (29, 28) to find a path East through the buoys.
+- Reasoning: Direct East path blocked. North path blocked at X=24 until Y=28.
 - Goal: Find path to Lugia (B3F).
 - Status: Navigating Buoy Maze.
 
