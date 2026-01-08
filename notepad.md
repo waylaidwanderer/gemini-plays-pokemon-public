@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandB1F (17, 24) [South of Ledge].
-- Action: Retrieving Item.
-- Observation: See Ladder at (13, 27) across a wall. Item at (19, 26) is reachable.
-- Immediate Plan: Get Item at (19, 26), then explore South to bypass the wall and reach the Ladder at (13, 27).
+- Location: WhirlIslandB1F (19, 24) [SE Corner].
+- Action: Picking up Item.
+- Observation: Found Boulder at (23, 26). Item is at (19, 26).
+- Immediate Plan: Pick up item, then explore South/West to find a way to the Ladder at (13, 27).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
