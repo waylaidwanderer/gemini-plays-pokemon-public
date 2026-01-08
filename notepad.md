@@ -33,3 +33,7 @@
 - Turn 34261: B8 soft-locked at (8, 10). Failed due to incorrect wall assumptions.
 - Hypothesis: Some tiles labeled WALL in the Mental Map (pillars) might be walkable or have walkable gaps.
 - Test 1: Attempt to walk into (4, 5) from (5, 5).
+- Test 2: Attempt to walk into (5, 0) from (5, 1).
+- Observation: Row 0 tiles (4, 0), (5, 0), (6, 0) visually appear as floor tiles in screenshots.
+- Hypothesis: Row 0 is walkable, allowing boulders in Row 1 to be pushed Down.
+- Test 3: Attempt to walk through Cody at (4, 1). (Likely impassable, but good to confirm).
