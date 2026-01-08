@@ -14,9 +14,9 @@
 - Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
 
 # Lessons Learned
-- Puzzle Reset: Boulders reset when leaving the floor (via ladder or pit) and returning.
-- Current Status [Turn 34317]: B8 is at (8, 11). Verifying B7 and B6 to ensure the XML solver has accurate data.
-- Mechanics: Strength follows standard Gen 2 rules—the player moves into the boulder's previous tile upon a successful push.
+- Puzzle Reset: Boulders DO NOT reset when switching floors via pit or ladder. They only reset when leaving the Gym entirely (e.g., exiting the front door).
+- Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
+- Current Status [Turn #34318]: B6 at (3, 3), B7 at (7, 1). Heading to B8's last known position (8, 11) to update the XML map. Once all boulders are seen, I will use the corrected solver tool.
 - Layout: Row 13 is a safe horizontal crossing between the left and right sides of the gym. Column 5 is the primary vertical artery.
 
 # Pokemon & Party Information
