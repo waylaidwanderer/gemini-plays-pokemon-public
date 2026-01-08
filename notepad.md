@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Cherrygrove City (Fly Map).
+- **Location:** Lake of Rage (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Pressing 'Up' (x20) to reach Violet City.
-- **Observation:** 'Left' inputs failed to move cursor past Cherrygrove. Trying 'Up'.
+- **Method:** Pressing 'Left' (x20) to move West.
+- **Observation:** 'Up' successfully moved from Cherrygrove to Lake of Rage.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
