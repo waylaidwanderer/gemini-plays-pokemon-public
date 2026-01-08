@@ -34,8 +34,7 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Hiker Michael at (15, 65) defeated (Turn 33893).
-- Reachable Unseen (Strip x=16-17): South of (16, 66).
-- Reachable Unseen (Strip x=11-14): Reachable from (11, 43). Unseen: (14, 68-70, 72-73), (11-13, 74).
+- Reachable Unseen: (14-17, 70), (14, 72-73), (12-13, 74).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
 - Trainer: Camper Quentin at (4, 70) defeated. (Legacy).
 - Trainer: Hiker Timothy at (9, 65) defeated. (Legacy).
