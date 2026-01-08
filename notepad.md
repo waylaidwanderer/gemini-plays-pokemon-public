@@ -27,6 +27,6 @@
 
 - Location: Route 37 (North Grass).
 - Status: Hunting.
-- Action: Wiggling in grass.
-- Sequence: Loop in grass -> Return to Gate.
-- Hunt Session: Turn 28778.
+- Action: Reset & Wiggle.
+- Sequence: Up (Reset) -> Down (Return) -> Wiggle.
+- Hunt Session: Turn 28779.
