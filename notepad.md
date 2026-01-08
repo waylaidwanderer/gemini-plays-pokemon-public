@@ -27,7 +27,7 @@
 # Current Boulder Positions (Verifying)
 - Boulder 6: (3, 3) - CONFIRMED
 - Boulder 7: (6, 1) - CONFIRMED
-- Boulder 8: (8, 14) - CONFIRMED (Default)
+- Boulder 8: (8, 14) - CONFIRMED (Reset)
 
 # Lessons Learned: Blackthorn Gym Puzzle
 - Pushing a boulder does NOT move the player into the vacated tile.
