@@ -1,6 +1,6 @@
 # Current Status
-- Immediate Plan: Fly to Olivine City to approach Route 41 from the North (Route 40).
-- Reasoning: I am on the SW Island (Route 41). The cave here (SW Whirl Island Cave) connects to B1F, which I have already explored and believe doesn't lead to the B2F Waterfall Basin I need (or is segmented). The sea route North/West is blocked by buoys. Thus, resetting to the NE Island entrance via Route 40 is the best path to reach Lugia.
+- Immediate Plan: Walk to Olivine City from Ecruteak (Fly menu failed to cooperate).
+- Reasoning: I am in Ecruteak City. I need to travel West through Route 38 and Route 39 to reach Olivine City, then Surf South to Route 41 (NE Island).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
