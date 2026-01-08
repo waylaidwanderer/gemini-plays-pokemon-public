@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (31, 8) [Surfing].
-- **Action:** Resuming navigation after Wild Battle.
-- **Immediate Plan:** Surf North to (31, 7) then East along the clear lane to reach Northeast Island.
+- **Location:** Route 41 (40, 7) [Surfing].
+- **Action:** Navigating around buoy barrier to reach Northeast Island.
+- **Immediate Plan:** Surf East to (46, 7), then South to (46, 12), then West to the island shore.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
