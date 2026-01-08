@@ -1,13 +1,13 @@
 # Blackthorn City - Quest for the Rising Badge
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
-- Progress: Defeated Gym Leader Clair (Turn 35238).
 - Requirement: Clair refused to give the badge. Must complete "Dragon User Challenge" in Dragon's Den.
 - Dragon's Den Location: "Behind the Gym".
 
 ## Strategy: Dragon User Challenge
-- Navigate to the water behind the Blackthorn Gym (North of the building).
-- Locate the entrance to Dragon's Den (likely a cave/warp).
-- Find the "small shrine" at the center of the Den.
+1. Heal party at Blackthorn Pokemon Center. (DONE)
+2. Navigate to the area north (behind) the Blackthorn Gym.
+3. Locate entrance to Dragon's Den.
+4. Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
