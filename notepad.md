@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 6 Gatehouse.
-- **Next Step:** Exit South to Route 6 -> Vermilion City Fan Club.
+- **Location:** Route 6 (North of Vermilion).
+- **Next Step:** Go East to x=16 to bypass water -> South to Vermilion.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
