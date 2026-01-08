@@ -35,6 +35,7 @@
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
 - **Route 6 Navigation:** Water pond at Row 11 blocks direct path. Must navigate via the eastern side (approx x=16) to cross North.
+- **Tool Issue:** `find_path` incorrectly attempts to traverse ledges backwards. Needs update to respect one-way mechanics.
 - **Map Correction:** House at (13, 13) is Magnet Train Speech House, NOT Fan Club.
 - **Plan:** Check house at (21, 17) (South of Mart). (21, 13) is the Mart.
 - **Investigation:** Confirmed 'Magnet Train House' (12_8) is NOT Fan Club.
