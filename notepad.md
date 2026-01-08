@@ -13,11 +13,13 @@
 
 ## Solution Strategy [Turn 34276]
 ### Boulder 7 -> Pit (8, 3)
-1. Push B7 (6, 1) Right to (7, 1).
+1. At (5, 1), push B7 (6, 1) Right to (7, 1).
 2. Move to (6, 1).
 3. Push B7 (7, 1) Right to (8, 1).
-4. Move to (8, 2) via (7, 1) and (7, 2).
-5. Push B7 (8, 1) Down into (8, 3) PIT.
+4. Move to (7, 1).
+5. Push B7 (8, 1) Down to (8, 2).
+6. Move to (8, 1).
+7. Push B7 (8, 2) Down into (8, 3) PIT.
 
 ### Boulder 6 -> Pit (2, 5)
 1. Move to (3, 4). Push Up to move B6 to (3, 2).
