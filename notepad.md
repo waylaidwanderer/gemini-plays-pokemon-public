@@ -10,13 +10,13 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Reset performed at Turn 35073.
-2. Audit Column 9 and Column 7 for gaps:
-   - Test (9, 13) from (8, 13).
-   - Test (7, 14) from (7, 13).
-   - Test (7, 15) from (6, 15).
-3. If a gap is found, map a new path for B8.
-4. If no gaps, B8 must be pushed into the center via (4, 13) gap.
+1. Reset performed at Turn 35073. B8 at (8, 14).
+2. Audit Walls: Systematically test 'WALL' tiles to find hidden gaps.
+   - Test (9, 15) from (8, 15).
+   - Test (7, 15) from (8, 15).
+   - Test (9, 14) from (8, 14).
+   - Test (7, 14) from (8, 14).
+3. Update solve_boulders_v2 with corrected map and solve.
 
 ## Tile Mechanics (2F)
 - FLOOR: Traversable.
