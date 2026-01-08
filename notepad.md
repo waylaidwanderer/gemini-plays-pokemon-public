@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Grass Sweep (Encounter Check).
-- Action: Down x2, Left, Right, Down, Up.
-- Goal: Encounter Raikou/Entei or Reset.
-- Hunt Session: Turn 28756.
+- Status: Hunting (Grass Sweep -> Reset).
+- Action: Down x2, Left, Right, Left, Right, Up x3.
+- Goal: Encounter or Reset.
+- Hunt Session: Turn 28758.
