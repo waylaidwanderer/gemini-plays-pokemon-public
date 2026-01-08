@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Hunting.
-- Action: Resuming Hunt.
-- Sequence: Exit Menu -> Wiggle -> Return.
-- Hunt Session: Turn 28826.
+- Status: Exiting Menu.
+- Action: Closing Pack.
+- Sequence: B (Exit) -> B (Exit) -> B (Exit).
+- Hunt Session: Turn 28828.
