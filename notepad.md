@@ -38,8 +38,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 37 (North Grass).
+- Location: Crossing Border (Route 37 <-> Ecruteak).
 - Status: Max Repel ACTIVE.
-- Action: Hunting loop (Grass -> Ecruteak -> Grass).
-- Path: Zig-zag to Ecruteak Gate.
-- Next: Re-enter Route 37 from Ecruteak.
+- Action: Resetting Roamer positions by changing maps.
+- Plan: Enter Ecruteak -> Return to Route 37 -> Check Grass.
+- Strategy: Blind Hunt (High speed reps).
