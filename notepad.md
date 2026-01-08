@@ -14,7 +14,7 @@
 - Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
 
 # Lessons Learned
-- Puzzle Status [Turn 34304]: Boulder 8 pushed to (8, 12). Standing at (8, 13) to push it Up.
+- Puzzle Status [Turn 34305]: Boulder 8 pushed to (8, 11). Standing at (8, 13) to move to (8, 12).
 
 # Strategy: Test Central Pillars for Hidden Paths
 1. Push B8 Up to (8, 10).
