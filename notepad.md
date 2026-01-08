@@ -1,9 +1,5 @@
 # Current Status
-- Location: Route 41 (20, 38) [Surfing].
-- Immediate Plan: Land on SW Island at (17, 38). Walk to West Shore (8, 43). Surf North via X=7 to reach the Northern Highway (Y=26).
-- Reasoning: X=22 blocked North. X=20 blocked North. X=8 blocked South. X=7 North appears to be the only untested viable path to the Northern open water.
 - Goal: Find path to Lugia (B3F).
-- Status: Landing on SW Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
@@ -42,6 +38,7 @@
 - **Target:** Lugia (Lv 60).
 - **Location:** NE Island (Route 41) -> B1F -> B2F -> B3F (Waterfall Basin).
 - **Requirements:** Flash (Belladonna), Surf (Qaagmaqnjw), Whirlpool (Lapis), Silver Wing (Owned).
+- **Navigation:** Exploring Western Channel (X=0-3) to bypass buoy barriers.
 - **Catch Plan:**
   - **Risk:** Team is underleveled for Lv 60 Legendary. Lapis (Hypnosis) is Lv 12 and will die instantly.
   - **Assets:** Master Ball x1, Ultra Ball x2, Great Ball x20.
