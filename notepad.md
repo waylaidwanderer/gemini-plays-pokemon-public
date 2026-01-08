@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (14, 14) [Upper Ledge].
-- Action: Surfing West.
-- Observation: Ledge to the South (Row 16). Water to the West.
-- Immediate Plan: Surf West to explore the water area before jumping the ledge.
+- Location: WhirlIslandSW (13, 14) [Surfing Upper Ledge].
+- Action: Exploring West Water.
+- Observation: Successfully entered the water.
+- Immediate Plan: Clear text, then Surf West to explore the water area and any potential hidden items or paths.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
