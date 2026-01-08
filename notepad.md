@@ -14,14 +14,11 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Status: Back on 2F (2, 3). Strength INACTIVE.
-- Plan: Activate Strength on B6 at (3, 3), then use solve_blackthorn_boulders_v3.
-- Note: Avoid ladders to prevent puzzle reset.
+- Plan: Verify connectivity between vertical strips at Row 1 and Row 6 without using ladders.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
 
 ## Tested Mechanics
-- Cody (4, 1): Solid obstacle (Verified Turn 34581).
 - Push Mechanic: Player stays in place after push (Verified Turn 34566).
 - Floor Reset: Transitions between 1F and 2F reset boulders (Verified Turn 34592).
