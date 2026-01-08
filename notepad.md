@@ -34,9 +34,9 @@
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Black Belt Kenji at (11, 50) defeated.
 - Hiker Michael at (15, 65) defeated.
-- Reachable Unseen: (10-11, 79), (16-17, 79).
-- Blocked Unseen: (14, 61-62). (Hypothesis: Reachable from a different vertical strip, possibly accessed via Dark Cave or an alternate Blackthorn exit).
-- Fruit Tree: (16, 82).
+- Reachable Unseen: (10-11, 79), (16-17, 79), (10-17, 81).
+- Target: Fruit Tree at (16, 82). (Turn 33904).
+- Lead: Switching XENON to lead for Ghost immunity (Turn 33904).
 
 # Lessons Learned
 - **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct. (Ideal for Graveler encounters).
