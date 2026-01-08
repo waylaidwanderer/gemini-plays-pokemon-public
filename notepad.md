@@ -17,8 +17,10 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
-- Strategy: RESET COMPLETE. Healed at PokeCenter. Navigating zigzag path to bypass walls at Row 32 and 34: (21, 31) -> (16, 31) -> (16, 33) -> (21, 33) -> (21, 35) -> (15, 35).
-- Target Unseen: (17-19, 86-89) in the rightmost strip of Route 45.
+- Strategy: RESET COMPLETE. Healed at PokeCenter. Now jumping ledge at Row 34 (x=15-19) to enter the eastern strip (Strip 5, x>=15).
+- Target Unseen: (17-19, 86-89) at the bottom of the eastern strip.
+- Target Unseen: (14, 61-62) - check if reachable from Strip 5.
+- Confirmed: Row 34 from x=15 to 19 is a LEDGE_HOP_DOWN. (Turn 33948).
 
 # Lessons Learned
 - **Ghost Lead:** Haunter lead is ideal for wild Graveler encounters (Selfdestruct immunity).
