@@ -9,8 +9,8 @@
 
 # Current Status
 - **Location:** Olivine Mart (1_8).
-- **Action:** Buying Ultra Balls.
-- **Immediate Plan:** Buy Ultra Balls -> Exit -> Route 40 -> Whirl Islands.
+- **Action:** Buying Great Balls (Ultra Balls not sold here).
+- **Immediate Plan:** Scroll Up to Great Ball -> Buy 20 -> Exit.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
