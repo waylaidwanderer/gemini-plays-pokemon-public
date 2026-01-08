@@ -40,8 +40,7 @@
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 36 (Central).
 - Status: Max Repel ACTIVE.
-- Action: Navigating around Fisher at (44, 9).
-- Path: Up -> Left -> Up -> Left x2 -> Down (Ends at 43, 9).
-- Check: Will test if Fisher is a trainer (Line of Sight).
-- Next: Continue West to x=28, then North to Route 37.
+- Action: Moving to Route 37 Gate (28, 0).
+- Check: Fisher at (44, 9) is PASSIVE (No battle triggered).
+- Path: Using Pathfinder to navigate the tree maze northwards.
 - Note: Roamer hunt continues on Route 36/37 border.
