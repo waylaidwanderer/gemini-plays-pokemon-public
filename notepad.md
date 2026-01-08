@@ -26,3 +26,8 @@
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
+## Push Mechanic Test (Turn 34565)
+- Observation: Standing at (3, 4) facing Boulder 6 at (3, 3). Strength active.
+- Hypothesis: Pushing a boulder moves it one tile, and the player stays in their original tile.
+- Test: Press 'Up' to push Boulder 6 to (3, 2).
+- Conclusion: PENDING.
