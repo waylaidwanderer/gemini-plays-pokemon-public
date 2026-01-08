@@ -31,11 +31,11 @@
   - CALCIFER (Lv49): Thunderpunch for coverage vs Kingdra.
 
 # Exploration Log
-- Items: Max Potion collected at (7, 33), Mysteryberry from (16, 82) (Turn 33909).
-- Black Belt Kenji at (11, 50) defeated.
-- Hiker Michael at (15, 65) defeated.
-- Target: Unseen tiles west across water at (10-11, 81). (Turn 33909).
-- Lead: XENON (Ghost immunity to Selfdestruct). (Turn 33904).
+- Items: Max Potion collected at (7, 33), Mysteryberry from (16, 82).
+- Exploration: West island shore (10-11, 81) explored (Turn 33917).
+- Target: Unseen tiles in the southern area (17-19, 86-89).
+- Ledges: (10, 85) and (11, 85) are LEDGE_HOP_DOWN. (Turn 33917).
+- Lead: XENON (Ghost immunity to Selfdestruct).
 
 # Lessons Learned
 - **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct. (Ideal for Graveler encounters).
