@@ -10,7 +10,7 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Mechanics: Pushing a boulder moves it one tile. The player MOVES into the boulder's previous position. Boulders cannot be pushed into NPCs.
+- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Boulders cannot be pushed into NPCs.
 - Reset: Leaving the floor (via ladder or pit) and returning resets all boulder positions to their original coordinates.
 
 # Strategy & Progress
