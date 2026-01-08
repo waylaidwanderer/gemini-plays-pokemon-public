@@ -21,18 +21,7 @@
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Boulder 7 -> Pit (8, 3) Plan:
-  1. Push Right from (5, 1) to (7, 1). (Player at 6, 1).
-  2. Push Right from (7, 1) to (8, 1). (Player at 7, 1).
-  3. Move to (7, 2).
-  4. Push Right from (7, 2) to (8, 2). (Player at 7, 2).
-  5. Move to (8, 1).
-  6. Push Down from (8, 1) to (8, 3) PIT.
-- Boulder 6 -> Pit (2, 5) Plan:
-  1. Reach (3, 4) via Row 13 gap.
-  2. Push Up to (3, 1).
-  3. Push Left from (4, 1) to (2, 1).
-  4. Push Down from (2, 1) to (2, 5) PIT.
+- Strategy: Use Strength to move boulders. Solve one at a time.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
