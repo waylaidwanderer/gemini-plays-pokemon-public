@@ -1,12 +1,12 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (Reset positions): B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Status: Strength NOT ACTIVE (Reset by ladder). Boulders RESET.
+- Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Status: Strength NOT ACTIVE (Reset by ladder).
 
 # Game Mechanics
-- Strength: Deactivated by ladders/warps. Re-activate by interacting with a boulder.
-- Pushing: Player MOVES into the boulder's old tile after a push. (Verified Turn 34814, 34816).
+- Strength: Deactivated when changing maps or using ladders. Must be re-activated on a boulder.
+- Pushing: Player STAYS in their tile after a push. (Verified Turn 34815, 34833).
 - Ladders: (1, 7) and (7, 9) reset boulder positions on 2F.
 
 # Tile Mechanics (2F)
@@ -16,6 +16,10 @@
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Reach (8, 15) and activate Strength on B8.
-- Step 2: Push B8 (8, 14) -> P2 (2, 5) via Row 13 and Column 1.
-- Step 3: Push B6 (3, 3) -> P1 (8, 3) via Row 1.
-- Step 4: Push B7 (6, 1) -> P3 (8, 7) via Column 9.
+- Step 2: Use boulder_solver_crystal_v2 to get path.
+- Step 3: Execute.
+
+# Training Progress
+- Goal: Xenon and Kimchi to Lv40.
+- Started: Turn 30928 (Approx).
+- Progress: Xenon Lv36, Kimchi Lv33.
