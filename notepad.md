@@ -1,9 +1,8 @@
 # Current Status
-- Location: Route 41 (8, 44) [Surfing at Dead End].
-- Immediate Plan: Land back at (8, 43), walk to East shore (14, 39), and Surf North/East from there.
-- Discovery: West side of SW Island is a dead end blocked by Buoys (Y=47, X=4-5).
+- Location: Route 41 (14, 39) [Walking on SW Island].
+- Immediate Plan: Surf from (14, 39) and head North/East to find a gap in the buoys towards NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
-- Status: Retreating to East Shore.
+- Status: Relocating to NE Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
