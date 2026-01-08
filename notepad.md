@@ -18,9 +18,8 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33814).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33815).
   - Method: KIMCHI holds EXP.SHARE for safe leveling. GNEISS (Lv48) or CALCIFER (Lv49) lead to finish battles efficiently. Avoid switching KIMCHI into Gravelers (Selfdestruct risk).
-  - Verification: Checking KIMCHI's stats in battle to confirm EXP.SHARE. (Turn 33814).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
