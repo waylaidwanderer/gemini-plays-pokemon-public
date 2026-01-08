@@ -85,3 +85,5 @@
   - Violet City -> Up -> Azalea Town (Verified).
   - Azalea Town -> Up -> Goldenrod City (Verified).
   - Goldenrod City -> Up -> Ecruteak City (Verified).
+- **Correction:** The path from (36, 15) South to the cave entrance is blocked by a ledge/wall. Must approach the NE Island Cave (36, 19) from the **South** via surfing around the east side of the island.
+- **New Route:** Surf from East side (X=42), go South around the island, then West and North to land at (36, 22).
