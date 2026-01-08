@@ -29,3 +29,4 @@
 - Speed: 161
 - Moves: Gust, Recover, Hydro Pump, Rain Dance.
 - Note: Lacks Aeroblast (Lv 1 move). Gen 2 has no Move Relearner, so Aeroblast is likely lost forever.
+- Note: Start Menu cursor remembers last position (was on POKEMON due to Fly usage). Must navigate UP to reach POKEDEX if POKEMON was last used.
