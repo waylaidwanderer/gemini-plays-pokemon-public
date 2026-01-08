@@ -173,10 +173,32 @@
       }
     ]
   },
-  "solve_gym_puzzle": {
-    "description": "Finds the shortest sequence of pushes to put 3 boulders into pits in Blackthorn Gym 2F. Returns a JSON array of buttons.",
+  "solve_blackthorn_gym_boulders_v4": {
+    "description": "Calculates the button sequence to solve the Blackthorn Gym boulder puzzle from the current state. Boulders fall into pits and are removed from the map. Pits are impassable for the player. Player stays in place after a push.",
     "input_schema": {
       "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
+        "boulder_positions": {
+          "items": {
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
         "player_x": {
           "type": "integer"
         },
@@ -186,387 +208,18 @@
       },
       "required": [
         "player_x",
-        "player_y"
+        "player_y",
+        "boulder_positions",
+        "autopress_buttons"
       ],
       "type": "object"
     },
-    "python_script": "import collections\nimport json\nimport sys\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get(\"width\"))\n        height = int(root.get(\"height\"))\n        \n        walls = set()\n        pits = set()\n        boulders = []\n        npcs = set()\n        player_pos = None\n        \n        for row in root.findall(\"Row\"):\n            y = int(row.get(\"id\"))\n            for tile in row.findall(\"Tile\"):\n                x = int(tile.get(\"id\"))\n                t_type = tile.get(\"type\")\n                if t_type in [\"WALL\", \"VOID\"]:\n                    walls.add((x, y))\n                elif t_type == \"PIT\":\n                    pits.add((x, y))\n                \n                if tile.get(\"has-player\") == \"true\":\n                    player_pos = (x, y)\n                \n                # Boulders from objects\n                for obj in tile.findall(\"Object\"):\n                    obj_name = obj.get(\"id-name\", \"\").upper()\n                    if \"BOULDER\" in obj_name:\n                        boulders.append((x, y))\n                    else:\n                        npcs.add((x, y))\n                \n                # Boulders from markers (if object not rendered)\n                for marker in tile.findall(\"Marker\"):\n                    if \"Boulder\" in marker.text:\n                        if (x, y) not in boulders:\n                            boulders.append((x, y))\n\n        # Fallbacks for off-screen/reset boulders\n        original_starts = [(3, 3), (6, 1), (8, 14)]\n        if len(boulders) < 3:\n            for s in original_starts:\n                if s not in boulders and s not in pits:\n                    boulders.append(s)\n                    if len(boulders) == 3: break\n\n        if not player_pos:\n            input_str = sys.stdin.read()\n            input_data = json.loads(input_str) if input_str else {}\n            player_pos = (input_data.get('player_x', 5), input_data.get('player_y', 1))\n\n    except:\n        return []\n\n    ladders = {(1, 7), (7, 9)}\n    start_b = tuple(sorted(boulders[:3]))\n    \n    q = collections.deque([( player_pos, start_b, (), [] )])\n    v = {( player_pos, start_b, () )}\n    \n    limit = 500000\n    while q and limit > 0:\n        limit -= 1\n        (px, py), b, f, path = q.popleft()\n        if len(f) == 3: return path\n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = px + dx, py + dy\n            cur_p = (nx, ny)\n            if cur_p in ladders:\n                cur_p = (ladders - {cur_p}).pop()\n\n            if (nx, ny) in b:\n                bx, by = nx + dx, ny + dy\n                if 0 <= bx < width and 0 <= by < height and (bx, by) not in walls and (bx, by) not in b and (bx, by) not in npcs and (bx, by) not in f:\n                    nb = list(b); nb.remove((nx, ny))\n                    nf = list(f)\n                    if (bx, by) in pits: nf.append((bx, by))\n                    else: nb.append((bx, by))\n                    st = (cur_p, tuple(sorted(nb)), tuple(sorted(nf)))\n                    if st not in v:\n                        v.add(st)\n                        q.append((st[0], st[1], st[2], path + [btn]))\n            elif 0 <= nx < width and 0 <= ny < height and (nx, ny) not in walls and (nx, ny) not in npcs and ((nx, ny) not in pits or (nx, ny) in f):\n                st = (cur_p, b, f)\n                if st not in v:\n                    v.add(st)\n                    q.append((st[0], st[1], st[2], path + [btn]))\n    return []\n\nprint(json.dumps(solve()))",
-    "history": [
-      {
-        "commit_message": "Refining solve_gym_puzzle to use live map data and higher search depth.",
-        "timestamp": "2026-01-08T06:05:50.551Z",
-        "action_counter": 34100
-      },
-      {
-        "commit_message": "Correcting tile check for reachability (checking for '.' instead of 'FLOOR').",
-        "timestamp": "2026-01-08T06:06:40.103Z",
-        "action_counter": 34101
-      },
-      {
-        "commit_message": "Fixing solve_gym_puzzle to use correct tile type strings (FLOOR, LADDER) and increasing search depth.",
-        "timestamp": "2026-01-08T06:12:40.566Z",
-        "action_counter": 34105
-      },
-      {
-        "commit_message": "Finalizing solve_gym_puzzle with live map data, markers, and robust BFS logic.",
-        "timestamp": "2026-01-08T06:18:44.717Z",
-        "action_counter": 34111
-      },
-      {
-        "commit_message": "Fixing tool to return a JSON array of buttons instead of a dictionary, and increasing iteration limit for the complex puzzle.",
-        "timestamp": "2026-01-08T06:53:34.236Z",
-        "action_counter": 34146
-      },
-      {
-        "commit_message": "Updating solve_gym_puzzle to dynamically parse boulder positions from the map XML, ensuring it uses the most up-to-date state.",
-        "timestamp": "2026-01-08T06:57:31.362Z",
-        "action_counter": 34150
-      },
-      {
-        "commit_message": "Correcting fallback boulder positions to their original coordinates (3,3), (6,1), (8,14) for when they are off-screen.",
-        "timestamp": "2026-01-08T07:04:21.751Z",
-        "action_counter": 34158
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to correctly handle the connection between the two sides of the gym via ladders and 1F traversal, and fixing a syntax error in the BFS state check.",
-        "timestamp": "2026-01-08T07:16:16.836Z",
-        "action_counter": 34168
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to correctly parse boulder positions from Mental Map markers (for off-screen boulders), allowing movement on filled pits (bridges), and increasing the iteration limit for the 3-boulder BFS.",
-        "timestamp": "2026-01-08T07:17:48.571Z",
-        "action_counter": 34169
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to handle ladder warps as player-only transitions and use markers for off-screen boulders. Iteration limit increased for multi-boulder solution.",
-        "timestamp": "2026-01-08T07:41:01.264Z",
-        "action_counter": 34201
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to correctly handle filled pits as traversable bridges and improving the BFS logic for single-boulder targeting to avoid complexity issues.",
-        "timestamp": "2026-01-08T07:44:34.386Z",
-        "action_counter": 34207
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to handle ladder warps as player-only transitions and use markers for off-screen boulders. Iteration limit increased for multi-boulder solution.",
-        "timestamp": "2026-01-08T07:47:29.866Z",
-        "action_counter": 34210
-      },
-      {
-        "commit_message": "Refining solve_gym_puzzle to dynamically parse player and boulder positions from the Mental Map XML, handle ladder warps correctly, and include fallbacks for off-screen boulders.",
-        "timestamp": "2026-01-08T08:07:39.720Z",
-        "action_counter": 34231
-      }
-    ]
-  },
-  "solve_blackthorn_boulders_v3": {
-    "description": "Calculates the button sequence to solve the Blackthorn Gym boulder puzzle from the current state. Accounts for 'stay in place' mechanic and 2F-only connectivity.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "player_x": {
-          "type": "integer"
-        },
-        "player_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "player_x",
-        "player_y"
-      ]
-    },
-    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve(input_data):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # 0: Wall/NPC, 1: Floor, 2: Pit\n    grid = [[1 for _ in range(width)] for _ in range(height)]\n    pits = []\n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            if t_type == \"WALL\": grid[y][x] = 0\n            elif t_type == \"PIT\":\n                grid[y][x] = 2\n                pits.append((x, y))\n            # Static obstacles from XML\n            for obj in tile.findall(\"Object\"):\n                if \"COOLTRAINER\" in obj.attrib.get(\"id-name\", \"\"): grid[y][x] = 0\n\n    # Connectivity fixes based on observation\n    grid[1][4] = 0 # Cody is a wall\n    grid[11][4] = 0 # Fran is a wall\n    # Dividers\n    for y in range(2, 13): grid[y][4] = 0 # Col 4 divider\n    for y in [2,3,4,6]: grid[y][6] = 0 # Col 6 divider\n    grid[14][7] = 0 # Col 7 wall\n\n    boulders = []\n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            for obj in tile.findall(\"Object\"):\n                if \"BOULDER\" in obj.attrib.get(\"id-name\", \"\"): \n                    if (x, y) not in boulders: boulders.append((x, y))\n            for marker in tile.findall(\"Marker\"):\n                if \"Boulder\" in marker.text: \n                    if (x, y) not in boulders: boulders.append((x, y))\n    \n    # If no boulders found, use default starting positions\n    if not boulders: boulders = [(3, 3), (6, 1), (8, 14)]\n    \n    start_b = tuple(sorted(boulders[:3]))\n    start_p = (int(input_data['player_x']), int(input_data['player_y']))\n\n    # State: (tuple(boulders), player_pos)\n    queue = collections.deque([(start_b, start_p, [])])\n    visited = { (start_b, start_p) }\n    \n    limit = 500000\n    count = 0\n    while queue and count < limit:\n        count += 1\n        b_s, p_curr, path = queue.popleft()\n        \n        if not b_s: return path\n            \n        px, py = p_curr\n        for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = px + dx, py + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in b_s:\n                    # Push attempt\n                    bx, by = nx + dx, ny + dy\n                    if 0 <= bx < width and 0 <= by < height:\n                        # Boulder can move to Floor (1) or Pit (2)\n                        if grid[by][bx] >= 1 and (bx, by) not in b_s:\n                            new_b = list(b_s)\n                            new_b.remove((nx, ny))\n                            if grid[by][bx] != 2:\n                                new_b.append((bx, by))\n                            new_b = tuple(sorted(new_b))\n                            \n                            # Player stays in place\n                            if (new_b, p_curr) not in visited:\n                                visited.add((new_b, p_curr))\n                                queue.append((new_b, p_curr, path + [move]))\n                elif grid[ny][nx] == 1 and (nx, ny) not in b_s:\n                    # Walk attempt\n                    if (b_s, (nx, ny)) not in visited:\n                        visited.add((b_s, (nx, ny)))\n                        queue.append((b_s, (nx, ny), path + [move]))\n    return []\n\nprint(json.dumps(solve(input_data)))",
+    "python_script": "import collections\nimport json\nimport sys\n\ndef solve():\n    # Load input data\n    input_data = json.loads(sys.argv[1])\n    p_x = int(input_data['player_x'])\n    p_y = int(input_data['player_y'])\n    initial_boulders = tuple(sorted([(b['x'], b['y']) for b in input_data['boulder_positions']]))\n\n    # Map dimensions\n    width, height = 10, 18\n    \n    # Walls (Pillars, NPCs, boundaries)\n    walls = {\n        (0,0),(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0),(8,0),(9,0), # Row 0\n        (0,2),(1,2),(4,2),(6,2),\n        (4,3),(6,3),\n        (4,4),(6,4),(7,4),(8,4),(9,4),\n        (4,5),\n        (4,6),(6,6),(7,6),\n        (4,7),\n        (2,8),(3,8),(4,8),(8,8),\n        (4,9),(8,9),\n        (2,10),(4,10),(5,10),(7,10),\n        (2,11),(7,11),(4,11), # Fran\n        (2,12),(4,12),(5,12),(9,12),\n        (2,13),(9,13),\n        (2,14),(7,14),(9,14),\n        (2,15),(7,15),(9,15),(1,15), # Paul\n        (2,16),(5,16),(9,16),\n        (2,17),(5,17),(9,17),\n        (4,1),(9,2) # Cody, Lola\n    }\n    \n    # Pits\n    pits = {(8,3), (2,5), (8,7)}\n    \n    # BFS state: (player_pos, boulder_positions)\n    start_state = ((p_x, p_y), initial_boulders)\n    queue = collections.deque([(start_state, [])])\n    visited = {start_state}\n    \n    while queue:\n        (curr_p, curr_b), path = queue.popleft()\n        \n        # Goal: All 3 pits are filled.\n        # Since we have 3 boulders and 3 pits, we just check if curr_b is empty.\n        if not curr_b:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            next_p = (curr_p[0] + dx, curr_p[1] + dy)\n            \n            if not (0 <= next_p[0] < width and 0 <= next_p[1] < height): continue\n            if next_p in walls: continue\n            if next_p in pits: continue # Player falls or blocked? Usually pits are warps/blocks.\n            \n            if next_p in curr_b:\n                # Push\n                b_target = (next_p[0] + dx, next_p[1] + dy)\n                if not (0 <= b_target[0] < width and 0 <= b_target[1] < height): continue\n                if b_target in walls: continue\n                if b_target in curr_b: continue\n                \n                if b_target in pits:\n                    # Boulder gone\n                    new_b = tuple(sorted([b for b in curr_b if b != next_p]))\n                else:\n                    new_b_list = list(curr_b)\n                    idx = new_b_list.index(next_p)\n                    new_b_list[idx] = b_target\n                    new_b = tuple(sorted(new_b_list))\n                \n                # Mechanic: Player stays in place\n                new_state = (curr_p, new_b)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, path + [btn]))\n            else:\n                # Move\n                new_state = (next_p, curr_b)\n                if new_state not in visited:\n                    visited.add(new_state)\n                    queue.append((new_state, path + [btn]))\n\n    print(json.dumps([]))\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-08T09:00:53.549Z",
-        "action_counter": 34291
-      },
-      {
-        "commit_message": "Fix boulder and pit detection in solve_blackthorn_boulders_v3. Detect boulders from markers and pits from tile types. Corrected state representation to ensure player position is tracked correctly.",
-        "timestamp": "2026-01-08T09:01:37.089Z",
-        "action_counter": 34293
-      },
-      {
-        "commit_message": "Update solve_blackthorn_boulders_v3 to treat any non-floor/non-pit/non-ladder tile as a wall. Corrected object detection to handle off-screen fallbacks if necessary, though visiting the boulders is preferred.",
-        "timestamp": "2026-01-08T09:15:13.681Z",
-        "action_counter": 34307
-      },
-      {
-        "commit_message": "Update solve_blackthorn_boulders_v3 to reflect that the player moves into the boulder's previous tile upon pushing. This is the standard Strength mechanic for Gen 2.",
-        "timestamp": "2026-01-08T09:20:08.147Z",
-        "action_counter": 34312
-      },
-      {
-        "commit_message": "Revert solve_blackthorn_boulders_v3 to 'player stays in place' mechanic, as verified in Turn 34280 and 34285. This is the correct mechanic for Pokemon Crystal.",
-        "timestamp": "2026-01-08T09:25:39.107Z",
-        "action_counter": 34318
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to use robust XML parsing for walls, pits, and NPCs. It now correctly implements the 'player stays in place' mechanic for boulder pushes and uses original positions as a fallback only if 3 boulders aren't visible in the XML. Removed brittle hardcoded fallbacks that were causing empty results.",
-        "timestamp": "2026-01-08T09:28:09.962Z",
-        "action_counter": 34323
-      },
-      {
-        "commit_message": "Clean up solve_blackthorn_boulders_v3. Removed hardcoded fallbacks. It now strictly uses the map XML to identify walls, pits, NPCs, and current boulder positions. Implements the verified 'player stays in place' mechanic.",
-        "timestamp": "2026-01-08T09:28:59.880Z",
-        "action_counter": 34325
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to include marker parsing and a minimal reset fallback. This ensures the tool can find a solution even if boulders are off-screen, while still prioritizing XML data.",
-        "timestamp": "2026-01-08T09:33:33.907Z",
-        "action_counter": 34332
-      },
-      {
-        "commit_message": "Clean up solve_blackthorn_boulders_v3. Removed hardcoded fallbacks. It now strictly uses the map XML to identify walls, pits, NPCs, and current boulder positions. Implements the verified 'player stays in place' mechanic. Added marker support for off-screen boulders.",
-        "timestamp": "2026-01-08T09:34:00.434Z",
-        "action_counter": 34333
-      },
-      {
-        "commit_message": "Correct solve_blackthorn_boulders_v3 to use 'move into spot' mechanic, as verified by turn history. Refined XML parsing and added fallback for reset positions.",
-        "timestamp": "2026-01-08T09:37:34.000Z",
-        "action_counter": 34339
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic as verified by turn history. It now correctly identifies walls, pits, NPCs, and current boulder positions from the map XML (including markers). Added a robust search limit to ensure a solution is found if one exists.",
-        "timestamp": "2026-01-08T09:40:56.137Z",
-        "action_counter": 34341
-      },
-      {
-        "commit_message": "Fix unpacking bug in solve_blackthorn_boulders_v3. The queue now correctly stores state-path pairs, and the search logic uses standard Gen 2 mechanics where the player stays in place after pushing a boulder. This should finally allow the tool to find the correct solution.",
-        "timestamp": "2026-01-08T09:55:33.145Z",
-        "action_counter": 34349
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic verified in Turns 34280 and 34303. It now correctly identifies walls, pits, NPCs, and current boulder positions from the map XML and markers. Removed redundant logic and ensured robust state tracking.",
-        "timestamp": "2026-01-08T09:56:09.339Z",
-        "action_counter": 34351
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic confirmed for Pokemon Crystal. It now correctly identifies all obstacles (walls, NPCs) and goals (pits) from the map XML. It uses the first 3 boulders found (via Objects or Markers) to calculate a complete 3-boulder solution. Added a large search limit to handle the complex state space.",
-        "timestamp": "2026-01-08T09:58:16.551Z",
-        "action_counter": 34353
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic. It now correctly treats pits as impassable for the player and uses a robust search limit. Boulder detection uses both objects and markers.",
-        "timestamp": "2026-01-08T09:59:01.945Z",
-        "action_counter": 34354
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 with a high-level BFS over boulder configurations. It uses a nested BFS to check player reachability for each push, significantly reducing the state space. Implements the 'stay in place' mechanic and treats NPCs as obstacles for boulders but allows the player to move through them if the map tile type is FLOOR.",
-        "timestamp": "2026-01-08T10:00:10.710Z",
-        "action_counter": 34355
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic confirmed for Pokemon Crystal. It uses a high-level BFS over boulder configurations with a nested BFS for player reachability. Correctly identifies obstacles and goals from the map XML and markers. Added robust search limits and error handling.",
-        "timestamp": "2026-01-08T10:01:15.738Z",
-        "action_counter": 34357
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3: 1. Implements 'stay in place' mechanic. 2. Treats NPCs as walls for boulders but allows the player to walk through them (if tile is FLOOR). 3. Uses a high-level BFS for boulder configurations with nested reachability checks. 4. Correctly parses map XML and markers for boulders, walls, and pits.",
-        "timestamp": "2026-01-08T10:09:46.594Z",
-        "action_counter": 34364
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3 to strictly use the 'stay in place' mechanic and treat NPCs as walls for both boulders and the player. It uses a high-level BFS over boulder configurations with nested reachability checks. Correctly identifies obstacles and goals from the map XML and markers. Added robust search limits and error handling.",
-        "timestamp": "2026-01-08T10:16:26.288Z",
-        "action_counter": 34370
-      },
-      {
-        "commit_message": "Refine solve_blackthorn_boulders_v3: 1. Implements 'stay in place' mechanic. 2. Treats NPCs as walls for BOTH boulders and the player (verified Turn 34370). 3. Uses a high-level BFS for boulder configurations with nested reachability checks. 4. Correctly parses map XML and markers for boulders, walls, and pits. 5. Increased search limit for complex solutions.",
-        "timestamp": "2026-01-08T10:17:21.189Z",
-        "action_counter": 34371
-      },
-      {
-        "commit_message": "Refined solver to use BFS, correctly handle 'stay in place' mechanic, and prioritize shortest path.",
-        "timestamp": "2026-01-08T10:43:41.914Z",
-        "action_counter": 34411
-      },
-      {
-        "commit_message": "Refined solver to use 'move into spot' mechanic verified for Blackthorn Gym and added commit message.",
-        "timestamp": "2026-01-08T10:48:46.560Z",
-        "action_counter": 34420
-      },
-      {
-        "commit_message": "Reverted to 'stay in place' mechanic as definitively verified in Turn 34432. Improved BFS efficiency.",
-        "timestamp": "2026-01-08T10:58:34.544Z",
-        "action_counter": 34432
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Uses BFS for boulder configurations. 3. Nested BFS for player reachability. 4. Correctly handles walls and NPCs as obstacles for both boulders and player. 5. Increased search depth.",
-        "timestamp": "2026-01-08T11:01:17.189Z",
-        "action_counter": 34435
-      },
-      {
-        "commit_message": "Refined solver with efficient BFS (configuration-space) and reachability checks. Correctly handles 'stay in place' mechanic.",
-        "timestamp": "2026-01-08T11:06:56.856Z",
-        "action_counter": 34442
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Uses BFS on boulder configurations. 3. Correctly handles boulders falling into pits. 4. Uses nested BFS for player reachability. 5. Increased search depth.",
-        "timestamp": "2026-01-08T11:08:07.636Z",
-        "action_counter": 34444
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implements 'stay in place' mechanic. 2. Uses single BFS on (boulders, player) state space. 3. Correctly handles walls, pits, and NPCs as obstacles for both boulders and player. 4. Increased search depth.",
-        "timestamp": "2026-01-08T11:10:03.077Z",
-        "action_counter": 34445
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Corrected pit mechanics (filled pits become walkable). 3. Optimized BFS for state-space search. 4. Uses markers for off-screen boulders.",
-        "timestamp": "2026-01-08T11:11:43.037Z",
-        "action_counter": 34447
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles boulders falling into pits (removing them from active boulders and marking the pit as filled). 3. Allows the player to walk on filled pits. 4. Increased search space and optimized BFS.",
-        "timestamp": "2026-01-08T11:12:46.759Z",
-        "action_counter": 34448
-      },
-      {
-        "commit_message": "Fixed bug where pits were treated as walls for boulders. Corrected walk/push logic for 'stay in place' mechanic. Optimized state space search.",
-        "timestamp": "2026-01-08T11:18:34.233Z",
-        "action_counter": 34453
-      },
-      {
-        "commit_message": "Fixed bug where pits were treated as walls for the player. Corrected walk/push logic for 'stay in place' mechanic.",
-        "timestamp": "2026-01-08T11:20:31.798Z",
-        "action_counter": 34454
-      },
-      {
-        "commit_message": "Fixed reachability check to allow walking on filled pits. Optimized BFS to search boulder configuration space with nested reachability.",
-        "timestamp": "2026-01-08T11:39:37.250Z",
-        "action_counter": 34471
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles boulders falling into pits (removing them from active boulders and marking the pit as filled). 3. Allows the player to walk on filled pits. 4. Uses single BFS for efficiency.",
-        "timestamp": "2026-01-08T11:41:50.459Z",
-        "action_counter": 34474
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Fixed duplicate boulder detection. 2. Correctly handles 'stay in place' mechanic. 3. Correctly handles pit filling and walkable filled pits. 4. Increased search space.",
-        "timestamp": "2026-01-08T11:43:04.650Z",
-        "action_counter": 34476
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Corrected state tracking for (boulders, filled_pits, player_pos). 2. Correctly handles walkable filled pits. 3. Increased search limit. 4. Uses sorted sets for consistency.",
-        "timestamp": "2026-01-08T11:43:53.504Z",
-        "action_counter": 34477
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles pit filling (filled pits become walkable for player, boulders are removed from active set). 3. Fixed wall detection to allow starting on ladders. 4. Optimized BFS with a 500k state limit.",
-        "timestamp": "2026-01-08T11:45:01.615Z",
-        "action_counter": 34478
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles pit filling (filled pits become walkable for player, boulders are removed from active set). 3. Optimized BFS with higher state limit and more robust wall/pit detection. 4. Handles duplicate boulder markers.",
-        "timestamp": "2026-01-08T11:46:52.626Z",
-        "action_counter": 34480
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles pit filling (filled pits become walkable for player, boulders disappear from 2F). 3. Boulders can move onto floor or already filled pits. 4. Explicitly handles NPCs as walls. 5. Increased search limit to 500k.",
-        "timestamp": "2026-01-08T11:53:05.997Z",
-        "action_counter": 34487
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Corrected pit mechanics (boulders fall and disappear from 2F; pits remain impassable for player and other boulders). 3. Optimized BFS search space. 4. Uses reset positions as fallback.",
-        "timestamp": "2026-01-08T11:55:59.039Z",
-        "action_counter": 34490
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles pit filling (filled pits become walkable for player, boulders are removed from active set). 3. Optimized BFS with a 500k state limit and robust collision detection. 4. Handles duplicate boulder markers and NPC obstacles.",
-        "timestamp": "2026-01-08T11:57:01.391Z",
-        "action_counter": 34491
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Prioritizes on-screen objects over markers for boulder positions. 3. Correctly handles pit filling (filled pits become walkable for player). 4. Increased search limit to 1 million states. 5. Explicitly handles NPCs as walls.",
-        "timestamp": "2026-01-08T12:03:01.861Z",
-        "action_counter": 34495
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Correctly handles pit filling (filled pits become walkable for player/boulders, empty pits are impassable for player). 3. Optimized BFS with a 500k state limit. 4. Explicitly handles NPCs and pillars as walls.",
-        "timestamp": "2026-01-08T12:04:30.283Z",
-        "action_counter": 34497
-      },
-      {
-        "commit_message": "Refined BFS logic for Blackthorn Gym boulder puzzle, including stay-in-place mechanic and boulder removal on pit entry.",
-        "timestamp": "2026-01-08T12:42:53.621Z",
-        "action_counter": 34541
-      },
-      {
-        "commit_message": "Fixed ladder collision and increased search limit for Blackthorn Gym puzzle.",
-        "timestamp": "2026-01-08T12:50:04.359Z",
-        "action_counter": 34547
-      },
-      {
-        "commit_message": "Refined solver for Blackthorn Gym: 1. Implemented 'stay in place' mechanic. 2. Uses BFS on boulder configurations with nested reachability. 3. Correctly handles walls, pits, and NPCs. 4. Handles boulders falling into pits. 5. Uses a higher search limit.",
-        "timestamp": "2026-01-08T12:53:08.826Z",
-        "action_counter": 34549
-      },
-      {
-        "commit_message": "Final refinement of Blackthorn Gym solver: strictly uses verified \"stay in place\" mechanic, handles boulder removal upon pit entry, and uses an exhaustive search limit (1 million states). Verified grid against XML.",
-        "timestamp": "2026-01-08T13:04:43.947Z",
-        "action_counter": 34567
-      },
-      {
-        "commit_message": "Exhaustive search (1M states) with verified mechanics and grid.",
-        "timestamp": "2026-01-08T13:07:21.312Z",
-        "action_counter": 34572
-      },
-      {
-        "commit_message": "Refined BFS solver for Blackthorn Gym: 1. Uses a macro-BFS over boulder configurations for efficiency. 2. Correctly handles player reachability between sections via 1F (ladder warps). 3. Strictly implements the 'stay in place' mechanic. 4. Returns a full button sequence including player navigation and pushes.",
-        "timestamp": "2026-01-08T13:23:48.062Z",
-        "action_counter": 34586
-      },
-      {
-        "commit_message": "Integrated map XML parsing for dynamic boulder/pit/obstacle detection. Added ladder warp logic.",
-        "timestamp": "2026-01-08T13:24:59.761Z",
-        "action_counter": 34587
-      },
-      {
-        "commit_message": "Refined Blackthorn Gym solver: 1. Automatically detects boulders and pits from map XML. 2. Uses BFS over boulder configurations. 3. Correctly handles player reachability including ladder warps via 1F. 4. Strictly implements 'stay in place' mechanic. 5. Returns a JSON array of buttons.",
-        "timestamp": "2026-01-08T13:25:33.901Z",
-        "action_counter": 34588
-      },
-      {
-        "commit_message": "Fixed NameError (py -> cy) in get_reachable and increased search limit to 200,000.",
-        "timestamp": "2026-01-08T13:28:21.315Z",
-        "action_counter": 34595
-      },
-      {
-        "commit_message": "Fixed NameError (nx, ny = cx + dx, cy + dy) in get_reachable and increased search limit.",
-        "timestamp": "2026-01-08T13:30:03.630Z",
-        "action_counter": 34596
-      },
-      {
-        "commit_message": "Final refinement of Blackthorn Gym solver: 1. Accurate 10x18 grid from XML. 2. Macros-BFS for boulder configurations with nested reachability. 3. Ladder warps via 1F included. 4. Strictly implements 'stay in place' mechanic. 5. Increased search limit to 500k.",
-        "timestamp": "2026-01-08T13:31:27.067Z",
-        "action_counter": 34597
-      },
-      {
-        "commit_message": "Exhaustive Blackthorn solver: 1M states, ladder shortcuts, stay-in-place mechanic.",
-        "timestamp": "2026-01-08T13:38:38.695Z",
-        "action_counter": 34603
-      },
-      {
-        "commit_message": "Increased search limit to 1M and fixed ladder warp logic.",
-        "timestamp": "2026-01-08T13:48:11.666Z",
-        "action_counter": 34609
-      },
-      {
-        "commit_message": "Fixed 'nby' NameError typo and ensured 1M search limit for Blackthorn Gym solver.",
-        "timestamp": "2026-01-08T13:48:33.583Z",
-        "action_counter": 34610
-      },
-      {
-        "commit_message": "Robust Blackthorn Gym solver: 1. Fixed all NameErrors. 2. Uses macro-BFS over boulder configurations with nested reachability. 3. Correctly handles ladder warps via 1F. 4. Strictly implements 'stay in place' push mechanic. 5. Increased search limit to 1 million states. 6. Automatically detects boulders and pits from map XML.",
-        "timestamp": "2026-01-08T13:51:34.225Z",
-        "action_counter": 34611
-      },
-      {
-        "commit_message": "Refined Blackthorn Gym solver: 1. Removed ladder shortcut logic (resets puzzle). 2. Corrected grid connectivity at Row 13/14. 3. Strictly implements 'stay in place' mechanic. 4. Uses 1M state BFS.",
-        "timestamp": "2026-01-08T14:00:53.310Z",
-        "action_counter": 34618
+        "timestamp": "2026-01-08T14:16:10.766Z",
+        "action_counter": 34639
       }
     ]
   }
