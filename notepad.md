@@ -13,6 +13,8 @@
     3. Surf North up Column 42 to **(42, 24)**.
     4. Use Whirlpool at **(42, 24)**.
     5. Surf North to Landing at **(41, 19)**.
+    6. Walk West to **(30, 19)** to launch Surf.
+    7. Surf South/East to South Landing at **(36, 22)**.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
