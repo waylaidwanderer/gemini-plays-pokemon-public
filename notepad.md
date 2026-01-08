@@ -10,7 +10,7 @@
 - Start Turn: 34112
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
-- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Verified in Turns 34280 and 34285. Boulders cannot be pushed into NPCs.
+- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Verified in Turns 34280 and 34303. Boulders cannot be pushed into NPCs.
 - Reset: Leaving the floor (via ladder or pit) and returning resets all boulder positions to their original coordinates.
 
 # Strategy & Progress
@@ -26,8 +26,6 @@
 
 # Puzzle Testing Log
 - Hypothesis: The puzzle is solvable, so some "WALL" tiles must be walkable or have gaps.
-- Confirmed WALLS: (4,3), (4,4), (4,5), (5,0), (6,3), (7,11), (9,13).
+- Confirmed WALLS: (4,3), (4,4), (4,5), (5,0), (6,3), (7,11), (9,13), (9,17).
 - Cody (4, 1) is a solid obstacle for boulders.
-- Current Test: Walk into (9, 17) from (8, 17).
-- Next Test: Walk into (9, 12) from (8, 12).
-- Next Test: Walk into (9, 4) from (9, 3) or (9, 5).
+- Current Task: Repositioning to push Boulder 8 and test Column 8 walls.
