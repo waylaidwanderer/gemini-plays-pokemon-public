@@ -1,22 +1,22 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
-- Current Turn: 35192
+- Current Turn: 35194
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf. (HP: 100% after Hyper Potion)
 - Status: Xenon fainted. Calcifer fainted (Turn 35185). Kimchi (Lv33) is out.
-- Strategy: Sleep Powder failed (Turn 35191) with "It didn't affect". Assuming Kingdra is already paralyzed from Calcifer's Thunderpunch (Turn 35184).
-- Plan: Use Revive on Calcifer, then heal him with Max Potion while Kimchi sponges Surf.
+- Strategy: Kingdra likely paralyzed from Calcifer's Thunderpunch. Kimchi is tanking Surf.
+- Plan: Use Revive on Calcifer (Turn 35194), then heal him with Max Potion.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
-- FLOOR: Standard traversable tile. Verified Turn 35145.
-- WALL: Impassable boundary. Verified Turn 35145.
+- FLOOR: Standard traversable tile. Verified Turn 35145. No special properties.
+- WALL: Impassable boundary. Verified Turn 35145. Prevents movement.
 - LADDER: Warp between floors (1F/2F). Verified Turn 35145.
 - WARP_CARPET_DOWN: Exit from the Gym. Verified Turn 35145.
-- HOLE: Found on 2F. Falling through leads to 1F. Verified Turn 34794.
+- HOLE: Found on 2F. Falling through leads to 1F. Verified Turn 34794. One-way transition down.
 
 ## Blackthorn Gym Puzzle (2F)
 - Status: Strength INACTIVE (on 1F)
