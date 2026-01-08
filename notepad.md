@@ -6,31 +6,21 @@
 - Status: Strength is ACTIVE. B6 is at (3, 3).
 
 # Verified Obstacles (2F)
-- (4, 1): Cody. Impassable.
-- (4, 11): Fran. Impassable.
-- (4, 3), (4, 5), (4, 12): WALL. Impassable.
-- (5, 10), (5, 12), (6, 2), (6, 3), (6, 6): WALL. Impassable.
-- (7, 10), (7, 11), (7, 14), (7, 15): WALL. Impassable.
-- (8, 4), (8, 8), (8, 9): WALL. Impassable.
-- (9, 2), (9, 4), (9, 12-17): WALL. Impassable.
-
-# Verified Connections (2F)
-- (4, 13): FLOOR (gap).
-- (6, 8) <-> (5, 8): FLOOR (gap).
-
-# Strategy: Blackthorn Gym 2F
-- Step 1: Push B6 (3, 3) to P2 (2, 5).
-- Step 2: Push B7 (6, 1) to P3 (8, 7).
-- Step 3: Push B8 (8, 14) to P1 (8, 3) via Col 9.
-
-# Resource Locations
-- Route 45: Good training spot for Haunter.
+- (4, 1): Cody NPC. Impassable.
+- (4, 0-12): WALLs or NPC. No horizontal passage except (4, 13).
+- (4, 13): FLOOR. The only gap between Left and Right sides.
+- (8, 4), (8, 8, 9): WALL.
+- (6, 2, 3, 4, 6): WALL.
 
 # Puzzle Analysis (2F)
-- B6 is trapped in the top-left area (Cols 0-3, Rows 0-7) by Row 8 WALLs and Col 4 WALLs/NPCs.
-- P2 (2, 5) is also in the top-left area.
-- Hypothesis: B6 must go into P2. This requires pushing B6 LEFT from Col 3.
-- Obstacle: Column 4 is almost entirely WALLs/NPCs.
-- Test: Check if Cody (4, 1) is passable after defeat. If so, B6 can be pushed from (3, 1) to (2, 1).
-- Alternative: B7 or B8 crosses to the left side at (4, 13) FLOOR to reach P2.
-- Current B6 Position: (3, 3).
+- B6 (3, 3) must likely go to P2 (2, 5).
+- Path for P2: Boulder must enter from (2, 6) pushing UP, or (1, 5) pushing RIGHT.
+- Accessing P2 from (2, 6) requires standing at (2, 7) (FLOOR).
+- Accessing P2 from (1, 5) requires standing at (0, 5) (FLOOR).
+- B6 can reach the bottom area (Row 13) by pushing DOWN through Col 3.
+- B8 (8, 14) can reach (4, 13) to cross to the left side.
+
+# Strategy: Blackthorn Gym 2F
+- Step 1: Move player to (0, 1) to avoid blocking BFS.
+- Step 2: Run solve_puzzle_v5.
+- Step 3: Execute sequence.
