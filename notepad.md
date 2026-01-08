@@ -7,7 +7,7 @@
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition. Verified.
 - HEADBUTT_TREE: Interact to use Headbutt. Verified.
 - LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from the opposite side. Verified.
-- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Likely a ledge face. Verified.
+- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Hypothesis - needs verification. (Turn 33807).
 - COUNTER: Impassable. Interact from adjacent tile for NPC dialogue. Verified.
 - PC (Pokemon Center): Interact to manage Pokemon/items. Verified.
 
@@ -20,10 +20,9 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33803).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33807).
   - Goal: Xenon and Kimchi to Lv40.
   - Strategy: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
-  - Note: EXP.SHARE mystery: Not in pack, checking KIMCHI. (Turn 33803).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
