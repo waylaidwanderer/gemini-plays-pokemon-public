@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (14, 40) [In Battle - Caught].
-- Action: Nicknaming Mantine 'DELTA'.
-- Immediate Plan: Verify spelling 'DELTA' then confirm.
-- Goal: Complete Pokedex / Catch Lugia.
-- Status: Mantine caught! Nickname in progress.
+- Location: Route 41 (14, 40) [Surfing].
+- Action: Caught Mantine (Delta).
+- Immediate Plan: Surf East then North to reach NE Whirl Island Cave at (36, 19).
+- Goal: Find path to Lugia (B3F).
+- Status: Resume exploration.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
