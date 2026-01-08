@@ -238,5 +238,68 @@
         "action_counter": 34966
       }
     ]
+  },
+  "solve_boulders_v2": {
+    "description": "Uses BFS to find the sequence of pushes to fill all pits in Blackthorn Gym 2F and returns the full button sequence to execute the solution.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulders": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "walls": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "pits": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        },
+        "player_pos": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "boulders",
+        "walls",
+        "pits",
+        "player_pos"
+      ]
+    },
+    "python_script": "import collections\nimport json\n\ndef solve():\n    # Input from Gem\n    # boulders = {\"id\": [x, y], ...}\n    # walls = [[x, y], ...]\n    # pits = [[x, y], ...]\n    # player_pos = [x, y]\n    \n    # Static Gym Data (Blackthorn 2F)\n    WIDTH, HEIGHT = 10, 18\n    \n    # Helper to convert list to tuple for hashing\n    def t(l): return tuple(l)\n\n    # State: (player_pos, tuple_of_boulder_positions, filled_pits)\n    initial_boulders = tuple(sorted([(k, t(v)) for k, v in boulders.items()]))\n    initial_state = (t(player_pos), initial_boulders, tuple())\n    \n    wall_set = {t(w) for w in walls}\n    pit_set = {t(p) for p in pits}\n    \n    queue = collections.deque([(initial_state, [])])\n    visited = {initial_state}\n    \n    while queue:\n        (curr_p, curr_b, filled), path = queue.popleft()\n        \n        if len(filled) == len(pit_set):\n            print(json.dumps(path))\n            return\n\n        # Try moving in 4 directions\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = curr_p[0] + dx, curr_p[1] + dy\n            if not (0 <= nx < WIDTH and 0 <= ny < HEIGHT): continue\n            \n            new_p = (nx, ny)\n            \n            # Check if hitting a boulder\n            boulder_id = None\n            b_list = list(curr_b)\n            for i, (bid, bpos) in enumerate(b_list):\n                if bpos == new_p:\n                    boulder_id = i\n                    break\n            \n            if boulder_id is not None:\n                # Try pushing boulder\n                bx, by = b_list[boulder_id][1]\n                bnx, bny = bx + dx, by + dy\n                \n                # Check if push is valid (within bounds, not a wall, not another boulder)\n                if 0 <= bnx < WIDTH and 0 <= bny < HEIGHT:\n                    target = (bnx, bny)\n                    if target not in wall_set and target not in [b[1] for b in b_list]:\n                        new_b_list = list(b_list)\n                        new_filled = list(filled)\n                        \n                        if target in pit_set and target not in filled:\n                            # Boulder falls in pit\n                            new_b_list.pop(boulder_id)\n                            new_filled.append(target)\n                        else:\n                            # Boulder moves to new tile\n                            new_b_list[boulder_id] = (b_list[boulder_id][0], target)\n                        \n                        new_b_tuple = tuple(sorted(new_b_list))\n                        new_filled_tuple = tuple(sorted(new_filled))\n                        next_state = (new_p, new_b_tuple, new_filled_tuple)\n                        \n                        if next_state not in visited:\n                            visited.add(next_state)\n                            queue.append((next_state, path + [btn]))\n            else:\n                # Just move player\n                if new_p not in wall_set:\n                    next_state = (new_p, curr_b, filled)\n                    if next_state not in visited:\n                        visited.add(next_state)\n                        queue.append((next_state, path + [btn]))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Update solve_boulders to include explicit pit locations and improve BFS search for Blackthorn Gym 2F.",
+        "timestamp": "2026-01-08T20:50:44.832Z",
+        "action_counter": 35041
+      }
+    ]
   }
 }
