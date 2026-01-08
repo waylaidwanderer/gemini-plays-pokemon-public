@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron City.
-- **Next Step:** Find Copycat's House (9, 11).
+- **Location:** Saffron City (Copycat's House 1F).
+- **Next Step:** Find stairs to 2F -> Talk to Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
