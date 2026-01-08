@@ -32,8 +32,9 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Executing Swap: Muscle (Slot 1) <-> Gyarados (Slot 3).
-- Sequence: Select Pokemon -> Muscle -> Switch -> Gyarados -> Exit.
-- Goal: Exit to Overworld with Gyarados as Lead (Lv 36) for Repel trick.
+- Action: Open Start Menu -> Pokemon.
+- Goal: Verify Party Order (Screen vs GameState mismatch) and Swap Gyarados to Lead.
+- Current Status: Outside Violet PC. Muscle is Lead.
+- Confusion: Screen showed Garnet in Slot 2, GameState says Maelstrom. Need to verify.
 - Note: Pokedex search failed (Unseen). Proceeding to blind hunt.
 - Current State: Overworld (Menu Closed).
