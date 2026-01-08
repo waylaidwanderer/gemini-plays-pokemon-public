@@ -8,13 +8,28 @@
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
-- Verified Pits (2F): (2, 5), (8, 3), (8, 7).
+- Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Puzzle Status [Turn 34262]: Boulder 8 was soft-locked at (8, 10). Arrived on 1F via ladder at (7, 9) to reset. Returning to 2F.
 
-# Puzzle Reset Strategy
-- To reset boulder positions, leave the map (via ladder or pit) and return.
-- Current Reset Path: Exit via ladder at (7, 9).
+## Solution Strategy [Turn 34276]
+### Boulder 7 -> Pit (8, 3)
+1. Push B7 (6, 1) Right to (7, 1).
+2. Move to (6, 1).
+3. Push B7 (7, 1) Right to (8, 1).
+4. Move to (8, 2) via (7, 1) and (7, 2).
+5. Push B7 (8, 1) Down into (8, 3) PIT.
+
+### Boulder 6 -> Pit (2, 5)
+1. Move to (3, 4). Push Up to move B6 to (3, 2).
+2. Move to (3, 3). Push Left to move B6 to (2, 3).
+3. Move to (2, 2). Push Down to move B6 to (2, 4).
+4. Move to (2, 3). Push Down to move B6 into (2, 5) PIT.
+
+### Boulder 8 -> Pit (8, 7)
+1. Push B8 (8, 14) to (8, 12).
+2. Push B8 Left into column 6 at (6, 12).
+3. Push B8 Up column 6 to (6, 7).
+4. Push B8 Right into (8, 7) PIT.
 
 # Pokemon & Party Information
 ## Strategy for Gym Leader Clair
@@ -27,13 +42,3 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
-
-# Puzzle Attempt Log
-- Turn 34269: Restarted puzzle. Testing walkability of central pillars to refine BFS model.
-- Turn 34261: B8 soft-locked at (8, 10). Failed due to incorrect wall assumptions.
-- Hypothesis: Some tiles labeled WALL in the Mental Map (pillars) might be walkable or have walkable gaps.
-- Test 1: Attempt to walk into (4, 5) from (5, 5).
-- Test 2: Attempt to walk into (5, 0) from (5, 1).
-- Observation: Row 0 tiles (4, 0), (5, 0), (6, 0) visually appear as floor tiles in screenshots.
-- Hypothesis: Row 0 is walkable, allowing boulders in Row 1 to be pushed Down.
-- Test 3: Attempt to walk through Cody at (4, 1). (Likely impassable, but good to confirm).
