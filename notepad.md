@@ -9,8 +9,9 @@
 
 # Current Status
 - **Location:** Olivine City (19, 18).
-- **Action:** Walking South to Route 40.
-- **Immediate Plan:** Walk to Pokemon Center (13, 22) -> Continue South to beach.
+- **Action:** Manual navigation to Pokemon Center area.
+- **Path:** Down x4 to Row 22 -> Left x6 to x=13.
+- **Reason:** 'find_path' failed; taking safe manual route south of buildings.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
