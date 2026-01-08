@@ -1,9 +1,9 @@
 # Blackthorn Gym (Puzzle Progress)
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 2), B7 (6, 1), B8 (8, 14) [Current Positions].
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14) [Current Positions].
 - Reset Mechanic: Ladders (1, 7) and (7, 9) reset 2F boulders.
 - Push Mechanic: Player stays in tile after push.
-- Status: Strength is ACTIVE. B6 is at (3, 2).
+- Status: Strength is ACTIVE. B6 is at (3, 3).
 
 # Verified Obstacles (2F)
 - (4, 1): Cody. Impassable.
@@ -19,7 +19,7 @@
 - (6, 8) <-> (5, 8): FLOOR (gap).
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Push B6 (3, 2) to P2 (2, 5).
+- Step 1: Push B6 (3, 3) to P2 (2, 5).
 - Step 2: Push B7 (6, 1) to P3 (8, 7).
 - Step 3: Push B8 (8, 14) to P1 (8, 3) via Col 9.
 
