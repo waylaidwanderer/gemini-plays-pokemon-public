@@ -24,7 +24,7 @@
 - **Training Session (Route 45):** Started Turn 33466. 
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher.
-  - Current Progress: Xenon Lv36, Kimchi Lv32. (Last check: Turn 33743).
+  - Current Progress: Xenon Lv36, Kimchi Lv32. (Last check: Turn 33744).
 
 # Area Mechanics & Strategy
 ## Route 45 (Training Area)
