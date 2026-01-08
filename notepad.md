@@ -12,9 +12,9 @@
 ## Battle: Cooltrainer Darin
 - Status: Ongoing (Turn #35299)
 - Opponent: Dragonair (Lv37). Moves: Dragon Rage (40 fixed damage).
-- Strategy: Switch to Calcifer (Lv49). Calcifer has 155 Max HP, allowing him to tank 3-4 Dragon Rages. Use Return for neutral physical damage.
-- Note: Hypnosis failed Turn 35295 ("didn't affect"). Dragonair might have Safeguard active or a held item.
-- Party Status: Xenon 52/92 HP. Calcifer 155/155 HP.
+- Strategy: Calcifer (Lv49) use Return for neutral physical damage.
+- Party Status: Xenon 52/92 HP, Calcifer 115/155 HP.
+- Note: Dragonair resists Fire and Electric. Normal (Return) is neutral.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
