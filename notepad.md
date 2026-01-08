@@ -72,13 +72,13 @@
 - **WHIRLPOOL:** Obstacle. Requires Whirlpool HM to cross.
 - **CAVE:** Warp tile. Entrance to caves.
 - **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
-## Reflection (Turn 28041)
-1. **Execution:** Deferred verifying surf path north due to buoys, but correctly identified the blockage. Deferred fixing Fly interaction but handling it now.
-2. **Notepad:** Organized. Whirl Islands mapping is crucial and being maintained. Added this reflection.
-3. **Map:** Markers are good.
-4. **Automation:** `assess_reachability` was a success. `navigate_menu` is active.
-5. **Goals:** Clear: Fly to Olivine -> NE Whirl Island -> Lugia.
-6. **Errors:** Initial assumption that SW island led to Lugia was likely wrong due to one-way ledges. Pivot to NE island approach is the correct scientific response to the dead-end observation.
+## Reflection (Turn 28145)
+1. **Execution:** No deferrals. Pivoted from Fly failure to walking immediately.
+2. **Notepad:** Organized. Whirl Islands mapping is detailed.
+3. **Map:** Markers are consistent.
+4. **Automation:** `find_path_bfs` restored and functional.
+5. **Goals:** Clear: Heal -> Whirl Islands -> Lugia.
+6. **Errors:** Fly map navigation failure (stuck in menu loop). Fixed by walking. Pathfinding blocked by NPC. Fixed by rerouting.
 - **Fly Map Connections:**
   - Violet City -> Down -> Cherrygrove City (Verified).
   - Cherrygrove City -> Left -> [Blocked/No Connection] (Verified).
