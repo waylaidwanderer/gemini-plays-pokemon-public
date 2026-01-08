@@ -8,10 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (13, 22).
-- **Action:** Manual navigation to Poke Mart (19, 17).
-- **Path:** Down to Row 23 -> East to Col 19 -> Up to Door.
-- **Reason:** 'find_path' returned empty; Sailor at (18, 22) blocking direct route.
+- **Location:** Olivine Mart (1_8).
+- **Action:** Buying Ultra Balls.
+- **Immediate Plan:** Buy Ultra Balls -> Exit -> Route 40 -> Whirl Islands.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
