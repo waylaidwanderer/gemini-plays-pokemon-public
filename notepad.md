@@ -20,8 +20,12 @@
   - Strip 3 (Cols 5-9) is mostly open but has internal walls.
 
 # Strategy & Progress
-- Status: Back on 2F (2, 3). B6 at (3, 3) confirmed. Strength NOT active.
-- Plan: Activate Strength on B6, then use solve_blackthorn_boulders_v3.
+- Status: Strength active. B6 at (3, 3). Player at (2, 3).
+- Definitive Plan:
+  1. B7 (6, 1) -> Pit P1 (8, 3)
+  2. B8 (8, 14) -> Pit P3 (8, 7) via (6, 7)
+  3. B6 (3, 3) -> Pit P2 (2, 5) via Row 13 and Col 1
+- Current Step: Navigate to B7 (6, 1) via 1F ladder shortcut.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
