@@ -21,7 +21,7 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
-- Training Goal: Xenon and Kimchi to Lv 40.
+- Training Goal: Xenon (Lv 36) and Kimchi (Lv 32) to Lv 40.
 
 ## PC Storage
 - Box 1 (19/20): Doug (Diglett), Pavlov (Snorlax), Brimstone (Koffing), Heliodor (Sunkern), Cobalt (Nidoran M), Quartz (Rattata), Diva (Jigglypuff), Pendulum (Hoothoot), Jasper (Geodude), Unakite (Unown), Egg (Tyrogue), Amethyst (Zubat), Azurite (Heracross), Hematite (Pinsir), Kenya (Spearow), Togepi (Togepi), Lucid (Drowzee), Truffle (Swinub), Zenith (Dratini).
