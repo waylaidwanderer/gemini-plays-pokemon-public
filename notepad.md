@@ -1,9 +1,9 @@
 # Current Status
 - Location: Route 41 (18, 40) [Surfing].
-- Immediate Plan: Surf West to (12, 39), land on SW Island, walk to West shore, then Surf South to Y=45.
-- Reasoning: Trapped in East pocket. Must cross SW Island to access outer channel and South Highway (Y=45).
+- Immediate Plan: Surf West to (14, 40), land on SW Island at (14, 39), then walk to the West shore to access the channel.
+- Reasoning: Direct path to (12, 39) failed or returned no path. Targeting visible water tile adjacent to island.
 - Goal: Find path to Lugia (B3F).
-- Status: Relocating to West side of SW Island.
+- Status: Landing on SW Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
