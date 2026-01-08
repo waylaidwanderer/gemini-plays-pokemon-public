@@ -22,7 +22,7 @@
 
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
-- Status: Boulders at (3, 3), (6, 1), (8, 12). Strength active. Currently at (8, 14).
+- Status: Boulders at (3, 3), (7, 1), (8, 11). Strength active. Currently at (5, 5).
 - Failed Attempts: BFS solution from turn 34526 was incorrect. 
 - Current Plan: Use puzzle_strategist for high-level plan, then execute with precise movement.
 
