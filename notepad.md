@@ -15,9 +15,9 @@
 - Verified: (8, 9) is a WALL. (4, 12) is a WALL.
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Reach (8, 15) and activate Strength on B8.
-- Step 2: Use solve_gym_puzzle_crystal to get path.
-- Step 3: Execute.
+- Step 1: B7 (6, 1) -> P1 (8, 3).
+- Step 2: B8 (8, 14) -> (8, 5) -> (6, 5) -> (6, 1) -> (4, 1) -> (2, 5) PIT.
+- Step 3: B6 (3, 3) -> (3, 13) -> (6, 13) -> (8, 7) PIT.
 
 # Training Progress
 - Goal: Xenon and Kimchi to Lv40.
