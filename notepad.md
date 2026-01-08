@@ -9,8 +9,9 @@
 
 # Current Status
 - **Location:** Olivine City (13, 22).
-- **Action:** Going to Poke Mart (19, 17).
-- **Immediate Plan:** Walk East then North to Mart -> Buy Ultra Balls -> Route 40.
+- **Action:** Manual navigation to Poke Mart (19, 17).
+- **Path:** Down to Row 23 -> East to Col 19 -> Up to Door.
+- **Reason:** 'find_path' returned empty; Sailor at (18, 22) blocking direct route.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
