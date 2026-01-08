@@ -38,9 +38,9 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 37 (North Grass).
+- Location: Route 37 / Ecruteak Border.
 - Strategy: Blind Hunt Loop (Route 37 <-> Ecruteak).
 - Session Start: Turn 28662.
-- Action: Grass Sweep (Enter -> Wiggle -> Return).
-- Path: Down x2 -> Left -> Right -> Up x2.
+- Action: Continuous Loop (Grass Sweep -> Reset).
+- Path: Down (Enter Rt 37) -> Sweep Grass -> Up (Exit to Ecruteak).
 - Goal: Encounter Raikou/Entei.
