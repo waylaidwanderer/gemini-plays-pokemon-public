@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Entering Olivine City from Route 39.
-- **Action:** Walking South to enter the city.
-- **Immediate Plan:** Walk Left then South to bypass the fence.
+- **Location:** Olivine City (21, 0).
+- **Action:** Walking to Olivine Beach (Route 40 access).
+- **Immediate Plan:** Walk South to Pokemon Center (13, 22) as a waypoint.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
