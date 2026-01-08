@@ -236,5 +236,69 @@
         "action_counter": 34843
       }
     ]
+  },
+  "solve_gym_puzzle_crystal_v2": {
+    "description": "Calculates the button sequence to solve a boulder puzzle in Pokemon Crystal, assuming the player stays in place after a push.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        },
+        "pits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ]
+          }
+        },
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "boulders",
+        "pits",
+        "player_x",
+        "player_y"
+      ]
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        boulders_input = input_data['boulders']\n        pits_input = input_data['pits']\n        player_pos = (int(input_data['player_x']), int(input_data['player_y']))\n        \n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        grid = [[1 for _ in range(width)] for _ in range(height)]\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type']\n                if t_type in ['FLOOR', 'LADDER', 'PIT']:\n                    grid[y][x] = 0\n                if tile.find('Object') is not None:\n                    obj = tile.find('Object')\n                    if 'BOULDER' not in obj.attrib.get('id-name', ''):\n                        grid[y][x] = 1\n        \n        # Mark defeated trainers as floor\n        grid[1][4] = 0 # Cody\n        grid[11][4] = 0 # Fran (Assumed, need to verify)\n\n        start_b = frozenset([(b['x'], b['y']) for b in boulders_input])\n        pits_set = frozenset([(p['x'], p['y']) for p in pits_input])\n        \n        # State: (player_pos, frozenset_boulders)\n        queue = collections.deque([(player_pos, start_b, [])])\n        visited = {(player_pos, start_b)}\n        \n        while queue:\n            curr_p, curr_b, path = queue.popleft()\n            if not curr_b:\n                print(json.dumps(path))\n                return\n                \n            px, py = curr_p\n            for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                nx, ny = px + dx, py + dy\n                if 0 <= nx < width and 0 <= ny < height and grid[ny][nx] == 0:\n                    if (nx, ny) in curr_b:\n                        bx, by = nx + dx, ny + dy\n                        if 0 <= bx < width and 0 <= by < height and grid[by][bx] == 0 and (bx, by) not in curr_b:\n                            if (bx, by) in pits_set:\n                                new_b = frozenset(curr_b - {(nx, ny)})\n                            else:\n                                new_b = frozenset((curr_b - {(nx, ny)}) | {(bx, by)})\n                            # Mechanic: Player stays in place\n                            if (curr_p, new_b) not in visited:\n                                visited.add((curr_p, new_b))\n                                queue.append((curr_p, new_b, path + [move]))\n                    else:\n                        if ((nx, ny), curr_b) not in visited:\n                            visited.add(((nx, ny), curr_b))\n                            queue.append(((nx, ny), curr_b, path + [move]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T17:59:09.065Z",
+        "action_counter": 34854
+      }
+    ]
   }
 }
