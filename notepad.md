@@ -8,9 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (In Fly Menu).
-- **Action:** Opening Fly Map to select Cianwood City.
+- **Action:** Selecting Cianwood City.
+- **Move:** Left x6 (Spamming Left to reach westernmost city).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
-- **Fixed:** `find_path` tool updated to handle ledges.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
