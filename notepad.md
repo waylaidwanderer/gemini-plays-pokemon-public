@@ -6,9 +6,8 @@
 - Push Mechanic: Player moves into boulder's old tile. (Verified Turn 34813).
 
 # Puzzle Analysis (2F)
-- Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 12).
-- Strategy: Use run_code to find a complete BFS solution.
+- Problem: B8 (8, 12) appears stuck in Col 8 corridor.
+- Goal: Verify if (9, 13) is a wall. If not, B8 can be pushed west.
 - Gaps in Col 4: (4, 1) [Cody gone], (4, 11) [Fran gone], (4, 13-17) [Open].
 
 # Strategy: Blackthorn Gym 2F
