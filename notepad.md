@@ -26,5 +26,5 @@
 
 # Puzzle Investigation
 - Turn 34484: Confirmed (3, 0) is a solid WALL.
-- Turn 34484: Testing if Cody (4, 1) is walkable.
-- Turn 34484: Testing if Fran (4, 11) is walkable.
+- Turn 34484: Confirmed Cody (4, 1) is NOT walkable.
+- Turn 34486: Testing if Fran (4, 11) is walkable.
