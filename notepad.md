@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine Pokemon Center (3, 3).
-- **Action:** Healing Pokemon.
-- **Immediate Plan:** Advance dialogue -> Exit South -> Surf West to Whirl Islands.
+- **Location:** Olivine City (13, 22).
+- **Action:** Going to Poke Mart (19, 17).
+- **Immediate Plan:** Walk East then North to Mart -> Buy Ultra Balls -> Route 40.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
