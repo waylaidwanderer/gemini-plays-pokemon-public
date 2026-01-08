@@ -15,8 +15,9 @@
 
 ## Strategic Plan
 1. Trust Game State collision types (WALL, FLOOR) as absolute truth.
-2. Run BFS solver with confirmed data to find the push sequence.
-3. Execute the resulting sequence.
+2. Use run_code to solve for each boulder individually to identify specific reachability bottlenecks.
+3. Verify player reachability to the right side of B8 at (9, 11) and (9, 10).
+4. Execute the resulting sequence.
 
 ## Lessons Learned
 - Trust Game State: Collision types in Game State are the absolute truth.
