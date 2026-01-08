@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Hunting.
-- Action: Wiggle in Grass.
-- Sequence: Enter Grass -> Wiggle -> Return.
-- Hunt Session: Turn 28819.
+- Status: Repel Wore Off.
+- Action: Re-applying Repel.
+- Sequence: Close Text -> Menu -> Use Repel.
+- Hunt Session: Turn 28820.
