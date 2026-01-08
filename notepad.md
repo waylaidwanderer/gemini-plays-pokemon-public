@@ -34,7 +34,7 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: Middle strip (x=4-11) is a basin from y=68 to y=87.
-- Basin Escape: North to y=83, then East to x=12-16.
+- Basin Escape: North to y=81, then West to Strip 1 (x=0-2), then South to Row 89.
 - Blocked Unseen: (14, 61-62). (Hypothesis: Reachable via Dark Cave or alternate strip).
 - Target Unseen: (17-19, 86-89) in the right strip.
 
