@@ -1,9 +1,9 @@
 # Current Status
-- Location: WhirlIslandB1F (19, 25) [SE Corner].
-- Action: Picking up Item.
-- Observation: Previous attempt to pick up item failed due to input sanitization. Retrying.
-- Immediate Plan: Pick up item, then go to Boulder at (23, 26). Use Strength to push it and explore South.
-- Goal: Find path to Lugia (B3F).
+- Location: WhirlIslandB1F (17, 29) [South Central].
+- Action: Exploring South-West.
+- Observation: Obtained Escape Rope. Ladder at (13, 27) is blocked by walls from the East.
+- Immediate Plan: Move South to Row 30, then West to (13, 30) to find a path around the walls.
+- Goal: Find path to Ladder at (13, 27) or other exits to Lugia.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
