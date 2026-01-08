@@ -1,45 +1,23 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
-- Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Status: Strength NOT ACTIVE (Reset by ladder).
+- Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7)
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14)
+- Status: Strength NOT ACTIVE (Reset by ladder)
 
-# Game Mechanics
-- Strength: Deactivated by ladders/warps. Must be re-activated by interacting with a boulder.
-- Pushing: Player moves into the boulder's old tile after a push. (Verified Turn 34813, 34833).
-- Reset: Ladders (1, 7) and (7, 9) reset boulder positions on 2F.
+## Tile Mechanics (2F)
+- WALL: (4, 1-12), (6, 2-4, 6), (7, 4, 6, 10, 11), (8, 4, 9), (9, 4, 13), (5, 10), (2, 13), (3, 8)
+- PIT: (8, 3), (2, 5), (8, 7)
+- LADDER: (1, 7), (7, 9)
+- FLOOR: (6, 10)
+- PENDING: (8, 8)
 
-# Scientific Verification of "Walls" (2F)
-- Test 1: Cody (4, 1) -> Confirmed WALL (Turn 34880).
-- Test 2: Fran (4, 11) -> Confirmed WALL (Turn 34865).
-- Test 3: (4, 10) -> Confirmed WALL (Turn 34863).
-- Test 4: (4, 9) -> Confirmed WALL (Turn 34883).
-- Test 5: (6, 2) -> Confirmed WALL (Turn 34887). (6, 3) -> Confirmed WALL (Turn 34885).
-- Test 6: (7, 10) and (7, 11) -> Confirmed WALLs (Turn 34796, 34868).
-- Test 7: (5, 10) -> Confirmed WALL (Turn 34896).
-- Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
-- Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
-- Test 10: (2, 13) -> Confirmed WALL (Turn 34918).
-- Test 13: (3, 8) -> Confirmed WALL (Turn 34920).
-- Test 14: (8, 8) -> Pending.
-- Strategy: Verify (8, 8), then run `solve_boulders` tool.
-- Goal: Complete the map to find the path for B8 to reach P3 (8, 7).
+## Puzzle Strategy
+- Step 1: Verify (8, 8) collision
+- Step 2: Use `solve_boulders` with full wall list
+- Step 3: Execute the calculated pushes
 
-# Verified Obstacles (2F)
-- Column 4: (4, 1), (4, 9), (4, 10), (4, 11), (4, 12) are WALLs.
-- Column 8: (8, 8, 9) are likely WALLs (Seen=true).
-- Column 9: (9, 13) is WALL.
-
-# Training Progress
-- Goal: Xenon and Kimchi to Lv40.
-- Started: Turn 30928.
-- Progress: Haunter Lv36, Gloom Lv33.
-
-# Observation (Turn 34896)
-- Attempted to move Right from (5, 1). System warned of boulder at (6, 1), but Game State says boulder is at (7, 1).
-- Text "GNEISS can move boulders" appeared. Strength is active.
-- Player remained at (5, 1).
-- Hypothesis: Boulder 7 might have been at (6, 1) and I pushed it to (7, 1), but the player didn't follow? Or the warning is about the *target* tile after the push?
-- Goal: Inspect Boulder 8 at (8, 14) and verify path to pits.
-- Test 10: (7, 11) -> Confirmed WALL (Turn 34898).
-- Strategy: Move to (8, 13) to activate Strength on B8, then verify (8, 9) and (8, 8).
+## Training Strategy
+- Location: Route 45 grass/trainers
+- Goal: Xenon/Kimchi to Lv40
+- Start Turn: 30928
+- Progress: Haunter Lv36, Gloom Lv33
