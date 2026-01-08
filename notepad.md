@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (5, 14) [West Land].
-- Action: Landing on West Island.
-- Observation: Found land at (5, 14).
-- Immediate Plan: Explore the new landmass.
+- Location: WhirlIslandSW (3, 15) [Ladder Entrance].
+- Action: Exploring SW Island.
+- Observation: Found a ladder at (3, 15).
+- Immediate Plan: Take the ladder at (3, 15) to see where it leads.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
