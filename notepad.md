@@ -1,15 +1,15 @@
 # Current Status
-- Location: WhirlIslandB2F (12, 27) [Waterfall Basin].
-- Action: Moving to Ladder at (13, 31).
-- Immediate Plan: Surf South to land, then take the ladder at (13, 31).
-- Goal: Enter B3F.
+- Location: WhirlIslandSW (17, 15) [Ledge Area].
+- Action: Exploring SW Island Cave.
+- Observation: Arrived via Ladder from B2F. Area seems to be a ledge overlooking a larger room.
+- Immediate Plan: Explore the ledge area, then likely jump south to continue.
+- Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
-  - Ladder at (13, 11) -> ? (Not taken).
   - Ladder at (17, 3) -> B1F (35, 3) [Taken].
 - **B1F:**
   - Entrance: Ladder at (35, 3) from 1F.
@@ -17,7 +17,11 @@
 - **B2F:**
   - Entrance: Ladder at (11, 5) from B1F.
   - Item at (6, 4) (Max Revive) [Got].
-  - Current Exploration: Surfing West.
+  - Waterfall at (12, 14) -> Basin (12, 27).
+  - Ladder at (13, 31) -> SW (17, 15) [Taken].
+- **SW Island (Interior):**
+  - Entrance from B2F: (17, 15).
+  - Current Exploration: Ledge area at (17, 15).
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 41 Owned).
