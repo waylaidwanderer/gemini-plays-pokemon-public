@@ -30,3 +30,8 @@
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
+## Battle: Cooltrainer Darin
+- Location: DragonsDenB1F (20, 5)
+- Opponent: Cooltrainer Darin
+- Status: Battle started (Turn 35291).
+- Pokémon 1: Unknown.
