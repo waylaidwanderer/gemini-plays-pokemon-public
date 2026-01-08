@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandB1F (19, 24) [SE Corner].
+- Location: WhirlIslandB1F (19, 25) [SE Corner].
 - Action: Picking up Item.
-- Observation: Found Boulder at (23, 26). Item is at (19, 26).
-- Immediate Plan: Pick up item, then explore South/West to find a way to the Ladder at (13, 27).
+- Observation: Previous attempt to pick up item failed due to input sanitization. Retrying.
+- Immediate Plan: Pick up item, then go to Boulder at (23, 26). Use Strength to push it and explore South.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
