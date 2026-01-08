@@ -8,9 +8,8 @@
 
 # Current Status
 - **Location:** Olivine City (9, 16).
-- **Action:** Pathfinding to Pokemon Center (13, 21).
-- **Path:** East to x=16 -> South to Row 23 -> West to x=13 -> Up to PC.
-- **Reasoning:** Row 18 is blocked at x=9, must flank East.
+- **Action:** Manual navigation to Pokemon Center (13, 21).
+- **Path:** East to x=17 -> South to Row 22 -> West to x=13 -> Up to PC.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
