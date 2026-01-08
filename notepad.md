@@ -20,7 +20,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
+- EXP.SHARE: Held by KIMCHI. Receives 50% XP from all battles.
 - **Training Session (Route 45):** Started Turn 33466. 
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
