@@ -8,9 +8,8 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Correcting Pokemon selection.
-- **Problem:** Cursor started on Mistral, so 'Down' moved to Gyarados.
-- **Immediate Plan:** Press B (Close Gyarados menu) -> Up (Select Mistral) -> A (Open Mistral menu).
+- **Action:** Selected FLY.
+- **Immediate Plan:** Wait for Map to open -> Navigate cursor to Cianwood -> Fly.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
