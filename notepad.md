@@ -25,8 +25,8 @@
 - **Hygiene:** Map markers verified. Notepad cleaned.
 - **Action:** Continuing the hunt loop.
 
-- Location: Route 37 (North Grass).
-- Status: Returning.
-- Action: Return to Gate.
-- Sequence: Wiggle Failed -> Up (Return).
-- Hunt Session: Turn 28808.
+- Location: Ecruteak City (South Gate).
+- Status: Resetting Map.
+- Action: Enter Ecruteak -> Return to Route 37.
+- Sequence: Up (Reset) -> Down (Return).
+- Hunt Session: Turn 28809.
