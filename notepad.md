@@ -32,6 +32,7 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Current State: In Pokedex (at Metapod).
-- Action: Scroll UP x20 to wrap to bottom (Raikou/Entei).
+- Current State: In Pokedex. Scrolled Up x40.
+- Hypothesis: At #236 (Tyrogue) or #234 (Smeargle/Stantler?).
+- Action: Down x3 -> A (Select Entry). Check if Raikou/Entei.
 - Pending: Swap Muscle/Gyarados after tracking.
