@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Copycat's House 1F.
-- **Action:** Going to 2F to see Copycat.
+- **Location:** Copycat's House 2F.
+- **Action:** Giving Lost Item to Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
@@ -30,17 +30,11 @@
 - **Note:** Verification of tile mechanics is ongoing.
 
 ## Travel Notes
-- **Lesson:** Kanto Fly map cursor movement is non-linear/wrapping. Always verify destination visually.
-- **Route 6:** Head North to Saffron Gatehouse (6, 1).
+- **Route 6:** Head North to Saffron Gatehouse (6, 1). Pond at Row 11 blocks direct path; go east.
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
-- **Route 6 Navigation:** Water pond at Row 11 blocks direct path. Must navigate via the eastern side (approx x=16) to cross North.
 - **Tool Issue:** `find_path` incorrectly attempts to traverse ledges backwards. Needs update to respect one-way mechanics.
-- **Map Correction:** House at (13, 13) is Magnet Train Speech House, NOT Fan Club.
-- **Plan:** Check house at (21, 17) (South of Mart). (21, 13) is the Mart.
-- **Investigation:** Confirmed 'Magnet Train House' (12_8) is NOT Fan Club.
-- **Search:** Fan Club must be in the Southwest, near the Gym.
-- **Map Correction:** House at (21, 17) is Diglett's Cave Speech House.
-- **Search:** Fan Club must be elsewhere. Checking near Gym (Southwest).
-- **Exploration:** Searching west of Magnet Train House (13, 13).
-- **Target:** Unexplored area around (7, 13). Fan Club likely there.
+- **Locations:**
+    - Vermilion Fan Club: Southwest Vermilion.
+    - Magnet Train Speech House: Vermilion (13, 13).
+    - Diglett's Cave Speech House: Vermilion (21, 17).
