@@ -15,7 +15,13 @@
   - Whirlpool: Lapis (Poliwag).
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
-- **Immediate Action:** Finish phone call with Wade, then head south to Vermilion Port.
+- **Immediate Action:** Missed the S.S. Aqua (Sign says "Next Sunday"). Return to Vermilion City.
+- **New Route to Johto:** Magnet Train.
+- **Quest:** 
+    1. Fly to Saffron City -> Talk to Copycat.
+    2. Return to Vermilion Fan Club -> Get Doll.
+    3. Saffron Copycat -> Get Pass.
+    4. Goldenrod -> Whirl Islands.
 ## Tile Mechanics
 - **FLOOR:** Standard traversable tile.
 - **WALL:** Impassable.
