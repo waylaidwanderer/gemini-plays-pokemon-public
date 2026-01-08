@@ -2,7 +2,7 @@
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders Found: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Status: B8 is a decoy (trapped in Col 8 corridor).
+- Status: B8 is trapped (no lateral exits from Col 8). Searching for a 4th boulder.
 
 # Puzzle Analysis (2F)
 - B8 Status: Confirmed trapped. Vertical corridor (8, 10-17) has no lateral exits (Cols 7 and 9 are WALLs). Dead end at (8, 9) WALL.
