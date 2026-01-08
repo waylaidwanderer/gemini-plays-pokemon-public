@@ -28,3 +28,8 @@
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
+
+# Puzzle Exploration Log
+- Turn 34667: Testing passability of pillars at (6,2), (6,3) and (4,2-12).
+- Hypothesis: If pillars are passable, BFS will find a solution.
+- Observation: B7 (6,1) and B6 (3,3) are visible.
