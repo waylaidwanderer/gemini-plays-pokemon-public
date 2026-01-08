@@ -7,11 +7,11 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Overworld).
+- **Location:** New Bark Town (6, 11).
 - **Action:** Opening Start Menu to use Fly.
-- **Previous Mistake:** Accidentally selected Muscle and used Strength.
-- **Correct Sequence:** Start -> Select POKEMON -> Select Mistral (Slot 2) -> Select FLY.
-- **Next:** Navigate map cursor to Cianwood City (West).
+- **Previous Mistake:** Failed to select POKEMON (Start -> A selected POKEDEX).
+- **Correct Sequence:** Start -> Down (Select POKEMON) -> A -> Select Mistral -> Fly.
+- **Immediate Plan:** Press Start, then verify cursor position in next turn.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
