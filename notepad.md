@@ -42,3 +42,5 @@
 - Player remained at (5, 1).
 - Hypothesis: Boulder 7 might have been at (6, 1) and I pushed it to (7, 1), but the player didn't follow? Or the warning is about the *target* tile after the push?
 - Goal: Inspect Boulder 8 at (8, 14) and verify path to pits.
+- Test 10: (7, 11) -> Confirmed WALL (Turn 34898).
+- Strategy: Move to (8, 13) to activate Strength on B8, then verify (8, 9) and (8, 8).
