@@ -8,8 +8,8 @@
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
   - **Access:** Must land at **(36, 22)** (South side).
   - **Path:**
-    1. Navigate to West Channel (Column 17) via Row 9.
-    2. Surf South down Column 17 to Row 28.
+    1. Navigate to Central Channel (Column 18) at Row 11.
+    2. Surf South down Column 18 to Row 28.
     3. Surf East to **(34, 28)**.
     4. Surf North up Column 34 to **(34, 22)**.
     5. Surf East to Landing at **(36, 22)**.
