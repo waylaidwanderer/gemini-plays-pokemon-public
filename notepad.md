@@ -9,10 +9,10 @@
 - LADDER (Type: LADDER): Warp to 1F. Resets boulder positions.
 - NPCs act as walls.
 
-## Expected Boulder Positions (Reset)
-- B6 (ID 6): (3, 2)
-- B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 14)
+## Current Boulder Positions
+- B6 (ID 6): (3, 2) [Unverified]
+- B7 (ID 7): (6, 1) [Unverified]
+- B8 (ID 8): (8, 14) [Verified]
 
 ## Pits (Targets)
 - P1: (8, 3)
@@ -20,9 +20,9 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Reset the room using the ladder at (7, 9). (DONE)
-2. Verify boulder positions and activate Strength.
-3. Use solve_boulders_v2 to find the sequence of pushes from the reset state.
+1. Navigate to (3, 2) and (6, 1) to verify B6 and B7 positions after reset.
+2. Use solve_boulders_v2 with the verified positions and wall data.
+3. Execute the resulting sequence of pushes.
 
 ## Lessons Learned
 - Visuals are deceptive; trust the 'type' attribute in the Game State.
