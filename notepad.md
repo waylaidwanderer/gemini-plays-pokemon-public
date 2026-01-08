@@ -4,10 +4,9 @@
 - Dragon's Den Location: "Behind the Gym".
 
 ## Strategy: Dragon User Challenge
-1. Heal party at Blackthorn Pokemon Center. (DONE)
-2. Navigate to the water behind (North) the Blackthorn Gym. (IN PROGRESS)
-3. Locate entrance to Dragon's Den. (Spotted sign at 21, 3 and Gramps at 21, 2)
-4. Reach the "small shrine" at the center of the Den.
+- Navigate to the area north of Blackthorn Gym.
+- Locate entrance to Dragon's Den (spotted sign at 21, 3 and potential entrance at 20, 1).
+- Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
@@ -19,19 +18,15 @@
 - WATER: Traversable only while Surfing.
 - LEDGE_HOP_DOWN: Southward one-way jump. Impassable from other directions.
 
-## Blackthorn Gym Puzzle (2F) - SOLVED
-- Status: Boulders pushed into pits.
-- Pits: P1(8,3), P2(2,5), P3(8,7).
+## Type Effectiveness (Gen 2)
+- Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
+- Kingdra (Water/Dragon): Resists Fire, Water (0.25x). Neutral to Electric, Grass, Ice. Weak to Dragon.
+- Note: Type multipliers are constant regardless of level difference.
 
 ## Lessons Learned
-- Clair's Badge: Defeating her is not sufficient; a second trial in Dragon's Den is required.
-- Dragon's Den: Contains a central shrine.
-- Type Effectiveness (Gen 2):
-    - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
-    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass (0.5x). Weak to Dragon. Ice is neutral.
-    - Note: High level differences (e.g., Lv49 vs Lv40) can make resisted damage appear neutral.
+- Clair's Badge: Requires a second trial in Dragon's Den.
 - NPC Interaction: Counter tiles act as barriers; interact with NPCs across them.
-- Ledge Traversal: LEDGE_HOP_DOWN tiles allow one-way movement south. They act as walls from the south.
+- Ledge Traversal: One-way southward movement.
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
