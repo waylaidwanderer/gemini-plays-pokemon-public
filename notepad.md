@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (3, 15) [Ladder Entrance].
-- Action: Exploring SW Island.
-- Observation: Found a ladder at (3, 15).
-- Immediate Plan: Take the ladder at (3, 15) to see where it leads.
+- Location: WhirlIslandNW (3, 15) [Ladder Entrance].
+- Action: Exploring NW Island Cave.
+- Observation: Arrived via Ladder from SW Island. Another ladder visible at (7, 15).
+- Immediate Plan: Explore the room and check the ladder at (7, 15).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
@@ -21,7 +21,11 @@
   - Ladder at (13, 31) -> SW (17, 15) [Taken].
 - **SW Island (Interior):**
   - Entrance from B2F: (17, 15).
-  - Current Exploration: Ledge area at (17, 15).
+  - Ledge (17, 15) -> Surf West -> Land (5, 14).
+  - Ladder at (3, 15) -> NW (3, 15) [Taken].
+- **NW Island (Interior):**
+  - Entrance from SW: (3, 15).
+  - Ladder at (7, 15) -> ? (Check next).
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 41 Owned).
