@@ -7,10 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Ecruteak City (23, 28).
-- **Action:** Abandoning Fly. Switching to walking.
-- **Reason:** Fly map navigation is unreliable (Horizontal movement failing). Walking to Olivine is short and deterministic.
-- **Immediate Plan:** Close menus (B x3) -> Walk West to Route 38 gatehouse (0, 18).
+- **Location:** Ecruteak City (19, 18).
+- **Action:** Walking West to Route 38.
+- **Immediate Plan:** Walk straight Left to the gatehouse (0, 18).
 - **Route:** Ecruteak -> Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
