@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (13, 23).
-- **Action:** Initiating Surf.
-- **Immediate Plan:** Press A to Interact with Water -> Select YES -> Surf South.
+- **Location:** Olivine City (13, 24) [Surfing].
+- **Action:** Surfing to Route 40.
+- **Immediate Plan:** Move South to enter Route 40 -> Continue West/South to Whirl Islands.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
