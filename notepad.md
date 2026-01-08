@@ -40,6 +40,6 @@
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North).
 - Status: Max Repel ACTIVE.
-- Action: Checking grass for Roamers.
-- Loop: Ecruteak <-> Route 37.
-- Strategy: Blind Hunt (Repel Trick). If no encounter in ~10 steps, Reset.
+- Action: Executing Hunting Loop (Grass Check -> Exit).
+- Sequence: Enter Grass -> Wiggle -> Return to Gate -> Exit.
+- Goal: Encounter Raikou or Entei. If not, reset in Ecruteak.
