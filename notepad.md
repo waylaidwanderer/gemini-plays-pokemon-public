@@ -32,7 +32,7 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Open Start Menu -> Pokemon.
-- Goal: Restart Swap sequence from scratch.
-- Reason: Previous attempts failed or closed menu.
-- Plan: Use Context Menu 'SWITCH' option to avoid Select button issues.
+- Action: Navigate to Gyarados (Slot 3) -> Open Context Menu.
+- Goal: Locate 'SWITCH' option.
+- Reason: Safely identifying menu layout (Surf/Waterfall order) before committing.
+- Next: Select 'SWITCH', move to Slot 1, Confirm.
