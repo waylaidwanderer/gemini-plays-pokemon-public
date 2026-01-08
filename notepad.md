@@ -10,11 +10,12 @@
 - Encounter: Cooltrainer Darin at (20, 5).
 
 ## Battle: Cooltrainer Darin
-- Status: Ongoing (Turn #35299)
+- Status: Ongoing (Turn #35301)
 - Opponent: Dragonair (Lv37). Moves: Dragon Rage (40 fixed damage).
 - Strategy: Calcifer (Lv49) use Return for neutral physical damage.
 - Party Status: Xenon 52/92 HP, Calcifer 115/155 HP.
 - Note: Dragonair resists Fire and Electric. Normal (Return) is neutral.
+- Plan: Use Return (Turn 35301) to defeat Dragonair.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
