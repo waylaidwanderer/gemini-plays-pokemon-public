@@ -21,15 +21,11 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
-- Training Goal: Xenon (Lv 36) and Kimchi (Lv 32) to Lv 40.
-
-## PC Storage
-- Box 1 (19/20): Doug (Diglett), Pavlov (Snorlax), Brimstone (Koffing), Heliodor (Sunkern), Cobalt (Nidoran M), Quartz (Rattata), Diva (Jigglypuff), Pendulum (Hoothoot), Jasper (Geodude), Unakite (Unown), Egg (Tyrogue), Amethyst (Zubat), Azurite (Heracross), Hematite (Pinsir), Kenya (Spearow), Togepi (Togepi), Lucid (Drowzee), Truffle (Swinub), Zenith (Dratini).
+- Training Strategy (Route 45): Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Calcifer (Lv 49 Typhlosion) as finisher.
 
 # Area Mechanics & Strategy
 ## Route 45 (Training Area)
 - Encounter Rate: High in TALL_GRASS at (12, 10). Frequent Gligar (Lv24) and Graveler (Lv23).
-- Training Strategy: Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Calcifer (Lv 48 Typhlosion) as finisher.
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
