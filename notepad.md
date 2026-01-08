@@ -5,7 +5,7 @@
 - Status: Strength is ACTIVE.
 
 # Tile Mechanics (2F)
-- WALL: Impassable. (4, 0-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (9, 12-17).
+- WALL: Impassable. (4, 0-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (9, 12-17). (Confirmed (4, 12) is WALL, Turn 34794).
 - Gap: (4, 13) is the primary connection between left and right.
 - Push Mechanic: Player stays in tile after push. (Confirmed Turn 34791).
 
