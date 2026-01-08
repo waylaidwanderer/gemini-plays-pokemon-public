@@ -17,11 +17,11 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
-- Strategy: RESET COMPLETE. Navigating southern Blackthorn maze to reach Route 45 eastern strip.
-- Confirmed Walls: Row 32 (x=21-29) and Row 34 (x=15-19, 29-31) are impassable from the North.
-- Gaps Found: Row 32 gap at x=30-31. Row 34 gap at x=20-27.
-- Zigzag Path: (24, 31) -> (30, 31) -> (30, 33) -> (24, 33) -> (24, 35) -> (17, 35).
-- Target: Eastern strip entrance (x=15-18) on Row 35. (Updated Turn 33956).
+- Strategy: RESET COMPLETE. Navigating refined southern Blackthorn maze.
+- Barrier: Wall block at x=28-30, y=28-31. Row 32 (x=21-29) and Row 34 (x=28-31) are impassable from North.
+- Path: (27, 31) -> (24, 25) -> (32, 25) -> (32, 29) -> (31, 29) -> (31, 33) -> (27, 33) -> (27, 35) -> (17, 35).
+- Target: Eastern strip of Route 45 (x=15-18). (Updated Turn 33957).
+- SE Exploration: Check (33-39, 28-35) while in the eastern corridor.
 
 # Lessons Learned
 - **Ghost Lead:** Haunter lead is ideal for wild Graveler encounters (Selfdestruct immunity).
