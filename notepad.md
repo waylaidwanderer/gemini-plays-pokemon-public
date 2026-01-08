@@ -8,14 +8,14 @@
 # Blackthorn Gym Puzzle Analysis
 - Start Turn: 34501
 - Goal: Fill three pits on 2F to bridge gaps on 1F.
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14) [Default Positions].
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 13) [Default Positions].
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Critical Mechanic: Changing floors (using ladders) RESETS all boulder positions on 2F. (Verified Turn 34592).
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Status: Back on 2F (3, 4). Verifying Strength.
-- Plan: Solve the puzzle without leaving 2F. Use run_code to debug the solution.
+- Status: Back on 2F (3, 4). Activating Strength.
+- Plan: Solve the puzzle without leaving 2F. Verify boulder 8 default position.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
@@ -24,3 +24,4 @@
 - Cody (4, 1): Solid obstacle (Verified Turn 34581).
 - Push Mechanic: Player stays in place after push (Verified Turn 34566).
 - Floor Reset: Transitions between 1F and 2F reset boulders (Verified Turn 34592).
+- Connectivity: Strip 2 and 3 connect at Row 13.
