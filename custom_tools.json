@@ -288,12 +288,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef navigate_menu(directions, hold_ms=150, interval_ms=300, autopress_buttons=True):\n    # Frame duration is approx 16ms\n    frames_to_hold = max(1, int(hold_ms / 16))\n    \n    output_sequence = []\n    \n    for btn in directions:\n        # Hold the button\n        for _ in range(frames_to_hold):\n            output_sequence.append(btn)\n        \n        # Release/Wait\n        if interval_ms > 0:\n            output_sequence.append(f\"sleep {interval_ms}\")\n            \n    print(json.dumps(output_sequence))",
+    "python_script": "import json\n\n# Extract arguments from input_data\ndirections = input_data.get('directions', [])\nhold_ms = input_data.get('hold_ms', 150)\ninterval_ms = input_data.get('interval_ms', 300)\nautopress_buttons = input_data.get('autopress_buttons', True)\n\n# Frame duration is approx 16ms\nframes_to_hold = max(1, int(hold_ms / 16))\n\noutput_sequence = []\n\nfor btn in directions:\n    # Hold the button\n    for _ in range(frames_to_hold):\n        output_sequence.append(btn)\n    \n    # Release/Wait\n    if interval_ms > 0:\n        output_sequence.append(f\"sleep {interval_ms}\")\n        \nprint(json.dumps(output_sequence))",
     "history": [
       {
         "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
         "timestamp": "2026-01-08T03:01:39.002Z",
         "action_counter": 27437
+      },
+      {
+        "commit_message": "Fixed `navigate_menu` to correctly extract arguments from `input_data` and execute the logic, preventing 'Unexpected end of JSON input' errors.",
+        "timestamp": "2026-01-08T03:03:15.631Z",
+        "action_counter": 27439
       }
     ]
   }
