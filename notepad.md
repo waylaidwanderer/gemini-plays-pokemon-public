@@ -8,8 +8,8 @@
 
 # Current Status
 - **Location:** Route 38 (17, 3).
-- **Action:** Navigating past Lass to the South.
-- **Immediate Plan:** Walk Down to Row 4 -> West to bypass Lass and Wall.
+- **Action:** Using 'find_path' to bypass Lass (16, 3).
+- **Target:** (10, 4) - West of the Lass.
 - **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
