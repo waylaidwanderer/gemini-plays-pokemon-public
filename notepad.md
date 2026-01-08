@@ -32,5 +32,6 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Probe Start Menu (Up x4) to find Pokedex/Party.
-- Note: Previous swap failed (Swapped Garnet/Mistral). Muscle still lead.
+- Current State: In Pokedex (at Metapod).
+- Action: Scroll UP x20 to wrap to bottom (Raikou/Entei).
+- Pending: Swap Muscle/Gyarados after tracking.
