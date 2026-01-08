@@ -14,9 +14,9 @@
 - Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
 
 # Lessons Learned
-- Puzzle Reset: Leaving 2F (via ladder or pit) resets all boulder positions.
-- Data Freshness: My Mental Map (and thus XML tools) only update objects when they are on screen.
-- Soft-locks: Pushing B7 to (5, 1) or B8 to (8, 10) against confirmed walls is a reset condition.
+- Puzzle Reset: Boulders DO NOT reset when falling through a pit. They only reset when leaving the gym area entirely (e.g., exiting the front door).
+- Data Freshness: My Mental Map (and thus XML tools) only update objects when they are on screen. I am currently verifying the positions of all boulders after my previous failed attempts.
+- Current Status [Turn 34316]: B6 is at (3, 3). B7 is at (7, 1). Heading to (8, 14) to find B8.
 - Layout: Row 13 is a safe horizontal crossing between the left and right sides of the gym. Column 5 is the primary vertical artery.
 
 # Pokemon & Party Information
