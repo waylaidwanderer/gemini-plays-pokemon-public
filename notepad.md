@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33938).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33943).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead XENON (Ghost immunity to Selfdestruct).
   - Progress: Xenon Lv36, Kimchi Lv33.
@@ -43,3 +43,4 @@
 - **Strips & Ledges:** Route 45 is a one-way system of vertical strips. Exit to Route 46 is in the leftmost strip (x=0-2).
 - **Basin Navigation:** Some strips are connected at specific latitudes (e.g., y=83 connects middle and right strips).
 - **Blackthorn Wall:** A wall at y=34 blocks most eastern exits. Use the ledge at (21, 32) to reach the southern edge.
+- **Menu Verification:** Always check the current screen before executing long button sequences to avoid logic loops.
