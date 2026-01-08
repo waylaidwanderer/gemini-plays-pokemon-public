@@ -47,3 +47,8 @@
 - Plan: Jump into Pit (8, 3) to reset the room and return to 2F.
 - Observation: (5, 0), (6, 0), (7, 0), (8, 0), (9, 0) are impassable WALL tiles.
 - Path to Pit: (7, 1) -> (7, 2) -> (8, 2) -> (8, 3).
+- WARP_CARPET_DOWN: Standard exit warp.
+- Blackthorn Gym Pit Shifts (Inconsistent!):
+  - 2F (8, 3) -> 1F (7, 6)
+  - 2F (2, 5) -> 1F (2, 6)
+  - 2F (8, 7) -> 1F (7, 7)
