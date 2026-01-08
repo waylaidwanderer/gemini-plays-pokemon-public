@@ -1,8 +1,8 @@
 # Current Status
-- Immediate Plan: Walk to Olivine City via Route 38 (West Exit).
-- Route: From Pokemon Center (23, 28) -> West to x=10 corridor -> North to y=19 -> West to Exit (0, 19).
-- Reasoning: Fly failed. Manual navigation required. x=10 is a clear vertical corridor bypassing buildings.
-- Goal: Find path to Lugia (B3F).
+- Immediate Plan: Traverse Route 38 West to Route 39.
+- Route: West along the main path (y=8/9) to the gate at x=0.
+- Reasoning: Walking to Olivine City since Fly failed.
+- Goal: Reach Olivine, Surf to Whirl Islands.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
