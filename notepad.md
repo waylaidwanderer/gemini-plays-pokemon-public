@@ -8,10 +8,10 @@
 # Blackthorn Gym (2F) Puzzle
 - Start Turn: 34501 (Current Attempt: 34547)
 - Goal: Push three boulders into pits to bridge gaps to Gym Leader Clair on 1F.
-- Boulder 5: (3, 7) - PENDING VERIFICATION
-- Boulder 6: (3, 3)
-- Boulder 7: (6, 1)
-- Boulder 8: (8, 14) - STUCK in column 8. Decoy?
+- Boulder 5: DOES NOT EXIST (Verified at (3, 7))
+- Boulder 6: (3, 3) - SEEN
+- Boulder 7: (6, 1) - PENDING VERIFICATION (Post-reset)
+- Boulder 8: (8, 14) - SEEN
 - Pit A: (8, 3)
 - Pit B: (2, 5)
 - Pit C: (8, 7)
