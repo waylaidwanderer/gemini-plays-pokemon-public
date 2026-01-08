@@ -23,7 +23,7 @@
 - EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
 - **Training Session (Route 45):** Started Turn 33466. 
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher.
+  - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
   - Current Progress: Xenon Lv36, Kimchi Lv32.
 
 # Area Mechanics & Strategy
