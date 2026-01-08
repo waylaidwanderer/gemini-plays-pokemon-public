@@ -46,3 +46,4 @@
 - Turn #33999: Confirmed Col 34-37 is a trapped middle section. Must use Col 39 for full southern access.
 - Observation: Hopping ledges in Blackthorn (e.g., Row 15, Row 21) moves the player two tiles south and is one-way.
 - Hypothesis: Eastern strip (Col 39) is the intended path to Route 45 East.
+- Eastern Strip Access: Column 38 is a wall from Row 9 to Row 19. Access to Column 39 is ONLY possible at Row 8 (near Ice Path exit).
