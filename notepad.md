@@ -10,13 +10,13 @@
 - LADDER: (1, 7), (7, 9)
 - FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
 
-## Puzzle Strategy (2F)
-- Observation: Diagnostic script says no path for any boulder. Hypothesis: Map is incorrect.
-- Goal: Systematically verify 'Confirmed WALL' tiles to find the actual paths.
-- Test 1: (7, 13) to (4, 13) corridor.
-- Test 2: (4, 1) to (4, 12) vertical wall.
-- Test 3: (6, 2) and (6, 3) center block.
-- Test 4: Row 0 and Row 17 borders.
+## Puzzle Strategy (2F) - Systematic Re-Verification
+- Hypothesis: Some "confirmed" walls are actually floor tiles, creating a path for B8.
+- Goal: Verify every "Confirmed WALL" marker in the central and right areas.
+- Current Plan:
+  1. Test (5, 10) -> Result: WALL (Turn 34973).
+  2. Test (6, 10) by moving Up from (6, 11).
+  3. Use `solve_boulders` with exhaustive wall list and correct [X, Y] format.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
