@@ -39,7 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North Grass).
-- Action: Hunting Loop (Enter -> Wiggle).
-- Path: Down x2 -> Left -> Right -> Down -> Up.
-- Goal: Trigger Encounter.
+- Status: No Encounter.
+- Action: Resetting in Ecruteak.
+- Sequence: Up x3 (Exit Map).
 - Hunt Session: Turn 28685.
