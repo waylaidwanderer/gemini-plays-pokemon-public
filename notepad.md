@@ -1,9 +1,9 @@
 # Current Status
 - Location: Route 41 (8, 43) [West Shore].
-- Immediate Plan: Surf South to (8, 52), then East along the southern edge to reach NE Island.
-- Reasoning: Direct East path is blocked. The channel at X=8 leads to the open southern water (Y=52).
+- Immediate Plan: Walk East to (17, 39). Then Surf North/East to (20, 35) and towards NE Island via X=29.
+- Correction: West side (X=8) and Central Pocket (X=6-9) are dead ends South. The Western Channel (X=3) is blocked by a buoy wall at X=5. The only viable path is back East.
 - Goal: Find path to Lugia (B3F).
-- Status: Surfing to Southern Highway.
+- Status: Retreating to East Shore.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
