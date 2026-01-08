@@ -37,7 +37,7 @@
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 36 (East Side).
 - Status: Max Repel ACTIVE (~132 steps).
-- Action: Manual Detour around Lass (Tool failed to see obstacle).
-- Path: Up -> Right x2 -> Down -> Right x5 -> Gate.
+- Action: Retrying Manual Detour (Previous inputs dropped).
+- Path: Up -> Right x2 -> Down -> Right x6 -> Exit.
 - Plan: Exit Map -> Re-enter -> Resume Hunt.
 - Note: `find_path_bfs` tool ignores Map Objects (Bug). Use manual pathing near NPCs.
