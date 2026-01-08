@@ -11,9 +11,9 @@
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Solve boulders manually or with `solve_gym_puzzle`.
-- Current Status: Strength is active. Boulder 7 pushed to (8, 1). Moving to left side of gym via ladders.
+- Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
+- Strategy: Reactivate Strength at (8, 14), then use `solve_gym_puzzle` to determine the move sequence.
+- Current Status: Strength reset after falling. Facing Right at (8, 13). Boulder 8 is at (8, 14).
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
