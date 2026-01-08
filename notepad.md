@@ -15,8 +15,13 @@
 - Goal: Verify every "Confirmed WALL" marker in the central and right areas.
 - Current Plan:
   1. Test (5, 10) -> Result: WALL (Turn 34973).
-  2. Test (6, 10) by moving Up from (6, 11).
-  3. Use `solve_boulders` with exhaustive wall list and correct [X, Y] format.
+  2. Test (6, 10) -> Result: FLOOR (Turn 34914).
+  3. Test (7, 10) -> Result: WALL (Turn 34898).
+  4. Test (8, 9) and (8, 8) -> Result: WALL (Turn 34903, 34925).
+  5. Test (6, 6) and (7, 6) -> Result: WALL (Turn 34910, 34908).
+- Observation: B8 (8, 15) is trapped by walls at (7, 15), (7, 14), (8, 8), (8, 9), (9, 15).
+- New Hypothesis: B8 must be pushed through the gap at (4, 13) to reach the pits on the left? No, pits are at (8,3), (2,5), (8,7). P2 (2,5) is on the left. P1 and P3 are on the right.
+- Goal: Find path for B8 to (8, 7) and (8, 3).
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
