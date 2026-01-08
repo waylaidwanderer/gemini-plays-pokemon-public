@@ -8,8 +8,8 @@
 
 # Current Status
 - **Location:** Magnet Train Station (Saffron).
-- **Action:** Showing PASS to Officer (Object 2).
-- **Note:** Officer moved to (9, 15), blocking the path. Interacting to board.
+- **Action:** Walking to Officer (Object 1) at (9, 9) to board.
+- **Note:** Object 2 was a Gym Guide/Patron. Object 1 is the Conductor/Guard.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
