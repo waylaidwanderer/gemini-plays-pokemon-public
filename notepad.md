@@ -1,9 +1,9 @@
 # Current Status
-- Location: WhirlIslandB1F (17, 29) [South Central].
-- Action: Exploring South-West.
-- Observation: Obtained Escape Rope. Ladder at (13, 27) is blocked by walls from the East.
-- Immediate Plan: Move South to Row 30, then West to (13, 30) to find a path around the walls.
-- Goal: Find path to Ladder at (13, 27) or other exits to Lugia.
+- Location: WhirlIslandB1F (9, 31) [SW Corner].
+- Action: Exiting B1F via Ladder.
+- Observation: Found another ladder at (9, 31) in the SW corner. Ladder at (13, 27) remains inaccessible from here.
+- Immediate Plan: Take Ladder at (9, 31).
+- Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
