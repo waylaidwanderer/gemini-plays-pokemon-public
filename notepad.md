@@ -16,14 +16,14 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33850).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33851).
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles. Avoid switching KIMCHI into Gravelers.
-  - Progress: Xenon Lv36, Kimchi Lv33. (EXP.SHARE verified).
+  - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
+  - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
 
 # Area Mechanics & Strategy
 ## Strategy for Rising Badge (Gym Leader Clair)
-- Status: Gym trainers defeated. Boulders pushed.
+- Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
 - Strategy:
   - GNEISS (Lv48): Earthquake/Strength for high physical damage. (Dragonair is pure Dragon, vulnerable to Ground).
@@ -32,17 +32,19 @@
   - KIMCHI (Lv33): Sleep Powder for secondary status control.
 
 # Lessons Learned
-- **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation.
-- **Ghost Immunity:** Haunter immune to Normal moves.
+- **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
+- **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct.
 - **Gligar Typing:** Ground/Flying. Immune to Ground.
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground.
+- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences.
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
 
 # Exploration Log
 ## Current Targets (Reachable Unseen)
-- Column 10-11: (11, 37), (10, 38). Path: South to (11, 35) then South to targets.
-- Column 12-14: (14, 68-73), (12-13, 74). Path: South past Cooltrainer F.
+- Column 10-11: (11, 37), (10, 38).
+- Column 12-14: (14, 68-70, 72-73), (12-13, 74).
+- Pathing: South past Cooltrainer F at (5, 36).
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Pathing: Hop down ledge at (12, 29) - Completed Turn 33842.
