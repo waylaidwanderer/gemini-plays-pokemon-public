@@ -20,14 +20,9 @@
 - **Lesson:** The Start Menu is the root menu level. Pressing 'B' there closes the menu entirely. Verify menu depth before canceling.
 - **Strategy:** To find Raikou/Entei, use Pokedex -> Search/Scroll -> Check Area.
 
-# Lugia (Maelstrom) Stats
-- Level: 60
-- HP: 204
-- Attack: 137
-- Defense: 185
-- Sp. Atk: 137
-- Sp. Def: 215
-- Speed: 161
-- Moves: Gust, Recover, Hydro Pump, Rain Dance.
-- Note: Lacks Aeroblast (Lv 1 move). Gen 2 has no Move Relearner, so Aeroblast is likely lost forever.
-- Note: Start Menu cursor remembers last position.
+# Legendary Beast Tracking
+- Raikou (Johto #238): Check Area
+- Entei (Johto #239): Check Area
+- Suicune (Johto #240): Status Unconfirmed (Check Pokedex)
+
+- Note: Start Menu cursor remembers last position. Always reset to top.
