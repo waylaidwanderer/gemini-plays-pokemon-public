@@ -29,3 +29,6 @@
 # Post-Game Goals
 - **Primary:** Complete Pokedex.
 - **Targets:** Raikou, Entei, Suicune, Ho-Oh.
+- Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
+- Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
+- Location Plan: Route 31/Violet Gate or Route 36/37.
