@@ -26,3 +26,9 @@
 ## Tested Mechanics
 - Push Mechanic: Player stays in place after push (Verified Turn 34566).
 - Floor Reset: Transitions between 1F and 2F reset boulders (Verified Turn 34592).
+
+# Puzzle Obstacles & Hypotheses
+- Hypothesis: Strip 2 (Section A, Row 1-7) is isolated from Row 9-17 by walls at Row 8 (2,8), (3,8), (4,8).
+- Path to Section A: Must go via Row 13-17 crossing -> Strip 2 (bottom) -> Row 9 crossing -> Strip 1 -> Row 1 crossing -> Strip 2 (top).
+- Problem: B8 (8, 14) appears trapped in Strip 4 (bottom) by walls at (8, 8), (8, 9) and (9, 12-17).
+- Action: Verify passability of (8, 8), (8, 9) and x=9 tiles.
