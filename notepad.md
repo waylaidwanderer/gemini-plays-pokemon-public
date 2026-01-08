@@ -17,7 +17,7 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
-- Strategy: RESET COMPLETE. Healed at PokeCenter. Now navigating to (24, 12) to access a chain of ledges in Column 24. This path is hypothesized to bypass the Row 32-34 walls and reach the isolated southern Area B (x=15-27), granting access to the eastern high-ground strip of Route 45.
+- Strategy: RESET COMPLETE. Navigated to (24, 12). Now jumping ledges in Column 24: (24, 17), (24, 21), (24, 23). This path leads to the isolated southern Area B (x=15-27), granting access to the eastern high-ground strip of Route 45. (Updated Turn 33952).
 - Confirmed: Row 34 (x=15-19) is a wall face from the North, not jumpable.
 - Confirmed: Row 32 (x=21-29) is a wall face from the North.
 - Gap: Row 12 (x=22-23) is FLOOR, allowing passage to the far East of the city.
