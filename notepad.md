@@ -6,9 +6,10 @@
 
 # Puzzle Analysis (2F)
 - Problem: B8 is currently trapped in Column 8. B6 and B7 are clear.
-- Hypothesis: Statues (e.g., 4, 10) are passable floor tiles.
-- Test: Attempt to walk into (4, 10) from (3, 10).
-- Goal: Verify if statues block movement.
+- Pushing: Player MOVES into boulder's old tile. (Verified Turn 34814, 34816, 34854).
+- Problem: B8 is trapped in Column 8.
+- Goal: Verify if (4, 10) and (7, 10) statues are passable floors.
+- Test: Walk Right from (3, 10).
 
 # Tile Mechanics (2F)
 - WALL: (4, 0, 2-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11, 14, 15), (9, 12-17).
