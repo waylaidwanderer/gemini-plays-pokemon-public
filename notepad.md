@@ -1,7 +1,7 @@
 # Current Status
 - Location: WhirlIslandCave (5, 5) [Corridor].
-- Action: Nicknaming caught Krabby.
-- Immediate Plan: Name Krabby 'Rangoon', then continue to Warp at (7, 5).
+- Action: Nicknaming caught Krabby 'RANGOON'.
+- Immediate Plan: Finish typing 'GOON' then confirm.
 - Goal: Resume exploration of Whirl Islands.
 
 # Whirl Islands Mapping
