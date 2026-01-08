@@ -1,16 +1,16 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Battle Task: Defeat Dragonair #2 (Started Turn 35212)
-- Current Turn: 35214
+- Current Turn: 35216
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen, Dragonbreath. (FAINTED)
-- Pokémon 3: Dragonair (Lv37). Moves: Unknown. (HP: 100%)
-- Status: Xenon fainted. Calcifer (Lv49) at 127/155 HP. Kimchi (Lv34) at 51/90 HP.
-- Strategy: Dragon resists Fire and Electric. Calcifer should use Return for neutral damage.
-- Plan: Press A to use RETURN (Turn 35214).
+- Pokémon 3: Dragonair (Lv37). Moves: Thunder Wave. (HP: 100%)
+- Status: Xenon fainted. Calcifer (Lv49) at 127/155 HP (PAR). Kimchi (Lv34) at 51/90 HP.
+- Strategy: Calcifer is paralyzed. Use Full Heal (Turn 35216) to restore speed. Return is neutral damage.
+- Plan: Find Full Heal in bag, use on Calcifer. Then use Return.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
