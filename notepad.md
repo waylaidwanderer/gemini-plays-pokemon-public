@@ -3,21 +3,21 @@
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
 - **Whirl Islands Start:** Jan 7, 2026 (Turn 27574).
-- **Location:** Whirl Islands (Route 41).
-- **Key Item:** Silver Wing (Owned).
-- **Requirements:** Flash, Whirlpool, Surf, Strength.
+
+## Whirl Islands Strategy
+- **Target:** Lugia (Lv 60).
+- **Location:** NE Island (Route 41) -> B1F -> B2F -> B3F (Waterfall Basin).
+- **Requirements:** Flash (Belladonna), Surf (Qaagmaqnjw), Whirlpool (Lapis), Silver Wing (Owned).
+- **Catch Plan:**
+  - **Risk:** Team is underleveled for Lv 60 Legendary. Lapis (Hypnosis) is Lv 12 and will die instantly.
+  - **Assets:** Master Ball x1, Ultra Ball x4, Great Ball x20.
+  - **Strategy:** Exploration first. Locate Lugia. Attempt catch with current balls. If failing/wiping, consider Master Ball or tactical retreat to train/buy balls.
+  - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Olivine City (6, 31) [Surfing].
-- **Action:** Surfing West.
-- **Immediate Plan:** Surf Left x5 to explore unseen area west of Buoys.
-- **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
-- **Party Check:**
-  - Flash: Belladonna (Oddish).
-  - Surf: Qaagmaqnjw (Gyarados).
-  - Whirlpool: Lapis (Poliwag).
-  - Strength: Muscle (Machoke).
-  - Fly: Mistral (Pidgey).
+- **Location:** Olivine City (1, 31) [Surfing].
+- **Action:** Surfing West to Route 40.
+- **Immediate Plan:** Navigate Route 40 -> Route 41 -> Whirl Islands.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
