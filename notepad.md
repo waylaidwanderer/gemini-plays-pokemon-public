@@ -41,3 +41,7 @@
 - Turn 34313: Testing walkability of pillar at (4, 3).
 - Hypothesis: (4, 3) is a fake wall (gap in pillars), which would allow pushing B6 Left from (3, 3).
 - Test: Move Left from (5, 3).
+- Turn 34314: Confirmed (4, 3) is a solid WALL.
+- Turn 34314: Testing walkability of pillar at (4, 4).
+- Hypothesis: (4, 4) is a fake wall, allowing the player to stand there to push B6 Left from (3, 4).
+- Test: Move Left from (5, 4).
