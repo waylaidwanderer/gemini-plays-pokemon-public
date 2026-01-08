@@ -1,8 +1,9 @@
 # Current Status
-- Location: Route 41 (19, 32) [East Shore].
-- Immediate Plan: Surf East to (20, 32), then South to (20, 38). Land at (17, 38).
+- Location: Route 41 (20, 32) [Surfing].
+- Immediate Plan: Surf South to (20, 40). Then West to (14, 40). Then South through the gap at (14, 41) to reach the Southern Highway (Y=45+).
+- Discovery: The channel at X=20 is blocked at Y=41, but there is a gap in the buoy wall at X=12-15 (Y=41).
 - Goal: Find path to Lugia (B3F).
-- Status: Surfing South (East Channel).
+- Status: Navigating to Southern Gap (14, 41).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
