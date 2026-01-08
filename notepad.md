@@ -33,9 +33,12 @@
 
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
-- Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Hiker Michael at (15, 65) battle started (Turn 33887). Current: Golem Lv25. (Turn 33892).
+- Hiker Michael at (15, 65) defeated (Turn 33893).
+- Reachable Unseen (Strip x=16-17): South of (16, 66).
+- Reachable Unseen (Strip x=11-14): Reachable from (11, 43). Unseen: (14, 68-70, 72-73), (11-13, 74).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
+- Trainer: Camper Quentin at (4, 70) defeated. (Legacy).
+- Trainer: Hiker Timothy at (9, 65) defeated. (Legacy).
 
 # Lessons Learned
 - **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
