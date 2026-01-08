@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Pressing 'Left' (x15) to traverse West.
-- **Hypothesis:** Previous 'Left' inputs were consumed by the Lake of Rage -> Mahogany cursor animation.
+- **Method:** Using `slow_press` (Left x4) to hop cities: Mahogany -> Ecruteak -> Olivine -> Cianwood.
+- **Observation:** Previous mass inputs failed (likely due to animation lock). Using slow, deliberate inputs now.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
