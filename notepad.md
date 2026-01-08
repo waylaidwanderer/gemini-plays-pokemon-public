@@ -32,7 +32,8 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Open Start Menu -> Pokemon (Pause).
-- Goal: Visually verify cursor position in Party Menu to ensure correct Swap sequence.
-- Hypothesis: Previous swap failed due to insufficient delay (500ms) during swap animation.
-- Next: Execute Swap with longer delay (1500ms+), then head to Route 36/37.
+- Action: Executing Swap: Gyarados (Slot 3) <-> Muscle (Slot 1).
+- Sequence: Select (Grab Slot 3) -> Up x2 (To Slot 1) -> Select (Swap) -> Exit.
+- Goal: Gyarados (Lv 36) Lead.
+- Location: Violet City Pokemon Center.
+- Next: Exit to Overworld, check map/markers for route boundary.
