@@ -29,13 +29,13 @@
   - GNEISS (Lv48): Physical damage.
   - XENON (Lv36): Night Shade and Hypnosis (critical for Kingdra).
   - CALCIFER (Lv49): Thunderpunch for coverage vs Kingdra.
+- Blocked Unseen: (14, 61-62). (Hypothesis: Reachable from the strip starting at x=14-15 at the top of Route 45).
 
 # Exploration Log
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
 - Strategy: To reach the southern Row 89 and eastern tiles, I must Fly to Blackthorn and enter the easternmost strip from the root.
-- Blocked Unseen: (14, 61-62). (Hypothesis: Reachable via Dark Cave or alternate strip).
 - Target Unseen: (17-19, 86-89) in the right strip.
 
 # Lessons Learned
