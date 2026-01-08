@@ -1,12 +1,12 @@
 # Blackthorn Gym 2F Puzzle
 - Puzzle Started: Turn 35022 (Reset)
-- Current Turn: 35091
+- Current Turn: 35095
 - Status: Strength ACTIVE (Turn 35084)
 
 ## Current Boulder Positions
 - B6 (ID 6): (3, 3)
 - B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 12)
+- B8 (ID 8): (8, 11)
 
 ## Pits (Targets)
 - P1: (8, 3)
@@ -15,7 +15,9 @@
 
 ## Strategic Plan
 1. Audit walls in Column 7 and 9 to find the intended path.
-   - Hypothesis: (7, 11) or (9, 12) might be mislabeled.
+   - (9, 13): Verified WALL (Turn 35095).
+   - Test (7, 14) from (7, 13).
+   - Test (7, 11) from (8, 11) by pushing boulder.
 2. Use run_code to find a solution by testing single-wall removals.
 3. Once a solution is found, verify the "fake" wall in-game.
 4. Execute the verified push sequence.
