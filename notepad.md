@@ -1,4 +1,4 @@
-# Blackthorn Gym - Quest for the Rising Badge
+# Blackthorn City - Quest for the Rising Badge
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Progress: Defeated Gym Leader Clair (Turn 35238).
 - Requirement: Clair refused to give the badge. Must complete "Dragon User Challenge" in Dragon's Den.
@@ -30,6 +30,6 @@
 - Kingdra Typing: Water/Dragon. Resists Fire, Water, Electric, Grass. Weak to Dragon. Ice is neutral.
 
 ## To-Do
-- Exit Gym.
+- Heal party at Pokemon Center (21, 29).
 - Find entrance to Dragon's Den north of the Gym.
 - Navigate Dragon's Den to the center shrine.
