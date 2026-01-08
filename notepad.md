@@ -21,7 +21,6 @@
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 13).
 - Strategy: Use the `solve_gym_puzzle` tool to find the optimal sequence.
 
 # Obstacles & Solutions
