@@ -22,3 +22,8 @@
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
+
+# Hypothesis Testing
+- Hypothesis: Falling into a pit (e.g., at 2, 5) does NOT reset boulder positions on 2F.
+- Test: Push B6 to (3, 4), fall into P2 (2, 5), return to 2F via ladder.
+- Status: B6 pushed to (3, 4). Moving to P2.
