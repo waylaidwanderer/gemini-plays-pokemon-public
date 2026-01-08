@@ -2,13 +2,12 @@
 - Location: Violet City Pokemon Center.
 - **Lugia Withdrawn!** (In Party Slot 6).
 - **Lapis Deposited.** (In Box 3).
-- Immediate Goal: Check Lugia (Maelstrom) stats and Heal.
+- Immediate Goal: Exit Pokemon Center and track Raikou/Entei.
 
 # Next Objectives
-1. Check Lugia's stats/nature.
-2. Heal Party.
-3. Hunt Roaming Beasts (Raikou, Entei).
-4. Suicune hunt.
+1. Locate Raikou and Entei via Pokedex.
+2. Formulate strategy to catch them (need Trapper + Sleeper).
+3. Check status of Suicune (Tin Tower).
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 45 Owned).
