@@ -19,14 +19,16 @@
 - **Secondary:** Catch Roaming Beasts.
 - **Tertiary:** Check Tin Tower for Suicune (Later).
 
-# Reflection (Turn 28857)
-- **Progress:** ~195 turns of hunting. Still no encounters.
-- **Efficiency:** Automation tool is working perfectly.
+# Reflection (Turn 28891)
+- **Progress:** ~230 turns of hunting. Still no encounters.
+- **Efficiency:** Automation tool logic is stable.
 - **Plan:** Continue loop. Deadline: Turn 29000.
-- **Hygiene:** Good.
+- **Hygiene:** Verified.
 
 # Tile Mechanics
 - GRASS: Traversable. Potential encounters.
 - FLOOR: Traversable. Safe.
 - WARP_CARPET: Map transition.
 - WALL: Impassable.
+- WATER: Surfable.
+- HEADBUTT_TREE: Impassable. Interaction possible.
