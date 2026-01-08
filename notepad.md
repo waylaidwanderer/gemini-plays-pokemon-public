@@ -1,11 +1,11 @@
 # Tile Mechanics
 - FLOOR: Walkable.
-- WALL: Impassable.
+- WALL: Impassable. (0,0)-(9,0), (4,2)-(4,10), (6,2)-(6,6), (9,13) verified.
 - VOID: Impassable.
 - PIT: Warp to same coords on 1F. Boulders fill gaps on 1F. Player must fall into them to warp.
 - LADDER: Two-way warp between floors. (1,7) and (7,9) on 2F.
 - BOULDER: Impassable. Pushable with Strength.
-- NPCs: Impassable. Some may disappear after defeat (e.g., Mike at 6,8).
+- NPCs: Impassable walls. Cody (4,1) persists after defeat.
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
@@ -13,16 +13,9 @@
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Use BFS to find the exact sequence.
-- Verification Status:
-  - Row 0: (3,0) is FLOOR. (5,0), (8,0) are WALLs.
-  - Column 4: (4,13) is FLOOR. (4,2) to (4,10) are WALLs.
-  - Column 6: (6,2) to (6,4) and (6,6) are WALLs.
-  - Column 9: (9,13) is a WALL.
-- Current Status: Standing at (5, 1). Reactivating Strength and checking if Cody (4,1) disappears.
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
-- Start Turn: 33584.
 - Goal: Kimchi (Lv33) and Xenon (Haunter, Lv36) to Lv40.
 - Method: Kimchi holds Exp. Share. Lead Xenon.
 
