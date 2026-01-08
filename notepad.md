@@ -12,7 +12,7 @@
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Critical Mechanic: Changing floors (using ladders) RESETS all boulder positions on 2F. (Verified Turn 34592).
 - Push Mechanic: Player stays in place after push (Verified Turn 34644).
-- Passability Test: Testing if defeated trainers Cody (4, 1) and Fran (4, 11) are passable.
+- Passability: Cody (4, 1) is a wall. Fran (4, 11) likely also a wall. (Verified Turn 34647).
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
