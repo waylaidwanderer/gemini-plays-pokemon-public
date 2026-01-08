@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (17, 15) [Ledge Area].
-- Action: Exploring SW Island Cave.
-- Observation: Arrived via Ladder from B2F. Area seems to be a ledge overlooking a larger room.
-- Immediate Plan: Explore the ledge area, then likely jump south to continue.
+- Location: WhirlIslandSW (14, 14) [Upper Ledge].
+- Action: Surfing West.
+- Observation: Ledge to the South (Row 16). Water to the West.
+- Immediate Plan: Surf West to explore the water area before jumping the ledge.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
