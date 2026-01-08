@@ -26,8 +26,10 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Solve boulders manually. B7 (6, 1) -> Pit (8, 3). B6 (3, 3) -> Pit (2, 5). B8 (8, 14) -> Pit (8, 7).
-- Boulder 7 (6, 1) Path: From (5, 1), push Right (to 7, 1), then Down (to 7, 2), then move to (7, 2) and push Right (to 8, 2), then move to (8, 1) and push Down (to 8, 3).
+- Strategy: Use a robust BFS script via `run_code` to find the correct sequence of moves for all 3 boulders. My manual pathing was failing because I was likely misinterpreting wall collisions.
+- Observation: (5, 0), (7, 0), (8, 0) are marked as walls in the XML, which complicates pushing boulders DOWN from Row 1.
+- Hypothesis: Boulders must be moved through the central corridor (Column 5) or around the perimeter to reach their target pits.
+- Current Status: Strength is not yet active. Interacting with the boulder at (6, 1) triggered the "A POKéMON may be able to move this." dialogue. I need to clear this text and activate Strength.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
