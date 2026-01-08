@@ -1,7 +1,7 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763 (Jan 8, 10:15 AM)
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7)
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14)
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 13)
 - Status: Strength ACTIVE (Turn 34932)
 
 ## Tile Mechanics (2F)
