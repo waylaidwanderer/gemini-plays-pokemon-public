@@ -1,25 +1,17 @@
 # Current Status
 - Location: Whirl Island Lugia's Chamber (3_73).
-- Immediate Plan: Interact with Lugia (A button).
+- **In Battle:** Wild Lugia (Lv 60).
 - Goal: Catch Lugia.
 
-# Whirl Islands Strategy
-- **Target:** Lugia (Lv 60).
-- **Risk:** Team is severely underleveled except Muscle.
-- **Assets:** Master Ball x1, Ultra Ball x2, Great Ball x9. (Low supply).
-- **Battle Plan:**
-  1. **Lead:** Muscle (Lv 85).
-  2. **Damage:** Use **Cross Chop** (Fighting).
-     - Fighting is 0.25x effective vs Psychic/Flying.
-     - Reduces risk of OHKO compared to Thunderpunch/Ice Punch (2x) or Strength (1x).
-     - **Risk:** Cross Chop has high crit rate.
-  3. **Status:** None available safely (Lapis is Lv 12).
-  4. **Catch:** Throw Ultra/Great Balls when HP is low.
-  5. **Emergency:** Master Ball if shiny or last resort.
-
-# Post-Game Goals
-- **Primary:** Complete Pokedex (Current: 44 Owned).
-- **Major Target:** CATCH LUGIA.
+# Battle Strategy: Lugia
+- **Lead:** Muscle (Lv 85 Machoke).
+- **Move:** Cross Chop (Fighting).
+  - Effectiveness: 0.25x (Fighting vs Psychic/Flying).
+  - Purpose: Weaken safely without OHKO.
+  - Risk: High crit rate.
+- **Catching:**
+  - Throw Ultra Balls/Great Balls when HP is low (Red/Yellow).
+  - Use Master Ball if necessary/shiny.
 
 ## Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
