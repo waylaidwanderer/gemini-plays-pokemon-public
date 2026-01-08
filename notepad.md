@@ -1,8 +1,7 @@
 # Current Status
-- Location: Route 41 (12, 40) [Surfing].
-- Action: Surfing to NE Island.
-- Immediate Plan: Surf East to (20, 40), then navigate North through the channel at X=20 to reach NE Island (36, 19).
-- Observation: East is blocked by buoys at X=21. Found a channel North at X=20.
+- Location: Route 41 (18, 40) [Surfing].
+- Action: Defeated Mantine.
+- Immediate Plan: Navigate North to Y=29, then East towards NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
 - Status: Navigating Buoy Maze.
 
