@@ -43,6 +43,8 @@
 - Session Start: Turn 28662.
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
-- Goal: Encounter Raikou/Entei.
-- Status: Returning to Route 37.
-- Action: Move Down (Exit Ecruteak).
+- Location: Route 37 (North Grass).
+- Status: Resuming Hunt (Post-Call/Reset).
+- Action: Grass Sweep (Enter -> Wiggle).
+- Path: Down x2 -> Left -> Right -> Down -> Up.
+- Hunt Session: Turn 28747.
