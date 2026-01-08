@@ -8,7 +8,8 @@
 
 # Current Status
 - **Location:** Magnet Train Station (Saffron).
-- **Action:** Talking to Officer to board train.
+- **Action:** Showing PASS to Officer (Object 2).
+- **Note:** Officer moved to (9, 15), blocking the path. Interacting to board.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
