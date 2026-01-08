@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (21, 8) [Surfing].
-- **Action:** Repositioning to find Northeast Island.
-- **Immediate Plan:** Surf East, passing below the Northwest Island, to reach the Northeast Island (target area x>30).
+- **Location:** Route 41 (27, 8) [Surfing].
+- **Action:** Encountered Wild Pokemon (Tentacool/Tentacruel).
+- **Immediate Plan:** Run from battle -> Continue Surfing East to Northeast Island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
