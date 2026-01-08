@@ -17,8 +17,8 @@
   - Strips 1, 2, and 3 connect at Row 1 (Top) and Row 13 (Bottom).
 
 # Strategy & Progress
-- Status: Back on 2F (3, 4). B6 at (3, 3) confirmed. Strength NOT active.
-- Plan: Activate Strength on B6, then follow master plan.
+- Status: Strength active. B6 at (3, 3). Player at (3, 4).
+- Plan: Execute exhaustive BFS solver with ladder connectivity and 1M states.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
