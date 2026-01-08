@@ -23,3 +23,8 @@
   - (8, 3) -> (7, 6)
   - (2, 5) -> (2, 6)
   - (8, 7) -> (7, 7)
+
+# Puzzle Testing Log
+- Turn 34358: Testing walkability of (9, 17). If walkable, B8 can be pushed from Column 8 to the Column 6 artery via Row 17.
+- Verified WALLS: (4,3), (4,4), (4,5), (5,0), (6,3), (7,11), (9,13).
+- Cody (4, 1) is a solid obstacle for boulders.
