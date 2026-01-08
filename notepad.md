@@ -7,9 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Goldenrod City.
-- **Action:** Flying to Cianwood City.
-- **Next:** Surf to Whirl Islands -> Catch Lugia.
+- **Location:** Goldenrod City (Fly Menu).
+- **Action:** Selecting Cianwood City on the map.
+- **Cursor Start:** New Bark Town.
+- **Move:** Left x5 (Attempting to reach Cianwood).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
