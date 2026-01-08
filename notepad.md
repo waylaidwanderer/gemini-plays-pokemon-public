@@ -13,14 +13,13 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Manual verification of wall tiles, then use `solve_gym_puzzle` with updated map data.
-- Attempt History:
-  - Attempt 1: B7 pushed Right to (9,1). Stuck (Turn 34194).
-- Verification Tasks:
-  - Test if (6,2), (6,3), (6,4), (6,6) are truly walls.
-  - Test if (4,2) to (4,10) are truly walls.
-  - Check if (7,4), (8,4), (9,4) are truly walls.
-- Resetting via Pit (8, 3) due to stuck Boulder 7.
+- Strategy: Verify wall collision types on 2F, then execute manual solve.
+- Verification Status:
+  - Row 0: (5,0), (7,0), (8,0) are WALLs (Verified).
+  - Column 6: (6,2), (6,3), (6,4), (6,6) - Needs test.
+  - Column 4: (4,2) to (4,10) - Needs test.
+  - Row 4: (7,4), (8,4), (9,4) - Needs test.
+- Plan: Return to 2F, reactivate Strength, and test Column 6.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
