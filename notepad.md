@@ -40,3 +40,8 @@
 - Blackthorn Maze: The city is not isolated; walking gaps exist in every ledge/wall row.
 - Menu Verification: Always check the current screen before executing long button sequences.
 - Eastern Strip (Col 34-39) appears isolated from the rest of Blackthorn City by vertical walls/ledges. Access likely only from the north (near Ice Path exit at 36, 9). To reach it from the Pokemon Center, navigate back north through the gaps to the top tier (Row 0-16) and move east.
+## Training & Exploration Log (Turn #33584)
+- Started training Kimchi and Xenon on Route 45.
+- Turn #33983: Exploring Blackthorn City's tiered layout to reach Route 45 Strip 5.
+- Observation: Hopping ledges in Blackthorn (e.g., Row 15, Row 21) moves the player two tiles south and is one-way.
+- Hypothesis: Eastern strip (Col 34-39) is a vertical corridor with its own set of ledges, leading to the eastern tall grass of Route 45.
