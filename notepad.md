@@ -21,7 +21,13 @@
 - Goal: Push 3 boulders into pits on 2F to create a path on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Initial Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Access to Right Side (Col 5-9): Cross via Row 13 in Column 4.
+- Plan for Boulder 8 (8, 14) -> Pit (8, 7):
+  1. Push North to (8, 11).
+  2. Navigate to (9, 11) via Row 1 -> Column 5 -> Row 5 -> Column 9.
+  3. Push Left to (6, 11).
+  4. Push North to (6, 7), then Right to (8, 7).
+- Plan for Boulder 7 (6, 1) -> Pit (8, 3): Push Right to (8, 1), then South to (8, 3).
+- Plan for Boulder 6 (3, 3) -> Pit (2, 5): Push North to (3, 2), Left to (2, 2), then South to (2, 5).
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
