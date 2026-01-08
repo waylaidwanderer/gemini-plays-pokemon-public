@@ -15,7 +15,10 @@
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
 - Strategy: Use manual steps. `solve_gym_puzzle` tool is currently unreliable.
 - Attempt 1: Pushing B7 Right at (6,1). Failed (Turn 34133).
-- Attempt 2: Testing Row 0 traversability. (5,0) is WALL (Turn 34183). Testing (7,0) next.
+- Attempt 2: Testing Row 0 traversability. (5,0) is WALL (Turn 34183).
+- Attempt 3: Pushing B7 to (9,1). Failed (Turn 34194). Stuck in corner.
+- Resetting via Pit (8, 3).
+- Verification Plan: Check (7,0), (8,0), (6,2), and (8,4) before resetting.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
