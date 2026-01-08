@@ -32,7 +32,8 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Executing Swap: Gyarados (Slot 3) -> Muscle (Slot 1) via Context Menu.
-- Sequence: Down x3 (Switch) -> A -> Up x2 (Slot 1) -> A.
-- Goal: Gyarados (Lv 36) Lead.
-- Next: Exit Menu -> Route 36/37 Boundary.
+- Action: Menu Closed.
+- Swap Confirmed: Gyarados (Lv 36) is Lead.
+- Location: Violet City (Outside Center).
+- Goal: Navigate to Route 36 Gate (West).
+- Strategy: Use Max Repel at Gate -> Hunt Raikou/Entei on Route 36/37 boundary.
