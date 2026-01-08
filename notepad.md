@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron City (Copycat's House 1F).
-- **Next Step:** Find stairs to 2F -> Talk to Copycat.
+- **Location:** Saffron City (Copycat's House 2F).
+- **Next Step:** Talk to Copycat -> Trigger Doll Quest.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
