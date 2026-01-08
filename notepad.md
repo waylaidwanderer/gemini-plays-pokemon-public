@@ -21,7 +21,10 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
-- Training Strategy (Route 45): Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher. (Session started Turn 33466. Progress: Xenon Lv36, Kimchi Lv32. Turn 33734).
+- **Training Session (Route 45):** Started Turn 33466. 
+  - Goal: Xenon and Kimchi to Lv40.
+  - Method: Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher.
+  - Current Progress: Xenon Lv36, Kimchi Lv32.
 
 # Area Mechanics & Strategy
 ## Route 45 (Training Area)
@@ -38,7 +41,10 @@
 - **Gligar Typing:** Ground/Flying. Immune to Ground. (Turn 33361).
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground. (Turn 33588).
 - **Menu Precision:** Avoid rushing in deep menus to prevent errors like opening Pokedex instead of Pack. (Turn 33626).
+- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences. (Turn 33694).
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
-- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences to avoid selection errors. (Turn 33694).
+
+# Reflection Notes
+- **Turn 50 Reflection (Turn 33735):** Notepad reorganized for better readability. Training progress consolidated. No deferred tasks identified. Goals remain focused on preparation for Gym Leader Clair. Automation tools (find_path, grind_encounters) are performing optimally. No recent errors to analyze. Root hypothesis for training (efficiency of Route 45) remains valid.
