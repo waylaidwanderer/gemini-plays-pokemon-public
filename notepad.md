@@ -1,6 +1,6 @@
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable tile.
-- WALL: Impassable collision (pillars, statues, rocks).
+- WALL: Impassable collision (pillars, statues, rocks, NPCs).
 - LADDER: Two-way warp between floors. (1, 7) and (7, 9).
 - PIT: A hole that leads to 1F. Boulders fall through to fill gaps on 1F. Empty pits are impassable/warp; filled pits on 1F become walkable.
 - BOULDER: Pushable object. Requires STRENGTH. Pushing moves it one tile. Player STAYS in original tile. (Verified Turn 34566)
@@ -13,12 +13,13 @@
 - Pit A: (8, 3)
 - Pit B: (2, 5)
 - Pit C: (8, 7)
-- NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), Paul (1, 15) are solid and block player/boulders.
+- Divider: Column 4 is a wall from Row 2 to Row 12. Column 6 is a wall at Row 2, 3, 4, 6.
+- Connection: Strips are connected at Row 1 (Top) and Row 13-17 (Bottom).
 
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
-- Status: Floor reset. Heading to Boulder 6 to activate Strength.
-- Plan: Use solve_blackthorn_boulders_v3 once Strength is active.
+- Status: Strength active. Standing at (3, 4) facing Boulder 6 (3, 3).
+- Plan: Run a comprehensive BFS solver with the "stay in place" mechanic and exact grid.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
