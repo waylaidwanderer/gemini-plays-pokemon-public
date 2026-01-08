@@ -30,6 +30,7 @@
 - **DOOR:** Warp tile. Entrance to buildings.
 - **CUT_TREE:** Impassable. Cuttable with HM01.
 - **HEADBUTT_TREE:** Impassable. Interactable with Headbutt.
+- **BUOY:** Impassable. Navigation boundary.
 
 ## Quest Log
 - **Completed:**
