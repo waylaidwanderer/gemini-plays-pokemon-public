@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine Mart (1_8).
-- **Action:** Exiting Poke Mart.
-- **Immediate Plan:** Select QUIT (A) -> Close Text (B) -> Exit South (Down x4).
+- **Location:** Exiting Olivine Mart.
+- **Action:** Going to Route 40.
+- **Immediate Plan:** Walk South to Olivine Beach -> Surf West to Whirl Islands.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
