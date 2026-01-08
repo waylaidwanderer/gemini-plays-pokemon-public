@@ -248,5 +248,53 @@
         "action_counter": 23754
       }
     ]
+  },
+  "navigate_menu": {
+    "description": "Navigates menus by holding direction buttons for a specified duration to ensure registration, with delays between inputs. Useful for the Fly map and other sticky menus.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "directions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Up",
+              "Down",
+              "Left",
+              "Right",
+              "A",
+              "B",
+              "Start",
+              "Select"
+            ]
+          }
+        },
+        "hold_ms": {
+          "type": "integer",
+          "default": 150
+        },
+        "interval_ms": {
+          "type": "integer",
+          "default": 300
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": [
+        "directions",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\n\ndef navigate_menu(directions, hold_ms=150, interval_ms=300, autopress_buttons=True):\n    # Frame duration is approx 16ms\n    frames_to_hold = max(1, int(hold_ms / 16))\n    \n    output_sequence = []\n    \n    for btn in directions:\n        # Hold the button\n        for _ in range(frames_to_hold):\n            output_sequence.append(btn)\n        \n        # Release/Wait\n        if interval_ms > 0:\n            output_sequence.append(f\"sleep {interval_ms}\")\n            \n    print(json.dumps(output_sequence))",
+    "history": [
+      {
+        "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
+        "timestamp": "2026-01-08T03:01:39.002Z",
+        "action_counter": 27437
+      }
+    ]
   }
 }
