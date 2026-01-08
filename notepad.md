@@ -1,9 +1,8 @@
 # Current Status
 - Location: Route 41 (10, 29) [NW Pocket of SW Island].
-- Immediate Plan: Check if there is a gap in the buoys at X=9 or X=8 to go North.
-- Observation: Row 28 (X=10 to X=16) is blocked by buoys. Checking further West.
+- Immediate Plan: Use assess_reachability to confirm boundaries. Then Surf East to (14, 31), land at (14, 32), walk to (8, 43), and Surf South to the Southern Highway.
 - Goal: Find path to Lugia (B3F).
-- Status: Verifying West Gap.
+- Status: Verifying escape route from pocket.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
