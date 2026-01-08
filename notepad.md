@@ -16,9 +16,10 @@
 - Strategy: Use BFS to find the exact sequence. Manual attempts have failed due to complex wall collisions.
 - Verification Status:
   - Row 0: (5,0), (8,0) are WALLs (Verified).
+  - Column 9: (9,13) is a WALL (Verified).
   - Column 4: (4,2) to (4,10) are WALLs.
   - Column 6: (6,2), (6,3), (6,4), (6,6) are WALLs.
-- Current Status: Strength active. Standing at (5,1). Heading to B8 to solve first.
+- Current Status: Strength active. Standing at (8,13). Moving to Left side via (4,13).
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
