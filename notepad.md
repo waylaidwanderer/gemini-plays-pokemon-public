@@ -34,3 +34,4 @@
 - **Route 6:** Head North to Saffron Gatehouse (6, 1).
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
+- **Route 6 Navigation:** Water pond at Row 11 blocks direct path. Must navigate via the eastern side (approx x=16) to cross North.
