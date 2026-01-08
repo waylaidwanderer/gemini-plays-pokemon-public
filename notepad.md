@@ -39,7 +39,7 @@
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
 - Activity: Hunting Raikou/Entei (Lv 40).
 - Action:
-  1. Finish Phone Call (Gaven).
-  2. Run in grass (Left/Right) to trigger encounter.
-  3. If no encounter, exit map East to Violet City and return.
+  1. Hunt in current grass patch (6 steps/turn).
+  2. If encounter: Check if Roamer.
+  3. If no encounter after ~15 steps, move to Route 37 Gate (28, 0) to reset.
 - Note: Unseen tiles at (47, 14) are Ruins of Alph warp. Ignored for now.
