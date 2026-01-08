@@ -1,7 +1,7 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Confirmed)
 - FLOOR / TALL_GRASS / GRASS: Walkable.
-- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12).
+- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12; 11-14, 58).
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33878).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33881).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
   - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
@@ -34,8 +34,8 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Current Unseen Targets (Reachable): (16, 54-57), (14, 68-70, 72-73), (11-13, 74).
-- Unreachable/Pending: (14, 61-62). (Blocked by FLOOR_UP_WALL at y=58).
+- Reachable Unseen: (16, 61), (17, 61), (14, 68-70, 72-73), (11-13, 74).
+- Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
 
 # Lessons Learned
 - **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
