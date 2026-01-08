@@ -20,8 +20,9 @@
     10. Attempted to enter Ladder area from Top (Row 9 -> Row 10) - Blocked by FLOOR_UP_WALL (Exit Ledge).
     11. Confirmed: Ladder at (13, 11) is an EXIT from B1F. Must access via B1F.
     12. Navigate to Upper Ladder at (17, 3) to enter B1F.
-    13. On B1F: Find path to Ladder Up at approx (13, 11).
-    14. Note: Upper Ladder at (17, 3) was previously used to exit B1F. Retracing steps to re-enter.
+    13. On B1F: Wall at Column 32 blocks direct West path.
+    14. Navigate South to Row 16 to find a gap in the wall.
+    15. Head West to explore NW area and find the Ladder Up.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Visible].
