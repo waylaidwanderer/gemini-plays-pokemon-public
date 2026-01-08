@@ -1,8 +1,8 @@
 # Current Status
 - Location: WhirlIslandCave (5, 5) [Corridor].
-- Action: In Battle with Wild Krabby (Lv 22).
-- Immediate Plan: Catch Krabby with Great Ball.
-- Goal: Add Krabby to Pokedex.
+- Action: Nicknaming caught Krabby.
+- Immediate Plan: Name Krabby 'Rangoon', then continue to Warp at (7, 5).
+- Goal: Resume exploration of Whirl Islands.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
