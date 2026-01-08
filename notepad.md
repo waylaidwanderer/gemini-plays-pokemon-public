@@ -15,6 +15,8 @@
 ## How to Solve Boulder Puzzle
 - Goal: Push three boulders into pits to create a path on 1F.
 - Step 1: Move B8 from (8, 11) to P3 (8, 7).
+  - Path: (8, 11) -> (9, 11) (Push Right) -> (9, 7) (Push North) -> (8, 7) (Push Left).
+  - TRAP: Do NOT push B8 to (8, 10). (8, 9) and (7, 10) are walls.
 - Step 2: Move B7 from (6, 1) to P1 (8, 3).
 - Step 3: Move B6 from (3, 2) to P2 (2, 5).
 
