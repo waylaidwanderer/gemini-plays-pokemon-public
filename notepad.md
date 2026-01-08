@@ -9,23 +9,16 @@
 - Goal: Fill three pits on 2F to bridge gaps on 1F.
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14) [Default Positions].
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Assignments Hypothesis:
-  - B6 -> Pit P2 (2, 5)
-  - B7 -> Pit P1 (8, 3)
-  - B8 -> Pit P3 (8, 7)
+- Assignments: B6 -> P2 (2, 5), B7 -> P1 (8, 3), B8 -> P3 (8, 7).
 - Connectivity:
   - Cody (4, 1) and Fran (4, 11) are solid.
-  - Strip 1 (Cols 0-1) and Strip 2 (Cols 2-3) connect at Row 1 and Rows 13-17.
+  - Strip 1 (Cols 0-1) and Strip 2 (Cols 2-3) connect at Row 6/7.
   - Strip 2 (Cols 2-3) and Strip 3 (Cols 5-9) connect via ladders (1, 7) <-> (7, 9) on 1F.
-  - Strip 3 (Cols 5-9) is mostly open but has internal walls.
+  - Strips 1, 2, and 3 connect at Row 1 (Top) and Row 13 (Bottom).
 
 # Strategy & Progress
-- Status: Strength active. B6 at (3, 3). Player at (2, 3).
-- Definitive Plan:
-  1. B7 (6, 1) -> Pit P1 (8, 3)
-  2. B8 (8, 14) -> Pit P3 (8, 7) via (6, 7)
-  3. B6 (3, 3) -> Pit P2 (2, 5) via Row 13 and Col 1
-- Current Step: Navigate to B7 (6, 1) via 1F ladder shortcut.
+- Status: Back on 2F (1, 7). Strength NOT active.
+- Plan: Navigate to (3, 2), activate Strength on B6, then follow master plan.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
