@@ -1,20 +1,21 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders Found: B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Status: Strength ACTIVE.
 
 # Puzzle Analysis (2F)
-- Key Insight: Boulders can cross between the left side (Cols 0-3) and right side (Cols 5-9) via the gaps at (4, 1) [Cody] and (4, 13) [South Gap].
-- Root Assumption Corrected: Boulder 8 does NOT have to stay on the right side, and B6/B7 do not have to stay on the left/middle.
-- Mechanics Verified:
-  - Pushing: Player moves into the boulder's old tile after a push.
-  - Reset: Ladders (1, 7) and (7, 9) reset boulder positions.
+- Hypothesis: Boulders must cross the gym via Row 1 (Cody gap) or Row 13 (South gap).
+- Crossing 1: Row 1 (0,1) <-> (9,1). Requires Cody (4, 1) to be passable.
+- Crossing 2: Row 13 (0,13) <-> (8,13). Requires (2, 13) and (4, 13) to be passable.
+- B7 (6, 1) -> P1 (8, 3). (Confirmed viable).
+- B8 (8, 14) -> P2 (2, 5). (Requires Row 13 crossing).
+- B6 (3, 3) -> P3 (8, 7). (Requires Row 1 or Row 13 crossing).
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Run BFS solver to find the optimal sequence of pushes across the gaps.
-- Step 2: Execute the sequence.
-- Step 3: Challenge Gym Leader Clair.
+- Step 1: Verify Cody (4, 1) collision.
+- Step 2: Verify Row 13 crossing at (2, 13).
+- Step 3: Execute BFS with verified crossing points.
 
 # Tile Mechanics (2F)
 - WALL: (4, 0, 2-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11, 14, 15), (9, 12-17).
