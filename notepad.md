@@ -13,10 +13,10 @@
 ## Strategy for Gym Leader Clair
 - Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
 - Type Matchups: Dragon resists Fire, Water, Electric, Grass. Kingdra (Water/Dragon) is only weak to Dragon.
-- Tactical Plan:
-  - Lead Xenon: Use Hypnosis and Confuse Ray to disable. Night Shade for consistent 36 damage.
-  - Gneiss: High physical bulk. Use Strength/Earthquake. Earthquake hits hard but Dragonairs resist it? No, Dragon doesn't resist Ground.
-  - Calcifer: High level advantage. Return for neutral damage. Thunderpunch is ineffective against Kingdra/Dragonairs due to resists.
+- Tactical Plan (Advisor):
+  - Lead Calcifer (Lv49): Use Return for high neutral damage. Calcifer's level advantage is key.
+  - Xenon (Lv36): Backup for Hypnosis/Confuse Ray support if Calcifer is weakened.
+  - Gneiss (Lv48): Backup, but beware of Surf/Ice Beam. Earthquake for neutral damage.
 
 # Exploration Strategy
 ## Accessing Route 45 East
