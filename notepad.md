@@ -15,10 +15,10 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 7) [Surfing].
-- **Action:** Navigating South via the "East Channel" (Column 48) to bypass the buoy blockade at Row 15.
-- **Immediate Plan:** Surf to (48, 16), then cut West to approach the Northeast Island from the south.
-- **Map Insight:** Column 48 is the only gap in the buoy wall at Row 15.
+- **Location:** Route 41 (48, 16) [Surfing].
+- **Action:** Navigating the East Channel Maze.
+- **Immediate Plan:** Navigate South to (48, 19), then West to (46, 19), then South to (46, 20) to find a path through the buoys.
+- **Map Insight:** Buoy barriers are staggered. Found a gap West at Row 19 (crossing Col 47/46). Col 45 is blocked at Row 19/20.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
