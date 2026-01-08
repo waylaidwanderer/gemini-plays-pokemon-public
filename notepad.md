@@ -1,7 +1,7 @@
 # Current Status
 - Location: Route 41 (14, 40) [In Battle].
 - Action: Battling Wild Mantine.
-- Immediate Plan: Catch Mantine (Missing from Dex). Throw Great Balls.
+- Immediate Plan: Catch Mantine (Missing from Dex). Throw Great Balls. Do NOT attack with Muscle (Lv 85).
 - Goal: Complete Pokedex / Catch Lugia.
 
 # Whirl Islands Mapping
