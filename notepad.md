@@ -4,19 +4,21 @@
 - Dragon's Den Location: North of Blackthorn Gym.
 
 ## Strategy: Dragon User Challenge
-- Navigate through DragonsDen1F to the lower floor (B1F).
-- Locate the "small shrine" at the center of the Den.
-- Current Status: Southern section of DragonsDen1F.
+- Navigate through DragonsDen1F to the lower floor (B1F). (DONE)
+- Current Status: DragonsDenB1F (20, 4).
+- Encounter: Cooltrainer M at (20, 5) challenged entry (Turn 35290).
+- Goal: Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
 - LADDER: Warp between sections or floors. (3, 3) <-> (5, 13) within 1F.
-- WARP_CARPET_DOWN: Exit/Transition warp.
+- WARP_CARPET_DOWN: Exit/Transition warp. (5, 15) in 1F -> (20, 3) in B1F.
 - COUNTER: Interaction point for Nurse/Clerk. Face and press A from adjacent tile.
 - WATER: Traversable only while Surfing.
 - LEDGE_HOP_DOWN: Southward one-way jump.
-- FLOOR_UP_WALL: Impassable when moving North.
+- FLOOR_UP_WALL: Impassable when moving North. (Observed in 1F).
+- CAVE: Standard cave floor. (Observed in B1F).
 
 ## Type Effectiveness (Gen 2)
 - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
