@@ -1,6 +1,7 @@
 # Current Status
-- Immediate Plan: Surf South on Route 40 to Route 41.
-- Route: Press B to clear text. Move Down to Water (19, 8). Move Left to (18, 8) to avoid Buoys at x=19. Surf South.
+- Immediate Plan: Re-initiate Surf at (17, 11) and head South to Route 41.
+- Route: Press A to Surf -> South along column 17/18.
+- Reasoning: Accidentally landed on the beach. Need to get back in the water to reach Whirl Islands.
 - Goal: Reach NE Whirl Island (Route 41).
 
 # Whirl Islands Mapping
