@@ -9,16 +9,17 @@
 - (5, 10), (5, 12), (6, 6) are WALL tiles.
 - NPCs Fran (4, 11) and Cody (4, 1) are impassable.
 - Corridor 4 (x=8) is blocked north of y=10 by WALLs at (8, 8) and (8, 9).
+- Corridor 4 (x=9) is blocked at (9, 4) and (9, 12).
 
-# Connectivity Analysis
-- Corridor 4 (x=8, 9) connects to the bottom open area at Row 12/13.
-- Corridor 2 (x=2, 3) connects to the bottom open area at Row 13.
-- Corridor 3 (x=5, 6) is accessed via the Ladder at (7, 9).
-- Row 13 gap at (4, 13) is passable.
+# Verified Connections
+- Row 13 gap at (4, 13) and (5, 13) is passable.
+- Corridor 3 (x=5, 6) is segmented: (5, 10) and (5, 12) block vertical movement in column 5.
+- Corridor 3 (x=6) allows movement from (6, 11) up to (6, 7). (6, 6) is a WALL.
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Push B8 (8, 11) to a reachable pit.
-- Step 2: Push B7 (6, 1) and B6 (3, 3) to pits.
+- Step 1: Reset boulders to default positions using Ladder at (7, 9).
+- Step 2: Use `solve_puzzle_v5` from a reachable tile (e.g., 7, 9) to find the solution.
+- Step 3: Execute the sequence.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable.
