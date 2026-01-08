@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Menu Closed.
-- Action: Resuming Hunt.
-- Sequence: Resume Grass Sweep.
-- Hunt Session: Turn 28751.
+- Status: Hunting (Grass Sweep -> Reset).
+- Action: Down x2, Left, Right, Up x3.
+- Goal: Encounter or Reset.
+- Hunt Session: Turn 28752.
