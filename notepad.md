@@ -42,14 +42,15 @@
 - **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
 
 # Training Log: Route 45 (Session Started Turn 33466)
-- Strategy: Lead Gneiss (Lv 47) to absorb hits. Switch in training targets (Kimchi/Xenon) once to secure participation XP, then return to Gneiss or switch to Calcifer to finish.
+- Strategy: Lead Gneiss (Lv 48) to absorb hits. Switch in training targets (Kimchi/Xenon) once to secure participation XP, then return to Gneiss or switch to Calcifer to finish.
 - XP Distribution: Xenon holds Exp. Share (gets 50% XP). Participants split the remaining 50%.
 - Logistics: Fly to Blackthorn PC for healing when PP or HP is low.
 
 ## Route 45 Observations
-- Tile Mechanics: Mountain barriers are WALL types. Ledges (⤵️, ↩️, ↪️) are one-way jumps as documented in Global Tile Mechanics.
+- Tile Mechanics: Mountain barriers (WALL) and one-way ledges (⤵️, ↩️, ↪️) are present.
 - Encounter Rate: High in TALL_GRASS at (12, 10). Frequent Gligar (Lv24) and Graveler (Lv23).
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
+- Training Session (Started Turn 33466): Aiming for Lv40 on Kimchi and Xenon. Currently Xenon Lv36, Kimchi Lv32. Gneiss Lv48. (Turn 33604).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
