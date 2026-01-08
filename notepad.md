@@ -8,8 +8,8 @@
 
 # Current Status
 - **Location:** Route 38 (13, 4).
-- **Action:** Escaped Wild Meowth.
-- **Immediate Plan:** Walk West to Route 39.
+- **Action:** Walking West towards Route 39.
+- **Immediate Plan:** Walk West (Left x10).
 - **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
