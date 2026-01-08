@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (22, 34) [Eastern Dead End].
-- Immediate Plan: Backtrack West to (20, 34). Surf South to (20, 38). Land on SW Island at (17, 38). Walk to West Shore (8, 43). Surf North via X=7 to reach the Northern Highway (Y=26).
+- Location: Route 41 (20, 38) [Surfing].
+- Immediate Plan: Land on SW Island at (17, 38). Walk to West Shore (8, 43). Surf North via X=7 to reach the Northern Highway (Y=26).
 - Reasoning: X=22 blocked North. X=20 blocked North. X=8 blocked South. X=7 North appears to be the only untested viable path to the Northern open water.
 - Goal: Find path to Lugia (B3F).
-- Status: Returning to SW Island.
+- Status: Landing on SW Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
