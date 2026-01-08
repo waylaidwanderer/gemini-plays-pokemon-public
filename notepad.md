@@ -1,5 +1,5 @@
 # Blackthorn Gym 1F - Battle with Clair
-- Current Turn: 35173
+- Current Turn: 35176
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
