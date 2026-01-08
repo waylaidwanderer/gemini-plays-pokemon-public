@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (3, 3) [Upper Room].
-- Action: Investigating Exit.
-- Observation: Arrived via Ladder from B1F (SW Corner). This seems to be a separate section of the SW Island.
-- Immediate Plan: Exit via the Warp Carpet at (5, 7).
+- Location: WhirlIslandSW (5, 7) [Exit].
+- Action: Exiting to Surface.
+- Observation: Standing on Warp Carpet. Pressing Down to exit.
+- Immediate Plan: Press Down to exit to Route 41 (SW Island).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
