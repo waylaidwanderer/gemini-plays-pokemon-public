@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Menu Navigation.
-- Action: Using Max Repel.
-- Sequence: A (Select) -> A (Use) -> B (Clear Text) -> Exit.
-- Hunt Session: Turn 28824.
+- Status: Repel Used.
+- Action: Exiting Menu.
+- Sequence: A (Use) -> B (Close Text) -> Exit.
+- Hunt Session: Turn 28825.
