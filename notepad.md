@@ -36,7 +36,7 @@
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 36 Grass (In Position).
 - Current State: Gyarados Lead (Lv 36). Repel NOT active.
-- Immediate Action: Open Bag -> Use Max Repel.
+- Immediate Action: Opening Pack -> Locate Max Repel -> Use.
 - Hunt Loop:
   1. Walk back and forth in grass.
   2. If encounter: Check if Raikou/Entei.
