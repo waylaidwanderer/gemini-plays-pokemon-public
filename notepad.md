@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (31, 9) [Surfing].
-- **Action:** Navigating around buoy barrier.
-- **Immediate Plan:** Surf North to (31, 7) then East to (40, 7) to bypass buoys and reach NE Island.
+- **Location:** Route 41 (31, 8) [Surfing].
+- **Action:** Encountered Wild Tentacool.
+- **Immediate Plan:** Run from battle -> Continue Surf North to (31, 7) then East.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
