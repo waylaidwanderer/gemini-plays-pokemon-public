@@ -29,3 +29,4 @@
 - Pallet -> Viridian -> Pewter -> Cerulean (Up sequence).
 - Viridian -> Right: No effect.
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
+- **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
