@@ -13,14 +13,15 @@
 - Pit A: (8, 3)
 - Pit B: (2, 5)
 - Pit C: (8, 7)
+- NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), Paul (1, 15) are solid and block movement. (Cody verified Turn 34581)
 - Divider: Column 4 is a wall from Row 2 to Row 12. Column 6 is a wall at Row 2, 3, 4, 6.
-- Connection: Strips are connected at Row 1 (Top) and Row 13-17 (Bottom).
+- Connection: Strips are connected at Row 1 (Top) and Row 13-15 (Bottom). Strip 1 (cols 0-1) is isolated from Strip 2 (cols 2-3) below Row 9.
 
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
-- Status: Strength active. Standing at (3, 4) facing Boulder 6 (3, 3).
-- Plan: Use a configuration-space BFS with player reachability checks.
-- Failed Attempts: 4 (BFS returned no solution due to long paths or incorrect mechanic assumptions).
+- Status: Strength active. Standing at (3, 1) facing Cody (4, 1).
+- Plan: Run a comprehensive BFS solver with the "stay in place" mechanic and exact grid.
+- Failed Attempts: 5 (BFS returned no solution; likely due to search depth or minor grid errors).
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
