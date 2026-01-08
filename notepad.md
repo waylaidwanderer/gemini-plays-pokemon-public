@@ -7,9 +7,9 @@
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen. (HP: 100%)
-- Status: Xenon fainted. Calcifer (Lv49) at 77/155 HP (Revived). Kimchi (Lv33) is out.
-- Strategy: Kingdra likely paralyzed. Kimchi's accuracy fell (Turn 35197).
-- Plan: Use Max Potion on Calcifer (Turn 35204). Next turn, switch Calcifer back in.
+- Status: Xenon fainted. Calcifer (Lv49) at 155/155 HP (Healed). Kimchi (Lv33) is out.
+- Strategy: Kingdra likely has a status (Sleep Powder failed with "It didn't affect"). Kimchi's accuracy fell.
+- Plan: Clear heal message (Turn 35204). Next turn, switch Calcifer back in.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
