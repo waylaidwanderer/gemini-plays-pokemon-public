@@ -1,7 +1,7 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Confirmed)
 - FLOOR / TALL_GRASS / GRASS: Walkable.
-- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Confirmed at 13, 12).
+- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable. (Verified FLOOR_UP_WALL at 13, 12).
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
@@ -16,11 +16,12 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33847).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33850).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles. Avoid switching KIMCHI into Gravelers.
   - Progress: Xenon Lv36, Kimchi Lv33. (EXP.SHARE verified).
 
+# Area Mechanics & Strategy
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
@@ -41,7 +42,7 @@
 
 # Exploration Log
 ## Current Targets (Reachable Unseen)
-- Column 10-11: (11, 37), (10, 38). Immediate area.
-- Column 12-14: (14, 68), (14, 69), (14, 70), (14, 72), (14, 73), (12, 74), (13, 74). South area.
+- Column 10-11: (11, 37), (10, 38). Path: South to (11, 35) then South to targets.
+- Column 12-14: (14, 68-73), (12-13, 74). Path: South past Cooltrainer F.
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Pathing: Hop down ledge at (12, 29) - Completed Turn 33842.
