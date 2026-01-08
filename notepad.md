@@ -41,3 +41,5 @@
 - **Search:** Fan Club must be in the Southwest, near the Gym.
 - **Map Correction:** House at (21, 17) is Diglett's Cave Speech House.
 - **Search:** Fan Club must be elsewhere. Checking near Gym (Southwest).
+- **Exploration:** Searching west of Magnet Train House (13, 13).
+- **Target:** Unexplored area around (7, 13). Fan Club likely there.
