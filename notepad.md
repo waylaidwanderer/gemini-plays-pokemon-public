@@ -24,8 +24,10 @@
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
 - Status: Resetting floor to default state. Strength active.
-- Failed Attempts: BFS solution from turn 34526 was incorrect. 
-- Current Plan: Use puzzle_strategist for high-level plan, then execute with precise movement.
+- Verified: Boulder 5 does not exist. Only 3 boulders (6, 7, 8).
+- Mechanics: Pushing a boulder into a pit removes it from 2F. Empty pits are impassable/warp for player.
+- Strategy: Use BFS to find the sequence of pushes.
+- Failed Attempts: 4 (BFS returned no solution due to incorrect grid or search limits).
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
