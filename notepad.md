@@ -40,3 +40,7 @@
 - **Gligar Typing:** Ground/Flying. Immune to Ground.
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground.
 - **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences.
+
+# Exploration Log
+- Black Belt Kenji at (11, 50) defeated (Turn 33873).
+- Current Unseen Targets (Reachable): (14, 68-70, 72-73), (11-13, 74). (To be refined).
