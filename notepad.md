@@ -12,10 +12,10 @@
 ## Strategic Plan
 1. Reset performed at Turn 35073. B8 at (8, 14).
 2. Audit Walls: Systematically test 'WALL' tiles to find hidden gaps.
-   - Test (9, 15) from (8, 15).
+   - (9, 15): Confirmed WALL (Turn 35080).
    - Test (7, 15) from (8, 15).
-   - Test (9, 14) from (8, 14).
-   - Test (7, 14) from (8, 14).
+   - Test (9, 14) from (8, 14) by pushing boulder.
+   - Test (7, 14) from (8, 14) by pushing boulder.
 3. Update solve_boulders_v2 with corrected map and solve.
 
 ## Tile Mechanics (2F)
