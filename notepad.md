@@ -1,7 +1,7 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Battle Task: Defeat Dragonair #2 (Started Turn 35212)
-- Current Turn: 35222
+- Current Turn: 35223
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
@@ -10,7 +10,7 @@
 - Pokémon 3: Dragonair (Lv37). Moves: Thunder Wave, Thunderbolt. (HP: 100%)
 - Status: Xenon fainted. Calcifer (Lv49) at 108/155 HP. Kimchi (Lv34) at 51/90 HP.
 - Strategy: Calcifer is no longer paralyzed. Dragonair resists Fire and Electric. Calcifer should use Return for neutral physical damage.
-- Plan: Use Return to defeat Dragonair.
+- Plan: Use Return (Turn 35223) to defeat Dragonair.
 - Note: Dragonair resists Fire, Water, Electric, Grass (0.5x). Weak to Ice and Dragon (2.0x). Normal is neutral.
 
 ## Tile Mechanics
