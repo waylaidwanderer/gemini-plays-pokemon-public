@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (9, 16).
-- **Action:** Manual navigation to Pokemon Center (13, 21).
+- **Location:** Olivine City (16, 20).
+- **Action:** Navigating around Sailor (16, 21) to Pokemon Center (13, 21).
 - **Path:** East to x=17 -> South to Row 22 -> West to x=13 -> Up to PC.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
