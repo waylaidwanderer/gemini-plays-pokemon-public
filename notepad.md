@@ -65,20 +65,20 @@
 - **Active:** Catch Lugia.
 
 ## Tile Mechanics
+- **WATER:** Impassable (Walking). Surfable (Surfing). High encounter rate.
+- **BUOY:** Impassable. Forms barriers/walls in water routes.
+- **WHIRLPOOL:** Obstacle. Impassable without Whirlpool HM. Can be cleared.
 - **FLOOR:** Traversable. Standard ground.
 - **WALL:** Impassable.
+- **CAVE:** Warp tile. Entrance to caves.
+- **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
+- **WARP_CARPET_DOWN:** Warp tile. Exit map South.
 - **COUNTER:** Impassable. Interactable over.
 - **PC:** Impassable. Interactable.
 - **LADDER:** Warp tile. Transition between floors.
-- **WARP_CARPET_DOWN:** Warp tile. Exit map South.
-- **WATER:** Impassable (Walking). Surfable (Surfing).
 - **DOOR:** Warp tile. Entrance to buildings.
 - **CUT_TREE:** Impassable. Cuttable.
 - **HEADBUTT_TREE:** Impassable. Interactable.
-- **BUOY:** Impassable.
-- **WHIRLPOOL:** Obstacle. Requires Whirlpool HM to cross.
-- **CAVE:** Warp tile. Entrance to caves.
-- **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
 ## Game Mechanics & Observations
 - **Fly Map Connections:**
   - Violet City -> Down -> Cherrygrove City (Verified).
