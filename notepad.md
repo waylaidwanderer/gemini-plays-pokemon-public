@@ -1,9 +1,8 @@
 # Current Status
-- Location: WhirlIslandB2F (12, 12) [Above Waterfall].
-- Action: Riding Waterfall down.
-- Observation: The central island with the Ladder to B3F is inaccessible from the East due to walls.
-- Immediate Plan: Surf down the Waterfall at (12, 14) and see where it leads.
-- Goal: Find path to B3F.
+- Location: WhirlIslandB2F (12, 27) [Waterfall Basin].
+- Action: Moving to Ladder at (13, 31).
+- Immediate Plan: Surf South to land, then take the ladder at (13, 31).
+- Goal: Enter B3F.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
