@@ -39,7 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Ecruteak City (South Gate).
-- Status: Resetting Roamers.
-- Action: Crossing Border (Route 37 -> Ecruteak -> Route 37).
-- Hunt Session: Turn 28667.
-- Next: Re-enter Route 37 and sweep grass.
+- Status: Reset Complete.
+- Action: Returning to Route 37.
+- Sequence: Down (Exit Ecruteak) -> Check Grass.
+- Hunt Session: Turn 28668.
