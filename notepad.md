@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (Surfing South).
-- **Action:** Escaping Wild Tentacool.
-- **Immediate Plan:** Run from battle -> Continue South to Route 40.
+- **Location:** Olivine City (13, 30) [Surfing].
+- **Action:** Surfing South to Route 40.
+- **Immediate Plan:** Surf South to exit map.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
