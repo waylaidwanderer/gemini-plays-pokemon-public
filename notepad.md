@@ -30,6 +30,6 @@
   - (8, 7) -> (7, 7)
 
 # Lessons Learned
-- Puzzle Mechanics: Always verify if the player moves or stays put after a push. In Blackthorn Gym, the player stays put.
+- Puzzle Mechanics: Always verify if the player moves or stays put after a push. In Blackthorn Gym, the player MOVES into the boulder's previous spot. Verified in Turns 34359 and 34406.
 - Map Analysis: Check for walls along the entire path of a boulder, not just the starting point. Boulder 8 at (8, 14) is blocked from a straight-up path to (8, 7) by walls at (8, 8-10).
 - Tool Hygiene: If a solver tool returns an empty list or "No solution", verify the map XML data and the solver's logic immediately.
