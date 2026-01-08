@@ -1,7 +1,7 @@
 # Current Status
-- Location: WhirlIslandB2F (11, 5) [Ladder Entrance].
-- Action: Exploring B2F.
-- Immediate Plan: Explore the land area to the North and West.
+- Location: WhirlIslandB2F (9, 4) [Ladder Island].
+- Action: Getting Item at (6, 4).
+- Immediate Plan: Walk to (7, 4), pick up Item, then Surf West to explore the rest of the floor.
 - Goal: Find path to B3F.
 
 # Whirl Islands Mapping
