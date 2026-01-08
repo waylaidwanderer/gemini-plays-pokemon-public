@@ -15,10 +15,10 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (36, 7) [Surfing].
-- **Action:** Navigating West Channel (Col 29) to approach island from the South-West.
-- **Immediate Plan:** Surf West to (29, 7), then South to (29, 14), then East to find landing spot at (36, 13) or (40, 14).
-- **Map Insight:** Upper rows (8-10) are blocked by buoys in central columns. Col 29 is the open channel on the West.
+- **Location:** Route 41 (29, 11) [Surfing].
+- **Action:** Aborting West Channel attempt (blocked). Returning to East Channel Strategy.
+- **Immediate Plan:** Surf North to (29, 7), then East to (48, 7). Re-attempt the "East Loop": South down Col 48 to Row 19, West to Col 44, North to land at (42, 17).
+- **Correction:** Previous East Loop attempt was abandoned too early. The landing spot is likely at (42, 17) accessible from the South.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
