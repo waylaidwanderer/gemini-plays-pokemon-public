@@ -44,4 +44,3 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Goal: Encounter Raikou/Entei.
-- Hunt Session: Turn 28724.
