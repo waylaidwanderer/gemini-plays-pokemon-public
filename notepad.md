@@ -7,7 +7,7 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Vermilion City (Exiting North).
+- **Location:** Route 6 Gatehouse (Entering Saffron).
 - **Action:** Returning to Saffron City with Lost Item.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
