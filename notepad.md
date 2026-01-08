@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Lake of Rage (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Down -> Left x4).
-- **Path:** Lake of Rage -> Mahogany -> Ecruteak -> Olivine -> Cianwood.
+- **Method:** Pressing 'Down' (x20) to ensure movement to Mahogany Town.
+- **Reasoning:** Lake of Rage is a northern spur. Must go Down to reach the main East-West line (Mahogany/Ecruteak). Previous chained moves failed, so moving one node at a time.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
