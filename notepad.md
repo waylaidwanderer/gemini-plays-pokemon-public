@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (37, 7) [Surfing].
-- **Action:** Surfing West to (26, 7) to reach the Northeast Island coast.
-- **Immediate Plan:** Scout the island perimeter for a landing spot or cave entrance.
+- **Location:** Route 41 (26, 7) [Surfing].
+- **Action:** Hit the east wall of the Northeast Island.
+- **Immediate Plan:** Surf South to (26, 8) then West along the southern coast to find an entrance.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
