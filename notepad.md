@@ -17,8 +17,12 @@
   - Cody (4, 1) and Fran (4, 11) are solid walls.
 
 # Strategy & Progress
-- Status: On 1F (1, 6). Returning to 2F via ladder at (1, 7).
-- Plan: Return to 2F, activate Strength, and use solve_blackthorn_boulders_v3 WITHOUT ladder shortcuts.
+- Status: Back on 2F (1, 7). Strength NOT active.
+- Plan: Move to (3, 4), activate Strength on B6, then use solve_blackthorn_boulders_v3.
+- Connectivity Verified:
+  - Strip 1 and 2 connect at Row 1 and Row 6.
+  - Strip 2 and 3 connect at Row 13 and Row 14.
+  - This allows full 2F circulation without ladders.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
