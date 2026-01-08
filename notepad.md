@@ -2,10 +2,10 @@
 - Reset Turn: 34998
 - Status: Strength ACTIVE (Turn 35004)
 
-## Current Boulder Positions
-- B6 (ID 6): (3, 2)
-- B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 10)
+## Current Boulder Positions (Post-Reset)
+- B6 (ID 6): (3, 2) [Unverified]
+- B7 (ID 7): (6, 1) [Unverified]
+- B8 (ID 8): (8, 11) [Unverified]
 
 ## Pits (Targets)
 - P1: (8, 3)
