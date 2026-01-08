@@ -9,13 +9,17 @@
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
-- Start: Turn #34032.
+- Start Turn: 34032.
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
 - Strategy: Use manual steps.
-- Current Status: Strength active. Moving to (8, 15) to push Boulder 8 Up.
-- Puzzle Start Turn: 34032.
+
+# Pokemon & Party Information
+## Training Session (Route 45)
+- Start: Turn #33584.
+- Goal: Kimchi (Lv33) and Xenon (Haunter, Lv36) to Lv40.
+- Method: Kimchi holds Exp. Share. Lead Xenon.
 
 # Manual Puzzle Plan
 ## Boulder 7 (6, 1) -> Pit (8, 3)
