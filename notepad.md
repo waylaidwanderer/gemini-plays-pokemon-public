@@ -35,6 +35,7 @@
 - Black Belt Kenji at (11, 50) defeated.
 - Hiker Michael at (15, 65) defeated.
 - Reachable Unseen: (10-11, 79), (16-17, 79), (10-17, 81).
+- Confirmed: (18, 76-78) is a WALL.
 - Target: Fruit Tree at (16, 82). (Turn 33904).
 - Lead: Switching XENON to lead for Ghost immunity (Turn 33904).
 
