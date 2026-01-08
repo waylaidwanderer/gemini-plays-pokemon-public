@@ -13,19 +13,18 @@
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Solve one boulder at a time. Target B8 first.
 
-## Boulder 8 (8, 15) -> Pit (8, 7) Plan
-1. Navigate to (8, 16).
-2. Push B8 Up to (8, 10).
-3. Navigate to (9, 10).
-4. Push B8 Left to (7, 10).
-5. Navigate to (8, 10).
-6. Push B8 Left to (6, 10).
-7. Navigate to (6, 11).
-8. Push B8 Up to (6, 7).
-9. Navigate to (5, 7).
-10. Push B8 Right to (7, 7).
-11. Navigate to (6, 7).
-12. Push B8 Right into (8, 7) PIT.
+## Boulder 8 (8, 12) -> Pit (8, 7) Plan
+1. Push B8 (8, 12) Up to (8, 11). (Player at 8, 13).
+2. Push B8 (8, 11) Up to (8, 10). (Player at 8, 12).
+3. Move to (9, 10).
+4. Push B8 (8, 10) Left to (7, 10) -> TEST IF WALKABLE.
+5. If (7, 10) is WALL, push B8 to (9, 10) and explore column 9.
+
+# Verified Impassable Tiles
+- (9, 13): WALL (Tested Turn 34255)
+- (8, 9): WALL (Visual)
+- (7, 11): WALL (Visual)
+- (7, 10): WALL (Visual)
 
 # Pokemon & Party Information
 ## Strategy for Gym Leader Clair
