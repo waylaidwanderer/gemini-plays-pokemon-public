@@ -38,9 +38,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 36 (Central).
-- Status: Max Repel ACTIVE.
-- Action: Moving to Route 37 Gate (28, 0).
-- Check: Fisher at (44, 9) is PASSIVE (No battle triggered).
-- Path: Using Pathfinder to navigate the tree maze northwards.
-- Note: Roamer hunt continues on Route 36/37 border.
+- Location: Route 37 (South).
+- Status: Phone Call Finished.
+- Action: Moving North to Grass Area.
+- Path: Using Pathfinder to (8, 5) (Avoiding Ledges).
+- Note: Hunt resumes in Route 37 Grass.
