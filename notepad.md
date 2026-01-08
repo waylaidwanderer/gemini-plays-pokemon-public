@@ -41,3 +41,6 @@
 - **Observed (Turn 27231):** Cinnabar -> Up -> Up -> Right = Pallet Town.
 - **Hypothesis:** Up from Pallet might be blocked? Or Right from Viridian wraps to Pallet?
 - **Plan:** Trying Up -> Right from Pallet to test Viridian connection.
+- **Observed (Turn 27233):** Pallet -> Up -> Right = Viridian City.
+- **Inference:** Pallet -> Up = Viridian. Viridian -> Right = No Effect/Blocked?
+- **Plan:** Trying Up -> Right from Viridian. Expecting Pewter -> Cerulean.
