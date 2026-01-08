@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Copycat's House (Saffron City).
-- **Action:** Giving Lost Item to Copycat.
+- **Location:** Copycat's House 1F.
+- **Action:** Going to 2F to see Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
