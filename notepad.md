@@ -65,6 +65,9 @@
 - **CUT_TREE:** Impassable. Cuttable.
 - **HEADBUTT_TREE:** Impassable. Interactable.
 - **BUOY:** Impassable.
+- **WHIRLPOOL:** Obstacle. Requires Whirlpool HM to cross.
+- **CAVE:** Warp tile. Entrance to caves.
+- **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
 ## Reflection (Turn 27988)
 1. **Execution:** No major deferred tasks. Maintaining tempo.
 2. **Notepad:** Good. Added "Reflection" section.
