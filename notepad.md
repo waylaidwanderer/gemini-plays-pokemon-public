@@ -1,30 +1,20 @@
 # Tile Mechanics
 - FLOOR: Walkable.
-- WALL: Impassable (some statues/pillars in middle are walkable).
-- PIT: Warp to same coords on 1F. Boulders fill gaps.
-- LADDER: Two-way warp between floors. (1,7) and (7,9).
-- BOULDER: Pushable with Strength.
-- NPCs: Impassable walls. Cody (4,1) persists after defeat.
+- WALL: Impassable. (Visual confirmation: pillars at (7, 10), (7, 11), etc. are solid walls).
+- PIT: Warp to same coordinates on 1F. Can be filled by pushing a boulder into it.
+- LADDER: Two-way warp between floors. Located at (1, 7) and (7, 9).
+- BOULDER: Pushable object requiring STRENGTH. Acts as a wall for movement.
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Strategy: Solve one boulder at a time. Target B8 first.
+- Puzzle Status [Turn 34261]: Boulder 8 is soft-locked at (8, 10). Reset required.
 
-## Boulder 8 (8, 12) -> Pit (8, 7) Plan
-1. Push B8 (8, 12) Up to (8, 11). (Player at 8, 13).
-2. Push B8 (8, 11) Up to (8, 10). (Player at 8, 12).
-3. Move to (9, 10).
-4. Push B8 (8, 10) Left to (7, 10) -> TEST IF WALKABLE.
-5. If (7, 10) is WALL, push B8 to (9, 10) and explore column 9.
-
-# Verified Impassable Tiles
-- (9, 13): WALL (Tested Turn 34255)
-- (8, 9): WALL (Visual)
-- (7, 11): WALL (Visual)
-- (7, 10): WALL (Visual)
+# Puzzle Reset Strategy
+- To reset boulder positions, leave the map (via ladder or pit) and return.
+- Current Reset Path: Exit via ladder at (7, 9).
 
 # Pokemon & Party Information
 ## Strategy for Gym Leader Clair
