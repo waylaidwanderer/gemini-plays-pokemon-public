@@ -7,7 +7,7 @@
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
-- Start Turn: 34112
+- Start Turn: 34112 (Exploration), 34370 (Puzzle Implementation)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
 - Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original tile. Verified in Turns 34280, 34303, 34406, and 34432.
@@ -33,8 +33,3 @@
 - Puzzle Mechanics: Always verify if the player moves or stays put after a push. In Blackthorn Gym, the player STAYS in their original tile. Verified in Turns 34280, 34303, 34406, and 34435.
 - Map Analysis: Check for walls along the entire path of a boulder, not just the starting point. Boulder 8 at (8, 14) is blocked from a straight-up path to (8, 7) by walls at (8, 9).
 - Tool Hygiene: If a solver tool returns an empty list or "No solution", verify the map XML data and the solver's logic immediately.
-## Manual Solution Plan (Attempt 4)
-- Turn: 34425
-- Mechanic: Player STAYS in place.
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Pits: P0 (2, 5), P1 (8, 3), P2 (8, 7).
