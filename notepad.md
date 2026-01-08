@@ -10,7 +10,7 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Puzzle Status [Turn 34261]: Boulder 8 is soft-locked at (8, 10). Reset required.
+- Puzzle Status [Turn 34262]: Boulder 8 was soft-locked at (8, 10). Arrived on 1F via ladder at (7, 9) to reset. Returning to 2F.
 
 # Puzzle Reset Strategy
 - To reset boulder positions, leave the map (via ladder or pit) and return.
