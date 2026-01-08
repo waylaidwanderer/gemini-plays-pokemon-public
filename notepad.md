@@ -7,11 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Physically).
-- **Map Cursor:** Mahogany Town.
-- **Action:** Navigating Fly Map: Mahogany -> Ecruteak -> Olivine.
-- **Method:** `navigate_menu` (Left x4, 300ms hold).
-- **Reasoning:** Confirmed at Mahogany. Heading West to the coast (Olivine). From there, will navigate South/West to Cianwood.
+- **Location:** New Bark Town.
+- **Action:** Resetting Fly Menu Navigation.
+- **Plan:** Close Menu -> Open Map -> Single Step Navigation to Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
