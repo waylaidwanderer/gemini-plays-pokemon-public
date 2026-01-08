@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Traverse Route 38 West. Check Fruit Tree at (12, 10).
-- Route: Move Left to (12, 12), Up to (12, 11), Interact with Tree (12, 10). Then jump ledge at (10, 11) to continue West.
-- Reasoning: Navigating towards Olivine. Gathering resources (berries) on the way.
+- Immediate Plan: Traverse Route 38 West to Route 39.
+- Route: Jump ledge at (10, 11) to (9, 11). Go North to y=5. Go West through (7, 5) to (4, 5). Go South to y=8. Go West to Exit (0, 8).
+- Reasoning: Verified path through gap in ledges/walls at y=5.
 - Goal: Reach Olivine, Surf to Whirl Islands.
 
 # Whirl Islands Mapping
