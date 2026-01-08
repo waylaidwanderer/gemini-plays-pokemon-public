@@ -40,3 +40,4 @@
     4. Caught Tentacool (Nomura).
 - **Active:** Catch Lugia.
 - **Misleading Map Data:** Object ID 2 on Route 41 is labeled 'OLIVINE_RIVAL' in map data but is actually Swimmer George. Do not trust internal labels implicitly.
+- **Strategy Note:** Always use Repels when navigating large water bodies to prevent navigation loops caused by high encounter rates.
