@@ -9,9 +9,8 @@
 
 # Current Status
 - **Location:** Olivine City (8, 31) [Surfing].
-- **Action:** Surfing West.
-- **Reason:** Buoys at Row 32 block South. Exploring West for a gap or beach access.
-- **Immediate Plan:** Surf Left x5.
+- **Action:** In Battle (Wild Tentacool).
+- **Immediate Plan:** Run away -> Continue Surfing West.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
