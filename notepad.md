@@ -8,7 +8,7 @@
 - WALL: Impassable. (4, 0-12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11), (9, 12+).
 - LADDER: Impassable for boulders. (1, 7), (7, 9).
 - Gap: (4, 13) is the primary connection between left and right.
-- Push Mechanic: Player moves into the boulder's old tile after a push. (Confirmed Turn 34791).
+- Push Mechanic: Player moves into the boulder's old tile after a push. (Verified Turn 34782).
 
 # Puzzle Analysis (2F)
 - Strategy:
