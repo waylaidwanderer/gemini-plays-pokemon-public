@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Hunting (Grass Sweep).
-- Action: Down x2, Left, Right, Up x2.
+- Status: Resetting (Up -> Down).
+- Action: Map Change to shuffle Roamers.
 - Goal: Encounter or Reset.
-- Hunt Session: Turn 28760.
+- Hunt Session: Turn 28761.
