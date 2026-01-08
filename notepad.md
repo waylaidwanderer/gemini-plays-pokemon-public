@@ -3,13 +3,23 @@
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Status: Strength ACTIVE.
-- Verified: Cody (4, 1) is a WALL (Turn 34880).
-- Verified: (4, 12) is a WALL. (8, 9) is a WALL.
-- Goal: Verify if (4, 9) is a wall.
-- Goal: Verify if (2, 13) is a wall.
 
-# Tile Mechanics (2F)
-- WALL: (4, 0, 2-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11, 14, 15), (9, 12-17).
-- GAP: (4, 1) and (4, 13-17) are passable.
-- LADDER: Walkable for player, impassable for boulders.
-- PIT: Target for boulders, warp for player.
+# Scientific Verification of "Walls" (2F)
+- Hypothesis: Some tiles marked "WALL" are actually passable floor tiles or statues.
+- Test 1: Cody (4, 1) -> Confirmed WALL (Turn 34880).
+- Test 2: Fran (4, 11) -> Confirmed WALL (Turn 34865).
+- Test 3: (4, 10) -> Confirmed WALL (Turn 34863).
+- Test 4: (4, 9) -> Pending.
+- Test 5: (6, 2) and (6, 3) -> Pending.
+- Test 6: (7, 10) and (7, 11) -> Pending.
+- Test 7: (8, 8) and (8, 9) -> Pending.
+
+# Strategy: Blackthorn Gym 2F
+- Step 1: Systematically walk into every "WALL" tile adjacent to boulder paths.
+- Step 2: Update map based on findings.
+- Step 3: Use BFS solver (run_code) with corrected map.
+
+# Verified Obstacles (2F)
+- Column 4: (4, 1), (4, 10), (4, 11), (4, 12) are WALLs.
+- Column 8: (8, 8, 9) are likely WALLs (Seen=true).
+- Column 9: (9, 13) is WALL.
