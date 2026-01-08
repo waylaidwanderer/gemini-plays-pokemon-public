@@ -10,7 +10,7 @@
 - Pokémon 3: Dragonair (Lv37). Moves: Unknown. (HP: 100%)
 - Status: Xenon fainted. Calcifer (Lv49) at 127/155 HP. Kimchi (Lv34) at 51/90 HP.
 - Strategy: Dragon resists Fire and Electric. Calcifer should use Return for neutral damage.
-- Plan: Use Return (Turn 35213) to chip away at Dragonair.
+- Plan: Select RETURN (Turn 35213) and attack.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
