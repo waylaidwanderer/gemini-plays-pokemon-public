@@ -13,7 +13,7 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Strategy: Solve one boulder at a time using BFS.
+- Strategy: Use BFS to find the exact sequence. Manual attempts have failed due to complex wall collisions.
 - Verification Status:
   - Row 0: (5,0), (7,0), (8,0) are WALLs (Verified).
   - Column 4: (4,2) to (4,10) are WALLs.
@@ -32,4 +32,4 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
-- Current Status: Strength active. Standing at (8,13) facing Down. Boulder 8 at (8,14).
+- Current Status: Strength active. Standing at (7,12). Boulder 8 at (8,14).
