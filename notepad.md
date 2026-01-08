@@ -21,8 +21,8 @@
     11. Confirmed: Ladder at (13, 11) is an EXIT from B1F. Must access via B1F.
     12. Navigate to Upper Ladder at (17, 3) to enter B1F.
     13. On B1F: Wall at Column 32 blocks direct West path.
-    14. Navigate South to Row 16 to find a gap in the wall.
-    15. Head West to explore NW area and find the Ladder Up.
+    14. Navigate South to Row 17 to bypass the wall and ledges.
+    15. Head West to (25, 17) then explore NW area to find the Ladder Up.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Visible].
