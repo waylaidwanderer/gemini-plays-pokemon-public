@@ -76,7 +76,7 @@
 - **FLOOR:** Traversable. Standard ground.
 - **WALL:** Impassable.
 - **CAVE:** Warp tile. Entrance to caves.
-- **FLOOR_UP_WALL:** Needs verification. Likely a ledge (South-facing). Testing passability from North.
+- **FLOOR_UP_WALL:** Obstacle. Blocked movement South from (14, 9). Testing adjacent tiles. Possible "Wall-Up" (South-to-North) passage?
 - **WARP_CARPET_DOWN:** Warp tile. Exit map South.
 - **COUNTER:** Impassable. Interactable over.
 - **PC:** Impassable. Interactable.
