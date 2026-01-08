@@ -9,8 +9,8 @@
 
 # Current Status
 - **Location:** Olivine City (6, 31) [Surfing].
-- **Action:** Resuming Surf West.
-- **Immediate Plan:** Clear text (B) -> Surf West to find gap in Buoys.
+- **Action:** Surfing West.
+- **Immediate Plan:** Surf Left x5 to explore unseen area west of Buoys.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
