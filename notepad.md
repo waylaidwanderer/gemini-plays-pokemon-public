@@ -7,10 +7,11 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Mahogany Town (Fly Map).
-- **Action:** Testing Horizontal Movement (Right).
-- **Method:** Using `navigate_menu` (Right x5).
-- **Reasoning:** 'Left' movement appears blocked or unresponsive. Testing 'Right' to verify horizontal control and check for map wrapping (East -> West).
+- **Location:** New Bark Town (Physically).
+- **Map Cursor:** Blackthorn City (Visual), Mahogany Town (Text Mismatch).
+- **Action:** Navigating Fly Map: Blackthorn -> Cianwood.
+- **Method:** `navigate_menu` (Left x6, 300ms hold).
+- **Reasoning:** 'Right' movement worked. Now attempting 'Left' to traverse the map Westward. Disregarding text mismatch in favor of visual state.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
