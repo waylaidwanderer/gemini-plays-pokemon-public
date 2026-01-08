@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Magnet Train (In Transit).
-- **Action:** Riding train to Goldenrod City.
-- **Next:** Arrive in Goldenrod -> Go to Whirl Islands.
+- **Location:** Saffron Station (Platform).
+- **Action:** Re-triggering warp at (6, 5) to board train.
+- **Note:** Script moved me to (6, 5). Stepping off and on to trigger boarding.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
