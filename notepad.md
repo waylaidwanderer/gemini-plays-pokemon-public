@@ -39,7 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North Grass).
-- Action: Sweeping grass for Roamers.
-- Method: Repel Trick (Walking ~10 steps).
-- Note: Skipping Pokedex check to save time. If they are here, we battle.
-- Next: If no encounter, return to Ecruteak Gate (8, 0).
+- Status: Repel Wore Off.
+- Action: Renewing Max Repel.
+- Sequence: Close Text -> Open Pack -> Use Max Repel.
+- Next: Resume Hunting Loop (Grass -> Ecruteak Reset).
