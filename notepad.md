@@ -1,16 +1,16 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 12), B10 (2, 14)?
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 12).
 - Status: Strength is ACTIVE. Boulders RESET.
 - Push Mechanic: Player STAYS in their tile after a push. (Verified Turn 34819).
 
 # Puzzle Analysis (2F)
-- Hypothesis: There are 4 boulders. B8 is a decoy/trap.
-- B10 (2, 14) -> P2 (2, 5).
-- B6 (3, 3) -> P3 (8, 7) via Row 1 or Row 13.
-- B7 (6, 1) -> P1 (8, 3).
-- Goal: Locate B10 at (2, 14) and verify Row 13 crossing.
+- Pits: (8, 3), (2, 5), (8, 7).
+- Boulders: (3, 3), (6, 1), (8, 12).
+- Obstacle: (2, 14) is a WALL, not a boulder.
+- Obstacle: (4, 1) Cody's tile is FLOOR (passable after defeat).
+- Strategy: Use run_code to find a complete BFS solution.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Activate Strength.
