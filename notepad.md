@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Cherrygrove City (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Up -> Left x4).
-- **Path:** Cherrygrove -> Violet/Mahogany -> Ecruteak -> Olivine -> Cianwood.
+- **Method:** Using `navigate_menu` (Up -> Left x3) with LONGER hold times (500ms).
+- **Hypothesis:** Previous 200ms hold was insufficient to overcome cursor stickiness at Cherrygrove.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
