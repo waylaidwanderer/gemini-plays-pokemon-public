@@ -217,7 +217,7 @@
         "player_position"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    # Attempt to resolve variables\n    if 'player_position' not in globals():\n        if 'input_data' in globals():\n            player_position = input_data['player_position']\n            current_map_id = input_data['current_map_id']\n        else:\n            raise ValueError(\"Arguments 'player_position' or 'current_map_id' not found in globals or input_data\")\n\n    y = player_position['y']\n    buttons = []\n    \n    if current_map_id == '4_9': # Ecruteak\n        buttons = [\"Down\"]\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle, Return (2 steps), Exit (2 steps to be safe)\n             # Added an extra Up to ensure warp triggering\n             buttons = [\n                 \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n        else: # In Grass (or deeper)\n             # Wiggle and leave\n             buttons = [\n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n             \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(str(e))",
+    "python_script": "import json\nimport sys\n\ntry:\n    # Attempt to resolve variables\n    if 'player_position' not in globals():\n        if 'input_data' in globals():\n            player_position = input_data['player_position']\n            current_map_id = input_data['current_map_id']\n        else:\n            raise ValueError(\"Arguments 'player_position' or 'current_map_id' not found in globals or input_data\")\n\n    y = player_position['y']\n    buttons = []\n    \n    if current_map_id == '4_9': # Ecruteak\n        # Added sleep and double down to ensure turning and movement\n        buttons = [\"Down\", \"sleep 500\", \"Down\"]\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle, Return (2 steps), Exit (2 steps to be safe)\n             # Added an extra Up to ensure warp triggering\n             buttons = [\n                 \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n        else: # In Grass (or deeper)\n             # Wiggle and leave\n             buttons = [\n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n             \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(str(e))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -248,6 +248,11 @@
         "commit_message": "Added an extra 'Up' command to the sequence to ensure the player successfully warps back to Ecruteak City, preventing the loop from stalling at the gate.",
         "timestamp": "2026-01-08T23:19:21.108Z",
         "action_counter": 28849
+      },
+      {
+        "commit_message": "Updated Ecruteak logic to send 'Down' twice with a delay. This ensures the player turns and moves even if facing Up after arriving from Route 37.",
+        "timestamp": "2026-01-08T23:44:57.036Z",
+        "action_counter": 28886
       }
     ]
   }
