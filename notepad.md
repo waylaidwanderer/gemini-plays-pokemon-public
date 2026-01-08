@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 39 (19, 8).
-- **Action:** Arrived from Route 38. Heading South to Olivine.
-- **Immediate Plan:** Walk South to exit Route 39.
+- **Location:** Route 39 (14, 18).
+- **Action:** Walking South to Olivine City.
+- **Immediate Plan:** Continue South to exit Route 39.
 - **Route:** Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
