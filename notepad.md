@@ -43,8 +43,8 @@
 - Session Start: Turn 28662.
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
-- Location: Route 37 (North Grass).
-- Status: Resetting (Up -> Down).
-- Action: Map Change to shuffle Roamers.
-- Goal: Encounter or Reset.
-- Hunt Session: Turn 28761.
+- Location: Ecruteak City (South Gate).
+- Status: Reset Complete.
+- Action: Returning to Route 37.
+- Sequence: Down (Exit Ecruteak) -> Check Grass.
+- Hunt Session: Turn 28762.
