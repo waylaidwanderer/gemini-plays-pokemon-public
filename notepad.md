@@ -30,7 +30,7 @@
 - **Note:** Verification of tile mechanics is ongoing.
 
 ## Travel Notes
+- **Lesson:** Kanto Fly map cursor movement is non-linear/wrapping. Always verify destination visually.
 - **Route 6:** Head North to Saffron Gatehouse (6, 1).
-- **Fly Map (Kanto):** Navigation is inconsistent. Reliable sequence: Pallet -> Viridian -> Pewter -> Cerulean (Up).
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
