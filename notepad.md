@@ -69,3 +69,10 @@
 - **CUT_TREE:** Impassable. Cuttable.
 - **HEADBUTT_TREE:** Impassable. Interactable.
 - **BUOY:** Impassable.
+## Reflection (Turn 27988)
+1. **Execution:** No major deferred tasks. Maintaining tempo.
+2. **Notepad:** Good. Added "Reflection" section.
+3. **Map:** Markers are up to date.
+4. **Automation:** Defined `assess_reachability` tool to solve Route 41 Buoy Maze scientifically instead of trial-and-error.
+5. **Goals:** Clear.
+6. **Errors:** Stopped assuming linear paths. Testing connectivity with code.
