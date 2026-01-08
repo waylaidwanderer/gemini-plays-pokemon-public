@@ -6,7 +6,7 @@
 
 # Game Mechanics
 - Strength: Deactivated when changing maps or using ladders. Must be re-activated on a boulder.
-- Pushing: Player STAYS in their tile after a push. (Verified Turn 34815, 34833).
+- Pushing: Player STAYS in their tile after a push. (Verified Turn 34813, 34833, 34842).
 - Ladders: (1, 7) and (7, 9) reset boulder positions on 2F.
 
 # Tile Mechanics (2F)
@@ -16,10 +16,10 @@
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Reach (8, 15) and activate Strength on B8.
-- Step 2: Use boulder_solver_crystal_v2 to get path.
+- Step 2: Use solve_gym_puzzle_crystal to get path.
 - Step 3: Execute.
 
 # Training Progress
 - Goal: Xenon and Kimchi to Lv40.
 - Started: Turn 30928 (Approx).
-- Progress: Xenon Lv36, Kimchi Lv33.
+- Progress: Haunter Lv36, Gloom Lv33.
