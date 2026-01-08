@@ -8,10 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (Physically).
-- **Map Cursor:** Blackthorn City (Visual), Mahogany Town (Text Mismatch).
-- **Action:** Navigating Fly Map: Blackthorn -> Cianwood.
-- **Method:** `navigate_menu` (Left x6, 300ms hold).
-- **Reasoning:** 'Right' movement worked. Now attempting 'Left' to traverse the map Westward. Disregarding text mismatch in favor of visual state.
+- **Map Cursor:** Mahogany Town.
+- **Action:** Navigating Fly Map: Mahogany -> Ecruteak -> Olivine.
+- **Method:** `navigate_menu` (Left x4, 300ms hold).
+- **Reasoning:** Confirmed at Mahogany. Heading West to the coast (Olivine). From there, will navigate South/West to Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
