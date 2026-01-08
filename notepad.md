@@ -1,36 +1,25 @@
 # Current Status
 - Location: Whirl Island Lugia's Chamber (3_73).
-- Immediate Plan: Surf North to find Lugia.
+- Immediate Plan: Interact with Lugia (A button).
 - Goal: Catch Lugia.
-
-# Whirl Islands Mapping
-- **Route 41 NE Island:** Entered via (36, 19).
-- **B1F (East Side):**
-  - Ladder to B2F: (25, 21) [Taken].
-- **B2F (Current):**
-  - Entrance: Ladder at (11, 5).
-  - Top Area: Items 1 & 3 inaccessible from top (blocked).
-  - Waterfall: Descended from (12, 14).
-  - Bottom Area (Basin): Currently at (12, 26).
-    - Ladder at (13, 31): Likely leads to B3F/Lugia.
-    - West Bank: Land visible at x=8,9. Exploring this now to see if it connects to the missing items.
-- **B3F (Basin):**
-  - Expected location of Lugia.
 
 # Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
-- **Risk:** Team is severely underleveled. Lapis (Hypnosis) is Lv 12 and will likely be outsped/OHKO'd.
-- **Plan:**
-  1. Explore B2F Bottom West.
-  2. Take Ladder (13, 31) to B3F.
-  3. Locate Lugia.
-  4. Attempt catch with Ultra/Great Balls.
-  5. **Contingency:** Use Master Ball if necessary, or reset if failed.
+- **Risk:** Team is severely underleveled except Muscle.
+- **Assets:** Master Ball x1, Ultra Ball x2, Great Ball x9. (Low supply).
+- **Battle Plan:**
+  1. **Lead:** Muscle (Lv 85).
+  2. **Damage:** Use **Cross Chop** (Fighting).
+     - Fighting is 0.25x effective vs Psychic/Flying.
+     - Reduces risk of OHKO compared to Thunderpunch/Ice Punch (2x) or Strength (1x).
+     - **Risk:** Cross Chop has high crit rate.
+  3. **Status:** None available safely (Lapis is Lv 12).
+  4. **Catch:** Throw Ultra/Great Balls when HP is low.
+  5. **Emergency:** Master Ball if shiny or last resort.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 44 Owned).
 - **Major Target:** CATCH LUGIA.
-- **Start Time:** Jan 7, 2026 (Turn 27211).
 
 ## Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
