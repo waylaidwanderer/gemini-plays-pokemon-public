@@ -23,8 +23,15 @@
 
 # Exploration Log
 - Items: Max Potion (7, 33), Mysteryberry (16, 82).
-- Confirmed Path to Route 45 Strip 5 (x=16-17):
-  (17, 33) -> (17, 31) -> (13, 31) -> (13, 25) -> (25, 25) -> (25, 29) -> (31, 29) -> (31, 33) -> (25, 33) -> (25, 35) -> (17, 35).
+- Master Path to Route 45 Section 2 (Strip 5, x=15-27):
+  1. Reach (13, 23) via Column 13 (Tier 2 Gap).
+  2. Reach (9, 21) via (9, 22) (Tier 1 Gap).
+  3. Reach (16, 12) (Surf Point).
+  4. Surf to (14, 13) -> Land at (14, 14).
+  5. Jump Ledge at (14, 17) -> Row 18.
+  6. Jump Ledge at (18, 21) -> Row 22.
+  7. Jump Ledge at (16, 23) -> Section 2 (Row 24).
+  8. Exit south at (20-27, 35) to Strip 5. (Updated Turn 33973).
 
 # Lessons Learned
 - Blackthorn Maze: Southern walls at Row 32, 34 are hard barriers from the North. Resetting to high ground requires using specific gaps (e.g., col 13 at Row 23).
