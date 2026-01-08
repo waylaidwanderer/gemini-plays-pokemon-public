@@ -10,8 +10,8 @@
 - P3: (8, 7)
 
 ## Tile Mechanics (2F)
-- FLOOR: Traversable.
-- WALL: Impassable.
+- FLOOR: Traversable. (7, 10) is verified FLOOR.
+- WALL: Impassable. (8, 9) is verified WALL.
 - PIT: Target for boulders; player falls to 1F. Moving a boulder onto this tile removes the boulder and fills the hole on 1F.
 - LADDER: Warp to 1F; resets boulder positions.
 - NPC: Impassable (WALL).
