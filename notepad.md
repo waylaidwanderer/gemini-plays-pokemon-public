@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandSW (9, 14) [West Water].
-- Action: Surfing West.
-- Observation: Exploring the western edge of the water to reveal unseen tiles.
-- Immediate Plan: Continue surfing west/south to find land or a new path.
+- Location: WhirlIslandSW (5, 14) [West Land].
+- Action: Landing on West Island.
+- Observation: Found land at (5, 14).
+- Immediate Plan: Explore the new landmass.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
