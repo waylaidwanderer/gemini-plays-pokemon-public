@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Goldenrod City (Train Station).
-- **Action:** Exiting station to Fly to Whirl Islands.
-- **Next:** Fly to Cianwood -> Surf to Whirl Islands -> Catch Lugia.
+- **Location:** Goldenrod City.
+- **Action:** Flying to Cianwood City.
+- **Next:** Surf to Whirl Islands -> Catch Lugia.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
