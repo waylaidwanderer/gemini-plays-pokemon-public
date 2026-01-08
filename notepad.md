@@ -8,9 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Cherrygrove -> Cianwood).
+- **Action:** Navigating Fly Map (Cherrygrove -> ?).
 - **Current Selection:** Cherrygrove City.
-- **Immediate Plan:** Press Left x3. Expected: Olivine or Cianwood.
+- **Hypothesis:** 'Left' from Cherrygrove goes to Violet or Goldenrod. 'Left' x3 looped back to Cherrygrove.
+- **Immediate Plan:** Press Left ONCE. Verify destination.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
