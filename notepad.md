@@ -1,6 +1,6 @@
 # Current Status
 - Location: Whirl Island B2F.
-- Immediate Plan: Get Item at (6, 4) (Item 2), then explore access to Southern Island for Items 1 & 3.
+- Immediate Plan: Surf East to the channel, then South to the Waterfall.
 - Goal: Reach Lugia in B2F/B3F Basin.
 
 # Whirl Islands Mapping
@@ -9,18 +9,15 @@
   - Ladder to B2F: (25, 21) [Taken].
 - **B2F (Current):**
   - Entrance: Ladder at (11, 5).
-  - Item 2: (6, 4) [Target First].
-  - Item 1: (10, 11) [Target Second].
-  - Item 3: (5, 12) [Target Third].
-  - Waterfall: Starts at (12, 14). Leads to Basin.
-  - Ladder at (7, 11) -> B3F?
-  - Ladder at (13, 31) -> B3F?
+  - West Section (Items 1 & 3, Ladder 7,11): **Inaccessible** from here (blocked by wall at Col 11). Must access via another route (likely B1F West).
+  - Waterfall: Starts at (12, 14). Leads to Bottom Area (Row 26+).
+  - Ladder at (13, 31): Located at bottom of Waterfall. Likely leads to B3F.
 - **B3F (Basin):**
   - Expected location of Lugia.
 
 # Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
-- **Path:** B2F (Surf) -> Item 2 (6, 4) -> Item 1 & 3 (South Island) -> Waterfall -> Lugia.
+- **Path:** B2F (Surf) -> Waterfall -> Bottom Area -> Ladder (13, 31) -> Basin.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 43 Owned).
