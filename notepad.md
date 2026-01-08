@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Exiting Menu.
-- Action: Closing Pack.
-- Sequence: B (Exit) -> B (Exit) -> B (Exit).
-- Hunt Session: Turn 28828.
+- Status: Hunting.
+- Action: Wiggle & Reset.
+- Sequence: Down -> Left -> Up -> Exit to Ecruteak.
+- Hunt Session: Turn 28829.
