@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Saffron City (Copycat's House 2F).
-- **Next Step:** Talk to Copycat -> Trigger Doll Quest.
+- **Next Step:** Go to Vermilion Fan Club -> Get Lost Item.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
