@@ -8,10 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Violet -> Cianwood).
+- **Action:** Navigating Fly Map (Violet -> ?).
 - **Current Selection:** Violet City.
-- **Path:** Left (Ecruteak) -> Left (Olivine) -> Left (Cianwood).
-- **Immediate Plan:** Press Left x3. Verify destination is Cianwood.
+- **Hypothesis:** 'Left' is blocked from Violet. Trying 'Up' to find a valid path (Mahogany/Ecruteak?).
+- **Immediate Plan:** Press Up. Verify destination.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
