@@ -1,6 +1,7 @@
 # Current Status
-- Immediate Plan: Heal at Olivine Pokemon Center.
-- Reasoning: Successfully purchased 10 Great Balls. Team needs healing (Lapis fainted) before surfing to Whirl Islands.
+- Immediate Plan: Heal at Pokemon Center.
+- Route: Walk to (13, 21) via row 21/22/23.
+- Reasoning: Secured Great Balls. Need to heal team before Whirl Islands expedition.
 - Goal: Heal -> Surf to Whirl Islands -> Catch Lugia.
 
 # Whirl Islands Mapping
