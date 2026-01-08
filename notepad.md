@@ -1,8 +1,8 @@
 # Current Status
-- Immediate Plan: Traverse Route 38 West to Route 39.
-- Route: Jump ledge at (10, 11) to (9, 11). Go North to y=5. Go West through (7, 5) to (4, 5). Go South to y=8. Go West to Exit (0, 8).
-- Reasoning: Verified path through gap in ledges/walls at y=5.
-- Goal: Reach Olivine, Surf to Whirl Islands.
+- Immediate Plan: Go North to y=5, then West to Olivine.
+- Route: From (9, 11) go North to (9, 5). Then West to (4, 5). South to (4, 8). West to Exit (0, 8).
+- Reasoning: Avoiding ledges and walls blocking direct Westward movement.
+- Goal: Heal at Olivine, then Surf to Whirl Islands.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
