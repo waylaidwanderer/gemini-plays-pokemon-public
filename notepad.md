@@ -6,7 +6,7 @@
 - BOULDER: Pushable object. Requires STRENGTH. Pushing moves it one tile. Player STAYS in original tile.
 
 # Blackthorn Gym (2F) Puzzle
-- Start Turn: 34501
+- Start Turn: 34501 (Current Attempt: 34547)
 - Goal: Push three boulders into pits to bridge gaps to Gym Leader Clair on 1F.
 - Boulder 6: (3, 3)
 - Boulder 7: (6, 1)
