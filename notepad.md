@@ -9,7 +9,7 @@
 # Current Status
 - **Location:** Blackthorn City (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Pressing 'Left' (x50) to traverse West from Blackthorn.
+- **Method:** Using `navigate_menu` (Left x5, hold 200ms) to ensure cursor moves West.
 - **Path:** Blackthorn -> Mahogany -> Ecruteak -> Olivine -> Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
