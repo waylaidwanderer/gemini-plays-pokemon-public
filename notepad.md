@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (21, 8) [Surfing].
-- **Action:** Escaping wild Tentacruel.
-- **Immediate Plan:** Navigate West towards the visible island structure.
+- **Action:** Repositioning to find Northeast Island.
+- **Immediate Plan:** Surf East, passing below the Northwest Island, to reach the Northeast Island (target area x>30).
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
