@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Goldenrod City (Fly Menu).
-- **Action:** Confirming Flight to Cianwood City.
-- **Note:** Cursor appears to be on Cianwood (Bottom-Left Island).
+- **Location:** New Bark Town (Accidental Fly).
+- **Action:** Flying to Cianwood City (Retry).
+- **Note:** Previous fly attempt landed in New Bark Town. Retrying navigation to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
