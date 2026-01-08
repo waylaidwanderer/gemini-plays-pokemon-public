@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 38 (South Lane).
-- **Action:** Manual navigation West.
-- **Immediate Plan:** Walk Down to Row 4, then West to bypass Lass.
+- **Location:** Route 38 (13, 4).
+- **Action:** Escaping Wild Meowth.
+- **Immediate Plan:** Run from battle -> Walk West to Route 39.
 - **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
