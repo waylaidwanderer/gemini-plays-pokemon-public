@@ -36,3 +36,8 @@
 - Cody (4, 1) is solid for boulders.
 - Turn 34311: Confirmed (6, 3) is a solid WALL.
 - Hypothesis: The puzzle is solvable if one specific wall tile is actually floor. I will use code to identify candidates.
+
+# Puzzle Testing Log
+- Turn 34313: Testing walkability of pillar at (4, 3).
+- Hypothesis: (4, 3) is a fake wall (gap in pillars), which would allow pushing B6 Left from (3, 3).
+- Test: Move Left from (5, 3).
