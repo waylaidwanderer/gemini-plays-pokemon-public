@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (8, 31) [Surfing].
-- **Action:** In Battle (Wild Tentacool).
-- **Immediate Plan:** Run away -> Continue Surfing West.
+- **Location:** Olivine City (6, 31) [Surfing].
+- **Action:** Resuming Surf West.
+- **Immediate Plan:** Clear text (B) -> Surf West to find gap in Buoys.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
