@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Fly Map).
-- **Action:** Resetting Map & Navigating to Cianwood.
-- **Method:** Using `slow_press` with 1000ms delay.
-- **Sequence:** B (Exit Map), A (Re-enter Map), Left x6 (Move to Cianwood).
+- **Location:** New Bark Town (Party Menu - Submenu).
+- **Action:** Selecting 'FLY' then navigating to Cianwood.
+- **State:** 'FLY' option selected. Pressing 'A' to open map.
+- **Sequence:** A (Open Map), Left x6 (Move to Cianwood).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
