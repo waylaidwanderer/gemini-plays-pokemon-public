@@ -14,11 +14,10 @@
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Use BFS to find the exact sequence.
 - Verification Status:
-  - Row 0: (3,0), (5,0), (8,0) are WALLs (Verified).
+  - Row 0: (3,0) is FLOOR. (5,0), (8,0) are WALLs.
   - Column 4: (4,2) to (4,10) are WALLs.
   - Column 6: (6,2) to (6,4) and (6,6) are WALLs.
-  - Column 9: (9,13) is a WALL (Verified).
-- Current Task: Verify the (4, 13) crossing between the two halves of the gym.
+  - Column 9: (9,13) is a WALL.
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
