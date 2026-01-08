@@ -8,7 +8,7 @@
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
   - **Access:** Must land at **(36, 22)** (South side).
   - **Path (North-East Loop):**
-    1. Navigate North to **(22, 12)** (Zigzag via Col 19 to bypass Row 15/23 Buoys).
+    1. Navigate North to **(22, 12)** (Zigzag via Col 24 to bypass Row 15 Buoys).
     2. From (22, 12), surf North to **(22, 9)**.
     3. Surf East along Row 9 to **(40, 9)**.
     4. Surf South down East Channel to **(40, 19)**.
