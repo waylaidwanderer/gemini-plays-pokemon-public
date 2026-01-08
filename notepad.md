@@ -7,26 +7,17 @@
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
-- Start Turn: 34112
+- Start Turn: 34112 (Current Time: ~200 turns elapsed)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
 
 # Lessons Learned
-- Puzzle Status [Turn 34305]: Boulder 8 pushed to (8, 11). Standing at (8, 13) to move to (8, 12).
-
-# Strategy: Test Central Pillars for Hidden Paths
-1. Push B8 Up to (8, 10).
-2. Move to (9, 10).
-3. Attempt to push B8 Left into (7, 10).
-4. If successful, (7, 10) is a hidden gap.
-
-# Lessons Learned
-- Verified Walls: (4,2), (6,2), (4,5), (5,0), (7,11) are solid.
-- Soft-locks: Pushing B7 to (5, 1) or B8 to (8, 10) against a TRUE wall blocks progress.
-- Cody (4, 1) is a solid obstacle for boulders.
-- Boulders move 1 tile per push; player stays in original position.
+- Puzzle Reset: Leaving 2F (via ladder or pit) resets all boulder positions.
+- Data Freshness: My Mental Map (and thus XML tools) only update objects when they are on screen.
+- Soft-locks: Pushing B7 to (5, 1) or B8 to (8, 10) against confirmed walls is a reset condition.
+- Layout: Row 13 is a safe horizontal crossing between the left and right sides of the gym. Column 5 is the primary vertical artery.
 
 # Pokemon & Party Information
 ## Strategy for Gym Leader Clair
@@ -34,15 +25,12 @@
 - Tactical Plan: Lead Calcifer (Typhlosion, Lv49). Use `battle_advisor_v2`.
 
 # Obstacles & Solutions
-- Gym Navigation: Ladders (1,7) and (7,9) connect to 1F. Crossing at (4,13) connects Left/Right sides on 2F.
 - Blackthorn Gym Pit Shifts:
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
 
-# Puzzle Analysis [Turn 34306]
-- Column 9 Accessibility: Column 9 (Rows 1-3 and 5-11) is accessible from the top-right corner at (9, 1).
-- Column 8 Isolation: Column 8 is split by walls at (8, 4), (8, 8), and (8, 9). B8 at (8, 14) is in the bottom segment.
-- Hypothesis: Row 12 pillar at (9, 12) is a fake wall, allowing the player to reach Column 9 to push B8 Left.
-- Test 5: Attempt to walk into (9, 12) from (8, 12).
-- If Test 5 fails: B8 MUST be pushed Left into Column 6. This requires finding a walkable gap in Column 7 pillars (7, 10-15).
+# Puzzle Testing Log
+- Turn 34309: Testing walkability of pillar at (6, 3) to find a push path for P1 (8, 3).
+- (4, 5), (5, 0), (7, 11), (9, 13) confirmed solid WALL.
+- Cody (4, 1) is solid for boulders.
