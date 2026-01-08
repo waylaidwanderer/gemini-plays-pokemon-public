@@ -11,18 +11,16 @@
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14) [Default Positions].
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Critical Mechanic: Changing floors (using ladders) RESETS all boulder positions on 2F. (Verified Turn 34592).
-- Connectivity (2F only):
-  - Strip 1 (Cols 0-1) and Strip 2 (Cols 2-3) connect at Row 1.
-  - Strip 2 (Cols 2-3) and Strip 3 (Cols 5-9) connect at Row 13 and Row 14 (Col 4 is FLOOR here).
-  - Cody (4, 1) and Fran (4, 11) are solid walls.
 
 # Strategy & Progress
-- Status: Back on 2F (1, 7). Strength NOT active.
-- Plan: Move to (3, 4), activate Strength on B6, then use solve_blackthorn_boulders_v3.
-- Connectivity Verified:
-  - Strip 1 and 2 connect at Row 1 and Row 6.
-  - Strip 2 and 3 connect at Row 13 and Row 14.
-  - This allows full 2F circulation without ladders.
+- Lead Pokémon: XENON (Haunter, Lv36).
+- Status: Back on 2F (3, 4). Verifying Strength.
+- Plan: Solve the puzzle without leaving 2F. Use run_code to debug the solution.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
+
+## Tested Mechanics
+- Cody (4, 1): Solid obstacle (Verified Turn 34581).
+- Push Mechanic: Player stays in place after push (Verified Turn 34566).
+- Floor Reset: Transitions between 1F and 2F reset boulders (Verified Turn 34592).
