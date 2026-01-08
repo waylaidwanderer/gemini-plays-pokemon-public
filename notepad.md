@@ -1,6 +1,6 @@
 # Blackthorn Gym (Global Mechanics)
 - Start Turn: 34501 (Puzzle Start)
-- Current Turn: 34671
+- Current Turn: 34681
 - Pits (2F): (8, 3), (2, 5), (8, 7).
 - Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Floor Reset: Using a ladder (1, 7) or (7, 9) resets all boulder positions on 2F.
@@ -9,9 +9,12 @@
 - Corridor Connectivity: Corridors are narrow. Movement between corridors is only possible at specific gaps (Row 1, Row 5, Row 12/13).
 
 # Strategy for Beating Blackthorn Gym
-- Goal: Fill the three pits on 2F to create bridges on 1F.
-- Method: Use the `solve_blackthorn_gym_boulders_v4` tool to find the exact push sequence.
-- Status: Activating STRENGTH to begin pushing B6.
+- Goal: Fill the three pits on 2F to bridge gaps on 1F.
+- Manual Strategy Hypothesis:
+    1. B8 (8, 14) -> P2 (2, 5) via Row 13 gap. (Requires x=9 to be passable or a way to get behind B8).
+    2. B6 (3, 3) -> P3 (8, 7) via Row 13 gap and Corridor 3.
+    3. B7 (6, 1) -> P1 (8, 3).
+- Verification: Testing passability of (7, 11) and (7, 10) to see if B8 can be pushed out of its corridor.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable tile.
@@ -22,8 +25,3 @@
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
-
-# Hypothesis Testing
-- Hypothesis: Falling into a pit (e.g., at 2, 5) does NOT reset boulder positions on 2F.
-- Test: Push B6 to (3, 4), fall into P2 (2, 5), return to 2F via ladder.
-- Result: B6 returned to (3, 3). Falling through a pit DOES reset boulder positions on 2F. (Verified Turn 34678).
