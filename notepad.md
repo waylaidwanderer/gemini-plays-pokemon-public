@@ -16,7 +16,7 @@
 # Strategy & Progress
 - Lead Pokémon: Calcifer (Typhlosion, Lv49).
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
-- Current Task: Resetting the puzzle by leaving 2F and returning to ensure a fresh start for the solver.
+- Current Task: Transitioning to 2F to verify reset and solve the puzzle.
 
 # Obstacles & Solutions
 - Blackthorn Gym Pit Shifts (2F -> 1F):
