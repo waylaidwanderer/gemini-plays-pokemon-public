@@ -1,12 +1,12 @@
 # Blackthorn Gym 1F - Battle with Clair
-- Current Turn: 35186
+- Current Turn: 35189
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf.
-- Status: Xenon fainted. Calcifer fainted (Turn 35185).
-- Strategy: Calcifer fainted to Kingdra's Surf. I will send out KIMCHI (Lv33) because her Grass typing resists Surf. I'll use Sleep Powder to disable Kingdra, then use a Revive on Calcifer. Gneiss is too risky due to 4x Water weakness.
+- Status: Xenon fainted. Calcifer fainted (Turn 35185). Kimchi (Lv33) is out.
+- Strategy: Use Sleep Powder to disable Kingdra. Once asleep, use a Revive on Calcifer. Kimchi resists Surf, so she's the safest pivot.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Blackthorn Gym Puzzle (2F)
