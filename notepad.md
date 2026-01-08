@@ -20,7 +20,7 @@
 - Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
 - Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
 - Test 10: (2, 13) gap -> Pending.
-- Test 11: (7, 6), (6, 6) -> Pending.
+- Test 11: (7, 6) -> Confirmed WALL (Turn 34908). (6, 6) -> Pending.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Re-activate Strength.
