@@ -3,7 +3,7 @@
 - Action: Battling Wild Mantine.
 - Immediate Plan: Catch Mantine (Missing from Dex). Throw Great Balls. Do NOT attack with Muscle (Lv 85).
 - Goal: Complete Pokedex / Catch Lugia.
-- Status: Mantine broke free again. Trying attempt #5.
+- Status: Trying to throw Great Ball (Attempt #5).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
