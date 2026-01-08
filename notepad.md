@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (14, 40) [South of SW Island].
-- Immediate Plan: Clear text. Surf East to (20, 40). Surf North to (20, 31). Surf West to (12, 31). Surf North to (12, 29). Surf West to X=4 to bypass the buoy wall at Y=28.
-- Reasoning: North paths at X=20, X=12, X=22 are blocked. West path at Y=29 appears open to X=4, which is open North.
+- Location: Route 41 (16, 40) [South of SW Island].
+- Immediate Plan: Surf East to (20, 40), North to (20, 34), then East to (22, 34) to access the Eastern Highway (X=22).
+- Reasoning: Previous exploration confirmed X=12/X=10 North is a dead end (blocked by buoys at Y=29/28). X=22 appears to be the main Northbound channel.
 - Goal: Find path to Lugia (B3F).
-- Status: Rerouting to NW Passage.
+- Status: Relocating to Eastern Channel (X=22).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
