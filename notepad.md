@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron Station (Platform).
-- **Action:** Re-triggering warp at (6, 5) to board train.
-- **Note:** Script moved me to (6, 5). Stepping off and on to trigger boarding.
+- **Location:** Goldenrod City (Train Station).
+- **Action:** Exiting station to Fly to Whirl Islands.
+- **Next:** Fly to Cianwood -> Surf to Whirl Islands -> Catch Lugia.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
