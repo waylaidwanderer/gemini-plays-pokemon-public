@@ -1,4 +1,7 @@
 # Current Status
+- Location: Route 41 (22, 34) [Battle].
+- Immediate Plan: Run from battle. Fly to Olivine City to reset approach from the North.
+- Reasoning: SW Island waters are confirmed isolated/dead-ends. Need a fresh entry point.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
