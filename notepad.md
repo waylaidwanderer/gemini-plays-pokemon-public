@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 40 (5, 35).
-- **Action:** Crossing into Route 41.
-- **Immediate Plan:** Navigate to Northeast Island.
+- **Location:** Route 41 (46, 7) [Battling].
+- **Action:** Battling Swimmer George (Fake Rival).
+- **Immediate Plan:** Defeat George -> Navigate to Northeast Island (Lugia).
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
