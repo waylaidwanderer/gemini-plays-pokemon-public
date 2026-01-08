@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 11) [Surfing].
-- **Action:** Backtracking to find a route to the Northeast Island.
-- **Immediate Plan:** Navigate to (40, 7) via (45, 7) to bypass George and buoys, then scout South-West for the island at (32, 12).
+- **Location:** Route 41 (46, 11) [In Battle].
+- **Action:** Running from Wild Tentacool.
+- **Immediate Plan:** Run -> Navigate to (40, 7) via (45, 9) to bypass George and buoys.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
