@@ -1,7 +1,7 @@
 # Current Status
-- Location: Route 41 (12, 39) [SW Island Coast].
-- Action: Initiating Surf.
-- Immediate Plan: Surf East/North to return to NE Whirl Island Cave (36, 19).
+- Location: Route 41 (12, 39) [Surfing].
+- Action: Navigating to NE Whirl Island.
+- Immediate Plan: Surf North and East to reach the cave entrance at (36, 19).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
