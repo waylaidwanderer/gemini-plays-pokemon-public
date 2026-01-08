@@ -35,8 +35,7 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Violet City (West Entrance).
+- Location: Route 36 (East Entrance).
 - Status: Max Repel ACTIVE (~160 steps).
-- Action: Re-entering Route 36 immediately.
-- Purpose: Roamer Position Reset.
-- Plan: Enter Route 36 -> Check Grass (42, 5) -> Loop if empty.
+- Action: Moving to Grass to hunt.
+- Plan: Walk to (42, 5) -> Run L/R -> If no encounter, Reset at Violet City Gate.
