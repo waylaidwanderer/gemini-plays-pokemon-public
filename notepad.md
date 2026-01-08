@@ -19,14 +19,14 @@
 - **Secondary:** Catch Roaming Beasts.
 - **Tertiary:** Check Tin Tower for Suicune (Later).
 
-# Reflection (Turn 28765)
-- **Progress:** Hunting loop is stable. No encounters yet.
-- **Tooling:** `find_path_bfs` updated to avoid NPCs.
-- **Hygiene:** Map markers verified. Notepad cleaned.
-- **Action:** Continuing the hunt loop.
+# Reflection (Turn 28817)
+- **Progress:** ~150 turns of hunting. No encounters.
+- **Efficiency:** Loop is tight. Repel trick (Lvl 36 vs Wilds) is verified correct.
+- **Plan:** Continue loop. If no luck by Turn 29000, explore Route 37 East or switch to Tin Tower.
+- **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Hunting.
-- Action: Wiggle in Grass.
-- Sequence: Enter Grass -> Wiggle -> Return.
+- Status: Returning.
+- Action: Return to Gate & Reset.
+- Sequence: Up x3 (Exit to Ecruteak).
 - Hunt Session: Turn 28817.
