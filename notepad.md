@@ -39,3 +39,5 @@
 - **Plan:** Check house at (21, 17) (South of Mart). (21, 13) is the Mart.
 - **Investigation:** Checking 'VermilionDiglettsCaveSpeechHouse' (12_10).
 - **Hypothesis:** This is likely NOT the Fan Club, but checking dialogue to confirm.
+- **Map Correction:** House at (21, 17) is Diglett's Cave Speech House.
+- **Search:** Fan Club must be elsewhere. Checking near Gym (Southwest).
