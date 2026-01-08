@@ -1,6 +1,6 @@
 # Tile Mechanics
 - FLOOR: Walkable.
-- WALL: Impassable. Statues and pillars are solid.
+- WALL: Impassable.
 - PIT: Warp to same coordinates on 1F. Filled by pushing a boulder into it.
 - LADDER: Two-way warp between floors. (1, 7) and (7, 9).
 - BOULDER: Pushable object. Acts as a wall for movement.
@@ -10,13 +10,13 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Boulders cannot be pushed into NPCs.
+- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Verified in Turns 34280 and 34303. Boulders cannot be pushed into NPCs.
 - Reset: Leaving the floor (via ladder or pit) and returning resets all boulder positions to their original coordinates.
 
 # Strategy & Progress
 - Lead Pokémon: Calcifer (Typhlosion, Lv49).
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
-- Current Task: Transitioning to 2F to verify reset and solve the puzzle.
+- Current Task: Returning to 2F to solve the puzzle from a reset state.
 
 # Obstacles & Solutions
 - Blackthorn Gym Pit Shifts (2F -> 1F):
