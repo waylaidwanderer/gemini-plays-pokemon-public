@@ -1,8 +1,8 @@
 # Blackthorn Gym 2F Puzzle
 ## Current Boulder Positions (Reset)
-- B6 (ID 6): (3, 3)
-- B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 14)
+- B6 (ID 6): (3, 2) [Marker]
+- B7 (ID 7): (6, 1) [Marker]
+- B8 (ID 8): (8, 14) [Verified]
 
 ## Pits (Targets)
 - P1: (8, 3)
@@ -10,13 +10,10 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Reset performed at Turn 35073. B8 at (8, 14).
-2. Audit Walls: Systematically test 'WALL' tiles to find hidden gaps.
-   - (9, 15): Confirmed WALL (Turn 35080).
-   - (7, 15): Confirmed WALL (Turn 35081).
-   - Test (9, 14) from (8, 14) by pushing boulder.
-   - Test (7, 14) from (8, 14) by pushing boulder.
-3. Update solve_boulders_v2 with corrected map and solve.
+1. Activate Strength (Turn 35084).
+2. Verify B6 and B7 positions.
+3. Use solve_boulders_v2 to find the full solution.
+4. Execute push sequence.
 
 ## Tile Mechanics (2F)
 - FLOOR: Traversable.
