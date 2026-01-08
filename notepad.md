@@ -34,10 +34,11 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Hiker Michael at (15, 65) defeated (Turn 33893).
-- Reachable Unseen: (14, 73), (12-13, 74). (Verified Turn 33895).
+- Reachable Unseen: (18, 76-78), (10-11, 79), (16-17, 79). (Verified Turn 33898).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
 - Trainer: Camper Quentin at (4, 70) defeated.
 - Trainer: Hiker Timothy at (9, 65) defeated.
+- Fruit Tree: (16, 82). (Turn 33898).
 
 # Lessons Learned
 - **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
