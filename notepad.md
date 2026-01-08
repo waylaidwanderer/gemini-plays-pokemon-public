@@ -1,8 +1,8 @@
 # Current Status
-- Immediate Plan: Continue Surfing South to Route 41.
-- Route: Surf down column 17 from (17, 17) to the map edge at (17, 35).
-- Reasoning: Navigating to the Northeast Whirl Island entrance.
-- Goal: Reach NE Whirl Island (Route 41).
+- Immediate Plan: Surf to South Landing (36, 22) then Enter Cave (36, 19).
+- Route: South to (30, 22), then East to (36, 22).
+- Reasoning: Navigating to the Northeast Whirl Island entrance via the South Landing.
+- Goal: Reach NE Whirl Island Cave (Route 41).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
