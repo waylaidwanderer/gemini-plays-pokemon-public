@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Fly Map).
-- **Action:** Navigating to Cianwood via Violet/Ecruteak.
-- **Path:** Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak).
-- **Reasoning:** Direct 'Left' from Cherrygrove failed. 'Up' led to Lake of Rage. Attempting to branch West from Violet.
+- **Location:** Blackthorn City (Fly Map).
+- **Action:** Navigating Fly Map to Cianwood.
+- **Method:** Pressing 'Left' (x50) to traverse West from Blackthorn.
+- **Path:** Blackthorn -> Mahogany -> Ecruteak -> Olivine -> Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
