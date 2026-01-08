@@ -5,7 +5,7 @@
 ## Current Boulder Positions
 - B6 (ID 6): (3, 2)
 - B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 11)
+- B8 (ID 8): (8, 10)
 
 ## Pits (Targets)
 - P1: (8, 3)
