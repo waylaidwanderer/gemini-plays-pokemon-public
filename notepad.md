@@ -8,11 +8,12 @@
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
   - **Access:** Must land at **(36, 22)** (South side).
   - **Path (North-East Route):**
-    1. Navigate to Whirlpool at **(22, 12)** via (20, 14).
-    2. Use Whirlpool to cross to North side.
-    3. Surf East along Row 9 to Column 42.
-    4. Surf South down Column 42 to **(42, 22)**.
-    5. Surf West to Landing at **(36, 22)**.
+    1. Surf North to **(24, 9)**.
+    2. Surf East to **(38, 9)**.
+    3. Cross gap North to **(38, 7)**.
+    4. Surf East to **(42, 7)**.
+    5. Surf South down East Channel to **(42, 15)**.
+    6. Land at **(41, 15)** and walk West to Cave **(36, 19)**.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
