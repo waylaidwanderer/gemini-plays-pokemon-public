@@ -34,4 +34,5 @@
 - Location: DragonsDenB1F (20, 5)
 - Opponent: Cooltrainer Darin
 - Status: Battle started (Turn 35291).
-- Pokémon 1: Unknown.
+- Pokémon 1: Dragonair (Lv37).
+- Strategy: Use Xenon's Confuse Ray/Hypnosis to disable, then Night Shade for fixed damage. Switch to Calcifer (Lv49) if needed.
