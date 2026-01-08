@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (32, 7) [In Battle].
-- **Action:** Encountered another Wild Tentacool.
-- **Immediate Plan:** Run from battle -> Surf East to (40, 7) -> South to (36, 12).
+- **Location:** Route 41 (32, 7) [Surfing].
+- **Action:** Escaped wild battle. preparing to use Max Repel.
+- **Immediate Plan:** Open Menu -> Use Max Repel -> Surf East to (40, 7) -> South to (40, 10) -> West to Island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
