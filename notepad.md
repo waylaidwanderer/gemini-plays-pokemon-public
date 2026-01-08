@@ -1,6 +1,6 @@
 # Blackthorn Gym 2F Puzzle
 - Puzzle Started: Turn 35022
-- Status: Strength ACTIVE (Turn 35084)
+- Status: Strength GONE (Turn 35107 - Reset)
 
 ## Tile Mechanics (BlackthornGym2F)
 - FLOOR (Type: FLOOR): Traversable.
@@ -20,11 +20,11 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Reset the room using the ladder at (7, 9).
-2. Verify boulder positions.
+1. Reset the room using the ladder at (7, 9). (DONE)
+2. Verify boulder positions and activate Strength.
 3. Use solve_boulders_v2 to find the sequence of pushes from the reset state.
 
 ## Lessons Learned
 - Visuals are deceptive; trust the 'type' attribute in the Game State.
 - Strength must be reactivated after changing floors.
-- (8, 10) is a dead end for boulders because (8, 9), (7, 10), and (9, 10) are walls or inaccessible.
+- Boulder Reset: Boulders reset to starting positions when changing maps via ladder.
