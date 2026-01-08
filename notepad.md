@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Talk to Nurse Joy to heal team.
-- Reasoning: Inside Pokemon Center. Need to restore Lapis and team health.
-- Goal: Heal -> Surf to Whirl Islands -> Catch Lugia.
+- Immediate Plan: Exit Pokemon Center, then Surf South to Route 41.
+- Reasoning: Team is healed. Equipped with Great Balls. Time to navigate to the Whirl Islands.
+- Goal: Surf to Whirl Islands -> Find Lugia -> Catch.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
