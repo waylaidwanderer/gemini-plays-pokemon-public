@@ -26,7 +26,7 @@
 - **Action:** Continuing the hunt loop.
 
 - Location: Ecruteak City (South Gate).
-- Status: Resetting Map.
-- Action: Enter Ecruteak -> Return to Route 37.
-- Sequence: Up (Reset) -> Down (Return).
-- Hunt Session: Turn 28797.
+- Status: Reset Complete.
+- Action: Returning to Route 37.
+- Sequence: Down (Exit Ecruteak) -> Check Grass.
+- Hunt Session: Turn 28798.
