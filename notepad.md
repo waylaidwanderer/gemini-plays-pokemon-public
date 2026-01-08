@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Re-initiate Surf at (17, 11) and head South to Route 41.
-- Route: Press A to Surf -> South along column 17/18.
-- Reasoning: Accidentally landed on the beach. Need to get back in the water to reach Whirl Islands.
+- Immediate Plan: Continue Surfing South to Route 41.
+- Route: Surf down column 17 from (17, 17) to the map edge at (17, 35).
+- Reasoning: Navigating to the Northeast Whirl Island entrance.
 - Goal: Reach NE Whirl Island (Route 41).
 
 # Whirl Islands Mapping
