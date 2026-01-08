@@ -38,8 +38,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 37 (North Grass).
-- Status: No Encounter.
-- Action: Resetting in Ecruteak.
-- Sequence: Up (Exit Map).
-- Hunt Session: Turn 28702.
+- Location: Ecruteak City (South Gate).
+- Status: Reset Complete.
+- Action: Returning to Route 37.
+- Sequence: Down (Exit Ecruteak) -> Check Grass.
+- Hunt Session: Turn 28703.
