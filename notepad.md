@@ -1,37 +1,35 @@
-# Blackthorn Gym - Battle with Leader Clair
+# Blackthorn Gym - Quest for the Rising Badge
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
-- Battle Task: Defeat Final Dragonair (Started Turn 35227)
-- Current Turn: 35237
+- Progress: Defeated Gym Leader Clair (Turn 35238).
+- Requirement: Clair refused to give the badge. Must complete "Dragon User Challenge" in Dragon's Den.
+- Dragon's Den Location: "Behind the Gym".
 
-## Battle Strategy: Gym Leader Clair
-- Opponent: Leader Clair (4 Pokémon total)
-- Pokémon 1: Dragonair (Lv37). (FAINTED)
-- Pokémon 2: Kingdra (Lv40). (FAINTED)
-- Pokémon 3: Dragonair (Lv37). (FAINTED)
-- Pokémon 4: Dragonair (Lv37). Moves: Thunderbolt, Thunder Wave, Dragonbreath. (HP: ~10%)
-- Status: Xenon fainted. Calcifer (Lv49) at 73/155 HP. Kimchi (Lv34) at 51/90 HP.
-- Strategy: Calcifer is healthy enough to finish. Dragonair #4 is at critical HP. Use Return for neutral damage.
-- Plan: Press A to use Return (Turn 35237) to win the battle.
-- Note: Dragonair resists Fire, Water, Electric, Grass (0.5x). Weak to Ice and Dragon (2.0x). Normal is neutral.
+## Battle Results: Gym Leader Clair
+- Opponent: Leader Clair (4 Pokémon)
+- Pokémon 1: Dragonair (Lv37). Defeated.
+- Pokémon 2: Kingdra (Lv40). Defeated.
+- Pokémon 3: Dragonair (Lv37). Defeated.
+- Pokémon 4: Dragonair (Lv37). Defeated.
+- Victory Turn: 35238. Reward: ¥4000.
 
 ## Tile Mechanics
-- FLOOR: Standard traversable tile. Verified Turn 35145.
-- WALL: Impassable boundary. Verified Turn 35145.
-- LADDER: Warp between floors (1F/2F). Verified Turn 35145.
-- WARP_CARPET_DOWN: Exit from the Gym. Verified Turn 35145.
-- HOLE: Found on 2F. Falling through leads to 1F. Verified Turn 34794.
+- FLOOR: Standard traversable tile.
+- WALL: Impassable boundary.
+- LADDER: Warp between floors (1F/2F).
+- WARP_CARPET_DOWN: Exit from the Gym.
+- HOLE: Found on 2F. Falling through leads to 1F.
 
-## Blackthorn Gym Puzzle (2F)
-- Status: Strength INACTIVE (on 1F)
-- Goal: Return to 2F after the battle and reactivate Strength.
-- Correct Boulder Positions (Reset State): B6(3,3), B7(6,1), B8(8,14).
+## Blackthorn Gym Puzzle (2F) - SOLVED
+- Status: Boulders pushed into pits.
 - Pits: P1(8,3), P2(2,5), P3(8,7).
 
 ## Lessons Learned
-- Trust Game State: Collision types in Game State are absolute truth.
-- Strength: Reactivate after floor changes.
-- Reachability: The player can reach Clair on 1F by walking around the right edge (Column 9).
-- Type Effectiveness (Gen 2):
-    - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
-    - Kingdra (Water/Dragon): Resists Fire, Water, Electric, Grass, Ice. Weak to Dragon.
-- Smokescreen: Lowers accuracy. Switching resets stat stages.
+- Clair's Badge: Defeating her isn't enough; requires a second trial in Dragon's Den.
+- Dragon's Den: Centered around a "small shrine".
+- Dragonair Typing: Dragon. Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
+- Kingdra Typing: Water/Dragon. Resists Fire, Water, Electric, Grass. Weak to Dragon. Ice is neutral.
+
+## To-Do
+- Exit Gym.
+- Find entrance to Dragon's Den north of the Gym.
+- Navigate Dragon's Den to the center shrine.
