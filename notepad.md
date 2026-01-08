@@ -7,13 +7,11 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Goldenrod -> Ecruteak -> Olivine?).
-- **Current Selection:** Goldenrod City.
-- **Observation:** 'Left' from Goldenrod is blocked.
-- **Hypothesis:** Previous failure at Ecruteak was due to input timing/buffering.
-- **Immediate Plan:** Press Up (to Ecruteak) -> Wait -> Press Left (to Olivine). Use 1000ms delay.
-- **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
+- **Location:** Ecruteak City (23, 28).
+- **Action:** Abandoning Fly. Switching to walking.
+- **Reason:** Fly map navigation is unreliable (Horizontal movement failing). Walking to Olivine is short and deterministic.
+- **Immediate Plan:** Close menus (B x3) -> Walk West to Route 38 gatehouse (0, 18).
+- **Route:** Ecruteak -> Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
