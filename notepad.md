@@ -11,17 +11,12 @@
 - FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
 
 ## Puzzle Strategy (2F) - Systematic Re-Verification
-- Hypothesis: Some "confirmed" walls are actually floor tiles, creating a path for B8.
-- Goal: Verify every "Confirmed WALL" marker in the central and right areas.
-- Current Plan:
-  1. Test (5, 10) -> Result: WALL (Turn 34973).
-  2. Test (6, 10) -> Result: FLOOR (Turn 34914).
-  3. Test (7, 10) -> Result: WALL (Turn 34898).
-  4. Test (8, 9) and (8, 8) -> Result: WALL (Turn 34903, 34925).
-  5. Test (6, 6) and (7, 6) -> Result: WALL (Turn 34910, 34908).
-- Observation: B8 (8, 15) is trapped by walls at (7, 15), (7, 14), (8, 8), (8, 9), (9, 15).
-- New Hypothesis: B8 must be pushed through the gap at (4, 13) to reach the pits on the left? No, pits are at (8,3), (2,5), (8,7). P2 (2,5) is on the left. P1 and P3 are on the right.
-- Goal: Find path for B8 to (8, 7) and (8, 3).
+- Observation: B8 (8, 14) appears trapped by confirmed walls.
+- Hypothesis: One of the walls at (7, 10), (7, 14), (7, 15), (9, 10), (9, 14), or (9, 15) is actually a floor.
+- Goal: Verify these tiles to find the path for B8.
+- Test 1: (7, 10) - Move from (6, 10).
+- Test 2: (7, 14) - Move from (6, 14).
+- Test 3: (5, 10) and (5, 12) - Re-verify.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
