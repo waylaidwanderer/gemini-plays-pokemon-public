@@ -38,8 +38,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Ecruteak City (South Gate).
-- Status: Roamers shuffled.
-- Action: Returning to Route 37 Grass.
-- Sequence: Down (Enter Rt 37) -> Check Pokedex -> Hunt.
-- Goal: Check if Raikou/Entei moved to Route 37.
+- Location: Route 37 (North Grass).
+- Action: Sweeping grass for Roamers.
+- Method: Repel Trick (Walking ~10 steps).
+- Note: Skipping Pokedex check to save time. If they are here, we battle.
+- Next: If no encounter, return to Ecruteak Gate (8, 0).
