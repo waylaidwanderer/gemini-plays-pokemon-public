@@ -43,7 +43,8 @@
 
 # Exploration Log
 ## Current Targets (Reachable Unseen)
-- Column 10-11: (11, 37), (10, 38).
+- Column 11: (11, 38).
+- Cooltrainer F at (5, 36) is a non-battling NPC (Turn 33863).
 - Column 12-14: (14, 68-70, 72-73), (12-13, 74).
 - Pathing: South past Cooltrainer F at (5, 36).
 - Items: Max Potion collected at (7, 33) Turn 33849.
