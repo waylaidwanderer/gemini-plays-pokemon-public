@@ -1,7 +1,9 @@
 # Current Status
-- Location: WhirlIslandB2F (4, 6) [Surfing].
-- Action: Exploring South-East.
-- Immediate Plan: Surf East to (9, 6) then South to (9, 9) to bypass walls and reveal map.
+- Location: WhirlIslandB2F (9, 8) [Surfing North of Island].
+- Action: Exploring East Channel.
+- Observation: North side of island (Row 10) is blocked by ledges. Must go around.
+- Visible: Ladder at (7, 11), Items at (10, 11) and (5, 12).
+- Immediate Plan: Surf East to (12, 8) then South to find a landing spot on the South or West side.
 - Goal: Find path to B3F.
 
 # Whirl Islands Mapping
