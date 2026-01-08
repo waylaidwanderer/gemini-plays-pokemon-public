@@ -15,8 +15,8 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 7) [Surfing].
-- **Action:** Searching for Northeast Island entrance.
+- **Location:** Route 41 (21, 8) [Surfing].
+- **Action:** Escaping wild Tentacruel.
 - **Immediate Plan:** Navigate West towards the visible island structure.
 
 ## Tile Mechanics
