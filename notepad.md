@@ -14,11 +14,11 @@
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Use BFS to find the exact sequence.
 - Verification Status:
-  - Row 0: (3,0) is FLOOR (Verified Turn 34223). (5,0), (8,0) are WALLs (Verified).
-  - Column 4: (4,2) to (4,10) are WALLs.
+  - Row 0: (3,0) is FLOOR. (5,0), (8,0) are WALLs.
+  - Column 4: (4,13) is FLOOR. (4,2) to (4,10) are WALLs.
   - Column 6: (6,2) to (6,4) and (6,6) are WALLs.
   - Column 9: (9,13) is a WALL.
-- Current Task: Verify Row 0 at (6,0) and (7,0).
+- Current Status: Standing at (5, 1). Reactivating Strength and checking if Cody (4,1) disappears.
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
