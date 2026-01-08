@@ -9,9 +9,9 @@
 - Test 1: Cody (4, 1) -> Confirmed WALL (Turn 34880).
 - Test 2: Fran (4, 11) -> Confirmed WALL (Turn 34865).
 - Test 3: (4, 10) -> Confirmed WALL (Turn 34863).
-- Test 4: (4, 9) -> Pending.
+- Test 4: (4, 9) -> Confirmed WALL (Turn 34883).
 - Test 5: (6, 2) and (6, 3) -> Pending.
-- Test 6: (7, 10) and (7, 11) -> Pending.
+- Test 6: (7, 10) and (7, 11) -> Confirmed WALLs (Turn 34796, 34868).
 - Test 7: (8, 8) and (8, 9) -> Pending.
 
 # Strategy: Blackthorn Gym 2F
