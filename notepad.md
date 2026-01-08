@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Magnet Train Station (Saffron).
-- **Action:** Walking to Officer (Object 1) at (9, 9) to board.
-- **Note:** Object 2 was a Gym Guide/Patron. Object 1 is the Conductor/Guard.
+- **Location:** Magnet Train (In Transit).
+- **Action:** Riding train to Goldenrod City.
+- **Next:** Arrive in Goldenrod -> Go to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
