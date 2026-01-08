@@ -3,7 +3,8 @@
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7)
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 15)
 - Status: Strength ACTIVE (Turn 34932)
-- Goal: Run `solve_boulders` and execute.
+- Goal: Solve boulder puzzle using `solve_boulders` tool.
+- Strategy: Call `solve_boulders` with correct boulder positions and exhaustive wall list.
 
 ## Puzzle Strategy
 - Step 1: Verify (8, 8) collision
