@@ -15,8 +15,8 @@
 - NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), and Paul (1, 15) are solid and block both the player and boulders.
 
 # Strategy & Progress
-- Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 using Route 45 wild encounters.
-- Training Plan: Train XENON (Night Shade) and KIMCHI (Acid/Cut) to Lv40 on Route 45. Focus on high-EXP targets like Donphan and Gligar.
+- Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 using Route 45 wild encounters (Night Shade).
+- Training Plan: Train XENON and KIMCHI (Acid/Cut) to Lv40 on Route 45. Focus on high-EXP targets like Donphan and Gligar.
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
 
 # Obstacles & Solutions
