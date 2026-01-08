@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Blackthorn City (Fly Map).
+- **Location:** Lake of Rage (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Left x5, hold 200ms) to ensure cursor moves West.
-- **Path:** Blackthorn -> Mahogany -> Ecruteak -> Olivine -> Cianwood.
+- **Method:** Using `navigate_menu` (Down -> Left x4).
+- **Path:** Lake of Rage -> Mahogany -> Ecruteak -> Olivine -> Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
