@@ -9,26 +9,30 @@
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
+- Start: Turn #34032.
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Reactivate Strength, then solve boulders B7 (6, 1), B8 (8, 14), and B6 (3, 3).
-- Boulder 7 (6, 1) -> Pit (8, 3) Path:
-  1. From (5, 1), push Right to (7, 1).
-  2. From (7, 1), push Right to (8, 1).
-  3. From (8, 1), push Down to (8, 2).
-  4. From (8, 2), push Down to (8, 3) PIT.
-- Current Status: Strength is NOT active (reset by map change). Standing at (7, 9) on 2F. Heading to Boulder 8 at (8, 14) to reactivate Strength.
+- Strategy: Use manual steps.
+- Current Status: Strength active. Standing at (8, 13).
 
-# Pokemon & Party Information
-## Training Session (Route 45)
-- Start: Turn #33584.
-- Goal: Kimchi (Lv33) and Xenon (Haunter, Lv36) to Lv40.
-- Method: Kimchi holds Exp. Share. Lead Xenon.
+# Manual Puzzle Plan
+## Boulder 7 (6, 1) -> Pit (8, 3)
+1. Push Right to (7, 1), then Right to (8, 1), then Right to (9, 1).
+2. Move to (9, 2), push Left. B7 to (8, 2).
+3. Move to (8, 1), push Down. B7 to (8, 3) PIT.
 
-# Exploration Strategy
-- Boulder 7 (6, 1) Plan: Push Right to (7, 1), then maneuver to push into (8, 3).
-- Boulder 6 (3, 3) Plan: Use ladder at (1, 7) from 1F to reach the left side.
+## Boulder 8 (8, 14) -> Pit (8, 7)
+1. Move to (8, 15), push Up. B8 to (8, 13).
+2. Move to (9, 13), push Left. B8 to (7, 13).
+3. Move to (8, 13), push Left. B8 to (6, 13).
+4. Push Up all the way to (6, 7).
+5. Move to (5, 7), push Right to (7, 7).
+6. Move to (6, 7), push Right. B8 to (8, 7) PIT.
+
+## Boulder 6 (3, 3) -> Pit (2, 5)
+1. Reach left side via ladder at (1, 7).
+2. Plan TBD once on-site.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
