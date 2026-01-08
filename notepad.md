@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (21, 10).
-- **Action:** Navigating West to find a gap in the wall at Row 14.
-- **Immediate Plan:** Walk West to avoid the wall, then South. Expecting battle with Youngster (20, 13).
+- **Location:** Olivine City (16, 10).
+- **Action:** Manual navigation West to reach the gap at x=9.
+- **Immediate Plan:** Walk Left to x=9, then South.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
