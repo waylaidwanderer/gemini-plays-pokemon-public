@@ -15,15 +15,10 @@
 - Pit C: (8, 7)
 - NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), Paul (1, 15) are solid and block player/boulders.
 
-# Strategy & Progress
-- Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 on Route 45.
-- Gym Leader Clair: Dragonair x3 (Lv37), Kingdra (Lv40).
-
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
-- Status: Resetting floor to default state. Verified mechanic: player stays in place.
-- Failed Attempts: 4 (BFS returned no solution due to incorrect mechanic or grid assumptions).
-- Plan: Use refined solve_blackthorn_boulders_v3 from reset state.
+- Status: Floor reset. Heading to Boulder 6 to activate Strength.
+- Plan: Use solve_blackthorn_boulders_v3 once Strength is active.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
