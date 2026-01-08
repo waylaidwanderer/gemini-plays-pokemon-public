@@ -47,3 +47,8 @@
 - Observation: Hopping ledges in Blackthorn (e.g., Row 15, Row 21) moves the player two tiles south and is one-way.
 - Hypothesis: Eastern strip (Col 39) is the intended path to Route 45 East.
 - Eastern Strip Access: Column 38 is a wall from Row 9 to Row 19. Access to Column 39 is ONLY possible at Row 8 (near Ice Path exit).
+## Specific Gaps in Blackthorn Maze
+- Row 15 Gap: (35, 15)
+- Row 11 Gaps: (35, 11), (32, 11)
+- Row 9 Gap: (32, 9)
+- Route to Eastern Strip: (37, 16) -> (35, 16) -> (35, 14) -> (32, 14) -> (32, 8) -> (39, 8) -> Down.
