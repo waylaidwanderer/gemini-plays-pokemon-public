@@ -7,9 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (In Fly Menu).
+- **Location:** New Bark Town (Fly Map).
 - **Action:** Selecting Cianwood City.
-- **Move:** Left x6 (Spamming Left to reach westernmost city).
+- **Move:** Spamming Left (x8) to ensure cursor reaches West edge.
+- **Observation:** Previous inputs likely eaten by menu transition. Text still shows New Bark Town.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
