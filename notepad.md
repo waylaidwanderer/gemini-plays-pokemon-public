@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandB1F (25, 21) [Ladder to B2F].
-- Action: Entering B2F.
-- Immediate Plan: Take Ladder to B2F.
-- Goal: Explore B2F and find path to B3F (Waterfall Basin).
+- Location: WhirlIslandB2F (11, 5) [Ladder Entrance].
+- Action: Exploring B2F.
+- Immediate Plan: Explore the land area to the North and West.
+- Goal: Find path to B3F.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
