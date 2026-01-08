@@ -32,6 +32,7 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Start -> Pokemon -> Up x3 (Force Slot 1) -> Switch -> Slot 3 (Gyarados).
+- Action: Open Start Menu to verify cursor position.
+- Goal: Swap Muscle (Lead) with Gyarados (Slot 3) for Repel trick.
 - Note: Pokedex search failed (Unseen). Proceeding to blind hunt.
 - Current State: Overworld (Menu Closed).
