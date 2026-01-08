@@ -36,7 +36,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 36 (East Side).
-- Status: Max Repel ACTIVE (~145 steps).
+- Status: Max Repel ACTIVE (~142 steps).
 - Action: Moving to Violet City Gate (59, 8).
-- Reason: No encounter after ~30 steps. Resetting Roamers.
+- Reason: No encounter. Resetting Roamers.
 - Plan: Exit -> Re-enter -> Hunt.
