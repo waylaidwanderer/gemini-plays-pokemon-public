@@ -39,7 +39,7 @@
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
 - Activity: Hunting Raikou/Entei (Lv 40).
 - Action:
-  1. Close Menu.
+  1. Finish Phone Call (Gaven).
   2. Run in grass (Left/Right) to trigger encounter.
   3. If no encounter, exit map East to Violet City and return.
 - Note: Unseen tiles at (47, 14) are Ruins of Alph warp. Ignored for now.
