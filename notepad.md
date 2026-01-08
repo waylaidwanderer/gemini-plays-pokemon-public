@@ -8,9 +8,9 @@
 
 # Current Status
 - **Location:** Mahogany Town (Fly Map).
-- **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Left x3, 400ms hold) to hop from Mahogany -> Ecruteak -> Olivine -> Cianwood.
-- **Reasoning:** Previous long hold landed on Mahogany. Now performing distinct hops to reach the west coast.
+- **Action:** Testing Horizontal Movement (Right).
+- **Method:** Using `navigate_menu` (Right x5).
+- **Reasoning:** 'Left' movement appears blocked or unresponsive. Testing 'Right' to verify horizontal control and check for map wrapping (East -> West).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
