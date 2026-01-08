@@ -10,14 +10,10 @@
 - LADDER: (1, 7), (7, 9)
 - FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
 
-## solve_boulders Schema Reminder
-- boulders: {"ID": [X, Y], ...}
-- player_pos: [X, Y]
-- walls: [[X, Y], ...]
-
-## Puzzle Strategy
-- Step 1: Call `solve_boulders` with exact [X, Y] coordinates and string IDs.
-- Step 2: Ensure walls list includes borders, confirmed walls, NPCs, and ladders.
+## solve_boulders Strategy
+- The tool finds the state-sequence of pushes and converts them to a single button array.
+- It verifies player reachability for every push.
+- Walls, NPCs, and ladders are treated as impassable.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
