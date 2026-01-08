@@ -8,10 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (19, 18).
-- **Action:** Manual navigation to Pokemon Center area.
-- **Path:** Down x4 to Row 22 -> Left x6 to x=13.
-- **Reason:** 'find_path' failed; taking safe manual route south of buildings.
+- **Location:** Olivine City (13, 23).
+- **Action:** Initiating Surf.
+- **Immediate Plan:** Step South to water edge -> Press A to Surf.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
