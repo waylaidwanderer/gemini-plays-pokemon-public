@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 6 (North of Vermilion).
-- **Next Step:** Walk to Saffron City -> Switch PC Box -> Talk to Copycat.
+- **Location:** Saffron City (Pokemon Center).
+- **Next Step:** Switch PC Box -> Find Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
