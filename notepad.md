@@ -28,3 +28,4 @@
 - Indigo <-> Cinnabar (Down from Indigo).
 - Pallet -> Viridian -> Pewter -> Cerulean (Up sequence).
 - Viridian -> Right: No effect.
+- **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
