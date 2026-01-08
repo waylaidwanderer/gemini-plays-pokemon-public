@@ -20,7 +20,7 @@
     10. Attempt to enter Ladder area from Top (Row 9 -> Row 10).
 - **1F (NE):**
   - Entrance: (3, 13).
-  - Item: (11, 11) [Got].
+  - Item: (11, 11) [Visible].
   - Ladder at (13, 11) -> ? (To be explored).
   - Ladder at (17, 3) -> B1F (35, 3) [Taken].
 - **B1F:**
