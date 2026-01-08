@@ -12,7 +12,7 @@
 - Goal: Acquire Rising Badge. Started: Turn #33983.
 - Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
 - Tactical Plan:
-  - Lead Calcifer (Typhlosion, Lv49): Use Return for high neutral damage. Level advantage is decisive.
+  - Lead Calcifer (Typhlosion, Lv49): Use Return (max happiness) for high neutral damage or Thunderpunch for neutral coverage. Level advantage is decisive.
   - Xenon (Haunter, Lv36): Backup status support (Hypnosis/Confuse Ray).
   - Gneiss (Graveler, Lv48): Backup physical bulk. Beware of Water/Ice moves.
 
