@@ -12,8 +12,8 @@
 - Connectivity: Cody (4, 1) and Fran (4, 11) are solid obstacles. Sections are connected by ladders via 1F.
 
 # Strategy & Progress
-- Status: B6 at (3, 5). Strength active. Player at (3, 3).
-- Plan: Verify walkability of Fran at (4, 11), then use refined solver.
+- Status: On 1F (1, 7), returning to 2F via ladder. Strength active.
+- Plan: Verify walkability of Fran at (4, 11) on 2F, then use refined solver.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
