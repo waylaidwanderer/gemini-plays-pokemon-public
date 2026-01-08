@@ -7,10 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Fly Map).
-- **Action:** Forcing Cursor Movement to Cianwood.
-- **Issue:** `slow_press` failed to move cursor. Attempting `press_buttons` spam.
-- **Plan:** Spam 'Left' to force cursor west.
+- **Location:** New Bark Town (Party Menu).
+- **Action:** Resetting Menu (B -> A -> A) to ensure 'FLY' is selected.
+- **Lesson:** Menu cursor wraps. Menu inputs require significant delay (~500ms+) to register reliably.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
