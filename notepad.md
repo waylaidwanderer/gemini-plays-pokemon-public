@@ -1,8 +1,8 @@
 # Current Status
-- Location: Route 41 (14, 39) [Walking on SW Island].
-- Immediate Plan: Surf from (14, 39) and head North/East to find a gap in the buoys towards NE Island (36, 19).
+- Location: Route 41 (17, 39) [East Shore of SW Island].
+- Immediate Plan: Surf East from (17, 39), then navigate North/East through the buoy maze to NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
-- Status: Relocating to NE Island.
+- Status: Preparing to Surf to NE Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
