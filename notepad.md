@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Hunting (Grass Sweep -> Reset).
-- Action: Down x2, Left, Right, Up x3.
+- Status: Resetting in Ecruteak.
+- Action: Up (Exit Map).
 - Goal: Encounter or Reset.
-- Hunt Session: Turn 28752.
+- Hunt Session: Turn 28753.
