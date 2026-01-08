@@ -34,6 +34,11 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Violet City (Outside Center).
-- Goal: Navigate to Route 36 Gate (West).
-- Strategy: Use Max Repel at Gate -> Hunt Raikou/Entei on Route 36/37 boundary.
+- Location: Violet City/Route 36 Border.
+- Action: Moving West to Route 36.
+- Hunt Strategy (Blind):
+  1. Enter Route 36.
+  2. Use Max Repel immediately.
+  3. Run in grass (10-20 steps).
+  4. If no encounter, return to Violet City (reset Roamers).
+  5. Repeat until Raikou/Entei encountered (register in Pokedex).
