@@ -146,17 +146,15 @@
     ]
   },
   "find_path_bfs": {
-    "description": "Finds the shortest path from the player's current position to a target coordinate using Breadth-First Search (BFS). It parses the game's map XML to identify walkable tiles and obstacles (walls, objects, etc.) based on the specified movement mode (walking or surfing). Returns a list of button presses to navigate the path.",
+    "description": "Finds the shortest path from the player's current position to a target coordinate using Breadth-First Search (BFS). Parses map XML to identify walkable tiles, avoiding Walls, Water (if walking), On-screen Objects, and Off-screen Objects marked with markers. Returns a list of button presses.",
     "input_schema": {
       "type": "object",
       "properties": {
         "target_x": {
-          "type": "integer",
-          "description": "The target X coordinate."
+          "type": "integer"
         },
         "target_y": {
-          "type": "integer",
-          "description": "The target Y coordinate."
+          "type": "integer"
         },
         "movement_mode": {
           "type": "string",
@@ -164,8 +162,7 @@
             "walking",
             "surfing"
           ],
-          "default": "walking",
-          "description": "The current movement mode. Determines which tiles are passable."
+          "default": "walking"
         }
       },
       "required": [
@@ -173,7 +170,7 @@
         "target_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef get_path(target_x, target_y, movement_mode):\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        \n        # Find start position\n        start = None\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                if tile.attrib.get('has-player') == 'true':\n                    start = (int(tile.attrib['id']), y)\n                    break\n            if start: break\n            \n        if not start:\n            return []\n\n        target = (target_x, target_y)\n        \n        # Build grid\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib.get('type', 'WALL').strip()\n                \n                # Determine walkability based on movement_mode\n                if movement_mode == 'surfing':\n                    walkable = t_type in ['WATER', 'WATERFALL', 'WHIRLPOOL'] \n                else:\n                    walkable = t_type in ['FLOOR', 'GRASS', 'SAND', 'LADDER', 'CAVE', 'WARP_CARPET_DOWN', 'FLOOR_UP_WALL']\n                \n                grid[(x, y)] = walkable\n        \n        # Force target to be walkable to allow landing/arriving\n        grid[target] = True\n\n        queue = deque([(start, [])])\n        visited = set([start])\n        \n        while queue:\n            (cx, cy), path_buttons = queue.popleft()\n            if (cx, cy) == target:\n                return path_buttons\n            \n            # Neighbors (Up, Down, Left, Right)\n            moves = [((0, -1), \"Up\"), ((0, 1), \"Down\"), ((-1, 0), \"Left\"), ((1, 0), \"Right\")]\n            for (dx, dy), btn in moves:\n                nx, ny = cx + dx, cy + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if (nx, ny) not in visited and grid.get((nx, ny), False):\n                        visited.add((nx, ny))\n                        queue.append(((nx, ny), path_buttons + [btn]))\n        \n        return []\n    except Exception:\n        return []\n\n# Execute\nif 'target_x' not in globals():\n    if 'input_data' in globals():\n        target_x = input_data.get('target_x')\n        target_y = input_data.get('target_y')\n        movement_mode = input_data.get('movement_mode', 'walking')\n    else:\n        print(\"[]\")\n        exit()\n\nbuttons = get_path(target_x, target_y, movement_mode)\nprint(json.dumps(buttons))\n",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef bfs_path(xml_string, target_x, target_y, movement_mode=\"walking\"):\n    try:\n        root = ET.fromstring(xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    start_pos = None\n    \n    # Allowed tile types\n    walkable_types = {\"FLOOR\", \"GRASS\", \"TALL_GRASS\", \"SAND\", \"CARPET\", \"DOOR\", \n                      \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\",\n                      \"STAIRS\", \"CAVE\"}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'WALL')\n            \n            is_blocked = False\n            \n            # Check basic tile type\n            if t_type not in walkable_types:\n                if movement_mode == \"walking\":\n                    is_blocked = True\n                elif movement_mode == \"surfing\":\n                    if t_type != \"WATER\":\n                        is_blocked = True\n            elif movement_mode == \"surfing\":\n                # If surfing, can only move on WATER (usually)\n                if t_type != \"WATER\":\n                    is_blocked = True\n            \n            # Check Objects (On-screen sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Object':\n                        is_blocked = True\n                        break\n            \n            # Check Markers with object_id (Off-screen known sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Marker' and child.attrib.get('object_id'):\n                        is_blocked = True\n                        break\n\n            # Check has-object attribute\n            if not is_blocked and tile.attrib.get('has-object') == 'true':\n                 is_blocked = True\n\n            grid[(x, y)] = not is_blocked\n            \n            # Locate Player\n            if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                start_pos = (x, y)\n                # Player tile is always walkable to start\n                grid[(x, y)] = True\n                \n    if not start_pos:\n        print(\"Error: Player not found on map.\")\n        return []\n        \n    if not grid.get((target_x, target_y), False):\n        print(f\"Error: Target {(target_x, target_y)} is blocked or invalid.\")\n        return []\n        \n    # BFS\n    queue = deque([(start_pos, [])])\n    visited = {start_pos}\n    \n    while queue:\n        current, path = queue.popleft()\n        if current == (target_x, target_y):\n            # Convert path to buttons\n            buttons = []\n            cx, cy = start_pos\n            for nx, ny in path:\n                if nx > cx: buttons.append(\"Right\")\n                elif nx < cx: buttons.append(\"Left\")\n                elif ny > cy: buttons.append(\"Down\")\n                elif ny < cy: buttons.append(\"Up\")\n                cx, cy = nx, ny\n            print(json.dumps(buttons))\n            return buttons\n            \n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    print(f\"Error: No path found to {(target_x, target_y)}.\")\n    return []\n\nif __name__ == \"__main__\":\n    bfs_path(map_xml_string, input_data['target_x'], input_data['target_y'], input_data.get('movement_mode', 'walking'))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -199,6 +196,11 @@
         "commit_message": "Fixed JSON output error by removing plain text error messages. Now returns an empty list [] on failure.",
         "timestamp": "2026-01-08T18:13:10.805Z",
         "action_counter": 28451
+      },
+      {
+        "commit_message": "Refined obstacle detection to include <Object> tags and <Marker> tags with object_id, preventing pathing through NPCs.",
+        "timestamp": "2026-01-08T21:34:10.018Z",
+        "action_counter": 28681
       }
     ]
   }

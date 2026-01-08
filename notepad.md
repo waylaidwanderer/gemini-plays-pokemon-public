@@ -41,5 +41,5 @@
 - Location: Ecruteak City (South Gate).
 - Status: Resetting Roamers.
 - Action: Crossing Border (Route 37 -> Ecruteak -> Route 37).
-- Hunt Session: Turn 28679.
+- Hunt Session: Turn 28681.
 - Next: Re-enter Route 37 and sweep grass.
