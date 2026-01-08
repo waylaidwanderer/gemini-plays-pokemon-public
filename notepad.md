@@ -8,9 +8,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (13, 30) [Surfing].
-- **Action:** Surfing South to Route 40.
-- **Immediate Plan:** Surf South to exit map.
+- **Location:** Olivine City (13, 31) [Surfing].
+- **Action:** Surfing West.
+- **Reason:** Row 32 is blocked by Buoys (South) and Walls (East). Must find passage West.
+- **Immediate Plan:** Surf Left x5 to explore unseen area.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
