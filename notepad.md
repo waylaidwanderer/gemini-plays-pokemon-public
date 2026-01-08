@@ -1,8 +1,8 @@
 # Current Status
 - Location: WhirlIslandCave (5, 5) [Corridor].
-- Action: Nicknaming caught Krabby 'RANGOON'.
-- Immediate Plan: Finish typing 'GOON' then confirm.
-- Goal: Resume exploration of Whirl Islands.
+- Action: Caught Krabby (Rangoon).
+- Immediate Plan: Explore Warp at (7, 5).
+- Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
