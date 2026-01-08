@@ -5,7 +5,10 @@
 - Goal: Reach NE Whirl Island (Route 41).
 
 # Whirl Islands Mapping
-- **Route 41 NE Island:** Entrance at (36, 19) [1F] (Exterior).
+- **Route 41 NE Island:** Cave Entrance at (36, 19).
+  - **Access:** Must land at **(36, 22)** (South side).
+  - **East Landing (41, 19):** Isolated from cave by a wall.
+  - **North Ledge (36, 16):** One-way drop blocked from North.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
