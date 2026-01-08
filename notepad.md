@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Lake of Rage (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Pressing 'Left' (x20) to move West.
-- **Observation:** 'Up' successfully moved from Cherrygrove to Lake of Rage.
+- **Method:** Down (to Mahogany) -> Left x10 (to Ecruteak/Olivine/Cianwood).
+- **Logic:** Lake of Rage is a northern spur. Must go Down to reconnect, then West.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
