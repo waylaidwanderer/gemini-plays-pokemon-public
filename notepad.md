@@ -1,3 +1,18 @@
+# Current Status
+- Location: WhirlIslandB1F (31, 17) [Central Area].
+- Goal: Explore West Area of B1F to find path to B2F.
+
+# Whirl Islands Mapping
+- **Route 41 NE Island:** Entrance at (3, 13) [1F].
+- **1F (NE):**
+  - Entrance: (3, 13).
+  - Item: (11, 11) [Got].
+  - Ladder at (13, 11) -> ? (Not taken).
+  - Ladder at (17, 3) -> B1F (35, 3) [Taken].
+- **B1F:**
+  - Entrance: Ladder at (35, 3) from 1F.
+  - Current Exploration: Heading West from (35, 3).
+
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 41 Owned).
 - **Major Target:** CATCH LUGIA.
@@ -12,27 +27,7 @@
   - **Risk:** Team is underleveled for Lv 60 Legendary. Lapis (Hypnosis) is Lv 12 and will die instantly.
   - **Assets:** Master Ball x1, Ultra Ball x4, Great Ball x20.
   - **Strategy:** Exploration first. Locate Lugia. Attempt catch with current balls. If failing/wiping, consider Master Ball or tactical retreat to train/buy balls.
-  - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
-
-# Current Status
-- **Location:** Route 41 (44, 24) [Surfing].
-- **Action:** Navigating to Whirlpool at (42, 24).
-- **Immediate Plan:** Surf South to (44, 26), West to (42, 26), then North to (42, 25).
-- **Goal:** Reach (42, 25) to use Whirlpool HM.
-- **Obstacle:** Swimmer Girl at (44, 28). Need to bypass her carefully via Row 26.
-
-## Tile Mechanics
-- **FLOOR:** Traversable. Standard ground.
-- **WALL:** Impassable. Building walls, cliffs, etc.
-- **COUNTER:** Impassable. Interactable over.
-- **PC:** Impassable. Interactable. Access Pokemon Storage.
-- **LADDER:** Warp tile. Transition between floors.
-- **WARP_CARPET_DOWN:** Warp tile. Exit map South.
-- **WATER:** Impassable (Walking). Surfable (Surfing).
-- **DOOR:** Warp tile. Entrance to buildings.
-- **CUT_TREE:** Impassable. Cuttable with HM01.
-- **HEADBUTT_TREE:** Impassable. Interactable with Headbutt.
-- **BUOY:** Impassable. Navigation boundary.
+  - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it. Use Repels.
 
 ## Quest Log
 - **Completed:**
@@ -41,5 +36,16 @@
     3. Magnet Train Pass (Obtained).
     4. Caught Tentacool (Nomura).
 - **Active:** Catch Lugia.
-- **Misleading Map Data:** Object ID 2 on Route 41 is labeled 'OLIVINE_RIVAL' in map data but is actually Swimmer George. Do not trust internal labels implicitly.
-- **Strategy Note:** Always use Repels when navigating large water bodies to prevent navigation loops caused by high encounter rates.
+
+## Tile Mechanics
+- **FLOOR:** Traversable. Standard ground.
+- **WALL:** Impassable.
+- **COUNTER:** Impassable. Interactable over.
+- **PC:** Impassable. Interactable.
+- **LADDER:** Warp tile. Transition between floors.
+- **WARP_CARPET_DOWN:** Warp tile. Exit map South.
+- **WATER:** Impassable (Walking). Surfable (Surfing).
+- **DOOR:** Warp tile. Entrance to buildings.
+- **CUT_TREE:** Impassable. Cuttable.
+- **HEADBUTT_TREE:** Impassable. Interactable.
+- **BUOY:** Impassable.
