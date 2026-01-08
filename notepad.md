@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Saffron City.
-- **Action:** Locating Magnet Train Station.
+- **Action:** Walking to Magnet Train Station (8, 3).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
