@@ -14,8 +14,8 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Status: Back on 2F (1, 7). Strength INACTIVE (reset by ladder).
-- Plan: Navigate to (2, 3), activate Strength on B6, then use run_code to generate the full button sequence.
+- Status: Back on 2F (2, 3). Strength INACTIVE.
+- Plan: Activate Strength on B6 at (3, 3), then use solve_blackthorn_boulders_v3.
 - Note: Avoid ladders to prevent puzzle reset.
 
 # Resource Locations
