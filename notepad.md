@@ -13,14 +13,14 @@
 - Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Strategy: Solve one boulder at a time. Target B8 first.
 
-## Boulder 8 (8, 14) -> Pit (8, 7) Plan
-1. Navigate to (8, 15).
-2. Push B8 Up to (8, 13).
-3. Navigate to (9, 13).
-4. Push B8 Left to (7, 13).
-5. Navigate to (8, 13).
-6. Push B8 Left to (6, 13).
-7. Navigate to (6, 14).
+## Boulder 8 (8, 15) -> Pit (8, 7) Plan
+1. Navigate to (8, 16).
+2. Push B8 Up to (8, 10).
+3. Navigate to (9, 10).
+4. Push B8 Left to (7, 10).
+5. Navigate to (8, 10).
+6. Push B8 Left to (6, 10).
+7. Navigate to (6, 11).
 8. Push B8 Up to (6, 7).
 9. Navigate to (5, 7).
 10. Push B8 Right to (7, 7).
