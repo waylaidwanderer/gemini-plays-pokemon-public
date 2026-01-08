@@ -26,4 +26,4 @@
 # Hypothesis Testing
 - Hypothesis: Falling into a pit (e.g., at 2, 5) does NOT reset boulder positions on 2F.
 - Test: Push B6 to (3, 4), fall into P2 (2, 5), return to 2F via ladder.
-- Status: B6 pushed to (3, 4). Moving to P2.
+- Result: B6 returned to (3, 3). Falling through a pit DOES reset boulder positions on 2F. (Verified Turn 34678).
