@@ -1,24 +1,31 @@
-# Blackthorn Gym 2F Puzzle
+# Blackthorn Gym Puzzle
 - Status: Strength ACTIVE (Turn 35113)
 
-## Tile Mechanics (BlackthornGym2F)
+## Tile Mechanics
 - FLOOR: Traversable. Collision type is absolute truth.
 - WALL: Impassable. Trust Game State 'type' attribute.
-- PIT: Target for boulders. (8,3), (2,5), (8,7).
-- LADDER: Warp to 1F. Resets boulders.
-- NPCs: Currently at (4,1), (4,11), (9,2), (1,15). They act as solid obstacles.
+- PIT (2F): Warp to 1F. Boulders fill them to create paths on 1F.
+- LADDER: Warp between floors. Resets boulders on 2F.
+- NPCs: Act as walls.
 
-## Current Boulder Positions (2F)
+## Correct Boulder Positions (2F Reset State)
 - B6 (ID 6): (3, 3) [Verified]
 - B7 (ID 7): (6, 1) [Verified]
 - B8 (ID 8): (8, 14) [Verified]
 
+## Pits (2F Targets)
+- P1: (8, 3)
+- P2: (2, 5)
+- P3: (8, 7)
+
 ## Strategic Plan
-1. Talk to Gym Leader Clair on 1F to see if she battles or provides a hint.
-2. Re-examine 1F layout for clues about boulder-pit pairings.
-3. Use solve_boulders_v2 with absolute truth from Game State once reachability is understood.
+1. Finish talking to Clair on 1F.
+2. Re-run solve_boulders_v2 with the correct reset coordinates: B6(3,3), B7(6,1), B8(8,14).
+3. If still 'No solution', investigate player reachability to the tiles needed for pushes.
+4. Execute the sequence.
 
 ## Lessons Learned
-- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth; visuals can be deceptive.
-- Boulder Reset: Changing maps via ladder resets all boulders.
+- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth.
+- B6 reset position is (3, 3), not (3, 2).
+- Strength: Reactivate after floor changes.
 - Reachability: The player can reach Clair on 1F by walking around the right edge (Column 9).
