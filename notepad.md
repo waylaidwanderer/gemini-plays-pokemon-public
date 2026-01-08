@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Menu Navigation.
-- Action: Opening Pack to use Repel.
-- Sequence: Start -> Down x2 -> A (Open Pack).
-- Hunt Session: Turn 28822.
+- Status: In Pack.
+- Action: Finding Max Repel.
+- Sequence: A (Enter Pack) -> Find Item -> Use.
+- Hunt Session: Turn 28823.
