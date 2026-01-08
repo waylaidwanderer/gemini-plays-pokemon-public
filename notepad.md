@@ -13,13 +13,9 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Use manual steps or `solve_gym_puzzle`.
-- Current Status: Reactivating Strength at (8, 1).
-- Puzzle Start Turn: 34032.
-- Failed Hypotheses:
-  - Pushing B7 Right at (6,1) was a mistake (Turn 34133).
-  - Row 0 is impassable WALL (Verified at 5,0 in Turn 34183).
-- Verification Plan: Talk to NPCs to see if they move, and verify B8 position.
+- Strategy: Use manual steps. `solve_gym_puzzle` tool is currently unreliable.
+- Attempt 1: Pushing B7 Right at (6,1). Failed (Turn 34133).
+- Attempt 2: Testing Row 0 traversability. (5,0) is WALL (Turn 34183). Testing (7,0) next.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
