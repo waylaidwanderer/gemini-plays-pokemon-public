@@ -21,7 +21,7 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Swapping to KIMCHI (Turn 33781).
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33781).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33782).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
 
@@ -31,7 +31,8 @@
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
-- Opponent: Clair uses Dragon-type Pokemon. Need to identify effective counters in party.
+- Opponent: Clair uses Dragon-type Pokemon. 
+- Strategy: Gneiss (Lv48) STAB Earthquake for raw power. Calcifer (Lv49) Return/Thunderpunch as backup. Xenon (Lv36) Hypnosis for control. Need to watch for Dragon-type resistances and potential Ice/Water coverage.
 
 # Lessons Learned
 - **Inventory Verification:** Always verify Bag/PC contents. (Turn 33203).
