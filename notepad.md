@@ -1,8 +1,7 @@
 # Current Status
-- Immediate Plan: Walk West to Route 40, then Surf South to Route 41.
-- Route: From Olivine City (13, 22) -> West to Exit (0, 22) -> Route 40.
-- Reasoning: Route 40 provides the best northern approach to the Whirl Islands (NE Island).
-- Goal: Route 40 -> Surf South -> NE Whirl Island -> Catch Lugia.
+- Immediate Plan: Surf South on Route 40 towards Route 41.
+- Route: From (19, 4) go South to Water (19, 8). Surf South along the East side.
+- Goal: Reach NE Whirl Island (Route 41 East Side).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
