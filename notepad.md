@@ -17,9 +17,8 @@
 # Current Status
 - **Location:** Route 41 (46, 19) [Surfing].
 - **Action:** Navigating to Whirlpool at (42, 24).
-- **Immediate Plan:** Surf South to (46, 24), then zigzag West/South to (42, 26), then North to the Whirlpool.
-- **Route:** (46, 19) -> (46, 24) -> (45, 24) [Blocked] -> (45, 25) -> (44, 25) -> (44, 26) -> (42, 26) -> (42, 24).
-- **Goal:** Cross Whirlpool to access Northeast Island landing.
+- **Refined Route:** (46, 19) -> South to (46, 23) -> West to (44, 23) -> South to (44, 25) -> West to (42, 25).
+- **Goal:** Reach (42, 25), face North, and use Whirlpool to access Northeast Island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
