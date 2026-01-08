@@ -1,7 +1,7 @@
 # Current Status
-- Immediate Plan: Buy 10 Great Balls, then Heal at Center.
-- Reasoning: I likely have 0 Great Balls (Game State truth vs Notepad error). Buying 10 backups.
-- Goal: Buy Balls -> Heal -> Surf to Whirl Islands.
+- Immediate Plan: Heal at Olivine Pokemon Center.
+- Reasoning: Successfully purchased 10 Great Balls. Team needs healing (Lapis fainted) before surfing to Whirl Islands.
+- Goal: Heal -> Surf to Whirl Islands -> Catch Lugia.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
