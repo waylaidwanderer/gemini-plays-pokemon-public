@@ -18,6 +18,10 @@
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
 - Strategy for Training (Route 45): Grind wild encounters in tall grass until Xenon and Kimchi reach Lv40. Focus on high-experience targets and use Max Repel to skip low-level encounters.
 
+# Puzzle Testing Log
+- Turn 34368: Testing if player can walk through NPCs (Fran at 4,11).
+- Turn 34368: Testing if pillars at (8,9) and (8,8) are walkable.
+
 # Obstacles & Solutions
 - Blackthorn Gym Pit Shifts (2F -> 1F):
   - (8, 3) -> (7, 6)
