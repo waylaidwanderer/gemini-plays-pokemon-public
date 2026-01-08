@@ -35,8 +35,9 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
-- Strategy: To reach the southern Row 89 and eastern tiles, I must Fly to Blackthorn and enter the easternmost strip from the root.
-- Target Unseen: (17-19, 86-89) in the right strip.
+- Strategy: RESET COMPLETE. Landed in Blackthorn. Now entering Route 45 to follow the easternmost high-ground strip.
+- Target Unseen: (17-19, 86-89) in the rightmost strip of Route 45.
+- Target Unseen: (14, 61-62) - will check if reachable from the eastern strip or requires a specific path from the top.
 
 # Lessons Learned
 - **Ghost Lead:** Haunter lead is ideal for wild Graveler encounters (Selfdestruct immunity).
