@@ -71,10 +71,10 @@
 - **WHIRLPOOL:** Obstacle. Requires Whirlpool HM to cross.
 - **CAVE:** Warp tile. Entrance to caves.
 - **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
-## Reflection (Turn 27988)
-1. **Execution:** No major deferred tasks. Maintaining tempo.
-2. **Notepad:** Good. Added "Reflection" section.
-3. **Map:** Markers are up to date.
-4. **Automation:** Defined `assess_reachability` tool to solve Route 41 Buoy Maze scientifically instead of trial-and-error.
-5. **Goals:** Clear.
-6. **Errors:** Stopped assuming linear paths. Testing connectivity with code.
+## Reflection (Turn 28041)
+1. **Execution:** Deferred verifying surf path north due to buoys, but correctly identified the blockage. Deferred fixing Fly interaction but handling it now.
+2. **Notepad:** Organized. Whirl Islands mapping is crucial and being maintained. Added this reflection.
+3. **Map:** Markers are good.
+4. **Automation:** `assess_reachability` was a success. `navigate_menu` is active.
+5. **Goals:** Clear: Fly to Olivine -> NE Whirl Island -> Lugia.
+6. **Errors:** Initial assumption that SW island led to Lugia was likely wrong due to one-way ledges. Pivot to NE island approach is the correct scientific response to the dead-end observation.
