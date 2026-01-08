@@ -87,3 +87,10 @@
   - Goldenrod City -> Up -> Ecruteak City (Verified).
 - **Correction:** The path from (36, 15) South to the cave entrance is blocked by a ledge/wall. Must approach the NE Island Cave (36, 19) from the **South** via surfing around the east side of the island.
 - **New Route:** Surf from East side (X=42), go South around the island, then West and North to land at (36, 22).
+## Reflection (Turn 28196)
+1. **Execution:** No deferrals. Action taken immediately on obstacles.
+2. **Notepad:** Well-organized and up-to-date.
+3. **Map:** Markers active and relevant.
+4. **Automation:** Tools active.
+5. **Goals:** Clear and actionable.
+6. **Errors:** Fixed pathing around NE Island ledge.
