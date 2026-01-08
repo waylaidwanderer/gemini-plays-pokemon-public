@@ -1,7 +1,6 @@
 # Current Status
-- Immediate Plan: Heal at Pokemon Center.
-- Route: Walk to (13, 21) via row 21/22/23.
-- Reasoning: Secured Great Balls. Need to heal team before Whirl Islands expedition.
+- Immediate Plan: Talk to Nurse Joy to heal team.
+- Reasoning: Inside Pokemon Center. Need to restore Lapis and team health.
 - Goal: Heal -> Surf to Whirl Islands -> Catch Lugia.
 
 # Whirl Islands Mapping
