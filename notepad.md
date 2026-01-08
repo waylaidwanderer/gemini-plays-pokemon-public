@@ -1,36 +1,30 @@
-# Tile Mechanics
-- FLOOR: Walkable.
-- WALL: Impassable (statues, pillars, rocks).
-- PIT: Warp to same coordinates on 1F. Filled by pushing a boulder into it. Empty pits are impassable/warp; filled pits are walkable floor.
+# Tile Mechanics (Global)
+- FLOOR: Standard walkable tile.
+- WALL: Impassable collision (pillars, statues, rocks).
 - LADDER: Two-way warp between floors. (1, 7) and (7, 9).
-- BOULDER: Pushable object. Acts as a wall for movement.
+- PIT: A hole that leads to 1F. Boulders fall through to fill gaps on 1F. Empty pits are impassable/warp; filled pits on 1F become walkable.
+- BOULDER: Pushable object. Requires STRENGTH. Pushing moves it one tile. Player STAYS in original tile.
 
-# Game Mechanics & Systems
-## Blackthorn Gym Boulder Puzzle (2F)
-- Start Turn: 34501 (Manual Verification Phase)
-- Goal: Fill 3 pits to bridge the gaps on 1F.
-- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original tile. (Verified Turn 34491).
-- Reset: Leaving the floor resets all boulder positions and Strength.
-- NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), and Paul (1, 15) are solid and block both the player and boulders.
+# Blackthorn Gym (2F) Puzzle
+- Start Turn: 34501
+- Goal: Push three boulders into pits to bridge gaps to Gym Leader Clair on 1F.
+- Boulder 6: (3, 3)
+- Boulder 7: (6, 1)
+- Boulder 8: (8, 14)
+- Pit A: (8, 3)
+- Pit B: (2, 5)
+- Pit C: (8, 7)
+- NPC Obstacles: Cody (4, 1), Fran (4, 11), Lola (9, 2), Paul (1, 15) are solid and block player/boulders.
 
 # Strategy & Progress
-- Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 using Route 45 wild encounters (Night Shade).
-- Training Plan: Train XENON and KIMCHI (Acid/Cut) to Lv40 on Route 45. Focus on high-EXP targets like Donphan and Gligar.
-- Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
+- Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 on Route 45.
+- Gym Leader Clair: Dragonair x3 (Lv37), Kingdra (Lv40).
 
-# Obstacles & Solutions
-- Blackthorn Gym Pit Shifts (2F -> 1F):
-  - (8, 3) -> (7, 6)
-  - (2, 5) -> (2, 6)
-  - (8, 7) -> (7, 7)
+# Puzzles & Solutions
+## Blackthorn Gym 2F Boulder Puzzle
+- Status: Boulders reset. Strength active. Currently at Boulder 8 (8, 14).
+- Failed Attempts: BFS solution from turn 34526 was incorrect. 
+- Current Plan: Use puzzle_strategist for high-level plan, then execute with precise movement.
 
-# Current Boulder Positions (Verifying)
-- Boulder 6: (3, 3) - CONFIRMED
-- Boulder 7: (6, 1) - CONFIRMED
-- Boulder 8: (8, 14) - CONFIRMED (Reset)
-
-# Lessons Learned: Blackthorn Gym Puzzle
-- Pushing a boulder does NOT move the player into the vacated tile.
-- Boulders fall through pits and disappear from 2F.
-- BFS solution for 3 boulders: ['Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up']
-- Strategy: Fill pits (8, 7), (8, 3), and (2, 5) in that order or similar.
+# Resource Locations
+- Route 45: Good training spot for Haunter (Night Shade).
