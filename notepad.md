@@ -42,7 +42,7 @@
 - **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
 
 # Training Log: Route 45 (Started Turn 33130)
-- Goal: Xenon & Kimchi to Lv 40.
+- Goal: Xenon (Lv 36) & Kimchi (Lv 32) to Lv 40.
 - Strategy: Lead Gneiss (Lv 47), switch to targets for participation. Xenon holds Exp.Share.
 - Logistics: Fly to Blackthorn PC for healing.
 
