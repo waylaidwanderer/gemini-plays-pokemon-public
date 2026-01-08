@@ -1,10 +1,9 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7)
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14)
-- Status: Strength ACTIVE (Turn 34900)
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 15)
-- Goal: Verify (8, 8) collision.
+- Status: Strength ACTIVE (Turn 34900)
+- Goal: Run `solve_boulders` and execute.
 - PIT: (8, 3), (2, 5), (8, 7)
 - LADDER: (1, 7), (7, 9)
 - FLOOR: (6, 10)
