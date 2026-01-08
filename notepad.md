@@ -21,7 +21,7 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
-- Training Strategy (Route 45): Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher. (Session started Turn 33466. Progress: Xenon Lv36, Kimchi Lv32. Turn 33724).
+- Training Strategy (Route 45): Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Gneiss or Calcifer as finisher. (Session started Turn 33466. Progress: Xenon Lv36, Kimchi Lv32. Turn 33725).
 
 # Area Mechanics & Strategy
 ## Route 45 (Training Area)
