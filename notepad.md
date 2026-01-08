@@ -1,8 +1,8 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 5), B7 (6, 1), B8 (8, 10).
-- Status: Strength is ACTIVE. Boulder 8 is STUCK at (8, 10). Resetting via ladder.
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Status: Strength is ACTIVE. Boulders RESET.
 
 # Tile Mechanics (2F)
 - WALL: Impassable. (4, 0-12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11), (9, 12+).
@@ -11,16 +11,17 @@
 - Push Mechanic: Player moves into the tile previously occupied by the boulder.
 
 # Puzzle Analysis (2F)
-- Reset Strategy:
-  - B8 (8, 14) -> (8, 13) -> (0, 13) -> (0, 5) -> (1, 5) -> P2 (2, 5).
-  - B6 (3, 2) -> (3, 13) -> (5, 13) -> (5, 5) -> (8, 5) -> (8, 6) -> P3 (8, 7).
-  - B7 (6, 1) -> (8, 1) -> (8, 2) -> P1 (8, 3).
+- Strategy:
+  1. B8 (8, 14) -> P2 (2, 5) via Row 13 and Column 0.
+  2. B6 (3, 3) -> P3 (8, 7) via Row 13 and Column 8.
+  3. B7 (6, 1) -> P1 (8, 3) via Column 8.
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Reach ladder (7, 9) to reset boulders.
-- Step 2: Push B8 to P2 via the long western route.
-- Step 3: Push B6 to P3 via the central gap.
-- Step 4: Push B7 to P1.
+- Step 1: Push B8 (8, 14) to (8, 13).
+- Step 2: Push B8 to (0, 13).
+- Step 3: Push B8 to P2 (2, 5).
+- Step 4: Push B6 to P3 (8, 7).
+- Step 5: Push B7 to P1 (8, 3).
 
 # Failed Hypotheses
 - H1: Cody is passable. (Failed, Turn 34770)
