@@ -14,10 +14,11 @@
 - **Major Target:** Catch Legendary Beasts (Raikou, Entei, Suicune).
 - **Major Target:** Catch Ho-Oh.
 
-# Reflection (Turn 28509)
-- **Execution:** Caught Lugia with Master Ball.
-- **Correction:** Accidentally flew to Violet City instead of Olivine. This is acceptable as Violet City also has a Pokemon Center.
-- **Goals:** Heal up, then continue hunt.
+# Reflection (Turn 28561)
+- **Execution:** Successfully healed up.
+- **Error:** Miscounted 'B' presses when navigating Start Menu, accidentally closing it instead of backing up one level.
+- **Lesson:** The Start Menu is the root menu level. Pressing 'B' there closes the menu entirely. Verify menu depth before canceling.
+- **Strategy:** To find Raikou/Entei, use Pokedex -> Search/Scroll -> Check Area.
 
 # Lugia (Maelstrom) Stats
 - Level: 60
@@ -29,4 +30,4 @@
 - Speed: 161
 - Moves: Gust, Recover, Hydro Pump, Rain Dance.
 - Note: Lacks Aeroblast (Lv 1 move). Gen 2 has no Move Relearner, so Aeroblast is likely lost forever.
-- Note: Start Menu cursor remembers last position (was on POKEMON due to Fly usage). Must navigate UP to reach POKEDEX if POKEMON was last used.
+- Note: Start Menu cursor remembers last position.
