@@ -14,8 +14,9 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Status: Back on 2F (3, 7). Verifying B8 position and connectivity.
-- Plan: Navigate to (8, 14) via Row 13 crossover. Avoid ladders to prevent reset.
+- Status: Back on 2F (1, 7). Strength INACTIVE (reset by ladder).
+- Plan: Navigate to (2, 3), activate Strength on B6, then use run_code to generate the full button sequence.
+- Note: Avoid ladders to prevent puzzle reset.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
