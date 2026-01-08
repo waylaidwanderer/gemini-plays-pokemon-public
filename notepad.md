@@ -16,9 +16,16 @@
 - LADDER: Warp to 1F; resets boulder positions.
 - NPC: Impassable (WALL).
 
+## Verified Path for B8 (8, 11) to P3 (8, 7)
+1. Push B8 Up to (8, 10). Player at (8, 11).
+2. Push B8 Right to (9, 10). Player at (8, 10).
+3. Push B8 Up to (9, 9). Player at (9, 10).
+4. Push B8 Up to (9, 8). Player at (9, 9).
+5. Push B8 Up to (9, 7). Player at (9, 8).
+6. Push B8 Left to (8, 7) (PIT). Player at (9, 7).
+
 ## Strategic Insights
-- Gap at (7, 13): B8 at (8, 13) can be pushed Left into the center area.
-- Gap at (4, 13): Allows movement between the left and right sides of the gym.
+- Gap at (9, 10): Allows B8 to bypass the wall at (8, 9).
 - Strength Status: ACTIVE (Turn 35063).
 
 ## Lessons Learned
