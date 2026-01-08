@@ -60,3 +60,6 @@
 5. See if B7 can be pushed into Cody at (4, 1).
 6. If not, B7 MUST go Down Column 5. (Requires (5, 0) to be walkable, but tested it as WALL).
 7. RE-TEST (5, 0) carefully. Maybe I hit a corner?
+- Turn 34288: Confirmed Cody (4, 1) is a solid obstacle for boulders. Pushing B7 into him fails (snaps back).
+- Hypothesis: Boulders cannot be pushed into NPCs. (Confirmed).
+- Test 4: Attempt to push B7 from (5, 2) into (5, 0). (Verifying Row 0 wall).
