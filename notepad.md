@@ -9,7 +9,8 @@
 # Current Status
 - **Location:** Cherrygrove City (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Spamming 'Left' (x200) to force cursor to western edge.
+- **Method:** Pressing 'Left' (x20) to move to the next city.
+- **Constraint:** 'press_buttons' cannot simulate button release, so limited to one city hop per turn.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
