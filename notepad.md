@@ -1,7 +1,7 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34501
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 11).
+- Default Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Floor Reset: Using a ladder or falling into a pit resets all boulder positions on 2F.
 - Push Mechanic: Player stays in the same tile after pushing a boulder.
 
@@ -17,8 +17,8 @@
 - Corridor 3 (x=6) allows movement from (6, 11) up to (6, 7). (6, 6) is a WALL.
 
 # Strategy: Blackthorn Gym 2F
-- Step 1: Reset boulders to default positions using Ladder at (7, 9).
-- Step 2: Use `solve_puzzle_v5` from a reachable tile (e.g., 7, 9) to find the solution.
+- Step 1: Reset boulders to default positions using Ladder at (7, 9). (In progress)
+- Step 2: Use `solve_puzzle_v5` from (7, 9) on 2F to find the solution.
 - Step 3: Execute the sequence.
 
 # Tile Mechanics (Global)
