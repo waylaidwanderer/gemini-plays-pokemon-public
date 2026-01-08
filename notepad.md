@@ -33,3 +33,7 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
+- Observation: Column 8 is blocked by walls at (8, 8) and (8, 9). Boulder 8 cannot go Up Column 8.
+- Observation: Column 5 is blocked by walls at (5, 10), (5, 12), (5, 16), (5, 17).
+- Observation: Column 4 is a solid wall from (4, 2) to (4, 10).
+- Plan: Reset room via ladder at (7, 9).
