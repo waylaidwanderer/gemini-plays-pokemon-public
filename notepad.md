@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (32, 7) [Surfing].
-- **Action:** Escaped wild battle. preparing to use Max Repel.
-- **Immediate Plan:** Open Menu -> Use Max Repel -> Surf East to (40, 7) -> South to (40, 10) -> West to Island.
+- **Location:** Route 41 (46, 12) [Surfing].
+- **Action:** Backtracking North to escape buoy pocket.
+- **Immediate Plan:** Navigate to (40, 7) passing George on the left (Col 45), then surf South down Col 40 to reach the island at (36, 12).
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
