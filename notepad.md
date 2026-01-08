@@ -17,8 +17,9 @@
   - Strips 1, 2, and 3 connect at Row 1 (Top) and Row 13 (Bottom).
 
 # Strategy & Progress
-- Status: Strength active. B6 at (3, 3). Player at (3, 4).
-- Plan: Execute exhaustive BFS solver with ladder connectivity and 1M states.
+- Status: On 1F (1, 7), returning to 2F. Verified that floor transitions reset the boulder puzzle.
+- Plan: Return to 2F, activate Strength, and use gym_analyst to verify if B8 (8, 14) is trapped or solvable.
+- Observation: Strip 2 and Strip 3 connect at Row 13 on 2F. B8 appears trapped in a 1-wide corridor at Col 8.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
