@@ -1,6 +1,5 @@
 # Current Status
 - Location: Route 41 (18, 40) [Surfing].
-- Action: Defeated Mantine.
 - Immediate Plan: Navigate North to Y=29, then East towards NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
 - Status: Navigating Buoy Maze.
