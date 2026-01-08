@@ -47,3 +47,7 @@
 - **Observed (Turn 27234):** Viridian -> Up -> Right = Pewter City.
 - **Inference:** Viridian -> Up = Pewter. Right from Pewter didn't reach Cerulean (distance?).
 - **Plan:** Right x3 -> Down. Trying to cross the gap to Cerulean and head South to Saffron.
+- **Observed (Turn 27235):** Pewter -> Right x3 -> Down = Viridian.
+- **Hypothesis:** Pewter -> Right = Cerulean. Cerulean -> Down = Saffron.
+- **Plan:** Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
+- **Action:** Up, Right. Checking if this lands on Cerulean.
