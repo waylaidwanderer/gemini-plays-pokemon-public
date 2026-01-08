@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (17, 39) [East Shore of SW Island].
-- Immediate Plan: Surf North-East through the channel at X=20 to reach Y=35. Then head East to (22, 35) and assess path to NE Island.
-- Correction: South path to Y=42 is blocked by buoys at Y=41. Must go North.
+- Location: Route 41 (20, 35) [Surfing in Channel].
+- Immediate Plan: Surf North to (20, 29), then turn East towards NE Island (36, 19).
+- Observation: Channel at X=20 is clear North. East path opens at Y=29.
 - Goal: Find path to Lugia (B3F).
-- Status: Surfing North.
+- Status: Navigating Channel North.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
