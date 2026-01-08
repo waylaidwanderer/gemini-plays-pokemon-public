@@ -8,9 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (Fly Map).
-- **Action:** Selecting Cianwood City.
-- **State:** Map is OPEN. Cursor at New Bark Town.
-- **Plan:** Move Left x8 to reach Cianwood (West edge).
+- **Action:** Forcing Cursor Movement to Cianwood.
+- **Issue:** `slow_press` failed to move cursor. Attempting `press_buttons` spam.
+- **Plan:** Spam 'Left' to force cursor west.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
