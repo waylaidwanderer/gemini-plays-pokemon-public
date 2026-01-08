@@ -5,7 +5,7 @@
 - Goal: Reach NE Whirl Island (Route 41).
 
 # Whirl Islands Mapping
-- **Route 41 NE Island:** Entrance at (3, 13) [1F].
+- **Route 41 NE Island:** Entrance at (36, 19) [1F] (Exterior).
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
