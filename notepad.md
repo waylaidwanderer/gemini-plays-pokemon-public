@@ -21,8 +21,11 @@
 - **Strategy:** To find Raikou/Entei, use Pokedex -> Search/Scroll -> Check Area.
 
 # Legendary Beast Tracking
-- Raikou (Johto #238): Check Area
-- Entei (Johto #239): Check Area
-- Suicune (Johto #240): Status Unconfirmed (Check Pokedex)
+- Search Mode: Pokedex List.
+- Target: Raikou (#238 Johto / #243 National) & Entei (#239 Johto / #244 National).
+- Suicune: Fixed encounters/events, not roaming in Crystal.
+- Plan: Scroll UP from #011 to wrap to bottom of list.
 
-- Note: Start Menu cursor remembers last position. Always reset to top.
+# Post-Game Goals
+- **Primary:** Complete Pokedex.
+- **Targets:** Raikou, Entei, Suicune, Ho-Oh.
