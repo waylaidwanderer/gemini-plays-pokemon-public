@@ -7,7 +7,8 @@
 
 # Puzzle Analysis (2F)
 - Problem: B8 (8, 12) appears stuck in Col 8 corridor.
-- Goal: Verify if (9, 13) is a wall. If not, B8 can be pushed west.
+- Verified: (9, 13) is a WALL (Turn 34825).
+- Goal: Explore (8, 17) and Column 9 to find a way to move B8.
 - Gaps in Col 4: (4, 1) [Cody gone], (4, 11) [Fran gone], (4, 13-17) [Open].
 
 # Strategy: Blackthorn Gym 2F
