@@ -50,7 +50,7 @@
 - Tile Mechanics: Mountain barriers (WALL) and one-way ledges (⤵️, ↩️, ↪️) are present.
 - Encounter Rate: High in TALL_GRASS at (12, 10). Frequent Gligar (Lv24) and Graveler (Lv23).
 - Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
-- Training Session (Started Turn 33466): Aiming for Lv40 on Kimchi and Xenon. Currently Xenon Lv36, Kimchi Lv32. Gneiss Lv48. (Turn 33604).
+- Training Session (Started Turn 33466): Xenon Lv36, Kimchi Lv32. Gneiss Lv48. (Turn 33604).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
