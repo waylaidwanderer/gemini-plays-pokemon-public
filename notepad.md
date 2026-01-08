@@ -11,11 +11,12 @@
 - Dead Ends: Column 8 (Row 10-17) is blocked by walls at (8, 8-9).
 
 ## Puzzle Plan
-- Goal: Move B8 from (8, 15) to P3 (8, 7) or P1 (8, 3).
-- Obstacle: Walls at (8, 8-9) block direct northern movement.
-- Strategy: Push B8 south to (8, 16), then navigate to (8, 16) to push it north? No, that doesn't solve the wall at (8, 9).
-- Alternative: Push B8 to a gap. (7, 13) is FLOOR. Can B8 be pushed to (7, 13)? Requires player at (9, 13), but (9, 13) is WALL.
-- Verification: Use `puzzle_strategist` to audit the wall at (9, 13) and (8, 8-9).
+- Observation: B8 (8, 15) is trapped in Column 8 if Column 9 is a solid wall.
+- Test Results: (9, 13) is WALL (Turn 34983).
+- Next Test: (9, 14) - Move from (8, 14).
+- Goal: Determine if B8 can be moved out of Column 8.
+- Strategy: If B8 is trapped, reset puzzle and reconsider boulder assignments.
+- Lesson (Turn 34984): Reflection complete. Systematically verifying boundaries is slow but necessary for accurate automation.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
