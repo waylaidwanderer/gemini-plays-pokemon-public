@@ -1,7 +1,7 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 11).
+- Boulders (Found): B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Status: Strength ACTIVE.
 
 # Puzzle Analysis (2F)
