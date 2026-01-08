@@ -1,7 +1,7 @@
 # Current Status
 - Location: Route 41 (18, 40) [Surfing].
-- Immediate Plan: Surf West to (14, 40), land on SW Island at (14, 39), then walk to the West shore to access the channel.
-- Reasoning: Direct path to (12, 39) failed or returned no path. Targeting visible water tile adjacent to island.
+- Immediate Plan: Manually surf Left to (14, 40), then land on SW Island at (14, 39).
+- Reasoning: Previous auto-pathing failed. Path appears clear visually.
 - Goal: Find path to Lugia (B3F).
 - Status: Landing on SW Island.
 
