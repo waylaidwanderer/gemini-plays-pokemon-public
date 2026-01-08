@@ -1,5 +1,5 @@
 # Current Status
-- Location: Ecruteak City (South Gate).
+- Location: Roaming (Route 37 <-> Ecruteak).
 - Activity: Hunting Raikou & Entei.
 - Party: Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Hunt Session Start:** Turn 28662.
