@@ -1,15 +1,16 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
-- Battle Task: Defeat Kingdra (Started Turn 35185)
-- Current Turn: 35211
+- Battle Task: Defeat Dragonair #2 (Started Turn 35212)
+- Current Turn: 35213
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
-- Pokémon 1: Dragonair (Lv37). (FAINTED)
-- Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen, Dragonbreath. (HP: ~50%, Status: PAR)
-- Status: Xenon fainted. Calcifer (Lv49) at 127/155 HP. Kimchi (Lv33) at 48/87 HP.
-- Strategy: Kingdra is paralyzed. Calcifer's accuracy fell (Turn 35210).
-- Plan: Use Thunderpunch (Turn 35211) to finish Kingdra. Neutral damage.
+- Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
+- Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen, Dragonbreath. (FAINTED)
+- Pokémon 3: Dragonair (Lv37). Moves: Unknown. (HP: 100%)
+- Status: Xenon fainted. Calcifer (Lv49) at 127/155 HP. Kimchi (Lv34) at 51/90 HP.
+- Strategy: Dragon resists Fire and Electric. Calcifer should use Return for neutral damage.
+- Plan: Use Return (Turn 35213) to chip away at Dragonair.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
@@ -31,3 +32,4 @@
 - Strength: Reactivate after floor changes.
 - Reachability: The player can reach Clair on 1F by walking around the right edge (Column 9).
 - Kingdra Typing: Water/Dragon. Neutral to Electric/Grass/Ice. Resists Fire/Water 4x. Weak to Dragon.
+- Dragonair Typing: Dragon. Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon. Neutral to Normal/Physical.
