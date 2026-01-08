@@ -6,9 +6,8 @@
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
-  - **Access:** Must land at **(36, 22)** (South side).
-  - **East Landing (41, 19):** Isolated from cave by a wall.
-  - **North Ledge (36, 16):** One-way drop blocked from North.
+  - **Access:** Can likely reach cave from **East Landing (41, 19)** by walking North to row 14/15, crossing West, then jumping ledges South.
+  - **North Ledge (36, 16):** Jumpable ledge (Southward).
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
