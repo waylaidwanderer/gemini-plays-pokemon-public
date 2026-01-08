@@ -43,8 +43,8 @@
 
 # Exploration Log
 ## Current Targets (Reachable Unseen)
-- Cluster y=43: (10-13, 43).
-- Column 12-14: (14, 68-70, 72-73), (12-13, 74).
+- Column 12: (12, 48-52), (12, 54-55).
+- Column 14: (14, 61-62, 68-70, 72-73), (11-13, 74).
 - Pathing: South past Cooltrainer F at (5, 36).
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Pathing: Hop down ledge at (12, 29) - Completed Turn 33842.
