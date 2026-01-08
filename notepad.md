@@ -1,9 +1,10 @@
 # Blackthorn Gym (Global Mechanics)
 - Start Turn: 34501
+- Current Turn: 34705
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14).
 - Floor Reset: Using a ladder (1, 7) or (7, 9) resets all boulder positions on 2F.
-- Push Mechanic: Player stays in the same tile after pushing a boulder.
+- Push Mechanic: Player stays in the same tile after pushing a boulder. (Verified Turn 34704).
 
 # Manual Strategy: Blackthorn Gym 2F
 - Goal: Fill the three pits on 2F to bridge gaps on 1F.
