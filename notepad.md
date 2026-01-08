@@ -7,11 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 39 (14, 18).
-- **Action:** Walking South to Olivine City.
-- **Immediate Plan:** Navigate Column 13/12 to avoid walls and trainers.
-- **Path:** Left (to Col 13) -> Down x10 (to Row 28) -> Left (to Col 12) -> Down x7.
-- **Route:** Route 39 -> Olivine City -> Surf to Cianwood.
+- **Location:** Entering Olivine City from Route 39.
+- **Action:** Walking South to enter the city.
+- **Immediate Plan:** Walk Left then South to bypass the fence.
+- **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
