@@ -27,4 +27,5 @@
 # Puzzle Investigation
 - Turn 34484: Confirmed (3, 0) is a solid WALL.
 - Turn 34484: Confirmed Cody (4, 1) is NOT walkable.
-- Turn 34486: Testing if Fran (4, 11) is walkable.
+- Turn 34487: Confirmed Fran (4, 11) is NOT walkable.
+- Result: Both trainers act as solid obstacles for boulders and the player.
