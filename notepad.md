@@ -36,3 +36,5 @@
 - Viridian -> Right: No effect.
 - **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
+- **Fly Map Logic:** Indigo -> Right -> Right -> Down = Cinnabar Island.
+- **Hypothesis:** Cinnabar -> Up -> Up -> Right = Saffron City?
