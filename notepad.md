@@ -26,7 +26,8 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: follow the `solve_gym_puzzle` output exactly.
+- Strategy: Solve boulders manually. B7 (6, 1) -> Pit (8, 3). B6 (3, 3) -> Pit (2, 5). B8 (8, 14) -> Pit (8, 7).
+- Boulder 7 (6, 1) Path: From (5, 1), push Right (to 7, 1), then Down (to 7, 2), then move to (7, 2) and push Right (to 8, 2), then move to (8, 1) and push Down (to 8, 3).
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
