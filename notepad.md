@@ -15,10 +15,11 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 19) [Surfing].
+- **Location:** Route 41 (44, 24) [Surfing].
 - **Action:** Navigating to Whirlpool at (42, 24).
-- **Refined Route:** (46, 19) -> South to (46, 23) -> West to (44, 23) -> South to (44, 25) -> West to (42, 25).
-- **Goal:** Reach (42, 25), face North, and use Whirlpool to access Northeast Island.
+- **Immediate Plan:** Surf South to (44, 26), West to (42, 26), then North to (42, 25).
+- **Goal:** Reach (42, 25) to use Whirlpool HM.
+- **Obstacle:** Swimmer Girl at (44, 28). Need to bypass her carefully via Row 26.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
