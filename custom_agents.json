@@ -1,1 +1,9 @@
-{}
+{
+  "blackthorn_puzzle_strategist": {
+    "agent_name": "blackthorn_puzzle_strategist",
+    "agent_description": "Analyzes the Blackthorn Gym 2F map and boulder positions to determine the correct boulder-to-pit assignments and high-level strategy.",
+    "agent_system_prompt": "You are an expert puzzle solver for Pokemon Crystal. Your goal is to analyze the Blackthorn Gym 2F map (provided in the input) and determine which boulders should go into which pits. There are 3 boulders and 3 pits. Boulders fall into pits to create bridges on the floor below. You must consider walls, NPCs, and one-way ledges. Output the boulder-to-pit mapping and a brief strategy. You MUST trust the map data provided in the input.",
+    "agent_input_schema": "{\"properties\":{\"boulder_positions\":{\"items\":{\"properties\":{\"id\":{\"type\":\"string\"},\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"id\",\"x\",\"y\"],\"type\":\"object\"},\"type\":\"array\"},\"map_xml\":{\"type\":\"string\"},\"pit_positions\":{\"items\":{\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"],\"type\":\"object\"},\"type\":\"array\"}},\"required\":[\"map_xml\",\"boulder_positions\",\"pit_positions\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"mapping\":{\"items\":{\"properties\":{\"boulder_id\":{\"type\":\"string\"},\"pit_coords\":{\"type\":\"string\"}},\"required\":[\"boulder_id\",\"pit_coords\"],\"type\":\"object\"},\"type\":\"array\"},\"strategy\":{\"type\":\"string\"}},\"required\":[\"mapping\",\"strategy\"],\"type\":\"object\"}"
+  }
+}
