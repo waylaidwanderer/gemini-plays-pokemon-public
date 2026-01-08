@@ -8,10 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Opening Start Menu to use Fly.
-- **Previous Mistake:** "navigate_menu" toggled the menu on and off repeatedly.
-- **Correct Sequence:** Press Start ONCE.
-- **Immediate Plan:** Press Start, verify menu is open.
+- **Action:** Retrying Open Start Menu.
+- **Previous Mistake:** Menu failed to open on first try (Turn 27496).
+- **Correct Sequence:** Press Start.
+- **Immediate Plan:** Press Start, verify menu is open in next turn.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
