@@ -27,3 +27,9 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
+
+# Puzzle Attempt Log
+- Turn 34269: Restarted puzzle. Testing walkability of central pillars to refine BFS model.
+- Turn 34261: B8 soft-locked at (8, 10). Failed due to incorrect wall assumptions.
+- Hypothesis: Some tiles labeled WALL in the Mental Map (pillars) might be walkable or have walkable gaps.
+- Test 1: Attempt to walk into (4, 5) from (5, 5).
