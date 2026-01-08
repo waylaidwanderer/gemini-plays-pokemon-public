@@ -1,16 +1,15 @@
 # Current Status
 - Location: Whirl Island Lugia's Chamber (3_73).
 - **In Battle:** Wild Lugia (Lv 60).
-- **CRITICAL THREAT:** Lugia likely knows **Whirlwind** (Learned Lv 55). In Gen 2, this ends the battle instantly.
+- **Strategy:** USE MASTER BALL.
+- **Reasoning:**
+  1. Resource Shortage: Only 2 Ultra Balls and 9 Great Balls. Catch rate is too low to risk standard capture without Sleep/False Swipe.
+  2. Risk of Failure: High risk of critical hit KOing Lugia or running out of balls.
+  3. Threat: Potential for Whirlwind (unverified but risky) or other ending moves.
 - Goal: Catch Lugia.
 
 # Battle Strategy: Lugia
-- **Action:** DO NOT ATTACK.
-- **Reason:** Attacking gives Lugia a turn to use Whirlwind.
-- **Plan:**
-  1. Back out of Fight Menu.
-  2. Open Pack.
-  3. **USE MASTER BALL IMMEDIATELY.**
+- **Action:** Open Pack -> Select Master Ball -> Use.
 
 ## Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
