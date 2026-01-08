@@ -8,10 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (New Bark -> Ecruteak -> ?).
-- **Hypothesis:** 'Left' from Ecruteak is blocked. Trying 'Up' chain.
-- **Path:** Left (Cherrygrove) -> Up (Violet) -> Up (Azalea) -> Up (Goldenrod) -> Up (Ecruteak) -> Up (?).
-- **Immediate Plan:** Press Left, Up, Up, Up, Up, Up. Verify destination.
+- **Action:** Navigating Fly Map (Ecruteak -> Goldenrod -> ?).
+- **Hypothesis:** 'Left' from Ecruteak is blocked. Trying 'Down' then 'Left'.
+- **Immediate Plan:** Press Down (to Goldenrod) -> Left (to Olivine?). Verify destination.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
