@@ -6,16 +6,21 @@
 - Push Mechanic: Player stays in the same tile after pushing a boulder. (Verified Turn 34644).
 
 # Verified Obstacles
-- (4, 12), (5, 10), (5, 12), (6, 6), (7, 11), (8, 9) are WALLs.
-- Fran (4, 11) is an impassable NPC (Verified Turn 34709).
-- Cody (4, 1) is an NPC. Testing passability.
+- (4, 1), (4, 2), (4, 11), (4, 12) are Impassable (NPCs or WALLs).
+- (5, 10), (5, 12), (6, 6) are WALLs (pillars).
+- (7, 10), (7, 11) are WALLs.
+- (8, 9) is a WALL.
+- (2, 17) is a WALL.
 
 # Verified Connections
 - (4, 13) is a FLOOR (gap).
+- (7, 12), (7, 13) are FLOORs.
 
-# Strategy: Blackthorn Gym 2F
-- Step 1: Test passability of suspected fake walls: (8, 8), (9, 12), (9, 13), (7, 10).
-- Step 2: Use `solve_puzzle_v5` once a path is found.
+# Investigation Plan (Turn 34740)
+- Goal: Find a hidden path through the segmented corridors.
+- Test 1: Move to (5, 5) and test passability of (4, 5) and (6, 5).
+- Test 2: Test (6, 4) and (6, 6).
+- Test 3: Test (8, 8).
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable.
