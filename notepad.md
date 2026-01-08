@@ -8,9 +8,8 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** In Start Menu (Cursor on POKEMON). Selecting POKEMON.
-- **Immediate Plan:** Select POKEMON -> Select Mistral (Slot 2) -> Fly.
-- **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
+- **Action:** Selecting Mistral to Fly.
+- **Immediate Plan:** Select FLY from menu -> Select Cianwood on map.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
