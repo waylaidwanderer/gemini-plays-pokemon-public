@@ -8,10 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Azalea -> Cianwood).
-- **Current Selection:** Azalea Town.
-- **Hypothesis:** Map wraps vertically? (Violet Up -> Azalea). 'Left' from Violet was blocked.
-- **Immediate Plan:** Press Up (Expect Goldenrod) -> Left (Expect Olivine).
+- **Action:** Navigating Fly Map (Goldenrod -> Cianwood).
+- **Current Selection:** Goldenrod City.
+- **Path:** Up (Ecruteak) -> Left (Olivine) -> Left (Cianwood).
+- **Immediate Plan:** Press Up, Left, Left. Verify destination is Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
