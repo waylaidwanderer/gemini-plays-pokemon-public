@@ -1,12 +1,11 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Confirmed)
 - FLOOR / TALL_GRASS / GRASS: Walkable.
-- WALL / COUNTER / PC: Impassable.
+- WALL / COUNTER / PC / FLOOR_UP_WALL (from North): Impassable.
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
-- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from opposite side.
-- FLOOR_UP_WALL: Hypothesized Impassable from North. (Test: Move Down from 13, 11 to 13, 12).
+- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from opposite side. (Verified FLOOR_UP_WALL impassability Turn 33827).
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
