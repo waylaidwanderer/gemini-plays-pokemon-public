@@ -5,7 +5,7 @@
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
-- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47).
+- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47; 10, 53).
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33871).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33878).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
   - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
@@ -33,6 +33,9 @@
 
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
+- Black Belt Kenji at (11, 50) defeated (Turn 33873).
+- Current Unseen Targets (Reachable): (16, 54-57), (14, 68-70, 72-73), (11-13, 74).
+- Unreachable/Pending: (14, 61-62). (Blocked by FLOOR_UP_WALL at y=58).
 
 # Lessons Learned
 - **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
@@ -40,8 +43,4 @@
 - **Gligar Typing:** Ground/Flying. Immune to Ground.
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground.
 - **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences.
-
-# Exploration Log
-- Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Current Unseen Targets (Reachable): (14, 61), (14, 62), (14, 68-70, 72-73), (11-13, 74).
-- Pathing: Ledge at (10, 53) leads to (10, 54). (Verified Turn 33874).
+- **Phone Calls:** Can interrupt movement and trigger wild battles if you land on a grass tile after the call. (Turn 33875).
