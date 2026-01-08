@@ -5,7 +5,7 @@
 - LEDGE_HOP_DOWN (⤵️): One-way jump North to South.
 - NPCs: Impassable walls (even after defeat).
 - Blackthorn Elevation: Tiered city. Gaps in ledges allow Northward walking (e.g., 13,17; 9,21; 13,23).
-- Pits (Blackthorn Gym): One-way warp to same coords on floor below. Filling pits on 2F bridges paths on 1F.
+- Pits (Blackthorn Gym): One-way warp to the same coordinates on the floor below. Filling pits on 2F bridges paths on 1F.
 - Ladders (Blackthorn Gym): Two-way warp between floors.
 
 # Pokemon & Party Information
@@ -21,12 +21,9 @@
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Strategy: Use Strength to move boulders. Solve one at a time.
+- Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
+- Strategy: Use the `solve_gym_puzzle` tool to find the optimal sequence. Solve one at a time.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
-- Gym Navigation: Use Column 4 gap at (4, 13) to cross between left and right sides.
-## Gym 2F Connectivity
-- Column 4 (Wall): Gaps at Row 11 (NPC Fran) and Row 13.
-- Column 6 (Wall/Object): Gaps at Row 1, 5, 7, 9-17.
-- Main passage between Left and Right sides: Row 13.
+- Gym Navigation: Use Column 4 gap at (4, 13) or Row 1 to cross between left and right sides.
