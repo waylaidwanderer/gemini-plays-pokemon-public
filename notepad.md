@@ -32,7 +32,7 @@
 - Strategy: Switch Gyarados (Lv 36) to lead for Repel trick.
 - Strategy: Use Max Repel to filter encounters (Beasts are Lv 40).
 - Location Plan: Route 31/Violet Gate or Route 36/37.
-- Action: Opening Context Menu for Gyarados (Slot 3).
-- Goal: Locate 'SWITCH' option in the submenu.
-- Reason: Gyarados has field moves (Surf/Waterfall), so menu layout varies. Need to visually confirm 'SWITCH' position.
-- Next: Select 'SWITCH', move cursor to Slot 1 (Muscle), Confirm Swap.
+- Action: Executing Swap: Gyarados (Slot 3) -> Muscle (Slot 1) via Context Menu.
+- Sequence: Down x3 (Switch) -> A -> Up x2 (Slot 1) -> A.
+- Goal: Gyarados (Lv 36) Lead.
+- Next: Exit Menu -> Route 36/37 Boundary.
