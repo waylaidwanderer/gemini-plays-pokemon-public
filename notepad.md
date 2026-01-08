@@ -1,7 +1,7 @@
 # Current Status
-- Location: WhirlIslandB2F (9, 4) [Ladder Island].
-- Action: Getting Item at (6, 4).
-- Immediate Plan: Walk to (7, 4), pick up Item, then Surf West to explore the rest of the floor.
+- Location: WhirlIslandB2F (6, 4) [North Island].
+- Action: Surfing West.
+- Immediate Plan: Surf West from (6, 4) to explore the open water and land.
 - Goal: Find path to B3F.
 
 # Whirl Islands Mapping
@@ -13,7 +13,11 @@
   - Ladder at (17, 3) -> B1F (35, 3) [Taken].
 - **B1F:**
   - Entrance: Ladder at (35, 3) from 1F.
-  - Current Exploration: Heading West from (35, 3).
+  - Ladder to B2F at (25, 21) [Taken].
+- **B2F:**
+  - Entrance: Ladder at (11, 5) from B1F.
+  - Item at (6, 4) (Max Revive) [Got].
+  - Current Exploration: Surfing West.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 41 Owned).
