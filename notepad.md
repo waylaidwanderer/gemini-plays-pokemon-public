@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (12, 29) [NW Dead End].
-- Immediate Plan: Backtrack South to (12, 31). Surf East to (20, 31). Surf South to (20, 34). Enter East Channel at (21, 34) to reach X=22 Highway.
-- Discovery: North from X=12 is a dead end. X=22 appears to be the main Northbound channel.
+- Location: Route 41 (20, 32) [Surfing].
+- Action: Battle with Wild Mantine.
+- Immediate Plan: Run from battle (already caught Mantine). Then Surf South to (20, 34) and East to (22, 34).
 - Goal: Find path to Lugia (B3F).
-- Status: Rerouting to X=22 Channel.
+- Status: Handling Battle.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
