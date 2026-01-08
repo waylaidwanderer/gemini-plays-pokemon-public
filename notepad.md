@@ -1,10 +1,9 @@
 # Game Mechanics & Systems
 ## Tile Mechanics (Verified)
 - FLOOR / TALL_GRASS: Walkable.
-- WALL / COUNTER: Impassable.
+- WALL / COUNTER / FLOOR_UP_WALL (from North): Impassable.
 - LEDGE_HOP_DOWN (⤵️): One-way jump North to South.
-- FLOOR_UP_WALL: Impassable from the North (functions as the wall face below a ledge).
-- Blackthorn Elevation: Tiered city separated by ledges/walls. Gaps allow Northward walking.
+- Blackthorn Elevation: Tiered city separated by ledges/walls. Gaps allow Northward walking (e.g., 13,17; 9,21; 13,23).
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
@@ -13,21 +12,14 @@
 
 ## Strategy for Gym Leader Clair
 - Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
-- Type Matchups: Dragon resists Fire, Water, Electric, Grass. Kingdra is only weak to Dragon.
+- Type Matchups: Dragon resists Fire, Water, Electric, Grass. Kingdra (Water/Dragon) is only weak to Dragon.
 - Tactical Plan:
-  - Lead Xenon for Hypnosis/Confuse Ray and Night Shade (fixed damage).
-  - Use Gneiss for physical bulk and Strength/Earthquake against Dragonairs.
-  - Calcifer is backup; avoid using Fire/Electric moves unless for chip damage.
+  - Lead Xenon: Use Hypnosis and Confuse Ray to disable. Night Shade for consistent 36 damage.
+  - Gneiss: High physical bulk. Use Strength/Earthquake. Earthquake hits hard but Dragonairs resist it? No, Dragon doesn't resist Ground.
+  - Calcifer: High level advantage. Return for neutral damage. Thunderpunch is ineffective against Kingdra/Dragonairs due to resists.
 
 # Exploration Strategy
-## Accessing Route 45 East (Strip 5)
-- The eastern tall grass of Route 45 is accessed via Column 39 of Blackthorn City.
-- Path to Col 39:
-  1. Reach Top Tier (Rows 0-16).
-  2. Navigate to Row 11 Gaps at (32, 11) or (35, 11).
-  3. Reach Row 8 (Ice Path area).
-  4. Move East to (39, 8) and jump south down the corridor.
-
-# Obstacles & Solutions
-- Blackthorn Maze: City is traversable via specific gaps in ledges (e.g., Col 9 at Row 21, Col 13 at Row 23).
-- (37, 20) Wall: Impassable from North; Col 37 is a dead end. Must use Col 39.
+## Accessing Route 45 East
+- Reach Row 8 (Ice Path level) via the Column 35 gap.
+- Move East to (39, 8) to enter the eastern corridor.
+- Jump south to reach the isolated eastern grass of Route 45.
