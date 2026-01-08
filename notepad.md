@@ -15,8 +15,8 @@
 
 ## Strategic Plan
 1. Trust Game State collision types (WALL, FLOOR) as absolute truth.
-2. Use run_code to solve for each boulder individually to identify specific reachability bottlenecks.
-3. Verify player reachability to the right side of B8 at (9, 11) and (9, 10).
+2. Use run_code to find a valid path for B8 (8,14) -> P3 (8,7) that accounts for player reachability.
+3. Specifically test if column 9 is the key to pushing boulders Left.
 4. Execute the resulting sequence.
 
 ## Lessons Learned
