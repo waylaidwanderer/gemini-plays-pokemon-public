@@ -23,14 +23,14 @@
 
 # Exploration Log
 - Items: Max Potion (7, 33), Mysteryberry (16, 82).
-- Path to Eastern Route 45 (Strip 5, x=16-17):
-  1. (7, 24) -> (25, 24)
-  2. (25, 24) -> (25, 29) (Gap in Row 28 at x=24-29)
-  3. (25, 29) -> (31, 29)
-  4. (31, 29) -> (31, 33) (Gap in Row 32 at x=30-31)
-  5. (31, 33) -> (25, 33)
-  6. (25, 33) -> (25, 35) (Gap in Row 34 at x=20-27)
-  7. (25, 35) -> (17, 35) (Entrance to Strip 5)
+- Strategy: RESET COMPLETE. Navigating complex path to Route 45 eastern high ground.
+- Path to Strip 5 (x=16-17):
+  1. (13, 23) -> (18, 24) -> (24, 27).
+  2. (24, 27) -> (24, 29) (Gap in Row 28 at x=24-29).
+  3. (24, 29) -> (31, 29) (Gap in Row 30 at x=31).
+  4. (31, 29) -> (31, 33) (Gap in Row 32 at x=30-31).
+  5. (31, 33) -> (25, 33) -> (25, 35) (Gap in Row 34 at x=20-27).
+  6. (25, 35) -> (17, 35) (Entrance to Strip 5). (Updated Turn 33971).
 
 # Lessons Learned
 - Blackthorn Maze: Southern walls at Row 32, 34 are hard barriers from the North.
