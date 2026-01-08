@@ -1,9 +1,9 @@
 # Current Status
 - Location: Route 41 (18, 40) [Surfing].
-- Immediate Plan: Surf to (29, 28) to find a path East through the buoys.
-- Reasoning: Direct East path blocked. North path blocked at X=24 until Y=28.
+- Immediate Plan: Surf West to (12, 39), land on SW Island, walk to West shore, then Surf South to Y=45.
+- Reasoning: Trapped in East pocket. Must cross SW Island to access outer channel and South Highway (Y=45).
 - Goal: Find path to Lugia (B3F).
-- Status: Navigating Buoy Maze.
+- Status: Relocating to West side of SW Island.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
