@@ -16,7 +16,7 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36). Target Lv40 using Route 45 wild encounters.
-- Training Plan: Train XENON and KIMCHI to Lv40 on Route 45. Focus on high-EXP targets like Donphan and Gligar.
+- Training Plan: Train XENON (Night Shade) and KIMCHI (Acid/Cut) to Lv40 on Route 45. Focus on high-EXP targets like Donphan and Gligar.
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
 
 # Obstacles & Solutions
