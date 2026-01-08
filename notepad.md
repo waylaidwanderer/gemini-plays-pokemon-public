@@ -26,10 +26,19 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Current Boulder Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Use a robust BFS script via `run_code` to find the correct sequence of moves for all 3 boulders. My manual pathing was failing because I was likely misinterpreting wall collisions.
-- Observation: (5, 0), (7, 0), (8, 0) are marked as walls in the XML, which complicates pushing boulders DOWN from Row 1.
-- Hypothesis: Boulders must be moved through the central corridor (Column 5) or around the perimeter to reach their target pits.
-- Current Status: Activating Strength at (5, 1) by interacting with Boulder 7. Once active, I will proceed with the puzzle.
+- Strategy: Manually solve the puzzle using a step-by-step plan.
+- Boulder 7 (6, 1) -> Pit (8, 3):
+  1. From (5, 1), push Right. B7 moves to (7, 1). Player to (6, 1).
+  2. From (6, 1), push Right. B7 moves to (8, 1). Player to (7, 1).
+  3. From (7, 1), push Right. B7 moves to (9, 1). Player to (8, 1).
+  4. Move Down to (8, 2), then Right to (9, 2).
+  5. From (9, 2), push Left. B7 moves to (8, 2). Player to (9, 2).
+  6. Move Up to (9, 1), then Left to (8, 1).
+  7. From (8, 1), push Down. B7 falls into Pit (8, 3).
+- Boulder 6 (3, 3) -> Pit (2, 5): (Plan pending verification of reachable tiles around (4, 3)-(4, 5)).
+- Boulder 8 (8, 14) -> Pit (8, 7): (Plan pending verification).
+- Observation: (5, 0), (7, 0), (8, 0) are walls. Column 4 is mostly walls. Column 6 is mostly walls. Row 4 is mostly walls. Row 1 is a key traversal route.
+- Current Status: Strength is active. Standing at (5, 1) facing Boulder 7 at (6, 1). Ready to execute Step 1.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
