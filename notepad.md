@@ -1,9 +1,9 @@
 # Current Status
 - Location: Route 41 (14, 40) [Surfing].
 - Action: Caught Mantine (Delta).
-- Immediate Plan: Traverse SW Cave from (12, 37) to Ladder (3, 3) -> B1F. Then to B2F.
+- Immediate Plan: Take Ladder at (3, 3) to B1F.
 - Goal: Find path to Lugia (B3F).
-- Status: Entering SW Cave.
+- Status: Traversing SW Cave towards B1F.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
