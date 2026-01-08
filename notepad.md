@@ -15,9 +15,11 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Immediate Plan:** Surf South down Col 48 to (48, 19), then West to (46, 19).
-- **Key Route:** From (46, 19), Surf **NORTH** to (46, 16), then West to Land (43, 16).
-- **Correction:** Previously went South at (46, 19) into a dead end. The landing spot is North of the cross-over point.
+- **Location:** Route 41 (46, 19) [Surfing].
+- **Action:** Navigating to Whirlpool at (42, 24).
+- **Immediate Plan:** Surf South to (46, 24), then zigzag West/South to (42, 26), then North to the Whirlpool.
+- **Route:** (46, 19) -> (46, 24) -> (45, 24) [Blocked] -> (45, 25) -> (44, 25) -> (44, 26) -> (42, 26) -> (42, 24).
+- **Goal:** Cross Whirlpool to access Northeast Island landing.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
