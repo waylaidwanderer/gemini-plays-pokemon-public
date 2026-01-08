@@ -7,9 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Accidental Fly).
-- **Action:** Flying to Cianwood City (Retry).
-- **Note:** Previous fly attempt landed in New Bark Town. Retrying navigation to Cianwood.
+- **Location:** New Bark Town (In Fly Menu).
+- **Action:** Opening Fly Map to select Cianwood City.
+- **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
+- **Fixed:** `find_path` tool updated to handle ledges.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
