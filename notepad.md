@@ -7,9 +7,12 @@
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Cave Entrance at (36, 19).
   - **Access:** Must land at **(36, 22)** (South side).
-  - **East Landing (41, 19):** Dead end for entry. Can only exit via ledges.
-  - **North Ledge (36, 16):** BLOCKED.
-  - **Path:** Surf South to Row 28, West to **Column 28**, North to Row 22, then East to landing. (Column 30 blocked by buoy at Row 24).
+  - **Path:**
+    1. Clear Whirlpool at **(22, 12)**.
+    2. Surf South down Column 22 to **(22, 28)**.
+    3. Surf East along Row 28 to **(34, 28)**.
+    4. Surf North up Column 34 to **(34, 22)**.
+    5. Surf East to Landing at **(36, 22)**.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Got].
