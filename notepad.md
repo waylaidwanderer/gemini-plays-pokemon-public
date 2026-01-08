@@ -15,6 +15,12 @@
 - Test 7: (8, 8) and (8, 9) -> Pending.
 - Test 8: (2, 9) and (2, 13) gaps -> Pending.
 
+# Verified Obstacles (2F)
+- Column 4: (4, 1), (4, 9), (4, 10), (4, 11), (4, 12) are WALLs.
+- Column 6: (6, 3) is WALL.
+- Column 7: (7, 10), (7, 11) are WALLs.
+- Column 9: (9, 13) is WALL.
+
 # Strategy: Blackthorn Gym 2F
 - Step 1: Systematically walk into every "WALL" tile adjacent to boulder paths.
 - Step 2: Update map based on findings.
