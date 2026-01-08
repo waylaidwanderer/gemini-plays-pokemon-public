@@ -8,8 +8,8 @@
 
 # Current Status
 - **Location:** Olivine City (16, 10).
-- **Action:** Pathfinding to Pokemon Center.
-- **Path:** Zigzag route: West to gap at Row 14 (x=9), then East to gap at Row 18 (x=16), then to PC.
+- **Action:** Manual navigation (Zigzag).
+- **Plan:** Down to Row 12 -> West to x=9 -> Down to Row 16 -> East to x=16 -> South to Row 22 -> PC.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
