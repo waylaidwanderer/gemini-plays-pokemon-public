@@ -5,8 +5,8 @@
 
 ## Strategy: Dragon User Challenge
 1. Heal party at Blackthorn Pokemon Center. (DONE)
-2. Navigate to the area north (behind) the Blackthorn Gym.
-3. Locate entrance to Dragon's Den.
+2. Navigate to the water behind (North) the Blackthorn Gym (roughly Columns 16-20, Rows 4-7).
+3. Locate the entrance to Dragon's Den (likely a cave or building warp).
 4. Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
@@ -17,6 +17,7 @@
 - COUNTER: Impassable interaction point for Nurse/Clerk. Face and press A from adjacent tile.
 - PC: Access Pokemon storage.
 - WATER: Traversable only while Surfing.
+- LEDGE_HOP_DOWN: Southward one-way jump. Impassable from other directions.
 
 ## Blackthorn Gym Puzzle (2F) - SOLVED
 - Status: Boulders pushed into pits.
@@ -28,6 +29,7 @@
 - Type Effectiveness (Gen 2):
     - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
     - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass (0.5x). Weak to Dragon. Ice is neutral.
+    - Note: In Gen 2, Dragon resists Fire, Water, Electric, and Grass. Water resists Fire, Water, and Ice.
     - Note: High level differences (e.g., Lv49 vs Lv40) can make resisted damage appear neutral.
 - NPC Interaction: Counter tiles act as barriers; interact with NPCs across them.
 - Ledge Traversal: LEDGE_HOP_DOWN tiles allow one-way movement south. They act as walls from the south.
