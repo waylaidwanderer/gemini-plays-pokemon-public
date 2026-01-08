@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandB1F (9, 31) [SW Corner].
-- Action: Exiting B1F via Ladder.
-- Observation: Found another ladder at (9, 31) in the SW corner. Ladder at (13, 27) remains inaccessible from here.
-- Immediate Plan: Take Ladder at (9, 31).
+- Location: WhirlIslandSW (3, 3) [Upper Room].
+- Action: Investigating Exit.
+- Observation: Arrived via Ladder from B1F (SW Corner). This seems to be a separate section of the SW Island.
+- Immediate Plan: Exit via the Warp Carpet at (5, 7).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
@@ -14,21 +14,22 @@
 - **B1F:**
   - Entrance: Ladder at (35, 3) from 1F.
   - Ladder to B2F at (25, 21) [Taken].
+  - Ladder at (9, 31) -> SW (3, 3) [Taken].
 - **B2F:**
   - Entrance: Ladder at (11, 5) from B1F.
   - Item at (6, 4) (Max Revive) [Got].
   - Waterfall at (12, 14) -> Basin (12, 27).
   - Ladder at (13, 31) -> SW (17, 15) [Taken].
 - **SW Island (Interior):**
-  - Entrance from B2F: (17, 15).
-  - Ledge (17, 15) -> Surf West -> Land (5, 14).
-  - Ladder at (3, 15) -> NW (3, 15) [Taken].
+  - Section A (Ledge): Entrance (17, 15) from B2F. Connects to Section B via Surf.
+  - Section B (Lower): Ladder at (3, 15) -> NW (3, 15) [Taken].
+  - Section C (Upper): Entrance (3, 3) from B1F. Exit at (5, 7).
 - **NW Island (Interior):**
   - Entrance from SW: (3, 15).
   - Ladder at (7, 15) -> Cave (3, 13) [Taken].
 - **Cave Area (3_69):**
   - Entrance: Ladder at (3, 13) from NW.
-  - Current Exploration: Heading North.
+  - Warp at (7, 5) -> B1F (17, 21) [Taken].
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 41 Owned).
