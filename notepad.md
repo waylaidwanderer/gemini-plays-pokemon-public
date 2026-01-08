@@ -45,3 +45,6 @@
 - **Battle:** vs Sailor Harry (Route 38).
 - **Opponent:** Wooper (Lv 19).
 - **Strategy:** Muscle (Lv 85) use Strength.
+- **Battle:** vs Lass Dana (Route 38).
+- **Status:** Pre-battle dialogue.
+- **Strategy:** Muscle (Lv 85) use Strength.
