@@ -10,10 +10,12 @@
 - Column 8: Potential path to P1/P3. Testing walls at (8, 8-9).
 
 ## Puzzle Plan
-- Goal: Move B8 from (8, 12) to P3 (8, 7) or P1 (8, 3).
-- Step 1: Push B8 Up to (8, 10).
-- Step 2: Test if B8 can be pushed into (8, 9) and (8, 8).
-- Step 3: If blocked, explore horizontal exits in Column 8 (Rows 10-13).
+- Goal: Fill all three pits.
+- Assignment: B6 -> P2 (2, 5), B7 -> P1 (8, 3), B8 -> P3 (8, 7).
+- B8 Strategy: Push Up Column 8. Verify (8, 9) and (8, 8) are passable.
+- B7 Strategy: Push Right to Column 8, then Down to P1.
+- B6 Strategy: Push Up to Row 1, then Left through (4, 1) to P2.
+- Step 1: Push B8 to (8, 9) to confirm path.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
