@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33921).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33922).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead XENON (Ghost immunity to Selfdestruct).
   - Progress: Xenon Lv36, Kimchi Lv33.
@@ -33,8 +33,8 @@
 # Exploration Log
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
-- Basin Hypothesis: Middle strip (x=4-11) is a basin from y=68 to y=87.
-- Basin Escape: North to y=81, then West to Strip 1 (x=0-2), then South to Row 89.
+- Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
+- Strategy: To reach the southern Row 89 and eastern tiles, I must Fly to Blackthorn and enter the easternmost strip from the root.
 - Blocked Unseen: (14, 61-62). (Hypothesis: Reachable via Dark Cave or alternate strip).
 - Target Unseen: (17-19, 86-89) in the right strip.
 
