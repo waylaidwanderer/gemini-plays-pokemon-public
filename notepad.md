@@ -6,8 +6,9 @@
 
 # Puzzle Analysis (2F)
 - Problem: B8 is currently trapped in Column 8. B6 and B7 are clear.
-- Hypothesis: There is a fourth boulder or a way to cross from left to right I haven't used yet.
-- Goal: Search the bottom-left area (Cols 0-1, Rows 13-17) for hidden boulders or paths.
+- Hypothesis: Statues (e.g., 4, 10) are passable floor tiles.
+- Test: Attempt to walk into (4, 10) from (3, 10).
+- Goal: Verify if statues block movement.
 
 # Tile Mechanics (2F)
 - WALL: (4, 0, 2-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11, 14, 15), (9, 12-17).
