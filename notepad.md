@@ -21,6 +21,7 @@
     11. Confirmed: Ladder at (13, 11) is an EXIT from B1F. Must access via B1F.
     12. Navigate to Upper Ladder at (17, 3) to enter B1F.
     13. On B1F: Find path to Ladder Up at approx (13, 11).
+    14. Note: Upper Ladder at (17, 3) was previously used to exit B1F. Retracing steps to re-enter.
 - **1F (NE):**
   - Entrance: (3, 13).
   - Item: (11, 11) [Visible].
