@@ -1,6 +1,6 @@
 # Current Status
-- Immediate Plan: Buy Ultra Balls at Olivine Mart, then Heal at Center.
-- Reasoning: Preparing for Lugia catch. Lapis is fainted and needs healing.
+- Immediate Plan: Buy Great Balls at Olivine Mart (Ultra not avail), then Heal at Center.
+- Reasoning: Olivine Mart doesn't stock Ultra Balls. Adapting to buy Great Balls.
 - Goal: Buy Balls -> Heal -> Surf to Whirl Islands.
 
 # Whirl Islands Mapping
