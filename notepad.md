@@ -22,3 +22,8 @@
 - **DOOR:** Warp tile.
 - **WATER:** Requires Surf to traverse.
 - **Note:** Verification of tile mechanics is ongoing.
+## Fly Map Navigation (Kanto)
+- Vertical Axis seems dominant or wraps.
+- Indigo <-> Cinnabar (Down from Indigo).
+- Pallet -> Viridian -> Pewter -> Cerulean (Up sequence).
+- Viridian -> Right: No effect.
