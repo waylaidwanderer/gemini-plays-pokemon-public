@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Copycat's House 2F.
-- **Action:** Giving Lost Item to Copycat.
+- **Action:** Heading to Magnet Train Station.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
@@ -17,9 +17,10 @@
   - Fly: Mistral (Pidgey).
 - **Quest:** 
     1. Travel to Saffron City -> Talk to Copycat (Done).
-    2. Return to Vermilion Fan Club -> Get Doll (Done - Have 'Lost Item').
-    3. Saffron Copycat -> Get Pass.
-    4. Goldenrod -> Whirl Islands.
+    2. Return to Vermilion Fan Club -> Get Doll (Done).
+    3. Saffron Copycat -> Get Pass (Done - Have 'PASS').
+    4. Take Magnet Train to Goldenrod.
+    5. Goldenrod -> Whirl Islands.
 
 ## Tile Mechanics
 - **FLOOR:** Standard traversable tile.
