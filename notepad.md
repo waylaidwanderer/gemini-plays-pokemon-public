@@ -32,4 +32,4 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
-- Current Status: Strength active. Standing at (7,12). Boulder 8 at (8,14).
+- Current Status: Strength active. Standing at (7,9) on 1F. Transitioning to Left side via ladder at (1,7).
