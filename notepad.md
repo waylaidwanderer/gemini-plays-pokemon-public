@@ -8,7 +8,7 @@
 - Strength: Deactivated by ladders/warps. Re-activate by interacting with a boulder.
 - Pushing: 
   - First push (Strength activation): Player stays in place.
-  - Subsequent pushes: Player moves into the boulder's old tile. (Verified Turn 34819).
+  - Subsequent pushes: Player moves into the boulder's old tile. (Verified Turn 34815).
 - Ladders: (1, 7) and (7, 9) reset boulder positions on 2F.
 
 # Tile Mechanics (2F)
