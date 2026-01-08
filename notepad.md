@@ -26,7 +26,7 @@
 - **Hygiene:** Notepad and markers are good.
 
 - Location: Route 37 (North Grass).
-- Status: Repel Wore Off.
-- Action: Re-applying Repel.
-- Sequence: Close Text -> Menu -> Use Repel.
-- Hunt Session: Turn 28820.
+- Status: Menu Navigation.
+- Action: Opening Pack to use Repel.
+- Sequence: Start -> Down x2 -> A (Open Pack).
+- Hunt Session: Turn 28822.
