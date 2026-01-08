@@ -21,7 +21,7 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Swapping to KIMCHI (Turn 33786).
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33787).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33789).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
 
@@ -45,7 +45,6 @@
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground. (Turn 33588).
 - **Menu Precision:** Avoid rushing in deep menus to prevent errors like opening Pokedex instead of Pack. (Turn 33626).
 - **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences. (Turn 33694).
-- **Reflection (Turn 33787):** Addressed overwatch feedback. Cleaning up redundant notepad info. Root training hypothesis remains valid despite Graveler explosions; strategy adjusted to move EXP.SHARE to Kimchi.
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
