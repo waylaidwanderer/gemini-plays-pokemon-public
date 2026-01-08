@@ -14,7 +14,9 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Plan: Verify connectivity between vertical strips at Row 1 and Row 6 without using ladders.
+- Plan: Use Row 13 gap (4, 13) and (5, 13) to move between Middle and Right corridors.
+- Note: B6 (3, 3) cannot be pushed left from (4, 3) due to WALL. Investigate alternative paths or boulder-pit assignments.
+- Note: Cody (4, 1) and Fran (4, 11) are likely walls. Verification needed.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
