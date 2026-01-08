@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Magnet Train Station (Saffron).
-- **Action:** Boarding train to Goldenrod.
+- **Action:** Talking to Officer to board train.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
