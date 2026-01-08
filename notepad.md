@@ -1,15 +1,15 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Battle Task: Revive and Heal Calcifer (Started Turn 35185)
-- Current Turn: 35200
+- Current Turn: 35202
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen. (HP: 100%)
 - Status: Xenon fainted. Calcifer (Lv49) at 77/155 HP (Revived). Kimchi (Lv33) is out.
-- Strategy: Kingdra likely paralyzed (Sleep Powder failed). Kimchi's accuracy fell (Turn 35197).
-- Plan: Find Max Potion in the bag, use it on Calcifer (Turn 35200), then switch him back in.
+- Strategy: Kingdra likely paralyzed. Kimchi's accuracy fell (Turn 35197).
+- Plan: Use Max Potion on Calcifer (Turn 35202), then switch him back in.
 - Note: Kingdra is Water/Dragon. Weak only to Dragon-type moves in Gen 2. Electric/Grass are neutral due to Water typing. (Grass resists Water).
 
 ## Tile Mechanics
