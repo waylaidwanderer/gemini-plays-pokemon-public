@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 11) [In Battle].
-- **Action:** Running from Wild Tentacruel.
-- **Immediate Plan:** Run -> Navigate to (40, 7) via (45, 9) to bypass George and buoys.
+- **Location:** Route 41 (46, 11) [Surfing].
+- **Action:** Cleared battle text, resuming navigation.
+- **Immediate Plan:** Navigate to (40, 7) via (45, 10) to bypass George and buoys. Then head West to finding the island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
