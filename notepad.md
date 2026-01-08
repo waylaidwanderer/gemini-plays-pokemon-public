@@ -14,8 +14,6 @@
 - Corridor 4 (x=8, 9) connects to the bottom open area at Row 12/13.
 - Corridor 2 (x=2, 3) connects to the bottom open area at Row 13.
 - Corridor 3 (x=5, 6) is accessed via the Ladder at (7, 9).
-
-# Verified Connections
 - Row 13 gap at (4, 13) is passable.
 
 # Strategy: Blackthorn Gym 2F
