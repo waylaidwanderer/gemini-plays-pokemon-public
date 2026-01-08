@@ -20,9 +20,10 @@
 ## Blackthorn Gym Boulder Puzzle (2F)
 - Goal: Push 3 boulders into pits on 2F to create a path on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Boulder 8: Already pushed into pit (8, 7).
-- Boulder 6 (3, 3) -> Pit (2, 5): Requires pushing Down, Left, then Down.
-- Boulder 7 (6, 1) -> Pit (8, 3): Requires pushing Right, Right, then Down.
+- Initial Positions: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
+- Solution for Boulder 6 -> Pit (2, 5):
+  1. Push Down from (3, 2) to (3, 4).
+  2. Push Left from (4, 4) to (2, 4). (Wait, (4, 4) is a wall).
 - Access to Right Side (Col 5-9): Cross via Row 13-17 in Column 4.
 
 # Obstacles & Solutions
