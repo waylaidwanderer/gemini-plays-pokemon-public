@@ -1,6 +1,8 @@
 # Current Status
-- Location: WhirlIslandB1F (31, 17) [Central Area].
-- Goal: Explore West Area of B1F to find path to B2F.
+- Location: WhirlIslandB1F (28, 17) [Central Area].
+- Action: Moving to Ladder at (25, 21).
+- Immediate Plan: Clear Repel text. Navigate West to (25, 17) then South to (25, 21).
+- Goal: Enter B2F.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
