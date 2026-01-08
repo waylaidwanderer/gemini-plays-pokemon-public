@@ -28,3 +28,11 @@
 - **Basin Navigation:** Some strips are connected at specific latitudes (e.g., y=83 connects middle and right strips).
 - **Blackthorn Zigzag:** A wall at Row 32 blocks column 21-29. Use the gap at column 16-17. A wall at Row 34 blocks column 15-19. Use the gap at column 20-21.
 - **Menu Verification:** Always check the current screen before executing long button sequences to avoid logic loops.
+
+# Exploration Strategy (Blackthorn/Route 45)
+- Tiered City: Row 21/23/28/30/32/34 contain one-way ledges/walls.
+- Northward Gaps: (9, 21), (19, 21), (33, 21) are FLOOR tiles in the ledge line.
+- Goal: Reach eastern Route 45 (Strip 5, x=16-17).
+- Current Position: (24, 29). Heading to (33, 21) to reach upper tier.
+- Plan: Once on upper tier, explore NE Blackthorn for an exit to Strip 5.
+- Backup: Search Route 45 for eastern transitions (e.g. Ledge Hop Right). (Turn 33964).
