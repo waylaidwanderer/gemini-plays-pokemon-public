@@ -1,17 +1,16 @@
 # Current Status
 - Location: Whirl Island Lugia's Chamber (3_73).
 - **In Battle:** Wild Lugia (Lv 60).
+- **CRITICAL THREAT:** Lugia likely knows **Whirlwind** (Learned Lv 55). In Gen 2, this ends the battle instantly.
 - Goal: Catch Lugia.
 
 # Battle Strategy: Lugia
-- **Lead:** Muscle (Lv 85 Machoke).
-- **Move:** Cross Chop (Fighting).
-  - Effectiveness: 0.25x (Fighting vs Psychic/Flying).
-  - Purpose: Weaken safely without OHKO.
-  - Risk: High crit rate.
-- **Catching:**
-  - Throw Ultra Balls/Great Balls when HP is low (Red/Yellow).
-  - Use Master Ball if necessary/shiny.
+- **Action:** DO NOT ATTACK.
+- **Reason:** Attacking gives Lugia a turn to use Whirlwind.
+- **Plan:**
+  1. Back out of Fight Menu.
+  2. Open Pack.
+  3. **USE MASTER BALL IMMEDIATELY.**
 
 ## Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
