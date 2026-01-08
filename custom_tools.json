@@ -46,22 +46,6 @@
       }
     ]
   },
-  "try_cut_tree": {
-    "description": "Checks the tile in front of the player for a cuttable tree and attempts to cut it. Returns true if a tree was cut, false otherwise.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "# This script would ideally inspect the map data for a tree object.\n# Since we can't directly inspect live RAM, we'll try to press the button sequence for CUT.\n# \"Start\" -> \"Pokemon\" -> Select Oddish -> \"Cut\"\n# Or interacting with the tree \"A\".\n# In Gen 2, you can just press A on the tree.\n# So we will return the button \"A\".\nimport json\nprint(json.dumps([\"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-28T17:46:48.214Z",
-        "action_counter": 23754
-      }
-    ]
-  },
   "navigate_menu": {
     "description": "Navigates menus by holding direction buttons for a specified duration to ensure registration, with delays between inputs. Useful for the Fly map and other sticky menus.",
     "input_schema": {
@@ -201,6 +185,44 @@
         "commit_message": "Refined obstacle detection to include <Object> tags and <Marker> tags with object_id, preventing pathing through NPCs.",
         "timestamp": "2026-01-08T21:34:10.018Z",
         "action_counter": 28681
+      }
+    ]
+  },
+  "execute_hunt_routine": {
+    "description": "Automates the Roaming Beast hunt loop between Ecruteak City and Route 37. Handles map transitions and grass hunting sequence.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_map_id": {
+          "type": "string"
+        },
+        "player_position": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer"
+            },
+            "y": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ]
+        }
+      },
+      "required": [
+        "current_map_id",
+        "player_position"
+      ]
+    },
+    "python_script": "import json\n\ndef execute_hunt_routine(current_map_id, player_position):\n    \"\"\"\n    Automates the Roaming Beast hunt loop between Ecruteak City and Route 37.\n    \"\"\"\n    y = player_position['y']\n    \n    if current_map_id == '4_9': # Ecruteak\n        return json.dumps([\"Down\"])\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle (4 steps), Return (2 steps), Exit (1 step)\n             return json.dumps([\"Down\", \"Down\", \"Left\", \"Right\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\"])\n        else: # In Grass (or deeper)\n             # Just finish wiggle and leave\n             return json.dumps([\"Left\", \"Right\", \"Up\", \"Up\", \"Up\"])\n             \n    return json.dumps([])",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T23:05:10.322Z",
+        "action_counter": 28832
       }
     ]
   }
