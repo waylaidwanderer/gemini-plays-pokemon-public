@@ -25,3 +25,12 @@
 
 # Resource Locations
 - Route 45: Good training spot for Haunter.
+
+# Puzzle Analysis (2F)
+- B6 is trapped in the top-left area (Cols 0-3, Rows 0-7) by Row 8 WALLs and Col 4 WALLs/NPCs.
+- P2 (2, 5) is also in the top-left area.
+- Hypothesis: B6 must go into P2. This requires pushing B6 LEFT from Col 3.
+- Obstacle: Column 4 is almost entirely WALLs/NPCs.
+- Test: Check if Cody (4, 1) is passable after defeat. If so, B6 can be pushed from (3, 1) to (2, 1).
+- Alternative: B7 or B8 crosses to the left side at (4, 13) FLOOR to reach P2.
+- Current B6 Position: (3, 3).
