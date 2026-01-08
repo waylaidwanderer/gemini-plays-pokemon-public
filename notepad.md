@@ -8,9 +8,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (13, 23).
-- **Action:** Surfing to Route 40.
-- **Immediate Plan:** Clear text (B) -> Surf South to Route 40.
+- **Location:** Olivine City (13, 23) [Surfing].
+- **Action:** Surfing South to Route 40.
+- **Immediate Plan:** Clear text (B) -> Surf South -> Enter Route 40.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
