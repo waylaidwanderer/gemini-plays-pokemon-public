@@ -18,18 +18,22 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33811).
-  - Goal: Xenon and Kimchi to Lv40.
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33814).
   - Method: KIMCHI holds EXP.SHARE for safe leveling. GNEISS (Lv48) or CALCIFER (Lv49) lead to finish battles efficiently. Avoid switching KIMCHI into Gravelers (Selfdestruct risk).
+  - Verification: Checking KIMCHI's stats in battle to confirm EXP.SHARE. (Turn 33814).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
 - Strategy:
-  - GNEISS (Lv48): Use STAB Earthquake vs Dragonair.
+  - GNEISS (Lv48): Use STAB Earthquake vs Dragonair. (Immune vs Gligar/Dragonair? No, Dragonair is pure Dragon).
   - XENON (Lv36): Use Night Shade (fixed damage) and Hypnosis vs Kingdra.
   - CALCIFER (Lv49): Use Return or Thunderpunch as high-damage backup.
   - KIMCHI (Lv32): Use Sleep Powder for status control if needed.
+
+# Tile Mechanics (Verification Tasks)
+- FLOOR_UP_WALL: Test impassability by walking Down from (13, 11) to (13, 12).
+- LEDGE_HOP (⤵️, ↩️, ↪️): Confirm one-way movement on Route 45 ledges.
 
 # Lessons Learned
 - **Inventory Verification:** Always verify Bag/PC contents. (Turn 33203).
