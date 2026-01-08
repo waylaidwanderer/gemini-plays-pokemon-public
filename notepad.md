@@ -39,3 +39,10 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
+
+# Puzzle Analysis [Turn 34306]
+- Column 9 Accessibility: Column 9 (Rows 1-3 and 5-11) is accessible from the top-right corner at (9, 1).
+- Column 8 Isolation: Column 8 is split by walls at (8, 4), (8, 8), and (8, 9). B8 at (8, 14) is in the bottom segment.
+- Hypothesis: Row 12 pillar at (9, 12) is a fake wall, allowing the player to reach Column 9 to push B8 Left.
+- Test 5: Attempt to walk into (9, 12) from (8, 12).
+- If Test 5 fails: B8 MUST be pushed Left into Column 6. This requires finding a walkable gap in Column 7 pillars (7, 10-15).
