@@ -34,3 +34,10 @@
 - Goal: Xenon and Kimchi to Lv40.
 - Started: Turn 30928.
 - Progress: Haunter Lv36, Gloom Lv33.
+
+# Observation (Turn 34896)
+- Attempted to move Right from (5, 1). System warned of boulder at (6, 1), but Game State says boulder is at (7, 1).
+- Text "GNEISS can move boulders" appeared. Strength is active.
+- Player remained at (5, 1).
+- Hypothesis: Boulder 7 might have been at (6, 1) and I pushed it to (7, 1), but the player didn't follow? Or the warning is about the *target* tile after the push?
+- Goal: Inspect Boulder 8 at (8, 14) and verify path to pits.
