@@ -5,21 +5,22 @@
 - Floor Reset: Using a ladder or falling into a pit resets all boulder positions on 2F.
 - Push Mechanic: Player stays in the same tile after pushing a boulder.
 
+# Puzzle Investigation (Turn 34721)
+- Problem: BFS and manual analysis suggest all boulders are blocked from all pits by WALLs.
+- Hypothesis: One or more tiles marked as WALL are actually passable FLOORs.
+- Target 1: (8, 9) - If passable, B8 can reach P3 (8, 7) directly.
+- Target 2: (8, 8) - Same as above.
+- Target 3: (4, 1) NPC Cody - If passable, B6 can reach P2 (2, 5).
+
 # Verified Obstacles
 - (5, 10), (5, 12), (6, 6) are WALL tiles.
-- NPCs Fran (4, 11) and Cody (4, 1) are impassable.
-- Corridor 4 (x=8) is blocked north of y=10 by WALLs at (8, 8) and (8, 9).
+- NPC Fran (4, 11) is impassable.
 - Corridor 4 (x=9) is blocked at (9, 4) and (9, 12).
 
-# Verified Connections
-- Row 13 gap at (4, 13) and (5, 13) is passable.
-- Corridor 3 (x=5, 6) is segmented: (5, 10) and (5, 12) block vertical movement in column 5.
-- Corridor 3 (x=6) allows movement from (6, 11) up to (6, 7). (6, 6) is a WALL.
-
-# Strategy: Blackthorn Gym 2F
-- Step 1: Reset boulders to default positions using Ladder at (7, 9). (In progress)
-- Step 2: Use `solve_puzzle_v5` from (7, 9) on 2F to find the solution.
-- Step 3: Execute the sequence.
+# Strategy
+- Test passability of suspected walls one by one.
+- Update map markers and notepad with results.
+- Re-run `solve_puzzle_v5` after each discovery.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable.
