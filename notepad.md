@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Pokemon Menu).
-- **Action:** Selecting 'FLY'.
-- **Sequence:** A (Select Fly) -> Map Opens.
+- **Location:** New Bark Town (Start Menu).
+- **Action:** Selecting 'POKÉMON' menu option.
+- **Sequence:** A -> Select Mistral (Pidgey) -> Select FLY.
 - **Next:** Navigate map cursor to Cianwood City (West).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
