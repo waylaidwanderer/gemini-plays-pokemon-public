@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Route 6 (North of Vermilion).
-- **Next Step:** Walk to Saffron City -> Talk to Copycat.
+- **Next Step:** Walk to Saffron City -> Switch PC Box -> Talk to Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
