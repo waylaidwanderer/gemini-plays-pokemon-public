@@ -1,6 +1,6 @@
 # Current Status
-- Location: Whirl Island B2F (Top of Waterfall).
-- Immediate Plan: Descend Waterfall at (12, 14) to reach the Basin.
+- Location: Whirl Island B2F (Basin/Bottom Area).
+- Immediate Plan: Explore the land to the West (Left) of the basin before taking the ladder.
 - Goal: Find Lugia in the Basin (B3F).
 
 # Whirl Islands Mapping
@@ -9,21 +9,28 @@
   - Ladder to B2F: (25, 21) [Taken].
 - **B2F (Current):**
   - Entrance: Ladder at (11, 5).
-  - West Section (Items 1 & 3, Ladder 7,11): **Inaccessible** from here (blocked by wall at Col 11). Must access via another route (likely B1F West).
-  - Waterfall: Starts at (12, 14). Leads to Bottom Area (Row 26+).
-  - Ladder at (13, 31): Located at bottom of Waterfall. Likely leads to B3F.
+  - Top Area: Items 1 & 3 inaccessible from top (blocked).
+  - Waterfall: Descended from (12, 14).
+  - Bottom Area (Basin): Currently at (12, 26).
+    - Ladder at (13, 31): Likely leads to B3F/Lugia.
+    - West Bank: Land visible at x=8,9. Exploring this now to see if it connects to the missing items.
 - **B3F (Basin):**
   - Expected location of Lugia.
 
 # Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
-- **Path:** B2F (Descend Waterfall) -> Bottom Area -> Ladder (13, 31) -> Basin.
+- **Risk:** Team is severely underleveled. Lapis (Hypnosis) is Lv 12 and will likely be outsped/OHKO'd.
+- **Plan:**
+  1. Explore B2F Bottom West.
+  2. Take Ladder (13, 31) to B3F.
+  3. Locate Lugia.
+  4. Attempt catch with Ultra/Great Balls.
+  5. **Contingency:** Use Master Ball if necessary, or reset if failed.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 44 Owned).
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
-- **Whirl Islands Start:** Jan 7, 2026 (Turn 27574).
 
 ## Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
