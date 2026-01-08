@@ -1,10 +1,10 @@
 # Current Status
 - Location: Route 41 (12, 40) [Surfing].
 - Action: Surfing to NE Island.
-- Immediate Plan: Surf East to (29, 40), then North to NE Island (36, 19).
-- Correction: Previous instruction to land on SW Island was backtracking. Resuming path to NE Island to access B2F via known route.
+- Immediate Plan: Surf East to (20, 40), then navigate North through the channel at X=20 to reach NE Island (36, 19).
+- Observation: East is blocked by buoys at X=21. Found a channel North at X=20.
 - Goal: Find path to Lugia (B3F).
-- Status: Surfing to NE Island.
+- Status: Navigating Buoy Maze.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
