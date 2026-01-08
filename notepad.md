@@ -38,8 +38,9 @@
 - Location: Route 36 Grass.
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
 - Activity: Hunting Raikou/Entei (Lv 40).
+- Strategy: Roamers only move when I change maps. If they are here, I will encounter them quickly due to Repel.
 - Action:
-  1. Hunt in current grass patch (6 steps/turn).
-  2. If encounter: Check if Roamer.
-  3. If no encounter after ~15 steps, move to Route 37 Gate (28, 0) to reset.
-- Note: Unseen tiles at (47, 14) are Ruins of Alph warp. Ignored for now.
+  1. Hunt in grass (~20 steps total).
+  2. If no encounter, exit East to Violet City to reset.
+  3. Return and repeat.
+- Current Step Count: ~13 steps in grass.
