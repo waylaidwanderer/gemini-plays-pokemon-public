@@ -13,7 +13,7 @@
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective. (Turn 33436).
-- Flame Wheel (Fire) -> Donphan (Ground): Observed 'Super Effective' (Turn 33613) - **NEEDS RE-VERIFICATION**.
+- Flame Wheel (Fire) -> Donphan (Ground): Neutral. (Turn 33613 observed 'A critical hit', not super effective).
 
 ## Money & Economy
 - AMULET COIN: Held by ICARUS (Turn 33626). Doubles prize money from trainer battles.
