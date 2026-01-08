@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33889).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33897).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
   - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
@@ -34,10 +34,10 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Hiker Michael at (15, 65) defeated (Turn 33893).
-- Reachable Unseen: (14-17, 70), (14, 72-73), (12-13, 74).
+- Reachable Unseen: (14, 73), (12-13, 74). (Verified Turn 33895).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
-- Trainer: Camper Quentin at (4, 70) defeated. (Legacy).
-- Trainer: Hiker Timothy at (9, 65) defeated. (Legacy).
+- Trainer: Camper Quentin at (4, 70) defeated.
+- Trainer: Hiker Timothy at (9, 65) defeated.
 
 # Lessons Learned
 - **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
