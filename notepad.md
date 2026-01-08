@@ -8,8 +8,7 @@
 
 # Current Status
 - **Location:** New Bark Town.
-- **Action:** Resetting Fly Menu Navigation.
-- **Plan:** Close Menu -> Open Map -> Single Step Navigation to Cianwood.
+- **Action:** Opening Fly Menu.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
