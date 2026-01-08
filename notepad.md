@@ -41,6 +41,7 @@
 - Location: Route 37 / Ecruteak Border.
 - Strategy: Blind Hunt Loop (Route 37 <-> Ecruteak).
 - Session Start: Turn 28662.
-- Action: Continuous Loop (Grass Sweep -> Reset).
-- Path: Down (Enter Rt 37) -> Sweep Grass -> Up (Exit to Ecruteak).
+- Action: Continuous Loop (Reset -> Grass Sweep).
+- Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Goal: Encounter Raikou/Entei.
+- Hunt Session: Turn 28724.
