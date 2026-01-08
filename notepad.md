@@ -7,16 +7,13 @@
 ## Tile Mechanics (2F)
 - Vertical Barriers: Column 4 (Row 0-12), Column 2 (Row 10-17), Column 9 (Row 12-17).
 - Center Block: (6, 2-4, 6), (7, 4, 6).
-- Navigation Gaps: (4, 13) connects left/right, (5, 4) is a narrow vertical passage.
+- Navigation Gaps: (4, 13) connects left/right, (5, 4) is a vertical corridor.
 - Dead Ends: Column 8 (Row 10-17) is blocked by walls at (8, 8-9).
 
 ## Puzzle Plan
-- Observation: B8 (8, 15) is trapped in Column 8 if Column 9 is a solid wall.
-- Test Results: (9, 13) is WALL (Turn 34983).
-- Next Test: (9, 14) - Move from (8, 14).
-- Goal: Determine if B8 can be moved out of Column 8.
-- Strategy: If B8 is trapped, reset puzzle and reconsider boulder assignments.
-- Lesson (Turn 34984): Reflection complete. Systematically verifying boundaries is slow but necessary for accurate automation.
+- Goal: Fill all three pits using B6, B7, and B8.
+- Strategy: Use `solve_boulders` with exhaustive XML-based wall data.
+- Hypothesis: B7 is for P1 (8, 3). B6 and B8 must navigate around barriers to reach P2 and P3.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
