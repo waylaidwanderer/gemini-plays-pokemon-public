@@ -15,10 +15,10 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (46, 20) [Surfing].
-- **Action:** Navigating maze.
-- **Immediate Plan:** Surf South to (46, 23), then West through the gap to (44, 23), then South to (44, 24).
-- **Map Insight:** Westward path opens at Row 23.
+- **Location:** Route 41 (44, 24) [Surfing].
+- **Action:** Backtracking North to Row 17.
+- **Immediate Plan:** Escape buoy pocket via (46, 23), surf North to (46, 17), then West to land on Northeast Island at (43, 17).
+- **Map Insight:** Missed the landing spot at Row 17. Whirlpool at (42, 24) is a red herring or requires approach from West.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
