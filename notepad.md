@@ -9,7 +9,8 @@
 # Current Status
 - **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Left x3) to traverse Mahogany -> Ecruteak -> Olivine -> Cianwood.
+- **Method:** Holding 'Left' (x60 frames) via `press_buttons` to force cursor to Western limit.
+- **Hypothesis:** Continuous input will overcome sticky cursor and land on Cianwood (Westernmost point).
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
