@@ -38,8 +38,9 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 37 (South).
-- Status: Phone Call Finished.
-- Action: Moving North to Grass Area.
-- Path: Using Pathfinder to (8, 5) (Avoiding Ledges).
-- Note: Hunt resumes in Route 37 Grass.
+- Location: Route 37 (North Grass).
+- Strategy: Ecruteak Loop (Hunt -> Reset -> Hunt).
+- Action: Running pattern in grass to check for Beasts.
+- Path: Left -> Left -> Up -> Right -> Right (Checking tiles).
+- Next: If no encounter, head North to Ecruteak Gate (8, 0).
+- Status: Max Repel ACTIVE (Lv 36 Lead blocks all but Beasts).
