@@ -17,11 +17,10 @@
 - Items: Max Potion at (7, 33), Mysteryberry from (16, 82).
 - Trainers: All trainers in middle/right strips defeated (Kenji, Michael, Timothy, Erik, etc.).
 - Basin Hypothesis: All southern strips end in basins or exits. Strip 1 (x=0-2) ends at y=81 (Warp to R46). Strip 2-4 (x=4-11) ends at y=87. Strip 5 (x=12-17) ends at y=83.
-- Strategy: RESET COMPLETE. Navigated to (24, 12). Jumped first ledge at (24, 17). Now jumping remaining ledges in Column 24: (24, 21), (24, 23). This path leads to the isolated southern Area B (x=15-27), granting access to the eastern high-ground strip of Route 45. (Updated Turn 33954).
-- Confirmed: Row 34 (x=15-19) is a wall face from the North, not jumpable.
-- Confirmed: Row 32 (x=21-29) is a wall face from the North.
-- Gap: Row 12 (x=22-23) is FLOOR, allowing passage to the far East of the city.
-- Target: (24, 21), (24, 23) ledges.
+- Strategy: RESET COMPLETE. Navigated to Area B via Column 24 ledges. Now exploring Row 35 to find Route 45 eastern entrance. (Updated Turn 33955).
+- Confirmed: Row 32 (x=21-29) and Row 34 (x=15-19) are walls from the North.
+- Target: Unseen tiles in the SE corner of Area B: (33-39, 28-35).
+- Target Unseen: (17-19, 86-89) on Route 45.
 
 # Lessons Learned
 - **Ghost Lead:** Haunter lead is ideal for wild Graveler encounters (Selfdestruct immunity).
