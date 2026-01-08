@@ -1,46 +1,42 @@
 # Game Mechanics & Systems
-## Global Tile Mechanics
-- FLOOR: Walkable. Verified.
-- WALL: Impassable. Verified.
-- TALL_GRASS / GRASS: Walkable. Triggers wild encounters. Verified.
-- WATER: Requires Surf to traverse. Verified.
-- WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition. Verified.
-- HEADBUTT_TREE: Interact to use Headbutt. Verified.
-- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from the opposite side. Verified.
-- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Hypothesis - needs verification. (Turn 33807).
-- COUNTER: Impassable. Interact from adjacent tile for NPC dialogue. Verified.
-- PC (Pokemon Center): Interact to manage Pokemon/items. Verified.
+## Tile Mechanics (Confirmed)
+- FLOOR: Walkable.
+- WALL / COUNTER / PC: Impassable.
+- TALL_GRASS / GRASS: Walkable. Triggers wild encounters.
+- WATER: Requires Surf to traverse.
+- WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
+- HEADBUTT_TREE: Interact to use Headbutt.
+- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from opposite side.
+- FLOOR_UP_WALL: Hypothesized Impassable from North. (Verification needed).
 
 ## Type Effectiveness Chart (Verified)
-- Acid (Poison) -> Gligar (Ground/Flying): Not very effective. (Turn 33436).
-- Flame Wheel (Fire) -> Donphan (Ground): Neutral. (Turn 33613 observed 'A critical hit', not super effective).
+- Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
+- Flame Wheel (Fire) -> Donphan (Ground): Neutral.
 
 ## Money & Economy
-- AMULET COIN: Held by ICARUS (Turn 33626). Doubles prize money from trainer battles.
+- AMULET COIN: Doubles prize money from trainer battles. (Held by ICARUS).
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33808).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33811).
   - Goal: Xenon and Kimchi to Lv40.
-  - Strategy: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
-  - Note: Verifying KIMCHI's held item. (Turn 33808).
+  - Method: KIMCHI holds EXP.SHARE for safe leveling. GNEISS (Lv48) or CALCIFER (Lv49) lead to finish battles efficiently. Avoid switching KIMCHI into Gravelers (Selfdestruct risk).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
-- Counters: 
-  - Status Control: Xenon (Hypnosis), Kimchi (Sleep Powder).
-  - Raw Damage: Gneiss (STAB Earthquake), Calcifer (Return, Thunderpunch).
-  - Kingdra Counter: Xenon (Night Shade for fixed damage, Hypnosis).
+- Strategy:
+  - GNEISS (Lv48): Use STAB Earthquake vs Dragonair.
+  - XENON (Lv36): Use Night Shade (fixed damage) and Hypnosis vs Kingdra.
+  - CALCIFER (Lv49): Use Return or Thunderpunch as high-damage backup.
+  - KIMCHI (Lv32): Use Sleep Powder for status control if needed.
 
 # Lessons Learned
 - **Inventory Verification:** Always verify Bag/PC contents. (Turn 33203).
-- **Move Matchups:** Kimchi lacked Grass moves for Graveler early on. (Turn 33260).
 - **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct. (Turn 33265).
 - **Gligar Typing:** Ground/Flying. Immune to Ground. (Turn 33361).
 - **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground. (Turn 33588).
-- **Menu Precision:** Avoid rushing in deep menus to prevent errors like opening Pokedex instead of Pack. (Turn 33626).
-- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences. (Turn 33694).
+- **Menu Cursor Memory:** Verify cursor location before executing long button sequences. (Turn 33694).
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
