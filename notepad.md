@@ -1,6 +1,6 @@
 # Current Status
-- Immediate Plan: Land on SW Island at (19, 34). Then Fly to Olivine City to approach Route 41 from the North.
-- Reasoning: The southern/western approaches to the NE island are blocked by buoys. Resetting to the northern entrance (via Route 40) is the most logical next step.
+- Immediate Plan: Fly to Olivine City to approach Route 41 from the North (Route 40).
+- Reasoning: I am on the SW Island (Route 41). The cave here (SW Whirl Island Cave) connects to B1F, which I have already explored and believe doesn't lead to the B2F Waterfall Basin I need (or is segmented). The sea route North/West is blocked by buoys. Thus, resetting to the NE Island entrance via Route 40 is the best path to reach Lugia.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
