@@ -25,8 +25,8 @@
 - **Hygiene:** Map markers verified. Notepad cleaned.
 - **Action:** Continuing the hunt loop.
 
-- Location: Ecruteak City (South Gate).
-- Status: Reset Complete.
-- Action: Returning to Route 37.
-- Sequence: Down (Exit Ecruteak) -> Check Grass.
-- Hunt Session: Turn 28790.
+- Location: Route 37 (North Grass).
+- Status: Hunting.
+- Action: Wiggle in Grass.
+- Sequence: Enter Grass -> Wiggle -> Return.
+- Hunt Session: Turn 28791.
