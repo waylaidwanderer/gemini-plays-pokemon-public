@@ -41,3 +41,4 @@
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
+- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences to avoid selection errors. (Turn 33694).
