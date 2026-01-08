@@ -39,7 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North Grass).
-- Action: Hunting Loop (Enter -> Wiggle).
-- Path: Down x2 -> Left -> Right -> Down -> Up.
-- Goal: Trigger Encounter.
-- Hunt Session: Turn 28700.
+- Action: Hunting Loop (Wiggle -> Return to Gate).
+- Path: Left -> Right -> Up -> Up.
+- Goal: Trigger Encounter or Return to Gate (8, 0).
+- Hunt Session: Turn 28701.
