@@ -4,9 +4,13 @@
 - WALL / COUNTER / FLOOR_UP_WALL (from North): Impassable.
 - LEDGE_HOP_DOWN (⤵️): One-way North to South. (Verified at Row 21, 23, 34).
 - Blackthorn Elevation: Tiered city. Barriers at Row 21, 23, 28, 30, 32, 34.
-- Northward Gaps:
-  - Row 23: Column 0-2, 13.
-  - Row 21: Column 0-4, 9, 19, 33.
+- Northward Gaps (Walking):
+  - Row 17: Col 13.
+  - Row 21: Col 9.
+  - Row 23: Col 13.
+  - Row 28: Col 12, 13, 18, 19, 24-29.
+  - Row 32: Col 17, 30, 31.
+  - Row 34: Col 20-27.
 
 ## Type Effectiveness
 - Ghost (Xenon) immune to Normal (Selfdestruct). Lead Xenon for Graveler encounters.
@@ -23,17 +27,15 @@
 
 # Exploration Log
 - Items: Max Potion (7, 33), Mysteryberry (16, 82).
-- Master Path to Route 45 Section 2 (Strip 5, x=15-27):
-  1. Reach (13, 23) via Column 13 (Tier 2 Gap).
-  2. Reach (9, 21) via (9, 22) (Tier 1 Gap).
-  3. Reach (16, 12) (Surf Point).
-  4. Surf to (14, 13) -> Land at (14, 14).
-  5. Jump Ledge at (14, 17) -> Row 18.
-  6. Jump Ledge at (18, 21) -> Row 22.
-  7. Jump Ledge at (16, 23) -> Section 2 (Row 24).
-  8. Exit south at (20-27, 35) to Strip 5. (Updated Turn 33973).
+- Master Walking Path to Route 45 East (Strip 5):
+  1. Navigate to (13, 17) (Row 17 Gap).
+  2. Navigate to (9, 21) (Row 21 Gap).
+  3. Navigate to (13, 23) (Row 23 Gap).
+  4. Navigate to (18, 28) (Row 28 Gap).
+  5. Navigate to (17, 32) (Row 32 Gap).
+  6. Navigate to (20, 34) (Row 34 Gap).
+  7. Exit South at (17, 35).
 
 # Lessons Learned
-- Blackthorn Maze: Southern walls at Row 32, 34 are hard barriers from the North. Resetting to high ground requires using specific gaps (e.g., col 13 at Row 23).
-- Strip Isolation: Route 45 Strip 5 is isolated at Row 35. Must enter from Blackthorn x=15-18.
+- Blackthorn Maze: The city is not isolated; walking gaps exist in every ledge/wall row.
 - Menu Verification: Always check the current screen before executing long button sequences.
