@@ -1,8 +1,8 @@
 # Current Status
-- Location: WhirlIslandCave (3, 13) [Ladder Entrance].
-- Action: Exploring new cave area.
-- Observation: Arrived via Ladder from NW Island.
-- Immediate Plan: Explore North from (3, 13).
+- Location: WhirlIslandCave (3, 9) [Corridor].
+- Action: Moving to Warp at (7, 5).
+- Observation: Path leads North then East to a warp at (7, 5).
+- Immediate Plan: Navigate to (7, 5) to see where it leads.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
