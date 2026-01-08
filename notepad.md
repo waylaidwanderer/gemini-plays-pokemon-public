@@ -1,16 +1,16 @@
 # Blackthorn Gym - Battle with Leader Clair
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Battle Task: Defeat Dragonair #2 (Started Turn 35212)
-- Current Turn: 35223
+- Current Turn: 35224
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf. (FAINTED)
 - Pokémon 2: Kingdra (Lv40). Moves: Surf, Smokescreen, Dragonbreath. (FAINTED)
-- Pokémon 3: Dragonair (Lv37). Moves: Thunder Wave, Thunderbolt. (HP: 100%)
+- Pokémon 3: Dragonair (Lv37). Moves: Thunder Wave, Thunderbolt. (HP: ~10%)
 - Status: Xenon fainted. Calcifer (Lv49) at 108/155 HP. Kimchi (Lv34) at 51/90 HP.
-- Strategy: Calcifer is no longer paralyzed. Dragonair resists Fire and Electric. Calcifer should use Return for neutral physical damage.
-- Plan: Use Return (Turn 35223) to defeat Dragonair.
+- Strategy: Calcifer hit with Return (Turn 35223). Dragonair's Thunder Wave failed.
+- Plan: Clear text (Turn 35224). Use Return to finish Dragonair.
 - Note: Dragonair resists Fire, Water, Electric, Grass (0.5x). Weak to Ice and Dragon (2.0x). Normal is neutral.
 
 ## Tile Mechanics
@@ -33,5 +33,5 @@
 - Reachability: The player can reach Clair on 1F by walking around the right edge (Column 9).
 - Type Effectiveness (Gen 2):
     - Dragonair (Dragon): Resists Fire, Water, Electric, Grass (0.5x). Weak to Ice, Dragon (2.0x).
-    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass (0.5x). Weak to Dragon (2.0x). Ice is neutral (Dragon weak, Water resists).
+    - Kingdra (Water/Dragon): Resists Fire, Water (0.25x), Electric, Grass (0.5x). Weak to Dragon (2.0x). Ice is neutral.
 - Smokescreen: Lowers accuracy. Switching resets stat stages.
