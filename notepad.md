@@ -8,8 +8,8 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Selecting Mistral for Fly.
-- **Immediate Plan:** Press A to open options for Mistral -> Select Fly.
+- **Action:** Selected 'FLY'. Map opening.
+- **Immediate Plan:** Navigate to Cianwood City on the map.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
