@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 38 (4, 4).
-- **Action:** Detouring South to avoid Wall at x=3.
-- **Immediate Plan:** Walk Down to Row 8, then West to exit map.
-- **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
+- **Location:** Route 39 (19, 8).
+- **Action:** Arrived from Route 38. Heading South to Olivine.
+- **Immediate Plan:** Walk South to exit Route 39.
+- **Route:** Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
