@@ -1,7 +1,7 @@
 # Current Status
-- Location: WhirlIslandB2F (5, 4) [North Water].
-- Action: Surfing South.
-- Immediate Plan: Explore the water area to the South.
+- Location: WhirlIslandB2F (4, 6) [Surfing].
+- Action: Exploring South-East.
+- Immediate Plan: Surf East to (9, 6) then South to (9, 9) to bypass walls and reveal map.
 - Goal: Find path to B3F.
 
 # Whirl Islands Mapping
