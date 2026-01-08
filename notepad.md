@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 38 (17, 3).
-- **Action:** Using 'find_path' to bypass Lass (16, 3).
-- **Target:** (10, 4) - West of the Lass.
+- **Location:** Route 38 (South Lane).
+- **Action:** Manual navigation West.
+- **Immediate Plan:** Walk Down to Row 4, then West to bypass Lass.
 - **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
