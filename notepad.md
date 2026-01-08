@@ -1,7 +1,7 @@
 # Current Status
-- Location: Route 41 (14, 40) [Surfing].
-- Action: Caught Mantine (Delta).
-- Immediate Plan: Surf from SW Island (12, 40) to NE Island (36, 19).
+- Location: Route 41 (12, 40) [Surfing].
+- Action: Surfing to NE Island.
+- Immediate Plan: Surf East then North to reach NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
 - Status: Relocating to NE Island via Route 41.
 
