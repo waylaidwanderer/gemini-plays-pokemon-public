@@ -5,18 +5,17 @@
 - Status: Strength ACTIVE (Turn 34932)
 
 ## Tile Mechanics (2F)
-- WALL: (0, 0-17), (9, 0-17), (4, 0-12), (6, 2-4, 6), (7, 4, 6, 10, 11, 14, 15), (8, 0, 4, 8, 9), (2, 2, 8, 10-17), (5, 0, 10, 12, 16, 17), (3, 0, 8), (1, 0, 2)
-- PIT: (8, 3), (2, 5), (8, 7)
-- LADDER: (1, 7), (7, 9)
-- FLOOR: (6, 10), (5, 4) gap, (4, 13) gap
+- Vertical Barriers: Column 4 (Row 0-12), Column 2 (Row 10-17), Column 9 (Row 12-17).
+- Center Block: (6, 2-4, 6), (7, 4, 6).
+- Navigation Gaps: (4, 13) connects left/right, (5, 4) is a narrow vertical passage.
+- Dead Ends: Column 8 (Row 10-17) is blocked by walls at (8, 8-9).
 
-## Puzzle Strategy (2F) - Systematic Re-Verification
-- Observation: B8 (8, 14) appears trapped by confirmed walls.
-- Hypothesis: One of the walls at (7, 10), (7, 14), (7, 15), (9, 10), (9, 14), or (9, 15) is actually a floor.
-- Goal: Verify these tiles to find the path for B8.
-- Test 1: (7, 10) - Move from (6, 10).
-- Test 2: (7, 14) - Move from (6, 14).
-- Test 3: (5, 10) and (5, 12) - Re-verify.
+## Puzzle Plan
+- Goal: Move B8 from (8, 15) to P3 (8, 7) or P1 (8, 3).
+- Obstacle: Walls at (8, 8-9) block direct northern movement.
+- Strategy: Push B8 south to (8, 16), then navigate to (8, 16) to push it north? No, that doesn't solve the wall at (8, 9).
+- Alternative: Push B8 to a gap. (7, 13) is FLOOR. Can B8 be pushed to (7, 13)? Requires player at (9, 13), but (9, 13) is WALL.
+- Verification: Use `puzzle_strategist` to audit the wall at (9, 13) and (8, 8-9).
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
