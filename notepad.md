@@ -1,7 +1,8 @@
 # Current Status
-- Immediate Plan: Exit Pokemon Center, then Surf South to Route 41.
-- Reasoning: Team is healed. Equipped with Great Balls. Time to navigate to the Whirl Islands.
-- Goal: Surf to Whirl Islands -> Find Lugia -> Catch.
+- Immediate Plan: Walk West to Route 40, then Surf South to Route 41.
+- Route: From Olivine City (13, 22) -> West to Exit (0, 22) -> Route 40.
+- Reasoning: Route 40 provides the best northern approach to the Whirl Islands (NE Island).
+- Goal: Route 40 -> Surf South -> NE Whirl Island -> Catch Lugia.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
