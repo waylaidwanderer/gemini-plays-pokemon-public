@@ -28,3 +28,9 @@
 - Boulder 6: (3, 3) - CONFIRMED
 - Boulder 7: (6, 1) - CONFIRMED
 - Boulder 8: (8, 14) - CONFIRMED (Default)
+
+# Lessons Learned: Blackthorn Gym Puzzle
+- Pushing a boulder does NOT move the player into the vacated tile.
+- Boulders fall through pits and disappear from 2F.
+- BFS solution for 3 boulders: ['Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Up', 'Left', 'Left', 'Left', 'Left', 'Down', 'Down', 'Down', 'Down', 'Down', 'Down', 'Left', 'Left', 'Left', 'Left', 'Up', 'Up', 'Left', 'Up']
+- Strategy: Fill pits (8, 7), (8, 3), and (2, 5) in that order or similar.
