@@ -78,3 +78,6 @@
 4. **Automation:** `assess_reachability` was a success. `navigate_menu` is active.
 5. **Goals:** Clear: Fly to Olivine -> NE Whirl Island -> Lugia.
 6. **Errors:** Initial assumption that SW island led to Lugia was likely wrong due to one-way ledges. Pivot to NE island approach is the correct scientific response to the dead-end observation.
+- **Fly Map Connections:**
+  - Violet City -> Down -> Cherrygrove City (Verified).
+  - Cherrygrove City -> Left -> [Blocked/No Connection] (Verified).
