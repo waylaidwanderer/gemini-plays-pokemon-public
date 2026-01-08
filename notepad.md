@@ -4,19 +4,21 @@
 - Dragon's Den Location: "Behind the Gym".
 
 ## Strategy: Dragon User Challenge
-- Navigate to the area north of Blackthorn Gym.
-- Locate entrance to Dragon's Den (spotted sign at 21, 3 and potential entrance at 20, 1).
-- Reach the "small shrine" at the center of the Den.
+- Navigate to the area north of Blackthorn Gym. (DONE)
+- Locate entrance to Dragon's Den. (DONE: Warp at 20, 1 in Blackthorn City)
+- Explore DragonsDen1F and find the way to the center shrine.
+- Current Status: Inside DragonsDen1F (3, 5).
 
 ## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - WALL: Impassable boundary.
 - LADDER: Warp between floors.
-- WARP_CARPET_DOWN: Exit from buildings.
+- WARP_CARPET_DOWN: Exit from buildings/caves.
 - COUNTER: Impassable interaction point for Nurse/Clerk. Face and press A from adjacent tile.
 - PC: Access Pokemon storage.
 - WATER: Traversable only while Surfing.
 - LEDGE_HOP_DOWN: Southward one-way jump. Impassable from other directions.
+- FLOOR_UP_WALL: Collision type observed in DragonsDen1F. Likely acts as a wall when moving up.
 
 ## Type Effectiveness (Gen 2)
 - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
