@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Holding 'Left' (x60 via `press_buttons`) to force cursor movement.
-- **Issue:** Single frame inputs (via `slow_press`) are failing to move cursor West from Mahogany. Attempting held input.
+- **Method:** Pressing 'Down' (x20) to reset cursor to Southern Johto (New Bark/Cherrygrove).
+- **Reason:** 'Left' inputs from Mahogany are not registering or blocked. Attempting to find a valid path South.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
