@@ -27,4 +27,4 @@
 # Current Boulder Positions (Verifying)
 - Boulder 6: (3, 3) - CONFIRMED
 - Boulder 7: (6, 1) - CONFIRMED
-- Boulder 8: (8, 14) - CONFIRMED (Pushed once)
+- Boulder 8: (8, 13) - CONFIRMED (Reset)
