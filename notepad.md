@@ -52,3 +52,4 @@
 - Row 11 Gaps: (35, 11), (32, 11)
 - Row 9 Gap: (32, 9)
 - Route to Eastern Strip: (37, 16) -> (35, 16) -> (35, 14) -> (32, 14) -> (32, 8) -> (39, 8) -> Down.
+- (37, 20) is a WALL (FLOOR_UP_WALL), not a ledge. The Col 37 strip is a dead end from the north.
