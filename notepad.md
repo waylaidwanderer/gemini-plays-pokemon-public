@@ -10,7 +10,7 @@
 - Encounter: Cooltrainer Darin at (20, 5).
 
 ## Battle: Cooltrainer Darin
-- Status: Ongoing (Turn #35296)
+- Status: Ongoing (Turn #35299)
 - Opponent: Dragonair (Lv37). Moves: Dragon Rage (40 fixed damage).
 - Strategy: Switch to Calcifer (Lv49). Calcifer has 155 Max HP, allowing him to tank 3-4 Dragon Rages. Use Return for neutral physical damage.
 - Note: Hypnosis failed Turn 35295 ("didn't affect"). Dragonair might have Safeguard active or a held item.
