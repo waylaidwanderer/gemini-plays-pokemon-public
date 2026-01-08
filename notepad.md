@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Copycat's House 2F.
-- **Action:** Heading to Magnet Train Station.
+- **Location:** Saffron City.
+- **Action:** Locating Magnet Train Station.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
