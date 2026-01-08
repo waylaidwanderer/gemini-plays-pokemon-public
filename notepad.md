@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (19, 34) [Landed on SW Island].
-- Immediate Plan: Re-enter water at (20, 34) and Surf South to (20, 52) to access the Southern Highway.
-- Correction: Walking West is blocked by the cave entrance (requires traversing cave). Surfing South via X=20 seems open and faster.
+- Location: Route 41 (20, 38) [Surfing in East Channel].
+- Immediate Plan: Land on SW Island at (17, 38). Walk West to (8, 43). Surf South to (11, 52) to access Southern Highway.
+- Correction: Channel at X=20 is blocked by buoys at Y=41. Walking across the island is possible (Y=38/39 are clear).
 - Goal: Find path to Lugia (B3F).
-- Status: Rerouting South via Surf.
+- Status: Landing on SW Island (Again).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
