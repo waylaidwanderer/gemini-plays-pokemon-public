@@ -269,38 +269,14 @@
         },
         "player_y": {
           "type": "integer"
-        },
-        "b6_x": {
-          "type": "integer"
-        },
-        "b6_y": {
-          "type": "integer"
-        },
-        "b7_x": {
-          "type": "integer"
-        },
-        "b7_y": {
-          "type": "integer"
-        },
-        "b8_x": {
-          "type": "integer"
-        },
-        "b8_y": {
-          "type": "integer"
         }
       },
       "required": [
         "player_x",
-        "player_y",
-        "b6_x",
-        "b6_y",
-        "b7_x",
-        "b7_y",
-        "b8_x",
-        "b8_y"
+        "player_y"
       ]
     },
-    "python_script": "import collections\nimport json\n\ndef solve(input_data):\n    width, height = 10, 18\n    grid = [[1 for _ in range(width)] for _ in range(height)]\n    walls = [(0,0),(1,0),(2,0),(3,0),(4,0),(5,0),(6,0),(7,0),(8,0),(9,0),(0,2),(1,2),(4,2),(6,2),(4,3),(6,3),(4,4),(6,4),(7,4),(8,4),(9,4),(4,5),(4,6),(6,6),(7,6),(4,7),(2,8),(3,8),(4,8),(8,8),(4,9),(8,9),(2,10),(4,10),(5,10),(7,10),(2,11),(7,11),(2,12),(4,12),(5,12),(9,12),(2,13),(9,13),(2,14),(7,14),(9,14),(2,15),(7,15),(9,15),(2,16),(5,16),(9,16),(2,17),(5,17),(9,17)]\n    for x, y in walls: grid[y][x] = 0\n    grid[1][4] = 0 # Cody\n    grid[11][4] = 0 # Fran\n    pits = [(8, 3), (2, 5), (8, 7)]\n    for x, y in pits: grid[y][x] = 2\n    ladders = [(1, 7), (7, 9)]\n\n    start_b = tuple(sorted([(int(input_data['b6_x']), int(input_data['b6_y'])), (int(input_data['b7_x']), int(input_data['b7_y'])), (int(input_data['b8_x']), int(input_data['b8_y']))]))\n    start_p = (int(input_data['player_x']), int(input_data['player_y']))\n\n    def get_reachable(b_pos, p_pos):\n        q = collections.deque([(p_pos, [])])\n        v = { p_pos: [] }\n        while q:\n            curr, path = q.popleft()\n            if curr in ladders:\n                other = ladders[0] if curr == ladders[1] else ladders[1]\n                if other not in v:\n                    v[other] = path + [\"Ladder\"]\n                    q.append((other, path + [\"Ladder\"]))\n            cx, cy = curr\n            for dx, dy, m in [(0,1,'Down'),(0,-1,'Up'),(1,0,'Right'),(-1,0,'Left')]:\n                nx, ny = cx+dx, cy+dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if grid[ny][nx] == 1 and (nx, ny) not in b_pos:\n                        if (nx, ny) not in v:\n                            v[(nx, ny)] = path + [m]\n                            q.append(((nx, ny), path + [m]))\n        return v\n\n    queue = collections.deque([(start_b, start_p, [])])\n    visited = { (start_b, start_p) }\n    \n    limit = 50000\n    count = 0\n    while queue and count < limit:\n        count += 1\n        b_s, p_p, path = queue.popleft()\n        if not b_s: return [step for step in path if step != \"Ladder\"]\n        \n        reachable = get_reachable(b_s, p_p)\n        \n        for i, b in enumerate(b_s):\n            bx, by = b\n            for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                px, py = bx - dx, by - dy\n                if (px, py) in reachable:\n                    nx, ny = bx + dx, by + dy\n                    if 0 <= nx < width and 0 <= ny < height:\n                        if grid[ny][nx] >= 1 and (nx, ny) not in b_s:\n                            new_b = list(b_s)\n                            new_b.pop(i)\n                            if grid[ny][nx] != 2: new_b.append((nx, ny))\n                            new_b = tuple(sorted(new_b))\n                            new_path = path + reachable[(px, py)] + [move]\n                            if (new_b, (px, py)) not in visited:\n                                visited.add((new_b, (px, py)))\n                                queue.append((new_b, (px, py), new_path))\n    return []\n\nprint(json.dumps(solve(input_data)))",
+    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve(input_data):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = [[1 for _ in range(width)] for _ in range(height)]\n    pits = []\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            if t_type == \"WALL\": grid[y][x] = 0\n            elif t_type == \"PIT\":\n                grid[y][x] = 2\n                pits.append((x, y))\n            elif t_type == \"LADDER\": grid[y][x] = 1\n            \n            for obj in tile.findall(\"Object\"):\n                if \"COOLTRAINER\" in obj.attrib.get(\"id-name\", \"\"): grid[y][x] = 0\n\n    boulders = []\n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            for obj in tile.findall(\"Object\"):\n                if \"BOULDER\" in obj.attrib.get(\"id-name\", \"\"): boulders.append((x, y))\n            for marker in tile.findall(\"Marker\"):\n                if \"Boulder\" in marker.text: \n                    pos = (x, y)\n                    if pos not in boulders: boulders.append(pos)\n    \n    if len(boulders) > 3: boulders = sorted(list(set(boulders)))[:3]\n    start_b = tuple(sorted(boulders))\n    start_p = (int(input_data['player_x']), int(input_data['player_y']))\n    ladders = [(1, 7), (7, 9)]\n\n    def get_reachable(b_pos, p_pos):\n        q = collections.deque([(p_pos, [])])\n        v = { p_pos: [] }\n        while q:\n            curr, path = q.popleft()\n            cx, cy = curr\n            if curr in ladders:\n                other = ladders[0] if curr == ladders[1] else ladders[1]\n                if other not in v:\n                    v[other] = path + [\"Warp\"]\n                    q.append((other, path + [\"Warp\"]))\n            for dx, dy, m in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                nx, ny = cx + dx, py + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if grid[ny][nx] == 1 and (nx, ny) not in b_pos:\n                        if (nx, ny) not in v:\n                            v[(nx, ny)] = path + [m]\n                            q.append(((nx, ny), path + [m]))\n        return v\n\n    queue = collections.deque([(start_b, start_p, [])])\n    visited = { (start_b, start_p) }\n    limit = 50000\n    count = 0\n    while queue and count < limit:\n        count += 1\n        b_s, p_p, path = queue.popleft()\n        if not b_s: return [step for step in path if step != \"Warp\"]\n        reachable = get_reachable(b_s, p_p)\n        for i, b in enumerate(b_s):\n            bx, by = b\n            for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                px, py = bx - dx, by - dy\n                if (px, py) in reachable:\n                    nx, ny = bx + dx, by + dy\n                    if 0 <= nx < width and 0 <= ny < height:\n                        if grid[ny][nx] >= 1 and (nx, ny) not in b_s:\n                            new_b = list(b_s)\n                            new_b.pop(i)\n                            if grid[ny][nx] != 2: new_b.append((nx, ny))\n                            new_b = tuple(sorted(new_b))\n                            new_path = path + reachable[(px, py)] + [move]\n                            if (new_b, (px, py)) not in visited:\n                                visited.add((new_b, (px, py)))\n                                queue.append((new_b, (px, py), new_path))\n    return []\n\nprint(json.dumps(solve(input_data)))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -541,6 +517,11 @@
         "commit_message": "Refined BFS solver for Blackthorn Gym: 1. Uses a macro-BFS over boulder configurations for efficiency. 2. Correctly handles player reachability between sections via 1F (ladder warps). 3. Strictly implements the 'stay in place' mechanic. 4. Returns a full button sequence including player navigation and pushes.",
         "timestamp": "2026-01-08T13:23:48.062Z",
         "action_counter": 34586
+      },
+      {
+        "commit_message": "Integrated map XML parsing for dynamic boulder/pit/obstacle detection. Added ladder warp logic.",
+        "timestamp": "2026-01-08T13:24:59.761Z",
+        "action_counter": 34587
       }
     ]
   }
