@@ -39,7 +39,8 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North Grass).
-- Status: Using Item (Max Repel).
-- Action: Confirming Use.
-- Sequence: Select 'USE' -> Confirm Text -> Exit Menu.
-- Next: Resume Hunting Loop (Grass -> Ecruteak Reset).
+- Status: Menu Closed.
+- Action: Resuming Hunt.
+- Hunt Session Start: Turn 28662.
+- Stats: 1 Max Repel used.
+- Plan: Zig-zag in grass -> Reset in Ecruteak.
