@@ -33,3 +33,12 @@
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
+
+# Tile Mechanics
+- FLOOR: Walkable.
+- WALL: Impassable.
+- VOID: Impassable.
+- PIT: Fall to 1F. Boulders fill gaps.
+- LADDER: Move between floors.
+- BOULDER: Pushable with Strength.
+- NPCs: Walls.
