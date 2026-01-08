@@ -5,34 +5,34 @@
 
 ## Strategy: Dragon User Challenge
 - Navigate through DragonsDen1F to the lower floor (B1F). (DONE)
+- Locate the "small shrine" at the center of the Den.
 - Current Status: DragonsDenB1F (20, 4).
-- Encounter: Cooltrainer M at (20, 5) challenged entry (Turn 35290).
-- Goal: Reach the "small shrine" at the center of the Den.
+- Encounter: Cooltrainer Darin at (20, 5).
+
+## Battle: Cooltrainer Darin
+- Status: Ongoing (Turn 35291)
+- Opponent: Dragonair (Lv37).
+- Strategy: Use Xenon's Confuse Ray to disable, then Night Shade. Switch to Calcifer (Lv49) for neutral physical damage (Return) if Xenon is in danger. Note: Hypnosis failed Turn 35295 ("didn't affect").
 
 ## Tile Mechanics
-- FLOOR: Standard traversable tile.
+- FLOOR/CAVE: Standard traversable tile.
 - WALL: Impassable boundary.
-- LADDER: Warp between sections or floors. (3, 3) <-> (5, 13) within 1F.
-- WARP_CARPET_DOWN: Exit/Transition warp. (5, 15) in 1F -> (20, 3) in B1F.
+- LADDER: Warp between sections or floors.
+- WARP_CARPET_DOWN: Exit/Transition warp.
 - COUNTER: Interaction point for Nurse/Clerk. Face and press A from adjacent tile.
 - WATER: Traversable only while Surfing.
 - LEDGE_HOP_DOWN: Southward one-way jump.
-- FLOOR_UP_WALL: Impassable when moving North. (Observed in 1F).
-- CAVE: Standard cave floor. (Observed in B1F).
+- FLOOR_UP_WALL: Impassable when moving North.
 
 ## Type Effectiveness (Gen 2)
-- Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon.
+- Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon. Normal is neutral.
 - Kingdra (Water/Dragon): Resists Fire, Water (0.25x). Neutral to Electric, Grass, Ice. Weak to Dragon.
 
 ## Lessons Learned
 - Clair's Badge: Requires extra trial in Dragon's Den.
-- Internal Warps: Some ladders connect different sections of the same floor.
+- NPC Interaction: Counter tiles act as barriers; interact from adjacent tile.
+- Ledge Traversal: One-way southward movement.
+- Dragon Rage: Deals 40 fixed damage.
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
-## Battle: Cooltrainer Darin
-- Location: DragonsDenB1F (20, 5)
-- Opponent: Cooltrainer Darin
-- Status: Battle ongoing (Turn 35294).
-- Pokémon 1: Dragonair (Lv37).
-- Strategy: Xenon use Hypnosis (Turn 35294), then Night Shade. Switch to Calcifer if Xenon is in danger.
