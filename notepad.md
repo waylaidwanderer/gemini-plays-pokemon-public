@@ -1,14 +1,15 @@
 # Current Status
-- Location: Violet City.
+- Location: Violet City Pokemon Center.
 - **Lugia Caught!** (In Box 3).
-- Team Status: Need Healing.
-- Immediate Goal: Enter Pokemon Center and Heal.
+- **Lapis Deposited.** Party is 5/6.
+- Immediate Goal: Withdraw Lugia (Maelstrom) and check stats.
 
 # Next Objectives
-1. Heal at Violet City Pokemon Center.
-2. Check Lugia's stats/nature (Gen 2 stats).
-3. Hunt Roaming Beasts (Raikou, Entei).
-4. Suicune hunt (Check Tin Tower? Roaming?).
+1. Withdraw Lugia.
+2. Check Lugia's stats/nature.
+3. Heal Party.
+4. Hunt Roaming Beasts (Raikou, Entei).
+5. Suicune hunt.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 45 Owned).
