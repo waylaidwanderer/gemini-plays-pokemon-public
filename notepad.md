@@ -19,7 +19,8 @@
 # Puzzles & Solutions
 ## Blackthorn Gym 2F Boulder Puzzle
 - Status: Strength active. Standing at (3, 4) facing Boulder 6 (3, 3).
-- Plan: Run a comprehensive BFS solver with the "stay in place" mechanic and exact grid.
+- Plan: Use a configuration-space BFS with player reachability checks.
+- Failed Attempts: 4 (BFS returned no solution due to long paths or incorrect mechanic assumptions).
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
