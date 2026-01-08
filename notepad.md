@@ -1,27 +1,24 @@
 # Current Status
-- Location: NE Whirl Island (B1F).
-- Immediate Plan: Go to Ladder at (25, 21) to reach B2F.
-- Goal: Reach B2F Waterfall Basin to find Lugia.
+- Location: Whirl Island B2F.
+- Immediate Plan: Surf South, check items at (10, 11) and (5, 12), then descend Waterfall to Basin.
+- Goal: Reach Lugia in B2F/B3F Basin.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entered via (36, 19).
 - **B1F (East Side):**
-  - Current Position: (35, 7).
-  - Ladder to B2F: (25, 21).
-  - Boulder at (23, 26) (To be checked).
-  - Ledges separate East/West. West side inaccessible directly from East?
-- **B2F:**
-  - Entrance: Ladder at (25, 21).
-  - Waterfall at (12, 14) leads to Basin.
-  - Basin likely holds Lugia or entrance to Lugia's chamber.
-- **B1F (West Side):**
-  - Contains Ladder (9, 31), Cave Exit (17, 21), Ladder (13, 27).
-  - Accessed via loop from B2F -> SW Cave -> NW Cave -> B1F.
+  - Ladder to B2F: (25, 21) [Taken].
+- **B2F (Current):**
+  - Entrance: Ladder at (11, 5).
+  - Items: (10, 11), (5, 12) [To get].
+  - Waterfall: Starts at (12, 14). Leads to Basin.
+  - Ladder at (7, 11) -> B3F?
+  - Ladder at (13, 31) -> B3F?
+- **B3F (Basin):**
+  - Expected location of Lugia.
 
 # Whirl Islands Strategy
-- **Target:** Lugia (Lv 60) in Waterfall Basin.
-- **Path:** B1F (East) -> Ladder (25, 21) -> B2F -> Waterfall -> Basin.
-- **Note:** Check Boulder at B1F (23, 26) if nearby.
+- **Target:** Lugia (Lv 60).
+- **Path:** B2F (Start Surf) -> Items -> Waterfall -> Lugia.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 43 Owned).
