@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33884).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33889).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
   - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
