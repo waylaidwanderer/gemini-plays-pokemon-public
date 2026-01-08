@@ -1,63 +1,47 @@
-# Key Locations & Mechanics
-- New Bark Town (Mom's House): Mom at (2, 2) manages money and Daylight Saving Time.
-- New Bark Town (Elm's Lab): Healing Machine at (2, 2).
-- Blackthorn City (Pokemon Center): Warp at (21, 30).
-- Route 45: High-level training area.
-
+# Game Mechanics & Systems
 ## Global Tile Mechanics
 - FLOOR: Walkable. Verified.
 - WALL: Impassable. Verified.
-- TALL_GRASS: Walkable. Triggers wild encounters. Verified.
+- TALL_GRASS / GRASS: Walkable. Triggers wild encounters. Verified.
 - WATER: Requires Surf to traverse. Verified.
-- WARP_CARPET_DOWN: Triggers map transition when walking down. Verified.
-- DOOR: Triggers map transition when entered. Verified.
-- HEADBUTT_TREE: Interact to use Headbutt (if learned). Verified.
-- LEDGE_HOP_DOWN: One-way movement (down). Verified.
-- LEDGE_HOP_LEFT: One-way movement (left). Verified.
-- LEDGE_HOP_RIGHT: One-way movement (right). Verified.
-- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Likely a ledge face or similar barrier. Verified (Turn 33461).
-- COUNTER: Impassable. Interact from adjacent tile to talk to NPC behind it. Verified.
-- PC (Pokemon Center): Interact to manage Pokemon and items. Verified.
-- LADDER: Triggers map transition between floors. Verified.
-- GRASS: Walkable. Triggers wild encounters. Verified.
+- WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition. Verified.
+- HEADBUTT_TREE: Interact to use Headbutt. Verified.
+- LEDGE_HOP (⤵️, ↩️, ↪️): One-way movement in the indicated direction. Impassable from the opposite side. Verified.
+- FLOOR_UP_WALL: Impassable from the North (moving Down onto it). Likely a ledge face. Verified.
+- COUNTER: Impassable. Interact from adjacent tile for NPC dialogue. Verified.
+- PC (Pokemon Center): Interact to manage Pokemon/items. Verified.
 
-# Fly Navigation (Johto Cycle)
-- Sequence (using Up): New Bark -> Cherrygrove -> Violet -> Azalea -> Goldenrod -> Ecruteak -> Olivine -> Cianwood -> Mahogany -> Lake of Rage -> Blackthorn.
-- Strategy: Use fly_navigator_v2. Verify town name on screen.
+## Type Effectiveness Chart (Verified)
+- Acid (Poison) -> Gligar (Ground/Flying): Not very effective. (Turn 33436).
+- Flame Wheel (Fire) -> Donphan (Ground): Observed 'Super Effective' (Turn 33613) - **NEEDS RE-VERIFICATION**.
 
-# Item Tracking
-- AMULET COIN: Held by ICARUS (Turn 33626).
-- EXP.SHARE: Held by XENON.
-- PNK APRICORN: In Bag (Turn 33081).
-- HARD STONE: Held by GNEISS.
+## Money & Economy
+- AMULET COIN: Held by ICARUS (Turn 33626). Doubles prize money from trainer battles.
 
-# Lessons Learned
-- **Inventory Verification:** Never assume ownership of TMs/items based on external knowledge. Always verify Bag/PC contents. (Turn 33203).
-- **Move Matchups:** Check party movesets before switching. Kimchi lacked Grass moves for Graveler. (Turn 33260).
-- **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct, making it a safe switch against exploding foes. (Turn 33265).
-- **Gligar Typing:** Gligar is Ground/Flying. It is immune to Ground moves and neutral to Normal. It does not learn Faint Attack by level-up in this game. (Turn 33361).
-- **Status Effectiveness:** Sleep Powder and Hypnosis reportedly failed against wild Gligar with 'It didn't affect' (Turns 33475, 33482). Overwatch suggests this is a misunderstanding of mechanics; re-verification required if encountered again.
-- **Type Effectiveness:** Acid (Poison) is not very effective against Gligar (Ground/Flying). (Turn 33436).
-- **Input Precision:** Avoid mixing directional and action buttons in a single sequence. Verify turn count against Game State before acting. (Turn 33423).
-- **Turn Counter Sync:** Always verify the turn number against the 'Turn #' in the Game State or the top of the prompt. (Turn 33433).
+# Pokemon & Party Information
+## Party Strategy
+- EXP.SHARE: Held by XENON. Receives 50% XP from all battles.
+- Training Goal: Xenon and Kimchi to Lv 40.
 
-# Training Log: Route 45 (Session Started Turn 33466)
-- Strategy: Lead Gneiss (Lv 48) to absorb hits. Switch in training targets (Kimchi/Xenon) once to secure participation XP, then return to Gneiss or switch to Calcifer to finish.
-- XP Distribution: Xenon holds Exp. Share (gets 50% XP). Participants split the remaining 50%.
-- Logistics: Fly to Blackthorn PC for healing when PP or HP is low.
+## PC Storage
+- Box 1 (19/20): Doug (Diglett), Pavlov (Snorlax), Brimstone (Koffing), Heliodor (Sunkern), Cobalt (Nidoran M), Quartz (Rattata), Diva (Jigglypuff), Pendulum (Hoothoot), Jasper (Geodude), Unakite (Unown), Egg (Tyrogue), Amethyst (Zubat), Azurite (Heracross), Hematite (Pinsir), Kenya (Spearow), Togepi (Togepi), Lucid (Drowzee), Truffle (Swinub), Zenith (Dratini).
 
-## Route 45 Observations
-- Tile Mechanics: Mountain barriers (WALL) and one-way ledges (⤵️, ↩️, ↪️) are present.
+# Area Mechanics & Strategy
+## Route 45 (Training Area)
 - Encounter Rate: High in TALL_GRASS at (12, 10). Frequent Gligar (Lv24) and Graveler (Lv23).
-- Progress: 67.9% explored. Remaining unseen tiles are mostly in the lower sections. (Turn 33361).
-- Training Session (Started Turn 33466): Xenon Lv36, Kimchi Lv32. Gneiss Lv48. (Turn 33604).
+- Training Strategy: Lead Gneiss (Lv 48) to absorb hits. Switch in Kimchi/Xenon for participation XP. Calcifer (Lv 48 Typhlosion) as finisher.
 
 ## Strategy for Rising Badge (Gym Leader Clair)
-- Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
+- Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon.
-- Plan: Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers to defeat wild Pokemon while training targets.
-- Start Turn (Grinding): 33466.
 
-## Historical Data (Archive)
-- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45 after multiple Great Ball attempts.
-- **Gen 2 Haunter Weakness:** In this generation, Haunter does NOT have Levitate and is vulnerable to Ground-type moves like Magnitude and Earthquake. (Turn 33588).
+# Lessons Learned
+- **Inventory Verification:** Always verify Bag/PC contents. (Turn 33203).
+- **Move Matchups:** Kimchi lacked Grass moves for Graveler early on. (Turn 33260).
+- **Ghost Immunity:** Haunter is immune to Normal moves like Selfdestruct. (Turn 33265).
+- **Gligar Typing:** Ground/Flying. Immune to Ground. (Turn 33361).
+- **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground. (Turn 33588).
+- **Menu Precision:** Avoid rushing in deep menus to prevent errors like opening Pokedex instead of Pack. (Turn 33626).
+
+# Historical Data (Archive)
+- Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
