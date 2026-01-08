@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 38 (North Lane).
-- **Action:** Walking West towards Olivine City.
-- **Immediate Plan:** Navigate around trainers to reach Route 39.
+- **Location:** Route 38 (17, 3).
+- **Action:** Navigating past Lass to the South.
+- **Immediate Plan:** Walk Down to Row 4 -> West to bypass Lass and Wall.
 - **Route:** Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
