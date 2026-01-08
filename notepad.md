@@ -42,4 +42,4 @@
 - Action: Hunting Loop (Enter -> Wiggle -> Return).
 - Path: Down x2 -> Left -> Right -> Left -> Right -> Up x2.
 - Goal: Trigger Encounter or Return to Gate.
-- Hunt Session: Turn 28696.
+- Hunt Session: Turn 28697.
