@@ -7,12 +7,14 @@
 ## Tile Mechanics (2F)
 - Vertical Barriers: Column 4 (Row 0-12), Column 2 (Row 10-17), Column 9 (Row 12-17).
 - Navigation Gaps: (4, 13) connects left/right, (5, 4) is a vertical corridor.
-- Dead Ends: Column 8 (Row 10-17) is blocked by walls at (8, 8-9).
+- Column 8: Blocked by walls at (8, 8-9)? Verification in progress.
 
 ## Puzzle Plan
-- Goal: Solve the boulder puzzle by pushing B6, B7, and B8 into P1, P2, and P3.
-- Strategy: Use run_code to find a valid push sequence using XML map data.
-- Verification: If no path found, systematically test Column 9 and Row 8 walls.
+- Goal: Verify the path for B8 (8, 14) to reach P3 (8, 7).
+- Step 1: Push B8 Up to (8, 10) systematically.
+- Step 2: Test collision at (8, 9).
+- Step 3: If (8, 9) is a wall, test (7, 10) and (7, 11) from column 6.
+- Hypothesis: B8 must either go through (8, 9) or pivot through column 7 to reach its pit.
 
 ## Training Strategy
 - Location: Route 45 grass (near 15, 60).
