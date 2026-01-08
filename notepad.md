@@ -15,10 +15,10 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Route 41 (44, 24) [Surfing].
-- **Action:** Executing "East Loop" maneuver to reach Northeast Island.
-- **Immediate Plan:** Surf East to Col 48, then North to (48, 14), then West to Col 44, then South to (43, 17).
-- **Map Insight:** Direct approach blocked. Must use East Channel (Col 48) to bypass buoy walls, then loop back West at Row 14 and South at Col 44.
+- **Location:** Route 41 (48, 19) [Surfing].
+- **Action:** Executing "East Loop" maneuver.
+- **Immediate Plan:** Surf North to (48, 10), then West to (44, 10), then South to (44, 17) to land at (43, 17).
+- **Map Insight:** Row 10 is the only crossing point from the East Channel (Col 48) to the Central Channel (Col 44) that leads to the island landing.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
