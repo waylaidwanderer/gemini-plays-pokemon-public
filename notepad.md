@@ -34,7 +34,7 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Hiker Michael at (15, 65) battle started (Turn 33886).
+- Hiker Michael at (15, 65) battle started (Turn 33887).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
 
 # Lessons Learned
