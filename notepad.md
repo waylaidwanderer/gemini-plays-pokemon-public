@@ -9,9 +9,9 @@
 # Current Status
 - **Location:** New Bark Town (6, 11).
 - **Action:** Opening Start Menu to use Fly.
-- **Previous Mistake:** Failed to select POKEMON (Start -> A selected POKEDEX).
-- **Correct Sequence:** Start -> Down (Select POKEMON) -> A -> Select Mistral -> Fly.
-- **Immediate Plan:** Press Start, then verify cursor position in next turn.
+- **Previous Mistake:** "navigate_menu" toggled the menu on and off repeatedly.
+- **Correct Sequence:** Press Start ONCE.
+- **Immediate Plan:** Press Start, verify menu is open.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
