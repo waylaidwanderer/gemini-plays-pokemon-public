@@ -18,9 +18,11 @@
 
 # Exploration Strategy
 ## Blackthorn Gym Boulder Puzzle (2F)
-- Current Status: Boulder 6 stuck at (3, 5). RESET REQUIRED.
 - Goal: Push 3 boulders into pits on 2F to create a path on 1F.
 - Verified Pits: (2, 5), (8, 3), (8, 7).
+- Boulder 8: Already pushed into pit (8, 7).
+- Boulder 6 (3, 3) -> Pit (2, 5): Requires careful maneuvering.
+- Boulder 7 (6, 1) -> Pit (8, 3): Requires careful maneuvering.
 - Access to Right Side (Col 5-9): Cross via Row 13-17 in Column 4.
 
 # Obstacles & Solutions
