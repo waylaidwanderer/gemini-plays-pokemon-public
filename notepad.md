@@ -1,6 +1,6 @@
 # Current Status
-- Immediate Plan: Buy Great Balls at Olivine Mart (Ultra not avail), then Heal at Center.
-- Reasoning: Olivine Mart doesn't stock Ultra Balls. Adapting to buy Great Balls.
+- Immediate Plan: Buy 10 Great Balls, then Heal at Center.
+- Reasoning: I likely have 0 Great Balls (Game State truth vs Notepad error). Buying 10 backups.
 - Goal: Buy Balls -> Heal -> Surf to Whirl Islands.
 
 # Whirl Islands Mapping
