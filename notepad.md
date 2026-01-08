@@ -20,8 +20,8 @@
   - Strip 3 (Cols 5-9) is mostly open but has internal walls.
 
 # Strategy & Progress
-- Status: On 1F (1, 6), returning to 2F. Strength active.
-- Plan: Verify if B6 reset to (3, 3) or remained at (3, 5) upon return to 2F.
+- Status: Back on 2F (1, 7). CONFIRMED: Puzzle resets when changing floors (Verified Turn 34592). B6 is back at (3, 3).
+- Plan: Navigate to (3, 4), activate Strength, then use solve_blackthorn_boulders_v3.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
