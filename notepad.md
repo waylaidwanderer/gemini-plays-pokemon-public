@@ -1,25 +1,21 @@
 # Game Mechanics & Systems
-## Tile Mechanics (Verified)
+## Tile Mechanics
 - FLOOR / TALL_GRASS: Walkable.
 - WALL / COUNTER / FLOOR_UP_WALL (from North): Impassable.
 - LEDGE_HOP_DOWN (⤵️): One-way jump North to South.
 - Blackthorn Elevation: Tiered city separated by ledges/walls. Gaps allow Northward walking (e.g., 13,17; 9,21; 13,23).
+- Pits (Blackthorn Gym): Drop the player to the same coordinates on the floor below.
 
 # Pokemon & Party Information
-## Training Session (Route 45)
-- Goal: Kimchi (Lv33) and Xenon (Lv36) to Lv40.
-- Method: Kimchi holds Exp. Share. Lead Xenon.
-
 ## Strategy for Gym Leader Clair
 - Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
-- Type Matchups: Dragon resists Fire, Water, Electric, Grass. Kingdra (Water/Dragon) is only weak to Dragon.
-- Tactical Plan (Advisor):
-  - Lead Calcifer (Lv49): Use Return for high neutral damage. Calcifer's level advantage is key.
-  - Xenon (Lv36): Backup for Hypnosis/Confuse Ray support if Calcifer is weakened.
-  - Gneiss (Lv48): Backup, but beware of Surf/Ice Beam. Earthquake for neutral damage.
+- Matchups: Dragon resists Fire, Water, Electric, Grass. Kingdra is only weak to Dragon. Haunter (Xenon) is immune to Normal. Haunter's Night Shade does fixed damage (36). Haunter's Hypnosis/Confuse Ray can disable.
+- Tactical Plan:
+  - Lead Calcifer (Lv49): Use Return for high neutral damage.
+  - Xenon (Lv36): Backup for Hypnosis/Confuse Ray support.
+  - Gneiss (Lv48): Backup, but beware of Surf/Ice Beam.
 
 # Exploration Strategy
-## Accessing Route 45 East
-- Reach Row 8 (Ice Path level) via the Column 35 gap.
-- Move East to (39, 8) to enter the eastern corridor.
-- Jump south to reach the isolated eastern grass of Route 45.
+- Current Goal: Reach Clair.
+- Hypothesis: Falling through the pit at (2, 5) on 2F will drop the player into the central area of 1F, providing a direct path to Clair at (5, 3).
+- Boulder Status: Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14) are NOT yet pushed. Verification of pit-fill mechanic needed if direct fall fails.
