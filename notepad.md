@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron City.
-- **Action:** Walking to Magnet Train Station (8, 3).
+- **Location:** Magnet Train Station (Saffron).
+- **Action:** Boarding train to Goldenrod.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
