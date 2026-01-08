@@ -1,7 +1,7 @@
 # Current Status
-- Location: WhirlIslandCave (5, 5) [Corridor].
-- Action: Entering Warp at (7, 5).
-- Immediate Plan: Walk onto the warp tile at (7, 5).
+- Location: WhirlIslandCave (7, 5) [Warp Tile].
+- Action: Attempting to warp.
+- Immediate Plan: Move South into the wall/door to trigger the warp.
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
