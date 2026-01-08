@@ -14,13 +14,19 @@
 - Mechanics: Pushing a boulder moves it one tile, but the player stays in their original position. Boulders cannot be pushed into NPCs.
 
 # Lessons Learned
-- Soft-locks: Pushing B7 to (5, 1) or B8 to (8, 10) traps the player or the boulder against immovable walls/NPCs.
-- Cody (4, 1) and (5, 0) are impassable for boulders.
-- Column 5 is the primary vertical artery for the gym.
+- Puzzle Status [Turn 34304]: Boulder 8 pushed to (8, 12). Standing at (8, 13) to push it Up.
 
-# Puzzle Reset Strategy
-- To reset boulder positions, leave the map (via ladder or pit) and return.
-- Current Reset Path: Arrived on 1F via pit at (8, 3). Returning to 2F via ladder at (7, 9).
+# Strategy: Test Central Pillars for Hidden Paths
+1. Push B8 Up to (8, 10).
+2. Move to (9, 10).
+3. Attempt to push B8 Left into (7, 10).
+4. If successful, (7, 10) is a hidden gap.
+
+# Lessons Learned
+- Verified Walls: (4,2), (6,2), (4,5), (5,0), (7,11) are solid.
+- Soft-locks: Pushing B7 to (5, 1) or B8 to (8, 10) against a TRUE wall blocks progress.
+- Cody (4, 1) is a solid obstacle for boulders.
+- Boulders move 1 tile per push; player stays in original position.
 
 # Pokemon & Party Information
 ## Strategy for Gym Leader Clair
