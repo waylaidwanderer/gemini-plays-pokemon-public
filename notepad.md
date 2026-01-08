@@ -38,3 +38,6 @@
 - **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
 - **Fly Map Logic:** Indigo -> Right -> Right -> Down = Cinnabar Island.
 - **Hypothesis:** Cinnabar -> Up -> Up -> Right = Saffron City?
+- **Observed (Turn 27231):** Cinnabar -> Up -> Up -> Right = Pallet Town.
+- **Hypothesis:** Up from Pallet might be blocked? Or Right from Viridian wraps to Pallet?
+- **Plan:** Trying Up -> Right from Pallet to test Viridian connection.
