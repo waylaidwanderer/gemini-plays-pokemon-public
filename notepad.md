@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Lake of Rage (Fly Map).
+- **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Down (to Mahogany) -> Left x10 (to Ecruteak/Olivine/Cianwood).
-- **Logic:** Lake of Rage is a northern spur. Must go Down to reconnect, then West.
+- **Method:** Pressing 'Left' (x15) to traverse West.
+- **Hypothesis:** Previous 'Left' inputs were consumed by the Lake of Rage -> Mahogany cursor animation.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
