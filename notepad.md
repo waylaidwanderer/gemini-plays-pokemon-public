@@ -5,8 +5,8 @@
 
 ## Strategy: Dragon User Challenge
 1. Heal party at Blackthorn Pokemon Center. (DONE)
-2. Navigate to the water behind (North) the Blackthorn Gym (roughly Columns 16-20, Rows 4-7).
-3. Locate the entrance to Dragon's Den (likely a cave or building warp).
+2. Navigate to the water behind (North) the Blackthorn Gym. (IN PROGRESS)
+3. Locate entrance to Dragon's Den. (Spotted sign at 21, 3 and Gramps at 21, 2)
 4. Reach the "small shrine" at the center of the Den.
 
 ## Tile Mechanics
