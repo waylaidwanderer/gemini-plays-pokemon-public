@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (14, 40) [In Battle].
-- Action: Battling Wild Mantine.
-- Immediate Plan: Catch Mantine (Missing from Dex). Throw Great Balls. Do NOT attack with Muscle (Lv 85).
+- Location: Route 41 (14, 40) [In Battle - Caught].
+- Action: Nicknaming Mantine.
+- Immediate Plan: Advance text, name Mantine 'Delta', then Surf East/North to NE Whirl Island Cave (36, 19).
 - Goal: Complete Pokedex / Catch Lugia.
-- Status: Throwing Ultra Ball (Attempt #2). Ultra Balls left: 3.
+- Status: Mantine caught! Pokedex entry displayed.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
