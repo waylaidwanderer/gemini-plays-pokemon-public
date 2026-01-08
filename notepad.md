@@ -9,7 +9,8 @@
 # Current Status
 - **Location:** Route 39 (14, 18).
 - **Action:** Walking South to Olivine City.
-- **Immediate Plan:** Continue South to exit Route 39.
+- **Immediate Plan:** Navigate Column 13/12 to avoid walls and trainers.
+- **Path:** Left (to Col 13) -> Down x10 (to Row 28) -> Left (to Col 12) -> Down x7.
 - **Route:** Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
