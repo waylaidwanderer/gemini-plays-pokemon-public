@@ -20,11 +20,10 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- EXP.SHARE: Held by KIMCHI. Receives 50% XP from all battles.
-- **Training Session (Route 45):** Started Turn 33466. 
+- EXP.SHARE: Swapping to KIMCHI (Turn 33781).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33781).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
-  - Current Progress: Xenon Lv36, Kimchi Lv32.
 
 # Area Mechanics & Strategy
 ## Route 45 (Training Area)
@@ -32,7 +31,7 @@
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
-- Opponent: Clair uses Dragon-type Pokemon.
+- Opponent: Clair uses Dragon-type Pokemon. Need to identify effective counters in party.
 
 # Lessons Learned
 - **Inventory Verification:** Always verify Bag/PC contents. (Turn 33203).
@@ -45,6 +44,3 @@
 
 # Historical Data (Archive)
 - Gligar Capture (Turn 33500): Caught Lv 24 Male Gligar (Telson) on Route 45.
-
-# Reflection Notes
-- **Turn 50 Reflection (Turn 33735):** Notepad reorganized for better readability. Training progress consolidated. No deferred tasks identified. Goals remain focused on preparation for Gym Leader Clair. Automation tools (find_path, grind_encounters) are performing optimally. No recent errors to analyze. Root hypothesis for training (efficiency of Route 45) remains valid.
