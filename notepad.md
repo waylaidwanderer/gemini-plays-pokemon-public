@@ -3,7 +3,7 @@
 - Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 14) [Default Positions].
 - Reset Mechanic: Ladders (1, 7) and (7, 9) reset 2F boulders. (Verified Turn 34678).
 - Push Mechanic: Player stays in tile after push. (Verified Turn 34644).
-- Status: Strength is INACTIVE. Boulders are RESET. (Verified Turn 34747).
+- Status: Strength is ACTIVE. B6 moved to (3, 2). (Turn 34752).
 
 # Verified Obstacles (2F)
 - (4, 1): COOLTRAINER_M Cody. Impassable (Attempted move Turn 34737).
