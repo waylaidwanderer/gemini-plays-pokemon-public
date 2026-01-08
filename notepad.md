@@ -1,7 +1,7 @@
 # Current Status
-- Location: Whirl Island B2F.
-- Immediate Plan: Surf East to the channel, then South to the Waterfall.
-- Goal: Reach Lugia in B2F/B3F Basin.
+- Location: Whirl Island B2F (Top of Waterfall).
+- Immediate Plan: Descend Waterfall at (12, 14) to reach the Basin.
+- Goal: Find Lugia in the Basin (B3F).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entered via (36, 19).
@@ -17,10 +17,10 @@
 
 # Whirl Islands Strategy
 - **Target:** Lugia (Lv 60).
-- **Path:** B2F (Surf) -> Waterfall -> Bottom Area -> Ladder (13, 31) -> Basin.
+- **Path:** B2F (Descend Waterfall) -> Bottom Area -> Ladder (13, 31) -> Basin.
 
 # Post-Game Goals
-- **Primary:** Complete Pokedex (Current: 43 Owned).
+- **Primary:** Complete Pokedex (Current: 44 Owned).
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
 - **Whirl Islands Start:** Jan 7, 2026 (Turn 27574).
