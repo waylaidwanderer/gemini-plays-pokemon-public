@@ -1,15 +1,14 @@
 # Current Status
 - Location: Violet City Pokemon Center.
-- **Lugia Caught!** (In Box 3).
-- **Lapis Deposited.** Party is 5/6.
-- Immediate Goal: Withdraw Lugia (Maelstrom) and check stats.
+- **Lugia Withdrawn!** (In Party Slot 6).
+- **Lapis Deposited.** (In Box 3).
+- Immediate Goal: Check Lugia (Maelstrom) stats and Heal.
 
 # Next Objectives
-1. Withdraw Lugia.
-2. Check Lugia's stats/nature.
-3. Heal Party.
-4. Hunt Roaming Beasts (Raikou, Entei).
-5. Suicune hunt.
+1. Check Lugia's stats/nature.
+2. Heal Party.
+3. Hunt Roaming Beasts (Raikou, Entei).
+4. Suicune hunt.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex (Current: 45 Owned).
