@@ -2,14 +2,15 @@
 - **Primary:** Complete Pokedex (Current: 40 Owned).
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
+- **Whirl Islands Start:** Jan 7, 2026 (Turn 27574).
 - **Location:** Whirl Islands (Route 41).
 - **Key Item:** Silver Wing (Owned).
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (16, 20).
-- **Action:** Entering Pokemon Center.
-- **Path:** Down x2 -> Left x3 -> Up.
+- **Location:** Olivine Pokemon Center (3, 3).
+- **Action:** Healing Pokemon.
+- **Immediate Plan:** Advance dialogue -> Exit South -> Surf West to Whirl Islands.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
@@ -17,34 +18,22 @@
   - Whirlpool: Lapis (Poliwag).
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
-- **Quest:** 
-    1. Travel to Saffron City -> Talk to Copycat (Done).
-    2. Return to Vermilion Fan Club -> Get Doll (Done).
-    3. Saffron Copycat -> Get Pass (Done - Have 'PASS').
-    4. Take Magnet Train to Goldenrod.
-    5. Goldenrod -> Whirl Islands.
 
 ## Tile Mechanics
-- **FLOOR:** Standard traversable tile.
-- **WALL:** Impassable.
-- **WARP_CARPET:** Triggers a warp.
-- **DOOR:** Warp tile.
-- **WATER:** Requires Surf to traverse.
-- **Note:** Verification of tile mechanics is ongoing.
+- **FLOOR:** Traversable. Standard ground.
+- **WALL:** Impassable. Building walls, cliffs, etc.
+- **COUNTER:** Impassable. Interactable over.
+- **PC:** Impassable. Interactable. Access Pokemon Storage.
+- **LADDER:** Warp tile. Transition between floors.
+- **WARP_CARPET_DOWN:** Warp tile. Exit map South.
+- **WATER:** Impassable (Walking). Surfable (Surfing).
+- **DOOR:** Warp tile. Entrance to buildings.
+- **CUT_TREE:** Impassable. Cuttable with HM01.
+- **HEADBUTT_TREE:** Impassable. Interactable with Headbutt.
 
-## Travel Notes
-- **Route 6:** Head North to Saffron Gatehouse (6, 1). Pond at Row 11 blocks direct path; go east.
-- **Warp Connection:** Vermilion Port Passage (15, 4) <-> (3, 2) (Internal Ladder).
-- **Warp Connection:** Vermilion Port Passage (3, 14) <-> Vermilion Port (9, 5).
-- **Tool Issue:** `find_path` incorrectly attempts to traverse ledges backwards. Needs update to respect one-way mechanics.
-- **Locations:**
-    - Vermilion Fan Club: Southwest Vermilion.
-    - Magnet Train Speech House: Vermilion (13, 13).
-    - Diglett's Cave Speech House: Vermilion (21, 17).
-
-- **Battle:** vs Sailor Harry (Route 38).
-- **Opponent:** Wooper (Lv 19).
-- **Strategy:** Muscle (Lv 85) use Strength.
-- **Battle:** vs Lass Dana (Route 38).
-- **Status:** Pre-battle dialogue.
-- **Strategy:** Muscle (Lv 85) use Strength.
+## Quest Log
+- **Completed:**
+    1. Saffron Copycat (Met).
+    2. Vermilion Fan Club (Doll Retrieved).
+    3. Magnet Train Pass (Obtained).
+- **Active:** Catch Lugia.
