@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 6 (North of Vermilion).
-- **Next Step:** Go East to x=16 to bypass water -> South to Vermilion.
+- **Location:** Vermilion City (Fan Club).
+- **Next Step:** Return to Saffron -> Give Doll to Copycat.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
