@@ -36,12 +36,10 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 36 Grass (In Position).
-- Current State: Gyarados Lead (Lv 36). Repel NOT active.
-- Immediate Action: In Pack. Cursor on DIRE HIT.
-- Observation: List continues upwards. Max Repel must be above.
-- Task: Scroll UP to reveal missing items (Bitter Berry, Burn Heal, Elixer, Full Heal, Ice Berry, Lemonade, Max Repel, Revive).
+- Current State: Gyarados Lead (Lv 36). Max Repel USED (Turn 28613).
+- Immediate Action: Exit Menu -> Start Hunt Loop.
 - Hunt Loop:
-  1. Walk back and forth in grass.
+  1. Walk back and forth in grass (Left/Right).
   2. If encounter: Check if Raikou/Entei.
      - If yes: Master Ball or Mean Look/Hypnosis strategy? (Check Balls).
      - If no: Run.
