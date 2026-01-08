@@ -1,16 +1,20 @@
-# Blackthorn Gym (Puzzle Progress)
-- Start Turn: 34501
-- Current Turn: 34687
-- Goal: Fill three pits on 2F: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Floor Reset: Using a ladder or falling into a pit resets all boulder positions on 2F.
-- Push Mechanic: Player stays in place after push.
-- Connectivity: Gap at Row 9 (2,9) connects Left/Right corridors. Corridor 3 (x=5) is the main vertical thoroughfare. Corridor 4 (x=8) is blocked at y=8,9.
+# Blackthorn Gym (Global Mechanics)
+- Start Turn: 34501 (Puzzle Start)
+- Current Turn: 34689
+- Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 13).
+- Floor Reset: Using a ladder (1, 7) or (7, 9) resets all boulder positions on 2F.
+- Push Mechanic: Player stays in the same tile after pushing a boulder.
+- Obstacles: Pillars (WALL tiles) and Cooltrainers (Objects) are impassable.
+- Corridor Connectivity: Narrow corridors. Gaps at Row 1, Row 5, Row 12/13, and Row 16/17.
 
-# Manual Strategy: Blackthorn Gym 2F
-- Step 1: B8 (8, 14) -> investigating path.
-- Step 2: B7 (6, 1) -> Push RIGHT to (8, 1), then push DOWN to P1 (8, 3).
-- Step 3: B6 (3, 3) -> Push UP to (3, 1), then push LEFT through Cody (4, 1) to (2, 1), then DOWN to P2 (2, 5).
+# Strategy for Beating Blackthorn Gym
+- Goal: Fill the three pits on 2F to bridge gaps on 1F.
+- Method: Manual execution of boulder pushes.
+- Detailed Plan:
+    1. B8 (8, 13) -> Push UP to (8, 10), then RIGHT to (9, 10), then UP to (9, 7), then LEFT to P3 (8, 7).
+    2. B7 (6, 1) -> Push RIGHT to (8, 1), then push DOWN to P1 (8, 3).
+    3. B6 (3, 3) -> Push LEFT to (2, 3), then push DOWN to P2 (2, 5).
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable tile.
