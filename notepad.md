@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (37, 7) [Surfing].
-- **Action:** Resuming Westward surf after running from Tentacool.
-- **Immediate Plan:** Surf West to (30, 7) to locate Northeast Island entrance.
+- **Action:** Surfing West to (26, 7) to reach the Northeast Island coast.
+- **Immediate Plan:** Scout the island perimeter for a landing spot or cave entrance.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
