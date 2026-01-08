@@ -32,3 +32,4 @@
 # Puzzle Testing Log
 - Turn 34369: Confirmed Fran (4, 11) blocks player movement. NPCs act as walls.
 - Turn 34359: Confirmed (9, 17) is a solid WALL.
+- Strength Mechanic: After activating with 'A', the message 'Boulders may now be moved!' must be closed with 'B'. Subsequent pushes are done by walking into the boulder.
