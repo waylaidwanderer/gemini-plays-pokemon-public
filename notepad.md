@@ -1,8 +1,9 @@
 # Current Status
-- Location: Route 41 (20, 34) [Surfing in Channel].
-- Immediate Plan: Surf North to (20, 31), then West to (18, 31) to explore the NW pocket.
+- Location: Route 41 (18, 31) [Surfing North of SW Island].
+- Immediate Plan: Surf West to (14, 31) and investigate the unseen area to the West (X=13) to find a gap North around Y=28.
+- Reasoning: North paths at X=20 and X=15 (Y=28) were blocked. Checking if a path exists further West.
 - Goal: Find path to Lugia (B3F).
-- Status: Surfing to NW Pocket.
+- Status: Exploring West Channel (North Side).
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
