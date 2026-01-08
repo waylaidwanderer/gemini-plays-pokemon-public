@@ -7,9 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Ecruteak City (19, 18).
-- **Action:** Walking West to Route 38.
-- **Immediate Plan:** Walk straight Left to the gatehouse (0, 18).
+- **Location:** Ecruteak City (9, 18).
+- **Action:** Walking West to Route 38 Gatehouse.
+- **Immediate Plan:** Walk Left x10 to enter the warp at (0, 18).
 - **Route:** Ecruteak -> Route 38 -> Route 39 -> Olivine City -> Surf to Cianwood.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
