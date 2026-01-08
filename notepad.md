@@ -1,5 +1,5 @@
 # Post-Game Goals
-- **Primary:** Complete Pokedex (Current: 40 Owned).
+- **Primary:** Complete Pokedex (Current: 41 Owned).
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
 - **Whirl Islands Start:** Jan 7, 2026 (Turn 27574).
@@ -15,9 +15,9 @@
   - **Note:** Roaming Raikou/Entei are better targets for Master Ball, so try to save it.
 
 # Current Status
-- **Location:** Olivine City (1, 31) [Surfing].
-- **Action:** Surfing West to Route 40.
-- **Immediate Plan:** Navigate Route 40 -> Route 41 -> Whirl Islands.
+- **Location:** Route 40 (5, 35).
+- **Action:** Crossing into Route 41.
+- **Immediate Plan:** Navigate to Northeast Island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
@@ -37,4 +37,5 @@
     1. Saffron Copycat (Met).
     2. Vermilion Fan Club (Doll Retrieved).
     3. Magnet Train Pass (Obtained).
+    4. Caught Tentacool (Nomura).
 - **Active:** Catch Lugia.
