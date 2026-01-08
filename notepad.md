@@ -7,10 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Cherrygrove City (Fly Map).
+- **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `navigate_menu` (Up -> Left x3) with LONGER hold times (500ms).
-- **Hypothesis:** Previous 200ms hold was insufficient to overcome cursor stickiness at Cherrygrove.
+- **Method:** Using `navigate_menu` (Left x3) to traverse Mahogany -> Ecruteak -> Olivine -> Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
