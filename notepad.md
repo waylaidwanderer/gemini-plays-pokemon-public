@@ -8,20 +8,18 @@
 - LADDER: Warp to 1F. Resets boulders.
 - NPCs: Act as walls.
 
-## Confirmed Walls (Verified by movement)
-- (7, 10), (7, 11), (7, 14), (8, 9), (9, 12), (9, 13).
-
 ## Current Boulder Positions
 - B6 (ID 6): (3, 3) [Verified]
 - B7 (ID 7): (6, 1) [Verified]
 - B8 (ID 8): (8, 14) [Verified]
 
 ## Strategic Plan
-1. Navigate to (8, 13) via the gap at (4, 13) to confirm player reachability to the right side.
-2. Run solve_boulders_v2 with the absolute truth from Game State.
-3. Execute the resulting push sequence.
+1. Trust Game State collision types (WALL, FLOOR) as absolute truth.
+2. Run BFS solver with confirmed data to find the push sequence.
+3. Execute the resulting sequence.
 
 ## Lessons Learned
-- Trust Game State: Collision types (WALL, FLOOR) in Game State are the absolute truth.
+- Trust Game State: Collision types in Game State are the absolute truth.
 - Strength: Reactivate after floor changes.
-- Boulder Reset: Boulders reset when changing maps via ladder.
+- Boulder Reset: Boulders reset to starting positions when changing maps via ladder.
+- Reachability: The player can cross between the left and right sides via gaps at Y=1 and Y=13.
