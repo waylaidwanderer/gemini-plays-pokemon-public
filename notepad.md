@@ -25,6 +25,6 @@
   - (8, 7) -> (7, 7)
 
 # Puzzle Investigation
-- Turn 34483: Testing if Row 0 is walkable at (3, 0).
-- Turn 34483: Testing if Cody (4, 1) is walkable.
-- Turn 34483: Testing if Fran (4, 11) is walkable.
+- Turn 34484: Confirmed (3, 0) is a solid WALL.
+- Turn 34484: Testing if Cody (4, 1) is walkable.
+- Turn 34484: Testing if Fran (4, 11) is walkable.
