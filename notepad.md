@@ -8,9 +8,11 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Ecruteak -> Goldenrod -> ?).
-- **Hypothesis:** 'Left' from Ecruteak is blocked. Trying 'Down' then 'Left'.
-- **Immediate Plan:** Press Down (to Goldenrod) -> Left (to Olivine?). Verify destination.
+- **Action:** Navigating Fly Map (Goldenrod -> Ecruteak -> Olivine?).
+- **Current Selection:** Goldenrod City.
+- **Observation:** 'Left' from Goldenrod is blocked.
+- **Hypothesis:** Previous failure at Ecruteak was due to input timing/buffering.
+- **Immediate Plan:** Press Up (to Ecruteak) -> Wait -> Press Left (to Olivine). Use 1000ms delay.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
