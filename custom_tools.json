@@ -189,7 +189,7 @@
     ]
   },
   "execute_hunt_routine": {
-    "description": "Automates the Roaming Beast hunt loop between Ecruteak City and Route 37. Handles map transitions and grass hunting sequence.",
+    "description": "Automates the Roaming Beast hunt loop between Ecruteak City and Route 37. Handles map transitions and grass hunting sequence with appropriate delays.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -217,7 +217,7 @@
         "player_position"
       ]
     },
-    "python_script": "import json\n\n# Variables current_map_id and player_position are injected directly.\ntry:\n    y = player_position['y']\n    buttons = []\n    \n    if current_map_id == '4_9': # Ecruteak\n        buttons = [\"Down\"]\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle (4 steps), Return (2 steps), Exit (1 step)\n             buttons = [\"Down\", \"Down\", \"Left\", \"Right\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\"]\n        else: # In Grass (or deeper)\n             # Just finish wiggle and leave\n             buttons = [\"Left\", \"Right\", \"Up\", \"Up\", \"Up\"]\n             \n    print(json.dumps(buttons))\nexcept Exception:\n    print(json.dumps([]))",
+    "python_script": "import json\n\ntry:\n    y = player_position['y']\n    buttons = []\n    \n    if current_map_id == '4_9': # Ecruteak\n        buttons = [\"Down\"]\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle, Return (2 steps), Exit (1 step)\n             buttons = [\n                 \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n        else: # In Grass (or deeper)\n             # Wiggle and leave\n             buttons = [\n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n             \n    print(json.dumps(buttons))\nexcept Exception:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -233,6 +233,11 @@
         "commit_message": "Refactored script to execute logic at top-level instead of defining a function, as the environment injects variables directly but does not call defined functions.",
         "timestamp": "2026-01-08T23:11:09.896Z",
         "action_counter": 28839
+      },
+      {
+        "commit_message": "Updated execute_hunt_routine to include 'sleep' commands between movements. This ensures the emulator has time to process each step (walking animation) before the next input is sent, preventing skipped actions.",
+        "timestamp": "2026-01-08T23:12:43.180Z",
+        "action_counter": 28841
       }
     ]
   }
