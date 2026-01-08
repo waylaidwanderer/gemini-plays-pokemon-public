@@ -28,3 +28,11 @@
 - H3: Player moves into tile after push. (Failed, Turn 34782)
 - H4: (7, 11) is floor. (Failed, Turn 34796)
 - H5: (4, 12) is floor. (Failed, Turn 34794)
+
+# Puzzle Analysis (2F) - Attempt 6
+- Observation: B8 is at (8, 10). (8, 9) and (8, 8) are marked WALL.
+- Hypothesis: (8, 9) is actually FLOOR.
+- Test: Push B8 UP from (8, 11).
+- Result: TBD.
+- Observation: B6 (3, 3) needs to reach P2 (2, 5). Path via Row 13 looks viable.
+- Observation: P1 (8, 3) and P3 (8, 7) are in the right-side area.
