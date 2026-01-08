@@ -1,7 +1,7 @@
 # Current Status
 - Location: WhirlIslandCave (5, 5) [Corridor].
-- Action: Clearing text after catching Krabby.
-- Immediate Plan: Investigate Warp at (7, 5).
+- Action: Entering Warp at (7, 5).
+- Immediate Plan: Walk onto the warp tile at (7, 5).
 - Goal: Find path to Lugia (B3F).
 
 # Whirl Islands Mapping
