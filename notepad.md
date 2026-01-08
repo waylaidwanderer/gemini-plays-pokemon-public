@@ -8,10 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Retrying Open Start Menu.
-- **Previous Mistake:** Menu failed to open on first try (Turn 27496).
-- **Correct Sequence:** Press Start.
-- **Immediate Plan:** Press Start, verify menu is open in next turn.
+- **Action:** In Start Menu (Cursor on POKEMON). Selecting POKEMON.
+- **Immediate Plan:** Select POKEMON -> Select Mistral (Slot 2) -> Fly.
+- **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
