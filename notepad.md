@@ -17,9 +17,9 @@
 - B8 (ID 8): (8, 14) [Verified]
 
 ## Strategic Plan
-1. Re-verify player reachability to the right side (Column 7-9) via the gap at (4, 13).
-2. Use solve_boulders_v2 with the absolute truth from Game State (no 'fake wall' hunting).
-3. If solve_boulders_v2 returns no buttons, investigate why the BFS is failing (e.g., player reachability to push tiles).
+1. Navigate to (8, 13) via the gap at (4, 13) to confirm player reachability to the right side.
+2. Run solve_boulders_v2 with the absolute truth from Game State.
+3. Execute the resulting push sequence.
 
 ## Lessons Learned
 - Trust Game State: Collision types (WALL, FLOOR) in Game State are the absolute truth.
