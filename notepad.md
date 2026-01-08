@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (31, 8) [Surfing].
-- **Action:** Battling Wild Tentacool (Turn 2).
-- **Immediate Plan:** Defeat Tentacool with Muscle (Strength/Thunderpunch). Then Surf North to (31, 7) and East.
+- **Action:** Resuming navigation after Wild Battle.
+- **Immediate Plan:** Surf North to (31, 7) then East along the clear lane to reach Northeast Island.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
