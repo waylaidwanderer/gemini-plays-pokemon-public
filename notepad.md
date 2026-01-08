@@ -7,16 +7,16 @@
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
+- Start Turn: 34112
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
-- Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
-- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Boulders cannot be pushed into NPCs.
+- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original position. Verified in Turns 34280 and 34303. Boulders cannot be pushed into NPCs.
 - Reset: Leaving the floor (via ladder or pit) and returning resets all boulder positions to their original coordinates.
 
 # Strategy & Progress
 - Lead Pokémon: Calcifer (Typhlosion, Lv49).
 - Gym Leader Clair's Team: Dragonair x3 (Lv37), Kingdra (Lv40).
-- Current Task: Solving the puzzle using the refined solver tool from the reset state.
+- Strategy for Training (Route 45): Grind wild encounters in tall grass until Xenon and Kimchi reach Lv40. Use Max Repel to avoid weak encounters if needed.
 
 # Obstacles & Solutions
 - Blackthorn Gym Pit Shifts (2F -> 1F):
