@@ -1,14 +1,14 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 13).
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 12).
 - Status: Strength is ACTIVE. Boulders RESET.
 
 # Tile Mechanics (2F)
 - WALL: Impassable. (4, 0-12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11), (9, 12+).
 - LADDER: Impassable for boulders. (1, 7), (7, 9).
 - Gap: (4, 13) is the primary connection between left and right.
-- Push Mechanic: Player moves into the boulder's old tile after a push. (Verified Turn 34813).
+- Push Mechanic: Player moves into the boulder's old tile after a push, EXCEPT when the "Strength" message box appears. (Verified Turn 34815).
 
 # Puzzle Analysis (2F)
 - Strategy:
