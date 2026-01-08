@@ -20,13 +20,9 @@
 - Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
 - Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
 - Test 10: (2, 13) gap -> Pending.
-- Test 11: (7, 6) -> Confirmed WALL (Turn 34908). (6, 6) -> Pending.
-
-# Strategy: Blackthorn Gym 2F
-- Step 1: Re-activate Strength.
-- Step 2: Verify (2, 13) and (8, 9) collisions.
-- Step 3: Use BFS solver (run_code) with corrected map.
-- Contingency: If (8, 9) is WALL, B8 is a decoy. Must find path for B6/B7 to reach right-side pits.
+- Test 11: (7, 6) -> Confirmed WALL (Turn 34908). (6, 6) -> Confirmed WALL (Turn 34910).
+- Strategy: Use BFS solver (run_code) with confirmed wall data.
+- Goal: Verify if B8 can reach P1 or P3, or if B7 is the only option.
 
 # Verified Obstacles (2F)
 - Column 4: (4, 1), (4, 9), (4, 10), (4, 11), (4, 12) are WALLs.
