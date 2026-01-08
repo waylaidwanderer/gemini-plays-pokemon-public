@@ -7,10 +7,9 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Olivine City (21, 0).
-- **Action:** Walking South towards Pokemon Center.
-- **Immediate Plan:** Walk Down x16 to Row 16 (Intersection), then West to Pokemon Center.
-- **Reasoning:** Manual navigation to avoid tool reliability issues.
+- **Location:** Olivine City (21, 10).
+- **Action:** Navigating West to find a gap in the wall at Row 14.
+- **Immediate Plan:** Walk West to avoid the wall, then South. Expecting battle with Youngster (20, 13).
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
