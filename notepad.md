@@ -8,9 +8,10 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Selected Cianwood (Visual). Text incorrectly says Ecruteak.
-- **Hypothesis:** Text lag. Visual cursor is correct.
-- **Immediate Plan:** Press A to Fly. Verify arrival at Cianwood.
+- **Action:** Retrying Fly to Cianwood.
+- **Current Location:** Ecruteak City (23, 28).
+- **Previous Failure:** Navigated incorrectly on Fly map, landed in Ecruteak instead of Cianwood.
+- **Immediate Plan:** Open Start Menu -> Select Fly -> Test 'Left' navigation carefully.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
