@@ -6,7 +6,7 @@
 ## Current Boulder Positions
 - B6 (ID 6): (3, 2)
 - B7 (ID 7): (6, 1)
-- B8 (ID 8): (8, 14)
+- B8 (ID 8): (8, 12)
 
 ## Pits (Targets)
 - P1: (8, 3)
@@ -14,10 +14,10 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Push B8 (8, 14) Up to (8, 12) to clear the bottom corridor.
-2. Audit walls at (7, 14), (9, 14), (7, 13), (9, 13), (7, 12), (9, 12).
-3. Specifically test (7, 11) by moving Left from (8, 11).
-4. If a gap is found, update Mental Map and use solve_boulders_v2.
+1. Move to (8, 13) and push B8 Up to (8, 11).
+2. Move to (8, 12) and then to the left side via (7, 12) and (6, 12).
+3. Audit walls at (7, 11) and (7, 10) from the left side.
+4. Once the map is fully verified, use solve_boulders_v2.
 
 ## Tile Mechanics (2F)
 - FLOOR: Traversable.
