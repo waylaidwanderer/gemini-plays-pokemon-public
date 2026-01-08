@@ -16,7 +16,7 @@
 
 # Current Status
 - **Location:** Route 41 (46, 11) [In Battle].
-- **Action:** Running from Wild Tentacool.
+- **Action:** Running from Wild Tentacruel.
 - **Immediate Plan:** Run -> Navigate to (40, 7) via (45, 9) to bypass George and buoys.
 
 ## Tile Mechanics
