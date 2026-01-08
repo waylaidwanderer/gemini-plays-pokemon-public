@@ -14,7 +14,7 @@
   - Whirlpool: Lapis (Poliwag).
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
-- **Immediate Action:** Fly to Vermilion City (Direct Fly to Johto failed).
+- **Immediate Action:** Fly to Vermilion City (Selection Confirmed).
 ## Tile Mechanics
 - **FLOOR:** Standard traversable tile.
 - **WALL:** Impassable.
