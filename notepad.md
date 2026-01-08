@@ -7,7 +7,7 @@
 # Tile Mechanics (2F)
 - WALL: Impassable. (4, 0-10, 12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (9, 12-17).
 - Gap: (4, 13) is the primary connection between left and right.
-- Push Mechanic: Player moves into the tile previously occupied by the boulder.
+- Push Mechanic: Player stays in tile after push. (Confirmed Turn 34791).
 
 # Puzzle Analysis (2F)
 - B7 (6, 1) -> P1 (8, 3) Path: (6, 1) -> (8, 1) -> (8, 2) -> P1.
