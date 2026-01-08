@@ -1,20 +1,16 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 11).
+- Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 12), B10 (2, 14)?
 - Status: Strength is ACTIVE. Boulders RESET.
-
-# Tile Mechanics (2F)
-- WALL: Impassable. (4, 0-12), (2, 8), (3, 8), (4, 8), (8, 8, 9), (7, 10, 11), (9, 12+).
-- LADDER: Impassable for boulders. (1, 7), (7, 9).
-- Gap: (4, 13) is the primary connection between left and right.
-- Push Mechanic: Player moves into the boulder's old tile after a push. (Verified Turn 34814).
+- Push Mechanic: Player STAYS in their tile after a push. (Verified Turn 34819).
 
 # Puzzle Analysis (2F)
-- Strategy:
-  1. B8 (8, 14) -> P2 (2, 5) via Row 13 and Column 0.
-  2. B6 (3, 3) -> P3 (8, 7) via Row 13 and Column 8.
-  3. B7 (6, 1) -> P1 (8, 3) via Column 8.
+- Hypothesis: There are 4 boulders. B8 is a decoy/trap.
+- B10 (2, 14) -> P2 (2, 5).
+- B6 (3, 3) -> P3 (8, 7) via Row 1 or Row 13.
+- B7 (6, 1) -> P1 (8, 3).
+- Goal: Locate B10 at (2, 14) and verify Row 13 crossing.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Activate Strength.
