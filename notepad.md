@@ -7,10 +7,10 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Mahogany Town (Fly Map).
-- **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Pressing 'Down' (x20) to reset cursor to Southern Johto (New Bark/Cherrygrove).
-- **Reason:** 'Left' inputs from Mahogany are not registering or blocked. Attempting to find a valid path South.
+- **Location:** New Bark Town (Fly Map).
+- **Action:** Navigating to Cianwood via Violet/Ecruteak.
+- **Path:** Left (Cherrygrove) -> Up (Violet) -> Left (Ecruteak).
+- **Reasoning:** Direct 'Left' from Cherrygrove failed. 'Up' led to Lake of Rage. Attempting to branch West from Violet.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
