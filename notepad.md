@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Saffron City.
-- **Next Step:** Go to Vermilion Fan Club -> Get Lost Item.
+- **Location:** Route 6 Gatehouse.
+- **Next Step:** Exit South to Route 6 -> Vermilion City Fan Club.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
