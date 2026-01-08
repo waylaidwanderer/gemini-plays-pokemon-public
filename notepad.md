@@ -1,9 +1,8 @@
 # Current Status
-- Location: WhirlIslandCave (3, 9) [Corridor].
-- Action: Moving to Warp at (7, 5).
-- Observation: Path leads North then East to a warp at (7, 5).
-- Immediate Plan: Navigate to (7, 5) to see where it leads.
-- Goal: Find path to Lugia (B3F).
+- Location: WhirlIslandCave (5, 5) [Corridor].
+- Action: In Battle with Wild Krabby (Lv 22).
+- Immediate Plan: Catch Krabby with Great Ball.
+- Goal: Add Krabby to Pokedex.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
