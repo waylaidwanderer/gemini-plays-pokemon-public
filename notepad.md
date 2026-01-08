@@ -54,7 +54,7 @@
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits to clear the path.
 - Opponent: Clair uses Dragon-type Pokemon.
-- Plan: Train Xenon and Kimchi to Lv 40 on Route 45 to match her levels. Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers.
+- Plan: Use Gneiss (Rock/Ground) and Calcifer (Fire) as primary attackers to defeat wild Pokemon while training targets.
 - Start Turn (Grinding): 33466.
 
 ## Historical Data (Archive)
