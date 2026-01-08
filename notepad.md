@@ -44,5 +44,5 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Goal: Encounter Raikou/Entei.
-- Status: Resetting in Ecruteak.
-- Action: Exit Route 37 (Up).
+- Status: Returning to Route 37.
+- Action: Move Down (Exit Ecruteak).
