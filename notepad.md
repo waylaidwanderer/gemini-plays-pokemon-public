@@ -10,9 +10,11 @@
 - Encounter: Cooltrainer Darin at (20, 5).
 
 ## Battle: Cooltrainer Darin
-- Status: Ongoing (Turn 35291)
-- Opponent: Dragonair (Lv37).
-- Strategy: Use Xenon's Confuse Ray to disable, then Night Shade. Switch to Calcifer (Lv49) for neutral physical damage (Return) if Xenon is in danger. Note: Hypnosis failed Turn 35295 ("didn't affect").
+- Status: Ongoing (Turn #35296)
+- Opponent: Dragonair (Lv37). Moves: Dragon Rage (40 fixed damage).
+- Strategy: Switch to Calcifer (Lv49). Calcifer has 155 Max HP, allowing him to tank 3-4 Dragon Rages. Use Return for neutral physical damage.
+- Note: Hypnosis failed Turn 35295 ("didn't affect"). Dragonair might have Safeguard active or a held item.
+- Party Status: Xenon 52/92 HP. Calcifer 155/155 HP.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
