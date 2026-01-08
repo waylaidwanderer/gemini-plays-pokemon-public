@@ -43,3 +43,7 @@
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
 - Gym Navigation: Use Column 4 gap at (4, 13) or Row 1 to cross between left and right sides.
+- Hypothesis: Boulder 7 is stuck at (9, 1). Pushing Right was a mistake as I cannot get behind it to push it Left or Down.
+- Plan: Jump into Pit (8, 3) to reset the room and return to 2F.
+- Observation: (5, 0), (6, 0), (7, 0), (8, 0), (9, 0) are impassable WALL tiles.
+- Path to Pit: (7, 1) -> (7, 2) -> (8, 2) -> (8, 3).
