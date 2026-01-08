@@ -35,12 +35,8 @@
 - Location Plan: Route 31/Violet Gate or Route 36/37.
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
-- Location: Route 36 Grass.
+- Location: Route 36 (Leaving).
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
-- Activity: Hunting Raikou/Entei (Lv 40).
-- Strategy: Roamers only move when I change maps. If they are here, I will encounter them quickly due to Repel.
-- Action:
-  1. Hunt in grass (~20 steps total).
-  2. If no encounter, exit East to Violet City to reset.
-  3. Return and repeat.
-- Current Step Count: ~19 steps in grass.
+- Activity: Resetting Roamer Positions.
+- Action: Move East to Violet City Gate (59, 8), then return immediately.
+- Result of last pass: No encounter (~23 steps). Roamers likely elsewhere.
