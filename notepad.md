@@ -14,7 +14,8 @@
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
 - Strategy: Use manual steps.
-- Current Status: Strength active. Standing at (8, 13).
+- Current Status: Strength active. Moving to (8, 15) to push Boulder 8 Up.
+- Puzzle Start Turn: 34032.
 
 # Manual Puzzle Plan
 ## Boulder 7 (6, 1) -> Pit (8, 3)
