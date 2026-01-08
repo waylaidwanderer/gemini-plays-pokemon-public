@@ -16,9 +16,9 @@
 
 # Current Status
 - **Location:** Route 41 (44, 24) [Surfing].
-- **Action:** Backtracking North to Row 17.
-- **Immediate Plan:** Escape buoy pocket via (46, 23), surf North to (46, 17), then West to land on Northeast Island at (43, 17).
-- **Map Insight:** Missed the landing spot at Row 17. Whirlpool at (42, 24) is a red herring or requires approach from West.
+- **Action:** Executing "East Loop" maneuver to reach Northeast Island.
+- **Immediate Plan:** Surf East to Col 48, then North to (48, 14), then West to Col 44, then South to (43, 17).
+- **Map Insight:** Direct approach blocked. Must use East Channel (Col 48) to bypass buoy walls, then loop back West at Row 14 and South at Col 44.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
