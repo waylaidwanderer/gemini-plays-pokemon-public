@@ -16,34 +16,29 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33897).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33901).
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
-  - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
+  - Method: KIMCHI holds EXP.SHARE. Switch XENON to lead (Ghost immunity to Selfdestruct).
+  - Progress: Xenon Lv36, Kimchi Lv33.
 
 # Area Mechanics & Strategy
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
 - Opponent: Clair uses Dragon-type Pokemon (Dragonair, Kingdra).
 - Strategy:
-  - GNEISS (Lv48): Earthquake/Strength for high physical damage. (Dragonair is pure Dragon, vulnerable to Ground).
-  - XENON (Lv36): Night Shade for fixed damage and Hypnosis for control (critical for Kingdra).
-  - CALCIFER (Lv49): Thunderpunch (Electric) for coverage vs Kingdra (Water/Dragon) and Return for general damage.
-  - KIMCHI (Lv33): Sleep Powder for secondary status control.
+  - GNEISS (Lv48): Earthquake/Strength for physical damage.
+  - XENON (Lv36): Night Shade and Hypnosis (critical for Kingdra).
+  - CALCIFER (Lv49): Thunderpunch for coverage vs Kingdra.
 
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
-- Hiker Michael at (15, 65) defeated (Turn 33893).
-- Reachable Unseen: (18, 76-78), (10-11, 79), (16-17, 79). (Verified Turn 33898).
-- Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
-- Trainer: Camper Quentin at (4, 70) defeated.
-- Trainer: Hiker Timothy at (9, 65) defeated.
-- Fruit Tree: (16, 82). (Turn 33898).
+- Black Belt Kenji at (11, 50) defeated.
+- Hiker Michael at (15, 65) defeated.
+- Reachable Unseen: (10-11, 79), (16-17, 79).
+- Blocked Unseen: (14, 61-62). (Hypothesis: Reachable from a different vertical strip, possibly accessed via Dark Cave or an alternate Blackthorn exit).
+- Fruit Tree: (16, 82).
 
 # Lessons Learned
-- **Menu/Item Loop:** Direct verification via Stats/battle XP is more reliable than repeated menu navigation if cursor memory causes misclicks.
-- **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct.
-- **Gligar Typing:** Ground/Flying. Immune to Ground.
-- **Gen 2 Haunter Weakness:** No Levitate. Vulnerable to Ground.
-- **Menu Cursor Memory:** Menus like the Pack and Party remember the last cursor position. Verify the cursor location before executing long button sequences.
-- **Phone Calls:** Can interrupt movement and trigger wild battles if you land on a grass tile after the call. (Turn 33875).
+- **Ghost Immunity:** Haunter immune to Normal moves like Selfdestruct. (Ideal for Graveler encounters).
+- **Ledge Strips:** Route 45 is divided into vertical strips. (Current strip: x=10-17).
+- **Phone Calls:** Can interrupt movement and trigger wild battles. (Turn 33875).
