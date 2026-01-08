@@ -1,10 +1,9 @@
 # Current Status
 - Location: Route 41 (14, 40) [Surfing].
 - Action: Caught Mantine (Delta).
-- Immediate Plan: Return to SW Island via ladder. Exit to Route 41. Surf to NE Island (36, 19).
-- Discovery: B1F (9, 31) area is isolated. Cannot reach B2F ladder from here.
+- Immediate Plan: Surf from SW Island (12, 40) to NE Island (36, 19).
 - Goal: Find path to Lugia (B3F).
-- Status: Relocating to NE Island.
+- Status: Relocating to NE Island via Route 41.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
