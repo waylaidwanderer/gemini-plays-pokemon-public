@@ -6,9 +6,10 @@
 - Verified Walls: (4, 10), (4, 11), (4, 12), (8, 9).
 
 # Puzzle Analysis (2F)
-- Verified: (7, 11) is a WALL. (9, 13) is a WALL.
-- B8 Strategy: Must be pushed through Row 13 to Column 1.
-- B6/B7 Strategy: Use Row 1 to reach pits on opposite sides.
+- Pushing: Player ALWAYS stays in their current tile after a push. (Verified Turn 34815, 34850, 34868).
+- B8 Verification: Pushing B8 UP to test if (8, 9) is truly a wall.
+- B8 Backup Strategy: If (8, 9) is WALL, push B8 DOWN to Row 13, then across to Column 6 to reach P3 (8, 7).
+- B6/B7 Strategy: Use Row 1 gaps to reach opposite pits.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Test Fran (4, 11) collision.
