@@ -1,5 +1,5 @@
 # Post-Game Goals
-- **Primary:** Complete Pokedex (Current: 39 Owned).
+- **Primary:** Complete Pokedex (Current: 40 Owned).
 - **Major Target:** CATCH LUGIA.
 - **Start Time:** Jan 7, 2026 (Turn 27211).
 - **Location:** Whirl Islands (Route 41).
