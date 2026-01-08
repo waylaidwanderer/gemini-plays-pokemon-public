@@ -23,3 +23,8 @@
   - (8, 3) -> (7, 6)
   - (2, 5) -> (2, 6)
   - (8, 7) -> (7, 7)
+
+# Puzzle Investigation
+- Turn 34483: Testing if Row 0 is walkable at (3, 0).
+- Turn 34483: Testing if Cody (4, 1) is walkable.
+- Turn 34483: Testing if Fran (4, 11) is walkable.
