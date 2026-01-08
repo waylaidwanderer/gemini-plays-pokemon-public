@@ -9,19 +9,27 @@
 - P2: (2, 5)
 - P3: (8, 7)
 
+## Verified Path for B8 (8, 14) to P3 (8, 7)
+1. Push B8 Up to (8, 13). Player at (8, 15).
+2. Push B8 Up to (8, 12). Player at (8, 14).
+3. Push B8 Up to (8, 11). Player at (8, 13).
+4. Push B8 Up to (8, 10). Player at (8, 12).
+5. Push B8 Left to (7, 10). Player at (9, 10).
+6. Push B8 Left to (6, 10). Player at (8, 10).
+7. Push B8 Up to (6, 9). Player at (6, 11).
+8. Push B8 Up to (6, 8). Player at (6, 10).
+9. Push B8 Up to (6, 7). Player at (6, 9).
+10. Push B8 Right to (7, 7). Player at (5, 7).
+11. Push B8 Right to (8, 7) (PIT). Player at (6, 7).
+
 ## Tile Mechanics (2F)
-- FLOOR: Traversable. (7, 10) is verified FLOOR.
-- WALL: Impassable. (8, 9) is verified WALL.
+- FLOOR: Traversable. (7, 10), (7, 12), (7, 13) are verified FLOOR.
+- WALL: Impassable. (8, 9), (7, 11), (7, 14), (7, 15) are verified WALL.
 - PIT: Target for boulders; player falls to 1F. Moving a boulder onto this tile removes the boulder and fills the hole on 1F.
 - LADDER: Warp to 1F; resets boulder positions.
 - NPC: Impassable (WALL).
 
 ## Lessons Learned
-- Corner Traps: Always check if the path *behind* or *adjacent* to a boulder's destination is blocked before pushing. (8, 10) is a trap because (8, 9) and (7, 10) are walls.
-- Resetting: Use the ladder at (7, 9) or (1, 7) to reset the room if a boulder gets stuck.
-
-## How to Solve Boulder Puzzle
-- Goal: Push three boulders into pits to create a path on 1F.
-- Step 1: Move B8 from (8, 14) to P3 (8, 7).
-- Step 2: Move B7 from (6, 1) to P1 (8, 3).
-- Step 3: Move B6 from (3, 3) to P2 (2, 5).
+- Step 1 for B8 in previous plan was impossible because (9, 14) is a WALL.
+- Visual inspection of walls is unreliable; must test with player movement or use Game State.
+- Checkerboard walls: (7, 10) FLOOR, (7, 11) WALL, (7, 12) FLOOR, (7, 13) FLOOR.
