@@ -39,8 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Route 37 (North Grass).
-- Strategy: Ecruteak Loop (Hunt -> Reset -> Hunt).
-- Action: Running pattern in grass to check for Beasts.
-- Path: Left -> Left -> Up -> Right -> Right (Checking tiles).
-- Next: If no encounter, head North to Ecruteak Gate (8, 0).
-- Status: Max Repel ACTIVE (Lv 36 Lead blocks all but Beasts).
+- Status: Max Repel ACTIVE.
+- Action: Hunting loop (Grass -> Ecruteak -> Grass).
+- Path: Zig-zag to Ecruteak Gate.
+- Next: Re-enter Route 37 from Ecruteak.
