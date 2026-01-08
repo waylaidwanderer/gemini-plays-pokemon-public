@@ -3,16 +3,13 @@
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 12).
 - Status: Strength is ACTIVE. Boulders RESET.
-- Push Mechanic: Player moves into boulder's old tile. (Verified Turn 34815).
+- Push Mechanic: Player moves into boulder's old tile. (Verified Turn 34813).
 
 # Puzzle Analysis (2F)
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders: B6 (3, 3), B7 (6, 1), B8 (8, 12).
-- Gaps in Col 4: (4, 1) [Cody gone], (4, 13-17) [Open].
-- Strategy:
-  1. B7 (6, 1) -> P1 (8, 3).
-  2. B6 (3, 3) -> P2 (2, 5) via (3, 13) -> (1, 13) -> (1, 5) -> P2.
-  3. B8 (8, 12) -> P3 (8, 7) via (8, 5) -> (5, 5) -> (5, 7) -> (7, 7) -> P3.
+- Strategy: Use run_code to find a complete BFS solution.
+- Gaps in Col 4: (4, 1) [Cody gone], (4, 11) [Fran gone], (4, 13-17) [Open].
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Activate Strength.
