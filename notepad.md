@@ -1,6 +1,6 @@
 # Blackthorn Gym 2F Puzzle
 - Puzzle Started: Turn 35022
-- Status: Strength GONE (Turn 35107 - Reset)
+- Status: Strength ACTIVE (Turn 35113)
 
 ## Tile Mechanics (BlackthornGym2F)
 - FLOOR (Type: FLOOR): Traversable.
