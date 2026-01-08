@@ -8,10 +8,9 @@
 
 # Current Status
 - **Location:** New Bark Town (6, 11).
-- **Action:** Navigating Fly Map (Goldenrod -> Cianwood).
-- **Current Selection:** Goldenrod City.
-- **Path:** Up (Ecruteak) -> Left (Olivine) -> Left (Cianwood).
-- **Immediate Plan:** Press Up, Left, Left. Verify destination is Cianwood.
+- **Action:** Selected Cianwood (Visual). Text incorrectly says Ecruteak.
+- **Hypothesis:** Text lag. Visual cursor is correct.
+- **Immediate Plan:** Press A to Fly. Verify arrival at Cianwood.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
