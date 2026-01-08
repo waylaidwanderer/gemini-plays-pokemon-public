@@ -39,3 +39,4 @@
 # Lessons Learned
 - Blackthorn Maze: The city is not isolated; walking gaps exist in every ledge/wall row.
 - Menu Verification: Always check the current screen before executing long button sequences.
+- Eastern Strip (Col 34-39) appears isolated from the rest of Blackthorn City by vertical walls/ledges. Access likely only from the north (near Ice Path exit at 36, 9). To reach it from the Pokemon Center, navigate back north through the gaps to the top tier (Row 0-16) and move east.
