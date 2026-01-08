@@ -34,3 +34,5 @@
 - Turn 34309: Testing walkability of pillar at (6, 3) to find a push path for P1 (8, 3).
 - (4, 5), (5, 0), (7, 11), (9, 13) confirmed solid WALL.
 - Cody (4, 1) is solid for boulders.
+- Turn 34311: Confirmed (6, 3) is a solid WALL.
+- Hypothesis: The puzzle is solvable if one specific wall tile is actually floor. I will use code to identify candidates.
