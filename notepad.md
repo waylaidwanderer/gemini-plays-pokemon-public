@@ -8,18 +8,17 @@
 - LADDER: Warp to 1F. Resets boulders.
 - NPCs: Currently at (4,1), (4,11), (9,2), (1,15). They act as solid obstacles.
 
-## Current Boulder Positions
+## Current Boulder Positions (2F)
 - B6 (ID 6): (3, 3) [Verified]
 - B7 (ID 7): (6, 1) [Verified]
 - B8 (ID 8): (8, 14) [Verified]
 
 ## Strategic Plan
-1. Use 1F ladders to re-examine reachability to different sections of 2F.
-2. Verify if there is a third ladder on 1F leading to a restricted area on 2F.
-3. Stop 'wall auditing' and trust Game State data.
-4. Once reachability is understood, use solve_boulders_v2.
+1. Talk to Gym Leader Clair on 1F to see if she battles or provides a hint.
+2. Re-examine 1F layout for clues about boulder-pit pairings.
+3. Use solve_boulders_v2 with absolute truth from Game State once reachability is understood.
 
 ## Lessons Learned
-- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth.
+- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth; visuals can be deceptive.
 - Boulder Reset: Changing maps via ladder resets all boulders.
-- Reachability: Current analysis suggests B8 (8,14) is blocked from all pits on 2F. Investigation on 1F required.
+- Reachability: The player can reach Clair on 1F by walking around the right edge (Column 9).
