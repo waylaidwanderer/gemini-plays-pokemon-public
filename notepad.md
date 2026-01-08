@@ -51,3 +51,5 @@
 - **Hypothesis:** Pewter -> Right = Cerulean. Cerulean -> Down = Saffron.
 - **Plan:** Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
 - **Action:** Up, Right. Checking if this lands on Cerulean.
+- **Navigation Change:** Fly map was confusing. Walking from Vermilion to Saffron via Route 6.
+- **Quest Update:** Heading to Saffron to meet Copycat first.
