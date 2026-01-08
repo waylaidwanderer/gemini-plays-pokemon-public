@@ -6,9 +6,9 @@
 - Verified Walls: (4, 10), (4, 11), (4, 12), (8, 9).
 
 # Puzzle Analysis (2F)
-- Problem: B8 (8, 12) is trapped if (7, 11) and (9, 12/13) are walls.
-- Goal: Verify (7, 11) collision. If it's floor, B8 can be pushed right into Column 9.
-- Goal: Search for a 4th boulder in the corners.
+- Verified: (7, 11) is a WALL. (9, 13) is a WALL.
+- B8 Strategy: Must be pushed through Row 13 to Column 1.
+- B6/B7 Strategy: Use Row 1 to reach pits on opposite sides.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Test Fran (4, 11) collision.
