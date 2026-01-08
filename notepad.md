@@ -39,7 +39,7 @@
 - Action: Menu Closed.
 - Swap Confirmed: Gyarados (Lv 36) is Lead.
 - Location: Ecruteak City (South Gate).
-- Status: Resetting Roamers.
-- Action: Crossing Border (Route 37 -> Ecruteak -> Route 37).
-- Hunt Session: Turn 28681.
-- Next: Re-enter Route 37 and sweep grass.
+- Status: Call with Gaven finished.
+- Action: Resuming Hunt.
+- Sequence: Move Down to Route 37 -> Check Grass.
+- Hunt Session: Turn 28684.
