@@ -21,7 +21,7 @@
 # Pokemon & Party Information
 ## Party Strategy
 - EXP.SHARE: Swapping to KIMCHI (Turn 33786).
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33794).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33795).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
 
