@@ -20,9 +20,9 @@
 - Test 8: (8, 9) -> Confirmed WALL (Turn 34903).
 - Test 9: (9, 4), (8, 4), (7, 4), (6, 4) -> Confirmed WALLs (Turn 34906 - Visual).
 - Test 10: (2, 13) -> Confirmed WALL (Turn 34918).
-- Test 13: (3, 8) -> Pending.
+- Test 13: (3, 8) -> Confirmed WALL (Turn 34920).
 - Test 14: (8, 8) -> Pending.
-- Strategy: Verify (3, 8), then (8, 8).
+- Strategy: Verify (8, 8), then run `solve_boulders` tool.
 - Goal: Complete the map to find the path for B8 to reach P3 (8, 7).
 
 # Verified Obstacles (2F)

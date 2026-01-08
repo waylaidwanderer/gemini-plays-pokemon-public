@@ -172,5 +172,58 @@
         "action_counter": 32671
       }
     ]
+  },
+  "solve_boulders": {
+    "description": "Uses BFS to find the sequence of pushes to fill all pits in Blackthorn Gym 2F. Returns a list of steps, each with 'b_id' and 'move'.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "boulders": {
+          "type": "object",
+          "patternProperties": {
+            "^[0-9]+$": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        },
+        "player_pos": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "walls": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      },
+      "required": [
+        "boulders",
+        "walls",
+        "player_pos"
+      ]
+    },
+    "python_script": "import json\nfrom collections import deque\n\ndef solve():\n    data = input_data\n    grid_width, grid_height = 10, 18\n    walls = set(tuple(w) for w in data.get('walls', []))\n    pits = {(8, 3), (2, 5), (8, 7)}\n    boulders_start = {int(k): tuple(v) for k, v in data.get('boulders', {}).items()}\n    player_start = tuple(data.get('player_pos'))\n\n    def is_floor(x, y):\n        if not (0 <= x < grid_width and 0 <= y < grid_height): return False\n        if (x, y) in walls: return False\n        return True\n\n    def player_reach(start, target, b_pos_set):\n        if start == target: return True\n        if not is_floor(target[0], target[1]) or target in b_pos_set or target in pits: return False\n        q, v = deque([start]), {start}\n        while q:\n            cx, cy = q.popleft()\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if is_floor(nx, ny) and (nx, ny) not in b_pos_set and (nx, ny) not in pits and (nx, ny) not in v:\n                    if (nx, ny) == target: return True\n                    v.add((nx, ny)); q.append((nx, ny))\n        return False\n\n    initial_b = frozenset(boulders_start.items())\n    queue = deque([(initial_b, player_start, [])])\n    visited = {(initial_b, player_start)}\n\n    while queue:\n        curr_b_items, curr_p, path = queue.popleft()\n        curr_b_dict = dict(curr_b_items)\n        curr_b_pos_set = set(curr_b_dict.values())\n\n        if not curr_b_dict:\n            print(json.dumps(path))\n            return\n\n        for b_id, b_pos in curr_b_dict.items():\n            bx, by = b_pos\n            for dx, dy, name in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                tx, ty = bx + dx, by + dy\n                sp = (bx - dx, by - dy)\n                \n                if is_floor(tx, ty) and (tx, ty) not in curr_b_pos_set:\n                    if player_reach(curr_p, sp, curr_b_pos_set):\n                        new_b_dict = dict(curr_b_dict)\n                        if (tx, ty) in pits:\n                            del new_b_dict[b_id]\n                            new_p = b_pos\n                        else:\n                            new_b_dict[b_id] = (tx, ty)\n                            new_p = b_pos\n                        \n                        new_b_items = frozenset(new_b_dict.items())\n                        if (new_b_items, new_p) not in visited:\n                            visited.add((new_b_items, new_p))\n                            queue.append((new_b_items, new_p, path + [{\"b_id\": b_id, \"move\": name}]))\n    print(json.dumps([]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T19:07:40.670Z",
+        "action_counter": 34921
+      }
+    ]
   }
 }
