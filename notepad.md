@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (27, 8) [Surfing].
-- **Action:** Encountered Wild Pokemon (Tentacool/Tentacruel).
-- **Immediate Plan:** Run from battle -> Continue Surfing East to Northeast Island.
+- **Action:** Investigating island structure to the South-East (presumed NE Island).
+- **Immediate Plan:** Surf to (31, 11) to inspect walls at (32, 12).
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
