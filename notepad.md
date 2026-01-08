@@ -24,8 +24,11 @@
 # Legendary Beast Tracking
 - Search Mode: Blind Hunt (Repel Trick).
 - Target: Raikou (#238) & Entei (#239).
-- Method: Route 36/37 Border hopping.
-- Current Step: Activating Max Repel.
+- Strategy: Relocating to Route 36/37 Border.
+- Logic: Border hopping there checks TWO routes (36 & 37) rapidly. Violet/31 only checks Route 31.
+- Current Step: Moving West through Route 36 to reach Route 37 Gate.
+- Status: Max Repel ACTIVE.
+- Note: Be careful of Lass at (53, 8) on Route 36. Use manual pathing.
 
 # Post-Game Goals
 - **Primary:** Complete Pokedex.
