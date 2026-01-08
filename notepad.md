@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Vermilion City (Fan Club).
-- **Next Step:** Return to Saffron -> Give Doll to Copycat.
+- **Location:** Vermilion City (Exiting North).
+- **Action:** Returning to Saffron City with Lost Item.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
@@ -16,8 +16,8 @@
   - Strength: Muscle (Machoke).
   - Fly: Mistral (Pidgey).
 - **Quest:** 
-    1. Travel to Saffron City -> Talk to Copycat.
-    2. Return to Vermilion Fan Club -> Get Doll.
+    1. Travel to Saffron City -> Talk to Copycat (Done).
+    2. Return to Vermilion Fan Club -> Get Doll (Done - Have 'Lost Item').
     3. Saffron Copycat -> Get Pass.
     4. Goldenrod -> Whirl Islands.
 
