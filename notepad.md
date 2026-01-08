@@ -8,19 +8,22 @@
 # Puzzle Investigation (Turn 34721)
 - Problem: BFS and manual analysis suggest all boulders are blocked from all pits by WALLs.
 - Hypothesis: One or more tiles marked as WALL are actually passable FLOORs.
-- Target 1: (8, 9) - If passable, B8 can reach P3 (8, 7) directly.
-- Target 2: (8, 8) - Same as above.
+- Target 1: (8, 9) - If passable, B8 can reach P3 (8, 7) directly. (Verified Turn 34721: Impassable).
+- Target 2: (4, 13) - Potential gap connecting Left (x=0-3) and Right (x=5-9) sections.
 - Target 3: (4, 1) NPC Cody - If passable, B6 can reach P2 (2, 5).
 
 # Verified Obstacles
 - (5, 10), (5, 12), (6, 6) are WALL tiles.
+- (8, 9) is a WALL tile.
 - NPC Fran (4, 11) is impassable.
 - Corridor 4 (x=9) is blocked at (9, 4) and (9, 12).
 
+# Verified Connections
+- None yet. Testing (4, 13).
+
 # Strategy
-- Test passability of suspected walls one by one.
-- Update map markers and notepad with results.
-- Re-run `solve_puzzle_v5` after each discovery.
+- Test passability of suspected walls and gaps.
+- Use `gym_strategist` agent for high-level planning once connectivity is known.
 
 # Tile Mechanics (Global)
 - FLOOR: Walkable.
