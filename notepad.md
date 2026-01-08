@@ -20,9 +20,10 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33807).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33808).
   - Goal: Xenon and Kimchi to Lv40.
   - Strategy: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
+  - Note: Verifying KIMCHI's held item. (Turn 33808).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
