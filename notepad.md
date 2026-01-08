@@ -10,7 +10,7 @@
 # Current Status
 - **Location:** Olivine City (13, 23).
 - **Action:** Initiating Surf.
-- **Immediate Plan:** Step South to water edge -> Press A to Surf.
+- **Immediate Plan:** Press A to Interact with Water -> Select YES -> Surf South.
 - **Route:** Olivine City -> Route 40 -> Whirl Islands (Lugia).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
