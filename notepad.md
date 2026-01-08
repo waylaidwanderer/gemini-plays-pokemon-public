@@ -44,7 +44,7 @@
 - Action: Continuous Loop (Reset -> Grass Sweep).
 - Path: Up (Reset) -> Down (Return) -> Sweep Grass.
 - Location: Route 37 (North Grass).
-- Status: Menu Open (Pack Selected).
-- Action: Renewing Max Repel.
-- Sequence: Open Pack -> Confirm Cursor on Max Repel -> Use.
-- Hunt Session: Turn 28749.
+- Status: Using Item (Max Repel).
+- Action: Confirming Use.
+- Sequence: Select 'USE' -> Confirm Text -> Exit Menu.
+- Hunt Session: Turn 28750.
