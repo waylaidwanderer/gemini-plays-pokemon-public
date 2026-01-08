@@ -14,8 +14,8 @@
 - Reset: Leaving the floor (via ladder or pit) resets all boulder positions. Strength must be reactivated (A to interact, B to close message, then walk into boulder).
 
 ## Boulder Positions (2F)
-- Boulder 6: (3, 3) - Verifying
-- Boulder 7: (6, 1) - Verifying
+- Boulder 6: (3, 3) - Verified
+- Boulder 7: (6, 1) - Verified
 - Boulder 8: (8, 14) - Verified
 
 # Strategy & Progress
