@@ -7,10 +7,11 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** New Bark Town (Fly Menu).
-- **Action:** Resetting Fly Menu (B -> A) and retrying navigation.
-- **Issue:** 'Left' input has been unresponsive for 4 turns. Resetting state.
-- **Sequence:** B (Back), A (Select Fly), Left x5 (Move to Cianwood).
+- **Location:** New Bark Town (Party Menu).
+- **Action:** Opening Fly Map.
+- **State:** Sub-menu open, 'FLY' selected.
+- **Plan:** Press 'A' to open Map -> Next turn, navigate to Cianwood.
+- **Insight:** Pressing 'B' from Fly Map returns to Party List, not Sub-menu.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
