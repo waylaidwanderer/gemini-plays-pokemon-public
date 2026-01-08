@@ -1,13 +1,13 @@
 # Blackthorn Gym 1F - Battle with Clair
-- Current Turn: 35169
+- Current Turn: 35170
 
 ## Battle Strategy: Gym Leader Clair
 - Opponent: Leader Clair
 - Pokémon 1: Dragonair (Lv37). Moves: Thunder Wave, Surf.
-- Status: Xenon fainted (Turn 35163). Calcifer (Lv49) is active.
-- Strategy: Calcifer use Return for neutral physical damage. Dragonair resists Fire, Water, Electric, and Grass. Avoid Flame Wheel and Thunderpunch.
-- Backup: GNEISS (Graveler) is 4x weak to Surf; use only if necessary.
-- Note: Initial status moves failed, suggesting Safeguard or a similar effect.
+- Status: Xenon fainted (Turn 35163). Calcifer (Lv49) is active and paralyzed (Turn 35170).
+- Strategy: Use Full Heal on Calcifer to remove paralysis. Then use Return for neutral physical damage. Dragonair resists Fire, Water, Electric, and Grass.
+- Backup: GNEISS (Graveler) is 4x weak to Surf; do not switch in while Dragonair is active.
+- Note: Dragonair's accuracy is -1 (Smokescreen Turn 35166).
 
 ## Blackthorn Gym Puzzle (2F)
 - Status: Strength INACTIVE (on 1F)
