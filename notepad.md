@@ -32,3 +32,9 @@
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor. Entrance at (39, 8).
+
+# Lessons Learned
+- Blackthorn Gym 2F: Column 4 is mostly walls, but gaps exist in Row 11 and below.
+- Boulder Puzzles: If a push seems blocked by a wall, check if the player can reach the other side of the boulder via a different floor or a gap.
+- Hallucination Check (Turn #34046): Verified that (37, 20) in Blackthorn City is likely a wall face (FLOOR_UP_WALL) which is impassable from the north. The eastern strip access via Column 39 is the correct hypothesis.
+- Pathing: Defeated trainers remain as obstacles in this game engine.
