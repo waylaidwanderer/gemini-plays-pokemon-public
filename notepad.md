@@ -10,10 +10,7 @@
 - Start Turn: 34112
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): P0 (2, 5), P1 (8, 3), P2 (8, 7).
-- Mechanics: Pushing a boulder is a two-step process in this gym.
-  1. Walk into boulder: The boulder moves one tile, but the player stays in their current tile.
-  2. Walk again: The player moves into the tile the boulder just vacated.
-Verified in Turn 34428. (Note: This is different from the standard 'move into spot' mechanic).
+- Mechanics: Pushing a boulder moves it one tile. The player STAYS in their original tile. Verified in Turns 34280, 34303, 34406, and 34432.
 - Reset: Leaving the floor (via ladder or pit) resets all boulder positions. Strength must be reactivated (A to interact, B to close message, then walk into boulder).
 
 ## Original Boulder Positions (2F)
