@@ -172,5 +172,55 @@
         "action_counter": 32671
       }
     ]
+  },
+  "solve_puzzle_v5": {
+    "description": "Calculates the button sequence to solve the Blackthorn Gym boulder puzzle from the current state using BFS. Boulders fall into pits and are removed. Player stays in place after a push.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
+        "boulders": {
+          "items": {
+            "properties": {
+              "x": {
+                "type": "integer"
+              },
+              "y": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "x",
+              "y"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "player_x",
+        "player_y",
+        "boulders",
+        "autopress_buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import collections\nimport json\nimport xml.etree.ElementTree as ET\n\ndef solve():\n    px, py = input_data['player_x'], input_data['player_y']\n    boulders = tuple(sorted([(b['x'], b['y']) for b in input_data['boulders']]))\n    \n    root = ET.fromstring(map_xml_string)\n    w, h = int(root.attrib['width']), int(root.attrib['height'])\n    walls, pits = set(), set()\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            if t_type in ['WALL', 'LADDER', 'VOID']: walls.add((x, y))\n            elif t_type == 'PIT': pits.add((x, y))\n            obj = tile.find('Object')\n            if obj is not None and 'COOLTRAINER' in obj.attrib.get('id-name', ''):\n                walls.add((x, y))\n\n    queue = collections.deque([((px, py), boulders, [])])\n    visited = {((px, py), boulders)}\n    \n    while queue:\n        (curr_px, curr_py), curr_b, path = queue.popleft()\n        if not curr_b:\n            print(json.dumps(path))\n            return\n        \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = curr_px + dx, curr_py + dy\n            if 0 <= nx < w and 0 <= ny < h and (nx, ny) not in walls and (nx, ny) not in pits:\n                if (nx, ny) in curr_b:\n                    bx, by = nx + dx, ny + dy\n                    if 0 <= bx < w and 0 <= by < h and (bx, by) not in walls and (bx, by) not in curr_b:\n                        new_b_list = list(curr_b)\n                        new_b_list.remove((nx, ny))\n                        if (bx, by) not in pits: new_b_list.append((bx, by))\n                        new_b = tuple(sorted(new_b_list))\n                        if ((curr_px, curr_py), new_b) not in visited:\n                            visited.add(((curr_px, curr_py), new_b))\n                            queue.append(((curr_px, curr_py), new_b, path + [btn]))\n                else:\n                    if ((nx, ny), curr_b) not in visited:\n                        visited.add(((nx, ny), curr_b))\n                        queue.append(((nx, ny), curr_b, path + [btn]))\n    print(json.dumps([]))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T15:24:59.746Z",
+        "action_counter": 34713
+      }
+    ]
   }
 }

@@ -1,6 +1,5 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34501
-- Current Turn: 34712
 - Pits (2F): P1 (8, 3), P2 (2, 5), P3 (8, 7).
 - Boulders (2F): B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Floor Reset: Using a ladder or falling into a pit resets all boulder positions on 2F.
@@ -14,7 +13,10 @@
 # Connectivity Analysis
 - Corridor 4 (x=8, 9) connects to the bottom open area at Row 12/13.
 - Corridor 2 (x=2, 3) connects to the bottom open area at Row 13.
-- Corridor 3 (x=5, 6) is accessed via the Ladder at (7, 9) or Row 5 gap (needs verification).
+- Corridor 3 (x=5, 6) is accessed via the Ladder at (7, 9).
+
+# Verified Connections
+- Row 13 gap at (4, 13) is passable.
 
 # Strategy: Blackthorn Gym 2F
 - Step 1: Push B8 (8, 11) to a reachable pit.
