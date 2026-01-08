@@ -26,3 +26,7 @@
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
 - Gym Navigation: Use Column 4 gap at (4, 13) to cross between left and right sides.
+## Gym 2F Connectivity
+- Column 4 (Wall): Gaps at Row 11 (NPC Fran) and Row 13.
+- Column 6 (Wall/Object): Gaps at Row 1, 5, 7, 9-17.
+- Main passage between Left and Right sides: Row 13.
