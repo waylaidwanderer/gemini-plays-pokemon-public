@@ -35,6 +35,10 @@
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
 - Boulder 8 Plan: (8,14) -> (6,14) -> (6,7) -> (8,7) PIT. Requires Stand at (9,14), (8,14), (6,15-8), (5,7), (6,7).
-- Observation: Strength resets upon map change (verified by falling through pits/using ladders).
-- Hypothesis: Cooltrainer Cody at (4, 1) disappears after defeat, creating a traversal gap.
-- Test: Navigate to (3, 1) to check for Cody's presence.
+- Observation: Cooltrainer Cody at (4, 1) is still present after defeat.
+- Test: Testing Row 0 at (3, 0) for navigability.
+- Verification Status:
+  - Row 0: (5,0), (8,0) are WALLs (Verified).
+  - Column 9: (9,13) is a WALL (Verified).
+  - Column 4: (4,2) to (4,10) are WALLs.
+  - Column 6: (6,2), (6,3), (6,4), (6,6) are WALLs.
