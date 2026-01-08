@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (31, 8) [Surfing].
-- **Action:** Encountered Wild Tentacool.
-- **Immediate Plan:** Run from battle -> Continue Surf North to (31, 7) then East.
+- **Action:** In battle with Wild Tentacool (Run attempt seemingly failed despite text logs).
+- **Immediate Plan:** Try RUN again. If fail, Fight. Then Surf North to (31, 7) and East.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
