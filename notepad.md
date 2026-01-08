@@ -9,6 +9,7 @@
 # Current Status
 - **Location:** Cherrygrove City (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
+- **Method:** Spamming 'Left' (x100) to force cursor traversal west.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
