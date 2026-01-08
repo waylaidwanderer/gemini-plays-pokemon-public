@@ -29,4 +29,4 @@
 - Status: Reset Complete.
 - Action: Returning to Route 37.
 - Sequence: Down (Exit Ecruteak) -> Check Grass.
-- Hunt Session: Turn 28768.
+- Hunt Session: Turn 28773.
