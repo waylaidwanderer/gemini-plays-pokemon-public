@@ -33,3 +33,5 @@
     - Note: High level differences (e.g., Lv49 vs Lv40) can make resisted damage appear neutral.
 - NPC Interaction: Counter tiles act as barriers; interact with NPCs across them.
 - Ledge Traversal: LEDGE_HOP_DOWN tiles allow one-way movement south. They act as walls from the south.
+## Phone Contacts & Events
+- Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
