@@ -43,4 +43,5 @@
 
 # Exploration Log
 - Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Current Unseen Targets (Reachable): (14, 68-70, 72-73), (11-13, 74). (To be refined).
+- Current Unseen Targets (Reachable): (14, 61), (14, 62), (14, 68-70, 72-73), (11-13, 74).
+- Pathing: Ledge at (10, 53) leads to (10, 54). (Verified Turn 33874).
