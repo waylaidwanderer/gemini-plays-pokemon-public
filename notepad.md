@@ -2,11 +2,11 @@
 - Puzzle Started: Turn 35022
 - Status: Strength ACTIVE (Turn 35113)
 
-## Tile Mechanics (BlackthornGym2F)
-- FLOOR (Type: FLOOR): Traversable.
-- WALL (Type: WALL): Impassable.
-- PIT (Type: PIT): Warp to 1F. Boulders fill them to create paths on 1F.
-- LADDER (Type: LADDER): Warp to 1F. Resets boulder positions.
+## Tile Mechanics (Global)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- PIT: Target for boulders; player falls to 1F. Boulders fill them to create paths on 1F.
+- LADDER: Warp to 1F. Resets boulder positions on 2F.
 - NPCs act as walls.
 
 ## Current Boulder Positions
@@ -20,9 +20,10 @@
 - P3: (8, 7)
 
 ## Strategic Plan
-1. Navigate to (3, 2) and (6, 1) to verify B6 and B7 positions after reset.
-2. Use solve_boulders_v2 with the verified positions and wall data.
-3. Execute the resulting sequence of pushes.
+1. Fix solve_boulders_v2 to handle Blackthorn Gym 2F correctly.
+2. Verify if (7, 11) is FLOOR by attempting to move Up from (7, 12).
+3. If (7, 11) is FLOOR, use solve_boulders_v2 to find the push sequence.
+4. Execute the sequence.
 
 ## Lessons Learned
 - Visuals are deceptive; trust the 'type' attribute in the Game State.
