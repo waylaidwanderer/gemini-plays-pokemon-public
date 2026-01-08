@@ -1,5 +1,4 @@
 # Blackthorn Gym 2F Puzzle
-- Puzzle Started: Turn 35022
 - Status: Strength ACTIVE (Turn 35113)
 
 ## Tile Mechanics (BlackthornGym2F)
@@ -15,9 +14,10 @@
 - B8 (ID 8): (8, 14) [Verified]
 
 ## Strategic Plan
-1. Run deep BFS diagnostic to identify which NPC or wall is the bottleneck (using run_code).
-2. Verify if Trainers (Cody, Fran, Lola, Paul) move or can be bypassed.
-3. Execute the resulting push sequence once a valid path is found.
+1. Talk to Fran at (4, 11) to see if she moves or is non-solid.
+2. Talk to Cody at (4, 1) to see if he moves.
+3. If trainers are solid, re-examine the central wall (Column 4) for hidden gaps.
+4. Use solve_boulders_v2 once reachability is confirmed.
 
 ## Lessons Learned
 - Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth; do not hunt for 'fake' tiles.
