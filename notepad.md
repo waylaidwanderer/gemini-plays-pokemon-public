@@ -1,8 +1,8 @@
 # Current Status
-- Location: Route 41 (Outside NE Whirl Island).
+- Location: Route 41 (Flying out).
 - **Lugia Caught!** (In Box 3).
 - Team Status: Need Healing.
-- Immediate Goal: Go to Olivine City Pokemon Center.
+- Immediate Goal: Fly to Olivine City.
 
 # Next Objectives
 1. Heal at Olivine City.
