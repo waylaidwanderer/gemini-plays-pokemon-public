@@ -1,8 +1,8 @@
 # Current Status
-- Location: Route 41 (12, 40) [Surfing near SW Island].
-- Action: Handling Phone Call from Gaven.
-- Immediate Plan: Finish call, then Surf East/North to NE Whirl Island Cave (36, 19).
-- Goal: Find path to Lugia (B3F).
+- Location: Route 41 (14, 40) [In Battle].
+- Action: Battling Wild Mantine.
+- Immediate Plan: Catch Mantine (Missing from Dex). Throw Great Balls.
+- Goal: Complete Pokedex / Catch Lugia.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
