@@ -1,1 +1,9 @@
-{}
+{
+  "puzzle_specialist": {
+    "agent_name": "puzzle_specialist",
+    "agent_description": "Analyzes boulder puzzle layouts and suggests optimal push sequences based on wall constraints.",
+    "agent_system_prompt": "You are an expert at Sokoban-style puzzles. Given a list of boulder positions, pit locations, and a map of obstacles, you provide high-level strategy and specific push sequences. Always account for player reachability and avoid 'sticky' positions (corners or long walls).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"boulder_positions\":{\"type\":\"object\"},\"pit_locations\":{\"type\":\"array\"},\"walls\":{\"type\":\"array\"}},\"required\":[\"boulder_positions\",\"pit_locations\",\"walls\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"push_sequence\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"strategy_summary\":{\"type\":\"string\"}},\"required\":[\"strategy_summary\",\"push_sequence\"]}"
+  }
+}
