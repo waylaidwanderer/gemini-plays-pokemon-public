@@ -20,14 +20,10 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- EXP.SHARE: Swapping to KIMCHI (Turn 33786).
-- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33799).
+- **Training Session (Route 45):** Started Turn 33466. (Current Turn: 33803).
   - Goal: Xenon and Kimchi to Lv40.
-  - Method: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
-
-# Area Mechanics & Strategy
-## Route 45 (Training Area)
-- Encounter Rate: High in TALL_GRASS at (12, 10). Frequent Gligar (Lv24) and Graveler (Lv23).
+  - Strategy: Swap EXP.SHARE to Kimchi. Lead Gneiss (Lv 48) or Calcifer (Lv 49) to finish battles. Avoid switching Kimchi into Gravelers due to Selfdestruct risk.
+  - Note: EXP.SHARE mystery: Not in pack, checking KIMCHI. (Turn 33803).
 
 ## Strategy for Rising Badge (Gym Leader Clair)
 - Status: Gym trainers defeated. Boulders pushed into pits.
