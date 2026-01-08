@@ -5,7 +5,7 @@
 - WATER: Requires Surf to traverse.
 - WARP_CARPET_DOWN / DOOR / LADDER: Triggers map transition.
 - HEADBUTT_TREE: Interact to use Headbutt.
-- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47; 10, 53).
+- LEDGE_HOP_DOWN (⤵️): One-way movement from North to South. Landing on the tile below. (Verified at 17, 13; 12, 25; 12, 29; 10, 45; 10, 47; 10, 53; 16, 59; 17, 59).
 
 ## Type Effectiveness Chart (Verified)
 - Acid (Poison) -> Gligar (Ground/Flying): Not very effective.
@@ -16,7 +16,7 @@
 
 # Pokemon & Party Information
 ## Party Strategy
-- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33881).
+- **Training Session (Route 45):** Started Turn 33466. (Last Updated: Turn 33884).
   - Goal: Xenon and Kimchi to Lv40.
   - Method: KIMCHI holds EXP.SHARE. Lead GNEISS (Lv48) or CALCIFER (Lv49) to finish battles efficiently. Avoid switching KIMCHI into Gravelers due to Selfdestruct risk.
   - Progress: Xenon Lv36, Kimchi Lv33. (Verified EXP.SHARE on KIMCHI Turn 33825).
@@ -34,7 +34,6 @@
 # Exploration Log
 - Items: Max Potion collected at (7, 33) Turn 33849.
 - Black Belt Kenji at (11, 50) defeated (Turn 33873).
-- Reachable Unseen: (16, 61), (17, 61), (14, 68-70, 72-73), (11-13, 74).
 - Blocked Unseen: (14, 61-62). (Blocked from North by FLOOR_UP_WALL at y=58).
 
 # Lessons Learned
