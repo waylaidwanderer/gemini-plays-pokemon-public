@@ -12,8 +12,13 @@
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
 - Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Reactivate Strength at (8, 14), then use `solve_gym_puzzle` to determine the move sequence.
-- Current Status: Strength reset after falling. Facing Right at (8, 13). Boulder 8 is at (8, 14).
+- Strategy: Reactivate Strength, then solve boulders B7 (6, 1), B8 (8, 14), and B6 (3, 3).
+- Boulder 7 (6, 1) -> Pit (8, 3) Path:
+  1. From (5, 1), push Right to (7, 1).
+  2. From (7, 1), push Right to (8, 1).
+  3. From (8, 1), push Down to (8, 2).
+  4. From (8, 2), push Down to (8, 3) PIT.
+- Current Status: Strength is NOT active (reset by map change). Standing at (7, 9) on 2F. Heading to Boulder 8 at (8, 14) to reactivate Strength.
 
 # Pokemon & Party Information
 ## Training Session (Route 45)
