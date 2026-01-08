@@ -7,8 +7,8 @@
 - **Requirements:** Flash, Whirlpool, Surf, Strength.
 
 # Current Status
-- **Location:** Route 6 Gatehouse (Entering Saffron).
-- **Action:** Returning to Saffron City with Lost Item.
+- **Location:** Saffron City.
+- **Action:** Going to Copycat's House (Northwest).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
