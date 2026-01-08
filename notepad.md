@@ -1,9 +1,9 @@
 # Current Status
-- Location: Route 41 (15, 31) [Surfing in West Pocket].
-- Immediate Plan: Backtrack East to (20, 34), then Surf East through the gap at (21, 34) to reach X=22. Then head North to NE Island.
-- Discovery: West path (X=15) is blocked by buoys at Y=28. Found a gap East at (21, 34).
+- Location: Route 41 (20, 34) [Surfing].
+- Immediate Plan: Land on SW Island at (19, 34), then walk to the West shore (8, 43). Surf South-East via (11, 52) to reach NE Island.
+- Discovery: The channel at X=20 is a dead end North. X=22 is a dead end South. The most reliable path to NE Island is via the Southern Highway (Y=52).
 - Goal: Find path to Lugia (B3F).
-- Status: Rerouting to East Channel.
+- Status: Landing on SW Island to bypass buoy maze.
 
 # Whirl Islands Mapping
 - **Route 41 NE Island:** Entrance at (3, 13) [1F].
