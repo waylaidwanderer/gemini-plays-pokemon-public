@@ -14,8 +14,8 @@
 
 # Strategy & Progress
 - Lead Pokémon: XENON (Haunter, Lv36).
-- Status: Back on 2F (3, 4). Activating Strength.
-- Plan: Solve the puzzle without leaving 2F. Verify boulder 8 default position.
+- Status: Back on 2F (3, 7). Verifying B8 position and connectivity.
+- Plan: Navigate to (8, 14) via Row 13 crossover. Avoid ladders to prevent reset.
 
 # Resource Locations
 - Route 45: Good training spot for Haunter (Night Shade).
@@ -24,4 +24,3 @@
 - Cody (4, 1): Solid obstacle (Verified Turn 34581).
 - Push Mechanic: Player stays in place after push (Verified Turn 34566).
 - Floor Reset: Transitions between 1F and 2F reset boulders (Verified Turn 34592).
-- Connectivity: Strip 2 and 3 connect at Row 13.
