@@ -1,17 +1,19 @@
 # Blackthorn Gym (Puzzle Progress)
 - Start Turn: 34763
 - Pits: P1 (8, 3), P2 (2, 5), P3 (8, 7).
-- Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 12).
+- Boulders (Reset): B6 (3, 3), B7 (6, 1), B8 (8, 11).
 - Status: Strength ACTIVE.
-- Verified Walls: (4, 10), (4, 11), (4, 12), (8, 9).
 
 # Puzzle Analysis (2F)
-- Pushing: Player ALWAYS stays in their current tile after a push. (Verified Turn 34815, 34850, 34868).
-- B8 Verification: Pushing B8 UP to test if (8, 9) is truly a wall.
-- B8 Backup Strategy: If (8, 9) is WALL, push B8 DOWN to Row 13, then across to Column 6 to reach P3 (8, 7).
-- B6/B7 Strategy: Use Row 1 gaps to reach opposite pits.
+- B8 Status: Confirmed trapped in Column 8 (Rows 10-17) by walls at (8, 8), (8, 9), (9, 12-17), and (7, 10, 11, 14, 15).
+- Strategic Pivot: B8 is likely a decoy. I must find the real third boulder.
+- Hypothesis: There is a boulder in the far-left corridors (Cols 0-1) or far-right corners.
+- Plan: 
+  1. Explore Column 0-1 from Row 13 to Row 17.
+  2. Explore Column 9 from Row 1 to Row 11.
+  3. Solve B6 and B7 once the layout is clear.
 
-# Strategy: Blackthorn Gym 2F
-- Step 1: Test Fran (4, 11) collision.
-- Step 2: If failed, exit Gym to attempt full reset.
-- Step 3: Map out Column 6 and 5 for alternative routes.
+# Tile Mechanics (2F)
+- WALL: (4, 0, 2-10, 12), (2, 8-17), (7, 10, 11, 14, 15), (8, 8, 9), (9, 12-17).
+- GAP: (4, 1) and (4, 13-17) are passable.
+- Pushing: Player moves into boulder's old tile. (Verified Turn 34814).
