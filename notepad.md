@@ -14,12 +14,12 @@
 - B8 (ID 8): (8, 14) [Verified]
 
 ## Strategic Plan
-1. Talk to Fran at (4, 11) to see if she moves or is non-solid.
-2. Talk to Cody at (4, 1) to see if he moves.
-3. If trainers are solid, re-examine the central wall (Column 4) for hidden gaps.
-4. Use solve_boulders_v2 once reachability is confirmed.
+1. Use 1F ladders to re-examine reachability to different sections of 2F.
+2. Verify if there is a third ladder on 1F leading to a restricted area on 2F.
+3. Stop 'wall auditing' and trust Game State data.
+4. Once reachability is understood, use solve_boulders_v2.
 
 ## Lessons Learned
-- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth; do not hunt for 'fake' tiles.
-- Boulder Reset: Changing maps via ladder resets all boulders to starting positions.
-- Reachability: The player can cross between the left and right sides via gaps at Y=1 and Y=13.
+- Trust Game State: 'WALL' and 'FLOOR' labels are the source of truth.
+- Boulder Reset: Changing maps via ladder resets all boulders.
+- Reachability: Current analysis suggests B8 (8,14) is blocked from all pits on 2F. Investigation on 1F required.
