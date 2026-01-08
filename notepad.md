@@ -16,8 +16,8 @@
 
 # Current Status
 - **Location:** Route 41 (40, 7) [Surfing].
-- **Action:** Surfing West to locate Northeast Island entrance.
-- **Immediate Plan:** Surf to (30, 7), then scout the island perimeter for a landing spot.
+- **Action:** Surfing West to (30, 7) after Wade's call.
+- **Immediate Plan:** Scout island perimeter for entrance.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard ground.
