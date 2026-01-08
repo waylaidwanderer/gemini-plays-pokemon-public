@@ -8,7 +8,7 @@
 
 # Current Status
 - **Location:** Saffron City (Pokemon Center).
-- **Next Step:** Switch PC Box -> Find Copycat.
+- **Next Step:** Exit PC -> Find Copycat's House (Saffron City).
 - **Party Check:**
   - Flash: Belladonna (Oddish).
   - Surf: Qaagmaqnjw (Gyarados).
