@@ -2,34 +2,33 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - VOID: Impassable.
-- PIT: Fall to 1F. Boulders fill gaps.
-- LADDER: Move between floors.
-- BOULDER: Pushable with Strength.
-- NPCs: Walls.
+- PIT: Warp to same coords on 1F. Boulders fill gaps on 1F.
+- LADDER: Two-way warp between floors. (1,7) and (7,9) on 2F.
+- BOULDER: Impassable. Pushable with Strength.
+- NPCs: Impassable. Some may disappear after defeat (e.g., Mike at 6,8).
 
 # Game Mechanics & Systems
 ## Blackthorn Gym Boulder Puzzle (2F)
-- Start Turn: 34032.
 - Goal: Push 3 boulders into pits on 2F to bridge gaps on 1F.
 - Verified Pits (2F): (2, 5), (8, 3), (8, 7).
-- Original Boulder Positions (Reset): Boulder 6 (3, 3), Boulder 7 (6, 1), Boulder 8 (8, 14).
-- Strategy: Verify wall collision types on 2F, then execute manual solve.
+- Original Boulder Positions: B6 (3, 3), B7 (6, 1), B8 (8, 14).
+- Strategy: Use BFS to find the exact sequence.
 - Verification Status:
   - Row 0: (5,0), (7,0), (8,0) are WALLs (Verified).
-  - Column 6: (6,2), (6,3), (6,4), (6,6) - Needs test.
-  - Column 4: (4,2) to (4,10) - Needs test.
-  - Row 4: (7,4), (8,4), (9,4) - Needs test.
-- Plan: Return to 2F, reactivate Strength, and test Column 6.
+  - Column 4: (4,2) to (4,10) are WALLs.
+  - Column 6: (6,2), (6,3), (6,4), (6,6) are WALLs.
+
+# Pokemon & Party Information
+## Training Session (Route 45)
+- Start Turn: 33584.
+- Goal: Kimchi (Lv33) and Xenon (Haunter, Lv36) to Lv40.
+- Method: Kimchi holds Exp. Share. Lead Xenon.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
-- Gym Navigation: Row 1 and Ladder (1, 7) are key connections.
-- WARP_CARPET_DOWN: Standard exit warp.
+- Gym Navigation: Ladders (1,7) and (7,9) connect the two sides of the gym.
 - Blackthorn Gym Pit Shifts:
   - 2F (8, 3) -> 1F (7, 6)
   - 2F (2, 5) -> 1F (2, 6)
   - 2F (8, 7) -> 1F (7, 7)
-- Observation: Column 8 is blocked by walls at (8, 8) and (8, 9). Boulder 8 cannot go Up Column 8.
-- Observation: Column 5 is blocked by walls at (5, 10), (5, 12), (5, 16), (5, 17).
-- Observation: Column 4 is a solid wall from (4, 2) to (4, 10).
-- Plan: Solve B7 first.
+- Current Plan: Navigate to B8 (8,14), activate Strength, then solve.
