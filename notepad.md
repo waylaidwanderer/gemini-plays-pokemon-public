@@ -29,7 +29,7 @@
 - Strategy: Use a robust BFS script via `run_code` to find the correct sequence of moves for all 3 boulders. My manual pathing was failing because I was likely misinterpreting wall collisions.
 - Observation: (5, 0), (7, 0), (8, 0) are marked as walls in the XML, which complicates pushing boulders DOWN from Row 1.
 - Hypothesis: Boulders must be moved through the central corridor (Column 5) or around the perimeter to reach their target pits.
-- Current Status: Strength is not yet active. Interacting with the boulder at (6, 1) triggered the "A POKéMON may be able to move this." dialogue. I need to clear this text and activate Strength.
+- Current Status: Activating Strength at (5, 1) by interacting with Boulder 7. Once active, I will proceed with the puzzle.
 
 # Obstacles & Solutions
 - Accessing Route 45 East: Use Column 39 corridor in Blackthorn City. Entrance at (39, 8).
