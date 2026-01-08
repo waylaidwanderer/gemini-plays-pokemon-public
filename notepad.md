@@ -38,5 +38,5 @@
 - Location: Route 36 (East Side).
 - Status: Max Repel ACTIVE. Gyarados (Lv 36) Lead.
 - Activity: Resetting Roamer Positions.
-- Action: Navigating to Gate (59, 8) to exit map.
+- Action: Detouring around Lass (Up->Right->Down) to reach Gate (59, 8).
 - Plan: Exit -> Re-enter -> Hunt.
