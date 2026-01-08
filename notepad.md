@@ -1,21 +1,12 @@
 # Blackthorn City - Quest for the Rising Badge
 - Primary Goal: Acquire the Rising Badge (Started Turn 35145)
 - Requirement: Complete "Dragon User Challenge" in Dragon's Den.
-- Dragon's Den Location: North of Blackthorn Gym.
+- Location: North of Blackthorn Gym.
 
 ## Strategy: Dragon User Challenge
-- Navigate through DragonsDen1F to the lower floor (B1F). (DONE)
-- Locate the "small shrine" at the center of the Den.
-- Current Status: DragonsDenB1F (20, 4).
-- Encounter: Cooltrainer Darin at (20, 5).
-
-## Battle: Cooltrainer Darin
-- Status: Ongoing (Turn #35303)
-- Opponent: Dragonair (Lv37). Moves: Dragon Rage (40 fixed damage).
-- Strategy: Calcifer (Lv49) use Return for neutral physical damage.
-- Party Status: Xenon 52/92 HP, Calcifer 75/155 HP.
-- Note: Dragonair resists Fire and Electric. Normal (Return) is neutral.
-- Plan: Use Return (Turn 35303) to finish Dragonair. (Selected last turn, but sequence was interrupted). Dragonair is in the red.
+- Navigate to the "small shrine" at the center of the Den.
+- Use Surf/Whirlpool to cross water hazards.
+- Current Status: DragonsDenB1F. Darin defeated.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
@@ -30,10 +21,11 @@
 ## Type Effectiveness (Gen 2)
 - Dragonair (Dragon): Resists Fire, Water, Electric, Grass. Weak to Ice, Dragon. Normal is neutral.
 - Kingdra (Water/Dragon): Resists Fire, Water (0.25x). Neutral to Electric, Grass, Ice. Weak to Dragon.
+- Note: Multipliers are constant regardless of level.
 
 ## Lessons Learned
 - Clair's Badge: Requires extra trial in Dragon's Den.
-- NPC Interaction: Counter tiles act as barriers; interact from adjacent tile.
+- NPC Interaction: Counter tiles and NPCs act as barriers.
 - Ledge Traversal: One-way southward movement.
 - Dragon Rage: Deals 40 fixed damage.
 
