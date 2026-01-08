@@ -9,8 +9,8 @@
 # Current Status
 - **Location:** Mahogany Town (Fly Map).
 - **Action:** Navigating Fly Map to Cianwood.
-- **Method:** Using `slow_press` (Left x4) to hop cities: Mahogany -> Ecruteak -> Olivine -> Cianwood.
-- **Observation:** Previous mass inputs failed (likely due to animation lock). Using slow, deliberate inputs now.
+- **Method:** Holding 'Left' (x60 via `press_buttons`) to force cursor movement.
+- **Issue:** Single frame inputs (via `slow_press`) are failing to move cursor West from Mahogany. Attempting held input.
 - **Goal:** Fly to Cianwood -> Surf to Whirl Islands.
 - **Party Check:**
   - Flash: Belladonna (Oddish).
