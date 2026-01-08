@@ -79,25 +79,16 @@
 - **WHIRLPOOL:** Obstacle. Requires Whirlpool HM to cross.
 - **CAVE:** Warp tile. Entrance to caves.
 - **FLOOR_UP_WALL:** Needs verification. Likely a ledge or wall.
-## Reflection (Turn 28145)
-1. **Execution:** No deferrals. Pivoted from Fly failure to walking immediately.
-2. **Notepad:** Organized. Whirl Islands mapping is detailed.
-3. **Map:** Markers are consistent.
-4. **Automation:** `find_path_bfs` restored and functional.
-5. **Goals:** Clear: Heal -> Whirl Islands -> Lugia.
-6. **Errors:** Fly map navigation failure (stuck in menu loop). Fixed by walking. Pathfinding blocked by NPC. Fixed by rerouting.
+## Game Mechanics & Observations
 - **Fly Map Connections:**
   - Violet City -> Down -> Cherrygrove City (Verified).
   - Cherrygrove City -> Left -> [Blocked/No Connection] (Verified).
   - Violet City -> Up -> Azalea Town (Verified).
   - Azalea Town -> Up -> Goldenrod City (Verified).
   - Goldenrod City -> Up -> Ecruteak City (Verified).
-- **Correction:** The path from (36, 15) South to the cave entrance is blocked by a ledge/wall. Must approach the NE Island Cave (36, 19) from the **South** via surfing around the east side of the island.
-- **New Route:** Surf from East side (X=42), go South around the island, then West and North to land at (36, 22).
-## Reflection (Turn 28196)
-1. **Execution:** No deferrals. Action taken immediately on obstacles.
-2. **Notepad:** Well-organized and up-to-date.
-3. **Map:** Markers active and relevant.
-4. **Automation:** Tools active.
-5. **Goals:** Clear and actionable.
-6. **Errors:** Fixed pathing around NE Island ledge.
+
+## Reflection (Turn 28301)
+1. **Execution:** Diligent execution of the South Approach plan. No deferrals.
+2. **Notepad:** Cleaned up old reflections to maintain hygiene.
+3. **Map:** Good marker coverage.
+4. **Strategy:** The hypothesis that the NE Island cave must be approached from the South (via the West Channel loop) is currently being tested. I am navigating the West Channel (Column 17) to bypass buoy barriers.
