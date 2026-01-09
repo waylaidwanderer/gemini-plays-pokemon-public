@@ -1,5 +1,5 @@
 # Current Status
-- **Location:** Ecruteak City (18, 35). Loop completed. Restarting.
+- **Location:** Heading to Route 37 from Ecruteak. Restarting loop.
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
