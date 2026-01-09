@@ -27,3 +27,6 @@
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
+## Discovered Locations
+- Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
+- Dragon Shrine: Location of the Dragon User Challenge. Expected to be at the center of the Den.
