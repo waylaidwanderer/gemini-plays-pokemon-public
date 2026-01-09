@@ -43,3 +43,4 @@
 - **Action:** Opening menu to use Super Repel before entering grass. Gyarados (Lv 36) lead + Repel filters all wild Pokemon except Roaming Beasts (Lv 40).
 - **Menu Navigation Lesson:** Do not batch navigation (Down) and selection (A) into a single un-ordered list. The tool executes them in order. To select an item deep in a list: Select Menu -> A -> Scroll Down -> A.
 - **Correction:** Backing out of Pokedex to retry Super Repel application properly.
+- **Menu Correction:** Was in TM pocket. Moving Left x3 to reach Items pocket for Super Repel.
