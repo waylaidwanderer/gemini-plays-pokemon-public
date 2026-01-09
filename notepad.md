@@ -4,12 +4,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Cherrygrove City.
-- **Activity:** Menu Navigation (Flying to Ecruteak).
-- **Time Started:** Turn 29630.
+- **Location:** Violet City.
+- **Activity:** Walking to Ecruteak City (via Route 36/37).
+- **Time Started:** Turn 29639.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Last Fly Attempt:** Step-by-step navigation is working.
-- **Current Fly Position:** Violet City. Target: Ecruteak (Left).
+- **Reason:** Fly menu navigation proved unreliable. Walking is consistent and allows for potential encounters.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
