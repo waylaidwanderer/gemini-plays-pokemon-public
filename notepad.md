@@ -14,7 +14,7 @@
 - **Rival Battle:** Malice challenged me at (12, 9). 
   - Defeated: Sneasel (Lv34), Feraligatr (Lv38). 
   - Current Opponent: Golbat (Lv36).
-  - Status: Ouroboros fainted (Turn 36737). GNEISS is active.
+  - Status: Ouroboros fainted (Turn 36737). GNEISS is active (Turn 36741). Strategy: Use ROLLOUT.
 - **Exploration Targets:** Northern 1F has unseen tiles around the exit (8, 3), (17, 3), etc. Reveal after the battle.
 - **Items Spotted:**
   - (18, 29): Poke Ball (ID 4) on a high ledge.
