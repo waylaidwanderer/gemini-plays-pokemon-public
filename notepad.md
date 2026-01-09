@@ -3,11 +3,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
 
 # Current Status
-- **Location:** Goldenrod Dept Store 2F.
-- **Activity:** Moving to 3F.
+- **Location:** Goldenrod Dept Store 3F.
+- **Activity:** Checking Directory.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
-- **Note:** 2F Clerks do not sell Max Repels (only Standard Repel and Medicine).
+- **Note:** 2F Clerks do not sell Max/Super Repels.
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
