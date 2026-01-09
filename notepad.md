@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29120)
-- Status: In Ecruteak (17, 35). Failed to exit South last turn.
-- Action: Moving to adjacent tile (18, 35) and trying to exit South again to debug.
-- Goal: Re-enter Route 37 to resume hunt.
-- Note: Max Repel active. Blind hunt.
+# Reflection (Turn 29121)
+- Status: In Ecruteak (18, 35). Resume Blind Hunt.
+- Previous: Hit tree at (19, 35) trying to debug.
+- Strategy: Call execute_hunt_routine to transition South to Route 37.
+- Note: Max Repel active. Repel Trick working (Lv 36 Lead vs Lv 40 Beasts).
