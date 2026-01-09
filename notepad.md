@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Selecting Mistral for Fly.
-- **Method:** Cursor on Belladonna (Slot 5) -> Up (Mistral) -> A -> Select Fly.
-- **Notes:** Pokemon Menu cursor memory confirmed (was on Belladonna from item switch attempt). Field moves usually appear at top of menu.
+- **Status:** Executing Fly Navigation.
+- **Method:** Select Fly -> Map Open -> Left x3 (to Ecruteak) -> Down (to Goldenrod) -> A.
+- **Notes:** Assuming Fly map cursor snaps between cities. New Bark -> Cherrygrove -> Violet -> Ecruteak -> Goldenrod.
