@@ -3,7 +3,7 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
 
 # Current Status
-- **Location:** Route 37 (8, 0). Checking Grass.
+- **Location:** Ecruteak City (18, 35). Loop Restarting.
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
