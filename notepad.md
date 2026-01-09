@@ -48,3 +48,5 @@
 - Answered: "Pal"
 - Question 2: "What helps you to win battles?"
 - Answered: "Strategy"
+- Question 3: "What kind of trainer do you wish to battle?"
+- Answered: "Tough person"
