@@ -1,37 +1,29 @@
 # Lessons Learned
-- **Automation vs. Interruptions:** Phone calls and unexpected events freeze the game, causing fixed-input sequences (like hunt routines) to desync. Always monitor for these and manually reset if necessary.
-- **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
+- **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
+- **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
 - **Location:** Goldenrod Dept Store 5F.
 - **Activity:** Checking Clerk at (8, 5).
-- **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
-- **Active Effect:** None.
-- **Shopping Notes:**
-  - 2F: Medicine & Standard Repels only.
-  - 3F: Battle Items (X-Items) only.
-  - 4F: Vitamins (Protein, Iron, etc.) only.
-  - 5F: "Customize Your POKéMON" (Directory). Likely TMs. Checking for Max Repels.
+- **Time Started:** Turn 29597.
+- **Party:** Gyarados (Lv 36) Lead. Lugia in party.
+- **Shopping Log:**
+  - 2F: Medicine, Standard Repel.
+  - 3F: Battle Items (X-Items).
+  - 4F: Vitamins.
+  - 5F: Checking now (Directory: "Customize").
 
 # Exploration Queue
-- **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
+- **Mahogany Town:** West edge (x=0-2) unseen tiles. Investigate later.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
-- **Method:** Blind Hunt Loop (Route 37 Grass <-> Ecruteak City).
-- **Tactics:**
-  1. Enter Route 37 from Ecruteak.
-  2. Run into grass (Down x2, Left/Right wiggle).
-  3. If no encounter, run back to Ecruteak (Up).
-  4. Repeat.
-- **Lesson:** Phone calls freeze movement, causing the fixed-input hunt tool to 'miss' the grass check phase. If interrupted, manually move to Ecruteak to reset.
+- **Method:** Blind Hunt Loop (Route 37 <-> Ecruteak).
+- **Tactics:** Enter Rt 37 -> Grass (Down x2, Wiggle) -> If none, Return to Ecruteak -> Repeat.
 
 # Tile Mechanics
-- GRASS: Traversable. Potential encounters.
-- FLOOR: Traversable. Safe.
-- WARP_CARPET: Map transition.
-- WALL: Impassable.
+- GRASS: Traversable, encounters.
+- FLOOR/DOOR/STAIRS: Traversable.
+- WALL/OBSTACLES: Impassable.
+- WARP_CARPET: Transition.
 - WATER: Surfable.
-- HEADBUTT_TREE: Impassable. Interaction possible.
-- LEDGE_HOP_DOWN: One-way traversable (down).
-- DOOR: Traversable (warp).
