@@ -5,8 +5,8 @@
 - Umbreon: DEFEATED
 - Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
 - Gengar: DEFEATED
-- Murkrow: Dark/Flying. Use Calcifer (Thunderpunch) or Gneiss (Rollout).
-- Houndoom: Dark/Fire. Use Gneiss (Earthquake) or Calcifer (Return).
+- Murkrow: DEFEATED
+- Houndoom: Dark/Fire. Use Calcifer (Return). Gneiss (Earthquake) is the hard counter but is low on HP. Aggressive play with Calcifer is safer.
 - Note: No healing items left besides Berries and Revives. Strategy must be aggressive.
 
 ## Current Party Status
