@@ -1,9 +1,10 @@
 # Johto Journey - Final Phase
 
 ## Champion Lance Battle (Started Turn 37104)
-- Current: Gyarados (Lv44).
-- Status: Asleep/Confused.
-- Remaining: Dragonite x3, Aerodactyl, Charizard.
+- Current: Dragonite (Lv47).
+- Status: Healthy.
+- Defeated: Gyarados (Lv44).
+- Remaining: Dragonite x2, Aerodactyl, Charizard.
 
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
