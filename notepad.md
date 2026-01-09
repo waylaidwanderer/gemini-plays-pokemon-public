@@ -13,8 +13,8 @@
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
 - **Rival Battle:** Malice challenged at (12, 9).
   - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36).
-  - Current Opponent: Switching to next.
-  - Status: Ouroboros fainted. XENON is Lv39 and learning DREAM EATER.
+  - Current Opponent: Haunter (Lv35).
+  - Status: Ouroboros fainted. XENON is Lv39 and learned DREAM EATER. Calcifer is active (52/161 HP). Strategy: OHKO with FLAME WHEEL.
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
