@@ -16,9 +16,8 @@
 - Tohjo Falls Search: Conducted from Turn 35972 to 36062. Result: Moon Stone found, HM07 NOT present.
 - New Plan:
   1. Exit Tohjo Falls to Route 27. [Done]
-  2. Walk West to New Bark Town. [Current]
-     - Start: Turn 36069.
-  3. Fly to Mahogany Town.
+  2. Walk West to New Bark Town. [Done]
+  3. Fly to Mahogany Town. [Current]
   4. Travel east to Route 44 and enter Ice Path.
   5. Locate and pick up HM07 Waterfall.
   6. Return to Tohjo Falls and climb the waterfall.
