@@ -30,3 +30,8 @@
 ## Discovered Locations
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
 - Dragon Shrine: Location of the Dragon User Challenge. Expected to be at the center of the Den.
+## Strategy: Finding the Dragon Shrine [Turn 35318]
+- Surf north from (18, 22) into (18, 21).
+- Navigate west through the gap in the wall at X=16 (between Y=18 and Y=21).
+- Explore the central area of the Den for the shrine building.
+- Ravioli (Krabby) taught Whirlpool to handle water obstacles.
