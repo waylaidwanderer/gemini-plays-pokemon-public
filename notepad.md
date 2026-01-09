@@ -19,7 +19,7 @@
   1. Navigate B1F to ladder at (17, 3) leading to B2F. [Completed Turn 36250]
   2. Navigate B2F to ladder at (9, 11) leading to B3F. [Completed Turn 36267]
   3. Navigate B1F to collect item at (5, 35), then to ladder at (5, 25).
-   - Route: B1F (9, 33) -> Item (5, 35) -> Ladder (5, 25). [Current]
+   - Route: B1F (9, 33) -> Item (5, 35) [Completed] -> Ladder (5, 25). [Current]
   4. Navigate 1F to reach the Mahogany side entrance to the lower floors.
    - Route: 1F (5, 25) -> 1F (37, 5) -> B1F (11, 2) -> B1F (17, 3) -> B2F (17, 1) -> B2F (9, 11) -> B3F (3, 5) -> Item (5, 7).
   5. Navigate B3F to collect item at (5, 7).
