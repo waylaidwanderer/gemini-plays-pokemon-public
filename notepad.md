@@ -13,7 +13,9 @@
   2. Teach Waterfall to LAPIS (slot 6). [Completed]
   3. Use Waterfall to climb the falls in Tohjo Falls. [Completed]
   4. Locate the eastern exit of Tohjo Falls. [Completed]
-  5. Exit Tohjo Falls at (25, 15). [Current]
+  5. Exit Tohjo Falls at (25, 15). [Completed]
+  6. Navigate Route 27 East to Route 26. [Current]
+  7. Navigate Route 26 North to Victory Road. [Next]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
