@@ -27,6 +27,6 @@
 # Hunting Status
 - **Goal:** Blind Hunt Raikou & Entei (Lv 40) on Route 37.
 - **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
-- **Active Effect:** Max Repel (applied Turn 29083). Monitoring for expiration.
+- **Active Effect:** Max Repel (Expired). Re-applying immediately.
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
-- **Notes:** On Route 37 (8, 0). Executing grass check sequence (Down into grass, wiggle, then return North).
+- **Notes:** Repel wore off at (7, 2). Opening Pack to re-apply.
