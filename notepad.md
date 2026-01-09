@@ -33,4 +33,4 @@
 
 ## Battle Strategy
 - Use fodder/safe turns to Revive key members (Calcifer, XENON, GNEISS).
-- Current Objective: Defeat Dragonite #3. XENON is out to disrupt or absorb damage while Dragonite is locked in Outrage. Strategy: Use Night Shade for fixed damage or Confuse Ray to force self-damage. Final blow likely from Calcifer's Thunderpunch or Return.
+- Current Objective: Defeat Dragonite #3. XENON is out to disrupt or absorb damage while Dragonite is locked in Outrage. Strategy: Use Hypnosis to disable Dragonite, then Night Shade for fixed damage. Final blow from Calcifer.
