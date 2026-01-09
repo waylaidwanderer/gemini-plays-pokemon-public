@@ -41,5 +41,5 @@
 ## Strategy: Fly Map Navigation
 - Main Menu Order: 1. POKéDEX, 2. POKéMON, 3. PACK, 4. POKéGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
 - Logic: 'Up' moves forward through towns on map.
-- Current Status: Olivine City selected. Target: Mahogany Town (2 steps forward).
+- Current Status: Cianwood City selected. Target: Mahogany Town (1 step forward).
 - Note: Always verify the starting location on the FLY map before counting.
