@@ -24,11 +24,14 @@
 - Dragon Shrine Entrance: Located on the south side (19, 29).
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
+- Landing from Water: Can land on any adjacent FLOOR-type tile.
 
-## League Analyst Advice [Turn 35446]
-- Team Evaluation: Top-heavy. Typhlosion (49) and Graveler (48) are ready, others are weak.
-- Risks: Psychic types vs. Haunter. Dragons vs. lack of Ice moves.
+## League Analyst Advice [Turn 35458]
+- Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
+- Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
 - Recommendations:
-  - Level support Pokémon to 40+.
-  - Teach Ice Punch to Typhlosion (buy in Goldenrod).
-  - Consider replacing underleveled HM users with higher-level encounters (e.g., Victory Road).
+  - Priority 1: Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath if not evolved.
+  - Priority 2: Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados or gift Dratini).
+  - Priority 3: Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
+  - Priority 4: Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
+  - Strategy: Buy TM33 Ice Punch in Goldenrod for Typhlosion.
