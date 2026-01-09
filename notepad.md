@@ -39,4 +39,4 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle with Lance (Cont.)
-- Charizard: Active. XENON using Hypnosis to disable before chipping with Night Shade.
+- Charizard: Active. XENON using Hypnosis (Turn 37536).
