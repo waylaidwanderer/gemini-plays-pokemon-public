@@ -19,13 +19,14 @@
 - Turn 37174: Ouroboros sent out as fodder.
 - Turn 37176: Used Revive on GNEISS (70/141 HP).
 - Turn 37178: Ouroboros fainted to Hyper Beam. Dragonite #2 recharging.
-- Turn 37179: GNEISS sent out. Using ROLLOUT.
+- Turn 37179: GNEISS sent out.
+- Turn 37181: ROLLOUT missed. Dragonite recharged.
 
 ## Strategy vs Champion Lance
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout to sweep.
 - Inventory: 8 Revives. No healing items.
 
-## World Lore
+## World Lore & Roaming
 - Suicune: Roaming Johto.
 
 ## Persistence Knowledge
