@@ -36,3 +36,4 @@
 ## Session Information
 - **Current Location:** Goldenrod Dept Store 5F.
 - **Goal:** Exit Store and resume hunt.
+- **Map Mechanics:** Goldenrod Dept Store 5F Warp Carpets are traversable (do not auto-warp on walk).
