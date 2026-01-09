@@ -6,7 +6,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Dragonite #3 (Dragon/Flying): ACTIVE. Strategy: Revive XENON for backup (Night Shade/Confuse Ray), then finish with Calcifer or XENON.
+- Dragonite #3 (Dragon/Flying): ACTIVE. Locked in Outrage (Turn 1 just hit GNEISS). Strategy: Send in XENON to absorb Turn 2 of Outrage, then finish with Calcifer's Thunderpunch.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -25,5 +25,5 @@
 
 ## Battle Strategy
 - Use fodder/safe turns to Revive key members (Calcifer, XENON, GNEISS).
-- Strategy Update: Calcifer revived. GNEISS is out. Dragonite is ready to move.
-- Goal: Revive XENON to provide fixed damage (Night Shade) and disruption (Confuse Ray).
+- Strategy Update: GNEISS fainted to Outrage. XENON is being sent in to tank the next Outrage turn.
+- Goal: Finish the battle with Calcifer after XENON absorbs the Outrage pressure.
