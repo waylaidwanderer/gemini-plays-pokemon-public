@@ -37,6 +37,7 @@
 - **Current Location:** Ecruteak City (Outside Mart).
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Navigating Fly Map (Cursor at New Bark).
+- **Status:** Navigating Fly Map (Cursor at Silver Cave).
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Cursor confirmed at New Bark Town (Last destination). Navigating: Left -> Left -> Down (Target: Goldenrod).
+- **Notes:** Cursor jumped to Silver Cave (East). Navigating WEST (Left x4) to find Goldenrod.
+- **Debug:** 'Left' from New Bark went to Silver Cave? Map wrap-around suspected.
