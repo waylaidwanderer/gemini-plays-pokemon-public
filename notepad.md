@@ -4,10 +4,10 @@
 
 # Current Status
 - **Location:** Goldenrod Dept Store 2F.
-- **Activity:** Buying Max Repels.
+- **Activity:** Checking Top Clerk for Max Repels.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
-- **Note:** Spinarak encounter confirmed Repel was not active.
+- **Note:** Bottom Clerk only had standard Repels.
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
