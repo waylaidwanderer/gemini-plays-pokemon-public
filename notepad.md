@@ -32,20 +32,6 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** New Bark Town (Accidental Fly).
-- **Goal:** Fly to Ecruteak City (Correctly this time).
-- **Menu Navigation:** Be deliberate. Verify cursor position before pressing A, especially in sub-menus like Party -> Fly.
-- **Gen 2 Mechanics:** 'Fly' option appears at the top of the Pokemon sub-menu if usable in the field.
-- **Correction:** Pokegear is for Map viewing only; Fly is a Party menu action.
-- **Fly Map Observation:** Cursor movement is granular (pixel-based). Requires holding the direction button (simulated by repeated inputs) to move effectively between cities. 'Left' from Violet to Ecruteak requires significant hold time.
-- **Hunt Strategy:** Moving south to Route 37 grass. Will apply Super Repel if encounters become frequent to filter for Lv40 Beasts.
-- **Map Connection:** Ecruteak (17, 35) leads directly South to Route 37.
-- **Action:** Opening menu to use Super Repel before entering grass. Gyarados (Lv 36) lead + Repel filters all wild Pokemon except Roaming Beasts (Lv 40).
-- **Menu Navigation Lesson:** Do not batch navigation (Down) and selection (A) into a single un-ordered list. The tool executes them in order. To select an item deep in a list: Select Menu -> A -> Scroll Down -> A.
-- **Correction:** Backing out of Pokedex to retry Super Repel application properly.
-- **Menu Correction:** Was in TM pocket. Moving Left x3 to reach Items pocket for Super Repel.
-- **Action:** Resuming automated hunt loop using `execute_hunt_routine`. Super Repel is active.
-- **Hunt Logic:** If the tool completes without interruption, no Beast was in the grass. Returning to Ecruteak resets the map. If interrupted by battle, it's a Legendary Beast.
-- **Hunt Status:** Last run clear (no beast). Map reset confirmed.
-- **Action:** Restarting hunt routine from Ecruteak side.
-- **Observation:** Routine successfully navigates between maps. No adjustment needed.
+- **Current Location:** Route 37 (North Entrance).
+- **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
+- **Status:** Super Repel Active. Map Reset Cycle in progress.
