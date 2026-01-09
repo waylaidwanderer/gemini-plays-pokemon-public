@@ -4,8 +4,8 @@
 
 # Current Status
 - **Location:** Goldenrod City.
-- **Activity:** Flying to Blackthorn City (Target: Mart for Max Repels).
-- **Time Started:** Turn 29617.
+- **Activity:** Selecting Pidgey to Fly to Blackthorn City.
+- **Time Started:** Turn 29618.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
