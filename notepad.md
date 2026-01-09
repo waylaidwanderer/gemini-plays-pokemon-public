@@ -8,12 +8,12 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Manually walking South to Route 37. Previous automation failed to cross map boundary.
+- **Status:** Hunt Routine In Progress.
 - **Time Started:** Turn 29751.
-- **Inventory:** 7 Super Repels active (approx 30/200 steps used).
+- **Inventory:** 7 Super Repels active (approx 35/200 steps used).
 - **Objective:** Roaming Beast Hunt (Raikou/Entei).
 - **Strategy:** Route 37 <-> Ecruteak loop with Repel Trick (Lead: Gyarados Lv 36).
-- **Current Action:** Walking South from Ecruteak (18, 35) to Route 37.
+- **Current Action:** On Route 37 (8, 0). Executing grass check pattern (Pass #22).
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles.
   - **Ecruteak City:** Northern edges and Barrier Station area (27, 11).
