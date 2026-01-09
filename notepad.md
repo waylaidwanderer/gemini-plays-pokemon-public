@@ -69,3 +69,7 @@
 - **Fly Map Glitch:** Cursor stuck on 'Silver Cave' text despite 'Left' inputs.
 - **Action:** Performing full menu reset (Back to Overworld -> Re-enter Fly) to clear UI state.
 - **Target:** Re-open Fly map from fresh state to ensure cursor starts at New Bark Town.
+- **Location Confirmed:** 'Down' from New Bark Town changed text to 'Silver Cave'. Logic holds.
+- **Current Location:** Silver Cave.
+- **Goal:** Traverse West to Goldenrod.
+- **Action:** Execute Left x5 to leave Silver Cave area.
