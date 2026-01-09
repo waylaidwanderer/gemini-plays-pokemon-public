@@ -16,7 +16,8 @@
 - Remaining: Dragonite #3, Aerodactyl, Charizard.
 - Turn 37160: Revive cycle started. ICARUS is active.
 - Turn 37165: Used Revive on GNEISS. GNEISS at 70/141 HP.
-- Turn 37166: GNEISS is revitalized. Waiting for Dragonite's turn.
+- Turn 37167: ICARUS fainted to Dragonite #2's Blizzard.
+- Turn 37168: Sending in GNEISS (70/141 HP). Strategy: Rollout.
 
 ## Strategy vs Champion Lance
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout.
