@@ -1,14 +1,16 @@
 # Long Term Notes
 ## Lessons Learned
-- **Tool Insight:** `navigate_menu` requires `hold_ms` >= 300 for Fly Map.
+- **Tool Insight:** `navigate_menu` requires `hold_ms >= 300` for Fly Map movement, but `hold_ms=1` for standard list navigation to prevent over-scrolling.
 - **Efficiency:** Super Repels (2.5 ¥/step) are cheaper than Max Repels (2.8 ¥/step).
 - **Mechanics:** Phone calls can occur on map transitions.
-- **Fly Map Mechanics:** Vertical movement (Up/Down) is often more reliable than Left/Right for traversing regions. Cursor movement can be granular/slow.
+- **Fly Map Mechanics:** Vertical movement (Up/Down) is often more reliable than Left/Right. Cursor is granular.
+- **Menu Navigation:** Do not batch navigation (Down) and selection (A) into a single un-ordered list.
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
 - **Method:** Blind Hunt Loop (Route 37 <-> Ecruteak).
 - **Tactics:** Enter Rt 37 -> Grass (Down x2, Wiggle) -> If none, Return to Ecruteak -> Repeat.
+- **Logic:** Super Repel filters wild Pokemon. If encounter occurs, it is a Beast (Lv40).
 
 ## Tile Mechanics
 - GRASS: Traversable, encounters.
@@ -34,6 +36,5 @@
 ## Session Information
 - **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
-- **Status:** Super Repel Applied.
-- **Action:** Pressed USE. Expecting confirmation text.
-- **Next:** Exit menu and resume hunt routine.
+- **Status:** Super Repel Active.
+- **Action:** Exiting menus to resume hunt loop.
