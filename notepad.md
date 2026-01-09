@@ -46,3 +46,5 @@
 ## Dragon User Challenge Progress [Turn 35407]
 - Question 1: "What are POKéMON to you?"
 - Answered: "Pal"
+- Question 2: "What helps you to win battles?"
+- Answered: "Strategy"
