@@ -33,3 +33,13 @@
 - Rock > Flying/Fire/Ice/Bug (2x).
 - Electric > Water/Flying (2x).
 - Ghost: Immune to Normal/Fighting.
+## Lessons Learned
+- **TM Compatibility:** Always verify in-game (by trying to use the TM) if a Pokemon can learn a move before basing a long-term strategy on it. Do not rely on cross-generational knowledge.
+- **Menu Navigation:** When navigating deep menus (like the Pack pockets), use small button sequences and verify the screen text between turns to avoid getting lost in sub-menus.
+
+## Battle Notes - Will (Psychic)
+- **Xatu:** Psychic/Flying. Weak to Electric (Thunderpunch), Rock (Rollout).
+- **Jynx:** Psychic/Ice. Weak to Fire (Flame Wheel), Rock (Rollout).
+- **Exeggutor:** Psychic/Grass. Weak to Fire (Flame Wheel).
+- **Slowbro:** Psychic/Water. Weak to Electric (Thunderpunch).
+- **Lead Strategy:** Calcifer (Typhlosion) is the most versatile attacker here. Xenon (Haunter) is risky due to Poison typing vs Psychic moves.
