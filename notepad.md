@@ -4,27 +4,16 @@
 - Objective: Challenge the Pokémon League.
 - Strategy: Navigate Tohjo Falls and Route 27 to reach Victory Road.
 
-## Strategy: Navigate Tohjo Falls
-- Objective: Traverse Tohjo Falls to reach the eastern exit leading to Route 27.
-- Requirements: SURF and WATERFALL.
-- Route: New Bark Town -> Route 27 (Surf East) -> Tohjo Falls -> Route 27 (East) -> Route 26 (North) -> Victory Road.
-- Steps:
-  1. Obtain HM07 Waterfall from Ice Path 1F. [Completed]
-  2. Teach Waterfall to LAPIS (slot 6). [Completed]
-  3. Use Waterfall to climb the falls in Tohjo Falls. [Completed]
-  4. Locate the eastern exit of Tohjo Falls. [Completed]
-  5. Exit Tohjo Falls at (25, 15). [Completed]
-  6. Navigate Route 27 East to Route 26. [In Progress]
-    - 6a. Explore house at (33, 7). [Completed]
-    - 6b. Continue East on Route 27. [In Progress]
-      - Battle Psychic Gilbert on bridge. [Completed]
-      - Battle Cooltrainer Brian on bridge. [Completed]
-      - Battle Cooltrainer F at (72, 8). [Current]
-      - Move East past the bridge. [Next]
-  7. Navigate Route 26 North to Victory Road. [Next]
-
-## Time Tracking
-- Route 27 Navigation: Started Turn 36404.
+## Strategy: Navigate Route 27
+- Objective: Reach Route 26 and Victory Road.
+- Progress:
+  - Navigate through Tohjo Falls. [Completed]
+  - Explore house at (33, 7). [Completed]
+  - Cross Route 27 Bridge. [In Progress]
+    - Battle Psychic Gilbert. [Completed]
+    - Battle Cooltrainer Brian. [Completed]
+    - Battle Cooltrainer Reena at (72, 10). [Current]
+  - Reach Route 26. [Next]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
