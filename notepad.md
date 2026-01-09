@@ -22,7 +22,8 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28964)
-- **Status:** Resuming hunt after Repel application.
-- **Progress:** ~302 turns. Hunt loop active.
+# Reflection (Turn 28965)
+- **Status:** Repel applied. Resuming hunt loop.
+- **Action:** Moving back to Route 37.
+- **Progress:** ~302 turns. Hunt active.
 - **Hygiene:** Verified.
