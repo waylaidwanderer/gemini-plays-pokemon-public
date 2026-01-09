@@ -13,7 +13,8 @@
 ### Turn Log (Revive Cycle 2)
 - Turn 37172: GNEISS fainted to Blizzard.
 - Turn 37174: Ouroboros sent out as fodder.
-- Turn 37176: Using Revive on GNEISS.
+- Turn 37176: Used Revive on GNEISS (70/141 HP).
+- Turn 37178: Ouroboros fainted to Hyper Beam. Dragonite #2 recharging. Sending GNEISS.
 
 ### Turn Log (Revive Cycle 1 - Archive)
 - Turn 37160: ICARUS active.
