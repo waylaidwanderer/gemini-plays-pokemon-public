@@ -1,8 +1,7 @@
-# Johto Journey - Final Phase
-
+# Elite Four Challenge (Started Turn 36866)
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Dragonite (Lv47).
-- Status: Fainted. (Defeated by Twister).
+- Status: Healthy.
 - Moves: Thunder, Thunder Wave, Hyper Beam, Twister.
 - Defeated: Gyarados (Lv44).
 - Remaining: Dragonite x2, Aerodactyl, Charizard.
@@ -31,10 +30,7 @@
 - **WALL:** Impassable. (Verified on LancesRoom perimeter).
 - **WARP_CARPET:** Map transition. (Verified at map edges).
 
-### World Lore & Goals
-- Ho-Oh revived Beasts after Brass Tower fire.
 - Suicune roaming.
-- Shopping: Revives secured. (Full Restores exhausted).
 
 ## Team Overview (Movesets)
 - Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
