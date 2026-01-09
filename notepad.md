@@ -39,9 +39,9 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #54. Blind Hunt Loop.
-- **Note:** Super Repel Active.
-- **Action:** Checking grass on Route 37 (Hunt Routine).
+- **Current Cycle:** #55. Blind Hunt Loop.
+- **Note:** Super Repel Active. Monitoring for expiration (or trash encounter).
+- **Action:** Transitioning to Route 37 to check grass.
 - **Status:** Beasts unseen in Pokedex. Must trigger encounter blindly.
 - **Strategy Update:** Transition to Rt 37, check grass, return. Repeat until encounter.
-- **Timestamp:** Turn 30257.
+- **Timestamp:** Turn 30259.
