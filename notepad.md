@@ -8,7 +8,7 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Fly Map Open. Cursor at New Bark Town. Attempting precise navigation to Ecruteak (Left -> Up -> Left).
+- **Status:** Fly Map Open. Cursor at Cherrygrove City. Trying Up (to Violet) then Left (to Ecruteak). Previous attempt failed mysteriously at Violet.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
