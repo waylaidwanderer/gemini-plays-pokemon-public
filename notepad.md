@@ -43,3 +43,6 @@
 - Current Status: Inside Dragon Shrine (3_82).
 - Task: Answer the questions from the Dragon Clan Elders.
 - Goal: Obtain approval to receive the Rising Badge.
+## Dragon User Challenge Progress [Turn 35407]
+- Question 1: "What are POKéMON to you?"
+- Answered: "Pal"
