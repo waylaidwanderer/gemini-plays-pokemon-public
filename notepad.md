@@ -7,27 +7,18 @@
 ## Strategy: Navigate Tohjo Falls (Start Turn 35972)
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
+- Route: New Bark Town -> Route 27 (East via Surf) -> Tohjo Falls -> Route 27 (East) -> Route 26 (North) -> Victory Road.
 - Steps:
   1. Obtain HM07 Waterfall from Ice Path 1F. [Completed]
   2. Teach Waterfall to LAPIS (slot 6). [Completed]
   3. Use Waterfall to climb the falls in Tohjo Falls.
   4. Locate the eastern exit of Tohjo Falls.
 
-## Strategy: Exit Ice Path (Start Turn 36156)
-- Plan:
-  1. Navigate B1F to ladder at (5, 25). [Completed Turn 36350]
-  2. Navigate 1F to exit at (36, 27). [Completed Turn 36352]
-  3. Exit Ice Path to Blackthorn City. [Completed Turn 36357]
-  4. Fly to New Bark Town. [Current]
-  5. Travel east from New Bark Town via Surf to reach Route 27.
-  6. Traverse Tohjo Falls to reach the eastern section of Route 27.
-
-## Items Collected
-- Ice Path 1F: HM07 Waterfall (31, 7)
-- Ice Path B1F: Iron (5, 35)
-- Ice Path B2F: TM44 Rest (8, 16)
-- Ice Path B3F: NeverMeltIce (5, 7)
-- Tohjo Falls: Moon Stone (2, 6)
+## Strategy: Bug-Catching Contest (Saturday)
+- Objective: Obtain a Sun Stone.
+- Location: National Park (Route 35/36).
+- Method: Win 1st place in the Bug-Catching Contest.
+- Current Day: Friday (Turn 36361). Contest is tomorrow.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -44,7 +35,7 @@
 
 ## Lessons Learned
 - Rising Badge: Allows use of HM07 Waterfall outside battle.
-- Tohjo Falls Ledges: Row 16 ledges are impassable from North.
+- Tohjo Falls Ledges: Row 16 ledges are reported impassable from North. [TO VERIFY]
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Tool Refinement: ice_pathfinder_v2 updated to handle items as targets and return button sequences.
