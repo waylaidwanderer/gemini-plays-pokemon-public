@@ -1,13 +1,17 @@
-# Johto Elite Four Challenge - Final Battle vs Lance
+# Johto Elite Four Challenge
 - Victories: Will, Koga, Bruno, Karen
 
-## Champion Lance Battle Strategy
-- Opponent: Dragonite #3 (Lv50). Moves: Outrage (Special, Dragon-type).
-- Current Status: Dragonite is NOT confused. It is locked into Outrage.
-- Team Status: XENON (Lv40, 30 HP, PAR) is active. Others fainted.
-- Goal: Revive Calcifer (Lv54). He is fast (140 Speed) and has Thunderpunch (2x effective).
-- Plan: Use XENON to Revive Calcifer. If XENON faints, Calcifer takes the lead.
-- Resources: 6 Revives. 0 HP recovery items. (Verified Turn 37206).
+## Champion Lance Battle
+- Opponent: Champion Lance (Final Boss)
+- Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl
+- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon-type, Special).
+- Strategy: Revive GNEISS. Use ROLLOUT to finish.
+- Inventory: 6 Revives. 0 Potions/Restores. (Verified Turn 37206).
+
+## Strategy vs Dragonite #3
+- Outrage is Special. GNEISS has low Sp.Def (74).
+- Plan: Revive GNEISS. If XENON faints, GNEISS takes the lead.
+- Target: Finish before Revives run out.
 
 ## Persistence Knowledge
 ### Type Effectiveness
