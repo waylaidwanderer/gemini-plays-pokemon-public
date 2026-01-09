@@ -14,6 +14,14 @@
 - WALL: Impassable.
 - LADDER: Traversable.
 - WARP_CARPET: Walking off map edge triggers transition.
+- COUNTER: Interaction point for NPCs (Nurse/Clerk); face it and press A.
+- WATER: Requires SURF to traverse.
+- LEDGE: One-way traversal (jump down).
+- GRASS: Wild Pokémon encounter zone.
+- WHIRLPOOL: Requires WHIRLPOOL to clear.
+- WATERFALL: Requires WATERFALL to climb.
+- ICE: Causes sliding movement until an obstacle is hit.
+- HOLE: Pit that causes falling to a lower floor.
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
@@ -25,5 +33,4 @@
 
 ## Battle Strategy
 - Use fodder/safe turns to Revive key members (Calcifer, XENON, GNEISS).
-- Strategy Update: GNEISS fainted to Outrage. XENON is being sent in to tank the next Outrage turn.
-- Goal: Finish the battle with Calcifer after XENON absorbs the Outrage pressure.
+- Current Objective: Defeat Dragonite #3. XENON is out to disrupt or absorb damage while Dragonite is locked in Outrage. Strategy: Use Night Shade for fixed damage or Confuse Ray to force self-damage. Final blow likely from Calcifer's Thunderpunch or Return.
