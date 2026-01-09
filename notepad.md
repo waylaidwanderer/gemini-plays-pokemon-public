@@ -7,29 +7,20 @@
 - Defeated:
   - Gyarados (Lv44): Turn 37120
   - Dragonite #1 (Lv47): Turn 37155
-- Active: Dragonite #2 (Lv47). Moves: Blizzard, Thunder, Twister, Hyper Beam.
-- Remaining: Dragonite #3, Aerodactyl, Charizard.
+  - Dragonite #2 (Lv47): Turn 37184
+  - Charizard (Lv46): Turn 37184
+- Active: Aerodactyl (Lv46). Moves: Hyper Beam (Recharging).
+- Remaining: Dragonite #3.
 
 ### Turn Log
-- Turn 37160: ICARUS active. Start Revive cycle 1.
-- Turn 37165: GNEISS revived (70/141 HP).
-- Turn 37166: GNEISS revitalized.
-- Turn 37167: ICARUS fainted to Blizzard.
-- Turn 37168: GNEISS sent out.
-- Turn 37172: GNEISS fainted to Blizzard. Start Revive cycle 2.
-- Turn 37174: Ouroboros sent out as fodder.
-- Turn 37176: Used Revive on GNEISS (70/141 HP).
-- Turn 37178: Ouroboros fainted to Hyper Beam. Dragonite #2 recharging.
-- Turn 37179: GNEISS sent out.
-- Turn 37181: ROLLOUT missed while Dragonite #2 was recharging.
-- Turn 37182: FIGHT selected.
-- Turn 37183: ROLLOUT selected.
+- Turn 37184: GNEISS defeated Dragonite #2 and Charizard with ROLLOUT. GNEISS at 31/141 HP. Aerodactyl missed Hyper Beam.
+- Turn 37185: Clearing text. ROLLOUT continues (Hit 3).
 
 ## Strategy vs Champion Lance
-- Plan: Use fodder to revive GNEISS. GNEISS uses Rollout to sweep.
+- Plan: Use GNEISS's ROLLOUT to sweep. Use fodder for revives if necessary.
 - Inventory: 8 Revives. No healing items.
 
-## Roaming Pokemon
+## World Lore & Roaming
 - Suicune: Roaming Johto.
 
 ## Persistence Knowledge
