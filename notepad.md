@@ -32,5 +32,5 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Goldenrod City.
-- **Goal:** Fly to Ecruteak City.
+- **Current Location:** New Bark Town (Accidental Fly).
+- **Goal:** Fly to Ecruteak City (Correctly this time).
