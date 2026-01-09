@@ -39,7 +39,7 @@
 ## Battle Notes - Bruno (Fighting)
 - Hitmontop: Fighting. Xenon immune to STAB. Used Dig (Ground). (DEFEATED)
 - Hitmonlee: Fighting. Xenon immune to STAB (unless Foresight active). (DEFEATED)
-- Hitmonchan: Fighting. Weak to Psychic/Flying. Watch for Elemental Punches. (REDUCED TO RED HP)
+- Hitmonchan: Fighting. Weak to Psychic/Flying. Watch for Elemental Punches. (DEFEATED)
 - Onix: Rock/Ground. 4x weak to Water/Grass. 2x weak to Ground (Earthquake).
 - Machamp: Fighting. Weak to Psychic/Flying. High physical power.
 - Strategy: Xenon for Fighting immunity (unless coverage predicted). Gneiss for Onix.
