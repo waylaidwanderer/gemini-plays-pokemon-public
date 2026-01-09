@@ -12,7 +12,7 @@
 - Gyarados (Water/Flying): DEFEATED
 - Dragonite x3 (Dragon/Flying):
   - Dragonite #1: DEFEATED (XENON Hypnosis/Dream Eater)
-  - Dragonite #2: ACTIVE (Plan: Confuse Ray + Hypnosis + Dream Eater)
+  - Dragonite #2: ACTIVE (Plan: Confuse Ray + Night Shade spam)
   - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
@@ -39,8 +39,7 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle with Lance (Cont.)
-- Turn 37522: XENON used Dream Eater. Dragonite #1 fainted.
-- Turn 37523: FIGHT selected.
-- Turn 37524: Move menu open. Cursor on DREAM EATER. Planning Confuse Ray.
-- Turn 37524: Moved cursor to CONFUSE RAY.
-- Turn 37525: Move menu remains open with cursor on CONFUSE RAY. Executing move.
+- Turn 37525: XENON used Confuse Ray. Dragonite #2 became confused.
+- Turn 37526: Dragonite #2 is confused and hurt itself in confusion.
+- Turn 37527: Moved cursor to NIGHT SHADE.
+- Turn 37528: Executing NIGHT SHADE.
