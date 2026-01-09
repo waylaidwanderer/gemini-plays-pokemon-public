@@ -31,3 +31,8 @@
 - Use Max Repel to stop wild encounters.
 - Move from (21, 10) west to (19, 10).
 - Move north to (19, 9) to enter the building.
+## Strategy Update: Finding the Dragon Shrine [Turn 35353]
+- Successfully reached the central platform at (19, 9).
+- Decision: Move north to locate the shrine building.
+- Resource Management: Use Max Repel to avoid Magikarp/Dratini encounters.
+- Capability Update: Teach HM06 Whirlpool to Ravioli (Krabby).
