@@ -46,3 +46,5 @@
 ## Victory Road & League Info
 - Re-entry: Route 23 (9, 13).
 - Shopping List: Revives (10) - Done, Full Restores (3) - Done.
+- Turn 36979: Hitmontop fainted.
+- Turn 36980: Bruno sent out Onix (Lv43). Switching to GNEISS.
