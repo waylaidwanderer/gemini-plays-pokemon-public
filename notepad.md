@@ -40,3 +40,6 @@
 
 ## Battle with Lance (Cont.)
 - Charizard: Active. XENON using Hypnosis (Turn 37536).
+- Turn 37536: XENON used Hypnosis but missed (Charizard used Flamethrower first).
+- Turn 37537: Charizard used Flamethrower. XENON fainted.
+- Strategy: Use Ouroboros as fodder to Revive GNEISS. GNEISS is 4x effective against Charizard.
