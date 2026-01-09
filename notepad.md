@@ -40,3 +40,4 @@
 - **Fly Map Observation:** Cursor movement is granular (pixel-based). Requires holding the direction button (simulated by repeated inputs) to move effectively between cities. 'Left' from Violet to Ecruteak requires significant hold time.
 - **Hunt Strategy:** Moving south to Route 37 grass. Will apply Super Repel if encounters become frequent to filter for Lv40 Beasts.
 - **Map Connection:** Ecruteak (17, 35) leads directly South to Route 37.
+- **Action:** Opening menu to use Super Repel before entering grass. Gyarados (Lv 36) lead + Repel filters all wild Pokemon except Roaming Beasts (Lv 40).
