@@ -15,12 +15,12 @@
 
 ## Strategy: Exit Ice Path (Start Turn 36156)
 - Plan:
-  1. Navigate B1F to ladder at (17, 3) leading to B2F. [Completed]
-  2. Navigate B2F to ladder at (9, 11) leading to B3F. [Completed]
-  3. Navigate B3F to collect item at (5, 7). [Completed - NeverMeltIce]
+  1. Navigate B1F to ladder at (17, 3) leading to B2F.
+  2. Navigate B2F to ladder at (9, 11) leading to B3F.
+  3. Navigate B3F to collect NeverMeltIce at (5, 7).
   4. Navigate B2F to ladder at (3, 15) leading to B1F. [Current]
   5. Reach ladder at (5, 25) on B1F leading to 1F South.
-  6. Exit Ice Path at (36, 27).
+  6. Exit Ice Path at (36, 9) on 1F.
   7. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Items Collected
