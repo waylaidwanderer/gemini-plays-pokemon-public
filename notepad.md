@@ -38,3 +38,6 @@
 - **Plan:** Fly to Goldenrod -> Buy TM08 -> Return to Ecruteak for Hunt.
 - **Fly Map Behavior:** Cursor observed starting at New Bark Town when opened from Olivine City (instead of current location). Always verify start point before navigating.
 - **Fly Map Logic:** 'Down' from New Bark Town leads to Silver Cave (verified). Silver Cave is visually Top-Right. To reach Goldenrod (Central), need to traverse West.
+- **Correction:** Accidental flight to New Bark Town occurred due to pressing 'A' when map was already open.
+- **Current Status:** In New Bark Town. Goal: Fly to Goldenrod.
+- **Menu Navigation:** Start -> Pokemon -> Mistral (Slot 4) -> Fly.
