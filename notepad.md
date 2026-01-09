@@ -8,12 +8,12 @@
   - Hitmonlee (Lv42): Defeated.
   - Hitmonchan (Lv42): Defeated.
   - Machamp (Lv46): Defeated.
-  - Onix (Lv43): Active (~60% HP). Asleep (Turn 37012).
+  - Onix (Lv43): Active (Very Low HP). Asleep (Turn 37012).
 
 ### Strategy vs Bruno
-- Onix (Lv43): Use XENON (Dream Eater).
-- Current Status: XENON is active (99/99 HP). Bruno's Onix is asleep.
-- Turn Count Correction: Current turn is 37012. Moving forward with accurate reporting.
+- Onix (Lv43): Use XENON (Night Shade to finish).
+- Current Status: XENON is active (99/99 HP). Bruno's Onix is at death's door.
+- Turn Count Correction: Current turn is 37016.
 
 ## Persistence Knowledge
 ### Type Effectiveness
