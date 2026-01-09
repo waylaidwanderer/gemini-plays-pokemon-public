@@ -6,21 +6,23 @@
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
   1. Obtain HM07 Waterfall from Ice Path 1F. [Collected Turn 36179]
-  2. Use Waterfall to climb the falls in Tohjo Falls.
-  3. Locate the eastern exit of Tohjo Falls.
+  2. Teach Waterfall to LAPIS (slot 6) replacing Bubble. [Current]
+  3. Use Waterfall to climb the falls in Tohjo Falls.
+  4. Locate the eastern exit of Tohjo Falls.
 
 ## Strategy: Teach Waterfall and Exit
 - Status: HM07 Waterfall obtained. Teaching to LAPIS (slot 6) replacing Bubble.
 - Menu Navigation Offsets:
-  - PACK -> TM/HM Pocket: 3 'Right' presses from Items.
-  - HM07 Position: ~10 'Down' presses from top of TM/HM list.
+  - PACK -> TM/HM Pocket: Usually opens to last used. 
+  - HM07 Position: 10 'Down' presses from top (TM24).
   - Party Member (LAPIS): 5 'Down' presses from top (XENON).
   - Move to Replace (Bubble): Slot 1.
 - Plan:
-  1. Open Start -> PACK -> TM/HM Pocket.
-  2. Select HM07 Waterfall and Use on LAPIS (slot 6).
-  3. Replace Bubble.
-  4. Exit Ice Path via (36, 27).
+  1. Move to (30, 7) to clear stagnation warning. [Current]
+  2. Open Start -> PACK -> TM/HM Pocket.
+  3. Select HM07 Waterfall and Use on LAPIS (slot 6).
+  4. Replace Bubble.
+  5. Exit Ice Path via (36, 27).
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -45,9 +47,6 @@
 ## Route 44 Navigation Notes
 - Ledge Gap: A traversable gap in the east-west ledges exists at x=49 (row 8 to 14 is clear at this x-coordinate).
 - NPC Obstacles:
-  - Cooltrainer Cybil: (31, 14)
-  - Cooltrainer Allen: (37, 15)
-  - Bird Keeper Vance: (51, 6)
-  - Youngster: (51, 5)
+  - Cooltrainer Cybil: (31, 14), Cooltrainer Allen: (37, 15), Bird Keeper Vance: (51, 6), Youngster: (51, 5)
 - Ice Path Entrance: (56, 7). Reachable from the north section of Route 44.
-- North/South Section Divide: Route 44 is divided by a line of ledges in row 9 (x=51-57) and row 13 (x=50-53). Use the gap at x=49 to move between them.
+- North/South Section Divide: Divided by ledges in row 9 (x=51-57) and row 13 (x=50-53). Use gap at x=49.
