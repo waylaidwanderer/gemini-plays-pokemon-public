@@ -6,7 +6,7 @@
 ## Strategy: Preparing for the Elite Four
 - Training: Level all active members (especially XENON and Ouroboros) to 45+ at Route 45 or Route 27.
 - Coverage: Dragonite (Ouroboros) is the primary candidate for Ice-type coverage (TM33) against Lance.
-- Evolution: Obtain Sun Stone from Bug-Catching Contest for KIMCHI (Gloom).
+- Evolution: Obtain Sun Stone from Bug-Catching Contest for KIMCHI (Gloom). [Started Turn 35644, 7:00 PM]
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Started Turn 35704]
 
