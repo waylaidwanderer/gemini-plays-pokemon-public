@@ -54,6 +54,7 @@
 - Attempt 8 (Turn 37457): Failed. Triggered battle instead of swap. ICARUS is leading.
 - Strategy: Switch to Calcifer immediately. Beware of Umbreon's Sand-Attack and Confuse Ray.
 ## Battle with Karen (Cont.)
-- Turn 37463-37464: Calcifer (139/174 HP) vs Umbreon (~60% HP).
-- Move Selection: Return (Physical) used.
-- Goal: Finish Umbreon with Return. Avoid Sand-Attack if possible.
+- Turn 37463-37466: Calcifer (123/174 HP) vs Umbreon (~25% HP).
+- Move Selection: Return (Physical) used twice.
+- Goal: Finish Umbreon with Return.
+- Next: Prepare for Vileplume, Gengar, Murkrow, or Houndoom. Use Calcifer or Gneiss accordingly.
