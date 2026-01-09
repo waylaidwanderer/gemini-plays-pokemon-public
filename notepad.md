@@ -39,6 +39,7 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Status:** In Route 37 (7, 0).
-- **Action:** Cycle #33. Hunting in grass.
+- **Event:** Gaven called during Cycle #33 (ignored).
+- **Status:** In Route 37 (7, 3).
+- **Action:** Cycle #33 continuing. Returning to Ecruteak.
 - **Note:** Super Repel Active. Cycles #20-32 yielded no encounter.
