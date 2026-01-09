@@ -16,9 +16,9 @@
 
 ## Strategy: Exit Ice Path
 - Plan:
-  1. Jump ledge at (25, 10). [Current]
-  2. Navigate to Ice Path exit at (36, 27) using ice_pathfinder_v2 tool.
-  3. Fly to New Bark Town and head east to Tohjo Falls.
+  1. Navigate to Ice Path exit at (36, 27) using coordinate path. [Current]
+  2. Fly to New Bark Town and head east to Tohjo Falls.
+  3. Use Waterfall at (10, 8) in Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
