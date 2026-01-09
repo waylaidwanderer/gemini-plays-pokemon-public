@@ -6,7 +6,7 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel used at Turn 36784. Lasts 250 steps.
+- **Repel Status:** Wore off at Turn 36784. Need to re-apply.
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
