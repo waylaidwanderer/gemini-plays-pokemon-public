@@ -5,33 +5,22 @@
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
-  1. Obtain HM07 Waterfall from Ice Path 1F. [Current]
+  1. Obtain HM07 Waterfall from Ice Path 1F. [Collected Turn 36179]
   2. Use Waterfall to climb the falls in Tohjo Falls.
   3. Locate the eastern exit of Tohjo Falls.
 
 ## Strategy: Teach Waterfall and Exit
-- Status: HM07 Waterfall obtained (Turn 36168). Teaching to LAPIS (slot 6) replacing Bubble.
-- Hallucination Warning: Stood at (30, 7) too long. Moving to (31, 7) before teaching.
+- Status: HM07 Waterfall obtained. Teaching to LAPIS (slot 6) replacing Bubble.
+- Menu Navigation Offsets:
+  - PACK -> TM/HM Pocket: 3 'Right' presses from Items.
+  - HM07 Position: ~10 'Down' presses from top of TM/HM list.
+  - Party Member (LAPIS): 5 'Down' presses from top (XENON).
+  - Move to Replace (Bubble): Slot 1.
 - Plan:
-  1. Exit OPTION menu (B, B).
-  2. Move Right to (31, 7). [Current]
-  3. Open PACK -> TM/HM Pocket.
-  4. Select HM07 Waterfall and Use on LAPIS (slot 6).
-  5. Replace Bubble (move slot 1).
-  6. Exit Ice Path via (36, 27).
-- Northeast Ice Puzzle Solution:
-  - Start: (16, 8) (Floor entrance).
-  - Move: Down to (16, 9) (Floor).
-  - Move: Right to slide to (23, 9) (Floor).
-  - Move: Up to slide to (23, 6) (Floor).
-  - Move: Left to (22, 6) (Floor).
-  - Move: Down to (22, 7) (Floor).
-  - Move: Right to slide to (30, 7) (Floor).
-  - Move: Right to (31, 7) to collect HM07 Waterfall.
-- Next Steps:
-  1. Collect HM07 Waterfall.
-  2. Exit Ice Path.
-  3. Return to Tohjo Falls and climb the waterfall.
+  1. Open Start -> PACK -> TM/HM Pocket.
+  2. Select HM07 Waterfall and Use on LAPIS (slot 6).
+  3. Replace Bubble.
+  4. Exit Ice Path via (36, 27).
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
