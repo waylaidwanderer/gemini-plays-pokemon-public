@@ -14,8 +14,8 @@
 ## Elite Four Strategy
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Shopping List:**
-  - Revives (Buy 10 - ¥15000) - In progress (Turn 36855)
-  - Full Restores (Buy 3 - ¥9000)
+  - Revives (10) - Done (Turn 36856)
+  - Full Restores (Buy 3 - ¥9000) - In progress (Turn 36857)
   - Max Repels (already have 1, but spares are good)
 - **Team Roles:**
   - Calcifer (Lv51 Typhlosion): Primary attacker (Fire/Electric coverage).
