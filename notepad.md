@@ -8,7 +8,7 @@
   - (15, 48): Full Heal (Collected)
   - (12, 48): Max Revive (Collected)
   - (7, 38): HP UP (Collected)
-- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (215 steps remaining).
+- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (216 steps remaining).
 - **Area Notes: Victory Road**
 - **Mechanics:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
 - **Exploration Strategy:** Use Max Repel to avoid wild encounters. Reveal reachable unseen tiles. Focus on northern section (y < 34).
