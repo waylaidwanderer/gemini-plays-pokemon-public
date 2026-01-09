@@ -15,8 +15,8 @@
 - **Repel Status:** Max Repel used at Turn 36808. Lasts 250 steps.
 - **Turn 36804:** Performing maintenance.
   - Step 1: Use MAX REPEL (Turn 36808).
-  - Step 2: Revive Ouroboros (In progress).
-  - Step 3: Heal GNEISS and Calcifer.
+  - Step 2: Revive Ouroboros (Done).
+  - Step 3: Heal GNEISS (FULL RESTORE).
   - Step 4: Move to (13, 31) to reach upper level.
 
 ## Tile & Movement Mechanics
