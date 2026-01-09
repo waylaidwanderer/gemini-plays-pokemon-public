@@ -13,12 +13,13 @@
 ## Strategy: Teach Waterfall and Exit
 - Status: HM07 Waterfall obtained. Teaching to LAPIS (slot 6) replacing Bubble.
 - Menu Navigation Offsets:
-  - PACK -> TM/HM Pocket: Usually opens to last used. 
-  - HM07 Position: 10 'Down' presses from top (TM24).
-  - Party Member (LAPIS): 5 'Down' presses from top (XENON).
+  - Start Menu -> PACK: 2 'Down' from POKéDEX. (Use 'Up' to pin to top first)
+  - PACK -> TM/HM Pocket: 3 'Right' from Items. (Use 'Left' to pin to Items first)
+  - HM07 Position: 10 'Down' from top of TM/HM list (TM24).
+  - Party Member (LAPIS): 5 'Down' from top (XENON).
   - Move to Replace (Bubble): Slot 1.
 - Plan:
-  1. Move to (30, 7) to clear stagnation warning. [Current]
+  1. Move to (31, 7) to clear stagnation warning. [Current]
   2. Open Start -> PACK -> TM/HM Pocket.
   3. Select HM07 Waterfall and Use on LAPIS (slot 6).
   4. Replace Bubble.
