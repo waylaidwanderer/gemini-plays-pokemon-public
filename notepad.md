@@ -41,4 +41,4 @@
 - **Event:** Call finished.
 - **Current Goal:** Blind Hunt Loop (Cycle #86).
 - **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
-- **Status:** Moving to Route 37 for grass check.
+- **Status:** Searching grass on Route 37 (Cycle 86).
