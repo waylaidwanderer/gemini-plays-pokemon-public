@@ -34,7 +34,7 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Ecruteak City (South Gate).
+- **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
 - **Current Goal:** Blind Hunt Loop (Cycle #99).
 - **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
