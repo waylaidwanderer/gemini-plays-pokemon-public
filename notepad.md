@@ -33,6 +33,6 @@
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Post-Game Strategy
-- Objective: Obtain the S.S. Ticket from Professor Elm.
+- Objective: Obtain the S.S. Ticket from Professor Elm (COMPLETED).
 - Objective: Travel to Olivine City to board the S.S. Aqua to Kanto.
 - Objective: Collect the 8 Kanto Badges.
