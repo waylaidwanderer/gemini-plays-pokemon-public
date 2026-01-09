@@ -2,9 +2,9 @@
 
 ## Strategy for Victory Road
 - **Victory Road Entry:** Turn 36644 (Friday, 4:53 AM)
-- **Status:** Exploring the cave to reach Indigo Plateau.
+- **Status:** Exploring 1F at (3, 50). Turn 36659 (Friday, 5:02 AM).
 - **Warp:** Exit to Reception Gate at (9, 67).
-- **Strategy:** Navigate north, managing wild encounters and potential puzzles. Ensure team is healthy for the final stretch.
+- **Strategy:** Navigate north, reveal reachable unseen tiles, and manage wild encounters. Ensure team is healthy for the final stretch.
 
 ## Strategy for Route 26 (Completed)
 - **Defeated Trainers:** Fisher Scott, Psychic Richard, Cooltrainer Joyce, Cooltrainer Gaven, Cooltrainer Jake, Cooltrainer Beth.
@@ -13,9 +13,9 @@
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
-- Method: Win 1st place in the Bug-Catching Contest.
+- Method: Win 1st place in the Bug-Catching Contest. 
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (4:53 AM). Contest is tomorrow.
+- Timing: Friday (5:02 AM). Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Psychic:** Super effective against Poison/Ghost (XENON).
@@ -40,7 +40,6 @@
 
 ## Tool Status
 - find_path_v2: Reliable.
-- ice_pathfinder_v2: Reliable.
 - find_closest_unseen_path_v3: Refined version.
 - battle_strategist: Active.
 
