@@ -1,17 +1,16 @@
-# Johto Elite Four Challenge - Final Showdown
+# Johto Elite Four Challenge
 - Victories: Will, Koga, Bruno, Karen
 
 ## Champion Lance Battle Strategy
 - Opponent: Champion Lance (Final Boss)
-- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon-type, Special).
-- Current Lead: LAPIS (Lv12, 16/32 HP). All others fainted.
-- Resources: 3 Revives. 0 Potions/Restores. (Verified Turn 37221).
+- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon, Special).
+- Team Status: LAPIS (16/32 HP) active. All others fainted.
+- Resources: 3 Revives. 0 Potions/Restores. (Turn 37222).
 
 ## Tactical Plan
-- GNEISS (Lv50) has ROLLOUT (2x Super Effective) but low Sp.Def (74).
-- Calcifer (Lv54) has Thunderpunch (2x Super Effective) and high Sp.Def (120).
-- Strategy: Revive Calcifer while Dragonite is locked into Outrage. Calcifer is more likely to survive a special attack and has a speed advantage (140).
-- Target: Land enough Thunderpunches to win before Revives run out.
+- Goal: Revive Calcifer (Lv54). He is the strongest attacker left.
+- Calcifer Stats: Speed 140, Sp.Def 120. Moves: Thunderpunch (2x Super Effective).
+- Execution: Use Revive on Calcifer. After LAPIS faints, send in Calcifer to finish.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -24,3 +23,8 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WARP_CARPET: Walking off map edge triggers transition.
+
+## World Lore & Goals
+- Ho-Oh revived Beasts after Brass Tower fire.
+- Suicune roaming.
+- Hall of Fame is the ultimate objective.
