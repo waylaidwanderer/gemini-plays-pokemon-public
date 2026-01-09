@@ -7,7 +7,7 @@
 
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Dragonite (Lv47).
-- Status: Healthy (138/138 HP). Ready to switch in.
+- Status: Active (138/138 HP).
 - Moves: Thunder, Thunder Wave, Hyper Beam, Twister.
 - Defeated: Gyarados (Lv44).
 - Remaining: Dragonite x2, Aerodactyl, Charizard.
@@ -15,7 +15,7 @@
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
 - Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use XENON for status (Confuse Ray/Hypnosis). Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout if possible.
+- Plan: Use XENON for status (Confuse Ray/Hypnosis). Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout to sweep the dragons.
 - Inventory Check: No major healing items left. Must rely on Revives.
 - Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
 
@@ -39,7 +39,7 @@
 - Suicune roaming.
 
 ## Elite Four Challenge Tracking
-- Turn 37150: Using Max Revive on GNEISS.
+- Turn 37150: Used Max Revive on GNEISS.
 
 ## Team Overview (Movesets)
 - Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
