@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Handling Phone Call Interruption.
-- **Method:** Press B repeatedly to clear Gaven's call -> Retry Fly.
-- **Notes:** Gaven called just as I attempted to Fly. Must clear text before retrying. Cursor was at New Bark Town, sequence for Goldenrod (Left x3, Down) is correct for next attempt.
+- **Status:** Retrying Fly Sequence.
+- **Method:** Press Start -> Verify Cursor (Should be on Pokemon) -> Select Mistral -> Fly.
+- **Notes:** Phone call cleared. Restarting Fly sequence from Overworld.
