@@ -43,6 +43,6 @@
 - Ho-Oh revived Suicune, Entei, and Raikou after the Brass Tower fire 700 years ago.
 - Suicune is currently roaming Johto.
 - Turn 37043: Calcifer confused by Umbreon's Confuse Ray. Switched to GNEISS.
-- Turn 37045: GNEISS's accuracy fell due to Umbreon's Sand-Attack. GNEISS is active (138/138 HP). Umbreon is at Full HP.
-- Turn 37048: Following advisor strategy - Use Earthquake despite accuracy drop.
-- Turn count sync: Current turn is 37048.
+- Turn 37045: GNEISS's accuracy fell due to Umbreon's Sand-Attack. GNEISS is active (138/138 HP). Umbreon is at ~75% HP.
+- Turn 37049: Continue using Earthquake.
+- Turn count sync: Current turn is 37049.
