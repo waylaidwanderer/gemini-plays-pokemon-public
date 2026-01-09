@@ -1,30 +1,37 @@
 # Johto Journey - Final Phase
 
 ## Victory Road (1F/2F/3F)
-- **Status:** COMPLETED. Reached Indigo Plateau.
-- **Goal:** Challenge the Elite Four.
-- **Indigo Plateau Arrivals:**
-  - Route 23 (16_1) (9, 5) -> Poké Center (16_2) (5, 13).
-  - Poké Center (16_2) (6, 13) -> Route 23 (16_1) (10, 5).
-- **Ladder Connections:**
-  - (1, 35) (middle) <-> (1, 49) (lower)
-  - (13, 17) (upper) <-> (13, 31) (middle)
-  - (17, 19) (upper) <-> (17, 33) (middle)
-- **Items Collected:**
-  - Max Revive (12, 48)
-  - Full Heal (15, 48)
-  - HP UP (7, 38)
-  - Full Restore (18, 29)
-- **Repel Status:** Max Repel used at Turn 36808. Lasts 250 steps. Used ~35 steps.
-- **Turn 36816-36825:** BLUNDER - Wasted Full Restore on ICARUS and a Potion on XENON. Out of Potions.
-- **Turn 36830:** Reached Indigo Plateau. Team needs healing.
+- **Status:** COMPLETED. Reached Indigo Plateau. Re-entry at (9, 13) on Route 23.
 
-## Tile & Movement Mechanics
-- **Traversable:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE/LADDER (Warp).
-- **Impassable:** WALL, PC, COUNTER, VOID.
-- **Ledges:** 
-  - (6, 38)-(6, 41): One-way West.
-  - (3, 34)-(8, 34): One-way South.
+## Indigo Plateau Poké Center (16_2)
+- **1F Layout:** Nurse Joy (3, 8), PC (7, 7), Ladder to 2F (0, 13), Mart Clerk (10, 8).
+- **2F Layout (20_1):** Trade Center, Colosseum, Time Capsule. Ladder to 1F (0, 7).
+- **NPCs:**
+  - Jynx (0, 9) - 1F.
+  - Gramps (1, 9) - 1F.
+  - Cooltrainer M (9, 13) - 1F.
+
+## Elite Four Strategy
+- **Objective:** Defeat the Elite Four and the Champion.
+- **Shopping List:**
+  - Full Restores (High priority)
+  - Revives (High priority)
+  - Max Repels (already have 1, but spares are good)
+- **Team Roles:**
+  - Calcifer (Lv51 Typhlosion): Primary attacker (Fire/Electric coverage).
+  - GNEISS (Lv49 Graveler): Physical tank and Rock/Ground attacker.
+  - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray).
+  - Ouroboros (Lv15 Dratini): Thunder Wave support.
+  - ICARUS/LAPIS: HM support.
+
+## Tile Mechanics
+- **FLOOR:** Traversable. Standard movement.
+- **WALL:** Impassable.
+- **COUNTER:** Impassable. Interact with NPCs behind them from an adjacent tile.
+- **PC:** Impassable. Interact from below facing up.
+- **LADDER:** Warp tile. Transfers player between floors or areas.
+- **WARP_CARPET:** Warp tile. Transfers player between maps (usually at exits).
+- **VOID:** Impassable. Out of bounds.
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - **Objective:** Obtain a Sun Stone.
@@ -32,7 +39,6 @@
 - **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
 
 ## Battle Mechanics & Training
-- **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling.
 - **Type Effectiveness:**
   - Psychic: Super effective vs Poison/Ghost (XENON).
   - Water: 4x effective vs Rock/Ground (GNEISS).
@@ -41,11 +47,5 @@
 
 ## Reflection & Error Log
 - **Turn 36795:** Menu sequence failed due to complexity. Lesson: Perform one menu task at a time or use very short sequences.
-- **Turn 36798:** Maintenance prioritized (Repel, Revive, Heal).
-## Indigo Plateau Poké Center (16_2)
-- **1F Layout:** Nurse Joy (3, 8), PC (7, 7), Ladder to 2F (0, 13).
-- **2F Layout (20_1):** Trade Center, Colosseum, Time Capsule. Ladder to 1F (0, 7).
-- **NPCs:**
-  - Jynx (0, 9) - 1F.
-  - Cooltrainer M (9, 13) - 1F.
-  - Gramps (1, 9) - 1F.
+- **Turn 36816-36825:** BLUNDER - Wasted Full Restore on ICARUS and a Potion on XENON. Out of Potions.
+- **Turn 36830:** Reached Indigo Plateau. Team needs healing. (Done Turn 36835)
