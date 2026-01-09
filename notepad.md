@@ -37,6 +37,7 @@
 - **Current Location:** Ecruteak City (Outside Mart).
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Navigating Fly Map (Cursor at Silver Cave).
+- **Status:** Navigating Fly Map (Stuck at Silver Cave?).
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Cursor at Silver Cave. Hypothesis: Map wraps (Left of New Bark -> Silver Cave). Trying Left x5 to traverse West.
+- **Notes:** Left inputs failed to move cursor from Silver Cave. Trying UP to unstick/traverse to Blackthorn.
+- **Hypothesis:** Cursor stuck on horizontal axis? Testing vertical.
