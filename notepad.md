@@ -47,4 +47,5 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- Turn 37172: Using ROLLOUT on Dragonite #2. High risk, but maximizing damage is our best shot.
+- Turn 37172: Used ROLLOUT on Dragonite #2.
+- Turn 37173: GNEISS fainted to Dragonite #2's Blizzard. Selecting Ouroboros as fodder.
