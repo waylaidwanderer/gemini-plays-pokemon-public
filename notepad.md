@@ -48,3 +48,5 @@
 - **Ladder Connection:** (1, 35) <-> (1, 49). Connects the lower and middle sections of 1F.
 - **Victory Road Mechanic:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
 - **Exploration Strategy:** Use Max Repel to avoid wild encounters. Use `find_closest_unseen_path_v3` to reveal the map. Current focus: Southern section (y > 45).
+- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps.
+- **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four.
