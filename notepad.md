@@ -33,4 +33,4 @@
 - Dragon Shrine (3_82): Entrance at (19, 29) in Dragon's Den.
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
-- Whirlpool Barrier (10, 20): Path cleared [Turn 35387].
+- Whirlpool Barrier (10, 20): Requires HM06 to cross. Reloads on map re-entry.
