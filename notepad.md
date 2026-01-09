@@ -17,6 +17,7 @@
 - New Plan:
   1. Exit Tohjo Falls to Route 27. [Done]
   2. Walk West to New Bark Town. [Current]
+     - Start: Turn 36069.
   3. Fly to Mahogany Town.
   4. Travel east to Route 44 and enter Ice Path.
   5. Locate and pick up HM07 Waterfall.
