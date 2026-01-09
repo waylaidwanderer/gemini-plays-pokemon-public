@@ -13,7 +13,11 @@
   - HP UP (7, 38)
   - Full Restore (18, 29)
 - **Repel Status:** Max Repel used at Turn 36801 (Pending). Lasts 250 steps.
-- **Turn 36801:** Performing maintenance (Revive, Heal, Repel). Moving to (13, 31) to reach upper level.
+- **Turn 36804:** Performing maintenance.
+  - Step 1: Use MAX REPEL.
+  - Step 2: Revive Ouroboros (REVIVE).
+  - Step 3: Heal GNEISS and Calcifer (FULL RESTORE/Potions).
+  - Step 4: Move to (13, 31) to reach upper level.
 
 ## Tile & Movement Mechanics
 - **Traversable:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE/LADDER (Warp).
