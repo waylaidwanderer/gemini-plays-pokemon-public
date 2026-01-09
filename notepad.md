@@ -19,7 +19,7 @@
 - Calcifer (Typhlosion, Lv54): Lead attacker. Return/Flame Wheel/Thunderpunch.
 - Gneiss (Graveler, Lv50): Physical tank, good for Aerodactyl/Charizard.
 - Xenon (Haunter, Lv40): Needs more levels/utility. Night Shade/Dream Eater.
-- Resources: ¥12660. 2 Revives. 0 Potions.
+- Resources: ¥60. 8 Revives. 1 Full Restore. 5 Full Heals.
 
 ## persistence Knowledge
 ### Type Effectiveness
