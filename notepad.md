@@ -22,14 +22,11 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 - Party Sub-menu Order (Overworld): STATS, SWITCH, ITEM, CANCEL.
 - HM Sub-menu logic: HM moves appear at top. SWITCH is 3rd if 1 HM known.
+- Status Management: Level advantage is negated by paralysis (75% speed reduction). Priority is clearing status for the speed tier.
 
 ## Battle Strategy
 - Use fodder to safely Revive key members (XENON, GNEISS).
+- Strategy Update: Calcifer is paralyzed and low HP. Plan is to let him faint, then use a Revive to restore him to 50% HP and clear status. This is more efficient than using multiple turns to heal him with berries.
 - XENON uses Hypnosis to disable threats.
 - GNEISS (Rollout) is the backup for Charizard if XENON fails.
-- Current Status: ICARUS, Ouroboros, XENON, LAPIS fainted. Calcifer (31 HP, PAR) and GNEISS (35 HP) remaining.
 - Goal: Secure a knockout on Charizard with GNEISS or Calcifer.
-## Battle with Lance (Cont.)
-- Lance Challenge Start: Turn 37500.
-- Strategy Update: Calcifer is paralyzed and low HP. Plan is to let him faint, then use a Revive to restore him to 50% HP and clear status. This is more efficient than using multiple turns to heal him with berries.
-- Lesson: Level advantage is negated by paralysis (75% speed reduction). Priority is clearing status for the speed tier.
