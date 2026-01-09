@@ -39,9 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #73. Blind Hunt Loop.
-- **Note:** Super Repel Active. In Ecruteak (Retry Transition).
-- **Action:** Transitioning to Route 37.
-- **Status:** Beasts unseen.
-- **Strategy Update:** Transition to Rt 37, check grass, return.
-- **Timestamp:** Turn 30299.
+- **Current Goal:** Blind Hunt Loop (Cycle #74).
+- **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
+- **Status:** Searching Route 37 grass manually.
