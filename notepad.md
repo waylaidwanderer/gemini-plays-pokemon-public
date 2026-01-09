@@ -1,6 +1,6 @@
 # Johto Elite Four Challenge - REMATCH
 - Gauntlet started: Turn 37260 (Friday 11:58 AM)
-- Current Status: Defeated Will and Koga. Challenging Bruno.
+- Current Status: Defeated Will and Koga. Battling Bruno.
 
 ## Strategy for Elite Four
 1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade). (DEFEATED)
