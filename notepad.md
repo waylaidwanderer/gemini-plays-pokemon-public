@@ -12,7 +12,7 @@
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
   1. Use Surf to cross the water. [Done]
-  2. Search for HM07 Waterfall on land patches.
+  2. Search for HM07 Waterfall on land patches. [Current]
   3. Use Waterfall to climb the falls.
   4. Locate the eastern exit.
 
@@ -22,7 +22,7 @@
   1. Explore the western strip (Columns 0-1). [Current]
   2. Explore the northern land patch (Rows 2-3).
   3. Explore the eastern land patch (Rows 14-15).
-- Observation: Western strip is blocked by walls at (1, 15) and (2, 15). Access likely requires surfing around from the south.
+- Observation: Western strip is blocked by walls at (1, 15) and (2, 15). Access likely requires jumping down the ledge at (10, 16) to reach Row 17, then walking west.
 - Observation: Moon Stone found at (2, 6). [Turn 35981]
 
 ## Tile Mechanics (Global)
@@ -36,7 +36,7 @@
 - WATER: Traversable (requires SURF).
 - WHIRLPOOL: Impassable (requires WHIRLPOOL to clear).
 - WATERFALL: Impassable (requires WATERFALL to climb; Rising Badge required).
-- LEDGE/LEDGE_HOP_DOWN: One-way jump (South).
+- LEDGE/LEDGE_HOP_DOWN (FLOOR_UP_WALL): One-way jump (South).
 
 ## Pokemon Info
 - Party: XENON (Lv37 Haunter), GNEISS (Lv48 Graveler), Calcifer (Lv49 Typhlosion), Ouroboros (Lv15 Dratini), ICARUS (Lv16 Pidgey), LAPIS (Lv12 Poliwag).
