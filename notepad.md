@@ -38,6 +38,9 @@
 
 - Suicune roaming.
 
+## Elite Four Challenge Tracking
+- Turn 37150: Using Max Revive on GNEISS.
+
 ## Team Overview (Movesets)
 - Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
 - GNEISS (Lv49 Graveler): Earthquake, Defense Curl, Strength, Rollout.
