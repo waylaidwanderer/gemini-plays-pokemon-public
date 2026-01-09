@@ -15,10 +15,9 @@
 
 ## Strategy: Exit Ice Path (Start Turn 36156)
 - Plan:
-  1. Navigate B2F Blackthorn Side to ladder at (3, 15) leading to B1F. [Current]
-     - Path: (6, 1) -> (9, 1) -> (9, 3) -> (9, 4) (ICE) -> Slide Down to (9, 15) -> Slide Left to (3, 15).
-  2. Reach ladder at (5, 25) on B1F leading to 1F South.
-  3. Exit Ice Path at (36, 27) on 1F.
+  1. Navigate B2F Blackthorn Side to ladder at (3, 15) leading to B1F. [Completed Turn 36330]
+  2. Navigate B1F to ladder at (3, 15) leading to 1F North. [Current]
+  3. Exit Ice Path at (36, 27) on 1F to Blackthorn City (36, 9).
   4. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Items Collected
@@ -34,6 +33,7 @@
 - WATER: Traversable (requires SURF).
 - WATERFALL: Impassable (requires WATERFALL).
 - LEDGE: Impassable from the "low" side. Jumpable from the "high" side. In Ice Path, sliding into a ledge from the high side triggers a jump.
+- FLOOR_UP_WALL: Impassable from the south/below. Functions as a wall in this direction. [Verified Turn 36314]
 - COUNTER: Impassable; interactable from front.
 - LADDER: Warp to another floor/map. Stepping onto it triggers the warp immediately.
 - WARP_CARPET_DOWN: Exit/warp to another map.
