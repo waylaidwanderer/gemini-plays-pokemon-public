@@ -51,3 +51,4 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder WAVE, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
+- Turn 37197: GNEISS revitalized (70/141 HP). Clearing message.
