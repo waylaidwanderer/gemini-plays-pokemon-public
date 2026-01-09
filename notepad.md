@@ -1,4 +1,10 @@
 # Elite Four Challenge (Started Turn 36866)
+- Will: Defeated (Turn 36890)
+- Koga: Defeated (Turn 36928)
+- Bruno: Defeated (Turn 37019)
+- Karen: Defeated (Turn 37104)
+- Lance: In Progress (Started Turn 37104)
+
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Dragonite (Lv47).
 - Status: Healthy.
