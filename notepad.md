@@ -14,8 +14,12 @@
   3. Use Waterfall to climb the falls in Tohjo Falls. [Completed]
   4. Locate the eastern exit of Tohjo Falls. [Completed]
   5. Exit Tohjo Falls at (25, 15). [Completed]
-  6. Navigate Route 27 East to Route 26. [Current]
+  6. Navigate Route 27 East to Route 26. [In Progress]
+    - 6a. Explore house at (33, 7). [Current]
   7. Navigate Route 26 North to Victory Road. [Next]
+
+## Time Tracking
+- Route 27 Navigation: Started Turn 36404.
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
