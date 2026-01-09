@@ -38,3 +38,5 @@
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
+- **Event:** Gaven called immediately after Repel application. Dismissed.
+- **Status:** Super Repel confirmed active. Resuming hunt routine from current position (7, 3).
