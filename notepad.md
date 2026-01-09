@@ -54,3 +54,9 @@
 - Failed attempts to teach Whirlpool (Turn 35318, 35319, 35331) resulted in a position loop at (12, 21).
 - Decision: Move north to (12, 17) to break the loop and approach the BUOY barrier gap at Y=11.
 - Plan: Teach HM06 Whirlpool to Ravioli (KRABBY) after moving.
+## Strategy Update: Finding the Dragon Shrine [Turn 35333]
+- Observation: Player is currently inside a "pen" of BUOYs (X=11, Y=16, Y=23).
+- Exit found: The BUOY line at Y=16 ends at X=15. X=16 is clear WATER.
+- Path: (12, 17) -> (16, 17) -> (16, 11) -> (19, 11) -> (19, 9).
+- Goal: Reach the building at (19, 9), which is the likely Dragon Shrine.
+- Ravioli still needs to learn Whirlpool (HM06) to handle obstacles like the one at (10, 20).
