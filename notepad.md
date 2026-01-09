@@ -6,25 +6,8 @@
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
-## Strategy: Swap KIMCHI for LAPIS (Surf User)
-- Objective: Replace KIMCHI (GLOOM) with LAPIS (POLIWAG) to gain SURF/WHIRLPOOL capability.
-- Current Location: Route 27 (Surfing).
-- Steps:
-  1. Deposit KIMCHI into Bill's PC. [Done]
-  2. Withdraw LAPIS from Box 1. [Done]
-  3. Exit Pokecenter and Fly to New Bark Town. [Done]
-  4. Surf east to Route 27. [Done]
-
-## Strategy: Reach Route 27
-- Objective: Travel from New Bark Town to Route 27 to begin the trek to Kanto.
-- Requirements: Pokémon with SURF (LAPIS has it).
-- Steps:
-  1. Fly to New Bark Town. [Done]
-  2. Stand on the water's edge at the east side of town. [Done]
-  3. Use SURF to enter the water. [Done]
-  4. Navigate east past the map boundary. [Done]
-
 ## Strategy: Explore Route 27 and Reach Tohjo Falls
+- Start Turn: 35918
 - Objective: Navigate east through Route 27 to reach Tohjo Falls, the gateway to Kanto.
 - Requirements: Pokémon with SURF (LAPIS) and WHIRLPOOL.
 - Steps:
@@ -32,6 +15,15 @@
   2. Interact with NPCs (Fisher at 21, 10) for information or battles.
   3. Locate the entrance to Tohjo Falls.
   4. Use Whirlpool to clear any obstacles if necessary.
+
+## Strategy: Navigate Tohjo Falls
+- Start Turn: 35968
+- Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
+- Requirements: SURF and WATERFALL (Rising Badge allows use).
+- Steps:
+  1. Use Surf to cross the water.
+  2. Use Waterfall to climb the falls.
+  3. Locate the eastern exit.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -43,44 +35,20 @@
 - GRASS: Traversable; triggers encounters.
 - WATER: Traversable (requires SURF).
 - WHIRLPOOL: Impassable (requires WHIRLPOOL to clear).
+- WATERFALL: Impassable (requires WATERFALL to climb; Rising Badge required).
 - LEDGE/LEDGE_HOP_DOWN: One-way jump (South).
-
-## Game Mechanics: FLY Map
-- Navigation: Pressing 'Down' cycles through visited locations in a predetermined list order.
-- Outdoor Use Only: FLY can only be used when the player is outdoors.
-
-## Area Mechanics: National Park (Bug-Catching Contest)
-- Timing: Thursday only. 20-minute time limit.
-- Rules: 20 Park Balls provided. Only the lead Pokémon participates.
-- Retention: Only the last Pokémon caught is kept.
-- Thursday Contest Result: Lv14 Scyther (100% HP), 331 points, 2nd place (Everstone). Winner: Butterfree (346 points).
-
-## Contest Scoring Criteria
-- Formula: Level + (Remaining HP / Max HP) * 100 + Base Stat Total factor.
-- Tiers: Scyther and Pinsir are top tier. Higher level and full HP are best.
-- Winning: 1st place typically requires 300-350+ points.
-
-## Lessons Learned
-- Dragon Shrine Entrance: South side (19, 29).
-- Fly: Use 'Down' to cycle cities.
-- **Move Compatibility (CRITICAL):**
-  - XENON (Haunter), Calcifer (Typhlosion), Ouroboros (Dratini) CANNOT learn TM33 Ice Punch.
-  - Verified in-game; ignore external advice.
-- **Elm's Lab PC (3, 5):** Contains research notes ("OBSERVATIONS ON POKéMON EVOLUTION"); no storage access.
-- **Menu Verification:** Always cross-reference "Current Screen Text" and "Text History" before executing menu navigation.
-- **Nicknaming:** Successfully nicknamed the contest Scyther "GLAIVE". [Turn 35852]
 
 ## Pokemon Info
 ### In Party
 - XENON (HAUNTER): Lv37. Night Shade, Hypnosis, Confuse Ray.
 - GNEISS (GRAVELER): Lv48. Strength, Earthquake, Rollout.
 - Calcifer (TYPHLOSION): Lv49. Flame Wheel, Thunderpunch, Return.
-- Ouroboros (DRATINI): Lv15. ExtremeSpeed (Gift).
+- Ouroboros (DRATINI): Lv15. ExtremeSpeed.
 - ICARUS (PIDGEY): Lv16. Fly.
 - LAPIS (POLIWAG): Lv12. Surf, Whirlpool.
 
 ### In PC (Box 1)
-- GLAIVE (SCYTHER): Lv14. (Contest Catch)
+- GLAIVE (SCYTHER): Lv14.
 - SELKIE (SEEL): Lv24.
 - DELTA (MANTINE): Lv20.
 - RANGOON (KRABBY): Lv22.
@@ -88,5 +56,20 @@
 - Ravioli (KRABBY): Lv10. Surf, Whirlpool.
 - KIMCHI (GLOOM): Lv34. Flash, Acid, Cut.
 
+## Lessons Learned
+- Dragon Shrine Entrance: South side (19, 29).
+- Fly: Use 'Down' to cycle cities.
+- **Move Compatibility (CRITICAL):**
+  - XENON (Haunter), Calcifer (Typhlosion), Ouroboros (Dratini) CANNOT learn TM33 Ice Punch.
+- **Elm's Lab PC (3, 5):** Research notes only; no storage access.
+- **Menu Verification:** Always cross-reference "Current Screen Text" and "Text History".
+- **Rising Badge:** Allows use of HM07 Waterfall outside battle (Johto Badge 8).
+
+## Contest Scoring Criteria
+- Formula: Level + (Remaining HP / Max HP) * 100 + Base Stat Total factor.
+- Tiers: Scyther and Pinsir are top tier. Higher level and full HP are best.
+- Winning: 1st place typically requires 300-350+ points.
+
 ## Battle Strategies
-- Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade (deals damage equal to user level). Catching at full HP is prioritized.
+- Wild Battles: Running is prioritized for efficiency.
+- Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade. Catching at full HP is prioritized.
