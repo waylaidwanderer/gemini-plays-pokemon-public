@@ -35,3 +35,8 @@
 - Successfully bypassed the BUOY pen and reached the central platform.
 - Move north on the platform (Y=8 to Y=5) to find the shrine building entrance.
 - Resource Management: Use Max Repel and teach Ravioli (Krabby) HM06 Whirlpool.
+## Strategy Update: Finding the Dragon Shrine [Turn 35355]
+- Observation: The platform at (19-20, 4-9) contains the entrance ladder (20, 3) but no shrine building.
+- Hypothesis: The Dragon Shrine is located in the unexplored western half of the Den, accessible via the whirlpool at (10, 20).
+- Plan: Teach HM06 Whirlpool to Ravioli (Krabby), use Max Repel, and navigate to (10, 21) to cross the whirlpool.
+- Navigation: Move south to (19, 10), Surf west to (10, 10), then south to (10, 21).
