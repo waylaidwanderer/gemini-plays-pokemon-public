@@ -1,17 +1,17 @@
-# Johto Elite Four Challenge
+# Johto Elite Four Challenge - Final Showdown
 - Victories: Will, Koga, Bruno, Karen
 
-## Champion Lance Battle
+## Champion Lance Battle Strategy
 - Opponent: Champion Lance (Final Boss)
 - Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon-type, Special).
-- Team Status: Ouroboros (20/40 HP) active. LAPIS (16/32 HP) healthy. Others fainted.
-- Resources: 3 Revives. 0 Potions/Restores. (Turn 37220).
+- Current Lead: LAPIS (Lv12, 16/32 HP). All others fainted.
+- Resources: 3 Revives. 0 Potions/Restores. (Verified Turn 37221).
 
-## Strategy vs Dragonite #3
-- Outrage is Special. GNEISS has low Sp.Def (74).
-- Calcifer has better Sp.Def (120) and can survive one Outrage hit after a Revive.
-- Plan: Revive Calcifer (Lv54). Use Thunderpunch (2x Super Effective).
-- Target: Land two Thunderpunches to win.
+## Tactical Plan
+- GNEISS (Lv50) has ROLLOUT (2x Super Effective) but low Sp.Def (74).
+- Calcifer (Lv54) has Thunderpunch (2x Super Effective) and high Sp.Def (120).
+- Strategy: Revive Calcifer while Dragonite is locked into Outrage. Calcifer is more likely to survive a special attack and has a speed advantage (140).
+- Target: Land enough Thunderpunches to win before Revives run out.
 
 ## Persistence Knowledge
 ### Type Effectiveness
