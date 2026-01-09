@@ -27,3 +27,4 @@
 - WALL/OBSTACLES: Impassable.
 - WARP_CARPET: Transition.
 - WATER: Surfable.
+- **Phone Call (Turn 29598):** Wade (Route 31) found Berries.
