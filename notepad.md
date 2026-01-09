@@ -37,8 +37,8 @@
 - **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
 - **Status:** Super Repel Active.
-- **Action:** Handling phone call from Wade on map transition.
-- **Event:** Wade called on transition to Rt 37 (Cycle 85).
+- **Action:** Resuming hunt after Wade's call.
+- **Event:** Call finished.
 - **Current Goal:** Blind Hunt Loop (Cycle #85).
 - **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
 - **Status:** Moving south to Route 37 grass.
