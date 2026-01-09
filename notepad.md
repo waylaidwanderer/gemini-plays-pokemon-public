@@ -3,6 +3,7 @@
 - **Tool Insight:** `navigate_menu` requires `hold_ms` >= 300 for Fly Map.
 - **Efficiency:** Super Repels (2.5 ¥/step) are cheaper than Max Repels (2.8 ¥/step).
 - **Mechanics:** Phone calls can occur on map transitions.
+- **Fly Map Mechanics:** Vertical movement (Up/Down) is often more reliable than Left/Right for traversing regions. Cursor movement can be granular/slow.
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
@@ -19,7 +20,7 @@
 # Current Strategy
 ## Objectives
 - **Primary:** Complete Pokedex.
-- **Secondary:** Check PC for TM08 (Rock Smash). Not in bag/party.
+- **Secondary:** Buy TM08 (Rock Smash) at Goldenrod Dept Store 5F.
 - **Tertiary:** Resume Roaming Beast Hunt.
 
 ## Exploration Queue
@@ -29,57 +30,9 @@
 
 ## Missing Items
 - **TM08 Rock Smash:** Critical for map access (e.g. Ruins of Alph, Dark Cave).
-- **Observation:** Route 36 NPC dialogue implied giving TM08 ("That happens to be ROCK SMASH"), but no "Obtained TM08" text was seen in history.
-- **Hypothesis:** TM08 was obtained previously and stored in PC, or used and lost. Checking PC now.
-- **Verification:** Verified TM08 is NOT in Bag, Party, or PC Boxes 1-3. Currently checking PC Item Storage.
-- **Critical Update:** TM08 Rock Smash is NOT in PC, Bag, or Party.
-- **Analysis:** NPC dialogue on Route 36 implies he already gave it. Verified not in storage. Likely used or tossed.
-- **Solution:** In Pokemon Crystal, TM08 is purchasable at Goldenrod Dept Store 5F.
-- **Plan:** Fly to Goldenrod -> Buy TM08 -> Return to Ecruteak for Hunt.
-- **Fly Map Behavior:** Cursor observed starting at New Bark Town when opened from Olivine City (instead of current location). Always verify start point before navigating.
-- **Fly Map Logic:** 'Down' from New Bark Town leads to Silver Cave (verified by text). Visuals may lag.
-- **Current Status:** Text says Silver Cave. Visuals say New Bark Town. Conflict detected.
-- **Resolution:** Assuming Text is accurate (Silver Cave). Moving West (Left) is the correct play for either location to reach Goldenrod.
-- **Plan:** Execute Left x5 to traverse West.
-- **Menu Navigation:** Start -> Pokemon -> Mistral (Slot 4) -> Fly.
+- **Status:** At Goldenrod Dept Store 5F to purchase.
+- **Logic:** NPC dialogue on Route 36 implied he already gave it. Verified not in storage. Likely used or tossed. Purchasable here.
 
-# Session Timestamp: Turn 29960
-- **Reflection:** Reviewing navigation failures. Focusing on strict verification of cursor positions before confirming actions.
-- **Cursor Memory:** Confirmed: Party Menu cursor remembers last position (Mistral). Sub-menu cursor likely also remembers. Verify before acting.
-- **Immediate Task:** Enter Party Menu and identify cursor location.
-- **Fly Map Logic:** 'Left' x3 from Silver Cave leads to Ecruteak City (Verified visually). Next: 'Down' to Goldenrod.
-- **Fly Map Correction:** 'Down' from Silver Cave (or failed previous move) led to Blackthorn City.
-- **Current Location:** Blackthorn City.
-- **Path to Goldenrod:** Blackthorn -> Left -> Mahogany -> Left -> Ecruteak -> Down -> Goldenrod.
-- **Fly Map Movement:** 3x Left from Silver Cave only reached Blackthorn. Cursor movement appears granular or sticky, not 1-click-per-city.
-- **Hypothesis:** Reaching Ecruteak from Blackthorn requires multiple Left inputs (approx 3-6).
-- **Plan:** Execute Left x3 to reach Mahogany/Ecruteak area. Verify location before heading South to Goldenrod.
-- **Fly Map Logic:** Confirmed 3x Left (with hold) moves approx 1 city distance (Silver Cave -> Blackthorn).
-- **Next Step:** Execute 3x Left to reach Mahogany Town. Then 3x Left to Ecruteak. Then Down to Goldenrod.
-- **Fly Map Logic:** Distance Blackthorn -> Mahogany is > 3x Left (400ms). Continuing Westward movement.
-- **Current Target:** Reach Mahogany or Ecruteak, then proceed South to Goldenrod.
-- **Fly Map Logic:** 4x Left (400ms) from Blackthorn was insufficient to change selection. Mountain range likely requires significant travel time.
-- **Plan:** Execute 8x Left to force traversal to Mahogany/Ecruteak.
-- **State Mismatch:** Text says Fly Map is open (Blackthorn), but visuals show New Bark Town. 8x Left failed to change text.
-- **Action:** Executing hard reset of Fly Map (B -> A) to resync state and cursor.
-- **Goal:** Verify if map opens and resets to New Bark Town.
-- **Fly Map Anomaly:** Cursor stuck on 'Silver Cave' text despite visual scrolling West.
-- **Hypothesis:** Massive distance between Silver Cave and Johto mainland requires sustained input.
-- **Action:** Executing Left x8 to brute-force cross the gap.
-- **Fly Map Glitch:** Cursor stuck on 'Silver Cave' text despite 'Left' inputs.
-- **Action:** Performing full menu reset (Back to Overworld -> Re-enter Fly) to clear UI state.
-- **Target:** Re-open Fly map from fresh state to ensure cursor starts at New Bark Town.
-- **Location Confirmed:** 'Down' from New Bark Town changed text to 'Silver Cave'. Logic holds.
-- **Current Location:** Silver Cave.
-- **Goal:** Traverse West to Goldenrod.
-- **Action:** Execute Left x5 to leave Silver Cave area.
-- **Analysis:** Text "Silver Cave" updated on 'Down' input (Turn 29983), suggesting Internal State IS Silver Cave (visuals desynced).
-- **Traversal Logic:** Previous tests suggest ~4 Lefts per city. 5 Lefts executed so far. Estimated position: Between Blackthorn and Mahogany.
-- **Action:** Continue West. Execute Left x5 again to reach Ecruteak/Olivine area.
-- **Goal:** Reach Western Johto (Internal State) to align with Visuals.
-- **Map Diagnosis:** 'Left' from Silver Cave appears ineffective or slow. 'Down' from New Bark led to Silver Cave.
-- **New Hypothesis:** Vertical movement (Up) might be more reliable to escape Silver Cave (East Edge).
-- **Plan:** Execute Up x5 to reach Blackthorn/Indigo Plateau area. Then traverse West.
-- **Fly Map Success:** Executed Up x5. Text updated to 'Goldenrod City'.
-- **Conclusion:** Vertical movement successfully navigated from the 'Silver Cave' internal state to Goldenrod.
-- **Action:** Confirming Flight to Goldenrod City.
+## Session Information
+- **Current Location:** Goldenrod Dept Store 5F.
+- **Goal:** Speak to Clerk (8, 5) to buy TM08.
