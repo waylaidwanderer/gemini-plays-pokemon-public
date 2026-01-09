@@ -13,7 +13,7 @@
 - **Inventory:** 7 Super Repels active (approx 5/200 steps used).
 - **Objective:** Roaming Beast Hunt (Raikou/Entei).
 - **Strategy:** Route 37 <-> Ecruteak loop with Repel Trick (Lead: Gyarados Lv 36).
-- **Current Action:** In Ecruteak (18, 35). Heading South to Route 37 for pass #22.
+- **Current Action:** In Ecruteak (18, 35). Heading South to Route 37 for pass #22. Retrying after Wade's call.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles.
   - **Ecruteak City:** Northern edges and Barrier Station area (27, 11).
