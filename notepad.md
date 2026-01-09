@@ -34,3 +34,10 @@
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Requires HM06 to cross. Reloads on map re-entry.
+## League Analyst Advice [Turn 35446]
+- Team Evaluation: Top-heavy. Typhlosion (49) and Graveler (48) are ready, others are weak.
+- Risks: Will (Psychic) vs. Haunter (Poison). Lance (Dragon) vs. lack of Ice moves.
+- Recommendations:
+  - Level support Pokémon to 40+.
+  - Teach Ice Punch to Typhlosion (buy in Goldenrod).
+  - Consider replacing HM slaves with higher-level Pokémon from Victory Road (e.g., Ursaring, Donphan).
