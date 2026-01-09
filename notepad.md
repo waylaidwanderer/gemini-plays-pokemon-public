@@ -1,8 +1,11 @@
 # Johto Journey - Final Phase
 
 ## Victory Road (1F/2F/3F)
-- **Status:** Rival Malice defeated (Turn 36780). Exploring northern section.
-- **Goal:** Reach Indigo Plateau via exit at (13, 5).
+- **Status:** COMPLETED. Reached Indigo Plateau.
+- **Goal:** Challenge the Elite Four.
+- **Indigo Plateau Arrivals:**
+  - Route 23 (16_1) (9, 5) -> Poké Center (16_2) (5, 13).
+  - Poké Center (16_2) (6, 13) -> Route 23 (16_1) (10, 5).
 - **Ladder Connections:**
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
@@ -12,13 +15,9 @@
   - Full Heal (15, 48)
   - HP UP (7, 38)
   - Full Restore (18, 29)
-- **Repel Status:** Max Repel used at Turn 36808. Lasts 250 steps.
+- **Repel Status:** Max Repel used at Turn 36808. Lasts 250 steps. Used ~35 steps.
 - **Turn 36816-36825:** BLUNDER - Wasted Full Restore on ICARUS and a Potion on XENON. Out of Potions.
-- **Turn 36804:** Performing maintenance.
-  - Step 1: Use MAX REPEL (Turn 36808).
-  - Step 2: Revive Ouroboros (Done).
-  - Step 3: Heal GNEISS (Team stable enough, out of Potions).
-  - Step 4: Move to (13, 31) to reach upper level.
+- **Turn 36830:** Reached Indigo Plateau. Team needs healing.
 
 ## Tile & Movement Mechanics
 - **Traversable:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE/LADDER (Warp).
