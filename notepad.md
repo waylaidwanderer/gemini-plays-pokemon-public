@@ -39,6 +39,7 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** In Ecruteak City (18, 35).
-- **Action:** Executing hunt routine to re-enter Route 37.
-- **Cycle:** Ecruteak -> Route 37 -> Grass -> Ecruteak.
+- **Status:** Searching Route 37 Grass.
+- **Action:** Running hunt routine.
+- **Goal:** Encounter Raikou or Entei.
+- **Note:** Super Repel is active (Turn 30115).
