@@ -34,6 +34,5 @@
 ## Session Information
 - **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
-- **Status:** Super Repel Active. Map Reset Cycle in progress.
-- **Observation:** Encountered Lv13 Pidgey despite "using" Super Repel with Lv36 lead. Conclusion: Repel application failed (input error).
-- **Correction:** Must verify "Repel effects applied" text or similar confirmation before exiting menu next time.
+- **Status:** Applying Super Repel (Attempt 3).
+- **Correction:** Selected wrong item (likely Berry). Backing out to select Super Repel.
