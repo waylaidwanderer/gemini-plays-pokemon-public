@@ -38,3 +38,5 @@
 - **Gen 2 Mechanics:** 'Fly' option appears at the top of the Pokemon sub-menu if usable in the field.
 - **Correction:** Pokegear is for Map viewing only; Fly is a Party menu action.
 - **Fly Map Observation:** Cursor movement is granular (pixel-based). Requires holding the direction button (simulated by repeated inputs) to move effectively between cities. 'Left' from Violet to Ecruteak requires significant hold time.
+- **Hunt Strategy:** Moving south to Route 37 grass. Will apply Super Repel if encounters become frequent to filter for Lv40 Beasts.
+- **Map Connection:** Ecruteak (17, 35) leads directly South to Route 37.
