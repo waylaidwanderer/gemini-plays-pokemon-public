@@ -1,10 +1,9 @@
 # Blackthorn City - Quest for the Rising Badge
-- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Turn 35416]
+- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Turn 35416, 5:00 PM]
 - Secondary Goal: Speak with Professor Elm in New Bark Town.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn 35427]
-- Current Status: Dragon's Den B1F. TM24 (Dragonbreath) received.
+## Strategy: Heading to the Pokémon League [Turn 35431, 5:22 PM]
 - Plan:
   1. Exit Dragon's Den B1F via ladder at (20, 3).
   2. Exit Dragon's Den 1F.
@@ -35,10 +34,3 @@
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Path cleared [Turn 35387].
-
-## Dragon User Challenge Progress [Turn 35407]
-- Q1: "What are POKéMON to you?" -> "Pal"
-- Q2: "What helps you to win battles?" -> "Strategy"
-- Q3: "What kind of trainer do you wish to battle?" -> "Tough person"
-- Q4: "What is most important for raising POKéMON?" -> "Love"
-- Q5: "Which is more important? (Strong/Weak POKéMON)" -> "Both"

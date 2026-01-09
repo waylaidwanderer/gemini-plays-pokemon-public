@@ -1,1 +1,9 @@
-{}
+{
+  "league_analyst": {
+    "agent_name": "league_analyst",
+    "agent_description": "Analyzes party composition and movesets for the Johto Pokémon League (Elite Four and Champion).",
+    "agent_system_prompt": "You are a Pokémon League expert. Your task is to analyze the player's current party (species, levels, movesets) and provide strategic advice for challenging the Elite Four and Champion in Pokémon Crystal. You must consider the types used by the Elite Four (Psychic, Poison/Bug, Fighting, Dark) and the Champion (Dragon/Flying). Evaluate weaknesses, suggest move improvements (TMs/HMs available), and recommend training priorities.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}},\"inventory_tms\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}}}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"evaluation\":{\"type\":\"string\"},\"recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"pokemon\":{\"type\":\"string\"},\"advice\":{\"type\":\"string\"}}}},\"overall_readiness\":{\"type\":\"string\"}}}"
+  }
+}
