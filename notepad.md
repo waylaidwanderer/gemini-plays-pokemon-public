@@ -6,24 +6,24 @@
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
-## Strategy: Explore Route 27 and Reach Tohjo Falls
-- Start Turn: 35918
-- Objective: Navigate east through Route 27 to reach Tohjo Falls, the gateway to Kanto.
-- Requirements: Pokémon with SURF (LAPIS) and WHIRLPOOL.
-- Steps:
-  1. Navigate around rock islands by using land patches.
-  2. Interact with NPCs (Fisher at 21, 10) for information or battles.
-  3. Locate the entrance to Tohjo Falls.
-  4. Use Whirlpool to clear any obstacles if necessary.
-
 ## Strategy: Navigate Tohjo Falls
 - Start Turn: 35968
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
-  1. Use Surf to cross the water.
-  2. Use Waterfall to climb the falls.
-  3. Locate the eastern exit.
+  1. Use Surf to cross the water. [Done]
+  2. Search for HM07 Waterfall on land patches.
+  3. Use Waterfall to climb the falls.
+  4. Locate the eastern exit.
+
+## Strategy: Search for HM07 Waterfall
+- Hypothesis: HM07 is located on one of the land patches in Tohjo Falls.
+- Plan:
+  1. Explore the western strip (Columns 0-1). [Current]
+  2. Explore the northern land patch (Rows 2-3).
+  3. Explore the eastern land patch (Rows 14-15).
+- Observation: Western strip is blocked by walls at (1, 15) and (2, 15). Access likely requires surfing around from the south.
+- Observation: Moon Stone found at (2, 6). [Turn 35981]
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
