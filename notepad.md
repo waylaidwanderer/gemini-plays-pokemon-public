@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Exiting Mart.
+- **Status:** Handling Wade's Call.
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Shop closed. Leaving to Fly. Funds: ¥8772.
+- **Notes:** Wade called while leaving. Funds: ¥8772. Exiting after call.
