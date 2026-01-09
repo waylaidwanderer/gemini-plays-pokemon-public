@@ -47,3 +47,5 @@
 - Attempt 5 (Turn 37451): Failed. Menu opened at OPTION instead of POKEMON.
 - Strategy: Move to (5, 11) to clear tile warning, then perform swap carefully.
 - Attempt 6 (Turn 37454): Failed. Cursor stayed on Pokedex despite Down press. Menu was open.
+- Attempt 7 (Turn 37456): Planned. Using 'Up' spam to reset cursors in main menu and party menu. Note: ICARUS has FLY, so SWITCH is the 3rd option (Down x2).
+- HM Sub-menu logic: Each HM/TM move (like FLY, SURF, FLASH) adds an entry at the top of the Pokémon's sub-menu. ICARUS has one (FLY), so the order is: FLY, STATS, SWITCH, ITEM, CANCEL.
