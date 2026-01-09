@@ -5,9 +5,8 @@
 
 ## Strategy: Heading to the Pokémon League [Turn #35480]
 - Plan:
-  1. Pivot: Calcifer (Typhlosion) cannot learn Ice Punch. Need an alternative Ice-type solution. [Started Turn 35538]
-  2. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
-  3. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
+  1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
+  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480]
   5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
@@ -29,6 +28,7 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
+- **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal (Turn 35538). This differs from GS.
 
 ## League Analyst Advice [Turn 35458]
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
@@ -38,6 +38,5 @@
   - Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados or gift Dratini).
   - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
   - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
-  - Strategy: Buy TM33 Ice Punch in Goldenrod for Typhlosion.
 - Training Goal: Level all active party members (especially Xenon) to 45+ for the Pokémon League.
 - Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts (Suicune, Raikou, Entei).
