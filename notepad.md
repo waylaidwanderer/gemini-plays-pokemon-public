@@ -8,12 +8,11 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Fly Map Destination: Ecruteak City. Confirming Fly.
+- **Status:** Arrived in Ecruteak. Moving to South Exit (Route 37) to start Hunt Loop.
 - **Next Steps:**
-  1. Arrive Ecruteak.
-  2. Switch lead to Gyarados (Lv 36) or Quilava (Lv 29) to utilize Repel trick (Repel blocks < Leader Lv. Beasts are Lv 40. Rt 37 Wilds are ~16. Need Leader 17-39).
-  3. Use Super Repel.
-  4. Hunt on Rt 37.
+  1. Walk to South Exit (18, 35).
+  2. Use Super Repel.
+  3. Start `execute_hunt_routine` (Route 37 <-> Ecruteak).
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
