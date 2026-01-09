@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29112)
-- Status: In Pokedex List. Scrolled UP by mistake.
-- Action: Scrolling DOWN (x8) to reach ~#238.
+# Reflection (Turn 29113)
+- Status: In Pokedex List. Currently at ~#155.
+- Action: Pressing Right x3 to fast-scroll towards #238 (Raikou).
 - Goal: Verify if Raikou (#238) / Entei (#239) are 'Seen'.
-- Note: Max Repel active. Seen: 194. Owned: 45.
+- Note: Max Repel active. Seen: 194. Owned: 45. Fast scroll (~30/press) active.
