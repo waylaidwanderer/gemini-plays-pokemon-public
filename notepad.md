@@ -7,7 +7,7 @@
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
 ## Strategy: Navigate Tohjo Falls
-- Start Turn: 35968
+- Start Turn: 35972
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
@@ -15,6 +15,9 @@
   2. Search for HM07 Waterfall on land patches. [Current]
   3. Use Waterfall to climb the falls.
   4. Locate the eastern exit.
+
+## Tile Mechanics (Tohjo Falls specific)
+- Ledge (FLOOR_UP_WALL): Impassable from North at (10, 16) and (11, 16). Attempted jump 5 times.
 
 ## Strategy: Search for HM07 Waterfall
 - Hypothesis: HM07 is located on one of the land patches in Tohjo Falls.
