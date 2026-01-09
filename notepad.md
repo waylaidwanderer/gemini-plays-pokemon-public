@@ -40,3 +40,5 @@
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
 - **Status:** Super Repel confirmed active. Resuming hunt routine from current position (7, 3).
+- **Hunt Tool Issue:** `execute_hunt_routine` falls short of the Ecruteak exit by ~2 steps. Needs adjustment or manual finish.
+- **Action:** Manually exiting North to Ecruteak to complete the reset cycle.
