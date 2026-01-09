@@ -3,9 +3,10 @@
 - Requirement: Complete "Dragon User Challenge" in Dragon's Den.
 - Location: North of Blackthorn Gym.
 
-## Strategy: Dragon User Challenge [Turn 35415]
-- Status: Challenge completed. Answered Elder's questions.
-- Goal: Speak with Clair to receive the Rising Badge.
+## Strategy: Post-Badge Cleanup [Turn 35419]
+- Status: Rising Badge obtained.
+- Goal: Exit Dragon Shrine and find Clair in Dragon's Den to receive TM24.
+- Next Destination: New Bark Town to speak with Professor Elm.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile. Verfied.
