@@ -15,7 +15,7 @@
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
 - Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use XENON for status (Confuse Ray/Hypnosis). Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout to sweep the dragons.
+- Plan: Use XENON for status. Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep the dragons.
 - Inventory Check: No major healing items left. Must rely on Revives.
 - Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
 
@@ -27,12 +27,11 @@
 - Fire > Bug/Steel (4x), Grass/Ice.
 - Electric > Water/Flying.
 - Ghost > Psychic/Ghost. Immune to Fighting/Normal.
-- Poison > Grass. Weak to Psychic/Ground.
 - Ground > Fire/Electric/Poison/Rock/Steel. Immune to Electric.
 - **Note:** Elemental punches are Special (Gen 2). Ghost moves are Physical. Night Shade is fixed damage.
 
 ### Tile Mechanics
-- **FLOOR:** Traversable. Standard movement. (Verified on LancesRoom red carpet).
+- **FLOOR:** Traversable. (Verified on LancesRoom red carpet).
 - **WALL:** Impassable. (Verified on LancesRoom perimeter).
 - **WARP_CARPET:** Map transition. (Verified at map edges).
 
