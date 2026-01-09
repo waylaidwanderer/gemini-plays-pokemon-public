@@ -51,5 +51,6 @@
 - **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps.
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four.
 - **Items Found:**
-  - (15, 48): Poke Ball (ID 5)
+  - (15, 48): Full Heal (Collected)
   - (12, 48): Poke Ball (ID 3)
+  - (7, 38): Poke Ball (Spotted)
