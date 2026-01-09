@@ -1,19 +1,20 @@
 # Lessons Learned
 - **Tool Insight:** `navigate_menu` `hold_ms` is tricky. `Right` from Mahogany failed consistently.
+- **Tool Issue:** `slow_press` movement failed in Turn 29685 (Moved 1 tile instead of full sequence). Possible lag or input drop. Relying on `find_path_bfs` for movement.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 - **Fly Map Logic:**
   - `Violet -> Up` -> Ecruteak.
   - `Ecruteak -> Right` -> Mahogany.
   - `Mahogany -> Right` -> ??? (Failed).
-- **Current Strategy:** Cursor is stuck on Mahogany. Flying there is better than walking from Ecruteak. Will Surf/Walk East to Blackthorn from Mahogany.
+- **Current Strategy:** Talk to Granny in Mahogany Mart. Buy Max Repels if sold. Else, surf to Blackthorn.
 
 # Current Status
-- **Location:** Ecruteak City (Physically).
-- **Activity:** Flying to Mahogany Town.
-- **Time Started:** Turn 29679.
+- **Location:** Mahogany Mart.
+- **Activity:** Buying Repels.
+- **Time Started:** Turn 29682.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Objective:** Go to Blackthorn City (via Mahogany).
+- **Objective:** Talk to Granny.
 - **Repel Logic:** Lv 36 Lead + Repel blocks local wilds (Lv ~15) but allows Roamers (Lv 40).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
