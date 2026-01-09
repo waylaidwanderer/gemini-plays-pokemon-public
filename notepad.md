@@ -10,7 +10,8 @@
   - Route 27 West & Tohjo Falls. [Completed]
   - Explore house at (33, 7). [Completed]
   - Route 27 Bridge & Trainers. [In Progress]
-    - Battle Cooltrainer Reena at (72, 10). [Current]
+    - Battle Cooltrainer Reena at (72, 10). [Completed]
+    - Continue East towards Route 26. [Current]
   - Reach Route 26 Junction. [Next]
 
 ## Strategy: Bug-Catching Contest (Saturday)
