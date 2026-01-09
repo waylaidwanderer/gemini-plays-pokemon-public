@@ -42,3 +42,4 @@
 ## Legend of Ho-Oh and the Beasts
 - Ho-Oh revived Suicune, Entei, and Raikou after the Brass Tower fire 700 years ago.
 - Suicune is currently roaming Johto.
+- Turn 37043: Calcifer confused by Umbreon's Confuse Ray. Strategy: Switch to GNEISS to clear confusion and use physical moves. Turn count sync: Current turn is 37043.
