@@ -3,12 +3,12 @@
 - Secondary Goal: Speak with Professor Elm in New Bark Town.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn 35456, 5:37 PM]
+## Strategy: Heading to the Pokémon League [Turn #35464]
 - Plan:
-  1. Fly to New Bark Town and speak with Professor Elm. [Current Task]
-  2. Visit Goldenrod City to buy TM33 (Ice Punch) for Typhlosion.
-  3. Prepare team: Level Haunter (Xenon) and consider replacements for HM users.
-  4. Surf east from New Bark Town to reach the Pokémon League via Route 27 and Victory Road.
+  1. Speak with Professor Elm at the Lab to receive his gift. [Done: Master Ball received]
+  2. Visit Goldenrod City to buy TM33 (Ice Punch) for Typhlosion. [Current Task]
+  3. Prepare team: Level Haunter (XENON) and replace ICARUS/Ravioli with stronger members.
+  4. Surf east from New Bark Town to reach the Pokémon League.
 
 ## Tile Mechanics (Global)
 - FLOOR/CAVE: Standard traversable tile.
