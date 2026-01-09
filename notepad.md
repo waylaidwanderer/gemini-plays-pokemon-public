@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29103)
-- Status: In Ecruteak (17, 35). Menu open.
-- Action: Navigating to POKEDEX to check Raikou/Entei status.
-- Goal: Verify if Beasts are 'Seen'.
+# Reflection (Turn 29104)
+- Status: In Pokedex (Entry View).
+- Action: Pressing B to return to Pokedex List.
+- Goal: Scroll to Raikou/Entei numbers to check 'Seen' status.
 - Note: Max Repel active.
