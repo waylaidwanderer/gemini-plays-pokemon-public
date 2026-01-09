@@ -10,9 +10,10 @@
 
 ## Strategy for Champion Lance (The Wall)
 - **Problem:** Dragonites are bulky and hit hard with Outrage/Hyper Beam.
-- **Solution:** ICE PUNCH (4x Super Effective).
-- **Action:** Teach TM33 ICE PUNCH to Typhlosion (Calcifer) or Haunter (Xenon).
+- **Correction:** Calcifer (Typhlosion) and Xenon (Haunter) are NOT compatible with TM33 Ice Punch in Crystal.
 - **Action:** Purchase Full Restores/Max Potions and Revives at Indigo Plateau Mart.
+- **Alternative:** Consider catching a Jynx (Ice Path) or Lapras (Union Cave, Friday) for Ice coverage.
+- **Alternative:** Use Gneiss (Graveler) with Rollout/Rock moves against Flying types.
 
 ## Team Status & Preparation
 - Calcifer (Typhlosion, Lv54): Lead attacker. Needs Ice Punch.
