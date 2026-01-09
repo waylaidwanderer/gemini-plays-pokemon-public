@@ -13,9 +13,10 @@
 - **Inventory:** 7 Super Repels active (approx 20/200 steps used).
 - **Objective:** Clear unseen tiles on East Route 37, then resume Roaming Beast Hunt.
 - **Strategy:** Move East to reveal x>13, then return to grass loop.
-- **Current Action:** Moving to Route 36.
-- **Progress:** Explored East Route 37.
-- **Next Steps:** Enter Route 36, then decide on Sudowoodo or Ecruteak return.
+- **Current Action:** Pathing to Rock Smash Guy on Route 36.
+- **Progress:** Entered Route 36.
+- **Next Steps:** Get TM08, then return to Ecruteak.
+- **Missing Items:** TM08 Rock Smash (Critical for map access).
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles.
   - **Ecruteak City:** Northern edges and Barrier Station area (27, 11).
