@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28922)
-- **Status:** Interrupted by Gaven's phone call. Clearing text.
-- **Progress:** ~260 turns. No beasts yet.
-- **Hygiene:** Goals section removed (redundant).
+# Reflection (Turn 28925)
+- **Status:** Resuming hunt loop after phone call.
+- **Progress:** ~263 turns. No beasts yet.
+- **Hygiene:** Verified.
