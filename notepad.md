@@ -39,5 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** Map reset complete. Re-entering Route 37.
-- **Correction:** Previous tool issue report was a location hallucination; tool functioned correctly.
+- **Status:** In Ecruteak City (18, 35).
+- **Action:** Executing hunt routine to re-enter Route 37.
+- **Cycle:** Ecruteak -> Route 37 -> Grass -> Ecruteak.
