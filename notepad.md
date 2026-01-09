@@ -15,7 +15,8 @@
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Current Opponent:** Will (Psychic).
   - **Will's Roster:**
-    - Xatu (Lv40): Thunderpunch is super effective. (In progress)
+    - Xatu (Lv40): Defeated (Turn 36875).
+    - Slowbro (Lv41): Thunderpunch is super effective. (In progress)
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
