@@ -34,9 +34,9 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Ecruteak Mart.
+- **Current Location:** Ecruteak City (Outside Mart).
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Leaving Ecruteak Mart.
+- **Status:** Flying to Goldenrod.
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Call finished. Heading to Goldenrod Dept Store for Repels.
+- **Notes:** Exited Mart. Preparing to Fly. Funds: ¥8772.
