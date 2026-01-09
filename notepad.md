@@ -50,3 +50,6 @@
 - Attempt 7 (Turn 37456): Planned. Using 'Up' spam to reset cursors in main menu and party menu. Note: ICARUS has FLY, so SWITCH is the 3rd option (Down x2).
 - HM Sub-menu logic: Each HM/TM move (like FLY, SURF, FLASH) adds an entry at the top of the Pokémon's sub-menu. ICARUS has one (FLY), so the order is: FLY, STATS, SWITCH, ITEM, CANCEL.
 - Attempt 8 (Turn 37457): Planned. Sequence: Start, Down (to Pokemon), A, A (select Icarus), Down, Down (to Switch), A, Down, Down (to Calcifer), A, B, B, B. Using sleep 200 between actions.
+## Battle with Karen (Turn 37458)
+- Attempt 8 (Turn 37457): Failed. Triggered battle instead of swap. ICARUS is leading.
+- Strategy: Switch to Calcifer immediately. Beware of Umbreon's Sand-Attack and Confuse Ray.
