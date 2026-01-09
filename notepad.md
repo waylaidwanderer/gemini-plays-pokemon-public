@@ -5,9 +5,9 @@
 
 # Current Status
 - **Location:** Mahogany Mart.
-- **Activity:** Buying 10 Super Repels.
-- **Time Started:** Turn 29696.
-- **Objective:** Buy Repels -> Fly to Ecruteak -> Start Roamer Hunt.
+- **Activity:** Purchased 10 Super Repels (¥5000). Remaining: ~¥2200.
+- **Time Started:** Turn 29699.
+- **Objective:** Fly to Ecruteak -> Start Roamer Hunt on Route 37.
 
 # Current Status
 - **Location:** Mahogany Mart.
@@ -19,6 +19,7 @@
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
   - Ecruteak Mart: No Repels found (Standard inventory only).
+  - Mahogany Mart: Sells Super Repels (¥500). Bought 10.
 
 # Current Status
 - **Location:** Mahogany Mart.
