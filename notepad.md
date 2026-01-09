@@ -14,7 +14,6 @@
 - **Rival Battle:** Malice challenged at (12, 9). 
   - Defeated: Sneasel (Lv34), Feraligatr (Lv38). 
   - Current Opponent: Golbat (Lv36).
-  - Status: Ouroboros fainted. GNEISS (21/138 HP, confused). XENON (58/97 HP). Calcifer (52/161 HP).
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
