@@ -5,24 +5,20 @@
 - Karen: Defeated (Turn 37104)
 - Lance: In Progress (Started Turn 37104)
 
-## Champion Lance Battle (Started Turn 37104)
-- Current: Dragonite #2 (Lv47).
-- Status: Healthy.
-- Moves: Blizzard. (Dragonite #1 used Thunder, Twister, Hyper Beam).
+## Champion Lance Battle Tracking
+- Lead: ICARUS (Lv18).
+- Opponent: Dragonite #2 (Lv47). Moves: Blizzard.
 - Defeated: Gyarados (Lv44), Dragonite #1 (Lv47).
 - Remaining: Dragonite x1, Aerodactyl, Charizard.
+- Turn 37150: Used Max Revive on GNEISS.
+- Turn 37155: GNEISS fainted to Dragonite #2's Blizzard.
+- Turn 37158: Attempted Revive on GNEISS (Mis-clicked LAPIS). Correcting now.
 
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
 - Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep. Use fodder to revive key members.
-- Inventory Check: No major healing items. 10 Revives.
-- Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS.
-
-## Elite Four Challenge Tracking
-- Turn 37150: Used Max Revive on GNEISS.
-- Turn 37155: GNEISS fainted to Dragonite #2's Blizzard.
-- Turn 37157: ICARUS active. Using Revive on GNEISS.
+- Plan: Use Gneiss's Rollout to sweep. Use fodder (ICARUS, Ouroboros, LAPIS) to revive key members.
+- Inventory: 10 Revives. No healing items.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -47,4 +43,8 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- Turn 37158: Used Revive on GNEISS.
+
+## General Lessons
+- Menu Navigation: Cursor in party menu starts on the active Pokemon. Count positions carefully.
+- Move Selection: Moves are in a vertical list. Up/Down only.
+- Turn Numbers: Always verify the current turn count from Game State before use.
