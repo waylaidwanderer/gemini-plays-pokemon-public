@@ -40,8 +40,8 @@
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
 - **Current Cycle:** #65. Blind Hunt Loop.
-- **Note:** Wade's call interrupted Repel application. Retrying.
-- **Action:** Opening Pack to use Super Repel.
+- **Note:** Menu navigation error (Turn 30281). Correcting.
+- **Action:** Backing out of Options (B), navigating to Pack (Up x4), and opening it (A).
 - **Status:** Beasts unseen.
 - **Strategy Update:** Apply Repel -> Resume Hunt.
-- **Timestamp:** Turn 30281.
+- **Timestamp:** Turn 30282.
