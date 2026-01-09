@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29020)
-- Status: Repel wore off. Pausing to re-apply.
+# Reflection (Turn 29021)
+- Status: Entering Pack to find Max Repel.
 - Progress: ~360 turns. Hunt paused.
-- Strategy: Clear text, open menu, use Max Repel.
+- Strategy: Enter Pack, select Max Repel, Use, Exit.
