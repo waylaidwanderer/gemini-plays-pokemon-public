@@ -19,7 +19,8 @@
     - 6b. Continue East on Route 27. [In Progress]
       - Battle Psychic Gilbert on bridge. [Completed]
       - Battle Cooltrainer Brian on bridge. [Completed]
-      - Move East past the bridge. [Current]
+      - Battle Cooltrainer F at (72, 8). [Current]
+      - Move East past the bridge. [Next]
   7. Navigate Route 26 North to Victory Road. [Next]
 
 ## Time Tracking
