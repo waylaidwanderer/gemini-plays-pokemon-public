@@ -42,3 +42,10 @@
 ## Reflection & Error Log
 - **Turn 36795:** Menu sequence failed due to complexity. Lesson: Perform one menu task at a time or use very short sequences.
 - **Turn 36798:** Maintenance prioritized (Repel, Revive, Heal).
+## Indigo Plateau Poké Center (16_2)
+- **1F Layout:** Nurse Joy (3, 8), PC (7, 7), Ladder to 2F (0, 13).
+- **2F Layout (20_1):** Trade Center, Colosseum, Time Capsule. Ladder to 1F (0, 7).
+- **NPCs:**
+  - Jynx (0, 9) - 1F.
+  - Cooltrainer M (9, 13) - 1F.
+  - Gramps (1, 9) - 1F.
