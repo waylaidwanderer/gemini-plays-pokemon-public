@@ -6,13 +6,13 @@
 - Turn 36956: Battling Bruno (Fighting).
   - Hitmontop (Lv42): Defeated.
   - Hitmonlee (Lv42): Defeated.
-  - Onix (Lv43): Withdrawn (~60% HP).
   - Hitmonchan (Lv42): Defeated.
-  - Machamp (Lv46): Ace. Asleep (Turn 37002).
+  - Machamp (Lv46): Defeated.
+  - Onix (Lv43): Active (Full HP).
 
 ### Strategy vs Bruno
-- Machamp (Lv46): Use XENON (Hypnosis/Dream Eater).
-- Onix (Lv43): Use LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
+- Onix (Lv43): Use GNEISS (Earthquake). LAPIS is 4x effective but too low level.
+- Current Status: XENON is active (99/99 HP). Machamp just fainted. Bruno sent out Onix.
 
 ## Persistence Knowledge
 ### Type Effectiveness
