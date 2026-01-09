@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak City (Outside Mart).
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Navigating Fly Map (Retry).
+- **Status:** Navigating Fly Map (Cursor at New Bark).
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Previous nav failed (map loading?). Retrying Left x3 from New Bark Town.
+- **Notes:** Cursor stuck at New Bark Town. Using `navigate_menu` with hold to traverse West (Granular Cursor?).
