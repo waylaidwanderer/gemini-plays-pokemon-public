@@ -9,9 +9,9 @@
   2. Level XENON (Haunter) to 45+. Teach it TM33 Ice Punch. [Started Turn 35480]
      - Training: Use Route 45 or Route 27 (once accessible).
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
-     - Note: Maintain HM Surf/Whirlpool/Fly utility when swapping.
+     - Note: Maintain HM Surf/Whirlpool/Fly utility when swapping (e.g., Gyarados/Dratini for water HMs).
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480]
-     - How: Sun Stone (Bug Contest) or Leaf Stone (Gina on Route 34 phone gift).
+     - How: Sun Stone from Bug Contest (Tue/Thu/Sat) or Leaf Stone gift from Gina on Route 34.
   5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
 
 ## Tile Mechanics (Global)
