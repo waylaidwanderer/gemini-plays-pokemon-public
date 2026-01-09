@@ -9,6 +9,7 @@
 - **Roster Prediction:** Hitmontop (Lv42), Hitmonlee, Hitmonchan, Machamp, Onix.
 - **Observed Moves:**
   - Hitmontop: Dig (Ground), Quick Attack (Normal).
+  - Hitmonchan: Ice Punch (Special).
 - **Strategy:**
   - Fighting/Normal types: XENON (Ghost immunity). Note: Hitmontop has Dig (Ground).
   - Onix: LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
