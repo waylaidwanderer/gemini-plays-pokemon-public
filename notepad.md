@@ -7,25 +7,26 @@
   - Hitmontop (Lv42): Defeated.
   - Hitmonlee (Lv42): Defeated.
   - Onix (Lv43): Withdrawn (~60% HP).
-  - Hitmonchan (Lv42): Active (~60% HP). Used Fire Punch, Ice Punch.
-  - Machamp (Lv46): Ace. Has Foresight.
-  - Onix (Lv43): Withdrawn (~60% HP). Used Sandstorm.
-- Turn 36994: Sandstorm subsided. GNEISS (Lv49) is active. Strategy: Earthquake.
+  - Hitmonchan (Lv42): Defeated.
+  - Machamp (Lv46): Ace. Asleep (Turn 37002).
 
-## Battle Mechanics & Type Effectiveness
-- Psychic: Super effective vs Poison/Ghost/Fighting.
-- Water: 4x effective vs Rock/Ground.
-- Rock: Super effective vs Flying/Fire/Ice/Bug.
-- Fire: Super effective vs Bug/Steel/Grass/Ice.
-- Electric: Super effective vs Water/Flying.
-- Ghost: Immune to Fighting/Normal. Super effective vs Psychic/Ghost.
-- Poison: Weak to Psychic/Ground.
-- Ground: Immune to Electric. Super effective vs Fire/Electric/Poison/Rock/Steel.
-- **Note:** In Gen 2, elemental punches are Special. Ghost moves are Physical, but Night Shade is fixed damage.
+### Strategy vs Bruno
+- Machamp (Lv46): Use XENON (Hypnosis/Dream Eater).
+- Onix (Lv43): Use LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
 
-## Tile Mechanics
+## Persistence Knowledge
+### Type Effectiveness
+- Psychic > Poison/Ghost/Fighting.
+- Water > Rock/Ground (4x).
+- Rock > Flying/Fire/Ice/Bug.
+- Fire > Bug/Steel (4x), Grass/Ice.
+- Electric > Water/Flying.
+- Ghost > Psychic/Ghost. Immune to Fighting/Normal.
+- Poison > Grass. Weak to Psychic/Ground.
+- Ground > Fire/Electric/Poison/Rock/Steel. Immune to Electric.
+
+### Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
-- **GRASS:** Traversable; may trigger wild encounters.
 - **WALL / VOID / COUNTER:** Impassable.
 - **LEDGE:** One-way traversal (jump down).
 - **LADDER / WARP_CARPET:** Warp transitions between maps.
@@ -50,11 +51,3 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv17 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- Reflection (Turn 37000):
-  1. Immediate Execution: Updated strategy and notepad immediately upon new info.
-  2. Notepad Hygiene: Cleaned up redundant HP logs and transient data.
-  3. Map Hygiene: Bruno and warps are marked.
-  4. Automation: Custom tools (pathfinding, menu) are being used correctly.
-  5. Goal Clarity: Primary goal is the Elite Four.
-  6. Error Analysis: Improved menu navigation by tracking starting positions. Strategy vs Machamp relies on Ghost immunity.
-- Turn 37000: XENON (Lv39) vs Machamp (Lv46). Strategy: TBD by advisor.
