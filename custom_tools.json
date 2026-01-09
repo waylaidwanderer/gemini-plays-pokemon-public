@@ -207,5 +207,26 @@
         "action_counter": 19531
       }
     ]
+  },
+  "hunt_check_route37": {
+    "description": "Executes the grass checking routine on Route 37 starting from the north entrance (8,0). Walks down to grass (y=2), wiggles (Left/Right) to check for encounters, and returns north to the map transition point. Uses Super Repel logic (only Lv40 Beasts appear).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "wiggles": {
+          "type": "integer",
+          "default": 2,
+          "description": "Number of Left/Right wiggle pairs to perform."
+        }
+      }
+    },
+    "python_script": "import json\nwiggles = input_data.get('wiggles', 2)\nbuttons = [\"Down\", \"Down\"]\nfor _ in range(wiggles):\n    buttons.extend([\"Left\", \"Right\"])\nbuttons.extend([\"Up\", \"Up\", \"Up\"])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-09T21:53:26.630Z",
+        "action_counter": 30361
+      }
+    ]
   }
 }
