@@ -48,3 +48,4 @@
 - Battle Management: Switching resets stat drops and accuracy penalties.
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
 - Map Connectivity: Verify connectivity before committing to major backtracking (e.g., Ice Path B3F sides ARE connected).
+- Type Matchups: Psychic moves are extremely effective against XENON (Poison type). Switch to a bulky physical attacker like GNEISS to handle high-speed Psychic threats.
