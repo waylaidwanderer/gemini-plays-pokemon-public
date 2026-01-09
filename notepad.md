@@ -71,9 +71,22 @@
 - **Nicknaming:** Successfully nicknamed the contest Scyther "GLAIVE". [Turn 35852]
 
 ## Pokemon Info
+### In Party
+- XENON (HAUNTER): Lv37. Night Shade, Hypnosis, Confuse Ray.
+- GNEISS (GRAVELER): Lv48. Strength, Earthquake, Rollout.
+- Calcifer (TYPHLOSION): Lv49. Flame Wheel, Thunderpunch, Return.
 - Ouroboros (DRATINI): Lv15. ExtremeSpeed (Gift).
-- LAPIS (POLIWAG): Lv12. Has SURF and WHIRLPOOL.
-- Ravioli (KRABBY): Lv10. Has SURF and WHIRLPOOL.
+- ICARUS (PIDGEY): Lv16. Fly.
+- LAPIS (POLIWAG): Lv12. Surf, Whirlpool.
+
+### In PC (Box 1)
+- GLAIVE (SCYTHER): Lv14. (Contest Catch)
+- SELKIE (SEEL): Lv24.
+- DELTA (MANTINE): Lv20.
+- RANGOON (KRABBY): Lv22.
+- NOMURA (TENTACOOL): Lv17.
+- Ravioli (KRABBY): Lv10. Surf, Whirlpool.
+- KIMCHI (GLOOM): Lv34. Flash, Acid, Cut.
 
 ## Battle Strategies
 - Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade (deals damage equal to user level). Catching at full HP is prioritized.
