@@ -3,15 +3,12 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Goldenrod Dept Store 5F.
-- **Activity:** Exiting via Elevator to Blackthorn.
-- **Time Started:** Turn 29606.
+- **Location:** Goldenrod Dept Store 1F.
+- **Activity:** Exiting to City -> Fly to Blackthorn.
+- **Time Started:** Turn 29615.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party.
 - **Shopping Log:**
-  - 2F: Medicine, Standard Repel.
-  - 3F: Battle Items (X-Items).
-  - 4F: Vitamins.
-  - 5F: TMs (No Repels).
+  - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) unseen tiles. Investigate later.
