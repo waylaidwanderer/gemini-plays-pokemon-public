@@ -22,8 +22,8 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28962)
-- **Status:** Applying Max Repel.
-- **Action:** Using item and returning to overworld.
-- **Progress:** ~297 turns. Hunt resuming shortly.
+# Reflection (Turn 28963)
+- **Status:** Exiting menu after applying Repel.
+- **Action:** Pressing B to return to overworld.
+- **Progress:** ~297 turns. Hunt resuming.
 - **Hygiene:** Verified.
