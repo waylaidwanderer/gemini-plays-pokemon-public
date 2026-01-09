@@ -1,12 +1,14 @@
 # Johto Journey - Final Phase
 
 ## Victory Road (1F/2F/3F)
-- **Status:** COMPLETED. Reached Indigo Plateau. Re-entry at (9, 13) on Route 23.
-- **Repel Status:** Max Repel used at Turn 36808. Lasts 250 steps. Used ~35 steps.
+- Re-entry: Route 23 (9, 13).
+- **Repel Status:** Max Repel used at Turn 36808 (250 steps). Used ~35 steps.
 
 ## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Current Opponent:** Koga (Poison).
+  - **Koga's Roster:**
+    - Ariados (Lv40): Weak to Fire/Rock. (In progress)
   - **Strategy:**
     - Lead with XENON for status if needed, or GNEISS for Ground coverage.
     - Calcifer (Fire/Electric) is strong against Bug/Flying/Steel types.
