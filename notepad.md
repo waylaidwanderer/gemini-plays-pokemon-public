@@ -8,11 +8,11 @@
   - Hitmonlee (Lv42): Defeated.
   - Hitmonchan (Lv42): Defeated.
   - Machamp (Lv46): Defeated.
-  - Onix (Lv43): Active (Full HP).
+  - Onix (Lv43): Active (~60% HP). Used Sandstorm.
 
 ### Strategy vs Bruno
-- Onix (Lv43): Use GNEISS (Earthquake). LAPIS is 4x effective but too low level.
-- Current Status: XENON is active (99/99 HP). Machamp just fainted. Bruno sent out Onix.
+- Onix (Lv43): Use XENON (Hypnosis/Dream Eater) or GNEISS (Earthquake).
+- Current Status: XENON is active (99/99 HP). Bruno's Onix is back out (~60% HP). Strategy: Hypnosis to disable.
 
 ## Persistence Knowledge
 ### Type Effectiveness
