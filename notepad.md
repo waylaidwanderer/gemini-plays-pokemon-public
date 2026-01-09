@@ -43,3 +43,6 @@
 
 ## Battle Strategies
 - Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade (Lv37 damage). Night Shade deals damage equal to the user's level. Confuse Ray is a secondary option if Hypnosis misses. Catching at full HP is prioritized for higher contest scores.
+## Lessons Learned (Continued)
+- Menu Verification: Always cross-reference "Current Screen Text" and "Text History" before executing menu navigation. Misidentifying the active menu (e.g., assuming a nickname screen is open when in the overworld) leads to wasted turns and garbled inputs.
+- Nicknaming: Successfully nicknamed the contest Scyther "GLAIVE" via Bill's PC/Contest Helper interface. [Turn 35852]
