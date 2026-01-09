@@ -10,7 +10,7 @@
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
 - **Status:** Hunt Routine In Progress.
 - **Time Started:** Turn 29751.
-- **Inventory:** 8 Super Repels active (approx 155/200 steps used).
+- **Inventory:** 8 Super Repels active (approx 165/200 steps used).
 - **Objective:** Roaming Beast Hunt (Raikou/Entei).
 - **Strategy:** Route 37 <-> Ecruteak loop with Repel Trick (Lead: Gyarados Lv 36).
 - **Current Action:** On Route 37 (8, 0). Executing grass check pattern (Pass #19).
