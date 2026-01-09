@@ -11,8 +11,9 @@
   - Gramps (1, 9) - 1F.
   - Cooltrainer M (9, 13) - 1F.
 
-## Elite Four Strategy
+## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
+- **Current Opponent:** Will (Psychic).
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
@@ -44,8 +45,3 @@
   - Water: 4x effective vs Rock/Ground (GNEISS).
   - Rock (Rollout): Super effective vs Flying (Golbat).
 - **Strategic Note:** Switching resets confusion and stat drops.
-
-## Reflection & Error Log
-- **Turn 36795:** Menu sequence failed due to complexity. Lesson: Perform one menu task at a time or use very short sequences.
-- **Turn 36816-36825:** BLUNDER - Wasted Full Restore on ICARUS and a Potion on XENON. Out of Potions.
-- **Turn 36830:** Reached Indigo Plateau. Team needs healing. (Done Turn 36835)
