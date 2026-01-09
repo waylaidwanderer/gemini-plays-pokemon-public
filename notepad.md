@@ -1,5 +1,5 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` sends multiple inputs per command (simulating hold). DO NOT use for responsive menus like the Start Menu; it causes over-scrolling. Use `slow_press` for precise menu navigation.
+- **Tool Insight:** `navigate_menu` (holds) is REQUIRED for the Fly Map cursor movement. `slow_press` (taps) is ignored. Use `slow_press` for list menus (Party, Bag).
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
