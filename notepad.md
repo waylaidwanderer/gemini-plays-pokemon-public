@@ -3,12 +3,11 @@
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 - **Fly Map Logic:**
-  - `New Bark -> Left` -> Cherrygrove.
-  - `Cherrygrove -> Up` -> Violet.
   - `Violet -> Up` -> Ecruteak.
   - `Ecruteak -> Right` -> Mahogany.
-  - `Mahogany -> Right` -> Blackthorn (Target).
-- **Current Strategy:** From Mahogany, press Right to reach Blackthorn.
+  - `Mahogany -> Right` -> Blackthorn (Target - Retrying).
+  - Note: Previous `Up, Right, Right` from Violet ended at Mahogany, suggesting the second Right was ignored or invalid.
+- **Current Strategy:** From Mahogany, press Right again to reach Blackthorn.
 
 # Current Status
 - **Location:** Ecruteak City (Physically), Mahogany Town (Fly Map Cursor).
