@@ -3,7 +3,7 @@
 - Secondary Goal: Speak with Professor Elm in New Bark Town.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn 35431, 5:22 PM]
+## Strategy: Heading to the Pokémon League [Turn 35435, 5:24 PM]
 - Plan:
   1. Exit Dragon's Den B1F via ladder at (20, 3).
   2. Exit Dragon's Den 1F.
