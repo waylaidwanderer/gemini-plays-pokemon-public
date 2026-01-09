@@ -22,8 +22,8 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28961)
-- **Status:** Menu navigation error corrected. Cursor memory persisted.
-- **Action:** Exiting Trainer Card and navigating to Pack.
-- **Progress:** ~297 turns. Hunt paused for Repel.
+# Reflection (Turn 28962)
+- **Status:** Applying Max Repel.
+- **Action:** Using item and returning to overworld.
+- **Progress:** ~297 turns. Hunt resuming shortly.
 - **Hygiene:** Verified.
