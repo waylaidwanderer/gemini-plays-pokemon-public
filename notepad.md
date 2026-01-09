@@ -3,10 +3,10 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Goldenrod Dept Store 1F.
-- **Activity:** Exiting to City -> Fly to Blackthorn.
-- **Time Started:** Turn 29615.
-- **Party:** Gyarados (Lv 36) Lead. Lugia in party.
+- **Location:** Goldenrod City.
+- **Activity:** Flying to Blackthorn City (Target: Mart for Max Repels).
+- **Time Started:** Turn 29617.
+- **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
