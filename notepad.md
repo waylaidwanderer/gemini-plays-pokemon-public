@@ -34,3 +34,18 @@
 - Move west to (19, 10).
 - Move north to (19, 9) to land on the platform.
 - Explore north on the platform to find the shrine entrance.
+## Tile Mechanics
+- FLOOR/CAVE: Standard traversable tile.
+- WALL: Impassable boundary.
+- WATER: Traversable while Surfing.
+- BUOY: Impassable water barrier. Line at X=15 (Y=12-16) and Y=16 (X=11-15).
+- WHIRLPOOL: Requires HM06 to cross. Confirmed at (10, 20).
+- HEADBUTT_TREE: Impassable boundary.
+- LADDER: Warp between floors/sections.
+
+## Lessons Learned
+- Clair's Badge: Requires extra trial in Dragon's Den.
+- NPC Interaction: Counter tiles and NPCs act as barriers.
+- BUOY Barrier: Blocks movement; find gaps or navigate around.
+- Menu Navigation: Be precise with offsets; Repels and TMs are in specific pockets.
+- Wild Encounters: Magikarp and Dratini are common in Dragon's Den water. Use Repels to avoid interruptions.
