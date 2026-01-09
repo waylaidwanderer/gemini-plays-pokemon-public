@@ -6,14 +6,14 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Wore off at Turn 36784. Need to re-apply.
+- **Repel Status:** Max Repel used at Turn 36790. Lasts 250 steps.
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
 - **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton.
-- **Navigation Plan:** Use ladder at (17, 19) to reach (17, 33). Then walk to (18, 29) to collect the item. Finally, exit via (13, 5).
-- **Item Spotted:** Poke Ball (ID 4) at (18, 29) on a high ledge.
+- **Navigation Plan:** Take ladder at (17, 33) to return to (17, 19). Then navigate to exit at (13, 5).
+- **Item Collected:** Full Restore at (18, 29).
 
 ## Tile & Movement Mechanics
 - **Traversability:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE (Warp), LADDER (Warp) are traversable. WALL, PC, COUNTER are impassable.
