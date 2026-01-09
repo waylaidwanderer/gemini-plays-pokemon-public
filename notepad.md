@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29126)
-- Status: In Ecruteak (18, 35). Game State indicates I am here, despite previous turn's warp note.
-- Action: Calling execute_hunt_routine to force transition to Route 37.
+# Reflection (Turn 29127)
+- Status: On Route 37 (8, 0). Confirmed location.
+- Action: Executing hunt routine (Grass check -> Return to Ecruteak).
 - Strategy: Loop execute_hunt_routine.
-- Note: Max Repel active. Possible state desync detected; trusting Game State.
+- Note: Max Repel active. Blind Hunt continuing.
