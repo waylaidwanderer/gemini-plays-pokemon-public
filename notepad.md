@@ -4,7 +4,7 @@
 
 # Current Status
 - **Location:** Ecruteak Mart. Selling items for funds.
-- **Activity:** Selling Revives (keep ~5) to buy Max Repels & Ultra Balls.
+- **Activity:** Selling 7 Revives to buy 10 Max Repels.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
 - **Note:** Spinarak encounter confirmed Repel was not active.
