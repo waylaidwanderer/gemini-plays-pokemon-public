@@ -46,3 +46,7 @@
 - Plan: Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout if possible. Use XENON for Hypnosis/Night Shade.
 - Inventory Check: No major healing items left. Must rely on Revives.
 - Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
+## Tile Mechanics
+- **FLOOR:** Traversable. Standard movement. (Verified on LancesRoom red carpet).
+- **WALL:** Impassable. (Verified on LancesRoom perimeter).
+- **WARP_CARPET:** Map transition. (Verified at map edges).
