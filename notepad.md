@@ -7,6 +7,7 @@
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None (Repel wore off). Applying last Max Repel.
+- **Restock Needed:** Buying Max Repels is high priority after this one expires.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
