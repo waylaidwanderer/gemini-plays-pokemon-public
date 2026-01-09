@@ -12,7 +12,7 @@
 - **Mechanics:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
 - **Exploration Strategy:** Use Max Repel to avoid wild encounters. Reveal reachable unseen tiles. Focus on northern section (y < 34).
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four. Focus on training here after exploration.
-- **Rival Battle:** Malice challenged me at (12, 9). Beaten Sneasel (Lv34), Feraligatr (Lv38). Currently facing Golbat (Lv36).
+- **Rival Battle:** Malice challenged me at (12, 9). Beaten Sneasel (Lv34), Feraligatr (Lv38). Currently facing Golbat (Lv36). Ouroboros fainted. Sending in GNEISS.
 - **Exploration:** Northern 1F has unseen tiles around the exit (8, 3), (17, 3), etc. Reveal after battle.
 - **Items Spotted:**
   - (18, 29): Poke Ball (ID 4)
