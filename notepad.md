@@ -19,7 +19,8 @@
     - Slowbro (Lv41): Defeated (Turn 36882).
     - Xatu (Lv42): Defeated (Turn 36884).
     - Exeggutor (Lv41): Defeated (Turn 36888).
-    - Jynx (Lv41): Flame Wheel is super effective. (In progress)
+    - Jynx (Lv41): Defeated (Turn 36890).
+- **Status:** Defeated Will. Proceeding to the next chamber.
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
