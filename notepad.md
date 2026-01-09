@@ -15,14 +15,11 @@
 
 ## Strategy: Exit Ice Path (Start Turn 36156)
 - Plan:
-  1. Navigate B2F Blackthorn Side to ladder at (3, 3) leading to B3F East. [Current]
-     - Path: (6, 4) -> (6, 5) -> (6, 6) (ICE) -> Right to (9, 6) -> Up to (9, 3) -> (9, 1) -> (3, 1) -> (3, 3).
-  2. Navigate B3F East to B3F West (ladder at 3, 5).
-  3. Navigate B2F Mahogany Side to collect Full Heal at (11, 9).
-  4. Navigate B2F Mahogany Side to ladder at (17, 1) leading to B1F.
-  5. Reach ladder at (5, 25) on B1F leading to 1F South.
-  6. Exit Ice Path at (36, 27) on 1F.
-  7. Fly to New Bark Town and head east to Tohjo Falls.
+  1. Navigate B2F Blackthorn Side to ladder at (3, 15) leading to B1F. [Current]
+     - Path: (6, 1) -> (9, 1) -> (9, 3) -> (9, 4) (ICE) -> Slide Down to (9, 15) -> Slide Left to (3, 15).
+  2. Reach ladder at (5, 25) on B1F leading to 1F South.
+  3. Exit Ice Path at (36, 27) on 1F.
+  4. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Items Collected
 - Ice Path 1F: HM07 Waterfall (31, 7)
