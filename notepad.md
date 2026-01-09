@@ -14,7 +14,7 @@
 - Timing: Thursday only. 20-minute time limit.
 - Rules: 20 Park Balls provided. Only the lead Pokémon participates.
 - Retention: Only the last Pokémon caught is kept.
-- Start Time: 8:23 PM (Thursday).
+- Thursday Contest Result: Lv14 Scyther (100% HP), 331 points, 2nd place (Everstone). Winner: Butterfree (346 points).
 
 ## Contest Scoring Criteria
 - Formula: Level + (Remaining HP / Max HP) * 100 + Base Stat Total factor.
