@@ -35,7 +35,7 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal, but XENON (Haunter) CAN (Turn 35642).
+- **Move Compatibility:** Both Calcifer (Typhlosion) and XENON (Haunter) cannot learn TM33 Ice Punch in Crystal (Turn 35645). In-game observation confirmed "NOT ABLE" for both. Strategy must pivot to using the gift Dratini (once evolved to Dragonite) for Ice coverage.
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
