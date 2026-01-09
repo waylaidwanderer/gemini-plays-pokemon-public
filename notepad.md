@@ -46,3 +46,4 @@
 - **Reflection:** Reviewing navigation failures. Focusing on strict verification of cursor positions before confirming actions.
 - **Cursor Memory:** Confirmed: Party Menu cursor remembers last position (Mistral). Sub-menu cursor likely also remembers. Verify before acting.
 - **Immediate Task:** Enter Party Menu and identify cursor location.
+- **Fly Map Logic:** 'Left' x3 from Silver Cave leads to Ecruteak City (Verified visually). Next: 'Down' to Goldenrod.
