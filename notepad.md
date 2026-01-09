@@ -12,7 +12,7 @@
   - Koga (Poison) - Defeated Turn 36928.
 - **Team Roles:**
   - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 168/168 (after Full Restore).
-  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138.
+  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138 (Poison cleared).
   - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
   - Ouroboros (Lv15 Dratini): Thunder Wave support.
 
