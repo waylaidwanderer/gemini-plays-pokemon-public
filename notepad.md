@@ -41,3 +41,10 @@
 - **Exeggutor:** Psychic/Grass. Weak to Fire (Flame Wheel).
 - **Slowbro:** Psychic/Water. Weak to Electric (Thunderpunch).
 - **Lead Strategy:** Calcifer (Typhlosion) is the most versatile attacker here. Xenon (Haunter) is risky due to Poison typing vs Psychic moves.
+
+## Battle Notes - Koga (Poison/Bug)
+- **Ariados:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout).
+- **Venomoth:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout).
+- **Forretress:** Bug/Steel. Weak to Fire (4x!) (Flame Wheel).
+- **Crobat:** Poison/Flying. Weak to Electric (Thunderpunch), Rock (Rollout).
+- **Muk:** Poison. Weak to Ground (Earthquake).
