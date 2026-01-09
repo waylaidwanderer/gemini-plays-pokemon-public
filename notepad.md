@@ -41,3 +41,8 @@
 - **Correction:** Accidental flight to New Bark Town occurred due to pressing 'A' when map was already open.
 - **Current Status:** In New Bark Town. Goal: Fly to Goldenrod.
 - **Menu Navigation:** Start -> Pokemon -> Mistral (Slot 4) -> Fly.
+
+# Session Timestamp: Turn 29960
+- **Reflection:** Reviewing navigation failures. Focusing on strict verification of cursor positions before confirming actions.
+- **Cursor Memory:** The Party Menu cursor appears to remember its last position (Mistral/Cancel). Must verify start position upon re-entry.
+- **Immediate Task:** Enter Party Menu and identify cursor location.
