@@ -2,7 +2,7 @@
 
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Gyarados (Lv44).
-- Status: Confused.
+- Status: Asleep/Confused.
 - Remaining: Dragonite x3, Aerodactyl, Charizard.
 
 ## Strategy vs Champion Lance
