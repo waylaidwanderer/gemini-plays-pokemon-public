@@ -11,14 +11,20 @@
 
 ## Strategy: Obtain HM07 Waterfall
 - Verified Location: Ice Path 1F, northeast corner of main floor. [Confirmed by location_analyst Turn 36062]
-- New Plan (Started Turn 36063):
-  1. Fly to Mahogany Town. [Current]
-     - Note: Fly map cursor usually defaults to current location.
-     - Fly Map Order (Crystal): New Bark, Cherrygrove, Violet, Azalea, Goldenrod, Ecruteak, Olivine, Cianwood, Mahogany, Blackthorn, Indigo Plateau.
-     - Logic: 'Up' moves forward in this list.
-  2. Travel east to Route 44 and enter Ice Path.
-  3. Locate and pick up HM07 Waterfall.
-  4. Return to Tohjo Falls and climb the waterfall.
+- Current Status: Inside Ice Path 1F, navigating northeast ice puzzle.
+- Northeast Ice Puzzle Solution:
+  - Start: (16, 8) (Floor entrance).
+  - Move: Down to (16, 9) (Floor).
+  - Move: Right to slide to (23, 9) (Floor).
+  - Move: Up to slide to (23, 6) (Floor).
+  - Move: Left to (22, 6) (Floor).
+  - Move: Down to (22, 7) (Floor).
+  - Move: Right to slide to (30, 7) (Floor).
+  - Move: Right to (31, 7) to collect HM07 Waterfall.
+- Next Steps:
+  1. Collect HM07 Waterfall.
+  2. Exit Ice Path.
+  3. Return to Tohjo Falls and climb the waterfall.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -30,6 +36,7 @@
 - LADDER: Warp to another floor/map.
 - WARP_CARPET_DOWN: Exit/warp to another map.
 - PC: Impassable; interactable from front (up).
+- ICE: Causes sliding in the direction of movement until an obstacle or non-ice tile is reached.
 
 ## Lessons Learned
 - Rising Badge: Allows use of HM07 Waterfall outside battle.
@@ -37,12 +44,8 @@
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Time Tracking: Searched for HM07 in Tohjo Falls for ~90 turns before verifying location.
+- Wild Encounters: Trigger battles and block movement on the turn they occur. (Turn 36162)
 
-## Strategy: Fly Map Navigation
-- Main Menu Order: 1. POKéDEX, 2. POKéMON, 3. PACK, 4. POKéGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
-- Logic: 'Up' moves forward through towns on map.
-- Current Status: Mahogany Town selected. Confirming flight.
-- Note: Always verify the starting location on the FLY map before counting.
 ## Route 44 Navigation Notes
 - Ledge Gap: A traversable gap in the east-west ledges exists at x=49 (row 8 to 14 is clear at this x-coordinate).
 - NPC Obstacles:
