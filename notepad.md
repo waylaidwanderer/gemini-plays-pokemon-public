@@ -16,7 +16,8 @@
   5. Exit Tohjo Falls at (25, 15). [Completed]
   6. Navigate Route 27 East to Route 26. [In Progress]
     - 6a. Explore house at (33, 7). [Completed]
-    - 6b. Continue East on Route 27. [Current]
+    - 6b. Collect item at (53, 12). [Current]
+    - 6c. Continue East on Route 27. [Next]
   7. Navigate Route 26 North to Victory Road. [Next]
 
 ## Time Tracking
@@ -39,9 +40,10 @@
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
+- TALL_GRASS: Traversable; may trigger wild encounters.
 - WATER: Traversable (requires SURF).
 - WATERFALL: Face tile while surfing and press A to climb. Triggers scripted movement.
-- LEDGE: Impassable from the "low" side. Jumpable from the "high" side.
+- LEDGE: Impassable from the \"low\" side. Jumpable from the \"high\" side.
 - FLOOR_UP_WALL: Impassable from the south/below. Functions as a wall in this direction.
 - COUNTER: Impassable; interactable from front.
 - LADDER: Warp to another floor/map. Triggers immediately on entry.
@@ -50,6 +52,7 @@
 - ICE: Causes sliding until obstacle or non-ice tile is reached.
 - LEDGE_HOP_DOWN: Jumpable from North to South. Impassable from South to North.
 - LEDGE_HOP_LEFT: Jumpable from Right to Left. Impassable from Left to Right.
+- VOID: Impassable area outside the map boundaries.
 
 ## Lessons Learned
 - Rising Badge: Enables Waterfall use outside battle.
@@ -58,4 +61,3 @@
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
 - Map Connectivity: Verify connectivity before committing to major backtracking (e.g., Ice Path B3F sides ARE connected).
-- VOID: Impassable area outside the map boundaries.
