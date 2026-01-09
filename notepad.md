@@ -53,8 +53,8 @@
 - DELTA (MANTINE): Lv20.
 - RANGOON (KRABBY): Lv22.
 - NOMURA (TENTACOOL): Lv17.
-- Ravioli (KRABBY): Lv10. Surf, Whirlpool.
-- KIMCHI (GLOOM): Lv34. Flash, Acid, Cut.
+- Ravioli (KRABBY): Lv10.
+- KIMCHI (GLOOM): Lv34.
 
 ## Lessons Learned
 - Dragon Shrine Entrance: South side (19, 29).
