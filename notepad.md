@@ -11,11 +11,11 @@
 ## Strategy for Lance (Champion)
 - Gyarados (Water/Flying): DEFEATED
 - Dragonite x3 (Dragon/Flying):
-  - Dragonite #1: DEFEATED (XENON Hypnosis/Dream Eater)
-  - Dragonite #2: ACTIVE (Strategy: Confuse Ray + Night Shade spam)
+  - Dragonite #1: DEFEATED
+  - Dragonite #2: DEFEATED
   - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
-- Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
+- Charizard (Fire/Flying): ACTIVE. Strategy: Hypnosis + Night Shade.
 - Note: Use Revives strategically.
 
 ## Current Party Status
@@ -39,4 +39,4 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle with Lance (Cont.)
-- Dragonite #2: Confused. XENON using Night Shade (41 fixed damage) to chip HP safely.
+- Charizard: Active. XENON using Hypnosis to disable before chipping with Night Shade.
