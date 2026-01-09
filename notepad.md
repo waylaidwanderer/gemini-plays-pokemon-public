@@ -36,7 +36,7 @@
 ## Session Information
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
-- **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Scrolling past PARLYZ HEAL.
-- **Method:** Buy ~15 Super Repels.
-- **Notes:** Funds: ¥8772. Cursor at Parlyz Heal. Super Repel is further down.
+- **Current Goal:** Go to Goldenrod Dept Store.
+- **Status:** Exiting Ecruteak Mart.
+- **Method:** Fly to Goldenrod -> Buy Super Repels.
+- **Notes:** Ecruteak Mart does NOT sell Repels. Mistake realized. Funds: ¥8772.
