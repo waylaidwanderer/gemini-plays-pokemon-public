@@ -41,6 +41,6 @@
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
 - **Current Cycle:** #50. Checking Pokedex Area.
 - **Note:** Super Repel Active. Cycles #20-49 yielded no encounter.
-- **Action:** Verifying beast locations before continuing hunt.
-- **Strategy Update:** If no encounter by Cycle #50, check Pokedex Area to verify Beast movement.
-- **Timestamp:** Turn 30219 (Hunt Resume).
+- **Action:** Correcting menu navigation to access Pokedex.
+- **Strategy Update:** Verify Beast movement. If static, consider re-triggering (fly/warp).
+- **Timestamp:** Turn 30246 (Hunt Resume).
