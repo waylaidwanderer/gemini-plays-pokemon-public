@@ -27,8 +27,8 @@
 - **Objective:** Obtain a Sun Stone.
 - **Location:** National Park. Method: 1st place.
 - **Preparation:** Lead with status-inflictor (XENON with Hypnosis). Targets: Scyther, Pinsir.
-- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36732. Contest is tomorrow.
-- **Rival Battle:** Malice challenged me at (12, 9). Beaten Sneasel (Lv34). Currently facing Feraligatr (Lv38).
+- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36734. Contest is tomorrow.
+- **Rival Battle:** Malice challenged me at (12, 9). Beaten Sneasel (Lv34), Feraligatr (Lv38). Currently facing Golbat (Lv36).
 - **Exploration:** Northern 1F has unseen tiles around the exit (8, 3), (17, 3), etc. Reveal after battle.
 
 ## Battle Mechanics & Type Matchups
