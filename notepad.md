@@ -37,4 +37,4 @@
 - **Menu Navigation:** Be deliberate. Verify cursor position before pressing A, especially in sub-menus like Party -> Fly.
 - **Gen 2 Mechanics:** 'Fly' option appears at the top of the Pokemon sub-menu if usable in the field.
 - **Correction:** Pokegear is for Map viewing only; Fly is a Party menu action.
-- **Fly Map Observation:** Cursor movement seems sticky or granular. Repeated inputs are required. Violet -> Ecruteak is direct Left.
+- **Fly Map Observation:** Cursor movement is granular (pixel-based). Requires holding the direction button (simulated by repeated inputs) to move effectively between cities. 'Left' from Violet to Ecruteak requires significant hold time.
