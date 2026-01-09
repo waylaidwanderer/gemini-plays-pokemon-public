@@ -6,8 +6,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Calcifer (Thunderpunch).
-- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) if revived, or Calcifer (Return).
+- Dragonite #3 (Dragon/Flying): ACTIVE. Strategy: Revive Calcifer while Dragonite recharges, then finish with Calcifer or GNEISS.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -26,5 +25,5 @@
 
 ## Battle Strategy
 - Use fodder/safe turns to Revive key members (Calcifer, XENON, GNEISS).
-- Strategy Update: Calcifer was revived and is back in the battle.
-- Goal: Finish Charizard with Thunderpunch, then prepare for the final Dragonite.
+- Strategy Update: Calcifer fainted to Hyper Beam. GNEISS is out while Dragonite recharges.
+- Goal: Use the recharge turn to Revive Calcifer.
