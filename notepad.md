@@ -4,7 +4,7 @@
 - Turn 36890: Defeated Will (Psychic).
 - Turn 36928: Defeated Koga (Poison).
 - Turn 37019: Defeated Bruno (Fighting).
-- Turn 37033: Started battle with Elite Four Karen (Dark). Lead: XENON (Lv39 Haunter).
+- Turn 37033: Started battle with Elite Four Karen (Dark).
 
 ### Strategy vs Karen
 - Umbreon (Lv42): High bulk. Use GNEISS (Earthquake/Strength) or Calcifer.
