@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29115)
-- Status: In Ecruteak (17, 35). Resuming Blind Hunt.
-- Pokedex Check: Raikou/Entei are NOT Seen. Cannot track.
-- Strategy: Loop execute_hunt_routine (Route 37 <-> Ecruteak) until encounter.
-- Note: Max Repel active. Turn Count Mismatch acknowledged.
+# Reflection (Turn 29117)
+- Status: On Route 37 (7, 0). Resuming Blind Hunt.
+- Pokedex Check: Confirmed Beasts are Unseen.
+- Strategy: Loop execute_hunt_routine (Route 37 <-> Ecruteak).
+- Note: Max Repel active. Repel Trick (Lv 36 Lead) in effect.
