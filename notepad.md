@@ -17,8 +17,8 @@
 - Plan:
   1. Navigate B1F to ladder at (17, 3) leading to B2F. [Completed]
   2. Navigate B2F to ladder at (9, 11) leading to B3F. [Completed]
-  3. Navigate B3F to collect item at (5, 7).
-   - Route: (14, 5) -> (14, 8) -> (12, 8) -> (12, 5) -> (12, 4) -> (9, 4) -> (9, 7) -> (5, 7). [Current]
+  3. Navigate B3F to collect item at (5, 7). [Current]
+     - Path: (12, 7) -> (12, 5) -> (11, 5) -> (11, 4) -> (9, 4) -> (9, 7) -> (6, 7).
   4. Navigate B3F to ladder at (15, 5) leading back to B2F South.
   5. Reach ladder at (5, 25) on B1F leading to 1F South.
   6. Exit Ice Path at (36, 27).
@@ -29,7 +29,7 @@
 - WALL: Impassable.
 - WATER: Traversable (requires SURF).
 - WATERFALL: Impassable (requires WATERFALL).
-- LEDGE: Impassable from the "high" side (usually North for FLOOR_UP_WALL).
+- LEDGE: Impassable from the "low" side. Jumpable from the "high" side.
 - COUNTER: Impassable; interactable from front.
 - LADDER: Warp to another floor/map. Stepping onto it triggers the warp immediately.
 - WARP_CARPET_DOWN: Exit/warp to another map.
@@ -41,9 +41,6 @@
 - Tohjo Falls Ledges: Row 16 ledges are impassable from North.
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
-- Wild Encounters: Trigger battles and block movement on the turn they occur.
-- Ice Ledges: Jumping down ledges from ICE tiles might be blocked or require specific landing logic.
-- Tool Refinement: ice_pathfinder_v2 updated to return buttons and handle items as targets.
-- Menu Navigation: Use menu_navigator agent for complex multi-step menus to avoid loops.
+- Tool Refinement: ice_pathfinder_v2 updated to handle items as targets.
+- Backtracking Loop (Turns 36274-36295): Always verify map connectivity before committing to major backtracking. B3F East and West ARE connected.
 - Hallucination Warning (Turn 36248): Position mismatch due to automatic ladder warp. Always verify map ID and coordinates after warps.
-- Backtracking Loop (Turns 36274-36295): Avoid unnecessary backtracking by verifying map connectivity first.
