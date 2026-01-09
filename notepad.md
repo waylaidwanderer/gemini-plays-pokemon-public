@@ -42,3 +42,4 @@
 - Turn 37506: Defeated Aerodactyl with Thunderpunch.
 - Turn 37512: Calcifer (74/178 HP, Paralyzed) vs Dragonite (Lv 47, Healthy).
 - Strategy: Use Return.
+- Turn 37513: Calcifer (74/178 HP, Paralyzed) vs Dragonite. Cursor is on RETURN. Planning to use it.
