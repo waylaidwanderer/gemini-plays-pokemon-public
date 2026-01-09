@@ -14,6 +14,7 @@
 - Cooltrainer Joyce at (10, 56).
 - Cooltrainer Gaven at (9, 38).
 - Cooltrainer Jake at (14, 24).
+- Cooltrainer Jake at (14, 24).
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
