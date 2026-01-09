@@ -17,9 +17,9 @@
 - Note: No healing items left besides Berries and Revives. Strategy must be aggressive.
 
 ## Current Party Status
-1. ICARUS (Lv18): 48/48 HP
+1. Calcifer (Lv55): 174/174 HP (Lead)
 2. GNEISS (Lv51): 35/144 HP
-3. Calcifer (Lv55): 174/174 HP (Target Lead)
+3. ICARUS (Lv18): 48/48 HP
 4. Ouroboros (Lv15): 40/40 HP
 5. XENON (Lv41): 52/104 HP
 6. LAPIS (Lv12): 32/32 HP
