@@ -29,4 +29,4 @@
 - **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
 - **Active Effect:** Max Repel (Active).
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
-- **Notes:** Hunting loop. In Route 37. Moving to grass to check for Roamers.
+- **Notes:** Hunting loop active. Cycling between Ecruteak City and Route 37 to find Roamers.
