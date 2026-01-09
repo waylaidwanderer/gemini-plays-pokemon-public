@@ -270,16 +270,16 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
           "type": "integer"
         }
       },
@@ -290,7 +290,7 @@
         "end_y"
       ]
     },
-    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.find('Object') is not None\n                grid[(x, y)] = {'type': t_type, 'blocked': has_obj or t_type == 'WALL' or t_type == 'VOID'}\n\n        start = (int(input_data['start_x']), int(input_data['start_y']))\n        end = (int(input_data['end_x']), int(input_data['end_y']))\n\n        queue = deque([(start[0], start[1], [])])\n        visited = {start}\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            if (cx, cy) == end:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = cx + dx, cy + dy\n                \n                # Check if next tile is blocked, but ALLOW the destination tile even if it has an object\n                if (nx, ny) not in grid or (grid[(nx, ny)]['blocked'] and (nx, ny) != end):\n                    continue\n\n                # Handle Ledges\n                curr_type = grid[(cx, cy)]['type']\n                if curr_type == 'LEDGE_HOP_DOWN' and btn == 'Down': nx, ny = cx, cy + 2\n                elif curr_type == 'LEDGE_HOP_UP' and btn == 'Up': nx, ny = cx, cy - 2\n                elif curr_type == 'LEDGE_HOP_LEFT' and btn == 'Left': nx, ny = cx - 2, cy\n                elif curr_type == 'LEDGE_HOP_RIGHT' and btn == 'Right': nx, ny = cx + 2, cy\n                \n                if (nx, ny) not in grid or (grid[(nx, ny)]['blocked'] and (nx, ny) != end):\n                    continue\n                \n                # Ice Sliding\n                if grid[(nx, ny)]['type'] == 'ICE' and (nx, ny) != end:\n                    while True:\n                        tx, ty = nx + dx, ny + dy\n                        if (tx, ty) not in grid or (grid[(tx, ty)]['blocked'] and (tx, ty) != end): break\n                        \n                        next_type = grid[(tx, ty)]['type']\n                        if next_type == 'LEDGE_HOP_DOWN' and btn == 'Down': \n                            nx, ny = tx, ty + 2\n                            break\n                        elif next_type == 'LEDGE_HOP_UP' and btn == 'Up':\n                            nx, ny = tx, ty - 2\n                            break\n                        elif next_type == 'LEDGE_HOP_LEFT' and btn == 'Left':\n                            nx, ny = tx - 2, ty\n                            break\n                        elif next_type == 'LEDGE_HOP_RIGHT' and btn == 'Right':\n                            nx, ny = tx + 2, ty\n                            break\n                        \n                        nx, ny = tx, ty\n                        if (nx, ny) == end or grid[(nx, ny)]['type'] != 'ICE': break\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nsolve()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                t_type = tile.get('type')\n                has_obj = tile.find('Object') is not None\n                # Include FLOOR_UP_WALL as a blocked type\n                grid[(x, y)] = {'type': t_type, 'blocked': has_obj or t_type in ['WALL', 'VOID', 'FLOOR_UP_WALL']}\n\n        start = (int(input_data['start_x']), int(input_data['start_y']))\n        end = (int(input_data['end_x']), int(input_data['end_y']))\n\n        queue = deque([(start[0], start[1], [])])\n        visited = {start}\n        \n        while queue:\n            cx, cy, path = queue.popleft()\n            if (cx, cy) == end:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = cx + dx, cy + dy\n                \n                # Check if next tile is blocked, but ALLOW the destination tile even if it has an object\n                if (nx, ny) not in grid or (grid[(nx, ny)]['blocked'] and (nx, ny) != end):\n                    continue\n\n                # Handle Ledges (Manual jump logic)\n                curr_type = grid[(cx, cy)]['type']\n                if curr_type == 'LEDGE_HOP_DOWN' and btn == 'Down': nx, ny = cx, cy + 2\n                elif curr_type == 'LEDGE_HOP_UP' and btn == 'Up': nx, ny = cx, cy - 2\n                elif curr_type == 'LEDGE_HOP_LEFT' and btn == 'Left': nx, ny = cx - 2, cy\n                elif curr_type == 'LEDGE_HOP_RIGHT' and btn == 'Right': nx, ny = cx + 2, cy\n                \n                if (nx, ny) not in grid or (grid[(nx, ny)]['blocked'] and (nx, ny) != end):\n                    continue\n                \n                # Ice Sliding\n                if grid[(nx, ny)]['type'] == 'ICE' and (nx, ny) != end:\n                    while True:\n                        tx, ty = nx + dx, ny + dy\n                        if (tx, ty) not in grid or (grid[(tx, ty)]['blocked'] and (tx, ty) != end): break\n                        \n                        next_type = grid[(tx, ty)]['type']\n                        # Stop on ledge tiles to jump? In Crystal, sliding into a ledge jumps automatically.\n                        if next_type == 'LEDGE_HOP_DOWN' and btn == 'Down': \n                            nx, ny = tx, ty + 2\n                            break\n                        elif next_type == 'LEDGE_HOP_UP' and btn == 'Up':\n                            nx, ny = tx, ty - 2\n                            break\n                        elif next_type == 'LEDGE_HOP_LEFT' and btn == 'Left':\n                            nx, ny = tx - 2, ty\n                            break\n                        elif next_type == 'LEDGE_HOP_RIGHT' and btn == 'Right':\n                            nx, ny = tx + 2, ty\n                            break\n                        \n                        nx, ny = tx, ty\n                        if (nx, ny) == end or grid[(nx, ny)]['type'] != 'ICE': break\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {e}\")\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -306,6 +306,11 @@
         "commit_message": "Modified ice_pathfinder_v2 to allow the destination tile to be 'blocked' (e.g. by an object) so items can be targeted.",
         "timestamp": "2026-01-09T09:08:29.834Z",
         "action_counter": 36289
+      },
+      {
+        "commit_message": "Updated ice_pathfinder_v2 to include 'FLOOR_UP_WALL' in the list of blocked tile types.",
+        "timestamp": "2026-01-09T09:27:01.306Z",
+        "action_counter": 36314
       }
     ]
   }
