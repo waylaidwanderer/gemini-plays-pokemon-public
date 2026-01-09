@@ -46,7 +46,7 @@
 - LEDGE: Impassable from the \"low\" side. Jumpable from the \"high\" side.
 - FLOOR_UP_WALL: Impassable from the south/below. Functions as a wall in this direction.
 - COUNTER: Impassable; interactable from front.
-- LADDER: Warp to another floor/map. Triggers immediately on entry.
+- LADDER: Warp to another floor/map. Triggers immediately on entry. Exception: On the Route 27 bridge, these tiles function as FLOOR.
 - WARP_CARPET_DOWN: Exit/warp to another map.
 - PC: Impassable; interactable from front (up).
 - ICE: Causes sliding until obstacle or non-ice tile is reached.
