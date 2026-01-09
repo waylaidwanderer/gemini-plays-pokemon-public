@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Re-engaging Clerk after call.
+- **Status:** Opening Shop Menu.
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Call finished. Ready to sell.
+- **Notes:** Call finished. Dialogue closed. Initiating trade.
