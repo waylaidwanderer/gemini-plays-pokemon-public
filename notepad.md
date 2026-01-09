@@ -24,3 +24,4 @@
 - WARP_CARPET: Transition.
 - WATER: Surfable.
 - **Phone Call (Turn 29598):** Wade (Route 31) found Berries.
+- **Phone Call (Turn 29712):** Gaven (Route 26) wants a rematch.
