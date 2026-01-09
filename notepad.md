@@ -6,8 +6,8 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: GNEISS (4x Rock advantage) or Calcifer (Thunderpunch).
-- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) if revived.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Revive Calcifer (Thunderpunch) or use GNEISS (Rollout).
+- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) if revived, or Calcifer (Return).
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -25,6 +25,6 @@
 - Status Management: Level advantage is negated by paralysis (75% speed reduction). Priority is clearing status for the speed tier.
 
 ## Battle Strategy
-- Use fodder to safely Revive key members (XENON, GNEISS, Calcifer).
-- Strategy Update: Calcifer is paralyzed and low HP. Plan is to let him faint, then use a Revive to restore him to 50% HP and clear status.
-- Goal: Secure knockout on Charizard, then handle final Dragonite.
+- Use fodder/safe turns to Revive key members (Calcifer, XENON, GNEISS).
+- Strategy Update: Calcifer was paralyzed and low HP. He fainted, allowing for a Revive to restore 50% HP and clear status.
+- Goal: Revive Calcifer while Charizard recharges, then secure the knockout.
