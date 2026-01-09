@@ -1,35 +1,39 @@
 # Johto Journey - Final Phase
 
-## Navigation & Warps
-- **Victory Road Exit:** Warp at (13, 5) leads deeper into the cave or toward Route 23.
-- **Ladder Connections (1F):**
+## Victory Road (1F/2F/3F)
+- **Status:** Rival Malice defeated (Turn 36780). Exploring northern section.
+- **Goal:** Reach Indigo Plateau via exit at (13, 5).
+- **Ladder Connections:**
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel used at Turn 36795. Lasts 250 steps.
-
-## Area Notes: Victory Road
-- **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
-- **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
-- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton.
-- **Navigation Plan:** Take ladder at (17, 33) to return to (17, 19). Then navigate to exit at (13, 5).
-- **Item Collected:** Full Restore at (18, 29).
+- **Items Collected:**
+  - Max Revive (12, 48)
+  - Full Heal (15, 48)
+  - HP UP (7, 38)
+  - Full Restore (18, 29)
+- **Repel Status:** Max Repel used at Turn 36798 (Pending). Lasts 250 steps.
 
 ## Tile & Movement Mechanics
-- **Traversability:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE (Warp), LADDER (Warp) are traversable. WALL, PC, COUNTER are impassable.
-- **Ledge Mechanics:**
-  - (6, 38)-(6, 41): One-way West. Access plateau (x=7) from South at (7, 42).
-  - (3, 34)-(8, 34): One-way South. Access northern area via (1, 34) -> (0, 34) -> (0, 33) -> ... -> (3, 34).
+- **Traversable:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE/LADDER (Warp).
+- **Impassable:** WALL, PC, COUNTER, VOID.
+- **Ledges:** 
+  - (6, 38)-(6, 41): One-way West.
+  - (3, 34)-(8, 34): One-way South.
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - **Objective:** Obtain a Sun Stone.
 - **Method:** 1st place at National Park. Catch Scyther/Pinsir. Lead XENON (Hypnosis).
 - **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
 
-## Battle Mechanics & Type Matchups
-- **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling before Elite Four.
+## Battle Mechanics & Training
+- **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling.
 - **Type Effectiveness:**
   - Psychic: Super effective vs Poison/Ghost (XENON).
   - Water: 4x effective vs Rock/Ground (GNEISS).
   - Rock (Rollout): Super effective vs Flying (Golbat).
 - **Strategic Note:** Switching resets confusion and stat drops.
+
+## Reflection & Error Log
+- **Turn 36795:** Menu sequence failed due to complexity. Lesson: Perform one menu task at a time or use very short sequences.
+- **Turn 36798:** Maintenance prioritized (Repel, Revive, Heal).
