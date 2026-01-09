@@ -39,7 +39,7 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** Searching Route 37 Grass (Cycle #15).
-- **Action:** Running hunt routine.
-- **Goal:** Encounter Raikou or Entei.
-- **Note:** Super Repel Active.
+- **Status:** Repel expired (Turn 30154).
+- **Action:** Clear text -> Open Menu -> Re-apply Super Repel.
+- **Hunt Progress:** Cycle #15 interrupted by Repel expiration.
+- **Inventory:** 6 Super Repels remaining.
