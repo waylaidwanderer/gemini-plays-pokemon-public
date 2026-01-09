@@ -15,7 +15,8 @@
   4. Locate the eastern exit of Tohjo Falls. [Completed]
   5. Exit Tohjo Falls at (25, 15). [Completed]
   6. Navigate Route 27 East to Route 26. [In Progress]
-    - 6a. Explore house at (33, 7). [Current]
+    - 6a. Explore house at (33, 7). [Completed]
+    - 6b. Continue East on Route 27. [Current]
   7. Navigate Route 26 North to Victory Road. [Next]
 
 ## Time Tracking
