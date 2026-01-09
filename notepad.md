@@ -21,16 +21,14 @@
   3. Navigate B3F to collect item at (5, 7).
    - Problem: Currently on the East side (Blackthorn Side). Item is on the West side (Mahogany Side).
    - Solution: Backtrack to B1F, cross over, and enter B3F from the West side.
-   - Route: B2F (0, 17) -> B2F (3, 15) -> B1F (11, 27) -> B1F (17, 3) -> B2F (17, 1) -> B2F (9, 11) -> B3F (3, 5) -> Item (5, 7). [Current: Moving to B2F (3, 15)]
-   - Progress: At (0, 17). Sequence to (9, 1): Up, Up, Right, Up, Right, Up, Right, Up, Right, Right, Right, Right, Right, Right.
+   - Route: B2F (9, 1) -> B2F (3, 15) -> B1F (11, 27) -> B1F (17, 3) -> B2F (17, 1) -> B2F (9, 11) -> B3F (3, 5) -> Item (5, 7). [Current: Moving to B2F (3, 15)]
   4. Navigate B3F to ladder at (15, 5) leading back to B2F South.
   5. Reach ladder at (5, 25) on B1F leading to 1F South.
-  5. Exit Ice Path at (36, 27).
-  6. Fly to New Bark Town and head east to Tohjo Falls.
+  6. Exit Ice Path at (36, 27).
+  7. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Tool Maintenance
-- ice_pathfinder_v2: Failed on turn 36278 (returned coordinate objects instead of button strings). Needs refinement to return JSON array of buttons. [Priority: High]
-- Status: Will refine tool and continue navigation.
+- ice_pathfinder_v2: Refined on Turn 36279. Ready for testing.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
