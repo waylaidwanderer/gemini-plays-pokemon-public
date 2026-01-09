@@ -8,11 +8,12 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Opening Start Menu to use Super Repel before entering Route 37.
+- **Status:** Menu Open. Cursor on Pokémon. Navigating to Pack to use Super Repel.
 - **Next Steps:**
-  1. Navigate to Pack -> Super Repel -> Use.
-  2. Walk South to Route 37.
-  3. Start `execute_hunt_routine` (Route 37 <-> Ecruteak).
+  1. Open Pack (Down -> A).
+  2. Find and Use Super Repel.
+  3. Walk South to Route 37.
+  4. Start `execute_hunt_routine`.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
