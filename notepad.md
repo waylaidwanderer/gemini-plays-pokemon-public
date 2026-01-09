@@ -30,5 +30,5 @@
 - **Active Effect:** Max Repel (Active).
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
 - **Notes:** Hunting loop active. Route 37 is SOUTH of Ecruteak. Cycling Down (to Route 37) and Up (to Ecruteak).
-- **Current Status:** Hunting loop active. Route 37 <-> Ecruteak. Repel Active (Renewed Turn 29335). Arrived Route 37 (8, 0). Engaging hunt sequence.
-- **Lesson:** Phone calls and menu usage desync the fixed-movement hunt tool. Manually finishing the map transition is necessary to reset Roamers.
+- **Current Status:** Hunting loop active. Route 37 <-> Ecruteak. Repel Active. Wade called (Bug Contest). Back at Ecruteak (18, 35) after interrupted loop. Restarting.
+- **Lesson:** Phone calls freeze movement, causing the fixed-input hunt tool to 'miss' the grass check phase if timed poorly. The final 'Up' inputs still trigger, returning to safety.
