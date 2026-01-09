@@ -1,9 +1,9 @@
 # Current Status
-- **Location:** Route 37 (8, 3). Resuming hunt after Repel refresh.
+- **Location:** Ecruteak City (18, 35). Loop completed. Restarting.
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
-- **Hunt Session Start:** Turn 28662. (Current Turn: 29439)
+- **Hunt Session Start:** Turn 28662. (Current Turn: 29440)
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
