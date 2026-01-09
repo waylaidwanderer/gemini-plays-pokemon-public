@@ -47,3 +47,4 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
+- Turn 37158: Used Revive on GNEISS.
