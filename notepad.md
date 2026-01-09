@@ -1,4 +1,8 @@
-# Johto Journey - Final Phase
+# Johto Journey - Final Phase (Started Turn 35938)
+
+## Primary Goal: Indigo Plateau (Start Turn 36211)
+- Objective: Challenge the Pokémon League.
+- Strategy: Navigate Tohjo Falls and Route 27 to reach Victory Road.
 
 ## Strategy: Navigate Tohjo Falls
 - Start Turn: 35972
@@ -11,14 +15,14 @@
   4. Locate the eastern exit of Tohjo Falls.
 
 ## Strategy: Teach Waterfall and Exit
-- Menu Navigation Offsets:
-  - Start Menu -> PACK: Up (safety) then 2 'Down'.
-  - PACK -> TM/HM Pocket: Left (safety) then 3 'Right'.
-  - HM07 Position: Up (safety) then 10 'Down' from top (TM24).
-  - Party Member (LAPIS): Up (safety) then 5 'Down' from top (XENON).
-  - Move to Replace (Bubble): Slot 1.
+- Menu Navigation Plan (Chunked):
+  1. Open Start Menu. [Current]
+  2. Select PACK.
+  3. Navigate to TM/HM Pocket.
+  4. Use HM07 on LAPIS.
+  5. Replace BUBBLE.
 - Plan:
-  1. Teach HM07 Waterfall to LAPIS. [Current]
+  1. Teach HM07 Waterfall to LAPIS.
   2. Exit Ice Path via (36, 27) using ice_pathfinder tool.
   3. Fly to New Bark Town and head east to Tohjo Falls.
 
@@ -39,12 +43,10 @@
 - Tohjo Falls Ledges: Row 16 ledges are impassable from North.
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
-- Time Tracking: Searched for HM07 in Tohjo Falls for ~90 turns before verifying location.
-- Wild Encounters: Trigger battles and block movement on the turn they occur. (Turn 36162)
+- Wild Encounters: Trigger battles and block movement on the turn they occur.
 
 ## Route 44 Navigation Notes
-- Ledge Gap: A traversable gap in the east-west ledges exists at x=49 (row 8 to 14 is clear at this x-coordinate).
-- NPC Obstacles:
-  - Cooltrainer Cybil: (31, 14), Cooltrainer Allen: (37, 15), Bird Keeper Vance: (51, 6), Youngster: (51, 5)
+- Ledge Gap: A traversable gap in the east-west ledges exists at x=49.
+- NPC Obstacles: Cooltrainer Cybil: (31, 14), Cooltrainer Allen: (37, 15), Bird Keeper Vance: (51, 6), Youngster: (51, 5)
 - Ice Path Entrance: (56, 7). Reachable from the north section of Route 44.
 - North/South Section Divide: Divided by ledges in row 9 (x=51-57) and row 13 (x=50-53). Use gap at x=49.
