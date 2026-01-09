@@ -3,12 +3,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
 
 # Current Status
-- **Location:** Route 37 (8, 0). Checking Grass.
-- **Activity:** Hunting Raikou & Entei.
+- **Location:** Ecruteak City (17, 35). Heading to Mart.
+- **Activity:** Restocking Max Repels.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
-- **Active Effect:** Max Repel (Active).
-- **Restock Needed:** Buying Max Repels is high priority after this one expires.
-- **Interruption:** Phone call from Bug Catcher Wade. Pausing hunt to clear dialogue.
+- **Active Effect:** None (Last usage failed/canceled).
+- **Note:** Spinarak encounter confirmed Repel was not active.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
