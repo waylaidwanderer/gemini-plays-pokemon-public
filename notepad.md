@@ -54,3 +54,5 @@
   - (15, 48): Full Heal (Collected)
   - (12, 48): Max Revive (Collected)
   - (7, 38): Poke Ball (Spotted)
+- **Ledge Info:** (6, 38) is a one-way ledge jumping West. Access (7, 38) from the North.
+- **Pathing Info:** (3, 34) through (8, 34) are one-way ledges jumping South. Access the main room via (1, 34) -> (0, 34) -> (0, 33) -> ... -> (3, 34).
