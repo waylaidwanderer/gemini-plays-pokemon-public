@@ -29,4 +29,4 @@
 - **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
 - **Active Effect:** Max Repel (Active).
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
-- **Notes:** Resuming routine from (7, 2). Grass check -> Return to Ecruteak.
+- **Notes:** In Ecruteak (17, 35). Cycle complete. Starting next loop iteration (Moving to Route 37).
