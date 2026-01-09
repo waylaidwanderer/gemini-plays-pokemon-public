@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29118)
-- Status: In Ecruteak (17, 35). Returned from Route 37.
-- Activity: Blind Hunt for Raikou/Entei.
+# Reflection (Turn 29119)
+- Status: On Route 37 (7, 0). Failed to warp to Ecruteak previous turn?
+- Action: Resuming hunt. Expecting Repel to wear off soon.
 - Strategy: Loop execute_hunt_routine.
-- Note: Max Repel active. System warnings regarding tile visits are expected due to hunting loop.
+- Note: Max Repel active (applied Turn 29083, ~220 steps used).
