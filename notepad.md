@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** New Bark Town.
+- **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Executing Fly Navigation.
-- **Method:** Select Fly -> Map Open -> Left x3 (to Ecruteak) -> Down (to Goldenrod) -> A.
-- **Notes:** Assuming Fly map cursor snaps between cities. New Bark -> Cherrygrove -> Violet -> Ecruteak -> Goldenrod.
+- **Status:** Opening Start Menu.
+- **Method:** Press Start -> Verify Cursor -> Open Pokemon -> Select Mistral -> Fly.
+- **Notes:** Previous Fly attempt from New Bark Town (Left x3, Down) resulted in Silver Cave. Map cursor likely wraps or behaves unexpectedly. Will verify cursor start position visually.
