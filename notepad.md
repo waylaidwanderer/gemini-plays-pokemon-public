@@ -30,9 +30,9 @@
 
 ## Missing Items
 - **TM08 Rock Smash:** Critical for map access (e.g. Ruins of Alph, Dark Cave).
-- **Status:** At Goldenrod Dept Store 5F to purchase.
-- **Logic:** NPC dialogue on Route 36 implied he already gave it. Verified not in storage. Likely used or tossed. Purchasable here.
+- **Status:** Obtained (Turn 30007).
+- **Action:** Teach to Pokemon (Machoke or Quilava) to clear obstacles.
 
 ## Session Information
 - **Current Location:** Goldenrod Dept Store 5F.
-- **Goal:** Speak to Clerk (8, 5) to buy TM08.
+- **Goal:** Exit Store and resume hunt.
