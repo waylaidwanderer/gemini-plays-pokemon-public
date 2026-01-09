@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29102)
-- Status: In Ecruteak (17, 35). Pausing hunt to check Pokedex.
-- Action: Opening Pokedex to verify if Raikou/Entei are 'Seen'.
-- Goal: If Seen, switch to Tracking strategy. If not, resume Blind Hunt.
+# Reflection (Turn 29103)
+- Status: In Ecruteak (17, 35). Menu open.
+- Action: Navigating to POKEDEX to check Raikou/Entei status.
+- Goal: Verify if Beasts are 'Seen'.
 - Note: Max Repel active.
