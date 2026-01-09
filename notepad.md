@@ -8,7 +8,7 @@
 - Coverage: Dragonite (Ouroboros) is the primary candidate for Ice-type coverage (TM33) against Lance.
 - Evolution: Obtain Sun Stone from Bug-Catching Contest for KIMCHI (Gloom). [Started Turn 35644, 7:00 PM]
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
-- Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Started Turn 35704]
+- Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
 ## Strategy: Bug-Catching Contest (Thursday)
 - Goal: Obtain Sun Stone for KIMCHI (Gloom).
