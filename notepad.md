@@ -50,3 +50,5 @@
 - Answered: "Strategy"
 - Question 3: "What kind of trainer do you wish to battle?"
 - Answered: "Tough person"
+- Question 4: "What is most important for raising POKéMON?"
+- Answered: "Love"
