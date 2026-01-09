@@ -6,8 +6,8 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Revive fodder/XENON, then Hypnosis or 4x Rock damage (GNEISS).
-- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray).
+- Charizard (Fire/Flying): ACTIVE. Strategy: GNEISS (4x Rock advantage) or Calcifer (Thunderpunch).
+- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) if revived.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -28,4 +28,4 @@
 - XENON uses Hypnosis to disable threats.
 - GNEISS (Rollout) is the backup for Charizard if XENON fails.
 - Current Status: ICARUS, Ouroboros, XENON, LAPIS fainted. Calcifer (31 HP, PAR) and GNEISS (35 HP) remaining.
-- Goal: Revive fodder to continue recovery loop or risk an attack.
+- Goal: Secure a knockout on Charizard with GNEISS or Calcifer.
