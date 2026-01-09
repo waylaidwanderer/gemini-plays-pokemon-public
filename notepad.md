@@ -54,3 +54,14 @@
   1. Access PC in Elm's Lab at (3, 5).
   2. Deposit KIMCHI.
   3. Withdraw LAPIS.
+## Observation: Elm's Lab PC
+- The PC at (3, 5) in Elm's Lab is for Professor Elm's research notes ("OBSERVATIONS ON POKéMON EVOLUTION") and does not provide access to the Pokémon Storage System.
+
+## Plan: Swap KIMCHI for LAPIS (Surf User)
+1. Exit Elm's Lab.
+2. Use Fly to travel to Cherrygrove City.
+3. Access the PC in the Cherrygrove Pokemon Center.
+4. Deposit KIMCHI (GLOOM).
+5. Withdraw LAPIS (POLIWAG) from Box 1.
+6. Fly back to New Bark Town.
+7. Surf east from New Bark Town to Route 27.
