@@ -9,6 +9,9 @@
 - **Active Effect:** None.
 - **Note:** Spinarak encounter confirmed Repel was not active.
 
+# Exploration Queue
+- **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
+
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
 - **Method:** Blind Hunt Loop (Route 37 Grass <-> Ecruteak City).
