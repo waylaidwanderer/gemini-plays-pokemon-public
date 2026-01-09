@@ -5,5 +5,12 @@
     "agent_system_prompt": "You are a Pokémon League expert. Analyze the player's party and TMs provided in the input string to prepare for the Elite Four (Will, Koga, Bruno, Karen) and Champion Lance in Pokémon Crystal. Suggest move improvements and training priorities.",
     "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_info\":{\"type\":\"string\"},\"tm_info\":{\"type\":\"string\"}},\"required\":[\"party_info\",\"tm_info\"]}",
     "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"readiness\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"readiness\"]}"
+  },
+  "league_analyst_v4": {
+    "agent_name": "league_analyst_v4",
+    "agent_description": "Analyzes party composition and movesets for the Johto Pokémon League.",
+    "agent_system_prompt": "You are a Pokémon League expert. Analyze the party and TMs provided to prepare for the Elite Four and Champion in Pokémon Crystal. Provide a brief analysis of weaknesses and training priorities.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_str\":{\"type\":\"string\"},\"tm_str\":{\"type\":\"string\"}},\"required\":[\"party_str\",\"tm_str\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"}},\"required\":[\"analysis\"]}"
   }
 }

@@ -1,15 +1,14 @@
-# Blackthorn City - Quest for the Rising Badge
-- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Turn 35416, 5:00 PM]
+# Blackthorn City - Johto Mastery
+- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Started Turn 35416, 5:00 PM]
 - Secondary Goal: Speak with Professor Elm in New Bark Town.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn 35431, 5:22 PM]
+## Strategy: Heading to the Pokémon League [Turn 35450, 5:35 PM]
 - Plan:
-  1. Exit Dragon's Den B1F via ladder at (20, 3). [Done Turn 35447]
-  2. Exit Dragon's Den 1F via ladder system (5, 15) -> (5, 13) -> (3, 3) -> (3, 5).
-  3. Return to Blackthorn City and Fly to New Bark Town.
-  4. Speak with Professor Elm.
-  5. Surf east from New Bark Town to reach the Pokémon League.
+  1. Exit Dragon's Den 1F via (3, 5). [Current Task]
+  2. Return to Blackthorn City and Fly to New Bark Town.
+  3. Speak with Professor Elm at the Lab.
+  4. Surf east from New Bark Town to Route 27 and reach the Pokémon League.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile. Verified.
@@ -21,17 +20,13 @@
 - LADDER: Warp between floors/sections. Verified.
 
 ## Lessons Learned
-- Clair's Badge: Requires extra trial in Dragon's Den.
-- Navigation: Building entrances are often on the south side.
-- Post-Badge: Go to New Bark Town before heading to the League.
+- Dragon Shrine Entrance: Located on the south side (19, 29).
+- Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
+- Dialogue Loops: If an interaction fails, check facing and distance.
+- Landing from Water: Can land on any adjacent FLOOR-type tile.
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
-
-## Discovered Locations
-- Dragon Shrine (3_82): Entrance at (19, 29) in Dragon's Den.
-- Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
-- Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 
 ## League Analyst Advice [Turn 35446]
 - Team Evaluation: Top-heavy. Typhlosion (49) and Graveler (48) are ready, others are weak.
@@ -39,4 +34,4 @@
 - Recommendations:
   - Level support Pokémon to 40+.
   - Teach Ice Punch to Typhlosion (buy in Goldenrod).
-  - Consider replacing HM slaves with higher-level Pokémon from Victory Road (e.g., Ursaring, Donphan).
+  - Consider replacing HM slaves with higher-level Pokémon from Victory Road.
