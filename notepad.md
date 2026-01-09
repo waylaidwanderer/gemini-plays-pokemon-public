@@ -50,3 +50,11 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv17 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
+- Reflection (Turn 37000):
+  1. Immediate Execution: Updated strategy and notepad immediately upon new info.
+  2. Notepad Hygiene: Cleaned up redundant HP logs and transient data.
+  3. Map Hygiene: Bruno and warps are marked.
+  4. Automation: Custom tools (pathfinding, menu) are being used correctly.
+  5. Goal Clarity: Primary goal is the Elite Four.
+  6. Error Analysis: Improved menu navigation by tracking starting positions. Strategy vs Machamp relies on Ghost immunity.
+- Turn 37000: XENON (Lv39) vs Machamp (Lv46). Strategy: TBD by advisor.
