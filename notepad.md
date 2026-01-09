@@ -39,3 +39,7 @@
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Time Tracking: Searched for HM07 in Tohjo Falls for ~90 turns before verifying location.
+## Strategy: Fly Map Navigation
+- From New Bark Town to Mahogany Town: 8 Down presses.
+- From Azalea Town to Mahogany Town: 5 Down presses.
+- Note: Always verify the starting location on the FLY map before counting.
