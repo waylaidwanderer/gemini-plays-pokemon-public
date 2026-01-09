@@ -25,7 +25,7 @@
 - DOOR: Traversable (warp).
 
 # Reflection (Turn 29126)
-- Status: On Route 37 (8, 0). Resuming hunt in grass.
-- Action: Moving south to grass, wiggle, then return.
+- Status: In Ecruteak (18, 35). Game State indicates I am here, despite previous turn's warp note.
+- Action: Calling execute_hunt_routine to force transition to Route 37.
 - Strategy: Loop execute_hunt_routine.
-- Note: Max Repel active. Blind Hunt continuing.
+- Note: Max Repel active. Possible state desync detected; trusting Game State.
