@@ -50,3 +50,7 @@
 - BUOY barrier at X=11 blocks direct western movement.
 - Plan: Teach HM06 Whirlpool to Ravioli (KRABBY) in slot 4.
 - Navigation: Surf north to bypass the BUOY line at Y=11, then west to reach the whirlpool.
+## Strategy Update: Finding the Dragon Shrine [Turn 35332]
+- Failed attempts to teach Whirlpool (Turn 35318, 35319, 35331) resulted in a position loop at (12, 21).
+- Decision: Move north to (12, 17) to break the loop and approach the BUOY barrier gap at Y=11.
+- Plan: Teach HM06 Whirlpool to Ravioli (KRABBY) after moving.
