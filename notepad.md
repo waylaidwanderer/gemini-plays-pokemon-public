@@ -7,23 +7,26 @@
 - Defeated:
   - Gyarados (Lv44): Turn 37120
   - Dragonite #1 (Lv47): Turn 37155
-- Active: Dragonite #2 (Lv47). Moves: Blizzard.
+- Active: Dragonite #2 (Lv47). Moves: Blizzard, Thunder, Twister, Hyper Beam.
 - Remaining: Dragonite #3, Aerodactyl, Charizard.
 
-### Turn Log
-- Turn 37160: ICARUS active. Start Revive cycle.
-- Turn 37165: GNEISS revived (70/141 HP).
-- Turn 37167: ICARUS fainted to Blizzard.
-- Turn 37168: GNEISS sent out (70/141 HP).
+### Turn Log (Revive Cycle 2)
 - Turn 37172: GNEISS fainted to Blizzard.
 - Turn 37174: Ouroboros sent out as fodder.
-- Turn 37175: Using Revive on GNEISS.
+- Turn 37176: Using Revive on GNEISS.
+
+### Turn Log (Revive Cycle 1 - Archive)
+- Turn 37160: ICARUS active.
+- Turn 37165: GNEISS revived (70/141 HP).
+- Turn 37167: ICARUS fainted to Blizzard.
+- Turn 37168: GNEISS sent out.
 
 ## Strategy vs Champion Lance
-- Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
-- Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout to sweep.
 - Inventory: 9 Revives. No healing items.
+
+## World Lore & Roaming Pokemon
+- Suicune: Roaming Johto.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -40,9 +43,6 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WARP_CARPET: Map transition.
-
-## Roaming Pokemon
-- Suicune: Roaming Johto.
 
 ## Team Overview
 - Calcifer (Lv54 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
