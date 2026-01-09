@@ -4,12 +4,13 @@
 
 # Current Status
 - **Location:** Goldenrod Dept Store 4F.
-- **Activity:** Checking Directory.
+- **Activity:** Checking Clerk at (13, 5).
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
 - **Shopping Notes:**
   - 2F: Medicine & Standard Repels only.
   - 3F: Battle Items (X-Items) only.
+  - 4F: Medicine Box (Directory). Checking for Max Repels.
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
