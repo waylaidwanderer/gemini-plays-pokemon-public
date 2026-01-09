@@ -6,13 +6,13 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (~25 steps remaining).
+- **Repel Status:** Max Repel has likely expired (Turn 36757).
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice at the exit.
-- **Exploration Strategy:** Use Max Repel. Reveal northern section (y < 34) and exit vicinity after battle.
-- **Rival Battle:** Malice challenged at (12, 9). 
-  - Defeated: Sneasel (Lv34), Feraligatr (Lv38). 
+- **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
+- **Rival Battle:** Malice challenged at (12, 9).
+  - Defeated: Sneasel (Lv34), Feraligatr (Lv38).
   - Current Opponent: Golbat (Lv36).
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
