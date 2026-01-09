@@ -8,8 +8,8 @@
 - Aerodactyl: DEFEATED
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite (~80% HP). Safeguard active (5 turns).
-- Team Status: Calcifer (89 HP), XENON (52 HP). No Revives left.
+- Status: Dragonite (~80% HP). Safeguard active (Turn 1/5). Accuracy -1.
+- Team Status: Calcifer (34 HP), XENON (52 HP). NO REVIVES LEFT.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -29,16 +29,18 @@
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
-- Safeguard: Prevents status conditions (SLP, PAR, etc.) and confusion from Outrage.
-- Outrage: User is locked for 2-3 turns. Confusion is prevented by Safeguard.
+- Safeguard: Prevents status conditions and confusion from Outrage.
+- Outrage: User is locked for 2-3 turns.
 - Party Sub-menu (Battle): [SWITCH, STATS, CANCEL].
-- Party Sub-menu (Overworld): [STATS, SWITCH, ITEM, CANCEL].
-- HM Sub-menu logic: HM moves appear at top. SWITCH position varies.
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Battle Strategy
 - Objective: Defeat Dragonite #3.
-- Method: Spam Return with Calcifer. XENON is backup for Night Shade fixed damage (41 HP) if needed.
-- Failed Hypothesis: Revive GNEISS (No Revives left in inventory).
-- Attempt Count (Return spam): 1.
-- Attempt Count (Revive GNEISS): 1 (Failed - out of items).
+- Strategy: Smokescreen luck + Night Shade chip.
+- Plan:
+    1. Smokescreen (Done).
+    2. Switch to XENON to preserve Calcifer and bait a miss.
+    3. Night Shade (41 fixed) if XENON survives.
+    4. Return with Calcifer to finish.
+- Failed Hypothesis: Revive GNEISS (Out of items).
+- Attempt Count (Smokescreen/Return): 1.
