@@ -34,3 +34,6 @@
 - Hypnosis Failure: Don't overthink misses (60% accuracy). It's rarely immunity unless specified.
 - Menu Precision: Always verify cursor position before pressing A. Use small sequences.
 - Rock Slide: Machamp has Rock coverage. Be careful with Flying/Fire/Bug types.
+### Menu Navigation
+- Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
+- Party Sub-Menu Order: STATS, SWITCH, ITEM, CANCEL.
