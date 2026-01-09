@@ -33,7 +33,7 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Confirmed on Turn 35644 that I accidentally selected CUT (HM01) instead of ICE PUNCH (TM33). Haunter CAN learn Ice Punch in Crystal. Verifying compatibility now to confirm strategy. Typhlosion remains incompatible with Ice Punch in Crystal.
+- **Move Compatibility:** Verifying TM33 Ice Punch compatibility for XENON (Haunter) on Turn 35653. Previous "NOT ABLE" observation on Turn 35645 was likely due to accidentally selecting HM01 CUT. Typhlosion is confirmed incompatible with Ice Punch in Crystal.
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
