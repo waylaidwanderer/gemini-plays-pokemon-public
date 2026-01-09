@@ -16,9 +16,9 @@
 - **Alternative:** Use Gneiss (Graveler) with Rollout/Rock moves against Flying types.
 
 ## Team Status & Preparation
-- Calcifer (Typhlosion, Lv54): Lead attacker. Needs Ice Punch.
+- Calcifer (Typhlosion, Lv54): Lead attacker. Return/Flame Wheel/Thunderpunch.
 - Gneiss (Graveler, Lv50): Physical tank, good for Aerodactyl/Charizard.
-- Xenon (Haunter, Lv40): Needs more levels/utility.
+- Xenon (Haunter, Lv40): Needs more levels/utility. Night Shade/Dream Eater.
 - Resources: ¥12660. 2 Revives. 0 Potions.
 
 ## persistence Knowledge
