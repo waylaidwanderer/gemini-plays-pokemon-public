@@ -34,8 +34,8 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Lake of Rage.
+- **Current Location:** New Bark Town.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Clearing Phone Call / Retrying Fly.
-- **Method:** Clear Wade's call -> Fly -> Goldenrod.
-- **Notes:** Overshot Goldenrod on Fly map and landed at Lake of Rage. Wade called immediately. Clearing text.
+- **Status:** Resetting Menu Navigation.
+- **Method:** Back out to Overworld -> Open Menu -> Verify Cursor -> Fly.
+- **Notes:** Previous Fly attempt failed (entered Pack/Item menu). Backing out to reset.
