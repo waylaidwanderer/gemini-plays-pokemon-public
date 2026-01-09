@@ -10,13 +10,13 @@
 
 ## Strategy for Lance (Champion)
 - Gyarados (Water/Flying): DEFEATED
-- Dragonite x3 (Dragon/Flying): Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake).
+- Dragonite x3 (Dragon/Flying): Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake). *Priority: Teach Ice Punch (TM33) to Calcifer if possible.*
 - Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. Calcifer (Lv56): 74/178 HP (Active)
+1. Calcifer (Lv56): 74/178 HP (Active, Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 40/40 HP
@@ -25,9 +25,9 @@
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
-- FLOOR: Traversable. Confirmed in KarensRoom (16_6).
-- WALL: Impassable. Confirmed in KarensRoom (16_6).
-- LADDER: Traversable. Transition to another map.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- LADDER: Traversable.
 - WARP_CARPET: Walking off map edge triggers transition.
 
 ### Lessons Learned
@@ -37,7 +37,3 @@
 ### Menu Navigation
 - Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
 - Party Sub-Menu Order: STATS, SWITCH, ITEM, CANCEL.
-## Battle with Lance (Cont.)
-- Turn 37505: Defeated Gyarados with Thunderpunch.
-- Turn 37506: Calcifer (74/178 HP) vs Aerodactyl (Healthy).
-- Move Selection: Thunderpunch (Super Effective).
