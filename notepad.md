@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Scrolling to SUPER REPEL.
+- **Status:** Scrolling past PARLYZ HEAL.
 - **Method:** Buy ~15 Super Repels.
-- **Notes:** Funds: ¥8772. List index 0 (Poke Ball). Need to scroll down ~10 slots.
+- **Notes:** Funds: ¥8772. Cursor at Parlyz Heal. Super Repel is further down.
