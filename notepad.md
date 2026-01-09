@@ -16,6 +16,8 @@
 - Turn 37188: GNEISS revived (70/141 HP).
 - Turn 37189: LAPIS fainted to Outrage.
 - Turn 37190: GNEISS sent out.
+- Turn 37193: GNEISS used ROLLOUT (Super-effective). GNEISS fainted to Outrage. Dragonite confused.
+- Turn 37194: Sending in Calcifer. Strategy: Revive GNEISS.
 
 ## Strategy & Resources
 - Plan: Maximize damage with ROLLOUT.
