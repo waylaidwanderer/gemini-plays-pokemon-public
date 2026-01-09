@@ -28,7 +28,7 @@
 - **Objective:** Obtain a Sun Stone.
 - **Location:** National Park. Method: 1st place.
 - **Preparation:** Lead with status-inflictor (XENON with Hypnosis). Targets: Scyther, Pinsir.
-- **Timing:** Currently Friday morning (Turn 36721). Contest is tomorrow.
+- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36723. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Psychic:** Super effective vs Poison/Ghost (XENON).
