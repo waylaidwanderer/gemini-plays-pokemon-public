@@ -13,18 +13,18 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON using LAPIS as fodder, then Hypnosis.
-- Dragonite #3 (Dragon/Flying): UPCOMING.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Use XENON (Hypnosis) to disable, then GNEISS (Rollout) or chip with Night Shade.
+- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray).
 
 ## Current Party Status
 1. Calcifer (Lv56): 31/178 HP (Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 0/40 HP (Fainted)
-5. XENON (Lv41): 0/104 HP (Fainted)
-6. LAPIS (Lv12): 32/32 HP (Active)
+5. XENON (Lv41): 52/104 HP (Active)
+6. LAPIS (Lv12): 0/32 HP (Fainted)
 
-## persistence Knowledge
+## Persistence Knowledge
 ### Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
@@ -35,8 +35,3 @@
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal).
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
-
-## Battle Strategy
-- Use fodder (LAPIS) to safely Revive XENON.
-- XENON uses Hypnosis to disable threats.
-- GNEISS (Rollout) is the backup for Charizard if XENON fails.
