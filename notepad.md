@@ -2,16 +2,10 @@
 
 ## Strategy for Indigo Plateau
 - Primary Goal: Challenge the Pokémon League.
-- Strategy: Navigate Tohjo Falls, Route 27, and Route 26 to reach Victory Road.
+- Strategy: Navigate Route 26 to reach Victory Road.
 - Progress:
-  - Enter Route 26 from Route 27. [Completed]
-  - Talk to person in house at (15, 57) to heal. [Completed]
-  - Collect fruit from tree at (14, 54). [Completed]
-  - Battle Cooltrainer Joyce at (10, 56). [Current]
-
-## Defeated Trainers (Route 26)
-- Fisher Scott at (10, 92). [Marker placed]
-- Psychic Richard at (13, 79). [Marker placed]
+  - Reach Victory Road via Route 26. [In Progress]
+    - Battle Cooltrainer Joyce at (10, 56). [Current]
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
