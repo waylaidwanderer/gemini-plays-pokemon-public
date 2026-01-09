@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Opening Start Menu.
-- **Method:** Press Start -> Verify Cursor -> Open Pokemon -> Select Mistral -> Fly.
-- **Notes:** Previous Fly attempt from New Bark Town (Left x3, Down) resulted in Silver Cave. Map cursor likely wraps or behaves unexpectedly. Will verify cursor start position visually.
+- **Status:** Entering Pokemon Menu.
+- **Method:** Press A (Select Pokemon) -> Verify Cursor Position.
+- **Notes:** Need to determine if Pokemon menu cursor resets to top or remembers Slot 4 (Mistral). Safe approach: enter menu, then check.
