@@ -3,12 +3,15 @@
 - Secondary Goal: Prepare team for the Elite Four.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn #35480]
+## Strategy: Heading to the Pokémon League
 - Plan:
   1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
   2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
+     - Training: Use Route 45 or Route 27 (once accessible).
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
+     - Note: Maintain HM Surf/Whirlpool/Fly utility when swapping.
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480]
+     - How: Sun Stone (Bug Contest) or Leaf Stone (Gina on Route 34 phone gift).
   5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
 
 ## Tile Mechanics (Global)
@@ -30,7 +33,7 @@
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
 - **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal (Turn 35538). This differs from GS.
 
-## League Analyst Advice [Turn 35458]
+## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
 - Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
 - Recommendations:
@@ -40,6 +43,7 @@
   - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
 - Training Goal: Level all active party members (especially Xenon) to 45+ for the Pokémon League.
 - Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts (Suicune, Raikou, Entei).
+
 ## Failed Hypotheses
 - **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538). Typhlosion is incompatible with Ice Punch in Crystal.
 - **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Confirmed (Turn 35558). The menu appeared after the press.
