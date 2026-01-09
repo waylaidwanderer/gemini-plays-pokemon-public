@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29124)
-- Status: On Route 37 (8, 0). Hunting in grass.
-- Action: Moving south to grass, wiggle, then return.
+# Reflection (Turn 29125)
+- Status: In Ecruteak (18, 35). Returned from Route 37.
+- Action: Transitioning back to Route 37 to continue hunt.
 - Strategy: Loop execute_hunt_routine.
-- Note: Max Repel active. Repel Trick working.
+- Note: Max Repel active (~230/250 steps). Expecting expiration soon.
