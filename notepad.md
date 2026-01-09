@@ -1,8 +1,8 @@
 # Johto Journey - Final Phase
 
 ## Strategy for Route 26 & Victory Road
-- **Start Turn:** 36500
-- **Strategy:** Navigate north to reach Victory Road.
+- **Start Turn:** 36500 (Friday, 4:00 AM)
+- **Status:** Navigating north towards Victory Road.
 - **Progress:**
   - Defeat trainers on Route 26. [In Progress]
   - Heal at the Heal House at (15, 57). [Completed]
