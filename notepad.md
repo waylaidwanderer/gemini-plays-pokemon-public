@@ -46,3 +46,4 @@
 - Attempt 4 (Turn 37450): Failed. Cursor management in main menu incorrect.
 - Attempt 5 (Turn 37451): Failed. Menu opened at OPTION instead of POKEMON.
 - Strategy: Move to (5, 11) to clear tile warning, then perform swap carefully.
+- Attempt 6 (Turn 37454): Failed. Cursor stayed on Pokedex despite Down press. Menu was open.
