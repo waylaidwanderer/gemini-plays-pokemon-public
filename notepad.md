@@ -55,3 +55,5 @@
 - **Plan:** Execute Left x3 to reach Mahogany/Ecruteak area. Verify location before heading South to Goldenrod.
 - **Fly Map Logic:** Confirmed 3x Left (with hold) moves approx 1 city distance (Silver Cave -> Blackthorn).
 - **Next Step:** Execute 3x Left to reach Mahogany Town. Then 3x Left to Ecruteak. Then Down to Goldenrod.
+- **Fly Map Logic:** Distance Blackthorn -> Mahogany is > 3x Left (400ms). Continuing Westward movement.
+- **Current Target:** Reach Mahogany or Ecruteak, then proceed South to Goldenrod.
