@@ -16,7 +16,8 @@
 - Objective: Reach Victory Road.
 - Progress:
   - Enter Route 26 from Route 27. [Completed]
-  - Navigate North to Victory Road. [Current]
+  - Navigate North to Victory Road. [In Progress]
+    - Battle Fisher at (10, 92). [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
