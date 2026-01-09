@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Navigating Start Menu.
-- **Method:** Cursor on PACK -> Up (Pokemon) -> A.
-- **Notes:** Correcting previous menu error. Mistral (Flyer) is in slot 4.
+- **Status:** Selecting Mistral for Fly.
+- **Method:** Cursor on Belladonna (Slot 5) -> Up (Mistral) -> A -> Select Fly.
+- **Notes:** Pokemon Menu cursor memory confirmed (was on Belladonna from item switch attempt). Field moves usually appear at top of menu.
