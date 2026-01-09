@@ -1,13 +1,13 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` `hold_ms` is tricky. `Right` from Mahogany failed consistently.
-- **Tool Issue:** `slow_press` movement failed in Turn 29685 (Moved 1 tile instead of full sequence). Possible lag or input drop. Relying on `find_path_bfs` for movement.
-- **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
-- **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
-- **Fly Map Logic:**
-  - `Violet -> Up` -> Ecruteak.
-  - `Ecruteak -> Right` -> Mahogany.
-  - `Mahogany -> Right` -> ??? (Failed).
-- **Current Strategy:** Talk to Granny in Mahogany Mart. Buy Max Repels if sold. Else, surf to Blackthorn.
+- **Tool Insight:** `navigate_menu` `hold_ms` is tricky.
+- **Efficiency:** Super Repels (2.5 ¥/step) are cheaper than Max Repels (2.8 ¥/step).
+- **Fly Map Logic:** `Violet -> Up` -> Ecruteak; `Ecruteak -> Right` -> Mahogany.
+
+# Current Status
+- **Location:** Mahogany Mart.
+- **Activity:** Buying 10 Super Repels.
+- **Time Started:** Turn 29696.
+- **Objective:** Buy Repels -> Fly to Ecruteak -> Start Roamer Hunt.
 
 # Current Status
 - **Location:** Mahogany Mart.
