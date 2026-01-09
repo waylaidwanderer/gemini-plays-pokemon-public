@@ -3,7 +3,6 @@
 ## Strategy for Route 26 & Victory Road
 - **Start Turn:** 36500 (Friday, 4:00 AM)
 - **Progress:**
-  - Battle Cooltrainer at (13, 24). [Current]
   - Defeat trainers on Route 26. [In Progress]
   - Heal at the Heal House at (15, 57). [Completed]
   - Collect Ice Berry at (14, 54). [Completed]
@@ -13,6 +12,7 @@
 - Psychic Richard at (13, 79).
 - Cooltrainer Joyce at (10, 56).
 - Cooltrainer Gaven at (9, 38).
+- Cooltrainer Jake at (14, 24). [Current]
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
