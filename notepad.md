@@ -1,34 +1,34 @@
 # Johto Journey - Final Phase
 
-## Primary Goal: Indigo Plateau
-- Objective: Challenge the Pokémon League.
-- Strategy: Navigate Tohjo Falls and Route 27 to reach Victory Road.
-
-## Strategy: Navigate Route 26
-- Objective: Reach Victory Road.
+## Strategy for Indigo Plateau
+- Primary Goal: Challenge the Pokémon League.
+- Strategy: Navigate Tohjo Falls, Route 27, and Route 26 to reach Victory Road.
 - Progress:
   - Enter Route 26 from Route 27. [Completed]
-  - Navigate North to Victory Road. [In Progress]
-    - Battle Psychic Richard at (13, 79). [Completed]
-    - Battle Fisher Scott at (10, 92). [Completed]
-    - Talk to person in house at (15, 57) to heal. [Completed]
-    - Navigate North to Victory Road. [In Progress]
-      - Collect fruit from tree at (14, 54). [Completed]
-      - Battle Cooltrainer Joyce at (10, 56). [Current]
-      - Explore North towards Victory Road. [Current]
+  - Talk to person in house at (15, 57) to heal. [Completed]
+  - Collect fruit from tree at (14, 54). [Completed]
+  - Battle Cooltrainer Joyce at (10, 56). [Current]
 
-## Strategy: Bug-Catching Contest (Saturday)
+## Defeated Trainers (Route 26)
+- Fisher Scott at (10, 92). [Marker placed]
+- Psychic Richard at (13, 79). [Marker placed]
+
+## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
 - Timing: Current Day: Friday. Contest is tomorrow (Saturday).
 
-## Tool Status
-- find_path_v2: Reliable for standard overworld navigation.
-- ice_pathfinder_v2: Refined to handle items and FLOOR_UP_WALL. Reliable.
-- solve_boulders_v2: Unverified in current context.
-- battle_strategist: Active. Use for wild encounters and trainer battles.
+## Battle Mechanics
+- Type Effectiveness:
+  - Psychic moves are extremely effective against Poison/Ghost types (like XENON).
+  - Water moves are 4x effective against Rock/Ground types (like GNEISS).
+  - Electric moves (like Thunderpunch) are super effective against Water types (like Blastoise).
+- Strategy:
+  - Switching resets stat drops and accuracy penalties.
+  - Bulky physical attackers (like GNEISS) are effective against high-speed Psychic threats.
+  - Fast status-inflictors (like XENON with Hypnosis) are great for catching or disrupting.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -36,7 +36,7 @@
 - TALL_GRASS: Traversable; may trigger wild encounters.
 - WATER: Traversable (requires SURF).
 - WATERFALL: Face tile while surfing and press A to climb. Triggers scripted movement.
-- LEDGE: Impassable from the \"low\" side. Jumpable from the \"high\" side.
+- LEDGE: Impassable from the "low" side. Jumpable from the "high" side.
 - FLOOR_UP_WALL: Impassable from the south/below. Functions as a wall in this direction.
 - COUNTER: Impassable; interactable from front.
 - LADDER: Warp to another floor/map. Triggers immediately on entry. Exception: On the Route 27 bridge, these tiles function as FLOOR.
@@ -47,10 +47,16 @@
 - LEDGE_HOP_LEFT: Jumpable from Right to Left. Impassable from Left to Right.
 - VOID: Impassable area outside the map boundaries.
 
-## Lessons Learned
+## Area-Specific Insights
 - Route 27 Bridge: Ladder sprites function as FLOOR tiles.
 - Route 27 Navigation: Item at (53, 12) is unreachable from the East due to a wall/ledge. Must approach from the West.
-- Battle Management: Switching resets stat drops and accuracy penalties.
+- Ice Path: B3F sides ARE connected; verify connectivity before committing to major backtracking.
+
+## Tool Status
+- find_path_v2: Reliable for standard overworld navigation.
+- ice_pathfinder_v2: Refined to handle items and FLOOR_UP_WALL. Reliable.
+- solve_boulders_v2: Unverified in current context.
+- battle_strategist: Active. Use for wild encounters and trainer battles.
+
+## General Lessons & Warnings
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
-- Map Connectivity: Verify connectivity before committing to major backtracking (e.g., Ice Path B3F sides ARE connected).
-- Type Matchups: Psychic moves are extremely effective against XENON (Poison type). Switch to a bulky physical attacker like GNEISS to handle high-speed Psychic threats.
