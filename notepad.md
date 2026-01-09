@@ -7,7 +7,8 @@
 - **Activity:** Flying to Ecruteak City.
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
-- **Objective:** Start Roamer Hunt on Route 37.
+- **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
+- **Status:** Canceling failed Flash learning. Using Pidgey to Fly from Party menu.
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) unseen tiles. Investigate later.
