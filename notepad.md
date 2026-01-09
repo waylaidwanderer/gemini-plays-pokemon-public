@@ -39,9 +39,9 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #51. Blind Hunt Loop.
+- **Current Cycle:** #52. Blind Hunt Loop.
 - **Note:** Super Repel Active. Gyarados (Lv36) leads to filter trash mobs.
 - **Action:** Executing hunt routine (Ecruteak <-> Route 37 transition).
 - **Status:** Beasts unseen in Pokedex. Must trigger encounter blindly.
 - **Strategy Update:** Transition to Rt 37, check grass, return. Repeat until encounter.
-- **Timestamp:** Turn 30250.
+- **Timestamp:** Turn 30252.
