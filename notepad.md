@@ -22,8 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29008)
-- Status: Hunting on Route 37/Ecruteak border.
-- Strategy: Blind hunt loop with Max Repel.
-- Progress: ~325 turns.
-- Next Update: ~Turn 29050 or upon event.
+# Reflection (Turn 29020)
+- Status: Repel wore off. Pausing to re-apply.
+- Progress: ~360 turns. Hunt paused.
+- Strategy: Clear text, open menu, use Max Repel.
