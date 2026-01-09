@@ -4,16 +4,16 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
           "type": "integer"
         }
       },
@@ -24,7 +24,7 @@
         "end_y"
       ]
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            is_obstacle = t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or has_obj\n            grid[(x, y)] = {'type': t_type, 'obstacle': is_obstacle}\n    \n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n    return []\n\nres = find_path_bfs(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string)\nprint(json.dumps(res))",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            # Buoys are obstacles for both walking and surfing in this map\n            is_obstacle = t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or has_obj\n            grid[(x, y)] = {'type': t_type, 'obstacle': is_obstacle}\n    \n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n    return []\n\nres = find_path_bfs(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string)\nprint(json.dumps(res))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -120,6 +120,11 @@
         "commit_message": "Fixed the tool to always return a JSON array (empty if no path found) and added basic error handling for XML parsing.",
         "timestamp": "2026-01-09T01:04:39.975Z",
         "action_counter": 35402
+      },
+      {
+        "commit_message": "Added BUOY to the list of obstacles and ensured it returns a JSON array of buttons.",
+        "timestamp": "2026-01-09T01:06:48.407Z",
+        "action_counter": 35404
       }
     ]
   },

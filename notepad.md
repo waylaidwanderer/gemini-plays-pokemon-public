@@ -30,11 +30,12 @@
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Path cleared [Turn 35387].
 
-## Strategy: Reaching the Dragon Shrine [Turn 35398, 4:57 PM]
+## Strategy: Reaching the Dragon Shrine [Turn 35405]
 - Ravioli (Krabby) used Whirlpool to clear (10, 20).
 - Discovery: The building at (19, 29) is the Dragon Shrine. It must be approached from the south.
 - Path:
-  1. Surf east to X=25, then south to Y=30.
-  2. Surf west along Y=30 to reach (13, 30).
-  3. Land at (14, 30) and walk east to (19, 30).
-  4. Enter the shrine at (19, 29).
+  1. Surf west to column 10.
+  2. Surf south through the cleared whirlpool at (10, 20) to Row 28.
+  3. Surf east along Row 28 to column 13.
+  4. Surf south to (13, 30) and land on the island at (14, 30).
+  5. Walk east to the entrance at (19, 29).
