@@ -1,11 +1,17 @@
 # Blackthorn City - Quest for the Rising Badge
-- Primary Goal: Acquire the Rising Badge [Started Turn 35145, 4:00 PM]
-- Requirement: Complete "Dragon User Challenge" in Dragon's Den.
-- Location: North of Blackthorn Gym.
+- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Turn 35416]
+- Secondary Goal: Speak with Professor Elm in New Bark Town.
+- Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Post-Badge Cleanup [Turn 35419]
-- Status: Rising Badge obtained.
-- Goal: Speak with Clair in Dragon's Den to receive TM24.
+## Strategy: Heading to the Pokémon League [Turn 35427]
+- Current Status: Dragon's Den B1F. TM24 (Dragonbreath) received.
+- Plan:
+  1. Exit Dragon's Den B1F via ladder at (20, 3).
+  2. Exit Dragon's Den 1F.
+  3. Return to Blackthorn City.
+  4. Fly to New Bark Town.
+  5. Speak with Professor Elm.
+  6. Surf east from New Bark Town to reach the Pokémon League.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile. Verified.
@@ -18,9 +24,8 @@
 
 ## Lessons Learned
 - Clair's Badge: Requires extra trial in Dragon's Den.
-- NPC Interaction: Counter tiles and NPCs act as barriers.
-- Wild Encounters: Magikarp and Dratini are common. Use Repels to avoid interruptions.
 - Navigation: Building entrances are often on the south side.
+- Post-Badge: Go to New Bark Town before heading to the League.
 
 ## Phone Contacts & Events
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
