@@ -195,7 +195,7 @@
         "directions"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    directions = input_data.get('directions', [])\n    hold_ms = input_data.get('hold_ms', 250)\n    interval_ms = input_data.get('interval_ms', 300)\n    \n    buttons_to_press = []\n    \n    for d in directions:\n        buttons_to_press.append(d)\n        if hold_ms > 0:\n            pass # System handles execution, we just provide the list.\n        \n        buttons_to_press.append(f\"sleep {interval_ms}\")\n\n    # Use json.dumps to ensure valid JSON output (double quotes)\n    print(json.dumps({\"buttons\": buttons_to_press}))",
+    "python_script": "import json\n\ndef run(input_data):\n    directions = input_data.get('directions', [])\n    interval_ms = input_data.get('interval_ms', 300)\n    \n    buttons_to_press = []\n    \n    for d in directions:\n        buttons_to_press.append(d)\n        # We append a sleep after each button press to simulate the interval\n        buttons_to_press.append(f\"sleep {interval_ms}\")\n\n    # Output MUST be a JSON list of strings, e.g. [\"A\", \"sleep 300\", \"B\"]\n    print(json.dumps(buttons_to_press))",
     "history": [
       {
         "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
@@ -216,6 +216,11 @@
         "commit_message": "Fixed JSON output formatting by using json.dumps to ensure double quotes for strings.",
         "timestamp": "2026-01-09T17:02:45.868Z",
         "action_counter": 30020
+      },
+      {
+        "commit_message": "Fixed output format to be a JSON array of strings, not an object with a 'buttons' key, matching system requirements.",
+        "timestamp": "2026-01-09T17:03:35.692Z",
+        "action_counter": 30022
       }
     ]
   },
