@@ -2,9 +2,9 @@
 
 ## Strategy for Route 26 & Victory Road
 - **Start Turn:** 36500 (Friday, 4:00 AM)
+- **Status:** Navigating north towards Victory Road.
 - **Progress:**
   - Defeat trainers on Route 26. [In Progress]
-    - Battle Cooltrainer Jake at (14, 24). [Completed]
   - Heal at the Heal House at (15, 57). [Completed]
   - Collect Ice Berry at (14, 54). [Completed]
 
@@ -14,41 +14,40 @@
 - Cooltrainer Joyce at (10, 56).
 - Cooltrainer Gaven at (9, 38).
 - Cooltrainer Jake at (14, 24).
-- Cooltrainer Jake at (14, 24).
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Current Day: Friday. Contest is tomorrow (Saturday).
+- Timing: Friday (4:37 AM). Contest is tomorrow.
 
 ## Battle Mechanics
 - Type Effectiveness:
-  - Psychic moves are super effective against Poison/Ghost types (like XENON).
-  - Water moves are 4x effective against Rock/Ground types (like GNEISS).
-  - Fire moves are super effective against Grass/Poison types (like Victreebel).
-  - Electric moves are super effective against Water types (like Kingler/Blastoise).
+  - Psychic super effective against Poison/Ghost (XENON).
+  - Water 4x effective against Rock/Ground (GNEISS).
+  - Fire super effective against Grass/Poison (Victreebel/Parasect).
+  - Electric super effective against Water (Kingler/Blastoise/Golduck).
 - Strategy:
-  - Switching resets stat drops and accuracy penalties.
-  - Bulky physical attackers (like GNEISS) are effective against high-speed Psychic threats.
+  - Switching resets stat drops.
+  - Bulky physical attackers (GNEISS) vs high-speed Psychic.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- TALL_GRASS: Traversable; may trigger wild encounters.
+- TALL_GRASS: Traversable; wild encounters.
 - WATER: Traversable (requires SURF).
-- WATERFALL: Face tile while surfing and press A to climb.
-- LEDGE: Impassable from "low", jumpable from "high".
+- WATERFALL: Face and A to climb.
+- LEDGE: Impassable from low, jumpable from high.
 - FLOOR_UP_WALL: Impassable from South.
-- LADDER: Warp (except Route 27 bridge where it's FLOOR).
+- LADDER: Warp (except Route 27 bridge).
 - PC: Interact from front.
 - ICE: Sliding.
 - LEDGE_HOP_DOWN: Jump N->S.
 
 ## Area-Specific Insights
-- Route 27 Bridge: Ladder sprites function as FLOOR tiles.
-- Route 27 Navigation: Item at (53, 12) unreachable from East.
+- Route 27 Bridge: Ladders are FLOOR.
+- Route 27: Item at (53, 12) unreachable from East.
 - Ice Path: B3F sides ARE connected.
 
 ## Tool Status
@@ -57,4 +56,4 @@
 - battle_strategist: Active.
 
 ## General Lessons & Warnings
-- Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
+- Always verify map ID and coordinates after warps.
