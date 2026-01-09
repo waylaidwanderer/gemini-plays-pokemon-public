@@ -1,7 +1,7 @@
 # Johto Journey - Final Phase
 
 ## Elite Four Challenge (Started Turn 36866)
-- Defeated: Will (Psychic), Koga (Poison), Bruno (Fighting).
+- Defeated: Will (Psychic), Koga (Poison), Bruno (Fighting), Karen (Dark).
 - Current: Karen (Dark).
   - Umbreon (Lv42): Defeated.
   - Vileplume (Lv42): Defeated.
