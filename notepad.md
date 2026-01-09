@@ -50,3 +50,6 @@
 - **Fly Map Correction:** 'Down' from Silver Cave (or failed previous move) led to Blackthorn City.
 - **Current Location:** Blackthorn City.
 - **Path to Goldenrod:** Blackthorn -> Left -> Mahogany -> Left -> Ecruteak -> Down -> Goldenrod.
+- **Fly Map Movement:** 3x Left from Silver Cave only reached Blackthorn. Cursor movement appears granular or sticky, not 1-click-per-city.
+- **Hypothesis:** Reaching Ecruteak from Blackthorn requires multiple Left inputs (approx 3-6).
+- **Plan:** Execute Left x3 to reach Mahogany/Ecruteak area. Verify location before heading South to Goldenrod.
