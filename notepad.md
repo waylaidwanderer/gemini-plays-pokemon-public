@@ -2,8 +2,8 @@
 
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Dragonite (Lv47).
-- Status: 23/138 HP. (Resisted Hyper Beam). Opponent recharging.
-- Moves: Thunder, Thunder Wave, Hyper Beam.
+- Status: Fainted. (Defeated by Twister).
+- Moves: Thunder, Thunder Wave, Hyper Beam, Twister.
 - Defeated: Gyarados (Lv44).
 - Remaining: Dragonite x2, Aerodactyl, Charizard.
 
