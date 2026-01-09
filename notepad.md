@@ -30,3 +30,5 @@
 - **Strategy:** Switching resets stat drops. Use GNEISS vs Fire/Psychic threats.
 - **Navigation Info:** The plateau at y=34 is blocked by ledges (row 35) and FLOOR_UP_WALL tiles (row 34, x=3-10). The path north is clear at x=13.
 - **Warp Info:** Ladder at (17, 33) is on the northern plateau.
+- **Items Found:**
+  - (18, 29): Poke Ball (ID 4) spotted.
