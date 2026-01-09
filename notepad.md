@@ -8,7 +8,7 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Fly Map Open. Cursor at Cianwood. Navigation logic: Goldenrod -> Up -> Cianwood (Unexpected). Trying Right to reach Olivine/Ecruteak.
+- **Status:** Fly Map Open. Cursor stuck at Cianwood. Previous 'Right' failed (hold_ms=250 < 300). Retrying Right x2 with hold_ms=350.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
