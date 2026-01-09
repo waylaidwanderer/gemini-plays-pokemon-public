@@ -1,7 +1,4 @@
 # Johto Journey - Final Phase
-- Primary Goal: Challenge the Pokémon League at Indigo Plateau [Started Turn 35416, 5:00 PM]
-- Secondary Goal: Participate in the Bug-Catching Contest (Thursday) [Started Turn 35644, 7:00 PM]
-- Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
 ## Strategy: Preparing for the Elite Four
 - Training: Level all active members (especially XENON and Ouroboros) to 45+ at Route 45 or Route 27.
@@ -15,9 +12,10 @@
 - Steps:
   1. Exit Dragon's Den and go to Blackthorn Pokecenter. [Done]
   2. Swap Ravioli (KRABBY) for ICARUS (PIDGEY) at the PC. [Done]
-  3. Fly to Goldenrod City. [In Progress]
-  4. Head north to National Park (Route 35 Gate).
-  5. Participate in the contest and aim for 1st place (Sun Stone).
+  3. Exit Pokecenter to Blackthorn City overworld. [In Progress]
+  4. Fly to Goldenrod City.
+  5. Head north to National Park (Route 35 Gate).
+  6. Participate in the contest and aim for 1st place (Sun Stone).
 
 ## Tile Mechanics (Global)
 - FLOOR: Standard traversable tile. Verified.
@@ -38,7 +36,7 @@
 ## Lessons Learned
 - Dragon Shrine Entrance: Located on the south side (19, 29).
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
-- Fly: Can be used to quickly travel between cities from the Pokémon menu.
+- Fly: Can be used to quickly travel between cities from the Pokémon menu. **Must be outdoors.**
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
 - **Move Compatibility (CRITICAL):**
   - XENON (Haunter): NOT ABLE to learn TM33 Ice Punch (Turn 35663).
