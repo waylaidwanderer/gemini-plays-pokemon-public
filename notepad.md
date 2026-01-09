@@ -4,7 +4,7 @@
 - **Start Turn:** 36500 (Friday, 4:00 AM)
 - **Progress:**
   - Defeat trainers on Route 26. [In Progress]
-    - Battle Cooltrainer Jake at (14, 24). [Current]
+    - Battle Cooltrainer Jake at (14, 24). [Completed]
   - Heal at the Heal House at (15, 57). [Completed]
   - Collect Ice Berry at (14, 54). [Completed]
 

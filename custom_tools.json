@@ -261,5 +261,26 @@
         "action_counter": 36603
       }
     ]
+  },
+  "find_closest_unseen_path_v3": {
+    "description": "Finds the closest reachable unseen tile and returns a JSON array of buttons to reach it.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": []
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    player_pos = None\n    \n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = {\n                'type': tile.attrib['type'],\n                'seen': tile.attrib['seen'] == 'true',\n                'has_object': tile.get('has-object') == 'true'\n            }\n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n\n    if not player_pos:\n        print(json.dumps([]))\n        return\n\n    walkable = [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"BRIDGE\", \"LADDER\", \"STAIRS\", \"DOOR\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\"]\n    \n    queue = deque([(player_pos[0], player_pos[1], [])])\n    visited = {player_pos}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                if not grid[(nx, ny)]['seen']:\n                    print(json.dumps(path))\n                    return\n                \n                if (nx, ny) not in visited:\n                    t = grid[(nx, ny)]\n                    if t['type'] in walkable and not t['has_object']:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n    print(json.dumps([]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Refined find_closest_unseen_path to return a valid JSON array of buttons, handling current map ID and position dynamically.",
+        "timestamp": "2026-01-09T12:33:46.002Z",
+        "action_counter": 36616
+      }
+    ]
   }
 }
