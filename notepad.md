@@ -8,14 +8,15 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Pack Open (TM/HM Pocket). Switching to Items Pocket (Left x3).
+- **Status:** Using Super Repel.
 - **Next Steps:**
-  1. Switch to Items Pocket.
-  2. Find and Use Super Repel.
+  1. Confirm Repel usage.
+  2. Exit Menu (B x3).
   3. Walk South to Route 37.
   4. Start `execute_hunt_routine`.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
+  - **Ecruteak City:** Northern edges and Barrier Station area (27, 11). Investigate later.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
