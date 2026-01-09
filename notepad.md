@@ -20,6 +20,7 @@
   - Turn 36890: Defeated Will.
   - Turn 36928: Defeated Koga.
   - Turn 36951: Healed Calcifer for Bruno.
+- Turn Count Correction: My turn count reporting was off by one in Turn 36951. Current turn is 36952. I will ensure accuracy moving forward.
 
 ## Shopping List
 - Revives (10) - Done (Turn 36856)
