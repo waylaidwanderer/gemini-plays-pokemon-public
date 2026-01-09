@@ -15,14 +15,14 @@
   3. Exit Pokecenter and Fly to New Bark Town. [Done]
   4. Surf east to Route 27. [Done]
 
-## Strategy: Reach Route 27
-- Objective: Travel from New Bark Town to Route 27 to begin the trek to Kanto.
-- Requirements: Pokémon with SURF (LAPIS has it).
+## Strategy: Explore Route 27 and Reach Tohjo Falls
+- Objective: Navigate east through Route 27 to reach Tohjo Falls, the gateway to Kanto.
+- Requirements: Pokémon with SURF (LAPIS) and WHIRLPOOL.
 - Steps:
-  1. Fly to New Bark Town. [Done]
-  2. Stand on the water's edge at the east side of town. [Done]
-  3. Use SURF to enter the water. [Done]
-  4. Navigate east past the map boundary. [Done]
+  1. Navigate around rock islands by using land patches.
+  2. Interact with NPCs (Fisher at 21, 10) for information or battles.
+  3. Locate the entrance to Tohjo Falls.
+  4. Use Whirlpool to clear any obstacles if necessary.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
