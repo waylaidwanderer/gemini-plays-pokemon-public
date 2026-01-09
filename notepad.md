@@ -24,9 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29110)
-- Status: In Pokedex List (Johto Order).
-- Action: Scrolling UP to check entries #238 (Raikou) and #239 (Entei).
-- Observation: Currently seeing #241 (Dratini) at the top. Must look higher.
-- Goal: Determine if Raikou/Entei are 'Seen'.
-- Note: Max Repel active.
+# Reflection (Turn 29112)
+- Status: In Pokedex List. Scrolled UP by mistake.
+- Action: Scrolling DOWN (x8) to reach ~#238.
+- Goal: Verify if Raikou (#238) / Entei (#239) are 'Seen'.
+- Note: Max Repel active. Seen: 194. Owned: 45.
