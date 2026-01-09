@@ -44,3 +44,5 @@
 - **Menu Navigation Lesson:** Do not batch navigation (Down) and selection (A) into a single un-ordered list. The tool executes them in order. To select an item deep in a list: Select Menu -> A -> Scroll Down -> A.
 - **Correction:** Backing out of Pokedex to retry Super Repel application properly.
 - **Menu Correction:** Was in TM pocket. Moving Left x3 to reach Items pocket for Super Repel.
+- **Action:** Resuming automated hunt loop using `execute_hunt_routine`. Super Repel is active.
+- **Hunt Logic:** If the tool completes without interruption, no Beast was in the grass. Returning to Ecruteak resets the map. If interrupted by battle, it's a Legendary Beast.
