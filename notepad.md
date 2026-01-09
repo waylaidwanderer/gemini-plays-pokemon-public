@@ -12,8 +12,9 @@
 - **Mechanics:** No trainers except Rival Malice at the exit.
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
 - **Rival Battle:** Malice challenged at (12, 9).
-  - Defeated: Sneasel (Lv34), Feraligatr (Lv38).
-  - Current Opponent: Golbat (Lv36).
+  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36).
+  - Current Opponent: Switching to next.
+  - Status: Ouroboros fainted. XENON is Lv39 and learning DREAM EATER.
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
