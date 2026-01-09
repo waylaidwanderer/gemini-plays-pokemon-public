@@ -10,7 +10,7 @@
     - Ariados (Lv40): Defeated (Turn 36906).
     - Forretress (Lv43): Defeated (Turn 36908).
     - Muk (Lv42): Defeated (Turn 36916).
-    - Crobat (Lv44): Weak to Rock. GNEISS is badly poisoned. (Switching to Calcifer)
+    - Crobat (Lv44): Weak to Rock/Electric. Calcifer HP 73/164. Crobat has +1 Evasion. (In progress)
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
   - **Will's Roster:** Xatu (40), Slowbro (41), Xatu (42), Exeggutor (41), Jynx (41).
 - **Team Roles:**
