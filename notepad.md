@@ -15,13 +15,14 @@
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
 - Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use XENON for status. Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep.
-- Inventory Check: No major healing items left. 10 Revives.
+- Plan: Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep. Use fodder to revive key members.
+- Inventory Check: No major healing items. 10 Revives.
 - Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS.
 
 ## Elite Four Challenge Tracking
 - Turn 37150: Used Max Revive on GNEISS.
 - Turn 37155: GNEISS fainted to Dragonite #2's Blizzard.
+- Turn 37157: ICARUS active. Using Revive on GNEISS.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -38,8 +39,6 @@
 - **FLOOR:** Traversable. (Verified on LancesRoom red carpet).
 - **WALL:** Impassable. (Verified on LancesRoom perimeter).
 - **WARP_CARPET:** Map transition. (Verified at map edges).
-
-- Suicune roaming.
 
 ## Team Overview (Movesets)
 - Calcifer (Lv54 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
