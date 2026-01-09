@@ -13,7 +13,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Hypnosis + Night Shade.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON, use Hypnosis + Night Shade.
 - Dragonite #3 (Dragon/Flying): UPCOMING.
 
 ## Current Party Status
@@ -21,8 +21,8 @@
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 0/40 HP (Fainted)
-5. XENON (Lv41): 52/104 HP (Active)
-6. LAPIS (Lv12): 32/32 HP
+5. XENON (Lv41): 0/104 HP (Fainted)
+6. LAPIS (Lv12): 32/32 HP (Active)
 
 ## persistence Knowledge
 ### Tile Mechanics (Global)
@@ -37,6 +37,6 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle Strategy
+- Use fainted/low-level Pokemon as fodder to safely use Revives/Items.
 - Use XENON to neutralize threats with Hypnosis.
-- Use Night Shade for reliable 41 damage.
-- Preserve Calcifer and GNEISS for the final cleanup if XENON falls.
+- Use GNEISS (Rollout) against Charizard once stabilized.
