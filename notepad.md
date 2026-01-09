@@ -22,7 +22,9 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28972)
-- **Status:** In Ecruteak. Turning back to Route 37.
-- **Progress:** ~309 turns. Hunt loop active.
-- **Hygiene:** Verified.
+# Reflection (Turn 28973) - Mandatory 50-Turn Check
+- **Execution:** No tasks deferred. Menu error corrected quickly.
+- **Hygiene:** Notepad clean. Map markers for Ecruteak transition verified.
+- **Strategy:** Hunt loop via 'execute_hunt_routine' is stable. Repel trick active.
+- **Status:** On Route 37 (7, 0). Resuming grass check.
+- **Goal:** Continue hunting until successful or ~Turn 29100 re-evaluation.
