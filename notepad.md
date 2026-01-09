@@ -44,5 +44,5 @@
 
 # Session Timestamp: Turn 29960
 - **Reflection:** Reviewing navigation failures. Focusing on strict verification of cursor positions before confirming actions.
-- **Cursor Memory:** The Party Menu cursor appears to remember its last position (Mistral/Cancel). Must verify start position upon re-entry.
+- **Cursor Memory:** Confirmed: Party Menu cursor remembers last position (Mistral). Sub-menu cursor likely also remembers. Verify before acting.
 - **Immediate Task:** Enter Party Menu and identify cursor location.
