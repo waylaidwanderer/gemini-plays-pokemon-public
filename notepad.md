@@ -3,23 +3,21 @@
 
 ## Strategy for Karen (Dark)
 - Umbreon: DEFEATED
-- Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
 - Gengar: DEFEATED
 - Murkrow: DEFEATED
-- Houndoom: Dark/Fire. Use Calcifer (Return) vs lower physical defense.
+- Houndoom: DEFEATED
+- Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
 - Note: No healing items left. Aggressive play required.
 
 ## Battle with Karen (Cont.)
-- Turn 37480: Calcifer used Return (~30% damage). Houndoom used Crunch (31 damage).
-- Turn 37481: Calcifer (70/174 HP) vs Houndoom (~70% HP).
-- Turn 37482: Elite Four Karen used Max Potion on Houndoom. Calcifer used Return (~30% damage).
-- Turn 37483: Calcifer (70/174 HP) vs Houndoom (~70% HP).
-- Goal: Finish Houndoom with Return.
+- Turn 37480-37484: Defeated Houndoom with Return.
+- Turn 37485: Calcifer (74/178 HP) vs Vileplume (Lv42, Healthy).
+- Goal: Finish Vileplume with Flame Wheel.
 
 ## Current Party Status
 1. ICARUS (Lv19): 50/50 HP
 2. GNEISS (Lv51): 35/144 HP
-3. Calcifer (Lv55): 70/174 HP (Active)
+3. Calcifer (Lv56): 74/178 HP (Active)
 4. Ouroboros (Lv15): 40/40 HP
 5. XENON (Lv41): 52/104 HP
 6. LAPIS (Lv12): 32/32 HP
