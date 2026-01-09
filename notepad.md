@@ -16,7 +16,7 @@
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. ICARUS (Lv19): 50/50 HP (Evolving to Pidgeotto)
+1. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 2. GNEISS (Lv51): 35/144 HP
 3. Calcifer (Lv56): 74/178 HP (Active)
 4. Ouroboros (Lv15): 40/40 HP
