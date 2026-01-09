@@ -203,12 +203,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.load(sys.stdin)\n        buttons = input_data.get(\"buttons\", [])\n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\n# input_data is automatically provided as a dictionary\nprint(json.dumps(input_data.get(\"buttons\", [])))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-09T18:06:03.650Z",
         "action_counter": 37111
+      },
+      {
+        "commit_message": "Fixing input handling to use the global input_data dictionary directly.",
+        "timestamp": "2026-01-09T18:06:47.644Z",
+        "action_counter": 37113
       }
     ]
   }
