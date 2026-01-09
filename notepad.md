@@ -2,10 +2,12 @@
 
 ## Strategy for Route 26 & Victory Road
 - **Start Turn:** 36500 (Friday, 4:40 AM)
-- **Strategy:** Navigate north to reach Victory Road.
+- **Status:** Navigating north towards Victory Road.
 - **Progress:**
-  - Defeat trainers on Route 26. [In Progress]
+  - Read Sign at (8, 6). [Current]
   - Enter house at (7, 5). [Current]
+  - Spoke to Cooltrainer F at (6, 8). [Completed]
+  - Defeat trainers on Route 26. [In Progress]
   - Heal at the Heal House at (15, 57). [Completed]
   - Collect Ice Berry at (14, 54). [Completed]
 
