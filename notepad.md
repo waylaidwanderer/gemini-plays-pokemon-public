@@ -30,9 +30,9 @@
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Likely path to the Dragon Shrine.
 
-## Strategy: Reaching the Dragon Shrine [Turn 35391]
+## Strategy: Reaching the Dragon Shrine [Turn 35396]
 - Ravioli (Krabby) used Whirlpool to clear (10, 20).
-- Current Position: (10, 15) in DragonsDenB1F.
-- Observation: Direct eastern path at Y=24 is blocked by WALLs/BUOYs.
-- Solution: Navigate north to Y=11 (clear passage), Surf east to X=21, then south to land on the island at (21, 22).
+- Current Position: (20, 24) in DragonsDenB1F.
+- Obstacle: HEADBUTT_TREE barrier at Y=26 (X=18-21) blocks the northern approach to the shrine.
+- Plan: Navigate around the trees via (17, 26) and explore the south side of the building (Y=29+) for the entrance.
 - Goal: Enter the shrine and complete the challenge.
