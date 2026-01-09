@@ -21,15 +21,11 @@
 
 ## Strategy: Search for HM07 Waterfall
 - Hypothesis: HM07 is located on one of the land patches in Tohjo Falls.
-- Plan:
-  1. Explore the eastern water and land patches. [Done]
-  2. Reach the western strip (Column 0).
-     - Move to (10, 15).
-     - Jump down ledge at (10, 16) to reach the southern area (Row 17).
-     - Walk west to (1, 17).
-     - Walk up to (1, 16) then left to (0, 16) to enter Column 0.
-     - Explore North in Column 0 to (0, 2).
-- Observation: Western strip is blocked by walls at Column 1 from Row 2 through 15. Access is from the southern ledge jump.
+- Current Plan:
+  1. Explore the eastern water and land patches. [Current]
+  2. If blocked, check if (15, 14) or (16, 14) allow jumping east/south.
+  3. Investigate the warp at (13, 15).
+- Observation: Western strip (Column 0) and southern floor (Row 17) are blocked by ledge collision at (10, 16) and (11, 16).
 - Observation: Moon Stone found at (2, 6). [Turn 35981]
 
 ## Tile Mechanics (Global)
