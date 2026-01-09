@@ -262,8 +262,8 @@
       }
     ]
   },
-  "find_closest_unseen_reachable_tile": {
-    "description": "Finds the closest unseen tile that is adjacent to a reachable walkable tile and returns its coordinates.",
+  "find_closest_unseen_path_v2": {
+    "description": "Finds the closest unseen tile adjacent to a reachable walkable tile and returns a JSON array of buttons to reach the adjacent walkable tile.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -279,12 +279,12 @@
         "start_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(json.dumps({\"error\": f\"Failed to parse XML: {str(e)}\"}))\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            grid[(x, y)] = (t_type, seen, has_object)\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    \n    walkable_types = {'FLOOR', 'TALL_GRASS', 'WATER', 'LADDER', 'BUOY', 'DOOR', 'CAVE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_UP', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT'}\n    \n    queue = deque([(start_x, start_y, 0)])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, dist = queue.popleft()\n        \n        # Check neighbors for unseen\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in grid:\n                    t_type, seen, has_object = grid[(nx, ny)]\n                    if not seen:\n                        print(json.dumps({'x': nx, 'y': ny, 'dist': dist + 1}))\n                        return\n                    \n                    if (nx, ny) not in visited and seen and t_type in walkable_types and not has_object:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, dist + 1))\n    \n    print(json.dumps(None))\n\nsolve()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_closest_unseen_path(xml_str, start_x, start_y):\n    root = ET.fromstring(xml_str)\n    grid = {}\n    for row in root.findall(\"Row\"):\n        y = int(row.attrib['id'])\n        for tile in row.findall(\"Tile\"):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = {\n                'type': tile.attrib['type'],\n                'seen': tile.attrib['seen'] == 'true',\n                'has_object': tile.get('has-object') == 'true'\n            }\n            \n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    walkable = [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"BRIDGE\", \"LADDER\", \"STAIRS\", \"DOOR\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\"]\n    \n    while queue:\n        x, y, path = queue.popleft()\n        \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid:\n                if not grid[(nx, ny)]['seen']:\n                    return path\n                \n                if (nx, ny) not in visited:\n                    t_info = grid[(nx, ny)]\n                    if t_info['type'] in walkable and not t_info['has_object']:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny, path + [btn]))\n    return []\n\n# map_xml_string is globally available\nbuttons = find_closest_unseen_path(map_xml_string, input_data['start_x'], input_data['start_y'])\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-09T11:28:19.937Z",
-        "action_counter": 36504
+        "timestamp": "2026-01-09T12:24:12.057Z",
+        "action_counter": 36603
       }
     ]
   }
