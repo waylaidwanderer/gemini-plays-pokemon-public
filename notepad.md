@@ -30,7 +30,8 @@
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Likely path to the Dragon Shrine.
 
-## Strategy: Reaching the Dragon Shrine [Turn 35377]
-- Ravioli (Krabby) knows HM06 Whirlpool. Max Repel is active (Turn 35376).
-- Pathing: From (20, 9), Surf south to (20, 11), then west along Y=11 to (10, 11) to bypass the buoy barrier (starts at Y=16 on X=11). Then south to whirlpool at (10, 20).
+## Strategy: Reaching the Dragon Shrine [Turn 35388]
+- Ravioli (Krabby) used Whirlpool to clear the obstacle at (10, 20).
+- Current Position: (10, 19).
+- Next Step: Surf south through the gap at (10, 20) and explore the central area for the shrine entrance.
 - Goal: Reach the shrine in the center.
