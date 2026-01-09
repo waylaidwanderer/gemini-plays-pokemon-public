@@ -15,13 +15,14 @@
   4. Locate the eastern exit.
 
 ## Strategy: Search for HM07 Waterfall
-- Hypothesis: HM07 is located on one of the land patches in Tohjo Falls.
-- Current Plan:
-  1. Explore the eastern water and land patches. [Current]
-  2. If blocked, check if (15, 14) or (16, 14) allow jumping east/south.
-  3. Investigate the warp at (13, 15).
-- Observation: Moon Stone found at (2, 6). [Turn 35981]
-- Warning: If HM07 is not found here, it may be in Ice Path (missed earlier).
+- Verified Location: Ice Path 1F, northeast corner of main floor. [Confirmed by location_analyst Turn 36062]
+- Tohjo Falls Search: Conducted from Turn 35972 to 36062. Result: Moon Stone found, HM07 NOT present.
+- New Plan:
+  1. Exit Tohjo Falls to Route 27.
+  2. Fly to Mahogany Town.
+  3. Travel east to Route 44 and enter Ice Path.
+  4. Locate and pick up HM07 Waterfall.
+  5. Return to Tohjo Falls and climb the waterfall.
 
 ## Tile Mechanics (Tohjo Falls specific)
 - Ledge (FLOOR_UP_WALL): Impassable from North at (9, 16) through (12, 16). [7 failed attempts total]
