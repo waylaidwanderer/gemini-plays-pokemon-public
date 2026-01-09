@@ -48,3 +48,5 @@
 - Shopping List: Revives (10) - Done, Full Restores (3) - Done.
 - Turn 36979: Hitmontop fainted.
 - Turn 36980: Bruno sent out Onix (Lv43). Switching to GNEISS.
+- Turn 36984: Hitmonlee fainted.
+- Turn 36984: Bruno sent out Hitmonchan (Lv42). GNEISS is out.
