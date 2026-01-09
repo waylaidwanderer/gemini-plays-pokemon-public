@@ -1,21 +1,22 @@
 # Johto Elite Four Challenge
 - Challenge Start: Turn 37260. [Friday 11:58 AM]
 
-## Strategy for Karen (Dark)
-- Umbreon: DEFEATED
-- Gengar: DEFEATED
-- Murkrow: DEFEATED
-- Houndoom: DEFEATED
-- Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
-- Note: No healing items left. Aggressive play required.
+## Elite Four Progress
+1. Will (Psychic): DEFEATED
+2. Koga (Poison/Bug): DEFEATED
+3. Bruno (Fighting/Rock): DEFEATED
+4. Karen (Dark): DEFEATED
+5. Lance (Champion): NEXT
 
-## Battle with Karen (Cont.)
-- Turn 37480-37484: Defeated Houndoom with Return.
-- Turn 37485: Calcifer (74/178 HP) vs Vileplume (Lv42, Healthy).
-- Goal: Finish Vileplume with Flame Wheel.
+## Strategy for Lance (Champion)
+- Gyarados (Water/Flying): Use Calcifer (Thunderpunch).
+- Dragonite x3 (Dragon/Flying): Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake).
+- Aerodactyl (Rock/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
+- Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
+- Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. ICARUS (Lv19): 50/50 HP
+1. ICARUS (Lv19): 50/50 HP (Evolving to Pidgeotto)
 2. GNEISS (Lv51): 35/144 HP
 3. Calcifer (Lv56): 74/178 HP (Active)
 4. Ouroboros (Lv15): 40/40 HP
