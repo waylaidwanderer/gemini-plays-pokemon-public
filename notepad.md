@@ -1,15 +1,14 @@
-# Johto Elite Four Challenge
-- Challenge Start: Turn 37260. [Friday 11:58 AM]
+# Johto Elite Four Challenge - COMPLETED
+- Challenge Start: Turn 37260.
+- Victory: Turn 37647.
 
-## Strategy for Lance (Champion)
-- Gyarados: DEFEATED
-- Dragonite #1 (Lv47): DEFEATED
-- Dragonite #2 (Lv47): DEFEATED
-- Aerodactyl: DEFEATED
-- Charizard: DEFEATED
-- Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite (~75% HP). Safeguard active (Turn 2/5). Accuracy -1.
-- Team Status: Calcifer (34 HP). ALL OTHERS FAINTED. NO REVIVES LEFT.
+## Champions of Johto
+- Calcifer (Typhlosion) - MVP of the final battle.
+- GNEISS (Graveler)
+- ICARUS (Pidgeotto)
+- Ouroboros (Dratini)
+- XENON (Haunter)
+- LAPIS (Poliwag)
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -31,10 +30,9 @@
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
 - Safeguard: Prevents status conditions and confusion from Outrage.
 - Outrage: User is locked for 2-3 turns.
-- Party Sub-menu (Battle): [SWITCH, STATS, CANCEL].
 - Status Management: Paralysis reduces speed by 75%.
 
-## Battle Strategy
-- Objective: Defeat Dragonite #3.
-- Strategy: Return spam and hope for misses.
-- Plan: Use Return until Dragonite faints. If Calcifer faints, the run ends.
+## Post-Game Strategy
+- Objective: Obtain the S.S. Ticket from Professor Elm.
+- Objective: Travel to Olivine City to board the S.S. Aqua to Kanto.
+- Objective: Collect the 8 Kanto Badges.
