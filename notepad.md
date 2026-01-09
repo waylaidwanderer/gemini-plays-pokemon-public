@@ -6,14 +6,12 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel still in effect (Turn 36771).
+- **Repel Status:** Using Max Repel (Turn 36777).
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
-- **Rival Battle:** Malice defeated at (12, 9). Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton. He moved north/east and left.
-- **XENON Status:** Reached Lv39; learned DREAM EATER (forgot Mean Look).
-- **Repel Status:** Max Repel used (Turn 36775).
+- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton.
 - **Navigation Plan:** Use ladder at (17, 19) to reach (17, 33). Then walk to (18, 29) to collect the item. Finally, exit via (13, 5).
 - **Item Spotted:** Poke Ball (ID 4) at (18, 29) on a high ledge.
 
