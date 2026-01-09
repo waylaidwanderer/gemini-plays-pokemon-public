@@ -5,7 +5,6 @@
 - Strategy: Navigate Route 26 to reach Victory Road.
 - Progress:
   - Reach Victory Road via Route 26. [In Progress]
-    - Battle Cooltrainer Joyce at (10, 56). [Completed]
     - Battle Cooltrainer Gaven at (9, 38). [Current]
 
 ## Strategy for Bug-Catching Contest (Saturday)
