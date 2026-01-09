@@ -5,7 +5,7 @@
 
 ## Strategy: Heading to the Pokémon League
 - Plan:
-  1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
+  1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538, 7:00 PM]
   2. Level XENON (Haunter) to 45+. Teach it TM33 Ice Punch. [Started Turn 35480]
      - Training: Use Route 45 or Route 27 (once accessible).
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
@@ -15,23 +15,27 @@
   5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
 
 ## Tile Mechanics (Global)
-- FLOOR/CAVE: Standard traversable tile.
-- WALL: Impassable boundary.
-- WATER: Traversable while Surfing.
-- BUOY: Impassable water barrier.
-- WHIRLPOOL: Requires HM06 to cross.
-- HEADBUTT_TREE: Impassable boundary.
-- LADDER/STAIRS: Warp between floors/sections.
-- LEDGE: One-way jump transition.
-- COUNTER: Impassable. Interaction with NPC behind it possible from adjacent tile.
-- WARP_CARPET: Usually map exit, but can be standard floor (e.g., Dept Store floors).
+- FLOOR: Standard traversable tile. Verified.
+- WATER: Traversable while Surfing. Verified.
+- WALL: Impassable boundary. Verified.
+- BUOY: Impassable water barrier. Verified.
+- WHIRLPOOL: Requires HM06 to cross. Verified.
+- LADDER/STAIRS: Warp between floors/sections. Verified.
+- LEDGE: One-way jump transition (South). Verified.
+- COUNTER: Impassable. Interaction with NPC behind it possible from adjacent tile. Verified.
+- DOOR: Warp to building/area. Verified.
+- CAVE: Warp to cave area. Verified.
+- LEDGE_HOP_DOWN: One-way jump transition (South). Verified.
+- FLOOR_UP_WALL: Impassable boundary (ledge face). Verified.
+- WARP_CARPET: Usually map exit, but can be standard floor. Verified.
+- HEADBUTT_TREE: Impassable boundary. Verified.
 
 ## Lessons Learned
 - Dragon Shrine Entrance: Located on the south side (19, 29).
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Both Calcifer (Typhlosion) and XENON (Haunter) cannot learn TM33 Ice Punch in Crystal (Turn 35621).
+- **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal, but XENON (Haunter) CAN (Turn 35642).
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
