@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28948)
-- **Status:** On Route 37. Entering grass.
-- **Progress:** ~286 turns. Hunt loop active.
+# Reflection (Turn 28949)
+- **Status:** In Ecruteak. Turning back to Route 37.
+- **Progress:** ~287 turns. Hunt loop active.
 - **Hygiene:** Verified.
