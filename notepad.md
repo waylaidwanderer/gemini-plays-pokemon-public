@@ -24,8 +24,9 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29106)
-- Status: In Ecruteak (17, 35). Opening Menu.
-- Action: Pressing Start to open menu.
-- Goal: Select Pokedex to check Raikou/Entei 'Seen' status.
+# Reflection (Turn 29110)
+- Status: In Pokedex List (Johto Order).
+- Action: Scrolling UP to check entries #238 (Raikou) and #239 (Entei).
+- Observation: Currently seeing #241 (Dratini) at the top. Must look higher.
+- Goal: Determine if Raikou/Entei are 'Seen'.
 - Note: Max Repel active.
