@@ -1,9 +1,13 @@
+# Lessons Learned
+- **Automation vs. Interruptions:** Phone calls and unexpected events freeze the game, causing fixed-input sequences (like hunt routines) to desync. Always monitor for these and manually reset if necessary.
+- **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
+
 # Current Status
-- **Location:** Ecruteak City (18, 35). Loop completed. Restarting.
+- **Location:** Route 37 (8, 0).
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
-- **Hunt Session Start:** Turn 28662. (Current Turn: 29440)
+- **Hunt Session Start:** Turn 28662. (Current Turn: 29441)
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
