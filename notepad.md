@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Moving cursor to SELL.
+- **Status:** In Sell Menu (Item List).
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Funds: ¥1472. Manual input to prevent errors.
+- **Notes:** Selling PP Up (¥4900) and Rare Candy (¥2400). Target Funds: ~¥8700.
