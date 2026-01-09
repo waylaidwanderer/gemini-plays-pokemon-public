@@ -5,11 +5,10 @@
 
 ## Strategy: Post-Badge Cleanup [Turn 35419]
 - Status: Rising Badge obtained.
-- Goal: Exit Dragon Shrine and find Clair in Dragon's Den to receive TM24.
-- Next Destination: New Bark Town to speak with Professor Elm.
+- Goal: Speak with Clair in Dragon's Den to receive TM24.
 
 ## Tile Mechanics
-- FLOOR/CAVE: Standard traversable tile. Verfied.
+- FLOOR/CAVE: Standard traversable tile. Verified.
 - WALL: Impassable boundary. Verified.
 - WATER: Traversable while Surfing. Verified.
 - BUOY: Impassable water barrier. Verified. Blocks movement; navigate around the northern end at Y=11.
