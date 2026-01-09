@@ -24,8 +24,9 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29113)
-- Status: In Pokedex List. Currently at ~#155.
-- Action: Pressing Right x3 to fast-scroll towards #238 (Raikou).
-- Goal: Verify if Raikou (#238) / Entei (#239) are 'Seen'.
-- Note: Max Repel active. Seen: 194. Owned: 45. Fast scroll (~30/press) active.
+# Reflection (Turn 29114)
+- Status: In Pokedex List. Currently at #241 (Dratini).
+- Action: Scrolling UP (x5) to reveal #238-#240.
+- Goal: Verify if Raikou (#238), Entei (#239), Suicune (#240) are 'Seen'.
+- Hypothesis: Burned Tower event should have flagged them as Seen.
+- Note: Max Repel active. Seen: 194. Owned: 45.
