@@ -1,4 +1,4 @@
-# Johto Elite Four Challenge - REMATCH START
+# Johto Elite Four Challenge - REMATCH
 
 ## Strategy for Elite Four
 1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade).
