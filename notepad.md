@@ -14,17 +14,6 @@
   4. Repeat.
 - **Items:** Max Repel ACTIVE.
 
-# Goals
-- **Primary:** Complete Pokedex.
-- **Secondary:** Catch Roaming Beasts.
-- **Tertiary:** Check Tin Tower for Suicune (Later).
-
-# Reflection (Turn 28891)
-- **Progress:** ~230 turns of hunting. Still no encounters.
-- **Efficiency:** Automation tool logic is stable.
-- **Plan:** Continue loop. Deadline: Turn 29000.
-- **Hygiene:** Verified.
-
 # Tile Mechanics
 - GRASS: Traversable. Potential encounters.
 - FLOOR: Traversable. Safe.
@@ -32,3 +21,8 @@
 - WALL: Impassable.
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
+
+# Reflection (Turn 28922)
+- **Status:** Interrupted by Gaven's phone call. Clearing text.
+- **Progress:** ~260 turns. No beasts yet.
+- **Hygiene:** Goals section removed (redundant).
