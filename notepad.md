@@ -4,10 +4,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** New Bark Town.
+- **Location:** Cherrygrove City.
 - **Activity:** Menu Navigation (Flying to Ecruteak).
-- **Time Started:** Turn 29620.
+- **Time Started:** Turn 29630.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
+- **Last Fly Attempt:** Failed (Landed in Cherrygrove). "Left, Up, Left" from New Bark resulted in Cherrygrove.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
