@@ -17,7 +17,8 @@
   - **Will's Roster:**
     - Xatu (Lv40): Defeated (Turn 36875).
     - Slowbro (Lv41): Defeated (Turn 36882).
-    - Xatu (Lv42): Thunderpunch is super effective. (In progress)
+    - Xatu (Lv42): Defeated (Turn 36884).
+    - Exeggutor (Lv41): Flame Wheel is super effective. (In progress)
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
