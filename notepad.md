@@ -16,7 +16,7 @@
 
 ## Strategy: Exit Ice Path
 - Plan:
-  1. Navigate to Ice Path exit at (36, 27) using coordinate path. [Current]
+  1. Navigate to Ice Path exit at (36, 27) using coordinate path.
   2. Fly to New Bark Town and head east to Tohjo Falls.
   3. Use Waterfall at (10, 8) in Tohjo Falls.
 
