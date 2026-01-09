@@ -48,6 +48,8 @@
 - WARP_CARPET_DOWN: Exit/warp to another map.
 - PC: Impassable; interactable from front (up).
 - ICE: Causes sliding until obstacle or non-ice tile is reached.
+- LEDGE_HOP_DOWN: Jumpable from North to South. Impassable from South to North.
+- LEDGE_HOP_LEFT: Jumpable from Right to Left. Impassable from Left to Right.
 
 ## Lessons Learned
 - Rising Badge: Enables Waterfall use outside battle.
