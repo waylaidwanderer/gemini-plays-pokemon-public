@@ -1,17 +1,15 @@
 # Johto Journey - Final Phase
 
-## Elite Four Challenge (Started Turn 36866)
-- Defeated: Will (Psychic), Koga (Poison), Bruno (Fighting), Karen (Dark).
-- Current: Karen (Dark).
-  - Umbreon (Lv42): Defeated.
-  - Vileplume (Lv42): Defeated.
-  - Gengar (Lv45): Defeated.
-  - Murkrow (Lv44): Defeated.
-  - Houndoom (Lv47): Ace. Active.
-- Next Opponent: Champion Lance.
+## Champion Lance Battle (Started Turn 37104)
+- Current: Gyarados (Lv44).
+- Remaining: Dragonite x3, Aerodactyl, Charizard.
 
-### Strategy vs Karen
-- Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use Calcifer (Return). GNEISS is low on HP.
+## Strategy vs Champion Lance
+- Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
+- Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
+- Plan: Use XENON for status (Confuse Ray/Hypnosis). Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout if possible.
+- Inventory Check: No major healing items left. Must rely on Revives.
+- Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
 
 ## Persistence Knowledge
 ### Type Effectiveness
