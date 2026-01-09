@@ -22,8 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28995)
-- **Status:** Interrupted by Wade's phone call on Route 37.
-- **Action:** Clearing text to resume hunt.
-- **Progress:** ~315 turns. Hunt paused.
+# Reflection (Turn 28996)
+- **Status:** Resuming hunt loop after phone call.
+- **Progress:** ~315 turns. Hunt active.
 - **Hygiene:** Verified.
