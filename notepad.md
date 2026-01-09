@@ -4,7 +4,7 @@
 ## Strategy for Karen (Dark)
 - Umbreon: DEFEATED
 - Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
-- Gengar: Ghost/Poison. Use Gneiss (Earthquake) or Calcifer (Flame Wheel/Thunderpunch). Note: Normal moves like Return do not hit Ghost types.
+- Gengar: DEFEATED
 - Murkrow: Dark/Flying. Use Calcifer (Thunderpunch) or Gneiss (Rollout).
 - Houndoom: Dark/Fire. Use Gneiss (Earthquake) or Calcifer (Return).
 - Note: No healing items left besides Berries and Revives. Strategy must be aggressive.
