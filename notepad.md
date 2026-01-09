@@ -4,11 +4,12 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Route 36.
-- **Activity:** Walking to Ecruteak City (via Route 37).
-- **Time Started:** Turn 29643.
-- **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Reason:** Fly menu navigation proved unreliable. Walking is consistent and allows for potential encounters.
+- **Location:** Ecruteak City.
+- **Activity:** Resupplying (Repels).
+- **Time Started:** Turn 29647.
+- **Party:** Gyarados (Lv 36) Lead. Lugia in party.
+- **Objective:** Buy Max/Super Repels at Ecruteak Mart, then hunt Roamers on Route 37.
+- **Repel Logic:** Lv 36 Lead + Repel blocks local wilds (Lv ~15) but allows Roamers (Lv 40).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
