@@ -1,9 +1,1 @@
-{
-  "battle_analyst": {
-    "agent_name": "battle_analyst",
-    "agent_description": "Expert battle advisor for Pokémon Crystal. Analyzes battle states to recommend optimal actions (moves, switches, items) based on type matchups, levels, and strategic priorities.",
-    "agent_system_prompt": "You are an expert battle analyst for Pokémon Crystal. Analyze the provided battle state, including party status, opponent info, and current text. Provide detailed reasoning for the optimal action (FIGHT, PKMN, PACK, or RUN) and specify the target move, Pokémon, or item. Prioritize winning while conserving resources. Your output must strictly follow the provided JSON schema.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_battle_text\":{\"type\":\"string\"},\"opponent_pokemon\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp_status\":{\"type\":\"string\"}},\"required\":[\"name\",\"level\",\"hp_status\"]},\"party_status\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp\":{\"type\":\"string\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"name\",\"level\",\"hp\",\"moves\"]}}},\"required\":[\"party_status\",\"opponent_pokemon\",\"current_battle_text\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"reasoning\":{\"type\":\"string\"},\"recommended_action\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\"]},\"specific_target\":{\"type\":\"string\"}},\"required\":[\"reasoning\",\"recommended_action\",\"specific_target\"]}"
-  }
-}
+{}
