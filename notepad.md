@@ -8,7 +8,7 @@
 - Aerodactyl: DEFEATED
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite is at full health (minus one Return). No status.
+- Status: Dragonite is at ~80% HP (just hit with Return). No status.
 - Team Status: Calcifer (89 HP) is the last healthy member. Thunderpunch is out of PP.
 
 ## Persistence Knowledge
@@ -37,5 +37,5 @@
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Battle Strategy
-- Current Objective: Defeat Dragonite #3. Calcifer (89 HP) vs Dragonite (Lv50, ~80% HP).
-- Strategy: Use Return to chip away. Use the last Revive on XENON if Calcifer is about to faint to serve as a buffer.
+- Current Objective: Defeat Dragonite #3. 
+- Method: Use Return to chip away. Use the last Revive on XENON to provide an insurance policy in case Calcifer faints.
