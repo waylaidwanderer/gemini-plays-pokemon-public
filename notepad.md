@@ -1,6 +1,5 @@
 # Johto Elite Four Challenge - REMATCH
 - Gauntlet started: Turn 37260 (Friday 11:58 AM)
-- Current Status: Defeated Will and Koga. Battling Bruno.
 
 ## Strategy for Elite Four
 1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade). (DEFEATED)
@@ -18,7 +17,6 @@
 - Calcifer (Typhlosion, Lv55): Lead attacker. Return/Flame Wheel/Thunderpunch.
 - Gneiss (Graveler, Lv51): Physical tank, good for Aerodactyl/Charizard.
 - Xenon (Haunter, Lv40): Night Shade/Dream Eater.
-- Resources: ¥60. 8 Revives. 1 Full Restore. 5 Full Heals.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
