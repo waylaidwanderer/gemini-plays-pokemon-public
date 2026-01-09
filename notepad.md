@@ -14,13 +14,23 @@
 - Remaining: None (This is the final Pokemon).
 
 ### Turn Log
-- Turn 37184: GNEISS defeated Dragonite #2, Charizard, and Aerodactyl with ROLLOUT.
-- Turn 37185: GNEISS fainted to Dragonite #3's Outrage.
-- Turn 37186: Sending in LAPIS as fodder.
-- Turn 37187: Plan to use Revive on GNEISS or Calcifer.
+- Turn 37160: ICARUS active. Start Revive cycle 1.
+- Turn 37165: GNEISS revived (70/141 HP).
+- Turn 37167: ICARUS fainted to Blizzard.
+- Turn 37168: GNEISS sent out.
+- Turn 37172: GNEISS fainted to Blizzard. Start Revive cycle 2.
+- Turn 37174: Ouroboros sent out.
+- Turn 37176: GNEISS revived (70/141 HP).
+- Turn 37178: Ouroboros fainted to Hyper Beam.
+- Turn 37179: GNEISS sent out.
+- Turn 37181: ROLLOUT missed.
+- Turn 37184: GNEISS defeated Dragonite #2, Charizard, Aerodactyl.
+- Turn 37185: GNEISS fainted to Outrage.
+- Turn 37186: LAPIS sent out.
+- Turn 37187: Selecting Revive for GNEISS.
 
 ## Strategy vs Champion Lance
-- Plan: Use fodder to revive GNEISS/Calcifer. GNEISS's Rollout or Calcifer's power to finish.
+- Plan: Use fodder to revive GNEISS. GNEISS uses Rollout.
 - Inventory: 8 Revives. No healing items.
 
 ## World Lore & Roaming
@@ -35,7 +45,7 @@
 - Electric > Water/Flying.
 - Ghost > Psychic/Ghost. Immune to Fighting/Normal.
 - Ground > Fire/Electric/Poison/Rock/Steel. Immune to Electric.
-- **Note:** Ghost is Physical. Night Shade is fixed damage.
+- **Note:** Ghost is Physical. Night Shade is fixed.
 
 ### Tile Mechanics
 - FLOOR: Traversable.
