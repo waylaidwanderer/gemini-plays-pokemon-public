@@ -55,3 +55,5 @@
 ## Active Hypotheses
 - **Hypothesis:** Dragonite can learn TM33 Ice Punch in Crystal. **Test:** Attempt to teach TM33 after evolving gift Dratini.
 - **Tool Fix:** Refined `find_path_v2` on Turn 35646 to support Surf and Ledge transitions. [Started Turn 35646]
+- Dratini (Ouroboros) obtained from Elder on Turn 35678. Moves: Wrap, Thunder Wave, Twister, ExtremeSpeed.
+- Active Hypothesis: Ouroboros (Dratini) or its evolutions can learn TM33 Ice Punch. [Started Turn 35684, 7:35 PM]
