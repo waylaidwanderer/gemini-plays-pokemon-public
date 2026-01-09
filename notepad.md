@@ -12,9 +12,11 @@
 - **Mechanics:** No trainers except Rival Malice at the exit.
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
 - **Rival Battle:** Malice challenged at (12, 9).
-  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36), Haunter (Lv35), Kadabra (Lv35).
-  - Current Opponent: Magneton (Lv34).
-  - Status: Ouroboros fainted. XENON (60/99 HP). GNEISS (21/138 HP). Calcifer is active (52/161 HP). Strategy: OHKO with FLAME WHEEL.
+  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36), Haunter (Lv35), Kadabra (Lv35), Magneton (Lv34).
+  - Outcome: Malice defeated. He moved north/east and left the area.
+- **Team Status:** Ouroboros (FNT), GNEISS (21/138), Calcifer (52/161), XENON (60/99).
+- **Repel Status:** Max Repel used at Turn 36770. Lasts 250 steps.
+- **Navigation:** Heading for the northern exit/warp at (13, 5).
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
