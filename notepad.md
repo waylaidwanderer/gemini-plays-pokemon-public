@@ -8,9 +8,9 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Menu Open. Cursor on Pokémon. Navigating to Pack to use Super Repel.
+- **Status:** Pack Open (TM/HM Pocket). Switching to Items Pocket (Left x3).
 - **Next Steps:**
-  1. Open Pack (Down -> A).
+  1. Switch to Items Pocket.
   2. Find and Use Super Repel.
   3. Walk South to Route 37.
   4. Start `execute_hunt_routine`.
