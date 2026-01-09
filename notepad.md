@@ -3,9 +3,9 @@
 - **Efficiency:** Super Repels (2.5 ¥/step) are cheaper than Max Repels (2.8 ¥/step).
 
 # Current Status
-- **Location:** Mahogany Mart.
-- **Activity:** Exiting Mart & Flying to Ecruteak.
-- **Time Started:** Turn 29701.
+- **Location:** Mahogany Town.
+- **Activity:** Flying to Ecruteak City.
+- **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Start Roamer Hunt on Route 37.
 
