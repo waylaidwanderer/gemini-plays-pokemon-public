@@ -52,3 +52,6 @@
 ## Failed Hypotheses
 - **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538). Typhlosion is incompatible with Ice Punch in Crystal.
 - **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Confirmed (Turn 35558). The menu appeared after the press.
+## Strategy: Verified Conflict Resolution
+- **Ice Punch Compatibility:** Despite external suggestions (League Analyst), in-game observation on Turn 35644 confirms Haunter (XENON) and Typhlosion (Calcifer) are "NOT ABLE" to learn TM33 Ice Punch. This is a verified fact for this specific game state. Strategy remains focused on gift Dratini.
+- **Tool Fix:** Refined `find_path_v2` on Turn 35646 to support Surf and Ledge transitions. [Started Turn 35646]
