@@ -2,26 +2,28 @@
 - Started: Turn 36866
 - Progress: Will (✅), Koga (✅), Bruno (✅), Karen (✅), Lance (In Progress)
 
-## Champion Lance Battle
+## Champion Lance Battle (Started Turn 37104)
 - Opponent: Champion Lance (Final Boss)
 - Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl.
 - Active: Dragonite #3 (Lv50). Moves: Outrage.
-- Strategy: Use GNEISS's ROLLOUT.
+- Strategy: Use GNEISS's ROLLOUT to finish.
 
 ### Battle History
 - Turn 37120: Gyarados defeated.
 - Turn 37155: Dragonite #1 defeated.
+- Turn 37165: GNEISS revived (Cycle 1).
+- Turn 37167: ICARUS fainted to Blizzard.
 - Turn 37184: Dragonite #2, Charizard, Aerodactyl defeated by ROLLOUT.
 - Turn 37185: GNEISS fainted to Outrage.
-- Turn 37188: GNEISS revived (70/141 HP).
+- Turn 37188: GNEISS revived (Cycle 2) (70/141 HP).
 - Turn 37189: LAPIS fainted to Outrage.
-- Turn 37190: GNEISS sent out.
-- Turn 37193: GNEISS used ROLLOUT (Super-effective). GNEISS fainted to Outrage. Dragonite confused.
-- Turn 37194: Sending in Calcifer. Strategy: Revive GNEISS.
+- Turn 37193: GNEISS used ROLLOUT. GNEISS fainted to Outrage. Dragonite confused.
+- Turn 37194: Calcifer sent out.
+- Turn 37195: Using Revive on GNEISS (Cycle 3).
 
 ## Strategy & Resources
-- Plan: Maximize damage with ROLLOUT.
-- Inventory: 7 Revives (Turn 37191). No healing items.
+- Plan: Revive GNEISS. Use fodder if needed. GNEISS ROLLOUT to win.
+- Inventory: 7 Revives. No healing items.
 
 ## World Lore & Roaming
 - Suicune: Roaming Johto.
