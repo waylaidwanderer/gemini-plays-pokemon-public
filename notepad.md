@@ -4,14 +4,14 @@
 
 # Current Status
 - **Location:** Goldenrod Dept Store 5F.
-- **Activity:** Checking Clerk at (8, 5).
-- **Time Started:** Turn 29597.
+- **Activity:** Exiting via Elevator to Blackthorn.
+- **Time Started:** Turn 29606.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party.
 - **Shopping Log:**
   - 2F: Medicine, Standard Repel.
   - 3F: Battle Items (X-Items).
   - 4F: Vitamins.
-  - 5F: Checking now (Directory: "Customize").
+  - 5F: TMs (No Repels).
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) unseen tiles. Investigate later.
