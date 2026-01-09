@@ -3,20 +3,23 @@
 ## Victory Road (1F/2F/3F)
 - Re-entry: Route 23 (9, 13).
 
-## Elite Four Challenge (Started Turn 36866)
-- **Objective:** Defeat the Elite Four and the Champion.
-- **Current Opponent:** Bruno (Fighting).
-- **Status:** Defeated Will and Koga. In Bruno's Room (4, 10).
-- **Previous Opponents:**
-  - Will (Psychic) - Defeated Turn 36890.
-  - Koga (Poison) - Defeated Turn 36928.
-- **Team Roles:**
-  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 77/168. (NEEDS HEALING)
+- Team Roles:
+  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 168/168 (Full Restore used Turn 36951).
   - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138 (Poison cleared).
   - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
   - Ouroboros (Lv15 Dratini): Thunder Wave support.
-- **Strategy:** Heal Calcifer with a Full Restore. Bruno is at (5, 7). XENON is immune to Fighting moves. GNEISS for Onix. Calcifer for raw power.
-- **Note:** Found FULL RESTORE. Using on Calcifer. Bruno battle imminent.
+- Strategy: Calcifer is healed. Proceed to challenge Bruno at (5, 7).
+- Reflection (Turn 36952):
+  1. Immediate Execution: Deferred healing Calcifer across several turns due to menu errors; corrected in Turn 36951.
+  2. Notepad Hygiene: Removed redundant "HEALING IN PROGRESS" status. Added start turn for Elite Four challenge.
+  3. Map Hygiene: Bruno marked. Entrance/Exit warps marked.
+  4. Automation: Current tools (navigation, menu) are sufficient.
+  5. Goal Clarity: Goals are focused on outcomes.
+  6. Error Analysis: Menu navigation failed repeatedly because I didn't track the party cursor correctly. Lesson: Always verify the starting position of the cursor in sub-menus. Root hypothesis (Bruno is north) is correct.
+- Elite Four Challenge (Started Turn 36866):
+  - Turn 36890: Defeated Will.
+  - Turn 36928: Defeated Koga.
+  - Turn 36951: Healed Calcifer for Bruno.
 
 ## Shopping List
 - Revives (10) - Done (Turn 36856)
