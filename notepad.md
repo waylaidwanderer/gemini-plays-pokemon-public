@@ -4,10 +4,12 @@
 
 # Current Status
 - **Location:** Goldenrod Dept Store 3F.
-- **Activity:** Moving to 4F.
+- **Activity:** Shopping for Max Repels (Target: 4F).
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
-- **Note:** 2F Clerks do not sell Max/Super Repels. 3F Clerk sells Battle Items (X-Items).
+- **Shopping Notes:**
+  - 2F: Medicine & Standard Repels only.
+  - 3F: Battle Items (X-Items) only.
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) contains unseen tiles adjacent to floor. Investigate upon return.
