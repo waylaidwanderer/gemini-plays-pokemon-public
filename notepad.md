@@ -11,7 +11,7 @@
 - Next Opponent: Champion Lance.
 
 ### Strategy vs Karen
-- Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use Calcifer (Return) for strong neutral damage. GNEISS is low on HP.
+- Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use Calcifer (Return). GNEISS is low on HP.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -26,15 +26,9 @@
 - **Note:** Elemental punches are Special (Gen 2). Ghost moves are Physical. Night Shade is fixed damage.
 
 ### Tile Mechanics
-- **FLOOR:** Traversable.
-- **WALL / VOID / COUNTER:** Impassable.
-- **LEDGE:** One-way jump.
-- **LADDER / WARP_CARPET:** Map transition.
-- **PC:** Stand BELOW, face UP, press A.
-- **ICE:** Sliding movement.
-- **WHIRLPOOL:** Requires HM06.
-- **WATERFALL:** Requires HM07.
-- **WATER:** Requires HM03.
+- **FLOOR:** Traversable. Standard movement.
+- **WALL:** Impassable.
+- **WARP_CARPET:** Map transition.
 
 ### World Lore & Goals
 - Ho-Oh revived Beasts after Brass Tower fire.
