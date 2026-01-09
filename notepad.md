@@ -36,6 +36,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Resetting Menu Navigation.
-- **Method:** Back out to Overworld -> Open Menu -> Verify Cursor -> Fly.
-- **Notes:** Previous Fly attempt failed (entered Pack/Item menu). Backing out to reset.
+- **Status:** Opening Start Menu.
+- **Method:** Press Start -> Verify Cursor Position -> Navigate to Pokemon -> Fly.
+- **Notes:** Cursor likely on PACK from previous error. Will verify before moving.
