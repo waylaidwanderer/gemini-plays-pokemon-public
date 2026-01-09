@@ -36,3 +36,4 @@
 - **Analysis:** NPC dialogue on Route 36 implies he already gave it. Verified not in storage. Likely used or tossed.
 - **Solution:** In Pokemon Crystal, TM08 is purchasable at Goldenrod Dept Store 5F.
 - **Plan:** Fly to Goldenrod -> Buy TM08 -> Return to Ecruteak for Hunt.
+- **Fly Map Behavior:** Cursor observed starting at New Bark Town when opened from Olivine City (instead of current location). Always verify start point before navigating.
