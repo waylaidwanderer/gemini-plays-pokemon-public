@@ -60,3 +60,11 @@
 
 ## Tool Maintenance
 - **find_path_v2:** Refined on Turn 35701 to treat WHIRLPOOL as traversable.
+## Strategy: Bug-Catching Contest (Thursday)
+- Goal: Obtain Sun Stone for KIMCHI (Gloom).
+- Steps:
+  1. Exit Dragon's Den and go to Blackthorn Pokecenter.
+  2. Swap Ravioli (Krabby) for ICARUS (Pidgey) to use Fly.
+  3. Fly to Goldenrod City.
+  4. Head north to National Park (Route 35 Gate).
+  5. Participate in the contest and aim for 1st place (Sun Stone).
