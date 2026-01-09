@@ -5,13 +5,14 @@
 
 # Current Status
 - **Location:** Ecruteak Mart.
-- **Activity:** Buying Repels.
-- **Time Started:** Turn 29648.
+- **Activity:** Exiting Mart (No Repels found).
+- **Time Started:** Turn 29654.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party.
-- **Objective:** Buy Max/Super Repels, then hunt Roamers on Route 37.
+- **Objective:** Find a shop that sells Max Repels (Trying Blackthorn next).
 - **Repel Logic:** Lv 36 Lead + Repel blocks local wilds (Lv ~15) but allows Roamers (Lv 40).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
+  - Ecruteak Mart: No Repels found (Standard inventory only).
 
 # Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) unseen tiles. Investigate later.
