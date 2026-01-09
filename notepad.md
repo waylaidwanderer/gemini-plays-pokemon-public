@@ -11,11 +11,11 @@
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
-- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton. Outcome: Malice defeated at (12, 9). He moved north/east and left the area.
+- **Rival Battle:** Malice defeated at (12, 9). Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton. He moved north/east and left.
 - **XENON Status:** Reached Lv39; learned DREAM EATER (forgot Mean Look).
-- **Repel Status:** Max Repel used (Turn 36774).
-- **Navigation:** Heading for item at (18, 29) via ladder (17, 19) -> (17, 33). Then exit at (13, 5).
-- **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
+- **Repel Status:** Max Repel used (Turn 36775).
+- **Navigation Plan:** Use ladder at (17, 19) to reach (17, 33). Then walk to (18, 29) to collect the item. Finally, exit via (13, 5).
+- **Item Spotted:** Poke Ball (ID 4) at (18, 29) on a high ledge.
 
 ## Tile & Movement Mechanics
 - **Traversability:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE (Warp), LADDER (Warp) are traversable. WALL, PC, COUNTER are impassable.
