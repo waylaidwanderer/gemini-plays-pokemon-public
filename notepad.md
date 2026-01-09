@@ -6,8 +6,9 @@
 - **Location:** Route 37 (8, 0). Checking Grass.
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
-- **Active Effect:** Max Repel (Active, but encountered Spinarak? Anomalous.).
+- **Active Effect:** Max Repel (Active).
 - **Restock Needed:** Buying Max Repels is high priority after this one expires.
+- **Interruption:** Phone call from Bug Catcher Wade. Pausing hunt to clear dialogue.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
