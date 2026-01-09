@@ -30,7 +30,14 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Confirmed on Turn 35663 that XENON (Haunter) and Calcifer (Typhlosion) are "NOT ABLE" to learn TM33 Ice Punch. Dratini (Ouroboros) is also "NOT ABLE" (Turn 35691).
+- **Move Compatibility (CRITICAL):**
+  - XENON (Haunter): NOT ABLE to learn TM33 Ice Punch (Turn 35663).
+  - Calcifer (Typhlosion): NOT ABLE to learn TM33 Ice Punch (Turn 35538).
+  - Ouroboros (Dratini): NOT ABLE to learn TM33 Ice Punch (Turn 35691).
+  - Note: Ignore League Analyst advice regarding Ice Punch compatibility for these three; in-game verification is the source of truth.
+
+## Pokemon Info
+- Ouroboros (DRATINI): Lv15. Moves: Wrap, Thunder Wave, Twister, ExtremeSpeed (Gift move). [Turn 35684]
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, Dratini 15).
@@ -43,10 +50,10 @@
 - Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts.
 
 ## Failed Hypotheses
-- **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538).
-- **Hypothesis:** Haunter can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35663).
-- **Hypothesis:** Ouroboros (Dratini) can learn TM33 Ice Punch in Crystal. **Test:** Attempted to teach TM33 on Turn 35691. **Conclusion:** Denied.
-- **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Confirmed (Turn 35558).
+- **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Conclusion:** Denied (Turn 35538).
+- **Hypothesis:** Haunter can learn Ice Punch in Crystal. **Conclusion:** Denied (Turn 35663).
+- **Hypothesis:** Ouroboros (Dratini) can learn TM33 Ice Punch in Crystal. **Conclusion:** Denied (Turn 35691).
+- **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Conclusion:** Confirmed (Turn 35558).
 
 ## Active Hypotheses
 - **Hypothesis:** Dragonite can learn TM33 Ice Punch in Crystal. **Test:** Attempt to teach TM33 after evolving Ouroboros.
