@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29121)
-- Status: In Ecruteak (18, 35). Resume Blind Hunt.
-- Previous: Hit tree at (19, 35) trying to debug.
-- Strategy: Call execute_hunt_routine to transition South to Route 37.
-- Note: Max Repel active. Repel Trick working (Lv 36 Lead vs Lv 40 Beasts).
+# Reflection (Turn 29122)
+- Status: On Route 37 (8, 0). Successful transition from Ecruteak.
+- Action: Executing hunt routine (moving to grass).
+- Strategy: Loop execute_hunt_routine.
+- Note: Max Repel active (~100/250 steps used).
