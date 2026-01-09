@@ -16,7 +16,7 @@
 ## Team Status & Preparation
 - Calcifer (Typhlosion, Lv55): Lead attacker. Return/Flame Wheel/Thunderpunch.
 - Gneiss (Graveler, Lv51): Physical tank, good for Aerodactyl/Charizard.
-- Xenon (Haunter, Lv41): Night Shade/Dream Eater.
+- Xenon (Haunter, Lv41): 47/104 HP. Night Shade/Dream Eater.
 
 ## Tile Mechanics
 - FLOOR: Traversable.
