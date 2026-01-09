@@ -20,8 +20,8 @@
 # Current Strategy
 ## Objectives
 - **Primary:** Complete Pokedex.
-- **Secondary:** Buy TM08 (Rock Smash) at Goldenrod Dept Store 5F.
-- **Tertiary:** Resume Roaming Beast Hunt.
+- **Secondary:** Resume Roaming Beast Hunt.
+- **Tertiary:** Access Ruins of Alph via Rock Smash.
 
 ## Exploration Queue
 - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles.
@@ -29,10 +29,8 @@
 - **Route 37:** Eastern edge (x>13) unseen tiles.
 
 ## Missing Items
-- **TM08 Rock Smash:** Critical for map access (e.g. Ruins of Alph, Dark Cave).
-- **Status:** Obtained (Turn 30007). Learned by Garnet (Quilava).
+- **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Goldenrod Dept Store 5F.
-- **Goal:** Exit Store and resume hunt.
-- **Map Mechanics:** Goldenrod Dept Store 5F Warp Carpets are traversable (do not auto-warp on walk).
+- **Current Location:** Goldenrod City.
+- **Goal:** Fly to Ecruteak City.
