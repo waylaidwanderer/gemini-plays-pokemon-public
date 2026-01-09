@@ -17,7 +17,8 @@
 - Plan:
   1. Navigate B1F to ladder at (17, 3) leading to B2F. [Completed]
   2. Navigate B2F to ladder at (9, 11) leading to B3F. [Completed]
-  3. Navigate B3F to collect item at (5, 7). [Current]
+  3. Navigate B3F to collect item at (5, 7).
+   - Route: (14, 5) -> (14, 8) -> (12, 8) -> (12, 5) -> (12, 4) -> (9, 4) -> (9, 7) -> (5, 7). [Current]
   4. Navigate B3F to ladder at (15, 5) leading back to B2F South.
   5. Reach ladder at (5, 25) on B1F leading to 1F South.
   6. Exit Ice Path at (36, 27).
