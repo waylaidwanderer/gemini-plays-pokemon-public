@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29083)
-- Status: On Route 37 (7, 2). Using Max Repel.
-- Action: Confirming usage and clearing text.
-- Progress: ~421 turns. Hunt active.
-- Strategy: Use Max Repel, then exit menu and resume hunt.
+# Reflection (Turn 29084)
+- Status: On Route 37 (7, 2). Closing menu.
+- Action: Exiting Pack and Start Menu.
+- Progress: ~422 turns. Hunt active.
+- Strategy: Close menu, then resume execute_hunt_routine.
