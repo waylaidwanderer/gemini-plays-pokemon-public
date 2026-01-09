@@ -1,6 +1,6 @@
 # Long Term Notes
 ## Lessons Learned
-- **Tool Insight:** `navigate_menu` requires `hold_ms >= 300` for Fly Map movement, but `hold_ms=1` for standard list navigation to prevent over-scrolling.
+- **Tool Insight:** `navigate_menu` requires `hold_ms >= 300` for Fly Map movement, but `hold_ms=1` for standard list navigation. **WARNING:** Do NOT use `navigate_menu` for Shop/Buy/Sell menus; lag causes accidental purchases. Use `slow_press` or manual inputs.
 - **Efficiency:** Super Repels (2.5 ¥/step) are cheaper than Max Repels (2.8 ¥/step).
 - **Mechanics:** Phone calls can occur on map transitions.
 - **Fly Map Mechanics:** Vertical movement (Up/Down) is often more reliable than Left/Right. Cursor is granular.
