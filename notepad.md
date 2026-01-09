@@ -39,3 +39,10 @@
 ### Menu Navigation
 - Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
 - Party Sub-Menu Order: STATS, SWITCH, ITEM, CANCEL.
+## Lead Swap Attempts (Karen)
+- Attempt 1 (Turn 37433): Failed. Cursor management in main menu incorrect.
+- Attempt 2 (Turn 37434): Failed. Cursor on XENON instead of ICARUS.
+- Attempt 3 (Turn 37442): Failed. Menu opened at OPTION instead of POKEMON.
+- Attempt 4 (Turn 37450): Failed. Cursor management in main menu incorrect.
+- Attempt 5 (Turn 37451): Failed. Menu opened at OPTION instead of POKEMON.
+- Strategy: Move to (5, 11) to clear tile warning, then perform swap carefully.
