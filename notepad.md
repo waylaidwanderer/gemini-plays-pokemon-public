@@ -13,6 +13,8 @@
 - Verified Location: Ice Path 1F, northeast corner of main floor. [Confirmed by location_analyst Turn 36062]
 - New Plan (Started Turn 36063):
   1. Fly to Mahogany Town. [Current]
+     - Note: Fly map cursor usually defaults to current location (Azalea Town).
+     - Route from Azalea: 5 Down presses to Mahogany.
   2. Travel east to Route 44 and enter Ice Path.
   3. Locate and pick up HM07 Waterfall.
   4. Return to Tohjo Falls and climb the waterfall.
