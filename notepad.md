@@ -18,6 +18,7 @@
 - Turn 37165: Used Revive on GNEISS. GNEISS at 70/141 HP.
 - Turn 37167: ICARUS fainted to Dragonite #2's Blizzard.
 - Turn 37168: Sending in GNEISS (70/141 HP). Strategy: Rollout.
+- Turn 37171: GNEISS active. Strategy: Rollout. Seeking damage.
 
 ## Strategy vs Champion Lance
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout.
