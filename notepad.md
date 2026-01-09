@@ -6,7 +6,6 @@
 ## Strategy: Dragon User Challenge [Turn 35371, 4:50 PM]
 - Navigate to the "small shrine" at the center of the Den.
 - Use Surf/Whirlpool to cross water hazards.
-- Current Status: DragonsDenB1F at (21, 22). Heading to southern entrance.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile. Verfied.
@@ -33,7 +32,6 @@
 
 ## Strategy: Reaching the Dragon Shrine [Turn 35398, 4:57 PM]
 - Ravioli (Krabby) used Whirlpool to clear (10, 20).
-- Current Position: (21, 22) in DragonsDenB1F.
 - Discovery: The building at (19, 29) is the Dragon Shrine. It must be approached from the south.
 - Path:
   1. Surf Up into (21, 21).
@@ -41,4 +39,3 @@
   3. Surf west along Y=30 to reach (14, 30).
   4. Land at (14, 30) and walk east to (19, 30).
   5. Enter the shrine at (19, 29).
-- Goal: Enter the shrine and complete the challenge.
