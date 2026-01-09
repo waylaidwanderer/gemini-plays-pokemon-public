@@ -7,12 +7,14 @@
 
 ### Current Status: Bruno (Fighting)
 - **Roster Prediction:** Hitmontop (Lv42), Hitmonlee, Hitmonchan, Machamp, Onix.
+- **Observed Moves:**
+  - Hitmontop: Dig (Ground), Quick Attack (Normal).
 - **Strategy:**
   - Fighting/Normal types: XENON (Ghost immunity). Note: Hitmontop has Dig (Ground).
   - Onix: LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
   - General: Use Calcifer's raw power (Lv53) for difficult matchups.
 - **Team Status:**
-  - Calcifer (Lv53 Typhlosion): HP 168/168.
+  - Calcifer (Lv53 Typhlosion): HP 158/168.
   - GNEISS (Lv49 Graveler): HP 104/138.
   - XENON (Lv39 Haunter): HP 99/99.
   - Ouroboros (Lv15 Dratini): HP 40/40.
