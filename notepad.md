@@ -17,7 +17,8 @@
   6. Navigate Route 27 East to Route 26. [In Progress]
     - 6a. Explore house at (33, 7). [Completed]
     - 6b. Continue East on Route 27. [In Progress]
-      - Battle Psychic Gilbert on bridge. [Current]
+      - Battle Psychic Gilbert on bridge. [Completed]
+      - Move East past the bridge. [Current]
   7. Navigate Route 26 North to Victory Road. [Next]
 
 ## Time Tracking
