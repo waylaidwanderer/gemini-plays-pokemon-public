@@ -13,6 +13,7 @@
 ### Turn Log
 - Turn 37160: ICARUS active. Start Revive cycle 1.
 - Turn 37165: GNEISS revived (70/141 HP).
+- Turn 37166: GNEISS revitalized.
 - Turn 37167: ICARUS fainted to Blizzard.
 - Turn 37168: GNEISS sent out.
 - Turn 37172: GNEISS fainted to Blizzard. Start Revive cycle 2.
@@ -21,13 +22,14 @@
 - Turn 37178: Ouroboros fainted to Hyper Beam. Dragonite #2 recharging.
 - Turn 37179: GNEISS sent out.
 - Turn 37181: ROLLOUT missed while Dragonite #2 was recharging.
-- Turn 37182: FIGHT selected. Strategy: ROLLOUT.
+- Turn 37182: FIGHT selected.
+- Turn 37183: ROLLOUT selected.
 
 ## Strategy vs Champion Lance
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout to sweep.
 - Inventory: 8 Revives. No healing items.
 
-## World Lore & Roaming
+## Roaming Pokemon
 - Suicune: Roaming Johto.
 
 ## Persistence Knowledge
