@@ -6,7 +6,7 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel has likely expired (Turn 36757).
+- **Repel Status:** Max Repel has likely expired.
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice at the exit.
@@ -25,7 +25,7 @@
 ## Strategy for Bug-Catching Contest (Saturday)
 - **Objective:** Obtain a Sun Stone.
 - **Method:** 1st place at National Park. Catch Scyther/Pinsir. Lead XENON (Hypnosis).
-- **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
+- **Timing:** Currently Friday morning. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling before Elite Four.
