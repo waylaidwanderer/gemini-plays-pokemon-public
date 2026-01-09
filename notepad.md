@@ -22,8 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29028)
-- Status: At Route 37 exit (7, 0). Previous sequence didn't transition.
-- Action: Manually moving Up to Ecruteak.
-- Progress: ~367 turns. Hunt active.
-- Strategy: Finish transition, then resume loop.
+# Reflection (Turn 29030)
+- Status: In Ecruteak (17, 35). Turning back to Route 37.
+- Progress: ~368 turns. Hunt active.
+- Strategy: Resume hunt loop via execute_hunt_routine.
