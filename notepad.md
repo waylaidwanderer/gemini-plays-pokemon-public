@@ -6,18 +6,22 @@
 - Lance: In Progress (Started Turn 37104)
 
 ## Champion Lance Battle (Started Turn 37104)
-- Current: Dragonite (Lv47).
-- Status: Active (138/138 HP).
-- Moves: Thunder, Thunder Wave, Hyper Beam, Twister.
-- Defeated: Gyarados (Lv44).
-- Remaining: Dragonite x2, Aerodactyl, Charizard.
+- Current: Dragonite #2 (Lv47).
+- Status: Healthy.
+- Moves: Blizzard. (Dragonite #1 used Thunder, Twister, Hyper Beam).
+- Defeated: Gyarados (Lv44), Dragonite #1 (Lv47).
+- Remaining: Dragonite x1, Aerodactyl, Charizard.
 
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
 - Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use XENON for status. Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep the dragons.
-- Inventory Check: No major healing items left. Must rely on Revives.
-- Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
+- Plan: Use XENON for status. Use Calcifer's Thunderpunch. Use Gneiss's Rollout to sweep.
+- Inventory Check: No major healing items left. 10 Revives.
+- Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS.
+
+## Elite Four Challenge Tracking
+- Turn 37150: Used Max Revive on GNEISS.
+- Turn 37155: GNEISS fainted to Dragonite #2's Blizzard.
 
 ## Persistence Knowledge
 ### Type Effectiveness
@@ -37,13 +41,10 @@
 
 - Suicune roaming.
 
-## Elite Four Challenge Tracking
-- Turn 37150: Used Max Revive on GNEISS.
-
 ## Team Overview (Movesets)
-- Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
-- GNEISS (Lv49 Graveler): Earthquake, Defense Curl, Strength, Rollout.
+- Calcifer (Lv54 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
+- GNEISS (Lv50 Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - XENON (Lv40 Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
-- ICARUS (Lv17 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
+- ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
