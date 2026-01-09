@@ -73,3 +73,7 @@
 - **Current Location:** Silver Cave.
 - **Goal:** Traverse West to Goldenrod.
 - **Action:** Execute Left x5 to leave Silver Cave area.
+- **Analysis:** Text "Silver Cave" updated on 'Down' input (Turn 29983), suggesting Internal State IS Silver Cave (visuals desynced).
+- **Traversal Logic:** Previous tests suggest ~4 Lefts per city. 5 Lefts executed so far. Estimated position: Between Blackthorn and Mahogany.
+- **Action:** Continue West. Execute Left x5 again to reach Ecruteak/Olivine area.
+- **Goal:** Reach Western Johto (Internal State) to align with Visuals.
