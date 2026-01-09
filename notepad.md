@@ -4,11 +4,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Ecruteak Mart.
-- **Activity:** Exiting Mart (No Repels found).
-- **Time Started:** Turn 29654.
-- **Party:** Gyarados (Lv 36) Lead. Lugia in party.
-- **Objective:** Find a shop that sells Max Repels (Trying Blackthorn next).
+- **Location:** Ecruteak City.
+- **Activity:** Menu Navigation (Flying to Blackthorn).
+- **Time Started:** Turn 29657.
+- **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
+- **Objective:** Fly to Blackthorn City to buy Max Repels.
 - **Repel Logic:** Lv 36 Lead + Repel blocks local wilds (Lv ~15) but allows Roamers (Lv 40).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
