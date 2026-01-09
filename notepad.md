@@ -34,7 +34,7 @@
 ## Session Information
 - **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
-- **Status:** Applying Super Repel (Attempt 6).
-- **Location:** Cursor at CANCEL (Bottom).
-- **Target:** Super Repel is 5 slots up.
-- **Action:** Scroll Up x5. Confirm selection visually next turn.
+- **Status:** Applying Super Repel (Attempt 7).
+- **Tool Issue:** `navigate_menu` default `hold_ms=250` causes ~15 presses per input in standard menus.
+- **Correction:** Using `hold_ms=1` for single inputs.
+- **Action:** Scroll Down x10 from Lemonade to Super Repel. Verify selection.
