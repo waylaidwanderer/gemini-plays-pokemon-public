@@ -42,3 +42,5 @@
 - Turn 37522: XENON used Dream Eater. Dragonite #1 fainted.
 - Turn 37523: FIGHT selected.
 - Turn 37524: Move menu open. Cursor on DREAM EATER. Planning Confuse Ray.
+- Turn 37524: Moved cursor to CONFUSE RAY.
+- Turn 37525: Move menu remains open with cursor on CONFUSE RAY. Executing move.
