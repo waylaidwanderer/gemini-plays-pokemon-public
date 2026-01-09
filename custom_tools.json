@@ -313,5 +313,31 @@
         "action_counter": 36314
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Finds all unseen tiles that are adjacent to reachable walkable tiles on the current map.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(json.dumps({\"error\": f\"Failed to parse XML: {str(e)}\"}))\n        return\n\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            grid[(x, y)] = (t_type, seen, has_object)\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    \n    walkable_types = {'FLOOR', 'TALL_GRASS', 'WATER', 'LADDER', 'BUOY', 'DOOR', 'CAVE', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LEDGE_HOP_DOWN', 'LEDGE_HOP_UP', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT'}\n    \n    reachable = set()\n    queue = deque([(start_x, start_y)])\n    reachable.add((start_x, start_y))\n    \n    while queue:\n        cx, cy = queue.popleft()\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in reachable:\n                if (nx, ny) in grid:\n                    t_type, seen, has_object = grid[(nx, ny)]\n                    if seen and t_type in walkable_types and not has_object:\n                        reachable.add((nx, ny))\n                        queue.append((nx, ny))\n    \n    unseen_reachable = []\n    for rx, ry in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in grid:\n                    t_type, seen, has_object = grid[(nx, ny)]\n                    if not seen:\n                        unseen_reachable.append({'x': nx, 'y': ny, 'adjacent_to': {'x': rx, 'y': ry}})\n    \n    unique_unseen = []\n    seen_coords = set()\n    for item in unseen_reachable:\n        coord = (item['x'], item['y'])\n        if coord not in seen_coords:\n            unique_unseen.append(item)\n            seen_coords.add(coord)\n            \n    print(json.dumps(unique_unseen))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-09T11:27:25.878Z",
+        "action_counter": 36502
+      }
+    ]
   }
 }
