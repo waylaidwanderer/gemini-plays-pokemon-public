@@ -1,9 +1,1 @@
-{
-  "location_analyst": {
-    "agent_name": "location_analyst",
-    "agent_description": "Provides exact locations for items and HMs in Pokémon Crystal based on game data.",
-    "agent_system_prompt": "You are a specialized game analyst for Pokémon Crystal. Your purpose is to provide the exact location of items, HMs, and TMs within the game. You must ignore information from other versions (Gold/Silver, HeartGold/SoulSilver). If an item is in a specific cave or route, specify the floor or exact coordinates if possible. Input will be the name of the item. Output must be the location and a brief description of how to reach it.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"item_name\":{\"type\":\"string\"}},\"required\":[\"item_name\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}}}"
-  }
-}
+{}

@@ -11,17 +11,17 @@
   4. Locate the eastern exit of Tohjo Falls.
 
 ## Strategy: Teach Waterfall and Exit
+- Status: Teaching Waterfall to LAPIS (Turn 36190).
 - Menu Navigation Offsets:
-  - Start Menu -> PACK: 2 'Down' from top (POKéDEX).
+  - Start Menu -> PACK: 2 'Down' from top.
   - PACK -> TM/HM Pocket: 3 'Right' from Items.
-  - HM07 Position: 10 'Down' from top of TM/HM list.
-  - Party Member (LAPIS): 5 'Down' from top.
+  - HM07 Position: 10 'Down' from TM24.
+  - Party Member (LAPIS): 5 'Down' from XENON.
   - Move to Replace (Bubble): Slot 1.
 - Plan:
-  1. Open Start -> PACK -> TM/HM Pocket.
-  2. Select HM07 Waterfall and Use on LAPIS (slot 6).
-  3. Replace Bubble.
-  4. Exit Ice Path via (36, 27).
+  1. Teach HM07 Waterfall to LAPIS. [Current]
+  2. Exit Ice Path via (36, 27) using ice_pathfinder tool.
+  3. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
