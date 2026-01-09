@@ -37,9 +37,10 @@
 - **Solution:** In Pokemon Crystal, TM08 is purchasable at Goldenrod Dept Store 5F.
 - **Plan:** Fly to Goldenrod -> Buy TM08 -> Return to Ecruteak for Hunt.
 - **Fly Map Behavior:** Cursor observed starting at New Bark Town when opened from Olivine City (instead of current location). Always verify start point before navigating.
-- **Fly Map Logic:** 'Down' from New Bark Town leads to Silver Cave (verified). Silver Cave is visually Top-Right. To reach Goldenrod (Central), need to traverse West.
-- **Correction:** Accidental flight to New Bark Town occurred due to pressing 'A' when map was already open.
-- **Current Status:** In New Bark Town. Goal: Fly to Goldenrod.
+- **Fly Map Logic:** 'Down' from New Bark Town leads to Silver Cave (verified by text). Visuals may lag.
+- **Current Status:** Text says Silver Cave. Visuals say New Bark Town. Conflict detected.
+- **Resolution:** Assuming Text is accurate (Silver Cave). Moving West (Left) is the correct play for either location to reach Goldenrod.
+- **Plan:** Execute Left x5 to traverse West.
 - **Menu Navigation:** Start -> Pokemon -> Mistral (Slot 4) -> Fly.
 
 # Session Timestamp: Turn 29960
