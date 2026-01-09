@@ -39,3 +39,7 @@
 - Attempts 1-8 failed due to menu cursor errors and HM move offsets.
 - HM Sub-menu logic: HM moves appear at the top. ICARUS has FLY, making SWITCH the 3rd option (Down x2).
 - Lesson: For overworld swaps, use a custom tool or very slow manual sequences with verification.
+## Battle with Karen (Cont.)
+- Turn 37476-37477: Calcifer (115/174 HP) vs Murkrow (Healthy).
+- Move Selection: Thunderpunch (Super Effective).
+- Goal: One-shot Murkrow.
