@@ -20,7 +20,7 @@
 - Alternative Plan: Check the waterfalls to see if they can be climbed (requires HM07).
 
 ## Tile Mechanics (Tohjo Falls specific)
-- Ledge (FLOOR_UP_WALL): Impassable from North at (9, 16), (10, 16), (11, 16).
+- Ledge (FLOOR_UP_WALL): Impassable from North at (9, 16) through (12, 16). [7 failed attempts total]
 - Waterfall: Requires HM07 Waterfall to climb. Rising Badge is already obtained.
 
 ## Strategy: Search for HM07 Waterfall
