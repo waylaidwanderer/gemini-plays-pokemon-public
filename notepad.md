@@ -8,8 +8,8 @@
 - Aerodactyl: DEFEATED
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite is at ~80% HP (just hit with Return). No status.
-- Team Status: Calcifer (89 HP) is the last healthy member. Thunderpunch is out of PP.
+- Status: Dragonite (~80% HP). Safeguard active (5 turns).
+- Team Status: Calcifer (89 HP), XENON (52 HP), GNEISS (FNT).
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -18,7 +18,7 @@
 - LADDER: Traversable. Vertical transition.
 - WARP_CARPET: Map transition at edges.
 - COUNTER: Interaction point; face it and press A.
-- WATER: Requires SURF to traverse.
+- WATER: Requires SURF to traverse. 
 - LEDGE: One-way traversal (jump down).
 - GRASS: Wild Pokémon encounter zone.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
@@ -29,13 +29,13 @@
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
-- Safeguard: Prevents status conditions for 5 turns.
-- Outrage: User is locked for 2-3 turns, then becomes confused.
+- Safeguard: Prevents status conditions (SLP, PAR, etc.) and confusion from Outrage.
+- Outrage: User is locked for 2-3 turns. Confusion is prevented by Safeguard.
 - Party Sub-menu (Battle): [SWITCH, STATS, CANCEL].
 - Party Sub-menu (Overworld): [STATS, SWITCH, ITEM, CANCEL].
 - HM Sub-menu logic: HM moves appear at top. SWITCH position varies.
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Battle Strategy
-- Current Objective: Defeat Dragonite #3. 
-- Method: Use Return to chip away. Use the last Revive on XENON to provide an insurance policy in case Calcifer faints.
+- Objective: Defeat Dragonite #3.
+- Current Plan: Revive GNEISS (Lv51) as the final backup. GNEISS has Rock moves (Rollout) which are strong against Dragonite. Calcifer will continue with Return. XENON is available for chip damage with Night Shade.
