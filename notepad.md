@@ -16,9 +16,11 @@
 
 ## Strategy: Exit Ice Path
 - Plan:
-  1. Navigate B1F to ladder leading back to 1F South (5, 25 -> 37, 13). [Current]
-  2. Exit Ice Path at (36, 27).
-  3. Fly to New Bark Town and head east to Tohjo Falls.
+  1. Navigate B1F to ladder at (17, 3) leading to B2F. [Current]
+  2. Navigate B2F to ladder leading to B1F South section.
+  3. Reach ladder at (5, 25) on B1F leading to 1F South.
+  4. Exit Ice Path at (36, 27).
+  5. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
