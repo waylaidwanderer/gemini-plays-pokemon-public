@@ -2,6 +2,7 @@
 
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Gyarados (Lv44).
+- Status: Confused.
 - Remaining: Dragonite x3, Aerodactyl, Charizard.
 
 ## Strategy vs Champion Lance
@@ -24,9 +25,9 @@
 - **Note:** Elemental punches are Special (Gen 2). Ghost moves are Physical. Night Shade is fixed damage.
 
 ### Tile Mechanics
-- **FLOOR:** Traversable. Standard movement.
-- **WALL:** Impassable.
-- **WARP_CARPET:** Map transition.
+- **FLOOR:** Traversable. Standard movement. (Verified on LancesRoom red carpet).
+- **WALL:** Impassable. (Verified on LancesRoom perimeter).
+- **WARP_CARPET:** Map transition. (Verified at map edges).
 
 ### World Lore & Goals
 - Ho-Oh revived Beasts after Brass Tower fire.
@@ -40,13 +41,3 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
 - ICARUS (Lv17 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-## Strategy vs Champion Lance
-- Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
-- Weaknesses: Electric (Gyarados), Ice (Dragonite), Rock (Charizard/Aerodactyl).
-- Plan: Use Calcifer's Thunderpunch for Gyarados/Charizard/Aerodactyl. Use Gneiss's Rock moves/Rollout if possible. Use XENON for Hypnosis/Night Shade.
-- Inventory Check: No major healing items left. Must rely on Revives.
-- Teaching Move: Consider teaching TM33 ICE PUNCH to Calcifer or LAPIS for Dragonite coverage.
-## Tile Mechanics
-- **FLOOR:** Traversable. Standard movement. (Verified on LancesRoom red carpet).
-- **WALL:** Impassable. (Verified on LancesRoom perimeter).
-- **WARP_CARPET:** Map transition. (Verified at map edges).
