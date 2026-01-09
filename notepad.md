@@ -45,3 +45,6 @@
 
 ## General Lessons & Warnings
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders. Check notepad for accuracy during battles. Avoid Redundant Goal restatements. Check root hypotheses regularly.
+- **Ladder Connection:** (1, 35) <-> (1, 49). Connects the middle and lower sections of 1F.
+- **Item Spotted:** Poke Ball at (7, 38) near the ledge.
+- **Exploration Strategy:** Use `find_closest_unseen_path_v3` to reveal the map floor by floor. Current focus: Lower section (y > 49).
