@@ -6,24 +6,22 @@
 2. Koga (Poison/Bug): DEFEATED
 3. Bruno (Fighting/Rock): DEFEATED
 4. Karen (Dark): DEFEATED
-5. Lance (Champion): IN PROGRESS
+5. Lance (Champion): IN PROGRESS (4/6 Defeated)
 
 ## Strategy for Lance (Champion)
 - Gyarados (Water/Flying): DEFEATED
-- Dragonite x3 (Dragon/Flying):
-  - Dragonite #1: DEFEATED
-  - Dragonite #2: DEFEATED
-  - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON/GNEISS, then use GNEISS (4x Rock advantage).
-- Note: Use Revives strategically.
+- Dragonite #1 (Dragon/Flying): DEFEATED
+- Dragonite #2 (Dragon/Flying): DEFEATED
+- Charizard (Fire/Flying): ACTIVE. Strategy: Hypnosis + Night Shade.
+- Dragonite #3 (Dragon/Flying): UPCOMING.
 
 ## Current Party Status
 1. Calcifer (Lv56): 31/178 HP (Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
-4. Ouroboros (Lv15): 40/40 HP (Active)
-5. XENON (Lv41): 0/104 HP (Fainted)
+4. Ouroboros (Lv15): 0/40 HP (Fainted)
+5. XENON (Lv41): 52/104 HP (Active)
 6. LAPIS (Lv12): 32/32 HP
 
 ## Persistence Knowledge
@@ -35,11 +33,10 @@
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
-- Dragonite (Ghost interaction): XENON is immune to Hyper Beam (Normal).
+- Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal) and takes neutral damage from Flamethrower.
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
-## Battle with Lance (Cont.)
-- Progress: 4/6 defeated.
-- Current: Ouroboros vs Charizard. XENON fainted.
-- Plan: Use Ouroboros as fodder to safely Revive XENON. GNEISS is the primary counter to Charizard but needs more HP or a Revive if it faints.
-- Item Hunt: Scrolling down in PACK to find REVIVE. Cursor on MYSTERYBERRY.
+## Battle Strategy
+- Use XENON to neutralize threats with Hypnosis.
+- Use Night Shade for reliable 41 damage.
+- Preserve Calcifer and GNEISS for the final cleanup if XENON falls.
