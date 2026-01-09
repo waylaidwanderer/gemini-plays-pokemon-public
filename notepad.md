@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Exiting Ecruteak Mart.
+- **Status:** Exiting menu to leave Mart.
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Ecruteak Mart does NOT sell Repels. Mistake realized. Funds: ¥8772.
+- **Notes:** Ecruteak Mart has no Repels. Funds: ¥8772. Plan: Exit -> Fly -> Buy.
