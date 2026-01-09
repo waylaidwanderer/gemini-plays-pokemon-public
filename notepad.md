@@ -13,6 +13,7 @@
     - Battle Fisher Scott at (10, 92). [Completed]
     - Talk to person in house at (15, 57) to heal. [Completed]
     - Navigate North to Victory Road. [In Progress]
+      - Collect fruit from tree at (14, 54). [Current]
       - Explore North towards Victory Road. [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
