@@ -8,8 +8,8 @@
 - Aerodactyl: DEFEATED
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite (~80% HP). Safeguard active (Turn 1/5). Accuracy -1.
-- Team Status: Calcifer (34 HP), XENON (52 HP). NO REVIVES LEFT.
+- Status: Dragonite (~75% HP). Safeguard active (Turn 2/5). Accuracy -1.
+- Team Status: Calcifer (34 HP). ALL OTHERS FAINTED. NO REVIVES LEFT.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -36,10 +36,5 @@
 
 ## Battle Strategy
 - Objective: Defeat Dragonite #3.
-- Strategy: Smokescreen luck + Return chip.
-- Plan:
-    1. Smokescreen (Done, Accuracy -1).
-    2. Switch to XENON (Done, XENON fainted).
-    3. Send Calcifer back in and use Return to finish.
-- Failed Hypothesis: Revive GNEISS (Out of items).
-- Attempt Count (Smokescreen/Return): 1.
+- Strategy: Return spam and hope for misses.
+- Plan: Use Return until Dragonite faints. If Calcifer faints, the run ends.
