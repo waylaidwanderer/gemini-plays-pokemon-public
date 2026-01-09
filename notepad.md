@@ -1,22 +1,17 @@
 # Johto Journey - Final Phase
 
 ## Navigation & Warps
-- **Victory Road Reception Gate:** Warp at (9, 67) <-> (10, 0) in Reception Gate leads to Route 23.
+- **Victory Road Exit:** Warp at (13, 5) leads deeper into the cave or toward Route 23.
 - **Ladder Connections (1F):**
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel has likely expired.
+- **Repel Status:** Max Repel still in effect (Turn 36771).
 
 ## Area Notes: Victory Road
-- **Mechanics:** No trainers except Rival Malice at the exit.
-- **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
-- **Rival Battle:** Malice challenged at (12, 9).
-  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36), Haunter (Lv35), Kadabra (Lv35), Magneton (Lv34).
-  - Outcome: Malice defeated. He moved north/east and left the area.
-- **Team Status:** Ouroboros (FNT), GNEISS (21/138), Calcifer (52/161), XENON (60/99).
-- **Repel Status:** Max Repel used at Turn 36770. Lasts 250 steps.
-- **Navigation:** Heading for the northern exit/warp at (13, 5).
+- **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
+- **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
+- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton.
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
@@ -28,7 +23,7 @@
 ## Strategy for Bug-Catching Contest (Saturday)
 - **Objective:** Obtain a Sun Stone.
 - **Method:** 1st place at National Park. Catch Scyther/Pinsir. Lead XENON (Hypnosis).
-- **Timing:** Currently Friday morning. Contest is tomorrow.
+- **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling before Elite Four.
