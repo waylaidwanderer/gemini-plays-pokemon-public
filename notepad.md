@@ -15,7 +15,7 @@
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
-  - Full Restores (Buy 3 - ¥9000) - In progress (Turn 36857)
+  - Full Restores (3) - Done (Turn 36857)
   - Max Repels (already have 1, but spares are good)
 - **Team Roles:**
   - Calcifer (Lv51 Typhlosion): Primary attacker (Fire/Electric coverage).
