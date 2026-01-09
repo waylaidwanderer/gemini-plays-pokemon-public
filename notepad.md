@@ -20,11 +20,11 @@
   - Ecruteak Mart: No Repels found (Standard inventory only).
 
 # Current Status
-- **Location:** Ecruteak City (Physically), Mahogany Town (Fly Map Cursor).
-- **Activity:** Menu Navigation (Flying to Blackthorn).
-- **Time Started:** Turn 29657.
+- **Location:** Mahogany Mart.
+- **Activity:** Buying Repels.
+- **Time Started:** Turn 29682.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Objective:** Fly to Blackthorn City to buy Max Repels.
+- **Objective:** Talk to Granny.
 - **Repel Logic:** Lv 36 Lead + Repel blocks local wilds (Lv ~15) but allows Roamers (Lv 40).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
