@@ -9,10 +9,10 @@
 5. Lance (Champion): IN PROGRESS (4/6 Defeated)
 
 ## Strategy for Lance (Champion)
-- Gyarados (Water/Flying): DEFEATED
-- Aerodactyl (Rock/Flying): DEFEATED
-- Dragonite #1 (Dragon/Flying): DEFEATED
-- Dragonite #2 (Dragon/Flying): DEFEATED
+- Gyarados: DEFEATED
+- Aerodactyl: DEFEATED
+- Dragonite #1: DEFEATED
+- Dragonite #2: DEFEATED
 - Charizard (Fire/Flying): ACTIVE. Strategy: Hypnosis + Night Shade.
 - Dragonite #3 (Dragon/Flying): UPCOMING.
 
@@ -24,7 +24,7 @@
 5. XENON (Lv41): 52/104 HP (Active)
 6. LAPIS (Lv12): 32/32 HP
 
-## Persistence Knowledge
+## persistence Knowledge
 ### Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
@@ -33,7 +33,7 @@
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
-- Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal) and takes neutral damage from Flamethrower.
+- Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal).
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle Strategy
