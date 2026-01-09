@@ -39,4 +39,4 @@
 - **Current Goal:** Go to Goldenrod Dept Store.
 - **Status:** Navigating Fly Map (Cursor at New Bark).
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Cursor stuck at New Bark Town. Using `navigate_menu` with hold to traverse West (Granular Cursor?).
+- **Notes:** Cursor confirmed at New Bark Town (Last destination). Navigating: Left -> Left -> Down (Target: Goldenrod).
