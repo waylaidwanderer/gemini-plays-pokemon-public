@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak City (Outside Mart).
 - **Goal:** Restock Supplies.
 - **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Selecting Flyer (Mistral).
+- **Status:** Opening Fly Map.
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** In Party Menu. Selecting Mistral (Slot 4) to Fly.
+- **Notes:** Selected Fly option. Next: Navigate to Goldenrod.
