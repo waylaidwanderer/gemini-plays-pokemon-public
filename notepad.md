@@ -8,7 +8,7 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Navigating Start Menu to Pokémon option (Up x6 from Exit).
+- **Status:** Selecting Mistral (Slot 4) to use Fly. Cursor currently on Muscle (Slot 3).
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
