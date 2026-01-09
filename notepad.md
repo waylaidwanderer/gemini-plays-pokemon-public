@@ -63,3 +63,5 @@
 ## Battle Strategies
 - Wild Battles: Running is prioritized for efficiency.
 - Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade. Catching at full HP is prioritized.
+## Strategy: Search for HM07 Waterfall (Updated)
+- Accessing Western Strip: The strip at Column 0 is blocked by a wall of WALL tiles at Column 1 from Row 2-15. It must be accessed from the southern floor by jumping the ledge at (10, 16) and walking west to (1, 16) or (1, 17).
