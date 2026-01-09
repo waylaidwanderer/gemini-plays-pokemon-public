@@ -1,52 +1,43 @@
 # Johto Journey - Final Phase
 
-## Victory Road (1F/2F/3F)
-- Re-entry: Route 23 (9, 13).
+## Elite Four Challenge (Started Turn 36866)
+- Turn 36890: Defeated Will.
+- Turn 36928: Defeated Koga.
+- Turn 36956: Started battle with Elite Four Bruno. Lead: XENON (Lv39 Haunter).
 
-- Team Roles:
-  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 168/168 (Full Restore used Turn 36951).
-  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138 (Poison cleared).
-  - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
-  - Ouroboros (Lv15 Dratini): Thunder Wave support.
-- Strategy: Calcifer is healed. Proceed to challenge Bruno at (5, 7).
-- Reflection (Turn 36952):
-  1. Immediate Execution: Deferred healing Calcifer across several turns due to menu errors; corrected in Turn 36951.
-  2. Notepad Hygiene: Removed redundant "HEALING IN PROGRESS" status. Added start turn for Elite Four challenge.
-  3. Map Hygiene: Bruno marked. Entrance/Exit warps marked.
-  4. Automation: Current tools (navigation, menu) are sufficient.
-  5. Goal Clarity: Goals are focused on outcomes.
-  6. Error Analysis: Menu navigation failed repeatedly because I didn't track the party cursor correctly. Lesson: Always verify the starting position of the cursor in sub-menus. Root hypothesis (Bruno is north) is correct.
-- Elite Four Challenge (Started Turn 36866):
-  - Turn 36890: Defeated Will.
-  - Turn 36928: Defeated Koga.
-  - Turn 36951: Healed Calcifer for Bruno.
-  - Turn 36956: Started battle with Elite Four Bruno. Lead: XENON (Lv39 Haunter).
-- Strategy vs Bruno:
-  - Hitmontop/Hitmonlee/Hitmonchan/Machamp: XENON (Ghost immunity to Fighting/Normal).
+### Current Status: Bruno (Fighting)
+- **Roster Prediction:** Hitmontop, Hitmonlee, Hitmonchan, Machamp, Onix.
+- **Strategy:**
+  - Fighting/Normal types: XENON (Ghost immunity). Hypnosis + Dream Eater combo.
   - Onix: LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
-- Turn Count Correction: My turn count reporting was off by one in Turn 36951. Current turn is 36956. I will ensure accuracy moving forward.
+- **Team Status:**
+  - Calcifer (Lv53 Typhlosion): HP 168/168.
+  - GNEISS (Lv49 Graveler): HP 104/138.
+  - XENON (Lv39 Haunter): HP 99/99.
+  - Ouroboros (Lv15 Dratini): HP 40/40.
+  - ICARUS (Lv16 Pidgey): HP 44/44.
+  - LAPIS (Lv12 Poliwag): HP 32/32.
 
-## Shopping List
-- Revives (10) - Done (Turn 36856)
-- Full Restores (3) - Done (Turn 36857)
-
-## Battle Mechanics & Training
-- **Type Effectiveness (Verified):**
-  - Psychic: Super effective vs Poison/Ghost (XENON).
-  - Water: 4x effective vs Rock/Ground (GNEISS).
-  - Rock (Rollout): Super effective vs Flying (Golbat/Crobat).
-  - Fire vs Bug/Steel (Forretress): 4x effective.
-  - Fire vs Grass/Psychic (Exeggutor): Super effective.
-  - Fire vs Ice/Psychic (Jynx): Super effective.
-  - Electric vs Water/Psychic (Slowbro): Super effective.
-  - Electric vs Psychic/Flying (Xatu): Super effective.
-- **Strategic Note:** Switching resets confusion, stat drops, and Toxic counters.
+## Battle Mechanics & Type Effectiveness
+- Psychic: Super effective vs Poison/Ghost/Fighting.
+- Water: 4x effective vs Rock/Ground (GNEISS/Onix).
+- Rock (Rollout): Super effective vs Flying/Fire/Ice/Bug.
+- Fire: Super effective vs Bug/Steel/Grass/Ice.
+- Electric: Super effective vs Water/Flying.
+- Ghost: Immune to Fighting/Normal. Super effective vs Psychic/Ghost.
+- Poison: Weak to Psychic/Ground.
+- Ground: Immune to Electric. Super effective vs Fire/Electric/Poison/Rock/Steel.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
-- **WALL:** Impassable.
-- **COUNTER:** Impassable. Interact with NPCs behind them from an adjacent tile.
-- **PC:** Stand BELOW, face UP, press A.
-- **LADDER:** Warp tile.
-- **WARP_CARPET:** Warp tile.
-- **VOID:** Impassable.
+- **WALL / VOID / COUNTER:** Impassable.
+- **LADDER / WARP_CARPET:** Warp transitions between maps.
+- **PC:** Stand BELOW, face UP, press A to interact.
+- **ICE:** Causes sliding in the direction of movement until an obstacle is hit.
+- **WHIRLPOOL:** Blockage; requires HM06 (Whirlpool) to clear while surfing.
+- **WATERFALL:** Requires HM07 (Waterfall) to climb or descend.
+- **WATER:** Requires HM03 (Surf) to traverse.
+
+## Victory Road & League Info
+- Re-entry: Route 23 (9, 13).
+- Shopping List: Revives (10) - Done, Full Restores (3) - Done.
