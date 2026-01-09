@@ -34,8 +34,7 @@
 - Ravioli (Krabby) used Whirlpool to clear (10, 20).
 - Discovery: The building at (19, 29) is the Dragon Shrine. It must be approached from the south.
 - Path:
-  1. Surf Up into (21, 21).
-  2. Surf east to X=24, then south to Y=30.
-  3. Surf west along Y=30 to reach (14, 30).
-  4. Land at (14, 30) and walk east to (19, 30).
-  5. Enter the shrine at (19, 29).
+  1. Surf east to X=25, then south to Y=30.
+  2. Surf west along Y=30 to reach (13, 30).
+  3. Land at (14, 30) and walk east to (19, 30).
+  4. Enter the shrine at (19, 29).
