@@ -16,7 +16,7 @@
   - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
   - Ouroboros (Lv15 Dratini): Thunder Wave support.
 - **Strategy:** Heal Calcifer with a Full Restore. Bruno is at (5, 7). XENON is immune to Fighting moves. GNEISS for Onix. Calcifer for raw power.
-- **Note:** Searching PACK for Full Restore. Current item: Full Heal.
+- **Note:** Searching PACK for Full Restore. Current item: ICE HEAL. Items below: unknown.
 
 ## Shopping List
 - Revives (10) - Done (Turn 36856)
