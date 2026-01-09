@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Emergency Exit from Buy Menu.
+- **Status:** Re-initiating trade with Clerk.
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Bleeding money on accidental Poke Balls (¥1872 left). Resetting dialogue.
+- **Notes:** Lost ~¥800 on accidental Poke Balls. Money: ¥1872. Restarting interaction.
