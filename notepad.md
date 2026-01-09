@@ -77,3 +77,6 @@
 - **Traversal Logic:** Previous tests suggest ~4 Lefts per city. 5 Lefts executed so far. Estimated position: Between Blackthorn and Mahogany.
 - **Action:** Continue West. Execute Left x5 again to reach Ecruteak/Olivine area.
 - **Goal:** Reach Western Johto (Internal State) to align with Visuals.
+- **Map Diagnosis:** 'Left' from Silver Cave appears ineffective or slow. 'Down' from New Bark led to Silver Cave.
+- **New Hypothesis:** Vertical movement (Up) might be more reliable to escape Silver Cave (East Edge).
+- **Plan:** Execute Up x5 to reach Blackthorn/Indigo Plateau area. Then traverse West.
