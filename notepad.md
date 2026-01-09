@@ -37,5 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Selecting 'SELL' option.
+- **Status:** Scrolling to PP UP.
 - **Method:** Sell PP Up/Rare Candy -> Buy Super Repels.
+- **Notes:** Sold 3 Full Heals by accident (lag). Correcting.
