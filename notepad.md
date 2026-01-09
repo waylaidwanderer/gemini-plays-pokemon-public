@@ -36,11 +36,10 @@
 
 ## Battle Strategy
 - Objective: Defeat Dragonite #3.
-- Strategy: Smokescreen luck + Night Shade chip.
+- Strategy: Smokescreen luck + Return chip.
 - Plan:
-    1. Smokescreen (Done).
-    2. Switch to XENON to preserve Calcifer and bait a miss.
-    3. Night Shade (41 fixed) if XENON survives.
-    4. Return with Calcifer to finish.
+    1. Smokescreen (Done, Accuracy -1).
+    2. Switch to XENON (Done, XENON fainted).
+    3. Send Calcifer back in and use Return to finish.
 - Failed Hypothesis: Revive GNEISS (Out of items).
 - Attempt Count (Smokescreen/Return): 1.
