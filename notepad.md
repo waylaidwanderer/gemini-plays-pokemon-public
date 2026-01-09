@@ -1,6 +1,6 @@
 # Johto Elite Four Challenge - REMATCH START
 - gauntlet started at Turn 37260. [Timestamp: Friday 11:58 AM]
-- Progress: Challenging Will.
+- Progress: Defeated Will. Challenging Koga.
 
 ## Strategy for Elite Four
 1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade).
