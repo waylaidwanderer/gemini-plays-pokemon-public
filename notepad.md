@@ -14,7 +14,6 @@
 - **Rival Battle:** Malice challenged at (12, 9).
   - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36).
   - Current Opponent: Haunter (Lv35).
-  - Status: Ouroboros fainted. XENON is Lv39 and learned DREAM EATER. Calcifer is active (52/161 HP). Strategy: OHKO with FLAME WHEEL.
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
@@ -29,7 +28,7 @@
 - **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
-- **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before Elite Four.
+- **Team Training:** Ouroboros (Lv15) and XENON (Lv39) need leveling before Elite Four.
 - **Type Effectiveness:**
   - Psychic: Super effective vs Poison/Ghost (XENON).
   - Water: 4x effective vs Rock/Ground (GNEISS).
