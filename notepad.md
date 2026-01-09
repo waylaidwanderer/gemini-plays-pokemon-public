@@ -4,14 +4,6 @@
 - Objective: Challenge the Pokémon League.
 - Strategy: Navigate Tohjo Falls and Route 27 to reach Victory Road.
 
-## Strategy: Navigate Route 27
-- Objective: Reach Route 26 and Victory Road.
-- Progress:
-  - Route 27 West & Tohjo Falls. [Completed]
-  - Explore house at (33, 7). [Completed]
-  - Route 27 Bridge & Trainers. [Completed]
-  - Reach Route 26 Junction. [Completed]
-
 ## Strategy: Navigate Route 26
 - Objective: Reach Victory Road.
 - Progress:
