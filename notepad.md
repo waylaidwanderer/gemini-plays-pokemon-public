@@ -15,7 +15,8 @@
 - Active: Dragonite #2 (Lv47). Moves: Blizzard.
 - Remaining: Dragonite #3, Aerodactyl, Charizard.
 - Turn 37160: Revive cycle started. ICARUS is active.
-- Turn 37163: Selecting Revive to use on GNEISS.
+- Turn 37164: Misclicked NEVERMELTICE. Correcting.
+- Turn 37165: Using Revive on GNEISS.
 
 ## Strategy vs Champion Lance
 - Plan: Use fodder to revive GNEISS. GNEISS uses Rollout.
