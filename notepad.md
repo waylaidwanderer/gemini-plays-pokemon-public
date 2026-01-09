@@ -55,3 +55,4 @@
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
 - Map Connectivity: Verify connectivity before committing to major backtracking (e.g., Ice Path B3F sides ARE connected).
+- VOID: Impassable area outside the map boundaries.
