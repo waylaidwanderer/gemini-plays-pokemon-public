@@ -59,3 +59,6 @@
 - **Current Target:** Reach Mahogany or Ecruteak, then proceed South to Goldenrod.
 - **Fly Map Logic:** 4x Left (400ms) from Blackthorn was insufficient to change selection. Mountain range likely requires significant travel time.
 - **Plan:** Execute 8x Left to force traversal to Mahogany/Ecruteak.
+- **State Mismatch:** Text says Fly Map is open (Blackthorn), but visuals show New Bark Town. 8x Left failed to change text.
+- **Action:** Executing hard reset of Fly Map (B -> A) to resync state and cursor.
+- **Goal:** Verify if map opens and resets to New Bark Town.
