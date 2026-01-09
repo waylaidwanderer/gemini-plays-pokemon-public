@@ -19,12 +19,13 @@
   1. Open Start Menu.
   2. Select PACK.
   3. Navigate to TM/HM Pocket.
-  4. Use HM07 on LAPIS. [Current]
-  5. Replace BUBBLE.
+  4. Use HM07 on LAPIS.
+  5. Replace BUBBLE. [Completed Turn 36232]
 - Plan:
-  1. Teach HM07 Waterfall to LAPIS.
-  2. Exit Ice Path via (36, 27) using ice_pathfinder tool.
+  1. Exit menus to overworld. [Current]
+  2. Navigate to Ice Path exit at (36, 27).
   3. Fly to New Bark Town and head east to Tohjo Falls.
+  4. Use Waterfall at (10, 8) in Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
