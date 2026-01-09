@@ -29,4 +29,4 @@
 - **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
 - **Active Effect:** Max Repel (applied Turn 29083).
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
-- **Notes:** Resuming hunt at (8, 2) after Wade call interruption. Tool continued pressing buttons during call, so stayed in grass. Restarting routine from here will verify grass deeper and return.
+- **Notes:** In Ecruteak (18, 35). Turning back to Route 37 to continue the loop. Previous loop completed successfully despite phone call.
