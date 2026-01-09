@@ -46,3 +46,11 @@
 ## Lessons Learned (Continued)
 - Menu Verification: Always cross-reference "Current Screen Text" and "Text History" before executing menu navigation. Misidentifying the active menu (e.g., assuming a nickname screen is open when in the overworld) leads to wasted turns and garbled inputs.
 - Nicknaming: Successfully nicknamed the contest Scyther "GLAIVE" via Bill's PC/Contest Helper interface. [Turn 35852]
+## Strategy: Surf Access
+- Need a Surf user to reach Route 27 from New Bark Town.
+- LAPIS (Poliwag) and Ravioli (Krabby) in PC box 1 have HM03 Surf.
+- Plan: Use the PC in Elm's Lab to swap KIMCHI (Gloom) for LAPIS.
+- Steps:
+  1. Access PC in Elm's Lab at (3, 5).
+  2. Deposit KIMCHI.
+  3. Withdraw LAPIS.
