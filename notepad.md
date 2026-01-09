@@ -4,10 +4,11 @@
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
 ## Strategy: Preparing for the Elite Four
-- Training: Level all active members (especially XENON and Ouroboros) to 45+.
+- Training: Level all active members (especially XENON and Ouroboros) to 45+ at Route 45 or Route 27.
 - Coverage: Dragonite (Ouroboros) is the primary candidate for Ice-type coverage (TM33) against Lance.
 - Evolution: Obtain Sun Stone from Bug-Catching Contest for KIMCHI (Gloom).
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
+- Fly: Swap Ravioli (Krabby) for ICARUS (Pidgey) at the PC to enable fast travel.
 
 ## Tile Mechanics (Global)
 - FLOOR: Standard traversable tile. Verified.
