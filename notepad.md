@@ -7,24 +7,22 @@
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
 ## Strategy: Swap KIMCHI for LAPIS (Surf User)
-- Status: Completed [Turn 35917]
 - Objective: Replace KIMCHI (GLOOM) with LAPIS (POLIWAG) to gain SURF/WHIRLPOOL capability.
-- Current Location: Blackthorn Pokecenter 1F.
+- Current Location: Route 27 (Surfing).
 - Steps:
   1. Deposit KIMCHI into Bill's PC. [Done]
   2. Withdraw LAPIS from Box 1. [Done]
-  3. Exit Pokecenter and Fly to New Bark Town.
-  4. Surf east to Route 27.
+  3. Exit Pokecenter and Fly to New Bark Town. [Done]
+  4. Surf east to Route 27. [Done]
 
 ## Strategy: Reach Route 27
-- Status: In progress [Started Turn 35918]
 - Objective: Travel from New Bark Town to Route 27 to begin the trek to Kanto.
 - Requirements: Pokémon with SURF (LAPIS has it).
 - Steps:
   1. Fly to New Bark Town. [Done]
   2. Stand on the water's edge at the east side of town. [Done]
-  3. Use SURF to enter the water.
-  4. Navigate east past the map boundary.
+  3. Use SURF to enter the water. [Done]
+  4. Navigate east past the map boundary. [Done]
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
