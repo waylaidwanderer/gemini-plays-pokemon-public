@@ -9,9 +9,9 @@
 5. Lance (Champion): IN PROGRESS
 
 ## Strategy for Lance (Champion)
-- Gyarados (Water/Flying): Use Calcifer (Thunderpunch).
+- Gyarados (Water/Flying): DEFEATED
 - Dragonite x3 (Dragon/Flying): Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake).
-- Aerodactyl (Rock/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
+- Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
