@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Selling PP Up.
-- **Method:** Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Sold 3 Full Heals by mistake. Correcting now.
+- **Status:** Handling Gaven's call.
+- **Method:** Finish call -> Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
+- **Notes:** Accidentally sold small items. Money is now ¥3272.
