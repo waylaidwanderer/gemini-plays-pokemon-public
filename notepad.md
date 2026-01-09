@@ -3,7 +3,7 @@
 - Secondary Goal: Prepare team for the Elite Four.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn #35473]
+## Strategy: Heading to the Pokémon League [Turn #35474]
 - Plan:
   1. Fly to Goldenrod City to buy TM33 (Ice Punch) for Calcifer (Typhlosion). [Current Task]
   2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
