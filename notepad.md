@@ -21,7 +21,7 @@
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (4:40 AM). Contest is tomorrow.
+- Timing: Friday (4:41 AM). Contest is tomorrow.
 
 ## Battle Mechanics
 - Type Effectiveness:
@@ -54,6 +54,7 @@
 ## Tool Status
 - find_path_v2: Reliable.
 - ice_pathfinder_v2: Reliable.
+- find_closest_unseen_path_v3: Ready for use.
 - battle_strategist: Active.
 
 ## General Lessons & Warnings
