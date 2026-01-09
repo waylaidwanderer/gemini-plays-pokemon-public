@@ -12,9 +12,9 @@
 - **Mechanics:** No trainers except Rival Malice at the exit.
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity after battle.
 - **Rival Battle:** Malice challenged at (12, 9).
-  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36), Haunter (Lv35).
-  - Current Opponent: Kadabra (Lv35).
-  - Status: Ouroboros fainted. XENON is Lv39 and learned DREAM EATER. Calcifer is active (52/161 HP). Strategy: OHKO with RETURN or FLAME WHEEL.
+  - Defeated: Sneasel (Lv34), Feraligatr (Lv38), Golbat (Lv36), Haunter (Lv35), Kadabra (Lv35).
+  - Current Opponent: Magneton (Lv34).
+  - Status: Ouroboros fainted. XENON (60/99 HP). GNEISS (21/138 HP). Calcifer is active (52/161 HP). Strategy: OHKO with FLAME WHEEL.
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
