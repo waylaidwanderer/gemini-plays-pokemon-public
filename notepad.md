@@ -11,7 +11,9 @@
   - Navigate North to Victory Road. [In Progress]
     - Battle Psychic Richard at (13, 79). [Completed]
     - Battle Fisher Scott at (10, 92). [Completed]
-    - Talk to person in house at (15, 57) to heal. [Current]
+    - Talk to person in house at (15, 57) to heal. [Completed]
+    - Navigate North to Victory Road. [In Progress]
+      - Explore North towards Victory Road. [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
