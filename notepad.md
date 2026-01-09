@@ -65,3 +65,7 @@
 - Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade. Catching at full HP is prioritized.
 ## Strategy: Search for HM07 Waterfall (Updated)
 - Accessing Western Strip: The strip at Column 0 is blocked by a wall of WALL tiles at Column 1 from Row 2-15. It must be accessed from the southern floor by jumping the ledge at (10, 16) and walking west to (1, 16) or (1, 17).
+## Strategy: Search for HM07 Waterfall (Update 2)
+- Attempted to jump ledge at (10, 16) from (10, 15) but failed [Turns 36025-36027].
+- Plan: Move east to (11, 15) or (12, 15) and try jumping the ledge there to reach Row 17.
+- Goal: Reach Column 0 via Row 17 and (1, 16).
