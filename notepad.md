@@ -19,7 +19,8 @@
   2. Navigate 1F to exit at (36, 27). [Completed Turn 36352]
   3. Exit Ice Path to Blackthorn City. [Completed Turn 36357]
   4. Fly to New Bark Town. [Current]
-  5. Head east from New Bark Town to Route 27 and Tohjo Falls.
+  5. Travel east from New Bark Town via Surf to reach Route 27.
+  6. Traverse Tohjo Falls to reach the eastern section of Route 27.
 
 ## Items Collected
 - Ice Path 1F: HM07 Waterfall (31, 7)
