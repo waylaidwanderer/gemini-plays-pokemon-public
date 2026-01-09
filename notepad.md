@@ -34,10 +34,8 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Ecruteak City (Outside Mart).
-- **Goal:** Restock Supplies.
-- **Current Goal:** Go to Goldenrod Dept Store.
-- **Status:** Navigating Fly Map (Stuck at Silver Cave?).
-- **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Left inputs failed to move cursor from Silver Cave. Trying UP to unstick/traverse to Blackthorn.
-- **Hypothesis:** Cursor stuck on horizontal axis? Testing vertical.
+- **Current Location:** Fly Map (Violet City).
+- **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
+- **Status:** Navigating Fly Map.
+- **Method:** Move cursor Down from Violet City to reach Goldenrod.
+- **Notes:** Successfully moved West from Mahogany to Violet. Now heading South.
