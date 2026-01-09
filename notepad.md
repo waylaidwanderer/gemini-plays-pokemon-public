@@ -39,7 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** Super Repel Applied (Turn 30156).
-- **Action:** Resuming hunt routine.
-- **Hunt Progress:** Cycle #15 resumed.
-- **Inventory:** 5 Super Repels remaining (after use).
+- **Status:** Super Repel Active. Menu closed.
+- **Action:** Resuming hunt routine (Cycle #15).
+- **Inventory:** 5 Super Repels remaining.
