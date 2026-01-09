@@ -11,13 +11,14 @@
 
 ## Strategy: Teach Waterfall and Exit
 - Status: HM07 Waterfall obtained (Turn 36168). Teaching to LAPIS (slot 6) replacing Bubble.
-- Start Turn: 36176
+- Hallucination Warning: Stood at (30, 7) too long. Moving to (31, 7) before teaching.
 - Plan:
-  1. Open PACK -> TM/HM Pocket. [Current]
-  2. Select HM07 Waterfall.
-  3. Use on LAPIS (slot 6).
-  4. Replace Bubble (move slot 1).
-  5. Exit Ice Path via (36, 27).
+  1. Exit OPTION menu (B, B).
+  2. Move Right to (31, 7). [Current]
+  3. Open PACK -> TM/HM Pocket.
+  4. Select HM07 Waterfall and Use on LAPIS (slot 6).
+  5. Replace Bubble (move slot 1).
+  6. Exit Ice Path via (36, 27).
 - Northeast Ice Puzzle Solution:
   - Start: (16, 8) (Floor entrance).
   - Move: Down to (16, 9) (Floor).
