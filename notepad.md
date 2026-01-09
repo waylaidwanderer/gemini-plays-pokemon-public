@@ -42,3 +42,4 @@
 - **Status:** In Route 37 (8, 2).
 - **Action:** Exiting North to Ecruteak to complete Cycle #15 reset.
 - **Note:** Super Repel Active. Cycle #15 yielded no encounter.
+- **Event:** Gaven calling (again?) at end of Cycle #15. Interrupting map reset.
