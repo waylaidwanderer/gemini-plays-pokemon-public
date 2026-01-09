@@ -12,7 +12,7 @@
 - Gyarados (Water/Flying): DEFEATED
 - Dragonite x3 (Dragon/Flying):
   - Dragonite #1: DEFEATED (XENON Hypnosis/Dream Eater)
-  - Dragonite #2: ACTIVE (Plan: Confuse Ray + Night Shade spam)
+  - Dragonite #2: ACTIVE (Strategy: Confuse Ray + Night Shade spam)
   - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
@@ -26,7 +26,7 @@
 5. XENON (Lv41): 63/104 HP (Active)
 6. LAPIS (Lv12): 32/32 HP
 
-## persistence Knowledge
+## Persistence Knowledge
 ### Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
@@ -39,7 +39,4 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle with Lance (Cont.)
-- Turn 37525: XENON used Confuse Ray. Dragonite #2 became confused.
-- Turn 37526: Dragonite #2 is confused and hurt itself in confusion.
-- Turn 37527: Moved cursor to NIGHT SHADE.
-- Turn 37528: Executing NIGHT SHADE.
+- Dragonite #2: Confused. XENON using Night Shade (41 fixed damage) to chip HP safely.
