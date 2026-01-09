@@ -66,3 +66,6 @@
 - **Fly Map Anomaly:** Cursor stuck on 'Silver Cave' text despite visual scrolling West.
 - **Hypothesis:** Massive distance between Silver Cave and Johto mainland requires sustained input.
 - **Action:** Executing Left x8 to brute-force cross the gap.
+- **Fly Map Glitch:** Cursor stuck on 'Silver Cave' text despite 'Left' inputs.
+- **Action:** Performing full menu reset (Back to Overworld -> Re-enter Fly) to clear UI state.
+- **Target:** Re-open Fly map from fresh state to ensure cursor starts at New Bark Town.
