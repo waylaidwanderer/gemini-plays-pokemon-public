@@ -39,4 +39,4 @@
 - **Current Goal:** Sell Loot & Buy Repels.
 - **Status:** Switching to SELL menu.
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Accidentally bought 3 Poke Balls. Money: ¥2272. correcting.
+- **Notes:** Accidentally bought 3 Poke Balls. Money: ¥2272. Correcting.
