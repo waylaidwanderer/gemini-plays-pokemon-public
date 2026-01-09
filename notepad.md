@@ -12,7 +12,7 @@
 - Gyarados (Water/Flying): DEFEATED
 - Dragonite x3 (Dragon/Flying):
   - Dragonite #1: DEFEATED (XENON Hypnosis/Dream Eater)
-  - Dragonite #2: ACTIVE (Plan: Hypnosis + Dream Eater)
+  - Dragonite #2: ACTIVE (Plan: Confuse Ray + Hypnosis + Dream Eater)
   - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
@@ -26,7 +26,7 @@
 5. XENON (Lv41): 63/104 HP (Active)
 6. LAPIS (Lv12): 32/32 HP
 
-## Persistence Knowledge
+## persistence Knowledge
 ### Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
@@ -40,4 +40,5 @@
 
 ## Battle with Lance (Cont.)
 - Turn 37522: XENON used Dream Eater. Dragonite #1 fainted.
-- Turn 37523: Lance sent out Dragonite #2. Planning Hypnosis.
+- Turn 37523: FIGHT selected.
+- Turn 37524: Move menu open. Cursor on DREAM EATER. Planning Confuse Ray.
