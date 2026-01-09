@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29104)
-- Status: In Pokedex (Entry View).
-- Action: Pressing B to return to Pokedex List.
+# Reflection (Turn 29105)
+- Status: In Pokedex (Entry View). Previous 'B' press failed.
+- Action: Using navigate_menu to reliably press 'B' and return to List.
 - Goal: Scroll to Raikou/Entei numbers to check 'Seen' status.
 - Note: Max Repel active.
