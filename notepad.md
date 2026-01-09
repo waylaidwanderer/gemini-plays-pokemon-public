@@ -3,10 +3,11 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** New Bark Town (Accidental Fly?).
-- **Activity:** Re-opening Fly Map to go to Blackthorn City.
-- **Time Started:** Turn 29619.
+- **Location:** New Bark Town.
+- **Activity:** Resetting Menu State (Pokedex Open -> Overworld).
+- **Time Started:** Turn 29620.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
+- **Issue:** Previous `navigate_menu` call failed (Intermediate states show 'Up' inputs instead of 'Down'?). Resetting manually.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
