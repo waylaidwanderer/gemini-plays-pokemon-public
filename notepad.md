@@ -39,6 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** Super Repel Active. Menu closed.
-- **Action:** Resuming hunt routine (Cycle #15).
-- **Inventory:** 5 Super Repels remaining.
+- **Status:** In Route 37 (8, 2).
+- **Action:** Exiting North to Ecruteak to complete Cycle #15 reset.
+- **Note:** Super Repel Active. Cycle #15 yielded no encounter.
