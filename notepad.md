@@ -22,9 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29025) - Mandatory 50-Turn Check
-- **Execution:** Tasks handled immediately (Repel). No deferrals.
-- **Hygiene:** Notepad is concise. Map markers for transition are verified correct.
-- **Strategy:** Hunt loop active. Automation via 'execute_hunt_routine' is stable.
-- **Status:** In Ecruteak (17, 35). Turning back to Route 37.
-- **Goal:** Continue hunting until beast encounter or ~Turn 29100.
+# Reflection (Turn 29026)
+- Status: On Route 37. Entering grass for hunt.
+- Progress: ~366 turns. Hunt active.
+- Strategy: Execute hunt routine.
