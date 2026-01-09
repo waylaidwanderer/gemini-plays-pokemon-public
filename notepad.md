@@ -8,8 +8,8 @@
 - Aerodactyl: DEFEATED
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
-- Status: Dragonite just finished Outrage (Turn 2 hit XENON). It may be confused.
-- Team Status: Calcifer (89 HP) is the last healthy member.
+- Status: Dragonite is at full health (minus one Return). No status.
+- Team Status: Calcifer (89 HP) is the last healthy member. Thunderpunch is out of PP.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -29,7 +29,7 @@
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
-- Safeguard: Prevents status conditions for 5 turns. (Explains why Hypnosis failed on Dragonite).
+- Safeguard: Prevents status conditions for 5 turns.
 - Outrage: User is locked for 2-3 turns, then becomes confused.
 - Party Sub-menu (Battle): [SWITCH, STATS, CANCEL].
 - Party Sub-menu (Overworld): [STATS, SWITCH, ITEM, CANCEL].
@@ -37,5 +37,5 @@
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Battle Strategy
-- Current Objective: Defeat Dragonite #3. Calcifer (Lv56) vs Dragonite (Lv50, Paralyzed, Confused, Critical HP). 
-- Strategy: Use Return to secure the final knockout.
+- Current Objective: Defeat Dragonite #3. Calcifer (89 HP) vs Dragonite (Lv50, ~80% HP).
+- Strategy: Use Return to chip away. Use the last Revive on XENON if Calcifer is about to faint to serve as a buffer.
