@@ -12,6 +12,7 @@
     - Muk (Lv42): Defeated (Turn 36916).
     - Crobat (Lv44): Defeated (Turn 36925).
     - Venomoth (Lv41): Weak to Fire. Calcifer HP 77/168. (In progress)
+- **Status:** Defeated Will. Battling Koga. Ariados, Forretress, Muk, Crobat defeated.
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
   - **Will's Roster:** Xatu (40), Slowbro (41), Xatu (42), Exeggutor (41), Jynx (41).
 - **Team Roles:**
