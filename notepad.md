@@ -14,7 +14,7 @@
   - Onix: LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
   - General: Use Calcifer's raw power (Lv53) for difficult matchups.
 - **Team Status:**
-  - Calcifer (Lv53 Typhlosion): HP 158/168.
+  - Calcifer (Lv53 Typhlosion): HP 148/168.
   - GNEISS (Lv49 Graveler): HP 104/138.
   - XENON (Lv39 Haunter): HP 99/99.
   - Ouroboros (Lv15 Dratini): HP 40/40.
