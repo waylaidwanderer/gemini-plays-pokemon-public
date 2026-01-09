@@ -35,8 +35,7 @@
 - Current Position: (19, 9).
 - Plan: Move south to (19, 10), then Surf west to (10, 10) and south to (10, 19).
 - Resource Management: Use Max Repel and teach HM06 Whirlpool to Ravioli (Krabby).
-## Strategy Update: Finding the Dragon Shrine [Turn 35361]
-- Failed attempt to teach Whirlpool (Turn 35360): Accidentally selected HM05 Flash instead of HM06 Whirlpool.
-- Decision: Move to (20, 9) to break the tile loop at (19, 9).
-- Plan: Teach HM06 Whirlpool to Ravioli (Krabby) correctly (one 'Up' from CANCEL in TM/HM pocket).
-- Goal: Reach the whirlpool at (10, 20).
+## Strategy Update: Finding the Dragon Shrine [Turn 35369]
+- Ravioli (Krabby) learned HM06 Whirlpool.
+- Next Step: Use Max Repel and Surf to the whirlpool at (10, 20).
+- Path: (20, 9) -> Surf at (20, 10) -> (12, 10) -> (11, 10) -> (10, 10) -> (10, 20).
