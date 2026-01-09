@@ -39,22 +39,8 @@
 - LEDGE/LEDGE_HOP_DOWN: One-way jump (South).
 
 ## Pokemon Info
-### In Party
-- XENON (HAUNTER): Lv37. Night Shade, Hypnosis, Confuse Ray.
-- GNEISS (GRAVELER): Lv48. Strength, Earthquake, Rollout.
-- Calcifer (TYPHLOSION): Lv49. Flame Wheel, Thunderpunch, Return.
-- Ouroboros (DRATINI): Lv15. ExtremeSpeed.
-- ICARUS (PIDGEY): Lv16. Fly.
-- LAPIS (POLIWAG): Lv12. Surf, Whirlpool.
-
-### In PC (Box 1)
-- GLAIVE (SCYTHER): Lv14.
-- SELKIE (SEEL): Lv24.
-- DELTA (MANTINE): Lv20.
-- RANGOON (KRABBY): Lv22.
-- NOMURA (TENTACOOL): Lv17.
-- Ravioli (KRABBY): Lv10.
-- KIMCHI (GLOOM): Lv34.
+- Party: XENON (Lv37 Haunter), GNEISS (Lv48 Graveler), Calcifer (Lv49 Typhlosion), Ouroboros (Lv15 Dratini), ICARUS (Lv16 Pidgey), LAPIS (Lv12 Poliwag).
+- PC (Box 1): GLAIVE (Scyther), SELKIE (Seel), DELTA (Mantine), RANGOON (Krabby), NOMURA (Tentacool), Ravioli (Krabby), KIMCHI (Gloom).
 
 ## Lessons Learned
 - Dragon Shrine Entrance: South side (19, 29).
