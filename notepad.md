@@ -25,8 +25,7 @@
 - DOOR: Traversable (warp).
 
 # Reflection (Turn 29115)
-- Status: In Pokedex List. Confirmed Raikou/Entei are Unseen.
-- Observation: List skipped from Dratini (#241) to Murkrow (#208), implying #209-#240 are empty/unseen.
-- Conclusion: Beasts are Unseen. Blind Hunt is the only option.
-- Action: Exiting Pokedex and Menu.
-- Next: Resume execute_hunt_routine.
+- Status: In Ecruteak (17, 35). Resuming Blind Hunt.
+- Pokedex Check: Raikou/Entei are NOT Seen. Cannot track.
+- Strategy: Loop execute_hunt_routine (Route 37 <-> Ecruteak) until encounter.
+- Note: Max Repel active. Turn Count Mismatch acknowledged.
