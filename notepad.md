@@ -6,6 +6,28 @@
 - Route: Surf east from New Bark Town to Route 27 once preparations are complete.
 - Fast Travel: Swap Ravioli (KRABBY) for ICARUS (PIDGEY) to use Fly. [Completed Turn 35719]
 
+## Strategy: Swap KIMCHI for LAPIS (Surf User)
+- Status: In progress [Started Turn 35885]
+- Objective: Replace KIMCHI (GLOOM) with LAPIS (POLIWAG) to gain SURF/WHIRLPOOL capability.
+- Current Location: Blackthorn Pokecenter 1F.
+- Steps:
+  1. Deposit KIMCHI into Bill's PC.
+  2. Withdraw LAPIS from Box 1.
+  3. Fly to New Bark Town.
+  4. Surf east to Route 27.
+
+## Tile Mechanics (Global)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- PC: Impassable; interactable from front.
+- COUNTER: Impassable; interactable from front.
+- WARP_CARPET_DOWN: Warps to another map.
+- LADDER: Warps to another map.
+- GRASS: Traversable; triggers encounters.
+- WATER: Traversable (requires SURF).
+- WHIRLPOOL: Impassable (requires WHIRLPOOL to clear).
+- LEDGE/LEDGE_HOP_DOWN: One-way jump (South).
+
 ## Game Mechanics: FLY Map
 - Navigation: Pressing 'Down' cycles through visited locations in a predetermined list order.
 - Outdoor Use Only: FLY can only be used when the player is outdoors.
@@ -21,47 +43,20 @@
 - Tiers: Scyther and Pinsir are top tier. Higher level and full HP are best.
 - Winning: 1st place typically requires 300-350+ points.
 
-## Tile Mechanics (Global)
-- FLOOR: Traversable.
-- GRASS: Traversable; triggers encounters.
-- WATER: Traversable (Surf).
-- WALL/BUOY/HEADBUTT_TREE: Impassable.
-- WHIRLPOOL: Requires HM06.
-- LADDER/STAIRS/DOOR/CAVE: Warps.
-- LEDGE/LEDGE_HOP_DOWN: One-way jump (South).
-- COUNTER: Interaction possible from adjacent tile.
-
 ## Lessons Learned
 - Dragon Shrine Entrance: South side (19, 29).
 - Fly: Use 'Down' to cycle cities.
 - **Move Compatibility (CRITICAL):**
   - XENON (Haunter), Calcifer (Typhlosion), Ouroboros (Dratini) CANNOT learn TM33 Ice Punch.
   - Verified in-game; ignore external advice.
+- **Elm's Lab PC (3, 5):** Contains research notes ("OBSERVATIONS ON POKéMON EVOLUTION"); no storage access.
+- **Menu Verification:** Always cross-reference "Current Screen Text" and "Text History" before executing menu navigation.
+- **Nicknaming:** Successfully nicknamed the contest Scyther "GLAIVE". [Turn 35852]
 
 ## Pokemon Info
 - Ouroboros (DRATINI): Lv15. ExtremeSpeed (Gift).
+- LAPIS (POLIWAG): Lv12. Has SURF and WHIRLPOOL.
+- Ravioli (KRABBY): Lv10. Has SURF and WHIRLPOOL.
 
 ## Battle Strategies
-- Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade (Lv37 damage). Night Shade deals damage equal to the user's level. Confuse Ray is a secondary option if Hypnosis misses. Catching at full HP is prioritized for higher contest scores.
-## Lessons Learned (Continued)
-- Menu Verification: Always cross-reference "Current Screen Text" and "Text History" before executing menu navigation. Misidentifying the active menu (e.g., assuming a nickname screen is open when in the overworld) leads to wasted turns and garbled inputs.
-- Nicknaming: Successfully nicknamed the contest Scyther "GLAIVE" via Bill's PC/Contest Helper interface. [Turn 35852]
-## Strategy: Surf Access
-- Need a Surf user to reach Route 27 from New Bark Town.
-- LAPIS (Poliwag) and Ravioli (Krabby) in PC box 1 have HM03 Surf.
-- Plan: Use the PC in Elm's Lab to swap KIMCHI (Gloom) for LAPIS.
-- Steps:
-  1. Access PC in Elm's Lab at (3, 5).
-  2. Deposit KIMCHI.
-  3. Withdraw LAPIS.
-## Observation: Elm's Lab PC
-- The PC at (3, 5) in Elm's Lab is for Professor Elm's research notes ("OBSERVATIONS ON POKéMON EVOLUTION") and does not provide access to the Pokémon Storage System.
-
-## Plan: Swap KIMCHI for LAPIS (Surf User)
-1. Exit Elm's Lab.
-2. Use Fly to travel to Cherrygrove City.
-3. Access the PC in the Cherrygrove Pokemon Center.
-4. Deposit KIMCHI (GLOOM).
-5. Withdraw LAPIS (POLIWAG) from Box 1.
-6. Fly back to New Bark Town.
-7. Surf east from New Bark Town to Route 27.
+- Bug-Catching Contest: Use Hypnosis. Avoid damaging low-level targets with Night Shade (deals damage equal to user level). Catching at full HP is prioritized.
