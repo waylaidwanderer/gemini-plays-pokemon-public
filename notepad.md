@@ -13,7 +13,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Use XENON (Hypnosis) to disable, then GNEISS (Rollout) or chip with Night Shade.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Use XENON (Hypnosis) to disable, then GNEISS (Rollout/Strength) or chip with Night Shade. Use fodder to safely Revive key members if needed.
 - Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray).
 
 ## Current Party Status
@@ -35,3 +35,5 @@
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal).
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
+- Party Sub-menu Order (Overworld): STATS, SWITCH, ITEM, CANCEL.
+- HM Sub-menu logic: HM moves appear at top. SWITCH is 3rd if 1 HM known.
