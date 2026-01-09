@@ -31,3 +31,4 @@
 - **TM08 Rock Smash:** Critical for map access (e.g. Ruins of Alph, Dark Cave).
 - **Observation:** Route 36 NPC dialogue implied giving TM08 ("That happens to be ROCK SMASH"), but no "Obtained TM08" text was seen in history.
 - **Hypothesis:** TM08 was obtained previously and stored in PC, or used and lost. Checking PC now.
+- **Verification:** Verified TM08 is NOT in Bag, Party, or PC Boxes 1-3. Currently checking PC Item Storage.
