@@ -16,7 +16,7 @@
 
 ## Strategy: Exit Ice Path
 - Plan:
-  1. Navigate to Ice Path exit at (36, 27) using coordinate path.
+  1. Navigate to Ice Path exit at (36, 27). [Current]
   2. Fly to New Bark Town and head east to Tohjo Falls.
   3. Use Waterfall at (10, 8) in Tohjo Falls.
 
@@ -40,3 +40,4 @@
 - Wild Encounters: Trigger battles and block movement on the turn they occur.
 - Ice Ledges: Jumping down ledges from ICE tiles might be blocked or require specific landing logic.
 - Tool Refinement: ice_pathfinder_v2 updated to return coordinates and handle ledge jumping correctly. (Turn 36237)
+- Menu Navigation: Use menu_navigator agent for complex multi-step menus to avoid loops.
