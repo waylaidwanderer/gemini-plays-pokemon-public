@@ -15,15 +15,15 @@
   - Dragonite #2: DEFEATED
   - Dragonite #3: UPCOMING
 - Aerodactyl (Rock/Flying): DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Hypnosis + Night Shade.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON/GNEISS, then use GNEISS (4x Rock advantage).
 - Note: Use Revives strategically.
 
 ## Current Party Status
 1. Calcifer (Lv56): 31/178 HP (Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
-4. Ouroboros (Lv15): 40/40 HP
-5. XENON (Lv41): 63/104 HP (Active)
+4. Ouroboros (Lv15): 40/40 HP (Active)
+5. XENON (Lv41): 0/104 HP (Fainted)
 6. LAPIS (Lv12): 32/32 HP
 
 ## Persistence Knowledge
@@ -39,9 +39,6 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle with Lance (Cont.)
-- Charizard: Active. XENON using Hypnosis (Turn 37536).
-- Turn 37536: XENON used Hypnosis but missed (Charizard used Flamethrower first).
-- Turn 37537: Charizard used Flamethrower. XENON fainted.
-- Strategy: Use Ouroboros as fodder to Revive GNEISS. GNEISS is 4x effective against Charizard.
-- Turn 37538: XENON fainted. Sending out Ouroboros to serve as fodder.
-- Strategy: Use Revive on GNEISS while Charizard attacks Ouroboros. GNEISS (Rock/Ground) has a 4x advantage against Charizard (Fire/Flying).
+- Progress: 3/6 defeated.
+- Current: Ouroboros vs Charizard. XENON fainted.
+- Plan: Use Ouroboros as fodder to safely Revive XENON. GNEISS is the primary counter to Charizard but needs more HP or a Revive if it faints.
