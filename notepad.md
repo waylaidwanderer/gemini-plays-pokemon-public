@@ -36,21 +36,21 @@
 - **Menu Navigation:** When navigating deep menus (like the Pack pockets), use small button sequences and verify the screen text between turns to avoid getting lost in sub-menus.
 
 ## Battle Notes - Will (Psychic)
-- **Xatu:** Psychic/Flying. Weak to Electric (Thunderpunch), Rock (Rollout).
-- **Jynx:** Psychic/Ice. Weak to Fire (Flame Wheel), Rock (Rollout).
-- **Exeggutor:** Psychic/Grass. Weak to Fire (Flame Wheel).
-- **Slowbro:** Psychic/Water. Weak to Electric (Thunderpunch).
+- **Xatu:** Psychic/Flying. Weak to Electric (Thunderpunch), Rock (Rollout). (DEFEATED)
+- **Jynx:** Psychic/Ice. Weak to Fire (Flame Wheel), Rock (Rollout). (DEFEATED)
+- **Exeggutor:** Psychic/Grass. Weak to Fire (Flame Wheel). (DEFEATED)
+- **Slowbro:** Psychic/Water. Weak to Electric (Thunderpunch). (DEFEATED)
 - **Lead Strategy:** Calcifer (Typhlosion) is the most versatile attacker here. Xenon (Haunter) is risky due to Poison typing vs Psychic moves.
 
 ## Battle Notes - Koga (Poison/Bug)
-- **Ariados:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout).
-- **Venomoth:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout).
-- **Forretress:** Bug/Steel. Weak to Fire (4x!) (Flame Wheel).
-- **Crobat:** Poison/Flying. Weak to Electric (Thunderpunch), Rock (Rollout).
-- **Muk:** Poison. Weak to Ground (Earthquake).
+- **Ariados:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout). (DEFEATED)
+- **Venomoth:** Bug/Poison. Weak to Fire (Flame Wheel), Rock (Rollout). (DEFEATED)
+- **Forretress:** Bug/Steel. Weak to Fire (4x!) (Flame Wheel). (DEFEATED)
+- **Crobat:** Poison/Flying. Weak to Electric (Thunderpunch), Rock (Rollout). (DEFEATED)
+- **Muk:** Poison. Weak to Ground (Earthquake). (DEFEATED)
 ## Battle Notes - Bruno (Fighting)
 - **Hitmontop:** Fighting. Xenon immune to STAB. Used Dig (Ground). (DEFEATED)
-- **Hitmonlee:** Fighting. Xenon immune to STAB (unless Foresight active). Weak to Psychic/Flying.
+- **Hitmonlee:** Fighting. Xenon immune to STAB (unless Foresight active). (DEFEATED)
 - **Hitmonchan:** Fighting. Weak to Psychic/Flying. Watch for Elemental Punches (Fire/Ice/Thunder).
 - **Onix:** Rock/Ground. 4x weak to Water/Grass. 2x weak to Ground (Earthquake).
 - **Machamp:** Fighting. Weak to Psychic/Flying. High physical power.
