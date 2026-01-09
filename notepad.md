@@ -59,3 +59,5 @@
 
 ## Active Hypotheses
 - **Hypothesis:** Dragonite can learn TM33 Ice Punch in Crystal. **Test:** Attempt to teach TM33 after evolving Ouroboros.
+## Battle Strategies
+- Bug-Catching Contest: Use XENON's Hypnosis to put targets to sleep before throwing Park Balls. Avoid damaging low-level targets with Night Shade (fixed 37 HP damage) to prevent fainting. Verified that XENON's Night Shade deals damage equal to its level (Lv37).
