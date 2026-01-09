@@ -3,8 +3,8 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex to locate Roaming Beasts.
 
 # Current Status
-- **Location:** Ecruteak City (29, 22).
-- **Activity:** Flying to Goldenrod City (Dept Store) to buy Max Repels.
+- **Location:** Flying to Goldenrod City.
+- **Activity:** Buying Max Repels at Dept Store.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** None.
 - **Note:** Spinarak encounter confirmed Repel was not active.
