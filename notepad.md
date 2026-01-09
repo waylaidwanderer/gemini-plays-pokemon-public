@@ -6,13 +6,13 @@
 ## Strategy: Dragon User Challenge
 - Navigate to the "small shrine" at the center of the Den.
 - Use Surf/Whirlpool to cross water hazards.
-- Current Status: DragonsDenB1F at (19, 8). Heading to shrine building entrance.
+- Current Status: DragonsDenB1F at (19, 9). Heading to western area via whirlpool at (10, 20).
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile.
 - WALL: Impassable boundary.
 - WATER: Traversable while Surfing.
-- BUOY: Impassable water barrier. Line at X=15 (Y=12-16) and Y=16 (X=11-15).
+- BUOY: Impassable water barrier. Found at X=11 (Y=12-23) and Y=16 (X=11-15).
 - WHIRLPOOL: Requires HM06 to cross. Confirmed at (10, 20).
 - HEADBUTT_TREE: Impassable boundary.
 - LADDER: Warp between floors/sections.
@@ -20,7 +20,7 @@
 ## Lessons Learned
 - Clair's Badge: Requires extra trial in Dragon's Den.
 - NPC Interaction: Counter tiles and NPCs act as barriers.
-- BUOY Barrier: Blocks movement; find gaps or navigate around.
+- BUOY Barrier: Blocks movement; navigate around the northern end at Y=11.
 - Wild Encounters: Magikarp and Dratini are common. Use Repels to avoid interruptions.
 
 ## Phone Contacts & Events
@@ -28,15 +28,10 @@
 
 ## Discovered Locations
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
-- Central Platform (19-20, 6-9): Location of the shrine building.
-- Exit Ladder (20, 3): Leads back to DragonsDen1F.
+- Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
+- Whirlpool Barrier (10, 20): Likely path to the Dragon Shrine.
 
-## Strategy: Finding the Dragon Shrine [Turn 35354]
-- Successfully bypassed the BUOY pen and reached the central platform.
-- Move north on the platform (Y=8 to Y=5) to find the shrine building entrance.
-- Resource Management: Use Max Repel and teach Ravioli (Krabby) HM06 Whirlpool.
-## Strategy Update: Finding the Dragon Shrine [Turn 35355]
-- Observation: The platform at (19-20, 4-9) contains the entrance ladder (20, 3) but no shrine building.
-- Hypothesis: The Dragon Shrine is located in the unexplored western half of the Den, accessible via the whirlpool at (10, 20).
-- Plan: Teach HM06 Whirlpool to Ravioli (Krabby), use Max Repel, and navigate to (10, 21) to cross the whirlpool.
-- Navigation: Move south to (19, 10), Surf west to (10, 10), then south to (10, 21).
+## Strategy: Reaching the Western Den [Turn 35357]
+- Current Position: (19, 9).
+- Plan: Move south to (19, 10), then Surf west to (10, 10) and south to (10, 19).
+- Resource Management: Use Max Repel and teach HM06 Whirlpool to Ravioli (Krabby).
