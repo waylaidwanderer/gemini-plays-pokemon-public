@@ -1,58 +1,29 @@
 # Johto Journey - Final Phase
 
-## Strategy for Victory Road
-- **Victory Road Entry:** Turn 36644 (Friday, 4:53 AM)
-- **Status:** Exploring 1F at (3, 50). Turn 36659 (Friday, 5:02 AM).
-- **Warp:** Exit to Reception Gate at (9, 67).
-- **Strategy:** Navigate north, reveal reachable unseen tiles, and manage wild encounters. Ensure team is healthy for the final stretch.
+## Navigation & Warps
+- **Victory Road Reception Gate:** Officer at (8, 11) verified eight Johto badges. Warp at (9, 67) <-> (10, 0) in Reception Gate.
+- **Ladder Connection (1F):** (1, 35) <-> (1, 49). Connects the lower and middle sections.
 
-## Strategy for Route 26 (Completed)
-- **Defeated Trainers:** Fisher Scott, Psychic Richard, Cooltrainer Joyce, Cooltrainer Gaven, Cooltrainer Jake, Cooltrainer Beth.
-- **Reception Gate:** Officer at (8, 11) verified eight Johto badges.
+## Area Notes: Victory Road
+- **Mechanics:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
+- **Exploration Strategy:** Use Max Repel to avoid wild encounters. Reveal reachable unseen tiles.
+- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (Approx 215 steps remaining).
+- **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four. Focus on training here after exploration.
+
+## Tile & Movement Mechanics
+- **Ledge Info:** (6, 38), (6, 39), (6, 40), (6, 41) are one-way ledges jumping West. Access the plateau (x=7) from the South at (7, 42).
+- **Pathing Info:** (3, 34) through (8, 34) are one-way ledges jumping South. Access the northern area via (1, 34) -> (0, 34) -> (0, 33) -> ... -> (3, 34).
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
-- Location: National Park (North of Goldenrod City).
-- Method: Win 1st place in the Bug-Catching Contest. 
-- Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (5:02 AM). Contest is tomorrow.
+- Location: National Park. Method: 1st place.
+- Preparation: Lead with status-inflictor (XENON with Hypnosis). Targets: Scyther, Pinsir.
+- Timing: Currently Friday morning. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
-- **Psychic:** Super effective against Poison/Ghost (XENON).
-- **Water:** 4x effective against Rock/Ground (GNEISS).
-- **Fire:** Super effective against Grass/Poison (Victreebel/Parasect).
-- **Electric:** Super effective against Water (Kingler/Blastoise/Golduck).
-- **Ground (Earthquake):** 4x effective against Fire (Rapidash/Flareon/Arcanine).
+- **Psychic:** Super effective vs Poison/Ghost (XENON).
+- **Water:** 4x effective vs Rock/Ground (GNEISS).
+- **Fire:** Super effective vs Grass/Poison.
+- **Electric:** Super effective vs Water.
+- **Ground (Earthquake):** 4x effective vs Fire.
 - **Strategy:** Switching resets stat drops. Use GNEISS vs Fire/Psychic threats.
-
-## Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- TALL_GRASS: Traversable; wild encounters.
-- WATER: Traversable (requires SURF).
-- WATERFALL: Face and press A to climb.
-- LEDGE: Impassable from low side, jumpable from high side.
-- FLOOR_UP_WALL: Impassable from South.
-- LADDER: Warp (except Route 27 bridge).
-- PC: Interact from front.
-- ICE: Sliding.
-- LEDGE_HOP_DOWN: Jump N->S.
-
-## Tool Status
-- find_path_v2: Reliable.
-- find_closest_unseen_path_v3: Refined version.
-- battle_strategist: Active.
-
-## General Lessons & Warnings
-- Hallucination Warning: Always verify map ID and coordinates after warps/ladders. Check notepad for accuracy during battles. Avoid Redundant Goal restatements. Check root hypotheses regularly.
-- **Ladder Connection:** (1, 35) <-> (1, 49). Connects the lower and middle sections of 1F.
-- **Victory Road Mechanic:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
-- **Exploration Strategy:** Use Max Repel to avoid wild encounters. Use `find_closest_unseen_path_v3` to reveal the map. Current focus: Southern section (y > 45).
-- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps.
-- **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four.
-- **Items Found:**
-  - (15, 48): Full Heal (Collected)
-  - (12, 48): Max Revive (Collected)
-  - (7, 38): Poke Ball (Spotted)
-- **Ledge Info:** (6, 38) is a one-way ledge jumping West. Access (7, 38) from the North.
-- **Pathing Info:** (3, 34) through (8, 34) are one-way ledges jumping South. Access the main room via (1, 34) -> (0, 34) -> (0, 33) -> ... -> (3, 34).
