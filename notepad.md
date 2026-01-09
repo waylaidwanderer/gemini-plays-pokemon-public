@@ -5,11 +5,11 @@
 
 ## Strategy: Heading to the Pokémon League [Turn #35480]
 - Plan:
-  1. Fly to Goldenrod City to buy TM33 (Ice Punch) for Calcifer (Typhlosion). [Current Task - Started Turn 35503]
-  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
-  3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini).
-  4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
-  5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road.
+  1. Buy TM33 (Ice Punch) for Calcifer (Typhlosion) at Goldenrod Dept. Store. [Started Turn 35503]
+  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
+  3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
+  4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480]
+  5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
 
 ## Tile Mechanics (Global)
 - FLOOR/CAVE: Standard traversable tile.
@@ -20,6 +20,8 @@
 - HEADBUTT_TREE: Impassable boundary.
 - LADDER/STAIRS: Warp between floors/sections.
 - LEDGE: One-way jump transition.
+- COUNTER: Impassable. Interaction with NPC behind it possible from adjacent tile.
+- WARP_CARPET: Usually map exit, but can be standard floor (e.g., Dept Store floors).
 
 ## Lessons Learned
 - Dragon Shrine Entrance: Located on the south side (19, 29).
