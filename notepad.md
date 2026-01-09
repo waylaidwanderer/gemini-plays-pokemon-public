@@ -5,6 +5,7 @@
 - Strategy: Navigate Route 26 to reach Victory Road.
 - Progress:
   - Reach Victory Road via Route 26. [In Progress]
+    - Battle Cooltrainer Joyce at (10, 56). [Completed]
     - Battle Cooltrainer Gaven at (9, 38). [Current]
 
 ## Strategy for Bug-Catching Contest (Saturday)
@@ -18,6 +19,7 @@
 - Type Effectiveness:
   - Psychic moves are extremely effective against Poison/Ghost types (like XENON).
   - Water moves are 4x effective against Rock/Ground types (like GNEISS).
+  - Fire moves are super effective against Grass/Poison types (like Victreebel).
   - Electric moves (like Thunderpunch) are super effective against Water types (like Blastoise).
 - Strategy:
   - Switching resets stat drops and accuracy penalties.
@@ -48,7 +50,7 @@
 
 ## Tool Status
 - find_path_v2: Reliable for standard overworld navigation.
-- ice_pathfinder_v2: Refined to handle items and FLOOR_UP_WALL. Reliable.
+- ice_pathfinder_v2: Reliable.
 - solve_boulders_v2: Unverified in current context.
 - battle_strategist: Active. Use for wild encounters and trainer battles.
 
