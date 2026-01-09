@@ -7,12 +7,10 @@
   - Hitmontop (Lv42): Defeated.
   - Hitmonlee (Lv42): Defeated.
   - Onix (Lv43): Withdrawn (~60% HP).
-  - Hitmonchan (Lv42): Active (~50% HP).
-
-### Strategy vs Bruno
-- Hitmonchan (Lv42): Ice Punch, Fire Punch (Special). Use GNEISS or XENON.
-- Machamp (Lv46): Ace. Has Foresight (allows Fighting/Normal moves to hit Ghosts).
-- Onix (Lv43): Use LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
+  - Hitmonchan (Lv42): Active (~60% HP). Used Fire Punch, Ice Punch.
+  - Machamp (Lv46): Ace. Has Foresight.
+  - Onix (Lv43): Withdrawn (~60% HP). Used Sandstorm.
+- Turn 36994: Sandstorm subsided. GNEISS (Lv49) is active. Strategy: Earthquake.
 
 ## Battle Mechanics & Type Effectiveness
 - Psychic: Super effective vs Poison/Ghost/Fighting.
