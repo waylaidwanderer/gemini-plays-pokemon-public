@@ -5,11 +5,11 @@
 1. Will (Psychic): DEFEATED
 2. Koga (Poison/Bug): DEFEATED
 3. Bruno (Fighting/Rock): DEFEATED
-4. Karen (Dark): NEXT
+4. Karen (Dark): IN PROGRESS
 5. Lance (Dragon): FINAL
 
 ## Strategy for Karen (Dark)
-- Umbreon: Bulky. Use Calcifer (Return) or Gneiss (Earthquake).
+- Umbreon: DEFEATED
 - Vileplume: Grass/Poison. Use Calcifer (Flame Wheel).
 - Gengar: Ghost/Poison. Use Gneiss (Earthquake) or Calcifer (Flame Wheel/Thunderpunch). Note: Normal moves like Return do not hit Ghost types.
 - Murkrow: Dark/Flying. Use Calcifer (Thunderpunch) or Gneiss (Rollout).
@@ -17,9 +17,9 @@
 - Note: No healing items left besides Berries and Revives. Strategy must be aggressive.
 
 ## Current Party Status
-1. ICARUS (Lv18): 48/48 HP (Lead)
+1. ICARUS (Lv19): 50/50 HP
 2. GNEISS (Lv51): 35/144 HP
-3. Calcifer (Lv55): 174/174 HP (Target Lead)
+3. Calcifer (Lv55): 123/174 HP (Active)
 4. Ouroboros (Lv15): 40/40 HP
 5. XENON (Lv41): 52/104 HP
 6. LAPIS (Lv12): 32/32 HP
