@@ -1,16 +1,14 @@
 # Johto Journey - Final Phase
 
-## Strategy for Route 26 & Victory Road
-- **Route 26 Trek Start:** Turn 36500 (Friday, 4:00 AM)
-- **Defeated Trainers (Route 26):**
-  - Fisher Scott (10, 92), Psychic Richard (13, 79), Cooltrainer Joyce (10, 56), Cooltrainer Gaven (9, 38), Cooltrainer Jake (14, 24), Cooltrainer Beth (6, 8).
-- **Victory Road Gate (ID: 23_13):**
-  - Officer at (8, 11) verified eight Johto badges.
-  - Exit to Victory Road located at (9, 0) and (10, 0).
-- **Recent Lessons:**
-  - `select_battle_option` should only be used once per turn; check intermediate states for menu progress.
-  - The "house" at (7, 5) on Route 26 is actually the Pokémon League Reception Gate.
-  - Route 27 Bridge: Ladder sprites function as FLOOR tiles.
+## Strategy for Victory Road
+- **Victory Road Entry:** Turn 36644 (Friday, 4:53 AM)
+- **Status:** Exploring the cave to reach Indigo Plateau.
+- **Warp:** Exit to Reception Gate at (9, 67).
+- **Strategy:** Navigate north, managing wild encounters and potential puzzles. Ensure team is healthy for the final stretch.
+
+## Strategy for Route 26 (Completed)
+- **Defeated Trainers:** Fisher Scott, Psychic Richard, Cooltrainer Joyce, Cooltrainer Gaven, Cooltrainer Jake, Cooltrainer Beth.
+- **Reception Gate:** Officer at (8, 11) verified eight Johto badges.
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
