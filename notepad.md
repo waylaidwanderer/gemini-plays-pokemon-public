@@ -16,10 +16,10 @@
 
 ## Battle Mechanics
 - Type Effectiveness:
-  - Psychic moves are extremely effective against Poison/Ghost types (like XENON).
+  - Psychic moves are super effective against Poison/Ghost types (like XENON).
   - Water moves are 4x effective against Rock/Ground types (like GNEISS).
   - Fire moves are super effective against Grass/Poison types (like Victreebel).
-  - Electric moves (like Thunderpunch) are super effective against Water types (like Blastoise).
+  - Electric moves are super effective against Water types (like Kingler/Blastoise).
 - Strategy:
   - Switching resets stat drops and accuracy penalties.
   - Bulky physical attackers (like GNEISS) are effective against high-speed Psychic threats.
