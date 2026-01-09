@@ -48,8 +48,13 @@
 - **Timing:** Currently Friday morning. Goal started Turn 35773. Contest is tomorrow.
 
 ## Battle Mechanics & Training
-- **Type Effectiveness:**
+- **Type Effectiveness (Verified):**
   - Psychic: Super effective vs Poison/Ghost (XENON).
   - Water: 4x effective vs Rock/Ground (GNEISS).
   - Rock (Rollout): Super effective vs Flying (Golbat).
-- **Strategic Note:** Switching resets confusion and stat drops.
+  - Fire vs Bug/Steel (Forretress): 4x effective.
+  - Fire vs Grass/Psychic (Exeggutor): Super effective.
+  - Fire vs Ice/Psychic (Jynx): Super effective.
+  - Electric vs Water/Psychic (Slowbro): Super effective.
+  - Electric vs Psychic/Flying (Xatu): Super effective.
+- **Strategic Note:** Switching resets confusion, stat drops, and Toxic counters.
