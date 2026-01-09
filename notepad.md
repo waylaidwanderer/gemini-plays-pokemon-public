@@ -1,9 +1,9 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` (holds) is REQUIRED for the Fly Map cursor movement. `slow_press` (taps) is ignored. Use `slow_press` for list menus (Party, Bag).
+- **Tool Insight:** `navigate_menu` requires `hold_ms` > 150 for reliable Fly Map movement. Previous `Down, Right` failed to move cursor from Lake of Rage.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
-- **Fly Map Logic:** `Left, Up, Right` from New Bark -> Mahogany (Hypothesis). `Right` from Mahogany -> Lake of Rage?
-- **Current Strategy:** Navigate to Mahogany Town, then carefully find Blackthorn.
+- **Fly Map Logic:** `Left, Up, Right, Right` from New Bark -> Lake of Rage.
+- **Current Fly Path:** Lake of Rage -(Down)-> Mahogany (Hypothesis). Retrying with longer hold.
 
 # Current Status
 - **Location:** Ecruteak City.
