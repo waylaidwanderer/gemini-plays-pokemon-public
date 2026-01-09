@@ -1,104 +1,4 @@
 {
-  "slow_press": {
-    "description": "Presses a sequence of buttons with a configurable delay between each press. Input 'buttons' should be a list of button names (e.g., 'A', 'B', 'Up'). 'sleep' commands in the input list are ignored to prevent errors; use the 'delay' parameter instead.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "A",
-              "B",
-              "Select",
-              "Start",
-              "Right",
-              "Left",
-              "Up",
-              "Down",
-              "R",
-              "L"
-            ]
-          }
-        },
-        "delay": {
-          "type": "integer",
-          "default": 500,
-          "description": "Delay in milliseconds between presses."
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "buttons = input_data.get('buttons', [])\ndelay = input_data.get('delay', 500)\n\nsequence = []\nfor btn in buttons:\n    # Filter out any accidentally passed sleep commands or invalid strings\n    if btn in [\"A\", \"B\", \"Select\", \"Start\", \"Right\", \"Left\", \"Up\", \"Down\", \"R\", \"L\"]:\n        sequence.append(btn)\n        sequence.append(f\"sleep {delay}\")\n\n# Remove the trailing sleep if it exists\nif sequence and sequence[-1].startswith(\"sleep\"):\n    sequence.pop()\n\nprint(json.dumps(sequence))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2025-12-20T10:42:11.488Z",
-        "action_counter": 8108
-      },
-      {
-        "commit_message": "Refined slow_press to prevent consecutive sleep errors by sanitizing input and ensuring correct interleaving of delays.",
-        "timestamp": "2025-12-26T10:25:26.235Z",
-        "action_counter": 19531
-      }
-    ]
-  },
-  "navigate_menu": {
-    "description": "Navigates menus by holding direction buttons for a specified duration to ensure registration, with delays between inputs. Useful for the Fly map and other sticky menus.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "directions": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Up",
-              "Down",
-              "Left",
-              "Right",
-              "A",
-              "B",
-              "Start",
-              "Select"
-            ]
-          }
-        },
-        "hold_ms": {
-          "type": "integer",
-          "default": 150
-        },
-        "interval_ms": {
-          "type": "integer",
-          "default": 300
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      },
-      "required": [
-        "directions",
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\n\n# Extract arguments from input_data\ndirections = input_data.get('directions', [])\nhold_ms = input_data.get('hold_ms', 150)\ninterval_ms = input_data.get('interval_ms', 300)\nautopress_buttons = input_data.get('autopress_buttons', True)\n\n# Frame duration is approx 16ms\nframes_to_hold = max(1, int(hold_ms / 16))\n\noutput_sequence = []\n\nfor btn in directions:\n    # Hold the button\n    for _ in range(frames_to_hold):\n        output_sequence.append(btn)\n    \n    # Release/Wait\n    if interval_ms > 0:\n        output_sequence.append(f\"sleep {interval_ms}\")\n        \nprint(json.dumps(output_sequence))",
-    "history": [
-      {
-        "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
-        "timestamp": "2026-01-08T03:01:39.002Z",
-        "action_counter": 27437
-      },
-      {
-        "commit_message": "Fixed `navigate_menu` to correctly extract arguments from `input_data` and execute the logic, preventing 'Unexpected end of JSON input' errors.",
-        "timestamp": "2026-01-08T03:03:15.631Z",
-        "action_counter": 27439
-      }
-    ]
-  },
   "assess_reachability": {
     "description": "Performs a flood-fill BFS starting from a given coordinate to determine all reachable tiles of a specific type (e.g., WATER). Returns the bounds of the reachable area, accessible warps, and adjacent unseen tiles. Useful for determining if a path exists through a maze.",
     "input_schema": {
@@ -126,65 +26,6 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-08T11:22:54.983Z",
         "action_counter": 27988
-      }
-    ]
-  },
-  "find_path_bfs": {
-    "description": "Finds the shortest path from the player's current position to a target coordinate using Breadth-First Search (BFS). Parses map XML to identify walkable tiles, avoiding Walls, Water (if walking), On-screen Objects, and Off-screen Objects marked with markers. Returns a list of button presses.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "target_x": {
-          "type": "integer"
-        },
-        "target_y": {
-          "type": "integer"
-        },
-        "movement_mode": {
-          "type": "string",
-          "enum": [
-            "walking",
-            "surfing"
-          ],
-          "default": "walking"
-        }
-      },
-      "required": [
-        "target_x",
-        "target_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef bfs_path(xml_string, target_x, target_y, movement_mode=\"walking\"):\n    try:\n        root = ET.fromstring(xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    start_pos = None\n    \n    # Allowed tile types\n    walkable_types = {\"FLOOR\", \"GRASS\", \"TALL_GRASS\", \"SAND\", \"CARPET\", \"DOOR\", \n                      \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\",\n                      \"STAIRS\", \"CAVE\"}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'WALL')\n            \n            is_blocked = False\n            \n            # Check basic tile type\n            if t_type not in walkable_types:\n                if movement_mode == \"walking\":\n                    is_blocked = True\n                elif movement_mode == \"surfing\":\n                    if t_type != \"WATER\":\n                        is_blocked = True\n            elif movement_mode == \"surfing\":\n                # If surfing, can only move on WATER (usually)\n                if t_type != \"WATER\":\n                    is_blocked = True\n            \n            # Check Objects (On-screen sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Object':\n                        is_blocked = True\n                        break\n            \n            # Check Markers with object_id (Off-screen known sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Marker' and child.attrib.get('object_id'):\n                        is_blocked = True\n                        break\n\n            # Check has-object attribute\n            if not is_blocked and tile.attrib.get('has-object') == 'true':\n                 is_blocked = True\n\n            grid[(x, y)] = not is_blocked\n            \n            # Locate Player\n            if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                start_pos = (x, y)\n                # Player tile is always walkable to start\n                grid[(x, y)] = True\n                \n    if not start_pos:\n        print(\"Error: Player not found on map.\")\n        return []\n        \n    if not grid.get((target_x, target_y), False):\n        print(f\"Error: Target {(target_x, target_y)} is blocked or invalid.\")\n        return []\n        \n    # BFS\n    queue = deque([(start_pos, [])])\n    visited = {start_pos}\n    \n    while queue:\n        current, path = queue.popleft()\n        if current == (target_x, target_y):\n            # Convert path to buttons\n            buttons = []\n            cx, cy = start_pos\n            for nx, ny in path:\n                if nx > cx: buttons.append(\"Right\")\n                elif nx < cx: buttons.append(\"Left\")\n                elif ny > cy: buttons.append(\"Down\")\n                elif ny < cy: buttons.append(\"Up\")\n                cx, cy = nx, ny\n            print(json.dumps(buttons))\n            return buttons\n            \n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    print(f\"Error: No path found to {(target_x, target_y)}.\")\n    return []\n\nif __name__ == \"__main__\":\n    bfs_path(map_xml_string, input_data['target_x'], input_data['target_y'], input_data.get('movement_mode', 'walking'))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-08T13:38:17.154Z",
-        "action_counter": 28141
-      },
-      {
-        "commit_message": "Fixed variable access by using `input_data` dictionary instead of assuming global variables.",
-        "timestamp": "2026-01-08T13:40:06.080Z",
-        "action_counter": 28143
-      },
-      {
-        "commit_message": "Fixing JSON output error when no path is found. Now returns an empty list [] on failure instead of a plain string.",
-        "timestamp": "2026-01-08T16:53:53.077Z",
-        "action_counter": 28353
-      },
-      {
-        "commit_message": "Fixed missing commit message error and refined BFS logic to handle surfing and landing correctly.",
-        "timestamp": "2026-01-08T18:06:59.771Z",
-        "action_counter": 28443
-      },
-      {
-        "commit_message": "Fixed JSON output error by removing plain text error messages. Now returns an empty list [] on failure.",
-        "timestamp": "2026-01-08T18:13:10.805Z",
-        "action_counter": 28451
-      },
-      {
-        "commit_message": "Refined obstacle detection to include <Object> tags and <Marker> tags with object_id, preventing pathing through NPCs.",
-        "timestamp": "2026-01-08T21:34:10.018Z",
-        "action_counter": 28681
       }
     ]
   },
@@ -258,6 +99,165 @@
         "commit_message": "Updated sequence to include 3 Downs for deeper grass penetration on Route 37 and 4 Ups for guaranteed return.",
         "timestamp": "2026-01-09T04:37:40.183Z",
         "action_counter": 29281
+      }
+    ]
+  },
+  "find_path_bfs": {
+    "description": "Finds the shortest path from the player's current position to a target coordinate using Breadth-First Search (BFS). Parses map XML to identify walkable tiles, avoiding Walls, Water (if walking), On-screen Objects, and Off-screen Objects marked with markers. Returns a list of button presses.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        },
+        "movement_mode": {
+          "type": "string",
+          "enum": [
+            "walking",
+            "surfing"
+          ],
+          "default": "walking"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef bfs_path(xml_string, target_x, target_y, movement_mode=\"walking\"):\n    try:\n        root = ET.fromstring(xml_string)\n    except Exception as e:\n        print(f\"Error parsing XML: {e}\")\n        return []\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    start_pos = None\n    \n    # Allowed tile types\n    walkable_types = {\"FLOOR\", \"GRASS\", \"TALL_GRASS\", \"SAND\", \"CARPET\", \"DOOR\", \n                      \"WARP_CARPET_LEFT\", \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"WARP_CARPET_DOWN\",\n                      \"STAIRS\", \"CAVE\"}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'WALL')\n            \n            is_blocked = False\n            \n            # Check basic tile type\n            if t_type not in walkable_types:\n                if movement_mode == \"walking\":\n                    is_blocked = True\n                elif movement_mode == \"surfing\":\n                    if t_type != \"WATER\":\n                        is_blocked = True\n            elif movement_mode == \"surfing\":\n                # If surfing, can only move on WATER (usually)\n                if t_type != \"WATER\":\n                    is_blocked = True\n            \n            # Check Objects (On-screen sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Object':\n                        is_blocked = True\n                        break\n            \n            # Check Markers with object_id (Off-screen known sprites)\n            if not is_blocked:\n                for child in tile:\n                    if child.tag == 'Marker' and child.attrib.get('object_id'):\n                        is_blocked = True\n                        break\n\n            # Check has-object attribute\n            if not is_blocked and tile.attrib.get('has-object') == 'true':\n                 is_blocked = True\n\n            grid[(x, y)] = not is_blocked\n            \n            # Locate Player\n            if tile.find('Player') is not None or tile.attrib.get('has-player') == 'true':\n                start_pos = (x, y)\n                # Player tile is always walkable to start\n                grid[(x, y)] = True\n                \n    if not start_pos:\n        print(\"Error: Player not found on map.\")\n        return []\n        \n    if not grid.get((target_x, target_y), False):\n        print(f\"Error: Target {(target_x, target_y)} is blocked or invalid.\")\n        return []\n        \n    # BFS\n    queue = deque([(start_pos, [])])\n    visited = {start_pos}\n    \n    while queue:\n        current, path = queue.popleft()\n        if current == (target_x, target_y):\n            # Convert path to buttons\n            buttons = []\n            cx, cy = start_pos\n            for nx, ny in path:\n                if nx > cx: buttons.append(\"Right\")\n                elif nx < cx: buttons.append(\"Left\")\n                elif ny > cy: buttons.append(\"Down\")\n                elif ny < cy: buttons.append(\"Up\")\n                cx, cy = nx, ny\n            print(json.dumps(buttons))\n            return buttons\n            \n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and grid[(nx, ny)] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [(nx, ny)]))\n                \n    print(f\"Error: No path found to {(target_x, target_y)}.\")\n    return []\n\nif __name__ == \"__main__\":\n    bfs_path(map_xml_string, input_data['target_x'], input_data['target_y'], input_data.get('movement_mode', 'walking'))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-08T13:38:17.154Z",
+        "action_counter": 28141
+      },
+      {
+        "commit_message": "Fixed variable access by using `input_data` dictionary instead of assuming global variables.",
+        "timestamp": "2026-01-08T13:40:06.080Z",
+        "action_counter": 28143
+      },
+      {
+        "commit_message": "Fixing JSON output error when no path is found. Now returns an empty list [] on failure instead of a plain string.",
+        "timestamp": "2026-01-08T16:53:53.077Z",
+        "action_counter": 28353
+      },
+      {
+        "commit_message": "Fixed missing commit message error and refined BFS logic to handle surfing and landing correctly.",
+        "timestamp": "2026-01-08T18:06:59.771Z",
+        "action_counter": 28443
+      },
+      {
+        "commit_message": "Fixed JSON output error by removing plain text error messages. Now returns an empty list [] on failure.",
+        "timestamp": "2026-01-08T18:13:10.805Z",
+        "action_counter": 28451
+      },
+      {
+        "commit_message": "Refined obstacle detection to include <Object> tags and <Marker> tags with object_id, preventing pathing through NPCs.",
+        "timestamp": "2026-01-08T21:34:10.018Z",
+        "action_counter": 28681
+      }
+    ]
+  },
+  "navigate_menu": {
+    "description": "Navigates menus by holding direction buttons for a specified duration to ensure registration, with delays between inputs. Useful for the Fly map and other sticky menus.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "directions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Up",
+              "Down",
+              "Left",
+              "Right",
+              "A",
+              "B",
+              "Start",
+              "Select"
+            ]
+          }
+        },
+        "hold_ms": {
+          "type": "integer",
+          "default": 150
+        },
+        "interval_ms": {
+          "type": "integer",
+          "default": 300
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": [
+        "directions",
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\n\n# Extract arguments from input_data\ndirections = input_data.get('directions', [])\nhold_ms = input_data.get('hold_ms', 150)\ninterval_ms = input_data.get('interval_ms', 300)\nautopress_buttons = input_data.get('autopress_buttons', True)\n\n# Frame duration is approx 16ms\nframes_to_hold = max(1, int(hold_ms / 16))\n\noutput_sequence = []\n\nfor btn in directions:\n    # Hold the button\n    for _ in range(frames_to_hold):\n        output_sequence.append(btn)\n    \n    # Release/Wait\n    if interval_ms > 0:\n        output_sequence.append(f\"sleep {interval_ms}\")\n        \nprint(json.dumps(output_sequence))",
+    "history": [
+      {
+        "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
+        "timestamp": "2026-01-08T03:01:39.002Z",
+        "action_counter": 27437
+      },
+      {
+        "commit_message": "Fixed `navigate_menu` to correctly extract arguments from `input_data` and execute the logic, preventing 'Unexpected end of JSON input' errors.",
+        "timestamp": "2026-01-08T03:03:15.631Z",
+        "action_counter": 27439
+      }
+    ]
+  },
+  "slow_press": {
+    "description": "Presses a sequence of buttons with a configurable delay between each press. Input 'buttons' should be a list of button names (e.g., 'A', 'B', 'Up'). 'sleep' commands in the input list are ignored to prevent errors; use the 'delay' parameter instead.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "Select",
+              "Start",
+              "Right",
+              "Left",
+              "Up",
+              "Down",
+              "R",
+              "L"
+            ]
+          }
+        },
+        "delay": {
+          "type": "integer",
+          "default": 500,
+          "description": "Delay in milliseconds between presses."
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "buttons = input_data.get('buttons', [])\ndelay = input_data.get('delay', 500)\n\nsequence = []\nfor btn in buttons:\n    # Filter out any accidentally passed sleep commands or invalid strings\n    if btn in [\"A\", \"B\", \"Select\", \"Start\", \"Right\", \"Left\", \"Up\", \"Down\", \"R\", \"L\"]:\n        sequence.append(btn)\n        sequence.append(f\"sleep {delay}\")\n\n# Remove the trailing sleep if it exists\nif sequence and sequence[-1].startswith(\"sleep\"):\n    sequence.pop()\n\nprint(json.dumps(sequence))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2025-12-20T10:42:11.488Z",
+        "action_counter": 8108
+      },
+      {
+        "commit_message": "Refined slow_press to prevent consecutive sleep errors by sanitizing input and ensuring correct interleaving of delays.",
+        "timestamp": "2025-12-26T10:25:26.235Z",
+        "action_counter": 19531
       }
     ]
   }
