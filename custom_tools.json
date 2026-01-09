@@ -187,27 +187,6 @@
       }
     ]
   },
-  "grind_encounters": {
-    "description": "Paces back and forth to trigger wild encounters.",
-    "input_schema": {
-      "properties": {
-        "steps": {
-          "default": 10,
-          "description": "The number of steps to pace (total).",
-          "type": "integer"
-        }
-      },
-      "type": "object"
-    },
-    "python_script": "import json\nsteps = int(input_data.get('steps', 10))\nbuttons = []\nfor _ in range(steps // 2):\n    buttons.extend([\"Left\", \"Right\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-07T15:39:09.904Z",
-        "action_counter": 32671
-      }
-    ]
-  },
   "solve_boulders_v2": {
     "description": "Uses BFS to find the sequence of pushes to fill all pits in Blackthorn Gym 2F and returns the full button sequence to execute the solution.",
     "input_schema": {
@@ -286,8 +265,8 @@
       }
     ]
   },
-  "ice_pathfinder": {
-    "description": "Finds a path through ice sliding puzzles in Pokemon Crystal. Handles sliding until an obstacle or non-ice tile is hit.",
+  "ice_pathfinder_v2": {
+    "description": "Finds a path through ice sliding puzzles in Pokemon Crystal. Handles sliding until an obstacle or non-ice tile is hit, and jumps over ledges in the valid direction. Returns a list of coordinate dictionaries for path_plan.",
     "input_schema": {
       "properties": {
         "end_x": {
@@ -311,17 +290,12 @@
       ],
       "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        start = (int(input_data['start_x']), int(input_data['start_y']))\n        end = (int(input_data['end_x']), int(input_data['end_y']))\n        \n        # Injected variable\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                grid[(x, y)] = tile.attrib['type']\n                \n        queue = [(start, [])]\n        visited = {start}\n        \n        while queue:\n            (cx, cy), path = queue.pop(0)\n            if (cx, cy) == end:\n                print(json.dumps(path))\n                return\n                \n            for dx, dy, move in [(0,-1,'Up'), (0,1,'Down'), (-1,0,'Left'), (1,0,'Right')]:\n                nx, ny = cx, cy\n                ct = grid.get((cx, cy), 'WALL')\n                \n                if ct == 'ICE':\n                    while True:\n                        tx, ty = nx + dx, ny + dy\n                        if (tx, ty) not in grid: break\n                        t = grid[(tx, ty)]\n                        if t in ['WALL', 'VOID', 'HEADBUTT_TREE']: break\n                        if t == 'FLOOR_UP_WALL' and dy != 1: break\n                        if t == 'LEDGE_HOP_DOWN' and dy != 1: break\n                        if t == 'LEDGE_HOP_LEFT' and dx != -1: break\n                        if t == 'LEDGE_HOP_RIGHT' and dx != 1: break\n                        if t == 'LEDGE_HOP_UP' and dy != -1: break\n                        nx, ny = tx, ty\n                        if t != 'ICE': break\n                else:\n                    nx, ny = cx + dx, cy + dy\n                    if (nx, ny) not in grid: continue\n                    t = grid[(nx, ny)]\n                    if t in ['WALL', 'VOID', 'HEADBUTT_TREE']: continue\n                    if t == 'FLOOR_UP_WALL' and dy != 1: continue\n                    if t == 'LEDGE_HOP_DOWN' and dy != 1: continue\n                    if t == 'LEDGE_HOP_LEFT' and dx != -1: continue\n                    if t == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n                    if t == 'LEDGE_HOP_UP' and dy != -1: continue\n                    if ct == 'FLOOR_UP_WALL' and dy != 1: continue\n                    if ct == 'LEDGE_HOP_DOWN' and dy != 1: continue\n                    if ct == 'LEDGE_HOP_LEFT' and dx != -1: continue\n                    if ct == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n                    if ct == 'LEDGE_HOP_UP' and dy != -1: continue\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n\nsolve()\n",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        start = (int(input_data['start_x']), int(input_data['start_y']))\n        end = (int(input_data['end_x']), int(input_data['end_y']))\n        \n        # Parse Mental Map\n        root = ET.fromstring(map_xml_string)\n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                grid[(x, y)] = tile.attrib['type']\n                \n        queue = [(start, [start])]\n        visited = {start}\n        \n        while queue:\n            (cx, cy), path = queue.pop(0)\n            if (cx, cy) == end:\n                # Convert path to list of dicts for path_plan\n                print(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path]))\n                return\n                \n            for dx, dy, move in [(0,-1,'Up'), (0,1,'Down'), (-1,0,'Left'), (1,0,'Right')]:\n                nx, ny = cx, cy\n                ct = grid.get((cx, cy), 'WALL')\n                \n                # Check if we can even start moving in this direction from a ledge\n                if ct in ['FLOOR_UP_WALL', 'LEDGE_HOP_DOWN'] and dy != 1: continue\n                if ct == 'LEDGE_HOP_LEFT' and dx != -1: continue\n                if ct == 'LEDGE_HOP_RIGHT' and dx != 1: continue\n                if ct == 'LEDGE_HOP_UP' and dy != -1: continue\n\n                # Normal movement or slide\n                while True:\n                    tx, ty = nx + dx, ny + dy\n                    if (tx, ty) not in grid: break\n                    t = grid[(tx, ty)]\n                    \n                    # Ledge Jump Check: entering a ledge tile from the correct side\n                    is_ledge = False\n                    if t in ['FLOOR_UP_WALL', 'LEDGE_HOP_DOWN'] and dy == 1: is_ledge = True\n                    if t == 'LEDGE_HOP_LEFT' and dx == -1: is_ledge = True\n                    if t == 'LEDGE_HOP_RIGHT' and dx == 1: is_ledge = True\n                    if t == 'LEDGE_HOP_UP' and dy == -1: is_ledge = True\n                    \n                    if is_ledge:\n                        # Jump over the ledge tile to the landing tile\n                        lx, ly = tx + dx, ty + dy\n                        if (lx, ly) not in grid: break\n                        lt = grid[(lx, ly)]\n                        if lt in ['WALL', 'VOID', 'HEADBUTT_TREE', 'unseen']: break # Blocked landing\n                        nx, ny = lx, ly\n                        # Always stop sliding after jumping a ledge\n                        break\n                    \n                    # Obstacle Check\n                    if t in ['WALL', 'VOID', 'HEADBUTT_TREE', 'unseen']: break\n                    \n                    # Move onto tile\n                    nx, ny = tx, ty\n                    \n                    # Stop sliding if not on ice\n                    if t != 'ICE': break\n                \n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [(nx, ny)]))\n        print(\"[]\")\n    except Exception as e:\n        print(f\"Error: {str(e)}\")\n\nsolve()\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-09T08:00:37.123Z",
-        "action_counter": 36181
-      },
-      {
-        "commit_message": "Use input_data instead of sys.argv[1] to fix list index out of range error.",
-        "timestamp": "2026-01-09T08:02:58.155Z",
-        "action_counter": 36184
+        "timestamp": "2026-01-09T08:31:11.309Z",
+        "action_counter": 36237
       }
     ]
   }

@@ -16,9 +16,9 @@
 
 ## Strategy: Exit Ice Path
 - Plan:
-  1. Navigate to Ice Path exit at (36, 27) using ice_pathfinder tool. [Current]
-  2. Fly to New Bark Town and head east to Tohjo Falls.
-  3. Use Waterfall at (10, 8) in Tohjo Falls.
+  1. Jump ledge at (25, 10). [Current]
+  2. Navigate to Ice Path exit at (36, 27) using ice_pathfinder_v2 tool.
+  3. Fly to New Bark Town and head east to Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
@@ -38,9 +38,5 @@
 - Navigation: If a movement fails twice, the tile is impassable from that direction.
 - Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
 - Wild Encounters: Trigger battles and block movement on the turn they occur.
-
-## Route 44 Navigation Notes
-- Ledge Gap: A traversable gap in the east-west ledges exists at x=49.
-- NPC Obstacles: Cooltrainer Cybil: (31, 14), Cooltrainer Allen: (37, 15), Bird Keeper Vance: (51, 6), Youngster: (51, 5)
-- Ice Path Entrance: (56, 7). Reachable from the north section of Route 44.
-- North/South Section Divide: Divided by ledges in row 9 (x=51-57) and row 13 (x=50-53). Use gap at x=49.
+- Ice Ledges: Jumping down ledges from ICE tiles might be blocked or require specific landing logic.
+- Tool Refinement: ice_pathfinder_v2 updated to return coordinates and handle ledge jumping correctly. (Turn 36237)
