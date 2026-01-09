@@ -57,3 +57,5 @@
 - **Next Step:** Execute 3x Left to reach Mahogany Town. Then 3x Left to Ecruteak. Then Down to Goldenrod.
 - **Fly Map Logic:** Distance Blackthorn -> Mahogany is > 3x Left (400ms). Continuing Westward movement.
 - **Current Target:** Reach Mahogany or Ecruteak, then proceed South to Goldenrod.
+- **Fly Map Logic:** 4x Left (400ms) from Blackthorn was insufficient to change selection. Mountain range likely requires significant travel time.
+- **Plan:** Execute 8x Left to force traversal to Mahogany/Ecruteak.
