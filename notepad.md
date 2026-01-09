@@ -34,3 +34,6 @@
 ## Session Information
 - **Current Location:** New Bark Town (Accidental Fly).
 - **Goal:** Fly to Ecruteak City (Correctly this time).
+- **Menu Navigation:** Be deliberate. Verify cursor position before pressing A, especially in sub-menus like Party -> Fly.
+- **Gen 2 Mechanics:** 'Fly' option appears at the top of the Pokemon sub-menu if usable in the field.
+- **Correction:** Pokegear is for Map viewing only; Fly is a Party menu action.
