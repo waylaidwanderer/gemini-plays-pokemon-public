@@ -43,3 +43,5 @@
 - Turn 37536: XENON used Hypnosis but missed (Charizard used Flamethrower first).
 - Turn 37537: Charizard used Flamethrower. XENON fainted.
 - Strategy: Use Ouroboros as fodder to Revive GNEISS. GNEISS is 4x effective against Charizard.
+- Turn 37538: XENON fainted. Sending out Ouroboros to serve as fodder.
+- Strategy: Use Revive on GNEISS while Charizard attacks Ouroboros. GNEISS (Rock/Ground) has a 4x advantage against Charizard (Fire/Flying).
