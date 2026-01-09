@@ -39,5 +39,5 @@
 - **Current Goal:** Go to Goldenrod Dept Store.
 - **Status:** Navigating Fly Map (Cursor at Silver Cave).
 - **Method:** Fly to Goldenrod -> Buy Super Repels.
-- **Notes:** Cursor jumped to Silver Cave (East). Navigating WEST (Left x4) to find Goldenrod.
-- **Debug:** 'Left' from New Bark went to Silver Cave? Map wrap-around suspected.
+- **Notes:** Cursor confirmed at Silver Cave. Moving Left x3 to traverse map Westwards.
+- **Debug:** `navigate_menu` failed to move cursor? Using `slow_press` to verify movement.
