@@ -30,8 +30,7 @@
 
 ## Missing Items
 - **TM08 Rock Smash:** Critical for map access (e.g. Ruins of Alph, Dark Cave).
-- **Status:** Obtained (Turn 30007).
-- **Action:** Teach to Pokemon (Machoke or Quilava) to clear obstacles.
+- **Status:** Obtained (Turn 30007). Learned by Garnet (Quilava).
 
 ## Session Information
 - **Current Location:** Goldenrod Dept Store 5F.
