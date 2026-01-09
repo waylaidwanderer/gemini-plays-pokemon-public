@@ -16,10 +16,10 @@
 
 ## Strategy: Teach Waterfall and Exit
 - Menu Navigation Plan (Chunked):
-  1. Open Start Menu. [Current]
+  1. Open Start Menu.
   2. Select PACK.
   3. Navigate to TM/HM Pocket.
-  4. Use HM07 on LAPIS.
+  4. Use HM07 on LAPIS. [Current]
   5. Replace BUBBLE.
 - Plan:
   1. Teach HM07 Waterfall to LAPIS.
