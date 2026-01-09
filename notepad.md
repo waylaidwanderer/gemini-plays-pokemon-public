@@ -51,3 +51,5 @@
 - Answered: "Tough person"
 - Question 4: "What is most important for raising POKéMON?"
 - Answered: "Love"
+- Question 5: "Which is more important? (Strong/Weak POKéMON)"
+- Answered: "Both"
