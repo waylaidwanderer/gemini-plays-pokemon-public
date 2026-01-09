@@ -3,10 +3,10 @@
 - Secondary Goal: Speak with Professor Elm in New Bark Town.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn 35450, 5:35 PM]
+## Strategy: Heading to the Pokémon League [Turn 35452, 5:36 PM]
 - Plan:
-  1. Exit Dragon's Den 1F via (3, 5). [Current Task]
-  2. Return to Blackthorn City and Fly to New Bark Town.
+  1. Exit Dragon's Den 1F via (3, 5). [Done Turn 35450]
+  2. Return to Blackthorn City and Fly to New Bark Town. [Current Task]
   3. Speak with Professor Elm at the Lab.
   4. Surf east from New Bark Town to Route 27 and reach the Pokémon League.
 
