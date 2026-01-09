@@ -38,7 +38,7 @@
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
-- **Event:** Gaven called immediately after Repel application. Dismissed.
+- **Event:** Gaven called immediately after Repel application (Cycle 20).
 - **Status:** In Ecruteak City (18, 35).
-- **Action:** Cycle #20 start. Re-entering Route 37.
-- **Note:** Super Repel Active. Cycle #19 yielded no encounter.
+- **Action:** Cycle #22 start. Re-entering Route 37.
+- **Note:** Super Repel Active. Cycles #20-21 yielded no encounter.
