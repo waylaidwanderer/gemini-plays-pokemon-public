@@ -14,6 +14,10 @@
 ## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Current Opponent:** Koga (Poison).
+  - **Strategy:**
+    - Lead with XENON for status if needed, or GNEISS for Ground coverage.
+    - Calcifer (Fire/Electric) is strong against Bug/Flying/Steel types.
+    - GNEISS (Ground/Rock) is strong against Poison/Flying types.
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
