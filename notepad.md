@@ -6,8 +6,8 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Calcifer (Thunderpunch) or GNEISS (Rollout).
-- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) or Calcifer (Return).
+- Charizard (Fire/Flying): ACTIVE. Strategy: GNEISS (4x Rock advantage) or Calcifer (Thunderpunch).
+- Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray) if revived.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
