@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 28959)
-- **Status:** On Route 37. Entering grass.
+# Reflection (Turn 28960)
+- **Status:** Repel wore off. Pausing hunt to re-apply.
 - **Progress:** ~297 turns. Hunt loop active.
 - **Hygiene:** Verified.
