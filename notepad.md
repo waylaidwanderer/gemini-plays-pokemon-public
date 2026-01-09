@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29022)
-- Status: Using Max Repel.
-- Progress: ~360 turns. Hunt paused.
-- Strategy: Confirm usage, then exit menu.
+# Reflection (Turn 29023)
+- Status: Repel applied. Exiting menu.
+- Progress: ~365 turns. Hunt resuming.
+- Strategy: Exit menu, then call execute_hunt_routine.
