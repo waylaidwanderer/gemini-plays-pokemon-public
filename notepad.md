@@ -33,6 +33,6 @@
 - **Hypothesis:** TM08 was obtained previously and stored in PC, or used and lost. Checking PC now.
 - **Verification:** Verified TM08 is NOT in Bag, Party, or PC Boxes 1-3. Currently checking PC Item Storage.
 - **Critical Update:** TM08 Rock Smash is NOT in PC, Bag, or Party.
-- **Analysis:** NPC dialogue suggests I already received it. Must have sold or used it (though no Pokemon has the move).
-- **Solution:** In Crystal, TM08 can be purchased at Goldenrod Dept Store (5F) after the Sudowoodo event.
-- **Plan:** Fly to Goldenrod, Buy TM08.
+- **Analysis:** NPC dialogue on Route 36 implies he already gave it. Verified not in storage. Likely used or tossed.
+- **Solution:** In Pokemon Crystal, TM08 is purchasable at Goldenrod Dept Store 5F.
+- **Plan:** Fly to Goldenrod -> Buy TM08 -> Return to Ecruteak for Hunt.
