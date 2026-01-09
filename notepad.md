@@ -25,7 +25,8 @@
 - Turn 37189: LAPIS fainted to Outrage.
 - Turn 37193: GNEISS fainted to Outrage after landing Rollout. Dragonite confused.
 - Turn 37197: GNEISS revived (Cycle 4) (70/141 HP).
-- Turn 37198: Calcifer fainted to Outrage. Dragonite no longer confused.
+- Turn 37198: Calcifer fainted to Outrage. Dragonite no longer confused, restarted Outrage.
+- Turn 37199: GNEISS sent out (70/141 HP). Strategy: ROLLOUT.
 
 ## Roaming Pokemon
 - Suicune: Roaming Johto.
