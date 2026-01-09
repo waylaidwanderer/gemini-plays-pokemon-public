@@ -6,7 +6,7 @@
   - (1, 35) (middle) <-> (1, 49) (lower)
   - (13, 17) (upper) <-> (13, 31) (middle)
   - (17, 19) (upper) <-> (17, 33) (middle)
-- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (180 steps remaining).
+- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (~180 steps remaining).
 
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
@@ -27,7 +27,7 @@
 - **Objective:** Obtain a Sun Stone.
 - **Location:** National Park. Method: 1st place.
 - **Preparation:** Lead with status-inflictor (XENON with Hypnosis). Targets: Scyther, Pinsir.
-- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36730. Contest is tomorrow.
+- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36732. Contest is tomorrow.
 - **Rival Battle:** Malice challenged me at (12, 9). Beaten Sneasel (Lv34). Currently facing Feraligatr (Lv38).
 - **Exploration:** Northern 1F has unseen tiles around the exit (8, 3), (17, 3), etc. Reveal after battle.
 
