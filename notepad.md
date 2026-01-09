@@ -14,7 +14,7 @@
 ## Strategy: Obtain HM07 Waterfall
 - Verified Location: Ice Path 1F, northeast corner of main floor. [Confirmed by location_analyst Turn 36062]
 - Tohjo Falls Search: Conducted from Turn 35972 to 36062. Result: Moon Stone found, HM07 NOT present.
-- New Plan:
+- New Plan (Started Turn 36063):
   1. Exit Tohjo Falls to Route 27. [Done]
   2. Walk West to New Bark Town. [Done]
   3. Fly to Mahogany Town. [Current]
