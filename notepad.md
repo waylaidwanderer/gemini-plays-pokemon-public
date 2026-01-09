@@ -24,7 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29076)
-- Status: On Route 37 (7, 0). Hunting in grass.
-- Progress: ~414 turns. Hunt active.
+# Reflection (Turn 29077)
+- Status: In Ecruteak (17, 35). Returning to Route 37.
+- Progress: ~415 turns. Hunt active.
 - Strategy: Loop execute_hunt_routine.
+- Note: Blind hunt is required because Beasts are not yet seen in Wild for Pokedex tracking.
