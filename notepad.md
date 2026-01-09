@@ -6,7 +6,7 @@
 ## Strategy: Heading to the Pokémon League
 - Plan:
   1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
-  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
+  2. Level XENON (Haunter) to 45+. Teach it TM33 Ice Punch. [Started Turn 35480]
      - Training: Use Route 45 or Route 27 (once accessible).
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
      - Note: Maintain HM Surf/Whirlpool/Fly utility when swapping.
@@ -31,12 +31,13 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal (Turn 35538). This differs from GS.
+- **Move Compatibility:** Calcifer (Typhlosion) cannot learn TM33 Ice Punch in Crystal (Turn 35538). XENON (Haunter) CAN learn it.
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
 - Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
 - Recommendations:
+  - Teach TM33 Ice Punch to XENON (Haunter) immediately. It is your only win condition against Lance's Dragonites.
   - Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath if not evolved.
   - Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados or gift Dratini).
   - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
