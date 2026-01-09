@@ -12,7 +12,6 @@
 
 ### Strategy vs Karen
 - Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use Calcifer (Return) for strong neutral damage. GNEISS is low on HP.
-- Current Status: Battling Karen's Houndoom. Calcifer HP 84/168. Healing with Full Restore.
 
 ## Persistence Knowledge
 ### Type Effectiveness
