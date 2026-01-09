@@ -30,10 +30,10 @@
 - WATERFALL: Impassable (requires WATERFALL).
 - LEDGE: Impassable from the "high" side (usually North for FLOOR_UP_WALL).
 - COUNTER: Impassable; interactable from front.
-- LADDER: Warp to another floor/map.
+- LADDER: Warp to another floor/map. Stepping onto it triggers the warp immediately.
 - WARP_CARPET_DOWN: Exit/warp to another map.
 - PC: Impassable; interactable from front (up).
-- ICE: Causes sliding in the direction of movement until an obstacle or non-ice tile is reached.
+- ICE: Causes sliding in the direction of movement until an obstacle or non-ice tile is reached. You can slide over ledges if you are moving in the jump direction.
 
 ## Lessons Learned
 - Rising Badge: Allows use of HM07 Waterfall outside battle.
