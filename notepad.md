@@ -1,11 +1,18 @@
 # Johto Journey - Final Phase
 
-## Strategy for Indigo Plateau
-- Primary Goal: Challenge the Pokémon League.
-- Strategy: Navigate Route 26 to reach Victory Road.
-- Progress:
-  - Reach Victory Road via Route 26. [In Progress]
-    - Battle Cooltrainer Gaven at (9, 38). [Current]
+## Strategy for Route 26 & Victory Road
+- **Start Turn:** 36500
+- **Strategy:** Navigate north to reach Victory Road.
+- **Progress:**
+  - Defeat trainers on Route 26. [In Progress]
+  - Heal at the Heal House at (15, 57). [Completed]
+  - Collect Ice Berry at (14, 54). [Completed]
+
+## Defeated Trainers (Route 26)
+- Fisher Scott at (10, 92).
+- Psychic Richard at (13, 79).
+- Cooltrainer Joyce at (10, 56).
+- Cooltrainer Gaven at (9, 38).
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
@@ -23,35 +30,29 @@
 - Strategy:
   - Switching resets stat drops and accuracy penalties.
   - Bulky physical attackers (like GNEISS) are effective against high-speed Psychic threats.
-  - Fast status-inflictors (like XENON with Hypnosis) are great for catching or disrupting.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Traversable; may trigger wild encounters.
 - WATER: Traversable (requires SURF).
-- WATERFALL: Face tile while surfing and press A to climb. Triggers scripted movement.
-- LEDGE: Impassable from the "low" side. Jumpable from the "high" side.
-- FLOOR_UP_WALL: Impassable from the south/below. Functions as a wall in this direction.
-- COUNTER: Impassable; interactable from front.
-- LADDER: Warp to another floor/map. Triggers immediately on entry. Exception: On the Route 27 bridge, these tiles function as FLOOR.
-- WARP_CARPET_DOWN: Exit/warp to another map.
-- PC: Impassable; interactable from front (up).
-- ICE: Causes sliding until obstacle or non-ice tile is reached.
-- LEDGE_HOP_DOWN: Jumpable from North to South. Impassable from South to North.
-- LEDGE_HOP_LEFT: Jumpable from Right to Left. Impassable from Left to Right.
-- VOID: Impassable area outside the map boundaries.
+- WATERFALL: Face tile while surfing and press A to climb.
+- LEDGE: Impassable from "low", jumpable from "high".
+- FLOOR_UP_WALL: Impassable from South.
+- LADDER: Warp (except Route 27 bridge where it's FLOOR).
+- PC: Interact from front.
+- ICE: Sliding.
+- LEDGE_HOP_DOWN: Jump N->S.
 
 ## Area-Specific Insights
 - Route 27 Bridge: Ladder sprites function as FLOOR tiles.
-- Route 27 Navigation: Item at (53, 12) is unreachable from the East due to a wall/ledge. Must approach from the West.
-- Ice Path: B3F sides ARE connected; verify connectivity before committing to major backtracking.
+- Route 27 Navigation: Item at (53, 12) unreachable from East.
+- Ice Path: B3F sides ARE connected.
 
 ## Tool Status
-- find_path_v2: Reliable for standard overworld navigation.
+- find_path_v2: Reliable.
 - ice_pathfinder_v2: Reliable.
-- solve_boulders_v2: Unverified in current context.
-- battle_strategist: Active. Use for wild encounters and trainer battles.
+- battle_strategist: Active.
 
 ## General Lessons & Warnings
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
