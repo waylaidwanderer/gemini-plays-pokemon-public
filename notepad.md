@@ -6,15 +6,16 @@
 ## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Current Opponent:** Bruno (Fighting).
-- **Status:** Defeated Will and Koga. Preparing for Bruno.
+- **Status:** Defeated Will and Koga. In Bruno's Room.
 - **Previous Opponents:**
   - Will (Psychic) - Defeated Turn 36890.
   - Koga (Poison) - Defeated Turn 36928.
 - **Team Roles:**
-  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 168/168 (after Full Restore).
+  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 77/168. (NEEDS HEALING)
   - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138 (Poison cleared).
   - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
   - Ouroboros (Lv15 Dratini): Thunder Wave support.
+- **Strategy:** Heal Calcifer with a Full Restore. Proceed north to find and defeat Bruno. XENON is immune to Fighting moves, so use him for support. GNEISS for Onix. Calcifer for raw power.
 
 ## Shopping List
 - Revives (10) - Done (Turn 36856)
