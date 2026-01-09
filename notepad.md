@@ -22,7 +22,7 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - LADDER: Traversable. Transition to another map. (Verified at WillsRoom (5, 2)).
-- COUNTER: Impassable. Allows interaction from adjacent tiles (e.g. talking to NPCs behind them).
+- COUNTER: Impassable. Allows interaction from adjacent tiles (e.g. talking to NPCs behind them) but blocks movement.
 - WARP_CARPET: Walking off map edge triggers transition. (Verified).
 
 ## persistence Knowledge
