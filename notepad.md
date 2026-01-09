@@ -33,7 +33,7 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Verifying TM33 Ice Punch compatibility for XENON (Haunter) on Turn 35653. Previous "NOT ABLE" observation on Turn 35645 was likely due to accidentally selecting HM01 CUT. Typhlosion is confirmed incompatible with Ice Punch in Crystal.
+- **Move Compatibility:** Confirmed on Turn 35663 that XENON (Haunter) is "NOT ABLE" to learn TM33 Ice Punch in this game. Strategy pivots to using the gift Dratini for Ice coverage against Lance.
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
