@@ -1,7 +1,8 @@
 # Current Status
-- Location: Roaming (Route 37 <-> Ecruteak).
-- Activity: Hunting Raikou & Entei.
-- Party: Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
+- **Location:** Route 37 (8, 1). Just finished a hunt pass.
+- **Activity:** Hunting Raikou & Entei.
+- **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
+- **Active Effect:** Max Repel (Active).
 - **Hunt Session Start:** Turn 28662.
 
 # Legendary Beast Hunt Strategy
@@ -12,7 +13,7 @@
   2. Run into grass (Down x2, Left/Right wiggle).
   3. If no encounter, run back to Ecruteak (Up).
   4. Repeat.
-- **Items:** Max Repel ACTIVE.
+- **Lesson:** Phone calls freeze movement, causing the fixed-input hunt tool to 'miss' the grass check phase. If interrupted, manually move to Ecruteak to reset.
 
 # Tile Mechanics
 - GRASS: Traversable. Potential encounters.
@@ -23,12 +24,3 @@
 - HEADBUTT_TREE: Impassable. Interaction possible.
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
-
-# Hunting Status
-- **Goal:** Blind Hunt Raikou & Entei (Lv 40) on Route 37.
-- **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
-- **Active Effect:** Max Repel (Active).
-- **Lead:** Gyarados (Lv 36) - Repel Trick Active.
-- **Notes:** Hunting loop active. Route 37 is SOUTH of Ecruteak. Cycling Down (to Route 37) and Up (to Ecruteak).
-- **Current Status:** Hunting loop active. Route 37 <-> Ecruteak. Repel Active. Executing hunt sequence from (8, 3).
-- **Lesson:** Phone calls freeze movement, causing the fixed-input hunt tool to 'miss' the grass check phase if timed poorly. The final 'Up' inputs still trigger, returning to safety.
