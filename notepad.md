@@ -40,3 +40,8 @@
 - Decision: Move immediately to break the position loop at (18, 22).
 - Plan: Surf north to (18, 21), then navigate west through the water to explore the center of the Den.
 - Teach Whirlpool only when a physical whirlpool obstacle is encountered.
+## Strategy Update: Finding the Dragon Shrine [Turn 35328]
+- A whirlpool obstacle has been confirmed at (10, 20).
+- BUOYs at X=11 (Y=12-23) block western movement.
+- Plan: Teach Ravioli (Krabby) HM06 Whirlpool to navigate past the whirlpool at (10, 20).
+- Navigation: Move to (10, 21) to interact with the whirlpool.
