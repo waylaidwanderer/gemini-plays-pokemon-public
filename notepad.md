@@ -24,9 +24,9 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29114)
-- Status: In Pokedex List. Currently at #241 (Dratini).
-- Action: Scrolling UP (x5) to reveal #238-#240.
-- Goal: Verify if Raikou (#238), Entei (#239), Suicune (#240) are 'Seen'.
-- Hypothesis: Burned Tower event should have flagged them as Seen.
-- Note: Max Repel active. Seen: 194. Owned: 45.
+# Reflection (Turn 29115)
+- Status: In Pokedex List. Confirmed Raikou/Entei are Unseen.
+- Observation: List skipped from Dratini (#241) to Murkrow (#208), implying #209-#240 are empty/unseen.
+- Conclusion: Beasts are Unseen. Blind Hunt is the only option.
+- Action: Exiting Pokedex and Menu.
+- Next: Resume execute_hunt_routine.
