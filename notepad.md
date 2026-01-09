@@ -1,12 +1,15 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` requires `hold_ms` > 150 for reliable Fly Map movement. Previous `Down, Right` failed to move cursor from Lake of Rage.
+- **Tool Insight:** `navigate_menu` requires `hold_ms` > 150 for reliable Fly Map movement.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
-- **Fly Map Logic:** `Left, Up, Right, Right` from New Bark -> Lake of Rage.
-- **Current Fly Path:** Lake of Rage -(Down)-> Mahogany (Hypothesis). Retrying with longer hold.
+- **Fly Map Logic:**
+  - `New Bark -> Left, Up, Right, Right` -> Lake of Rage.
+  - `Lake of Rage -> Down (Long Hold)` -> Violet City.
+  - `Violet City -> Right` -> ??? (Testing Ecruteak -> Mahogany -> Blackthorn).
+- **Current Strategy:** From Violet, press Right x3 to reach Blackthorn.
 
 # Current Status
-- **Location:** Ecruteak City.
+- **Location:** Ecruteak City (Physically), Violet City (Fly Map Cursor).
 - **Activity:** Menu Navigation (Flying to Blackthorn).
 - **Time Started:** Turn 29657.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
