@@ -16,7 +16,7 @@
 - **Current Opponent:** Will (Psychic).
   - **Will's Roster:**
     - Xatu (Lv40): Defeated (Turn 36875).
-    - Slowbro (Lv41): Thunderpunch is super effective. (In progress)
+    - Slowbro (Lv41): HP Red. Amnesia (+2 SpDef) active. (In progress)
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
