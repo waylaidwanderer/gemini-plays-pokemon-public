@@ -8,12 +8,17 @@
   - Hitmonlee (Lv42): Defeated.
   - Hitmonchan (Lv42): Defeated.
   - Machamp (Lv46): Defeated.
-  - Onix (Lv43): Active (Very Low HP). Asleep (Turn 37012).
+  - Onix (Lv43): Defeated.
+- Bruno Defeated (Turn 37019).
+- Next Opponent: Karen (Dark).
 
-### Strategy vs Bruno
-- Onix (Lv43): Use XENON (Night Shade to finish).
-- Current Status: XENON is active (99/99 HP). Bruno's Onix is at death's door.
-- Turn Count Correction: Current turn is 37016.
+### Strategy vs Karen
+- Umbreon (Lv42): High bulk. Use GNEISS (Earthquake/Strength) or Calcifer.
+- Vileplume (Lv42): Weak to Fire/Flying. Use Calcifer (Flame Wheel) or ICARUS (Fly).
+- Murkrow (Lv44): Weak to Rock/Electric/Ice. Use GNEISS (Rollout/Rock move?) or Calcifer (Thunderpunch).
+- Gengar (Lv45): Weak to Ground/Psychic/Ghost. Use GNEISS (Earthquake) or XENON (Night Shade).
+- Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use GNEISS (Earthquake).
+- Current Status: Bruno defeated. Team needs minor healing (GNEISS/Calcifer). Proceeding to Karen's room.
 
 ## Persistence Knowledge
 ### Type Effectiveness
