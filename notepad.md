@@ -3,13 +3,14 @@
 ## Elite Four Challenge (Started Turn 36866)
 - Turn 36890: Defeated Will.
 - Turn 36928: Defeated Koga.
-- Turn 36956: Started battle with Elite Four Bruno. Lead: XENON (Lv39 Haunter).
+- Turn 36956: Started battle with Elite Four Bruno.
 
 ### Current Status: Bruno (Fighting)
-- **Roster Prediction:** Hitmontop, Hitmonlee, Hitmonchan, Machamp, Onix.
+- **Roster Prediction:** Hitmontop (Lv42), Hitmonlee, Hitmonchan, Machamp, Onix.
 - **Strategy:**
-  - Fighting/Normal types: XENON (Ghost immunity). Hypnosis + Dream Eater combo.
+  - Fighting/Normal types: XENON (Ghost immunity). Note: Hitmontop has Dig (Ground).
   - Onix: LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
+  - General: Use Calcifer's raw power (Lv53) for difficult matchups.
 - **Team Status:**
   - Calcifer (Lv53 Typhlosion): HP 168/168.
   - GNEISS (Lv49 Graveler): HP 104/138.
@@ -30,7 +31,9 @@
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
+- **GRASS:** Traversable; may trigger wild encounters.
 - **WALL / VOID / COUNTER:** Impassable.
+- **LEDGE:** One-way traversal (jump down).
 - **LADDER / WARP_CARPET:** Warp transitions between maps.
 - **PC:** Stand BELOW, face UP, press A to interact.
 - **ICE:** Causes sliding in the direction of movement until an obstacle is hit.
