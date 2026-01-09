@@ -1,12 +1,14 @@
 {
   "find_path_v2": {
-    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, buoy barriers, and land/water transitions. Returns a JSON array of buttons. Returns an empty array if no path is found.",
+    "description": "Finds the shortest path between two coordinates, supporting land-to-water (Surf) transitions and ledge jumps. Returns a JSON array of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "avoid_warps": {
-          "default": true,
-          "type": "boolean"
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
         },
         "end_x": {
           "type": "integer"
@@ -14,11 +16,9 @@
         "end_y": {
           "type": "integer"
         },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
+        "avoid_warps": {
+          "type": "boolean",
+          "default": true
         }
       },
       "required": [
@@ -28,7 +28,7 @@
         "end_y"
       ]
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml, avoid_warps=True):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            is_warp = tile.get('is-warp') == 'true'\n            \n            grid[(x, y)] = {'type': t_type, 'has_obj': has_obj, 'is_warp': is_warp}\n    \n    start_tile = grid.get((start_x, start_y))\n    if not start_tile:\n        return []\n    \n    is_surfing_start = start_tile['type'] in ['WATER', 'WHIRLPOOL']\n\n    queue = collections.deque([(start_x, start_y, is_surfing_start, [])])\n    visited = {(start_x, start_y, is_surfing_start)}\n    \n    while queue:\n        cx, cy, is_surfing, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) not in grid:\n                continue\n            \n            target = grid[(nx, ny)]\n            t_type = target['type']\n            \n            if t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or target['has_obj']:\n                continue\n            \n            if avoid_warps and target['is_warp'] and (nx, ny) != (end_x, end_y):\n                continue\n            \n            can_move = False\n            next_surfing = is_surfing\n            \n            if is_surfing:\n                if t_type in ['WATER', 'WHIRLPOOL']:\n                    can_move = True\n                elif t_type in ['FLOOR', 'CAVE', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']:\n                    can_move = True\n                    next_surfing = False\n            else:\n                if t_type in ['FLOOR', 'CAVE', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT']:\n                    can_move = True\n                elif t_type in ['WATER', 'WHIRLPOOL']:\n                    # Allow land to water transition\n                    can_move = True\n                    next_surfing = True\n            \n            if can_move and (nx, ny, next_surfing) not in visited:\n                visited.add((nx, ny, next_surfing))\n                queue.append((nx, ny, next_surfing, path + [btn]))\n    return []\n\nres = find_path_bfs(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string, input_data.get('avoid_warps', True))\nprint(json.dumps(res))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.find('Object') is not None\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            tiles[(x, y)] = {'type': t_type, 'obj': has_obj, 'is_warp': is_warp}\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    avoid_warps = input_data.get('avoid_warps', True)\n    \n    start = (start_x, start_y)\n    goal = (end_x, end_y)\n    \n    start_tile = tiles.get(start)\n    if not start_tile:\n        print(\"[]\")\n        return\n    is_start_water = start_tile['type'] == 'WATER'\n    \n    queue = collections.deque([(start[0], start[1], is_start_water, [])])\n    visited = set([(start[0], start[1], is_start_water)])\n    \n    while queue:\n        x, y, surfing, path = queue.popleft()\n        \n        if (x, y) == goal:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target = tiles.get((nx, ny))\n                if not target: continue\n                \n                if avoid_warps and target['is_warp'] and (nx, ny) != goal:\n                    continue\n                \n                t_type = target['type']\n                is_water = t_type == 'WATER'\n                is_wall = t_type in ['WALL', 'BUOY', 'WHIRLPOOL', 'FLOOR_UP_WALL', 'HEADBUTT_TREE'] or target['obj']\n                is_ledge = t_type in ['LEDGE', 'LEDGE_HOP_DOWN']\n                \n                if not surfing:\n                    if is_wall: continue\n                    if is_ledge:\n                        if btn == 'Down':\n                            nnx, nny = nx, ny + 1\n                            if 0 <= nnx < width and 0 <= nny < height:\n                                l_target = tiles.get((nnx, nny))\n                                if l_target and l_target['type'] not in ['WALL', 'BUOY', 'WHIRLPOOL'] and not l_target['obj']:\n                                    new_p = path + [btn, 'sleep 500']\n                                    if (nnx, nny, False) not in visited:\n                                        visited.add((nnx, nny, False))\n                                        queue.append((nnx, nny, False, new_p))\n                        continue\n                    \n                    if is_water:\n                        new_p = path + [btn, 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500']\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n                else:\n                    if is_wall or is_ledge: continue\n                    if is_water:\n                        new_p = path + [btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n    print(\"[]\")\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -144,6 +144,11 @@
         "commit_message": "Refined find_path_v2 to allow transitions from land to water (initiating Surf) during pathfinding. This allows the tool to generate paths that include entering the water from an adjacent land tile.",
         "timestamp": "2026-01-09T01:22:42.025Z",
         "action_counter": 35431
+      },
+      {
+        "commit_message": "Refined land-to-water transition logic to include 'A' press and pauses for Surfing.",
+        "timestamp": "2026-01-09T03:09:43.002Z",
+        "action_counter": 35647
       }
     ]
   },
