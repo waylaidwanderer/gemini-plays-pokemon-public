@@ -16,11 +16,11 @@
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. Calcifer (Lv56): 74/178 HP (Active, Paralyzed)
+1. Calcifer (Lv56): 31/178 HP (Active, Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 40/40 HP
-5. XENON (Lv41): 52/104 HP
+5. XENON (Lv41): 52/104 HP (Target Switch)
 6. LAPIS (Lv12): 32/32 HP
 
 ## Persistence Knowledge
@@ -33,13 +33,12 @@
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
 - HM Sub-menu logic: HM moves appear at the top. ICARUS has FLY, making SWITCH the 3rd option (Down x2).
+- Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
+- Party Sub-menu Order (Overworld): STATS, SWITCH, ITEM, CANCEL.
 
 ### Menu Navigation
 - Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
-- Party Sub-Menu Order: STATS, SWITCH, ITEM, CANCEL.
+
 ## Battle with Lance (Cont.)
-- Turn 37505: Defeated Gyarados with Thunderpunch.
-- Turn 37506: Defeated Aerodactyl with Thunderpunch.
-- Turn 37512: Calcifer (74/178 HP, Paralyzed) vs Dragonite (Lv 47, Healthy).
-- Strategy: Use Return.
-- Turn 37513: Calcifer (74/178 HP, Paralyzed) vs Dragonite. Cursor is on RETURN. Planning to use it.
+- Turn 37514: Dragonite used Thunder (43 damage). Calcifer (31/178 HP, Paralyzed) used Return (minimal damage).
+- Turn 37515: Attempted switch to XENON. Misclicked into STATS.
