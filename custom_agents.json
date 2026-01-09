@@ -1,9 +1,1 @@
-{
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Analyzes current battle state and suggests the most effective Pokemon and moves based on type matchups and levels.",
-    "agent_system_prompt": "You are an expert Pokemon battle strategist for Pokemon Crystal. Your goal is to provide the best move or switch recommendation based on the provided battle state.\nConsider:\n- Type effectiveness (Offense and Defense).\n- Level differences.\n- Move power and secondary effects.\n- Current HP and status conditions.\n- Dragon-type specific resistances in Crystal (resist Fire, Water, Electric, Grass).\n- Dragon-type weaknesses in Crystal (Ice, Dragon).\n- Dragonair is pure Dragon type in Crystal.\n\nAlways prioritize winning the battle with minimal risk.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"opponent_pokemon\":{\"type\":\"string\"},\"opponent_level\":{\"type\":\"integer\"},\"opponent_moves_seen\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"my_party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp\":{\"type\":\"string\"},\"moves\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"type\":{\"type\":\"string\"}},\"required\":[\"name\",\"level\",\"hp\",\"moves\",\"type\"]}}},\"required\":[\"opponent_pokemon\",\"opponent_level\",\"opponent_moves_seen\",\"my_party\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_pokemon\":{\"type\":\"string\"},\"recommended_move\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommended_pokemon\",\"recommended_move\",\"reasoning\"]}"
-  }
-}
+{}

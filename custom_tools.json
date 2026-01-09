@@ -1,27 +1,19 @@
 {
   "find_path_v2": {
-    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, hazardous tiles, and one-way ledges as obstacles/transitions. Returns a JSON array of buttons.",
+    "description": "Finds the shortest path between two coordinates on the current map using BFS, considering walls, objects, and buoy barriers as obstacles. Returns a JSON array of buttons. Returns an empty array if no path is found.",
     "input_schema": {
       "type": "object",
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
+        "start_x": {
+          "type": "integer"
         },
-        "avoid_warps": {
-          "default": true,
-          "type": "boolean"
+        "start_y": {
+          "type": "integer"
         },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
           "type": "integer"
         }
       },
@@ -29,11 +21,10 @@
         "start_x",
         "start_y",
         "end_x",
-        "end_y",
-        "autopress_buttons"
+        "end_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nfrom collections import deque\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    width = int(tree.attrib['width'])\n    height = int(tree.attrib['height'])\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    avoid_warps = input_data.get('avoid_warps', True)\n    \n    traversable_types = {'FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'CAVE', 'DOOR', 'STAIRS', 'LADDER', 'FLOOR_UP_WALL', 'FLOOR_DOWN_WALL', 'FLOOR_LEFT_WALL', 'FLOOR_RIGHT_WALL'}\n    warp_types = {'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'CAVE', 'DOOR', 'STAIRS', 'LADDER'}\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = {'type': t_type, 'has_obj': tile.find('Object') is not None}\n\n    queue = deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            \n            # Boundary check\n            if not (0 <= nx < width and 0 <= ny < height):\n                continue\n                \n            tile = grid.get((nx, ny))\n            if not tile: continue\n            \n            t_type = tile['type']\n            \n            # Ledge Handling\n            if t_type == 'LEDGE_HOP_DOWN' and btn == 'Down':\n                nx, ny = nx, ny + 1 # Jump over the ledge\n                if not (0 <= nx < width and 0 <= ny < height): continue\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                t_type = tile['type']\n            elif t_type == 'LEDGE_HOP_LEFT' and btn == 'Left':\n                nx, ny = nx - 1, ny\n                if not (0 <= nx < width and 0 <= ny < height): continue\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                t_type = tile['type']\n            elif t_type == 'LEDGE_HOP_RIGHT' and btn == 'Right':\n                nx, ny = nx + 1, ny\n                if not (0 <= nx < width and 0 <= ny < height): continue\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                t_type = tile['type']\n            elif t_type in {'LEDGE_HOP_DOWN', 'LEDGE_HOP_LEFT', 'LEDGE_HOP_RIGHT'}:\n                # Cannot move onto a ledge from any other direction\n                continue\n\n            # Standard collision\n            if t_type not in traversable_types:\n                if not (nx == end_x and ny == end_y):\n                    continue\n            \n            # Warp avoidance\n            if avoid_warps and t_type in warp_types and (nx != end_x or ny != end_y):\n                continue\n                \n            # Object collision\n            if tile['has_obj'] and (nx != start_x or ny != start_y):\n                if not (nx == end_x and ny == end_y):\n                    continue\n            \n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n                \n    print(json.dumps({\"error\": \"No path found\"}))\n\nsolve()",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            is_obstacle = t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or has_obj\n            grid[(x, y)] = {'type': t_type, 'obstacle': is_obstacle}\n    \n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n    return []\n\nres = find_path_bfs(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string)\nprint(json.dumps(res))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -124,6 +115,11 @@
         "commit_message": "Refined find_path_v2 to handle ledge hopping (LEDGE_HOP_DOWN, LEFT, RIGHT) as one-way jump transitions.",
         "timestamp": "2026-01-07T12:55:12.814Z",
         "action_counter": 32363
+      },
+      {
+        "commit_message": "Fixed the tool to always return a JSON array (empty if no path found) and added basic error handling for XML parsing.",
+        "timestamp": "2026-01-09T01:04:39.975Z",
+        "action_counter": 35402
       }
     ]
   },
