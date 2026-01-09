@@ -2,7 +2,7 @@
 
 ## Champion Lance Battle (Started Turn 37104)
 - Current: Dragonite (Lv47).
-- Status: 30/102 HP (PAR). Confused opponent.
+- Status: 31/168 HP. Opponent no longer confused.
 - Moves: Thunder, Thunder Wave.
 - Defeated: Gyarados (Lv44).
 - Remaining: Dragonite x2, Aerodactyl, Charizard.
