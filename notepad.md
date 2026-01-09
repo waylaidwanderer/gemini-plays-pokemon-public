@@ -43,3 +43,12 @@
 - Logic: 'Up' moves forward through towns on map.
 - Current Status: Mahogany Town selected. Confirming flight.
 - Note: Always verify the starting location on the FLY map before counting.
+## Route 44 Navigation Notes
+- Ledge Gap: A traversable gap in the east-west ledges exists at x=49 (row 8 to 14 is clear at this x-coordinate).
+- NPC Obstacles:
+  - Cooltrainer Cybil: (31, 14)
+  - Cooltrainer Allen: (37, 15)
+  - Bird Keeper Vance: (51, 6)
+  - Youngster: (51, 5)
+- Ice Path Entrance: (56, 7). Reachable from the north section of Route 44.
+- North/South Section Divide: Route 44 is divided by a line of ledges in row 9 (x=51-57) and row 13 (x=50-53). Use the gap at x=49 to move between them.
