@@ -24,9 +24,9 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29129)
-- Status: On Route 37 (8, 0). Arrived from Ecruteak.
-- Action: Executing hunt routine (Grass check).
-- Strategy: Loop execute_hunt_routine.
-- Note: Max Repel active. Blind Hunt continuing.
-- Plan: Move into grass, check for Beasts, return to Ecruteak if none.
+# Hunting Status
+- **Goal:** Blind Hunt Raikou & Entei (Lv 40) on Route 37.
+- **Method:** Loop `execute_hunt_routine` (Route 37 <-> Ecruteak City).
+- **Active Effect:** Max Repel (applied Turn 29083).
+- **Lead:** Gyarados (Lv 36) - Repel Trick Active.
+- **Notes:** Pokedex confirmed Beasts are UNSEEN. Tracking is impossible; blind encounter required. Ignoring tile visit warnings due to loop nature.
