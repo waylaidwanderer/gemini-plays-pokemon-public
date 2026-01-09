@@ -5,40 +5,23 @@
 - Turn 36928: Defeated Koga (Poison).
 - Turn 37019: Defeated Bruno (Fighting).
 - Turn 37033: Started battle with Elite Four Karen (Dark).
+  - Umbreon (Lv42): Defeated (Turn 37055).
+  - Vileplume (Lv42): Active.
+- Next Opponent: Karen (Dark).
 
 ### Strategy vs Karen
-- Umbreon (Lv42): High bulk. Use GNEISS (Earthquake/Strength) or Calcifer.
+- Umbreon (Lv42): Defeated.
 - Vileplume (Lv42): Weak to Fire/Flying. Use Calcifer (Flame Wheel) or ICARUS (Fly).
 - Murkrow (Lv44): Weak to Rock/Electric/Ice. Use GNEISS (Rollout) or Calcifer (Thunderpunch).
 - Gengar (Lv45): Weak to Ground/Psychic/Ghost. Use GNEISS (Earthquake) or XENON (Night Shade).
 - Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use GNEISS (Earthquake).
-
-## Persistence Knowledge
-### Type Effectiveness
-- Psychic > Poison/Ghost/Fighting.
-- Water > Rock/Ground (4x).
-- Rock > Flying/Fire/Ice/Bug.
-- Fire > Bug/Steel (4x), Grass/Ice.
-- Electric > Water/Flying.
-- Ghost > Psychic/Ghost. Immune to Fighting/Normal.
-- Poison > Grass. Weak to Psychic/Ground.
-- Ground > Fire/Electric/Poison/Rock/Steel. Immune to Electric.
-- **Note:** In Gen 2, elemental punches are Special. Ghost moves are Physical, but Night Shade is fixed damage.
-
-### Tile Mechanics
-- **FLOOR:** Traversable. Standard movement.
-- **WALL / VOID / COUNTER:** Impassable.
-- **LEDGE:** One-way jump.
-- **LADDER / WARP_CARPET:** Map transition.
-- **PC:** Stand BELOW, face UP, press A.
-- **ICE:** Sliding movement.
-- **WHIRLPOOL:** Requires HM06.
-- **WATERFALL:** Requires HM07.
-- **WATER:** Requires HM03.
-
-## Victory Road & League Info
-- Re-entry: Route 23 (9, 13).
-
-## Legend of Ho-Oh and the Beasts
-- Ho-Oh revived Suicune, Entei, and Raikou after the Brass Tower fire 700 years ago.
+- Current Status: Umbreon defeated. GNEISS at 47/138 HP. Calcifer at 148/168 HP. Switching to Calcifer.
+- Reflection (Turn 37055):
+  1. Immediate Execution: No deferred tasks.
+  2. Notepad Hygiene: Cleaned up battle logs and updated status.
+  3. Map Hygiene: Entrance warps and Karen marked. Redundant markers deleted.
+  4. Automation: Tools/Agents working well.
+  5. Goal Clarity: Goals focused on outcomes.
+  6. Error Analysis: Menu navigation improved by tracking cursor. Root hypothesis (Ghost immunity) holds.
+- Turn Count Correction: My turn count reporting was off by one in Turn 36951. Current turn is 37055. I will ensure accuracy moving forward.
 - Suicune is currently roaming Johto.
