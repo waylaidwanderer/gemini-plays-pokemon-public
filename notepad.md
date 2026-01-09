@@ -41,5 +41,5 @@
 ## Strategy: Fly Map Navigation
 - Main Menu Order: 1. POKéDEX, 2. POKéMON, 3. PACK, 4. POKéGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
 - Logic: 'Up' moves forward through towns on map.
-- Current Status: Ecruteak City selected. Target: Mahogany Town (3 steps forward).
+- Current Status: Olivine City selected. Target: Mahogany Town (2 steps forward).
 - Note: Always verify the starting location on the FLY map before counting.
