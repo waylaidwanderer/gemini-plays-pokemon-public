@@ -9,15 +9,18 @@
   - Dragonite #1 (Lv47): Turn 37155
   - Dragonite #2 (Lv47): Turn 37184
   - Charizard (Lv46): Turn 37184
-- Active: Aerodactyl (Lv46). Moves: Hyper Beam (Recharging).
-- Remaining: Dragonite #3.
+  - Aerodactyl (Lv46): Turn 37184
+- Active: Dragonite #3 (Lv50). Moves: Outrage.
+- Remaining: None (This is the final Pokemon).
 
 ### Turn Log
-- Turn 37184: GNEISS defeated Dragonite #2 and Charizard with ROLLOUT. GNEISS at 31/141 HP. Aerodactyl missed Hyper Beam.
-- Turn 37185: Clearing text. ROLLOUT continues (Hit 3).
+- Turn 37184: GNEISS defeated Dragonite #2, Charizard, and Aerodactyl with ROLLOUT.
+- Turn 37185: GNEISS fainted to Dragonite #3's Outrage.
+- Turn 37186: Sending in LAPIS as fodder.
+- Turn 37187: Plan to use Revive on GNEISS or Calcifer.
 
 ## Strategy vs Champion Lance
-- Plan: Use GNEISS's ROLLOUT to sweep. Use fodder for revives if necessary.
+- Plan: Use fodder to revive GNEISS/Calcifer. GNEISS's Rollout or Calcifer's power to finish.
 - Inventory: 8 Revives. No healing items.
 
 ## World Lore & Roaming
@@ -43,6 +46,6 @@
 - Calcifer (Lv54 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
 - GNEISS (Lv50 Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - XENON (Lv40 Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- Ouroboros (Lv15 Dratini): Wrap, Thunder Wave, Twister, ExtremeSpeed.
+- Ouroboros (Lv15 Dratini): Wrap, Thunder WAVE, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
