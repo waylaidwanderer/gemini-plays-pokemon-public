@@ -2,6 +2,7 @@
 - **Tool Insight:** `navigate_menu` (holds) is REQUIRED for the Fly Map cursor movement. `slow_press` (taps) is ignored. Use `slow_press` for list menus (Party, Bag).
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
+- **Fly Map Logic:** Testing `Left, Up, Right, Right` from New Bark Town to reach Blackthorn (NE). Previously `Left, Up, Up, Right` reached Olivine (NW). The map layout is non-linear.
 
 # Current Status
 - **Location:** Ecruteak City.
