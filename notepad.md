@@ -36,3 +36,5 @@
   - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
   - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
   - Strategy: Buy TM33 Ice Punch in Goldenrod for Typhlosion.
+- Training Goal: Level all active party members (especially Xenon) to 45+ for the Pokémon League.
+- Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts (Suicune, Raikou, Entei).
