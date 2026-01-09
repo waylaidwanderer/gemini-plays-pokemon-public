@@ -13,9 +13,9 @@
 - **Inventory:** 7 Super Repels active (approx 20/200 steps used).
 - **Objective:** Clear unseen tiles on East Route 37, then resume Roaming Beast Hunt.
 - **Strategy:** Move East to reveal x>13, then return to grass loop.
-- **Current Action:** Exploring South East Route 37.
+- **Current Action:** Exploring South East Route 37 (Grass Area).
 - **Progress:** Received MAGNET from Sunny.
-- **Next Steps:** Clear southern unseen tiles (y>13), then return to hunt loop.
+- **Next Steps:** Move to (15, 17) to clear fog, then exit to Route 36.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles.
   - **Ecruteak City:** Northern edges and Barrier Station area (27, 11).
