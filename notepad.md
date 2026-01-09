@@ -22,7 +22,7 @@
 - WATER: Surfable.
 - HEADBUTT_TREE: Impassable. Interaction possible.
 
-# Reflection (Turn 29053)
-- Status: In Ecruteak (17, 35). Interrupted by Gaven call.
-- Progress: ~391 turns. Hunt active.
-- Strategy: Clear text, then resume hunt.
+# Reflection (Turn 29054)
+- Status: In Ecruteak (17, 35). Call finished.
+- Progress: ~392 turns. Hunt active.
+- Strategy: Resume execute_hunt_routine.
