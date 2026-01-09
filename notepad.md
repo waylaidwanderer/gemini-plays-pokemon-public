@@ -37,4 +37,5 @@
 - Status Management: Paralysis reduces speed by 75%.
 
 ## Battle Strategy
-- Current Objective: Defeat Dragonite #3. Calcifer is the last one standing with 89 HP. Strategy: Use Thunderpunch (1 PP) or Return to secure the knockout while Dragonite is potentially confused from Outrage. Use battle_analyst to confirm highest damage output.
+- Current Objective: Defeat Dragonite #3. Calcifer (Lv56) vs Dragonite (Lv50, Paralyzed, Confused, Critical HP). 
+- Strategy: Use Return to secure the final knockout.
