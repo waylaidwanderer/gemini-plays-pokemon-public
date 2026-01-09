@@ -32,3 +32,6 @@
 - **Warp Info:** Ladder at (17, 33) is on the northern plateau.
 - **Items Found:**
   - (18, 29): Poke Ball (ID 4) spotted.
+- **Ladder Connections (1F):**
+  - (13, 17) (upper) <-> (13, 31) (middle)
+  - (17, 19) (upper) <-> (17, 33) (middle)
