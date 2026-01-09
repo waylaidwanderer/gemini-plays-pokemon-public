@@ -41,3 +41,5 @@
 - **Hunt Strategy:** Moving south to Route 37 grass. Will apply Super Repel if encounters become frequent to filter for Lv40 Beasts.
 - **Map Connection:** Ecruteak (17, 35) leads directly South to Route 37.
 - **Action:** Opening menu to use Super Repel before entering grass. Gyarados (Lv 36) lead + Repel filters all wild Pokemon except Roaming Beasts (Lv 40).
+- **Menu Navigation Lesson:** Do not batch navigation (Down) and selection (A) into a single un-ordered list. The tool executes them in order. To select an item deep in a list: Select Menu -> A -> Scroll Down -> A.
+- **Correction:** Backing out of Pokedex to retry Super Repel application properly.
