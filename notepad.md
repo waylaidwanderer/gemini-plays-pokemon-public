@@ -37,3 +37,7 @@
 ### Menu Navigation
 - Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
 - Party Sub-Menu Order: STATS, SWITCH, ITEM, CANCEL.
+## Battle with Lance (Cont.)
+- Turn 37505: Defeated Gyarados with Thunderpunch.
+- Turn 37506: Calcifer (74/178 HP) vs Aerodactyl (Healthy).
+- Move Selection: Thunderpunch (Super Effective).
