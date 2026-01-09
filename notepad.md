@@ -33,7 +33,7 @@
 ### World Lore & Goals
 - Ho-Oh revived Beasts after Brass Tower fire.
 - Suicune roaming.
-- Shopping: Revives/Full Restores secured.
+- Shopping: Revives secured. (Full Restores exhausted).
 
 ## Team Overview (Movesets)
 - Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
