@@ -189,7 +189,7 @@
     ]
   },
   "execute_hunt_routine": {
-    "description": "Automates the Roaming Beast hunt loop between Ecruteak City and Route 37. Handles map transitions and grass hunting sequence with appropriate delays.",
+    "description": "Automates the Roaming Beast hunt loop between Ecruteak City and Route 37. Handles map transitions and grass hunting sequence with appropriate delays. Corrected to go deeper into grass (3 steps down).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -217,7 +217,7 @@
         "player_position"
       ]
     },
-    "python_script": "import json\nimport sys\n\ntry:\n    # Attempt to resolve variables\n    if 'player_position' not in globals():\n        if 'input_data' in globals():\n            player_position = input_data['player_position']\n            current_map_id = input_data['current_map_id']\n        else:\n            raise ValueError(\"Arguments 'player_position' or 'current_map_id' not found in globals or input_data\")\n\n    y = player_position['y']\n    buttons = []\n    \n    if current_map_id == '4_9': # Ecruteak\n        # Added sleep and double down to ensure turning and movement\n        buttons = [\"Down\", \"sleep 500\", \"Down\"]\n    \n    elif current_map_id == '10_4': # Route 37\n        if y < 2: # At Gate\n             # Go to grass (2 steps), Wiggle, Return (2 steps), Exit (2 steps to be safe)\n             # Added an extra Up to ensure warp triggering\n             buttons = [\n                 \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n        else: # In Grass (or deeper)\n             # Wiggle and leave\n             buttons = [\n                 \"Left\", \"sleep 500\", \"Right\", \"sleep 500\", \n                 \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n             ]\n             \n    print(json.dumps(buttons))\n\nexcept Exception as e:\n    print(str(e))",
+    "python_script": "current_map_id = input_data.get('current_map_id')\nplayer_position = input_data.get('player_position')\n\nbuttons = []\n\nif current_map_id == \"4_9\": # Ecruteak\n    # Just move down to warp\n    buttons = [\"Down\"] \nelif current_map_id == \"10_4\": # Route 37\n    # 3 Downs to reach deep grass (Row 2/3) from (8,0)\n    # Wiggle\n    # 4 Ups to return to warp\n    buttons = [\n        \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \"Down\", \"sleep 500\",\n        \"Left\", \"sleep 200\", \"Right\", \"sleep 200\", \n        \"Left\", \"sleep 200\", \"Right\", \"sleep 200\",\n        \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"Up\"\n    ]\nelse:\n    # Fallback or error\n    print(f\"Unknown map: {current_map_id}\")\n\nimport json\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -253,6 +253,11 @@
         "commit_message": "Updated Ecruteak logic to send 'Down' twice with a delay. This ensures the player turns and moves even if facing Up after arriving from Route 37.",
         "timestamp": "2026-01-08T23:44:57.036Z",
         "action_counter": 28886
+      },
+      {
+        "commit_message": "Updated sequence to include 3 Downs for deeper grass penetration on Route 37 and 4 Ups for guaranteed return.",
+        "timestamp": "2026-01-09T04:37:40.183Z",
+        "action_counter": 29281
       }
     ]
   }
