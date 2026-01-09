@@ -14,7 +14,7 @@
 - Goal: Obtain Sun Stone for KIMCHI (Gloom).
 - Steps:
   1. Exit Dragon's Den and go to Blackthorn Pokecenter. [Done]
-  2. Swap Ravioli (Krabby) for ICARUS (Pidgey) at the PC. [In Progress]
+  2. Swap Ravioli (KRABBY) for ICARUS (PIDGEY) at the PC. [In Progress]
   3. Fly to Goldenrod City.
   4. Head north to National Park (Route 35 Gate).
   5. Participate in the contest and aim for 1st place (Sun Stone).
@@ -48,16 +48,6 @@
 
 ## Pokemon Info
 - Ouroboros (DRATINI): Lv15. Moves: Wrap, Thunder Wave, Twister, ExtremeSpeed (Gift move). [Turn 35684]
-
-## League Analyst Advice
-- Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, Dratini 15).
-- Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
-- Recommendations:
-  - Level Ouroboros (Dratini) to Dragonite; it might learn TM33 Ice Punch (Hypothesis to be verified).
-  - Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
-  - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
-  - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
-- Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts.
 
 ## Failed Hypotheses
 - **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Conclusion:** Denied (Turn 35538).
