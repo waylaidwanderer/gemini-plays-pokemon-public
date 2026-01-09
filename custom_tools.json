@@ -216,5 +216,37 @@
         "action_counter": 37113
       }
     ]
+  },
+  "swap_party_slots": {
+    "description": "Automates swapping two Pokémon in the party menu from the overworld. slot1 and slot2 are 1-indexed (1-6). switch_offset is the number of 'Down' presses to reach the 'SWITCH' command in the sub-menu (usually 1, but increases with HM moves like FLY/SURF).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot1": {
+          "type": "integer",
+          "description": "The 1-indexed position of the first Pokemon to swap."
+        },
+        "slot2": {
+          "type": "integer",
+          "description": "The 1-indexed position of the second Pokemon to swap."
+        },
+        "switch_offset": {
+          "type": "integer",
+          "description": "The number of 'Down' presses to reach 'SWITCH' from the top of the sub-menu (default 1)."
+        }
+      },
+      "required": [
+        "slot1",
+        "slot2"
+      ]
+    },
+    "python_script": "import json\n\ndef main(input_data):\n    slot1 = int(input_data['slot1'])\n    slot2 = int(input_data['slot2'])\n    offset = int(input_data.get('switch_offset', 1))\n    \n    buttons = [\"Start\", \"sleep 500\", \"Down\", \"sleep 300\", \"A\", \"sleep 500\"]\n    \n    # Select slot 1\n    for _ in range(slot1 - 1):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select Switch\n    for _ in range(offset):\n        buttons.append(\"Down\")\n        buttons.append(\"sleep 200\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    # Select slot 2\n    diff = slot2 - slot1\n    move = \"Down\" if diff > 0 else \"Up\"\n    for _ in range(abs(diff)):\n        buttons.append(move)\n        buttons.append(\"sleep 200\")\n    buttons.append(\"A\")\n    buttons.append(\"sleep 500\")\n    \n    buttons.extend([\"B\", \"sleep 300\", \"B\", \"sleep 300\", \"B\"])\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-09T21:48:56.429Z",
+        "action_counter": 37471
+      }
+    ]
   }
 }
