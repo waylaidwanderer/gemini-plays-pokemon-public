@@ -24,7 +24,7 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29085)
-- Status: On Route 37 (7, 2). Resuming hunt after Repel.
-- Progress: ~423 turns. Hunt active.
+# Reflection (Turn 29086)
+- Status: In Ecruteak (17, 35). Turning back to Route 37.
+- Progress: ~424 turns. Hunt active.
 - Strategy: Loop execute_hunt_routine.
