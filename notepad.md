@@ -8,7 +8,7 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Fly Map Cursor at Cianwood. 'Right' input ineffective. Testing 'Down' to backtrack to Goldenrod, then 'Right' to probe connection to Violet/Ecruteak.
+- **Status:** Fly Map Cursor at Olivine City. 'Down + Right' from Cianwood worked. Trying 'Right' to reach Ecruteak.
 - **Exploration Queue:**
   - **Mahogany Town:** West edge (x=0-2) and East edge (x=15, y=3) unseen tiles. Investigate later.
 
