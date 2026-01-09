@@ -2,7 +2,6 @@
 
 ## Victory Road (1F/2F/3F)
 - Re-entry: Route 23 (9, 13).
-- **Repel Status:** Max Repel used at Turn 36808 (250 steps). Used ~35 steps.
 
 ## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
@@ -11,7 +10,7 @@
     - Ariados (Lv40): Defeated (Turn 36906).
     - Forretress (Lv43): Defeated (Turn 36908).
     - Muk (Lv42): Defeated (Turn 36916).
-    - Crobat (Lv44): Weak to Rock. GNEISS is badly poisoned. (In progress)
+    - Crobat (Lv44): Weak to Rock. GNEISS is badly poisoned. (Switching to Calcifer)
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
   - **Will's Roster:** Xatu (40), Slowbro (41), Xatu (42), Exeggutor (41), Jynx (41).
 - **Team Roles:**
