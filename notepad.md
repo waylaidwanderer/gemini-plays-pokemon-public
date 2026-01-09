@@ -5,10 +5,9 @@
 
 # Current Status
 - **Location:** New Bark Town.
-- **Activity:** Resetting Menu State (Pokedex Open -> Overworld).
+- **Activity:** Menu Navigation (Flying to Ecruteak).
 - **Time Started:** Turn 29620.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Issue:** Previous `navigate_menu` call failed (Intermediate states show 'Up' inputs instead of 'Down'?). Resetting manually.
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
