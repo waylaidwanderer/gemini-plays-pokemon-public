@@ -53,3 +53,5 @@
 - **Fly Map Movement:** 3x Left from Silver Cave only reached Blackthorn. Cursor movement appears granular or sticky, not 1-click-per-city.
 - **Hypothesis:** Reaching Ecruteak from Blackthorn requires multiple Left inputs (approx 3-6).
 - **Plan:** Execute Left x3 to reach Mahogany/Ecruteak area. Verify location before heading South to Goldenrod.
+- **Fly Map Logic:** Confirmed 3x Left (with hold) moves approx 1 city distance (Silver Cave -> Blackthorn).
+- **Next Step:** Execute 3x Left to reach Mahogany Town. Then 3x Left to Ecruteak. Then Down to Goldenrod.
