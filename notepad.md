@@ -5,18 +5,17 @@
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
-  1. Obtain HM07 Waterfall from Ice Path 1F. [Collected Turn 36188]
+  1. Obtain HM07 Waterfall from Ice Path 1F. [Collected Turn 36179]
   2. Teach Waterfall to LAPIS (slot 6) replacing Bubble. [Current]
   3. Use Waterfall to climb the falls in Tohjo Falls.
   4. Locate the eastern exit of Tohjo Falls.
 
 ## Strategy: Teach Waterfall and Exit
-- Status: Teaching Waterfall to LAPIS (Turn 36190).
 - Menu Navigation Offsets:
-  - Start Menu -> PACK: 2 'Down' from top.
-  - PACK -> TM/HM Pocket: 3 'Right' from Items.
-  - HM07 Position: 10 'Down' from TM24.
-  - Party Member (LAPIS): 5 'Down' from XENON.
+  - Start Menu -> PACK: Up (safety) then 2 'Down'.
+  - PACK -> TM/HM Pocket: Left (safety) then 3 'Right'.
+  - HM07 Position: Up (safety) then 10 'Down' from top (TM24).
+  - Party Member (LAPIS): Up (safety) then 5 'Down' from top (XENON).
   - Move to Replace (Bubble): Slot 1.
 - Plan:
   1. Teach HM07 Waterfall to LAPIS. [Current]
