@@ -63,3 +63,6 @@
 - **State Mismatch:** Text says Fly Map is open (Blackthorn), but visuals show New Bark Town. 8x Left failed to change text.
 - **Action:** Executing hard reset of Fly Map (B -> A) to resync state and cursor.
 - **Goal:** Verify if map opens and resets to New Bark Town.
+- **Fly Map Anomaly:** Cursor stuck on 'Silver Cave' text despite visual scrolling West.
+- **Hypothesis:** Massive distance between Silver Cave and Johto mainland requires sustained input.
+- **Action:** Executing Left x8 to brute-force cross the gap.
