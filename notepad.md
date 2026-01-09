@@ -49,9 +49,10 @@
 - **Crobat:** Poison/Flying. Weak to Electric (Thunderpunch), Rock (Rollout).
 - **Muk:** Poison. Weak to Ground (Earthquake).
 ## Battle Notes - Bruno (Fighting)
-- **Hitmontop:** Fighting. Immune to Fighting (Xenon). Watch for Dig (Ground).
-- **Hitmonlee:** Fighting. Weak to Psychic/Flying.
-- **Hitmonchan:** Fighting. Weak to Psychic/Flying. Watch for elemental punches.
-- **Onix:** Rock/Ground. Weak to Water/Grass (4x!), Ice/Fighting/Ground (2x).
+- **Hitmontop:** Fighting. Xenon immune to STAB. Used Dig (Ground). (DEFEATED)
+- **Hitmonlee:** Fighting. Xenon immune to STAB (unless Foresight active). Weak to Psychic/Flying.
+- **Hitmonchan:** Fighting. Weak to Psychic/Flying. Watch for Elemental Punches (Fire/Ice/Thunder).
+- **Onix:** Rock/Ground. 4x weak to Water/Grass. 2x weak to Ground (Earthquake).
 - **Machamp:** Fighting. Weak to Psychic/Flying. High physical power.
-- **Strategy:** Use Xenon for Fighting immunity unless coverage moves (like Dig) are predicted. Use Gneiss for Onix and physical tanking.
+- **Strategy:** Xenon is primary for Fighting types unless coverage moves are predicted. Gneiss for Onix.
+- **Observation:** Hitmonlee uses Foresight to bypass Ghost immunity. Night Shade deals consistent damage.
