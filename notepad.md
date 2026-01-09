@@ -9,23 +9,16 @@
 - Objective: Traverse Tohjo Falls to reach the eastern exit leading to the rest of Route 27.
 - Requirements: SURF and WATERFALL (Rising Badge allows use).
 - Steps:
-  1. Obtain HM07 Waterfall from Ice Path 1F. [Collected Turn 36179]
-  2. Teach Waterfall to LAPIS (slot 6) replacing Bubble. [Current]
+  1. Obtain HM07 Waterfall from Ice Path 1F. [Completed Turn 36179]
+  2. Teach Waterfall to LAPIS (slot 6). [Completed Turn 36232]
   3. Use Waterfall to climb the falls in Tohjo Falls.
   4. Locate the eastern exit of Tohjo Falls.
 
-## Strategy: Teach Waterfall and Exit
-- Menu Navigation Plan (Chunked):
-  1. Open Start Menu.
-  2. Select PACK.
-  3. Navigate to TM/HM Pocket.
-  4. Use HM07 on LAPIS.
-  5. Replace BUBBLE. [Completed Turn 36232]
+## Strategy: Exit Ice Path
 - Plan:
-  1. Exit menus to overworld. [Current]
-  2. Navigate to Ice Path exit at (36, 27).
-  3. Fly to New Bark Town and head east to Tohjo Falls.
-  4. Use Waterfall at (10, 8) in Tohjo Falls.
+  1. Navigate to Ice Path exit at (36, 27) using ice_pathfinder tool. [Current]
+  2. Fly to New Bark Town and head east to Tohjo Falls.
+  3. Use Waterfall at (10, 8) in Tohjo Falls.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable.
