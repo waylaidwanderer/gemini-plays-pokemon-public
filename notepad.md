@@ -34,6 +34,7 @@
 ## Session Information
 - **Current Location:** Route 37 (North Entrance).
 - **Goal:** Execute Roaming Beast Hunt (Entei/Raikou).
-- **Status:** Applying Super Repel (Attempt 4).
-- **Location:** Cursor at CANCEL. Super Repel is 5 slots up.
-- **Action:** Scroll Up x5 -> Select -> Use.
+- **Status:** Applying Super Repel (Attempt 5).
+- **Location:** Cursor reset to FULL HEAL (Top of list).
+- **Target:** Super Repel is 15 slots down.
+- **Action:** Scroll Down x15 -> Verify -> Use.
