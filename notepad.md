@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Scrolling to PP UP (Manual).
+- **Status:** Scrolling UP to find PP UP.
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Using slow_press to locate items safely.
+- **Notes:** Cursor at BURN HEAL. PP UP should be at top. Scrolling up to pin cursor at Slot 1.
