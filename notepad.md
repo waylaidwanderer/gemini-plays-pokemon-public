@@ -8,13 +8,12 @@
   - Hitmonlee (Lv42): Defeated.
   - Hitmonchan (Lv42): Defeated.
   - Machamp (Lv46): Defeated.
-  - Onix (Lv43): Active (~60% HP). Used Sandstorm.
+  - Onix (Lv43): Active (~60% HP). Asleep (Turn 37012).
 
 ### Strategy vs Bruno
-- Onix (Lv43): Use XENON (Hypnosis/Dream Eater) or GNEISS (Earthquake).
-- Current Status: XENON is active (99/99 HP). Bruno's Onix is back out (~60% HP). Strategy: Hypnosis to disable.
-- Team Update: ICARUS grew to Lv17.
-- Turn Count Correction: Current turn is 37011. Last turn reported 37009 incorrectly.
+- Onix (Lv43): Use XENON (Dream Eater).
+- Current Status: XENON is active (99/99 HP). Bruno's Onix is asleep.
+- Turn Count Correction: Current turn is 37012. Moving forward with accurate reporting.
 
 ## Persistence Knowledge
 ### Type Effectiveness
