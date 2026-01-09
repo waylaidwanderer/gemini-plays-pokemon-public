@@ -9,8 +9,9 @@
 - Progress:
   - Enter Route 26 from Route 27. [Completed]
   - Navigate North to Victory Road. [In Progress]
-    - Battle Psychic Richard at (13, 79). [Current]
+    - Battle Psychic Richard at (13, 79). [Completed]
     - Battle Fisher Scott at (10, 92). [Completed]
+    - Explore North towards Victory Road. [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
