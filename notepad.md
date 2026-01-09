@@ -1,5 +1,5 @@
 # Johto Elite Four Challenge - REMATCH START
-- gauntlet started at Turn 37260.
+- gauntlet started at Turn 37260. [Timestamp: Friday 11:58 AM]
 - Progress: Challenging Will.
 
 ## Strategy for Elite Four
@@ -23,7 +23,7 @@
 ## Tile Mechanics
 - FLOOR: Traversable.
 - WALL: Impassable.
-- LADDER: Traversable. Transition to another map.
+- LADDER: Traversable. Transition to another map. (Verified at WillsRoom (5, 2)).
 - COUNTER: Impassable. Interact across to talk to NPCs.
 - WARP_CARPET: Walking off map edge triggers transition. (Verified).
 
