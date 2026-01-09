@@ -1,13 +1,13 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` with `hold_ms=300` works for Fly Map.
+- **Tool Insight:** `navigate_menu` requires `hold_ms` >= 500 (or more) for Fly Map scrolling? `Right` from Mahogany failed twice with 300ms.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 - **Fly Map Logic:**
   - `Violet -> Up` -> Ecruteak.
   - `Ecruteak -> Right` -> Mahogany.
-  - `Mahogany -> Right` -> Blackthorn (Target - Retrying).
-  - Note: Previous `Up, Right, Right` from Violet ended at Mahogany, suggesting the second Right was ignored or invalid.
-- **Current Strategy:** From Mahogany, press Right again to reach Blackthorn.
+  - `Mahogany -> Right` -> Blackthorn (Target).
+  - Issue: `Right` from Mahogany (300ms) failed. Testing `hold_ms=1000`.
+- **Current Strategy:** From Mahogany, press Right with 1000ms hold.
 
 # Current Status
 - **Location:** Ecruteak City (Physically), Mahogany Town (Fly Map Cursor).
