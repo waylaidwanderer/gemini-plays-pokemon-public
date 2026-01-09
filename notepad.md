@@ -17,7 +17,7 @@
 
 ## Tile & Movement Mechanics
 - **Traversability:**
-  - FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE, LADDER: Traversable.
+  - FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE (Warp), LADDER (Warp): Traversable.
   - WALL, PC: Impassable.
 - **Ledge Info:**
   - (6, 38)-(6, 41): One-way ledges jumping West. Access plateau (x=7) from South at (7, 42).
@@ -27,7 +27,7 @@
 - **Objective:** Obtain a Sun Stone.
 - **Location:** National Park. Method: 1st place.
 - **Preparation:** Lead with status-inflictor (XENON with Hypnosis). Targets: Scyther, Pinsir.
-- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36724. Contest is tomorrow.
+- **Timing:** Currently Friday morning. Goal started Turn 35773. Current Turn 36727. Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Psychic:** Super effective vs Poison/Ghost (XENON).
