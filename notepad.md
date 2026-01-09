@@ -16,11 +16,11 @@
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. Calcifer (Lv56): 31/178 HP (Active, Paralyzed)
+1. Calcifer (Lv56): 31/178 HP (Paralyzed)
 2. GNEISS (Lv51): 35/144 HP
 3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 40/40 HP
-5. XENON (Lv41): 52/104 HP (Target Switch)
+5. XENON (Lv41): 52/104 HP (Active)
 6. LAPIS (Lv12): 32/32 HP
 
 ## Persistence Knowledge
@@ -41,4 +41,5 @@
 
 ## Battle with Lance (Cont.)
 - Turn 37514: Dragonite used Thunder (43 damage). Calcifer (31/178 HP, Paralyzed) used Return (minimal damage).
-- Turn 37515: Attempted switch to XENON. Misclicked into STATS.
+- Turn 37518: Switched to XENON. Dragonite used Hyper Beam (No effect).
+- Turn 37519: Move menu open. Cursor on HYPNOSIS.
