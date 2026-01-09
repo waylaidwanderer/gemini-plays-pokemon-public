@@ -2,7 +2,7 @@
 
 ## Strategy for Route 26 & Victory Road
 - **Start Turn:** 36500 (Friday, 4:00 AM)
-- **Status:** Navigating north towards Victory Road.
+- **Strategy:** Navigate north to reach Victory Road.
 - **Progress:**
   - Defeat trainers on Route 26. [In Progress]
   - Heal at the Heal House at (15, 57). [Completed]
@@ -20,7 +20,7 @@
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (4:37 AM). Contest is tomorrow.
+- Timing: Friday (4:40 AM). Contest is tomorrow.
 
 ## Battle Mechanics
 - Type Effectiveness:
