@@ -6,7 +6,7 @@
 ## Strategy: Heading to the Pokémon League
 - Plan:
   1. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538, 7:00 PM]
-  2. Level XENON (Haunter) to 45+. Teach it TM33 Ice Punch. [Started Turn 35480, 5:30 PM]
+  2. Level XENON (Haunter) to 45+. [Started Turn 35480, 5:30 PM]
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480, 5:30 PM]
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480, 5:30 PM, Bug Contest Started Turn 35644, 7:00 PM]
      - How: Sun Stone from Bug Contest (Tue/Thu/Sat) or Leaf Stone gift from Gina on Route 34.
@@ -33,13 +33,13 @@
 - Whirlpool Mechanics: Re-appears if you leave and re-enter the map.
 - Fly: Can be used to quickly travel between cities from the Pokémon menu.
 - Landing from Water: Can land on any adjacent FLOOR-type tile.
-- **Move Compatibility:** Confirmed on Turn 35663 that XENON (Haunter) is "NOT ABLE" to learn TM33 Ice Punch in this game. Strategy pivots to using the gift Dratini for Ice coverage against Lance.
+- **Move Compatibility:** Confirmed on Turn 35663 that XENON (Haunter) and Calcifer (Typhlosion) are "NOT ABLE" to learn TM33 Ice Punch.
 
 ## League Analyst Advice
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
 - Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
 - Recommendations:
-  - Obtain the gift Dratini; Dragonite can learn TM33 Ice Punch to counter Lance.
+  - Obtain the gift Dratini; Dragonite might learn TM33 Ice Punch to counter Lance (Hypothesis to be verified).
   - Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
   - Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados and gift Dratini).
   - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
@@ -48,10 +48,10 @@
 - Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts (Suicune, Raikou, Entei).
 
 ## Failed Hypotheses
-- **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538). Typhlosion is incompatible with Ice Punch in Crystal.
-- **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Confirmed (Turn 35558). The menu appeared after the press.
-## Strategy: Verified Conflict Resolution
-- **Ice Punch Compatibility:** Despite external suggestions (League Analyst), in-game observation on Turn 35644 confirms Haunter (XENON) and Typhlosion (Calcifer) are "NOT ABLE" to learn TM33 Ice Punch. This is a verified fact for this specific game state. Strategy remains focused on gift Dratini.
+- **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538).
+- **Hypothesis:** Haunter can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35663).
+- **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Confirmed (Turn 35558).
+
+## Active Hypotheses
+- **Hypothesis:** Dragonite can learn TM33 Ice Punch in Crystal. **Test:** Attempt to teach TM33 after evolving gift Dratini.
 - **Tool Fix:** Refined `find_path_v2` on Turn 35646 to support Surf and Ledge transitions. [Started Turn 35646]
-- Verify Ice Punch compatibility for Haunter [Started Turn 35656, 7:15 PM]
-- Goal: Teach TM33 Ice Punch to XENON (Haunter) to replace Mean Look for Elite Four preparation.
