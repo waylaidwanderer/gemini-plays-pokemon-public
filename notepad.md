@@ -7,7 +7,7 @@
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers are present in this cave, only wild Pokémon and the Rival at the exit.
 - **Exploration Strategy:** Use Max Repel to avoid wild encounters. Reveal reachable unseen tiles.
-- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (Approx 140 steps remaining).
+- **Repel Status:** Max Repel used at Turn 36666. Lasts for 250 steps. (Approx 209 steps remaining).
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four. Focus on training here after exploration.
 
 ## Tile & Movement Mechanics
