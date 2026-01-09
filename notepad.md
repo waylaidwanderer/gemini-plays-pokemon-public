@@ -10,7 +10,7 @@
   - **Koga's Roster:**
     - Ariados (Lv40): Defeated (Turn 36906).
     - Forretress (Lv43): Defeated (Turn 36908).
-    - Muk (Lv42): Weak to Ground/Psychic. (In progress)
+    - Muk (Lv42): Weak to Ground/Psychic. Used Minimize (+1 Evasion). (In progress)
   - **Strategy:**
     - Lead with XENON for status if needed, or GNEISS for Ground coverage.
     - Calcifer (Fire/Electric) is strong against Bug/Flying/Steel types.
