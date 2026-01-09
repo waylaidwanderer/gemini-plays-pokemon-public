@@ -42,3 +42,4 @@
 - Progress: 3/6 defeated.
 - Current: Ouroboros vs Charizard. XENON fainted.
 - Plan: Use Ouroboros as fodder to safely Revive XENON. GNEISS is the primary counter to Charizard but needs more HP or a Revive if it faints.
+- Turn 37542: Misclicked Berry instead of Revive. Backing out to find Revive in the item list.
