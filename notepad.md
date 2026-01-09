@@ -6,7 +6,7 @@
 2. Koga (Poison/Bug): DEFEATED
 3. Bruno (Fighting/Rock): DEFEATED
 4. Karen (Dark): DEFEATED
-5. Lance (Champion): NEXT
+5. Lance (Champion): IN PROGRESS
 
 ## Strategy for Lance (Champion)
 - Gyarados (Water/Flying): Use Calcifer (Thunderpunch).
@@ -16,9 +16,9 @@
 - Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
 
 ## Current Party Status
-1. ICARUS (Lv19): 59/59 HP (Pidgeotto)
+1. Calcifer (Lv56): 74/178 HP (Active)
 2. GNEISS (Lv51): 35/144 HP
-3. Calcifer (Lv56): 74/178 HP (Active)
+3. ICARUS (Lv19): 59/59 HP (Pidgeotto)
 4. Ouroboros (Lv15): 40/40 HP
 5. XENON (Lv41): 52/104 HP
 6. LAPIS (Lv12): 32/32 HP
