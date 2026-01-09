@@ -1,12 +1,14 @@
 # Lessons Learned
-- **Tool Insight:** Fly Map cursor movement REQUIRES `hold_ms` >= 500. Default (150ms) is insufficient.
+- **Tool Insight:** `navigate_menu` requires `hold_ms` >= 300 for Fly Map. `Right` from Violet failed multiple times, suggesting the path is `Up` (to Ecruteak) or the input was dropped.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 - **Fly Map Logic:**
-  - `New Bark -> Left, Up, Right, Right` -> Lake of Rage.
-  - `Lake of Rage -> Down (500ms)` -> Violet City.
-  - `Violet City -> Right (500ms x3)` -> Target: Blackthorn City.
-- **Current Strategy:** From Violet, press Right x3 with long holds to reach Blackthorn.
+  - `New Bark -> Left` -> Cherrygrove.
+  - `Cherrygrove -> Up` -> Violet.
+  - `Violet -> Up` -> Ecruteak (Hypothesis).
+  - `Ecruteak -> Right` -> Mahogany (Hypothesis).
+  - `Mahogany -> Right` -> Blackthorn (Target).
+- **Current Strategy:** From Violet, testing `Up, Right, Right`.
 
 # Current Status
 - **Location:** Ecruteak City (Physically), Violet City (Fly Map Cursor).
