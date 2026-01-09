@@ -14,6 +14,11 @@
     - Crobat (Lv44): Weak to Rock. GNEISS is badly poisoned. (In progress)
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
   - **Will's Roster:** Xatu (40), Slowbro (41), Xatu (42), Exeggutor (41), Jynx (41).
+- **Team Roles:**
+  - Calcifer (Lv52 Typhlosion): Primary attacker (Fire/Electric).
+  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock).
+  - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray).
+  - Ouroboros (Lv15 Dratini): Thunder Wave support.
 
 ## Shopping List
 - Revives (10) - Done (Turn 36856)
