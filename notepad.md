@@ -9,9 +9,15 @@
   2. Use Waterfall to climb the falls in Tohjo Falls.
   3. Locate the eastern exit of Tohjo Falls.
 
-## Strategy: Obtain HM07 Waterfall
-- Verified Location: Ice Path 1F, northeast corner of main floor. [Confirmed by location_analyst Turn 36062]
-- Current Status: Inside Ice Path 1F, navigating northeast ice puzzle.
+## Strategy: Teach Waterfall and Exit
+- Status: HM07 Waterfall obtained (Turn 36168). Teaching to LAPIS (slot 6) replacing Bubble.
+- Start Turn: 36176
+- Plan:
+  1. Open PACK -> TM/HM Pocket. [Current]
+  2. Select HM07 Waterfall.
+  3. Use on LAPIS (slot 6).
+  4. Replace Bubble (move slot 1).
+  5. Exit Ice Path via (36, 27).
 - Northeast Ice Puzzle Solution:
   - Start: (16, 8) (Floor entrance).
   - Move: Down to (16, 9) (Floor).
