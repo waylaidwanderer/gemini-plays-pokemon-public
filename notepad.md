@@ -16,7 +16,7 @@
 
 ## Team Status & Preparation
 - Calcifer (Typhlosion, Lv55): Lead attacker. Return/Flame Wheel/Thunderpunch.
-- Gneiss (Graveler, Lv50): Physical tank, good for Aerodactyl/Charizard.
+- Gneiss (Graveler, Lv51): Physical tank, good for Aerodactyl/Charizard.
 - Xenon (Haunter, Lv40): Night Shade/Dream Eater.
 - Resources: ¥60. 8 Revives. 1 Full Restore. 5 Full Heals.
 
