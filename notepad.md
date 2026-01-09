@@ -49,4 +49,5 @@
 - Turn 36979: Hitmontop fainted.
 - Turn 36980: Bruno sent out Onix (Lv43). Switching to GNEISS.
 - Turn 36984: Hitmonlee fainted.
-- Turn 36984: Bruno sent out Hitmonchan (Lv42). GNEISS is out.
+- Turn 36984: Bruno sent out Hitmonchan (Lv42). GNEISS (Lv49) is active but weak to Fighting.
+- Strategy: Switch to XENON (Lv39 Haunter) for Ghost immunity to Fighting moves. Use Night Shade for consistent damage.
