@@ -15,6 +15,10 @@
         },
         "start_y": {
           "type": "integer"
+        },
+        "avoid_warps": {
+          "type": "boolean",
+          "default": true
         }
       },
       "required": [
@@ -24,7 +28,7 @@
         "end_y"
       ]
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            # Buoys are obstacles for both walking and surfing in this map\n            is_obstacle = t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or has_obj\n            grid[(x, y)] = {'type': t_type, 'obstacle': is_obstacle}\n    \n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n    return []\n\nres = find_path_bfs(int(input_data['start_x']), int(input_data['start_y']), int(input_data['end_x']), int(input_data['end_y']), map_xml_string)\nprint(json.dumps(res))",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef find_path_bfs(start_x, start_y, end_x, end_y, map_xml, avoid_warps=True):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return []\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            has_obj = tile.get('has-object') == 'true'\n            is_warp = tile.get('is-warp') == 'true'\n            \n            # Obstacles: Walls, Buoys, Trees, and Objects\n            is_obstacle = t_type in ['WALL', 'BUOY', 'HEADBUTT_TREE'] or has_obj\n            \n            # If avoid_warps is on, warps are obstacles unless they are the destination\n            if avoid_warps and is_warp and (x, y) != (end_x, end_y):\n                is_obstacle = True\n                \n            grid[(x, y)] = {'type': t_type, 'obstacle': is_obstacle}\n    \n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        cx, cy, path = queue.popleft()\n        if cx == end_x and cy == end_y:\n            return path\n        \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and not grid[(nx, ny)]['obstacle'] and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append((nx, ny, path + [btn]))\n    return []\n\n# Parse inputs\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\navoid_warps = input_data.get('avoid_warps', True)\n\nres = find_path_bfs(start_x, start_y, end_x, end_y, map_xml_string, avoid_warps)\nprint(json.dumps(res))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -125,6 +129,11 @@
         "commit_message": "Added BUOY to the list of obstacles and ensured it returns a JSON array of buttons.",
         "timestamp": "2026-01-09T01:06:48.407Z",
         "action_counter": 35404
+      },
+      {
+        "commit_message": "Refined find_path_v2 to handle avoid_warps parameter and improved obstacle detection logic for better pathfinding in both walking and surfing scenarios.",
+        "timestamp": "2026-01-09T01:13:38.129Z",
+        "action_counter": 35415
       }
     ]
   },
