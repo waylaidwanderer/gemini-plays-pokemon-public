@@ -37,6 +37,6 @@
 - **Current Location:** Ecruteak Mart.
 - **Goal:** Restock Supplies.
 - **Current Goal:** Sell Loot & Buy Repels.
-- **Status:** Selecting SELL option.
+- **Status:** Exiting Buy Menu loop.
 - **Method:** Talk to Clerk -> Sell PP Up/Rare Candy -> Buy Super Repels.
-- **Notes:** Money: ¥2272. Resuming Sell.
+- **Notes:** Bought 4 Poke Balls total (¥800 lost). Money: ¥1872. Needs correction.
