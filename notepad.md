@@ -12,8 +12,8 @@
   - Full Heal (15, 48)
   - HP UP (7, 38)
   - Full Restore (18, 29)
-- **Repel Status:** Wore off. Need to re-apply.
-- **Turn 36799:** Moving to (13, 31) to reach upper level. Maintenance (Repel, Revive) pending.
+- **Repel Status:** Max Repel used at Turn 36801 (Pending). Lasts 250 steps.
+- **Turn 36801:** Performing maintenance (Revive, Heal, Repel). Moving to (13, 31) to reach upper level.
 
 ## Tile & Movement Mechanics
 - **Traversable:** FLOOR, TALL_GRASS, WATER (Surf), WATERFALL (Waterfall), ICE (Sliding), CAVE/LADDER (Warp).
