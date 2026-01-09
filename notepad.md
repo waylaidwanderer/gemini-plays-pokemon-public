@@ -8,18 +8,20 @@
   - Cooltrainer Joyce at (10, 56).
   - Cooltrainer Gaven at (9, 38).
   - Cooltrainer Jake at (14, 24).
-  - Cooltrainer Beth at (6, 8) [Defeated Turn 36634].
+  - Cooltrainer Beth at (6, 8).
+- **Victory Road Gate (ID: 23_13):**
+  - Entered Turn 36638.
+  - Officer at (8, 11) likely checks badges.
 - **Notes:**
   - Sign at (8, 6): Route 26 / Pokémon League Reception Gate.
-  - Entered Victory Road Gate at (7, 5) on Route 26. [Turn 36638]
-  - Item at (9, 15): Blocked by walls from the east; loop around needed.
+  - Item at (9, 15): Blocked by walls from the east on Route 26.
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (4:50 AM). Contest is tomorrow.
+- Timing: Friday (4:51 AM). Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Psychic:** Super effective against Poison/Ghost (XENON).
