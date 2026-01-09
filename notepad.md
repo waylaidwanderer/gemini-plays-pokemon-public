@@ -13,6 +13,8 @@
 ### Strategy vs Bruno
 - Onix (Lv43): Use XENON (Hypnosis/Dream Eater) or GNEISS (Earthquake).
 - Current Status: XENON is active (99/99 HP). Bruno's Onix is back out (~60% HP). Strategy: Hypnosis to disable.
+- Team Update: ICARUS grew to Lv17.
+- Turn Count Correction: Current turn is 37011. Last turn reported 37009 incorrectly.
 
 ## Persistence Knowledge
 ### Type Effectiveness
