@@ -15,16 +15,16 @@
 - Umbreon (Lv42): Defeated.
 - Vileplume (Lv42): Defeated.
 - Gengar (Lv45): Defeated.
-- Murkrow (Lv44): Weak to Rock/Electric/Ice. Use Calcifer (Thunderpunch) or GNEISS (Rollout).
+- Murkrow (Lv44): Weak to Rock/Electric/Ice. Use Calcifer (Thunderpunch).
 - Houndoom (Lv47): Ace. Weak to Water/Ground/Rock/Fighting. Use GNEISS (Earthquake).
-- Current Status: Gengar defeated. Calcifer at 132/168 HP. Murkrow is out.
-- Turn 37065: Calcifer vs Murkrow. Strategy: Thunderpunch.
-- Reflection (Turn 37065):
+- Current Status: Murkrow active. Calcifer at 132/168 HP.
+- Turn 37068: Calcifer vs Murkrow. Strategy: Thunderpunch.
+- Reflection (Turn 37068):
   1. Immediate Execution: Updated status and turn.
   2. Notepad Hygiene: Cleaned up battle logs.
   3. Map Hygiene: Entrance warps and Karen marked.
   4. Automation: Tools/Agents working well.
   5. Goal Clarity: Focused on Karen.
-  6. Error Analysis: Menu navigation tracking is accurate.
-- Turn Count Correction: Current turn is 37065.
+  6. Error Analysis: Move menu navigation needs precision.
+- Turn Count Correction: Current turn is 37068.
 - Suicune is currently roaming Johto.
