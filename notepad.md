@@ -9,17 +9,17 @@
   - Cooltrainer Gaven at (9, 38).
   - Cooltrainer Jake at (14, 24).
   - Cooltrainer Beth at (6, 8) [Defeated Turn 36634].
-- **Future Objectives:**
-  - Read Sign at (8, 6).
-  - Enter house at (7, 5).
-  - Find path to item at (9, 15).
+- **Notes:**
+  - Sign at (8, 6): Route 26 / Pokémon League Reception Gate.
+  - House at (7, 5): Target for investigation.
+  - Item at (9, 15): Blocked by walls from the east; loop around needed.
 
 ## Strategy for Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Timing: Friday (4:47 AM). Contest is tomorrow.
+- Timing: Friday (4:49 AM). Contest is tomorrow.
 
 ## Battle Mechanics & Type Matchups
 - **Psychic:** Super effective against Poison/Ghost (XENON).
