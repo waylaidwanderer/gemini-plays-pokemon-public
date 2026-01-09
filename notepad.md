@@ -4,9 +4,9 @@
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 
 # Current Status
-- **Location:** Violet City.
-- **Activity:** Walking to Ecruteak City (via Route 36/37).
-- **Time Started:** Turn 29639.
+- **Location:** Route 36.
+- **Activity:** Walking to Ecruteak City (via Route 37).
+- **Time Started:** Turn 29643.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
 - **Reason:** Fly menu navigation proved unreliable. Walking is consistent and allows for potential encounters.
 - **Shopping Log:**
