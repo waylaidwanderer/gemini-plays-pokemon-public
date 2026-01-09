@@ -8,7 +8,7 @@
 - **Objective:** Defeat the Elite Four and the Champion.
 - **Current Opponent:** Koga (Poison).
   - **Koga's Roster:**
-    - Ariados (Lv40): Weak to Fire/Rock. (In progress)
+    - Ariados (Lv40): Double Team (+1 Evasion) active. Weak to Fire/Rock. (In progress)
   - **Strategy:**
     - Lead with XENON for status if needed, or GNEISS for Ground coverage.
     - Calcifer (Fire/Electric) is strong against Bug/Flying/Steel types.
