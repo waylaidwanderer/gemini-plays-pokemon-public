@@ -11,7 +11,10 @@
 ## Area Notes: Victory Road
 - **Mechanics:** No trainers except Rival Malice (defeated at 12, 9).
 - **Exploration Strategy:** Reveal northern section (y < 34) and exit vicinity.
-- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton.
+- **Rival Battle:** Malice defeated. Team: Sneasel, Feraligatr, Golbat, Haunter, Kadabra, Magneton. Outcome: Malice defeated at (12, 9). He moved north/east and left the area.
+- **XENON Status:** Reached Lv39; learned DREAM EATER (forgot Mean Look).
+- **Repel Status:** Max Repel used (Turn 36774).
+- **Navigation:** Heading for item at (18, 29) via ladder (17, 19) -> (17, 33). Then exit at (13, 5).
 - **Items Spotted:** (18, 29): Poke Ball (ID 4) on high ledge.
 
 ## Tile & Movement Mechanics
