@@ -39,5 +39,5 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #38. Hunting in grass.
-- **Note:** Super Repel Active. Cycles #20-37 yielded no encounter.
+- **Current Cycle:** #39. Re-entering Route 37.
+- **Note:** Super Repel Active. Cycles #20-38 yielded no encounter.
