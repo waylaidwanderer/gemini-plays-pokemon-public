@@ -40,3 +40,6 @@
   - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
 - Training Goal: Level all active party members (especially Xenon) to 45+ for the Pokémon League.
 - Master Ball: Obtained from Prof. Elm [Turn 35463]. Save for legendary beasts (Suicune, Raikou, Entei).
+## Failed Hypotheses
+- **Hypothesis:** Typhlosion can learn Ice Punch in Crystal. **Test:** Tried teaching TM33. **Conclusion:** Denied (Turn 35538). Typhlosion is incompatible with Ice Punch in Crystal.
+- **Hypothesis:** Interacting with the elevator button at (3, 0) from (3, 1) facing up on 5F calls the elevator. **Test:** Pressed A at (3, 1) facing up. **Conclusion:** Denied (Turn 35553). No text or event triggered.
