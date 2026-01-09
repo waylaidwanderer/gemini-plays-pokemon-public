@@ -20,13 +20,14 @@
   4. Locate the eastern exit.
 
 ## Strategy: Reach Row 17 / Column 0
-- Observation: Ledges at (10, 16) and (11, 16) are impassable from FLOOR at (10, 15) and (11, 15). [5 failed attempts]
-- Hypothesis: Ledges might be jumpable from WATER at Row 15.
+- Observation: Ledges at (9, 16), (10, 16), and (11, 16) are impassable from the North. [6 failed attempts total]
+- Hypothesis: These ledges are "UP" ledges (jumpable South -> North) or the map collision is blocking North -> South movement.
 - Plan:
-  1. Move to (9, 15) WATER.
-  2. Press Down to jump ledge at (9, 16).
-  3. If successful, walk west to (1, 17), then north to (1, 16) and (0, 16) to reach Column 0.
-  4. If successful, walk east to (18, 17) to explore Column 18.
+  1. Move to (12, 15) FLOOR.
+  2. Attempt to jump ledge at (12, 16) by pressing Down.
+  3. If successful, walk west to Column 0.
+  4. If all Row 16 ledges fail, explore the eastern water channel (Column 18) via any discovered gaps.
+  5. Use Itemfinder on all land patches to search for HM07.
 
 ## Tile Mechanics (Tohjo Falls specific)
 - Ledge (FLOOR_UP_WALL): Jumpable North -> South. Blocked from FLOOR at (10, 16), (11, 16).
