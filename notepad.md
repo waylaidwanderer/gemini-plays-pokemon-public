@@ -30,8 +30,9 @@
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Likely path to the Dragon Shrine.
 
-## Strategy: Reaching the Dragon Shrine [Turn 35388]
-- Ravioli (Krabby) used Whirlpool to clear the obstacle at (10, 20).
-- Current Position: (10, 19).
-- Next Step: Surf south through the gap at (10, 20) and explore the central area for the shrine entrance.
-- Goal: Reach the shrine in the center.
+## Strategy: Reaching the Dragon Shrine [Turn 35390]
+- Ravioli (Krabby) used Whirlpool to clear (10, 20).
+- Current Position: (11, 24) in DragonsDenB1F.
+- Obstacle: Wall at (12, 24) and buoy barrier at X=11 (Y=16-23).
+- Path: Navigate north to Y=15 (where X=11 is clear), then east to X=16, then south to Y=21, then east to the island at (17, 23).
+- Goal: Enter the shrine and complete the challenge.
