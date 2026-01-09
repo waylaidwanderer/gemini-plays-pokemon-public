@@ -7,20 +7,17 @@
 ## Strategy: Navigate Route 27
 - Objective: Reach Route 26 and Victory Road.
 - Progress:
-  - Navigate through Tohjo Falls. [Completed]
+  - Route 27 West & Tohjo Falls. [Completed]
   - Explore house at (33, 7). [Completed]
-  - Cross Route 27 Bridge. [In Progress]
-    - Battle Psychic Gilbert. [Completed]
-    - Battle Cooltrainer Brian. [Completed]
+  - Route 27 Bridge & Trainers. [In Progress]
     - Battle Cooltrainer Reena at (72, 10). [Current]
-  - Reach Route 26. [Next]
+  - Reach Route 26 Junction. [Next]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
 - Location: National Park (North of Goldenrod City).
 - Method: Win 1st place in the Bug-Catching Contest.
 - Preparation: Lead with a Pokemon that can inflict status (e.g., XENON with Hypnosis). High-point targets are Scyther and Pinsir.
-- Route: Fly to Goldenrod City -> Head North to Route 35 Gatehouse.
 - Timing: Current Day: Friday. Contest is tomorrow (Saturday).
 
 ## Tool Status
@@ -47,9 +44,8 @@
 - VOID: Impassable area outside the map boundaries.
 
 ## Lessons Learned
-- Rising Badge: Enables Waterfall use outside battle.
-- Tohjo Falls Ledges: Row 16 ledges are reported impassable from North. [TO VERIFY]
-- Navigation: Repeated movement failure indicates the tile is impassable from that direction.
-- Item Discovery: Moon Stone found in Tohjo Falls at (2, 6).
+- Route 27 Bridge: Ladder sprites function as FLOOR tiles.
+- Route 27 Navigation: Item at (53, 12) is unreachable from the East due to a wall/ledge. Must approach from the West.
+- Battle Management: Switching resets stat drops and accuracy penalties.
 - Hallucination Warning: Always verify map ID and coordinates after warps/ladders.
 - Map Connectivity: Verify connectivity before committing to major backtracking (e.g., Ice Path B3F sides ARE connected).
