@@ -1,14 +1,15 @@
 # Johto Journey - Final Phase
 - Primary Goal: Challenge the Pokémon League at Indigo Plateau [Started Turn 35416, 5:00 PM]
-- Secondary Goal: Speak with Professor Elm in New Bark Town.
+- Secondary Goal: Prepare team for the Elite Four.
 - Badges Obtained: 8/8 (Rising Badge obtained Turn 35416).
 
-## Strategy: Heading to the Pokémon League [Turn #35464]
+## Strategy: Heading to the Pokémon League [Turn #35468]
 - Plan:
-  1. Speak with Professor Elm at the Lab to receive his gift. [Done: Master Ball received]
-  2. Visit Goldenrod City to buy TM33 (Ice Punch) for Typhlosion. [Current Task]
-  3. Prepare team: Level Haunter (XENON) and replace ICARUS/Ravioli with stronger members.
-  4. Surf east from New Bark Town to reach the Pokémon League.
+  1. Fly to Goldenrod City to buy TM33 (Ice Punch) for Calcifer (Typhlosion). [Current Task]
+  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
+  3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini).
+  4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
+  5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road.
 
 ## Tile Mechanics (Global)
 - FLOOR/CAVE: Standard traversable tile.
@@ -18,7 +19,7 @@
 - WHIRLPOOL: Requires HM06 to cross.
 - HEADBUTT_TREE: Impassable boundary.
 - LADDER/STAIRS: Warp between floors/sections.
-- LEDGE: One-way jump transition (usually South, East, or West).
+- LEDGE: One-way jump transition.
 
 ## Lessons Learned
 - Dragon Shrine Entrance: Located on the south side (19, 29).
@@ -30,8 +31,8 @@
 - Evaluation: Team is top-heavy (Typhlosion 49, Graveler 48). Others are underleveled (Haunter 37, others <20).
 - Key Threats: Will's Psychic-types (outspeed/OHKO Haunter). Lance's Dragonites (lack of Ice coverage).
 - Recommendations:
-  - Priority 1: Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath if not evolved.
-  - Priority 2: Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados or gift Dratini).
-  - Priority 3: Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
-  - Priority 4: Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
+  - Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath if not evolved.
+  - Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level encounters (e.g., Red Gyarados or gift Dratini).
+  - Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
+  - Use Gneiss (Graveler) with Earthquake for Koga/Bruno, but avoid Bruno's Fighting-types.
   - Strategy: Buy TM33 Ice Punch in Goldenrod for Typhlosion.
