@@ -41,6 +41,6 @@
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
 - **Current Cycle:** #50. Checking Pokedex Area.
 - **Note:** Super Repel Active. Cycles #20-49 yielded no encounter.
-- **Action:** Correcting menu navigation to access Pokedex.
+- **Action:** Scrolling Pokedex list (Down/Page Down) to locate Raikou/Entei (#243/#244).
 - **Strategy Update:** Verify Beast movement. If static, consider re-triggering (fly/warp).
-- **Timestamp:** Turn 30246 (Hunt Resume).
+- **Timestamp:** Turn 30248 (Hunt Resume).
