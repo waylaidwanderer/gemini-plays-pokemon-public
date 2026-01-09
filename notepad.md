@@ -27,3 +27,6 @@
 - Use fodder to safely Revive key members.
 - XENON uses Hypnosis to disable threats.
 - GNEISS (Rollout) is the backup for Charizard if XENON fails.
+## Battle with Lance (Cont.)
+- Turn 37567: ICARUS fainted. XENON revived to 52 HP.
+- Plan: Send in XENON to use Hypnosis on Charizard.
