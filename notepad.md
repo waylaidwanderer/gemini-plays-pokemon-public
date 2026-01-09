@@ -4,10 +4,10 @@
 ## Champion Lance Battle
 - Opponent: Champion Lance (Final Boss)
 - Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl
-- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon-type, Special).
+- Active: Dragonite #3 (Lv50). Moves: Outrage (Special).
 - Current Lead: GNEISS (70/141 HP). All others fainted.
-- Strategy: GNEISS uses ROLLOUT. This is the final stand.
-- Inventory: 5 Revives. 0 Potions/Restores. (Turn 37208).
+- Strategy: GNEISS ROLLOUT. This is the final stand.
+- Inventory: 5 Revives. 0 Potions/Restores. (Verified Turn 37206).
 
 ## Strategy vs Dragonite #3
 - Outrage is Special. GNEISS has low Sp.Def (74).
