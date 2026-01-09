@@ -3,14 +3,15 @@
 
 ## Champion Lance Battle
 - Opponent: Champion Lance (Final Boss)
-- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon, Special).
-- Status: Locked into Outrage (Turn 2). NOT confused.
-- Team Status: Ouroboros (Lv15, 20/40 HP) active. Others fainted.
-- Resources: 4 Revives. 0 Potions/Restores. (Turn 37217).
+- Active: Dragonite #3 (Lv50). Moves: Outrage (Dragon-type, Special).
+- Team Status: Ouroboros (20/40 HP) active. LAPIS (16/32 HP) healthy. Others fainted.
+- Resources: 3 Revives. 0 Potions/Restores. (Turn 37220).
 
 ## Strategy vs Dragonite #3
-- Plan: Revive Calcifer (Lv54). Calcifer is faster (140 Speed) and has Thunderpunch (2x Super Effective).
-- Next Step: Use Revive on Calcifer.
+- Outrage is Special. GNEISS has low Sp.Def (74).
+- Calcifer has better Sp.Def (120) and can survive one Outrage hit after a Revive.
+- Plan: Revive Calcifer (Lv54). Use Thunderpunch (2x Super Effective).
+- Target: Land two Thunderpunches to win.
 
 ## Persistence Knowledge
 ### Type Effectiveness
