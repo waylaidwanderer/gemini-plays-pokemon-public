@@ -12,7 +12,8 @@
   1. Obtain HM07 Waterfall from Ice Path 1F. [Completed]
   2. Teach Waterfall to LAPIS (slot 6). [Completed]
   3. Use Waterfall to climb the falls in Tohjo Falls. [Completed]
-  4. Locate the eastern exit of Tohjo Falls. [Current]
+  4. Locate the eastern exit of Tohjo Falls. [Completed]
+  5. Exit Tohjo Falls at (25, 15). [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
