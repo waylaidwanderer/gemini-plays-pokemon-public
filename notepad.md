@@ -1,29 +1,29 @@
-# Johto Elite Four Challenge
+# Johto Elite Four Progress
 - Started: Turn 36866
-- Progress: Will (✅), Koga (✅), Bruno (✅), Karen (✅), Lance (In Progress)
+- Victories: Will, Koga, Bruno, Karen
 
-## Champion Lance Battle (Started Turn 37104)
+## Champion Lance Battle Tracking
 - Opponent: Champion Lance (Final Boss)
-- Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl.
-- Active: Dragonite #3 (Lv50). Moves: Outrage.
-- Strategy: Use GNEISS's ROLLOUT to finish.
+- Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl
+- Active: Dragonite #3 (Lv50). Status: Confused, ~75% HP. Moves: Outrage.
+- Strategy: Revive GNEISS and use ROLLOUT to win.
+- Inventory: 7 Revives (Turn 37196). No healing items.
 
-### Battle History
-- Turn 37120: Gyarados defeated.
-- Turn 37155: Dragonite #1 defeated.
+### Battle Timeline
+- Turn 37120: Gyarados defeated (XENON Dream Eater).
+- Turn 37155: Dragonite #1 defeated (GNEISS Rollout).
 - Turn 37165: GNEISS revived (Cycle 1).
 - Turn 37167: ICARUS fainted to Blizzard.
-- Turn 37184: Dragonite #2, Charizard, Aerodactyl defeated by ROLLOUT.
+- Turn 37172: GNEISS fainted to Blizzard.
+- Turn 37176: GNEISS revived (Cycle 2).
+- Turn 37178: Ouroboros fainted to Hyper Beam.
+- Turn 37181: ROLLOUT missed.
+- Turn 37184: Dragonite #2, Charizard, Aerodactyl defeated (GNEISS Rollout).
 - Turn 37185: GNEISS fainted to Outrage.
-- Turn 37188: GNEISS revived (Cycle 2) (70/141 HP).
+- Turn 37188: GNEISS revived (Cycle 3).
 - Turn 37189: LAPIS fainted to Outrage.
-- Turn 37193: GNEISS used ROLLOUT. GNEISS fainted to Outrage. Dragonite confused.
-- Turn 37194: Calcifer sent out.
-- Turn 37195: Using Revive on GNEISS (Cycle 3).
-
-## Strategy & Resources
-- Plan: Revive GNEISS. Use fodder if needed. GNEISS ROLLOUT to win.
-- Inventory: 7 Revives. No healing items.
+- Turn 37193: GNEISS fainted to Outrage after landing Rollout. Dragonite confused.
+- Turn 37195: Calcifer active. Starting Revive Cycle 4.
 
 ## World Lore & Roaming
 - Suicune: Roaming Johto.
