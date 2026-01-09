@@ -13,11 +13,24 @@
 - Steps:
   1. Use Surf to cross the water. [Done]
   2. Search for HM07 Waterfall on land patches. [Current]
+     - Explore western strip (Column 0).
+     - Explore central island (Row 8).
+     - Explore eastern water/land (Column 18+).
   3. Use Waterfall to climb the falls.
   4. Locate the eastern exit.
 
+## Strategy: Reach Row 17 / Column 0
+- Observation: Ledges at (10, 16) and (11, 16) are impassable from FLOOR at (10, 15) and (11, 15). [5 failed attempts]
+- Hypothesis: Ledges might be jumpable from WATER at Row 15.
+- Plan:
+  1. Move to (9, 15) WATER.
+  2. Press Down to jump ledge at (9, 16).
+  3. If successful, walk west to (1, 17), then north to (1, 16) and (0, 16) to reach Column 0.
+  4. If successful, walk east to (18, 17) to explore Column 18.
+
 ## Tile Mechanics (Tohjo Falls specific)
-- Ledge (FLOOR_UP_WALL): Impassable from North at (10, 16) and (11, 16). Attempted jump 5 times.
+- Ledge (FLOOR_UP_WALL): Jumpable North -> South. Blocked from FLOOR at (10, 16), (11, 16).
+- Waterfall: Requires HM07 Waterfall to climb.
 
 ## Strategy: Search for HM07 Waterfall
 - Hypothesis: HM07 is located on one of the land patches in Tohjo Falls.
