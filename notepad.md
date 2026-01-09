@@ -39,8 +39,9 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #50. Checking Pokedex Area.
-- **Note:** Super Repel Active. Cycles #20-49 yielded no encounter.
-- **Action:** Exiting Raichu entry (B), then scrolling to bottom of list (Page Down x35) to find Raikou (#243).
-- **Strategy Update:** Verify Beast movement. If static, consider re-triggering (fly/warp).
-- **Timestamp:** Turn 30249 (Hunt Resume).
+- **Current Cycle:** #51. Blind Hunt Loop.
+- **Note:** Super Repel Active. Gyarados (Lv36) leads to filter trash mobs.
+- **Action:** Executing hunt routine (Ecruteak <-> Route 37 transition).
+- **Status:** Beasts unseen in Pokedex. Must trigger encounter blindly.
+- **Strategy Update:** Transition to Rt 37, check grass, return. Repeat until encounter.
+- **Timestamp:** Turn 30250.
