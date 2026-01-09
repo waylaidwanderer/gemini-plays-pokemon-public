@@ -24,8 +24,7 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29084)
-- Status: On Route 37 (7, 2). Closing menu.
-- Action: Exiting Pack and Start Menu.
-- Progress: ~422 turns. Hunt active.
-- Strategy: Close menu, then resume execute_hunt_routine.
+# Reflection (Turn 29085)
+- Status: On Route 37 (7, 2). Resuming hunt after Repel.
+- Progress: ~423 turns. Hunt active.
+- Strategy: Loop execute_hunt_routine.
