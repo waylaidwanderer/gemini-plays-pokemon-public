@@ -9,7 +9,7 @@
 - Charizard: DEFEATED
 - Dragonite #3 (Lv50) (Dragon/Flying): ACTIVE.
 - Status: Dragonite (~80% HP). Safeguard active (5 turns).
-- Team Status: Calcifer (89 HP), XENON (52 HP), GNEISS (FNT).
+- Team Status: Calcifer (89 HP), XENON (52 HP). No Revives left.
 
 ## Persistence Knowledge
 ### Tile Mechanics (Global)
@@ -18,7 +18,7 @@
 - LADDER: Traversable. Vertical transition.
 - WARP_CARPET: Map transition at edges.
 - COUNTER: Interaction point; face it and press A.
-- WATER: Requires SURF to traverse. 
+- WATER: Requires SURF to traverse.
 - LEDGE: One-way traversal (jump down).
 - GRASS: Wild Pokémon encounter zone.
 - WHIRLPOOL: Requires WHIRLPOOL to clear.
@@ -38,4 +38,7 @@
 
 ## Battle Strategy
 - Objective: Defeat Dragonite #3.
-- Current Plan: Revive GNEISS (Lv51) as the final backup. GNEISS has Rock moves (Rollout) which are strong against Dragonite. Calcifer will continue with Return. XENON is available for chip damage with Night Shade.
+- Method: Spam Return with Calcifer. XENON is backup for Night Shade fixed damage (41 HP) if needed.
+- Failed Hypothesis: Revive GNEISS (No Revives left in inventory).
+- Attempt Count (Return spam): 1.
+- Attempt Count (Revive GNEISS): 1 (Failed - out of items).
