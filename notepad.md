@@ -3,9 +3,9 @@
 - Requirement: Complete "Dragon User Challenge" in Dragon's Den.
 - Location: North of Blackthorn Gym.
 
-## Strategy: Dragon User Challenge [Turn 35371, 4:50 PM]
-- Navigate to the "small shrine" at the center of the Den.
-- Use Surf/Whirlpool to cross water hazards.
+## Strategy: Dragon User Challenge [Turn 35415]
+- Status: Challenge completed. Answered Elder's questions.
+- Goal: Speak with Clair to receive the Rising Badge.
 
 ## Tile Mechanics
 - FLOOR/CAVE: Standard traversable tile. Verfied.
@@ -26,30 +26,14 @@
 - Tully (Fisher): Route 42. Wants to battle. [Turn 35252]
 
 ## Discovered Locations
+- Dragon Shrine (3_82): Entrance at (19, 29) in Dragon's Den.
 - Dragon Shrine Signpost (18, 24): "DRAGON SHRINE. A shrine honoring the dragon POKéMON said to have lived in DRAGON'S DEN."
 - Entry Platform (19-20, 3-9): Contains exit ladder to 1F at (20, 3).
 - Whirlpool Barrier (10, 20): Path cleared [Turn 35387].
 
-## Strategy: Reaching the Dragon Shrine [Turn 35405]
-- Ravioli (Krabby) used Whirlpool to clear (10, 20).
-- Discovery: The building at (19, 29) is the Dragon Shrine. It must be approached from the south.
-- Path:
-  1. Surf west to column 10.
-  2. Surf south through the cleared whirlpool at (10, 20) to Row 28.
-  3. Surf east along Row 28 to column 13.
-  4. Surf south to (13, 30) and land on the island at (14, 30).
-  5. Walk east to the entrance at (19, 29).
-## Strategy: Dragon User Challenge (The Elders) [Turn 35412]
-- Task: Answer the questions from the Dragon Clan Elders.
-
 ## Dragon User Challenge Progress [Turn 35407]
-- Question 1: "What are POKéMON to you?"
-- Answered: "Pal"
-- Question 2: "What helps you to win battles?"
-- Answered: "Strategy"
-- Question 3: "What kind of trainer do you wish to battle?"
-- Answered: "Tough person"
-- Question 4: "What is most important for raising POKéMON?"
-- Answered: "Love"
-- Question 5: "Which is more important? (Strong/Weak POKéMON)"
-- Answered: "Both"
+- Q1: "What are POKéMON to you?" -> "Pal"
+- Q2: "What helps you to win battles?" -> "Strategy"
+- Q3: "What kind of trainer do you wish to battle?" -> "Tough person"
+- Q4: "What is most important for raising POKéMON?" -> "Love"
+- Q5: "Which is more important? (Strong/Weak POKéMON)" -> "Both"
