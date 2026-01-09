@@ -5,20 +5,15 @@
 
 ## Elite Four Challenge (Started Turn 36866)
 - **Objective:** Defeat the Elite Four and the Champion.
-- **Current Opponent:** Koga (Poison).
-  - **Koga's Roster:**
-    - Ariados (Lv40): Defeated (Turn 36906).
-    - Forretress (Lv43): Defeated (Turn 36908).
-    - Muk (Lv42): Defeated (Turn 36916).
-    - Crobat (Lv44): Defeated (Turn 36925).
-    - Venomoth (Lv41): Weak to Fire. Calcifer HP 77/168. (In progress)
-- **Status:** Defeated Will. Battling Koga. Ariados, Forretress, Muk, Crobat defeated.
-- **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
-  - **Will's Roster:** Xatu (40), Slowbro (41), Xatu (42), Exeggutor (41), Jynx (41).
+- **Current Opponent:** Bruno (Fighting).
+- **Status:** Defeated Will and Koga. Preparing for Bruno.
+- **Previous Opponents:**
+  - Will (Psychic) - Defeated Turn 36890.
+  - Koga (Poison) - Defeated Turn 36928.
 - **Team Roles:**
-  - Calcifer (Lv52 Typhlosion): Primary attacker (Fire/Electric).
-  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock).
-  - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray).
+  - Calcifer (Lv53 Typhlosion): Primary attacker (Fire/Electric). HP 77/168.
+  - GNEISS (Lv49 Graveler): Physical tank (Ground/Rock). HP 104/138. (Poisoned)
+  - XENON (Lv39 Haunter): Status support (Hypnosis/Confuse Ray). HP 99/99.
   - Ouroboros (Lv15 Dratini): Thunder Wave support.
 
 ## Shopping List
