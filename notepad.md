@@ -41,5 +41,5 @@
 - Hitmonlee: Fighting. Xenon immune to STAB (unless Foresight active). (DEFEATED)
 - Hitmonchan: Fighting. Weak to Psychic/Flying. Watch for Elemental Punches. (DEFEATED)
 - Onix: Rock/Ground. 4x weak to Water/Grass. 2x weak to Ground (Earthquake). (DEFEATED)
-- Machamp: Fighting. Weak to Psychic/Flying. High physical power. (ACTIVE)
-- Strategy: Xenon for Fighting immunity (unless coverage predicted). Gneiss for Onix. Switch to Xenon for Machamp.
+- Machamp: Fighting. Weak to Psychic/Flying. High physical power. Used Rock Slide (Rock). (ACTIVE)
+- Strategy: Xenon for Fighting immunity (unless coverage predicted). Gneiss for Onix. Switch to Xenon for Machamp. Xenon fainted to Rock Slide. Send in Calcifer.
