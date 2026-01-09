@@ -11,7 +11,8 @@
   - Cooltrainer Beth at (6, 8).
 - **Victory Road Gate (ID: 23_13):**
   - Entered Turn 36638.
-  - Officer at (8, 11) likely checks badges.
+  - Officer at (8, 11) verified eight Johto badges. [Turn 36641]
+  - Path to Victory Road cleared. [Current]
 - **Notes:**
   - Sign at (8, 6): Route 26 / Pokémon League Reception Gate.
   - Item at (9, 15): Blocked by walls from the east on Route 26.
