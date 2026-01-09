@@ -10,8 +10,8 @@
   - Hitmonchan (Lv42): Active (~50% HP).
 
 ### Strategy vs Bruno
-- Hitmonchan (Lv42): Ice Punch, Fire Punch (Special). Use XENON with Night Shade. XENON is immune to Fighting/Normal moves.
-- Machamp (Lv46): Ace. Likely has Foresight to hit Ghosts.
+- Hitmonchan (Lv42): Ice Punch, Fire Punch (Special). Use GNEISS or XENON.
+- Machamp (Lv46): Ace. Has Foresight (allows Fighting/Normal moves to hit Ghosts).
 - Onix (Lv43): Use LAPIS (Surf/Waterfall) or GNEISS (Earthquake).
 
 ## Battle Mechanics & Type Effectiveness
@@ -23,7 +23,7 @@
 - Ghost: Immune to Fighting/Normal. Super effective vs Psychic/Ghost.
 - Poison: Weak to Psychic/Ground.
 - Ground: Immune to Electric. Super effective vs Fire/Electric/Poison/Rock/Steel.
-- **Note:** In Gen 2, elemental punches are Special. Ghost moves (like Night Shade) are Physical, but Night Shade is fixed damage.
+- **Note:** In Gen 2, elemental punches are Special. Ghost moves are Physical, but Night Shade is fixed damage.
 
 ## Tile Mechanics
 - **FLOOR:** Traversable. Standard movement.
@@ -45,7 +45,7 @@
 - Ho-Oh revived Suicune, Entei, and Raikou after the Brass Tower fire 700 years ago.
 - Suicune is currently roaming Johto.
 
-## Team Overview
+## Team Overview (Movesets)
 - Calcifer (Lv53 Typhlosion): Flame Wheel, Return, Smokescreen, Thunderpunch.
 - GNEISS (Lv49 Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - XENON (Lv39 Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
