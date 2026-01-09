@@ -32,6 +32,10 @@
 - WATER: Traversable (requires SURF).
 - WATERFALL: Impassable (requires WATERFALL).
 - LEDGE (FLOOR_UP_WALL): One-way jump.
+- COUNTER: Impassable; interactable from front.
+- LADDER: Warp to another floor/map.
+- WARP_CARPET_DOWN: Exit/warp to another map.
+- PC: Impassable; interactable from front (up).
 
 ## Lessons Learned
 - Rising Badge: Allows use of HM07 Waterfall outside battle.
