@@ -1,17 +1,17 @@
 # Lessons Learned
-- **Tool Insight:** `navigate_menu` requires `hold_ms` >= 300 for Fly Map. `Right` from Violet failed multiple times, suggesting the path is `Up` (to Ecruteak) or the input was dropped.
+- **Tool Insight:** `navigate_menu` with `hold_ms=300` works for Fly Map.
 - **Automation vs. Interruptions:** Phone calls/events freeze the game, desyncing fixed-input sequences. Monitor and manually reset.
 - **Efficiency:** "Checking with your face" (running into grass) is faster than checking the Pokedex for Roamers.
 - **Fly Map Logic:**
   - `New Bark -> Left` -> Cherrygrove.
   - `Cherrygrove -> Up` -> Violet.
-  - `Violet -> Up` -> Ecruteak (Hypothesis).
-  - `Ecruteak -> Right` -> Mahogany (Hypothesis).
+  - `Violet -> Up` -> Ecruteak.
+  - `Ecruteak -> Right` -> Mahogany.
   - `Mahogany -> Right` -> Blackthorn (Target).
-- **Current Strategy:** From Violet, testing `Up, Right, Right`.
+- **Current Strategy:** From Mahogany, press Right to reach Blackthorn.
 
 # Current Status
-- **Location:** Ecruteak City (Physically), Violet City (Fly Map Cursor).
+- **Location:** Ecruteak City (Physically), Mahogany Town (Fly Map Cursor).
 - **Activity:** Menu Navigation (Flying to Blackthorn).
 - **Time Started:** Turn 29657.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
