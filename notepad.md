@@ -10,7 +10,13 @@
   - Route 27 West & Tohjo Falls. [Completed]
   - Explore house at (33, 7). [Completed]
   - Route 27 Bridge & Trainers. [Completed]
-  - Reach Route 26 Junction. [Current]
+  - Reach Route 26 Junction. [Completed]
+
+## Strategy: Navigate Route 26
+- Objective: Reach Victory Road.
+- Progress:
+  - Enter Route 26 from Route 27. [Completed]
+  - Navigate North to Victory Road. [Current]
 
 ## Strategy: Bug-Catching Contest (Saturday)
 - Objective: Obtain a Sun Stone.
