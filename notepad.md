@@ -19,6 +19,12 @@
     - Calcifer (Fire/Electric) is strong against Bug/Flying/Steel types.
     - GNEISS (Ground/Rock) is strong against Poison/Flying types.
 - **Previous Opponent:** Will (Psychic) - Defeated Turn 36890.
+  - **Will's Roster:**
+    - Xatu (Lv40): Defeated (Turn 36875).
+    - Slowbro (Lv41): Defeated (Turn 36882).
+    - Xatu (Lv42): Defeated (Turn 36884).
+    - Exeggutor (Lv41): Defeated (Turn 36888).
+    - Jynx (Lv41): Defeated (Turn 36890).
 - **Shopping List:**
   - Revives (10) - Done (Turn 36856)
   - Full Restores (3) - Done (Turn 36857)
