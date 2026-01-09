@@ -52,5 +52,5 @@
 - **Team Training:** Ouroboros (Lv15) and XENON (Lv38) need leveling before the Elite Four.
 - **Items Found:**
   - (15, 48): Full Heal (Collected)
-  - (12, 48): Poke Ball (ID 3)
+  - (12, 48): Max Revive (Collected)
   - (7, 38): Poke Ball (Spotted)
