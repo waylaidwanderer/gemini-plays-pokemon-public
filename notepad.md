@@ -2,36 +2,24 @@
 - Started: Turn 36866
 - Progress: Will (✅), Koga (✅), Bruno (✅), Karen (✅), Lance (In Progress)
 
-## Champion Lance Battle Tracking
-- Opponent: Champion Lance
-- Defeated:
-  - Gyarados (Lv44): Turn 37120
-  - Dragonite #1 (Lv47): Turn 37155
-  - Dragonite #2 (Lv47): Turn 37184
-  - Charizard (Lv46): Turn 37184
-  - Aerodactyl (Lv46): Turn 37184
+## Champion Lance Battle
+- Opponent: Champion Lance (Final Boss)
+- Defeated: Gyarados, Dragonite x2, Charizard, Aerodactyl.
 - Active: Dragonite #3 (Lv50). Moves: Outrage.
-- Remaining: None (This is the final Pokemon).
+- Strategy: Use GNEISS's ROLLOUT.
 
-### Turn Log
-- Turn 37160: ICARUS active. Start Revive cycle 1.
-- Turn 37165: GNEISS revived (70/141 HP).
-- Turn 37167: ICARUS fainted to Blizzard.
-- Turn 37168: GNEISS sent out.
-- Turn 37172: GNEISS fainted to Blizzard. Start Revive cycle 2.
-- Turn 37174: Ouroboros sent out.
-- Turn 37176: GNEISS revived (70/141 HP).
-- Turn 37178: Ouroboros fainted to Hyper Beam.
-- Turn 37179: GNEISS sent out.
-- Turn 37181: ROLLOUT missed.
-- Turn 37184: GNEISS defeated Dragonite #2, Charizard, Aerodactyl.
+### Battle History
+- Turn 37120: Gyarados defeated.
+- Turn 37155: Dragonite #1 defeated.
+- Turn 37184: Dragonite #2, Charizard, Aerodactyl defeated by ROLLOUT.
 - Turn 37185: GNEISS fainted to Outrage.
-- Turn 37186: LAPIS sent out.
-- Turn 37187: Selecting Revive for GNEISS.
+- Turn 37188: GNEISS revived (70/141 HP).
+- Turn 37189: LAPIS fainted to Outrage.
+- Turn 37190: GNEISS sent out.
 
-## Strategy vs Champion Lance
-- Plan: Use fodder to revive GNEISS. GNEISS uses Rollout.
-- Inventory: 8 Revives. No healing items.
+## Strategy & Resources
+- Plan: Maximize damage with ROLLOUT.
+- Inventory: 7 Revives (Turn 37191). No healing items.
 
 ## World Lore & Roaming
 - Suicune: Roaming Johto.
@@ -59,4 +47,3 @@
 - Ouroboros (Lv15 Dratini): Wrap, Thunder WAVE, Twister, ExtremeSpeed.
 - ICARUS (Lv18 Pidgey): Fly, Sand-Attack, Gust, Quick Attack.
 - LAPIS (Lv12 Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- Turn 37189: LAPIS fainted to Outrage. Sending in GNEISS (70/141 HP). Strategy: ROLLOUT.
