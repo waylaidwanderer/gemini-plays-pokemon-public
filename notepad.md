@@ -24,8 +24,8 @@
 - LEDGE_HOP_DOWN: One-way traversable (down).
 - DOOR: Traversable (warp).
 
-# Reflection (Turn 29101)
-- Status: On Route 37 (7, 0). Resuming hunt after interruptions (Repel/Call).
-- Progress: ~439 turns. Hunt active.
-- Strategy: Loop execute_hunt_routine.
+# Reflection (Turn 29102)
+- Status: In Ecruteak (17, 35). Pausing hunt to check Pokedex.
+- Action: Opening Pokedex to verify if Raikou/Entei are 'Seen'.
+- Goal: If Seen, switch to Tracking strategy. If not, resume Blind Hunt.
 - Note: Max Repel active.
