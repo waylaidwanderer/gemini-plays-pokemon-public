@@ -8,8 +8,8 @@
 - **Activity:** Menu Navigation (Flying to Ecruteak).
 - **Time Started:** Turn 29630.
 - **Party:** Gyarados (Lv 36) Lead. Lugia in party. Pidgey (Slot 4) has Fly.
-- **Last Fly Attempt:** Failed. "Left, Up, Left" from New Bark ended in Cherrygrove. Suspect "Up" input was ignored due to movement animation or timing. Retrying step-by-step.
-- **Current Fly Position:** Cherrygrove City. Target: Ecruteak (Up -> Left).
+- **Last Fly Attempt:** Step-by-step navigation is working.
+- **Current Fly Position:** Violet City. Target: Ecruteak (Left).
 - **Shopping Log:**
   - Goldenrod Dept Store: No Max/Super Repels found (2F-5F checked).
 
