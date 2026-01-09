@@ -35,3 +35,8 @@
 - Navigate west through the gap in the wall at X=16 (between Y=18 and Y=21).
 - Explore the central area of the Den for the shrine building.
 - Ravioli (Krabby) taught Whirlpool to handle water obstacles.
+## Strategy Update: Finding the Dragon Shrine [Turn 35320]
+- Previous attempts to teach Whirlpool failed due to menu navigation errors (Turn 35318, 35319).
+- Decision: Move immediately to break the position loop at (18, 22).
+- Plan: Surf north to (18, 21), then navigate west through the water to explore the center of the Den.
+- Teach Whirlpool only when a physical whirlpool obstacle is encountered.
