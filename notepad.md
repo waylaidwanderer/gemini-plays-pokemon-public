@@ -13,7 +13,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON, use Hypnosis + Night Shade.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Revive XENON using LAPIS as fodder, then Hypnosis.
 - Dragonite #3 (Dragon/Flying): UPCOMING.
 
 ## Current Party Status
@@ -37,6 +37,6 @@
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 
 ## Battle Strategy
-- Use fainted/low-level Pokemon as fodder to safely use Revives/Items.
-- Use XENON to neutralize threats with Hypnosis.
-- Use GNEISS (Rollout) against Charizard once stabilized.
+- Use fodder (LAPIS) to safely Revive XENON.
+- XENON uses Hypnosis to disable threats.
+- GNEISS (Rollout) is the backup for Charizard if XENON fails.
