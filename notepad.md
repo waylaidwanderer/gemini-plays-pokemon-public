@@ -30,4 +30,4 @@
 - **Active Effect:** Max Repel (Active).
 - **Lead:** Gyarados (Lv 36) - Repel Trick Active.
 - **Notes:** Hunting loop active. Route 37 is SOUTH of Ecruteak. Cycling Down (to Route 37) and Up (to Ecruteak).
-- **Reflection (Turn 29260):** Loop complete. Returned to Ecruteak (18, 35). Restarting loop: Move South to Route 37 -> Check Grass -> Return.
+- **Reflection (Turn 29261):** Verified location: Route 37 (8, 0). Marker confirms Warp to Ecruteak. Proceeding with grass hunt sequence (Down -> Wiggle -> Return). Repel active.
