@@ -8,9 +8,9 @@
 - **Time Started:** Turn 29710.
 - **Inventory:** 10 Super Repels.
 - **Objective:** Fly to Ecruteak City (Route 37) to hunt Raikou/Entei.
-- **Status:** Using Super Repel.
+- **Status:** Hunt Routine In Progress.
 - **Time Started:** Turn 29751.
-- **Inventory:** 7 Super Repels available.
+- **Inventory:** 7 Super Repels active (0/200 steps used).
 - **Objective:** Roaming Beast Hunt (Raikou/Entei).
 - **Strategy:** Route 37 <-> Ecruteak loop with Repel Trick (Lead: Gyarados Lv 36).
 - **Exploration Queue:**
