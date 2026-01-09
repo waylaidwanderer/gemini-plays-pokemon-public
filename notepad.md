@@ -6,7 +6,7 @@
 - Aerodactyl: DEFEATED
 - Dragonite #1: DEFEATED
 - Dragonite #2: DEFEATED
-- Charizard (Fire/Flying): ACTIVE. Strategy: Use XENON (Hypnosis) to disable, then GNEISS (Rollout/Strength) or chip with Night Shade. Use fodder to safely Revive key members if needed.
+- Charizard (Fire/Flying): ACTIVE. Strategy: Revive fodder/XENON, then Hypnosis or 4x Rock damage (GNEISS).
 - Dragonite #3 (Dragon/Flying): UPCOMING. Strategy: XENON (Hypnosis/Confuse Ray).
 
 ## Persistence Knowledge
@@ -18,15 +18,14 @@
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
-- Dragonite/Charizard (Ghost interaction): XENON is immune to Hyper Beam (Normal).
+- Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
 - Party Sub-menu Order (Overworld): STATS, SWITCH, ITEM, CANCEL.
 - HM Sub-menu logic: HM moves appear at top. SWITCH is 3rd if 1 HM known.
 
 ## Battle Strategy
-- Use fodder to safely Revive key members.
+- Use fodder to safely Revive key members (XENON, GNEISS).
 - XENON uses Hypnosis to disable threats.
 - GNEISS (Rollout) is the backup for Charizard if XENON fails.
-## Battle with Lance (Cont.)
-- Turn 37567: ICARUS fainted. XENON revived to 52 HP.
-- Plan: Send in XENON to use Hypnosis on Charizard.
+- Current Status: ICARUS, Ouroboros, XENON, LAPIS fainted. Calcifer (31 HP, PAR) and GNEISS (35 HP) remaining.
+- Goal: Revive fodder to continue recovery loop or risk an attack.
