@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Executing Fly to Goldenrod.
-- **Method:** From New Bark Town Cursor: Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod) -> A.
-- **Notes:** Cursor confirmed at New Bark Town. Previous failure likely due to wrong menu, resulting in staying at Silver Cave. This sequence assumes standard map layout.
+- **Status:** Handling Phone Call Interruption.
+- **Method:** Press B repeatedly to clear Gaven's call -> Retry Fly.
+- **Notes:** Gaven called just as I attempted to Fly. Must clear text before retrying. Cursor was at New Bark Town, sequence for Goldenrod (Left x3, Down) is correct for next attempt.
