@@ -39,6 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Resuming hunt after Wade's call.
 - **Event:** Call finished.
-- **Current Goal:** Blind Hunt Loop (Cycle #90).
+- **Current Goal:** Blind Hunt Loop (Cycle #91).
 - **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
-- **Status:** Wiggling then returning to Ecruteak.
+- **Status:** Moving south to Route 37.
