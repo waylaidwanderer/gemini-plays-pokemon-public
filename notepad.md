@@ -2,10 +2,6 @@
 - Gauntlet started: Turn 37260 (Friday 11:58 AM)
 - Current Status: Battling Koga.
 
-# Johto Elite Four Challenge - REMATCH
-- Gauntlet started: Turn 37260 (Friday 11:58 AM)
-- Current Status: Battling Koga.
-
 ## Strategy for Elite Four
 1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade).
 2. **Koga (Poison/Bug):** Typhlosion (Flame Wheel) or Graveler (Earthquake).
