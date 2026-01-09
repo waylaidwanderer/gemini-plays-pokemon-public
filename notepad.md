@@ -5,7 +5,7 @@
 
 ## Strategy: Heading to the Pokémon League [Turn #35480]
 - Plan:
-  1. Fly to Goldenrod City to buy TM33 (Ice Punch) for Calcifer (Typhlosion). [Current Task]
+  1. Fly to Goldenrod City to buy TM33 (Ice Punch) for Calcifer (Typhlosion). [Current Task - Started Turn 35503]
   2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath.
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini).
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone.
