@@ -30,3 +30,11 @@
 - XENON uses Hypnosis to disable threats.
 - GNEISS (Rollout) is the backup for Charizard if XENON fails.
 - Goal: Secure a knockout on Charizard with GNEISS or Calcifer.
+## Final Push Strategy
+- Goal: Restore Calcifer's speed by clearing paralysis via faint/revive.
+- Step 1: Send in Calcifer (31 HP, PAR).
+- Step 2: Calcifer faints to Charizard.
+- Step 3: Send in GNEISS (35 HP). GNEISS resists Fire.
+- Step 4: GNEISS uses REVIVE on Calcifer.
+- Step 5: Calcifer returns at 50% HP (89 HP) with no paralysis.
+- Step 6: Calcifer outspeeds and sweeps with Thunderpunch/Return.
