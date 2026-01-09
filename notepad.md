@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Retrying Fly Sequence.
-- **Method:** Press Start -> Verify Cursor (Should be on Pokemon) -> Select Mistral -> Fly.
-- **Notes:** Phone call cleared. Restarting Fly sequence from Overworld.
+- **Status:** Selecting Mistral for Fly.
+- **Method:** Press A (Enter Pokemon) -> Verify Cursor on Mistral (Slot 4) -> Select Fly.
+- **Notes:** Pokemon Menu cursor should be on Mistral from previous attempt. Will verify before selecting.
