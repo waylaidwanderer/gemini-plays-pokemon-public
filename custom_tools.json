@@ -1,14 +1,11 @@
 {
   "find_path_v2": {
-    "description": "Finds the shortest path between two coordinates, supporting land-to-water (Surf) transitions and ledge jumps. Returns a JSON array of buttons.",
+    "description": "Finds the shortest path between two coordinates, supporting land-to-water (Surf) transitions, ledge jumps, and whirlpool clearing. Returns a JSON array of buttons.",
     "input_schema": {
-      "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
+        "avoid_warps": {
+          "default": true,
+          "type": "boolean"
         },
         "end_x": {
           "type": "integer"
@@ -16,9 +13,11 @@
         "end_y": {
           "type": "integer"
         },
-        "avoid_warps": {
-          "type": "boolean",
-          "default": true
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
         }
       },
       "required": [
@@ -26,9 +25,10 @@
         "start_y",
         "end_x",
         "end_y"
-      ]
+      ],
+      "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.find('Object') is not None\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            tiles[(x, y)] = {'type': t_type, 'obj': has_obj, 'is_warp': is_warp}\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    avoid_warps = input_data.get('avoid_warps', True)\n    \n    start = (start_x, start_y)\n    goal = (end_x, end_y)\n    \n    start_tile = tiles.get(start)\n    if not start_tile:\n        print(\"[]\")\n        return\n    is_start_water = start_tile['type'] == 'WATER'\n    \n    queue = collections.deque([(start[0], start[1], is_start_water, [])])\n    visited = set([(start[0], start[1], is_start_water)])\n    \n    while queue:\n        x, y, surfing, path = queue.popleft()\n        \n        if (x, y) == goal:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target = tiles.get((nx, ny))\n                if not target:\n                    continue\n                \n                if avoid_warps and target['is_warp'] and (nx, ny) != goal:\n                    continue\n                \n                t_type = target['type']\n                is_water = t_type == 'WATER'\n                is_wall = t_type in ['WALL', 'BUOY', 'WHIRLPOOL', 'FLOOR_UP_WALL', 'HEADBUTT_TREE'] or target['obj']\n                is_ledge = t_type in ['LEDGE', 'LEDGE_HOP_DOWN']\n                \n                if not surfing:\n                    if is_wall:\n                        continue\n                    if is_ledge:\n                        if btn == 'Down':\n                            nnx, nny = nx, ny + 1\n                            if 0 <= nnx < width and 0 <= nny < height:\n                                l_target = tiles.get((nnx, nny))\n                                if l_target and l_target['type'] not in ['WALL', 'BUOY', 'WHIRLPOOL'] and not l_target['obj']:\n                                    new_p = path + [btn, 'sleep 500']\n                                    if (nnx, nny, False) not in visited:\n                                        visited.add((nnx, nny, False))\n                                        queue.append((nnx, nny, False, new_p))\n                        continue\n                    \n                    if is_water:\n                        new_p = path + [btn, 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n                else:\n                    if is_wall or is_ledge:\n                        continue\n                    if is_water:\n                        new_p = path + [btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n    print(\"[]\")\n\nsolve()",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\nimport json\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except:\n        print(\"[]\")\n        return\n\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.find('Object') is not None\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            tiles[(x, y)] = {'type': t_type, 'obj': has_obj, 'is_warp': is_warp}\n\n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    avoid_warps = input_data.get('avoid_warps', True)\n    \n    start = (start_x, start_y)\n    goal = (end_x, end_y)\n    \n    start_tile = tiles.get(start)\n    if not start_tile:\n        print(\"[]\")\n        return\n    is_start_water = start_tile['type'] in ['WATER', 'WHIRLPOOL']\n    \n    queue = collections.deque([(start[0], start[1], is_start_water, [])])\n    visited = set([(start[0], start[1], is_start_water)])\n    \n    while queue: \n        x, y, surfing, path = queue.popleft()\n        \n        if (x, y) == goal:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target = tiles.get((nx, ny))\n                if not target: continue\n                \n                if avoid_warps and target['is_warp'] and (nx, ny) != goal:\n                    continue\n                \n                t_type = target['type']\n                is_water = t_type == 'WATER'\n                is_whirlpool = t_type == 'WHIRLPOOL'\n                is_wall = t_type in ['WALL', 'BUOY', 'FLOOR_UP_WALL', 'HEADBUTT_TREE'] or target['obj']\n                is_ledge = t_type in ['LEDGE', 'LEDGE_HOP_DOWN']\n                \n                if not surfing:\n                    if is_wall: continue\n                    if is_ledge:\n                        if btn == 'Down':\n                            nnx, nny = nx, ny + 1\n                            if 0 <= nnx < width and 0 <= nny < height:\n                                l_target = tiles.get((nnx, nny))\n                                if l_target and l_target['type'] not in ['WALL', 'BUOY', 'WHIRLPOOL'] and not l_target['obj']:\n                                    new_p = path + [btn, 'sleep 500']\n                                    if (nnx, nny, False) not in visited:\n                                        visited.add((nnx, nny, False))\n                                        queue.append((nnx, nny, False, new_p))\n                        continue\n                    \n                    if is_water:\n                        new_p = path + [btn, 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    elif is_whirlpool:\n                        new_p = path + [btn, 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', btn, 'A', 'sleep 500', 'A', 'sleep 500', btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n                else:\n                    if is_wall or is_ledge: continue\n                    if is_water:\n                        new_p = path + [btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    elif is_whirlpool:\n                        new_p = path + [btn, 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', btn]\n                        if (nx, ny, True) not in visited:\n                            visited.add((nx, ny, True))\n                            queue.append((nx, ny, True, new_p))\n                    else:\n                        new_p = path + [btn]\n                        if (nx, ny, False) not in visited:\n                            visited.add((nx, ny, False))\n                            queue.append((nx, ny, False, new_p))\n    print(\"[]\")\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -154,6 +154,11 @@
         "commit_message": "Refined land-to-water transition in find_path_v2 to include movement button after dialogue.",
         "timestamp": "2026-01-09T03:12:21.889Z",
         "action_counter": 35651
+      },
+      {
+        "commit_message": "Refined whirlpool handling in find_path_v2 to treat WHIRLPOOL tiles as traversable with interaction sequence.",
+        "timestamp": "2026-01-09T03:40:30.503Z",
+        "action_counter": 35701
       }
     ]
   },
