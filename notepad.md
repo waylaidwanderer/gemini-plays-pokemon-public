@@ -39,3 +39,7 @@
   3. Surf east along Row 28 to column 13.
   4. Surf south to (13, 30) and land on the island at (14, 30).
   5. Walk east to the entrance at (19, 29).
+## Strategy: Dragon User Challenge (The Elders) [Turn 35406]
+- Current Status: Inside Dragon Shrine (3_82).
+- Task: Answer the questions from the Dragon Clan Elders.
+- Goal: Obtain approval to receive the Rising Badge.
