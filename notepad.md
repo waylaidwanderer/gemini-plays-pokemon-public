@@ -13,7 +13,8 @@
 - Turn 37150: Used Max Revive on GNEISS.
 - Turn 37155: GNEISS fainted to Dragonite #2's Blizzard.
 - Turn 37158: Attempted Revive on GNEISS (Mis-clicked LAPIS).
-- Turn 37160: Correcting mis-click, using Revive on GNEISS.
+- Turn 37160: Correcting mis-click.
+- Turn 37161: Using Revive on GNEISS.
 
 ## Strategy vs Champion Lance
 - Team: Gyarados, Dragonite x3, Aerodactyl, Charizard.
