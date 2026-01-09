@@ -19,7 +19,7 @@
 # Current Strategy
 ## Objectives
 - **Primary:** Complete Pokedex.
-- **Secondary:** Obtain TM08 (Rock Smash) from Route 36 NPC.
+- **Secondary:** Check PC for TM08 (Rock Smash). Not in bag/party.
 - **Tertiary:** Resume Roaming Beast Hunt.
 
 ## Exploration Queue
