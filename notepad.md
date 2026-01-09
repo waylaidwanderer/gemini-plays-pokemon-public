@@ -41,4 +41,4 @@
 - **Event:** Call finished.
 - **Current Goal:** Blind Hunt Loop (Cycle #88).
 - **Method:** Ecruteak <-> Route 37 Grass. Super Repel Active.
-- **Status:** Entering Ecruteak to reset spawns.
+- **Status:** Moving south to Route 37.
