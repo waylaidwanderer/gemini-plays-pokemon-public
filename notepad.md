@@ -34,8 +34,8 @@
 - **TM08 Rock Smash:** Obtained. Learned by Garnet (Quilava).
 
 ## Session Information
-- **Current Location:** Fly Map (Violet City).
+- **Current Location:** Lake of Rage.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Navigating Fly Map.
-- **Method:** Move cursor Down from Violet City to reach Goldenrod.
-- **Notes:** Successfully moved West from Mahogany to Violet. Now heading South.
+- **Status:** Clearing Phone Call / Retrying Fly.
+- **Method:** Clear Wade's call -> Fly -> Goldenrod.
+- **Notes:** Overshot Goldenrod on Fly map and landed at Lake of Rage. Wade called immediately. Clearing text.
