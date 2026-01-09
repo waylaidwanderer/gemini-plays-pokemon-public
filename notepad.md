@@ -5,8 +5,9 @@
 
 ## Strategy: Heading to the Pokémon League [Turn #35480]
 - Plan:
-  1. Teach TM33 (Ice Punch) to Calcifer (Typhlosion). [Started Turn 35531]
-  2. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
+  1. Pivot: Calcifer (Typhlosion) cannot learn Ice Punch. Need an alternative Ice-type solution. [Started Turn 35538]
+  2. Obtain gift Dratini from Dragon Clan Elder in Dragon Shrine (Dragon's Den). [Started Turn 35538]
+  3. Level XENON (Haunter) to 45+. Teach it TM24 DragonBreath. [Started Turn 35480]
   3. Replace ICARUS (Pidgey) and Ravioli (Krabby) with high-level members (e.g., Red Gyarados, gift Dratini). [Started Turn 35480]
   4. Evolve KIMCHI (Gloom) using a Sun or Leaf Stone. [Started Turn 35480]
   5. Surf east from New Bark Town to Route 27 and reach the Pokémon League via Victory Road. [Started Turn 35480]
