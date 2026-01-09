@@ -10,10 +10,10 @@
 
 ## Strategy for Lance (Champion)
 - Gyarados (Water/Flying): DEFEATED
-- Dragonite x3 (Dragon/Flying): Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake). *Priority: Teach Ice Punch (TM33) to Calcifer if possible.*
+- Dragonite x3 (Dragon/Flying): Use XENON (Hypnosis + Dream Eater) to neutralize and chip. Use Calcifer (Return/Thunderpunch) or Gneiss (Strength/Earthquake) for cleanup.
 - Aerodactyl (Rock/Flying): DEFEATED
 - Charizard (Fire/Flying): Use Gneiss (Earthquake/Rollout) or Calcifer (Thunderpunch).
-- Note: Use Revives strategically to restore HP to 50%. Aggressive play required.
+- Note: Use Revives strategically.
 
 ## Current Party Status
 1. Calcifer (Lv56): 31/178 HP (Paralyzed)
@@ -32,14 +32,11 @@
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
-- HM Sub-menu logic: HM moves appear at the top. ICARUS has FLY, making SWITCH the 3rd option (Down x2).
+- Dragonite (Ghost interaction): XENON is immune to Hyper Beam (Normal).
 - Party Sub-menu Order (Battle): SWITCH, STATS, CANCEL.
-- Party Sub-menu Order (Overworld): STATS, SWITCH, ITEM, CANCEL.
-
-### Menu Navigation
-- Main Menu Order: POKEDEX, POKEMON, PACK, GEAR, [PLAYER], SAVE, OPTION, EXIT.
 
 ## Battle with Lance (Cont.)
-- Turn 37514: Dragonite used Thunder (43 damage). Calcifer (31/178 HP, Paralyzed) used Return (minimal damage).
+- Turn 37514: Dragonite used Thunder. Calcifer (Paralyzed) used Return.
 - Turn 37518: Switched to XENON. Dragonite used Hyper Beam (No effect).
-- Turn 37519: Move menu open. Cursor on HYPNOSIS.
+- Turn 37520: XENON used Hypnosis. Dragonite fell asleep.
+- Turn 37521: Planning Dream Eater.
