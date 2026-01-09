@@ -6,7 +6,6 @@
 - **Activity:** Hunting Raikou & Entei via Ecruteak/Rt 37 Loop. (Started Turn 28662)
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
-- **Recent Event:** Phone call from Cooltrainer Gaven.
 
 # Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
