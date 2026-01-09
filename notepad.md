@@ -1,23 +1,30 @@
-# Johto Elite Four Challenge - FINAL BATTLE
-- Victories: Will, Koga, Bruno, Karen
+# Johto Elite Four Challenge - RESTART REQUIRED
+- Status: Whited out against Champion Lance (Turn 37226).
+- Progress: Must re-defeat Will, Koga, Bruno, and Karen.
 
-## Champion Lance Final Stand
-- Opponent: Champion Lance (Final Boss)
-- Active: Dragonite #3 (Lv50). Moves: Outrage (Special).
-- Status: Locked into Outrage. ~75% HP.
-- Team Status: Calcifer (Lv54, 85/171 HP) active. All others fainted.
-- Resources: 2 Revives. 0 Potions/Restores. (Verified Turn 37225).
+## Strategy for Elite Four
+1. **Will (Psychic):** Typhlosion (Return/Flame Wheel) or Haunter (Night Shade).
+2. **Koga (Poison/Bug):** Typhlosion (Flame Wheel) or Graveler (Earthquake).
+3. **Bruno (Fighting/Rock):** Haunter (Night Shade/Dream Eater) or Graveler (Earthquake).
+4. **Karen (Dark):** Typhlosion (Flame Wheel/Return) or Graveler (Earthquake).
 
-## Strategy: The Final Push
-- Calcifer is faster (140 Speed) and has high Sp.Def (120).
-- Move: THUNDERPUNCH (2x Super Effective).
-- Target: Land enough hits to secure victory.
+## Strategy for Champion Lance (The Wall)
+- **Problem:** Dragonites are bulky and hit hard with Outrage/Hyper Beam.
+- **Solution:** ICE PUNCH (4x Super Effective).
+- **Action:** Teach TM33 ICE PUNCH to Typhlosion (Calcifer) or Haunter (Xenon).
+- **Action:** Purchase Full Restores/Max Potions and Revives at Indigo Plateau Mart.
 
-## Persistence Knowledge
+## Team Status & Preparation
+- Calcifer (Typhlosion, Lv54): Lead attacker. Needs Ice Punch.
+- Gneiss (Graveler, Lv50): Physical tank, good for Aerodactyl/Charizard.
+- Xenon (Haunter, Lv40): Needs more levels/utility.
+- Resources: ¥12660. 2 Revives. 0 Potions.
+
+## persistence Knowledge
 ### Type Effectiveness
+- Ice > Dragon/Flying/Grass/Ground (2x or 4x).
 - Rock > Flying/Fire/Ice/Bug (2x).
 - Electric > Water/Flying (2x).
-- Dragon > Dragon (2x).
 - Ghost: Immune to Normal/Fighting.
 
 ### Tile Mechanics
