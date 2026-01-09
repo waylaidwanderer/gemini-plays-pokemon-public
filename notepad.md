@@ -39,6 +39,6 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application. Dismissed.
-- **Status:** Route 37 (8, 2).
-- **Action:** Retrying exit North to Ecruteak (interrupted by call).
+- **Status:** In Ecruteak City (18, 35).
+- **Action:** Cycle #16 start. Re-entering Route 37.
 - **Note:** Super Repel Active. Cycle #15 yielded no encounter.
