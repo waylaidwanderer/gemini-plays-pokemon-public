@@ -1,5 +1,5 @@
 # Current Status
-- **Location:** Heading to Route 37 from Ecruteak. Restarting loop.
+- **Location:** Route 37 (8, 0). Executing grass hunt sequence.
 - **Activity:** Hunting Raikou & Entei.
 - **Party:** Gyarados (Lv 36) Lead for Repel Trick. Lugia in party.
 - **Active Effect:** Max Repel (Active).
