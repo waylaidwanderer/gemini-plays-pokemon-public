@@ -39,7 +39,7 @@
 - **Status:** Super Repel Active.
 - **Action:** Exiting menus to resume hunt loop.
 - **Event:** Gaven called immediately after Repel application (Cycle 20).
-- **Current Cycle:** #43. Re-entering Route 37.
+- **Current Cycle:** #43. Hunting in grass.
 - **Note:** Super Repel Active. Cycles #20-42 yielded no encounter.
 - **Strategy Update:** If no encounter by Cycle #50, check Pokedex Area to verify Beast movement.
 - **Timestamp:** Turn 30219 (Hunt Resume).
