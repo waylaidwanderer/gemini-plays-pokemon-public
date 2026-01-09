@@ -54,5 +54,5 @@
 - **Hitmonchan:** Fighting. Weak to Psychic/Flying. Watch for Elemental Punches (Fire/Ice/Thunder).
 - **Onix:** Rock/Ground. 4x weak to Water/Grass. 2x weak to Ground (Earthquake).
 - **Machamp:** Fighting. Weak to Psychic/Flying. High physical power.
-- **Strategy:** Xenon is primary for Fighting types unless coverage moves are predicted. Gneiss for Onix.
+- **Strategy:** Xenon is primary for Fighting types unless coverage moves (like Dig) are predicted. Gneiss for Onix.
 - **Observation:** Hitmonlee uses Foresight to bypass Ghost immunity. Night Shade deals consistent damage.
