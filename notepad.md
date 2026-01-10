@@ -24,11 +24,14 @@
 - LAPIS (POLIWAG): Lv12 | SURF, WHIRLPOOL, WATERFALL
 - ICARUS (PIDGEOTTO): Lv19 | FLY
 
-## Power Plant Investigation
-- **Start Turn:** 39084
-- **Return to Power Plant Phase Start:** 39630
-- **Status:** Handing over Machine Part to Manager at (14, 10).
+## Magnet Train Restoration
+- **Start Turn:** 39646
+- **Status:** Power Plant restored. TM07 received.
 - **Plan:**
-  1. Finish dialogue with Manager to return Machine Part.
-  2. Obtain reward (if any) and confirm Power Plant is restored.
-  3. Head to Saffron City to check on the Magnet Train.
+  1. Exit Power Plant and Fly to Saffron City using ICARUS.
+  2. Visit the Magnet Train station at (24, 11) in Saffron City to check service status.
+  3. Locate Copycat's lost Poké Doll (hinted by NPCs in Saffron).
+  4. Obtain the Rail Pass to enable travel between Kanto and Johto.
+
+## Power Plant Investigation (Resolved)
+- Machine Part returned to Manager. Power restored to Kanto.
