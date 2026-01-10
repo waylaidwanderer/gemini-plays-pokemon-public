@@ -13,12 +13,26 @@
 - ICE: Sliding movement.
 - HOLE: Triggers fall to lower floor.
 
+### Tile Mechanics (S.S. Aqua)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_CARPET: Traversable.
+- LADDER: Traversable.
+
+### S.S. Aqua Discoveries
+- My cabin is at (15, 8) on map 15_3. Nap in the bed to heal Pokemon.
+- Explore all cabins to find the missing girl.
+- Gentleman at (25, 6) in FastShip 1F is looking for his granddaughter.
+- Sailor at (14, 7) in FastShip 1F guards/points to the player's cabin.
+- Fisher at (1, 15) in FastShipCabins_SW_SSW_NW is a trainer (Firebreather Lyle).
+
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
 - Dragonite/Charizard (Ghost interaction): XENON is immune to Normal moves (Hyper Beam/Slash).
 - Safeguard: Prevents status conditions and confusion from Outrage.
 - Outrage: User is locked for 2-3 turns.
 - Status Management: Paralysis reduces speed by 75%.
+- S.S. Aqua: Granddaughter lead - check all cabins and hallways.
 
 ## Post-Game Strategy
 - Start Turn: 37664 (Return to New Bark Town).
@@ -27,18 +41,11 @@
 - Strategy: Use Fly to Olivine, enter the Port Passage south of the city, and follow the path to the S.S. Aqua.
 
 ## Kanto Gym Leaders
-- Brock (Pewter City): Unknown.
-- Misty (Cerulean City): Unknown.
-- Lt. Surge (Vermilion City): Unknown.
-- Erika (Celadon City): Unknown.
-- Janine (Fuchsia City): Unknown.
-- Sabrina (Saffron City): Unknown.
-- Blaine (Cinnabar Island): Unknown.
-- Blue (Viridian City): Unknown.
-- Quest: Find the Gentleman's missing granddaughter on the S.S. Aqua.
-- Lead: Gentleman at (25, 6) in FastShip1F.
-- S.S. Aqua: My cabin is at (15, 8). Nap in the bed to heal Pokemon.
-- S.S. Aqua: Gentleman at (25, 6) is looking for his granddaughter.
-- S.S. Aqua: Sailor at (14, 7) guards/points to the player's cabin.
-- S.S. Aqua (FastShipCabins_SW_SSW_NW): Fisher at (1, 15) mentions fire-breathing shows in Kanto.
-- S.S. Aqua: Explore all cabins to find the missing girl.
+- Brock (Pewter City): Rock-type. Recommended level: 40-45.
+- Misty (Cerulean City): Water-type. Recommended level: 42-47.
+- Lt. Surge (Vermilion City): Electric-type. Recommended level: 44-49.
+- Erika (Celadon City): Grass-type. Recommended level: 46-51.
+- Janine (Fuchsia City): Poison-type. Recommended level: 48-53.
+- Sabrina (Saffron City): Psychic-type. Recommended level: 50-55.
+- Blaine (Cinnabar Island): Fire-type. Recommended level: 52-57.
+- Blue (Viridian City): Multi-type. Recommended level: 55-60.
