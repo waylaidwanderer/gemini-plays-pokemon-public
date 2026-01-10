@@ -55,4 +55,4 @@
 - (1,C) [Bottom-Left]:
   - (1, 15) [TL] | (5, 15) [TR] -> (3,C) (15, 17)
   - (1, 17) [BL] | (5, 17) [BR]
-  - Trainer: Youngster (3, 16)
+  - Trainer: Psychic Franklin (3, 16)
