@@ -37,14 +37,15 @@
   2. BR Room: Warp at (15, 15). Arrive at (19, 3) [TR].
   3. TR Room: Warp at (15, 5). Arrive at (1, 3) [TL].
   4. TL Room: Warp at (1, 5). Arrive at (11, 9) [MC - Sabrina].
-- **Strategy:** Lead with Typhlosion (Calcifer) to sweep Psychic-types. Avoid using Haunter (Xenon) or Gloom (Kimchi).
+- **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58. Avoid using Haunter or Gloom.
 - **Hypothesis:** Bottom-Left rule (taking the bottom-left panel in each room) works.
-- **Test Result:** (1, 3) -> (1, 5) is the final leg to Sabrina.
+- **Test Result:** Verified shortest path via BFS and manual traversal.
 
 ## Lessons Learned
 - **Menu Persistence:** Automated menu tools can fail if the cursor or menu state is not what's expected. Manual sequences with `press_menu_buttons_v2` are more reliable for complex tasks like swapping.
 - **Warp Maze Logic:** BFS scripts on Map Events data are highly effective for solving warp puzzles.
 - **Pathing:** Always verify traversability through observation.
+
 ## Saffron Gym Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
 - BR (15, 15) <-> TR (19, 3)
@@ -57,3 +58,7 @@
 - ML (5, 11) <-> BL (5, 17)
 - ML (1, 9) <-> MR (1, 9)
 - ML (5, 9) <-> TC (5, 9)
+
+## Unverified NPCs
+- NPC at (3, 4) [TL Room]: Suspected Medium Doris.
+- NPC at (17, 4) [TR Room]: Suspected Psychic Jared.
