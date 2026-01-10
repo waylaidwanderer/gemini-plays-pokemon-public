@@ -6,9 +6,11 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Impassable Wall from the North; cannot be jumped down from this side.
+- FLOOR_UP_WALL (Hypothesis): Impassable Wall from the North; cannot be jumped down from this side.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
+- STAIRCASE: Warp tile that transitions between floors.
+- BOOKSHELF: Impassable Wall.
 
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
@@ -38,7 +40,7 @@
 - **Plan:**
   1. Go to 2F of Copycat's House via stairs at (2, 0).
   2. Talk to Copycat to learn about her lost Poké Doll.
-  3. Locate Copycat's lost Poké Doll (Vermilion Fan Club).
+  3. Locate Copycat's lost Poké Doll.
   4. Obtain the Rail Pass from Copycat.
 
 ## Power Plant Investigation (Resolved)
@@ -50,7 +52,7 @@
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
 - **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
 - **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
+
 ## Long-Term Strategy (Advisor Tips)
 - Defeat all 8 Kanto Gym Leaders to unlock Mt. Silver.
 - Train ICARUS, LAPIS, and KIMCHI to close the level gap.
-- Visit Lavender Radio Tower for the EXPN Card (to wake Snorlax on Route 11).
