@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Start Menu.
-- **Method:** Press Start -> Verify Cursor -> Select Pokemon -> Mistral -> Fly.
-- **Notes:** Previous Fly attempt from Olivine resulted in New Bark Town (likely cursor wrapped or inputs ignored). Retrying with manual `slow_press` steps for precision.
+- **Status:** Entering Pokemon Menu.
+- **Method:** Press A (Select Pokemon) -> Verify Cursor Position (Mistral is Slot 4).
+- **Notes:** Start Menu cursor confirmed on POKEMON. Entering menu to select Flyer.
