@@ -29,6 +29,6 @@
 - **Method:** 2-Turn Cycle.
 - **Cycle A:** Move Down to Route 37.
 - **Cycle B:** Hunt in grass & Return to Ecruteak.
-- **Notes:** Repel assumed active (no trash encounters).
-- **Time:** Start ~Turn 30680. Current 30866.
-- **Next Step:** Execute Cycle B.
+- **Notes:** Completed Cycle B (Down to grass, wiggle, Up to Ecruteak).
+- **Time:** Start ~Turn 30680. Current 30867.
+- **Next Step:** If in Ecruteak, start Cycle A. If battle, handle it.
