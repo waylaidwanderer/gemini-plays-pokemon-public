@@ -10,16 +10,11 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
-- Clues: Granddaughter is missing; sailor (ID 2) on B1F was looking for his buddy.
-- Progress: Defeated Sailor Stanly (the lazy buddy) in cabin 15_4. Talked to the sailor on B1F (31, 6). He acknowledged the girl went by.
-- Strategy: The path north is now clear. Explore the western part of B1F to find the Captain's cabin. The granddaughter should be there.
-- Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
-- Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31) (Defeated).
-- Battle Log: Turn 38026 - Calcifer (Lv 57) vs Stanly's Machoke (Lv 33) (Defeated).
-- Battle Log: Turn 38028 - Calcifer (Lv 58) vs Stanly's Psyduck (Lv 26) (Defeated).
+- Clues: Granddaughter is missing; sailor on B1F looking for buddy.
+- Strategy: Explore western B1F to find the Captain's cabin. The granddaughter should be there.
+- Lesson: Corridors blocked by NPCs (like sailors) often require finding a trigger NPC (like a "buddy" goofing off) to clear the path.
 
 ## Kanto Strategy
-- Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City).
 - MVP: GNEISS (Graveler) Lv 51. Ground-type immunity to Electric.
 
