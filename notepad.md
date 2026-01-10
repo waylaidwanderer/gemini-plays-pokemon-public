@@ -9,14 +9,16 @@
 - FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 
-## Battle Mechanics (Hypotheses)
-- Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
+## Battle Mechanics (Verified)
+- Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
+- Night Shade: Deals fixed damage equal to the user's level.
+- Type Effectiveness: Bite (Dark) is super-effective against XENON (Ghost/Poison).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
   - Strategy: Retrieve the stolen Machine Part to restore power.
-  - Plan: Find Mr. Fuji (Lavender) -> Route 10 -> Power Plant -> Cerulean City (Find thief) -> Cerulean Gym (Retrieve Machine Part).
+  - Plan: Search Route 24 (North) for the Rocket Grunt -> Defeat Grunt -> Search Cerulean Gym water for Machine Part -> Return Part to Power Plant.
 
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
@@ -29,27 +31,20 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Strategy:** Follow the Rocket Grunt who fled Cerulean Gym to recover the Machine Part. Suspected to be on Route 24. After defeating him, search the Cerulean Gym water for the part.
+- **Clues:** Machine Part stolen. Shady character (Rocket Grunt) fled Cerulean Gym to Route 24.
+- **Investigator Analysis:** Grunt is likely hiding on the bridge. Defeating him reveals the part's location.
 
-## Cerulean City Exploration
-- **Start Turn:** 39337
-- **Strategy:** To bypass the Row 21 ledges, use the gap at (33, 23) on the east side of the Gym. Then move North to (27, 9) to exit the city toward Route 24.
-
-## Route 24 Exploration
-- **Start Turn:** 39378
-- **Battle Strategy: Rocket Grunt**
-  - Opponent: Golbat (Lv30).
-  - Strategy: Use Night Shade (43 fixed damage). This should be a 2-3 hit KO.
-  - Backup: Switch to Calcifer if XENON's HP gets too low.
+## Battle Strategy: Rocket Grunt
+- Opponent: Golbat (Lv30).
+- Current Plan: Use Night Shade (43 fixed damage). 2HKO expected.
+- Backup: Calcifer (Lv58 Typhlosion) with Thunderpunch.
 
 ## Route 9 Exploration (Completed)
-- Start Turn: 39167
-- End Turn: 39336
-- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated. Area fully explored.
+- Summary: Fully explored. Cut tree at (5, 8) cleared.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
-- FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
+- Don't confuse miss messages with type immunities in Gen 2.
