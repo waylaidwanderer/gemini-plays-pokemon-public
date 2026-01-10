@@ -49,7 +49,7 @@
 - Battle Log:
   - Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
   - Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
-  - Medium Doris: (3, 4) in (1,A). Slowpoke (Lv 34), Slowbro (Lv 36).
+  - Medium Doris (Defeated): (3, 4) in (1,A). Slowpoke (Lv 34), Slowbro (Lv 36).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
