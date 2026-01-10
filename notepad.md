@@ -25,3 +25,13 @@
 - Objective: Travel to Olivine City to board the S.S. Aqua to Kanto.
 - Objective: Collect the 8 Kanto Badges.
 - Strategy: Use Fly to Olivine, enter the Port Passage south of the city, and follow the path to the S.S. Aqua.
+
+## Kanto Gym Leaders
+- Brock (Pewter City): Unknown.
+- Misty (Cerulean City): Unknown.
+- Lt. Surge (Vermilion City): Unknown.
+- Erika (Celadon City): Unknown.
+- Janine (Fuchsia City): Unknown.
+- Sabrina (Saffron City): Unknown.
+- Blaine (Cinnabar Island): Unknown.
+- Blue (Viridian City): Unknown.
