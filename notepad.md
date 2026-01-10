@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South). Verified at (41, 13).
-- FLOOR_UP_WALL: One-way ledge (North to South). Wall from South to North.
+- FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped). Verified at (20, 16) and (11, 16).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
 
