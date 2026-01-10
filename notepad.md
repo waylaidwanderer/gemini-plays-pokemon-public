@@ -38,9 +38,7 @@
   - (3, 3) <-> 1F (27, 13).
   - (17, 9) <-> 1F (15, 9).
   - (23, 3) <-> 1F (5, 3).
-  - Turn 38977: Navigating Rock Tunnel B1F. Current pos (16, 18).
+  - Turn 38984: Navigating Rock Tunnel B1F. Current pos (16, 24).
 - Observed Pokemon (Kanto):
   - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
-  - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16).
-- Observed Pokemon (Kanto):
-  - Rock Tunnel B1F: Onix (Lv16) at (16, 18).
+  - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16) at (24, 16) and (16, 18).
