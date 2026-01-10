@@ -41,3 +41,8 @@
 ## Hypotheses & Item Tracking
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
+## Saffron City Notes
+- Route 5 Saffron Gatehouse (25_14):
+  - South exit leads to Saffron City (18, 3).
+  - Officer at (0, 4).
+  - Northern exit leads to Route 5.
