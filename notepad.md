@@ -19,6 +19,6 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Entering Pokemon Menu.
+- **Status:** Selecting Mistral for Fly.
 - **Resources:** Low money (¥1772). Check Elm for Master Ball.
 - **Tool Note:** `navigate_menu` unreliable (double inputs). Using `press_buttons`.
