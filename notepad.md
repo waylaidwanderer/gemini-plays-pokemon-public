@@ -60,3 +60,6 @@
   - Warp at (2, 7) and (3, 7) leads to Saffron City (9, 11).
   - NPCs: Pokefan M (2, 3), Pokefan F (5, 4), Clefairy Sprite (6, 6).
   - Upstairs likely contains Copycat.
+## Saffron City Notes
+- Copycat's House 1F (ID: 25_11):
+  - Pokefan F (ID 2) at (5, 4): "My daughter is so self-centered… She only has a few friends."
