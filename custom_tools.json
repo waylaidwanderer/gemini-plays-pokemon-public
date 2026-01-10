@@ -89,7 +89,7 @@
     ]
   },
   "navigate_menu": {
-    "description": "Navigates menus with delays between inputs. Supports holding buttons (via repetition) and intervals.",
+    "description": "Navigates menus with delays between inputs. Supports holding buttons (via repetition) and intervals. Default hold_ms is 50ms (safe for menus).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -109,20 +109,20 @@
             ]
           }
         },
+        "hold_ms": {
+          "type": "integer",
+          "default": 50
+        },
         "interval_ms": {
           "type": "integer",
           "default": 300
-        },
-        "hold_ms": {
-          "type": "integer",
-          "default": 250
         }
       },
       "required": [
         "directions"
       ]
     },
-    "python_script": "import json\n\ntry:\n    directions = input_data.get('directions', [])\n    interval_ms = input_data.get('interval_ms', 300)\n    hold_ms = input_data.get('hold_ms', 250)\n    \n    # Calculate repeats for hold (approx 16ms per frame @ 60fps)\n    # Ensure at least 1 press\n    repeats = max(1, int(hold_ms / 16))\n    \n    sequence = []\n    for d in directions:\n        # Append the button 'repeats' times to simulate holding\n        for _ in range(repeats):\n            sequence.append(d)\n        \n        if interval_ms > 0:\n            sequence.append(f\"sleep {interval_ms}\")\n            \n    print(json.dumps(sequence))\nexcept Exception as e:\n    # Fallback to empty list in case of error\n    print(\"[]\")",
+    "python_script": "import json\n\ndirections = input_data.get('directions', [])\n# Default hold_ms to 50ms (approx 3 frames) for safer menu navigation\nhold_ms = int(input_data.get('hold_ms', 50)) \ninterval_ms = int(input_data.get('interval_ms', 300))\n\nbuttons = []\nframe_duration = 16.7 # ms per frame approx at 60fps\n\n# Calculate number of frames to hold the button\n# Ensure at least 1 frame press\npresses = max(1, int(hold_ms / frame_duration))\n\nvalid_buttons = [\"Up\", \"Down\", \"Left\", \"Right\", \"A\", \"B\", \"Start\", \"Select\"]\n\nfor d in directions:\n    if d in valid_buttons:\n        for _ in range(presses):\n            buttons.append(d)\n        if interval_ms > 0:\n            buttons.append(f\"sleep {interval_ms}\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
@@ -158,6 +158,11 @@
         "commit_message": "Updating navigate_menu to support 'hold_ms' by repeating button inputs, simulating a button hold for navigating granular maps like the Fly map.",
         "timestamp": "2026-01-09T17:37:44.389Z",
         "action_counter": 30073
+      },
+      {
+        "commit_message": "Updated default hold_ms to 50ms (approx 3 frames) to prevent overshooting in menus. Added explicit logic to calculate frames based on 60fps.",
+        "timestamp": "2026-01-10T11:55:08.297Z",
+        "action_counter": 31501
       }
     ]
   },
