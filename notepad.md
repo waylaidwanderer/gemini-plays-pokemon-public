@@ -24,7 +24,7 @@
   - Route 5 Saffron Gatehouse: (18, 3). Leads to Route 5.
   - Copycat's House: (9, 11).
   - Fighting Dojo: (26, 3) (Sign at 25, 5).
-  - Gym area: North-east quadrant. "GYM" header visible near (24, 2).
+  - Saffron Gym: (34, 3) (Sign at 33, 5). Sabrina is the Leader.
 - Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
 ## PC Storage (Box 1)
