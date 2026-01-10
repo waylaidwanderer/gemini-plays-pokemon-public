@@ -6,7 +6,7 @@
 
 ## Celadon Search Log
 - **Goal:** Buy 10 Super Repels.
-- **2F:** Trainer's Market (Balls/Meds). Missed Repels?
+- **2F:** Trainer's Market (Balls/Meds). No Repels found.
 - **3F:** TM Shop.
 - **4F:** Checking now...
 - **Financials:** ¥6772.
