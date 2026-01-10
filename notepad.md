@@ -23,8 +23,11 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 4F.
-- **Status:** Interacting with 4F Clerk.
-- **Action:** Pressing A to speak.
-- **Hypothesis:** 4F Clerk (Medicine) should stock Super Repels and High-Tier Potions.
+- **Status:** Checking 4F Clerk Inventory.
+- **Action:** Pressing A to enter BUY menu.
+- **Hypothesis:** 4F Clerk (Medicine) likely stocks Proteins/Vitamins or High-Tier Medicine.
 - **Financials:** ¥6772.
-- **Backup Plan:** If no Super Repels, check 5F or Fly to Blackthorn.
+- **Plan:**
+  1. Check for Super Repel.
+  2. If found -> Buy 10.
+  3. If not -> Check 5F or Fly to Blackthorn.
