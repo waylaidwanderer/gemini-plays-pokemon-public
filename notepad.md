@@ -25,10 +25,10 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle B).
+- **Status:** Manual Hunt (Cycle A).
 - **Method:** 2-Turn Cycle.
 - **Cycle A:** Move Down to Route 37.
 - **Cycle B:** Hunt in grass & Return to Ecruteak.
-- **Notes:** Executing Cycle B. Sequence: Down x2 (Grass), Left/Right x2 (Hunt), Up x3 (Return).
-- **Time:** Start ~Turn 30680. Current 30869.
-- **Next Step:** Check for encounter. If none, restart Cycle A.
+- **Notes:** Facing Up. Pressing Down x2 to Turn and Enter Route 37.
+- **Time:** Start ~Turn 30680. Current 30870.
+- **Next Step:** Execute Cycle B (Hunt & Return).
