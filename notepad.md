@@ -1,35 +1,26 @@
 # Long Term Notes
 ## Lessons Learned
 - **Tool Insight:** `navigate_menu` requires `hold_ms >= 300` for Fly Map movement.
-- **Menu Safety:** Start Menu cursor remembers previous position (e.g., PACK). Always verify cursor before pressing A.
-- **Efficiency:** Super Repels (2.5 ¥/step) > Max Repels (2.8 ¥/step).
-- **Fly Map:** Vertical movement is safer.
-- **Interruptions:** Phone calls can interrupt movement patterns; always check screen text and confirm position after clearing.
-- **Map Transitions:** Input queue often clears on map change. Avoid tools that cross map boundaries; handle warps manually.
-- **Tool Safety:** Always verify exact start coordinates before calling blind movement tools (e.g., `rt37_hunt_return` requires Rt 37 (8,0)).
+- **Menu Safety:** Start Menu cursor remembers previous position. Verify before pressing A.
+- **Efficiency:** Super Repels > Max Repels.
+- **Interruptions:** Check screen text after phone calls.
+- **Tool Safety:** Verify start coordinates before blind movement.
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
 - **Method:** Blind Hunt Loop (Route 37 <-> Ecruteak).
 - **Tactics:** Rt 37 Grass -> Wiggle -> Return -> Repeat.
-- **Mechanic:** Repel blocks wild Pokemon (Lv15) but allows Roamers (Lv40).
-
-## Tile Mechanics
-- GRASS: Traversable, encounters.
-- FLOOR/DOOR/STAIRS: Traversable.
-- WALL/OBSTACLES: Impassable.
-- WATER: Surfable.
 
 # Current Strategy
 ## Objectives
 - **Primary:** Complete Pokedex.
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
-- **Navigation:** Route 35 Gatehouse -> Goldenrod.
+- **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
-## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31645)
-- **Status:** Selecting Revives to Sell.
-- **Goal:** Sell 5 Revives.
-- **Action:** Navigating Menu: Down (Ice Berry) -> Down (Revive) -> A (Select).
-- **Inventory:** Revive x7. Target sell amount: 5.
-- **Next:** Set quantity to 5 -> Confirm -> Exit to Buy Menu.
+## Transaction State
+- **Session Start:** Turn 31655
+- **Status:** Resupply Run (Menu Correction).
+- **Goal:** Sell 5 Revives -> Buy Super Repels.
+- **Current State:** Accidentally in BUY menu (Poke Ball).
+- **Action:** Backing out (B x2) to return to main selection.
+- **Next:** Select SELL -> Sell Revives.
