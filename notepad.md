@@ -19,10 +19,11 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Fly Menu Open (Retry).
-- **Action:** Press `A` again to select 'FLY' (Previous attempt didn't register).
-- **Next:** Navigate Fly Map (Left x2 -> Violet, then to Goldenrod).
-- **Goal:** Goldenrod City (Sell Nuggets, Buy Balls).
+- **Status:** Navigating Fly Map (New Bark -> West).
+- **Action:** Press `Left` x2.
+- **Expectation:** Cursor moves to Cherrygrove -> Violet.
+- **Next:** Find Goldenrod -> Confirm Fly.
+- **Goal:** Sell Nuggets in Goldenrod.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
 - **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
 - **Lesson:** Always mark NPCs immediately. Missing 'Mom' caused a path interruption.
