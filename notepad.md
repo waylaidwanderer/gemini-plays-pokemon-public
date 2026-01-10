@@ -29,13 +29,15 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration
-- **Status:** Recovered Copycat's Poké Doll (LOST ITEM) from the Pokémon Fan Club in Vermilion City.
-- **Strategy:**
-  1. Exit Vermilion City to the North (Route 6).
-  2. Travel North through Route 6 to Saffron City.
-  3. Return the Poké Doll to Copycat on 2F of her house (9, 11) in Saffron.
-  4. Obtain the Rail Pass.
+## Magnet Train Restoration (Turn 39763)
+- **Status:** Obtained the PASS from Copycat after returning her POKé DOLL. Power is already restored to the Power Plant.
+- **Next Step:** Head to the Magnet Train Station in Saffron City (8, 3) to test the service.
+
+## Strategy for Magnet Train Restoration (Turn 39763)
+- **Goal:** Use the Magnet Train.
+- **Location:** Magnet Train Station is at (8, 3) in Saffron City.
+- **Current Status:** Standing on 1F of Copycat's house after descending from 2F.
+- **Next Step:** Exit Copycat's house via (2, 7) and navigate to (8, 3) in Saffron City.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
