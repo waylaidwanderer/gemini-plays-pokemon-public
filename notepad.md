@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31608)
-- **Status:** Traversing Route 36 (Gatehouse Entrance).
+- **Session Start:** Turn 30996 (Current: 31609)
+- **Status:** Traversing Route 36 (Gatehouse Trouble).
 - **Goal:** Enter Route 35 Gatehouse.
-- **Action:** Troubleshooting Warp. Moving to (18, 9).
-- **Technique:** Down -> Right -> Left to trigger the lower warp tile.
-- **Note:** Warp at (18, 8) failed to trigger on step-on. Testing (18, 9).
+- **Action:** Forcing entry (Left x4).
+- **Contingency:** If warp fails, use Cut path at (17, 17) to bypass.
+- **Note:** Standard entry failed twice. Warps at (18,8)/(18,9) unresponsive.
