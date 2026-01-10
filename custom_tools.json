@@ -206,12 +206,12 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    buttons = []\n    # Down -> Enter Route 37 (8,0)\n    # Down -> (8,1)\n    # Down -> (8,2) Grass\n    buttons.extend([\"Down\", \"Down\", \"Down\"])\n    \n    for _ in range(wiggles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    # Return to Ecruteak\n    # Up -> (8,1)\n    # Up -> (8,0)\n    # Up -> Enter Ecruteak (18,35)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    # Manual JSON formatting to ensure valid output without imports\n    output = '[\"' + '\", \"'.join(buttons) + '\"]'\n    print(output)",
+    "python_script": "import json\n\ndef run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    buttons = []\n    # Down -> Enter Route 37 (8,0)\n    # Down -> (8,1)\n    # Down -> (8,2) Grass\n    buttons.extend([\"Down\", \"Down\", \"Down\"])\n    \n    for _ in range(wiggles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    # Return to Ecruteak\n    # Up -> (8,1)\n    # Up -> (8,0)\n    # Up -> Enter Ecruteak (18,35)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T04:34:29.419Z",
-        "action_counter": 30850
+        "timestamp": "2026-01-10T04:35:34.113Z",
+        "action_counter": 30852
       }
     ]
   }

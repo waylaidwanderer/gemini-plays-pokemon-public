@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting (Tool Test).
+- **Status:** Manual Hunt & Tool Fix 2.0.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Testing redefined `hunt_cycle_ecruteak_rt37`.
-- **Time:** Start ~Turn 30680. Current 30851.
-- **Next Step:** If successful, continue loop. If encounter, capture/check.
+- **Notes:** Tool failed with JSON error. Redefining with `import json`. Executing manual loop this turn to keep hunting.
+- **Time:** Start ~Turn 30680. Current 30852.
+- **Next Step:** Verify tool next turn.
