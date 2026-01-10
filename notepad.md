@@ -22,32 +22,31 @@
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
 
-## Rock Tunnel Navigation
-- Connections: 1F (27, 13) <-> B1F (3, 3); 1F (15, 9) <-> B1F (17, 9); 1F (5, 3) <-> B1F (23, 3); 1F (27, 3) <-> B1F (25, 23).
-
-## Power Plant Investigation
-- **Start Turn:** 39084
-- **Status:** Talked to Manager and Officer. A shady character was seen loitering in Cerulean City.
-- **Next Step:** Head to Cerulean City to find the thief.
-
 ## Movesets (HM Users)
 - KIMCHI (GLOOM): CUT, FLASH
 - GNEISS (GRAVELER): STRENGTH
 - LAPIS (POLIWAG): SURF, WHIRLPOOL, WATERFALL
 - ICARUS (PIDGEOTTO): FLY
 
-## Route 9 Exploration
+## Rock Tunnel Navigation
+- Connections: 1F (27, 13) <-> B1F (3, 3); 1F (15, 9) <-> B1F (17, 9); 1F (5, 3) <-> B1F (23, 3); 1F (27, 3) <-> B1F (25, 23).
+
+## Power Plant Investigation
+- **Start Turn:** 39084
+- **Status:** Arrived in Cerulean City. Shady character reported here.
+- **Next Step:** Find the thief in Cerulean City.
+
+## Cerulean City Exploration
+- **Start Turn:** 39337
+- **Goal:** Find the thief and the Machine Part.
+- **Status:** Just arrived. Exploring the city.
+- **Key Locations:**
+  - Entrance from Route 9: (39, 22)
+
+## Route 9 Exploration (Completed)
 - Start Turn: 39167
-- Goal: Find path to Cerulean City (West).
-- Status:
-  - Picnicker Heidi (41, 8): Defeated.
-  - Hiker Sidney (39, 15): Defeated.
-  - Camper Dean (19, 11): Defeated.
-  - Picnicker Edna (12, 15): Defeated.
-  - Camper Sid (13, 4): Defeated.
-- Observation: Southern and middle lanes are blocked by walls/ledges. Reach the northern lane (Row 4) by using CUT on the tree at (5, 8). 
-- Strategy: From (6, 8), face West and use CUT. Move to (4, 8), then North to Row 4. Head West to Cerulean City.
-- Time Tracking: Started Route 9 Exploration at Turn 39167.
+- End Turn: 39336
+- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated. Area fully explored.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
