@@ -7,9 +7,9 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Running Hunt Cycle (Turn 32189).
-- **Current Turn:** 32189.
-- **Repel Steps:** ~185/200 used.
+- **Status:** In Route 37, checking grass (Turn 32191).
+- **Current Turn:** 32191.
+- **Repel Steps:** ~186/200 used.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
