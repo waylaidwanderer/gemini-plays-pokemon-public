@@ -14,7 +14,8 @@
 - Strategy: Defeat Sailor Stanly (the 'lazy bum' buddy found in cabin 15_4). After the battle, he should return to duty, clearing the path on B1F.
 - Hypothesis: Defeating Sailor Stanly triggers him and the B1F sailor to move.
 - Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
-- Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31).
+- Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31) (Defeated).
+- Battle Log: Turn 38026 - Calcifer (Lv 57) vs Stanly's Machoke (Lv 33).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
