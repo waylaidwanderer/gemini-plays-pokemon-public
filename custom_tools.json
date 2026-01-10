@@ -128,7 +128,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def navigate_menu(directions, hold_ms=30, interval_ms=350, autopress_buttons=False):\n    \"\"\"\n    Generates a sequence of button presses for menu navigation.\n    \n    Args:\n        directions (list): List of buttons to press in order.\n        hold_ms (int): How long to hold each button in ms. default 30ms (~2 frames).\n        interval_ms (int): How long to wait between presses in ms. default 350ms.\n        autopress_buttons (bool): Whether to automatically press the buttons.\n    \n    Returns:\n        list: The sequence of buttons and sleep commands.\n    \"\"\"\n    import math\n\n    # Frame duration is approx 16.6ms. \n    # Rounding up to ensure at least 1 frame if hold_ms > 0\n    frames_to_hold = max(1, math.ceil(hold_ms / 16.0))\n    \n    sequence = []\n    \n    for button in directions:\n        # Add the button repeated for the number of frames to hold\n        for _ in range(frames_to_hold):\n            sequence.append(button)\n        \n        # Add the sleep command\n        if interval_ms > 0:\n            sequence.append(f\"sleep {interval_ms}\")\n            \n    if autopress_buttons:\n        print(f'{sequence}')\n        return sequence\n    else:\n        print(f'{sequence}')\n        return sequence\n",
+    "python_script": "def navigate_menu(directions, hold_ms=30, interval_ms=350, autopress_buttons=False):\n    \"\"\"\n    Generates a sequence of button presses for menu navigation.\n    \n    Args:\n        directions (list): List of buttons to press in order.\n        hold_ms (int): How long to hold each button in ms. default 30ms (~2 frames).\n        interval_ms (int): How long to wait between presses in ms. default 350ms.\n        autopress_buttons (bool): Whether to automatically press the buttons.\n    \n    Returns:\n        list: The sequence of buttons and sleep commands.\n    \"\"\"\n    import math\n    import json\n\n    # Frame duration is approx 16.6ms. \n    # Rounding up to ensure at least 1 frame if hold_ms > 0\n    frames_to_hold = max(1, math.ceil(hold_ms / 16.0))\n    \n    sequence = []\n    \n    for button in directions:\n        # Add the button repeated for the number of frames to hold\n        for _ in range(frames_to_hold):\n            sequence.append(button)\n        \n        # Add the sleep command\n        if interval_ms > 0:\n            sequence.append(f\"sleep {interval_ms}\")\n            \n    # Output as JSON string\n    print(json.dumps(sequence))\n    return sequence",
     "history": [
       {
         "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
@@ -174,6 +174,11 @@
         "commit_message": "Refined navigate_menu to avoid double inputs. Reduced default hold_ms to ensure single distinct presses and slightly increased interval_ms for safety.",
         "timestamp": "2026-01-10T16:36:32.514Z",
         "action_counter": 31891
+      },
+      {
+        "commit_message": "Fixed JSON output format by using json.dumps() to ensure double quotes, preventing parsing errors.",
+        "timestamp": "2026-01-10T16:43:53.835Z",
+        "action_counter": 31903
       }
     ]
   },
