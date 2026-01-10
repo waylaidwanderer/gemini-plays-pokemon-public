@@ -61,7 +61,7 @@
 - Started Turn: 38868
 - Goal: Reach Power Plant.
 - Pokefan Robert (8, 12): DEFEATED.
-- Hiker Jim (17, 3): Battling. Machamp (Lv 35).
+- Hiker Jim (17, 3): DEFEATED. Machamp (Lv 35).
 
 ## Route 10 South Navigation Log
 - Turn 38888: Manually explored to (14, 4) via gap at (14, 5). Revealed northern path.
