@@ -8,10 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** Buying 6 Super Repels (Turn 32511).
-- **Action:** Select Super Repel -> Set Quantity to 6.
-- **Cost:** 3000 Yen.
-- **Next Step:** Confirm Purchase -> Return to Johto.
+- **Status:** Selecting Super Repel (Turn 32512).
+- **Action:** Press A to open quantity menu.
+- **Note:** Previous 'A' was blocked by system safety (mixed inputs).
+- **Goal:** Buy 6 Super Repels (Max affordable).
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
