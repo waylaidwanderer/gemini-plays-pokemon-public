@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL (Hypothesis): Impassable Wall from the North; cannot be jumped down from this side. Needs verification (likely impassable from South).
+- FLOOR_UP_WALL: Untested hypothesis. Appears impassable from North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
@@ -28,17 +28,13 @@
 
 ## TMs & HMs Obtained
 - HM01 CUT, HM02 FLY, HM03 SURF, HM04 STRENGTH, HM05 FLASH, HM06 WHIRLPOOL, HM07 WATERFALL
-- TM07 ZAP CANNON (Power Plant Manager)
-- TM24 DRAGONBREATH, TM28 DIG, TM33 ICE PUNCH, TM37 SANDSTORM, TM44 REST, TM47 STEEL WING
+- TM07 ZAP CANNON, TM24, TM28, TM33, TM37, TM44, TM47
 
 ## Magnet Train Restoration
-- **Start Turn:** 39646
-- **EXPN Card Phase Start:** 39659
-- **Saffron Arrival Turn:** 39674
-- **Copycat's House Arrival:** 39689
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
+- **Fly Struggle:** Attempting to Fly since Turn 39649. Multiple menu fumbles.
 - **Plan:**
-  1. Fly to Vermilion City.
+  1. Travel to Vermilion City (Attempting Fly, but will walk via Route 6 if fumbles continue).
   2. Search Vermilion City for the lost Poké Doll.
   3. Return the doll to Copycat in Saffron City.
   4. Obtain the Rail Pass.
@@ -48,11 +44,8 @@
 - Obtained EXPN Card from Lavender Radio Tower.
 
 ## Lessons Learned
-- **FLY Map Navigation:** Use `press_menu_buttons_v2` and verify the destination text before pressing A.
+- **FLY Map Navigation:** Use `press_menu_buttons_v2` and verify the destination text before pressing A. Avoid long sequences.
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
 - **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
 - **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
-
-## Long-Term Strategy (Advisor Tips)
-- Defeat all 8 Kanto Gym Leaders to unlock Mt. Silver.
-- Train ICARUS, LAPIS, and KIMCHI to close the level gap.
+- **Takeoff:** Do not attempt to FLY while standing on a warp tile (door mat). Move to a neutral tile first.
