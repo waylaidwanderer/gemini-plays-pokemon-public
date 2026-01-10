@@ -36,15 +36,12 @@
   1. Entrance (BC): Warp at (11, 15). Arrive at (19, 17) [BR].
   2. BR Room: Warp at (15, 15). Arrive at (19, 3) [TR].
   3. TR Room: Warp at (15, 5). Arrive at (1, 3) [TL].
-  4. TL Room: Warp at (1, 5). Arrive at (11, 9) [Sabrina].
-- **Current Status:** In TL room at (1, 3).
+  4. TL Room: Warp at (1, 5). Arrive at (11, 9) [MC - Sabrina].
 - **Strategy:** Lead with Typhlosion (Calcifer) to sweep Psychic-types. Avoid using Haunter (Xenon) or Gloom (Kimchi).
+- **Hypothesis:** Bottom-Left rule (taking the bottom-left panel in each room) works.
+- **Test Result:** (1, 3) -> (1, 5) is the final leg to Sabrina.
 
 ## Lessons Learned
 - **Menu Persistence:** Automated menu tools can fail if the cursor or menu state is not what's expected. Manual sequences with `press_menu_buttons_v2` are more reliable for complex tasks like swapping.
 - **Warp Maze Logic:** BFS scripts on Map Events data are highly effective for solving warp puzzles.
 - **Pathing:** Always verify traversability through observation.
-
-## Kanto Journey Progress
-- Arrived in Vermilion: Turn 38104
-- Saffron Gym Start: Turn 39791
