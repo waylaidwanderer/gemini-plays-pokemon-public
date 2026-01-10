@@ -21,6 +21,14 @@
   4. Solve Gym Puzzle: Find two consecutive switches in trash cans.
 - Kanto Journey Started: Turn 38090 (Timestamp: Friday, Jan 9, 2026, 7:00 PM).
 
+## Type Effectiveness (Verified)
+- Electric -> Ground: No effect.
+- Fire -> Grass: Super effective.
+- Water -> Fire: Super effective.
+
+## Trainer Rosters
+- Lt. Surge: Raichu, Electrode, Magneton (Level 40s expected).
+
 ## Lessons Learned
 - Vermilion Gym's puzzle involves finding two hidden switches in trash cans; the second is usually adjacent to the first.
 - The S.S. Aqua docks in Vermilion Port south of the city.
@@ -28,3 +36,5 @@
 ## Vermilion City Exploration
 - Snorlax is blocking the eastern exit to Route 11 at (34, 8).
 - Port is to the south.
+- Poke Mart: (21, 13).
+- Diglett's Cave Speech House: (21, 17).
