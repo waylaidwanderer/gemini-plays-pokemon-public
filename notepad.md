@@ -18,8 +18,8 @@
 # Current Strategy
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (5F -> 2F).
-- **Action:** Descend Stairs to 2F.
+- **Location:** Celadon Dept. Store (4F -> 3F).
+- **Action:** Descend Stairs to 3F.
 - **Reasoning:** 5F was Vitamins. Checking 2F Medicine Clerk (scrolling down).
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
