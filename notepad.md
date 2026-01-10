@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Transitioning to Route 37.
+- **Status:** Hunting on Route 37.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Check complete. Resetting.
-- **Time:** Start ~Turn 30680. Current 30820.
-- **Next Step:** Move South -> Hunt Tool.
+- **Notes:** Executing grass check on Route 37.
+- **Time:** Start ~Turn 30680. Current 30821.
+- **Next Step:** Return to Ecruteak if no encounter.
