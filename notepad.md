@@ -44,13 +44,11 @@
 - Fishing Rod: NPC at Pokecenter (7, 2).
 ## Vermilion Gym Observations
 - Gym Guide (Turn 38231): "The traps aren't active right now."
-- [Turn 38248] GNEISS is Lv51. KIMCHI learned MOONLIGHT.
-- [Turn 38269] Defeated Guitarist Vincent (4, 7).
-- [Turn 38281] Defeated Juggler Horton (0, 10). GNEISS is Lv52.
+- [Turn 38282] Engaging Lt. Surge at (5, 2). Leading with GNEISS (Lv 52). Strategy: Strength/Rollout sweep. GNEISS is immune to Electric.
 - Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
 - Juggler Horton's Team: Electrode (Lv33) x4.
+- Lt. Surge's Team: Raichu (Lv44), Electabuzz (Lv46).
 - Strategy: Use GNEISS to sweep. Immune to Electric. Earthquake PP is 0/10. Using Strength/Rollout for Surge.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
-- [Turn 38282] Engaging Lt. Surge at (5, 2). Leading with GNEISS (Lv 52). Strategy: Strength/Rollout sweep. GNEISS is immune to Electric.
 - [Turn 38289] Raichu defeated. KIMCHI grew to Lv36.
-- [Turn 38290] Battling Surge's Electabuzz (Lv 46). Using Strength. GNEISS is immune to Electric.
+- [Turn 38291] Battling Surge's Electabuzz (Lv 46). Electabuzz has Light Screen up. GNEISS using Strength.
