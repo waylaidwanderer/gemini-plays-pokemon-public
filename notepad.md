@@ -27,9 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31620)
-- **Status:** At Route 35 South Warp.
-- **Goal:** Enter Goldenrod Gatehouse.
-- **Action:** Pressing Down to trigger warp at (9, 33).
-- **Note:** Arrived on warp tile, but didn't transition. Forcing move South.
-- **Roamer Hunt:** Resupply run continues.
+- **Session Start:** Turn 30996 (Current: 31621)
+- **Status:** Inside Goldenrod Gatehouse.
+- **Goal:** Exit South to Goldenrod City.
+- **Action:** Walking South to trigger warp at (4, 7).
+- **Correction:** Previous status was hallucinated (thought I was still outside). Confirmed location inside Gatehouse.
+- **Roamer Hunt:** Resupply run (Super Repels) continues.
