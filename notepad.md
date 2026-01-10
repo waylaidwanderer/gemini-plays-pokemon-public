@@ -9,7 +9,7 @@
 - WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5/27.
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 - COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Centers/Radio Tower.
-- FLOOR_UP_WALL: Impassable Wall when approached from below. Verified on Route 8.
+- FLOOR_UP_WALL: Impassable Wall when approached from below (South). Functions as a one-way ledge from North to South. Verified on Route 8.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -63,10 +63,11 @@
 - Goal: Reach Power Plant.
 - Pokefan Robert (8, 12): DEFEATED. (Quagsire Lv 33).
 - Hiker Jim (17, 3): DEFEATED. (Machamp Lv 35).
-## Rock Tunnel 1F Notes
+
+## Rock Tunnel Navigation
+- Started: Turn 38914, Saturday, January 10, 2026.
 - (11, 25): Entrance from Route 10 South.
 - Strategy: Use Flash (KIMCHI) to navigate. Head for northern exit to reach Power Plant area.
-## Rock Tunnel 1F Progress
 - (10, 15): TM47 Steel Wing found.
 - Navigation: (11, 14) and surrounding tiles are FLOOR_UP_WALL, blocking passage north from the entrance corridor. Must find alternate route.
-- (4, 18): ELIXER picked up.
+- Discovery: Ladder at (27, 13) likely leads to B1F or another section.
