@@ -45,11 +45,13 @@
   - (3,C) (15,17) <-> (1,C) (5,15)
   - (1,C) (1,17) <-> (2,A) (11,5)
   - (2,A) (11,3) <-> (1,A) (5,3)
+  - (1,A) (1,3) <-> (3,A) (15,5)
 
 - Battle Log:
   - Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
   - Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
   - Medium Doris (Defeated): (3, 4) in (1,A). Slowpoke (Lv 34), Slowbro (Lv 36).
+  - Psychic Jared: (17, 4) in (3,A).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
