@@ -31,5 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Call Finished. Resetting to Ecruteak.
-- **Repel:** Active (~25 steps).
+- **Status:** Resetting to Ecruteak (Cycle 47).
+- **Repel:** Active (~23 steps).
