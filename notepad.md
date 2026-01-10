@@ -57,4 +57,5 @@
 - Cabin 1 (Rows 0-11): Defeated Pokefan Colin (3, 6) and Twins Meg & Peg (2, 4), (3, 4).
 - Mystery: Observed a pink sprite that moved between (5, 5) and (5, 7). Attempted interaction at (5, 6) facing up, but no text appeared. The sprite is NOT in the Map Objects list. It may be decorative or require a trigger (like talking to the Captain).
 - Strategy: Exit this cabin and check the next warp in FastShip 1F (15_3) at (27, 15) to find the Captain's Cabin.
-- Access: Use other warps in FastShip 1F (15_3) to reach other segments of Map 15_6. Segment 1 (checked) is rows 0-11.
+- Access: Use other warps in FastShip 1F (15_3) to reach other segments of Map 15_6. Segment 1 (checked) is rows 0-11. Segment 2 (current) is rows 15-23.
+- Segment 2: Met a Gentleman at (2, 17). Investigating.
