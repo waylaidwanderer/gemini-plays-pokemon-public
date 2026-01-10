@@ -27,10 +27,10 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31642)
-- **Status:** Correcting Menu State.
+- **Session Start:** Turn 30996 (Current: 31643)
+- **Status:** Selecting SELL Option.
 - **Goal:** Enter SELL Menu.
-- **Action:** Pressing B (Exit Buy) -> Down (Select Sell) -> A (Confirm).
-- **Tool Issue:** `navigate_menu` mashed inputs (5x), causing entry into BUY menu. Using `press_buttons` for precision.
-- **Market Intel:** Bottom Clerk has Poke/Great Balls, Escape Rope, Repel. Likely NO Super Repel.
-- **Plan:** Sell Revives here -> Find Super Repels elsewhere (Top Clerk?).
+- **Action:** Pressing Down (Step 1 of 2).
+- **Reason:** System blocks mixed input types in `press_buttons`. Splitting "Down" and "A" into separate turns to ensure precision and avoid re-entering BUY menu.
+- **Current Selection:** BUY.
+- **Next:** Verify cursor on SELL -> Press A.
