@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Correcting Purchase Quantity.
-- **Method:** Press B (Cancel 97) -> Press A (Select Super Repel) -> Up x14 (Set 15) -> A (Buy).
-- **Notes:** Quantity wrapped to 99 (not max affordable). 97 is too expensive. Resetting to buy 15 manually.
+- **Status:** Finalizing Transaction.
+- **Method:** Press A (Confirm Purchase) -> Press B (Exit Menus) -> Leave Mart.
+- **Notes:** Buying 15 Super Repels for 7500 Yen. Wallet will have 1272 Yen left. Next step: Fly to Ecruteak.
