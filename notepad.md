@@ -11,9 +11,9 @@
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
 - Clues: Granddaughter is missing; sailor (ID 2) on B1F is looking for his buddy; buddy is "goofing off".
-- Progress: Met sailor (ID 2) on B1F. He blocks the path north and asks for his buddy. Found a sailor (ID 5) in a cabin on 1F (15_4).
-- Strategy: Search all cabins on 1F and the kitchen (B1F) to find the buddy. Talk to the sailor in cabin (4, 26) on map 15_4.
-- Hypothesis: Finding the buddy triggers the B1F sailor to move. The granddaughter is likely with the Captain.
+- Progress: Met sailor (ID 2) on B1F. He blocks the path north and asks for his buddy. Found a sailor (ID 5) in a cabin on 1F (15_4) at (4, 26). He admitted to "taking a quick nap" and challenged me to a battle.
+- Strategy: Defeat this sailor. He is likely the buddy. After the battle, check if he returns to duty.
+- Hypothesis: Finding and defeating this sailor triggers the B1F sailor to move.
 - Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
 
 ## Kanto Strategy
