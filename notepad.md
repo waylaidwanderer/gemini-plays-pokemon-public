@@ -62,3 +62,7 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+## Route 6 Notes
+- Pokefan M (9, 12): Facing Right.
+- Pokefan M (10, 12): Facing Left.
+- Strategy: Battle both for EXP before heading to Saffron/Cerulean.
