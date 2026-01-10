@@ -16,7 +16,7 @@
 - Type Effectiveness: Dark super-effective against Ghost/Poison.
 
 ## PC Storage (Box 1)
-1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SELKIE (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
+- 1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SELKIE (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
 
 ## Movesets (HM Users)
 - KIMCHI (GLOOM): Lv40 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
@@ -27,35 +27,18 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train (Restored Turn 39771)
-- PASS obtained from Copycat. Power restored to Kanto. Service active between Saffron and Goldenrod.
-
 ## Saffron Gym Challenge
 - **Start Turn:** 39791
 - **Goal:** Defeat Sabrina.
+- **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
 - **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
-- **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
-- **Hypothesis:** Taking the bottom-left panel in each room leads to the center. (Verified via BFS and manual testing).
 
-### Tile Mechanics (Saffron Gym)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WARP_PANEL: Immediate teleportation. Linked in a maze-like fashion. Located in room corners.
-
-### Warp Solution (Full Table)
-- BC (Entrance) (11, 15) <-> BR (19, 17)
-- BR (15, 15) <-> TR (19, 3)
-- BR (15, 17) <-> BL (5, 15)
-- TR (15, 3) <-> MR (15, 9)
-- TR (15, 5) <-> TL (1, 3)
-- TR (19, 5) <-> BL (1, 15)
-- TL (1, 5) <-> MC (11, 9)
-- ML (1, 11) <-> BL (1, 17)
-- ML (5, 11) <-> BL (5, 17)
-- ML (1, 9) <-> MR (1, 9)
-- ML (5, 9) <-> TC (5, 9)
+### Saffron Gym Battle Strategy
+- **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
+- **Current Status:** Calcifer (Lv58) at 5 HP, accuracy lowered. Swapping to GNEISS (Lv53).
+- **Tactics:** Use GNEISS's Earthquake to bypass high Special Defense. Use Calcifer's Return if healthy.
 
 ## Lessons Learned
-- **Menu Sequence:** Use "Start, Up (x6), Down" to reliably reach POKEMON from overworld.
-- **Warp Maze:** BFS on Map Events data is optimal for finding paths through warp tiles.
 - **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
+- **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
+- **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
