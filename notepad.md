@@ -51,3 +51,4 @@
 - Juggler Horton's Team: Electrode (Lv33) x4.
 - Strategy: Use GNEISS to sweep. Immune to Electric. Earthquake PP is 0/10. Using Strength/Rollout for Surge.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
+- [Turn 38282] Engaging Lt. Surge at (5, 2). Leading with GNEISS (Lv 52). Strategy: Strength/Rollout sweep. GNEISS is immune to Electric.
