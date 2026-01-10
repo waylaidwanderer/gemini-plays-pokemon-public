@@ -31,5 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Phone Call Interruption (Wade). Clearing text.
+- **Status:** Clearing Call Text (Wade).
 - **Repel:** Active (Fresh 200 steps).
+- **Next:** Enter Route 37.
