@@ -29,5 +29,5 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** Manual Hunt Sequence.
   - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return/Warp).
-- **Status:** Phone Call Interrupt (Wade). Clearing text.
+- **Status:** Clearing Phone Call (Wade). Resume Hunt immediately after.
 - **Repel:** Active.
