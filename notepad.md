@@ -49,5 +49,5 @@
 - Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
 - Moving to engage Super Nerd Samual at (0, 10). Approach from (1, 10).
 - [Turn 38271] Battling Juggler Horton at (0, 10). Leading with GNEISS. Strategy: Earthquake sweep.
-- Juggler Horton's Team: Electrode (Lv33), Electrode (Lv33).
-- GNEISS (Lv51) using Earthquake. PP: 3/10. Currently on 2nd Electrode.
+- Juggler Horton's Team: Electrode (Lv33) x3.
+- GNEISS (Lv51) using Earthquake. PP: 2/10. Currently on 3rd Electrode.
