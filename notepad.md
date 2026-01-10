@@ -8,7 +8,7 @@
 - **Goal:** Buy 10 Super Repels.
 - **2F:** Trainer's Market (Balls/Meds). No Repels found.
 - **3F:** TM Shop.
-- **4F:** Checking now...
+- **4F:** Checking Directory...
 - **Financials:** ¥6772.
 
 ## Roamer Hunt
