@@ -23,8 +23,9 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** New Bark Town (Overworld).
+- **Current Location:** Route 29 (Just outside New Bark Town).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Navigating Fly Map and Confirming.
-- **Method:** `navigate_menu` (Left -> Up -> Left -> A).
-- **Notes:** Following 'Lessons Learned': Using `navigate_menu` with `hold_ms=300` for Fly Map. Path: New Bark -> Cherrygrove (Left) -> Violet (Up) -> Ecruteak (Left).
+- **Status:** Re-opening Start Menu to Select Fly.
+- **Method:** Start -> Up x2 (Reset to Pokedex) -> Down (Pokemon) -> A.
+- **Notes:** Previous Fly attempt failed; `navigate_menu` moved player instead of cursor because menu wasn't open. Resetting menu state.
+- **Next Step:** Select Pidgey -> Fly -> Ecruteak.
