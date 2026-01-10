@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Verification).
-- **Method:** Manual inputs to verify map transition behavior.
-- **Notes:** Tool `hunt_cycle_ecruteak_rt37` redefined with foolproof string construction and `sleep 2500`. Will test next turn if manual loop confirms inputs are eaten.
-- **Time:** Start ~Turn 30680. Current 30855.
-- **Next Step:** Verify position. If stuck in Rt 37, tool's `sleep` logic is necessary.
+- **Status:** Resetting to Ecruteak.
+- **Method:** Manual Move (Up).
+- **Notes:** Confirmed inputs are eaten during transition without `sleep`. Current location Route 37 (8,0). Returning to Ecruteak to start automated tool.
+- **Time:** Start ~Turn 30680. Current 30857.
+- **Next Step:** Activate `hunt_cycle_ecruteak_rt37`.
