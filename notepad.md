@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Silver Cave Outside.
 - **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Opening Fly Map.
-- **Method:** Press A (Select Mistral) -> Press A (Select Fly) -> Verify Cursor Start Position.
-- **Notes:** Must confirm where the Fly cursor starts (likely Silver Cave) before navigating. Previous blind navigation failed.
+- **Status:** Flying to Goldenrod City.
+- **Method:** Navigate Fly Map: Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod) -> A.
+- **Notes:** Using `navigate_menu` with hold_ms=300 per "Lessons Learned" to ensure map cursor moves correctly. Start: New Bark Town.
