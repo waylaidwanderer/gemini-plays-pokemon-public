@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** In Fly Menu (at Goldenrod).
-- **Action:** Navigating Cursor (Up) to Ecruteak.
-- **Next Step:** Confirm Ecruteak -> Fly.
+- **Status:** Flying to Ecruteak City.
+- **Action:** Pressed A to Confirm Fly.
+- **Next Step:** Arrive Ecruteak -> Route 37 Boundary.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32552)
