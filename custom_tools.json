@@ -119,9 +119,10 @@
       }
     ]
   },
-  "record_gym_warp": {
-    "description": "Processes Saffron Gym warp transitions and updates the warp map in the notepad. Provide the source coordinates and the destination coordinates after warping.",
+  "record_gym_warp_v2": {
+    "description": "Processes Saffron Gym warp transitions and prints the room and position data for manual logging in the notepad. Provide the source coordinates and the destination coordinates after warping.",
     "input_schema": {
+      "type": "object",
       "properties": {
         "dest_x": {
           "type": "integer"
@@ -141,20 +142,14 @@
         "src_y",
         "dest_x",
         "dest_y"
-      ],
-      "type": "object"
+      ]
     },
     "python_script": "import json\n\ndef get_room(x, y):\n    col = (int(x) // 7) + 1\n    row_idx = (int(y) // 6)\n    row = chr(ord('A') + row_idx)\n    return f\"({col},{row})\"\n\ndef get_pos(x, y):\n    rx = int(x) % 7\n    ry = int(y) % 6\n    horiz = \"L\" if rx < 3 else \"R\"\n    vert = \"T\" if ry < 4 else \"B\"\n    return vert + horiz\n\nsrc_room = get_room(input_data['src_x'], input_data['src_y'])\ndest_room = get_room(input_data['dest_x'], input_data['dest_y'])\nsrc_pos = get_pos(input_data['src_x'], input_data['src_y'])\ndest_pos = get_pos(input_data['dest_x'], input_data['dest_y'])\nprint(f\"Warp: {src_room} [{src_pos}] ({input_data['src_x']}, {input_data['src_y']}) -> {dest_room} [{dest_pos}] ({input_data['dest_x']}, {input_data['dest_y']})\")\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T06:18:10.056Z",
-        "action_counter": 38484
-      },
-      {
-        "commit_message": "Refined to calculate room and relative position (TL/TR/BL/BR).",
-        "timestamp": "2026-01-10T06:20:12.459Z",
-        "action_counter": 38485
+        "timestamp": "2026-01-10T06:59:01.010Z",
+        "action_counter": 38552
       }
     ]
   }
