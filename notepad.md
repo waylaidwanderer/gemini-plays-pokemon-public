@@ -22,12 +22,10 @@
 
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
-- **Location:** Goldenrod Dept. Store 4F.
-- **Status:** 4F Checked (Vitamins Only).
-- **Observation:** 4F Clerk sells Protein, Iron, Carbos, Calcium, HP Up. No Repels.
-- **Conclusion:** Goldenrod 2F, 3F, 4F do not stock Super Repels.
+- **Location:** Goldenrod Dept. Store 4F -> 5F.
+- **Status:** Moving to 5F.
+- **Reason:** 4F Clerk sells Vitamins. No Repels found on 2F, 3F, 4F.
 - **Plan:**
-  1. Exit Dialogue (B).
-  2. Go to 5F (Stairs at 12, 0).
-  3. Check 5F (TM Corner).
-  4. If fail -> Fly to Celadon City (Kanto).
+  1. Go to 5F (Stairs at 12, 0).
+  2. Check 5F (TM Corner) for Repels.
+  3. If fail -> Fly to Celadon City (Kanto). Celadon definitely has them.
