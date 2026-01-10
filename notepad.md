@@ -7,6 +7,7 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop.
+- **Note:** No trapper in party. Goal is to encounter for Dex tracking.
 
 ## Observations & Tips
 - **Menu Navigation:** `navigate_menu` can register double inputs. Use `press_buttons` for precision if needed.
