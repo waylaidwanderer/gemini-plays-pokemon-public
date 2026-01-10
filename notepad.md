@@ -2,12 +2,12 @@
 ## Objectives
 - **Primary:** Complete Pokedex.
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
-- **Navigation:** Saffron City (via Magnet Train).
+- **Navigation:** Buy 10 Super Repels (Celadon Dept. Store).
 
 ## Resupply Plan
 - **Goal:** Buy 10 Super Repels.
-- **Location:** Celadon Dept. Store (Kanto).
-- **Status:** En route via Magnet Train.
+- **Location:** Celadon Dept. Store (Current: 2F).
+- **Status:** checking Directory.
 - **Goldenrod Report:** 2F-5F checked. No Super Repels found.
 - **Financials:** ¥6772.
 
