@@ -30,8 +30,8 @@
 - **Method:** 2-Turn Split Cycle
   - **Turn A (Current):** Hunt in Route 37 (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
   - **Turn B:** Move Down (Enter Route 37).
-- **Status:** Repel Expired.
-- **Action:** Clearing Text.
-- **Next Step:** Apply Super Repel -> Resume Hunt.
-- **Location:** Route 37 (8,1).
-- **Repel:** Expired. Steps used: ~260/200.
+- **Status:** Applying Super Repel.
+- **Method:** Using `apply_super_repel` tool.
+- **Action:** Refueling Repel.
+- **Cycle Status:** Interrupted at Route 37 (8,1).
+- **Repel:** Applying new. Steps used: 0/200.
