@@ -39,10 +39,10 @@
 ## Cerulean City Exploration
 - **Start Turn:** 39337
 - **Goal:** Find the thief and the Machine Part.
-- **Status:** Met Rocket Grunt in Cerulean Gym. He panicked and ran out of the building.
-- **Next Step:** Chase the Rocket Grunt in Cerulean City.
-- **Plan:** Search Cerulean City (and potentially Route 24 to the North) for the Rocket Grunt. Confront him to recover the Machine Part.
-- **Progress:** Talked to Fisher at (29, 26). Entered Cerulean Gym, encountered a Rocket Grunt who then fled. Following him outside.
+- **Status:** Met Rocket Grunt in Cerulean Gym. He panicked and ran out.
+- **Next Step:** Find the Rocket Grunt on Route 24 (North of Cerulean City).
+- **Plan:** Head North through Cerulean City to Route 24. Confront the Grunt on the bridge to recover the Machine Part.
+- **Progress:** Talked to Fisher (Misty fan). Encountered Rocket Grunt in Gym; he fled. Now heading North to give chase.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
