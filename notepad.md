@@ -31,11 +31,11 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration (Turn 39771)
-- **Status:** Obtained the PASS. Power is restored. Boarded the Magnet Train in Saffron.
-- **Goal:** Arrive in Goldenrod City.
-- **Current Status:** On board the Magnet Train.
-- **Next Step:** Wait for the train to arrive in Goldenrod City.
+## Magnet Train Restoration (Turn 39772)
+- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Saffron to Goldenrod.
+- **Goal:** Confirm arrival in Goldenrod City and explore.
+- **Current Status:** Just arrived in the Goldenrod Magnet Train Station.
+- **Next Step:** Exit the station to the south.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
