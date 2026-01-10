@@ -16,12 +16,18 @@
 
 # Current Strategy
 ## Roamer Hunt (Raikou/Entei)
-- **Goal:** Encounter Raikou and Entei to register them in Pokedex.
-- **Location:** New Bark Town (Accidental Fly).
-- **Next Step:** Fly to Ecruteak City.
-- **Action:** Open Start Menu -> Pokemon -> Fly -> Ecruteak.
-- **Loop:** Switch between Ecruteak and Route 37.
+- **Goal:** Encounter Raikou and Entei.
+- **Location:** Route 37 (Current).
+- **Setup:** Apply Super Repel.
+- **Hunting Loop:**
+  1. Start at Route 37 Gate (8,0).
+  2. Walk South into Grass (approx 8,3).
+  3. If no encounter, Walk North to Ecruteak.
+  4. Re-enter Route 37.
+  5. Repeat.
+- **Mechanics:** Changing maps moves Roamers. Repel filters normal wilds (Lvl < 36). Roamers are Lvl 40.
 - **Supplies:** 10 Super Repels.
 
 ## Map Notes
-- **New Bark Town:** Arrived via Fly. No new objectives here. Proceeding to Ecruteak.
+- **Route 37:** Grass patches at (6,2)-(9,5).
+- **Ecruteak City:** Connection North.
