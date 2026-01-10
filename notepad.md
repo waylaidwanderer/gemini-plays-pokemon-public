@@ -28,8 +28,9 @@
 - **Status:** Machine Part retrieved from Cerulean Gym.
 - **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
-  1. Navigate Route 9: Move East from (23, 14) to Route 10 North exit at (54, 17).
-  2. Enter Power Plant and talk to the Manager at (14, 10).
+  1. Navigate Route 9: Move West to (20, 14), then North to Row 11.
+  2. Follow northern path East to Route 10 North exit at (54, 17).
+  3. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Lessons Learned
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
