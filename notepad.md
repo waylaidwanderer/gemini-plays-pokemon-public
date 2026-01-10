@@ -55,3 +55,8 @@
 - Step 1: Head east along the main thoroughfare (y=6, 7).
 - Step 2: Look for building signs and NPCs to identify the Gym.
 - Step 3: Locate the northern gate to Route 5.
+## Saffron City Notes
+- Copycat's House 1F (ID: 25_11):
+  - Warp at (2, 7) and (3, 7) leads to Saffron City (9, 11).
+  - NPCs: Pokefan M (2, 3), Pokefan F (5, 4), Clefairy Sprite (6, 6).
+  - Upstairs likely contains Copycat.
