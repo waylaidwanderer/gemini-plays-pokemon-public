@@ -9,7 +9,7 @@
 - WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5/27.
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 - COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Centers/Radio Tower.
-- FLOOR_UP_WALL: One-way ledge (North to South). Jump over to land 2 tiles away. Wall from South to North. Verified on Route 8 and Rock Tunnel B1F.
+- FLOOR_UP_WALL: Wall from the South. Potentially a ledge from the North, but currently blocking southward movement at (13, 25) in Rock Tunnel B1F. Testing other locations.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
