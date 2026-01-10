@@ -25,10 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle A).
-- **Method:** 2-Turn Cycle (Split by Map Transition).
-- **Cycle A (Current):** Move Down to Route 37.
-- **Cycle B (Next):** Hunt in grass (Down x2, Left, Right, Up x3) -> Return to Ecruteak.
-- **Notes:** Map transition interrupts command sequences, so the loop must be split. Current loc: Ecruteak (18, 35).
-- **Time:** Start ~Turn 30680. Current 30913.
-- **Next Step:** Execute Cycle B in Route 37.
+- **Status:** Handling Phone Call (Gaven).
+- **Method:** Clear Text.
+- **Notes:** Interrupted by Gaven immediately after input. Clearing call.
+- **Time:** Start ~Turn 30680. Current 30914.
+- **Next Step:** Resume Move Down to Route 37.
