@@ -35,6 +35,13 @@
 - **Start Turn:** 39337
 - **Strategy:** To bypass the Row 21 ledges, use the gap at (33, 23) on the east side of the Gym. Then move North to (27, 9) to exit the city toward Route 24.
 
+## Route 24 Exploration
+- **Start Turn:** 39378
+- **Battle Strategy: Rocket Grunt**
+  - Opponent: Golbat (Lv30).
+  - Strategy: Use Night Shade (43 fixed damage). This should be a 2-3 hit KO.
+  - Backup: Switch to Calcifer if XENON's HP gets too low.
+
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
 - End Turn: 39336
@@ -46,13 +53,3 @@
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
-## Route 24 Exploration
-- **Start Turn:** 39378
-- **Goal:** Find and confront the Rocket Grunt.
-- **Status:** Arrived on Route 24 from Cerulean City.
-- **Plan:** Search the bridge and surrounding areas for the thief.
-## Battle Strategy: Rocket Grunt
-- Opponent: Golbat (Lv30)
-- Strategy: XENON (Haunter) uses Hypnosis -> Dream Eater.
-- Alternative: Night Shade for guaranteed 43 damage (2HKO likely).
-- Backup: Calcifer (Typhlosion) uses Thunderpunch.
