@@ -28,7 +28,7 @@
 ## Roamer Hunt Strategy
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Split Cycle
-  - **Turn 1 (Current):** Move Down (Enter Route 37).
-  - **Turn 2:** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`).
-- **Confirmation:** Batching inputs *across* a warp (e.g., Reset+Hunt) fails because inputs during the transition are ignored.
+  - **Turn 1:** Move Down (Enter Route 37).
+  - **Turn 2 (Current):** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`).
+- **Status:** Executing Turn 2 (Grass Hunt & Return to Ecruteak).
 - **Repel:** Active (Applied ~30924). Check periodically.
