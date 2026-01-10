@@ -21,10 +21,11 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31680
-- **Status:** Resupply Run (Switching Clerks).
-- **Goal:** Buy Super Repels.
-- **Action:** Moving Up to (11, 5) -> Facing Right.
-- **Reason:** System blocks mixed Move+Interact. Positioning first.
-- **Next:** Press A to interact -> Check Stock.
-- **Hypothesis:** Top Clerk might have Potions/Heals. If no Repels, check other floors?
+- **Current Goal:** Buy Super Repels (Target: 10).
+- **Location:** Goldenrod Dept. Store.
+- **Status:** Checked Bottom Clerk (2F) - No Super Repels. Checking Top Clerk (2F).
+- **Financials:** ¥6772.
+- **Plan:**
+  1. Talk to Top Clerk.
+  2. If Super Repel available -> Buy 10.
+  3. If not -> Check Directory/Other Floors.
