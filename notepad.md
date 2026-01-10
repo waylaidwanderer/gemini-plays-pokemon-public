@@ -28,14 +28,17 @@
 - Started: Turn 38914.
 - Strategy: Use Flash (KIMCHI). Head north for Power Plant exit.
 - 1F Landmarks:
-  - (10, 15): TM47 Steel Wing.
-  - (4, 18): ELIXER.
+  - (10, 15): TM47 Steel Wing picked up.
+  - (4, 18): ELIXER picked up.
   - (11, 14): FLOOR_UP_WALL blocks northern passage from entrance corridor.
+- B1F Landmarks:
+  - (7, 25): IRON picked up.
 - Ladder Connections:
   - 1F (27, 13) <-> B1F (3, 3)
   - 1F (15, 9) <-> B1F (17, 9)
   - 1F (5, 3) <-> B1F (23, 3)
   - 1F (27, 3) <-> B1F (25, 23)
+- B1F Navigation: Row 26 FLOOR_UP_WALL tiles are impassable from the North.
 
 ## Observed Pokemon (Kanto)
 - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
