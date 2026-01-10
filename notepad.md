@@ -25,21 +25,16 @@
 - ICARUS (PIDGEOTTO): Lv19 | FLY
 
 ## Power Plant Investigation
-- **Clues:** Machine Part hidden in Cerulean Gym water.
-- **Status:** Machine Part retrieved from (3, 8) on Turn 39544.
-- **Goal:** Return the Machine Part to the Power Plant Manager.
+- **Status:** Machine Part retrieved from (3, 8) on Turn 39544 (Saturday, Jan 10, 2026).
+- **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
   1. Exit Cerulean Gym.
   2. Fly to Route 10 North (Pokemon Center near Power Plant).
   3. Enter Power Plant and talk to the Manager at (14, 10).
 
-## Cerulean Gym Search Plan
-- Strategy: Systematic search completed.
-- Result: Found at (3, 8) by searching while standing at (3, 7) facing down.
-- Triangulation pings: (4, 7) and (3, 7).
-
-## Error Analysis & Lessons
-- Menu fumbles occur due to assuming menu resets. 
-- Solution: Observe menu state or press B multiple times to reset before long sequences.
-- Itemfinder range is limited; triangulation is effective for finding hidden items.
-- Hidden items in water can be found by facing the tile and pressing A from an adjacent walkway.
+## Lessons Learned
+- **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
+- **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
+- **Menu Navigation:** Always check the screen state before executing long button sequences to avoid fumbles. Assume the menu DOES NOT reset to the first option.
+- **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
+- **Stagnation:** Spent ~460 turns in Cerulean Gym (39084-39544) due to search logic and menu fumbles. Moving forward immediately.
