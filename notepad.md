@@ -37,3 +37,6 @@
 - Blue (Viridian City): Unknown.
 - Quest: Find the Gentleman's missing granddaughter on the S.S. Aqua.
 - Lead: Gentleman at (25, 6) in FastShip1F.
+- S.S. Aqua: My cabin is at (15, 8). Nap in the bed to heal Pokemon.
+- S.S. Aqua: Gentleman at (25, 6) is looking for his granddaughter.
+- S.S. Aqua: Sailor at (14, 7) guards/points to the player's cabin.
