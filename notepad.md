@@ -46,3 +46,8 @@
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
+## Route 24 Exploration
+- **Start Turn:** 39378
+- **Goal:** Find and confront the Rocket Grunt.
+- **Status:** Arrived on Route 24 from Cerulean City.
+- **Plan:** Search the bridge and surrounding areas for the thief.
