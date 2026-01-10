@@ -8,9 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** At Clerk 1 (Turn 32505).
-- **Action:** Facing Down to interact.
-- **Goal:** Check/Buy Super Repels.
+- **Status:** Interacting with Clerk 1 (Turn 32506).
+- **Action:** Pressing A to open shop menu.
+- **Goal:** Buy 6 Super Repels (Cost: 3000).
+- **Next Step:** Return to Johto (Magnet Train -> Fly Ecruteak).
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
