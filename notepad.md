@@ -30,6 +30,7 @@
     - (19, 15) -> 15_5 (2, 31) [Checked]
     - (23, 15) -> 15_6 (2, 7) [Checked]
     - (27, 15) -> 15_6 (2, 19) [Checked]
+    - (30, 14) -> 15_7 (31, 13) [Current]
 - **Collect the 8 Kanto badges.**
   - Strategy: Vermilion City Gym (Lt. Surge) first. Recommended level 44-50.
   - MVP: GNEISS (Graveler) for Ground immunity to Electric.
