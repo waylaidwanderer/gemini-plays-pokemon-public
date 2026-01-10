@@ -27,9 +27,11 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31636)
-- **Status:** Interacting with Store Clerk (Bottom).
+- **Session Start:** Turn 30996 (Current: 31637)
+- **Status:** Initiating Dialogue with Bottom Clerk.
 - **Goal:** Sell Revives -> Buy Super Repels.
-- **Action:** Moving Down to (11, 6), facing Right, pressing A.
-- **Reason:** Bottom clerk likely sells Repels (standard inventory).
-- **Financial Status:** ¥1272. Selling 5 Revives = +3750¥. Total ~5000¥. Buying 10 Super Repels.
+- **Action:** Pressing A to speak.
+- **Plan:**
+  1. Sell 5 Revives.
+  2. Check Buy menu for Super Repels.
+  3. If not present, move to Top Clerk.
