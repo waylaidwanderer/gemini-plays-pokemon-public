@@ -30,10 +30,10 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39452 (Fixed mismatch)
+- **Current Turn:** 39453
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** The Machine Part is hidden in the water in the center of the Cerulean Gym.
-- **Next Step:** Use Itemfinder at (4, 8) while surfing.
+- **Next Step:** Use Itemfinder in the square pool at (3, 8)-(4, 9).
 
 ## Cerulean Gym Search Plan
 - Target Area: Central pools.
@@ -43,4 +43,6 @@
   - Pool B (South): (3, 8)-(4, 9).
 - Hidden Item Interaction: Stand on the tile or face it and press A.
 - Interaction Log:
-  - (4, 8): A pressed, no item. Itemfinder pinged nearby (from history).
+  - (4, 8): A pressed, no item. Itemfinder pinged "nearby" in Turn 39452.
+  - (4, 8): Facing Up, A pressed -> No effect (facing FLOOR).
+  - Current State: In Pokegear Map. Need to exit.
