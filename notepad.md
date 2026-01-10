@@ -72,3 +72,5 @@
 - Navigation: (11, 14) and surrounding tiles are FLOOR_UP_WALL, blocking passage north from the entrance corridor. Must find alternate route.
 - Discovery: Ladder at (27, 13) on 1F leads to B1F at (3, 3).
 - B1F Navigation: Exploring east from the ladder area. Currently at (8, 8).
+- Discovery: Ladder at (15, 9) on 1F leads to B1F at (17, 9).
+- 1F Navigation: Exploring northern section above the ledges. Currently at (15, 9).
