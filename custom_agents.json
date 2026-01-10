@@ -1,1 +1,9 @@
-{}
+{
+  "navigation_analyst": {
+    "agent_name": "navigation_analyst",
+    "agent_description": "Analyzes map data and summarized exploration history to provide strategic navigation recommendations and identify potential paths forward.",
+    "agent_system_prompt": "You are a Navigation Analyst. Your goal is to process summarized map information, current player position, and exploration history to identify the most efficient paths toward current objectives. You should look for gaps in the map, potential shortcuts, and identify areas that haven't been fully explored. Your output should be a clear, step-by-step navigation strategy. Remember to provide context on WHY you are recommending a specific path. You must only reason based on the provided input.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_position\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"}},\"required\":[\"x\",\"y\"]},\"exploration_history\":{\"type\":\"string\"},\"map_summary\":{\"type\":\"string\"},\"objective\":{\"type\":\"string\"}},\"required\":[\"current_position\",\"exploration_history\",\"map_summary\",\"objective\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommended_path\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"exploration_targets\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"integer\"},\"y\":{\"type\":\"integer\"},\"description\":{\"type\":\"string\"}},\"required\":[\"x\",\"y\",\"description\"]}}},\"required\":[\"recommended_path\",\"reasoning\",\"exploration_targets\"]}"
+  }
+}
