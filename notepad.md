@@ -27,8 +27,8 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** `hunt_roamers_cycle_v2` (Defining).
+- **Method:** `hunt_roamers_cycle_v2`.
   - **Sequence:** Ecruteak -> Rt 37 -> Grass (L/R) -> Ecruteak.
-  - **Fix:** Increased sleep to 4500ms to prevent input loss during warp.
-- **Status:** Resetting to Ecruteak manually to align position.
+  - **Fix:** Increased sleep to 4500ms.
+- **Status:** Executing `hunt_roamers_cycle_v2` (Loop 1).
 - **Repel:** Active.
