@@ -31,5 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1 (Current):** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 14 - Grass Check).
-- **Repel:** Active (Monitoring for expiry).
+- **Status:** Executing automated hunt (Cycle 15).
+- **Repel:** Active.
