@@ -19,27 +19,13 @@
 # Current Strategy
 ## Objectives
 - **Primary:** Complete Pokedex.
-- **Secondary:** Hunt Roaming Beasts.
-- **Navigation:** Goldenrod City via Fly.
+- **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
+- **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Lake of Rage (21, 29).
-- **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Start Menu.
-- **Method:** Manual Menu Navigation.
-- **Next Step:** Verify Menu Open -> Select Pokemon -> Fly to Ecruteak.
-
-# Reflection (Turn 30528)
-1. **Execution:** No deferred tasks.
-2. **Hygiene:** Notepad updated. Map markers verified (New Bark Town is well-mapped).
-3. **Automation:** `navigate_menu` requires a longer initial delay for map screens. The 750ms interval was likely insufficient for the Fly map to fully load and accept inputs, causing the cursor movement to be ignored and the default location (New Bark) to be selected.
-4. **Goals:** Primary goal remains "Complete Pokedex". Navigation goal is "Fly to Ecruteak City".
-5. **Error Analysis:** Fly attempt failed to reach target. Root cause: Input timing relative to map load.
-**Corrective Action:** Increase delay after selecting 'FLY' to 2000ms before inputting directions.
-
-## Session Information Update
-- **Current Location:** New Bark Town (12, 6).
-- **Goal:** Fly to Ecruteak City (Retry).
-- **Status:** Opening Pokemon Menu.
-- **Method:** Start -> Up x2 -> Down -> A.
-- **Next Step:** Select Pidgey -> Fly -> Wait 2s -> Left, Up, Left -> A.
+- **Current Location:** Route 37 (7, 0).
+- **Goal:** Hunt Raikou/Entei.
+- **Status:** Hunting.
+- **Method:** `hunt_check_route37`.
+- **Notes:** Arrived on Route 37. Repel active. Executing hunt routine.
+- **Next Step:** Check for Encounter -> Return to Ecruteak (Automatic).
