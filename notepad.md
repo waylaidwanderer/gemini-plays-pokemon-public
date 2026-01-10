@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town (Fly Map).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Navigating Fly Map.
-- **Method:** Slow Press: Left x3 -> A.
-- **Notes:** Map is open. Cursor at New Bark. 3 Lefts should target Ecruteak. Using slow_press (600ms) to ensure distinct inputs and avoid "double-click" or dropped input issues.
+- **Status:** Navigating Fly Map (Attempt 2).
+- **Method:** Navigate Menu: Left x3 (Hold 250ms).
+- **Notes:** `slow_press` failed to move the map cursor (taps too short). Reverting to `navigate_menu` with `hold_ms` to ensure movement. Not pressing 'A' yet to verify destination first.
