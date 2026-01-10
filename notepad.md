@@ -12,7 +12,6 @@
 
 ## Battle Mechanics (Hypotheses)
 - Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
-- Observation: Dream Eater failing with "It didn't affect" means the target is not asleep. (Misclick on turn 39229).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -35,8 +34,9 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Path is through the northern lane (Row 11) to bypass walls.
-- **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), and Camper Dean (19, 11). Currently battling Picnicker Edna (12, 15).
+- **Observation:** Path is through the northern lane (Row 11) to bypass walls. FLOOR_UP_WALL at (11, 16) and (20, 16) are impassable from the North.
+- **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), Camper Dean (19, 11), and Picnicker Edna (12, 15).
+- **Plan:** Head East to (14, 11) then West through Row 11.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
