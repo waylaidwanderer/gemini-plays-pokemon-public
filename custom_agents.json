@@ -1,1 +1,9 @@
-{}
+{
+  "kanto_strategist": {
+    "agent_name": "kanto_strategist",
+    "agent_description": "Strategic advisor for Kanto progression in Pokemon Crystal.",
+    "agent_system_prompt": "You are a Kanto region expert for Pokemon Crystal. Your goal is to guide the player through the 8 Kanto gyms. Provide specific type matchups for Gym Leaders, useful item locations, and efficient route suggestions. Context: The player has 8 Johto badges and has just arrived in Vermilion City. Key targets include Lt. Surge (Electric), Sabrina (Psychic), Erika (Grass), Janine (Poison), Misty (Water), Brock (Rock), Blaine (Fire), and Blue (Multi).",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"current_badges\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"party_info\":{\"type\":\"array\",\"items\":{\"type\":\"object\"}}},\"required\":[\"current_location\",\"current_badges\",\"party_info\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_gym_target\":{\"type\":\"string\"},\"strategy_recommendation\":{\"type\":\"string\"},\"important_items_nearby\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"next_gym_target\",\"strategy_recommendation\",\"important_items_nearby\"]}"
+  }
+}
