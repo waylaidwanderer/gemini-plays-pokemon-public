@@ -19,8 +19,9 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (3F -> 2F).
-- **Action:** Descend Stairs to 2F.
-- **Reasoning:** 3F is TMs. 5F was Vitamins. 4F was Dolls. Repels MUST be on 2F (Medicine Clerk).
+- **Action:** Talk to Left Clerk (13, 5).
+- **Status:** Positioning at (13, 3).
+- **Reasoning:** Checking full inventory for Repels. Previous check was incomplete.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
