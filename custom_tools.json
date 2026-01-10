@@ -186,19 +186,19 @@
       }
     ]
   },
-  "hunt_roamers_cycle_v2": {
-    "description": "Executes a robust Roamer hunting loop with extended sleeps. Warps from Ecruteak to Rt 37, checks two grass tiles, and returns.",
+  "hunt_roamers_safe": {
+    "description": "Robust Roamer hunting loop with explicit delays between movements to prevent input loss. Warps from Ecruteak to Rt 37, checks grass, and returns.",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "print('[\"Down\", \"sleep 4500\", \"Down\", \"Down\", \"Left\", \"Right\", \"Right\", \"Left\", \"Up\", \"Up\", \"Up\", \"sleep 4500\"]')",
+    "python_script": "print('[\"Down\", \"sleep 5000\", \"Down\", \"sleep 250\", \"Down\", \"sleep 250\", \"Left\", \"sleep 250\", \"Right\", \"sleep 250\", \"Right\", \"sleep 250\", \"Left\", \"sleep 250\", \"Up\", \"sleep 250\", \"Up\", \"sleep 250\", \"Up\", \"sleep 5000\"]')",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T07:03:10.748Z",
-        "action_counter": 31065
+        "timestamp": "2026-01-10T07:04:32.564Z",
+        "action_counter": 31067
       }
     ]
   }
