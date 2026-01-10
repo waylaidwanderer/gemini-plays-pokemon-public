@@ -27,9 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31634)
-- **Status:** Exiting Elevator.
-- **Goal:** Verify Floor (2F) -> Sell/Buy.
-- **Action:** Exiting elevator (Left -> Down).
-- **Hypothesis:** Elevator selection (2F) was successful. Exiting should lead to 2F.
-- **Next:** If 2F: Sell Revives. If 1F/B1F: Retry Elevator.
+- **Session Start:** Turn 30996 (Current: 31635)
+- **Status:** Goldenrod Dept. Store 2F.
+- **Goal:** Sell Revives -> Buy Super Repels.
+- **Action:** Pathfinding to Clerk counter at (11, 5).
+- **Plan:** Stand at (11, 5), face Right, buy/sell.
+- **Financial Status:** ¥1272. Needs cash from Revives.
