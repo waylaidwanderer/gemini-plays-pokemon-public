@@ -45,3 +45,15 @@
 - **Menu Persistence:** Automated menu tools can fail if the cursor or menu state is not what's expected. Manual sequences with `press_menu_buttons_v2` are more reliable for complex tasks like swapping.
 - **Warp Maze Logic:** BFS scripts on Map Events data are highly effective for solving warp puzzles.
 - **Pathing:** Always verify traversability through observation.
+## Saffron Gym Warp Solution (Full Table)
+- BC (Entrance) (11, 15) <-> BR (19, 17)
+- BR (15, 15) <-> TR (19, 3)
+- BR (15, 17) <-> BL (5, 15)
+- TR (15, 3) <-> MR (15, 9)
+- TR (15, 5) <-> TL (1, 3)
+- TR (19, 5) <-> BL (1, 15)
+- TL (1, 5) <-> MC (11, 9)
+- ML (1, 11) <-> BL (1, 17)
+- ML (5, 11) <-> BL (5, 17)
+- ML (1, 9) <-> MR (1, 9)
+- ML (5, 9) <-> TC (5, 9)
