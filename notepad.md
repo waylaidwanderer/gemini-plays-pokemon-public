@@ -25,8 +25,10 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Clearing Phone Call (Gaven).
-- **Method:** Mash B.
-- **Notes:** Still clearing text. "One wrong decision...".
-- **Time:** Start ~Turn 30680. Current 30916.
-- **Next Step:** Resume Move Down to Route 37.
+- **Status:** Manual Hunt (Cycle A).
+- **Method:** 2-Turn Cycle.
+- **Cycle A:** Move Down to Route 37.
+- **Cycle B:** Hunt in grass & Return to Ecruteak.
+- **Notes:** Phone call ended. Resuming movement to Route 37. Input: Down, Down (Turn & Move).
+- **Time:** Start ~Turn 30680. Current 30917.
+- **Next Step:** Execute Cycle B (Hunt & Return).
