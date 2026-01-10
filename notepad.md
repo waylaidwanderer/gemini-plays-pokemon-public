@@ -10,9 +10,9 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter
-- Status: Investigating B1F. Passage north at (30, 6) is blocked by a sailor.
+- Status: Investigating B1F. Sailor at (30, 6) has moved, opening the passage north. Sailor at (31, 6) remains.
 - Clues: Energetic girl (1F); "lazy bum" buddy goofing off (B1F).
-- Strategy: Use the ladder at (30, 14) to reach B1F, then bypass the sailor at (30, 6) using the empty tile at (31, 6). Explore western B1F.
+- Strategy: Bypass the sailor at (31, 6) by walking through (30, 6). Explore the western side of B1F to find the "lazy bum" buddy.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
