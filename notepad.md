@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Roamer Hunt.
-- **Status:** Route 37 (Hunting).
-- **Action:** Running `roamer_hunt_cycle` to hunt in grass.
-- **Next Step:** Check for encounters -> Return to Ecruteak.
+- **Status:** Repel Wore Off.
+- **Action:** Dismissing text, then will reapply Super Repel.
+- **Next Step:** Open Menu -> Use Super Repel -> roamer_hunt_cycle.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32552)
