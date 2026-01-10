@@ -88,31 +88,6 @@
       }
     ]
   },
-  "apply_super_repel": {
-    "description": "Automatically navigates the Start Menu to use a Super Repel from the Bag. \nAssumptions:\n1. 'Repel wore off' text is already closed.\n2. Start Menu cursor is on 'PACK'.\n3. Bag cursor is on 'SUPER REPEL'.\n4. Player is in Overworld.\nSequence: Start -> Wait -> A (Pack) -> Wait -> A (Select Repel) -> Wait -> A (Use) -> Wait -> B (Text) -> Wait -> B (Bag) -> Wait -> B (Menu).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      }
-    },
-    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-10T03:50:45.163Z",
-        "action_counter": 30790
-      },
-      {
-        "commit_message": "Fixed output format to be a JSON array instead of an object.",
-        "timestamp": "2026-01-10T03:57:21.406Z",
-        "action_counter": 30801
-      }
-    ]
-  },
   "roamer_hunt_cycle": {
     "description": "Automates the roamer hunt loop. If in Ecruteak, moves to Route 37. If in Route 37, hunts and returns.",
     "input_schema": {
