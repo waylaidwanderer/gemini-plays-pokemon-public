@@ -21,9 +21,10 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31677
+- **Session Start:** Turn 31678
 - **Status:** Resupply Run (Switching Clerks).
 - **Goal:** Buy Super Repels.
-- **Action:** Pressing B to exit Bottom Clerk dialogue.
-- **Reason:** Bottom Clerk lacks Super Repels.
-- **Next:** Move Up to Top Clerk (13, 5) -> Buy Super Repels.
+- **Action:** Pressing B to close "Please come again!" text.
+- **Next:** Move Up to (11, 5) -> Interact with Top Clerk.
+- **Inventory:** ¥6772. No Revives.
+- **Target Item:** Super Repel (should be at Top Clerk).
