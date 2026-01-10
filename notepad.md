@@ -31,6 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 50 - Hunting).
-- **Repel:** Active (~7 steps). Expect expiry next turn.
-- **Next Action:** Use `apply_super_repel` tool when expired.
+- **Status:** Executing automated hunt (Cycle 51 - Route 37 Entry).
+- **Repel:** Active (~6 steps). Monitor for expiry.
