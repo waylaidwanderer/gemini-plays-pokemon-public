@@ -23,11 +23,11 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store.
-- **Status:** 2F Stock Checked. No Super Repels found on 2F.
+- **Status:** 2F Fully Checked. No Super Repels.
 - **2F Inventory:**
   - Bottom Clerk: Poke/Great Balls, Escape Rope, Repel.
-  - Top Clerk: Potions, Antidote, Parlyz/Burn/Ice Heals, Awakening.
+  - Top Clerk: Potions, Heals (Burn/Ice/Parlyz/Awakening).
 - **Plan:**
-  1. Exit 2F.
+  1. Exit Dialogue (B).
   2. Go to 3F (Stairs at 12,0).
-  3. Check 3F Clerks.
+  3. Check 3F Clerks for Super Repels.
