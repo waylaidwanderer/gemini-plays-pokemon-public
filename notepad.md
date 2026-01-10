@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Paused (Menuing).
-- **Note:** Opening menu to use Super Repel.
-- **Repel:** Wore off.
+- **Status:** Roaming Hunt Loop - Resuming.
+- **Note:** Super Repel applied. Exiting menu.
+- **Repel:** Active.
