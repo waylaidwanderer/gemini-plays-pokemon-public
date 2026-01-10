@@ -32,3 +32,4 @@
 - **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
 - **Action:** Navigating Fly Map (Left x3 with hold_ms=150).
 - **Note:** Cursor was sticky on New Bark. Retrying with cleaner inputs.
+- **Troubleshooting:** Fly cursor stuck on New Bark. Trying multidirectional input (Up, Left, Down, Left) with `hold_ms=500`.
