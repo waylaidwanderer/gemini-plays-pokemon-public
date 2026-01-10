@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** Olivine City.
+- **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Flying to Ecruteak.
-- **Method:** Fly Map: Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak) -> A.
-- **Notes:** Cursor confirmed at New Bark Town. 3 Lefts should reach Ecruteak. Engaging Fly.
+- **Status:** Opening Start Menu.
+- **Method:** Press Start -> Verify Cursor -> Select Pokemon -> Mistral -> Fly.
+- **Notes:** Previous Fly attempt from Olivine resulted in New Bark Town (likely cursor wrapped or inputs ignored). Retrying with manual `slow_press` steps for precision.
