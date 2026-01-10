@@ -8,9 +8,11 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** Walking to Magnet Train Station (Turn 32472).
-- **Goal:** Enter Station -> Take Train to Saffron.
-- **Reason:** Confirmed Goldenrod Dept Store has no Super Repels. Celadon does.
+- **Status:** Boarding Magnet Train (Turn 32473).
+- **Location:** Goldenrod Station.
+- **Action:** Walking to platform (Warp at 9,9).
+- **Goal:** Travel to Saffron City.
+- **Note:** Gaven called (Turn 32473) - Just flavor text.
 - **Reason:** Goldenrod Dept Store confirmed to have NO Super Repels. Celadon does.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
