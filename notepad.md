@@ -19,9 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Buy 10 Super Repels.
-- **Status:** Selecting Super Repel.
-- **Reasoning:** Found them! Buying 10 to stock up for the Roamer hunt.
+- **Action:** Select 'BUY'.
+- **Status:** Re-entering Item List.
+- **Reasoning:** Screen shows 'Can I do anything else?'. Pressing 'A' to re-enter BUY menu.
+- **Safety:** Using single inputs to ensure synchronization.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
