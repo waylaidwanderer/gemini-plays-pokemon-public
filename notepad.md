@@ -40,7 +40,7 @@
   - Picnicker Edna (12, 15): Defeated.
   - Camper Sid (13, 4): Defeated. (Pending victory).
 - **Observation:** Southern and middle lanes are blocked by walls/ledges. Northern lane (Rows 0-5) reachable via gap at (16, 9) seems to lead west.
-- **Time Tracking:** Started Route 9 Exploration at Turn 39167. Currently Turn 39302.
+- **Time Tracking:** Started Route 9 Exploration at Turn 39167.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
