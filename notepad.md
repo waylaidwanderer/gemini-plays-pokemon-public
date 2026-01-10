@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31615)
-- **Status:** Traversing National Park.
-- **Goal:** Reach Goldenrod City via Route 35 Gatehouse.
-- **Action:** Pathfinding to South Exit (11, 47).
-- **Note:** Park seems quiet (5:18 AM). Avoiding tall grass where possible.
-- **Roamer Hunt:** Resupply run (Super Repels) continues.
+- **Session Start:** Turn 30996 (Current: 31616)
+- **Status:** Traversing National Park (South Exit).
+- **Goal:** Enter Route 35 Gatehouse.
+- **Action:** Pressing Down to trigger warp at (11, 47).
+- **Note:** Standing on Warp Carpet. Tile below is marked WALL, but `WARP_CARPET_DOWN` implies Down exit.
+- **Roamer Hunt:** Resupply run continues.
