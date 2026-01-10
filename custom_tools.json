@@ -193,12 +193,17 @@
         }
       }
     },
-    "python_script": "print('{\"buttons\": [\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]}')",
+    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-10T03:50:45.163Z",
         "action_counter": 30790
+      },
+      {
+        "commit_message": "Fixed output format to be a JSON array instead of an object.",
+        "timestamp": "2026-01-10T03:57:21.406Z",
+        "action_counter": 30801
       }
     ]
   }
