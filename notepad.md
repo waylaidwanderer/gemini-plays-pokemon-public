@@ -19,9 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Talk to Left Clerk (13, 5).
-- **Status:** Interacting with Left Clerk.
-- **Reasoning:** Phone call finished. Proceeding to check inventory for Super Repels.
+- **Action:** Select 'BUY' to check inventory.
+- **Status:** Checking 2F Left Clerk.
+- **Reasoning:** Right Clerk had Balls/Status Heals. Left Clerk likely has Potions/Revives/Repels.
+- **Hypothesis:** Super Repels are in this list.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
