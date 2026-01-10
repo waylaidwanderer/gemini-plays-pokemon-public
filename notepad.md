@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** In Transit (Goldenrod -> Saffron) (Turn 32476).
-- **Action:** Boarding train. Text visible: "We'll soon depart for SAFFRON."
+- **Status:** In Transit (Goldenrod -> Saffron) (Turn 32477).
+- **Action:** Selected YES to board train.
 - **Next Step:** Arrive Saffron -> Exit Station -> Fly to Celadon.
 - **Reason:** Goldenrod Dept Store confirmed to have NO Super Repels. Celadon does.
 - **Stats:** 0 Encounters so far.
