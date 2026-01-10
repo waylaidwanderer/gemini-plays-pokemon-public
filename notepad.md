@@ -27,13 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31557)
+- **Session Start:** Turn 30996 (Current: 31558)
 - **Route:** Ecruteak (18,35) <-> Route 37 (7,0)/(8,0)
-- **Method:** 2-Turn Split Loop (Manual + Tool).
-  - **Turn 1:** Ecruteak -> Route 37 (Manual).
-  - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Execution.
-- **Action:** Running `rt37_hunt_return` (Hunt & Return).
-- **Repel:** Active (Max Repel).
-- **Note:** Mistral (Pidgey) holding Blue Apricorn (swap later).
-- **Next:** If Roamer found -> Catch. If not -> Loop continues.
+- **Status:** Roaming Hunt Loop - Paused (Out of Repels).
+- **Action:** Clearing "Repel wore off" text.
+- **Repel:** Expired (None left in bag).
+- **Plan:** Fly to Goldenrod -> Sell Items -> Buy Super Repels.
