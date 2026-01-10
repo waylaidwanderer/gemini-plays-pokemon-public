@@ -7,8 +7,8 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Selling Max Elixer (Turn 32413).
-- **Next Step:** Confirm sale price. Buy Super Repels. Resume Hunt.
+- **Status:** Selling Max Elixer (Turn 32414).
+- **Next Step:** Finalize sale. Buy Super Repels. Resume Hunt.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
