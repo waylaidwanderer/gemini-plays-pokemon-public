@@ -7,8 +7,9 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Entering Buy Menu (Turn 32416).
-- **Next Step:** Buy 6 Super Repels. Resume Hunt.
+- **Status:** Leaving Ecruteak Mart (Turn 32421).
+- **Discovery:** Ecruteak Mart does NOT sell Repels.
+- **Next Step:** Fly to Goldenrod. Buy Super Repels. Fly back to Ecruteak.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
