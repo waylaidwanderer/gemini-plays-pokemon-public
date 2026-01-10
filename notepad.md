@@ -7,10 +7,10 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Travel to Celadon City (Resupply).
-- **Status:** At Route 7 / Celadon Border (0, 0).
-- **Action:** Walk Left to Enter Celadon City.
-- **Goal:** Buy Super Repels at Dept Store.
+- **Current Task:** Resupply Run - Super Repels.
+- **Status:** In Celadon City (Turn 32502).
+- **Action:** Walking to Dept Store (4, 9).
+- **Goal:** Buy Super Repels.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
