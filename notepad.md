@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Positioning for hunt (Cycle 98 - Moving to Route 37 start).
-- **Note:** `rt37_hunt_return` MUST start at Rt 37 (8,0). Currently correcting position.
+- **Status:** Executing automated hunt (Cycle 98 - Hunting on Rt 37).
+- **Note:** `rt37_hunt_return` MUST start at Rt 37 (8,0). Don't call from Ecruteak.
 - **Repel:** Active (~32 steps).
