@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Selecting Quantity.
-- **Method:** Press A to select Super Repel -> Adjust quantity to 15 -> Confirm.
-- **Notes:** Buying 15 Super Repels (7500 Yen). Remaining: 1272 Yen.
+- **Status:** Confirming Purchase.
+- **Method:** Down x3 (Wrap logic: 1->17->16->15) -> A.
+- **Notes:** Buying 15 Super Repels. Assuming 'Down' wraps to max affordable (17).
