@@ -6,6 +6,7 @@
 - **Fly Map:** Vertical movement is safer.
 - **Interruptions:** Phone calls can interrupt movement patterns; always check screen text and confirm position after clearing.
 - **Map Transitions:** Input queue often clears on map change. Avoid tools that cross map boundaries; handle warps manually.
+- **Tool Safety:** Always verify exact start coordinates before calling blind movement tools (e.g., `rt37_hunt_return` requires Rt 37 (8,0)).
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
@@ -31,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Positioning for hunt (Cycle 110 - Moving to Route 37 start).
-- **Note:** Realized previous cycles were hunting on pavement (Row 1). Must start tool from Rt 37 (8,0) to reach Grass (Row 2).
+- **Status:** Executing automated hunt (Cycle 110 - Hunting on Rt 37).
+- **Note:** Corrected position to Rt 37 (8,0) for valid tool usage.
 - **Repel:** Active (~155 steps).
