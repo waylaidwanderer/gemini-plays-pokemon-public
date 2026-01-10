@@ -13,13 +13,12 @@
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City Gym).
 - Strategy: 
-  1. Navigate north through Vermilion Port to reach Vermilion City.
+  1. Exit Vermilion Port Passage to reach Vermilion City.
   2. Locate the Gym (southwest part of city, usually requires HM01 CUT).
   3. Battle Lt. Surge: Use GNEISS (Graveler Lv 51) for Ground immunity against Electric moves.
   4. Solve Gym Puzzle: Check trash cans for two consecutive switches to open the door to the leader.
+- Kanto Journey Started: Turn 38090 (Timestamp: Friday, Jan 9, 2026, 7:00 PM).
 
 ## Lessons Learned
-- Completed 'Find Granddaughter' quest on turn 38066; reward: Metal Coat.
-- S.S. Aqua arrives in Vermilion City after the quest is complete.
 - Entry/Exit for S.S. Aqua in Vermilion Port is at (7, 17).
 - Vermilion Gym's puzzle involves finding two hidden switches in trash cans; the second is usually adjacent to the first.
