@@ -3,10 +3,9 @@
 - FLOOR: Verified traversable (Turns 38381-38401).
 - WALL: Verified impassable (Turns 38381-38401).
 - DOOR/WARP: Step on to enter buildings/areas.
-- COUNTER: Face and press A to interact.
 - LEDGE: Semi-traversable (jump down from above).
 - TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
-- WATER: Requires Surf to traverse.
+- WARP_CARPET_DOWN: Step on to warp to the map below. Verified on Route 5 (Turn 38458).
 
 ## Kanto Strategy
 - **Current Objective: Defeat Sabrina and Resolve Power Plant.**
@@ -20,24 +19,16 @@
 - Buildings Identified:
   - Silph Co: Center of city (South Wall at 16, 29).
   - Pokemon Center: (9, 29).
-  - Magnet Train Station: (11, 5) (Sign at 11, 5). Currently inactive.
-  - Route 5 Gatehouse: (18, 3). Leads to Route 5.
-  - North-West Building: (4, 8).
+  - Magnet Train Station: (8, 3).
+  - Route 5 Gatehouse: (18, 3).
   - Copycat's House: (9, 11).
-- Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
-- NPCs: Pokefan M (18, 30), Lass (6, 14 / 7, 14), Lass (19, 8).
-- Copycat's House (Saffron 9, 11):
-  - 1F (25_11): Pokefan M (ID 1) at (2, 3) mentions she mimics; Pokefan F (ID 2) at (5, 4) calls her self-centered. Clefairy Sprite (ID 3) at (6, 6).
-  - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1). Dialogue: She refuses to stop mimicking.
-- Route 5 Saffron Gatehouse (25_14): Officer at (0, 4).
-## Route 5 Exploration (Turn 38458)
-- Current Position: (8, 17) on Route 5.
-- Warp at (8, 17) and (9, 17) leads back to Saffron City via the gatehouse.
-- Observation: Ledges at y=13 suggest a one-way path from the north.
-- Strategy: Head north to find Cerulean City.
-- Verified: Entered Route 5 from Saffron Gatehouse.
-## Kanto Strategy Update (Turn 38459)
-- Pivot: Returning to Saffron City to defeat Sabrina before proceeding to Cerulean.
-- Saffron Gym Location: (29, 12).
-- Route 5 Observation: Only path north from the gatehouse is at x=4 due to ledges at y=13.
-- Building at (10, 11) is marked "House for Sale".
+- Exits: South (Route 6), West (Route 7), North (Route 5).
+
+## PC Storage (Box 1)
+1. GLAIVE (SCYTHER) Lv14
+2. SELKIE (SEEL) Lv24
+3. DELTA (MANTINE) Lv20
+4. RANGOON (KRABBY) Lv22
+5. NOMURA (TENTACOOL) Lv17
+6. Ravioli (KRABBY) Lv10
+7. Ouroboros (DRATINI) Lv15
