@@ -39,8 +39,9 @@
   - Camper Dean (19, 11): Defeated.
   - Picnicker Edna (12, 15): Defeated.
   - Camper Sid (13, 4): Defeated.
-- **Observation:** Southern and middle lanes are blocked by walls/ledges. Access the northern lane (Rows 0-4) via the gap at (15, 5). The path is (15, 6) -> (15, 5) -> (15, 4).
-- **Time Tracking:** Started Route 9 Exploration at Turn 39167. (Currently Turn 39319).
+- **Observation:** Southern and middle lanes are blocked by walls/ledges. Reach the northern lane (Row 4) by using CUT on the tree at (5, 8). 
+- **Strategy:** From (6, 8), face West and use CUT. Move to (4, 8), then North to Row 4. Head West to Cerulean City.
+- **Time Tracking:** Started Route 9 Exploration at Turn 39167. (Currently Turn 39327).
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
@@ -48,4 +49,6 @@
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
-- (15, 5) is a critical gap to reach the northern lane of Route 9.
+- (15, 5) and (16, 9) are gaps allowing Northward travel.
+- (9, 7) is a ledge allowing Southward travel to the lower section.
+- (5, 8) is a cuttable tree that must be cleared to reach Cerulean City.
