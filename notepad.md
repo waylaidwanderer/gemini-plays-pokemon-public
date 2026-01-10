@@ -18,10 +18,6 @@
 ## Travel to Kanto
 - **Goal:** Reach Celadon Dept. Store.
 - **Location:** Goldenrod Dept. Store Elevator.
-- **Status:** Going to 1F.
-- **Action:** Positioning at Elevator Controls (3, 1).
-- **Reason:** Step off warp tiles immediately to avoid accidental exit.
-- **Plan:**
-  1. Move to (3, 1).
-  2. Select 1F.
-  3. Exit Store -> Magnet Train.
+- **Status:** At Controls (3, 1).
+- **Action:** Pressing A to open Elevator Menu.
+- **Next:** Select 1F -> Exit Store -> Magnet Train.
