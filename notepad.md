@@ -27,7 +27,8 @@
 - **Goal:** Hunt Raikou/Entei.
 ## Roamer Hunt Strategy
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Batch Sequence:** `['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up']`
-- **Start Turn:** 30680
+- **Method:** 2-Turn Split Cycle
+  - **Turn 1 (Current):** Move Down (Enter Route 37).
+  - **Turn 2:** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`).
+- **Confirmation:** Batching inputs *across* a warp (e.g., Reset+Hunt) fails because inputs during the transition are ignored.
 - **Repel:** Active (Applied ~30924). Check periodically.
-- **Adjustment:** Using 4 Downs/4 Ups to ensure deep grass access and reliable return warping.
