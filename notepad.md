@@ -25,9 +25,9 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting (Optimized Loop).
-- **Method:** Single-Turn Full Cycle.
-- **Sequence:** Down x3 (Enter Grass), Left, Right (Hunt), Up x3 (Return).
-- **Observation:** Previous turn confirmed inputs work across map transition.
-- **Time:** Start ~Turn 30680. Current 30911.
+- **Status:** Hunting (Optimized Loop v2).
+- **Method:** Single-Turn Full Cycle (Reset & Hunt).
+- **Sequence:** Up (Reset), Down x3 (Enter Grass), Left, Right (Hunt), Up x4 (Return & Ensure Reset).
+- **Observation:** Adding extra 'Up' inputs to ensure map transition back to Ecruteak.
+- **Time:** Start ~Turn 30680. Current 30912.
 - **Next Step:** Continue Loop or Handle Encounter.
