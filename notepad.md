@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 115 - Hunting on Rt 37).
-- **Note:** Running hunt tool.
-- **Repel:** Active (~146 steps).
+- **Status:** Roaming Hunt Loop - Active (Batch Cycle 111+).
+- **Note:** Searching for Raikou/Entei.
+- **Repel:** Active.
