@@ -51,7 +51,7 @@
   - Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
   - Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
   - Medium Doris (Defeated): (3, 4) in (1,A). Slowpoke (Lv 34), Slowbro (Lv 36).
-  - Psychic Jared: (17, 4) in (3,A).
+  - Psychic Jared: (17, 4) in (3,A). Mr. Mime (Lv 32), Exeggcute (Lv 32).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
