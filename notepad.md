@@ -7,8 +7,8 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Phone Call Interruption (Wade). Clearing text.
-- **Current Turn:** 32167.
+- **Status:** Resuming Hunt Cycle (Turn 32169).
+- **Current Turn:** 32169.
 - **Repel Steps:** 0/200 used.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
