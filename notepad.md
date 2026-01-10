@@ -28,8 +28,8 @@
 
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996 (Current: 31616)
-- **Status:** Traversing National Park (South Exit).
-- **Goal:** Enter Route 35 Gatehouse.
-- **Action:** Pressing Down to trigger warp at (11, 47).
-- **Note:** Standing on Warp Carpet. Tile below is marked WALL, but `WARP_CARPET_DOWN` implies Down exit.
+- **Status:** Route 35 Gatehouse.
+- **Goal:** Enter Route 35 -> Goldenrod City.
+- **Action:** Marking NPCs and walking South to exit.
+- **Note:** Bug Catching Contest active (Saturday).
 - **Roamer Hunt:** Resupply run continues.
