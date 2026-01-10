@@ -8,10 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** Confirming Purchase (Turn 32516).
-- **Action:** Bought 6 Super Repels.
-- **Remaining Money:** ~222 Yen.
-- **Next Step:** Exit Menu -> Return to Johto.
+- **Status:** Purchase Complete (Turn 32517).
+- **Inventory:** +6 Super Repels.
+- **Money:** ~222 Yen.
+- **Next Step:** Exit Menu -> Walk to Saffron -> Train to Goldenrod.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
