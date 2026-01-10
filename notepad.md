@@ -31,9 +31,9 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration (Turn 39779)
-- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Saffron to Goldenrod.
-- **Goal:** Return to Saffron City to continue the Kanto journey.
+## Magnet Train Restoration (Turn 39788)
+- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Goldenrod back to Saffron.
+- **Goal:** Defeat Sabrina at the Saffron Gym.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
