@@ -25,10 +25,9 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle B).
-- **Method:** 2-Turn Cycle (Split).
-- **Cycle A:** Move Down from Ecruteak to Route 37 (Ends at 8,0).
-- **Cycle B:** Down x2 (Grass), Left, Right (Hunt), Up x3 (Return to Ecruteak).
-- **Observation:** Single-turn loop fails because system halts after map transition. Split cycle is required.
-- **Time:** Start ~Turn 30680. Current 30919.
-- **Next Step:** Execute Cycle B (Hunt & Return).
+- **Status:** Repel Wore Off (Interrupted).
+- **Method:** Paused to Refuel.
+- **Cycle Status:** Was in Cycle B (at 8,1). Inputs blocked by text.
+- **Action:** Clearing text. Next turn: Use Super Repel.
+- **Time:** Start ~Turn 30680. Current 30921.
+- **Next Step:** Apply Super Repel.
