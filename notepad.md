@@ -61,3 +61,8 @@
 - (17, 17): Unreachable (verified by run_code).
 - Started Turn: 38311 (Power Plant Objective)
 - Timestamp: Friday, January 9, 2026 at 11:50 PM PST
+## Route to Lavender Town
+- Plan: Saffron City -> Route 8 Gatehouse (39, 22) -> Route 8 -> Lavender Town.
+- Obstacle: Wall at (38, 21) in Saffron City.
+- Detour: Move left to column 37, then down to row 22, then right to the gatehouse.
+- Status: Moving toward gatehouse.
