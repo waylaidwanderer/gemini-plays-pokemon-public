@@ -23,10 +23,10 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Route 37 (Entrance).
+- **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Entering Route 37.
+- **Status:** Menu Navigation (Applying Repel).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Text cleared. Moving south to enter Route 37. Will apply Super Repel immediately upon arrival.
-- **Time:** Start ~Turn 30680. Current 30698.
-- **Next Step:** Apply Super Repel -> Execute Hunt.
+- **Notes:** Entered Route 37. Opening menu to apply Super Repel before starting the hunt to avoid low-level encounters.
+- **Time:** Start ~Turn 30680. Current 30699.
+- **Next Step:** Select Pack -> Use Super Repel -> Close Menu -> Hunt.
