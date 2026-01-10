@@ -25,7 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town (Overworld).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Fly Map.
-- **Method:** Press A to select 'FLY'.
-- **Next Step:** Navigate Fly Map (Likely Left -> Up -> Left to Ecruteak).
-- **Notes:** Pidgey selected. 'FLY' should be the first option in the submenu. Using `slow_press` to confirm selection.
+- **Status:** Navigating Fly Map and Confirming.
+- **Method:** `navigate_menu` (Left -> Up -> Left -> A).
+- **Notes:** Following 'Lessons Learned': Using `navigate_menu` with `hold_ms=300` for Fly Map. Path: New Bark -> Cherrygrove (Left) -> Violet (Up) -> Ecruteak (Left).
