@@ -75,3 +75,8 @@
 - Pokemon Center: (5, 5). Found!
 - Radio Tower (formerly Pokemon Tower): Northeastern part of town.
 - Strategy: Explore town, then head north to Route 10/Power Plant.
+## Lavender Radio Tower 1F Notes
+- (2, 7), (3, 7): Exit to Lavender Town.
+- Receptionist: (6, 6).
+- Super Nerd: (2, 4).
+- Strategy: Talk to staff to learn about the tower and potentially get the Radio Card or EXPN Card.
