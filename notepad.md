@@ -38,4 +38,6 @@
 - **Gym Guide (6, 11):** Noted the Power Plant was abandoned but now powers the Magnet Train.
 - **Gym Guide (2, 9):** Confirmed an essential generator part was stolen.
 - **Gym Guide (5, 5):** Offered to trade MAGNETON for DUGTRIO. (Declined).
-- **Manager:** Location unknown, likely in the back (generator room).
+- **Officer (9, 3):** Confirmed the Manager is "up ahead" (likely to the east) and is upset about the wrecked generator.
+- **Fisher (14, 10):** To be interviewed.
+- **Manager:** Location likely in the eastern generator room. Exploring (18, 7) area.
