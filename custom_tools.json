@@ -114,23 +114,41 @@
     ]
   },
   "roamer_hunt_cycle": {
-    "description": "Automates the loop of transitioning from Ecruteak City to Route 37, hunting in the grass, and returning to Ecruteak to reset Roamer positions. Assumes player starts at Ecruteak (18, 35).",
+    "description": "Automates the roamer hunt loop. If in Ecruteak, moves to Route 37. If in Route 37, hunts in grass and returns to Ecruteak. Requires current map info.",
     "input_schema": {
       "type": "object",
       "properties": {
         "steps": {
           "type": "integer",
-          "description": "Number of steps to wiggle in the grass",
           "default": 10
+        },
+        "current_map_id": {
+          "type": "string"
+        },
+        "player_x": {
+          "type": "integer"
+        },
+        "player_y": {
+          "type": "integer"
         }
-      }
+      },
+      "required": [
+        "current_map_id",
+        "player_x",
+        "player_y"
+      ]
     },
-    "python_script": "import json\n\nsteps = 10\nif 'steps' in input_data:\n    try:\n        steps = int(input_data['steps'])\n    except:\n        steps = 10\n\nbuttons = []\n# From Ecruteak (18, 35) -> Route 37 (8, 0)\nbuttons.append(\"Down\")\n\n# Move to grass on Route 37 (from 8,0 to 8,2)\nbuttons.append(\"Down\")\nbuttons.append(\"Down\")\n\n# Wiggle in grass\nfor i in range(steps):\n    if i % 2 == 0:\n        buttons.append(\"Left\")\n    else:\n        buttons.append(\"Right\")\n\n# Realign if we ended on Left\nif steps % 2 != 0:\n    buttons.append(\"Right\")\n\n# Return to Ecruteak (Up from 8,2 -> 8,0 -> Transition)\nbuttons.append(\"Up\")\nbuttons.append(\"Up\")\nbuttons.append(\"Up\")\n\nprint(json.dumps(buttons))",
+    "python_script": "import json\n\nsteps = 10\ncurrent_map_id = \"\"\nplayer_x = 0\nplayer_y = 0\n\nif 'steps' in input_data:\n    steps = int(input_data['steps'])\nif 'current_map_id' in input_data:\n    current_map_id = input_data['current_map_id']\nif 'player_x' in input_data:\n    player_x = int(input_data['player_x'])\nif 'player_y' in input_data:\n    player_y = int(input_data['player_y'])\n\nbuttons = []\n\nif current_map_id == \"4_9\": # Ecruteak\n    buttons.append(\"Down\")\n\nelif current_map_id == \"10_4\": # Route 37\n    # Assuming start at (8, 0)\n    buttons.append(\"Down\")\n    buttons.append(\"Down\") # To (8, 2)\n    \n    for i in range(steps):\n        if i % 2 == 0:\n            buttons.append(\"Left\")\n        else:\n            buttons.append(\"Right\")\n    \n    if steps % 2 != 0:\n        buttons.append(\"Right\")\n        \n    buttons.append(\"Up\")\n    buttons.append(\"Up\")\n    buttons.append(\"Up\") # Back to Ecruteak\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-10T19:20:59.721Z",
         "action_counter": 32161
+      },
+      {
+        "commit_message": "Updated to be context-aware. Checks current_map_id to determine whether to transition maps or hunt in grass.",
+        "timestamp": "2026-01-10T19:25:02.533Z",
+        "action_counter": 32166
       }
     ]
   }
