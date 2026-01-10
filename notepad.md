@@ -4,11 +4,10 @@
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
 - **Navigation:** Buy 10 Super Repels (Celadon Dept. Store).
 
-## Resupply Plan
+## Celadon Search Log
 - **Goal:** Buy 10 Super Repels.
-- **Location:** Celadon Dept. Store (Current: 2F).
-- **Status:** checking Directory.
-- **Goldenrod Report:** 2F-5F checked. No Super Repels found.
+- **2F:** Trainer's Market (Balls/Meds). No Repels.
+- **3F:** Checking now...
 - **Financials:** ¥6772.
 
 ## Roamer Hunt
