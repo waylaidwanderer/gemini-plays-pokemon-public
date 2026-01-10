@@ -29,6 +29,6 @@
 - **Method:** 2-Turn Cycle.
 - **Cycle A:** Move Down to Route 37.
 - **Cycle B:** Hunt in grass & Return to Ecruteak.
-- **Notes:** Moving Up to enter Ecruteak City. This resets the roamers.
-- **Time:** Start ~Turn 30680. Current 30894.
-- **Next Step:** Move Down (Return to Route 37).
+- **Notes:** In Ecruteak. Turning and moving Down to Route 37. Input: Down, Down.
+- **Time:** Start ~Turn 30680. Current 30895.
+- **Next Step:** Execute Cycle B (Hunt & Return).
