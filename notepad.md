@@ -36,9 +36,10 @@
 
 ## Cerulean Gym Search Plan
 - Target Area: Central pools.
-- Method: Use ITEMFINDER manually to avoid tool errors.
-- Sequence: Start -> PACK -> Key Items -> Itemfinder -> USE.
+- Method: Use ITEMFINDER manually.
+- Menu Order: POKEDEX, POKEMON, PACK, GEAR, GEM, SAVE, OPTION, EXIT.
+- Sequence: Start -> Up, Up (to PACK) -> A -> Right, Right (to Key Items) -> Down x6 (to Itemfinder) -> A -> A (USE).
 - Interaction Log:
-  - (3, 3) facing Up (searching 3, 2): No result.
+  - (3, 3) facing Up (searching 3, 2): No result with direct A press.
 - Note: Itemfinder is the 7th Key Item.
 - Menu Recovery: Press B if needed.
