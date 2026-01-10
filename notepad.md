@@ -42,9 +42,12 @@
   - Cerulean Gym: (30, 23)
   - Pokemon Center: (19, 21)
   - Poke Mart: (25, 29)
+  - Fisher (Misty fan): (29, 26)
+  - Cooltrainer F: (21, 24)
+  - Slowpoke: (20, 24)
 - **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront him to recover the Machine Part.
-- **Progress:** Encountered Rocket Grunt in Gym; he fled. Now heading North to Route 24.
-- **Note:** Cooltrainer F at (21, 24). Slowpoke at (20, 24).
+- **Progress:** Encountered Rocket Grunt in Gym; he fled. Now heading North to Route 24. Path blocked by ledges at Row 21; must go around via X=18 or similar.
+- **Note:** Route 24 is North of the city. Need to find the exit.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
