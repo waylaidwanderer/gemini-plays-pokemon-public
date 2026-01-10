@@ -49,3 +49,9 @@
 ## Hypotheses & Item Tracking
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
+## Strategy for Saffron City
+- Goal: Find Saffron Gym and Route 5 exit.
+- Method: Explore the north-east quadrant.
+- Step 1: Head east along the main thoroughfare (y=6, 7).
+- Step 2: Look for building signs and NPCs to identify the Gym.
+- Step 3: Locate the northern gate to Route 5.
