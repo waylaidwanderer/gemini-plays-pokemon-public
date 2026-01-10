@@ -31,5 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2 (Current):** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 10).
-- **Repel:** Active (Steps used ~215/200 - Expecting expire).
+- **Status:** Executing automated hunt (Cycle 11).
+- **Repel:** Active (Steps used ~223/200 - Expecting expire).
