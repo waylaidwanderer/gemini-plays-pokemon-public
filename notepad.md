@@ -15,15 +15,10 @@
 - **Exploration:** Unmarked warps at (16,3) & (17,3) (Celadon Mansion back?).
 
 # Current Strategy
-## Master Ball Retrieval & Roamer Hunt
-- **Goal:** Retrieve Master Ball from Elm (New Bark Town).
-- **Location:** Celadon City.
-- **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Navigating Fly Map to Goldenrod.
-- **Action:** Press `Left` x2.
-- **Expectation:** Cursor moves New Bark -> Cherrygrove -> Violet (or similar).
-- **Next:** Continue navigating to Goldenrod -> Confirm.
-- **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
-- **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
-- **Lesson:** Always mark NPCs immediately. Missing 'Mom' caused a path interruption.
-- **Hypothesis Refinement:** If Master Ball is not in PC, verify if I have fulfilled ALL conditions (Rising Badge is confirmed). Possibility: Inventory was full when originally offered? (Unlikely, usually they hold it). Possibility: Already used?
+## Roamer Hunt (Raikou/Entei)
+- **Goal:** Encounter Raikou and Entei to register them in Pokedex.
+- **Location:** Blackthorn City (Current).
+- **Next Step:** Exit Mart, Fly to Ecruteak City.
+- **Loop:** Switch between Ecruteak and Route 37 to trigger roamer movement.
+- **Supplies:** 10 Super Repels acquired.
+- **Note on Master Ball:** Elm did not provide it. Checked Lab and Player PC. Possible I need to wait for a phone call from him first. Proceeding with Roamer Hunt (tracking only) for now.
