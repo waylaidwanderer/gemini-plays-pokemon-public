@@ -71,3 +71,7 @@
 - Currently at (12, 30). Street continues west.
 - Strategy: Explore the western edge of the city to find a path north or other landmarks.
 - Note: Silph Co. is extremely large and dominates the city center.
+## Saffron City Exploration Log (Turn 38385)
+- Currently at (8, 30). Street continues west.
+- Strategy: Moving to (4, 30) to see the western edge of the city.
+- Observation: Buildings on this side seem to be residential or smaller shops.
