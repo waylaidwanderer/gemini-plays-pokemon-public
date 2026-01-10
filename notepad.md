@@ -12,10 +12,8 @@
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant Crisis.**
-  - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path.
-  - Strategy: Level up team -> Restore Power Plant -> Re-challenge Sabrina.
-  - Obstacle: Restoring Power Plant is the main gate. Sabrina's Espeon (Lv 46) is a significant power gate.
+  - Obstacle: Sabrina's Espeon (Lv 46) is a significant power gate.
 
 ## Saffron City Notes
 - Silph Co: Center (16, 29).
