@@ -19,5 +19,6 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Walking to Magnet Train Station.
-- **Goal:** Board Train to Goldenrod.
+- **Status:** Inside Magnet Train Station.
+- **Action:** Talk to Officer to board train.
+- **Pass:** Confirmed in Key Items.
