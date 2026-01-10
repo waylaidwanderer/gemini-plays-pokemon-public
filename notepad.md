@@ -25,17 +25,21 @@
 - ICARUS (PIDGEOTTO): Lv19 | FLY
 
 ## Power Plant Investigation
-- **Clues:** Machine Part hidden in Cerulean Gym water. Rocket Grunt said "center of the gym's pool".
-- **Status:** Itemfinder "Yes!" at (4, 7) and (3, 7). "Nope!" at (3, 3).
-- **Goal:** Retrieve the Machine Part.
+- **Clues:** Machine Part hidden in Cerulean Gym water.
+- **Status:** Machine Part retrieved from (3, 8) on Turn 39544.
+- **Goal:** Return the Machine Part to the Power Plant Manager.
 
 ## Cerulean Gym Search Plan
-- Strategy: Systematic search of water tiles adjacent to central walkway (y=7).
-- Method: Face the target water tile from the walkway or an adjacent tile and press A.
-- Triangulation: Item is near (3, 7) and (4, 7).
-- Target Tiles: (3, 6), (3, 8), (4, 6), (4, 8), (5, 6), (5, 8).
+- Strategy: Systematic search completed.
+- Result: Found at (3, 8) by searching while standing at (3, 7) facing down.
+- Progress:
+  - (3, 3): 🚫 Itemfinder: Nope!
+  - (4, 7): ✨ Itemfinder: Yes!
+  - (3, 7): ✨ Itemfinder: Yes!
+  - (3, 8): ✅ Found Machine Part!
 
 ## Error Analysis & Lessons
 - Menu fumbles occur due to assuming menu resets. 
 - Solution: Observe menu state or press B multiple times to reset before long sequences.
-- Triangulation confirms item is in the central region (Y=6 to Y=9).
+- Itemfinder range is limited; triangulation is effective for finding hidden items.
+- Hidden items in water can be found by facing the tile and pressing A from an adjacent walkway.
