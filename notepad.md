@@ -68,3 +68,9 @@
 - Biker Zeke (10, 10): DEFEATED. Koffing (Lv 32), Koffing (Lv 32).
 - Super Nerd Tom (31, 12): DEFEATED. Magnemite (Lv 32), Magnemite (Lv 32).
 - Strategy: Battle for EXP while heading to Lavender.
+## Lavender Town Notes
+- (0, 8): Entrance from Route 8.
+- Mart: (1, 5).
+- Volunteer Pokemon House: (5, 9).
+- Pokemon Center: Likely in the eastern part of town (unseen).
+- Strategy: Heal at the Pokemon Center first.
