@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31602)
-- **Status:** Traveling to Goldenrod (Walking).
-- **Goal:** Reach Goldenrod City via Route 36 & 35.
-- **Action:** Crossing map border from Route 37 into Route 36.
-- **Next:** Head West/South on Route 36 to reach Route 35.
+- **Session Start:** Turn 30996 (Current: 31603)
+- **Status:** Traversing Route 36.
+- **Goal:** Reach Goldenrod City via Route 35 Gatehouse.
+- **Action:** Moving West/South to the Gatehouse at (18, 8).
+- **Next:** Enter Gatehouse -> Route 35 -> Goldenrod.
