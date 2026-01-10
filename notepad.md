@@ -102,3 +102,9 @@
 - NPC Lass at (6, 14) is moving.
 - Alleyway continues north to at least y=14.
 - Strategy: Moving north to (2, 14) to uncover the northern section of the city and search for the Route 5 exit.
+## Saffron City Exploration Log (Turn 38393)
+- Currently at (2, 15).
+- Alleyway continues north through (2, 14), (2, 13), (2, 12), (2, 11).
+- Unseen tiles at (1, 10), (2, 10), (3, 10) suggest the path continues.
+- Strategy: Moving north to (2, 10) to see if this path leads to the northern exit of the city.
+- Observation: Lass at (5, 14) is wandering.
