@@ -25,12 +25,11 @@
 - ICARUS (PIDGEOTTO): Lv19 | FLY
 
 ## Power Plant Investigation
-- **Status:** Machine Part retrieved from (3, 8) on Turn 39544 (Saturday, Jan 10, 2026).
+- **Status:** Machine Part retrieved from (3, 8) in Cerulean Gym.
 - **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
-  1. Exit Cerulean Gym.
-  2. Walk East from Cerulean City through Route 9 to Route 10 North.
-  3. Enter Power Plant and talk to the Manager at (14, 10).
+  1. Walk East from Cerulean City through Route 9 to Route 10 North.
+  2. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Lessons Learned
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
