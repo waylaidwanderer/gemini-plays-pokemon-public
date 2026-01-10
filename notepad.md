@@ -24,10 +24,10 @@
 - Diglett's Cave House: (21, 17) | Magnet Train House: (13, 13)
 - Fan Club: (7, 13) | Gym: (9, 18)
 
-## Current Objective: Withdraw KIMCHI
-- Start Turn: 38183 (Friday, Jan 9, 2026, 7:40 PM)
-- Status: Depositing Ouroboros into PC.
-- To-do: Complete deposit, withdraw KIMCHI (Box 1), exit PC.
+## Current Objective: Access Vermilion Gym
+- Start Turn: 38212
+- Status: KIMCHI withdrawn. Exiting Pokecenter.
+- To-do: Locate Cut tree at (9, 16), use Cut, enter Gym.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
