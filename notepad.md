@@ -35,7 +35,7 @@
 - **Status:** Roaming Hunt Loop - Active (No Repel).
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
-- **Status:** Roaming Hunt Loop - Menuing (Manual).
-- **Action:** Selecting MAX REPEL (Down x4).
-- **Tool Note:** Using `hold_ms=50` to prevent overshooting.
+- **Status:** Roaming Hunt Loop - Menuing (Correction).
+- **Action:** Scrolling UP to MAX REPEL (8 steps).
+- **Tool Note:** `navigate_menu` w/ `hold_ms=50` produced ~3 inputs. Trying `hold_ms=15` for single precision.
 - **Next:** Use Max Repel -> Exit Menu.
