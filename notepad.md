@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town (Overworld).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Restarting Fly Sequence.
-- **Method:** Start -> A (Enter Pokemon).
-- **Notes:** Previous attempt failed (was in Overworld, walked left instead of moving map cursor). Restarting menu navigation. Assuming cursor memory is on Pokemon.
+- **Status:** navigating to Party Menu.
+- **Method:** Navigate Menu: B -> Start -> Align (Up x8) -> Pokemon -> Select Pidgey (Slot 4).
+- **Notes:** Correction: Gyarados does NOT have Fly. Pidgey (Slot 4) has Fly. Opening menu to select Pidgey.
