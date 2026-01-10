@@ -29,22 +29,16 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Strategy:** Follow the Rocket Grunt who fled Cerulean Gym to recover the Machine Part. Suspected to be on Route 24.
+- **Strategy:** Follow the Rocket Grunt who fled Cerulean Gym to recover the Machine Part. Suspected to be on Route 24. After defeating him, search the Cerulean Gym water for the part.
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
-- **Detour Note:** Direct North path is blocked by Row 21 ledges. An open path North exists on the EAST side of the Gym through the gap at (33, 23) and (34, 23).
-- **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront and defeat him to reveal the Machine Part's location.
-- **Strategy:** Move North to Route 24. After defeating the Grunt, return to Cerulean Gym and search the water for the Machine Part.
-- **Current Task:** Finding the exit to Route 24 in Northern Cerulean City. (33, 13) is blocked by walls to the North; heading West to look for a passage.
+- **Strategy:** To bypass the Row 21 ledges, use the gap at (33, 23) on the east side of the Gym. Then move North to (27, 9) to exit the city toward Route 24.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
 - End Turn: 39336
-- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated.
-- Key Gaps: (15, 5) and (16, 9) allow Northward travel.
-- Ledges: (9, 7) allows Southward travel.
-- Cut Tree: (5, 8).
+- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated. Area fully explored.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
