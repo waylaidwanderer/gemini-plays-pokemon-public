@@ -50,10 +50,10 @@
 - Cabin 2 (Rows 14-23): Met the Gentleman (2, 17) who lost his granddaughter.
 - Strategy: Check for a third cabin segment or Captain's Cabin (Rows 24-33).
 - Access: Explore east on FastShip 1F (15_3) for more warps.
-- Lower Deck (Map 15_7): Met a Sailor at (30, 6) who is looking for his "lazy bum" buddy.
-- Hypothesis: The missing granddaughter is with the missing sailor.
-- Strategy: Find the missing sailor on the lower deck. Check western corridors (x=26, x=28).
-- Pathfinding: Corridor at y=5 is open.
-- Target: Super Nerd at (26, 9) in the western corridor.
-- Observation: Sailor ID 2 at (31, 6) disappeared and was replaced by Sailor ID 1 at (30, 6).
-- Navigation: Move around the sailor at (30, 6) via (31, 6) and (31, 5).
+- Lower Deck (Map 15_7): Met a Sailor at (30, 6) (ID 1) who is looking for his "lazy bum" buddy.
+- Observation: Sailor ID 1 moved to (31, 6) and disappeared. Sailor ID 2 appeared at (31, 6).
+- Hypothesis: The missing granddaughter is with the missing sailor in the western corridors.
+- Strategy: Navigate to the western side of the deck via the gaps at y=4 or y=5.
+- Pathfinding: The wall at x=29 only has gaps at y=4 and y=5. Sailor ID 2 at (31, 6) is blocking the eastern access to these gaps.
+- Navigation Plan: Move Left to (30, 7), then Up through (30, 6) and (30, 5) to reach the gaps.
+- Target: Find the "lazy" sailor and the granddaughter. Also check Super Nerd at (26, 9).
