@@ -21,9 +21,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31671
-- **Status:** Selling Revives (Selection).
+- **Session Start:** Turn 31672
+- **Status:** Setting Sell Quantity.
 - **Goal:** Sell 5 Revives.
-- **Current State:** Cursor on REVIVE.
-- **Action:** Pressing A to select.
-- **Next:** Set Quantity (5) -> Confirm -> Exit to Buy Menu.
+- **Current State:** "How many?" (x01).
+- **Action:** Pressing Up x4 (to reach 5) -> A (Confirm).
+- **Next:** Exit Menu -> Buy Super Repels.
