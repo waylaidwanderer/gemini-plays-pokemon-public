@@ -89,7 +89,7 @@
     ]
   },
   "navigate_menu": {
-    "description": "Navigates menus with delays between inputs. Supports holding buttons (via repetition) and intervals. Default hold_ms is 50ms (safe for menus).",
+    "description": "Navigates menus with delays between inputs. Supports holding buttons (via repetition) and intervals. Default hold_ms is now 30ms (approx 2 frames) to prevent auto-repeat or double registration, with a 350ms interval.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -111,18 +111,24 @@
         },
         "hold_ms": {
           "type": "integer",
-          "default": 50
+          "default": 30
         },
         "interval_ms": {
           "type": "integer",
-          "default": 300
+          "default": 350
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, the tool will automatically press the calculated button sequence."
         }
       },
       "required": [
-        "directions"
+        "directions",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndirections = input_data.get('directions', [])\n# Default hold_ms to 50ms (approx 3 frames) for safer menu navigation\nhold_ms = int(input_data.get('hold_ms', 50)) \ninterval_ms = int(input_data.get('interval_ms', 300))\n\nbuttons = []\nframe_duration = 16.7 # ms per frame approx at 60fps\n\n# Calculate number of frames to hold the button\n# Ensure at least 1 frame press\npresses = max(1, int(hold_ms / frame_duration))\n\nvalid_buttons = [\"Up\", \"Down\", \"Left\", \"Right\", \"A\", \"B\", \"Start\", \"Select\"]\n\nfor d in directions:\n    if d in valid_buttons:\n        for _ in range(presses):\n            buttons.append(d)\n        if interval_ms > 0:\n            buttons.append(f\"sleep {interval_ms}\")\n\nprint(json.dumps(buttons))",
+    "python_script": "def navigate_menu(directions, hold_ms=30, interval_ms=350, autopress_buttons=False):\n    \"\"\"\n    Generates a sequence of button presses for menu navigation.\n    \n    Args:\n        directions (list): List of buttons to press in order.\n        hold_ms (int): How long to hold each button in ms. default 30ms (~2 frames).\n        interval_ms (int): How long to wait between presses in ms. default 350ms.\n        autopress_buttons (bool): Whether to automatically press the buttons.\n    \n    Returns:\n        list: The sequence of buttons and sleep commands.\n    \"\"\"\n    import math\n\n    # Frame duration is approx 16.6ms. \n    # Rounding up to ensure at least 1 frame if hold_ms > 0\n    frames_to_hold = max(1, math.ceil(hold_ms / 16.0))\n    \n    sequence = []\n    \n    for button in directions:\n        # Add the button repeated for the number of frames to hold\n        for _ in range(frames_to_hold):\n            sequence.append(button)\n        \n        # Add the sleep command\n        if interval_ms > 0:\n            sequence.append(f\"sleep {interval_ms}\")\n            \n    if autopress_buttons:\n        print(f'{sequence}')\n        return sequence\n    else:\n        print(f'{sequence}')\n        return sequence\n",
     "history": [
       {
         "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
@@ -163,6 +169,11 @@
         "commit_message": "Updated default hold_ms to 50ms (approx 3 frames) to prevent overshooting in menus. Added explicit logic to calculate frames based on 60fps.",
         "timestamp": "2026-01-10T11:55:08.297Z",
         "action_counter": 31501
+      },
+      {
+        "commit_message": "Refined navigate_menu to avoid double inputs. Reduced default hold_ms to ensure single distinct presses and slightly increased interval_ms for safety.",
+        "timestamp": "2026-01-10T16:36:32.514Z",
+        "action_counter": 31891
       }
     ]
   },
