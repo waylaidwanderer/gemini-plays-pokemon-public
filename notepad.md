@@ -66,3 +66,8 @@
 - Turn 38383: At (16, 30). Silph Co. building occupies the center of the city.
 - Pathfinding to (11, 30) failed, likely due to unseen tiles. Moving manually to (12, 30) to expand visibility.
 - NPC Pokefan M is wandering around (18, 30).
+## Saffron City Exploration Log (Turn 38384)
+- Discovered Pokemon Center at (9, 29).
+- Currently at (12, 30). Street continues west.
+- Strategy: Explore the western edge of the city to find a path north or other landmarks.
+- Note: Silph Co. is extremely large and dominates the city center.
