@@ -56,3 +56,5 @@
   - (1, 15) [TL] | (5, 15) [TR] -> (3,C) (15, 17)
   - (1, 17) [BL] | (5, 17) [BR]
   - Trainer: Psychic Franklin (3, 16)
+- Psychic Franklin:
+  - Kadabra (Lv 37): Psychic. Neutral to Ground. Low Physical Defense.
