@@ -53,5 +53,5 @@
 - [Turn 38289] Raichu defeated. KIMCHI grew to Lv36.
 - [Turn 38292] Electabuzz defeated.
 - [Turn 38294] Battling Surge's Electrode (Lv 40). Electrode used Double Team. GNEISS using Strength. Strategy: Maintain physical pressure. GNEISS is immune to Electric. Strength PP: 11/15. HP: 128/146.
-- [Turn 38297] First Electrode defeated. Surge's 2nd Electrode (Lv 40) is out. GNEISS's Defense is sharply fell (Screech from previous Electrode). Strength PP: 10/15. HP: 128/146.
-- [Turn 38298] Continuing Strength sweep. Immunity to Electric is key. Goal: Thunder Badge.
+- [Turn 38298] Strength used. Electrode's HP is in the yellow. Light Screen fell.
+- [Turn 38299] Continuing Strength sweep. Immunity to Electric is key. Goal: Thunder Badge.
