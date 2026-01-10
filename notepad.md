@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31610)
-- **Status:** Entering National Park.
-- **Goal:** Traverse National Park to reach Goldenrod.
-- **Action:** Crossing map border into National Park.
-- **Note:** Bug Catching Contest is active (Saturday).
-- **Previous:** Successfully navigated Route 36 Gatehouse.
+- **Session Start:** Turn 30996 (Current: 31612)
+- **Status:** Interrupted by Phone Call (Gaven).
+- **Goal:** Finish call -> Enter National Park.
+- **Action:** mashing B to clear dialogue.
+- **Context:** Cooltrainer Gaven is calling. Likely a rematch offer or chatter.
+- **Previous:** Just stepped into National Park Gate area.
