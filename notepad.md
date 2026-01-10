@@ -27,7 +27,7 @@
 - NPCs: Pokefan M (18, 30), Lass (6, 14).
 - Copycat's House (Saffron 9, 11):
   - 1F (25_11): Pokefan M (ID 1) at (2, 3) mentions she mimics; Pokefan F (ID 2) at (5, 4) calls her self-centered. Clefairy Sprite (ID 3) at (6, 6).
-  - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1).
+  - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1). Dialogue: She refuses to stop mimicking.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
