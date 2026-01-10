@@ -10,9 +10,10 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter
-- Status: Found the lazy sailor at (30, 6). He has returned to duty (clearing the path north).
 - Clues: Granddaughter is likely with the Captain.
-- Strategy: Explore the newly opened area north and west on B1F to find the Captain's cabin and the missing girl.
+- Strategy: Explore the cabins on 1F to find the 'lazy bum' buddy.
+- Attempt 1: Caught sailor at (30, 6) goofing off (B1F). Buddy at (31, 6) still blocks path.
+- Hypothesis: Catching the first sailor wasn't enough; must find the buddy on 1F or kitchen to trigger them both to return to duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
