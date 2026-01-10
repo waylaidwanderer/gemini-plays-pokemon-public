@@ -51,6 +51,7 @@
 - Soul House: (13, 11).
 - Radio Tower: Northeastern part of town. 1F Receptionist (6, 6), Manager (9, 1), Officer (15, 1) blocks stairs.
 - House (3, 13): Lavender Speech House. Pokefan F (2, 3) is here.
+
 ## Lessons & Observations
 - Root Hypothesis Check: Building labels must be verified by Map ID or NPC interaction (dialogue) before being documented as permanent markers. (Turn 38852)
 - Counter/Wall Behavior: Counters act as WALL tiles and must be interacted with from an adjacent tile. Verified in Centers and Radio Tower.
@@ -60,13 +61,9 @@
 - Started Turn: 38868
 - Goal: Reach Power Plant.
 - Pokefan Robert (8, 12): DEFEATED.
-- Hiker Jim (17, 3): Engaging.
+- Hiker Jim (17, 3): Battling. Machamp (Lv 35).
+
 ## Route 10 South Navigation Log
-- Turn 38886: Attempted to navigate to (14, 0). Tool returned empty buttons.
-- Observation: (16, 6) is surrounded by FLOOR on three sides and LEDGE_HOP_DOWN above.
-- Constraint: find_path_v3_fixed treats unseen tiles as impassable. Many tiles between (16, 6) and (14, 0) are unseen.
-- Hypothesis: I need to manually explore north to reveal tiles so the tool can find a path.
-- Plan:
-  1. Move Up to (16, 5) (LEDGE_HOP_DOWN) to jump over the ledge.
-  2. Explore the area north of the ledge.
-  3. Re-run pathfinding once more tiles are seen.
+- Turn 38888: Manually explored to (14, 4) via gap at (14, 5). Revealed northern path.
+- Observation: Ledges at y=5 and y=9 are one-way (down). Path at x=19 is clear.
+- Plan: Defeat Hiker Jim, then navigate to (19, 0) to cross to Route 10 North.
