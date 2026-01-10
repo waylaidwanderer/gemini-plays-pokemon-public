@@ -12,17 +12,16 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor (ID 2) is at (31, 6), blocking the eastern corridor. Path at (30, 6) is clear.
-- Strategy: Bypass sailor by moving through (30, 7) -> (30, 6) -> (30, 5).
-- Target: Explore western side via row 5. Find the entrance to the southern corridors (x=26, 28).
+- Status: Investigating B1F. Sailor at (30, 6) blocks the corridor at x=30.
+- Strategy: Bypass sailor at (30, 6) by moving through (31, 7) -> (31, 6) -> (31, 5). Reach western side via gaps at row 5.
+- Target: Explore western side. Target (25, 5) to uncover unseen tiles and find an entrance to the southern corridors.
 - Obstacle: Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
-- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Both sailors now on duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City).
 - MVP: GNEISS (Graveler) Lv 51. Ground-type immunity to Electric.
-- Training: Level up ICARUS and Ouroboros.
 
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
