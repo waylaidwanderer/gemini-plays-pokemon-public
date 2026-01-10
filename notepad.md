@@ -36,10 +36,10 @@
 - **EXPN Card Phase Start:** 39659
 - **Saffron Arrival Turn:** 39674
 - **Copycat's House Arrival:** 39689
-- **Status:** Copycat (Saffron 2F) confirmed her Poké Doll was lost in Vermilion City. She promised a Rail Pass in return.
+- **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
 - **Plan:**
   1. Fly to Vermilion City.
-  2. Search Vermilion City for the lost Poké Doll (check landmarks like the Fan Club).
+  2. Search Vermilion City for the lost Poké Doll.
   3. Return the doll to Copycat in Saffron City.
   4. Obtain the Rail Pass.
 
