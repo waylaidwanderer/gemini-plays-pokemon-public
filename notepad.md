@@ -11,10 +11,9 @@
 - HOLE: Fall to floor below.
 
 ## Active Quest: Find Granddaughter
-- Status: Investigating lower deck (B1F).
-- Clue: Gentleman (2, 17) on 1F said she's energetic and bugging someone.
-- Progress: Spoke to the "lazy" sailor. Path to western corridors should be clear.
-- Strategy: Explore western corridors of B1F to find the girl. Check Super Nerd at (26, 9) and the Captain.
+- Status: Investigating lower deck (B1F). Path at (30, 6) is clear after map reset.
+- Strategy: Navigate to western side via (30, 5) and (29, 5). Target: Super Nerd at (26, 9).
+- Goal: Find the "lazy bum" sailor and the missing girl.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
