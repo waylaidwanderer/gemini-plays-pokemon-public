@@ -36,7 +36,8 @@
 - Note: Building door previously at (51, 19) is actually the Pokemon Center at (11, 1) on Route 10 North.
 ## Strategy for Reaching Power Plant
 - Current Location: Route 10 North (7_14).
-- Obstacle: Power Plant is separated by water.
-- Solution: Use Surf at (16, 0) or nearby water tiles.
-- Path: From (14, 0), move to (15, 0), face right, and use Surf on (16, 0). Follow the water path south to the Power Plant.
+- Obstacle: Power Plant is separated by water. Wall at x=15 blocks direct access from (14, 0).
+- Goal: Find a gap in the wall at x=15 or find another water access point.
+- Path: Explore south from (14, 0) towards (14, 6) to see if the wall at x=15 ends.
+- Alternative: Check Route 9 for water access leading to Route 10 North's water.
 - Verification: Sign at (12, 1) confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
