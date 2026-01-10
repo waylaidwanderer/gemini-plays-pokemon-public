@@ -37,5 +37,5 @@
 - **Officer (4, 14):** Confirmed a thief broke into the Power Plant.
 - **Gym Guide (6, 11):** Noted the Power Plant was abandoned but now powers the Magnet Train.
 - **Gym Guide (2, 9):** Confirmed an essential generator part was stolen.
-- **Gym Guide (5, 5):** To be interviewed.
-- **Manager:** Location unknown, likely in the back.
+- **Gym Guide (5, 5):** Offered to trade MAGNETON for DUGTRIO. (Declined).
+- **Manager:** Location unknown, likely in the back (generator room).
