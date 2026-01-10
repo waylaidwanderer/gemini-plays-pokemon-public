@@ -12,8 +12,8 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715.
-- Status: Investigating B1F. Sailor at (30, 6) is blocking the main corridor.
-- Strategy: Go around the sailor via (31, 6) and (31, 5) to reach the western side.
+- Status: Investigating B1F. Path at (30, 6) is clear.
+- Strategy: Explore western corridors of B1F (x=26, x=28) to find the missing girl.
 - Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for "lazy bum" buddy. Found buddy at (30, 6).
 
 ## Kanto Strategy
