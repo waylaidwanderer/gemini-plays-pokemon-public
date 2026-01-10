@@ -35,3 +35,9 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+## Saffron Gym Exploration (Turn 38480)
+- Layout: A series of rooms connected by warp panels.
+- Tile Mechanics:
+  - WARP_PANEL: Steps on to teleport to another panel within the gym.
+- Strategy: Speak with the Gym Guide for advice, then begin testing warp panels to map the path to Sabrina.
+- Goal: Create a warp panel map in the notepad.
