@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31577)
-- **Status:** Resupply Run - Menuing (Correction).
-- **Action:** Exiting Pokegear (B x3).
+- **Session Start:** Turn 30996 (Current: 31578)
+- **Status:** Resupply Run - Initiation.
+- **Action:** Opening Start Menu.
 - **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Error:** Confused Pokegear Map (Key Item) with Fly Map (Pokemon Move). Cannot fly from Pokegear.
-- **Next:** Start Menu -> Pokemon -> Mistral -> Fly.
+- **Note:** Gaven (Route 26) offered a rematch.
+- **Next:** Select Pokemon -> Mistral -> Fly.
