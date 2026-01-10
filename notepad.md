@@ -23,27 +23,28 @@
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
 
 ## Movesets (HM Users)
-- KIMCHI (GLOOM): CUT, FLASH
-- GNEISS (GRAVELER): STRENGTH
-- LAPIS (POLIWAG): SURF, WHIRLPOOL, WATERFALL
-- ICARUS (PIDGEOTTO): FLY
-
-## Rock Tunnel Navigation
-- Connections: 1F (27, 13) <-> B1F (3, 3); 1F (15, 9) <-> B1F (17, 9); 1F (5, 3) <-> B1F (23, 3); 1F (27, 3) <-> B1F (25, 23).
+- KIMCHI (GLOOM): Lv40 | CUT, FLASH
+- GNEISS (GRAVELER): Lv53 | STRENGTH
+- LAPIS (POLIWAG): Lv12 | SURF, WHIRLPOOL, WATERFALL
+- ICARUS (PIDGEOTTO): Lv19 | FLY
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Found a Team Rocket Grunt inside Cerulean Gym! He seems to be the thief.
-- **Next Step:** Confront the Rocket Grunt in Cerulean Gym.
+- **Status:** Met Rocket Grunt in Cerulean Gym. He fled the building.
+- **Next Step:** Chase the Rocket Grunt to Route 24 (North).
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
 - **Goal:** Find the thief and the Machine Part.
-- **Status:** Rocket Grunt fled the Gym. He is likely on Route 24 (North).
-- **Next Step:** Search Route 24 for the Rocket Grunt.
-- **Plan:** Navigate North through Cerulean City to reach Route 24. Look for the Grunt on the bridge.
-- **Progress:** Talked to Fisher (Misty fan). Encountered Rocket Grunt in Gym; he fled. Now heading North to Route 24.
-- **Note:** Cooltrainer F at (21, 24). Gym is at (30, 23). Route 9 entrance at (39, 22).
+- **Status:** Chasing the Rocket Grunt North.
+- **Key Locations:**
+  - Entrance from Route 9: (39, 22)
+  - Cerulean Gym: (30, 23)
+  - Pokemon Center: (19, 21)
+  - Poke Mart: (25, 29)
+- **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront him to recover the Machine Part.
+- **Progress:** Encountered Rocket Grunt in Gym; he fled. Now heading North to Route 24.
+- **Note:** Cooltrainer F at (21, 24). Slowpoke at (20, 24).
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
@@ -52,3 +53,13 @@
 - Key Gaps: (15, 5) and (16, 9) allow Northward travel.
 - Ledges: (9, 7) allows Southward travel.
 - Cut Tree: (5, 8).
+
+## Lessons Learned
+- NPCs act as walls and must be navigated around.
+- "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
+- Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
+- FLOOR_UP_WALL is not jumpable from the North.
+- Always check for gaps in ledges for passage.
+- (15, 5) and (16, 9) are gaps allowing Northward travel.
+- (9, 7) is a ledge allowing Southward travel to the lower section.
+- (5, 8) is a cuttable tree that must be cleared to reach Cerulean City.
