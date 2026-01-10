@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 37 (7, 2).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Repel Wore Off.
-- **Method:** `press_buttons` (B).
-- **Notes:** Repel expired mid-hunt. Need to clear text and re-apply.
-- **Next Step:** Clear Text -> Use Super Repel -> Resume Loop.
+- **Status:** Opening Menu to Apply Repel.
+- **Method:** `press_buttons` (Start).
+- **Notes:** Cleared text. Opening menu to access Pack and apply Super Repel.
+- **Next Step:** Select Pack -> Use Super Repel -> Resume Loop.
