@@ -61,6 +61,8 @@
 - Test 2: Press Up at (2, 13) facing (2, 12). Result: FAILED (Tile is a WALL).
 - Conclusion: Porthole tiles at (0, 12) and (2, 12) are NOT doors.
 - Hypothesis 3: Porthole tiles might require pressing 'A'.
-- Test 3: Press A at (4, 13) facing (4, 12). Result: [Pending]
-- Observation: Pink sprites at (1, 17) and (6, 17) are not in the object list; likely background tiles.
-- Strategy: If (0, 12) is a wall, check all other porthole tiles (2, 12), (4, 12), (6, 12) and then explore 1F cabins.
+- Test 3: Press A at (4, 13) facing (4, 12). Result: FAILED (No interaction).
+- Conclusion: Porthole tiles are just decorative walls.
+- Quest: Find the Gentleman's missing granddaughter. Started Turn: 37715.
+- Strategy: Explore all cabins on 1F (Map 15_3) to find a path to the lower deck or bridge.
+- Note: Sprites at (6, 15) and (6, 17) in 15_5 are background tiles, not NPCs.
