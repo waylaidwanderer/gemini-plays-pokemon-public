@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31568)
-- **Status:** Resupply Run - Menuing.
-- **Action:** Finishing call with Mom (B x2) -> Map Card next.
+- **Session Start:** Turn 30996 (Current: 31569)
+- **Status:** Resupply Run - Menuing (Retry).
+- **Action:** Opening Pokegear (Manual A).
 - **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
-- **Note:** Using `navigate_menu` to safely advance text.
+- **Note:** Back at Start Menu. Pokegear cursor likely on PHONE. Will perform safe navigation next.
