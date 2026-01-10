@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31571)
+- **Session Start:** Turn 30996 (Current: 31572)
 - **Status:** Resupply Run - Menuing.
-- **Action:** Activating Map Mode (A).
+- **Action:** Moving Map Cursor (Down x2).
 - **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
-- **Note:** Top menu selected (MAP). Pressing A to control cursor.
-- **Lesson:** Pokegear inputs are sensitive; using single manual inputs.
+- **Note:** Using short presses (`hold_ms=15`) to avoid overshooting.
+- **Path:** Route 37 -> Route 36/35 -> Goldenrod.
