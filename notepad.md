@@ -50,5 +50,5 @@
 
 ## Active Quests
 - Find the Gentleman's missing granddaughter. Started Turn: 37715.
-- Current Lead: Explore all cabins on 1F (Map 15_3). Check sailor at (20, 17) on 1F.
+- Current Lead: Explore all cabins on 1F (Map 15_3). Check sailor at (24, 17) on 1F.
 - Note: Sprites at (6, 15) and (6, 17) in 15_5 are background tiles.
