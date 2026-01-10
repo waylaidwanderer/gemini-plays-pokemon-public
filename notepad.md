@@ -19,10 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Adjust Quantity to 10.
-- **Status:** Incrementing (Test Phase).
-- **Reasoning:** Testing input sensitivity. Sending 4 'Up' inputs. Target: x05.
-- **Plan:** If x05, send remaining 5 'Up's next. If x09 (double input), adjust strategy.
+- **Action:** Confirm Quantity (10) & Buy.
+- **Status:** Incrementing to 10.
+- **Reasoning:** Currently at x05. Need 5 more 'Up' inputs to reach x10. Then will press 'A' to confirm.
+- **Next:** Confirm Purchase -> Exit Menu.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
