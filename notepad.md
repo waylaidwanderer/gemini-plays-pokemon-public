@@ -31,14 +31,14 @@
 - **Next Step:** Head to Cerulean City to find the thief.
 
 ## Route 9 Exploration
-- **Start Turn:** 39167
+- **Start Turn:** 39167 (Duration: 134+ turns)
 - **Goal:** Find path to Cerulean City (West).
 - **Status:**
   - Picnicker Heidi (41, 8): Defeated.
   - Hiker Sidney (39, 15): Defeated.
   - Camper Dean (19, 11): Defeated.
   - Picnicker Edna (12, 15): Defeated.
-  - Camper Sid (13, 4): Currently battling.
+  - Camper Sid (13, 4): Defeated. (Pending victory).
 - **Observation:** Southern and middle lanes are blocked by walls/ledges. Northern lane (Rows 0-5) reachable via gap at (16, 9) seems to lead west.
 
 ## Lessons Learned
