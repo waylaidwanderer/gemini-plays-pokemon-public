@@ -113,31 +113,6 @@
       }
     ]
   },
-  "roamer_hunt_cycle": {
-    "description": "Executes one full roamer check cycle on Route 37. Starts at (8,0), walks south to (8,5) to check grass, walks back north to (8,0), steps up to Ecruteak to reset map, and steps back down to Route 37 (8,0). Safe for battles (only D-pad inputs).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "def roamer_hunt_cycle(**kwargs):\n    import json\n    # Down x5 (Check Grass)\n    # Up x5 (Return to Gate)\n    # Up x1 (Enter Ecruteak)\n    # Down x1 (Return to Route 37)\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\"]\n    print(json.dumps(buttons)) # Always print to stdout for autopress capture\n    return buttons",
-    "history": [
-      {
-        "commit_message": "Define roamer_hunt_cycle tool for automated grass checking and map resetting.",
-        "timestamp": "2026-01-10T18:43:31.265Z",
-        "action_counter": 32101
-      },
-      {
-        "commit_message": "Redefining roamer_hunt_cycle with explicit json import and print to ensure valid output.",
-        "timestamp": "2026-01-10T18:45:45.826Z",
-        "action_counter": 32104
-      },
-      {
-        "commit_message": "Fixing tool to always print JSON output and handle arguments flexibly.",
-        "timestamp": "2026-01-10T18:48:00.661Z",
-        "action_counter": 32107
-      }
-    ]
-  },
   "hunt_cycle_v2": {
     "description": "Executes one full roamer check cycle on Route 37. Starts at (8,0), walks south to (8,5) to check grass, walks back north to (8,0), steps up to Ecruteak to reset map, and steps back down to Route 37 (8,0). Safe for battles (only D-pad inputs).",
     "input_schema": {
