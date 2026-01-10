@@ -31,17 +31,9 @@
 
 ## Route 10 North Progress
 - (11, 1): Pokemon Center (Map 7_14).
-## Route 9 Progress
-- (54, 17): Transition to Route 10 North (14, 0).
-- Goal: Find water access at eastern edge to Surf to Power Plant.
-- Note: Building door previously at (51, 19) is actually the Pokemon Center at (11, 1) on Route 10 North.
 
-## Strategy for Reaching Power Plant
-- **Attempt 1 (Turn 39056):** Tried Route 10 North (7_14) at (14, 0). Blocked by wall at x=15.
-- **Hypothesis 1:** Route 9 (7_13) has water access at (56, 4) that leads south to Route 10 North water.
-- **Success:** Reached water at (56, 4) on Route 9.
-- **Plan:** Surf south along the corridor (x=56/57) until transitioning to Route 10 North. Follow the water path to the Power Plant.
-- **Verification:** Sign at (12, 1) in Route 10 North confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
-- **Failed Hypotheses:**
-    - Gap in wall at x=15 on Route 10 North (No gap seen up to y=6).
-    - Direct access to (56, 6) or (56, 7) from (54, 6) (Blocked by wall at x=55).
+## Power Plant Investigation
+- **Start Turn:** 39084
+- **Officer (4, 14):** Confirmed a thief broke into the Power Plant.
+- **Gym Guide (6, 11):** To be interviewed.
+- **Manager:** Location unknown, likely in the back.
