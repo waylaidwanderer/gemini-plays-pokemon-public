@@ -45,3 +45,4 @@
 - [Turn 38254] Moving to engage Rocker Justin at (4, 7). Approach from (4, 8).
 - Strategy: Use GNEISS to sweep.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
+- [Turn 38258] Battling Rocker Justin at (4, 7). Leading with GNEISS.
