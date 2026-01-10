@@ -28,8 +28,8 @@
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** Multi-Turn Split Loop (Manual).
-  - **Step 1:** Ecruteak -> Rt 37 (Done).
-  - **Step 2 (Current):** Rt 37 Grass Hunt & Return.
-  - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up` (Return to 8,0).
-- **Status:** Hunting in Route 37 (Start at 8,0).
-- **Repel:** Active (Steps used ~115/200).
+  - **Step 1 (Current):** Route 37 (8,0) -> Ecruteak (Reset).
+  - **Step 2:** Ecruteak -> Rt 37 -> Grass.
+  - **Step 3:** Hunt & Return.
+- **Status:** Resetting Roamers (Warping to Ecruteak).
+- **Repel:** Active (Steps used ~120/200).
