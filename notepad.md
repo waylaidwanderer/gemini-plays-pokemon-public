@@ -20,9 +20,9 @@
   - Silph Co: Center of city (South Wall at 16, 29).
   - Pokemon Center: (9, 29).
   - Magnet Train Station: (8, 3).
-  - Route 5 Gatehouse: (18, 3).
+  - Route 5 Saffron Gatehouse: (18, 3). Leads to Route 5.
   - Copycat's House: (9, 11).
-- Exits: South (Route 6), West (Route 7), North (Route 5).
+- Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
