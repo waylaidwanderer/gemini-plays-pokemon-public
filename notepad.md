@@ -17,7 +17,6 @@
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
-  - Strategy: Retrieve the stolen Machine Part to restore power.
   - Plan: Search Route 24 (North) for the Rocket Grunt -> Defeat Grunt -> Search Cerulean Gym water for Machine Part -> Return Part to Power Plant.
 
 ## PC Storage (Box 1)
@@ -31,7 +30,7 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Clues:** Machine Part stolen. Shady character (Rocket Grunt) fled Cerulean Gym to Route 24.
+- **Clues:** Machine Part stolen. Rocket Grunt fled Cerulean Gym to Route 24.
 - **Investigator Analysis:** Grunt is likely hiding on the bridge. Defeating him reveals the part's location.
 
 ## Battle Strategy: Rocket Grunt
@@ -40,7 +39,7 @@
 - Backup: Calcifer (Lv58 Typhlosion) with Thunderpunch.
 
 ## Route 9 Exploration (Completed)
-- Summary: Fully explored. Cut tree at (5, 8) cleared.
+- Summary: Fully explored, all trainers defeated.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
