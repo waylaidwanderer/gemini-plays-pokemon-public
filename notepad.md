@@ -24,7 +24,7 @@
 
 ## Session Information
 - **Current Location:** Olivine Mart.
-- **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Finalizing Transaction.
-- **Method:** Press A (Confirm Purchase) -> Press B (Exit Menus) -> Leave Mart.
-- **Notes:** Buying 15 Super Repels for 7500 Yen. Wallet will have 1272 Yen left. Next step: Fly to Ecruteak.
+- **Goal:** Fly to Ecruteak City.
+- **Status:** Exiting Mart.
+- **Method:** Press B (Close Dialogue) -> Down x4 (Exit Mart).
+- **Notes:** Transaction complete. 15 Super Repels acquired. Heading to Ecruteak to start the Beast Hunt.
