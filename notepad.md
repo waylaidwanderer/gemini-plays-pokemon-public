@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Fly Map.
-- **Method:** Press A (Select Mistral) -> Press A (Select Fly).
-- **Notes:** Mistral is selected. Next step: confirm map opens and navigate Left x3 to Ecruteak.
+- **Status:** Flying to Ecruteak.
+- **Method:** Fly Map: Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak) -> A.
+- **Notes:** Cursor confirmed at New Bark Town. 3 Lefts should reach Ecruteak. Engaging Fly using navigate_menu for reliability.
