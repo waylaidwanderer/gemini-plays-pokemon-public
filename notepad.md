@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Maintenance (Menu).
+- **Status:** Resuming Hunt.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Menu open on PACK. Entering Pack to find Super Repel.
-- **Time:** Start ~Turn 30680. Current 30845.
-- **Next Step:** Find Super Repel -> Use.
+- **Notes:** Repel applied (Turn 30846). Resuming loop with 'hunt_cycle_ecruteak_rt37'.
+- **Time:** Start ~Turn 30680. Current 30846.
+- **Next Step:** Execute Hunt Cycle.
