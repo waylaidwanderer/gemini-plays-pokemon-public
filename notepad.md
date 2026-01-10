@@ -4,11 +4,13 @@
 - **Menu Safety:** Start Menu cursor remembers previous position (e.g., PACK). Always verify cursor before pressing A.
 - **Efficiency:** Super Repels (2.5 ¥/step) > Max Repels (2.8 ¥/step).
 - **Fly Map:** Vertical movement is safer.
+- **Interruptions:** Phone calls can interrupt movement patterns; always check screen text and confirm position after clearing.
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
 - **Method:** Blind Hunt Loop (Route 37 <-> Ecruteak).
 - **Tactics:** Rt 37 Grass -> Wiggle -> Return -> Repeat.
+- **Mechanic:** Repel blocks wild Pokemon (Lv15) but allows Roamers (Lv40).
 
 ## Tile Mechanics
 - GRASS: Traversable, encounters.
@@ -22,20 +24,10 @@
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
 - **Navigation:** Route 37 (Grass Area).
 
-## Session Information
-- **Current Location:** Ecruteak City (18, 35).
-- **Goal:** Hunt Raikou/Entei.
-## Roamer Hunt Strategy
-- **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** 2-Turn Split Cycle
-  - **Turn A (Current):** Hunt in Route 37 (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
-  - **Turn B:** Move Down (Enter Route 37).
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** 2-Turn Cycle
-  - **Step 1 (Current):** Ecruteak -> Route 37 (Enter & Hunt).
-  - **Step 2:** Route 37 -> Ecruteak (Return).
-  - **Pattern:** `Down` (Enter). Next turn: `Down, Down` (Grass), `Left, Right` (Hunt), `Up...` (Return).
-- **Status:** Phone Call Interrupt (Wade).
-- **Repel:** Active (Steps used ~70/200).
+- **Method:** Single Turn Loop
+  - **Action:** `Down` (Enter), `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
+- **Status:** Hunting (Route 37 Grass).
+- **Repel:** Active (Steps used ~80/200).
