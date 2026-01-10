@@ -37,5 +37,5 @@
   - **Step 1:** Route 37 (8,1) -> Ecruteak.
   - **Step 2 (Current):** Ecruteak -> Route 37 (Apply Repel).
   - **Pattern:** `Down` (Enter), `Menu` (Repel), `Down` (Grass), `Left/Right` (Hunt), `Up...` (Return).
-- **Status:** Moving to Route 37.
-- **Repel:** Expired. Renewing on arrival.
+- **Status:** Applying Super Repel.
+- **Repel:** Renewing (7 left).
