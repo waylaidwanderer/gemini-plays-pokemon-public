@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31613)
-- **Status:** Phone Call (Gaven).
-- **Goal:** Finish call -> Enter National Park.
-- **Action:** Mashing B to clear dialogue loop.
-- **Context:** Gaven asking about Pokemon health.
-- **Previous:** Interrupted while entering National Park.
+- **Session Start:** Turn 30996 (Current: 31614)
+- **Status:** Entering National Park.
+- **Goal:** Reach Goldenrod City via National Park.
+- **Action:** Pressing Left to exit Gatehouse into Park.
+- **Note:** Gaven call finished. Resuming travel.
+- **Saturday Event:** Bug Catching Contest active.
