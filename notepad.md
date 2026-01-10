@@ -42,4 +42,7 @@
 - Pool B (South): (3, 8)-(4, 9).
 - Strategy: Search center water tiles (4, 6) and (4, 8).
 - Method: Surf onto the water tile and press A, or face the water tile from an adjacent FLOOR tile and press A.
-- Status: At (4, 7) facing DOWN. Checking (4, 8).
+- Status: Surfing at (4, 8) in Cerulean Gym. 
+- Goal: Find the Machine Part.
+- Plan: Use Itemfinder at (4, 8). If no signal, search (4, 9), (3, 8), (3, 9).
+- Interaction: To find hidden items, face the tile and press A, or stand on the tile and press A.
