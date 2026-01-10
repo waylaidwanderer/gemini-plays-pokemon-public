@@ -29,7 +29,8 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** Multi-Turn Split Loop (Manual).
   - **Step 1:** Ecruteak -> Rt 37 (Done).
-  - **Step 2 (Current):** Hunt in Grass (Rt 37).
-  - **Sequence:** `Down, Down` (Grass) -> `Left, Right` (Hunt) -> `Up, Up` (Return).
-- **Status:** Hunting in Route 37.
-- **Repel:** Active.
+  - **Step 2:** Hunt in Grass (Rt 37) (Done).
+  - **Step 3 (Current):** Return to Ecruteak (Reset).
+  - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
+- **Status:** Executing manual hunt sequence -> Ecruteak.
+- **Repel:** Active (Steps used ~132/200).
