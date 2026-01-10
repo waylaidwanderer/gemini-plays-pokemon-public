@@ -12,7 +12,7 @@
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
 - Night Shade: Deals fixed damage equal to the user's level.
-- Type Effectiveness: Bite (Dark) is super-effective against XENON (Ghost/Poison).
+- Type Effectiveness: Dark is super-effective against Ghost/Poison (Haunter).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -34,13 +34,7 @@
 - **Location Revealed:** The Machine Part is hidden in the water in the center of the Cerulean Gym.
 - **Next Step:** Return to Cerulean Gym and search the water for the part.
 
-## Battle Strategy: Rocket Grunt
-- Opponent: Golbat (Lv30).
-- Current Plan: Use Night Shade (43 fixed damage). 2HKO expected.
-- Backup: Calcifer (Lv58 Typhlosion) with Thunderpunch.
-
-## Route 9 Exploration (Completed)
-- Summary: Fully explored, all trainers defeated.
+## Route 9: Fully explored, all trainers defeated.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
