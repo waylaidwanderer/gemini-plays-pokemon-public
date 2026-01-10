@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Exiting Mart.
-- **Method:** Press B (Close Dialogue) -> Down x4 (Exit Mart).
-- **Notes:** Transaction complete. 15 Super Repels acquired. Heading to Ecruteak to start the Beast Hunt.
+- **Status:** Clearing Exit Dialogue.
+- **Method:** Press B (Close Text) -> Down (Trigger Warp).
+- **Notes:** "Please come again!" text triggered at the door. Clearing it to exit to Olivine City.
