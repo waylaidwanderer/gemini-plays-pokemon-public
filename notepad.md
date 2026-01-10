@@ -48,6 +48,6 @@
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
 ## Battle Log: Saffron Gym
-- Medium Rebecca:
+- Medium Rebecca (Defeated):
   - Drowzee (Lv 35): Psychic. Neutral to Ground.
   - Hypno (Lv 35): Psychic. Neutral to Ground.
