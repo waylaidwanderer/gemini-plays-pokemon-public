@@ -19,7 +19,7 @@
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Status:** Shopping.
-- **Action:** Talk to Clerk at (14, 5).
-- **Reasoning:** Left Clerk (13, 5) sells Medicines. Right Clerk must have Items.
-- **Next:** Buy Repels -> Exit.
+- **Status:** Checking Directory.
+- **Action:** Read Directory at (14, 0).
+- **Reasoning:** 2F clerks had no Repels. Need to find the correct floor.
+- **Next:** Read Directory -> Go to correct floor.
