@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Menu Navigation (Applying Repel).
+- **Status:** In Pack (Finding Repel).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Entered Route 37. Opening menu to apply Super Repel before starting the hunt to avoid low-level encounters.
-- **Time:** Start ~Turn 30680. Current 30699.
-- **Next Step:** Select Pack -> Use Super Repel -> Close Menu -> Hunt.
+- **Notes:** Opening Pack to find and use Super Repel. Leader (Lv 36) is perfect for filtering out locals but seeing Beasts (Lv 40).
+- **Time:** Start ~Turn 30680. Current 30700.
+- **Next Step:** Find Super Repel -> Use -> Hunt.
