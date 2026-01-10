@@ -26,3 +26,4 @@
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
 - **Tool Warning:** `navigate_menu` appears to register double inputs (e.g., one 'Up' becomes two 'Up' presses). Use `press_buttons` for precise menu navigation to avoid overshooting.
+- **Safety First:** Encountered a state desync (Intermediate States vs Current Screen). Aborted transaction to prevent accidental purchase of expensive items. Backing out fully before retrying.
