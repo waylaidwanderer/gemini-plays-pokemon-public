@@ -12,17 +12,15 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor (ID 1) is at (30, 6). Path at (31, 6) is clear.
-- Strategy: Move Right to (31, 7), then Up to (31, 6) and (31, 5) to bypass the sailor.
-- Target: Reach (25, 5) to explore western side.
-- Obstacle: Super Nerd at (26, 9) blocks the corridor at x=26.
-- Failure Log:
-    - Attempted (31, 7) to (26, 10) (Turns 37919-37945). Reason: Targeted blocked corridor (Super Nerd at 26, 9).
+- Status: Investigating B1F. Sailor (ID 2) is at (31, 6), blocking the eastern corridor. Path at (30, 6) is clear.
+- Strategy: Bypass sailor by moving through (30, 7) -> (30, 6) -> (30, 5).
+- Target: Explore western side via row 5. Target corridor at x=28.
+- Obstacle: Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
 - Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
-- Target 1: Lt. Surge (Vermilion City).
+- Target 1: Lt. Surge (Vermilion City). Recommended level 44-50.
 - MVP: GNEISS (Graveler) Lv 51. Ground-type immunity to Electric.
 
 ## Lessons Learned
