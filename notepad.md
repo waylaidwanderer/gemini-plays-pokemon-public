@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Fixing Hunt Tool.
-- **Method:** Redefining `hunt_cycle_ecruteak_rt37`.
-- **Notes:** Previous tool failed JSON parsing and lacked commit message. Updating with manual string construction and `sleep` for transitions.
-- **Time:** Start ~Turn 30680. Current 30858.
-- **Next Step:** Activate `hunt_cycle_ecruteak_rt37`.
+- **Status:** Running Automated Hunt.
+- **Method:** `hunt_cycle_ecruteak_rt37`.
+- **Notes:** Tool defined in Turn 30858. Executing now.
+- **Time:** Start ~Turn 30680. Current 30859.
+- **Next Step:** Repeat loop or handle encounter.
