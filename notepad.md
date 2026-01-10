@@ -12,16 +12,16 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor at (31, 6) blocks the eastern corridor. Path at (30, 6) is clear.
-- Strategy: Bypass sailor at (31, 6) by moving through (30, 7) -> (30, 6) -> (30, 5). Reach western side via gaps at row 5.
-- Target: Explore unseen tiles at x=25 to find an entrance to the southern corridors.
-- Clues: Gentleman (2, 17) on 1F says she's energetic and bugging someone. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
+- Status: Investigating B1F. Sailor (ID 1) is at (30, 6), blocking the x=30 corridor.
+- Strategy: Bypass sailor by moving through (31, 7) -> (31, 6) -> (31, 5).
+- Target: Explore western side via gaps at row 5. Target corridor at x=28.
+- Obstacle: Super Nerd at (26, 9) blocks the x=26 corridor.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City). Recommended level 44-50.
 - MVP: GNEISS (Graveler) Lv 51. Ground-type immunity to Electric.
-- Training: Level up ICARUS (Lv 19) and Ouroboros (Lv 15) on S.S. Aqua and near Vermilion.
 
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
@@ -29,6 +29,4 @@
 - NPCs may block corridors until specific events/dialogue.
 - NPCs update positions after a map transition.
 - Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
-- The southern corridors (x=26, 28) are separated from the northern section by a wall at row 6/7. Looking for a gap at x=25 or x=24.
-- Lesson: Object-linked markers are essential for tracking NPCs that move or swap positions.
-- Lesson: Map transitions (using warps) can reset NPC positions and dialogue.
+- Lesson: Object-linked markers are essential for tracking NPCs that move.
