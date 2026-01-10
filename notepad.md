@@ -18,10 +18,10 @@
 # Current Strategy
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (3F -> 2F).
+- **Location:** Celadon Dept. Store (2F).
 - **Action:** Talk to Left Clerk (13, 5).
 - **Status:** Positioning at (13, 3).
-- **Reasoning:** Checking full inventory for Repels. Previous check was incomplete.
+- **Reasoning:** Phone call interrupted movement. Finishing move to counter.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
