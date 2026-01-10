@@ -38,6 +38,5 @@
 - Hidden Rare Candy: Vermilion City water.
 - Fishing Rod: NPC at Pokecenter (7, 2).
 ## Vermilion Gym Observations
-- Gym Guide (Turn 38231): "The traps aren't active right now. You'll have no problem getting to LT.SURGE."
-- Status: Engaging Gentleman Gregory at (8, 8). Leading with GNEISS (Graveler).
-- Strategy: Clear all trainers before testing the "inactive traps" claim.
+- Gym Guide (Turn 38231): "The traps aren't active right now."
+- Strategy: Confirm if the trash can puzzle is bypassed by walking to Lt. Surge after defeating trainers.
