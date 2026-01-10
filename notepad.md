@@ -23,9 +23,10 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 3F.
-- **Status:** Arrived on 3F. Checking Clerk.
-- **Action:** Pathfinding to Clerk at (6, 1).
+- **Status:** Positioning to talk to Clerk.
+- **Action:** Pathfinding to (6, 3).
+- **Reason:** Clerk is at (6, 1) inside counter enclosure. Access point is likely from the front (Row 3).
 - **Plan:**
-  1. Move to (6, 1).
-  2. Check Inventory (Battle Items/TMs).
-  3. If no Super Repel, check 4F or 5F.
+  1. Move to (6, 3).
+  2. Face Up -> Interact.
+  3. Check inventory for Super Repels.
