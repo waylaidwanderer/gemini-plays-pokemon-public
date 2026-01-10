@@ -43,13 +43,14 @@
 - **Key Locations:**
   - Entrance from Route 9: (39, 22)
   - Cerulean Gym: (30, 23)
-  - Fisher: (29, 26) (Stationary?)
-- **Plan:** Talk to NPCs and check the Gym for the thief. Restoring power to the Radio Tower requires the Machine Part first.
+  - Fisher: (30, 26) (Moving)
+- **Plan:** Talk to NPCs (Fisher, etc.) and check the Gym for the thief. Restoring power to the Radio Tower requires the Machine Part first.
+- **Strategy for Thief:** Check Gym water and behind Gym buildings. Talk to citizens for clues.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
 - End Turn: 39336
-- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated. Area fully explored.
+- Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated.
 - Key Gaps: (15, 5) and (16, 9) allow Northward travel.
 - Ledges: (9, 7) allows Southward travel.
 - Cut Tree: (5, 8).
