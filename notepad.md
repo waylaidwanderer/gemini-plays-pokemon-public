@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 55 - Route 37 Entry).
-- **Repel:** Active (Low - est. < 37 steps).
-- **Note:** Repel renewed at Turn 31158. Used ~163 steps since.
+- **Status:** Repel Expired (Cycle 55). Renewing.
+- **Repel:** Inactive.
+- **Next:** Close text -> `apply_super_repel`.
