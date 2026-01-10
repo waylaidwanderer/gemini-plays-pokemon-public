@@ -30,8 +30,9 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Clues:** Machine Part stolen. Rocket Grunt fled Cerulean Gym to Route 24.
-- **Investigator Analysis:** Grunt is likely hiding on the bridge. Defeating him reveals the part's location.
+- **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
+- **Location Revealed:** The Machine Part is hidden in the water in the center of the Cerulean Gym.
+- **Next Step:** Return to Cerulean Gym and search the water for the part.
 
 ## Battle Strategy: Rocket Grunt
 - Opponent: Golbat (Lv30).
