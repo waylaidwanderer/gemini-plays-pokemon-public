@@ -30,12 +30,12 @@
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
 ## Magnet Train Restoration
-- **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
+- **Status:** Recovered Copycat's Poké Doll (LOST ITEM) from the Pokémon Fan Club in Vermilion City.
 - **Strategy:**
-  1. Search Vermilion City buildings for the lost doll. Current investigation: Pokémon Fan Club.
-  2. Speak to NPCs near identified Clefairy doll (2, 4) to claim it.
-  3. Return to Saffron City via Fly (select Saffron City icon on map, press A).
-  4. Give doll to Copycat on 2F of her house (9, 11) in Saffron.
+  1. Exit the Pokémon Fan Club and move to a neutral tile in Vermilion City.
+  2. Use Fly to travel to Saffron City.
+  3. Return the Poké Doll to Copycat on 2F of her house (9, 11) in Saffron.
+  4. Obtain the Rail Pass.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
