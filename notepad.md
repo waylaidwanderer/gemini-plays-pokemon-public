@@ -121,3 +121,9 @@
 - Observed horizontal wall/floor pattern at y=2-6.
 - Strategy: Move east along the y=6 corridor to (12, 6) to find a gap or entrance to the northern section.
 - Observation: The building at (4-7, 8-11) blocks direct north movement from the east side of this alley.
+## Saffron City Exploration Log (Turn 38399)
+- Currently at (2, 6).
+- Pathfinding to (12, 6) failed due to unseen tile at (8, 6).
+- Building confirmed at (4-7, 8-11).
+- Strategy: Moving manually to (7, 6) to reveal the area east of the current alley.
+- Goal: Find a way to the northern part of the city or the Route 5 exit.
