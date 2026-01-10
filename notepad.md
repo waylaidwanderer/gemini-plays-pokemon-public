@@ -19,11 +19,12 @@
 - **Goal:** Encounter Raikou and Entei.
 - **Location:** Route 37.
 - **Start Turn:** 32028.
+- **Current Turn:** 32046.
 - **Setup:** Super Repel Active.
 - **Hunting Loop:**
-  1. Move Down to Route 37 (8,0).
-  2. Walk South into Grass (approx 8,5).
-  3. If no encounter, Walk North to Ecruteak.
+  1. Move Up (Reset in Ecruteak).
+  2. Move Down (Re-enter Route 37).
+  3. Tool `rt37_hunt_return` (Check grass).
   4. Repeat.
 - **Mechanics:** Repel filters Lvl < 36. Roamers are Lvl 40.
 

@@ -114,7 +114,7 @@
     ]
   },
   "rt37_hunt_return": {
-    "description": "Executes the Route 37 hunting sequence: Moves down into grass, checks for roamers, and moves back up to warp to Ecruteak. Assumes starting at Route 37 (8,0).Safe to use with Super Repel as it does not press 'A'.",
+    "description": "Executes the Route 37 grass check: Moves down into grass (5 steps) and returns to start (5 steps). Assumes start at (8,0).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -128,7 +128,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def rt37_hunt_return(autopress_buttons=False):\n    import json\n    # Path: Start (8,0). \n    # Move Down x5 to reach (8,5) (Deep into grass).\n    # Move Up x5 to return to (8,0) and then exit north to Ecruteak.\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\"]\n    \n    if autopress_buttons:\n        print(json.dumps(buttons))\n    return buttons",
+    "python_script": "def rt37_hunt_return(autopress_buttons=False):\n    import json\n    # Start at (8,0). \n    # Down x5 to (8,5) (Grass).\n    # Up x5 to (8,0) (Gate).\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\"]\n    \n    if autopress_buttons:\n        print(json.dumps(buttons))\n    return buttons",
     "history": [
       {
         "commit_message": "Initial version",
@@ -139,6 +139,11 @@
         "commit_message": "Fixed tool definition to include commit message and verified step count.",
         "timestamp": "2026-01-10T18:03:10.609Z",
         "action_counter": 32034
+      },
+      {
+        "commit_message": "Simplified tool to only handle the grass check loop (Down x5, Up x5) to avoid map transition issues.",
+        "timestamp": "2026-01-10T18:09:47.252Z",
+        "action_counter": 32045
       }
     ]
   }
