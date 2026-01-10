@@ -25,6 +25,7 @@
 ## Session Information
 - **Current Location:** New Bark Town (Overworld).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Selecting Pidgey in Party.
-- **Method:** Escape Pokedex (B x3) -> Start -> Pokemon (Down) -> Select Pidgey (Down x3) -> Open Submenu (A).
-- **Notes:** Using `slow_press` with 800ms delay to ensure menu navigation reliability. Previous attempt failed due to input timing/desync. Pidgey is in Slot 4.
+- **Status:** Opening Fly Map.
+- **Method:** Press A to select 'FLY'.
+- **Next Step:** Navigate Fly Map (Likely Left -> Up -> Left to Ecruteak).
+- **Notes:** Pidgey selected. 'FLY' should be the first option in the submenu. Using `slow_press` to confirm selection.
