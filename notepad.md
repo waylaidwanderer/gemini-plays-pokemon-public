@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Active (Tool Step - Recovery).
-- **Note:** Resuming hunt from (8,1) after call.
+- **Status:** Roaming Hunt Loop - Active.
+- **Note:** Executing hunt pattern in grass.
 - **Repel:** Active.
