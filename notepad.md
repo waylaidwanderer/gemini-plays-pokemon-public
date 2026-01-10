@@ -27,9 +27,10 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31641)
-- **Status:** In Sell Menu.
-- **Goal:** Sell 5 Revives.
-- **Action:** Selecting "SELL" -> Finding "REVIVE".
-- **Inventory:** Revive x7.
-- **Plan:** Sell 5 -> Cash ~5000¥ -> Buy Super Repels.
+- **Session Start:** Turn 30996 (Current: 31642)
+- **Status:** Correcting Menu State.
+- **Goal:** Enter SELL Menu.
+- **Action:** Pressing B (Exit Buy) -> Down (Select Sell) -> A (Confirm).
+- **Tool Issue:** `navigate_menu` mashed inputs (5x), causing entry into BUY menu. Using `press_buttons` for precision.
+- **Market Intel:** Bottom Clerk has Poke/Great Balls, Escape Rope, Repel. Likely NO Super Repel.
+- **Plan:** Sell Revives here -> Find Super Repels elsewhere (Top Clerk?).
