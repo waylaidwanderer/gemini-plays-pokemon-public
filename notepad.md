@@ -50,3 +50,4 @@
 - Lt. Surge's Team (Observed): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
 - Current Strategy: GNEISS (Lv 52) Strength sweep. Immune to Electric moves. Strength PP: 9/15. HP: 78/146.
 - [Turn 38301] Surge's Electrode used Explosion. GNEISS survived. Surge sent out Magneton (Lv 40). Continuing with Strength.
+- [Turn 38303] Magneton is Electric/Steel. Strength is resisted. Switching to Calcifer (Lv 58) for Flame Wheel (Super Effective). GNEISS HP: 78/146.
