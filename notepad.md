@@ -41,7 +41,7 @@
 
 ### Saffron Gym Battle Strategy
 - **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
-- **Current Status:** GNEISS (Lv53) active vs Alakazam (Lv48). Calcifer (Lv58) at 5 HP.
+- **Current Status:** GNEISS (Lv53) fainted. Calcifer (Lv58) at 5 HP. XENON (Lv43) sent in to attempt Hypnosis.
 - **Tactics:** GNEISS uses Earthquake to exploit Alakazam's low Physical Defense.
 
 ## Lessons Learned
