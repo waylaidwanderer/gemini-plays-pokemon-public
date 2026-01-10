@@ -35,6 +35,8 @@
 - **Status:** Roaming Hunt Loop - Active (No Repel).
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
+- **Status:** Roaming Hunt Loop - Menuing.
+- **Action:** Opening Start Menu to use Max Repel.
+- **Note:** Mistral has Blue Apricorn.
 - **Battle:** Wild Spinarak caught. Nickname: "AAAAAAAAAA" (Accidental mash).
-- **Plan:** Enter Ecruteak -> Use Max Repel -> Return to Route 37.
-- **Status:** Crossing border to Ecruteak to reroll roamers.
+- **Repel:** Inactive (Using Max Repel next).
