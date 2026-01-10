@@ -29,6 +29,6 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Split Cycle
   - **Turn A:** Hunt in Route 37 (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
-  - **Turn B:** Move Down (Enter Route 37).
-- **Status:** Resuming Cycle A (Modified from 8,1).
-- **Repel:** Active (Applied ~30924). Steps used: ~200/200. **EXPECT EXPIRATION NOW.**
+  - **Turn B (Current):** Move Down (Enter Route 37).
+- **Status:** Executing Turn B (Enter Route 37).
+- **Repel:** Active (Applied ~30924). Steps used: ~210/200. **EXPIRATION IMMINENT.**
