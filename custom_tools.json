@@ -186,19 +186,19 @@
       }
     ]
   },
-  "hunt_roamers_cycle": {
-    "description": "Executes a Roamer hunting loop: Transitions from Ecruteak to Route 37, checks grass, and returns.",
+  "hunt_roamers_cycle_v2": {
+    "description": "Executes a robust Roamer hunting loop with extended sleeps. Warps from Ecruteak to Rt 37, checks two grass tiles, and returns.",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "print('[\"Down\", \"sleep 3500\", \"Down\", \"Down\", \"Left\", \"Right\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\", \"sleep 3500\"]')",
+    "python_script": "print('[\"Down\", \"sleep 4500\", \"Down\", \"Down\", \"Left\", \"Right\", \"Right\", \"Left\", \"Up\", \"Up\", \"Up\", \"sleep 4500\"]')",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T07:01:54.489Z",
-        "action_counter": 31063
+        "timestamp": "2026-01-10T07:03:10.748Z",
+        "action_counter": 31065
       }
     ]
   }
