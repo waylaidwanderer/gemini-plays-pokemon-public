@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (Entrance).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Clearing Phone Call.
+- **Status:** Resuming Hunt.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Wade called (Turn 30770). Still clearing dialogue. Repel active (~160 steps).
-- **Time:** Start ~Turn 30680. Current 30772.
-- **Next Step:** Clear Text -> Execute Hunt.
+- **Notes:** Wade's call cleared. Resuming hunt loop. Repel active (~160 steps).
+- **Time:** Start ~Turn 30680. Current 30773.
+- **Next Step:** Enter Route 37 -> Execute Hunt.
