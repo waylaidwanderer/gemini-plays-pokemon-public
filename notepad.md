@@ -19,7 +19,7 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Exiting Elm's Lab -> Walking to Player's House.
-- **Action:** Step Down to Exit -> Enter House -> Check PC.
-- **Hypothesis:** Master Ball is in PC Item Storage.
+- **Status:** Walking to Player's House (New Bark Town).
+- **Action:** Enter House -> Check PC Item Storage.
+- **Reasoning:** Master Ball likely stored in PC.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
