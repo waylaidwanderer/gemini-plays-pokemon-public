@@ -35,6 +35,5 @@
 - **Status:** Roaming Hunt Loop - Active (No Repel).
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
-- **Battle:** Wild Spinarak (Loom). Catching with Poke Ball.
+- **Battle:** Wild Spinarak (Loom). Attempt 2 (First broke free).
 - **Next:** Nickname "Loom". Resume Hunt.
-- **System Behavior:** `press_buttons` strips mixed directional/action inputs (e.g., `["Up", "A"]` becomes `["Up"]`). Must split across turns.
