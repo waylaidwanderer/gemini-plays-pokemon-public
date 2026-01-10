@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting.
-- **Method:** `hunt_check_route37`.
-- **Notes:** Back on Route 37. Super Repel active. Executing hunt routine.
-- **Time:** Start ~Turn 30680. Current 30716.
-- **Next Step:** Check for Encounter -> Return to Ecruteak.
+- **Status:** Clearing Phone Call.
+- **Method:** Blind Hunt Loop.
+- **Notes:** Wade called again (Turn 30717). Interrupting the flow. Clearing text then resetting roamers.
+- **Time:** Start ~Turn 30680. Current 30717.
+- **Next Step:** Clear Text -> Return to Ecruteak -> Return to Route 37.
