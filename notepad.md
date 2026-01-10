@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Resuming Hunt.
+- **Status:** Hunting (Route 37 Loop).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Repel applied (Turn 30846). Resuming loop with 'hunt_cycle_ecruteak_rt37'.
-- **Time:** Start ~Turn 30680. Current 30846.
-- **Next Step:** Execute Hunt Cycle.
+- **Notes:** Super Repel active. Executing hunting cycle.
+- **Time:** Start ~Turn 30680. Current 30847.
+- **Next Step:** Continue Loop if no encounter.
