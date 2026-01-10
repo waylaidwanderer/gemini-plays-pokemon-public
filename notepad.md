@@ -35,5 +35,5 @@
 - **Method:** 2-Turn Cycle
   - **Step 1 (Current):** Ecruteak -> Route 37 (Move Down).
   - **Step 2:** Route 37 Hunt (Grass Wiggle) -> Return to Ecruteak.
-- **Status:** Hunting in Route 37 -> Returning to Ecruteak.
-- **Repel:** Active. Steps used: ~139/200.
+- **Status:** Moving to Route 37.
+- **Repel:** Active. Steps used: ~146/200.
