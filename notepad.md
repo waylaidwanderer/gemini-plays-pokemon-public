@@ -29,5 +29,5 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** `hunt_roamers_cycle` Tool.
   - **Sequence:** Ecruteak -> Rt 37 (Grass Wiggle) -> Ecruteak.
-- **Status:** Tools cleaned up & defined. Ready to execute.
+- **Status:** Executing `hunt_roamers_cycle` (Looping).
 - **Repel:** Active.
