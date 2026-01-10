@@ -27,6 +27,8 @@
 ## Power Plant Investigation
 - **Start Turn:** 39084
 - **Return to Power Plant Phase Start:** 39630
+- **Status:** Handing over Machine Part to Manager at (14, 10).
 - **Plan:**
-  1. Enter Power Plant at (3, 9).
-  2. Return Machine Part to Manager at (14, 10).
+  1. Finish dialogue with Manager to return Machine Part.
+  2. Obtain reward (if any) and confirm Power Plant is restored.
+  3. Head to Saffron City to check on the Magnet Train.
