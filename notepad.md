@@ -32,17 +32,14 @@
 - **Start Turn:** 39084
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** The Machine Part is hidden in the water in the center of the Cerulean Gym.
-- **Next Step:** Search the water in the center of Cerulean Gym. Use Itemfinder to pinpoint the location.
+- **Next Step:** Use Itemfinder at (4, 8) while surfing.
 
-## Cerulean Gym Navigation
-- Entrance/Exit: (4, 15), (5, 15)
-- Statues: (2, 13), (6, 13)
-- Central Platform: (3, 7)-(6, 7) area.
-- Pool A (North): (1, 5)-(6, 6).
-- Pool B (South): (3, 8)-(4, 9).
-- Strategy: Search center water tiles (4, 6) and (4, 8).
-- Method: Surf onto the water tile and press A, or face the water tile from an adjacent FLOOR tile and press A.
-- Status: Surfing at (4, 8) in Cerulean Gym. 
-- Goal: Find the Machine Part.
-- Plan: Use Itemfinder at (4, 8). If no signal, search (4, 9), (3, 8), (3, 9).
-- Interaction: To find hidden items, face the tile and press A, or stand on the tile and press A.
+## Cerulean Gym Search Plan
+- Target Area: Central pools.
+- Method: Use ITEMFINDER. If it pings, move toward the sound. If not, reposition and try again.
+- Known Pools: 
+  - Pool A (North): (1, 5)-(6, 6).
+  - Pool B (South): (3, 8)-(4, 9).
+- Hidden Item Interaction: Stand on the tile or face it and press A.
+- Interaction Log:
+  - (4, 8): Itemfinder use pending.
