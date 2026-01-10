@@ -1,17 +1,16 @@
-# Persistence Knowledge
-## Tile Mechanics (Global)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- LADDER: Traversable (triggers floor change).
-- WARP_CARPET_DOWN: Traversable (triggers map transition).
-- COUNTER: Face and press A to interact.
-- WATER: Requires SURF.
-- LEDGE: One-way traversal (jump down).
-- GRASS: Traversable (wild encounter zone).
-- WHIRLPOOL: Requires WHIRLPOOL.
-- WATERFALL: Requires WATERFALL.
-- ICE: Sliding movement.
-- HOLE: Triggers fall to lower floor.
+### Tile Mechanics (Global)
+- FLOOR: Traversable. Standard walking surface.
+- WALL: Impassable. Includes walls, fences, and some decorative objects.
+- LADDER: Traversable. Triggers a floor change (e.g., 1F to B1F).
+- WARP_CARPET_DOWN: Traversable. Triggers a map transition (e.g., building entrance).
+- COUNTER: Impassable. Face and press A to interact with NPCs behind them.
+- WATER: Impassable. Requires the move SURF and a compatible Pokémon to traverse.
+- LEDGE: Semi-traversable. Can be jumped over from above, but acts as a wall from below, left, or right.
+- GRASS: Traversable. Zone for wild Pokémon encounters.
+- WHIRLPOOL: Impassable. Requires the move WHIRLPOOL to clear.
+- WATERFALL: Impassable. Requires the move WATERFALL to climb up or descend down.
+- ICE: Traversable. Causes the player to slide in the direction of movement until hitting an obstacle.
+- HOLE: Traversable. Triggers a fall to the floor below.
 
 ## S.S. Aqua Discoveries
 - Fisher at (1, 15) in FastShipCabins_SW_SSW_NW is a trainer (Firebreather Lyle).
@@ -19,24 +18,18 @@
 - Sailor at (24, 17) on 1F: "The passengers are all trainers... itching to battle in their cabins."
 - My cabin is at (15, 8) on map 15_3.
 - Gentleman (2, 17) on 15_6: "She's an energetic child, so she may be bugging someone."
+- Lower Deck Sailor (ID 2) at (31, 6) asked me to find his "lazy" buddy.
+- Found "lazy" buddy (ID 1) at (30, 6). He said "The CAPTAIN will be furious...".
 
 ## Active Quests
 - **Find the Gentleman's missing granddaughter.**
   - Started Turn: 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-  - Status: Investigating cabins on 1F and lower deck.
-  - Strategy: Check all warps on 1F (Map 15_3) and then the ladder at (6, 12).
-  - Map 15_3 Warp Log:
-    - (15, 15) -> 15_5 (2, 19) [Checked]
-    - (19, 15) -> 15_5 (2, 31) [Checked]
-    - (23, 15) -> 15_6 (2, 7) [Checked]
-    - (27, 15) -> 15_6 (2, 19) [Checked]
-    - (30, 14) -> 15_7 (31, 13) [Current]
+  - Status: Investigating lower deck (B1F).
+  - Strategy: Get the "lazy" sailor at (30, 6) on B1F to return to his post to clear the path to the western corridors.
+  - Hypothesis: The granddaughter is with the missing sailor or near the Captain.
 - **Collect the 8 Kanto badges.**
   - Strategy: Vermilion City Gym (Lt. Surge) first. Recommended level 44-50.
   - MVP: GNEISS (Graveler) for Ground immunity to Electric.
-
-## Kanto Gym Leaders (Projected Levels)
-- Lt. Surge: 44-46 | Brock: 40-45 | Misty: 42-47 | Erika: 46-51 | Janine: 48-53 | Sabrina: 50-55 | Blaine: 52-57 | Blue: 55-60.
 
 ## Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
@@ -44,16 +37,10 @@
 - Safeguard: Prevents status/confusion from Outrage.
 - Status: Paralysis reduces speed by 75%.
 - Lesson: Always verify current map ID and position after movement. Warps can be subtle.
+- Lesson: NPCs like the sailors on S.S. Aqua may block corridors until a specific event or dialogue is triggered.
 
-### Map 15_6 (SE/SSE Cabins & Captain's Cabin)
-- Cabin 1 (Rows 0-11): Defeated Pokefan Colin (3, 6) and Twins Meg & Peg (2, 4).
-- Cabin 2 (Rows 14-23): Met the Gentleman (2, 17) who lost his granddaughter.
-- Strategy: Check for a third cabin segment or Captain's Cabin (Rows 24-33).
-- Access: Explore east on FastShip 1F (15_3) for more warps.
-- Lower Deck (Map 15_7): Met a Sailor at (30, 6) (ID 1) who is looking for his "lazy bum" buddy.
-- Observation: Sailor ID 1 moved to (31, 6) and disappeared. Sailor ID 2 appeared at (31, 6).
-- Hypothesis: The missing granddaughter is with the missing sailor in the western corridors.
-- Strategy: Navigate to the western side of the deck via the gaps at y=4 or y=5.
-- Pathfinding: The wall at x=29 only has gaps at y=4 and y=5. Sailor ID 2 at (31, 6) is blocking the eastern access to these gaps.
-- Navigation Plan: Move Left to (30, 7), then Up through (30, 6) and (30, 5) to reach the gaps.
-- Target: Find the "lazy" sailor and the granddaughter. Also check Super Nerd at (26, 9).
+### Map 15_7 (FastShip B1F)
+- Eastern Corridor: Contains the ladder to 1F (31, 13) and two sailors (ID 1 and 2).
+- Western Corridors: Separated by a wall at x=29. Gaps at y=4 and y=5.
+- Target: Super Nerd at (26, 9) and the Captain's Cabin.
+- Observation: Talking to the lazy sailor at (30, 6) seems to have triggered him to realize he's in trouble. Expecting him to move.
