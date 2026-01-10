@@ -27,8 +27,7 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** `hunt_roamers_safe` (Defining).
+- **Method:** `hunt_roamers_safe`.
   - **Sequence:** Ecruteak -> Rt 37 -> Grass (L/R) -> Ecruteak.
-  - **Fix:** Added inter-step delays (300ms) and extended warp sleeps (5000ms).
-- **Status:** Returning to Ecruteak manually.
-- **Repel:** Active.
+  - **Status:** Executing `hunt_roamers_safe` (Safe Mode).
+  - **Repel:** Active.
