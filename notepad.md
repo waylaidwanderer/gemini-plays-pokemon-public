@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31601)
+- **Session Start:** Turn 30996 (Current: 31602)
 - **Status:** Traveling to Goldenrod (Walking).
 - **Goal:** Reach Goldenrod City via Route 36 & 35.
-- **Action:** Walking South through Route 37 to enter Route 36.
-- **Reason:** Fly Map failed; walking is reliable. Route 37 -> Route 36 -> Goldenrod.
+- **Action:** Crossing map border from Route 37 into Route 36.
+- **Next:** Head West/South on Route 36 to reach Route 35.
