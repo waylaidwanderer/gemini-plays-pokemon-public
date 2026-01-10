@@ -17,4 +17,4 @@
 - **Goal:** Return to Ecruteak City.
 - **Location:** Celadon Dept. Store.
 - **Action:** Navigate to 1F -> Exit -> Fly.
-- **Status:** Descending to 1F.
+- **Status:** Exiting Store.
