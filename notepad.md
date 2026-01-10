@@ -38,7 +38,7 @@
   - (3, 3) <-> 1F (27, 13).
   - (17, 9) <-> 1F (15, 9).
   - (23, 3) <-> 1F (5, 3).
-  - Turn 38971: Exploring southern sections. Current pos (24, 16).
+  - Turn 38972: Exploring southwestern sections. Current pos (19, 16).
 - Observed Pokemon:
   - 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
   - B1F: Geodude (Lv14), Onix (Lv16).
