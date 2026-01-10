@@ -27,13 +27,13 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31524)
+- **Session Start:** Turn 30996 (Current: 31525)
 - **Route:** Ecruteak (18,35) <-> Route 37 (7,0)/(8,0)
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Transitioning.
-- **Action:** Moving South to Route 37 (Manual).
+- **Status:** Roaming Hunt Loop - Paused (Phone Call).
+- **Action:** Handling Phone Call from Gaven.
 - **Repel:** Active (Max Repel).
 - **Note:** Mistral (Pidgey) holding Blue Apricorn (swap later).
-- **Next:** At Rt 37 (8,0) -> Call `rt37_hunt_return`.
+- **Next:** Finish Call -> Verify Position -> Resume Hunt.
