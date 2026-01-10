@@ -33,8 +33,7 @@
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
-- **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront him to recover the Machine Part.
-- **Detour Note:** Path blocked by ledges at Row 21; must go around via X=18 or similar to reach the northern exit.
+- **Detour Note:** Path blocked by ledges at Row 21; must go around via the western side (X=14-17) to reach the northern exit.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
@@ -50,6 +49,3 @@
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
-- (15, 5) and (16, 9) are gaps allowing Northward travel.
-- (9, 7) is a ledge allowing Southward travel to the lower section.
-- (5, 8) is a cuttable tree that must be cleared to reach Cerulean City.
