@@ -20,7 +20,7 @@
 - **Location:** Route 37 (Grass Check).
 - **Start Turn:** 32028.
 - **Current Turn:** 32065.
-- **Repel Steps:** ~117/200 used.
+- **Repel Steps:** ~40/200 used (Correction: 37 turns elapsed).
 - **Hunting Loop:**
   1. Move Down (Enter Route 37).
   2. Walk South into Grass (approx 8,5).
