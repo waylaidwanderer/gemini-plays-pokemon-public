@@ -36,3 +36,8 @@
 - Observation: Ledges at y=13 suggest a one-way path from the north.
 - Strategy: Head north to find Cerulean City.
 - Verified: Entered Route 5 from Saffron Gatehouse.
+## Kanto Strategy Update (Turn 38459)
+- Pivot: Returning to Saffron City to defeat Sabrina before proceeding to Cerulean.
+- Saffron Gym Location: (29, 12).
+- Route 5 Observation: Only path north from the gatehouse is at x=4 due to ledges at y=13.
+- Building at (10, 11) is marked "House for Sale".
