@@ -7,8 +7,7 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Resupplying (Need Super Repels).
-- **Plan:** Fly to Goldenrod -> Buy Repels -> Return to Ecruteak.
+- **Current Task:** Resupply Run (Goldenrod Dept Store for Super Repels).
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
