@@ -15,13 +15,17 @@
 - Sailor at (24, 17) on 1F: "The passengers are all trainers... itching to battle."
 - My cabin: (15, 8) on map 15_3.
 - Gentleman (2, 17) on 15_6: Looking for missing granddaughter.
-- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Looking for his "lazy" buddy.
-- Found "lazy" buddy (ID 1) at (30, 6) on 15_7. He's worried about the Captain.
+- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Was looking for "lazy" buddy.
+- Found "lazy" buddy (ID 1) at (30, 6) on 15_7. He returned to his post.
 
 ## Active Quests
 - **Find the Gentleman's missing granddaughter.**
   - Status: Investigating lower deck (B1F).
-  - Strategy: Find the "lazy" sailor's buddy (who is goofing off) and the missing granddaughter.
+  - Strategy:
+    1. Find the "lazy" sailor at (30, 6) on B1F and talk to him. (Done)
+    2. Reset B1F by re-entering from 1F. (Done)
+    3. Talk to the sailor at (31, 6) to see if the path is clear.
+    4. Explore western corridors of B1F.
 - **Collect the 8 Kanto badges.**
   - Strategy: Vermilion City Gym (Lt. Surge) first. Recommended level 44-50.
   - MVP: GNEISS (Graveler) for Ground immunity to Electric.
