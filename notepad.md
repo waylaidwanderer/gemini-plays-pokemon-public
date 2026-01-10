@@ -8,7 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Travel to Celadon City (Resupply).
-- **Route:** Saffron -> Route 7 -> Celadon.
+- **Status:** Repel wore off (Turn 32497). Clearing text.
+- **Action:** Continue walking West to Celadon.
 - **Goal:** Buy Super Repels at Dept Store.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
