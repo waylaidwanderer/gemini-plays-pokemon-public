@@ -11,17 +11,17 @@
 - HOLE: Traversable. Fall to floor below.
 
 ## S.S. Aqua Discoveries
-- Fisher at (1, 15) in FastShipCabins_SW_SSW_NW is Firebreather Lyle.
+- Fisher at (1, 15) on Map 15_5 is Firebreather Lyle.
 - Sailor at (24, 17) on 1F: "The passengers are all trainers... itching to battle."
 - My cabin: (15, 8) on map 15_3.
 - Gentleman (2, 17) on 15_6: Looking for missing granddaughter.
-- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Looking for "lazy" buddy.
+- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Looking for his "lazy" buddy.
 - Found "lazy" buddy (ID 1) at (30, 6) on 15_7. He's worried about the Captain.
 
 ## Active Quests
 - **Find the Gentleman's missing granddaughter.**
   - Status: Investigating lower deck (B1F).
-  - Strategy: Find the "lazy" sailor's buddy or the Captain.
+  - Strategy: Find the "lazy" sailor's buddy (who is goofing off) and the missing granddaughter.
 - **Collect the 8 Kanto badges.**
   - Strategy: Vermilion City Gym (Lt. Surge) first. Recommended level 44-50.
   - MVP: GNEISS (Graveler) for Ground immunity to Electric.
