@@ -9,7 +9,7 @@
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
 - **Status:** Boarding Magnet Train to Goldenrod.
-- **Action:** Selected YES to board.
+- **Action:** Entering Train (Pressing UP).
 - **Next Step:** Arrive Goldenrod -> Fly Ecruteak.
 - **Stats:** 0 Encounters so far.
 
