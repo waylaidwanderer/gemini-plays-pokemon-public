@@ -31,9 +31,10 @@
 
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
+- **Fly Attempt Failures:** Turn 39649 to 39722 (~73 turns lost to menu fumbles).
 - **Plan:**
   1. Travel to Vermilion City (Walking via Route 6).
-  2. Search Vermilion City for the lost Poké Doll.
+  2. Search Vermilion City for the lost Poké Doll (Check Pokemon Fan Club).
   3. Return the doll to Copycat in Saffron City.
   4. Obtain the Rail Pass.
 
