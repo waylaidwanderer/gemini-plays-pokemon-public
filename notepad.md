@@ -5,11 +5,12 @@
 - WATER: Traversable with Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE_HOP_DOWN: One-way traversal. Jump down from lower Y to higher Y.
+- LEDGE_HOP_DOWN: One-way traversal (North to South). Jump down from lower Y to higher Y.
 - WARP_CARPET: Step on or walk off map edge to transition.
 - WARP_PANEL: Teleports between rooms.
 - COUNTER: Impassable Wall. Must interact from an adjacent tile.
-- FLOOR_UP_WALL: Wall from the South. Potentially a ledge from the North, but observed acting as a wall at Row 26 in Rock Tunnel B1F.
+- FLOOR_UP_WALL: One-way ledge (North to South). Jump over to land 2 tiles away. Wall from South to North. Verified on Route 8.
+- CAVE_LEDGE: In Rock Tunnel B1F, Row 26 FLOOR_UP_WALL tiles act as walls even from the North (Turns 38985, 38993, 38996).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -35,7 +36,6 @@
   - 1F (15, 9) <-> B1F (17, 9)
   - 1F (5, 3) <-> B1F (23, 3)
   - 1F (27, 3) <-> B1F (25, 23)
-- B1F Navigation: Row 26 FLOOR_UP_WALL tiles are impassable from the North.
 
 ## Observed Pokemon (Kanto)
 - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
