@@ -10,9 +10,9 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
-- Clues: Granddaughter is missing; sailor on B1F looking for buddy.
-- Strategy: Explore western B1F to find the Captain's cabin/bridge. The granddaughter should be there.
-- Lesson: Corridors blocked by NPCs (like sailors) often require finding a trigger NPC (like a "buddy" goofing off) to clear the path.
+- Clues: Granddaughter is missing.
+- Strategy: Explore western B1F (via ladder at 5, 11) to find the Captain's cabin/bridge. The granddaughter should be there.
+- Progress: Found the "lazy bum" buddy (Sailor Stanly) in a cabin on 1F; defeated him, which triggered the B1F sailors to return to duty.
 
 ## Kanto Strategy
 - Target 1: Lt. Surge (Vermilion City).
@@ -23,3 +23,4 @@
 - Super Nerd (26, 9) blocks the x=26 corridor on B1F.
 - Map transitions reset NPC positions.
 - Path to western 1F is likely via B1F (East 1F -> East B1F -> West B1F -> West 1F).
+- Finding a "goofing off" sailor usually requires catching them in a cabin or kitchen.
