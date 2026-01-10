@@ -35,7 +35,8 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Cycle
   - **Step 1:** Route 37 (8,1) -> Ecruteak.
-  - **Step 2 (Current):** Route 37 Hunt -> Return to Ecruteak.
+  - **Step 1 (Current):** Route 37 (8,1) -> Ecruteak.
+  - **Step 2:** Ecruteak -> Route 37 (Hunt).
   - **Pattern:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
-- **Status:** Hunting in Route 37 (Grass Check).
-- **Repel:** Active (200 steps).
+- **Status:** Resetting Roamers (Returning to Ecruteak).
+- **Repel:** Active.
