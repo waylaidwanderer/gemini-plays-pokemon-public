@@ -54,8 +54,10 @@
 - (0, 8): Entrance from Route 8.
 - Mart: (1, 5).
 - Volunteer Pokemon House: (5, 9).
+- Name Rater's House: (7, 13).
 - Pokemon Center: (5, 5). Found!
 - Radio Tower (formerly Pokemon Tower): Northeastern part of town.
+- Soul House: Likely the building at (13, 11).
 
 ## Lavender Radio Tower 1F Notes
 - (2, 7), (3, 7): Exit to Lavender Town.
