@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Re-entering Route 37 (Cycle 52).
-- **Repel:** Active (< 4 steps). Expect expiry immediately.
+- **Status:** Positioning for Repel expiry (Cycle 52).
+- **Repel:** Active (< 3 steps). Expect expiry NOW.
 - **Next:** `apply_super_repel` upon expiry message.
