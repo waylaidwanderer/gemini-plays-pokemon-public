@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 29 (Just outside New Bark Town).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Re-opening Start Menu to Select Fly.
-- **Method:** Start -> Up x2 (Reset to Pokedex) -> Down (Pokemon) -> A.
-- **Notes:** Previous Fly attempt failed; `navigate_menu` moved player instead of cursor because menu wasn't open. Resetting menu state.
-- **Next Step:** Select Pidgey -> Fly -> Ecruteak.
+- **Status:** Navigating to Pokemon Menu.
+- **Method:** Exit Option Menu (B) -> Navigate to Pokemon (Down x3) -> Open Party (A).
+- **Notes:** Accidentally entered Option Menu. Cursor memory at 'OPTION'. Navigating: Option -> Exit -> Pokedex -> Pokemon.
+- **Next Step:** Select Pidgey (Slot 4) -> Fly -> Ecruteak.
