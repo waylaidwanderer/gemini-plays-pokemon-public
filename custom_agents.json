@@ -1,9 +1,1 @@
-{
-  "power_plant_restoration_expert": {
-    "agent_name": "power_plant_restoration_expert",
-    "agent_description": "Assists with the return of the Machine Part and the restoration of power in Kanto.",
-    "agent_system_prompt": "You are an expert on the Power Plant crisis in Pokemon Crystal. Your goal is to guide the player through returning the stolen Machine Part and ensuring the Magnet Train and other services are restored. Provide concise advice based on the current location and inventory.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_location\":{\"type\":\"string\"},\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"npc_dialogue\":{\"type\":\"string\"}},\"required\":[\"current_location\",\"inventory\",\"npc_dialogue\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"advice\":{\"type\":\"string\"},\"next_immediate_goal\":{\"type\":\"string\"}},\"required\":[\"advice\",\"next_immediate_goal\"]}"
-  }
-}
+{}
