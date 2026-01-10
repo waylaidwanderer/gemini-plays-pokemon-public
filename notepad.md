@@ -6,16 +6,12 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Impassable Wall from the North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
-- GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
-- BOOKSHELF: Impassable Wall.
-- WINDOW: Impassable Wall.
-- TV: Impassable Wall.
+- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon stepping.
 
 ## Battle Mechanics (Verified)
-- Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
+- Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!".
 - Night Shade: Deals fixed damage equal to the user's level.
 - Type Effectiveness: Dark is super-effective against Ghost/Poison (Haunter).
 
@@ -31,30 +27,24 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration (Turn 39788)
-- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Goldenrod back to Saffron.
-- **Goal:** Defeat Sabrina at the Saffron Gym.
+## Magnet Train (Restored Turn 39771)
+- PASS obtained from Copycat. Power restored to Kanto. Service active between Saffron and Goldenrod.
 
-## Power Plant Investigation (Resolved)
-- Machine Part returned to Manager. Power restored to Kanto.
-- Obtained EXPN Card from Lavender Radio Tower.
+## Saffron Gym Challenge (Started Turn 39791)
+- **Goal:** Defeat Sabrina.
+- **Warp Sequence (Shortest):**
+  1. Entrance (BC): Warp at (11, 15). Arrive at (19, 17) [BR].
+  2. BR Room: Warp at (15, 15). Arrive at (19, 3) [TR].
+  3. TR Room: Warp at (15, 5). Arrive at (1, 3) [TL].
+  4. TL Room: Warp at (1, 5). Arrive at (11, 9) [Sabrina].
+- **Current Status:** In TL room at (1, 3).
+- **Strategy:** Lead with Typhlosion (Calcifer) to sweep Psychic-types. Avoid using Haunter (Xenon) or Gloom (Kimchi).
 
 ## Lessons Learned
-- **FLY Map Navigation:** Use `press_menu_buttons_v2`. Verify destination text "SAFFRON CITY" before pressing A. Avoid long sequences.
-- **Takeoff:** Move to a neutral tile (not a door mat) before using FLY.
-- **Interactions:** Always ensure facing the target tile.
-- **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
-- **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them.
-- **Pathing Around Obstacles:** Paths in 2D top-down games are often multiple tiles wide. Check adjacent tiles if blocked.
-- **Route 6 Navigation:** Circling East around the pond is required to reach Saffron City from Vermilion.
-## Kanto Journey Progress Tracking
-- **Primary Goal Start:** Turn 38104 (Arrived in Vermilion City)
-- **Magnet Train Restoration Start:** Turn 39082 (Found Power Plant)
-- **Magnet Train Restoration End:** Turn 39771 (First successful trip)
-## Saffron Gym Challenge (Turn #39800)
-- **Status:** Obtained Rail Pass. Arrived in Saffron.
-- **Goal:** Defeat Sabrina.
-- **Start Turn:** 39791
-- **Warp Path:** (11, 15) [Entrance] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [Sabrina].
-- **Current Room:** Bottom-Right (BR). Arrived at (19, 17).
-- **Strategy:** Swap Calcifer (Lv58) to lead, then navigate to (15, 15).
+- **Menu Persistence:** Automated menu tools can fail if the cursor or menu state is not what's expected. Manual sequences with `press_menu_buttons_v2` are more reliable for complex tasks like swapping.
+- **Warp Maze Logic:** BFS scripts on Map Events data are highly effective for solving warp puzzles.
+- **Pathing:** Always verify traversability through observation.
+
+## Kanto Journey Progress
+- Arrived in Vermilion: Turn 38104
+- Saffron Gym Start: Turn 39791
