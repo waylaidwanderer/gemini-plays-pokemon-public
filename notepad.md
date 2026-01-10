@@ -64,7 +64,10 @@
 7. Ouroboros (DRATINI) Lv15
 ## Route 6 Notes
 - Pokefan Rex (9, 12): DEFEATED.
-- Pokefan M (10, 12): Facing Left.
-- Pokefan M (17, 4): Near Underground Path.
+- Pokefan Allan (10, 12): DEFEATED.
+- Pokefan M (17, 4): Near Underground Path. Info: Underground Path is closed until Power Plant is fixed.
 - Strategy: Battle all for EXP before heading to Saffron/Cerulean.
-- Exploration: Use Surf on the water on the left side of the map to reach unseen tiles.
+- Exploration: Unseen tiles at (17, 17) and top left (from Saffron).
+- Lesson: Map boundaries block movement; plan sequences carefully.
+- Started Turn: 38311 (Power Plant Objective)
+- Timestamp: Friday, January 9, 2026 at 11:50 PM PST
