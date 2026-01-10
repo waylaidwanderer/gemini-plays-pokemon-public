@@ -41,4 +41,4 @@
 - Pool A (North): (1, 5)-(6, 6).
 - Pool B (South): (3, 8)-(4, 9).
 - Strategy: Search center water tiles. (4, 6) and (4, 8) are primary candidates. Face tile and press A.
-- Status: At (4, 7) facing UP. Searching (4, 6).
+- Status: At (4, 6) surfing. Moving to platform (4, 7) to use Itemfinder.
