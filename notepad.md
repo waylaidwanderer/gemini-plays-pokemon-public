@@ -19,4 +19,4 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Entering Saffron Gatehouse.
+- **Status:** Crossing Saffron Gatehouse to City.
