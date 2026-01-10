@@ -19,10 +19,9 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Withdrawing Nuggets for Cash.
-- **Action:** Scroll Up x5 to Nugget.
-- **Observation:** Master Ball NOT in PC. Likely used previously.
-- **New Plan:** Sell Nuggets -> Buy Ultra Balls -> Hunt Roamers.
+- **Status:** Withdrawing Nuggets (Quantity Selection).
+- **Action:** Press A to select Nugget -> Select Quantity (2) -> Confirm.
+- **Next:** Exit PC -> Go to Mart.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
 - **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
 - **Lesson:** Always mark NPCs immediately. Missing 'Mom' caused a path interruption.
