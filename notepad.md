@@ -27,7 +27,7 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** `hunt_roamers_rt37` Tool (Defined).
-  - **Sequence:** Ecruteak -> Rt 37 Grass -> Hunt -> Ecruteak.
-- **Status:** Manual Hunt (Completing current cycle).
+- **Method:** `hunt_roamer_loop` Tool (Defining).
+  - **Sequence:** Ecruteak -> Rt 37 -> Grass -> Hunt -> Ecruteak.
+- **Status:** Redefining tool due to previous error.
 - **Repel:** Active.
