@@ -43,10 +43,9 @@
 - **Key Locations:**
   - Entrance from Route 9: (39, 22)
   - Cerulean Gym: (30, 23)
-  - Fisher: (30, 26) (Moving). Said he's a huge fan of Misty.
 - **Plan:** Talk to NPCs and check the Gym for the thief. Restoring power to the Radio Tower requires the Machine Part first.
 - **Strategy for Thief:** Check Gym water and behind Gym buildings. Talk to citizens for clues.
-- **Progress:** Talked to Fisher at (29, 26). No lead on thief. Moving to Gym at (30, 23).
+- **Progress:** Talked to Fisher at (29, 26). He's just a Misty fan. Entering Cerulean Gym at (30, 23) to look for the thief.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
