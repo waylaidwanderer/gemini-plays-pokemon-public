@@ -7,8 +7,8 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Selecting Fly Command (Turn 32427).
-- **Action:** Select Fly -> Choose Goldenrod City.
+- **Status:** Selecting Fly Destination (Turn 32429).
+- **Action:** Select Goldenrod City on Map.
 - **Next Step:** Buy Super Repels. Return to Ecruteak.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
