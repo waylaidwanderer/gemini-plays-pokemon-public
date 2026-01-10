@@ -2,7 +2,7 @@
 ## Objectives
 - **Primary:** Complete Pokedex.
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
-- **Navigation:** Goldenrod Dept. Store (5F) -> Buy Super Repels.
+- **Navigation:** Magnet Train Station -> Saffron City.
 
 ## Resupply Plan
 - **Goal:** Buy 10 Super Repels.
