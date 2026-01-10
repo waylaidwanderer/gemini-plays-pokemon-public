@@ -23,7 +23,7 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store.
-- **Status:** Moving to 3F.
-- **Action:** Pathfinding to Stairs at (12, 0).
-- **Reason:** 2F checked (no stock). Checking 3F for Battle Items/TMs.
+- **Status:** Moving to 3F (Manual Pathing).
+- **Action:** Up x4 -> Right -> Up (Enter Stairs).
+- **Reason:** Previous pathfinding tool failed on staircase tile.
 - **Financials:** ¥6772.
