@@ -1,7 +1,7 @@
 # Persistent Knowledge
 ## Tile Mechanics
-- FLOOR: Verified traversable (Turns 38381-38401).
-- WALL: Verified impassable (Turns 38381-38401).
+- FLOOR: Verified traversable.
+- WALL: Verified impassable.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE: Semi-traversable (jump down from above).
 - TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
@@ -32,12 +32,24 @@
 - Room Grid (3x3):
   (1,A) (2,A) (3,A)
   (1,B) (2,B) (3,B)
-  (1,C) (2,C) (3,C)  (2,C = Entrance)
-- (2,C) [Entrance]: (11, 15) -> (3,C) (19, 17)
-- (3,C) [Mid-Right]:
-  - (15, 15) [TL] | (19, 15) [TR]
-  - (15, 17) [BL] | (19, 17) [BR] -> (2,C) (11, 15)
-  - Trainer: Medium Rebecca (17, 16)
+  (1,C) (2,C) (3,C)
+- Room Coordinates:
+  - Row A (Top): Y=0-5
+  - Row B (Middle): Y=7-11
+  - Row C (Bottom): Y=13-17
+  - Col 1 (Left): X=0-5
+  - Col 2 (Middle): X=7-12
+  - Col 3 (Right): X=14-19
+
+- Warp Connections Found:
+  - (2,C) [Entrance] (11,15) <-> (3,C) (19,17)
+  - (3,C) (15,17) <-> (1,C) (5,15)
+  - (1,C) (1,17) <-> (2,A) (11,5)
+  - (2,A) (11,3) -> ??? (Testing next)
+
+## Battle Log: Saffron Gym
+- Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
+- Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
@@ -47,34 +59,3 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
-## Battle Log: Saffron Gym
-- Medium Rebecca (Defeated):
-  - Drowzee (Lv 35): Psychic. Neutral to Ground.
-  - Hypno (Lv 35): Psychic. Neutral to Ground.
-- (3,C) [Mid-Right]: (15, 17) [BL] -> (1,C) (5, 15)
-- (1,C) [Bottom-Left]:
-  - (1, 15) [TL] | (5, 15) [TR] -> (3,C) (15, 17)
-  - (1, 17) [BL] -> (2,A) (11, 5) | (5, 17) [BR]
-  - Trainer: Psychic Franklin (Defeated)
-- (2,A) [Top-Middle]:
-  - (9, 3) [TL] | (11, 3) [TR]
-  - (9, 5) [BL] | (11, 5) [BR] -> (1,C) (1, 17)
-
-- Psychic Franklin (Defeated):
-  - Kadabra (Lv 37): Psychic. Neutral to Ground. Moves: Future Sight.
-## Saffron Gym Room Map (3x3 Grid)
-- Room (1,A) [Top-Left]: X: 0-5, Y: 0-5.
-- Room (2,A) [Top-Middle]: X: 7-12, Y: 0-5. (Current)
-- Room (3,A) [Top-Right]: X: 14-19, Y: 0-5.
-- Room (1,B) [Mid-Left]: X: 0-5, Y: 7-11.
-- Room (2,B) [Mid-Middle]: X: 7-12, Y: 7-11. (Sabrina)
-- Room (3,B) [Mid-Right]: X: 14-19, Y: 7-11.
-- Room (1,C) [Bottom-Left]: X: 0-5, Y: 13-17.
-- Room (2,C) [Bottom-Middle]: X: 7-12, Y: 13-17. (Entrance)
-- Room (3,C) [Bottom-Right]: X: 14-19, Y: 13-17.
-
-## Warp Connections
-- (2,C) Entrance (11, 15) <-> (3,C) (19, 17)
-- (3,C) (15, 17) <-> (1,C) (5, 15)
-- (1,C) (1, 17) <-> (2,A) (11, 5)
-- Testing (2,A) (11, 3)...
