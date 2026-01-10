@@ -25,10 +25,9 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle B).
-- **Method:** Hunt Loop (Route 37 Grass).
-- **Step 1:** Move Down (Enter Rt 37).
-- **Step 2:** Hunt in grass & Return to Ecruteak [Current].
-- **Sequence:** Down, Down (Grass), Left, Right (Hunt), Up, Up, Up (Return).
-- **Time:** Start ~Turn 30680. Current 30918.
-- **Next Step:** Restart Cycle A (Enter Ecruteak).
+- **Status:** Hunting (Optimized Loop).
+- **Method:** Single-Turn Full Cycle.
+- **Sequence:** Down, Down, Left, Right, Up, Up, Up.
+- **Observation:** Previous turn confirmed this sequence works perfectly across map transitions.
+- **Time:** Start ~Turn 30680. Current 30919.
+- **Next Step:** Repeat Sequence.
