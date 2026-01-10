@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Route 7 - Entering Gatehouse.
-- **Action:** Walking Right into Warp.
+- **Status:** Inside Route 7 Gatehouse.
+- **Action:** Walking East to Saffron City.
 - **Next Step:** Saffron -> Magnet Train -> Fly Ecruteak.
 - **Stats:** 0 Encounters so far.
 
