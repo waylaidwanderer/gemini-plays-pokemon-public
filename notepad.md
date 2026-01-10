@@ -19,10 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Select 'SUPER REPEL'.
-- **Status:** Moving Cursor Up (x2).
-- **Reasoning:** 'navigate_menu' overshot to 'CANCEL'. Using manual inputs to correct.
-- **Tool Note:** `navigate_menu` presses buttons twice per request. DO NOT USE for single-step navigation.
+- **Action:** Select Quantity (10).
+- **Status:** Entering Quantity Menu.
+- **Reasoning:** Selected Super Repel. Now need to set quantity to 10.
+- **Plan:** Press 'A' -> Adjust quantity -> Buy.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
