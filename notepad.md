@@ -5,14 +5,14 @@
 - WATER: Traversable with HM Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE_HOP_DOWN: One-way traversal (North to South).
+- LEDGE_HOP_DOWN: One-way traversal (North to South). Verified at (41, 13).
 - FLOOR_UP_WALL: One-way ledge (North to South). Wall from South to North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
 
 ## Battle Mechanics (Hypotheses)
 - Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
-- Observation: Dream Eater was accidentally used instead of Hypnosis on Turn 39229, resulting in the "didn't affect" message.
+- Observation: Dream Eater failing with "It didn't affect" means the target is not asleep. (Misclick on turn 39229).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -35,10 +35,10 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Path is through the northern lane (Row 11) or southern lane (Row 17) to bypass walls at x=19 and x=16.
-- **Status:** Defeated Picnicker Heidi (41, 8) and Hiker Sidney (39, 15).
-- **Current Task:** Navigate west through Row 11.
+- **Observation:** Path is through the northern lane (Row 11) to bypass walls.
+- **Status:** Defeated Picnicker Heidi (41, 8) and Hiker Sidney (39, 15). Currently battling Camper Dean (19, 11).
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
+- Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency but still check accuracy.
