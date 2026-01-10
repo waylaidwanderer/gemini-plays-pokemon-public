@@ -35,5 +35,6 @@
 ## Power Plant Investigation
 - **Start Turn:** 39084
 - **Officer (4, 14):** Confirmed a thief broke into the Power Plant.
-- **Gym Guide (6, 11):** To be interviewed.
+- **Gym Guide (6, 11):** Noted the Power Plant was abandoned but now powers the Magnet Train.
+- **Gym Guide (2, 9):** To be interviewed.
 - **Manager:** Location unknown, likely in the back.
