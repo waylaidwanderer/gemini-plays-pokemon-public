@@ -61,8 +61,8 @@
 - Pokefan Allan (10, 12): DEFEATED.
 - Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
 - (17, 17): Likely reachable with Surf; need to verify physically.
-## Route 8 Biker Wall
-- Biker 1 (ID 1): (10, 8) - Facing Left.
-- Biker 2 (ID 2): (10, 9) - Facing Left.
-- Biker 3 (ID 3): (10, 10) - Facing Left.
+## Route 8 Notes
+- Biker Dwayne (10, 8): Koffing (Lv 27).
+- Biker (10, 9): Unseen.
+- Biker (10, 10): Unseen.
 - Strategy: Battle for EXP while heading to Lavender.
