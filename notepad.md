@@ -32,14 +32,14 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39513
+- **Current Turn:** 39515
 - **Clues:** Machine Part hidden in Cerulean Gym water.
 - **Status:** Itemfinder "Yes!" at (4, 7). "Nope!" at (3, 3).
 - **Goal:** Retrieve the Machine Part.
 
 ## Cerulean Gym Search Plan
-- Strategy: Search water tiles near (4, 7) ping.
-- Current Targets: (4, 8), (3, 8), (6, 8).
+- Strategy: Grid search water tiles near (4, 7) ping.
+- Current Targets: (4, 8), (3, 8), (4, 9), (3, 9).
 - Method: Surf to tile and press A.
 
 ## Kanto Strategy
