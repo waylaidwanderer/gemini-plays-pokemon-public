@@ -19,7 +19,7 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Walking to Celadon PC (Unlock Fly Point).
+- **Status:** Entering Celadon PC to unlock Fly point.
 - **Next:** Walk East to Saffron -> Unlock Saffron PC -> Fly New Bark.
 - **Reasoning:** Fly map confirmed Saffron locked. Must manually travel and unlock.
 - **Resources:** Low money (¥1772). Check Elm for Master Ball.
