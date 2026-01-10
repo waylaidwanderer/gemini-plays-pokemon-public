@@ -21,10 +21,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31670
-- **Status:** Recovery from Overshoot.
+- **Session Start:** Turn 31671
+- **Status:** Selling Revives (Selection).
 - **Goal:** Sell 5 Revives.
-- **Current State:** Cursor on CANCEL (Bottom).
-- **Action:** Pressing Up x8 to reach REVIVE (Slot 3).
-- **Reason:** `navigate_menu` overshot massively. Using `press_buttons` for safety.
-- **Next:** Verify REVIVE -> Press A.
+- **Current State:** Cursor on REVIVE.
+- **Action:** Pressing A to select.
+- **Next:** Set Quantity (5) -> Confirm -> Exit to Buy Menu.
