@@ -19,5 +19,5 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Exiting Station to Goldenrod City.
-- **Next:** Fly New Bark (Elm).
+- **Status:** In Goldenrod City. Opening Menu to Fly.
+- **Action:** Fly -> New Bark Town (Elm).
