@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Active (Batch Cycle 111+).
-- **Note:** Searching for Raikou/Entei.
-- **Repel:** Active.
+- **Status:** Roaming Hunt Loop - Paused (Repel wore off).
+- **Note:** Need to re-apply Repel or buy more.
+- **Repel:** Wore off.
