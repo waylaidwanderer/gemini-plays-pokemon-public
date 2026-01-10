@@ -27,9 +27,8 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** Multi-Turn Split Loop (Manual).
-  - **Step 1:** Ecruteak -> Rt 37 (Done).
-  - **Step 2 (Current):** Grass Hunt & Return.
-  - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return to Ecruteak).
-- **Status:** Checking grass in Route 37, then returning to reset.
-- **Repel:** Active (Steps used ~135/200).
+- **Method:** 2-Turn Split Loop.
+  - **Turn 1 (Current):** Ecruteak -> Route 37 (Manual `Down`).
+  - **Turn 2:** Route 37 -> Hunt -> Ecruteak (Tool `rt37_hunt_return`).
+- **Status:** Initiating Cycle 4 (Turn 1).
+- **Repel:** Active (Steps used ~145/200).

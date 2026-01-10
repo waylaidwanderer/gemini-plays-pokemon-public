@@ -185,5 +185,21 @@
         "action_counter": 30801
       }
     ]
+  },
+  "rt37_hunt_return": {
+    "description": "Executes the Route 37 hunting sequence: Moves down into grass, checks for roamers, and moves back up to warp to Ecruteak. Assumes starting at Route 37 (8,0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "print('[\"Down\", \"Down\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T07:19:08.806Z",
+        "action_counter": 31088
+      }
+    ]
   }
 }
