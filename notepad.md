@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South). Verified at (41, 13).
-- FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped). Verified at (20, 16) and (11, 16).
+- FLOOR_UP_WALL: One-way ledge (North to South). Jumpable from North. Verified at (11, 16).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
 
@@ -34,11 +34,12 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Path is through the northern lane (Row 11) to bypass walls. FLOOR_UP_WALL at (11, 16) and (20, 16) are impassable from the North.
+- **Observation:** Row 17 is a long westward corridor [7, 42]. Reachable by jumping the Row 16 ledge (FLOOR_UP_WALL) from Row 15.
 - **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), Camper Dean (19, 11), and Picnicker Edna (12, 15).
-- **Plan:** Head East to (14, 11) then West through Row 11.
+- **Plan:** Walk to (11, 15), jump south to (11, 17), then walk west to Cerulean City.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency but still check accuracy.
+- Ledges (FLOOR_UP_WALL) must be jumped with manual button presses if "navigate" fails.
