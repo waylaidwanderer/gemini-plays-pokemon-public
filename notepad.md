@@ -87,3 +87,8 @@
 - Path at (0, 34) and (1, 34) is reachable but likely a separate area or the way to Route 7.
 - North alleyway at x=2, 3 is the current exploration target.
 - Strategy: Moving north through the alleyway to see if it bypasses Silph Co. or leads to another part of the city.
+## Saffron City Exploration Log (Turn 38388)
+- Currently at (2, 26).
+- Confirmed Route 7 exit at (0, 24) and (0, 25).
+- Alley continues north.
+- Strategy: Moving north to (2, 22) to uncover more tiles.
