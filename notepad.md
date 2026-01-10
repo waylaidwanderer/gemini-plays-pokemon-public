@@ -1,5 +1,5 @@
 # persistent_knowledge
-## Tile Mechanics
+## Tile Mechanics (Global)
 - FLOOR: Traversable.
 - WALL: Impassable.
 - WATER: Traversable with Surf.
@@ -8,6 +8,8 @@
 - LEDGE_HOP_DOWN: One-way traversal. Can move from a lower Y to a higher Y (jump down) but cannot move from a higher Y to a lower Y (climb up). Verified on Route 6 (Turn 38681).
 - WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5, Route 27, and Saffron City (Turn 38701).
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
+- COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Pokemon Centers and Radio Tower (Turn 38818).
+- FLOOR_UP_WALL: Impassable Wall when approached from below. Verified on Route 8 (Turn 38796).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -26,22 +28,8 @@
 ## Saffron Gym Progress
 - Puzzle Room Grid (3x3): (1,A) (2,A) (3,A) | (1,B) (2,B) (3,B) | (1,C) (2,C) (3,C)
 - Rows: A (0-5), B (7-11), C (13-17) | Cols: 1 (0-5), 2 (7-12), 3 (14-19)
-- Warp Connections Found:
-  1. (2,C) Entrance (11,15) <-> (3,C) (19,17)
-  2. (3,C) (15,17) <-> (1,C) (5,15)
-  3. (1,C) (1,17) <-> (2,A) (11,5)
-  4. (2,A) (11,3) <-> (1,A) (5,3)
-  5. (1,A) (1,3) <-> (3,A) (15,5)
-  6. (3,A) (15,3) <-> (3,B) (15,9)
-  7. (3,B) (19,9) <-> (3,C) (19,15)
-  8. (3,C) (15,15) <-> (3,A) (19,3)
-  9. (3,A) (19,5) <-> (1,C) (1,15)
-  10. (1,C) (5,17) <-> (1,B) (5,11)
-  11. (1,B) (1,11) <-> (1,A) (5,5)
-  12. (1,B) (1, 9) <-> (3,B) (19,11)
-  13. (3,B) (15,11) <-> (2,A) (9, 3)
-  14. (2,A) (9, 5) <-> (1,B) (5, 9)
-  15. (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina]
+- Warp Connections Found: (Detailed list omitted for brevity, see Turn 38700-38780 for full log if needed).
+- Sabrina Path: (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina]
 
 ## Battle History: vs Sabrina
 - Attempt 1 (Turn 38625): FAILED (White out). Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
@@ -57,26 +45,21 @@
 7. Ouroboros (DRATINI) Lv15
 
 ## Route 6 Notes
-- Pokefan Rex (9, 12): DEFEATED.
-- Pokefan Allan (10, 12): DEFEATED.
 - Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
-- (17, 17): Likely reachable with Surf; need to verify physically.
 
 ## Route 8 Notes
-- Biker Dwayne (10, 8): DEFEATED. Koffing (Lv 27), Koffing (Lv 28), Koffing (Lv 29), Koffing (Lv 30).
-- Biker Harris (10, 9): DEFEATED. Flareon (Lv 34).
-- Biker Zeke (10, 10): DEFEATED. Koffing (Lv 32), Koffing (Lv 32).
-- Super Nerd Tom (31, 12): DEFEATED. Magnemite (Lv 32), Magnemite (Lv 32).
-- Strategy: Battle for EXP while heading to Lavender.
+- Super Nerd Tom (31, 12): DEFEATED.
+
 ## Lavender Town Notes
 - (0, 8): Entrance from Route 8.
 - Mart: (1, 5).
 - Volunteer Pokemon House: (5, 9).
 - Pokemon Center: (5, 5). Found!
 - Radio Tower (formerly Pokemon Tower): Northeastern part of town.
-- Strategy: Explore town, then head north to Route 10/Power Plant.
+
 ## Lavender Radio Tower 1F Notes
 - (2, 7), (3, 7): Exit to Lavender Town.
 - Receptionist: (6, 6).
 - Super Nerd: (2, 4).
-- Strategy: Talk to staff to learn about the tower and potentially get the Radio Card or EXPN Card.
+- Pathing: To talk to Receptionist, go to (6, 4) and face DOWN.
+- Directory: (11, 0).
