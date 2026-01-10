@@ -24,8 +24,6 @@
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store.
 - **Status:** Moving to 3F.
-- **Reason:** 2F Clerks (Medicine/Balls) do not stock Super Repels.
-- **Action:** Closing dialogue (B) -> Moving to Stairs (12, 0).
-- **Plan:**
-  1. Take stairs to 3F.
-  2. Check 3F Clerks (Battle Items/TMs).
+- **Action:** Pathfinding to Stairs at (12, 0).
+- **Reason:** 2F checked (no stock). Checking 3F for Battle Items/TMs.
+- **Financials:** ¥6772.
