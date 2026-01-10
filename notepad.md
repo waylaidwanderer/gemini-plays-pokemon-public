@@ -8,6 +8,7 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
+- GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
@@ -18,6 +19,7 @@
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
   - Plan: Retrieve Machine Part from Cerulean Gym water -> Return Part to Power Plant.
+- **Quest Start:** Turn 39084 (Saturday, Jan 10, 2026).
 
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
@@ -30,7 +32,7 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39494
+- **Current Turn:** 39495
 - **Clues:** Machine Part stolen. Rocket Grunt revealed it is hidden in the Cerulean Gym water.
 - **Goal:** Search the center of the gym pool.
 - **Hypothesis:** Itemfinder "Nope!" at (3, 3) might be due to range or incorrect "center" definition.
@@ -41,4 +43,8 @@
   - (3, 3) facing Up (searching 3, 2): No result with direct A press.
   - (3, 3): Itemfinder "Nope!".
 - Next: Move to (4, 5) and (5, 8) to search.
-- Menu Recovery: Press B if needed.
+- Lesson: Manual menu navigation is more reliable than custom tools when menu state is complex.
+
+## Error Analysis & Lessons
+- Turn 39485: `use_itemfinder_robust` failed due to unexpected menu state (ended up in PKMN menu).
+- Turn 39494: Itemfinder confirmed no item at (3, 3). Moving to next hypothesis (center of the gym).
