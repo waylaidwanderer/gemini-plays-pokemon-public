@@ -9,7 +9,7 @@
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
 - **Status:** Inside Magnet Train Station.
-- **Action:** Walking to Officer to board train.
+- **Action:** Talking to Officer to board train.
 - **Next Step:** Train -> Fly Ecruteak -> Hunt.
 - **Stats:** 0 Encounters so far.
 
