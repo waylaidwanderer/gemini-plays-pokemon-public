@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Paused (Correction).
-- **Note:** Accidentally mashed 'A' in menu. Backing out.
-- **Repel:** Inactive.
+- **Status:** Roaming Hunt Loop - Active (No Repel).
+- **Note:** Mistral has Blue Apricorn.
+- **Repel:** Inactive (Out of Super Repels, saving Max Repel).
