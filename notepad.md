@@ -26,8 +26,9 @@
 
 ## Current Objective: Access Vermilion Gym
 - Start Turn: 38212
-- Status: KIMCHI withdrawn. Exiting Pokecenter.
-- To-do: Locate Cut tree at (9, 16), use Cut, enter Gym.
+- Status: KIMCHI withdrawn. At (14, 17).
+- To-do: Navigate around Super Nerd (13, 17) to (12, 18), use Cut on tree at (13, 18), enter Gym at (10, 19).
+- Note: Super Nerd at (13, 17) is pacing; avoid his path.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
