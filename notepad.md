@@ -30,3 +30,9 @@
   - 1F (25_11): Pokefan M (ID 1) at (2, 3) mentions she mimics; Pokefan F (ID 2) at (5, 4) calls her self-centered. Clefairy Sprite (ID 3) at (6, 6).
   - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1). Dialogue: She refuses to stop mimicking.
 - Route 5 Saffron Gatehouse (25_14): Officer at (0, 4).
+## Route 5 Exploration (Turn 38458)
+- Current Position: (8, 17) on Route 5.
+- Warp at (8, 17) and (9, 17) leads back to Saffron City via the gatehouse.
+- Observation: Ledges at y=13 suggest a one-way path from the north.
+- Strategy: Head north to find Cerulean City.
+- Verified: Entered Route 5 from Saffron Gatehouse.
