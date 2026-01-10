@@ -58,6 +58,9 @@
 - Test 1: Press Up at (0, 13) facing up. Result: FAILED (Tile is a WALL).
 - Conclusion: Porthole tile at (0, 12) is NOT a door.
 - Hypothesis 2: Maybe one of the other porthole tiles is a door.
-- Test 2: Press Up at (2, 13) facing (2, 12). Result: [Pending]
+- Test 2: Press Up at (2, 13) facing (2, 12). Result: FAILED (Tile is a WALL).
+- Conclusion: Porthole tiles at (0, 12) and (2, 12) are NOT doors.
+- Hypothesis 3: Porthole tiles might require pressing 'A'.
+- Test 3: Press A at (4, 13) facing (4, 12). Result: [Pending]
 - Observation: Pink sprites at (1, 17) and (6, 17) are not in the object list; likely background tiles.
 - Strategy: If (0, 12) is a wall, check all other porthole tiles (2, 12), (4, 12), (6, 12) and then explore 1F cabins.
