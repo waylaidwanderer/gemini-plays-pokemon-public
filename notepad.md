@@ -27,8 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31622)
-- **Status:** In Goldenrod City (North).
-- **Goal:** Resupply at Dept. Store (Sell Revives, Buy Super Repels).
-- **Action:** Pathfinding to Dept. Store Entrance (24, 27).
-- **Note:** Arrived from Route 35 Gatehouse. Markers confirmed.
+- **Session Start:** Turn 30996 (Current: 31623)
+- **Status:** In Goldenrod City (Near Dept. Store).
+- **Goal:** Enter Dept. Store (24, 27).
+- **Action:** Pathfinding to entrance (re-calculating path).
+- **Note:** Previous path deviated, likely due to NPC collision or map geometry. Current pos (21, 24).
+- **Next:** Sell Revives, Buy Super Repels.
