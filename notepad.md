@@ -29,15 +29,12 @@
 ## Observed Pokemon (Kanto)
 - Rock Tunnel: Geodude (Lv11-14), Zubat (Lv12), Haunter (Lv17), Onix (Lv16).
 
-## Route 10 North Progress
-- (11, 1): Pokemon Center (Map 7_14).
-
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Officer (4, 14):** Confirmed a thief broke into the Power Plant.
-- **Gym Guide (6, 11):** Noted the Power Plant was abandoned but now powers the Magnet Train.
-- **Gym Guide (2, 9):** Confirmed an essential generator part was stolen.
-- **Gym Guide (5, 5):** Offered to trade MAGNETON for DUGTRIO. (Declined).
-- **Officer (9, 3):** Confirmed the Manager is "up ahead" (likely to the east) and is upset about the wrecked generator.
-- **Fisher (14, 10):** To be interviewed.
-- **Manager:** Location likely in the eastern generator room. Exploring (18, 7) area.
+- **Status:** Talked to Manager. He is furious about the stolen generator part.
+- **Officer (4, 14):** Reported a thief broke in. Check for updates.
+- **Gym Guide (6, 11):** Info on Magnet Train power.
+- **Gym Guide (2, 9):** Info on stolen part.
+- **Gym Guide (5, 5):** Wants DUGTRIO for MAGNETON.
+- **Officer (9, 3):** Guarding the generator room.
+- **Manager (14, 10):** Needs the Machine Part returned.
