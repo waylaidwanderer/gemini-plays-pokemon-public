@@ -11,12 +11,15 @@
 - WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry. In Saffron Gym, these tiles are placed in the corners of rooms and lead to other rooms in the maze.
 
 ## Battle Mechanics (Verified)
-- Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!".
+- Status Moves: Misses are reported as "The attack missed!". "It didn't affect..." indicates type immunity.
 - Night Shade: Deals fixed damage equal to the user's level.
-- Type Effectiveness: Dark super-effective against Ghost/Poison.
+- Type Effectiveness (Psychic): Weak to Bug, Ghost, Dark.
+- Type Effectiveness (Ghost): Weak to Ghost, Dark. Immune to Normal, Fighting.
+- Type Effectiveness (Dark): Super-effective against Ghost, Psychic.
+- Type Effectiveness (Poison): Weak to Ground, Psychic.
 
 ## PC Storage (Box 1)
-- 1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SELKIE (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
+- 1. SPINARAK (Lv13), 2. GLAIVE (SCYTHER) (Lv14), 3. SELKIE (SEEL) (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
 
 ## Movesets (HM Users)
 - KIMCHI (GLOOM): Lv41 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
@@ -29,22 +32,14 @@
 
 ## Saffron Gym Challenge
 - **Start Turn:** 39791
-- **Goal:** Defeat Sabrina.
 - **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
 - **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
-- **Time Tracking:** Saffron Gym Challenge Start: Turn 39791.
-
-### Tile Mechanics (Saffron Gym)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WARP_PANEL: Immediate teleportation. Linked in a maze-like fashion. Located in room corners.
 
 ### Saffron Gym Battle Strategy
 - **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
-- **Current Status:** GNEISS (Lv53) fainted. Calcifer (Lv58) at 5 HP. XENON (Lv43) active. Attempting Hypnosis on Alakazam.
-- **Tactics:** Land Hypnosis to incapacitate Alakazam, then use Night Shade or switch.
+- **Tactics:** Exploiting low Physical Defense is key. Alakazam is extremely fast and has high Special Attack.
 
 ## Lessons Learned
-- **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
+- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
 - **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
