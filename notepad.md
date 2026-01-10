@@ -47,13 +47,6 @@
 - Start Turn: 39167
 - End Turn: 39336
 - Summary: Navigated ledges and cut a tree at (5, 8) to reach Cerulean City. All trainers defeated. Area fully explored.
-
-## Lessons Learned
-- NPCs act as walls and must be navigated around.
-- "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
-- Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
-- FLOOR_UP_WALL is not jumpable from the North.
-- Always check for gaps in ledges for passage.
-- (15, 5) and (16, 9) are gaps allowing Northward travel.
-- (9, 7) is a ledge allowing Southward travel to the lower section.
-- (5, 8) is a cuttable tree that must be cleared to reach Cerulean City.
+- Key Gaps: (15, 5) and (16, 9) allow Northward travel.
+- Ledges: (9, 7) allows Southward travel.
+- Cut Tree: (5, 8).
