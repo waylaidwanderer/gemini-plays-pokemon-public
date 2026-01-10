@@ -7,8 +7,8 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** In Menu: Selecting Pack to use Repel.
-- **Current Turn:** 32196.
+- **Status:** Using Super Repel (Menu Interaction).
+- **Current Turn:** 32197.
 - **Repel Steps:** 0/200 used.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
