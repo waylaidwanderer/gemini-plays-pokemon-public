@@ -27,9 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31565)
-- **Status:** Resupply Run - Recovery.
-- **Action:** Ending call -> Navigating to Map Card.
+- **Session Start:** Turn 30996 (Current: 31566)
+- **Status:** Resupply Run - Menuing.
+- **Action:** Closing Mom's saving prompt.
 - **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
-- **Lesson:** `navigate_menu` defaults (50ms) cause double-inputs in Pokegear. Use single inputs.
-- **Note:** Ecruteak Mart lacks Super Repels (Gen 2 standard). Goldenrod is necessary.
+- **Note:** Careful with menu inputs. Pokegear is sensitive.
