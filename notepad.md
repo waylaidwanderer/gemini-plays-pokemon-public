@@ -17,14 +17,14 @@
 # Current Strategy
 ## Roamer Hunt (Raikou/Entei)
 - **Goal:** Encounter Raikou and Entei.
-- **Location:** Route 37 (Returning to Ecruteak).
+- **Location:** Route 37 (Grass Check).
 - **Start Turn:** 32028.
-- **Current Turn:** 32075.
-- **Repel Steps:** ~66/200 used.
+- **Current Turn:** 32076.
+- **Repel Steps:** ~160/200 used (Revised Estimate).
 - **Hunting Loop:**
-  1. Move Down (Enter Route 37).
-  2. Walk South into Grass (approx 8,5).
-  3. If no encounter, Walk North to Ecruteak.
+  1. Move Up (Reset in Ecruteak).
+  2. Move Down (Re-enter Route 37).
+  3. Walk South into Grass (approx 8,5).
   4. Repeat.
 - **Mechanics:** Repel filters Lvl < 36. Roamers are Lvl 40.
 
