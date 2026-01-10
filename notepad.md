@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Exiting Menu.
-- **Method:** Blind Hunt Loop.
-- **Notes:** Super Repel active (~200 steps). Exiting menu to resume hunt.
-- **Time:** Start ~Turn 30680. Current 30753.
-- **Next Step:** Exit Menu -> Hunt.
+- **Status:** Hunting.
+- **Method:** `hunt_check_route37`.
+- **Notes:** Super Repel active. Executing hunt routine.
+- **Time:** Start ~Turn 30680. Current 30754.
+- **Next Step:** Check for Encounter -> Return to Ecruteak.
