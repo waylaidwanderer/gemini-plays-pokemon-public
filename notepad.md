@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped).
+- FLOOR_UP_WALL: Impassable Wall from the North; cannot be jumped down from this side.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 
@@ -16,7 +16,7 @@
 - Type Effectiveness: Dark is super-effective against Ghost/Poison (Haunter).
 
 ## PC Storage (Box 1)
-1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
+1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SEEL (Lv24), 4. MANTINE (Lv20), 5. KRABBY (Lv22), 6. TENTACOOL (Lv17), 7. KRABBY (Lv10), 8. DRATINI (Lv15)
 
 ## Movesets (HM Users)
 - KIMCHI (GLOOM): Lv40 | CUT, FLASH
@@ -26,10 +26,13 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Machine Part retrieved. Party healed.
+- **Return to Power Plant Phase Start:** 39630
 - **Plan:**
-  1. Exit Pokemon Center and enter Power Plant (3, 9).
-  2. Return Machine Part to Manager (14, 10).
+  1. Exit Route 10 North at (14, 0) to Route 9.
+  2. Navigate Route 9 to the water entry point.
+  3. Surf down the river back to Route 10 North.
+  4. Enter Power Plant at (3, 9).
+  5. Return Machine Part to Manager at (14, 10).
 
 ## Lessons Learned
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
