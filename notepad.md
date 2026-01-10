@@ -60,3 +60,4 @@
 - Pokefan Rex (9, 12): DEFEATED.
 - Pokefan Allan (10, 12): DEFEATED.
 - Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
+- (17, 17): Likely reachable with Surf; need to verify physically.
