@@ -14,7 +14,8 @@
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
-- **Current Objective: Resolve Power Plant Crisis.**
+- **Current Objective: Resolve Power Plant crisis.**
+  - Strategy: Retrieve the stolen Machine Part to restore power.
   - Plan: Find Mr. Fuji (Lavender) -> Route 10 -> Power Plant -> Cerulean Gym (Machine Part).
 
 ## PC Storage (Box 1)
@@ -34,10 +35,13 @@
 - (54, 17): Transition to Route 10 North (14, 0).
 - Goal: Find water access at eastern edge to Surf to Power Plant.
 - Note: Building door previously at (51, 19) is actually the Pokemon Center at (11, 1) on Route 10 North.
+
 ## Strategy for Reaching Power Plant
-- Attempt 1: Tried Route 10 North (7_14) at (14, 0). Blocked by wall at x=15.
-- Hypothesis 1: Route 9 (7_13) has water access at (56, 6) that leads south to Route 10 North water.
-- Path: From (54, 17) on Route 9, navigate north to (56, 6). Use Surf on (56, 6) and travel south.
-- Verification: Sign at (12, 1) in Route 10 North confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
-- Failed Hypotheses:
+- **Attempt 1 (Turn 39056):** Tried Route 10 North (7_14) at (14, 0). Blocked by wall at x=15.
+- **Hypothesis 1:** Route 9 (7_13) has water access at (56, 4) that leads south to Route 10 North water.
+- **Obstacle:** Wall at Row 5 (x=49-55+) blocks access to Row 4 from the south.
+- **Plan:** Navigate west along Row 8 on Route 9 to find a gap in the Row 5 wall. Then move east along Row 4 to reach the water at (56, 4).
+- **Verification:** Sign at (12, 1) in Route 10 North confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
+- **Failed Hypotheses:**
     - Gap in wall at x=15 on Route 10 North (No gap seen up to y=6).
+    - Direct access to (56, 6) or (56, 7) from (54, 6) (Blocked by wall at x=55).
