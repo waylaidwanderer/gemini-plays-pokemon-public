@@ -25,9 +25,9 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Repel Wore Off (Interrupted).
-- **Method:** Paused to Refuel.
-- **Cycle Status:** Was in Cycle B (at 8,1). Inputs blocked by text.
-- **Action:** Clearing text. Next turn: Use Super Repel.
-- **Time:** Start ~Turn 30680. Current 30921.
-- **Next Step:** Apply Super Repel.
+- **Status:** Using Super Repel.
+- **Method:** Menu Navigation.
+- **Action:** Opening Start Menu to verify cursor position.
+- **Cycle Status:** Paused at Route 37 (8,1).
+- **Time:** Start ~Turn 30680. Current 30922.
+- **Next Step:** Select Pack -> Use Super Repel.
