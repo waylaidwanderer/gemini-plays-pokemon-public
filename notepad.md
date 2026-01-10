@@ -43,15 +43,10 @@
 ## Active Quests
 - Find the Gentleman's missing granddaughter. Started Turn: 37715.
 - Strategy: Check all cabins on 1F and explore lower deck areas via all staircases/ladder.
-- Map 15_3 Staircases: (15, 15) -> 15_5 (2, 19), (19, 15) -> 15_5 (2, 31), (23, 15) -> 15_6 (2, 7), (27, 15).
+- Map 15_3 Staircases: (15, 15) -> 15_5 (2, 19) [Checked], (19, 15) -> 15_5 (2, 31) [Checked], (23, 15) -> 15_6 (2, 7) [Current], (27, 15) [Next].
 - Map 15_3 Ladder: (6, 12).
-- Map 15_3 North Hallway: All rooms checked.
-- FastShip 1F: Gentleman at (25, 6) is looking for his granddaughter.
-- FastShip 1F: Sailor at (25, 2) confirms destination Vermilion City.
-- FastShip 1F: Sailor at (14, 7) guards cabin (15, 8).
-- FastShip 1F: Sailor at (24, 17) says passengers are trainers.
-- FastShip 1F Cabins (27, 8), (23, 8), (19, 8) checked. No granddaughter.
-- FastShip 15_6: Found two Twins at (2, 4) and (3, 4). One might be the granddaughter.
+- FastShip 15_6: Found two Twins at (2, 4) and (3, 4). Defeated them. One might be the granddaughter.
+- Kanto Gym 1: Lt. Surge (Vermilion City). Lv 44-46. MVP: GNEISS (Lv 51).
 
 ### Battle Observations (S.S. Aqua)
 - Hiker Noland: Sandslash (Lv 31), Golem (Lv 33).
