@@ -17,10 +17,10 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Reach Celadon Dept. Store.
-- **Location:** Goldenrod Dept. Store Elevator (Arrived at 1F).
+- **Location:** Goldenrod Dept. Store Elevator (1F).
 - **Status:** Exiting Elevator.
-- **Action:** Pressing B to close menu -> Moving Down.
-- **Observation:** Screen says "Now on: 1F". Elevator travel complete.
-- **Next:** Exit Elevator -> Leave Store -> Magnet Train.
+- **Action:** Walking out (Down -> Left -> Down).
+- **Next:** Exit Store (South) -> Magnet Train Station.
+- **Note:** Previous turn's movement inputs were consumed by menu closing lag. Retrying movement.
 - **Lesson (Turn 31721):** HALLUCINATION CHECK. I pressed 'A' thinking I was on 1F, but the screen showed B1F. Always cross-reference "Current Screen Text" with my assumption. Visual confirmation is mandatory before confirming selections.
 - **Menu Strategy:** For critical menus (Elevator, Shops), use `press_buttons` exclusively and verify state after EVERY button press. Do not chain inputs.
