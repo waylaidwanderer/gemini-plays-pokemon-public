@@ -62,3 +62,19 @@
 
 - Psychic Franklin (Defeated):
   - Kadabra (Lv 37): Psychic. Neutral to Ground. Moves: Future Sight.
+## Saffron Gym Room Map (3x3 Grid)
+- Room (1,A) [Top-Left]: X: 0-5, Y: 0-5.
+- Room (2,A) [Top-Middle]: X: 7-12, Y: 0-5. (Current)
+- Room (3,A) [Top-Right]: X: 14-19, Y: 0-5.
+- Room (1,B) [Mid-Left]: X: 0-5, Y: 7-11.
+- Room (2,B) [Mid-Middle]: X: 7-12, Y: 7-11. (Sabrina)
+- Room (3,B) [Mid-Right]: X: 14-19, Y: 7-11.
+- Room (1,C) [Bottom-Left]: X: 0-5, Y: 13-17.
+- Room (2,C) [Bottom-Middle]: X: 7-12, Y: 13-17. (Entrance)
+- Room (3,C) [Bottom-Right]: X: 14-19, Y: 13-17.
+
+## Warp Connections
+- (2,C) Entrance (11, 15) <-> (3,C) (19, 17)
+- (3,C) (15, 17) <-> (1,C) (5, 15)
+- (1,C) (1, 17) <-> (2,A) (11, 5)
+- Testing (2,A) (11, 3)...
