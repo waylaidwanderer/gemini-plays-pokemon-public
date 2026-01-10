@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL (Hypothesis): Impassable Wall from the North; cannot be jumped down from this side.
+- FLOOR_UP_WALL (Hypothesis): Impassable Wall from the North; cannot be jumped down from this side. Needs verification (likely impassable from South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
