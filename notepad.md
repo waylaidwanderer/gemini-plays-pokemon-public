@@ -25,10 +25,10 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle B).
+- **Status:** Manual Hunt (Cycle A).
 - **Method:** 2-Turn Cycle.
 - **Cycle A:** Move Down to Route 37.
 - **Cycle B:** Hunt in grass & Return to Ecruteak.
-- **Notes:** Arrived in Route 37. Executing hunt pattern in grass, then returning to warp at (8,0).
-- **Time:** Start ~Turn 30680. Current 30893.
-- **Next Step:** Return to Ecruteak (Cycle A).
+- **Notes:** Moving Up to enter Ecruteak City. This resets the roamers.
+- **Time:** Start ~Turn 30680. Current 30894.
+- **Next Step:** Move Down (Return to Route 37).
