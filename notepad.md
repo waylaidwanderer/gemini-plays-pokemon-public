@@ -62,7 +62,7 @@
 - Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
 - (17, 17): Likely reachable with Surf; need to verify physically.
 ## Route 8 Notes
-- Biker Dwayne (10, 8): Koffing (Lv 27), Koffing (Lv 28), Koffing (Lv 29).
+- Biker Dwayne (10, 8): Koffing (Lv 27), Koffing (Lv 28), Koffing (Lv 29), Koffing (Lv 30).
 - Biker (10, 9): Unseen.
 - Biker (10, 10): Unseen.
 - Strategy: Battle for EXP while heading to Lavender.
