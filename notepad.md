@@ -116,3 +116,8 @@
 - Observed a building to the east at x=4-7, y=8-11.
 - The path at x=1-3 opens up to the east at y=6 and y=7.
 - Strategy: Moving north to (2, 6) to uncover the northernmost tiles and locate the Route 5 exit.
+## Saffron City Exploration Log (Turn 38397)
+- Northern dead end reached at (2, 6).
+- Observed horizontal wall/floor pattern at y=2-6.
+- Strategy: Move east along the y=6 corridor to (12, 6) to find a gap or entrance to the northern section.
+- Observation: The building at (4-7, 8-11) blocks direct north movement from the east side of this alley.
