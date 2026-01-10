@@ -32,19 +32,15 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39512
-- **Clues:** Machine Part stolen. Rocket Grunt revealed it is hidden in the Cerulean Gym water.
-- **Goal:** Search the gym pool for the hidden Machine Part.
-- **Status:** Itemfinder pinged "Yes!" at (4, 7). No hit at (3, 3).
+- **Current Turn:** 39513
+- **Clues:** Machine Part hidden in Cerulean Gym water.
+- **Status:** Itemfinder "Yes!" at (4, 7). "Nope!" at (3, 3).
+- **Goal:** Retrieve the Machine Part.
 
 ## Cerulean Gym Search Plan
-- Target Area: Central and Southern pools.
-- Search Strategy: Grid search using Itemfinder.
-- Interaction Log:
-  - (3, 3): Itemfinder "Nope!". Marked with 🚫.
-  - (4, 7): Itemfinder "Yes!". Marked with ✨.
-- Next: Search (4, 8) and (4, 6).
-- Lesson: Manual menu navigation is required due to cursor persistence.
+- Strategy: Search water tiles near (4, 7) ping.
+- Current Targets: (4, 8), (3, 8), (6, 8).
+- Method: Surf to tile and press A.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
