@@ -27,9 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31558)
-- **Route:** Ecruteak (18,35) <-> Route 37 (7,0)/(8,0)
-- **Status:** Roaming Hunt Loop - Paused (Out of Repels).
-- **Action:** Clearing "Repel wore off" text.
-- **Repel:** Expired (None left in bag).
-- **Plan:** Fly to Goldenrod -> Sell Items -> Buy Super Repels.
+- **Session Start:** Turn 30996 (Current: 31559)
+- **Status:** Resupply Run - Transitioning.
+- **Action:** Opening Start Menu to Fly.
+- **Goal:** Fly to Goldenrod -> Sell Revives/Items -> Buy Super Repels.
+- **Note:** Money is low (¥1272). Selling consumable items is necessary.
