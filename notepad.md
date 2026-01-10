@@ -27,8 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31628)
-- **Status:** Inside Elevator.
-- **Goal:** Go to 2F.
-- **Action:** Move to panel (3, 1) and press A.
-- **Next:** Select "2F" from menu -> Exit -> Sell/Buy.
+- **Session Start:** Turn 30996 (Current: 31629)
+- **Status:** Interacting with Elevator Panel.
+- **Goal:** Open Menu and Select 2F.
+- **Action:** Pressing A to activate panel.
+- **Next:** Menu Navigation (Select 2F).
+- **Financial Plan:** Sell 5 Revives (~3750¥) -> Buy 10 Super Repels.
