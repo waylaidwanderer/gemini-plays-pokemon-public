@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Interrupted by Gaven (Phone Call). Resuming hunt after.
-- **Note:** `rt37_hunt_return` MUST start at Rt 37 (8,0). Currently at Ecruteak (18,35).
-- **Repel:** Active (~176 steps).
+- **Status:** Resuming automated hunt (Cycle 107 - Moving to Route 37).
+- **Note:** `rt37_hunt_return` MUST start at Rt 37 (8,0). Don't call from Ecruteak.
+- **Repel:** Active (~175 steps).
