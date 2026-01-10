@@ -37,3 +37,7 @@
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
 - Fishing Rod: NPC at Pokecenter (7, 2).
+## Vermilion Gym Observations
+- Gym Guide (Turn 38231): "The traps aren't active right now. You'll have no problem getting to LT.SURGE."
+- Hypothesis: The trash can puzzle might be disabled or bypassed.
+- Test: Walk north towards the Leader's platform and check for barriers.
