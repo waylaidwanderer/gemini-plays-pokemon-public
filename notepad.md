@@ -11,8 +11,8 @@
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
 - Clues: Granddaughter is missing.
-- Strategy: Explore western 1F (reached via B1F ladder at 5, 11) to find the Captain's cabin. The granddaughter should be there.
-- Progress: Found the "lazy bum" buddy (Sailor Stanly) on 1F; defeated him. Passed the B1F sailor and reached the western section of the ship.
+- Strategy: Talk to the granddaughter in the Captain's cabin (15_6) at (2, 25) to trigger her return to her grandfather.
+- Progress: Found the Captain and the missing granddaughter.
 
 ## Kanto Strategy
 - Target 1: Lt. Surge (Vermilion City).
