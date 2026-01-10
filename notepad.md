@@ -36,7 +36,6 @@
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
 - **Status:** Roaming Hunt Loop - Menuing.
-- **Action:** Opening Start Menu to use Max Repel.
-- **Note:** Mistral has Blue Apricorn.
-- **Battle:** Wild Spinarak caught. Nickname: "AAAAAAAAAA" (Accidental mash).
-- **Repel:** Inactive (Using Max Repel next).
+- **Action:** Selecting PACK to use Max Repel.
+- **Battle:** Wild Spinarak caught. Nickname: "AAAAAAAAAA".
+- **Repel:** Inactive -> Activating.
