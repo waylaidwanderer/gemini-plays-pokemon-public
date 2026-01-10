@@ -17,5 +17,6 @@
 ## Lessons Learned
 - Completed 'Find Granddaughter' quest on turn 38066; reward: Metal Coat.
 - S.S. Aqua arrives in Vermilion City after the quest is complete.
-- To exit the ship, use the warp at (2, 19) or (3, 19) in the cabin area.
+- To exit the ship to Vermilion Port, use the staircase at (25, 1) on FastShip 1F (Map 15_3).
 - Fast Ship corridors can be blocked by NPCs until triggers (like catching a slacking sailor) are met.
+- Re-entering the cabin at (27, 15) on 1F warps to the Gentleman's cabin on 15_6.
