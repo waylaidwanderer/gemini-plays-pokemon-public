@@ -24,3 +24,4 @@
 - Start Turn: 37664 (Return to New Bark Town).
 - Objective: Travel to Olivine City to board the S.S. Aqua to Kanto.
 - Objective: Collect the 8 Kanto Badges.
+- Strategy: Use Fly to Olivine, enter the Port Passage south of the city, and follow the path to the S.S. Aqua.
