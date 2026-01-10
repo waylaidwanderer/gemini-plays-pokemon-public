@@ -39,8 +39,13 @@
 
 ## Cerulean Gym Search Plan
 - Strategy: Grid search water tiles near (4, 7) ping.
-- Current Targets: (4, 8), (3, 8), (4, 9), (3, 9).
-- Method: Surf to tile and press A.
+- Current Targets: (3, 8), (4, 8), (3, 9), (4, 9).
+- Method: Surf to tile and press A while facing different directions (since A checks the tile in front).
+- Progress:
+  - (3, 3): Itemfinder "Nope!". Marked 🚫.
+  - (4, 7): Itemfinder "Yes!". Marked ✨.
+  - (4, 8): Search (facing down) failed.
+- Next: Move to (3, 8) and search.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
