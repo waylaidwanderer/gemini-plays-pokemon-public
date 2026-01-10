@@ -8,10 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** Purchase Complete (Turn 32517).
-- **Inventory:** +6 Super Repels.
-- **Money:** ~222 Yen.
-- **Next Step:** Exit Menu -> Walk to Saffron -> Train to Goldenrod.
+- **Current Task:** Return to Johto (Resume Hunt).
+- **Status:** Exiting Celadon Dept Store (Turn 32518).
+- **Action:** Closing Shop Menu.
+- **Next Step:** Walk to Saffron -> Magnet Train -> Fly Ecruteak.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
