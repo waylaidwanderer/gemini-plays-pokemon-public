@@ -10,9 +10,9 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter
-- Status: Investigating B1F. Sailor at (30, 6) has moved, opening the passage north. Sailor at (31, 6) remains.
-- Clues: Energetic girl (1F); "lazy bum" buddy goofing off (B1F).
-- Strategy: Bypass the sailor at (31, 6) by walking through (30, 6). Explore the western side of B1F to find the "lazy bum" buddy.
+- Status: Found the lazy sailor at (30, 6). He has returned to duty (clearing the path north).
+- Clues: Granddaughter is likely with the Captain.
+- Strategy: Explore the newly opened area north and west on B1F to find the Captain's cabin and the missing girl.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
@@ -24,3 +24,4 @@
 - Super Nerd (26, 9) blocks the x=26 corridor on B1F.
 - Map transitions reset NPC positions and can progress scripted events.
 - Path to western 1F is likely via B1F (East 1F -> East B1F -> West B1F -> West 1F).
+- Finding the 'lazy bum' buddy involves talking to the sailor looking for him (31, 6) and then the buddy himself (30, 6).
