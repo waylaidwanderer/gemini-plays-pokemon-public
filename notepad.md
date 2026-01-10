@@ -20,8 +20,9 @@
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
   - Plan: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Officer mentions Power Plant issues. Status: Testing if passage is actually blocked.
-  - Obstacle 2: Building at (17, 3) blocked by Pokefan M. Likely the Underground Path detour.
+  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Officer mentions Power Plant issues.
+  - Obstacle 2: Building at (17, 3) blocked by Pokefan M.
+  - Detour: Underground Path (Searching for entrance, sign at 19, 5).
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
