@@ -128,48 +128,5 @@
         "action_counter": 31088
       }
     ]
-  },
-  "menu_sequencer": {
-    "description": "Generates a robust sequence of button presses for menu navigation. Ensures correct timing (hold_ms) and intervals (interval_ms), returning a JSON array of inputs. Replaces navigate_menu.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "directions": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Up",
-              "Down",
-              "Left",
-              "Right",
-              "A",
-              "B",
-              "Start",
-              "Select"
-            ]
-          }
-        },
-        "hold_ms": {
-          "type": "integer",
-          "default": 50
-        },
-        "interval_ms": {
-          "type": "integer",
-          "default": 350
-        }
-      },
-      "required": [
-        "directions"
-      ]
-    },
-    "python_script": "def menu_sequencer(directions, hold_ms=50, interval_ms=350, *args, **kwargs):\n    import json\n    import sys\n    \n    sequence = []\n    try:\n        # Frame duration is approx 16.6ms. \n        # Using 16 to be safe.\n        frames_to_hold = max(1, int(hold_ms / 16))\n        \n        for button in directions:\n            # Add the button repeated for the number of frames to hold\n            for _ in range(frames_to_hold):\n                sequence.append(button)\n            \n            # Add the sleep command\n            if interval_ms > 0:\n                sequence.append(f\"sleep {interval_ms}\")\n        \n        output = json.dumps(sequence)\n        print(output)\n        sys.stdout.flush()\n        return sequence\n        \n    except Exception as e:\n        # Fallback to empty list in case of error\n        print(json.dumps([]))\n        sys.stdout.flush()\n        return []",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-10T17:10:25.868Z",
-        "action_counter": 31947
-      }
-    ]
   }
 }
