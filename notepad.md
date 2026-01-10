@@ -17,8 +17,8 @@
 - Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31) (Defeated).
 - Battle Log: Turn 38026 - Calcifer (Lv 57) vs Stanly's Machoke (Lv 33) (Defeated).
 - Battle Log: Turn 38028 - Calcifer (Lv 58) vs Stanly's Psyduck (Lv 26) (Defeated).
-- Progress: Defeated Sailor Stanly in cabin 15_4. He admitted his fault and left.
-- Strategy: Return to B1F to see if the sailor blocking the path north has moved.
+- Progress: Defeated Sailor Stanly in cabin 15_4. He apologized and returned to duty.
+- Strategy: Head to B1F (31, 6) to confirm the path north is clear.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
