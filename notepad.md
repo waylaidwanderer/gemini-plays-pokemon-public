@@ -36,3 +36,7 @@
   - Pokefan M (ID 1) at (2, 3): "My daughter likes to mimic people."
   - Pokefan F (ID 2) at (5, 4): "My daughter is so self-centered… She only has a few friends."
   - Clefairy Sprite (ID 3) at (6, 6).
+- Copycat's House 2F (25_12):
+  - Stairs at (3, 0) lead to 1F (2, 0).
+  - Copycat (ID 6) at (4, 3).
+  - Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1).
