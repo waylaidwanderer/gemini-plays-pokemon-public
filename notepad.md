@@ -24,9 +24,10 @@
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 4F.
 - **Status:** Positioning to talk to 4F Clerk.
-- **Action:** Pathfinding to (13, 3).
-- **Reason:** Clerk is at (13, 5) behind counter. Optimal interaction spot is (13, 3) facing Down.
+- **Action:** Pressing Down to face Clerk.
+- **Observation:** 2F Clerks had basic inventory (Potion, Repel). Missing High-Tier items (Hyper Potion, Super Repel).
+- **Hypothesis:** 4F might stock "High Tier" Medicine/Items.
 - **Plan:**
-  1. Move to (13, 3).
-  2. Interact -> Check for Super Repels.
-  3. If not found, check 5F.
+  1. Face Down -> Interact.
+  2. Check for Super/Max Repel.
+  3. If not found, Goldenrod might be low-tier. Fly to Celadon or Blackthorn.
