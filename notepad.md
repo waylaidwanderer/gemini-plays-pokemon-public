@@ -19,5 +19,6 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (5F).
-- **Action:** Navigate to Clerk at (8, 5).
-- **Reasoning:** 5F is the likely spot for vitamins/battle items.
+- **Action:** Talk to Clerk at (8, 5).
+- **Status:** Interacting with Clerk.
+- **Reasoning:** Positioned at counter. Asking for Repels.
