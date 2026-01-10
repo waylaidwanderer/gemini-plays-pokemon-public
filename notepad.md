@@ -28,8 +28,7 @@
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** Multi-Turn Split Loop (Manual).
-  - **Insight:** System clears input queue on map transition. Tools cannot cross map boundaries.
-  - **Step 1:** Warp to Rt 37 (Done).
-  - **Step 2 (Current):** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
-- **Status:** Finishing Hunt on Route 37 manually.
-- **Repel:** Active.
+  - **Step 1 (Current):** Ecruteak -> Rt 37 (Warp).
+  - **Step 2:** Rt 37 Grass Hunt & Return.
+- **Status:** Starting Cycle 2 (Ecruteak -> Rt 37).
+- **Repel:** Active (Steps used ~100/200).
