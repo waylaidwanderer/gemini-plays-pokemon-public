@@ -29,43 +29,6 @@
       }
     ]
   },
-  "swap_party_slots": {
-    "description": "Automates swapping two Pokémon in the party menu from the overworld. slot1 and slot2 are 1-indexed (1-6). switch_offset is the number of 'Down' presses to reach the 'SWITCH' command in the sub-menu (usually 1, but increases with HM moves like FLY/SURF).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "slot1": {
-          "type": "integer",
-          "description": "The 1-indexed position of the first Pokemon to swap."
-        },
-        "slot2": {
-          "type": "integer",
-          "description": "The 1-indexed position of the second Pokemon to swap."
-        },
-        "switch_offset": {
-          "type": "integer",
-          "description": "The number of 'Down' presses to reach 'SWITCH' from the top of the sub-menu (default 1)."
-        }
-      },
-      "required": [
-        "slot1",
-        "slot2"
-      ]
-    },
-    "python_script": "import json\n\nslot1 = int(input_data['slot1'])\nslot2 = int(input_data['slot2'])\noffset = int(input_data.get('switch_offset', 1))\n\nbuttons = [\"Start\", \"sleep 500\", \"Down\", \"sleep 300\", \"A\", \"sleep 500\"]\n\n# Select slot 1\nfor _ in range(slot1 - 1):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Select Switch\nfor _ in range(offset):\n    buttons.append(\"Down\")\n    buttons.append(\"sleep 200\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\n# Select slot 2\ndiff = slot2 - slot1\nmove = \"Down\" if diff > 0 else \"Up\"\nfor _ in range(abs(diff)):\n    buttons.append(move)\n    buttons.append(\"sleep 200\")\nbuttons.append(\"A\")\nbuttons.append(\"sleep 500\")\n\nbuttons.extend([\"B\", \"sleep 300\", \"B\", \"sleep 300\", \"B\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-09T21:48:56.429Z",
-        "action_counter": 37471
-      },
-      {
-        "commit_message": "Removed main function wrapper and fixed input_data access to ensure the script executes correctly as a standalone script.",
-        "timestamp": "2026-01-09T22:00:25.164Z",
-        "action_counter": 37492
-      }
-    ]
-  },
   "find_path_v3_fixed": {
     "description": "Calculates the shortest path between two coordinates on the current map. Returns button strings if autopress_buttons is true, otherwise returns coordinate objects. Handles one-way ledges. Avoids walls, objects, and unseen tiles for reliability.",
     "input_schema": {
@@ -144,37 +107,29 @@
       }
     ]
   },
-  "find_path_custom": {
-    "description": "Shortest path between two coordinates, handling ledges and floor walls.",
+  "swap_party_slots_v3": {
+    "description": "Swaps two party members, resetting the menu cursor first for reliability. slot1 and slot2 are 1-indexed (1-6).",
     "input_schema": {
+      "type": "object",
       "properties": {
-        "end_x": {
+        "slot1": {
           "type": "integer"
         },
-        "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
+        "slot2": {
           "type": "integer"
         }
       },
       "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ],
-      "type": "object"
+        "slot1",
+        "slot2"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_obs = t_type == 'WALL' or tile.attrib.get('has-object') == 'true'\n            grid[(x, y)] = {'type': t_type, 'is_obs': is_obs}\n\n    start = (int(input_data['start_x']), int(input_data['start_y']))\n    end = (int(input_data['end_x']), int(input_data['end_y']))\n    \n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), buttons = queue.popleft()\n        if (x, y) == end:\n            print(json.dumps(buttons))\n            return\n        \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in grid: continue\n            \n            target = grid[(nx, ny)]\n            if target['is_obs']: continue\n            \n            if dy == -1 and target['type'] == 'LEDGE_HOP_DOWN': continue\n            if dy == 1 and target['type'] == 'FLOOR_UP_WALL': continue\n            \n            if dy == 1 and target['type'] == 'LEDGE_HOP_DOWN':\n                nnx, nny = nx, ny + 1\n                if (nnx, nny) in grid and not grid[(nnx, nny)]['is_obs']:\n                    if (nnx, nny) not in visited:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), buttons + [btn]))\n                continue\n\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), buttons + [btn]))\n    print(json.dumps([]))\n\nsolve()",
+    "python_script": "import json\ns1 = int(input_data['slot1'])\ns2 = int(input_data['slot2'])\nif s1 > s2: s1, s2 = s2, s1\n# Sequence: Start, Up*8 (to POKEDEX), Down (to POKEMON), A (Party), A (Slot 1), Down (Switch), A, Down*(s2-s1), A, B, B\nbtns = [\"Start\", \"sleep 500\"] + [\"Up\"]*8 + [\"Down\", \"A\", \"sleep 500\", \"A\", \"sleep 500\", \"Down\", \"A\", \"sleep 500\"] + [\"Down\"]*(s2-s1) + [\"A\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]\nprint(json.dumps(btns))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T18:27:56.694Z",
-        "action_counter": 39601
+        "timestamp": "2026-01-10T20:41:43.958Z",
+        "action_counter": 39822
       }
     ]
   }
