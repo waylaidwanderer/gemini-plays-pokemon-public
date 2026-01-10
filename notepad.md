@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Clearing Repel Text (Repel Wore Off).
-- **Repel:** Inactive.
-- **Next:** `apply_super_repel`.
+- **Status:** Renewing Repel (Cycle 56).
+- **Repel:** Activating...
+- **Next:** Resume Hunt Loop.
