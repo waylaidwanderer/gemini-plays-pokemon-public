@@ -28,7 +28,7 @@
 - **Status:** Machine Part retrieved from Cerulean Gym.
 - **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
-  1. Navigate Route 9 Maze: (12, 13) -> (15, 11) -> East to (23, 11) -> Jump ledge to Row 14 -> East to Route 10 North exit at (54, 17).
+  1. Navigate Route 9: Move East from (23, 14) to Route 10 North exit at (54, 17).
   2. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Lessons Learned
