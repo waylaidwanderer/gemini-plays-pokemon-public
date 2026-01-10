@@ -49,4 +49,4 @@
 - Hypothesis 1: Path is through Row 14 (South). Reachable via Row 13 jumps at X=48.
 - Hypothesis 2: Path is through Row 0 (North). Reachable via Surf to Row 1 at X=39/40.
 - Hypothesis 3: Path involves Surfing West from X=42 in Row 2/3.
-- Plan: Head to (44, 14) to explore the southern path first.
+- Plan: Head to (48, 11), jump south to (48, 13), then walk west through Row 14 to reach Cerulean City.
