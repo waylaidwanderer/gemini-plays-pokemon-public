@@ -25,3 +25,6 @@
 - XENON (Haunter) is immune to Normal moves.
 - NPCs may block corridors until specific events/dialogue.
 - NPCs often update positions after a map transition.
+- Hypothesis: The "lazy" sailor at (30, 6) moved to (31, 6) after talking to him and re-entering the map.
+- Test: Re-entered B1F from 1F.
+- Conclusion: Confirmed. Sailor (ID 2) is at (31, 6), path at (30, 6) is clear.
