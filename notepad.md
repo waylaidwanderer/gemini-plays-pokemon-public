@@ -17,11 +17,11 @@
 # Current Strategy
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
-- **Location:** Goldenrod Dept. Store 5F.
-- **Status:** 5F Checked (TMs Only).
-- **Observation:** 5F Clerk sells Elemental Punch TMs (41, 48, 33) and Headbutt (02).
-- **Conclusion:** Goldenrod Dept. Store does NOT stock Super Repels.
-- **New Plan:**
-  1. Exit Store.
-  2. Fly to Celadon City (Kanto).
-  3. Buy Super Repels at Celadon Dept. Store.
+- **Location:** Goldenrod Dept. Store 5F -> Celadon City.
+- **Status:** Exiting Store.
+- **Reason:** Goldenrod has no Super Repels.
+- **Plan:**
+  1. Take Elevator to 1F.
+  2. Exit Store.
+  3. Fly to Celadon City (Kanto).
+  4. Buy Super Repels at Celadon Dept. Store.
