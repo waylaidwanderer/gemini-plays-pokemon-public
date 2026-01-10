@@ -42,3 +42,5 @@
 - Observed Pokemon (Kanto):
   - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
   - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16).
+- Observed Pokemon (Kanto):
+  - Rock Tunnel B1F: Onix (Lv16) at (16, 18).
