@@ -19,6 +19,6 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Opening Fly Map.
-- **Action:** Select 'FLY' -> Navigate to New Bark Town.
-- **Note:** Tool `navigate_menu` still failing (JSON error). Reverting to `press_buttons`.
+- **Status:** Flying to New Bark Town.
+- **Action:** Confirm Flight (Press A).
+- **Next:** Enter Elm's Lab.
