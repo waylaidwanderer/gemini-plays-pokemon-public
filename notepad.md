@@ -30,7 +30,7 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39462
+- **Current Turn:** 39463
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** Hidden in the Cerulean Gym water.
 - **Next Step:** Use Itemfinder at (4, 5).
@@ -46,5 +46,5 @@
   - (4, 8): A pressed -> No result.
   - (3, 6): A pressed -> No result.
   - (4, 6): A pressed -> No result.
-  - (4, 5): A pending.
-- Note: Itemfinder use in Turn 39452 was a menu error (Pokegear opened). Previous "ping" note was a mistake. Must verify ping now.
+  - (4, 5): A pressed -> No result.
+- Note: Itemfinder use in Turn 39462 failed (opened Option menu). Exit Option menu and navigate to PACK.
