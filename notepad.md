@@ -51,8 +51,10 @@
 - **Primary Goal Start:** Turn 38104 (Arrived in Vermilion City)
 - **Magnet Train Restoration Start:** Turn 39082 (Found Power Plant)
 - **Magnet Train Restoration End:** Turn 39771 (First successful trip)
-## Saffron Gym Challenge (Turn 39791)
-- **Status:** Obtained Rail Pass. Restored Power. Arrived in Saffron. Lead Pokemon swapped to Calcifer (Lv58).
+## Saffron Gym Challenge (Turn #39800)
+- **Status:** Obtained Rail Pass. Arrived in Saffron.
 - **Goal:** Defeat Sabrina.
 - **Start Turn:** 39791
-- **Strategy:** Navigate to Saffron Gym at (34, 3) and defeat Sabrina using Typhlosion (Lv58) and Graveler (Lv53). Avoid using Haunter or Gloom due to type disadvantage against Psychic moves.
+- **Warp Path:** (11, 15) [Entrance] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [Sabrina].
+- **Current Room:** Bottom-Right (BR). Arrived at (19, 17).
+- **Strategy:** Swap Calcifer (Lv58) to lead, then navigate to (15, 15).
