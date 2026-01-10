@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Approaching Counter.
-- **Method:** Navigate to (3, 3) -> Turn Left -> Buy Items.
-- **Notes:** Clerk is at (1, 3), Counter at (2, 3). Standing at (3, 3) allows interaction.
+- **Status:** Initiating Transaction.
+- **Method:** Face Left -> Talk to Clerk -> Buy Super Repels (x15).
+- **Notes:** Buying in bulk to minimize future trips.
