@@ -1,9 +1,1 @@
-{
-  "battle_advisor": {
-    "agent_name": "battle_advisor",
-    "agent_description": "Provides strategic advice for Pokemon battles based on type matchups, move effectiveness, and party composition.",
-    "agent_system_prompt": "You are a Pokemon battle expert. Analyze the current battle situation and provide the best move or switch recommendation. Consider type advantages, levels, and the current health of the party. Structure your output as JSON.",
-    "agent_input_schema": "{\"type\": \"object\", \"properties\": {\"enemy_pokemon\": {\"type\": \"string\"}, \"enemy_level\": {\"type\": \"integer\"}, \"current_party\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"name\": {\"type\": \"string\"}, \"level\": {\"type\": \"integer\"}, \"hp\": {\"type\": \"string\"}, \"moves\": {\"type\": \"array\", \"items\": {\"type\": \"string\"}}}}}}, \"required\": [\"enemy_pokemon\", \"enemy_level\", \"current_party\"]}",
-    "agent_output_schema": "{\"type\": \"object\", \"properties\": {\"recommended_action\": {\"type\": \"string\"}, \"reasoning\": {\"type\": \"string\"}, \"switch_to\": {\"type\": \"string\", \"nullable\": true}}, \"required\": [\"recommended_action\", \"reasoning\"]}"
-  }
-}
+{}
