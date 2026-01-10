@@ -19,5 +19,5 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** In Goldenrod City. Opening Menu to Fly.
-- **Action:** Fly -> New Bark Town (Elm).
+- **Status:** Selecting Mistral in Party Menu to Fly.
+- **Action:** Enter Pokemon -> Select Mistral (4th slot) -> Fly.
