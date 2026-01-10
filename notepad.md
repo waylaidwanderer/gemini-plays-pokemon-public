@@ -31,12 +31,14 @@
   - (10, 15): TM47 Steel Wing.
   - (4, 18): ELIXER.
   - (11, 14): FLOOR_UP_WALL blocks northern passage from entrance.
-  - (27, 13): Ladder to B1F (Warp 6). Arrives at B1F (3, 3).
-  - (15, 9): Ladder to B1F (Warp 4). Arrives at B1F (17, 9).
-  - (5, 3): Ladder to B1F (Warp 3). Arrives at B1F (23, 3).
+  - (27, 13): Ladder to B1F (Warp 6) at B1F (3, 3).
+  - (15, 9): Ladder to B1F (Warp 4) at B1F (17, 9).
+  - (5, 3): Ladder to B1F (Warp 3) at B1F (23, 3).
 - B1F Progress:
-  - Exploring eastern/southern sections to find northern 1F access.
   - (3, 3) <-> 1F (27, 13).
   - (17, 9) <-> 1F (15, 9).
   - (23, 3) <-> 1F (5, 3).
-  - Turn 38964: Exploring south from (23, 3). Current pos (26, 9).
+  - Turn 38971: Exploring southern sections. Current pos (24, 16).
+- Observed Pokemon:
+  - 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
+  - B1F: Geodude (Lv14), Onix (Lv16).
