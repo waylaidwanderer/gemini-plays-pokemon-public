@@ -8,7 +8,7 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
-- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon stepping.
+- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry.
 
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!".
