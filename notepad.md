@@ -59,7 +59,8 @@
 ## Route 10 Progress
 - Started Turn: 38868
 - Goal: Reach Power Plant.
-- Trainer: Pokefan Robert (8, 12).
+- Pokefan Robert (8, 12): DEFEATED.
+- Hiker Jim (17, 3): Engaging.
 ## Route 10 South Navigation Log
 - Turn 38886: Attempted to navigate to (14, 0). Tool returned empty buttons.
 - Observation: (16, 6) is surrounded by FLOOR on three sides and LEDGE_HOP_DOWN above.
