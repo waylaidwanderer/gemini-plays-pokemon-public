@@ -21,10 +21,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31676
-- **Status:** Resupply Run (Stock Check Complete).
+- **Session Start:** Turn 31677
+- **Status:** Resupply Run (Switching Clerks).
 - **Goal:** Buy Super Repels.
-- **Observation:** Bottom Clerk (2F) does NOT stock Super Repels.
-- **Inventory Check:** P.Ball, G.Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
-- **Action:** Backing out of menu (B).
-- **Next:** Exit dialogue -> Check Top Clerk (2F). If fail, check 3F/4F Directory.
+- **Action:** Pressing B to exit Bottom Clerk dialogue.
+- **Reason:** Bottom Clerk lacks Super Repels.
+- **Next:** Move Up to Top Clerk (13, 5) -> Buy Super Repels.
