@@ -16,13 +16,13 @@
 - Type Effectiveness: Dark super-effective against Ghost/Poison.
 
 ## PC Storage (Box 1)
-1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SEEL (Lv24), 4. MANTINE (Lv20), 5. KRABBY (Lv22), 6. TENTACOOL (Lv17), 7. KRABBY (Lv10), 8. DRATINI (Lv15)
+1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SELKIE (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
 
 ## Movesets (HM Users)
-- KIMCHI (GLOOM): Lv40 | CUT, FLASH
-- GNEISS (GRAVELER): Lv53 | STRENGTH
-- LAPIS (POLIWAG): Lv12 | SURF, WHIRLPOOL, WATERFALL
-- ICARUS (PIDGEOTTO): Lv19 | FLY
+- KIMCHI (GLOOM): Lv40 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
+- GNEISS (GRAVELER): Lv53 | EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
+- LAPIS (POLIWAG): Lv12 | WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
+- ICARUS (PIDGEOTTO): Lv19 | FLY, SAND-ATTACK, GUST, QUICK ATTACK
 
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
@@ -36,11 +36,6 @@
 - **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
 - **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
 - **Hypothesis:** Taking the bottom-left panel in each room leads to the center. (Verified via BFS and manual testing).
-
-### Tile Mechanics (Gym Specific)
-- WARP_PANEL: Immediate teleportation upon entry.
-- WALL: Standard impassable barrier.
-- FLOOR: Standard traversable surface.
 
 ### Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
