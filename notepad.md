@@ -42,3 +42,6 @@
 - Strategy: Confirm if the trash can puzzle is bypassed by walking to Lt. Surge after defeating trainers.
 - [Turn 38248] Defeated Gentleman Gregory (8, 8). GNEISS is Lv51. KIMCHI learned MOONLIGHT.
 - Checking trash cans to verify Gym Guide's claim about inactive traps.
+- [Turn 38254] Moving to engage Rocker Justin at (4, 7). Approach from (4, 8).
+- Strategy: Use GNEISS to sweep.
+- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
