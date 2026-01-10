@@ -31,5 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Burning steps to expire Repel (Cycle 51 - Positioning).
-- **Repel:** Active (Critical 1-2 steps). Expect expiry.
+- **Status:** Burning steps to expire Repel (Cycle 51 - Grass Entry).
+- **Repel:** Active (Critical 0-1 steps). Expect expiry immediately.
