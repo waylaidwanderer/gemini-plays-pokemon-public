@@ -5,6 +5,7 @@
 - **Efficiency:** Super Repels (2.5 ¥/step) > Max Repels (2.8 ¥/step).
 - **Fly Map:** Vertical movement is safer.
 - **Interruptions:** Phone calls can interrupt movement patterns; always check screen text and confirm position after clearing.
+- **Map Transitions:** Input queue often clears on map change. Avoid tools that cross map boundaries; handle warps manually.
 
 ## Legendary Beast Hunt Strategy
 - **Target:** Raikou (#238) & Entei (#239).
