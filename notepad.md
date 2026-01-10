@@ -7,10 +7,10 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Goldenrod Dept Store 2F (Turn 32445).
-- **Action:** Walking to Clerk at (13, 6).
-- **Goal:** Buy Super Repels (Check carefully!).
-- **Note:** Previous check (Turn 31636) claimed no Super Repels. Re-verifying.
+- **Status:** Goldenrod Dept Store 2F (Turn 32446).
+- **Action:** Interacting with Clerk at (13, 6).
+- **Goal:** Check for Super Repels.
+- **Contingency:** If not here, check Clerk at (13, 5) from (13, 3).
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
