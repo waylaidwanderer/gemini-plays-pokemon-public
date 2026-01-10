@@ -1,6 +1,6 @@
 # persistent_knowledge
 ## Tile Mechanics (Global)
-- FLOOR: Traversable.
+- FLOOR: Traversable. Standard collision.
 - WALL: Impassable.
 - WATER: Traversable with HM Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
@@ -32,18 +32,18 @@
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
 - **Strategy:**
-  1. Search Vermilion City buildings for the lost doll. Primary target: Pokémon Fan Club (7, 13).
-  2. After obtaining the doll, return to Saffron City (via Fly or walking Route 6).
-  3. Give doll to Copycat on 2F of her house (9, 11) in Saffron.
+  1. Search Vermilion City buildings for the lost doll. Current investigation: Pokémon Fan Club.
+  2. Speak to NPCs near identified Clefairy doll (2, 4) to claim it.
+  3. Return to Saffron City via Fly (select Saffron City icon on map, press A).
+  4. Give doll to Copycat on 2F of her house (9, 11) in Saffron.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
 - Obtained EXPN Card from Lavender Radio Tower.
 
 ## Lessons Learned
-- **FLY Map Navigation:** Use `press_menu_buttons_v2` and verify the destination text before pressing A. Avoid long sequences.
-- **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
-- **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
-- **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
-- **Takeoff:** Do not attempt to FLY while standing on a warp tile (door mat). Move to a neutral tile first.
-- **Looping:** If a complex sequence (like Fly) fails multiple times, switch to a simpler method (like walking).
+- **FLY Map Navigation:** Use `press_menu_buttons_v2`. Verify destination text "SAFFRON CITY" before pressing A.
+- **Hidden Items in Water:** Face tile and press A.
+- **Takeoff:** Move to a neutral tile (not a door mat) before using FLY.
+- **Interactions:** Always ensure facing the target tile. If an object is at (X+1, Y), player must be at (X, Y) facing Right.
+- **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
