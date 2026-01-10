@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine City.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Fly Map.
-- **Method:** Press A (Select Mistral) -> Press A (Select Fly).
-- **Notes:** Mistral selected. Fly should be the top option. Will verify map cursor start position (should be Olivine) before navigating.
+- **Status:** Flying to Ecruteak.
+- **Method:** Fly Map: Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak) -> A.
+- **Notes:** Cursor confirmed at New Bark Town. 3 Lefts should reach Ecruteak. Engaging Fly.
