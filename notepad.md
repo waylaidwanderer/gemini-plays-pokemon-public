@@ -43,3 +43,4 @@
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
 - **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
+- **Warp Maze:** BFS on Map Events data is optimal for finding paths through warp tiles.
