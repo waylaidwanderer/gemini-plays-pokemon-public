@@ -50,3 +50,4 @@
 ## Battle Log: Saffron Gym
 - Medium Rebecca:
   - Drowzee (Lv 35): Psychic. Neutral to Ground.
+  - Hypno (Lv 35): Psychic. Neutral to Ground.
