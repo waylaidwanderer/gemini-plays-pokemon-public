@@ -19,10 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Exit Celadon Dept. Store.
-- **Status:** Clearing Menus.
-- **Reasoning:** Purchase complete. Pressing 'B' to return to overworld.
-- **Next:** Stairs to 1F -> Exit -> Fly.
+- **Action:** Navigate to Stairs (15, 0).
+- **Status:** Clearing Menu -> Walking.
+- **Reasoning:** Purchase complete. Closing shop menu and heading to 1F to exit.
+- **Next:** Exit -> Fly to Ecruteak.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
