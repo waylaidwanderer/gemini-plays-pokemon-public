@@ -34,8 +34,6 @@
 ## Magnet Train Restoration (Turn 39779)
 - **Status:** Obtained the PASS. Power is restored. Successfully traveled from Saffron to Goldenrod.
 - **Goal:** Return to Saffron City to continue the Kanto journey.
-- **Current Status:** Standing in Goldenrod City near the station.
-- **Next Step:** Enter the Goldenrod Magnet Train Station (9, 13) and take the train back to Saffron.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
