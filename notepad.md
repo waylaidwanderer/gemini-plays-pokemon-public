@@ -66,3 +66,4 @@
 - Started Turn: 38480
 - Room (1,A) Exploration in progress.
 - Strategy: Systematic testing of all warp panels.
+- Medium Doris (Defeated?): (3, 4) in (1,A). Slowpoke (Lv 34).
