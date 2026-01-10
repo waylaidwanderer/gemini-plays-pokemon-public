@@ -7,10 +7,10 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Ecruteak City (Avoid NPC).
-- **Action:** Pathing to Route 37 Exit (18, 35).
-- **Next Step:** Enter Route 37 -> Use Repel -> Hunt.
+- **Current Task:** Roamer Hunt.
+- **Status:** Entering Route 37.
+- **Action:** Transitioning Map (Down).
+- **Next Step:** Use Super Repel -> Run in Grass.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32552)
