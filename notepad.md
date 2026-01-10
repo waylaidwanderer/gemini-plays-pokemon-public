@@ -5,7 +5,7 @@
 - WATER: Traversable with HM Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE_HOP_DOWN: One-way traversal (North to South). Verified at (41, 13).
+- LEDGE_HOP_DOWN: One-way traversal (North to South).
 - FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped). Verified at (20, 16) and (11, 16).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
@@ -24,7 +24,6 @@
 
 ## Rock Tunnel Navigation
 - Connections: 1F (27, 13) <-> B1F (3, 3); 1F (15, 9) <-> B1F (17, 9); 1F (5, 3) <-> B1F (23, 3); 1F (27, 3) <-> B1F (25, 23).
-- B1F Landmarks: (7, 25) IRON picked up.
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
@@ -34,12 +33,13 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Path is through Row 17, but it's blocked from the North by FLOOR_UP_WALL. Must find a gap or backtrack.
 - **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), Camper Dean (19, 11), and Picnicker Edna (12, 15).
+- **Observation:** Map is a maze of ledges and walls. Row 11 has a gap at X=19. Row 16 has a gap at X=16-19. Row 17 is a stretch from X=7 to X=42.
+- **Hypothesis:** The path west is through Row 6 or Row 0, requiring a detour east to find the entrance.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
-- Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency but still check accuracy.
+- Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
 - Always check for gaps in ledges for passage.
