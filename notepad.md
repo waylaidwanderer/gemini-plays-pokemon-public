@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** In Fly Menu.
-- **Action:** Navigating Cursor to Ecruteak (Up, Left, Left).
+- **Status:** In Fly Menu (at Cherrygrove).
+- **Action:** Navigating Cursor to Ecruteak (Left, Up).
 - **Next Step:** Confirm Ecruteak -> Fly.
 - **Stats:** 0 Encounters so far.
 
