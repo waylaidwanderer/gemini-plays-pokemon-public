@@ -23,11 +23,8 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 4F.
-- **Status:** Positioning to talk to 4F Clerk.
-- **Action:** Pressing Down to face Clerk.
-- **Observation:** 2F Clerks had basic inventory (Potion, Repel). Missing High-Tier items (Hyper Potion, Super Repel).
-- **Hypothesis:** 4F might stock "High Tier" Medicine/Items.
-- **Plan:**
-  1. Face Down -> Interact.
-  2. Check for Super/Max Repel.
-  3. If not found, Goldenrod might be low-tier. Fly to Celadon or Blackthorn.
+- **Status:** Interacting with 4F Clerk.
+- **Action:** Pressing A to speak.
+- **Hypothesis:** 4F Clerk (Medicine) should stock Super Repels and High-Tier Potions.
+- **Financials:** ¥6772.
+- **Backup Plan:** If no Super Repels, check 5F or Fly to Blackthorn.
