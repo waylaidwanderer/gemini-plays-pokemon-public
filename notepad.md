@@ -6,10 +6,10 @@
 
 ## Celadon Search Log
 - **Goal:** Buy 10 Super Repels.
-- **2F:** Trainer's Market (Balls/Meds). No Repels found.
+- **2F:** Trainer's Market. Right (Balls) checked - No Repels. Left (Meds) - NEEDS CHECK.
 - **3F:** TM Shop.
 - **4F:** Gifts (Dolls/Mail).
-- **5F:** Checking Clerk...
+- **5F:** Drug Store (Vitamins/Battle Items).
 
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
@@ -18,8 +18,7 @@
 # Current Strategy
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (5F).
-- **Action:** Select 'BUY' option.
-- **Status:** Checking Inventory.
-- **Reasoning:** Confirming if this clerk sells Super Repels.
-- **Fallback:** If 5F fails, return to 2F Left Clerk (Medicines) and scroll down. Repels might be mixed with Potions/Revives.
+- **Location:** Celadon Dept. Store (5F -> 2F).
+- **Action:** Close Menu -> Go to 2F.
+- **Reasoning:** 5F is Vitamins. Repels must be on 2F (Left Clerk) or I missed them.
+- **Fallback:** If 2F fails, Fly to Saffron Mart.
