@@ -8,10 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** Setting Quantity to 6 (Turn 32513).
-- **Action:** Press Down (Wraps to Max/6).
-- **Goal:** Buy 6 Super Repels (Max affordable).
-- **Next Step:** Confirm Purchase -> Return to Johto.
+- **Status:** Adjusting Quantity (Turn 32514).
+- **Action:** Pressing Up (Expect wrap 99 -> 1).
+- **Goal:** Set quantity to 6.
+- **Reason:** Down button set quantity to 99 (Max capacity), not Max Affordable. Need to reset to 1.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
