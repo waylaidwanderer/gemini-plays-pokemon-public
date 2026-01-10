@@ -18,8 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (2F).
-- **Status:** Checking Directory.
-- **Action:** Read Directory at (14, 0).
-- **Reasoning:** 2F clerks had no Repels. Need to find the correct floor.
-- **Next:** Read Directory -> Go to correct floor.
+- **Location:** Celadon Dept. Store (Moving to 3F).
+- **Status:** Ascending.
+- **Action:** Navigate to Stairs at (12, 0).
+- **Reasoning:** Directory confirmed 2F is "Trainer's Market" (Balls/Meds). Repels likely on another floor.
+- **Next:** Check 3F.
