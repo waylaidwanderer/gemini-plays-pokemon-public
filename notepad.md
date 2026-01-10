@@ -6,6 +6,7 @@
 - LEDGE: Semi-traversable (jump down from above).
 - TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
 - WARP_CARPET_DOWN: Step on to warp to the map below. Verified on Route 5 (Turn 38458).
+- WARP_CARPET_LEFT: Step on to warp to the map to the left. Verified in Saffron City (Turn 38388).
 
 ## Kanto Strategy
 - **Current Objective: Defeat Sabrina and Resolve Power Plant.**
@@ -22,6 +23,7 @@
   - Magnet Train Station: (8, 3).
   - Route 5 Saffron Gatehouse: (18, 3). Leads to Route 5.
   - Copycat's House: (9, 11).
+  - Fighting Dojo / Gym area: North-east quadrant. "GYM" sign visible near (25, 2).
 - Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
 ## PC Storage (Box 1)
