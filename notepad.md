@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Ecruteak City (Moving to Route 37).
-- **Action:** Walking South to Route 37 Exit.
+- **Status:** Ecruteak City (Avoid NPC).
+- **Action:** Pathing to Route 37 Exit (18, 35).
 - **Next Step:** Enter Route 37 -> Use Repel -> Hunt.
 - **Stats:** 0 Encounters so far.
 
