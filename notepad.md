@@ -19,10 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Confirm Quantity (10) & Buy.
-- **Status:** Incrementing to 10.
-- **Reasoning:** Currently at x05. Need 5 more 'Up' inputs to reach x10. Then will press 'A' to confirm.
-- **Next:** Confirm Purchase -> Exit Menu.
+- **Action:** Confirm Purchase.
+- **Status:** Buying Items.
+- **Reasoning:** Quantity set to 10. Pressing 'A' to finalize.
+- **Next:** Exit Menu -> Exit Store -> Fly to Ecruteak.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
