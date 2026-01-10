@@ -112,5 +112,29 @@
         "action_counter": 30801
       }
     ]
+  },
+  "roamer_hunt_cycle": {
+    "description": "Executes one full roamer check cycle on Route 37. Starts at (8,0), walks south to (8,5) to check grass, walks back north to (8,0), steps up to Ecruteak to reset map, and steps back down to Route 37 (8,0). Safe for battles (only D-pad inputs).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "def roamer_hunt_cycle(autopress_buttons=False):\n    import json\n    # Down x5 (Check Grass)\n    # Up x5 (Return to Gate)\n    # Up x1 (Enter Ecruteak)\n    # Down x1 (Return to Route 37)\n    buttons = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\"]\n    if autopress_buttons:\n        print(json.dumps(buttons))\n    return buttons",
+    "history": [
+      {
+        "commit_message": "Define roamer_hunt_cycle tool for automated grass checking and map resetting.",
+        "timestamp": "2026-01-10T18:43:31.265Z",
+        "action_counter": 32101
+      }
+    ]
   }
 }
