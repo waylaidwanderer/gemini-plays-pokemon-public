@@ -27,12 +27,12 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31638)
-- **Status:** Resuming Clerk Interaction.
-- **Goal:** Sell Revives -> Buy Super/Max Repels.
-- **Action:** Pressing A to speak (Retry).
-- **Reason:** Previous attempt interrupted by Wade's phone call.
-- **Plan:**
-  1. Sell 5 Revives.
-  2. Check Buy menu for Super/Max Repels.
-  3. If missing, check other floors.
+- **Session Start:** Turn 30996 (Current: 31639)
+- **Status:** In Transaction Menu.
+- **Goal:** Sell 5 Revives.
+- **Action:** Navigating Menu: Down (to SELL) -> A.
+- **Market Info:**
+  - Bottom Clerk: Balls, Revive, Repel (Standard?), Escape Rope.
+  - Top Clerk: Medicine (Potions/Heals).
+- **Hypothesis:** Super Repels might not be on 2F. Will check Buy list after selling.
+- **Next:** Select Revive from list -> Sell x5.
