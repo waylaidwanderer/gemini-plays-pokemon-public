@@ -7,10 +7,10 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Resupply Run - Find Super Repels.
-- **Plan:** Check remaining floors of Goldenrod Dept Store (3F-5F).
-- **Backup:** Travel to Celadon City via Magnet Train (Confirmed stock).
-- **Note:** 2F only had Standard Repels.
+- **Current Task:** Resupply Run - Super Repels.
+- **Status:** Rerouting to Celadon City.
+- **Reason:** History (Turn 31636) confirms Goldenrod Dept Store does NOT stock Super Repels.
+- **Plan:** Elevator to 1F -> Magnet Train to Saffron -> Fly to Celadon.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
