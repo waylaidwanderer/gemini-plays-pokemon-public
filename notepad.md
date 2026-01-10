@@ -20,6 +20,6 @@
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (5F).
 - **Action:** Talk to Clerk at (7, 5).
-- **Status:** Clearing Text -> Moving to Left Clerk.
-- **Reasoning:** Right Clerk had Battle Items. Checking Left Clerk.
-- **Correction:** If 5F fails, return to 2F. I didn't scroll down on the 2F Left Clerk's list (Medicines). Repels might be there.
+- **Status:** Interacting (Facing Clerk).
+- **Reasoning:** Checking 5F Left Clerk for Repels.
+- **Fallback:** If 5F fails, return to 2F Left Clerk (Medicines) and scroll down. Repels might be mixed with Potions/Revives.
