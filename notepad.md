@@ -27,8 +27,7 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** 2-Turn Split Loop (Robust).
-  - **Turn 1 (Ecruteak):** Move `Down` (Warp to Rt 37).
-  - **Turn 2 (Rt 37):** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
-- **Status:** Executing Turn 2 (Hunt & Return).
-- **Repel:** Active.
+- **Method:** `hunt_roamers_safe` (Tool).
+  - **Sequence:** Ecruteak (18,35) -> Rt 37 (8,0) -> Grass (8,2) -> Hunt -> Return.
+- **Status:** Starting Tool `hunt_roamers_safe`.
+- **Repel:** Active (Steps ~92/200).
