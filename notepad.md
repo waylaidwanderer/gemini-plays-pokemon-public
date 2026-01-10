@@ -23,9 +23,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Route 37 (7, 0).
+- **Current Location:** Route 37 (7, 2).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting.
-- **Method:** `hunt_check_route37`.
-- **Notes:** Arrived on Route 37 at (7,0). Repel active (~180 steps). Executing hunt routine.
-- **Next Step:** Check for Encounter -> Return to Ecruteak (Automatic).
+- **Status:** Clearing Phone Call (Gaven).
+- **Method:** `press_buttons` (B).
+- **Notes:** Gaven interrupted the hunt. Clearing dialogue.
+- **Next Step:** Finish Call -> Wiggle -> Return to Ecruteak.
