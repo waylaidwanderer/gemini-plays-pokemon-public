@@ -15,12 +15,6 @@
 - Night Shade: Deals fixed damage equal to the user's level.
 - Type Effectiveness: Dark is super-effective against Ghost/Poison (Haunter).
 
-## Kanto Strategy
-- **Primary Goal: Complete Kanto Region Journey.**
-- **Current Objective: Resolve Power Plant crisis.**
-  - Plan: Retrieve Machine Part from Cerulean Gym water -> Return Part to Power Plant.
-- **Quest Start:** Turn 39084 (Saturday, Jan 10, 2026).
-
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
 
@@ -32,25 +26,24 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39539
-- **Clues:** Machine Part hidden in Cerulean Gym water.
+- **Current Turn:** 39541
+- **Clues:** Machine Part hidden in Cerulean Gym water. Rocket Grunt said "center of the gym's pool".
 - **Status:** Itemfinder "Yes!" at (4, 7) and (3, 7). "Nope!" at (3, 3).
 - **Goal:** Retrieve the Machine Part.
 
 ## Cerulean Gym Search Plan
 - Strategy: Systematic search of water tiles adjacent to central walkway (y=7).
-- Current Targets: (3, 6), (3, 8), (4, 6), (4, 8), (5, 6), (5, 8).
-- Method: Face the target water tile from the walkway or an adjacent tile and press A.
-- Verified Locations:
+- Method: Stand on water tile and press A, then rotate and press A to check neighbors.
+- Current Target: (3, 6), then (3, 8), (4, 8), (5, 8).
+- Progress:
   - (3, 3): 🚫 Itemfinder: Nope!
   - (4, 7): ✨ Itemfinder: Yes!
   - (3, 7): ✨ Itemfinder: Yes!
 - Search Results:
-  - (4, 6): No item.
-  - (4, 8): No item.
+  - (4, 6): 🚫 (Searched via Itemfinder ping logic)
+  - (4, 8): 🚫 (Searched via Itemfinder ping logic)
 
-## Kanto Strategy
-- **Primary Goal: Complete Kanto Region Journey.**
-- **Current Objective: Resolve Power Plant crisis.**
-  - Plan: Retrieve Machine Part from Cerulean Gym water -> Return Part to Power Plant.
-- **Quest Start:** Turn 39084 (Saturday, Jan 10, 2026).
+## Error Analysis & Lessons
+- Menu fumbles (Pokedex/Options) occur due to assuming menu resets to Pokedex. 
+- Solution: Observe menu state or press B multiple times to reset before long sequences.
+- Triangulation confirms item is in the central region (Y=6 to Y=9).
