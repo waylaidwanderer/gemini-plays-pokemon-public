@@ -10,7 +10,8 @@
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym (Turn 38484).
 
 ## Kanto Strategy
-- **Current Objective: Defeat Sabrina and Resolve Power Plant.**
+- **Primary Goal: Complete Kanto Region Journey.**
+- **Current Objective: Resolve Power Plant Crisis.**
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path.
   - Strategy: Saffron Gym -> Cerulean City -> Route 10 -> Power Plant.
@@ -28,31 +29,27 @@
   - Saffron Gym: (34, 3) (Sign at 33, 5). Sabrina is the Leader.
 - Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
-## Saffron Gym Warp Map
+## Saffron Gym Progress
+- Puzzle Started Turn: 38480
+- Current Room: (1,A) [Top-Left]
 - Room Grid (3x3):
   (1,A) (2,A) (3,A)
   (1,B) (2,B) (3,B)
   (1,C) (2,C) (3,C)
 - Room Coordinates:
-  - Row A (Top): Y=0-5
-  - Row B (Middle): Y=7-11
-  - Row C (Bottom): Y=13-17
-  - Col 1 (Left): X=0-5
-  - Col 2 (Middle): X=7-12
-  - Col 3 (Right): X=14-19
+  - Row A (Top): Y=0-5 | Row B (Mid): Y=7-11 | Row C (Bot): Y=13-17
+  - Col 1 (Left): X=0-5 | Col 2 (Mid): X=7-12 | Col 3 (Right): X=14-19
 
 - Warp Connections Found:
   - (2,C) [Entrance] (11,15) <-> (3,C) (19,17)
   - (3,C) (15,17) <-> (1,C) (5,15)
   - (1,C) (1,17) <-> (2,A) (11,5)
   - (2,A) (11,3) <-> (1,A) (5,3)
-  - (1,A) (1,3) -> ???
-  - (1,A) (1,5) -> ???
-  - (1,A) (5,5) -> ???
 
-## Battle Log: Saffron Gym
-- Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
-- Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
+- Battle Log:
+  - Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
+  - Psychic Franklin (Defeated): (3, 16) in (1,C). Kadabra (Lv 37).
+  - Medium Doris: (3, 4) in (1,A). Slowpoke (Lv 34), Slowbro (Lv 36).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
@@ -62,8 +59,3 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
-## Saffron Gym Puzzle Progress
-- Started Turn: 38480
-- Room (1,A) Exploration in progress.
-- Strategy: Systematic testing of all warp panels.
-- Medium Doris (Defeated?): (3, 4) in (1,A). Slowpoke (Lv 34).
