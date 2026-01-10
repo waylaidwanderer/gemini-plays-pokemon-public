@@ -30,7 +30,7 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39465
+- **Current Turn:** 39466
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** Hidden in the Cerulean Gym water.
 - **Next Step:** Use Itemfinder at (4, 5).
@@ -48,5 +48,6 @@
   - (4, 6): A pressed -> No result.
   - (4, 5): A pressed -> No result.
 - Note: Itemfinder is the 7th Key Item.
-- Menu Path: Start -> Down x2 (Pack) -> A -> Right x2 (Key Items) -> Down x6 (Itemfinder) -> A -> A.
-- Current Status: In Trainer Card menu. Press B to exit.
+- Menu Path (from Overworld): Start -> Down x2 (Pack) -> A -> Right x2 (Key Items) -> Down x6 (Itemfinder) -> A -> A.
+- Menu Path (from Option menu): B -> Up x4 (Pack) -> A -> Right x2 (Key Items) -> Down x6 (Itemfinder) -> A -> A.
+- Current Status: In Option menu. Use B to exit to Start menu.
