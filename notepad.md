@@ -12,10 +12,10 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor at (30, 6) blocks the corridor at x=30.
-- Strategy: Bypass sailor at (30, 6) by moving through (31, 7) -> (31, 6) -> (31, 5). Reach western side via gaps at y=4 or y=5.
-- Target: Explore western corridors (x=28 and x=26). Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26. Target x=28 or x=25.
-- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for "lazy bum" buddy. Found buddy at (30, 6).
+- Status: Investigating B1F. Sailor at (31, 6) blocks the eastern corridor.
+- Strategy: Bypass sailor at (31, 6) by moving through (30, 7) -> (30, 6) -> (30, 5). Reach western side via gaps at y=5.
+- Target: Explore western corridor at x=28. Super Nerd at (26, 9) blocks the corridor at x=26.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
