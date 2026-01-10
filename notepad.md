@@ -23,9 +23,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Route 37 (7, 2).
+- **Current Location:** Ecruteak City (17, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Resuming Hunt (Post-Call).
-- **Method:** `press_buttons` (Wiggle + Exit).
-- **Notes:** Call with Gaven finished. Wiggling in grass then returning to Ecruteak to reset. Repel active.
-- **Next Step:** Wiggle -> Enter Ecruteak -> Run `hunt_check_route37`.
+- **Status:** Re-entering Route 37.
+- **Method:** `press_buttons` (Down).
+- **Notes:** Returned to Ecruteak to reset. Repel active. Returning to Route 37.
+- **Next Step:** Enter Route 37 -> Run `hunt_check_route37`.
