@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Initiating Transaction.
-- **Method:** Face Left -> Talk to Clerk -> Buy Super Repels (x15).
-- **Notes:** Buying in bulk to minimize future trips.
+- **Status:** In Buy Menu.
+- **Method:** Select BUY -> Find Super Repel -> Buy 15.
+- **Notes:** Super Repel usually costs 500. I have 8772. Can afford 15 (7500).
