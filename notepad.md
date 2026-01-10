@@ -13,9 +13,6 @@
 ## Battle Mechanics (Hypotheses)
 - Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
 
-## Battle Mechanics (Hypotheses)
-- Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
-
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
