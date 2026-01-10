@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (Entrance).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Moving to Route 37.
+- **Status:** Clearing Phone Call.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Returned to Ecruteak to reset roamers. Moving South to re-enter Route 37 and resume hunt.
-- **Time:** Start ~Turn 30680. Current 30769.
-- **Next Step:** Enter Route 37 -> Execute Hunt.
+- **Notes:** Wade called (Turn 30770). Interrupting the flow. Clearing text then resuming hunt. Repel active (~160 steps).
+- **Time:** Start ~Turn 30680. Current 30770.
+- **Next Step:** Clear Text -> Execute Hunt.
