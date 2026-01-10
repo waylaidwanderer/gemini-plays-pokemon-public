@@ -19,6 +19,6 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Selecting Fly Destination (New Bark Town).
-- **Action:** Navigate Map Right -> New Bark Town.
-- **Tool Fix:** Restored `autopress_buttons` arg to script to fix TypeError.
+- **Status:** Opening Fly Map.
+- **Action:** Select 'FLY' -> Navigate to New Bark Town.
+- **Note:** Tool `navigate_menu` still failing (JSON error). Reverting to `press_buttons`.
