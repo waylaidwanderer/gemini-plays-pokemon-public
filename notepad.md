@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** In Buy Menu.
-- **Method:** Select BUY -> Find Super Repel -> Buy 15.
-- **Notes:** Super Repel usually costs 500. I have 8772. Can afford 15 (7500).
+- **Status:** Selecting Quantity.
+- **Method:** Press A to select Super Repel -> Adjust quantity to 15 -> Confirm.
+- **Notes:** Buying 15 Super Repels (7500 Yen). Remaining: 1272 Yen.
