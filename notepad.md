@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Purchasing Super Repels (Goldenrod 2F).
-- **Status:** Moving to Clerk 1 (Top).
-- **Action:** Exit Menu -> Move to (13, 3) -> Face Down.
+- **Status:** Positioning to talk to Clerk 1 (Top).
+- **Action:** Move Up -> Face Right (Bump Counter).
 - **Previous Info:** Clerk 2 (Bottom) only had Standard Repels.
 - **Plan:** Check Clerk 1. If failed, check 3F/4F/5F.
 - **Stats:** 0 Encounters so far.
