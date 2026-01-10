@@ -67,3 +67,4 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+- Testing (1,B) (1, 9)...
