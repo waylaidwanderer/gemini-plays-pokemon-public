@@ -27,9 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31633)
-- **Status:** Operating Elevator (Retry).
-- **Goal:** Go to 2F.
-- **Action:** Navigating Menu: Down -> Down -> A.
-- **Correction:** Increased `hold_ms` to 100ms. Previous attempt (20ms) failed to register or reset.
-- **Next:** Exit Elevator -> Sell Revives -> Buy Super Repels.
+- **Session Start:** Turn 30996 (Current: 31634)
+- **Status:** Exiting Elevator.
+- **Goal:** Verify Floor (2F) -> Sell/Buy.
+- **Action:** Exiting elevator (Left -> Down).
+- **Hypothesis:** Elevator selection (2F) was successful. Exiting should lead to 2F.
+- **Next:** If 2F: Sell Revives. If 1F/B1F: Retry Elevator.
