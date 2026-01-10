@@ -13,7 +13,7 @@
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!".
 - Night Shade: Deals fixed damage equal to the user's level.
-- Type Effectiveness: Dark is super-effective against Ghost/Poison (Haunter).
+- Type Effectiveness: Dark super-effective against Ghost/Poison.
 
 ## PC Storage (Box 1)
 1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SEEL (Lv24), 4. MANTINE (Lv20), 5. KRABBY (Lv22), 6. TENTACOOL (Lv17), 7. KRABBY (Lv10), 8. DRATINI (Lv15)
@@ -32,19 +32,10 @@
 
 ## Saffron Gym Challenge (Started Turn 39791)
 - **Goal:** Defeat Sabrina.
-- **Warp Sequence (Shortest):**
-  1. Entrance (BC): Warp at (11, 15). Arrive at (19, 17) [BR].
-  2. BR Room: Warp at (15, 15). Arrive at (19, 3) [TR].
-  3. TR Room: Warp at (15, 5). Arrive at (1, 3) [TL].
-  4. TL Room: Warp at (1, 5). Arrive at (11, 9) [MC - Sabrina].
-- **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58. Avoid using Haunter or Gloom.
-- **Hypothesis:** Bottom-Left rule (taking the bottom-left panel in each room) works.
-- **Test Result:** Verified shortest path via BFS and manual traversal.
-
-## Lessons Learned
-- **Menu Persistence:** Automated menu tools can fail if the cursor or menu state is not what's expected. Manual sequences with `press_menu_buttons_v2` are more reliable for complex tasks like swapping.
-- **Warp Maze Logic:** BFS scripts on Map Events data are highly effective for solving warp puzzles.
-- **Pathing:** Always verify traversability through observation.
+- **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [Sabrina].
+- **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
+- **Hypothesis:** Taking the bottom-left panel in each room leads to the center.
+- **Test Result:** Path verified via BFS and manual testing.
 
 ## Saffron Gym Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
@@ -59,6 +50,6 @@
 - ML (1, 9) <-> MR (1, 9)
 - ML (5, 9) <-> TC (5, 9)
 
-## Unverified NPCs
-- NPC at (3, 4) [TL Room]: Suspected Medium Doris.
-- NPC at (17, 4) [TR Room]: Suspected Psychic Jared.
+## Lessons Learned
+- **Menu Sequence:** Use "Start, Up (x6), Down" to reliably reach POKEMON from overworld.
+- **Warp Maze:** BFS on Map Events data is optimal for finding paths through warp tiles.
