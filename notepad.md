@@ -65,5 +65,5 @@
 ## Route 8 Notes
 - Biker Dwayne (10, 8): DEFEATED. Koffing (Lv 27), Koffing (Lv 28), Koffing (Lv 29), Koffing (Lv 30).
 - Biker Harris (10, 9): DEFEATED. Flareon (Lv 34).
-- Biker (10, 10): Unseen.
+- Biker (10, 10): Currently battling.
 - Strategy: Battle for EXP while heading to Lavender.
