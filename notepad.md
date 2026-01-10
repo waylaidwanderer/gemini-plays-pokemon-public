@@ -20,6 +20,6 @@
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
 - **Status:** Shopping.
-- **Action:** Talk to Clerk at (13, 5).
-- **Reasoning:** Need Super Repels.
+- **Action:** Talk to Clerk at (14, 5).
+- **Reasoning:** Left Clerk (13, 5) sells Medicines. Right Clerk must have Items.
 - **Next:** Buy Repels -> Exit.
