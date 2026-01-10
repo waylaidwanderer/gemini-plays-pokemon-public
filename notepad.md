@@ -18,8 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (1F -> 2F).
-- **Status:** Ascending to 2F.
-- **Action:** Taking Stairs at (15, 0).
-- **Reasoning:** 2F is the standard location for Trainer items.
-- **Next:** Buy Repels on 2F.
+- **Location:** Celadon Dept. Store (2F).
+- **Status:** Shopping.
+- **Action:** Talk to Clerk at (13, 5).
+- **Reasoning:** Need Super Repels.
+- **Next:** Buy Repels -> Exit.
