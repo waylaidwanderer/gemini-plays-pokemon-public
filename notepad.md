@@ -11,18 +11,15 @@
 - FLOOR: Traversable.
 - WALL: Impassable.
 - TALL_GRASS: Encounter chance.
-- LEDGE_HOP_DOWN: One-way jump.
+- LEDGE_HOP_DOWN: One-way jump at (0-6, 1), (10-12, 1), (14-15, 1), (0-6, 3), (8-15, 3).
 
 ## Kanto Strategy
-- [Turn 38104] Goal: Collect 8 Kanto badges.
-- Target 1: Lt. Surge (Vermilion City Gym). [Turn 38311] Defeated.
 - **Current Objective: Resolve Power Plant crisis.**
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
   - Plan: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Officer mentions Power Plant issues.
-  - Obstacle 2: Building at (17, 3) blocked by Pokefan M.
-  - Detour: Underground Path (Searching for entrance, sign at 19, 5).
+  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Officer confirms Power Plant issues.
+  - Obstacle 2: Building at (17, 3) is the Underground Path (sign at 19, 5). Blocked by Pokefan M at (17, 4).
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
@@ -43,7 +40,3 @@
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
 - Fishing Rod: NPC at Pokecenter (7, 2).
-
-## Vermilion Gym Observations
-- [Turn 38311] Victory! Thunder Badge obtained.
-- Observation: Traps were inactive, confirming Gym Guide's claim.
