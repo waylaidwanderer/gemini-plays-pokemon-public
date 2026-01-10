@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 37 (7, 2).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Entering Pack.
-- **Method:** `press_buttons` (A).
-- **Notes:** Opening Pack to apply Super Repel. Cursor confirmed on PACK.
-- **Next Step:** Select Super Repel -> Use -> Resume Loop.
+- **Status:** Using Super Repel.
+- **Method:** `slow_press` (A, A).
+- **Notes:** Applying Super Repel.
+- **Next Step:** Clear Text -> Exit Menu -> Resume Loop.
