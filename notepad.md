@@ -51,7 +51,7 @@
   - Psychic Jared (Defeated): (17, 4) in (3,A).
 
 ## Battle History: vs Sabrina
-- Attempt 1 (Turn 38625): FAILED. Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
+- Attempt 1 (Turn 38625): FAILED (White out). Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
 - Analysis: Type disadvantage (Graveler, Haunter, Gloom) and speed gap (Typhlosion) were critical. Need Dark/Bug moves or higher levels for GNEISS/Calcifer.
 
 ## PC Storage (Box 1)
