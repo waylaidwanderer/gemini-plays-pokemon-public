@@ -25,10 +25,10 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Manual Hunt (Cycle A).
-- **Method:** 2-Turn Cycle.
+- **Status:** Handling Phone Call.
+- **Method:** 2-Turn Cycle (Paused).
 - **Cycle A:** Move Down to Route 37.
 - **Cycle B:** Hunt in grass & Return to Ecruteak.
-- **Notes:** Facing Up. Pressing Down x2 to Turn and Enter Route 37.
-- **Time:** Start ~Turn 30680. Current 30881.
-- **Next Step:** Execute Cycle B (Hunt & Return).
+- **Notes:** Interrupted by Bug Catcher Wade. Clearing text.
+- **Time:** Start ~Turn 30680. Current 30882.
+- **Next Step:** Clear text, then Resume Cycle A.
