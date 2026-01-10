@@ -24,12 +24,12 @@
 ## Objectives
 - **Primary:** Complete Pokedex.
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
-- **Navigation:** Route 37 (Grass Area).
+- **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31616)
-- **Status:** Route 35 Gatehouse.
-- **Goal:** Enter Route 35 -> Goldenrod City.
-- **Action:** Marking NPCs and walking South to exit.
+- **Session Start:** Turn 30996 (Current: 31618)
+- **Status:** Exiting Route 35 Gatehouse.
+- **Goal:** Reach Goldenrod City.
+- **Action:** Walking South to trigger warp to Route 35.
 - **Note:** Bug Catching Contest active (Saturday).
 - **Roamer Hunt:** Resupply run continues.
