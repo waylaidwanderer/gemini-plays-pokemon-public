@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** Olivine City.
+- **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Walking to Mart.
-- **Method:** Navigate to (19, 17).
-- **Notes:** Accidentally flew to Olivine instead of Goldenrod (overshot inputs). Fortunately, Olivine Mart sells Super Repels. Adapting plan.
+- **Status:** Approaching Counter.
+- **Method:** Navigate to (3, 3) -> Turn Left -> Buy Items.
+- **Notes:** Clerk is at (1, 3), Counter at (2, 3). Standing at (3, 3) allows interaction.
