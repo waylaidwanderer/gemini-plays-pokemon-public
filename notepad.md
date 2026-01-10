@@ -27,10 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31597)
-- **Status:** Resupply Run - Fly Map.
-- **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Action:** Navigating Fly Map (Left x3 with hold_ms=150).
-- **Note:** Cursor was sticky on New Bark. Retrying with cleaner inputs.
-- **Troubleshooting:** Fly cursor stuck on New Bark. Trying multidirectional input (Up, Left, Down, Left) with `hold_ms=500`.
-- **Troubleshooting:** Fly Map cursor stuck. Aborting Fly attempt. Backing out (`B`) to return to Overworld/Menu. Plan: Bike to Goldenrod if Fly remains unusable.
+- **Session Start:** Turn 30996 (Current: 31600)
+- **Status:** Resupply Run - Aborted Fly.
+- **Goal:** Travel to Goldenrod City on foot/bike.
+- **Action:** Exiting menus to return to Overworld.
+- **Reason:** Fly map cursor controls are unreliable. Biking is a safer, deterministic alternative.
