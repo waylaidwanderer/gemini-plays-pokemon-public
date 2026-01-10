@@ -15,13 +15,13 @@
 - **Method:** Route 37 Loop.
 
 # Current Strategy
-## Transaction State
-- **Current Goal:** Buy Super Repels (Target: 10).
-- **Location:** Goldenrod Dept. Store 5F -> Celadon City.
-- **Status:** Exiting Store.
-- **Reason:** Goldenrod has no Super Repels.
+## Travel to Kanto
+- **Goal:** Reach Celadon Dept. Store.
+- **Location:** Goldenrod Dept. Store 5F -> Saffron City.
+- **Status:** Exiting Goldenrod Store.
+- **Method:** Magnet Train (Fastest).
 - **Plan:**
-  1. Take Elevator to 1F.
+  1. Elevator to 1F.
   2. Exit Store.
-  3. Fly to Celadon City (Kanto).
-  4. Buy Super Repels at Celadon Dept. Store.
+  3. Go to Magnet Train Station.
+  4. Train to Saffron -> Go to Celadon.
