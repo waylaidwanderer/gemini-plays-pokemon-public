@@ -34,3 +34,7 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+- North-East Saffron:
+  - Fighting Dojo Entrance confirmed at (26, 3) via sign at (25, 5).
+  - Observed "GYM" text on building headers near (24, 2) and (30, 2).
+  - Suspected Saffron Gym entrance at (34, 3).
