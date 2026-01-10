@@ -41,3 +41,9 @@
   - WARP_PANEL: Steps on to teleport to another panel within the gym.
 - Strategy: Speak with the Gym Guide for advice, then begin testing warp panels to map the path to Sabrina.
 - Goal: Create a warp panel map in the notepad.
+## Saffron Gym Warp Map
+- Room 1: Entrance
+  - Panel (11, 15) -> ???
+  - Panel (5, 15) -> ???
+  - Panel (5, 17) -> ???
+  - Panel (5, 11) -> ???
