@@ -27,8 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31644)
-- **Status:** Entering Sell List.
+- **Session Start:** Turn 30996 (Current: 31645)
+- **Status:** Selecting Revives to Sell.
 - **Goal:** Sell 5 Revives.
-- **Action:** Pressing A to confirm SELL selection.
-- **Next:** Find Revives -> Sell x5 -> Exit -> Check BUY for Super Repels.
+- **Action:** Navigating Menu: Down (Ice Berry) -> Down (Revive) -> A (Select).
+- **Inventory:** Revive x7. Target sell amount: 5.
+- **Next:** Set quantity to 5 -> Confirm -> Exit to Buy Menu.
