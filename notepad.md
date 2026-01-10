@@ -25,9 +25,11 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Using Super Repel.
-- **Method:** Menu Navigation.
-- **Action:** confirmed USE -> Clearing Text -> Exiting Menu.
-- **Cycle Status:** Paused at Route 37 (8,1).
-- **Time:** Start ~Turn 30680. Current 30925.
-- **Next Step:** Exit Menu -> Resume Hunt (Move Down).
+- **Status:** Resuming Hunt (Cycle B).
+- **Method:** 2-Turn Cycle.
+- **Cycle A:** Move Up (Enter Ecruteak) -> Move Down (Enter Rt 37).
+- **Cycle B:** Hunt in grass & Return to Ecruteak warp.
+- **Action:** Exiting Menu (B, B) -> Move Down (Enter Grass).
+- **Cycle Status:** Was Paused at Route 37 (8,1). Resuming.
+- **Time:** Start ~Turn 30680. Current 30926.
+- **Next Step:** Wiggle & Return.
