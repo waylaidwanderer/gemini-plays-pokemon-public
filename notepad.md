@@ -45,5 +45,4 @@
 ## Vermilion Gym Observations
 - Lesson: Map Object internal names (e.g., SUPER_NERD) can be generic. Always use Screen Text to identify trainers in battle.
 - Gym Guide (Turn 38231): "The traps aren't active right now."
-- [Turn 38311] Victory! Thunder Badge obtained. GNEISS (Lv 52), Calcifer (Lv 58), KIMCHI (Lv 36).
-- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
+- [Turn 38311] Victory! Thunder Badge obtained.
