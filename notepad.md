@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31574)
-- **Status:** Resupply Run - Flying.
-- **Action:** Confirming Fly Destination (A).
-- **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Note:** Cursor shows "RADIO TOWER", likely Goldenrod City location.
-- **Next:** Land in Goldenrod -> Walk to Dept Store.
+- **Session Start:** Turn 30996 (Current: 31575)
+- **Status:** Resupply Run - Menuing.
+- **Action:** Moving Map Cursor Down (to City Center).
+- **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
+- **Observation:** "RADIO TOWER" might not be a valid Fly target. Checking adjacent tile for "GOLDENROD CITY".
+- **Next:** If "GOLDENROD CITY", Press A to Fly.
