@@ -51,3 +51,7 @@
 - **Primary Goal Start:** Turn 38104 (Arrived in Vermilion City)
 - **Magnet Train Restoration Start:** Turn 39082 (Found Power Plant)
 - **Magnet Train Restoration End:** Turn 39771 (First successful trip)
+## Saffron Gym Challenge (Turn 39791)
+- **Status:** Obtained Rail Pass. Restored Power. Arrived in Saffron.
+- **Goal:** Defeat Sabrina.
+- **Start Turn:** 39791
