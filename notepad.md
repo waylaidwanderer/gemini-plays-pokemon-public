@@ -34,8 +34,8 @@
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Cycle
-  - **Step 1 (Current):** Ecruteak -> Route 37 (Move Down).
-  - **Step 2:** Route 37 Hunt -> Return to Ecruteak.
+  - **Step 1:** Ecruteak -> Route 37 (Move Down).
+  - **Step 2 (Current):** Route 37 Hunt -> Return to Ecruteak.
   - **Pattern:** `Down, Down, Left, Right, Up, Up, Up` (Check Grass, Return).
-- **Status:** Moving to Route 37.
-- **Repel:** Active. Steps used: ~175/200.
+- **Status:** Hunting in Route 37 -> Returning to Ecruteak.
+- **Repel:** Active. Steps used: ~182/200.
