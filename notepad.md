@@ -36,7 +36,7 @@
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
 - **Observation:** Path is through the northern lane (Row 11) to bypass walls.
-- **Status:** Defeated Picnicker Heidi (41, 8) and Hiker Sidney (39, 15). Currently battling Camper Dean (19, 11).
+- **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), and Camper Dean (19, 11). Currently battling Picnicker Edna (12, 15).
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
