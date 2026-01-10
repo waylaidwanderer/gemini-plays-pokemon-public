@@ -8,21 +8,13 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Travel to Celadon City (Resupply).
-- **Status:** Repel wore off (Turn 32497). Clearing text.
-- **Action:** Continue walking West to Celadon.
+- **Status:** Walking on Route 7.
+- **Action:** Navigate via gap at (9, 5) to Celadon Entrance.
 - **Goal:** Buy Super Repels at Dept Store.
 - **Stats:** 0 Encounters so far.
-- **Strategy:**
-  1. Enter Route 37.
-  2. Walk in grass (5-10 steps).
-  3. If no encounter, exit to Ecruteak.
-  4. Repeat.
 
-## Reflection (Turn 32447)
-- **Status:** Resupply run in Goldenrod.
-- **Hygiene:** Notepad cleaned. Markers active.
-- **Goal:** Buy 6 Super Repels, then return to Ecruteak loop.
-- **Correction:** Confirmed Ecruteak Mart lacks Repels. Goldenrod is the backup.
-
-## Observations
-- **Mechanics:** Roamers move when map ID changes. Repel (Lvl 36 leader) filters out local spawns but allows Lvl 40 Roamers.
+## Reflection (Turn 32499)
+- **Status:** Resupply Run (Goldenrod failed, going to Celadon).
+- **Pivot:** Switched from Flying (map issues) to Walking (reliable).
+- **Verification:** Celadon stock confirmed in history.
+- **Pathing:** Must use gap at (9, 5) to bypass ledges.
