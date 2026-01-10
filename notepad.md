@@ -19,6 +19,6 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (5F -> 2F).
-- **Action:** Close Menu -> Go to 2F.
-- **Reasoning:** 5F is Vitamins. Repels must be on 2F (Left Clerk) or I missed them.
-- **Fallback:** If 2F fails, Fly to Saffron Mart.
+- **Action:** Descend Stairs to 2F.
+- **Reasoning:** 5F was Vitamins. Checking 2F Medicine Clerk (scrolling down).
+- **Fallback:** Saffron Mart.
