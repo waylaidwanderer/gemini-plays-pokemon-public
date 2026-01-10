@@ -26,10 +26,11 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Machine Part retrieved from Cerulean Gym. Hiker Tim defeated.
+- **Status:** Machine Part retrieved. Arrived at Route 10 North. Xenon (Lead) is fainted.
 - **Plan:**
-  1. Navigate Route 9 Maze: From (29, 3), head East to (33, 3), South to (33, 8), East to (46, 8), South to (46, 11), East to (50, 11), South to (50, 15), East to (54, 15), then South to exit at (54, 17).
-  2. Enter Power Plant and talk to the Manager at (14, 10).
+  1. Heal at Route 10 Pokemon Center (11, 1).
+  2. Enter Power Plant (3, 9).
+  3. Return Machine Part to Manager (14, 10).
 
 ## Lessons Learned
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
