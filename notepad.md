@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South). Verified at (41, 13).
-- FLOOR_UP_WALL: One-way ledge (North to South). Jumpable from North. Verified at (11, 16).
+- FLOOR_UP_WALL: One-way ledge (North to South). Jumpable from North manually. Verified at (11, 16).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
 
@@ -34,7 +34,7 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Row 17 is a long westward corridor [7, 42]. Reachable by jumping the Row 16 ledge (FLOOR_UP_WALL) from Row 15.
+- **Observation:** Row 17 is a long westward corridor [7, 42]. Reachable by jumping the Row 16 ledge (FLOOR_UP_WALL) from Row 15. Row 11 is blocked at X=19 by Dean/Walls.
 - **Status:** Defeated Picnicker Heidi (41, 8), Hiker Sidney (39, 15), Camper Dean (19, 11), and Picnicker Edna (12, 15).
 - **Plan:** Walk to (11, 15), jump south to (11, 17), then walk west to Cerulean City.
 
