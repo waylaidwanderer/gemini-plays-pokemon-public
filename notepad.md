@@ -48,3 +48,5 @@
 - [Turn 38258] Battling Guitarist Vincent at (4, 7). Leading with GNEISS.
 - Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32).
 - GNEISS (Lv51) using Earthquake to sweep. Currently on 3rd Magnemite.
+- Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
+- GNEISS (Lv51) using Earthquake to sweep. Currently on Voltorb.
