@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 37 (7, 2).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Using Super Repel.
-- **Method:** `slow_press` (A, A).
-- **Notes:** Applying Super Repel.
-- **Next Step:** Clear Text -> Exit Menu -> Resume Loop.
+- **Status:** Closing Menu.
+- **Method:** `press_buttons` (B, B).
+- **Notes:** Super Repel applied. Closing menu to return to Ecruteak.
+- **Next Step:** Return to Ecruteak -> Hunt Loop.
