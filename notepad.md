@@ -30,8 +30,8 @@
 
 ## Current Objective: Heal and Withdraw KIMCHI
 - Start Turn: 38183
-- Status: Healing in progress.
-- To-do: Find PC, withdraw KIMCHI (Box 1), swap for Ouroboros.
+- Status: Healing complete. Moving to PC.
+- To-do: Access PC at (2, 1), withdraw KIMCHI (Box 1), swap for Ouroboros.
 
 ## Hypotheses (Unverified)
 - Vermilion Gym: Two consecutive switches in trash cans.
