@@ -14,9 +14,9 @@
 - **Celadon Dept Store:** 2F has Repels (Left Clerk) and TMs (3F).
 
 # Current Strategy
-## Return to Hunt
-- **Goal:** Return to Ecruteak City.
-- **Location:** Celadon Dept. Store (Exit).
-- **Action:** Exit -> Fly Saffron -> Train -> Fly Ecruteak.
-- **Status:** Exiting Store.
-- **Resources:** Low money (¥1772) and balls (2 Ultra). Need to battle for funds.
+## Master Ball Retrieval & Roamer Hunt
+- **Goal:** Retrieve Master Ball from Elm (New Bark Town).
+- **Location:** Celadon City.
+- **Action:** Fly Saffron -> Train -> Fly New Bark.
+- **Status:** Initiating Fly to Saffron.
+- **Resources:** Low money (¥1772). Check Elm for Master Ball.
