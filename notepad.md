@@ -50,11 +50,12 @@
   - Psychic Jared (Defeated): (17, 4) in (3,A).
 
 ## Battle Update: vs Sabrina
+- GNEISS (Lv 52 Graveler): Fainted.
 - Calcifer (Lv 58 Typhlosion): Fainted.
 - ICARUS (Lv 19 Pidgeotto): Fainted.
 - XENON (Lv 41 Haunter): Fainted.
 - Current Opponent: Espeon (Lv 46). Moves: Psychic, Sand-Attack.
-- Current Strategy: GNEISS (Graveler) Earthquake.
+- Current Strategy: KIMCHI (Gloom) Sleep Powder.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
