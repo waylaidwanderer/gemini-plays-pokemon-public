@@ -12,7 +12,7 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor (ID 2) is at (31, 6), blocking the eastern corridor.
+- Status: Investigating B1F. Sailor (ID 2) is at (31, 6), blocking the eastern corridor. Path at (30, 6) is clear.
 - Strategy: Bypass sailor by moving through (30, 7) -> (30, 6) -> (30, 5).
 - Target: Explore western side via row 5. Target corridor at x=28.
 - Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6).
