@@ -1,13 +1,13 @@
-# Persistent Knowledge
+# persistent_knowledge
 ## Tile Mechanics
-- FLOOR: Verified traversable.
-- WALL: Verified impassable.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Traversable with Surf.
+- TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE: Semi-traversable (jump down from above).
-- TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
-- WARP_CARPET_DOWN: Step on to warp to the map below. Verified on Route 5 (Turn 38458).
-- WARP_CARPET_LEFT: Step on to warp to the map to the left. Verified in Saffron City (Turn 38388).
-- WARP_PANEL: Teleports between rooms. Verified in Saffron Gym (Turn 38484).
+- WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5 and Route 27.
+- WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -62,12 +62,10 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+
 ## Route 6 Notes
 - Pokefan Rex (9, 12): DEFEATED.
 - Pokefan Allan (10, 12): DEFEATED.
 - Pokefan M (17, 4): Near Underground Path. Info: Underground Path is closed until Power Plant is fixed.
-- Strategy: Battle all for EXP before heading to Saffron/Cerulean.
-- Exploration: Unseen tiles at (17, 17) and top left (from Saffron).
-- Lesson: Map boundaries block movement; plan sequences carefully.
 - Started Turn: 38311 (Power Plant Objective)
 - Timestamp: Friday, January 9, 2026 at 11:50 PM PST
