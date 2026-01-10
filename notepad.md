@@ -17,11 +17,12 @@
   3. If no encounter, exit to Ecruteak.
   4. Repeat.
 
-## Reflection (Turn 32137)
-- **Status:** efficient loop established.
-- **Hygiene:** Notepad cleaned. Map markers current.
-- **Lesson:** Ignore phone calls during hunts to save frames.
-- **Plan:** Continue loop. No new tools needed for simple movement.
+## Reflection (Turn 32187)
+- **Status:** Roamer hunt ongoing. Cycle is automated.
+- **Hygiene:** Notepad and markers are good.
+- **Automation:** `roamer_hunt_cycle` tool is working well, handling map context.
+- **Goal:** Continue grinding for Raikou/Entei.
+- **Plan:** Keep cycling. Handle interruptions (calls, repel wearing off) manually as needed.
 
 ## Observations
 - **Mechanics:** Roamers move when map ID changes. Repel (Lvl 36 leader) filters out local spawns but allows Lvl 40 Roamers.
