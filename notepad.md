@@ -13,8 +13,10 @@
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715.
 - Status: Investigating B1F. Path at (30, 6) is clear.
-- Strategy: Explore western corridors of B1F (x=26, x=28) to find the missing girl.
-- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for "lazy bum" buddy. Found buddy at (30, 6).
+- Strategy: Navigate to the western side of the deck via the northern corridor (y=4 or y=5).
+- Goal: Find the "lazy bum" sailor's buddy and the missing girl.
+- Clue: Gentleman (2, 17) on 1F says she's energetic.
+- Clue: Sailor at (31, 6) on B1F was looking for his buddy who was "goofing off".
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
@@ -25,3 +27,4 @@
 - XENON (Haunter) is immune to Normal moves.
 - NPCs may block corridors until specific events/dialogue.
 - NPCs often update positions after a map transition.
+- Non-interactable decorations (like the pink sprites) do not appear in the Map Objects list.
