@@ -12,9 +12,9 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor (ID 1) is at (30, 6), blocking the x=30 corridor.
-- Strategy: Bypass sailor by moving through (31, 7) -> (31, 6) -> (31, 5).
-- Target: Explore western side via gaps at row 5. Target corridor at x=28.
+- Status: Investigating B1F. Sailor (ID 1) is at (30, 6), blocking the corridor. Path at (31, 6) is open.
+- Strategy: Bypass sailor via (31, 7) -> (31, 6) -> (31, 5). Reach western side via row 5.
+- Target: Explore western corridors. Target (25, 5) to uncover unseen tiles.
 - Obstacle: Super Nerd at (26, 9) blocks the x=26 corridor.
 - Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
