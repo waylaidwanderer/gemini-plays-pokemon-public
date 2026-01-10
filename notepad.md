@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 37 (7, 2).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Clearing Phone Call (Gaven).
-- **Method:** `press_buttons` (B).
-- **Notes:** Gaven interrupted the hunt. Clearing dialogue.
-- **Next Step:** Finish Call -> Wiggle -> Return to Ecruteak.
+- **Status:** Resuming Hunt (Post-Call).
+- **Method:** `press_buttons` (Wiggle + Exit).
+- **Notes:** Call with Gaven finished. Wiggling in grass then returning to Ecruteak to reset. Repel active.
+- **Next Step:** Wiggle -> Enter Ecruteak -> Run `hunt_check_route37`.
