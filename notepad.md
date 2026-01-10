@@ -8,6 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupplying (Need Super Repels).
+- **Action:** Navigating Fly Map (New Bark -> Goldenrod).
+- **Strategy:** Fly to Goldenrod. Buy Repels. Return to Ecruteak.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
