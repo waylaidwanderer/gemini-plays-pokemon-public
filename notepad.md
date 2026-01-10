@@ -30,5 +30,3 @@
 
 ## Route 10 North Progress
 - (11, 1): Pokemon Center.
-- Plan: Heal, then find Power Plant (likely east/south).
-- NPCs: Gentleman (moving), Gym Guide (7, 2), Cooltrainer F (1, 3).
