@@ -49,3 +49,7 @@
 - Sabrina (Saffron City): Psychic-type. Recommended level: 50-55.
 - Blaine (Cinnabar Island): Fire-type. Recommended level: 52-57.
 - Blue (Viridian City): Multi-type. Recommended level: 55-60.
+- Kanto Strategy (from analyst): Head to Vermilion City Gym first. Lt. Surge uses Electric-types (Lv 44-46). GNEISS (Lv 51) is the MVP.
+- Need to train XENON, Ouroboros, and LAPIS or find stronger replacements.
+- S.S. Aqua 15_5: Cabin doors at (0, 12), (2, 12), (4, 12), (6, 12).
+- S.S. Aqua 15_5: Pink sprites at (1, 17) and (6, 17) appear to be background tiles, not NPCs.
