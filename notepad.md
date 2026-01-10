@@ -65,3 +65,5 @@
 - Directory: (11, 0).
 - Gentleman (9, 1): Station Manager. Ruined if power isn't restored. Confirms Power Plant is down.
 - Directory (11, 0): To be examined.
+- Directory (11, 0): 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
+- Officer (15, 1): Blocking stairs to 2F.
