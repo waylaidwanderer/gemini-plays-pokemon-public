@@ -7,16 +7,16 @@
 - LEDGE: Semi-traversable (jump down).
 
 ## Active Quest: Find Granddaughter
-- Status: B1F eastern corridor blocked by sailors swapping positions.
-- Clues: Energetic girl (1F); "lazy bum" buddy goofing off (B1F).
-- Strategy: Explore western B1F via the second ladder at (6, 12) on 1F.
+- Status: Searching FastShip 1F (15_3) for the Captain's Cabin or remaining cabins.
+- Clue: Energetic girl (1F) might be bugging someone.
+- Strategy: Explore the western side of 1F (x < 10) to find more cabins or the second ladder.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City). MVP: GNEISS (Graveler) Lv 51.
 
 ## Lessons Learned
-- S.S. Aqua sailors block corridors dynamically; use alternate routes.
-- Super Nerd (26, 9) blocks the x=26 corridor on B1F.
+- S.S. Aqua sailors on B1F block corridors dynamically.
+- Western and eastern sections of 1F are separated by a long wall at x=8/9.
 - Verify object positions in Game State Information before pathing.
 - Map transitions reset NPC positions.
