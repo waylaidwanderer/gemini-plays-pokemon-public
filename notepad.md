@@ -37,3 +37,4 @@
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
 - **Battle:** Wild Spinarak (Loom). Catching with Poke Ball.
 - **Next:** Nickname "Loom". Resume Hunt.
+- **System Behavior:** `press_buttons` strips mixed directional/action inputs (e.g., `["Up", "A"]` becomes `["Up"]`). Must split across turns.
