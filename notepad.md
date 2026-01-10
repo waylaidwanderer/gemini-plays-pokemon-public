@@ -26,12 +26,6 @@
 ## Saffron Gym Progress
 - Puzzle Started Turn: 38480
 - Current Room: (2,B) [Sabrina's Room]
-- Room Grid (3x3):
-  (1,A) (2,A) (3,A)
-  (1,B) (2,B) (3,B)
-  (1,C) (2,C) (3,C)
-- Room Coordinates: Row A: 0-5, Row B: 7-11, Row C: 13-17 | Col 1: 0-5, Col 2: 7-12, Col 3: 14-19
-
 - Warp Connections Found:
   1. (2,C) Entrance (11,15) <-> (3,C) (19,17)
   2. (3,C) (15,17) <-> (1,C) (5,15)
@@ -47,13 +41,19 @@
   12. (1,B) (1, 9) <-> (3,B) (19,11)
   13. (3,B) (15,11) <-> (2,A) (9, 3)
   14. (2,A) (9, 5) <-> (1,B) (5, 9)
-  15. (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina] (Inferred)
+  15. (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina]
 
 - Battle Log:
   - Medium Rebecca (Defeated): (17, 16) in (3,C).
   - Psychic Franklin (Defeated): (3, 16) in (1,C).
   - Medium Doris (Defeated): (3, 4) in (1,A).
   - Psychic Jared (Defeated): (17, 4) in (3,A).
+
+## Battle Update: vs Sabrina
+- Calcifer (Lv 58 Typhlosion): Fainted (Turn 38613).
+- ICARUS (Lv 19 Pidgeotto): Fainted (Turn 38609).
+- Current Opponent: Espeon (Lv 46). Moves: Psychic, Sand-Attack.
+- Current Strategy: XENON (Haunter) Hypnosis -> Dream Eater.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
@@ -63,6 +63,3 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
-- Gym Leader Sabrina: (9, 8) in (2,B).
-  - Espeon (Lv 46): Psychic. Moves: Psychic, Sand-Attack.
-- Battle Update: Calcifer fainted against Espeon.
