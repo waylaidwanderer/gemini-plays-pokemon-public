@@ -47,3 +47,10 @@
 ## Hypotheses & Item Tracking
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
+## Saffron City Exploration Plan
+- Goal: Map the city and find the path to Cerulean City/Power Plant.
+- Step 1: Head north from the Saffron Gate (16, 33) to find the Route 5 exit.
+- Step 2: Identify key buildings (Magnet Train Station, Silph Co., Gyms).
+- Step 3: Speak with NPCs for clues about the Power Plant.
+- Note: Pokefan M at (20, 30) is moving; ignore unless he blocks the path.
+- Verified: Saffron Gate is open and traversable.
