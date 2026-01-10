@@ -185,21 +185,5 @@
         "action_counter": 30801
       }
     ]
-  },
-  "hunt_roamers_safe": {
-    "description": "Robust Roamer hunting loop with explicit delays between movements to prevent input loss. Warps from Ecruteak to Rt 37, checks grass, and returns.",
-    "input_schema": {
-      "type": "object",
-      "properties": {},
-      "required": []
-    },
-    "python_script": "print('[\"Down\", \"sleep 5000\", \"Down\", \"sleep 250\", \"Down\", \"sleep 250\", \"Left\", \"sleep 250\", \"Right\", \"sleep 250\", \"Right\", \"sleep 250\", \"Left\", \"sleep 250\", \"Up\", \"sleep 250\", \"Up\", \"sleep 250\", \"Up\", \"sleep 5000\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-10T07:04:32.564Z",
-        "action_counter": 31067
-      }
-    ]
   }
 }
