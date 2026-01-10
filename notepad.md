@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Impassable Wall from the North.
+- FLOOR_UP_WALL: Untested hypothesis. Appears impassable from North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
@@ -31,12 +31,10 @@
 
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
-- **Fly Attempt Failures:** Turn 39649 to 39722 (~73 turns lost to menu fumbles).
-- **Plan:**
-  1. Travel to Vermilion City (Walking via Route 6).
-  2. Search Vermilion City for the lost Poké Doll (Check Pokemon Fan Club).
-  3. Return the doll to Copycat in Saffron City.
-  4. Obtain the Rail Pass.
+- **Strategy:**
+  1. Search Vermilion City buildings for the lost doll. Primary target: Pokémon Fan Club (7, 13).
+  2. After obtaining the doll, return to Saffron City (via Fly or walking Route 6).
+  3. Give doll to Copycat on 2F of her house (9, 11) in Saffron.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
