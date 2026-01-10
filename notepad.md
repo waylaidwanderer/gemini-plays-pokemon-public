@@ -67,3 +67,4 @@
 - Directory (11, 0): To be examined.
 - Directory (11, 0): 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
 - Officer (15, 1): Blocking stairs to 2F.
+- Mr. Fuji: Not at home. Currently at the SOUL HOUSE.
