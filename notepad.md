@@ -39,8 +39,8 @@
 ## Strategy for Reaching Power Plant
 - **Attempt 1 (Turn 39056):** Tried Route 10 North (7_14) at (14, 0). Blocked by wall at x=15.
 - **Hypothesis 1:** Route 9 (7_13) has water access at (56, 4) that leads south to Route 10 North water.
-- **Discovery:** Found a gap in the Row 5 wall at (44, 5) and (45, 5).
-- **Plan:** Move to (45, 4) via the gap, then move east along Row 4 to (55, 4) and use Surf on (56, 4).
+- **Success:** Reached water at (56, 4) on Route 9.
+- **Plan:** Surf south along the corridor (x=56/57) until transitioning to Route 10 North. Follow the water path to the Power Plant.
 - **Verification:** Sign at (12, 1) in Route 10 North confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
 - **Failed Hypotheses:**
     - Gap in wall at x=15 on Route 10 North (No gap seen up to y=6).
