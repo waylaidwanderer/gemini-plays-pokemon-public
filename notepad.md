@@ -27,9 +27,8 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31626)
-- **Status:** Goldenrod Dept. Store 1F.
+- **Session Start:** Turn 30996 (Current: 31627)
+- **Status:** Entering Elevator.
 - **Goal:** Take Elevator to 2F.
-- **Action:** Pathfinding to (2, 1) [Floor in front of Elevator].
-- **Correction:** Targeted (2, 1) instead of (2, 0) to avoid "blocked target" error.
-- **Next:** Walk Up into Elevator -> Select 2F -> Sell/Buy.
+- **Action:** Pressing Up to enter warp at (2, 0).
+- **Next:** Operate Elevator Panel -> Select 2F -> Sell/Buy.
