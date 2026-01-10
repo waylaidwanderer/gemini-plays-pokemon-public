@@ -76,3 +76,4 @@
 - 1F Navigation: Exploring northern section above the ledges. Currently at (15, 9).
 - Discovery: Ladder at (5, 3) on 1F leads to B1F at (23, 3).
 - B1F Navigation: Exploring from the northeastern ladder at (23, 3).
+- Rock Tunnel B1F Progress Update (Turn 38963): Exploring south from (23, 3). Currently at (26, 9).
