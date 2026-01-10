@@ -33,13 +33,13 @@
 - **Start Turn:** 39646
 - **EXPN Card Phase Start:** 39659
 - **Saffron Arrival Turn:** 39674
-- **Status:** EXPN Card obtained. Power Plant restored. Arrived in Saffron City. Station staff at (6, 11) and (10, 13).
+- **Copycat's House Arrival:** 39689
+- **Status:** EXPN Card obtained. Power Plant restored. Arrived at Copycat's House.
 - **Plan:**
-  1. Visit the Magnet Train station at (8, 3) in Saffron City.
-  2. Talk to Teacher at (6, 11) in the station to check status.
-  3. Visit Copycat's house at (9, 11) to learn about the lost Poké Doll.
-  4. Locate Copycat's lost Poké Doll (Vermilion Fan Club).
-  5. Obtain the Rail Pass from Copycat.
+  1. Go to 2F of Copycat's House via stairs at (2, 0).
+  2. Talk to Copycat to learn about her lost Poké Doll.
+  3. Locate Copycat's lost Poké Doll (Vermilion Fan Club).
+  4. Obtain the Rail Pass from Copycat.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
