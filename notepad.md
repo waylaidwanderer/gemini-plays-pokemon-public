@@ -27,6 +27,6 @@
 - **Goal:** Hunt Raikou/Entei.
 - **Status:** Clearing Phone Call.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Wade called (Turn 30770). Clearing dialogue. Repel active (~160 steps).
-- **Time:** Start ~Turn 30680. Current 30771.
+- **Notes:** Wade called (Turn 30770). Still clearing dialogue. Repel active (~160 steps).
+- **Time:** Start ~Turn 30680. Current 30772.
 - **Next Step:** Clear Text -> Execute Hunt.
