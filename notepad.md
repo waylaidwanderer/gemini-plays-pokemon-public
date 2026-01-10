@@ -18,6 +18,6 @@
 ## Travel to Kanto
 - **Goal:** Reach Celadon Dept. Store.
 - **Location:** Goldenrod Dept. Store Elevator.
-- **Status:** At Controls (3, 1).
-- **Action:** Pressing A to open Elevator Menu.
-- **Next:** Select 1F -> Exit Store -> Magnet Train.
+- **Status:** Selecting 1F.
+- **Action:** Pressing A to confirm selection.
+- **Next:** Exit Elevator -> Leave Store -> Magnet Train.
