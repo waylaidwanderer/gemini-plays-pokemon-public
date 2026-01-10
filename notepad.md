@@ -12,8 +12,8 @@
 - Statue: Impassable.
 
 ## Kanto Strategy
-- Goal: Collect 8 Kanto badges.
-- Target 1: Lt. Surge (Vermilion City Gym).
+- [Turn 38104] Goal: Collect 8 Kanto badges.
+- Target 1: Lt. Surge (Vermilion City Gym). [Turn 38311] Defeated.
 - Strategy: Lead with GNEISS (Graveler Lv 52). Ground immunity protects against Electric moves.
 
 ## Vermilion City Exploration
@@ -21,13 +21,6 @@
 - Port: South | Poke Mart: (21, 13)
 - Diglett's Cave House: (21, 17) | Magnet Train House: (13, 13)
 - Fan Club: (7, 13) | Gym: (9, 18)
-
-## Vermilion Gym Puzzle Strategy
-- Mechanics: Find two consecutive switches in trash cans. If the second isn't found immediately after the first, the puzzle resets.
-- Systematic Search:
-  1. Check cans in a grid pattern (left-to-right, top-to-bottom).
-  2. Switch 1 Found: Immediately check all 4 cardinal adjacent cans (Up, Down, Left, Right).
-  3. Reset: If Switch 2 is not found in the adjacent cans, the puzzle resets. Record the location of Switch 1 and resume systematic search.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
@@ -42,12 +35,11 @@
 - Hidden Full Restore: Gym trash cans.
 - Hidden Rare Candy: Vermilion City water.
 - Fishing Rod: NPC at Pokecenter (7, 2).
+
 ## Vermilion Gym Observations
 - Lesson: Map Object internal names (e.g., SUPER_NERD) can be generic. Always use Screen Text to identify trainers in battle.
 - Gym Guide (Turn 38231): "The traps aren't active right now."
-- Guitarist Vincent (Defeated): Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
-- Juggler Horton (Defeated): Electrode (Lv33) x4.
-- Lt. Surge's Team (Observed): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
-- Current Strategy: GNEISS (Lv 52) Strength sweep. Immune to Electric moves. Strength PP: 9/15. HP: 78/146.
-- [Turn 38301] Surge's Electrode used Explosion. GNEISS survived. Surge sent out Magneton (Lv 40). Continuing with Strength.
-- [Turn 38303] Magneton is Electric/Steel. Strength is resisted. Switching to Calcifer (Lv 58) for Flame Wheel (Super Effective). GNEISS HP: 78/146.
+- Lt. Surge's Team (Defeated): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
+- [Turn 38311] Victory! Thunder Badge obtained. GNEISS (Lv 52), Calcifer (Lv 58), KIMCHI (Lv 36).
+- Strategy: Use GNEISS to sweep. Immune to Electric. Earthquake PP is 0/10. Needs healing.
+- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
