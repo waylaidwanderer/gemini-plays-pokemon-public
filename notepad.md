@@ -23,9 +23,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Route 37 (7, 2).
+- **Current Location:** Ecruteak City (17, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Finishing Interrupted Hunt.
-- **Method:** `press_buttons` (Manual Wiggle + Exit).
-- **Notes:** Resuming hunt after reapplying Repel. Manually wiggling and returning to Ecruteak to reset.
-- **Next Step:** Return to Ecruteak -> Re-enter Route 37 -> Hunt Loop.
+- **Status:** Re-entering Route 37.
+- **Method:** `press_buttons` (Down).
+- **Notes:** Hunt loop check complete. Repel active (~193 steps). Returning to Route 37.
+- **Next Step:** Enter Route 37 -> Run `hunt_check_route37`.
