@@ -7,10 +7,8 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Goldenrod Dept Store 2F (Turn 32446).
-- **Action:** Interacting with Clerk at (13, 6).
-- **Goal:** Check for Super Repels.
-- **Contingency:** If not here, check Clerk at (13, 5) from (13, 3).
+- **Current Task:** Purchasing Super Repels (Goldenrod 2F).
+- **Lesson (Turn 32421):** Ecruteak Mart does NOT sell Repels. Verify inventory first.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
@@ -18,12 +16,11 @@
   3. If no encounter, exit to Ecruteak.
   4. Repeat.
 
-## Reflection (Turn 32187)
-- **Status:** Roamer hunt ongoing. Cycle is automated.
-- **Hygiene:** Notepad and markers are good.
-- **Automation:** `roamer_hunt_cycle` tool is working well, handling map context.
-- **Goal:** Continue grinding for Raikou/Entei.
-- **Plan:** Keep cycling. Handle interruptions (calls, repel wearing off) manually as needed.
+## Reflection (Turn 32447)
+- **Status:** Resupply run in Goldenrod.
+- **Hygiene:** Notepad cleaned. Markers active.
+- **Goal:** Buy 6 Super Repels, then return to Ecruteak loop.
+- **Correction:** Confirmed Ecruteak Mart lacks Repels. Goldenrod is the backup.
 
 ## Observations
 - **Mechanics:** Roamers move when map ID changes. Repel (Lvl 36 leader) filters out local spawns but allows Lvl 40 Roamers.
