@@ -2,12 +2,12 @@
 ## Objectives
 - **Primary:** Complete Pokedex.
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
-- **Navigation:** Reset Map in Ecruteak City.
+- **Navigation:** Enter Route 37.
 
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** ~100/200 Repel steps used.
+- **Status:** ~65/200 Repel steps used.
 - **Strategy:**
   1. Move Up to Ecruteak (Reset Map).
   2. Move Down to Route 37.
