@@ -27,10 +27,8 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31643)
-- **Status:** Selecting SELL Option.
-- **Goal:** Enter SELL Menu.
-- **Action:** Pressing Down (Step 1 of 2).
-- **Reason:** System blocks mixed input types in `press_buttons`. Splitting "Down" and "A" into separate turns to ensure precision and avoid re-entering BUY menu.
-- **Current Selection:** BUY.
-- **Next:** Verify cursor on SELL -> Press A.
+- **Session Start:** Turn 30996 (Current: 31644)
+- **Status:** Entering Sell List.
+- **Goal:** Sell 5 Revives.
+- **Action:** Pressing A to confirm SELL selection.
+- **Next:** Find Revives -> Sell x5 -> Exit -> Check BUY for Super Repels.
