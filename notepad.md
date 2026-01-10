@@ -7,10 +7,9 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Resupply Run - Super Repels.
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Transit - Celadon City (Turn 32523).
-- **Action:** Walking East to Route 7 Gate.
+- **Status:** Route 7 (Turn 32527).
+- **Action:** Walking East to Saffron Gate.
 - **Next Step:** Saffron -> Magnet Train -> Fly Ecruteak.
 - **Stats:** 0 Encounters so far.
 
