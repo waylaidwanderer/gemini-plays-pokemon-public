@@ -75,3 +75,9 @@
 - Currently at (8, 30). Street continues west.
 - Strategy: Moving to (4, 30) to see the western edge of the city.
 - Observation: Buildings on this side seem to be residential or smaller shops.
+## Saffron City Exploration Log (Turn 38386)
+- Currently at (4, 30).
+- West path: Street continues to (1, 30).
+- North path: Path at x=2, 3 seems to go north.
+- Strategy: Move to (1, 30) to check for the Route 7 exit, then explore the north-south alleyway.
+- Observation: Buildings at (4-7, 26-29) and (0-3, 26-29) are separate from Silph Co.
