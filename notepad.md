@@ -11,7 +11,7 @@
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
 - Clues: Granddaughter is missing; sailor on B1F looking for buddy.
-- Strategy: Explore western B1F to find the Captain's cabin. The granddaughter should be there.
+- Strategy: Explore western B1F to find the Captain's cabin/bridge. The granddaughter should be there.
 - Lesson: Corridors blocked by NPCs (like sailors) often require finding a trigger NPC (like a "buddy" goofing off) to clear the path.
 
 ## Kanto Strategy
