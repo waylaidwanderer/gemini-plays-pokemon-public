@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31600)
-- **Status:** Resupply Run - Aborted Fly.
-- **Goal:** Travel to Goldenrod City on foot/bike.
-- **Action:** Exiting menus to return to Overworld.
-- **Reason:** Fly map cursor controls are unreliable. Biking is a safer, deterministic alternative.
+- **Session Start:** Turn 30996 (Current: 31601)
+- **Status:** Traveling to Goldenrod (Walking).
+- **Goal:** Reach Goldenrod City via Route 36 & 35.
+- **Action:** Walking South through Route 37 to enter Route 36.
+- **Reason:** Fly Map failed; walking is reliable. Route 37 -> Route 36 -> Goldenrod.
