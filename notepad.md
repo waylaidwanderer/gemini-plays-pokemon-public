@@ -19,7 +19,7 @@
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (1F).
-- **Status:** Searching for Elevator/Stairs.
-- **Action:** Exploring 1F.
-- **Reasoning:** Need to find 2F (Items) or upper floors.
-- **Next:** Find Elevator -> Buy Repels.
+- **Status:** Heading to Stairs (East Side).
+- **Action:** Navigate to (12, 3).
+- **Reasoning:** Elevator path blocked by NPC. Stairs are reliable.
+- **Next:** Stairs -> 2F.
