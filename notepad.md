@@ -32,11 +32,7 @@
 ## Cerulean Gym Search Plan
 - Strategy: Systematic search completed.
 - Result: Found at (3, 8) by searching while standing at (3, 7) facing down.
-- Progress:
-  - (3, 3): 🚫 Itemfinder: Nope!
-  - (4, 7): ✨ Itemfinder: Yes!
-  - (3, 7): ✨ Itemfinder: Yes!
-  - (3, 8): ✅ Found Machine Part!
+- Triangulation pings: (4, 7) and (3, 7).
 
 ## Error Analysis & Lessons
 - Menu fumbles occur due to assuming menu resets. 
