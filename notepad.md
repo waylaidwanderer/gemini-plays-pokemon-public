@@ -44,3 +44,7 @@
 - Lt. Surge's Team (Defeated): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
 - [Turn 38311] Victory! Thunder Badge obtained. GNEISS (Lv 52), Calcifer (Lv 58), KIMCHI (Lv 36).
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
+## Kanto Progression Plan (Navigator Advice)
+- Current Objective: Resolve Power Plant crisis to unlock Magnet Train and Snorlax path.
+- Suggested Route: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
+- Completion of Power Plant quest is required to challenge Misty.
