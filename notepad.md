@@ -8,7 +8,7 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Roamer Hunt.
-- **Status:** Menu Exited.
+- **Status:** Cycling (Ecruteak -> Route 37).
 - **Action:** Running `roamer_hunt_cycle`.
 - **Next Step:** execute tool -> check for encounters.
 - **Stats:** 0 Encounters so far.
