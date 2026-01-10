@@ -19,7 +19,8 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Picking up Item Ball at (8,3).
-- **Action:** Press A to interact.
-- **Expectation:** Receive Master Ball.
+- **Status:** Clearing text. Checking PC for Master Ball.
+- **Observation:** Object at (8,3) is flavor text (Rival's stolen ball slot?).
+- **Hypothesis:** Master Ball is in PC or already used (Player has all 16 badges).
+- **Next:** Check PC Item Storage -> Exit Lab.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
