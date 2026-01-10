@@ -23,3 +23,9 @@
 ## Lessons Learned
 - Vermilion Gym's puzzle involves finding two hidden switches in trash cans; the second is usually adjacent to the first.
 - The S.S. Aqua docks in Vermilion Port south of the city.
+## Vermilion City Exploration
+- Status: Arrived from Johto.
+- Objective: Find Pokemon Center and Gym.
+- Snorlax is blocking the eastern exit to Route 11 at (34, 8).
+- Port is to the south.
+- Pokemon Center is likely central or western.
