@@ -25,9 +25,9 @@
 - Fan Club: (7, 13) | Gym: (9, 18)
 
 ## Current Objective: Withdraw KIMCHI
-- Start Turn: 38183
-- Status: Healing complete. Accessing PC.
-- To-do: Access PC at (2, 1), withdraw KIMCHI (Box 1), swap for Ouroboros.
+- Start Turn: 38183 (Friday, Jan 9, 2026, 7:40 PM)
+- Status: Healing complete. Moving to PC at (9, 1).
+- To-do: Access PC, deposit Ouroboros, withdraw KIMCHI (Box 1).
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
