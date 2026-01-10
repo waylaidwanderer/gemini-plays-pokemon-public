@@ -37,6 +37,8 @@
 ## Cerulean Gym Navigation
 - Entrance/Exit: (4, 15), (5, 15)
 - Statues: (2, 13), (6, 13)
-- Water Pool: Central area of the Gym.
-- Strategy: Use Itemfinder while standing on the platforms or surfing in the water.
-- Known Spots: (4, 10) is a platform. (4, 9) is water.
+- Central Platform: (3, 7)-(6, 7) area.
+- Pool A (North): (1, 5)-(6, 6).
+- Pool B (South): (3, 8)-(4, 9).
+- Strategy: Search center water tiles. (4, 6) and (4, 8) are primary candidates. Face tile and press A.
+- Status: At (4, 7) facing UP. Searching (4, 6).
