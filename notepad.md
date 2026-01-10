@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine City.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Entering Pokemon Menu.
-- **Method:** Press A (Select Pokemon) -> Verify Cursor (Mistral/Slot 4) -> Select Fly.
-- **Notes:** Start Menu cursor confirmed on POKEMON. Mistral is in Slot 4.
+- **Status:** Opening Fly Map.
+- **Method:** Press A (Select Mistral) -> Press A (Select Fly).
+- **Notes:** Mistral selected. Fly should be the top option. Will verify map cursor start position (should be Olivine) before navigating.
