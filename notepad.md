@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31567)
+- **Session Start:** Turn 30996 (Current: 31568)
 - **Status:** Resupply Run - Menuing.
-- **Action:** Finishing call with Mom -> Select Map Card.
+- **Action:** Finishing call with Mom (B x2) -> Map Card next.
 - **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
-- **Note:** Pressing B to close text, then Left to Map.
+- **Note:** Using `navigate_menu` to safely advance text.
