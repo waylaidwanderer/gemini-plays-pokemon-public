@@ -37,5 +37,5 @@
   - **Step 1 (Current):** Ecruteak -> Route 37 (Enter & Hunt).
   - **Step 2:** Route 37 -> Ecruteak (Return).
   - **Pattern:** `Down` (Enter). Next turn: `Down, Down` (Grass), `Left, Right` (Hunt), `Up...` (Return).
-- **Status:** Starting new Hunt Cycle (Ecruteak -> Route 37).
-- **Repel:** Active.
+- **Status:** Phone Call Interrupt (Wade).
+- **Repel:** Active (Steps used ~70/200).
