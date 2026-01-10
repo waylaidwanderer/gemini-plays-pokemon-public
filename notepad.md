@@ -16,7 +16,7 @@
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
   - Strategy: Retrieve the stolen Machine Part to restore power.
-  - Plan: Find Mr. Fuji (Lavender) -> Route 10 -> Power Plant -> Cerulean Gym (Machine Part).
+  - Plan: Find Mr. Fuji (Lavender) -> Route 10 -> Power Plant -> Cerulean City (Find thief) -> Cerulean Gym (Retrieve Machine Part).
 
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
@@ -31,10 +31,11 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Talked to Manager. He is furious about the stolen generator part.
-- **Officer (4, 14):** Reported a thief broke in. Check for updates.
+- **Status:** Talked to Manager and Officer. A shady character was seen loitering in Cerulean City.
+- **Officer (4, 14):** Confirmed a thief broke in; latest report points to Cerulean City.
 - **Gym Guide (6, 11):** Info on Magnet Train power.
 - **Gym Guide (2, 9):** Info on stolen part.
 - **Gym Guide (5, 5):** Wants DUGTRIO for MAGNETON.
 - **Officer (9, 3):** Guarding the generator room.
-- **Manager (14, 10):** Needs the Machine Part returned.
+- **Manager (14, 10):** Furious about the stolen generator part; needs the Machine Part returned.
+- **Next Step:** Head to Cerulean City to find the thief.
