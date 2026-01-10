@@ -32,6 +32,7 @@
 
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
+- **Walk to Vermilion Phase Start:** 39722
 - **Plan:**
   1. Travel to Vermilion City (Walking via Route 6).
   2. Search Vermilion City for the lost Poké Doll.
