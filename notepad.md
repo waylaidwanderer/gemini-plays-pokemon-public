@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine Mart.
 - **Goal:** Buy Super Repels at Olivine Mart.
-- **Status:** Confirming Purchase.
-- **Method:** Down x3 (Wrap logic: 1->17->16->15) -> A.
-- **Notes:** Buying 15 Super Repels. Assuming 'Down' wraps to max affordable (17).
+- **Status:** Correcting Purchase Quantity.
+- **Method:** Press B (Cancel 97) -> Press A (Select Super Repel) -> Up x14 (Set 15) -> A (Buy).
+- **Notes:** Quantity wrapped to 99 (not max affordable). 97 is too expensive. Resetting to buy 15 manually.
