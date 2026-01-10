@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 29 (Just outside New Bark Town).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Navigating to Pokemon Menu.
-- **Method:** Exit Option Menu (B) -> Navigate to Pokemon (Down x3) -> Open Party (A).
-- **Notes:** Accidentally entered Option Menu. Cursor memory at 'OPTION'. Navigating: Option -> Exit -> Pokedex -> Pokemon.
-- **Next Step:** Select Pidgey (Slot 4) -> Fly -> Ecruteak.
+- **Status:** Selecting 'FLY' from Pidgey's Submenu.
+- **Method:** Press A to open submenu -> Confirm 'FLY' (should be first option).
+- **Notes:** Cursor is on MISTRAL (Pidgey). Field moves usually appear at the top of the list.
+- **Next Step:** Navigate Fly Map (Up -> Left) to Ecruteak.
