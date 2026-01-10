@@ -23,12 +23,11 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** Route 29 (Just outside New Bark Town).
+- **Current Location:** Lake of Rage (21, 29).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Executing Fly Sequence.
-- **Method:** `navigate_menu` (A -> Left -> Up -> Left -> A).
-- **Notes:** Selects 'FLY', waits (interval), then moves cursor New Bark -> Cherrygrove -> Violet -> Ecruteak, then confirms.
-- **Next Step:** Arrive in Ecruteak -> Search for Beasts on Route 37.
+- **Status:** Opening Start Menu.
+- **Method:** Manual Menu Navigation.
+- **Next Step:** Verify Menu Open -> Select Pokemon -> Fly to Ecruteak.
 
 # Reflection (Turn 30528)
 1. **Execution:** No deferred tasks.
