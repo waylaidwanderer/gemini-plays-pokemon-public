@@ -27,7 +27,7 @@
 - **Goal:** Hunt Raikou/Entei.
 - **Status:** Using Super Repel.
 - **Method:** Menu Navigation.
-- **Action:** Opening Start Menu to verify cursor position.
+- **Action:** Opening Pack (Cursor confirmed on PACK).
 - **Cycle Status:** Paused at Route 37 (8,1).
-- **Time:** Start ~Turn 30680. Current 30922.
-- **Next Step:** Select Pack -> Use Super Repel.
+- **Time:** Start ~Turn 30680. Current 30923.
+- **Next Step:** Select Super Repel -> Use.
