@@ -21,8 +21,8 @@
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
   - Plan: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle: Route 6 north gatehouse is closed until Power Plant is fixed.
-  - Detour: Underground Path (Vermilion to Cerulean).
+  - Obstacle: Route 6 gatehouse at (6, 1) is likely closed or leads to Saffron (blocked).
+  - Detour: Underground Path entrance at (17, 3) (near sign at 19, 5).
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
