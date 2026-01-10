@@ -26,11 +26,11 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39593
+- **Current Turn:** 39595
 - **Status:** Machine Part retrieved from Cerulean Gym.
 - **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
-  1. Navigate Route 9: (28, 12) -> North to (28, 3) -> East to (36, 3) -> South to (36, 8) -> East to (46, 8) -> South to (46, 11) -> East to (50, 11) -> South to (50, 15) -> East to (54, 15) -> South to Route 10 exit at (54, 17).
+  1. Navigate Route 9 Maze: (29, 3) -> East to (36, 3) -> South to (36, 8) -> East to (46, 8) -> South to (46, 11) -> East to (50, 11) -> South to (50, 15) -> East to (54, 15) -> South to Route 10 exit at (54, 17).
   2. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Lessons Learned
