@@ -6,9 +6,8 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped). Verified at (20, 16), (11, 16), (12, 16).
+- FLOOR_UP_WALL: Acts as a WALL from the North (cannot be jumped).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
-- CAVE_LEDGE: Rock Tunnel B1F Row 26 FLOOR_UP_WALL tiles act as walls from the North.
 
 ## Battle Mechanics (Hypotheses)
 - Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
@@ -30,24 +29,12 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Met Rocket Grunt in Cerulean Gym. He fled the building.
-- **Next Step:** Chase the Rocket Grunt to Route 24 (North).
+- **Strategy:** Follow the Rocket Grunt who fled Cerulean Gym to recover the Machine Part. Suspected to be on Route 24.
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
-- **Goal:** Find the thief and the Machine Part.
-- **Status:** Chasing the Rocket Grunt North.
-- **Key Locations:**
-  - Entrance from Route 9: (39, 22)
-  - Cerulean Gym: (30, 23)
-  - Pokemon Center: (19, 21)
-  - Poke Mart: (25, 29)
-  - Fisher (Misty fan): (29, 26)
-  - Cooltrainer F: (21, 24)
-  - Slowpoke: (20, 24)
 - **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront him to recover the Machine Part.
-- **Progress:** Encountered Rocket Grunt in Gym; he fled. Now heading North to Route 24. Path blocked by ledges at Row 21; must go around via X=18 or similar.
-- **Note:** Route 24 is North of the city. Need to find the exit.
+- **Detour Note:** Path blocked by ledges at Row 21; must go around via X=18 or similar to reach the northern exit.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
