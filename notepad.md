@@ -43,15 +43,9 @@
 - Hidden Rare Candy: Vermilion City water.
 - Fishing Rod: NPC at Pokecenter (7, 2).
 ## Vermilion Gym Observations
+- Lesson: Map Object internal names (e.g., SUPER_NERD) can be generic. Always use Screen Text to identify trainers in battle.
 - Gym Guide (Turn 38231): "The traps aren't active right now."
-- [Turn 38282] Engaging Lt. Surge at (5, 2). Leading with GNEISS (Lv 52). Strategy: Strength/Rollout sweep. GNEISS is immune to Electric.
-- Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
-- Juggler Horton's Team: Electrode (Lv33) x4.
-- Lt. Surge's Team: Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40).
-- Strategy: Use GNEISS to sweep. Immune to Electric. Earthquake PP is 0/10. Using Strength/Rollout for Surge.
-- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
-- [Turn 38289] Raichu defeated. KIMCHI grew to Lv36.
-- [Turn 38292] Electabuzz defeated.
-- [Turn 38294] Battling Surge's Electrode (Lv 40). Electrode used Double Team. GNEISS using Strength. Strategy: Maintain physical pressure. GNEISS is immune to Electric. Strength PP: 11/15. HP: 128/146.
-- [Turn 38298] Strength used. Electrode's HP is in the yellow. Light Screen fell.
-- [Turn 38299] Continuing Strength sweep. Immunity to Electric is key. Goal: Thunder Badge.
+- Guitarist Vincent (Defeated): Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
+- Juggler Horton (Defeated): Electrode (Lv33) x4.
+- Lt. Surge's Team (Observed): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40).
+- Current Strategy: GNEISS (Lv 52) Strength sweep. Immune to Electric moves. Strength PP: 9/15. HP: 128/146.
