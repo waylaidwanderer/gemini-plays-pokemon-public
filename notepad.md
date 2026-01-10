@@ -27,9 +27,8 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31621)
-- **Status:** Inside Goldenrod Gatehouse.
-- **Goal:** Exit South to Goldenrod City.
-- **Action:** Walking South to trigger warp at (4, 7).
-- **Correction:** Previous status was hallucinated (thought I was still outside). Confirmed location inside Gatehouse.
-- **Roamer Hunt:** Resupply run (Super Repels) continues.
+- **Session Start:** Turn 30996 (Current: 31622)
+- **Status:** In Goldenrod City (North).
+- **Goal:** Resupply at Dept. Store (Sell Revives, Buy Super Repels).
+- **Action:** Pathfinding to Dept. Store Entrance (24, 27).
+- **Note:** Arrived from Route 35 Gatehouse. Markers confirmed.
