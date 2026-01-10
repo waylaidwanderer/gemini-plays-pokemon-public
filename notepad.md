@@ -8,7 +8,7 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Status:** Repel Active (Start Turn 32269). 4 Left.
-- **Repel Steps:** 81/200 used.
+- **Repel Steps:** 82/200 used.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
