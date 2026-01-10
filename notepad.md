@@ -32,5 +32,5 @@
 - (11, 1): Pokemon Center (Map 7_14).
 ## Route 9 Progress
 - (54, 17): Transition to Route 10 North (14, 0).
-- (51, 19): Building door (possibly another Pokemon Center or a house).
-- Goal: Find a path to the water at x=56 to Surf to the Power Plant.
+- Goal: Find water access at eastern edge to Surf to Power Plant.
+- Note: Building door previously at (51, 19) is actually the Pokemon Center at (11, 1) on Route 10 North.
