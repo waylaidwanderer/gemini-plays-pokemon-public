@@ -63,3 +63,5 @@
 - Super Nerd: (2, 4).
 - Pathing: To talk to Receptionist, go to (6, 4) and face DOWN.
 - Directory: (11, 0).
+- Gentleman (9, 1): Station Manager. Ruined if power isn't restored. Confirms Power Plant is down.
+- Directory (11, 0): To be examined.
