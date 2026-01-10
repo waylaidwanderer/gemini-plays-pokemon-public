@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** New Bark Town.
+- **Current Location:** New Bark Town (Fly Map).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Re-initializing Fly Sequence.
-- **Method:** Start -> A (Pokemon) -> A (Mistral) -> A (Fly).
-- **Notes:** Previous attempt using `navigate_menu` likely "double-clicked" Fly, selecting current location (New Bark) immediately. Switching to `slow_press` with long delays to safely open the map without auto-selecting.
+- **Status:** Navigating Fly Map.
+- **Method:** Slow Press: Left x3 -> A.
+- **Notes:** Map is open. Cursor at New Bark. 3 Lefts should target Ecruteak. Using slow_press (600ms) to ensure distinct inputs and avoid "double-click" or dropped input issues.
