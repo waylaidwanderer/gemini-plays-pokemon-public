@@ -19,7 +19,7 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (5F).
-- **Action:** Talk to Clerk at (7, 5).
-- **Status:** Interacting (Facing Clerk).
-- **Reasoning:** Checking 5F Left Clerk for Repels.
+- **Action:** Select 'BUY' option.
+- **Status:** Checking Inventory.
+- **Reasoning:** Confirming if this clerk sells Super Repels.
 - **Fallback:** If 5F fails, return to 2F Left Clerk (Medicines) and scroll down. Repels might be mixed with Potions/Revives.
