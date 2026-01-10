@@ -66,4 +66,5 @@
 - Biker Dwayne (10, 8): DEFEATED. Koffing (Lv 27), Koffing (Lv 28), Koffing (Lv 29), Koffing (Lv 30).
 - Biker Harris (10, 9): DEFEATED. Flareon (Lv 34).
 - Biker Zeke (10, 10): DEFEATED. Koffing (Lv 32), Koffing (Lv 32).
+- Super Nerd (31, 12): Facing Right.
 - Strategy: Battle for EXP while heading to Lavender.
