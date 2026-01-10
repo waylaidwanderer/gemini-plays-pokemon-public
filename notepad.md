@@ -36,7 +36,7 @@
 - **Method:** 2-Turn Cycle
   - **Step 1:** Route 37 (8,1) -> Ecruteak.
   - **Step 1:** Route 37 (8,1) -> Ecruteak.
-  - **Step 2 (Current):** Ecruteak -> Route 37 (Hunt).
-  - **Pattern:** `Down` (Enter), `Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return).
-- **Status:** Moving to Route 37 (Hunt).
+  - **Step 2 (Current):** Route 37 Hunt -> Return to Ecruteak.
+  - **Pattern:** `Down` (Enter), `Down` (Grass), `Left, Right, Left, Right` (Hunt), `Up, Up, Up` (Return).
+- **Status:** Executing Hunt Pattern (`Down, Down, Left, Right, Left, Right, Up, Up, Up`).
 - **Repel:** Active.
