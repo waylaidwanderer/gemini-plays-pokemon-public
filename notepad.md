@@ -15,6 +15,6 @@
 # Current Strategy
 ## Return to Hunt
 - **Goal:** Return to Ecruteak City.
-- **Location:** Celadon Dept. Store.
-- **Action:** Navigate to 1F -> Exit -> Fly.
+- **Location:** Celadon Dept. Store (Exit).
+- **Action:** Exit -> Fly Saffron -> Train -> Fly Ecruteak.
 - **Status:** Exiting Store.
