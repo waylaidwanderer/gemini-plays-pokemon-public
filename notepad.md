@@ -33,11 +33,8 @@
   - (27, 13) <-> B1F (3, 3).
   - (15, 9) <-> B1F (17, 9).
   - (5, 3) <-> B1F (23, 3).
-- B1F Progress:
-  - (3, 3) <-> 1F (27, 13).
-  - (17, 9) <-> 1F (15, 9).
-  - (23, 3) <-> 1F (5, 3).
-- Turn 38997: Navigating Rock Tunnel B1F. Current pos (24, 24).
+  - (27, 3) <-> B1F (25, 23).
+- Turn 38998: Navigating Rock Tunnel 1F. Current pos (27, 3).
 - Observation: FLOOR_UP_WALL tiles at (13, 26), (8, 26), and (18, 26) are impassable from the North. Row 26 ledges function as walls in this area.
 - Pathing: 1F (South) -> B1F (3, 3) -> B1F (17, 9) -> 1F (15, 9) -> 1F (5, 3) -> B1F (23, 3).
 - Discovery: Ladder at (25, 23) in the southeastern section of B1F.
