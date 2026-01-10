@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Repel Expired.
+- **Status:** Menu Navigation (Applying Repel).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Repel wore off upon entering Route 37. Need to re-apply immediately to filter low-level encounters.
-- **Time:** Start ~Turn 30680. Current 30747.
-- **Next Step:** Close Text -> Open Pack -> Apply Super Repel -> Hunt.
+- **Notes:** Text closed. Opening menu to apply Super Repel.
+- **Time:** Start ~Turn 30680. Current 30748.
+- **Next Step:** Start -> Pack -> Super Repel -> Hunt.
