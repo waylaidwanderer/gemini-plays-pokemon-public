@@ -23,7 +23,8 @@
   - Magnet Train Station: (8, 3).
   - Route 5 Saffron Gatehouse: (18, 3). Leads to Route 5.
   - Copycat's House: (9, 11).
-  - Fighting Dojo / Gym area: North-east quadrant. "GYM" sign visible near (25, 2).
+  - Fighting Dojo: (26, 3) (Sign at 25, 5).
+  - Gym area: North-east quadrant. "GYM" header visible near (24, 2).
 - Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
 ## PC Storage (Box 1)
@@ -34,7 +35,3 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
-- North-East Saffron:
-  - Fighting Dojo Entrance confirmed at (26, 3) via sign at (25, 5).
-  - Observed "GYM" text on building headers near (24, 2) and (30, 2).
-  - Suspected Saffron Gym entrance at (34, 3).
