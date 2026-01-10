@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Travel to Celadon City (Resupply).
-- **Status:** Walking on Route 7.
-- **Action:** Navigate via gap at (9, 5) to Celadon Entrance.
+- **Status:** Navigating Route 7 (North Side).
+- **Action:** Walk North-West to Celadon Entrance (0, 0).
 - **Goal:** Buy Super Repels at Dept Store.
 - **Stats:** 0 Encounters so far.
 
