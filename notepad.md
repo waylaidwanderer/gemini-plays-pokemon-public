@@ -9,7 +9,7 @@
 - WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5/27.
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 - COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Centers/Radio Tower.
-- FLOOR_UP_WALL: Wall from the South. Potentially a ledge from the North, but currently blocking southward movement at (13, 25) in Rock Tunnel B1F. Testing other locations.
+- FLOOR_UP_WALL: Wall from the South. Potentially a ledge from the North, but observed acting as a wall at Row 26 in Rock Tunnel B1F (Turns 38985, 38993, 38996).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
@@ -27,17 +27,15 @@
 - Started: Turn 38914, Saturday, January 10, 2026.
 - Strategy: Use Flash (KIMCHI). Head north for Power Plant exit.
 - 1F Progress:
-  - (10, 15): TM47 Steel Wing.
-  - (4, 18): ELIXER.
-  - (11, 14): FLOOR_UP_WALL blocks northern passage from entrance.
-  - (27, 13) <-> B1F (3, 3).
-  - (15, 9) <-> B1F (17, 9).
-  - (5, 3) <-> B1F (23, 3).
-  - (27, 3) <-> B1F (25, 23).
-- Turn 38999: Navigating Rock Tunnel 1F. Current pos (27, 3).
-- Pathing: 1F (South Entrance) -> B1F (3, 3) -> 1F (15, 9) -> 1F (5, 3) -> B1F (23, 3) -> B1F (25, 23) -> 1F (27, 3).
-- Discovery: Ladder at (27, 3) on 1F leads to B1F (25, 23).
-- Observation: (27, 3) section seems to connect to Row 0 via (29, 0). Exploring north for the exit.
+  - (10, 15): TM47 Steel Wing picked up.
+  - (4, 18): ELIXER picked up.
+  - (11, 14): FLOOR_UP_WALL blocks northern passage from entrance corridor.
+- Ladder Connections:
+  - 1F (27, 13) <-> B1F (3, 3)
+  - 1F (15, 9) <-> B1F (17, 9)
+  - 1F (5, 3) <-> B1F (23, 3)
+  - 1F (27, 3) <-> B1F (25, 23)
+- B1F Navigation: Row 26 FLOOR_UP_WALL tiles are impassable from the North, effectively dividing the floor.
 
 - Observed Pokemon (Kanto):
   - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
