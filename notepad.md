@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31576)
-- **Status:** Resupply Run - Flying.
-- **Action:** Flying to Goldenrod City (A).
-- **Goal:** Sell Revives -> Buy Super Repels at Dept Store.
-- **Location:** Cursor on "GOLDENROD CITY".
-- **Next:** Land -> Walk to Dept Store.
+- **Session Start:** Turn 30996 (Current: 31577)
+- **Status:** Resupply Run - Menuing (Correction).
+- **Action:** Exiting Pokegear (B x3).
+- **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
+- **Error:** Confused Pokegear Map (Key Item) with Fly Map (Pokemon Move). Cannot fly from Pokegear.
+- **Next:** Start Menu -> Pokemon -> Mistral -> Fly.
