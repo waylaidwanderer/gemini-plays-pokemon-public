@@ -35,3 +35,4 @@
 - **Status:** Roaming Hunt Loop - Active (No Repel).
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
+- **Battle:** Wild Spinarak (Loom). Failed catch attempt (menu error). Retrying.
