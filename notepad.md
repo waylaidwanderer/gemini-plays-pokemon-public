@@ -12,6 +12,7 @@
 
 ## Battle Mechanics (Hypotheses)
 - Hypothesis: Haunter (XENON) lacks Levitate in this game (Gen 2) and is vulnerable to Ground moves. (Verification needed).
+- Observation: Hypnosis reported "It didn't affect" Sandslash on Turn 39229. (Mystery to solve).
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
