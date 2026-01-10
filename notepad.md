@@ -28,8 +28,8 @@
 
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996 (Current: 31609)
-- **Status:** Traversing Route 36 (Gatehouse Trouble).
-- **Goal:** Enter Route 35 Gatehouse.
-- **Action:** Forcing entry (Left x4).
-- **Contingency:** If warp fails, use Cut path at (17, 17) to bypass.
-- **Note:** Standard entry failed twice. Warps at (18,8)/(18,9) unresponsive.
+- **Status:** Route 36 National Park Gate.
+- **Goal:** Traverse National Park to reach Goldenrod.
+- **Action:** Walking West to enter National Park.
+- **Note:** Saturday = Bug Catching Contest. May be intercepted by Officer.
+- **Previous:** Successfully forced entry into Gatehouse.
