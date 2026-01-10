@@ -18,9 +18,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31655
-- **Status:** Resupply Run (Menu Correction).
+- **Session Start:** Turn 31656
+- **Status:** Resupply Run (Main Menu).
 - **Goal:** Sell 5 Revives -> Buy Super Repels.
-- **Current State:** Accidentally in BUY menu (Poke Ball).
-- **Action:** Backing out (B x2) to return to main selection.
-- **Next:** Select SELL -> Sell Revives.
+- **Current State:** Main Menu (Cursor on BUY).
+- **Action:** Pressing Down to select SELL.
+- **Next:** Press A -> Select Revives -> Sell.
