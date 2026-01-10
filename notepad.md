@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Entering Pokemon Menu.
-- **Method:** Press A (Enter Pokemon) -> Verify Cursor (Expect Mistral/Slot 4) -> Select Fly.
-- **Notes:** Gaven's call ended. Start Menu is open. Resuming Fly sequence.
+- **Status:** Selecting Mistral (Attempt 2).
+- **Method:** Press A (with hold) to open Pokemon Sub-menu.
+- **Notes:** Previous 'A' press failed to open the sub-menu. Using `navigate_menu` with hold_ms=250 to ensure input registration. Mistral is currently highlighted.
