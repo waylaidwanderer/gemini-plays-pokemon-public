@@ -27,8 +27,7 @@
 - **Observation:** 4F Clerk sells Protein, Iron, Carbos, Calcium, HP Up. No Repels.
 - **Conclusion:** Goldenrod 2F, 3F, 4F do not stock Super Repels.
 - **Plan:**
-  1. Exit Menu (B).
-  2. Exit Dialogue (B).
-  3. Go to 5F (Stairs).
-  4. Check 5F (TM Corner) just in case.
-  5. If fail -> Fly to Celadon City (Kanto). Celadon Dept Store definitely has them.
+  1. Exit Dialogue (B).
+  2. Go to 5F (Stairs at 12, 0).
+  3. Check 5F (TM Corner).
+  4. If fail -> Fly to Celadon City (Kanto).
