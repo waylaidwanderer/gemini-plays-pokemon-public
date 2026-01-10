@@ -47,3 +47,7 @@
 - **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them.
 - **Pathing Around Obstacles:** Paths in 2D top-down games are often multiple tiles wide. Check adjacent tiles if blocked.
 - **Route 6 Navigation:** Circling East around the pond is required to reach Saffron City from Vermilion.
+## Kanto Journey Progress Tracking
+- **Primary Goal Start:** Turn 38104 (Arrived in Vermilion City)
+- **Magnet Train Restoration Start:** Turn 39082 (Found Power Plant)
+- **Magnet Train Restoration End:** Turn 39771 (First successful trip)
