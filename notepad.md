@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** In Fly Menu (at Violet, Left blocked).
-- **Action:** Navigating Cursor (Down).
-- **Next Step:** Find path to Ecruteak (likely via Azalea/Goldenrod).
+- **Status:** In Fly Menu (at Cherrygrove).
+- **Action:** Navigating Cursor (Up).
+- **Next Step:** If Violet, try Up again to Ecruteak.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32552)
