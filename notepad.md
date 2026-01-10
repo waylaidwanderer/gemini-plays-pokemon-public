@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting on Route 37.
+- **Status:** Maintenance (Route 37).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Optimization: Created 'hunt_routine_ecruteak_route37' to automate the Ecruteak->Route37 transition for future loops. Currently executing hunt check.
-- **Time:** Start ~Turn 30680. Current 30841.
-- **Next Step:** Return to Ecruteak -> Use new Loop Tool.
+- **Notes:** Repel wore off. Deleted old tool, defined 'hunt_cycle_ecruteak_rt37' for smoother looping.
+- **Time:** Start ~Turn 30680. Current 30842.
+- **Next Step:** Reapply Repel -> Resume Hunt.

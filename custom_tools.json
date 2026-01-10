@@ -161,27 +161,6 @@
       }
     ]
   },
-  "hunt_check_route37": {
-    "description": "Executes the grass checking routine on Route 37 starting from the north entrance (8,0). Walks down to grass (y=2), wiggles (Left/Right) to check for encounters, and returns north to the map transition point. Uses Super Repel logic (only Lv40 Beasts appear).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "wiggles": {
-          "type": "integer",
-          "default": 2,
-          "description": "Number of Left/Right wiggle pairs to perform."
-        }
-      }
-    },
-    "python_script": "import json\nwiggles = input_data.get('wiggles', 2)\nbuttons = [\"Down\", \"Down\"]\nfor _ in range(wiggles):\n    buttons.extend([\"Left\", \"Right\"])\nbuttons.extend([\"Up\", \"Up\", \"Up\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-09T21:53:26.630Z",
-        "action_counter": 30361
-      }
-    ]
-  },
   "apply_super_repel": {
     "description": "Automatically navigates the Start Menu to use a Super Repel from the Bag. \nAssumptions:\n1. 'Repel wore off' text is already closed.\n2. Start Menu cursor is on 'PACK'.\n3. Bag cursor is on 'SUPER REPEL'.\n4. Player is in Overworld.\nSequence: Start -> Wait -> A (Pack) -> Wait -> A (Select Repel) -> Wait -> A (Use) -> Wait -> B (Text) -> Wait -> B (Bag) -> Wait -> B (Menu).",
     "input_schema": {
@@ -204,6 +183,35 @@
         "commit_message": "Fixed output format to be a JSON array instead of an object.",
         "timestamp": "2026-01-10T03:57:21.406Z",
         "action_counter": 30801
+      }
+    ]
+  },
+  "hunt_cycle_ecruteak_rt37": {
+    "description": "Executes the full hunting loop starting from Ecruteak City (18,35). Walks down into Route 37, checks grass at (8,2), and returns to Ecruteak City to reset roamers.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, buttons are pressed automatically."
+        },
+        "wiggles": {
+          "type": "integer",
+          "default": 3,
+          "description": "Number of Left/Right wiggle pairs."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "def run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    \n    # Start from Ecruteak (18,35)\n    # Down -> Enter Route 37 (8,0)\n    # Down -> (8,1)\n    # Down -> (8,2) Grass\n    buttons = [\"Down\", \"Down\", \"Down\"]\n    \n    # Wiggle\n    for _ in range(wiggles):\n        buttons.append(\"Left\")\n        buttons.append(\"Right\")\n        \n    # Return to Ecruteak\n    # Up -> (8,1)\n    # Up -> (8,0)\n    # Up -> Enter Ecruteak (18,35)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    print(f'{{\"buttons_to_press\": {buttons}}}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T04:26:15.827Z",
+        "action_counter": 30842
       }
     ]
   }
