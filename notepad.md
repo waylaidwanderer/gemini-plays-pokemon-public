@@ -27,6 +27,6 @@
 - **Goal:** Hunt Raikou/Entei.
 - **Status:** Maintenance (Route 37).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Repel wore off. Opening Pack to reapply. Using blind menu nav (Up x7 -> Down x2) to ensure Pack selection.
-- **Time:** Start ~Turn 30680. Current 30843.
-- **Next Step:** Select Super Repel -> Use -> Return to Ecruteak -> Loop.
+- **Notes:** Repel wore off. Previous attempt to open menu failed (Start button toggled). Retrying with single press.
+- **Time:** Start ~Turn 30680. Current 30844.
+- **Next Step:** Verify Menu Open -> Navigate to Pack -> Use Repel.
