@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** Olivine City.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Opening Start Menu.
-- **Method:** Press Start -> Verify Cursor -> Fly to Ecruteak.
-- **Notes:** Successfully bought 15 Super Repels. Now positioned outside the Mart. Cursor should be on POKEMON from previous Fly usage, but will verify.
+- **Status:** Entering Pokemon Menu.
+- **Method:** Press A (Select Pokemon) -> Verify Cursor (Mistral/Slot 4) -> Select Fly.
+- **Notes:** Start Menu cursor confirmed on POKEMON. Mistral is in Slot 4.
