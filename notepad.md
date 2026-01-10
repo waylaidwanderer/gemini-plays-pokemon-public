@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Flying to Ecruteak.
-- **Method:** Fly Map: Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak) -> A.
-- **Notes:** Cursor confirmed at New Bark Town. 3 Lefts should reach Ecruteak. Engaging Fly using navigate_menu for reliability.
+- **Status:** Retrying Fly to Ecruteak.
+- **Method:** Open Start Menu -> Pokemon -> Mistral -> Fly.
+- **Notes:** Previous Fly attempt was interrupted by Gaven's call. Call appears finished. Retrying navigation.
