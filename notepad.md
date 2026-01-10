@@ -74,4 +74,5 @@
 - B1F Navigation: Exploring east from the ladder area. Currently at (8, 8).
 - Discovery: Ladder at (15, 9) on 1F leads to B1F at (17, 9).
 - 1F Navigation: Exploring northern section above the ledges. Currently at (15, 9).
-- Discovery: Ladder at (5, 3) on 1F likely leads to B1F.
+- Discovery: Ladder at (5, 3) on 1F leads to B1F at (23, 3).
+- B1F Navigation: Exploring from the northeastern ladder at (23, 3).
