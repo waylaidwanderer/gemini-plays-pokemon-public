@@ -51,3 +51,8 @@
 - **Goal:** Find and confront the Rocket Grunt.
 - **Status:** Arrived on Route 24 from Cerulean City.
 - **Plan:** Search the bridge and surrounding areas for the thief.
+## Battle Strategy: Rocket Grunt
+- Opponent: Golbat (Lv30)
+- Strategy: XENON (Haunter) uses Hypnosis -> Dream Eater.
+- Alternative: Night Shade for guaranteed 43 damage (2HKO likely).
+- Backup: Calcifer (Typhlosion) uses Thunderpunch.
