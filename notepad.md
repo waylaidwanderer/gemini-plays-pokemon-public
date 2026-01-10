@@ -34,3 +34,9 @@
 - (54, 17): Transition to Route 10 North (14, 0).
 - Goal: Find water access at eastern edge to Surf to Power Plant.
 - Note: Building door previously at (51, 19) is actually the Pokemon Center at (11, 1) on Route 10 North.
+## Strategy for Reaching Power Plant
+- Current Location: Route 10 North (7_14).
+- Obstacle: Power Plant is separated by water.
+- Solution: Use Surf at (16, 0) or nearby water tiles.
+- Path: From (14, 0), move to (15, 0), face right, and use Surf on (16, 0). Follow the water path south to the Power Plant.
+- Verification: Sign at (12, 1) confirms Pokemon Center nearby; Guide at Center mentioned Power Plant is visible outside.
