@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Maintenance (Route 37).
+- **Status:** Maintenance (Menu).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Repel wore off. Previous attempt to open menu failed (Start button toggled). Retrying with single press.
-- **Time:** Start ~Turn 30680. Current 30844.
-- **Next Step:** Verify Menu Open -> Navigate to Pack -> Use Repel.
+- **Notes:** Menu open on PACK. Entering Pack to find Super Repel.
+- **Time:** Start ~Turn 30680. Current 30845.
+- **Next Step:** Find Super Repel -> Use.
