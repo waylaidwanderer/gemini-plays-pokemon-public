@@ -36,4 +36,5 @@
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
 - **Battle:** Wild Spinarak caught. Nickname: "AAAAAAAAAA" (Accidental mash).
-- **Next:** Finish Phone Call -> Resume Hunt.
+- **Plan:** Move to Ecruteak -> Use Max Repel -> Resume Hunt.
+- **Status:** Returning to Ecruteak to reroll roamers.
