@@ -8,11 +8,12 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Status:** Repel Active (Turn 32094). 9 Left.
+- **Current Turn:** 32103.
+- **Repel Steps:** ~10/200 used.
 - **Strategy:**
-  1. Move Down to Route 37.
-  2. Walk South to (8,5).
-  3. Walk North to (8,0).
-  4. Repeat.
+  1. Execute `roamer_hunt_cycle`.
+  2. If encounter: Catch.
+  3. If no encounter: Repeat.
 
 ## Observations
 - **Mechanics:** Roamers move when map ID changes. Repel (Lvl 36 leader) filters out local spawns but allows Lvl 40 Roamers.
