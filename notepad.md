@@ -10,10 +10,11 @@
 - WATERFALL: Requires WATERFALL.
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
-- Clues: Granddaughter is missing; sailor on B1F is looking for his buddy; buddy is "goofing off".
-- Progress: Caught a sailor at (30, 6) on B1F who was worried about the Captain. However, the path north on B1F (31, 6) is still blocked by another sailor.
-- Strategy: Search all cabins on 1F to find the buddy or another trigger. The granddaughter is likely with the Captain once the path is clear.
-- Hypothesis: Catching the sailor on B1F was only part of the trigger; finding the buddy on 1F (sleeping or eating) is required.
+- Clues: Granddaughter is missing; sailor (ID 2) on B1F is looking for his buddy; buddy is "goofing off".
+- Progress: Met sailor (ID 2) on B1F. He blocks the path north and asks for his buddy.
+- Strategy: Search all cabins on 1F and the kitchen (B1F) to find the buddy.
+- Hypothesis: Finding the buddy triggers the B1F sailor to move. The granddaughter is likely with the Captain.
+- Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
