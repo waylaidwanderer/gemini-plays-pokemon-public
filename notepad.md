@@ -11,11 +11,10 @@
 
 ## Active Quest: Find Granddaughter [Started Turn 37715]
 - Clues: Granddaughter is missing; sailor (ID 2) on B1F is looking for his buddy; buddy is "goofing off".
-- Progress: Met sailor (ID 2) on B1F. Found a sailor named STANLY in a cabin on 1F (15_4) at (4, 26). He admitted to "taking a quick nap" and challenged me to a battle.
-- Strategy: Defeat Sailor Stanly. He is likely the buddy. After the battle, check if he returns to duty.
+- Strategy: Defeat Sailor Stanly (the 'lazy bum' buddy found in cabin 15_4). After the battle, he should return to duty, clearing the path on B1F.
 - Hypothesis: Defeating Sailor Stanly triggers him and the B1F sailor to move.
 - Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
-- Battle Log (Turn 38024): Calcifer (Lv 57) vs Stanly's Machop (Lv 31).
+- Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
