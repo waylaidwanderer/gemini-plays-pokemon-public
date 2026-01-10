@@ -27,10 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31589)
-- **Status:** Resupply Run - Fly Map.
-- **Action:** Navigating Fly Map (Left x3).
+- **Session Start:** Turn 30996 (Current: 31592)
+- **Status:** Resupply Run - Fly Map Navigation.
 - **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Current Cursor:** New Bark Town (Start).
-- **Intended Path:** New Bark -> Cherrygrove -> Violet -> Ecruteak.
-- **Next:** Confirm position (Ecruteak?) -> Down to Goldenrod -> Fly.
+- **Current Node:** New Bark Town.
+- **Action:** Navigating Left towards Goldenrod/Ecruteak.
+- **Strategy:** Using `hold_ms=300` to ensure cursor movement.
