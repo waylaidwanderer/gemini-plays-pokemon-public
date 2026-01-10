@@ -35,3 +35,8 @@
 - Copycat's House (Saffron 9, 11):
   - 1F (25_11): Pokefan M (ID 1) at (2, 3) mentions she mimics; Pokefan F (ID 2) at (5, 4) calls her self-centered. Clefairy Sprite (ID 3) at (6, 6).
   - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1).
+## Saffron City Strategy
+- Current: Talk to Copycat (2F).
+- Next: Locate and defeat Sabrina (Saffron Gym).
+- Then: Head north via Route 5 to Cerulean City and Route 10 (Power Plant).
+- Note: Magnet Train is inactive; Power Plant restoration is the primary gate for Kanto progression.
