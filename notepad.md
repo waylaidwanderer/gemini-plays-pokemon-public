@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Selecting Mistral (Attempt 2).
-- **Method:** Press A (with hold) to open Pokemon Sub-menu.
-- **Notes:** Previous 'A' press failed to open the sub-menu. Using `navigate_menu` with hold_ms=250 to ensure input registration. Mistral is currently highlighted.
+- **Status:** Re-initializing Fly Sequence.
+- **Method:** Start -> A (Pokemon) -> A (Mistral) -> A (Fly).
+- **Notes:** Previous attempt using `navigate_menu` likely "double-clicked" Fly, selecting current location (New Bark) immediately. Switching to `slow_press` with long delays to safely open the map without auto-selecting.
