@@ -19,6 +19,7 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Talking to Elm.
-- **Next:** Pick up Item Ball at (8,3).
+- **Status:** Moving to Item Ball at (8,3).
+- **Observation:** Elm didn't give Master Ball directly. Item Ball visible on table.
+- **Hypothesis:** Item Ball is the Master Ball.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
