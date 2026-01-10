@@ -17,10 +17,10 @@
 # Current Strategy
 ## Roamer Hunt (Raikou/Entei)
 - **Goal:** Encounter Raikou and Entei.
-- **Location:** Route 37 (Entering).
+- **Location:** Route 37 (Grass Check).
 - **Start Turn:** 32028.
-- **Current Turn:** 32047.
-- **Repel Steps:** ~50/200 used.
+- **Current Turn:** 32048.
+- **Repel Steps:** ~55/200 used.
 - **Hunting Loop:**
   1. Move Down (Enter Route 37).
   2. Call `rt37_hunt_return` (Check grass).
