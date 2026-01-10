@@ -39,9 +39,12 @@
 ## Cerulean City Exploration
 - **Start Turn:** 39337
 - **Goal:** Find the thief and the Machine Part.
-- **Status:** Just arrived. Exploring the city.
+- **Status:** Exploring the city.
 - **Key Locations:**
   - Entrance from Route 9: (39, 22)
+  - Cerulean Gym: (30, 23)
+  - Fisher: (29, 26) (Stationary?)
+- **Plan:** Talk to NPCs and check the Gym for the thief. Restoring power to the Radio Tower requires the Machine Part first.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
