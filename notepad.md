@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** In Celadon City (Turn 32502).
-- **Action:** Walking to Dept Store (4, 9).
-- **Goal:** Buy Super Repels.
+- **Status:** Inside Celadon Dept Store 1F (Turn 32503).
+- **Action:** taking Stairs to 2F.
+- **Goal:** Buy Super Repels on 2F.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
