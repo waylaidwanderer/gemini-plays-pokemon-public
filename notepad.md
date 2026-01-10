@@ -8,7 +8,7 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
-- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry.
+- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry. In Saffron Gym, these tiles are placed in the corners of rooms and lead to other rooms in the maze.
 
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!".
