@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31572)
+- **Session Start:** Turn 30996 (Current: 31573)
 - **Status:** Resupply Run - Menuing.
-- **Action:** Moving Map Cursor (Down x2).
+- **Action:** Moving Map Cursor (National Park -> Goldenrod).
 - **Goal:** Fly to Goldenrod (Guaranteed Super Repels).
-- **Note:** Using short presses (`hold_ms=15`) to avoid overshooting.
-- **Path:** Route 37 -> Route 36/35 -> Goldenrod.
+- **Note:** Cursor on National Park. `Down` x2 should reach Goldenrod.
+- **Path:** National Park -> Route 35 -> Goldenrod.
