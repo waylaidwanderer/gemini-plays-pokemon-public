@@ -6,12 +6,14 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal. Can move from a lower Y to a higher Y (jump down) but cannot move from a higher Y to a lower Y (climb up). Verified on Route 6 (Turn 38681).
-- WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5 and Route 27.
+- WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5, Route 27, and Saffron City (Turn 38701).
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant Crisis.**
+  - Started Turn: 38311
+  - Timestamp: Friday, January 9, 2026 at 11:50 PM PST
   - Purpose: Unlock Magnet Train and Snorlax path.
   - Obstacle: Sabrina's Espeon (Lv 46) is a significant power gate.
 
@@ -58,11 +60,3 @@
 - Pokefan Rex (9, 12): DEFEATED.
 - Pokefan Allan (10, 12): DEFEATED.
 - Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
-- (17, 17): Unreachable (verified by run_code).
-- Started Turn: 38311 (Power Plant Objective)
-- Timestamp: Friday, January 9, 2026 at 11:50 PM PST
-## Route to Lavender Town
-- Plan: Saffron City -> Route 8 Gatehouse (39, 22) -> Route 8 -> Lavender Town.
-- Obstacle: Wall at (38, 21) in Saffron City.
-- Detour: Move left to column 37, then down to row 22, then right to the gatehouse.
-- Status: Moving toward gatehouse.
