@@ -43,3 +43,10 @@
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
+## Route 9 Exploration
+- Goal: Find path to Cerulean City (West).
+- Observation: Blocked at X=34 in Row 8. Vertical walls at X=30, 32, 33, 35, 41, 55.
+- Hypothesis 1: Path is through Row 14 (South). Reachable via Row 13 jumps at X=48.
+- Hypothesis 2: Path is through Row 0 (North). Reachable via Surf to Row 1 at X=39/40.
+- Hypothesis 3: Path involves Surfing West from X=42 in Row 2/3.
+- Plan: Head to (44, 14) to explore the southern path first.
