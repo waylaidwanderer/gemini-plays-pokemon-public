@@ -19,10 +19,10 @@
 ## Resupply Run
 - **Goal:** Buy Super Repels in Celadon.
 - **Location:** Celadon Dept. Store (2F).
-- **Action:** Scroll to Super Repel.
-- **Status:** Scrolling Down (x5).
-- **Reasoning:** Super Repel is item #6. Currently at #1 (Potion).
-- **Hypothesis:** `navigate_menu` moves 1 slot per direction request. Testing with 5 Downs.
+- **Action:** Select 'SUPER REPEL'.
+- **Status:** Moving Cursor Up (x2).
+- **Reasoning:** 'navigate_menu' overshot to 'CANCEL'. Using manual inputs to correct.
+- **Tool Note:** `navigate_menu` presses buttons twice per request. DO NOT USE for single-step navigation.
 - **Fallback:** Saffron Mart.
 ## Lessons Learned
 - **Inventory Checks:** Always scroll through the ENTIRE list of items a clerk sells. Don't assume contents based on the first few items (e.g., Medicine clerk might also sell Repels).
