@@ -31,5 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Executing automated hunt (Cycle 51 - Grass Wiggle).
-- **Repel:** Active (Critical 0-2 steps). Expect expiry.
+- **Status:** Burning final steps for Repel expiry (Cycle 51).
+- **Repel:** Active (< 3 steps). Expect expiry NOW.
+- **Next:** Close text -> `apply_super_repel`.
