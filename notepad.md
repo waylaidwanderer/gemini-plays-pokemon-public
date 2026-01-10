@@ -54,7 +54,11 @@
 - (3,C) [Mid-Right]: (15, 17) [BL] -> (1,C) (5, 15)
 - (1,C) [Bottom-Left]:
   - (1, 15) [TL] | (5, 15) [TR] -> (3,C) (15, 17)
-  - (1, 17) [BL] | (5, 17) [BR]
-  - Trainer: Psychic Franklin (3, 16)
-- Psychic Franklin:
-  - Kadabra (Lv 37): Psychic. Neutral to Ground. Low Physical Defense.
+  - (1, 17) [BL] -> (2,A) (11, 5) | (5, 17) [BR]
+  - Trainer: Psychic Franklin (Defeated)
+- (2,A) [Top-Middle]:
+  - (9, 3) [TL] | (11, 3) [TR]
+  - (9, 5) [BL] | (11, 5) [BR] -> (1,C) (1, 17)
+
+- Psychic Franklin (Defeated):
+  - Kadabra (Lv 37): Psychic. Neutral to Ground. Moves: Future Sight.
