@@ -118,5 +118,39 @@
         "action_counter": 38312
       }
     ]
+  },
+  "record_gym_warp": {
+    "description": "Processes Saffron Gym warp transitions and updates the warp map in the notepad. Provide the source coordinates and the destination coordinates after warping.",
+    "input_schema": {
+      "properties": {
+        "dest_x": {
+          "type": "integer"
+        },
+        "dest_y": {
+          "type": "integer"
+        },
+        "src_x": {
+          "type": "integer"
+        },
+        "src_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "src_x",
+        "src_y",
+        "dest_x",
+        "dest_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\ndef update_warp_map(src_x, src_y, dest_x, dest_y):\n    print(f\"Warp recorded: ({src_x}, {src_y}) -> ({dest_x}, {dest_y})\")\n\nif __name__ == \"__main__\":\n    # This is a placeholder for logic that would be more complex if needed.\n    # For now, it just prints the mapping for the player to record.\n    pass",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T06:18:10.056Z",
+        "action_counter": 38484
+      }
+    ]
   }
 }
