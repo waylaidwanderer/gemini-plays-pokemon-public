@@ -27,8 +27,7 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** Single Turn Self-Contained Loop
-  - **Start:** Route 37 (8,0).
-  - **Sequence:** `Up` (Reset in Ecruteak) -> `Down` (Return to Rt 37) -> `Down, Down` (Walk to Grass) -> `Left, Right` (Hunt) -> `Up, Up` (Return to Start).
-- **Status:** Executing Loop.
+- **Method:** `execute_roamer_hunt_loop` Tool.
+  - **Sequence:** Ecruteak (18,35) -> Rt 37 Grass -> Hunt -> Ecruteak.
+- **Status:** Tool Defined. Ready to execute next turn.
 - **Repel:** Active.
