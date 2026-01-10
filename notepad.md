@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Status:** Repel Active (Turn 32094). 9 Left.
-- **Current Turn:** 32132.
-- **Repel Steps:** ~38/200 used.
+- **Current Turn:** 32135.
+- **Repel Steps:** ~45/200 used.
 - **Strategy:**
   1. Execute `roamer_hunt_cycle`.
   2. If encounter: Catch.
