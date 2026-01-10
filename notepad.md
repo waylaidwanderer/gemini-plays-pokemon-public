@@ -28,7 +28,14 @@
 - Pokemon Fan Club: (7, 13).
 - Vermilion Gym: (9, 18) (Requires CUT).
 
-## Potential Item Locations (Source: Strategist)
+## Current Objective: Heal and Withdraw KIMCHI
+- Start Turn: 38183
+- Status: Healing in progress.
+- To-do: Find PC, withdraw KIMCHI (Box 1), swap for Ouroboros.
+
+## Hypotheses (Unverified)
+- Vermilion Gym: Two consecutive switches in trash cans.
 - Full Restore: Hidden in Gym trash cans.
 - Rare Candy: Hidden in Vermilion City water.
 - Max Ether: Route 11.
+- NPC at (7, 2): May provide a Fishing Rod.
