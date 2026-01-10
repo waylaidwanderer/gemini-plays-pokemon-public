@@ -26,8 +26,8 @@
 
 ## Current Objective: Withdraw KIMCHI
 - Start Turn: 38183 (Friday, Jan 9, 2026, 7:40 PM)
-- Status: Healing complete. Moving to PC at (9, 1).
-- To-do: Access PC, deposit Ouroboros, withdraw KIMCHI (Box 1).
+- Status: Swapping KIMCHI for Ouroboros in party.
+- To-do: Complete swap, exit PC, leave Pokecenter.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
