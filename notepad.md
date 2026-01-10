@@ -27,7 +27,7 @@
 ## Roamer Hunt Strategy
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Method:** `hunt_roamers_safe` (Tool).
-  - **Sequence:** Ecruteak (18,35) -> Rt 37 (8,0) -> Grass (8,2) -> Hunt -> Return.
-- **Status:** Starting Tool `hunt_roamers_safe`.
-- **Repel:** Active (Steps ~92/200).
+- **Method:** Manual Hunt Sequence.
+  - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return/Warp).
+- **Status:** Tool `hunt_roamers_safe` interrupted by map change. Resuming manually.
+- **Repel:** Active.
