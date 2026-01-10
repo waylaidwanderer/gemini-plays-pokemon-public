@@ -18,8 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Route 7.
-- **Status:** Traversing Route 7.
-- **Action:** Walking to Celadon City (West Exit).
-- **Reasoning:** Heading to Department Store for Repels.
-- **Next:** Enter Celadon City -> Department Store.
+- **Location:** Route 7 (South Side).
+- **Status:** Navigating Ledges.
+- **Action:** Crossing Gap at (9, 5) to reach North side.
+- **Reasoning:** West exit is at (0, 0)/(0, 1). Must go North.
+- **Next:** Gap -> Celadon City.
