@@ -7,6 +7,7 @@
 - TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
 - WARP_CARPET_DOWN: Step on to warp to the map below. Verified on Route 5 (Turn 38458).
 - WARP_CARPET_LEFT: Step on to warp to the map to the left. Verified in Saffron City (Turn 38388).
+- WARP_PANEL: Teleports between rooms. Verified in Saffron Gym (Turn 38484).
 
 ## Kanto Strategy
 - **Current Objective: Defeat Sabrina and Resolve Power Plant.**
@@ -27,6 +28,17 @@
   - Saffron Gym: (34, 3) (Sign at 33, 5). Sabrina is the Leader.
 - Exits: South (Route 6), West (Route 7), North (Route 5 via 18, 3).
 
+## Saffron Gym Warp Map
+- Room Grid (3x3):
+  (1,A) (2,A) (3,A)
+  (1,B) (2,B) (3,B)
+  (1,C) (2,C) (3,C)  (2,C = Entrance)
+- (2,C) [Entrance]: (11, 15) -> (3,C) (19, 17)
+- (3,C) [Mid-Right]:
+  - (15, 15) [TL] | (19, 15) [TR]
+  - (15, 17) [BL] | (19, 17) [BR] -> (2,C) (11, 15)
+  - Trainer: Medium Rebecca (17, 16)
+
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
 2. SELKIE (SEEL) Lv24
@@ -35,15 +47,3 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
-## Saffron Gym Exploration (Turn 38480)
-- Layout: A series of rooms connected by warp panels.
-- Tile Mechanics:
-  - WARP_PANEL: Steps on to teleport to another panel within the gym.
-- Strategy: Speak with the Gym Guide for advice, then begin testing warp panels to map the path to Sabrina.
-- Goal: Create a warp panel map in the notepad.
-## Saffron Gym Warp Map
-- Room 1: Entrance
-  - Panel (11, 15) -> ???
-  - Panel (5, 15) -> ???
-  - Panel (5, 17) -> ???
-  - Panel (5, 11) -> ???
