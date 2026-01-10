@@ -66,3 +66,6 @@
 ## Rock Tunnel 1F Notes
 - (11, 25): Entrance from Route 10 South.
 - Strategy: Use Flash (KIMCHI) to navigate. Head for northern exit to reach Power Plant area.
+## Rock Tunnel 1F Progress
+- (10, 15): TM47 Steel Wing found.
+- Navigation: (11, 14) and surrounding tiles are FLOOR_UP_WALL, blocking passage north from the entrance corridor. Must find alternate route.
