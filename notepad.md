@@ -40,3 +40,5 @@
 ## Vermilion Gym Observations
 - Gym Guide (Turn 38231): "The traps aren't active right now."
 - Strategy: Confirm if the trash can puzzle is bypassed by walking to Lt. Surge after defeating trainers.
+- [Turn 38248] Defeated Gentleman Gregory (8, 8). GNEISS is Lv51. KIMCHI learned MOONLIGHT.
+- Checking trash cans to verify Gym Guide's claim about inactive traps.
