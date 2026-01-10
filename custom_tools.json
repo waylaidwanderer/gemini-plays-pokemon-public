@@ -187,7 +187,7 @@
     ]
   },
   "hunt_cycle_ecruteak_rt37": {
-    "description": "Executes the full hunting loop starting from Ecruteak City (18,35). Walks down into Route 37, checks grass at (8,2), and returns to Ecruteak City to reset roamers.",
+    "description": "Executes the full hunting loop starting from Ecruteak City (18,35). Walks down into Route 37, checks grass at (8,2), and returns to Ecruteak City to reset roamers. Returns a valid JSON array of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -206,12 +206,12 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "def run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    \n    # Start from Ecruteak (18,35)\n    # Down -> Enter Route 37 (8,0)\n    # Down -> (8,1)\n    # Down -> (8,2) Grass\n    buttons = [\"Down\", \"Down\", \"Down\"]\n    \n    # Wiggle\n    for _ in range(wiggles):\n        buttons.append(\"Left\")\n        buttons.append(\"Right\")\n        \n    # Return to Ecruteak\n    # Up -> (8,1)\n    # Up -> (8,0)\n    # Up -> Enter Ecruteak (18,35)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    print(f'{{\"buttons_to_press\": {buttons}}}')",
+    "python_script": "import json\ndef run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    \n    # Start from Ecruteak (18,35)\n    # Down -> Enter Route 37 (8,0)\n    # Down -> (8,1)\n    # Down -> (8,2) Grass\n    buttons = [\"Down\", \"Down\", \"Down\"]\n    \n    # Wiggle\n    for _ in range(wiggles):\n        buttons.append(\"Left\")\n        buttons.append(\"Right\")\n        \n    # Return to Ecruteak\n    # Up -> (8,1)\n    # Up -> (8,0)\n    # Up -> Enter Ecruteak (18,35)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T04:26:15.827Z",
-        "action_counter": 30842
+        "timestamp": "2026-01-10T04:33:25.584Z",
+        "action_counter": 30848
       }
     ]
   }
