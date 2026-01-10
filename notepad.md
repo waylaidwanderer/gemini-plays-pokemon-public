@@ -17,7 +17,7 @@
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant crisis.**
-  - Plan: Search Cerulean Gym water for Machine Part -> Return Part to Power Plant.
+  - Plan: Retrieve Machine Part from Cerulean Gym water -> Return Part to Power Plant.
 
 ## PC Storage (Box 1)
 1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
@@ -39,3 +39,4 @@
 - Statues: (2, 13), (6, 13)
 - Water Pool: Central area of the Gym.
 - Strategy: Use Itemfinder while standing on the platforms or surfing in the water.
+- Known Spots: (4, 10) is a platform. (4, 9) is water.
