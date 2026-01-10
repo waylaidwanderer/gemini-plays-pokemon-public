@@ -50,3 +50,6 @@
 - Name Rater's House: (7, 13).
 - Soul House: (13, 11).
 - Radio Tower: Northeastern part of town. 1F Receptionist (6, 6), Manager (9, 1), Officer (15, 1) blocks stairs.
+- Mr. Fuji (Soul House 4, 2): Spoken to. No immediate help for power crisis or Radio Tower.
+- House (3, 13): Unexplored.
+- Strategy: Finish exploring Lavender Town houses, then head north to Route 10.
