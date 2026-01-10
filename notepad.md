@@ -27,10 +27,9 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31631)
-- **Status:** Retrying Elevator.
+- **Session Start:** Turn 30996 (Current: 31632)
+- **Status:** Operating Elevator.
 - **Goal:** Go to 2F.
-- **Action:** Pressing A to open menu manually.
-- **Reason:** Previous attempt failed (tool sent excessive inputs, closing menu).
-- **Next:** Read cursor position -> Navigate to 2F.
-- **Lesson:** `navigate_menu` with default hold_ms is unsafe for sensitive menus.
+- **Action:** Navigating Menu: Down -> Down -> A.
+- **Technique:** Using `navigate_menu` with low `hold_ms` (20ms) to avoid overshooting.
+- **Next:** Exit Elevator -> Sell Revives -> Buy Super Repels.
