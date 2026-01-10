@@ -45,3 +45,7 @@
 - Cabins to check: (27, 8) [Checked], (23, 8) [Current], (19, 8), (15, 8) [My Room], (11, 8), (7, 8), (3, 8).
 - Note: Cabin (23, 8) (Map 15_4) has an empty trashcan at (6, 13).
 - Note: Sprites at (6, 15) and (6, 17) in 15_5 are background tiles.
+### Battle Observations (S.S. Aqua)
+- Hiker Noland: Sandslash (Lv 31), Golem (Lv 33).
+- Firebreather Lyle: Koffing (Lv 28), Flareon (Lv 31).
+- Type Effectiveness: Rock resists Normal and Fire. Ground is immune to Electric.
