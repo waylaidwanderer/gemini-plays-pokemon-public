@@ -19,10 +19,10 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Opening Pokemon Menu (Manual).
-- **Action:** Press `A`.
-- **Reason:** Previous Fly attempt failed because I selected 'New Bark Town' (current loc) instead of moving cursor.
-- **Next:** Select Mistral -> Fly -> Move Cursor to Goldenrod -> Confirm.
+- **Status:** Selecting Mistral -> Fly.
+- **Action:** Press `A` (Select Mistral) -> `A` (Select Fly).
+- **Next:** Navigate Map to Goldenrod (Left x2 -> Down/Left?).
+- **Goal:** Fly to Goldenrod City.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
 - **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
 - **Lesson:** Always mark NPCs immediately. Missing 'Mom' caused a path interruption.
