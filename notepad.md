@@ -54,3 +54,11 @@
 - Step 3: Speak with NPCs for clues about the Power Plant.
 - Note: Pokefan M at (20, 30) is moving; ignore unless he blocks the path.
 - Verified: Saffron Gate is open and traversable.
+## Saffron City Observations (Turn 38381)
+- Map layout: City seems very large (40x36).
+- Current Position: (16, 30).
+- Nearby Buildings: Huge building to the north (WALLs from x=12 to x=21, y=26 to y=29). This is likely Silph Co.
+- NPCs: Pokefan M at (19, 30).
+- Reachable Unseen: Tiles at (11, 30) and (22, 30) suggest the street continues East/West.
+- Strategy: Silph Co is blocking direct north movement. I need to go around it to find the Route 5 exit.
+- Verified: No dialogue triggered upon entering city.
