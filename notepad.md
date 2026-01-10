@@ -30,7 +30,6 @@
 - **Method:** 2-Turn Split Cycle
   - **Turn A:** Hunt in Route 37 (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
   - **Turn B (Current):** Move Down (Enter Route 37).
-- **Status:** Resuming Hunt (Turn A).
-- **Method:** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`).
-- **Repel:** Active (Applied ~30924). Steps used: ~230/200. **WILL EXPIRE.**
-- **Notes:** Phone call cleared. Resuming hunt. Expecting Repel expiration message to interrupt this batch.
+- **Status:** Executing Turn B (Enter Route 37).
+- **Repel:** Active (Applied ~30924). Est. Steps: ~150/200.
+- **Notes:** Previous batch successfully returned to Ecruteak. Reset confirmed.
