@@ -24,11 +24,11 @@
 - Diglett's Cave House: (21, 17) | Magnet Train House: (13, 13)
 - Fan Club: (7, 13) | Gym: (9, 18)
 
-## Current Objective: Access Vermilion Gym
-- Start Turn: 38212
-- Status: KIMCHI withdrawn. Standing at (13, 17) facing tree.
-- To-do: Use Cut on tree at (13, 18), enter Gym at (10, 19).
-- Note: Super Nerd at (14, 15) is pacing.
+## Strategy: Vermilion Gym Puzzle
+1. Systematic Search: Check trash cans in a grid pattern (left-to-right, top-to-bottom).
+2. Switch 1 Found: Immediately check all 4 adjacent cans (Up, Down, Left, Right).
+3. Reset Condition: If Switch 2 is not in the first adjacent can checked, the puzzle resets. Note the location of Switch 1 and repeat systematic search.
+4. Persistence: The switches may move after a reset.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
@@ -37,7 +37,7 @@
 4. RANGOON (KRABBY) Lv22
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
-7. KIMCHI (GLOOM) Lv34 (FLASH, ACID, CUT, SLEEP POWDER)
+7. Ouroboros (DRATINI) Lv15 (WRAP, THUNDER WAVE, TWISTER, EXTREMESPEED)
 
 ## Hypotheses (Unverified)
 - Vermilion Gym: Two consecutive switches in trash cans.
