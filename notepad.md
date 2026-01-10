@@ -65,3 +65,4 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+- Gym Leader Sabrina: (9, 8) in (2,B). Battle started.
