@@ -23,10 +23,10 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Ecruteak City (18, 35).
+- **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Transitioning to Route 37.
+- **Status:** Repel Expired.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Loop complete. Roamers reset. Repel active (~70 steps used). Returning to Route 37.
-- **Time:** Start ~Turn 30680. Current 30746.
-- **Next Step:** Move South to Route 37 -> Execute Hunt.
+- **Notes:** Repel wore off upon entering Route 37. Need to re-apply immediately to filter low-level encounters.
+- **Time:** Start ~Turn 30680. Current 30747.
+- **Next Step:** Close Text -> Open Pack -> Apply Super Repel -> Hunt.
