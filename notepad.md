@@ -60,3 +60,12 @@
 - Started Turn: 38868
 - Goal: Reach Power Plant.
 - Trainer: Pokefan Robert (8, 12).
+## Route 10 South Navigation Log
+- Turn 38886: Attempted to navigate to (14, 0). Tool returned empty buttons.
+- Observation: (16, 6) is surrounded by FLOOR on three sides and LEDGE_HOP_DOWN above.
+- Constraint: find_path_v3_fixed treats unseen tiles as impassable. Many tiles between (16, 6) and (14, 0) are unseen.
+- Hypothesis: I need to manually explore north to reveal tiles so the tool can find a path.
+- Plan:
+  1. Move Up to (16, 5) (LEDGE_HOP_DOWN) to jump over the ledge.
+  2. Explore the area north of the ledge.
+  3. Re-run pathfinding once more tiles are seen.
