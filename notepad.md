@@ -9,9 +9,9 @@
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Transit - Celadon Dept Store 2F (Turn 32519).
-- **Action:** Walking to Stairs (15, 0).
-- **Next Step:** Exit Store -> Route 7 -> Saffron -> Train.
+- **Status:** Leaving Celadon Dept Store 1F (Turn 32521).
+- **Action:** Navigate to Exit (7, 7).
+- **Next Step:** Walk Route 7 -> Saffron -> Train -> Fly Ecruteak.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32499)
