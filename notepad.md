@@ -38,7 +38,7 @@
   - (3, 3) <-> 1F (27, 13).
   - (17, 9) <-> 1F (15, 9).
   - (23, 3) <-> 1F (5, 3).
-  - Turn 38975: Exploring southwestern sections. Current pos (16, 18). Encountered Onix (Lv16) at (16, 18).
-- Observed Pokemon:
-  - 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
-  - B1F: Geodude (Lv14), Onix (Lv16).
+  - Turn 38977: Navigating Rock Tunnel B1F. Current pos (16, 18).
+- Observed Pokemon (Kanto):
+  - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
+  - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16).
