@@ -18,8 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon City Entrance.
-- **Status:** Arriving in City.
-- **Action:** Entering Celadon City.
-- **Reasoning:** Dept. Store is in the city.
-- **Next:** Find Dept. Store.
+- **Location:** Celadon City.
+- **Status:** Walking to Dept. Store.
+- **Action:** Navigate to (4, 9).
+- **Reasoning:** Buy Repels to hunt beasts.
+- **Next:** Buy Repels -> Fly to Ecruteak/Route 37.
