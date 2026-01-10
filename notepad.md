@@ -32,12 +32,9 @@
 
 ## Saffron Gym Challenge
 - **Start Turn:** 39791
+- **Status:** Marsh Badge obtained (Turn 39878).
 - **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
-- **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
-
-### Saffron Gym Battle Strategy
-- **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
-- **Tactics:** Exploiting low Physical Defense is key. Alakazam is extremely fast and has high Special Attack.
+- **Shortest Warp Path (Exit):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
