@@ -21,9 +21,10 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31672
-- **Status:** Setting Sell Quantity.
-- **Goal:** Sell 5 Revives.
-- **Current State:** "How many?" (x01).
-- **Action:** Pressing Up x4 (to reach 5) -> A (Confirm).
-- **Next:** Exit Menu -> Buy Super Repels.
+- **Session Start:** Turn 31673
+- **Status:** Resupply Run (Correction).
+- **Goal:** Buy Super Repels.
+- **Outcome:** Sold 7 Revives (All) due to tool overshoot. Earned ¥5250. Total: ¥6772.
+- **Current State:** Accidentally selected Lemonade.
+- **Action:** Backing out (B x2) to exit Sell Menu.
+- **Next:** Check Top Clerk for Super Repels (Bottom Clerk only has standard Repel).
