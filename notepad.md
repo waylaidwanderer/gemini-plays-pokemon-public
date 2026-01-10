@@ -24,6 +24,9 @@
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 3F.
 - **Status:** Checking Left Clerk Inventory.
-- **Action:** Pressing A to open BUY menu.
-- **Hypothesis:** This clerk sells Battle Items (X Items). Checking if Repels are included.
-- **Financials:** ¥6772.
+- **Current State:** BUY Menu (Scrolling).
+- **Action:** Scrolling down to check full inventory.
+- **Inventory Seen:** X Speed, X Special, X Defend, X Attack.
+- **Plan:**
+  1. If Super Repel found -> Buy 10.
+  2. If not -> Exit -> Check Right Clerk (3F).
