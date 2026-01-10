@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Untested hypothesis. Appears impassable from North.
+- FLOOR_UP_WALL: Impassable Wall from the North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
@@ -27,12 +27,10 @@
 - ICARUS (PIDGEOTTO): Lv19 | FLY
 
 ## TMs & HMs Obtained
-- HM01 CUT, HM02 FLY, HM03 SURF, HM04 STRENGTH, HM05 FLASH, HM06 WHIRLPOOL, HM07 WATERFALL
-- TM07 ZAP CANNON, TM24, TM28, TM33, TM37, TM44, TM47
+- HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
-- **Walk to Vermilion Phase Start:** 39722
 - **Plan:**
   1. Travel to Vermilion City (Walking via Route 6).
   2. Search Vermilion City for the lost Poké Doll.
