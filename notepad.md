@@ -35,7 +35,7 @@
 - **Officer (4, 14):** Confirmed a thief broke in; latest report points to Cerulean City.
 - **Gym Guide (6, 11):** Info on Magnet Train power.
 - **Gym Guide (2, 9):** Info on stolen part.
-- **Gym Guide (5, 5):** Wants DUGTRIO for MAGNETON.
+- **Gym Guide (5, 5):** Offered to trade MAGNETON for DUGTRIO. (Declined).
 - **Officer (9, 3):** Guarding the generator room.
 - **Manager (14, 10):** Furious about the stolen generator part; needs the Machine Part returned.
 - **Next Step:** Head to Cerulean City to find the thief.
