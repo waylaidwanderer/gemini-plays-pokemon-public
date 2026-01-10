@@ -19,7 +19,7 @@
 - 1. SPINARAK (Lv13), 2. SCYTHER (Lv14), 3. SELKIE (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
 
 ## Movesets (HM Users)
-- KIMCHI (GLOOM): Lv40 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
+- KIMCHI (GLOOM): Lv41 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
 - GNEISS (GRAVELER): Lv53 | EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
 - LAPIS (POLIWAG): Lv12 | WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
 - ICARUS (PIDGEOTTO): Lv19 | FLY, SAND-ATTACK, GUST, QUICK ATTACK
@@ -32,11 +32,17 @@
 - **Goal:** Defeat Sabrina.
 - **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
 - **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
+- **Time Tracking:** Saffron Gym Challenge Start: Turn 39791.
+
+### Tile Mechanics (Saffron Gym)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_PANEL: Immediate teleportation. Linked in a maze-like fashion. Located in room corners.
 
 ### Saffron Gym Battle Strategy
 - **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
-- **Current Status:** Calcifer (Lv58) at 5 HP. Swapping to GNEISS (Lv53) to finish Mr. Mime.
-- **Tactics:** Use GNEISS's Earthquake to bypass high Special Defense. Use Calcifer's Return if healthy.
+- **Current Status:** GNEISS (Lv53) active vs Alakazam (Lv48). Calcifer (Lv58) at 5 HP.
+- **Tactics:** GNEISS uses Earthquake to exploit Alakazam's low Physical Defense.
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
