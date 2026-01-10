@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31595)
+- **Session Start:** Turn 30996 (Current: 31597)
 - **Status:** Resupply Run - Fly Map.
 - **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Action:** Navigating Fly Map (Left x2).
-- **Note:** Cursor stuck on New Bark Town. Using heavy `hold_ms` to force movement.
+- **Action:** Navigating Fly Map (Left x3 with hold_ms=150).
+- **Note:** Cursor was sticky on New Bark. Retrying with cleaner inputs.
