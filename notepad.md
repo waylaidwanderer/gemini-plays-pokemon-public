@@ -63,6 +63,8 @@
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
 ## Route 6 Notes
-- Pokefan M (9, 12): Facing Right.
+- Pokefan Rex (9, 12): DEFEATED.
 - Pokefan M (10, 12): Facing Left.
-- Strategy: Battle both for EXP before heading to Saffron/Cerulean.
+- Pokefan M (17, 4): Near Underground Path.
+- Strategy: Battle all for EXP before heading to Saffron/Cerulean.
+- Exploration: Use Surf on the water on the left side of the map to reach unseen tiles.
