@@ -19,9 +19,9 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Scrolling PC Item Storage (Page 6).
+- **Status:** Scrolling PC Item Storage (Page 7).
 - **Action:** Scroll Down x4.
-- **Items Seen:** Pink Bow, Ylw Apricorn, Hyper Potion, Nugget.
+- **Items Seen:** Up-Grade, Metal Coat, Przcureberry, Carbos.
 - **Hypothesis:** Master Ball is further down or not in PC.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
 - **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
