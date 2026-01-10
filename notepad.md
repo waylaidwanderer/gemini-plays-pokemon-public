@@ -53,3 +53,7 @@
 - Lower Deck (Map 15_7): Met another Sailor at (31, 6). Talking to him.
 - Pathfinding: Can cross walls at y=4 or y=5.
 - Target: Super Nerd at (26, 9) is in the next corridor west.
+- Lower Deck Sailor Buddy Quest: The Sailor at (31, 6) on 15_7 is looking for his buddy who is "goofing off".
+- Hypothesis: The missing granddaughter is likely "bugging" this missing sailor.
+- Strategy: Find the missing sailor on the lower deck to find the granddaughter.
+- Navigation Plan: Move North to y=5, then West past the wall at x=29, then South to explore the western corridors. Target: Super Nerd at (26, 9).
