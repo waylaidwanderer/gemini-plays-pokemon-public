@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Handling Phone Call (Gaven).
-- **Method:** Clear Text.
-- **Notes:** Interrupted by Gaven immediately after input. Clearing call.
-- **Time:** Start ~Turn 30680. Current 30914.
+- **Status:** Clearing Phone Call (Gaven).
+- **Method:** Mash B.
+- **Notes:** Gaven is talking about catching a MAGMAR or something. Clearing text.
+- **Time:** Start ~Turn 30680. Current 30915.
 - **Next Step:** Resume Move Down to Route 37.
