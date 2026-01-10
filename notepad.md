@@ -11,6 +11,8 @@
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
 - BOOKSHELF: Impassable Wall.
+- WINDOW: Impassable Wall.
+- TV: Impassable Wall.
 
 ## Battle Mechanics (Verified)
 - Hypnosis (Gen 2): Misses are reported as "It didn't affect Enemy [Pokemon]!". This does not imply type immunity.
@@ -29,15 +31,11 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration (Turn 39763)
-- **Status:** Obtained the PASS from Copycat after returning her POKé DOLL. Power is already restored to the Power Plant.
-- **Next Step:** Head to the Magnet Train Station in Saffron City (8, 3) to test the service.
-
-## Strategy for Magnet Train Restoration (Turn 39763)
-- **Goal:** Use the Magnet Train.
-- **Location:** Magnet Train Station is at (8, 3) in Saffron City.
-- **Current Status:** Standing on 1F of Copycat's house after descending from 2F.
-- **Next Step:** Exit Copycat's house via (2, 7) and navigate to (8, 3) in Saffron City.
+## Magnet Train Restoration (Turn 39765)
+- **Status:** Obtained the PASS from Copycat. Power is restored.
+- **Goal:** Test the Magnet Train service at the Saffron Station (8, 3).
+- **Current Status:** Standing outside Copycat's house in Saffron City.
+- **Next Step:** Navigate to (8, 3) and enter the station.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
@@ -48,26 +46,6 @@
 - **Takeoff:** Move to a neutral tile (not a door mat) before using FLY.
 - **Interactions:** Always ensure facing the target tile.
 - **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
-- **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them. Avoid multi-step `press_buttons` without verification.
-## Strategy for Magnet Train Restoration (Turn 39761)
-- **Goal:** Return Poké Doll to Copycat to get Rail Pass.
-- **Location:** Copycat is at (4, 3) on 2F of her house (9, 11) in Saffron.
-- **Current Status:** Standing in front of Copycat at (4, 2) facing Down.
-- **Next Step:** Press A to talk to her and return the Poké Doll.
-
-## Tile Mechanics (Update)
-- WINDOW: Impassable Wall.
-- TV: Impassable Wall.
-- STAIRCASE: Warp tile that transitions between floors. Verified on 1F (2, 0).
-
-## Lessons Learned (Update)
-- **Pathing Around Obstacles:** When pathfinding, if a tool suggests a blocked path, manually check adjacent tiles. Paths in 2D top-down games are often multiple tiles wide.
-- **Route 6 Navigation:** The direct path North on Route 6 is blocked by a pond; one must circle around to the East to find the land bridge.
-
-## Reflection (Turn 39755)
-1. **Immediate Execution:** No deferred tasks identified.
-2. **Notepad Hygiene:** Notepad is organized. Added current strategy and updated lessons.
-3. **Map Hygiene:** Saffron City markers are mostly in place. South Gate warps (16, 33) and (17, 33) are marked.
-4. **Automation Strategy:** Custom tools `find_path_v3_fixed` and `navigate` are working well. No new tools/agents needed this turn.
-5. **Goal Clarity:** Goals are concrete outcomes. Method is in the Notepad.
-6. **Error Analysis:** Distilled the Route 6 pond navigation into a lesson. Verified that the South Gate is the correct entrance to Saffron City.
+- **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them.
+- **Pathing Around Obstacles:** Paths in 2D top-down games are often multiple tiles wide. Check adjacent tiles if blocked.
+- **Route 6 Navigation:** Circling East around the pond is required to reach Saffron City from Vermilion.
