@@ -7,22 +7,21 @@
 - LEDGE: Semi-traversable (jump down from above).
 - TALL_GRASS / LONG_GRASS: Traversable, chance of wild encounters.
 - WATER: Requires Surf to traverse.
-### Tile Mechanics: VermilionGym
+### Tile Mechanics: Route 6 / Saffron Gate
 - FLOOR: Traversable.
 - WALL: Impassable.
-- Trash Can: Impassable.
-- Statue: Impassable.
+- TALL_GRASS: Encounter chance.
+- LEDGE_HOP_DOWN: One-way jump.
 
 ## Kanto Strategy
 - [Turn 38104] Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City Gym). [Turn 38311] Defeated.
-- Strategy: Lead with GNEISS (Graveler Lv 52). Ground immunity protects against Electric moves.
 - **Current Objective: Resolve Power Plant crisis.**
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
   - Plan: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle: Route 6 gatehouse at (6, 1) is likely closed or leads to Saffron (blocked).
-  - Detour: Underground Path entrance at (17, 3) (near sign at 19, 5).
+  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Officer mentions Power Plant issues. Status: Testing if passage is actually blocked.
+  - Obstacle 2: Building at (17, 3) blocked by Pokefan M. Likely the Underground Path detour.
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
@@ -45,6 +44,5 @@
 - Fishing Rod: NPC at Pokecenter (7, 2).
 
 ## Vermilion Gym Observations
-- Gym Guide (Turn 38231): "The traps aren't active right now."
 - [Turn 38311] Victory! Thunder Badge obtained.
-- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
+- Observation: Traps were inactive, confirming Gym Guide's claim.
