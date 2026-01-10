@@ -63,3 +63,6 @@
 - Goal: Reach Power Plant.
 - Pokefan Robert (8, 12): DEFEATED. (Quagsire Lv 33).
 - Hiker Jim (17, 3): DEFEATED. (Machamp Lv 35).
+## Rock Tunnel 1F Notes
+- (11, 25): Entrance from Route 10 South.
+- Strategy: Use Flash (KIMCHI) to navigate. Head for northern exit to reach Power Plant area.
