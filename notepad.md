@@ -34,8 +34,9 @@
 ## Route 9 Exploration
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
-- **Observation:** Path is through the southern area (Rows 14/15), reachable by jumping south near X=48.
-- **Status:** Defeated Picnicker Heidi (41, 8) and Hiker Sidney (39, 15). Path west is now clear.
+- **Observation:** Path is through the northern lane (Row 11) or southern lane (Row 17) to bypass walls at x=19 and x=16.
+- **Status:** Defeated Picnicker Heidi (41, 8) and Hiker Sidney (39, 15).
+- **Current Task:** Navigate west through Row 11.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
