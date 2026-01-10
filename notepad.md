@@ -37,6 +37,11 @@
 - **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
 - **Hypothesis:** Taking the bottom-left panel in each room leads to the center. (Verified via BFS and manual testing).
 
+### Tile Mechanics (Saffron Gym)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WARP_PANEL: Immediate teleportation. Linked in a maze-like fashion. Located in room corners.
+
 ### Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
 - BR (15, 15) <-> TR (19, 3)
