@@ -185,5 +185,28 @@
         "action_counter": 30801
       }
     ]
+  },
+  "roamer_reset_transition": {
+    "description": "Performs the map transition from Route 37 to Ecruteak and back to reset Roamers. Sequence: Up (Warp), Sleep (Load), Down (Return), Sleep (Load).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print('[\"Up\", \"sleep 2500\", \"Down\", \"sleep 2500\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T06:01:57.623Z",
+        "action_counter": 30974
+      }
+    ]
   }
 }

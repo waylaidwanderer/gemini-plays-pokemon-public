@@ -30,7 +30,8 @@
 - **Method:** 2-Turn Split Cycle
   - **Turn A (Current):** Hunt in Route 37 (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
   - **Turn B:** Move Down (Enter Route 37).
-- **Status:** Resuming Hunt (Turn A).
-- **Method:** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`).
-- **Repel:** Active. Steps used: ~11/200.
-- **Notes:** Resuming from (8,1). Will end at (8,0).
+- **Status:** Resetting (Manually Entering Ecruteak).
+- **Method:** Manual Move Up.
+- **Tool Definition:** Defined `roamer_reset_transition` for future cycles.
+- **Repel:** Active. Steps used: ~12/200.
+- **Notes:** Completed hunt loop. At (8,0). Moving Up to reset.
