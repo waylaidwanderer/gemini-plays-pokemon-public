@@ -18,5 +18,5 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Initiating Fly to Saffron.
+- **Status:** Handling phone call from Gaven.
 - **Resources:** Low money (¥1772). Check Elm for Master Ball.
