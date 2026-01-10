@@ -7,9 +7,9 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Repel wore off (Turn 32399). Reapplying last one.
+- **Status:** Repel Active (Turn 32402). 0 Left.
 - **Repel Steps:** 0/200 used.
-- **Next Step:** Buy more Repels (Ecruteak Mart?).
+- **Next Step:** Go to Ecruteak Mart. Sell Max Elixer for funds. Buy Super Repels.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
