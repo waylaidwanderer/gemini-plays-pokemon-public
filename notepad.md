@@ -18,3 +18,4 @@
 ## Lessons Learned
 - S.S. Aqua sailors swap positions to block corridors; use `stun_npc`.
 - Super Nerd (26, 9) blocks the x=26 corridor.
+- Verify object positions in Game State Information before pathing.
