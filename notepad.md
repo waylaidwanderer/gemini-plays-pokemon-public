@@ -36,7 +36,7 @@
 - **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
 - **Hypothesis:** Taking the bottom-left panel in each room leads to the center.
 - **Test Result:** Path verified via BFS and manual testing.
-- **Attempt History:** 9 failed menu swaps. Successfully swapped lead to Calcifer (Lv58) on Turn 39827.
+- **Attempt History:** 10 failed menu swaps. Swapping lead to Calcifer (Lv58) via custom tool.
 - **Warp Panel Mechanic:** Verified that stepping on a WARP_PANEL tile (like 1, 5) teleports the player immediately to the linked destination.
 
 ## Saffron Gym Warp Solution (Full Table)
