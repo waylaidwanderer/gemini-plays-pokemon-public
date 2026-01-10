@@ -7,11 +7,11 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Purchasing Super Repels (Goldenrod 2F).
-- **Status:** Interacting with Clerk 1 (Top) at (13, 5).
-- **Action:** Press A. Check Inventory.
-- **Previous Info:** Clerk 2 (Bottom) only had Standard Repels.
-- **Plan:** Check Clerk 1. If failed, check 3F/4F/5F.
+- **Current Task:** Purchasing Super Repels.
+- **Status:** 2F checked (Clerk 1 & 2). No Super Repels.
+- **Action:** Going to 3F.
+- **Goal:** Find Super Repels on higher floors.
+- **Backup:** If not in Goldenrod, take Magnet Train to Celadon (Confirmed sold there).
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
