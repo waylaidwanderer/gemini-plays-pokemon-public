@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31612)
-- **Status:** Interrupted by Phone Call (Gaven).
+- **Session Start:** Turn 30996 (Current: 31613)
+- **Status:** Phone Call (Gaven).
 - **Goal:** Finish call -> Enter National Park.
-- **Action:** mashing B to clear dialogue.
-- **Context:** Cooltrainer Gaven is calling. Likely a rematch offer or chatter.
-- **Previous:** Just stepped into National Park Gate area.
+- **Action:** Mashing B to clear dialogue loop.
+- **Context:** Gaven asking about Pokemon health.
+- **Previous:** Interrupted while entering National Park.
