@@ -206,12 +206,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    buttons = []\n    \n    # Step 1: Ecruteak (18,35) -> Route 37 (8,0)\n    buttons.append(\"Down\")\n    \n    # Step 2: Wait for map transition (1.5s should be safe)\n    buttons.append(\"sleep 1500\")\n    \n    # Step 3: Walk into grass (8,0 -> 8,1 -> 8,2)\n    buttons.extend([\"Down\", \"Down\"])\n    \n    # Step 4: Wiggle in grass\n    for _ in range(wiggles):\n        buttons.extend([\"Left\", \"Right\"])\n        \n    # Step 5: Return to Ecruteak (8,2 -> 8,1 -> 8,0 -> Ecruteak)\n    buttons.extend([\"Up\", \"Up\", \"Up\"])\n    \n    print(json.dumps(buttons))",
+    "python_script": "def run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    cmd_list = []\n    \n    # To Route 37\n    cmd_list.append('\"Down\"')\n    cmd_list.append('\"sleep 2500\"') # Transition to Rt 37 (safe delay)\n    \n    # Enter Grass (8,0 -> 8,1 -> 8,2)\n    cmd_list.append('\"Down\"')\n    cmd_list.append('\"Down\"')\n    \n    # Hunt\n    for _ in range(wiggles):\n        cmd_list.append('\"Left\"')\n        cmd_list.append('\"Right\"')\n        \n    # Return to Ecruteak\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"sleep 1000\"') # Safety delay for return transition\n    \n    output = \"[\" + \", \".join(cmd_list) + \"]\"\n    print(output)",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-10T04:36:20.343Z",
         "action_counter": 30853
+      },
+      {
+        "commit_message": "Fixing JSON output to be robust manual string construction and adding sleep for map transitions.",
+        "timestamp": "2026-01-10T04:39:38.433Z",
+        "action_counter": 30857
       }
     ]
   }

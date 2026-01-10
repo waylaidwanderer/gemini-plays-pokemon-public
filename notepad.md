@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Resetting to Ecruteak.
-- **Method:** Manual Move (Up).
-- **Notes:** Confirmed inputs are eaten during transition without `sleep`. Current location Route 37 (8,0). Returning to Ecruteak to start automated tool.
-- **Time:** Start ~Turn 30680. Current 30857.
+- **Status:** Fixing Hunt Tool.
+- **Method:** Redefining `hunt_cycle_ecruteak_rt37`.
+- **Notes:** Previous tool failed JSON parsing and lacked commit message. Updating with manual string construction and `sleep` for transitions.
+- **Time:** Start ~Turn 30680. Current 30858.
 - **Next Step:** Activate `hunt_cycle_ecruteak_rt37`.
