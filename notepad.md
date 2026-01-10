@@ -35,7 +35,7 @@
 
 ### Saffron Gym Battle Strategy
 - **Sabrina's Team:** Espeon (Lv46), Mr. Mime (Lv46), Alakazam (Lv48).
-- **Current Status:** Calcifer (Lv58) at 5 HP, accuracy lowered. Swapping to GNEISS (Lv53).
+- **Current Status:** Calcifer (Lv58) at 5 HP. Swapping to GNEISS (Lv53) to finish Mr. Mime.
 - **Tactics:** Use GNEISS's Earthquake to bypass high Special Defense. Use Calcifer's Return if healthy.
 
 ## Lessons Learned
