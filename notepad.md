@@ -27,7 +27,7 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31545)
+- **Session Start:** Turn 30996 (Current: 31546)
 - **Route:** Ecruteak (18,35) <-> Route 37 (7,0)/(8,0)
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
