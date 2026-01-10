@@ -43,7 +43,6 @@
 - WALL: Standard impassable barrier.
 - FLOOR: Standard traversable surface.
 - **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
-- **Warp Panel Mechanic:** Verified that stepping on a WARP_PANEL tile (like 1, 5) teleports the player immediately to the linked destination.
 
 ## Saffron Gym Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
