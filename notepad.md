@@ -35,7 +35,7 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Cycle
   - **Step 1:** Route 37 (8,1) -> Ecruteak.
-  - **Step 2:** Ecruteak -> Route 37 (Apply Repel).
-  - **Pattern:** `Down, Down, Left, Right` (Check), `Up, Up` (Return).
-- **Status:** Resetting Roamers (Transitioning to Ecruteak).
-- **Repel:** Expired.
+  - **Step 2 (Current):** Ecruteak -> Route 37 (Apply Repel).
+  - **Pattern:** `Down` (Enter), `Menu` (Repel), `Down` (Grass), `Left/Right` (Hunt), `Up...` (Return).
+- **Status:** Moving to Route 37.
+- **Repel:** Expired. Renewing on arrival.
