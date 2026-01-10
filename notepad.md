@@ -28,6 +28,10 @@
 - **Clues:** Machine Part hidden in Cerulean Gym water.
 - **Status:** Machine Part retrieved from (3, 8) on Turn 39544.
 - **Goal:** Return the Machine Part to the Power Plant Manager.
+- **Plan:**
+  1. Exit Cerulean Gym.
+  2. Fly to Route 10 North (Pokemon Center near Power Plant).
+  3. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Cerulean Gym Search Plan
 - Strategy: Systematic search completed.
