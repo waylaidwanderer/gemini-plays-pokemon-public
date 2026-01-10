@@ -11,11 +11,10 @@
 - HOLE: Fall to floor below.
 
 ## Active Quest: Find Granddaughter
-- Started: Turn 37715.
-- Status: Investigating B1F. Sailor at (31, 6) is on duty.
-- Clue: Gentleman (2, 17) on 1F says she's energetic and bugging someone.
-- Clue: Sailor on B1F was looking for his "lazy bum" buddy who was goofing off.
-- Strategy: Explore western corridors of B1F to find the missing sailor and the granddaughter.
+- Status: Investigating B1F. Sailor (ID 1) is at (30, 6), blocking the main corridor.
+- Strategy: Bypass sailor via (31, 7) -> (31, 6) -> (31, 5).
+- Goal: Explore western side of B1F to find the missing girl.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. B1F Sailor buddy quest mentioned a "lazy bum" buddy.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
@@ -25,4 +24,4 @@
 - XENON (Haunter) is immune to Normal moves.
 - NPCs may block corridors until specific events/dialogue.
 - Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
-- Map transitions reset NPC positions.
+- Lesson: Verify object positions in Game State Information before pathing.
