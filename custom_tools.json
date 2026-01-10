@@ -143,5 +143,20 @@
         "action_counter": 39291
       }
     ]
+  },
+  "use_itemfinder_robust": {
+    "description": "Uses the Itemfinder from the overworld or within menus (by first exiting them). Assumes Itemfinder is the 7th Key Item.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\n# 1. Exit any open menus (4 B presses is safe).\n# 2. Open Start menu.\n# 3. Reset cursor to top (Pokedex) with 8 Up presses.\n# 4. Navigate to Pack (Down x2).\n# 5. Navigate to Key Items (Right x2).\n# 6. Reset Key Items cursor to top with 10 Up presses.\n# 7. Navigate to Itemfinder (Down x6).\n# 8. Use it.\nbuttons = [\"B\", \"B\", \"B\", \"B\", \"sleep 500\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"sleep 200\", \"Down\", \"Down\", \"sleep 200\", \"A\", \"sleep 1000\", \"Right\", \"Right\", \"sleep 500\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"sleep 200\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 200\", \"A\", \"sleep 500\", \"A\"]\nprint(json.dumps(buttons))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T17:21:08.355Z",
+        "action_counter": 39474
+      }
+    ]
   }
 }
