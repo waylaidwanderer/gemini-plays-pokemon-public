@@ -21,10 +21,10 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31674
+- **Session Start:** Turn 31675
 - **Status:** Resupply Run (Checking Stock).
 - **Goal:** Buy Super Repels.
-- **Current State:** Main Menu (Cursor on BUY).
-- **Action:** Pressing A to view inventory.
-- **Financials:** ¥6772 (Sold all Revives).
-- **Plan:** If Super Repel exists -> Buy 10. If not -> Exit -> Top Clerk.
+- **Current State:** BUY Menu (Scrolling).
+- **Action:** Scrolling down to check full inventory.
+- **Hypothesis:** Bottom Clerk might only have standard Repels.
+- **Next:** If Super Repel found -> Buy. Else -> Exit -> Check Top Clerk.
