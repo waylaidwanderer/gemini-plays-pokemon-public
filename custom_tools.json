@@ -88,109 +88,6 @@
       }
     ]
   },
-  "navigate_menu": {
-    "description": "Navigates menus with delays between inputs. Supports holding buttons (via repetition) and intervals. Default hold_ms is now 30ms (approx 2 frames) to prevent auto-repeat or double registration, with a 350ms interval.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "directions": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [
-              "Up",
-              "Down",
-              "Left",
-              "Right",
-              "A",
-              "B",
-              "Start",
-              "Select"
-            ]
-          }
-        },
-        "hold_ms": {
-          "type": "integer",
-          "default": 30
-        },
-        "interval_ms": {
-          "type": "integer",
-          "default": 350
-        }
-      },
-      "required": [
-        "directions"
-      ]
-    },
-    "python_script": "def navigate_menu(directions, hold_ms=30, interval_ms=350, *args, **kwargs):\n    import json\n    try:\n        sequence = []\n        # Approx 60fps => 16.6ms per frame\n        # Using integer arithmetic to avoid math import issues\n        frames = int(hold_ms / 16) + 1\n        \n        for btn in directions:\n            # Add the button repeated for the number of frames to hold\n            for _ in range(frames):\n                sequence.append(btn)\n            \n            # Add the sleep command\n            if interval_ms > 0:\n                sequence.append(f\"sleep {interval_ms}\")\n                \n        # Output as JSON string for the system to capture\n        print(json.dumps(sequence))\n        return sequence\n    except Exception as e:\n        # Fallback to empty list in case of error to prevent system crash\n        print(json.dumps([]))\n        return []",
-    "history": [
-      {
-        "commit_message": "Defined a new tool 'navigate_menu' to reliably navigate menus by holding buttons for a specific duration, addressing input registration issues in emulated menus.",
-        "timestamp": "2026-01-08T03:01:39.002Z",
-        "action_counter": 27437
-      },
-      {
-        "commit_message": "Fixed `navigate_menu` to correctly extract arguments from `input_data` and execute the logic, preventing 'Unexpected end of JSON input' errors.",
-        "timestamp": "2026-01-08T03:03:15.631Z",
-        "action_counter": 27439
-      },
-      {
-        "commit_message": "Increased default hold_ms to 250 for better reliability with Gen 2 menus.",
-        "timestamp": "2026-01-09T16:57:35.667Z",
-        "action_counter": 30011
-      },
-      {
-        "commit_message": "Fixed JSON output formatting by using json.dumps to ensure double quotes for strings.",
-        "timestamp": "2026-01-09T17:02:45.868Z",
-        "action_counter": 30020
-      },
-      {
-        "commit_message": "Fixed output format to be a JSON array of strings, not an object with a 'buttons' key, matching system requirements.",
-        "timestamp": "2026-01-09T17:03:35.692Z",
-        "action_counter": 30022
-      },
-      {
-        "commit_message": "Fixing JSON error in navigate_menu by ensuring robust output generation and simplifying logic.",
-        "timestamp": "2026-01-09T17:27:26.142Z",
-        "action_counter": 30063
-      },
-      {
-        "commit_message": "Updating navigate_menu to support 'hold_ms' by repeating button inputs, simulating a button hold for navigating granular maps like the Fly map.",
-        "timestamp": "2026-01-09T17:37:44.389Z",
-        "action_counter": 30073
-      },
-      {
-        "commit_message": "Updated default hold_ms to 50ms (approx 3 frames) to prevent overshooting in menus. Added explicit logic to calculate frames based on 60fps.",
-        "timestamp": "2026-01-10T11:55:08.297Z",
-        "action_counter": 31501
-      },
-      {
-        "commit_message": "Refined navigate_menu to avoid double inputs. Reduced default hold_ms to ensure single distinct presses and slightly increased interval_ms for safety.",
-        "timestamp": "2026-01-10T16:36:32.514Z",
-        "action_counter": 31891
-      },
-      {
-        "commit_message": "Fixed JSON output format by using json.dumps() to ensure double quotes, preventing parsing errors.",
-        "timestamp": "2026-01-10T16:43:53.835Z",
-        "action_counter": 31903
-      },
-      {
-        "commit_message": "Removed explicit 'autopress_buttons' from schema and script as it is automatically handled by the system. Fixed potential conflict causing empty output.",
-        "timestamp": "2026-01-10T16:45:33.248Z",
-        "action_counter": 31906
-      },
-      {
-        "commit_message": "Restored autopress_buttons argument to python script to prevent TypeError when called by system with autopress_buttons=True.",
-        "timestamp": "2026-01-10T16:46:35.730Z",
-        "action_counter": 31907
-      },
-      {
-        "commit_message": "Refined navigate_menu to be robust against system arguments and exceptions. Uses *args and **kwargs to ignore autopress_buttons, removes math dependency, and includes error handling to ensure valid JSON output.",
-        "timestamp": "2026-01-10T17:07:56.117Z",
-        "action_counter": 31943
-      }
-    ]
-  },
   "apply_super_repel": {
     "description": "Automatically navigates the Start Menu to use a Super Repel from the Bag. \nAssumptions:\n1. 'Repel wore off' text is already closed.\n2. Start Menu cursor is on 'PACK'.\n3. Bag cursor is on 'SUPER REPEL'.\n4. Player is in Overworld.\nSequence: Start -> Wait -> A (Pack) -> Wait -> A (Select Repel) -> Wait -> A (Use) -> Wait -> B (Text) -> Wait -> B (Bag) -> Wait -> B (Menu).",
     "input_schema": {
@@ -229,6 +126,49 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-10T07:19:08.806Z",
         "action_counter": 31088
+      }
+    ]
+  },
+  "menu_sequencer": {
+    "description": "Generates a robust sequence of button presses for menu navigation. Ensures correct timing (hold_ms) and intervals (interval_ms), returning a JSON array of inputs. Replaces navigate_menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "directions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Up",
+              "Down",
+              "Left",
+              "Right",
+              "A",
+              "B",
+              "Start",
+              "Select"
+            ]
+          }
+        },
+        "hold_ms": {
+          "type": "integer",
+          "default": 50
+        },
+        "interval_ms": {
+          "type": "integer",
+          "default": 350
+        }
+      },
+      "required": [
+        "directions"
+      ]
+    },
+    "python_script": "def menu_sequencer(directions, hold_ms=50, interval_ms=350, *args, **kwargs):\n    import json\n    import sys\n    \n    sequence = []\n    try:\n        # Frame duration is approx 16.6ms. \n        # Using 16 to be safe.\n        frames_to_hold = max(1, int(hold_ms / 16))\n        \n        for button in directions:\n            # Add the button repeated for the number of frames to hold\n            for _ in range(frames_to_hold):\n                sequence.append(button)\n            \n            # Add the sleep command\n            if interval_ms > 0:\n                sequence.append(f\"sleep {interval_ms}\")\n        \n        output = json.dumps(sequence)\n        print(output)\n        sys.stdout.flush()\n        return sequence\n        \n    except Exception as e:\n        # Fallback to empty list in case of error\n        print(json.dumps([]))\n        sys.stdout.flush()\n        return []",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T17:10:25.868Z",
+        "action_counter": 31947
       }
     ]
   }
