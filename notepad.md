@@ -30,21 +30,19 @@
 ## Magnet Train (Restored Turn 39771)
 - PASS obtained from Copycat. Power restored to Kanto. Service active between Saffron and Goldenrod.
 
-## Saffron Gym Challenge (Started Turn 39791)
+## Saffron Gym Challenge
+- **Start Turn:** 39791
 - **Goal:** Defeat Sabrina.
 - **Shortest Warp Path:** (11, 15) [BC] -> (15, 15) [BR] -> (15, 5) [TR] -> (1, 5) [TL] -> (11, 9) [MC - Sabrina].
 - **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
-- **Hypothesis:** Taking the bottom-left panel in each room leads to the center.
-- **Test Result:** Path verified via BFS and manual testing.
-- **Time Tracking:** Saffron Gym Challenge Start: Turn 39791.
+- **Hypothesis:** Taking the bottom-left panel in each room leads to the center. (Verified via BFS and manual testing).
 
-## Tile Mechanics (Gym Specific)
+### Tile Mechanics (Gym Specific)
 - WARP_PANEL: Immediate teleportation upon entry.
 - WALL: Standard impassable barrier.
 - FLOOR: Standard traversable surface.
-- **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
 
-## Saffron Gym Warp Solution (Full Table)
+### Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
 - BR (15, 15) <-> TR (19, 3)
 - BR (15, 17) <-> BL (5, 15)
@@ -60,3 +58,4 @@
 ## Lessons Learned
 - **Menu Sequence:** Use "Start, Up (x6), Down" to reliably reach POKEMON from overworld.
 - **Warp Maze:** BFS on Map Events data is optimal for finding paths through warp tiles.
+- **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
