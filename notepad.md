@@ -20,10 +20,9 @@
 - LADDER: Traversable.
 
 ### S.S. Aqua Discoveries
-- My cabin is at (15, 8) on map 15_3. Nap in the bed to heal Pokemon.
-- Explore all cabins to find the missing girl.
 - Fisher at (1, 15) in FastShipCabins_SW_SSW_NW is a trainer (Firebreather Lyle).
 - Porthole tiles (e.g., 0, 12 on 15_5) are decorative walls, not doors.
+- Sailor at (24, 17) on 1F: "The passengers are all trainers... itching to battle in their cabins."
 
 ### Lessons Learned
 - Gengar (Ghost): Immune to Normal moves (Return).
@@ -34,21 +33,14 @@
 
 ## Post-Game Strategy
 - Start Turn: 37664 (Return to New Bark Town).
-- Objective: Travel to Olivine City to board the S.S. Aqua to Kanto.
-- Objective: Collect the 8 Kanto Badges.
-- Strategy: Use Fly to Olivine, enter the Port Passage south of the city, and follow the path to the S.S. Aqua.
+- Strategy: Use Fly to Olivine, board S.S. Aqua.
+- Kanto Gym 1: Lt. Surge (Vermilion City). Electric-type (Lv 44-46). MVP: GNEISS (Lv 51).
 
-## Kanto Gym Leaders
-- Lt. Surge (Vermilion City): Electric-type (Lv 44-46). MVP: GNEISS (Lv 51).
-- Brock (Pewter City): Rock-type. Recommended level: 40-45.
-- Misty (Cerulean City): Water-type. Recommended level: 42-47.
-- Erika (Celadon City): Grass-type. Recommended level: 46-51.
-- Janine (Fuchsia City): Poison-type. Recommended level: 48-53.
-- Sabrina (Saffron City): Psychic-type. Recommended level: 50-55.
-- Blaine (Cinnabar Island): Fire-type. Recommended level: 52-57.
-- Blue (Viridian City): Multi-type. Recommended level: 55-60.
+## Kanto Gym Leaders (Projected Levels)
+- Brock: 40-45 | Misty: 42-47 | Lt. Surge: 44-49 | Erika: 46-51 | Janine: 48-53 | Sabrina: 50-55 | Blaine: 52-57 | Blue: 55-60.
 
 ## Active Quests
 - Find the Gentleman's missing granddaughter. Started Turn: 37715.
-- Current Lead: Explore all cabins on 1F (Map 15_3). Check sailor at (24, 17) on 1F.
+- Strategy: Check all cabins on 1F (Map 15_3).
+- Cabins to check: (27, 8), (23, 8), (19, 8).
 - Note: Sprites at (6, 15) and (6, 17) in 15_5 are background tiles.
