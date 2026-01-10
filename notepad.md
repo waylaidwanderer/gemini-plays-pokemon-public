@@ -5,7 +5,7 @@
 - WATER: Traversable with Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE: Semi-traversable (jump down from above).
+- LEDGE_HOP_DOWN: One-way traversal. Can move from a lower Y to a higher Y (jump down) but cannot move from a higher Y to a lower Y (climb up). Verified on Route 6 (Turn 38681).
 - WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5 and Route 27.
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
 
@@ -22,8 +22,7 @@
 - Saffron Gym: (34, 3). Leader: Sabrina.
 
 ## Saffron Gym Progress
-- Puzzle Started Turn: 38480
-- Room Grid (3x3): (1,A) (2,A) (3,A) | (1,B) (2,B) (3,B) | (1,C) (2,C) (3,C)
+- Puzzle Room Grid (3x3): (1,A) (2,A) (3,A) | (1,B) (2,B) (3,B) | (1,C) (2,C) (3,C)
 - Rows: A (0-5), B (7-11), C (13-17) | Cols: 1 (0-5), 2 (7-12), 3 (14-19)
 - Warp Connections Found:
   1. (2,C) Entrance (11,15) <-> (3,C) (19,17)
@@ -42,12 +41,6 @@
   14. (2,A) (9, 5) <-> (1,B) (5, 9)
   15. (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina]
 
-- Battle Log:
-  - Medium Rebecca (Defeated): (17, 16) in (3,C).
-  - Psychic Franklin (Defeated): (3, 16) in (1,C).
-  - Medium Doris (Defeated): (3, 4) in (1,A).
-  - Psychic Jared (Defeated): (17, 4) in (3,A).
-
 ## Battle History: vs Sabrina
 - Attempt 1 (Turn 38625): FAILED (White out). Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
 - Analysis: Type disadvantage (Graveler, Haunter, Gloom) and speed gap (Typhlosion) were critical. Need Dark/Bug moves or higher levels for GNEISS/Calcifer.
@@ -64,6 +57,7 @@
 ## Route 6 Notes
 - Pokefan Rex (9, 12): DEFEATED.
 - Pokefan Allan (10, 12): DEFEATED.
-- Pokefan M (17, 4): Near Underground Path. Info: Underground Path is closed until Power Plant is fixed.
+- Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
+- (17, 17): Unreachable (verified by run_code).
 - Started Turn: 38311 (Power Plant Objective)
 - Timestamp: Friday, January 9, 2026 at 11:50 PM PST
