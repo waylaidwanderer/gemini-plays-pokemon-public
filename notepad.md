@@ -39,3 +39,7 @@
 - **Officer (9, 3):** Guarding the generator room.
 - **Manager (14, 10):** Furious about the stolen generator part; needs the Machine Part returned.
 - **Next Step:** Head to Cerulean City to find the thief.
+
+## Lessons Learned
+- NPCs act as walls and must be navigated around.
+- "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
