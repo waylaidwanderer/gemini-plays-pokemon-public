@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31605)
-- **Status:** Traversing Route 36 (Resuming).
-- **Goal:** Reach Goldenrod City via Route 35 Gatehouse.
-- **Action:** Pathfinding to Gatehouse (18, 8).
-- **Note:** Escaped Ledyba battle. Resuming navigation.
+- **Session Start:** Turn 30996 (Current: 31607)
+- **Status:** Traversing Route 36 (Gatehouse Entrance).
+- **Goal:** Enter Route 35 Gatehouse.
+- **Action:** Re-triggering warp at (18, 8).
+- **Technique:** Step off (Right) and step back on (Left) to force warp event.
