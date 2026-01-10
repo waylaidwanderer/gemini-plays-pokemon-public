@@ -6,7 +6,7 @@
 - COUNTER: Face and press A to interact.
 - LEDGE: Semi-traversable (jump down).
 - WATER: Requires SURF.
-- WHIRLPOOL: Requires WHIRLPOOL.
+- WHIRLPOOL: Requires WHIRLPOOL. 
 - WATERFALL: Requires WATERFALL.
 
 ## Kanto Strategy
@@ -15,9 +15,7 @@
 - Strategy: Explore Vermilion City and find the Gym. Use Ground-type Pokemon (GNEISS) against Electric-types.
 
 ## Lessons Learned
-- S.S. Aqua sailors block corridors; they "shadow" movements if not triggered to move.
-- Super Nerd (26, 9) blocks the x=26 corridor on B1F.
-- Map transitions reset NPC positions.
-- Path to western 1F is likely via B1F (East 1F -> East B1F -> West B1F -> West 1F).
 - Completed 'Find Granddaughter' quest on turn 38066; reward: Metal Coat.
 - S.S. Aqua arrives in Vermilion City after the quest is complete.
+- To exit the ship, use the warp at (2, 19) or (3, 19) in the cabin area.
+- Fast Ship corridors can be blocked by NPCs until triggers (like catching a slacking sailor) are met.
