@@ -1,8 +1,8 @@
 # Persistence Knowledge
 ## Tile Mechanics (Global)
-- FLOOR: Traversable. Standard walking surface.
+- FLOOR: Traversable.
 - WALL: Impassable.
-- LADDER: Floor change (e.g. 1F to B1F).
+- LADDER: Floor change.
 - WARP_CARPET_DOWN: Map transition.
 - COUNTER: Face and press A to interact.
 - WATER: Requires SURF.
@@ -12,22 +12,19 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor (ID 2) is at (31, 6), blocking the eastern corridor. Path at (30, 6) is clear.
-- Strategy: Bypass sailor by moving through (30, 7) -> (30, 6) -> (30, 5).
+- Status: Investigating B1F. Sailor (ID 1) is at (30, 6), blocking the corridor.
+- Strategy: Bypass sailor at (30, 6) by moving through (31, 7) -> (31, 6) -> (31, 5).
 - Target: Explore western side via row 5. Target corridor at x=28.
-- Obstacle: Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
-- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
+- Obstacle: Super Nerd at (26, 9) blocks the x=26 corridor.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City). Recommended level 44-50.
-- MVP: GNEISS (Graveler) Lv 51. Ground-type immunity to Electric.
+- MVP: GNEISS (Graveler) Lv 51.
 
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
-- Status: Paralysis reduces speed by 75%.
 - NPCs may block corridors until specific events/dialogue.
-- NPCs update positions after a map transition.
 - Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
-- Lesson: Keep warp markers (like ladders) permanent for efficient navigation.
-- Lesson: Object-linked markers are essential for tracking NPCs that move.
+- Lesson: Verify object positions in Game State Information before pathing.
