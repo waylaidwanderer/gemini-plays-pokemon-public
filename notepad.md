@@ -2,36 +2,39 @@
 ## Tile Mechanics (Global)
 - FLOOR: Traversable. Standard walking surface.
 - WALL: Impassable.
-- LADDER: Traversable. Triggers a floor change.
-- WARP_CARPET_DOWN: Traversable. Triggers a map transition.
-- COUNTER: Impassable. Face and press A to interact.
-- WATER: Impassable. Requires SURF.
-- LEDGE: Semi-traversable. Jump down from above.
-- GRASS: Traversable. Wild encounter zone.
-- HOLE: Traversable. Fall to floor below.
+- LADDER: Floor change (e.g. 1F to B1F).
+- WARP_CARPET_DOWN: Map transition (e.g. building entrance).
+- COUNTER: Face and press A to interact.
+- WATER: Requires SURF.
+- LEDGE: Semi-traversable (jump down from above).
+- GRASS: Wild encounter zone.
+- HOLE: Fall to floor below.
 
 ## S.S. Aqua Discoveries
-- Fisher at (1, 15) on Map 15_5 is Firebreather Lyle.
+- Fisher at (1, 15) on 15_5 is Firebreather Lyle.
 - Sailor at (24, 17) on 1F: "The passengers are all trainers... itching to battle."
 - My cabin: (15, 8) on map 15_3.
 - Gentleman (2, 17) on 15_6: Looking for missing granddaughter.
-- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Was looking for "lazy" buddy.
+- Lower Deck Sailor (ID 2) at (31, 6) on 15_7: Buddy quest.
 - Found "lazy" buddy (ID 1) at (30, 6) on 15_7. He returned to his post.
 
 ## Active Quests
 - **Find the Gentleman's missing granddaughter.**
   - Status: Investigating lower deck (B1F).
-  - Strategy:
-    1. Find the "lazy" sailor at (30, 6) on B1F and talk to him. (Done)
-    2. Reset B1F by re-entering from 1F. (Done)
-    3. Talk to the sailor at (31, 6) to see if the path is clear.
-    4. Explore western corridors of B1F.
+  - Strategy: Talk to Sailor (ID 2) at (31, 6) after finding his buddy. Explore western corridors.
 - **Collect the 8 Kanto badges.**
-  - Strategy: Vermilion City Gym (Lt. Surge) first. Recommended level 44-50.
-  - MVP: GNEISS (Graveler) for Ground immunity to Electric.
+  - Strategy: Lt. Surge (Vermilion City) first. Recommended Lv 44-50.
+  - MVP: GNEISS (Graveler) for Ground immunity.
 
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
 - Status: Paralysis reduces speed by 75%.
 - NPCs may block corridors until specific dialogue/events are triggered.
-- NPCs often update positions after a map transition.
+- NPCs update positions after a map transition.
+
+### Map 15_3 Warp Log
+- (15, 15) -> 15_5 (2, 19) [Checked]
+- (19, 15) -> 15_5 (2, 31) [Checked]
+- (23, 15) -> 15_6 (2, 7) [Checked]
+- (27, 15) -> 15_6 (2, 19) [Checked]
+- (30, 14) -> 15_7 (31, 13) [Checked]
