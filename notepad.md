@@ -27,8 +27,8 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31603)
-- **Status:** Traversing Route 36.
+- **Session Start:** Turn 30996 (Current: 31605)
+- **Status:** Traversing Route 36 (Resuming).
 - **Goal:** Reach Goldenrod City via Route 35 Gatehouse.
-- **Action:** Moving West/South to the Gatehouse at (18, 8).
-- **Next:** Enter Gatehouse -> Route 35 -> Goldenrod.
+- **Action:** Pathfinding to Gatehouse (18, 8).
+- **Note:** Escaped Ledyba battle. Resuming navigation.
