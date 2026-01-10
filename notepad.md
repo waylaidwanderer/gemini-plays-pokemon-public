@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** Olivine Mart.
+- **Current Location:** Olivine City.
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Clearing Exit Dialogue.
-- **Method:** Press B (Close Text) -> Down (Trigger Warp).
-- **Notes:** "Please come again!" text triggered at the door. Clearing it to exit to Olivine City.
+- **Status:** Opening Start Menu.
+- **Method:** Press Start -> Verify Cursor -> Fly to Ecruteak.
+- **Notes:** Successfully bought 15 Super Repels. Now positioned outside the Mart. Cursor should be on POKEMON from previous Fly usage, but will verify.
