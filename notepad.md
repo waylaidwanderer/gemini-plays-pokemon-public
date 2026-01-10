@@ -32,20 +32,20 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39501
+- **Current Turn:** 39504
 - **Clues:** Machine Part stolen. Rocket Grunt revealed it is hidden in the Cerulean Gym water.
 - **Goal:** Search the center of the gym pool.
-- **Hypothesis:** Itemfinder "Nope!" at (3, 3). Moving to more central coordinates.
+- **Hypothesis:** Itemfinder "Nope!" at (3, 3). Testing (4, 7) next.
 
 ## Cerulean Gym Search Plan
 - Target Area: Center of the pool area.
 - Interaction Log:
   - (3, 3) facing Up (searching 3, 2): No result with direct A press.
   - (3, 3): Itemfinder "Nope!".
-- Next: Move to (4, 7) and use Itemfinder.
+- Next: Use Itemfinder at (4, 7).
 - Lesson: Manual menu navigation is more reliable than custom tools when menu state is complex.
 
 ## Error Analysis & Lessons
-- Turn 39485: `use_itemfinder_robust` failed due to unexpected menu state (ended up in PKMN menu).
+- Turn 39485: `use_itemfinder_robust` failed (unexpected menu state).
 - Turn 39494: Itemfinder confirmed no item at (3, 3).
-- Turn 39500: Menu fumble led to Pokedex. Recovered to overworld at (4, 5).
+- Turn 39500-39503: Menu fumbles (Pokedex, Options). Recovered to overworld at (4, 7). Attempting Itemfinder again.
