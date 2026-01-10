@@ -23,10 +23,7 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 3F.
-- **Status:** Positioning to talk to Clerk (Left).
-- **Action:** Pressing Up to face Clerk at (6, 1).
-- **Hypothesis:** 3F Left Clerk sells Battle Items (X Items). 3F Right Clerk sells TMs.
-- **Contingency:** If no Super Repels here, Goldenrod might not stock them.
-- **Next Steps:**
-  1. Check 3F Left Clerk.
-  2. If Fail -> Fly to Celadon Dept Store (Kanto) or Blackthorn City (Johto).
+- **Status:** Interacting with Left Clerk.
+- **Action:** Pressing A to speak.
+- **Hypothesis:** This clerk likely sells Battle Items (X Items). Checking if Repels are included.
+- **Financials:** ¥6772.
