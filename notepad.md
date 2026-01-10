@@ -32,9 +32,8 @@
 
 ## Magnet Train Restoration
 - **Status:** Copycat confirmed her Poké Doll was lost in Vermilion City. Promised a Rail Pass.
-- **Fly Struggle:** Attempting to Fly since Turn 39649. Multiple menu fumbles.
 - **Plan:**
-  1. Travel to Vermilion City (Attempting Fly, but will walk via Route 6 if fumbles continue).
+  1. Travel to Vermilion City (Walking via Route 6).
   2. Search Vermilion City for the lost Poké Doll.
   3. Return the doll to Copycat in Saffron City.
   4. Obtain the Rail Pass.
@@ -49,3 +48,4 @@
 - **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
 - **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
 - **Takeoff:** Do not attempt to FLY while standing on a warp tile (door mat). Move to a neutral tile first.
+- **Looping:** If a complex sequence (like Fly) fails multiple times, switch to a simpler method (like walking).
