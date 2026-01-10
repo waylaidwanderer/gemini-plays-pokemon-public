@@ -19,8 +19,8 @@
 - **Goal:** Encounter Raikou and Entei.
 - **Location:** Route 37 (Grass Check).
 - **Start Turn:** 32028.
-- **Current Turn:** 32049.
-- **Repel Steps:** ~60/200 used.
+- **Current Turn:** 32050.
+- **Repel Steps:** ~41/200 used.
 - **Hunting Loop:**
   1. Move Down (Enter Route 37).
   2. Walk South into Grass (approx 8,5).
