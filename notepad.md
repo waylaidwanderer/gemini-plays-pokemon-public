@@ -53,3 +53,8 @@
 - Firebreather Lyle: Koffing (Lv 28), Flareon (Lv 31).
 - Type Effectiveness: Rock resists Normal and Fire. Ground is immune to Electric.
 - Lesson: Always verify current map ID and position in Game State Information after movement, even if no warp animation is seen. Warps can be subtle.
+### Map 15_6 (SE/SSE Cabins & Captain's Cabin)
+- Cabin 1 (Rows 0-11): Defeated Pokefan Colin (3, 6) and Twins Meg & Peg (2, 4), (3, 4).
+- Mystery: Observed a sprite at (5, 5) in screenshot that is not in the objects list. Investigating.
+- Strategy: Explore remaining cabins on this map. Likely 3 cabins total (0-11, 12-23, 24-33). Captain's Cabin is likely at the bottom.
+- Access: Use other warps in FastShip 1F (15_3) to reach other segments of Map 15_6.
