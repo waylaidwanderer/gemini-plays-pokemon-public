@@ -27,6 +27,6 @@
 - **Goal:** Hunt Raikou/Entei.
 - **Status:** Clearing Phone Call (Gaven).
 - **Method:** Mash B.
-- **Notes:** Gaven is talking about catching a MAGMAR or something. Clearing text.
-- **Time:** Start ~Turn 30680. Current 30915.
+- **Notes:** Still clearing text. "One wrong decision...".
+- **Time:** Start ~Turn 30680. Current 30916.
 - **Next Step:** Resume Move Down to Route 37.
