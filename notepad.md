@@ -47,3 +47,8 @@
 - (11, 1): Pokemon Center.
 - Row 0: Connection to Route 9.
 - Plan: Heal at Center, then find the Power Plant (likely east/south).
+## Route 10 Pokemon Center (7_8)
+- (3, 7), (4, 7): Exit to Route 10 North (11, 1).
+- (0, 7): Ladder to 2F.
+- NPCs: Gentleman (6, 6), Cooltrainer F (1, 3).
+- Nurse: Likely at (3, 2) or (4, 2).
