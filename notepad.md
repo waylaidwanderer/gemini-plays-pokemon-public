@@ -12,7 +12,11 @@
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City Gym).
-- Strategy: Explore Vermilion City and find the Gym. Use Ground-type Pokemon (GNEISS) against Electric-types.
+- Strategy: 
+  1. Exit S.S. Aqua to Vermilion Port.
+  2. Navigate north through the port to Vermilion City.
+  3. Locate the Gym (usually requires Cut to reach).
+  4. Defeat Lt. Surge using GNEISS (Graveler) for Ground immunity.
 
 ## Lessons Learned
 - Completed 'Find Granddaughter' quest on turn 38066; reward: Metal Coat.
