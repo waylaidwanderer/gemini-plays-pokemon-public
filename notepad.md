@@ -92,3 +92,8 @@
 - Confirmed Route 7 exit at (0, 24) and (0, 25).
 - Alley continues north.
 - Strategy: Moving north to (2, 22) to uncover more tiles.
+## Saffron City Exploration Log (Turn 38389)
+- Currently at (2, 22).
+- Alleyway continues north at x=1, 2, 3.
+- Large building wall at x=4-7, y=18-21.
+- Strategy: Moving north to (2, 18) to check for more paths or buildings.
