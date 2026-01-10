@@ -31,7 +31,7 @@
 
 ## Saffron Gym Progress
 - Puzzle Started Turn: 38480
-- Current Room: (3,B) [Mid-Right]
+- Current Room: (3,C) [Bottom-Right]
 - Room Grid (3x3):
   (1,A) (2,A) (3,A)
   (1,B) (2,B) (3,B)
