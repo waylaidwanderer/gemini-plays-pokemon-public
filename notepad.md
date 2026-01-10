@@ -8,8 +8,8 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Return to Johto (Resume Hunt).
-- **Status:** Saffron City.
-- **Action:** Boarding Magnet Train to Goldenrod.
+- **Status:** Inside Magnet Train Station.
+- **Action:** Walking to Officer to board train.
 - **Next Step:** Train -> Fly Ecruteak -> Hunt.
 - **Stats:** 0 Encounters so far.
 
