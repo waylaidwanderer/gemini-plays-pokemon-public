@@ -36,7 +36,7 @@
 - **Strategy:** Sweep Sabrina with Typhlosion (Calcifer) Lv58.
 - **Hypothesis:** Taking the bottom-left panel in each room leads to the center.
 - **Test Result:** Path verified via BFS and manual testing.
-- **Attempt History:** 12 failed menu swaps. Currently at (9, 9). Swapping lead to Calcifer (Lv58) manually.
+- **Attempt History:** 13 failed menu swaps. Currently at (9, 9). Proceeding to battle Sabrina; will swap to Calcifer (Lv58) mid-battle or use XENON's Hypnosis.
 - **Menu Mechanic:** The overworld menu loops (e.g., pressing Up from POKEDEX goes to EXIT).
 - **Warp Panel Mechanic:** Verified that stepping on a WARP_PANEL tile (like 1, 5) teleports the player immediately to the linked destination.
 
