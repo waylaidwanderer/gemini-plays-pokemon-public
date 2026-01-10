@@ -35,3 +35,5 @@
 - Sabrina (Saffron City): Unknown.
 - Blaine (Cinnabar Island): Unknown.
 - Blue (Viridian City): Unknown.
+- Quest: Find the Gentleman's missing granddaughter on the S.S. Aqua.
+- Lead: Gentleman at (25, 6) in FastShip1F.
