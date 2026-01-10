@@ -143,5 +143,39 @@
         "action_counter": 39291
       }
     ]
+  },
+  "find_path_custom": {
+    "description": "Shortest path between two coordinates, handling ledges and floor walls.",
+    "input_schema": {
+      "properties": {
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef solve():\n    tree = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_obs = t_type == 'WALL' or tile.attrib.get('has-object') == 'true'\n            grid[(x, y)] = {'type': t_type, 'is_obs': is_obs}\n\n    start = (int(input_data['start_x']), int(input_data['start_y']))\n    end = (int(input_data['end_x']), int(input_data['end_y']))\n    \n    queue = collections.deque([(start, [])])\n    visited = {start}\n    \n    while queue:\n        (x, y), buttons = queue.popleft()\n        if (x, y) == end:\n            print(json.dumps(buttons))\n            return\n        \n        for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) not in grid: continue\n            \n            target = grid[(nx, ny)]\n            if target['is_obs']: continue\n            \n            if dy == -1 and target['type'] == 'LEDGE_HOP_DOWN': continue\n            if dy == 1 and target['type'] == 'FLOOR_UP_WALL': continue\n            \n            if dy == 1 and target['type'] == 'LEDGE_HOP_DOWN':\n                nnx, nny = nx, ny + 1\n                if (nnx, nny) in grid and not grid[(nnx, nny)]['is_obs']:\n                    if (nnx, nny) not in visited:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), buttons + [btn]))\n                continue\n\n            if (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), buttons + [btn]))\n    print(json.dumps([]))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T18:27:56.694Z",
+        "action_counter": 39601
+      }
+    ]
   }
 }
