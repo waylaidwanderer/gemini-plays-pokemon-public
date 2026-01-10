@@ -31,6 +31,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Resetting to Ecruteak (Cycle 52 - Warp Entry).
-- **Repel:** Active (Critical - Expect expiry on warp).
-- **Next:** Handle expiry -> `apply_super_repel`.
+- **Status:** Re-entering Route 37 (Cycle 53 - Correction).
+- **Repel:** Active (Critical). Expect expiry.
+- **Next:** `apply_super_repel` if expired, else hunt.
