@@ -25,8 +25,8 @@
 ## Session Information
 - **Current Location:** Route 37 (8, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** In Pack (Selecting Use).
+- **Status:** Used Super Repel (Clearing Text).
 - **Method:** Blind Hunt Loop.
-- **Notes:** Cursor on Super Repel. Pressing A to open options.
-- **Time:** Start ~Turn 30680. Current 30751.
-- **Next Step:** Select USE -> Handle Text -> Exit Menu -> Hunt.
+- **Notes:** Super Repel used. Clearing text and exiting menu.
+- **Time:** Start ~Turn 30680. Current 30752.
+- **Next Step:** Clear Text -> Exit Menu -> Hunt.
