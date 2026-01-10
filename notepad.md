@@ -23,9 +23,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Session Information
-- **Current Location:** Route 37 (8, 1).
+- **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Resetting Map.
+- **Status:** Transitioning to Route 37.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Wiggled on Route 37 (interrupted by phone), no encounter. Map considered clear. returning to Ecruteak to reset roamers.
-- **Next Step:** Enter Ecruteak -> Return to Route 37.
+- **Notes:** Map reset complete. Re-entering Route 37 to check for roamers again.
+- **Next Step:** Move South to Route 37 -> Execute Hunt.
