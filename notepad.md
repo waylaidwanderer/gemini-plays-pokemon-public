@@ -18,7 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Saffron Magnet Train Station.
-- **Status:** Arrived in Saffron.
-- **Action:** Exiting Station.
-- **Next:** Saffron City -> Celadon City.
+- **Location:** Saffron City (West Gate).
+- **Status:** En route to Celadon.
+- **Action:** Walking to Route 7.
+- **Reasoning:** Walking is safer than blind Fly map navigation from adjacent city.
+- **Next:** Route 7 -> Celadon Dept Store.
