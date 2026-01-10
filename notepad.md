@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31609)
-- **Status:** Route 36 National Park Gate.
+- **Session Start:** Turn 30996 (Current: 31610)
+- **Status:** Entering National Park.
 - **Goal:** Traverse National Park to reach Goldenrod.
-- **Action:** Walking West to enter National Park.
-- **Note:** Saturday = Bug Catching Contest. May be intercepted by Officer.
-- **Previous:** Successfully forced entry into Gatehouse.
+- **Action:** Crossing map border into National Park.
+- **Note:** Bug Catching Contest is active (Saturday).
+- **Previous:** Successfully navigated Route 36 Gatehouse.
