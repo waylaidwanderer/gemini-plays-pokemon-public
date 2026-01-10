@@ -53,3 +53,12 @@
 - Mr. Fuji (Soul House 4, 2): Spoken to. No immediate help for power crisis or Radio Tower.
 - House (3, 13): Lavender Speech House. Pokefan F (2, 3) is here.
 - Strategy: Finish exploring Lavender Town houses, then head north to Route 10.
+## Lessons & Observations
+- Root Hypothesis Check: Building labels must be verified by Map ID or NPC interaction (dialogue) before being documented as permanent markers. (Turn 38852)
+- Counter/Wall Behavior: Counters act as WALL tiles and must be interacted with from an adjacent tile. Verified in Centers and Radio Tower.
+- Tool Maintenance: Fixed find_path tool (v3) to handle autopress_buttons correctly by returning button strings.
+
+## Route 10 Progress
+- Started Turn: 38868
+- Goal: Reach Power Plant.
+- Trainer: Pokefan Robert (8, 12).
