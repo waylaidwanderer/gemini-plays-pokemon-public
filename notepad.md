@@ -21,6 +21,8 @@
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
   - Plan: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
+  - Obstacle: Route 6 north gatehouse is closed until Power Plant is fixed.
+  - Detour: Underground Path (Vermilion to Cerulean).
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
@@ -43,6 +45,6 @@
 - Fishing Rod: NPC at Pokecenter (7, 2).
 
 ## Vermilion Gym Observations
-- Lesson: Map Object internal names (e.g., SUPER_NERD) can be generic. Always use Screen Text to identify trainers in battle.
 - Gym Guide (Turn 38231): "The traps aren't active right now."
 - [Turn 38311] Victory! Thunder Badge obtained.
+- Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
