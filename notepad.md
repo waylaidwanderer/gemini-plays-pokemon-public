@@ -45,8 +45,6 @@
 - [Turn 38254] Moving to engage Rocker Justin at (4, 7). Approach from (4, 8).
 - Strategy: Use GNEISS to sweep.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
-- [Turn 38258] Battling Guitarist Vincent at (4, 7). Leading with GNEISS.
-- Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32).
-- GNEISS (Lv51) using Earthquake to sweep. Currently on 3rd Magnemite.
+- [Turn 38269] Defeated Guitarist Vincent (4, 7). GNEISS is Lv51.
 - Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
-- GNEISS (Lv51) using Earthquake to sweep. Currently on Voltorb.
+- Moving to engage Super Nerd Samual at (0, 10). Approach from (1, 10).
