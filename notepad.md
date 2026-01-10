@@ -35,7 +35,7 @@
 - **Status:** Roaming Hunt Loop - Active (No Repel).
 - **Note:** Mistral has Blue Apricorn.
 - **Repel:** Inactive (Out of Super Repels, saving Max Repel).
-- **Status:** Roaming Hunt Loop - Transitioning.
-- **Action:** Moving South to Route 37 (Manual).
+- **Status:** Roaming Hunt Loop - Execution.
+- **Action:** Running `rt37_hunt_return` (Hunt & Return).
 - **Repel:** Active (Max Repel).
-- **Next:** At Rt 37 (8,0) -> Call `rt37_hunt_return`.
+- **Next:** If Roamer found -> Catch. If not -> Back in Ecruteak (Repeat).
