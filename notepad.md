@@ -46,3 +46,5 @@
 - Strategy: Use GNEISS to sweep.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
 - [Turn 38258] Battling Guitarist Vincent at (4, 7). Leading with GNEISS.
+- Guitarist Vincent's Team: Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32).
+- GNEISS (Lv51) using Earthquake to sweep. Currently on 3rd Magnemite.
