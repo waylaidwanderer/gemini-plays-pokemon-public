@@ -15,6 +15,8 @@
 - [Turn 38104] Goal: Collect 8 Kanto badges.
 - Target 1: Lt. Surge (Vermilion City Gym). [Turn 38311] Defeated.
 - Strategy: Lead with GNEISS (Graveler Lv 52). Ground immunity protects against Electric moves.
+- Next Goal: Resolve Power Plant crisis to unlock Magnet Train and Snorlax path.
+- Route: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
 
 ## Vermilion City Exploration
 - Snorlax: (34, 8) (Blocking Route 11)
@@ -41,5 +43,4 @@
 - Gym Guide (Turn 38231): "The traps aren't active right now."
 - Lt. Surge's Team (Defeated): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
 - [Turn 38311] Victory! Thunder Badge obtained. GNEISS (Lv 52), Calcifer (Lv 58), KIMCHI (Lv 36).
-- Strategy: Use GNEISS to sweep. Immune to Electric. Earthquake PP is 0/10. Needs healing.
 - Observation: The path to Surge is open, confirming the Guide's claim that traps are inactive.
