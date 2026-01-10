@@ -47,11 +47,11 @@
 - **Interactions:** Always ensure facing the target tile.
 - **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
 - **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them. Avoid multi-step `press_buttons` without verification.
-## Strategy for Magnet Train Restoration (Turn 39757)
+## Strategy for Magnet Train Restoration (Turn 39761)
 - **Goal:** Return Poké Doll to Copycat to get Rail Pass.
-- **Location:** Copycat is on 2F of her house (9, 11) in Saffron. Stairs are at (2, 0) on 1F.
-- **Current Status:** Just entered Copycat's house 1F.
-- **Next Step:** Go upstairs via (2, 0) to reach Copycat's room.
+- **Location:** Copycat is at (4, 3) on 2F of her house (9, 11) in Saffron.
+- **Current Status:** Standing in front of Copycat at (4, 2) facing Down.
+- **Next Step:** Press A to talk to her and return the Poké Doll.
 
 ## Tile Mechanics (Update)
 - WINDOW: Impassable Wall.
