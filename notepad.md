@@ -62,3 +62,7 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+## Saffron Gym Puzzle Progress
+- Started Turn: 38480
+- Room (1,A) Exploration in progress.
+- Strategy: Systematic testing of all warp panels.
