@@ -30,19 +30,19 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39470
+- **Current Turn:** 39471
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** Hidden in the Cerulean Gym water.
-- **Next Step:** Use Itemfinder at (4, 5).
+- **Next Step:** Search (3, 6) in the pool.
 
 ## Cerulean Gym Search Plan
-- Target Area: Central pools.
-- Method: Use ITEMFINDER.
+- Target Area: Central pool (1, 5) to (6, 6).
+- Method: Search specific tiles (3, 6), (4, 6), (3, 5).
 - Interaction Log:
   - (4, 8): A pressed -> No result.
-  - (3, 6): A pressed -> No result.
+  - (3, 6): Search pending.
   - (4, 6): A pressed -> No result.
-  - (4, 5): A pressed -> No result.
-- Itemfinder Location: 7th item in Key Items pocket.
-- Menu Path (from Trainer Card): B -> B -> Start -> Down x2 (Pack) -> A -> Right x2 (Key Items) -> Down x6 (Itemfinder) -> A -> A.
-- Note: Itemfinder pings if an item is on the map. In Crystal, it might also make the player face the item. Watch closely!
+  - (4, 5): A pressed -> No result (multiple times).
+- Note: The Machine Part is commonly at (3, 6) in Crystal.
+- Menu Recovery: Press B repeatedly to return to overworld.
+- Loop Warning: I have been stuck at (4, 5) due to menu fumbles. Must move to (3, 6) immediately.
