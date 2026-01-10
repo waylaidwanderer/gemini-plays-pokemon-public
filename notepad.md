@@ -27,8 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31607)
+- **Session Start:** Turn 30996 (Current: 31608)
 - **Status:** Traversing Route 36 (Gatehouse Entrance).
 - **Goal:** Enter Route 35 Gatehouse.
-- **Action:** Re-triggering warp at (18, 8).
-- **Technique:** Step off (Right) and step back on (Left) to force warp event.
+- **Action:** Troubleshooting Warp. Moving to (18, 9).
+- **Technique:** Down -> Right -> Left to trigger the lower warp tile.
+- **Note:** Warp at (18, 8) failed to trigger on step-on. Testing (18, 9).
