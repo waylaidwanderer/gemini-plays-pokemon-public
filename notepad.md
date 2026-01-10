@@ -17,8 +17,8 @@
 
 # Current Strategy
 ## Travel to Kanto
-- **Goal:** Reach Saffron City.
-- **Location:** Goldenrod Magnet Train Station.
-- **Status:** Boarding Train.
-- **Action:** Confirming travel to Saffron.
-- **Next:** Arrive in Saffron -> Exit Station.
+- **Goal:** Buy Super Repels in Celadon.
+- **Location:** Saffron Magnet Train Station.
+- **Status:** Arrived in Saffron.
+- **Action:** Exiting Station.
+- **Next:** Saffron City -> Celadon City.
