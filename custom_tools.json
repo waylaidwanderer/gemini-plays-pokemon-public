@@ -186,26 +186,19 @@
       }
     ]
   },
-  "roamer_reset_transition": {
-    "description": "Performs the map transition from Route 37 to Ecruteak and back to reset Roamers. Sequence: Up (Warp), Sleep (Load), Down (Return), Sleep (Load).",
+  "hunt_roamers_cycle": {
+    "description": "Executes a Roamer hunting loop: Transitions from Ecruteak to Route 37, checks grass, and returns.",
     "input_schema": {
       "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
+      "properties": {},
+      "required": []
     },
-    "python_script": "print('[\"Up\", \"sleep 2500\", \"Down\", \"sleep 2500\"]')",
+    "python_script": "print('[\"Down\", \"sleep 3500\", \"Down\", \"Down\", \"Left\", \"Right\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\", \"sleep 3500\"]')",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-10T06:01:57.623Z",
-        "action_counter": 30974
+        "timestamp": "2026-01-10T07:01:54.489Z",
+        "action_counter": 31063
       }
     ]
   }

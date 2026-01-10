@@ -28,6 +28,6 @@
 - **Session Start:** Turn 30996
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** `hunt_roamers_cycle` Tool.
-  - **Sequence:** Ecruteak -> Rt 37 (Deep Grass) -> Hunt -> Ecruteak.
-- **Status:** Tool Defined. Ready to execute.
+  - **Sequence:** Ecruteak -> Rt 37 (Grass Wiggle) -> Ecruteak.
+- **Status:** Tools cleaned up & defined. Ready to execute.
 - **Repel:** Active.
