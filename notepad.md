@@ -18,9 +18,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31659
-- **Status:** Selecting Revives to Sell.
-- **Goal:** Sell 5 Revives.
-- **Action:** Navigating Menu: Down (Ice Berry) -> Down (Revive) -> A (Select).
-- **Current Pos:** BURN HEAL (Top). Target: REVIVE (Slot 3).
-- **Next:** Set quantity to 5 -> Confirm -> Exit to Buy Menu.
+- **Session Start:** Turn 31660
+- **Status:** Resupply Run (Correction).
+- **Goal:** Sell 5 Revives -> Buy Super Repels.
+- **Current State:** Accidentally in BUY confirmation (Poke Ball).
+- **Action:** Backing out (B x2) to return to "What can I do for you?" menu.
+- **Next:** Select SELL (carefully) -> Find Revives -> Sell.
