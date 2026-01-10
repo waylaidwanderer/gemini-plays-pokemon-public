@@ -27,6 +27,6 @@
 - **Goal:** Hunt Raikou/Entei.
 - **Status:** Transitioning to Route 37.
 - **Method:** Blind Hunt Loop.
-- **Notes:** Phone call interruption (Gaven). Resetting loop.
-- **Time:** Start ~Turn 30680. Current 30835.
+- **Notes:** Resuming hunt after phone call. Repel still active.
+- **Time:** Start ~Turn 30680. Current 30837.
 - **Next Step:** Move South -> Hunt Tool.
