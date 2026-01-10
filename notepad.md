@@ -69,4 +69,4 @@
 ## Rock Tunnel 1F Progress
 - (10, 15): TM47 Steel Wing found.
 - Navigation: (11, 14) and surrounding tiles are FLOOR_UP_WALL, blocking passage north from the entrance corridor. Must find alternate route.
-- (4, 18): Poke Ball (Object ID 1).
+- (4, 18): ELIXER picked up.
