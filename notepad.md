@@ -30,14 +30,16 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39475
+- **Current Turn:** 39479
 - **Clues:** Machine Part stolen. Rocket Grunt revealed it is hidden in the Cerulean Gym water.
-- **Goal:** Use Itemfinder to locate the part.
+- **Location Revealed:** Investigator agent suggests (3, 2) in the pool.
+- **Goal:** Search (3, 2) in the pool.
 
 ## Cerulean Gym Search Plan
-- Target Area: Central pools.
-- Method: Use ITEMFINDER.
+- Target Area: Upper-left of the pool.
+- Target Tile: (3, 2).
+- Route: (3, 6) -> (1, 6) -> (1, 3) -> (3, 3) -> Face Up -> A.
 - Interaction Log:
-  - (4, 8), (3, 6), (4, 6), (4, 5): No result with A button (searching adjacent tiles).
-- Note: Itemfinder is the 8th Key Item.
+  - (4, 8), (3, 6), (4, 6), (4, 5): No result with A button.
+- Note: Itemfinder use failed due to menu fumbles. Moving to direct search.
 - Menu Recovery: Press B repeatedly to return to overworld.
