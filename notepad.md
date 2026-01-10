@@ -12,11 +12,11 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailors at (30, 6) and (31, 6) are blocking the northern corridor.
-- Strategy: Talk to both sailors to trigger their movement. The "lazy" sailor buddy quest is active.
-- Target: Reach western corridors (x=28, x=25) via row 5.
-- Obstacle: Super Nerd at (26, 9) is a trainer and blocks the x=26 corridor.
-- Hypothesis: Talking to the sailor at (31, 6) after finding his buddy will clear the path.
+- Status: Investigating B1F. Sailor at (31, 6) blocks the eastern corridor. Path at (30, 6) is clear.
+- Strategy: Bypass sailor at (31, 6) by moving through (30, 7) -> (30, 6) -> (30, 5).
+- Target: Explore western side via gaps at row 5. Target corridor at x=28.
+- Obstacle: Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26. Target x=28 or x=25.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
@@ -26,7 +26,7 @@
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
 - Status: Paralysis reduces speed by 75%.
-- NPCs like sailors may swap positions or block corridors until specific dialogue is triggered.
-- Map transitions reset NPC positions.
+- NPCs may block corridors until specific events/dialogue.
+- NPCs update positions after a map transition.
 - Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
 - Lesson: Keep warp markers (like ladders) permanent for efficient navigation.
