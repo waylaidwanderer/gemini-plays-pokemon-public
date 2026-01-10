@@ -9,34 +9,35 @@
 - WATER: Requires Surf to traverse.
 
 ## Kanto Strategy
-- **Current Objective: Resolve Power Plant crisis.**
+- **Current Objective: Defeat Sabrina and Resolve Power Plant.**
   - Started Turn: 38311
-  - Purpose: Unlock Magnet Train and Snorlax path. Required to challenge Misty.
-  - Strategy: Saffron City -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle 1: Saffron Gate (6, 1) leads to Saffron. Status: Open.
-  - Obstacle 2: Underground Path (Route 6, x=17, y=3). Blocked by Pokefan M. Status: Unnecessary detour.
+  - Purpose: Unlock Magnet Train and Snorlax path.
+  - Strategy: Saffron Gym -> Cerulean City -> Route 10 -> Power Plant.
+  - Obstacle: Magnet Train is inactive; Power Plant restoration is the primary gate.
 
 ## Saffron City Notes
-- Exploration Start: Turn 38381.
-- Layout: Large city (40x36) dominated by Silph Co. in the center.
+- Layout: Large city (40x36) dominated by Silph Co.
 - Buildings Identified:
   - Silph Co: Center of city (South Wall at 16, 29).
   - Pokemon Center: (9, 29).
   - Magnet Train Station: (11, 5) (Sign at 11, 5). Currently inactive.
   - North-West Building: (4, 8).
   - Copycat's House: (9, 11).
-- Exits:
-  - South: To Route 6 (Saffron Gate at 16, 33).
-  - West: To Route 7 (Celadon City exit at 0, 24-25).
-  - North: To Route 5 (Targeting northern edge).
-- NPCs:
-  - Pokefan M: Wandering near (18, 30) (Object 2).
-  - Lass: Wandering near (6, 14) (Object 1).
+- Exits: South (Route 6), West (Route 7), North (Route 5).
+- NPCs: Pokefan M (18, 30), Lass (6, 14).
 - Copycat's House (Saffron 9, 11):
   - 1F (25_11): Pokefan M (ID 1) at (2, 3) mentions she mimics; Pokefan F (ID 2) at (5, 4) calls her self-centered. Clefairy Sprite (ID 3) at (6, 6).
   - 2F (25_12): Copycat (ID 6) at (4, 3). Dolls: Moltres (6, 4), Monster (2, 1), Bird (7, 1).
-## Saffron City Strategy
-- Current: Talk to Copycat (2F).
-- Next: Locate and defeat Sabrina (Saffron Gym).
-- Then: Head north via Route 5 to Cerulean City and Route 10 (Power Plant).
-- Note: Magnet Train is inactive; Power Plant restoration is the primary gate for Kanto progression.
+
+## PC Storage (Box 1)
+1. GLAIVE (SCYTHER) Lv14
+2. SELKIE (SEEL) Lv24
+3. DELTA (MANTINE) Lv20
+4. RANGOON (KRABBY) Lv22
+5. NOMURA (TENTACOOL) Lv17
+6. Ravioli (KRABBY) Lv10
+7. Ouroboros (DRATINI) Lv15
+
+## Hypotheses & Item Tracking
+- Hidden Full Restore: Gym trash cans.
+- Hidden Rare Candy: Vermilion City water.
