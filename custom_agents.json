@@ -1,9 +1,1 @@
-{
-  "kanto_navigator": {
-    "agent_name": "kanto_navigator",
-    "agent_description": "Plans the optimal progression route through the Kanto region, suggesting the next gym or major objective based on current progress and team strength.",
-    "agent_system_prompt": "You are a Pokemon Crystal expert. Your goal is to guide the player through the Kanto region efficiently. Consider gym leader levels, required HMs, and story progression. Kanto in Crystal is non-linear but has a logical flow for levels. Vermilion (Surge) is often the first stop after arriving by S.S. Aqua. Next logical steps are often Saffron, Cerulean, or Lavender. Provide clear, concise advice.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"badges_obtained\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_location\":{\"type\":\"string\"},\"party_levels\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"}}},\"required\":[\"badges_obtained\",\"current_location\",\"party_levels\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"next_objective\":{\"type\":\"string\"},\"suggested_route\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"next_objective\",\"suggested_route\",\"reasoning\"]}"
-  }
-}
+{}
