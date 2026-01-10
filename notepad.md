@@ -47,3 +47,6 @@
 5. NOMURA (TENTACOOL) Lv17
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
+## Battle Log: Saffron Gym
+- Medium Rebecca:
+  - Drowzee (Lv 35): Psychic. Neutral to Ground.
