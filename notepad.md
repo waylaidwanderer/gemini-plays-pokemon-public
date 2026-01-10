@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 37 (7, 0).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting.
+- **Status:** Cycling Hunt Loop.
 - **Method:** `hunt_check_route37`.
-- **Notes:** Arrived on Route 37. Repel active. Executing hunt routine.
+- **Notes:** Arrived on Route 37. Repel active. Running hunt routine to check for Beasts.
 - **Next Step:** Check for Encounter -> Return to Ecruteak (Automatic).
