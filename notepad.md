@@ -15,7 +15,8 @@
 - Hypothesis: Defeating Sailor Stanly triggers him and the B1F sailor to move.
 - Quest started: Turn 37715 (Timestamp: Friday, Jan 9, 2026, 6:00 PM).
 - Battle Log: Turn 38024 - Calcifer (Lv 57) vs Stanly's Machop (Lv 31) (Defeated).
-- Battle Log: Turn 38026 - Calcifer (Lv 57) vs Stanly's Machoke (Lv 33).
+- Battle Log: Turn 38026 - Calcifer (Lv 57) vs Stanly's Machoke (Lv 33) (Defeated).
+- Battle Log: Turn 38028 - Calcifer (Lv 58) vs Stanly's Psyduck (Lv 26).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
