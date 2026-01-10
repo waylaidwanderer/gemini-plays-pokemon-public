@@ -25,8 +25,10 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Running Automated Hunt.
-- **Method:** `hunt_cycle_ecruteak_rt37`.
-- **Notes:** Tool defined in Turn 30858. Executing now.
+- **Status:** Manual Hunt (Turn A).
+- **Method:** 2-Turn Cycle.
+- **Cycle A:** Move Down to Route 37.
+- **Cycle B:** Hunt in grass & Return to Ecruteak.
+- **Notes:** Automated tool persistently failed (empty output). Abandoning tool for manual inputs.
 - **Time:** Start ~Turn 30680. Current 30859.
-- **Next Step:** Repeat loop or handle encounter.
+- **Next Step:** Execute Cycle A (Down).

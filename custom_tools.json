@@ -185,39 +185,5 @@
         "action_counter": 30801
       }
     ]
-  },
-  "hunt_cycle_ecruteak_rt37": {
-    "description": "Executes the full hunting loop starting from Ecruteak City (18,35). Walks down into Route 37, waits for transition, checks grass at (8,2), and returns to Ecruteak City. Returns a valid JSON array of buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true, buttons are pressed automatically."
-        },
-        "wiggles": {
-          "type": "integer",
-          "default": 3,
-          "description": "Number of Left/Right wiggle pairs."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "def run(input_data):\n    wiggles = input_data.get('wiggles', 3)\n    cmd_list = []\n    \n    # To Route 37\n    cmd_list.append('\"Down\"')\n    cmd_list.append('\"sleep 2500\"') # Transition to Rt 37 (safe delay)\n    \n    # Enter Grass (8,0 -> 8,1 -> 8,2)\n    cmd_list.append('\"Down\"')\n    cmd_list.append('\"Down\"')\n    \n    # Hunt\n    for _ in range(wiggles):\n        cmd_list.append('\"Left\"')\n        cmd_list.append('\"Right\"')\n        \n    # Return to Ecruteak\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"Up\"')\n    cmd_list.append('\"sleep 1000\"') # Safety delay for return transition\n    \n    output = \"[\" + \", \".join(cmd_list) + \"]\"\n    print(output)",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-10T04:36:20.343Z",
-        "action_counter": 30853
-      },
-      {
-        "commit_message": "Fixing JSON output to be robust manual string construction and adding sleep for map transitions.",
-        "timestamp": "2026-01-10T04:39:38.433Z",
-        "action_counter": 30857
-      }
-    ]
   }
 }
