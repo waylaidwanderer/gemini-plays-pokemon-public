@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** New Bark Town (Fly Map).
+- **Current Location:** New Bark Town (Overworld).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Navigating Fly Map (Attempt 2).
-- **Method:** Navigate Menu: Left x3 (Hold 250ms).
-- **Notes:** `slow_press` failed to move the map cursor (taps too short). Reverting to `navigate_menu` with `hold_ms` to ensure movement. Not pressing 'A' yet to verify destination first.
+- **Status:** Restarting Fly Sequence.
+- **Method:** Start -> A (Enter Pokemon).
+- **Notes:** Previous attempt failed (was in Overworld, walked left instead of moving map cursor). Restarting menu navigation. Assuming cursor memory is on Pokemon.
