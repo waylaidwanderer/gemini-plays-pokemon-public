@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31614)
-- **Status:** Entering National Park.
-- **Goal:** Reach Goldenrod City via National Park.
-- **Action:** Pressing Left to exit Gatehouse into Park.
-- **Note:** Gaven call finished. Resuming travel.
-- **Saturday Event:** Bug Catching Contest active.
+- **Session Start:** Turn 30996 (Current: 31615)
+- **Status:** Traversing National Park.
+- **Goal:** Reach Goldenrod City via Route 35 Gatehouse.
+- **Action:** Pathfinding to South Exit (11, 47).
+- **Note:** Park seems quiet (5:18 AM). Avoiding tall grass where possible.
+- **Roamer Hunt:** Resupply run (Super Repels) continues.
