@@ -25,9 +25,8 @@
 ## Session Information
 - **Current Location:** Ecruteak City (18, 35).
 - **Goal:** Hunt Raikou/Entei.
-- **Status:** Hunting (Continuous Loop).
-- **Method:** Full Cycle (Hunt -> Reset -> Return).
-- **Sequence:** Down x2 (Grass), Left, Right (Hunt), Up x3 (Reset), Down (Return).
-- **Notes:** Phone call interruption in Turn 30913 caused false belief that inputs were eaten. Trying full batch.
-- **Time:** Start ~Turn 30680. Current 30930.
-- **Next Step:** Repeat Loop.
+## Roamer Hunt Strategy
+- **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
+- **Batch Sequence:** `['Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up']`
+- **Start Turn:** 30680
+- **Repel:** Active (Applied ~30924). Check periodically.
