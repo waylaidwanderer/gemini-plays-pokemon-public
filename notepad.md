@@ -47,3 +47,7 @@
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
 - **Itemfinder:** Range is limited (~4-5 tiles). Triangulation by checking multiple spots is effective.
 - **Pathing:** 2D top-down paths are often wider than they look. Analyze all adjacent tiles when blocked.
+## Long-Term Strategy (Advisor Tips)
+- Defeat all 8 Kanto Gym Leaders to unlock Mt. Silver.
+- Train ICARUS, LAPIS, and KIMCHI to close the level gap.
+- Visit Lavender Radio Tower for the EXPN Card (to wake Snorlax on Route 11).
