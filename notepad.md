@@ -32,6 +32,6 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1:** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Roaming Hunt Loop - Paused (Repel Wore Off).
-- **Note:** Text on screen. Need to re-apply Max Repel.
+- **Status:** Roaming Hunt Loop - Paused (Applying Repel).
+- **Note:** Entering Pack to use Max Repel.
 - **Repel:** Inactive.
