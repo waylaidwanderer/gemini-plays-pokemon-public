@@ -29,7 +29,7 @@
 - **Goal:** Return the Machine Part to the Power Plant Manager at Route 10.
 - **Plan:**
   1. Exit Cerulean Gym.
-  2. Fly to Route 10 North (Pokemon Center near Power Plant).
+  2. Walk East from Cerulean City through Route 9 to Route 10 North.
   3. Enter Power Plant and talk to the Manager at (14, 10).
 
 ## Lessons Learned
