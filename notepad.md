@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Resupply Run - Super Repels.
-- **Status:** In Menu (Turn 32485).
-- **Action:** Opening Party Menu to select Mistral (Flyer).
-- **Next Step:** Fly to Celadon City (West of Saffron).
+- **Status:** Selecting Fly Option (Turn 32486).
+- **Action:** Selected Mistral -> Selecting 'FLY'.
+- **Next Step:** Choose Celadon City on map.
 - **Reason:** Goldenrod Dept Store confirmed to have NO Super Repels. Celadon does.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
