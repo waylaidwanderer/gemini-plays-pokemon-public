@@ -37,7 +37,7 @@
   - (3, 3) <-> 1F (27, 13).
   - (17, 9) <-> 1F (15, 9).
   - (23, 3) <-> 1F (5, 3).
-  - Turn 38985: Navigating Rock Tunnel B1F. Current pos (13, 25).
+  - Turn 38991: Navigating Rock Tunnel B1F. Current pos (8, 25). Found Poke Ball at (7, 25).
 - Observed Pokemon (Kanto):
   - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
   - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16) at (24, 16) and (16, 18).
