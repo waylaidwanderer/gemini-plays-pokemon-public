@@ -19,9 +19,10 @@
 - **Goal:** Retrieve Master Ball from Elm (New Bark Town).
 - **Location:** Celadon City.
 - **Action:** Fly Saffron -> Train -> Fly New Bark.
-- **Status:** Withdrawing Nuggets (Quantity Selection).
-- **Action:** Press A to select Nugget -> Select Quantity (2) -> Confirm.
-- **Next:** Exit PC -> Go to Mart.
+- **Status:** Fixing `navigate_menu` tool.
+- **Issue:** System auto-presses B on "How many?" screen, cancelling withdraw.
+- **Solution:** Use `navigate_menu` to execute `A -> Up -> A` in one turn, bypassing auto-cancel.
+- **Next:** Withdraw 2 Nuggets -> Exit PC.
 - **Then:** Fly to Ecruteak -> Route 37 for Roamer Hunt.
 - **Lesson:** Flavor text objects (like the ball on Elm's table) are not interactable items. Don't let them distract from the objective.
 - **Lesson:** Always mark NPCs immediately. Missing 'Mom' caused a path interruption.
