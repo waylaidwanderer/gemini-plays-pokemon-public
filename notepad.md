@@ -5,31 +5,29 @@
 - WATER: Traversable with Surf.
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE_HOP_DOWN: One-way traversal. Can move from a lower Y to a higher Y (jump down) but cannot move from a higher Y to a lower Y (climb up). Verified on Route 6 (Turn 38681).
-- WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5, Route 27, and Saffron City (Turn 38701).
+- LEDGE_HOP_DOWN: One-way traversal. Jump down from lower Y to higher Y. Verified on Route 6.
+- WARP_CARPET: Step on or walk off map edge to transition. Verified on Route 5/27.
 - WARP_PANEL: Teleports between rooms. Verified in Saffron Gym.
-- COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Pokemon Centers and Radio Tower (Turn 38818).
-- FLOOR_UP_WALL: Impassable Wall when approached from below. Verified on Route 8 (Turn 38796).
+- COUNTER: Impassable Wall. Must interact from an adjacent tile. Verified in Centers/Radio Tower.
+- FLOOR_UP_WALL: Impassable Wall when approached from below. Verified on Route 8.
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
 - **Current Objective: Resolve Power Plant Crisis.**
   - Started Turn: 38311
-  - Timestamp: Friday, January 9, 2026 at 11:50 PM PST
   - Purpose: Unlock Magnet Train and Snorlax path.
-  - Obstacle: Sabrina's Espeon (Lv 46) is a significant power gate.
+  - Plan:
+    1. Find Mr. Fuji in Lavender Town (Soul House at 13, 11).
+    2. Head north to Route 10.
+    3. Use Surf (LAPIS) and Flash (KIMCHI) to navigate to the Power Plant.
+    4. Speak with the Manager.
+    5. Retrieve the stolen Machine Part from Cerulean Gym.
 
 ## Saffron City Notes
 - Silph Co: Center (16, 29).
 - Pokemon Center: (9, 29).
 - Magnet Train Station: (8, 3).
-- Saffron Gym: (34, 3). Leader: Sabrina.
-
-## Saffron Gym Progress
-- Puzzle Room Grid (3x3): (1,A) (2,A) (3,A) | (1,B) (2,B) (3,B) | (1,C) (2,C) (3,C)
-- Rows: A (0-5), B (7-11), C (13-17) | Cols: 1 (0-5), 2 (7-12), 3 (14-19)
-- Warp Connections Found: (Detailed list omitted for brevity, see Turn 38700-38780 for full log if needed).
-- Sabrina Path: (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina]
+- Saffron Gym: (34, 3). Leader: Sabrina. Path: (1,A) (1, 5) <-> (2,B) (11, 9).
 
 ## Battle History: vs Sabrina
 - Attempt 1 (Turn 38625): FAILED (White out). Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
@@ -44,29 +42,11 @@
 6. Ravioli (KRABBY) Lv10
 7. Ouroboros (DRATINI) Lv15
 
-## Route 6 Notes
-- Pokefan M (17, 4): Info: Underground Path is closed until Power Plant is fixed.
-
-## Route 8 Notes
-- Super Nerd Tom (31, 12): DEFEATED.
-
 ## Lavender Town Notes
 - (0, 8): Entrance from Route 8.
 - Mart: (1, 5).
+- Pokemon Center: (5, 5).
 - Volunteer Pokemon House: (5, 9).
 - Name Rater's House: (7, 13).
-- Pokemon Center: (5, 5). Found!
-- Radio Tower (formerly Pokemon Tower): Northeastern part of town.
-- Soul House: Likely the building at (13, 11).
-
-## Lavender Radio Tower 1F Notes
-- (2, 7), (3, 7): Exit to Lavender Town.
-- Receptionist: (6, 6).
-- Super Nerd: (2, 4).
-- Pathing: To talk to Receptionist, go to (6, 4) and face DOWN.
-- Directory: (11, 0).
-- Gentleman (9, 1): Station Manager. Ruined if power isn't restored. Confirms Power Plant is down.
-- Directory (11, 0): To be examined.
-- Directory (11, 0): 1F Reception, 2F Sales, 3F Personnel, 4F Production, 5F Director's Office.
-- Officer (15, 1): Blocking stairs to 2F.
-- Mr. Fuji: Not at home. Currently at the SOUL HOUSE.
+- Soul House: (13, 11).
+- Radio Tower: Northeastern part of town. 1F Receptionist (6, 6), Manager (9, 1), Officer (15, 1) blocks stairs.
