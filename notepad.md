@@ -62,3 +62,7 @@
 - Reachable Unseen: Tiles at (11, 30) and (22, 30) suggest the street continues East/West.
 - Strategy: Silph Co is blocking direct north movement. I need to go around it to find the Route 5 exit.
 - Verified: No dialogue triggered upon entering city.
+## Saffron City Exploration Log
+- Turn 38383: At (16, 30). Silph Co. building occupies the center of the city.
+- Pathfinding to (11, 30) failed, likely due to unseen tiles. Moving manually to (12, 30) to expand visibility.
+- NPC Pokefan M is wandering around (18, 30).
