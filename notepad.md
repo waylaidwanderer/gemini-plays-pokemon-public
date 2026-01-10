@@ -29,5 +29,5 @@
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** Manual Hunt Sequence.
   - **Sequence:** `Down, Down` (Grass), `Left, Right` (Hunt), `Up, Up, Up` (Return/Warp).
-- **Status:** Tool `hunt_roamers_safe` interrupted by map change. Resuming manually.
+- **Status:** Phone Call Interrupt (Wade). Clearing text.
 - **Repel:** Active.
