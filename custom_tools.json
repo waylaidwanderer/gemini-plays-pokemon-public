@@ -278,5 +278,43 @@
         "action_counter": 37492
       }
     ]
+  },
+  "find_path_v2_fixed": {
+    "description": "Finds the shortest path between two coordinates on the current map and returns the sequence of buttons. Supports land traversal and avoids walls/objects.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml):\n    root = ET.fromstring(map_xml)\n    width = int(root.get('width'))\n    height = int(root.get('height'))\n    \n    grid = {}\n    for tile in root.findall(\".//Tile\"):\n        coords = tile.get('coordinate').strip('()').split(',')\n        x, y = int(coords[0]), int(coords[1])\n        t_type = tile.get('type')\n        has_obj = tile.get('has-object') == 'true'\n        grid[(x, y)] = (t_type, has_obj)\n        \n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        if curr_x == end_x and curr_y == end_y:\n            return path\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                t_type, has_obj = grid[(nx, ny)]\n                if t_type in ['FLOOR', 'GRASS', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER'] and not has_obj:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n    return None\n\npath = find_path(input_data['start_x'], input_data['start_y'], input_data['end_x'], input_data['end_y'], map_xml_string)\nif path:\n    print(json.dumps(path))\nelse:\n    print(json.dumps([]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T03:07:41.866Z",
+        "action_counter": 38106
+      }
+    ]
   }
 }
