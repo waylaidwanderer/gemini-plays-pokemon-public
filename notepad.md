@@ -8,7 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Purchasing Super Repels (Goldenrod 2F).
-- **Lesson (Turn 32421):** Ecruteak Mart does NOT sell Repels. Verify inventory first.
+- **Status:** Checked Clerk 2 (Bottom). No Super Repels.
+- **Action:** Checking Clerk 1 (Top) at (13, 5).
+- **Inventory (Clerk 2):** Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
