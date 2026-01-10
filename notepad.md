@@ -47,5 +47,6 @@
 - Gym Guide (Turn 38231): "The traps aren't active right now."
 - Guitarist Vincent (Defeated): Magnemite (Lv27), Magnemite (Lv32), Magnemite (Lv32), Voltorb (Lv33).
 - Juggler Horton (Defeated): Electrode (Lv33) x4.
-- Lt. Surge's Team (Observed): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40).
-- Current Strategy: GNEISS (Lv 52) Strength sweep. Immune to Electric moves. Strength PP: 9/15. HP: 128/146.
+- Lt. Surge's Team (Observed): Raichu (Lv44), Electabuzz (Lv46), Electrode (Lv40), Magneton (Lv40).
+- Current Strategy: GNEISS (Lv 52) Strength sweep. Immune to Electric moves. Strength PP: 9/15. HP: 78/146.
+- [Turn 38301] Surge's Electrode used Explosion. GNEISS survived. Surge sent out Magneton (Lv 40). Continuing with Strength.
