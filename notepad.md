@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31585)
+- **Session Start:** Turn 30996 (Current: 31586)
 - **Status:** Resupply Run - Menuing.
-- **Action:** Selecting POKEMON (Up x2 -> A).
+- **Action:** Selecting Mistral (Down x3 -> A).
 - **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
-- **Note:** Cursor on GEAR. Need to go Up 2 times to POKEMON.
-- **Next:** Select Mistral (Slot 4) -> Fly.
+- **Note:** Mistral (Slot 4) selected. Next step: Choose FLY.
+- **Next:** Select "FLY" from move menu.
