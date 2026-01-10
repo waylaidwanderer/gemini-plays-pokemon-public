@@ -31,7 +31,7 @@
 
 ## Saffron Gym Progress
 - Puzzle Started Turn: 38480
-- Current Room: (1,C) [Bottom-Left]
+- Current Room: (1,B) [Mid-Left]
 - Room Grid (3x3):
   (1,A) (2,A) (3,A)
   (1,B) (2,B) (3,B)
@@ -50,6 +50,7 @@
   - (3,B) (19,9) <-> (3,C) (19,15)
   - (3,C) (15,15) <-> (3,A) (19,3)
   - (3,A) (19,5) <-> (1,C) (1,15)
+  - (1,C) (5,17) <-> (1,B) (5,11)
 
 - Battle Log:
   - Medium Rebecca (Defeated): (17, 16) in (3,C). Drowzee (Lv 35), Hypno (Lv 35).
