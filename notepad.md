@@ -34,13 +34,12 @@
 - **Start Turn:** 39167
 - **Goal:** Find path to Cerulean City (West).
 - **Status:** Defeated Heidi (41, 8), Sidney (39, 15), Dean (19, 11), and Edna (12, 15).
-- **Observation:** Row 16/17 path is blocked from the North by FLOOR_UP_WALL tiles. 
-- **New Path Hypothesis:** The path west is through the northern unseen area. A gap in the Row 9 ledge exists at X=16.
-- **Plan:** Walk to (16, 9), then north through the gap to reach the northern area. From there, head west to Cerulean City.
+- **Observation:** Southern lanes (Row 14-17) are blocked from the North by FLOOR_UP_WALL. Row 11 is blocked at X=19.
+- **Current Plan:** Use the gap at (16, 9) to reach the northern area (Rows 0-5) and head west.
 
 ## Lessons Learned
 - NPCs act as walls and must be navigated around.
 - "find_path_v3_fixed" is more reliable than manual directional inputs for navigating around obstacles.
 - Sand-Attack lowers accuracy; fixed-damage moves like Night Shade are good for consistency.
 - FLOOR_UP_WALL is not jumpable from the North.
-- Always check for gaps in ledges (e.g., X=16 in Row 9) for passage.
+- Always check for gaps in ledges for passage.
