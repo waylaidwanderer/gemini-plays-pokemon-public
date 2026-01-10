@@ -18,8 +18,8 @@
 # Current Strategy
 ## Travel to Kanto
 - **Goal:** Buy Super Repels in Celadon.
-- **Location:** Celadon Dept. Store (3F).
-- **Status:** Checking Directory.
-- **Action:** Read Directory at (14, 0).
-- **Reasoning:** Need to know what 3F sells (TMs?).
-- **Next:** Read Directory -> Move to next floor or buy.
+- **Location:** Celadon Dept. Store (4F).
+- **Status:** Checking Clerk.
+- **Action:** Talk to Clerk at (13, 5).
+- **Reasoning:** Directory failed. Checking Clerk inventory directly.
+- **Next:** Buy Repels or go to 5F.
