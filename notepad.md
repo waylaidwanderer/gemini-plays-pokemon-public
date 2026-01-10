@@ -13,8 +13,8 @@
 - **Next Step:** Confirm Ecruteak -> Fly.
 - **Stats:** 0 Encounters so far.
 
-## Reflection (Turn 32499)
-- **Status:** Resupply Run (Goldenrod failed, going to Celadon).
-- **Pivot:** Switched from Flying (map issues) to Walking (reliable).
-- **Verification:** Celadon stock confirmed in history.
-- **Pathing:** Must use gap at (9, 5) to bypass ledges.
+## Reflection (Turn 32552)
+- **Status:** Resupply Complete. Returning to Ecruteak.
+- **Strategy:** Roamer Hunt via Route 37/Ecruteak boundary.
+- **Improvement:** Need to map out Fly Menu adjacency for automation.
+- **Hygiene:** Notepad cleaned, markers up to date.
