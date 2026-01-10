@@ -43,7 +43,7 @@
 ## Observed Pokemon (Kanto)
 - Rock Tunnel 1F: Geodude (Lv11-12), Zubat (Lv12), Haunter (Lv17).
 - Rock Tunnel B1F: Geodude (Lv14), Onix (Lv16).
-## Route 9 Progress
-- (48, 15): Entrance from Rock Tunnel 1F.
-- (51, 19): Pokemon Center door.
-- Plan: Heal at Center, then head east/north to find the Power Plant.
+## Route 10 North Progress
+- (11, 1): Pokemon Center.
+- Row 0: Connection to Route 9.
+- Plan: Heal at Center, then find the Power Plant (likely east/south).
