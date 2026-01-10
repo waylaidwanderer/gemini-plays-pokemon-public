@@ -33,7 +33,7 @@
 ## Roamer Hunt Strategy
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
 - **Method:** 2-Turn Split Cycle
-  - **Turn A (Current):** Move Down (Enter Route 37).
-  - **Turn B:** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
-- **Status:** Executing Turn A (Enter Route 37).
-- **Repel:** Active. Steps used: ~13/200.
+  - **Turn A:** Move Down (Enter Route 37).
+  - **Turn B (Current):** Hunt Sequence (`['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up', 'Up']`) -> Ends in Ecruteak.
+- **Status:** Executing Turn B (Hunt & Return).
+- **Repel:** Active (Fresh). Steps used: ~5/200.
