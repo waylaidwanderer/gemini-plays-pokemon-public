@@ -26,11 +26,10 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Machine Part retrieved. Arrived at Route 10 North. Xenon (Lead) is fainted.
+- **Status:** Machine Part retrieved. Party healed.
 - **Plan:**
-  1. Heal at Route 10 Pokemon Center (11, 1).
-  2. Enter Power Plant (3, 9).
-  3. Return Machine Part to Manager (14, 10).
+  1. Exit Pokemon Center and enter Power Plant (3, 9).
+  2. Return Machine Part to Manager (14, 10).
 
 ## Lessons Learned
 - **Hidden Items in Water:** Can be found by facing the water tile and pressing A from an adjacent walkway. 
