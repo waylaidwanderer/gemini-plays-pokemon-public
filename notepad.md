@@ -11,11 +11,11 @@
 
 ## Kanto Strategy
 - **Primary Goal: Complete Kanto Region Journey.**
-- **Current Objective: Defeat Sabrina and Resolve Power Plant.**
+- **Current Objective: Resolve Power Plant Crisis.**
   - Started Turn: 38311
   - Purpose: Unlock Magnet Train and Snorlax path.
-  - Strategy: Saffron Gym -> Cerulean City -> Route 10 -> Power Plant.
-  - Obstacle: Restoring Power Plant is the main gate.
+  - Strategy: Level up team -> Restore Power Plant -> Re-challenge Sabrina.
+  - Obstacle: Restoring Power Plant is the main gate. Sabrina's Espeon (Lv 46) is a significant power gate.
 
 ## Saffron City Notes
 - Silph Co: Center (16, 29).
@@ -25,7 +25,8 @@
 
 ## Saffron Gym Progress
 - Puzzle Started Turn: 38480
-- Current Room: (2,B) [Sabrina's Room]
+- Room Grid (3x3): (1,A) (2,A) (3,A) | (1,B) (2,B) (3,B) | (1,C) (2,C) (3,C)
+- Rows: A (0-5), B (7-11), C (13-17) | Cols: 1 (0-5), 2 (7-12), 3 (14-19)
 - Warp Connections Found:
   1. (2,C) Entrance (11,15) <-> (3,C) (19,17)
   2. (3,C) (15,17) <-> (1,C) (5,15)
@@ -49,9 +50,9 @@
   - Medium Doris (Defeated): (3, 4) in (1,A).
   - Psychic Jared (Defeated): (17, 4) in (3,A).
 
-## Battle Update: vs Sabrina
-- Attempt 1: Failed (Turn 38625). Espeon (Lv 46) swept the team.
-- Analysis: Type disadvantage (Poison/Fighting/Fire) and speed gap were critical. Need Dark/Bug moves or higher levels.
+## Battle History: vs Sabrina
+- Attempt 1 (Turn 38625): FAILED. Espeon (Lv 46) used Psychic and Sand-Attack to sweep the team.
+- Analysis: Type disadvantage (Graveler, Haunter, Gloom) and speed gap (Typhlosion) were critical. Need Dark/Bug moves or higher levels for GNEISS/Calcifer.
 
 ## PC Storage (Box 1)
 1. GLAIVE (SCYTHER) Lv14
