@@ -112,20 +112,5 @@
         "action_counter": 30801
       }
     ]
-  },
-  "auto_hunt": {
-    "description": "Executes one full roamer check cycle on Route 37. Starts at (8,0), walks south to (8,5) to check grass, walks back north to (8,0), steps up to Ecruteak to reset map, and steps back down to Route 37 (8,0).",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "def auto_hunt(**kwargs):\n    import json\n    import sys\n    # Cycle from (8,0):\n    # 1. Down x5 (Walk into grass to 8,5)\n    # 2. Up x5 (Walk back to gate 8,0)\n    # 3. Up x1 (Walk into Ecruteak to reset)\n    # 4. Down x1 (Walk back to Route 37 8,0)\n    seq = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\"]\n    print(json.dumps(seq))\n    sys.stdout.flush()",
-    "history": [
-      {
-        "commit_message": "Defined auto_hunt tool. Sequence: Down x5 (grass), Up x5 (gate), Up (Ecruteak), Down (Route 37). Prints JSON to stdout.",
-        "timestamp": "2026-01-10T18:52:08.136Z",
-        "action_counter": 32114
-      }
-    ]
   }
 }
