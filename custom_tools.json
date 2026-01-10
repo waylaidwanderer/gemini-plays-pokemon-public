@@ -112,5 +112,20 @@
         "action_counter": 30801
       }
     ]
+  },
+  "roamer_check": {
+    "description": "Executes one full roamer check cycle on Route 37 starting from (8,0). Checks grass at (8,5), returns to gate, resets map in Ecruteak, and returns to start.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "def roamer_check(**kwargs):\n    import json\n    import sys\n    seq = [\"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\"]\n    print(json.dumps(seq))\n    sys.stdout.flush()\n    return seq",
+    "history": [
+      {
+        "commit_message": "Defined roamer_check tool. Returns list and prints JSON. Sequence: Downx5, Upx5, Up, Down.",
+        "timestamp": "2026-01-10T18:59:02.437Z",
+        "action_counter": 32124
+      }
+    ]
   }
 }
