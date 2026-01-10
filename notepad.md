@@ -25,6 +25,6 @@
 ## Session Information
 - **Current Location:** New Bark Town (Overworld).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Navigating to Pidgey (Party Menu).
-- **Method:** Escape Pokedex (B x3) -> Start -> Pokemon (Down) -> Select Pidgey (Down x3).
-- **Notes:** Accidentally entered Pokedex (Steelix Entry). Backing out to reset menu state. POKEDEX is above POKEMON.
+- **Status:** Selecting Pidgey in Party.
+- **Method:** Escape Pokedex (B x3) -> Start -> Pokemon (Down) -> Select Pidgey (Down x3) -> Open Submenu (A).
+- **Notes:** Using `slow_press` with 800ms delay to ensure menu navigation reliability. Previous attempt failed due to input timing/desync. Pidgey is in Slot 4.
