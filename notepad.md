@@ -56,14 +56,10 @@
 - Root Hypothesis Check: Building labels must be verified by Map ID or NPC interaction (dialogue) before being documented as permanent markers. (Turn 38852)
 - Counter/Wall Behavior: Counters act as WALL tiles and must be interacted with from an adjacent tile. Verified in Centers and Radio Tower.
 - Tool Maintenance: Fixed find_path tool (v3) to handle autopress_buttons correctly by returning button strings.
+- Navigation: Ledges at y=5 and y=9 are one-way (down). Path at x=19 is clear of ledges to reach the northern map boundary.
 
 ## Route 10 Progress
 - Started Turn: 38868
 - Goal: Reach Power Plant.
-- Pokefan Robert (8, 12): DEFEATED.
-- Hiker Jim (17, 3): DEFEATED. Machamp (Lv 35).
-
-## Route 10 South Navigation Log
-- Turn 38888: Manually explored to (14, 4) via gap at (14, 5). Revealed northern path.
-- Observation: Ledges at y=5 and y=9 are one-way (down). Path at x=19 is clear.
-- Plan: Defeat Hiker Jim, then navigate to (19, 0) to cross to Route 10 North.
+- Pokefan Robert (8, 12): DEFEATED. (Quagsire Lv 33).
+- Hiker Jim (17, 3): DEFEATED. (Machamp Lv 35).
