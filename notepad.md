@@ -9,27 +9,19 @@
 - LEDGE: Semi-traversable (jump down).
 - GRASS: Wild encounter zone.
 - HOLE: Fall to floor below.
-- ICE: Sliding movement.
-- WHIRLPOOL: Requires WHIRLPOOL.
-- WATERFALL: Requires WATERFALL.
-
-## S.S. Aqua Discoveries
-- My cabin: (15, 8) on map 15_3.
-- Gentleman (2, 17) on 15_6: Looking for missing granddaughter.
-- Sailor (ID 2) at (31, 6) on 15_7: Looking for "lazy" buddy.
-- Found "lazy" buddy at (30, 6) on 15_7. He returned to his post.
 
 ## Active Quest: Find Granddaughter
-- Status: Investigating lower deck (B1F). Path at (30, 6) is clear.
-- Strategy: Navigate to western side via gap at (25, 5).
-- Goal: Find the "lazy bum" sailor and the missing girl.
+- Started: Turn 37715.
+- Status: Investigating B1F. Sailor at (30, 6) is blocking the main corridor.
+- Strategy: Go around the sailor via (31, 6) and (31, 5) to reach the western side.
+- Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for "lazy bum" buddy. Found buddy at (30, 6).
 
 ## Kanto Strategy
 - Goal: Collect 8 Kanto badges.
-- Target 1: Lt. Surge (Vermilion City). MVP: GNEISS (Graveler) Lv 51.
-- Training: Level up ICARUS and Ouroboros.
+- Target 1: Lt. Surge (Vermilion City).
+- MVP: GNEISS (Graveler) Lv 51.
 
 ## Lessons Learned
 - XENON (Haunter) is immune to Normal moves.
 - NPCs may block corridors until specific events/dialogue.
-- NPCs update positions after a map transition.
+- NPCs often update positions after a map transition.
