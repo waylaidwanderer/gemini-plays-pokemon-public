@@ -97,3 +97,8 @@
 - Alleyway continues north at x=1, 2, 3.
 - Large building wall at x=4-7, y=18-21.
 - Strategy: Moving north to (2, 18) to check for more paths or buildings.
+## Saffron City Exploration Log (Turn 38390)
+- Currently at (2, 18).
+- NPC Lass at (6, 14) is moving.
+- Alleyway continues north to at least y=14.
+- Strategy: Moving north to (2, 14) to uncover the northern section of the city and search for the Route 5 exit.
