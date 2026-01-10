@@ -25,7 +25,7 @@
 ## Session Information
 - **Current Location:** Route 29 (Just outside New Bark Town).
 - **Goal:** Fly to Ecruteak City.
-- **Status:** Selecting 'FLY' from Pidgey's Submenu.
-- **Method:** Press A to open submenu -> Confirm 'FLY' (should be first option).
-- **Notes:** Cursor is on MISTRAL (Pidgey). Field moves usually appear at the top of the list.
-- **Next Step:** Navigate Fly Map (Up -> Left) to Ecruteak.
+- **Status:** Executing Fly Sequence.
+- **Method:** `navigate_menu` (A -> Left -> Up -> Left -> A).
+- **Notes:** Selects 'FLY', waits (interval), then moves cursor New Bark -> Cherrygrove -> Violet -> Ecruteak, then confirms.
+- **Next Step:** Arrive in Ecruteak -> Search for Beasts on Route 37.
