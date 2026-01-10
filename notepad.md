@@ -47,3 +47,20 @@
 - **Interactions:** Always ensure facing the target tile.
 - **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
 - **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them. Avoid multi-step `press_buttons` without verification.
+## Strategy for Magnet Train Restoration (Turn 39755)
+- **Goal:** Return Poké Doll to Copycat to get Rail Pass.
+- **Location:** Copycat's house is at (9, 11) in Saffron City.
+- **Current Status:** Just arrived in Saffron City from Route 6 via the South Gate.
+- **Next Step:** Navigate to (9, 12) and face Up to enter Copycat's house at (9, 11).
+
+## Lessons Learned (Update)
+- **Pathing Around Obstacles:** When pathfinding, if a tool suggests a blocked path, manually check adjacent tiles. Paths in 2D top-down games are often multiple tiles wide.
+- **Route 6 Navigation:** The direct path North on Route 6 is blocked by a pond; one must circle around to the East to find the land bridge.
+
+## Reflection (Turn 39755)
+1. **Immediate Execution:** No deferred tasks identified.
+2. **Notepad Hygiene:** Notepad is organized. Added current strategy and updated lessons.
+3. **Map Hygiene:** Saffron City markers are mostly in place. South Gate warps (16, 33) and (17, 33) are marked.
+4. **Automation Strategy:** Custom tools `find_path_v3_fixed` and `navigate` are working well. No new tools/agents needed this turn.
+5. **Goal Clarity:** Goals are concrete outcomes. Method is in the Notepad.
+6. **Error Analysis:** Distilled the Route 6 pond navigation into a lesson. Verified that the South Gate is the correct entrance to Saffron City.
