@@ -19,19 +19,24 @@
   2. Locate Vermilion Gym (requires CUT).
   3. Battle Lt. Surge: Use GNEISS (Graveler Lv 51) for Ground immunity.
 
-## Vermilion City Exploration
-- Snorlax is blocking the eastern exit to Route 11 at (34, 8).
-- Port is to the south.
-- Poke Mart: (21, 13).
-- Diglett's Cave Speech House: (21, 17).
-- Magnet Train Speech House: (13, 13).
-- Pokemon Fan Club: (7, 13).
-- Vermilion Gym: (9, 18) (Requires CUT).
+## Vermilion City Exploration (Markers Placed)
+- Snorlax: (34, 8) | Port: South | Mart: (21, 13)
+- Diglett's Cave House: (21, 17) | Magnet Train House: (13, 13)
+- Fan Club: (7, 13) | Gym: (9, 18)
 
-## Current Objective: Heal and Withdraw KIMCHI
+## Current Objective: Withdraw KIMCHI
 - Start Turn: 38183
-- Status: Healing complete. Moving to PC.
+- Status: Healing complete. Accessing PC.
 - To-do: Access PC at (2, 1), withdraw KIMCHI (Box 1), swap for Ouroboros.
+
+## PC Storage (Box 1)
+1. GLAIVE (SCYTHER) Lv14
+2. SELKIE (SEEL) Lv24
+3. DELTA (MANTINE) Lv20
+4. RANGOON (KRABBY) Lv22
+5. NOMURA (TENTACOOL) Lv17
+6. Ravioli (KRABBY) Lv10
+7. KIMCHI (GLOOM) Lv34 (FLASH, ACID, CUT, SLEEP POWDER)
 
 ## Hypotheses (Unverified)
 - Vermilion Gym: Two consecutive switches in trash cans.
