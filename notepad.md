@@ -30,3 +30,7 @@
 
 ## Route 10 North Progress
 - (11, 1): Pokemon Center (Map 7_14).
+## Route 9 Progress
+- (54, 17): Transition to Route 10 North (14, 0).
+- (51, 19): Building door (possibly another Pokemon Center or a house).
+- Goal: Find a path to the water at x=56 to Surf to the Power Plant.
