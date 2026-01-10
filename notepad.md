@@ -18,10 +18,9 @@
 - **Navigation:** Goldenrod Dept. Store -> Sell Revives -> Buy Super Repels.
 
 ## Transaction State
-- **Session Start:** Turn 31658
-- **Status:** Sell Menu (Cursor at Bottom).
-- **Goal:** Sell 5 Revives -> Buy Super Repels.
-- **Current State:** Cursor on CANCEL.
-- **Action:** Scrolling Up x8 to reach REVIVE (Slot ~3).
-- **Observation:** Cursor remembered previous position (Bottom). Revives are near Top.
-- **Next:** Verify REVIVE selection -> Sell 5.
+- **Session Start:** Turn 31659
+- **Status:** Selecting Revives to Sell.
+- **Goal:** Sell 5 Revives.
+- **Action:** Navigating Menu: Down (Ice Berry) -> Down (Revive) -> A (Select).
+- **Current Pos:** BURN HEAL (Top). Target: REVIVE (Slot 3).
+- **Next:** Set quantity to 5 -> Confirm -> Exit to Buy Menu.
