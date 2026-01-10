@@ -23,8 +23,8 @@
 - **Navigation:** Goldenrod City via Fly.
 
 ## Session Information
-- **Current Location:** Silver Cave Outside.
-- **Goal:** Fly to Goldenrod City (Dept Store) for Super Repels.
-- **Status:** Flying to Goldenrod City.
-- **Method:** Navigate Fly Map: Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod) -> A.
-- **Notes:** Using `navigate_menu` with hold_ms=300 per "Lessons Learned" to ensure map cursor moves correctly. Start: New Bark Town.
+- **Current Location:** Olivine City.
+- **Goal:** Buy Super Repels at Olivine Mart.
+- **Status:** Walking to Mart.
+- **Method:** Navigate to (19, 17).
+- **Notes:** Accidentally flew to Olivine instead of Goldenrod (overshot inputs). Fortunately, Olivine Mart sells Super Repels. Adapting plan.
