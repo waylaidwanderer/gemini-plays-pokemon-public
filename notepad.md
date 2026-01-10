@@ -18,3 +18,4 @@
 - **Location:** Celadon Dept. Store (Exit).
 - **Action:** Exit -> Fly Saffron -> Train -> Fly Ecruteak.
 - **Status:** Exiting Store.
+- **Resources:** Low money (¥1772) and balls (2 Ultra). Need to battle for funds.
