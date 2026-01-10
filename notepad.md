@@ -24,10 +24,9 @@
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 4F.
 - **Status:** Checking 4F Clerk Inventory.
-- **Action:** Pressing A to enter BUY menu.
-- **Hypothesis:** 4F Clerk (Medicine) likely stocks Proteins/Vitamins or High-Tier Medicine.
-- **Financials:** ¥6772.
+- **Current State:** BUY Menu (Scrolling).
+- **Action:** Scrolling down to check full inventory.
+- **Inventory Seen:** Protein, Iron, Carbos, Calcium.
 - **Plan:**
-  1. Check for Super Repel.
-  2. If found -> Buy 10.
-  3. If not -> Check 5F or Fly to Blackthorn.
+  1. If Super Repel found -> Buy 10.
+  2. If not -> Exit -> Check 5F (TM Corner).
