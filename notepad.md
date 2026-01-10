@@ -18,7 +18,11 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store 5F.
-- **Status:** Interacting with 5F Clerk.
-- **Action:** Pressing A to speak.
-- **Hypothesis:** 5F (TM Corner) might have special items.
+- **Status:** Checking 5F Clerk Inventory.
+- **Action:** Pressing A to enter BUY menu.
+- **Hypothesis:** 5F Clerk might stock TM-related items or general goods.
 - **Financials:** ¥6772.
+- **Plan:**
+  1. Check for Super Repel.
+  2. If found -> Buy 10.
+  3. If not -> Goldenrod is empty. Fly to Celadon (Kanto).
