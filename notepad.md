@@ -50,9 +50,7 @@
 - Name Rater's House: (7, 13).
 - Soul House: (13, 11).
 - Radio Tower: Northeastern part of town. 1F Receptionist (6, 6), Manager (9, 1), Officer (15, 1) blocks stairs.
-- Mr. Fuji (Soul House 4, 2): Spoken to. No immediate help for power crisis or Radio Tower.
 - House (3, 13): Lavender Speech House. Pokefan F (2, 3) is here.
-- Strategy: Finish exploring Lavender Town houses, then head north to Route 10.
 ## Lessons & Observations
 - Root Hypothesis Check: Building labels must be verified by Map ID or NPC interaction (dialogue) before being documented as permanent markers. (Turn 38852)
 - Counter/Wall Behavior: Counters act as WALL tiles and must be interacted with from an adjacent tile. Verified in Centers and Radio Tower.
