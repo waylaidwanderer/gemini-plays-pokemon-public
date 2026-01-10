@@ -32,9 +32,9 @@
 ## Magnet Train Restoration
 - **Start Turn:** 39646
 - **EXPN Card Phase Start:** 39659
-- **Status:** EXPN Card obtained from Station Manager. Power Plant restored.
+- **Status:** EXPN Card obtained. Power Plant restored.
 - **Plan:**
-  1. Exit Radio Tower and Fly to Saffron City.
+  1. Fly to Saffron City.
   2. Visit the Magnet Train station at (24, 11) in Saffron City.
   3. Locate Copycat's lost Poké Doll.
   4. Obtain the Rail Pass.
