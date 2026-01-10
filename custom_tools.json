@@ -112,5 +112,26 @@
         "action_counter": 30801
       }
     ]
+  },
+  "roamer_hunt_cycle": {
+    "description": "Automates the loop of transitioning from Ecruteak City to Route 37, hunting in the grass, and returning to Ecruteak to reset Roamer positions. Assumes player starts at Ecruteak (18, 35).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "integer",
+          "description": "Number of steps to wiggle in the grass",
+          "default": 10
+        }
+      }
+    },
+    "python_script": "import json\n\nsteps = 10\nif 'steps' in input_data:\n    try:\n        steps = int(input_data['steps'])\n    except:\n        steps = 10\n\nbuttons = []\n# From Ecruteak (18, 35) -> Route 37 (8, 0)\nbuttons.append(\"Down\")\n\n# Move to grass on Route 37 (from 8,0 to 8,2)\nbuttons.append(\"Down\")\nbuttons.append(\"Down\")\n\n# Wiggle in grass\nfor i in range(steps):\n    if i % 2 == 0:\n        buttons.append(\"Left\")\n    else:\n        buttons.append(\"Right\")\n\n# Realign if we ended on Left\nif steps % 2 != 0:\n    buttons.append(\"Right\")\n\n# Return to Ecruteak (Up from 8,2 -> 8,0 -> Transition)\nbuttons.append(\"Up\")\nbuttons.append(\"Up\")\nbuttons.append(\"Up\")\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-10T19:20:59.721Z",
+        "action_counter": 32161
+      }
+    ]
   }
 }
