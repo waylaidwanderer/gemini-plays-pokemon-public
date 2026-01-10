@@ -42,10 +42,10 @@
 ## Active Quests
 - Find the Gentleman's missing granddaughter. Started Turn: 37715.
 - Strategy: Check all cabins on 1F (Map 15_3).
-- Cabins to check: (27, 8) [Checked], (23, 8) [Checked], (19, 8), (15, 8) [My Room].
-- Note: There are no cabins west of (15, 8).
+- Cabins to check: (27, 8) [Checked], (23, 8) [Checked], (19, 8) [Checked], (15, 8) [My Room], (11, 8), (7, 8), (3, 8).
 - Note: Map 15_3 has four staircases leading to map 15_5: (15, 15), (19, 15), (23, 15), (27, 15).
 - Note: Map 15_3 has a ladder at (6, 12).
+- Note: Cabin (19, 8) (Map 15_4) has an empty trashcan at (7, 31).
 ### Battle Observations (S.S. Aqua)
 - Hiker Noland: Sandslash (Lv 31), Golem (Lv 33).
 - Firebreather Lyle: Koffing (Lv 28), Flareon (Lv 31).
