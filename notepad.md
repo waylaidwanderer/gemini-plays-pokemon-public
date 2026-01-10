@@ -27,7 +27,7 @@
 - **Goal:** Hunt Raikou/Entei.
 ## Roamer Hunt Strategy
 - **Route:** Ecruteak (18,35) <-> Route 37 (8,0)
-- **Batch Sequence:** `['Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up', 'Up']`
+- **Batch Sequence:** `['Down', 'Down', 'Down', 'Down', 'Left', 'Right', 'Up', 'Up', 'Up']`
 - **Start Turn:** 30680
 - **Repel:** Active (Applied ~30924). Check periodically.
-- **Adjustment:** Added extra 'Up' to batch to ensure return warp completes.
+- **Adjustment:** Increased 'Down' count to 4 to reach grass at row 2. Corrected from previous floor-dancing error.
