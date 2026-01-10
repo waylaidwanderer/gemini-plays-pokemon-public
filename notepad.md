@@ -50,3 +50,6 @@
 - Cabin 2 (Rows 14-23): Met the Gentleman (2, 17) who lost his granddaughter.
 - Strategy: Check for a third cabin segment or Captain's Cabin (Rows 24-33).
 - Access: Explore east on FastShip 1F (15_3) for more warps.
+- Lower Deck (Map 15_7): Met another Sailor at (31, 6). Talking to him.
+- Pathfinding: Can cross walls at y=4 or y=5.
+- Target: Super Nerd at (26, 9) is in the next corridor west.
