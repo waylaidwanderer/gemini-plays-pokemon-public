@@ -49,8 +49,6 @@
   14. (2,A) (9, 5) <-> (1,B) (5, 9)
   15. (1,A) (1, 5) <-> (2,B) (11, 9) [Sabrina] (Inferred)
 
-- Path to Sabrina: (Entrance) -> (3,C) (19,17) | (15,17) -> (1,C) (5,15) | (5,17) -> (1,B) (5,11) | (1,11) -> (1,A) (5,5) | (1,5) -> Sabrina.
-
 - Battle Log:
   - Medium Rebecca (Defeated): (17, 16) in (3,C).
   - Psychic Franklin (Defeated): (3, 16) in (1,C).
