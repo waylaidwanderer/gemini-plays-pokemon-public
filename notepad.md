@@ -6,8 +6,9 @@
 
 ## Resupply Plan
 - **Goal:** Buy 10 Super Repels.
-- **Status:** Checked 2F, 3F, 4F (No stock). Checking 5F.
-- **Contingency:** Fly to Celadon City (Kanto) if Goldenrod fails.
+- **Location:** Celadon Dept. Store (Kanto).
+- **Status:** En route via Magnet Train.
+- **Goldenrod Report:** 2F-5F checked. No Super Repels found.
 - **Financials:** ¥6772.
 
 ## Roamer Hunt
@@ -16,11 +17,10 @@
 
 # Current Strategy
 ## Travel to Kanto
-- **Goal:** Reach Celadon Dept. Store.
-- **Location:** Goldenrod Dept. Store Elevator (1F).
+- **Goal:** Reach Magnet Train Station.
+- **Location:** Goldenrod Dept. Store (Elevator -> 1F).
 - **Status:** Exiting Elevator.
-- **Action:** Walking out (Down -> Left -> Down).
-- **Next:** Exit Store (South) -> Magnet Train Station.
-- **Note:** Previous turn's movement inputs were consumed by menu closing lag. Retrying movement.
+- **Action:** Pressing Down to warp to 1F.
+- **Next:** Exit Store -> Magnet Train to Saffron.
 - **Lesson (Turn 31721):** HALLUCINATION CHECK. I pressed 'A' thinking I was on 1F, but the screen showed B1F. Always cross-reference "Current Screen Text" with my assumption. Visual confirmation is mandatory before confirming selections.
 - **Menu Strategy:** For critical menus (Elevator, Shops), use `press_buttons` exclusively and verify state after EVERY button press. Do not chain inputs.
