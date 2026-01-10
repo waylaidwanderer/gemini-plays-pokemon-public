@@ -30,7 +30,7 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Current Turn:** 39463
+- **Current Turn:** 39464
 - **Clues:** Machine Part stolen. Rocket Grunt defeated on Route 24.
 - **Location Revealed:** Hidden in the Cerulean Gym water.
 - **Next Step:** Use Itemfinder at (4, 5).
@@ -39,12 +39,13 @@
 - Target Area: Central pools.
 - Method: Use ITEMFINDER. If it pings, search adjacent tiles.
 - Known Pools: 
-  - Pool A (North): (1, 5)-(6, 6).
-  - Pool B (South): (3, 8)-(4, 9).
-- Hidden Item Interaction: Stand on the tile or face it and press A.
+  - Pool A (North): (1, 2)-(8, 6) area.
+  - Pool B (South): (3, 8)-(4, 9) area.
+- Hidden Item Interaction: Stand on the tile and press A.
 - Interaction Log:
   - (4, 8): A pressed -> No result.
   - (3, 6): A pressed -> No result.
   - (4, 6): A pressed -> No result.
   - (4, 5): A pressed -> No result.
-- Note: Itemfinder use in Turn 39462 failed (opened Option menu). Exit Option menu and navigate to PACK.
+- Note: Methodically use Itemfinder. Itemfinder is the 7th Key Item.
+- Menu Path: Start -> Down x3 (Pack) -> A -> Right x2 (Key Items) -> Down x6 (Itemfinder) -> A -> A.
