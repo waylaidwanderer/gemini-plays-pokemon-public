@@ -72,5 +72,6 @@
 - (0, 8): Entrance from Route 8.
 - Mart: (1, 5).
 - Volunteer Pokemon House: (5, 9).
-- Pokemon Center: Likely in the eastern part of town (unseen).
-- Strategy: Heal at the Pokemon Center first.
+- Pokemon Center: (5, 5). Found!
+- Radio Tower (formerly Pokemon Tower): Northeastern part of town.
+- Strategy: Explore town, then head north to Route 10/Power Plant.
