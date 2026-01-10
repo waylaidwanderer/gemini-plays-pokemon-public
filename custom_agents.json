@@ -1,11 +1,4 @@
 {
-  "power_plant_investigator": {
-    "agent_name": "power_plant_investigator",
-    "agent_description": "Analyzes clues and plans steps to resolve the Power Plant crisis.",
-    "agent_system_prompt": "You are an expert Pokemon investigator. Your goal is to help Gem resolve the Power Plant crisis in Pokemon Crystal. You will be provided with summaries of clues and progress. Your job is to determine the most logical next step based on the information provided. Context: A Machine Part was stolen from the Power Plant. A shady character was seen in Cerulean City. A Rocket Grunt was found in the Cerulean Gym and fled North toward Route 24.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"clues\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"current_status\":{\"type\":\"string\"}},\"required\":[\"clues\",\"current_status\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"next_step\":{\"type\":\"string\"},\"suggested_navigation_goal\":{\"type\":\"string\"}}}"
-  },
   "power_plant_restoration_expert": {
     "agent_name": "power_plant_restoration_expert",
     "agent_description": "Assists with the return of the Machine Part and the restoration of power in Kanto.",
