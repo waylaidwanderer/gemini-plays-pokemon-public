@@ -12,6 +12,7 @@
 ## Observations & Tips
 - **Menu Navigation:** `navigate_menu` can register double inputs. Use `press_buttons` for precision if needed.
 - **Celadon Dept Store:** 2F has Repels (Left Clerk) and TMs (3F).
+- **Exploration:** Unmarked warps at (16,3) & (17,3) (Celadon Mansion back?).
 
 # Current Strategy
 ## Master Ball Retrieval & Roamer Hunt
