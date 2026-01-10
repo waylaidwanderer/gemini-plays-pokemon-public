@@ -33,3 +33,4 @@
 - **Action:** Navigating Fly Map (Left x3 with hold_ms=150).
 - **Note:** Cursor was sticky on New Bark. Retrying with cleaner inputs.
 - **Troubleshooting:** Fly cursor stuck on New Bark. Trying multidirectional input (Up, Left, Down, Left) with `hold_ms=500`.
+- **Troubleshooting:** Fly Map cursor stuck. Aborting Fly attempt. Backing out (`B`) to return to Overworld/Menu. Plan: Bike to Goldenrod if Fly remains unusable.
