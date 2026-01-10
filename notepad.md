@@ -32,16 +32,16 @@
 ## Magnet Train Restoration
 - **Start Turn:** 39646
 - **EXPN Card Phase Start:** 39659
-- **Status:** Power Plant restored. Tower back on air. Gentleman (ID 4) at (9, 1) identified as Station Manager.
+- **Status:** EXPN Card obtained from Station Manager. Power Plant restored.
 - **Plan:**
-  1. Talk to Station Manager at (9, 1) in Lavender Radio Tower to get EXPN Card.
-  2. Fly to Saffron City.
-  3. Visit the Magnet Train station at (24, 11) in Saffron City.
-  4. Locate Copycat's lost Poké Doll.
-  5. Obtain the Rail Pass.
+  1. Exit Radio Tower and Fly to Saffron City.
+  2. Visit the Magnet Train station at (24, 11) in Saffron City.
+  3. Locate Copycat's lost Poké Doll.
+  4. Obtain the Rail Pass.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
+- Obtained EXPN Card from Lavender Radio Tower.
 
 ## Lessons Learned
 - **FLY Map Navigation:** Use `press_menu_buttons_v2` and verify the destination text before pressing A.
