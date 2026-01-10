@@ -31,11 +31,11 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Magnet Train Restoration (Turn 39778)
-- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Saffron to Goldenrod and back.
-- **Goal:** Continue the Kanto region journey.
-- **Current Status:** Standing outside the Goldenrod Magnet Train Station in Johto.
-- **Next Step:** Heal at the Goldenrod Pokemon Center (15, 27), then take the train back to Saffron City.
+## Magnet Train Restoration (Turn 39779)
+- **Status:** Obtained the PASS. Power is restored. Successfully traveled from Saffron to Goldenrod.
+- **Goal:** Return to Saffron City to continue the Kanto journey.
+- **Current Status:** Standing in Goldenrod City near the station.
+- **Next Step:** Enter the Goldenrod Magnet Train Station (9, 13) and take the train back to Saffron.
 
 ## Power Plant Investigation (Resolved)
 - Machine Part returned to Manager. Power restored to Kanto.
