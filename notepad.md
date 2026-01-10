@@ -111,3 +111,8 @@
 ## Saffron City Exploration Log (Turn 38395)
 - Marked Lass at (6, 14) as Object 1.
 - Movement to (2, 10) was interrupted by the object detection. Resuming path.
+## Saffron City Exploration Log (Turn 38396)
+- Reached (2, 10).
+- Observed a building to the east at x=4-7, y=8-11.
+- The path at x=1-3 opens up to the east at y=6 and y=7.
+- Strategy: Moving north to (2, 6) to uncover the northernmost tiles and locate the Route 5 exit.
