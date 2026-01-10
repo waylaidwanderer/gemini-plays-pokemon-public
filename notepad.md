@@ -33,19 +33,18 @@
 
 ## Power Plant Investigation
 - **Start Turn:** 39084
-- **Status:** Arrived in Cerulean City. Shady character reported here.
-- **Next Step:** Find the thief in Cerulean City.
+- **Status:** Found a Team Rocket Grunt inside Cerulean Gym! He seems to be the thief.
+- **Next Step:** Confront the Rocket Grunt in Cerulean Gym.
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
 - **Goal:** Find the thief and the Machine Part.
-- **Status:** Exploring the city.
+- **Status:** Found the thief (Rocket Grunt) loitering in the Gym!
 - **Key Locations:**
   - Entrance from Route 9: (39, 22)
-  - Cerulean Gym: (30, 23)
-- **Plan:** Talk to NPCs and check the Gym for the thief. Restoring power to the Radio Tower requires the Machine Part first.
-- **Strategy for Thief:** Check Gym water and behind Gym buildings. Talk to citizens for clues.
-- **Progress:** Talked to Fisher at (29, 26). He's just a Misty fan. Entering Cerulean Gym at (30, 23) to look for the thief.
+  - Cerulean Gym: (30, 23) (Rocket Grunt found here)
+- **Plan:** Confront the Rocket Grunt. Recover the Machine Part.
+- **Progress:** Talked to Fisher at (29, 26). Entered Cerulean Gym at (30, 23) and bumped into a Rocket Grunt.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
