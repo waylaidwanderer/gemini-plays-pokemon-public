@@ -22,11 +22,10 @@
 
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
-- **Location:** Goldenrod Dept. Store 3F.
-- **Status:** Moving to 4F.
+- **Location:** Goldenrod Dept. Store 3F -> 4F.
+- **Status:** Taking stairs to 4F.
 - **Reason:** 3F checked (only X Items). 2F checked (no Super Repels).
 - **Plan:**
-  1. Go to 4F (Stairs at 15, 0).
-  2. Check 4F Clerk (Medicine?).
-  3. If not found, check 5F or Rooftop.
-- **Note:** Only one clerk found on 3F.
+  1. Arrive on 4F.
+  2. Locate Medicine Clerk (usually top or left).
+  3. Check for Super Repels.
