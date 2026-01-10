@@ -12,12 +12,10 @@
 
 ## Active Quest: Find Granddaughter
 - Started: Turn 37715. Timestamp: Friday, January 9, 2026 at 5:17 PM PST.
-- Status: Investigating B1F. Sailor at (31, 6) blocks the eastern corridor. Path at (30, 6) is clear.
-- Strategy: Bypass sailor at (31, 6) by moving through (30, 7) -> (30, 6) -> (30, 5).
-- Target: Explore western corridor at x=28.
-- Obstacle: Super Nerd at (26, 9) acts as a wall and blocks the corridor at x=26.
+- Status: Investigating B1F. Sailor at (31, 6) blocks (31, 6), but (30, 6) is clear.
+- Strategy: Bypass sailor at (31, 6) by moving through (30, 7) -> (30, 6) -> (30, 5). Target western corridors.
 - Failure Log:
-    - Attempted (31, 7) to (26, 10) via find_path_v2 (Turns 37919-37940). Reason: Super Nerd at (26, 9) blocks x=26 corridor. Targeting x=28 instead.
+    - Attempted (31, 7) to (26, 10) (Turns 37919-37941). Reason: Super Nerd at (26, 9) blocks x=26 corridor, and sailor pacing may have blocked (30, 6).
 - Clues: Gentleman (2, 17) on 1F says she's energetic. Sailor at (31, 6) was looking for his "lazy bum" buddy. Found buddy at (30, 6). Both sailors now on duty.
 
 ## Kanto Strategy
