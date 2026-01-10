@@ -31,5 +31,5 @@
 - **Method:** 2-Turn Split Loop (Manual + Tool).
   - **Turn 1 (Current):** Ecruteak -> Route 37 (Manual).
   - **Turn 2:** `rt37_hunt_return` Tool (Hunt & Return).
-- **Status:** Renewing Repel (Menu Open Pending).
+- **Status:** Renewing Repel (In Pack).
 - **Repel:** Expired.
