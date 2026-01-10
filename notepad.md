@@ -23,10 +23,9 @@
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
 - **Location:** Goldenrod Dept. Store.
-- **Status:** Checking Top Clerk (2F).
-- **Action:** Opening BUY Menu.
-- **Financials:** ¥6772.
+- **Status:** Checking Top Clerk (2F) Inventory.
+- **Current State:** BUY Menu (Scrolling).
+- **Action:** Scrolling down to check full inventory.
 - **Plan:**
-  1. Check for Super Repel.
-  2. If found -> Buy 10.
-  3. If not -> Exit -> Check Directory/Other Floors.
+  1. If Super Repel found -> Buy 10.
+  2. If not -> Exit -> Check Directory/Other Floors.
