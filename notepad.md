@@ -51,3 +51,4 @@
 - Hiker Noland: Sandslash (Lv 31), Golem (Lv 33).
 - Firebreather Lyle: Koffing (Lv 28), Flareon (Lv 31).
 - Type Effectiveness: Rock resists Normal and Fire. Ground is immune to Electric.
+- Lesson: Always verify current map ID and position in Game State Information after movement, even if no warp animation is seen. Warps can be subtle.
