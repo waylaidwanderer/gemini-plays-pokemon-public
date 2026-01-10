@@ -27,9 +27,12 @@
 - **Navigation:** Route 35 Gatehouse -> Goldenrod.
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31623)
-- **Status:** In Goldenrod City (Near Dept. Store).
-- **Goal:** Enter Dept. Store (24, 27).
-- **Action:** Pathfinding to entrance (re-calculating path).
-- **Note:** Previous path deviated, likely due to NPC collision or map geometry. Current pos (21, 24).
-- **Next:** Sell Revives, Buy Super Repels.
+- **Session Start:** Turn 30996 (Current: 31625)
+- **Status:** Goldenrod Dept. Store 1F.
+- **Goal:** Take Elevator to 2F.
+- **Action:** Pathfinding to Elevator (2, 0).
+- **Plan:**
+  1. Go to 2F.
+  2. Sell ~5 Revives for cash.
+  3. Buy Max/Super Repels (as many as possible).
+- **Note:** Elevator is faster than stairs for floor hopping.
