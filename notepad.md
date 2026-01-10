@@ -6,7 +6,7 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - DOOR/WARP: Step on to enter buildings/areas.
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
-- FLOOR_UP_WALL: Untested hypothesis. Appears impassable from North.
+- FLOOR_UP_WALL: Impassable Wall from the North.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - GYM_PLATFORM: Raised floor area. Accessible via stairs (LADDER tile type) or by Surfing onto it from water.
 - STAIRCASE: Warp tile that transitions between floors.
@@ -32,8 +32,8 @@
 ## Magnet Train Restoration
 - **Status:** Recovered Copycat's Poké Doll (LOST ITEM) from the Pokémon Fan Club in Vermilion City.
 - **Strategy:**
-  1. Exit the Pokémon Fan Club and move to a neutral tile in Vermilion City.
-  2. Use Fly to travel to Saffron City.
+  1. Exit Vermilion City to the North (Route 6).
+  2. Travel North through Route 6 to Saffron City.
   3. Return the Poké Doll to Copycat on 2F of her house (9, 11) in Saffron.
   4. Obtain the Rail Pass.
 
@@ -42,8 +42,8 @@
 - Obtained EXPN Card from Lavender Radio Tower.
 
 ## Lessons Learned
-- **FLY Map Navigation:** Use `press_menu_buttons_v2`. Verify destination text "SAFFRON CITY" before pressing A.
-- **Hidden Items in Water:** Face tile and press A.
+- **FLY Map Navigation:** Use `press_menu_buttons_v2`. Verify destination text "SAFFRON CITY" before pressing A. Avoid long sequences.
 - **Takeoff:** Move to a neutral tile (not a door mat) before using FLY.
-- **Interactions:** Always ensure facing the target tile. If an object is at (X+1, Y), player must be at (X, Y) facing Right.
+- **Interactions:** Always ensure facing the target tile.
 - **Building Search:** Look for specific Pokémon-related landmarks when searching for lost items.
+- **Navigation:** If blocked by water or obstacles, use the `navigate` tool to find a clear path around them. Avoid multi-step `press_buttons` without verification.
