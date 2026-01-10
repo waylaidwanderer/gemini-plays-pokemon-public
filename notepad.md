@@ -7,9 +7,7 @@
 ## Roamer Hunt
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
-- **Status:** Navigating Fly Map (Turn 32430).
-- **Action:** Cursor at New Bark -> Moving to Goldenrod.
-- **Next Step:** Land in Goldenrod. Buy Repels.
+- **Current Task:** Resupplying (Need Super Repels).
 - **Stats:** 0 Encounters so far.
 - **Strategy:**
   1. Enter Route 37.
