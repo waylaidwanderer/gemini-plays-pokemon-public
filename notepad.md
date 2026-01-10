@@ -18,15 +18,15 @@
   - Plan: Find Mr. Fuji (Lavender) -> Route 10 -> Power Plant -> Cerulean Gym (Machine Part).
 
 ## PC Storage (Box 1)
-1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (Lv20), 4. RANGOON (Lv22), 5. NOMURA (Lv17), 6. Ravioli (Lv10), 7. Ouroboros (Lv15)
+1. GLAIVE (Lv14), 2. SELKIE (Lv24), 3. DELTA (MANTINE) Lv20, 4. RANGOON (KRABBY) Lv22, 5. NOMURA (TENTACOOL) Lv17, 6. Ravioli (Lv10), 7. Ouroboros (DRATINI) Lv15
 
 ## Rock Tunnel Navigation
 - Strategy: Use Flash (KIMCHI). Head north for Power Plant exit.
 - Connections: 1F (27, 13) <-> B1F (3, 3); 1F (15, 9) <-> B1F (17, 9); 1F (5, 3) <-> B1F (23, 3); 1F (27, 3) <-> B1F (25, 23).
-- Row 26 B1F: Impassable barrier from North.
+- B1F Landmarks: (7, 25) IRON picked up.
 
 ## Observed Pokemon (Kanto)
 - Rock Tunnel: Geodude (Lv11-14), Zubat (Lv12), Haunter (Lv17), Onix (Lv16).
 
 ## Route 10 North Progress
-- (11, 1): Pokemon Center.
+- (11, 1): Pokemon Center (Map 7_14).
