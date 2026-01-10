@@ -27,9 +27,9 @@
 - **Navigation:** Route 37 (Grass Area).
 
 ## Roamer Hunt Strategy
-- **Session Start:** Turn 30996 (Current: 31563)
-- **Status:** Resupply Run - Menuing.
-- **Action:** Navigating Pokegear to Map Card.
-- **Goal:** Fly to Goldenrod (Guaranteed Stock) -> Sell Revives -> Buy Super Repels.
-- **Reasoning:** Ecruteak Mart inventory is uncertain; Goldenrod Dept Store is 100% reliable for Super Repels.
-- **Note:** Money: ¥1272. Selling 7 Revives -> ~¥5250. Total ~¥6500 = 13 Super Repels.
+- **Session Start:** Turn 30996 (Current: 31564)
+- **Status:** Resupply Run - Delayed (Accidental Call).
+- **Action:** Ending phone call with Mom.
+- **Goal:** Fly to Goldenrod -> Sell Revives -> Buy Super Repels.
+- **Reasoning:** Tool `navigate_menu` overshot Map card and selected Phone -> Mom.
+- **Note:** Money: ¥1272. Need cash for Repels.
