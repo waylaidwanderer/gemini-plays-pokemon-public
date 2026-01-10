@@ -11,11 +11,11 @@
 - HOLE: Fall to floor below.
 
 ## Active Quest: Find Granddaughter
-- Status: Investigating lower deck (B1F). Path at (30, 6) is blocked; navigating around via row 5.
+- Status: Investigating lower deck (B1F). Path at (30, 6) is clear.
 - Clue: Gentleman (2, 17) on 1F said she's energetic and bugging someone.
-- Clue: Sailor at (31, 6) on B1F was looking for his "lazy bum" buddy who was goofing off.
-- Progress: Spoke to lazy sailor at (30, 6). He returned to post (swapped with other sailor).
-- Strategy: Explore western corridors of B1F to find the missing girl.
+- Clue: Sailor at (31, 6) on B1F was looking for his "lazy bum" buddy.
+- Progress: Spoke to lazy sailor at (30, 6). He returned to post.
+- Strategy: Explore western corridors of B1F (x=26, x=28) to find the girl.
 - **Collect the 8 Kanto badges.**
   - Strategy: Lt. Surge (Vermilion City) first. Recommended Lv 44-50.
   - MVP: GNEISS (Graveler) for Ground immunity.
@@ -25,10 +25,3 @@
 - Status: Paralysis reduces speed by 75%.
 - NPCs may block corridors until specific dialogue/events are triggered.
 - NPCs update positions after a map transition.
-
-### Map 15_3 Warp Log
-- (15, 15) -> 15_5 (2, 19) [Checked]
-- (19, 15) -> 15_5 (2, 31) [Checked]
-- (23, 15) -> 15_6 (2, 7) [Checked]
-- (27, 15) -> 15_6 (2, 19) [Checked]
-- (30, 14) -> 15_7 (31, 13) [Checked]
