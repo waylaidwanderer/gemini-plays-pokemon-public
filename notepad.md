@@ -22,8 +22,10 @@
 
 ## Transaction State
 - **Current Goal:** Buy Super Repels (Target: 10).
-- **Location:** Goldenrod Dept. Store.
-- **Status:** Moving to 3F (Manual Pathing).
-- **Action:** Up x4 -> Right -> Up (Enter Stairs).
-- **Reason:** Previous pathfinding tool failed on staircase tile.
-- **Financials:** ¥6772.
+- **Location:** Goldenrod Dept. Store 3F.
+- **Status:** Arrived on 3F. Checking Clerk.
+- **Action:** Pathfinding to Clerk at (6, 1).
+- **Plan:**
+  1. Move to (6, 1).
+  2. Check Inventory (Battle Items/TMs).
+  3. If no Super Repel, check 4F or 5F.
