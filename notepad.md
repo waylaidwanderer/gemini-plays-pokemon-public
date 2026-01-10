@@ -33,7 +33,9 @@
 
 ## Cerulean City Exploration
 - **Start Turn:** 39337
-- **Detour Note:** Path blocked by ledges at Row 21; must go around via the western side (X=14-17) to reach the northern exit.
+- **Detour Note:** Direct North path is blocked by Row 21 ledges. An open path North exists on the EAST side of the Gym through the gap at (33, 23) and (34, 23).
+- **Plan:** Search Route 24 (North) for the Rocket Grunt. Confront him to recover the Machine Part.
+- **Strategy:** Move North via X=33/34, then find the transition to Route 24.
 
 ## Route 9 Exploration (Completed)
 - Start Turn: 39167
