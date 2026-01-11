@@ -69,3 +69,5 @@
 - [ ] Soul Badge (Fuchsia City) - Goal 5
 - [ ] Volcano Badge (Seafoam Islands)
 - [ ] Earth Badge (Viridian City)
+## Route 12 Interests
+- **Fisher Kyle:** Battled at (8, 7). Uses Seaking (Lv28). (Turn 40197)
