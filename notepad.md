@@ -4,10 +4,10 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Traverse Victory Road Gate
-- **Location:** Victory Road Gate (ID: 23_13).
-- **Goal:** Exit North to Victory Road.
-- **Route:** Walk North from (9, 17) to (9, 0).
+## Current Task: Traverse Victory Road
+- **Location:** Victory Road (ID: 3_91).
+- **Goal:** Reach Ladder at (1, 49).
+- **Route:** East to Col 11 -> North to Row 54 -> West to Col 7 -> South to Row 56 -> West to Col 2 -> North to Ladder.
 
 ## Status
 - **Money:** ¥3294 (Gaven Defeated).
