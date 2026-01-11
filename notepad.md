@@ -52,5 +52,5 @@
   - #7 Super Nerd Pat (31, 7): DEFEATED (Not part of challenge).
   - Challenge: Beat 6 trainers - COMPLETED.
   - Prize Giver: Cooltrainer Kevin (37, 8). Received NUGGET.
-  - Battle: Cooltrainer Kevin (ID 10) in progress (Charmeleon).
+  - Battle: Cooltrainer Kevin (ID 10) in progress (Wartortle).
   - Misty: Likely beyond Cut Tree at (34, 6).
