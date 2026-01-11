@@ -4,8 +4,8 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37 (9,5).
-- **Action:** Resuming Sweep (Pass 36). Resetting to Gate.
+- **Location:** Route 37 (Moving to 8,0).
+- **Action:** Resetting to Start Position (Pass 36).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 32/Turn 34549). Next: Pass 37.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
