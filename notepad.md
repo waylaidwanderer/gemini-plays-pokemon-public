@@ -54,10 +54,10 @@
 ## Economy & Shopping
 - **Celadon Dept Store Inventory Summary:**
     - 2F: Healing items (Full Heal, Max Potion, Revive).
-    - 3F: TM Shop: TM10, TM11, TM17, TM18, TM37.
-    - 4F: Wiseman Gifts: Poke Doll, Lovely Mail, Surf Mail.
-    - 5F: Drugstore: Vitamins (Clerk 1), Battle Items (Clerk 2).
-    - 6F: Vending Machines: Fresh Water (¥200), Soda Pop (¥300), Lemonade (¥350).
+    - 3F: TM Shop inventory documented.
+    - 4F: Wiseman Gifts inventory documented.
+    - 5F: Drugstore inventory documented.
+    - 6F: Vending Machines inventory documented.
 - **Long Term Shopping Plan:**
     - Find Evolution Stones (not in Dept Store).
 
@@ -73,26 +73,29 @@
 - **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
 - **Strategic Plan for Kanto Badges:**
     1. Celadon (Rainbow) - COMPLETED.
-    2. Fuchsia (Soul) - Next target. Use Cycling Road or Route 12-15.
-    3. Cinnabar/Seafoam (Volcano) - After Fuchsia. Use Surf from Pallet or Fuchsia.
-    4. Viridian (Earth) - Final badge. Blue is the leader.
+    2. Fuchsia (Soul) - Next target. Soul Badge.
+       - HOW: Route 16 (Cycling Road) requires Bicycle. Route 12-15 (Silence Bridge) is alternative.
+    3. Cinnabar/Seafoam (Volcano) - After Fuchsia. Volcano Badge.
+       - HOW: Surf from Pallet Town or Fuchsia City.
+    4. Viridian (Earth) - Final badge. Earth Badge. Blue is the leader.
 - **Rematches:** Alan (Route 36) wants a battle.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - **Ledges:** Hop down south only.
-- **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
+- **Celadon Pillars:** Col 12 and Col 36 block horizontal movement (Observed on Dept Store 1F).
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Teacher (1, 7):** Mentions using items on Pokemon makes them happy, but they hate certain items.
+- **Teacher (1, 7) on 5F:** Mentions using items on Pokemon makes them happy, but they hate certain items.
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
+
 ## Strategy for Celadon Game Corner (Turn 41953)
 1. Mark entrance/exit warps. (Done)
 2. Explore the floor to reveal all unseen tiles.
 3. Talk to all NPCs:
     - Pokefan M at (14, 10): Slot machines are state of the art. (Done)
-    - Fishing Guru at (11, 7): The odds vary among machines. (Done Turn 41964)
-    - Teacher at (17, 7).
-    - Fisher at (8, 10): Gave GEM 20 coins. (Done Turn 41968)
+    - Fishing Guru at (11, 7): The odds vary among machines. (Done)
+    - Teacher at (17, 7): Machine should pay out today. (Done Turn 41971)
+    - Fisher at (8, 10): Gave GEM 20 coins. (Done)
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity (hidden switches, etc.).
