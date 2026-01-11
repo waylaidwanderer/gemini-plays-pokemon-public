@@ -16,7 +16,7 @@
 - WARP_CARPET: Warp at map edges.
 - WARP_CARPET_DOWN: Exit tile.
 - LEDGE / LEDGE_HOP_DOWN: One-way jump down (from Above).
-- FLOOR_UP_WALL: Collision type for ledges.
+- FLOOR_UP_WALL: Collision type for ledges. Blocks movement from North.
 - OBJECTS (NPCs/Items): Impassable.
 
 ## Party Management
@@ -53,5 +53,5 @@
 - **Start Turn:** 40635
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!".
-- **Route 3 Navigation:** Vertical walls block at X=13, 19, 24, 32, 35, 40, and 54. Rows 0, 3, 4, 14, and 16/17 are clear for bypass. (Turn 40889).
+- **Route 3 Navigation:** Vertical walls block at X=13, 19, 24, 32, 35, 40, and 54. Rows 0, 3, 4 are clear for early walls. Row 6/7 seems to be the bypass for the X=50 and X=54 walls. (Turn 40897).
 - **Repel Status:** Super Repel active (200 steps from Turn 40885).
