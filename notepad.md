@@ -24,7 +24,6 @@
     - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion (¥2500), Revive (¥1500), Super Repel, Max Repel.
     - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal (¥600).
     - Purchases: 10 Full Heals, 10 Max Potions, 10 Revives. Nugget sold.
-    - Next: Explore western half of 2F.
 - **Long Term Shopping Plan:**
     - 2F: Revives, Full Heals.
     - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Fury Cutter.
@@ -48,6 +47,12 @@
     1. Finish exploring Celadon Dept Store.
     2. Check Game Corner.
     3. Head to Fuchsia City via Cycling Road or Silence Bridge.
+- **Major Milestones:**
+    - Obtain EXPN Card (Lavender Radio Tower) to wake Snorlax.
+    - Wake Snorlax (Route 11) to access Western Kanto.
+    - Challenge Sabrina (Saffron Gym) for Marsh Badge.
+    - Retrieve Copycat's Lost Item (Vermilion Fan Club) for Magnet Train Pass.
+    - Visit Daisy Oak (Pallet Town) 3-4 PM for happiness boost.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
