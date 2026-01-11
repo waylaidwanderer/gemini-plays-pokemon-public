@@ -68,6 +68,7 @@
 - Turn 40232: Attempt 11 at Radio Tuning. Start menu cursor at GEM. Plan: Up, A, Right, Up (repeat), B, B.
 - Frequency 20 Verification: Music should change to Poke Flute melody.
 - Turn 40233: Attempt 12 at Radio Tuning. Start menu cursor at GEM. Plan: Up, A, Right, Right, Right. Verifying stations. Calling advisor.
-- Turn 40236: Failed to open Gear, opened Pokedex instead. Menu cursor starts on POKEMON. Gear is 2 down from starting position.
-- Turn 40238: Attempting to open Gear (Start, Down, Down, A), switch to Radio (Right), and tune to Poke Flute (Up holding).
+- Turn 40236: Failed to open Gear, opened Pokedex instead. Menu cursor starts on POKEDEX.
+- Turn 40238: Interrupted by phone call from Tully. Menu cursor starts on POKEDEX. Gear is 3 down from POKEDEX.
 - Pokegear Card Order Verification: Map (1st), Radio (2nd), Phone (3rd). One 'Right' from Map should reach Radio.
+- Plan: Heal at Lavender Pokemon Center (5, 5), then head south to Route 12 to find Snorlax.
