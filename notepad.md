@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Sweeping Grass (Pass 23).
+- **Action:** Finishing Pass 23 -> Transitioning to Ecruteak.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34494).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
