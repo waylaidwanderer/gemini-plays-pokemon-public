@@ -51,7 +51,7 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Inventory Sync:** Calcifer is Lv 62. Iron/Rare Candy usage verified. Bag slots cleared.
+- **Inventory Sync:** Calcifer is Lv 62. Iron/Rare Candy usage verified. Bag slots cleared. Nugget sold. Inventory matches purchases.
 
 ## Reflection Turn 41829
 - **Immediate Execution:** No deferred tasks.
