@@ -60,10 +60,9 @@
 - Celadon Mansion 2F: Stairs at (0, 0) and (1, 0) to 3F are unreachable from the main area.
 - Celadon Mansion 2F: Confirmed isolated area; searching for hidden back door outside.
 - Celadon Mansion 3F: Reached via stairs at (6, 0).
-- Celadon Mansion 3F: Gym Guide at (3, 4) and Cooltrainer M at (3, 6) present.
+- Celadon Mansion 3F: Graphic Artist (previously mislabeled as Gym Guide) at (3, 4) says he drew the player.
+- Celadon Mansion 3F: Cooltrainer M (Game Designer) at (3, 6) says filling the Pokedex is tough.
+- Celadon Mansion 3F: Super Nerd at (0, 7) and Fisher at (0, 4) present.
 - Celadon Mansion 3F: Drawing at (4, 3) to be investigated.
 - Celadon Mansion 3F: Bookshelf at (2, 3) to be investigated.
-- Celadon Mansion 3F: Super Nerd at (0, 7) and Fisher at (0, 4) present.
 - Celadon Mansion 3F: Game Program at (1, 6), Reference Material at (1, 3), and Dev Room Sign at (5, 8) to be investigated.
-- Celadon Mansion 3F: Cooltrainer M (Game Designer) at (3, 6) says filling the Pokedex is tough.
-- Celadon Mansion 3F: Gym Guide at (3, 4) to be spoken to next.
