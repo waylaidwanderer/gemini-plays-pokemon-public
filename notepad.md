@@ -5,13 +5,13 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Traverse Victory Road 1F (South -> East)
-- **Location:** Victory Road 1F (West Section) at (1, 49).
+- **Location:** Victory Road 1F (West Section) at (7, 55).
 - **Goal:** Reach East Section via South Corridor.
-- **Route:** `(1, 49) -> (2, 57) -> (7, 57) -> (7, 54) -> (11, 54) -> East`.
+- **Route:** `(7, 55) -> (7, 54) -> (15, 54) -> (15, 56) -> (18, 56) -> North`.
 - **Reasoning:**
-  - Successfully returned to 1F.
-  - Heading to southern corridor (Row 57) to bypass potential blockage at (6, 56).
-  - Will then navigate East to reach the ladder at (17, 33).
+  - Navigating South Corridor (Row 54/56) to cross to East side.
+  - Avoiding potential blockage at (6, 56) by using Row 54.
+  - Heading to (18, 56) to begin Northern ascent to Ladder (17, 33).
 
 ## Reflection (Turn 32967)
 - **Execution:** No deferred tasks identified in the last 50 turns.
