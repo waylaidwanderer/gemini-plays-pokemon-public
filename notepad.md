@@ -42,7 +42,7 @@
     - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion (¥2500), Revive (¥1500), Super Repel, Max Repel.
     - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal (¥600).
     - Purchases: 10 Full Heals (¥6000).
-    - Next: Buy Max Potions and Revives from Clerk 1.
+    - Next: Sell Nugget, then buy Max Potions and Revives from Clerk 1.
 - **Long Term Shopping Plan:**
     - 2F: Revives, Full Heals.
     - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Fury Cutter.
