@@ -5,9 +5,9 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Traverse Route 26
-- **Location:** Route 26 (North of Healer House).
+- **Location:** Route 26 (Approaching Victory Road Gate).
 - **Goal:** Reach Victory Road Gate at (7, 5).
-- **Route:** North past Gaven -> Cross to East side at Row 27 -> Cross back near Gate.
+- **Route:** North to Row 8 -> Cross West -> Enter Gate.
 
 ## Status
 - **Money:** ¥3294 (Gaven Defeated).
