@@ -34,10 +34,9 @@
 - **Start Turn:** 39791
 - **Status:** Marsh Badge obtained (Turn 39878).
 - **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
-- **Shortest Warp Path (Exit):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
 ## Lessons Learned
-- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
+- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times. Fixed sequences for menu navigation are unreliable without a reset.
 - **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
-- **Warp Maze:** BFS on Map Events data is optimal for finding paths through warp tiles.
+- **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
