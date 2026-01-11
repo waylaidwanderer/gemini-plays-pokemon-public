@@ -12,9 +12,8 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Ecruteak City (South Exit).
-- **Next:** Dismiss Repel Msg -> Return to Route 37 -> Re-apply Max Repel -> Grass Check.
-- **Note:** "Repel wore off" message persists. Clearing confirms.
+- **Location:** Route 37 (Grass Check - Round 5).
+- **Next:** Move to Grass -> Re-apply Max Repel -> Run Pattern.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
