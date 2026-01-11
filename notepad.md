@@ -16,18 +16,23 @@
 - WARP_CARPET: Warp at map edges.
 - WARP_CARPET_DOWN: Exit tile.
 - LEDGE: One-way jump down.
+- LEDGE_HOP_DOWN: One-way jump (Verified Turn 40688).
 
 ## Party Management
-- **Lead Pokémon:** XENON (HAUNTER Lv44).
+- **Lead Pokémon:** GNEISS (GRAVELER Lv53).
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH).
+
+## Battle Strategies
+- **Brock (Pewter Gym):** Lead with GNEISS (Graveler) using Earthquake. Backup: LAPIS (Poliwag) with Surf.
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
+  - Pewter (Brock): Target.
   - Cerulean (Misty): Target. End of Route 25.
 - **Recent Battles:**
-  - Bug Catcher Ed (Route 2): In progress. (Turn 40635).
+  - Bug Catcher Ed (Route 2): DEFEATED. (Turn 40653).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial. (Turn 40554).
@@ -37,28 +42,4 @@
 ## Strategy: Finding Misty
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-- **Current Status:** Heading to Pewter City. (Turn 40635).
-## Pewter City Exploration
-- **Entry:** Arrived from Route 2 at (18, 35). (Turn 40655).
-- **Plan:**
-  1. Find Poké Mart and buy Max Repels / Super Repels.
-  2. Find Pewter Gym (Brock) and battle for the badge.
-  3. Explore the Museum.
-  4. Head East to Route 3.
-- **Tile Mechanics:** FLOOR and WALL collision confirmed at city entrance. (Turn 40655).
-## Pewter City Exploration Status
-- (13, 25): Pokémon Center (Confirmed).
-- (7, 29): Snooze Speech House. (Confirmed).
-- (23, 17): Poké Mart. Bought 10 Super Repels (Turn 40702).
-- (16, 17): Pewter Gym location (Confirmed visually, needs entry).
-- (12, 30): Bug Catcher NPC.
-- (19, 29): Welcome Sign.
-- (14, 25): Poké Center Sign.
-- (18, 35): Path to Route 2.
-## Quest: Finding Misty
-- **Start Turn:** 40635
-- **Status:** In Pewter City. Need Repels.
-- **Current Strategy:** Explore NE Pewter for Poké Mart.
-
-## Tile Mechanics Update
-- LEDGE_HOP_DOWN: One-way jump (Verified Turn 40688).
+- **Current Status:** In Pewter City. Bought 10 Super Repels. Swapping Gneiss to lead for Gym battle. (Turn 40711).
