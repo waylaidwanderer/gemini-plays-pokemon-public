@@ -36,7 +36,13 @@
 - **Recent Battles:**
   - Youngster Warren (Route 3): DEFEATED. (Turn 40814).
   - Youngster Jimmy (Route 3): DEFEATED. (Turn 40826).
-  - Firebreather Otis (Route 3): Defeating. (Turn 40841).
+  - Firebreather Otis (Route 3): Defeating. (Turn 40843).
+
+## Strategy: Mt. Moon
+- **Objective:** Traverse Mt. Moon to reach Cerulean City.
+- **Preparation:** Ensure GNEISS (Graveler) has PP for Earthquake/Rollout. Check for items like Moon Stone.
+- **Navigation:** Mt. Moon often has multiple floors. Use ladders and mark them.
+- **Exploration:** Check "Potentially Reachable Unseen Tiles" near walls for hidden paths or items. (Turn 40843).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
