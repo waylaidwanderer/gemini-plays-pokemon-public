@@ -143,5 +143,31 @@
         "action_counter": 41407
       }
     ]
+  },
+  "find_reachable_unseen_tiles": {
+    "description": "Identifies all unseen tiles on the current map that are adjacent to reachable walkable tiles. Useful for planning exploration and uncovering the map efficiently.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_x": {
+          "type": "integer"
+        },
+        "current_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ]
+    },
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        tree = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n        \n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    start_x = int(input_data['current_x'])\n    start_y = int(input_data['current_y'])\n    \n    grid = {}\n    unseen_tiles = []\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            \n            walkable_types = [\n                \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"LADDER\", \"PIER\", \n                \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \n                \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"LEDGE_HOP_DOWN\", \"grass\"\n            ]\n            \n            is_walkable = t_type in walkable_types or not seen\n            if has_object:\n                is_walkable = False\n                \n            grid[(x, y)] = {\"type\": t_type, \"walkable\": is_walkable, \"seen\": seen}\n            if not seen:\n                unseen_tiles.append((x, y))\n\n    queue = collections.deque([(start_x, start_y)])\n    visited = {(start_x, start_y)}\n    reachable_walkable = {(start_x, start_y)}\n    \n    while queue:\n        x, y = queue.popleft()\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                tile = grid[(nx, ny)]\n                if tile[\"walkable\"] and tile[\"seen\"]:\n                    if tile[\"type\"] == \"LEDGE_HOP_DOWN\":\n                        if dy == 1:\n                            visited.add((nx, ny))\n                            reachable_walkable.add((nx, ny))\n                            queue.append((nx, ny))\n                    else:\n                        visited.add((nx, ny))\n                        reachable_walkable.add((nx, ny))\n                        queue.append((nx, ny))\n\n    reachable_unseen = []\n    for ux, uy in unseen_tiles:\n        for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n            px, py = ux + dx, uy + dy\n            if (px, py) in reachable_walkable:\n                reachable_unseen.append({\"x\": ux, \"y\": uy})\n                break\n                \n    print(json.dumps(reachable_unseen))\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T18:35:24.812Z",
+        "action_counter": 41414
+      }
+    ]
   }
 }
