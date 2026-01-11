@@ -7,8 +7,8 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
-- **Status:** Battling Bruno.
-- **Opponent:** Onix (Incoming).
+- **Status:** Battling Bruno (Final Pokemon).
+- **Opponent:** Onix (Lv43).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Onix:** Use `Ice Punch` (Special Attack vs Low Sp. Def).
