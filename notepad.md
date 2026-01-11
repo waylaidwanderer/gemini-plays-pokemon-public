@@ -8,10 +8,9 @@
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
-- **Opponent:** Gengar (Lv45) - ~50% HP.
-- **Active:** Lugia (Lv60) - Cursed.
+- **Opponent:** Murkrow (Incoming).
+- **Active:** Lugia (Lv60) -> Switching to Muscle (Lv87).
 - **Strategy:**
-  - **Gengar:** Use `Hydro Pump`.
-  - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
+  - **Murkrow:** Use `Ice Punch` or `Thunderpunch` (Super Effective).
   - **Houndoom:** Muscle (`Cross Chop`).
-- **Health Check:** Muscle 283/295 HP, Lugia 204/204 HP.
+- **Health Check:** Muscle 283/295 HP, Lugia 204/204 HP (Cursed).
