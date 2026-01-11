@@ -71,12 +71,12 @@
 ## Strategy: Mt. Moon Square Exploration
 - **Goal:** Reach the western edge (1, 8).
 - **Obstacles:** Walls at X=3, 4, 11, 15, 19, 20, 23, 25. Ledges at Y=11, 14.
-- **Hypothesis:** The map has tiers.
-  - Top Tier (Row 1-2): Reachable via (13, 3) gap.
-  - Middle Tier (Row 4-13): Divided by boxes and walls.
-  - Bottom Tier (Row 15-17): Below the Y=14 ledge.
-- **Verified Path to (1, 8):**
-  1. From (22, 6), move to (27, 6) or (27, 2).
-  2. Move West along Row 2 to (1, 2).
-  3. Move South to (1, 8).
-- **Status:** At (22, 6). Repel active. Calcifer leading. (Turn 41005).
+- **Hypothesis:** The map has tiers. Row 14/15 is the key to Column 27.
+- **Planned Path to (1, 8):**
+  1. Return to (13, 10).
+  2. Jump Down the ledge at (13, 11) to reach Row 12.
+  3. Navigate to (15, 14) and move East to (24, 14).
+  4. Explore East through (25, 14) to reach Column 27.
+  5. Move North along Column 27 to the Top Tier (Row 2).
+  6. Move West along Row 2 to (1, 2) and South to (1, 8).
+- **Status:** At (22, 6). Repel expired. Calcifer leading. (Turn 41006).
