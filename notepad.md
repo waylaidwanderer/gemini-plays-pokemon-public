@@ -50,4 +50,5 @@
 - **Cerulean City Locals:** Slowbro & Cooltrainer F (20-21, 24). (Turn 41065).
 - **Cerulean City Ledge Navigation:** The path around the ledges to reach the northern area (33, 23) involves going south to (32, 30), then east and north.
 - **NPC Info:** Fisher at (31, 26) is a fan of Misty but has no location info. (Turn 41079).
+- **Cerulean Cape Sign:** (23, 7) "CERULEAN CAPE AHEAD". (Turn 41089).
 - **Route 24 Exit:** The ladder at (21, 0) leads to Route 24. (Turn 41081).
