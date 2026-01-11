@@ -55,3 +55,17 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Always ensure tool logic includes all traversable types (DOOR, STAIRCASE, etc.). Fix immediately when missing types are identified.
+## Shopping Log - Celadon Dept Store 2F (Turn 41750)
+- Goal: Stock up on high-level healing items.
+- Inventory Check: Full Heal x2, Lemonade x9, Super Repel x7.
+- Budget: ¥86244.
+- Shopping List:
+    1. Max Potions (as many as affordable/needed).
+    2. Full Heals (aim for 10+).
+    3. Revives (check other clerks or floors if not here).
+- Current Stock (Clerk 1):
+    - Potion: ¥300
+    - Super Potion: ¥700
+    - Hyper Potion: ¥1200
+    - Max Potion: ¥2500
+- Plan: Scroll down to check for Revives and Full Heals before buying.
