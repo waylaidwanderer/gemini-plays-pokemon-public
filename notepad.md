@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Finishing sweep (South-East corner) -> Exit to Ecruteak.
-- **Strategy:** Sweep Rows 4-5 Left -> Exit North to Shuffle.
+- **Action:** Re-applying Max Repel.
+- **Strategy:** Close Text -> Open Pack -> Use Repel -> Exit North.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
