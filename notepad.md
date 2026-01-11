@@ -12,9 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Final Sweep).
-- **Next:** Return to Ecruteak to Shuffle.
-- **Note:** Sweeping left then centering for exit.
+- **Location:** Route 37 (Final Sweep -> Ecruteak).
+- **Next:** Enter Ecruteak to Shuffle.
+- **Note:** Finishing zig-zag pattern.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
