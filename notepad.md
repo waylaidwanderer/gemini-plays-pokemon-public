@@ -30,27 +30,18 @@
 - LAPIS (POLIWAG): SURF, WHIRLPOOL, WATERFALL
 - ICARUS (PIDGEOTTO): FLY
 
-## Machine Part Investigation
-- **Start Turn:** 39929
-- **Clue:** Rocket Grunt: "I hid it in the water in the center of the Gym."
-- **Status:** Contradictory data found. Inventory contains 'PASS', suggesting quest completion. 
-- **Verified Empty Tiles:** (3,8), (4,8), (3,9), (4,9), (3,3), (4,6), (5,6).
-- **Itemfinder History:**
-    - (3,7), (4,7): Ping (Prior to Turn 39988).
-    - (4,7): Nope! (Turn 40061). 
-- **Hypothesis:** The Power Plant quest is already complete. The 'Nope!' at (4,7) indicates the item is no longer there.
-- **Next Step:** Verify Magnet Train status in Saffron City.
+## Machine Part Investigation (Resolved)
+- **Conclusion (Turn 40061):** The Power Plant quest appears to be complete. Inventory contains the 'PASS' (Copycat's reward), and Context Summary 39643 notes the problem was resolved. Itemfinder 'Nope!' at previous ping locations (4,7) confirms the item is gone.
 
-## Completed Objectives
-- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
-- **Power Plant Conflict:** Manager informed of theft. Rocket Grunt defeated.
-
-## Lessons Learned
+## General Lessons
+- **Data Integrity:** Context Summaries and Inventory are the absolute sources of truth. Prioritize them over transient "pings" or personal memory.
 - **Itemfinder (Crystal):** "Nope!" means no item is within search range. A ping means an item is within range.
-- **Gym Clue:** "Center" is relative. 
-- **Data Integrity:** Summary turn 39643 says problem resolved; trust this and current inventory over conflicting pings.
+
+## Saffron City Strategy
+- **Goal:** Verify Magnet Train functionality.
+- **Location:** Magnet Train Station (8, 3).
+- **Requirement:** PASS (In inventory).
 
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
-- **Magnet Train:** Station is in Saffron City. Requires PASS and restored power.
-- **Copycat:** Lives in Saffron. Reward for returning her doll is the PASS (already in inventory).
+- **Copycat:** Reward for returning her doll is the PASS (already in inventory).
