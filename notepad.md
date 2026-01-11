@@ -34,9 +34,9 @@
 - **WATER:** Traversable with SURF.
 
 # Roamer Hunt Log
-- **Summary:** Iterations 1-23: No encounters.
-- **Current Iteration (24):**
-  - Start Time: Turn 33631
+- **Summary:** Iterations 1-24: No encounters.
+- **Current Iteration (25):**
+  - Start Time: Turn 33632
   - Location: Route 37
-  - Action: Hunting (Grass Sweep + Exit).
-  - Note: Repel active (Refreshed Turn 33590). Steps remaining: ~200.
+  - Action: Map Reset (Ecruteak -> Route 37).
+  - Note: Repel active (Refreshed Turn 33590). Steps remaining: ~190.
