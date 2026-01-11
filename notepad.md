@@ -83,12 +83,12 @@
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - **Ledges:** Hop down south only.
-- **Celadon Pillars:** Col 12 and Col 36 block horizontal movement (Observed on Dept Store 1F).
+- **Celadon Pillars:** In Dept Store 1F, Col 12 and Col 36 block horizontal movement. Not a global rule.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Teacher (1, 7) on 5F:** Mentions using items on Pokemon makes them happy, but they hate certain items.
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
 
-## Strategy for Celadon Game Corner (Turn 41953)
+## Strategy for Celadon Game Corner (Started Turn 41953)
 1. Mark entrance/exit warps. (Done)
 2. Explore the floor to reveal all unseen tiles. (In Progress)
 3. Talk to all NPCs:
@@ -97,7 +97,7 @@
     - Teacher at (17, 7): Machine should pay out today. (Done)
     - Fisher at (8, 10): Gave GEM 20 coins. (Done)
     - Gym Guide at (11, 3): Trying to get coins for prize Pokémon. (Done)
-    - Gramps at (2, 8): Mentions odds are better for Pikachu's line. (Done Turn 41984)
+    - Gramps at (2, 8): Mentions odds are better for Pikachu's line. (Done)
     - Receptionist at (3, 2).
     - Clerk at (5, 2).
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
