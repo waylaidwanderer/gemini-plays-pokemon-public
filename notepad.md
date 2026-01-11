@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Call Finished. Resuming Map Check (Pass 47).
+- **Action:** Closing Gaven's Call (Pass 47).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 42/Turn 34605). Next: Pass 52.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
