@@ -45,3 +45,23 @@
 - **Precision Tuning:** Ensure the needle is at the absolute top of the dial for the Poke Flute. (Turn 40535).
 - **Menu Cursor Memory:** Start menu remembers last position. Always verify start position. (Turn 40501).
 - **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
+## Kanto Tile Mechanics (Verified)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- NPC / Object: Impassable. Must navigate around or interact from adjacent tile.
+- COUNTER: Impassable. Interact from front tile.
+- WATER: Traversable with SURF.
+- WARP: Step on to trigger.
+
+## Time Tracking
+- Snorlax Quest (Radio Tuning): Started Turn 40535.
+- Snorlax Battle: Started Turn 40559.
+
+## Strategy for Catching Snorlax
+- **Status:** Snorlax is Level 50, has Leftovers.
+- **Plan:**
+  1. Hypnosis (Xenon) to sleep. (Applied)
+  2. Dream Eater (Xenon) to lower HP to red. (In progress, HP currently in yellow/orange).
+  3. Switch to Great Balls (26) or Ultra Ball (1) once HP is low.
+  4. If Snorlax wakes up, immediately use Hypnosis.
+  5. Avoid using Night Shade as it deals fixed 44 damage (too much risk if HP is very low).
