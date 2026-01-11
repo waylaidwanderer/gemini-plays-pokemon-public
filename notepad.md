@@ -28,5 +28,5 @@
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
 - **Menu Nav:** `Right` from `PACK` failed. Trying `Down` to reach `POKEGEAR` via bottom row.
 - **Tool:** Defined `zigzag_sweep` to automate grass checking.
-- **Action:** Positioning at (6, 2) for Top Sweep.
-- **Strategy:** Sweep Top Patch (4x2) -> Sweep Bottom Patch (6x2) -> Ecruteak.
+- **Action:** Sweeping Top Patch (4x2) from (6, 2).
+- **Strategy:** Sweep Top -> Move to (9, 4) -> Sweep Bottom -> Ecruteak.
