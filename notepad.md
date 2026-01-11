@@ -4,22 +4,18 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Prepare for Elite Four
+## Current Task: Defeat Rival Silver
 - **Location:** Indigo Plateau (ID: 16_2).
-- **Goal:** Heal party and buy supplies.
-- **Steps:**
-  1. Heal at Nurse Joy (3, 9).
-  2. Buy Full Restores/Revives at Mart (11, 9).
-  3. Deposit unnecessary items/Pokemon if needed (PC at 7, 7).
-  4. Save game (internal mental check).
-  5. Challenge Elite Four.
+- **Goal:** Win the battle.
+- **Opponent:** Rival Silver.
+- **State:** Switching from Lugia to Machoke (Muscle).
+- **Matchup:** Magneton (Electric/Steel) vs Machoke (Fighting).
+- **Strategy:**
+  - **Magneton:** Use `Cross Chop` (2x effective).
+  - **Feraligatr:** Use `Thunderpunch` (Muscle).
+  - **Golbat/Others:** Defeated.
 
-## Reflection (Turn 33015)
-- **Achievement:** Successfully crossed Victory Road and reached Indigo Plateau!
-- **State:** Party is battered but alive. Money is low (¥3294), need to manage funds carefully.
-- **Strategy:** Priority is healing. Then checking prices. Might need to farm money?
-  - *Wait*, I can't easily farm money here without going back.
-  - I'll rely on my current supplies and skill.
-  - Actually, if I lose to E4, I keep experience but lose money.
-  - **Grinding Strategy:** Use E4 runs for XP and money? No, I lose money.
-  - Better to spend all money on items first, then run E4 for XP/Money (net zero loss if broke).
+## Reflection (Turn 33071)
+- **Status:** Battle against Rival Silver is active.
+- **Hygiene:** Updating notepad to reflect battle state after previous edit failures.
+- **Strategy:** Switching to type advantage (Fighting vs Steel).
