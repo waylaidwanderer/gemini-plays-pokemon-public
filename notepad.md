@@ -8,12 +8,13 @@
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Fly to Ecruteak City to hunt Roamers.
-- **Status:** Fly Map Debugging (Azalea -> Up -> ?).
+- **Status:** Fly Map Debugging (Goldenrod -> Up -> ?).
 - **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
 - **Map Connections:**
     - Violet --(Down)--> Cherrygrove
-    - Violet --(Up+Left)--> Azalea (Weird? Maybe Up=Mahogany, Left=Ecruteak failed, wrapped?)
-    - Azalea --(Up)--> Goldenrod?
+    - Violet --(Up, Left sequence)--> Azalea
+    - Azalea --(Up)--> Goldenrod
+    - Goldenrod --(Up)--> Ecruteak?
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
