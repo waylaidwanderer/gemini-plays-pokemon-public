@@ -78,4 +78,6 @@
 - Celadon Mansion Roof: Door at (2, 5) leads to the isolated wing (likely).
 - Celadon Mansion Roof: Graffiti at (6, 1) says "GEM added a moustache!"
 - Celadon Mansion Roof: Fisher at (7, 4) loves high places.
-- Celadon Mansion Roof: Investigating the isolated wing via door at (2, 5).
+- Celadon Mansion Roof: Isolated wing unreachable from main roof. Back door search is mandatory.
+- Celadon City: Teacher at (5, 14) and Dept. Store Sign at (6, 9) found.
+- Celadon City: Mansion Back Door likely at (16, 3) or (17, 3).
