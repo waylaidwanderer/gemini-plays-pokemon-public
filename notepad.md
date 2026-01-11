@@ -21,5 +21,5 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 36 (Heading West to Route 37 Junction).
-- **Next:** Route 36 -> Route 37 -> Ecruteak City.
+- **Location:** Route 36 (Entering Route 37).
+- **Next:** Route 37 -> Ecruteak City.
