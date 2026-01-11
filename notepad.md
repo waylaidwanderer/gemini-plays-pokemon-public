@@ -51,5 +51,4 @@
 - Pokémon 1: Graveler Lv41 (Fainted to Gneiss's Earthquake).
 - Pokémon 2: Rhyhorn Lv41 (Fainted to Gneiss's Earthquake).
 - Pokémon 3: Omastar Lv42 (Fainted to Gneiss's Earthquake).
-- Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf).
-- Pokémon 4: Kabutops Lv42 (Uses Surf).
+- Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf; hit by Calcifer's Thunderpunch).
