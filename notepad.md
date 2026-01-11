@@ -95,7 +95,7 @@
 4. Check prize exchange prices (usually in an adjacent building or at a counter). (Next)
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity:
-    - Inspect poster at (9, 0).
+    - Inspect poster at (9, 0): "There's nothing!" (Done Turn 42006)
     - Inspect poster at (15, 0).
 7. Inspect background objects for items:
     - Soda Can at (6, 9): Empty. (Done Turn 41997)
