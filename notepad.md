@@ -37,12 +37,12 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Status:** Recovering from Navigation Error (Violet City).
+- **Current Status:** Correcting Navigation (Violet City).
 - **Current Iteration (65):**
   - Start Time: Turn 33901
   - Location: Violet City
-  - Action: Open Fly Map.
-  - Note: Was hallucinating Cherrygrove. Actually in Violet. Resetting navigation logic. Plan: Open Map -> Verify Cursor -> Fly Left to Ecruteak.
+  - Action: Exit Pack -> Open Party -> Select Mistral.
+  - Note: Cursor confirmed on CANCEL in Pack. Escaping and navigating to Mistral (Slot 4) to use Fly.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
