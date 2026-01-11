@@ -34,10 +34,14 @@
 - **WARP_CARPET:** Triggers map transition.
 - **WATER:** Traversable with SURF.
 
+# Lessons Learned
+- **Fly Map Navigation:** The Fly map cursor animation is slow. Fast inputs (automated or manual) are often eaten. **STRATEGY:** Use strictly manual, single-step inputs with visual verification of the destination text between each move, OR use `sequence_press` with `sleep 1000` between inputs.
+- **Navigation Verification:** Always verify `current_map_id` and screen text after a transition failure. Do not rely on "assumed" location.
+
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Approaching Professor Elm.
-- **Objective:** Obtain Master Ball.
-- **Location:** Elm's Lab (New Bark Town).
-- **Status:** Walking to (5, 3) to talk to Elm.
+- **Current Action:** Detour to Elm's Lab.
+- **Start Time:** Turn 33951
+- **Goal:** Obtain Master Ball from Prof. Elm.
+- **Status:** Approaching Elm.
