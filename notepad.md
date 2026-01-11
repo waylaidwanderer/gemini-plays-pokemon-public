@@ -7,10 +7,10 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Exeggutor. In Main Battle Menu.
-- **Matchup:** Muscle (Fighting) vs Exeggutor (Grass/Psychic).
+- **State:** Battling Exeggutor. Switching to Lugia (Maelstrom).
+- **Matchup:** Lugia (Flying/Psychic) vs Exeggutor (Grass/Psychic).
 - **Strategy:**
-  1. **Action:** Select `PKMN` and switch to Lugia (Maelstrom).
+  1. **Action:** Switch to Maelstrom (Slot 2).
   2. **Reason:** Muscle is weak to Psychic. Exeggutor has high Sp. Atk. Lugia resists Psychic and hits super effective with Gust.
   3. **Lugia:** Use `Gust`.
   4. **Next Mons:**
