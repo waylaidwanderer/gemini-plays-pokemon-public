@@ -18,17 +18,21 @@
 - LEDGE / LEDGE_HOP_DOWN: One-way jump down. (Verified Turn 40688).
 
 ## Party Management
-- **Lead Pokémon:** GNEISS (GRAVELER Lv53).
+- **Current Lead:** Calcifer (TYPHLOSION Lv58).
+- **Fainted:** GNEISS (GRAVELER Lv53).
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH).
 
 ## Battle Strategies
-- **Brock (Pewter Gym):** Lead with GNEISS (Graveler) using Earthquake. Backup: LAPIS (Poliwag) with Surf.
+- **Brock (Pewter Gym):** 
+  - Lead: GNEISS (Graveler) with Earthquake. 
+  - Status: Gneiss fainted to Kabutops's Surf.
+  - Backup: Calcifer (Typhlosion) with Thunderpunch vs Omastar/Kabutops. LAPIS (Poliwag) with Surf for rock/ground.
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
-  - Pewter (Brock): Target.
+  - Pewter (Brock): In progress.
   - Cerulean (Misty): Target. End of Route 25.
 - **Recent Battles:**
   - Bug Catcher Ed (Route 2): DEFEATED. (Turn 40653).
@@ -42,8 +46,9 @@
 ## Strategy: Finding Misty
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-- Brock (Pewter Gym):
-  - Pokémon 1: Graveler Lv41 (Fainted to Earthquake).
-  - Pokémon 2: Rhyhorn Lv41 (Fainted to Earthquake).
-  - Pokémon 3: Omastar Lv42 (Fainted to Earthquake).
-  - Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf).
+
+## Battle Log: Pewter Gym (Brock)
+- Pokémon 1: Graveler Lv41 (Fainted to Gneiss's Earthquake).
+- Pokémon 2: Rhyhorn Lv41 (Fainted to Gneiss's Earthquake).
+- Pokémon 3: Omastar Lv42 (Fainted to Gneiss's Earthquake).
+- Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf).
