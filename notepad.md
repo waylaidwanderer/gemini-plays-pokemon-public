@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Flying to Goldenrod City.
-- Route: New Bark -> Violet -> Azalea -> Goldenrod.
-- Sequence: Left x2, Down, Up, A.
-- Goal: Buy Repels & Hunt.
+- Location: New Bark Town (Landed here by mistake).
+- Action: Opening Fly Map (again).
+- Goal: Navigate specifically to Goldenrod City.
+- Observation: Previous inputs failed to move cursor or looped back. Will confirm map open first.
