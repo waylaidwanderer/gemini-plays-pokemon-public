@@ -49,5 +49,5 @@
 - Wall at x=18: Solid from y=18 to y=21. Gaps at y=17 and y=22.
 - Pokémon Center: Occupies x=12-15, y=21-25.
 - Gym Building: Occupies x=15-17, y=14-17.
-- Path to Gym (Hypothesis): Loop around north side via (14, 13) -> (14, 14) -> (14, 18) -> (16, 18).
+- Path to Gym: Go south to y=22, west to x=17, north to y=18, east to (16, 18).
 - WARP_CARPET_DOWN: Exit tile (Verified Turn 40722).
