@@ -79,3 +79,6 @@
 - Goal: Head south to Route 12 to find Snorlax.
 - Menu Check: Menu cursor usually resets to POKEMON or stays on the last used item (POKEDEX). I will verify this visually when I next open the menu.
 - Radio Strategy (Final): Stand directly in front of Snorlax at the Route 12/11 junction. Open Gear, Right to Radio, Up to Frequency 20. Verify Poke Flute music. Interact with Snorlax.
+- Turn 40256: Bridge gap detected at (10, 13). Rows 14-15 appear to be water.
+- Strategy: Use Surf with LAPIS to cross the gap and reach the next bridge section at (10, 16).
+- Snorlax remains the primary navigation target.
