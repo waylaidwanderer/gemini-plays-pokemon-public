@@ -8,13 +8,12 @@
 - **Location:** Indigo Plateau (ID: 16_2).
 - **Goal:** Win the battle.
 - **Opponent:** Rival Silver.
-- **State:** Opponent sending out Pokemon (Text: "SILVER sent out").
-- **Matchup:** Lugia vs ???.
+- **State:** Battling Magneton (Lv45).
+- **Matchup:** Muscle (Machoke, Lv86) vs Magneton (Electric/Steel).
 - **Strategy:**
-  - **Identify Opponent:** Press A to reveal Pokemon.
-  - **If Magneton:** Switch to Machoke (Muscle) for Cross Chop.
-  - **If Alakazam/Gengar:** Stay with Lugia (High Sp.Def/Psychic moves).
-  - **If Feraligatr:** Use Lugia (Thunder/Psychic) or switch to Gyarados/Dragon? No, Feraligatr is Water. Machoke might be okay but Feraligatr hits hard. Lugia is tanky.
+  - **Magneton:** Use `Cross Chop` (Slot 4).
+  - **Remaining Team:** Alakazam, Gengar, Feraligatr (Starter).
+  - **Plan:** Muscle should sweep Magneton. For Alakazam/Gengar, consider switching to Lugia or using Muscle's elemental punches if fast enough (unlikely vs Alakazam). Feraligatr: Muscle's Thunderpunch.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
