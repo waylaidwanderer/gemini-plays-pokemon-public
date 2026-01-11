@@ -12,7 +12,7 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Heading North to Ecruteak).
+- **Location:** Route 37 (Border).
 - **Next:** Enter Ecruteak -> Shuffle Roamers -> Return.
 
 # Roamer Hunt Log
