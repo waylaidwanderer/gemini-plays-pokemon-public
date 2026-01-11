@@ -10,20 +10,29 @@
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
 - LADDER: Traversable.
-- BIG_SNORLAX: Impassable object. Interact from adjacent tile (35, 8) facing left.
+- BIG_SNORLAX: Impassable object. Interact from adjacent tile (36, 8) facing left. Note: Snorlax occupies (34, 8), (35, 8), (34, 9), (35, 9).
 
 ## Core Principles & Strategy
 - **Immediate Execution:** Perform tasks the moment they are identified.
 - **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
 - **Efficiency:** Running from wild battles is preferred unless training or catching.
+- **Reflection (Turn 40377):**
+    - Immediate Execution: Swapping Xenon to lead and setting up radio.
+    - Notepad Hygiene: Reorganized for better clarity.
+    - Map Hygiene: Snorlax and warps marked. Missing markers for Route 11 trainers and objects added.
+    - Automation: Tools used for pathing and menus.
+    - Goal Clarity: Objectives are outcome-focused.
+    - Error Analysis: Verified Poke Flute frequency (20.0) for Kanto.
 
 ## Menu Mechanics
-- **Pokegear:** 3 clicks down from POKEDEX in the Start menu.
+- **Pokegear:** 4 clicks down from POKEDEX in the Start menu (POKEDEX, PKMN, PACK, GEM, POKEGEAR).
 - **Radio:** Frequency 20.0 (Poke Flute) is at the very top of the dial in Kanto. Requires EXPN Card upgrade. Set once, stays until changed.
+- **Swap Sequence:** Start -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B -> B.
 
 ## Party & PC Management
 - **Lead Pokémon:** Calcifer (TYPHLOSION Lv58).
 - **HM Users:** KIMCHI (FLASH, CUT), GNEISS (STRENGTH), LAPIS (SURF, WHIRLPOOL, WATERFALL), ICARUS (FLY).
+- **Xenon (Haunter):** Lead for Snorlax (Normal immunity, Hypnosis).
 
 ## Kanto Progression Tracking
 - **Magnet Train:** Operational.
@@ -32,16 +41,12 @@
 
 ## Snorlax Quest Phase
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
-- Observation: Snorlax occupies (34, 8), (35, 8), (34, 9), and (35, 9).
+- Start Turn: 40317 (2026-01-11 00:00:00).
 - Interaction tile: (36, 8) facing Left.
-- Status: Positioned at (36, 8) facing Left (Turn 40362).
+- Status: Positioned at (37, 8) (Turn 40377).
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Radio Status: Tuning to 20.0 (Poke Flute) at Turn 40374.
-- Swap Plan: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
-- Menu Sequence (Swap): Start -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B.
-- Menu Sequence (Radio): Start -> Down x3 (Gear) -> A -> Right (Radio) -> Up (hold for 20.0) -> B x2.
+- Swap Plan: Lead with XENON (Haunter).
 - Interaction: Face Left from (36, 8) and press A.
-- Start Turn: 40317.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
