@@ -12,9 +12,8 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Hunting in Grass).
-- **Next:** If no encounter -> Return to Ecruteak to Shuffle.
-- **Note:** Shuffle complete. Checking results.
+- **Location:** Route 37 (Grass Sweep).
+- **Next:** If no encounter -> Return to Ecruteak.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
