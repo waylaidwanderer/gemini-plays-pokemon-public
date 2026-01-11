@@ -21,6 +21,6 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Ecruteak City (Cycling back to Route 37).
-- **Next:** Switch Lugia to Lead -> Cycle Route 37 for Roamers.
+- **Location:** Route 37 (Just Arrived).
+- **Next:** Switch Lugia to Lead -> Cycle Route 37/Ecruteak for Roamers.
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
