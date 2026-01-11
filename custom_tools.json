@@ -53,5 +53,31 @@
         "action_counter": 33328
       }
     ]
+  },
+  "pathfind": {
+    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of coordinates. Requires `map_xml_string` to be available in the environment.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "target_x": {
+          "type": "integer"
+        },
+        "target_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "target_x",
+        "target_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef pathfind(target_x, target_y):\n    # map_xml_string is injected by the system\n    root = ET.fromstring(map_xml_string)\n    \n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # 1 = blocked, 0 = walkable\n    grid = [[1 for _ in range(height)] for _ in range(width)] \n    start_pos = None\n    \n    # Allowed tile types\n    walkable_types = [\n        'FLOOR', 'GRASS', 'TALL_GRASS', \n        'WARP_CARPET_DOWN', 'WARP_CARPET_UP', \n        'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT'\n    ]\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            \n            # Find player\n            if tile.find('Player') is not None:\n                start_pos = (x, y)\n            \n            t_type = tile.attrib.get('type', 'WALL')\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            \n            # Check traversability\n            # Note: We consider objects as blocking unless it's the target itself\n            if t_type in walkable_types:\n                if not has_object or (x == target_x and y == target_y):\n                    grid[x][y] = 0\n            \n            # Explicitly allow LADDER if it's the target\n            if t_type == 'LADDER' and x == target_x and y == target_y:\n                grid[x][y] = 0\n\n    if not start_pos:\n        print(f\"Error: Player not found on map.\")\n        return []\n\n    # BFS\n    queue = deque([(start_pos, [])])\n    visited = set([start_pos])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == (target_x, target_y):\n            # Return path including start (or not? navigate tool expects start)\n            # navigate tool expects: [current_pos, next, next...]\n            # My logic builds path of *steps*. \n            # Let's return full coordinate list including start.\n            return [{\"x\": start_pos[0], \"y\": start_pos[1]}] + path\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[nx][ny] == 0 and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                new_path = path + [{\"x\": nx, \"y\": ny}]\n                queue.append(((nx, ny), new_path))\n                \n    print(f\"No path found from {start_pos} to ({target_x}, {target_y})\")\n    return []\n\nprint(pathfind(target_x, target_y))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T09:01:19.563Z",
+        "action_counter": 33384
+      }
+    ]
   }
 }

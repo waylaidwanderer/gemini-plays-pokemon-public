@@ -1,24 +1,20 @@
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
 - **Date:** Turn 33314
-- **MVP:** Muscle (Machoke) Lv88 - Swept the Elite Four & Lance.
-- **Support:** Maelstrom (Lugia) - Helped vs Gengar.
+- **MVP:** Muscle (Machoke) Lv88.
+- **Support:** Maelstrom (Lugia).
 
-# Post-Game Objectives (Kanto)
-- **Primary:** Collect 8 Kanto Badges.
-- **Immediate:**
-  1. Fly to Olivine City.
-  2. Board S.S. Aqua to Vermilion City.
+# Objectives
+- **Primary:** Hunt Roamers (Raikou/Entei).
+- **Secondary:** Complete Pokedex.
+- **Task:** Buy Max Repels at Goldenrod Dept Store.
 
 # Roaming Beasts Status
-- **Raikou & Entei:** Still roaming. Will track later.
+- **Target:** Raikou & Entei.
+- **Strategy:** Lead with Lv36 Gyarados + Max Repel.
+- **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Pokecenter.
-- Action: Opening Fly Map via Mistral.
-- Goal: Fly to Goldenrod City (West).
-- Needs: Max Repels (Goldenrod Dept Store).
-
-# Roaming Beasts Status
-- **Raikou & Entei:** Roaming Johto.
-- **Strategy:** Lead with Lv36 Gyarados + Max Repel.
+- Location: Mt. Silver Pokecenter (Mistake corrected).
+- Action: Flying to Goldenrod City.
+- Tool: Defining `pathfind` for future navigation.
