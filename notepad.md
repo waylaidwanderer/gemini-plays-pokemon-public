@@ -36,21 +36,15 @@
 - Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
 - KIMCHI (Lv 47 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
-## Celadon City Investigation
+## Celadon City & Gym Investigation
 - **Secret Wing Access:** Reached via back door at (16,3). Gap in Row 3 at (24,3) or (25,3).
-- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:14 PM).
+- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:15 PM).
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
-- **NPC Info:**
-    - Teacher (5,13): Dept Store has best selection.
-    - Teacher (Game Corner): Girls play slots now.
-
-## Celadon Gym (Erika)
-- **Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
-- **Gym Entrance:** Warp at (10, 29).
+- **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
 - **Trainer Roster:**
     - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678. Victreebel (Lv 35), Vileplume (Lv 35).
     - Picnicker Tanya (2,8): DEFEATED Turn 41683. Exeggutor (Lv 37).
-    - Lass (7,8): Pending.
+    - Lass (6,8): Currently battling.
     - Beauty (3,5): Pending.
 
 ## Erika Battle Strategy
