@@ -99,10 +99,13 @@
     - Gym Guide at (11, 3): Trying to get coins for prize Pokémon. (Done)
     - Gramps at (2, 8): Mentions odds are better for Pikachu's line. (Done)
     - Receptionist at (3, 2): Prizes are next door. (Done Turn 41986)
-    - Clerk at (5, 2): Sells 50 coins for ¥1000. (Done Turn 41990)
+    - Clerk at (5, 2): Sells 50 coins for ¥1000 and 500 coins for ¥10000. (Done Turn 41991)
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity:
     - Inspect poster at (9, 0).
     - Inspect poster at (15, 0).
-7. Move to Prize Exchange building.
+7. Inspect background objects for items:
+    - Soda Can at (6, 9).
+    - Lighter at (18, 8).
+8. Move to Prize Exchange building.
