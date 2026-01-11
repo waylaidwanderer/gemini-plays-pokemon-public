@@ -10,7 +10,7 @@
 - **State:** Battling Jynx (Lv41). Muscle (Lv86) is active.
 - **Matchup:** Muscle (Fighting) vs Jynx (Ice/Psychic).
 - **Strategy:**
-  1. **Jynx:** Use `Strength` (Slot 1). Physical move vs low Defense. High probability OHKO.
+  1. **Jynx:** Use `Strength` (Slot 1). Physical move vs low Defense.
   2. **Next Mons:**
      - Exeggutor: `Ice Punch`.
      - Slowbro: `Thunderpunch`.
