@@ -13,9 +13,6 @@
   - Heading to southern corridor (Row 57) to bypass potential blockage at (6, 56).
   - Will then navigate East to reach the ladder at (17, 33).
 
-## Status
-- **Money:** ¥3294.
-- **Party:** Gyarados (Lead), Lugia, Machoke, Pidgey, Oddish, Quilava.
 ## Reflection (Turn 32967)
 - **Execution:** No deferred tasks identified in the last 50 turns.
 - **Hygiene:** Notepad sections are relevant. Map markers are active and accurate.
