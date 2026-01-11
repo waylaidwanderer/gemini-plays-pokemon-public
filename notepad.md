@@ -43,3 +43,4 @@
 ## Time Tracking
 - Snorlax Quest (Radio Tuning to Capture): Turn 40535 to 40583 (~48 turns).
 - Current Goal (Pewter City): Started Turn 40584.
+- **Diglett's Cave Ladders:** (5, 31) warps to (17, 33) within the same map. (Turn 40596).
