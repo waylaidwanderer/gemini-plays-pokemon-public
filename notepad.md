@@ -15,8 +15,9 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Fly Map (Cursor at Blackthorn City).
+- Location: Fly Map (Lake of Rage).
 - Action: Navigate to Goldenrod City.
-- Hypothesis: Blackthorn -> Left -> Mahogany -> Left -> Ecruteak -> Down -> Goldenrod.
+- Logic: `Down` from Lake of Rage failed. Trying `Left` path.
+- Hypothesis: Lake of Rage -> Left (Mahogany) -> Left (Ecruteak) -> Down (Goldenrod).
 - Input: `Left`, `Left`, `Down`.
 - Next: Verify destination text.
