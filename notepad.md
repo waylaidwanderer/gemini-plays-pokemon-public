@@ -52,7 +52,7 @@
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
 - Start Turn: 40317 (2026-01-11 00:00:00).
 - Interaction tile: (36, 8) facing Left.
-- Status: Finalizing radio and party setup (Turn 40403). Radio is on 20.0 (Poke Flute). Swapping Xenon to lead. Closing menus to interact.
+- Status: Executing party swap (Xenon to lead) and radio verification (20.0). (Turn 40405). Previous attempts failed due to menu navigation errors. Proceeding with precise button sequence.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
 - Swap Plan: Lead with XENON (Haunter).
 - Interaction: Face Left from (36, 8) and press A.
