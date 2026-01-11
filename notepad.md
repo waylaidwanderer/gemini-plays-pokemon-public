@@ -9,13 +9,13 @@
 - **Status:** Repels exhausted. Pausing hunt to restock.
 - **Stats:** 0 Encounters so far (Updated Turn 32768).
 
-## Resource Crisis (Turn 32768)
+## Resource Crisis (Turn 32776)
 - **Repels:** 0.
 - **Money:** ¥222.
 - **Plan:** Farm Money.
-    - Potential Rematches: Cooltrainer Gaven (called recently), Bug Catcher Wade.
-    - Location: Gaven is on Route 26 (Kanto side). Wade is on Route 31.
-- **Action:** Check Pokegear for rematch indicators or fly to Route 26.
+    - **Active Rematch:** Cooltrainer Gaven (Route 26). Confirmed by call ("Why aren't you here?").
+    - **Route:** Fly to Indigo Plateau -> Descend Victory Road -> Route 26.
+- **Action:** Travel to Route 26.
 
 ## Reflection (Turn 32759)
 - **Execution:** Hunt loop flawless. Repel active.
