@@ -25,6 +25,7 @@
 - **Badges Obtained (12/16):** 
     - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
     - Kanto (4/8): Boulder, Cascade, Thunder, Marsh.
+- **Gym Statues:** Located at (3, 15) and (6, 15).
 - **Current Target:** Erika (Celadon Gym).
 
 ## Party Management
