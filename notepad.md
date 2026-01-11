@@ -7,14 +7,15 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
-- **Status:** Koga Defeated. Proceeding to Bruno's Room.
+- **Status:** Walking to Bruno.
 - **Immediate Actions:**
-  1. Navigate to warp (4, 2).
-  2. Challenge Bruno.
+  1. Navigate to (5, 8).
+  2. Talk to Bruno (5, 7).
+  3. Defeat him.
 - **Strategy for Bruno:**
   - **Lead:** Muscle (Lv86).
   - **Threats:** Onix (Rock/Ground), Fighting types.
-  - **Plan:** Muscle sweeps using `Strength` or `Cross Chop`.
-    - **Onix:** `Ice Punch` or `Strength`.
-    - **Fighting Types:** `Psychic` (Lugia) or `Strength` (Muscle).
+  - **Plan:** Muscle sweeps.
+    - **Onix:** `Ice Punch` or `Cross Chop`.
+    - **Fighting Types:** `Strength`, `Cross Chop`, or Lugia's `Gust` (Super Effective).
 - **Health Check:** Muscle Full.
