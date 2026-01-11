@@ -14,6 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Crossing from Route 38 to Route 39.
-- Heading South/West to Olivine City.
+- Entered Route 39 from Route 38.
+- Heading South to Olivine City.
+- Avoiding Moomoo Farm side trip for speed.
 - Reminder: Wade (Rt 31) has berries.
