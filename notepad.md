@@ -45,7 +45,7 @@
   - #2 Lass Ellen (16, 11): DEFEATED.
   - #3 Schoolboy Joe (21, 8): DEFEATED.
   - #4 Lass Laura (25, 6): DEFEATED.
-  - #5 Camper Lloyd (25, 5): In Progress (Nidoking).
+  - #5 Camper Lloyd (25, 5): DEFEATED.
   - #6 Super Nerd (ID 9) at (31, 7): Pending.
   - Note: Lass (ID 8) at (28, 11) also present.
   - Challenge: Beat 6 trainers for a prize.
