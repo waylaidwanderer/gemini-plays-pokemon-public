@@ -52,7 +52,7 @@
 - Ouroboros (Dratini) Lv15
 
 ## Economy & Shopping
-- **Celadon Dept Store Exploration (Started Turn 41740):**
+- **Celadon Dept Store Exploration (Started Turn 41740, Sunday 3:00 PM):**
     - 1F: Directory checked.
     - 2F: Fully explored. Stocked up on healing items (Full Heal, Max Potion, Revive).
     - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
@@ -64,11 +64,11 @@
     - Find Evolution Stones (still missing).
 
 ## Strategy for 6F Exploration (Turn 41905)
-1. Read Directory at (14, 0). (Done Turn 41909)
-2. Talk to Youngster (ID 2) at (14, 5).
-3. Talk to Super Nerd (ID 1) at (9, 2). (Done Turn 41907)
+1. Read Directory at (14, 0). (Done)
+2. Talk to Youngster (ID 2) at (12, 4).
+3. Talk to Super Nerd (ID 1) at (9, 2). (Done)
 4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1).
-5. Explore western unseen area (x < 7).
+5. Explore western unseen area using `find_reachable_unseen_tiles`.
 6. Find thirsty girl and trade drinks for TMs.
 
 ## Celadon City Investigation
@@ -94,4 +94,4 @@
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Inventory Sync:** Calcifer is Lv 62. 2x IRON and 1x RARE CANDY used successfully. Bag slots cleared.
-- Teacher (1, 7): Mentions using items on Pokemon makes them happy, but they hate certain items. (Done Turn 41893)
+- Teacher (1, 7): Mentions using items on Pokemon makes them happy, but they hate certain items.
