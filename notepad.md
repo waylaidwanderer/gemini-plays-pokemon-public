@@ -8,11 +8,11 @@
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
 - **Status:** Battling Bruno.
-- **Opponent:** Hitmontop (Lv42).
-- **Active:** Muscle (Lv86).
+- **Opponent:** Hitmonlee (Incoming).
+- **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Hitmontop:** Use `Strength`.
+  - **Hitmonlee:** Use `Strength`.
   - **Onix:** Use `Ice Punch` or `Cross Chop`.
-  - **Hitmonchan/Hitmonlee:** Use `Strength` or `Cross Chop`.
+  - **Hitmonchan:** Use `Strength`.
   - **Machamp:** Use `Strength` or `Cross Chop`.
 - **Health Check:** Muscle Full.
