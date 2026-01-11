@@ -11,6 +11,6 @@
 - **Opponent:** Murkrow (Incoming).
 - **Active:** Lugia (Lv60) -> Switching to Muscle (Lv87).
 - **Strategy:**
-  - **Murkrow:** Use `Ice Punch` or `Thunderpunch` (Super Effective).
+  - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch` - both Super Effective).
   - **Houndoom:** Muscle (`Cross Chop`).
 - **Health Check:** Muscle 283/295 HP, Lugia 204/204 HP (Cursed).
