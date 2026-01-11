@@ -12,20 +12,13 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 -> Ecruteak City.
-- **Action:** Exit Sweep (Returning to Ecruteak).
-- **Strategy:** Zigzag North through grass -> Exit to Ecruteak to shuffle.
+- **Location:** Route 37 (North Grass).
+- **Strategy:** Re-apply Repel -> Continue Shuffle.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Technical Notes
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
 - **RNG:** Roamer position resets on map transition. Patience required.
-
-# Current Status
-- **Location:** Route 37 -> Ecruteak City.
-- **Action:** Finishing sweep -> Returning to Ecruteak to shuffle.
-- **Strategy:** Exit North (Row 5 -> Row 0) -> Shuffle.
-- **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
