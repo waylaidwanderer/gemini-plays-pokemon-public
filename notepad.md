@@ -7,65 +7,50 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
-- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry. In Saffron Gym, these tiles are placed in the corners of rooms and lead to other rooms in the maze.
+- WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry.
 
 ## Core Principles & Strategy
-- **Immediate Execution:** Tasks are performed the moment they are identified. No "later".
-- **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude. Document every attempt.
-- **Falsification:** Actively try to disprove hypotheses to avoid confirmation bias.
+- **Immediate Execution:** Tasks are performed the moment they are identified.
+- **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
+- **Falsification:** Actively try to disprove hypotheses.
+- **Root Assumption Audit:** If a complex strategy fails, re-verify the base assumption.
 
 ## Battle Mechanics (Verified)
-- Status Moves: Misses are reported as "The attack missed!". "It didn't affect..." indicates type immunity.
-- Night Shade: Deals fixed damage equal to the user's level.
-- Type Effectiveness (Psychic): Weak to Bug, Ghost, Dark. 
+- Status Moves: Misses are reported as "The attack missed!".
+- Night Shade: Deals fixed damage equal to user level.
+- Type Effectiveness (Psychic): Weak to Bug, Ghost, Dark.
 - Type Effectiveness (Ghost): Weak to Ghost, Dark. Immune to Normal, Fighting.
-- Type Effectiveness (Dark): Super-effective against Ghost, Psychic.
-- Type Effectiveness (Poison): Weak to Ground, Psychic.
 
 ## PC Storage (Box 1)
-- 1. AAAAAAAAAA (SPINARAK) (Lv13), 2. GLAIVE (SCYTHER) (Lv14), 3. SELKIE (SEEL) (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
+- SPINARAK (13), SCYTHER (14), SEEL (24), MANTINE (20), KRABBY (22), TENTACOOL (17), KRABBY (10), DRATINI (15)
 
 ## Movesets (HM Users)
-- KIMCHI (GLOOM): Lv41 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
-- GNEISS (GRAVELER): Lv53 | EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
-- LAPIS (POLIWAG): Lv12 | WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
-- ICARUS (PIDGEOTTO): Lv19 | FLY, SAND-ATTACK, GUST, QUICK ATTACK
+- KIMCHI (GLOOM): FLASH, CUT
+- GNEISS (GRAVELER): STRENGTH
+- LAPIS (POLIWAG): SURF, WHIRLPOOL, WATERFALL
+- ICARUS (PIDGEOTTO): FLY
 
-## TMs & HMs Obtained
-- HM01-07, TM07, TM24, TM28, TM29, TM33, TM37, TM44, TM47
-
-## Magnet Train
-- Service: Saffron City <-> Goldenrod City.
-- Status: Inactive (Power Plant crisis).
-- Requirement: PASS (Obtained from Copycat).
-
-## Machine Part Quest
-- **Location:** Hidden in the water in Cerulean Gym. Rocket Grunt dialogue suggests the "center". Itemfinder pings at (3,7) and (4,7).
-- **Status:** Not yet retrieved. Power Plant remains inactive.
-- **Started:** Turn 39929.
-- **Time Tracking:** Started Turn 39950.
-- **Strategy:** Surf in the pools and check tiles in the center. Proximity pings at (3,7) and (4,7) but "Nope!" at (3,8) and (4,6) suggest the item is on one of those tiles.
-- **Itemfinder Mechanic:** In Pokemon Crystal, the Itemfinder pings if an item is within 4 tiles. It returns "Nope!" if the item is out of range OR if the player is standing directly on it.
-- **Hypothesis:** The Machine Part is at (3, 8) or (4, 8) in the inner pool, or (4, 6) in the wrap-around pool.
-- **Verification Plan:**
-    1. Interact (A button) with (3, 8).
-    2. Interact (A button) with (4, 8).
-    3. Interact (A button) with (3, 9).
-    4. Interact (A button) with (4, 9).
-    5. Interact (A button) with (4, 6).
+## Machine Part Investigation
+- **Start Turn:** 39950
+- **Foundational Hint:** Rocket Grunt: "I hid it in the water in the center of the Gym."
+- **Root Hypothesis:** The Machine Part is a hidden item on a WATER tile in the inner pool: (3,8), (3,9), (4,8), (4,9).
+- **Secondary Hypothesis:** Itemfinder in Crystal pings within 4 tiles but says "Nope!" if standing directly on the hidden item.
+- **Search Log:**
+    - (3, 8): Itemfinder "Nope!" (Turn 39976). Interaction pending.
+    - (4, 7): Itemfinder "Ping" (Turn 39988).
+    - (4, 6): Itemfinder "Nope!" (Turn 40006). Interaction pending.
+    - (4, 8): Itemfinder "Nope!" (Turn 40008). Interaction pending.
+    - (3, 9): Current location. Interaction pending.
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
-  - Path Out: MC (11, 9) -> TL (1, 5) -> TL (1, 3) -> TR (15, 5) -> TR (19, 5) -> BL (1, 15) -> BL (5, 15) -> BR (15, 17) -> BR (19, 17) -> BC (11, 15) -> Exit.
+- **Power Plant Conflict:** Manager informed of theft. Rocket Grunt chased from Cerulean Gym to Route 24 and defeated.
 
 ## Lessons Learned
-- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
-- **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
-- **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
-- **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
-- **Turn 39962 Reflection:** Corrected a premature 'Machine Part found' marker. Realized `find_path_v4` needs to account for Surfing. When stuck on pathfinding, check for traversal requirements (HMs) that the tool might not be considering.
-- **Itemfinder (Crystal):** Returns "Nope!" if the player is standing directly on the item. This contradicts behavior in some other generations.
+- **Itemfinder (Crystal):** Returns "Nope!" if the player is standing directly on the item.
+- **Menu Mechanic:** Overworld menu loops; cursor remembers last position.
+- **Gym Navigation:** BFS on Map Events is optimal for warp mazes.
 
 ## Saffron City Interests
-- **Mr. Psychic:** Located at (27, 29). Obtained TM29 Psychic (Turn 39946).
-- **Correction (Turn 39978):** The turn summary for 39643-39646 erroneously stated the Power Plant problem was resolved. Verified via dialogue that the Manager is still waiting for the MACHINE PART. I do not currently possess it.
+- **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
+- **Magnet Train:** Inactive until Power Plant fixed. Requires PASS.
