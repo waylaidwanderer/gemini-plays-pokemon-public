@@ -44,8 +44,12 @@
 - **Status:** Not yet retrieved. Power Plant remains inactive.
 - **Started:** Turn 39929.
 - **Time Tracking:** Started Turn 39950.
-- **Strategy:** Surf in the pool and check tiles (3,6), (3,8), (4,6), (4,7), (4,8), (4,9). Note: Itemfinder returns "Nope!" if standing directly on the hidden item.
+- **Strategy:** Surf in the pool and check tiles (3,6), (3,8), (3,9), (4,6), (4,7), (4,8), (4,9). Note: Itemfinder returns "Nope!" if standing directly on the hidden item.
 - **Itemfinder Mechanic:** In Pokemon Crystal, the Itemfinder will return "Nope!" if the player is standing directly on top of the hidden item. Verification needed: interact (A button) with tiles that return "Nope!" despite proximity pings.
+- **Hypothesis:** The Machine Part is on a specific water tile in Cerulean Gym. Candidates based on previous Itemfinder pings: (3, 8), (3, 9), (4, 9).
+- **Test 1:** Interact with tile (3, 8). (Itemfinder previously said "Nope!" here).
+- **Test 2:** Interact with tile (3, 9).
+- **Test 3:** Interact with tile (4, 9).
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
@@ -57,11 +61,8 @@
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
 - **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
 - **Turn 39962 Reflection:** Corrected a premature 'Machine Part found' marker. Realized `find_path_v4` needs to account for Surfing. When stuck on pathfinding, check for traversal requirements (HMs) that the tool might not be considering.
+- **Itemfinder (Crystal):** Returns "Nope!" if the player is standing directly on the item. This contradicts behavior in some other generations.
 
 ## Saffron City Interests
 - **Mr. Psychic:** Located at (27, 29). Obtained TM29 Psychic (Turn 39946).
 - **Correction (Turn 39978):** The turn summary for 39643-39646 erroneously stated the Power Plant problem was resolved. Verified via dialogue that the Manager is still waiting for the MACHINE PART. I do not currently possess it.
-- **Hypothesis:** The Machine Part is on a specific water tile in Cerulean Gym. Candidates based on previous Itemfinder pings: (3, 6), (4, 6), (5, 6), (3, 9), (4, 9).
-- **Test 1 (Turn 39978):** Move to (3, 6) and interact.
-- **Test 1 Conclusion (Turn 39984):** Itemfinder at (3, 8) returned "Nope!". Hypothesis denied.
-- **Test 2 (Turn 39984):** Move to (3, 6) and interact. This is closer to the "center" of the gym's main pool.
