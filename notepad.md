@@ -31,26 +31,22 @@
 - ICARUS (PIDGEOTTO): FLY
 
 ## Machine Part Investigation
-- **Start Turn:** 39950
-- **Foundational Hint:** Rocket Grunt: "I hid it in the water in the center of the Gym."
-- **Search Log:**
-    - (3, 8), (4, 8), (3, 9), (4, 9): Interaction failed. Itemfinder: "Nope!".
-    - (4, 7), (3, 7): Itemfinder: "Ping" (In range).
-    - (4, 6): Interaction failed (Turn 40047). Itemfinder: "Nope!" (Turn 40006).
-    - (3, 6): Untested.
-- **Triangulation (Turn 40047):** 
-    - The item is NOT at (4, 6).
-    - Since (3, 7) and (4, 7) ping, and (3, 8), (4, 8), and (4, 6) are "Nope", the item must be distance > 4 from (3, 8), (4, 8), and (4, 6) but within distance 4 of (3, 7) and (4, 7).
-    - This suggests the item is at (2, 7) [Floor], (5, 7) [Floor], or in the northern pool at (2, 6), (3, 5), (4, 5), or (5, 5).
-- **Plan (Turn 40047):**
-    1. Move Up to (4, 5).
-    2. Move Left to (3, 5) and (2, 5).
-    3. Use Itemfinder at (2, 5) and (4, 5).
-    4. Interact with (4, 5) and (3, 5).
+- **Start Turn:** 39929
+- **Clue:** Rocket Grunt: "I hid it in the water in the center of the Gym."
+- **Status:** Searching northern and inner pools.
+- **Verified Empty (A-button + standing on):** (3,8), (4,8), (3,9), (4,9).
+- **Itemfinder Status:**
+    - (3,7), (4,7): Ping (Turn 39534, 39988).
+    - (4,6), (5,6), (3,3): Nope!
+- **Current Strategy:** Manual tile-by-tile sweep of northern water tiles (y=2, 3, 5, 6) starting from (3, 6).
+
+## Completed Objectives
+- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
+- **Power Plant Conflict:** Manager informed of theft. Rocket Grunt defeated.
 
 ## Lessons Learned
-- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
-- **Gym Clue:** "Center of the Gym" might refer to the center of the northern pool area or a specific decorative center, not necessarily the inner pool.
+- **Itemfinder (Crystal):** "Nope!" means no item is within search range. A ping means an item is within range.
+- **Gym Clue:** "Center" is relative. Checking all central water tiles.
 
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
