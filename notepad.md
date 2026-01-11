@@ -85,3 +85,12 @@
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Teacher (1, 7):** Mentions using items on Pokemon makes them happy, but they hate certain items.
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
+## Strategy for Celadon Game Corner (Turn 41953)
+1. Mark entrance/exit warps. (Done)
+2. Explore the floor to reveal all unseen tiles.
+3. Talk to all NPCs:
+    - Pokefan M at (14, 10).
+4. Check prize exchange prices (usually in an adjacent building or at a counter).
+5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
+6. Check for any Team Rocket activity (hidden switches, etc.).
+7. Move to Prize Exchange building.
