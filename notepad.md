@@ -44,5 +44,7 @@
   - #1 Schoolboy Dudley (12, 10): DEFEATED.
   - #2 Lass Ellen (16, 11): DEFEATED.
   - #3 Schoolboy Joe (21, 8): DEFEATED.
+  - #4 Lass (ID 6) at (22, 6): Target.
+  - #5 Lass (ID 8) at (28, 11): Pending.
+  - #6 Super Nerd (ID 9) at (31, 7): Pending.
   - Challenge: Beat 6 trainers for a prize.
-- **Route 25 Trainer #4:** Lass (ID 6) at (22, 6). Facing Right.
