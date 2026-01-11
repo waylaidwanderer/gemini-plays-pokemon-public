@@ -37,12 +37,17 @@
 - **Cerulean Gym Trainers:**
   - Swimmer Briana (1, 9): DEFEATED.
   - Swimmer Diana (4, 6): DEFEATED.
-  - Swimmer (8, 9): Next target.
+  - Swimmer Parker (8, 9): DEFEATED.
 
 ## Cerulean Gym Cleanup
 - Start Turn: 41362
 - Objective: Defeat the final swimmer at (8, 9).
-- Strategy: Interact from (9, 9) facing Left.
+- Status: COMPLETED. Swimmer gave post-battle dialogue.
+
+## Celadon City Journey
+- Objective: Defeat Erika.
+- Route: Cerulean -> Route 5 -> Saffron -> Route 7 -> Celadon.
+- Prep: Heal at Cerulean Pokecenter.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
