@@ -52,7 +52,7 @@
 - **3F:** Graphic Artist (3,4) drew the player. Game Designer (3,6) talks about Pokedex. Fisher (0,4) talks about twins/Jasmine. Programmer (0,7) says play slots.
 - **3F Details:** Game Program (1,6) (bug warning), Reference Material (1,3) (Poké Doll), Bookshelf (2,3) (magazines), Dev Room Sign (5,8).
 - **Roof (Main):** Right side reached from 3F (7,0). Fisher (7,4) loves heights. Graffiti (6,1) moustache prank. Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
-- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 12:43 PM). TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) checked.
+- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 12:47 PM). TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) checked.
 
 ## Celadon City Landmarks
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
@@ -64,9 +64,11 @@
 ## Strategy & Lessons Learned
 - **Celadon Pillars:** Column 12 (Rows 16-21) and Column 36 (Rows 22-26) are WALL tiles that block horizontal movement.
 - **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
-- **NPC Interaction:** Teacher (5,13) talks about Dept Store. Teacher (20,24) to be interviewed.
-- **Hypothesis:** Gym is accessed via the southern gap at (16,26)-(19,26).
-- **Test:** Navigate south through the gap.
+- **NPC Interaction:**
+    - Teacher (5,13): Talks about Dept Store selection.
+    - Teacher (Game Corner area): Talks about girls playing slots now.
+- **Hypothesis:** Gym is accessed via the southern gap at (16,26)-(19,26) or a western path.
+- **Test:** Explore western side of Row 22.
 - **Conclusion:** Pending.
 
 ## General Lessons & Error Log
