@@ -97,6 +97,9 @@
     - Teacher at (17, 7): Machine should pay out today. (Done)
     - Fisher at (8, 10): Gave GEM 20 coins. (Done)
     - Gym Guide at (11, 3): Trying to get coins for prize Pokémon. (Done)
+    - Gramps at (2, 8): Mentions odds are better for Pikachu's line. (Done Turn 41984)
+    - Receptionist at (3, 2).
+    - Clerk at (5, 2).
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity:
