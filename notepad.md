@@ -43,3 +43,7 @@
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Current Status:** In Pewter City. Bought 10 Super Repels. Swapping Gneiss to lead for Gym battle. (Turn 40711).
+## Pewter City Obstacles
+- Wall at x=18: Solid from y=18 to y=21.
+- Gap at y=22: (18, 22) is FLOOR.
+- Path to Gym: Go west to x=7, then north to y=18, then east to (16, 18).
