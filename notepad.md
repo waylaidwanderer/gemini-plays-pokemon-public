@@ -28,7 +28,7 @@
 ## Kanto Progression Tracking
 - **Magnet Train:** Operational.
 - **EXPN Card:** Obtained from Lavender Radio Tower (Turn 40164).
-- **Snorlax Roadblock:** Route 11 west end. Requires Poke Flute to wake. Interaction tile: (35, 8).
+- **Snorlax Roadblock:** Route 11 west end. Requires Poke Flute to wake. Interaction tile: (36, 8).
 
 ## Snorlax Quest Phase
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
