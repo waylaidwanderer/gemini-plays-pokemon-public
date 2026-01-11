@@ -7,12 +7,14 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **Strategy:** Lead with Muscle (Lv86 Machoke).
-  - **Xatu (x2):** Use `Thunderpunch` or `Ice Punch`.
-  - **Jynx:** Use `Strength` (Physical weakness) or `Thunderpunch` (Neutral). Avoid Fighting moves.
-  - **Exeggutor:** Use `Ice Punch` (4x Effective).
-  - **Slowbro:** Use `Thunderpunch` (Super Effective).
-  - **Plan:** Muscle should OHKO everything. Heal if HP drops below 50%.
+- **State:** Battle started. Gyarados (Lv36) vs Xatu (Lv40). Lead switch failed.
+- **Strategy:**
+  1. **Switch to Muscle (Lv86)** immediately.
+  2. **Xatu (x2):** Muscle uses `Thunderpunch` or `Ice Punch`.
+  3. **Jynx:** Muscle uses `Strength` or `Thunderpunch`.
+  4. **Exeggutor:** Muscle uses `Ice Punch`.
+  5. **Slowbro:** Muscle uses `Thunderpunch`.
+  - **Plan:** Muscle sweeps.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
