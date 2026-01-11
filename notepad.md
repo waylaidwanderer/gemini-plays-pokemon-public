@@ -38,3 +38,11 @@
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Current Status:** Heading to Pewter City. (Turn 40635).
+## Pewter City Exploration
+- **Entry:** Arrived from Route 2 at (18, 35). (Turn 40655).
+- **Plan:**
+  1. Find Poké Mart and buy Max Repels / Super Repels.
+  2. Find Pewter Gym (Brock) and battle for the badge.
+  3. Explore the Museum.
+  4. Head East to Route 3.
+- **Tile Mechanics:** FLOOR and WALL collision confirmed at city entrance. (Turn 40655).
