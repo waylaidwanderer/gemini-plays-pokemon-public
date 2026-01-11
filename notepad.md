@@ -28,5 +28,5 @@
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
 - **Menu Nav:** `Right` from `PACK` failed. Trying `Down` to reach `POKEGEAR` via bottom row.
 - **Tool:** Defined `zigzag_sweep` to automate grass checking.
-- **Action:** Interrupted by Gaven call. Resuming return to Ecruteak.
-- **Strategy:** Enter Ecruteak -> Shuffle -> Repeat Sweep.
+- **Action:** In Ecruteak. Shuffled. Returning to Route 37.
+- **Strategy:** Re-enter Route 37 -> Apply Repel -> Sweep Grass.
