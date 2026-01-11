@@ -27,7 +27,7 @@
 - ICARUS (PIDGEOTTO): Lv19 | FLY, SAND-ATTACK, GUST, QUICK ATTACK
 
 ## TMs & HMs Obtained
-- HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
+- HM01-07, TM07, TM24, TM28, TM29, TM33, TM37, TM44, TM47
 
 ## Magnet Train
 - Service: Saffron City <-> Goldenrod City.
@@ -38,6 +38,7 @@
 - **Location:** Suspected to be in the water at Cerulean Gym (based on Rocket Grunt dialogue and Itemfinder pings at 3,7 and 4,7).
 - **Status:** Not yet retrieved. Power Plant remains inactive.
 - **Started:** Turn 39929.
+- **Time Tracking:** Started Turn 39950.
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
@@ -49,5 +50,4 @@
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
 - **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
 ## Saffron City Interests
-- **Mr. Psychic:** Located at (27, 29). Expected to give TM29 Psychic.
-- **TM29 Psychic:** Obtained from Mr. Psychic (Turn 39946).
+- **Mr. Psychic:** Located at (27, 29). Obtained TM29 Psychic (Turn 39946).
