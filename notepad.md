@@ -40,9 +40,9 @@
 - **Current Status:** Iteration 64 Hunting.
 - **Current Iteration (64):**
   - Start Time: Turn 33869
-  - Location: Route 37
+  - Location: Route 37 -> Ecruteak City
   - Action: Fly.
-  - Note: Flying to Ecruteak City to begin North Rapid Resets.
+  - Note: Correcting menu selection to Fly to Ecruteak.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
