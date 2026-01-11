@@ -84,3 +84,6 @@
 
 ## Common Misconceptions (for Strategy Advisor)
 - **EXPN Card:** This is a Pokegear upgrade, NOT a Bag item. It is received from the Lavender Radio Tower Station Manager after power is restored. Its presence is confirmed by the Poke Flute channel on the Radio. Do NOT suggest returning to Lavender for it if the Power Plant quest is done.
+## Radio Tuning Log
+- Frequency 20 (Poke Flute): Required to wake Snorlax. Located at the top of the dial in Kanto after obtaining EXPN Card.
+- Turn 40221: Attempting to tune radio and swap Calcifer to lead.
