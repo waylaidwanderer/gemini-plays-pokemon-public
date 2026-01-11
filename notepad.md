@@ -8,10 +8,10 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Roamer Hunt.
-- **Status:** Cycling Route 37 <-> Ecruteak.
-- **Action:** Exiting menu. Last Super Repel active.
+- **Status:** In Ecruteak. Cycling back to Route 37.
+- **Action:** Continue cycle. Last Super Repel active.
 - **Next Step:** Watch for Roamers.
-- **Stats:** 0 Encounters so far (Updated Turn 32763).
+- **Stats:** 0 Encounters so far (Updated Turn 32766).
 
 ## Resource Crisis (Turn 32740)
 - **Repels:** 0 remaining in bag (Current one active).
