@@ -15,7 +15,6 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Outside (19_2).
-- Action: Opening Fly Map (Safe Sequence).
-- Goal: Goldenrod City.
-- Note: Using Up inputs to ensure Menu cursor resets to top.
+- Current State: In Pokedex (Accidental).
+- Action: Exiting menu to retry Fly.
+- Tool: `pathfind` is ready.
