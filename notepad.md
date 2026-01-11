@@ -49,5 +49,5 @@
 - **Iteration 18 Result:** No encounter.
 - **Current Iteration (19):**
   - Start Time: Turn 33617
-  - Action: Enter Route 37 (Down) -> Hunt -> Exit (Up).
-  - Note: Repel expiry imminent.
+  - Action: Hunting on Route 37 (Down x4 -> Wiggle -> Exit).
+  - Note: Repel expiry imminent. Monitor closely.
