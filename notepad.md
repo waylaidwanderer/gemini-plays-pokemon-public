@@ -23,7 +23,8 @@
 - **Celadon City Arrival:** Turn 41410.
 
 ## Time Tracking
-- **Celadon City Exploration:** Started Turn 41410. Current goal: Defeat Erika.
+- **Celadon City Exploration:** Started Turn 41410.
+- **Celadon Mansion Exploration:** Started Turn 41442.
 
 ## Party Management
 - **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
@@ -45,14 +46,15 @@
 1. Talk to NPCs: (26, 11), (27, 11), Wandering Youngster [DONE].
 2. Explore Celadon Mansion (Entrance 16, 9) [IN PROGRESS].
    - 1F Granny (1, 5) [DONE]
-   - 1F Clefairy (3, 4) [IN PROGRESS]
-   - 1F Growlithes (4, 4), (2, 6) [TODO]
+   - 1F Clefairy (3, 4) [DONE]
+   - 1F Nidoran (4, 4) [DONE]
+   - 1F Growlithe (2, 6) [IN PROGRESS]
 3. Locate and visit Department Store.
 4. Locate Game Corner.
 5. Locate and defeat Celadon Gym (Erika).
 
 ## Area Secrets
-- Celadon Mansion has a hidden back door (hint from Youngster at 20, 13).
+- Celadon Mansion has a hidden back door (hint from Youngster at 20, 13). It may be reachable from the outside perimeter.
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
