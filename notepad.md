@@ -58,3 +58,5 @@
 - **Route 3:** Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), X=24 (Y=1-7), X=32 (Y=8-15), X=35 (Y=8-15), and X=40 (Y=5-13). Rows 0, 3, 4, and 14 are clear at these X-coordinates. (Turn 40847).
 - **Route 3:** Wall at X=54 (Y=8-15) blocks path. Row 16/17 is clear to loop around. (Turn 40887).
 - **Repel Status:** Super Repel active (200 steps from Turn 40885).
+- **Route 3:** Wall at X=54 (Y=8-15) blocks path. Row 16/17 is clear to loop around. (Turn 40888).
+- **Repel Status:** Super Repel active (200 steps from Turn 40885).
