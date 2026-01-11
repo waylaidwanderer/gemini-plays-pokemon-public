@@ -41,7 +41,7 @@
 - **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
 - **Current Location:** Celadon City.
 - **Immediate Next Steps (HOW):**
-    1. Use 2x IRON on Calcifer to free bag slots.
+    1. Used 2x IRON and 1x RARE CANDY on Calcifer (Done).
     2. Talk to Clerk at (7, 1) on 3F to see TMs.
     3. Explore western/southern areas of 3F.
     4. Move to 4F, 5F, and Rooftop.
