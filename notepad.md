@@ -16,6 +16,6 @@
 
 # Status Update
 - Location: Mt. Silver Outside (19_2).
-- Action: Opening Fly Map via Mistral.
-- Goal: Goldenrod City (Dept Store).
+- Action: Correcting menu error (Backing out of Pack).
+- Goal: Fly to Goldenrod City.
 - Tool: `pathfind` is ready.
