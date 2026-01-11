@@ -62,4 +62,4 @@
   1. SNEASEL (Lv41): DEFEATED.
   2. FERALIGATR (Lv45): DEFEATED.
   3. GOLBAT (Lv42): Active.
-- Current Matchup: Calcifer (Lv58) vs Golbat. (Turn 40928).
+- Current Matchup: Calcifer (Lv58) vs Golbat.
