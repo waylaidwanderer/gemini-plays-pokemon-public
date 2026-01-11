@@ -43,7 +43,10 @@
 
 ## Celadon City Exploration Plan
 1. Talk to NPCs: (26, 11), (27, 11), Wandering Youngster [DONE].
-2. Explore Celadon Mansion (Entrance 16, 9).
+2. Explore Celadon Mansion (Entrance 16, 9) [IN PROGRESS].
+   - 1F Granny (1, 5) [DONE]
+   - 1F Clefairy (3, 4) [IN PROGRESS]
+   - 1F Growlithes (4, 4), (2, 6) [TODO]
 3. Locate and visit Department Store.
 4. Locate Game Corner.
 5. Locate and defeat Celadon Gym (Erika).
