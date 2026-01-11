@@ -36,7 +36,7 @@
 # Roamer Hunt Log
 - **Summary:** Iterations 1-23: No encounters.
 - **Current Iteration (24):**
-  - Start Time: Turn 33630
+  - Start Time: Turn 33631
   - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Repel active (Refreshed Turn 33590). Steps remaining: ~210.
+  - Action: Hunting (Grass Sweep + Exit).
+  - Note: Repel active (Refreshed Turn 33590). Steps remaining: ~200.
