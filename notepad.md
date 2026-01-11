@@ -37,13 +37,14 @@
 ## EXPN Card Sub-Quest
 - **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
 - **Start Turn:** 40441.
-- **Status:** Talked to Station Manager at (9, 1). Received dialogue: "With that thing, you can tune into the radio programs here in KANTO. Gahahahaha!" (Turn 40496). This confirms receipt of the EXPN Card upgrade.
+- **Status:** In Pokegear Radio menu at (9, 2). Needle is at far right (~20.0). "TUNING" is visible, but "POKE FLUTE" is not. EXPN Card is missing from Pokegear Cards list (MAP, RADIO, PHONE).
+- **Hypothesis 1:** The EXPN Card was not actually received, despite the Station Manager's dialogue.
+- **Hypothesis 2:** The Poke Flute station is not at the absolute max frequency (20.0) but slightly to the left.
 - **Plan:**
-  1. Verify Radio tunes to 20.0 (POKE FLUTE).
-  2. Fly to Vermilion City using ICARUS.
-  3. Wake Snorlax at (34, 8) using Radio 20.0.
-  4. Battle and catch/defeat Snorlax.
-  5. Enter Diglett's Cave to reach Pewter City.
+  1. Tune slowly to the left (Down) and then back to the right (Up) while checking the text box in the screenshot/intermediate states for "POKE FLUTE".
+  2. If not found, exit Pokegear and talk to the Station Manager again.
+  3. If dialogue is the same, check the Poke Flute sign at (5, 0) for clues.
+  4. If still stuck, use `quest_strategist_v2` with updated context. (Turn 40500)
 
 ## General Lessons & Error Log
 - **Missing Prerequisite:** Spent 120+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
