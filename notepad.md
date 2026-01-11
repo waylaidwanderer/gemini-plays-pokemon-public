@@ -37,16 +37,10 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Status:** Correcting Navigation (Violet City).
-- **Current Iteration (65):**
-  - Start Time: Turn 33901
-  - Location: Violet City
-  - Action: Exit Pack -> Open Party -> Select Mistral.
-  - Note: Cursor confirmed on CANCEL in Pack. Escaping and navigating to Mistral (Slot 4) to use Fly.
+- **Status:** Recovering from Navigation Loop. Preparing to Fly to Ecruteak.
 
-# Reflection (Turn 33850)
-- **Status:** 50 turns since last reflection.
-- **Tasks:** No deferred tasks (handling call interruption now).
-- **Hygiene:** Notepad organized. Markers valid.
-- **Strategy:** Roamer hunt is RNG-heavy. Current method (Route 37 loop) is efficient. No agents needed for simple movement.
-- **Next:** Continue iteration loop until encounter.
+# Reflection (Turn 33903)
+- **Error Analysis:** Got stuck in a navigation loop trying to Fly. Root cause: Hallucinated starting city (thought Cherrygrove, was Violet), leading to wrong map inputs.
+- **Lesson:** ALWAYS verify `current_map_id` and screen text before committing to a navigation sequence. Do not rely on memory of previous turns.
+- **Action:** Correcting menu position to select Pidgey (Mistral) and Fly.
+- **Goal:** Return to Ecruteak and resume Roamer Hunt.
