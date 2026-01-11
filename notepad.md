@@ -37,10 +37,10 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Recovering from Navigation Loop. Preparing to Fly to Ecruteak.
+- **Status:** Recovering Navigation. Menu Closed. Restarting Fly Sequence.
 
-# Reflection (Turn 33903)
-- **Error Analysis:** Got stuck in a navigation loop trying to Fly. Root cause: Hallucinated starting city (thought Cherrygrove, was Violet), leading to wrong map inputs.
-- **Lesson:** ALWAYS verify `current_map_id` and screen text before committing to a navigation sequence. Do not rely on memory of previous turns.
-- **Action:** Correcting menu position to select Pidgey (Mistral) and Fly.
-- **Goal:** Return to Ecruteak and resume Roamer Hunt.
+# Reflection (Turn 33904)
+- **Error Analysis:** Previous turn `Up, Up, A` navigated the Start Menu incorrectly (Exit selected), closing the menu.
+- **Current State:** Overworld (Violet City). Menu Closed.
+- **Immediate Action:** Press Start to open menu. Will visually confirm cursor position before navigating.
+- **Goal:** Fly to Ecruteak.
