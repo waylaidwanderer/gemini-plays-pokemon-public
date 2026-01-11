@@ -62,7 +62,8 @@
   1. SNEASEL (Lv41): DEFEATED.
   2. FERALIGATR (Lv45): DEFEATED.
   3. GOLBAT (Lv42): DEFEATED.
-  4. GENGAR (Lv43): Active (Red HP).
-- Current Matchup: GNEISS (Lv54) vs Gengar.
-- Strategy: Use Earthquake to finish Gengar.
-- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40934).
+  4. GENGAR (Lv43): DEFEATED.
+  5. ALAKAZAM (Lv43): Active.
+- Current Matchup: GNEISS (Lv54) vs Alakazam.
+- Strategy: Use Earthquake (1 PP left) to finish Alakazam.
+- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40940).
