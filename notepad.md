@@ -46,4 +46,4 @@
   - Pokémon 1: Graveler Lv41 (Fainted to Earthquake).
   - Pokémon 2: Rhyhorn Lv41 (Fainted to Earthquake).
   - Pokémon 3: Omastar Lv42 (Fainted to Earthquake).
-  - Pokémon 4: Kabutops Lv42 (In progress).
+  - Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf).
