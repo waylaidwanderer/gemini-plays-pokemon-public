@@ -71,12 +71,9 @@
 ## Strategy: Mt. Moon Square Exploration
 - **Goal:** Reach the western edge (1, 8).
 - **Obstacles:** Walls at X=3, 4, 11, 15, 19, 20, 23, 25. Ledges at Y=11, 14.
-- **Hypothesis:** The map has tiers. Row 14/15 is the key to Column 27.
-- **Planned Path to (1, 8):**
-  1. Return to (13, 10).
-  2. Jump Down the ledge at (13, 11) to reach Row 12.
-  3. Navigate to (15, 14) and move East to (24, 14).
-  4. Explore East through (25, 14) to reach Column 27.
-  5. Move North along Column 27 to the Top Tier (Row 2).
-  6. Move West along Row 2 to (1, 2) and South to (1, 8).
-- **Status:** At (22, 6). Repel expired. Calcifer leading. (Turn 41006).
+- **Hypothesis:** The map has isolated tiers. The central Box (Rows 6-10) and Lower Area (Rows 12-13) are trapped by walls and ledges. Access to the Western Edge (X=1-2) likely requires a different entry from Mt. Moon.
+- **Plan:**
+  1. Jump Down the ledge at (13, 11) to explore the Lower Area.
+  2. Use the Cave at (22, 11) to return to Mt. Moon (3_85).
+  3. Look for other ladders or exits in Mt. Moon that lead to the western Square.
+- **Status:** At (13, 10). Repel expired. Calcifer leading. (Turn 41007).
