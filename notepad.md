@@ -8,11 +8,10 @@
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
-- **Opponent:** Vileplume (Lv42).
-- **Active:** Muscle (Lv87).
+- **Opponent:** Gengar (Incoming).
+- **Active:** Muscle (Lv87) -> Switching to Lugia.
 - **Strategy:**
-  - **Vileplume:** Use `Ice Punch` (Super Effective).
-  - **Gengar:** **SWITCH TO LUGIA** (`Psychic`).
+  - **Gengar:** **SWITCH TO LUGIA** (`Psychic`). Muscle's Fighting/Normal moves are useless.
   - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
   - **Houndoom:** Muscle (`Cross Chop`).
 - **Health Check:** Muscle 283/295 HP.
