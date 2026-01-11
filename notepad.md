@@ -22,7 +22,9 @@
 - Not very effective against: Fire, Grass, Poison, Flying, Bug, Dragon, Steel.
 
 ## Progress Tracking
-- **Kanto Badges:** Boulder, Cascade, Thunder, Marsh obtained.
+- **Badges Obtained (12/16):** 
+    - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
+    - Kanto (4/8): Boulder, Cascade, Thunder, Marsh.
 - **Current Target:** Erika (Celadon Gym).
 
 ## Party Management
@@ -40,18 +42,16 @@
 - **NPC Info:**
     - Teacher (5,13): Dept Store has best selection.
     - Teacher (Game Corner): Girls play slots now.
-- **Gym Search:** Likely in the southern part of the city. Path leads west behind hedges from (28,35).
+- **Celadon Gym (Erika):**
+    - Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
+    - Garden NPCs: Gramps (8,31) says only girls allowed in Gym.
+    - Gym Entrance: Warp at (10, 29).
 
 ## Strategy & Lessons Learned
 - **Celadon Pillars:** Column 12 (Rows 16-21) and Column 36 (Rows 22-26) are WALL tiles.
 - **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
-- **Hypothesis:** Gym is accessed via the path behind the southern hedges starting at (28,35).
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn). Link markers to Object IDs.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
-## Celadon Gym (Erika)
-- **Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
-- **Garden NPCs:** Gramps (8,31) says only girls allowed in Gym.
-- **Gym Entrance:** Warp at (10, 29).
