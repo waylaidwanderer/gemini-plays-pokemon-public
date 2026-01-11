@@ -37,13 +37,20 @@
     - (3, 8), (4, 8), (3, 9), (4, 9): "Nope!" (Out of range).
     - (4, 7), (3, 7): "Ping" (In range).
     - (4, 6), (5, 6): "Nope!" (Out of range).
-- **Triangulation (Turn 40039):** Since it pings at (3, 7) but is "Nope!" at (3, 8) and (4, 6), the item must be North of (3, 7) but West of (4, 6). 
-- **Target Area:** Northern pool, West side. Candidates: (1, 6), (2, 6), (1, 5), (2, 5), (1, 4), (1, 3), (2, 3).
+- **Triangulation (Turn 40041):** 
+    - dist(item, (4, 7)) <= 5
+    - dist(item, (3, 7)) <= 5
+    - dist(item, (3, 8)) > 5
+    - dist(item, (4, 6)) > 5
+- **Candidate Found:** (8, 7) WATER.
+    - dist((8, 7), (4, 7)) = 4 (In range)
+    - dist((8, 7), (3, 7)) = 5 (In range)
+    - dist((8, 7), (3, 8)) = 6 (Out of range)
+    - dist((8, 7), (4, 6)) = 5 (Borderline - if range is exactly 4, this fits perfectly).
 - **Plan:**
-    1. Use Itemfinder at (5, 6) to confirm out-of-range status.
-    2. Move to (3, 7) and confirm ping.
-    3. Move to (2, 6) and check.
-    4. Move to (1, 6) and check.
+    1. Move to (7, 7) via (6, 6) and (7, 6).
+    2. Use Itemfinder at (7, 7).
+    3. If ping, interact with (8, 7).
 
 ## Lessons Learned
 - **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
