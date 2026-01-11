@@ -16,6 +16,7 @@
 
 ## Progress Tracking
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
+- **Misty Defeated:** Turn 41351. Received Cascade Badge.
 
 ## Party Management
 - **Calcifer (Lv 60):** Typhlosion. Flamethrower (Fire), ThunderPunch (Electric).
@@ -27,19 +28,23 @@
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
-  - Cerulean (Misty): In progress (Turn 41321). Quagsire & Lapras defeated.
+  - Pewter (Brock): DEFEATED.
+  - Cerulean (Misty): DEFEATED (Turn 41351).
+  - Vermilion (Lt. Surge): DEFEATED.
+  - Saffron (Sabrina): DEFEATED.
+  - Celadon (Erika): Next target.
 - **Route 25 Trainers:** Dudley, Ellen, Joe, Laura, Lloyd, Shannon, Pat, Kevin: ALL DEFEATED.
 - **Cerulean Gym Trainers:**
   - Swimmer Briana (1, 9): DEFEATED.
   - Swimmer Diana (4, 6): DEFEATED.
-  - Swimmer (8, 9): Not yet battled.
+  - Swimmer (8, 9): Next target.
 
-## Strategy for Misty (Cerulean Gym)
+## Strategy for Misty (Cerulean Gym) - COMPLETED
 - **Typing:** Misty uses Water-types.
 - **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
 - **Quagsire (Water/Ground):** Defeated.
 - **Lapras (Water/Ice):** Defeated.
-- **Starmie:** Likely her ace. ThunderPunch should be effective.
+- **Starmie:** Defeated.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
