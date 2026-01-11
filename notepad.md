@@ -21,9 +21,8 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 37 (Grass).
-- **Next:** Use Max Repel -> Hunt Roamers with Gyarados (Lv36) Lead.
-- **Correction:** Keep Gyarados lead. Lugia (Lv60) is too high level for Repel trick (Roamers are Lv40).
+- **Location:** Ecruteak City (South Exit).
+- **Next:** Cycle back to Route 37 -> Grass Check.
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
 - **Roamer Hunt:** Taking a detour to check the Pokegear Map for Raikou/Entei locations since I accidentally opened it. Use `A` to exit Clock view, then select Map card.
 - **Roamer Status:** Visual confirmation on Pokegear Map: Icons spotted on Route 38, Route 42, and potentially Route 30/31.
