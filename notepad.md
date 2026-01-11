@@ -7,13 +7,10 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau.
 - **Goal:** Defeat all 5 trainers.
-- **Status:** Team healed. Preparing to shop.
-- **Team Condition:** Fully healed.
-- **Inventory:** 7 Lemonades, 2 Revives. Money: ¥10294.
 - **Shopping List:**
-  - Hyper Potions (Need ~6-8). Cost: 1200 each.
-  - Revives (Need ~2-3 more). Cost: 1500 each.
-  - Full Heals (Need ~3-4). Cost: 600 each.
+  - Hyper Potions (Need ~5). Cost: 6000.
+  - Revives (Need ~2). Cost: 3000.
+  - Full Heals (Need ~2). Cost: 1200.
 - **Strategy:**
   1. Buy supplies at Mart.
   2. Enter Elite Four.
