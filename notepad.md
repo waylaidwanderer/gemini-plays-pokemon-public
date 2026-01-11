@@ -51,3 +51,8 @@
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
 - **Magnet Train:** Inactive until Power Plant fixed. Requires PASS.
+## Inventory Discrepancy (Turn 40061)
+- **Observation:** Inventory contains 'PASS', which is the reward for Copycat's quest. Copycat's quest requires fixing the Power Plant.
+- **Conflict:** Summary 39643 says problem resolved, but Strategy Advisor (Turn 39991) says to find Machine Part. Itemfinder says 'Nope!' at (4,7) where it previously pinged.
+- **Hypothesis:** The Power Plant is already fixed, and the Machine Part is gone. The 'Nope!' at (4,7) confirms it's not there anymore.
+- **Plan:** Travel to Saffron City and attempt to use the Magnet Train. If it works, the Power Plant is fixed.
