@@ -58,10 +58,10 @@
 ## Time Tracking
 - Fisher Kyle Battle (Route 12): Started Turn 40186.
 
-## Battle Plan: Fisher Kyle
+## Battle Plan: Fisher Kyle (COMPLETED Turn 40219)
 1. Use Full Heal on XENON (COMPLETED).
 2. Use Night Shade to defeat Poliwhirl (COMPLETED).
-3. Use Night Shade to defeat Seaking (Current - XENON is CONFUSED, 51/109 HP, Turn 40214).
+3. Use Night Shade to defeat Seaking (COMPLETED).
 4. Resume navigation to Route 11.
 
 ## Radio Verification (Post-Battle)
