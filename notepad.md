@@ -13,11 +13,12 @@
 - DOOR / WARP / CAVE: Entry points.
 - LADDER / PIER: Traversable. Pier stops surfing.
 - COUNTER: Impassable. Interact from front tile.
-- WARP_CARPET: Warp at map edges.
-- WARP_CARPET_DOWN: Exit tile.
+- WARP_CARPET / WARP_CARPET_DOWN: Entry/Exit points.
 - LEDGE / LEDGE_HOP_DOWN: One-way jump down (from Above).
 - FLOOR_UP_WALL: Collision type for ledges. Blocks movement from North.
 - OBJECTS (NPCs/Items): Impassable.
+- MART_SHELF / BOOKSHELF / RADIO / INCENSE_BURNER: Impassable.
+- grass: Traversable. (Turn 40984).
 
 ## Party Management
 - **Current Lead:** GNEISS (GRAVELER Lv53). (Healed Turn 40790).
