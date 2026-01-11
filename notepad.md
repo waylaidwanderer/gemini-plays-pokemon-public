@@ -48,3 +48,7 @@
 - **Insanity Loop:** Repeating menu sequences without verifying prerequisites is a failure of the scientific method.
 - **Agent Underutilization:** Use specialized agents like `quest_strategist_v2` when stuck. (Turn 40442).
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
+## Strategy for Avoiding "Insanity Loops"
+- **Verify Prerequisites:** If a repetitive action (like tuning the radio) fails to produce the expected result after 5-10 attempts, stop and verify if a hidden requirement (item, badge, card) is missing from the Game State Information.
+- **Audit the Root Assumption:** Before assuming the tool is broken or the cursor is wrong, ask: "Is it even possible to perform this action right now?"
+- **Use Strategist Agents:** If stuck for more than 20 turns, call an agent to check for missing quest steps. (Turn 40480)
