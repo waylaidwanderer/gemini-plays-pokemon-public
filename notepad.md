@@ -33,28 +33,22 @@
 ## Machine Part Investigation
 - **Start Turn:** 39950
 - **Foundational Hint:** Rocket Grunt: "I hid it in the water in the center of the Gym."
-- **Root Hypothesis:** The Machine Part is a hidden item on a WATER tile in the inner pool: (3,8), (3,9), (4,8), (4,9).
-- **Secondary Hypothesis:** Itemfinder in Crystal pings within 4 tiles but says "Nope!" if standing directly on the hidden item.
 - **Search Log:**
-    - (3, 8): Interaction failed (Turns 40012-40015). Itemfinder "Nope!".
-    - (4, 8): Interaction failed (Turn 40019). Itemfinder "Nope!".
-    - (4, 7): Itemfinder "Ping" (Turn 39988).
-    - (3, 7): Itemfinder "Ping" (Turn 39534).
-    - (4, 6): Itemfinder "Nope!" (Turn 40006).
+    - (3, 8): Interaction failed (Turn 40013, 40015). Itemfinder: "Nope!".
+    - (4, 8): Interaction failed (Turn 40019). Itemfinder: "Nope!".
     - (3, 9): Interaction failed (Turn 40017).
     - (4, 9): Interaction failed (Turn 40018).
-- **Plan (Turn 40026):**
-    1. Close menu.
-    2. Move to (3, 6) and (4, 5) in the northern pool area.
-    3. Use Itemfinder to verify proximity.
-    4. Interact with the water tiles directly.
-
-## Completed Objectives
-- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
-- **Power Plant Conflict:** Manager informed of theft. Rocket Grunt chased from Cerulean Gym to Route 24 and defeated.
+    - (4, 7): Itemfinder: "Ping" (Turn 39988).
+    - (3, 7): Itemfinder: "Ping" (Turn 39534).
+    - (4, 6): Itemfinder: "Nope!" (Turn 40006).
+- **Hypothesis (Turn 40030):** The Machine Part is in the northern part of the pool, likely at (3, 6), (5, 6), or (3, 5). The Itemfinder pings at (3, 7) and (4, 7) suggest it is within 4 tiles of the center walkway.
+- **Plan (Turn 40030):**
+    1. Surf from (3, 7) to (3, 6).
+    2. Interact with (3, 6).
+    3. If not found, use Itemfinder at (3, 6) to re-triangulate.
 
 ## Lessons Learned
-- **Itemfinder (Crystal):** Returns "Nope!" if the player is standing directly on the item.
+- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range. It does NOT mean you are standing on it.
 - **Menu Mechanic:** Overworld menu loops; cursor remembers last position.
 - **Gym Navigation:** BFS on Map Events is optimal for warp mazes.
 
