@@ -9,9 +9,9 @@
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Buy Supplies at Celadon Dept Store.
 - **Shopping List:**
-  - 20 Max Repels (Cost: ¥14,000) - *In Progress*
-  - 25 Ultra Balls (Cost: ¥30,000) - *Next*
-- **Status:** Selecting quantity for Max Repels.
+  - 20 Max Repels (Cost: ¥14,000) - *Purchased*
+  - 25 Ultra Balls (Cost: ¥30,000) - *Next (Right Clerk)*
+- **Status:** Confirming purchase of Max Repels.
 - **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
 
 # Store Inventories
