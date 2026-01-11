@@ -41,7 +41,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Viewing Lugia's Stats.
-- **Status:** Selecting STATS option.
-- **Objective:** Identify the Ball Icon in the top right corner.
-- **Hypothesis:** Master Ball icon = Used on Lugia. Ultra Ball icon = Master Ball is lost/missing.
+- **Current Action:** Inspecting Lugia's Ball Icon.
+- **Status:** Stats screen opening.
+- **Objective:** Visually identify the capture ball.
+- **Hypothesis:** Master Ball (M) vs Ultra Ball.
