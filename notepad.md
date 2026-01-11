@@ -17,7 +17,7 @@
 ## Progress Tracking
 - **Objective: Defeat Misty at Cerulean Gym**
   - Started: Turn 41251
-  - Current Status: Battling Misty's Lapras (Turn #41338). KIMCHI fainted. Sending in Calcifer.
+  - Current Status: Battling Misty's Lapras (Turn #41339). Calcifer is out.
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 
 ## Party Management
