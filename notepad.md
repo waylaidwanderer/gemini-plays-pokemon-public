@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Re-applying Max Repel.
-- **Strategy:** Close text -> Open Pack -> Use Max Repel -> Resume Sweep.
+- **Action:** Navigating Menu -> Opening Pack.
+- **Strategy:** Select 'PACK' -> Find Max Repel -> Use -> Resume Sweep.
 - **Loop:** 10-step sweep. If nothing, return to Ecruteak.
 
 # Roamer Hunt Log
