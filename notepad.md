@@ -42,7 +42,7 @@
   - Start Time: Turn 33834
   - Location: Ecruteak -> Route 37
   - Action: Map Reset.
-  - Note: Resetting map.
+  - Note: Turning around to re-enter Route 37.
 
 # Reflection (Turn 33798)
 - **Hygiene:** Objectives synced. Old logs removed.
