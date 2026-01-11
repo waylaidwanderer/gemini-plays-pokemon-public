@@ -16,8 +16,8 @@
 
 ## Progress Tracking
 - **Objective: Defeat Misty at Cerulean Gym**
-  - Started: Turn 41251 (Current)
-  - Status: Returning to Cerulean City.
+  - Started: Turn 41251
+  - Status: In Cerulean City; heading to Pokémon Center.
 - **Find Misty Quest:** Completed Turn 41238.
 
 ## Party Management
