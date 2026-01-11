@@ -61,7 +61,7 @@
 ## Battle Plan: Fisher Kyle
 1. Use Full Heal on XENON (COMPLETED).
 2. Use Night Shade to defeat Poliwhirl (COMPLETED).
-3. Use Night Shade to defeat Seaking (Next).
+3. Use Night Shade to defeat Seaking (Current - Turn 40211).
 4. Resume navigation to Route 11.
 
 ## Radio Verification (Post-Battle)
