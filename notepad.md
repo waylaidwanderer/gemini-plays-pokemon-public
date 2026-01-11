@@ -4,8 +4,9 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Ecruteak City (South Gate).
-- **Strategy:** Return South -> Sweep Grass.
+- **Location:** Route 37 (North Gate).
+- **Action:** Sweeping grass (Pass 7).
+- **Strategy:** Move South -> Check Grass -> Return North.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
