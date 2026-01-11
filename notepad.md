@@ -4,9 +4,9 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37 -> Ecruteak City.
-- **Action:** Finishing sweep (Row 5) -> Returning to Ecruteak.
-- **Strategy:** Sweep Row 5 -> Exit North (Column 8).
+- **Location:** Route 37 (North Grass).
+- **Action:** Positioning for Sweep.
+- **Strategy:** Move to Top-Right of grass (9, 2) -> Execute Zigzag Tool.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
