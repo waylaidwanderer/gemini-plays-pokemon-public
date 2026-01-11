@@ -18,7 +18,7 @@
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 
 ## Party Management
-- **Calcifer (Lv 59):** Typhlosion. ThunderPunch (Electric) for Water-types.
+- **Calcifer (Lv 60):** Typhlosion. Flamethrower (Fire), ThunderPunch (Electric) for Water-types.
 - **Kimchi (Lv 46):** Gloom. Grass/Poison. Petal Dance (Grass). (Currently FNT)
 - **Xenon (Lv 44):** Haunter. Ghost/Poison. Hypnosis (Psychic) + Dream Eater (Psychic).
 - **Lapis (Lv 12):** Poliwag. HM slave (Surf, Whirlpool, Waterfall).
@@ -27,7 +27,7 @@
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
-  - Cerulean (Misty): In progress (Turn 41321).
+  - Cerulean (Misty): In progress (Turn 41321). Quagsire & Lapras defeated.
 - **Route 25 Trainers:** Dudley, Ellen, Joe, Laura, Lloyd, Shannon, Pat, Kevin: ALL DEFEATED.
 - **Cerulean Gym Trainers:**
   - Swimmer Briana (1, 9): DEFEATED.
@@ -37,8 +37,8 @@
 ## Strategy for Misty (Cerulean Gym)
 - **Typing:** Misty uses Water-types.
 - **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
-- **Quagsire (Water/Ground):** 4x weak to Grass. Petal Dance is best.
-- **Lapras (Water/Ice):** Weak to Electric and Grass.
+- **Quagsire (Water/Ground):** Defeated.
+- **Lapras (Water/Ice):** Defeated.
 - **Starmie:** Likely her ace. ThunderPunch should be effective.
 
 ## General Lessons & Error Log
