@@ -48,3 +48,6 @@
   - Sign at (17, 7): "MT. MOON SQUARE - DON'T LITTER".
   - Gift Shop at (13, 7): Gramps (4, 3) sells: Poke Doll (1000), Fresh Water (200), Soda Pop (300), Lemonade (350), Repel (350), Portraitmail (50).
 - **Cerulean City Locals:** Slowbro & Cooltrainer F (20-21, 24). (Turn 41065).
+- **Cerulean City Ledge Navigation:** The path around the ledges to reach the northern area (33, 23) involves going south to (32, 30), then east and north.
+- **NPC Info:** Fisher at (31, 26) is a fan of Misty but has no location info. (Turn 41079).
+- **Route 24 Exit:** The ladder at (21, 0) leads to Route 24. (Turn 41081).
