@@ -41,8 +41,8 @@
 - **Current Iteration (35):**
   - Start Time: Turn 33689
   - Location: Route 37
-  - Action: Moving North.
-  - Note: Repel active. Returning to northern grass via gap.
+  - Action: Grass Sweep (North).
+  - Note: Repel active. Wiggling in northern patch.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
