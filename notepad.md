@@ -79,9 +79,10 @@
 - Capture Strategy: Snorlax is Level 50. High priority. Lead with XENON (Haunter) for Hypnosis and Normal immunity. Plan for Great Balls.
 - Menu Path (Swap): Start -> Down x1 (PKMN) -> A -> Down x2 (XENON) -> Select -> Up x2 (CALCIFER) -> Select.
 - Execution Log:
-    - Turns 40331-40344: Multiple failed swap and interaction attempts due to menu errors and positioning. Corrected position to (37, 9).
-    - Status: Currently at (37, 9). Moving to (36, 8) to wake Snorlax.
-- Next Steps: Move to (36, 8), swap Xenon to lead (using SWITCH command), interact with Snorlax (Left).
+    - Turns 40331-40346: Multiple failed swap and interaction attempts due to menu errors and positioning.
+    - Status: Currently at (36, 8). In PACK menu by mistake.
+    - Plan: Exit menus, swap Xenon to lead using 'Select' shortcut, verify Radio 20.0, interact with Snorlax from (36, 8) facing Left.
+- Next Steps: B x3 (exit PACK), Start, Up (POKEMON), A, Down x2 (XENON), Select, Up x2 (CALCIFER), Select, B x2.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
