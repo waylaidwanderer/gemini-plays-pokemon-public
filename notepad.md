@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City (South).
-- **Action:** Checking Pokegear (Pass 27).
+- **Action:** Reading Map (Pass 27).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 22/Turn 34494). NOW: Pass 27.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
@@ -20,3 +20,4 @@
 - **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees.
 - **NPCs:** Youngster at (6,6) blocks southern movement from row 5.
 - **System:** Major position desyncs at Turn 34477, 34487, 34489. Rely on visual confirmation.
+- **Reflection (Turn 34524):** Protocols reviewed. Strategy (Shuffle/Sweep) is sound and verified. Manual navigation preferred for granularity during hunt.
