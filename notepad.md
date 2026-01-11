@@ -8,7 +8,7 @@
 ## Global Tile Mechanics (Verified)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable with SURF (requires Move + Storm Badge).
+- WATER: Traversable with SURF (requires Move + Badge).
 - TALL_GRASS / LONG_GRASS: Traversable.
 - DOOR / WARP / CAVE: Entry points.
 - LADDER / PIER: Traversable. Pier stops surfing.
@@ -18,9 +18,8 @@
 - LEDGE / LEDGE_HOP_DOWN: One-way jump down. (Verified Turn 40688).
 
 ## Party Management
-- **Current Lead:** Calcifer (TYPHLOSION Lv58).
-- **Fainted:** GNEISS (GRAVELER Lv53). Needs healing.
-- **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH).
+- **Current Lead:** GNEISS (GRAVELER Lv53). (Healed Turn 40790).
+- **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH/ROCK SMASH).
 
 ## Battle Strategies
 - **Brock (Pewter Gym):** DEFEATED. (Turn 40782).
@@ -42,10 +41,7 @@
 - **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet. (Turn 40617).
 
 ## Strategy: Finding Misty
+- **Start Turn:** 40635
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
-- **Path:** Pewter City (Heal!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-
-## Battle Log: Pewter Gym (Brock)
-- Pokémon 1-3: Graveler, Rhyhorn, Omastar (Fainted to Gneiss's Earthquake).
-- Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf; fainted to Calcifer's Thunderpunch).
-- Pokémon 5: Onix Lv44 (Fainted to Calcifer's Flame Wheel).
+- **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
+- **Current Status:** Team healed in Pewter City. Heading East to Route 3. (Turn 40791).
