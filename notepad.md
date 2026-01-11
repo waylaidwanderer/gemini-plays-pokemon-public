@@ -15,6 +15,6 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Current State: In Pokedex (Accidental).
-- Action: Exiting menu to retry Fly.
+- Current State: Overworld (Mt. Silver).
+- Action: Opening Pokemon Menu to Fly.
 - Tool: `pathfind` is ready.
