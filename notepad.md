@@ -14,7 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Navigating Olivine City south to the Port.
-- Path involves going West past the Gym/Center, then South, then East to the Port entrance.
-- Goal: Board S.S. Aqua.
+- Standing at Olivine Port Entrance (19, 27).
+- Attempting to enter by walking South.
+- Goal: Board S.S. Aqua (First Trip).
 - Reminder: Wade (Rt 31) has berries (ignoring for now).
