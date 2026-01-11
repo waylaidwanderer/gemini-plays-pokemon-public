@@ -72,5 +72,6 @@
 - Turn 40238: Interrupted by phone call from Tully. Menu cursor starts on POKEDEX. Gear is 3 down from POKEDEX.
 - Pokegear Card Order Verification: Map (1st), Radio (2nd), Phone (3rd). One 'Right' from Map should reach Radio.
 - Plan: Heal at Lavender Pokemon Center (5, 5), then head south to Route 12 to find Snorlax.
-- Turn 40241: Entered Lavender Pokemon Center. Plan: Heal party at Nurse Joy (3, 3), then exit and head south to Route 12.
+- Turn 40246: Finished healing at Lavender Pokemon Center. Team is at full strength.
+- Plan: Exit Pokemon Center and head south to Route 12 to find Snorlax.
 - Radio Strategy (Revised): Stand in front of Snorlax before tuning. Use 1x Down to reach Gear from POKEDEX (since I was on POKEDEX last time, the cursor might have moved). Wait, cursor usually resets to POKEMON or stays where it was. I'll verify visually.
