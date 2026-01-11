@@ -23,3 +23,4 @@
 # Current Status
 - **Location:** Route 37 (Heading North to Ecruteak).
 - **Next:** Ecruteak City -> Poke Center -> Roamer Hunt.
+- **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
