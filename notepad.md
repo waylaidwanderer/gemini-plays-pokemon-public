@@ -23,4 +23,3 @@
 # Current Status
 - **Location:** Route 29 (Heading West to Cherrygrove).
 - **Next:** Cherrygrove -> Route 30 -> Violet -> Ecruteak.
-- Tool Fix Needed: `pathfind` failed with `NameError: name 'target_x' is not defined`. Arguments not being passed correctly.
