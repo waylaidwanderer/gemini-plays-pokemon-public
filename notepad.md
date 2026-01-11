@@ -86,3 +86,7 @@
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
 - **Surfing to Bridges:** Landing directly on a LADDER (bridge) tile from WATER is possible. (Verified Turn 40263).
+## Battle Log: Psychic Fidel (Route 11)
+- Turn 40307: Battle started at (8, 7).
+- Pokémon: Xatu (34).
+- Strategy: Calcifer (58) using Thunderpunch (Super Effective).
