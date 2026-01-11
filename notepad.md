@@ -4,11 +4,15 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Traverse Victory Road 1F (Southeast)
+## Current Task: Traverse Victory Road (Back to 2F)
 - **Location:** Victory Road 1F (South Section).
-- **Goal:** Reach Ladder at (17, 33).
-- **Route:** `(1, 49)` -> South to `(2, 56)` -> East to `(18, 56)` -> North to `(18, 53)` -> `(17, 33)`.
-- **Reasoning:** Col 17 is a wall from Row 34 to 55. The only gap is at Row 56. Previous attempts failed because I tried to cross North at Col 11-16, which is blocked by Ledges (`FLOOR_UP_WALL`).
+- **Goal:** Return to Ladder at (1, 49) to reach 2F.
+- **Reasoning:** 
+  - 1F is divided by a Ledge Barrier at Row 52 (`FLOOR_UP_WALL`).
+  - Cannot pass North from South section on 1F.
+  - Must find path on 2F.
+  - Previous attempt on 2F blocked at (3, 34) ledge, but will retry or check (4, 34).
+- **Route:** `(9, 56) -> (7, 57) -> (2, 57) -> (2, 49) -> (1, 49)`.
 
 ## Status
 - **Money:** ¥3294.
