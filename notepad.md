@@ -48,3 +48,8 @@
 
 ## Route 5 Interests
 - **House for Sale:** Located at (10, 11). Landmark.
+## Kanto Progression Plan
+1. Return to Saffron City via Magnet Train.
+2. Go to Lavender Town and verify EXPN Card status at the Radio Tower. If not possessed, speak to Station Manager (9, 1) again.
+3. Go to Route 25 (North of Cerulean) to find Misty and earn the Cascade Badge.
+4. Use the Poke Flute channel (Radio) to wake up Snorlax on Route 11 to access southern Kanto (Route 12-15, Fuchsia City).
