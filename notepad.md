@@ -56,7 +56,9 @@
 - Bridge gap at (10, 13). Rows 14-15 are water. Requires Surf.
 - Fisher Kyle defeated at (6, 7).
 - Fishing Spot sign at (13, 9).
-- Hypothesis: Can land from water onto LADDER (bridge) at (10, 16). (Testing Turn 40261).
+- Hypothesis: Can land from water onto LADDER (bridge). -> CONFIRMED (Turn 40263).
+- Second Bridge gap at (10, 17). Rows 18-19 are water.
+- Target: Land at (10, 20) FLOOR.
 
 ### Saffron City
 - Copycat's Doll quest completed (PASS obtained). TM29 Psychic obtained.
@@ -68,3 +70,4 @@
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
+- **Surfing to Bridges:** Landing directly on a LADDER (bridge) tile from WATER is possible. (Verified Turn 40263).
