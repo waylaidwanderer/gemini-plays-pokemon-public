@@ -29,3 +29,11 @@
 - **Correction (Turn 32800):** Fly failed. New Route: New Bark -> Surf -> Route 27 -> Tohjo Falls -> Route 26 -> Indigo Plateau.
 - **Navigation Update (Turn 32843):** Landed on Route 27 (East side). Crossing the bridge east towards Route 26.
 - **Route:** Route 27 Bridge -> Route 26 -> Indigo Plateau.
+
+## Current Task: Reach Indigo Plateau
+- **Location:** Route 27 (East Bridge).
+- **Goal:** Enter Route 26.
+- **Strategy:** Navigate around Cooltrainer Reena.
+
+## Tile Mechanics
+- **LADDER (Route 27):** Functions as walkable bridge.
