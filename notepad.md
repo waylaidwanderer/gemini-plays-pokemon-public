@@ -80,3 +80,5 @@
   - Start Time: Turn 33565
   - Location: Route 37
   - Action: Hunting (Running pattern).
+  - Result: No encounter.
+  - Action: Resetting map (Route 37 -> Ecruteak).
