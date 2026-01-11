@@ -11,7 +11,7 @@
 - **Shopping List:**
   - 20 Max Repels (Cost: ¥14,000) - *Purchased*
   - 25 Ultra Balls (Cost: ¥30,000) - *Purchased*
-- **Status:** Finishing transaction.
+- **Status:** Exiting store.
 - **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
 
 # Store Inventories
