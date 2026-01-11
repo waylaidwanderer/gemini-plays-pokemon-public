@@ -61,4 +61,4 @@
 - **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
 - **Preparation:** Calcifer (Lv 60) is overleveled and has a type advantage. Carry status heals for Sleep/Stun moves.
 - **Gym Layout:** Indoor garden with ledges and gaps. Entrance at (10, 29). Statues at (3, 15) and (6, 15).
-- **Twins Jo & Zoe:** Victreebel (Lv 35) defeated. Currently battling Vileplume (Lv 35).
+- **Twins Jo & Zoe:** DEFEATED Turn 41678. Victreebel (Lv 35) and Vileplume (Lv 35) taken out.
