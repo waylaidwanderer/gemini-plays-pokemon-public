@@ -32,7 +32,7 @@
   - Cerulean (Misty): Target. End of Route 25.
 - **Recent Battles:**
   - Bug Catcher Ed (Route 2): DEFEATED. (Turn 40653).
-  - Camper Jerry (Pewter Gym): In progress.
+  - Camper Jerry (Pewter Gym): DEFEATED. (Turn 40751).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial. (Turn 40554).
