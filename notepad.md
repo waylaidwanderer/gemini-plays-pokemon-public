@@ -5,15 +5,20 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Defeat Elite Four
-- **Location:** Indigo Plateau - Will's Room (16_3).
-- **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Will's Slowbro (Lv41). Muscle (Lv86) is active.
-- **Matchup:** Muscle (Fighting) vs Slowbro (Water/Psychic).
-- **Strategy:**
-  1. **Action:** Use `Thunderpunch` (Slot 2).
-  2. **Reason:** Super Effective (2x). OHKO expected.
-  3. **Remaining:** None (This is the last Pokemon?).
-  - **Health Check:** Muscle 182/291 (Sp. Def -1).
+- **Location:** Indigo Plateau - Will's Room (16_3) -> Koga's Room.
+- **Goal:** Defeat Koga (Poison Type).
+- **Status:** Will Defeated.
+- **Strategy for Koga:**
+  - **Lead:** Muscle (Lv86).
+  - **Ariados/Venomoth:** `Thunderpunch` or `Strength` (Neutral).
+  - **Forretress:** `Thunderpunch` (Neutral). Avoid Physical contact if possible? No, Thunderpunch is contact. Fire is best but I lack strong Fire. Muscle's high level should power through.
+  - **Muk:** `Strength` (Neutral) or `Earthquake` if taught. (Currently: Strength).
+  - **Crobat:** `Ice Punch` or `Thunderpunch` (Super Effective).
+  - **Plan:** Muscle sweeps. Heal if Poisoned/Confused.
+- **Next Steps:**
+  1. Move to Koga's Room.
+  2. Switch Muscle to Lead (Slot 1).
+  3. Save?
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
