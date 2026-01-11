@@ -8,10 +8,10 @@
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
-- **Opponent:** Umbreon (Incoming).
+- **Opponent:** Umbreon (Lv42).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Umbreon:** Use `Strength` (Reliable) or `Cross Chop` (Super Effective).
+  - **Umbreon:** Use `Cross Chop` (High Risk/High Reward) to try for OHKO and avoid `Confuse Ray`.
   - **Vileplume:** Use `Ice Punch`.
   - **Gengar:** **SWITCH TO LUGIA** (Use `Psychic`).
   - **Murkrow:** Use `Ice Punch` or `Thunderpunch`.
