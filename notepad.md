@@ -7,13 +7,10 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Koga's Room (16_4).
 - **Goal:** Defeat Koga (Poison Type).
-- **Status:** Approaching Koga.
+- **Status:** Standing before Koga.
 - **Immediate Actions:**
-  1. Navigate to Koga (5,8).
-  2. **HEAL MUSCLE:** Use Hyper Potion on Muscle (currently 182/291 HP).
-  3. **SWITCH LEAD:** Move Muscle (Slot 3) to Slot 1.
-  4. **Save Game:** (Optional but good practice).
-  5. Challenge Koga.
+  1. **SWITCH LEAD:** Open menu, switch Muscle (Slot 3) to Slot 1.
+  2. **Challenge Koga:** Step Up (to 5,7) and Interact.
 - **Strategy for Koga:**
   - **Lead:** Muscle (Lv86).
   - **Ariados/Venomoth:** `Thunderpunch` or `Strength` (Neutral).
@@ -21,6 +18,7 @@
   - **Muk:** `Strength`.
   - **Crobat:** `Ice Punch` or `Thunderpunch`.
   - **Plan:** Muscle sweeps.
+- **Health Check:** Muscle 291/291 (Full).
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
