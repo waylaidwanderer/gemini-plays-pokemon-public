@@ -36,7 +36,7 @@
 - **Recent Battles:**
   - Youngster Warren (Route 3): DEFEATED. (Turn 40814).
   - Youngster Jimmy (Route 3): DEFEATED. (Turn 40826).
-  - Firebreather Otis (Route 3): Defeating. (Turn 40843).
+  - Firebreather Otis (Route 3): DEFEATED. (Turn 40845).
 
 ## Strategy: Mt. Moon
 - **Objective:** Traverse Mt. Moon to reach Cerulean City.
