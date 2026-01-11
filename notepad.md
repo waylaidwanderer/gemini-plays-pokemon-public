@@ -16,6 +16,6 @@
 
 # Status Update
 - Location: Inside Mt. Silver Pokecenter (19_3).
-- State: Menu open ("Use on which PKMN?").
-- Action: Closing menus and walking Down to exit.
+- Event: Phone call from Wade finished.
+- Action: Exiting Pokecenter (Down).
 - Next: Fly to Goldenrod from Outside.
