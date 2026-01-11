@@ -8,7 +8,7 @@
 - DOOR / WARP / CAVE: Entry points.
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
-- MART_SHELF: Impassable.
+- MART_SHELF: Impassable. Interaction untested.
 - LEDGE_HOP_DOWN: One-way North to South.
 - FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable.
 - OBJECTS (NPCs/Items): Impassable.
@@ -23,9 +23,9 @@
 - **Celadon Dept Store Exploration (Started Turn 41740):**
     - 1F: Directory checked.
     - 2F: Stocked up on 12x Full Heal, 10x Max Potion, 10x Revive. Nugget sold.
-    - 3F: Arrived Turn 41804. Checking TM Shop.
+    - 3F: Arrived Turn 41804. Checking TM Shop inventory.
 - **Long Term Shopping Plan:**
-    - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Fury Cutter.
+    - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Thunder Punch (Verify).
     - 4F (Wiseman Gifts): Purchase Evolution Stones.
     - 5F (Drugstore): Stat boosters.
     - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
@@ -52,4 +52,4 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Inventory Sync:** Turn 41813 Iron/Rare Candy usage needs verification once menu closes.
+- **Inventory Sync:** Turn 41813 Iron/Rare Candy usage CONFIRMED. Calcifer is Lv 62.
