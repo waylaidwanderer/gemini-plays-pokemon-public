@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Restarting Fly Sequence (Safe Mode).
+- **Status:** Opening Fly Map.
 - **Current Iteration (67):**
   - Start Time: Turn 33920
   - Location: Cherrygrove City
-  - Action: Start -> A (Open Party).
-  - Note: Pausing to verify Party Cursor position before selecting Mistral. Previous attempts suggest cursor memory might persist or reset unpredictably. Safety first!
+  - Action: Select Mistral (A) -> Select Fly (A).
+  - Note: Opening Map. Next turn will use SAFE NAVIGATION (single steps or sleeps) to ensure inputs aren't eaten. Cursor likely starts at New Bark Town.
