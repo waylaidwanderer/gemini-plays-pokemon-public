@@ -21,6 +21,6 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 37 (Heading North to Ecruteak).
-- **Next:** Ecruteak City -> Poke Center -> Roamer Hunt.
+- **Location:** Ecruteak City (Arriving from Route 37).
+- **Next:** Heal at Poke Center -> Start Roamer Hunt Loop.
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
