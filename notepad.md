@@ -4,8 +4,8 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37 -> Ecruteak City.
-- **Action:** Shuffling (Pass 40 -> 41).
+- **Location:** Ecruteak City -> Route 37.
+- **Action:** Sweeping Grass (Pass 41).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 37/Turn 34588). Next: Pass 42.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
