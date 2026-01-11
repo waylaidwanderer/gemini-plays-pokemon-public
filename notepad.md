@@ -7,17 +7,10 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Task:** Buy Max Repels at Goldenrod Dept Store.
+- **Immediate Task:** Buy Max Repels (or Super Repels) at Goldenrod Dept Store 2F.
+- **Contingency:** If unavailable here, check other clerks or Kanto (Celadon).
 
 # Roaming Beasts Status
 - **Target:** Raikou & Entei.
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
 - **Location:** Roaming Johto (Random).
-
-# Status Update
-- Location: Fly Map (Lake of Rage).
-- Action: Navigate to Goldenrod City.
-- Logic: `Down` from Lake of Rage failed. Trying `Left` path.
-- Hypothesis: Lake of Rage -> Left (Mahogany) -> Left (Ecruteak) -> Down (Goldenrod).
-- Input: `Left`, `Left`, `Down`.
-- Next: Verify destination text.
