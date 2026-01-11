@@ -34,23 +34,18 @@
 - **Start Turn:** 39950
 - **Foundational Hint:** Rocket Grunt: "I hid it in the water in the center of the Gym."
 - **Search Log:**
-    - (3, 8), (4, 8), (3, 9), (4, 9): "Nope!" (Out of range).
-    - (4, 7), (3, 7): "Ping" (In range).
-    - (4, 6), (5, 6): "Nope!" (Out of range).
-- **Triangulation (Turn 40041):** 
-    - dist(item, (4, 7)) <= 5
-    - dist(item, (3, 7)) <= 5
-    - dist(item, (3, 8)) > 5
-    - dist(item, (4, 6)) > 5
-- **Candidate Found:** (8, 7) WATER.
-    - dist((8, 7), (4, 7)) = 4 (In range)
-    - dist((8, 7), (3, 7)) = 5 (In range)
-    - dist((8, 7), (3, 8)) = 6 (Out of range)
-    - dist((8, 7), (4, 6)) = 5 (Borderline - if range is exactly 4, this fits perfectly).
-- **Plan:**
-    1. Move to (7, 7) via (6, 6) and (7, 6).
-    2. Use Itemfinder at (7, 7).
-    3. If ping, interact with (8, 7).
+    - (3, 8), (4, 8), (3, 9), (4, 9): Interaction failed. Itemfinder: "Nope!".
+    - (4, 7), (3, 7): Itemfinder: "Ping" (In range).
+    - (4, 6): Itemfinder: "Nope!" (Turn 40006). Interaction pending.
+    - (3, 6): Untested.
+- **Triangulation (Turn 40044):** 
+    - The item is likely at (4, 6) if the "Nope! when standing on it" hypothesis is correct.
+    - If not at (4, 6), it must be a tile that pings at (3, 7) and (4, 7) but is out of range of (3, 8), (4, 8), and (4, 6). This is mathematically difficult with a standard range, suggesting the "standing on it" rule or a very specific range.
+- **Plan (Turn 40044):**
+    1. Close the Pokemon summary screen (press B multiple times).
+    2. Navigate to (4, 6) in the water.
+    3. Interact (A button) with (4, 6).
+    4. If not found, check (3, 6) and (1, 7).
 
 ## Lessons Learned
 - **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
