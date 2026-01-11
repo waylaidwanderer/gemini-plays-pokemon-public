@@ -42,7 +42,7 @@
   - Start Time: Turn 33765
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Sweeping grass.
+  - Note: Sweeping and resetting to Ecruteak.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
