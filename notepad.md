@@ -7,10 +7,13 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Koga's Room (16_4).
 - **Goal:** Defeat Koga (Poison Type).
-- **Status:** In Pokemon Menu. Selecting Muscle to switch.
+- **Status:** In Pokemon Submenu. "SWITCH" selected.
 - **Immediate Actions:**
-  1. **SWITCH LEAD:** Select Muscle -> Switch -> Select Gyarados (Slot 1).
-  2. **Challenge Koga:** Step Up (to 5,7) and Interact.
+  1. **Press A** to activate switch mode.
+  2. **Press Up, Up** to target Gyarados (Slot 1).
+  3. **Press A** to confirm swap.
+  4. **Press B, B** to exit menu.
+  5. **Challenge Koga.**
 - **Strategy for Koga:**
   - **Lead:** Muscle (Lv86).
   - **Ariados/Venomoth:** `Thunderpunch` or `Strength`.
@@ -19,9 +22,3 @@
   - **Crobat:** `Ice Punch`.
   - **Plan:** Muscle sweeps.
 - **Health Check:** Muscle 291/291 (Full).
-
-## Reflection (Turn 33175)
-- **Execution:** Currently performing manual menu navigation to switch Muscle to lead. Deferring creation of complex menuing tools due to state tracking complexity.
-- **Hygiene:** Notepad is up-to-date. Map markers for defeated E4 members (Will) are placed.
-- **Goal:** Defeat Koga. Muscle (Fighting) is the key sweeper.
-- **Mistakes:** Previously failed to switch party due to tool assumption (menu state). Now proceeding manually to ensure accuracy.
