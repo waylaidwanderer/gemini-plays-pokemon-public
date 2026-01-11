@@ -66,16 +66,18 @@
 ### Route 5
 - House for Sale at (10, 11). Landmark.
 
+### Route 11
+- Entered from Route 12 junction (Turn 40283).
+- Goal: Find Snorlax (blocking path west).
+- Plan: Move West, use Radio (Poke Flute) when adjacent.
+
+## Battle Log: Psychic Herman (Route 11)
+- Opponent uses Youngster sprite (ID 3).
+- Pokémon: Exeggcute (30) [Defeated], Exeggutor (30) [Defeated], Exeggcute (30) [Current].
+- Strategy: Calcifer (58) using Flame Wheel.
+
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
 - **Surfing to Bridges:** Landing directly on a LADDER (bridge) tile from WATER is possible. (Verified Turn 40263).
-- Turn 40283: Entered Route 11 from Route 12 junction. 
-- Goal: Find Snorlax on Route 11 (blocking the path west).
-- Plan: Move West along the corridor until Snorlax is reached. Then use Radio (Poke Flute) to wake him.
-- Note: Snorlax should be a large sprite blocking the path. I will tune the radio ONLY when adjacent to it.
-## Battle Log: Youngster (Route 11)
-- Turn 40289: Battle started. Calcifer (58) vs Exeggcute (30).
-- Strategy: Use Flame Wheel for super effective damage.
-- Note: Exeggcute is Grass/Psychic.
