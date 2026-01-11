@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Outside.
-- Current State: Stuck in Bag/Item Menu.
-- Action: Backing out to Main Menu -> Pokemon -> Fly.
-- Goal: Goldenrod City.
+- Location: Inside Mt. Silver Pokecenter (19_3).
+- State: Menu open ("Use on which PKMN?").
+- Action: Closing menus and walking Down to exit.
+- Next: Fly to Goldenrod from Outside.
