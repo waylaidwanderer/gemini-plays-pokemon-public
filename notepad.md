@@ -27,5 +27,5 @@
 - **Status:** Repel active. 0 Encounters.
 - **Update (Turn 32794):** Gaven called again with generic Victreebel chatter. Rematch status uncertain, but proceeding to Indigo Plateau via Route 26 anyway for money farming at the League.
 - **Correction (Turn 32800):** Fly failed. New Route: New Bark -> Surf -> Route 27 -> Tohjo Falls -> Route 26 -> Indigo Plateau.
-- **Navigation Update (Turn 32803):** Direct path to Tohjo Falls entrance (26, 5) blocked by walls/land. Landed at beach (18, 10). Fisher at (21, 10) is a greeter ("Step into Kanto"), not a battler.
-- **Route:** Enter Tohjo Falls (26, 5) -> Traverse Cave -> Route 27 East -> Route 26 -> Indigo Plateau.
+- **Navigation Update (Turn 32831):** Successfully traversed Tohjo Falls. Now on East Route 27. Heading East to Route 26.
+- **Route:** Surf East -> Route 26 -> Indigo Plateau.
