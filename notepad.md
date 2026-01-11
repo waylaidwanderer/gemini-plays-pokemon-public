@@ -36,7 +36,7 @@
 # Roamer Hunt Log
 - **Summary:** Iterations 1-22: No encounters.
 - **Current Iteration (23):**
-  - Start Time: Turn 33627
+  - Start Time: Turn 33628
   - Location: Route 37
-  - Action: Moving Ecruteak -> Route 37 to reset.
-  - Note: Repel active (Refreshed Turn 33590). Steps counting down.
+  - Action: Hunting (Grass Sweep).
+  - Note: Repel active (Refreshed Turn 33590).
