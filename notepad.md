@@ -47,3 +47,4 @@
 - Wall at x=18: Solid from y=18 to y=21.
 - Gap at y=22: (18, 22) is FLOOR.
 - Path to Gym: Go west to x=7, then north to y=18, then east to (16, 18).
+- WARP_CARPET_DOWN: Exit tile (Verified Turn 40722).
