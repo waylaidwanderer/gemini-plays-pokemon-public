@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Menu Recovery. Navigating to Party.
+- **Status:** Selected Mistral. Selecting Fly.
 - **Current Iteration (65):**
   - Start Time: Turn 33901
   - Location: Violet City
-  - Action: Up x 6 -> A (Open Party).
-  - Note: Cursor on EXIT. Navigating up to POKEMON to avoid wrapping assumptions. Next: Select Mistral -> Fly.
+  - Action: Select Mistral (A) -> Select Fly (A).
+  - Note: Assuming Fly is the first option in the Pokemon sub-menu. Next turn: Navigate Map to Ecruteak.
