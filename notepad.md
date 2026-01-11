@@ -25,9 +25,9 @@
     - 2F: Fully explored. Stocked up on healing items (Full Heal, Max Potion, Revive).
     - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
     - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail. No Evolution Stones.
-    - 5F: Arrived Turn 41863. Checking Drugstore.
+    - 5F: Drugstore (Clerk 1) inventory: HP UP, PROTEIN, IRON, CARBOS, CALCIUM (all ¥9800). No Evolution Stones.
 - **Long Term Shopping Plan:**
-    - 5F (Drugstore): Check for stat boosters and Evolution Stones.
+    - 5F (Drugstore): Check Clerk 2 for Evolution Stones.
     - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
 
 ## Strategy for 5F Exploration (Turn 41867)
