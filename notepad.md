@@ -65,7 +65,7 @@
 
 ## Strategy for 6F Exploration (Turn 41905)
 1. Read Directory at (14, 0). (Done)
-2. Talk to Youngster (ID 2) at (11, 4).
+2. Talk to Youngster (ID 2).
 3. Talk to Super Nerd (ID 1) at (9, 2). (Done)
 4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1).
 5. Explore western unseen area using `find_reachable_unseen_tiles`.
