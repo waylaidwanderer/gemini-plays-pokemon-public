@@ -32,10 +32,10 @@
 
 ## Kanto Radio & Snorlax Quest
 - **Objective:** Wake Snorlax at Vermilion City / Route 11 junction using the Poke Flute radio channel.
-- **Status:** EXPN Card active (confirmed by `quest_analyst`). Heading to Snorlax.
+- **Status:** EXPN Card active (confirmed by `quest_analyst`). Standing in Lavender Town.
 - **Strategy:**
-  1. Travel to Snorlax at (34, 8) in Vermilion City.
-  2. Position at (36, 8) facing Left.
+  1. Finish saving and Fly to Vermilion City using ICARUS.
+  2. Position at (36, 8) facing Left (interaction point for Snorlax).
   3. Open Pokegear Radio and tune PRECISELY to 20.0 (top center) until "POKE FLUTE" appears.
   4. Close menu and interact with Snorlax (A).
   5. Battle and catch/defeat Snorlax.
@@ -44,5 +44,6 @@
 ## General Lessons & Error Log
 - **Dialogue vs. Items:** "With that thing..." dialogue is the definitive indicator of the EXPN Card upgrade receipt. (Turn 40496).
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
-- **Time Blindness:** Monitor turn counts when progress stalls.
-- **Menu Cursor Memory:** Start menu remembers last position. Always verify start position.
+- **Precision Tuning:** Ensure the needle is at the absolute top of the dial for the Poke Flute. (Turn 40535).
+- **Menu Cursor Memory:** Start menu remembers last position. Always verify start position. (Turn 40501).
+- **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
