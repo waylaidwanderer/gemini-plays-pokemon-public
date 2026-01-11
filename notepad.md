@@ -46,8 +46,8 @@
   - **Plan:** Continue hunting loop. Define helper tool if fatigue sets in.
   - Result: No encounter (~50 steps).
   - Action: Resetting map (Route 37 -> Ecruteak).
-- **Iteration 16 Result:** No encounter.
-- **Current Iteration (17):**
-  - Start Time: Turn 33613
-  - Action: High efficiency hunt loop (Route 37).
-  - Note: Repel might expire soon (~250 steps since Turn 33590).
+- **Correction:** Iterations 13-17 failed to transition map (stayed in Ecruteak).
+- **Current Iteration (18):**
+  - Start Time: Turn 33615
+  - Action: Corrected Loop (Down x7 -> Wiggle -> Up x7).
+  - Note: Repel critical.
