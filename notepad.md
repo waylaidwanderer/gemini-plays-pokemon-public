@@ -3,10 +3,11 @@
 ## Core Principles & Strategy
 - **Immediate Execution:** Perform tasks the moment they are identified.
 - **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
-- **Efficiency:** Running from wild battles is preferred unless training or catching.
+- **Efficiency:** Running from wild battles is preferred.
 - **Fly Usage:** Use Fly for long-distance travel. If cursor seems stuck, verify with `press_buttons`.
 - **Menu Verification:** Use short sequences (1-3 buttons) and verify screen state.
-- **Prerequisite Check:** Always verify required items (like EXPN Card) in Game State before attempting puzzles.
+- **Prerequisite Check:** Always verify required items (like EXPN Card) in Game State before attempting puzzles. If a repetitive action fails 5-10 times, audit the root assumption: "Is this even possible right now?"
+- **Agent Usage:** Use specialized agents like `quest_strategist_v2` if progress stalls for 20+ turns.
 
 ## Tile Mechanics (Global)
 - FLOOR: Traversable. Standard collision.
@@ -14,7 +15,7 @@
 - WATER: Traversable with SURF (requires Storm Badge and a Pokémon with the move SURF).
 - TALL_GRASS / LONG_GRASS: Traversable, triggers wild encounters.
 - DOOR / WARP: Step on to enter buildings/areas.
-- LADDER / PIER: Traversable. Used for bridge-like structures.
+- LADDER / PIER: Traversable. Used for bridge-like structures. Stepping on a pier stops surfing.
 - CAVE: Warp tile.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - WARP_CARPET: Warp at map edges.
@@ -36,19 +37,13 @@
 ## EXPN Card Sub-Quest
 - **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
 - **Start Turn:** 40441.
-- **Current Strategy:** Surfing north on Route 12 toward Lavender Town. To avoid repeatedly starting/stopping Surf on the piers, I will move to the open water in column 18 and follow it north.
 - **Plan:**
-  1. Reach Lavender Town Radio Tower.
+  1. Reach Lavender Town Radio Tower (Currently surfing North on Route 12).
   2. Speak to Station Manager (10, 1) to get EXPN Card.
   3. Verify EXPN Card in Pokegear Cards.
   4. Return to Snorlax.
 
 ## General Lessons & Error Log
-- **Missing Prerequisite (EXPN Card):** Attempted to tune radio without the card for 120+ turns. **Lesson:** Check Game State Information for required capabilities before brute-forcing a solution.
-- **Insanity Loop:** Repeating menu sequences without verifying prerequisites is a failure of the scientific method.
-- **Agent Underutilization:** Use specialized agents like `quest_strategist_v2` when stuck. (Turn 40442).
+- **Missing Prerequisite:** Spent 120+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
-## Strategy for Avoiding "Insanity Loops"
-- **Verify Prerequisites:** If a repetitive action (like tuning the radio) fails to produce the expected result after 5-10 attempts, stop and verify if a hidden requirement (item, badge, card) is missing from the Game State Information.
-- **Audit the Root Assumption:** Before assuming the tool is broken or the cursor is wrong, ask: "Is it even possible to perform this action right now?"
-- **Use Strategist Agents:** If stuck for more than 20 turns, call an agent to check for missing quest steps. (Turn 40480)
+- **Fly Map:** Cursor may require D-pad `press_buttons` if `press_menu_buttons_v2` fails. (Turn 40450).
