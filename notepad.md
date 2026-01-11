@@ -50,3 +50,4 @@
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
 - **Menu Sequence:** Ensure dialogue is clear before menu inputs. Break sequences into small chunks.
 - **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position before confirming item use in menus.
+- **Battle: Gym Leader Misty (Turn 41321):** Started. Leading with Calcifer.
