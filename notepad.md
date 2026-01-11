@@ -53,3 +53,5 @@
 - **Button Mixing:** Never mix directional and action buttons in overworld.
 - **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
+- Celadon Mansion 2F: Game Freak Meeting Room sign at (5, 8) read. Entrance likely on the left side.
+- Celadon Mansion 2F: Bookshelf at (2, 3) to be investigated.
