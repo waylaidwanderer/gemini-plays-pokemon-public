@@ -41,7 +41,6 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Scanning Key Items Pocket (Page 3).
-- **Status:** Checked S.S. Ticket. Scrolling to bottom.
-- **Hypothesis:** Master Ball is gone. Used on Maelstrom.
-- **Implication:** Roamer hunt will require Mean Look/Spider Web or extreme luck.
+- **Current Action:** Checking Lugia's Summary.
+- **Reason:** Master Ball missing from all inventories. Verifying if used on Lugia.
+- **Status:** Exiting Bag, Opening Party Menu.
