@@ -7,14 +7,13 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Will's Xatu (Lv42). Maelstrom (Lv60) is active. In Party Menu.
-- **Matchup:** Lugia (Flying/Psychic) vs Xatu (Psychic/Flying).
+- **State:** Battling Will's Xatu (Lv42). Switching Maelstrom -> Muscle.
+- **Matchup:** Muscle (Fighting) vs Xatu (Psychic/Flying).
 - **Strategy:**
-  1. **Action:** Highlight Muscle (Down).
-  2. **Next:** Select Muscle (A), Confirm Switch (A).
-  3. **Reason:** Maelstrom is Seeded. Muscle has `Thunderpunch` (2x Effective).
-  4. **Xatu:** Use `Thunderpunch`.
-  5. **Remaining:** Slowbro (Water/Psychic). Muscle `Thunderpunch`.
+  1. **Action:** Press A to confirm SWITCH.
+  2. **Reason:** Muscle is 2x effective vs Xatu (Thunderpunch) and removes Leech Seed from Lugia.
+  3. **Xatu:** Use `Thunderpunch`.
+  4. **Remaining:** Slowbro (Water/Psychic). Muscle `Thunderpunch`.
   - **Health Check:** Muscle 235/291. Lugia 184/204 (Seeded).
 
 ## Reflection (Turn 33071)
