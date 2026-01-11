@@ -37,7 +37,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Manual Fly - Pulse Left (Step 5 - RETRY 5).
-- **Hypothesis:** Single input is missed. Pulsing 'Left' multiple times with delays ensures one registers.
-- **Plan:** `sequence_press`: Left, sleep 250, Left, sleep 250, Left.
-- **Contingency:** If this fails, I will ABORT Fly and WALK to Ecruteak (Route 29 -> 30 -> 31 -> 36).
+- **Current Action:** Aborting Fly (Cursor Stuck).
+- **Status:** Fly Map cursor at New Bark Town unresponsive to 'Left' inputs (tried 5+ times).
+- **Plan:** Press 'B' to exit Fly Map. Return to Overworld.
+- **New Strategy:** Walk to Ecruteak (Route 29 -> Cherrygrove...). Maybe try Fly from Cherrygrove if feeling lucky, but walking is reliable.
