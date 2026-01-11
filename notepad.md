@@ -10,16 +10,15 @@
 - **Shopping List (Budget: ¥10294):**
   - [x] 5 Hyper Potions (Cost: 6000).
   - [x] 2 Revives (Cost: 3000).
-  - [ ] 2 Full Heals (Cost: 1200).
-  - Remaining: ¥1294.
+  - [x] 2 Full Heals (Cost: 1200).
+  - Remaining: ¥94.
 - **Strategy:**
-  1. Buy supplies.
-  2. Enter Elite Four.
-  3. **Will (Psychic):** Muscle (Ice/Thunderpunch), Gyarados (Bite).
-  4. **Koga (Poison):** Lugia (Psychic/Gust), Muscle.
-  5. **Bruno (Fighting):** Lugia (Flying/Psychic).
-  6. **Karen (Dark):** Muscle (Fighting).
-  7. **Lance (Dragon):** Muscle (Ice Punch), Lugia, Gyarados.
+  1. Enter Elite Four (Ladder at 14,3).
+  2. **Will (Psychic):** Muscle (Ice/Thunderpunch), Gyarados (Bite).
+  3. **Koga (Poison):** Lugia (Psychic/Gust), Muscle.
+  4. **Bruno (Fighting):** Lugia (Flying/Psychic).
+  5. **Karen (Dark):** Muscle (Fighting).
+  6. **Lance (Dragon):** Muscle (Ice Punch), Lugia, Gyarados.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
