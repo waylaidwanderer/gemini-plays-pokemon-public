@@ -38,11 +38,9 @@
     "input_schema": {
       "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
         },
         "end_x": {
           "type": "integer"
@@ -50,9 +48,11 @@
         "end_y": {
           "type": "integer"
         },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
         }
       },
       "required": [
@@ -63,7 +63,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        tree = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n        \n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            \n            # Walkable types include all known traversable tiles and unseen tiles\n            walkable_types = [\n                \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"LADDER\", \"PIER\", \n                \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \n                \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"LEDGE_HOP_DOWN\", \"grass\"\n            ]\n            \n            is_walkable = t_type in walkable_types or not seen\n            \n            # Objects block unless it's the start or end tile\n            if has_object and (x != end_x or y != end_y) and (x != start_x or y != start_y):\n                is_walkable = False\n            \n            grid[(x, y)] = {\"type\": t_type, \"walkable\": is_walkable}\n\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                \n                can_move = False\n                if tile[\"walkable\"]:\n                    if tile[\"type\"] == \"LEDGE_HOP_DOWN\":\n                        if btn == \"Down\": # Only allow jumping down\n                            can_move = True\n                    else:\n                        can_move = True\n                \n                if can_move:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n    print(json.dumps([]))\n\nsolve()",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        tree = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n        \n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            \n            # Walkable types include all known traversable tiles and unseen tiles\n            walkable_types = [\n                \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"LADDER\", \"PIER\", \n                \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \n                \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"LEDGE_HOP_DOWN\", \n                \"grass\", \"STAIRCASE\", \"DOOR\"\n            ]\n            \n            is_walkable = t_type in walkable_types or not seen\n            \n            # Objects block unless it's the start or end tile\n            if has_object and (x != end_x or y != end_y) and (x != start_x or y != start_y):\n                is_walkable = False\n            \n            grid[(x, y)] = {\"type\": t_type, \"walkable\": is_walkable}\n\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                \n                can_move = False\n                if tile[\"walkable\"]:\n                    if tile[\"type\"] == \"LEDGE_HOP_DOWN\":\n                        if btn == \"Down\": # Only allow jumping down\n                            can_move = True\n                    else:\n                        can_move = True\n                \n                if can_move:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -89,6 +89,11 @@
         "commit_message": "Added support for WARP_CARPET_LEFT and WARP_CARPET_RIGHT to the walkable tile list.",
         "timestamp": "2026-01-11T18:11:19.132Z",
         "action_counter": 41393
+      },
+      {
+        "commit_message": "Added STAIRCASE and DOOR to the walkable tile list in find_path_v5.",
+        "timestamp": "2026-01-11T19:20:58.657Z",
+        "action_counter": 41474
       }
     ]
   },
