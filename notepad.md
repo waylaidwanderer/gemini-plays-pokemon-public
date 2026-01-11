@@ -39,3 +39,4 @@
   - Start Time: Turn 33583
   - Location: Route 37
   - Action: Hunting.
+  - Note: Repel refreshed at Turn 33590.
