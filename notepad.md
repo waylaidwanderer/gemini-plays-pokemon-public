@@ -8,11 +8,9 @@
 - **Location:** Indigo Plateau - Lance's Room (16_7)
 - **Goal:** Defeat Champion Lance (Dragon Specialist).
 - **Status:** Battling Lance.
-- **Opponent:** Aerodactyl (Incoming).
+- **Opponent:** Charizard (Incoming).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Mechanics:** Elemental Punches are SPECIAL in Gen 2.
-  - **Aerodactyl:** Muscle `Thunderpunch` (2x Super Effective).
-  - **Dragonite x3:** Muscle `Ice Punch` (4x Super Effective).
   - **Charizard:** Muscle `Thunderpunch` (2x Super Effective).
+  - **Dragonite x3:** Muscle `Ice Punch` (4x Super Effective).
 - **Health Check:** Muscle 283/295 HP.
