@@ -86,3 +86,8 @@
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
 ## Task Timestamps
 - Snorlax Wake-up Attempt: Started Turn 40317 (Saturday, Jan 10, 2026, 11:45 PM).
+## Strategy Log - Snorlax Encounter
+- Turn 40331-40333: Multiple failed party swap attempts due to menu cursor persistence. Corrected by resetting cursor with 'Up' inputs.
+- Goal: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
+- Move to (35, 8) and interact with Snorlax (34, 8).
+- Radio frequency confirmed at 20.0 (Poke Flute) previously.
