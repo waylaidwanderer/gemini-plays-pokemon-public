@@ -23,7 +23,3 @@
   - Actually, if I lose to E4, I keep experience but lose money.
   - **Grinding Strategy:** Use E4 runs for XP and money? No, I lose money.
   - Better to spend all money on items first, then run E4 for XP/Money (net zero loss if broke).
-
-## Status
-- **Money:** ¥3294.
-- **Party:** Gyarados (Lead), Lugia, Machoke, Pidgey, Oddish, Quilava.
