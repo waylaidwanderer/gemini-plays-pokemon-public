@@ -22,9 +22,10 @@
 - **RNG:** Roamer position resets on map transition. Patience required.
 
 # Current Status
-- **Location:** Route 37 (North Grass).
-- **Strategy:** Finish sweep (Rows 4-5) -> Return to Ecruteak.
-- **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
+- **Location:** Route 37 -> Ecruteak City.
+- **Action:** Finishing sweep -> Returning to Ecruteak to shuffle.
+- **Strategy:** Exit North (Row 5 -> Row 0) -> Shuffle.
+- **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
