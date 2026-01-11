@@ -48,10 +48,9 @@
     2. Check Game Corner.
     3. Head to Fuchsia City via Cycling Road or Silence Bridge.
 - **Major Milestones:**
-    - Obtain EXPN Card (Lavender Radio Tower) to wake Snorlax.
-    - Wake Snorlax (Route 11) to access Western Kanto.
-    - Challenge Sabrina (Saffron Gym) for Marsh Badge.
-    - Retrieve Copycat's Lost Item (Vermilion Fan Club) for Magnet Train Pass.
+    - Challenge Janine (Fuchsia Gym).
+    - Challenge Blaine (Cinnabar/Seafoam Gym).
+    - Challenge Blue (Viridian Gym).
     - Visit Daisy Oak (Pallet Town) 3-4 PM for happiness boost.
 
 ## General Lessons & Error Log
