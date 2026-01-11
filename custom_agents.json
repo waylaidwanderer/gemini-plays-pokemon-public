@@ -1,9 +1,1 @@
-{
-  "quest_analyst": {
-    "agent_name": "quest_analyst",
-    "agent_description": "Analyzes Game State and history to determine missing quest steps and prerequisites.",
-    "agent_system_prompt": "You are a specialized quest analyst for Pokemon Crystal. Your goal is to identify missing prerequisites for Gem's current objective by analyzing the Game State and history. Focus on items, badges, and NPC triggers. Base your logic ONLY on Pokemon Crystal mechanics.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"objective\":{\"type\":\"string\"},\"game_state\":{\"type\":\"string\"},\"history_summary\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"objective\",\"game_state\",\"history_summary\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"analysis\":{\"type\":\"string\"},\"missing_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"next_action\":{\"type\":\"string\"}},\"required\":[\"analysis\",\"missing_steps\",\"next_action\"]}"
-  }
-}
+{}
