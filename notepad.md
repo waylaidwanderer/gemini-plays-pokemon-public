@@ -85,4 +85,3 @@
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Teacher (1, 7):** Mentions using items on Pokemon makes them happy, but they hate certain items.
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
-- **Celadon Dept Store Exploration:** Started Turn 41740, Sunday 3:00 PM. (Completed Turn 41940)
