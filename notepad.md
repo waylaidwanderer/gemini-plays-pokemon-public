@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City (South).
-- **Action:** Opening Pokegear Map (Pass 22 Complete).
+- **Action:** Reading Map (Pass 22 Complete).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34446).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
