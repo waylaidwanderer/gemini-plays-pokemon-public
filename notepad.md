@@ -37,10 +37,11 @@
 - Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Current Status: XENON is leading. Radio tuned to 20.0 (Poke Flute) in Turn 40423. Facing Snorlax at (36, 8).
-- Step 1: Interact with Snorlax (Press A).
-- Step 2: If Snorlax wakes up, battle and catch/defeat him.
-- Step 3: Proceed to Route 11.
+- Current Status: Dialogue "SNORLAX is snoring peacefully..." is open. XENON is lead. Radio setup failed to wake him.
+- Step 1: Close dialogue (B).
+- Step 2: Open Start menu, select POKEGEAR.
+- Step 3: Select Radio tab, tune manually to the top (20.0) and verify "POKE FLUTE" text.
+- Step 4: Close Pokegear, face Left, and interact with Snorlax.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement or menuing.
