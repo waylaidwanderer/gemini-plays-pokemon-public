@@ -31,13 +31,16 @@
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
-  - Cerulean (Misty): Target. Last seen "on a date" somewhere north?
+  - Cerulean (Misty): Target. Last seen "on a date" somewhere north of Cerulean City.
+- **Snorlax Quest:** COMPLETE. Caught GORP (Lv50) at Turn 40583.
+- **Pewter City:** Next destination. Need to buy Repels there.
 
 ## General Lessons & Error Log
 - **Radio UI Focus:** Need to press 'Down' to move focus from the tabs (MAP/PHONE/RADIO) to the tuning dial. (Turn 40554).
 - **Snorlax Interaction:** Occupies (34,8) to (35,9). Interact from (34,10) facing Up or (36,8) facing Left.
 - **Sequence Errors:** Be careful with `press_menu_buttons_v2`. Large sequences can lead to turn mismatches if text boxes appear unexpectedly.
 - **Diglett's Cave internal loop:** (3, 3) <-> (17, 3). Does not exit the cave. (Turn 40617).
+- **Diglett's Cave northern exit:** Warp carpet at (15, 5) in Diglett's Cave leads to (12, 7) on Route 2. (Turn 40622).
 
 ## Time Tracking
 - Current Goal (Pewter City): Started Turn 40584.
