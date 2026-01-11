@@ -92,7 +92,7 @@
     - Pokefan M at (14, 10): Slot machines are state of the art. (Done)
     - Fishing Guru at (11, 7): The odds vary among machines. (Done Turn 41964)
     - Teacher at (17, 7).
-    - Fisher at (8, 10).
+    - Fisher at (8, 10): Gave GEM 20 coins. (Done Turn 41968)
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity (hidden switches, etc.).
