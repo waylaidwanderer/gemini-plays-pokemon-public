@@ -5,7 +5,7 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Traverse Victory Road 2F (South U-Turn)
-- **Location:** Victory Road 2F (ID: 3_91) at (1, 39).
+- **Location:** Victory Road 2F (ID: 3_91) at (5, 37).
 - **Goal:** Reach East Corridor via Row 42.
 - **Route:** `(1, 39) -> (1, 38) -> East to (5, 38) -> North to (5, 35) -> East to (10, 35) -> South to (10, 42) -> East to (19, 42)`.
 - **Reasoning:**
