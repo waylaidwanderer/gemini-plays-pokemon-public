@@ -45,3 +45,4 @@
   - #2 Lass Ellen (16, 11): DEFEATED.
   - #3 Schoolboy Joe (21, 8): DEFEATED.
   - Challenge: Beat 6 trainers for a prize.
+- **Route 25 Trainer #4:** Lass (ID 6) at (22, 6). Facing Right.
