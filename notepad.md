@@ -66,15 +66,17 @@
 - Pokémon: Exeggcute (30), Exeggutor (30), Exeggcute (30).
 - Outcome: Victory (¥960).
 
-### Psychic Fidel (Route 11) - IN PROGRESS
-- Turn 40307: Battle started at (8, 7).
+### Psychic Fidel (Route 11) - COMPLETED
 - Pokémon: Xatu (34).
-- Strategy: Calcifer (58) using Thunderpunch (Super Effective).
+- Outcome: Victory (¥1088). Calcifer (58) used Thunderpunch.
 
 ## Snorlax Quest Phase
-- Goal: Find Snorlax on the far west side of Route 11.
+- Goal: Wake Snorlax at Vermilion City / Route 11 junction.
+- Observation: Snorlax occupies a 2x2 area (34, 8) to (35, 9).
+- Current Position: (36, 8) facing Snorlax.
 - Method: Use Pokegear Radio (Frequency 20 - Poke Flute) to wake him.
 - Capture Strategy: Snorlax is Level 50. High priority. Plan for paralysis (Calcifer) or sleep (Lapis/Xenon).
+- Menu Path: Start -> Down x3 (GEAR) -> A -> Right (Radio) -> Up (Hold to 20.0).
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
