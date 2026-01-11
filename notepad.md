@@ -14,3 +14,6 @@
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting (Turn 34446):** Route 38 & Route 42. They are nearby!
+
+# Lessons Learned
+- **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees. Recent collisions indicate I need to give them a wider berth or check coordinates more closely.
