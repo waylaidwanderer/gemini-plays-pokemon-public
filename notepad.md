@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: New Bark Town.
-- Action: Selecting Mistral -> Fly.
-- Goal: Goldenrod City.
-- Next Step: Navigate Fly Map (Left -> Left -> Down -> Up?).
+- Location: Fly Map (New Bark Town).
+- Action: Navigating to Goldenrod City.
+- Sequence: Left x3 (to Ecruteak/Violet) -> Down (to Goldenrod).
+- Note: Verifying cursor position before confirming.
