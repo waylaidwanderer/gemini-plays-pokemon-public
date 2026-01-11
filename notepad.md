@@ -7,13 +7,14 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Enter Route 37 -> Use Max Repel -> Hunt.
-- **Status:** Entering Route 37.
+- **Immediate Task:** Use Max Repel -> Hunt in Grass.
+- **Status:** On Route 37. Opening Bag.
 - **Strategy:**
-    1. Enter Route 37 (South of Ecruteak).
-    2. Use Max Repel.
-    3. Run in grass (Lv36 Gyarados leader filters all but Roamers).
-    4. If no encounter, transition map (Ecruteak <-> Route 37) to reset Roamers.
+    1. Use Max Repel (lasts 250 steps).
+    2. Enter grass.
+    3. Run for ~10-20 steps.
+    4. If no encounter, transition to Ecruteak and back to reset Roamers.
+    5. Repeat.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
