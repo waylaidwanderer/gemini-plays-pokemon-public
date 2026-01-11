@@ -59,3 +59,6 @@
 
 ## Saffron City Interests
 - **Mr. Psychic:** Located at (27, 29). Obtained TM29 Psychic (Turn 39946).
+- **Correction (Turn 39978):** The turn summary for 39643-39646 erroneously stated the Power Plant problem was resolved. Verified via dialogue that the Manager is still waiting for the MACHINE PART. I do not currently possess it.
+- **Hypothesis:** The Machine Part is on a specific water tile in Cerulean Gym. Candidates based on previous Itemfinder pings: (3, 6), (4, 6), (5, 6), (3, 9), (4, 9).
+- **Test 1 (Turn 39978):** Move to (3, 6) and interact.
