@@ -19,20 +19,18 @@
 
 ## Party Management
 - **Current Lead:** Calcifer (TYPHLOSION Lv58).
-- **Fainted:** GNEISS (GRAVELER Lv53).
+- **Fainted:** GNEISS (GRAVELER Lv53). Needs healing.
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH).
 
 ## Battle Strategies
-- **Brock (Pewter Gym):** 
-  - Lead: GNEISS (Graveler) with Earthquake. 
-  - Status: Gneiss fainted to Kabutops's Surf.
-  - Backup: Calcifer (Typhlosion) with Thunderpunch vs Omastar/Kabutops. LAPIS (Poliwag) with Surf for rock/ground.
+- **Brock (Pewter Gym):** DEFEATED. (Turn 40782).
+- **Misty (Cerulean Gym):** Target. Use Grass (Kimchi) or Electric moves.
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
-  - Pewter (Brock): In progress.
+  - Pewter (Brock): DEFEATED. (Turn 40782).
   - Cerulean (Misty): Target. End of Route 25.
 - **Recent Battles:**
   - Bug Catcher Ed (Route 2): DEFEATED. (Turn 40653).
@@ -45,11 +43,9 @@
 
 ## Strategy: Finding Misty
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
-- **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
+- **Path:** Pewter City (Heal!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 
 ## Battle Log: Pewter Gym (Brock)
-- Pokémon 1: Graveler Lv41 (Fainted to Gneiss's Earthquake).
-- Pokémon 2: Rhyhorn Lv41 (Fainted to Gneiss's Earthquake).
-- Pokémon 3: Omastar Lv42 (Fainted to Gneiss's Earthquake).
+- Pokémon 1-3: Graveler, Rhyhorn, Omastar (Fainted to Gneiss's Earthquake).
 - Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf; fainted to Calcifer's Thunderpunch).
-- Pokémon 5: Onix Lv44 (Used Sandstorm; hit by Calcifer's Flame Wheel).
+- Pokémon 5: Onix Lv44 (Fainted to Calcifer's Flame Wheel).
