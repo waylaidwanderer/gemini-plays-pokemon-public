@@ -7,19 +7,15 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Xatu (Lv40). Muscle (Lv86) is active.
-- **Matchup:** Muscle (Fighting) vs Xatu (Psychic/Flying).
+- **State:** Battling Jynx (Lv41). Muscle (Lv86) is active.
+- **Matchup:** Muscle (Fighting) vs Jynx (Ice/Psychic).
 - **Strategy:**
-  1. **Xatu:** Use `Thunderpunch` (Slot 2). Xatu is Flying type, so weak to Electric.
+  1. **Jynx:** Use `Strength` (Slot 1). Physical move vs low Defense. High probability OHKO.
   2. **Next Mons:**
-     - Jynx: `Strength` or `Thunderpunch`.
      - Exeggutor: `Ice Punch`.
      - Slowbro: `Thunderpunch`.
      - Xatu #2: `Thunderpunch`.
-  - **Health Check:** Muscle at ~80% HP. Safe.
-- **Reflection (Turn 33124):**
-  - **Tool Maint:** Deleted `switch_party_members` due to state assumption failure (requires menu open).
-  - **Battle:** Psychic hit hard but manageable due to level gap.
+  - **Health Check:** Muscle at 235/291 HP. Safe.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
