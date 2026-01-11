@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City (South Gate).
-- **Action:** Sweep complete. Returning to Ecruteak to shuffle.
-- **Strategy:** Enter Ecruteak -> Shuffle -> Re-enter Rt 37 -> Sweep.
+- **Action:** Handling Phone Call (Wade).
+- **Strategy:** Finish call -> Return to Route 37 -> Sweep grass.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
