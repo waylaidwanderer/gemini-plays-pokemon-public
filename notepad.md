@@ -8,7 +8,7 @@
 - **Location:** Indigo Plateau - Lance's Room (16_7)
 - **Goal:** Defeat Champion Lance (Dragon Specialist).
 - **Status:** Battling Lance.
-- **Opponent:** Gyarados (Incoming).
+- **Opponent:** Gyarados (Lv44).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Mechanics:** Elemental Punches are SPECIAL in Gen 2. Intimidate won't affect them!
