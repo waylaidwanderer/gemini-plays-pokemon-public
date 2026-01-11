@@ -5,7 +5,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Strategy:** Sweep Row 4 -> Exit North to Shuffle.
+- **Action:** Sweeping grass (Pass 5).
+- **Strategy:** Move South into grass -> Zigzag sweep.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
