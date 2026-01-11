@@ -7,10 +7,12 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Travel to Celadon City (West of Saffron).
-- **Goal:** Buy Max Repels at Celadon Dept Store.
-- **Status:** At Route 7 Gatehouse. Exiting to Route 7.
-- **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels! (Current Lead: Lv88 Muscle).
+- **Immediate Task:** Buy Supplies at Celadon Dept Store.
+- **Shopping List:**
+  - 20 Max Repels (Cost: ¥14,000) - *In Progress*
+  - 25 Ultra Balls (Cost: ¥30,000) - *Next*
+- **Status:** Selecting quantity for Max Repels.
+- **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
