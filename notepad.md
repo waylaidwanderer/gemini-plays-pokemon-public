@@ -11,5 +11,5 @@
 - **Opponent:** Onix (Lv43).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Onix:** Use `Ice Punch` (Special Attack vs Low Sp. Def).
+  - **Onix:** Use `Ice Punch` (4x Super Effective).
 - **Health Check:** Muscle Full.
