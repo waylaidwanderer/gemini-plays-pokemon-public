@@ -21,6 +21,6 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Ecruteak City (Arriving from Route 37).
-- **Next:** Heal at Poke Center -> Start Roamer Hunt Loop.
+- **Location:** Ecruteak City (Cycling back to Route 37).
+- **Next:** Switch Lugia to Lead -> Cycle Route 37 for Roamers.
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
