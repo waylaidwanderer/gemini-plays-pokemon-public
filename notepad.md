@@ -37,6 +37,6 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Manual Fly - Move Cursor to Cherrygrove (Step 5 - RETRY 3).
-- **Hypothesis:** Single 'Left' input (1 tick) is too short for game to register.
-- **Plan:** Send 'Left' x10 to simulate holding the button for ~160ms. Verify 'Cherrygrove City' text next turn.
+- **Current Action:** Manual Fly - Move Cursor to Cherrygrove (Step 5 - RETRY 4).
+- **Hypothesis:** `press_buttons` sends inputs too fast (1 tick?). `sequence_press` with sleep allows proper duration/processing time.
+- **Plan:** Use `sequence_press` with `Left` and `sleep 1000`. Verify 'Cherrygrove City' text next turn.
