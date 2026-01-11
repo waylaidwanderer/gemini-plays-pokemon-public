@@ -28,10 +28,13 @@
   - Saffron (Sabrina): DEFEATED.
   - Pewter (Brock): DEFEATED.
   - Cerulean (Misty): Target. End of Route 25.
+- **Recent Battles (Route 4):**
+  - Picnicker Hope (9, 8): DEFEATED. (Turn 41020).
+  - Bird Keeper Hank (17, 9): DEFEATED. (Turn 41036).
 
 ## Strategy: Mt. Moon
 - **Exploration:** Multiple floors. Use ladders and mark them.
-- **Cerulean Exit:** Still searching. Checked Section A (Gift Shop) and Section B/C (Isolated Square areas).
+- **Cerulean Exit:** FOUND. Transition via Route 4 (Turn 41041).
 - **Repel Status:** Super Repel active (200 steps from Turn 41025).
 
 ## General Lessons & Error Log
@@ -45,28 +48,3 @@
 - **Mt. Moon Square:** 
   - Sign at (17, 7): "MT. MOON SQUARE - DON'T LITTER".
   - Gift Shop at (13, 7): Gramps (4, 3) sells: Poke Doll (1000), Fresh Water (200), Soda Pop (300), Lemonade (350), Repel (350), Portraitmail (50).
-- **Healing Task:** Started Turn 40974. GNEISS healed with Lemonade (Turn 40981).
-- **Route 4:**
-  - Picnicker Hope (9, 8): DEFEATED (Turn 41019). Calcifer reached Lv59.
-  - Path: Heading East to Cerulean City.
-
-## Strategy: Mt. Moon Square Exploration
-- **Isolated Sections:**
-  - Section A (Gift Shop): Via (25, 5) exit in Mt. Moon (3_85).
-  - Section B (Central Box): Reached by jumping down ledge at (13, 11).
-  - Section C (Cave Exit): Reached by moving to (22, 11) from Section B.
-- **Findings:** The Square central area (B/C) is a dead end for exiting the mountain. Returning to main cave to find the Cerulean exit.
-- **Battle: Picnicker Hope (Route 4):** 
-  - Opponent: Flaaffy (Lv34).
-  - Strategy: Calcifer (Lv58) use Flame Wheel. (Turn 41018).
-- **Route 4:**
-  - Picnicker Hope (9, 8): DEFEATED (Turn 41020). Calcifer reached Lv59.
-  - Path: Heading East to Cerulean City. (Turn 41020).
-- **Battle: Bird Keeper Hank (Route 4):**
-  - Opponent: Pidgey (Lv12) - DEFEATED (Thunderpunch).
-  - Opponent: Pidgeot (Lv34) - DEFEATED (Thunderpunch). (Turn 41036).
-- **Route 4:**
-  - Picnicker Hope (9, 8): DEFEATED (Turn 41020).
-  - Bird Keeper Hank (17, 9): DEFEATED (Turn 41036).
-  - Path: Heading East along Row 10 to Cerulean City. (Turn 41036).
-- **Route 4 Navigation:** Vertical wall at X=24 from Row 9 to 14. Clear path exists at Row 8. (Turn 41038).
