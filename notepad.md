@@ -4,15 +4,18 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Return to 2F via Ladder (1, 49)
-- **Location:** Victory Road 1F (South Section) at (2, 51).
-- **Goal:** Reach Ladder at (1, 49) to access 2F.
+## Current Task: Traverse Victory Road 2F (West -> East)
+- **Location:** Victory Road 2F (ID: 3_91) at (1, 35).
+- **Goal:** Reach Ladder at (13, 31).
+- **Route:** `(1, 35) -> South to (1, 39) -> East to (5, 40) -> North to (5, 35) -> East to (13, 31)`.
 - **Reasoning:**
-  - 1F East is a dead end; Row 47 is a solid wall blocking North.
-  - The only path forward is on 2F.
-  - Previous 2F exploration failed due to a ledge jump issue at (3, 34).
-  - New Plan: Go to 2F, force jump at (3, 34), then navigate East to Ladder at (13, 31).
-- **Route:** `(2, 51) -> (1, 49)`.
+  - Previous assumption of a ledge jump at (3, 34) was incorrect.
+  - Detailed map analysis reveals a U-turn path: Go South from the ladder, wrap around the wall at Row 40, and come back North on column 5.
+  - This bypasses the blocking walls and ledges in the center.
+
+## Status
+- **Money:** ¥3294.
+- **Party:** Gyarados (Lead), Lugia, Machoke, Pidgey, Oddish, Quilava.
 
 ## Reflection (Turn 32967)
 - **Execution:** No deferred tasks identified in the last 50 turns.
