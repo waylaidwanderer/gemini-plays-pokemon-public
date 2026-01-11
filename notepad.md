@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Resuming Sweep (Pass 20) after Wade's call.
+- **Action:** Repositioning -> Sweeping Grass (Pass 20).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34446).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
