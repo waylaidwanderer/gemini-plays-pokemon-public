@@ -64,3 +64,11 @@
 - **Diglett's Cave:** Northern exit is (15, 5) warp carpet.
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
 - **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position.
+## Celadon City Exploration Plan
+1. Talk to NPCs at (26, 11) and (27, 11).
+2. Head north to find the Department Store and Celadon Mansion.
+3. Head south to find the Gym (requires Cut).
+4. Locate the Game Corner in the center of town.
+5. Visit the Department Store to check for useful items/TMs.
+6. Check the Celadon Mansion for any interesting NPCs or events.
+7. Locate and enter the Celadon Gym to challenge Erika.
