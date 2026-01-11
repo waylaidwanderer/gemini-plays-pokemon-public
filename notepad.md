@@ -4,10 +4,10 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Traverse Route 26
-- **Location:** Route 26 (Approaching Victory Road Gate).
-- **Goal:** Reach Victory Road Gate at (7, 5).
-- **Route:** North to Row 8 -> Cross West -> Enter Gate.
+## Current Task: Traverse Victory Road Gate
+- **Location:** Victory Road Gate (ID: 23_13).
+- **Goal:** Exit North to Victory Road.
+- **Route:** Walk North from (9, 17) to (9, 0).
 
 ## Status
 - **Money:** ¥3294 (Gaven Defeated).
