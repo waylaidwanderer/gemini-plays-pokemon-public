@@ -7,8 +7,8 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 35).
-- **Status:** Sweeping grass on Route 37.
+- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 48).
+- **Status:** Resetting map (Ecruteak -> Rt 37).
 - **Strategy:**
     1. Enter Route 37.
     2. Run in grass with Max Repel active.
@@ -24,7 +24,7 @@
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
 - **Location:** Roaming Johto (Random).
 - **Current Task:** Cycling Route 37 <-> Ecruteak City to force movement.
-- **Inventory:** 16 Max Repels left.
+- **Inventory:** 15 Max Repels left.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
@@ -40,9 +40,9 @@
 - **Current Status:** Iteration 48 Hunting.
 - **Current Iteration (48):**
   - Start Time: Turn 33767
-  - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Resetting map and entering grass.
+  - Location: Ecruteak City -> Route 37
+  - Action: Map Reset.
+  - Note: Returning to Route 37 to sweep grass.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
