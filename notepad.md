@@ -14,7 +14,6 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Currently in Fly Menu (Ecruteak City).
-- `Left` inputs consistently fail to select Olivine City from Ecruteak.
-- **Workaround:** Flying to Ecruteak City, then walking West to Olivine.
-- **Next:** Land in Ecruteak -> Route 38 (West) -> Route 39 (South) -> Olivine City.
+- Arrived in Ecruteak City.
+- Heading West to Route 38 -> Route 39 -> Olivine City.
+- Reminder: Wade (Rt 31) has berries.
