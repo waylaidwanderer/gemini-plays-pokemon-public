@@ -7,15 +7,15 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Exeggutor. Muscle (Lv86) is active. In Party Menu (Accidentally selected YES to switch).
-- **Matchup:** Muscle (Fighting) vs Exeggutor (Grass/Psychic).
+- **State:** Battling Exeggutor. Switching to Lugia (Maelstrom).
+- **Matchup:** Lugia (Flying/Psychic) vs Exeggutor (Grass/Psychic).
 - **Strategy:**
-  1. **Action:** Cancel switch (Press B).
-  2. **Exeggutor:** Use `Ice Punch` (Slot 3).
+  1. **Switch:** Swap to Maelstrom (Slot 2) since I'm locked in the menu.
+  2. **Exeggutor:** Use `Gust` (Flying vs Grass = Super Effective).
   3. **Next Mons:**
-     - Slowbro: `Thunderpunch`.
-     - Xatu #2: `Thunderpunch`.
-  - **Health Check:** Muscle at 235/291 HP. Safe.
+     - Slowbro: Lugia's `Thunder` (if I have it? Notepad says Hydro Pump/Rain Dance/Recover/Gust). Wait, Lugia doesn't have Thunder.
+     - Muscle is better for Slowbro. I can switch back to Muscle after Exeggutor.
+  - **Plan:** Lugia kills Exeggutor. Switch Muscle back in for Slowbro.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
