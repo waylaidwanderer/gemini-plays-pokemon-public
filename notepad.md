@@ -42,7 +42,7 @@
   - Start Time: Turn 33781
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Interrupted by Bug Catcher Wade phone call. Resuming after.
+  - Note: Sweeping grass then returning to Ecruteak.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
