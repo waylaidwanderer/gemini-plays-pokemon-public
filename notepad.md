@@ -28,5 +28,5 @@
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
 - **Menu Nav:** `Right` from `PACK` failed. Trying `Down` to reach `POKEGEAR` via bottom row.
 - **Tool:** Defined `zigzag_sweep` to automate grass checking.
-- **Action:** Sweeping Bottom Patch (6x2) from (9, 4).
-- **Strategy:** Sweep Bottom -> Return to Ecruteak -> Shuffle.
+- **Action:** Sweep complete. Returning to Ecruteak to shuffle.
+- **Strategy:** Enter Ecruteak -> Shuffle -> Re-enter Rt 37 -> Sweep.
