@@ -28,5 +28,30 @@
         "action_counter": 27988
       }
     ]
+  },
+  "sequence_press": {
+    "description": "Executes a sequence of button presses to navigate menus or perform actions. Allows mixing directional and action buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "buttons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "buttons"
+      ]
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T08:10:06.907Z",
+        "action_counter": 33328
+      }
+    ]
   }
 }

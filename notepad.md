@@ -7,10 +7,8 @@
 # Post-Game Objectives (Kanto)
 - **Primary:** Collect 8 Kanto Badges.
 - **Immediate:**
-  1. Wake up in New Bark Town.
-  2. Get S.S. Ticket from Prof. Elm. (Done - Already in Inventory)
-  3. Fly to Olivine City.
-  4. Board S.S. Aqua to Vermilion City.
+  1. Fly to Olivine City.
+  2. Board S.S. Aqua to Vermilion City.
 
 # Roaming Beasts Status
 - **Raikou & Entei:** Still roaming. Will track later.
