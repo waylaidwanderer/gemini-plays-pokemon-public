@@ -13,8 +13,8 @@
 - FLOOR_UP_WALL: Impassable from North (ledge collision type).
 - CUT_TREE: Impassable until CUT is used; then becomes FLOOR.
 - OBJECTS (NPCs/Items): Impassable. Interact from adjacent tile.
-- WARP_CARPET_DOWN: Traversable. Exit point.
-- PC / BOOKSHELF: Impassable.
+- WARP_CARPET_DOWN: Traversable. Exit point. (Verified at Pokecenter exit)
+- PC / BOOKSHELF: Impassable. (Verified at Pokecenter)
 
 ## Progress Tracking
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
@@ -41,6 +41,10 @@
 - Start Turn: 41371
 - Objective: Defeat Erika.
 - Route: Cerulean -> Route 5 -> Saffron -> Route 7 -> Celadon.
+- Strategy: 
+  1. Head South from Cerulean to Route 5.
+  2. Pass through Route 5 to Saffron City.
+  3. Head West from Saffron (Route 7) to Celadon City.
 - Contingency: If Saffron gate is blocked, use the Underground Path.
 - Prep: Healed at Cerulean Pokecenter (Turn 41380).
 
