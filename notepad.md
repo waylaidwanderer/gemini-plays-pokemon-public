@@ -43,3 +43,8 @@
 - **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
 - **Menu Sequence:** Ensure dialogue is clear before menu inputs. Break sequences into small chunks.
+## Strategy for Misty (Cerulean Gym)
+- **Typing:** Misty uses Water-types.
+- **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
+- **Avoid:** Do not use Gneiss (Rock/Ground) as he is double-weak to Water.
+- **Backup:** Xenon can provide status support with Hypnosis if needed.
