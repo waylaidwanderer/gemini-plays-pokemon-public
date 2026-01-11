@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Current State: Fly Map Open (Cursor at New Bark Town).
+- Location: Mt. Silver Outside.
+- Previous Fly attempt failed (Input timing or bad routing).
+- Action: Re-opening Fly Map via Mistral (Slot 4).
 - Goal: Goldenrod City.
-- Plan: `Left` x3 (to Violet/Ecruteak) -> `Down` (to Goldenrod).
-- Tool: `sequence_press` with delays for reliability.
