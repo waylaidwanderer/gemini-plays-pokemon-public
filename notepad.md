@@ -21,6 +21,9 @@
 - **Misty Defeated:** Turn 41351. Received Cascade Badge.
 - **Cerulean Gym Cleanup:** COMPLETED (Turn 41366). All trainers handled.
 
+## Time Tracking
+- **Celadon City Journey:** Started Turn 41371. Current goal: Defeat Erika.
+
 ## Party Management
 - **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
 - **Kimchi (Lv 46):** Gloom. Grass/Poison. (Healed at Turn 41380).
@@ -46,7 +49,6 @@
   2. Pass through Route 5 to Saffron City.
   3. Head West from Saffron (Route 7) to Celadon City.
 - Contingency: If Saffron gate is blocked, use the Underground Path.
-- Prep: Healed at Cerulean Pokecenter (Turn 41380).
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
