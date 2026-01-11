@@ -32,7 +32,6 @@
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
   - Cerulean (Misty): Target. Last seen "on a date" somewhere north of Cerulean City.
-- **Snorlax Quest:** COMPLETE. Caught GORP (Lv50) at Turn 40583.
 - **Pewter City:** Next destination. Need to buy Repels there.
 
 ## General Lessons & Error Log
