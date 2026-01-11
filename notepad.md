@@ -14,6 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Arrived in Ecruteak City.
-- Heading West to Route 38 -> Route 39 -> Olivine City.
+- Navigating Route 38 West towards Olivine City.
+- Currently in wild battle (Magnemite).
+- Goal: Run and continue West.
 - Reminder: Wade (Rt 31) has berries.
