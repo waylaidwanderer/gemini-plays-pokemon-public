@@ -55,7 +55,7 @@
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Current Status:** Heading East on Route 3.
 - **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!".
-- **Route 3:** Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), X=24 (Y=1-7), X=32 (Y=8-15), and X=35 (Y=8-15). Row 0 and Row 7 are clear at these X-coordinates. (Turn 40846).
+- **Route 3:** Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), X=24 (Y=1-7), X=32 (Y=8-15), X=35 (Y=8-15), and X=40 (Y=5-13). Rows 0, 3, 4, and 14 are clear at these X-coordinates. (Turn 40847).
 
 ## Custom Tools
 - find_path_v5: A* pathfinding for current map.
