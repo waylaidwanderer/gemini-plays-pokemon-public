@@ -26,3 +26,4 @@
 # Technical Notes
 - **XML Parsing:** `xml.etree.ElementTree` requires strict downward iteration (no `..`).
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
+- **Menu Nav:** `Right` from `PACK` failed. Trying `Down` to reach `POKEGEAR` via bottom row.
