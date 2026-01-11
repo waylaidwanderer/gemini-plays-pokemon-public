@@ -16,3 +16,4 @@
 
 ## Tile Mechanics
 - **LADDER (Route 27/26):** Functions as walkable bridge.
+- **Lesson (Turn 32915):** The system strictly enforces the "no mixing directional and action buttons" rule by truncating inputs. When navigating menus, split directional moves (e.g., "Down") and confirmations (e.g., "A") into separate turns to ensure reliability.
