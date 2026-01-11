@@ -3,7 +3,7 @@
 ## Tile Mechanics (Verified Traversability)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable with SURF (requires Move + Badge).
+- WATER: Traversable with SURF (requires Move + Badge). Verified.
 - TALL_GRASS / LONG_GRASS: Traversable.
 - grass: Traversable.
 - DOOR / WARP / CAVE: Entry points.
