@@ -16,7 +16,7 @@
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
-- **Celadon Dept Store 2F (Right Clerk):** Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail. **NO** Max/Super Repels.
+- **Celadon Dept Store 2F (Right Clerk):** Checking now...
 - **Celadon Dept Store 2F (Left Clerk):** Potion, Super/Hyper/Max Potion, Revive, Super Repel, **MAX REPEL**.
 
 # Roaming Beasts Status
