@@ -44,7 +44,7 @@
 - **Trainer Roster:**
     - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678. Victreebel (Lv 35), Vileplume (Lv 35).
     - Picnicker Tanya (2,8): DEFEATED Turn 41683. Exeggutor (Lv 37).
-    - Lass (6,8): Currently battling.
+    - Lass Michelle (6,8): DEFEATED Turn 41693. Skiploom (Lv 32), Hoppip (Lv 33), Jumpluff (Lv 34).
     - Beauty (3,5): Pending.
 
 ## Erika Battle Strategy
