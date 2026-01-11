@@ -1,20 +1,23 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Tile Mechanics (Verified)
+## Tile Mechanics (Verified Traversability)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable with SURF (requires Move + Badge). Pier stops surfing.
+- WATER: Traversable with SURF (requires Move + Badge).
 - TALL_GRASS / LONG_GRASS: Traversable.
 - grass: Traversable.
 - DOOR / WARP / CAVE: Entry points.
 - LADDER: Traversable.
 - COUNTER: Impassable. Interact from front tile.
-- LEDGE_HOP_DOWN: One-way jump down from North to South.
-- FLOOR_UP_WALL: Collision type for ledges. Blocks movement from North.
+- LEDGE_HOP_DOWN: One-way jump down (North to South).
+- FLOOR_UP_WALL: Impassable from North (ledge collision).
+- CUT_TREE: Impassable until CUT is used; becomes traversable FLOOR.
 - OBJECTS (NPCs/Items): Impassable.
 
 ## Progress Tracking
-- **Find Misty Quest:** Started Turn 40635.
+- **Objective: Defeat Misty at Cerulean Gym**
+  - Started: Turn 41251 (Current)
+- **Find Misty Quest:** Completed Turn 41238.
 
 ## Party Management
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH/ROCK SMASH).
@@ -24,35 +27,18 @@
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
   - Pewter (Brock): DEFEATED.
-  - Cerulean (Misty): Target. End of Route 25.
-- **Recent Battles (Route 4):**
-  - Picnicker Hope (9, 8): DEFEATED.
-  - Bird Keeper Hank (17, 9): DEFEATED.
+  - Cerulean (Misty): Target.
+- **Recent Battles (Route 25):**
+  - #1 Dudley, #2 Ellen, #3 Joe, #4 Laura, #5 Lloyd, #6 Shannon, #7 Pat: DEFEATED.
+  - Prize Giver: Kevin: DEFEATED.
+
+## Cerulean City & Surroundings
+- **Misty:** Returned to Cerulean Gym after being interrupted at (46, 9) on Route 25.
+- **Gramps (Bill's House):** Wants to see a Pokémon with a "long tongue" (Lickitung).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
 - **Snorlax:** Occupies (34,8)-(35,9). Interact from (34,10) Up or (36,8) Left.
 - **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
-
-- **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call. It results in only the first button being pressed.
-
-## Cerulean City & Surroundings
-- **Cerulean City Ledge Navigation:** The path around the ledges to reach the northern area (33, 23) involves going south to (32, 30), then east and north.
-- **NPC Info:** Fisher (31, 26) is a fan of Misty but has no location info.
-- **Cerulean Cape Sign:** (23, 7) "CERULEAN CAPE AHEAD".
-- **Route 24 Exit:** The ladder at (21, 0) leads to Route 24.
-- **Rocket Grunt:** Previously encountered at (8, 7).
-- **Route 25 Trainers:**
-  - #1 Schoolboy Dudley (12, 10): DEFEATED.
-  - #2 Lass Ellen (16, 11): DEFEATED.
-  - #3 Schoolboy Joe (21, 8): DEFEATED.
-  - #4 Lass Laura (24, 6): DEFEATED.
-  - #5 Camper Lloyd (25, 5): DEFEATED.
-  - #6 Lass Shannon (28, 11): DEFEATED.
-  - #7 Super Nerd Pat (31, 7): DEFEATED (Not part of challenge).
-  - Challenge: Beat 6 trainers - COMPLETED.
-  - Prize Giver: Cooltrainer Kevin (37, 8). Received NUGGET.
-  - Battle: Cooltrainer Kevin (ID 10): DEFEATED.
-  - Misty: Found at (46, 9) on Route 25. Interrupted her date. She returned to Cerulean Gym.
-  - Gramps (Bill's House): Wants to see a Pokémon with a "long tongue" (Lickitung).
-  - Item picked up: PROTEIN at (32, 4).
+- **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
+- **Menu Sequence:** Ensure dialogue is clear before menu inputs. Break sequences into small chunks.
