@@ -4,13 +4,15 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Traverse Victory Road 2F (West)
-- **Location:** Victory Road 2F (ID: 3_91) at (2, 33).
-- **Goal:** Reach East section via Ledge at (3, 34).
+## Current Task: Traverse Victory Road 2F (West -> East)
+- **Location:** Victory Road 2F (ID: 3_91) at (3, 33).
+- **Goal:** Reach Ladder at (13, 31).
+- **Route:** `(3, 33) -> Jump Down (3, 34) -> (3, 35) -> East to (12, 35) -> North to (12, 31) -> (13, 31)`.
 - **Reasoning:** 
-  - Previous attempt to enter (3, 33) failed, likely due to battle. Retrying.
-  - Path: `(2, 33) -> (3, 33) -> Jump South at (3, 34) -> (3, 35) -> East`.
-  - If (3, 33) is truly blocked, check (3, 31).
+  - Visual analysis suggests (3, 34) is a jumpable ledge.
+  - Jumping down allows access to y=35 corridor.
+  - x=12 is a path North to the Ladder at (13, 31).
+  - Previous navigation failed, likely due to tool limitations with ledges. Using manual button press.
 
 ## Status
 - **Money:** ¥3294.
