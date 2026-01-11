@@ -63,6 +63,6 @@
   2. FERALIGATR (Lv45): DEFEATED.
   3. GOLBAT (Lv42): DEFEATED.
   4. GENGAR (Lv43): Active (Red HP).
-- Current Matchup: Calcifer (Lv58, Confused) vs Gengar.
-- Strategy: Switching to GNEISS to clear confusion and finish with Earthquake.
-- Lesson: Verify active Pokemon via screen; "Leading" in Game State only shows Slot 1. (Turn 40933).
+- Current Matchup: GNEISS (Lv54) vs Gengar.
+- Strategy: Use Earthquake to finish Gengar.
+- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40934).
