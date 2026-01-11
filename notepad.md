@@ -48,8 +48,14 @@
   1. Head South from Cerulean to Route 5.
   2. Pass through Route 5 to Saffron City.
   3. Head West from Saffron (Route 7) to Celadon City.
-  4. Current hypothesis: Path to Celadon is at the north edge of Route 7 (Rows 0-1).
-- Contingency: If direct path is blocked, take the long way: Lavender -> Fuchsia -> Cycling Road (Route 16).
+  4. Verified: Path to Celadon is at the north edge of Route 7 (Rows 0-1).
+- Status: Arrived in Celadon City (Turn 41410).
+
+## Celadon City Exploration
+- Start Turn: 41410
+- Objective: Find Celadon Gym and defeat Erika.
+- Strategy: Explore the city to locate key buildings (Gym, Department Store, Game Corner).
+- Note: Erika's Gym is usually in the south of the city and requires Cut.
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
