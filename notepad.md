@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Finishing Sweep (Pass 17) -> Check Pokegear.
+- **Action:** Checking Pokegear (Verification).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34219).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
