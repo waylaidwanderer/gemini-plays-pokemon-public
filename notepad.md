@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Pokecenter (Inside).
-- Action: Exiting building to Fly.
+- Location: Mt. Silver Outside (19_2).
+- Action: Opening Fly Map via Mistral.
 - Goal: Goldenrod City (Dept Store).
 - Tool: `pathfind` is ready.
