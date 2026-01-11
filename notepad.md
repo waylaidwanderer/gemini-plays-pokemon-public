@@ -5,9 +5,9 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass (Pass 5).
-- **Strategy:** Move South into grass -> Zigzag sweep.
-- **Loop:** Sweep -> Shuffle -> Sweep.
+- **Action:** Sweeping grass (Pass 5 - Continued).
+- **Strategy:** Zigzag sweep (Rows 3-4).
+- **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
