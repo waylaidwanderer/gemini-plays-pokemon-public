@@ -91,5 +91,5 @@
 - Celadon Mansion Roof (West): Door at (2, 5) is accessible from Row 6.
 - Celadon Mansion Roof: Row 7 (Cols 0-4) is a wall, separating the isolated wing from Row 8.
 - Celadon Mansion Roof House: Reached via roof door at (2, 5).
-- Celadon Mansion Roof House: Pharmacist at (3, 2) to be spoken to.
-- Celadon Mansion Roof House: Unseen tiles in Rows 0-2 to be explored.
+- Celadon Mansion Roof House: Pharmacist (3, 2) tells a "terrifying tale" only at night (after sunset).
+- Celadon Mansion Roof House: TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) to be checked.
