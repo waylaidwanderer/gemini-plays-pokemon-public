@@ -12,13 +12,14 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Mid-Sweep).
-- **Next:** Continue sweep -> Ecruteak if empty.
-- **Note:** Checking middle rows (y=2, y=3, y=4).
+- **Location:** Route 37.
+- **Action:** Repel wore off. Re-applying.
+- **Next:** Check Pokegear to verify Roamer positions before resuming hunt.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Icons seen on Rt 38/42.
+- **Current Turn:** 34213.
+- **Status:** ~120 turns dry. Time to verify locations.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 
