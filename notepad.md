@@ -5,15 +5,14 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Traverse Victory Road 2F (South U-Turn)
-- **Location:** Victory Road 2F (ID: 3_91) at (5, 37).
-- **Goal:** Reach East Corridor via Row 42.
-- **Route:** `(1, 39) -> (1, 38) -> East to (5, 38) -> North to (5, 35) -> East to (10, 35) -> South to (10, 42) -> East to (19, 42)`.
+- **Location:** Victory Road 2F (ID: 3_91) at (5, 38).
+- **Goal:** Reach Ladder at (13, 31).
+- **Route:** `(5, 38) -> North to (5, 35) -> East to (10, 35) -> South to (10, 42) -> East to (13, 42) -> North to (13, 31)`.
 - **Reasoning:**
-  - West Section (x=1-5) is isolated by walls/ledges.
-  - Crossing West->East is only possible at Row 35/36 gap.
-  - Crossing North->South in Center (x=7-10) is clear.
-  - 1F North/South are split, so I MUST cross on 2F.
-  - Row 42 appears to be a clear corridor connecting Center to Far East (x=19).
+  - Path verified via Mental Map.
+  - Row 35 connects West to Center.
+  - Row 42 connects Center to East.
+  - Column 13 connects South (Row 42) to North (Row 31 Ladder).
 
 ## Status
 - **Money:** ¥3294.
