@@ -49,8 +49,8 @@
 ## Pewter City Exploration Status
 - (13, 25): Pokémon Center (Confirmed).
 - (7, 29): Snooze Speech House. (Confirmed).
-- (23, 17): Hypothesized Poké Mart location (based on standard city layouts).
-- (16, 17): Hypothesized Pewter Gym location.
+- (23, 17): Poké Mart. Bought 10 Super Repels (Turn 40702).
+- (16, 17): Pewter Gym location (Confirmed visually, needs entry).
 - (12, 30): Bug Catcher NPC.
 - (19, 29): Welcome Sign.
 - (14, 25): Poké Center Sign.
