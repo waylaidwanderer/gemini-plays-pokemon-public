@@ -23,6 +23,7 @@
 - **Target:** Raikou & Entei.
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
 - **Location:** Roaming Johto (Random).
+- **Current Task:** Fly to Johto (Ecruteak) to begin hunt. I am currently in Kanto.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
