@@ -34,12 +34,12 @@
 - **Prerequisite:** EXPN Card (Missing from Game State).
 - **Quest Status:** Power restored (Magnet Train operational).
 - **Strategy:**
-  1. Talk to Station Manager (9, 1) in Lavender Radio Tower 1F.
-  2. Talk to Receptionist (6, 6) and Super Nerd (14, 6) for clues.
-  3. Check Poke Flute sign at (5, 0) and Directory at (11, 0).
-  4. If card is still missing, re-verify Power Plant (Route 10) status.
-  5. Once EXPN Card is obtained (verify in Game State), return to Snorlax.
-  6. Tune Radio to 20.0 (Poke Flute) and interact with Snorlax.
+  1. Talk to Gentleman (9, 1) at (9, 2) facing Up.
+  2. Check Sign at (5, 0) and Directory at (11, 0).
+  3. Talk to Receptionist (6, 6) from (6, 5) facing Down.
+  4. Talk to Super Nerd (14, 6) from (13, 6) facing Right.
+  5. If EXPN Card is still missing, revisit the Power Plant (Route 10) to ensure the Manager is satisfied.
+  6. Once EXPN Card is obtained (verify in Game State), return to Snorlax.
 
 ## General Lessons & Error Log
 - **Missing Prerequisite:** Spent 180+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
@@ -52,3 +52,4 @@
 - **Menu Cursor Memory:** The Start menu remembers the last position. Always verify start position. (Turn 40501).
 - **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
 - **Phone Calls:** NPCs can call and interrupt. Check screen state before proceeding. (Turn 40501).
+- **Failed Pathing:** Attempted to move Right from (7, 4) into a WALL at (8, 4). (Turn 40516).
