@@ -44,3 +44,7 @@
 - **Cerulean Cape Sign:** (23, 7) "CERULEAN CAPE AHEAD".
 - **Route 24 Exit:** The ladder at (21, 0) leads to Route 24.
 - **Rocket Grunt:** Previously encountered at (8, 7).
+- **Route 25 Trainers:**
+  - #1 Schoolboy Dudley (12, 10): DEFEATED.
+  - #2 Lass Ellen (16, 11): DEFEATED.
+  - Challenge: Beat 6 trainers for a prize.
