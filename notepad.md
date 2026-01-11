@@ -21,9 +21,12 @@
 - **Pokegear:** Navigate carefully; use `A` to exit Clock view.
 - **RNG:** Roamer position resets on map transition. Patience required.
 
+# Current Status
+- **Location:** Route 37 (North Grass).
+- **Action:** Shuffling & Sweeping (Pass 1).
+- **Strategy:** Up (Ecruteak) -> Down (Rt 37) -> Grass -> Zigzag.
+- **Loop:** Sweep -> Shuffle -> Sweep.
+
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34318.
-- **Status:** Shuffling (Entering Ecruteak).
-- **Pattern:** Circle grass -> Shuffle Ecruteak -> Repeat.
-- **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
+- **Current Turn:** 34319.
