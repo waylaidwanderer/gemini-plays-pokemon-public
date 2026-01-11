@@ -91,3 +91,9 @@
 - Goal: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
 - Move to (35, 8) and interact with Snorlax (34, 8).
 - Radio frequency confirmed at 20.0 (Poke Flute) previously.
+## Strategy Log - Snorlax Encounter (Updated)
+- Turn 40338: Corrected position to (37, 9).
+- Turn 40339: Performing party swap (Xenon to lead).
+- Goal: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
+- Move to (36, 8) and interact with Snorlax (34, 8) from the right.
+- Radio frequency confirmed at 20.0 (Poke Flute) previously.
