@@ -7,41 +7,19 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Hunt Roamers on Route 37.
-- **Status:** Cycling Ecruteak <-> Route 37.
 - **Strategy:**
-    1. Enter Route 37.
-    2. Run in grass with Max Repel active.
-    3. If no encounter, reset map.
+    1. **Travel:** Reach Ecruteak City (Hub).
+    2. **Hunt:** Cycle Route 37. Lead with Lugia (Speed 143) to outspeed roamers.
+    3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
-# Store Inventories
-- **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
-- **Celadon Dept Store 2F (Right Clerk):** Poke Ball, Great Ball, **ULTRA BALL**, Escape Rope...
-- **Celadon Dept Store 2F (Left Clerk):** Potion, Super/Hyper/Max Potion, Revive, Super Repel, **MAX REPEL**.
-
-# Roaming Beasts Status
-- **Target:** Raikou & Entei.
-- **Strategy:** Lead with Lv36 Gyarados + Max Repel.
-- **Location:** Roaming Johto (Random).
-- **Current Task:** Cycling Route 37 <-> Ecruteak City to force movement.
-- **Inventory:** 13 Max Repels left.
-
-# Tile Mechanics
-- **FLOOR:** Traversable.
-- **WALL:** Impassable.
-- **TALL_GRASS:** Traversable. Wild encounters possible.
-- **LEDGE_HOP:** One-way traversal (Down/Right observed).
-- **WARP_CARPET:** Triggers map transition.
-- **WATER:** Traversable with SURF.
+# Key Items Status
+- **Master Ball:** **MISSING / USED** (Confirmed used on Lugia).
+- **Inventory:** 13 Max Repels, Ultra Balls.
 
 # Lessons Learned
-- **Fly Map Navigation:** The Fly map cursor animation is slow. Fast inputs (automated or manual) are often eaten. **STRATEGY:** Use strictly manual, single-step inputs with visual verification of the destination text between each move, OR use `sequence_press` with `sleep 1000` between inputs.
-- **Navigation Verification:** Always verify `current_map_id` and screen text after a transition failure. Do not rely on "assumed" location.
+- **Fly Map:** Inputs must be SLOW (1 per second or manual verification).
+- **Navigation:** Always verify `current_map_id`.
 
-# Roamer Hunt Log
-- **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37.
-- **Stats:** 63 Iterations. 0 Encounters.
-- **Master Ball Status:** CONFIRMED MISSING (Used on Lugia).
-- **Current Action:** Walking to Ecruteak City.
-- **Path:** New Bark -> Rt 29 -> Cherrygrove -> Rt 30 -> Rt 31 -> Violet -> Rt 36 -> Ecruteak.
-- **Roamer Strategy:** Lead with Lugia (Speed 143) to outspeed. Whittle HP or chuck Ultra Balls.
+# Current Status
+- **Location:** Route 29 (Heading West to Cherrygrove).
+- **Next:** Cherrygrove -> Route 30 -> Violet -> Ecruteak.
