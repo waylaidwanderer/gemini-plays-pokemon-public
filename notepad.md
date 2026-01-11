@@ -14,11 +14,11 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- REALITY CHECK: Already have 16 Badges & beat Red.
-- Current Goal: Hunt Raikou & Entei (Johto Roamers).
-- S.S. Aqua is closed (Sunday).
-- Immediate Plan: Fly to Goldenrod City to check for Super Repels & use Magnet Train if needed.
+- In Start Menu.
+- Opening Pokemon Party to select Mistral (Pidgey).
+- Goal: Fly to Goldenrod City.
+- Reason: Resupply Repels and access Magnet Train if needed.
 
 # Roaming Beasts Status
 - **Raikou & Entei:** Roaming Johto.
-- **Strategy:** Use Max/Super Repels + Level 39-ish Pokemon to encounter them.
+- **Strategy:** Use Max/Super Repels + Level 39-ish Pokemon.
