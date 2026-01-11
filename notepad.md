@@ -34,23 +34,20 @@
 - **Start Turn:** 39950
 - **Foundational Hint:** Rocket Grunt: "I hid it in the water in the center of the Gym."
 - **Search Log:**
-    - (3, 8): Interaction failed (Turn 40013, 40015). Itemfinder: "Nope!".
-    - (4, 8): Interaction failed (Turn 40019). Itemfinder: "Nope!".
-    - (3, 9): Interaction failed (Turn 40017).
-    - (4, 9): Interaction failed (Turn 40018).
-    - (4, 7): Itemfinder: "Ping" (Turn 39988).
-    - (3, 7): Itemfinder: "Ping" (Turn 39534).
-    - (4, 6): Itemfinder: "Nope!" (Turn 40006).
-- **Hypothesis (Turn 40030):** The Machine Part is in the northern part of the pool, likely at (3, 6), (5, 6), or (3, 5). The Itemfinder pings at (3, 7) and (4, 7) suggest it is within 4 tiles of the center walkway.
-- **Plan (Turn 40030):**
-    1. Surf from (3, 7) to (3, 6).
-    2. Interact with (3, 6).
-    3. If not found, use Itemfinder at (3, 6) to re-triangulate.
+    - (3, 8), (4, 8), (3, 9), (4, 9): "Nope!" (Out of range).
+    - (4, 7), (3, 7): "Ping" (In range).
+    - (4, 6), (5, 6): "Nope!" (Out of range).
+- **Triangulation (Turn 40039):** Since it pings at (3, 7) but is "Nope!" at (3, 8) and (4, 6), the item must be North of (3, 7) but West of (4, 6). 
+- **Target Area:** Northern pool, West side. Candidates: (1, 6), (2, 6), (1, 5), (2, 5), (1, 4), (1, 3), (2, 3).
+- **Plan:**
+    1. Use Itemfinder at (5, 6) to confirm out-of-range status.
+    2. Move to (3, 7) and confirm ping.
+    3. Move to (2, 6) and check.
+    4. Move to (1, 6) and check.
 
 ## Lessons Learned
-- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range. It does NOT mean you are standing on it.
-- **Menu Mechanic:** Overworld menu loops; cursor remembers last position.
-- **Gym Navigation:** BFS on Map Events is optimal for warp mazes.
+- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
+- **Gym Clue:** "Center of the Gym" might refer to the center of the northern pool area or a specific decorative center, not necessarily the inner pool.
 
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
