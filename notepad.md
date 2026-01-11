@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Positioning for Sweep.
-- **Strategy:** Move to Top-Right of grass (9, 2) -> Execute Zigzag Tool.
+- **Action:** Finishing Northern Sweep -> Exit to Ecruteak.
+- **Strategy:** Sweep Rows 4-5 -> Exit North to Shuffle.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
