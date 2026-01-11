@@ -36,11 +36,11 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 25 Iterations. 0 Encounters.
-- **Current Status:** Starting Iteration 26.
+- **Current Status:** Iteration 26 Hunting.
 - **Current Iteration (26):**
   - Start Time: Turn 33645
-  - Location: Route 37 (Transitioning)
-  - Action: Moving Ecruteak -> Route 37.
+  - Location: Route 37
+  - Action: Hunting (Grass Sweep).
   - Note: Repel active.
 
 # Reflection (Turn 33644)
