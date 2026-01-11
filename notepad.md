@@ -4,14 +4,13 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Traverse Victory Road 2F (East Bypass)
-- **Location:** Victory Road 2F (ID: 3_91) at (12, 34).
-- **Goal:** Reach Ladder at (13, 31).
-- **Route:** `(17, 36) -> West to (12, 36) -> North to (12, 31) -> (13, 31)`.
+## Current Task: Traverse Victory Road 3F (Final Floor)
+- **Location:** Victory Road 3F (ID: 3_91) at (17, 10).
+- **Goal:** Reach Exit to Indigo Plateau at (13, 5).
+- **Route:** `(17, 10) -> West to (12, 10) -> North to (12, 6) -> (13, 5)`.
 - **Reasoning:**
-  - Executing East Bypass.
-  - Moved from (10, 40) -> (19, 42) -> (19, 36) -> (17, 36).
-  - Just need to complete the path West then North.
+  - Encountered wild Pokemon at (17, 10).
+  - Need to flee and continue West to the exit corridor.
 
 ## Reflection (Turn 32967)
 - **Execution:** No deferred tasks identified in the last 50 turns.
