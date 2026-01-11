@@ -7,8 +7,8 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 10).
-- **Status:** Hunting on Route 37 (Iteration 10).
+- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 11).
+- **Status:** Resetting Map (Route 37 -> Ecruteak -> Route 37).
 - **Strategy:**
     1. Enter Route 37.
     2. Run in grass with Max Repel active.
