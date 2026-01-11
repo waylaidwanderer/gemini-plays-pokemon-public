@@ -19,3 +19,11 @@
 - **Target:** Raikou & Entei.
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
 - **Location:** Roaming Johto (Random).
+
+# Tile Mechanics
+- **FLOOR:** Traversable.
+- **WALL:** Impassable.
+- **TALL_GRASS:** Traversable. Wild encounters possible.
+- **LEDGE_HOP:** One-way traversal (Down/Right observed).
+- **WARP_CARPET:** Triggers map transition.
+- **WATER:** Traversable with SURF.
