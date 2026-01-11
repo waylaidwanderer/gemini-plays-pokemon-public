@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Route 37 -> Ecruteak City.
-- **Action:** Applying Max Repel.
-- **Strategy:** Use Repel -> Exit North to Shuffle -> Resume Hunt.
+- **Action:** Sweeping North -> Exiting to Shuffle.
+- **Strategy:** Zigzag through grass to gate.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Technical Notes
