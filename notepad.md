@@ -21,6 +21,7 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 37 (Just Arrived).
-- **Next:** Switch Lugia to Lead -> Cycle Route 37/Ecruteak for Roamers.
+- **Location:** Route 37 (Grass).
+- **Next:** Use Max Repel -> Hunt Roamers with Gyarados (Lv36) Lead.
+- **Correction:** Keep Gyarados lead. Lugia (Lv60) is too high level for Repel trick (Roamers are Lv40).
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
