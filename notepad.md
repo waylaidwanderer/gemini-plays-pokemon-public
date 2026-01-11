@@ -12,10 +12,10 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass (Pass 2).
-- **Strategy:** Zigzag sweep (Rows 2-5).
-- **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
+- **Location:** Route 37 -> Ecruteak City.
+- **Action:** Finishing sweep -> Returning to Ecruteak to shuffle.
+- **Strategy:** Exit North to shuffle Roamers.
+- **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
