@@ -30,7 +30,7 @@
 - **Xenon (Lv 44):** Haunter. Hypnosis, Confuse Ray, Night Shade, Dream Eater.
 - **Lapis (Lv 12):** Poliwag. Surf, Whirlpool, Waterfall.
 - **Gneiss (Lv 54):** Graveler. Earthquake, Rollout, Strength.
-- **Icarus (Lv 19):** Pidgeotto. Fly.
+- **Icarus (Lv 19):** Pidgeotto. Fly. (Fly usable outside battle with Storm Badge).
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
@@ -48,7 +48,8 @@
   1. Head South from Cerulean to Route 5.
   2. Pass through Route 5 to Saffron City.
   3. Head West from Saffron (Route 7) to Celadon City.
-- Contingency: If Saffron gate is blocked, use the Underground Path.
+  4. Current hypothesis: Path to Celadon is at the north edge of Route 7 (Rows 0-1).
+- Contingency: If direct path is blocked, take the long way: Lavender -> Fuchsia -> Cycling Road (Route 16).
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
