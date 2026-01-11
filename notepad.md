@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Inside Mt. Silver Pokecenter (19_3).
-- Event: Phone call from Wade finished.
-- Action: Exiting Pokecenter (Down).
-- Next: Fly to Goldenrod from Outside.
+- Location: Mt. Silver Outside (23, 20).
+- Action: Opening Fly Map via Mistral (Slot 4).
+- Goal: Fly to Goldenrod City.
+- Sequence: Start -> Pokemon -> Mistral -> Fly.
