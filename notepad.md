@@ -7,6 +7,7 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
+- LADDER: Traversable. Used for bridges on Route 12.
 - WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry.
 - WARP_CARPET_RIGHT: Warp tile at map edge. Move Right to trigger.
 - WARP_CARPET_LEFT: Warp tile at map edge. Move Left to trigger.
