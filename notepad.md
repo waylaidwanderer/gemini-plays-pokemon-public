@@ -8,15 +8,11 @@
 - **Menu Verification:** Use short sequences (1-3 buttons) and verify screen state.
 - **Prerequisite Check:** Always verify required items (like EXPN Card) in Game State before attempting puzzles.
 
-## Tile Mechanics (Vermilion City)
+## Tile Mechanics (Route 11)
 - FLOOR: Traversable.
 - WALL: Impassable.
-- WATER: Traversable with Surf.
-- DOOR: Warp tile.
-- CAVE: Warp tile (Diglett's Cave).
-- BIG_SNORLAX: Impassable object. Interact from (36, 8) facing Left.
-- CUT_TREE: Impassable until Cut is used.
-- WARP_CARPET_DOWN: Warp at map edge.
+- TALL_GRASS / LONG_GRASS: Traversable, triggers wild encounters.
+- WARP_CARPET: Warp at map edges.
 
 ## Menu Mechanics
 - **Start Menu Order:** 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
@@ -28,21 +24,17 @@
 
 ## Snorlax Quest Phase
 - **Goal:** Wake Snorlax at Vermilion City / Route 11 junction.
-- **Status:** Stalled (Turn 40442). Prerequisite EXPN Card missing from Pokegear Cards list.
+- **Status:** Stalled (Turn 40454). Prerequisite EXPN Card missing from Pokegear Cards list.
 - **Strategy:**
-  1. Fly to Lavender Town using ICARUS.
-  2. Enter Radio Tower and speak to Station Manager (10, 1) to get EXPN Card.
+  1. Travel to Lavender Town Radio Tower (Route 11 -> Route 12 -> Lavender Town).
+  2. Speak to Station Manager (10, 1) to get EXPN Card.
   3. Verify EXPN Card in Pokegear Cards.
-  4. Fly back to Vermilion City.
+  4. Return to Snorlax.
   5. Tune Radio to 20.0 (Poke Flute) and interact with Snorlax.
 
 ## General Lessons & Error Log
 - **Missing Prerequisite (EXPN Card):** Attempted to tune radio without the card for 120+ turns. **Lesson:** Check Game State Information for required capabilities before brute-forcing a solution.
+- **Fly Map Cursor:** Cursor can get stuck (Indigo Plateau). Walking is a reliable fallback.
+- **Agent Usage:** Use specialized agents like `quest_strategist_v2` when stuck. (Turn 40442).
 - **Time Blindness:** Always monitor turn count when progress stalls.
-- **Menu Sequence Failure:** Long button sequences in `press_menu_buttons_v2` are unreliable. Stick to 1-3 buttons.
-- **Agent Underutilization:** Use specialized agents like `quest_strategist` when stuck. (Turn 40442).
-## Fly Map Debug (Turn 40450)
-- Observation: Fly map cursor stuck on Indigo Plateau. "Right" presses in Turn 40449/40450 did not move it.
-- Hypothesis: Cursor might require directional inputs to be separated by more time, or I need to move Up/Down first to "unlock" the cursor from the starting point.
-- Test: Mash Up and Right with sleeps. If fails, exit and walk to Lavender Town.
-- Walking Route: Vermilion -> Route 6 -> Saffron -> Route 8 -> Lavender. (Turn 40450)
+- **Walking Route:** Route 11 -> Route 12 -> Lavender Town. (Turn 40454)
