@@ -12,8 +12,8 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Grass Check - Round 5).
-- **Next:** Move to Grass -> Re-apply Max Repel -> Run Pattern.
+- **Location:** Route 37 (Heading North to Ecruteak).
+- **Next:** Enter Ecruteak -> Shuffle Roamers -> Return.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
