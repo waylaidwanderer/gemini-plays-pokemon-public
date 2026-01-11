@@ -74,3 +74,6 @@
 - Turn 40283: Entered Route 11 from Route 12 junction. 
 - Goal: Find Snorlax on Route 11 (blocking the path west).
 - Plan: Move West along the corridor until Snorlax is reached. Then use Radio (Poke Flute) to wake him.
+- Turn 40286: Spotted Youngster at (28, 7) on Route 11.
+- Navigation: Continuing west to find Snorlax.
+- Note: Snorlax should be a large sprite blocking the path. I will tune the radio ONLY when adjacent to it.
