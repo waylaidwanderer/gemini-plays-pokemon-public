@@ -63,3 +63,7 @@
 - Victory: Calcifer (Typhlosion) finished with Flame Wheel.
 - **Mt. Moon Square:** Sign at (17, 7) says "MT. MOON SQUARE - DON'T LITTER". Gift Shop is at (13, 7). (Turn 40956).
 - **Mt. Moon Gift Shop (15_11):** Gramps (4, 3) sells: Poke Doll (1000), Fresh Water (200), Soda Pop (300), Lemonade (350), Repel (350), Portraitmail (50). (Turn 40969).
+- **Tile Mechanics Update:** 
+    - MART_SHELF, COUNTER, BOOKSHELF, RADIO, INCENSE_BURNER: Impassable.
+    - grass (in Mt. Moon Square): Traversable, potential wild encounters. (Turn 40981).
+- **Healing Task:** Started Turn 40974. Using Lemonade on GNEISS. (Turn 40981).
