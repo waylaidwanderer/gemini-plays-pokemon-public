@@ -5,7 +5,6 @@
 
 # Current Status
 - **Location:** Route 37 -> Ecruteak City.
-- **Action:** Finishing sweep -> Returning to Ecruteak to shuffle.
 - **Strategy:** Exit North (Column 7) -> Shuffle.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
