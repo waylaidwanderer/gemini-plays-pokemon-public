@@ -11,7 +11,7 @@
 - **Opponent:** Gengar (Lv45).
 - **Active:** Lugia (Lv60).
 - **Strategy:**
-  - **Gengar:** Use `Hydro Pump` (Strongest) or `Gust` (Reliable). *Note: Don't have Psychic.*
+  - **Gengar:** Use `Hydro Pump` (Strongest). *Note: Lugia lacks Psychic.*
   - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
   - **Houndoom:** Muscle (`Cross Chop`).
 - **Health Check:** Muscle 283/295 HP, Lugia 196/204 HP.
