@@ -22,11 +22,11 @@
 - **RNG:** Roamer position resets on map transition. Patience required.
 
 # Current Status
-- **Location:** Ecruteak City -> Route 37.
-- **Action:** Shuffling & Sweeping (Pass 1 - Return).
-- **Strategy:** Down (Route 37) -> Grass -> Zigzag.
-- **Loop:** Sweep -> Shuffle -> Sweep.
+- **Location:** Route 37 (North Grass).
+- **Strategy:** Zigzag sweep (Rows 2-5).
+- **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34320.
+- **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
+- **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
