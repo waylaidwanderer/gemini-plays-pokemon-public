@@ -44,11 +44,11 @@
 
 ## Department Store Shopping Plan
 - **Goal:** Buy useful TMs and items.
-- **2F:** TMs (Hidden Power, etc.). Stock up on Revives and Full Heals.
-- **3F:** TMs (Fire Punch, Ice Punch, Thunder Punch). Hyper Beam.
-- **4F:** Evolution Stones (Fire, Water, Leaf, Thunder).
-- **5F:** Stat boosters (Protein, Iron, etc.).
-- **Rooftop:** Vending machines (Fresh Water, Soda Pop, Lemonade). Give drinks to thirsty girl for TMs.
+- **2F (Trainer's Market):** Stock up on Revives, Full Heals. Buy TM41 (Thunderbolt - check availability).
+- **3F (TV Game Shop):** Buy Elemental Punches (Fire, Ice, Thunder) for coverage.
+- **4F (Wiseman Gift Shop):** Purchase Evolution Stones (Fire, Water, Leaf, Thunder).
+- **5F (Drugstore):** Stat boosters (Protein, Iron, etc.).
+- **Rooftop (Vending Machines):** Buy Fresh Water, Soda Pop, Lemonade. Give one of each to thirsty girl for TMs.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the NPC then press A. Link markers to Object IDs.
