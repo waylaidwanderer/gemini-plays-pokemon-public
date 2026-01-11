@@ -33,9 +33,11 @@
 ## Machine Part Investigation
 - **Start Turn:** 39929
 - **Clue:** Rocket Grunt: "I hid it in the water in the center of the Gym."
-- **Current Strategy:** Manual tile-by-tile sweep of all central water tiles. Standing on each tile and pressing A.
-- **Verified Empty (A-button while standing on):** None yet. (A-button from adjacent floor has failed for many, but standing-on is the new protocol).
-- **Suspected Tiles:** (3,8), (4,8), (3,9), (4,9), (3,6), (4,6), (5,6), (8,7).
+- **Current Strategy:** Manual sweep of inner pool (3,8), (4,8), (3,9), (4,9) by standing on each and pressing A.
+- **Verified Empty:** (3,3), (4,6), (5,6).
+- **Itemfinder Status:**
+    - (3,7), (4,7): Ping (Turn 39534, 39988).
+    - (3,8), (4,8), (4,6), (5,6), (3,3): Nope!
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
