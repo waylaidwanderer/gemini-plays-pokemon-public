@@ -10,8 +10,8 @@
 - **Immediate Task:** Buy Supplies at Celadon Dept Store.
 - **Shopping List:**
   - 20 Max Repels (Cost: ¥14,000) - *Purchased*
-  - 25 Ultra Balls (Cost: ¥30,000) - *Selecting Quantity*
-- **Status:** Trying to buy 25 Ultra Balls.
+  - 25 Ultra Balls (Cost: ¥30,000) - *Setting Quantity to 25*
+- **Status:** Adjusting quantity from 99 to 25 (Up wraps to 1).
 - **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
 
 # Store Inventories
