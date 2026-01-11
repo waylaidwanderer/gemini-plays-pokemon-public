@@ -41,6 +41,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Checking Bag (Balls Pocket).
-- **Status:** Items pocket scanned (Negative). Switching to Balls pocket.
-- **Objective:** Locate Master Ball.
+- **Current Action:** Checking Bag (Key Items).
+- **Status:** Balls pocket check negative.
+- **Objective:** Final check for Master Ball.
+- **Hypothesis:** 99% sure it was used on Lugia.
