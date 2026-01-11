@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Sweeping Grass (Pass 17).
-- **Strategy:** Shuffle Ecruteak -> Return South -> Sweep Grass.
+- **Action:** Finishing Sweep (Pass 17) -> Check Pokegear.
+- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34219).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
