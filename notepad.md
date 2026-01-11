@@ -69,8 +69,12 @@
 3. Talk to Super Nerd (ID 1) at (9, 2). (Done)
 4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1). (Done)
 5. Explore western unseen area (x < 7). (Done)
-6. Search for Thirsty Girl. (Hypothesis: Exists on 6F. Test: Search floor. Conclusion: Not found - Turn 41936)
+6. Search for Thirsty Girl. (Conclusion: Does not exist in this game - Turn 41936)
 7. Move to Celadon City.
+    - Check Game Corner.
+    - Re-examine Celadon Mansion back wing for missed rooms/items.
+    - Visit Mansion Roof House at night (Pharmacist's tale).
+    - Look for Evolution Stones (not in Dept Store).
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
