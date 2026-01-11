@@ -60,5 +60,5 @@
 - Location: Mt. Moon (3_85) at (4, 3).
 - Silver's Team:
   1. SNEASEL (Lv41): DEFEATED.
-  2. FERALIGATR (Lv45): Active, Asleep.
-- Current Matchup: Calcifer (Lv58) vs Feraligatr (Asleep).
+  2. FERALIGATR (Lv45): DEFEATED.
+- Current Matchup: Calcifer (Lv58) active. KIMCHI (Lv44) learning Petal Dance.
