@@ -7,12 +7,11 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Jynx (Lv41). Muscle (Lv86) is active.
-- **Matchup:** Muscle (Fighting) vs Jynx (Ice/Psychic).
+- **State:** Battling Exeggutor. Muscle (Lv86) is active.
+- **Matchup:** Muscle (Fighting) vs Exeggutor (Grass/Psychic).
 - **Strategy:**
-  1. **Jynx:** Use `Strength` (Slot 1). Physical move vs low Defense.
+  1. **Exeggutor:** Use `Ice Punch` (Slot 3). Super Effective (2x).
   2. **Next Mons:**
-     - Exeggutor: `Ice Punch`.
      - Slowbro: `Thunderpunch`.
      - Xatu #2: `Thunderpunch`.
   - **Health Check:** Muscle at 235/291 HP. Safe.
