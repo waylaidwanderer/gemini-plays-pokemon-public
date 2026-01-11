@@ -14,6 +14,7 @@
 # Current Status
 - **Location:** Route 37 -> Ecruteak City.
 - **Next:** Re-enter Route 37 for Quick Check.
+- **Note:** Previous attempt interrupted by Gaven call. Resuming shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
