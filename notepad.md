@@ -40,3 +40,7 @@
   - Location: Route 37
   - Action: Hunting.
   - Note: Repel refreshed at Turn 33590.
+- **Reflection (Turn 33591):**
+  - **Strategy:** Verified. Roamers move on map transition. Repel (Lv36) filters correctly.
+  - **Hygiene:** Logs consolidated. No critical tasks deferred.
+  - **Plan:** Continue hunting loop. Define helper tool if fatigue sets in.
