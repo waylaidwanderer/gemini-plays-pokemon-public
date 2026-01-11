@@ -28,5 +28,37 @@
         "action_counter": 27988
       }
     ]
+  },
+  "switch_party_members": {
+    "description": "Switches the positions of two Pokémon in the party. Assumes the player is currently in the Main Start Menu with the cursor on the first option (POKEDEX).",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "slot_a": {
+          "type": "integer",
+          "description": "The party slot of the first Pokémon (1-6).",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "slot_b": {
+          "type": "integer",
+          "description": "The party slot of the second Pokémon (1-6).",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "slot_a",
+        "slot_b"
+      ]
+    },
+    "python_script": "import json\n\nslot_a = input_data['slot_a']\nslot_b = input_data['slot_b']\n\nbuttons = []\n\n# Navigate from Main Menu (Pokedex) to Pokemon\nbuttons.append(\"Down\") # Move to Pokemon\nbuttons.append(\"A\")    # Enter Pokemon Menu\nbuttons.append(\"sleep 500\") # Wait for menu\n\n# Cursor starts at Slot 1\ncurrent_slot = 1\n\n# Move to slot_a\ndiff_a = slot_a - current_slot\nif diff_a > 0:\n    buttons.extend([\"Down\"] * diff_a)\nelif diff_a < 0:\n    buttons.extend([\"Up\"] * abs(diff_a))\ncurrent_slot = slot_a\n\n# Select first Pokemon\nbuttons.append(\"Select\")\n\n# Move to slot_b\ndiff_b = slot_b - current_slot\nif diff_b > 0:\n    buttons.extend([\"Down\"] * diff_b)\nelif diff_b < 0:\n    buttons.extend([\"Up\"] * abs(diff_b))\ncurrent_slot = slot_b\n\n# Select second Pokemon (Swap)\nbuttons.append(\"Select\")\nbuttons.append(\"sleep 500\")\n\n# Exit menus\nbuttons.append(\"B\") # Exit Pokemon Menu\nbuttons.append(\"sleep 500\")\nbuttons.append(\"B\") # Exit Main Menu\n\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T05:36:33.304Z",
+        "action_counter": 33115
+      }
+    ]
   }
 }
