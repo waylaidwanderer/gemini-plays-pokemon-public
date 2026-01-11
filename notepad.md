@@ -67,7 +67,7 @@
 1. Read Directory at (14, 0). (Done)
 2. Talk to Youngster (ID 2). (Done Turn 41919)
 3. Talk to Super Nerd (ID 1) at (9, 2). (Done)
-4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1).
+4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1). (Done)
 5. Explore western unseen area using `find_reachable_unseen_tiles`.
 6. Find thirsty girl and trade drinks for TMs.
 
