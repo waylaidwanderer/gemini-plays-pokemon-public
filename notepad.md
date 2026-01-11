@@ -37,12 +37,12 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Status:** Retrying Fly to Ecruteak (Attempt 3).
+- **Current Status:** Resetting Menu State (Overworld).
 - **Current Iteration (64):**
   - Start Time: Turn 33869
   - Location: Cherrygrove City -> Ecruteak City
-  - Action: Fly (Full Sequence with assumed Pokedex start).
-  - Note: Previous attempt failed due to menu navigation errors. Assuming Start resets cursor or cursor is at Pokedex. Sequence: Start -> Down (Pokemon) -> Mistral -> Fly -> Map (Up, Left) -> Ecruteak.
+  - Action: Spam B to exit Pokedex/Menu loops.
+  - Note: Previous attempts to navigate menu blindly failed (stuck in Pokedex). Resetting to clear overworld state before retrying.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
