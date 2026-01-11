@@ -42,13 +42,11 @@
   - Celadon (Erika): Next target.
 
 ## Celadon City Exploration Plan
-1. Talk to NPCs at (26, 11) and (27, 11). (COMPLETED Turn 41427)
-2. Head north to find the Department Store and Celadon Mansion.
-3. Head south to find the Gym (requires Cut).
-4. Locate the Game Corner in the center of town.
-5. Visit the Department Store to check for useful items/TMs.
-6. Check the Celadon Mansion for any interesting NPCs or events.
-7. Locate and enter the Celadon Gym to challenge Erika.
+1. Talk to NPCs: (26, 11), (27, 11) [DONE], (17, 13) [IN PROGRESS].
+2. Explore Celadon Mansion (Entrance 16, 9).
+3. Locate and visit Department Store.
+4. Locate Game Corner.
+5. Locate and defeat Celadon Gym (Erika).
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
