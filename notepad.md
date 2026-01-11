@@ -1,67 +1,45 @@
 # Gem's Pokémon Crystal Knowledge Base
 
 ## Core Principles & Strategy
-- **Immediate Execution:** Perform tasks the moment they are identified.
 - **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
-- **Efficiency:** Running from wild battles is preferred.
-- **Fly Usage:** Use Fly for long-distance travel.
-- **Menu Verification:** Use short sequences (1-5 buttons) and verify screen state.
-- **Prerequisite Check:** Always verify required items/capabilities in Game State before attempting puzzles.
-- **Internal Upgrades:** Some "cards" like the EXPN Card are software upgrades and do not appear as items or separate cards in the Game State.
+- **Efficiency:** Running from wild battles is preferred. Use Fly for distance.
+- **Menu Verification:** Use short sequences (1-5 buttons). Verify focus indicators.
+- **Internal Upgrades:** EXPN Card is a software upgrade (not an item).
 
-## Tile Mechanics (Global)
-- FLOOR: Traversable. Standard collision.
-- WALL: Impassable.
-- WATER: Traversable with SURF (requires Storm Badge and a Pokémon with the move SURF).
+## Tile Mechanics (Verified)
+- FLOOR: Traversable.
+- WALL: Impassable. Collision is consistent.
+- WATER: Traversable with SURF (requires Move + Storm Badge).
 - TALL_GRASS / LONG_GRASS: Traversable.
 - DOOR / WARP: Step on to enter buildings/areas.
-- LADDER / PIER: Traversable. Stepping on a pier stops surfing.
+- LADDER / PIER: Traversable. Pier stops surfing.
 - CAVE: Warp tile.
-- COUNTER: Impassable Wall. Interact from adjacent tile.
+- COUNTER: Impassable. Interact from front tile.
 - WARP_CARPET: Warp at map edges.
-- BIG_SNORLAX: Impassable object. Interact from (34, 10) facing Up or (36, 8) facing Left.
+- LEDGE: One-way jump down. (To be verified in Kanto).
 
 ## Menu Mechanics
 - **Start Menu Order:** 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
-- **Pokegear Radio:** Frequency 20.0 (Poke Flute) is at the top of the dial in Kanto. Requires EXPN Card upgrade.
-- **Precision Tuning:** The Poke Flute station (20.0) requires exact cursor placement; "TUNING" means you're close but not quite there.
+- **Pokegear Radio:** 20.0 (Poke Flute) is top center in Kanto. Requires EXPN Card.
 
 ## Party Management
 - **Lead Pokémon:** XENON (HAUNTER Lv44).
 - **HM Users:** ICARUS (FLY), LAPIS (SURF, WATERFALL, WHIRLPOOL), KIMCHI (CUT, FLASH), GNEISS (STRENGTH).
 
-## Kanto Radio & Snorlax Quest
-- **Objective:** Wake Snorlax at Vermilion City / Route 11 junction using the Poke Flute radio channel.
-- **Status:** EXPN Card active. Standing at (34, 10) facing Up (interaction point for Snorlax).
-- **Strategy:**
-  1. Open Pokegear Radio and tune PRECISELY to 20.0 (top center) until "POKE FLUTE" appears.
-  2. Close menu and interact with Snorlax (A).
-  3. Battle and catch/defeat Snorlax.
-  4. Enter Diglett's Cave to reach Pewter City.
+## Quest Log
+- **Snorlax Quest:** COMPLETE. Snorlax caught at Turn 40583. Nickname: GORP.
+- **Power Plant Crisis:** COMPLETE. Power restored.
+- **Magnet Train:** Operational.
+- **Kanto Gyms:**
+  - Vermilion (Lt. Surge): DEFEATED.
+  - Saffron (Sabrina): DEFEATED.
+  - Cerulean (Misty): Target. Last seen "on a date" somewhere north?
 
 ## General Lessons & Error Log
-- **Dialogue vs. Items:** "With that thing..." dialogue is the definitive indicator of the EXPN Card upgrade receipt. (Turn 40496).
-- **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
-- **Precision Tuning:** Ensure the needle is at the absolute top of the dial for the Poke Flute. (Turn 40535).
-- **Menu Cursor Memory:** Start menu remembers last position. Always verify start position. (Turn 40501).
-- **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
-## Kanto Tile Mechanics (Verified)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- NPC / Object: Impassable. Must navigate around or interact from adjacent tile.
-- COUNTER: Impassable. Interact from front tile.
-- WATER: Traversable with SURF.
-- WARP: Step on to trigger.
+- **Radio UI Focus:** Need to press 'Down' to move focus from the tabs (MAP/PHONE/RADIO) to the tuning dial. (Turn 40554).
+- **Snorlax Interaction:** Occupies (34,8) to (35,9). Interact from (34,10) facing Up or (36,8) facing Left.
+- **Sequence Errors:** Be careful with `press_menu_buttons_v2`. Large sequences can lead to turn mismatches if text boxes appear unexpectedly.
 
 ## Time Tracking
-- Snorlax Quest (Radio Tuning): Started Turn 40535.
-- Snorlax Battle: Started Turn 40559.
-
-## Strategy for Catching Snorlax
-- **Status:** Snorlax is Level 50, has Leftovers.
-- **Plan:**
-  1. Hypnosis (Xenon) to sleep. (Applied)
-  2. Dream Eater (Xenon) to lower HP to red. (In progress, HP currently in yellow/orange).
-  3. Switch to Great Balls (26) or Ultra Ball (1) once HP is low.
-  4. If Snorlax wakes up, immediately use Hypnosis.
-  5. Avoid using Night Shade as it deals fixed 44 damage (too much risk if HP is very low).
+- Snorlax Quest (Radio Tuning to Capture): Turn 40535 to 40583 (~48 turns).
+- Current Goal (Pewter City): Started Turn 40584.
