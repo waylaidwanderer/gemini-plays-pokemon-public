@@ -53,5 +53,5 @@
   - Challenge: Beat 6 trainers - COMPLETED.
   - Prize Giver: Cooltrainer Kevin (37, 8). Received NUGGET.
   - Battle: Cooltrainer Kevin (ID 10): DEFEATED.
-  - Misty: Likely beyond Cut Tree at (34, 6).
+  - Misty: Found at (46, 9) on Route 25.
   - Item picked up: PROTEIN at (32, 4).
