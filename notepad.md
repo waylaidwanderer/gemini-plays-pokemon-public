@@ -8,16 +8,48 @@
 - DOOR / WARP / CAVE: Entry points.
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
-- MART_SHELF: Impassable. Interaction untested.
+- MART_SHELF: Impassable.
 - LEDGE_HOP_DOWN: One-way North to South.
 - FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable.
+- WARP_CARPET: (7,3) and (8,3) in Celadon Dept Store 5F are traversable floor tiles, not active warps. (Verified Turn 41878)
 - OBJECTS (NPCs/Items): Impassable.
-- WARP_CARPET_DOWN: Exit point.
 - PC / BOOKSHELF: Impassable.
 
-## Battle Strategy & History
-- **Erika Strategy:** Lv 42-46 team. Swept with Calcifer (Fire).
-- **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
+## Battle and Pokemon Information
+### Party Movesets
+- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
+- GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
+- ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+- XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
+- LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
+- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
+
+### Type Effectiveness (Observed)
+- Fire (Calcifer) is Super Effective against Grass (Erika's Gym).
+- Flying (Icarus) is Super Effective against Grass.
+- Poison is not very effective against Poison/Grass.
+
+### Significant Battles
+- Erika (Celadon Gym): Defeated with Fire-type moves. Lv 42-46 team.
+- Rival Silver (Mt. Moon): Defeated.
+
+## Evolution Methods
+- Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock). (Source: Fisher at 26,11)
+- Gloom -> Vileplume (Leaf Stone) or Bellossom (Sun Stone).
+- Haunter -> Gengar (Trade).
+- Graveler -> Golem (Trade).
+
+## PC Storage
+### Box 1 (9/20)
+- GORP (Snorlax) Lv50
+- AAAAAAAAAA (Spinarak) Lv13
+- GLAIVE (Scyther) Lv14
+- SELKIE (Seel) Lv24
+- DELTA (Mantine) Lv20
+- RANGOON (Krabby) Lv22
+- NOMURA (Tentacool) Lv17
+- Ravioli (Krabby) Lv10
+- Ouroboros (Dratini) Lv15
 
 ## Economy & Shopping
 - **Celadon Dept Store Exploration (Started Turn 41740):**
