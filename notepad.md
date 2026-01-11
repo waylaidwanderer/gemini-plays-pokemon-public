@@ -58,13 +58,6 @@
 - **Repel Status:** Super Repel active (200 steps from Turn 40885).
 ## Strategy: Rival Silver (Mt. Moon)
 - Location: Mt. Moon (3_85) at (4, 3).
-- Silver's Team:
-  1. SNEASEL (Lv41): DEFEATED.
-  2. FERALIGATR (Lv45): DEFEATED.
-  3. GOLBAT (Lv42): DEFEATED.
-  4. GENGAR (Lv43): DEFEATED.
-  5. ALAKAZAM (Lv43): DEFEATED.
-  6. MAGNETON (Lv41): Active.
-- Current Matchup: Calcifer (Lv58) vs Magneton.
-- Strategy: Use Flame Wheel (Super Effective).
-- Lesson: Verify active Pokemon via screen; "Leading" in Game State only shows Slot 1. (Turn 40944).
+- Silver's Team: DEFEATED (Turn 40946).
+- Team Summary: Sneasel, Feraligatr, Golbat, Gengar, Alakazam, Magneton.
+- Victory: Calcifer (Typhlosion) finished with Flame Wheel.
