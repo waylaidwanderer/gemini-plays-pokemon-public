@@ -35,13 +35,7 @@
 - Status: Active (Power restored Turn 39771).
 - Requirement: PASS (Obtained from Copycat).
 
-## Saffron Gym Challenge (Completed)
-- **Start Turn:** 39791
-- **Status:** Marsh Badge obtained (Turn 39878).
-- **Shortest Path (In):** BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
-- **Shortest Path (Out):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
-
-### Warp Solution (Full Table)
+## Saffron Gym Warp Solution (Full Table)
 - BC (Entrance) (11, 15) <-> BR (19, 17)
 - BR (15, 15) <-> TR (19, 3)
 - BR (15, 17) <-> BL (5, 15)
@@ -53,6 +47,11 @@
 - ML (5, 11) <-> BL (5, 17)
 - ML (1, 9) <-> MR (1, 9)
 - ML (5, 9) <-> TC (5, 9)
+
+## Completed Objectives
+- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
+  - Path In: BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
+  - Path Out: MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
