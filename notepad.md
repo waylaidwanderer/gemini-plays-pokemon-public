@@ -47,6 +47,7 @@
   - #4 Lass Laura (24, 6): DEFEATED.
   - #5 Camper Lloyd (25, 5): DEFEATED.
   - #6 Lass Shannon (28, 11): DEFEATED.
-  - #7 Super Nerd (31, 7): Interaction in progress.
+  - #7 Super Nerd Pat (31, 7): DEFEATED (Not part of challenge).
   - Challenge: Beat 6 trainers - COMPLETED.
-  - Prize: Claim from Super Nerd (31, 7)?
+  - Prize: Prize giver unknown (Not Pat).
+  - Misty: Likely beyond Cut Tree at (34, 6).
