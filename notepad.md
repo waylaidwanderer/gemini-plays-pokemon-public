@@ -37,7 +37,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Detour to Elm's Lab (New Bark Town).
-- **Objective:** Check for Master Ball.
-- **Reason:** Essential for Roaming Beasts.
-- **Path:** Navigate to Lab (6, 3) -> Talk to Elm -> Resume Roamer Hunt.
+- **Current Action:** Approaching Professor Elm.
+- **Objective:** Obtain Master Ball.
+- **Location:** Elm's Lab (New Bark Town).
+- **Status:** Walking to (5, 3) to talk to Elm.
