@@ -5,7 +5,7 @@
 - **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
 - **Efficiency:** Running from wild battles is preferred.
 - **Fly Usage:** Use Fly for long-distance travel. If cursor seems stuck, verify with `press_buttons`.
-- **Menu Verification:** Use short sequences (1-3 buttons) and verify screen state.
+- **Menu Verification:** Use short sequences (1-5 buttons) and verify screen state.
 - **Prerequisite Check:** Always verify required items (like EXPN Card) in Game State before attempting puzzles. If a repetitive action fails 5-10 times, audit the root assumption: "Is this even possible right now?"
 - **Agent Usage:** Use specialized agents like `quest_strategist_v2` if progress stalls for 20+ turns.
 
@@ -32,20 +32,22 @@
 ## Snorlax Quest Phase
 - **Goal:** Wake Snorlax at Vermilion City / Route 11 junction.
 - **Start Turn:** 40317.
-- **Status:** Power restored (Magnet Train operational), but EXPN Card is missing. (Turn 40471).
-
-## EXPN Card Sub-Quest
-- **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
-- **Start Turn:** 40441.
-- **Status:** In Pokegear Radio menu at (9, 2). Needle is at far right (~20.0). "TUNING" is visible, but "POKE FLUTE" is not. EXPN Card is missing from Pokegear Cards list (MAP, RADIO, PHONE).
-- **Hypothesis 1:** The EXPN Card was not actually received, despite the Station Manager's dialogue.
-- **Hypothesis 2:** The Poke Flute station is not at the absolute max frequency (20.0) but slightly to the left.
-- **Plan:**
-  1. Tune slowly to the left (Down) and then back to the right (Up) while checking the text box in the screenshot/intermediate states for "POKE FLUTE".
-  2. If not found, exit Pokegear and talk to the Station Manager again.
-  3. If dialogue is the same, check the Poke Flute sign at (5, 0) for clues.
-  4. If still stuck, use `quest_strategist_v2` with updated context. (Turn 40500)
+- **Status:** Power restored (Magnet Train operational). EXPN Card missing from Game State.
+- **Sub-Quest Strategy:**
+  1. Talk to Station Manager (9, 1) and Receptionist (6, 6) in Radio Tower 1F.
+  2. Check Poke Flute sign at (5, 0).
+  3. Verify EXPN Card in Pokegear Cards.
+  4. Return to Snorlax.
 
 ## General Lessons & Error Log
-- **Missing Prerequisite:** Spent 120+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
+- **Missing Prerequisite:** Spent 180+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
+- **Overwatch Note:** Trust Game State over self-placed markers. (Turn 40501).
+- **Fly Map:** Cursor may require D-pad `press_buttons` if `press_menu_buttons_v2` fails. (Turn 40450).
+- **Insanity Loop:** Repeating menu sequences without verifying prerequisites is a failure of the scientific method.
+- **Time Blindness:** Always monitor turn count when progress stalls.
+- **Strategy for Avoiding "Insanity Loops":** If a repetitive action fails 5-10 times, stop and verify if a hidden requirement is missing. Audit the root assumption.
+- **Quest Strategist Note:** Agent `quest_strategist_v2` gave incorrect info about the Machine Part. Power is confirmed restored. (Turn 40501).
+- **Menu Cursor Memory:** The Start menu remembers the last position. Always verify start position. (Turn 40501).
+- **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
+- **Phone Calls:** NPCs can call and interrupt. Check screen state before proceeding. (Turn 40501).
