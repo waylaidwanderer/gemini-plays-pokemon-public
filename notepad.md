@@ -40,12 +40,12 @@
 - **NPC Info:**
     - Teacher (5,13): Dept Store has best selection.
     - Teacher (Game Corner): Girls play slots now.
-- **Gym Search:** Likely in the southern part of the city. Gap in southern wall at Row 26 (Cols 16-19) leads to hedges.
+- **Gym Search:** Likely in the southern part of the city. Path leads west behind hedges from (28,35).
 
 ## Strategy & Lessons Learned
 - **Celadon Pillars:** Column 12 (Rows 16-21) and Column 36 (Rows 22-26) are WALL tiles.
 - **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
-- **Hypothesis:** Gym is accessed via a western path or hidden cuttable tree.
+- **Hypothesis:** Gym is accessed via the path behind the southern hedges starting at (28,35).
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
