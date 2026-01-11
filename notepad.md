@@ -44,7 +44,7 @@
   - #1 Schoolboy Dudley (12, 10): DEFEATED.
   - #2 Lass Ellen (16, 11): DEFEATED.
   - #3 Schoolboy Joe (21, 8): DEFEATED.
-  - #4 Lass Laura (25, 6): In Progress (Gloom).
+  - #4 Lass Laura (25, 6): In Progress (Gloom, Pidgeotto).
   - #5 Youngster (ID 7) at (25, 4): Pending.
   - #6 Super Nerd (ID 9) at (31, 7): Pending.
   - Note: Lass (ID 8) at (28, 11) also present.
