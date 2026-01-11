@@ -8,17 +8,12 @@
 - **Location:** Indigo Plateau (ID: 16_2).
 - **Goal:** Win the battle.
 - **Opponent:** Rival Silver.
-- **State:** Executing Cross Chop on Magneton.
-- **Matchup:** Muscle (Machoke, Lv86) vs Magneton (Electric/Steel, Lv45).
-- **Muscle's Moves:**
-  1. Strength
-  2. Thunderpunch
-  3. Ice Punch
-  4. Cross Chop
+- **State:** Battling Feraligatr.
+- **Matchup:** Muscle (Machoke, Lv86) vs Feraligatr (Water).
 - **Strategy:**
-  - **Magneton:** `Cross Chop` (Slot 4) selected.
-  - **Next:** If Magneton faints, prepare for next Pokemon (Alakazam/Gengar/Feraligatr).
-  - **Plan:** Muscle sweeps Magneton. For Alakazam/Gengar, evaluate speed/special defense. Muscle is tanky but slow. Lugia is a safe switch.
+  - **Feraligatr:** Use `Thunderpunch` (Super Effective).
+  - **Remaining Team:** Alakazam, Gengar? (Already defeated Sneasel, Golbat, Magneton).
+  - **Plan:** Muscle sweeps with Thunderpunch.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
