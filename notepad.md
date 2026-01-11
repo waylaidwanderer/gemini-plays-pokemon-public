@@ -52,7 +52,7 @@
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
 - Start Turn: 40317 (2026-01-11 00:00:00).
 - Interaction tile: (36, 8) facing Left.
-- Status: Interaction failed again. Hypothesizing that the Radio must be playing on the overworld. Testing: Open Radio to 20.0, then press B to close Pokegear while the music is still playing, then interact. (Turn 40408). Also, party swap was successful: Calcifer is lead (Wait, Game State says Calcifer is leading, but I wanted XENON. I will swap XENON to lead during this attempt). Precise sequence: B (close) -> Start -> Up x2 (PKMN) -> A -> Down x2 (XENON) -> Select -> Up x2 (Calcifer) -> Select -> B -> Down x2 (GEAR) -> A -> Right x3 (RADIO) -> Up x20 (Tune to 20.0) -> B -> B -> Left -> A. (Turn 40408).
+- Status: Swap and Radio setup failed in Turn 40408. Precise analysis of intermediate states shows that the radio dial was moved off the Poke Flute channel by excessive 'Up' presses. Also, the party swap did not occur as the cursor was misaligned. New plan: Reset Start menu to POKEDEX (Up x8), select PKMN, swap XENON (slot 3) to lead, select GEAR, select RADIO, tune with 3 'Up' presses (verified from Turn 40408 State 27), close menu, and interact. (Turn 40409).
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
 - Swap Plan: Lead with XENON (Haunter).
 - Interaction: Face Left from (36, 8) and press A.
