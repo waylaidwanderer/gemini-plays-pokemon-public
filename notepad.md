@@ -21,5 +21,5 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 29 (Heading West to Cherrygrove).
-- **Next:** Cherrygrove -> Route 30 -> Violet -> Ecruteak.
+- **Location:** Cherrygrove City (Heading North to Route 30).
+- **Next:** Route 30 -> Violet -> Ecruteak.
