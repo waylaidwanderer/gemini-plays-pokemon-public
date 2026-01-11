@@ -16,7 +16,7 @@
 - PC / BOOKSHELF: Impassable.
 
 ## Battle Strategy & History
-- **Erika Strategy:** Lv 42-46 team. Uses Sunny Day + Solar Beam. Calcifer (Fire) swept.
+- **Erika Strategy:** Lv 42-46 team. Swept with Calcifer (Fire).
 - **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
 
 ## Economy & Shopping
@@ -32,9 +32,8 @@
     - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
 
 ## Celadon City Investigation
-- **Secret Wing Access:** Reached via back door at (16,3). Gap in Row 3 at (24,3) or (25,3).
+- **Secret Wing Access:** Reached via back door at (16,3).
 - **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
-- **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
 
 ## Kanto Secrets & NPC Schedules
