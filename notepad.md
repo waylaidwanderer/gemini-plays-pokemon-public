@@ -86,6 +86,7 @@
 - Celadon Mansion Secret Wing Exploration started: Turn 41569.
 - Celadon Mansion Back Door (16, 3) successfully reached and used.
 - Celadon Mansion West Wing: Connected via stairs (0,0) and (1,0) on all floors.
-- Celadon Mansion West Wing: Vertical path: 1F (3,0) -> 2F (0,0/1,0) -> 3F (0,0/1,0) -> Roof (2,5).
-- Celadon Mansion West Wing: Reached via back door at (16,3) in Celadon City.
-- Celadon Mansion Roof (West): Goal is the door at (2, 5).
+- Celadon Mansion West Wing: Vertical path: 1F (3,0) -> 2F (0,0/1,0) -> 3F (0,0/1,0) -> Roof (1,1).
+- Celadon Mansion West Wing: 3F (0,0) leads to Roof (1,1).
+- Celadon Mansion Roof (West): Door at (2, 5) is accessible from Row 6.
+- Celadon Mansion Roof: Row 7 (Cols 0-4) is a wall, separating the isolated wing from Row 8.
