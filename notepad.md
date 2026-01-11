@@ -40,9 +40,9 @@
 - **Current Status:** Iteration 60 Hunting.
 - **Current Iteration (60):**
   - Start Time: Turn 33834
-  - Location: Ecruteak -> Route 37
-  - Action: Map Reset.
-  - Note: Turning around to re-enter Route 37.
+  - Location: Route 37
+  - Action: Hunting (Grass Sweep).
+  - Note: Sweeping grass.
 
 # Reflection (Turn 33798)
 - **Hygiene:** Objectives synced. Old logs removed.
