@@ -38,7 +38,7 @@
 
 ## Celadon City & Gym Investigation
 - **Secret Wing Access:** Reached via back door at (16,3). Gap in Row 3 at (24,3) or (25,3).
-- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:15 PM).
+- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
 - **Trainer Roster:**
