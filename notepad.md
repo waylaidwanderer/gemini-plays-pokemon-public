@@ -22,14 +22,14 @@
 - Not very effective against: Fire, Grass, Poison, Flying, Bug, Dragon, Steel.
 
 ## Progress Tracking
-- **Badges Obtained (12/16):** 
+- **Badges Obtained (13/16):** 
     - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
-    - Kanto (4/8): Boulder, Cascade, Thunder, Marsh.
+    - Kanto (5/8): Boulder, Cascade, Thunder, Marsh, Rainbow.
 - **Gym Statues:** Located at (3, 15) and (6, 15).
-- **Current Target:** Erika (Celadon Gym).
+- **Current Target:** Explore Celadon City.
 
 ## Party Management
-- Calcifer (Lv 60 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
+- Calcifer (Lv 61 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
 - Gneiss (Lv 54 Graveler): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
 - Icarus (Lv 19 Pidgeotto): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
 - Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
@@ -42,16 +42,16 @@
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
 - **Trainer Roster:**
-    - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678. Victreebel (Lv 35), Vileplume (Lv 35).
-    - Picnicker Tanya (2,8): DEFEATED Turn 41683. Exeggutor (Lv 37).
-    - Lass Michelle (6,8): DEFEATED Turn 41693. Skiploom (Lv 32), Hoppip (Lv 33), Jumpluff (Lv 34).
-    - Beauty Julia (3,5): DEFEATED Turn 41705. Paras (Lv 32), Parasect (Lv 35), Exeggcute (Lv 32).
-    - Erika (5,3): IN PROGRESS. Tangela (Lv 42), Bellossom (Lv 46), and Jumpluff (Lv 41) defeated. Victreebel (Lv 46) is her final Pokemon. Goal: Rainbow Badge.
+    - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678.
+    - Picnicker Tanya (2,8): DEFEATED Turn 41683.
+    - Lass Michelle (6,8): DEFEATED Turn 41693.
+    - Beauty Julia (3,5): DEFEATED Turn 41705.
+    - Erika (5,3): DEFEATED Turn 41721. Received Rainbow Badge and TM19 (Giga Drain).
 
 ## Erika Battle Strategy
 - **Opponent Levels:** Erika's team peaks at Lv 46.
 - **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
-- **Preparation:** Calcifer (Lv 60) is overleveled and has a type advantage. Carry status heals for Sleep/Stun moves.
+- **Preparation:** Calcifer (Lv 61) is overleveled and has a type advantage.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
