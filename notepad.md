@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Menu Open. Entering Party.
+- **Status:** Selected Mistral. Selecting Fly.
 - **Current Iteration (66):**
   - Start Time: Turn 33916
   - Location: Cherrygrove City
-  - Action: Press A (Enter Pokemon Menu).
-  - Note: Cursor confirmed on POKEMON. Entering Party to select Mistral. Will pause at Map screen to verify destination.
+  - Action: Select Mistral (A) -> Select Fly (A).
+  - Note: Mistral knows Fly. Selecting it will open the Map. Next Turn: VERIFY CURSOR LOCATION before moving.
