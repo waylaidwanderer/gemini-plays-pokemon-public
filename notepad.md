@@ -14,11 +14,12 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- In Start Menu.
-- Opening Pokemon Party to select Mistral (Pidgey).
-- Goal: Fly to Goldenrod City.
-- Reason: Resupply Repels and access Magnet Train if needed.
+- Accidentally Flew to Mt. Silver (Silver Cave).
+- Current Location: Outside Mt. Silver Pokemon Center.
+- Immediate Goal: Fly to Goldenrod City (for real this time).
+- Reason: Buy Max Repels for Roamer Hunt.
 
 # Roaming Beasts Status
 - **Raikou & Entei:** Roaming Johto.
-- **Strategy:** Use Max/Super Repels + Level 39-ish Pokemon.
+- **Strategy:** Lead with Lv36 Gyarados + Max Repel.
+- **Needs:** Max Repels (Goldenrod Dept Store).
