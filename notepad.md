@@ -59,7 +59,7 @@
     - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail. No Evolution Stones.
     - 5F: Drugstore inventory:
         - Clerk 1: HP UP, PROTEIN, IRON, CARBOS, CALCIUM (all ¥9800).
-        - Clerk 2: X ACCURACY (¥950), GUARD SPEC. (¥700), DIRE HIT (¥650), X ATTACK (¥500). Checking more.
+        - Clerk 2: X ACCURACY (¥950), GUARD SPEC. (¥700), DIRE HIT (¥650), X ATTACK (¥500), X DEFEND (¥550), X SPEED (¥350), X SPECIAL (¥350).
     - No Evolution Stones found on 2F-5F.
 - **Long Term Shopping Plan:**
     - 5F (Drugstore): Finish checking Clerk 2.
