@@ -35,7 +35,6 @@
 ## Strategy: Mt. Moon
 - **Exploration:** Multiple floors. Use ladders and mark them.
 - **Cerulean Exit:** FOUND. Transition via Route 4 (Turn 41041).
-- **Repel Status:** Super Repel active (200 steps from Turn 41025).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
