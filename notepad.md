@@ -4,20 +4,24 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Ecruteak City.
-- **Action:** Opening Map Card (Pass 47). Retry.
-- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 42/Turn 34605). Next: Pass 52.
+- **Location:** Ecruteak City -> Route 37.
+- **Action:** Closing Map & Resuming Shuffle (Pass 47 -> 48).
+- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Next: Pass 52).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
-- **Sighting (Turn 34446):** Route 38 & Route 42.
-- **Map Check (Turn 34527):** Verified locations.
+- **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
 
 # Lessons Learned
-- **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees.
-- **NPCs:** Youngster at (6,6) blocks southern movement from row 5.
-- **System:** Major position desyncs at Turn 34477, 34487, 34489. Rely on visual confirmation.
-- **Reflection (Turn 34524):** Protocols reviewed. Strategy (Shuffle/Sweep) is sound and verified. Manual navigation preferred for granularity during hunt.
+- **Menu Nav:** Pokegear inputs are sensitive. Avoid rapid presses; confirm state before proceeding.
+- **Pathing:** Obstacles at (5,3) and (6,6) block movement.
+- **System:** Visual confirmation is key to detect desyncs.
+- **Reflection (Turn 34628):** 
+    - **Exec:** Deferred Gaven call handling (fixed). 
+    - **Hygiene:** Notepad organized. Map markers sufficient. 
+    - **Auto:** Tools working well. 
+    - **Goal:** Hunt is active. 
+    - **Error:** Menu nav needs precision. Found false constraint in assuming rapid inputs work safely.
