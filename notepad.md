@@ -12,10 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Transitioning Ecruteak <-> Route 37.
-- **Action:** Shuffling Roamers (Step 2/2: Return to Route).
-- **Strategy:** Repel Trick: Lv36 Lead + Max Repel blocks all wilds (Lv15) EXCEPT Roamers (Lv40).
-- **Loop:** Enter Rt 37 -> Zigzag 20 steps -> No encounter? -> Return to Ecruteak -> Repeat.
+- **Location:** Route 37 (North Grass).
+- **Action:** Sweeping grass for Roamers.
+- **Strategy:** Move in grass -> If no encounter/weak encounter -> Return to Ecruteak to shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
