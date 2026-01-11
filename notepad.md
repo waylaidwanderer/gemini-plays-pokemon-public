@@ -7,8 +7,8 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Travel to Saffron City Magnet Train.
-- **Status:** Traveling to Saffron -> Goldenrod.
+- **Immediate Task:** Fly to Ecruteak City to hunt Roamers.
+- **Status:** Arrived in Goldenrod. Exiting station.
 - **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
 
 # Store Inventories
