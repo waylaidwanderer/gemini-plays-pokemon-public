@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City (South Gate).
-- **Action:** Sweeping Bottom Patch (6x2) from (9, 4).
-- **Strategy:** Sweep Bottom -> Return to Ecruteak -> Shuffle.
+- **Action:** Sweep complete. No encounter. Returning to Ecruteak.
+- **Strategy:** Enter Ecruteak -> Shuffle -> Re-enter Rt 37 -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
