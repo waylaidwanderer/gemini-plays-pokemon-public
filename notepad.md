@@ -7,8 +7,8 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 48).
-- **Status:** Resetting map (Ecruteak -> Rt 37).
+- **Immediate Task:** Hunt Roamers on Route 37.
+- **Status:** Cycling Ecruteak <-> Route 37.
 - **Strategy:**
     1. Enter Route 37.
     2. Run in grass with Max Repel active.
@@ -36,13 +36,13 @@
 
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
-- **Stats:** 50 Iterations. 0 Encounters.
-- **Current Status:** Iteration 51 Hunting.
-- **Current Iteration (51):**
-  - Start Time: Turn 33777
-  - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Continuing grass sweep.
+- **Stats:** 51 Iterations. 0 Encounters.
+- **Current Status:** Iteration 52 Hunting.
+- **Current Iteration (52):**
+  - Start Time: Turn 33781
+  - Location: Ecruteak -> Route 37
+  - Action: Map Reset.
+  - Note: Resetting map.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
