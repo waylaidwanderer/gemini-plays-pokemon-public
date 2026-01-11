@@ -62,6 +62,7 @@
   1. SNEASEL (Lv41): DEFEATED.
   2. FERALIGATR (Lv45): DEFEATED.
   3. GOLBAT (Lv42): DEFEATED.
-  4. GENGAR (Lv43): Active.
-- Current Matchup: Calcifer (Lv58) vs Gengar.
-- Lesson: Verify leading Pokemon in Party data. GNEISS is still leading. (Turn 40931).
+  4. GENGAR (Lv43): Active (Red HP).
+- Current Matchup: Calcifer (Lv58, Confused) vs Gengar.
+- Strategy: Switching to GNEISS to clear confusion and finish with Earthquake.
+- Lesson: Verify active Pokemon via screen; "Leading" in Game State only shows Slot 1. (Turn 40933).
