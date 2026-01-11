@@ -11,7 +11,7 @@
 - **Opponent:** Vileplume (Incoming).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Vileplume:** Use `Ice Punch`.
+  - **Vileplume:** Use `Ice Punch` (Super Effective).
   - **Gengar:** **SWITCH TO LUGIA** (`Psychic`).
   - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
   - **Houndoom:** Muscle (`Cross Chop`).
