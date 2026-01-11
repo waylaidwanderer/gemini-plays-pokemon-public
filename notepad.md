@@ -62,7 +62,7 @@
 - **Long Term Shopping Plan:**
     - Find Evolution Stones (not in Dept Store).
 
-## Celadon City Investigation
+## Celadon City Investigation (Started Turn 41409, Jan 11 3:10 PM)
 - **Secret Wing Access:** Reached via back door at (16,3).
 - **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
 - **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
@@ -84,24 +84,12 @@
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - **Ledges:** Hop down south only.
-- **Celadon Pillars:** In Dept Store 1F, Col 12 and Col 36 block horizontal movement. Not a global rule.
-- **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Teacher (1, 7) on 5F:** Mentions using items on Pokemon makes them happy, but they hate certain items.
+- **Menu Navigation:** Use `press_menu_buttons_v3` for deep menus to avoid "mixed input" errors. (Added Turn 42037)
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
 
-## Strategy for Celadon Game Corner (Started Turn 41953)
-1. Mark entrance/exit warps. (Done)
-2. Explore the floor to reveal all unseen tiles. (Done Turn 41994)
-3. Talk to all NPCs. (Done)
-4. Check prize exchange prices (usually in an adjacent building or at a counter). (Next)
-5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
-6. Check for any Team Rocket activity:
-    - Inspect poster at (9, 0): "There's nothing!" (Done Turn 42006)
-    - Inspect poster at (15, 0): "There's nothing!" (Done Turn 42010)
-7. Inspect background objects for items:
-    - Soda Can at (6, 9): Empty. (Done Turn 41997)
-    - Lighter at (18, 8): Just text. (Done Turn 42002)
-8. Move to Prize Exchange building.
+## Celadon Game Corner Sweep (Turn 41953)
+- Posters/Background: No hidden switches. (Done Turn 42010)
+- Hidden Items: No response from Itemfinder in major areas. (Done Turn 42018)
 ## Celadon Game Corner Prize Exchange (Turn 42027)
 - Gentleman (0, 2): Wanted PORYGON, but was short by 100 coins.
 - TM Vendor (2, 1): TM32 (1500), TM29 (3500), TM15 (7500). (Done Turn 42029)
