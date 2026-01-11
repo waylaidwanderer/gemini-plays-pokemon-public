@@ -41,7 +41,7 @@
   - Start Time: Turn 33649
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Repel active. Moved Down to enter grass.
+  - Note: Repel active. Entered map, sweeping south grass.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
