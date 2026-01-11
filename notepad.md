@@ -49,6 +49,6 @@
   - #6 Lass Shannon (28, 11): DEFEATED.
   - #7 Super Nerd Pat (31, 7): DEFEATED (Not part of challenge).
   - Challenge: Beat 6 trainers - COMPLETED.
-  - Prize Giver: Cooltrainer M (37, 8). Received NUGGET.
-  - Battle: Cooltrainer M (ID 10) in progress.
+  - Prize Giver: Cooltrainer Kevin (37, 8). Received NUGGET.
+  - Battle: Cooltrainer Kevin (ID 10) in progress (Rhyhorn).
   - Misty: Likely beyond Cut Tree at (34, 6).
