@@ -42,7 +42,7 @@
   - Celadon (Erika): Next target.
 
 ## Celadon City Exploration Plan
-1. Talk to NPCs: (26, 11), (27, 11) [DONE], (17, 13) [IN PROGRESS].
+1. Talk to NPCs: (26, 11), (27, 11) [DONE], Wandering Youngster [IN PROGRESS].
 2. Explore Celadon Mansion (Entrance 16, 9).
 3. Locate and visit Department Store.
 4. Locate Game Corner.
