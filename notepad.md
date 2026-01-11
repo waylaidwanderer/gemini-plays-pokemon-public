@@ -14,7 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Entered Route 39 from Route 38.
-- Heading South to Olivine City.
-- Avoiding Moomoo Farm side trip for speed.
+- Arrived in Olivine City.
+- Heading South to Olivine Port to board S.S. Aqua.
+- Note: First trip should be available regardless of day (Sunday).
 - Reminder: Wade (Rt 31) has berries.
