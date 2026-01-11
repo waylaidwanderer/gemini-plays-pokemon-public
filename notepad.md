@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City (South).
-- **Action:** Closing Pokegear -> Return to Route 37 (Pass 23).
+- **Action:** Returning to Route 37 (Pass 23).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34494).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
