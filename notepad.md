@@ -64,13 +64,13 @@
     - Find Evolution Stones (still missing).
 
 ## Strategy for 6F Exploration (Turn 41905)
-1. Read Directory at (14, 0). (Done)
-2. Talk to Youngster (ID 2). (Done)
-3. Talk to Super Nerd (ID 1) at (9, 2). (Done)
-4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1). (Done)
-5. Explore western unseen area (x < 7). (Done)
-6. Search for Thirsty Girl. (Conclusion: Does not exist in this game - Turn 41936)
-7. Move to Celadon City.
+1. Read Directory.
+2. Talk to Youngster.
+3. Talk to Super Nerd.
+4. Buy Fresh Water and Soda Pop from Vending Machines.
+5. Explore western area.
+6. Search for Thirsty Girl (Conclusion: Not in Crystal).
+7. Exit to Celadon City.
     - Check Game Corner.
     - Re-examine Celadon Mansion back wing for missed rooms/items.
     - Visit Mansion Roof House at night (Pharmacist's tale).
