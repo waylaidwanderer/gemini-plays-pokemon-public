@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Pokecenter (Inside again).
-- Cause: Accidental re-entry while navigating menu.
-- Action: Exiting building (again) to Fly.
+- Location: Mt. Silver Outside (19_2).
+- Action: Opening Fly Map (Safe Sequence).
 - Goal: Goldenrod City.
+- Note: Using Up inputs to ensure Menu cursor resets to top.
