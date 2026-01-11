@@ -46,7 +46,7 @@
   - #3 Schoolboy Joe (21, 8): DEFEATED.
   - #4 Lass Laura (24, 6): DEFEATED.
   - #5 Camper Lloyd (25, 5): DEFEATED.
-  - #6 Lass Shannon (28, 11): In Progress (Paras, Parasect).
-  - #7 Super Nerd (ID 9) at (31, 7): Prize Giver?
+  - #6 Lass Shannon (28, 11): DEFEATED.
+  - Prize: Talk to Super Nerd (31, 7) to claim.
   - Challenge: Beat 6 trainers for a prize.
   - Prize: Fabulous prize from Dudley or Super Nerd?
