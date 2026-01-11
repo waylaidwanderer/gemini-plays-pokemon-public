@@ -48,3 +48,5 @@
 - **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
 - **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
+## Saffron City Interests
+- **Mr. Psychic:** Located at (27, 29). Expected to give TM29 Psychic.
