@@ -66,7 +66,7 @@
 ## Strategy for 6F Exploration (Turn 41905)
 1. Read Directory at (14, 0).
 2. Talk to Youngster (ID 2) at (14, 5).
-3. Talk to Super Nerd (ID 1) at (9, 2).
+3. Talk to Super Nerd (ID 1) at (9, 2). (Done Turn 41907)
 4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1).
 5. Explore western unseen area (x < 7).
 6. Find thirsty girl and trade drinks for TMs.
