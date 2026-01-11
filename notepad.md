@@ -42,7 +42,7 @@
   - Start Time: Turn 33839
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: In Pack, selecting Max Repel.
+  - Note: Used Max Repel (13 left). Resuming sweep.
 
 # Reflection (Turn 33798)
 - **Hygiene:** Objectives synced. Old logs removed.
