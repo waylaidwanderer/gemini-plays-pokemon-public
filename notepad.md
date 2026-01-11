@@ -9,10 +9,9 @@
 - **Goal:** Reach East Section North of Row 52 to find Ladder UP.
 - **Hypothesis:** `FLOOR_UP_WALL` tiles (Row 52) might be passable Northbound (or they are ledges).
 - **Plan:**
-  1. Navigate South from (1, 49) to (2, 56) to bypass West wall.
-  2. Cross East to (7, 56) -> North to (7, 54) -> East to (11, 53).
-  3. Test moving North into `FLOOR_UP_WALL` at (11, 52).
-  4. If successful, find Ladder to 3F.
+  1. Navigate to (11, 53) via South path.
+  2. Test moving North into `FLOOR_UP_WALL` at (11, 52).
+  3. If successful, find Ladder to 3F.
 
 ## Status
 - **Money:** ¥3294.
