@@ -42,7 +42,7 @@
   - Start Time: Turn 33839
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Resuming grass sweep after Gaven's call.
+  - Note: Sweeping grass on way back to Ecruteak.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
