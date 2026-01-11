@@ -24,7 +24,7 @@
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
 - **Location:** Roaming Johto (Random).
 - **Current Task:** Cycling Route 37 <-> Ecruteak City to force movement.
-- **Inventory:** 15 Max Repels left.
+- **Inventory:** 14 Max Repels left.
 
 # Tile Mechanics
 - **FLOOR:** Traversable.
@@ -44,7 +44,7 @@
   - Action: Hunting (Grass Sweep).
   - Note: Sweeping grass.
 
-# Reflection (Turn 33644)
-- **Hygiene:** Logs consolidated. Markers verified.
-- **Strategy:** Camping Route 37 is valid. High variance, patience required.
-- **Action:** Continue rapid iteration cycle.
+# Reflection (Turn 33798)
+- **Hygiene:** Objectives synced. Old logs removed.
+- **Strategy:** Camping Route 37. 50+ iterations with no luck, but statistically valid.
+- **Action:** Continue hunting. Persistence is key.
