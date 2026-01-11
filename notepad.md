@@ -16,6 +16,6 @@
 
 # Status Update
 - Location: Mt. Silver Outside (23, 20).
-- Action: Opening Fly Map via Mistral (Slot 4).
-- Goal: Fly to Goldenrod City.
-- Sequence: Start -> Pokemon -> Mistral -> Fly.
+- Action: Correcting Menu Navigation.
+- Sequence: Exit Pack -> Pokemon -> Mistral -> Fly.
+- Target: Goldenrod City.
