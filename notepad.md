@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Outside (19_2).
-- Action: Correcting menu error (Backing out of Pack).
-- Goal: Fly to Goldenrod City.
-- Tool: `pathfind` is ready.
+- Location: Mt. Silver Pokecenter (Inside again).
+- Cause: Accidental re-entry while navigating menu.
+- Action: Exiting building (again) to Fly.
+- Goal: Goldenrod City.
