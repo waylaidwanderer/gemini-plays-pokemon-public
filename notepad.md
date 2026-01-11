@@ -18,7 +18,7 @@
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 
 ## Party Management
-- **Calcifer (Lv 60):** Typhlosion. Flamethrower (Fire), ThunderPunch (Electric) for Water-types.
+- **Calcifer (Lv 60):** Typhlosion. Flamethrower (Fire), ThunderPunch (Electric).
 - **Kimchi (Lv 46):** Gloom. Grass/Poison. Petal Dance (Grass). (Currently FNT)
 - **Xenon (Lv 44):** Haunter. Ghost/Poison. Hypnosis (Psychic) + Dream Eater (Psychic).
 - **Lapis (Lv 12):** Poliwag. HM slave (Surf, Whirlpool, Waterfall).
