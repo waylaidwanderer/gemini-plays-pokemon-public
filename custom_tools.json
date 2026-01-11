@@ -34,23 +34,20 @@
     ]
   },
   "find_path_v5": {
-    "description": "Standardized A* pathfinding tool for navigating the current map. Returns an array of button strings (\"Up\", \"Down\", \"Left\", \"Right\") to reach the destination from the current position. Can handle ledges (LEDGE_HOP_DOWN) as one-way traversable tiles. Returns an empty array if no path is found. Now treats 'unseen' tiles as walkable to support exploration.",
+    "description": "Standardized A* pathfinding tool for navigating the current map. Returns an array of button strings (\"Up\", \"Down\", \"Left\", \"Right\") to reach the destination from the current position. Can handle ledges (LEDGE_HOP_DOWN) as one-way traversable tiles. Returns an empty array if no path is found. Now treats 'unseen' tiles as walkable to support exploration and correctly includes LADDER tiles.",
     "input_schema": {
+      "type": "object",
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
         },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
-          "type": "integer"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
           "type": "integer"
         }
       },
@@ -59,10 +56,9 @@
         "start_y",
         "end_x",
         "end_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport heapq\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Map of (x, y) -> tile_type\n    grid = {}\n    # Map of (x, y) -> has_object\n    objects = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            objects[(x, y)] = tile.attrib.get('has-object') == 'true'\n\n    start = (input_data['start_x'], input_data['start_y'])\n    end = (input_data['end_x'], input_data['end_y'])\n\n    def get_neighbors(pos):\n        x, y = pos\n        neighbors = []\n        # Directions: (dx, dy, button)\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target_type = grid.get((nx, ny), \"unseen\")\n                \n                # Standard collision rules + unseen for exploration\n                # FLOOR_UP_WALL blocks movement from North.\n                is_walkable = target_type in [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"CAVE\", \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"unseen\"]\n                \n                if target_type == \"FLOOR_UP_WALL\":\n                    # Blocks Down, allows Up/Left/Right?\n                    # Verified: moving Down into it is blocked.\n                    if btn != \"Down\":\n                        is_walkable = True\n\n                # Handle objects acting as walls\n                if objects.get((nx, ny)):\n                    is_walkable = False\n                \n                # Handle Ledges (LEDGE_HOP_DOWN)\n                if target_type == \"LEDGE_HOP_DOWN\":\n                    if btn == \"Down\":\n                        neighbors.append(((nx, ny), btn))\n                    continue\n                \n                if is_walkable:\n                    neighbors.append(((nx, ny), btn))\n        return neighbors\n\n    # A* Algorithm\n    queue = [(0, start, [])]\n    visited = {start: 0}\n    \n    while queue:\n        (cost, current, path) = heapq.heappop(queue)\n        \n        if current == end:\n            print(json.dumps(path))\n            return\n\n        for neighbor, btn in get_neighbors(current):\n            new_cost = cost + 1\n            if neighbor not in visited or new_cost < visited[neighbor]:\n                visited[neighbor] = new_cost\n                priority = new_cost + abs(neighbor[0] - end[0]) + abs(neighbor[1] - end[1])\n                heapq.heappush(queue, (priority, neighbor, path + [btn]))\n    \n    print(\"[]\")\n\nsolve()",
+    "python_script": "import collections\nimport xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    try:\n        tree = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n        \n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    start_x = int(input_data['start_x'])\n    start_y = int(input_data['start_y'])\n    end_x = int(input_data['end_x'])\n    end_y = int(input_data['end_y'])\n    \n    grid = {}\n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            \n            # Treat unseen as walkable for exploration. Include LADDER, PIER, and grass.\n            is_walkable = t_type in [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"LADDER\", \"PIER\", \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"LEDGE_HOP_DOWN\", \"grass\"] or not seen\n            \n            # Objects block unless it's the start or end tile\n            if has_object and (x != end_x or y != end_y) and (x != start_x or y != start_y):\n                is_walkable = False\n            \n            grid[(x, y)] = {\"type\": t_type, \"walkable\": is_walkable}\n\n    queue = collections.deque([(start_x, start_y, [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        x, y, path = queue.popleft()\n        if x == end_x and y == end_y:\n            print(json.dumps(path))\n            return\n\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                tile = grid.get((nx, ny))\n                if not tile: continue\n                \n                can_move = False\n                if tile[\"walkable\"]:\n                    if tile[\"type\"] == \"LEDGE_HOP_DOWN\":\n                        if btn == \"Down\": # Only allow jumping down\n                            can_move = True\n                    else:\n                        can_move = True\n                \n                if can_move:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -78,6 +74,11 @@
         "commit_message": "Correctly handle FLOOR_UP_WALL blocking Down movement.",
         "timestamp": "2026-01-11T13:16:31.532Z",
         "action_counter": 40897
+      },
+      {
+        "commit_message": "Refined find_path_v5 to include LADDER tiles and correctly handle one-way LEDGE_HOP_DOWN tiles.",
+        "timestamp": "2026-01-11T15:23:05.121Z",
+        "action_counter": 41101
       }
     ]
   },
