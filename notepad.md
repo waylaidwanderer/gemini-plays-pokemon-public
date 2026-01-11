@@ -24,7 +24,7 @@
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH/ROCK SMASH).
 
 ## Battle Strategies
-- **Brock (Pewter Gym):** DEFEATED. (Turn 40782).
+- **Brock (Pewter Gym):** DEFEATED.
 - **Misty (Cerulean Gym):** Target. Use Grass (Kimchi) or Electric moves.
 
 ## Quest Log & Battle History
@@ -39,10 +39,10 @@
   - Firebreather Otis (Route 3): DEFEATED. (Turn 40845).
 
 ## Strategy: Mt. Moon
-- **Objective:** Traverse Mt. Moon to reach Cerulean City.
+- **Start Turn:** 40843
 - **Preparation:** Ensure GNEISS (Graveler) has PP for Earthquake/Rollout. Check for items like Moon Stone.
 - **Navigation:** Mt. Moon often has multiple floors. Use ladders and mark them.
-- **Exploration:** Check "Potentially Reachable Unseen Tiles" near walls for hidden paths or items. (Turn 40843).
+- **Exploration:** Check "Potentially Reachable Unseen Tiles" near walls for hidden paths or items.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
@@ -51,10 +51,7 @@
 
 ## Strategy: Finding Misty
 - **Start Turn:** 40635
-- **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-- **Current Status:** Heading East on Route 3.
 - **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!".
-- **Route 3:** Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), X=24 (Y=1-7), X=32 (Y=8-15), X=35 (Y=8-15), and X=40 (Y=5-13). Rows 0, 3, 4, and 14 are clear at these X-coordinates. (Turn 40847).
-- Route 3: Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), X=24 (Y=1-7), X=32 (Y=8-15), X=35 (Y=8-15), X=40 (Y=5-13), and X=54 (Y=8-15). Rows 0, 3, 4, 14, and 16 are clear at these X-coordinates. (Turn 40889).
+- **Route 3 Navigation:** Vertical walls block at X=13, 19, 24, 32, 35, 40, and 54. Rows 0, 3, 4, 14, and 16/17 are clear for bypass. (Turn 40889).
 - **Repel Status:** Super Repel active (200 steps from Turn 40885).
