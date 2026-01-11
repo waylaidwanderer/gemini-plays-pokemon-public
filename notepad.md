@@ -47,6 +47,9 @@
   - Sign at (17, 7): "MT. MOON SQUARE - DON'T LITTER".
   - Gift Shop at (13, 7): Gramps (4, 3) sells: Poke Doll (1000), Fresh Water (200), Soda Pop (300), Lemonade (350), Repel (350), Portraitmail (50).
 - **Healing Task:** Started Turn 40974. GNEISS healed with Lemonade (Turn 40981).
+- **Route 4:**
+  - Picnicker Hope (9, 8): DEFEATED (Turn 41019). Calcifer reached Lv59.
+  - Path: Heading East to Cerulean City.
 
 ## Strategy: Mt. Moon Square Exploration
 - **Isolated Sections:**
