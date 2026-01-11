@@ -19,7 +19,7 @@
 - CAVE: Warp tile.
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - WARP_CARPET: Warp at map edges.
-- BIG_SNORLAX: Impassable object. Interact from (36, 8) facing Left.
+- BIG_SNORLAX: Impassable object. Interact from (34, 10) facing Up or (36, 8) facing Left.
 
 ## Menu Mechanics
 - **Start Menu Order:** 1. POKEDEX, 2. POKEMON, 3. PACK, 4. POKEGEAR, 5. GEM, 6. SAVE, 7. OPTION, 8. EXIT.
