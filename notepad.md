@@ -8,7 +8,7 @@
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Fly to Ecruteak City to hunt Roamers.
-- **Status:** Fly Map Open (Violet City -> Ecruteak).
+- **Status:** Fly Map Open (Violet -> Cherrygrove -> Goldenrod -> Ecruteak?).
 - **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
 
 # Store Inventories
