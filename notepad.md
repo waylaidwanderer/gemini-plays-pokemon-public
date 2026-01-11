@@ -63,3 +63,5 @@
 - Celadon Mansion 3F: Gym Guide at (3, 4) and Cooltrainer M at (3, 6) present.
 - Celadon Mansion 3F: Drawing at (4, 3) to be investigated.
 - Celadon Mansion 3F: Bookshelf at (2, 3) to be investigated.
+- Celadon Mansion 3F: Super Nerd at (0, 7) and Fisher at (0, 4) present.
+- Celadon Mansion 3F: Game Program at (1, 6), Reference Material at (1, 3), and Dev Room Sign at (5, 8) to be investigated.
