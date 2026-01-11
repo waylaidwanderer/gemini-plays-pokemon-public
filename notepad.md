@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Navigating Menu -> Opening Pack.
-- **Strategy:** Select 'PACK' -> Find Max Repel -> Use -> Resume Sweep.
+- **Action:** Sweeping grass (Pass 1).
+- **Strategy:** Resume Zigzag -> Check for Roamer (Lv40).
 - **Loop:** 10-step sweep. If nothing, return to Ecruteak.
 
 # Roamer Hunt Log
