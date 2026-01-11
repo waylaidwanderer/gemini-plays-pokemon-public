@@ -12,9 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 -> Ecruteak City.
-- **Action:** Sweeping North -> Exiting to Shuffle.
-- **Strategy:** Zigzag through grass to gate.
+- **Location:** Ecruteak City -> Route 37.
+- **Action:** Shuffling Roamers.
+- **Strategy:** Enter Ecruteak -> Return South -> Sweep Grass.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Technical Notes
