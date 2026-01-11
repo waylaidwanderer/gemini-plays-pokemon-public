@@ -54,3 +54,6 @@
   - Section B (Central Box): Reached by jumping down ledge at (13, 11).
   - Section C (Cave Exit): Reached by moving to (22, 11) from Section B.
 - **Findings:** The Square central area (B/C) is a dead end for exiting the mountain. Returning to main cave to find the Cerulean exit.
+- **Battle: Picnicker Hope (Route 4):** 
+  - Opponent: Flaaffy (Lv34).
+  - Strategy: Calcifer (Lv58) use Flame Wheel. (Turn 41018).
