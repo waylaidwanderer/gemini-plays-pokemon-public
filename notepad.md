@@ -7,18 +7,21 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau.
 - **Goal:** Defeat all 5 trainers.
-- **Status:** Just defeated Rival Silver. Preparing to enter.
-- **Team Condition:** Mostly healthy, but need to restore PP and buy items.
-- **Inventory:** 7 Lemonades, 2 Revives. Need more healing items.
+- **Status:** Team healed. Preparing to shop.
+- **Team Condition:** Fully healed.
+- **Inventory:** 7 Lemonades, 2 Revives. Money: ¥10294.
+- **Shopping List:**
+  - Hyper Potions (Need ~6-8). Cost: 1200 each.
+  - Revives (Need ~2-3 more). Cost: 1500 each.
+  - Full Heals (Need ~3-4). Cost: 600 each.
 - **Strategy:**
-  1. Heal at Nurse Joy.
-  2. Buy supplies (Hyper Potions/Full Restores) at the Mart.
-  3. Enter the Elite Four.
-  4. **Will (Psychic):** Use Muscle (Ice/Thunderpunch) or Gyarados (Bite).
-  5. **Koga (Poison):** Use Lugia (Psychic/Gust) or Muscle (Earthquake? No EQ). Muscle's Psychic moves? No. Just strong hits.
-  6. **Bruno (Fighting):** Lugia (Flying/Psychic) destroys him.
-  7. **Karen (Dark):** Muscle (Fighting) destroys her.
-  8. **Lance (Dragon):** Muscle (Ice Punch), Gyarados (Ice moves? No), Lugia (Hydro Pump/Ice Beam? No). Muscle is key for Dragonites.
+  1. Buy supplies at Mart.
+  2. Enter Elite Four.
+  3. **Will (Psychic):** Muscle (Ice/Thunderpunch), Gyarados (Bite).
+  4. **Koga (Poison):** Lugia (Psychic/Gust), Muscle.
+  5. **Bruno (Fighting):** Lugia (Flying/Psychic).
+  6. **Karen (Dark):** Muscle (Fighting).
+  7. **Lance (Dragon):** Muscle (Ice Punch), Lugia, Gyarados.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
