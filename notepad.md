@@ -30,13 +30,19 @@
 ## TMs & HMs Obtained
 - HM01-07, TM07, TM24, TM28, TM33, TM37, TM44, TM47
 
-## Saffron Gym Challenge
+## Magnet Train
+- Service: Saffron City <-> Goldenrod City.
+- Status: Active (Power restored Turn 39771).
+- Requirement: PASS (Obtained from Copycat).
+
+## Saffron Gym Challenge (Completed)
 - **Start Turn:** 39791
 - **Status:** Marsh Badge obtained (Turn 39878).
-- **Warp Maze Logic:** Rooms are arranged in a grid. Corner warp panels lead to adjacent rooms. Taking the bottom-left panel in each room eventually leads to the center (Sabrina's room).
+- **Shortest Path (In):** BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
+- **Shortest Path (Out):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
 ## Lessons Learned
-- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times. Fixed sequences for menu navigation are unreliable without a reset.
+- **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
 - **Battle Accuracy:** Accuracy drops (like Sand-Attack) are severe; switching out is usually better than staying in with a high-level lead.
 - **Gym Navigation:** BFS or systematic corner-testing is the most reliable way to solve warp mazes.
 - **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
