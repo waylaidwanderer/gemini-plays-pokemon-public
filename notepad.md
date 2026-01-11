@@ -9,9 +9,15 @@
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Roamer Hunt.
 - **Status:** Cycling Route 37 <-> Ecruteak.
-- **Action:** Executing `roamer_hunt_cycle`.
-- **Next Step:** Watch for Roamers or Repel expiry.
+- **Action:** Exiting menu. Last Super Repel active.
+- **Next Step:** Watch for Roamers.
 - **Stats:** 0 Encounters so far (Updated Turn 32719).
+
+## Resource Crisis (Turn 32740)
+- **Repels:** 0 remaining in bag (Current one active).
+- **Money:** ¥222 (Broke).
+- **Implication:** Cannot buy more Repels.
+- **Plan:** Continue hunt until current Repel fades. Then assess options (Hunt without Repel vs Farm Money).
 
 ## Reflection (Turn 32708)
 - **Execution:** Flawless execution of hunt loop. Repel management handled correctly.
