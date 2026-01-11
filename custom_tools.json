@@ -30,20 +30,29 @@
     ]
   },
   "find_path_v4": {
-    "description": "Finds a path between two coordinates on the current map using the Mental Map XML. Returns a JSON array of coordinates for navigate.",
+    "description": "Finds a path between two coordinates on the current map using the Mental Map XML. Now supports optional Surfing traversal. Returns a JSON array of coordinates for navigate.",
     "input_schema": {
-      "type": "object",
       "properties": {
-        "start_x": {
-          "type": "integer"
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically.",
+          "type": "boolean"
         },
-        "start_y": {
-          "type": "integer"
+        "can_surf": {
+          "default": false,
+          "description": "If true, the pathfinder will consider WATER tiles as traversable.",
+          "type": "boolean"
         },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
           "type": "integer"
         }
       },
@@ -51,10 +60,12 @@
         "start_x",
         "start_y",
         "end_x",
-        "end_y"
-      ]
+        "end_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return None\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            is_warp = tile.attrib.get('is-warp', 'false') == 'true'\n            seen = tile.attrib.get('seen', 'false') == 'true'\n            \n            walkable = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'STAIRCASE', 'WARP', 'WARP_PANEL']\n            \n            if not seen:\n                grid[(x, y)] = True\n            elif t_type in walkable and not has_obj:\n                grid[(x, y)] = True\n            elif is_warp:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue: \n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            return path + [{'x': curr_x, 'y': curr_y}]\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                if grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [{'x': curr_x, 'y': curr_y}]))\n    return None\n\nsx = int(input_data['start_x'])\nsy = int(input_data['start_y'])\nex = int(input_data['end_x'])\ney = int(input_data['end_y'])\nresult = find_path(sx, sy, ex, ey, map_xml_string)\nprint(json.dumps(result))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml, can_surf=False):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return None\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            is_warp = tile.attrib.get('is-warp', 'false') == 'true'\n            seen = tile.attrib.get('seen', 'false') == 'true'\n            \n            walkable = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'STAIRCASE', 'WARP', 'WARP_PANEL']\n            if can_surf:\n                walkable.append('WATER')\n            \n            if not seen:\n                grid[(x, y)] = True\n            elif t_type in walkable and not has_obj:\n                grid[(x, y)] = True\n            elif is_warp:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue: \n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            return path + [{'x': curr_x, 'y': curr_y}]\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                if grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [{'x': curr_x, 'y': curr_y}]))\n    return None\n\nsx = int(input_data['start_x'])\nsy = int(input_data['start_y'])\nex = int(input_data['end_x'])\ney = int(input_data['end_y'])\ncs = input_data.get('can_surf', False)\nresult = find_path(sx, sy, ex, ey, map_xml_string, cs)\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -75,6 +86,11 @@
         "commit_message": "Reverting find_path_v4 to return coordinates for use with navigate, and fixing unhashable type error.",
         "timestamp": "2026-01-11T00:29:41.363Z",
         "action_counter": 39906
+      },
+      {
+        "commit_message": "Add can_surf parameter to find_path_v4 to allow pathfinding across water tiles.",
+        "timestamp": "2026-01-11T01:46:01.135Z",
+        "action_counter": 39963
       }
     ]
   }
