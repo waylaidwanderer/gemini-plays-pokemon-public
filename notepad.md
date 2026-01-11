@@ -8,9 +8,9 @@
 - **Target:** Raikou & Entei.
 - **Method:** Route 37 Loop (Blind Hunt).
 - **Current Task:** Roamer Hunt.
-- **Status:** Confirming Super Repel Usage.
-- **Action:** Pressing A to USE.
-- **Next Step:** Dismiss text -> Close Menu -> roamer_hunt_cycle.
+- **Status:** Menu Exited.
+- **Action:** Running `roamer_hunt_cycle`.
+- **Next Step:** execute tool -> check for encounters.
 - **Stats:** 0 Encounters so far.
 
 ## Reflection (Turn 32603)
