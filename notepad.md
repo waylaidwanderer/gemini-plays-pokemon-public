@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Sweeping Grass (Pass 26).
+- **Action:** Re-applying Max Repel (Pass 26).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 22/Turn 34494). Next: Pass 27.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
