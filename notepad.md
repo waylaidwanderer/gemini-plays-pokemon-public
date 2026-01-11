@@ -47,5 +47,5 @@
 - **Route 25 Trainers:**
   - #1 Schoolboy Dudley (12, 10): DEFEATED.
   - #2 Lass Ellen (16, 11): DEFEATED.
-  - #3 Schoolboy Joe (21, 8): In Progress (Tangela, Vaporeon).
+  - #3 Schoolboy Joe (21, 8): DEFEATED.
   - Challenge: Beat 6 trainers for a prize.
