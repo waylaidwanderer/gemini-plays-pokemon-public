@@ -42,7 +42,7 @@
   - Start Time: Turn 33869
   - Location: Cherrygrove City -> Ecruteak City
   - Action: Fly.
-  - Note: Flying to Ecruteak City to start North Rapid Resets.
+  - Note: Selecting Ecruteak City on map and flying.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
