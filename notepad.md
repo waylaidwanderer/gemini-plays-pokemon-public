@@ -12,9 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (Mid-Sweep).
-- **Next:** Finish sweep -> Return to Ecruteak.
-- **Note:** Checking top/mid rows.
+- **Location:** Route 37 (Finishing Top Patch).
+- **Next:** If no encounter -> Return to Ecruteak.
+- **Note:** Resuming sweep after phone call.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
