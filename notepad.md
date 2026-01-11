@@ -42,11 +42,3 @@
 ## Strategy: Finding Misty
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-
-## Pewter City Obstacles & Pathing
-- **Gym Building:** (12, 14) to (17, 17) is a solid block. Door at (16, 17). (14, 14) is WALL.
-- **Fence at y=21:** Solid from x=3 to x=18. Gaps at x=2 and x=19.
-- **Wall at x=3:** Solid from y=18 to y=32. Gap at y=33.
-- **Wall at x=18:** Solid from y=18 to y=21. Gaps at y=17 and y=22.
-- **Pokémon Center:** Occupies x=12-15, y=21-25.
-- **Confirmed Path to Gym Door:** From north, go west to x=10, south to y=18, then east to (16, 18).
