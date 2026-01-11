@@ -69,3 +69,4 @@
   - Picnicker Hope (9, 8): DEFEATED (Turn 41020).
   - Bird Keeper Hank (17, 9): DEFEATED (Turn 41036).
   - Path: Heading East along Row 10 to Cerulean City. (Turn 41036).
+- **Route 4 Navigation:** Vertical wall at X=24 from Row 9 to 14. Clear path exists at Row 8. (Turn 41038).
