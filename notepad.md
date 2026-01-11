@@ -8,7 +8,7 @@
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Fly to Ecruteak City to hunt Roamers.
-- **Status:** Arrived in Goldenrod. Exiting station.
+- **Status:** Flying to Ecruteak (Menu Open).
 - **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
 
 # Store Inventories

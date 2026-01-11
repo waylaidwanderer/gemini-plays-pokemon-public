@@ -45,7 +45,7 @@
         "buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps(buttons))",
+    "python_script": "try:\n    print(f\"Buttons arg: {buttons}\")\n    import json\n    print(json.dumps(buttons))\nexcept NameError:\n    print(\"buttons variable not found.\")\n    print(f\"Locals: {locals().keys()}\")\n    print(f\"Globals: {globals().keys()}\")",
     "history": [
       {
         "commit_message": "Initial version",
@@ -56,6 +56,11 @@
         "commit_message": "Initial definition of sequence_press tool",
         "timestamp": "2026-01-11T10:39:20.952Z",
         "action_counter": 33514
+      },
+      {
+        "commit_message": "Debugging tool to find variable injection method",
+        "timestamp": "2026-01-11T10:41:14.927Z",
+        "action_counter": 33517
       }
     ]
   },
