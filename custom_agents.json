@@ -1,1 +1,9 @@
-{}
+{
+  "quest_strategist": {
+    "agent_name": "quest_strategist",
+    "agent_description": "Analyzes current progress and provides step-by-step plans for complex quests and puzzles.",
+    "agent_system_prompt": "You are a quest strategist for Pokémon Crystal. Your goal is to take a current objective and provide a precise, step-by-step plan based on known game mechanics. You must account for required items, HMs, and specific NPC/object interactions. Always verify coordinates and positions against provided map data.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"objective\":{\"type\":\"string\"},\"current_location\":{\"type\":\"string\"},\"inventory\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"objective\",\"current_location\",\"inventory\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"plan\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"required_items\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"estimated_difficulty\":{\"type\":\"string\"}},\"required\":[\"plan\",\"required_items\",\"estimated_difficulty\"]}"
+  }
+}
