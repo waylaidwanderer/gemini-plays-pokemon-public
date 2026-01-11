@@ -131,10 +131,6 @@
     "description": "Presses a sequence of buttons for menu navigation. Returns the sequence.",
     "input_schema": {
       "properties": {
-        "autopress_buttons": {
-          "default": false,
-          "type": "boolean"
-        },
         "buttons": {
           "items": {
             "type": "string"
@@ -147,12 +143,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "python_script": "import json\n\ndef solve():\n    buttons = input_data.get('buttons', [])\n    print(json.dumps(buttons))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-11T12:40:56.987Z",
         "action_counter": 40831
+      },
+      {
+        "commit_message": "Initial definition of press_menu_buttons_v3 for menu navigation with sleep support.",
+        "timestamp": "2026-01-11T21:46:51.136Z",
+        "action_counter": 41731
       }
     ]
   },

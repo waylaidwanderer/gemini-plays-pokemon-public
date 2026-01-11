@@ -18,7 +18,7 @@
 - **Badges Obtained (13/16):** 
     - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
     - Kanto (5/8): Boulder, Cascade, Thunder, Marsh, Rainbow.
-- **Celadon Gym (Erika):** DEFEATED Turn 41721. Received Rainbow Badge and TM19 (Giga Drain).
+- **Celadon Gym (Erika):** DEFEATED. Received Rainbow Badge and TM19 (Giga Drain).
 - **Current Target:** Explore Celadon City (Dept Store, Game Corner).
 
 ## Party Management
@@ -37,7 +37,18 @@
 
 ## History & Battle Data
 - **Erika Strategy (Defeated):** Lv 42-46 team. Uses Sunny Day + Solar Beam. Calcifer (Fire) swept.
-- **Gym Trainers:** Jo & Zoe, Tanya, Michelle, Julia all defeated.
+- **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
+
+## Kanto Secrets & NPC Schedules
+- **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM.
+
+## Department Store Shopping Plan
+- **Goal:** Buy useful TMs and items.
+- **2F:** TMs (Hidden Power, etc.).
+- **3F:** TMs (Hyper Beam, etc.).
+- **4F:** Evolution Stones (Fire, Water, Leaf, Thunder).
+- **5F:** Stat boosters (Protein, Iron, etc.).
+- **Rooftop:** Vending machines (Fresh Water, Soda Pop, Lemonade).
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the NPC then press A. Link markers to Object IDs.
