@@ -38,7 +38,8 @@
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3). Gap in Row 3 at (24,3) or (25,3).
-- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
+- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:12 PM).
+- **Picnicker Tanya:** Currently battling. Exeggutor (Lv 37) out.
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **NPC Info:**
     - Teacher (5,13): Dept Store has best selection.
