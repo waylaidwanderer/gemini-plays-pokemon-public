@@ -17,6 +17,7 @@
 ## Time Tracking
 - Celadon City Exploration started: Turn 41410
 - Celadon Mansion Exploration started: Turn 41442
+- Secret Wing Exploration started: Turn 41569
 
 ## Progress Tracking
 - **Find Misty Quest:** Completed Turn 41238.
@@ -26,11 +27,11 @@
 
 ## Party Management
 - Calcifer (Lv 60 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
-- Kimchi (Lv 46 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
-- Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
 - Gneiss (Lv 54 Graveler): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
 - Icarus (Lv 19 Pidgeotto): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
+- Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
+- Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
+- KIMCHI (Lv 46 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
 ## Quest Log & Battle History
 - **Kanto Gyms:** Pewter (Brock), Cerulean (Misty), Vermilion (Lt. Surge), Saffron (Sabrina): DEFEATED.
@@ -38,58 +39,23 @@
 
 ## Celadon City Exploration Plan
 1. Talk to NPCs in city [DONE].
-2. Explore Celadon Mansion 1F [DONE].
-   - Granny (1, 5), Clefairy (3, 4), Nidoran (4, 4), Meowth (2, 6): [DONE].
-3. Explore Mansion 2F-3F [IN PROGRESS].
-4. Locate Department Store, Game Corner.
-5. Defeat Erika.
+2. Explore Celadon Mansion [IN PROGRESS].
+3. Locate Department Store, Game Corner.
+4. Defeat Erika.
 
-## Area Secrets
-- Celadon Mansion has a hidden back door (hint from Youngster). Check perimeter of the city/mansion outside.
-
-## Celadon Mansion Notes
-- 2F: Game Freak Meeting Room sign at (5, 8) read.
-- 2F: Isolated western wing (Rows 0-2) contains stairs (0,0), (1,0). Unreachable from main area.
-- 3F: Reached via stairs at (6, 0).
-- 3F: Isolated western wing contains stairs (0,0), (1,0). Unreachable from main area.
-- Roof: Right side reached from 3F (7,0). Left side (with door at 2,5) is isolated.
-- Roof: Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
-- Roof: Row 8 is a corridor, but Row 7 is a solid wall on the left, preventing access to the door at (2,5) from Row 8.
-- Hypothesis: The 'back door' is the only way into the western wing.
-
-## Celadon Mansion 3F Investigation
-- 3F: Graphic Artist (Graphic Artist) at (3, 4) says he drew the player.
-- 3F: Cooltrainer M (Game Designer) at (3, 6) says filling the Pokedex is tough.
-- 3F: Fisher at (0, 4) talks about twins and Jasmine.
-- 3F: Super Nerd (Programmer) at (0, 7) says play the slot machines.
-- 3F: Investigated: Game Program (1, 6) (mentions messing with it could cause bugs).
-- 3F: Investigated: Reference Material (1, 3) (mentions a Poké Doll).
-- 3F: Investigated: Bookshelf (2, 3) (contains Pokémon magazines).
-- 3F: Investigated: Dev Room Sign (5, 8) (labeled 'GAME FREAK DEVELOPMENT ROOM').
-- 3F: All reachable objects and NPCs investigated. Moving to find hidden back door.
+## Celadon Mansion Investigation
+- **Secret Wing Access:** Reached via back door at (16,3) in Celadon City. Passage behind mansion uses gaps in Row 3 at (24,3) or (25,3).
+- **Vertical Path (Secret Wing):** 1F (3,0) -> 2F (0,0/1,0) -> 3F (0,0/1,0) -> Roof (1,1).
+- **1F:** Granny (1,5), Clefairy (3,4), Nidoran (4,4), Meowth (2,6).
+- **2F:** Meeting Room sign at (5,8). Bookshelf (2,3) has difficult books. Computer (0,3) has Kanto e-mail.
+- **3F:** Graphic Artist (3,4) drew the player. Game Designer (3,6) talks about Pokedex. Fisher (0,4) talks about twins/Jasmine. Programmer (0,7) says play slots.
+- **3F Details:** Game Program (1,6) (bug warning), Reference Material (1,3) (Poké Doll), Bookshelf (2,3) (magazines), Dev Room Sign (5,8).
+- **Roof (Main):** Right side reached from 3F (7,0). Fisher (7,4) loves heights. Graffiti (6,1) moustache prank. Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
+- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night. TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) to be checked.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
 - **Button Mixing:** Never mix directional and action buttons in overworld.
 - **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
-- Celadon Mansion Roof: Crossing points found at (5, 6), (5, 7), and (5, 8).
-- Celadon Mansion Roof: Isolated section (Cluster 0) is the top-left corner.
-- Celadon Mansion Roof: Door at (2, 5) leads to the isolated wing (likely).
-- Celadon Mansion Roof: Graffiti at (6, 1) says "GEM added a moustache!"
-- Celadon Mansion Roof: Fisher at (7, 4) loves high places.
-- Celadon Mansion Roof: Isolated wing unreachable from main roof. Back door search is mandatory.
-- Celadon City: Teacher at (5, 14) and Dept. Store Sign at (6, 9) found.
-- Celadon City: Mansion Back Door at (16, 3) and (17, 3) is accessible via gaps in the Row 3 wall at (24, 3) or (25, 3).
-- Celadon City: Row 2 is a traversable passage behind the mansion.
-- Celadon City: Entering the isolated wing through the back door.
-- Celadon Mansion Secret Wing Exploration started: Turn 41569.
-- Celadon Mansion Back Door (16, 3) successfully reached and used.
-- Celadon Mansion West Wing: Connected via stairs (0,0) and (1,0) on all floors.
-- Celadon Mansion West Wing: Vertical path: 1F (3,0) -> 2F (0,0/1,0) -> 3F (0,0/1,0) -> Roof (1,1).
-- Celadon Mansion West Wing: 3F (0,0) leads to Roof (1,1).
-- Celadon Mansion Roof (West): Door at (2, 5) is accessible from Row 6.
-- Celadon Mansion Roof: Row 7 (Cols 0-4) is a wall, separating the isolated wing from Row 8.
-- Celadon Mansion Roof House: Reached via roof door at (2, 5).
-- Celadon Mansion Roof House: Pharmacist (3, 2) tells a "terrifying tale" only at night (after sunset).
-- Celadon Mansion Roof House: TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) to be checked.
+- **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
