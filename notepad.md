@@ -57,13 +57,11 @@
     - 2F: Fully explored. Stocked up on healing items (Full Heal, Max Potion, Revive).
     - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
     - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail. No Evolution Stones.
-    - 5F: Drugstore inventory:
-        - Clerk 1: HP UP, PROTEIN, IRON, CARBOS, CALCIUM (all ¥9800).
-        - Clerk 2: X ACCURACY (¥950), GUARD SPEC. (¥700), DIRE HIT (¥650), X ATTACK (¥500), X DEFEND (¥550), X SPEED (¥350), X SPECIAL (¥350).
-    - No Evolution Stones found on 2F-5F.
+    - 5F: Fully explored. Drugstore inventory documented.
+    - 6F: Arrived Turn 41903. Vending machines located.
 - **Long Term Shopping Plan:**
-    - 5F (Drugstore): Finish checking Clerk 2.
-    - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
+    - 6F: Buy drinks from vending machines. Give to thirsty girl for TMs.
+    - Find Evolution Stones (still missing).
 
 ## Strategy for 5F Exploration (Turn 41867)
 1. Talk to Sailor at (2, 5): Mentions PP UP can't be bought. (Done)
