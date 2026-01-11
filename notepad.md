@@ -16,6 +16,6 @@
 
 # Status Update
 - Location: New Bark Town.
-- Action: Correcting Menu (In Pack -> Back to Pokemon).
-- Goal: Fly to Goldenrod City.
-- Sequence: B (Exit Pack) -> Up (Pokemon) -> Select Mistral -> Fly.
+- Action: Selecting Mistral -> Fly.
+- Goal: Goldenrod City.
+- Next Step: Navigate Fly Map (Left -> Left -> Down -> Up?).
