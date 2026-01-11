@@ -12,14 +12,14 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass (Pass 1 - Continued).
-- **Strategy:** Zigzag sweep (Rows 3-5).
-- **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
+- **Location:** Route 37 -> Ecruteak City.
+- **Action:** Exit Sweep (Returning to Ecruteak).
+- **Strategy:** Zigzag North through grass -> Exit to Ecruteak to shuffle.
+- **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34315.
+- **Current Turn:** 34317.
 - **Status:** Shuffled. Sweeping Route 37.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
