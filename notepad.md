@@ -95,3 +95,10 @@
 - TM Vendor (2, 1): TM32 (1500), TM29 (3500), TM15 (7500). (Done Turn 42029)
 - Pokemon Vendor (4, 1): PIKACHU (2222), PORYGON (5555), LARVITAR (8888). (Done Turn 42035)
 - Pharmacist (4, 3): "I can't lose my cool, or I'll lose all my money..." (Done Turn 42042)
+## Fly Map Order (Confirmed with 'Down')
+- Saffron -> Celadon
+- Celadon -> Lavender -> Vermilion
+- Vermilion -> Cerulean
+- Cerulean -> Pewter
+- Pewter -> Indigo Plateau
+- Indigo Plateau -> ? (Next: Pallet/Viridian?)
