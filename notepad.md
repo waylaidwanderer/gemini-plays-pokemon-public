@@ -63,7 +63,8 @@
   2. FERALIGATR (Lv45): DEFEATED.
   3. GOLBAT (Lv42): DEFEATED.
   4. GENGAR (Lv43): DEFEATED.
-  5. ALAKAZAM (Lv43): Active.
-- Current Matchup: GNEISS (Lv54) vs Alakazam.
-- Strategy: Use Earthquake (1 PP left) to finish Alakazam.
-- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40940).
+  5. ALAKAZAM (Lv43): DEFEATED.
+  6. MAGNETON (Lv41): Active.
+- Current Matchup: GNEISS (Lv54, 44 HP, 0 EQ PP) vs Magneton.
+- Strategy: Switch to Calcifer (Lv58) to use Flame Wheel (Super Effective).
+- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40941).
