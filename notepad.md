@@ -1,64 +1,49 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Tile Mechanics (Global)
+## Tile Mechanics (Vermilion City)
 - FLOOR: Traversable. Standard collision.
 - WALL: Impassable.
-- WATER: Traversable with HM Surf.
-- TALL_GRASS: Traversable, triggers wild encounters.
-- DOOR/WARP: Step on to enter buildings/areas.
-- LEDGE_HOP_DOWN: One-way traversal (North to South).
-- COUNTER: Impassable Wall. Interact from adjacent tile.
-- STAIRCASE: Warp tile that transitions between floors.
-- LADDER: Traversable.
-- BIG_SNORLAX: Impassable object. Interact from adjacent tile (36, 8) facing left. Note: Snorlax occupies (34, 8), (35, 8), (34, 9), (35, 9).
+- WATER: Traversable with Surf.
+- DOOR: Warp tile. Step on to enter.
+- CAVE: Warp tile (Diglett's Cave).
+- BIG_SNORLAX: Impassable object. Interact from (36, 8) facing Left.
+- CUT_TREE: Impassable until Cut is used.
 
 ## Core Principles & Strategy
 - **Immediate Execution:** Perform tasks the moment they are identified.
 - **Scientific Method:** Observe -> Hypothesize -> Test -> Conclude.
 - **Efficiency:** Running from wild battles is preferred unless training or catching.
-- **Reflection (Turn 40377):**
-    - Immediate Execution: Swapping Xenon to lead and setting up radio.
-    - Notepad Hygiene: Reorganized for better clarity.
-    - Map Hygiene: Snorlax and warps marked. Missing markers for Route 11 trainers and objects added.
-    - Automation: Tools used for pathing and menus.
-    - Goal Clarity: Objectives are outcome-focused.
-    - Error Analysis: Verified Poke Flute frequency (20.0) for Kanto.
+- **Menu Verification:** Use short button sequences (1-5 presses) and verify screen state. Long sequences (20+) are prone to failure due to menu memory.
 
 ## Menu Mechanics
 - **Start Menu Order (from top):**
-  0. POKEDEX
-  1. POKEMON
-  2. PACK
-  3. POKEGEAR (labeled as <gear icon> GEAR)
-  4. GEM (Player Name)
-  5. SAVE
-  6. OPTION
-  7. EXIT
-- **Pokegear:** 4 clicks down from POKEDEX in the Start menu (POKEDEX, PKMN, PACK, GEAR). Wait, looking at screen text, it's 3 clicks: POKEDEX -> POKEMON -> PACK -> GEAR.
-- **Radio:** Frequency 20.0 (Poke Flute) is at the very top of the dial in Kanto. Requires EXPN Card upgrade. Set once, stays until changed.
-- **Swap Sequence:** Start -> Reset to Top (Up x7) -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B -> B.
+  1. POKEDEX
+  2. POKEMON
+  3. PACK
+  4. POKEGEAR
+  5. GEM (Player Name)
+  6. SAVE
+  7. OPTION
+  8. EXIT
+- **Cursor Memory:** The Start menu and party menu remember the last cursor position.
+- **Pokegear Radio:** Frequency 20.0 (Poke Flute) is at the top of the dial in Kanto. Requires EXPN Card.
 
-## Party & PC Management
+## Party Management
 - **Lead Pokémon:** Calcifer (TYPHLOSION Lv58).
-- **HM Users:** KIMCHI (FLASH, CUT), GNEISS (STRENGTH), LAPIS (SURF, WHIRLPOOL, WATERFALL), ICARUS (FLY).
-- **Xenon (Haunter):** Lead for Snorlax (Normal immunity, Hypnosis).
-
-## Kanto Progression Tracking
-- **Magnet Train:** Operational.
-- **EXPN Card:** Obtained from Lavender Radio Tower (Turn 40164).
-- **Snorlax Roadblock:** Route 11 west end. Requires Poke Flute to wake. Interaction tile: (36, 8).
+- **XENON (Haunter):** Target lead for Snorlax (Normal immunity, Hypnosis).
 
 ## Snorlax Quest Phase
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
-- Start Turn: 40317 (2026-01-11 00:00:00).
+- Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
-- Status: Swap and Radio setup failed in Turn 40408. Precise analysis of intermediate states shows that the radio dial was moved off the Poke Flute channel by excessive 'Up' presses. Also, the party swap did not occur as the cursor was misaligned. New plan: Reset Start menu to POKEDEX (Up x8), select PKMN, swap XENON (slot 3) to lead, select GEAR, select RADIO, tune with 3 'Up' presses (verified from Turn 40408 State 27), close menu, and interact. (Turn 40409).
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Swap Plan: Lead with XENON (Haunter).
-- Interaction: Face Left from (36, 8) and press A.
+- Current Status: Dialogue "SNORLAX is snoring peacefully..." is open. Swap and Radio setup pending.
+- Step 1: Close dialogue, open Start menu, select POKEMON.
+- Step 2: Swap XENON to lead.
+- Step 3: Exit POKEMON, select POKEGEAR, tune Radio to 20.0.
+- Step 4: Close Pokegear and interact with Snorlax.
 
 ## General Lessons & Error Log
-- **Dialogue Boxes:** Close dialogue boxes before attempting movement.
-- **Menu Depth:** Verify cursor position and menu level before executing button sequences.
-- **Select Button:** Pressing Select in menus can register items/PKMN; clear with 'B' if 'registered for use' message appears.
+- **Dialogue Boxes:** Close dialogue boxes before attempting movement or menuing.
 - **Start Menu Wrap:** The menu wraps around (Up from POKEDEX -> EXIT).
+- **Select Button:** In party menu, use Select to swap positions. In overworld, Select can use a registered item.
