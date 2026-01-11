@@ -82,3 +82,5 @@
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
+## Task Timestamps
+- Snorlax Wake-up Attempt: Started Turn 40317 (Saturday, Jan 10, 2026, 11:45 PM).
