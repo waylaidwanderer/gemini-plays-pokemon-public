@@ -36,16 +36,16 @@
 - **Root Hypothesis:** The Machine Part is a hidden item on a WATER tile in the inner pool: (3,8), (3,9), (4,8), (4,9).
 - **Secondary Hypothesis:** Itemfinder in Crystal pings within 4 tiles but says "Nope!" if standing directly on the hidden item.
 - **Search Log:**
-    - (3, 8): Itemfinder "Nope!" (Turn 39976). Interaction (facing left from 4,8) pending.
+    - (3, 8): Interaction failed (Turn 40013, 40015). Itemfinder "Nope!" (Turn 39976).
+    - (4, 8): Interaction failed (Turn 40019). Itemfinder "Nope!" (Turn 40008).
     - (4, 7): Itemfinder "Ping" (Turn 39988).
     - (4, 6): Itemfinder "Nope!" (Turn 40006).
-    - (4, 8): Itemfinder "Nope!" (Turn 40008). Interaction (facing up from 4,9) failed? (Turn 40019).
-    - (3, 9): Itemfinder untested.
-    - (4, 9): Itemfinder untested.
-- **Plan:**
-    1. Face Left from (4, 8) and press A to check (3, 8).
-    2. Move to (3, 9) and check (3, 8) and (4, 9).
-    3. Move to (4, 9) and check (4, 8) and (3, 9).
+    - (3, 9): Interaction failed (Turn 40017).
+    - (4, 9): Interaction failed (Turn 40018).
+- **Plan (Turn 40021):**
+    1. Mark (3, 8), (4, 8), (3, 9), (4, 9) as empty.
+    2. Move to the northern pool area (y=5, y=6) and search systematically.
+    3. Re-evaluate "center of the gym" - could it mean the center of the *entire* map, or the center of the *northern* pool?
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
