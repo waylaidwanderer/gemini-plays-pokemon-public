@@ -41,8 +41,8 @@
 - **Current Iteration (36):**
   - Start Time: Turn 33708
   - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Repel active. Resumed after Wade's call.
+  - Action: Grass Sweep (North).
+  - Note: Repel active. Wiggling at (7, 3).
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
