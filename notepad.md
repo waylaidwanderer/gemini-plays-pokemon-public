@@ -4,8 +4,8 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Transitioning to Route 37.
-- **Action:** Shuffling & Sweeping (Pass 12).
+- **Location:** Route 37 (North).
+- **Action:** Sweeping Grass (Pass 12).
 - **Strategy:** Shuffle Ecruteak -> Return South -> Sweep Grass.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
