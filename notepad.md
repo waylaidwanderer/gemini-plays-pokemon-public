@@ -36,7 +36,7 @@
 ## EXPN Card Sub-Quest
 - **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
 - **Start Turn:** 40441.
-- **Current Strategy:** Surfing north on Route 12 toward Lavender Town.
+- **Current Strategy:** Surfing north on Route 12 toward Lavender Town. To avoid repeatedly starting/stopping Surf on the piers, I will move to the open water in column 18 and follow it north.
 - **Plan:**
   1. Reach Lavender Town Radio Tower.
   2. Speak to Station Manager (10, 1) to get EXPN Card.
