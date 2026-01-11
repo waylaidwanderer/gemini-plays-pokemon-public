@@ -23,12 +23,11 @@
 - **Celadon Dept Store Exploration (Started Turn 41740):**
     - 1F: Directory checked.
     - 2F: Fully explored. Stocked up on healing items.
-    - 3F: Arrived Turn 41804. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
-    - 4F: Arrived Turn 41838. Wiseman Gifts inventory: Poke Doll (¥1000), Lovely Mail (¥50), Surf Mail (¥50).
+    - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
+    - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail.
 - **Long Term Shopping Plan:**
-    - 4F (Wiseman Gifts): Evolution Stones NOT sold here.
-    - 5F (Drugstore): Stat boosters. Check for Evolution Stones here.
-    - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
+    - 5F (Drugstore): Stat boosters. Check for Evolution Stones (Advisor says they aren't here).
+    - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
