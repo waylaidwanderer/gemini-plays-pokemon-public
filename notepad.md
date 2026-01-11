@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City (South Gate).
-- **Action:** Turning around to re-enter Route 37.
-- **Next:** Route 37 -> Apply Repel -> Sweep.
+- **Action:** Back on Route 37. Positioning at (6, 2).
+- **Strategy:** Sweep Top Patch (4x2) -> Sweep Bottom Patch (6x2) -> Ecruteak.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
