@@ -12,8 +12,8 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (In Grass).
-- **Next:** Hunt Roamers -> Shuffle if none.
+- **Location:** Entering Ecruteak City.
+- **Next:** Check Roamer location (Pokegear) or Return to Route 37 to Shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
