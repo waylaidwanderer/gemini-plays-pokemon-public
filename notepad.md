@@ -13,7 +13,7 @@
 
 # Current Status
 - **Location:** Ecruteak City (South Gate).
-- **Action:** Shuffled in Ecruteak. Returning to Route 37.
+- **Action:** Shuffled. Returning to Route 37.
 - **Strategy:** Re-enter Rt 37 -> Apply Repel -> Zigzag Sweep.
 
 # Roamer Hunt Log
