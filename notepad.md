@@ -89,7 +89,10 @@
 1. Mark entrance/exit warps. (Done)
 2. Explore the floor to reveal all unseen tiles.
 3. Talk to all NPCs:
-    - Pokefan M at (14, 10).
+    - Pokefan M at (14, 10): Slot machines are state of the art. (Done)
+    - Fishing Guru at (11, 7): The odds vary among machines. (Done Turn 41964)
+    - Teacher at (17, 7).
+    - Fisher at (8, 10).
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity (hidden switches, etc.).
