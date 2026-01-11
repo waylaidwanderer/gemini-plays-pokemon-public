@@ -5,7 +5,7 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Traverse Victory Road 2F (West -> East)
-- **Location:** Victory Road 2F (ID: 3_91) at (1, 35).
+- **Location:** Victory Road 2F (ID: 3_91) at (1, 39).
 - **Goal:** Reach Ladder at (13, 31).
 - **Route:** `(1, 35) -> South to (1, 39) -> East to (5, 40) -> North to (5, 35) -> East to (13, 31)`.
 - **Reasoning:**
