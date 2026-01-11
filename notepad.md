@@ -39,14 +39,14 @@
 
 ## Celadon City Exploration Plan
 1. Talk to NPCs in city [DONE].
-2. Explore Celadon Mansion 1F [IN PROGRESS].
+2. Explore Celadon Mansion 1F [DONE].
    - Granny (1, 5), Clefairy (3, 4), Nidoran (4, 4), Meowth (2, 6): [DONE].
-3. Explore Mansion 2F-3F.
+3. Explore Mansion 2F-3F [IN PROGRESS].
 4. Locate Department Store, Game Corner.
 5. Defeat Erika.
 
 ## Area Secrets
-- Celadon Mansion has a hidden back door (hint from Youngster). Check perimeter.
+- Celadon Mansion has a hidden back door (hint from Youngster). Check perimeter of the city/mansion outside.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
