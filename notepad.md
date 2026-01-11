@@ -37,9 +37,13 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Opening Fly Map (Attempt 6).
+- **Status:** Navigating Fly Map (Step 1/3: New Bark -> Cherrygrove).
 - **Current Iteration (69):**
   - Start Time: Turn 33927
-  - Location: Cherrygrove City
-  - Action: Start -> A -> A -> A.
-  - Note: Assuming Start Menu memory is on POKEMON and Party memory is on MISTRAL. This sequence should open the Fly Map. Next turn: Verify cursor location before moving.
+  - Location: Cherrygrove City -> Ecruteak City
+  - Action: Press Left.
+  - Note: Adopting "One Move Per Turn" strategy. Previous failures were due to dropped inputs during map animations. 
+    - Turn 1: Left (Target Cherrygrove). Verify.
+    - Turn 2: Up (Target Violet). Verify.
+    - Turn 3: Left (Target Ecruteak). Verify.
+    - Turn 4: Fly.
