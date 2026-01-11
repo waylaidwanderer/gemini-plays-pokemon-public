@@ -21,8 +21,8 @@
 
 ## Economy & Shopping
 - **Shopping Log - Celadon Dept Store 2F (Started Turn 41740):**
-    - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion (¥2500), Revive (¥1500), Super Repel, Max Repel.
-    - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal (¥600).
+    - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion, Revive, Super Repel, Max Repel.
+    - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal.
     - Purchases: 10 Full Heals, 10 Max Potions, 10 Revives. Nugget sold.
 - **Long Term Shopping Plan:**
     - 2F: Revives, Full Heals.
@@ -47,11 +47,12 @@
     1. Finish exploring Celadon Dept Store.
     2. Check Game Corner.
     3. Head to Fuchsia City via Cycling Road or Silence Bridge.
-- **Major Milestones:**
-    - Challenge Janine (Fuchsia Gym).
-    - Challenge Blaine (Cinnabar/Seafoam Gym).
-    - Challenge Blue (Viridian Gym).
-    - Visit Daisy Oak (Pallet Town) 3-4 PM for happiness boost.
+- **Strategic Plan for Kanto Badges:**
+    1. Celadon (Rainbow) - COMPLETED.
+    2. Fuchsia (Soul) - Next target. Use Cycling Road or Route 12-15.
+    3. Cinnabar/Seafoam (Volcano) - After Fuchsia. Use Surf from Pallet or Fuchsia.
+    4. Viridian (Earth) - Final badge. Blue is the leader.
+- **Rematches:** Alan (Route 36) wants a battle.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
