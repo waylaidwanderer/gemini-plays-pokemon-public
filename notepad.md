@@ -16,6 +16,6 @@
 
 # Status Update
 - Location: Mt. Silver Outside.
-- Previous Fly attempt failed (Input timing or bad routing).
-- Action: Re-opening Fly Map via Mistral (Slot 4).
+- Current State: Stuck in Bag/Item Menu.
+- Action: Backing out to Main Menu -> Pokemon -> Fly.
 - Goal: Goldenrod City.
