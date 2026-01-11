@@ -16,5 +16,6 @@
 # Status Update
 - Currently in Fly Menu.
 - Cursor at Ecruteak City.
-- Moving Left to Olivine City, then confirming with A.
-- Fallback: If cursor doesn't move, will Fly to Ecruteak and walk West.
+- Previous `Left` input failed to move cursor from Ecruteak.
+- Trying `Left`, `Left` to force movement to Olivine.
+- If this fails, will Fly to Ecruteak and walk.
