@@ -22,11 +22,11 @@
 ## Economy & Shopping
 - **Celadon Dept Store Exploration (Started Turn 41740):**
     - 1F: Directory checked.
-    - 2F: Fully explored. Stocked up on healing items.
+    - 2F: Fully explored. Stocked up on healing items (Full Heal, Max Potion, Revive).
     - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
-    - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail.
+    - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail. No Evolution Stones.
 - **Long Term Shopping Plan:**
-    - 5F (Drugstore): Stat boosters. Check for Evolution Stones (Advisor says they aren't here).
+    - 5F (Drugstore): Stat boosters. Check for Evolution Stones.
     - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
 
 ## Celadon City Investigation
