@@ -7,7 +7,7 @@
 ## Current Task: Traverse Victory Road
 - **Location:** Victory Road (ID: 3_91).
 - **Goal:** Reach Ladder at (1, 49).
-- **Route:** East to Col 11 -> North to Row 54 -> West to Col 7 -> South to Row 56 -> West to Col 2 -> North to Ladder.
+- **Route:** North to Row 60 -> East across (8,60) [Testing FLOOR_UP_WALL] -> North to Row 54 -> West to Col 2 -> North to Ladder.
 
 ## Status
 - **Money:** ¥3294 (Gaven Defeated).
