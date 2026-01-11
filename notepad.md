@@ -48,6 +48,6 @@
   - Action: Resetting map (Route 37 -> Ecruteak).
 - **Iteration 18 Result:** No encounter.
 - **Current Iteration (19):**
-  - Start Time: Turn 33616
-  - Action: Reset (Up) -> Hunt -> Return (Up).
-  - Note: Repel extremely low. Expect expiry.
+  - Start Time: Turn 33617
+  - Action: Enter Route 37 (Down) -> Hunt -> Exit (Up).
+  - Note: Repel expiry imminent.
