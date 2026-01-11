@@ -42,11 +42,14 @@
   - Celadon (Erika): Next target.
 
 ## Celadon City Exploration Plan
-1. Talk to NPCs: (26, 11), (27, 11) [DONE], Wandering Youngster [IN PROGRESS].
+1. Talk to NPCs: (26, 11), (27, 11), Wandering Youngster [DONE].
 2. Explore Celadon Mansion (Entrance 16, 9).
 3. Locate and visit Department Store.
 4. Locate Game Corner.
 5. Locate and defeat Celadon Gym (Erika).
+
+## Area Secrets
+- Celadon Mansion has a hidden back door (hint from Youngster at 20, 13).
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
