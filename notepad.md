@@ -53,5 +53,6 @@
   - Challenge: Beat 6 trainers - COMPLETED.
   - Prize Giver: Cooltrainer Kevin (37, 8). Received NUGGET.
   - Battle: Cooltrainer Kevin (ID 10): DEFEATED.
-  - Misty: Found at (46, 9) on Route 25. Interrupted her date at (43, 6).
+  - Misty: Found at (46, 9) on Route 25. Interrupted her date. She returned to Cerulean Gym.
+  - Gramps (Bill's House): Wants to see a Pokémon with a "long tongue" (Lickitung).
   - Item picked up: PROTEIN at (32, 4).
