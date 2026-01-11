@@ -23,7 +23,7 @@
 
 ## Party Management
 - **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
-- **Kimchi (Lv 46):** Gloom. Grass/Poison. (Currently FNT - Healing now).
+- **Kimchi (Lv 46):** Gloom. Grass/Poison. (Healed at Turn 41380).
 - **Xenon (Lv 44):** Haunter. Hypnosis, Confuse Ray, Night Shade, Dream Eater.
 - **Lapis (Lv 12):** Poliwag. Surf, Whirlpool, Waterfall.
 - **Gneiss (Lv 54):** Graveler. Earthquake, Rollout, Strength.
@@ -42,7 +42,7 @@
 - Objective: Defeat Erika.
 - Route: Cerulean -> Route 5 -> Saffron -> Route 7 -> Celadon.
 - Contingency: If Saffron gate is blocked, use the Underground Path.
-- Prep: Healing at Cerulean Pokecenter (Turn 41371).
+- Prep: Healed at Cerulean Pokecenter (Turn 41380).
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.

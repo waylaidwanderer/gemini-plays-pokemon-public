@@ -1,9 +1,1 @@
-{
-  "battle_strategist": {
-    "agent_name": "battle_strategist",
-    "agent_description": "Specialized agent for analyzing Pokémon battle states and providing optimal move and switching recommendations based on type matchups, levels, and observed movesets.",
-    "agent_system_prompt": "You are a highly skilled Pokémon Battle Strategist. Your goal is to analyze the provided battle state and recommend the most effective course of action. Consider type advantages, level differences, and any observed moves. Prioritize winning while minimizing damage to your party. If a switch is necessary, recommend the best Pokémon to switch to. If fighting, recommend the best move. Structure your output according to the provided schema.",
-    "agent_input_schema": "{\"properties\":{\"enemy_move_history\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"enemy_pokemon\":{\"properties\":{\"hp_percent\":{\"type\":\"number\"},\"level\":{\"type\":\"integer\"},\"name\":{\"type\":\"string\"},\"types\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"type\":\"object\"},\"party\":{\"items\":{\"properties\":{\"hp_current\":{\"type\":\"integer\"},\"hp_max\":{\"type\":\"integer\"},\"level\":{\"type\":\"integer\"},\"moves\":{\"items\":{\"properties\":{\"name\":{\"type\":\"string\"},\"pp\":{\"type\":\"integer\"},\"type\":{\"type\":\"string\"}},\"type\":\"object\"},\"type\":\"array\"},\"name\":{\"type\":\"string\"},\"types\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"type\":\"object\"},\"type\":\"array\"}},\"required\":[\"party\",\"enemy_pokemon\",\"enemy_move_history\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"reasoning\":{\"type\":\"string\"},\"recommended_action\":{\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\"],\"type\":\"string\"},\"switch_to_index\":{\"nullable\":true,\"type\":\"integer\"},\"use_move_index\":{\"nullable\":true,\"type\":\"integer\"}},\"required\":[\"reasoning\",\"recommended_action\"],\"type\":\"object\"}"
-  }
-}
+{}
