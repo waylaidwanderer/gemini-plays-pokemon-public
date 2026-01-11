@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (9,5).
-- **Action:** Re-applying Repel (Pass 36). Repel wore off mid-sweep.
+- **Action:** Opening Menu to Apply Repel.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 32/Turn 34549). Next: Pass 37.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
