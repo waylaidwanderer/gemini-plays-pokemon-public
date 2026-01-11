@@ -21,5 +21,5 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 36 (Entering Route 37).
-- **Next:** Route 37 -> Ecruteak City.
+- **Location:** Route 37 (Heading North to Ecruteak).
+- **Next:** Ecruteak City -> Poke Center -> Roamer Hunt.
