@@ -5,14 +5,14 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Return to 2F via Ladder (1, 49)
-- **Location:** Victory Road 1F (Southeast) at (17, 49).
+- **Location:** Victory Road 1F (South Section) at (2, 57).
 - **Goal:** Reach Ladder at (1, 49) to access 2F.
 - **Reasoning:**
   - 1F East is a dead end; Row 47 is a solid wall blocking North.
   - The only path forward is on 2F.
   - Previous 2F exploration failed due to a ledge jump issue at (3, 34).
   - New Plan: Go to 2F, force jump at (3, 34), then navigate East to Ladder at (13, 31).
-- **Route:** `(17, 49) -> (18, 51) -> (18, 56) -> (15, 56) -> (15, 54) -> (7, 54) -> (7, 57) -> (2, 57) -> (1, 49)`.
+- **Route:** `(2, 57) -> (1, 49)`.
 
 ## Status
 - **Money:** ¥3294.
