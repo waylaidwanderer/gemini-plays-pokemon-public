@@ -52,3 +52,8 @@
 - **NPC Info:** Fisher at (31, 26) is a fan of Misty but has no location info. (Turn 41079).
 - **Cerulean Cape Sign:** (23, 7) "CERULEAN CAPE AHEAD". (Turn 41089).
 - **Route 24 Exit:** The ladder at (21, 0) leads to Route 24. (Turn 41081).
+## Strategy for Route 24/25
+- **Goal:** Find Misty.
+- **Path:** Head north through Route 24 to reach Route 25.
+- **Exploration:** Check the areas to the sides of the bridge for items and hidden trainers.
+- **Note:** A Rocket Grunt was previously encountered at (8, 7). (Turn 39332).
