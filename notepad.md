@@ -41,7 +41,6 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Detour to Elm's Lab.
-- **Start Time:** Turn 33951
-- **Goal:** Obtain Master Ball from Prof. Elm.
-- **Status:** Approaching Elm.
+- **Current Action:** Checking Bag for Master Ball.
+- **Status:** PC check failed. Checking Bag pockets.
+- **Hypothesis:** If not in Bag, Master Ball was used on Lugia.
