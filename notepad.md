@@ -37,10 +37,10 @@
 - Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Current Status: Start menu open, POKEMON selected. Party cursor memory is on slot 5 (LAPIS).
+- Current Status: Pokegear open, Clock tab. XENON is now lead.
 - Step 1: Open Start menu, select POKEMON. (Done)
-- Step 2: Swap XENON (slot 3) to lead. (In progress: cursor on slot 5, need Up x2, Select, Up x2, Select).
-- Step 3: Exit POKEMON, select POKEGEAR, tune Radio to 20.0 (Poke Flute).
+- Step 2: Swap XENON (slot 3) to lead. (Done)
+- Step 3: Select Radio tab (Right x3), tune to 20.0 (Poke Flute).
 - Step 4: Close Pokegear, face Left from (36, 8), and interact with Snorlax.
 
 ## General Lessons & Error Log
