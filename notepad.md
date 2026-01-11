@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Finishing Pass 22 -> Check Pokegear (Due).
+- **Action:** Transitioning to Ecruteak City (Shuffle).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34446).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
@@ -18,4 +18,4 @@
 # Lessons Learned
 - **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees.
 - **NPCs:** Youngster at (6,6) blocks southern movement from row 5.
-- **System:** Position desync detected at Turn 34477 & 34487. Verify location frequently.
+- **System:** Major position desyncs at Turn 34477, 34487, 34489. Rely on visual confirmation.
