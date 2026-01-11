@@ -15,6 +15,6 @@
 
 # Status Update
 - Currently in Fly Menu.
-- Cursor at Violet City.
-- Stuck at Violet City despite pressing Left.
-- Trying `Left`, `Up`, `Left` to navigate to Ecruteak/Olivine.
+- Cursor at Azalea Town.
+- Moving Up -> Up -> Left to reach Olivine City.
+- (Previous attempt landed me at Azalea from Violet, implying a different graph or dropped inputs).
