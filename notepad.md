@@ -12,7 +12,7 @@
 ## Battle Mechanics (Verified)
 - Status Moves: Misses are reported as "The attack missed!". "It didn't affect..." indicates type immunity.
 - Night Shade: Deals fixed damage equal to the user's level.
-- Type Effectiveness (Psychic): Weak to Bug, Ghost, Dark.
+- Type Effectiveness (Psychic): Weak to Bug, Ghost, Dark. 
 - Type Effectiveness (Ghost): Weak to Ghost, Dark. Immune to Normal, Fighting.
 - Type Effectiveness (Dark): Super-effective against Ghost, Psychic.
 - Type Effectiveness (Poison): Weak to Ground, Psychic.
@@ -31,7 +31,7 @@
 
 ## Magnet Train
 - Service: Saffron City <-> Goldenrod City.
-- Status: Active (Power restored Turn 39771).
+- Status: Inactive (Power Plant crisis).
 - Requirement: PASS (Obtained from Copycat).
 
 ## Machine Part Quest
@@ -41,8 +41,7 @@
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
-  - Path In: BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
-  - Path Out: MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
+  - Path Out: MC (11, 9) -> TL (1, 5) -> TL (1, 3) -> TR (15, 5) -> TR (19, 5) -> BL (1, 15) -> BL (5, 15) -> BR (15, 17) -> BR (19, 17) -> BC (11, 15) -> Exit.
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
