@@ -40,3 +40,7 @@
   - Action: Initial check.
   - Result: No encounter in first 8 steps.
   - Action: Resetting map (Route 37 -> Ecruteak).
+- **Iteration 2:**
+  - Start Time: Turn 33539
+  - Location: Route 37
+  - Action: Hunting.
