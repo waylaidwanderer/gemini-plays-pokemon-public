@@ -1,53 +1,55 @@
 # Gem's Pokémon Crystal Knowledge Base
 
 ## Tile Mechanics (Verified Traversability)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Traversable with SURF (requires Move + Badge). Verified.
-- TALL_GRASS / LONG_GRASS: Traversable.
-- grass: Traversable.
-- DOOR / WARP / CAVE: Entry points.
-- LADDER: Traversable.
-- COUNTER: Impassable. Interact from front tile.
+- FLOOR: Traversable. Standard movement.
+- WALL: Impassable. Blocks all movement.
+- WATER: Traversable with SURF (requires Move + Badge).
+- TALL_GRASS / LONG_GRASS: Traversable. Wild encounters possible.
+- grass: Traversable. Standard movement.
+- DOOR / WARP / CAVE: Entry points to different maps or areas.
+- LADDER: Traversable. Moves between floors.
+- COUNTER: Impassable. Interact from the tile directly in front.
 - LEDGE_HOP_DOWN: One-way jump down (North to South).
-- FLOOR_UP_WALL: Impassable from North (ledge collision).
-- CUT_TREE: Impassable until CUT is used; becomes traversable FLOOR.
-- OBJECTS (NPCs/Items): Impassable.
+- FLOOR_UP_WALL: Impassable from North (ledge collision type).
+- CUT_TREE: Impassable until CUT is used; then becomes FLOOR.
+- OBJECTS (NPCs/Items): Impassable. Interact from adjacent tile.
 
 ## Progress Tracking
 - **Objective: Defeat Misty at Cerulean Gym**
   - Started: Turn 41251
-  - Timestamp: Turn 41251 (approx. 4 hours ago)
-- **Find Misty Quest:** Completed Turn 41238.
+  - Current Status: In battle with Misty (Turn #41327).
+- **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 
 ## Party Management
-- **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH/ROCK SMASH).
+- **Calcifer (Lv 59):** Typhlosion. Primary attacker. ThunderPunch (Electric, 11 PP) for Water-types.
+- **Kimchi (Lv 46):** Gloom. Grass/Poison. Petal Dance (Grass) for Quagsire (4x weak).
+- **Xenon (Lv 44):** Haunter. Ghost/Poison. Hypnosis (Psychic) + Dream Eater (Psychic).
+- **Lapis (Lv 12):** Poliwag. HM slave (Surf, Whirlpool, Waterfall).
+- **Gneiss (Lv 54):** Graveler. Rock/Ground. Avoid Water battles.
+- **Icarus (Lv 19):** Pidgeotto. HM slave (Fly).
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
   - Pewter (Brock): DEFEATED.
-  - Cerulean (Misty): Target.
-- **Recent Battles (Route 25):**
-  - #1 Dudley, #2 Ellen, #3 Joe, #4 Laura, #5 Lloyd, #6 Shannon, #7 Pat: DEFEATED.
-  - Prize Giver: Kevin: DEFEATED.
-
-## Cerulean City & Surroundings
-- **Misty:** Returned to Cerulean Gym after being interrupted at (46, 9) on Route 25.
-- **Gramps (Bill's House):** Wants to see a Pokémon with a "long tongue" (Lickitung).
+  - Cerulean (Misty): In progress.
+- **Route 25 Trainers:** Dudley, Ellen, Joe, Laura, Lloyd, Shannon, Pat, Kevin: ALL DEFEATED.
+- **Cerulean Gym Trainers:**
+  - Swimmer Briana (1, 9): DEFEATED.
+  - Swimmer Diana (4, 6): DEFEATED.
+  - Swimmer (8, 9): Not yet battled.
 
 ## Strategy for Misty (Cerulean Gym)
 - **Typing:** Misty uses Water-types.
 - **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
-- **Avoid:** Do not use Gneiss (Rock/Ground) as he is double-weak to Water.
-- **Backup:** Xenon can provide status support with Hypnosis if needed.
+- **Quagsire (Water/Ground):** Immune to Electric. Resistance to Fire. Use Kimchi's Petal Dance.
+- **Starmie:** Likely her ace. ThunderPunch should be effective.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
 - **Snorlax:** Occupies (34,8)-(35,9). Interact from (34,10) Up or (36,8) Left.
-- **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
+- **Diglett's Cave:** Northern exit is (15, 5) warp carpet.
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
-- **Menu Sequence:** Ensure dialogue is clear before menu inputs. Break sequences into small chunks.
-- **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position before confirming item use in menus.
-- **Battle: Gym Leader Misty (Turn 41321):** Started. Leading with Calcifer.
+- **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position.
+- **Move Info:** Hypnosis is Psychic-type. Calcifer's ThunderPunch PP is limited (11/15).
