@@ -34,9 +34,12 @@
 - **WATER:** Traversable with SURF.
 
 # Roamer Hunt Log
-- **Summary:** Iterations 1-24: No encounters.
-- **Current Iteration (25):**
-  - Start Time: Turn 33633
-  - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Repel active (Refreshed Turn 33636). Resumed after Gaven call. Continuing sweep.
+- **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
+- **Stats:** 25 Iterations. 0 Encounters.
+- **Current Status:** Iteration 25 complete. Resetting.
+- **Repel:** Active (Refreshed Turn 33636).
+
+# Reflection (Turn 33644)
+- **Hygiene:** Logs consolidated. Markers verified.
+- **Strategy:** Camping Route 37 is valid. High variance, patience required.
+- **Action:** Continue rapid iteration cycle.
