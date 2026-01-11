@@ -8,10 +8,9 @@
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
 - **Status:** Battling Bruno.
-- **Opponent:** Hitmonchan (Lv42).
+- **Opponent:** Machamp (Incoming).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Hitmonchan:** Use `Strength`.
+  - **Machamp:** Use `Strength` (Reliable) or `Cross Chop` (Power).
   - **Onix:** Use `Ice Punch` or `Cross Chop`.
-  - **Machamp:** Use `Strength` or `Cross Chop`.
 - **Health Check:** Muscle Full.
