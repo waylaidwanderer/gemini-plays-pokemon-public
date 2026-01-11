@@ -9,8 +9,7 @@
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
 - LEDGE_HOP_DOWN: One-way North to South.
-- FLOOR_UP_WALL: Impassable from North.
-- CUT_TREE: Requires HM01 CUT.
+- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable. Seen in Celadon Mansion.
 - OBJECTS (NPCs/Items): Impassable.
 - WARP_CARPET_DOWN: Exit point.
 - PC / BOOKSHELF: Impassable.
@@ -50,11 +49,15 @@
 
 ## Celadon Mansion Notes
 - 2F: Game Freak Meeting Room sign at (5, 8) read.
-- 2F: Bookshelf at (2, 3) full of difficult books.
-- 2F: Computer at (0, 3) contains an e-mail about Kanto and new Pokémon.
-- 2F: Stairs at (0, 0) and (1, 0) to 3F unreachable from main area.
-- 2F: Confirmed isolated area; search for hidden back door outside.
+- 2F: Isolated western wing (Rows 0-2) contains stairs (0,0), (1,0). Unreachable from main area.
 - 3F: Reached via stairs at (6, 0).
+- 3F: Isolated western wing contains stairs (0,0), (1,0). Unreachable from main area.
+- Roof: Right side reached from 3F (7,0). Left side (with door at 2,5) is isolated.
+- Roof: Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
+- Roof: Row 8 is a corridor, but Row 7 is a solid wall on the left, preventing access to the door at (2,5) from Row 8.
+- Hypothesis: The 'back door' is the only way into the western wing.
+
+## Celadon Mansion 3F Investigation
 - 3F: Graphic Artist (Graphic Artist) at (3, 4) says he drew the player.
 - 3F: Cooltrainer M (Game Designer) at (3, 6) says filling the Pokedex is tough.
 - 3F: Fisher at (0, 4) talks about twins and Jasmine.
