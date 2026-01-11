@@ -46,7 +46,7 @@
     - Picnicker Tanya (2,8): DEFEATED Turn 41683. Exeggutor (Lv 37).
     - Lass Michelle (6,8): DEFEATED Turn 41693. Skiploom (Lv 32), Hoppip (Lv 33), Jumpluff (Lv 34).
     - Beauty Julia (3,5): DEFEATED Turn 41705. Paras (Lv 32), Parasect (Lv 35), Exeggcute (Lv 32).
-    - Erika (5,3): IN PROGRESS. Tangela (Lv 42) defeated. Bellossom (Lv 46) out. Goal: Rainbow Badge.
+    - Erika (5,3): IN PROGRESS. Tangela (Lv 42) and Bellossom (Lv 46) defeated. Jumpluff (Lv 41) out. Goal: Rainbow Badge.
 
 ## Erika Battle Strategy
 - **Opponent Levels:** Erika's team peaks at Lv 46.
