@@ -21,8 +21,8 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Ecruteak City (South Exit).
-- **Next:** Cycle back to Route 37 -> Grass Check.
+- **Location:** Route 37 (Grass).
+- **Next:** Use Max Repel -> Cycle Grass for Roamers.
 - **Python/XML:** `xml.etree.ElementTree` does not support `..` parent traversal. Iterate strictly downwards when parsing map XML.
 - **Roamer Hunt:** Taking a detour to check the Pokegear Map for Raikou/Entei locations since I accidentally opened it. Use `A` to exit Clock view, then select Map card.
 - **Roamer Status:** Visual confirmation on Pokegear Map: Icons spotted on Route 38, Route 42, and potentially Route 30/31.
