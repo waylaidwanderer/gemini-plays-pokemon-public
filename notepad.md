@@ -8,7 +8,7 @@
 - **Primary:** Collect 8 Kanto Badges.
 - **Immediate:**
   1. Wake up in New Bark Town.
-  2. Get S.S. Ticket from Prof. Elm.
+  2. Get S.S. Ticket from Prof. Elm. (Done - Already in Inventory)
   3. Fly to Olivine City.
   4. Board S.S. Aqua to Vermilion City.
 
