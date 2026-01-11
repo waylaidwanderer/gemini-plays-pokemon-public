@@ -40,8 +40,8 @@
 - **Current Iteration (31):**
   - Start Time: Turn 33667
   - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Repel active (~200 steps left). Entering grass.
+  - Action: Grass Sweep (Deep).
+  - Note: Repel active. Wiggling.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
