@@ -61,3 +61,4 @@
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
 - **Select Button:** Pressing Select in menus can register items/PKMN; clear with 'B' if 'registered for use' message appears.
+- **Start Menu Wrap:** The menu wraps around (Up from POKEDEX -> EXIT).
