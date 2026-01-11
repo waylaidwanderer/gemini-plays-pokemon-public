@@ -37,12 +37,12 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Status:** Flying to Ecruteak (Final Attempt from Cherrygrove).
-- **Current Iteration (64):**
-  - Start Time: Turn 33869
-  - Location: Cherrygrove City -> Ecruteak City
-  - Action: Fly Map Input (Up -> Left -> A -> A).
-  - Note: Previous `Up` input likely dropped due to animation overlap. Starting static from Cherrygrove. Path: Cherrygrove (Up) -> Violet (Left) -> Ecruteak.
+- **Current Status:** Recovering from Navigation Error (Violet City).
+- **Current Iteration (65):**
+  - Start Time: Turn 33901
+  - Location: Violet City
+  - Action: Open Fly Map.
+  - Note: Was hallucinating Cherrygrove. Actually in Violet. Resetting navigation logic. Plan: Open Map -> Verify Cursor -> Fly Left to Ecruteak.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
