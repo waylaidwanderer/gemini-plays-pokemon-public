@@ -95,3 +95,4 @@
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Inventory Sync:** Calcifer is Lv 62. 2x IRON and 1x RARE CANDY used successfully. Bag slots cleared.
+- Teacher (1, 7): Mentions using items on Pokemon makes them happy, but they hate certain items. (Done Turn 41893)
