@@ -11,7 +11,7 @@
 - **Status:** Cycling Route 37 <-> Ecruteak.
 - **Action:** Exiting menu. Last Super Repel active.
 - **Next Step:** Watch for Roamers.
-- **Stats:** 0 Encounters so far (Updated Turn 32762).
+- **Stats:** 0 Encounters so far (Updated Turn 32763).
 
 ## Resource Crisis (Turn 32740)
 - **Repels:** 0 remaining in bag (Current one active).
