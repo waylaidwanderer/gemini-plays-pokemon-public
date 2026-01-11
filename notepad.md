@@ -70,7 +70,9 @@
 - **Button Mixing:** Never mix directional and action buttons in overworld.
 - **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
+- Celadon Mansion Roof: Crossing points found at (5, 6), (5, 7), and (5, 8).
+- Celadon Mansion Roof: Isolated section (Cluster 0) is the top-left corner.
+- Celadon Mansion Roof: Door at (2, 5) leads to the isolated wing (likely).
 - Celadon Mansion Roof: Graffiti at (6, 1) says "GEM added a moustache!"
 - Celadon Mansion Roof: Fisher at (7, 4) loves high places.
-- Celadon Mansion Roof: Isolated section (Cluster 0) likely reachable via hidden back door or Row 9.
-- Celadon Mansion Roof: Door at (2, 5) is the goal for the isolated section.
+- Celadon Mansion Roof: Investigating the isolated wing via door at (2, 5).
