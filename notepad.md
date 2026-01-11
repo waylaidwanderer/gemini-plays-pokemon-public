@@ -34,20 +34,9 @@
 - **WATER:** Traversable with SURF.
 
 # Roamer Hunt Log
-- **Summary:** Iterations 1-10: No encounters.
-- **Current Iteration (11):**
-  - Start Time: Turn 33583
+- **Summary:** Iterations 1-19: No encounters.
+- **Current Iteration (20):**
+  - Start Time: Turn 33622
   - Location: Route 37
-  - Action: Hunting.
-  - Note: Repel refreshed at Turn 33590.
-- **Reflection (Turn 33591):**
-  - **Strategy:** Verified. Roamers move on map transition. Repel (Lv36) filters correctly.
-  - **Hygiene:** Logs consolidated. No critical tasks deferred.
-  - **Plan:** Continue hunting loop. Define helper tool if fatigue sets in.
-  - Result: No encounter (~50 steps).
-  - Action: Resetting map (Route 37 -> Ecruteak).
-- **Iteration 18 Result:** No encounter.
-- **Current Iteration (19):**
-  - Start Time: Turn 33617
-  - Action: Hunting on Route 37 (Down x4 -> Wiggle -> Exit).
-  - Note: Repel expiry imminent. Monitor closely.
+  - Action: Hunting (Grass Sweep).
+  - Note: Repel active (Refreshed Turn 33590).
