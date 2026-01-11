@@ -37,12 +37,12 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Status:** Flying to Ecruteak (Attempt 4 - Escape Pack).
+- **Current Status:** Flying to Ecruteak (Selecting Fly Command).
 - **Current Iteration (64):**
   - Start Time: Turn 33869
   - Location: Cherrygrove City -> Ecruteak City
-  - Action: Escape Pack -> Pokemon -> Mistral -> Fly.
-  - Note: Currently stuck in Pack (Cursor on Cancel). Pressing B to exit, then Up to Pokemon. Previous error: Menu cursor memory put me on Pack instead of Pokedex.
+  - Action: Select Mistral -> Fly.
+  - Note: Cursor confirmed on Mistral. Opening sub-menu and selecting Fly. Will pause at Map screen to verify start location.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
