@@ -9,9 +9,9 @@
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
 - **Opponent:** Gengar (Incoming).
-- **Active:** Muscle (Lv87) -> Switching to Lugia (Lv60).
+- **Active:** Lugia (Lv60).
 - **Strategy:**
-  - **Gengar:** **SWITCH TO LUGIA** (`Psychic`). Muscle's Fighting/Normal moves are useless.
+  - **Gengar:** Use `Psychic`.
   - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
   - **Houndoom:** Muscle (`Cross Chop`).
 - **Health Check:** Muscle 283/295 HP, Lugia 184/204 HP.
