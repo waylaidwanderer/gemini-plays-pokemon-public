@@ -100,5 +100,72 @@
         "action_counter": 40742
       }
     ]
+  },
+  "find_path_v5": {
+    "description": "Standardized A* pathfinding tool for navigating the current map. Returns an array of button strings (\"Up\", \"Down\", \"Left\", \"Right\") to reach the destination from the current position. Can handle ledges (LEDGE_HOP_DOWN) as one-way traversable tiles. Returns an empty array if no path is found.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport heapq\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # Map of (x, y) -> tile_type\n    grid = {}\n    # Map of (x, y) -> has_object\n    objects = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            grid[(x, y)] = t_type\n            objects[(x, y)] = tile.attrib.get('has-object') == 'true'\n\n    start = (input_data['start_x'], input_data['start_y'])\n    end = (input_data['end_x'], input_data['end_y'])\n\n    def get_neighbors(pos):\n        x, y = pos\n        neighbors = []\n        # Directions: (dx, dy, button)\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                target_type = grid.get((nx, ny), \"unseen\")\n                current_type = grid.get((x, y))\n                \n                # Standard collision rules\n                is_walkable = target_type in [\"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"CAVE\", \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"FLOOR_UP_WALL\"]\n                \n                # Handle objects acting as walls\n                if objects.get((nx, ny)):\n                    is_walkable = False\n                \n                # Handle Ledges (LEDGE_HOP_DOWN)\n                # You can jump DOWN over a ledge, but not enter it from below/sides as a floor.\n                # In Crystal, LEDGE_HOP_DOWN is a specific tile type.\n                if target_type == \"LEDGE_HOP_DOWN\":\n                    # Can only jump onto it from ABOVE\n                    if btn == \"Down\":\n                        # Jumping down landed 2 tiles away usually, but pathing handles it 1-by-1\n                        # For simplicity, treat as walkable one-way.\n                        neighbors.append(((nx, ny), btn))\n                    continue\n                \n                if is_walkable:\n                    neighbors.append(((nx, ny), btn))\n        return neighbors\n\n    # A* Algorithm\n    queue = [(0, start, [])]\n    visited = {start: 0}\n    \n    while queue:\n        (cost, current, path) = heapq.heappop(queue)\n        \n        if current == end:\n            print(json.dumps(path))\n            return\n\n        for neighbor, btn in get_neighbors(current):\n            new_cost = cost + 1\n            if neighbor not in visited or new_cost < visited[neighbor]:\n                visited[neighbor] = new_cost\n                priority = new_cost + abs(neighbor[0] - end[0]) + abs(neighbor[1] - end[1])\n                heapq.heappush(queue, (priority, neighbor, path + [btn]))\n    \n    print(\"[]\")\n\nsolve()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T12:40:56.986Z",
+        "action_counter": 40831
+      }
+    ]
+  },
+  "press_menu_buttons_v3": {
+    "description": "Presses a sequence of buttons for menu navigation. Returns the sequence.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
+        "buttons": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "buttons"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T12:40:56.987Z",
+        "action_counter": 40831
+      }
+    ]
   }
 }

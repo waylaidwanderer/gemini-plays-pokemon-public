@@ -47,3 +47,15 @@
 - **Current Status:** Team healed in Pewter City. Heading East to Route 3. (Turn 40791).
 - **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!". (Turn 40805).
 - **Route 3:** Vertical walls block the path at X=13 (Y=4-9), X=19 (Y=4-7), and X=24 (Y=1-7). Row 0 is clear at these X-coordinates. (Turn 40828).
+## Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- LEDGE_HOP_DOWN: One-way jump down (from Above). Impassable from other sides.
+- FLOOR_UP_WALL: Collision type for ledges? (Verified Route 3).
+- COUNTER: Impassable.
+- WARP_CARPET: Edge warp.
+- OBJECTS (NPCs/Items): Impassable.
+
+## Custom Tools
+- find_path_v5: A* pathfinding for current map.
+- press_menu_buttons_v3: Menu navigation.
