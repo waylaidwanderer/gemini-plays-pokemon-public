@@ -70,3 +70,7 @@
 - **Button Mixing:** Never mix directional and action buttons in overworld.
 - **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
+- Celadon Mansion Roof: Reached right side via stairs from 3F (7, 0).
+- Celadon Mansion Roof: Wall separates right side (6, 1 area) from left side (2, 5 area).
+- Celadon Mansion Roof: Graffiti at (6, 1) and Fisher at (7, 6) on right side.
+- Celadon Mansion Roof: Door at (2, 5) on left side likely leads to isolated rooms. Back door search is next.
