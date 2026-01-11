@@ -42,7 +42,7 @@
   - Start Time: Turn 33689
   - Location: Route 37
   - Action: Grass Sweep (North).
-  - Note: Repel active. Continuing northern sweep.
+  - Note: Repel active. Wiggling in northern patch at (7, 4).
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
