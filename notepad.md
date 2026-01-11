@@ -35,23 +35,14 @@
 - Status: Active (Power restored Turn 39771).
 - Requirement: PASS (Obtained from Copycat).
 
-## Saffron Gym Warp Solution (Full Table)
-- BC (Entrance) (11, 15) <-> BR (19, 17)
-- BR (15, 15) <-> TR (19, 3)
-- BR (15, 17) <-> BL (5, 15)
-- TR (15, 3) <-> MR (15, 9)
-- TR (15, 5) <-> TL (1, 3)
-- TR (19, 5) <-> BL (1, 15)
-- TL (1, 5) <-> MC (11, 9)
-- ML (1, 11) <-> BL (1, 17)
-- ML (5, 11) <-> BL (5, 17)
-- ML (1, 9) <-> MR (1, 9)
-- ML (5, 9) <-> TC (5, 9)
+## Saffron Gym Challenge (Completed)
+- **Status:** Marsh Badge obtained (Turn 39878).
+- **Sabrina Dialogue:** Confirmed she does not give a TM in this version after multiple interactions.
+- **Shortest Path (Out):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
-## Completed Objectives
-- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
-  - Path In: BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
-  - Path Out: MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
+## Machine Part Quest
+- **Location:** Suspected to be in the water at Cerulean Gym (based on Rocket Grunt dialogue and Itemfinder pings at 3,7 and 4,7).
+- **Status:** Not yet retrieved. Power Plant remains inactive.
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
