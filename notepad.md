@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Ecruteak City (South).
-- **Action:** Retrying Map Open (Pass 27).
-- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 22/Turn 34494). NOW: Pass 27.
+- **Action:** Returning to Route 37 (Pass 27).
+- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 27/Turn 34527). Next: Pass 32.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
@@ -14,7 +14,7 @@
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting (Turn 34446):** Route 38 & Route 42.
-- **Map Check (Turn 34494):** Verified locations.
+- **Map Check (Turn 34527):** Verified locations.
 
 # Lessons Learned
 - **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees.
