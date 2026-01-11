@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Fly Map (New Bark Town).
-- Action: Navigating to Goldenrod City.
-- Sequence: Left x3 (to Ecruteak/Violet) -> Down (to Goldenrod).
-- Note: Verifying cursor position before confirming.
+- Location: Fly Map (Cursor at Silver Cave).
+- Observation: Navigation logic seems inconsistent or map wraps.
+- Action: Moving `Left` x8 to reset cursor to far West (Cianwood/Olivine).
+- Goal: Locate known anchor (Cianwood) then route to Goldenrod.
