@@ -13,12 +13,13 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass for Roamers.
-- **Strategy:** Move in grass -> If no encounter/weak encounter -> Return to Ecruteak to shuffle.
+- **Action:** Sweeping grass (Pass 1).
+- **Strategy:** Move into grass -> Zigzag -> Check for Roamer (Lv40). If Pidgey (Lv15) appears, Repel has worn off.
+- **Loop:** 10-step sweep. If nothing, return to Ecruteak.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34229.
+- **Current Turn:** 34279.
 - **Status:** Shuffled. Sweeping Route 37.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
