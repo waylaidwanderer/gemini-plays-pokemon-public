@@ -54,10 +54,10 @@
 ## Economy & Shopping
 - **Celadon Dept Store Inventory Summary:**
     - 2F: Healing items (Full Heal, Max Potion, Revive).
-    - 3F: TM Shop: TM10, TM11, TM17, TM18, TM37.
-    - 4F: Wiseman Gifts: Poke Doll, Lovely Mail, Surf Mail.
-    - 5F: Drugstore: Vitamins (Clerk 1), Battle Items (Clerk 2).
-    - 6F: Vending Machines: Fresh Water (¥200), Soda Pop (¥300), Lemonade (¥350).
+    - 3F: TM Shop inventory documented.
+    - 4F: Wiseman Gifts inventory documented.
+    - 5F: Drugstore inventory documented.
+    - 6F: Vending Machines inventory documented.
 - **Long Term Shopping Plan:**
     - Find Evolution Stones (not in Dept Store).
 
@@ -85,3 +85,4 @@
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Teacher (1, 7):** Mentions using items on Pokemon makes them happy, but they hate certain items.
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
+- **Celadon Dept Store Exploration:** Started Turn 41740, Sunday 3:00 PM. (Completed Turn 41940)
