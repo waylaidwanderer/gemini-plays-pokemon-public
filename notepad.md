@@ -66,3 +66,6 @@
 - Celadon Mansion 3F: Drawing at (4, 3) to be investigated.
 - Celadon Mansion 3F: Bookshelf at (2, 3) to be investigated.
 - Celadon Mansion 3F: Game Program at (1, 6), Reference Material at (1, 3), and Dev Room Sign at (5, 8) to be investigated.
+- Celadon Mansion 3F: Fisher at (0, 4) talks about twins and Jasmine.
+- Celadon Mansion 3F: Super Nerd at (0, 7) to be spoken to next.
+- Celadon Mansion 3F: Game Program (1, 6) and Reference Material (1, 3) still need to be checked.
