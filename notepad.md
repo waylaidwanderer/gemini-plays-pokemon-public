@@ -45,3 +45,4 @@
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Current Status:** Team healed in Pewter City. Heading East to Route 3. (Turn 40791).
+- **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!". (Turn 40805).
