@@ -9,7 +9,7 @@
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
 - **Opponent:** Murkrow (Incoming).
-- **Active:** Lugia (Lv60) -> Switching to Muscle (Lv87).
+- **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch` - both Super Effective).
   - **Houndoom:** Muscle (`Cross Chop`).
