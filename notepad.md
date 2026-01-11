@@ -90,3 +90,6 @@
 - Celadon Mansion West Wing: 3F (0,0) leads to Roof (1,1).
 - Celadon Mansion Roof (West): Door at (2, 5) is accessible from Row 6.
 - Celadon Mansion Roof: Row 7 (Cols 0-4) is a wall, separating the isolated wing from Row 8.
+- Celadon Mansion Roof House: Reached via roof door at (2, 5).
+- Celadon Mansion Roof House: Pharmacist at (3, 2) to be spoken to.
+- Celadon Mansion Roof House: Unseen tiles in Rows 0-2 to be explored.
