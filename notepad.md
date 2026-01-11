@@ -39,9 +39,9 @@
 - **Navigation Verification:** Always verify `current_map_id` and screen text after a transition failure. Do not rely on "assumed" location.
 
 # Roamer Hunt Log
-- **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
+- **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Entering Route 29.
-- **Next Destination:** Cherrygrove City.
-- **Goal:** Reach Ecruteak City to resume Roamer hunt.
-- **Roamer Strategy:** Use Lugia (Speed 143) to outspeed and trap/damage.
+- **Master Ball Status:** CONFIRMED MISSING (Used on Lugia).
+- **Current Action:** Walking to Ecruteak City.
+- **Path:** New Bark -> Rt 29 -> Cherrygrove -> Rt 30 -> Rt 31 -> Violet -> Rt 36 -> Ecruteak.
+- **Roamer Strategy:** Lead with Lugia (Speed 143) to outspeed. Whittle HP or chuck Ultra Balls.
