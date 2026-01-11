@@ -5,7 +5,7 @@
 - WALL: Impassable.
 - WATER: Traversable with SURF.
 - TALL_GRASS / grass: Traversable.
-- DOOR / WARP / CAVE: Entry points.
+- DOOR / WARP / CAVE / WARP_CARPET_DOWN: Entry points.
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
 - MART_SHELF: Impassable.
