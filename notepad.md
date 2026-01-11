@@ -37,10 +37,10 @@
 - Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Current Status: Overworld, facing Snorlax. Radio not yet on Poke Flute.
-- Step 1: Open Pokegear Radio (Start, A).
-- Step 2: Tune needle to 20.0 (top center) using Up presses until "POKE FLUTE" appears.
-- Step 3: Exit menu (B, B), face Left, and interact with Snorlax (A).
+- Current Status: Overworld, (36, 8), facing Left. XENON is lead. Phone call from Dana finished.
+- Step 1: Open Start menu, navigate to POKEGEAR.
+- Step 2: In POKEGEAR, select Radio tab and tune to Frequency 20.0 (Poke Flute) by mashing Up.
+- Step 3: Exit menu and interact with Snorlax (A). (Turn 40427)
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement or menuing.
