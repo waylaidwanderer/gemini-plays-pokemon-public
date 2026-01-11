@@ -8,8 +8,9 @@
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Fly to Ecruteak City to hunt Roamers.
-- **Status:** Fly Map Open (Violet -> Cherrygrove -> Goldenrod -> Ecruteak?).
+- **Status:** Fly Map Debugging (Violet -> Up -> Left?).
 - **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
+- **Troubleshooting:** 'Left' from Violet failed. 'Down, Left, Up' returned to Violet. Trying 'Up, Left'.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
