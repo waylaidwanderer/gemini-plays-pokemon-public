@@ -20,10 +20,11 @@
 - **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
 
 ## Economy & Shopping
-- **Shopping Log - Celadon Dept Store 2F (Started Turn 41740):**
-    - Purchases: 10 Full Heals, 10 Max Potions, 10 Revives. Nugget sold.
+- **Celadon Dept Store Exploration (Started Turn 41740):**
+    - 1F: Directory checked.
+    - 2F: Stocked up on 12x Full Heal, 10x Max Potion, 10x Revive. Nugget sold.
+    - 3F: Arrived Turn 41804. Checking TM Shop.
 - **Long Term Shopping Plan:**
-    - 2F: Revives, Full Heals.
     - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Fury Cutter.
     - 4F (Wiseman Gifts): Purchase Evolution Stones.
     - 5F (Drugstore): Stat boosters.
@@ -39,12 +40,6 @@
 
 ## Strategy for Remaining Kanto Journey
 - **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
-- **Current Location:** Celadon City.
-- **Immediate Next Steps (HOW):**
-    1. Used 2x IRON and 1x RARE CANDY on Calcifer (Done).
-    2. Talk to Clerk at (7, 1) on 3F to see TMs.
-    3. Explore western/southern areas of 3F.
-    4. Move to 4F, 5F, and Rooftop.
 - **Strategic Plan for Kanto Badges:**
     1. Celadon (Rainbow) - COMPLETED.
     2. Fuchsia (Soul) - Next target. Use Cycling Road or Route 12-15.
@@ -57,3 +52,4 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
+- **Inventory Sync:** Turn 41813 Iron/Rare Candy usage needs verification once menu closes.
