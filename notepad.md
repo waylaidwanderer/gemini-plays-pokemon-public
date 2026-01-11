@@ -63,13 +63,13 @@
     - 6F: Buy drinks from vending machines. Give to thirsty girl for TMs.
     - Find Evolution Stones (still missing).
 
-## Strategy for 5F Exploration (Turn 41867)
-1. Talk to Sailor at (2, 5): Mentions PP UP can't be bought. (Done)
-2. Talk to Clerk 1 at (7, 5) and Clerk 2 at (8, 5) to check inventory. (Done)
-3. Talk to Teacher at (1, 7). (Done)
-4. Reveal all unseen tiles (Columns 8-15). (Done)
-5. Talk to Gentleman at (13, 4).
-6. Move to Rooftop.
+## Strategy for 6F Exploration (Turn 41905)
+1. Read Directory at (14, 0).
+2. Talk to Youngster (ID 2) at (14, 5).
+3. Talk to Super Nerd (ID 1) at (9, 2).
+4. Buy Fresh Water and Soda Pop from Vending Machines (8,1)-(11,1).
+5. Explore western unseen area (x < 7).
+6. Find thirsty girl and trade drinks for TMs.
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
