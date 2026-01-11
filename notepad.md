@@ -24,10 +24,10 @@
     - 1F: Directory checked.
     - 2F: Fully explored. Stocked up on healing items.
     - 3F: Arrived Turn 41804. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
-    - 4F: Arrived Turn 41838. Checking Wiseman Gifts.
+    - 4F: Arrived Turn 41838. Wiseman Gifts inventory: Poke Doll (¥1000), Lovely Mail (¥50), Surf Mail (¥50).
 - **Long Term Shopping Plan:**
-    - 4F (Wiseman Gifts): Verify Evolution Stones (Fire, Water, Leaf, Thunder).
-    - 5F (Drugstore): Stat boosters.
+    - 4F (Wiseman Gifts): Evolution Stones NOT sold here.
+    - 5F (Drugstore): Stat boosters. Check for Evolution Stones here.
     - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
 
 ## Celadon City Investigation
