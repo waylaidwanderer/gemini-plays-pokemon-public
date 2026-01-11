@@ -60,3 +60,6 @@
 - **Battle: Picnicker Hope (Route 4):** 
   - Opponent: Flaaffy (Lv34).
   - Strategy: Calcifer (Lv58) use Flame Wheel. (Turn 41018).
+- **Route 4:**
+  - Picnicker Hope (9, 8): DEFEATED (Turn 41020). Calcifer reached Lv59.
+  - Path: Heading East to Cerulean City. (Turn 41020).
