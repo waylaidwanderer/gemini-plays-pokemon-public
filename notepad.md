@@ -14,6 +14,6 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Currently in New Bark Town.
-- Attempting to Fly to Olivine City.
-- Previous cursor movement failed/didn't update. Retrying with more inputs.
+- Currently in Fly Menu.
+- Cursor at Violet City.
+- Moving West to reach Olivine City.
