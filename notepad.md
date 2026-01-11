@@ -67,3 +67,4 @@
 - Poke Flute: Confirmed at top of radio dial (Frequency 20) in Kanto. Requires EXPN card upgrade (verified obtained Turn 40164).
 - Turn 40232: Attempt 11 at Radio Tuning. Start menu cursor at GEM. Plan: Up, A, Right, Up (repeat), B, B.
 - Frequency 20 Verification: Music should change to Poke Flute melody.
+- Turn 40233: Attempt 12 at Radio Tuning. Start menu cursor at GEM. Plan: Up, A, Right, Right, Right. Verifying stations. Calling advisor.
