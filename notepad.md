@@ -61,3 +61,4 @@
 - Silver's Team: DEFEATED (Turn 40946).
 - Team Summary: Sneasel, Feraligatr, Golbat, Gengar, Alakazam, Magneton.
 - Victory: Calcifer (Typhlosion) finished with Flame Wheel.
+- **Mt. Moon Square:** Sign at (17, 7) says "MT. MOON SQUARE - DON'T LITTER". Gift Shop is at (13, 7). (Turn 40956).
