@@ -15,6 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Pokecenter (Mistake corrected).
-- Action: Flying to Goldenrod City.
-- Tool: Defining `pathfind` for future navigation.
+- Location: Mt. Silver Pokecenter (Inside).
+- Action: Exiting building to Fly.
+- Goal: Goldenrod City (Dept Store).
+- Tool: `pathfind` is ready.
