@@ -8,10 +8,10 @@
 - **Location:** Indigo Plateau.
 - **Goal:** Defeat all 5 trainers.
 - **Shopping List (Budget: ¥10294):**
-  - [ ] 5 Hyper Potions (Cost: 6000).
+  - [x] 5 Hyper Potions (Cost: 6000).
   - [ ] 2 Revives (Cost: 3000).
   - [ ] 2 Full Heals (Cost: 1200).
-  - Remaining: ¥94.
+  - Remaining: ¥4294.
 - **Strategy:**
   1. Buy supplies.
   2. Enter Elite Four.
