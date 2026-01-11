@@ -7,14 +7,13 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
-- **Status:** Engaging Karen.
-- **Immediate Actions:**
-  1. Interact with Karen (Press A).
-  2. Win the battle.
-- **Strategy for Karen:**
-  - **Umbreon:** Muscle (`Cross Chop` or `Strength`).
-  - **Vileplume:** Muscle (`Ice Punch`).
-  - **Gengar:** **SWITCH TO LUGIA** (`Psychic`). Muscle's Fighting/Normal moves avail nothing.
-  - **Murkrow:** Muscle (`Ice Punch` or `Thunderpunch`).
-  - **Houndoom:** Muscle (`Cross Chop`).
+- **Status:** Battling Karen.
+- **Opponent:** Umbreon (Incoming).
+- **Active:** Muscle (Lv87).
+- **Strategy:**
+  - **Umbreon:** Use `Strength` (Reliable) or `Cross Chop` (Super Effective).
+  - **Vileplume:** Use `Ice Punch`.
+  - **Gengar:** **SWITCH TO LUGIA** (Use `Psychic`).
+  - **Murkrow:** Use `Ice Punch` or `Thunderpunch`.
+  - **Houndoom:** Use `Cross Chop` or Lugia's `Hydro Pump`.
 - **Health Check:** Muscle 283/295 HP.
