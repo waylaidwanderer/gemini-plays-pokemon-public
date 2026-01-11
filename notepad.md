@@ -29,10 +29,6 @@
   - Picnicker Hope (9, 8): DEFEATED.
   - Bird Keeper Hank (17, 9): DEFEATED.
 
-## Strategy: Mt. Moon
-- **Exploration:** Multiple floors. Use ladders and mark them.
-- **Cerulean Exit:** FOUND. Transition via Route 4.
-
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
 - **Snorlax:** Occupies (34,8)-(35,9). Interact from (34,10) Up or (36,8) Left.
