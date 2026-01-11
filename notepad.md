@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Re-applying Max Repel -> Transitioning to Ecruteak.
+- **Action:** Repel Applied -> Transitioning to Ecruteak.
 - **Strategy:** Shuffle Ecruteak -> Return South -> Sweep Grass.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
