@@ -13,13 +13,13 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass (Pass 1).
-- **Strategy:** Zigzag sweep (Rows 2-5).
+- **Action:** Sweeping grass (Pass 1 - Continued).
+- **Strategy:** Continue zigzag sweep (Rows 4-6).
 - **Loop:** Sweep -> If no encounter -> Return to Ecruteak to shuffle.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34310.
+- **Current Turn:** 34311.
 - **Status:** Shuffled. Sweeping Route 37.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
