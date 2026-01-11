@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Selecting Fly Command.
+- **Status:** Flying to Ecruteak (Navigating Map).
 - **Current Iteration (65):**
   - Start Time: Turn 33901
-  - Location: Cherrygrove City
-  - Action: Select Mistral (A) -> Select Fly (A).
-  - Note: Cursor confirmed on Mistral. Selecting Fly to open map. Next: Navigate Up -> Left to Ecruteak.
+  - Location: Cherrygrove City -> Ecruteak City
+  - Action: Map Input (Left -> Up -> Left -> A -> A).
+  - Note: Screen confirms cursor at New Bark Town. Path: New Bark (Left) -> Cherrygrove (Up) -> Violet (Left) -> Ecruteak.
