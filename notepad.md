@@ -7,11 +7,11 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Buy Supplies at Celadon Dept Store.
+- **Immediate Task:** Exit Dept Store & Switch Party Order.
 - **Shopping List:**
   - 20 Max Repels (Cost: ¥14,000) - *Purchased*
-  - 25 Ultra Balls (Cost: ¥30,000) - *Setting Quantity to 25*
-- **Status:** Adjusting quantity from 99 to 25 (Up wraps to 1).
+  - 25 Ultra Balls (Cost: ¥30,000) - *Purchased*
+- **Status:** Finishing transaction.
 - **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
 
 # Store Inventories
