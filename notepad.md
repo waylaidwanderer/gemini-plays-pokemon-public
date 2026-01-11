@@ -44,3 +44,5 @@
   - **Strategy:** Verified. Roamers move on map transition. Repel (Lv36) filters correctly.
   - **Hygiene:** Logs consolidated. No critical tasks deferred.
   - **Plan:** Continue hunting loop. Define helper tool if fatigue sets in.
+  - Result: No encounter (~50 steps).
+  - Action: Resetting map (Route 37 -> Ecruteak).
