@@ -17,6 +17,7 @@
 ## Progress Tracking
 - **Objective: Defeat Misty at Cerulean Gym**
   - Started: Turn 41251
+  - Timestamp: Turn 41251 (approx. 4 hours ago)
 - **Find Misty Quest:** Completed Turn 41238.
 
 ## Party Management
@@ -41,7 +42,6 @@
 - **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
 - **Avoid:** Do not use Gneiss (Rock/Ground) as he is double-weak to Water.
 - **Backup:** Xenon can provide status support with Hypnosis if needed.
-- **Error Log (Turn 41290):** Accidentally used Protein on LAPIS instead of Calcifer due to incorrect menu indexing in the Pokémon selection screen. Always verify cursor position before confirming item use.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
@@ -49,3 +49,4 @@
 - **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
 - **Menu Sequence:** Ensure dialogue is clear before menu inputs. Break sequences into small chunks.
+- **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position before confirming item use in menus.
