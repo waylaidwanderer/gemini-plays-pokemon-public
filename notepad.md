@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (9,5).
-- **Action:** Applying Max Repel (Pass 36).
+- **Action:** Resuming Sweep (Pass 36). Resetting to Gate.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 32/Turn 34549). Next: Pass 37.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
