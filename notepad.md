@@ -14,6 +14,7 @@
 # Current Status
 - **Location:** Ecruteak City (South Exit).
 - **Next:** Dismiss Repel Msg -> Return to Route 37 -> Re-apply Max Repel -> Grass Check.
+- **Note:** "Repel wore off" message persists. Clearing confirms.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
