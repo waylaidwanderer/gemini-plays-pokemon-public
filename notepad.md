@@ -25,9 +25,16 @@
     - 2F: Fully explored. Stocked up on healing items (Full Heal, Max Potion, Revive).
     - 3F: Fully explored. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
     - 4F: Fully explored. Wiseman Gifts inventory: Poke Doll, Lovely Mail, Surf Mail. No Evolution Stones.
+    - 5F: Arrived Turn 41863. Checking Drugstore.
 - **Long Term Shopping Plan:**
-    - 5F (Drugstore): Stat boosters. Check for Evolution Stones.
+    - 5F (Drugstore): Check for stat boosters and Evolution Stones.
     - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
+
+## Strategy for 5F Exploration (Turn 41864)
+1. Talk to Sailor at (2, 4).
+2. Talk to Clerks at (7, 5) and (8, 5) to check inventory.
+3. Reveal all unseen tiles.
+4. Move to Rooftop.
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
