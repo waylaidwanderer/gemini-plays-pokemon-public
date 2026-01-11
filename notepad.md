@@ -39,12 +39,10 @@
   - Swimmer Diana (4, 6): DEFEATED.
   - Swimmer (8, 9): Next target.
 
-## Strategy for Misty (Cerulean Gym) - COMPLETED
-- **Typing:** Misty uses Water-types.
-- **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
-- **Quagsire (Water/Ground):** Defeated.
-- **Lapras (Water/Ice):** Defeated.
-- **Starmie:** Defeated.
+## Cerulean Gym Cleanup
+- Start Turn: 41362
+- Objective: Defeat the final swimmer at (8, 9).
+- Strategy: Interact from (9, 9) facing Left.
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
