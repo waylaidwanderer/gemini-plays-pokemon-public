@@ -21,8 +21,6 @@
 
 ## Economy & Shopping
 - **Shopping Log - Celadon Dept Store 2F (Started Turn 41740):**
-    - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion, Revive, Super Repel, Max Repel.
-    - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal.
     - Purchases: 10 Full Heals, 10 Max Potions, 10 Revives. Nugget sold.
 - **Long Term Shopping Plan:**
     - 2F: Revives, Full Heals.
@@ -42,10 +40,11 @@
 ## Strategy for Remaining Kanto Journey
 - **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
 - **Current Location:** Celadon City.
-- **Immediate Next Steps:**
-    1. Finish exploring Celadon Dept Store.
-    2. Check Game Corner.
-    3. Head to Fuchsia City via Cycling Road or Silence Bridge.
+- **Immediate Next Steps (HOW):**
+    1. Use 2x IRON on Calcifer to free bag slots.
+    2. Talk to Clerk at (7, 1) on 3F to see TMs.
+    3. Explore western/southern areas of 3F.
+    4. Move to 4F, 5F, and Rooftop.
 - **Strategic Plan for Kanto Badges:**
     1. Celadon (Rainbow) - COMPLETED.
     2. Fuchsia (Soul) - Next target. Use Cycling Road or Route 12-15.
