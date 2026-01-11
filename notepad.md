@@ -9,7 +9,7 @@
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
 - LEDGE_HOP_DOWN: One-way North to South.
-- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable. Seen in Celadon Mansion.
+- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable. These look like floor tiles but act as walls. Verified on Celadon Mansion Roof.
 - OBJECTS (NPCs/Items): Impassable.
 - WARP_CARPET_DOWN: Exit point.
 - PC / BOOKSHELF: Impassable.
