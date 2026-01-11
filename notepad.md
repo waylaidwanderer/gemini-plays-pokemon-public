@@ -68,4 +68,9 @@
     - Super Potion: ¥700
     - Hyper Potion: ¥1200
     - Max Potion: ¥2500
-- Plan: Scroll down to check for Revives and Full Heals before buying.
+    - Revive: ¥1500
+    - Super Repel: ¥500
+    - Max Repel: ¥700
+- Note: Clerk 1 does NOT sell Full Heals.
+- Plan: Check Clerk 2 for Full Heals, then buy supplies.
+- Exploration: Western half of 2F (Column 0-8) is unseen. Reachable via (10,3).
