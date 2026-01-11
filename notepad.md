@@ -34,32 +34,31 @@
 - Icarus (Lv 19 Pidgeotto): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
 - Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
 - Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
-- KIMCHI (Lv 46 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
+- KIMCHI (Lv 47 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3). Gap in Row 3 at (24,3) or (25,3).
-- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:12 PM).
-- **Picnicker Tanya:** Currently battling. Exeggutor (Lv 37) out.
+- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 1:14 PM).
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **NPC Info:**
     - Teacher (5,13): Dept Store has best selection.
     - Teacher (Game Corner): Girls play slots now.
-- **Celadon Gym (Erika):**
-    - Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
-    - Garden NPCs: Gramps (8,31) says only girls allowed in Gym.
-    - Gym Entrance: Warp at (10, 29).
 
-## Strategy & Lessons Learned
-- **Celadon Pillars:** Column 12 (Rows 16-21) and Column 36 (Rows 22-26) are WALL tiles.
-- **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
+## Celadon Gym (Erika)
+- **Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
+- **Gym Entrance:** Warp at (10, 29).
+- **Trainer Roster:**
+    - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678. Victreebel (Lv 35), Vileplume (Lv 35).
+    - Picnicker Tanya (2,8): DEFEATED Turn 41683. Exeggutor (Lv 37).
+    - Lass (7,8): Pending.
+    - Beauty (3,5): Pending.
+
+## Erika Battle Strategy
+- **Opponent Levels:** Erika's team peaks at Lv 46.
+- **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
+- **Preparation:** Calcifer (Lv 60) is overleveled and has a type advantage. Carry status heals for Sleep/Stun moves.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn). Link markers to Object IDs.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
-## Erika Battle Strategy
-- **Opponent Levels:** Preliminary trainers ~Lv 35. Erika's team peaks at Lv 46.
-- **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
-- **Preparation:** Calcifer (Lv 60) is overleveled and has a type advantage. Carry status heals for Sleep/Stun moves.
-- **Gym Layout:** Indoor garden with ledges and gaps. Entrance at (10, 29). Statues at (3, 15) and (6, 15).
-- **Twins Jo & Zoe:** DEFEATED Turn 41678. Victreebel (Lv 35) and Vileplume (Lv 35) taken out.
