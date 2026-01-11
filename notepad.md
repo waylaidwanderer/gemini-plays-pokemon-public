@@ -77,3 +77,7 @@
 - Turn 40286: Spotted Youngster at (28, 7) on Route 11.
 - Navigation: Continuing west to find Snorlax.
 - Note: Snorlax should be a large sprite blocking the path. I will tune the radio ONLY when adjacent to it.
+## Battle Log: Psychic Herman (Route 11)
+- Turn 40289: Battle started. Calcifer (58) vs Unknown.
+- Strategy: Use Calcifer's high level to sweep.
+- Note: Psychics usually use high Special Attack. Avoid using Gneiss if possible.
