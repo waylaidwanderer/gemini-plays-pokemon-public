@@ -9,24 +9,17 @@
 - LADDER / STAIRCASE: Moves between floors.
 - COUNTER: Impassable. Interact from front.
 - LEDGE_HOP_DOWN: One-way North to South.
-- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable. Verified on Celadon Mansion Roof.
+- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable.
 - OBJECTS (NPCs/Items): Impassable.
 - WARP_CARPET_DOWN: Exit point.
 - PC / BOOKSHELF: Impassable.
-
-## Battle Mechanics
-### Type Effectiveness: Grass (Gym Leader Erika)
-- Weak to: Fire (Calcifer), Ice (TM33), Flying (Icarus), Poison (Kimchi/Xenon), Bug.
-- Resistant to: Water, Electric, Grass, Ground.
-- Super effective against: Water, Ground, Rock.
-- Not very effective against: Fire, Grass, Poison, Flying, Bug, Dragon, Steel.
 
 ## Progress Tracking
 - **Badges Obtained (13/16):** 
     - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
     - Kanto (5/8): Boulder, Cascade, Thunder, Marsh, Rainbow.
-- **Gym Statues:** Located at (3, 15) and (6, 15).
-- **Current Target:** Explore Celadon City.
+- **Celadon Gym (Erika):** DEFEATED Turn 41721. Received Rainbow Badge and TM19 (Giga Drain).
+- **Current Target:** Explore Celadon City (Dept Store, Game Corner).
 
 ## Party Management
 - Calcifer (Lv 61 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
@@ -41,19 +34,13 @@
 - **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
 - **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
 - **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
-- **Trainer Roster:**
-    - Twins Jo & Zoe (4,10 & 5,10): DEFEATED Turn 41678.
-    - Picnicker Tanya (2,8): DEFEATED Turn 41683.
-    - Lass Michelle (6,8): DEFEATED Turn 41693.
-    - Beauty Julia (3,5): DEFEATED Turn 41705.
-    - Erika (5,3): DEFEATED Turn 41721. Received Rainbow Badge and TM19 (Giga Drain).
 
-## Erika Battle Strategy
-- **Opponent Levels:** Erika's team peaks at Lv 46.
-- **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
-- **Preparation:** Calcifer (Lv 61) is overleveled and has a type advantage.
+## History & Battle Data
+- **Erika Strategy (Defeated):** Lv 42-46 team. Uses Sunny Day + Solar Beam. Calcifer (Fire) swept.
+- **Gym Trainers:** Jo & Zoe, Tanya, Michelle, Julia all defeated.
 
 ## General Lessons & Error Log
-- **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
-- **NPC Interaction:** Face the NPC (one turn) then press A (next turn). Link markers to Object IDs.
-- **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
+- **NPC Interaction:** Face the NPC then press A. Link markers to Object IDs.
+- **Ledges:** Hop down south only.
+- **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
+- **Tool Maintenance:** Always ensure tool logic includes all traversable types (DOOR, STAIRCASE, etc.). Fix immediately when missing types are identified.
