@@ -1,4 +1,3 @@
-# persistent_knowledge
 ## Tile Mechanics (Global)
 - FLOOR: Traversable. Standard collision.
 - WALL: Impassable.
@@ -19,7 +18,7 @@
 - Type Effectiveness (Poison): Weak to Ground, Psychic.
 
 ## PC Storage (Box 1)
-- 1. SPINARAK (Lv13), 2. GLAIVE (SCYTHER) (Lv14), 3. SELKIE (SEEL) (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
+- 1. AAAAAAAAAA (SPINARAK) (Lv13), 2. GLAIVE (SCYTHER) (Lv14), 3. SELKIE (SEEL) (Lv24), 4. DELTA (MANTINE) (Lv20), 5. RANGOON (KRABBY) (Lv22), 6. NOMURA (TENTACOOL) (Lv17), 7. Ravioli (KRABBY) (Lv10), 8. Ouroboros (DRATINI) (Lv15)
 
 ## Movesets (HM Users)
 - KIMCHI (GLOOM): Lv41 | FLASH, MOONLIGHT, CUT, SLEEP POWDER
@@ -35,14 +34,15 @@
 - Status: Active (Power restored Turn 39771).
 - Requirement: PASS (Obtained from Copycat).
 
-## Saffron Gym Challenge (Completed)
-- **Status:** Marsh Badge obtained (Turn 39878).
-- **Sabrina Dialogue:** Confirmed she does not give a TM in this version after multiple interactions.
-- **Shortest Path (Out):** MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
-
 ## Machine Part Quest
 - **Location:** Suspected to be in the water at Cerulean Gym (based on Rocket Grunt dialogue and Itemfinder pings at 3,7 and 4,7).
 - **Status:** Not yet retrieved. Power Plant remains inactive.
+- **Started:** Turn 39929.
+
+## Completed Objectives
+- **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
+  - Path In: BC (11, 15) -> BR (15, 15) -> TR (15, 5) -> TL (1, 5) -> MC (11, 9).
+  - Path Out: MC (11, 9) -> TL (1, 3) -> TR (19, 3) -> BR (19, 17) -> BC (Entrance).
 
 ## Lessons Learned
 - **Menu Mechanic:** The overworld menu loops. The cursor remembers its last position. To reset, press B multiple times.
