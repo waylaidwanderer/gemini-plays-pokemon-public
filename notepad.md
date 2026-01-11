@@ -54,3 +54,15 @@
 
 ## Route 5 Interests
 - **House for Sale:** Located at (10, 11). Landmark.
+## Reflection (Turn 40118)
+1. **Immediate Execution:** No deferred tasks identified.
+2. **Notepad Hygiene:** Added "Tile Mechanics" and "Time Tracking" in recent turns. Sections are organized.
+3. **Map Hygiene:** Markers for Route 8 are up to date.
+4. **Automation Strategy:** Refined `find_path_v4` usage; `strategy_advisor` used to verify Kanto goals.
+5. **Goal Clarity:** Goals are outcome-focused.
+6. **Error Analysis:** Documented `find_path_v4` limitation regarding moving NPCs. Verified warp carpet mechanics at map edges.
+
+## General Lessons (Update)
+- **Warp Carpets:** At map edges, moving "off" the map (e.g., Right into a WALL at (39, 22)) triggers the warp.
+- **Ledges:** Jumping down ledges (LEDGE_HOP_DOWN) is a scripted movement that advances the player two tiles south.
+- **Custom Tool Failures:** If `find_path_v4` returns null or fails, it may be due to the destination being an "impassable" tile (like an unseen tile or NPC). Target an adjacent walkable tile instead.
