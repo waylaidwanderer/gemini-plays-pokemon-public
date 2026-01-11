@@ -46,6 +46,12 @@
 - **Time Tracking:** Started Turn 39950.
 - **Strategy:** Surf in the pools and check tiles in the center. Proximity pings at (3,7) and (4,7) but "Nope!" at (3,8) strongly suggest the item is in the northern pool (e.g., (3,6), (4,6), (3,5), (4,5)).
 - **Itemfinder Mechanic:** In Pokemon Crystal, the Itemfinder pings if an item is within 4 tiles. It may return "Nope!" if the player is standing directly on the item or if it's out of range. If pings exist nearby, "Nope!" at a specific tile can imply the item is on that tile or in the opposite direction.
+- **Hypothesis:** The Machine Part is on a specific water tile in Cerulean Gym. Candidates based on previous Itemfinder pings: (3, 6), (4, 6), (3, 5), (4, 5).
+- **Verification Plan:**
+    1. Surf into the northern pool.
+    2. Use Itemfinder at (4, 6).
+    3. If Itemfinder pings, check adjacent tiles.
+    4. If Itemfinder says "Nope!", interact with the current tile.
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
