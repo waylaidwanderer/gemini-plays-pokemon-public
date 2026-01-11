@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Current State: Selecting Fly on Mistral.
+- Current State: Fly Map Open (Cursor at New Bark Town).
 - Goal: Goldenrod City.
-- Next: Navigate cursor to Goldenrod and land.
-- Tool: `pathfind` is ready.
+- Plan: `Left` x3 (to Violet/Ecruteak) -> `Down` (to Goldenrod).
+- Tool: `sequence_press` with delays for reliability.
