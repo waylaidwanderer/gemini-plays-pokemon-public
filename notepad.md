@@ -4,8 +4,8 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37 (North).
-- **Action:** Finishing Pass 20 -> Transitioning to Ecruteak.
+- **Location:** Transitioning to Ecruteak City.
+- **Action:** Shuffling -> Starting Pass 21.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Turn 34446).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
@@ -17,3 +17,4 @@
 
 # Lessons Learned
 - **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees. Recent collisions indicate I need to give them a wider berth or check coordinates more closely.
+- **System:** Position desync detected at Turn 34477. Verify location frequently.
