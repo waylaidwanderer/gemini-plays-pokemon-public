@@ -70,15 +70,17 @@
 - **Healing Task:** Started Turn 40974. Using Lemonade on GNEISS. (Turn 40981).
 ## Strategy: Mt. Moon Square Exploration
 - **Goal:** Reach the western edge (1, 8).
-- **Obstacles:** Walls at X=3, 4 and X=11. Ledges at Y=11.
+- **Obstacles:** Walls at X=3, 4, 11, 15, 19, 20, 23, 25. Ledges at Y=11, 14.
 - **Hypothesis:** The map has tiers.
   - Top Tier (Row 1-2): Reachable via (13, 3) gap.
-  - Middle Tier (Row 4-13): Separated by walls at X=11.
-  - Bottom Tier (Row 15-17): Reachable via ledges at Y=11 or Y=14?
+  - Middle Tier (Row 4-13): Divided by boxes and walls.
+  - Bottom Tier (Row 15-17): Below the Y=14 ledge.
 - **Verified Path to (1, 8):**
-  1. Move to (15, 11) - a gap in the ledge/wall system.
-  2. Move North to (15, 3).
-  3. Move West to (13, 3) and North into the Top Tier at (13, 2).
-  4. Move West along Top Tier to (1, 2).
-  5. Move South to (1, 8).
-- **Status:** At (7, 12). Repel active. Calcifer leading. (Turn 41003).
+  1. From (15, 11), move to (19, 10).
+  2. Move North to (19, 6).
+  3. Move East to (22, 6).
+  4. Move North to (22, 2) - bypassing the box walls.
+  5. Move West to (13, 2).
+  6. Move West along Top Tier to (1, 2).
+  7. Move South to (1, 8).
+- **Status:** At (15, 11). Repel active. Calcifer leading. (Turn 41004).
