@@ -6,12 +6,9 @@
 
 ## Current Task: Traverse Victory Road (1F)
 - **Location:** Victory Road 1F (West Section).
-- **Goal:** Reach East Section North of Row 52 to find Ladder UP.
-- **Hypothesis:** `FLOOR_UP_WALL` tiles (Row 52) might be passable Northbound (or they are ledges).
-- **Plan:**
-  1. Navigate to (11, 53) via (5, 57) to avoid potential blockage at (6, 56).
-  2. Test moving North into `FLOOR_UP_WALL` at (11, 52).
-  3. If successful, find Ladder to 3F.
+- **Goal:** Reach Ladder at (17, 33).
+- **Route:** (11, 52) -> (12, 52) -> (12, 51) -> North to (17, 33).
+- **Hypothesis:** `FLOOR_UP_WALL` tiles on Row 52 allow movement East and North into the corridor at Col 12.
 
 ## Status
 - **Money:** ¥3294.
