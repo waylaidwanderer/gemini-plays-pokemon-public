@@ -7,14 +7,13 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Clear Phone Call -> Head to Route 37.
-- **Status:** In Ecruteak City (Phone Call Active).
+- **Immediate Task:** Head to Route 37 -> Use Max Repel -> Hunt.
+- **Status:** Moving to Route 37.
 - **Strategy:**
-    1. Clear Gaven's call.
-    2. Head South to Route 37.
-    3. Use Max Repel.
-    4. Run in grass (Lv36 Gyarados leader filters all but Roamers).
-    5. If no encounter, transition map (Ecruteak <-> Route 37) to reset Roamers.
+    1. Enter Route 37.
+    2. Use Max Repel.
+    3. Run in grass (Lv36 Gyarados leader filters all but Roamers).
+    4. If no encounter, transition map (Ecruteak <-> Route 37) to reset Roamers.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
