@@ -16,4 +16,5 @@
 # Status Update
 - Currently in Fly Menu.
 - Cursor at Violet City.
-- Moving West to reach Olivine City.
+- Stuck at Violet City despite pressing Left.
+- Trying `Left`, `Up`, `Left` to navigate to Ecruteak/Olivine.
