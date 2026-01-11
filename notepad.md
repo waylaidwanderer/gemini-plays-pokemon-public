@@ -38,5 +38,5 @@
 - **Current Iteration (25):**
   - Start Time: Turn 33633
   - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Repel active (Refreshed Turn 33590). Steps remaining: ~180.
+  - Action: Re-applying Repel.
+  - Note: Repel expired at Turn 33634. Re-applying Max Repel.
