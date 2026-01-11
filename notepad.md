@@ -37,11 +37,11 @@
 - Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Current Status: Dialogue "SNORLAX is snoring peacefully..." is open. Swap and Radio setup pending.
-- Step 1: Close dialogue, open Start menu, select POKEMON.
-- Step 2: Swap XENON to lead.
+- Current Status: Start menu open, cursor on POKEDEX. Swap and Radio setup in progress.
+- Step 1: Open Start menu, select POKEMON. (Done)
+- Step 2: Swap XENON (slot 3) to lead. (In progress)
 - Step 3: Exit POKEMON, select POKEGEAR, tune Radio to 20.0.
-- Step 4: Close Pokegear and interact with Snorlax.
+- Step 4: Close Pokegear, face Left, and interact with Snorlax.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement or menuing.
