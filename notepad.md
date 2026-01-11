@@ -37,12 +37,12 @@
 ## EXPN Card Sub-Quest
 - **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
 - **Start Turn:** 40441.
-- **Status:** In Lavender Town, heading to Radio Tower entrance (14, 5).
+- **Status:** Inside Radio Tower 1F. Heading to Station Manager at (9, 1). Note: Previous marker "EXPN Card obtained" at (9, 1) appears to be an error as the card is missing from Pokegear Cards list.
 - **Plan:**
-  1. Enter Radio Tower at (14, 5).
-  2. Speak to Station Manager (10, 1) on 1F to get EXPN Card.
-  3. Verify EXPN Card in Pokegear Cards.
-  4. Return to Snorlax.
+  1. Navigate to (9, 2) and face Up.
+  2. Speak to Station Manager (Object ID 4) at (9, 1).
+  3. Verify "EXPN" card appears in Game State Info.
+  4. Once confirmed, return to Snorlax.
 
 ## General Lessons & Error Log
 - **Missing Prerequisite:** Spent 120+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
