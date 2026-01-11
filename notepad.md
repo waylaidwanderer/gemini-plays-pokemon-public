@@ -1,19 +1,20 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Tile Mechanics (Verified Traversability)
-- FLOOR: Traversable.
-- WALL: Impassable.
-- WATER: Traversable with SURF.
-- TALL_GRASS / grass: Traversable.
-- DOOR / WARP / CAVE / WARP_CARPET_DOWN: Entry points.
-- LADDER / STAIRCASE: Moves between floors.
-- COUNTER: Impassable. Interact from front.
-- MART_SHELF: Impassable.
-- LEDGE_HOP_DOWN: One-way North to South.
-- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Impassable.
+## Tile Mechanics (Verified Behavior)
+- FLOOR: Standard traversable tile. No special effects.
+- WALL: Impassable collision. Blocks all movement.
+- WATER: Impassable on foot. Requires SURF to traverse.
+- TALL_GRASS / grass: Standard traversable tile. May trigger wild encounters.
+- DOOR / WARP / CAVE: Entry/exit points. Stepping on them triggers a map transition.
+- WARP_CARPET_DOWN: Entry/exit point. Functions like a DOOR/WARP.
+- LADDER / STAIRCASE: Vertically connects different maps or floors.
+- COUNTER: Impassable collision. Blocks movement but allows interaction with NPCs behind it if faced from an adjacent tile.
+- MART_SHELF: Impassable collision. Blocks all movement.
+- LEDGE_HOP_DOWN: One-way traversal. Can only be crossed from North to South.
+- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Collision that blocks movement in the specified direction.
 - WARP_CARPET: (7,3) and (8,3) in Celadon Dept Store 5F are traversable floor tiles, not active warps. (Verified Turn 41878)
-- OBJECTS (NPCs/Items): Impassable.
-- PC / BOOKSHELF: Impassable.
+- OBJECTS (NPCs/Items): Impassable collision. Must be navigated around. Interaction possible from adjacent tiles.
+- PC / BOOKSHELF: Impassable collision. Interaction possible from adjacent tiles.
 
 ## Battle and Pokemon Information
 ### Party Movesets
