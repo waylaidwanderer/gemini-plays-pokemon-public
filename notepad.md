@@ -46,7 +46,7 @@
   - **Plan:** Continue hunting loop. Define helper tool if fatigue sets in.
   - Result: No encounter (~50 steps).
   - Action: Resetting map (Route 37 -> Ecruteak).
-- **Iteration 13 Result:** No encounter.
-- **Current Iteration (14):**
-  - Start Time: Turn 33608
-  - Action: Map Reset (Up/Down) + High efficiency hunt loop.
+- **Iteration 14 Result:** No encounter.
+- **Current Iteration (15):**
+  - Start Time: Turn 33609
+  - Action: Reset (Up) -> Enter (Down) -> Hunt (Wiggle) -> Exit (Up).
