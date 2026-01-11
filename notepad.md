@@ -34,6 +34,8 @@
 - **Snorlax:** Occupies (34,8)-(35,9). Interact from (34,10) Up or (36,8) Left.
 - **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
 
+- **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call. It results in only the first button being pressed.
+
 ## Cerulean City & Surroundings
 - **Cerulean City Ledge Navigation:** The path around the ledges to reach the northern area (33, 23) involves going south to (32, 30), then east and north.
 - **NPC Info:** Fisher (31, 26) is a fan of Misty but has no location info.
