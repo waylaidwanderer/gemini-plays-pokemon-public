@@ -38,9 +38,9 @@
 - **Stats:** 27 Iterations. 0 Encounters.
 - **Current Status:** Iteration 28 Starting.
 - **Current Iteration (28):**
-  - Start Time: Turn 33654
-  - Location: Route 37 (Transitioning)
-  - Action: Map Reset (Rt 37 -> Ecruteak -> Rt 37).
+  - Start Time: Turn 33655
+  - Location: Ecruteak City
+  - Action: Re-entering Route 37 (Reset Complete).
   - Note: Repel active.
 
 # Reflection (Turn 33644)
