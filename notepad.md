@@ -14,7 +14,8 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- At Olivine Port (15_1).
-- Heading South down the pier to board S.S. Aqua.
-- Goal: Find the Sailor to check ticket.
+- At Olivine Port Pier.
+- Navigating to S.S. Aqua entrance at (7, 17).
+- Expecting a Sailor at (6, 15) who might check the ticket.
+- Goal: Board S.S. Aqua to Vermilion City.
 - Reminder: Wade (Rt 31) has berries (ignoring for now).
