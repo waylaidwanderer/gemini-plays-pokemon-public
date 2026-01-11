@@ -16,6 +16,7 @@
 
 # Status Update
 - Location: Fly Map (Cursor at Silver Cave).
-- Observation: Navigation logic seems inconsistent or map wraps.
-- Action: Moving `Left` x8 to reset cursor to far West (Cianwood/Olivine).
-- Goal: Locate known anchor (Cianwood) then route to Goldenrod.
+- Action: Navigate to Goldenrod City.
+- Hypothesis: Silver Cave (East) -> Left -> New Bark -> Left -> Violet -> Left -> Ecruteak -> Down -> Goldenrod.
+- Input: `Left` x3, `Down`.
+- Next: Verify destination text.
