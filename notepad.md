@@ -65,6 +65,6 @@
   4. GENGAR (Lv43): DEFEATED.
   5. ALAKAZAM (Lv43): DEFEATED.
   6. MAGNETON (Lv41): Active.
-- Current Matchup: GNEISS (Lv54, 44 HP, 0 EQ PP) vs Magneton.
-- Strategy: Switch to Calcifer (Lv58) to use Flame Wheel (Super Effective).
-- Lesson: Harness "Leading" always shows Slot 1. Check screen/HP for active Pokemon. (Turn 40941).
+- Current Matchup: Calcifer (Lv58) vs Magneton.
+- Strategy: Use Flame Wheel (Super Effective).
+- Lesson: Verify active Pokemon via screen; "Leading" in Game State only shows Slot 1. (Turn 40944).
