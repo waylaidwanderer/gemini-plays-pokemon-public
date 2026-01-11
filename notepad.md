@@ -68,3 +68,15 @@
     - MART_SHELF, COUNTER, BOOKSHELF, RADIO, INCENSE_BURNER: Impassable.
     - grass (in Mt. Moon Square): Traversable, potential wild encounters. (Turn 40981).
 - **Healing Task:** Started Turn 40974. Using Lemonade on GNEISS. (Turn 40981).
+## Strategy: Mt. Moon Square Exploration
+- **Goal:** Reach the western edge (1, 8).
+- **Obstacles:** Walls at X=3, 4 and X=11. Ledges at Y=11.
+- **Hypothesis:** The map has three tiers.
+  - Top Tier: Y=1, 2. Reachable via (13, 3) gap?
+  - Middle Tier: Y=5-10 (Box) and Y=12-13.
+  - Bottom Tier: Y=15-17.
+- **Plan:**
+  1. Exit the (5-10, 5-10) box via (7, 11) passage.
+  2. Explore the middle tier (Y=12, 13).
+  3. Find a way to the western edge (X=1, 2).
+- **Status:** At (10, 10). Repel active. Calcifer leading. (Turn 41002).
