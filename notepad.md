@@ -37,4 +37,4 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Select Pokemon (Step 2 of Manual Fly).
+- **Current Action:** Select Mistral (Step 3 of Manual Fly).
