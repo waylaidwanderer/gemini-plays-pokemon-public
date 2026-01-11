@@ -21,7 +21,7 @@
 - grass: Traversable. (Turn 40984).
 
 ## Party Management
-- **Current Lead:** GNEISS (GRAVELER Lv53). (Healed Turn 40790).
+- **Current Lead:** Calcifer (TYPHLOSION Lv58). (Turn 40991).
 - **HM Users:** ICARUS (FLY), LAPIS (SURF/WATERFALL/WHIRLPOOL), KIMCHI (CUT/FLASH), GNEISS (STRENGTH/ROCK SMASH).
 
 ## Battle Strategies
