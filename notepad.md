@@ -26,7 +26,7 @@
     - 3F: Arrived Turn 41804. TM Shop inventory: TM10, TM11, TM17, TM18, TM37.
     - 4F: Arrived Turn 41838. Checking Wiseman Gifts.
 - **Long Term Shopping Plan:**
-    - 4F (Wiseman Gifts): Purchase Evolution Stones.
+    - 4F (Wiseman Gifts): Verify Evolution Stones (Fire, Water, Leaf, Thunder).
     - 5F (Drugstore): Stat boosters.
     - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
 
@@ -54,10 +54,9 @@
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Inventory Sync:** Calcifer is Lv 62. 2x IRON and 1x RARE CANDY used successfully. Bag slots cleared.
 
-## Reflection Turn 41838
-- **Immediate Execution:** No deferred tasks.
-- **Notepad Hygiene:** Reorganized and removed redundant logs. Added arrival turn for 4F.
-- **Map Hygiene:** Markers on 3F fixed. Elevator markers updated.
-- **Automation Strategy:** find_reachable_unseen_tiles logic fixed. strategic_planner_v2 defined.
-- **Goal Clarity:** Goals are concrete outcomes.
-- **Error Analysis:** Marker map_id formatting lesson learned. Inventory sync confirmed.
+## Reflection Turn 41844
+- **Immediate Execution:** Fixed tool logic, refined agent, cleaned markers.
+- **Notepad Hygiene:** Deleted redundant 2F log and completed tasks.
+- **Map Hygiene:** Marked 4F Clerk.
+- **Hypothesis Testing:** Verifying if Wiseman Gifts sells Evolution Stones.
+- **Goal Clarity:** Goals are concrete outcomes. Methods in notepad.
