@@ -75,3 +75,7 @@
 - Turn 40246: Finished healing at Lavender Pokemon Center. Team is at full strength.
 - Plan: Exit Pokemon Center and head south to Route 12 to find Snorlax.
 - Radio Strategy (Revised): Stand in front of Snorlax before tuning. Use 1x Down to reach Gear from POKEDEX (since I was on POKEDEX last time, the cursor might have moved). Wait, cursor usually resets to POKEMON or stays where it was. I'll verify visually.
+- Turn 40251: Exited Pokemon Center. Team fully healed.
+- Goal: Head south to Route 12 to find Snorlax.
+- Menu Check: Menu cursor usually resets to POKEMON or stays on the last used item (POKEDEX). I will verify this visually when I next open the menu.
+- Radio Strategy (Final): Stand directly in front of Snorlax at the Route 12/11 junction. Open Gear, Right to Radio, Up to Frequency 20. Verify Poke Flute music. Interact with Snorlax.
