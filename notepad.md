@@ -1,25 +1,24 @@
 # Gem's Pokémon Crystal Knowledge Base
 
 ## Tile Mechanics (Verified Traversability)
-- FLOOR: Traversable. Standard movement.
-- WALL: Impassable. Blocks all movement.
-- WATER: Traversable with SURF (requires Move + Badge).
-- TALL_GRASS / LONG_GRASS: Traversable. Wild encounters possible.
-- grass: Traversable. Standard movement.
-- DOOR / WARP / CAVE: Entry points to different maps or areas.
-- LADDER: Traversable. Moves between floors.
-- COUNTER: Impassable. Interact from the tile directly in front.
-- LEDGE_HOP_DOWN: One-way jump down (North to South).
-- FLOOR_UP_WALL: Impassable from North (ledge collision type).
-- CUT_TREE: Impassable until CUT is used; then becomes FLOOR.
-- OBJECTS (NPCs/Items): Impassable. Interact from adjacent tile.
-- WARP_CARPET_DOWN: Traversable. Exit point. (Verified at Pokecenter exit)
-- PC / BOOKSHELF: Impassable. (Verified at Pokecenter)
+- FLOOR: Traversable.
+- WALL: Impassable.
+- WATER: Traversable with SURF.
+- TALL_GRASS / grass: Traversable.
+- DOOR / WARP / CAVE: Entry points.
+- LADDER / STAIRCASE: Moves between floors.
+- COUNTER: Impassable. Interact from front.
+- LEDGE_HOP_DOWN: One-way North to South.
+- FLOOR_UP_WALL: Impassable from North.
+- CUT_TREE: Requires HM01 CUT.
+- OBJECTS (NPCs/Items): Impassable.
+- WARP_CARPET_DOWN: Exit point.
+- PC / BOOKSHELF: Impassable.
 
 ## Progress Tracking
-- **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
+- **Find Misty Quest:** Completed Turn 41238.
 - **Misty Defeated:** Turn 41351. Received Cascade Badge.
-- **Cerulean Gym Cleanup:** COMPLETED (Turn 41366). All trainers handled.
+- **Cerulean Gym Cleanup:** COMPLETED Turn 41366.
 - **Celadon City Arrival:** Turn 41410.
 
 ## Time Tracking
@@ -27,37 +26,30 @@
 - **Celadon Mansion Exploration:** Started Turn 41442.
 
 ## Party Management
-- **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
-- **Kimchi (Lv 46):** Gloom. Grass/Poison. (Healed at Turn 41380).
-- **Xenon (Lv 44):** Haunter. Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- **Lapis (Lv 12):** Poliwag. Surf, Whirlpool, Waterfall.
-- **Gneiss (Lv 54):** Graveler. Earthquake, Rollout, Strength.
-- **Icarus (Lv 19):** Pidgeotto. Fly. (Fly usable outside battle with Storm Badge).
+- Calcifer (Lv 60 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
+- Kimchi (Lv 46 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
+- Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
+- Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
+- Gneiss (Lv 54 Graveler): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
+- Icarus (Lv 19 Pidgeotto): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
 
 ## Quest Log & Battle History
-- **Kanto Gyms:**
-  - Pewter (Brock): DEFEATED.
-  - Cerulean (Misty): DEFEATED.
-  - Vermilion (Lt. Surge): DEFEATED.
-  - Saffron (Sabrina): DEFEATED.
-  - Celadon (Erika): Next target.
+- **Kanto Gyms:** Pewter (Brock), Cerulean (Misty), Vermilion (Lt. Surge), Saffron (Sabrina): DEFEATED.
+- Celadon (Erika): Next target.
 
 ## Celadon City Exploration Plan
-1. Talk to NPCs: (26, 11), (27, 11), Wandering Youngster [DONE].
-2. Explore Celadon Mansion (Entrance 16, 9) [IN PROGRESS].
-   - 1F Granny, Clefairy, Nidoran, Growlithe [DONE]
-   - 2F Exploration [NEXT]
-3. Locate and visit Department Store.
-4. Locate Game Corner.
-5. Locate and defeat Celadon Gym (Erika).
+1. Talk to NPCs in city [DONE].
+2. Explore Celadon Mansion 1F [IN PROGRESS].
+   - Granny (1, 5), Clefairy (3, 4), Nidoran (4, 4), Meowth (2, 6): [DONE].
+3. Explore Mansion 2F-3F.
+4. Locate Department Store, Game Corner.
+5. Defeat Erika.
 
 ## Area Secrets
-- Celadon Mansion has a hidden back door (hint from Youngster at 20, 13). It may be reachable from the outside perimeter.
+- Celadon Mansion has a hidden back door (hint from Youngster). Check perimeter.
 
 ## General Lessons & Error Log
-- **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
-- **Radio UI:** Press 'Down' to move focus from tabs to the dial.
-- **Snorlax:** Caught at (34, 8) on Route 11.
-- **Diglett's Cave:** Northern exit is (15, 5) warp carpet.
-- **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
-- **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position.
+- **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
+- **Button Mixing:** Never mix directional and action buttons in overworld.
+- **Inventory:** List in prompt is not in-game order.
+- **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
