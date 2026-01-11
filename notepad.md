@@ -34,14 +34,16 @@
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
 - Start Turn: 40317.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- **Current Status (Turn 40437):** Dialogue "SNORLAX is snoring peacefully..." open. XENON lead. Radio setup failed 3 times (Turns 40422, 40423, 40437). Cursor is on GEAR.
+- **Current Status (Turn 40438):** Party menu open. Cursor on Calcifer. Player at (36, 8) facing Up.
 - **Plan:**
-  1. Close dialogue (B).
-  2. Open Start menu (Start).
-  3. Open GEAR (A).
-  4. Move to Radio tab (Right x3).
-  5. Press A, then mash Up (x20) to reach Poke Flute (Frequency 20.0).
-  6. Exit (B, B) and interact with Snorlax (A).
+  1. Exit menus (B, B).
+  2. Face Left (Left).
+  3. Open Start menu (Start).
+  4. Select POKEGEAR (Down x2, A).
+  5. Select Radio tab (Right x3).
+  6. Tune to top (Up x10) until "POKE FLUTE" appears.
+  7. Exit Pokegear and menu (B, B).
+  8. Interact with Snorlax (A).
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before menuing.
