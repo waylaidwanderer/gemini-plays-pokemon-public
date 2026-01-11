@@ -9,7 +9,7 @@
 - LEDGE_HOP_DOWN: One-way traversal (North to South).
 - COUNTER: Impassable Wall. Interact from adjacent tile.
 - STAIRCASE: Warp tile that transitions between floors.
-- LADDER: Traversable. Used for bridges on Route 12.
+- LADDER: Traversable. Used for bridges on Route 12. Landing directly from water is possible (Turn 40263).
 - WARP_PANEL: Teleports player between rooms. Interaction is immediate upon entry.
 - WARP_CARPET_RIGHT/LEFT/UP/DOWN: Warp tiles at map edges. Move in the specified direction to trigger.
 
@@ -74,10 +74,8 @@
 - Turn 40283: Entered Route 11 from Route 12 junction. 
 - Goal: Find Snorlax on Route 11 (blocking the path west).
 - Plan: Move West along the corridor until Snorlax is reached. Then use Radio (Poke Flute) to wake him.
-- Turn 40286: Spotted Youngster at (28, 7) on Route 11.
-- Navigation: Continuing west to find Snorlax.
 - Note: Snorlax should be a large sprite blocking the path. I will tune the radio ONLY when adjacent to it.
-## Battle Log: Psychic Herman (Route 11)
-- Turn 40289: Battle started. Calcifer (58) vs Unknown.
-- Strategy: Use Calcifer's high level to sweep.
-- Note: Psychics usually use high Special Attack. Avoid using Gneiss if possible.
+## Battle Log: Youngster (Route 11)
+- Turn 40289: Battle started. Calcifer (58) vs Exeggcute (30).
+- Strategy: Use Flame Wheel for super effective damage.
+- Note: Exeggcute is Grass/Psychic.
