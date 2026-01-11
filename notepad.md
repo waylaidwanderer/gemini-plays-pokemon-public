@@ -31,3 +31,5 @@
   2. Move South into Route 37.
   3. Run in grass with Max Repel active (Gyarados Lv36 lead).
   4. Repeat.
+- **Roamer Hunt Session:** Started intensive cycling at Turn 34090.
+- **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
