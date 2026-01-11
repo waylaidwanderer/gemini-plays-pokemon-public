@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Checking Pokegear (Pass 47).
-- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 47/Turn 34619). Next: Pass 52.
+- **Action:** Handling Gaven's Call (Pass 47).
+- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 47/Turn 34619 - Interrupted). Next: Pass 52.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
