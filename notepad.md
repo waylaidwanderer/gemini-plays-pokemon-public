@@ -15,8 +15,8 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Fly Map (Cursor at Silver Cave).
+- Location: Fly Map (Cursor at Blackthorn City).
 - Action: Navigate to Goldenrod City.
-- Hypothesis: Silver Cave (East) -> Left -> New Bark -> Left -> Violet -> Left -> Ecruteak -> Down -> Goldenrod.
-- Input: `Left` x3, `Down`.
+- Hypothesis: Blackthorn -> Left -> Mahogany -> Left -> Ecruteak -> Down -> Goldenrod.
+- Input: `Left`, `Left`, `Down`.
 - Next: Verify destination text.
