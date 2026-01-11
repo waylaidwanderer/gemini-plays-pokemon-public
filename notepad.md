@@ -36,16 +36,17 @@
 - **Search Log:**
     - (3, 8), (4, 8), (3, 9), (4, 9): Interaction failed. Itemfinder: "Nope!".
     - (4, 7), (3, 7): Itemfinder: "Ping" (In range).
-    - (4, 6): Itemfinder: "Nope!" (Turn 40006). Interaction pending.
+    - (4, 6): Interaction failed (Turn 40047). Itemfinder: "Nope!" (Turn 40006).
     - (3, 6): Untested.
-- **Triangulation (Turn 40044):** 
-    - The item is likely at (4, 6) if the "Nope! when standing on it" hypothesis is correct.
-    - If not at (4, 6), it must be a tile that pings at (3, 7) and (4, 7) but is out of range of (3, 8), (4, 8), and (4, 6). This is mathematically difficult with a standard range, suggesting the "standing on it" rule or a very specific range.
-- **Plan (Turn 40044):**
-    1. Close the Pokemon summary screen (press B multiple times).
-    2. Navigate to (4, 6) in the water.
-    3. Interact (A button) with (4, 6).
-    4. If not found, check (3, 6) and (1, 7).
+- **Triangulation (Turn 40047):** 
+    - The item is NOT at (4, 6).
+    - Since (3, 7) and (4, 7) ping, and (3, 8), (4, 8), and (4, 6) are "Nope", the item must be distance > 4 from (3, 8), (4, 8), and (4, 6) but within distance 4 of (3, 7) and (4, 7).
+    - This suggests the item is at (2, 7) [Floor], (5, 7) [Floor], or in the northern pool at (2, 6), (3, 5), (4, 5), or (5, 5).
+- **Plan (Turn 40047):**
+    1. Move Up to (4, 5).
+    2. Move Left to (3, 5) and (2, 5).
+    3. Use Itemfinder at (2, 5) and (4, 5).
+    4. Interact with (4, 5) and (3, 5).
 
 ## Lessons Learned
 - **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
