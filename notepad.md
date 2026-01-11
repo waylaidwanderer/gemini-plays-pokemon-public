@@ -44,7 +44,8 @@
 - **Status:** Not yet retrieved. Power Plant remains inactive.
 - **Started:** Turn 39929.
 - **Time Tracking:** Started Turn 39950.
-- **Strategy:** Surf in the pool and check tiles (3,7), (3,8), (4,7), (4,8).
+- **Strategy:** Surf in the pool and check tiles (3,6), (3,8), (4,6), (4,7), (4,8), (4,9). Note: Itemfinder returns "Nope!" if standing directly on the hidden item.
+- **Itemfinder Mechanic:** In Pokemon Crystal, the Itemfinder will return "Nope!" if the player is standing directly on top of the hidden item. Verification needed: interact (A button) with tiles that return "Nope!" despite proximity pings.
 
 ## Completed Objectives
 - **Saffron Gym Challenge:** Marsh Badge obtained (Turn 39878).
