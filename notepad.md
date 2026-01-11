@@ -7,11 +7,12 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Will's Room (16_3).
 - **Goal:** Defeat Will (Psychic Type).
-- **State:** Battling Exeggutor. Muscle (Lv86) is active.
+- **State:** Battling Exeggutor. Muscle (Lv86) is active. In Party Menu (Accidentally selected YES to switch).
 - **Matchup:** Muscle (Fighting) vs Exeggutor (Grass/Psychic).
 - **Strategy:**
-  1. **Exeggutor:** Use `Ice Punch` (Slot 3). Super Effective (2x).
-  2. **Next Mons:**
+  1. **Action:** Cancel switch (Press B).
+  2. **Exeggutor:** Use `Ice Punch` (Slot 3).
+  3. **Next Mons:**
      - Slowbro: `Thunderpunch`.
      - Xatu #2: `Thunderpunch`.
   - **Health Check:** Muscle at 235/291 HP. Safe.
