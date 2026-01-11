@@ -4,8 +4,8 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37.
-- **Action:** Sweeping Grass (Pass 36). Retry after Gaven call.
+- **Location:** Route 37 (9,5).
+- **Action:** Re-applying Repel (Pass 36). Repel wore off mid-sweep.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 32/Turn 34549). Next: Pass 37.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
