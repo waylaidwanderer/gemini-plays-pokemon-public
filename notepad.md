@@ -16,5 +16,6 @@
 - **Sighting (Turn 34446):** Route 38 & Route 42. They are nearby!
 
 # Lessons Learned
-- **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees. Recent collisions indicate I need to give them a wider berth or check coordinates more closely.
+- **Pathing:** Be extra careful around static obstacles like the Sign at (5,3) and trees.
+- **NPCs:** Youngster at (6,6) blocks southern movement from row 5.
 - **System:** Position desync detected at Turn 34477 & 34487. Verify location frequently.
