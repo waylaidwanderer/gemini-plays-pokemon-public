@@ -37,13 +37,13 @@
 ## EXPN Card Sub-Quest
 - **Goal:** Acquire EXPN Card from Lavender Radio Tower Station Manager.
 - **Start Turn:** 40441.
+- **Status:** In Lavender Town, heading to Radio Tower entrance (14, 5).
 - **Plan:**
-  1. Reach Lavender Town Radio Tower (Currently surfing North on Route 12).
-  2. Speak to Station Manager (10, 1) to get EXPN Card.
+  1. Enter Radio Tower at (14, 5).
+  2. Speak to Station Manager (10, 1) on 1F to get EXPN Card.
   3. Verify EXPN Card in Pokegear Cards.
   4. Return to Snorlax.
 
 ## General Lessons & Error Log
 - **Missing Prerequisite:** Spent 120+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
-- **Fly Map:** Cursor may require D-pad `press_buttons` if `press_menu_buttons_v2` fails. (Turn 40450).
