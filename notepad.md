@@ -55,3 +55,10 @@
 - (19, 29): Welcome Sign.
 - (14, 25): Poké Center Sign.
 - (18, 35): Path to Route 2.
+## Quest: Finding Misty
+- **Start Turn:** 40635
+- **Status:** In Pewter City. Need Repels.
+- **Current Strategy:** Explore NE Pewter for Poké Mart.
+
+## Tile Mechanics Update
+- LEDGE_HOP_DOWN: One-way jump (Verified Turn 40688).
