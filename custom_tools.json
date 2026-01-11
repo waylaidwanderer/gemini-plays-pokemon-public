@@ -94,5 +94,17 @@
         "action_counter": 33384
       }
     ]
+  },
+  "perform_rapid_reset_hunt_north": {
+    "description": "Executes a rapid reset hunting loop for Route 37 northern entrance (from Ecruteak). Moves Down to enter Route 37, moves into grass, checks for Roamers, then moves Up to exit back to Ecruteak.",
+    "input_schema": {},
+    "python_script": "buttons = []\n# Start in Ecruteak, facing South or near exit\n# Down to enter map (arrives at y=0), Down to y=1, Down to y=2 (Grass)\nbuttons.extend([\"Down\", \"Down\", \"Down\"]) \n# Wiggle in grass\nfor _ in range(3):\n    buttons.extend([\"Left\", \"Right\"])\n# Exit back to Ecruteak (Up from y=2 -> y=1 -> y=0 -> Exit)\nbuttons.extend([\"Up\", \"Up\", \"Up\"]) \nprint(f'{{\"buttons\": {buttons}}}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T14:51:13.721Z",
+        "action_counter": 33873
+      }
+    ]
   }
 }
