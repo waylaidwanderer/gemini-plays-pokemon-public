@@ -40,9 +40,9 @@
 - **Current Status:** Iteration 62 Hunting.
 - **Current Iteration (62):**
   - Start Time: Turn 33853
-  - Location: Route 37
-  - Action: Hunting (Grass Sweep).
-  - Note: Finishing south sweep, then exiting to Route 36 to fly back.
+  - Location: Route 37 -> Route 36
+  - Action: Map Transition.
+  - Note: Exiting south to Route 36 to reset map.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
