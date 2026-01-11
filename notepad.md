@@ -7,8 +7,9 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Magnet Train to Kanto (Saffron).
+- **Immediate Task:** Travel to Celadon City (West of Saffron).
 - **Goal:** Buy Max Repels at Celadon Dept Store.
+- **Status:** Arrived in Saffron Station. Exiting to city.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
