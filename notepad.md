@@ -62,3 +62,7 @@
 - **Route 4:**
   - Picnicker Hope (9, 8): DEFEATED (Turn 41020). Calcifer reached Lv59.
   - Path: Heading East to Cerulean City. (Turn 41020).
+- **Battle: Bird Keeper Hank (Route 4):**
+  - Opponent: Pidgey (Lv12) - DEFEATED (Thunderpunch).
+  - Opponent: Pidgeot (Lv34) - Active.
+  - Strategy: Calcifer (Lv59) use Thunderpunch. (Turn 41033).
