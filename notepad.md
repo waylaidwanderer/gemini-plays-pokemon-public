@@ -8,7 +8,7 @@
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
-- **Opponent:** Vileplume (Incoming).
+- **Opponent:** Vileplume (Lv42).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Vileplume:** Use `Ice Punch` (Super Effective).
