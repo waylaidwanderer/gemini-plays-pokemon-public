@@ -80,4 +80,6 @@
 - Celadon Mansion Roof: Fisher at (7, 4) loves high places.
 - Celadon Mansion Roof: Isolated wing unreachable from main roof. Back door search is mandatory.
 - Celadon City: Teacher at (5, 14) and Dept. Store Sign at (6, 9) found.
-- Celadon City: Mansion Back Door confirmed at (16, 3) and (17, 3). Loop around east through Row 10 to reach it.
+- Celadon City: Mansion Back Door at (16, 3) and (17, 3) is accessible via gaps in the Row 3 wall at (24, 3) or (25, 3).
+- Celadon City: Row 2 is a traversable passage behind the mansion.
+- Celadon City: Entering the isolated wing through the back door.
