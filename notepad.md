@@ -35,11 +35,10 @@
 - **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
 
 ## Economy & Shopping
-- **Budget:** ¥45244.
 - **Shopping Log - Celadon Dept Store 2F (Started Turn 41740):**
-    - Goal: Stock up on high-level healing items.
-    - Inventory Check: Full Heal x12, Max Potion x10, Revive x10, Lemonade x9, Super Repel x7.
-    - Purchases: 10 Full Heals (¥6000), 1 Nugget Sold (¥5000), 10 Max Potions (¥25000), 10 Revives (¥15000).
+    - Clerk 1 Stock: Potion, Super Potion, Hyper Potion, Max Potion (¥2500), Revive (¥1500), Super Repel, Max Repel.
+    - Clerk 2 Stock: Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal (¥600).
+    - Purchases: 10 Full Heals, 10 Max Potions, 10 Revives. Nugget sold.
     - Next: Explore western half of 2F.
 - **Long Term Shopping Plan:**
     - 2F: Revives, Full Heals.
