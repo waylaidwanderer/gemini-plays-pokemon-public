@@ -61,3 +61,10 @@
 
 ## Route 5 Interests
 - **House for Sale:** Located at (10, 11). Landmark.
+## Kanto Badge Tracker
+- [ ] Boulder Badge (Pewter City)
+- [ ] Cascade Badge (Cerulean City) - Goal 4
+- [ ] Rainbow Badge (Celadon City)
+- [ ] Soul Badge (Fuchsia City) - Goal 5
+- [ ] Volcano Badge (Seafoam Islands)
+- [ ] Earth Badge (Viridian City)

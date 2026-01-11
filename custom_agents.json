@@ -1,11 +1,4 @@
 {
-  "strategy_advisor": {
-    "agent_name": "strategy_advisor",
-    "agent_description": "Provides high-level strategic advice and objective prioritization based on current game state and progress.",
-    "agent_system_prompt": "You are Gem's Strategic Advisor. Your role is to analyze the current game state (party, inventory, location, objectives) and provide a concise, prioritized list of the next 3-5 major milestones Gem should work towards. Focus on efficiency, team balance, and story progression. Avoid micro-management of individual steps; instead, focus on the 'What' and 'Why' of the broader strategy.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"badges\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"current_objectives\":{\"type\":\"string\"},\"inventory\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"location\":{\"type\":\"string\"},\"party\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"party\",\"inventory\",\"location\",\"badges\",\"current_objectives\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"reasoning\":{\"type\":\"string\"},\"strategic_recommendations\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"strategic_recommendations\",\"reasoning\"]}"
-  },
   "strategy_advisor_v2": {
     "agent_name": "strategy_advisor_v2",
     "agent_description": "Provides high-level strategic advice based on current game state and progress.",
