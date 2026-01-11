@@ -43,4 +43,4 @@
 - **Iteration 2:**
   - Start Time: Turn 33539
   - Location: Route 37
-  - Action: Hunting.
+  - Action: Hunting (Running pattern).
