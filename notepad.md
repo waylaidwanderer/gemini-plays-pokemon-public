@@ -15,21 +15,6 @@
 - WARP_CARPET_DOWN: Exit point.
 - PC / BOOKSHELF: Impassable.
 
-## Progress Tracking
-- **Badges Obtained (13/16):** 
-    - Johto (8/8): Zephyr, Hive, Plain, Fog, Storm, Mineral, Glacier, Rising.
-    - Kanto (5/8): Boulder, Cascade, Thunder, Marsh, Rainbow.
-- **Gym Leaders Defeated (Kanto):** Brock, Misty, Lt. Surge, Sabrina, Erika.
-- **Current Target:** Explore Celadon City (Dept Store, Game Corner).
-
-## Party Management
-- Calcifer (Lv 61 Typhlosion): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
-- Gneiss (Lv 54 Graveler): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
-- Icarus (Lv 19 Pidgeotto): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
-- Xenon (Lv 44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- Lapis (Lv 12 Poliwag): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
-- KIMCHI (Lv 47 Gloom): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
-
 ## Battle Strategy & History
 - **Erika Strategy:** Lv 42-46 team. Uses Sunny Day + Solar Beam. Calcifer (Fire) swept.
 - **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
@@ -55,6 +40,14 @@
 
 ## Kanto Secrets & NPC Schedules
 - **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
+
+## Strategy for Remaining Kanto Journey
+- **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
+- **Current Location:** Celadon City.
+- **Immediate Next Steps:**
+    1. Finish exploring Celadon Dept Store.
+    2. Check Game Corner.
+    3. Head to Fuchsia City via Cycling Road or Silence Bridge.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
