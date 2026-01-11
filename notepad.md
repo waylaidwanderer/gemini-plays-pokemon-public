@@ -63,3 +63,10 @@
 - **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
+## Strategy & Lessons Learned
+- **Celadon Pillars:** The grey objects at column 12 (Rows 16-20) are WALL tiles and completely block horizontal movement. Must navigate around them (likely south).
+- **Time Check:** Pharmacist (Roof House) only talks at night. Current time is ~12:40 PM. Need to return later.
+- **Ladder Investigation started:** Turn 41620.
+- **Hypothesis:** Path around column 12 wall exists to the south near the water.
+- **Test:** Move to (11, 21) to find a opening.
+- **Conclusion:** Pending.
