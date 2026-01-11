@@ -62,3 +62,6 @@
 - **Saffron:** Copycat's Doll quest completed (PASS obtained). TM29 Psychic obtained.
 - **Route 5:** House for Sale at (10, 11).
 - **Route 12:** Fisher Kyle defeated at (6, 7). Fishing Spot sign at (13, 9).
+- LADDER (Route 12): Function as bridge tiles, allowing the player to walk over water tiles.
+- Turn 40231: Stagnation detected in radio tuning. Re-verifying menu cursor position.
+- Poke Flute: Confirmed at top of radio dial (Frequency 20) in Kanto. Requires EXPN card upgrade (verified obtained Turn 40164).
