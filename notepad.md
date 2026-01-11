@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37 (North).
-- **Action:** Sweeping Grass (Pass 16).
+- **Action:** Finishing Pass 16 -> Transitioning to Ecruteak.
 - **Strategy:** Shuffle Ecruteak -> Return South -> Sweep Grass.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
