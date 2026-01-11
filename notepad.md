@@ -46,4 +46,4 @@
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - **Current Status:** Team healed in Pewter City. Heading East to Route 3. (Turn 40791).
 - **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!". (Turn 40805).
-- **Route 3:** Vertical walls block the path at X=13 (Y=4-9) and X=19 (Y=4-7). Row 3 is clear at these X-coordinates. (Turn 40827).
+- **Route 3:** Vertical walls block the path at X=13 (Y=4-9), X=19 (Y=4-7), and X=24 (Y=1-7). Row 0 is clear at these X-coordinates. (Turn 40828).
