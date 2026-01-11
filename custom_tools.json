@@ -30,7 +30,7 @@
     ]
   },
   "find_path_v4": {
-    "description": "Finds a path between two coordinates on the current map using the Mental Map XML. Returns a JSON array of coordinates for navigate.",
+    "description": "Finds a path between two coordinates on the current map using the Mental Map XML. Returns a JSON array of button strings for menu navigation or overworld movement.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -54,7 +54,7 @@
         "end_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return None\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            is_warp = tile.attrib.get('is-warp', 'false') == 'true'\n            seen = tile.attrib.get('seen', 'false') == 'true'\n            \n            walkable = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'STAIRCASE', 'WARP']\n            \n            if not seen:\n                grid[(x, y)] = True\n            elif t_type in walkable and not has_obj:\n                grid[(x, y)] = True\n            elif is_warp:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            return path + [{'x': curr_x, 'y': curr_y}]\n        \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                if grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [{'x': curr_x, 'y': curr_y}]))\n    return None\n\nsx = int(input_data['start_x'])\nsy = int(input_data['start_y'])\nex = int(input_data['end_x'])\ney = int(input_data['end_y'])\nresult = find_path(sx, sy, ex, ey, map_xml_string)\nprint(json.dumps(result))",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(start_x, start_y, end_x, end_y, map_xml):\n    try:\n        root = ET.fromstring(map_xml)\n    except:\n        return None\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            has_obj = tile.attrib.get('has-object', 'false') == 'true'\n            is_warp = tile.attrib.get('is-warp', 'false') == 'true'\n            seen = tile.attrib.get('seen', 'false') == 'true'\n            \n            walkable = ['FLOOR', 'TALL_GRASS', 'DOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'WARP_CARPET_UP', 'STAIRCASE', 'WARP', 'WARP_PANEL']\n            \n            if not seen:\n                grid[(x, y)] = True\n            elif t_type in walkable and not has_obj:\n                grid[(x, y)] = True\n            elif is_warp:\n                grid[(x, y)] = True\n            else:\n                grid[(x, y)] = False\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        if curr_x == end_x and curr_y == end_y:\n            return path\n        \n        for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if 0 <= nx < width and 0 <= ny < height and (nx, ny) not in visited:\n                if grid.get((nx, ny), False):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [move]))\n    return None\n\nsx = int(input_data['start_x'])\nsy = int(input_data['start_y'])\nex = int(input_data['end_x'])\ney = int(input_data['end_y'])\nresult = find_path(sx, sy, ex, ey, map_xml_string)\nprint(json.dumps(result))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -65,6 +65,11 @@
         "commit_message": "Fixing find_path_v4 to handle input_data correctly and avoid unhashable type errors.",
         "timestamp": "2026-01-10T23:53:16.563Z",
         "action_counter": 39891
+      },
+      {
+        "commit_message": "Refining find_path_v4 to return button strings when autopress_buttons is likely intended, and ensuring robust coordinate handling.",
+        "timestamp": "2026-01-11T00:03:47.364Z",
+        "action_counter": 39894
       }
     ]
   }
