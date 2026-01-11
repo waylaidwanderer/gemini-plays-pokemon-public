@@ -5,20 +5,14 @@
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
 ## Current Task: Defeat Elite Four
-- **Location:** Indigo Plateau.
-- **Goal:** Defeat all 5 trainers.
-- **Shopping List (Budget: ¥10294):**
-  - [x] 5 Hyper Potions (Cost: 6000).
-  - [x] 2 Revives (Cost: 3000).
-  - [x] 2 Full Heals (Cost: 1200).
-  - Remaining: ¥94.
-- **Strategy:**
-  1. Enter Elite Four (Ladder at 14,3).
-  2. **Will (Psychic):** Muscle (Ice/Thunderpunch), Gyarados (Bite).
-  3. **Koga (Poison):** Lugia (Psychic/Gust), Muscle.
-  4. **Bruno (Fighting):** Lugia (Flying/Psychic).
-  5. **Karen (Dark):** Muscle (Fighting).
-  6. **Lance (Dragon):** Muscle (Ice Punch), Lugia, Gyarados.
+- **Location:** Indigo Plateau - Will's Room (16_3).
+- **Goal:** Defeat Will (Psychic Type).
+- **Strategy:** Lead with Muscle (Lv86 Machoke).
+  - **Xatu (x2):** Use `Thunderpunch` or `Ice Punch`.
+  - **Jynx:** Use `Strength` (Physical weakness) or `Thunderpunch` (Neutral). Avoid Fighting moves.
+  - **Exeggutor:** Use `Ice Punch` (4x Effective).
+  - **Slowbro:** Use `Thunderpunch` (Super Effective).
+  - **Plan:** Muscle should OHKO everything. Heal if HP drops below 50%.
 
 ## Reflection (Turn 33071)
 - **Status:** Battle against Rival Silver is active.
