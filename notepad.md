@@ -48,5 +48,6 @@
   - Action: Resetting map (Route 37 -> Ecruteak).
 - **Iteration 15 Result:** No encounter.
 - **Current Iteration (16):**
-  - Start Time: Turn 33611
-  - Action: Enter Route 37 (Down) -> Hunt -> Exit to Ecruteak (Up).
+  - Start Time: Turn 33612
+  - Action: High efficiency hunt loop (Route 37).
+  - Pattern: Down x5 -> Wiggle -> Up x6 (Exit).
