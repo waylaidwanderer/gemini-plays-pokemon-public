@@ -14,8 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Currently in Fly Menu.
-- Cursor at Goldenrod City.
-- Route from Ecruteak to Goldenrod verified as `Down`.
-- Trying `Up` (to Ecruteak) -> `Left` -> `Left` to reach Olivine.
-- Next turn: Confirm destination.
+- Currently in Fly Menu (Ecruteak City).
+- `Left` inputs consistently fail to select Olivine City from Ecruteak.
+- **Workaround:** Flying to Ecruteak City, then walking West to Olivine.
+- **Next:** Land in Ecruteak -> Route 38 (West) -> Route 39 (South) -> Olivine City.
