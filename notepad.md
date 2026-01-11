@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Navigation Failed. Landed in Cherrygrove. Retrying.
+- **Status:** Recovering Navigation. Opening Party Menu.
 - **Current Iteration (65):**
   - Start Time: Turn 33901
-  - Location: Cherrygrove City (Actual)
-  - Action: Start (Open Menu).
-  - Note: Previous Fly attempt failed (landed in Cherrygrove). Plan: Open Menu -> Verify Cursor -> Pokemon -> Mistral -> Fly -> Up -> Left -> Ecruteak.
+  - Location: Cherrygrove City
+  - Action: Press A (Enter Pokemon Menu).
+  - Note: Taking it slow to avoid input buffering errors during menu transitions. Next: Select Mistral -> Fly.
