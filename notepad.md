@@ -71,3 +71,6 @@
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
 - **Surfing to Bridges:** Landing directly on a LADDER (bridge) tile from WATER is possible. (Verified Turn 40263).
+- Turn 40283: Entered Route 11 from Route 12 junction. 
+- Goal: Find Snorlax on Route 11 (blocking the path west).
+- Plan: Move West along the corridor until Snorlax is reached. Then use Radio (Poke Flute) to wake him.
