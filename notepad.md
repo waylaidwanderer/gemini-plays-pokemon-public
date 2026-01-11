@@ -33,7 +33,7 @@
 ## Strategy: Mt. Moon
 - **Exploration:** Multiple floors. Use ladders and mark them.
 - **Cerulean Exit:** Still searching. Checked Section A (Gift Shop) and Section B/C (Isolated Square areas).
-- **Repel Status:** Super Repel active (~189 steps from Turn 41009).
+- **Repel Status:** Super Repel active (200 steps from Turn 41025).
 
 ## General Lessons & Error Log
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
