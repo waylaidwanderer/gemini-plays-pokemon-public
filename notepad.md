@@ -12,8 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Route 37 (North Grass).
-- **Strategy:** Re-apply Repel -> Continue Shuffle.
+- **Location:** Route 37 -> Ecruteak City.
+- **Action:** Applying Max Repel.
+- **Strategy:** Use Repel -> Exit North to Shuffle -> Resume Hunt.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Technical Notes
