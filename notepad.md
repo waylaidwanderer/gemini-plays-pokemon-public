@@ -62,3 +62,5 @@
 - **Correction (Turn 39978):** The turn summary for 39643-39646 erroneously stated the Power Plant problem was resolved. Verified via dialogue that the Manager is still waiting for the MACHINE PART. I do not currently possess it.
 - **Hypothesis:** The Machine Part is on a specific water tile in Cerulean Gym. Candidates based on previous Itemfinder pings: (3, 6), (4, 6), (5, 6), (3, 9), (4, 9).
 - **Test 1 (Turn 39978):** Move to (3, 6) and interact.
+- **Test 1 Conclusion (Turn 39984):** Itemfinder at (3, 8) returned "Nope!". Hypothesis denied.
+- **Test 2 (Turn 39984):** Move to (3, 6) and interact. This is closer to the "center" of the gym's main pool.
