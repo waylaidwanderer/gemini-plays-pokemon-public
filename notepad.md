@@ -48,3 +48,5 @@
 - **Mt. Moon Square:** 
   - Sign at (17, 7): "MT. MOON SQUARE - DON'T LITTER".
   - Gift Shop at (13, 7): Gramps (4, 3) sells: Poke Doll (1000), Fresh Water (200), Soda Pop (300), Lemonade (350), Repel (350), Portraitmail (50).
+- **Cerulean Pokemon Center (7_4):** Nurse Joy at (3, 1). Gym Guide at (0, 6). Super Nerd at (7, 4).
+- **Tile Mechanics Update:** COUNTER, WALL are impassable. FLOOR is traversable. LADDER at (0, 7) leads to 2F. Exit at (3, 7) or (4, 7). (Turn 41050).
