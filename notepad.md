@@ -37,11 +37,10 @@
 - Start Turn: 40317.
 - Interaction tile: (36, 8) facing Left.
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Current Status: Party menu open, cursor on Calcifer. XENON is in slot 3.
-- Step 1: Close dialogue (B). (Done)
-- Step 2: Swap XENON (slot 3) to lead. (In progress: cursor on Calcifer, need Down x2, Select, Up x2, Select).
-- Step 3: Exit POKEMON, select POKEGEAR, tune Radio to 20.0 (Poke Flute).
-- Step 4: Close menu, face Left from (36, 8), and interact with Snorlax.
+- Current Status: Dialogue closed, facing Snorlax at (36, 8). Party swap and Radio setup failed in Turn 40422.
+- Step 1: Open menu, select POKEMON, swap XENON (slot 3) to lead using A-SWITCH.
+- Step 2: Select POKEGEAR, tune Radio to 20.0 (Poke Flute) by mashing Up.
+- Step 3: Close menu, face Left, and interact with Snorlax.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement or menuing.
