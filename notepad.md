@@ -57,4 +57,5 @@
 - Celadon Mansion 2F: Bookshelf at (2, 3) is full of difficult books.
 - Celadon Mansion 2F: Computer at (0, 3) to be investigated.
 - Celadon Mansion 2F: Computer at (0, 3) contains an e-mail about Kanto and new Pokémon.
-- Celadon Mansion 2F: Unmarked warps at (0, 0) and (1, 0) lead to Mansion 3F. Checking (0, 0) first.
+- Celadon Mansion 2F: Stairs at (0, 0) and (1, 0) to 3F are unreachable from the main area.
+- Celadon Mansion 2F: Confirmed isolated area; searching for hidden back door outside.
