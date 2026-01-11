@@ -69,5 +69,12 @@
 - [ ] Soul Badge (Fuchsia City) - Goal 5
 - [ ] Volcano Badge (Seafoam Islands)
 - [ ] Earth Badge (Viridian City)
-## Route 12 Interests
-- **Fisher Kyle:** Battled at (8, 7). Uses Seaking (Lv28). (Turn 40197)
+
+## Time Tracking
+- Fisher Kyle Battle (Route 12): Started Turn 40186.
+
+## Battle Plan: Fisher Kyle
+1. Use Full Heal on XENON to wake her up (Turn 40201).
+2. Use Night Shade to defeat Poliwhirl.
+3. Defeat remaining Pokemon in Kyle's roster.
+4. Resume navigation to Route 11.
