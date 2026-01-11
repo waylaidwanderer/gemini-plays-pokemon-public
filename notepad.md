@@ -50,3 +50,4 @@
 - **Warp Maze Pathfinding:** BFS on Map Events data is optimal for finding paths through warp tiles.
 ## Saffron City Interests
 - **Mr. Psychic:** Located at (27, 29). Expected to give TM29 Psychic.
+- **TM29 Psychic:** Obtained from Mr. Psychic (Turn 39946).
