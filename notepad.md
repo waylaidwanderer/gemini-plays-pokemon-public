@@ -7,9 +7,9 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Go to Kanto via Magnet Train.
-- **Reason:** Goldenrod Dept Store 2F does not sell Max/Super Repels (Inventory confirmed).
-- **Plan:** Exit Store -> Magnet Train to Saffron -> Celadon Dept Store.
+- **Immediate Task:** Exit Dept Store & Board Magnet Train.
+- **Reason:** Goldenrod Store has no Max Repels.
+- **Destination:** Kanto (Saffron -> Celadon Dept Store).
 
 # Roaming Beasts Status
 - **Target:** Raikou & Entei.
