@@ -56,3 +56,9 @@
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn). Link markers to Object IDs.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
+## Erika Battle Strategy
+- **Opponent Levels:** Preliminary trainers ~Lv 35. Erika's team peaks at Lv 46.
+- **Tactics:** Erika uses Sunny Day to boost Solar Beam and Giga Drain.
+- **Preparation:** Calcifer (Lv 60) is overleveled and has a type advantage. Carry status heals for Sleep/Stun moves.
+- **Gym Layout:** Indoor garden with ledges and gaps. Entrance at (10, 29). Statues at (3, 15) and (6, 15).
+- **Twins Jo & Zoe:** Victreebel (Lv 35) defeated. Currently battling Vileplume (Lv 35).
