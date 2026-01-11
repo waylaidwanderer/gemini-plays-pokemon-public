@@ -47,6 +47,6 @@
   - Result: No encounter (~50 steps).
   - Action: Resetting map (Route 37 -> Ecruteak).
 - **Current Iteration (12):**
-  - Start Time: Turn 33602
-  - Action: Interrupted by Gaven's phone call.
-  - Status: Clearing call, then resetting hunt.
+  - Start Time: Turn 33603
+  - Action: Resuming high-efficiency hunt after call.
+  - Pattern: Vertical wiggle (safe from ledges).
