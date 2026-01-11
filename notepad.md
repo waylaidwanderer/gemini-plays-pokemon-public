@@ -14,8 +14,11 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- At Olivine Port Pier.
-- Navigating to S.S. Aqua entrance at (7, 17).
-- Expecting a Sailor at (6, 15) who might check the ticket.
-- Goal: Board S.S. Aqua to Vermilion City.
-- Reminder: Wade (Rt 31) has berries (ignoring for now).
+- REALITY CHECK: Already have 16 Badges & beat Red.
+- Current Goal: Hunt Raikou & Entei (Johto Roamers).
+- S.S. Aqua is closed (Sunday).
+- Immediate Plan: Fly to Goldenrod City to check for Super Repels & use Magnet Train if needed.
+
+# Roaming Beasts Status
+- **Raikou & Entei:** Roaming Johto.
+- **Strategy:** Use Max/Super Repels + Level 39-ish Pokemon to encounter them.
