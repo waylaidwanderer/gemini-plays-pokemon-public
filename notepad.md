@@ -23,9 +23,8 @@
 - **Celadon Dept Store Exploration (Started Turn 41740):**
     - 1F: Directory checked.
     - 2F: Stocked up on 12x Full Heal, 10x Max Potion, 10x Revive. Nugget sold.
-    - 3F: Arrived Turn 41804. Checking TM Shop inventory.
+    - 3F: Arrived Turn 41804. TM Shop inventory: TM10 (Hidden Power), TM11 (Sunny Day), TM17 (Protect), TM18 (Rain Dance), TM37 (Sandstorm).
 - **Long Term Shopping Plan:**
-    - 3F (TM Shop): Buy Elemental Punches (¥3000). Note: TM41 is Thunder Punch (Verify).
     - 4F (Wiseman Gifts): Purchase Evolution Stones.
     - 5F (Drugstore): Stat boosters.
     - Rooftop: Vending machines (Fresh Water, Soda Pop, Lemonade). Give to thirsty girl for TMs.
@@ -52,4 +51,4 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Inventory Sync:** Turn 41813 Iron/Rare Candy usage CONFIRMED. Calcifer is Lv 62.
+- **Inventory Sync:** Calcifer is Lv 62. Iron/Rare Candy usage verified. Bag slots cleared.
