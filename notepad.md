@@ -34,3 +34,10 @@
 - **LEDGE_HOP:** One-way traversal (Down/Right observed).
 - **WARP_CARPET:** Triggers map transition.
 - **WATER:** Traversable with SURF.
+
+# Roamer Hunt Log
+- **Iteration 1:**
+  - Start Time: Turn 33535
+  - Location: Route 37
+  - Repel Active: Yes
+  - Action: Initial check.
