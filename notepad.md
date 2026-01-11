@@ -41,3 +41,8 @@
 - **Time Blindness:** Always monitor turn count when progress stalls.
 - **Menu Sequence Failure:** Long button sequences in `press_menu_buttons_v2` are unreliable. Stick to 1-3 buttons.
 - **Agent Underutilization:** Use specialized agents like `quest_strategist` when stuck. (Turn 40442).
+## Fly Map Debug (Turn 40450)
+- Observation: Fly map cursor stuck on Indigo Plateau. "Right" presses in Turn 40449/40450 did not move it.
+- Hypothesis: Cursor might require directional inputs to be separated by more time, or I need to move Up/Down first to "unlock" the cursor from the starting point.
+- Test: Mash Up and Right with sleeps. If fails, exit and walk to Lavender Town.
+- Walking Route: Vermilion -> Route 6 -> Saffron -> Route 8 -> Lavender. (Turn 40450)
