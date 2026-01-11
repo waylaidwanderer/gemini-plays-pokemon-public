@@ -69,11 +69,14 @@
     - grass (in Mt. Moon Square): Traversable, potential wild encounters. (Turn 40981).
 - **Healing Task:** Started Turn 40974. Using Lemonade on GNEISS. (Turn 40981).
 ## Strategy: Mt. Moon Square Exploration
-- **Goal:** Reach the western edge (1, 8).
-- **Obstacles:** Walls at X=3, 4, 11, 15, 19, 20, 23, 25. Ledges at Y=11, 14.
-- **Hypothesis:** The map has isolated tiers. The central Box (Rows 6-10) and Lower Area (Rows 12-13) are trapped by walls and ledges. Access to the Western Edge (X=1-2) likely requires a different entry from Mt. Moon.
+- **Goal:** Reach the western edge (1, 8) and find the path to Cerulean City.
+- **Isolated Sections:** The Square is divided into sections by walls and ledges.
+  - Section A (Gift Shop): Reachable via (25, 5) exit in Mt. Moon (3_85).
+  - Section B (Central Box): Reached by jumping down the ledge at (13, 11).
+  - Section C (Cave Exit): Reached by jumping down the ledge at (13, 11) and moving to (22, 11).
+  - Section D (Bottom Tier): Row 15-17. Isolated from Row 13 by FLOOR_UP_WALL.
+  - Section E (Western Edge): Row 1-8, X=1-2. Unseen.
 - **Plan:**
-  1. Jump Down the ledge at (13, 11) to explore the Lower Area.
-  2. Use the Cave at (22, 11) to return to Mt. Moon (3_85).
-  3. Look for other ladders or exits in Mt. Moon that lead to the western Square.
-- **Status:** At (13, 10). Repel expired. Calcifer leading. (Turn 41007).
+  1. Enter Cave at (22, 11) to return to Mt. Moon (3_85).
+  2. Explore the rest of Mt. Moon (3_85) for an exit to Cerulean City.
+- **Status:** At (22, 13). Super Repel active (~189 steps). Calcifer leading. (Turn 41009).
