@@ -12,9 +12,9 @@
     3. **Action:** Whittle HP or throw Ultra Balls immediately.
 
 # Current Status
-- **Location:** Ecruteak City (South Gate).
-- **Action:** Handling Phone Call (Wade).
-- **Strategy:** Finish call -> Return to Route 37 -> Sweep grass.
+- **Location:** Ecruteak City -> Route 37.
+- **Action:** Transitioning to Route 37 to check for Roamers.
+- **Strategy:** Move Down -> Enter Grass -> Search -> Loop.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
