@@ -16,6 +16,7 @@
 - CAVE: Warp tile.
 - COUNTER: Impassable. Interact from front tile.
 - WARP_CARPET: Warp at map edges.
+- WARP_CARPET_DOWN: Exit tile. (Verified at Diglett's Cave northern exit).
 - LEDGE: One-way jump down. (To be verified in Kanto).
 
 ## Menu Mechanics
@@ -27,9 +28,6 @@
 - **HM Users:** ICARUS (FLY), LAPIS (SURF, WATERFALL, WHIRLPOOL), KIMCHI (CUT, FLASH), GNEISS (STRENGTH).
 
 ## Quest Log
-- **Snorlax Quest:** COMPLETE. Snorlax caught at Turn 40583. Nickname: GORP.
-- **Power Plant Crisis:** COMPLETE. Power restored.
-- **Magnet Train:** Operational.
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
@@ -39,11 +37,11 @@
 - **Radio UI Focus:** Need to press 'Down' to move focus from the tabs (MAP/PHONE/RADIO) to the tuning dial. (Turn 40554).
 - **Snorlax Interaction:** Occupies (34,8) to (35,9). Interact from (34,10) facing Up or (36,8) facing Left.
 - **Sequence Errors:** Be careful with `press_menu_buttons_v2`. Large sequences can lead to turn mismatches if text boxes appear unexpectedly.
+- **Diglett's Cave internal loop:** (3, 3) <-> (17, 3). Does not exit the cave. (Turn 40617).
 
 ## Time Tracking
-- Snorlax Quest (Radio Tuning to Capture): Turn 40535 to 40583 (~48 turns).
 - Current Goal (Pewter City): Started Turn 40584.
-- **Diglett's Cave Ladders:** (5, 31) warps to (17, 33) within the same map. (Turn 40596).
+
 ## Strategy for Misty & Cerulean Badge
 - **Objective:** Find Misty on Route 25 to return her to Cerulean Gym.
 - **Path:**
