@@ -45,12 +45,17 @@
         "buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps(input_data['buttons']))",
+    "python_script": "import json\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-11T08:10:06.907Z",
         "action_counter": 33328
+      },
+      {
+        "commit_message": "Initial definition of sequence_press tool",
+        "timestamp": "2026-01-11T10:39:20.952Z",
+        "action_counter": 33514
       }
     ]
   },
