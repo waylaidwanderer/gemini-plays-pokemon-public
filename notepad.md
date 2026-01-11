@@ -43,11 +43,15 @@
 - **Warp Carpets:** At map edges, moving "off" the map triggers the warp.
 - **Ledges:** Jumping down ledges (LEDGE_HOP_DOWN) advances the player two tiles south.
 - **Custom Tool Hygiene:** Always use `find_path_v4_fixed` and `strategy_advisor_v2`.
+- **Moving NPCs:** NPCs can block paths dynamically. Use `stun_npc` to freeze them or navigate around.
+- **Tile Collision Assumptions:** Do not assume all tiles of the same visual type (e.g., floor patterns) have identical collision without testing.
 
 ## Kanto Progression Plan (Started Turn 40091, Jan 10, 2026)
 1. Return to Saffron City via Magnet Train. (COMPLETED Turn 40104)
 2. Obtain EXPN Card from Lavender Radio Tower. (COMPLETED Turn 40164)
-3. Go to Route 11 (via Route 12) to wake up Snorlax using the Poke Flute radio channel.
+3. Wake up Snorlax on Route 11. (Started Turn 40169)
+   - Location: Route 11 (East of Vermilion City).
+   - Method: Use Pokegear Radio, tune to Poke Flute channel (top of the dial).
 4. Go to Route 25 (North of Cerulean) to find Misty and earn the Cascade Badge.
 5. Explore southern Kanto (Fuchsia City, etc.).
 
