@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37.
-- **Action:** Sweeping Grass (Pass 34).
+- **Action:** Sweeping Grass (Pass 34). Tool Optimization.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 32/Turn 34549). Next: Pass 37.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 

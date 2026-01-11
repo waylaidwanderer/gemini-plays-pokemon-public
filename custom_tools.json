@@ -166,5 +166,20 @@
         "action_counter": 34231
       }
     ]
+  },
+  "sweep_route37": {
+    "description": "Executes a fixed button sequence to sweep the northern grass patch of Route 37 and return to the gate. Assumes starting position at (8,0). Sequence: Down x2, Right, Down x3, Left x3, Up x3, Right x2, Up x2.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print('[\"Down\", \"Down\", \"Right\", \"Down\", \"Down\", \"Down\", \"Left\", \"Left\", \"Left\", \"Up\", \"Up\", \"Up\", \"Right\", \"Right\", \"Up\", \"Up\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-11T23:17:43.369Z",
+        "action_counter": 34561
+      }
+    ]
   }
 }
