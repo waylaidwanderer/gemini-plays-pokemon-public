@@ -14,10 +14,6 @@
   - New Plan: Go to 2F, force jump at (3, 34), then navigate East to Ladder at (13, 31).
 - **Route:** `(2, 57) -> (1, 49)`.
 
-## Status
-- **Money:** ¥3294.
-- **Party:** Gyarados (Lead), Lugia, Machoke, Pidgey, Oddish, Quilava.
-
 ## Reflection (Turn 32967)
 - **Execution:** No deferred tasks identified in the last 50 turns.
 - **Hygiene:** Notepad sections are relevant. Map markers are active and accurate.
