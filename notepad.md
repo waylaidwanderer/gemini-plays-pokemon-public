@@ -34,10 +34,8 @@
 - **WATER:** Traversable with SURF.
 
 # Roamer Hunt Log
-- **Summary:** Iterations 1-8: No encounters.
-- **Current Iteration (9):**
-  - Start Time: Turn 33572
+- **Summary:** Iterations 1-9: No encounters.
+- **Current Iteration (10):**
+  - Start Time: Turn 33576
   - Location: Route 37
   - Action: Hunting.
-  - Result: No encounter.
-  - Action: Resetting map (Route 37 -> Ecruteak).
