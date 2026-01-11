@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Flying to Ecruteak (Final Step).
-- **Current Iteration (67):**
-  - Start Time: Turn 33920
-  - Location: Violet City -> Ecruteak City
-  - Action: Map Input (Left -> A -> A).
-  - Note: Intermediate Screenshot confirms cursor moved Up to Violet (Tile 29,2), despite text report lagging at 'Cherrygrove'. Trusting visual state. Pressing Left should target Ecruteak. Executing Fly.
+- **Status:** Restarting Fly Sequence (Attempt 5).
+- **Current Iteration (68):**
+  - Start Time: Turn 33925
+  - Location: Cherrygrove City
+  - Action: Start -> A (Open Party).
+  - Note: Fly attempt failed again (landed in Cherrygrove). Cursor likely misaligned or inputs eaten. Restarting, but pausing at Party Menu to visually confirm cursor is on Mistral (Slot 4) before proceeding.
