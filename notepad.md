@@ -15,6 +15,6 @@
 
 # Status Update
 - Currently in Fly Menu.
-- Cursor at Azalea Town.
-- Moving Up -> Up -> Left to reach Olivine City.
-- (Previous attempt landed me at Azalea from Violet, implying a different graph or dropped inputs).
+- Cursor at Ecruteak City.
+- Moving Left to Olivine City, then confirming with A.
+- Fallback: If cursor doesn't move, will Fly to Ecruteak and walk West.
