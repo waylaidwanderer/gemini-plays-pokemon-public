@@ -40,7 +40,7 @@
 - **Gym Trainers Defeated:** Jo & Zoe, Tanya, Michelle, Julia.
 
 ## Kanto Secrets & NPC Schedules
-- **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM.
+- **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
 
 ## Department Store Shopping Plan
 - **Goal:** Buy useful TMs and items.
