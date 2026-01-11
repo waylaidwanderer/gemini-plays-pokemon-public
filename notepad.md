@@ -41,40 +41,25 @@
 
 ## PC Storage
 ### Box 1 (9/20)
-- GORP (Snorlax) Lv50
-- AAAAAAAAAA (Spinarak) Lv13
-- GLAIVE (Scyther) Lv14
-- SELKIE (Seel) Lv24
-- DELTA (Mantine) Lv20
-- RANGOON (Krabby) Lv22
-- NOMURA (Tentacool) Lv17
-- Ravioli (Krabby) Lv10
-- Ouroboros (Dratini) Lv15
+- GORP (SNORLAX): Lv50 (Male)
+- AAAAAAAAAA (SPINARAK): Lv13 (Male)
+- GLAIVE (SCYTHER): Lv14 (Female)
+- SELKIE (SEEL): Lv24 (Female)
+- DELTA (MANTINE): Lv20 (Male)
+- RANGOON (KRABBY): Lv22 (Female)
+- NOMURA (TENTACOOL): Lv17 (Female)
+- Ravioli (KRABBY): Lv10 (Male)
+- Ouroboros (DRATINI): Lv15 (Male)
 
 ## Economy & Shopping
-- **Celadon Dept Store Exploration (Started Turn 41740, Sunday 3:00 PM):**
-    - 1F: Directory checked.
-    - 2F: Fully explored. Stocked up on healing items.
-    - 3F: Fully explored. TM Shop inventory documented.
-    - 4F: Fully explored. Wiseman Gifts inventory documented.
-    - 5F: Fully explored. Drugstore inventory documented.
-    - 6F: Arrived Turn 41903. Vending machines located.
+- **Celadon Dept Store Inventory Summary:**
+    - 2F: Healing items (Full Heal, Max Potion, Revive).
+    - 3F: TM Shop: TM10, TM11, TM17, TM18, TM37.
+    - 4F: Wiseman Gifts: Poke Doll, Lovely Mail, Surf Mail.
+    - 5F: Drugstore: Vitamins (Clerk 1), Battle Items (Clerk 2).
+    - 6F: Vending Machines: Fresh Water (¥200), Soda Pop (¥300), Lemonade (¥350).
 - **Long Term Shopping Plan:**
-    - 6F: Buy drinks from vending machines. Give to thirsty girl for TMs.
-    - Find Evolution Stones (still missing).
-
-## Strategy for 6F Exploration (Turn 41905)
-1. Read Directory.
-2. Talk to Youngster.
-3. Talk to Super Nerd.
-4. Buy Fresh Water and Soda Pop from Vending Machines.
-5. Explore western area.
-6. Search for Thirsty Girl (Conclusion: Not in Crystal).
-7. Exit to Celadon City.
-    - Check Game Corner.
-    - Re-examine Celadon Mansion back wing for missed rooms/items.
-    - Visit Mansion Roof House at night (Pharmacist's tale).
-    - Look for Evolution Stones (not in Dept Store).
+    - Find Evolution Stones (not in Dept Store).
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
@@ -98,5 +83,5 @@
 - **Ledges:** Hop down south only.
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
-- **Inventory Sync:** Calcifer is Lv 62. 2x IRON and 1x RARE CANDY used successfully. Bag slots cleared.
-- Teacher (1, 7): Mentions using items on Pokemon makes them happy, but they hate certain items.
+- **Teacher (1, 7):** Mentions using items on Pokemon makes them happy, but they hate certain items.
+- **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
