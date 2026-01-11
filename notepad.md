@@ -15,7 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Location: Mt. Silver Outside (23, 20).
-- Action: Selecting "FLY" from Mistral's menu.
-- Goal: Open Fly Map -> Goldenrod City.
-- Tool: `sequence_press` ("A", "A").
+- Location: Flying to Goldenrod City.
+- Route: New Bark -> Violet -> Azalea -> Goldenrod.
+- Sequence: Left x2, Down, Up, A.
+- Goal: Buy Repels & Hunt.
