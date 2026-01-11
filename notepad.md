@@ -30,11 +30,12 @@
     - 5F (Drugstore): Check for stat boosters and Evolution Stones.
     - Rooftop: Vending machines. Give drinks to thirsty girl for TMs.
 
-## Strategy for 5F Exploration (Turn 41864)
-1. Talk to Sailor at (2, 4).
-2. Talk to Clerks at (7, 5) and (8, 5) to check inventory.
-3. Reveal all unseen tiles.
-4. Move to Rooftop.
+## Strategy for 5F Exploration (Turn 41867)
+1. Talk to Sailor at (2, 5): Mentions PP UP can't be bought. (Done)
+2. Talk to Clerk 1 at (7, 5) and Clerk 2 at (8, 5) to check inventory.
+3. Talk to Teacher at (1, 7).
+4. Reveal all unseen tiles (Columns 8-15).
+5. Move to Rooftop.
 
 ## Celadon City Investigation
 - **Secret Wing Access:** Reached via back door at (16,3).
