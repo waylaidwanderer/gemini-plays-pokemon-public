@@ -49,5 +49,5 @@
   - #6 Lass Shannon (28, 11): DEFEATED.
   - #7 Super Nerd Pat (31, 7): DEFEATED (Not part of challenge).
   - Challenge: Beat 6 trainers - COMPLETED.
-  - Prize: Prize giver unknown (Not Pat).
+  - Prize: Return to Dudley (12, 10) to check.
   - Misty: Likely beyond Cut Tree at (34, 6).
