@@ -4,15 +4,14 @@
 - **Secondary:** Defeat Elite Four.
 - **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
 
-## Current Task: Return to 1F and Explore Southeast
-- **Location:** Victory Road 2F (ID: 3_91) at (3, 33).
-- **Goal:** Return to 1F Ladder at (1, 35).
-- **Reasoning:** 
-  - Ledge at (3, 34) seems impassable or bugged.
-  - Mental Map analysis of 1F shows a viable path to the East section via `(17, 56)`.
-  - The West path (Ladder 1, 49) appears to be a dead end loop or return path.
-  - New Plan: Go back to 1F, traverse South to Row 56, navigate through (13, 54) gap to reach Southeast corner, then head North.
-- **Route:** `(3, 33) -> (1, 33) -> (1, 35) (Ladder Down)`.
+## Current Task: Traverse Victory Road 1F (South -> East)
+- **Location:** Victory Road 1F (West Section) at (0, 49).
+- **Goal:** Reach East Section via South Corridor.
+- **Route:** `(0, 49) -> (2, 57) -> (7, 57) -> (7, 54) -> (15, 54) -> (17, 56) -> North`.
+- **Reasoning:**
+  - 2F West path seems dead-ended or bugged at ledge (3, 34).
+  - 1F has a southern corridor (Row 54/56/57) connecting West and East sections.
+  - Avoiding potential blockage at (6, 56) by using Row 57.
 
 ## Status
 - **Money:** ¥3294.
