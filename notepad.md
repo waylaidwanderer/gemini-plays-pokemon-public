@@ -52,3 +52,11 @@
 - **Celadon Pillars:** Col 12 and Col 36 block horizontal movement.
 - **Tool Maintenance:** Ensure tool logic includes all traversable types. Fix immediately when missing types are identified.
 - **Inventory Sync:** Calcifer is Lv 62. Iron/Rare Candy usage verified. Bag slots cleared.
+
+## Reflection Turn 41829
+- **Immediate Execution:** No deferred tasks.
+- **Notepad Hygiene:** Reorganized and removed redundant logs. Added start turn for 3F.
+- **Map Hygiene:** Updated markers on 3F. Deleted incorrect 2F markers.
+- **Automation Strategy:** Fixed find_reachable_unseen_tiles logic. Created strategic_planner_v2.
+- **Goal Clarity:** Goals are concrete outcomes. Methods in notepad.
+- **Error Analysis:** Distilled lesson on marker map_id formatting. Fixed root hypothesis on 3F TM stock. Verified Calcifer's stats.
