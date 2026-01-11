@@ -4,20 +4,18 @@
 - **Secondary:** Hunt Roaming Beasts (Raikou/Entei).
 - **Navigation:** Reapply Repel -> Route 37.
 
-## Roamer Hunt
+## Roamer Hunt (Paused)
 - **Target:** Raikou & Entei.
-- **Method:** Route 37 Loop (Blind Hunt).
-- **Current Task:** Roamer Hunt.
-- **Status:** In Ecruteak. Cycling back to Route 37.
-- **Action:** Continue cycle. Last Super Repel active.
-- **Next Step:** Watch for Roamers.
-- **Stats:** 0 Encounters so far (Updated Turn 32766).
+- **Status:** Repels exhausted. Pausing hunt to restock.
+- **Stats:** 0 Encounters so far (Updated Turn 32768).
 
-## Resource Crisis (Turn 32740)
-- **Repels:** 0 remaining in bag (Current one active).
-- **Money:** ¥222 (Broke).
-- **Implication:** Cannot buy more Repels.
-- **Plan:** Continue hunt until current Repel fades. Then assess options (Hunt without Repel vs Farm Money).
+## Resource Crisis (Turn 32768)
+- **Repels:** 0.
+- **Money:** ¥222.
+- **Plan:** Farm Money.
+    - Potential Rematches: Cooltrainer Gaven (called recently), Bug Catcher Wade.
+    - Location: Gaven is on Route 26 (Kanto side). Wade is on Route 31.
+- **Action:** Check Pokegear for rematch indicators or fly to Route 26.
 
 ## Reflection (Turn 32759)
 - **Execution:** Hunt loop flawless. Repel active.
