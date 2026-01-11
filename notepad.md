@@ -41,8 +41,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Travelling to Route 29.
-- **Status:** Master Ball confirmed missing (used on Lugia).
-- **Strategy:** Hunt Roamers with Lugia (Speed 143+).
-- **Route:** New Bark -> Route 29 -> Cherrygrove -> Route 30 -> Route 31 -> Violet -> Route 36 -> Route 37.
-- **Roamer Status:** Raikou/Entei (HP persists). Whittle down strategy.
+- **Current Action:** Entering Route 29.
+- **Next Destination:** Cherrygrove City.
+- **Goal:** Reach Ecruteak City to resume Roamer hunt.
+- **Roamer Strategy:** Use Lugia (Speed 143) to outspeed and trap/damage.
