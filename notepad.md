@@ -44,11 +44,11 @@
 
 ## Department Store Shopping Plan
 - **Goal:** Buy useful TMs and items.
-- **2F:** TMs (Hidden Power, etc.).
-- **3F:** TMs (Hyper Beam, etc.).
+- **2F:** TMs (Hidden Power, etc.). Stock up on Revives and Full Heals.
+- **3F:** TMs (Fire Punch, Ice Punch, Thunder Punch). Hyper Beam.
 - **4F:** Evolution Stones (Fire, Water, Leaf, Thunder).
 - **5F:** Stat boosters (Protein, Iron, etc.).
-- **Rooftop:** Vending machines (Fresh Water, Soda Pop, Lemonade).
+- **Rooftop:** Vending machines (Fresh Water, Soda Pop, Lemonade). Give drinks to thirsty girl for TMs.
 
 ## General Lessons & Error Log
 - **NPC Interaction:** Face the NPC then press A. Link markers to Object IDs.
