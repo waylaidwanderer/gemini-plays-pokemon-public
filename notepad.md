@@ -31,7 +31,7 @@
 - ICARUS (PIDGEOTTO): FLY
 
 ## Machine Part Investigation (Resolved)
-- **Conclusion (Turn 40061):** The Power Plant quest is complete. Inventory contains the 'PASS' (Copycat's reward). Context Summary 39643 notes the problem was resolved.
+- **Conclusion (Turn 40086):** The Power Plant quest is confirmed complete. The Magnet Train is operational, as verified by the Officer's prompt to board. Possession of the PASS and the restored power allows travel between Saffron and Goldenrod.
 
 ## General Lessons
 - **Data Integrity:** Context Summaries and Inventory are the absolute sources of truth. Prioritize them over transient "pings" or personal memory.
