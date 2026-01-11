@@ -103,6 +103,6 @@
 8. Move to Prize Exchange building.
 ## Celadon Game Corner Prize Exchange (Turn 42027)
 - Gentleman (0, 2): Wanted PORYGON, but was short by 100 coins.
-- TM Vendor (2, 1): [To be checked]
+- TM Vendor (2, 1): TM32 (1500), TM29 (3500), TM15 (7500). (Done Turn 42029)
 - Pokemon Vendor (4, 1): [To be checked]
 - Pharmacist (4, 3): [To be checked]
