@@ -42,7 +42,7 @@
   - Start Time: Turn 33801
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Entering Route 37 to sweep.
+  - Note: Sweeping grass.
 
 # Reflection (Turn 33798)
 - **Hygiene:** Objectives synced. Old logs removed.
