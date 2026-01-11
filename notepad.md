@@ -1,20 +1,16 @@
-# Strategic Notes
-## Objectives
-- **Primary:** Reach Indigo Plateau (Money Farming Loop).
-- **Secondary:** Defeat Elite Four.
-- **Tertiary:** Hunt Roamers (Raikou/Entei) - *Paused*.
+# Hall of Fame Entry
+- **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
+- **Date:** Turn 33314
+- **MVP:** Muscle (Machoke) Lv88 - Swept the Elite Four & Lance.
+- **Support:** Maelstrom (Lugia) - Helped vs Gengar.
 
-## Current Task: Defeat Champion Lance
-- **Location:** Indigo Plateau - Lance's Room (16_7)
-- **Goal:** Defeat Champion Lance (Dragon Specialist).
-- **Status:** Battling Lance.
-## Current Task: Defeat Champion Lance
-- **Location:** Indigo Plateau - Lance's Room (16_7)
-- **Goal:** Defeat Champion Lance (Dragon Specialist).
-- **Status:** Battling Lance.
-- **Opponent:** Dragonite (Incoming).
-- **Active:** Muscle (Lv88).
-- **Strategy:**
-  - **Dragonite x3:** Muscle `Ice Punch` (4x Super Effective).
-  - **Aerodactyl:** Muscle `Thunderpunch` (2x Super Effective).
-- **Health Check:** Muscle 286/298 HP.
+# Post-Game Objectives (Kanto)
+- **Primary:** Collect 8 Kanto Badges.
+- **Immediate:**
+  1. Wake up in New Bark Town.
+  2. Get S.S. Ticket from Prof. Elm.
+  3. Fly to Olivine City.
+  4. Board S.S. Aqua to Vermilion City.
+
+# Roaming Beasts Status
+- **Raikou & Entei:** Still roaming. Will track later.
