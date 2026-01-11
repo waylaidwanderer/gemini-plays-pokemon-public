@@ -15,6 +15,7 @@
 - **Location:** Roaming Johto (Random).
 
 # Status Update
-- Current State: Overworld (Mt. Silver).
-- Action: Opening Pokemon Menu to Fly.
+- Current State: Selecting Fly on Mistral.
+- Goal: Goldenrod City.
+- Next: Navigate cursor to Goldenrod and land.
 - Tool: `pathfind` is ready.
