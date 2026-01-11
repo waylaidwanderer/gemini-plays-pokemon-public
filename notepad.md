@@ -14,7 +14,7 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Inside Olivine Port Passage.
-- Taking ladder at (15, 4) to access the Port.
-- Goal: Board S.S. Aqua.
+- In Olivine Port Passage underground.
+- Moving South from (3, 2) to (3, 14).
+- Goal: Exit passage to Olivine Port and board S.S. Aqua.
 - Reminder: Wade (Rt 31) has berries (ignoring for now).
