@@ -38,3 +38,5 @@
   - Location: Route 37
   - Repel Active: Yes
   - Action: Initial check.
+  - Result: No encounter in first 8 steps.
+  - Action: Resetting map (Route 37 -> Ecruteak).
