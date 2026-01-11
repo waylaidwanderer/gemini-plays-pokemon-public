@@ -7,10 +7,10 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Head to Route 37 -> Use Max Repel -> Hunt.
-- **Status:** Moving to Route 37.
+- **Immediate Task:** Enter Route 37 -> Use Max Repel -> Hunt.
+- **Status:** Entering Route 37.
 - **Strategy:**
-    1. Enter Route 37.
+    1. Enter Route 37 (South of Ecruteak).
     2. Use Max Repel.
     3. Run in grass (Lv36 Gyarados leader filters all but Roamers).
     4. If no encounter, transition map (Ecruteak <-> Route 37) to reset Roamers.
