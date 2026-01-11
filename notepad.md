@@ -52,4 +52,4 @@
 - Pokémon 2: Rhyhorn Lv41 (Fainted to Gneiss's Earthquake).
 - Pokémon 3: Omastar Lv42 (Fainted to Gneiss's Earthquake).
 - Pokémon 4: Kabutops Lv42 (Defeated Gneiss with Surf; fainted to Calcifer's Thunderpunch).
-- Pokémon 5: Onix Lv44 (Used Sandstorm).
+- Pokémon 5: Onix Lv44 (Used Sandstorm; hit by Calcifer's Flame Wheel).
