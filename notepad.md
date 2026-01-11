@@ -8,9 +8,9 @@
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
 - **Status:** Battling Bruno.
-- **Opponent:** Machamp (Incoming).
+- **Opponent:** Machamp (Lv46).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
-  - **Machamp:** Use `Strength` (Reliable) or `Cross Chop` (Power).
+  - **Machamp:** Use `Strength` (Reliable).
   - **Onix:** Use `Ice Punch` or `Cross Chop`.
 - **Health Check:** Muscle Full.
