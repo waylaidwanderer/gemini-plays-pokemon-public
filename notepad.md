@@ -46,3 +46,10 @@
   3. Explore the Museum.
   4. Head East to Route 3.
 - **Tile Mechanics:** FLOOR and WALL collision confirmed at city entrance. (Turn 40655).
+## Pewter City Exploration Status
+- (13, 25): Pokémon Center (Confirmed).
+- (7, 29): Uninvestigated building. Hypothesized to be Poké Mart or Gym.
+- (12, 30): Bug Catcher NPC.
+- (19, 29): Welcome Sign.
+- (14, 25): Poké Center Sign.
+- (18, 35): Path to Route 2.
