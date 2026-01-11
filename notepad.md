@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Flying to Ecruteak (Executing Map Input).
-- **Current Iteration (65):**
-  - Start Time: Turn 33901
-  - Location: Cherrygrove City -> Ecruteak City
-  - Action: Map Input (Left -> Up -> Left -> A -> A).
-  - Note: Cursor confirmed at New Bark Town via Screen Text. Path: New Bark (Left) -> Cherrygrove (Up) -> Violet (Left) -> Ecruteak.
+- **Status:** Fly Failed (Landed in Cherrygrove). Restarting.
+- **Current Iteration (66):**
+  - Start Time: Turn 33916
+  - Location: Cherrygrove City
+  - Action: Press Start (Open Menu).
+  - Note: Previous Fly attempt landed in Cherrygrove despite cursor showing Ecruteak (likely input speed issue eating inputs). Restarting sequence slow and steady.
