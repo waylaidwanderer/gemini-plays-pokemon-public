@@ -41,7 +41,10 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Inspecting Lugia's Stats Screen.
-- **Status:** Pressed A to open Stats.
-- **Objective:** Identify the Ball Icon in the top right corner of the Stats page.
-- **Hypothesis:** Master Ball (M) vs Ultra Ball.
+- **Current Action:** Resuming Roamer Hunt.
+- **Status:** Master Ball NOT found. Presumed used on Lugia.
+- **Strategy Update:** 
+  1. Roamers flee if slower. Lead with **Lugia (Lv 60, Spd 143)**. It is faster than Raikou/Entei.
+  2. Whittle HP with non-lethal moves (Gust?) or just chuck Ultra Balls immediately.
+  3. Roamer HP persists between encounters.
+- **Navigation:** Exiting Player House. Heading to Cherrygrove to attempt Fly (or walk) to Ecruteak.
