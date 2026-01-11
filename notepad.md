@@ -41,8 +41,8 @@
 - **Current Iteration (64):**
   - Start Time: Turn 33869
   - Location: Route 37
-  - Action: Preparation.
-  - Note: Used Max Repel (12 left). Preparing to Fly to Ecruteak.
+  - Action: Fly.
+  - Note: Flying to Ecruteak City to begin North Rapid Resets.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
