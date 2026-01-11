@@ -20,9 +20,10 @@
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 - **Misty Defeated:** Turn 41351. Received Cascade Badge.
 - **Cerulean Gym Cleanup:** COMPLETED (Turn 41366). All trainers handled.
+- **Celadon City Arrival:** Turn 41410.
 
 ## Time Tracking
-- **Celadon City Journey:** Started Turn 41371. Current goal: Defeat Erika.
+- **Celadon City Exploration:** Started Turn 41410. Current goal: Defeat Erika.
 
 ## Party Management
 - **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
@@ -40,22 +41,14 @@
   - Saffron (Sabrina): DEFEATED.
   - Celadon (Erika): Next target.
 
-## Celadon City Journey
-- Start Turn: 41371
-- Objective: Defeat Erika.
-- Route: Cerulean -> Route 5 -> Saffron -> Route 7 -> Celadon.
-- Strategy: 
-  1. Head South from Cerulean to Route 5.
-  2. Pass through Route 5 to Saffron City.
-  3. Head West from Saffron (Route 7) to Celadon City.
-  4. Verified: Path to Celadon is at the north edge of Route 7 (Rows 0-1).
-- Status: Arrived in Celadon City (Turn 41410).
-
-## Celadon City Exploration
-- Start Turn: 41410
-- Objective: Find Celadon Gym and defeat Erika.
-- Strategy: Explore the city to locate key buildings (Gym, Department Store, Game Corner).
-- Note: Erika's Gym is usually in the south of the city and requires Cut.
+## Celadon City Exploration Plan
+1. Talk to NPCs at (26, 11) and (27, 11). (COMPLETED Turn 41427)
+2. Head north to find the Department Store and Celadon Mansion.
+3. Head south to find the Gym (requires Cut).
+4. Locate the Game Corner in the center of town.
+5. Visit the Department Store to check for useful items/TMs.
+6. Check the Celadon Mansion for any interesting NPCs or events.
+7. Locate and enter the Celadon Gym to challenge Erika.
 
 ## General Lessons & Error Log
 - **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
@@ -64,11 +57,3 @@
 - **Diglett's Cave:** Northern exit is (15, 5) warp carpet.
 - **Button Mixing:** Never mix directional and action buttons in a single `press_buttons` call.
 - **Menu Indexing:** (Turn 41290) Accidentally used Protein on LAPIS. Always verify cursor position.
-## Celadon City Exploration Plan
-1. Talk to NPCs at (26, 11) and (27, 11).
-2. Head north to find the Department Store and Celadon Mansion.
-3. Head south to find the Gym (requires Cut).
-4. Locate the Game Corner in the center of town.
-5. Visit the Department Store to check for useful items/TMs.
-6. Check the Celadon Mansion for any interesting NPCs or events.
-7. Locate and enter the Celadon Gym to challenge Erika.
