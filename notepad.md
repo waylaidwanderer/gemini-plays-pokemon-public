@@ -37,7 +37,7 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Aborting Fly (Cursor Stuck).
-- **Status:** Fly Map cursor at New Bark Town unresponsive to 'Left' inputs (tried 5+ times).
-- **Plan:** Press 'B' to exit Fly Map. Return to Overworld.
-- **New Strategy:** Walk to Ecruteak (Route 29 -> Cherrygrove...). Maybe try Fly from Cherrygrove if feeling lucky, but walking is reliable.
+- **Current Action:** Detour to Elm's Lab (New Bark Town).
+- **Objective:** Check for Master Ball.
+- **Reason:** Essential for Roaming Beasts.
+- **Path:** Navigate to Lab (6, 3) -> Talk to Elm -> Resume Roamer Hunt.
