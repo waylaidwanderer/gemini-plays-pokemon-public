@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Route 37 (North Grass).
-- **Action:** Sweeping grass (Pass 1).
-- **Strategy:** Move into grass -> Zigzag -> Check for Roamer (Lv40). If Pidgey (Lv15) appears, Repel has worn off.
+- **Action:** Re-applying Max Repel.
+- **Strategy:** Close text -> Open Pack -> Use Max Repel -> Resume Sweep.
 - **Loop:** 10-step sweep. If nothing, return to Ecruteak.
 
 # Roamer Hunt Log
