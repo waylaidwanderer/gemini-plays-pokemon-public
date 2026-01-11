@@ -44,3 +44,12 @@
 - Snorlax Quest (Radio Tuning to Capture): Turn 40535 to 40583 (~48 turns).
 - Current Goal (Pewter City): Started Turn 40584.
 - **Diglett's Cave Ladders:** (5, 31) warps to (17, 33) within the same map. (Turn 40596).
+## Strategy for Misty & Cerulean Badge
+- **Objective:** Find Misty on Route 25 to return her to Cerulean Gym.
+- **Path:**
+  1. Exit Diglett's Cave to Route 2 (north).
+  2. Travel north to Pewter City.
+  3. Head east through Route 3 and Mt. Moon to reach Cerulean City.
+  4. Go north to Route 24, then east on Route 25 to the cape.
+  5. Talk to Misty, then return to Cerulean Gym.
+- **Preparation:** Buy Repels in Pewter City to speed up travel.
