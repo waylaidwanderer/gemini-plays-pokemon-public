@@ -56,3 +56,5 @@
 - Celadon Mansion 2F: Game Freak Meeting Room sign at (5, 8) read. Entrance likely on the left side.
 - Celadon Mansion 2F: Bookshelf at (2, 3) is full of difficult books.
 - Celadon Mansion 2F: Computer at (0, 3) to be investigated.
+- Celadon Mansion 2F: Computer at (0, 3) is being investigated.
+- Celadon Mansion 2F: Unmarked warps at (0, 0) and (1, 0) to be checked.
