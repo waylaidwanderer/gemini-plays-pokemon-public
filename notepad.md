@@ -7,9 +7,9 @@
 - TALL_GRASS / LONG_GRASS: Traversable.
 - grass: Traversable.
 - DOOR / WARP / CAVE: Entry points.
-- LADDER: Traversable. (Verified Turn 41091).
+- LADDER: Traversable.
 - COUNTER: Impassable. Interact from front tile.
-- LEDGE_HOP_DOWN: One-way jump down from North to South. (Verified Turn 41008).
+- LEDGE_HOP_DOWN: One-way jump down from North to South.
 - FLOOR_UP_WALL: Collision type for ledges. Blocks movement from North.
 - OBJECTS (NPCs/Items): Impassable.
 
