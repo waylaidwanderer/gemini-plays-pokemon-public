@@ -7,11 +7,10 @@
 ## Current Task: Defeat Elite Four
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
-- **Status:** Walking to Bruno.
+- **Status:** Engaging Bruno.
 - **Immediate Actions:**
-  1. Navigate to (5, 8).
-  2. Talk to Bruno (5, 7).
-  3. Defeat him.
+  1. Interact with Bruno (Press Up, A).
+  2. Win the battle.
 - **Strategy for Bruno:**
   - **Lead:** Muscle (Lv86).
   - **Threats:** Onix (Rock/Ground), Fighting types.
