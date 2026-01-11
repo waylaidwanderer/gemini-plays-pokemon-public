@@ -39,7 +39,7 @@
 
 ## Celadon City Exploration Plan
 1. Talk to NPCs in city [DONE].
-2. Explore Celadon Mansion [IN PROGRESS].
+2. Explore Celadon Mansion [DONE].
 3. Locate Department Store, Game Corner.
 4. Defeat Erika.
 
@@ -51,7 +51,11 @@
 - **3F:** Graphic Artist (3,4) drew the player. Game Designer (3,6) talks about Pokedex. Fisher (0,4) talks about twins/Jasmine. Programmer (0,7) says play slots.
 - **3F Details:** Game Program (1,6) (bug warning), Reference Material (1,3) (Poké Doll), Bookshelf (2,3) (magazines), Dev Room Sign (5,8).
 - **Roof (Main):** Right side reached from 3F (7,0). Fisher (7,4) loves heights. Graffiti (6,1) moustache prank. Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
-- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night. TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) to be checked.
+- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 12:36 PM). TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) checked.
+
+## Celadon City Landmarks
+- Ladders at (14, 16) and (15, 16) discovered. Need to investigate.
+- Gym Search: Likely in the southern part of the city. Check for cuttable trees.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
