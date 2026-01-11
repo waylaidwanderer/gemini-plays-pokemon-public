@@ -57,8 +57,8 @@
 - **Route 3 Navigation:** Vertical walls block at X=13, 19, 24, 32, 35, 40, and 54. Rows 0, 3, 4 are clear for early walls. Row 6/7 seems to be the bypass for the X=50 and X=54 walls. (Turn 40897).
 - **Repel Status:** Super Repel active (200 steps from Turn 40885).
 ## Strategy: Rival Silver (Mt. Moon)
-- **Turn:** 40912
-- **Location:** Mt. Moon (3_85) at (4, 3).
-- **Silver's Team:**
+- Location: Mt. Moon (3_85) at (4, 3).
+- Silver's Team:
   1. SNEASEL (Lv41): DEFEATED.
-  2. FERALIGATR (Lv45): Active, Asleep. (Turn 40917).
+  2. FERALIGATR (Lv45): Active, Asleep.
+- Current Matchup: Calcifer (Lv58) vs Feraligatr (Asleep).
