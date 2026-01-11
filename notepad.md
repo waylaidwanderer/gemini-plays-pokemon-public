@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City (South Gate).
-- **Action:** Positioning at (9, 2) for Top Sweep.
-- **Strategy:** Sweep Top (4x2, Right) -> Sweep Bottom (6x2, Right) -> Ecruteak.
+- **Action:** Sweeping Top Patch (4x2, Right) from (9, 2).
+- **Strategy:** Sweep Top -> Move to (9, 4) -> Sweep Bottom -> Ecruteak.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
