@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City -> Route 37.
-- **Action:** Shuffling Roamers.
-- **Strategy:** Enter Ecruteak -> Return South -> Sweep Grass.
+- **Action:** Shuffling Roamers (Return Trip).
+- **Strategy:** Immediate U-Turn -> Route 37 -> Sweep Grass.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Technical Notes
