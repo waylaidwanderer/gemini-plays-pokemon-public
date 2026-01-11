@@ -42,7 +42,7 @@
   - Start Time: Turn 33853
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Sweeping south-right grass patch.
+  - Note: Finishing south sweep, then exiting to Route 36 to fly back.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
