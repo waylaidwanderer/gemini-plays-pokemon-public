@@ -7,11 +7,12 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Run in grass (8 steps) -> Reset if empty.
-- **Status:** Hunting on Route 37.
+- **Immediate Task:** Hunt Roamers on Route 37 (Iteration 9).
+- **Status:** Moving to Route 37 (Iteration 9).
 - **Strategy:**
-    1. Run in grass (Lv36 Gyarados leader filters all but Roamers).
-    2. If no encounter after ~10-20 steps, transition map (Ecruteak <-> Route 37) to reset Roamers.
+    1. Enter Route 37.
+    2. Run in grass with Max Repel active.
+    3. If no encounter, reset map.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
