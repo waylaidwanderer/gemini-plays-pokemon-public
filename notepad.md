@@ -30,7 +30,7 @@
 - Ghost: Weak to Ghost, Dark. Immune to Normal, Fighting.
 
 ## Party & PC Management
-- **Lead Pokémon:** Swapped Calcifer (LV58) to lead (Turn 40222).
+- **Lead Pokémon:** Calcifer (TYPHLOSION Lv58).
 - **HM Users:**
   - KIMCHI (GLOOM): FLASH, CUT
   - GNEISS (GRAVELER): STRENGTH
@@ -41,7 +41,7 @@
 ## Kanto Progression Tracking
 - **Magnet Train:** Operational. TRAVEL VERIFIED.
 - **EXPN Card:** Obtained from Lavender Radio Tower (Turn 40164). This is a POKEGEAR UPGRADE.
-- **Snorlax Roadblock:** Route 12/11 junction. Requires Poke Flute to wake.
+- **Snorlax Roadblock:** Route 11 west end. Requires Poke Flute to wake.
 
 ### Kanto Badge Tracker
 - [ ] Boulder Badge (Pewter City)
@@ -53,40 +53,30 @@
 
 ## Area Interests & Discoveries
 ### Route 12
-- Bridge gap at (10, 13). Rows 14-15 are water. Requires Surf.
-- Fisher Kyle defeated at (6, 7).
-- Fishing Spot sign at (13, 9).
-- Hypothesis: Can land from water onto LADDER (bridge). -> CONFIRMED (Turn 40263).
-- Second Bridge gap at (10, 17). Rows 18-19 are water.
-- Target: Land at (10, 20) FLOOR.
-
-### Saffron City
-- Copycat's Doll quest completed (PASS obtained). TM29 Psychic obtained.
-
-### Route 5
-- House for Sale at (10, 11). Landmark.
+- Bridge gaps at (10, 13) and (10, 17). Requires Surf.
+- Fisher Kyle defeated at (6, 7). Fishing Spot sign at (13, 9).
+- Landing directly on bridge (LADDER) from water is possible (Turn 40263).
 
 ### Route 11
 - Entered from Route 12 junction (Turn 40283).
-- Goal: Find Snorlax (blocking path west).
-- Plan: Move West, use Radio (Poke Flute) when adjacent.
+- Trainers: Psychic Herman (ID 3) and Psychic Fidel (ID 4) use Youngster sprites.
 
-## Battle Log: Psychic Herman (Route 11) (COMPLETED Turn 40297)
+## Battle Logs
+### Psychic Herman (Route 11) - COMPLETED
 - Pokémon: Exeggcute (30), Exeggutor (30), Exeggcute (30).
-- Outcome: Victory (¥960). Calcifer (58) swept with Flame Wheel.
+- Outcome: Victory (¥960).
+
+### Psychic Fidel (Route 11) - IN PROGRESS
+- Turn 40307: Battle started at (8, 7).
+- Pokémon: Xatu (34).
+- Strategy: Calcifer (58) using Thunderpunch (Super Effective).
 
 ## Snorlax Quest Phase
 - Goal: Find Snorlax on the far west side of Route 11.
 - Method: Use Pokegear Radio (Frequency 20 - Poke Flute) to wake him.
-- Note: Snorlax is Level 50. High capture priority. Plan to use Calcifer (Thunderpunch for paralysis) or Lapis/Xenon (Hypnosis for sleep).
-- Check: Frequency 20 is at the top of the radio dial in Kanto. verified Turn 40164.
+- Capture Strategy: Snorlax is Level 50. High priority. Plan for paralysis (Calcifer) or sleep (Lapis/Xenon).
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
 - **Ledges:** Jumping down ledges advances the player two tiles.
 - **Menu Depth:** Verify cursor position and menu level before executing button sequences.
-- **Surfing to Bridges:** Landing directly on a LADDER (bridge) tile from WATER is possible. (Verified Turn 40263).
-## Battle Log: Psychic Fidel (Route 11)
-- Turn 40307: Battle started at (8, 7).
-- Pokémon: Xatu (34).
-- Strategy: Calcifer (58) using Thunderpunch (Super Effective).
