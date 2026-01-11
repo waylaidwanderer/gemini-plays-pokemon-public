@@ -47,5 +47,5 @@
 - **Counter:** Lead with Calcifer (ThunderPunch) or Kimchi (Petal Dance).
 - **Avoid:** Do not use Gneiss (Rock/Ground) as he is double-weak to Water.
 - **Backup:** Xenon can provide status support with Hypnosis if needed.
-- **Preparation Plan:** Use Protein on Calcifer to boost ThunderPunch stat.
+
 - **Error Log (Turn 41290):** Accidentally used Protein on LAPIS instead of Calcifer due to incorrect menu indexing in the Pokémon selection screen. Always verify cursor position before confirming item use.
