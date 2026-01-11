@@ -70,7 +70,7 @@
     ]
   },
   "pathfind": {
-    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of coordinates. Requires `map_xml_string` to be available in the environment.",
+    "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of coordinates.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -79,19 +79,29 @@
         },
         "target_y": {
           "type": "integer"
+        },
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": [
         "target_x",
-        "target_y"
+        "target_y",
+        "autopress_buttons"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef pathfind(target_x, target_y):\n    # map_xml_string is injected by the system\n    root = ET.fromstring(map_xml_string)\n    \n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    # 1 = blocked, 0 = walkable\n    grid = [[1 for _ in range(height)] for _ in range(width)] \n    start_pos = None\n    \n    # Allowed tile types\n    walkable_types = [\n        'FLOOR', 'GRASS', 'TALL_GRASS', \n        'WARP_CARPET_DOWN', 'WARP_CARPET_UP', \n        'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT'\n    ]\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            \n            # Find player\n            if tile.find('Player') is not None:\n                start_pos = (x, y)\n            \n            t_type = tile.attrib.get('type', 'WALL')\n            has_object = tile.attrib.get('has-object', 'false') == 'true'\n            \n            # Check traversability\n            # Note: We consider objects as blocking unless it's the target itself\n            if t_type in walkable_types:\n                if not has_object or (x == target_x and y == target_y):\n                    grid[x][y] = 0\n            \n            # Explicitly allow LADDER if it's the target\n            if t_type == 'LADDER' and x == target_x and y == target_y:\n                grid[x][y] = 0\n\n    if not start_pos:\n        print(f\"Error: Player not found on map.\")\n        return []\n\n    # BFS\n    queue = deque([(start_pos, [])])\n    visited = set([start_pos])\n    \n    while queue:\n        (cx, cy), path = queue.popleft()\n        \n        if (cx, cy) == (target_x, target_y):\n            # Return path including start (or not? navigate tool expects start)\n            # navigate tool expects: [current_pos, next, next...]\n            # My logic builds path of *steps*. \n            # Let's return full coordinate list including start.\n            return [{\"x\": start_pos[0], \"y\": start_pos[1]}] + path\n            \n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height and grid[nx][ny] == 0 and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                new_path = path + [{\"x\": nx, \"y\": ny}]\n                queue.append(((nx, ny), new_path))\n                \n    print(f\"No path found from {start_pos} to ({target_x}, {target_y})\")\n    return []\n\nprint(pathfind(target_x, target_y))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport collections\n\ndef get_path(map_xml, t_x, t_y, autopress):\n    try:\n        root = ET.fromstring(map_xml)\n        width = int(root.attrib['width'])\n        height = int(root.attrib['height'])\n        grid = [[False for _ in range(height)] for _ in range(width)]\n        player_pos = None\n        \n        # Traversable tiles\n        traversable_types = {\n            'FLOOR', 'TALL_GRASS', 'SAND', 'PATH', 'SNOW', 'ICE', 'CARPET', 'MAT',\n            'STAIRS', 'GRASS', 'LONG_GRASS', 'BRIDGE', 'CAVE_FLOOR', 'PUDDLE', 'DIRT'\n        }\n        \n        for tile in root.findall(\".//Tile\"):\n            x = int(tile.attrib['id'])\n            y = int(tile.find('..').attrib['id'])\n            t_type = tile.attrib['type']\n            is_walkable = t_type in traversable_types\n            \n            # Objects block\n            if tile.find(\"Object\") is not None:\n                is_walkable = False\n            \n            # Player is walkable (start pos)\n            if tile.find(\"Player\") is not None:\n                player_pos = (x, y)\n                is_walkable = True\n\n            if 0 <= x < width and 0 <= y < height:\n                grid[x][y] = is_walkable\n\n        if not player_pos:\n            return {\"error\": \"Player not found\"}\n        \n        start_x, start_y = player_pos\n        queue = collections.deque([[player_pos]])\n        visited = {player_pos}\n        found_path = None\n        \n        while queue:\n            path = queue.popleft()\n            curr_x, curr_y = path[-1]\n            if curr_x == t_x and curr_y == t_y:\n                found_path = path\n                break\n            \n            for dx, dy in [(0, -1), (0, 1), (-1, 0), (1, 0)]:\n                nx, ny = curr_x + dx, curr_y + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    if grid[nx][ny] and (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        new_path = list(path)\n                        new_path.append((nx, ny))\n                        queue.append(new_path)\n\n        if found_path:\n            buttons = []\n            if autopress:\n                for i in range(len(found_path) - 1):\n                    cx, cy = found_path[i]\n                    nx, ny = found_path[i+1]\n                    if nx > cx: buttons.append(\"Right\")\n                    elif nx < cx: buttons.append(\"Left\")\n                    elif ny > cy: buttons.append(\"Down\")\n                    elif ny < cy: buttons.append(\"Up\")\n                print(buttons)\n            return found_path\n        else:\n            return {\"error\": \"No path found\"}\n\n    except Exception as e:\n        return {\"error\": str(e)}\n\n# Retrieve injected variables safely\nt_x = globals().get('target_x')\nt_y = globals().get('target_y')\nautopress = globals().get('autopress_buttons', False)\n\nif t_x is None or t_y is None:\n    print({\"error\": \"Missing target_x or target_y arguments\"})\nelse:\n    print(get_path(map_xml_string, t_x, t_y, autopress))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-11T09:01:19.563Z",
         "action_counter": 33384
+      },
+      {
+        "commit_message": "Fixed NameError by using globals().get() to safely retrieve injected arguments. Added autopress_buttons support.",
+        "timestamp": "2026-01-11T16:48:12.265Z",
+        "action_counter": 34015
       }
     ]
   }
