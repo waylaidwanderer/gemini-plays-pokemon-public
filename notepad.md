@@ -7,12 +7,9 @@
 # Objectives
 - **Primary:** Hunt Roamers (Raikou/Entei).
 - **Secondary:** Complete Pokedex.
-- **Immediate Task:** Exit Dept Store & Switch Party Order.
-- **Shopping List:**
-  - 20 Max Repels (Cost: ¥14,000) - *Purchased*
-  - 25 Ultra Balls (Cost: ¥30,000) - *Purchased*
-- **Status:** Exiting store.
-- **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels!
+- **Immediate Task:** Travel to Saffron City Magnet Train.
+- **Status:** Traveling to Saffron -> Goldenrod.
+- **Strategy:** Lv36 Gyarados in lead + Max Repel to hunt Roamers.
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
