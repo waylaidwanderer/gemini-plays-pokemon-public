@@ -61,5 +61,7 @@
 - Silver's Team:
   1. SNEASEL (Lv41): DEFEATED.
   2. FERALIGATR (Lv45): DEFEATED.
-  3. GOLBAT (Lv42): Active.
-- Current Matchup: Calcifer (Lv58) vs Golbat.
+  3. GOLBAT (Lv42): DEFEATED.
+  4. GENGAR (Lv43): Active.
+- Current Matchup: Calcifer (Lv58) vs Gengar.
+- Lesson: Verify leading Pokemon in Party data. GNEISS is still leading. (Turn 40931).
