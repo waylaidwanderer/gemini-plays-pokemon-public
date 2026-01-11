@@ -21,5 +21,5 @@
 - **Navigation:** Always verify `current_map_id`.
 
 # Current Status
-- **Location:** Route 30 (Heading North to Violet City).
-- **Next:** Violet City -> Route 36 -> Ecruteak.
+- **Location:** Entering Route 31 (from Route 30 North).
+- **Next:** Route 31 -> Violet City -> Route 36 -> Ecruteak.
