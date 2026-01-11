@@ -59,3 +59,4 @@
 ## Custom Tools
 - find_path_v5: A* pathfinding for current map.
 - press_menu_buttons_v3: Menu navigation.
+- **Fisher (26, 12):** Spotted. (Turn 40834).
