@@ -36,6 +36,7 @@
 - **Recent Battles:**
   - Youngster Warren (Route 3): DEFEATED. (Turn 40814).
   - Youngster Jimmy (Route 3): DEFEATED. (Turn 40826).
+  - Firebreather Burt (Route 3): DEFEATED. (Turn 40906).
   - Firebreather Otis (Route 3): DEFEATED. (Turn 40845).
 
 ## Strategy: Mt. Moon
