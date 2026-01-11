@@ -83,3 +83,5 @@
 - Celadon City: Mansion Back Door at (16, 3) and (17, 3) is accessible via gaps in the Row 3 wall at (24, 3) or (25, 3).
 - Celadon City: Row 2 is a traversable passage behind the mansion.
 - Celadon City: Entering the isolated wing through the back door.
+- Celadon Mansion Secret Wing Exploration started: Turn 41569.
+- Celadon Mansion Back Door (16, 3) successfully reached and used.
