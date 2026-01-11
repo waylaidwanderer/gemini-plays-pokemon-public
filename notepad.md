@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City (South).
-- **Action:** Reading Map (Pass 27).
+- **Action:** Retrying Map Open (Pass 27).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 22/Turn 34494). NOW: Pass 27.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
