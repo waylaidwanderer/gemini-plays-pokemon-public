@@ -36,12 +36,12 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 30 Iterations. 0 Encounters.
-- **Current Status:** Iteration 31 Finishing.
+- **Current Status:** Interrupted by Phone Call (Wade).
 - **Current Iteration (31):**
   - Start Time: Turn 33667
   - Location: Route 37
-  - Action: Exiting to Ecruteak (Reset).
-  - Note: Repel active. Heading to exit.
+  - Action: Clearing Dialogue.
+  - Note: Repel active. Heading to Ecruteak after call.
 
 # Reflection (Turn 33644)
 - **Hygiene:** Logs consolidated. Markers verified.
