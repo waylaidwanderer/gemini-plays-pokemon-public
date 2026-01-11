@@ -16,6 +16,6 @@
 # Status Update
 - Currently in Fly Menu.
 - Cursor at Ecruteak City.
-- Previous `Left` input failed to move cursor from Ecruteak.
-- Trying `Left`, `Left` to force movement to Olivine.
+- `Left` inputs failed to reach Olivine.
+- Testing `Down`, `Left` to see if we can reach Goldenrod or Olivine via a different path.
 - If this fails, will Fly to Ecruteak and walk.
