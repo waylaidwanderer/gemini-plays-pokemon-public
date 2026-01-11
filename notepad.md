@@ -9,7 +9,8 @@
 - **Secondary:** Complete Pokedex.
 - **Immediate Task:** Travel to Celadon City (West of Saffron).
 - **Goal:** Buy Max Repels at Celadon Dept Store.
-- **Status:** Arrived in Saffron Station. Exiting to city.
+- **Status:** At Route 7 Gatehouse. Exiting to Route 7.
+- **CRITICAL:** Switch Lv36 Gyarados to Slot 1 before using Repels! (Current Lead: Lv88 Muscle).
 
 # Store Inventories
 - **Goldenrod Dept Store 2F:** Standard Balls, Potions, Revive, Full Heal, Poke Doll. **NO** Max/Super Repels.
