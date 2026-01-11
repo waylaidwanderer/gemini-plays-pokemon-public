@@ -32,7 +32,7 @@
     3. Revives (Clerk 1, ¥1500).
 - Current Stock (Clerk 1): Potion, Super Potion, Hyper Potion, Max Potion, Revive, Super Repel, Max Repel.
 - Current Stock (Clerk 2): Poké Ball, Great Ball, Ultra Ball, Escape Rope, Full Heal.
-- Plan: Buy 10 Full Heals, then return to Clerk 1 for Max Potions and Revives.
+- Plan: Buy Max Potions and Revives from Clerk 1.
 - Exploration: Western half of 2F (Column 0-8) is unseen. Reachable via (10,3).
 
 ## Department Store Shopping Plan (Long Term)
