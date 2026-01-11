@@ -8,7 +8,7 @@
 - **Location:** Indigo Plateau - Karen's Room (16_6)
 - **Goal:** Defeat Karen (Dark Type).
 - **Status:** Battling Karen.
-- **Opponent:** Houndoom (Incoming).
+- **Opponent:** Houndoom (Lv47).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Houndoom:** Use `Cross Chop` (Super Effective).
