@@ -13,8 +13,8 @@
 
 # Current Status
 - **Location:** Ecruteak City -> Route 37.
-- **Action:** Shuffling Roamers (Step 1/2).
-- **Strategy:** Enter Ecruteak -> Immediate U-Turn -> Route 37.
+- **Action:** Shuffling Roamers (Step 2/2: Return to Route).
+- **Strategy:** Walk South to re-enter Route 37 -> Resume Sweep.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
