@@ -28,17 +28,5 @@
         "action_counter": 27988
       }
     ]
-  },
-  "flee_battle": {
-    "description": "Automates the process of fleeing from a wild Pokémon battle. It presses 'B' to close any text, then navigates the menu to select 'RUN'. This tool assumes the standard battle menu layout (FIGHT, PKMN, PACK, RUN).",
-    "input_schema": {},
-    "python_script": "print('[\"B\", \"Down\", \"Right\", \"A\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T04:02:32.003Z",
-        "action_counter": 32972
-      }
-    ]
   }
 }
