@@ -71,10 +71,15 @@
 - Goal: Find Snorlax (blocking path west).
 - Plan: Move West, use Radio (Poke Flute) when adjacent.
 
-## Battle Log: Psychic Herman (Route 11)
-- Opponent uses Youngster sprite (ID 3).
-- Pokémon: Exeggcute (30) [Defeated], Exeggutor (30) [Defeated], Exeggcute (30) [Current].
-- Strategy: Calcifer (58) using Flame Wheel.
+## Battle Log: Psychic Herman (Route 11) (COMPLETED Turn 40297)
+- Pokémon: Exeggcute (30), Exeggutor (30), Exeggcute (30).
+- Outcome: Victory (¥960). Calcifer (58) swept with Flame Wheel.
+
+## Snorlax Quest Phase
+- Goal: Find Snorlax on the far west side of Route 11.
+- Method: Use Pokegear Radio (Frequency 20 - Poke Flute) to wake him.
+- Note: Snorlax is Level 50. High capture priority. Plan to use Calcifer (Thunderpunch for paralysis) or Lapis/Xenon (Hypnosis for sleep).
+- Check: Frequency 20 is at the top of the radio dial in Kanto. verified Turn 40164.
 
 ## General Lessons & Error Log
 - **Dialogue Boxes:** Close dialogue boxes before attempting movement.
