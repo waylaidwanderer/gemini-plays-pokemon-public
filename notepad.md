@@ -39,4 +39,4 @@
   - Start Time: Turn 33633
   - Location: Route 37
   - Action: Hunting (Grass Sweep).
-  - Note: Repel active (Refreshed Turn 33636).
+  - Note: Repel active (Refreshed Turn 33636). Resuming sweep.
