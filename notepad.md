@@ -17,17 +17,13 @@
 - **Strategy:** Zigzag North through grass -> Exit to Ecruteak to shuffle.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
+# Technical Notes
+- **Pokegear:** Navigate carefully; use `A` to exit Clock view.
+- **RNG:** Roamer position resets on map transition. Patience required.
+
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Turn:** 34317.
-- **Status:** Shuffled. Sweeping Route 37.
-- **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
+- **Current Turn:** 34318.
+- **Status:** Shuffling (Entering Ecruteak).
+- **Pattern:** Circle grass -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
-
-# Technical Notes
-- **XML Parsing:** `xml.etree.ElementTree` requires strict downward iteration (no `..`).
-- **Pokegear:** Navigate carefully; use `A` to exit Clock view.
-- **Menu Nav:** `Right` from `PACK` failed. Trying `Down` to reach `POKEGEAR` via bottom row.
-- **Tool:** Defined `zigzag_sweep` to automate grass checking.
-- **Action:** Sweep complete. Returning to Ecruteak to shuffle.
-- **Strategy:** Enter Ecruteak -> Shuffle -> Re-enter Rt 37 -> Sweep.
