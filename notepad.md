@@ -14,10 +14,9 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Accidentally Flew to Mt. Silver (Silver Cave).
-- Current Location: Outside Mt. Silver Pokemon Center.
-- Immediate Goal: Fly to Goldenrod City (for real this time).
-- Reason: Buy Max Repels for Roamer Hunt.
+- Correcting menu navigation (exiting Item menu).
+- Selecting Mistral (Pidgey) to Fly to Goldenrod City.
+- Goal: Buy Max Repels at Dept Store.
 
 # Roaming Beasts Status
 - **Raikou & Entei:** Roaming Johto.
