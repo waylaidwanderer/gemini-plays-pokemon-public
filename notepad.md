@@ -96,6 +96,7 @@
     - Fishing Guru at (11, 7): The odds vary among machines. (Done)
     - Teacher at (17, 7): Machine should pay out today. (Done Turn 41971)
     - Fisher at (8, 10): Gave GEM 20 coins. (Done)
+    - Gym Guide at (11, 3): Trying to get coins for prize Pokémon. (Done Turn 41977)
 4. Check prize exchange prices (usually in an adjacent building or at a counter).
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity (hidden switches, etc.).
