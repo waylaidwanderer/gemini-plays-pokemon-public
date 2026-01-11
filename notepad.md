@@ -37,10 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Recovering Navigation. Menu Closed. Restarting Fly Sequence.
-
-# Reflection (Turn 33904)
-- **Error Analysis:** Previous turn `Up, Up, A` navigated the Start Menu incorrectly (Exit selected), closing the menu.
-- **Current State:** Overworld (Violet City). Menu Closed.
-- **Immediate Action:** Press Start to open menu. Will visually confirm cursor position before navigating.
-- **Goal:** Fly to Ecruteak.
+- **Status:** Menu Recovery. Navigating to Party.
+- **Current Iteration (65):**
+  - Start Time: Turn 33901
+  - Location: Violet City
+  - Action: Up x 6 -> A (Open Party).
+  - Note: Cursor on EXIT. Navigating up to POKEMON to avoid wrapping assumptions. Next: Select Mistral -> Fly.
