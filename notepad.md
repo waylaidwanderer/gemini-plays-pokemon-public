@@ -49,3 +49,5 @@
 - **Wall at x=18:** Solid from y=18 to y=21. Gaps at y=17 and y=22.
 - **Pokémon Center:** Occupies x=12-15, y=21-25.
 - **Confirmed Path to Gym Door:** From north, go west to x=10, south to y=18, then east to (16, 18).
+## Battle Log: Pewter Gym
+- **Camper Jerry:** (2, 5). Pokémon: Sandslash Lv37.
