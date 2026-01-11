@@ -37,9 +37,9 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Status:** Restarting Fly Sequence (Attempt 5).
+- **Status:** Opening Fly Map (Waiting for Confirmation).
 - **Current Iteration (68):**
   - Start Time: Turn 33925
   - Location: Cherrygrove City
-  - Action: Start -> A (Open Party).
-  - Note: Fly attempt failed again (landed in Cherrygrove). Cursor likely misaligned or inputs eaten. Restarting, but pausing at Party Menu to visually confirm cursor is on Mistral (Slot 4) before proceeding.
+  - Action: Select Mistral (A) -> Select Fly (A).
+  - Note: Menu logic confirmed (A -> A opens Fly map). PAUSING next turn to read 'Currently selected destination' text before touching any direction buttons. This avoids the 'New Bark Town' vs 'Cherrygrove' confusion.
