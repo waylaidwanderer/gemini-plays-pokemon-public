@@ -39,3 +39,9 @@
 - **Time Blindness:** Always monitor turn count when progress stalls.
 - **Walking Route:** Route 11 -> Route 12 -> Lavender Town. (Turn 40464)
 - **Pathing (Route 12):** Use piers (LADDER tiles) to navigate north. (Turn 40464)
+## Route 12 Navigation (Turn 40467)
+- Observation: Route 12 piers are disconnected between y=16 and y=13 by WATER tiles.
+- Conclusion: Walking north to Lavender Town via Route 12 is impossible without SURF.
+- Strategy: Use SURF from (15, 22) facing Up to navigate north to Lavender Town.
+- Verification: I have the Storm Badge and LAPIS has SURF.
+- Wild Encounters: Run from battles in the water to save time. (Turn 40467)
