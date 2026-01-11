@@ -4,9 +4,9 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Route 37 (North Grass).
-- **Action:** Re-applying Max Repel.
-- **Strategy:** Close Text -> Open Pack -> Use Repel -> Exit North.
+- **Location:** Route 37 -> Ecruteak City.
+- **Action:** Finishing sweep -> Returning to Ecruteak to shuffle.
+- **Strategy:** Exit North (Column 7) -> Shuffle.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
