@@ -13,43 +13,39 @@
 - FLOOR_UP_WALL: Impassable from North (ledge collision type).
 - CUT_TREE: Impassable until CUT is used; then becomes FLOOR.
 - OBJECTS (NPCs/Items): Impassable. Interact from adjacent tile.
+- WARP_CARPET_DOWN: Traversable. Exit point.
+- PC / BOOKSHELF: Impassable.
 
 ## Progress Tracking
 - **Find Misty Quest:** Completed Turn 41238 at Cerulean Cape.
 - **Misty Defeated:** Turn 41351. Received Cascade Badge.
+- **Cerulean Gym Cleanup:** COMPLETED (Turn 41366). All trainers handled.
 
 ## Party Management
-- **Calcifer (Lv 60):** Typhlosion. Flamethrower (Fire), ThunderPunch (Electric).
-- **Kimchi (Lv 46):** Gloom. Grass/Poison. Petal Dance (Grass). (Currently FNT)
-- **Xenon (Lv 44):** Haunter. Ghost/Poison. Hypnosis (Psychic) + Dream Eater (Psychic).
-- **Lapis (Lv 12):** Poliwag. HM slave (Surf, Whirlpool, Waterfall).
-- **Gneiss (Lv 54):** Graveler. Rock/Ground. Avoid Water battles.
-- **Icarus (Lv 19):** Pidgeotto. HM slave (Fly).
+- **Calcifer (Lv 60):** Typhlosion. Flamethrower, Return, Smokescreen, ThunderPunch.
+- **Kimchi (Lv 46):** Gloom. Grass/Poison. (Currently FNT - Healing now).
+- **Xenon (Lv 44):** Haunter. Hypnosis, Confuse Ray, Night Shade, Dream Eater.
+- **Lapis (Lv 12):** Poliwag. Surf, Whirlpool, Waterfall.
+- **Gneiss (Lv 54):** Graveler. Earthquake, Rollout, Strength.
+- **Icarus (Lv 19):** Pidgeotto. Fly.
 
 ## Quest Log & Battle History
 - **Kanto Gyms:**
   - Pewter (Brock): DEFEATED.
-  - Cerulean (Misty): DEFEATED (Turn 41351).
+  - Cerulean (Misty): DEFEATED.
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
   - Celadon (Erika): Next target.
-- **Route 25 Trainers:** Dudley, Ellen, Joe, Laura, Lloyd, Shannon, Pat, Kevin: ALL DEFEATED.
-- **Cerulean Gym Trainers:**
-  - Swimmer Briana (1, 9): DEFEATED.
-  - Swimmer Diana (4, 6): DEFEATED.
-  - Swimmer Parker (8, 9): DEFEATED.
-
-## Cerulean Gym Cleanup
-- Start Turn: 41362
-- Objective: Defeat the final swimmer at (8, 9).
-- Status: COMPLETED. Swimmer gave post-battle dialogue.
 
 ## Celadon City Journey
+- Start Turn: 41371
 - Objective: Defeat Erika.
 - Route: Cerulean -> Route 5 -> Saffron -> Route 7 -> Celadon.
-- Prep: Heal at Cerulean Pokecenter.
+- Contingency: If Saffron gate is blocked, use the Underground Path.
+- Prep: Healing at Cerulean Pokecenter (Turn 41371).
 
 ## General Lessons & Error Log
+- **Inventory Sorting:** Items are NOT sorted alphabetically in-game. Prompt inventory list is sorted for readability and does not reflect in-game order.
 - **Radio UI:** Press 'Down' to move focus from tabs to the dial.
 - **Snorlax:** Caught at (34, 8) on Route 11.
 - **Diglett's Cave:** Northern exit is (15, 5) warp carpet.
