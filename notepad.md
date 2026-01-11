@@ -35,18 +35,21 @@
 - ICARUS (PIDGEOTTO): FLY
 
 ## Machine Part Investigation (Resolved)
-- **Conclusion (Turn 40086):** The Power Plant quest is confirmed complete. The Magnet Train is operational, as verified by the Officer's prompt to board. Possession of the PASS and the restored power allows travel between Saffron and Goldenrod.
+- **Conclusion (Turn 40086):** The Power Plant quest is confirmed complete. The Magnet Train is operational. Travel between regions is verified.
 
 ## General Lessons
-- **Data Integrity:** Context Summaries and Inventory are the absolute sources of truth. Prioritize them over transient "pings" or personal memory.
-- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
-- **Custom Tool Limitation:** `find_path_v4` may not account for moving NPCs that were off-screen when the map was last seen. Manual correction may be required.
+- **Data Integrity:** Context Summaries and Inventory are the absolute sources of truth.
+- **Pokegear Upgrades:** The EXPN Card is a Pokegear upgrade, not a physical item in the Bag. Verify by checking the Radio for the Poke Flute channel (top of the dial).
+- **Warp Carpets:** At map edges, moving "off" the map triggers the warp.
+- **Ledges:** Jumping down ledges (LEDGE_HOP_DOWN) advances the player two tiles south.
+- **Custom Tool Hygiene:** Always use `find_path_v4_fixed` and `strategy_advisor_v2`.
 
 ## Kanto Progression Plan (Started Turn 40091, Jan 10, 2026)
 1. Return to Saffron City via Magnet Train. (COMPLETED Turn 40104)
-2. Go to Lavender Town and verify EXPN Card status at the Radio Tower. (Started Turn 40115) If not possessed, speak to Station Manager (9, 1) again.
-3. Go to Route 25 (North of Cerulean) to find Misty and earn the Cascade Badge.
-4. Use the Poke Flute channel (Radio) to wake up Snorlax on Route 11 to access southern Kanto (Route 12-15, Fuchsia City).
+2. Obtain EXPN Card from Lavender Radio Tower. (COMPLETED Turn 40164)
+3. Go to Route 11 (via Route 12) to wake up Snorlax using the Poke Flute radio channel.
+4. Go to Route 25 (North of Cerulean) to find Misty and earn the Cascade Badge.
+5. Explore southern Kanto (Fuchsia City, etc.).
 
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
@@ -54,8 +57,3 @@
 
 ## Route 5 Interests
 - **House for Sale:** Located at (10, 11). Landmark.
-## General Lessons (Update)
-- **Warp Carpets:** At map edges, moving "off" the map (e.g., Right into a WALL at (39, 22)) triggers the warp.
-- **Ledges:** Jumping down ledges (LEDGE_HOP_DOWN) is a scripted movement that advances the player two tiles south.
-- **Custom Tool Failures:** If `find_path_v4` returns null or fails, it may be due to the destination being an "impassable" tile (like an unseen tile or NPC). Target an adjacent walkable tile instead.
-- **Route 8 Navigation:** Row 12 is a clear path east through the wall at X=30, but requires CUT at (21, 12). Row 16/17 may also be traversable.
