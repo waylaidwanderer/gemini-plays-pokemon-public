@@ -6,7 +6,7 @@
 - **Efficiency:** Running from wild battles is preferred.
 - **Fly Usage:** Use Fly for long-distance travel. If cursor seems stuck, use `press_buttons`.
 - **Menu Verification:** Use short sequences (1-5 buttons) and verify screen state.
-- **Prerequisite Check:** Always verify required items (like EXPN Card) in Game State before attempting puzzles. If a repetitive action fails 5-10 times, audit the root assumption.
+- **Prerequisite Check:** Always verify required items in Game State before attempting puzzles.
 - **Agent Usage:** Use specialized agents if progress stalls for 20+ turns.
 
 ## Tile Mechanics (Global)
@@ -34,18 +34,16 @@
 - **Prerequisite:** EXPN Card (Missing from Game State).
 - **Quest Status:** Power restored (Magnet Train operational).
 - **Strategy:**
-  1. Talk to Mr. Fuji (ID 1) at (4, 2) in the Soul House.
-  2. If Mr. Fuji doesn't provide the card or a lead, revisit the Power Plant Manager (Route 10) to ensure the quest is fully closed.
-  3. Talk to Gentleman (9, 1) in Radio Tower 1F again if needed.
-  4. Once EXPN Card is obtained (verify in Game State), return to Snorlax.
+  1. Talk to Mr. Fuji (ID 1) at (4, 2) in the Soul House. (Done, no item received).
+  2. Use `quest_analyst` to determine missing triggers for EXPN Card.
+  3. Revisit Radio Tower 1F and talk to Gentleman (9, 1) and Music Director (14, 6).
+  4. If card is still missing, revisit the Power Plant Manager (Route 10).
+  5. Once EXPN Card is obtained (verify in Game State), return to Snorlax.
 
 ## General Lessons & Error Log
 - **Missing Prerequisite:** Spent 180+ turns trying to wake Snorlax without the EXPN Card. Always check Game State for required capabilities.
+- **Dialogue vs. Items:** "With that thing..." dialogue does NOT guarantee item receipt if not in Game State.
 - **Pathing (Route 12):** Surfing is required to bypass broken piers between y=16 and y=13. (Turn 40467).
-- **Overwatch Note:** Trust Game State over self-placed markers. (Turn 40501).
-- **Fly Map:** Cursor may require D-pad `press_buttons` if `press_menu_buttons_v2` fails. (Turn 40450).
-- **Insanity Loop:** Repeating menu sequences without verifying prerequisites is a failure of the scientific method.
 - **Time Blindness:** Always monitor turn count when progress stalls.
-- **Menu Cursor Memory:** The Start menu remembers the last position. Always verify start position. (Turn 40501).
+- **Menu Cursor Memory:** Start menu remembers last position. Always verify start position. (Turn 40501).
 - **Dialogue Boxes:** Close dialogue boxes before menuing. (Turn 40501).
-- **Phone Calls:** NPCs can call and interrupt. Check screen state before proceeding. (Turn 40501).
