@@ -65,3 +65,5 @@
 - Celadon Mansion 3F: Bookshelf at (2, 3) to be investigated.
 - Celadon Mansion 3F: Super Nerd at (0, 7) and Fisher at (0, 4) present.
 - Celadon Mansion 3F: Game Program at (1, 6), Reference Material at (1, 3), and Dev Room Sign at (5, 8) to be investigated.
+- Celadon Mansion 3F: Cooltrainer M (Game Designer) at (3, 6) says filling the Pokedex is tough.
+- Celadon Mansion 3F: Gym Guide at (3, 4) to be spoken to next.
