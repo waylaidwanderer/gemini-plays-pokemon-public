@@ -14,8 +14,10 @@
 - LADDER / PIER: Traversable. Pier stops surfing.
 - COUNTER: Impassable. Interact from front tile.
 - WARP_CARPET: Warp at map edges.
-- WARP_CARPET_DOWN: Exit tile (Verified Turn 40722).
-- LEDGE / LEDGE_HOP_DOWN: One-way jump down. (Verified Turn 40688).
+- WARP_CARPET_DOWN: Exit tile.
+- LEDGE / LEDGE_HOP_DOWN: One-way jump down (from Above).
+- FLOOR_UP_WALL: Collision type for ledges.
+- OBJECTS (NPCs/Items): Impassable.
 
 ## Party Management
 - **Current Lead:** GNEISS (GRAVELER Lv53). (Healed Turn 40790).
@@ -29,34 +31,26 @@
 - **Kanto Gyms:**
   - Vermilion (Lt. Surge): DEFEATED.
   - Saffron (Sabrina): DEFEATED.
-  - Pewter (Brock): DEFEATED. (Turn 40782).
+  - Pewter (Brock): DEFEATED.
   - Cerulean (Misty): Target. End of Route 25.
 - **Recent Battles:**
-  - Bug Catcher Ed (Route 2): DEFEATED. (Turn 40653).
-  - Camper Jerry (Pewter Gym): DEFEATED. (Turn 40751).
+  - Youngster Warren (Route 3): DEFEATED. (Turn 40814).
+  - Youngster Jimmy (Route 3): DEFEATED. (Turn 40826).
+  - Firebreather Otis (Route 3): Defeating. (Turn 40841).
 
 ## General Lessons & Error Log
-- **Radio UI:** Press 'Down' to move focus from tabs to the dial. (Turn 40554).
+- **Radio UI:** Press 'Down' to move focus from tabs to the dial.
 - **Snorlax:** Occupies (34,8)-(35,9). Interact from (34,10) Up or (36,8) Left.
-- **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet. (Turn 40617).
+- **Diglett's Cave:** (3, 3) <-> (17, 3) is an internal loop. Northern exit is (15, 5) warp carpet.
 
 ## Strategy: Finding Misty
 - **Start Turn:** 40635
 - **Objective:** Find Misty on Route 25 (Cerulean Cape).
 - **Path:** Pewter City -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
-- **Current Status:** Team healed in Pewter City. Heading East to Route 3. (Turn 40791).
-- **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!". (Turn 40805).
-- **Route 3:** Vertical walls block the path at X=13 (Y=4-9), X=19 (Y=4-7), and X=24 (Y=1-7). Row 0 is clear at these X-coordinates. (Turn 40828).
-## Tile Mechanics
-- FLOOR: Traversable.
-- WALL: Impassable.
-- LEDGE_HOP_DOWN: One-way jump down (from Above). Impassable from other sides.
-- FLOOR_UP_WALL: Collision type for ledges? (Verified Route 3).
-- COUNTER: Impassable.
-- WARP_CARPET: Edge warp.
-- OBJECTS (NPCs/Items): Impassable.
+- **Current Status:** Heading East on Route 3.
+- **Pewter City (33, 19):** Sign says "MT.MOON GIFT SHOP NOW OPEN!".
+- **Route 3:** Vertical walls block at X=13 (Y=4-9), X=19 (Y=4-7), and X=24 (Y=1-7). Row 0 is clear at these X-coordinates.
 
 ## Custom Tools
 - find_path_v5: A* pathfinding for current map.
 - press_menu_buttons_v3: Menu navigation.
-- **Fisher (26, 12):** Spotted. (Turn 40834).
