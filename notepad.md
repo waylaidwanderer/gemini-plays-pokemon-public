@@ -36,7 +36,7 @@
 - Interaction tile: (36, 8) facing Left.
 - Status: Positioned at (36, 8) facing Left (Turn 40362).
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
-- Radio Status: Unverified (Assume tuning required).
+- Radio Status: Tuning to 20.0 (Poke Flute) at Turn 40374.
 - Swap Plan: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
 - Menu Sequence (Swap): Start -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B.
 - Menu Sequence (Radio): Start -> Down x3 (Gear) -> A -> Right (Radio) -> Up (hold for 20.0) -> B x2.
