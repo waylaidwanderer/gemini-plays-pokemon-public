@@ -14,7 +14,6 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Navigating Route 38 West towards Olivine City.
-- Currently in wild battle (Magnemite).
-- Goal: Run and continue West.
+- Crossing from Route 38 to Route 39.
+- Heading South/West to Olivine City.
 - Reminder: Wade (Rt 31) has berries.
