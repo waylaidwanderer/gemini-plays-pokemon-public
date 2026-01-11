@@ -41,8 +41,8 @@
 - **Current Iteration (64):**
   - Start Time: Turn 33869
   - Location: Cherrygrove City -> Ecruteak City
-  - Action: Fly.
-  - Note: Selecting Ecruteak City on map and flying.
+  - Action: Fly (Retry).
+  - Note: Previous Fly attempt landed in Cherrygrove (selected current city by mistake). Retrying navigation to Ecruteak.
 
 # Reflection (Turn 33850)
 - **Status:** 50 turns since last reflection.
