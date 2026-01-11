@@ -8,7 +8,7 @@
 - **Location:** Indigo Plateau - Bruno's Room (16_5)
 - **Goal:** Defeat Bruno (Fighting Type).
 - **Status:** Battling Bruno.
-- **Opponent:** Hitmonchan (Incoming).
+- **Opponent:** Hitmonchan (Lv42).
 - **Active:** Muscle (Lv87).
 - **Strategy:**
   - **Hitmonchan:** Use `Strength`.
