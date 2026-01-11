@@ -32,14 +32,15 @@
 
 ## Snorlax Quest Phase
 - Goal: Wake Snorlax at Vermilion City / Route 11 junction.
-- Observation: Snorlax at (34, 8). Interaction tile: (35, 8).
-- Status: Positioned at (36, 8) facing Left (Turn 40361).
+- Observation: Snorlax occupies (34, 8), (35, 8), (34, 9), and (35, 9).
+- Interaction tile: (36, 8) facing Left.
+- Status: Positioned at (36, 8) facing Left (Turn 40362).
 - Method: Use Pokegear Radio (Frequency 20.0 - Poke Flute) to wake him.
 - Radio Status: Unverified (Assume tuning required).
 - Swap Plan: Lead with XENON (Haunter) for Normal immunity and Hypnosis.
 - Menu Sequence (Swap): Start -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B.
-- Menu Sequence (Radio): Down x3 (Gear) -> A -> Right (Radio) -> Up (hold for 20.0) -> B x2.
-- Interaction: Face Left from (35, 8) and press A.
+- Menu Sequence (Radio): Start -> Down x3 (Gear) -> A -> Right (Radio) -> Up (hold for 20.0) -> B x2.
+- Interaction: Face Left from (36, 8) and press A.
 - Start Turn: 40317.
 
 ## General Lessons & Error Log
