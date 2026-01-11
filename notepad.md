@@ -101,3 +101,8 @@
     - Soda Can at (6, 9): Empty. (Done Turn 41997)
     - Lighter at (18, 8): Just text. (Done Turn 42002)
 8. Move to Prize Exchange building.
+## Celadon Game Corner Prize Exchange (Turn 42027)
+- Gentleman (0, 2): Wanted PORYGON, but was short by 100 coins.
+- TM Vendor (2, 1): [To be checked]
+- Pokemon Vendor (4, 1): [To be checked]
+- Pharmacist (4, 3): [To be checked]
