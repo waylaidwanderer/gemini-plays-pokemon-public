@@ -30,10 +30,11 @@
 - **Navigation Update (Turn 32843):** Landed on Route 27 (East side). Crossing the bridge east towards Route 26.
 - **Route:** Route 27 Bridge -> Route 26 -> Indigo Plateau.
 
-## Current Task: Reach Indigo Plateau
-- **Location:** Route 27 (East Bridge).
-- **Goal:** Enter Route 26.
-- **Strategy:** Navigate around Cooltrainer Reena.
+## Current Task: Traverse Route 26 to Indigo Plateau
+- **Location:** Route 26 (South).
+- **Goal:** Reach Indigo Plateau.
+- **Immediate:** Travel North to rematch Cooltrainer Gaven at (9, 38) for money.
+- **Route:** Follow the bridges North.
 
 ## Tile Mechanics
-- **LADDER (Route 27):** Functions as walkable bridge.
+- **LADDER (Route 27/26):** Functions as walkable bridge.
