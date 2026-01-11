@@ -14,11 +14,11 @@
 - **Raikou & Entei:** Still roaming. Will track later.
 
 # Status Update
-- Correcting menu navigation (exiting Item menu).
-- Selecting Mistral (Pidgey) to Fly to Goldenrod City.
-- Goal: Buy Max Repels at Dept Store.
+- Location: Mt. Silver Pokecenter.
+- Action: Opening Fly Map via Mistral.
+- Goal: Fly to Goldenrod City (West).
+- Needs: Max Repels (Goldenrod Dept Store).
 
 # Roaming Beasts Status
 - **Raikou & Entei:** Roaming Johto.
 - **Strategy:** Lead with Lv36 Gyarados + Max Repel.
-- **Needs:** Max Repels (Goldenrod Dept Store).
