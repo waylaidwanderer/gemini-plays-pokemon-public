@@ -45,7 +45,6 @@
 - **Ledges:** Jumping down ledges (LEDGE_HOP_DOWN) advances the player two tiles south.
 - **Custom Tool Hygiene:** Always use `find_path_v4_fixed` and `strategy_advisor_v2`.
 - **Moving NPCs:** NPCs can block paths dynamically. Use `stun_npc` to freeze them or navigate around.
-- **Tile Collision Assumptions:** Do not assume all tiles of the same visual type (e.g., floor patterns) have identical collision without testing.
 
 ## Kanto Progression Plan (Started Turn 40091, Jan 10, 2026)
 1. Return to Saffron City via Magnet Train. (COMPLETED Turn 40104)
@@ -56,12 +55,18 @@
 4. Go to Route 25 (North of Cerulean) to find Misty and earn the Cascade Badge.
 5. Explore southern Kanto (Fuchsia City, etc.).
 
-## Saffron City Interests
-- **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
-- **Copycat:** Reward for returning her doll is the PASS (already in inventory).
+## Time Tracking
+- Fisher Kyle Battle (Route 12): Started Turn 40186.
 
-## Route 5 Interests
-- **House for Sale:** Located at (10, 11). Landmark.
+## Battle Plan: Fisher Kyle
+1. Use Full Heal on XENON (COMPLETED).
+2. Use Night Shade to defeat Poliwhirl (COMPLETED).
+3. Use Night Shade to defeat Seaking (Next).
+4. Resume navigation to Route 11.
+
+## Radio Verification (Post-Battle)
+- Check Pokegear Radio for Frequency 20 (Poke Flute). If missing, return to Lavender Radio Tower.
+
 ## Kanto Badge Tracker
 - [ ] Boulder Badge (Pewter City)
 - [ ] Cascade Badge (Cerulean City) - Goal 4
@@ -70,11 +75,9 @@
 - [ ] Volcano Badge (Seafoam Islands)
 - [ ] Earth Badge (Viridian City)
 
-## Time Tracking
-- Fisher Kyle Battle (Route 12): Started Turn 40186.
+## Saffron City Interests
+- **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
+- **Copycat:** Reward for returning her doll is the PASS (already in inventory).
 
-## Battle Plan: Fisher Kyle
-1. Use Full Heal on XENON to wake her up (Turn 40201).
-2. Use Night Shade to defeat Poliwhirl.
-3. Defeat remaining Pokemon in Kyle's roster.
-4. Resume navigation to Route 11.
+## Route 5 Interests
+- **House for Sale:** Located at (10, 11). Landmark.
