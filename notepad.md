@@ -90,22 +90,14 @@
 
 ## Strategy for Celadon Game Corner (Started Turn 41953)
 1. Mark entrance/exit warps. (Done)
-2. Explore the floor to reveal all unseen tiles. (In Progress)
-3. Talk to all NPCs:
-    - Pokefan M at (14, 10): Slot machines are state of the art. (Done)
-    - Fishing Guru at (11, 7): The odds vary among machines. (Done)
-    - Teacher at (17, 7): Machine should pay out today. (Done)
-    - Fisher at (8, 10): Gave GEM 20 coins. (Done)
-    - Gym Guide at (11, 3): Trying to get coins for prize Pokémon. (Done)
-    - Gramps at (2, 8): Mentions odds are better for Pikachu's line. (Done)
-    - Receptionist at (3, 2): Prizes are next door. (Done Turn 41986)
-    - Clerk at (5, 2): Sells 50 coins for ¥1000 and 500 coins for ¥10000. (Done Turn 41991)
-4. Check prize exchange prices (usually in an adjacent building or at a counter).
+2. Explore the floor to reveal all unseen tiles. (Done Turn 41994)
+3. Talk to all NPCs. (Done)
+4. Check prize exchange prices (usually in an adjacent building or at a counter). (Next)
 5. Look for hidden coins on the floor using Itemfinder or by interacting with empty spaces.
 6. Check for any Team Rocket activity:
     - Inspect poster at (9, 0).
     - Inspect poster at (15, 0).
 7. Inspect background objects for items:
-    - Soda Can at (6, 9).
+    - Soda Can at (6, 9). (In Progress)
     - Lighter at (18, 8).
 8. Move to Prize Exchange building.
