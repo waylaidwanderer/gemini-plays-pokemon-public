@@ -44,4 +44,5 @@
 - **Path:** Route 2 -> Pewter City (Buy Repels!) -> Route 3 -> Mt. Moon -> Cerulean City -> Route 24 -> Route 25.
 - Brock (Pewter Gym):
   - Pokémon 1: Graveler Lv41 (Fainted to Earthquake).
-  - Pokémon 2: Rhyhorn Lv41 (In progress).
+  - Pokémon 2: Rhyhorn Lv41 (Fainted to Earthquake).
+  - Pokémon 3: Omastar Lv42 (In progress).
