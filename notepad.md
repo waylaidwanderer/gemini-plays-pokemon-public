@@ -25,9 +25,18 @@
     - Error Analysis: Verified Poke Flute frequency (20.0) for Kanto.
 
 ## Menu Mechanics
-- **Pokegear:** 4 clicks down from POKEDEX in the Start menu (POKEDEX, PKMN, PACK, GEM, POKEGEAR).
+- **Start Menu Order (from top):**
+  0. POKEDEX
+  1. POKEMON
+  2. PACK
+  3. POKEGEAR (labeled as <gear icon> GEAR)
+  4. GEM (Player Name)
+  5. SAVE
+  6. OPTION
+  7. EXIT
+- **Pokegear:** 4 clicks down from POKEDEX in the Start menu (POKEDEX, PKMN, PACK, GEAR). Wait, looking at screen text, it's 3 clicks: POKEDEX -> POKEMON -> PACK -> GEAR.
 - **Radio:** Frequency 20.0 (Poke Flute) is at the very top of the dial in Kanto. Requires EXPN Card upgrade. Set once, stays until changed.
-- **Swap Sequence:** Start -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B -> B.
+- **Swap Sequence:** Start -> Reset to Top (Up x7) -> Down (PKMN) -> A -> Down x2 (Xenon) -> Select -> Up x2 (Calcifer) -> Select -> B -> B.
 
 ## Party & PC Management
 - **Lead Pokémon:** Calcifer (TYPHLOSION Lv58).
