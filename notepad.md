@@ -61,7 +61,8 @@
 - 3F: Super Nerd (Programmer) at (0, 7) says play the slot machines.
 - 3F: Investigated: Game Program (1, 6) (mentions messing with it could cause bugs).
 - 3F: Investigated: Reference Material (1, 3) (mentions a Poké Doll).
-- 3F: To be investigated: Bookshelf (2, 3), Dev Room Sign (5, 8).
+- 3F: Investigated: Bookshelf (2, 3) (contains Pokémon magazines).
+- 3F: To be investigated: Dev Room Sign (5, 8).
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
