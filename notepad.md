@@ -31,11 +31,11 @@
 - ICARUS (PIDGEOTTO): FLY
 
 ## Machine Part Investigation (Resolved)
-- **Conclusion (Turn 40061):** The Power Plant quest appears to be complete. Inventory contains the 'PASS' (Copycat's reward), and Context Summary 39643 notes the problem was resolved. Itemfinder 'Nope!' at previous ping locations (4,7) confirms the item is gone.
+- **Conclusion (Turn 40061):** The Power Plant quest is complete. Inventory contains the 'PASS' (Copycat's reward). Context Summary 39643 notes the problem was resolved.
 
 ## General Lessons
 - **Data Integrity:** Context Summaries and Inventory are the absolute sources of truth. Prioritize them over transient "pings" or personal memory.
-- **Itemfinder (Crystal):** "Nope!" means no item is within search range. A ping means an item is within range.
+- **Itemfinder (Crystal):** "Nope!" means no item is within search range (~4 tiles). A ping means an item is within range.
 
 ## Saffron City Strategy
 - **Goal:** Verify Magnet Train functionality.
@@ -45,3 +45,6 @@
 ## Saffron City Interests
 - **Mr. Psychic:** Obtained TM29 Psychic (Turn 39946).
 - **Copycat:** Reward for returning her doll is the PASS (already in inventory).
+
+## Route 5 Interests
+- **House for Sale:** Located at (10, 11). Landmark.
