@@ -98,6 +98,6 @@
     - Inspect poster at (9, 0).
     - Inspect poster at (15, 0).
 7. Inspect background objects for items:
-    - Soda Can at (6, 9). (In Progress)
+    - Soda Can at (6, 9): Empty. (Done Turn 41997)
     - Lighter at (18, 8).
 8. Move to Prize Exchange building.
