@@ -76,11 +76,7 @@
   - Middle Tier (Row 4-13): Divided by boxes and walls.
   - Bottom Tier (Row 15-17): Below the Y=14 ledge.
 - **Verified Path to (1, 8):**
-  1. From (15, 11), move to (19, 10).
-  2. Move North to (19, 6).
-  3. Move East to (22, 6).
-  4. Move North to (22, 2) - bypassing the box walls.
-  5. Move West to (13, 2).
-  6. Move West along Top Tier to (1, 2).
-  7. Move South to (1, 8).
-- **Status:** At (15, 11). Repel active. Calcifer leading. (Turn 41004).
+  1. From (22, 6), move to (27, 6) or (27, 2).
+  2. Move West along Row 2 to (1, 2).
+  3. Move South to (1, 8).
+- **Status:** At (22, 6). Repel active. Calcifer leading. (Turn 41005).
