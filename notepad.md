@@ -40,8 +40,9 @@
 ## Celadon City Exploration Plan
 1. Talk to NPCs in city [DONE].
 2. Explore Celadon Mansion [DONE].
-3. Locate Department Store, Game Corner.
-4. Defeat Erika.
+3. Locate Department Store, Game Corner [DONE].
+4. Locate Celadon Gym [IN PROGRESS].
+5. Defeat Erika.
 
 ## Celadon Mansion Investigation
 - **Secret Wing Access:** Reached via back door at (16,3) in Celadon City. Passage behind mansion uses gaps in Row 3 at (24,3) or (25,3).
@@ -51,22 +52,25 @@
 - **3F:** Graphic Artist (3,4) drew the player. Game Designer (3,6) talks about Pokedex. Fisher (0,4) talks about twins/Jasmine. Programmer (0,7) says play slots.
 - **3F Details:** Game Program (1,6) (bug warning), Reference Material (1,3) (Poké Doll), Bookshelf (2,3) (magazines), Dev Room Sign (5,8).
 - **Roof (Main):** Right side reached from 3F (7,0). Fisher (7,4) loves heights. Graffiti (6,1) moustache prank. Central wall structure (Cols 4-5) blocks all east-west movement except Row 8.
-- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 12:36 PM). TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) checked.
+- **Roof House (Secret Wing):** Door at (2,5) on western roof leads here. Pharmacist (3,2) tells "terrifying tale" ONLY at night (currently 12:43 PM). TV (2,1), Bookshelves (0,1; 1,1), Radio (7,1), Map (3,0) checked.
 
 ## Celadon City Landmarks
-- Ladders at (14, 16) and (15, 16) discovered. Need to investigate.
-- Gym Search: Likely in the southern part of the city. Check for cuttable trees.
+- **Ladders:** (14, 16) and (15, 16) discovered. Blocked by water from the west.
+- **Game Corner:** Entrance at (18, 19).
+- **Celadon Restaurant?:** Entrance at (23, 19).
+- **Trainer Tips (29, 21):** Ad for Dept Store (Guard Spec info).
+- **Gym Search:** Likely in the southern part of the city. Gap in southern wall at Row 26 (Cols 16-19).
+
+## Strategy & Lessons Learned
+- **Celadon Pillars:** Column 12 (Rows 16-21) and Column 36 (Rows 22-26) are WALL tiles that block horizontal movement.
+- **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
+- **NPC Interaction:** Teacher (5,13) talks about Dept Store. Teacher (20,24) to be interviewed.
+- **Hypothesis:** Gym is accessed via the southern gap at (16,26)-(19,26).
+- **Test:** Navigate south through the gap.
+- **Conclusion:** Pending.
 
 ## General Lessons & Error Log
 - **Sprite Identity:** Sprites may not match their identity (e.g. Meowth looking like Growlithe). Check cries/dialogue.
 - **Button Mixing:** Never mix directional and action buttons in overworld.
-- **Inventory:** List in prompt is not in-game order.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn) to ensure interaction.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
-## Strategy & Lessons Learned
-- **Celadon Pillars:** The grey objects at column 12 (Rows 16-21) are WALL tiles. Path around them exists at Row 22.
-- **Water Obstacle:** Water at (13,18) to (15,21) blocks direct access to ladders from the west. Requires SURF.
-- **Time Check:** Pharmacist (Roof House) only talks at night. Current time is ~12:41 PM.
-- **Hypothesis:** Gym is in the southern part of the city, possibly accessed via a cuttable tree.
-- **Test:** Explore the southern and eastern edges of the city.
-- **Conclusion:** Pending.
