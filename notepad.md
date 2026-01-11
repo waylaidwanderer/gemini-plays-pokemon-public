@@ -27,5 +27,5 @@
 - **Status:** Repel active. 0 Encounters.
 - **Update (Turn 32794):** Gaven called again with generic Victreebel chatter. Rematch status uncertain, but proceeding to Indigo Plateau via Route 26 anyway for money farming at the League.
 - **Correction (Turn 32800):** Fly failed. New Route: New Bark -> Surf -> Route 27 -> Tohjo Falls -> Route 26 -> Indigo Plateau.
-- **Navigation Update (Turn 32831):** Successfully traversed Tohjo Falls. Now on East Route 27. Heading East to Route 26.
-- **Route:** Surf East -> Route 26 -> Indigo Plateau.
+- **Navigation Update (Turn 32843):** Landed on Route 27 (East side). Crossing the bridge east towards Route 26.
+- **Route:** Route 27 Bridge -> Route 26 -> Indigo Plateau.
