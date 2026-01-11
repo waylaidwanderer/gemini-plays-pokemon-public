@@ -61,4 +61,4 @@
 - **Location:** Mt. Moon (3_85) at (4, 3).
 - **Silver's Team:**
   1. SNEASEL (Lv41): DEFEATED.
-  2. FERALIGATR (Lv45): Active. (Turn 40912).
+  2. FERALIGATR (Lv45): Active, Asleep. (Turn 40917).
