@@ -65,3 +65,5 @@
 - LADDER (Route 12): Function as bridge tiles, allowing the player to walk over water tiles.
 - Turn 40231: Stagnation detected in radio tuning. Re-verifying menu cursor position.
 - Poke Flute: Confirmed at top of radio dial (Frequency 20) in Kanto. Requires EXPN card upgrade (verified obtained Turn 40164).
+- Turn 40232: Attempt 11 at Radio Tuning. Start menu cursor at GEM. Plan: Up, A, Right, Up (repeat), B, B.
+- Frequency 20 Verification: Music should change to Poke Flute melody.
