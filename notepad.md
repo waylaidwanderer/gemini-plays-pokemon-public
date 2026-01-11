@@ -51,3 +51,7 @@
 - **Sprite Identity:** Sprites may not match their identity. Check cries/dialogue.
 - **NPC Interaction:** Face the NPC (one turn) then press A (next turn). Link markers to Object IDs.
 - **Roof Walls:** Row 7 (Cols 0-4) and central structure (Cols 4-5) are impassable. Row 8 is a corridor.
+## Celadon Gym (Erika)
+- **Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33).
+- **Garden NPCs:** Gramps (8,31) peeking into the Gym.
+- **Gym Entrance:** To be discovered (likely Row 30 near Gramps).
