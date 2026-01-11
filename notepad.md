@@ -37,5 +37,6 @@
 # Roamer Hunt Log
 - **Strategy:** Camp Route 37. Transition Ecruteak <-> Rt 37 to force Roamer movement.
 - **Stats:** 63 Iterations. 0 Encounters.
-- **Current Action:** Manual Fly - Move Cursor to Cherrygrove (Step 5).
-- **Plan:** Press Left. Next turn: Verify 'Cherrygrove City' text.
+- **Current Action:** Manual Fly - Move Cursor to Cherrygrove (Step 5 - RETRY).
+- **Status:** Cursor still at New Bark Town (Input ignored/dropped).
+- **Plan:** Press Left again. Verify 'Cherrygrove City' text next turn.
