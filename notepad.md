@@ -31,9 +31,9 @@
 - Espeon (Lv73): Defeated (Turn 43777).
 - Snorlax (Lv75): Active. Awake (Turn 43941). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia.
-- GNEISS (Graveler): Active. HP 110/152. PARALYZED.
-- Strategy: Switch to XENON (Haunter) to safely sleep Snorlax with Hypnosis. Then heal GNEISS and switch him back in for the physical Rollout sweep.
-- Battle Progress: Snorlax woke up and paralyzed GNEISS on Turn 43941. Switching to XENON for safety.
+- GNEISS (Graveler): Benched. HP 110/152. PARALYZED.
+- Strategy: Use XENON to sleep Snorlax with Hypnosis. Then heal GNEISS and switch him back in for physical Rollout sweep.
+- Battle Progress: Snorlax maxed Sp.Def (+6). GNEISS was paralyzed by Body Slam (Turn 43941). Switching to XENON for safety.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
