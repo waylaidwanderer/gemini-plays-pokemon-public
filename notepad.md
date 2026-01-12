@@ -60,5 +60,11 @@
 
 # Exploration Log
 - Turn 44081: Credits finished. Resuming exploration.
-- Turn 44083: Attempted to move Left from (3, 4), failed. (2, 4) is likely a WALL.
-- Turn 44084: Using FLASH with KIMCHI to reveal the surrounding area. Strategy: Map out the remaining 4.7% of the cave.
+- Turn 44082: Attempted to move Left from (3, 4), failed. (2, 4) is likely a WALL.
+- Turn 44083: Attempted to use FLASH but accidentally used STRENGTH with GNEISS. Retrying FLASH.
+
+# Exploration Plan: Silver Cave Room 1
+1. Use FLASH with KIMCHI to ensure visibility.
+2. Navigate to (0, 35) to uncover the bottom-left corner.
+3. Use find_reachable_unseen_tiles to identify remaining targets.
+4. Explore until 100% completion is reached.
