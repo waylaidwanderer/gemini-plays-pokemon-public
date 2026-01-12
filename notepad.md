@@ -23,9 +23,9 @@
 - Checked Goldenrod 2F Left Clerk (Medicine): No Repels.
 - Goldenrod Dept Store does NOT sell Super Repels.
 - Celadon Dept Store 2F Left Clerk: Has Super Repels (500g) and Max Repels (700g).
-- Purchasing 4 Super Repels.
+- Purchased 4 Super Repels. Now exiting.
 
-# Reflection (Turn 35617)
-- **Immediate Execution:** Buying Repels.
-- **Goal Clarity:** Clear. Buy 4 Super Repels.
-- **Root Hypothesis:** Confirmed Celadon 2F has Super Repels.
+# Reflection (Turn 35619)
+- **Immediate Execution:** Purchase confirmed. Exiting store.
+- **Goal Clarity:** Clear. Exit -> Hunt.
+- **Root Hypothesis:** Purchase successful. Ready to hunt.
