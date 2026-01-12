@@ -12,7 +12,7 @@
 - LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
 - LEDGE_HOP_LEFT: One-way ledge. Jump Left only.
 
-# Type Effectiveness Chart (Verified in Johto/Kanto)
+# Type Effectiveness Chart (Verified)
 - Fire -> Grass: Super effective.
 - Water -> Fire: Super effective.
 - Electric -> Water: Super effective.
@@ -26,25 +26,33 @@
 
 # Pokemon Information & Movesets
 - Party (6/6): ICARUS (Lv19 Pidgeotto), Calcifer (Lv64 Typhlosion), KIMCHI (Lv52 Gloom), GNEISS (Lv55 Graveler), GORP (Lv50 Snorlax), XENON (Lv44 Haunter).
-- Caught Species (32/251): Includes Pidgey, Pidgeotto, Raticate, Spearow, Ekans, Zubat, Oddish, Gloom, Meowth, Poliwag, Bellsprout, Geodude, Graveler, Gastly, Haunter, Onix, Krabby, Goldeen, Scyther, Snorlax, Dratini, Cyndaquil, Quilava, Typhlosion, Togepi, Sudowoodo, Yanma, Gligar, Shuckle, Delibird, Donphan, Larvitar.
+- Caught Species (32/251).
 - Observed Roamer Movesets: (None yet)
-- Red's Pikachu (Summit): Thunderbolt, Quick Attack, etc.
 
 # Task: Legendary Hunt
 - Start Turn: 44154
-- Ecruteak Shuffle Start: Turn 44185
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
-- Super Repel status: Out of stock. Ecruteak Mart does not sell them. Heading to Goldenrod Dept. Store.
+- Super Repel status: Out of stock. Heading to Goldenrod Dept. Store.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
 
 # Legendary Hunt Strategy
-- Priority: Raikou (Speed).
-- Method: Cycle between Ecruteak City and Route 37 gates.
-- Ball: MASTER BALL.
-- Lead: ICARUS (Lv 19) with Repel to filter for Lv 40 Roamers.
+- Lead: ICARUS (Lv 19) with Repel to filter for Lv 40 Roamers on Route 37.
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
+
+# Goldenrod Restock Plan (Started: Turn 44278)
+1. Fly to Goldenrod City.
+2. Navigate to Goldenrod Dept. Store (North of PC).
+3. Buy a full stack of Super Repels.
+4. Fly back to Ecruteak City.
+5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
+
+# Fly Strategy
+- Map Cursor starts at current city.
+- Target: Goldenrod City (West of New Bark).
+- Navigation: Move cursor West/Northwest to Goldenrod node. Verify city name on top of screen before pressing A.
+- Note: 14 failed attempts recorded (Turn 44260-44310). Pivot to biking if next attempt fails.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
@@ -53,20 +61,4 @@
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
-- Fly map scrolling: Cursor starts at current city. Left cycles through visited cities.
-
-# Goldenrod Restock Plan (Started: Turn 44278)
-1. Fly to Goldenrod City. (Current Status: In New Bark Town, stuck in Pokedex)
-2. Navigate to Goldenrod Dept. Store (North of PC).
-3. Buy a full stack of Super Repels.
-4. Fly back to Ecruteak City.
-5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
-
-# Fly Map Navigation (To Goldenrod)
-- Target: Goldenrod City.
-- Strategy: From New Bark Town, press Left 4 times. Verify destination name.
-- Attempt 1-9: Failed due to menu errors and overworld movement.
-- Attempt 11 (Turn 44306): Fly map open at New Bark Town. Cursor at New Bark Town (verified by screen text). Strategy: Press Left once. Verify destination name "CHERRYGROVE CITY" before next move.
-- Attempt 13 (Turn 44308): Fly map open at New Bark Town. Cursor didn't move after Left.
-- Attempt 14 (Turn 44309): Fly map open at New Bark Town. Strategy: Reset to overworld by pressing B three times.
-- Attempt Count (Fly): 14. Strategy Revision: Exit all menus completely to clear any potential glitches or mis-indexed screens before restarting the Fly sequence. Verify overworld in Game State next turn.
+- Fly map scrolling: Use node-based navigation. Verify name on screen.
