@@ -48,8 +48,12 @@
     - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
 - Safari Zone Main Office: (22, 13). Visited. No items or useful NPCs.
 - Route 15 Gatehouse: Eastern exit of city.
-- Bill's Older Sister's House: (11, 27). Visited.
-- Fuchsia Gym: (8, 27). Inside (Turn 42253).
+- Fuchsia Gym: (8, 27). Inside (Turn 42253). Leader Janine.
+- Gym Dimmension: 10x18.
+- NPC Lore:
+    - Youngster (Object 1, Overworld): Elite Four member used to be the Gym Leader.
+    - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
+    - Lass Linda (5, 11): Janine look-alike. Currently battling.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
