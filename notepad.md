@@ -1,28 +1,24 @@
-# Roamer Hunt Log
-- **Session Start:** Turn 34090.
-- **Goal:** Catch Raikou/Entei.
-- **Current Phase:** Hunt/Shuffle.
-- **Location:** Goldenrod City (Arrived via Magnet Train).
-- **Strategy:** Exit Station -> Check Pokegear -> Fly/Shuffle to intercept.
+# Roamer Hunt Strategy
+- **Goal:** Catch Raikou (Route 38/42) & Entei (Route 37/42/44).
+- **Method:** "Repel Trick" + Map Shuffling.
+- **Setup:**
+  - Location: Route 37 (Border with Ecruteak).
+  - Lead: Gyarados (Lv 36).
+  - Item: Super Repel (active).
+- **Procedure:**
+  1. Check Pokegear Map.
+  2. If Roamer on Route 37: Run in grass until encounter.
+  3. If not: Move North to Ecruteak, then South back to Route 37 (Shuffles locations).
+  4. Repeat.
+
+# Session Stats
+- **Start:** Turn 34090.
+- **Last Seen:** Route 38 & 44 (Turn 35867).
 
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
 - **Date:** Turn 33314
 - **MVP:** Muscle (Machoke) Lv88.
 
-# Transit Log: Pewter to Saffron
-- **Status:** COMPLETED.
-- **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
-
-# Roamer Hunt: Repel Trick
-- **Strategy:** Use Repel with Lv 36 Lead to filter for Lvl 40 Roamers.
-- **Location:** Route 37 (South of Ecruteak).
-- **Lead:** Gyarados (Lv 36).
-- **Items:** Super Repels (4).
-- **Status:** Roamers on Route 38 & 44.
-- **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  1. Exit Pokegear. (Done)
-  2. Go North to Ecruteak. (Done)
-  3. Return to Route 37. (Done)
-  4. Open Map Card. (Current)
-  5. Check Locations.
+# Completed Objectives
+- **Pewter to Saffron Transit:** Completed via Mt. Moon & Magnet Train.
