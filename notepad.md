@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35495 - On Fly Map (New Bark). Navigating to Goldenrod via Violet City.
+- **Status:** Turn 35496 - Fly Map text claims 'New Bark Town' despite Ecruteak location. Probing cursor position with Left x2 (Target: Violet or Cianwood).
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
