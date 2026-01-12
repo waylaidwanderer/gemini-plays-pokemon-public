@@ -170,5 +170,20 @@
         "action_counter": 36061
       }
     ]
+  },
+  "shuffle_check_roamers": {
+    "description": "Moves down from the Ecruteak border onto Route 37 and opens the Pokegear Map to check for Roamers. Assumes player is at (8,0).",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print('[\"Down\", \"sleep 300\", \"Start\", \"sleep 300\", \"A\", \"sleep 300\", \"Right\", \"sleep 300\", \"A\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T19:10:12.010Z",
+        "action_counter": 36122
+      }
+    ]
   }
 }
