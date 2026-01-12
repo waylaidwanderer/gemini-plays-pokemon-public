@@ -31,12 +31,12 @@
   6. Verified: Lower Lane (Row 10+) is blocked by a WALL at x=19 (Seen in Mental Map).
   7. Conclusion: The ONLY way forward is the Upper Lane (Rows 2-4).
   8. Ledges (Row 5) prevent access from below. Must enter Upper Lane from Pewter City.
-  9. Strategy: Return to Pewter City (Enter at Row 17).
-  10. Navigate to Ledge Gap at (31, 7).
-  11. Go North through gap to Row 4.
-  12. Check East Wall (x=39) at Row 4 for the Upper Route 3 Exit.
-  13. CRITICAL: Rows 0-6 at x=37-39 are UNSEEN. The exit might be there.
-  14. Contingency: If blocked, return to Middle Lane (Row 17) and FORCE passage at Route 3 (13, 7) (Battle Youngster/Check Wall).
+  9. Strategy: Confirmed Northeast Pewter (Rows 2-6) is a dead end containing only Berry Trees.
+  10. Conclusion: The exit at Row 16/17 is the ONLY way to Route 3.
+  11. Hypothesis: The "Wall" at Route 3 (13, 6/7) is an interactive obstacle (Rock Smash rock?) or a battled trainer.
+  12. Plan: Return to Route 3 via (39, 17). Walk to (13, 17) on Route 3.
+  13. Action: INSPECT the obstacle. Try Rock Smash. Talk to it.
+  14. Note: Garnet (Quilava) has Rock Smash.
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
