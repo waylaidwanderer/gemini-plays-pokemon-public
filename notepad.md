@@ -11,8 +11,8 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Shopping in Goldenrod.
-- **Status:** Goldenrod City. Heading to Dept Store.
-- **Plan:** Enter Dept Store -> Buy Super Repels -> Fly to Ecruteak.
+- **Status:** Inside Goldenrod Dept Store 1F.
+- **Plan:** Read Directory -> Go to 2F (Trainer's Market) -> Buy Super Repels -> Fly to Ecruteak.
 - **Note:** Viridian & Vermilion Marts do NOT sell Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
