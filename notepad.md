@@ -14,16 +14,22 @@
 - Warp to Next Area: (11, 5).
 - Water: (13, 30)-(13, 31), (12, 14)-(21, 14), (4, 22)-(7, 27).
 
+# Area Records: Silver Cave Room 3 (3_76)
+- FLOOR: Walkable. Verified at (9, 11).
+- WALL: Impassable. Verified at (10, 11).
+- WARP_CARPET_DOWN: Leads to Silver Cave Room 2. Located at (9, 33).
+
 # Team Goals & Battle Prep
 - Grind team to Lv 75+ (currently Lv 12-64).
-- Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone. Current: Moon Stone - useless. No stones in inventory).
-- Lead GNEISS (Graveler) with Hard Stone vs Pikachu.
-- Strategy: Use GORP (Snorlax) as a special tank. (Note: Verified TM30 Shadow Ball is MISSING from inventory).
+- Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone).
+- Strategy: Use GORP (Snorlax) as a special tank.
 - Search/Acquisition: Sun Stone (Bug-Catching Contest), Leaf Stone (Route 25 - Show Oddish to Bill's Grandfather). Need to catch ODDISH (Routes 5, 6, 24, 25 at night).
 
 # Red Battle Log
+- Start Turn: 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
-- Espeon (Lv73): In progress. GORP (Snorlax) stalling Psychic PP (Count: 4/10). 
-- Strategy: Heal GORP every turn until Psychic is gone. Psychic deals ~140. GORP at 94/221 HP.
-- Turn 43709: Entering PACK to use healing item.
-- Team: KIMCHI (51), XENON (44), Calcifer (64), GORP (50), GNEISS (54), LAPIS (12).
+- Espeon (Lv73): In progress.
+- Psychic PP Tracker: 4 used (Assume 16 max).
+- Damage taken by GORP: ~140 HP.
+- Strategy: Stall Psychic PP by healing GORP every turn. GORP at 94/221 HP (after Psychic + Leftovers).
+- Current Turn: 43711. Need to use another Full Restore/Max Potion.
