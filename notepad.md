@@ -74,3 +74,4 @@
 - [Turn 42605] Entered Trainer House 1F.
 - [Turn 42611] Receptionist confirms trainer battles available downstairs.
 - [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
+- [Turn 42641] Calcifer (Lv62) used Smokescreen; CAL's Typhlosion (Lv50) used Swift. Calcifer at 182/197 HP.
