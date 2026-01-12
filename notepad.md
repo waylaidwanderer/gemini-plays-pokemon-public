@@ -34,3 +34,8 @@
 - Explore remaining unseen tiles in Mt. Silver.
 - Capture remaining Legendaries (Suicune, Legendary Birds, etc.).
 - Complete the Pokedex.
+
+# Task: Mt. Silver 100% Completion
+- Start Turn: 44058
+- Current Progress: 95.3%
+- Objective: Explore all reachable unseen tiles in Silver Cave.
