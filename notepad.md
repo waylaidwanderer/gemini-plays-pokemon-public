@@ -1,10 +1,15 @@
 # Strategic Plan: Kanto Badges & Final Challenges
 - **Strategy (The HOW):**
-    1. Fly to Pallet Town.
-    2. Enter Professor Oak's Lab at (12, 11).
-    3. Talk to Professor Oak to unlock Mt. Silver access.
-    4. Fly to Indigo Plateau and head south to Victory Road Gatehouse (23_13).
-    5. Exit West to Route 28 and navigate to Mt. Silver.
+    1. Talk to Professor Oak in Pallet Town (Done - access to Mt. Silver granted).
+    2. Fly to Indigo Plateau.
+    3. Head south to Route 23/Victory Road Gatehouse (23_13).
+    4. Pass the guard at (8, 11) in the Gatehouse to access the West exit.
+    5. Travel West through Route 28 to reach Mt. Silver.
+    6. Face Red at the peak of Mt. Silver.
+
+# Progress Tracking
+- Badges: 16/16 (All Johto and Kanto badges obtained).
+- Mt. Silver Access: UNLOCKED by Professor Oak.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Reachable. Standard walkable tile.
