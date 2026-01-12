@@ -16,7 +16,7 @@
 - LEDGE_HOP_DOWN: One-way North to South.
 - LADDER: Traversable. Acts as land for SURF/FLY.
 - CUT_TREE: Impassable until CUT is used.
-- COUNTER: Blocks movement; allows NPC interaction.
+- COUNTER: Blocks movement; allows NPC interaction from adjacent floor tile.
 - BOOKSHELF: Impassable.
 - SIGN/WINDOW/TV: Impassable background objects.
 - STAIRCASE: Warp.
@@ -24,6 +24,13 @@
 - WARP_CARPET_DOWN: Entrance/Exit warp tile.
 
 # Area Records (Kanto)
+## Victory Road Gatehouse
+- Started Turn: 43073. Timestamp: Monday, Jan 12, 2026, 1:18 AM.
+- Goal: Pass badge checks and exit East to Route 22.
+- Officer (8, 11): Guarding a path.
+- Black Belt (7, 5): In the North hall.
+- Black Belt (12, 5): In the North hall.
+
 ## Victory Road
 - Exit: (9, 67) to Route 23 Gate.
 - Entry (from Indigo): (13, 5).
@@ -79,10 +86,3 @@
     - Full Restore: ¥3000
     - Revive: ¥1500
     - Full Heal: ¥600
-
-# Victory Road Navigation Plan
-- Goal: Pass through the Victory Road Gate to Route 22.
-- Step 1: Navigate through Victory Road. [Completed]
-- Step 2: Pass badge checks in Victory Road Gate. [Current Step]
-- Step 3: Exit East to Route 22.
-- Step 4: Reach Viridian City.
