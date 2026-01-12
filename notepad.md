@@ -56,7 +56,7 @@
 - Fly map scrolling: Cursor starts at current city. Left cycles through visited cities.
 
 # Goldenrod Restock Plan (Started: Turn 44278)
-1. Fly to Goldenrod City. (Current Status: In New Bark Town, opening menu)
+1. Fly to Goldenrod City. (Current Status: In New Bark Town, stuck in Pokedex)
 2. Navigate to Goldenrod Dept. Store (North of PC).
 3. Buy a full stack of Super Repels.
 4. Fly back to Ecruteak City.
@@ -65,7 +65,6 @@
 # Fly Map Navigation (To Goldenrod)
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
-- Attempt 1-6: Failed due to menu errors and overworld movement.
-- Attempt 8 (Turn 44298): Stuck in Pokedex. Strategy: B, B, B to exit, then Start, Down, A.
-- Attempt 9 (Turn 44299): Still in Pokedex. Strategy: B, B, B, Start, Down, A.
-- Attempt Count (Fly): 9. Strategy Revision: Exit menus completely before restarting sequence. Verify "NewBarkTown" in Game State before Start.
+- Attempt 1-9: Failed due to menu errors and overworld movement.
+- Attempt 10 (Turn 44300): Still in Pokedex. Strategy: B, B, B to exit, then Start. Verify cursor position before moving to POKEMON.
+- Attempt Count (Fly): 10. Strategy Revision: Exit menus completely before restarting sequence. Verify "NewBarkTown" in Game State before Start.
