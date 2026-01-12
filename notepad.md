@@ -58,18 +58,18 @@
 - [Turn 42551] Started Viridian City Exploration (Sunday, Jan 11, 2026, 8:15 PM).
 - [Turn 42571] Pokefan M (Nickname Speech House) talks about nicknames and trading.
 - [Turn 42584] Lass (Nickname Speech House) mentions her Spearow (Speary) and Rattata (Rattey).
-- [Turn 42588] Verified Growlithe: (6, 3) in Nickname Speech House.
-- [Turn 42574] Verified Speary at (5, 2) is a Spearow (MOLTRES_SPRITE).
+- [Turn 42588] Verified Rattey (Rattata) at (6, 3) in Nickname Speech House (GROWLITHE_SPRITE).
+- [Turn 42574] Verified Speary (Spearow) at (5, 2) in Nickname Speech House (MOLTRES_SPRITE).
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
-- TV: Verified interaction at (2, 1) in Nickname Speech House.
-- TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House.
+- TV: To be verified. Standing below at (2, 2) and facing up.
+- TOWN_MAP: To be verified. Standing below at (3, 1) and facing up.
 - COUNTER: To be verified.
 - STAIRS: To be verified.
 ## Nickname Speech House (Map 23_5)
 - Pokefan M: (2, 4).
 - Lass: (5, 4).
-- Growlithe: (6, 3).
+- Growlithe: (6, 3) - Actually Rattey the Rattata.
 - Speary (Spearow): (5, 2).
