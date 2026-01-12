@@ -7,12 +7,13 @@
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   - **Constraint:** Tool Blindness (Cannot see Map). Using Repel Trick.
+  - **Status:** Repel wore off (Encountered Lv 14 Growlithe).
+  - **Next Step:** Re-apply Super Repel.
   - **Loop:**
     1. Enter Route 37.
     2. Walk in Grass (checking for encounter).
     3. If no encounter, return to Ecruteak.
     4. Return to Route 37.
-  - **Current Step:** Walking in Grass.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
