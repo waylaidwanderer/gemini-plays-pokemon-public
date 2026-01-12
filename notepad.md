@@ -58,15 +58,13 @@
 # Goldenrod Restock Plan (Started: Turn 44278)
 1. Fly to Goldenrod City. (Failed attempts: 5)
 2. Navigate to Goldenrod Dept. Store (North of PC).
-3. Buy a full stack (or as many as possible) of Super Repels.
+3. Buy a full stack of Super Repels.
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
 # Fly Map Navigation (To Goldenrod)
 - Target: Goldenrod City.
-- Strategy: Press Left and verify destination name on screen.
-- Attempt 1 (Turn 44263): Misclicked Lake of Rage.
-- Attempt 2 (Turn 44284): Misclicked New Bark Town.
-- Attempt 3 (Turn 44285): Misclicked New Bark Town.
-- Attempt 4 (Turn 44290): Cursor moved to Goldenrod but reset.
-- Attempt 5 (Turn 44291): Currently at New Bark Town. Simplifying menu navigation.
+- Strategy: From New Bark Town, press Left 4 times (Cherrygrove -> Violet -> Azalea -> Goldenrod). Verify destination name.
+- Attempt 1: Lake of Rage misclick.
+- Attempt 2-3: New Bark Town misclicks.
+- Attempt 4-5: Overworld movement instead of map navigation. Currently at Party screen. Strategy: Select ICARUS, Select FLY.
