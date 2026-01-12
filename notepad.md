@@ -53,5 +53,5 @@
 5. Move to (5, 33) -> (1, 33) -> (1, 35). (Done)
 6. Take ladder at (1, 35) to 2F. (Done)
 7. Navigate on 2F to ladder at (1, 49) or exit at (9, 67). (Done)
-8. Exit Victory Road at (9, 67) to Victory Road Gatehouse. (Turn 43214)
-9. Navigate West in Gatehouse to Route 28.
+8. Exit Victory Road at (9, 67) to Victory Road Gatehouse. (Done, Turn 43214)
+9. Navigate West in Gatehouse to Route 28. (Start Turn: 43214)
