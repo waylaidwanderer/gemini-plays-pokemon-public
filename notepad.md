@@ -40,7 +40,7 @@
   - GNEISS: EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
   - LAPIS: WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
 - Strategy: Use Hypnosis with XENON to sleep Snorlax, then switch to GNEISS (Graveler). GNEISS will use Defense Curl followed by Rollout to exploit Snorlax's lower physical Defense.
-- Battle Progress: Snorlax maxed Sp.Def (+6). GNEISS healed to full. Snorlax is awake.
+- Battle Progress: Snorlax maxed Sp.Def (+6). GNEISS healed to full. Snorlax fell asleep (Turn 43933).
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
