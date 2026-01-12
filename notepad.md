@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Flying to Mahogany Town.
-- **Plan:** Left x3 (to Violet/Cherrygrove) -> Up x2 (to Mahogany).
-- **Reason:** Robust path. Handles both Indigo and Silver Cave start points.
-- **Goal:** Mahogany Mart sells Super Repels.
-- **Status:** Executing Fly sequence.
+- **Action:** Restocking at Viridian Mart.
+- **Status:** Landed in Viridian City (23, 26).
+- **Reason:** Failed to reach Mahogany, but Viridian is a valid restock point.
+- **Plan:** Walk to Mart (29, 19) -> Sell Revives -> Buy Max/Super Repels -> Fly to Johto.
+- **Finance:** Current Money ¥394. Need to sell to buy.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
