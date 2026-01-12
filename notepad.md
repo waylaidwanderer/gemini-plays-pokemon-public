@@ -4,11 +4,15 @@
   - Moves: Psychic (7/16), Swift (4/32), Mud-Slap (1/16), Reflect (2/32).
 - Snorlax (Lv75): Active. Asleep (Turn 43825 via Rest).
   - Moves: Body Slam (4/24), Rest (5/10).
-  - Sleep Progress: 3 turns "fast asleep" observed (43826, 43827, 43828). Awakening imminent.
-- XENON (Haunter): Active. HP 111/111. Immune to Normal.
+- XENON (Haunter): Active. HP 111/111. Immune to Normal (Body Slam, Snore).
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 2 Elixers.
-- Strategy: Use Dream Eater (3 PP left) while Snorlax is asleep. Watch for Surf on wake up.
+- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Watch for Amnesia (buffs Special Defense).
 - BATTLE_MENU: select_battle_option handles the 'A' press to enter sub-menus automatically.
-- Note: Struggle hits Ghost-types in Gen 2. Snorlax's sleep is lasting longer than expected (3 turns so far).
+
+# Post-Snorlax Team Strategy
+- Blastoise: Use KIMCHI (Gloom) with Giga Drain/Petal Dance.
+- Venusaur: Revive Calcifer (Typhlosion) or use GORP (Snorlax).
+- Charizard: Use GNEISS (Graveler) or GORP (Snorlax).
+- Lapras: Use KIMCHI or GORP.
