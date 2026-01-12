@@ -2,9 +2,9 @@
 - **Strategy (The HOW):**
     1. Fly to Indigo Plateau. (Done)
     2. Heal party at Poke Center (KIMCHI is fainted). (Done)
-    3. Head south to Route 23 Gatehouse. (Start Turn: 43183)
-    4. Pass the guard at (8, 11) in the Gatehouse to access the West exit.
-    5. Travel West through Route 28 to reach Mt. Silver.
+    3. Head south to Route 23 Gatehouse. (Done)
+    4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
+    5. Travel West through Route 28 to reach Mt. Silver. (Start Turn: 43217)
     6. Face Red at the peak of Mt. Silver.
 
 # Progress Tracking
@@ -46,7 +46,7 @@
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
 
 # Navigation Plan: Route 28 to Mt. Silver
-1. Move West from (33, 6) to discover the path.
-2. Locate Mt. Silver entrance (likely at the western end of Route 28).
+1. Move West from (33, 6) to discover the path. (Done)
+2. Locate Mt. Silver entrance (likely at the western end of Route 28). (In progress)
 3. Check for the "Hidden House" on Route 28 (often contains a useful TM like Steel Wing).
 4. Enter Mt. Silver.
