@@ -6,7 +6,7 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (24, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Escaped Rattata. Opening Pack to apply Repel (2 remaining).
+- **Action:** Exiting Pokedex (opened by mistake). Opening Pack to apply Repel.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
 - **Hunt Session:** Started ~Turn 36369. Current: 36409.
 - **Resources:** 0 Super Repel, 2 Repels (Verified visual). ¥244.
