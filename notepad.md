@@ -12,10 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Opening Fly Map via Robust Menu Nav.
-- **Plan:** Open Party -> Force cursor to bottom (Down x6) -> Move to Slot 4 (Up x3) -> Select Fly.
-- **Reason:** Previous menu state was inconsistent (cursor started on Mistral). Forcing bottom-up navigation ensures correct selection of Mistral (Slot 4).
-- **Next:** Navigate Fly Map to Goldenrod (from Cherrygrove).
+- **Action:** Flying to Goldenrod (Pass 27 - Execution).
+- **Status:** In "FLY" menu.
+- **Sequence:** A (Open Map) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod) -> A (Fly).
+- **Goal:** Restock Repels at Goldenrod Dept Store.
+- **Contingency:** If map nav fails again, will walk.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
