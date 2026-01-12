@@ -10,6 +10,7 @@
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
 - Inventory Management: Protein used on ICARUS at Turn 43371. 1 slot free.
+- Navigation Analysis: find_path_v6_robust failed at Turn 43371 because it ignored FLOOR_UP_WALL mechanics in Row 28. Defined find_path_v7_robust to fix this.
 - Task Started: Turn 43296. Goal: Collect item at (7, 18).
 
 # Area Records: Silver Cave Room 1 (3_74)
