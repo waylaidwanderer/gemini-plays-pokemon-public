@@ -17,10 +17,11 @@
 # Red Battle Log (Verified via History)
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
-- Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active (Turn 43778). Used Body Slam (Turn 43783).
-- GNEISS (Graveler): Active. HP 113/152. Paralyzed (Turn 43783). Resists Body Slam.
-- GORP (Snorlax): HP 141/221. Benched. Accuracy reset.
+- Espeon (Lv73): Defeated (Turn 43777). 
+  - Moves Used: Psychic (7), Swift (3), Mud-Slap (1), Reflect (2).
+- Snorlax (Lv75): Active (Turn 43778). 
+  - Moves Used: Body Slam (2).
+- GNEISS (Graveler): Active. HP 69/152. Paralyzed. Resists Body Slam.
+- GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
-- Strategy: Use Earthquake with GNEISS. Heal if HP < 60. Use Full Heal if paralysis prevents too many attacks.
-- Psychic Stalled: 7/16. Swifts: 3. Mud-Slap: 1.
+- Strategy: Use Earthquake with GNEISS. Heal if HP < 60. Use Full Heal if paralysis is too restrictive.
