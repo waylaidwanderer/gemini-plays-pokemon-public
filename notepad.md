@@ -6,7 +6,7 @@
 # Progress Tracking
 - Badges: 16/16 (All Johto and Kanto badges obtained).
 - Mt. Silver Access: UNLOCKED by Professor Oak.
-- Inventory Management: Task started at Turn 43296 to free a slot for Protein/Items.
+- Inventory Management: Started Turn 43296 to free a slot.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
@@ -41,7 +41,7 @@
 
 # Advisor Recommendations (Turn 43260)
 - **Grinding:** Aim for Level 75+ for the entire team to match Red.
-- **Location:** Elite Four rematches or high-level wild encounters deep in Mt. Silver (Ursaring, Donphan, Golbat).
+- **Location:** Elite Four rematches or high-level wild encounters deep in Mt. Silver.
 - **Tactics:** Earthquake on GNEISS for Pikachu; ThunderPunch on Calcifer for Blastoise/Charizard. Fighting-type moves or Toxic for Snorlax.
 
 # Navigation Plan: Silver Cave Room 1
