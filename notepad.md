@@ -1,16 +1,29 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Explore the upper areas of SilverCaveRoom1 (Row 11 and above) to find the ladder to the next floor.
-    2. Face Red at the peak.
+    1. Explore the upper areas of SilverCaveRoom1 (Row 5 and above) to find the ladder to the next floor.
+    2. Path: Head to the far-left corridor (X=0) via the bottom of the room (Row 34/35).
+    3. Face Red at the peak.
 
 # Progress Tracking
-- FLOOR_UP_WALL: Acts as a wall on its North edge. Impassable when moving North (Up) FROM the tile, or South (Down) ONTO the tile. Verified: (8, 20)->(8, 19) [Up] BLOCKED, (10, 33)->(10, 34) [Down] BLOCKED.
-- Navigation Analysis: The central area is divided by FLOOR_UP_WALL barriers. Side corridors (X=0, X=19) are likely the way forward.
+- Badges: 16/16.
+- Mt. Silver Access: Unlocked.
+- Task Started: Turn 43386. Goal: Reach (0, 34) to access the left corridor.
+
+# Tile Mechanics (Global Reference)
+- FLOOR: Walkable.
+- WALL: Impassable.
+- COUNTER: Blocks movement; interact from front.
+- WATER: Requires Surf.
+- TALL_GRASS: Wild encounters.
+- DOOR/WARP: Map transitions.
+- LEDGE_HOP_DOWN: One-way movement Down.
+- LEDGE_HOP_RIGHT: One-way movement Right.
+- FLOOR_UP_WALL: North edge is impassable. Cannot move North (Up) FROM the tile, or South (Down) ONTO the tile. Verified: (8, 20)->(8, 19) [Up] BLOCKED, (10, 33)->(10, 34) [Down] BLOCKED.
 
 # Area Records: Silver Cave Room 1 (3_74)
 - Entrance/Exit: (9, 33).
 - Inventory: 19/20 slots used in Items pocket. 4/12 in Balls pocket.
-- FLOOR_UP_WALL: North edge is impassable. Cannot move North FROM it or South ONTO it.
+- PC Box 1: 9/20.
 
 # Party Status
 - Calcifer (Lv64 Typhlosion) - Lead. Received Protein at Turn 43371.
@@ -19,9 +32,6 @@
 - KIMCHI (Lv51 Gloom)
 - GORP (Lv50 Snorlax)
 - GNEISS (Lv54 Graveler)
-
-# Red Battle Preparation
-- (Awaiting Strategy Advisor input)
 
 # Red Battle Strategy (Advisor Recommendations)
 - Grind team to Lv 70+.
