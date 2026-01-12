@@ -23,3 +23,8 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
+- Fly Execution (Turn 35678):
+  - Current State: Party Menu, Cursor on MISTRAL.
+  - Action: Select Mistral (A) -> Select Fly (A) -> Wait Map (5s) -> Up -> Up -> Right.
+  - Path Logic: Cinnabar -> Pallet -> Viridian -> Saffron (hopefully).
+  - Goal: Land cursor on Saffron City. Check text next turn.
