@@ -13,14 +13,15 @@
     - **Exeggutor:** Use Calcifer with Flamethrower (4x weak).
     - **Arcanine:** Use GNEISS with Earthquake or Calcifer with Return.
 - **Team Order:** Lead with Calcifer (Lv63).
+- **Quest Start:** Turn 43073 (Gatehouse entry).
 
 # Tile Mechanics (Global Reference)
 - **FLOOR:** Reachable. Standard walkable tile.
 - **WALL:** Impassable.
 - **DOOR:** Warp. Reachable.
 - **CAVE:** Warp. Reachable.
-- **COUNTER:** Reachable (interaction only). Blocks movement; interact from adjacent floor tile.
-- **WARP_CARPET_DOWN:** Warp. Reachable.
+- **COUNTER:** Blocks movement; interact from adjacent floor tile (verified at 23_13 (10, 11)).
+- **WARP_CARPET_DOWN:** Warp. Reachable. Move "off" map to trigger.
 - **WATER:** Reachable with SURF.
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** One-way movement. Reachable.
 - **LADDER:** Warp. Reachable.
@@ -28,7 +29,7 @@
 
 # Area Records (Kanto)
 ## Victory Road Gatehouse (23_13)
-- Officer (8, 11): Guarding North path. Requires Johto badges.
+- Officer (8, 11): Guarding North path. Requires Johto badges. (Interaction: face Left from (9, 11)).
 - East Exit (17, 7): To Route 22 (Viridian City).
 - West Exit (Unseen): To Route 28 (Mt. Silver). Requires all 16 badges.
 - Warp North: To Victory Road (9, 67).
