@@ -8,7 +8,7 @@
 - Cut Tree: Blockage. Requires Cut HM to clear.
 - Whirlpool: Blockage. Requires Whirlpool HM to clear.
 - Waterfall: Blockage. Requires Waterfall HM to ascend.
-- FLOOR_UP_WALL: Floor tile with a wall boundary to the north. Blocks movement North (exit) and South (entry from North).
+- FLOOR_UP_WALL: Floor tile with a wall boundary to the north. Blocks movement North (exit). Entry from North (Down) needs testing.
 - LEDGE_HOP_DOWN: One-way ledge. Jump Down only.
 - LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
 
@@ -41,29 +41,24 @@
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Status: 99.7% explored. Remaining tiles at (0, 35) and (19, 35) are likely isolated.
+- Current Targets: (0, 35), (19, 35).
+- Status: 99.7% explored. All warps on Outside are discovered; no alternate entrances exist. Row 35 must be reachable from within Room 1.
 
 # Lessons Learned
-- Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
-- Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
-- Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
+- Precise menu navigation is critical during high-stakes battles.
+- Don't over-rely on a single strategy.
+- Regular notepad cleanup prevents bloat.
 - Avoid known warps during overworld navigation unless they are the intended destination.
-- Verify pathfinding output before execution to avoid infinite loops between maps.
+- Game State Info is the ultimate authority on discovered warps.
 
-# Legendary Hunt Strategy
-- General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
-- Suicune: Tracks unknown.
-- Raikou/Entei: Roaming Johto. Use Pokegear Map to track. Target Raikou first with Master Ball as per Legendary Tracker agent recommendation.
-- Lugia: Whirl Islands (Requires Silver Wing).
-- Ho-Oh: Tin Tower (Requires Rainbow Wing).
-- Articuno/Zapdos/Moltres: Locations to be verified.
-- Mewtwo: Cerulean Cave? (Verify if accessible).
-- Celebi: GS Ball event? (Verify availability).
+# Legendary Hunt Strategy (Tracker Advice)
+- Target: Raikou (Priority due to speed).
+- Method: Fly to Ecruteak, cycle between Route 37 and city gates.
+- Ball: MASTER BALL.
+- Lead: XENON (Haunter) for Hypnosis/Night Shade (though Master Ball skips this).
 
 # Exploration Plan: Silver Cave Room 1
-1. Search SilverCaveOutside for alternate entrances to Room 1.
-2. If no other entrances, check Room 2 for hidden paths to the isolated tiles in Room 1.
-3. Reach 100% completion and exit to Silver Cave Outside.
-
-# Exploration Insight: Silver Cave Room 1
-- Row 35 is isolated from the central area by a line of walls and FLOOR_UP_WALL tiles in row 34, and WALL tiles in row 33 (cols 1-7 and 11-18). Accessible only via columns 0 or 19, which likely connect to alternate entrances from Outside or other rooms.
+1. Enter Room 1 via (18, 11).
+2. Navigate to (24, 34) and attempt to move Down to row 35.
+3. Reach (0, 35) and (19, 35) to finish the floor.
+4. Exit and begin Legendary Hunt.
