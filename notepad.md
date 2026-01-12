@@ -59,3 +59,9 @@
 - [Turn 42518] NPC Interaction: Prof. Oak's Aide mentions Oak's Lab in Pallet Town.
 - [Turn 42541] Found Elixir on Route 2.
 - [Turn 42554] Gramps in Viridian City claims to be an expert catcher.
+## Viridian Nickname Speech House (Map 23_5)
+- Entrance/Exit: (2, 7) and (3, 7) lead to Viridian City (21, 9).
+- Pokefan M: (2, 4).
+- Lass: (5, 4).
+- Growlithe: (6, 3).
+- Potential Moltres: Reported at (5, 2) (Unseen).
