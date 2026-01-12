@@ -1,8 +1,7 @@
 # Strategic Plan: Kanto Badges & Final Challenges
 - **Strategy (The HOW):**
-    1. Defeated Blaine. Next: Challenge Blue at Viridian Gym for the Earth Badge (8th Kanto badge).
-    2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
-    3. After 16 badges: Unlock Mt. Silver and challenge Red.
+    1. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
+    2. After 16 badges: Unlock Mt. Silver and challenge Red.
 
 ## Viridian Gym Strategy (vs. Blue)
 - **Blue's Roster:** Pidgeot (56), Alakazam (54), Rhydon (56), Gyarados (58), Exeggutor (58), Arcanine (58).
@@ -29,9 +28,9 @@
 
 # Area Records (Kanto)
 ## Victory Road Gatehouse (23_13)
-- Officer (8, 11): Guarding North path.
-- Black Belt (7, 5): Guarding West path (Route 28/Mt. Silver).
-- Black Belt (12, 5): Guarding East path (Route 22/Viridian).
+- Officer (8, 11): Guarding North path. Requires Johto badges.
+- East Exit (17, 7): To Route 22 (Viridian City).
+- West Exit (Unseen): To Route 28 (Mt. Silver). Requires all 16 badges.
 - Warp North: To Victory Road (9, 67).
 - Warp South: To Route 26 (7, 5).
 
@@ -52,10 +51,3 @@
 
 # Indigo Plateau Mart
 - Ultra Ball: ¥1200, Max Repel: ¥700, Hyper Potion: ¥1200, Max Potion: ¥2500, Full Restore: ¥3000, Revive: ¥1500, Full Heal: ¥600.
-
-# Victory Road Gatehouse Exploration Plan
-- Goal: Find the exit to Route 22 (East).
-- Step 1: Talk to Officer at (8, 11) to gather info. [Current Step]
-- Step 2: Navigate to (12, 5) and talk to Black Belt.
-- Step 3: Exit East to Route 22.
-- Step 4: Proceed to Viridian City.
