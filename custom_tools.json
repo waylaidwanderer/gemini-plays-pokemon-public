@@ -148,5 +148,20 @@
         "action_counter": 36122
       }
     ]
+  },
+  "shuffle_return": {
+    "description": "Closes the Pokegear Map and moves Up from Route 37 back to Ecruteak City to reset the shuffle.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print('[\"B\", \"sleep 200\", \"B\", \"sleep 200\", \"Up\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T19:12:39.847Z",
+        "action_counter": 36125
+      }
+    ]
   }
 }
