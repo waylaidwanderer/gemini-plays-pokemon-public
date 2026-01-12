@@ -17,7 +17,12 @@
 ## Route 2 Investigation (Started Turn 42471)
 - Nugget House (Fisher): (15, 15). Obtained Nugget.
 - Route 2 Gatehouse (South): (16, 27) / (17, 27).
-- Scientist (Gatehouse): Prof. Oak's Aide. Mentioned Oak's Lab in Pallet Town.
+- Scientist (Gatehouse): Prof. Oak's Aide. Mentioned Oak's Lab in Pallet Town. (Turn 42518)
+- Southern Route 2 Observations:
+    - Item Ball at (14, 50).
+    - Cut Tree at (12, 50).
+    - Bug Catcher at (10, 45).
+    - Viridian City Entrance at (10, 53).
 - Obstacles:
     - Walls at X=12, 13 block Westward movement.
     - Ledges at Y=21, 23 are one-way South.
