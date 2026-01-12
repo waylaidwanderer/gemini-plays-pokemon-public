@@ -14,7 +14,7 @@
 - Espeon (Lv73): Defeated.
 - Snorlax (Lv75): Defeated.
 - Venusaur (Lv77): Defeated.
-- Blastoise (Lv77): Active. PARALYZED. Rain falling. Moves: Blizzard, Surf, Rain Dance, Snore.
+- Blastoise (Lv77): Active. PARALYZED. Rain falling. Moves: Blizzard, Surf (Turn 43973), Rain Dance, Snore.
 - Charizard (Lv77): Remaining.
 
 # Current Strategy
