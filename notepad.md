@@ -32,3 +32,5 @@
 - **Olivine City:** Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
 - **Observation:** Roaming Pokémon (Raikou/Entei) location check initiated.
 - **Reflection:** Corrected menu navigation error (was in Phone menu). Remember: Verify cursor position before confirming.
+- **Sighting:** Route 38 & Route 42 (Verified Turn 34733).
+- **Strategy Update:** Switching to "Physical Check" (Repel + Run in Route 37) instead of Map Check. Faster and reliable.
