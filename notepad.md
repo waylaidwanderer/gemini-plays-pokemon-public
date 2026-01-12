@@ -30,3 +30,6 @@
 - **Immediate Execution:** Close menu, exit store.
 - **Goal Clarity:** Clear. Exit -> Fly -> Hunt.
 - **Inventory Check:** 4 Super Repels, 244 Yen. Ready.
+- Unexpectedly arrived at Route 23 (Indigo Plateau) after Flying.
+- Plan: Fly from Route 23 to Ecruteak City to start Roamer hunt.
+- Navigation: Select Mistral (Slot 4) -> Fly -> Left x10 (to Cianwood) -> Right x2 (to Ecruteak).
