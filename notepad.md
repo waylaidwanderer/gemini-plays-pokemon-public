@@ -2,7 +2,7 @@
 - Start: Turn 43634 (Monday, January 12, 2026 at 10:13 AM PST)
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 0/15. Night Shade PP: 15/15.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 10/15 (restored via Elixer). Night Shade PP: 15/15.
 - Snorlax (Lv75): Active. Asleep (Turn 43863 via Rest).
   - Moves: Body Slam, Snore, Rest (6/10), Amnesia. (Haunter is immune to Normal).
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
