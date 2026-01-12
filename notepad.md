@@ -1,16 +1,12 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Fly to Indigo Plateau. (Done)
-    2. Heal party at Poke Center. (Done)
-    3. Head south to Route 23 Gatehouse. (Done)
-    4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
-    5. Travel West through Route 28 to reach Mt. Silver. (Done)
-    6. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
-    7. Face Red at the peak of Mt. Silver.
+    1. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
+    2. Face Red at the peak of Mt. Silver.
 
 # Progress Tracking
 - Badges: 16/16 (All Johto and Kanto badges obtained).
 - Mt. Silver Access: UNLOCKED by Professor Oak.
+- Inventory Management: Task started at Turn 43296 to free a slot for Protein/Items.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
@@ -50,7 +46,7 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Explore the northern part of the room to find the ladder to the next floor.
-2. Collect item at (7, 18). (Current Turn: 43319)
+2. Collect item at (7, 18).
 3. Explore unseen tiles: (14, 26), (15, 27), (16, 27), (17, 28), (17, 29), (17, 30), (17, 32), (0, 35), (17, 34), (17, 35).
 4. Document any obstacles or puzzles.
 
