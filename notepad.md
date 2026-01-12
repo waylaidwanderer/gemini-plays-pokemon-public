@@ -6,10 +6,10 @@
 - Obstacles: TREE (CUT), WHIRLPOOL (WHIRLPOOL), WATERFALL (WATERFALL).
 
 # Battle Strategy: Red's Snorlax
-- Snorlax (Lv75): Active. Asleep. Sp.Def +6 (Maxed).
-- GNEISS (Graveler): Active. HP 131/152.
-- Plan: Defense Curl (doubles Rollout) then Rollout sweep. GNEISS resists Normal moves.
-- Status: GNEISS successfully switched in (Turn 43961). Defense Curl used (Turn 43966). Starting Rollout sweep now.
+- Snorlax (Lv75): Active. Awake. Sp.Def +6 (Maxed).
+- GNEISS (Graveler): Active. HP 43/152.
+- Strategy: Snorlax woke up and used Body Slam. GNEISS is low on HP. Switch to XENON (Haunter) for safety (immunity to Normal moves).
+- Observation: Turn 43967 log shows multiple rounds. GNEISS flinched, Snorlax woke up, then they traded hits.
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
