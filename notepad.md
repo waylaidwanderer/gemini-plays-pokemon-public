@@ -67,7 +67,7 @@
         - Weezing (Lv 36) #1: Defeated with Flamethrower.
         - Weezing (Lv 36) #2: Defeated with Flamethrower.
         - Venomoth (Lv 39): Defeated with Flamethrower.
-        - Ariados (Lv 33): Current. Strategy: Flamethrower. (Turn 42344)
+        - Ariados (Lv 33): Current. Strategy: Flamethrower. (Turn 42345)
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
