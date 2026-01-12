@@ -18,7 +18,8 @@
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): Defeated (Turn 43777).
-- Next Pokemon: Pending.
-- GORP (Snorlax): HP 128/221. Active. Accuracy -1.
+- Snorlax (Lv75): Active (Turn 43778).
+- GORP (Snorlax): HP 141/221. Active. Accuracy -1.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives.
-- Strategy: Heal GORP or switch based on the next opponent. GORP's Accuracy is lowered, consider switching to reset.
+- Strategy: Heal GORP or switch to GNEISS (Graveler) to reset accuracy and tank physical hits. GNEISS resists Normal moves.
+- Psychic Stalled: 7/16. Swifts: 3. Mud-Slap: 1.
