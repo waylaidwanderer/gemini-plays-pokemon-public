@@ -6,10 +6,10 @@
 ## Viridian Gym Strategy (vs. Blue)
 - **Blue's Roster:** Pidgeot (56), Alakazam (54), Rhydon (56), Gyarados (58), Exeggutor (58), Arcanine (58).
 - **Tactics:**
-    - **Pidgeot:** Use GNEISS (Graveler) with Rollout or Calcifer (Typhlosion) with Thunderpunch.
-    - **Alakazam:** Use GORP (Snorlax) with Body Slam. High HP/SpDef helps.
-    - **Rhydon:** Use KIMCHI (Gloom) with Petal Dance (4x weak) or Calcifer with Return.
-    - **Gyarados:** Use Calcifer with Thunderpunch (4x weak).
+    - **Pidgeot:** Use Calcifer (Typhlosion) with Thunderpunch. [Defeated]
+    - **Rhydon:** Use KIMCHI (Gloom) with Petal Dance. [Defeated]
+    - **Alakazam:** Use GORP (Snorlax) with Body Slam. [Defeated]
+    - **Gyarados:** Use Calcifer with Thunderpunch (4x weak). [Current]
     - **Exeggutor:** Use Calcifer with Flamethrower (4x weak).
     - **Arcanine:** Use GNEISS with Earthquake or Calcifer with Return.
 - **Team Order:** Lead with Calcifer (Lv63).
@@ -52,21 +52,11 @@
 - Viridian Gym (Blue): (32, 7).
 - Trainer House (23, 15): Daily battles.
 
-# Battle & Pokémon Data
-## PC Storage (Box 1) (9/20)
-- GLAIVE (Lv14), SELKIE (Lv24), DELTA (Lv20), RANGOON (Lv22), NOMURA (Lv17), Ravioli (Lv10), Ouroboros (Lv15), LAPIS (Lv12), AAAAAAAAAA (Lv13).
-
-# Indigo Plateau Mart
-- Ultra Ball: ¥1200, Max Repel: ¥700, Hyper Potion: ¥1200, Max Potion: ¥2500, Full Restore: ¥3000, Revive: ¥1500, Full Heal: ¥600.
-## Viridian Gym Exploration Plan
-- Goal: Defeat Blue and obtain the Earth Badge.
-- Step 1: Talk to Gym Guide at (7, 13). [Completed]
-- Step 2: Explore gym layout and mechanics. [Completed]
-- Step 3: Battle Blue. [In Progress]
-- Battle Start: Turn 43107.
-- Entry Timestamp: Turn 43101.
-## Battle Status (Blue)
+# Battle Status (Blue)
 - Pidgeot: Fainted (Calcifer's Thunderpunch).
-- Rhydon: Active. KIMCHI (Gloom) is out.
-- KIMCHI HP: 46/134.
-- Strategy: Use super-effective Petal Dance (4x) to OHKO Rhydon.
+- Rhydon: Fainted (KIMCHI's Petal Dance).
+- Alakazam: Fainted (GORP's Body Slam).
+- KIMCHI: Fainted.
+- GORP: Active.
+- Enemy: Gyarados (Lv58).
+- Strategy: Switch to Calcifer for Thunderpunch (4x).
