@@ -70,3 +70,10 @@
 - Trainer House battles are limited to once per day.
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
 - Turn 42661: Daily battle completed, ¥5000 earned. Heading to Pallet Town next.
+
+# Strategy: Navigating Viridian City South
+- Observed: A horizontal wall/barrier exists at Y=31, extending from X=10 to at least X=27.
+- Observed: A gap in the Y=31 wall exists at X=28-29, but it leads to a section blocked by vertical walls at X=27 and X=30.
+- Observed: The pathfinder failed to go south at X=14 due to the wall.
+- Hypothesis: There may be a path south on the far western side of the city (X < 10) or through a building.
+- Plan: Explore the western edge of the city along Row 30 to look for a gap or alternate route.
