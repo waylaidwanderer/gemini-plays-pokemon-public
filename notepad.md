@@ -21,7 +21,7 @@
 - Lead with KIMCHI (Gloom) or GNEISS (Graveler) for efficient XP.
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
 - Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
-- Lead GNEISS (Graveler) vs Pikachu (uses Earthquake).
+- Lead GNEISS (Graveler) with Hard Stone vs Pikachu (uses Earthquake). (Prepared Turn #43635).
 - Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
