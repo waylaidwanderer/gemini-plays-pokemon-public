@@ -30,10 +30,7 @@
 - **Immediate Execution:** Close menu, exit store.
 - **Goal Clarity:** Clear. Exit -> Fly -> Hunt.
 - **Inventory Check:** 4 Super Repels, 244 Yen. Ready.
-- Currently at Route 23 (Outside Indigo Plateau).
-- Plan: Fly to Ecruteak City to start Roamer hunt.
-- Navigation: Open Fly Map -> Navigate to Ecruteak -> Confirm.
-- Accidentally opened Pokegear (Clock) instead of Pokemon Menu.
-- Correcting: Exit Pokegear -> Start Menu -> Pokemon -> Mistral -> Fly.
-- Start Menu Cursor Assumption: Currently on 'POKEGEAR'. Moving Up x2 to 'POKEMON'.
-- Fly Path Assumption: Indigo Plateau -> Left x3 -> Ecruteak City.
+- Currently at Indigo Plateau Pokecenter 1F.
+- Mistake: Accidentally opened Pokegear.
+- Correction Plan: Exit Pokecenter -> Open Pokemon Menu -> Fly to Ecruteak.
+- Fly Navigation: Indigo Plateau -> Left x3 -> Ecruteak.
