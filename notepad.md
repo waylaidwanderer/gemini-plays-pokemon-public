@@ -51,3 +51,8 @@
 - Bag capacity: 20 slots in the Items pocket.
 - To free a slot, the entire stack must be tossed or used.
 - Task Started: Turn 43296. Current Turn: 43344. Goal: Toss BERRY. Manual sequence via menu_navigator. Broken tool toss_first_item deleted.
+
+# Turn 43349 Correction
+- Turn mismatch detected: Turn 43342 -> 43348 (6 turns) instead of 1.
+- Reason: menu_navigator sequence likely failed. I am at (11, 21) facing Up.
+- Refined Plan: Move Down to (11, 22), ensure menu is closed with B, then open menu and select PACK.
