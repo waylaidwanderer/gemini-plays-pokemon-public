@@ -1,9 +1,8 @@
 # Roamer Hunt Strategy
 - **Current Operation:**
-  1.  **Check Map:** If Roamer on Route 42 -> Hunt.
-  2.  **Relocate:** If Roamer on Route 38/44 -> Move to Route 38 (West).
-  3.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados.
-- **Status:** Checking Map. Preparing to pivot to Route 38 if Route 42 is empty.
+  1.  **Relocate:** Moving to Route 38 (West of Ecruteak) to intercept Roamers observed there.
+  2.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados.
+- **Status:** In Transit: Route 42 -> Ecruteak -> Route 38.
 - **Resources:** 2 Super Repels left. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
