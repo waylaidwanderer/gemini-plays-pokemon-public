@@ -21,8 +21,8 @@
 - **Items:** Super Repels (4).
 - **Status:** Roamers on Route 38 & 44.
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  1. Exit Pokegear. (Current)
-  2. Go North to Ecruteak.
-  3. Return to Route 37.
-  4. Open Map Card.
+  1. Exit Pokegear. (Done)
+  2. Go North to Ecruteak. (Done)
+  3. Return to Route 37. (Done)
+  4. Open Map Card. (Current - Interrupted by Call)
   5. Check Locations.
