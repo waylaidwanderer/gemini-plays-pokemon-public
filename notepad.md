@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Exiting Menus (Fly Disabled).
-- **Status:** Clearing menus. Fly failed at Silver Cave.
-- **Fact:** Cannot Fly from "Silver Cave Outside".
-- **Plan:** Walk to Route 28 -> Fly to Goldenrod.
-- **Context:** Accidentally flew to Silver Cave in Turn 34889. Now correcting course.
+- **Action:** Walking to Route 28.
+- **Reason:** Cannot Fly from Silver Cave Outside. Route 28 allows Fly.
+- **Target:** Exit at (39, 31).
+- **Next:** Fly to Goldenrod -> Sell Items -> Buy Repels.
+- **Context:** Correcting navigation error from Turn 34889.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
