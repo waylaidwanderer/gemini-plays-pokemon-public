@@ -1,6 +1,6 @@
 # Strategic Plan: Kanto Badges & Cinnabar Island
-- **Primary Goal:** Defeat the remaining Kanto Gym Leaders (Blaine and Blue).
-- **Current Objective:** Reach Cinnabar Island.
+- **Primary Goal:** Defeat the remaining Kanto Gym Leaders (Blaine and Blue). (Started Turn 42549, 1/11/26 9:00 PM)
+- **Secondary Goal:** Reach Cinnabar Island. (Started Turn 42661, 1/11/26 9:15 PM)
 - **Strategy (The HOW):**
     1. Navigate south through Viridian City to reach Pallet Town.
     2. Visit Professor Oak's Lab in Pallet Town.
@@ -9,8 +9,7 @@
     5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
     6. Return to Viridian City to challenge the final Gym Leader (Blue).
 
-# Game Mechanics & Systems
-## Tile Traversal (Global)
+# Tile Mechanics (Global)
 - FLOOR: Standard walkable.
 - WALL: Impassable.
 - WATER: Requires SURF.
@@ -21,10 +20,6 @@
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
 
-## Inventory & Economy
-- Item Pocket Limit: 20 unique items.
-- Money Making: Selling Nuggets (found one at (15, 15) Route 2).
-
 # Area Records (Kanto)
 ## Viridian City
 - Entrance from Route 2 (South): (19, 0).
@@ -34,12 +29,17 @@
 - Trainer House (23, 15): 
     - 1F: Receptionist (0, 11), Cooltrainer M (7, 11), Cooltrainer F (6, 2).
     - B1F: Receptionist (7, 1). Daily practice battles available.
+- South Navigation: Horizontal barrier at Y=31. Solution: Squeeze through gap at (28, 31).
 - Viridian Gym: Location to be confirmed.
 
 ## Route 2 (South)
 - Picked up Elixir at (14, 50).
 - Cut tree at (12, 50) cleared.
 - Entrance to Viridian City at (7-9, 53).
+
+## Route 1
+- Entered from Viridian City at (28, 36) -> (8, 0).
+- Map size 20x36. Target Pallet Town at southern end.
 
 ## Diglett's Cave
 - Exit to Route 2 (East): (15, 5).
@@ -56,38 +56,9 @@
 ## PC Storage (Box 1) (9/20)
 - GORP (Snorlax Lv50), AAAAAAAAAA (Spinarak Lv13), GLAIVE (Scyther Lv14), SELKIE (Seel Lv24), DELTA (Mantine Lv20), RANGOON (Krabby Lv22), NOMURA (Tentacool Lv17), Ravioli (Krabby Lv10), Ouroboros (Dratini Lv15).
 
-# Progress Log
-- [Turn 42651] Defeated Trainer CAL in Trainer House. Earned ¥5000. Calcifer Lv63.
-- Trainer House B1F: Daily battle completed.
-
-# Strategy: Trainer House B1F Exploration
-- Observed: Western side (X=0-3) is blocked by walls/counters from the central area.
-- Observed: The unseen tiles (3, 2) through (3, 6) are adjacent to walls or counters.
-- Hypothesis: The western section of B1F is inaccessible from the main floor and likely serves as the opponent's side of the battle arena.
-- Conclusion: No further exploration possible in B1F.
-
 # General Lessons
 - Trainer House battles are limited to once per day.
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
-- Turn 42661: Daily battle completed, ¥5000 earned. Heading to Pallet Town next.
-
-# Strategy: Navigating Viridian City South
-- Observed: A horizontal wall/barrier exists at Y=31, extending from X=10 to at least X=27.
-- Observed: A gap in the Y=31 wall exists at X=28-29, but it leads to a section blocked by vertical walls at X=27 and X=30.
-- Observed: The pathfinder failed to go south at X=14 due to the wall.
-- Hypothesis: There may be a path south on the far western side of the city (X < 10) or through a building.
-- Plan: Explore the western edge of the city along Row 30 to look for a gap or alternate route.
-
-# Strategy: Route 1 Navigation
-- [Turn 42683] Entered Route 1 from Viridian City.
-- Observed: Exit from Viridian City (23_3) at (28, 36) leads to Route 1 (13_1) at (8, 0).
-- Plan: Navigate south through Route 1 to reach Pallet Town.
-- Note: Route 1 is 20x36. Target Pallet Town at the southern end.
-
-# Tile Traversal (Route 1)
-- FLOOR: Standard walkable.
-- WALL: Impassable.
-- LEDGE_HOP_DOWN: One-way North to South.
 
 # Trainer Encounters (Route 1)
 - Schoolboy Danny (Object 1) at (7, 12): Battle started at turn 42686. Roster: Jynx (Lv31), Electabuzz (Lv31).
