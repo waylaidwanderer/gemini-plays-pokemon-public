@@ -1,12 +1,7 @@
 # Strategic Plan: Kanto Badges & Cinnabar Island
 - **Strategy (The HOW):**
-    1. Navigate south through Viridian City to reach Pallet Town. [Completed]
-    2. Visit Professor Oak's Lab in Pallet Town. [Completed]
-    3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21. [Completed]
-    4. Navigate Route 21 south to reach Cinnabar Island. [Completed]
-    5. Explore Cinnabar Island and find Gym Leader Blaine. [In Progress]
-    6. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
-    7. Return to Viridian City to challenge the final Gym Leader (Blue).
+    1. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
+    2. Return to Viridian City to challenge the final Gym Leader (Blue).
 
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable.
@@ -28,35 +23,16 @@
 
 # Area Records (Kanto)
 ## Viridian City
-- Entrance from Route 2 (South): (19, 0).
 - Gramps (Object 1): Wanders near (18, 7). Expert catcher, loves espresso.
-- Welcome Sign: (19, 1).
-- Nickname Speech House (21, 9): Exploration complete.
 - Trainer House (23, 15): 
     - 1F: Receptionist (0, 11), Cooltrainer M (7, 11), Cooltrainer F (6, 2).
     - B1F: Receptionist (7, 1). Daily practice battles available.
 - South Navigation: Horizontal barrier at Y=31. Solution: Squeeze through gap at (28, 31).
-- Viridian Gym: Location to be confirmed.
-
-## Route 2 (South)
-- Picked up Elixir at (14, 50).
-- Cut tree at (12, 50) cleared.
-- Entrance to Viridian City at (7-9, 53).
-
-## Route 1
-- Entered from Viridian City at (28, 36) -> (8, 0).
-- Map size 20x36. Target Pallet Town at southern end.
-
-## Diglett's Cave
-- Exit to Route 2 (East): (15, 5).
 
 ## Pallet Town
-- Entry from Route 1 at (8, 0).
-- Pallet Town Sign at (7, 9): "PALLET TOWN A Tranquil Setting of Peace & Purity."
 - Red's House (5, 5): Red's Mom (Object 1).
 - Blue's House (13, 5): Daisy (Object 1). Mentioned Blue (Viridian Gym Leader) is often away.
 - Professor Oak's Lab (12, 11): Professor Oak (Object 1), Scientists (Objects 2, 3, 4).
-- Fisher (Object 2): Wanders southern area. Technology enthusiast.
 
 # Battle & Pokémon Data
 ## Party Status
@@ -80,16 +56,10 @@
 - Fisher Arnold (Object 3) at (14, 22): Roster: Tentacruel (Lv 34). [Defeated]
 
 # Map Exploration (Kanto)
-## Route 21
-- Entered from Pallet Town at (7, 18) -> (7, 0).
-- Water route leading south to Cinnabar Island.
-- Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
-- Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
-
 ## Cinnabar Island
+- Exploration Start Turn: 42804.
 - Entered from Route 21 at (13, 35) -> (3, 0).
 - Blue (Object 1): Location to be confirmed (suspected east side).
 - Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
 - Landing Spot: Identified at (4, 11) (FLOOR tile adjacent to WATER).
 - Cinnabar Island Sign: Located at (7, 7).
-- Goal: Reach the island's interior to find Blue and Blaine.
