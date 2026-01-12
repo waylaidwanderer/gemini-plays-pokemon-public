@@ -77,7 +77,7 @@
 ## Route 21
 - Entered from Pallet Town at (7, 18) -> (7, 0).
 - Water route leading south to Cinnabar Island.
-- Swimmer Girl (Object 1) at (11, 16).
+- Swimmer Nikki (Object 1) at (11, 16). Roster: Seel (Lv 28).
 - Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
 - Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
 - Strategy: Move East to X=8 to exit pier into water via SURF.
