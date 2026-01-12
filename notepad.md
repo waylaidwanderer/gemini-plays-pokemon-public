@@ -14,12 +14,15 @@
 - Espeon (Lv73): Defeated.
 - Snorlax (Lv75): Defeated.
 - Venusaur (Lv77): Defeated.
-- Blastoise (Lv77): Active. PARALYZED. Rain falling. Moves: Blizzard, Surf (Turn 43973), Rain Dance, Snore.
+- Blastoise (Lv77): Active. PARALYZED. Rain falling. Moves: Blizzard, Surf, Rain Dance, Snore.
 - Charizard (Lv77): Remaining.
+- GORP (Snorlax): Active. HP 27/221.
+- FNT: KIMCHI, GNEISS, Calcifer.
 
-# Current Strategy
-- Blastoise: Use GORP (Snorlax) with Body Slam. Leftovers and Rest for survival.
-- Charizard: Use GORP (Snorlax) or LAPIS (Water moves).
+# Strategy: Current Situation
+- GORP is critical but at low HP (27/221). 
+- Blastoise is paralyzed and in a downpour.
+- Action: Use Full Restore on GORP immediately. Snorlax's bulk is our only hope for the final stretch.
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
