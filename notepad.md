@@ -66,3 +66,5 @@
 - [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
 - [Turn 42645] Defeated CAL's Typhlosion (Lv50) with Calcifer (Lv62).
 - [Turn 42649] Calcifer (Lv62) used Thunderpunch (Super Effective) on Feraligatr (Lv50). Calcifer at 142/197 HP.
+- [Turn 42651] Defeated Trainer CAL. Earned ¥5000. Calcifer leveled up to 63.
+- Trainer House B1F: Daily battle completed.
