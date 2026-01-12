@@ -57,6 +57,7 @@
 # Lesson Log & Progress
 - [Turn 42551] Started Viridian City Exploration.
 - [Turn 42571] Conversed with Pokefan M about nicknames.
+- [Turn 42574] Verified Speary at (5, 2) is a Spearow, not Moltres.
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision in Nickname Speech House.
