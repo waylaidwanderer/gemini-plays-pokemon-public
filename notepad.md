@@ -50,6 +50,7 @@
 - Step 5: Select HM03 SURF (Completed). USE/QUIT menu open. Cursor on USE.
 - Step 6: Select YES (Completed). Party menu open.
 - Step 7: Select GORP (SNORLAX) (Completed).
-- Step 8: Choose move to replace (In progress). Advancing dialogue.
+- Step 8: Choose move to replace (Completed). Selected YES.
+- Step 9: Select move to delete (In progress).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
