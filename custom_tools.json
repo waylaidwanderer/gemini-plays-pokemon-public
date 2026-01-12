@@ -135,7 +135,7 @@
     ]
   },
   "route42_gate_shuffle": {
-    "description": "Executes the Roamer Shuffle loop on Route 42: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear directly to the Map view.",
+    "description": "Executes the Roamer Shuffle loop on Route 42 with robust menu navigation: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear Map.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -148,7 +148,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 6000\", \"Right\", \"sleep 6000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 6000\", \"Right\", \"sleep 6000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 500\", \"Left\", \"sleep 250\", \"Left\", \"sleep 250\", \"Right\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -184,6 +184,11 @@
         "commit_message": "Re-adding 'Right' input to the sequence because the Pokegear cursor was observed to default to the 'BACK' icon, requiring a move to the right to select the 'MAP' card.",
         "timestamp": "2026-01-12T20:36:26.039Z",
         "action_counter": 36242
+      },
+      {
+        "commit_message": "Updated menu navigation to be state-independent: uses 'Left, Left' to force cursor to 'BACK', then 'Right' to select 'MAP'. This prevents accidental selection of 'PHONE' if the cursor remembers the previous position.",
+        "timestamp": "2026-01-12T21:25:17.555Z",
+        "action_counter": 36283
       }
     ]
   }
