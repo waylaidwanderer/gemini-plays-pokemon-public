@@ -5,10 +5,10 @@
   - Location: Moving to Route 38 (West of Ecruteak).
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
-- **Action:** Hunt on Route 38.
-  - **Status:** Relocating.
+- **Action:** Hunt on Route 42.
+  - **Status:** Relocating via Ecruteak.
   - **Resources:** 3 Super Repels left. ¥244.
-  - **Strategy:** Roamers are congregating on the East-West axis (Routes 38 & 42). Moving to Route 38 to intersect immediately.
+  - **Strategy:** Checked Route 38 (empty). Moving to Route 42 (East of Ecruteak) to intercept.
 
 # Strategy Notes & Lessons
 - **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak) over Route 37 (South) in recent turns (36050-36185).
