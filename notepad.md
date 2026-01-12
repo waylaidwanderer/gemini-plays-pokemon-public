@@ -15,8 +15,7 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current Turn:** 36133.
-  - **Status:** Shuffling (Entering Route 37).
+  - **Status:** Shuffling (On Route 37, checking map).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
