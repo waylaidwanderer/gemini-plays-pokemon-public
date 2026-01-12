@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Olivine Mart.
-- **Action:** Relocating to Olivine Mart (Ecruteak has no Repels).
-- **Strategy:** Fly to Olivine -> Buy Super Repels -> Fly to Ecruteak -> Resume Hunt.
+- **Action:** Returning to Ecruteak City (Repels acquired).
+- **Strategy:** Fly to Ecruteak -> Resume Hunt (Shuffle -> Sweep).
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
