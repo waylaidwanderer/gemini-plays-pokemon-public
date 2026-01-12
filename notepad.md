@@ -37,3 +37,7 @@
 - GORP (Snorlax) learned Surf (Turn 43469).
 - Navigation Analysis: Pond at (10-13, 30-31) connects to Row 27 via Waterfalls at (10-11, 28-29). Requires HM07 Waterfall to progress North from this pond.
 - Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
+
+# Navigation Records: Silver Cave Outside (19_2)
+- Path Cave <-> Pokecenter: Walkable via Row 10 (X=14 to 23).
+- Escape Rope Landing: (19, 15) near cave entrance. Must walk North to Row 10 to reach the Pokecenter.
