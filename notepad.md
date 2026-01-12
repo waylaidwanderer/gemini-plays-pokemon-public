@@ -39,9 +39,14 @@
 - GORP (Snorlax) learned Surf (Turn 43469).
 - Navigation Analysis: Pond at (10-13, 30-31) connects to Row 27 via Waterfalls at (10-11, 28-29). Requires HM07 Waterfall to progress North from this pond.
 - Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
-- Task: Reach Red/Grind - Started Turn 43550.
-- Grinding Strategy: Lead with Calcifer (Thunderpunch) or GNEISS (Earthquake) for efficient KOs. Use XENON for status support if needed.
-- Waterfall Strategy: Successfully climbed waterfall at (10, 29) to reach upper level (Turn 43564). Use A button while facing the waterfall tile.
-- Task: Collect item at (4, 20) before progressing to (11, 5).
-- Path: (13, 22) -> (11, 25) -> Surf at (11, 26) -> (6, 22) -> Land at (5, 21) -> (4, 20).
+
+# Time Tracking
+- Primary Goal (Defeat Red): Started Turn #43156.
+
+# Mt. Silver Grinding Strategy
+- Wild Pokemon: Lv 40-50 (Goldeen, Machoke, etc.).
+- Lead GNEISS (Earthquake) vs Red's Pikachu.
+- KIMCHI (Grass STAB) vs Blastoise/Lapras.
+- Calcifer vs Venusaur/Charizard.
+- Target Level for Red: 75+.
 - Observed Wild Pokemon (Silver Cave Room 2): Goldeen, Machoke.

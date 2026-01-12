@@ -124,20 +124,27 @@
     ]
   },
   "find_path_v7_robust": {
-    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (like one-way ledges and direction-specific walls) and treating 'unseen' tiles as walkable FLOOR for exploration. Returns a JSON array of buttons.",
+    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (ledges, one-way walls), treating 'unseen' tiles as walkable FLOOR, and supporting surfing/land modes.",
     "input_schema": {
+      "type": "object",
       "properties": {
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        },
         "end_x": {
           "type": "integer"
         },
         "end_y": {
           "type": "integer"
         },
-        "start_x": {
-          "type": "integer"
+        "is_surfing": {
+          "type": "boolean"
         },
-        "start_y": {
-          "type": "integer"
+        "autopress_buttons": {
+          "type": "boolean"
         }
       },
       "required": [
@@ -145,10 +152,9 @@
         "start_y",
         "end_x",
         "end_y"
-      ],
-      "type": "object"
+      ]
     },
-    "python_script": "import json, xml.etree.ElementTree as ET\nfrom collections import deque\ndef solve(d):\n    sx, sy, ex, ey = d['start_x'], d['start_y'], d['end_x'], d['end_y']\n    try: root = ET.fromstring(map_xml_string)\n    except: return []\n    w, h, g = int(root.attrib['width']), int(root.attrib['height']), {}\n    for r in root.findall('Row'):\n        y = int(r.attrib['id'])\n        for t in r.findall('Tile'):\n            x = int(t.attrib['id'])\n            tp = t.attrib['type']\n            if tp == 'unseen': tp = 'FLOOR'\n            g[(x,y)] = {'t': tp, 'o': t.attrib.get('has-object') == 'true'}\n    q, v = deque([(sx, sy, [])]), set([(sx, sy)])\n    while q:\n        cx, cy, p = q.popleft()\n        if cx == ex and cy == ey: return p\n        for dx, dy, b in [(0,-1,'Up'),(0,1,'Down'),(-1,0,'Left'),(1,0,'Right')]:\n            nx, ny = cx+dx, cy+dy\n            if 0<=nx<w and 0<=ny<h and (nx,ny) not in v:\n                t, ct = g.get((nx,ny)), g.get((cx,cy))\n                if not t or not ct or t['t'] in ['WALL','WATER','CUT_TREE','BOULDER'] or t['o']: continue\n                if (ct['t']=='FLOOR_UP_WALL' and dy==-1) or (t['t']=='FLOOR_UP_WALL' and dy==1): continue\n                if (ct['t']=='FLOOR_DOWN_WALL' and dy==1) or (t['t']=='FLOOR_DOWN_WALL' and dy==-1): continue\n                if (ct['t']=='FLOOR_LEFT_WALL' and dx==-1) or (t['t']=='FLOOR_LEFT_WALL' and dx==1): continue\n                if (ct['t']=='FLOOR_RIGHT_WALL' and dx==1) or (t['t']=='FLOOR_RIGHT_WALL' and dx==-1): continue\n                if (t['t']=='LEDGE_HOP_DOWN' and dy!=1) or (ct['t']=='LEDGE_HOP_DOWN' and dy!=1): continue\n                if (t['t']=='LEDGE_HOP_UP' and dy!=-1) or (ct['t']=='LEDGE_HOP_UP' and dy!=-1): continue\n                if (t['t']=='LEDGE_HOP_LEFT' and dx!=-1) or (ct['t']=='LEDGE_HOP_LEFT' and dx!=-1): continue\n                if (t['t']=='LEDGE_HOP_RIGHT' and dx!=1) or (ct['t']=='LEDGE_HOP_RIGHT' and dx!=1): continue\n                v.add((nx,ny)); q.append((nx,ny,p+[b]))\n    return []\nprint(json.dumps(solve(input_data)))",
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\nroot = ET.fromstring(map_xml_string)\nautopress = input_data.get('autopress_buttons', False)\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\nis_surfing = input_data.get('is_surfing', False)\n\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        grid[(x, y)] = tile\n\ndef can_move(from_pos, to_pos, direction):\n    if to_pos not in grid: return False\n    f_tile = grid[from_pos]\n    t_tile = grid[to_pos]\n    f_type = f_tile.attrib['type']\n    t_type = t_tile.attrib['type']\n    if t_tile.attrib['seen'] == 'false': return True\n    if t_type == 'WALL': return False\n    if t_tile.find('Object') is not None: return False\n    if is_surfing:\n        if t_type not in ['WATER', 'WATERFALL', 'FLOOR', 'WALL_DOWN_FLOOR', 'WALL_UP_FLOOR', 'WALL_RIGHT_FLOOR', 'WALL_LEFT_FLOOR', 'FLOOR_UP_WALL', 'FLOOR_DOWN_WALL', 'FLOOR_LEFT_WALL', 'FLOOR_RIGHT_WALL', 'CAVE', 'WARP_CARPET_DOWN']: return False\n    else:\n        if t_type in ['WATER', 'WATERFALL']: return False\n    if direction == 'Down':\n        if f_type == 'WALL_DOWN_FLOOR' or t_type == 'FLOOR_UP_WALL': return False\n    elif direction == 'Up':\n        if f_type == 'WALL_UP_FLOOR' or t_type == 'FLOOR_DOWN_WALL': return False\n    elif direction == 'Right':\n        if f_type == 'WALL_RIGHT_FLOOR' or t_type == 'FLOOR_LEFT_WALL': return False\n    elif direction == 'Left':\n        if f_type == 'WALL_LEFT_FLOOR' or t_type == 'FLOOR_RIGHT_WALL': return False\n    if t_type == 'LEDGE_DOWN' and direction != 'Down': return False\n    if t_type == 'LEDGE_LEFT' and direction != 'Left': return False\n    if t_type == 'LEDGE_RIGHT' and direction != 'Right': return False\n    return True\n\nqueue = collections.deque([((start_x, start_y), [])])\nvisited = {(start_x, start_y)}\nfound_path = None\nwhile queue:\n    (cx, cy), path = queue.popleft()\n    if (cx, cy) == (end_x, end_y):\n        found_path = path\n        break\n    for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) in grid and (nx, ny) not in visited:\n            if can_move((cx, cy), (nx, ny), btn):\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n\nif found_path is not None:\n    if autopress: print(json.dumps(found_path))\n    else: print(json.dumps({\"path\": found_path}))\nelse:\n    if autopress: print(json.dumps([]))\n    else: print(json.dumps({\"path\": []}))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -179,6 +185,11 @@
         "commit_message": "Refining collision logic for all wall types and ledges. Added consistent entry/exit blocking for one-way tiles.",
         "timestamp": "2026-01-12T14:16:45.408Z",
         "action_counter": 43531
+      },
+      {
+        "commit_message": "Add support for surfing mode and refined collision logic (directional walls, ledges).",
+        "timestamp": "2026-01-12T15:02:01.294Z",
+        "action_counter": 43591
       }
     ]
   }
