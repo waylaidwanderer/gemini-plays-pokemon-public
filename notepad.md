@@ -1,86 +1,61 @@
-# Gem's Pokémon Crystal Knowledge Base
+# Strategic Plan: Kanto Badges & Cinnabar Island
+- **Primary Goal:** Defeat the remaining Kanto Gym Leaders (Blaine and Blue).
+- **Current Objective:** Reach Cinnabar Island.
+- **Strategy (The HOW):**
+    1. Navigate south through Viridian City to reach Pallet Town.
+    2. Visit Professor Oak's Lab in Pallet Town (as suggested by the Aide).
+    3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21.
+    4. Navigate Route 21 south to reach Cinnabar Island.
+    5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
 
-## Tile Mechanics
-- FLOOR: Standard traversable.
+# Game Mechanics & Systems
+## Tile Traversal (Global)
+- FLOOR: Standard walkable.
 - WALL: Impassable.
-- WATER: Requires SURF.
-- TALL_GRASS: Wild encounters.
-- DOOR/WARP/CAVE/LADDER: Entry/exit points.
-- LEDGE_HOP_DOWN: One-way traversal (North to South only).
-- FLOOR_UP_WALL/FLOOR_DOWN_WALL/FLOOR_LEFT_WALL/FLOOR_RIGHT_WALL: Block movement in specified direction.
-- Diglett's Cave: FLOOR_UP_WALL at (15, 34) is NOT jumpable from North. (Turn 42449)
+- WATER: Requires SURF to cross.
+- TALL_GRASS: Walkable; triggers wild encounters.
+- DOOR/WARP/STAIRS: Map transitions.
+- LEDGE_HOP_DOWN: One-way movement (usually North to South).
+- CUT_TREE: Impassable until CUT is used (e.g., via KIMCHI).
+- Diglett's Cave Ledges: FLOOR_UP_WALL at (15, 34) is NOT jumpable from North.
 
-## Strategy: Remaining Kanto Journey
-- Badges: Volcano (Cinnabar/Seafoam), Earth (Viridian).
-- Cinnabar Access: Route 19 blocked (Turn 42376). Detour: Fly Vermilion -> Diglett's Cave -> Route 2 -> Viridian -> Pallet -> Surf south.
+## Inventory & Economy
+- Item Pocket Limit: 20 unique items.
+- Effective Money Making: Selling Nuggets (found one at (15, 15) Route 2).
 
-## Route 2 Investigation (Started Turn 42471)
-- Nugget House (Fisher): (15, 15). Obtained Nugget.
-- Route 2 Gatehouse (South): (16, 27) / (17, 27).
-- Scientist (Gatehouse): Prof. Oak's Aide. Mentioned Oak's Lab in Pallet Town. (Turn 42518)
-- Southern Route 2 Observations:
-    - Item Ball at (14, 50).
-    - Cut Tree at (12, 50).
-    - Bug Catcher at (10, 45).
-    - Viridian City Entrance at (7-9, 53). (Corrected from 10, 53)
-- Route 2 Sign at (7, 51).
-- Bug Catcher at (10, 45) - skipped to prioritize reaching Pallet Town.
-- Confirmed: CUT_TREE at (12, 50) and (15, 18) do not regrow immediately.
-- Obstacles:
-    - Walls at X=12, 13 block Westward movement.
-    - Ledges at Y=21, 23 are one-way South.
-- Entry/Exit:
-    - North: Pewter City (8, 0).
-    - East: Diglett's Cave (12, 7).
-    - South: Gatehouse (16, 27) / (17, 27).
-
-## Diglett's Cave (Started Turn 42430)
-- Topology: Tiered layout requires specific ladders to reach the exit.
-- Connections: (5, 31) <-> (17, 33), (3, 3) <-> (17, 3).
-- Exit: (15, 5) via ladder at (3, 3).
-
-## Battle and Pokemon Information
-### Party Movesets
-- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
-- GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
-- ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
-- XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
-
-### Significant Battles (Kanto)
-- Erika, Janine, Brock, Misty, Lt. Surge, Sabrina defeated.
-
-## PC Box Status
-- Box 1: 9/20 full. Includes GORP (Snorlax Lv50), Selkie (Seel), Delta (Mantine).
-
----
-**Lesson Log:**
-- Verification: Always test ledge jumpability before assuming a path is valid.
-- Notepad: Be extremely precise with `old_text` for `replace` actions.
-- Bag Management: Item Pocket limit is 20 unique items. (Turn 42486)
-- NPC Interaction: Talk to Professors and Aides; they often provide useful context or rewards.
-- Picked up Elixir at (14, 50) on Route 2. (Turn 42541)
-- Cut tree at (12, 50) cleared. (Turn 42546)
-- Observed Cut tree at (12, 46).
-- Observed Ledges at Y=47 and Y=39 block Northward movement from the western path.
-- Route 2 (South) Exploration:
-    - Path to Viridian City is south from (10, 50).
-    - Western grass area accessible via Cut tree at (12, 50).
-## Tile Mechanics
-- FLOOR: Standard traversable.
-- WALL: Impassable.
-- CUT_TREE: Impassable until CUT is used. (Verification: Does it regrow?)
-- LEDGE_HOP_DOWN: One-way movement (usually South).
-- TALL_GRASS: Walkable, wild encounters.
-
-## Strategy: Reach Cinnabar Island
-1. Navigate Route 2 South to Viridian City.
-2. Continue South to Pallet Town.
-3. Use SURF at Pallet Town to reach Cinnabar Island via Route 21.
-## Viridian City Exploration (Started Turn 42551)
+# Area Records (Kanto)
+## Viridian City
 - Entrance from Route 2 (South): (19, 0).
-- Gramps: (16, 5). (Object 1)
+- Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
-- Cut Tree: (14, 4).
-- Goal: Locate Gym and path to Pallet Town.
+- Building (21, 9): To be explored.
+- Cut Tree (14, 4): Blocks a path to the west.
+
+## Route 2 (South)
+- Picked up Elixir at (14, 50).
+- Cut tree at (12, 50) cleared. Leads to western grass area.
+- Cut tree at (12, 46) observed.
+- Ledges at Y=47 and Y=39 block Northward movement from the western path.
+- Entrance to Viridian City at (7-9, 53).
+
+## Diglett's Cave
+- Ladder Connections: (5, 31) <-> (17, 33), (3, 3) <-> (17, 3).
+- Exit to Route 2 (East): (15, 5) via ladder at (3, 3).
+
+# Battle & Pokémon Data
+## Party Status
+- Calcifer (Typhlosion Lv62): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
+- GNEISS (Graveler Lv54): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
+- ICARUS (Pidgeotto Lv19): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
+- XENON (Haunter Lv44): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
+- LAPIS (Poliwag Lv12): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
+- KIMCHI (Gloom Lv49): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
+
+## PC Storage (Box 1)
+- GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
+
+# Lesson Log & Progress
+- [Turn 42486] Bag Management: Item Pocket limit is 20. Tossed MysteryBerry to make room for Elixir.
+- [Turn 42518] NPC Interaction: Prof. Oak's Aide mentions Oak's Lab in Pallet Town.
+- [Turn 42541] Found Elixir on Route 2.
+- [Turn 42554] Gramps in Viridian City claims to be an expert catcher.
