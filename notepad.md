@@ -1,20 +1,18 @@
-# Strategic Plan: Kanto Badges & Cinnabar Island
+# Strategic Plan: Kanto Badges & Final Challenges
 - **Strategy (The HOW):**
-    1. Surf East from Cinnabar Island via Route 20 to reach Seafoam Islands.
-    2. Locate the temporary Cinnabar Gym inside the Seafoam Islands cave.
-    3. Defeat Gym Leader Blaine to earn the Volcano Badge.
-    4. Collect remaining Kanto badges.
-    5. Return to Viridian City to challenge Blue for the Earth Badge once all other badges are obtained.
-    6. **Party Optimization:** Swap Snorlax into the party at the next available PC (replace ICARUS or LAPIS).
+    1. Defeated Blaine. Next: Challenge Blue at Viridian Gym for the Earth Badge (8th Kanto badge).
+    2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
+    3. Party Optimization: Swap GORP (Snorlax Lv50) into the party at Cinnabar Poke Center. Replace LAPIS (Lv12).
+    4. After 16 badges: Unlock Mt. Silver and challenge Red.
 
 # Seafoam Gym (Cinnabar Gym)
-- Started Turn: 42949.
-- Entrance/Exit: Warp at (5, 5) (FLOOR).
+- Started Turn: 42949. Completed Turn: 42978.
+- Entrance/Exit: Warp at (5, 5).
+- Gym Leader Blaine: (5, 2) [Defeated].
 - Observed Team:
-    - Magcargo (Lv45): [Defeated]
-    - Magmar (Lv45): [Defeated] (Moves: Sunny Day)
-    - Rapidash (Lv50): [Active] (Moves: Fire Blast) - Critical health.
-- GNEISS (Graveler Lv54): Fainted against Rapidash.
+    - Magcargo (Lv45): (No moves observed).
+    - Magmar (Lv45): Sunny Day.
+    - Rapidash (Lv50): Fire Blast.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
@@ -28,6 +26,7 @@
 - SIGN/WINDOW/TV: Impassable background objects.
 - STAIRCASE: Warp.
 - FLOOR_UP_WALL: Impassable from North.
+- WARP_CARPET_DOWN: Entrance/Exit warp tile.
 
 # Area Records (Kanto)
 ## Viridian City
@@ -59,6 +58,6 @@
 
 ## Route 19
 - Swimmer Harold (13, 28): [Defeated]
-- Swimmer Dawn (9, 23): [Defeated] (Roster: Seaking Lv34)
-- Swimmer Tucker (8, 23): [Defeated] (Roster: Shellder Lv30, Cloyster Lv34)
-- Swimmer Nicole (52, 8): [Defeated] (Roster: Marill Lv29, Lapras Lv32)
+- Swimmer Dawn (9, 23): [Defeated]
+- Swimmer Tucker (8, 23): [Defeated]
+- Swimmer Nicole (52, 8): [Defeated]
