@@ -37,7 +37,8 @@
 - Priority: Raikou (Speed).
 - Method: Cycle between Ecruteak City and Route 37 gates.
 - Ball: MASTER BALL.
-- Lead: XENON (Haunter) for Hypnosis (if needed).
+- Lead: ICARUS (Lv 19) with Repel to filter for Lv 40 Roamers.
+- Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Observed Roamer Movesets: (None yet)
 
 # Lessons Learned
@@ -50,3 +51,4 @@
 - Menu Memory: The menu remembers the last selected option (e.g., PACK instead of POKEMON). Verify cursor position.
 - Map Navigation: Mt. Silver is at the far west of Johto. Flying to Ecruteak requires moving East on the Town Map.
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 is for Raikou/Entei.
+- Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
