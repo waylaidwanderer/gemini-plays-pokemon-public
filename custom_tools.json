@@ -146,54 +146,5 @@
         "action_counter": 34231
       }
     ]
-  },
-  "perform_roamer_shuffle": {
-    "description": "Closes the open Pokegear Map, travels North to Ecruteak and immediately back South to Route 37 to update Roamer coordinates, then re-opens the Pokegear Map. Assumes the player is at Route 37 (8,0) and the Start Menu cursor is over the Pokegear.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false,
-          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\", \"sleep 10000\", \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 10000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T05:29:19.379Z",
-        "action_counter": 35103
-      },
-      {
-        "commit_message": "Increased sleep durations to 4.5s for map transitions to prevent execution errors.",
-        "timestamp": "2026-01-12T05:31:26.636Z",
-        "action_counter": 35106
-      },
-      {
-        "commit_message": "Fixed movement logic: Added 5 'Down' inputs to correctly traverse the distance from the Ecruteak arrival point back to the Route 37 border.",
-        "timestamp": "2026-01-12T05:48:55.321Z",
-        "action_counter": 35131
-      },
-      {
-        "commit_message": "Increased sleep duration to 6s and added an extra 'Down' input to ensure reliable map transition and traversal from Ecruteak back to Route 37.",
-        "timestamp": "2026-01-12T06:06:03.057Z",
-        "action_counter": 35156
-      },
-      {
-        "commit_message": "Increased sleep duration from 6000ms to 8500ms to prevent inputs from being dropped during map transition warps.",
-        "timestamp": "2026-01-12T06:27:48.695Z",
-        "action_counter": 35185
-      },
-      {
-        "commit_message": "Increased sleep duration to 10000ms (10s) and added extra Down inputs to ensure reliable transition from Ecruteak back to Route 37.",
-        "timestamp": "2026-01-12T06:30:51.514Z",
-        "action_counter": 35190
-      }
-    ]
   }
 }
