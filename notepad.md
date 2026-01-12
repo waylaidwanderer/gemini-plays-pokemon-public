@@ -17,10 +17,10 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Current Pos:** (39, 14).
+- **Current Pos:** (49, 11).
 - **Goal:** Reach Mt. Moon Entrance at (52, 1).
 - **Route:**
-  1. Go East to x=47 to bypass walls at (48-49, 13).
-  2. Go North/East to reach the gap at (49, 11).
+  1. Go East to x=47 to bypass walls at (48-49, 13). (Completed)
+  2. Go North/East to reach the gap at (49, 11). (Completed)
   3. Go North on Column 49 to Row 2.
   4. Go East to x=52 and enter Mt. Moon.
