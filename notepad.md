@@ -49,10 +49,9 @@
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
 # Fly Strategy
-- Map Cursor starts at current city.
 - Target: Goldenrod City (West of New Bark).
 - Navigation: Move cursor West/Northwest to Goldenrod node. Verify city name on top of screen before pressing A.
-- History: 14 failed attempts (Turn 44260-44310). Pivot to biking if next attempt fails.
+- Pivot Rule: If Fly map navigation continues to fail, exit and bike West from New Bark Town.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
@@ -61,4 +60,4 @@
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
-- Fly map scrolling: Use node-based navigation. Verify name on screen.
+- Fly map scrolling: Node-based grid movement. Use multiple directional presses to move between city nodes. Verify destination name on screen.
