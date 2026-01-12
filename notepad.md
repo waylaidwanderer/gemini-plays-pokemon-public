@@ -44,3 +44,8 @@
 **Lesson Log:**
 - Diglett's Cave Topology: The cave is split into tiers. Ladders connect these tiers. Tier 1 (Entry) -> Tier 2 (Ladder 5,31) -> Tier 3 (Ladder 3,3) -> Exit.
 - Verification: Always test ledge jumpability before assuming a path is valid.
+## Route 2 Navigation (Started Turn 42471)
+- Goal: Reach Viridian City via southern exit at (10, 53).
+- Progress:
+    - Exited Diglett's Cave at (12, 7). (Turn 42471)
+    - Current Position: (17, 8).
