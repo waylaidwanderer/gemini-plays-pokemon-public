@@ -44,8 +44,9 @@
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
 
 # Navigation Plan: Victory Road to Mt. Silver
-1. Bypass ladder at (13, 31) by moving: Left (12, 30) -> Down (12, 31) -> Down (12, 32) -> Right (13, 32). (Step 1 in progress)
-2. Use Super Repel (Attempt 1 failed: selected Full Heal instead).
-3. Continue south to y=38.
-4. Move West at y=38 to reach the left side of the cave (x=9).
-5. Head south to exit at (9, 67).
+1. Bypass ladder at (13, 31) (Done).
+2. Use Super Repel.
+3. Navigate to (18, 42) -> (7, 42) -> (7, 38).
+4. Hop left at (6, 38) to (5, 38).
+5. Move to (1, 35) and take ladder to 3F.
+6. Move to (9, 67) and exit.
