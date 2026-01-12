@@ -43,3 +43,4 @@
 # Red Battle Log
 - Espeon (Lv73): Strategy Update: Send out Calcifer (Lv64) to use MAX REVIVE on GORP (Turn #43649).
 - Failed Hypothesis: Snorlax could tank level 73 Espeon (Failed due to critical hit). Attempt #1.
+- Espeon (Lv73): Attempting to use MAX REVIVE on GORP (Turn #43656).
