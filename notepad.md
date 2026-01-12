@@ -53,7 +53,7 @@
 # Legendary Hunt Strategy
 - General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
 - Suicune: Tracks unknown.
-- Raikou/Entei: Roaming Johto. Use Pokegear Map to track.
+- Raikou/Entei: Roaming Johto. Use Pokegear Map to track. Target Raikou first with Master Ball as per Legendary Tracker agent recommendation.
 - Lugia: Whirl Islands (Requires Silver Wing).
 - Ho-Oh: Tin Tower (Requires Rainbow Wing).
 - Articuno/Zapdos/Moltres: Locations to be verified.
@@ -64,3 +64,6 @@
 1. Search SilverCaveOutside for alternate entrances to Room 1.
 2. If no other entrances, check Room 2 for hidden paths to the isolated tiles in Room 1.
 3. Reach 100% completion and exit to Silver Cave Outside.
+
+# Exploration Insight: Silver Cave Room 1
+- Row 35 is isolated from the central area by a line of walls and FLOOR_UP_WALL tiles in row 34, and WALL tiles in row 33 (cols 1-7 and 11-18). Accessible only via columns 0 or 19, which likely connect to alternate entrances from Outside or other rooms.
