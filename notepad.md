@@ -33,6 +33,10 @@
 
 # Route 3 Navigation Plan
 - **Current Position:** (15, 3).
-- **Immediate Obstacle:** Lower path blocked by ledges/walls further East.
-- **Solution:** Backtrack West to (4, 0) to access the Upper Path.
-- **Path:** Left to x=4 -> Up to y=0 -> Right to Mt. Moon (52, 1).
+- **Correction:** The "Upper West" path (x=0..4) is isolated. The way forward is via the "Lower Path" and looping around.
+- **Plan:**
+  1. Jump down ledge to Lower Path (y=6).
+  2. Navigate South to y=10 to bypass vertical walls at x=24.
+  3. Navigate East to x=50.
+  4. Go North to Mt Moon Entrance (52, 1).
+- **Next Action:** Hop ledge to (15, 6).
