@@ -22,3 +22,11 @@
 
 # Red Battle Preparation
 - (Awaiting Strategy Advisor input)
+
+# Red Battle Strategy (Advisor Recommendations)
+- Grind team to Lv 70+.
+- Replace ICARUS (Lv19) with a high-level Water or Electric type (e.g., Suicune).
+- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
+- Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
+- Teach GORP (Snorlax) Shadow Ball (TM02) vs Espeon.
+- Use XENON (Haunter) for Curse vs Snorlax.
