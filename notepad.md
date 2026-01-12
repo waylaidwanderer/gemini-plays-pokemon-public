@@ -53,3 +53,9 @@
 2. Collect Protein at (15, 29). (Tossing Berry to free up space).
 3. Explore unseen tiles: (14, 26), (15, 27), (16, 27), (17, 28), (17, 29), (17, 30), (17, 32), (0, 35), (17, 34), (17, 35).
 4. Document any obstacles or puzzles.
+
+# Inventory Management
+- Bag capacity: 20 slots in the Items pocket.
+- Stacks (e.g., Potion x5) occupy one slot.
+- Tossing a portion of a stack does NOT free a slot.
+- To free a slot, the entire stack must be tossed or used.
