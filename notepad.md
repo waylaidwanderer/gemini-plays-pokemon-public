@@ -69,3 +69,8 @@
 - Swimmer Guy (Object 3) at (12, 13).
 - Swimmer Cameron (Object 3) at (12, 15): Roster: Marill (Lv 34). [Defeated]
 - Swimmer Lori (Object 2) at (45, 14): Roster: Starmie (Lv 32), Starmie (Lv 32). [Defeated]
+## Route 19
+- Entered from Route 20 at (59, 15) -> (0, 33).
+- Water route connecting Route 20 and Fuchsia City.
+- Observed: Southern edge at Y=35 is WALL.
+- Goal: Explore north toward Fuchsia City and search for Seafoam Islands entrance on Route 20.
