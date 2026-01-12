@@ -54,3 +54,4 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, GEM, SAVE, OPTION, EXIT. Up from GEM is POKEGEAR.
 - Fly map scrolling can be sensitive; verify destination before pressing A. (Lake of Rage misclick Turn 44263)
+- Currently at Lake of Rage (17, 27). Moving to land at (17, 28) to Fly to Goldenrod City. (Turn 44276)
