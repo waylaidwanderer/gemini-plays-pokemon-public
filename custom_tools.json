@@ -171,7 +171,7 @@
   "check_roamers": {
     "description": "Opens Pokegear Map, waits for screenshot to capture Roamer locations, then automatically closes the map and menu to return to Overworld. Check IntermediateStates in the next turn to see the map. Assumes Start cursor is on POKEGEAR.",
     "input_schema": {},
-    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\", \"sleep 2000\", \"B\", \"sleep 500\", \"B\"]')",
+    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\", \"sleep 2000\", \"Up\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -182,6 +182,11 @@
         "commit_message": "Updated to automatically close the Pokegear menu after checking the map, ensuring the player returns to the Overworld state. Added sleep delays to allow for screenshot capture of the map.",
         "timestamp": "2026-01-12T17:16:14.917Z",
         "action_counter": 35950
+      },
+      {
+        "commit_message": "Added a dummy 'Up' button press while the map is open to force an IntermediateState capture of the map screen. This ensures the map is visible in the logs.",
+        "timestamp": "2026-01-12T17:18:29.579Z",
+        "action_counter": 35953
       }
     ]
   }
