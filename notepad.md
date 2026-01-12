@@ -37,7 +37,7 @@
 - Menu Navigation Corrected: Cursor was on POKEGEAR. Moving Up x2 to POKEMON.
 - Fly Sequence: Pokemon -> Mistral (Slot 4) -> Fly -> Left x3 (Indigo -> Blackthorn -> Mahogany -> Ecruteak).
 - Executing Fly sequence now.
-- Completing Fly sequence: Select 'FLY' -> Navigate to Ecruteak (Left x3) -> Confirm.
-- Hunt Strategy: Once in Ecruteak, check Pokegear for Roamer locations.
-- If Roamer is on Route 37, 38, 42: Chase.
-- If not: Shuffle by moving between Ecruteak/Route 37.
+- Previous Fly attempt failed (missed input to select 'FLY' from submenu).
+- Current State: 'FLY' option selected in menu.
+- Action: Select 'FLY' -> Map opens -> Left x3 (Indigo->Blackthorn->Mahogany->Ecruteak) -> Confirm.
+- Next: Check Pokegear for Roamers in Ecruteak.
