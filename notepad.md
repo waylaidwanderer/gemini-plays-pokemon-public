@@ -42,6 +42,7 @@
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
 - Current Target: (0, 35)
+- Turn 44090: Encountered wild Magmar at (15, 3). Running to continue exploration. Goal: (0, 35).
 
 # Lessons Learned
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
