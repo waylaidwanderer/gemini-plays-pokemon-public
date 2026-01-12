@@ -3,8 +3,8 @@
   1.  **Shuffle:** Arrive in Ecruteak City.
   2.  **Check:** Use Pokegear to locate Roamers.
   3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
-- **Status:** Inside Gatehouse (0, 5). Checking Map.
-- **Roamers:** Tracking...
+- **Status:** Shuffling (Gatehouse -> Route 38).
+- **Roamers:** Confirmed on Route 42 & 44.
 - **Note:** Warp from Route 38 triggered at (35, 9).
 - **Resources:** 1 Super Repel, 3 Repels. ¥244.
 
