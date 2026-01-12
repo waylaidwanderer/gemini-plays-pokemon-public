@@ -22,7 +22,10 @@
     - Item Ball at (14, 50).
     - Cut Tree at (12, 50).
     - Bug Catcher at (10, 45).
-    - Viridian City Entrance at (10, 53).
+    - Viridian City Entrance at (7-9, 53). (Corrected from 10, 53)
+- Route 2 Sign at (7, 51).
+- Bug Catcher at (10, 45) - skipped to prioritize reaching Pallet Town.
+- Confirmed: CUT_TREE at (12, 50) and (15, 18) do not regrow immediately.
 - Obstacles:
     - Walls at X=12, 13 block Westward movement.
     - Ledges at Y=21, 23 are one-way South.
