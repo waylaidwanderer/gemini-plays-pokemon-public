@@ -167,5 +167,25 @@
         "action_counter": 35770
       }
     ]
+  },
+  "check_roamers": {
+    "description": "Opens Pokegear Map. Assumes Start cursor is on 'POKEGEAR'. Resets Pokegear cursor to Map card.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Right\", \"A\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T16:54:46.225Z",
+        "action_counter": 35918
+      }
+    ]
   }
 }
