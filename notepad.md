@@ -9,10 +9,13 @@
 
 # Seafoam Gym (Cinnabar Gym)
 - Started Turn: 42949.
-- Entrance/Exit: Warp at (5, 5) (FLOOR tile).
+- Entrance/Exit: Warp at (5, 5).
 - Gym Leader Blaine: (5, 2).
-- Strategy: Lead GNEISS (Graveler Lv54). Use Earthquake. Backup: Calcifer.
-- Observed Team: Magcargo (Lv45) [Defeated], Magmar (Lv45) [Defeated], Rapidash (Lv50) [Active].
+- Strategy: Lead GNEISS (Graveler Lv54). Use Earthquake.
+- Observed Team:
+    - Magcargo (Lv45): [Defeated]
+    - Magmar (Lv45): [Defeated] (Moves: Sunny Day)
+    - Rapidash (Lv50): [Active] (Moves: Fire Blast)
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
@@ -57,6 +60,6 @@
 
 ## Route 19
 - Swimmer Harold (13, 28): [Defeated]
-- Swimmer Dawn (9, 23): [Defeated] (Seaking Lv34).
-- Swimmer Tucker (8, 23): [Defeated] (Shellder Lv30, Cloyster Lv34).
-- Swimmer Nicole (52, 8): [Defeated] (Marill Lv29, Lapras Lv32).
+- Swimmer Dawn (9, 23): [Defeated] (Roster: Seaking Lv34)
+- Swimmer Tucker (8, 23): [Defeated] (Roster: Shellder Lv30, Cloyster Lv34)
+- Swimmer Nicole (52, 8): [Defeated] (Roster: Marill Lv29, Lapras Lv32)
