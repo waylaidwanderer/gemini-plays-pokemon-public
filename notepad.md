@@ -92,3 +92,16 @@
 - Fisher (11, 5): "Who knows how long it would take to move this boulder…" Confirms Route 19 blockage. (Turn 42379)
 - Strategy Update: Route 19 is impassable. New route to Cinnabar: Fly to Indigo Plateau, walk south to Pallet Town, and Surf south to Cinnabar. (Note: Pallet Town not yet registered for Fly). (Turn 42396)
 - Game Mechanic: To register a town for Fly, you MUST enter its Pokemon Center. (Turn 42396)
+## Indigo Plateau (Arrived Turn 42400)
+- Location: Route 23.
+- Pokemon Center: (9, 5) or (10, 5).
+- Victory Road Entrance: (9, 13) or (10, 13).
+
+## Revised Cinnabar Strategy (Turn 42400)
+- Problem: Route 19 is blocked.
+- Solution: Reach Cinnabar via Pallet Town.
+- Path:
+    1. Fly to Pewter City.
+    2. Travel South through Route 2 to Viridian City.
+    3. Travel South through Route 1 to Pallet Town.
+    4. Surf South through Route 21 to Cinnabar Island.
