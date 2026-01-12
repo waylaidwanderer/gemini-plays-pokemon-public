@@ -3,6 +3,7 @@
     1. Explore SilverCaveRoom2 to find the ladder to the next floor.
     2. Systematic search: Use `find_reachable_unseen_tiles` to reveal the map.
     3. Face Red at the peak.
+- Task Started: Turn 43296 (Starting the climb).
 
 # Progress Tracking
 - Badges: 16/16.
@@ -21,9 +22,9 @@
 # Area Records: Silver Cave Room 2 (3_75)
 - Warp to Room 1: (17, 31).
 - Warp to ?: (13, 21).
+- Warp to ?: (11, 5).
 - Item at (22, 24): Ultra Ball (Collected).
 - Super Repel: Used Turn 43420 (3 left).
-- Strategy: Heading to (4, 20) for item ball. Path involves looping through Row 31/33 to bypass horizontal barriers.
 - Water: (13, 30), (13, 31), (12, 14)-(21, 14).
 - FLOOR_UP_WALL: Row 16, Row 32.
 
@@ -43,19 +44,7 @@
 - GORP (Lv50 Snorlax)
 - GNEISS (Lv54 Graveler)
 
-# Exploration Findings
-- Item at (4, 20): Likely requires Surf at (5, 22) to reach. Deprioritizing since party lacks Surf.
-- Warp at (13, 21): Heading here to explore.
-- Warp at (11, 5): Secondary exploration target.
-
 # Surf Strategy
-- GORP (Snorlax) teaching Surf. (In progress). Previous attempts failed due to menu navigation errors.
+- GORP (Snorlax) teaching Surf. (In progress).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
-
-# Silver Cave Room 2 Layout Analysis
-- The room is partitioned by horizontal barriers (FLOOR_UP_WALL) at Row 16 and Row 32.
-- Currently in the middle section (Row 17-31).
-- Reachable water detected at (13, 30).
-- Navigation Strategy: Teach Surf to GORP to bypass walls at X=14-16 and reach the warp at (13, 21).
-- Item at (4, 20) and warp at (11, 5) are likely in the top section, requiring a different access point or Surf.
