@@ -21,4 +21,5 @@
 - Turn 44032: Used MAX POTION on GNEISS. He is now at 155/155 HP.
 - Turn 44034: Charizard missed Fire Spin.
 - Turn 44035: Opened PKMN menu, selected GNEISS, selected SWITCH.
-- Turn 44036: Confirming switch to GNEISS. Strategy: Rollout sweep.
+- Turn 44037: GNEISS entered. Charizard used Fire Spin (Not very effective). GNEISS HP: 138/155.
+- Turn 44038: Clearing text. Strategy: Use Rollout to finish the battle.
