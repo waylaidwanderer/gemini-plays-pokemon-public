@@ -14,14 +14,15 @@
 - Strategy: Stall Espeon's Psychic PP using GORP (Snorlax) as a special tank.
 - Evolve KIMCHI (Gloom).
 
-# Red Battle Log
+# Red Battle Log (Verified via History)
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73):
-  - Psychic Used: 7 (Verified).
-  - Mud-Slap Used: 1 (Turn 43764). GORP Accuracy -1.
-  - Reflect: Re-applied (Turn 43761).
-  - GORP (Snorlax): Revived and fully healed. HP 216/221. Active.
+  - Psychic: 7/16 used.
+  - Reflect: 2 used. (Active: Turn 43761).
+  - Mud-Slap: 1 used. (GORP Accuracy -1).
+  - Swift: 1 used.
+  - GORP (Snorlax): HP 176/221. Active. (Revived Turn 43746).
   - Calcifer (Typhlosion): Fainted.
-- Items: 4 Full Restores, 10 Max Potions, 18 Revives remaining.
-- Strategy: Stall remaining Psychics. Use Body Slam to fish for paralysis. Use Rest if HP/PP get low.
+- Inventory: 4 Full Restores, 10 Max Potions, 18 Revives.
+- Strategy: Heal GORP to survive potential Psychic. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
