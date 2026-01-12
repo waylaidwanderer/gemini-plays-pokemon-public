@@ -78,3 +78,7 @@
 - Entered from Pallet Town at (7, 18) -> (7, 0).
 - Water route leading south to Cinnabar Island.
 - Swimmer Girl (Object 1) at (11, 16).
+## Route 21 Records
+- Observed: Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
+- Observed: Cannot move Down from pier at (7, 15) into water at (7, 16) (ledge blockage).
+- Strategy: Move East to X=8 to exit pier into water.
