@@ -68,4 +68,4 @@
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 29.4% explored.
 - Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
-- Plan: Navigate (1, 20) -> (22, 20) -> (22, 13) to explore northern Fuchsia City for Pokemon Center.
+- Plan: Locate Pokemon Center and heal Calcifer.
