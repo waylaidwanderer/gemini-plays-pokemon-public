@@ -18,5 +18,5 @@
 - **Current Pos:** Exiting Station.
 - **Goal:** Catch Raikou/Entei.
 - **Step 1:** Check Pokegear Map.
-  - Action: Scroll Right to Map Card.
+  - Action: Scroll Left to Map Card.
   - Action: Press A to view full map.
