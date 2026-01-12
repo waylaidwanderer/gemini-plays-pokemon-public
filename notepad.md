@@ -76,3 +76,5 @@
 - [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
 - [Turn 42641] Calcifer (Lv62) used Smokescreen; CAL's Typhlosion (Lv50) used Swift. Calcifer at 182/197 HP.
 - [Turn 42644] Calcifer used Return; enemy used Swift. Calcifer at 166/197 HP.
+- [Turn 42645] Calcifer used Return; CAL's Typhlosion fainted. CAL sent out Feraligatr (Lv50).
+- [Turn 42646] Calcifer (Lv62) vs. Feraligatr (Lv50). Plan: Use THUNDERPUNCH.
