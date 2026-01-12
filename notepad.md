@@ -1,20 +1,3 @@
-# Tile Mechanics (Global Reference)
-- FLOOR: Walkable. (Verified 3_76 (9, 11)).
-- WALL: Impassable. (Verified 3_76 (10, 11)).
-- WATER: Requires Surf.
-- WATERFALL: Requires HM07 Waterfall. Climb by facing Up at base and pressing A.
-- TALL_GRASS: Wild encounters.
-- DOOR/WARP: Map transitions.
-- FLOOR_UP_WALL: Blocks North/South movement.
-- LEDGE_HOP: One-way movement.
-- WARP_CARPET_DOWN: Leads to Silver Cave Room 2. Walkable. (Verified 3_76 (9, 33)).
-- BATTLE_MENU: select_battle_option handles the 'A' press to enter sub-menus automatically.
-
-# Team Goals
-- Defeat Trainer Red at the summit of Mt. Silver.
-- Strategy: Use XENON's Ghost immunity vs Snorlax's Normal moves. Watch for Surf.
-- Evolve KIMCHI (Gloom).
-
 # Red Battle Log (Verified via History)
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS.
@@ -27,6 +10,7 @@
 - GORP (Snorlax): Benched. HP 141/221.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
 - Strategy: Use Dream Eater while Snorlax is asleep. Watch for Surf on wake up.
+- BATTLE_MENU: select_battle_option handles the 'A' press to enter sub-menus automatically.
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Petal Dance or GORP (Snorlax) to tank.
