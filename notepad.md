@@ -1,27 +1,37 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Explore the upper areas of SilverCaveRoom1 (Row 5 and above) to find the ladder to the next floor.
-    2. Face Red at the peak.
+    1. Explore SilverCaveRoom2 to find the ladder to the next floor.
+    2. Systematic search: Use `find_reachable_unseen_tiles` to reveal the map.
+    3. Face Red at the peak.
 
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
+- Inventory: 19/20 slots used (Items). 1 slot free.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
 - WALL: Impassable.
-- COUNTER: Blocks movement; interact from front.
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
-- LEDGE_HOP_DOWN: One-way movement Down.
-- LEDGE_HOP_RIGHT: One-way movement Right.
-- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked. Verified in Room 1.
+- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked.
+- LEDGE_HOP: One-way movement.
 
-# Area Records: Silver Cave Room 1 (3_74)
-- Entrance/Exit: (9, 33).
-- Inventory: 19/20 slots used in Items pocket. 4/12 in Balls pocket.
-- PC Box 1: 9/20.
+# Area Records: Silver Cave Room 2 (3_75)
+- Warp to Room 1: (17, 31).
+- Warp to ?: (13, 21).
+- Item at (22, 24): Ultra Ball (Collected).
+- Water: (13, 30), (13, 31), (12, 14)-(21, 14).
+- FLOOR_UP_WALL: Row 16, Row 32.
+
+# Team Goals & Battle Prep
+- Grind team to Lv 70+ (currently Lv 44-64).
+- Replace ICARUS (Lv19) with a high-level Water/Electric type (e.g., Suicune).
+- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
+- Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
+- Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
+- Use XENON (Haunter) for Curse vs Red's Snorlax.
 
 # Party Status
 - Calcifer (Lv64 Typhlosion) - Lead. Received Protein at Turn 43371.
@@ -30,34 +40,3 @@
 - KIMCHI (Lv51 Gloom)
 - GORP (Lv50 Snorlax)
 - GNEISS (Lv54 Graveler)
-
-# Red Battle Strategy
-- Grind team to Lv 70+.
-- Replace ICARUS (Lv19) with a high-level Water or Electric type (e.g., Suicune).
-- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
-- Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
-- Teach GORP (Snorlax) Shadow Ball (TM02) vs Espeon.
-- Use XENON (Haunter) for Curse vs Snorlax.
-
-# Navigation Hypothesis: Left Corridor Access
-- Observation: Row 11 is blocked by walls/ledges from accessing X=0 central.
-- Hypothesis: Access to the far-left corridor (X=0) and far-right (X=19) is only possible by walking along the bottom (Row 34 or 35).
-- Test: Use find_path_v7_robust to reach (1, 35) or (18, 35).
-- Conclusion: (In progress).
-
-# Area Records: Silver Cave Room 2 (3_75)
-- Warp to Room 1: (17, 31).
-- Water: (13, 30), (13, 31).
-- FLOOR_UP_WALL: Row 32.
-- Item at (22, 24): Ultra Ball (Collected Turn 43407).
-- Strategy: Exploring North from (18, 26) towards unseen Row 20.
-
-# Turn 43411 Correction
-- Hallucination: Thought I was at (19, 20) in Turn 43410. Actual position is (15, 18).
-- Strategy: Navigating around the central walls to reach Row 20.
-- Warp at (13, 21): Unexplored.
-
-# Area Records: Silver Cave Room 2 (3_75) Update
-- Item Ball at (4, 20): Detected.
-- Path to (4, 20): Likely via Row 16 -> (5, 16) -> (5, 20).
-- Exploration: Pushing West and North.
