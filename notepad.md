@@ -40,3 +40,15 @@
 - Warp to Room 2: (9, 33).
 - Layout: Large room, exploration required.
 - Goal: Defeat Red (located at (9, 10)).
+
+# Red Battle Log
+- Pikachu (Lv81): Defeated by GNEISS (Earthquake) - Turn #43644.
+- Espeon (Lv73): Encountered Turn #43644. Strategy: Switch to GORP (Snorlax) to tank Psychic moves.
+
+# Reflection Turn #43645
+- Immediate Execution: No deferred tasks.
+- Notepad Hygiene: Battle log added. Reorganized in Turn #43622.
+- Map Hygiene: Red marked. Redundant waterfall marker removed.
+- Automation Strategy: Using battle_strategist. find_path_v7_robust refined for axial blocking.
+- Goal Clarity: Goal is "Defeat Red". Method is switching to tank.
+- Error Analysis: Turn count mismatch in #43644 noted. Verification of one-way walls (axial blocking) confirms they block movement on their entire axis.
