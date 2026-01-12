@@ -6,10 +6,10 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (24, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Running from Wild Rattata (Repel app failed). Reapplying Repel immediately.
+- **Action:** Escaped Rattata. Opening Pack to apply Repel (2 remaining).
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36407.
-- **Resources:** 0 Super Repel, 2 Repels. ¥244.
+- **Hunt Session:** Started ~Turn 36369. Current: 36409.
+- **Resources:** 0 Super Repel, 2 Repels (Verified visual). ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
