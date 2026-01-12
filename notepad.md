@@ -34,14 +34,14 @@
 - Red Defeated: Turn 44045.
 
 # Post-Game Goals
-- Reach 100% map exploration in SilverCaveRoom1.
+- Reach 100% map exploration in SilverCaveRoom1. (Currently 99.7%)
 - Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
 - Complete the Pokedex.
 
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Current Targets: (0, 35), (19, 35). (Currently isolated, checking outside).
+- Current Targets: (0, 35), (19, 35). (Likely require a different entrance).
 - Status: 99.7% explored.
 
 # Lessons Learned
@@ -61,7 +61,7 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Exit Room 1 via (9, 33).
-2. Explore SilverCaveOutside for other entrances.
-3. If no other entrances, check Room 2 for hidden paths to Room 1.
+1. Exit Room 1 via (9, 33) to SilverCaveOutside.
+2. Search SilverCaveOutside for alternate entrances to Room 1.
+3. If no other entrances, check Room 2 for hidden paths to the isolated tiles in Room 1.
 4. Reach 100% completion and exit to Silver Cave Outside.
