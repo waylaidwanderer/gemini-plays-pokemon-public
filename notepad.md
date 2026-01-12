@@ -47,8 +47,9 @@
 
 # Navigation Plan: Victory Road to Mt. Silver
 1. Bypass ladder at (13, 31) (Done).
-2. Use Super Repel. (Turn 43202)
+2. Use Super Repel. (Done, Turn 43208)
 3. Navigate to (18, 42) -> (7, 42) -> (7, 38).
 4. Hop left at (6, 38) to (5, 38).
-5. Move to (1, 35) and take ladder to 3F.
-6. Move to (9, 67) and exit.
+5. Move to (5, 33) -> (1, 33) -> (1, 35).
+6. Take ladder at (1, 35) to 2F.
+7. Navigate on 2F to ladder at (1, 49) or exit at (9, 67).
