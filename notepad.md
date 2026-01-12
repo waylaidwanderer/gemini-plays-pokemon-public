@@ -49,3 +49,5 @@
 - Warp to Room 1: (17, 31).
 - Water: (13, 30), (13, 31).
 - FLOOR_UP_WALL: Row 32.
+- Item at (22, 24): Ultra Ball (Collected Turn 43407).
+- Strategy: Exploring North from (18, 26) towards unseen Row 20.
