@@ -65,3 +65,8 @@
 - Step 3: Battle Blue. [In Progress]
 - Battle Start: Turn 43107.
 - Entry Timestamp: Turn 43101.
+## Battle Status (Blue)
+- Pidgeot: Fainted (Calcifer's Thunderpunch).
+- Rhydon: Active. KIMCHI (Gloom) is out.
+- KIMCHI HP: 46/134.
+- Strategy: Use super-effective Petal Dance (4x) to OHKO Rhydon.
