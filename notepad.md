@@ -1,12 +1,15 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Systematic search: Use `find_reachable_unseen_tiles` and Surf to reveal SilverCaveRoom2.
+    2. Waterfall Exploration: Swap ICARUS for LAPIS (Poliwag) to climb waterfalls in Room 2.
+    3. Target: Reach the warp at (13, 21) using Waterfall.
 - Task Started: Turn 43296 (Starting the climb).
+- Dead End Found: Turn 43480 at (24, 30) (ledges block upward progress).
 
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory: 19/20 slots used (Items). 1 slot free.
+- Inventory: 19/20 slots used (Items). 1 slot free. Note: Item list in bag is NOT alphabetical.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
@@ -26,18 +29,18 @@
 
 # Team Goals & Battle Prep
 - Grind team to Lv 70+ (currently Lv 44-64).
-- Replace ICARUS (Lv19) with a high-level Water/Electric type (e.g., Suicune).
+- Replace ICARUS (Lv19) with a high-level Water/Electric type (e.g., Suicune) or use LAPIS for Waterfall.
 - Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
 - Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
 - Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
-# Party Status
+# Party Status (Turn 43491)
 - Calcifer (Lv64 Typhlosion) - Lead.
-- ICARUS (Lv19 Pidgeotto)
+- ICARUS (Lv19 Pidgeotto) - To be swapped for LAPIS.
 - XENON (Lv44 Haunter)
 - KIMCHI (Lv51 Gloom)
-- GORP (Lv50 Snorlax)
+- GORP (Lv50 Snorlax) - Knows Surf.
 - GNEISS (Lv54 Graveler)
 
 # Surf Strategy
