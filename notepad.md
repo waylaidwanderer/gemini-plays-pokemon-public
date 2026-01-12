@@ -17,24 +17,9 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Current Position:** Route 3 (Lower Path).
-- **Insight:** Route 3 has two distinct paths separated by walls from Pewter City:
-    1. **Upper Path** (Enter from Pewter at y=14): Leads to Mt. Moon Entrance (Row 1).
-    2. **Lower Path** (Enter from Pewter at y=18): Leads to blocked areas/dead ends.
-- **Correction:** I am currently on the Lower Path. I must return to Pewter City and switch to the Upper Path.
-- **Plan:**
-  1. Return to Pewter City (Walk Left).
-  2. Explored North (Rows 1-11): Blocked by walls/ledges. Found Berry Trees.
-  3. Conclusion: The exit at Row 16 is the northernmost exit.
-  4. Plan: Exit at (39, 16). This leads to Route 3 (0, 6).
-  5. Verified: Route 3 Row 6 & 7 are blocked by a WALL at x=13 (Seen in Mental Map).
-  6. Verified: Lower Lane (Row 10+) is blocked by a WALL at x=19 (Seen in Mental Map).
-  7. Conclusion: The ONLY way forward is the Upper Lane (Rows 2-4).
-  8. Ledges (Row 5) prevent access from below. Must enter Upper Lane from Pewter City.
-  9. Correction: Mental Map of Route 3 shows FLOOR tiles at (0, 2), (0, 3), and (0, 4). This PROVES there is an exit from Pewter at these coordinates.
-  10. Error Analysis: Previous verification of Pewter's East Wall was flawed. I likely missed the specific tiles or was misled by the Berry Trees.
-  11. Plan: Return to Pewter. Navigate to gap at (31, 7). Go North to Row 3. Go East to x=39.
-  12. Goal: Enter Route 3 via the Upper Lane (Row 3).
-  3. Re-enter Route 3 from the Upper Lane (y=14).
-  4. Traverse Route 3 along the top edge to Mt. Moon.
-- **Next Action:** Walk Left to Pewter City.
+- **Current Position:** Northeast Pewter City (31, 3).
+- **Objective:** Find the Upper Exit to Route 3 (Rows 2-4).
+- **Verified Facts:**
+  - Route 3 Middle & Lower Lanes are blocked.
+  - Route 3 Upper Lane (Rows 2-4) is open at x=0 (Mental Map confirmed).
+- **Current Action:** Bypass Berry Trees at (30,3) and (32,3). Head East to x=39 on Rows 2-4.
