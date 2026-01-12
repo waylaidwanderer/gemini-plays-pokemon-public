@@ -20,9 +20,9 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Lead with KIMCHI (Gloom) or GNEISS (Graveler) for efficient XP.
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
-- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
+- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone (Verify possession).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu (uses Earthquake). (Prepared Turn #43638).
-- Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
+- Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
 # Time Tracking
@@ -42,17 +42,5 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS (Earthquake) - Turn #43644.
-- Espeon (Lv73): Encountered Turn #43644. Strategy: Switch to GORP (Snorlax) to tank Psychic moves.
-
-# Reflection Turn #43645
-- Immediate Execution: No deferred tasks.
-- Notepad Hygiene: Battle log added. Reorganized in Turn #43622.
-- Map Hygiene: Red marked. Redundant waterfall marker removed.
-- Automation Strategy: Using battle_strategist. find_path_v7_robust refined for axial blocking.
-- Goal Clarity: Goal is "Defeat Red". Method is switching to tank.
-- Error Analysis: Turn count mismatch in #43644 noted. Verification of one-way walls (axial blocking) confirms they block movement on their entire axis.
-- Espeon (Lv73): Switched GNEISS to GORP (Turn #43647) to tank Psychic moves.
-- Espeon (Lv73): GORP (Snorlax) fainted to a critical hit Psychic (Turn #43648).
-- Strategy Update: Send out Calcifer (Lv64) to use MAX REVIVE on GORP.
+- Espeon (Lv73): Strategy Update: Send out Calcifer (Lv64) to use MAX REVIVE on GORP (Turn #43649).
 - Failed Hypothesis: Snorlax could tank level 73 Espeon (Failed due to critical hit). Attempt #1.
