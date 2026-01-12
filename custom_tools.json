@@ -135,7 +135,7 @@
     ]
   },
   "route42_gate_shuffle": {
-    "description": "Executes the Roamer Shuffle loop on Route 42: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear.",
+    "description": "Executes the Roamer Shuffle loop on Route 42: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear directly to the Map view.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -148,7 +148,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3000\", \"Right\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3000\", \"Right\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -159,6 +159,11 @@
         "commit_message": "Fixed commit message error. Increased sleep times to 3000ms to ensure reliable warping and added B presses to clear menus.",
         "timestamp": "2026-01-12T20:26:03.884Z",
         "action_counter": 36228
+      },
+      {
+        "commit_message": "Added an extra 'A' press at the end to automatically enter the Map view after opening the Pokegear.",
+        "timestamp": "2026-01-12T20:26:39.668Z",
+        "action_counter": 36229
       }
     ]
   }
