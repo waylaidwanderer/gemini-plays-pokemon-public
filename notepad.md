@@ -16,13 +16,12 @@
 - Venusaur (Lv77): Defeated.
 - Blastoise (Lv77): Active. PARALYZED. Rain falling. Moves: Blizzard, Surf, Rain Dance, Snore.
 - Charizard (Lv77): Remaining.
-- GORP (Snorlax): Active. HP 27/221.
+- GORP (Snorlax): Active. HP 221/221 (Healed Turn 43989).
 - FNT: KIMCHI, GNEISS, Calcifer.
 
 # Strategy: Current Situation
-- GORP is critical but at low HP (27/221). 
-- Blastoise is paralyzed and in a downpour.
-- Action: Use Full Restore on GORP (Turn 43988). Rain is boosting Blastoise's Surf, making survival difficult. GORP needs full HP to tank.
+- GORP is at full HP. Blastoise is paralyzed and in a downpour.
+- Action: Use Body Slam for STAB damage and chip away at Blastoise.
 - Note: Surf was confirmed on Turn 43973 (fainted GNEISS).
 
 # Inventory
