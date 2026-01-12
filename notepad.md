@@ -3,11 +3,11 @@
 - **Date:** Turn 33314
 - **MVP:** Muscle (Machoke) Lv88.
 
-# Reflection (Turn 35407)
-- **Menu Navigation:** Long "macro" sequences (15+ buttons) are unreliable. Split complex actions (e.g., Fly) into discrete steps: 1. Open Map, 2. Navigate, 3. Confirm. Visual verification is mandatory.
-- **Tool Development:** Custom tools DO NOT share global scope. Arguments must be explicitly retrieved from `input_data`.
-- **Roamer Hunting:** Fly is effective for randomizing positions. Border hopping is unreliable.
-- **Shop Inventory:** Shop stock varies by region. If Super Repels aren't found, use standard Repels to save time.
+# Reflection (Turn 35459)
+- **Roamer Mechanics:** Simple border hopping (Route 37 <-> Ecruteak) failed to randomize Roamers on distant routes (38/42). Fly is the next hypothesis to force randomization.
+- **Hygiene:** Menu navigation must be step-by-step. Long macros fail.
+- **Exploration:** Unseen areas on Route 38 (South) noted but skipped for now to prioritize restocking Repels.
+- **Inventory:** Critical low on Repels. Must sell items at Ecruteak Mart.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
