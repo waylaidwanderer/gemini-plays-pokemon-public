@@ -19,5 +19,9 @@
 - **Location:** Route 37 (South of Ecruteak).
 - **Lead:** Gyarados (Lv 36).
 - **Items:** Super Repels (4).
-- **Status:** On Route 37.
-- **Action:** Select Map Card (Right -> A) to view Roamers.
+- **Status:** Roamers on Route 42 & 44.
+- **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
+  1. Exit Pokegear.
+  2. Go North to Ecruteak.
+  3. Return to Route 37.
+  4. Check Map.
