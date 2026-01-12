@@ -57,3 +57,8 @@
 - Articuno/Zapdos/Moltres: Locations to be verified.
 - Mewtwo: Cerulean Cave? (Verify if accessible).
 - Celebi: GS Ball event? (Verify availability).
+
+# Exploration Log
+- Turn 44081: Credits finished. Resuming exploration.
+- Turn 44083: Attempted to move Left from (3, 4), failed. (2, 4) is likely a WALL.
+- Turn 44084: Using FLASH with KIMCHI to reveal the surrounding area. Strategy: Map out the remaining 4.7% of the cave.
