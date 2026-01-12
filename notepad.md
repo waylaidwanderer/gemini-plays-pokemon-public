@@ -34,22 +34,21 @@
 - Red Defeated: Turn 44045.
 
 # Post-Game Goals
-- Explore remaining unseen tiles in Mt. Silver Room 1.
+- Reach 100% map exploration in SilverCaveRoom1.
 - Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
 - Complete the Pokedex.
 
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Current Target: (0, 35)
-- Status: 99.7% explored. Two tiles remaining: (0, 35) and (19, 35).
-- Turn 44097: Accidentally warped to Room 2 again while pathing to (0, 35). Updating pathfinder to avoid warps.
+- Current Targets: (0, 35), (19, 35).
+- Status: 99.7% explored.
 
 # Lessons Learned
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
 - Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
 - Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
-- Use find_path_v7_robust for path generation and navigate for execution.
+- Avoid known warps during overworld navigation unless they are the intended destination.
 
 # Legendary Hunt Strategy
 - General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
@@ -62,20 +61,7 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Navigate to (0, 35) to uncover the bottom-left corner.
-2. Navigate to (19, 35) to uncover the bottom-right corner.
-3. Verify 100% completion and exit to Silver Cave Outside.
-
-# Mt. Silver Room 1 Markers Summary
-- (10, 15): Ledge Down
-- (11, 15): Ledge Down
-- (11, 20): Barrier (Up blocked)
-- (14, 25): Ledge Down
-- (15, 1): Warp to Room 2
-- (15, 25): Ledge Down
-- (16, 25): Ledge Down
-- (17, 25): Ledge Down
-- (4, 9): Ledge Pocket (Unreachable)
-- (7, 30): Ledge Right
-- (8, 34): Barrier (North blocked)
-- (9, 33): Exit to Outside
+1. Use FLASH with KIMCHI to ensure visibility.
+2. Navigate to (0, 35) to uncover the bottom-left corner.
+3. Navigate to (19, 35) to uncover the bottom-right corner.
+4. Verify 100% completion and exit to Silver Cave Outside.
