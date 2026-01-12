@@ -66,3 +66,6 @@
 # Fly Map Navigation (To Goldenrod)
 - Target: Goldenrod City.
 - Strategy: Press Left until Goldenrod is selected, then press A.
+- Attempt 1 (Turn 44263): Misclicked Lake of Rage.
+- Attempt 2 (Turn 44284): Misclicked New Bark Town.
+- Attempt 3 (Turn 44285): Currently on Fly Map at New Bark Town. Strategy: 5 Lefts then A.
