@@ -10,9 +10,13 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** In Ecruteak. Attempting to open Pokegear Map (Retry).
-- **Issue:** Previous attempt to select Map card failed (Input 'Right' didn't move cursor from 'BACK').
-- **Strategy:** Open Pokegear, verify cursor, then switch to Map.
+- **Status:** Moving to Route 37 to shuffle Roamers.
+- **Strategy:**
+  1. Go to Route 37.
+  2. Check Pokegear Map.
+  3. If Roamer is on Route 37: Hunt.
+  4. If not: Return to Ecruteak, then immediately return to Route 37 (Shuffle).
+- **Observation:** Roamers currently on Route 38 and 42.
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
