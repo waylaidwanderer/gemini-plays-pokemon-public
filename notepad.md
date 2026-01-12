@@ -22,11 +22,6 @@
 - Kanto Badges: 16/16.
 - Red Defeated: Turn 44045.
 
-# Post-Game Goals
-- Reach 100% map exploration in SilverCaveRoom1. (Currently 99.7%)
-- Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
-- Complete the Pokedex.
-
 # Task: Legendary Hunt
 - Start Turn: 44154
 - Objective: Capture Raikou, Entei, and Suicune.
@@ -47,3 +42,4 @@
 - FLOOR_UP_WALL tiles block movement North (Up) AND block entry from the North (Down).
 - Silver Cave Outside has only two main warps (Poke Center and Room 1 entrance).
 - Mt. Silver Room 1 has an isolated entrance area; the rest of the room must be accessed via Room 2 or another unknown path.
+- PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
