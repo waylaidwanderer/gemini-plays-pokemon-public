@@ -1,16 +1,15 @@
 # Tile Mechanics
-- FLOOR/GRASS/WATER: Walkable (Water needs SURF).
-- WALL/COUNTER: Impassable.
-- LEDGE: One-way jump.
-- WARP: Map transitions.
-- TREE/WHIRLPOOL/WATERFALL: Needs specific HM.
+- Walkable: FLOOR, GRASS, WATER (needs SURF).
+- Impassable: WALL, COUNTER.
+- One-way: LEDGE.
+- Transitions: WARP.
+- Obstacles: TREE (CUT), WHIRLPOOL (WHIRLPOOL), WATERFALL (WATERFALL).
 
 # Battle Strategy: Red's Snorlax
-- Status: Asleep (Turn 43954). Sp.Def +6 (Maxed).
-- Active: GNEISS (Graveler). HP 131/152.
-- Plan: Defense Curl (doubles Rollout power) then Rollout sweep.
-- Lesson: Normal-types immune to Ghost moves. Ghosts immune to Normal moves.
-- Switch Failure: Turn 43946 switch to XENON failed (selected STATS).
+- Snorlax (Lv75): Active. Asleep. Sp.Def +6 (Maxed).
+- GNEISS (Graveler): Active. HP 131/152.
+- Plan: Defense Curl (doubles Rollout) then Rollout sweep. GNEISS resists Normal moves.
+- Status: GNEISS successfully switched in (Turn 43961). Using Defense Curl now.
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
