@@ -5,8 +5,8 @@
     3. Head south to Route 23 Gatehouse. (Done)
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
     5. Travel West through Route 28 to reach Mt. Silver. (Done)
-    6. Explore Silver Cave Outside and find cave entrance. (Start Turn: 43232)
-    7. Enter Mt. Silver.
+    6. Explore Silver Cave Outside and find cave entrance. (Done, Turn 43268)
+    7. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
     8. Face Red at the peak of Mt. Silver.
 
 # Progress Tracking
@@ -38,7 +38,7 @@
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
 - Route 28 (19_1): Transition to Silver Cave Outside at (0, 13). Sign at (31, 5).
-- Silver Cave Outside (19_2): Transition to Route 28 at (39, 31). Poke Center at (23, 19).
+- Silver Cave Outside (19_2): Transition to Route 28 at (39, 31). Poke Center at (23, 19). Entrance to Mt. Silver at (18, 11).
 
 # PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
@@ -50,8 +50,7 @@
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip status-curing berries.
 
 # Navigation Plan: Silver Cave Outside
-1. Use Super Repel. (Done, Turn 43264)
-2. Locate the entrance to Mt. Silver. (In progress)
-3. Check for any hidden items or NPCs.
-4. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
-5. Note: Access to upper plateau at x=23 (gap in ledges).
+1. Locate the entrance to Mt. Silver. (Done, Turn 43268)
+2. Enter Mt. Silver at (18, 11). (In progress)
+3. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
+4. Note: Access to upper plateau at x=23 (gap in ledges).
