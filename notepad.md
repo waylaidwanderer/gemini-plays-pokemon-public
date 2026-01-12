@@ -4,7 +4,7 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Olivine City.
+- **Location:** Olivine Mart.
 - **Action:** Relocating to Olivine Mart (Ecruteak has no Repels).
 - **Strategy:** Fly to Olivine -> Buy Super Repels -> Fly to Ecruteak -> Resume Hunt.
 - **Loop:** Sweep -> Shuffle -> Sweep.
