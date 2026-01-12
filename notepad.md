@@ -75,3 +75,4 @@
 ## Janine Battle Log (Turn 42334)
 - Janine sent out Crobat (Lv 36).
 - Calcifer is Lv 62. Strategy: Thunderpunch for super-effective damage.
+- Janine sent out Weezing (Lv 36). Strategy: Flamethrower. (Turn 42336)
