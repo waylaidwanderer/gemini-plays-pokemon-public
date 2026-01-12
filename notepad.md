@@ -16,12 +16,9 @@
 - **Reason:** Fly map navigation to Johto failed.
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
-# Cerulean City Transit
-- **Current Pos:** (9, 30).
-- **Goal:** Reach Route 5 Gate at (14, 35).
-- **Correction:** Row 31 is a wall from x=4 to x=19. Must flank East to x=20.
+# Route 5 Transit
+- **Current Pos:** (14, 35) [Cerulean Gate].
+- **Goal:** Reach Saffron City Gate.
 - **Route:**
-  1. Go East to x=20.
-  2. Go South to Row 32.
-  3. Go West to x=14.
-  4. Go South to Exit at (14, 35).
+  1. Exit South to Route 5.
+  2. Navigate South through Route 5 to Saffron City.
