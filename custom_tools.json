@@ -161,28 +161,5 @@
         "action_counter": 34655
       }
     ]
-  },
-  "scan_for_unseen": {
-    "description": "Identifies the nearest reachable 'unseen' tile from the player's current position using BFS. Returns the path to it or an empty list if none are reachable.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef get_player_position(root):\n    for row in root.findall('.//Row'):\n        for tile in row.findall('.//Tile'):\n            if tile.find('Player') is not None:\n                coord = tile.get('coordinate')\n                x, y = map(int, coord.strip('()').split(','))\n                return x, y\n    return None\n\ndef is_walkable(tile):\n    if tile is None: return False\n    \n    tile_type = tile.get('type')\n    # If unseen, we can try to walk into it to reveal it\n    if tile.get('seen') == 'false':\n        return True\n        \n    allowed_types = ['FLOOR', 'WARP_CARPET_DOWN', 'WARP_CARPET_UP', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT', 'LADDER', 'DOOR']\n    if tile_type not in allowed_types:\n        return False\n        \n    if tile.find('Object') is not None:\n        return False\n        \n    return True\n\ndef scan_for_unseen():\n    try:\n        root = ET.fromstring(map_xml_string)\n    except Exception as e:\n        print(json.dumps([]))\n        return\n\n    start_pos = get_player_position(root)\n    if not start_pos:\n        print(json.dumps([]))\n        return\n\n    start_x, start_y = start_pos\n    \n    tiles = {}\n    for row in root.findall('.//Row'):\n        for tile in row.findall('.//Tile'):\n            coord = tile.get('coordinate')\n            x, y = map(int, coord.strip('()').split(','))\n            tiles[(x, y)] = tile\n\n    queue = deque([(start_x, start_y, [])])\n    visited = set([(start_x, start_y)])\n    \n    while queue:\n        curr_x, curr_y, path = queue.popleft()\n        \n        # Check adjacent\n        moves = [\n            (0, -1, 'Up'),\n            (0, 1, 'Down'),\n            (-1, 0, 'Left'),\n            (1, 0, 'Right')\n        ]\n        \n        for dx, dy, btn in moves:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if (nx, ny) in tiles:\n                tile = tiles[(nx, ny)]\n                \n                # If we found an unseen tile, return the path to walk INTO it\n                if tile.get('seen') == 'false':\n                     print(json.dumps(path + [btn]))\n                     return\n\n                if (nx, ny) not in visited and is_walkable(tile):\n                    visited.add((nx, ny))\n                    queue.append((nx, ny, path + [btn]))\n\n    print(json.dumps([]))\n\nscan_for_unseen()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T04:18:27.710Z",
-        "action_counter": 34994
-      }
-    ]
   }
 }
