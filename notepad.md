@@ -54,7 +54,7 @@
 - Fuchsia Gym NPCs:
     - Janine (1, 10): The real Leader.
     - Lass Linda (5, 11): Defeated.
-    - Janine Look-alike (4, 2): Currently interacting.
+    - Janine Look-alike (4, 2): Camper Barry. Team: Nidoking (Lv 36). Defeated. (Turn 42318)
     - Janine Look-alike (9, 4)
     - Janine Look-alike (5, 7)
     - Janine Look-alike (9, 14)
