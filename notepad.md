@@ -2,26 +2,32 @@
 - **Goal:** Catch Raikou (Route 38/42) & Entei (Route 37/42/44).
 - **Method:** "Repel Trick" + Map Shuffling.
 - **Setup:**
-  - Location: Moving to Route 38 (West of Ecruteak).
+  - Location: Route 42 (East of Ecruteak).
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Hunt on Route 42.
   - **Status:** Shuffling (Gate Method).
   - **Resources:** 2 Super Repels left. ¥244.
-  - **Strategy:** Map showed Roamers on Route 38 and 44. Executing Gate Shuffle (Enter/Exit Ecruteak Gate) to reset positions. Then checking Map.
+  - **Strategy:**
+    1. Check Map.
+    2. If Roamer on Route 42: HUNT.
+    3. If not: Gate Shuffle (Enter/Exit Ecruteak Gate).
+    4. Repeat.
 
 # Strategy Notes & Lessons
-- **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak) over Route 37 (South) in recent turns (36050-36185).
-- **Tool Safety:** When defining menu tools, remember that missed "Start" inputs interpret subsequent directionals as movement. Avoid long blind sequences starting with "Start" + Directionals.
+- **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak).
+- **Tool Safety:**
+  - `route42_gate_shuffle`: Updated to `Start, A, Right, A` to correctly navigate Pokegear menu (BACK vs MAP).
+  - Sleep times for map transitions need to be generous (5000ms+).
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current:** Turn 36185 (~2100 turns elapsed).
-  - **Status:** Adjusting strategy based on location data.
+  - **Current:** Turn 36236 (~2150 turns elapsed).
+  - **Status:** Active Shuffle Loop.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
 - **Headbutt Tree:** Can be shaken for Pokemon.
-- **Tall Grass:** Pokemon encounters.
+- **WARP_CARPET_LEFT:** Map transition tile.
 
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
