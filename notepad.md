@@ -45,12 +45,13 @@
 
 # Advisor Recommendations (Turn 43175)
 - **Urgent:** Heal KIMCHI and the party. (Done)
-- **Grinding:** Aim for Level 75+ for the entire team to match Red.
+- **Grinding:** Aim for Level 75+ for the entire team to match Red. Elite Four rematches or Mt. Silver wild encounters.
 - **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip status-curing berries.
 
 # Navigation Plan: Silver Cave Outside
-1. Locate the entrance to Mt. Silver. (In progress)
-2. Check for any hidden items or NPCs.
-3. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
-4. Note: Access to upper plateau at x=23 (gap in ledges).
+1. Use Super Repel. (Done, Turn 43264)
+2. Locate the entrance to Mt. Silver. (In progress)
+3. Check for any hidden items or NPCs.
+4. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
+5. Note: Access to upper plateau at x=23 (gap in ledges).
