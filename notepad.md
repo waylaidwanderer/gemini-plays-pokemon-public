@@ -21,3 +21,8 @@
 
 # Inventory
 - Items: 1 Full Restore, 7 Max Potions, 18 Revives, 12 Full Heals.
+
+# Battle Log: The Final Stand
+- Turn 44007: GORP fainted to Charizard's Flamethrower. Sent in LAPIS.
+- Turn 44008: LAPIS entered. Opened PACK.
+- Turn 44009: In PACK menu. Cursor on MAX POTION. Moving to REVIVE GNEISS.
