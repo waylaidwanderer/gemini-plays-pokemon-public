@@ -22,4 +22,7 @@
 - **Verified Facts:**
   - Route 3 Middle & Lower Lanes are blocked.
   - Route 3 Upper Lane (Rows 2-4) is open at x=0 (Mental Map confirmed).
-- **Current Action:** Bypass Berry Trees at (30,3) and (32,3). Head East to x=39 on Rows 2-4.
+- **Current Action:** Checking East Wall at Row 4.
+- **Observation:** (34, 2) is a solid wall.
+- **Plan:** Move to (34, 4) and try to exit East.
+- **Contingency:** If East Wall is solid, return to Route 3 Middle Lane and solve the blockage at x=13.
