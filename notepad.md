@@ -24,8 +24,10 @@
 - **Correction:** I am currently on the Lower Path. I must return to Pewter City and switch to the Upper Path.
 - **Plan:**
   1. Return to Pewter City (Walk Left).
-  2. Navigate West to x=31, then North through the ledge gap at (31, 7).
-  3. Continue North to find the Upper Route 3 exit (likely Row 4-5).
+  2. Explored North (Rows 1-11): Blocked by walls/ledges. Found Berry Trees.
+  3. Conclusion: The exit at Row 16 is the northernmost exit.
+  4. Plan: Exit at (39, 16). This leads to Route 3 (0, 6).
+  5. Task: Investigate Route 3 starting at (0, 6) for a path to Mt. Moon. (Previous 'Blocked' assessment may be premature).
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
