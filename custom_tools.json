@@ -134,7 +134,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "buttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\n# Manually formatting the JSON string to ensure double quotes are used for strings\nbuttons_json = '[\"' + '\", \"'.join(buttons) + '\"]'\nprint(f'{{\"buttons\": {buttons_json}}}')",
+    "python_script": "import json\nbuttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -155,6 +155,11 @@
         "commit_message": "Forced double quotes in output string to ensure valid JSON, avoiding reliance on json library imports or default stringification.",
         "timestamp": "2026-01-12T22:15:38.245Z",
         "action_counter": 36336
+      },
+      {
+        "commit_message": "Fixed output format to be a JSON array of strings, not a JSON object with a 'buttons' key, as required by the tool definition.",
+        "timestamp": "2026-01-12T22:17:24.564Z",
+        "action_counter": 36339
       }
     ]
   },
