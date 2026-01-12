@@ -68,3 +68,4 @@
 - Goal: Surf east to find Seafoam Islands.
 - Swimmer Guy (Object 3) at (12, 13).
 - Swimmer Cameron (Object 3) at (12, 15): Roster: Marill (Lv 34). [Defeated]
+- Swimmer Girl (Object 2) at (45, 13).
