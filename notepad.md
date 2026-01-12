@@ -15,26 +15,26 @@
 - Snorlax (Lv75): Defeated.
 - Venusaur (Lv77): Defeated.
 - Blastoise (Lv77): Defeated.
-- Charizard (Lv77): Active. HP: ~50%. Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
+- Charizard (Lv77): Active. HP: Reduced (~30-50%). Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
 
 # Battle Strategy: Final Showdown
-- Start Turn: 43980. (Estimated)
-- Current Pokemon: Calcifer (Typhlosion Lv64). HP: 102/204.
-- Opponent: Charizard (Lv77). HP: ~50%.
+- Start Turn: 43980.
+- Current Pokemon: Calcifer (Typhlosion Lv64). HP: 102/204. (Only survivor).
+- Opponent: Charizard (Lv77).
 - Plan:
   1. Send in Calcifer.
   2. Use Thunderpunch (2x Super Effective).
-  3. If Calcifer's health gets low, prioritize healing or Reviving GNEISS (Graveler) for 4x Rollout.
+  3. If Calcifer is in danger, use Max Potion or Revive GNEISS (Graveler) as a backup.
 
-# Pokemon Information
-- KIMCHI (Gloom): Lv52. Grass/Poison. Moves: Flash, Petal Dance, Cut, Sleep Powder.
-- XENON (Haunter): Lv44. Ghost/Poison. Moves: Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- Calcifer (Typhlosion): Lv64. Fire. Moves: Flamethrower, Return, Smokescreen, Thunderpunch.
-- GORP (Snorlax): Lv50. Normal. Moves: Surf, Rest, Body Slam, Rollout.
-- GNEISS (Graveler): Lv55. Rock/Ground. Moves: Earthquake, Defense Curl, Strength, Rollout.
-- LAPIS (Poliwag): Lv12. Water. Moves: Waterfall, Surf, Hypnosis, Whirlpool.
+# Pokemon Information (Movesets)
+- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
+- XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
+- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
+- GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
+- GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
+- LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
 
-# Type Effectiveness (Observed)
+# Type Effectiveness (Observed in Crystal)
 - Rock vs Fire/Flying: 4x Super Effective.
 - Electric vs Fire/Flying: 2x Super Effective.
 - Fire vs Rock/Ground: Not very effective.
