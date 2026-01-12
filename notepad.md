@@ -15,7 +15,7 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current Turn:** 36102.
+  - **Current Turn:** 36108.
   - **Last Seen:** Route 38, 42, 44 (Turn 36107).
 
 # Tile Mechanics
