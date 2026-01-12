@@ -56,3 +56,8 @@
 - Hallucination: Thought I was at (19, 20) in Turn 43410. Actual position is (15, 18).
 - Strategy: Navigating around the central walls to reach Row 20.
 - Warp at (13, 21): Unexplored.
+
+# Area Records: Silver Cave Room 2 (3_75) Update
+- Item Ball at (4, 20): Detected.
+- Path to (4, 20): Likely via Row 16 -> (5, 16) -> (5, 20).
+- Exploration: Pushing West and North.
