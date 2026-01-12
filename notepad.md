@@ -27,20 +27,13 @@
   - Night Shade (Ghost) has no effect on Normal-type Pokemon (like Snorlax).
 
 # Red Battle Log
-- Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
 - Snorlax (Lv75): Active. Asleep (Turn 43933). Sp.Def +6 (Maxed).
-  - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
-- Party Movesets:
-  - KIMCHI: FLASH, PETAL DANCE, CUT, SLEEP POWDER
-  - XENON: HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER
-  - Calcifer: FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH
-  - GORP: SURF, REST, BODY SLAM, ROLLOUT
-  - GNEISS: EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
-  - LAPIS: WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
-- Strategy: Use Hypnosis with XENON to sleep Snorlax, then switch to GNEISS (Graveler). GNEISS will use Defense Curl followed by Rollout to exploit Snorlax's lower physical Defense.
-- Battle Progress: Snorlax maxed Sp.Def (+6). GNEISS healed to full. Snorlax fell asleep (Turn 43933).
+  - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia.
+- GNEISS (Graveler): Active. HP 152/152.
+  - Strategy: Use Defense Curl then Rollout. GNEISS resists Snorlax's Normal moves.
+- Battle Progress: Snorlax is walled by GNEISS while asleep. Switching from XENON completed Turn 43936.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
