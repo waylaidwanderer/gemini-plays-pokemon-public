@@ -57,3 +57,10 @@
 - Notepad: Be extremely precise with `old_text` for `replace` actions.
 - Bag Management: Item Pocket limit is 20 unique items. (Turn 42486)
 - NPC Interaction: Talk to Professors and Aides; they often provide useful context or rewards.
+- Picked up Elixir at (14, 50) on Route 2. (Turn 42541)
+- Observed Cut tree at (12, 50). Plan to clear it to reach the western side of the route.
+- Observed Cut tree at (12, 46).
+- Observed Ledges at Y=47 and Y=39 block Northward movement from the western path.
+- Route 2 (South) Exploration:
+    - Path to Viridian City is south from (10, 50).
+    - Western grass area accessible via Cut tree at (12, 50).
