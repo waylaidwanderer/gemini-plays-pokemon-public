@@ -67,4 +67,4 @@
 - Strategy: From New Bark Town, press Left 4 times (Cherrygrove -> Violet -> Azalea -> Goldenrod). Verify destination name.
 - Attempt 1: Lake of Rage misclick.
 - Attempt 2-3: New Bark Town misclicks.
-- Attempt 4-5: Overworld movement instead of map navigation. Currently at Party screen. Strategy: Select ICARUS, Select FLY.
+- Attempt 6 (Turn 44295): Currently on Fly Map at New Bark Town. Strategy: Left 4 times (Cherrygrove, Violet, Azalea, Goldenrod) then A. Verify destination name "GOLDENROD CITY" before pressing A.
