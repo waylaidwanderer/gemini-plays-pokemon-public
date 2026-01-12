@@ -22,9 +22,9 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Executing 'sweep_route37' (Pass 24).
+- **Action:** Shuffling to Ecruteak (Pass 25).
 - **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
-- **Status:** Super Repel active (~146/200 steps used). Gyarados lead.
+- **Status:** Super Repel active (~162/200 steps used). Gyarados lead.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
