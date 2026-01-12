@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Restocking at Viridian Mart.
-- **Status:** Landed in Viridian City (23, 26).
-- **Reason:** Failed to reach Mahogany, but Viridian is a valid restock point.
-- **Plan:** Walk to Mart (29, 19) -> Sell Revives -> Buy Max/Super Repels -> Fly to Johto.
-- **Finance:** Current Money ¥394. Need to sell to buy.
+- **Action:** Selling Items at Viridian Mart.
+- **Status:** Inside Mart. Walking to Clerk.
+- **Plan:** Sell Revives -> Buy Max Repels.
+- **Return Trip:** Fly Saffron -> Magnet Train -> Goldenrod (Fly is region-locked).
+- **Goal:** Resume Roamer Hunt in Johto.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
