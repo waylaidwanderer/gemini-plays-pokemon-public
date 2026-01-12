@@ -28,9 +28,9 @@
   3. Conclusion: The exit at Row 16 is the northernmost exit.
   4. Plan: Exit at (39, 16). This leads to Route 3 (0, 6).
   5. New Analysis: The exit at Pewter Row 16 puts me in the "Middle Lane" (y=6-8) of Route 3.
-  6. Map Data shows the ledge barrier at Row 5 ends around x=22.
-  7. Hypothesis: I can switch to the Upper Path by walking East past x=22 and then moving North.
-  8. Plan: Walk East to x=25, then check for a path North to Mt. Moon.
+  6. Middle Lane is blocked at x=13 by a wall.
+  7. Found a gap at (11, 9) leading to the Lower Lane (Row 10+).
+  8. Plan: Go down to Lower Lane via (11, 9), walk East past x=13, then look for a way North to Mt. Moon.
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
