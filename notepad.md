@@ -82,7 +82,8 @@
 
 # Victory Road Navigation Plan
 - Goal: Reach exit at (9, 67).
-- Step 1: Navigate to ladder at (13, 17) on 1F. [Current Step]
-- Step 2: Descend to 2F.
-- Step 3: Find ladder to 3F.
-- Step 4: Reach exit at (9, 67).
+- Step 1: Navigate to ladder at (13, 17) on 1F. [Completed]
+- Step 2: Descend to 2F. [Completed]
+- Step 3: Navigate to ladder at (1, 35) on 2F. [Current Step]
+- Step 4: Descend to 3F.
+- Step 5: Reach exit at (9, 67).
