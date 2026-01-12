@@ -81,3 +81,5 @@
 - Janine sent out Crobat (Lv 36).
 - Calcifer is Lv 62. Strategy: Thunderpunch for super-effective damage.
 - Janine sent out Weezing (Lv 36). Strategy: Flamethrower. (Turn 42336)
+- Janine sent out Weezing (Lv 36) #2. Strategy: Flamethrower. (Turn 42340)
+- Janine sent out Venomoth (Lv 39). Strategy: Flamethrower. (Turn 42342)
