@@ -24,7 +24,7 @@
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
 - LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
-- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
+- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder. (Lv 49 Turn 42339)
 
 ### Significant Battles
 - Erika (Celadon Gym): Defeated.
@@ -68,6 +68,7 @@
         - Weezing (Lv 36) x2: Defeated with Flamethrower.
         - Venomoth (Lv 39): Defeated with Flamethrower.
         - Ariados (Lv 33): Defeated with Flamethrower.
+    - Soul Badge and TM06 (Toxic) obtained. (Turn 42346)
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).

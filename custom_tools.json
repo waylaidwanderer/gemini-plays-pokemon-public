@@ -73,36 +73,6 @@
       }
     ]
   },
-  "press_menu_buttons_v3": {
-    "description": "Presses a sequence of buttons for menu navigation. Returns the sequence.",
-    "input_schema": {
-      "properties": {
-        "buttons": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        }
-      },
-      "required": [
-        "buttons"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ndef solve():\n    buttons = input_data.get('buttons', [])\n    print(json.dumps(buttons))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T12:40:56.987Z",
-        "action_counter": 40831
-      },
-      {
-        "commit_message": "Initial definition of press_menu_buttons_v3 for menu navigation with sleep support.",
-        "timestamp": "2026-01-11T21:46:51.136Z",
-        "action_counter": 41731
-      }
-    ]
-  },
   "find_reachable_unseen_tiles": {
     "description": "Identifies all unseen tiles on the current map that are adjacent to reachable walkable tiles. If autopress_buttons is true, returns a path to the nearest one.",
     "input_schema": {
@@ -141,21 +111,6 @@
         "commit_message": "Fix find_reachable_unseen_tiles to return button strings when autopress_buttons is true.",
         "timestamp": "2026-01-12T01:57:28.881Z",
         "action_counter": 42305
-      }
-    ]
-  },
-  "find_isolated_tile_clusters": {
-    "description": "Identifies groups of reachable tiles that are separated from each other by impassable tiles (WALLs, Objects, etc.). Useful for finding isolated sections of a map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\ndef solve():\n    try:\n        tree = ET.fromstring(map_xml_string)\n    except:\n        print(json.dumps([]))\n        return\n        \n    width = int(tree.get('width'))\n    height = int(tree.get('height'))\n    \n    walkable_tiles = set()\n    walkable_types = [\n        \"FLOOR\", \"TALL_GRASS\", \"LONG_GRASS\", \"LADDER\", \"PIER\", \n        \"WARP_CARPET\", \"WARP_CARPET_DOWN\", \"WARP_CARPET_LEFT\", \n        \"WARP_CARPET_RIGHT\", \"WARP_CARPET_UP\", \"LEDGE_HOP_DOWN\", \n        \"grass\", \"STAIRCASE\", \"DOOR\"\n    ]\n    \n    for row in tree.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            t_type = tile.get('type')\n            seen = tile.get('seen') == 'true'\n            has_object = tile.get('has-object') == 'true'\n            \n            if has_object:\n                continue\n            \n            if t_type in walkable_types or not seen:\n                walkable_tiles.add((x, y))\n                \n    clusters = []\n    visited = set()\n    \n    for tile in walkable_tiles:\n        if tile not in visited:\n            cluster = []\n            queue = collections.deque([tile])\n            visited.add(tile)\n            while queue:\n                curr = queue.popleft()\n                cluster.append(curr)\n                cx, cy = curr\n                for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                    nx, ny = cx + dx, cy + dy\n                    if (nx, ny) in walkable_tiles and (nx, ny) not in visited:\n                        visited.add((nx, ny))\n                        queue.append((nx, ny))\n            clusters.append(cluster)\n            \n    output = []\n    for i, cluster in enumerate(clusters):\n        output.append({\n            \"cluster_id\": i,\n            \"tiles\": [{\"x\": x, \"y\": y} for x, y in cluster]\n        })\n    print(json.dumps(output))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T19:40:21.735Z",
-        "action_counter": 41523
       }
     ]
   }
