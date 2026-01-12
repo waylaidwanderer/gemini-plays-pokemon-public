@@ -130,7 +130,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))\n",
+    "python_script": "import json\n# input_data is a dictionary containing the tool's input arguments.\n# This script simply returns the sequence of buttons provided in the input.\nsequence = input_data.get('sequence', [])\nprint(json.dumps(sequence))\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -141,6 +141,11 @@
         "commit_message": "Fixing menu_navigator to correctly use input_data dictionary instead of sys.stdin.",
         "timestamp": "2026-01-12T07:59:05.011Z",
         "action_counter": 42952
+      },
+      {
+        "commit_message": "Fixing menu_navigator to correctly use the injected input_data dictionary and avoid sys.stdin.",
+        "timestamp": "2026-01-12T07:59:59.685Z",
+        "action_counter": 42953
       }
     ]
   }
