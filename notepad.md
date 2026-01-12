@@ -47,14 +47,13 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 
 # Lessons Learned
-- Precise menu navigation is critical; verify menu state before long sequences.
+- Precise menu navigation is critical; verify menu state after every 1-2 inputs.
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
 - Fly Usage: Must be outdoors to use Fly.
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 is for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
-- Fly map scrolling can be sensitive; verify destination before pressing A. (Lake of Rage misclick Turn 44263)
-- New Bark Town misclick Turn 44284.
+- Fly map scrolling can be sensitive; verify destination before pressing A.
 
 # Goldenrod Restock Plan (Started: Turn 44278)
 1. Fly to Goldenrod City.
@@ -68,4 +67,5 @@
 - Strategy: Press Left until Goldenrod is selected, then press A.
 - Attempt 1 (Turn 44263): Misclicked Lake of Rage.
 - Attempt 2 (Turn 44284): Misclicked New Bark Town.
-- Attempt 3 (Turn 44285): Currently on Fly Map at New Bark Town. Strategy: 5 Lefts then A.
+- Attempt 3 (Turn 44285): Misclicked New Bark Town.
+- Attempt 4 (Turn 44288): Currently at New Bark Town. Opening Fly map.
