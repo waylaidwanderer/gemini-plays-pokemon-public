@@ -120,17 +120,31 @@
     ]
   },
   "open_map": {
-    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used) and the Pokegear starts at the default 'BACK' position.",
+    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position. Includes safety 'B' presses and sleep delays.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "print('[\"Start\", \"A\", \"Right\", \"A\"]')",
+    "python_script": "buttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\nprint(f'{{\"buttons\": {buttons}}}')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T18:35:50.856Z",
         "action_counter": 36061
+      },
+      {
+        "commit_message": "Updated to include 'B' presses to ensure menus are closed and added sleep delays for reliability during map transitions.",
+        "timestamp": "2026-01-12T22:13:13.244Z",
+        "action_counter": 36332
       }
     ]
   },
