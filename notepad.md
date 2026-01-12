@@ -39,6 +39,6 @@
 - **Action:** Starting Sweep Pass 3.
 - **Strategy:** Loop: Route 37 Grass -> Ecruteak Gate -> Repeat.
 - **Status:** Super Repel active. Gyarados lead.
-- **Action:** Executing 'sweep_route37' tool (Pass 4).
-- **Strategy:** Loop: Shuffle -> Sweep -> Repeat. Check Pokegear next pass (Pass 5).
+- **Action:** Shuffling (Route 37 <-> Ecruteak). Starting Pass 5.
+- **Strategy:** Check Pokegear this pass. If Roamer on Route 37 -> Sweep. Else -> Shuffle again.
 - **Status:** Super Repel active. Gyarados lead.
