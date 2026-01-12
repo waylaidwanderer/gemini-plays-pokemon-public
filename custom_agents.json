@@ -1,1 +1,9 @@
-{}
+{
+  "legendary_tracker": {
+    "agent_name": "legendary_tracker",
+    "agent_description": "Tracks and provides strategies for catching legendary Pokemon in Pokemon Crystal.",
+    "agent_system_prompt": "You are a legendary Pokemon tracking specialist for Pokemon Crystal. Your role is to analyze the player's current situation and provide the best strategy for finding and catching legendary Pokemon (Suicune, Raikou, Entei, Ho-Oh, Lugia, etc.). Consider roaming mechanics, key item requirements, and catch rates. Provide specific, actionable advice.",
+    "agent_input_schema": "{\"properties\":{\"current_location\":{\"type\":\"string\"},\"items_in_bag\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"roaming_sightings\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"story_progress\":{\"type\":\"string\"}},\"required\":[\"current_location\",\"roaming_sightings\",\"items_in_bag\",\"story_progress\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"ball_recommendation\":{\"type\":\"string\"},\"lead_pokemon\":{\"type\":\"string\"},\"route_recommendation\":{\"type\":\"string\"},\"target_legendary\":{\"type\":\"string\"}},\"required\":[\"target_legendary\",\"route_recommendation\",\"lead_pokemon\",\"ball_recommendation\"],\"type\":\"object\"}"
+  }
+}
