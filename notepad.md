@@ -64,7 +64,8 @@
     - Current Battle: Leader Janine (Turn 42331).
     - Battle Progress:
         - Crobat (Lv 36): Defeated with Thunderpunch.
-        - Weezing (Lv 36): Defeated with Flamethrower. (Turn 42339)
+        - Weezing (Lv 36) #1: Defeated with Flamethrower.
+        - Weezing (Lv 36) #2: Current. Strategy: Flamethrower.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
