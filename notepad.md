@@ -43,6 +43,6 @@
 - **Strategy:** Check Pokegear this pass. If Roamer on Route 37 -> Sweep. Else -> Shuffle again.
 - **Status:** Super Repel active. Gyarados lead.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34755).
-- **Action:** Shuffling (Route 37 <-> Ecruteak). Starting Pass 6.
-- **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
+- **Action:** Returning to Route 37 (Shuffle Complete).
+- **Strategy:** Loop: Route 37 Grass -> Ecruteak Gate -> Repeat.
 - **Status:** Super Repel active. Gyarados lead.
