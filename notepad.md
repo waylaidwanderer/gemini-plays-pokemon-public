@@ -28,9 +28,9 @@
 - Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Awake (Turn 43889). Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Asleep (Turn 43892). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 6/15. Hypnosis PP: 17/20.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 6/15. Hypnosis PP: 16/20.
 - Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. Snorlax cannot harm Haunter. Safe but slow.
 
 # Inventory During Battle
