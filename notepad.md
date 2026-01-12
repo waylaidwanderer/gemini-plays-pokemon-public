@@ -11,9 +11,10 @@
 - FLOOR: Standard walkable.
 - WALL: Impassable.
 - WATER: Requires SURF.
+- LADDER: Pier/Land tile on Route 21.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP/STAIRS: Map transitions.
-- LEDGE_HOP_DOWN: One-way North to South.
+- LEDGE: One-way jump or impassable barrier (e.g., Route 21 pier).
 - CUT_TREE: Impassable until CUT is used (KIMCHI).
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
