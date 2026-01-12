@@ -41,8 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35662):
-  - Current State: Mistral Sub-menu open, 'FLY' selected.
-  - Action: Press 'A' to open Map. Wait 3s. Press 'Select' to toggle region (Kanto -> Johto). Wait 1s.
-  - Goal: Verify if map switches to Johto (Look for Johto cities or map shape).
-  - Note: Do not attempt to move cursor yet. Just verify region switch.
+- Fly Debugging (Turn 35663):
+  - Assumption: Previous 'Select' (Turn 35662) successfully toggled map to JOHTO.
+  - Action: Navigate Cursor 'Left' x4 to reach Ecruteak.
+  - Confirmation: Do NOT press 'A'. Wait for next turn to verify "Currently selected destination" text.
+  - Goal: See "Ecruteak City" on screen.
