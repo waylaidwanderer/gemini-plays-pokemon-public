@@ -9,7 +9,7 @@
 # Strategy for Route 19/20 Navigation
 - Goal: Reach Seafoam Islands.
 - Started Turn: 42861 (Entered Route 20).
-- Current Turn: 42901.
+- Current Turn: 42904.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
@@ -25,6 +25,7 @@
 - STAIRCASE: Warp to another floor.
 - TV: Impassable background object.
 - FLOOR_UP_WALL: Impassable from the North. Verified at Route 21 (13, 36).
+- TALL_GRASS: Traversable. Wild encounters. Verified at Route 19.
 
 # Area Records (Kanto)
 ## Viridian City
@@ -63,4 +64,5 @@
 - Swimmer Lori (Object 2) at (45, 14): [Defeated]
 ## Route 19
 - Entered from Route 20 at (59, 15) -> (0, 33).
-- Swimmer Harold (Object 2) at (13, 28): Battle in progress. Roster: Remoraid (Lv32), Seadra (Lv30).
+- Swimmer Harold (Object 2) at (13, 28): [Defeated]
+- Swimmer Girl (Object 1) at (9, 23): Spotted. Investigating.
