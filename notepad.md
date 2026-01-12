@@ -28,7 +28,7 @@
 - Entrance from Route 2 (South): (19, 0).
 - Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
-- Building (21, 9): To be explored.
+- Building (21, 9): Nickname Speech House.
 - Cut Tree (14, 4): Blocks a path to the west.
 
 ## Route 2 (South)
@@ -56,8 +56,9 @@
 
 # Lesson Log & Progress
 - [Turn 42551] Started Viridian City Exploration (Sunday, Jan 11, 2026, 8:15 PM).
-- [Turn 42571] Conversed with Pokefan M about nicknames.
-- [Turn 42574] Verified Speary at (5, 2) is a Spearow, not Moltres.
+- [Turn 42571] Pokefan M (Nickname Speech House) talks about nicknames and trading.
+- [Turn 42584] Lass (Nickname Speech House) mentions her Spearow (Speary) and Rattata (Rattey).
+- [Turn 42574] Verified Speary at (5, 2) is a Spearow (MOLTRES_SPRITE).
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
@@ -66,9 +67,8 @@
 - COUNTER: To be verified.
 - STAIRS: To be verified.
 - TOWN_MAP: To be verified.
-## Viridian Nickname Speech House (Map 23_5)
-- Entrance/Exit: (2, 7) and (3, 7) lead to Viridian City (21, 9).
+## Nickname Speech House (Map 23_5)
 - Pokefan M: (2, 4).
 - Lass: (5, 4).
 - Growlithe: (6, 3).
-- Speary (Spearow): (5, 2). Belongs to the Lass. (Turn 42574)
+- Speary (Spearow): (5, 2).
