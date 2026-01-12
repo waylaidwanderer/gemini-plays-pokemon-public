@@ -7,14 +7,20 @@
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   1. Go North to Ecruteak. (Done)
-  2. Return to Route 37. (Current)
-  3. Check Map. (Next)
+  2. Return to Route 37. (Done)
+  3. Check Map. (Current)
   4. If on Route 37: HUNT.
   5. If not: Repeat Shuffle.
 
+# Tile Mechanics
+- **Ledge Hop:** One-way jump over ledges.
+- **Headbutt Tree:** Can be shaken for Pokemon.
+- **Tall Grass:** Pokemon encounters.
+
 # Session Stats
 - **Start:** Turn 34090.
-- **Last Seen:** Route 38, 42, 44 (Turn 35960).
+- **Current Turn:** 35977.
+- **Last Seen:** Route 38, 42, 44 (Turn 35975).
 
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
