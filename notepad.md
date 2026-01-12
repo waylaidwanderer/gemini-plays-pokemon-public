@@ -28,18 +28,10 @@
 - Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Asleep (Turn 43892). Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Awake (Turn 43899). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 4/15. Hypnosis PP: 16/20.
-  - Moves: Hypnosis, Confuse Ray, Night Shade, Dream Eater.
-- KIMCHI (Gloom): Benched. HP 134/134.
-  - Moves: Flash, Petal Dance, Cut, Sleep Powder.
-- GORP (Snorlax): Benched. HP 141/221.
-  - Moves: Surf, Rest, Body Slam, Rollout.
-- GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
-  - Moves: Earthquake, Defense Curl, Strength, Rollout.
-- Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. Snorlax cannot harm Haunter. Physical attackers (GORP/GNEISS) are more efficient but riskier if Snorlax wakes up. Note: Strategist recommended Curse, but XENON does not have it.
-- Battle Progress: Snorlax is at +6 Sp.Def. This is slow but safe. Snorlax was put back to sleep at Turn 43892.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 16/20.
+- Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. Snorlax cannot harm Haunter. Safe but slow. Snorlax maxed its Sp.Def at Turn 43899.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
