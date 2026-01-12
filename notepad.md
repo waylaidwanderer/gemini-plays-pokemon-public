@@ -1,13 +1,11 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Explore the upper areas of SilverCaveRoom1 (Row 5 and above) to find the ladder to the next floor.
-    2. Path: Head to the far-left corridor (X=0) via the bottom of the room (Row 34/35).
-    3. Face Red at the peak.
+    2. Face Red at the peak.
 
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Task Started: Turn 43386. Goal: Reach (0, 34) to access the left corridor.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
@@ -33,7 +31,7 @@
 - GORP (Lv50 Snorlax)
 - GNEISS (Lv54 Graveler)
 
-# Red Battle Strategy (Advisor Recommendations)
+# Red Battle Strategy
 - Grind team to Lv 70+.
 - Replace ICARUS (Lv19) with a high-level Water or Electric type (e.g., Suicune).
 - Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
@@ -42,7 +40,7 @@
 - Use XENON (Haunter) for Curse vs Snorlax.
 
 # Navigation Hypothesis: Left Corridor Access
-- Observation: Currently at (8, 11). Row 11 is blocked by walls/ledges from accessing X=0.
-- Hypothesis: Access to the far-left corridor (X=0) is only possible by walking along the bottom (Row 34 or 35).
-- Test: Use find_path_v7_robust to reach (1, 35) from (8, 11).
-- Conclusion: (In progress). Interrupted by Item Ball at (4, 9). Popping Repel and attempting to reach the item.
+- Observation: Row 11 is blocked by walls/ledges from accessing X=0 central.
+- Hypothesis: Access to the far-left corridor (X=0) and far-right (X=19) is only possible by walking along the bottom (Row 34 or 35).
+- Test: Use find_path_v7_robust to reach (1, 35) or (18, 35).
+- Conclusion: (In progress).
