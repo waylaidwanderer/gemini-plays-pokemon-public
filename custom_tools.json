@@ -148,12 +148,12 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 2500\", \"Right\", \"sleep 2500\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3500\", \"Right\", \"sleep 3500\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-12T20:15:41.015Z",
-        "action_counter": 36214
+        "timestamp": "2026-01-12T20:17:21.570Z",
+        "action_counter": 36217
       }
     ]
   }
