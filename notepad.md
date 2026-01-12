@@ -47,7 +47,8 @@
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip status-curing berries.
 
 # Navigation Plan: Silver Cave Outside
-1. Explore the area to find the Poke Center. (Start Turn: 43232)
-2. Locate the entrance to Mt. Silver.
-3. Check for any hidden items or NPCs.
-4. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
+1. Enter the Poke Center at (23, 19). (Done, Turn 43245)
+2. Heal party and set spawn point. (Start Turn: 43245)
+3. Locate the entrance to Mt. Silver.
+4. Check for any hidden items or NPCs.
+5. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
