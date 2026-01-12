@@ -45,4 +45,4 @@
 - Observation: Currently at (8, 11). Row 11 is blocked by walls/ledges from accessing X=0.
 - Hypothesis: Access to the far-left corridor (X=0) is only possible by walking along the bottom (Row 34 or 35).
 - Test: Use find_path_v7_robust to reach (1, 35) from (8, 11).
-- Conclusion: (Pending).
+- Conclusion: (In progress). Testing path via (3, 11) -> (0, 11).
