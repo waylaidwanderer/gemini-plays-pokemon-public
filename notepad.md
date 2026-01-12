@@ -23,12 +23,5 @@
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
-- **Interruption:** Received call from Cooltrainer Gaven (Turn 35087). Restarting map check.
-- **Observation:** Roamers located on Route 38 and Route 42.
-- **Action:** Closing Pokegear to shuffle locations by moving to Route 37.
-- **Interruption:** Wade called (Turn 35117). Resuming map check.
-- **Action:** Opening Pokegear Map again.
-- Turns 35184-35200: Repeatedly checked Map. Roamers persistently on Route 38 & 42. Shuffled multiple times.
-- Tool Note: 'perform_roamer_shuffle' failed because the harness aborts remaining inputs upon map change. Must shuffle manually or in single-map steps.
-- Strategy: Roamers observed on Routes 38/42. Shuffling between Route 37 and Ecruteak to reset locations.
-- Tool Note: 'perform_roamer_shuffle' failed because the harness aborts remaining inputs upon map change. Must shuffle manually or in single-map steps.
+- **Log Summary (35087-35225):** Multiple interruptions (Phone calls), tool failures, and manual shuffling. Roamers persistently on Routes 38 & 42.
+- **Current Status:** Manual shuffling active.
