@@ -33,4 +33,4 @@
 - KIMCHI (Grass STAB) vs Blastoise/Lapras.
 - Calcifer vs Venusaur/Charizard.
 - Target Level for Red: 75+.
-- Observed Wild Pokemon (Silver Cave Room 2): Goldeen, Machoke.
+- Observed Wild Pokemon (Silver Cave Room 2): Goldeen, Machoke (Lv48: Cross Chop, Vital Throw, Foresight).
