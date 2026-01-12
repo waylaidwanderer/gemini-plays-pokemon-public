@@ -140,7 +140,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"Down\", \"sleep 1500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
+    "python_script": "print('[\"Down\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -151,6 +151,11 @@
         "commit_message": "Increased sleep duration after movement to 1500ms to account for map transition time, preventing skipped menu inputs.",
         "timestamp": "2026-01-12T19:15:07.693Z",
         "action_counter": 36128
+      },
+      {
+        "commit_message": "Increased initial sleep to 3000ms to ensure map transition and popup handling are complete before menu interaction.",
+        "timestamp": "2026-01-12T19:19:59.774Z",
+        "action_counter": 36135
       }
     ]
   },
