@@ -146,5 +146,29 @@
         "action_counter": 34231
       }
     ]
+  },
+  "open_pokegear_map": {
+    "description": "Opens the Pokegear and navigates to the Map card. Assumes the player is in the overworld and the cursor is on the Pokegear in the Start menu.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print('[\"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T07:04:40.012Z",
+        "action_counter": 35252
+      }
+    ]
   }
 }
