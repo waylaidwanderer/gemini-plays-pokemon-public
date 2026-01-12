@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Navigating Pokegear (Phone -> Map) (Pass 52).
+- **Action:** Navigating Pokegear (Pass 52). Debugging UI.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34642). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
