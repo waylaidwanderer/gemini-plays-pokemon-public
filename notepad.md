@@ -7,40 +7,34 @@
     3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21.
     4. Navigate Route 21 south to reach Cinnabar Island.
     5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
+    6. Return to Viridian City to challenge the final Gym Leader (Blue).
 
 # Game Mechanics & Systems
 ## Tile Traversal (Global)
 - FLOOR: Standard walkable.
 - WALL: Impassable.
-- WATER: Requires SURF to cross.
-- TALL_GRASS: Walkable; triggers wild encounters.
+- WATER: Requires SURF.
+- TALL_GRASS: Wild encounters.
 - DOOR/WARP/STAIRS: Map transitions.
-- LEDGE_HOP_DOWN: One-way movement (usually North to South).
-- CUT_TREE: Impassable until CUT is used (e.g., via KIMCHI).
-- Diglett's Cave Ledges: FLOOR_UP_WALL at (15, 34) is NOT jumpable from North.
-- COUNTER: Blocks movement; allows interaction with NPCs behind it. Verified in Trainer House 1F.
+- LEDGE_HOP_DOWN: One-way North to South.
+- CUT_TREE: Impassable until CUT is used (KIMCHI).
+- COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
 
 ## Inventory & Economy
 - Item Pocket Limit: 20 unique items.
-- Effective Money Making: Selling Nuggets (found one at (15, 15) Route 2).
+- Money Making: Selling Nuggets (found one at (15, 15) Route 2).
 
 # Area Records (Kanto)
 ## Viridian City
-- Entrance from Route 2 (South): (19, 0). Exploration started Turn 42551.
+- Entrance from Route 2 (South): (19, 0).
 - Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
-- Nickname Speech House (21, 9): Exploration complete (Turn 42597).
-    - Speary (Spearow): (5, 2) (MOLTRES_SPRITE).
-    - Rattey (Rattata): (6, 3) (GROWLITHE_SPRITE).
-- Cut Tree (14, 4): Blocks a path to the west.
-- Trainer House (23, 15): Entered 1F Turn 42605.
-    - Receptionist (1F): (0, 11). Confirmed battles downstairs (Turn 42611).
-    - Cooltrainer M (1F): (7, 11).
-    - Youngster (1F): (6, 8).
-    - Gentleman (1F): (2, 4). Resting from battles (Turn 42618).
-    - Cooltrainer F (1F): (6, 2).
-    - Receptionist (B1F): (7, 1).
+- Nickname Speech House (21, 9): Exploration complete.
+- Trainer House (23, 15): 
+    - 1F: Receptionist (0, 11), Cooltrainer M (7, 11), Cooltrainer F (6, 2).
+    - B1F: Receptionist (7, 1). Daily practice battles available.
+- Viridian Gym: Location to be confirmed.
 
 ## Route 2 (South)
 - Picked up Elixir at (14, 50).
@@ -52,19 +46,13 @@
 
 # Battle & Pokémon Data
 ## Party Status
-- Calcifer (Typhlosion Lv62): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
+- Calcifer (Typhlosion Lv63): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
 - GNEISS (Graveler Lv54): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
 - ICARUS (Pidgeotto Lv19): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
 - XENON (Haunter Lv44): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
 - LAPIS (Poliwag Lv12): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
 - KIMCHI (Gloom Lv49): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
-## PC Storage (Box 1)
-- GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
-
 # Lesson Log & Progress
-- [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
-- [Turn 42645] Defeated CAL's Typhlosion (Lv50) with Calcifer (Lv62).
-- [Turn 42649] Calcifer (Lv62) used Thunderpunch (Super Effective) on Feraligatr (Lv50). Calcifer at 142/197 HP.
-- [Turn 42651] Defeated Trainer CAL. Earned ¥5000. Calcifer leveled up to 63.
+- [Turn 42651] Defeated Trainer CAL in Trainer House. Earned ¥5000. Calcifer Lv63.
 - Trainer House B1F: Daily battle completed.
