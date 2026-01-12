@@ -16,34 +16,13 @@
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
 
 # Lessons Learned
-- **Menu Nav:** Pokegear inputs are sensitive. Avoid rapid presses; confirm state before proceeding.
-- **Pathing:** Obstacles at (5,3) and (6,6) block movement.
+- **Menu Nav:** Verify cursor position before confirming. Avoid rapid presses.
 - **System:** Visual confirmation is key to detect desyncs.
-- **Reflection (Turn 34628):** 
-    - **Exec:** Deferred Gaven call handling (fixed). 
-    - **Hygiene:** Notepad organized. Map markers sufficient. 
-    - **Auto:** Tools working well. 
-    - **Goal:** Hunt is active. 
-    - **Error:** Menu nav needs precision. Found false constraint in assuming rapid inputs work safely.
-- **Pathing Note:** Row 24 is blocked by Gym/Center. Use Row 22 for East-West traversal in this section.
+- **Hunting:** Strict Shuffle -> Sweep cycle required. Do not sweep twice.
 
-# Mart Inventories
-- **Ecruteak City:** Poke Ball, Great Ball, Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal, Revive. (NO REPELS)
-- **Olivine City:** Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
-- **Observation:** Roaming Pokémon (Raikou/Entei) location check initiated.
-- **Reflection:** Corrected menu navigation error (was in Phone menu). Remember: Verify cursor position before confirming.
-- **Sighting:** Route 38 & Route 42 (Verified Turn 34733).
-- **Strategy Update:** Switching to "Physical Check" (Repel + Run in Route 37) instead of Map Check. Faster and reliable.
-- **Check:** Gyarados (Lv36) leads. Perfect for Repel trick (Wilds < Lv16 < Gyarados < Roamers Lv40).
-- **Status:** Super Repel already active (Turn 34741). Saved a usage.
-
-# Roamer Hunt Strategy
-- **Method:** Shuffle between Ecruteak City and Route 37.
-- **Execution:** Enter Route 37 -> Use 'sweep_route37' -> Return to Ecruteak -> Return to Route 37.
-- **Action:** Executing 'sweep_route37' (Pass 22).
-- **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
-- **Status:** Super Repel active (~116/200 steps used). Gyarados lead.
-- **Reflection (Turn 34831):**
-    - **Correction:** Accidentally swept twice without shuffling (Turn 34830). Must strictly enforce Shuffle -> Sweep cycle.
-    - **Status:** Resuming correct loop. Repel active.
-    - **Tools:** `sweep_route37` working, requires manual shuffle.
+# Roamer Hunt Log
+- **Session Start:** Turn 34090.
+- **Current Status:** Pass 22. Strict shuffling enforced.
+- **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
+- **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
+- **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
