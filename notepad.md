@@ -39,3 +39,11 @@
 - Start Turn: 44058
 - Current Progress: 95.3%
 - Objective: Explore all reachable unseen tiles in Silver Cave.
+
+# Lessons Learned
+- Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
+- Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
+- Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
+
+# Exploration Log
+- Turn 44060: Starting search for remaining unseen tiles in Silver Cave Room 1. Current Progress: 95.3%.
