@@ -90,4 +90,5 @@
 - Sign (11, 1): 'Careful Swimming' warning.
 - Route 19 Blockage: Fisher at (9, 5) confirmed Route 19 is closed for construction. Recommended route to Cinnabar is south from Pallet Town. (Turn 42376)
 - Fisher (11, 5): "Who knows how long it would take to move this boulder…" Confirms Route 19 blockage. (Turn 42379)
-- Strategy Update: Route 19 is impassable. New route to Cinnabar: Fly to Pallet Town and Surf south. (Turn 42379)
+- Strategy Update: Route 19 is impassable. New route to Cinnabar: Fly to Indigo Plateau, walk south to Pallet Town, and Surf south to Cinnabar. (Note: Pallet Town not yet registered for Fly). (Turn 42396)
+- Game Mechanic: To register a town for Fly, you MUST enter its Pokemon Center. (Turn 42396)
