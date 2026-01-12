@@ -1,10 +1,10 @@
 # Strategic Plan: Kanto Badges & Final Challenges
 - **Strategy (The HOW):**
     1. Fly to Pallet Town.
-    2. Speak to Prof. Oak in his lab at (12, 11) to obtain permission for Mt. Silver.
-    3. Return to Victory Road Gatehouse (23_13).
-    4. Exit West from the gatehouse to Route 28.
-    5. Navigate through Route 28 to Mt. Silver.
+    2. Enter Professor Oak's Lab at (12, 11).
+    3. Talk to Professor Oak to unlock Mt. Silver access.
+    4. Fly to Indigo Plateau and head south to Victory Road Gatehouse (23_13).
+    5. Exit West to Route 28 and navigate to Mt. Silver.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Reachable. Standard walkable tile.
@@ -20,6 +20,6 @@
 - Viridian City: Gym (32,7), Trainer House (23,15).
 - Pallet Town: Oak's Lab (12,11).
 
-# Battle & Pokémon Data
-## PC Storage (Box 1) (9/20)
+# Battle & Pok\u00e9mon Data
+## PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
