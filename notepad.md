@@ -6,7 +6,7 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  1. Exit Pokegear & Go North to Ecruteak. (Current)
+  1. Go North to Ecruteak. (Current)
   2. Return to Route 37. (Next)
   3. Check Map.
   4. If on Route 37: HUNT.
