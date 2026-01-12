@@ -41,10 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Strategy: Two-Stage Execution.
-  - Stage 1 (Current Turn): Open Map.
-    - Input: 'A' (Open Mistral menu) -> Wait -> 'A' (Select Fly).
-  - Stage 2 (Next Turn): Navigate Map.
-    - Input: Left x3 -> A.
-  - Reason: Previous attempts failed to navigate map, possibly due to loading times. Verifying map open state first.
-- Goal: Reach Ecruteak City to hunt Roamers.
+- Fly Attempt (Turn 35650):
+  - Previous error: Selected 'Fly', then immediately selected 'Indigo Plateau' (Current Location) with second 'A', cancelling the flight.
+  - Current State: Overworld (No text on screen).
+  - Strategy: Full Sequence Reset.
+  - Sequence: B (Clear) -> Start -> A (Pokemon) -> Down x3 (Mistral) -> A (Menu) -> A (Fly) -> Wait -> Left x3 -> A (Confirm).
+  - Target: Ecruteak City.
