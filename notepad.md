@@ -41,9 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35656):
-  - Previous attempts failed to reach Ecruteak. Player remains at Indigo Plateau (9,6).
-  - Hypothesis: Navigation "hops" (Left inputs) might be insufficient or mapping is different than expected.
-  - Action: Reset to Overworld -> Open Fly Map -> Move Left x3 -> STOP.
-  - Goal: Read Screen Text to confirm which city is selected before confirming flight.
-  - Sequence: Bx3 (Reset) -> Start -> A (Party) -> A (Mistral) -> A (Fly) -> Wait -> Left x3.
+- Fly Debugging (Turn 35657):
+  - Situation: "Left x3" failed to move cursor from Indigo Plateau. Screen shows "KANTO" map.
+  - Hypothesis: Must toggle to JOHTO map to fly to Ecruteak.
+  - Action: Press SELECT to toggle map. Then try moving Left.
+  - Sequence: Select -> Wait (2s) -> Left -> Left -> Left.
+  - Goal: See "JOHTO" map or a Johto city name (Blackthorn, Ecruteak, etc.).
