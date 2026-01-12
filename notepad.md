@@ -17,10 +17,10 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Saffron City Transit
-- **Current Pos:** (9, 17) [Magnet Train Station].
+- **Current Pos:** (9, 10) [Magnet Train Station].
 - **Goal:** Board Train to Goldenrod.
-- **Step:** Talk to Station Officer to verify Pass.
+- **Status:** Pass Verified. Boarding.
 - **Route:**
-  1. Approach Officer at (9, 9).
-  2. Show Pass.
-  3. Enter platform via turnstiles at (6, 5) or (11, 5).
+  1. Advance text.
+  2. Walk to Turnstile at (11, 5).
+  3. Board Train.
