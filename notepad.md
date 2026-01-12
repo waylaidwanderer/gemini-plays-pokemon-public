@@ -18,17 +18,8 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone. Current: Moon Stone - useless. No stones in inventory).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu.
-- Strategy: Revive GORP (Snorlax) to tank Espeon's Psychic moves. (Note: Missing TM30 Shadow Ball).
-- Use XENON (Haunter) for Curse vs Red's Snorlax.
-
-# Time Tracking
-- Primary Goal (Defeat Red): Started Turn #43156.
-- Exploration of Room 2: Started Turn #43268.
-
-# Area Records: Silver Cave Room 3 (3_76)
-- Warp to Room 2: (9, 33).
-- Goal: Defeat Red (located at (9, 10)).
+- Strategy: Use GORP (Snorlax) to tank Special attacks. (Note: Verified TM30 Shadow Ball is MISSING from inventory).
+- Search/Acquisition: Locate Sun Stone/Leaf Stone for KIMCHI and TM30 for GORP.
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
-- Espeon (Lv73): GORP fainted to critical hit, then revived with Max Revive (Turn #43686). Strategy: Use GORP as a special wall.
+- Espeon (Lv73): GORP revived (Turn #43686). Reflect active (Turn #43687). Strategy: Stay in with Calcifer and use Flamethrower (Special) to bypass Reflect.
