@@ -10,15 +10,16 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Pokegear Map selection failed multiple times.
-- **Action:** Executing Contingency: Close Menu (`B`, `B`) -> Manual Shuffle.
-- **Goal:** Reset Roamer positions.
+- **Status:** Shuffling (Ecruteak -> Route 37).
+- **Action:** Walking South, then opening Map.
+- **Goal:** Find Roamer on Route 37.
 - **Strategy:**
-  1. Exit Pokegear (Close menu).
-  2. Walk North to Ecruteak.
-  3. Walk South to Route 37 (Manual).
-  4. Try opening map again.
-- **Observation:** "A" button on Map icon was unresponsive. Resetting UI state.
+  1. Enter Route 37.
+  2. Check Map.
+  3. If Roamer here -> Hunt.
+  4. If not -> Shuffle again (Move North to Ecruteak, then back).
+- **Party:** Leading with Gyarados (Lv36) to allow Repel to filter wild mons < Lv36 but let Lv40 Roamers pass.
+- **Combat Plan:** Throw Ultra Ball immediately (Speed disadvantage).
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
