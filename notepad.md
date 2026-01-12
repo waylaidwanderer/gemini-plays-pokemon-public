@@ -38,8 +38,8 @@
   - Moves: Surf, Rest, Body Slam, Rollout.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
   - Moves: Earthquake, Defense Curl, Strength, Rollout.
-- Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. Snorlax cannot harm Haunter. Physical attackers (GORP/GNEISS) are more efficient but riskier if Snorlax wakes up.
-- Battle Progress: Snorlax is at +6 Sp.Def. This is slow but safe. Snorlax was put back to sleep at Turn 43892. Currently Turn 43896 (Turn 4 of sleep).
+- Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. Snorlax cannot harm Haunter. Physical attackers (GORP/GNEISS) are more efficient but riskier if Snorlax wakes up. Note: Strategist recommended Curse, but XENON does not have it.
+- Battle Progress: Snorlax is at +6 Sp.Def. This is slow but safe. Snorlax was put back to sleep at Turn 43892.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
