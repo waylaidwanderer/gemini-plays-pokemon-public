@@ -41,8 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Execution (Turn 35655):
-  - Current State: Party Menu, Cursor on MISTRAL (Confirmed by screen).
-  - Sequence: A (Select Mistral) -> Wait -> A (Select Fly) -> Wait Map (4s) -> Left x3 -> Wait -> A (Confirm).
-  - Goal: Ecruteak City.
-  - Note: Added extra wait time for Map loading to prevent input drops.
+- Fly Debugging (Turn 35656):
+  - Previous attempts failed to reach Ecruteak. Player remains at Indigo Plateau (9,6).
+  - Hypothesis: Navigation "hops" (Left inputs) might be insufficient or mapping is different than expected.
+  - Action: Reset to Overworld -> Open Fly Map -> Move Left x3 -> STOP.
+  - Goal: Read Screen Text to confirm which city is selected before confirming flight.
+  - Sequence: Bx3 (Reset) -> Start -> A (Party) -> A (Mistral) -> A (Fly) -> Wait -> Left x3.
