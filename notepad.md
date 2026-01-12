@@ -6,11 +6,10 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  1. Go North to Ecruteak. (Done)
-  2. Return to Route 37. (Done)
-  3. Check Map. (Current)
-  4. If on Route 37: HUNT.
-  5. If not: Repeat Shuffle.
+  - **Loop:** Transition between Route 37 and Ecruteak City to force Roamer movement.
+  - **Trigger:** Upon entering Route 37, check Pokegear Map.
+  - **Condition:** If Raikou or Entei is on Route 37 -> HUNT.
+  - **Otherwise:** Continue loop.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
