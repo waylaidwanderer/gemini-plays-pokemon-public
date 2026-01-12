@@ -15,11 +15,9 @@
 - Cinnabar Access: Route 19 blocked (Turn 42376). Detour: Fly Vermilion -> Diglett's Cave -> Route 2 -> Viridian -> Pallet -> Surf south.
 
 ## Route 2 Investigation (Started Turn 42471)
-- Diglett's Cave Exit: (12, 7).
-- Nugget House (Fisher): (15, 15). Obtained Nugget. (Turn 42501)
+- Nugget House (Fisher): (15, 15).
 - Obstacles:
     - Walls at X=12, 13 block Westward movement.
-    - Cut Tree at (15, 18) blocks Southward movement.
     - Ledges at Y=21 block Northward return.
 - Item Management: Item Pocket limit is 20 unique items. (Turn 42486)
 
