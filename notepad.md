@@ -77,3 +77,14 @@
 - Observed: The pathfinder failed to go south at X=14 due to the wall.
 - Hypothesis: There may be a path south on the far western side of the city (X < 10) or through a building.
 - Plan: Explore the western edge of the city along Row 30 to look for a gap or alternate route.
+
+# Strategy: Route 1 Navigation
+- [Turn 42683] Entered Route 1 from Viridian City.
+- Observed: Exit from Viridian City (23_3) at (28, 36) leads to Route 1 (13_1) at (8, 0).
+- Plan: Navigate south through Route 1 to reach Pallet Town.
+- Note: Route 1 is 20x36. Target Pallet Town at the southern end.
+
+# Tile Traversal (Route 1)
+- FLOOR: Standard walkable.
+- WALL: Impassable.
+- LEDGE_HOP_DOWN: One-way North to South.
