@@ -15,7 +15,7 @@
 - Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
-- LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
+- ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
 # Major Achievements
 - Johto League Champion: Confirmed.
