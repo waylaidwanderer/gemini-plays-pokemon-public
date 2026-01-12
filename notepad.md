@@ -30,5 +30,5 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS.
-- Espeon (Lv73): In progress. Reviving GORP. (Attempting Max Revive).
+- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
+- Espeon (Lv73): GORP fainted to critical hit, then revived with Max Revive (Turn #43686). Strategy: Use GORP as a special wall.
