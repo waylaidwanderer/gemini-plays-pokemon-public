@@ -130,12 +130,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\ninput_data = json.load(sys.stdin)\nprint(json.dumps(input_data['sequence']))\n",
+    "python_script": "import json\nprint(json.dumps(input_data.get('sequence', [])))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T07:58:07.386Z",
         "action_counter": 42950
+      },
+      {
+        "commit_message": "Fixing menu_navigator to correctly use input_data dictionary instead of sys.stdin.",
+        "timestamp": "2026-01-12T07:59:05.011Z",
+        "action_counter": 42952
       }
     ]
   }
