@@ -63,9 +63,9 @@
 
 ## Fuchsia City Exploration (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
-- Observation: City has a complex layout. Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
+- Observation: Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
 - Interaction Log:
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
 - Route 15 Gatehouse: Eastern exit of city.
-- Current Status: Investigating buildings at (8, 27) and (11, 27).
+- Bill's Older Sister's House: (11, 27). Inside (Turn 42243).
