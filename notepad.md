@@ -23,9 +23,10 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35689):
-  - Error in Turn 35688: Navigated Party Menu (moved cursor to ITEM) instead of Map.
-  - Correction: Navigate Menu to FLY (Down x2) -> Open Map (A).
-  - Navigation Plan: Cinnabar -> Up (Pallet) -> Up (Viridian) -> Up (Pewter) -> Right (Cerulean).
-  - Hypothesis: Pewter -> Right connection exists. Previous failure was input timing.
-  - Goal: Reach Cerulean City. Then Down to Saffron.
+- Fly Map Debugging Concluded:
+  - West Kanto (Pewter/Viridian/Pallet/Cinnabar) seems isolated from East Kanto on the Fly Map for unknown reasons (input drops or logic).
+  - Decision: Abandon direct Fly to Saffron.
+  - Action: Fly to **Pewter City** (Current Cursor).
+  - New Route: Walk from Pewter -> Route 3 -> Mt. Moon -> Cerulean -> Saffron.
+  - Rationale: Walking is reliable. Debugging the map is not.
+  - Goal: Reach Saffron City via foot/Magnet Train.
