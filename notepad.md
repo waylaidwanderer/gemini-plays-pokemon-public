@@ -69,4 +69,4 @@
 - Pokefan M: (2, 4).
 - Lass: (5, 4).
 - Growlithe: (6, 3).
-- Potential Moltres: Reported at (5, 2) (Unseen).
+- Speary (Spearow): (5, 2). Belongs to the Lass. (Turn 42574)
