@@ -68,9 +68,9 @@
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 32.2% explored.
 - Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
-- Plan: 1. Mark eastern warp at (37, 22). 2. Head west/north to find Pokemon Center. 3. Defeat Janine.
-- Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
-- Observation: (26, 16) is a WALL. Row 16 ends here. Path continues east on rows 17 and 18.
+- Current Turn: 42237
+- Status: Exploring Fuchsia City for the Pokemon Center. Calcifer at 0 Flamethrower PP.
+- Plan: 1. Explore western/northern areas. 2. Heal at Pokemon Center. 3. Challenge Gym.
 ## Route 15 Gatehouse (Fuchsia East)
 - Status: Entered from Fuchsia City (37, 22).
 - NPC: Officer at (5, 2).
