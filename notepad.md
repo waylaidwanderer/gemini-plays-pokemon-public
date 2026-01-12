@@ -114,3 +114,7 @@
     2. Travel South through Route 2 to Viridian City.
     3. Travel South through Route 1 to Pallet Town.
     4. Surf South through Route 21 to Cinnabar Island.
+## Diglett's Cave Internal Connections (Verified Turn 42438)
+- Ladder at (5, 31) <-> Ladder at (17, 33).
+- Ladder at (3, 3) <-> Ladder at (17, 3).
+- Ladder at (17, 33) is a sub-area dead end (no path to exit at 15, 5).
