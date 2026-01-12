@@ -10,10 +10,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Navigating Fly Map (Goldenrod -> Olivine).
-- **Status:** At Goldenrod City (Confirmed).
-- **Plan:** Press Up (to Ecruteak) -> Wait -> Press Left (to Olivine).
-- **Hypothesis:** Previous 'Left' failures at Ecruteak were due to timing/input dropping. Retrying with delays.
+- **Action:** Testing Fly Map (Right).
+- **Status:** At Ecruteak. 'Left' to Olivine failing.
+- **Plan:** Try 'Right' to Mahogany -> Blackthorn.
+- **Reason:** Blackthorn has Max Repels. If 'Right' works, horizontal axis is functional.
+- **Backup:** If 'Right' fails, assume Fly map broken/restricted, go to Goldenrod (Down).
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
