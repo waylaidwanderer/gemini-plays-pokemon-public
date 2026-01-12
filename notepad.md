@@ -83,3 +83,8 @@
 - Notepad Edits: Use exact matches for `old_text` or use `overwrite` for major changes. (Turn 42348)
 ## Rematch Requests
 - Dana (Lass, Route 38): Wants to battle. (Turn 42369)
+## Route 19 Exploration (Started Turn 42373)
+- Goal: Find the path to Seafoam Islands/Cinnabar.
+- Fisher (9, 5): Facing to talk.
+- Fisher (10, 5): Moving NPC.
+- Sign (11, 1): 'Careful Swimming' warning.
