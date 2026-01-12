@@ -24,17 +24,17 @@
 
 # Task: Legendary Hunt
 - Start Turn: 44154
-- Current Turn: 44176
+- Current Turn: 44180
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 
 # Time Tracking
 - Legendary Hunt Start: Turn 44154
-- Current Progress: Getting to Ecruteak City.
+- Current Progress: Flying to Ecruteak City.
 
 # Mt. Silver Completion
-- Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths.
+- Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths. Pathing via Room 2 or other warps remains unverified.
 
 # Legendary Hunt Strategy
 - Priority: Raikou (Speed).
@@ -50,3 +50,4 @@
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
 - Fly Usage: Must be outdoors to use Fly.
 - Menu Memory: The menu remembers the last selected option (e.g., PACK instead of POKEMON). Verify cursor position.
+- Map Navigation: Mt. Silver is at the far west of Johto. Flying to Ecruteak requires moving East on the Town Map.
