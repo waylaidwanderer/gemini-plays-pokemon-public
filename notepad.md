@@ -30,9 +30,6 @@
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
 
-# Mt. Silver Completion
-- Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths. Pathing via Room 2 or other warps remains unverified.
-
 # Legendary Hunt Strategy
 - Priority: Raikou (Speed).
 - Method: Cycle between Ecruteak City and Route 37 gates.
