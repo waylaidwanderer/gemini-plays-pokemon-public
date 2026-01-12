@@ -43,4 +43,6 @@
 - **Strategy:** Check Pokegear this pass. If Roamer on Route 37 -> Sweep. Else -> Shuffle again.
 - **Status:** Super Repel active. Gyarados lead.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34755).
-- **Action:** Continuing Shuffle. Moving to Route 37 (Roamers will move). Sweep Pass 5.
+- **Action:** Sweeping Route 37 (Pass 5).
+- **Strategy:** Shuffle -> Sweep -> Repeat.
+- **Status:** Super Repel active. Gyarados lead.
