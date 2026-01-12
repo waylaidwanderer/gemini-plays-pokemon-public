@@ -23,9 +23,10 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35683):
-  - Current Location: Pewter City.
-  - Previous Failure: `Right` from Pewter failed (blocked?).
-  - Action: Down (to Viridian) -> Right (to Saffron/Celadon).
-  - Hypothesis: Pewter -> Viridian -> Saffron.
-  - Goal: Reach Saffron City.
+- Fly Debugging (Turn 35684):
+  - Current Location: Pallet Town.
+  - Previous Action: Down -> Right from Pewter resulted in Pallet.
+  - Hypothesis: Pewter -> Viridian (Down) -> Pallet (Down). The 'Right' input might have been interpreted as Down or ignored, and Down was pressed/registered twice? Or map layout is weird.
+  - Plan: Try to reach Saffron from the South.
+  - Action: Right (Probe Fuchsia connection).
+  - Goal: Determine if Pallet connects East to Fuchsia.
