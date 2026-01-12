@@ -6,7 +6,7 @@
 # Reflection (Turn 35564)
 - **Menu Hygiene:** "Macro" sequences with `sleep` are safer, but visual confirmation is best. "Intermediate States" can be confusing; trust "Current Screen Text".
 - **Economics:** Super Repel (500g/200steps = 2.5g/step) is more efficient than Max Repel (700g/250steps = 2.8g/step). Prioritize Super Repels.
-- **Status:** Turn 35565 - At (11, 5). Facing Right to interact with Clerk via Counter. Goal: Buy 4 Super Repels (Efficiency > Max Repel).
+- **Status:** Turn 35566 - In Buy/Sell Menu. Selecting 'BUY'. Next: Locate Super Repel and buy 4.
 - **Goal:** Buy Super Repels (preferred) or Max Repels.
 
 # Roamer Hunt Log
