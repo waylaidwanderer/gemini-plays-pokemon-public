@@ -149,8 +149,20 @@
   },
   "perform_roamer_shuffle": {
     "description": "Closes the open Pokegear Map, travels North to Ecruteak and immediately back South to Route 37 to update Roamer coordinates, then re-opens the Pokegear Map. Assumes the player is at Route 37 (8,0) and the Start Menu cursor is over the Pokegear.",
-    "input_schema": {},
-    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\", \"sleep 6000\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 6000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\"]')",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\", \"sleep 8500\", \"Down\", \"Down\", \"Down\", \"sleep 8500\", \"Start\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -171,6 +183,11 @@
         "commit_message": "Increased sleep duration to 6s and added an extra 'Down' input to ensure reliable map transition and traversal from Ecruteak back to Route 37.",
         "timestamp": "2026-01-12T06:06:03.057Z",
         "action_counter": 35156
+      },
+      {
+        "commit_message": "Increased sleep duration from 6000ms to 8500ms to prevent inputs from being dropped during map transition warps.",
+        "timestamp": "2026-01-12T06:27:48.695Z",
+        "action_counter": 35185
       }
     ]
   }
