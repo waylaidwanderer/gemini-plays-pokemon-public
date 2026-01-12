@@ -19,7 +19,7 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Lead with KIMCHI (Gloom) or GNEISS (Graveler) for efficient XP.
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
-- Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone - Currently missing both. Note: Have Moon Stone).
+- Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone - Currently missing both. Have Moon Stone).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu (uses Earthquake). (Prepared Turn #43638).
 - Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
