@@ -4,12 +4,12 @@
   2.  **Check:** Use Pokegear to locate Roamers.
   3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
 - **Status:** HUNTING (Route 38).
-- **Location:** Tall Grass at (27, 7).
+- **Location:** Tall Grass at (26, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Repel wore off. Reapplying (Last one!).
+- **Action:** Repel Active (Last one). Resuming hunt after Wade's call.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36398.
-- **Resources:** 0 Super Repel, 1 Repel. ¥244.
+- **Hunt Session:** Started ~Turn 36369. Current: 36399.
+- **Resources:** 0 Super Repel, 0 Repel. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
