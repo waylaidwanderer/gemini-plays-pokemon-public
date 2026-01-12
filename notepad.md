@@ -1,8 +1,6 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Explore SilverCaveRoom2 to find the ladder to the next floor.
-    2. Systematic search: Use `find_reachable_unseen_tiles` to reveal the map.
-    3. Face Red at the peak.
+    1. Systematic search: Use `find_reachable_unseen_tiles` and Surf to reveal SilverCaveRoom2.
 - Task Started: Turn 43296 (Starting the climb).
 
 # Progress Tracking
@@ -23,8 +21,6 @@
 - Warp to Room 1: (17, 31).
 - Warp to ?: (13, 21).
 - Warp to ?: (11, 5).
-- Item at (22, 24): Ultra Ball (Collected).
-- Super Repel: Used Turn 43420 (3 left).
 - Water: (13, 30), (13, 31), (12, 14)-(21, 14).
 - FLOOR_UP_WALL: Row 16, Row 32.
 
@@ -37,7 +33,7 @@
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
 # Party Status
-- Calcifer (Lv64 Typhlosion) - Lead. Received Protein at Turn 43371.
+- Calcifer (Lv64 Typhlosion) - Lead.
 - ICARUS (Lv19 Pidgeotto)
 - XENON (Lv44 Haunter)
 - KIMCHI (Lv51 Gloom)
@@ -45,6 +41,6 @@
 - GNEISS (Lv54 Graveler)
 
 # Surf Strategy
-- GORP (Snorlax) teaching Surf. (In progress).
+- GORP (Snorlax) teaching Surf. (In progress). Attempt #16.
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
