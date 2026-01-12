@@ -11,16 +11,18 @@
 
 # Team Goals
 - Defeat Trainer Red at the summit of Mt. Silver.
-- Strategy: Use XENON's Ghost immunity against Snorlax's Normal moves.
+- Strategy: Use XENON's Ghost immunity vs Snorlax's Normal moves. Watch for Surf.
 - Evolve KIMCHI (Gloom).
 
 # Red Battle Log (Verified via History)
 - Battle Start: Turn 43692.
-- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
+- Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777). 
-  - Moves Used: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
-- Snorlax (Lv75): Active. Used Body Slam (4+), Rest (1 - Turn 43793). Asleep (Turn 43793).
-- XENON (Haunter): Active. HP 111/111. Using Night Shade.
+  - Moves: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
+- Snorlax (Lv75): Active. Asleep (Turn 43793 via Rest).
+  - Moves: Body Slam (5+), Rest (1).
+- XENON (Haunter): Active. HP 111/111. Immune to Normal.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
-- GORP (Snorlax): Benched. HP 141/221.
-- Strategy: Chip Snorlax with Night Shade while it's asleep. Night Shade deals 44 fixed damage. Monitor for wake up and non-Normal moves.
+- GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
+- Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
+- Strategy: Use Dream Eater while Snorlax is asleep. Switch if it wakes up and uses Surf.
