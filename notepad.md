@@ -24,5 +24,6 @@
 # Red Battle Log
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): In progress. Reflect active (Turn #43693). GORP (Snorlax) is tanking.
-- Strategy: Use Body Slam for paralysis/damage. Heal with Max Potion/Full Restore if HP drops below ~145 (Espeon's Psychic deals ~140 damage).
-- Turn 43705: GORP is at 94/221 HP. Using Full Restore to avoid fainting. GORP has Leftovers.
+- Strategy: Stall out Psychic PP (10 max). GORP takes ~140 damage (81/221 remaining), recovers to 94 with Leftovers. Must heal every turn.
+- Turn 43707: Confirming Full Restore on GORP. Psychic count: 2/10 used.
+- Team: KIMCHI (51), XENON (44), Calcifer (64), GORP (50), GNEISS (54), LAPIS (12).
