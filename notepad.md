@@ -27,11 +27,11 @@
   2. Explored North (Rows 1-11): Blocked by walls/ledges. Found Berry Trees.
   3. Conclusion: The exit at Row 16 is the northernmost exit.
   4. Plan: Exit at (39, 16). This leads to Route 3 (0, 6).
-  5. Verified: East Wall of Pewter (Rows 0-15) is solid. No upper exit found.
-  6. Conclusion: The exit at Row 16 is the ONLY exit to Route 3.
-  7. Route 3 Strategy: The "Middle Lane" (Rows 6-7) MUST be the way forward.
-  8. Previous blockage at (9, 7) or (13, 7) was likely an NPC or solvable obstacle.
-  9. Plan: Enter Route 3 at (0, 6), push East past x=13. If blocked, identify the specific obstacle (NPC/Rock) and deal with it. Do not retreat to Lower Lane.
+  5. Verified: Pewter Row 16 Exit leads to Route 3 Row 6, which is blocked at x=2.
+  6. Verified: Pewter Row 17 Exit leads to Route 3 Row 7, which appears clear to x=13.
+  7. Plan: Re-enter Route 3 via Pewter Row 17.
+  8. Inspect obstacle at Route 3 (13, 7). If blocked, check Lower Lane gap at (11, 9) again.
+  9. Critical Note: Route 3 seems to have multiple "lanes" with specific blockages. Precision is key.
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
