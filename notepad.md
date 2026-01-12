@@ -15,8 +15,8 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current Turn:** 36128.
-  - **Status:** Shuffling (Returning to Route 37 with tool fix).
+  - **Current Turn:** 36129.
+  - **Status:** Roamers elsewhere. Shuffling (Returning to Ecruteak).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
