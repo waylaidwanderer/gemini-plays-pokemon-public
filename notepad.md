@@ -37,7 +37,7 @@
 - Menu Navigation Corrected: Cursor was on POKEGEAR. Moving Up x2 to POKEMON.
 - Fly Sequence: Pokemon -> Mistral (Slot 4) -> Fly -> Left x3 (Indigo -> Blackthorn -> Mahogany -> Ecruteak).
 - Executing Fly sequence now.
-- Previous Fly attempt failed (missed input to select 'FLY' from submenu).
-- Current State: 'FLY' option selected in menu.
-- Action: Select 'FLY' -> Map opens -> Left x3 (Indigo->Blackthorn->Mahogany->Ecruteak) -> Confirm.
-- Next: Check Pokegear for Roamers in Ecruteak.
+- Previous Fly attempt failed (Menu was not open, inputs moved player).
+- Current State: Overworld, Route 23.
+- Action: Open Start Menu and verify cursor position.
+- Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
