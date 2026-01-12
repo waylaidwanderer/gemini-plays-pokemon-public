@@ -18,10 +18,11 @@
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): Defeated (Turn 43777). 
-  - Moves Used: Psychic (7), Swift (3), Mud-Slap (1), Reflect (2).
+  - Moves Used: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
 - Snorlax (Lv75): Active (Turn 43778). 
-  - Moves Used: Body Slam (2).
-- GNEISS (Graveler): Active. HP 69/152. Paralyzed. Resists Body Slam.
-- GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
+  - Moves Used: Body Slam (3).
+- GNEISS (Graveler): HP 24/152. Paralyzed.
+- GORP (Snorlax): Benched. HP 141/221.
+- XENON (Haunter): Ghost-type.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
-- Strategy: Use Earthquake with GNEISS. Heal if HP < 60. Use Full Heal if paralysis is too restrictive.
+- Strategy: Switch to XENON (Immune to Normal). Chip with Night Shade or Hypnosis/Dream Eater.
