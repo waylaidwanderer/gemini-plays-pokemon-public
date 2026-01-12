@@ -67,6 +67,6 @@
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
 - Attempt 1-9: Failed due to menu errors and overworld movement.
 - Attempt 11 (Turn 44306): Fly map open at New Bark Town. Cursor at New Bark Town (verified by screen text). Strategy: Press Left once. Verify destination name "CHERRYGROVE CITY" before next move.
-- Attempt 12 (Turn 44307): Fly map open at New Bark Town. Cursor didn't move after Left.
-- Attempt 13 (Turn 44308): Fly map open at New Bark Town. Strategy: Press Left once using press_buttons.
-- Attempt Count (Fly): 13. Strategy Revision: Incremental movement (1 tile at a time) with verification. Verify destination name.
+- Attempt 13 (Turn 44308): Fly map open at New Bark Town. Cursor didn't move after Left.
+- Attempt 14 (Turn 44309): Fly map open at New Bark Town. Strategy: Reset to overworld by pressing B three times.
+- Attempt Count (Fly): 14. Strategy Revision: Exit all menus completely to clear any potential glitches or mis-indexed screens before restarting the Fly sequence. Verify overworld in Game State next turn.
