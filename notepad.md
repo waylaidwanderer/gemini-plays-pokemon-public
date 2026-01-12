@@ -2,8 +2,8 @@
 - **Strategy (The HOW):**
     1. Navigate south through Viridian City to reach Pallet Town. [Completed]
     2. Visit Professor Oak's Lab in Pallet Town. [Completed]
-    3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21. [Next]
-    4. Navigate Route 21 south to reach Cinnabar Island.
+    3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21. [Completed]
+    4. Navigate Route 21 south to reach Cinnabar Island. [In Progress]
     5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
     6. Return to Viridian City to challenge the final Gym Leader (Blue).
 
