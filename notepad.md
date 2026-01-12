@@ -3,10 +3,11 @@
 - **Date:** Turn 33314
 - **MVP:** Muscle (Machoke) Lv88.
 
-# Reflection (Turn 35045)
-- **Lesson:** Shop inventory varies significantly. Kanto Marts (Viridian/Vermilion) lacked Repels entirely. Goldenrod 2F Bottom Clerk only has standard Repels. Top Clerk appears to be Medicine-focused.
-- **Strategy:** If Top Clerk lacks Super/Max Repels, I will compromise and buy standard Repels from the Bottom Clerk to avoid further delays. 
-- **Efficiency:** Better to hunt with standard Repels than spend 50 turns finding Super ones.
+# Reflection (Turn 35407)
+- **Menu Navigation:** Long "macro" sequences (15+ buttons) are unreliable. Split complex actions (e.g., Fly) into discrete steps: 1. Open Map, 2. Navigate, 3. Confirm. Visual verification is mandatory.
+- **Tool Development:** Custom tools DO NOT share global scope. Arguments must be explicitly retrieved from `input_data`.
+- **Roamer Hunting:** Fly is effective for randomizing positions. Border hopping is unreliable.
+- **Shop Inventory:** Shop stock varies by region. If Super Repels aren't found, use standard Repels to save time.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
@@ -14,7 +15,6 @@
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
 - **Status:** Turn 35406 - Repel 2 active. Continuing hunt on Route 38 using fixed pathfind tool.
-- **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
