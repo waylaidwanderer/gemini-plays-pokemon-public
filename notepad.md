@@ -16,7 +16,7 @@
 - DOOR/WARP: Map transitions.
 - LEDGE_HOP_DOWN: One-way movement Down.
 - LEDGE_HOP_RIGHT: One-way movement Right.
-- FLOOR_UP_WALL: North edge is impassable. Cannot move North (Up) FROM the tile, or South (Down) ONTO the tile. Verified: (8, 20)->(8, 19) [Up] BLOCKED, (10, 33)->(10, 34) [Down] BLOCKED.
+- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked. Verified in Room 1.
 
 # Area Records: Silver Cave Room 1 (3_74)
 - Entrance/Exit: (9, 33).
