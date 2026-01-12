@@ -49,6 +49,6 @@
 - Warp at (11, 5): Secondary exploration target.
 
 # Surf Strategy
-- GORP (Snorlax) taught Surf replacing SNORE at Turn 43433.
+- GORP (Snorlax) teaching Surf. (In progress). Previous attempts failed due to menu navigation errors.
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
