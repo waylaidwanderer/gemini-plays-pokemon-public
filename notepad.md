@@ -75,3 +75,4 @@
 - [Turn 42611] Receptionist confirms trainer battles available downstairs.
 - [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
 - [Turn 42641] Calcifer (Lv62) used Smokescreen; CAL's Typhlosion (Lv50) used Swift. Calcifer at 182/197 HP.
+- [Turn 42644] Calcifer used Return; enemy used Swift. Calcifer at 166/197 HP.
