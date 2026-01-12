@@ -17,12 +17,8 @@
 # Red Battle Log (Verified via History)
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
-- Espeon (Lv73):
-  - Psychic: 7/16 used.
-  - Reflect: 2 used. (Faded: Turn 43774).
-  - Mud-Slap: 1 used. (GORP Accuracy -1).
-  - Swift: 3 used (Turns 43766, 43770, 43774).
-  - GORP (Snorlax): HP 183/221. Active. Neutral Spcl.Def.
-  - Calcifer (Typhlosion): Fainted.
+- Espeon (Lv73): Defeated (Turn 43777).
+- Next Pokemon: Pending.
+- GORP (Snorlax): HP 128/221. Active. Accuracy -1.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives.
-- Strategy: Use Body Slam for damage/paralysis. Stall remaining ~9 Psychics. Heal if HP < 150.
+- Strategy: Heal GORP or switch based on the next opponent. GORP's Accuracy is lowered, consider switching to reset.
