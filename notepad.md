@@ -22,7 +22,8 @@
 # Strategy: Current Situation
 - GORP is critical but at low HP (27/221). 
 - Blastoise is paralyzed and in a downpour.
-- Action: Use Full Restore on GORP immediately. Snorlax's bulk is our only hope for the final stretch.
+- Action: Use Full Restore on GORP (Turn 43988). Rain is boosting Blastoise's Surf, making survival difficult. GORP needs full HP to tank.
+- Note: Surf was confirmed on Turn 43973 (fainted GNEISS).
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
