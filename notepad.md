@@ -6,7 +6,7 @@
 # Reflection (Turn 35564)
 - **Menu Hygiene:** "Macro" sequences with `sleep` are safer, but visual confirmation is best. "Intermediate States" can be confusing; trust "Current Screen Text".
 - **Economics:** Super Repel (500g/200steps = 2.5g/step) is more efficient than Max Repel (700g/250steps = 2.8g/step). Prioritize Super Repels.
-- **Status:** Turn 35569 - Wrong Clerk (Medicine). Canceling menu. Moving Down to (11, 6) to talk to the bottom Clerk (Balls/Repels).
+- **Status:** Turn 35570 - Exiting Medicine Clerk menu (`B` x2). Moving Down to (11, 6) to talk to Item/Ball Clerk. Goal: Buy 4 Super Repels.
 - **Goal:** Buy Super Repels (preferred) or Max Repels.
 
 # Roamer Hunt Log
