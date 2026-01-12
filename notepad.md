@@ -67,8 +67,6 @@
 - TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
 - TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
 - Nickname Speech House: Exploration complete. (Turn 42597)
-- COUNTER: To be verified.
-- STAIRS: To be verified.
 ## Nickname Speech House (Map 23_5)
 - Pokefan M: (2, 4).
 - Lass: (5, 4).
