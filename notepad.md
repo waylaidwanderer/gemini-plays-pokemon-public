@@ -36,3 +36,9 @@
 
 # PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
+
+# Advisor Recommendations (Turn 43175)
+- **Urgent:** Heal KIMCHI and the party.
+- **Grinding:** Aim for Level 75+ for the entire team to match Red.
+- **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
+- **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
