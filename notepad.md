@@ -30,7 +30,7 @@
 - Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Awake (Turn 43914). Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Awake (Turn 43921). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
 - XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 15/20.
 - Strategy: Switch to GNEISS (Graveler) to use physical moves (Rollout) against Snorlax's lower physical Defense. Snorlax only has Normal moves, which GNEISS resists.

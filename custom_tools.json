@@ -88,41 +88,6 @@
       }
     ]
   },
-  "menu_navigator": {
-    "description": "Executes a sequence of button presses to navigate menus. Returns a JSON array of buttons. Use this to bypass the restriction on mixing directional and action inputs. Automatically handles autopress_buttons.",
-    "input_schema": {
-      "properties": {
-        "sequence": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        }
-      },
-      "required": [
-        "sequence"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n# input_data is a dictionary containing the tool's input arguments.\n# This script simply returns the sequence of buttons provided in the input.\nsequence = input_data.get('sequence', [])\nprint(json.dumps(sequence))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T07:58:07.386Z",
-        "action_counter": 42950
-      },
-      {
-        "commit_message": "Fixing menu_navigator to correctly use input_data dictionary instead of sys.stdin.",
-        "timestamp": "2026-01-12T07:59:05.011Z",
-        "action_counter": 42952
-      },
-      {
-        "commit_message": "Fixing menu_navigator to correctly use the injected input_data dictionary and avoid sys.stdin.",
-        "timestamp": "2026-01-12T07:59:59.685Z",
-        "action_counter": 42953
-      }
-    ]
-  },
   "find_path_v7_robust": {
     "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (ledges, one-way walls), treating 'unseen' tiles as walkable FLOOR, and supporting surfing/land modes. Returns at most 50 buttons if autopress_buttons is true.",
     "input_schema": {
