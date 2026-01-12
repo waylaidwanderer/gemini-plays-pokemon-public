@@ -41,9 +41,7 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Previous Fly attempt failed (Likely timing or input drop).
-- Current State: In Pokemon Submenu, cursor on 'FLY'.
-- Strategy Change: Breaking down the macro.
-- Step 1: Press 'A' to open Map.
-- Step 2: (Next Turn) Verify Map is open, then Navigate Left x3 -> A.
-- Goal: Reach Ecruteak City.
+- Previous Fly attempt interrupted by Phone Call.
+- Current State: Overworld, Route 23 (Call finished).
+- Action: Open Start Menu and verify cursor (Expect: POKEMON).
+- Next: Select Mistral -> Fly -> Ecruteak.
