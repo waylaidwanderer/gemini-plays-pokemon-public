@@ -15,8 +15,8 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current Turn:** 36082.
-  - **Last Seen:** Route 38, 42, 44 (Turn 36098).
+  - **Current Turn:** 36102.
+  - **Last Seen:** Route 38, 42, 44 (Turn 36102).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
