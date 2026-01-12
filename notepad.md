@@ -24,4 +24,4 @@
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Log Summary (35087-35226):** Multiple interruptions. Roamers persistently on Routes 38 & 42. Checked Map Turn 35226 - still there.
-- **Current Status:** Exiting Pokegear to shuffle (Route 37 -> Ecruteak).
+- **Current Cycle:** Route 37 (Check Map) <-> Ecruteak (Shuffle). Repeat until Roamer is on Route 37.
