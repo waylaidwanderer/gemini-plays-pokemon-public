@@ -10,9 +10,9 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Transit to Johto via Magnet Train.
-- **Status:** Boarding Magnet Train to Goldenrod.
-- **Plan:** Goldenrod Dept Store (Buy Repels/Super Repels) -> Hunt Roamers.
+- **Action:** Restocking for Roamer Hunt.
+- **Status:** Arrived in Goldenrod City. Exiting Station.
+- **Plan:** Exit Station -> Dept Store (Buy Super Repels) -> Fly Ecruteak -> Hunt.
 - **Note:** Viridian & Vermilion Marts do NOT sell Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
