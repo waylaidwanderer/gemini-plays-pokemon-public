@@ -15,7 +15,7 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Last Check:** Turn 36147.
+  - **Last Check:** Turn 36152.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
