@@ -64,7 +64,7 @@
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
-- TV: To be verified. Standing below at (2, 2) and facing up.
+- TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
 - TOWN_MAP: To be verified. Standing below at (3, 1) and facing up.
 - COUNTER: To be verified.
 - STAIRS: To be verified.
