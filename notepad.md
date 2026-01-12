@@ -59,3 +59,14 @@
 # Progress Log
 - [Turn 42651] Defeated Trainer CAL in Trainer House. Earned ¥5000. Calcifer Lv63.
 - Trainer House B1F: Daily battle completed.
+
+# Strategy: Trainer House B1F Exploration
+- Observed: Western side (X=0-3) is blocked by walls/counters from the central area.
+- Observed: The unseen tiles (3, 2) through (3, 6) are adjacent to walls or counters.
+- Hypothesis: The western section of B1F is inaccessible from the main floor and likely serves as the opponent's side of the battle arena.
+- Conclusion: No further exploration possible in B1F.
+
+# General Lessons
+- Trainer House battles are limited to once per day.
+- Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
+- Turn 42661: Daily battle completed, ¥5000 earned. Heading to Pallet Town next.
