@@ -22,6 +22,8 @@
 - Warp to Room 1: (17, 31).
 - Warp to ?: (13, 21).
 - Item at (22, 24): Ultra Ball (Collected).
+- Super Repel: Used Turn 43420 (3 left).
+- Strategy: Heading to (4, 20) for item ball. Path involves looping through Row 31/33 to bypass horizontal barriers.
 - Water: (13, 30), (13, 31), (12, 14)-(21, 14).
 - FLOOR_UP_WALL: Row 16, Row 32.
 
