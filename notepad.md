@@ -6,13 +6,9 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  - **Status:** Shuffling (Entering Ecruteak).
+  - **Status:** Active Roamer Shuffle Loop.
   - **Resources:** 3 Super Repels left. ¥244.
-  - **Loop:**
-    1. Enter Route 37.
-    2. Walk in Grass (checking for encounter).
-    3. If no encounter -> Return to Ecruteak.
-    4. Repeat.
+  - **Strategy:** Move between maps to reset Roamer positions. Check Pokegear on Route 37.
 
 # Strategy Notes & Lessons
 - **Tool Safety:** When defining menu tools, remember that missed "Start" inputs interpret subsequent directionals as movement. Avoid long blind sequences starting with "Start" + Directionals.
