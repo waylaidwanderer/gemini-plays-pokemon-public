@@ -135,12 +135,12 @@
     ]
   },
   "shuffle_check_roamers": {
-    "description": "Moves down from the Ecruteak border onto Route 37 and opens the Pokegear Map to check for Roamers. Assumes player is at (8,0).",
+    "description": "Moves down from Ecruteak to Route 37, waits 5s, then safely navigates to Pokegear Map. Assumes Main Menu cursor is on Pokegear.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"Down\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
+    "python_script": "print('[\"Down\", \"sleep 5000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"sleep 200\", \"Right\", \"sleep 200\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -156,6 +156,11 @@
         "commit_message": "Increased initial sleep to 3000ms to ensure map transition and popup handling are complete before menu interaction.",
         "timestamp": "2026-01-12T19:19:59.774Z",
         "action_counter": 36135
+      },
+      {
+        "commit_message": "Increased sleep to 5000ms for map transition stability. Added cursor reset (Left -> Right) inside Pokegear to ensure MAP is selected regardless of previous position.",
+        "timestamp": "2026-01-12T19:38:35.804Z",
+        "action_counter": 36162
       }
     ]
   },
