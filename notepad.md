@@ -1,9 +1,9 @@
 # Roamer Hunt Strategy
 - **Current Operation:**
-  1.  **Relocate:** Enter Route 38 (West).
-  2.  **Hunt:** Run in grass with Super Repel active.
-  3.  **Intercept:** Level 36 Gyarados is lead.
-- **Status:** Hunting on Route 38. Repel active.
+  1.  **Shuffle:** Cross Gatehouse to Ecruteak City.
+  2.  **Check:** Use Pokegear to locate Roamers.
+  3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
+- **Status:** Crossing Gatehouse to Ecruteak.
 - **Resources:** 1 Super Repel, 3 Repels. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
