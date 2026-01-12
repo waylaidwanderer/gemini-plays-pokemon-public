@@ -17,11 +17,10 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Mt Moon Navigation Plan
-- **Current Pos:** (3, 3).
+- **Current Pos:** (2, 3).
 - **Goal:** Reach Route 4 Exit at (25, 5).
+- **Status:** Previous attempt to go Left/Down failed (blocked by `FLOOR_UP_WALL` at (2,4)).
+- **Action:** Calculating new path to the East using BFS script to avoid obstacles and maze dead-ends.
 - **Route:**
-  1. Go West to x=0, then North to (0, 0).
-     - *Note:* Requires traversing (2, 4) which is `FLOOR_UP_WALL`.
-  2. Go East along Row 0 to x=29.
-  3. Go South along Column 29 to Row 6.
-  4. Go West to x=25, then North to Exit at (25, 5).
+  1. Calculate path to (25, 5).
+  2. Execute path.
