@@ -61,4 +61,4 @@
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
 
 # Trainer Encounters (Route 1)
-- Schoolboy Danny (Object 1) at (7, 12): Battle started at turn 42686. Roster: Jynx (Lv31), Electabuzz (Lv31).
+- Schoolboy Danny (Object 1) at (7, 12): Defeated at turn 42694. Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
