@@ -5,7 +5,7 @@
     3. Head south to Route 23 Gatehouse. (Done)
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
     5. Travel West through Route 28 to reach Mt. Silver. (Done)
-    6. Explore Silver Cave Outside and find cave entrance. (Done, Turn 43268)
+    6. Explore Silver Cave Outside and find cave entrance. (Done)
     7. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
     8. Face Red at the peak of Mt. Silver.
 
@@ -21,7 +21,7 @@
 - GORP (50): Healthy.
 - GNEISS (54): Healthy.
 
-# Wild Pokemon Log (Silver Cave Outside)
+# Wild Pokemon Log (Silver Cave Room 1)
 - No encounters recorded yet.
 
 # Tile Mechanics (Global Reference)
@@ -39,18 +39,17 @@
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
 - Route 28 (19_1): Transition to Silver Cave Outside at (0, 13). Sign at (31, 5).
 - Silver Cave Outside (19_2): Transition to Route 28 at (39, 31). Poke Center at (23, 19). Entrance to Mt. Silver at (18, 11).
+- Silver Cave Room 1 (3_74): Entrance/Exit at (9, 33). Item at (5, 30).
 
 # PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
 
-# Advisor Recommendations (Turn 43175)
-- **Urgent:** Heal KIMCHI and the party. (Done)
-- **Grinding:** Aim for Level 75+ for the entire team to match Red. Elite Four rematches or Mt. Silver wild encounters.
-- **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
-- **Tactics:** GNEISS is key for Pikachu/Charizard. Equip status-curing berries.
+# Advisor Recommendations (Turn 43260)
+- **Grinding:** Aim for Level 75+ for the entire team to match Red.
+- **Location:** Elite Four rematches or high-level wild encounters deep in Mt. Silver (Ursaring, Donphan, Golbat).
+- **Tactics:** Earthquake on GNEISS for Pikachu; ThunderPunch on Calcifer for Blastoise/Charizard. Fighting-type moves or Toxic for Snorlax.
 
-# Navigation Plan: Silver Cave Outside
-1. Locate the entrance to Mt. Silver. (Done, Turn 43268)
-2. Enter Mt. Silver at (18, 11). (In progress)
-3. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
-4. Note: Access to upper plateau at x=23 (gap in ledges).
+# Navigation Plan: Silver Cave Room 1
+1. Grab the item at (5, 30).
+2. Explore the northern part of the room to find the ladder to the next floor.
+3. Document any obstacles or puzzles.
