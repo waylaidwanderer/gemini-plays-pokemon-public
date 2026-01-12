@@ -19,17 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42174
-- Time Elapsed: ~112 turns
-- Status: Entered Route 18 from gatehouse (2, 6). Goal: Fuchsia City.
-- Observation: Route 18 has tall grass and water.
-
-## Strategy for Navigating Route 17 (Bottom Area)
-- Observation: Row 85 is a WALL barrier from X=5 to X=19. Row 84 at X=16, 17, 18, 19 is also a WALL.
-- Hypothesis: To reach the exit at (17, 82) or (17, 83), I must move North to Row 83 or 82 where the path East is clear.
-- Plan: Move North to Row 82, then East to X=17. This avoids the wall blockages at Row 84 (16, 84).
-- Physics: Constant Southward drift requires rapid Northward inputs.
-- Start Turn: 42154. Current Attempt: 4.
+- Current Turn: 42181
+- Status: On Route 18, battling Bird Keeper Bob.
 
 ## Battle and Pokemon Information
 ### Party Movesets
@@ -44,6 +35,7 @@
 - Erika (Celadon Gym): Defeated.
 - Rival Silver (Mt. Moon): Defeated.
 - Biker Charles (6, 80): Defeated.
+- Bird Keeper Bob (13, 6): Battling. Team: Noctowl (Lv34).
 
 ## Evolution Methods
 - Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock).
@@ -67,16 +59,10 @@
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
-- Next Step: Pass through Route 18 Gate to reach Fuchsia City.
+- Next Step: Defeat trainers on Route 18 and reach Fuchsia City.
 
----
-## Route 17 Navigation Warning (Turn 42126)
-- Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
-- Downhill mechanic makes Northward recovery extremely difficult.
-- Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17) for safety.
-## Route 17-18 Gatehouse Status
-- Status: Inside Route 17-18 Gatehouse (Turn 42165). Route 17 traversal completed.
-- Goal: Find exit to Route 18 and reach Fuchsia City.
-- NPC: Officer at (5, 2).
-- Tile: WARP_CARPET_LEFT (Standard warp tile).
-- Bird Keeper Bob (13, 6): Encountered. Team: Noctowl (Lv34).
+## General Lessons & Error Log
+- NPC Interaction: Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
+- Ledges: Hop down south only.
+- Menu Navigation: Use single `press_buttons` to verify menu state.
+- Route 17 Physics: Downhill mechanic requires consistent Northward inputs or rapid tapping to overcome drift.
