@@ -36,7 +36,7 @@
 - Strategy: Use Hypnosis to sleep Snorlax. Switch to GNEISS (Graveler) after healing him. GNEISS resists Normal and can use Rollout against Snorlax's lower physical Defense.
 - Task: Switch to GNEISS. 
   - Turn 43904: Started switch process.
-  - Turn 43911: Using Full Restore on GNEISS.
+  - Turn 43913: Using Full Restore on GNEISS.
 - Battle Progress: Snorlax is at +6 Sp.Def. Dream Eater is inefficient. Snorlax fell asleep on Turn 43902.
 
 # Inventory During Battle
