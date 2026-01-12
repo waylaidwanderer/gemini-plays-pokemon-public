@@ -6,7 +6,7 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (29, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Repel Active. Running patterns.
+- **Action:** Repel Active. Resuming hunt after Gaven's call.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
 - **Resources:** 0 Super Repel, 3 Repels. ¥244.
 
