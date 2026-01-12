@@ -3,8 +3,8 @@
   1.  **Relocate:** Enter Route 38 (West).
   2.  **Hunt:** Run in grass with Super Repel active.
   3.  **Intercept:** Level 36 Gyarados is lead.
-- **Status:** Repel applied. Exiting Ecruteak West to Route 38.
-- **Resources:** 2 Super Repels left. ¥244.
+- **Status:** Hunting on Route 38. Repel active.
+- **Resources:** 1 Super Repel, 3 Repels. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
