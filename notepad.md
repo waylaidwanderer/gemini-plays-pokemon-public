@@ -58,7 +58,7 @@
     - Janine Look-alike (5, 11): Lass Linda. Defeated. (Turn 42269)
     - Janine Look-alike (5, 7): Talked to. Non-battling decoy. (Turn 42352)
     - Janine Look-alike (9, 4): Talked to. Non-battling decoy. (Turn 42358)
-    - Janine Look-alike (9, 14)
+    - Janine Look-alike (9, 14): Targeting now.
     - Janine Look-alike (1, 14)
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
