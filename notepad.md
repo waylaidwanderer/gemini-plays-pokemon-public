@@ -19,8 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42199
-- Status: Exploring Fuchsia City. Heading west to find the Pokemon Center.
+- Current Turn: 42203
+- Status: Exploring Fuchsia City. Heading southwest to uncover unseen tiles.
 
 ## Battle and Pokemon Information
 ### Party Movesets
