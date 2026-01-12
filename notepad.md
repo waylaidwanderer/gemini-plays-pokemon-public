@@ -52,9 +52,12 @@
 - Evolution Stones: Not available in Celadon Dept Store.
 
 ## Celadon City Investigation (Started Turn 41409, Jan 11 3:10 PM)
-- Secret Wing Access: Reached via back door at (16,3). (Unverified wing content)
 - Mansion Roof House: Pharmacist (3,2) tells "terrifying tale" ONLY at night.
 - Gym Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through gap in ledge at (5,33). Warp at (10, 29).
+
+## Route 17 (Cycling Road) Mechanics
+- Downhill Coasting: The player automatically moves South.
+- Moving North: Requires constant Up input. (Verified Turn 42121)
 
 ## Kanto Secrets & NPC Schedules
 - Daisy Oak (Pallet Town): Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
