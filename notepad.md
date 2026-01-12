@@ -2,7 +2,7 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - WATER: Requires Surf.
-- WATERFALL: Requires HM07 Waterfall. Facing Up/North at the base of the waterfall (e.g., (10, 30)) and pressing A triggers the climb. (Note: Menu usage may fail; interaction requires being directly adjacent and facing the waterfall tile).
+- WATERFALL: Requires HM07 Waterfall. Facing Up/North at the base of the waterfall (e.g., (10, 30)) and pressing A triggers the climb. (Note: Menu usage may fail; interaction requires being directly adjacent and facing the waterfall tile). (Verified Turn #43564).
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
 - FLOOR_UP_WALL: Blocks North/South movement. (Verified Turn #43532, #43576).
@@ -12,7 +12,6 @@
 - Warp to Room 1: (17, 31).
 - Warp to Item Room: (13, 21).
 - Warp to Next Area: (11, 5).
-- Waterfall Logic: Facing Up/North at the base of the waterfall (e.g., (10, 30)) and pressing A triggers the climb. (Note: Menu usage may fail; interaction requires being directly adjacent and facing the waterfall tile). (Verified Turn #43564).
 - Water: (13, 30)-(13, 31), (12, 14)-(21, 14), (4, 22)-(7, 27).
 - FLOOR_UP_WALL: Row 16 (Hypothesis), Row 32.
 
@@ -20,7 +19,7 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Lead with KIMCHI (Gloom) or GNEISS (Graveler) for efficient XP.
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
-- Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone (Verify possession).
+- Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu (uses Earthquake). (Prepared Turn #43638).
 - Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
