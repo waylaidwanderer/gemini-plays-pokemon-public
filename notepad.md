@@ -66,5 +66,5 @@
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
 - Attempt 1-9: Failed due to menu errors and overworld movement.
-- Attempt 11 (Turn 44304): Cursor moved to Cherrygrove City (verified by screen text "CHERRYGROVE CITY"). Strategy: Press Left once. Verify destination name "VIOLET CITY" before next move.
+- Attempt 11 (Turn 44306): Fly map open at New Bark Town. Cursor at New Bark Town (verified by screen text). Strategy: Press Left once. Verify destination name "CHERRYGROVE CITY" before next move.
 - Attempt Count (Fly): 11. Strategy Revision: Incremental movement (1 tile at a time) with verification.
