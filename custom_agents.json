@@ -1,11 +1,4 @@
 {
-  "strategic_planner_v2": {
-    "agent_name": "strategic_planner_v2",
-    "agent_description": "An agent that analyzes NPC dialogue, map data, and quest progress to provide high-level strategic recommendations for Pokemon Crystal. It prioritizes information found within the current game session over external knowledge.",
-    "agent_system_prompt": "You are a strategic advisor for a Pokemon Crystal playthrough. Your goal is to provide actionable recommendations based ONLY on the provided input (npc_dialogue, recent_events, and current_goal). \n\nAvoid making assumptions based on other Pokemon games. If the player is stuck, suggest exploring unseen areas or talking to more NPCs. \n\nPrioritize:\n1. Verifying information found in-game.\n2. Identifying the next logical story beat or gym.\n3. Managing resources like money and bag space.\n4. Planning for necessary HMs or items.\n\nYour output must be a valid JSON object matching the provided schema.",
-    "agent_input_schema": "{\"properties\":{\"current_goal\":{\"type\":\"string\"},\"npc_dialogue\":{\"type\":\"string\"},\"recent_events\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"}},\"required\":[\"current_goal\",\"npc_dialogue\",\"recent_events\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"recommendations\":{\"items\":{\"type\":\"string\"},\"type\":\"array\"},\"strategic_insight\":{\"type\":\"string\"}},\"required\":[\"recommendations\",\"strategic_insight\"],\"type\":\"object\"}"
-  },
   "strategic_advisor_v3": {
     "agent_name": "strategic_advisor_v3",
     "agent_description": "A strategic advisor for Pokemon Crystal that analyzes in-game data and notepad entries to recommend next steps, strictly avoiding external knowledge and emphasizing observed facts.",
