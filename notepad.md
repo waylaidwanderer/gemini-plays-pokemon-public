@@ -18,7 +18,7 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone. Current: Moon Stone - useless).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu.
-- Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon.
+- Teach GORP (Snorlax) Shadow Ball (TM30 - Need to find) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
 # Time Tracking
@@ -30,4 +30,5 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Espeon (Lv73): GORP fainted. Attempting Revive. (Turn #43670).
+- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
+- Espeon (Lv73): In progress. GORP fainted to critical hit. Using Max Revive (Turn #43676).
