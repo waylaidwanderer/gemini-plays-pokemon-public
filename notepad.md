@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Flying to Goldenrod (Pass 27 - Execution).
-- **Status:** In "FLY" menu.
-- **Sequence:** A (Open Map) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod) -> A (Fly).
-- **Goal:** Restock Repels at Goldenrod Dept Store.
-- **Contingency:** If map nav fails again, will walk.
+- **Action:** Opening Fly Map (from Silver Cave).
+- **Status:** Unexpectedly landed at Silver Cave (Map 19_2).
+- **Goal:** Fly to Goldenrod City (or Blackthorn/Violet) to restock.
+- **Plan:** Open Map -> Verify cursor location -> Plan precise navigation next turn.
+- **Note:** Discarding previous assumptions about map connections. Will verify step-by-step.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
