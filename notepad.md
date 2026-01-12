@@ -24,7 +24,7 @@
 - **Correction:** I am currently on the Lower Path. I must return to Pewter City and switch to the Upper Path.
 - **Plan:**
   1. Return to Pewter City (Walk Left).
-  2. Navigate to (33, 14) in Pewter to bypass the dividing wall.
+  2. Navigate to (33, 9) in Pewter to bypass the vertical wall at x=34 (Gap at y=8-9).
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
