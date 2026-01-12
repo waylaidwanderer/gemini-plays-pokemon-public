@@ -57,9 +57,10 @@
 - Rhydon: Fainted (KIMCHI's Petal Dance).
 - Alakazam: Fainted (GORP's Body Slam).
 - KIMCHI: Fainted.
-- GORP: Active.
+- Calcifer: Active (200/200).
 - Enemy: Gyarados (Lv58).
-- Strategy: Switch to Calcifer for Thunderpunch (4x).
+- Weather: Rain (Rain Dance active).
+- Strategy: Use super-effective Thunderpunch (4x) to OHKO Gyarados.
 
 # Battle Party Status (Turn 43122)
 - Calcifer (Lv63 Typhlosion): 200/200
