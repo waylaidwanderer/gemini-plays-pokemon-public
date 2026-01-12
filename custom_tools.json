@@ -134,7 +134,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "buttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\nprint(f'{{\"buttons\": {buttons}}}')",
+    "python_script": "import json\nbuttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\nprint(json.dumps({\"buttons\": buttons}))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -145,6 +145,11 @@
         "commit_message": "Updated to include 'B' presses to ensure menus are closed and added sleep delays for reliability during map transitions.",
         "timestamp": "2026-01-12T22:13:13.244Z",
         "action_counter": 36332
+      },
+      {
+        "commit_message": "Fixed JSON formatting in python script by importing json and using json.dumps.",
+        "timestamp": "2026-01-12T22:13:55.445Z",
+        "action_counter": 36334
       }
     ]
   },
