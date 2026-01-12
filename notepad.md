@@ -16,10 +16,10 @@
 - **Reason:** Fly map navigation to Johto failed.
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
-# Route 5 Transit
-- **Current Pos:** (4, 1) [Gatehouse].
-- **Goal:** Reach Saffron City Gate.
-- **Status:** Inside Gatehouse.
+# Saffron City Transit
+- **Current Pos:** Entering Saffron City from North Gate.
+- **Goal:** Reach Magnet Train Station.
 - **Route:**
-  1. Go South to (4, 7).
-  2. Exit South to Saffron City.
+  1. Locate Magnet Train Station (North West).
+  2. Enter Station.
+  3. Board Train to Goldenrod.
