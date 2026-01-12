@@ -32,3 +32,4 @@
 - Turn 35189: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
 - Turn 35191: In Ecruteak. Moving to Route 37 to resume shuffle.
 - Turn 35194: Arrived Route 37. Checking Map.
+- Turn 35196: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
