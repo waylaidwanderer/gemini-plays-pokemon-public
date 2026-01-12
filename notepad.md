@@ -10,14 +10,15 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Pokegear Map Selected. Retrying Open.
-- **Action:** Pressing 'A' again.
+- **Status:** Pokegear Menu Stuck/Unresponsive on Map selection.
+- **Action:** Attempting UI reset: Left -> Right -> A.
+- **Hypothesis:** Menu state might need a cursor refresh.
 - **Goal:** Find Roamer on Route 37.
 - **Strategy:**
-  1. Open Map.
-  2. If Roamer here -> Hunt.
-  3. If not -> Shuffle again.
-- **Observation:** Menu seems sticky. Ensuring 'A' press registers.
+  1. Toggle cursor (Left/Right).
+  2. Press A.
+  3. If Map opens -> Check.
+  4. If fails -> Close (`B`) and Shuffle.
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
