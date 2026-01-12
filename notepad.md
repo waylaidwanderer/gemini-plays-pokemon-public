@@ -30,4 +30,5 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Espeon (Lv73): In progress. Attempting Max Revive on Gorp (Turn #43683).
+- Pikachu (Lv81): Defeated by GNEISS.
+- Espeon (Lv73): In progress. Reviving GORP. (Attempting Max Revive).
