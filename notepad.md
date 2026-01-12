@@ -36,7 +36,7 @@
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
-- Super Repel status: Out of stock. Currently at Ecruteak Mart to restock.
+- Super Repel status: Out of stock. Ecruteak Mart does not sell them. Heading to Goldenrod Dept. Store.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
 
 # Legendary Hunt Strategy
