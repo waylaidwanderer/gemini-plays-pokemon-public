@@ -78,3 +78,9 @@
 1. Navigate Route 2 South to Viridian City.
 2. Continue South to Pallet Town.
 3. Use SURF at Pallet Town to reach Cinnabar Island via Route 21.
+## Viridian City Exploration (Started Turn 42551)
+- Entrance from Route 2 (South): (19, 0).
+- Gramps: (16, 5). (Object 1)
+- Welcome Sign: (19, 1).
+- Cut Tree: (14, 4).
+- Goal: Locate Gym and path to Pallet Town.
