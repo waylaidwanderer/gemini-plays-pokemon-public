@@ -8,7 +8,7 @@
 - LAPIS (Poliwag): Benched. HP 32/32.
 
 # Plan
-- Use Max Potion on GORP to reach full HP (Turn 43995).
+- Use Max Potion on GORP to reach full HP (Turn 43996).
 - Finish Blastoise with Body Slam.
 - Switch to GORP's Surf or XENON/LAPIS if needed for Charizard.
 
