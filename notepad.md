@@ -30,7 +30,7 @@
 - **Immediate Execution:** Close menu, exit store.
 - **Goal Clarity:** Clear. Exit -> Fly -> Hunt.
 - **Inventory Check:** 4 Super Repels, 244 Yen. Ready.
-- Currently at Indigo Plateau Pokecenter 1F.
-- Mistake: Accidentally opened Pokegear.
-- Correction Plan: Exit Pokecenter -> Open Pokemon Menu -> Fly to Ecruteak.
-- Fly Navigation: Indigo Plateau -> Left x3 -> Ecruteak.
+- Currently at Indigo Plateau (Route 23).
+- Mistake: Accidentally opened Pokegear in Turn 35631.
+- Correction Plan: Open Start Menu -> Pokemon -> Mistral -> Fly.
+- Fly Navigation: Indigo Plateau -> Left x10 (to Cianwood) -> Right x2 (to Ecruteak).
