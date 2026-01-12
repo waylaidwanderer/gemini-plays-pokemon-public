@@ -9,23 +9,6 @@
 - Whirlpool: Blockage. Requires Whirlpool HM to clear.
 - Waterfall: Blockage. Requires Waterfall HM to ascend.
 
-# Red's Team Status (Summit of Mt. Silver)
-- Pikachu (Lv81): Defeated.
-- Espeon (Lv73): Defeated.
-- Snorlax (Lv75): Defeated.
-- Venusaur (Lv77): Defeated.
-- Blastoise (Lv77): Defeated.
-- Charizard (Lv77): Active. HP: Reduced (~30-50%). Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
-
-# Battle Strategy: Final Showdown
-- Start Turn: 43980.
-- Current Pokemon: Calcifer (Typhlosion Lv64). HP: 102/204. (Only survivor).
-- Opponent: Charizard (Lv77).
-- Plan:
-  1. Send in Calcifer.
-  2. Use Thunderpunch (2x Super Effective).
-  3. If Calcifer is in danger, use Max Potion or Revive GNEISS (Graveler) as a backup.
-
 # Pokemon Information (Movesets)
 - KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
@@ -41,3 +24,13 @@
 - Fire vs Fire: Not very effective.
 - Fire vs Normal: Neutral.
 - Fire vs Grass: Super Effective.
+
+# Major Achievements
+- Johto League Champion: Confirmed.
+- Kanto Badges: 8/8.
+- Red Defeated: Turn 44045.
+
+# Post-Game Goals
+- Explore remaining unseen tiles in Mt. Silver.
+- Capture remaining Legendaries (Suicune, Legendary Birds, etc.).
+- Complete the Pokedex.
