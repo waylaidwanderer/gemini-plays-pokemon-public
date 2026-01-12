@@ -18,12 +18,13 @@
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
 # Major Achievements
-- Johto League Champion: Confirmed.
+- Johto League Champion: Turn 38104.
 - Kanto Badges: 16/16.
 - Red Defeated: Turn 44045.
 
 # Task: Legendary Hunt
 - Start Turn: 44154
+- Ecruteak Shuffle Start: Turn 44185
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
@@ -41,11 +42,9 @@
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state before long sequences.
 - FLOOR_UP_WALL tiles block movement North (Up) AND block entry from the North (Down).
-- Silver Cave Outside has only two main warps (Poke Center and Room 1 entrance).
-- Mt. Silver Room 1 has an isolated entrance area; the rest of the room must be accessed via Room 2 or another unknown path.
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
 - Fly Usage: Must be outdoors to use Fly.
 - Menu Memory: The menu remembers the last selected option (e.g., PACK instead of POKEMON). Verify cursor position.
-- Map Navigation: Mt. Silver is at the far west of Johto. Flying to Ecruteak requires moving East on the Town Map.
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 is for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
+- Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, GEM, SAVE, OPTION, EXIT. Up from GEM is POKEGEAR.
