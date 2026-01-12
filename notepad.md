@@ -1,7 +1,7 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Fly to Indigo Plateau. (Start Turn: 43171)
-    2. Heal party at Poke Center (KIMCHI is fainted).
+    1. Fly to Indigo Plateau. (Done)
+    2. Heal party at Poke Center (KIMCHI is fainted). (Start Turn: 43181)
     3. Head south to Route 23 Gatehouse.
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit.
     5. Travel West through Route 28 to reach Mt. Silver.
