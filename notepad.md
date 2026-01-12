@@ -1,9 +1,9 @@
 # Roamer Hunt Strategy
-- **Goal:** Catch Raikou (Route 38/42) & Entei (Route 37/42/44).
 - **Current Operation:**
-  1.  **Locate:** Shuffle between Route 42 and Ecruteak Gate until a Roamer appears on Route 42.
-  2.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados to encounter it.
-- **Status:** Shuffling (Gate Method). Observed Roamers on Route 38/44 (Turn 36299).
+  1.  **Check Map:** If Roamer on Route 42 -> Hunt.
+  2.  **Relocate:** If Roamer on Route 38/44 -> Move to Route 38 (West).
+  3.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados.
+- **Status:** Checking Map. Preparing to pivot to Route 38 if Route 42 is empty.
 - **Resources:** 2 Super Repels left. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
