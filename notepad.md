@@ -1,24 +1,22 @@
+# Roamer Hunt Log
+- **Session Start:** Turn 34090.
+- **Goal:** Catch Raikou/Entei.
+- **Current Phase:** Hunt/Shuffle.
+- **Location:** Goldenrod City (Arrived via Magnet Train).
+- **Strategy:** Exit Station -> Check Pokegear -> Fly/Shuffle to intercept.
+
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
 - **Date:** Turn 33314
 - **MVP:** Muscle (Machoke) Lv88.
 
-# Roamer Hunt Log
-- **Session Start:** Turn 34090.
-- **Goal:** Catch Raikou/Entei.
-- **Current Phase:** Transit to Ecruteak City.
-- **Strategy:** Fly to Ecruteak -> Check Pokegear -> Hunt/Shuffle.
-
 # Transit Log: Pewter to Saffron
-- **Method:** Fly -> Walk -> Train.
-- **Current Leg:** Pewter City -> Route 3.
-- **Goal:** Reach Saffron City to take Magnet Train to Johto.
-- **Reason:** Fly map navigation to Johto failed.
-- **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
+- **Status:** COMPLETED.
+- **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
 
-# Saffron City Transit
-- **Current Pos:** (6, 5) [Magnet Train Station].
-- **Goal:** Board Train to Goldenrod.
-- **Status:** Script moved player to platform. Standing at door.
+# Goldenrod City Transit
+- **Current Pos:** (9, 10) [Magnet Train Station].
+- **Goal:** Exit Station.
 - **Route:**
-  1. Press Up to board the train.
+  1. Clear text.
+  2. Walk South to Exit at (9, 17).
