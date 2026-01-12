@@ -8,14 +8,12 @@
     6. **Party Optimization:** Swap Snorlax into the party at the next available PC (replace ICARUS or LAPIS) as per strategist advice.
 
 # Strategy for Route 19/20 Navigation
-- Goal: Reach Seafoam Islands.
 - Started Turn: 42861 (Entered Route 20).
-- Current Turn: 42929.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
 - WALL: Impassable.
-- WATER: Traversable with SURF.
+- WATER: Traversable with SURF. Wild encounters possible (Tentacool, Tentacruel).
 - LEDGE_HOP_DOWN: One-way traversable (North to South). Verified at Cinnabar Island (7, 9).
 - LADDER: Traversable. Acts as land for SURF initiation. Verified at Route 21.
 - CUT_TREE: Impassable until CUT is used.
@@ -26,7 +24,6 @@
 - STAIRCASE: Warp to another floor.
 - TV: Impassable background object.
 - FLOOR_UP_WALL: Impassable from the North. Verified at Route 21 (13, 36).
-- TALL_GRASS: Traversable. Wild encounters. Verified at Route 19.
 
 # Area Records (Kanto)
 ## Viridian City
@@ -40,13 +37,13 @@
 - Professor Oak's Lab (12, 11): Professor Oak and Scientists.
 
 # Battle & Pokémon Data
-## Party Status
-- Calcifer (Typhlosion Lv63): FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH.
-- GNEISS (Graveler Lv54): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
-- ICARUS (Pidgeotto Lv19): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
-- XENON (Haunter Lv44): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- LAPIS (Poliwag Lv12): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
-- KIMCHI (Gloom Lv50): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
+## Observed Movesets
+- Remoraid (Lv32): No moves observed (one-shot by Calcifer's Thunderpunch).
+- Seadra (Lv30): No moves observed (one-shot by Calcifer's Thunderpunch).
+- Seaking (Lv34): No moves observed (one-shot by Calcifer's Thunderpunch).
+- Shellder (Lv30): No moves observed (one-shot by Calcifer's Thunderpunch).
+- Cloyster (Lv34): No moves observed (one-shot by Calcifer's Thunderpunch).
+- Tentacruel (Wild Lv37): No moves observed (escaped).
 
 ## PC Storage (Box 1) (Current) (9/20)
 - GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
