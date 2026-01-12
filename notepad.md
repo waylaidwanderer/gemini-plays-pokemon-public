@@ -23,10 +23,12 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35685):
-  - Current Location: Pallet Town.
-  - Previous Tests: `Right` from Pallet blocked. `Right` from Pewter/Viridian failed/blocked in previous turns.
-  - Hypothesis: Vertical spine (Pewter-Viridian-Pallet-Cinnabar) is isolated from Central Kanto on the West side?
-  - New Route Idea: Try the Southern Connection. Cinnabar -> Right -> Fuchsia.
-  - Action: Down (to Cinnabar) -> Right (to Fuchsia).
-  - Goal: Reach Fuchsia City. From there, Up -> Left to Saffron.
+- Fly Debugging (Turn 35686):
+  - Current Location: Indigo Plateau (Confirmed).
+  - Previous Result: `Down` -> `Right` from Pallet looped back to Indigo (??).
+  - New Plan: Test `Right` -> `Down` from Indigo.
+  - Logic:
+    - If Indigo -> Right = Pewter, then Pewter -> Down = Viridian.
+    - If Indigo -> Right = Cerulean, then Cerulean -> Down = Saffron.
+  - Action: Right -> Wait (2s) -> Down.
+  - Goal: Determine where `Right` leads.
