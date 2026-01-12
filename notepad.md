@@ -42,3 +42,10 @@
 - **Grinding:** Aim for Level 75+ for the entire team to match Red.
 - **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
+
+# Navigation Plan: Victory Road to Mt. Silver
+1. Bypass ladder at (13, 31) by moving: Left (12, 30) -> Down (12, 31) -> Down (12, 32) -> Right (13, 32).
+2. Continue south to y=38.
+3. Move West at y=38 to reach the left side of the cave (x=9).
+4. Head south to exit at (9, 67).
+5. Use Super Repels to avoid wild encounters.
