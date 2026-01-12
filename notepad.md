@@ -8,10 +8,10 @@
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 1 Elixer.
-- Strategy: Use Night Shade now that Dream Eater PP is gone. XENON is immune to Snorlax's attacking moves. Watch for Amnesia (buffs Special Defense). Night Shade ignores these buffs.
+- Strategy: Use Elixer to restore Dream Eater PP. Night Shade has no effect on Snorlax (Normal-type). Haunter is immune to Snorlax's Normal attacks. Maintain Haunter to wall Snorlax safely.
 - Observation: Snorlax woke up and immediately used Rest again at Turn 43863. It's back to full HP.
-- Note: Night Shade deals fixed 44 damage and ignores Amnesia's Sp.Def buffs. Currently on Turn 0 of sleep (Turn 43863).
-- Battle Progress: Snorlax is a complete wall to Haunter; it has no moves that can damage us. This is a safe but slow victory. Night Shade will take ~8-10 hits to force another Rest.
+- Note: Snorlax is immune to Ghost-type moves (Night Shade). Psychic moves (Dream Eater) work. Snorlax has no moves to hit Haunter (Body Slam and Snore are Normal). Currently on Turn 1 of sleep (Turn 43867).
+- Battle Progress: Snorlax is a complete wall to Haunter. This is a safe but slow victory. Night Shade was a mistake; must use Dream Eater. Restoring PP with Elixer is necessary.
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Giga Drain (TM19) or Petal Dance.
