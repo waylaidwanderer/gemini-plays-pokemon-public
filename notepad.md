@@ -12,7 +12,6 @@
 # Team Goals
 - Defeat Trainer Red at the summit of Mt. Silver.
 - Strategy: Stall Espeon's Psychic PP using GORP (Snorlax) as a special tank.
-- Grind team to Lv 75+ post-battle.
 - Evolve KIMCHI (Gloom).
 
 # Red Battle Log
@@ -21,7 +20,7 @@
 - Espeon (Lv73):
   - Psychic Used: 7 (Verified via history).
   - Reflect: Faded (Turn 43712).
-  - GORP (Snorlax): Revived (Turn 43746). Current HP: 123/221.
-  - Calcifer (Typhlosion): Fainted (Turn 43747).
+  - GORP (Snorlax): Revived. HP 123/221. Active.
+  - Calcifer (Typhlosion): Fainted.
 - Items: 4 Full Restores, 11 Max Potions, 18 Revives remaining.
-- Current Status: Switching GORP back in (Turn 43750).
+- Strategy: Use Max Potions on GORP to finish stalling Psychics.
