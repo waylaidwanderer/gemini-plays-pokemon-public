@@ -25,3 +25,4 @@
 # Completed Objectives
 - **Pewter to Saffron Transit:** Completed via Mt. Moon & Magnet Train.
 - **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
+- **Observation:** Roamers spotted on Route 42 and Route 44 (East). Moving to shuffle.
