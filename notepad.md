@@ -14,9 +14,8 @@
 - **Status:** COMPLETED.
 - **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
 
-# Goldenrod City Operations
-- **Current Pos:** Goldenrod City.
-- **Goal:** Catch Raikou/Entei.
-- **Step 1:** Check Pokegear Map. (Done)
-- **Step 2:** Fly to Ecruteak City.
-  - Reason: Central hub for interception.
+# Roamer Hunt: Ecruteak Hub
+- **Current Pos:** Ecruteak City (Pokemon Center).
+- **Goal:** Intercept Raikou/Entei.
+- **Status:** Just arrived via Fly. Roamers likely moved.
+- **Next Step:** Check Pokegear Map to confirm new positions.
