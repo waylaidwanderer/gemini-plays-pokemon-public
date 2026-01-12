@@ -17,10 +17,8 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 4 Transit
-- **Current Pos:** (33, 14).
+- **Current Pos:** (39, 10).
 - **Goal:** Reach Cerulean City (East).
-- **Status:** Navigating the final maze walls.
+- **Status:** At map edge.
 - **Route:**
-  1. Go East to (34, 14).
-  2. Go North to (34, 10) to align with the exit corridor.
-  3. Go East to (39, 10) to enter Cerulean City.
+  1. Press Right to enter Cerulean City.
