@@ -13,9 +13,9 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Navigating Fly Map (New Bark -> Cherrygrove).
-- **Status:** Fly Map Open. Cursor at New Bark Town.
-- **Plan:** Left (to Cherrygrove) -> Left (to Violet) -> Left (to Ecruteak) -> Try Left again (to Olivine).
-- **Hypothesis:** Resetting the map reset the cursor to the start of the list (New Bark). Retrying navigation from scratch.
+- **Status:** Fly Map Open. Cursor stuck at New Bark Town (Turn 34892 input failed).
+- **Plan:** Retry 'Left' with a sleep delay to ensure state capture.
+- **Hypothesis:** Input dropping or lag. Slowing down.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
