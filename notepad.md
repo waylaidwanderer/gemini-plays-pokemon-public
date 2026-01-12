@@ -42,3 +42,8 @@
 - KIMCHI (Lv51 Gloom)
 - GORP (Lv50 Snorlax)
 - GNEISS (Lv54 Graveler)
+
+# Exploration Findings
+- Item at (4, 20): Likely requires Surf at (5, 22) to reach. Deprioritizing since party lacks Surf.
+- Warp at (13, 21): Heading here to explore.
+- Warp at (11, 5): Secondary exploration target.
