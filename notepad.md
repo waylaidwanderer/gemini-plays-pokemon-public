@@ -58,3 +58,11 @@
 - Swimmer Harold (13, 28): [Defeated]
 - Swimmer Dawn (9, 23): [Defeated]
 - Swimmer Tucker (8, 23): [Defeated]
+
+# Blue Strategy (Strategist Advice)
+- Blue Team: No shared weaknesses (Alakazam, Exeggutor, Rhydon, Gyarados, Arcanine, Pidgeot).
+- Counter Alakazam/Exeggutor: Use GORP (Snorlax) with high Special Defense. Teach Body Slam/Shadow Ball.
+- Counter Pidgeot/Arcanine: Use GNEISS (Graveler). Beware Rhydon's Earthquake.
+- Evolution: Evolve KIMCHI (Gloom) using Leaf Stone (Vileplume) or Sun Stone (Bellossom).
+- Training: Level up XENON (Haunter) to Lv50+.
+- Prep: Buy Full Restores at Indigo Plateau.
