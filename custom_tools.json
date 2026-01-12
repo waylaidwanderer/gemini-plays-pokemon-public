@@ -65,65 +65,6 @@
       }
     ]
   },
-  "find_path_v6_robust": {
-    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (like one-way ledges and direction-specific walls) and treating 'unseen' tiles as walkable FLOOR for exploration. Returns a JSON array of buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        data = input_data\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        end_x = int(data['end_x'])\n        end_y = int(data['end_y'])\n    except Exception as e:\n        print(f\"Error parsing input: {e}\")\n        return\n\n    root = ET.fromstring(map_xml_string)\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = {\n                'type': tile.attrib['type'],\n                'has_object': tile.attrib.get('has-object') == 'true'\n            }\n\n    walkable = {'FLOOR', 'LADDER', 'CAVE', 'WARP_CARPET_DOWN', 'DOOR', 'STAIRCASE', 'unseen'}\n\n    queue = deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if (curr_x, curr_y) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if (nx, ny) not in grid:\n                continue\n            \n            target = grid[(nx, ny)]\n            target_type = target['type']\n            \n            if target['has_object'] and (nx, ny) != (end_x, end_y):\n                continue\n            \n            if target_type == 'FLOOR_UP_WALL' and move == 'Down':\n                continue\n            \n            if target_type in walkable or (target_type == 'FLOOR_UP_WALL' and move != 'Down'):\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n                continue\n\n            if target_type == 'LEDGE_HOP_DOWN' and move == 'Down':\n                nnx, nny = nx, ny + 1\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n            elif target_type == 'LEDGE_HOP_LEFT' and move == 'Left':\n                nnx, nny = nx - 1, ny\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n            elif target_type == 'LEDGE_HOP_RIGHT' and move == 'Right':\n                nnx, nny = nx + 1, ny\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n\n    print(\"[]\")\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T03:28:58.212Z",
-        "action_counter": 42451
-      },
-      {
-        "commit_message": "Updated to handle CUT_TREE and WATER as impassable tiles.",
-        "timestamp": "2026-01-12T03:56:06.060Z",
-        "action_counter": 42503
-      },
-      {
-        "commit_message": "Initial implementation of find_path_v6_robust. Fixed collision check to include BOOKSHELF and other impassable objects. Added handling for end-tile objects.",
-        "timestamp": "2026-01-12T04:26:41.178Z",
-        "action_counter": 42572
-      },
-      {
-        "commit_message": "Refined collision logic to include PC and WINDOW. Ensured robust pathfinding around indoor obstacles.",
-        "timestamp": "2026-01-12T04:49:49.114Z",
-        "action_counter": 42622
-      },
-      {
-        "commit_message": "Initial implementation of robust pathfinder.",
-        "timestamp": "2026-01-12T06:33:54.025Z",
-        "action_counter": 42797
-      },
-      {
-        "commit_message": "Refined ledge and FLOOR_UP_WALL logic, added object collision checking.",
-        "timestamp": "2026-01-12T10:07:35.004Z",
-        "action_counter": 43141
-      }
-    ]
-  },
   "menu_navigator": {
     "description": "Executes a sequence of button presses to navigate menus. Returns a JSON array of buttons. Use this to bypass the restriction on mixing directional and action inputs. Automatically handles autopress_buttons.",
     "input_schema": {
