@@ -68,6 +68,6 @@
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 32.2% explored.
 - Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
-- Plan: Locate Pokemon Center and heal Calcifer.
+- Plan: 1. Mark eastern warp at (37, 22). 2. Head west/north to find Pokemon Center. 3. Defeat Janine.
 - Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
 - Observation: (26, 16) is a WALL. Row 16 ends here. Path continues east on rows 17 and 18.
