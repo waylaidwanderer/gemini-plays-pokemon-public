@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35507 - On Fly Map (Violet City). Navigating to Goldenrod. Step 1: Move to Ecruteak (Left). Then Down to Goldenrod.
+- **Status:** Turn 35508 - On Fly Map (Cherrygrove). Navigating to Goldenrod. Input `Left`, `Left` to reach Violet -> Ecruteak/Goldenrod.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
