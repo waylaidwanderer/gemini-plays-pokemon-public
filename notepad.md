@@ -18,3 +18,4 @@
 - **Current Pos:** Exiting Station.
 - **Goal:** Catch Raikou/Entei.
 - **Step 1:** Check Pokegear Map.
+  - Action: Navigate to Map Card to check roamer locations.
