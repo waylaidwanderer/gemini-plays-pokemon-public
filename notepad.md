@@ -52,7 +52,7 @@
 - Step 7: Select GORP (SNORLAX) (Completed).
 - Step 8: Choose move to replace (Completed). Selected YES.
 - Step 9: Select move to delete (Completed). SNORE forgotten.
-- Step 10: Confirm GORP learned SURF (Completed).
-- Step 11: Exit menu (In progress). Pressing B to return to main menu.
+- Step 11: Exit menu (Completed). GORP learned SURF.
+- New Goal: Reach warp at (13, 21) via Water at (13, 30).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
