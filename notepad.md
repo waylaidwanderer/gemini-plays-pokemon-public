@@ -58,4 +58,4 @@
 - Stacks (e.g., Potion x5) occupy one slot.
 - Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
-- Task History: Turn 43296 - Started. Turn 43325 - Failed (Trainer Card). Turn 43329 - Failed (Pokemon Menu). Turn 43330 - Attempting toss from Pokemon Menu cursor.
+- Task History: Turn 43296 - Started. Turn 43325 - Failed (Trainer Card). Turn 43329 - Failed (Pokemon Menu). Turn 43330 - Failed (Gear Menu). Turn 43331 - Attempting toss with cursor reset. Goal: Toss BERRY.
