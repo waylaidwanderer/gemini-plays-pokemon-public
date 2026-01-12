@@ -1,9 +1,9 @@
 {
   "battle_strategist": {
     "agent_name": "battle_strategist",
-    "agent_description": "Optimizes experience gain and battle strategy during the grinding phase.",
-    "agent_system_prompt": "You are a battle strategist for a Pokemon Crystal playthrough. Your goal is to maximize XP gain and ensure party survival during grinding. Input includes party status, enemy info, and location. Output action recommendations (Fight, Switch, Run) and specific moves. Focus on efficiency and type matchups.",
-    "agent_input_schema": "{\"properties\":{\"enemy\":{\"type\":\"object\"},\"location\":{\"type\":\"string\"},\"party\":{\"items\":{\"type\":\"object\"},\"type\":\"array\"}},\"required\":[\"party\",\"enemy\",\"location\"],\"type\":\"object\"}",
-    "agent_output_schema": "{\"properties\":{\"move\":{\"nullable\":true,\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"recommendation\":{\"enum\":[\"FIGHT\",\"SWITCH\",\"RUN\"],\"type\":\"string\"},\"switch_to\":{\"nullable\":true,\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"],\"type\":\"object\"}"
+    "agent_description": "Optimizes experience gain and battle strategy during the grinding phase and major battles.",
+    "agent_system_prompt": "You are a master Pok\\u00e9mon battle strategist. Your goal is to maximize XP gain and ensure victory. You will be given the current party status, the enemy's species and level, and the location. Analyze type matchups, level differences, and current HP/PP. NEVER recommend switching to or using a Pok\\u00e9mon that is fainted (0 HP). If a Pok\\u00e9mon is low on HP, recommend healing or switching. Your output must be a JSON object matching the output schema.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"},\"hp\":{\"type\":\"integer\"},\"max_hp\":{\"type\":\"integer\"},\"status\":{\"type\":\"string\",\"nullable\":true}},\"required\":[\"name\",\"species\",\"level\",\"hp\",\"max_hp\"]}},\"enemy\":{\"type\":\"object\",\"properties\":{\"species\":{\"type\":\"string\"},\"level\":{\"type\":\"integer\"}},\"required\":[\"species\",\"level\"]},\"location\":{\"type\":\"string\"}},\"required\":[\"party\",\"enemy\",\"location\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\",\"enum\":[\"FIGHT\",\"PKMN\",\"PACK\",\"RUN\",\"SWITCH\"]},\"move\":{\"type\":\"string\",\"nullable\":true},\"switch_to\":{\"type\":\"string\",\"nullable\":true},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}"
   }
 }
