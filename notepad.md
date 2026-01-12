@@ -45,6 +45,7 @@
 - Strategy Change: 1-2 button presses at a time.
 - Step 1: Open Menu (Completed).
 - Step 2: Move cursor to PACK (Completed).
-- Step 3: Enter PACK (In progress).
+- Step 3: Enter PACK (Completed).
+- Step 4: Find HM03 SURF in TM/HM pocket (In progress).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
