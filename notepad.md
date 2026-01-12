@@ -41,3 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
+- Fly Sequence Confirmed:
+  1. Menu on POKEMON -> Press A.
+  2. Scroll to Mistral (Slot 4) -> Press A.
+  3. Select FLY (Top option) -> Press A.
+  4. Map: Left x3 -> Press A to Fly to Ecruteak.
+- Executing now.
