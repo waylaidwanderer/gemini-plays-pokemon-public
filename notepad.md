@@ -41,7 +41,7 @@
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Current Targets: (0, 35), (19, 35).
+- Current Targets: (0, 35), (19, 35). (Currently isolated, checking outside).
 - Status: 99.7% explored.
 
 # Lessons Learned
@@ -61,7 +61,7 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Navigate to (8, 33) to verify if (8, 34) is a barrier from the North.
-2. If passable, reach (0, 35) and (19, 35).
-3. If blocked, find alternate route to column 0 (likely via top row or Room 2).
+1. Exit Room 1 via (9, 33).
+2. Explore SilverCaveOutside for other entrances.
+3. If no other entrances, check Room 2 for hidden paths to Room 1.
 4. Reach 100% completion and exit to Silver Cave Outside.
