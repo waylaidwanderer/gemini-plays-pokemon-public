@@ -84,7 +84,7 @@
 - Goal: Reach exit at (9, 67).
 - Step 1: Navigate to ladder at (13, 17) on 1F. [Completed]
 - Step 2: Descend to 2F at (13, 31). [Completed]
-- Step 3: Navigate to (7, 38) on 2F and hop Left. [Current Step]
-- Step 4: Reach ladder at (1, 35) on 2F.
-- Step 5: Descend to 3F at (1, 49).
-- Step 6: Reach exit at (9, 67).
+- Step 3: Navigate to (7, 38) on 2F and hop Left. [Completed]
+- Step 4: Reach ladder at (1, 35) on 2F. [Completed]
+- Step 5: Descend to 3F at (1, 49). [Completed]
+- Step 6: Reach exit at (9, 67). [Current Step]
