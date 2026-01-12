@@ -18,7 +18,7 @@
 
 ## Battle and Pokemon Information
 ### Party Movesets
-- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
+- Calcifer (Typhlosion): Flamethrower (0 PP), Return, Smokescreen, Thunderpunch.
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
