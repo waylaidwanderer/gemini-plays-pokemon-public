@@ -17,11 +17,11 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Mt Moon Navigation Plan
-- **Current Pos:** (20, 6) [Mt Moon Square].
+- **Current Pos:** (20, 7).
 - **Goal:** Reach Route 4 Exit.
-- **Status:** In Square. Heading to East cave entrance.
+- **Status:** Skipping sign. Heading to East cave entrance via ledge.
 - **Route:**
-  1. Read sign at (17, 7).
-  2. Jump ledge at x=19 (Row 11).
-  3. Enter cave at (22, 11).
+  1. Go Left to (19, 7), then South to ledge at (19, 11).
+  2. Hop ledge to (19, 12).
+  3. Go East to (22, 12), then Up into cave at (22, 11).
   4. Follow tunnel to Route 4.
