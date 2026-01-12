@@ -28,6 +28,10 @@
 - **STAIRCASE:** Warp. Reachable.
 
 # Area Records (Kanto)
+## Route 22 (23_2)
+- Ledge hop at (25, 13) required to pass wall at x=26.
+- Viridian City entry: East edge (x=39).
+
 ## Victory Road Gatehouse (23_13)
 - Officer (8, 11): Guarding North path. Requires Johto badges. (Interaction: face Left from (9, 11)).
 - East Exit (17, 7): To Route 22 (Viridian City).
