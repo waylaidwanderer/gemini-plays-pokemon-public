@@ -43,29 +43,23 @@
 ## Economy & Shopping
 - Celadon Dept Store: Large selection, no evolution stones.
 
-## Celadon City Investigation
-- Mansion Roof House: Storyteller NPC only active at night.
-- Gym Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through gap in ledge at (5,33). Warp at (10, 29).
-
-## Kanto Secrets & NPC Schedules
-- Daisy Oak (Pallet Town): Tea time 3-4 PM daily.
+## Fuchsia City Investigation (Started Turn 42186)
+- Objective: Find Pokemon Center and Gym.
 - Soul Badge: Fuchsia City Gym (Leader Janine).
+- NPC Lore:
+    - Youngster (Object 1, Overworld): Elite Four member used to be the Gym Leader.
+    - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
+- Safari Zone Main Office: (22, 13). Visited. No items or useful NPCs.
+- Route 15 Gatehouse: Eastern exit of city.
+- Bill's Older Sister's House: (11, 27). Inside (Turn 42243).
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
-- Next Step: Defeat Janine (Fuchsia).
+- Priority: Find Pokemon Center to restore Calcifer's PP.
 
 ## General Lessons & Error Log
 - NPC Interaction: Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - Ledges: Hop down south only.
 - Menu Navigation: Use single `press_buttons` to verify menu state.
 - Route 17 Physics: Downhill mechanic requires constant Northward inputs.
-
-## Fuchsia City Exploration (Started Turn 42186)
-- Objective: Find Pokemon Center and Gym.
-- Observation: Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
-- Interaction Log:
-    - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
-- Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
-- Route 15 Gatehouse: Eastern exit of city.
-- Bill's Older Sister's House: (11, 27). Inside (Turn 42243).
+- Fuchsia Navigation: Row 22 wall blocks North movement except at X=0, 1. (4, 31) is a wall.
