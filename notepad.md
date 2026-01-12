@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Selecting Mistral -> Fly -> Navigate 'Left'.
-- **Status:** In Party Menu (Cursor on CANCEL).
-- **Plan:** Move Up x3 to Mistral -> Select Fly -> Open Map -> Press Left.
-- **Goal:** Verify Fly Map starting location (Silver Cave) and movement direction.
-- **Target:** Goldenrod City (for Repels).
+- **Action:** Exiting Menus (Fly Disabled).
+- **Status:** Clearing menus. Fly failed at Silver Cave.
+- **Fact:** Cannot Fly from "Silver Cave Outside".
+- **Plan:** Walk to Route 28 -> Fly to Goldenrod.
+- **Context:** Accidentally flew to Silver Cave in Turn 34889. Now correcting course.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
