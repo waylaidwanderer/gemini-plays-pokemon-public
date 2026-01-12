@@ -22,8 +22,9 @@
 - Attempt 2 (Turn 44018): Revived LAPIS instead.
 - Attempt 3 (Turn 44022): Selected QUIT instead of USE.
 - Attempt 4 (Turn 44023): Revived Calcifer instead.
-- Attempt 5 (Turn 44024): Selected Calcifer again (It won't have any effect).
-- Attempt 6 (Turn 44026): Navigating from Slot 3 (Calcifer) to Slot 5 (GNEISS). Down x2.
+- Attempt 5 (Turn 44024): Selected Calcifer again.
+- Attempt 6 (Turn 44026): Selected CANCEL from SODA POP menu.
+- Attempt 7 (Turn 44027): Navigating from SODA POP to REVIVE (Up x2), then selecting GNEISS (Slot 5). Strategy: Revive, then Max Potion.
 
 # Battle Log: The Final Stand
 - Turn 44007: GORP fainted. Sent in LAPIS.
