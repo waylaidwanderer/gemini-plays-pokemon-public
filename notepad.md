@@ -1,31 +1,20 @@
-# Tile Mechanics
-- Walkable: FLOOR, GRASS, WATER (needs SURF).
-- Impassable: WALL, COUNTER.
-- One-way: LEDGE.
-- Transitions: WARP.
-- Obstacles: TREE (CUT), WHIRLPOOL (HM06), WATERFALL (HM07).
-
-# Lessons Learned
-- Type Matchups: Normal-types immune to Ghost moves. Ghosts immune to Normal/Fighting moves.
-- Menu Precision: Be careful in party menus (SWITCH vs STATS).
-- Snorlax Strategy: Body Slam for paralysis, Rest for full heal.
-
-# Red Battle Log (Summit of Mt. Silver)
+# Red's Team Status (Summit of Mt. Silver)
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Defeated.
-- Snorlax (Lv75): Defeated by GNEISS (Turn 43968).
-- Venusaur (Lv77): Defeated by GNEISS (Turn 43969).
-- Blastoise (Lv77): Active. PARALYZED. Moves: Blizzard, Surf (Confirmed), Rain Dance, Snore.
+- Snorlax (Lv75): Defeated.
+- Venusaur (Lv77): Defeated.
+- Blastoise (Lv77): Active. PARALYZED. HP: Critical. Moves: Blizzard, Surf, Rain Dance, Snore.
 - Charizard (Lv77): Remaining.
 
-# Current Team Status
-- GORP (Snorlax): Active. HP 129/221. Moves: SURF, REST, BODY SLAM, ROLLOUT. Leftovers equipped.
-- XENON (Haunter): Benched. HP 111/111. Moves: HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- LAPIS (Poliwag): Benched. HP 32/32.
-
-# Plan
-- Finish Blastoise with Body Slam.
-- For Charizard: Use GORP's Surf/Body Slam. Switch to LAPIS if GORP falls.
+# Current Strategy
+- Blastoise: Finish with GORP's Body Slam. GORP is at 129/221 HP.
+- Charizard: Use GORP (Body Slam/Rollout). GORP's high Sp.Def is key.
+- Backup: XENON (Night Shade for fixed damage), LAPIS (Waterfall/Surf).
 
 # Inventory
 - Items: 1 Full Restore, 7 Max Potions, 18 Revives, 12 Full Heals.
+
+# Tile Mechanics
+- Walkable: FLOOR, GRASS, WATER (SURF).
+- Impassable: WALL, COUNTER.
+- Special: LEDGE (One-way), WARP (Transitions), TREE (CUT), WHIRLPOOL (HM06), WATERFALL (HM07).
