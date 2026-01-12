@@ -41,5 +41,4 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS (Turn #43644).
-- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves (Max Revive used Turn #43666).
+- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves.
