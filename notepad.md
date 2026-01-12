@@ -18,6 +18,7 @@
 - Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 12/16 (verified from turn-by-turn logs). Reflect faded. GORP fainted.
-- Strategy: Revive GORP (Snorlax), then continue stall (4 Psychics left).
+- Psychic Used: 7/16 (verified). Reflect faded. GORP fainted.
+- Strategy: Revive GORP (Snorlax).
 - Items: 4 Full Restores, 11 Max Potions, 19 Revives remaining.
+- Revival Attempt Started: Turn 43741.
