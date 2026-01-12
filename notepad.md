@@ -12,7 +12,7 @@
 - Entrance/Exit: Warp at (5, 5) (FLOOR tile).
 - Gym Leader Blaine: (5, 2).
 - Strategy: Lead GNEISS (Graveler Lv54). Use Earthquake. Backup: Calcifer.
-- Observed Team: Magcargo (Lv45) [Defeated], Magmar (Lv45) [Active].
+- Observed Team: Magcargo (Lv45) [Defeated], Magmar (Lv45) [Defeated], Rapidash (Lv50) [Active].
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
