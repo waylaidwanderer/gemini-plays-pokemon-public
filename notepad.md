@@ -19,9 +19,10 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42170
-- Time Elapsed: ~108 turns
-- Status: Inside Route 17-18 Gatehouse. Talking to Officer (5, 2). Goal: Route 18.
+- Current Turn: 42174
+- Time Elapsed: ~112 turns
+- Status: Entered Route 18 from gatehouse (2, 6). Goal: Fuchsia City.
+- Observation: Route 18 has tall grass and water.
 
 ## Strategy for Navigating Route 17 (Bottom Area)
 - Observation: Row 85 is a WALL barrier from X=5 to X=19. Row 84 at X=16, 17, 18, 19 is also a WALL.
