@@ -1,6 +1,6 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Tile Mechanics (Verified Behavior)
+## Global Tile Mechanics
 - FLOOR: Standard traversable tile. No special effects.
 - FLOOR (Route 17): Downhill coasting mechanic (automatic South movement). North movement requires constant input. (Verified Turn 42121)
 - WALL: Impassable collision. Blocks all movement.
@@ -16,6 +16,18 @@
 - WARP_CARPET: (7,3) and (8,3) in Celadon Dept Store 5F are traversable floor tiles, not active warps. (Verified Turn 41878)
 - OBJECTS (NPCs/Items): Impassable collision. Must be navigated around. Interaction possible from adjacent tiles.
 - PC / BOOKSHELF: Impassable collision. Interaction possible from adjacent tiles.
+
+## Fuchsia City Journey Tracking
+- Start Turn: 42062
+- Current Turn: 42157
+- Time Elapsed: ~95 turns
+- Status: At the bottom of Route 17, attempting to exit to Route 18.
+
+## Strategy for Navigating Route 17 (Bottom Area)
+- Observation: Row 85 contains a wall barrier from X=6 to X=13.
+- Hypothesis: The path forward is through the far right (X >= 14) or far left (X <= 5) lanes.
+- Plan: Navigate east to X=17 at Row 82/83 to use the gatehouse warps.
+- Update (Turn 42157): Downhill mechanic makes North movement to Row 83 difficult. Aiming for Row 82 to allow for drift.
 
 ## Battle and Pokemon Information
 ### Party Movesets
@@ -62,11 +74,6 @@
 - Pallet Town: Not yet visited. Cannot Fly there until visited on foot.
 - Soul Badge: Fuchsia City Gym Leader Janine.
 
-## Fuchsia City Journey (Started Turn 42062, Jan 11 4:01 PM)
-- Strategy: Traverse Route 16, 17, and 18 via Cycling Road.
-- Requirement: Bicycle (Confirmed in Key Items).
-- Goal: Reach Fuchsia City, defeat Janine for the Soul Badge.
-
 ## Strategy for Remaining Kanto Journey
 - Objective: Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
 - Strategic Plan:
@@ -88,8 +95,3 @@
 - Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
 - Downhill mechanic makes Northward recovery extremely difficult.
 - Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17?) for safety.
-## Strategy for Navigating Route 17 (Bottom Area)
-- Observation: Row 85 contains a wall barrier from X=6 to X=13.
-- Hypothesis: The path forward is likely through the far right (X >= 14) or far left (X <= 5) lanes.
-- Plan: Navigate east to X=14 at Row 84 to bypass the wall at Y=85.
-- Start Turn: 42154.
