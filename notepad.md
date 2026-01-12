@@ -9,7 +9,7 @@
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory Management: Protein collected Turn 43358. Bag: 20/20. Using Protein on Calcifer via Up, Up from top of PACK.
+- Inventory Management: Protein collected Turn 43358. Bag: 20/20. Plan: Open PACK, find PROTEIN, use on Calcifer. Cursor likely at OPTION.
 - Task Started: Turn 43296. Goal: Collect item at (7, 18).
 
 # Area Records: Silver Cave Room 1 (3_74)
