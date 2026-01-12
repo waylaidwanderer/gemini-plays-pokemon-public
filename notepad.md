@@ -68,3 +68,4 @@
 - Swimmer Nicole (Object 1) at (52, 8): [Defeated] Roster: Marill (Lv29), Marill (Lv29), Lapras (Lv32).
 - Marill (Lv29): No moves observed (one-shot).
 - Lapras (Lv32): No moves observed (one-shot).
+- Tentacool (Wild Lv34): No moves observed (escaped).
