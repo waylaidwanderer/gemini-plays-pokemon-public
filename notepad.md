@@ -61,7 +61,7 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Use FLASH with KIMCHI to ensure visibility.
-2. Navigate to (0, 35) to uncover the bottom-left corner.
-3. Navigate to (19, 35) to uncover the bottom-right corner.
-4. Verify 100% completion and exit to Silver Cave Outside.
+1. Navigate to (8, 33) to verify if (8, 34) is a barrier from the North.
+2. If passable, reach (0, 35) and (19, 35).
+3. If blocked, find alternate route to column 0 (likely via top row or Room 2).
+4. Reach 100% completion and exit to Silver Cave Outside.
