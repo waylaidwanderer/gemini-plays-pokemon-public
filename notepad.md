@@ -11,7 +11,7 @@
 
 # Team Goals
 - Defeat Trainer Red at the summit of Mt. Silver.
-- Strategy: Stall Espeon's Psychic PP using GORP (Snorlax) as a special tank.
+- Strategy: Use XENON's Ghost immunity against Snorlax's Normal moves.
 - Evolve KIMCHI (Gloom).
 
 # Red Battle Log (Verified via History)
@@ -20,9 +20,9 @@
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves Used: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
 - Snorlax (Lv75): Active (Turn 43778). 
-  - Moves Used: Body Slam (3).
-- GNEISS (Graveler): HP 24/152. Paralyzed.
+  - Moves Used: Body Slam (3+).
+- XENON (Haunter): Active. HP 111/111. Immune to Normal.
+- GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
-- XENON (Haunter): Ghost-type.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
-- Strategy: Switch to XENON (Immune to Normal). Chip with Night Shade or Hypnosis/Dream Eater.
+- Strategy: Use Night Shade for fixed damage (44 HP). Use Hypnosis if Snorlax uses non-Normal moves.
