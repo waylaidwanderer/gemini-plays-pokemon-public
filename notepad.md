@@ -35,3 +35,8 @@
 - KIMCHI (Grass STAB) vs Blastoise/Lapras.
 - Calcifer vs Venusaur/Charizard.
 - Target Level for Red: 75+.
+
+# Area Records: Silver Cave Room 3 (3_76)
+- Warp to Room 2: (9, 33).
+- Layout: Large room, exploration required.
+- Goal: Find the path to Red.
