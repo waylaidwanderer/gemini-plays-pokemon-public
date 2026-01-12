@@ -10,26 +10,22 @@
 - **Strategy:** Fly to Ecruteak -> Check Pokegear -> Hunt/Shuffle.
 
 # Current Problem: Fly Map Navigation
-- **Status:** Map Cursor at Fuchsia City (Kanto).
-- **Goal:** Fly to Saffron City to take Magnet Train.
-- **Navigation:** Pressing UP from Fuchsia should lead towards Saffron.
+- **Status:** Accidentally flew to Indigo Plateau (Route 23).
+- **Goal:** Fly to Pewter City.
+- **Correction:** Pewter City is to the **RIGHT** (East) of Indigo Plateau, not Left.
 - **Plan:**
-  1. Navigate Cursor to Saffron City.
-  2. Fly to Saffron.
-  3. Walk to Station -> Take Train -> Arrive Goldenrod.
-  4. Fly to Ecruteak from Goldenrod.
+  1. Open Fly Map.
+  2. Verify cursor is on Indigo Plateau.
+  3. Move Cursor **RIGHT** to select Pewter City.
+  4. Verify Text says "Pewter City".
+  5. Confirm.
 
-# Lessons Learned
-- **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
-- **Economics:** Super Repels > Max Repels.
-- **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-
-# Transit Log: Pewter to Saffron
-- **Method:** Walking/Train.
-- **Current Leg:** Route 3 -> Mt. Moon.
+# Transit Log: Indigo Plateau to Saffron
+- **Method:** Fly -> Walk -> Train.
+- **Current Leg:** Indigo Plateau -> Pewter City.
 - **Goal:** Reach Saffron City to take Magnet Train to Johto.
-- **Reason:** Fly map navigation to Johto failed.
-- **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
+- **Reason:** Fly map navigation error.
+- **Next Steps:** Fly to Pewter -> Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
 - **Current Position:** (13, 10) [Lower Path].
