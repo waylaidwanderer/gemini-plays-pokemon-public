@@ -148,12 +148,17 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 2500\", \"Right\", \"sleep 2500\", \"Start\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3000\", \"Right\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T20:22:49.714Z",
         "action_counter": 36226
+      },
+      {
+        "commit_message": "Fixed commit message error. Increased sleep times to 3000ms to ensure reliable warping and added B presses to clear menus.",
+        "timestamp": "2026-01-12T20:26:03.884Z",
+        "action_counter": 36228
       }
     ]
   }
