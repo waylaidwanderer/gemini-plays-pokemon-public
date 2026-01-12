@@ -1,6 +1,4 @@
 # Strategic Plan: Kanto Badges & Cinnabar Island
-- **Primary Goal:** Defeat the remaining Kanto Gym Leaders (Blaine and Blue). (Started Turn 42549, 1/11/26 9:00 PM)
-- **Secondary Goal:** Reach Cinnabar Island. (Started Turn 42661, 1/11/26 9:15 PM)
 - **Strategy (The HOW):**
     1. Navigate south through Viridian City to reach Pallet Town.
     2. Visit Professor Oak's Lab in Pallet Town.
@@ -62,10 +60,9 @@
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
 
 # Trainer Encounters (Route 1)
-- Schoolboy Danny (Object 1) at (7, 12): Defeated at turn 42694. Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
+- Schoolboy Danny (Object 1) at (7, 12): Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
 
 # Strategy: Pallet Town Exploration
-- [Turn 42699] Arrived in Pallet Town.
 - Observed: Entry from Route 1 at (8, 0).
 - Observed: Pallet Town Sign at (7, 9) reads "PALLET TOWN A Tranquil Setting of Peace & Purity."
 - Plan: Talk to the Teacher, visit Red's house (5, 5), Blue's house (13, 5), and Professor Oak's Lab (12, 11).
