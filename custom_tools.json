@@ -167,32 +167,5 @@
         "action_counter": 35770
       }
     ]
-  },
-  "check_roamers": {
-    "description": "Opens Pokegear Map reliably by resetting cursor positions, waits for screenshot to capture Roamer locations, then automatically closes the map and menu to return to Overworld.",
-    "input_schema": {},
-    "python_script": "print('[\"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"A\", \"Left\", \"Left\", \"Left\", \"Left\", \"Right\", \"A\", \"sleep 2000\", \"Up\", \"sleep 500\", \"B\", \"sleep 500\", \"B\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T16:54:46.225Z",
-        "action_counter": 35918
-      },
-      {
-        "commit_message": "Updated to automatically close the Pokegear menu after checking the map, ensuring the player returns to the Overworld state. Added sleep delays to allow for screenshot capture of the map.",
-        "timestamp": "2026-01-12T17:16:14.917Z",
-        "action_counter": 35950
-      },
-      {
-        "commit_message": "Added a dummy 'Up' button press while the map is open to force an IntermediateState capture of the map screen. This ensures the map is visible in the logs.",
-        "timestamp": "2026-01-12T17:18:29.579Z",
-        "action_counter": 35953
-      },
-      {
-        "commit_message": "Refined tool to be robust against cursor memory. Now aligns the Start Menu cursor to 'Pokegear' by forcing it to the top and moving down, and aligns the Pokegear cursor to 'Map' by forcing it left and moving right.",
-        "timestamp": "2026-01-12T18:11:08.219Z",
-        "action_counter": 36031
-      }
-    ]
   }
 }
