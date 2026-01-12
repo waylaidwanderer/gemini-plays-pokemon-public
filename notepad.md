@@ -54,16 +54,14 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, GEM, SAVE, OPTION, EXIT. Up from GEM is POKEGEAR.
 - Fly map scrolling can be sensitive; verify destination before pressing A. (Lake of Rage misclick Turn 44263)
-- Currently at Lake of Rage (17, 27). Moving to land at (17, 28) to Fly to Goldenrod City. (Turn 44276)
 
-# Goldenrod Restock Plan (Turn 44278)
-1. Fly to Goldenrod City from Lake of Rage.
+# Goldenrod Restock Plan (Started: Turn 44278)
+1. Fly to Goldenrod City.
 2. Navigate to Goldenrod Dept. Store (North of PC).
 3. Buy a full stack (or as many as possible) of Super Repels.
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
-# Fly Map Navigation (Lake of Rage to Goldenrod)
-- Current Position: New Bark Town (cursor).
+# Fly Map Navigation (To Goldenrod)
 - Target: Goldenrod City.
 - Strategy: Press Left until Goldenrod is selected, then press A.
