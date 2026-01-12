@@ -6,10 +6,10 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (26, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Repel Active (Last one). Resuming hunt after Wade's call.
+- **Action:** Reapplying Repel (Calculated 1 remaining). If failed, switching to Lugia.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36399.
-- **Resources:** 0 Super Repel, 0 Repel. ¥244.
+- **Hunt Session:** Started ~Turn 36369. Current: 36405.
+- **Resources:** 0 Super Repel, 1 Repel (calculated). ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
