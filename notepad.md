@@ -21,5 +21,5 @@
 - Snorlax (Lv75): Active (Turn 43778).
 - GORP (Snorlax): HP 141/221. Active. Accuracy -1.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives.
-- Strategy: Heal GORP or switch to GNEISS (Graveler) to reset accuracy and tank physical hits. GNEISS resists Normal moves.
+- Strategy: Switch to GNEISS (Graveler) to reset accuracy and tank physical hits. GNEISS resists Normal moves.
 - Psychic Stalled: 7/16. Swifts: 3. Mud-Slap: 1.
