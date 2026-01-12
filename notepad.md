@@ -62,13 +62,15 @@
 - [Turn 42574] Verified Speary (Spearow) at (5, 2) in Nickname Speech House (MOLTRES_SPRITE).
 - [Turn 42597] Nickname Speech House: Exploration complete.
 - [Turn 42605] Entered Trainer House 1F.
+- [Turn 42609] Cooltrainer M mentions Viridian is the town closest to INDIGO PLATEAU.
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
 - TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
 - TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
-- COUNTER: Verified interaction in Trainer House 1F.
+- COUNTER: Blocks movement; allows interaction with NPCs behind it. Verified in Trainer House 1F.
+- WARP_CARPET_DOWN: Standard exit tile.
 ## Trainer House 1F (Map 23_6)
 - Entrance/Exit: (2, 13) and (3, 13) lead to Viridian City (23, 15).
 - Receptionist: (0, 11). Behind a counter.
