@@ -17,10 +17,7 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Discovery:** Route 3 Row 5 has a FLOOR tile at x=7 (Gap in Ledges).
-- **Hypothesis:** I can switch from Middle Lane (Row 6-7) to Upper Lane (Row 2-4) at x=7.
-- **Plan:**
-  1. Walk to (7, 7).
-  2. Walk North through (7, 5) to (7, 4).
-  3. Traverse Upper Lane East past the wall at x=13.
-- **Goal:** Reach Mt. Moon Entrance at (52, 1).
+- **Success:** Found gap at (7, 5) and accessed Upper Lane (Rows 2-4).
+- **Current Status:** On Upper Lane at (7, 4).
+- **Verified:** The "Wall" at x=13 only blocks Rows 5-18. Rows 2-4 are CLEAR.
+- **Plan:** Walk East along Row 4 to the Mt. Moon Entrance at (52, 1).
