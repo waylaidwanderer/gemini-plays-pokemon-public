@@ -2,16 +2,16 @@
 - Start: Turn 43634 (Monday, January 12, 2026 at 10:13 AM PST)
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 10/15 (restored via Elixer). Night Shade PP: 15/15.
-- Snorlax (Lv75): Active. Asleep (Turn 43863 via Rest).
-  - Moves: Body Slam, Snore, Rest (6/10), Amnesia. (Haunter is immune to Normal).
+- Snorlax (Lv75): Active. Awake (Turn 43874). Sp.Def +4 (Amnesia x2).
+  - Moves: Body Slam, Snore, Rest (6/10), Amnesia. (Haunter immune to Normal).
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 9/15. Hypnosis PP: 19/20.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
-- Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 1 Elixer.
-- Strategy: Use Elixer to restore Dream Eater PP. Night Shade has no effect on Snorlax (Normal-type). Haunter is immune to Snorlax's Normal attacks. Maintain Haunter to wall Snorlax safely.
-- Observation: Snorlax woke up and immediately used Rest again at Turn 43863. It's back to full HP.
-- Note: Snorlax is immune to Ghost-type moves (Night Shade). Psychic moves (Dream Eater) work. Snorlax has no moves to hit Haunter (Body Slam and Snore are Normal). Currently on Turn 1 of sleep (Turn 43867).
-- Battle Progress: Snorlax is a complete wall to Haunter. This is a safe but slow victory. Night Shade was a mistake; must use Dream Eater. Restoring PP with Elixer is necessary.
+- Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
+- Strategy: Use Hypnosis to sleep Snorlax, then Dream Eater. XENON is immune to Snorlax's Normal attacks. Amnesia buffs Sp.Def, making Dream Eater less effective.
+- Observation: Snorlax woke up (Turn 43874) and is buffing Sp.Def.
+- Note: Ghost moves (Night Shade) fail on Normal. Psychic moves (Dream Eater) work on sleeping targets.
+- Battle Progress: Snorlax is walled by Haunter. Used Elixer on Turn 43870.
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Giga Drain (TM19) or Petal Dance.
