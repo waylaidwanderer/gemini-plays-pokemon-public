@@ -20,8 +20,8 @@
 - Evolve KIMCHI (Gloom).
 
 # Red Battle Log
-- Start Turn: 43692.
+- Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 4/16 (estimated).
+- Psychic Used: 5/16 (estimated). Reflect faded.
 - Strategy: Heal GORP every turn until Psychic is depleted.
