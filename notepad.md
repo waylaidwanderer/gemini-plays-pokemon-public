@@ -53,6 +53,7 @@
 - Turn 44063: Encountered wild Graveler. Running.
 - Turn 44064: Encountered wild Graveler. Running.
 - Turn 44065: Resuming exploration.
+- Turn 44069: Encountered wild Ursaring at (6, 22). Running to continue exploration. Goal: (0, 35).
 
 # Legendary Hunt List
 - Suicune: Tracks unknown.
