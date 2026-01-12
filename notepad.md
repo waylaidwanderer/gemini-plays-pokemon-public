@@ -49,6 +49,7 @@
 - Step 4: Find HM03 SURF in TM/HM pocket (Completed). Cursor on HM03 SURF.
 - Step 5: Select HM03 SURF (Completed). USE/QUIT menu open. Cursor on USE.
 - Step 6: Select YES (Completed). Party menu open.
-- Step 7: Select GORP (SNORLAX) (In progress). Cursor on GNEISS. Moving to GORP.
+- Step 7: Select GORP (SNORLAX) (Completed).
+- Step 8: Choose move to replace (In progress).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
