@@ -68,5 +68,5 @@
 - Attempt 1 (Turn 44263): Misclicked Lake of Rage.
 - Attempt 2 (Turn 44284): Misclicked New Bark Town.
 - Attempt 3 (Turn 44285): Misclicked New Bark Town.
-- Attempt 4 (Turn 44290): Cursor moved to Goldenrod but reset. 
-- Attempt 5 (Turn 44291): Cursor didn't move. Currently at New Bark Town. Simplifing menu navigation.
+- Attempt 4 (Turn 44290): Cursor moved to Goldenrod but reset.
+- Attempt 5 (Turn 44291): Currently at New Bark Town. Simplifying menu navigation.
