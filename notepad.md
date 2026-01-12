@@ -4,12 +4,12 @@
   2.  **Check:** Use Pokegear to locate Roamers.
   3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
 - **Status:** HUNTING (Route 38).
-- **Location:** Tall Grass at (26, 7).
+- **Location:** Tall Grass at (24, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Using Repel (2 remaining). Screen confirms existence despite Game State list.
+- **Action:** Running from Wild Rattata (Repel app failed). Reapplying Repel immediately.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36406.
-- **Resources:** 0 Super Repel, 2 Repels (Verified visual). ¥244.
+- **Hunt Session:** Started ~Turn 36369. Current: 36407.
+- **Resources:** 0 Super Repel, 2 Repels. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
