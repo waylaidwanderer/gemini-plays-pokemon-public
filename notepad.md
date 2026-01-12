@@ -66,3 +66,9 @@
 - Ledges: Hop down south only.
 - Menu Navigation: Use single `press_buttons` to verify menu state.
 - Route 17 Physics: Downhill mechanic requires consistent Northward inputs or rapid tapping to overcome drift.
+## Fuchsia City Exploration (Started Turn 42186)
+- Objective: Find Pokemon Center and Gym.
+- Observation: City has a complex layout with many interior fences/walls.
+- Interaction Log:
+    - Youngster (Object 1): Moving around near (24, 19).
+- Map Progress: 19.6% explored.
