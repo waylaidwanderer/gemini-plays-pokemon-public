@@ -2,12 +2,11 @@
 - **Strategy (The HOW):**
     1. Defeated Blaine. Next: Challenge Blue at Viridian Gym for the Earth Badge (8th Kanto badge).
     2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
-    3. Party Optimization: Swap GORP (Snorlax Lv50) into the party at Cinnabar Poke Center. Replace LAPIS (Lv12).
+    3. Party Optimization: Swap GORP (Snorlax Lv50) into the party at Indigo Plateau. Replace LAPIS (Lv12).
     4. After 16 badges: Unlock Mt. Silver and challenge Red.
 
 # Seafoam Gym (Cinnabar Gym)
 - Started Turn: 42949. Completed Turn: 42978.
-- Entrance/Exit: Warp at (5, 5).
 - Gym Leader Blaine: (5, 2) [Defeated].
 - Roster: Magcargo (Lv45), Magmar (Lv45) (Sunny Day), Rapidash (Lv50) (Fire Blast).
 
