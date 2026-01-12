@@ -61,10 +61,13 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Exit Room 1 via (9, 33) to SilverCaveOutside.
+1. Exit Room 1 via (9, 33) to SilverCaveOutside. (Completed)
 2. Search SilverCaveOutside for alternate entrances to Room 1.
 3. If no other entrances, check Room 2 for hidden paths to the isolated tiles in Room 1.
 4. Reach 100% completion and exit to Silver Cave Outside.
+
+# Exploration Log
+- Turn 44116: Arnie call cleared. Standing at (18, 15) outside Poke Center. Resuming search for alternate cave entrances.
 
 # Exploration Insight: Silver Cave Room 1
 - Row 35 is isolated from the central area by a line of walls and FLOOR_UP_WALL tiles in row 34, and WALL tiles in row 33 (cols 1-7 and 11-18). Accessible only via columns 0 or 19, which likely connect to alternate entrances from Outside or other rooms.
