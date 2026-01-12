@@ -24,14 +24,14 @@
 
 # Task: Legendary Hunt
 - Start Turn: 44154
-- Current Turn: 44183
+- Current Turn: 44185
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 
 # Time Tracking
 - Legendary Hunt Start: Turn 44154
-- Current Progress: Navigating Fly Map to Ecruteak City.
+- Current Progress: Arrived in Ecruteak City. Heading to Route 37.
 
 # Mt. Silver Completion
 - Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths. Pathing via Room 2 or other warps remains unverified.
