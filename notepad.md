@@ -4,12 +4,13 @@
 - Espeon (Lv73): Defeated (Turn 43777).
 - Snorlax (Lv75): Active. Asleep (Turn 43856 via Rest).
   - Moves: Body Slam, Snore, Rest (7/10), Amnesia. (Haunter is immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 2/15.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 1 Elixer.
 - Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Watch for Amnesia (buffs Special Defense). If Dream Eater PP runs out, use Night Shade. Use KIMCHI's Sleep Powder if Snorlax wakes up.
 - Observation: Snorlax woke up and immediately used Rest again at Turn 43856. It's back to full HP. Continue Dream Eater strategy.
+- Note: Night Shade deals fixed 44 damage and ignores Amnesia's Sp.Def buffs. Use it if Dream Eater PP is gone or if Sp.Def gets too high.
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Giga Drain (TM19) or Petal Dance.
