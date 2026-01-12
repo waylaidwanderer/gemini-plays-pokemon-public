@@ -12,9 +12,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Resetting Fly Map.
-- **Status:** At Ecruteak (Menu).
-- **Plan:** Close Map -> Re-open -> Try 'Left' to Olivine once.
+- **Action:** Re-opening Fly Map.
+- **Status:** In Party Menu. Cursor on Pidgey.
+- **Plan:** Select Fly -> Try 'Left' to Olivine *once*. Verify movement.
+- **Contingency:** If 'Left' fails again, assume Fly is broken and WALK to Olivine (Route 38).
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
