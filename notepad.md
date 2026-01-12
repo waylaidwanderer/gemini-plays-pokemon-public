@@ -26,7 +26,9 @@
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
-- LEDGE_HOP: One-way movement Down.
+- LEDGE_HOP: One-way movement Down/Left/Right.
+- FLOOR_UP_WALL: Impassable from North (Down).
+- WALL_UP_FLOOR: Impassable from South (Up).
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
@@ -45,7 +47,7 @@
 
 # Navigation Plan: Victory Road to Mt. Silver
 1. Bypass ladder at (13, 31) (Done).
-2. Use Super Repel.
+2. Use Super Repel. (Turn 43202)
 3. Navigate to (18, 42) -> (7, 42) -> (7, 38).
 4. Hop left at (6, 38) to (5, 38).
 5. Move to (1, 35) and take ladder to 3F.
