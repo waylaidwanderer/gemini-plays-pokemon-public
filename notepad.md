@@ -2,7 +2,7 @@
 - **Current Operation:**
   1.  **Relocate:** Moving to Route 38 (West of Ecruteak) to intercept Roamers observed there.
   2.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados.
-- **Status:** In Transit: Route 42 -> Ecruteak -> Route 38.
+- **Status:** Repel wore off. Re-applying before entering Route 38.
 - **Resources:** 2 Super Repels left. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
