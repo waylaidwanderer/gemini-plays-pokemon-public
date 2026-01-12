@@ -10,7 +10,7 @@
 # Strategy for Route 19/20 Navigation
 - Goal: Reach Seafoam Islands.
 - Started Turn: 42861 (Entered Route 20).
-- Current Turn: 42923.
+- Current Turn: 42929.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
