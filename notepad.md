@@ -2,7 +2,7 @@
 - **Strategy (The HOW):**
     1. Defeated Blaine. Next: Challenge Blue at Viridian Gym for the Earth Badge (8th Kanto badge).
     2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
-    3. Party Optimization: Swap GORP (Snorlax Lv50) into the party at Indigo Plateau. Replace LAPIS (Lv12).
+    3. Party Optimization: Swap GORP (Snorlax Lv50) and GNEISS (Graveler Lv54) into the party. Replaced LAPIS (Lv12) and AAAAAAAAAA (Lv13).
     4. After 16 badges: Unlock Mt. Silver and challenge Red.
 
 # Seafoam Gym (Cinnabar Gym)
@@ -34,8 +34,8 @@
 - Professor Oak's Lab (12, 11).
 
 # Battle & Pokémon Data
-## PC Storage (Box 1) (9/20)
-- GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
+## PC Storage (Box 1) (10/20)
+- GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15), LAPIS (POLIWAG Lv12), GNEISS (GRAVELER Lv54), AAAAAAAAAA (SPINARAK Lv13).
 
 # Map Exploration & Discoveries
 ## Route 21
@@ -49,7 +49,7 @@
 ## Route 20
 - Swimmer Cameron (12, 15): [Defeated]
 - Swimmer Lori (45, 14): [Defeated]
-- Swimmer Nicole (52, 8): [Defeated]
+- Swimmer Nicole (52, 8): [Defeated] (Roster: Marill Lv29, Lapras Lv32)
 - Seafoam Islands Entrance: (38, 7).
 - Cinnabar Gym Sign: (37, 11).
 
