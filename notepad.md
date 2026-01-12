@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Entering Pokegear (Pass 52).
-- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34640). Next: Pass 57.
+- **Action:** Opening Map Card (Pass 52).
+- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34642). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
