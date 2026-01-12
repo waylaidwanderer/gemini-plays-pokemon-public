@@ -1,7 +1,8 @@
 # Red Battle Log (Verified via History)
 - Pikachu (Lv81): Defeated by GNEISS.
-- Espeon (Lv73): Defeated.
-- Snorlax (Lv75): Active. Moves: Body Slam, Snore, Rest, Amnesia. (Haunter is immune to Normal).
+- Espeon (Lv73): Defeated (Turn 43777).
+- Snorlax (Lv75): Active. Asleep (Turn 43848 via Rest).
+  - Moves: Body Slam, Snore, Rest (8/10), Amnesia. (Haunter is immune to Normal).
 - XENON (Haunter): Active. HP 111/111.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
@@ -9,7 +10,7 @@
 - Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Watch for Amnesia (buffs Special Defense).
 
 # Post-Snorlax Team Strategy
-- Blastoise: Use KIMCHI (Gloom) with Giga Drain/Petal Dance.
+- Blastoise: Use KIMCHI (Gloom) with Giga Drain (TM19) or Petal Dance.
 - Venusaur: Revive Calcifer (Typhlosion) or use GORP (Snorlax).
 - Charizard: Use GNEISS (Graveler) or GORP (Snorlax).
 - Lapras: Use KIMCHI or GORP.
