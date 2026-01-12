@@ -10,15 +10,12 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Roamers not on Route 37 (Map Check).
-- **Action:** Retrying `perform_roamer_shuffle` tool.
-- **Goal:** Get a Roamer to Route 37.
-- **Strategy:**
-  1. Shuffle (Up/Down).
-  2. Check Map.
-  3. Repeat until target acquired.
+- **Status:** In Ecruteak (18, 35). Moving South to Route 37.
+- **Correction:** The shuffle tool failed because arrival in Ecruteak (18, 35) is several tiles away from the return warp (likely 18, 39). A single 'Down' press was insufficient.
+- **Action:** Walking South to manually enter Route 37.
+- **Next:** Once in Route 37, check map.
+- **Strategy:** Update `perform_roamer_shuffle` to include multiple steps or use manual navigation.
 - **Observation:** Map shows Roamers on 38, 42.
-- **Tooling:** Using `perform_roamer_shuffle` (B, B, Up, Down, Open Map).
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
