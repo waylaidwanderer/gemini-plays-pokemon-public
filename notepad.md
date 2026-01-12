@@ -30,3 +30,4 @@
 - **Action:** Opening Pokegear Map again.
 - Turn 35184: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
 - Turn 35189: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
+- Turn 35191: In Ecruteak. Moving to Route 37 to resume shuffle.
