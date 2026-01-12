@@ -9,7 +9,7 @@
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory Management: BERRY tossed Turn 43355. Protein collected Turn 43358. Bag: 20/20.
+- Inventory Management: Protein collected Turn 43358. Bag: 20/20. Plan: Use Protein on Gorp to free a slot.
 - Task Started: Turn 43296. Goal: Collect item at (7, 18).
 
 # Area Records: Silver Cave Room 1 (3_74)
