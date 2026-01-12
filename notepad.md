@@ -3,8 +3,8 @@
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
-- Snorlax (Lv75): Active. Asleep (Turn 43801 via Rest).
-  - Moves: Body Slam (4), Rest (2).
+- Snorlax (Lv75): Active. Asleep (Turn 43805 via Rest).
+  - Moves: Body Slam (4), Rest (3).
 - XENON (Haunter): Active. HP 111/111. Immune to Normal.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
