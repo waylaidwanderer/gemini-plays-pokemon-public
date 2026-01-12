@@ -7,7 +7,7 @@
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   1. Exit Pokegear & Go North to Ecruteak. (Done)
-  2. Return to Route 37. (Current)
+  2. Return to Route 37. (Retrying after Phone Call)
   3. Check Map. (Next)
   4. If on Route 37: HUNT.
   5. If not: Repeat Shuffle.
