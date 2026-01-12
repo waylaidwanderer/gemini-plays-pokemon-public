@@ -12,10 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Transitioning to Route 28.
-- **Status:** At map edge (38, 31). Stepping East.
+- **Action:** Entering Route 28.
+- **Status:** Leaving Silver Cave (39, 31) -> Right.
 - **Next:** Fly to Goldenrod City.
-- **Context:** Escaped Wild Golbat. Resuming flight plan.
+- **Goal:** Sell Revives/Elixer -> Buy Repels.
+- **Context:** Recovering from accidental Fly to Silver Cave.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
