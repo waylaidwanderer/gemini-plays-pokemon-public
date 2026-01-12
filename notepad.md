@@ -23,12 +23,9 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35682):
-  - Current Location: Pewter City (Confirmed).
-  - Failure Analysis (Turn 35681): `Up` worked (Viridian -> Pewter). `Right` failed (Pewter -> Cerulean failed, stayed at Pewter).
-  - Hypothesis: Input dropped or connection doesn't exist.
-  - Action: Right (to Cerulean) -> Wait (2s) -> Down (to Saffron).
-  - Expected Outcome:
-    - If Saffron: Success.
-    - If Viridian: `Right` failed (Pewter -> Viridian via Down).
-    - If Cerulean: `Down` failed.
+- Fly Debugging (Turn 35683):
+  - Current Location: Pewter City.
+  - Previous Failure: `Right` from Pewter failed (blocked?).
+  - Action: Down (to Viridian) -> Right (to Saffron/Celadon).
+  - Hypothesis: Pewter -> Viridian -> Saffron.
+  - Goal: Reach Saffron City.
