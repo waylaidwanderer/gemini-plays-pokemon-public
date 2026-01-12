@@ -45,4 +45,3 @@
 - Strategy: Stun the Fisher to interact reliably.
 - Goal: Obtain the Nugget.
 - Note: Item Pocket limit is 20 unique items. Bag was full on Turn 42486.
-- Note: Item Pocket limit is 20 unique items. Bag was full on Turn 42486.
