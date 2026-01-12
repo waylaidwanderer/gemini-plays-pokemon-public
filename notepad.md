@@ -41,8 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35663):
-  - Assumption: Previous 'Select' (Turn 35662) successfully toggled map to JOHTO.
-  - Action: Navigate Cursor 'Left' x4 to reach Ecruteak.
-  - Confirmation: Do NOT press 'A'. Wait for next turn to verify "Currently selected destination" text.
-  - Goal: See "Ecruteak City" on screen.
+- Fly Debugging (Turn 35664):
+  - Observation: Current Screen explicitly shows "KANTO" map. "Select" in Turn 35662 failed to toggle.
+  - Hypothesis: Toggling might be blocked while on the "Indigo Plateau" node, or input was dropped.
+  - Action: Move Cursor DOWN (to Viridian/Victory Road) -> Press SELECT -> Move LEFT (into Johto).
+  - Goal: Switch map to JOHTO. Verify by checking if screen says "JOHTO" or a Johto city name.
