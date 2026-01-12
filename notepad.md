@@ -56,7 +56,7 @@
 - KIMCHI (Gloom Lv49): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
 ## PC Storage (Box 1) (9/20)
-- GORP (Snorlax Lv50), AAAAAAAAAA (Spinarak Lv13), GLAIVE (Scyther Lv14), SELKIE (Seel Lv24), DELTA (Mantine Lv20), RANGOON (Krabby Lv22), NOMURA (Tentacool Lv17), Ravioli (Krabby Lv10), Ouroboros (Dratini Lv15).
+- GORP (Snorlax Lv50), AAAAAAAAAA (Spinarak Lv13), GLAIVE (Scyther Lv14), SELKIE (Seel Lv24), DELTA (Mantine Lv20), RANGOON (Krabby Lv22), NOMURA (Tentacool Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
 
 # General Lessons
 - Trainer House battles are limited to once per day.
@@ -69,5 +69,6 @@
 # Strategy: Pallet Town Exploration
 - Observed: Entry from Route 1 at (8, 0).
 - Observed: Pallet Town Sign at (7, 9) reads "PALLET TOWN A Tranquil Setting of Peace & Purity."
-- Plan: Talk to the Teacher, visit Blue's house (13, 5), and Professor Oak's Lab (12, 11).
+- Plan: Visit Professor Oak's Lab (12, 11).
 - Plan: Surf south from Pallet Town to Route 21.
+- Daisy (Blue's House): Mentioned Blue is the Viridian Gym Leader but is often away.
