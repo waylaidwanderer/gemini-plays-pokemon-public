@@ -22,7 +22,7 @@
 - **Verified Facts:**
   - Route 3 Middle & Lower Lanes are blocked.
   - Route 3 Upper Lane (Rows 2-4) is open at x=0 (Mental Map confirmed).
-- **Current Action:** Checking East Wall at Row 4.
-- **Observation:** (34, 2) is a solid wall.
-- **Plan:** Move to (34, 4) and try to exit East.
-- **Contingency:** If East Wall is solid, return to Route 3 Middle Lane and solve the blockage at x=13.
+- **Observation:** Pewter City East Wall (Rows 2-15) is SOLID. No Upper Exit exists.
+- **Conclusion:** The map connection data for Route 3 Row 2-4 is misleading or inaccessible from Pewter.
+- **Strategy:** The ONLY way forward is via the Middle Lane (Row 16/17 exit).
+- **Plan:** Return to Route 3. Go to (13, 7). Investigate the "Wall" closely. It MUST be passable (Rock Smash?).
