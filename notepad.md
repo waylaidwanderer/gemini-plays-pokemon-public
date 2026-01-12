@@ -50,3 +50,14 @@
 
 # Exploration Log
 - Turn 44060: Starting search for remaining unseen tiles in Silver Cave Room 1. Current Progress: 95.3%.
+- Turn 44063: Encountered wild Graveler. Running.
+- Turn 44064: Resuming exploration.
+
+# Legendary Hunt List
+- Suicune: Tracks unknown.
+- Raikou/Entei: Roaming Johto.
+- Lugia: Whirl Islands (Requires Silver Wing).
+- Ho-Oh: Tin Tower (Requires Rainbow Wing).
+- Articuno/Zapdos/Moltres: Locations to be verified.
+- Mewtwo: Cerulean Cave? (Verify if accessible).
+- Celebi: GS Ball event? (Verify availability).
