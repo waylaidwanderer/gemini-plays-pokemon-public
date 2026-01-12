@@ -67,3 +67,10 @@
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
 - TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
 - TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
+## Trainer House 1F (Map 23_6)
+- Entrance/Exit: (2, 13) and (3, 13) lead to Viridian City (23, 15).
+- Receptionist: (0, 11). Behind a counter.
+- Cooltrainer M: (7, 11).
+- Youngster: (4, 8).
+- Illegible Book (BG Object): (7, 10).
+- Goal: Explore the building and find out what happens here.
