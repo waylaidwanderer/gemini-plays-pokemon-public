@@ -18,11 +18,11 @@
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73):
-  - Psychic: 7/16 used. (Turns 43697, 43704, 43711, 43717, 43724, 43733, 43747).
-  - Reflect: 2 used. (Active: Turn 43761).
+  - Psychic: 7/16 used.
+  - Reflect: 2 used. (Faded: Turn 43774).
   - Mud-Slap: 1 used. (GORP Accuracy -1).
-  - Swift: 2 used (Turns 43766, 43770).
-  - GORP (Snorlax): HP 138/221. Active. Neutral Spcl.Def.
+  - Swift: 2 used.
+  - GORP (Snorlax): HP 183/221. Active. Neutral Spcl.Def.
   - Calcifer (Typhlosion): Fainted.
-- Inventory: 4 Full Restores, 9 Max Potions, 18 Revives.
-- Strategy: Use Max Potion on GORP. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
+- Inventory: 4 Full Restores, 8 Max Potions, 18 Revives.
+- Strategy: Use Body Slam for damage/paralysis. Stall remaining ~9 Psychics. Heal if HP < 150.
