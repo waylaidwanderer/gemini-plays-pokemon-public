@@ -1,8 +1,8 @@
-# Strategic Plan: Kanto Badges & Final Challenges
+# Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Talk to Professor Oak in Pallet Town (Done - access to Mt. Silver granted).
-    2. Fly to Indigo Plateau.
-    3. Head south to Route 23/Victory Road Gatehouse (23_13).
+    1. Fly to Indigo Plateau. (Start Turn: 43171)
+    2. Heal party at Poke Center (KIMCHI is fainted).
+    3. Head south to Route 23 Gatehouse.
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit.
     5. Travel West through Route 28 to reach Mt. Silver.
     6. Face Red at the peak of Mt. Silver.
@@ -11,13 +11,22 @@
 - Badges: 16/16 (All Johto and Kanto badges obtained).
 - Mt. Silver Access: UNLOCKED by Professor Oak.
 
+# Party Status & Battle Prep
+- Calcifer (64): Healthy.
+- ICARUS (19): Healthy (Flyer).
+- XENON (44): Healthy.
+- KIMCHI (51): FAINTED. (Needs Heal)
+- GORP (50): Healthy.
+- GNEISS (54): Healthy (86/152 HP).
+
 # Tile Mechanics (Global Reference)
-- FLOOR: Reachable. Standard walkable tile.
+- FLOOR: Walkable.
 - WALL: Impassable.
-- COUNTER: Blocks movement; interact from adjacent floor tile.
-- WARP_CARPET_DOWN/DOOR/CAVE/LADDER/STAIRCASE: Warps.
-- LEDGE_HOP: One-way movement.
-- FLOOR_UP_WALL: Impassable from North (Down).
+- COUNTER: Blocks movement; interact from front.
+- WATER: Requires Surf.
+- TALL_GRASS: Wild encounters.
+- DOOR/WARP: Map transitions.
+- LEDGE_HOP: One-way movement Down.
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
@@ -25,6 +34,5 @@
 - Viridian City: Gym (32,7), Trainer House (23,15).
 - Pallet Town: Oak's Lab (12,11).
 
-# Battle & Pok\u00e9mon Data
-## PC Box 1 (9/20)
+# PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).

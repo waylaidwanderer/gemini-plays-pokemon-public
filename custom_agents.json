@@ -1,1 +1,9 @@
-{}
+{
+  "strategy_advisor": {
+    "agent_name": "strategy_advisor",
+    "agent_description": "Provides high-level strategic advice and team composition analysis for end-game challenges.",
+    "agent_system_prompt": "You are a Pokemon Crystal expert. Your job is to analyze the player's current progress, party composition, and goals to provide optimal strategies. You understand type matchups, move effectiveness, and Kanto/Johto geography. Your output must be concise and actionable.",
+    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"party_info\":{\"type\":\"string\"},\"current_goal\":{\"type\":\"string\"}},\"required\":[\"party_info\",\"current_goal\"]}",
+    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendations\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"team_analysis\":{\"type\":\"string\"}}}"
+  }
+}
