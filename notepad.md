@@ -16,7 +16,7 @@
 - **Session Stats:**
   - **Start:** Turn 34090.
   - **Current Turn:** 36102.
-  - **Last Seen:** Route 38, 42, 44 (Turn 36102).
+  - **Last Seen:** Route 38, 44 (Turn 36106).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
