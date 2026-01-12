@@ -88,3 +88,6 @@
 - FLOOR: Standard walkable.
 - WALL: Impassable.
 - LEDGE_HOP_DOWN: One-way North to South.
+
+# Trainer Encounters (Route 1)
+- Youngster (Object 1) at (7, 12): Battle started at turn 42686.
