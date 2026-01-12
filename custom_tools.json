@@ -264,5 +264,47 @@
         "action_counter": 44161
       }
     ]
+  },
+  "grass_pacer": {
+    "description": "Oscillates between two directions to trigger wild encounters in a specific area.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "dir1": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "dir2": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "reps": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "dir1",
+        "dir2",
+        "reps"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef run():\n    try:\n        input_data = json.load(sys.stdin)\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 25))\n        \n        sequence = ([dir1, dir2] * reps)[:50]\n        print(json.dumps(sequence))\n    except Exception as e:\n        print(json.dumps([]))\n\nrun()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T23:20:44.792Z",
+        "action_counter": 44251
+      }
+    ]
   }
 }
