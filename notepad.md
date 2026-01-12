@@ -12,9 +12,9 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Shopping at Viridian Mart.
-- **Status:** At Counter (3, 3). Buying Repels.
-- **Plan:** Buy Super Repels (x6) or Max Repels if unavailable.
+- **Action:** Transit to Johto.
+- **Status:** Leaving Viridian Mart.
+- **Plan:** Viridian Mart has no Repels. Buy in Goldenrod.
 - **Next:** Route 2 -> Diglett's Cave -> Vermilion -> Saffron -> Magnet Train.
 - **Fact:** Fly is region-locked. Must use Train.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
