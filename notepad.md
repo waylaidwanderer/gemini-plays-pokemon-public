@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37.
-- **Action:** Applied Max Repel. Resetting to Gate (Pass 54).
+- **Action:** Handling Wade's Call (Pass 54).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34648). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
