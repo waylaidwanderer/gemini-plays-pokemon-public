@@ -73,3 +73,8 @@
 - Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
 - Downhill mechanic makes Northward recovery extremely difficult.
 - Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17) for safety.
+## Route 17-18 Gatehouse Status
+- Status: Inside Route 17-18 Gatehouse (Turn 42165). Route 17 traversal completed.
+- Goal: Find exit to Route 18 and reach Fuchsia City.
+- NPC: Officer at (5, 2).
+- Tile: WARP_CARPET_LEFT (Standard warp tile).
