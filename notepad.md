@@ -79,3 +79,4 @@
 - Goal: Find exit to Route 18 and reach Fuchsia City.
 - NPC: Officer at (5, 2).
 - Tile: WARP_CARPET_LEFT (Standard warp tile).
+- Bird Keeper Bob (13, 6): Encountered. Team: Noctowl (Lv34).
