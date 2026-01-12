@@ -41,8 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35659):
-  - Situation: Cursor is on Cinnabar Island (Kanto).
-  - Action: Press SELECT to toggle to the Johto Map.
-  - Goal: Switch to Johto region. Verify by reading screen text (Expect: New Bark Town or similar).
-  - Next Step: Navigate to Ecruteak.
+- Fly Debugging (Turn 35660):
+  - Situation: Cursor stuck on Cinnabar Island (Kanto).
+  - Strategy: Hard Reset of Map Cursor.
+  - Action: Close Map (B) -> Re-open Map (A). This resets cursor to current location (Indigo Plateau).
+  - Next: From Indigo Plateau, try 'Left' to cross to Johto. If that fails, 'Select' to toggle map.
+  - Sequence: B -> A -> Wait -> Left -> Select -> Left.
