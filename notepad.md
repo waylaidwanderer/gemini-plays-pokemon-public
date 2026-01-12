@@ -52,3 +52,10 @@
 - GORP (Snorlax) teaching Surf. (In progress). Previous attempts failed due to menu navigation errors.
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
+
+# Silver Cave Room 2 Layout Analysis
+- The room is partitioned by horizontal barriers (FLOOR_UP_WALL) at Row 16 and Row 32.
+- Currently in the middle section (Row 17-31).
+- Reachable water detected at (13, 30).
+- Navigation Strategy: Teach Surf to GORP to bypass walls at X=14-16 and reach the warp at (13, 21).
+- Item at (4, 20) and warp at (11, 5) are likely in the top section, requiring a different access point or Surf.
