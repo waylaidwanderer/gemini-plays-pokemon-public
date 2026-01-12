@@ -19,8 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42205
-- Status: Exploring Fuchsia City. Searching for Gym and Pokemon Center.
+- Current Turn: 42208
+- Status: Exploring Fuchsia City. Blocked by ledge at (5, 31). Pathing around to Gym sign.
 
 ## Battle and Pokemon Information
 ### Party Movesets
