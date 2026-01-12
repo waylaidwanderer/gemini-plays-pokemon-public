@@ -24,14 +24,11 @@
 
 # Task: Legendary Hunt
 - Start Turn: 44154
-- Current Turn: 44185
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
-
-# Time Tracking
-- Legendary Hunt Start: Turn 44154
-- Current Progress: Arrived in Ecruteak City. Heading to Route 37.
+- Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
+- Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
 
 # Mt. Silver Completion
 - Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths. Pathing via Room 2 or other warps remains unverified.
@@ -51,3 +48,4 @@
 - Fly Usage: Must be outdoors to use Fly.
 - Menu Memory: The menu remembers the last selected option (e.g., PACK instead of POKEMON). Verify cursor position.
 - Map Navigation: Mt. Silver is at the far west of Johto. Flying to Ecruteak requires moving East on the Town Map.
+- Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 is for Raikou/Entei.
