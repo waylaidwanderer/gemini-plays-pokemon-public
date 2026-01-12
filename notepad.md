@@ -6,7 +6,7 @@
 # Progress Tracking
 - Badges: 16/16 (All Johto and Kanto badges obtained).
 - Mt. Silver Access: UNLOCKED by Professor Oak.
-- Inventory Management: Started Turn 43296 to free a slot.
+- Inventory Management: Started Turn 43296 to free a slot. Goal: Toss BERRY.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
