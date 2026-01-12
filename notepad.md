@@ -30,12 +30,14 @@
 - Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Asleep (Turn 43892). Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Asleep (Turn ~43902). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 16/20.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 15/20.
 - Strategy: Use Hypnosis to sleep Snorlax. Switch to GNEISS (Graveler) after healing him. GNEISS resists Normal and can use Rollout against Snorlax's lower physical Defense.
-- Task: Switch to GNEISS. Started Turn 43904.
-- Battle Progress: Snorlax is at +6 Sp.Def. Dream Eater is inefficient. Snorlax was put back to sleep at Turn 43892.
+- Task: Switch to GNEISS. 
+  - Turn 43904: Started switch process.
+  - Turn 43909: Using Full Restore on GNEISS.
+- Battle Progress: Snorlax is at +6 Sp.Def. Dream Eater is inefficient. Snorlax fell asleep again around Turn 43902.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
