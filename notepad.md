@@ -15,7 +15,7 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Last Check:** Turn 36171 (Roamers on 38, 42, 44).
+  - **Status:** Shuffling (Entering Ecruteak).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
