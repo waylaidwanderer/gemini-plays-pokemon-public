@@ -41,9 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Debugging Fly Mechanism (Turn 35653):
-  - Current Screen shows Party Menu with 'FLY' selected.
-  - Intermediate States from previous turn showed menu closing and player moving, which contradicts Current Screen.
-  - Hypothesis: Timing or state desync.
-  - Action: Press 'A' (Select Fly) and WAIT 5 SECONDS.
-  - Goal: Confirm Map opens. Do not attempt navigation yet.
+- Fly Debugging (Turn 35654):
+  - Failure Analysis: In Turn 35652, I pressed 'A' twice. First 'A' selected Fly, second 'A' selected the current location (Indigo Plateau) on the map, cancelling the flight. Subsequent 'Left' inputs resulted in walking.
+  - Current State: Overworld.
+  - Action: Open Fly Map ONLY.
+  - Sequence: Start -> A (Pokemon) -> Down x3 (Mistral) -> A (Menu) -> A (Fly).
+  - Next Turn: Navigate Map to Ecruteak.
