@@ -10,10 +10,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Flying to Olivine (Pass 26 - Retry).
-- **Status:** At Ecruteak (Fly Map).
-- **Navigation:** Pressing Left x3 to force cursor to Olivine.
-- **Plan:** Land Olivine -> Sell Revives -> Buy Super Repels -> Resume Hunt.
+- **Action:** Testing Fly Map (Down).
+- **Status:** Cursor stuck at Ecruteak?
+- **Hypothesis:** Testing if 'Down' moves to Goldenrod. If failed, inputs are ignored.
+- **Plan:** If Down works, nav to Olivine. If fails, exit and walk/reopen.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
