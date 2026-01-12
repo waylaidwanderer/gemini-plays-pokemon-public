@@ -41,8 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35664):
-  - Observation: Current Screen explicitly shows "KANTO" map. "Select" in Turn 35662 failed to toggle.
-  - Hypothesis: Toggling might be blocked while on the "Indigo Plateau" node, or input was dropped.
-  - Action: Move Cursor DOWN (to Viridian/Victory Road) -> Press SELECT -> Move LEFT (into Johto).
-  - Goal: Switch map to JOHTO. Verify by checking if screen says "JOHTO" or a Johto city name.
+- Fly Debugging (Turn 35665):
+  - Visual Evidence (Intermediate States): Cursor moved to Cinnabar Island (Kanto) after 'Select'.
+  - Text Evidence (Current Screen): Says "Indigo Plateau". Conflict exists, but Visuals usually reflect state after last button press.
+  - Conclusion: Currently viewing Kanto Map (Cinnabar). Need to switch to Johto Map.
+  - Action: Press SELECT (Toggle to Johto) -> Wait -> Left x2.
+  - Goal: Switch map to Johto and move cursor towards Ecruteak.
