@@ -42,4 +42,4 @@
 
 # Red Battle Log
 - Pikachu (Lv81): Defeated by GNEISS (Turn #43644).
-- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves.
+- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves (Max Revive used Turn #43664).
