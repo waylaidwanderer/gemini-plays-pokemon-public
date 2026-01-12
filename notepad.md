@@ -29,11 +29,11 @@
 # Red Battle Log
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Asleep (Turn 43933). Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Awake (Turn 43941). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia.
-- GNEISS (Graveler): Active. HP 152/152.
-  - Strategy: Use Defense Curl then Rollout. GNEISS resists Snorlax's Normal moves.
-- Battle Progress: Snorlax is walled by GNEISS while asleep. Switching from XENON completed Turn 43936. Currently Turn 43940.
+- GNEISS (Graveler): Active. HP 110/152. PARALYZED.
+- Strategy: Switch to XENON (Haunter) to safely sleep Snorlax with Hypnosis. Then heal GNEISS and switch him back in for the physical Rollout sweep.
+- Battle Progress: Snorlax woke up and paralyzed GNEISS on Turn 43941. Switching to XENON for safety.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
