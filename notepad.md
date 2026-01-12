@@ -41,4 +41,4 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves.
+- Espeon (Lv73): In progress. Strategy: Revive GORP to tank Psychic moves (Max Revive used Turn #43669).
