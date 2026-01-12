@@ -20,4 +20,4 @@
 - **Lead:** Gyarados (Lv 36).
 - **Items:** Super Repels (4).
 - **Status:** On Route 37.
-- **Action:** Check Roamer locations via Pokegear.
+- **Action:** Select Map Card (Right -> A) to view Roamers.
