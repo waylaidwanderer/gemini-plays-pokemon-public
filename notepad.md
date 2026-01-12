@@ -1,14 +1,15 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Free an inventory slot by tossing the BERRY. (Priority #1).
-    2. Collect Protein at (15, 29).
-    3. Explore SilverCaveRoom1 to find the ladder to the next floor. Path seems to involve the far left (X=0) or right (X=19) corridors.
-    4. Face Red at the peak.
+    1. Collect Protein at (15, 29). (In progress).
+    2. Head to (1, 35) then (0, 34) to access the left corridor (X=0) to reach the upper level.
+    3. Collect item at (7, 18).
+    4. Explore SilverCaveRoom1 to find the ladder to the next floor. Path seems to involve the far left (X=0) or right (X=19) corridors.
+    5. Face Red at the peak.
 
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory Management: Started Turn 43296. Goal: Free 1 slot by tossing BERRY. (Manual attempt in progress).
+- Inventory Management: BERRY tossed at Turn 43355. 1 slot free.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
@@ -42,17 +43,11 @@
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
 
 # Navigation Plan: Silver Cave Room 1
-1. Toss BERRY to free space.
-2. Collect Protein at (15, 29) by going around the far right corridor (X=19).
-3. Head to (1, 35) then (0, 34) to access the left corridor (X=0) to reach the upper level.
-4. Collect item at (7, 18).
+1. Collect Protein at (15, 29).
+2. Head to (1, 35) then (0, 34) to access the left corridor (X=0) to reach the upper level.
+3. Collect item at (7, 18).
 
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
 - To free a slot, the entire stack must be tossed or used.
-- Task Started: Turn 43296. Current Turn: 43355. Goal: Toss BERRY. Found BERRY. Selecting TOSS.
-
-# Turn 43349 Correction
-- Turn mismatch detected: Turn 43342 -> 43348 (6 turns) instead of 1.
-- Reason: menu_navigator sequence likely failed. I am at (11, 21) facing Up.
-- Refined Plan: Move Down to (11, 22), ensure menu is closed with B, then open menu and select PACK.
+- Task Started: Turn 43296. Goal: Collect Protein.
