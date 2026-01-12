@@ -61,7 +61,10 @@
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
     - Navigation to Janine: Turn 42253 to 42328 (75 turns).
-    - Current Battle: Leader Janine (Turn 42331). Strategy: Sweep with Calcifer.
+    - Current Battle: Leader Janine (Turn 42331).
+    - Battle Progress:
+        - Crobat (Lv 36): Defeated with Thunderpunch.
+        - Weezing (Lv 36): Current. Strategy: Flamethrower.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
