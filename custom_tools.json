@@ -133,28 +133,5 @@
         "action_counter": 36061
       }
     ]
-  },
-  "route42_gate_shuffle": {
-    "description": "Executes the physical movement for the Roamer Shuffle on Route 42: Closes menu, Enters Gate (Left), Exits Gate (Right). Does NOT open Pokegear.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3500\", \"Right\", \"sleep 3500\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T20:17:21.570Z",
-        "action_counter": 36217
-      }
-    ]
   }
 }
