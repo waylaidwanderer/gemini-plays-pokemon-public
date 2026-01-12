@@ -6,7 +6,7 @@
 # Progress Tracking
 - Badges: 16/16 (All Johto and Kanto badges obtained).
 - Mt. Silver Access: UNLOCKED by Professor Oak.
-- Inventory Management: Started Turn 43296 to free a slot. Goal: Toss BERRY.
+- Inventory Management: Started Turn 43296. Goal: Free 1 slot by tossing BERRY.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
@@ -27,8 +27,8 @@
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
 - LEDGE_HOP: One-way movement Down/Left/Right.
-- FLOOR_UP_WALL: Impassable from North (Down).
-- WALL_UP_FLOOR: Impassable from South (Up).
+- FLOOR_UP_WALL: Impassable when moving South (Down) onto it from a North (Up) tile.
+- WALL_UP_FLOOR: Impassable when moving North (Up) onto it from a South (Down) tile.
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
