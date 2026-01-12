@@ -11,7 +11,7 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Transit to Johto via Diglett's Cave.
-- **Status:** Exiting Route 2 Gate (North).
+- **Status:** Crossing Route 2 (East Side).
 - **Plan:** Enter Diglett's Cave -> Vermilion City -> Saffron City -> Magnet Train.
 - **Note:** Viridian Mart does NOT sell Repels/Super Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
