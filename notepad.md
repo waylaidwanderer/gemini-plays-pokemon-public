@@ -34,3 +34,4 @@
 - **Reflection:** Corrected menu navigation error (was in Phone menu). Remember: Verify cursor position before confirming.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34733).
 - **Strategy Update:** Switching to "Physical Check" (Repel + Run in Route 37) instead of Map Check. Faster and reliable.
+- **Check:** Gyarados (Lv36) leads. Perfect for Repel trick (Wilds < Lv16 < Gyarados < Roamers Lv40).
