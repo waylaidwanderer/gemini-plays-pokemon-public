@@ -56,7 +56,7 @@
 - Fly map scrolling: Cursor starts at current city. Left cycles through visited cities.
 
 # Goldenrod Restock Plan (Started: Turn 44278)
-1. Fly to Goldenrod City. (Turn 44296: Map open at New Bark)
+1. Fly to Goldenrod City. (Current Status: In New Bark Town, opening menu)
 2. Navigate to Goldenrod Dept. Store (North of PC).
 3. Buy a full stack of Super Repels.
 4. Fly back to Ecruteak City.
@@ -65,7 +65,5 @@
 # Fly Map Navigation (To Goldenrod)
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
-- Attempt 1: Lake of Rage misclick.
-- Attempt 2-3: New Bark Town misclicks.
-- Attempt 4-5: Menu errors.
-- Attempt 6 (Turn 44296): Currently on map at New Bark. Strategy: 2 Lefts, check, 2 Lefts, check, A.
+- Attempt 1-6: Failed due to menu errors and overworld movement.
+- Attempt 7 (Turn 44297): Opening menu to start Fly sequence. Strategy: Start, Up, A (Pokemon menu).
