@@ -19,7 +19,7 @@
 # Session Stats
 - **Start:** Turn 34090.
 - **Last Seen:** Route 38, 42, 44 (Turn 36005).
-- **Current Turn:** 36006.
+- **Current Turn:** 36007.
 
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
