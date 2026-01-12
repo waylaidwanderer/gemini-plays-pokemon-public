@@ -32,12 +32,12 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Current Position:** (15, 6) [Lower Path].
+- **Current Position:** (13, 10) [Lower Path].
 - **Analysis:** The Lower Path is a dead end blocked by a vertical wall at x=19.
 - **Correction:** The only way to Mt. Moon is the **Upper Path** (y=0).
 - **Access:** The Upper Path can only be accessed from the northern exit of Pewter City.
 - **Plan:**
-  1. Return to Pewter City via the West exit at (0, 7).
+  1. Fly to Pewter City (faster than walking back).
   2. Navigate within Pewter to the Northern Route 3 exit.
   3. Traverse Route 3 along the top edge (y=0) to pass all vertical barriers.
-- **Next Action:** Walk West to Pewter City.
+- **Next Action:** Fly to Pewter City.
