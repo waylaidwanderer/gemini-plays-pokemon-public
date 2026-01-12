@@ -2,20 +2,19 @@
 
 ## Global Tile Mechanics
 - FLOOR: Standard traversable tile. No special effects.
-- FLOOR (Route 17): Downhill coasting mechanic (automatic South movement). North movement requires constant input. (Verified Turn 42121)
-- WALL: Impassable collision. Blocks all movement.
-- WATER: Impassable on foot. Requires SURF to traverse.
-- TALL_GRASS / grass: Standard traversable tile. May trigger wild encounters.
-- DOOR / WARP / CAVE: Entry/exit points. Stepping on them triggers a map transition.
-- WARP_CARPET_DOWN: Entry/exit point. Functions like a DOOR/WARP.
-- LADDER / STAIRCASE: Vertically connects different maps or floors.
-- COUNTER: Impassable collision. Blocks movement but allows interaction with NPCs behind it if faced from an adjacent tile.
-- MART_SHELF: Impassable collision. Blocks all movement.
-- LEDGE_HOP_DOWN: One-way traversal. Can only be crossed from North to South.
-- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Collision that blocks movement in the specified direction.
-- WARP_CARPET: (7,3) and (8,3) in Celadon Dept Store 5F are traversable floor tiles, not active warps. (Verified Turn 41878)
-- OBJECTS (NPCs/Items): Impassable collision. Must be navigated around. Interaction possible from adjacent tiles.
-- PC / BOOKSHELF: Impassable collision. Interaction possible from adjacent tiles.
+- FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
+- WALL: Impassable collision.
+- WATER: Impassable on foot. Requires SURF.
+- TALL_GRASS / grass: Standard traversable tile. Wild encounters.
+- DOOR / WARP / CAVE: Entry/exit points.
+- WARP_CARPET_DOWN: Entry/exit point.
+- LADDER / STAIRCASE: Vertically connects maps.
+- COUNTER: Impassable. Interaction possible from adjacent tiles.
+- MART_SHELF: Impassable collision.
+- LEDGE_HOP_DOWN: One-way traversal (North to South only).
+- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Collision that blocks movement in specified direction.
+- OBJECTS (NPCs/Items): Impassable. Interaction possible from adjacent tiles.
+- PC / BOOKSHELF: Impassable. Interaction possible from adjacent tiles.
 
 ## Battle and Pokemon Information
 ### Party Movesets
@@ -60,12 +59,13 @@
 - NPC Interaction: Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - Ledges: Hop down south only.
 - Menu Navigation: Use single `press_buttons` to verify menu state.
-- Route 17 Physics: Downhill mechanic requires consistent Northward inputs or rapid tapping to overcome drift.
+- Route 17 Physics: Downhill mechanic requires constant Northward inputs.
 
 ## Fuchsia City Exploration (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
-- Observation: City has a complex layout with many interior fences/walls.
+- Observation: City has a complex layout with many interior fences/walls. Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
 - Interaction Log:
-    - Youngster (Object 1): Moving around near (24, 19). Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
+    - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 29.4% explored.
-- Ledge Obstacle: Stuck at (5, 32). Above is ledge, below is wall. Trying to move Left to (4, 32) to find a way North.
+- Ledge Obstacle: Stuck at (5, 32). Row 31 is blocked by ledges and walls. (4, 31) is impassable despite being labeled FLOOR.
+- Plan: Navigate (5, 32) -> (1, 32) -> (1, 20) -> (10, 20) -> (10, 30) -> (5, 30) to reach the Gym sign.
