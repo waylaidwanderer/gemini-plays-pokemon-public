@@ -162,7 +162,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\", \"sleep 8500\", \"Down\", \"Down\", \"Down\", \"sleep 8500\", \"Start\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\"]')",
+    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\", \"sleep 10000\", \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 10000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 1000\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -188,6 +188,11 @@
         "commit_message": "Increased sleep duration from 6000ms to 8500ms to prevent inputs from being dropped during map transition warps.",
         "timestamp": "2026-01-12T06:27:48.695Z",
         "action_counter": 35185
+      },
+      {
+        "commit_message": "Increased sleep duration to 10000ms (10s) and added extra Down inputs to ensure reliable transition from Ecruteak back to Route 37.",
+        "timestamp": "2026-01-12T06:30:51.514Z",
+        "action_counter": 35190
       }
     ]
   }
