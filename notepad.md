@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35446 - Repel 6 active. Sweeping (8, 6) (Attempt 3). Plan: Verify location in Dex if no encounter, then Fly if gone.
+- **Status:** Turn 35447 - Repel wore off. Checking Pokedex for Roamer location.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
