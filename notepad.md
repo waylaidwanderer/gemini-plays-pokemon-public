@@ -82,8 +82,3 @@
 - Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
 - Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
 - Strategy: Move East to X=8 to exit pier into water via SURF.
-## Route 21 Exploration Plan
-- Current: Continue south toward Cinnabar Island.
-- Step 1: Navigate around Nikki at (11, 16).
-- Step 2: Explore unseen tiles starting at Y=20.
-- Next: Reach Cinnabar Island.
