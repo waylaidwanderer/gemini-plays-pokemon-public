@@ -2,6 +2,7 @@
 
 ## Tile Mechanics (Verified Behavior)
 - FLOOR: Standard traversable tile. No special effects.
+- FLOOR (Route 17): Downhill coasting mechanic (automatic South movement). North movement requires constant input. (Verified Turn 42121)
 - WALL: Impassable collision. Blocks all movement.
 - WATER: Impassable on foot. Requires SURF to traverse.
 - TALL_GRASS / grass: Standard traversable tile. May trigger wild encounters.
@@ -28,6 +29,7 @@
 ### Significant Battles
 - Erika (Celadon Gym): Defeated with Fire-type moves. Lv 42-46 team.
 - Rival Silver (Mt. Moon): Defeated.
+- Biker Charles (6, 80): Defeated with Calcifer's Return. Team: Koffing (Lv30), Charmeleon (Lv30), Weezing (Lv30).
 
 ## Evolution Methods
 - Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock). (Source: Fisher at 26,11)
@@ -54,10 +56,6 @@
 ## Celadon City Investigation (Started Turn 41409, Jan 11 3:10 PM)
 - Mansion Roof House: Pharmacist (3,2) tells "terrifying tale" ONLY at night.
 - Gym Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through gap in ledge at (5,33). Warp at (10, 29).
-
-## Route 17 (Cycling Road) Mechanics
-- Downhill Coasting: The player automatically moves South.
-- Moving North: Requires constant Up input. (Verified Turn 42121)
 
 ## Kanto Secrets & NPC Schedules
 - Daisy Oak (Pallet Town): Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
@@ -86,9 +84,7 @@
 - Thirsty Girl (6F): Does not exist in Crystal version. (Verified Turn 41936)
 
 ---
-(Note: Removed completed action logs for Game Corner and Prize Exchange to reduce bloat.)
 ## Route 17 Navigation Warning (Turn 42126)
 - Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
 - Downhill mechanic makes Northward recovery extremely difficult.
 - Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17?) for safety.
-- Biker Charles (6, 80): Defeated with Calcifer's Return. Team: Koffing (Lv30), Charmeleon (Lv30), Weezing (Lv30).
