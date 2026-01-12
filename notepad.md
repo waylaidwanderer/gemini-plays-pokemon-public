@@ -16,8 +16,9 @@
 - Menu Precision: Double-check cursor on party menus (SWITCH vs STATS). Soda Pop vs Full Restore error on Turn 43913.
 
 # Red Battle Log (Started Turn 43634)
-- Snorlax (Lv75): Active. Asleep (Turn 43954). Sp.Def +6 (Maxed). Rest PP: 7/10.
-- Strategy: Snorlax is asleep. GNEISS is healed (152/152). Switch GNEISS in and use Defense Curl + Rollout.
+- Snorlax (Lv75): Active. Asleep (Turn 0). Sp.Def +6 (Maxed). Rest PP: 7/10.
+- GNEISS (Graveler): Active (Switching in). HP 152/152.
+- Strategy: Snorlax is asleep. GNEISS will use Defense Curl then Rollout. GNEISS resists Normal moves.
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
