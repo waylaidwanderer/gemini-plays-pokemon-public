@@ -1,34 +1,4 @@
 {
-  "assess_reachability": {
-    "description": "Performs a flood-fill BFS starting from a given coordinate to determine all reachable tiles of a specific type (e.g., WATER). Returns the bounds of the reachable area, accessible warps, and adjacent unseen tiles. Useful for determining if a path exists through a maze.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        },
-        "tile_type": {
-          "type": "string",
-          "default": "WATER"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef assess_reachability(map_xml_string, start_x, start_y, tile_type=\"WATER\"):\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    grid = {}\n    warps = {}\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib.get('type', 'unseen')\n            is_warp = tile.attrib.get('is-warp') == 'true'\n            \n            grid[(x, y)] = t_type\n            if is_warp:\n                # Check for warp details in children\n                warp_node = tile.find('Warp')\n                entry_point = warp_node.attrib.get('entry_point') if warp_node is not None else \"?\"\n                warps[(x, y)] = entry_point\n\n    if grid.get((start_x, start_y)) != tile_type and grid.get((start_x, start_y)) != \"WHIRLPOOL\":\n        print(f\"Error: Start position ({start_x}, {start_y}) is {grid.get((start_x, start_y))}, not {tile_type}.\")\n        return\n\n    queue = deque([(start_x, start_y)])\n    visited = set([(start_x, start_y)])\n    reachable_warps = []\n    reachable_unseen_adjacents = []\n    min_x, max_x, min_y, max_y = start_x, start_x, start_y, start_y\n    \n    # Allow WHIRLPOOL as traversable for surfing if tile_type is WATER\n    traversable_types = {tile_type}\n    if tile_type == \"WATER\":\n        traversable_types.add(\"WHIRLPOOL\")\n\n    while queue:\n        cx, cy = queue.popleft()\n        \n        min_x = min(min_x, cx)\n        max_x = max(max_x, cx)\n        min_y = min(min_y, cy)\n        max_y = max(max_y, cy)\n        \n        if (cx, cy) in warps:\n            reachable_warps.append({'x': cx, 'y': cy, 'entry': warps[(cx, cy)]})\n            \n        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:\n            nx, ny = cx + dx, cy + dy\n            if 0 <= nx < width and 0 <= ny < height:\n                if (nx, ny) in visited:\n                    continue\n                \n                n_type = grid.get((nx, ny), 'unseen')\n                \n                if n_type in traversable_types:\n                    visited.add((nx, ny))\n                    queue.append((nx, ny))\n                elif n_type == 'unseen':\n                    reachable_unseen_adjacents.append({'x': nx, 'y': ny})\n                    # Don't traverse into unseen, just mark it as a frontier\n    \n    print(f\"Reachability Analysis from ({start_x}, {start_y}) for {tile_type}:\")\n    print(f\"  Bounds: X[{min_x}-{max_x}], Y[{min_y}-{max_y}]\")\n    print(f\"  Reachable Tiles Count: {len(visited)}\")\n    print(f\"  Reachable Warps: {reachable_warps}\")\n    print(f\"  Adjacent Unseen Tiles: {len(reachable_unseen_adjacents)} (First 5: {reachable_unseen_adjacents[:5]})\")\n\nassess_reachability(map_xml_string, input_data['start_x'], input_data['start_y'], input_data.get('tile_type', 'WATER'))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-08T11:22:54.983Z",
-        "action_counter": 27988
-      }
-    ]
-  },
   "sequence_press": {
     "description": "Executes a sequence of button presses to navigate menus or perform actions. Allows mixing directional and action buttons.",
     "input_schema": {
@@ -179,6 +149,21 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-11T23:17:43.369Z",
         "action_counter": 34561
+      }
+    ]
+  },
+  "check_roamer_map": {
+    "description": "From the Pokegear main menu (assuming cursor is on BACK), navigates to the Map card, opens it, waits 3 seconds for viewing, then exits back to the Overworld.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "print('[\"Right\", \"sleep 500\", \"A\", \"sleep 3000\", \"B\", \"sleep 500\", \"B\"]')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T00:14:14.818Z",
+        "action_counter": 34655
       }
     ]
   }
