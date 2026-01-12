@@ -17,10 +17,10 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 4 Transit
-- **Current Pos:** (23, 10).
+- **Current Pos:** (28, 8).
 - **Goal:** Reach Cerulean City (East).
-- **Observation:** Wall at x=24 blocks East movement on Row 10.
+- **Status:** Bypassed wall at x=24. Now facing North-East wall.
 - **Route:**
-  1. Go North to Row 8 to bypass the wall.
-  2. Go East on Row 8.
-  3. Enter Cerulean City.
+  1. Jump ledge at (28, 9) to enter grassy area.
+  2. Go South to Row 14 to find a gap in the East wall.
+  3. Navigate East through the gap at (33, 14).
