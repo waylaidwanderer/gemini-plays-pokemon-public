@@ -165,12 +165,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"B\", \"sleep 200\", \"B\", \"sleep 200\", \"Up\"]')",
+    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\"]')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T19:12:39.847Z",
         "action_counter": 36125
+      },
+      {
+        "commit_message": "Increased sleep duration between B presses to 500ms to ensure menus close reliably before moving.",
+        "timestamp": "2026-01-12T19:21:54.196Z",
+        "action_counter": 36137
       }
     ]
   }
