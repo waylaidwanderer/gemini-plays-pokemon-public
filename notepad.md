@@ -19,8 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42186
-- Status: Arrived in Fuchsia City. Exploring for the Gym.
+- Current Turn: 42191
+- Status: Exploring Fuchsia City. Heading east towards a Youngster.
 
 ## Battle and Pokemon Information
 ### Party Movesets
