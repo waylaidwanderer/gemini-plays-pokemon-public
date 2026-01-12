@@ -9,7 +9,7 @@
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory Management: Protein used on Calcifer at Turn 43371. 1 slot free.
+- Inventory Management: Protein used on ICARUS at Turn 43371. 1 slot free.
 - Task Started: Turn 43296. Goal: Collect item at (7, 18).
 
 # Area Records: Silver Cave Room 1 (3_74)
