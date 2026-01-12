@@ -13,9 +13,9 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Selling Items at Viridian Mart.
-- **Status:** At Counter (3, 3). Interacting with Clerk.
+- **Status:** At Counter (3, 3). Talking to Clerk.
 - **Plan:** Sell Revives (x4) -> Buy Max Repels (Max possible).
-- **Next:** Exit Mart -> Train to Johto.
+- **Next:** Route 2 -> Diglett's Cave -> Vermilion -> Saffron -> Magnet Train.
 - **Fact:** Fly is region-locked. Must use Train.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
