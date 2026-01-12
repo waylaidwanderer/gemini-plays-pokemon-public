@@ -11,9 +11,9 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Goal:** Encounter Raikou/Entei on Route 37.
-- **Strategy:** Fly to Ecruteak to randomize Roamer positions.
+- **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35367 - Arrived in Ecruteak via Fly. Checking Pokegear Map for Roamers.
+- **Status:** Turn 35368 - Roamers spotted on Route 38 & 42. Heading to Route 38 to intercept/shuffle.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
 
 # Lessons Learned
