@@ -3,8 +3,6 @@
     1. Systematic search: Use `find_reachable_unseen_tiles` and Surf to reveal SilverCaveRoom2.
     2. Waterfall Exploration: Swap ICARUS for LAPIS (Poliwag) to climb waterfalls in Room 2.
     3. Target: Reach the warp at (13, 21) using Waterfall.
-- Task Started: Turn 43296 (Starting the climb).
-- Dead End Found: Turn 43480 at (24, 30) (ledges block upward progress).
 
 # Progress Tracking
 - Badges: 16/16.
@@ -17,7 +15,7 @@
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
-- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked.
+- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked. (Hypothesis: Blocks entry/exit in specific direction. Verification needed.)
 - LEDGE_HOP: One-way movement.
 
 # Area Records: Silver Cave Room 2 (3_75)
@@ -34,14 +32,6 @@
 - Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
 - Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
-
-# Party Status (Turn 43491)
-- Calcifer (Lv64 Typhlosion) - Lead.
-- ICARUS (Lv19 Pidgeotto) - To be swapped for LAPIS.
-- XENON (Lv44 Haunter)
-- KIMCHI (Lv51 Gloom)
-- GORP (Lv50 Snorlax) - Knows Surf.
-- GNEISS (Lv54 Graveler)
 
 # Surf Strategy
 - GORP (Snorlax) learned Surf (Turn 43469).
