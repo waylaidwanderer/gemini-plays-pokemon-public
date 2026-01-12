@@ -88,3 +88,4 @@
 - Fisher (9, 5): Facing to talk.
 - Fisher (10, 5): Moving NPC.
 - Sign (11, 1): 'Careful Swimming' warning.
+- Route 19 Blockage: Fisher at (9, 5) confirmed Route 19 is closed for construction. Recommended route to Cinnabar is south from Pallet Town. (Turn 42376)
