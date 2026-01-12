@@ -35,6 +35,7 @@
     - TV: Verified interaction at (2, 1).
     - Town Map: Verified interaction at (3, 0).
     - Speary (Spearow): (5, 2) (MOLTRES_SPRITE).
+    - Rattey (Rattata): (6, 3) (GROWLITHE_SPRITE).
 - Cut Tree (14, 4): Blocks a path to the west.
 - Trainer House (23, 15): Entered 1F Turn 42605.
     - Receptionist (1F): (0, 11). Confirmed battles downstairs (Turn 42611).
@@ -67,3 +68,9 @@
 
 ## PC Storage (Box 1)
 - GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
+
+# Lesson Log & Progress
+- [Turn 42551] Started Viridian City Exploration.
+- [Turn 42605] Entered Trainer House 1F.
+- [Turn 42611] Receptionist confirms trainer battles available downstairs.
+- [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
