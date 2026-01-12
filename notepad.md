@@ -87,3 +87,7 @@
 
 ---
 (Note: Removed completed action logs for Game Corner and Prize Exchange to reduce bloat.)
+## Route 17 Navigation Warning (Turn 42126)
+- Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
+- Downhill mechanic makes Northward recovery extremely difficult.
+- Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17?) for safety.
