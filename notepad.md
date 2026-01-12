@@ -41,9 +41,10 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35657):
-  - Situation: "Left x3" failed to move cursor from Indigo Plateau. Screen shows "KANTO" map.
-  - Hypothesis: Must toggle to JOHTO map to fly to Ecruteak.
-  - Action: Press SELECT to toggle map. Then try moving Left.
-  - Sequence: Select -> Wait (2s) -> Left -> Left -> Left.
-  - Goal: See "JOHTO" map or a Johto city name (Blackthorn, Ecruteak, etc.).
+- Fly Debugging (Turn 35658):
+  - Situation: "Left" inputs failed to move cursor from Indigo Plateau (Screen shows Kanto Map). "Select" failed to toggle region.
+  - Hypothesis 1: "Left" is blocked by map edge.
+  - Hypothesis 2: "Select" input was dropped or needs to be pressed differently.
+  - Action: Test cursor movement with "Down" (Should go to Viridian). Then retry "Select" to toggle to Johto. Then "Left" to navigate to Ecruteak.
+  - Sequence: Down -> Select -> Left -> Left -> Left.
+  - Goal: Confirm cursor movement and switch to Johto map.
