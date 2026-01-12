@@ -13,15 +13,18 @@
     3. If no encounter -> Return to Ecruteak.
     4. Repeat.
 
+# Strategy Notes & Lessons
+- **Tool Safety:** When defining menu tools, remember that missed "Start" inputs interpret subsequent directionals as movement. Avoid long blind sequences starting with "Start" + Directionals.
+- **Roamer Behavior:** Roamers move when crossing map borders.
+- **Session Stats:**
+  - **Start:** Turn 34090.
+  - **Current Turn:** 36081.
+  - **Last Seen:** Route 38, 44 (Turn 36080).
+
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
 - **Headbutt Tree:** Can be shaken for Pokemon.
 - **Tall Grass:** Pokemon encounters.
-
-# Session Stats
-- **Start:** Turn 34090.
-- **Last Seen:** Route 38, 42, 44 (Turn 36036).
-- **Current Turn:** 36041.
 
 # Hall of Fame Entry
 - **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
