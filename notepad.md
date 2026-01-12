@@ -42,7 +42,5 @@
 
 # Surf Strategy
 - GORP (Snorlax) learned Surf (Turn 43469).
-- Plan to reach warp at (13, 21):
-    1. Navigate to (14, 30).
-    2. Face Left and use SURF on (13, 30).
-    3. Navigate through water to (13, 21).
+- Navigation Analysis: Pond at (10-13, 30-31) connects to Row 27 via Waterfalls at (10-11, 28-29). Requires HM07 Waterfall to progress North from this pond.
+- Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
