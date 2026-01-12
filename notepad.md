@@ -60,7 +60,7 @@
     - Janine Look-alike (1, 14)
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
-    - Navigation to Janine: Turn 42253 to 42328 (75 turns).
+    - Navigation to Janine: Turn 42253 to 42328 (75 turns). Reached Janine at Turn 42328.
     - Current Battle: Leader Janine (Turn 42331).
     - Battle Progress:
         - Crobat (Lv 36): Defeated with Thunderpunch.
