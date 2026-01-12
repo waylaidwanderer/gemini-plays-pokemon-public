@@ -52,7 +52,13 @@
 - Fuchsia Gym: (8, 27). Inside (Turn 42253). Leader Janine.
 - Gym Dimension: 10x18.
 - Fuchsia Gym NPCs:
-    - Janine (Object 1, 1, 10): The real Leader.
+    - Janine (1, 10): The real Leader.
+    - Lass Linda (5, 11): Defeated.
+    - Janine Look-alike (4, 2): Currently interacting.
+    - Janine Look-alike (9, 4)
+    - Janine Look-alike (5, 7)
+    - Janine Look-alike (9, 14)
+    - Janine Look-alike (1, 14)
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
     - Strategy: Use find_path_v5 to navigate to (1, 10) and TRUST THE TOOL OUTPUT. Do not interrupt autopress.
