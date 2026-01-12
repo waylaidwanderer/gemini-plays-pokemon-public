@@ -17,10 +17,9 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Mt Moon Navigation Plan
-- **Current Pos:** (25, 15) [South East Section].
-- **Goal:** Reach Route 4 Exit at (25, 5).
+- **Current Pos:** (15, 11).
+- **Goal:** Exit to Route 4 via (15, 15).
+- **Correction:** Wall at Row 9 blocks path to (13, 3). The correct path is to jump the ledge.
 - **Route:**
-  1. Take ladder at (25, 13) to (15, 11).
-  2. Navigate to ladder at (13, 3).
-  3. Take ladder at (13, 3) to (25, 3).
-  4. Exit South to Route 4.
+  1. Jump ledge at (15, 13).
+  2. Enter Warp at (15, 15).
