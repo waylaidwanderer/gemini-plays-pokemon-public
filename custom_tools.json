@@ -9,19 +9,14 @@
         },
         "current_y": {
           "type": "integer"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "current_x",
-        "current_y",
-        "autopress_buttons"
+        "current_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    width = int(root.attrib['width'])\n    height = int(root.attrib['height'])\n    \n    tiles = {}\n    seen = {}\n    player_pos = None\n    \n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            is_seen = tile.attrib['seen'] == 'true'\n            tiles[(x, y)] = t_type\n            seen[(x, y)] = is_seen\n            if tile.find('Player') is not None:\n                player_pos = (x, y)\n\n    if player_pos is None:\n        player_pos = (int(input_data['current_x']), int(input_data['current_y']))\n\n    reachable = set()\n    queue = [player_pos]\n    reachable.add(player_pos)\n    \n    impassable = [\"WALL\", \"COUNTER\", \"SIGN\", \"WINDOW\", \"TV\", \"BOOKSHELF\", \"LEDGE\"]\n    \n    while queue:\n        cx, cy = queue.pop(0)\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in tiles and (nx, ny) not in reachable:\n                if tiles[(nx, ny)] not in impassable and seen[(nx, ny)]:\n                    tile_node = root.find(f\".//Row[@id='{ny}']/Tile[@id='{nx}']\")\n                    if tile_node is not None and tile_node.find('Object') is None:\n                        reachable.add((nx, ny))\n                        queue.append((nx, ny))\n                    elif tile_node is not None:\n                        obj = tile_node.find('Object')\n                        if obj is not None and obj.attrib.get('id') == '0':\n                            reachable.add((nx, ny))\n                            queue.append((nx, ny))\n\n    targets = []\n    found_targets = set()\n    for (rx, ry) in reachable:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = rx + dx, ry + dy\n            if (nx, ny) in tiles and not seen[(nx, ny)]:\n                if (nx, ny) not in found_targets:\n                    targets.append({\"x\": nx, \"y\": ny})\n                    found_targets.add((nx, ny))\n                \n    targets.sort(key=lambda p: abs(p['x'] - player_pos[0]) + abs(p['y'] - player_pos[1]))\n    \n    if input_data.get('autopress_buttons', False) and targets:\n        # Simple BFS for button sequence to nearest target adjacent tile\n        target = targets[0]\n        q = [(player_pos, [])]\n        v = {player_pos}\n        while q:\n            (cx, cy), path = q.pop(0)\n            if abs(cx - target['x']) + abs(cy - target['y']) == 1:\n                print(json.dumps(path))\n                return\n            for dx, dy, btn in [(0, 1, \"Down\"), (0, -1, \"Up\"), (1, 0, \"Right\"), (-1, 0, \"Left\")]:\n                neighbor = (cx + dx, cy + dy)\n                if neighbor in reachable and neighbor not in v:\n                    v.add(neighbor)\n                    q.append((neighbor, path + [btn]))\n        print(\"[]\")\n    else:\n        print(json.dumps(targets))\n\nsolve()",
+    "python_script": "import json\nimport xml.etree.ElementTree as ET\nfrom collections import deque\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        width = int(root.get('width'))\n        height = int(root.get('height'))\n        \n        grid = {}\n        for row in root.findall('Row'):\n            y = int(row.get('id'))\n            for tile in row.findall('Tile'):\n                x = int(tile.get('id'))\n                grid[(x, y)] = tile\n\n        start_x = int(input_data['current_x'])\n        start_y = int(input_data['current_y'])\n        \n        queue = deque([(start_x, start_y)])\n        visited = set([(start_x, start_y)])\n        reachable_unseen = []\n\n        while queue:\n            cx, cy = queue.popleft()\n            \n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = cx + dx, cy + dy\n                if 0 <= nx < width and 0 <= ny < height:\n                    tile = grid.get((nx, ny))\n                    if tile is None: continue\n                    \n                    if tile.get('seen') == 'false':\n                        if {'x': nx, 'y': ny} not in reachable_unseen:\n                            reachable_unseen.append({'x': nx, 'y': ny})\n                        continue\n                    \n                    if (nx, ny) not in visited:\n                        t_type = tile.get('type')\n                        has_obj = tile.get('has-object') == 'true'\n                        # Basic collision check for standard walkable tiles\n                        if t_type in ['FLOOR', 'TALL_GRASS', 'LONG_GRASS', 'DOOR', 'WARP_CARPET_UP', 'WARP_CARPET_DOWN', 'WARP_CARPET_LEFT', 'WARP_CARPET_RIGHT'] and not has_obj:\n                            visited.add((nx, ny))\n                            queue.append((nx, ny))\n        \n        print(json.dumps(reachable_unseen))\n    except Exception as e:\n        print(json.dumps({\"error\": str(e)}))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -52,6 +47,11 @@
         "commit_message": "Initial implementation of reachable unseen tiles finder.",
         "timestamp": "2026-01-12T06:33:54.023Z",
         "action_counter": 42797
+      },
+      {
+        "commit_message": "Initial implementation with basic collision check and reachability analysis.",
+        "timestamp": "2026-01-12T10:23:29.129Z",
+        "action_counter": 43173
       }
     ]
   },
