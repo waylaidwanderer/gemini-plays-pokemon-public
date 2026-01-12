@@ -6,9 +6,9 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (29, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Reapplying Repel.
+- **Action:** Repel Active. Running patterns.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Resources:** 1 Super Repel, 3 Repels. ¥244.
+- **Resources:** 0 Super Repel, 3 Repels. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
