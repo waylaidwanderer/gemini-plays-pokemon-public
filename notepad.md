@@ -70,5 +70,5 @@
 - Objective: Find Pokemon Center and Gym.
 - Observation: City has a complex layout with many interior fences/walls.
 - Interaction Log:
-    - Youngster (Object 1): Moving around near (24, 19).
+    - Youngster (Object 1): Moving around near (24, 19). Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 19.6% explored.
