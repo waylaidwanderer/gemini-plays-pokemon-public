@@ -17,7 +17,10 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Status:** On Route 3 (0, 7). Phone call interrupted movement.
-- **Goal:** Reach (13, 7) to investigate the blockage (Wall/Rock/Trainer).
-- **Verified:** Upper Lane (Row 2-4) is NOT accessible from Pewter. Middle Lane (Row 7) is the only path.
-- **Next Step:** Finish phone call, then walk East to (13, 7).
+- **Discovery:** Route 3 Row 5 has a FLOOR tile at x=7 (Gap in Ledges).
+- **Hypothesis:** I can switch from Middle Lane (Row 6-7) to Upper Lane (Row 2-4) at x=7.
+- **Plan:**
+  1. Walk to (7, 7).
+  2. Walk North through (7, 5) to (7, 4).
+  3. Traverse Upper Lane East past the wall at x=13.
+- **Goal:** Reach Mt. Moon Entrance at (52, 1).
