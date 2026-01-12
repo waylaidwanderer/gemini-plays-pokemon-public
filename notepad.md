@@ -41,9 +41,10 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Navigation Logic:
-  - Current State: Party Menu, Cursor on Mistral (Slot 4).
-  - Action: Execute Fly Sequence.
-  - Sequence: Select Mistral (A) -> Select Fly (A) -> Wait for Map (3s) -> Left x3 -> Confirm (A).
-  - Destination: Ecruteak City.
-  - Goal: Hunt Roamers.
+- Fly Strategy: Two-Stage Execution.
+  - Stage 1 (Current Turn): Open Map.
+    - Input: 'A' (Open Mistral menu) -> Wait -> 'A' (Select Fly).
+  - Stage 2 (Next Turn): Navigate Map.
+    - Input: Left x3 -> A.
+  - Reason: Previous attempts failed to navigate map, possibly due to loading times. Verifying map open state first.
+- Goal: Reach Ecruteak City to hunt Roamers.
