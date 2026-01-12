@@ -68,4 +68,5 @@
 - Attempt 1 (Turn 44263): Misclicked Lake of Rage.
 - Attempt 2 (Turn 44284): Misclicked New Bark Town.
 - Attempt 3 (Turn 44285): Misclicked New Bark Town.
-- Attempt 4 (Turn 44290): Currently on Fly Map at New Bark Town. Strategy: Press Left 4 times.
+- Attempt 4 (Turn 44290): Cursor moved to Goldenrod but reset. 
+- Attempt 5 (Turn 44291): Currently on Fly Map at New Bark Town. Strategy: Left 4 times then A.
