@@ -19,4 +19,5 @@
 - **Location:** Route 37 (South of Ecruteak).
 - **Lead:** Gyarados (Lv 36).
 - **Items:** Super Repels (4).
-- **Action:** Transit to Route 37.
+- **Status:** On Route 37.
+- **Action:** Check Roamer locations via Pokegear.
