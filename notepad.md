@@ -60,3 +60,11 @@
 - GORP: Active.
 - Enemy: Gyarados (Lv58).
 - Strategy: Switch to Calcifer for Thunderpunch (4x).
+
+# Battle Party Status (Turn 43122)
+- Calcifer (Lv63 Typhlosion): 200/200
+- ICARUS (Lv19 Pidgeotto): 59/59
+- XENON (Lv44 Haunter): 111/111
+- KIMCHI (Lv51 Gloom): 0/134 (FNT)
+- GORP (Lv50 Snorlax): 221/221
+- GNEISS (Lv54 Graveler): 152/152
