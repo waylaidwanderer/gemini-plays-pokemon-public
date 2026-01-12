@@ -46,5 +46,5 @@
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state before long sequences.
-- FLOOR_UP_WALL tiles block North movement but may allow South entry.
+- FLOOR_UP_WALL tiles block movement North (Up) AND block entry from the North (Down).
 - Silver Cave Outside has only two main warps (Poke Center and Room 1 entrance).
