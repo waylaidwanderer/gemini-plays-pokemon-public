@@ -1,4 +1,89 @@
 {
+  "find_path_v7_robust": {
+    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (ledges, one-way walls), treating 'unseen' tiles as walkable FLOOR, and supporting surfing/land modes. Returns at most 50 buttons if autopress_buttons is true.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean"
+        },
+        "end_x": {
+          "type": "integer"
+        },
+        "end_y": {
+          "type": "integer"
+        },
+        "is_surfing": {
+          "type": "boolean"
+        },
+        "start_x": {
+          "type": "integer"
+        },
+        "start_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start_x",
+        "start_y",
+        "end_x",
+        "end_y"
+      ]
+    },
+    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\nroot = ET.fromstring(map_xml_string)\nautopress = input_data.get('autopress_buttons', False)\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\ninitial_surfing = input_data.get('is_surfing', False)\n\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        grid[(x, y)] = tile\n\ndef can_move(from_pos, to_pos, direction, currently_surfing):\n    if to_pos not in grid: return False\n    f_tile = grid[from_pos]\n    t_tile = grid[to_pos]\n    f_type = f_tile.attrib['type']\n    t_type = t_tile.attrib['type']\n    \n    if t_tile.attrib['seen'] == 'false': return True\n    if t_type == 'WALL': return False\n    if t_tile.find('Object') is not None: return False\n    \n    if t_type in ['WATER', 'WATERFALL']:\n        if not currently_surfing: return False\n    \n    # Generic directional blocking logic (Verified N/S blocking for UP_WALL/UP_FLOOR)\n    if 'UP_WALL' in t_type or 'UP_FLOOR' in t_type:\n        if direction in ['Up', 'Down']: return False\n    if 'DOWN_WALL' in t_type or 'DOWN_FLOOR' in t_type:\n        if direction in ['Up', 'Down']: return False\n    if 'LEFT_WALL' in t_type or 'LEFT_FLOOR' in t_type:\n        if direction in ['Left', 'Right']: return False\n    if 'RIGHT_WALL' in t_type or 'RIGHT_FLOOR' in t_type:\n        if direction in ['Left', 'Right']: return False\n\n    # From tile exit blocks\n    if 'UP_WALL' in f_type or 'UP_FLOOR' in f_type:\n        if direction == 'Up': return False\n    if 'DOWN_WALL' in f_type or 'DOWN_FLOOR' in f_type:\n        if direction == 'Down': return False\n    if 'LEFT_WALL' in f_type or 'LEFT_FLOOR' in f_type:\n        if direction == 'Left': return False\n    if 'RIGHT_WALL' in f_type or 'RIGHT_FLOOR' in f_type:\n        if direction == 'Right': return False\n    \n    if t_type == 'LEDGE_DOWN' and direction != 'Down': return False\n    if t_type == 'LEDGE_LEFT' and direction != 'Left': return False\n    if t_type == 'LEDGE_RIGHT' and direction != 'Right': return False\n    \n    return True\n\nqueue = collections.deque([((start_x, start_y), initial_surfing, [])])\nvisited = {(start_x, start_y, initial_surfing)}\nfound_path = None\n\nwhile queue:\n    (cx, cy), surfing, path = queue.popleft()\n    if (cx, cy) == (end_x, end_y):\n        found_path = path\n        break\n    \n    for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) in grid:\n            ntile = grid[(nx, ny)]\n            ntype = ntile.attrib['type']\n            new_surfing = surfing\n            if ntype in ['WATER', 'WATERFALL']:\n                new_surfing = True\n            elif ntype in ['FLOOR', 'CAVE', 'WARP_CARPET_DOWN']:\n                new_surfing = False\n            \n            if (nx, ny, new_surfing) not in visited:\n                if can_move((cx, cy), (nx, ny), btn, surfing):\n                    visited.add((nx, ny, new_surfing))\n                    queue.append(((nx, ny), new_surfing, path + [btn]))\n\nif found_path is not None:\n    if autopress: print(json.dumps(found_path[:50]))\n    else: print(json.dumps({\"path\": found_path}))\nelse:\n    if autopress: print(json.dumps([]))\n    else: print(json.dumps({\"path\": []}))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T12:21:09.333Z",
+        "action_counter": 43372
+      },
+      {
+        "commit_message": "Update FLOOR_UP_WALL collision logic to check both 'from' and 'to' tiles.",
+        "timestamp": "2026-01-12T12:24:45.250Z",
+        "action_counter": 43376
+      },
+      {
+        "commit_message": "Refine FLOOR_UP_WALL collision to block all North/South entry and exit.",
+        "timestamp": "2026-01-12T12:44:31.097Z",
+        "action_counter": 43404
+      },
+      {
+        "commit_message": "Update find_path_v7_robust to handle WATER, WATERFALL, and Objects. Added coordinate-based output option.",
+        "timestamp": "2026-01-12T13:01:25.227Z",
+        "action_counter": 43420
+      },
+      {
+        "commit_message": "Fixing pathfinding logic to include all wall types and ledges and adding button output.",
+        "timestamp": "2026-01-12T14:00:23.450Z",
+        "action_counter": 43502
+      },
+      {
+        "commit_message": "Refining collision logic for all wall types and ledges. Added consistent entry/exit blocking for one-way tiles.",
+        "timestamp": "2026-01-12T14:16:45.408Z",
+        "action_counter": 43531
+      },
+      {
+        "commit_message": "Add support for surfing mode and refined collision logic (directional walls, ledges).",
+        "timestamp": "2026-01-12T15:02:01.294Z",
+        "action_counter": 43591
+      },
+      {
+        "commit_message": "Add surfing state tracking to BFS and limit output to 50 buttons for autopress.",
+        "timestamp": "2026-01-12T15:24:23.407Z",
+        "action_counter": 43621
+      },
+      {
+        "commit_message": "Refine directional collision logic to include both entry and exit checks for one-way tiles.",
+        "timestamp": "2026-01-12T15:32:22.528Z",
+        "action_counter": 43626
+      },
+      {
+        "commit_message": "Treat UP_WALL/DOWN_WALL etc as completely blocking their axis of movement based on confirmed in-game failures.",
+        "timestamp": "2026-01-12T15:35:25.001Z",
+        "action_counter": 43628
+      }
+    ]
+  },
   "find_reachable_unseen_tiles": {
     "description": "Identifies all unseen tiles on the current map that are adjacent to reachable walkable tiles. If autopress_buttons is true, returns a path to the nearest one.",
     "input_schema": {
@@ -85,91 +170,6 @@
         "commit_message": "Incorporate directional collision logic (FLOOR_UP_WALL, etc.) and ledge jumping into find_reachable_unseen_tiles.",
         "timestamp": "2026-01-12T14:47:36.458Z",
         "action_counter": 43574
-      }
-    ]
-  },
-  "find_path_v7_robust": {
-    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (ledges, one-way walls), treating 'unseen' tiles as walkable FLOOR, and supporting surfing/land modes. Returns at most 50 buttons if autopress_buttons is true.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean"
-        },
-        "end_x": {
-          "type": "integer"
-        },
-        "end_y": {
-          "type": "integer"
-        },
-        "is_surfing": {
-          "type": "boolean"
-        },
-        "start_x": {
-          "type": "integer"
-        },
-        "start_y": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "start_x",
-        "start_y",
-        "end_x",
-        "end_y"
-      ]
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport collections\n\nroot = ET.fromstring(map_xml_string)\nautopress = input_data.get('autopress_buttons', False)\nstart_x = int(input_data['start_x'])\nstart_y = int(input_data['start_y'])\nend_x = int(input_data['end_x'])\nend_y = int(input_data['end_y'])\ninitial_surfing = input_data.get('is_surfing', False)\n\ngrid = {}\nfor row in root.findall('Row'):\n    y = int(row.attrib['id'])\n    for tile in row.findall('Tile'):\n        x = int(tile.attrib['id'])\n        grid[(x, y)] = tile\n\ndef can_move(from_pos, to_pos, direction, currently_surfing):\n    if to_pos not in grid: return False\n    f_tile = grid[from_pos]\n    t_tile = grid[to_pos]\n    f_type = f_tile.attrib['type']\n    t_type = t_tile.attrib['type']\n    \n    if t_tile.attrib['seen'] == 'false': return True\n    if t_type == 'WALL': return False\n    if t_tile.find('Object') is not None: return False\n    \n    if t_type in ['WATER', 'WATERFALL']:\n        if not currently_surfing: return False\n    \n    # Generic directional blocking logic (Verified N/S blocking for UP_WALL/UP_FLOOR)\n    if 'UP_WALL' in t_type or 'UP_FLOOR' in t_type:\n        if direction in ['Up', 'Down']: return False\n    if 'DOWN_WALL' in t_type or 'DOWN_FLOOR' in t_type:\n        if direction in ['Up', 'Down']: return False\n    if 'LEFT_WALL' in t_type or 'LEFT_FLOOR' in t_type:\n        if direction in ['Left', 'Right']: return False\n    if 'RIGHT_WALL' in t_type or 'RIGHT_FLOOR' in t_type:\n        if direction in ['Left', 'Right']: return False\n\n    # From tile exit blocks\n    if 'UP_WALL' in f_type or 'UP_FLOOR' in f_type:\n        if direction == 'Up': return False\n    if 'DOWN_WALL' in f_type or 'DOWN_FLOOR' in f_type:\n        if direction == 'Down': return False\n    if 'LEFT_WALL' in f_type or 'LEFT_FLOOR' in f_type:\n        if direction == 'Left': return False\n    if 'RIGHT_WALL' in f_type or 'RIGHT_FLOOR' in f_type:\n        if direction == 'Right': return False\n    \n    if t_type == 'LEDGE_DOWN' and direction != 'Down': return False\n    if t_type == 'LEDGE_LEFT' and direction != 'Left': return False\n    if t_type == 'LEDGE_RIGHT' and direction != 'Right': return False\n    \n    return True\n\nqueue = collections.deque([((start_x, start_y), initial_surfing, [])])\nvisited = {(start_x, start_y, initial_surfing)}\nfound_path = None\n\nwhile queue:\n    (cx, cy), surfing, path = queue.popleft()\n    if (cx, cy) == (end_x, end_y):\n        found_path = path\n        break\n    \n    for dx, dy, btn in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n        nx, ny = cx + dx, cy + dy\n        if (nx, ny) in grid:\n            ntile = grid[(nx, ny)]\n            ntype = ntile.attrib['type']\n            new_surfing = surfing\n            if ntype in ['WATER', 'WATERFALL']:\n                new_surfing = True\n            elif ntype in ['FLOOR', 'CAVE', 'WARP_CARPET_DOWN']:\n                new_surfing = False\n            \n            if (nx, ny, new_surfing) not in visited:\n                if can_move((cx, cy), (nx, ny), btn, surfing):\n                    visited.add((nx, ny, new_surfing))\n                    queue.append(((nx, ny), new_surfing, path + [btn]))\n\nif found_path is not None:\n    if autopress: print(json.dumps(found_path[:50]))\n    else: print(json.dumps({\"path\": found_path}))\nelse:\n    if autopress: print(json.dumps([]))\n    else: print(json.dumps({\"path\": []}))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T12:21:09.333Z",
-        "action_counter": 43372
-      },
-      {
-        "commit_message": "Update FLOOR_UP_WALL collision logic to check both 'from' and 'to' tiles.",
-        "timestamp": "2026-01-12T12:24:45.250Z",
-        "action_counter": 43376
-      },
-      {
-        "commit_message": "Refine FLOOR_UP_WALL collision to block all North/South entry and exit.",
-        "timestamp": "2026-01-12T12:44:31.097Z",
-        "action_counter": 43404
-      },
-      {
-        "commit_message": "Update find_path_v7_robust to handle WATER, WATERFALL, and Objects. Added coordinate-based output option.",
-        "timestamp": "2026-01-12T13:01:25.227Z",
-        "action_counter": 43420
-      },
-      {
-        "commit_message": "Fixing pathfinding logic to include all wall types and ledges and adding button output.",
-        "timestamp": "2026-01-12T14:00:23.450Z",
-        "action_counter": 43502
-      },
-      {
-        "commit_message": "Refining collision logic for all wall types and ledges. Added consistent entry/exit blocking for one-way tiles.",
-        "timestamp": "2026-01-12T14:16:45.408Z",
-        "action_counter": 43531
-      },
-      {
-        "commit_message": "Add support for surfing mode and refined collision logic (directional walls, ledges).",
-        "timestamp": "2026-01-12T15:02:01.294Z",
-        "action_counter": 43591
-      },
-      {
-        "commit_message": "Add surfing state tracking to BFS and limit output to 50 buttons for autopress.",
-        "timestamp": "2026-01-12T15:24:23.407Z",
-        "action_counter": 43621
-      },
-      {
-        "commit_message": "Refine directional collision logic to include both entry and exit checks for one-way tiles.",
-        "timestamp": "2026-01-12T15:32:22.528Z",
-        "action_counter": 43626
-      },
-      {
-        "commit_message": "Treat UP_WALL/DOWN_WALL etc as completely blocking their axis of movement based on confirmed in-game failures.",
-        "timestamp": "2026-01-12T15:35:25.001Z",
-        "action_counter": 43628
       }
     ]
   },

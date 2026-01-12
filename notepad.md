@@ -7,18 +7,17 @@
 - Charizard (Lv77): Active. HP: Reduced. Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
 
 # Current Team Status
-- GORP (Snorlax): Active. HP 14/221. Locked in ROLLOUT.
-- XENON (Haunter): Benched. HP 111/111.
-- LAPIS (Poliwag): Benched. HP 32/32.
-- FNT: KIMCHI, GNEISS, Calcifer.
+- XENON (Haunter): Lv44. HP 111/111.
+- LAPIS (Poliwag): Lv12. HP 32/32.
+- FNT: KIMCHI, GNEISS, Calcifer, GORP.
 
-# Strategy: Final Push
-1. Finish Rollout chain if GORP survives.
-2. If GORP faints:
-   - Send in LAPIS.
-   - Use REVIVE on GNEISS.
-   - Send in GNEISS (Graveler) to finish Charizard with STAB Rock moves.
-   - Alternative: Use XENON's Night Shade for fixed 44 damage.
+# Strategy: The Final Stand
+1. Send in LAPIS as fodder.
+2. Turn 1: Use REVIVE on GNEISS.
+3. Turn 2 (if LAPIS still up): Use MAX POTION on GNEISS.
+4. If LAPIS faints, send in XENON.
+5. Turn X: Finish healing GNEISS or chip with Night Shade.
+6. Switch to GNEISS and finish with Rock moves.
 
 # Inventory
 - Items: 1 Full Restore, 7 Max Potions, 18 Revives, 12 Full Heals.
