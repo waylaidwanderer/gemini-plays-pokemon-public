@@ -58,3 +58,9 @@
 
 # Indigo Plateau Mart
 - Ultra Ball: ¥1200, Max Repel: ¥700, Hyper Potion: ¥1200, Max Potion: ¥2500, Full Restore: ¥3000, Revive: ¥1500, Full Heal: ¥600.
+## Viridian Gym Exploration Plan
+- Goal: Defeat Blue and obtain the Earth Badge.
+- Step 1: Talk to Gym Guide at (7, 13). [Current Step]
+- Step 2: Explore gym layout and mechanics.
+- Step 3: Battle Blue.
+- Entry Timestamp: Turn 43101.
