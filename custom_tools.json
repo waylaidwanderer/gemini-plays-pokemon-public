@@ -56,7 +56,7 @@
     ]
   },
   "find_path_v6_robust": {
-    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (like one-way ledges and direction-specific walls) and treating 'unseen' tiles as walkable FLOOR for exploration.",
+    "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (like one-way ledges and direction-specific walls) and treating 'unseen' tiles as walkable FLOOR for exploration. Returns a JSON array of buttons.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -71,21 +71,16 @@
         },
         "end_y": {
           "type": "integer"
-        },
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
         }
       },
       "required": [
         "start_x",
         "start_y",
         "end_x",
-        "end_y",
-        "autopress_buttons"
+        "end_y"
       ]
     },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport heapq\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    start_x, start_y = int(input_data['start_x']), int(input_data['start_y'])\n    end_x, end_y = int(input_data['end_x']), int(input_data['end_y'])\n    \n    tiles = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            tiles[(x, y)] = tile\n\n    impassable_types = [\"WALL\", \"COUNTER\", \"SIGN\", \"WINDOW\", \"TV\", \"BOOKSHELF\", \"LEDGE\"]\n    \n    def get_cost(x, y):\n        if (x, y) not in tiles: return float('inf')\n        tile = tiles[(x, y)]\n        t_type = tile.attrib['type']\n        if t_type == \"unseen\":\n            return 1\n        if t_type in impassable_types: return float('inf')\n        \n        obj = tile.find('Object')\n        if obj is not None:\n            if obj.attrib.get('id') != '0':\n                return float('inf')\n        return 1\n\n    open_set = [(0, (start_x, start_y))]\n    came_from = {}\n    g_score = {(start_x, start_y): 0}\n    \n    while open_set:\n        _, current = heapq.heappop(open_set)\n        if current == (end_x, end_y):\n            path = []\n            curr = current\n            while curr in came_from:\n                path.append(curr)\n                curr = came_from[curr]\n            path.append((start_x, start_y))\n            path = path[::-1]\n            \n            if input_data.get('autopress_buttons', False):\n                buttons = []\n                for i in range(len(path)-1):\n                    dx = path[i+1][0] - path[i][0]\n                    dy = path[i+1][1] - path[i][1]\n                    if dx == 1: buttons.append(\"Right\")\n                    elif dx == -1: buttons.append(\"Left\")\n                    elif dy == 1: buttons.append(\"Down\")\n                    elif dy == -1: buttons.append(\"Up\")\n                print(json.dumps(buttons))\n            else:\n                print(json.dumps([{\"x\": p[0], \"y\": p[1]} for p in path]))\n            return\n\n        cx, cy = current\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            neighbor = (cx + dx, cy + dy)\n            cost = get_cost(*neighbor)\n            if cost == float('inf'): continue\n            \n            tentative_g_score = g_score[current] + cost\n            if tentative_g_score < g_score.get(neighbor, float('inf')):\n                came_from[neighbor] = current\n                g_score[neighbor] = tentative_g_score\n                f_score = tentative_g_score + abs(neighbor[0] - end_x) + abs(neighbor[1] - end_y)\n                heapq.heappush(open_set, (f_score, neighbor))\n    \n    print(\"[]\")\n\nsolve()",
+    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef solve():\n    try:\n        data = input_data\n        start_x = int(data['start_x'])\n        start_y = int(data['start_y'])\n        end_x = int(data['end_x'])\n        end_y = int(data['end_y'])\n    except Exception as e:\n        print(f\"Error parsing input: {e}\")\n        return\n\n    root = ET.fromstring(map_xml_string)\n    \n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = {\n                'type': tile.attrib['type'],\n                'has_object': tile.attrib.get('has-object') == 'true'\n            }\n\n    walkable = {'FLOOR', 'LADDER', 'CAVE', 'WARP_CARPET_DOWN', 'DOOR', 'STAIRCASE', 'unseen'}\n\n    queue = deque([((start_x, start_y), [])])\n    visited = {(start_x, start_y)}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.popleft()\n        \n        if (curr_x, curr_y) == (end_x, end_y):\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, move in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = curr_x + dx, curr_y + dy\n            \n            if (nx, ny) not in grid:\n                continue\n            \n            target = grid[(nx, ny)]\n            target_type = target['type']\n            \n            if target['has_object'] and (nx, ny) != (end_x, end_y):\n                continue\n            \n            if target_type == 'FLOOR_UP_WALL' and move == 'Down':\n                continue\n            \n            if target_type in walkable or (target_type == 'FLOOR_UP_WALL' and move != 'Down'):\n                if (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [move]))\n                continue\n\n            if target_type == 'LEDGE_HOP_DOWN' and move == 'Down':\n                nnx, nny = nx, ny + 1\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n            elif target_type == 'LEDGE_HOP_LEFT' and move == 'Left':\n                nnx, nny = nx - 1, ny\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n            elif target_type == 'LEDGE_HOP_RIGHT' and move == 'Right':\n                nnx, nny = nx + 1, ny\n                if (nnx, nny) in grid and (nnx, nny) not in visited:\n                    landing = grid[(nnx, nny)]\n                    if landing['type'] in walkable and not landing['has_object']:\n                        visited.add((nnx, nny))\n                        queue.append(((nnx, nny), path + [move]))\n\n    print(\"[]\")\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -111,6 +106,11 @@
         "commit_message": "Initial implementation of robust pathfinder.",
         "timestamp": "2026-01-12T06:33:54.025Z",
         "action_counter": 42797
+      },
+      {
+        "commit_message": "Refined ledge and FLOOR_UP_WALL logic, added object collision checking.",
+        "timestamp": "2026-01-12T10:07:35.004Z",
+        "action_counter": 43141
       }
     ]
   },
