@@ -86,3 +86,10 @@
     - Full Restore: ¥3000
     - Revive: ¥1500
     - Full Heal: ¥600
+
+# Victory Road Gatehouse Exploration Plan
+- Goal: Find the exit to Route 22 (East).
+- Step 1: Talk to Officer at (8, 11) to gather info. [Current Step]
+- Step 2: Explore the hallway to the East (around Y=5).
+- Step 3: Verify the exit to Route 22.
+- Step 4: Proceed to Viridian City.
