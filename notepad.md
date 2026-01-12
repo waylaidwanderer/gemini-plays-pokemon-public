@@ -50,6 +50,6 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Explore the northern part of the room to find the ladder to the next floor.
-2. Collect Protein at (15, 29). (Bag is full; need to give Hard Stone to Gneiss).
+2. Collect Protein at (15, 29). (Tossing Berry to free up space).
 3. Explore unseen tiles: (14, 26), (15, 27), (16, 27), (17, 28), (17, 29), (17, 30), (17, 32), (0, 35), (17, 34), (17, 35).
 4. Document any obstacles or puzzles.
