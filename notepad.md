@@ -47,3 +47,8 @@
 - Item at (4, 20): Likely requires Surf at (5, 22) to reach. Deprioritizing since party lacks Surf.
 - Warp at (13, 21): Heading here to explore.
 - Warp at (11, 5): Secondary exploration target.
+
+# Surf Strategy
+- GORP (Snorlax) can learn Surf. Teaching HM03 replacing SNORE.
+- Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
+- Goal: Reach warp at (13, 21) via Water at (13, 30).
