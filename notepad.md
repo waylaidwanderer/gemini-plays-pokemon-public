@@ -12,6 +12,7 @@
 - Warp to Room 1: (17, 31).
 - Warp to Item Room: (13, 21).
 - Warp to Next Area: (11, 5).
+- Waterfall Logic: Facing Up/North at base + A triggers climb (Verified Turn #43564).
 - Water: (13, 30)-(13, 31), (12, 14)-(21, 14), (4, 22)-(7, 27).
 - FLOOR_UP_WALL: Row 16 (Hypothesis), Row 32.
 
