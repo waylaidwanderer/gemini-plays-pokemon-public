@@ -8,7 +8,7 @@
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory: 20/20 slots used (Items). Bag is FULL. Note: Item list in bag is NOT alphabetical.
+- Inventory: 18/20 slots used (Items). Note: Item list in bag is NOT alphabetical.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
