@@ -30,5 +30,4 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS.
-- Espeon (Lv73): GORP fainted to critical hit. Attempting Revive. (Turn #43670).
+- Espeon (Lv73): GORP fainted. Attempting Revive. (Turn #43670).
