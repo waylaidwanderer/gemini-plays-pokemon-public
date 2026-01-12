@@ -2,13 +2,13 @@
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves: Psychic (7/16), Swift (4/32), Mud-Slap (1/16), Reflect (2/32).
-- Snorlax (Lv75): Active. Asleep (Turn 43825 via Rest).
-  - Moves: Body Slam (4/24), Rest (5/10), Amnesia (?), Snore (?).
+- Snorlax (Lv75): Active. Asleep (Turn 43834 via Rest).
+  - Moves: Body Slam (4/24), Rest (6/10), Amnesia (?), Snore (?).
 - XENON (Haunter): Active. HP 111/111. Immune to Normal (Body Slam, Snore).
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 2 Elixers.
-- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Watch for Amnesia (buffs Special Defense).
+- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Watch for Amnesia. Use Elixer when Dream Eater hits 0 PP.
 - BATTLE_MENU: select_battle_option handles the 'A' press to enter sub-menus automatically.
 
 # Post-Snorlax Team Strategy
