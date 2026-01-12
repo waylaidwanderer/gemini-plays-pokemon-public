@@ -19,8 +19,7 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42182
-- Status: On Route 18, battling Bird Keeper Bob.
+- Current Turn: 42183
 
 ## Battle and Pokemon Information
 ### Party Movesets
@@ -35,7 +34,7 @@
 - Erika (Celadon Gym): Defeated.
 - Rival Silver (Mt. Moon): Defeated.
 - Biker Charles (6, 80): Defeated.
-- Bird Keeper Bob (13, 6): Battling. Team: Noctowl (Lv34).
+- Bird Keeper Bob (13, 6): Defeated with Calcifer's Thunderpunch. Team: Noctowl (Lv34).
 
 ## Evolution Methods
 - Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock).
