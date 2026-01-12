@@ -33,3 +33,7 @@
 - Currently at Route 23 (Outside Indigo Plateau).
 - Plan: Fly to Ecruteak City to start Roamer hunt.
 - Navigation: Open Fly Map -> Navigate to Ecruteak -> Confirm.
+- Accidentally opened Pokegear (Clock) instead of Pokemon Menu.
+- Correcting: Exit Pokegear -> Start Menu -> Pokemon -> Mistral -> Fly.
+- Start Menu Cursor Assumption: Currently on 'POKEGEAR'. Moving Up x2 to 'POKEMON'.
+- Fly Path Assumption: Indigo Plateau -> Left x3 -> Ecruteak City.
