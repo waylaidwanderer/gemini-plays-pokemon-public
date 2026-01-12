@@ -41,4 +41,4 @@
 - Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
 - Task: Reach Red/Grind - Started Turn 43550.
 - Grinding Strategy: Lead with Calcifer (Thunderpunch) or GNEISS (Earthquake) for efficient KOs. Use XENON for status support if needed.
-- Waterfall Hypothesis: If A-button interaction fails at (10, 30) while facing up, the current may be blocking interaction entirely. Pivot to land path via Row 17.
+- Waterfall Strategy: Successfully climbed waterfall at (10, 29) to reach upper level (Turn 43564). Use A button while facing the waterfall tile.
