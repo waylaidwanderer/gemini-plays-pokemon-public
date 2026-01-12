@@ -19,8 +19,9 @@
 # Mt Moon Navigation Plan
 - **Current Pos:** (2, 3).
 - **Goal:** Reach Route 4 Exit at (25, 5).
-- **Status:** Previous attempt to go Left/Down failed (blocked by `FLOOR_UP_WALL` at (2,4)).
-- **Action:** Calculating new path to the East using BFS script to avoid obstacles and maze dead-ends.
+- **Status:** Found clear path via Ladder.
 - **Route:**
-  1. Calculate path to (25, 5).
-  2. Execute path.
+  1. Go East to (7, 3), then South to (7, 4).
+  2. Go East to (13, 4), then North to Ladder at (13, 3).
+  3. Take Ladder to (25, 3).
+  4. Go South to Exit at (25, 5).
