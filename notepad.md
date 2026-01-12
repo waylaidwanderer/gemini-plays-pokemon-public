@@ -14,14 +14,14 @@
 - Espeon (Lv73): Defeated.
 - Snorlax (Lv75): Defeated (Turn 43968).
 - Venusaur (Lv77): Defeated (Turn 43969).
-- Blastoise (Lv77): Active. Knows Blizzard.
-- Charizard (Lv77): Remaining.
+- Blastoise (Lv77): Active. Knows Blizzard, Surf.
 - GORP (Snorlax): Active. HP 154/221.
-- FNT: KIMCHI (Turn 43976), GNEISS (Turn 43973), Calcifer.
+- FNT: KIMCHI, GNEISS, Calcifer.
 
-# Strategy
-- Blastoise: Use GORP (Snorlax) to tank. Use Body Slam for paralysis. Use Rest + Leftovers for sustainability.
-- Charizard: Use GORP (Snorlax) or revive GNEISS.
+# Strategy: GORP vs Blastoise
+- Primary: Use Body Slam for STAB damage and paralysis chance.
+- Sustainability: Use Rest if HP gets low (<80 HP). Leftovers provide passive healing.
+- Backup: LAPIS or XENON (though XENON is frail and Blastoise might have non-Normal/Fighting moves).
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
