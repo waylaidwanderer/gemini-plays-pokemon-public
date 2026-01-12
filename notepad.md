@@ -3,7 +3,7 @@
 - **Current Objective:** Reach Cinnabar Island.
 - **Strategy (The HOW):**
     1. Navigate south through Viridian City to reach Pallet Town.
-    2. Visit Professor Oak's Lab in Pallet Town (as suggested by the Aide).
+    2. Visit Professor Oak's Lab in Pallet Town.
     3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21.
     4. Navigate Route 21 south to reach Cinnabar Island.
     5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
@@ -18,6 +18,7 @@
 - LEDGE_HOP_DOWN: One-way movement (usually North to South).
 - CUT_TREE: Impassable until CUT is used (e.g., via KIMCHI).
 - Diglett's Cave Ledges: FLOOR_UP_WALL at (15, 34) is NOT jumpable from North.
+- COUNTER: Blocks movement; allows interaction with NPCs behind it. Verified in Trainer House 1F.
 
 ## Inventory & Economy
 - Item Pocket Limit: 20 unique items.
@@ -30,6 +31,7 @@
 - Welcome Sign: (19, 1).
 - Building (21, 9): Nickname Speech House.
 - Cut Tree (14, 4): Blocks a path to the west.
+- Trainer House (23, 15): Battles available downstairs.
 
 ## Route 2 (South)
 - Picked up Elixir at (14, 50).
@@ -63,17 +65,16 @@
 - [Turn 42597] Nickname Speech House: Exploration complete.
 - [Turn 42605] Entered Trainer House 1F.
 - [Turn 42609] Cooltrainer M mentions Viridian is the town closest to INDIGO PLATEAU.
+- [Turn 42611] Receptionist confirms trainer battles available downstairs.
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
 - TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
 - TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
-- COUNTER: Blocks movement; allows interaction with NPCs behind it. Verified in Trainer House 1F.
-- WARP_CARPET_DOWN: Standard exit tile.
+
 ## Trainer House 1F (Map 23_6)
-- Entrance/Exit: (2, 13) and (3, 13) lead to Viridian City (23, 15).
-- Receptionist: (0, 11). Confirmed: Trainer battles available downstairs.
+- Receptionist: (0, 11).
 - Cooltrainer M: (7, 11).
 - Youngster (Object 4): Wanders near (6, 8).
 - Gentleman (Object 5): (2, 4).
