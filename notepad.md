@@ -23,5 +23,5 @@
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   1. Exit Pokegear. (Done)
   2. Go North to Ecruteak. (Done)
-  3. Return to Route 37. (Current)
-  4. Check Map.
+  3. Return to Route 37. (Done)
+  4. Check Map. (Current)
