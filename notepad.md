@@ -15,3 +15,8 @@
 - **Party:** Gyarados (Lv36) w/ Repel.
 - **Status:** Turn 35291 - Back on Route 37 (post-Center reset). Checking Map.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
+
+# Lessons Learned
+- **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
+- **RNG Reset:** Entering a building (Pokemon Center) did not immediately move them either.
+- **Solution:** Using Fly to randomize positions is the next logical step when soft methods fail.
