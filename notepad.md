@@ -44,6 +44,9 @@
 - Shellder (Lv30): No moves observed (one-shot by Calcifer's Thunderpunch).
 - Cloyster (Lv34): No moves observed (one-shot by Calcifer's Thunderpunch).
 - Tentacruel (Wild Lv37): No moves observed (escaped).
+- Marill (Lv29): No moves observed (one-shot).
+- Lapras (Lv32): No moves observed (one-shot).
+- Tentacool (Wild Lv34): No moves observed (escaped).
 
 ## PC Storage (Box 1) (Current) (9/20)
 - GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
@@ -66,9 +69,6 @@
 - Swimmer Dawn (Object 1) at (9, 23): [Defeated] Roster: Seaking (Lv34).
 - Swimmer Tucker (Object 4) at (8, 23): [Defeated] Roster: Shellder (Lv30), Cloyster (Lv34).
 - Swimmer Nicole (Object 1) at (52, 8): [Defeated] Roster: Marill (Lv29), Marill (Lv29), Lapras (Lv32).
-- Marill (Lv29): No moves observed (one-shot).
-- Lapras (Lv32): No moves observed (one-shot).
-- Tentacool (Wild Lv34): No moves observed (escaped).
 
 # Route 20 Discoveries
 - Seafoam Islands Entrance: Located at (38, 7).
