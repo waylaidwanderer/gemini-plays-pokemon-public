@@ -135,7 +135,7 @@
     ]
   },
   "route42_gate_shuffle": {
-    "description": "Executes the Roamer Shuffle loop on Route 42: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear Map.",
+    "description": "Executes the physical movement for the Roamer Shuffle on Route 42: Closes menu, Enters Gate (Left), Exits Gate (Right). Does NOT open Pokegear.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -148,12 +148,12 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 1500\", \"Right\", \"sleep 1500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 2500\", \"Right\", \"sleep 2500\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-12T20:14:04.185Z",
-        "action_counter": 36212
+        "timestamp": "2026-01-12T20:15:41.015Z",
+        "action_counter": 36214
       }
     ]
   }
