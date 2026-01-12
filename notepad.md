@@ -65,7 +65,8 @@
     - Battle Progress:
         - Crobat (Lv 36): Defeated with Thunderpunch.
         - Weezing (Lv 36) #1: Defeated with Flamethrower.
-        - Weezing (Lv 36) #2: Current. Strategy: Flamethrower.
+        - Weezing (Lv 36) #2: Defeated with Flamethrower.
+        - Venomoth (Lv 39): Current. Strategy: Flamethrower.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
