@@ -41,7 +41,7 @@
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Current Progress: 95.3%
-- Objective: Explore all reachable unseen tiles in Silver Cave.
+- Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
 
 # Lessons Learned
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
@@ -51,7 +51,8 @@
 # Exploration Log
 - Turn 44060: Starting search for remaining unseen tiles in Silver Cave Room 1. Current Progress: 95.3%.
 - Turn 44063: Encountered wild Graveler. Running.
-- Turn 44064: Resuming exploration.
+- Turn 44064: Encountered wild Graveler. Running.
+- Turn 44065: Resuming exploration.
 
 # Legendary Hunt List
 - Suicune: Tracks unknown.
