@@ -19,5 +19,6 @@
 # Route 3 Navigation Plan
 - **Success:** Found gap at (7, 5) and accessed Upper Lane (Rows 2-4).
 - **Current Status:** On Upper Lane at (7, 4).
-- **Verified:** The "Wall" at x=13 only blocks Rows 5-18. Rows 2-4 are CLEAR.
-- **Plan:** Walk East along Row 4 to the Mt. Moon Entrance at (52, 1).
+- **Verified:** The "Wall" at x=13 blocks Row 4. Row 2 and 3 are CLEAR.
+- **Refined Plan:** Move UP to Row 2. Walk East to bypass walls at x=13 and x=19 and the Youngster at (16, 3).
+- **Goal:** Reach Mt. Moon Entrance at (52, 1).
