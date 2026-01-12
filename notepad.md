@@ -24,5 +24,6 @@
   - Swift: 1 used.
   - GORP (Snorlax): HP 176/221. Active. Neutral Spcl.Def.
   - Calcifer (Typhlosion): Fainted.
-- Inventory: 4 Full Restores, 10 Max Potions, 18 Revives.
-- Strategy: Use Max Potion on GORP. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
+- Inventory: 4 Full Restores, 9 Max Potions, 18 Revives.
+- Strategy: Clear message, then heal GORP correctly. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
+- Turn 43768: Mistakenly used Max Potion on XENON. HP 176/221. Clearing message.
