@@ -34,7 +34,7 @@
 - Red Defeated: Turn 44045.
 
 # Post-Game Goals
-- Explore remaining unseen tiles in Mt. Silver.
+- Explore remaining unseen tiles in Mt. Silver Room 1.
 - Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
 - Complete the Pokedex.
 
@@ -47,6 +47,7 @@
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
 - Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
 - Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
+- Use find_path_v7_robust for path generation and navigate for execution.
 
 # Legendary Hunt Strategy
 - General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
@@ -58,13 +59,22 @@
 - Mewtwo: Cerulean Cave? (Verify if accessible).
 - Celebi: GS Ball event? (Verify availability).
 
-# Exploration Log
-- Turn 44081: Credits finished. Resuming exploration.
-- Turn 44082: Attempted to move Left from (3, 4), failed. (2, 4) is likely a WALL.
-- Turn 44083: Attempted to use FLASH but accidentally used STRENGTH with GNEISS. Retrying FLASH.
-
 # Exploration Plan: Silver Cave Room 1
 1. Use FLASH with KIMCHI to ensure visibility.
 2. Navigate to (0, 35) to uncover the bottom-left corner.
 3. Use find_reachable_unseen_tiles to identify remaining targets.
 4. Explore until 100% completion is reached.
+
+# Mt. Silver Room 1 Markers Summary
+- (10, 15): Ledge Down
+- (11, 15): Ledge Down
+- (11, 20): Barrier (Up blocked)
+- (14, 25): Ledge Down
+- (15, 1): Warp to Room 2
+- (15, 25): Ledge Down
+- (16, 25): Ledge Down
+- (17, 25): Ledge Down
+- (4, 9): Ledge Pocket (Unreachable)
+- (7, 30): Ledge Right
+- (8, 34): Barrier (North blocked)
+- (9, 33): Exit to Outside
