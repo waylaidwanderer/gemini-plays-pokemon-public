@@ -15,8 +15,8 @@
 - **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
 
 # Goldenrod City Operations
-- **Current Pos:** Exiting Station.
+- **Current Pos:** Goldenrod City.
 - **Goal:** Catch Raikou/Entei.
-- **Step 1:** Check Pokegear Map.
-  - Action: Scroll Left to Map Card.
-  - Action: Press A to view full map.
+- **Step 1:** Check Pokegear Map. (Done)
+- **Step 2:** Fly to Ecruteak City.
+  - Reason: Central hub for interception.
