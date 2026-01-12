@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Navigating Fly Map (New Bark -> ?).
-- **Status:** Cursor stuck at New Bark (Turn 34892 'Left' failed).
-- **Plan:** Trying 'Up' (to Blackthorn).
-- **Reason:** 'Left' failed repeatedly. 'Up' was part of a successful sequence in Turn 34867.
-- **Hypothesis:** Horizontal movement from New Bark might be restricted or buggy. Vertical might work.
+- **Action:** Navigating Fly Map (Cherrygrove -> Violet).
+- **Status:** Cursor at Cherrygrove City (Confirmed).
+- **Observation:** 'Up' from New Bark went to Cherrygrove. 'Left' failed previously.
+- **Plan:** Pressing 'Left' to reach Violet City.
+- **Hypothesis:** Map connections are specific. Exploring links one by one.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
