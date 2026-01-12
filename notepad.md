@@ -6,9 +6,9 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Hunt on Route 42.
-  - **Status:** Repel wore off! Re-applying.
-  - **Resources:** 3 Super Repels left. ¥244.
-  - **Strategy:** Checked Route 38 (empty). Moving to Route 42 (East of Ecruteak) to intercept.
+  - **Status:** Entering Route 42.
+  - **Resources:** 2 Super Repels left. ¥244.
+  - **Strategy:** Entering Route 42 to check if Roamers are present. If not, shuffle back to Ecruteak.
 
 # Strategy Notes & Lessons
 - **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak) over Route 37 (South) in recent turns (36050-36185).
