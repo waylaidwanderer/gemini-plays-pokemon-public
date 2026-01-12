@@ -3,9 +3,10 @@
     1. Navigate south through Viridian City to reach Pallet Town. [Completed]
     2. Visit Professor Oak's Lab in Pallet Town. [Completed]
     3. Use LAPIS (Poliwag) with SURF at the southern edge of Pallet Town to enter Route 21. [Completed]
-    4. Navigate Route 21 south to reach Cinnabar Island. [In Progress]
-    5. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
-    6. Return to Viridian City to challenge the final Gym Leader (Blue).
+    4. Navigate Route 21 south to reach Cinnabar Island. [Completed]
+    5. Explore Cinnabar Island and find Gym Leader Blaine. [In Progress]
+    6. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
+    7. Return to Viridian City to challenge the final Gym Leader (Blue).
 
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable.
@@ -14,8 +15,9 @@
 - LADDER: Pier/Land tile on Route 21. Traversable on foot; acts as land for SURF initiation.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP/STAIRS: Map transitions.
-- LEDGE: One-way jump or impassable barrier (e.g., Route 21 pier). Need to verify if jumpable.
-- FLOOR_UP_WALL: Floor tile with a wall on the North side. Impassable from the North. Verified at (13, 36).
+- LEDGE: One-way jump or impassable barrier.
+- LEDGE_HOP_DOWN: One-way North to South jump. Verified at Cinnabar Island (7, 9).
+- FLOOR_UP_WALL: Floor tile with a wall on the North side. Impassable from the North. Verified at Route 21 (13, 36).
 - CUT_TREE: Impassable until CUT is used (KIMCHI).
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
@@ -63,7 +65,7 @@
 - ICARUS (Pidgeotto Lv19): FLY, SAND-ATTACK, GUST, QUICK ATTACK.
 - XENON (Haunter Lv44): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
 - LAPIS (Poliwag Lv12): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
-- KIMCHI (Gloom Lv49): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
+- KIMCHI (Gloom Lv50): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
 ## PC Storage (Box 1) (Current) (9/20)
 - GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
@@ -73,19 +75,21 @@
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
 - Check Mental Map for WALL tiles (tables/furniture) in house interiors before planning paths.
 
-# Trainer Encounters (Route 1)
-- Schoolboy Danny (Object 1) at (7, 12): Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
+# Trainer Encounters (Route 21)
+- Swimmer Nikki (Object 1) at (11, 16): Roster: Seel (Lv 28), Seel (Lv 28), Dewgong (Lv 28). [Defeated]
+- Fisher Arnold (Object 3) at (14, 22): Roster: Tentacruel (Lv 34). [Defeated]
 
+# Map Exploration (Kanto)
 ## Route 21
 - Entered from Pallet Town at (7, 18) -> (7, 0).
 - Water route leading south to Cinnabar Island.
-- Swimmer Nikki (Object 1) at (11, 16). Roster: Seel (Lv 28), Seel (Lv 28), Dewgong (Lv 28). [Defeated]
 - Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
 - Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
-- Strategy: Move East to X=8 to exit pier into water via SURF.
-- Fisher Arnold (Object 3) at (14, 22). Roster: Tentacruel (Lv 34). [Defeated]
+
 ## Cinnabar Island
 - Entered from Route 21 at (13, 35) -> (3, 0).
-- Blue (Object 1) located at (9, 6).
-- Observed: Wall at X=4 separates water channel from land.
-- Goal: Find a landing spot to reach the island's interior.
+- Blue (Object 1): Location to be confirmed (suspected east side).
+- Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
+- Landing Spot: Identified at (4, 11) (FLOOR tile adjacent to WATER).
+- Cinnabar Island Sign: Located at (7, 7).
+- Goal: Reach the island's interior to find Blue and Blaine.
