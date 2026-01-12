@@ -50,6 +50,7 @@
 ## Route 20
 - Swimmer Cameron (12, 15): [Defeated]
 - Swimmer Lori (45, 14): [Defeated]
+- Swimmer Nicole (52, 8): [Defeated]
 - Seafoam Islands Entrance: (38, 7).
 - Cinnabar Gym Sign: (37, 11).
 
@@ -57,4 +58,3 @@
 - Swimmer Harold (13, 28): [Defeated]
 - Swimmer Dawn (9, 23): [Defeated]
 - Swimmer Tucker (8, 23): [Defeated]
-- Swimmer Nicole (52, 8): [Defeated]
