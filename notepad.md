@@ -17,5 +17,3 @@
 # Roamer Hunt: Ecruteak Hub
 - **Current Pos:** Ecruteak City (Pokemon Center).
 - **Goal:** Intercept Raikou/Entei.
-- **Status:** Just arrived via Fly. Roamers likely moved.
-- **Next Step:** Check Pokegear Map to confirm new positions.
