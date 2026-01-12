@@ -41,7 +41,7 @@
 - **Method:** Shuffle between Ecruteak City and Route 37.
 - **Execution:** Enter Route 37 -> Use 'sweep_route37' -> Return to Ecruteak -> Return to Route 37.
 - **Status:** Shuffling (Ecruteak <-> Route 37). Super Repel active.
-- **Reflection (Turn 34784):**
-    - **Execution:** Hunt loop is tight.
-    - **Strategy:** Gyarados (Lv36) + Super Repel filtering verified.
-    - **Tools:** `sweep_route37` is performing well.
+- **Reflection (Turn 34831):**
+    - **Correction:** Accidentally swept twice without shuffling (Turn 34830). Must strictly enforce Shuffle -> Sweep cycle.
+    - **Status:** Resuming correct loop. Repel active.
+    - **Tools:** `sweep_route37` working, requires manual shuffle.
