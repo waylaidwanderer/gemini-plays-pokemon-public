@@ -25,3 +25,4 @@
     - **Auto:** Tools working well. 
     - **Goal:** Hunt is active. 
     - **Error:** Menu nav needs precision. Found false constraint in assuming rapid inputs work safely.
+- **Pathing Note:** Row 24 is blocked by Gym/Center. Use Row 22 for East-West traversal in this section.
