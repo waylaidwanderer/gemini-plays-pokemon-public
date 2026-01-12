@@ -81,10 +81,8 @@
     - Full Heal: ¥600
 
 # Victory Road Navigation Plan
-- Goal: Reach exit at (9, 67).
-- Step 1: Navigate to ladder at (13, 17) on 1F. [Completed]
-- Step 2: Descend to 2F at (13, 31). [Completed]
-- Step 3: Navigate to (7, 38) on 2F and hop Left. [Completed]
-- Step 4: Reach ladder at (1, 35) on 2F. [Completed]
-- Step 5: Descend to 3F at (1, 49). [Completed]
-- Step 6: Reach exit at (9, 67). [Current Step]
+- Goal: Pass through the Victory Road Gate to Route 22.
+- Step 1: Navigate through Victory Road. [Completed]
+- Step 2: Pass badge checks in Victory Road Gate. [Current Step]
+- Step 3: Exit East to Route 22.
+- Step 4: Reach Viridian City.
