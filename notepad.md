@@ -25,7 +25,7 @@
 # Area Records (Kanto)
 ## Viridian City
 - Entrance from Route 2 (South): (19, 0).
-- Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
+- Gramps (Object 1): Wanders near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
 - Nickname Speech House (21, 9): Exploration complete.
 - Trainer House (23, 15): 
@@ -72,4 +72,4 @@
 - Plan: Visit Professor Oak's Lab (12, 11).
 - Plan: Surf south from Pallet Town to Route 21.
 - Daisy (Blue's House): Mentioned Blue is the Viridian Gym Leader but is often away.
-- Fisher (Object 2): Wandering southern Pallet Town.
+- Fisher (Object 2): Wanders southern Pallet Town.
