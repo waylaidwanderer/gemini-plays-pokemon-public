@@ -6,7 +6,7 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Hunt on Route 42.
-  - **Status:** Shuffling (Gate Method).
+  - **Status:** Checking Map on Route 42.
   - **Resources:** 2 Super Repels left. ¥244.
   - **Strategy:**
     1. Check Map.
