@@ -3,7 +3,7 @@
 - **Current Operation:**
   1.  **Locate:** Shuffle between Route 42 and Ecruteak Gate until a Roamer appears on Route 42.
   2.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados to encounter it.
-- **Status:** Shuffling (Gate Method). Observed Roamers on Route 38/44 (Turn 36292).
+- **Status:** Shuffling (Gate Method). Observed Roamers on Route 38/44 (Turn 36293).
 - **Resources:** 2 Super Repels left. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
