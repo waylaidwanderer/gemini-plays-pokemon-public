@@ -13,5 +13,5 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Shuffle (Route 37 <-> Ecruteak) -> Check Map. Repeat.
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35286 - Inside Pokemon Center. Exiting to reset RNG.
+- **Status:** Turn 35287 - Exited PokeCenter. Checking Map for Roamer movement.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
