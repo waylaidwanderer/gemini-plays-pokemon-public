@@ -35,9 +35,9 @@
 - XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 15/20.
 - Strategy: Use Hypnosis to sleep Snorlax. Switch to GNEISS (Graveler) after healing him. GNEISS resists Normal and can use Rollout against Snorlax's lower physical Defense.
 - Task: Switch to GNEISS. 
-  - Turn 43904: Started switch process.
-  - Turn 43913: Using Full Restore on GNEISS.
-- Battle Progress: Snorlax is at +6 Sp.Def. Dream Eater is inefficient. Snorlax fell asleep on Turn 43902.
+  - Turn 43913: Accidentally used Soda Pop on GNEISS instead of Full Restore. HP is now 84/152, but still PARALYZED.
+  - Turn 43914: Clearing text and returning to battle menu.
+- Battle Progress: Snorlax is at +6 Sp.Def. Snorlax fell asleep on Turn 43902 and is still at Turn 0 of sleep (since no FIGHT turns have passed).
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
