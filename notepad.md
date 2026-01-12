@@ -18,10 +18,8 @@
 - Snorlax (Lv75): Active. Asleep (Turn 43954). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest, Amnesia.
 - XENON (Haunter): Active. HP 111/111.
-  - Moves: HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- GNEISS (Graveler): Benched. HP 110/152. PARALYZED.
-  - Moves: EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
-- Strategy: Use Full Restore on GNEISS while Snorlax is asleep. Then switch GNEISS in. Use Defense Curl followed by Rollout.
+- GNEISS (Graveler): Benched. HP 152/152.
+- Strategy: Snorlax is asleep. GNEISS is healed. Switch GNEISS in and use Defense Curl + Rollout.
 
 # Inventory
 - Items: 3 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
