@@ -29,7 +29,7 @@
 - Start Turn: 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): In progress.
-- Psychic PP Tracker: 4 used (Assume 16 max).
+- Psychic PP Tracker: 5 used (Assume 16 max). Reflect faded.
 - Damage taken by GORP: ~140 HP.
-- Strategy: Stall Psychic PP by healing GORP every turn. GORP at 94/221 HP (after Psychic + Leftovers).
-- Current Turn: 43711. Need to use another Full Restore/Max Potion.
+- Strategy: Stall Psychic PP by healing GORP every turn. GORP at 110/221 HP (after Psychic + Leftovers).
+- Current Turn: 43712. Need to use another Full Restore/Max Potion.
