@@ -12,8 +12,8 @@
 - **Session Start:** Turn 34090.
 - **Action:** Shopping in Goldenrod.
 - **Status:** Goldenrod Dept Store 2F.
-- **Plan:** Buy Repels from Clerk at (13, 6) -> Fly to Ecruteak -> Hunt.
-- **Note:** Viridian & Vermilion Marts do NOT sell Repels.
+- **Plan:** Check Clerk at (13, 5) for Super/Max Repels -> Fly to Ecruteak -> Hunt.
+- **Note:** Clerk at (13, 6) only sells standard Repels. Viridian & Vermilion had none.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Last Sighting:** Route 38 & Route 42 (Verified Turn 34605).
