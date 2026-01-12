@@ -49,6 +49,7 @@
 - **Tactics:** Earthquake on GNEISS for Pikachu; ThunderPunch on Calcifer for Blastoise/Charizard. Fighting-type moves or Toxic for Snorlax.
 
 # Navigation Plan: Silver Cave Room 1
-1. Grab the item at (5, 30).
-2. Explore the northern part of the room to find the ladder to the next floor.
-3. Document any obstacles or puzzles.
+1. Explore the northern part of the room to find the ladder to the next floor.
+2. Grab the item at (5, 30) (currently unreachable from south/east).
+3. Explore unseen tiles: (4, 24), (3, 25), (5, 24), (6, 24), (7, 24), (8, 24), (9, 24), (12, 24), (14, 26), (15, 27), (2, 27), (3, 27), (15, 28), (15, 29), (15, 30), (15, 32), (0, 34), (15, 34), (0, 35), (15, 35).
+4. Document any obstacles or puzzles.
