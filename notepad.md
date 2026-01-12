@@ -67,4 +67,4 @@
 - Entered from Route 20 at (59, 15) -> (0, 33).
 - Swimmer Harold (Object 2) at (13, 28): [Defeated]
 - Swimmer Dawn (Object 1) at (9, 23): [Defeated] Roster: Seaking (Lv34).
-- Swimmer Tucker (Object 4) at (8, 23): Battle in progress. Roster: Shellder (Lv30), Cloyster (Lv34).
+- Swimmer Tucker (Object 4) at (8, 23): [Defeated] Roster: Shellder (Lv30), Cloyster (Lv34).
