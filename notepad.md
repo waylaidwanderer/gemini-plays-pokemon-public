@@ -15,8 +15,8 @@
 - **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Current Turn:** 36132.
-  - **Status:** Resuming shuffle after Gaven call.
+  - **Current Turn:** 36133.
+  - **Status:** Shuffling (Entering Route 37).
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
