@@ -1,8 +1,9 @@
 # Roamer Hunt Strategy
 - **Current Operation:**
-  1.  **Relocate:** Moving to Route 38 (West of Ecruteak) to intercept Roamers observed there.
-  2.  **Intercept:** Use Super Repel (active) and Level 36 Gyarados.
-- **Status:** Repel wore off. Re-applying before entering Route 38.
+  1.  **Relocate:** Enter Route 38 (West).
+  2.  **Hunt:** Run in grass with Super Repel active.
+  3.  **Intercept:** Level 36 Gyarados is lead.
+- **Status:** Repel applied. Exiting Ecruteak West to Route 38.
 - **Resources:** 2 Super Repels left. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
