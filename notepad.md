@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35461 - In Ecruteak City (23, 28). Wade calling. Plan: Finish call -> Go to Mart to sell items/buy Repels -> Check Roamer location.
+- **Status:** Turn 35467 - In Mart Sell Menu (Balls). Plan: Navigate to TM Pocket, sell TM07 (Zap Cannon) for cash, buy Super Repels, then Fly to check Roamers.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
