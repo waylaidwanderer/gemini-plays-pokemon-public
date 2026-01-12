@@ -62,5 +62,6 @@
 - Goal: Defeat Blue and obtain the Earth Badge.
 - Step 1: Talk to Gym Guide at (7, 13). [Completed]
 - Step 2: Explore gym layout and mechanics. [Completed]
-- Step 3: Battle Blue. [Current Step]
+- Step 3: Battle Blue. [In Progress]
+- Battle Start: Turn 43107.
 - Entry Timestamp: Turn 43101.
