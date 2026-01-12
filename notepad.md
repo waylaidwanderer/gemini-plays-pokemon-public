@@ -20,8 +20,6 @@
 - Espeon (Lv73):
   - Psychic Used: 6 (Verified: Turns 43697, 43704, 43711, 43717, 43724, 43733).
   - Reflect: Faded (Turn 43712).
-  - GORP (Snorlax): Fainted on Turn 43733.
-- Items Used: 6 Full Restores.
-- Inventory (Verified Turn 43745): 4 Full Restores, 11 Max Potions, 19 Revives.
-- Strategy: Revive GORP (Snorlax), then stall remaining Psychics. Use Max Potions on GORP once revived.
-- Revival Attempt 2: Turn 43746.
+  - GORP (Snorlax): Revived at Turn 43746.
+- Strategy: Stall remaining Psychics using GORP. Use Max Potions on GORP.
+- Items: 4 Full Restores, 11 Max Potions, 18 Revives remaining (post-turn 43746).
