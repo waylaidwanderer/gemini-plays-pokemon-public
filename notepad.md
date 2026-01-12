@@ -44,3 +44,8 @@
 - Hypothesis: Access to the far-left corridor (X=0) and far-right (X=19) is only possible by walking along the bottom (Row 34 or 35).
 - Test: Use find_path_v7_robust to reach (1, 35) or (18, 35).
 - Conclusion: (In progress).
+
+# Area Records: Silver Cave Room 2 (3_75)
+- Warp to Room 1: (17, 31).
+- Water: (13, 30), (13, 31).
+- FLOOR_UP_WALL: Row 32.
