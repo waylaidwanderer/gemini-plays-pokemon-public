@@ -69,3 +69,7 @@
 - Marill (Lv29): No moves observed (one-shot).
 - Lapras (Lv32): No moves observed (one-shot).
 - Tentacool (Wild Lv34): No moves observed (escaped).
+
+# Route 20 Discoveries
+- Seafoam Islands Entrance: Located at (38, 7).
+- Cinnabar Gym Sign: Located at (37, 11).
