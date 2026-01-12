@@ -7,9 +7,9 @@
   - Item: Super Repel (active).
 - **Procedure:**
   1. Check Pokegear Map. (Done - Not here)
-  2. Shuffle: Move North to Ecruteak. (Current Action)
-  3. Return to Route 37.
-  4. Repeat.
+  2. Shuffle: Move North to Ecruteak. (Done)
+  3. Return to Route 37. (Current Action)
+  4. Check Map.
 
 # Session Stats
 - **Start:** Turn 34090.
