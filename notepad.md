@@ -17,10 +17,8 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Mt Moon Navigation Plan
-- **Current Pos:** (7, 4).
+- **Current Pos:** (25, 3).
 - **Goal:** Reach Route 4 Exit at (25, 5).
-- **Status:** Resuming path after wild battle.
+- **Status:** Took ladder to exit corridor.
 - **Route:**
-  1. Go East to (13, 4), then North to Ladder at (13, 3).
-  2. Take Ladder to (25, 3).
-  3. Go South to Exit at (25, 5).
+  1. Go South to Exit at (25, 5).
