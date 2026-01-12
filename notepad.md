@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35487 - In Fly Map (New Bark). Previous inputs likely eaten by fade-in. Retrying navigation to Goldenrod (Left->Left->Down).
+- **Status:** Turn 35488 - In Fly Map (New Bark). navigating to Goldenrod (Left->Left->Left). Expected path: New Bark -> Cherrygrove -> Violet -> Goldenrod.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
