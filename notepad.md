@@ -19,6 +19,7 @@
 - CUT_TREE: Impassable until CUT is used (KIMCHI).
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
+- SIGN: Background object providing information; acts as a wall.
 
 # Area Records (Kanto)
 ## Viridian City
@@ -66,5 +67,6 @@
 # Strategy: Pallet Town Exploration
 - [Turn 42699] Arrived in Pallet Town.
 - Observed: Entry from Route 1 at (8, 0).
-- Plan: Explore the town, visit Professor Oak's Lab, and then Surf south to Cinnabar Island.
-- Note: Pallet Town is 20x18.
+- Observed: Pallet Town Sign at (7, 9) reads "PALLET TOWN A Tranquil Setting of Peace & Purity."
+- Plan: Talk to the Teacher, visit Red's house (5, 5), Blue's house (13, 5), and Professor Oak's Lab (12, 11).
+- Plan: Surf south from Pallet Town to Route 21.
