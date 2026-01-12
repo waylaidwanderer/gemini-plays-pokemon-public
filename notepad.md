@@ -24,9 +24,14 @@
 
 # Task: Legendary Hunt
 - Start Turn: 44154
+- Current Turn: 44176
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
+
+# Time Tracking
+- Legendary Hunt Start: Turn 44154
+- Current Progress: Getting to Ecruteak City.
 
 # Mt. Silver Completion
 - Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths.
@@ -43,3 +48,5 @@
 - Silver Cave Outside has only two main warps (Poke Center and Room 1 entrance).
 - Mt. Silver Room 1 has an isolated entrance area; the rest of the room must be accessed via Room 2 or another unknown path.
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
+- Fly Usage: Must be outdoors to use Fly.
+- Menu Memory: The menu remembers the last selected option (e.g., PACK instead of POKEMON). Verify cursor position.
