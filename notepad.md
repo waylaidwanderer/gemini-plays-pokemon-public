@@ -77,7 +77,7 @@
     - Full Restore: ¥3000
     - Revive: ¥1500
     - Full Heal: ¥600
-- Task: Stocking up on supplies. Started Turn: 43022.
+- Task: Stocking up on supplies. Completed Turn: 43045.
 
 # Progress Log
 - Turn 42978: Defeated Blaine (Volcano Badge).
