@@ -27,16 +27,16 @@
 - Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
 - Complete the Pokedex.
 
-# Task: Mt. Silver 100% Completion
-- Start Turn: 44058
-- Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Current Targets: (0, 35), (19, 35).
-- Status: 99.7% explored. Row 35 must be reachable from within Room 1.
-- Exploration Plan:
-  1. Enter Room 1 via (18, 11).
-  2. Navigate to (24, 34) and attempt to move Down to row 35.
-  3. Reach (0, 35) and (19, 35) to finish the floor.
-  4. Exit and begin Legendary Hunt.
+# Task: Legendary Hunt
+- Start Turn: 44154
+- Objective: Capture Raikou, Entei, and Suicune.
+- Priority: Raikou (Master Ball).
+- Method: Ecruteak Shuffle (Route 37).
+- Status: Heading to Poke Center to get ICARUS (Flyer).
+
+# Mt. Silver Completion
+- Status: Done (99.7%).
+- Note: Entrance lobby at (9, 33) is isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) are unreachable from this entrance.
 
 # Legendary Hunt Strategy
 - Priority: Raikou (Speed).
@@ -48,3 +48,4 @@
 - Precise menu navigation is critical; verify menu state before long sequences.
 - FLOOR_UP_WALL tiles block movement North (Up) AND block entry from the North (Down).
 - Silver Cave Outside has only two main warps (Poke Center and Room 1 entrance).
+- Mt. Silver Room 1 has an isolated entrance area; the rest of the room must be accessed via Room 2 or another unknown path.
