@@ -52,7 +52,11 @@
 - Gym Dimension: 10x18.
 - Fuchsia Gym NPCs:
     - Lass Linda (5, 11): Janine look-alike. Team: Bulbasaur (Lv 30), Venusaur (Lv 34), Ivysaur (Lv 32). Defeated. (Turn 42269)
-    - Gym Guide (7, 15): Mentions trainers look like Janine.
+    - Gym Guide (Object 6, 7, 15): Mentions trainers look like Janine.
+    - Janine? (Object 1, 1, 10)
+    - Janine Look-alike? (Object 2, 5, 7)
+    - Janine Look-alike? (Object 4, 9, 14)
+    - Janine Look-alike? (Object 5, 1, 14)
 - Fuchsia Gym Invisible Walls (Turn 42296):
     - The gym layout is a maze of invisible walls (marked as WALL in Mental Map).
     - Perimeter strategy: Attempt to navigate along the outer edges to find openings.
