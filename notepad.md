@@ -22,5 +22,5 @@
 - **Route:**
   1. Go East to x=47 to bypass walls at (48-49, 13). (Completed)
   2. Go North/East to reach the gap at (49, 11). (Completed)
-  3. Go North on Column 49 to Row 2.
+  3. Go North on Column 49, detour East around Fisher at (49, 5) to reach Row 2.
   4. Go East to x=52 and enter Mt. Moon.
