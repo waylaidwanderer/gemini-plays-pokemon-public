@@ -72,3 +72,6 @@
 - Menu Navigation: Use single `press_buttons` to verify menu state.
 - Route 17 Physics: Downhill mechanic requires constant Northward inputs.
 - Fuchsia Navigation: Row 22 wall blocks North movement except at X=0, 1. (4, 31) is a wall.
+## Janine Battle Log (Turn 42334)
+- Janine sent out Crobat (Lv 36).
+- Calcifer is Lv 62. Strategy: Thunderpunch for super-effective damage.
