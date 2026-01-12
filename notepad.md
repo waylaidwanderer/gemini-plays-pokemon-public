@@ -11,8 +11,8 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Transit to Johto via Magnet Train.
-- **Status:** Saffron City. Heading to Magnet Train Station.
-- **Plan:** Magnet Train Station (8, 3) -> Goldenrod City -> Dept Store (Buy Repels).
+- **Status:** Inside Magnet Train Station.
+- **Plan:** Talk to Officer (Show Pass) -> Board Train -> Goldenrod.
 - **Note:** Viridian & Vermilion Marts do NOT sell Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
