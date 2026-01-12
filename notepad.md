@@ -24,10 +24,11 @@
 - Status: At the bottom of Route 17, attempting to exit to Route 18.
 
 ## Strategy for Navigating Route 17 (Bottom Area)
-- Observation: Row 85 contains a wall barrier from X=6 to X=13.
-- Hypothesis: The path forward is through the far right (X >= 14) or far left (X <= 5) lanes.
-- Plan: Navigate east to X=17 at Row 82/83 to use the gatehouse warps.
-- Update (Turn 42157): Downhill mechanic makes North movement to Row 83 difficult. Aiming for Row 82 to allow for drift.
+- Observation: Row 85 is a WALL barrier from X=5 to X=19. Row 84 at X=16, 17, 18, 19 is also a WALL.
+- Hypothesis: To reach the exit at (17, 82) or (17, 83), I must move West to X=14 (or less), then North to Row 83 or 82 where the path East is clear.
+- Plan: Move West to (14, 84), then North to (14, 82), then East to (17, 82). This avoids the wall blockages at Row 84.
+- Physics: Constant Southward drift on Route 17 requires consistent Northward inputs. Use `find_path_v5` to generate optimal button sequences.
+- Start Turn: 42154. Current Attempt: 3.
 
 ## Battle and Pokemon Information
 ### Party Movesets
