@@ -17,11 +17,6 @@
 - OBJECTS (NPCs/Items): Impassable collision. Must be navigated around. Interaction possible from adjacent tiles.
 - PC / BOOKSHELF: Impassable collision. Interaction possible from adjacent tiles.
 
-## Fuchsia City Journey Tracking
-- Start Turn: 42062
-- Current Turn: 42208
-- Status: Exploring Fuchsia City. Blocked by ledge at (5, 31). Pathing around to Gym sign.
-
 ## Battle and Pokemon Information
 ### Party Movesets
 - Calcifer (Typhlosion): Flamethrower (0 PP), Return, Smokescreen, Thunderpunch.
@@ -35,7 +30,7 @@
 - Erika (Celadon Gym): Defeated.
 - Rival Silver (Mt. Moon): Defeated.
 - Biker Charles (6, 80): Defeated.
-- Bird Keeper Bob (13, 6): Defeated with Calcifer's Thunderpunch. Team: Noctowl (Lv34).
+- Bird Keeper Bob (13, 6): Defeated.
 
 ## Evolution Methods
 - Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock).
@@ -51,7 +46,7 @@
 
 ## Celadon City Investigation
 - Mansion Roof House: Storyteller NPC only active at night.
-- Gym Access: Requires Cut and navigating through the southern garden.
+- Gym Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through gap in ledge at (5,33). Warp at (10, 29).
 
 ## Kanto Secrets & NPC Schedules
 - Daisy Oak (Pallet Town): Tea time 3-4 PM daily.
@@ -59,16 +54,18 @@
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
-- Next Step: Defeat trainers on Route 18 and reach Fuchsia City.
+- Next Step: Defeat Janine (Fuchsia).
 
 ## General Lessons & Error Log
 - NPC Interaction: Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - Ledges: Hop down south only.
 - Menu Navigation: Use single `press_buttons` to verify menu state.
 - Route 17 Physics: Downhill mechanic requires consistent Northward inputs or rapid tapping to overcome drift.
+
 ## Fuchsia City Exploration (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
 - Observation: City has a complex layout with many interior fences/walls.
 - Interaction Log:
     - Youngster (Object 1): Moving around near (24, 19). Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
-- Map Progress: 19.6% explored.
+- Map Progress: 29.4% explored.
+- Ledge Obstacle: Stuck at (5, 32). Above is ledge, below is wall. Trying to move Left to (4, 32) to find a way North.
