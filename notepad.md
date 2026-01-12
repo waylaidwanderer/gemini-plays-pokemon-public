@@ -38,6 +38,7 @@
 - Method: Cycle between Ecruteak City and Route 37 gates.
 - Ball: MASTER BALL.
 - Lead: XENON (Haunter) for Hypnosis (if needed).
+- Observed Roamer Movesets: (None yet)
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state before long sequences.
