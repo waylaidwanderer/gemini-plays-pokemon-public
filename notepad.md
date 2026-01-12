@@ -52,7 +52,7 @@
 - Map Cursor starts at current city.
 - Target: Goldenrod City (West of New Bark).
 - Navigation: Move cursor West/Northwest to Goldenrod node. Verify city name on top of screen before pressing A.
-- Note: 14 failed attempts recorded (Turn 44260-44310). Pivot to biking if next attempt fails.
+- History: 14 failed attempts (Turn 44260-44310). Pivot to biking if next attempt fails.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
