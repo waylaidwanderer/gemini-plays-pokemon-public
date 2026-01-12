@@ -1,9 +1,9 @@
 # Gem's Pokémon Crystal Knowledge Base
 
 ## Global Tile Mechanics
-- FLOOR: Standard traversable tile. No special effects.
+- FLOOR: Standard traversable tile.
 - FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
-- WALL: Impassable collision.
+- WALL: Impassable collision. (4, 31) confirmed as WALL despite label.
 - WATER: Impassable on foot. Requires SURF.
 - TALL_GRASS / grass: Standard traversable tile. Wild encounters.
 - DOOR / WARP / CAVE: Entry/exit points.
@@ -63,15 +63,8 @@
 
 ## Fuchsia City Exploration (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
-- Observation: City has a complex layout with many interior fences/walls. Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
+- Observation: City has a complex layout. Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
 - Interaction Log:
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
-- Map Progress: 32.2% explored.
-- Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
-- Current Turn: 42237
-- Status: Exploring Fuchsia City for the Pokemon Center. Calcifer at 0 Flamethrower PP.
-- Plan: 1. Explore western/northern areas. 2. Heal at Pokemon Center. 3. Challenge Gym.
-## Route 15 Gatehouse (Fuchsia East)
-- Status: Entered from Fuchsia City (37, 22).
-- NPC: Officer at (5, 2).
-- Goal: Identify exit and then find Pokemon Center in Fuchsia.
+- Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
+- Route 15 Gatehouse: Eastern exit of city.
