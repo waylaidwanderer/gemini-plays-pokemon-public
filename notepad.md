@@ -60,11 +60,12 @@
 - [Turn 42574] Verified Speary at (5, 2) is a Spearow, not Moltres.
 
 ## Tile Mechanics (Verification)
-- BOOKSHELF: Verified wall-like collision in Nickname Speech House.
+- BOOKSHELF: Verified wall-like collision.
+- RADIO: Verified interaction at (7, 1) in Nickname Speech House.
 - TV: To be verified.
-- RADIO: To be verified.
 - COUNTER: To be verified.
 - STAIRS: To be verified.
+- TOWN_MAP: To be verified.
 ## Viridian Nickname Speech House (Map 23_5)
 - Entrance/Exit: (2, 7) and (3, 7) lead to Viridian City (21, 9).
 - Pokefan M: (2, 4).
