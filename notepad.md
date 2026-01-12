@@ -3,11 +3,11 @@
   1.  **Shuffle:** Arrive in Ecruteak City.
   2.  **Check:** Use Pokegear to locate Roamers.
   3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
-- **Status:** Shuffling. Exiting Gatehouse to Route 38.
-- **Roamers:** Observed on Route 42, 44, & 45 (Turn 36351).
-- **Event:** Received phone call from Cooltrainer Gaven (Turn 36352).
-- **Note:** Warp from Route 38 triggered at (35, 9).
-- **Note:** Warp from Route 38 triggered at (35, 9).
+- **Status:** HUNTING (Route 38).
+- **Location:** Tall Grass at (29, 7).
+- **Lead:** Gyarados (Lv36).
+- **Action:** Reapplying Repel.
+- **Roamers:** Spotted on Route 38 (Turn 36356).
 - **Resources:** 1 Super Repel, 3 Repels. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
