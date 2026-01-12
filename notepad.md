@@ -86,3 +86,8 @@
 - Magmar (Lv45)
 - Rapidash (Lv50)
 - Strategy: Use GNEISS (Graveler) with Earthquake/Rollout.
+
+# Battle Strategy: Blaine
+- Lead: GNEISS (Graveler Lv54).
+- Moves: Earthquake for Magcargo and Magmar. Strength or Rollout for Rapidash if needed.
+- Backup: Calcifer (Typhlosion Lv63) with Thunderpunch/Flamethrower.
