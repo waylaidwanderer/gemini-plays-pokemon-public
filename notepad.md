@@ -65,3 +65,14 @@
 - Evolution: Evolve KIMCHI (Gloom) using Leaf Stone (Vileplume) or Sun Stone (Bellossom).
 - Training: Level up XENON (Haunter) to Lv50+.
 - Prep: Buy Full Restores at Indigo Plateau.
+
+# Indigo Plateau
+- Located at the end of Route 23.
+- Features: Poke Center, Mart, Elite Four Entrance.
+- Mart Items: To be verified.
+- Task: Stocking up on supplies. Started Turn: 43022.
+
+# Progress Log
+- Turn 42978: Defeated Blaine (Volcano Badge).
+- Turn 42992: Arrived at Indigo Plateau via Fly.
+- Turn 43022: Interacting with the Mart Clerk to buy supplies.
