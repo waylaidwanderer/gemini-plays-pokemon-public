@@ -13,5 +13,5 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Shuffle (Route 37 <-> Ecruteak) -> Check Map. Repeat.
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35256 - Roamers absent. Moving to Ecruteak to shuffle.
+- **Status:** Turn 35258 - In Ecruteak. Returning to Route 37 to check map.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
