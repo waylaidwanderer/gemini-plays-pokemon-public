@@ -50,14 +50,11 @@
 
 # Exploration Log
 - Turn 44060: Starting search for remaining unseen tiles in Silver Cave Room 1. Current Progress: 95.3%.
-- Turn 44063: Encountered wild Graveler. Running.
-- Turn 44064: Encountered wild Graveler. Running.
-- Turn 44065: Resuming exploration.
-- Turn 44069: Encountered wild Ursaring at (6, 22). Running to continue exploration. Goal: (0, 35).
 
-# Legendary Hunt List
+# Legendary Hunt Strategy
+- General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON) or False Swipe (if learned). Use Ultra Balls or Heavy Balls.
 - Suicune: Tracks unknown.
-- Raikou/Entei: Roaming Johto.
+- Raikou/Entei: Roaming Johto. Use Pokegear Map to track.
 - Lugia: Whirl Islands (Requires Silver Wing).
 - Ho-Oh: Tin Tower (Requires Rainbow Wing).
 - Articuno/Zapdos/Moltres: Locations to be verified.
