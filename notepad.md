@@ -60,10 +60,9 @@
 - Celebi: GS Ball event? (Verify availability).
 
 # Exploration Plan: Silver Cave Room 1
-1. Use FLASH with KIMCHI to ensure visibility.
-2. Navigate to (0, 35) to uncover the bottom-left corner.
-3. Use find_reachable_unseen_tiles to identify remaining targets.
-4. Explore until 100% completion is reached.
+1. Navigate to (0, 35) to uncover the bottom-left corner.
+2. Navigate to (19, 35) to uncover the bottom-right corner.
+3. Verify 100% completion and exit to Silver Cave Outside.
 
 # Mt. Silver Room 1 Markers Summary
 - (10, 15): Ledge Down
