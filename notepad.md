@@ -91,6 +91,7 @@
 - **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
 - **Ledges:** Hop down south only.
 - **Menu Navigation:** Use `press_menu_buttons_v3` for deep menus to avoid "mixed input" errors. (Added Turn 42037)
+- **Menu Cursors:** Verify cursor position before committing to a long button sequence. (Added Turn 42089)
 - **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
 
 ## Celadon Game Corner Sweep (Turn 41953)
