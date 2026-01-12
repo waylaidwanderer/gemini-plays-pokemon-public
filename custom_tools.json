@@ -140,12 +140,17 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"Down\", \"sleep 300\", \"Start\", \"sleep 300\", \"A\", \"sleep 300\", \"Right\", \"sleep 300\", \"A\"]')",
+    "python_script": "print('[\"Down\", \"sleep 1500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T19:10:12.010Z",
         "action_counter": 36122
+      },
+      {
+        "commit_message": "Increased sleep duration after movement to 1500ms to account for map transition time, preventing skipped menu inputs.",
+        "timestamp": "2026-01-12T19:15:07.693Z",
+        "action_counter": 36128
       }
     ]
   },
