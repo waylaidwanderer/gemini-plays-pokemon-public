@@ -30,3 +30,9 @@
 - **Goal:** Reach Saffron City to take Magnet Train to Johto.
 - **Reason:** Fly map navigation to Johto failed.
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
+
+# Route 3 Navigation Plan
+- **Current Position:** (15, 3).
+- **Immediate Obstacle:** Lower path blocked by ledges/walls further East.
+- **Solution:** Backtrack West to (4, 0) to access the Upper Path.
+- **Path:** Left to x=4 -> Up to y=0 -> Right to Mt. Moon (52, 1).
