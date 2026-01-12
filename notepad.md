@@ -35,6 +35,8 @@
   10. Navigate to Ledge Gap at (31, 7).
   11. Go North through gap to Row 4.
   12. Check East Wall (x=39) at Row 4 for the Upper Route 3 Exit.
+  13. CRITICAL: Rows 0-6 at x=37-39 are UNSEEN. The exit might be there.
+  14. Contingency: If blocked, return to Middle Lane (Row 17) and FORCE passage at Route 3 (13, 7) (Battle Youngster/Check Wall).
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
