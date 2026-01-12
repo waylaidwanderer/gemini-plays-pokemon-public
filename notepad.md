@@ -74,5 +74,5 @@
 - Water route connecting Route 20 and Fuchsia City.
 - Observed: Southern edge at Y=35 is WALL.
 - Goal: Explore north toward Fuchsia City and search for Seafoam Islands entrance on Route 20.
-- Swimmer Harold (Object 2) at (13, 28): Battle started. Roster: 2 Pokemon.
-- Swimmer Guy (Object 2) at (13, 28): Defeated by Harold. Updating marker.
+- Swimmer Harold (Object 2) at (13, 28): Battle in progress. Roster: 2 Pokemon.
+- Swimmer Harold (Object 2) at (13, 28): Identified and engaged. Updating marker.
