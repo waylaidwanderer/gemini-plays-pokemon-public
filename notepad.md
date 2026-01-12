@@ -73,8 +73,10 @@
 - WARP_CARPET_DOWN: Standard exit tile.
 ## Trainer House 1F (Map 23_6)
 - Entrance/Exit: (2, 13) and (3, 13) lead to Viridian City (23, 15).
-- Receptionist: (0, 11). Behind a counter.
+- Receptionist: (0, 11). Confirmed: Trainer battles available downstairs.
 - Cooltrainer M: (7, 11).
-- Youngster: (4, 8).
+- Youngster (Object 4): Wanders near (6, 8).
+- Gentleman (Object 5): (2, 4).
+- Cooltrainer F (Object 3): (6, 2).
 - Illegible Book (BG Object): (7, 10).
-- Goal: Explore the building and find out what happens here.
+- Goal: Locate stairs to the basement for battles.
