@@ -69,7 +69,14 @@
 # Indigo Plateau
 - Located at the end of Route 23.
 - Features: Poke Center, Mart, Elite Four Entrance.
-- Mart Items: To be verified.
+- Mart Items:
+    - Ultra Ball: ¥1200
+    - Max Repel: ¥700
+    - Hyper Potion: ¥1200
+    - Max Potion: ¥2500
+    - Full Restore: ¥3000
+    - Revive: ¥1500
+    - Full Heal: ¥600
 - Task: Stocking up on supplies. Started Turn: 43022.
 
 # Progress Log
