@@ -40,9 +40,6 @@
 ## PC Storage
 - Box 1: GORP (Snorlax Lv50), etc. (9/20 full)
 
-## Economy & Shopping
-- Celadon Dept Store: Large selection, no evolution stones.
-
 ## Fuchsia City Investigation (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
 - Soul Badge: Fuchsia City Gym (Leader Janine).
@@ -51,7 +48,8 @@
     - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
 - Safari Zone Main Office: (22, 13). Visited. No items or useful NPCs.
 - Route 15 Gatehouse: Eastern exit of city.
-- Bill's Older Sister's House: (11, 27). Inside (Turn 42243).
+- Bill's Older Sister's House: (11, 27). Visited.
+- Fuchsia Gym: (8, 27). Inside (Turn 42253).
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
