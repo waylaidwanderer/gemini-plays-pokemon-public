@@ -15,7 +15,9 @@
 - Entrance/Exit: (9, 33).
 - Item at (5, 30): Escape Rope (Collected).
 - Item at (15, 29): Protein (Collected).
-- Item at (7, 18): Uncollected.
+- Item at (7, 18): Ultra Ball (Collected).
+- Inventory: 19/20 slots used in Items pocket. 4/12 in Balls pocket.
+- FLOOR_UP_WALL: North edge is impassable. Cannot move North FROM it or South ONTO it.
 
 # Party Status
 - Calcifer (Lv64 Typhlosion)
