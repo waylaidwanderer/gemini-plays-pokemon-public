@@ -10,14 +10,14 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Moving South to Route 37 to complete shuffle.
-- **Action:** Enter Route 37 -> Check Map.
+- **Status:** Shuffle complete. Back on Route 37.
+- **Action:** Opening Map to check Roamer positions.
 - **Goal:** Find Roamer on Route 37.
 - **Strategy:**
   1. Check Map.
   2. If Roamer here -> Hunt.
   3. If not -> Manual Shuffle (Up -> Down).
-- **Observation:** Map shows Roamers on 38, 42.
+- **Observation:** Just arrived from Ecruteak. Roamer positions randomized.
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
