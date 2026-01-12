@@ -148,5 +148,36 @@
         "action_counter": 41523
       }
     ]
+  },
+  "find_reachable_unseen_tiles_v2": {
+    "description": "Identifies reachable unseen tiles on the current map and returns a sequence of button presses to reach the nearest one. Useful for efficient exploration.",
+    "input_schema": {
+      "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "description": "If true, returns a list of button strings to reach the nearest unseen tile.",
+          "type": "boolean"
+        },
+        "current_x": {
+          "type": "integer"
+        },
+        "current_y": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "current_x",
+        "current_y"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\nfrom xml.etree import ElementTree as ET\n\ndef find_path(grid, start, end):\n    queue = [(start, [])]\n    visited = {start}\n    while queue:\n        (x, y), path = queue.pop(0)\n        if (x, y) == end:\n            return path\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] != 'WALL' and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n    return None\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    unseen = []\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            grid[(x, y)] = t_type\n            if not seen:\n                unseen.append((x, y))\n                \n    start = (input_data['current_x'], input_data['current_y'])\n    \n    reachable_unseen = []\n    for ux, uy in unseen:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = ux + dx, uy + dy\n            if (nx, ny) in grid and grid[(nx, ny)] != 'WALL':\n                path = find_path(grid, start, (nx, ny))\n                if path is not None:\n                    reachable_unseen.append((ux, uy))\n                    break\n                    \n    if not reachable_unseen:\n        print(json.dumps([]))\n        return\n\n    reachable_unseen.sort(key=lambda p: abs(p[0]-start[0]) + abs(p[1]-start[1]))\n    target = reachable_unseen[0]\n    \n    best_path = None\n    for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n        nx, ny = target[0] + dx, target[1] + dy\n        if (nx, ny) in grid and grid[(nx, ny)] != 'WALL':\n            path = find_path(grid, start, (nx, ny))\n            if path is not None:\n                if best_path is None or len(path) < len(best_path):\n                    best_path = path\n                    \n    if best_path:\n        print(json.dumps(best_path))\n    else:\n        print(json.dumps([]))\n\nsolve()\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T01:54:24.652Z",
+        "action_counter": 42301
+      }
+    ]
   }
 }

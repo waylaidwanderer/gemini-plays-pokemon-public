@@ -51,17 +51,11 @@
 - Fuchsia Gym: (8, 27). Inside (Turn 42253). Leader Janine.
 - Gym Dimension: 10x18.
 - Fuchsia Gym NPCs:
-    - Lass Linda (5, 11): Janine look-alike. Team: Bulbasaur (Lv 30), Venusaur (Lv 34), Ivysaur (Lv 32). Defeated. (Turn 42269)
-    - Gym Guide (Object 6, 7, 15): Mentions trainers look like Janine.
-    - Janine? (Object 1, 1, 10)
-    - Janine Look-alike? (Object 2, 5, 7)
-    - Janine Look-alike? (Object 4, 9, 14)
-    - Janine Look-alike? (Object 5, 1, 14)
-- Fuchsia Gym Invisible Walls (Turn 42296):
-    - The gym layout is a maze of invisible walls (marked as WALL in Mental Map).
-    - Perimeter strategy: Attempt to navigate along the outer edges to find openings.
-    - Current Position: (8, 10).
-    - Known Walls: (7, 10), (6, 9), (7, 11), (2, 8), (3, 8), (4, 8), (5, 8), (6, 8), (2, 10), (7, 10), (0, 11), (1, 11), (2, 11), (7, 11), (2, 12), (4, 12), (6, 12), (2, 13), (4, 13), (6, 13), (3, 14), (6, 14).
+    - Janine (Object 1, 1, 10): The real Leader.
+- Fuchsia Gym Invisible Walls:
+    - The gym layout is a maze of invisible walls.
+    - Strategy: Use find_path_v5 to navigate to (1, 10) and TRUST THE TOOL OUTPUT. Do not interrupt autopress.
+    - Start Turn (Janine Goal): 42253 (Turn 42301)
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
