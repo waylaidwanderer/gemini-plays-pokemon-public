@@ -50,7 +50,7 @@
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
 - To free a slot, the entire stack must be tossed or used.
-- Task Started: Turn 43296. Current Turn: 43350. Goal: Toss BERRY. Accidentally opened Pokedex; closing it now.
+- Task Started: Turn 43296. Current Turn: 43351. Goal: Toss BERRY. Successfully opened PACK -> Items pocket. METAL COAT is selected. Scrolling to find BERRY.
 
 # Turn 43349 Correction
 - Turn mismatch detected: Turn 43342 -> 43348 (6 turns) instead of 1.
