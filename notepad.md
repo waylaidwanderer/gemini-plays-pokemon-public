@@ -4,7 +4,7 @@
 - **MVP:** Muscle (Machoke) Lv88.
 
 # Current Status
-- **Location:** Olivine Mart.
+- **Location:** Olivine City.
 - **Action:** Returning to Ecruteak City (Repels acquired).
 - **Strategy:** Fly to Ecruteak -> Resume Hunt (Shuffle -> Sweep).
 - **Loop:** Sweep -> Shuffle -> Sweep.
