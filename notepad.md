@@ -10,9 +10,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Restocking (Pass 26 - Interrupted).
-- **Status:** Repel expired. 1 left. Money low (¥394).
-- **Plan:** Fly to Olivine -> Sell Items (Revives) -> Buy Super Repels -> Resume Hunt.
+- **Action:** Flying to Olivine (Pass 26).
+- **Status:** At Goldenrod City (Fly Map).
+- **Navigation:** Testing Goldenrod -> Left (to Olivine?).
+- **Plan:** Land Olivine -> Sell Revives -> Buy Super Repels -> Resume Hunt.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
