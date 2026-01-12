@@ -21,7 +21,7 @@
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
 - Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone - Currently missing both. Note: Have Moon Stone).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu (uses Earthquake). (Prepared Turn #43638).
-- Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon. (Note: Shadow Ball is TM30).
+- Teach GORP (Snorlax) Shadow Ball (TM30) vs Red's Espeon.
 - Use XENON (Haunter) for Curse vs Red's Snorlax.
 
 # Time Tracking
@@ -41,5 +41,5 @@
 - Goal: Defeat Red (located at (9, 10)).
 
 # Red Battle Log
-- Failed Hypothesis: Snorlax could tank level 73 Espeon (Failed due to critical hit). Attempt #1.
-- Espeon (Lv73): Using MAX REVIVE on GORP (Turn #43658).
+- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
+- Espeon (Lv73): GORP fainted to critical hit. Attempting Revive.
