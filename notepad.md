@@ -40,7 +40,9 @@
 # Roamer Hunt Strategy
 - **Method:** Shuffle between Ecruteak City and Route 37.
 - **Execution:** Enter Route 37 -> Use 'sweep_route37' -> Return to Ecruteak -> Return to Route 37.
-- **Action:** Executing 'sweep_route37' (Pass 21). Super Repel active.
+- **Action:** Returning to Route 37 (Pass 22).
+- **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
+- **Status:** Super Repel active (~115/200 steps used). Gyarados lead.
 - **Reflection (Turn 34831):**
     - **Correction:** Accidentally swept twice without shuffling (Turn 34830). Must strictly enforce Shuffle -> Sweep cycle.
     - **Status:** Resuming correct loop. Repel active.
