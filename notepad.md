@@ -2,94 +2,60 @@
 - **Strategy (The HOW):**
     1. Defeated Blaine. Next: Challenge Blue at Viridian Gym for the Earth Badge (8th Kanto badge).
     2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
-    3. Party Optimization: Swap GORP (Snorlax Lv50) and GNEISS (Graveler Lv54) into the party. Replaced LAPIS (Lv12) and AAAAAAAAAA (Lv13).
-    4. After 16 badges: Unlock Mt. Silver and challenge Red.
-- **Viridian Gym Strategy:**
-    - Team Order: Lead with Calcifer (Lv63 Typhlosion) for quick KOs. GORP (Lv50 Snorlax) for Special tanks. GNEISS (Lv54 Graveler) for Pidgeot/Arcanine.
-    - Priority: Challenge Blue at Viridian Gym for the Earth Badge.
+    3. After 16 badges: Unlock Mt. Silver and challenge Red.
 
-# Tile Mechanics (Verified)
-- FLOOR: Traversable. Standard walkable tile.
-- WALL: Impassable.
-- CAVE: Warp/Entry point. Traversable.
-- WATER: Traversable with SURF. Wild encounters possible.
-- LEDGE_HOP_DOWN: One-way North to South.
-- LADDER: Traversable. Acts as land for SURF/FLY.
-- CUT_TREE: Impassable until CUT is used.
-- COUNTER: Blocks movement; allows NPC interaction from adjacent floor tile.
-- BOOKSHELF: Impassable.
-- SIGN/WINDOW/TV: Impassable background objects.
-- STAIRCASE: Warp.
-- FLOOR_UP_WALL: Impassable from North.
-- WARP_CARPET_DOWN: Entrance/Exit warp tile.
+## Viridian Gym Strategy (vs. Blue)
+- **Blue's Roster:** Pidgeot (56), Alakazam (54), Rhydon (56), Gyarados (58), Exeggutor (58), Arcanine (58).
+- **Tactics:**
+    - **Pidgeot:** Use GNEISS (Graveler) with Rollout or Calcifer (Typhlosion) with Thunderpunch.
+    - **Alakazam:** Use GORP (Snorlax) with Body Slam. High HP/SpDef helps.
+    - **Rhydon:** Use KIMCHI (Gloom) with Petal Dance (4x weak) or Calcifer with Return.
+    - **Gyarados:** Use Calcifer with Thunderpunch (4x weak).
+    - **Exeggutor:** Use Calcifer with Flamethrower (4x weak).
+    - **Arcanine:** Use GNEISS with Earthquake or Calcifer with Return.
+- **Team Order:** Lead with Calcifer (Lv63).
+
+# Tile Mechanics (Global Reference)
+- **FLOOR:** Reachable. Standard walkable tile.
+- **WALL:** Impassable.
+- **DOOR:** Warp. Reachable.
+- **CAVE:** Warp. Reachable.
+- **COUNTER:** Reachable (interaction only). Blocks movement; interact from adjacent floor tile.
+- **WARP_CARPET_DOWN:** Warp. Reachable.
+- **WATER:** Reachable with SURF.
+- **LEDGE_HOP_DOWN/LEFT/RIGHT:** One-way movement. Reachable.
+- **LADDER:** Warp. Reachable.
+- **STAIRCASE:** Warp. Reachable.
 
 # Area Records (Kanto)
-## Victory Road Gatehouse
-- Started Turn: 43073. Timestamp: Monday, Jan 12, 2026, 1:18 AM.
-- Goal: Pass badge checks and exit East to Route 22.
-- Officer (8, 11): Guarding a path.
-- Black Belt (7, 5): In the North hall.
-- Black Belt (12, 5): In the North hall.
+## Victory Road Gatehouse (23_13)
+- Officer (8, 11): Guarding North path.
+- Black Belt (7, 5): Guarding West path (Route 28/Mt. Silver).
+- Black Belt (12, 5): Guarding East path (Route 22/Viridian).
+- Warp North: To Victory Road (9, 67).
+- Warp South: To Route 26 (7, 5).
 
-## Victory Road
-- Exit: (9, 67) to Route 23 Gate.
+## Victory Road (3_91)
 - Entry (from Indigo): (13, 5).
+- Exit (to Gatehouse): (9, 67).
+- Ladder 1F/2F: (13, 17) <-> (13, 31).
+- Ladder 2F/3F: (1, 35) <-> (1, 49).
+- Ledge 2F: (6, 38) (Hop Left).
 
 ## Viridian City
-- Gramps: Expert catcher.
+- Viridian Gym (Blue): (32, 7).
 - Trainer House (23, 15): Daily battles.
-- South Navigation: Barrier at Y=31. Gap at (28, 31).
-
-## Pallet Town
-- Professor Oak's Lab (12, 11).
 
 # Battle & Pokémon Data
-## PC Storage (Box 1) (10/20)
-- GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15), LAPIS (POLIWAG Lv12), GNEISS (GRAVELER Lv54), AAAAAAAAAA (SPINARAK Lv13).
+## PC Storage (Box 1) (9/20)
+- GLAIVE (Lv14), SELKIE (Lv24), DELTA (Lv20), RANGOON (Lv22), NOMURA (Lv17), Ravioli (Lv10), Ouroboros (Lv15), LAPIS (Lv12), AAAAAAAAAA (Lv13).
 
-# Map Exploration & Discoveries
-## Route 21
-- Swimmer Nikki (11, 16): [Defeated]
-- Fisher Arnold (14, 22): [Defeated]
-
-## Cinnabar Island
-- Blue: Spoke to him in ruins; returned to Viridian Gym.
-- Landing Spot: (13, 13).
-
-## Route 20
-- Swimmer Cameron (12, 15): [Defeated]
-- Swimmer Lori (45, 14): [Defeated]
-- Swimmer Nicole (52, 8): [Defeated] (Roster: Marill Lv29, Lapras Lv32)
-- Seafoam Islands Entrance: (38, 7).
-- Cinnabar Gym Sign: (37, 11).
-
-## Route 19
-- Swimmer Harold (13, 28): [Defeated]
-- Swimmer Dawn (9, 23): [Defeated]
-- Swimmer Tucker (8, 23): [Defeated]
-
-# Blue Strategy (Strategist Advice)
-- Blue Team: No shared weaknesses (Alakazam, Exeggutor, Rhydon, Gyarados, Arcanine, Pidgeot).
-- Counter Alakazam/Exeggutor: Use GORP (Snorlax) with high Special Defense. Teach Body Slam/Shadow Ball.
-- Counter Pidgeot/Arcanine: Use GNEISS (Graveler). Beware Rhydon's Earthquake.
-- Evolution: Evolve KIMCHI (Gloom) using Leaf Stone (Vileplume) or Sun Stone (Bellossom).
-- Training: Level up XENON (Haunter) to Lv50+.
-
-# Indigo Plateau
-- Located at the end of Route 23.
-- Features: Poke Center, Mart, Elite Four Entrance.
-- Mart Items:
-    - Ultra Ball: ¥1200
-    - Max Repel: ¥700
-    - Hyper Potion: ¥1200
-    - Max Potion: ¥2500
-    - Full Restore: ¥3000
-    - Revive: ¥1500
-    - Full Heal: ¥600
+# Indigo Plateau Mart
+- Ultra Ball: ¥1200, Max Repel: ¥700, Hyper Potion: ¥1200, Max Potion: ¥2500, Full Restore: ¥3000, Revive: ¥1500, Full Heal: ¥600.
 
 # Victory Road Gatehouse Exploration Plan
 - Goal: Find the exit to Route 22 (East).
 - Step 1: Talk to Officer at (8, 11) to gather info. [Current Step]
-- Step 2: Explore the hallway to the East (around Y=5).
-- Step 3: Verify the exit to Route 22.
+- Step 2: Navigate to (12, 5) and talk to Black Belt.
+- Step 3: Exit East to Route 22.
 - Step 4: Proceed to Viridian City.
