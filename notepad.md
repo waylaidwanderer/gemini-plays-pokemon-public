@@ -49,7 +49,7 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Toss BERRY to free space (Turn 43328).
-2. Move to (14, 20) to bypass the row 20 step barrier.
+2. Move to (19, 21) to explore the right side and look for a path up.
 3. Move to (7, 19), face Up, and collect item at (7, 18).
 4. Explore remaining unseen tiles: (14, 26), (15, 27), (16, 27), (17, 28), (17, 29), (17, 30), (17, 32), (0, 35), (17, 34), (17, 35).
 
@@ -58,4 +58,4 @@
 - Stacks (e.g., Potion x5) occupy one slot.
 - Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
-- Task History: Turn 43296 - Started. Turn 43325 - Failed (Trainer Card). Turn 43328 - Attempting toss with cursor reset.
+- Task History: Turn 43296 - Started. Turn 43325 - Failed (Trainer Card). Turn 43329 - Failed (Pokemon Menu). Turn 43330 - Attempting toss from Pokemon Menu cursor.
