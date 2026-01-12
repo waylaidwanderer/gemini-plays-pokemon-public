@@ -1,10 +1,8 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Free an inventory slot by tossing the BERRY. (Priority #1).
-    2. Explore the left side of SilverCaveRoom1 to find a path north.
-    3. Find the ladder to the next floor.
-    4. Grind team to Lv 70-75 (Red has Lv 81 Pikachu).
-    5. Face Red at the peak.
+    2. Explore SilverCaveRoom1 to find the ladder to the next floor.
+    3. Face Red at the peak.
 
 # Progress Tracking
 - Badges: 16/16.
@@ -43,14 +41,11 @@
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
 
 # Navigation Plan: Silver Cave Room 1
-1. Toss BERRY to free space. (Turn 43333).
-2. Head west to (0, 21) and explore (0, 20) to find a path north. (Step up barrier at row 20 requires bypass).
+1. Toss BERRY to free space.
+2. Head west to (0, 21) and explore (0, 20) to find a path north.
 3. Collect items at (7, 18) and (15, 29) once space is freed.
 
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
-- Stacks (e.g., Potion x5) occupy one slot.
-- Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
-- Task Started: Turn 43296. Current Turn: 43333. Failed attempts: ~10 (mostly Pokedex/Trainer Card mis-navigation). Goal: Toss BERRY.
-- Row 21 Ledge: (14, 21) to (17, 21) are LEDGE_HOP_DOWN (impassable from South).
+- Task Started: Turn 43296. Current Turn: 43338. Goal: Toss BERRY.
