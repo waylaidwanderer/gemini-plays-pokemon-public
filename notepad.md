@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35497 - Fly Map Cursor stuck at New Bark Town. 'Left' inputs failed. Retrying with 'Up' (to trigger movement) then 'Left'. Target: Goldenrod via Cherrygrove/Violet.
+- **Status:** Turn 35498 - On Fly Map (Cherrygrove). Navigating to Goldenrod (Left -> Violet, Down -> Goldenrod?). Checking destination.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
