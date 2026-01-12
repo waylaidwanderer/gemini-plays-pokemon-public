@@ -8,6 +8,9 @@
 - Cut Tree: Blockage. Requires Cut HM to clear.
 - Whirlpool: Blockage. Requires Whirlpool HM to clear.
 - Waterfall: Blockage. Requires Waterfall HM to ascend.
+- FLOOR_UP_WALL: Floor tile with a wall boundary to the north. Blocks movement North.
+- LEDGE_HOP_DOWN: One-way ledge. Jump Down only.
+- LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
 
 # Pokemon Information (Movesets)
 - KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
