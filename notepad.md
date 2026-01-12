@@ -58,7 +58,7 @@
 - Bag Management: Item Pocket limit is 20 unique items. (Turn 42486)
 - NPC Interaction: Talk to Professors and Aides; they often provide useful context or rewards.
 - Picked up Elixir at (14, 50) on Route 2. (Turn 42541)
-- Observed Cut tree at (12, 50). Plan to clear it to reach the western side of the route.
+- Cut tree at (12, 50) cleared. (Turn 42546)
 - Observed Cut tree at (12, 46).
 - Observed Ledges at Y=47 and Y=39 block Northward movement from the western path.
 - Route 2 (South) Exploration:
