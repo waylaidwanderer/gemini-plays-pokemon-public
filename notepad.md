@@ -29,7 +29,7 @@
 - Entrance from Route 2 (South): (19, 0).
 - Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
-- Building (21, 9): Nickname Speech House.
+- Building (21, 9): Nickname Speech House. Exploration complete.
 - Cut Tree (14, 4): Blocks a path to the west.
 - Trainer House (23, 15): Battles available downstairs.
 
@@ -60,9 +60,6 @@
 - [Turn 42551] Started Viridian City Exploration (Sunday, Jan 11, 2026, 8:15 PM).
 - [Turn 42571] Pokefan M (Nickname Speech House) talks about nicknames and trading.
 - [Turn 42584] Lass (Nickname Speech House) mentions her Spearow (Speary) and Rattata (Rattey).
-- [Turn 42588] Verified Rattey (Rattata) at (6, 3) in Nickname Speech House (GROWLITHE_SPRITE).
-- [Turn 42574] Verified Speary (Spearow) at (5, 2) in Nickname Speech House (MOLTRES_SPRITE).
-- [Turn 42597] Nickname Speech House: Exploration complete.
 - [Turn 42605] Entered Trainer House 1F.
 - [Turn 42609] Cooltrainer M mentions Viridian is the town closest to INDIGO PLATEAU.
 - [Turn 42611] Receptionist confirms trainer battles available downstairs.
@@ -70,8 +67,8 @@
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
-- TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
-- TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
+- TV: Verified interaction at (2, 1) in Nickname Speech House.
+- TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House.
 
 ## Trainer House 1F (Map 23_6)
 - Receptionist: (0, 11).
