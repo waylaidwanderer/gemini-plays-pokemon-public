@@ -41,8 +41,13 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Previous Fly attempt interrupted by Phone Call.
-- Current State: Start Menu Open, Cursor on POKEMON.
-- Action: Execute Fly Macro with conservative timing.
-- Sequence: Enter Party -> Select Mistral (Slot 4) -> Fly -> Left x3 -> Confirm.
-- Goal: Reach Ecruteak City.
+- Fly Attempt Analysis:
+  - Previous failure was due to Party Menu cursor memory.
+  - Cursor was already on Mistral (Slot 4).
+  - 'Down' x3 moved cursor to 'CANCEL'.
+  - 'A' confirmed Cancel, exiting to Start Menu.
+- Current Strategy: Step-by-Step Navigation.
+  - Step 1: Enter Party Menu (Current Turn).
+  - Step 2: Verify cursor, select Mistral, select Fly (Next Turn).
+  - Step 3: Navigate Map (Subsequent Turn).
+- Goal: Reach Ecruteak City safely.
