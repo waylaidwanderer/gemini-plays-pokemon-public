@@ -6,13 +6,13 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Hunt on Route 42.
-  - **Status:** Checking Map on Route 42.
+  - **Status:** Shuffling (Gate Method).
   - **Resources:** 2 Super Repels left. ¥244.
   - **Strategy:**
-    1. Check Map.
-    2. If Roamer on Route 42: HUNT.
-    3. If not: Gate Shuffle (Enter/Exit Ecruteak Gate).
-    4. Repeat.
+    1. Observed Roamers on Route 38 & 44 (Turn 36243).
+    2. Executing Gate Shuffle (Enter/Exit Ecruteak Gate).
+    3. Check Map.
+    4. Repeat until Roamer is on Route 42.
 
 # Strategy Notes & Lessons
 - **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak).
