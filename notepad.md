@@ -44,9 +44,7 @@
 - GORP (Snorlax) teaching Surf. (In progress). Attempt #17.
 - Strategy Change: 1-2 button presses at a time.
 - Step 1: Open Menu (Completed).
-- Step 2: Move cursor from EXIT to SAVE (Completed).
-- Step 3: Move cursor from SAVE to GEAR (Completed).
-- Step 4: Move cursor from GEAR to POKEMON (Completed).
-- Step 5: Move cursor from POKEMON to PACK (In progress).
+- Step 2: Move cursor to PACK (Completed).
+- Step 3: Enter PACK (In progress).
 - Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
 - Goal: Reach warp at (13, 21) via Water at (13, 30).
