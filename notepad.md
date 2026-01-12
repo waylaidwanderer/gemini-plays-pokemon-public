@@ -17,10 +17,11 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Cerulean City Transit
-- **Current Pos:** (0, 20).
+- **Current Pos:** (9, 30).
 - **Goal:** Reach Route 5 Gate at (14, 35).
+- **Correction:** Row 31 is a wall from x=4 to x=19. Must flank East to x=20.
 - **Route:**
-  1. Go East to x=9.
-  2. Go South to Row 33 (to avoid walls at x=10).
-  3. Go East to x=14.
+  1. Go East to x=20.
+  2. Go South to Row 32.
+  3. Go West to x=14.
   4. Go South to Exit at (14, 35).
