@@ -3,7 +3,7 @@
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves: Psychic (7/16), Swift (4/32), Mud-Slap (1/16), Reflect (2/32).
 - Snorlax (Lv75): Active. Asleep (Turn 43825 via Rest).
-  - Moves: Body Slam (4/24), Rest (5/10).
+  - Moves: Body Slam (4/24), Rest (5/10), Amnesia (?), Snore (?).
 - XENON (Haunter): Active. HP 111/111. Immune to Normal (Body Slam, Snore).
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
