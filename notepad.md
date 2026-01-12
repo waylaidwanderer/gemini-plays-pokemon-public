@@ -41,9 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35654):
-  - Failure Analysis: In Turn 35652, I pressed 'A' twice. First 'A' selected Fly, second 'A' selected the current location (Indigo Plateau) on the map, cancelling the flight. Subsequent 'Left' inputs resulted in walking.
-  - Current State: Overworld.
-  - Action: Open Fly Map ONLY.
-  - Sequence: Start -> A (Pokemon) -> Down x3 (Mistral) -> A (Menu) -> A (Fly).
-  - Next Turn: Navigate Map to Ecruteak.
+- Fly Execution (Turn 35655):
+  - Current State: Party Menu, Cursor on MISTRAL (Confirmed by screen).
+  - Sequence: A (Select Mistral) -> Wait -> A (Select Fly) -> Wait Map (4s) -> Left x3 -> Wait -> A (Confirm).
+  - Goal: Ecruteak City.
+  - Note: Added extra wait time for Map loading to prevent input drops.
