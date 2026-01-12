@@ -6,36 +6,36 @@
     4. Collect remaining Kanto badges.
     5. Return to Viridian City to challenge Blue for the Earth Badge once all other badges are obtained.
 
-# Tile Mechanics (Global)
-- FLOOR: Standard walkable.
+# Strategy for Route 19/20 Navigation
+- Goal: Reach Seafoam Islands.
+- Started Turn: 42861 (Entered Route 20).
+- Current Turn: 42901.
+
+# Tile Mechanics (Verified)
+- FLOOR: Traversable. Standard walkable tile.
 - WALL: Impassable.
-- WATER: Requires SURF. Navigable while surfing.
-- LADDER: Pier/Land tile on Route 21. Traversable on foot; acts as land for SURF initiation.
-- TALL_GRASS: Wild encounters.
-- DOOR/WARP/STAIRS: Map transitions.
-- LEDGE: One-way jump or impassable barrier.
-- LEDGE_HOP_DOWN: One-way North to South jump. Verified at Cinnabar Island (7, 9).
-- FLOOR_UP_WALL: Floor tile with a wall on the North side. Impassable from the North. Verified at Route 21 (13, 36).
-- CUT_TREE: Impassable until CUT is used (KIMCHI).
-- COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
-- BOOKSHELF: Verified wall-like collision.
-- SIGN: Background object providing information; acts as a wall.
-- WINDOW: Impassable wall-like tile.
+- WATER: Traversable with SURF.
+- LEDGE_HOP_DOWN: One-way traversable (North to South). Verified at Cinnabar Island (7, 9).
+- LADDER: Traversable. Acts as land for SURF initiation. Verified at Route 21.
+- CUT_TREE: Impassable until CUT is used.
+- COUNTER: Blocks movement; allows NPC interaction.
+- BOOKSHELF: Impassable.
+- SIGN: Impassable background object.
+- WINDOW: Impassable.
 - STAIRCASE: Warp to another floor.
-- TV: Interactable background object; acts as a wall.
+- TV: Impassable background object.
+- FLOOR_UP_WALL: Impassable from the North. Verified at Route 21 (13, 36).
 
 # Area Records (Kanto)
 ## Viridian City
-- Gramps (Object 1): Wanders near (18, 7). Expert catcher, loves espresso.
-- Trainer House (23, 15): 
-    - 1F: Receptionist (0, 11), Cooltrainer M (7, 11), Cooltrainer F (6, 2).
-    - B1F: Receptionist (7, 1). Daily practice battles available.
-- South Navigation: Horizontal barrier at Y=31. Solution: Squeeze through gap at (28, 31).
+- Gramps (Object 1): Expert catcher, loves espresso.
+- Trainer House (23, 15): Daily practice battles available.
+- South Navigation: Horizontal barrier at Y=31. Squeeze through gap at (28, 31).
 
 ## Pallet Town
-- Red's House (5, 5): Red's Mom (Object 1).
-- Blue's House (13, 5): Daisy (Object 1). Mentioned Blue (Viridian Gym Leader) is often away.
-- Professor Oak's Lab (12, 11): Professor Oak (Object 1), Scientists (Objects 2, 3, 4).
+- Red's House (5, 5): Red's Mom.
+- Blue's House (13, 5): Daisy. Mentioned Blue is often away.
+- Professor Oak's Lab (12, 11): Professor Oak and Scientists.
 
 # Battle & Pokémon Data
 ## Party Status
@@ -50,29 +50,17 @@
 - GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
 
 # Trainer Encounters (Route 21)
-- Swimmer Nikki (Object 1) at (11, 16): Roster: Seel (Lv 28), Seel (Lv 28), Dewgong (Lv 28). [Defeated]
-- Fisher Arnold (Object 3) at (14, 22): Roster: Tentacruel (Lv 34). [Defeated]
+- Swimmer Nikki (Object 1) at (11, 16): [Defeated]
+- Fisher Arnold (Object 3) at (14, 22): [Defeated]
 
 # Map Exploration (Kanto)
 ## Cinnabar Island
-- Exploration Start Turn: 42804.
-- Entered from Route 21 at (13, 35) -> (3, 0).
-- Blue (Object 1): Spoke to him in the ruins; he has returned to Viridian Gym.
-- Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
-- Landing Spot: Identified at (13, 13) (FLOOR tile adjacent to WATER).
-- Cinnabar Island Sign: Located at (7, 7).
+- Blue (Object 1): Spoke to him in the ruins; he returned to Viridian Gym.
+- Landing Spot: Identified at (13, 13).
 ## Route 20
 - Entered from Cinnabar Island at (19, 16) -> (0, 16).
-- Water route leading east to Seafoam Islands.
-- Observed: Southern boundary at Y=17 is WALL.
-- Goal: Surf east to find Seafoam Islands.
-- Swimmer Guy (Object 3) at (12, 13).
-- Swimmer Cameron (Object 3) at (12, 15): Roster: Marill (Lv 34). [Defeated]
-- Swimmer Lori (Object 2) at (45, 14): Roster: Starmie (Lv 32), Starmie (Lv 32). [Defeated]
+- Swimmer Cameron (Object 3) at (12, 15): [Defeated]
+- Swimmer Lori (Object 2) at (45, 14): [Defeated]
 ## Route 19
 - Entered from Route 20 at (59, 15) -> (0, 33).
-- Water route connecting Route 20 and Fuchsia City.
-- Observed: Southern edge at Y=35 is WALL.
-- Goal: Explore north toward Fuchsia City and search for Seafoam Islands entrance on Route 20.
-- Swimmer Harold (Object 2) at (13, 28): Battle in progress. Roster: 2 Pokemon.
-- Swimmer Harold (Object 2) at (13, 28): Identified and engaged. Updating marker.
+- Swimmer Harold (Object 2) at (13, 28): Battle in progress. Roster: Remoraid (Lv32), Seadra (Lv30).
