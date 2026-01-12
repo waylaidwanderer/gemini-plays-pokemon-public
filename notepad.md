@@ -12,14 +12,14 @@
 - FNT: KIMCHI, GORP, GNEISS, LAPIS.
 
 # Strategy: The Final Stand (GNEISS Sweep)
-1. Turn 44015: Use REVIVE on GNEISS (Slot 5).
-2. Turn 44016: Use MAX POTION on GNEISS. (XENON acts as fodder).
-3. Turn 44017: Switch to GNEISS (if XENON lives) or send in GNEISS (if XENON faints).
-4. Turn 44018+: GNEISS uses ROLLOUT. With 4x effectiveness, even a partial chain should win.
+1. Turn 44017: Use REVIVE on GNEISS (Slot 5).
+2. Turn 44018: Use MAX POTION on GNEISS. (XENON acts as fodder).
+3. Turn 44019: Switch to GNEISS (if XENON lives) or send in GNEISS (if XENON faints).
+4. Turn 44020+: GNEISS uses ROLLOUT.
 
 # Battle Log: The Final Stand
 - Turn 44007: GORP fainted. Sent in LAPIS.
 - Turn 44009: Used REVIVE on Calcifer (Mistake).
 - Turn 44011: LAPIS fainted.
 - Turn 44012: Sent in XENON.
-- Turn 44015: Reviving GNEISS. Strategy is to heal him next turn then sweep.
+- Turn 44017: Attempting to Revive GNEISS. Previous turn failed due to menu navigation error.
