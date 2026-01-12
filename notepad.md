@@ -1,13 +1,14 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Free an inventory slot by tossing the BERRY. (Priority #1).
-    2. Explore SilverCaveRoom1 to find the ladder to the next floor.
-    3. Face Red at the peak.
+    2. Collect Protein at (15, 29).
+    3. Explore SilverCaveRoom1 to find the ladder to the next floor. Path seems to involve the far left (X=0) or right (X=19) corridors.
+    4. Face Red at the peak.
 
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory Management: Started Turn 43296. Goal: Free 1 slot by tossing BERRY.
+- Inventory Management: Started Turn 43296. Goal: Free 1 slot by tossing BERRY. (Manual attempt in progress).
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
@@ -42,10 +43,11 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Toss BERRY to free space.
-2. Head west to (0, 21) and explore (0, 20) to find a path north.
-3. Collect items at (7, 18) and (15, 29) once space is freed.
+2. Collect Protein at (15, 29).
+3. Head to (1, 35) then (0, 34) to access the left corridor (X=0) to reach the upper level.
+4. Collect item at (7, 18).
 
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
 - To free a slot, the entire stack must be tossed or used.
-- Task Started: Turn 43296. Current Turn: 43341. Goal: Toss BERRY. Using fixed tool.
+- Task Started: Turn 43296. Current Turn: 43344. Goal: Toss BERRY. Manual sequence via menu_navigator. Broken tool toss_first_item deleted.
