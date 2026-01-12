@@ -8,7 +8,7 @@
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
-- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Normal (Body Slam, Snore). Warning: Struggle hits Ghost-types in Gen 2.
+- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Normal (Body Slam, Snore).
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Giga Drain/Petal Dance.
