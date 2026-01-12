@@ -12,15 +12,21 @@
 
 ## Strategy: Remaining Kanto Journey
 - Badges: Volcano (Cinnabar/Seafoam), Earth (Viridian).
-- Cinnabar Access: Route 19 blocked (Turn 42376). detour: Fly Vermilion -> Diglett's Cave -> Route 2 -> Viridian -> Pallet -> Surf south.
+- Cinnabar Access: Route 19 blocked (Turn 42376). Detour: Fly Vermilion -> Diglett's Cave -> Route 2 -> Viridian -> Pallet -> Surf south.
+
+## Route 2 Investigation (Started Turn 42471)
+- Diglett's Cave Exit: (12, 7).
+- Nugget House (Fisher): (15, 15). Obtained Nugget. (Turn 42501)
+- Obstacles:
+    - Walls at X=12, 13 block Westward movement.
+    - Cut Tree at (15, 18) blocks Southward movement.
+    - Ledges at Y=21 block Northward return.
+- Item Management: Item Pocket limit is 20 unique items. (Turn 42486)
 
 ## Diglett's Cave (Started Turn 42430)
-- Exit: (15, 5) via ladder at (3, 3).
+- Topology: Tiered layout requires specific ladders to reach the exit.
 - Connections: (5, 31) <-> (17, 33), (3, 3) <-> (17, 3).
-
-## Route 2 Navigation (Started Turn 42471)
-- Goal: Reach Viridian City via southern exit at (10, 53).
-- Progress: Exited cave at (12, 7). Current position (14, 17).
+- Exit: (15, 5) via ladder at (3, 3).
 
 ## Battle and Pokemon Information
 ### Party Movesets
@@ -39,8 +45,5 @@
 
 ---
 **Lesson Log:**
-- Diglett's Cave Topology: Tiered layout requires specific ladders to reach the exit.
-- Ledges: Verify jumpability before planning routes.
-## Nugget House (Turn 42482)
-- Status: Obtained Nugget. (Turn 42501)
-- Note: Item Pocket limit is 20 unique items. Bag was full on Turn 42486.
+- Verification: Always test ledge jumpability before assuming a path is valid.
+- Notepad: Be extremely precise with `old_text` for `replace` actions.
