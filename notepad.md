@@ -61,6 +61,6 @@
 ## Viridian Gym Exploration Plan
 - Goal: Defeat Blue and obtain the Earth Badge.
 - Step 1: Talk to Gym Guide at (7, 13). [Completed]
-- Step 2: Explore gym layout and mechanics. [Current Step]
-- Step 3: Battle Blue.
+- Step 2: Explore gym layout and mechanics. [Completed]
+- Step 3: Battle Blue. [Current Step]
 - Entry Timestamp: Turn 43101.
