@@ -9,17 +9,14 @@
 - Started Turn: 42949. Completed Turn: 42978.
 - Entrance/Exit: Warp at (5, 5).
 - Gym Leader Blaine: (5, 2) [Defeated].
-- Observed Team:
-    - Magcargo (Lv45): (No moves observed).
-    - Magmar (Lv45): Sunny Day.
-    - Rapidash (Lv50): Fire Blast.
+- Roster: Magcargo (Lv45), Magmar (Lv45) (Sunny Day), Rapidash (Lv50) (Fire Blast).
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
 - WALL: Impassable.
 - WATER: Traversable with SURF. Wild encounters possible.
 - LEDGE_HOP_DOWN: One-way North to South.
-- LADDER: Traversable. Acts as land for SURF.
+- LADDER: Traversable. Acts as land for SURF/FLY.
 - CUT_TREE: Impassable until CUT is used.
 - COUNTER: Blocks movement; allows NPC interaction.
 - BOOKSHELF: Impassable.
