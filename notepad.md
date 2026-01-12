@@ -6,7 +6,7 @@
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
     5. Travel West through Route 28 to reach Mt. Silver. (Done)
     6. Explore Silver Cave Outside. (Done)
-    7. Heal at Silver Cave Poke Center and set spawn point. (Start Turn: 43245)
+    7. Heal at Silver Cave Poke Center and set spawn point. (Done, Turn 43250)
     8. Enter Mt. Silver.
     9. Face Red at the peak of Mt. Silver.
 
