@@ -21,8 +21,9 @@
 - Attempt 1 (Turn 44009): Revived Calcifer instead.
 - Attempt 2 (Turn 44018): Revived LAPIS instead.
 - Attempt 3 (Turn 44022): Selected QUIT instead of USE.
-- Attempt 4 (Turn 44023): Revived Calcifer instead (pressed Down 4 times from LAPIS).
-- Attempt 5 (Turn 44024): Clearing message and navigating from Calcifer to GNEISS (Down x2).
+- Attempt 4 (Turn 44023): Revived Calcifer instead.
+- Attempt 5 (Turn 44024): Selected Calcifer again (It won't have any effect).
+- Attempt 6 (Turn 44026): Navigating from Slot 3 (Calcifer) to Slot 5 (GNEISS). Down x2.
 
 # Battle Log: The Final Stand
 - Turn 44007: GORP fainted. Sent in LAPIS.
