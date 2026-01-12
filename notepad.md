@@ -30,7 +30,7 @@
 - Start: Turn 43634
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Awake. Sp.Def +6 (Maxed).
+- Snorlax (Lv75): Active. Asleep (Turn 43933). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
 - Party Movesets:
   - KIMCHI: FLASH, PETAL DANCE, CUT, SLEEP POWDER
