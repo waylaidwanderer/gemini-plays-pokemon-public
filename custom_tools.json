@@ -165,7 +165,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "import json\n# Robust menu navigation to toss the first item in the PACK.\n# Assumes Start menu cursor position is unknown, so we reset it to POKEDEX first.\n# Assumes Pack cursor position is unknown, so we reset it to top (first item) first.\nsequence = [\n    \"Start\", \n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Reset Start menu cursor to POKEDEX\n    \"Down\", \"Down\", # Move to PACK\n    \"A\", # Open PACK\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Scroll up to ensure we reach the top\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\",\n    \"A\", # Select first item (BERRY)\n    \"Down\", \"Down\", # Move to TOSS\n    \"A\", # Select TOSS\n    \"A\", # Confirm quantity (1)\n    \"Up\", # Select YES\n    \"A\", # Confirm toss\n    \"A\", # Dismiss \"Threw away...\"\n    \"B\", \"B\" # Close menu\n]\nprint(json.dumps(sequence))",
+    "python_script": "import json\n# Robust menu navigation to toss the first item in the PACK.\n# Assumes Start menu cursor position is unknown, so we reset it to POKEDEX first.\n# Assumes Pack cursor position is unknown, so we reset it to top (first item) first.\nsequence = [\n    \"Start\", \n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Reset Start menu cursor to POKEDEX\n    \"Down\", \"Down\", # Move to PACK\n    \"A\", # Open PACK\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", # Scroll up to ensure we reach the top\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\",\n    \"A\", # Select first item (BERRY)\n    \"Down\", \"Down\", # Move to TOSS (assuming USE and GIVE are above)\n    \"A\", # Select TOSS\n    \"A\", # Confirm quantity (1)\n    \"Up\", # Select YES\n    \"A\", # Confirm toss\n    \"A\", # Dismiss \"Threw away...\"\n    \"B\", \"B\" # Close menu\n]\nprint(json.dumps(sequence))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -176,6 +176,11 @@
         "commit_message": "Fix tool to be robust against persistent cursor positions and handle confirmation prompt.",
         "timestamp": "2026-01-12T11:48:59.505Z",
         "action_counter": 43336
+      },
+      {
+        "commit_message": "Fix tool to be robust against persistent cursor positions and handle confirmation prompt correctly.",
+        "timestamp": "2026-01-12T11:53:49.208Z",
+        "action_counter": 43340
       }
     ]
   }

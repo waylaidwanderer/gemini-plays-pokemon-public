@@ -48,4 +48,4 @@
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
 - To free a slot, the entire stack must be tossed or used.
-- Task Started: Turn 43296. Current Turn: 43339. Failed (Switch items prompt). Goal: Toss BERRY.
+- Task Started: Turn 43296. Current Turn: 43340. Clearing menus and fixing tool. Goal: Toss BERRY.
