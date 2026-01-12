@@ -15,7 +15,9 @@
 - Cinnabar Access: Route 19 blocked (Turn 42376). Detour: Fly Vermilion -> Diglett's Cave -> Route 2 -> Viridian -> Pallet -> Surf south.
 
 ## Route 2 Investigation (Started Turn 42471)
-- Nugget House (Fisher): (15, 15).
+- Nugget House (Fisher): (15, 15). Obtained Nugget.
+- Route 2 Gatehouse (South): (16, 27) / (17, 27).
+- Scientist (Gatehouse): Prof. Oak's Aide. Mentioned Oak's Lab in Pallet Town.
 - Obstacles:
     - Walls at X=12, 13 block Westward movement.
     - Ledges at Y=21, 23 are one-way South.
@@ -48,3 +50,5 @@
 **Lesson Log:**
 - Verification: Always test ledge jumpability before assuming a path is valid.
 - Notepad: Be extremely precise with `old_text` for `replace` actions.
+- Bag Management: Item Pocket limit is 20 unique items. (Turn 42486)
+- NPC Interaction: Talk to Professors and Aides; they often provide useful context or rewards.
