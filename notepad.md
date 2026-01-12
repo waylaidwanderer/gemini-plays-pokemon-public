@@ -29,7 +29,8 @@
 
 # Area Records (Kanto)
 ## Route 22 (23_2)
-- Ledge hop at (25, 13) required to pass wall at x=26.
+- Ledge hop at (25, 13) blocks row 12 path; return to row 12 via gap at (33, 13).
+- Main path to Viridian City: Row 12 West to x=10, then South to row 17, then East to x=39.
 - Viridian City entry: East edge (x=39).
 
 ## Victory Road Gatehouse (23_13)
