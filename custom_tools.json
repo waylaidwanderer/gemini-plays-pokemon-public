@@ -135,12 +135,12 @@
     ]
   },
   "shuffle_check_roamers": {
-    "description": "Moves down from Ecruteak to Route 37, waits 5s, then safely navigates to Pokegear Map. Assumes Main Menu cursor is on Pokegear.",
+    "description": "Moves down from Ecruteak to Route 37, waits 0.5s, then safely navigates to Pokegear Map. Assumes Main Menu cursor is on Pokegear.",
     "input_schema": {
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"Down\", \"sleep 5000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
+    "python_script": "print('[\"Down\", \"sleep 500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -166,6 +166,11 @@
         "commit_message": "Removed the Left-Right wiggle and reverted to a simple Right press, assuming the Pokegear menu resets to 'Back' upon entry. Kept the 5000ms sleep for map transition safety.",
         "timestamp": "2026-01-12T19:39:26.671Z",
         "action_counter": 36163
+      },
+      {
+        "commit_message": "Reduced initial sleep to 500ms based on successful manual execution in Turn 36177. This timing appears to avoid the input-eating window of the map transition.",
+        "timestamp": "2026-01-12T19:49:45.001Z",
+        "action_counter": 36178
       }
     ]
   },
