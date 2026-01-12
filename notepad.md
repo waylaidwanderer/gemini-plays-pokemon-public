@@ -22,9 +22,9 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Shuffling to Ecruteak (Pass 26).
-- **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
-- **Status:** Super Repel active (~70/200 steps used - Recalculated). Gyarados lead.
+- **Action:** Restocking (Pass 26 - Interrupted).
+- **Status:** Repel expired. 1 left. Money low (¥394).
+- **Plan:** Fly to Olivine -> Sell Items (Revives) -> Buy Super Repels -> Resume Hunt.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
