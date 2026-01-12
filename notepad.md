@@ -19,8 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42184
-- Status: Defeated Bird Keeper Bob on Route 18. Heading east.
+- Current Turn: 42185
+- Status: Defeated Bird Keeper Bob on Route 18. Entering Fuchsia City.
 
 ## Battle and Pokemon Information
 ### Party Movesets
