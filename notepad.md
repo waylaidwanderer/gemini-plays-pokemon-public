@@ -18,8 +18,9 @@
 - Start Turn: 43692
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73):
-  - Psychic Used: 6 (Verified: Turns 43697, 43704, 43711, 43717, 43724, 43733).
+  - Psychic Used: 7 (Verified: Turns 43697, 43704, 43711, 43717, 43724, 43733, 43747).
   - Reflect: Faded (Turn 43712).
   - GORP (Snorlax): Revived at Turn 43746.
-- Strategy: Stall remaining Psychics using GORP. Use Max Potions on GORP.
-- Items: 4 Full Restores, 11 Max Potions, 18 Revives remaining (post-turn 43746).
+  - Calcifer (Typhlosion): Fainted on Turn 43747.
+- Strategy: Switch to GORP (Snorlax) and continue stalling.
+- Items: 4 Full Restores, 11 Max Potions, 18 Revives remaining.
