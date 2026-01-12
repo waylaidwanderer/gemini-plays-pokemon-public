@@ -28,8 +28,4 @@
 - **Action:** Closing Pokegear to shuffle locations by moving to Route 37.
 - **Interruption:** Wade called (Turn 35117). Resuming map check.
 - **Action:** Opening Pokegear Map again.
-- Turn 35184: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
-- Turn 35189: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
-- Turn 35191: In Ecruteak. Moving to Route 37 to resume shuffle.
-- Turn 35194: Arrived Route 37. Checking Map.
-- Turn 35196: Checked Map. Roamers at Route 38, 42. Shuffling (Route 37 <-> Ecruteak).
+- Turns 35184-35200: Repeatedly checked Map. Roamers persistently on Route 38 & 42. Shuffled multiple times.
