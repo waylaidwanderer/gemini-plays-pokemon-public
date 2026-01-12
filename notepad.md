@@ -10,7 +10,7 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Plan:** Check Top Clerk inventory -> If no Super Repels, buy regular Repels from Bottom Clerk -> Fly Ecruteak -> Hunt.
-- **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail.
-- **Status:** Checking Top Clerk (13,5). Saw: Potion, Super Potion, Antidote, Parlyz Heal, Awakening.
+- **Plan:** Buy Standard Repels (x9) from Bottom Clerk -> Fly Ecruteak -> Hunt.
+- **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
+- **Status:** Moving to Bottom Clerk (13,6).
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
