@@ -14,7 +14,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35494 - In Party Menu (Cursor on Mistral). Selecting Fly to travel to Goldenrod City.
+- **Status:** Turn 35495 - On Fly Map (New Bark). Navigating to Goldenrod via Violet City.
 
 # Lessons Learned
 - **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
