@@ -41,7 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Previous Fly attempt failed (Map did not open).
+- Previous Fly attempt failed (Input timing issue: 'Left' input likely closed the submenu before Map opened).
 - Current State: In Pokemon Submenu, cursor on 'FLY'.
-- Action: Press 'A' to open Map -> Wait -> Navigate Left x3 -> Confirm.
-- Reason for failure: Likely input timing during submenu animation. Increasing wait times.
+- Action: Press 'A' -> Long Sleep (3s) -> Left x3 -> A.
+- Fly Path: Indigo Plateau -> Blackthorn -> Mahogany -> Ecruteak.
+- Goal: Reach Ecruteak City to start Roamer hunt.
