@@ -148,7 +148,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 3000\", \"Right\", \"sleep 3000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 5000\", \"Right\", \"sleep 5000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -164,6 +164,11 @@
         "commit_message": "Added an extra 'A' press at the end to automatically enter the Map view after opening the Pokegear.",
         "timestamp": "2026-01-12T20:26:39.668Z",
         "action_counter": 36229
+      },
+      {
+        "commit_message": "Increased sleep times to 5000ms to ensure reliable warping, as 3000ms was insufficient.",
+        "timestamp": "2026-01-12T20:29:59.154Z",
+        "action_counter": 36234
       }
     ]
   }
