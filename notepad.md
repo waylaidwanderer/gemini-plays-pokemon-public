@@ -60,8 +60,8 @@
     - Janine Look-alike (1, 14)
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
-    - Strategy: Use find_path_v5 to navigate to (1, 10) and TRUST THE TOOL OUTPUT. Do not interrupt autopress.
-    - Start Turn (Janine Goal): 42253 (Turn 42301, Sunday, Jan 11, 2026, 5:55 PM PST)
+    - Navigation to Janine: Turn 42253 to 42328 (75 turns).
+    - Current Battle: Leader Janine (Turn 42331). Strategy: Sweep with Calcifer.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
