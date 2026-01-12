@@ -29,3 +29,4 @@
 
 # Mart Inventories
 - **Ecruteak City:** Poke Ball, Great Ball, Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal, Revive. (NO REPELS)
+- **Olivine City:** Great Ball, Super Potion, Hyper Potion, Antidote, Parlyz Heal, Awakening, Ice Heal, Super Repel.
