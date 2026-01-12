@@ -7,11 +7,9 @@
     5. Face Red at the peak.
 
 # Progress Tracking
-- Badges: 16/16.
-- Mt. Silver Access: Unlocked.
-- Inventory Management: Protein used on ICARUS at Turn 43371. 1 slot free.
-- Navigation Analysis: find_path_v6_robust failed at Turn 43371. Row 34 (FLOOR_UP_WALL) is impassable from the North. The only way to Row 35 is likely via the far-left (X=0) or far-right (X=19) corridors.
-- FLOOR_UP_WALL: Impassable from both North and South. Verified: (10, 21)->(10, 20) BLOCKED (South to North), (10, 33)->(10, 34) BLOCKED (North to South).
+- FLOOR_UP_WALL: Acts as a wall on its North edge. Impassable when moving North (Up) FROM the tile, or South (Down) ONTO the tile. Verified: (8, 20)->(8, 19) [Up] BLOCKED, (10, 33)->(10, 34) [Down] BLOCKED.
+- Navigation Analysis: Updated find_path_v7_robust to correctly model North-edge barriers.
+- Task Started: Turn 43296. Goal: Collect item at (7, 18).
 
 # Area Records: Silver Cave Room 1 (3_74)
 - Entrance/Exit: (9, 33).
