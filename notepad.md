@@ -18,8 +18,11 @@
 - Nugget House (Fisher): (15, 15).
 - Obstacles:
     - Walls at X=12, 13 block Westward movement.
-    - Ledges at Y=21 block Northward return.
-- Item Management: Item Pocket limit is 20 unique items. (Turn 42486)
+    - Ledges at Y=21, 23 are one-way South.
+- Entry/Exit:
+    - North: Pewter City (8, 0).
+    - East: Diglett's Cave (12, 7).
+    - South: Gatehouse (16, 27) / (17, 27).
 
 ## Diglett's Cave (Started Turn 42430)
 - Topology: Tiered layout requires specific ladders to reach the exit.
