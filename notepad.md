@@ -10,16 +10,14 @@
 - **Strategy:** Fly to Ecruteak -> Check Pokegear -> Hunt/Shuffle.
 
 # Current Problem: Fly Map Navigation
-- **Issue:** Unable to fly from Indigo Plateau (Kanto) to Ecruteak (Johto).
-- **Observations:** 
-  - Opening map defaults to "Indigo Plateau" (Kanto side).
-  - Pressing 'Left' hits a wall (Kanto border).
-  - Pressing 'Select' (Region Toggle) appeared to move cursor to Cinnabar Island in previous attempts (unverified if user error).
+- **Status:** Map Cursor at Fuchsia City (Kanto).
+- **Goal:** Fly to Saffron City to take Magnet Train.
+- **Navigation:** Pressing UP from Fuchsia should lead towards Saffron.
 - **Plan:**
-  1. Open Map (A).
-  2. Verify Map is open.
-  3. Try 'Select' again to toggle to Johto.
-  4. Navigate to Ecruteak.
+  1. Navigate Cursor to Saffron City.
+  2. Fly to Saffron.
+  3. Walk to Station -> Take Train -> Arrive Goldenrod.
+  4. Fly to Ecruteak from Goldenrod.
 
 # Lessons Learned
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
