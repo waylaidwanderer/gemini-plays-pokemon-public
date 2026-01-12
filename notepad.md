@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Checking Pokegear (Pass 52).
+- **Action:** Entering Pokegear (Pass 52).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34640). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
