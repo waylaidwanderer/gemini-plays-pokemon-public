@@ -39,3 +39,6 @@
 - GORP (Snorlax) learned Surf (Turn 43469).
 - Navigation Analysis: Pond at (10-13, 30-31) connects to Row 27 via Waterfalls at (10-11, 28-29). Requires HM07 Waterfall to progress North from this pond.
 - Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
+- Task: Reach Red/Grind - Started Turn 43550.
+- Grinding Strategy: Lead with Calcifer (Thunderpunch) or GNEISS (Earthquake) for efficient KOs. Use XENON for status support if needed.
+- Waterfall Hypothesis: If A-button interaction fails at (10, 30) while facing up, the current may be blocking interaction entirely. Pivot to land path via Row 17.
