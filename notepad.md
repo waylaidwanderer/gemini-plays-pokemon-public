@@ -4,19 +4,19 @@
     2. Next: Challenge Red at Mt. Silver (16 badges).
     3. Quest Start: Turn 43083. Battle Start: Turn 43107.
 
-## Battle Status (Turn 43134)
-- Weather: Rain (Rain Dance active).
+## Battle Status (Turn 43135)
+- Weather: Clear (Rain stopped).
 - Pidgeot (56): [Defeated]
 - Rhydon (56): [Defeated]
 - Alakazam (54): [Defeated]
 - Gyarados (58): [Defeated]
-- Arcanine (58): [Active] - Low HP. Reflect faded.
-- Exeggutor (58): [Pending]
+- Arcanine (58): [Defeated]
+- Exeggutor (58): [Active]
 - Calcifer (Typhlosion Lv64): 204/204 HP.
 - KIMCHI (Gloom Lv51): 0/134 HP (FNT).
 - GORP (Snorlax Lv50): 221/221 HP.
-- GNEISS (Graveler Lv54): 112/152 HP.
-- Strategy: Finish Arcanine with Earthquake. Then switch to Calcifer for Exeggutor.
+- GNEISS (Graveler Lv54): 86/152 HP.
+- Strategy: Switch to Calcifer. Use Flamethrower (2x effective) to finish the battle.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Reachable. Standard walkable tile.
