@@ -21,7 +21,7 @@
   - Psychic: 7/16 used.
   - Reflect: 2 used. (Faded: Turn 43774).
   - Mud-Slap: 1 used. (GORP Accuracy -1).
-  - Swift: 2 used.
+  - Swift: 3 used (Turns 43766, 43770, 43774).
   - GORP (Snorlax): HP 183/221. Active. Neutral Spcl.Def.
   - Calcifer (Typhlosion): Fainted.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives.
