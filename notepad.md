@@ -23,12 +23,11 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35686):
-  - Current Location: Indigo Plateau (Confirmed).
-  - Previous Result: `Down` -> `Right` from Pallet looped back to Indigo (??).
-  - New Plan: Test `Right` -> `Down` from Indigo.
-  - Logic:
-    - If Indigo -> Right = Pewter, then Pewter -> Down = Viridian.
-    - If Indigo -> Right = Cerulean, then Cerulean -> Down = Saffron.
-  - Action: Right -> Wait (2s) -> Down.
-  - Goal: Determine where `Right` leads.
+- Fly Debugging (Turn 35687):
+  - Current Location: Indigo Plateau (according to text).
+  - Hypothesis: `Right` from Indigo is blocked.
+  - Reset Strategy: Close Map (B) -> Open Map (A). Since player is at Cinnabar Island, cursor will reset to Cinnabar.
+  - Probe: From Cinnabar, test `Right`.
+  - Goal: Determine if Cinnabar -> Right leads to Fuchsia City.
+  - If Fuchsia: Next step `Up` to Saffron.
+  - If Indigo: Map wraps. Plan B: Fly to Pewter/Viridian and walk.
