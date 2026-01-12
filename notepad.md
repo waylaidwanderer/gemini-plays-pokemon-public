@@ -109,8 +109,8 @@
 - Internal Connections:
     - Ladder at (5, 31) <-> Ladder at (17, 33).
     - Ladder at (3, 3) <-> Ladder at (17, 3).
-- Sub-area Dead Ends:
-    - Area around (17, 33) is isolated. No path to exit (15, 5). (Confirmed Turn 42438)
+- Sub-area Connections:
+    - (17, 33) connects to the main tunnel via Northward corridor.
     - Tile (15, 34) is a wall/ledge that cannot be jumped from the North. (Confirmed Turn 42449)
 - Exploration Status:
     - Row 29 West side (1, 29 to 6, 29) is blocked by WALL.
