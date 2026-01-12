@@ -5,7 +5,6 @@
       "properties": {
         "autopress_buttons": {
           "default": false,
-          "description": "If true, returns a path to the nearest one.",
           "type": "boolean"
         },
         "current_x": {
@@ -17,11 +16,12 @@
       },
       "required": [
         "current_x",
-        "current_y"
+        "current_y",
+        "autopress_buttons"
       ],
       "type": "object"
     },
-    "python_script": "import json\nfrom xml.etree import ElementTree as ET\n\ndef find_path(grid, start, end):\n    queue = [(start, [])]\n    visited = {start}\n    while queue:\n        (x, y), path = queue.pop(0)\n        if (x, y) == end:\n            return path\n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = x + dx, y + dy\n            if (nx, ny) in grid and grid[(nx, ny)] != 'WALL' and (nx, ny) not in visited:\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n    return None\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    unseen = []\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            grid[(x, y)] = t_type\n            if not seen:\n                unseen.append((x, y))\n                \n    start = (input_data['current_x'], input_data['current_y'])\n    \n    reachable_unseen = []\n    for ux, uy in unseen:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = ux + dx, uy + dy\n            if (nx, ny) in grid and grid[(nx, ny)] != 'WALL':\n                path = find_path(grid, start, (nx, ny))\n                if path is not None:\n                    reachable_unseen.append({\"x\": ux, \"y\": uy})\n                    break\n                    \n    if input_data.get('autopress_buttons', False):\n        if not reachable_unseen:\n            print(json.dumps([]))\n            return\n        reachable_unseen.sort(key=lambda p: abs(p['x']-start[0]) + abs(p['y']-start[1]))\n        target_coords = (reachable_unseen[0]['x'], reachable_unseen[0]['y'])\n        \n        best_path = None\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = target_coords[0] + dx, target_coords[1] + dy\n            if (nx, ny) in grid and grid[(nx, ny)] != 'WALL':\n                path = find_path(grid, start, (nx, ny))\n                if path is not None:\n                    if best_path is None or len(path) < len(best_path):\n                        best_path = path\n        print(json.dumps(best_path if best_path else []))\n    else:\n        print(json.dumps(reachable_unseen))\n\nsolve()\n",
+    "python_script": "import json\nfrom xml.etree import ElementTree as ET\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    unseen = []\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            t_type = tile.attrib['type']\n            seen = tile.attrib['seen'] == 'true'\n            grid[(x, y)] = (t_type, seen)\n            if not seen:\n                unseen.append((x, y))\n                \n    start = (int(input_data['current_x']), int(input_data['current_y']))\n    \n    def get_path(target):\n        queue = [(start, [])]\n        visited = {start}\n        while queue:\n            (x, y), path = queue.pop(0)\n            if (x, y) == target:\n                return path\n            for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in grid and grid[(nx, ny)][0] not in ['WALL', 'BOOKSHELF', 'RADIO', 'TV', 'COUNTER'] and (nx, ny) not in visited:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n        return None\n\n    reachable_unseen = []\n    for ux, uy in unseen:\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = ux + dx, uy + dy\n            if (nx, ny) in grid and grid[(nx, ny)][0] not in ['WALL', 'BOOKSHELF', 'RADIO', 'TV', 'COUNTER'] and grid[(nx, ny)][1]:\n                path = get_path((nx, ny))\n                if path is not None:\n                    reachable_unseen.append({\"x\": ux, \"y\": uy})\n                    break\n                    \n    if input_data.get('autopress_buttons', False):\n        if not reachable_unseen:\n            print(json.dumps([]))\n            return\n        reachable_unseen.sort(key=lambda p: abs(p['x']-start[0]) + abs(p['y']-start[1]))\n        target_coords = (reachable_unseen[0]['x'], reachable_unseen[0]['y'])\n        \n        best_path = None\n        for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n            nx, ny = target_coords[0] + dx, target_coords[1] + dy\n            if (nx, ny) in grid and grid[(nx, ny)][0] not in ['WALL', 'BOOKSHELF', 'RADIO', 'TV', 'COUNTER'] and grid[(nx, ny)][1]:\n                path = get_path((nx, ny))\n                if path is not None:\n                    if best_path is None or len(path) < len(best_path):\n                        best_path = path\n        print(json.dumps(best_path if best_path else []))\n    else:\n        print(json.dumps(reachable_unseen))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -37,14 +37,22 @@
         "commit_message": "Fix find_reachable_unseen_tiles to return button strings when autopress_buttons is true.",
         "timestamp": "2026-01-12T01:57:28.881Z",
         "action_counter": 42305
+      },
+      {
+        "commit_message": "Initial implementation of find_reachable_unseen_tiles. Fixed collision check to include BOOKSHELF.",
+        "timestamp": "2026-01-12T04:26:41.177Z",
+        "action_counter": 42572
       }
     ]
   },
   "find_path_v6_robust": {
     "description": "Finds a path between two coordinates on the current map, accounting for complex collision types (like one-way ledges and direction-specific walls) and treating 'unseen' tiles as walkable FLOOR for exploration.",
     "input_schema": {
-      "type": "object",
       "properties": {
+        "autopress_buttons": {
+          "default": false,
+          "type": "boolean"
+        },
         "end_x": {
           "type": "integer"
         },
@@ -62,10 +70,12 @@
         "start_x",
         "start_y",
         "end_x",
-        "end_y"
-      ]
+        "end_y",
+        "autopress_buttons"
+      ],
+      "type": "object"
     },
-    "python_script": "import xml.etree.ElementTree as ET\nfrom collections import deque\nimport json\n\ndef find_path(xml_str, start, end):\n    root = ET.fromstring(xml_str)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.get('id'))\n        for tile in row.findall('Tile'):\n            x = int(tile.get('id'))\n            grid[(x, y)] = {\n                'type': tile.get('type'),\n                'is_warp': tile.get('is-warp') == 'true',\n                'has_obj': tile.find('Object') is not None\n            }\n    queue = deque([(start, [])])\n    visited = {start}\n    while queue: \n        (cx, cy), path = queue.popleft()\n        if (cx, cy) == end: return path\n        for dx, dy, btn in [(0, -1, 'Up'), (0, 1, 'Down'), (-1, 0, 'Left'), (1, 0, 'Right')]:\n            nx, ny = cx + dx, cy + dy\n            if (nx, ny) in grid and (nx, ny) not in visited:\n                target = grid[(nx, ny)]\n                current = grid[(cx, cy)]\n                t_type = target['type']\n                if t_type == 'unseen': t_type = 'FLOOR'\n                if t_type in ['WALL', 'CUT_TREE', 'WATER'] or target['has_obj']:\n                    if (nx, ny) != end: continue\n                blocked = False\n                if btn == 'Up' and (current['type'] == 'FLOOR_UP_WALL' or target['type'] == 'FLOOR_DOWN_WALL'): blocked = True\n                if btn == 'Down' and (current['type'] == 'FLOOR_DOWN_WALL' or target['type'] == 'FLOOR_UP_WALL'): blocked = True\n                if btn == 'Left' and (current['type'] == 'FLOOR_LEFT_WALL' or target['type'] == 'FLOOR_RIGHT_WALL'): blocked = True\n                if btn == 'Right' and (current['type'] == 'FLOOR_RIGHT_WALL' or target['type'] == 'FLOOR_LEFT_WALL'): blocked = True\n                if target['is_warp'] and (nx, ny) != end: blocked = True\n                if not blocked:\n                    visited.add((nx, ny))\n                    queue.append(((nx, ny), path + [btn]))\n    return None\n\npath = find_path(map_xml_string, (int(input_data['start_x']), int(input_data['start_y'])), (int(input_data['end_x']), int(input_data['end_y'])))\nprint(json.dumps(path if path else []))",
+    "python_script": "import json\nfrom xml.etree import ElementTree as ET\n\ndef solve():\n    root = ET.fromstring(map_xml_string)\n    grid = {}\n    for row in root.findall('Row'):\n        y = int(row.attrib['id'])\n        for tile in row.findall('Tile'):\n            x = int(tile.attrib['id'])\n            grid[(x, y)] = tile\n\n    start = (int(input_data['start_x']), int(input_data['start_y']))\n    end = (int(input_data['end_x']), int(input_data['end_y']))\n    \n    def is_walkable(x, y, from_x, from_y):\n        if (x, y) not in grid: return False\n        tile = grid[(x, y)]\n        t_type = tile.attrib['type']\n        seen = tile.attrib['seen'] == 'true'\n        has_obj = tile.attrib.get('has-object') == 'true'\n        \n        if not seen: return True\n        if t_type in ['WALL', 'BOOKSHELF', 'RADIO', 'TV', 'COUNTER']: return False\n        if has_obj and (x, y) != end: return False\n        \n        if t_type == 'LEDGE_HOP_DOWN':\n            return y > from_y\n            \n        return True\n\n    queue = [(start, [])]\n    visited = {start}\n    \n    while queue:\n        (curr_x, curr_y), path = queue.pop(0)\n        if (curr_x, curr_y) == end:\n            print(json.dumps(path))\n            return\n            \n        for dx, dy, btn in [(0, -1, \"Up\"), (0, 1, \"Down\"), (-1, 0, \"Left\"), (1, 0, \"Right\")]:\n            nx, ny = curr_x + dx, curr_y + dy\n            if (nx, ny) not in visited and is_walkable(nx, ny, curr_x, curr_y):\n                visited.add((nx, ny))\n                queue.append(((nx, ny), path + [btn]))\n                \n    print(json.dumps([]))\n\nsolve()",
     "history": [
       {
         "commit_message": "Initial version",
@@ -76,6 +86,11 @@
         "commit_message": "Updated to handle CUT_TREE and WATER as impassable tiles.",
         "timestamp": "2026-01-12T03:56:06.060Z",
         "action_counter": 42503
+      },
+      {
+        "commit_message": "Initial implementation of find_path_v6_robust. Fixed collision check to include BOOKSHELF and other impassable objects. Added handling for end-tile objects.",
+        "timestamp": "2026-01-12T04:26:41.178Z",
+        "action_counter": 42572
       }
     ]
   }

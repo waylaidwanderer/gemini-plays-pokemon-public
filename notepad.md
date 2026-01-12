@@ -63,6 +63,7 @@
 - TV: To be verified.
 - RADIO: To be verified.
 - COUNTER: To be verified.
+- STAIRS: To be verified.
 ## Viridian Nickname Speech House (Map 23_5)
 - Entrance/Exit: (2, 7) and (3, 7) lead to Viridian City (21, 9).
 - Pokefan M: (2, 4).
