@@ -15,10 +15,13 @@
 - Evolve KIMCHI (Gloom).
 
 # Red Battle Log
-- Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
-- Pikachu (Lv81): Defeated.
-- Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 7/16 (verified). Reflect faded. GORP fainted.
-- Strategy: Revive GORP (Snorlax).
-- Items: 4 Full Restores, 11 Max Potions, 19 Revives remaining.
-- Revival Attempt Started: Turn 43741.
+- Start Turn: 43692
+- Pikachu (Lv81): Defeated by GNEISS.
+- Espeon (Lv73):
+  - Psychic Used: 6 (Verified).
+  - Reflect: Faded (Turn 43712).
+  - GORP (Snorlax): Fainted on Turn 43733.
+- Items Used: 6 Full Restores.
+- Inventory: 4 Full Restores, 11 Max Potions, 19 Revives.
+- Strategy: Revive GORP (Snorlax), then finish stalling Psychic PP.
+- Revival Attempt: Turn 43742 (Current).
