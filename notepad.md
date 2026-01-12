@@ -23,4 +23,5 @@
 - Turn 44035: Opened PKMN menu, selected GNEISS, selected SWITCH.
 - Turn 44037: GNEISS entered. Charizard used Fire Spin (Not very effective). GNEISS HP: 138/155.
 - Turn 44038: GNEISS hurt by Fire Spin. HP: 129/155. Strategy: Use Rollout.
-- Turn 44039: Selecting FIGHT.
+- Turn 44039: Selected FIGHT. GNEISS is trapped by Fire Spin.
+- Turn 44040: Using ROLLOUT. Down x3, A.
