@@ -8,21 +8,18 @@
 
 # Current Team Status
 - XENON (Haunter): Lv44. HP 111/111.
+- Calcifer (Typhlosion): Lv64. HP 102/204 (Revived).
 - LAPIS (Poliwag): Lv12. HP 32/32.
-- FNT: KIMCHI, GNEISS, Calcifer, GORP.
+- FNT: KIMCHI, GORP, GNEISS.
 
-# Strategy: The Final Stand
-1. Send in LAPIS as fodder.
-2. Turn 1: Use REVIVE on GNEISS.
-3. Turn 2 (if LAPIS still up): Use MAX POTION on GNEISS.
-4. If LAPIS faints, send in XENON.
-5. Turn X: Finish healing GNEISS or chip with Night Shade.
-6. Switch to GNEISS and finish with Rock moves.
-
-# Inventory
-- Items: 1 Full Restore, 7 Max Potions, 18 Revives, 12 Full Heals.
+# Strategy: The Final Stand (Revised)
+1. LAPIS is current fodder.
+2. Turn 1 (Mistake): Revived Calcifer instead of GNEISS.
+3. Turn 2: Revive GNEISS (using LAPIS or XENON as fodder).
+4. Turn 3+: Max Potion GNEISS.
+5. Finish with GNEISS's Rock moves.
 
 # Battle Log: The Final Stand
-- Turn 44007: GORP fainted to Charizard's Flamethrower. Sent in LAPIS.
-- Turn 44008: LAPIS entered. Opened PACK.
-- Turn 44009: In PACK menu. Cursor on MAX POTION. Moving to REVIVE GNEISS.
+- Turn 44007: GORP fainted. Sent in LAPIS.
+- Turn 44009: Used REVIVE on Calcifer (Mistake, intended GNEISS).
+- Turn 44010: Calcifer revitalized. Waiting for Charizard's move.
