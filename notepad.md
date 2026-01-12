@@ -34,3 +34,6 @@
 - Mistake: Accidentally opened Pokegear in Turn 35631.
 - Correction Plan: Open Start Menu -> Pokemon -> Mistral -> Fly.
 - Fly Navigation: Indigo Plateau -> Left x10 (to Cianwood) -> Right x2 (to Ecruteak).
+- Menu Navigation Corrected: Cursor was on POKEGEAR. Moving Up x2 to POKEMON.
+- Fly Sequence: Pokemon -> Mistral (Slot 4) -> Fly -> Left x3 (Indigo -> Blackthorn -> Mahogany -> Ecruteak).
+- Executing Fly sequence now.
