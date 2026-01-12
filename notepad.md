@@ -73,3 +73,6 @@
 
 # Trainer Encounters (Route 1)
 - Schoolboy Danny (Object 1) at (7, 12): Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
+## Route 21
+- Entered from Pallet Town at (7, 18) -> (7, 0).
+- Water route leading south to Cinnabar Island.
