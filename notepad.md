@@ -8,7 +8,7 @@
 - Cut Tree: Blockage. Requires Cut HM to clear.
 - Whirlpool: Blockage. Requires Whirlpool HM to clear.
 - Waterfall: Blockage. Requires Waterfall HM to ascend.
-- FLOOR_UP_WALL: Floor tile with a wall boundary to the north. Blocks movement North.
+- FLOOR_UP_WALL: Floor tile with a wall boundary to the north. Blocks movement North (exit) and South (entry from North).
 - LEDGE_HOP_DOWN: One-way ledge. Jump Down only.
 - LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
 
