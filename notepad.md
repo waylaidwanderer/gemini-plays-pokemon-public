@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Navigating Fly Map (Cherrygrove -> ?).
-- **Status:** Cursor at Cherrygrove. 'Left' failed (Turn 34894).
-- **Plan:** Testing 'Up'.
-- **Hypothesis:** Vertical inputs function; Horizontal might be broken or map logic is different.
-- **Goal:** Reach Violet -> Ecruteak -> Olivine.
+- **Action:** Flying to Goldenrod City.
+- **Reason:** Fly Map 'Left' to Olivine is flaky. Path to Goldenrod (Violet -> Left -> Ecruteak -> Down) is verified.
+- **Goal:** Restock at Goldenrod Dept Store (assumed to have Repels).
+- **Status:** Cursor at Violet.
+- **Sequence:** Left -> Ecruteak -> Down -> Goldenrod -> Fly.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
