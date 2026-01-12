@@ -19,7 +19,6 @@
 # Route 3 Navigation Plan
 - **Success:** Found gap at (7, 5) and accessed Upper Lane (Rows 2-4).
 - **Current Status:** On Upper Lane at (7, 4).
-- **Problem:** Route 3 Lower/Middle section (Row 10) is a dead end blocked by walls at x=32.
-- **Discovery:** Row 0 (Topmost edge) appears to be a clear path FLOOR tiles at x=24 (where Row 2 is blocked).
-- **Solution:** Backtrack to the start of the Upper Lane. Access Row 0 around x=4. Traverse Route 3 entirely on Row 0.
-- **Action:** Go West to x=23, North to x=23/y=2, then West to x=4.
+- **Observation:** Row 2 blocked at x=24. Row 1 blocked at x=5-24. Row 10 blocked at x=32.
+- **Conclusion:** The ONLY path East is Row 0 (which requires accessing at x=4).
+- **Action:** Backtracking West to x=4. Will traverse Route 3 on Row 0.
