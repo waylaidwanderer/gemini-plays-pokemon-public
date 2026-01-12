@@ -11,7 +11,7 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Restocking for Roamer Hunt.
-- **Status:** Inside Goldenrod Station. Talking to Gentleman.
+- **Status:** Exiting Goldenrod Station.
 - **Plan:** Exit Station -> Dept Store (Buy Super Repels) -> Fly Ecruteak -> Hunt.
 - **Note:** Viridian & Vermilion Marts do NOT sell Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
