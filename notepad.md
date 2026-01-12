@@ -8,7 +8,7 @@
 # Progress Tracking
 - Badges: 16/16.
 - Mt. Silver Access: Unlocked.
-- Inventory: 19/20 slots used (Items). 1 slot free. Note: Item list in bag is NOT alphabetical.
+- Inventory: 20/20 slots used (Items). Bag is FULL. Note: Item list in bag is NOT alphabetical.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
@@ -27,7 +27,7 @@
 - FLOOR_UP_WALL: Row 16, Row 32.
 
 # Team Goals & Battle Prep
-- Grind team to Lv 75+ (currently Lv 44-64).
+- Grind team to Lv 75+ (currently Lv 12-64).
 - Replace ICARUS (Lv19) with LAPIS for Waterfall.
 - Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
 - Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
