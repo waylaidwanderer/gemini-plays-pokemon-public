@@ -66,5 +66,5 @@
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
 - Attempt 1-9: Failed due to menu errors and overworld movement.
-- Attempt 11 (Turn 44302): Party menu open, cursor on ICARUS. Strategy: A to select ICARUS, A to select FLY.
-- Attempt Count (Fly): 11. Strategy Revision: Careful execution of FLY selection. Verify map screen next turn.
+- Attempt 11 (Turn 44303): Fly map open at New Bark Town. Cursor at New Bark Town. Strategy: Press Left once. Verify destination name "CHERRYGROVE CITY" before next move.
+- Attempt Count (Fly): 11. Strategy Revision: Incremental movement (1 tile at a time) with verification.
