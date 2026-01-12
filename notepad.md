@@ -83,3 +83,7 @@
 - Cooltrainer F (Object 3): (6, 2).
 - Illegible Book (BG Object): (7, 10).
 - Goal: Locate stairs to the basement for battles.
+## Trainer House B1F (Map 23_7)
+- Entrance/Exit: Ladder at (9, 4) leads to Trainer House 1F (8, 2).
+- Receptionist: (7, 1).
+- Goal: Participate in practice battles.
