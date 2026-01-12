@@ -2,20 +2,21 @@
 - **Goal:** Catch Raikou (Route 38/42) & Entei (Route 37/42/44).
 - **Method:** "Repel Trick" + Map Shuffling.
 - **Setup:**
-  - Location: Route 37 (Border with Ecruteak).
+  - Location: Moving to Route 38 (West of Ecruteak).
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
-- **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  - **Status:** Active Roamer Shuffle Loop.
+- **Action:** Hunt on Route 38.
+  - **Status:** Relocating.
   - **Resources:** 3 Super Repels left. ¥244.
-  - **Strategy:** Move between maps to reset Roamer positions. Check Pokegear on Route 37.
+  - **Strategy:** Roamers are congregating on the East-West axis (Routes 38 & 42). Moving to Route 38 to intersect immediately.
 
 # Strategy Notes & Lessons
+- **Roamer Behavior:** Observed strong bias for Routes 38 and 42 (East/West of Ecruteak) over Route 37 (South) in recent turns (36050-36185).
 - **Tool Safety:** When defining menu tools, remember that missed "Start" inputs interpret subsequent directionals as movement. Avoid long blind sequences starting with "Start" + Directionals.
-- **Roamer Behavior:** Roamers move when crossing map borders.
 - **Session Stats:**
   - **Start:** Turn 34090.
-  - **Status:** Active Roamer Shuffle Loop.
+  - **Current:** Turn 36185 (~2100 turns elapsed).
+  - **Status:** Adjusting strategy based on location data.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
