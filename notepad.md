@@ -9,7 +9,7 @@
 # Strategy for Route 19/20 Navigation
 - Goal: Reach Seafoam Islands.
 - Started Turn: 42861 (Entered Route 20).
-- Current Turn: 42904.
+- Current Turn: 42919.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
@@ -66,4 +66,4 @@
 - Entered from Route 20 at (59, 15) -> (0, 33).
 - Swimmer Harold (Object 2) at (13, 28): [Defeated]
 - Swimmer Dawn (Object 1) at (9, 23): [Defeated] Roster: Seaking (Lv34).
-- Swimmer Tucker (Object 4) at (8, 23): Battle started.
+- Swimmer Tucker (Object 4) at (8, 23): Battle in progress. Roster: Shellder (Lv30).
