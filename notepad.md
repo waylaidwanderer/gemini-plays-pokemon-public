@@ -41,9 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35660):
-  - Situation: Cursor stuck on Cinnabar Island (Kanto).
-  - Hypothesis: Previous 'Select' failed or 'Down' inputs lagged.
-  - Action: Hard Reset + Region Toggle.
-  - Sequence: B (Close) -> A (Open, Reset to Indigo) -> Select (Toggle to Johto) -> Left -> Left.
-  - Goal: See a Johto city name (e.g., Blackthorn, Violet, Ecruteak) on screen.
+- Fly Debugging (Turn 35662):
+  - Current State: Mistral Sub-menu open, 'FLY' selected.
+  - Action: Press 'A' to open Map. Wait 3s. Press 'Select' to toggle region (Kanto -> Johto). Wait 1s.
+  - Goal: Verify if map switches to Johto (Look for Johto cities or map shape).
+  - Note: Do not attempt to move cursor yet. Just verify region switch.
