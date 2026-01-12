@@ -3,7 +3,8 @@
 ## Global Tile Mechanics
 - FLOOR: Standard traversable tile.
 - FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
-- WALL: Impassable collision. (4, 31) confirmed as WALL despite label.
+- WALL: Impassable collision.
+- INVISIBLE WALL: Appears as FLOOR visually but acts as WALL in collision data. (Verified Turn 42304)
 - WATER: Impassable on foot. Requires SURF.
 - TALL_GRASS / grass: Standard traversable tile. Wild encounters.
 - DOOR / WARP / CAVE: Entry/exit points.
@@ -55,7 +56,7 @@
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
     - Strategy: Use find_path_v5 to navigate to (1, 10) and TRUST THE TOOL OUTPUT. Do not interrupt autopress.
-    - Start Turn (Janine Goal): 42253 (Turn 42301)
+    - Start Turn (Janine Goal): 42253 (Turn 42301, Sunday, Jan 11, 2026, 5:55 PM PST)
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
