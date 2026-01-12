@@ -58,16 +58,10 @@
 
 # Lesson Log & Progress
 - [Turn 42551] Started Viridian City Exploration (Sunday, Jan 11, 2026, 8:15 PM).
-- [Turn 42571] Pokefan M (Nickname Speech House) talks about nicknames and trading.
-- [Turn 42584] Lass (Nickname Speech House) mentions her Spearow (Speary) and Rattata (Rattey).
-- [Turn 42588] Verified Rattey (Rattata) at (6, 3) in Nickname Speech House (GROWLITHE_SPRITE).
-- [Turn 42574] Verified Speary (Spearow) at (5, 2) in Nickname Speech House (MOLTRES_SPRITE).
+- [Turn 42574] Verified Speary at (5, 2) is a Spearow (MOLTRES_SPRITE).
 - [Turn 42597] Nickname Speech House: Exploration complete.
 - [Turn 42605] Entered Trainer House 1F.
-- [Turn 42609] Cooltrainer M mentions Viridian is the town closest to INDIGO PLATEAU.
 - [Turn 42611] Receptionist confirms trainer battles available downstairs.
-- [Turn 42618] Gentleman (Trainer House) is resting from battles.
-- [Turn 42624] Cooltrainer F mentions practice battles are held downstairs.
 
 ## Tile Mechanics (Verification)
 - BOOKSHELF: Verified wall-like collision.
@@ -82,8 +76,7 @@
 - Gentleman (Object 5): (2, 4).
 - Cooltrainer F (Object 3): (6, 2).
 - Illegible Book (BG Object): (7, 10).
-- Goal: Locate stairs to the basement for battles.
+
 ## Trainer House B1F (Map 23_7)
 - Entrance/Exit: Ladder at (9, 4) leads to Trainer House 1F (8, 2).
 - Receptionist: (7, 1).
-- Goal: Participate in practice battles.
