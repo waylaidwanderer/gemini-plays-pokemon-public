@@ -67,5 +67,5 @@
 - Interaction Log:
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Map Progress: 29.4% explored.
-- Ledge Obstacle: Stuck at (5, 32). Row 31 is blocked by ledges and walls. (4, 31) is impassable despite being labeled FLOOR.
-- Plan: Navigate (5, 32) -> (1, 32) -> (1, 20) -> (10, 20) -> (10, 30) -> (5, 30) to reach the Gym sign.
+- Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
+- Plan: Navigate (1, 20) -> (22, 20) -> (22, 13) to explore northern Fuchsia City for Pokemon Center.
