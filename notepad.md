@@ -7,7 +7,7 @@
 - DOOR/WARP: Map transitions.
 - FLOOR_UP_WALL: Blocks North/South movement.
 - LEDGE_HOP: One-way movement.
-- WARP_CARPET_DOWN: Leads to Silver Cave Room 2. Located at (9, 33). (Verified 3_76 (9, 33)).
+- WARP_CARPET_DOWN: Leads to Silver Cave Room 2. Walkable. (Verified 3_76 (9, 33)).
 
 # Team Goals
 - Defeat Red.
@@ -18,6 +18,6 @@
 - Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 8/16 (verified). Reflect faded. GORP Spcl.Def -1.
+- Psychic Used: 5/16 (verified). Reflect faded. GORP Spcl.Def -1.
 - Strategy: Heal GORP every turn until Psychic is depleted. GORP at 43/221 HP.
-- Items: 5 Full Restores, 11 Max Potions remaining. (Turn 43729: Healing GORP).
+- Items: 5 Full Restores, 11 Max Potions remaining. (Turn 43730: Using Full Restore).
