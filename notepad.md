@@ -64,3 +64,14 @@
 - Route 2 (South) Exploration:
     - Path to Viridian City is south from (10, 50).
     - Western grass area accessible via Cut tree at (12, 50).
+## Tile Mechanics
+- FLOOR: Standard traversable.
+- WALL: Impassable.
+- CUT_TREE: Impassable until CUT is used. (Verification: Does it regrow?)
+- LEDGE_HOP_DOWN: One-way movement (usually South).
+- TALL_GRASS: Walkable, wild encounters.
+
+## Strategy: Reach Cinnabar Island
+1. Navigate Route 2 South to Viridian City.
+2. Continue South to Pallet Town.
+3. Use SURF at Pallet Town to reach Cinnabar Island via Route 21.
