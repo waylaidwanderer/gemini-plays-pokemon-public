@@ -23,9 +23,10 @@
 - Checked Goldenrod 2F Left Clerk (Medicine): No Repels.
 - Goldenrod Dept Store does NOT sell Super Repels.
 - Celadon Dept Store 2F Left Clerk: Has Super Repels (500g) and Max Repels (700g).
-- Purchased 4 Super Repels. Now exiting.
+- Purchased 4 Super Repels. Exiting Celadon Dept Store.
+- Next Step: Fly to Ecruteak City and hunt Roamers on Route 37/38.
 
-# Reflection (Turn 35619)
-- **Immediate Execution:** Purchase confirmed. Exiting store.
-- **Goal Clarity:** Clear. Exit -> Hunt.
-- **Root Hypothesis:** Purchase successful. Ready to hunt.
+# Reflection (Turn 35620)
+- **Immediate Execution:** Close menu, exit store.
+- **Goal Clarity:** Clear. Exit -> Fly -> Hunt.
+- **Inventory Check:** 4 Super Repels, 244 Yen. Ready.
