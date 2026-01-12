@@ -33,12 +33,8 @@
 - Snorlax (Lv75): Active. Awake (Turn 43914). Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
 - XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 15/20.
-- Task: Switch to GNEISS. 
-  - Turn 43913: Used Soda Pop on GNEISS instead of Full Restore. HP 84/152, PAR.
-  - Turn 43914: Snorlax woke up and used Amnesia. Sp.Def maxed (+6).
-  - Turn 43915: Failed to use Full Restore (hit LAPIS).
-  - Turn 43917: Cursor is on FULL RESTORE.
-- Battle Progress: Snorlax is awake and at +6 Sp.Def. GNEISS is the priority for physical damage.
+- Strategy: Switch to GNEISS (Graveler) to use physical moves (Rollout) against Snorlax's lower physical Defense. Snorlax only has Normal moves, which GNEISS resists.
+- Battle Progress: Snorlax is at +6 Sp.Def. Healing GNEISS before the switch.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
