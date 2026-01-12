@@ -69,3 +69,4 @@
 - Map Progress: 29.4% explored.
 - Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
 - Plan: Locate Pokemon Center and heal Calcifer.
+- Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
