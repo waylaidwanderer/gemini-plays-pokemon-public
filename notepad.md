@@ -9,13 +9,12 @@
 
 # Seafoam Gym (Cinnabar Gym)
 - Started Turn: 42949.
-- Entrance/Exit: Warp at (5, 5).
-- Gym Leader Blaine: (5, 2).
-- Strategy: Lead GNEISS (Graveler Lv54). Use Earthquake.
+- Entrance/Exit: Warp at (5, 5) (FLOOR).
 - Observed Team:
     - Magcargo (Lv45): [Defeated]
     - Magmar (Lv45): [Defeated] (Moves: Sunny Day)
-    - Rapidash (Lv50): [Active] (Moves: Fire Blast)
+    - Rapidash (Lv50): [Active] (Moves: Fire Blast) - Critical health.
+- GNEISS (Graveler Lv54): Fainted against Rapidash.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
