@@ -167,25 +167,5 @@
         "action_counter": 35770
       }
     ]
-  },
-  "check_roamers": {
-    "description": "Opens the Pokegear Map to check roamer locations. Assumes Start Menu cursor is on POKEDEX (top).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": true
-        }
-      }
-    },
-    "python_script": "print('[\"Start\", \"sleep 500\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 1000\", \"Left\", \"A\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T16:18:03.471Z",
-        "action_counter": 35855
-      }
-    ]
   }
 }
