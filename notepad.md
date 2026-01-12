@@ -19,8 +19,8 @@
 
 ## Fuchsia City Journey Tracking
 - Start Turn: 42062
-- Current Turn: 42197
-- Status: Talking to the Youngster at (22, 18) in Fuchsia City.
+- Current Turn: 42199
+- Status: Exploring Fuchsia City. Heading west to find the Pokemon Center.
 
 ## Battle and Pokemon Information
 ### Party Movesets
