@@ -39,4 +39,4 @@
 # Area Records: Silver Cave Room 3 (3_76)
 - Warp to Room 2: (9, 33).
 - Layout: Large room, exploration required.
-- Goal: Find the path to Red.
+- Goal: Defeat Red (located at (9, 10)).
