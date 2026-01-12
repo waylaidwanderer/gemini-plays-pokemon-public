@@ -16,7 +16,7 @@
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
-- FLOOR_UP_WALL: Acts as a horizontal barrier. Hypothesis: Blocks Northward exit and Southward entry. Verification Pending (Turn #43531).
+- FLOOR_UP_WALL: Blocks entry from the North (Verified Turn #43532). Hypothesis: Also blocks Northward exit.
 - LEDGE_HOP: One-way movement.
 
 # Area Records: Silver Cave Room 2 (3_75)
