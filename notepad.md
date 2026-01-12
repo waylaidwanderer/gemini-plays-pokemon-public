@@ -1,15 +1,3 @@
-# Tile Mechanics
-- FLOOR: Traversable. Standard ground collision.
-- WALL: Impassable. Objects and boundaries.
-- GRASS: Traversable. Wild Pokemon encounters.
-- WATER: Requires SURF to traverse.
-- LEDGE: One-way jump (usually south, east, or west).
-- WARP: Tiles that transport the player to another map or location.
-- COUNTER: NPCs behind these must be interacted with by facing the counter.
-- TREE: Small trees that block paths; can be removed with CUT.
-- WHIRLPOOL: Requires WHIRLPOOL HM to pass.
-- WATERFALL: Requires WATERFALL HM to climb.
-
 # Game Mechanics & Systems
 - Day/Night Cycle: Affects Pokemon appearances and some NPC events.
 - Happiness: Affected by items and battle outcomes.
@@ -23,18 +11,6 @@
   - Water super effective against Fire, Ground, Rock.
   - Fire super effective against Grass, Bug, Ice, Steel.
 - Nicknaming: Always nickname caught Pokemon with unique, single-word names.
-
-# Tile Mechanics
-- FLOOR: Traversable. Standard ground collision.
-- WALL: Impassable. Objects and boundaries.
-- GRASS: Traversable. Wild Pokemon encounters.
-- WATER: Requires SURF to traverse.
-- LEDGE: One-way jump (usually south, east, or west).
-- WARP: Tiles that transport the player to another map or location.
-- COUNTER: NPCs behind these must be interacted with by facing the counter.
-- TREE: Small trees that block paths; can be removed with CUT.
-- WHIRLPOOL: Requires WHIRLPOOL HM to pass.
-- WATERFALL: Requires WATERFALL HM to climb.
 
 # Game Mechanics & Systems
 - Day/Night Cycle: Affects Pokemon appearances and some NPC events.
