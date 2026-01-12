@@ -4,8 +4,8 @@
 - Espeon (Lv73): Defeated (Turn 43777).
 - Snorlax (Lv75): Active. Asleep (Turn 43883 via Hypnosis). Sp.Def +6 (Amnesia x3).
   - Moves: Body Slam, Snore, Rest (6/10), Amnesia. (Haunter immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 9/15. Hypnosis PP: 17/20.
-  - Battle Progress: Snorlax is at +6 Sp.Def. This will be slow but safe. Snorlax was put back to sleep at Turn 43883.
+- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 8/15. Hypnosis PP: 17/20.
+  - Battle Progress: Snorlax is at +6 Sp.Def. This will be slow but safe. Snorlax was put back to sleep at Turn 43883. Currently Turn 43886 (Turn 3 of sleep).
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
