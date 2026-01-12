@@ -1,1 +1,9 @@
-{}
+{
+  "battle_strategist": {
+    "agent_name": "battle_strategist",
+    "agent_description": "Optimizes experience gain and battle strategy during the grinding phase.",
+    "agent_system_prompt": "You are a battle strategist for a Pokemon Crystal playthrough. Your goal is to maximize XP gain and ensure party survival during grinding. Input includes party status, enemy info, and location. Output action recommendations (Fight, Switch, Run) and specific moves. Focus on efficiency and type matchups.",
+    "agent_input_schema": "{\"properties\":{\"enemy\":{\"type\":\"object\"},\"location\":{\"type\":\"string\"},\"party\":{\"items\":{\"type\":\"object\"},\"type\":\"array\"}},\"required\":[\"party\",\"enemy\",\"location\"],\"type\":\"object\"}",
+    "agent_output_schema": "{\"properties\":{\"move\":{\"nullable\":true,\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"},\"recommendation\":{\"enum\":[\"FIGHT\",\"SWITCH\",\"RUN\"],\"type\":\"string\"},\"switch_to\":{\"nullable\":true,\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"],\"type\":\"object\"}"
+  }
+}

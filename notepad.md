@@ -3,6 +3,7 @@
     1. Systematic search: Use `find_reachable_unseen_tiles` and Surf to reveal SilverCaveRoom2.
     2. Waterfall Exploration: Swap ICARUS for LAPIS (Poliwag) to climb waterfalls in Room 2.
     3. Target: Reach the warp at (13, 21) using Waterfall.
+- Grinding Start: Turn #43530. Target Lv 75+.
 
 # Progress Tracking
 - Badges: 16/16.
@@ -15,7 +16,7 @@
 - WATER: Requires Surf.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
-- FLOOR_UP_WALL: Acts as a horizontal barrier. North/South movement (entry and exit) is blocked. (Hypothesis: Blocks entry/exit in specific direction. Verification needed.)
+- FLOOR_UP_WALL: Acts as a horizontal barrier. Hypothesis: Blocks Northward exit and Southward entry. Verification Pending (Turn #43531).
 - LEDGE_HOP: One-way movement.
 
 # Area Records: Silver Cave Room 2 (3_75)
@@ -26,8 +27,8 @@
 - FLOOR_UP_WALL: Row 16, Row 32.
 
 # Team Goals & Battle Prep
-- Grind team to Lv 70+ (currently Lv 44-64).
-- Replace ICARUS (Lv19) with a high-level Water/Electric type (e.g., Suicune) or use LAPIS for Waterfall.
+- Grind team to Lv 75+ (currently Lv 44-64).
+- Replace ICARUS (Lv19) with LAPIS for Waterfall.
 - Evolve KIMCHI (Gloom) using Sun Stone or Leaf Stone.
 - Lead with GNEISS (Graveler) vs Pikachu (uses Earthquake).
 - Teach GORP (Snorlax) Shadow Ball (TM02) vs Red's Espeon.
@@ -37,7 +38,3 @@
 - GORP (Snorlax) learned Surf (Turn 43469).
 - Navigation Analysis: Pond at (10-13, 30-31) connects to Row 27 via Waterfalls at (10-11, 28-29). Requires HM07 Waterfall to progress North from this pond.
 - Strategy: Explore top section (Row 5-11) of Room 2 by land via Row 17 corridor (X=11-20).
-
-# Navigation Records: Silver Cave Outside (19_2)
-- Path Cave <-> Pokecenter: Walkable via Row 10 (X=14 to 23).
-- Escape Rope Landing: (19, 15) near cave entrance. Must walk North to Row 10 to reach the Pokecenter.
