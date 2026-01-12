@@ -19,8 +19,8 @@
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73):
   - Psychic Used: 7 (Verified via history).
-  - Reflect: Faded (Turn 43712).
-  - GORP (Snorlax): Revived. HP 123/221. Active.
+  - Reflect: Re-applied (Turn 43761).
+  - GORP (Snorlax): Revived and fully healed (Turn 43760). HP 221/221. Active.
   - Calcifer (Typhlosion): Fainted.
-- Items: 4 Full Restores, 11 Max Potions, 18 Revives remaining.
-- Strategy: Use Max Potions on GORP to finish stalling Psychics.
+- Items: 4 Full Restores, 10 Max Potions, 18 Revives remaining.
+- Strategy: Stall remaining Psychics. Use Body Slam to fish for paralysis.
