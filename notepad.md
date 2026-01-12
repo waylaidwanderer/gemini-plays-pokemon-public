@@ -24,3 +24,5 @@
 - **Interruption:** Received call from Cooltrainer Gaven (Turn 35087). Restarting map check.
 - **Observation:** Roamers located on Route 38 and Route 42.
 - **Action:** Closing Pokegear to shuffle locations by moving to Route 37.
+- **Interruption:** Wade called (Turn 35117). Resuming map check.
+- **Action:** Opening Pokegear Map again.
