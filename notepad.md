@@ -1,10 +1,9 @@
 # Strategic Plan: Kanto Badges & Cinnabar Island
 - **Strategy (The HOW):**
-    1. Explore Cinnabar Island ruins and talk to Blue (Object 1).
+    1. Talk to Blue (Object 1) at (9, 6) on Cinnabar Island ruins.
     2. Surf East from Cinnabar Island via Route 20 to reach Seafoam Islands.
-    3. Find and defeat Gym Leader Blaine in his temporary cave gym in Seafoam Islands.
-    4. Collect remaining Kanto badges.
-    5. Return to Viridian City to challenge Blue once all other badges are obtained.
+    3. Find and defeat Gym Leader Blaine in his temporary cave gym in Seafoam Islands to earn the Volcano Badge.
+    4. Once 7 Kanto badges are obtained, return to Viridian City to challenge Blue for the Earth Badge.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable.
@@ -57,7 +56,7 @@
 ## Cinnabar Island
 - Exploration Start Turn: 42804.
 - Entered from Route 21 at (13, 35) -> (3, 0).
-- Blue (Object 1): Location to be confirmed (suspected east side near ruins).
+- Blue (Object 1) at (9, 6): Must talk to him to trigger his return to Viridian Gym later.
 - Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
-- Landing Spot: Identified at (4, 11) (FLOOR tile adjacent to WATER).
+- Landing Spot: Identified at (13, 13) (FLOOR tile adjacent to WATER).
 - Cinnabar Island Sign: Located at (7, 7).
