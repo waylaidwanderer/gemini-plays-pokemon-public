@@ -1,27 +1,43 @@
+# Tile Mechanics
+- FLOOR: Standard ground. Traversable.
+- WALL: Collision block. Impassable.
+- WARP_CARPET_DOWN: Exit tile. Triggers map change.
+- Grass: Encounter area. Traversable.
+- Water: Requires Surf to traverse.
+- Ledge: One-way jump. Traversable from specific direction.
+- Cut Tree: Blockage. Requires Cut HM to clear.
+- Whirlpool: Blockage. Requires Whirlpool HM to clear.
+- Waterfall: Blockage. Requires Waterfall HM to ascend.
+
 # Red's Team Status (Summit of Mt. Silver)
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Defeated.
 - Snorlax (Lv75): Defeated.
 - Venusaur (Lv77): Defeated.
 - Blastoise (Lv77): Defeated.
-- Charizard (Lv77): Active. HP: ~65%. Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
+- Charizard (Lv77): Active. HP: ~50%. Moves: Flamethrower, Wing Attack, Slash, Fire Spin.
 
-# Current Team Status
-- Calcifer (Typhlosion): Lv64. HP 102/204. (On field)
-- GNEISS (Graveler): Lv55. HP 155/155.
-- FNT: KIMCHI, XENON, GORP, LAPIS.
+# Battle Strategy: Final Showdown
+- Start Turn: 43980. (Estimated)
+- Current Pokemon: Calcifer (Typhlosion Lv64). HP: 102/204.
+- Opponent: Charizard (Lv77). HP: ~50%.
+- Plan:
+  1. Send in Calcifer.
+  2. Use Thunderpunch (2x Super Effective).
+  3. If Calcifer's health gets low, prioritize healing or Reviving GNEISS (Graveler) for 4x Rollout.
 
-# Strategy: GNEISS Rollout Sweep
-1. Turn 44034: Select PKMN and switch to GNEISS (Slot 5).
-2. Turn 44035+: GNEISS uses ROLLOUT.
+# Pokemon Information
+- KIMCHI (Gloom): Lv52. Grass/Poison. Moves: Flash, Petal Dance, Cut, Sleep Powder.
+- XENON (Haunter): Lv44. Ghost/Poison. Moves: Hypnosis, Confuse Ray, Night Shade, Dream Eater.
+- Calcifer (Typhlosion): Lv64. Fire. Moves: Flamethrower, Return, Smokescreen, Thunderpunch.
+- GORP (Snorlax): Lv50. Normal. Moves: Surf, Rest, Body Slam, Rollout.
+- GNEISS (Graveler): Lv55. Rock/Ground. Moves: Earthquake, Defense Curl, Strength, Rollout.
+- LAPIS (Poliwag): Lv12. Water. Moves: Waterfall, Surf, Hypnosis, Whirlpool.
 
-# Battle Log: The Final Stand
-- Turn 44027: Successfully Revived GNEISS.
-- Turn 44029: Sent in Calcifer.
-- Turn 44032: Used MAX POTION on GNEISS. He is now at 155/155 HP.
-- Turn 44034: Charizard missed Fire Spin.
-- Turn 44035: Opened PKMN menu, selected GNEISS, selected SWITCH.
-- Turn 44037: GNEISS entered. Charizard used Fire Spin (Not very effective). GNEISS HP: 138/155.
-- Turn 44038: GNEISS hurt by Fire Spin. HP: 129/155. Strategy: Use Rollout.
-- Turn 44039: Selected FIGHT. GNEISS is trapped by Fire Spin.
-- Turn 44040: Using ROLLOUT. Down x3, A.
+# Type Effectiveness (Observed)
+- Rock vs Fire/Flying: 4x Super Effective.
+- Electric vs Fire/Flying: 2x Super Effective.
+- Fire vs Rock/Ground: Not very effective.
+- Fire vs Fire: Not very effective.
+- Fire vs Normal: Neutral.
+- Fire vs Grass: Super Effective.
