@@ -25,11 +25,6 @@
 - LAPIS (Poliwag): Waterfall, Surf, Hypnosis, Whirlpool.
 - KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
 
-### Type Effectiveness (Observed)
-- Fire (Calcifer) is Super Effective against Grass (Erika's Gym).
-- Flying (Icarus) is Super Effective against Grass.
-- Poison is not very effective against Poison/Grass.
-
 ### Significant Battles
 - Erika (Celadon Gym): Defeated with Fire-type moves. Lv 42-46 team.
 - Rival Silver (Mt. Moon): Defeated.
@@ -53,23 +48,18 @@
 - Ouroboros (DRATINI): Lv15 (Male)
 
 ## Economy & Shopping
-- **Celadon Dept Store Inventory Summary:**
-    - 2F: Healing items (Full Heal, Max Potion, Revive).
-    - 3F: TM Shop inventory documented.
-    - 4F: Wiseman Gifts inventory documented.
-    - 5F: Drugstore inventory documented.
-    - 6F: Vending Machines inventory documented.
-- **Long Term Shopping Plan:**
-    - Find Evolution Stones (not in Dept Store).
+- Celadon Dept Store: Inventory for 2F, 3F, 4F, 5F, 6F documented in previous turns.
+- Evolution Stones: Not available in Celadon Dept Store.
 
 ## Celadon City Investigation (Started Turn 41409, Jan 11 3:10 PM)
-- **Secret Wing Access:** Reached via back door at (16,3).
-- **Mansion Roof House:** Pharmacist (3,2) tells "terrifying tale" ONLY at night.
-- **Gym Access:** Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through the gap in the ledge at (5,33). Warp at (10, 29).
+- Secret Wing Access: Reached via back door at (16,3). (Unverified wing content)
+- Mansion Roof House: Pharmacist (3,2) tells "terrifying tale" ONLY at night.
+- Gym Access: Path behind southern hedges (Cut tree at 28,35). Follow path west to (5,35), then north through gap in ledge at (5,33). Warp at (10, 29).
 
 ## Kanto Secrets & NPC Schedules
-- **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
-- Missed tea time on Sunday (Turn 42059). Try again tomorrow.
+- Daisy Oak (Pallet Town): Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
+- Pallet Town: Not yet visited. Cannot Fly there until visited on foot.
+- Soul Badge: Fuchsia City Gym Leader Janine.
 
 ## Fuchsia City Journey (Started Turn 42062, Jan 11 4:01 PM)
 - Strategy: Traverse Route 16, 17, and 18 via Cycling Road.
@@ -77,36 +67,20 @@
 - Goal: Reach Fuchsia City, defeat Janine for the Soul Badge.
 
 ## Strategy for Remaining Kanto Journey
-- **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
-- **Strategic Plan for Kanto Badges:**
-    1. Celadon (Rainbow) - COMPLETED.
-    2. Fuchsia (Soul) - Next target. Soul Badge.
-       - HOW: Route 16 (Cycling Road) requires Bicycle. Route 12-15 (Silence Bridge) is alternative.
-    3. Cinnabar/Seafoam (Volcano) - After Fuchsia. Volcano Badge.
-       - HOW: Surf from Pallet Town or Fuchsia City.
-    4. Viridian (Earth) - Final badge. Earth Badge. Blue is the leader.
-- **Rematches:** Alan (Route 36) wants a battle.
+- Objective: Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
+- Strategic Plan:
+    1. Celadon (Rainbow) - DONE.
+    2. Fuchsia (Soul) - Cycling Road (Route 16-18).
+    3. Cinnabar/Seafoam (Volcano).
+    4. Viridian (Earth).
+- Rematches: Alan (Route 36) wants a battle.
 
 ## General Lessons & Error Log
-- **NPC Interaction:** Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
-- **Ledges:** Hop down south only.
-- **Menu Navigation:** Use `press_menu_buttons_v3` for deep menus to avoid "mixed input" errors. (Added Turn 42037)
-- **Menu Cursors:** Verify cursor position before committing to a long button sequence. (Added Turn 42089)
-- **Thirsty Girl (6F):** Does not exist in Crystal version. (Verified Turn 41936)
+- NPC Interaction: Face the counter tile in front of NPCs (Nurses, Clerks, etc.) then press A.
+- Ledges: Hop down south only.
+- Menu Navigation: Use single `press_buttons` to verify menu state during complex sequences. Avoid long `press_menu_buttons_v3` chains when stuck.
+- Menu Cursors: Verify cursor position before committing to a long button sequence.
+- Thirsty Girl (6F): Does not exist in Crystal version. (Verified Turn 41936)
 
-## Celadon Game Corner Sweep (Turn 41953)
-- Posters/Background: No hidden switches. (Done Turn 42010)
-- Hidden Items: No response from Itemfinder in major areas. (Done Turn 42018)
-## Celadon Game Corner Prize Exchange (Turn 42027)
-- Gentleman (0, 2): Wanted PORYGON, but was short by 100 coins.
-- TM Vendor (2, 1): TM32 (1500), TM29 (3500), TM15 (7500). (Done Turn 42029)
-- Pokemon Vendor (4, 1): PIKACHU (2222), PORYGON (5555), LARVITAR (8888). (Done Turn 42035)
-- Pharmacist (4, 3): "I can't lose my cool, or I'll lose all my money..." (Done Turn 42042)
-## Fly Map Order (Confirmed with 'Down')
-- Saffron -> Celadon
-- Celadon -> Lavender -> Vermilion
-- Vermilion -> Cerulean
-- Cerulean -> Pewter
-- Pewter -> Indigo Plateau
-- Indigo Plateau -> Saffron (Loop)
-- (Note: Pallet and Viridian not yet in the 'Down' cycle)
+---
+(Note: Removed completed action logs for Game Corner and Prize Exchange to reduce bloat.)
