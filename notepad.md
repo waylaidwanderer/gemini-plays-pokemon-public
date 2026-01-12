@@ -43,6 +43,7 @@
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
 - Current Target: (0, 35)
 - Status: 99.7% explored. Two tiles remaining: (0, 35) and (19, 35).
+- Turn 44097: Accidentally warped to Room 2 again while pathing to (0, 35). Updating pathfinder to avoid warps.
 
 # Lessons Learned
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
