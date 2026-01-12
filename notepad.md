@@ -22,4 +22,5 @@
 - Turn 44034: Charizard missed Fire Spin.
 - Turn 44035: Opened PKMN menu, selected GNEISS, selected SWITCH.
 - Turn 44037: GNEISS entered. Charizard used Fire Spin (Not very effective). GNEISS HP: 138/155.
-- Turn 44038: Clearing text. Strategy: Use Rollout to finish the battle.
+- Turn 44038: GNEISS hurt by Fire Spin. HP: 129/155. Strategy: Use Rollout.
+- Turn 44039: Selecting FIGHT.
