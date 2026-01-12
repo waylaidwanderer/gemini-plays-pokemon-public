@@ -1,8 +1,8 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Fly to Indigo Plateau. (Done)
-    2. Heal party at Poke Center (KIMCHI is fainted). (Start Turn: 43181)
-    3. Head south to Route 23 Gatehouse.
+    2. Heal party at Poke Center (KIMCHI is fainted). (Done)
+    3. Head south to Route 23 Gatehouse. (Start Turn: 43183)
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit.
     5. Travel West through Route 28 to reach Mt. Silver.
     6. Face Red at the peak of Mt. Silver.
@@ -15,9 +15,9 @@
 - Calcifer (64): Healthy.
 - ICARUS (19): Healthy (Flyer).
 - XENON (44): Healthy.
-- KIMCHI (51): FAINTED. (Needs Heal)
+- KIMCHI (51): Healthy.
 - GORP (50): Healthy.
-- GNEISS (54): Healthy (86/152 HP).
+- GNEISS (54): Healthy.
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Walkable.
