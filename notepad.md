@@ -52,3 +52,4 @@
 - Automation Strategy: Using battle_strategist. find_path_v7_robust refined for axial blocking.
 - Goal Clarity: Goal is "Defeat Red". Method is switching to tank.
 - Error Analysis: Turn count mismatch in #43644 noted. Verification of one-way walls (axial blocking) confirms they block movement on their entire axis.
+- Espeon (Lv73): Switched GNEISS to GORP (Turn #43647) to tank Psychic moves.
