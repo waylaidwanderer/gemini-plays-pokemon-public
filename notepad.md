@@ -17,12 +17,8 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 3 Navigation Plan
-- **Current Position:** Northeast Pewter City (31, 3).
-- **Objective:** Find the Upper Exit to Route 3 (Rows 2-4).
-- **Verified Facts:**
-  - Route 3 Middle & Lower Lanes are blocked.
-  - Route 3 Upper Lane (Rows 2-4) is open at x=0 (Mental Map confirmed).
-- **Observation:** Pewter City East Wall (Rows 2-15) is SOLID. No Upper Exit exists.
-- **Conclusion:** The map connection data for Route 3 Row 2-4 is misleading or inaccessible from Pewter.
-- **Strategy:** The ONLY way forward is via the Middle Lane (Row 16/17 exit).
-- **Plan:** Return to Route 3. Go to (13, 7). Investigate the "Wall" closely. It MUST be passable (Rock Smash?).
+- **Current Phase:** Crossing Route 3.
+- **Problem:** Upper Lane (Row 2-4) is inaccessible from Pewter City (Solid Wall).
+- **Solution:** Must use Middle Lane (Row 7).
+- **Obstacle:** Investigating blockage at (13, 7).
+- **Action:** Enter Route 3 at (0, 7). Walk East. Inspect/Smash obstruction at (13, 7).
