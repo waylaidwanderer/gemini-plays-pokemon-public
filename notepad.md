@@ -65,7 +65,7 @@
 - BOOKSHELF: Verified wall-like collision.
 - RADIO: Verified interaction at (7, 1) in Nickname Speech House.
 - TV: Verified interaction at (2, 1) in Nickname Speech House. (Turn 42593)
-- TOWN_MAP: To be verified. Standing below at (3, 1) and facing up.
+- TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House. (Turn 42597)
 - COUNTER: To be verified.
 - STAIRS: To be verified.
 ## Nickname Speech House (Map 23_5)
