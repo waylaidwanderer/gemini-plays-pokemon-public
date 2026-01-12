@@ -91,3 +91,4 @@
 - Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
 - Downhill mechanic makes Northward recovery extremely difficult.
 - Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17?) for safety.
+- Biker Charles (6, 80): Defeated with Calcifer's Return. Team: Koffing (Lv30), Charmeleon (Lv30), Weezing (Lv30).
