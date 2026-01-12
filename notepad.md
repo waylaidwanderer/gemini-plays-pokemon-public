@@ -14,6 +14,9 @@
 - **Status:** COMPLETED.
 - **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
 
-# Roamer Hunt: Ecruteak Hub
-- **Current Pos:** Ecruteak City (Pokemon Center).
-- **Goal:** Intercept Raikou/Entei.
+# Roamer Hunt: Repel Trick
+- **Strategy:** Use Repel with Lv 36 Lead to filter for Lvl 40 Roamers.
+- **Location:** Route 37 (South of Ecruteak).
+- **Lead:** Gyarados (Lv 36).
+- **Items:** Super Repels (4).
+- **Action:** Transit to Route 37.
