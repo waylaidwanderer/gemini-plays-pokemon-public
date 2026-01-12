@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Route 37.
-- **Action:** Buying 3 Super Repels at Ecruteak Mart. Funds: ¥1894.
-- **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34648). Next: Pass 57.
+- **Action:** Relocating to Olivine Mart (Ecruteak has no Repels).
+- **Strategy:** Fly to Olivine -> Buy Super Repels -> Fly to Ecruteak -> Resume Hunt.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
