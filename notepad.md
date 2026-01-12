@@ -41,9 +41,8 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Attempt (Turn 35650):
-  - Previous error: Selected 'Fly', then immediately selected 'Indigo Plateau' (Current Location) with second 'A', cancelling the flight.
-  - Current State: Overworld (No text on screen).
-  - Strategy: Full Sequence Reset.
-  - Sequence: B (Clear) -> Start -> A (Pokemon) -> Down x3 (Mistral) -> A (Menu) -> A (Fly) -> Wait -> Left x3 -> A (Confirm).
-  - Target: Ecruteak City.
+- Fly Execution Phase (Turn 35652):
+  - Starting State: Party Menu, Cursor on Mistral.
+  - Sequence: Select Mistral (A) -> Select Fly (A) -> Wait Map (3s) -> Left x3 -> Confirm (A).
+  - Destination: Ecruteak City.
+  - Goal: Hunt Roamers.
