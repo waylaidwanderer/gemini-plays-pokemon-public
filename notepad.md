@@ -66,6 +66,6 @@
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
 - Attempt 1-6: Failed due to menu errors and overworld movement.
-- Attempt 7 (Turn 44297): Stuck in Pokedex. Strategy: B to exit Pokedex, Start to open menu, Up to POKEMON, A to select.
-- Attempt 8 (Turn 44298): Currently in Pokedex. Strategy: B, B, Start, Up, A.
-- Attempt Count (Fly): 8. Strategy Revision: Exit menus completely before restarting sequence. Verify "NewBarkTown" in Game State before Start.
+- Attempt 8 (Turn 44298): Stuck in Pokedex. Strategy: B, B, B to exit, then Start, Down, A.
+- Attempt 9 (Turn 44299): Still in Pokedex. Strategy: B, B, B, Start, Down, A.
+- Attempt Count (Fly): 9. Strategy Revision: Exit menus completely before restarting sequence. Verify "NewBarkTown" in Game State before Start.
