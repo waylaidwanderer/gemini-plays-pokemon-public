@@ -23,10 +23,9 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35688):
-  - Current Location: Cinnabar Island (Confirmed by Map Reset).
-  - Navigation Plan: Cinnabar -> Up (Pallet) -> Up (Viridian) -> Right (Saffron?).
-  - Previous findings: Pewter -> Right is blocked. Viridian -> Right is untested.
-  - Action: Up -> Wait -> Up -> Wait -> Right.
-  - Goal: Reach Saffron City (or Celadon).
-  - Note: Player is physically at Cinnabar Island. Map cursor reset confirmed this.
+- Fly Debugging (Turn 35689):
+  - Error in Turn 35688: Navigated Party Menu (moved cursor to ITEM) instead of Map.
+  - Correction: Navigate Menu to FLY (Down x2) -> Open Map (A).
+  - Navigation Plan: Cinnabar -> Up (Pallet) -> Up (Viridian) -> Up (Pewter) -> Right (Cerulean).
+  - Hypothesis: Pewter -> Right connection exists. Previous failure was input timing.
+  - Goal: Reach Cerulean City. Then Down to Saffron.
