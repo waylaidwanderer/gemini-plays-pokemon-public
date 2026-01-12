@@ -10,7 +10,8 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** In Ecruteak. Preparing to check Roamer locations.
+- **Status:** In Ecruteak Pokegear. checking Roamer map.
+- **Strategy:** Shuffle between Ecruteak and Route 37 until Roamer is on Route 37. Then hunt.
 - **Plan:** Fly to Ecruteak -> Roamer Hunt.
 - **Note:** Bottom Clerk (13,6) sells: Poke/Great Ball, Escape Rope, Repel, Revive, Full Heal, Doll, Mail. Top Clerk (13,5) sells Medicine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
