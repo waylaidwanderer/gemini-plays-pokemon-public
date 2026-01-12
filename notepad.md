@@ -14,9 +14,7 @@
 - **Status:** COMPLETED.
 - **Route:** Pewter -> Route 3 -> Mt. Moon -> Route 4 -> Cerulean -> Route 5 -> Saffron -> Goldenrod.
 
-# Goldenrod City Transit
-- **Current Pos:** (9, 10) [Magnet Train Station].
-- **Goal:** Exit Station.
-- **Status:** Walking to exit.
-- **Route:**
-  1. Walk South to Exit at (9, 17).
+# Goldenrod City Operations
+- **Current Pos:** Exiting Station.
+- **Goal:** Catch Raikou/Entei.
+- **Step 1:** Check Pokegear Map.
