@@ -13,7 +13,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35368 - Roamers spotted on Route 38 & 42. Heading to Route 38 to intercept/shuffle.
+- **Status:** Turn 35372 - In Pokegear. Checking Map to confirm Roamer locations.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
 
 # Lessons Learned
