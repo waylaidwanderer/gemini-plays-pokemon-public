@@ -40,7 +40,7 @@
 # Roamer Hunt Strategy
 - **Method:** Shuffle between Ecruteak City and Route 37.
 - **Execution:** Enter Route 37 -> Use 'sweep_route37' -> Return to Ecruteak -> Return to Route 37.
-- **Status:** Shuffling (Ecruteak <-> Route 37). Super Repel active.
+- **Action:** Executing 'sweep_route37' (Pass 21). Super Repel active.
 - **Reflection (Turn 34831):**
     - **Correction:** Accidentally swept twice without shuffling (Turn 34830). Must strictly enforce Shuffle -> Sweep cycle.
     - **Status:** Resuming correct loop. Repel active.
