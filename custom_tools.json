@@ -158,5 +158,20 @@
         "action_counter": 42953
       }
     ]
+  },
+  "toss_first_item": {
+    "description": "Tosses the first item in the Items pocket of the Pack. Assumes the player is in the overworld and no menus are open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {}
+    },
+    "python_script": "import json\nprint(json.dumps([\"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"A\", \"A\", \"Down\", \"Down\", \"A\", \"A\", \"A\", \"B\", \"B\", \"B\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-12T11:45:53.418Z",
+        "action_counter": 43333
+      }
+    ]
   }
 }
