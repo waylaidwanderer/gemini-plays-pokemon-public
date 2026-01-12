@@ -41,18 +41,8 @@
 - GNEISS (Lv54 Graveler)
 
 # Surf Strategy
-- GORP (Snorlax) teaching Surf. (In progress). Attempt #17.
-- Strategy Change: 1-2 button presses at a time.
-- Step 1: Open Menu (Completed).
-- Step 2: Move cursor to PACK (Completed).
-- Step 3: Enter PACK (Completed).
-- Step 4: Find HM03 SURF in TM/HM pocket (Completed). Cursor on HM03 SURF.
-- Step 5: Select HM03 SURF (Completed). USE/QUIT menu open. Cursor on USE.
-- Step 6: Select YES (Completed). Party menu open.
-- Step 7: Select GORP (SNORLAX) (Completed).
-- Step 8: Choose move to replace (Completed). Selected YES.
-- Step 9: Select move to delete (Completed). SNORE forgotten.
-- Step 11: Exit menu (Completed). GORP learned SURF.
-- New Goal: Reach warp at (13, 21) via Water at (13, 30).
-- Goal: Reach warp at (11, 5) and item at (4, 20) via Water in Row 15/14.
-- Goal: Reach warp at (13, 21) via Water at (13, 30).
+- GORP (Snorlax) learned Surf (Turn 43469).
+- Plan to reach warp at (13, 21):
+    1. Navigate to (14, 30).
+    2. Face Left and use SURF on (13, 30).
+    3. Navigate through water to (13, 21).
