@@ -48,8 +48,10 @@
 # Navigation Plan: Victory Road to Mt. Silver
 1. Bypass ladder at (13, 31) (Done).
 2. Use Super Repel. (Done, Turn 43208)
-3. Navigate to (18, 42) -> (7, 42) -> (7, 38).
-4. Hop left at (6, 38) to (5, 38).
-5. Move to (5, 33) -> (1, 33) -> (1, 35).
-6. Take ladder at (1, 35) to 2F.
-7. Navigate on 2F to ladder at (1, 49) or exit at (9, 67).
+3. Navigate to (18, 42) -> (7, 42) -> (7, 38). (Done)
+4. Hop left at (6, 38) to (5, 38). (Done)
+5. Move to (5, 33) -> (1, 33) -> (1, 35). (Done)
+6. Take ladder at (1, 35) to 2F. (Done)
+7. Navigate on 2F to ladder at (1, 49) or exit at (9, 67). (Done)
+8. Exit Victory Road at (9, 67) to Victory Road Gatehouse. (Turn 43214)
+9. Navigate West in Gatehouse to Route 28.
