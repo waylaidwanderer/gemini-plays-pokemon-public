@@ -5,8 +5,8 @@
 
 # Current Status
 - **Location:** Ecruteak City.
-- **Action:** Resuming Hunt.
-- **Strategy:** Check Pokegear -> Shuffle if needed -> Sweep Route 37.
+- **Action:** Checking Pokegear Map for Roamers.
+- **Strategy:** Identify Roamer locations -> Fly/Walk to intercept -> Save -> Encounter.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
 # Roamer Hunt Log
