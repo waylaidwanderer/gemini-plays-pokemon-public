@@ -88,3 +88,8 @@
 - Physics Trap: Avoid column 6 at Y=53. Blocked by Biker Glenn (5, 53) and Water (6, 54).
 - Downhill mechanic makes Northward recovery extremely difficult.
 - Recommendation: Stick to far left lane (X=2-5) or far right lane (X=14-17?) for safety.
+## Strategy for Navigating Route 17 (Bottom Area)
+- Observation: Row 85 contains a wall barrier from X=6 to X=13.
+- Hypothesis: The path forward is likely through the far right (X >= 14) or far left (X <= 5) lanes.
+- Plan: Navigate east to X=14 at Row 84 to bypass the wall at Y=85.
+- Start Turn: 42154.
