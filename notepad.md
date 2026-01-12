@@ -69,5 +69,5 @@
 # Strategy: Pallet Town Exploration
 - Observed: Entry from Route 1 at (8, 0).
 - Observed: Pallet Town Sign at (7, 9) reads "PALLET TOWN A Tranquil Setting of Peace & Purity."
-- Plan: Talk to the Teacher, visit Red's house (5, 5), Blue's house (13, 5), and Professor Oak's Lab (12, 11).
+- Plan: Talk to the Teacher, visit Blue's house (13, 5), and Professor Oak's Lab (12, 11).
 - Plan: Surf south from Pallet Town to Route 21.
