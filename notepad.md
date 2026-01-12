@@ -43,7 +43,7 @@
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
 - Fly Debugging (Turn 35660):
   - Situation: Cursor stuck on Cinnabar Island (Kanto).
-  - Strategy: Hard Reset of Map Cursor.
-  - Action: Close Map (B) -> Re-open Map (A). This resets cursor to current location (Indigo Plateau).
-  - Next: From Indigo Plateau, try 'Left' to cross to Johto. If that fails, 'Select' to toggle map.
-  - Sequence: B -> A -> Wait -> Left -> Select -> Left.
+  - Hypothesis: Previous 'Select' failed or 'Down' inputs lagged.
+  - Action: Hard Reset + Region Toggle.
+  - Sequence: B (Close) -> A (Open, Reset to Indigo) -> Select (Toggle to Johto) -> Left -> Left.
+  - Goal: See a Johto city name (e.g., Blackthorn, Violet, Ecruteak) on screen.
