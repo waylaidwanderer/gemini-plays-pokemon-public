@@ -12,8 +12,8 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Walking to Route 28 (Resume).
-- **Status:** Ran from Poliwhirl. Moving to exit (39, 31).
+- **Action:** Walking to Route 28 (Final Steps).
+- **Status:** At (38, 31). Moving to (39, 31) then exiting East.
 - **Next:** Fly to Goldenrod from Route 28.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
