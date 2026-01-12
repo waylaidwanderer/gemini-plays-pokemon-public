@@ -41,7 +41,6 @@
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
-- Current Targets: (0, 35), (19, 35). (Likely require a different entrance).
 - Status: 99.7% explored.
 
 # Lessons Learned
@@ -49,6 +48,7 @@
 - Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
 - Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
 - Avoid known warps during overworld navigation unless they are the intended destination.
+- Verify pathfinding output before execution to avoid infinite loops between maps.
 
 # Legendary Hunt Strategy
 - General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
