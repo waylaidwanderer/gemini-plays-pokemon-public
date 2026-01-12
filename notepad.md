@@ -2,21 +2,12 @@
 
 ## Global Tile Mechanics
 - FLOOR: Standard traversable tile.
-- FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
 - WALL: Impassable collision.
-- INVISIBLE WALL: Appears as FLOOR visually but acts as WALL in collision data. (Verified Turn 42304)
-- WATER: Impassable on foot. Requires SURF.
-- TALL_GRASS / grass: Standard traversable tile. Wild encounters.
-- DOOR / WARP / CAVE: Entry/exit points.
-- WARP_CARPET_DOWN: Entry/exit point.
-- LADDER / STAIRCASE: Vertically connects maps.
-- COUNTER: Impassable. Interaction possible from adjacent tiles.
-- MART_SHELF: Impassable collision.
+- WATER: Requires SURF.
+- TALL_GRASS: Traversable, wild encounters.
+- DOOR/WARP/CAVE/LADDER: Entry/exit points.
 - LEDGE_HOP_DOWN: One-way traversal (North to South only).
-- FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Collision that blocks movement in specified direction.
-- OBJECTS (NPCs/Items): Impassable. Interaction possible from adjacent tiles.
-- PC / BOOKSHELF: Impassable. Interaction possible from adjacent tiles.
-- OVERWORLD NAVIGATION: (10, 6) is a FLOOR tile. (Verified Turn 42415)
+- FLOOR_UP_WALL/FLOOR_DOWN_WALL/FLOOR_LEFT_WALL/FLOOR_RIGHT_WALL: Block movement in the specified direction. In Diglett's Cave, FLOOR_UP_WALL at (15, 34) blocks Southward movement from (15, 33). (Turn 42449)
 
 ## Fly Map Navigation (Kanto)
 - Indigo Plateau: Starting point.
