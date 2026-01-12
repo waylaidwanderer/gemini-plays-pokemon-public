@@ -1,19 +1,19 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
-    1. Free an inventory slot by tossing the BERRY. (Task started Turn 43296).
-    2. Explore SilverCaveRoom1 to find the ladder to the next floor.
-    3. Navigate around the row 20 "step" barrier.
-    4. Collect items at (7, 18) and (15, 29).
-    5. Face Red at the peak of Mt. Silver.
+    1. Free an inventory slot by tossing the BERRY. (Priority #1).
+    2. Explore the left side of SilverCaveRoom1 to find a path north.
+    3. Find the ladder to the next floor.
+    4. Grind team to Lv 70-75 (Red has Lv 81 Pikachu).
+    5. Face Red at the peak.
 
 # Progress Tracking
-- Badges: 16/16 (All Johto and Kanto badges obtained).
-- Mt. Silver Access: UNLOCKED by Professor Oak.
+- Badges: 16/16.
+- Mt. Silver Access: Unlocked.
 - Inventory Management: Started Turn 43296. Goal: Free 1 slot by tossing BERRY.
 
 # Party Status & Battle Prep
 - Calcifer (64): Healthy.
-- ICARUS (19): Healthy (Flyer).
+- ICARUS (19): Healthy (Flyer/Swap target).
 - XENON (44): Healthy.
 - KIMCHI (51): Healthy.
 - GORP (50): Healthy.
@@ -30,8 +30,8 @@
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
 - LEDGE_HOP: One-way movement Down/Left/Right.
-- FLOOR_UP_WALL: Impassable when moving North (Up) onto it from a South (Down) tile. (Acts as a step up from the North). Verified: (10, 21) -> (10, 20) is BLOCKED.
-- WALL_UP_FLOOR: Impassable when moving South (Down) onto it from a North (Up) tile. (Acts as a step up from the South).
+- FLOOR_UP_WALL: Impassable when moving North (Up) onto it from a South (Down) tile. Verified: (10, 21) -> (10, 20) is BLOCKED.
+- WALL_UP_FLOOR: Impassable when moving South (Down) onto it from a North (Up) tile.
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), West Exit to Route 28 (Mt. Silver).
@@ -42,20 +42,14 @@
 # PC Box 1 (9/20)
 - GLAIVE (14), SELKIE (24), DELTA (20), RANGOON (22), NOMURA (17), Ravioli (10), Ouroboros (15), LAPIS (12), AAAAAAAAAA (13).
 
-# Advisor Recommendations (Turn 43260)
-- **Grinding:** Aim for Level 75+ for the entire team to match Red.
-- **Location:** Elite Four rematches or high-level wild encounters deep in Mt. Silver.
-- **Tactics:** Earthquake on GNEISS for Pikachu; ThunderPunch on Calcifer for Blastoise/Charizard. Fighting-type moves or Toxic for Snorlax.
-
 # Navigation Plan: Silver Cave Room 1
-1. Toss BERRY to free space (Turn 43328).
-2. Move to (19, 21) to explore the right side and look for a path up.
-3. Move to (7, 19), face Up, and collect item at (7, 18).
-4. Explore remaining unseen tiles: (14, 26), (15, 27), (16, 27), (17, 28), (17, 29), (17, 30), (17, 32), (0, 35), (17, 34), (17, 35).
+1. Toss BERRY to free space. (Turn 43333).
+2. Head west to (0, 21) to find a path north.
+3. Collect items at (7, 18) and (15, 29) once space is freed.
 
 # Inventory Management
 - Bag capacity: 20 slots in the Items pocket.
 - Stacks (e.g., Potion x5) occupy one slot.
 - Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
-- Task History: Turn 43296 - Started. Turn 43325 - Failed (Trainer Card). Turn 43329 - Failed (Pokemon Menu). Turn 43330 - Failed (Gear Menu). Turn 43331 - Attempting toss with cursor reset. Goal: Toss BERRY.
+- Task Started: Turn 43296. Current Turn: 43333. Failed attempts: ~10 (mostly Pokedex/Trainer Card mis-navigation). Goal: Toss BERRY.
