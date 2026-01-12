@@ -66,3 +66,5 @@
 - Swimmer Dawn (Object 1) at (9, 23): [Defeated] Roster: Seaking (Lv34).
 - Swimmer Tucker (Object 4) at (8, 23): [Defeated] Roster: Shellder (Lv30), Cloyster (Lv34).
 - Swimmer Nicole (Object 1) at (52, 8): [Defeated] Roster: Marill (Lv29), Marill (Lv29), Lapras (Lv32).
+- Marill (Lv29): No moves observed (one-shot).
+- Lapras (Lv32): No moves observed (one-shot).
