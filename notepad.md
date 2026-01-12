@@ -12,9 +12,9 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Selling Items at Viridian Mart.
-- **Status:** At Counter (3, 3). Selling Revives.
-- **Plan:** Sell Revives (x4) -> Buy Super Repels (Cost effective).
+- **Action:** Shopping at Viridian Mart.
+- **Status:** At Counter (3, 3). Buying Repels.
+- **Plan:** Buy Super Repels (x6) or Max Repels if unavailable.
 - **Next:** Route 2 -> Diglett's Cave -> Vermilion -> Saffron -> Magnet Train.
 - **Fact:** Fly is region-locked. Must use Train.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
