@@ -42,3 +42,5 @@
 - Task: Reach Red/Grind - Started Turn 43550.
 - Grinding Strategy: Lead with Calcifer (Thunderpunch) or GNEISS (Earthquake) for efficient KOs. Use XENON for status support if needed.
 - Waterfall Strategy: Successfully climbed waterfall at (10, 29) to reach upper level (Turn 43564). Use A button while facing the waterfall tile.
+- Task: Collect item at (4, 20) before progressing to (11, 5).
+- Path: (13, 22) -> (11, 25) -> Surf at (11, 26) -> (6, 22) -> Land at (5, 21) -> (4, 20).
