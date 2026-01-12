@@ -18,9 +18,10 @@
 - Battle Start: Turn 43692.
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73):
-  - Psychic Used: 7 (Verified via history).
+  - Psychic Used: 7 (Verified).
+  - Mud-Slap Used: 1 (Turn 43764). GORP Accuracy -1.
   - Reflect: Re-applied (Turn 43761).
-  - GORP (Snorlax): Revived and fully healed (Turn 43760). HP 221/221. Active.
+  - GORP (Snorlax): Revived and fully healed. HP 216/221. Active.
   - Calcifer (Typhlosion): Fainted.
 - Items: 4 Full Restores, 10 Max Potions, 18 Revives remaining.
-- Strategy: Stall remaining Psychics. Use Body Slam to fish for paralysis.
+- Strategy: Stall remaining Psychics. Use Body Slam to fish for paralysis. Use Rest if HP/PP get low.
