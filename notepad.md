@@ -18,6 +18,6 @@
 - Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 5/16 (verified). Reflect faded. GORP Spcl.Def -1.
+- Psychic Used: 7/16 (verified from history). Reflect faded. GORP Spcl.Def -1.
 - Strategy: Heal GORP every turn until Psychic is depleted. GORP at 43/221 HP.
-- Items: 5 Full Restores, 11 Max Potions remaining. (Turn 43730: Using Full Restore).
+- Items: 5 Full Restores, 11 Max Potions remaining. (Turn 43731: Healing GORP).
