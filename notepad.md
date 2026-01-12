@@ -4,20 +4,18 @@
     2. Next: Challenge Red at Mt. Silver (16 badges).
     3. Quest Start: Turn 43083. Battle Start: Turn 43107.
 
-## Blue's Roster & Tactics
-- Pidgeot (56): [Defeated] - Calcifer's Thunderpunch.
-- Rhydon (56): [Defeated] - KIMCHI's Petal Dance.
-- Alakazam (54): [Defeated] - GORP's Body Slam.
-- Gyarados (58): [Defeated] - Calcifer's Thunderpunch.
-- Arcanine (58): [Active] - Weak to Ground, Rock, Water.
-- Exeggutor (58): [Pending] - Weak to Fire (4x), Bug (4x), Flying, Poison, Ghost, Dark.
-
-## Battle Status (Turn 43127)
-- Weather: Rain (Rain Dance active).
+## Battle Status (Turn 43129)
+- Weather: Rain (Rain Dance active, 4 turns left).
+- Pidgeot (56): [Defeated]
+- Rhydon (56): [Defeated]
+- Alakazam (54): [Defeated]
+- Gyarados (58): [Defeated]
+- Arcanine (58): [Active]
+- Exeggutor (58): [Pending]
 - Calcifer (Typhlosion Lv64): 204/204 HP.
 - KIMCHI (Gloom Lv51): 0/134 HP (FNT).
 - GORP (Snorlax Lv50): 221/221 HP.
-- GNEISS (Graveler Lv54): 152/152 HP.
+- GNEISS (Graveler Lv54): 152/152 HP. [Switching In]
 
 # Tile Mechanics (Global Reference)
 - FLOOR: Reachable. Standard walkable tile.
