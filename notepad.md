@@ -11,8 +11,8 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Transit to Johto via Diglett's Cave.
-- **Status:** Main Tunnel. Heading to Ladder at (17, 33).
-- **Plan:** Head South -> Ladder at (17, 33) -> Exit at (3, 33) -> Vermilion City.
+- **Status:** Exiting Diglett's Cave (South).
+- **Plan:** Exit at (3, 33) -> Vermilion City -> Saffron City -> Magnet Train.
 - **Note:** Viridian Mart does NOT sell Repels/Super Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
