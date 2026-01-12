@@ -32,11 +32,9 @@
 - Objective: Capture Raikou, Entei, and Suicune.
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
-- Status: Heading to Poke Center to get ICARUS (Flyer).
 
 # Mt. Silver Completion
-- Status: Done (99.7%).
-- Note: Entrance lobby at (9, 33) is isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) are unreachable from this entrance.
+- Note: Hypothesis: Entrance lobby at (9, 33) appears isolated from the rest of the room by ledges and barriers. Unseen tiles (0, 35) and (19, 35) were unreachable from this entrance in tested paths.
 
 # Legendary Hunt Strategy
 - Priority: Raikou (Speed).
