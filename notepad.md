@@ -11,9 +11,9 @@
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Action:** Transit to Johto via Magnet Train.
-- **Status:** At Vermilion Mart Counter (3, 3).
-- **Plan:** Talk to Clerk -> Buy Super Repels (xMax) -> Saffron City -> Magnet Train.
-- **Note:** Viridian Mart had no Repels. Checking Vermilion.
+- **Status:** Leaving Vermilion Mart (No Repels here either).
+- **Plan:** Saffron City -> Magnet Train -> Goldenrod Dept Store.
+- **Note:** Viridian & Vermilion Marts do NOT sell Repels.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Last Sighting:** Route 38 & Route 42 (Verified Turn 34605).
