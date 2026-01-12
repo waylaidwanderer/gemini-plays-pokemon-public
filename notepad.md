@@ -31,12 +31,10 @@
   6. Verified: Lower Lane (Row 10+) is blocked by a WALL at x=19 (Seen in Mental Map).
   7. Conclusion: The ONLY way forward is the Upper Lane (Rows 2-4).
   8. Ledges (Row 5) prevent access from below. Must enter Upper Lane from Pewter City.
-  9. New Strategy: The Route 3 Upper Lane (Rows 2-4) starts at x=0, meaning there IS an exit from Pewter at Row 2, 3, or 4.
-  10. My previous exploration of Northeast Pewter (around the Berry Trees) was incomplete. I likely failed to check East of the trees.
-  11. Plan: Return to Pewter City. Go North through the gap at (31, 7).
-  12. Navigate to Row 3 or 4.
-  13. Walk EAST towards x=39. Do not stop at the Berry Trees.
-  14. Verify if there is an exit at (39, 2), (39, 3), or (39, 4).
+  9. Verified: Pewter City XML confirms East Wall (x=35) is SOLID from Row 2 to Row 15.
+  10. Conclusion: There is NO Upper Exit from Pewter City. The only way is via Row 16/17 (Middle Lane).
+  11. Deductive Logic: Since Upper Lane is inaccessible from Pewter, the path to Mt Moon MUST require traversing the Middle Lane of Route 3 and bypassing the obstacle at x=13.
+  12. Plan: Return to Route 3. Inspect the "Wall" at (13, 7) and the area around (10, 7) (Youngster). Use Rock Smash if applicable. DO NOT TURN BACK.
   3. Re-enter Route 3 from the Upper Lane (y=14).
   4. Traverse Route 3 along the top edge to Mt. Moon.
 - **Next Action:** Walk Left to Pewter City.
