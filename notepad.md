@@ -66,7 +66,7 @@
 - Observation: City has a complex layout with many interior fences/walls. Row 22 has FLOOR_UP_WALL except at columns 0 and 1.
 - Interaction Log:
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
-- Map Progress: 29.4% explored.
+- Map Progress: 32.2% explored.
 - Ledge Obstacle: (4, 31) confirmed as impassable WALL despite FLOOR label. Stuck at (5, 32) previously.
 - Plan: Locate Pokemon Center and heal Calcifer.
 - Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
