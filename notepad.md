@@ -6,8 +6,9 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (27, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Repel Applied. Resuming hunt.
+- **Action:** Repel Applied. Exiting Menu and Running.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
+- **Hunt Session:** Started ~Turn 36369. Current: 36393.
 - **Resources:** 0 Super Repel, 1 Repel. ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
