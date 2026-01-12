@@ -69,6 +69,12 @@
 
 ## Kanto Secrets & NPC Schedules
 - **Daisy Oak (Pallet Town):** Has tea every day from 3:00 PM to 4:00 PM. (Source: Chad)
+- Missed tea time on Sunday (Turn 42059). Try again tomorrow.
+
+## Fuchsia City Journey (Started Turn 42062, Jan 11 4:01 PM)
+- Strategy: Traverse Route 16, 17, and 18 via Cycling Road.
+- Requirement: Bicycle (Confirmed in Key Items).
+- Goal: Reach Fuchsia City, defeat Janine for the Soul Badge.
 
 ## Strategy for Remaining Kanto Journey
 - **Objective:** Defeat Janine (Fuchsia), Blaine (Cinnabar/Seafoam), Blue (Viridian).
