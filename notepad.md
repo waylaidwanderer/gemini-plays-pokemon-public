@@ -72,3 +72,4 @@
 - Plan: Visit Professor Oak's Lab (12, 11).
 - Plan: Surf south from Pallet Town to Route 21.
 - Daisy (Blue's House): Mentioned Blue is the Viridian Gym Leader but is often away.
+- Fisher (Object 2): Wandering southern Pallet Town.
