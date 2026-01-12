@@ -66,3 +66,4 @@
 - Water route leading east to Seafoam Islands.
 - Observed: Southern boundary at Y=17 is WALL.
 - Goal: Surf east to find Seafoam Islands.
+- Swimmer Guy (Object 3) at (12, 13).
