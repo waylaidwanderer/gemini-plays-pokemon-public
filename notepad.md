@@ -45,13 +45,8 @@
 - **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
 
-# Navigation Plan: Victory Road to Mt. Silver
-1. Bypass ladder at (13, 31) (Done).
-2. Use Super Repel. (Done, Turn 43208)
-3. Navigate to (18, 42) -> (7, 42) -> (7, 38). (Done)
-4. Hop left at (6, 38) to (5, 38). (Done)
-5. Move to (5, 33) -> (1, 33) -> (1, 35). (Done)
-6. Take ladder at (1, 35) to 2F. (Done)
-7. Navigate on 2F to ladder at (1, 49) or exit at (9, 67). (Done)
-8. Exit Victory Road at (9, 67) to Victory Road Gatehouse. (Done, Turn 43214)
-9. Navigate West in Gatehouse to Route 28. (Start Turn: 43214)
+# Navigation Plan: Route 28 to Mt. Silver
+1. Move West from (33, 6) to discover the path.
+2. Locate Mt. Silver entrance (likely at the western end of Route 28).
+3. Check for the "Hidden House" on Route 28 (often contains a useful TM like Steel Wing).
+4. Enter Mt. Silver.
