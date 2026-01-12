@@ -68,3 +68,4 @@
     - Youngster (Object 1): Mentioned that an Elite Four member used to be the Fuchsia Gym Leader.
 - Safari Zone Main Office: Visited (Turn 42221). No items or useful NPCs found.
 - Route 15 Gatehouse: Eastern exit of city.
+- Current Status: Investigating buildings at (8, 27) and (11, 27).
