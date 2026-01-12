@@ -12,9 +12,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Walking to Route 28 (Final Steps).
-- **Status:** At (38, 31). Moving to (39, 31) then exiting East.
-- **Next:** Fly to Goldenrod from Route 28.
+- **Action:** Transitioning to Route 28.
+- **Status:** At map edge (38, 31). Stepping East.
+- **Next:** Fly to Goldenrod City.
+- **Context:** Escaped Wild Golbat. Resuming flight plan.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
