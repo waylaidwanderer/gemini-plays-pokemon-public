@@ -21,9 +21,8 @@
   - Psychic: 7/16 used. (Turns 43697, 43704, 43711, 43717, 43724, 43733, 43747).
   - Reflect: 2 used. (Active: Turn 43761).
   - Mud-Slap: 1 used. (GORP Accuracy -1).
-  - Swift: 1 used.
-  - GORP (Snorlax): HP 176/221. Active. Neutral Spcl.Def.
+  - Swift: 2 used (Turns 43766, 43770).
+  - GORP (Snorlax): HP 138/221. Active. Neutral Spcl.Def.
   - Calcifer (Typhlosion): Fainted.
 - Inventory: 4 Full Restores, 9 Max Potions, 18 Revives.
-- Strategy: Clear message, then heal GORP correctly. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
-- Turn 43768: Mistakenly used Max Potion on XENON. HP 176/221. Clearing message.
+- Strategy: Use Max Potion on GORP. Stall remaining ~9 Psychics. Use Body Slam for paralysis.
