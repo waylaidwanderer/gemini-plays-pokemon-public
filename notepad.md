@@ -41,3 +41,6 @@
 **Lesson Log:**
 - Diglett's Cave Topology: Tiered layout requires specific ladders to reach the exit.
 - Ledges: Verify jumpability before planning routes.
+## Nugget House (Turn 42482)
+- Strategy: Stun the Fisher to interact reliably.
+- Goal: Obtain the Nugget.
