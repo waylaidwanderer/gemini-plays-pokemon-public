@@ -134,63 +134,26 @@
       }
     ]
   },
-  "shuffle_check_roamers": {
-    "description": "Moves down from Ecruteak to Route 37, waits 0.5s, then safely navigates to Pokegear Map. Assumes Main Menu cursor is on Pokegear.",
+  "route42_gate_shuffle": {
+    "description": "Executes the Roamer Shuffle loop on Route 42: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear Map.",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "print('[\"Down\", \"sleep 500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
+    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 1500\", \"Right\", \"sleep 1500\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-12T19:10:12.010Z",
-        "action_counter": 36122
-      },
-      {
-        "commit_message": "Increased sleep duration after movement to 1500ms to account for map transition time, preventing skipped menu inputs.",
-        "timestamp": "2026-01-12T19:15:07.693Z",
-        "action_counter": 36128
-      },
-      {
-        "commit_message": "Increased initial sleep to 3000ms to ensure map transition and popup handling are complete before menu interaction.",
-        "timestamp": "2026-01-12T19:19:59.774Z",
-        "action_counter": 36135
-      },
-      {
-        "commit_message": "Increased sleep to 5000ms for map transition stability. Added cursor reset (Left -> Right) inside Pokegear to ensure MAP is selected regardless of previous position.",
-        "timestamp": "2026-01-12T19:38:35.804Z",
-        "action_counter": 36162
-      },
-      {
-        "commit_message": "Removed the Left-Right wiggle and reverted to a simple Right press, assuming the Pokegear menu resets to 'Back' upon entry. Kept the 5000ms sleep for map transition safety.",
-        "timestamp": "2026-01-12T19:39:26.671Z",
-        "action_counter": 36163
-      },
-      {
-        "commit_message": "Reduced initial sleep to 500ms based on successful manual execution in Turn 36177. This timing appears to avoid the input-eating window of the map transition.",
-        "timestamp": "2026-01-12T19:49:45.001Z",
-        "action_counter": 36178
-      }
-    ]
-  },
-  "shuffle_return": {
-    "description": "Closes the Pokegear Map and moves Up from Route 37 back to Ecruteak City to reset the shuffle.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "print('[\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Up\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T19:12:39.847Z",
-        "action_counter": 36125
-      },
-      {
-        "commit_message": "Increased sleep duration between B presses to 500ms to ensure menus close reliably before moving.",
-        "timestamp": "2026-01-12T19:21:54.196Z",
-        "action_counter": 36137
+        "timestamp": "2026-01-12T20:14:04.185Z",
+        "action_counter": 36212
       }
     ]
   }
