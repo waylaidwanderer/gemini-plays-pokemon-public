@@ -51,3 +51,8 @@
 - FLOOR_UP_WALL: Row 32.
 - Item at (22, 24): Ultra Ball (Collected Turn 43407).
 - Strategy: Exploring North from (18, 26) towards unseen Row 20.
+
+# Turn 43411 Correction
+- Hallucination: Thought I was at (19, 20) in Turn 43410. Actual position is (15, 18).
+- Strategy: Navigating around the central walls to reach Row 20.
+- Warp at (13, 21): Unexplored.
