@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Entering Route 28.
-- **Status:** Leaving Silver Cave (39, 31) -> Right.
-- **Next:** Fly to Goldenrod City.
-- **Goal:** Sell Revives/Elixer -> Buy Repels.
-- **Context:** Recovering from accidental Fly to Silver Cave.
+- **Action:** Prepping to Fly (Route 28).
+- **Status:** Arrived on Route 28 (0, 13).
+- **Plan:** Move Right (Safety) -> Open Menu -> Select Pidgey -> Fly.
+- **Goal:** Goldenrod City (Restock).
+- **Note:** Warp logic from Silver Cave (39, 31) -> Route 28 (0, 13) confirmed.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
