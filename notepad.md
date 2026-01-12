@@ -62,3 +62,9 @@
 
 # Trainer Encounters (Route 1)
 - Schoolboy Danny (Object 1) at (7, 12): Defeated at turn 42694. Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
+
+# Strategy: Pallet Town Exploration
+- [Turn 42699] Arrived in Pallet Town.
+- Observed: Entry from Route 1 at (8, 0).
+- Plan: Explore the town, visit Professor Oak's Lab, and then Surf south to Cinnabar Island.
+- Note: Pallet Town is 20x18.
