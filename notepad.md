@@ -31,9 +31,6 @@
 - Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
 - Nickname Speech House (21, 9): Exploration complete (Turn 42597).
-    - Radio: Verified interaction at (7, 1).
-    - TV: Verified interaction at (2, 1).
-    - Town Map: Verified interaction at (3, 0).
     - Speary (Spearow): (5, 2) (MOLTRES_SPRITE).
     - Rattey (Rattata): (6, 3) (GROWLITHE_SPRITE).
 - Cut Tree (14, 4): Blocks a path to the west.
@@ -43,19 +40,15 @@
     - Youngster (1F): (6, 8).
     - Gentleman (1F): (2, 4). Resting from battles (Turn 42618).
     - Cooltrainer F (1F): (6, 2).
-    - Illegible Book (1F): (7, 10).
     - Receptionist (B1F): (7, 1).
 
 ## Route 2 (South)
 - Picked up Elixir at (14, 50).
-- Cut tree at (12, 50) cleared. Leads to western grass area.
-- Cut tree at (12, 46) observed.
-- Ledges at Y=47 and Y=39 block Northward movement from the western path.
+- Cut tree at (12, 50) cleared.
 - Entrance to Viridian City at (7-9, 53).
 
 ## Diglett's Cave
-- Ladder Connections: (5, 31) <-> (17, 33), (3, 3) <-> (17, 3).
-- Exit to Route 2 (East): (15, 5) via ladder at (3, 3).
+- Exit to Route 2 (East): (15, 5).
 
 # Battle & Pokémon Data
 ## Party Status
@@ -70,11 +63,6 @@
 - GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
 
 # Lesson Log & Progress
-- [Turn 42551] Started Viridian City Exploration.
-- [Turn 42605] Entered Trainer House 1F.
-- [Turn 42611] Receptionist confirms trainer battles available downstairs.
 - [Turn 42636] Defeated CAL's Meganium (Lv50) with Calcifer (Lv62).
-- [Turn 42641] Calcifer (Lv62) used Smokescreen; CAL's Typhlosion (Lv50) used Swift. Calcifer at 182/197 HP.
-- [Turn 42644] Calcifer used Return; enemy used Swift. Calcifer at 166/197 HP.
-- [Turn 42645] Calcifer used Return; CAL's Typhlosion fainted. CAL sent out Feraligatr (Lv50).
-- [Turn 42646] Calcifer (Lv62) vs. Feraligatr (Lv50). Plan: Use THUNDERPUNCH.
+- [Turn 42645] Defeated CAL's Typhlosion (Lv50) with Calcifer (Lv62).
+- [Turn 42649] Calcifer (Lv62) used Thunderpunch (Super Effective) on Feraligatr (Lv50). Calcifer at 142/197 HP.
