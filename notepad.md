@@ -81,3 +81,5 @@
 - Route 17 Physics: Downhill mechanic requires constant Northward inputs.
 - Fuchsia Navigation: Row 22 wall blocks North movement except at X=0, 1. (4, 31) is a wall.
 - Notepad Edits: Use exact matches for `old_text` or use `overwrite` for major changes. (Turn 42348)
+## Rematch Requests
+- Dana (Lass, Route 38): Wants to battle. (Turn 42369)
