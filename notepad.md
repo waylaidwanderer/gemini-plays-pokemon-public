@@ -9,17 +9,19 @@
 # Current Team Status
 - XENON (Haunter): Lv44. HP 111/111. (On field)
 - Calcifer (Typhlosion): Lv64. HP 102/204.
-- FNT: KIMCHI, GORP, GNEISS, LAPIS.
+- LAPIS (Poliwag): Lv12. HP 16/32.
+- FNT: KIMCHI, GORP, GNEISS.
 
 # Strategy: The Final Stand (GNEISS Sweep)
-1. Turn 44017: Use REVIVE on GNEISS (Slot 5).
-2. Turn 44018: Use MAX POTION on GNEISS. (XENON acts as fodder).
-3. Turn 44019: Switch to GNEISS (if XENON lives) or send in GNEISS (if XENON faints).
-4. Turn 44020+: GNEISS uses ROLLOUT.
+1. Turn 44018: Clear "LAPIS is revitalized".
+2. Turn 44019: Use REVIVE on GNEISS (Slot 5).
+3. Turn 44020: Use MAX POTION on GNEISS.
+4. Turn 44021+: GNEISS uses ROLLOUT.
 
 # Battle Log: The Final Stand
 - Turn 44007: GORP fainted. Sent in LAPIS.
 - Turn 44009: Used REVIVE on Calcifer (Mistake).
 - Turn 44011: LAPIS fainted.
 - Turn 44012: Sent in XENON.
-- Turn 44017: Attempting to Revive GNEISS. Previous turn failed due to menu navigation error.
+- Turn 44018: Used REVIVE on LAPIS (Mistake, pressed Down 4 times instead of 3).
+- Turn 44019: Will Revive GNEISS. Strategy is to heal him then sweep.
