@@ -61,3 +61,8 @@
 - Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
 - Landing Spot: Identified at (13, 13) (FLOOR tile adjacent to WATER).
 - Cinnabar Island Sign: Located at (7, 7).
+## Route 20
+- Entered from Cinnabar Island at (19, 16) -> (0, 16).
+- Water route leading east to Seafoam Islands.
+- Observed: Southern boundary at Y=17 is WALL.
+- Goal: Surf east to find Seafoam Islands.
