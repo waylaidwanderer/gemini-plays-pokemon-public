@@ -32,10 +32,15 @@
 - Espeon (Lv73): Defeated (Turn 43777).
 - Snorlax (Lv75): Active. Awake. Sp.Def +6 (Maxed).
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia. (Haunter immune to Normal).
-- XENON (Haunter): Active. HP 111/111. Dream Eater PP: 3/15. Hypnosis PP: 15/20.
-- GNEISS (Graveler): Benched. HP 84/152. PARALYZED.
-- Strategy: Heal GNEISS with Full Restore, then switch to him. Use physical moves (Rollout) against Snorlax's lower physical Defense. GNEISS resists Normal moves.
-- Battle Progress: Snorlax maxed Sp.Def. XENON walled by Sp.Def. Prepping GNEISS.
+- Party Movesets:
+  - KIMCHI: FLASH, PETAL DANCE, CUT, SLEEP POWDER
+  - XENON: HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER
+  - Calcifer: FLAMETHROWER, RETURN, SMOKESCREEN, THUNDERPUNCH
+  - GORP: SURF, REST, BODY SLAM, ROLLOUT
+  - GNEISS: EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT
+  - LAPIS: WATERFALL, SURF, HYPNOSIS, WHIRLPOOL
+- Strategy: Switch to GNEISS (Graveler) to use physical moves (Rollout) against Snorlax's lower physical Defense. GNEISS resists Normal moves.
+- Battle Progress: Snorlax maxed Sp.Def. GNEISS healed to full (Turn 43930). Ready to switch.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
