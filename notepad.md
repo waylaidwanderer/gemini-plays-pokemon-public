@@ -6,7 +6,7 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  - **Status:** Active Roamer Shuffle Loop.
+  - **Status:** Roamers on 38/44. Shuffling.
   - **Resources:** 3 Super Repels left. ¥244.
   - **Strategy:** Move between maps to reset Roamer positions. Check Pokegear on Route 37.
 
