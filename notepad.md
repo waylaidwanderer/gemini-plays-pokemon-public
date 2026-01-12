@@ -1,6 +1,6 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Global Tile Mechanics
+## Tile Mechanics
 - FLOOR: Standard traversable tile.
 - FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
 - WALL: Impassable collision.
@@ -16,6 +16,7 @@
 - FLOOR_LEFT_WALL / FLOOR_RIGHT_WALL / FLOOR_UP_WALL: Collision that blocks movement in specified direction.
 - OBJECTS (NPCs/Items): Impassable. Interaction possible from adjacent tiles.
 - PC / BOOKSHELF: Impassable. Interaction possible from adjacent tiles.
+- OVERWORLD NAVIGATION: (10, 6) is a FLOOR tile. (Verified Turn 42415)
 
 ## Battle and Pokemon Information
 ### Party Movesets
