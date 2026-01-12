@@ -30,29 +30,26 @@
 
 # Major Achievements
 - Johto League Champion: Confirmed.
-- Kanto Badges: 8/8.
+- Kanto Badges: 16/16.
 - Red Defeated: Turn 44045.
 
 # Post-Game Goals
 - Explore remaining unseen tiles in Mt. Silver.
-- Capture remaining Legendaries (Suicune, Legendary Birds, etc.).
+- Capture remaining Legendaries (Suicune, Raikou, Entei, Lugia, Ho-Oh).
 - Complete the Pokedex.
 
 # Task: Mt. Silver 100% Completion
 - Start Turn: 44058
-- Current Progress: 95.3%
 - Objective: Explore all reachable unseen tiles in Silver Cave Room 1.
+- Current Target: (0, 35)
 
 # Lessons Learned
 - Precise menu navigation is critical during high-stakes battles. Always verify cursor position before confirming.
 - Don't over-rely on a single strategy (like Rollout). Be prepared to pivot to other team members if the primary plan fails.
 - Regular notepad cleanup prevents bloat and ensures strategic information is easily accessible.
 
-# Exploration Log
-- Turn 44060: Starting search for remaining unseen tiles in Silver Cave Room 1. Current Progress: 95.3%.
-
 # Legendary Hunt Strategy
-- General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON) or False Swipe (if learned). Use Ultra Balls or Heavy Balls.
+- General Strategy: Lead with a fast Pokemon (Calcifer or XENON). Use Hypnosis (XENON/LAPIS) or Sleep Powder (KIMCHI) to inflict Sleep. Reduce HP with fixed-damage moves like Night Shade (XENON). Use Ultra Balls or Heavy Balls.
 - Suicune: Tracks unknown.
 - Raikou/Entei: Roaming Johto. Use Pokegear Map to track.
 - Lugia: Whirl Islands (Requires Silver Wing).
