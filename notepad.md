@@ -43,7 +43,7 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Toss BERRY to free space.
-2. Collect Protein at (15, 29).
+2. Collect Protein at (15, 29) by going around the far right corridor (X=19).
 3. Head to (1, 35) then (0, 34) to access the left corridor (X=0) to reach the upper level.
 4. Collect item at (7, 18).
 
