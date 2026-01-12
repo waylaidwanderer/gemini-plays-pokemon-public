@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37.
-- **Action:** Restocking Repels in Ecruteak.
+- **Action:** Buying 3 Super Repels (Funds: 1894). Mart at (29, 21).
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34648). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
