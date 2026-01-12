@@ -9,8 +9,8 @@
   - **Status:** Shuffling (Gate Method).
   - **Resources:** 2 Super Repels left. ¥244.
   - **Strategy:**
-    1. Wade's call ended (Turn 36258).
-    2. Resuming Gate Shuffle Loop using tool (handles menu closure automatically).
+    1. Observed Roamers on Route 38 & 44 (Turn 36259).
+    2. Executing Gate Shuffle (Enter/Exit Ecruteak Gate).
     3. Check Map.
     4. Repeat until Roamer is on Route 42.
 
