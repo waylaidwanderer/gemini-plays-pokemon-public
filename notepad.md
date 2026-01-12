@@ -23,10 +23,9 @@
 - **Menu Hygiene:** Visual confirmation is required before entering complex sequences.
 - **Economics:** Super Repels > Max Repels.
 - **Fly Mechanics:** 'Select' button toggles map regions in Gen 2. Indigo Plateau is the connection point.
-- Fly Debugging (Turn 35679):
-  - State Conflict: Screenshot shows Party Menu, but Screen Text says "Fly Map: Viridian City".
-  - Analysis: Screen Text updated from Cinnabar to Viridian after inputs, so Map Logic is active. Screenshot is likely stale/glitched.
-  - Current Location: Viridian City (Map Cursor).
-  - Navigation Plan: Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
-  - Action: Up -> Right -> Down.
-  - Goal: Land cursor on Saffron City. Verify via Text next turn.
+- Fly Debugging (Turn 35680):
+  - Current Location: Viridian City (Confirmed by Text).
+  - Goal: Saffron City.
+  - Planned Route: Viridian -> Up (Pewter) -> Right (Cerulean) -> Down (Saffron).
+  - Action: Up -> Wait -> Right -> Wait -> Down.
+  - Next Turn: Check Screen Text. If "Saffron City", press 'A'.
