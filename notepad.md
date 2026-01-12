@@ -29,7 +29,7 @@
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
-- Super Repel active: Turn 44233. ~24 steps remaining.
+- Super Repel active: Turn 44233. ~14 steps remaining.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
 
 # Legendary Hunt Strategy
