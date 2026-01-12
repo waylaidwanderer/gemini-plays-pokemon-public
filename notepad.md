@@ -13,7 +13,7 @@
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35384 - Repel applied. Hunting Roamer in Route 38 grass.
+- **Status:** Turn 35390 - Repel 1 expired (No encounter). Re-applying Repel to continue hunt.
 - **Note:** Deleted `perform_roamer_shuffle` (unreliable). Using `open_pokegear_map` and manual steps.
 
 # Lessons Learned
