@@ -5,11 +5,12 @@
     3. Defeat Gym Leader Blaine to earn the Volcano Badge.
     4. Collect remaining Kanto badges.
     5. Return to Viridian City to challenge Blue for the Earth Badge once all other badges are obtained.
+    6. **Party Optimization:** Swap Snorlax into the party at the next available PC (replace ICARUS or LAPIS) as per strategist advice.
 
 # Strategy for Route 19/20 Navigation
 - Goal: Reach Seafoam Islands.
 - Started Turn: 42861 (Entered Route 20).
-- Current Turn: 42919.
+- Current Turn: 42920.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
