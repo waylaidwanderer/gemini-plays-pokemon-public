@@ -71,5 +71,5 @@
 ## Nickname Speech House (Map 23_5)
 - Pokefan M: (2, 4).
 - Lass: (5, 4).
-- Growlithe: (6, 3) - Actually Rattey the Rattata.
+- Rattey (Rattata): (6, 3).
 - Speary (Spearow): (5, 2).
