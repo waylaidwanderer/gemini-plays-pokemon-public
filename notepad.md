@@ -53,3 +53,4 @@
 - Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
 - Task Started: Turn 43296. Current Turn: 43333. Failed attempts: ~10 (mostly Pokedex/Trainer Card mis-navigation). Goal: Toss BERRY.
+- Row 21 Ledge: (14, 21) to (17, 21) are LEDGE_HOP_DOWN (impassable from South).
