@@ -23,3 +23,15 @@
 - Checked Goldenrod 2F Left Clerk (Medicine): No Repels.
 - Goldenrod Dept Store does NOT sell Super Repels.
 - Plan: Go to Celadon Dept Store via Magnet Train to restock.
+
+# Reflection (Turn 35615)
+- **Immediate Execution:** No deferred tasks.
+- **Notepad Hygiene:** Good. Added timestamp for restocking.
+- **Map Hygiene:** Markers accurate.
+- **Automation:** `pathfind` tool failed at (8,0) (WALL). Needs review when not in menu.
+- **Goal Clarity:** Clear. Restock Repels -> Hunt Roamers.
+- **Error Analysis:** Corrected Goldenrod assumption (no Super Repels). Currently verifying Celadon inventory.
+- **Root Hypothesis:** Assuming Celadon 2F has Super Repels based on standard Gen 2 lists. Testing now.
+
+# Task Log
+- **Turn 35615:** Checking Celadon 2F Left Clerk inventory. Visible: Potions. Scrolling down.
