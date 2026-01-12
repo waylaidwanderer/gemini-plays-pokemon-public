@@ -10,7 +10,7 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** On Route 37. Opening Map to check Roamers.
+- **Status:** Roamers not on Route 37. Executing shuffle.
 - **Action:** Executing manual map check sequence.
 - **Goal:** Find Roamer on Route 37.
 - **Strategy:**
