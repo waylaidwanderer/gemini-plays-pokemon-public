@@ -3,12 +3,12 @@
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves: Psychic (7/16), Swift (4/32), Mud-Slap (1/16), Reflect (2/32).
 - Snorlax (Lv75): Active. Asleep (Turn 43834 via Rest).
-  - Moves: Body Slam (4/24), Rest (6/10).
-- XENON (Haunter): Active. HP 111/111. Immune to Normal (Body Slam, Snore).
+  - Moves: Body Slam, Snore, Rest, Amnesia. (Immune to Normal).
+- XENON (Haunter): Active. HP 111/111. Immune to Normal.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
-- GORP (Snorlax): Benched. HP 141/221. Accuracy reset.
+- GORP (Snorlax): Benched. HP 141/221.
 - Inventory: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 2 Elixers.
-- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacking moves. Use Elixer when Dream Eater hits 0 PP.
+- Strategy: Use Dream Eater while Snorlax is asleep. XENON is immune to Snorlax's attacks. Use Elixer for PP.
 
 # Post-Snorlax Team Strategy
 - Blastoise: Use KIMCHI (Gloom) with Giga Drain/Petal Dance.
