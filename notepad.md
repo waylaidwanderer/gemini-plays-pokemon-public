@@ -5,7 +5,7 @@
 
 # Current Status
 - **Location:** Route 37.
-- **Action:** Resuming Reset to Gate (Pass 54).
+- **Action:** Restocking Repels in Ecruteak.
 - **Strategy:** Shuffle -> Sweep. Check Pokegear every 5 passes (Last: Pass 52/Turn 34648). Next: Pass 57.
 - **Loop:** Sweep -> Shuffle -> Sweep.
 
