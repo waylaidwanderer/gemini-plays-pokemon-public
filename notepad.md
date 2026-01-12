@@ -19,8 +19,8 @@
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): Defeated (Turn 43777). 
   - Moves Used: Psychic (7), Swift (4), Mud-Slap (1), Reflect (2).
-- Snorlax (Lv75): Active. Used Body Slam (4+). Immune to Normal moves from Haunter.
+- Snorlax (Lv75): Active. Used Body Slam (4+), Rest (1 - Turn 43793). Asleep (Turn 43793).
 - XENON (Haunter): Active. HP 111/111. Using Night Shade.
 - GNEISS (Graveler): Benched. HP 24/152. Paralyzed.
 - GORP (Snorlax): Benched. HP 141/221.
-- Strategy: Chip Snorlax with Night Shade. Haunter is immune to Snorlax's current known attacks.
+- Strategy: Chip Snorlax with Night Shade while it's asleep. Night Shade deals 44 fixed damage. Monitor for wake up and non-Normal moves.
