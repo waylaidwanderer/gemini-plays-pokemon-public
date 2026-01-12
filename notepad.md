@@ -81,3 +81,8 @@
 - Pier structure from Y=14 to Y=15, X=4 to X=7. LADDER tiles.
 - Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
 - Strategy: Move East to X=8 to exit pier into water via SURF.
+## Route 21 Exploration Plan
+- Current: Talk to Swimmer Girl at (11, 16).
+- Step 1: Move to (11, 15).
+- Step 2: Face Down and interact.
+- Next: Continue south toward Cinnabar Island.
