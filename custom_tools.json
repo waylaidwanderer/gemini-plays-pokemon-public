@@ -220,5 +220,29 @@
         "action_counter": 36283
       }
     ]
+  },
+  "open_pack": {
+    "description": "Reliably opens the Pack from the Start menu by forcing the cursor to the top before navigating to the 'PACK' option. Includes 'B' presses to close existing menus.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true, buttons will be pressed automatically."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
+    },
+    "python_script": "import json\nbuttons = [\n    \"B\", \"B\", \"Start\", \"sleep 500\",\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \n    \"Down\", \"Down\", \n    \"A\"\n]\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Created a reliable tool to open the Pack by resetting the Start menu cursor.",
+        "timestamp": "2026-01-12T23:46:10.184Z",
+        "action_counter": 36428
+      }
+    ]
   }
 }
