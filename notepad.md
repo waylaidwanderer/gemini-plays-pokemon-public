@@ -13,7 +13,7 @@
     - **Exeggutor:** Use Calcifer with Flamethrower (4x weak).
     - **Arcanine:** Use GNEISS with Earthquake or Calcifer with Return.
 - **Team Order:** Lead with Calcifer (Lv63).
-- **Quest Start:** Turn 43073 (Gatehouse entry).
+- **Quest Start:** Turn 43083.
 
 # Tile Mechanics (Global Reference)
 - **FLOOR:** Reachable. Standard walkable tile.
@@ -26,12 +26,13 @@
 - **LEDGE_HOP_DOWN/LEFT/RIGHT:** One-way movement. Reachable.
 - **LADDER:** Warp. Reachable.
 - **STAIRCASE:** Warp. Reachable.
+- **FLOOR_UP_WALL:** Impassable from North. Reachable from South/East/West.
 
 # Area Records (Kanto)
 ## Route 22 (23_2)
-- Ledge hop at (25, 13) blocks row 12 path; return to row 12 via gap at (33, 13).
-- Main path to Viridian City: Row 12 West to x=10, then South to row 17, then East to x=39.
-- Viridian City entry: East edge (x=39).
+- Exit to Viridian: Row 9 at x=39 or Row 17 at x=39.
+- Plateau Gap: (33, 13) is FLOOR (allows climbing from row 14 to row 12).
+- Path from East Plateau to Viridian: (33, 14) -> (33, 13) -> (33, 12) -> (37, 12) -> (37, 9) -> (39, 9).
 
 ## Victory Road Gatehouse (23_13)
 - Officer (8, 11): Guarding North path. Requires Johto badges. (Interaction: face Left from (9, 11)).
