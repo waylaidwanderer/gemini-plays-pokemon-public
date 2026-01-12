@@ -16,11 +16,12 @@
 - **Reason:** Fly map navigation to Johto failed.
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
-# Route 3 Navigation Plan
-- **Current Pos:** (49, 11).
-- **Goal:** Reach Mt. Moon Entrance at (52, 1).
+# Mt Moon Navigation Plan
+- **Current Pos:** (3, 3).
+- **Goal:** Reach Route 4 Exit at (25, 5).
 - **Route:**
-  1. Go East to x=47 to bypass walls at (48-49, 13). (Completed)
-  2. Go North/East to reach the gap at (49, 11). (Completed)
-  3. Go North on Column 49, detour East around Fisher at (49, 5) to reach Row 2.
-  4. Go East to x=52 and enter Mt. Moon.
+  1. Go West to x=0, then North to (0, 0).
+     - *Note:* Requires traversing (2, 4) which is `FLOOR_UP_WALL`.
+  2. Go East along Row 0 to x=29.
+  3. Go South along Column 29 to Row 6.
+  4. Go West to x=25, then North to Exit at (25, 5).
