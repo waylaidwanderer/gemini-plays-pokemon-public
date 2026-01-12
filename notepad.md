@@ -42,16 +42,14 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 
 # Goldenrod Restock Plan (Started: Turn 44278)
-1. Travel to Goldenrod City (Pivoted to biking from New Bark Town on Turn 44319).
+1. Travel to Goldenrod City (Biking from New Bark Town).
 2. Navigate to Goldenrod Dept. Store (North of PC).
 3. Buy a full stack of Super Repels.
-4. Fly back to Ecruteak City (or bike back if Fly remains unreliable).
+4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
-# Fly Strategy (FAILED)
-- Target: Goldenrod City (West of New Bark).
-- Status: Fly map navigation failed repeatedly (15 attempts, Turn 44260-44310). Cursor stayed on New Bark Town.
-- Pivot: Biking to Goldenrod.
+# Fly Strategy (Paused)
+- Note: Fly map navigation failed 15 times (Turn 44260-44310). Pivot to biking.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
@@ -60,4 +58,3 @@
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
-- Fly map scrolling: Node-based grid movement. Failed to move cursor West from New Bark Town. Verify destination name on screen before pressing A.
