@@ -12,10 +12,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Opening Party Menu to Fly.
-- **Status:** In Start Menu.
-- **Plan:** Open Party -> Select Mistral -> Fly to Goldenrod.
-- **Reason:** Goldenrod is easier to reach on Fly Map (vertical drop from Ecruteak) than Olivine. Need to sell items and buy Repels.
+- **Action:** Opening Fly Map via Robust Menu Nav.
+- **Plan:** Open Party -> Force cursor to bottom (Down x6) -> Move to Slot 4 (Up x3) -> Select Fly.
+- **Reason:** Previous menu state was inconsistent (cursor started on Mistral). Forcing bottom-up navigation ensures correct selection of Mistral (Slot 4).
+- **Next:** Navigate Fly Map to Goldenrod (from Cherrygrove).
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
