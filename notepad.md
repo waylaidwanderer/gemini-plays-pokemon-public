@@ -9,10 +9,10 @@
 
 # Seafoam Gym (Cinnabar Gym)
 - Started Turn: 42949.
-- Entrance/Exit: Warp at (5, 5).
+- Entrance/Exit: Warp at (5, 5) (FLOOR tile).
 - Gym Leader Blaine: (5, 2).
 - Strategy: Lead GNEISS (Graveler Lv54). Use Earthquake. Backup: Calcifer.
-- Observed Team: (To be updated)
+- Observed Team: Magcargo (Lv45) [Defeated], Magmar (Lv45) [Active].
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
@@ -26,7 +26,6 @@
 - SIGN/WINDOW/TV: Impassable background objects.
 - STAIRCASE: Warp.
 - FLOOR_UP_WALL: Impassable from North.
-- WARP_CARPET_DOWN: Entrance/Exit warp tile.
 
 # Area Records (Kanto)
 ## Viridian City
