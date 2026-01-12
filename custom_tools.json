@@ -140,7 +140,7 @@
       "type": "object",
       "properties": {}
     },
-    "python_script": "print('[\"Down\", \"sleep 5000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"sleep 200\", \"Right\", \"sleep 200\", \"A\"]')",
+    "python_script": "print('[\"Down\", \"sleep 5000\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -161,6 +161,11 @@
         "commit_message": "Increased sleep to 5000ms for map transition stability. Added cursor reset (Left -> Right) inside Pokegear to ensure MAP is selected regardless of previous position.",
         "timestamp": "2026-01-12T19:38:35.804Z",
         "action_counter": 36162
+      },
+      {
+        "commit_message": "Removed the Left-Right wiggle and reverted to a simple Right press, assuming the Pokegear menu resets to 'Back' upon entry. Kept the 5000ms sleep for map transition safety.",
+        "timestamp": "2026-01-12T19:39:26.671Z",
+        "action_counter": 36163
       }
     ]
   },
