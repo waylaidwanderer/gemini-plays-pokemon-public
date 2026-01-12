@@ -20,4 +20,6 @@
 - **Roamer Mechanics:** Fly randomizes.
 - **Mart Stock:** Ecruteak has no Repels. Goldenrod 2F has them.
 - Checked Goldenrod 2F Right Clerk (Balls/Repels): Only sells standard Repel.
-- Checking Left Clerk (Medicine) next. If fail, considering Celadon Dept Store via Magnet Train.
+- Checked Goldenrod 2F Left Clerk (Medicine): No Repels.
+- Goldenrod Dept Store does NOT sell Super Repels.
+- Plan: Go to Celadon Dept Store via Magnet Train to restock.
