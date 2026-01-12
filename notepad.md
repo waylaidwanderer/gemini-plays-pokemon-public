@@ -69,6 +69,7 @@
         - Venomoth (Lv 39): Defeated with Flamethrower.
         - Ariados (Lv 33): Defeated with Flamethrower.
     - Soul Badge and TM06 (Toxic) obtained. (Turn 42346)
+- Fuchsia Gym Cleared: All trainers defeated/interacted with. (Turn 42368)
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
