@@ -22,7 +22,7 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Current Status:** Pass 22. Strict shuffling enforced.
+- **Current Status:** Pass 24. Shuffling to Ecruteak.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
