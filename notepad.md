@@ -14,7 +14,8 @@
 - LADDER: Pier/Land tile on Route 21. Traversable on foot; acts as land for SURF initiation.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP/STAIRS: Map transitions.
-- LEDGE: One-way jump (usually North to South) or impassable barrier (e.g., Route 21 pier edge). Need to verify jumpable property.
+- LEDGE: One-way jump (usually North to South) or impassable barrier (e.g., Route 21 pier edge).
+- FLOOR_UP_WALL: Floor tile with a wall on the North side. Impassable from the North. Verified at (13, 36).
 - CUT_TREE: Impassable until CUT is used (KIMCHI).
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
