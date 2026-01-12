@@ -66,5 +66,5 @@
 - Target: Goldenrod City.
 - Strategy: From New Bark Town, press Left 4 times. Verify destination name.
 - Attempt 1-9: Failed due to menu errors and overworld movement.
-- Attempt 10 (Turn 44301): Menu open, cursor on POKEDEX. Strategy: Down to POKEMON, A to select.
-- Attempt Count (Fly): 10. Strategy Revision: One menu step at a time. Verify POKEMON is selected before A.
+- Attempt 11 (Turn 44302): Party menu open, cursor on ICARUS. Strategy: A to select ICARUS, A to select FLY.
+- Attempt Count (Fly): 11. Strategy Revision: Careful execution of FLY selection. Verify map screen next turn.
