@@ -7,10 +7,11 @@
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   1. Go North to Ecruteak. (Done)
-  2. Return to Route 37. (Current)
-  3. Check Map. (Next)
-  4. If on Route 37: HUNT.
-  5. If not: Repeat Shuffle.
+  2. Return to Route 37. (Interrupted by Wade's Call)
+  3. Clear Phone Call. (Current)
+  4. Check Map. (Next)
+  5. If on Route 37: HUNT.
+  6. If not: Repeat Shuffle.
 
 # Session Stats
 - **Start:** Turn 34090.
