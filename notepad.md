@@ -24,5 +24,5 @@
   1. Exit Pokegear. (Done)
   2. Go North to Ecruteak. (Done)
   3. Return to Route 37. (Done)
-  4. Open Map Card. (Current - Resuming after Call)
+  4. Open Map Card. (Current)
   5. Check Locations.
