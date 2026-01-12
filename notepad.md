@@ -10,10 +10,10 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Testing Fly Map (Down).
-- **Status:** Cursor stuck at Ecruteak?
-- **Hypothesis:** Testing if 'Down' moves to Goldenrod. If failed, inputs are ignored.
-- **Plan:** If Down works, nav to Olivine. If fails, exit and walk/reopen.
+- **Action:** Navigating Fly Map (Goldenrod -> Olivine).
+- **Status:** At Goldenrod City (Confirmed).
+- **Plan:** Press Up (to Ecruteak) -> Wait -> Press Left (to Olivine).
+- **Hypothesis:** Previous 'Left' failures at Ecruteak were due to timing/input dropping. Retrying with delays.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
