@@ -6,9 +6,9 @@
 - **Status:** HUNTING (Route 38).
 - **Location:** Tall Grass at (26, 7).
 - **Lead:** Gyarados (Lv36).
-- **Action:** Reapplying Repel (Calculated 1 remaining). If failed, switching to Lugia.
+- **Action:** Attempting to use last Repel.
 - **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36405.
+- **Hunt Session:** Started ~Turn 36369. Current: 36406.
 - **Resources:** 0 Super Repel, 1 Repel (calculated). ¥244.
 
 # Reflection & Strategy Notes (Turn 36288)
