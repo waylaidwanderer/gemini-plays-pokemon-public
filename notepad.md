@@ -44,7 +44,7 @@
 
 # Navigation Plan: Silver Cave Room 1
 1. Toss BERRY to free space. (Turn 43333).
-2. Head west to (0, 21) to find a path north.
+2. Head west to (0, 21) and explore (0, 20) to find a path north. (Step up barrier at row 20 requires bypass).
 3. Collect items at (7, 18) and (15, 29) once space is freed.
 
 # Inventory Management
