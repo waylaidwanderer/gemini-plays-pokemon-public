@@ -19,4 +19,6 @@
 - Turn 44027: Successfully Revived GNEISS.
 - Turn 44029: Sent in Calcifer.
 - Turn 44032: Used MAX POTION on GNEISS. He is now at 155/155 HP.
-- Turn 44034: Charizard missed Fire Spin. Switching to GNEISS.
+- Turn 44034: Charizard missed Fire Spin.
+- Turn 44035: Opened PKMN menu, selected GNEISS, selected SWITCH.
+- Turn 44036: Confirming switch to GNEISS. Strategy: Rollout sweep.
