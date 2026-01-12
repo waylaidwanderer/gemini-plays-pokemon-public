@@ -19,6 +19,7 @@
 - CUT_TREE: Impassable until CUT is used (e.g., via KIMCHI).
 - Diglett's Cave Ledges: FLOOR_UP_WALL at (15, 34) is NOT jumpable from North.
 - COUNTER: Blocks movement; allows interaction with NPCs behind it. Verified in Trainer House 1F.
+- BOOKSHELF: Verified wall-like collision.
 
 ## Inventory & Economy
 - Item Pocket Limit: 20 unique items.
@@ -26,12 +27,23 @@
 
 # Area Records (Kanto)
 ## Viridian City
-- Entrance from Route 2 (South): (19, 0).
+- Entrance from Route 2 (South): (19, 0). Exploration started Turn 42551.
 - Gramps (Object 1): Wandering near (18, 7). Expert catcher, loves espresso.
 - Welcome Sign: (19, 1).
-- Building (21, 9): Nickname Speech House. Exploration complete.
+- Nickname Speech House (21, 9): Exploration complete (Turn 42597).
+    - Radio: Verified interaction at (7, 1).
+    - TV: Verified interaction at (2, 1).
+    - Town Map: Verified interaction at (3, 0).
+    - Speary (Spearow): (5, 2) (MOLTRES_SPRITE).
 - Cut Tree (14, 4): Blocks a path to the west.
-- Trainer House (23, 15): Battles available downstairs.
+- Trainer House (23, 15): Entered 1F Turn 42605.
+    - Receptionist (1F): (0, 11). Confirmed battles downstairs (Turn 42611).
+    - Cooltrainer M (1F): (7, 11).
+    - Youngster (1F): (6, 8).
+    - Gentleman (1F): (2, 4). Resting from battles (Turn 42618).
+    - Cooltrainer F (1F): (6, 2).
+    - Illegible Book (1F): (7, 10).
+    - Receptionist (B1F): (7, 1).
 
 ## Route 2 (South)
 - Picked up Elixir at (14, 50).
@@ -55,28 +67,3 @@
 
 ## PC Storage (Box 1)
 - GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
-
-# Lesson Log & Progress
-- [Turn 42551] Started Viridian City Exploration (Sunday, Jan 11, 2026, 8:15 PM).
-- [Turn 42574] Verified Speary at (5, 2) is a Spearow (MOLTRES_SPRITE).
-- [Turn 42597] Nickname Speech House: Exploration complete.
-- [Turn 42605] Entered Trainer House 1F.
-- [Turn 42611] Receptionist confirms trainer battles available downstairs.
-
-## Tile Mechanics (Verification)
-- BOOKSHELF: Verified wall-like collision.
-- RADIO: Verified interaction at (7, 1) in Nickname Speech House.
-- TV: Verified interaction at (2, 1) in Nickname Speech House.
-- TOWN_MAP: Verified interaction at (3, 0) in Nickname Speech House.
-
-## Trainer House 1F (Map 23_6)
-- Receptionist: (0, 11).
-- Cooltrainer M: (7, 11).
-- Youngster (Object 4): Wanders near (6, 8).
-- Gentleman (Object 5): (2, 4).
-- Cooltrainer F (Object 3): (6, 2).
-- Illegible Book (BG Object): (7, 10).
-
-## Trainer House B1F (Map 23_7)
-- Entrance/Exit: Ladder at (9, 4) leads to Trainer House 1F (8, 2).
-- Receptionist: (7, 1).
