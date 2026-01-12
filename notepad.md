@@ -11,35 +11,26 @@
 - WATERFALL: Requires WATERFALL HM to climb.
 
 # Game Mechanics & Systems
-- Day/Night Cycle: Affects Pokemon appearances and some NPC events.
+- Day/Night Cycle: Pokemon and NPCs vary by time.
 - Happiness: Affected by items and battle outcomes.
-- PC Storage: Bill's PC used to store Pokemon and items.
-
-# Battle and Pokemon Information
-- Type Effectiveness:
-  - Ghost immune to Normal and Fighting.
-  - Normal immune to Ghost.
-  - Psychic super effective against Poison and Fighting.
-  - Water super effective against Fire, Ground, Rock.
-  - Fire super effective against Grass, Bug, Ice, Steel.
-- Nicknaming: Always nickname caught Pokemon with unique, single-word names.
-- Lessons Learned:
-  - Night Shade (Ghost) has no effect on Normal-type Pokemon (like Snorlax).
+- PC Storage: Use Bill's PC for storage.
+- Ghost-types: Immune to Normal and Fighting moves in Crystal.
+- Normal-types: Immune to Ghost moves.
 
 # Red Battle Log
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73): Defeated (Turn 43777).
-- Snorlax (Lv75): Active. Awake (Turn 43941). Sp.Def +6 (Maxed).
-  - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia.
-- GNEISS (Graveler): Benched. HP 110/152. PARALYZED.
-- Strategy: Use XENON to sleep Snorlax with Hypnosis. Then heal GNEISS and switch him back in for physical Rollout sweep.
-- Battle Progress: Snorlax maxed Sp.Def (+6). GNEISS was paralyzed by Body Slam (Turn 43941). Switching to XENON for safety.
+- Snorlax (Lv75): Active. Awake. Sp.Def +6 (Maxed).
+  - Moves: Body Slam, Snore, Rest, Amnesia.
+- GNEISS (Graveler): Active (switching out). HP 110/152. PARALYZED.
+- XENON (Haunter): Benched (switching in). HP 111/111.
+- Strategy: Switch to XENON to safely sleep Snorlax with Hypnosis. Once asleep, use Full Restore on GNEISS and switch him back in for a Rollout sweep (doubled by Defense Curl). GNEISS resists Snorlax's Normal moves.
 
 # Inventory During Battle
-- Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
+- Items: 3 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
 
 # Post-Snorlax Team Strategy
-- Blastoise: Use KIMCHI (Gloom) with Giga Drain (TM19) or Petal Dance.
+- Blastoise: Use KIMCHI (Gloom) with Giga Drain or Petal Dance.
 - Venusaur: Revive Calcifer (Typhlosion) or use GORP (Snorlax).
 - Charizard: Use GNEISS (Graveler) or GORP (Snorlax).
 - Lapras: Use KIMCHI or GORP.
