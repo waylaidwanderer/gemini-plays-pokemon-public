@@ -119,43 +119,6 @@
       }
     ]
   },
-  "zigzag_sweep": {
-    "description": "Generates and executes a zigzag button sequence to sweep a rectangular area. Useful for hunting in grass patches.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "cols": {
-          "type": "integer",
-          "description": "Number of columns (width) of the area."
-        },
-        "rows": {
-          "type": "integer",
-          "description": "Number of rows (height) of the area."
-        },
-        "start_side": {
-          "type": "string",
-          "enum": [
-            "left",
-            "right"
-          ],
-          "default": "left",
-          "description": "The side you are starting on. 'left' means Top-Left, 'right' means Top-Right."
-        }
-      },
-      "required": [
-        "cols",
-        "rows"
-      ]
-    },
-    "python_script": "import json\n\nbuttons = []\ncols = int(input_data['cols'])\nrows = int(input_data['rows'])\nstart_side = input_data.get('start_side', 'left')\n\nfor r in range(rows):\n    if start_side == 'left':\n        # Even rows (0, 2): Right\n        # Odd rows (1, 3): Left\n        direction = 'Right' if r % 2 == 0 else 'Left'\n    else:\n        # Even rows (0, 2): Left\n        # Odd rows (1, 3): Right\n        direction = 'Left' if r % 2 == 0 else 'Right'\n        \n    for _ in range(cols - 1):\n        buttons.append(direction)\n        \n    if r < rows - 1:\n        buttons.append('Down')\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T19:32:17.062Z",
-        "action_counter": 34231
-      }
-    ]
-  },
   "open_map": {
     "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used) and the Pokegear starts at the default 'BACK' position.",
     "input_schema": {
