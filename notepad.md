@@ -84,3 +84,8 @@
 - Ledge blockage: Cannot move Down from pier at (7, 15) into water at (7, 16).
 - Strategy: Move East to X=8 to exit pier into water via SURF.
 - Fisher Arnold (Object 3) at (14, 22). Roster: Tentacruel (Lv 34). [Defeated]
+## Cinnabar Island
+- Entered from Route 21 at (13, 35) -> (3, 0).
+- Blue (Object 1) located at (9, 6).
+- Observed: Wall at X=4 separates water channel from land.
+- Goal: Find a landing spot to reach the island's interior.
