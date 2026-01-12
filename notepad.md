@@ -6,13 +6,12 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  - **Status:** Map Opened (Verifying Roamers).
+  - **Status:** Hunting in Grass (Repel Active).
   - **Loop:**
     1. Enter Route 37.
-    2. Open Map (Manual).
-    3. Verify Roamers (Look for heads on Route 37).
-    4. If Roamer here -> Hunt.
-    5. If not -> Close Map -> Shuffle.
+    2. Walk in Grass (checking for encounter).
+    3. If no encounter -> Return to Ecruteak.
+    4. Repeat.
 
 # Tile Mechanics
 - **Ledge Hop:** One-way jump over ledges.
