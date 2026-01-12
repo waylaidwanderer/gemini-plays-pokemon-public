@@ -73,3 +73,10 @@
 # Route 20 Discoveries
 - Seafoam Islands Entrance: Located at (38, 7).
 - Cinnabar Gym Sign: Located at (37, 11).
+
+# SeafoamGym (Cinnabar Gym)
+- Entrance/Exit: Warp at (5, 5).
+- Gym Leader Blaine: Located at (5, 2).
+- Tile Mechanics:
+    - WARP_CARPET_DOWN: Entrance/Exit warp tile.
+    - FLOOR_UP_WALL: Impassable from the North. Verified at (2, 6).
