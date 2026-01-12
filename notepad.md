@@ -18,6 +18,6 @@
 - Start Turn: 43692 (Mon Jan 12 08:54 AM PST).
 - Pikachu (Lv81): Defeated.
 - Espeon (Lv73): Stalling Psychic PP.
-- Psychic Used: 6/16 (verified). Reflect faded. GORP fainted.
-- Strategy: Send in Calcifer, use Revive on GORP.
+- Psychic Used: 7/16 (verified from history). Reflect faded. GORP fainted.
+- Strategy: Switch to Calcifer (Lv64), then use Revive on GORP.
 - Items: 4 Full Restores, 11 Max Potions, 19 Revives remaining.
