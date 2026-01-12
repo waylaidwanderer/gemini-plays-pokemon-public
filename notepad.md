@@ -31,6 +31,7 @@
 - Rival Silver (Mt. Moon): Defeated.
 - Biker Charles (6, 80): Defeated.
 - Bird Keeper Bob (13, 6): Defeated.
+- Janine (Fuchsia Gym): Defeated. (Turn 42346)
 
 ## Evolution Methods
 - Poliwag -> Poliwhirl -> Poliwrath (Water Stone) or Politoed (Trade with King's Rock).
@@ -43,7 +44,7 @@
 
 ## Fuchsia City Investigation (Started Turn 42186)
 - Objective: Find Pokemon Center and Gym.
-- Soul Badge: Fuchsia City Gym (Leader Janine).
+- Soul Badge: Obtained. (Turn 42346)
 - NPC Lore:
     - Youngster (Object 1, Overworld): Elite Four member used to be the Gym Leader.
     - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
@@ -52,22 +53,21 @@
 - Fuchsia Gym: (8, 27). Inside (Turn 42253). Leader Janine.
 - Gym Dimension: 10x18.
 - Fuchsia Gym NPCs:
-    - Janine (1, 10): The real Leader.
-    - Janine Look-alike (4, 2): Camper Barry (Defeated).
+    - Janine (1, 10): Leader. Defeated. (Turn 42346)
+    - Janine Look-alike (4, 2): Camper Barry. Defeated. (Turn 42318)
+    - Janine Look-alike (5, 11): Lass Linda. Defeated. (Turn 42269)
+    - Janine Look-alike (5, 7): Targeting now.
     - Janine Look-alike (9, 4)
-    - Janine Look-alike (5, 7)
     - Janine Look-alike (9, 14)
     - Janine Look-alike (1, 14)
 - Fuchsia Gym Invisible Walls:
     - The gym layout is a maze of invisible walls.
-    - Navigation to Janine: Turn 42253 to 42328 (75 turns). Reached Janine at Turn 42328.
-    - Current Battle: Leader Janine (Turn 42331).
-    - Battle Progress:
+    - Navigation to Janine: Turn 42253 to 42328 (75 turns).
+    - Janine Battle Log:
         - Crobat (Lv 36): Defeated with Thunderpunch.
-        - Weezing (Lv 36) #1: Defeated with Flamethrower.
-        - Weezing (Lv 36) #2: Defeated with Flamethrower.
+        - Weezing (Lv 36) x2: Defeated with Flamethrower.
         - Venomoth (Lv 39): Defeated with Flamethrower.
-        - Ariados (Lv 33): Current. Strategy: Flamethrower. (Turn 42345)
+        - Ariados (Lv 33): Defeated with Flamethrower.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
@@ -78,9 +78,4 @@
 - Menu Navigation: Use single `press_buttons` to verify menu state.
 - Route 17 Physics: Downhill mechanic requires constant Northward inputs.
 - Fuchsia Navigation: Row 22 wall blocks North movement except at X=0, 1. (4, 31) is a wall.
-## Janine Battle Log (Turn 42334)
-- Janine sent out Crobat (Lv 36).
-- Calcifer is Lv 62. Strategy: Thunderpunch for super-effective damage.
-- Janine sent out Weezing (Lv 36). Strategy: Flamethrower. (Turn 42336)
-- Janine sent out Weezing (Lv 36) #2. Strategy: Flamethrower. (Turn 42340)
-- Janine sent out Venomoth (Lv 39). Strategy: Flamethrower. (Turn 42342)
+- Notepad Edits: Use exact matches for `old_text` or use `overwrite` for major changes. (Turn 42348)
