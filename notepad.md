@@ -18,8 +18,9 @@
 - Grind team to Lv 75+ (currently Lv 12-64).
 - Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone. Current: Moon Stone - useless. No stones in inventory).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu.
-- Strategy: Use GORP (Snorlax) to tank Special attacks. (Note: Verified TM30 Shadow Ball is MISSING from inventory).
+- Strategy: Use GORP (Snorlax) as a special tank. (Note: Verified TM30 Shadow Ball is MISSING from inventory).
 - Search/Acquisition: Locate Sun Stone/Leaf Stone for KIMCHI and TM30 for GORP.
 
 # Red Battle Log
-- Espeon (Lv73): GORP revived (Turn #43686). Reflect active (Turn #43687). Strategy: Stay in with Calcifer and use Flamethrower (Special) to bypass Reflect.
+- Pikachu (Lv81): Defeated by GNEISS.
+- Espeon (Lv73): Reflect active. Calcifer at 90/204 HP after Psychic (Turn #43692). Strategy: Pivot to GORP or heal.
