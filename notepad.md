@@ -52,7 +52,7 @@
 - Fly Usage: Must be outdoors to use Fly.
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 is for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
-- Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, GEM, SAVE, OPTION, EXIT. Up from GEM is POKEGEAR.
+- Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Fly map scrolling can be sensitive; verify destination before pressing A. (Lake of Rage misclick Turn 44263)
 
 # Goldenrod Restock Plan (Started: Turn 44278)
