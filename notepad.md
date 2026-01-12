@@ -69,7 +69,6 @@
 # Strategy: Pallet Town Exploration
 - Observed: Entry from Route 1 at (8, 0).
 - Observed: Pallet Town Sign at (7, 9) reads "PALLET TOWN A Tranquil Setting of Peace & Purity."
-- Plan: Visit Professor Oak's Lab (12, 11).
 - Plan: Surf south from Pallet Town to Route 21.
 - Daisy (Blue's House): Mentioned Blue is the Viridian Gym Leader but is often away.
 - Fisher (Object 2): Wanders southern Pallet Town.
