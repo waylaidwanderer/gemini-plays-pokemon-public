@@ -6,7 +6,7 @@
   - Lead: Gyarados (Lv 36).
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
-  - **Status:** Checking Map on Route 37.
+  - **Status:** Roamers on 38 & 44. Shuffling.
   - **Loop:**
     1. Enter Route 37.
     2. Walk in Grass (checking for encounter).
