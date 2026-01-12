@@ -4,15 +4,14 @@
     2. Requirement for Blue: All other 7 Kanto badges obtained (Boulder, Cascade, Thunder, Rainbow, Soul, Marsh, Volcano). Verified: 15 badges total.
     3. Party Optimization: Swap GORP (Snorlax Lv50) and GNEISS (Graveler Lv54) into the party. Replaced LAPIS (Lv12) and AAAAAAAAAA (Lv13).
     4. After 16 badges: Unlock Mt. Silver and challenge Red.
-
-# Seafoam Gym (Cinnabar Gym)
-- Started Turn: 42949. Completed Turn: 42978.
-- Gym Leader Blaine: (5, 2) [Defeated].
-- Roster: Magcargo (Lv45), Magmar (Lv45) (Sunny Day), Rapidash (Lv50) (Fire Blast).
+- **Viridian Gym Strategy:**
+    - Team Order: Lead with Calcifer (Lv63 Typhlosion) for quick KOs. GORP (Lv50 Snorlax) for Special tanks. GNEISS (Lv54 Graveler) for Pidgeot/Arcanine.
+    - Priority: Challenge Blue at Viridian Gym for the Earth Badge.
 
 # Tile Mechanics (Verified)
 - FLOOR: Traversable. Standard walkable tile.
 - WALL: Impassable.
+- CAVE: Warp/Entry point. Traversable.
 - WATER: Traversable with SURF. Wild encounters possible.
 - LEDGE_HOP_DOWN: One-way North to South.
 - LADDER: Traversable. Acts as land for SURF/FLY.
@@ -25,6 +24,10 @@
 - WARP_CARPET_DOWN: Entrance/Exit warp tile.
 
 # Area Records (Kanto)
+## Victory Road
+- Exit: (9, 67) to Route 23 Gate.
+- Entry (from Indigo): (13, 5).
+
 ## Viridian City
 - Gramps: Expert catcher.
 - Trainer House (23, 15): Daily battles.
@@ -64,7 +67,6 @@
 - Counter Pidgeot/Arcanine: Use GNEISS (Graveler). Beware Rhydon's Earthquake.
 - Evolution: Evolve KIMCHI (Gloom) using Leaf Stone (Vileplume) or Sun Stone (Bellossom).
 - Training: Level up XENON (Haunter) to Lv50+.
-- Prep: Buy Full Restores at Indigo Plateau.
 
 # Indigo Plateau
 - Located at the end of Route 23.
@@ -77,9 +79,3 @@
     - Full Restore: ¥3000
     - Revive: ¥1500
     - Full Heal: ¥600
-- Task: Stocking up on supplies. Completed Turn: 43045.
-
-# Progress Log
-- Turn 42978: Defeated Blaine (Volcano Badge).
-- Turn 42992: Arrived at Indigo Plateau via Fly.
-- Turn 43022: Interacting with the Mart Clerk to buy supplies.

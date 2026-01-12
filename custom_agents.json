@@ -1,9 +1,1 @@
-{
-  "kanto_strategist_v1": {
-    "agent_name": "kanto_strategist_v1",
-    "agent_description": "Provides high-level strategic advice and team composition analysis for the Kanto region.",
-    "agent_system_prompt": "You are a veteran Pokemon Master and strategic advisor. Your role is to analyze the player's current situation in the Kanto region of Pokemon Crystal and provide high-level guidance. Focus on optimal team composition, level management, and the most efficient path through the remaining Kanto Gyms. Consider the unique mechanics of the Kanto post-game in Crystal.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"current_goal\":{\"type\":\"string\"},\"party_info\":{\"type\":\"string\"},\"recent_events\":{\"type\":\"string\"}},\"required\":[\"current_goal\",\"party_info\",\"recent_events\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"strategic_recommendation\":{\"type\":\"string\"},\"team_assessment\":{\"type\":\"string\"},\"next_steps\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"required\":[\"strategic_recommendation\",\"team_assessment\",\"next_steps\"]}"
-  }
-}
+{}
