@@ -56,7 +56,7 @@
     - Janine (1, 10): Leader. Defeated. (Turn 42346)
     - Janine Look-alike (4, 2): Camper Barry. Defeated. (Turn 42318)
     - Janine Look-alike (5, 11): Lass Linda. Defeated. (Turn 42269)
-    - Janine Look-alike (5, 7): Targeting now.
+    - Janine Look-alike (5, 7): Talked to. Non-battling decoy. (Turn 42352)
     - Janine Look-alike (9, 4)
     - Janine Look-alike (9, 14)
     - Janine Look-alike (1, 14)
