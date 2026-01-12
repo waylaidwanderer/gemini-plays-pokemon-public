@@ -5,9 +5,8 @@
     3. Head south to Route 23 Gatehouse. (Done)
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
     5. Travel West through Route 28 to reach Mt. Silver. (Done)
-    6. Explore Silver Cave Outside and find cave entrance. (Done)
-    7. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
-    8. Face Red at the peak of Mt. Silver.
+    6. Enter Mt. Silver and begin ascent/grinding. (Start Turn: 43268)
+    7. Face Red at the peak of Mt. Silver.
 
 # Progress Tracking
 - Badges: 16/16 (All Johto and Kanto badges obtained).
