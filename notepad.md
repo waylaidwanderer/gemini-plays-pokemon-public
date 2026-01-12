@@ -17,9 +17,9 @@
 - **Next Steps:** Traverse Mt. Moon -> Cerulean -> Saffron.
 
 # Route 5 Transit
-- **Current Pos:** (8, 17) [Route 5 South].
+- **Current Pos:** (4, 1) [Gatehouse].
 - **Goal:** Reach Saffron City Gate.
-- **Status:** Standing on gate warp.
+- **Status:** Inside Gatehouse.
 - **Route:**
-  1. Press Down to enter Gatehouse.
-  2. Continue South to Saffron City.
+  1. Go South to (4, 7).
+  2. Exit South to Saffron City.
