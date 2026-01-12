@@ -17,6 +17,6 @@
 # Goldenrod City Transit
 - **Current Pos:** (9, 10) [Magnet Train Station].
 - **Goal:** Exit Station.
+- **Status:** Walking to exit.
 - **Route:**
-  1. Clear text.
-  2. Walk South to Exit at (9, 17).
+  1. Walk South to Exit at (9, 17).
