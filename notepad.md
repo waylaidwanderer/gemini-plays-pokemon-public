@@ -1,6 +1,6 @@
 # Gem's Pokémon Crystal Knowledge Base
 
-## Tile Mechanics
+## Global Tile Mechanics
 - FLOOR: Standard traversable tile.
 - FLOOR (Route 17): Downhill coasting mechanic. (Verified Turn 42121)
 - WALL: Impassable collision.
@@ -17,6 +17,14 @@
 - OBJECTS (NPCs/Items): Impassable. Interaction possible from adjacent tiles.
 - PC / BOOKSHELF: Impassable. Interaction possible from adjacent tiles.
 - OVERWORLD NAVIGATION: (10, 6) is a FLOOR tile. (Verified Turn 42415)
+
+## Fly Map Navigation (Kanto)
+- Indigo Plateau: Starting point.
+- Down from Indigo -> Fuchsia City. (Turn 42411)
+- Down from Fuchsia -> Saffron City. (Turn 42426)
+- Observation: Pewter City is NOT on the Fly list (I never entered the PC there).
+- Strategy: Use Diglett's Cave (Route 11 to Route 2) to reach Western Kanto.
+- Goal: Fly to Vermilion City.
 
 ## Battle and Pokemon Information
 ### Party Movesets
