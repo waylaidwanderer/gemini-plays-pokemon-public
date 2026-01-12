@@ -41,9 +41,9 @@
 - Current State: Overworld, Route 23.
 - Action: Open Start Menu and verify cursor position.
 - Next: Navigate to Pokemon -> Mistral -> Fly -> Ecruteak.
-- Fly Debugging (Turn 35665):
-  - Visual Evidence (Intermediate States): Cursor moved to Cinnabar Island (Kanto) after 'Select'.
-  - Text Evidence (Current Screen): Says "Indigo Plateau". Conflict exists, but Visuals usually reflect state after last button press.
-  - Conclusion: Currently viewing Kanto Map (Cinnabar). Need to switch to Johto Map.
-  - Action: Press SELECT (Toggle to Johto) -> Wait -> Left x2.
-  - Goal: Switch map to Johto and move cursor towards Ecruteak.
+- Fly Debugging (Turn 35666):
+  - Current State: Map open on Cinnabar Island (Kanto).
+  - Hypothesis: 'Select' failed to toggle map in previous turns.
+  - Action: Hard Reset Map -> Toggle Region -> Probe.
+  - Sequence: B (Close) -> A (Open, reset to Indigo) -> Select (Toggle Johto) -> Wait -> Left (Move cursor).
+  - Goal: Identify if map toggles to Johto and where the cursor lands (e.g., Blackthorn vs New Bark).
