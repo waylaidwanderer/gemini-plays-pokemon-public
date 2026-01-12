@@ -1,7 +1,7 @@
 # Strategic Plan: Mt. Silver & Red
 - **Strategy (The HOW):**
     1. Fly to Indigo Plateau. (Done)
-    2. Heal party at Poke Center (KIMCHI is fainted). (Done)
+    2. Heal party at Poke Center. (Done)
     3. Head south to Route 23 Gatehouse. (Done)
     4. Pass the guard at (8, 11) in the Gatehouse to access the West exit. (Done)
     5. Travel West through Route 28 to reach Mt. Silver. (Done)
@@ -34,8 +34,7 @@
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
-- Victory Road (3_91): Exit (9,67), Entry (13,5).
-- Route 28 (19_1): Transition to Silver Cave Outside at (0, 13).
+- Route 28 (19_1): Transition to Silver Cave Outside at (0, 13). Sign at (31, 5).
 - Silver Cave Outside (19_2): Transition to Route 28 at (39, 31).
 
 # PC Box 1 (9/20)
@@ -45,9 +44,10 @@
 - **Urgent:** Heal KIMCHI and the party.
 - **Grinding:** Aim for Level 75+ for the entire team to match Red.
 - **Team Composition:** Consider replacing low-level ICARUS (19) and XENON (44) with stronger counters for Blastoise and Snorlax.
-- **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
+- **Tactics:** GNEISS is key for Pikachu/Charizard. Equip status-curing berries.
 
 # Navigation Plan: Silver Cave Outside
 1. Explore the area to find the Poke Center. (Start Turn: 43232)
 2. Locate the entrance to Mt. Silver.
 3. Check for any hidden items or NPCs.
+4. Note: Western path at y=24 blocked by water at x=17 (Requires Surf).
