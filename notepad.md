@@ -10,8 +10,8 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Status:** Shuffle complete. Back on Route 37.
-- **Action:** Opening Map to check Roamer positions.
+- **Status:** Pokegear Open. Cursor on Map.
+- **Action:** Opening Map View.
 - **Goal:** Find Roamer on Route 37.
 - **Strategy:**
   1. Check Map.
