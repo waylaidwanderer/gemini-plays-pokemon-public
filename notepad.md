@@ -33,7 +33,7 @@
   - Moves: Body Slam, Snore, Rest (7/10 PP), Amnesia.
 - GNEISS (Graveler): Active. HP 152/152.
   - Strategy: Use Defense Curl then Rollout. GNEISS resists Snorlax's Normal moves.
-- Battle Progress: Snorlax is walled by GNEISS while asleep. Switching from XENON completed Turn 43936.
+- Battle Progress: Snorlax is walled by GNEISS while asleep. Switching from XENON completed Turn 43936. Currently Turn 43940.
 
 # Inventory During Battle
 - Items: 4 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals, 0 Elixers.
