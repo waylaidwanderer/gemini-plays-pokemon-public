@@ -27,8 +27,8 @@
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
 - LEDGE_HOP: One-way movement Down/Left/Right.
-- FLOOR_UP_WALL: Impassable when moving South (Down) onto it from a North (Up) tile.
-- WALL_UP_FLOOR: Impassable when moving North (Up) onto it from a South (Down) tile.
+- FLOOR_UP_WALL: Impassable when moving South (Down) onto it from a North (Up) tile. (Acts as a step up from the South).
+- WALL_UP_FLOOR: Impassable when moving North (Up) onto it from a South (Down) tile. (Acts as a step up from the North).
 
 # Area Records (Kanto)
 - Victory Road Gatehouse (23_13): Officer (8,11), East Exit (17,7) to Route 22. West Exit to Route 28 (Mt. Silver).
@@ -55,3 +55,4 @@
 - Stacks (e.g., Potion x5) occupy one slot.
 - Tossing a portion of a stack does NOT free a slot.
 - To free a slot, the entire stack must be tossed or used.
+- Task History: Turn 43296 - Started inventory management. Turn 43325 - Failed due to menu cursor on CANCEL. Goal: Toss BERRY.
