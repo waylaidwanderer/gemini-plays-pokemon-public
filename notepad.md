@@ -101,4 +101,5 @@
 - Vermilion -> Cerulean
 - Cerulean -> Pewter
 - Pewter -> Indigo Plateau
-- Indigo Plateau -> ? (Next: Pallet/Viridian?)
+- Indigo Plateau -> Saffron (Loop)
+- (Note: Pallet and Viridian not yet in the 'Down' cycle)
