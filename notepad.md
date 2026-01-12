@@ -53,7 +53,7 @@
 - NPC Lore:
     - Youngster (Object 1, Overworld): Elite Four member used to be the Gym Leader.
     - Pokefan F (Bill's Older Sister, 11, 27): Grandpa is at Bill's place.
-    - Lass Linda (5, 11): Janine look-alike. Currently battling.
+    - Lass Linda (5, 11): Janine look-alike. Team: Bulbasaur (Lv 30). Currently battling.
 
 ## Strategy for Remaining Kanto Journey
 - Goals: Fuchsia (Soul), Cinnabar/Seafoam (Volcano), Viridian (Earth).
