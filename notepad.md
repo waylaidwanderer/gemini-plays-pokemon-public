@@ -30,4 +30,5 @@
 - **Action:** Opening Pokegear Map again.
 - Turns 35184-35200: Repeatedly checked Map. Roamers persistently on Route 38 & 42. Shuffled multiple times.
 - Tool Note: 'perform_roamer_shuffle' failed because the harness aborts remaining inputs upon map change. Must shuffle manually or in single-map steps.
-- Turns 35205-35217: Checked Map. Roamers stuck on Route 38, 42. Continuing manual shuffle (Route 37 <-> Ecruteak).
+- Strategy: Roamers observed on Routes 38/42. Shuffling between Route 37 and Ecruteak to reset locations.
+- Tool Note: 'perform_roamer_shuffle' failed because the harness aborts remaining inputs upon map change. Must shuffle manually or in single-map steps.
