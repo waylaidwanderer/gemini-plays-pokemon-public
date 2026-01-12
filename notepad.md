@@ -48,6 +48,6 @@
 - **Tactics:** GNEISS is key for Pikachu/Charizard. Equip Calcifer with status-curing berries.
 
 # Navigation Plan: Silver Cave Outside
-1. Explore the area to find the Poke Center.
+1. Explore the area to find the Poke Center. (Start Turn: 43232)
 2. Locate the entrance to Mt. Silver.
 3. Check for any hidden items or NPCs.
