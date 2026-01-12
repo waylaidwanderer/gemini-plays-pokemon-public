@@ -3,20 +3,20 @@
 - **Date:** Turn 33314
 - **MVP:** Muscle (Machoke) Lv88.
 
-# Reflection (Turn 35459)
-- **Roamer Mechanics:** Simple border hopping (Route 37 <-> Ecruteak) failed to randomize Roamers on distant routes (38/42). Fly is the next hypothesis to force randomization.
-- **Hygiene:** Menu navigation must be step-by-step. Long macros fail.
-- **Exploration:** Unseen areas on Route 38 (South) noted but skipped for now to prioritize restocking Repels.
-- **Inventory:** Critical low on Repels. Must sell items at Ecruteak Mart.
+# Reflection (Turn 35512)
+- **Hygiene:** Fly Map navigation requires visual confirmation or strict timing (sleeps). "Macro" inputs fail due to menu fade-ins.
+- **Goal:** Confirmed Ecruteak Mart lacks Repels. Pivot to Goldenrod Dept Store is necessary.
+- **Status:** Turn 35512 - On Fly Map (Violet City). Navigating to Goldenrod. Plan: Left (Ecruteak) -> Down (Goldenrod).
+- **Strategy:** Once at Goldenrod, buy Super Repels, then Fly to random location to check Roamers.
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
 - **Goal:** Encounter Raikou/Entei on Route 37.
 - **Strategy:** Hunt Roamers on Route 38 (Current loc: R38/R42).
 - **Party:** Gyarados (Lv36) w/ Repel.
-- **Status:** Turn 35511 - On Fly Map (Cherrygrove). Navigating to Goldenrod via Ecruteak path. Input `Up` (Violet), `Left` (Ecruteak).
+- **Status:** Turn 35512 - On Fly Map (Violet City). Navigating to Goldenrod. Plan: Left (Ecruteak) -> Down (Goldenrod).
 
 # Lessons Learned
-- **Static Roamers:** Border hopping (Route 37 <-> Ecruteak) failed to move Roamers from Routes 38/42 for >100 turns.
-- **RNG Reset:** Entering a building (Pokemon Center) did not immediately move them either.
-- **Solution:** Using Fly to randomize positions is the next logical step when soft methods fail.
+- **Menu Navigation:** Fly Map inputs must be paced (e.g., `sleep 500`). Fast inputs are ignored during transitions.
+- **Static Roamers:** Border hopping failed. Randomization via Fly is the current hypothesis.
+- **Mart Stock:** Ecruteak Mart does NOT sell Repels. Stock varies by city.
