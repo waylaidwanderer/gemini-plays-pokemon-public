@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Navigating Fly Map (Cherrygrove -> Violet).
-- **Status:** Cursor at Cherrygrove City (Confirmed).
-- **Observation:** 'Up' from New Bark went to Cherrygrove. 'Left' failed previously.
-- **Plan:** Pressing 'Left' to reach Violet City.
-- **Hypothesis:** Map connections are specific. Exploring links one by one.
+- **Action:** Navigating Fly Map (Cherrygrove -> ?).
+- **Status:** Cursor at Cherrygrove. 'Left' failed (Turn 34894).
+- **Plan:** Testing 'Up'.
+- **Hypothesis:** Vertical inputs function; Horizontal might be broken or map logic is different.
+- **Goal:** Reach Violet -> Ecruteak -> Olivine.
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
