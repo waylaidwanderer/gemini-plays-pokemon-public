@@ -53,6 +53,9 @@
 - LAPIS (Poliwag Lv12): WATERFALL, SURF, HYPNOSIS, WHIRLPOOL.
 - KIMCHI (Gloom Lv49): FLASH, PETAL DANCE, CUT, SLEEP POWDER.
 
-# Lesson Log & Progress
+## PC Storage (Box 1) (9/20)
+- GORP (Snorlax Lv50), AAAAAAAAAA (Spinarak Lv13), GLAIVE (Scyther Lv14), SELKIE (Seel Lv24), DELTA (Mantine Lv20), RANGOON (Krabby Lv22), NOMURA (Tentacool Lv17), Ravioli (Krabby Lv10), Ouroboros (Dratini Lv15).
+
+# Progress Log
 - [Turn 42651] Defeated Trainer CAL in Trainer House. Earned ¥5000. Calcifer Lv63.
 - Trainer House B1F: Daily battle completed.
