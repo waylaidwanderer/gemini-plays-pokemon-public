@@ -15,12 +15,9 @@
 - Snorlax (Lv75): Defeated (Turn 43968).
 - Venusaur (Lv77): Defeated (Turn 43969).
 - Blastoise (Lv77): Active.
-- Charizard (Lv77): Remaining.
 - GNEISS (Graveler) fainted to Surf (Turn 43973).
-
-# Strategy
-- Blastoise: Use KIMCHI (Gloom) with Petal Dance.
-- Charizard: Use GORP (Snorlax).
+- KIMCHI (Gloom): Active. Lv52. HP 137/137.
+- Strategy: Use Sleep Powder to neutralize Blastoise, then use Petal Dance. If KIMCHI falls, use GORP (Snorlax).
 
 # Inventory
 - Items: 2 Full Restores, 8 Max Potions, 18 Revives, 12 Full Heals.
