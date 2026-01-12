@@ -12,11 +12,11 @@
 
 # Roamer Hunt Log
 - **Session Start:** Turn 34090.
-- **Action:** Opening Fly Map (from Silver Cave).
-- **Status:** Unexpectedly landed at Silver Cave (Map 19_2).
-- **Goal:** Fly to Goldenrod City (or Blackthorn/Violet) to restock.
-- **Plan:** Open Map -> Verify cursor location -> Plan precise navigation next turn.
-- **Note:** Discarding previous assumptions about map connections. Will verify step-by-step.
+- **Action:** Selecting Mistral -> Fly -> Navigate 'Left'.
+- **Status:** In Party Menu (Cursor on CANCEL).
+- **Plan:** Move Up x3 to Mistral -> Select Fly -> Open Map -> Press Left.
+- **Goal:** Verify Fly Map starting location (Silver Cave) and movement direction.
+- **Target:** Goldenrod City (for Repels).
 - **Pattern:** Circle grass (16 steps) -> Shuffle Ecruteak -> Repeat.
 - **Lead:** Gyarados (Lv36) < Roamer (Lv40). Repel works.
 - **Sighting:** Route 38 & Route 42 (Verified Turn 34605).
