@@ -36,6 +36,6 @@
 - **Strategy Update:** Switching to "Physical Check" (Repel + Run in Route 37) instead of Map Check. Faster and reliable.
 - **Check:** Gyarados (Lv36) leads. Perfect for Repel trick (Wilds < Lv16 < Gyarados < Roamers Lv40).
 - **Status:** Super Repel already active (Turn 34741). Saved a usage.
-- **Action:** Looping Shuffle -> Sweep (Pass 2).
-- **Strategy:** Shuffle (Up/Down) -> Sweep Pattern -> Repeat.
+- **Action:** Returning to Route 37 (Shuffle Complete).
+- **Strategy:** Loop: Route 37 Grass -> Ecruteak Gate -> Repeat.
 - **Status:** Super Repel active. Gyarados lead.
