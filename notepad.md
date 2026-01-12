@@ -18,7 +18,7 @@
 - Start Turn: 43692
 - Pikachu (Lv81): Defeated by GNEISS.
 - Espeon (Lv73):
-  - Psychic Used: 6 (Verified).
+  - Psychic Used: 6 (Verified: Turns 43697, 43704, 43711, 43717, 43724, 43733).
   - Reflect: Faded (Turn 43712).
   - GORP (Snorlax): Fainted on Turn 43733.
 - Items Used: 6 Full Restores.
