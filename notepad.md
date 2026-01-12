@@ -1,7 +1,10 @@
 # Strategic Plan: Kanto Badges & Cinnabar Island
 - **Strategy (The HOW):**
-    1. Find and defeat Gym Leader Blaine (Note: Cinnabar was destroyed, check Seafoam Islands if necessary).
-    2. Return to Viridian City to challenge the final Gym Leader (Blue).
+    1. Explore Cinnabar Island ruins and talk to Blue (Object 1).
+    2. Surf East from Cinnabar Island via Route 20 to reach Seafoam Islands.
+    3. Find and defeat Gym Leader Blaine in his temporary cave gym in Seafoam Islands.
+    4. Collect remaining Kanto badges.
+    5. Return to Viridian City to challenge Blue once all other badges are obtained.
 
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable.
@@ -46,11 +49,6 @@
 ## PC Storage (Box 1) (Current) (9/20)
 - GORP (SNORLAX Lv50), AAAAAAAAAA (SPINARAK Lv13), GLAIVE (SCYTHER Lv14), SELKIE (SEEL Lv24), DELTA (MANTINE Lv20), RANGOON (KRABBY Lv22), NOMURA (TENTACOOL Lv17), Ravioli (KRABBY Lv10), Ouroboros (DRATINI Lv15).
 
-# General Lessons
-- Trainer House battles are limited to once per day.
-- Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
-- Check Mental Map for WALL tiles (tables/furniture) in house interiors before planning paths.
-
 # Trainer Encounters (Route 21)
 - Swimmer Nikki (Object 1) at (11, 16): Roster: Seel (Lv 28), Seel (Lv 28), Dewgong (Lv 28). [Defeated]
 - Fisher Arnold (Object 3) at (14, 22): Roster: Tentacruel (Lv 34). [Defeated]
@@ -59,7 +57,7 @@
 ## Cinnabar Island
 - Exploration Start Turn: 42804.
 - Entered from Route 21 at (13, 35) -> (3, 0).
-- Blue (Object 1): Location to be confirmed (suspected east side).
+- Blue (Object 1): Location to be confirmed (suspected east side near ruins).
 - Observed: Wall at X=4 separates water channel from land for Y=0 to Y=9.
 - Landing Spot: Identified at (4, 11) (FLOOR tile adjacent to WATER).
 - Cinnabar Island Sign: Located at (7, 7).
