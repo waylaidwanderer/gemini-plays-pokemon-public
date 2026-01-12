@@ -19,8 +19,8 @@
 - Evolve KIMCHI (Gloom) (Need Sun Stone or Leaf Stone. Current: Moon Stone - useless. No stones in inventory).
 - Lead GNEISS (Graveler) with Hard Stone vs Pikachu.
 - Strategy: Use GORP (Snorlax) as a special tank. (Note: Verified TM30 Shadow Ball is MISSING from inventory).
-- Search/Acquisition: Locate Sun Stone/Leaf Stone for KIMCHI and TM30 for GORP.
+- Search/Acquisition: Sun Stone (Bug-Catching Contest), Leaf Stone (Route 25 - Show Oddish to Bill's Grandfather). Need to catch ODDISH (Routes 5, 6, 24, 25 at night).
 
 # Red Battle Log
-- Pikachu (Lv81): Defeated by GNEISS.
-- Espeon (Lv73): Reflect active. Calcifer at 90/204 HP after Psychic (Turn #43692). Strategy: Pivot to GORP or heal.
+- Pikachu (Lv81): Defeated by GNEISS (Earthquake).
+- Espeon (Lv73): In progress. Reflect active. Switching to GORP (Turn #43693).
