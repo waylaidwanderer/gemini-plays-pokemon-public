@@ -80,3 +80,9 @@
 - Tile Mechanics:
     - WARP_CARPET_DOWN: Entrance/Exit warp tile.
     - FLOOR_UP_WALL: Impassable from the North. Verified at (2, 6).
+
+# Blaine's Team (Expected - Pokémon Crystal)
+- Magcargo (Lv45)
+- Magmar (Lv45)
+- Rapidash (Lv50)
+- Strategy: Use GNEISS (Graveler) with Earthquake/Rollout.
