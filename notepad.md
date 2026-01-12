@@ -39,4 +39,6 @@
 - **Action:** Starting Sweep Pass 3.
 - **Strategy:** Loop: Route 37 Grass -> Ecruteak Gate -> Repeat.
 - **Status:** Super Repel active. Gyarados lead.
-- **Action:** Executing 'sweep_route37' tool for efficient grass coverage (Pass 3).
+- **Action:** Shuffling (Route 37 <-> Ecruteak). Starting Pass 4.
+- **Strategy:** Loop: Shuffle -> Sweep -> Repeat.
+- **Status:** Super Repel active. Gyarados lead.
