@@ -40,7 +40,7 @@
 # Roamer Hunt Strategy
 - **Method:** Shuffle between Ecruteak City and Route 37.
 - **Execution:** Enter Route 37 -> Use 'sweep_route37' -> Return to Ecruteak -> Return to Route 37.
-- **Status:** Super Repel active. Gyarados lead.
+- **Status:** Repel expired. Re-applying next turn. Gyarados lead.
 - **Reflection (Turn 34784):**
     - **Execution:** No deferrals detected. Hunt loop is tight.
     - **Hygiene:** Notepad is clean. Map markers are accurate for navigation.
