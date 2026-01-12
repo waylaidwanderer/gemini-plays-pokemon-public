@@ -14,6 +14,7 @@
 - FLOOR: Walkable.
 - WALL: Impassable.
 - WATER: Requires Surf.
+- WATERFALL: Requires HM07 Waterfall. Use while surfing and facing the waterfall tile.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP: Map transitions.
 - FLOOR_UP_WALL: Blocks entry from the North (Verified Turn #43532). Hypothesis: Also blocks Northward exit.
