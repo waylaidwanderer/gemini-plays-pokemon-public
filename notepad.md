@@ -18,6 +18,9 @@
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
 - SIGN: Background object providing information; acts as a wall.
+- WINDOW: Impassable wall-like tile.
+- STAIRCASE: Warp to another floor.
+- TV: Interactable background object; acts as a wall.
 
 # Area Records (Kanto)
 ## Viridian City
@@ -58,6 +61,7 @@
 # General Lessons
 - Trainer House battles are limited to once per day.
 - Arena layouts may have inaccessible "spectator" or "opponent" areas that remain unseen.
+- Check Mental Map for WALL tiles (tables/furniture) in house interiors before planning paths.
 
 # Trainer Encounters (Route 1)
 - Schoolboy Danny (Object 1) at (7, 12): Roster: Jynx (Lv31), Electabuzz (Lv31), Magmar (Lv31).
