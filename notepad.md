@@ -10,11 +10,11 @@
 # Tile Mechanics (Global)
 - FLOOR: Standard walkable.
 - WALL: Impassable.
-- WATER: Requires SURF.
-- LADDER: Pier/Land tile on Route 21.
+- WATER: Requires SURF. Navigable while surfing.
+- LADDER: Pier/Land tile on Route 21. Traversable on foot; acts as land for SURF initiation.
 - TALL_GRASS: Wild encounters.
 - DOOR/WARP/STAIRS: Map transitions.
-- LEDGE: One-way jump or impassable barrier (e.g., Route 21 pier).
+- LEDGE: One-way jump or impassable barrier (e.g., Route 21 pier). Need to verify if jumpable.
 - CUT_TREE: Impassable until CUT is used (KIMCHI).
 - COUNTER: Blocks movement; allows NPC interaction. Verified in Trainer House 1F.
 - BOOKSHELF: Verified wall-like collision.
