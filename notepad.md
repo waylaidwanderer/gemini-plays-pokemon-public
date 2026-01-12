@@ -55,10 +55,14 @@
 - GORP (Snorlax Lv50), Selkie (Seel Lv24), Delta (Mantine Lv20), Ravioli (Krabby Lv10 - has Surf/Whirlpool), Ouroboros (Dratini Lv15).
 
 # Lesson Log & Progress
-- [Turn 42486] Bag Management: Item Pocket limit is 20. Tossed MysteryBerry to make room for Elixir.
-- [Turn 42518] NPC Interaction: Prof. Oak's Aide mentions Oak's Lab in Pallet Town.
-- [Turn 42541] Found Elixir on Route 2.
-- [Turn 42554] Gramps in Viridian City claims to be an expert catcher.
+- [Turn 42551] Started Viridian City Exploration.
+- [Turn 42571] Conversed with Pokefan M about nicknames.
+
+## Tile Mechanics (Verification)
+- BOOKSHELF: Verified wall-like collision in Nickname Speech House.
+- TV: To be verified.
+- RADIO: To be verified.
+- COUNTER: To be verified.
 ## Viridian Nickname Speech House (Map 23_5)
 - Entrance/Exit: (2, 7) and (3, 7) lead to Viridian City (21, 9).
 - Pokefan M: (2, 4).
