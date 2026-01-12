@@ -7,7 +7,7 @@
   - Item: Super Repel (active).
 - **Action:** Shuffle Roamers (Route 37 <-> Ecruteak).
   - **Constraint:** Tool Blindness (Cannot see Map). Using Repel Trick.
-  - **Status:** Repel Applied. Resuming Hunt.
+  - **Status:** Hunting in Grass (Route 37).
   - **Loop:**
     1. Enter Route 37.
     2. Walk in Grass (checking for encounter).
