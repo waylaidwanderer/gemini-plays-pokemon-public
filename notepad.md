@@ -22,6 +22,6 @@
   - Reflect: Faded (Turn 43712).
   - GORP (Snorlax): Fainted on Turn 43733.
 - Items Used: 6 Full Restores.
-- Inventory: 4 Full Restores, 11 Max Potions, 19 Revives.
-- Strategy: Revive GORP (Snorlax), then finish stalling Psychic PP.
-- Revival Attempt: Turn 43742 (Current).
+- Inventory (Verified Turn 43745): 4 Full Restores, 11 Max Potions, 19 Revives.
+- Strategy: Revive GORP (Snorlax), then stall remaining Psychics. Use Max Potions on GORP once revived.
+- Revival Attempt 2: Turn 43746.
