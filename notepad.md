@@ -24,4 +24,5 @@
 # Red Battle Log
 - Pikachu (Lv81): Defeated by GNEISS (Earthquake).
 - Espeon (Lv73): In progress. Reflect active (Turn #43693). GORP (Snorlax) is tanking.
-- Strategy: Use Body Slam for paralysis/damage. Heal with Max Potion/Full Restore if HP drops below ~100.
+- Strategy: Use Body Slam for paralysis/damage. Heal with Max Potion/Full Restore if HP drops below ~130 (Espeon's Psychic deals ~126 damage).
+- Turn 43699: HP is 108/221. Must heal.
