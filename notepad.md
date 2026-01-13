@@ -3,10 +3,11 @@
   1.  **Action:** Enter Gatehouse -> Exit Gatehouse -> Check Map.
   2.  **Hunt:** If Roamer is on Route 35, use Repel and run in grass.
   3.  **Repeat:** If not, repeat loop.
-- **Status:** Manual Shuffle (Cycle 76 - Exit).
-- **Action:** Exiting Gatehouse (Up x2).
-- **Next:** Open Map to Check Roamers.
-- **Hunt Session:** Started ~Turn 36369. Current: 36749.
+- **Status:** Checking Map (Cycle 76 Result).
+- **Observation:** Exited Gatehouse to (9, 33).
+- **Action:** Opening Map via `open_map`.
+- **Next:** If Roamer on 35 -> Hunt. Else -> Manual Shuffle (Enter Gatehouse).
+- **Hunt Session:** Started ~Turn 36369. Current: 36750.
 - **Hunt Session:** Started ~Turn 36369. Current: 36743.
 
 ## Tile Mechanics
