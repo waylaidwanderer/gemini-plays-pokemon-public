@@ -57,5 +57,6 @@
 - Use 'grass_pacer' on Route 37 to trigger encounters while Repel is active.
 - If Repel wears off, immediately re-apply from the Pack.
 - If a roamer is encountered, use the Master Ball (for Raikou) or Hypnosis (for Entei).
-- Check Pokegear Map every 5 shuffles to confirm roamer positions and adjust target route if necessary.
+- Roamers cannot be tracked on the Pokegear Map until the first encounter occurs.
+- After every 50-100 steps without an encounter, transition maps (Ecruteak Shuffle) to redistribute roamers.
 - Current Method: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
