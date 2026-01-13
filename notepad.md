@@ -20,7 +20,7 @@
 - **Session 3 Start**: Turn 44989.
 - **Progress Log**:
     - Transition 1: 0 encounters. Arnie's call cleared.
-    - Transition 2: In progress. Inside gatehouse moving to Route 31. Strategy: Move Right to (9, 5).
+    - Transition 2: In progress. Arrived on Route 31. Moving to grass. Strategy: Move to (6, 11).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
