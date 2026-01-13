@@ -72,8 +72,9 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44631: Super Repel re-application attempt.
-- Discovery: Main menu cursor reset to POKEDEX (0) after the "Repel wore off" text box was cleared with 'A'.
-- Strategy: Start (Open) -> Down, Down (to PACK) -> A (Select) -> Down x30 (to CANCEL) -> Up, Up (to Super Repel) -> A (Use) -> A (Select) -> A (ICARUS) -> B, B, B (Exit).
-- Current state: Overworld at (6, 2). No menus open.
-- Repel Status: 0 steps remaining.
+- Turn 44632: Breaking Super Repel re-application into chunks due to the 50-item (button + sleep) limit of 'menu_navigator_v2'.
+- Strategy:
+  - Chunk 1: Start -> Down, Down -> A (Open PACK) -> Down x15.
+  - Chunk 2: Down x15 (ensure bottom) -> Up, Up (Super Repel) -> A, A, A, B, B, B.
+- Current state: Overworld at (6, 2). No menus open. Cursor memory: POKEDEX (Index 0).
+- Repel Status: 0 steps remaining. Need to re-apply.
