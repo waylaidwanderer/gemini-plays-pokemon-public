@@ -47,3 +47,6 @@
 - Turn 46377: Fixed `find_path_v7_robust` bug (case-sensitivity and BUOY collision). Initiating manual movement to escape corner.
 - Turn 46379: Traced path to West Cianwood. X=9 wall gap at Y=33 is blocked from North by FLOOR_UP_WALL at Y=34. Gap at X=9 and X=5 wall is at Y=51. 
 - Plan: (11, 16) -> (11, 51) -> (2, 51) -> (2, 34) -> (2, 4) -> (7, 4).
+- Turn 46381: Traced land path around north-east water. Column 11 is blocked by water at Y=22. 
+- Path: (11, 21) -> (9, 21) -> (9, 29) -> (12, 29) -> (12, 44) -> (4, 44) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
+- Initiating first leg: navigate to (9, 29).
