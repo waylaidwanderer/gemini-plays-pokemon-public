@@ -17,8 +17,8 @@
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turn 44880-Present)**:
-    - Transitions 1-22: 0 encounters.
-    - Transition 23: Pacing in grass. (Repel active).
+    - Transitions 1-23: 0 encounters.
+    - Transition 24: In progress (Returning to Route 37).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
