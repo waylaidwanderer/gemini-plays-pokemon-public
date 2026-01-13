@@ -19,12 +19,11 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Resetting Roamer positions (Route 37 <-> Ecruteak).
+- **Status:** Scanning grass with Repel.
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Repel applied (1 remaining).
-  - NOTE: Split reset into 2 turns (Up... Wait / Down... Wait) to handle lag.
-  - Current Status: Returning to Route 37 manually.
+  - Repel active (~50 steps left).
+  - Position: Returning to (7,4) to resume scan.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
