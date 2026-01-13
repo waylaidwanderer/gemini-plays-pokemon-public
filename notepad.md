@@ -11,12 +11,12 @@
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
 - Completed Cycles: 90.
-- Current Turn: 45937.
 - Resources: Super Repel x57 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
-- Repel Log:
-  - Repel 6: Applied Turn 45919. (Used ~27 steps).
-- Strategy Note: Checking Pokedex for roamer locations after Cycle 90. Statistically, encounters occur within 50-100 cycles. Verified Turn 45937: Roamers not in Pokedex (unseen). Continuing shuffle.
+- Repel Tracking:
+  - Last Applied: Turn 45919.
+  - Estimated Steps Remaining: ~160.
+- Strategy Note: Checking Pokedex for roamer locations after every 10 cycles. Verified Turn 45937: Roamers unseen.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44) missed Mean Look (learned at Gastly Lv 13).
@@ -31,3 +31,4 @@
 - Roamers relocate on every map boundary cross.
 - Bookkeeping: Use turn history for cycle counts to avoid "time-slipping". Verified Turn 45874.
 - Phone calls can cancel menu actions; verify item usage. Verified Turn 45917.
+- Map transitions stop 'autopress_buttons' sequences. Call tools in Ecruteak for best results.
