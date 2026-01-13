@@ -72,6 +72,8 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44619: Arnie called about Abra. Correcting the previous mis-selection of PP UP.
+- Turn 44620: Arnie call finished. Resuming Super Repel application.
+- Strategy: Open Pack (robustly) -> Scroll to Super Repel -> Use.
 - Current state: Overworld at (7, 3).
-- Plan: Open Pack -> Scroll to bottom -> Use Super Repel -> Start Ecruteak Shuffle.
+- Step 1: Open Pack.
+- Step 2: Scroll to bottom and use Super Repel.
