@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Cursor remembers position.
 - **Roamer Hunt:** Fly to Ecruteak for better route connections.
-    - **Current Task:** At (29,6). Party Menu Open. Cursor on Garnet (Slot 4).
-    - **Action:** Down x2 -> Mistral -> Fly -> Ecruteak.
+    - **Current Task:** Exit Menu (on Door Mat). Move to (29,5). Fly (Cursor on Maelstrom -> Mistral).
+    - **Action:** Bx2 (Overworld) -> Down (Move) -> Start -> A (Party) -> Down (Mistral) -> A (Fly) -> Ecruteak.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
