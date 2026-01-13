@@ -16,14 +16,14 @@
   2. Pace 4 steps in grass at (7, 2).
   3. Transition back to Ecruteak.
   4. Repeat.
-- Current Status: Cycle 7. Pacing done. Transitioning to Ecruteak.
+- Current Status: Cycle 7 complete. Transitioning to Cycle 8.
 - Timestamp: Started Ecruteak-specific shuffle at Turn 45539.
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Completed Cycles: 6.
+- Completed Cycles: 7.
 - Repel Status: Active.
-- Current Status: Transitioning to Ecruteak.
+- Current Status: Starting Cycle 8. Transitioning to Route 37.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
