@@ -18,23 +18,22 @@
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
 - Plan:
     1. Release Beasts (Burned Tower) - DONE (Turn 46247).
-    2. Defeat Wise Trio (WiseTriosRoom 4_2) - IN PROGRESS.
+    2. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1) - IN PROGRESS.
     3. Battle Suicune (Tin Tower).
-- Status: Searching for Wise Trio. Sage at (5, 8) says Suicune is at the top. Heading to WiseTriosRoom (4_2).
+- Status: Searching for the remaining two Wise Trio members in map 4_1. Sage at (5, 8) in 4_1 says Suicune is at the top.
 
-# Strategy: Suicune Capture (Tactical Analysis)
+# Strategy: Suicune Capture
 - Lead: XENON (Haunter, Lv 44).
 - Moves: Hypnosis (Priority 1).
 - Damage: Night Shade x3 (Fixed 132 damage total). Safe for Lv 40 Suicune (~130-140 HP).
-- Tank: GORP (Snorlax, Lv 50). High Sp.Def for Surf/Aurora Beam.
-- Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore.
+- Tank: GORP (Snorlax, Lv 50).
+- Backup: KIMCHI (Gloom) for Sleep Powder/Stun Spore.
 - Items: Ultra Balls (32).
 
 # Observations: Wise Trio
-- Hypothesis: They appear in WiseTriosRoom (4_2) after the tower shakes.
-- Test: Re-enter 4_2 via ladder at (17, 3) in 4_1.
-- Note: Sage at (5, 8) in 4_1 talks about Suicune but doesn't battle.
-- Roadblock: Room 4_2 was empty on turn 46259. Re-checking now.
+- Sighting: Sage GAKU at (7, 10), Sage MASA at (6, 9), and Sage KOJI at (5, 8) in map 4_1.
+- Trigger: Talking to them after the Sage at (4, 6) lets you pass.
+- Current Task: Battle and defeat GAKU, MASA, and KOJI to prove worthiness.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
