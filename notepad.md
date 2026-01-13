@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Applied: Turn 45439 (200 steps). Current Turn: 45605. (~166 steps used).
+- Repel Applied: Turn 45439 (200 steps). Current Turn: 45606. (~170 steps used).
 - Completed Cycles: 13.
-- Current Status: Cycle 14 pacing.
+- Current Status: Cycle 14 pacing complete. Transitioning to Ecruteak.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
