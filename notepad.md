@@ -32,4 +32,6 @@
 
 # Fly to Ecruteak Status
 - Attempt started: Turn 45183.
-- Current Status: In Route 31 Gatehouse. Closing menus to reset state.
+- Current Status: In Route 31 Gatehouse.
+- Observation: Start menu cursor persists on the last selected category (e.g., POKEMON after using Fly).
+- Plan: Start, A (POKEMON), A (ICARUS), A (FLY), then navigate map.
