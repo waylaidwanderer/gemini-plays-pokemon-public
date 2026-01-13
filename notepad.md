@@ -70,3 +70,6 @@
 - **Action:** Exiting Pokegear and performing Violet Shuffle (Right -> Violet, Left -> Route 36).
 - **Reasoning:** UI interaction is sticky, but visual confirmation "No Roamers Here" is sufficient. Faster to shuffle than to debug UI.
 - **Action:** Pressing 'A' to open the full map view (Map Card is already selected).
+- **Action:** Filtering Pokedex for Fire Types to find Entei.
+- **Hypothesis:** Entei is "Seen" (from Burned Tower event) and will appear in the filtered list.
+- **Sequence:** Right (Select Fire) -> Down x3 (Select Begin Search) -> A.
