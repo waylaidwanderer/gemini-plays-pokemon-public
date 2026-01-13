@@ -17,7 +17,7 @@
   - Last Applied: Turn 45919.
   - Estimated Steps Remaining: ~128.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 100). Verified Turn 45937: Roamers unseen.
-- Current Status: Starting Cycle 93.
+- Current Status: Checking grass for Cycle 93.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44) missed Mean Look (learned at Gastly Lv 13).
