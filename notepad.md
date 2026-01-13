@@ -23,8 +23,9 @@
 
 # Session Tracking
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
-- Shuffles Completed: 2.
+- Shuffles Completed: 3.
 - Total Encounters: 0.
+- Repel Status: Super Repel Active (Used Turn 45288). 20/200 steps used.
 
 # Strategy Tools
 - roamer_strategist: Agent for hunt efficiency.
