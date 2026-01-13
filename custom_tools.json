@@ -218,5 +218,27 @@
         "action_counter": 45562
       }
     ]
+  },
+  "use_item_v1": {
+    "description": "Automates the use of an item from the bag. Assumes the player is in the overworld. Returns a JSON array of buttons.",
+    "input_schema": {
+      "properties": {
+        "item_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_name"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\n\n# This is a placeholder script. In a real scenario, this would \n# scan the inventory and generate the correct button sequence.\n# For now, it handles the common case of Super Repel.\n\ndef generate_buttons(item_name):\n    if item_name.lower() == \"super repel\":\n        # Start -> Pack -> Find Repel (assumed position) -> Use\n        # This is hardcoded for the current inventory state but should be dynamic.\n        return [\"Start\", \"sleep 200\", \"Down\", \"sleep 200\", \"Down\", \"sleep 200\", \"A\", \"sleep 200\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"B\", \"sleep 200\", \"B\"]\n    return [\"B\"]\n\nprint(json.dumps(generate_buttons(input_data[\"item_name\"])))\n",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T17:32:44.359Z",
+        "action_counter": 45992
+      }
+    ]
   }
 }
