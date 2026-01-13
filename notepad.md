@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37352):** Walked to (28, 4) instead of Flying. Menu likely failed to open or closed early. Retrying Fly sequence from scratch. Cursor assumed on POKEMON. Path: Start -> A -> Down x5 -> A -> A -> Left -> Up -> A.
+- **Roamer Check (Turn 37353):** In Party Menu (Garnet). 'Can't use that here' dialog open. Recovery: B (Close) -> B (Back) -> Down x2 (Mistral) -> A -> A (Fly) -> Left -> Up -> A.
