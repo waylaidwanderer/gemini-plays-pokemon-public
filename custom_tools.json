@@ -163,12 +163,17 @@
       "properties": {},
       "required": []
     },
-    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition\nbuttons.append(\"sleep 2500\")\n# Walk down 5 steps to return to grass\nfor _ in range(5):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition\nbuttons.append(\"sleep 5000\")\n# Walk down 5 steps to return to grass\nfor _ in range(5):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T20:34:11.588Z",
         "action_counter": 37801
+      },
+      {
+        "commit_message": "Increased sleep duration to 5000ms to ensure reliable map transition handling.",
+        "timestamp": "2026-01-13T20:38:31.188Z",
+        "action_counter": 37806
       }
     ]
   }
