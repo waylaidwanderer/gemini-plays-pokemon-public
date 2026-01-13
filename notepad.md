@@ -1,22 +1,16 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
-- **Current Plan:** Shuffle Roamers at Ecruteak/Rt 37 Border.
-- **Status:** On Route 37. Opening Map to check positions.
-- **Action:** Open Pokegear -> Check Map.
-- **Target:** Route 37.
+- **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
+- **Status:** Transitioning to Violet City to shuffle.
+- **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
-- **Session Start:** Turn 36369. Current: 36838.
+- **Session Start:** Turn 36369. Current: 36900.
 
-# Reflection (Turn 36756)
-- **Error Analysis:** Route 35 Gatehouse Shuffle failed to move Roamers for 15+ cycles.
-- **Lesson:** Gatehouse transitions likely do not count as map transitions for Roamers. Use Route boundaries or Fly.
-- **Tooling:** "cycle_roamer_hunt" tool failed due to positioning drift and warp mechanics. Manual 2-turn shuffle was safer but tedious.
-- **Correction:** Abandoned Route 35. Relocating to Ecruteak.
-
-# Tile Mechanics
-- **Warp Tiles:** Must step *off* and then *back on* to trigger. Standing on them does nothing.
-- **Ledge Hop:** One-way jump.
-- **Headbutt Tree:** Can be shaken for Pokemon.
+# Lessons Learned
+- **Roamer Movement:** Gatehouse transitions (e.g. Rt 35) do NOT shuffle roamers. Map-to-Map (Route to City) transitions DO shuffle.
+- **Pokedex Tracking:** Area Mode search is cumbersome and failed to list Entei despite 'Seen' status. Pokegear Map is superior.
+- **Tile Mechanics:** Warp Tiles require stepping OFF and ON. Headbutt Trees can be shaken.
+- **Menu Navigation:** Start Menu wraps. 'Gear' is best accessed by memory or visual check.
 
 # Hall of Fame
 - **Champion:** Turn 33314. MVP: Muscle (Machoke) Lv88.
@@ -35,117 +29,3 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
-- **Violet City** -> Left -> [Invalid]
-
-# Game Mechanics
-- **Fly Map:** Cursor remembers last destination. Always verify starting position.
-- **Observation (Turn 36816):** Roamers detected at approx (25, 25) [Route 42?] and (22, 27) [Route 31?]. None immediately on Route 37.
-- **Strategy:** Move to Route 37 boundary (South) to shuffle roamers efficiently.
-- **Action:** Entered Route 37. Opening Pokegear Map to check Roamer positions.
-- **Action:** Pressing 'A' to open full region map from Pokegear Map Card.
-- **Observation:** 'A' press in Turn 36830 didn't open the map. Retrying with a delay to ensure input registration.
-- **Action:** Pressing 'A' again to open full region map. Previous attempts failed.
-- **Action:** Pressing 'A' again (Retry 4). If this fails, will move to a different tile to reset menu state.
-- **Observation:** 'A' press failed multiple times to open full map.
-- **Action:** Closing menu and moving to (9, 2) to clear 'stuck on tile' warning and reset menu state.
-- **Fix:** Moving to (9, 2) to clear tile warning.
-- **Tool:** Defining `safe_open_map` to handle menu cursor memory reliably.
-- **Action:** Closing Start Menu (was left open) and moving to (9, 2).
-- **Next:** Test `safe_open_map` tool.
-- **Tool Failure:** `safe_open_map` failed because the Start Menu wraps, causing the 'reset to top' logic to select 'Exit' or 'Pokemon'.
-- **Recovery:** Currently in Party Menu with Fly selected. Executing Fly to Ecruteak to shuffle roamers.
-- **Action:** Select Fly -> Verify Destination (should be Ecruteak) -> Confirm.
-- **Navigation:** Executing Fly path: New Bark -> Left (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
-- **Navigation:** Retrying Fly path from Cherrygrove with longer delays: Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
-- **Navigation:** From Violet City: Down (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
-- **Observation:** Fly attempt failed (landed in Violet City). Suspect input timing or grid misalignment.
-- **Strategy Change:** Abandoning Fly for now. Walking to Ecruteak via Route 36 -> Route 37.
-- **Immediate Goal:** Navigate to Violet City West Exit (0, 8).
-- **Action:** Transitioned to Route 36.
-- **Strategy:** Opening menu to check Pokegear Map. If Roamers are present, hunt. If not, continue to Route 37/Ecruteak.
-- **Action:** Pressing 'A' twice to force Full Map view from Pokegear menu.
-- **Observation:** Full map failed to open with previous 'A, A' sequence. UI might be unresponsive or requiring single, distinct inputs.
-- **Action:** Pressing 'A' once with a long wait to confirm map opening.
-- **Observation:** Map is visible in background. No Roamers seen on current screen.
-- **Action:** Exiting Pokegear and performing Violet Shuffle (Right -> Violet, Left -> Route 36).
-- **Reasoning:** UI interaction is sticky, but visual confirmation "No Roamers Here" is sufficient. Faster to shuffle than to debug UI.
-- **Action:** Pressing 'A' to open the full map view (Map Card is already selected).
-- **Action:** Filtering Pokedex for Fire Types to find Entei.
-- **Hypothesis:** Entei is "Seen" (from Burned Tower event) and will appear in the filtered list.
-- **Sequence:** Right (Select Fire) -> Down x3 (Select Begin Search) -> A.
-- **Action:** Retrying Search Filter.
-- **Sequence:** Up x2 (Safety to top) -> Right (Select Fire) -> Down x2 (Select Begin Search) -> A.
-- **Reasoning:** Previous attempt failed to change type or execute search. Adding safety presses.
-- **Observation:** Currently viewing Furret (National Dex #162). Need to back out to list to search.
-- **Action:** Pressing 'B' to exit entry, then 'Start' to open Search menu.
-- **Correction:** Previous search attempts failed because I was still viewing the Furret entry.
-- **Action:** Pressing 'B' to return to Pokedex List, then 'Start' to open Search Menu.
-- **Plan:** Verify Search Menu is open before inputting search parameters.
-- **Action:** Configuring Pokedex Search for 'FIRE' type.
-- **Sequence:** Up x2 (Force top/Type 1), Right (Normal -> Fire), Down x3 (Navigate to 'Search'), A (Execute).
-- **Correction:** Was stuck in 'Entry View' (Kakuna). Previous inputs likely navigated entries instead of menus.
-- **Action:** Pressing 'B' to return to List View.
-- **Action:** Pressing 'Select' to open the Search/Mode menu (Standard Gen 2 control).
-- **Action:** Selecting 'TYPE MODE' from Pokedex Option Menu.
-- **Sequence:** Down x3 (Navigate to bottom option), A (Select).
-- **Expectation:** This will open a list of Types to choose from.
-- **Action:** Closing Option Menu ('B'), then opening Search Menu ('Start').
-- **Reasoning:** Screen confirms Option Menu is open. Search is accessed via 'Start' from the main list.
-- **Action:** Navigating from 'GEAR' to 'POKEDEX' (Up x3) -> Open (A) -> Open Mode Menu (Select).
-- **Correction:** Cursor was on GEAR, not POKEDEX. Adjusted input sequence.
-- **Correction:** 'Option Menu' (Select) is for Sorting (New, Old, A-Z, Unown). It does NOT have 'Type Mode'.
-- **Action:** Closing Option Menu ('B').
-- **Action:** Opening Search Menu via 'Start'.
-- **Goal:** Filter by 'FIRE' Type to find Entei.
-- **Action:** Opening Start Menu -> Pokedex -> Search Menu.
-- **Sequence:** Start -> Up x3 (Force Pokedex) -> A -> Wait -> Start.
-- **Reasoning:** Resetting from Overworld to ensure clean navigation.
-- **Observation:** Menu wraps. Up from Pokedex goes to Exit -> Option -> Save.
-- **Correction:** Canceling Save (B), Navigating to Pokedex (Down x3), Opening (A), Opening Search (Start).
-- **Action:** Closing Save Dialog ('B') -> Wait -> Navigating to Pokedex (Down x3) -> Open (A) -> Search (Start).
-- **Reasoning:** 'Up' moves cursor Up (wrapping to bottom). 'Down' moves cursor Down (wrapping to top). From Save (pos 6), Down x3 wraps to Pokedex (pos 1).
-- **Adjustment:** Added longer sleep after 'B' to ensure inputs aren't eaten.
-- **Action:** Configuring Search: Normal -> Fire.
-- **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
-- **Reasoning:** Current Screen shows Search Menu open with Type 1 'Normal' selected. Fire is next in list.
-- **Discovery:** Screen analysis confirms bottom menu bar in Pokedex List:
-  - `SELECT` -> OPTION (Sorting)
-  - `START` -> SEARCH (Filtering)
-- **Action:** Pressing `B` to exit Machop entry, then `Start` to open Search.
-- **Action:** Retry Search Entry.
-- **Sequence:** B (Exit Machop), Sleep (Wait for List), Start (Open Search), Right (Fire), Down x2 (Select Search button), A (Execute).
-- **Hypothesis:** Previous 'B' input failed or timing was off. Increasing delays.
-- **Observation:** Previous attempt exited Pokedex and opened Start Menu -> Pack.
-- **Correction:** Exiting Pack ('B') -> Navigate to Pokedex ('Up', 'Up') -> Open ('A').
-- **Plan:** Will perform Search ('Start') in next turn to ensure stability.
-- **Anomaly:** Discrepancy between Current Screen Image (Pokedex) and Text/Intermediate States (Pack).
-- **Hypothesis:** Inputs 'Up, Up' were dropped last turn, causing re-entry into Pack via 'A'.
-- **Action:** Assuming Pack state. Pressing 'B' (Exit), 'Up', 'Up' (Nav to Pokedex), 'A' (Open), 'Start' (Search).
-- **Observation:** Currently in 'OPTION' Menu (Text Speed, etc.).
-- **Correction:** Closing Options ('B'). Navigating to Pokedex from Option (Down x2 -> Wrap to Top).
-- **Sequence:** B, Down, Down, A (Open Pokedex), Start (Search).
-- **Goal:** Filter Pokedex for Entei.
-- **Interruption:** Phone call from Gaven interrupted Pokedex navigation.
-- **Status:** Call ended. Returning to Pokedex Search plan.
-- **Action:** Opening Start Menu. Will check cursor position before navigating.
-- **Status:** Start Menu Open. Cursor on 'OPTION'.
-- **Action:** Navigating to 'POKEDEX' (Down x2 to wrap) -> Open (A) -> Search (Start).
-- **Action:** Configuring Search: Normal -> Fire.
-- **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
-- **Reasoning:** Screen shows Search Menu open. Cursor on 'Type 1' value.
-- **Result:** Search for 'FIRE' returned 4 results (Cyndaquil, Ponyta, Quilava, Rapidash). **Entei NOT found.**
-- **Conclusion:** Pokedex Search cannot track Roamers (likely only lists caught Pokemon or Entei isn't 'seen' enough).
-- **Action:** Abandoning Pokedex strategy. Returning to Pokegear Map.
-- **Sequence:** B (Exit Results) -> B (Exit Search) -> B (Exit Pokedex) -> Down x2 (Pokegear) -> A.
-- **Correction:** `Down, Down` from Pokedex landed on PACK, not GEAR. Gear is 3 slots down from Pokedex.
-- **Action:** Exiting Pack (B) -> Down (Select Gear) -> A (Open Gear).
-- **Status:** Pokegear Open. Cursor on 'BACK'.
-- **Action:** Right (Select Map) -> A (Open Map).
-- **Action:** Pressing 'A' to open full map view (Map Card is selected).
-- **Check:** If Roamers on Route 36 -> Hunt. Else -> Shuffle (Violet).
-- **Observation:** Player facing Left (was Up/Right), confirming Violet Shuffle executed.
-- **Action:** Opening Pokegear to check Mini-Map (Start -> A -> Right).
-- **Goal:** Verify if Roamer is on Route 36 without opening full map.
-- **Observation:** Roamers spotted on Route 31 and Route 42. NOT on Route 36.
-- **Action:** Executing Shuffle: Close Gear -> Right (Violet) -> Left (Route 36) -> Open Menu.
-- **Goal:** Move Roamers to Route 36.
