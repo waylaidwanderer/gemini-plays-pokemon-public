@@ -17,18 +17,15 @@
     - Attempted direct land route; blocked by wall at Y=15.
     - Discovered buoy barrier at X=18,19 from Y=15 to Y=25.
 - Strategy (The "How"):
-    1. Navigate around Buoy Barrier:
-        - Go West to X=15.
-        - Go South to Y=26.
-        - Go East to X=19 (Gap in X=18 wall).
-        - Go North to Y=21.
-        - Go East to X=23 (Gap in X=20 wall).
-    2. Reach Northern Waters:
-        - Go North to Y=10.
-        - Go West to (19, 10).
-    3. Land:
-        - Approach landing zone at (16, 11) or (15, 11).
-    4. Sighting: Reach (7, 4).
+    1. Start Surfing: Face Right at (19, 30) and press A.
+    2. Surf East: Move to X=23 to pass the barrier at Y=15.
+    3. Surf North: Move to Y=10.
+    4. Surf East: Move to X=27 to pass the barrier at Y=9.
+    5. Surf North: Move to Y=8.
+    6. Surf West: Move to X=19.
+    7. Surf South: Move to Y=11.
+    8. Land: Move West to (16, 11).
+    9. Sighting: Reach (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
