@@ -183,5 +183,40 @@
         "action_counter": 44588
       }
     ]
+  },
+  "fly_to_johto_v3": {
+    "description": "Navigates from the overworld to a Johto city using Fly. Assumes the Fly map cursor starts at New Bark Town (5, 4).",
+    "input_schema": {
+      "properties": {
+        "target_city": {
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Ecruteak City",
+            "Goldenrod City",
+            "Azalea Town",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City",
+            "Indigo Plateau"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_city"
+      ],
+      "type": "object"
+    },
+    "python_script": "import json\ngrid = {\"New Bark Town\": (5, 4), \"Cherrygrove City\": (4, 4), \"Violet City\": (4, 3), \"Ecruteak City\": (3, 3), \"Goldenrod City\": (3, 4), \"Azalea Town\": (3, 5), \"Olivine City\": (2, 4), \"Cianwood City\": (1, 4), \"Mahogany Town\": (5, 3), \"Indigo Plateau\": (5, 2), \"Blackthorn City\": (6, 3)}\ntarget = input_data['target_city']\nif target not in grid: print(json.dumps([])); exit()\nx1, y1 = (5, 4)\nx2, y2 = grid[target]\ndx, dy = x2 - x1, y2 - y1\nbuttons = [\"B\", \"B\", \"Start\"]\nbuttons.extend([\"Up\"] * 8)\nbuttons.append(\"Down\")\nbuttons.extend([\"A\", \"A\", \"A\", \"sleep 2000\"])\nif dx > 0:\n    for _ in range(dx): buttons.extend([\"Right\", \"sleep 300\"])\nelif dx < 0:\n    for _ in range(abs(dx)): buttons.extend([\"Left\", \"sleep 300\"])\nif dy > 0:\n    for _ in range(dy): buttons.extend([\"Down\", \"sleep 300\"])\nelif dy < 0:\n    for _ in range(abs(dy)): buttons.extend([\"Up\", \"sleep 300\"])\nbuttons.append(\"A\")\nfinal = []\nfor b in buttons:\n    if b.startswith(\"sleep\") and final and final[-1].startswith(\"sleep\"): continue\n    final.append(b)\nprint(json.dumps(final))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T12:27:16.816Z",
+        "action_counter": 45562
+      }
+    ]
   }
 }
