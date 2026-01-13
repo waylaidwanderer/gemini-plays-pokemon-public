@@ -12,6 +12,10 @@
 - TALL_GRASS: Traversable, triggers wild encounters.
 - HEADBUTT_TREE: Impassable, interact with Headbutt.
 - LEDGE_HOP_DOWN: One-way (Down). Traversable from Top to Bottom. Impassable from Bottom to Top.
+- LEDGE_HOP_RIGHT: One-way (Right). Traversable from Left to Right. Impassable from Right to Left.
+- WATER: Traversable with HM03 Surf.
+- WARP_CARPET_LEFT/RIGHT: Warp triggers.
+- DOOR: Warp trigger.
 
 # Strategy: Ecruteak Shuffle
 - Goal: Force first encounter with Entei/Raikou (Lv 40).
@@ -23,12 +27,10 @@
   3. Transition back to Ecruteak.
   4. Repeat.
 
-# Tracking: Session 4
-- Start: Turn 45281.
+# Tracking: Roamer Hunt
+- Shuffle Start Turn: 45281.
 - Completed Cycles: 35.
-- Repel 2: Wore off at Turn 45718.
-- Repel 3: Not applied (interrupted by Chad).
-- Current Status: Entering Ecruteak City. Will apply Repel 3 before Cycle 36.
+- Repel 3: Active (Applied Turn 45721).
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
