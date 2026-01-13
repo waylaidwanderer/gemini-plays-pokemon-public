@@ -13,3 +13,9 @@
 # Important Locations
 - **Route 37:** Contains Red, Blue, and Black Apricorns.
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
+
+# Roamer Hunt Log
+- **Status:** Arrived in Ecruteak City.
+- **Action:** Opening Pokegear to check Roamer positions.
+- **Roamer Mechanics:** Positions scramble upon map entry.
+- **Strategy:** If nearby (Route 36, 37, 38, 42), pursue. If far, scramble again (Route 37 <-> Ecruteak border).
