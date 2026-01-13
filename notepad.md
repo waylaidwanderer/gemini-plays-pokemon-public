@@ -18,7 +18,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 13 transitions completed. 0 encounters. (Turn 45061)
+- Session 3 (Route 31): 13 transitions completed. 0 encounters. Transition 14 in progress: Crossing gatehouse to Violet City (Turn 45062).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
