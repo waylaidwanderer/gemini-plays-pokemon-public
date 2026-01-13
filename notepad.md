@@ -34,5 +34,9 @@
 - **Cherrygrove City** -> Up -> **Violet City**
 - **Cherrygrove City** -> Left -> **Azalea Town**
 - **Azalea Town** -> Up -> **Goldenrod City**
-- **Goldenrod City** -> Up -> **Ecruteak City** [Confirmed]
+- **Goldenrod City** -> Up -> **Olivine City**
+- **Olivine City** -> Right -> **Ecruteak City** [Hypothesis]
 - **Violet City** -> Left -> [Invalid]
+
+# Game Mechanics
+- **Fly Map:** Cursor remembers last destination. Always verify starting position.
