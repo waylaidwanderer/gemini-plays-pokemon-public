@@ -12,31 +12,26 @@
 
 # Quest: Legendary Hunt
 - Target: Suicune (Tin Tower)
-- Lore: Three nameless Pokemon perished in the Brass Tower fire. Ho-Oh resurrected them as Suicune, Entei, and Raikou.
-- Requirements: Clear Bell (Owned), 16 Badges (Owned).
+- Lore: Ho-Oh resurrected Suicune, Entei, and Raikou.
+- Requirements: Clear Bell (Owned), 16 Badges (Owned), Beasts Released.
 - Plan:
-    1. Release Beasts (Burned Tower) - DONE.
-    2. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1).
-    3. Battle Suicune (Tin Tower).
+    1. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1).
+    2. Battle Suicune (Tin Tower).
 
 # Strategy: Suicune Capture (Battle Analyst Advice)
 - Lead: XENON (Haunter, Lv 44).
 - Move 1: Hypnosis (Priority).
-- Move 2: Night Shade (Fixed 44 dmg). Use exactly 3 times to put Lv 40 Suicune in red.
+- Move 2: Night Shade (Fixed 44 dmg). Use exactly 3 times for Lv 40 Suicune.
 - Tank: GORP (Snorlax, Lv 50) for high Sp.Def.
-- Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore (permanent paralysis if sleep fails).
+- Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore.
 - Items: Ultra Balls (32).
 
-# Observations: Wise Trio
-- Location: EcruteakTinTowerEntrance (4_1).
-- Members: Sage GAKU (7, 10), Sage MASA (6, 9), Sage KOJI (6, 10).
-- Trigger: If they only say "The TIN TOWER shook!", try interacting with all three in different orders or check if the Tin Tower is now accessible.
-- Next Step: Defeat the Trio members in 4_1.
-
-# Battle Strategy: Wise Trio
-- Sages typically use Noctowl and other bird Pokemon.
-- XENON (Haunter) with Night Shade is effective.
-- Calcifer (Typhlosion) with Thunderpunch is a strong counter.
+# Observations: Wise Trio (Map 4_1)
+- Sage GAKU (ID 2): Last seen near (7, 10).
+- Sage MASA (ID ?): Needs to be located.
+- Sage KOJI (ID 3): Currently at (5, 9).
+- Sage Entrance Guard (ID 1): At (4, 6).
+- Strategy: Defeat all three to prove worthiness. If dialogue loops, check other members.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
@@ -45,8 +40,3 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
-
-# Lessons Learned: Event Triggers
-- Sage dialogue like "The TIN TOWER shook!" indicates an event progression. If they don't battle immediately, try interacting with all members of the group or standing on specific tiles nearby.
-- Map 4_2 (WiseTriosRoom) might be a post-battle destination or related to Ho-Oh later. Focus on 4_1 for the Trio battle.
-- Timestamp: Tuesday, January 13, 2026 at 12:16 PM PST | Turn 46287.
