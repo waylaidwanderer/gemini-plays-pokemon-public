@@ -45,14 +45,14 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
-# Goldenrod Restock Plan (Started: Turn 44278 | Mon 4:00 PM)
-1. Travel to Goldenrod City (Completed: Turn 44363 via Fly).
-2. Pivot to Ecruteak City (Goldenrod Dept. Store does NOT sell Super Repels).
-3. Buy a full stack (99) of Super Repels in Ecruteak Mart (Targeting 85 based on budget).
-4. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
+# Ecruteak Restock Plan (Started: Turn 44430)
+1. Travel to Ecruteak City (Fly from Goldenrod).
+2. Purchase 85 Super Repels at Ecruteak Mart.
+3. Head to Route 37 via Ecruteak City South exit.
+4. Resume legendary hunt using the 'grass_pacer' tool.
 
 # Floor Directory (Goldenrod Dept. Store)
-- 1F: Service Counter
+- 1F: Service Counter (Exit)
 - 2F: Trainer's Market (Basic Potions/Balls)
 - 3F: Battle Collection (X-Items)
 - 4F: Medicine Box (Vitamins)
