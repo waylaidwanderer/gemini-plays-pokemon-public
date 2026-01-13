@@ -10,7 +10,7 @@
 - Start Turn: 46373.
 - Repel Status: Super Repel active (Turn 46460).
 - Strategy (The "How"):
-    1. From (12, 28), Surf North/East to navigate through BUOY gaps.
+    1. From (12, 27), Surf North/East to navigate through BUOY gaps.
     2. Reach the northern shore (Y < 15) where land is continuous.
     3. Walk to the sighting spot at (7, 4).
 
@@ -32,3 +32,8 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Navigation Notes
+- Land route to West Cianwood is a maze of one-way walls and building blockades.
+- Water route requires navigating gaps in BUOY lines at (16, 24), (23, 15), and (20, 9).
+- Northern land mass at Row 10 is the intended landing zone for reaching (7, 4).
