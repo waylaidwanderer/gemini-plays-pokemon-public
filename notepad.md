@@ -100,3 +100,7 @@
 - **Action:** Executing Hard Reset of Fly Map (B -> A) to refresh UI state, then Left x3.
 - **Sequence:** B (Close Map) -> A (Select FLY from menu) -> Left x3 (Move cursor).
 - **Target:** New Bark Town / Cherrygrove area.
+- **Turn 38095:** Correction - Map was NOT open. Menu cursor was on 'FLY'.
+- **Action:** Pressing 'A' to open map, then 'Left' x3.
+- **Goal:** Open map and navigate cursor to Cherrygrove City (Silver Cave -> Indigo -> New Bark -> Cherrygrove).
+- **Hypothesis:** Previous inputs failed because map wasn't open. Opening it now should work.
