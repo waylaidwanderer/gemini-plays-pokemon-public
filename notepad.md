@@ -53,3 +53,6 @@
 - **Turn 38078 Strategy:** Hard Reset of Fly Map.
 - **Sequence:** B (Close) -> A (Open @ Silver Cave) -> Left x5 (Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
 - **Goal:** Verify cursor lands on Ecruteak City. Then move to Goldenrod.
+- **Turn 38079 Analysis:** Previous failure was due to inputs executing in the submenu (FLY selected) instead of the map.
+- **Current Action:** Press 'A' to open map, then 'Left' x3 with 1.5s delays.
+- **Goal:** Determine cursor start position (Silver Cave or New Bark?) and travel distance.
