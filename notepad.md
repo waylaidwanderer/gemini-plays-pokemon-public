@@ -50,3 +50,5 @@
 - **Navigation Test:** Attempting 'Left, Left, Up, Left' from New Bark cursor.
 - **Observation:** Cursor is currently at Cherrygrove City.
 - **Verification:** Pressing 'Up' to verify it selects Violet City (as observed in Turn 36801).
+- **Observation:** 'Left' from Violet City appears to be invalid (cursor didn't move).
+- **Strategy:** Backtracking to Cherrygrove ('Down') and testing 'Left' from there to find a path to the west side of Johto (Goldenrod/Ecruteak).
