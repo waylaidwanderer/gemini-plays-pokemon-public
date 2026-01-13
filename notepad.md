@@ -24,3 +24,15 @@
   3. If no encounter, exit to Ecruteak.
   4. Repeat.
 - **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
+
+# Current Task: Roamer Hunt
+- **Start Turn:** 37586
+- **Method:** Repel Trick on Route 37.
+- **Assumption:** Roamers Lv 40 > Gyarados Lv 36 > Wilds.
+- **Reflection (Turn 37586):** 
+  - Immediate: No deferred tasks.
+  - Hygiene: Added timestamp.
+  - Map: Route 37 entry marker exists.
+  - Automation: Current manual loop is efficient enough.
+  - Goals: Refined to be outcome-based.
+  - Errors: None recently, blind shuffle is efficient.
