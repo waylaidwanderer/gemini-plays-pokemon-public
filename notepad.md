@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Status: FAILED to apply (menu fumble). Repel NOT active.
+- Repel Status: NOT active. Encountered wild Pidgey.
 - Completed Cycles: 15.
-- Current Status: In item menu. Correcting Repel application.
+- Current Status: Main menu open. Navigating to SUPER REPEL in PACK.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
