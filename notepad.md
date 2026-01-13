@@ -115,3 +115,6 @@
 - **Action:** Retry Search Entry.
 - **Sequence:** B (Exit Machop), Sleep (Wait for List), Start (Open Search), Right (Fire), Down x2 (Select Search button), A (Execute).
 - **Hypothesis:** Previous 'B' input failed or timing was off. Increasing delays.
+- **Observation:** Previous attempt exited Pokedex and opened Start Menu -> Pack.
+- **Correction:** Exiting Pack ('B') -> Navigate to Pokedex ('Up', 'Up') -> Open ('A').
+- **Plan:** Will perform Search ('Start') in next turn to ensure stability.
