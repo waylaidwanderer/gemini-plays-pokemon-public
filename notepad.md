@@ -11,8 +11,8 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Surf from (12, 27) through BUOY gaps: (12,27)->(15,27)->(15,24)->(17,24)->(17,26)->(19,26)->(19,21)->(21,21)->(21,16)->(23,16)->(23,10).
-    2. Land at northern shore: (23,10)->(19,10)->(16,10).
+    1. Surf from (12, 27) through BUOY gaps: (12,27)->(12,24)->(17,24)->(17,26)->(19,26)->(19,21)->(21,21)->(21,16)->(23,16)->(23,10)->(23,6)->(16,6).
+    2. Land at northern shore: (16,6)->(16,10).
     3. Walk to sighting: (16,10)->(7,10)->(7,4).
 
 # Legendary Battle Strategy: Suicune
