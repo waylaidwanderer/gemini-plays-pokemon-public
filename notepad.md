@@ -13,7 +13,11 @@
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
 - **Repel Trick**: Lv 19 lead on Route 31 (Wild Lv 12-15) filters for Roamers (Lv 40).
 - **Status**: Repel Active. 200 steps remaining. (Inventory: 67 Super Repels).
-- **Current Progress**: 10 loops completed. 0 encounters. Relocating to Ecruteak City.
+- **Current Progress**: 10 loops completed. 0 encounters. Relocating to Ecruteak City (Strategist recommendation).
+- **Relocation Plan**:
+  1. Exit gatehouse to Route 31.
+  2. Use Fly to travel to Ecruteak City.
+  3. Start Ecruteak Shuffle (Route 37/38 transitions).
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
