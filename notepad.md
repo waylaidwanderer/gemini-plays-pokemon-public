@@ -10,9 +10,9 @@
 - Start Turn: 46373.
 - Repel Status: Super Repel active (Turn 46460).
 - Strategy (The "How"):
-    1. From (12, 27), Surf North/East to navigate through BUOY gaps.
-    2. Reach the northern shore (Y < 15) where land is continuous.
-    3. Walk to the sighting spot at (7, 4).
+    1. From (12, 27), Surf North to (12, 20).
+    2. Land at (11, 20).
+    3. Walk North to (11, 12), then West to (4, 12), then North to (4, 4), then East to (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
