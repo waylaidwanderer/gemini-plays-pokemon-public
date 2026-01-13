@@ -29,7 +29,7 @@
 # Observations: Wise Trio
 - Location: EcruteakTinTowerEntrance (4_1) and WiseTriosRoom (4_2).
 - Members: Sage GAKU, Sage MASA, Sage KOJI.
-- Progress: Sage at (4, 6) in 4_1 granted passage. KOJI (ID 3) loops dialogue about the tower shaking.
+- Note: Sage KOJI (ID 3) in 4_1 loops dialogue about the tower shaking. Gramps (ID 4) is at (4, 10).
 - Hypothesis: The Trio members have moved to 4_2 or the Tin Tower entrance is now accessible.
 
 # Pokemon Movesets
