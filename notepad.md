@@ -48,3 +48,5 @@
 - **Action:** Pressing 'A' again (Retry 4). If this fails, will move to a different tile to reset menu state.
 - **Observation:** 'A' press failed multiple times to open full map.
 - **Action:** Closing menu and moving to (9, 2) to clear 'stuck on tile' warning and reset menu state.
+- **Fix:** Moving to (9, 2) to clear tile warning.
+- **Tool:** Defining `safe_open_map` to handle menu cursor memory reliably.
