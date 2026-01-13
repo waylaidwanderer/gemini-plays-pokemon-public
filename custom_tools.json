@@ -192,20 +192,5 @@
         "action_counter": 37206
       }
     ]
-  },
-  "fly_to_ecruteak": {
-    "description": "Robustly navigates menus to Fly to Ecruteak City from the Overworld. Exits menus, moves Right to a safe tile, resets cursors, selects Mistral (Slot 6), and execution Fly to Ecruteak.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nbuttons = []\n# 1. Clear menus and move to safe tile (30,4 -> 31,4)\nbuttons.extend([\"B\"] * 4)\nbuttons.append(\"sleep 500\")\nbuttons.append(\"Right\")\nbuttons.append(\"sleep 500\")\n\n# 2. Open Start -> Pokemon\nbuttons.append(\"Start\")\nbuttons.append(\"sleep 1000\")\n# Reset cursor to top (Pokedex) then down to Pokemon\nbuttons.extend([\"Up\"] * 10) \nbuttons.append(\"Down\")\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\") # Enter Party\nbuttons.append(\"sleep 1500\")\n\n# 3. Select Mistral (Slot 6)\n# Reset cursor to Slot 1\nbuttons.extend([\"Up\"] * 6)\n# Move to Slot 6\nbuttons.extend([\"Down\"] * 5)\nbuttons.append(\"A\") # Click Mistral\nbuttons.append(\"sleep 1000\")\n\n# 4. Select Fly and Navigate Map\nbuttons.append(\"A\") # Fly is top option\nbuttons.append(\"sleep 4000\") # Wait for map\nbuttons.append(\"Left\") # Violet\nbuttons.append(\"sleep 500\")\nbuttons.append(\"Up\") # Ecruteak\nbuttons.append(\"sleep 500\")\nbuttons.append(\"A\") # Confirm\n\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T15:17:42.239Z",
-        "action_counter": 37434
-      }
-    ]
   }
 }
