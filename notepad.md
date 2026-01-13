@@ -10,7 +10,7 @@
 
 # Quest: Legendary Hunt
 - Quest Started: Turn 46043 (Jan 13, 2026).
-- Status: Flying to Indigo Plateau (Turn 46087).
+- Status: Navigating Fly Map (Turn 46094).
 - Plan: Buy 30 Ultra Balls -> Catch Suicune (Tin Tower).
 
 ## Financial Status
