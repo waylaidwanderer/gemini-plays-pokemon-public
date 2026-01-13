@@ -53,8 +53,8 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Cycling Roamers (Cycle 56 - Fixed for 9, 31).
-- Observation: Previous tool failed because player was at (9, 31). No shuffle occurred. Roamers still on 31, 42, 46.
-- Fix: Update tool to cycle from (9, 31).
-- Sequence: Down x2 (Enter) -> Up (Exit) -> Up x2 (Reset to 31).
-- Next: Check Map. If Roamer on 35 -> Hunt. Else -> Loop Tool.
+- Status: Cycling Roamers (Cycle 57 - Manual Align).
+- Observation: Previous tool left player at (9, 30). Roamers on 31, 42, 46.
+- Action: Manual Shuffle from (9, 30) -> End at (9, 31).
+- Sequence: Down x3 (Enter) -> Up (Exit) -> Up x2 (Reset to 31).
+- Next: Check Map. If Roamer on 35 -> Hunt. Else -> Use Tool (now aligned).
