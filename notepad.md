@@ -47,7 +47,7 @@
 
 # Goldenrod Restock Plan (Started: Turn 44278)
 1. Travel to Goldenrod City (Completed: Turn 44363 via Fly).
-2. Identify which floor sells Super Repels (Checking 3F).
+2. Identify which floor sells Super Repels (Checking 4F).
 3. Buy a full stack (99) of Super Repels (Targeting 85 based on budget).
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
