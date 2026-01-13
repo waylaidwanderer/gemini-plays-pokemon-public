@@ -120,7 +120,7 @@
     ]
   },
   "open_map": {
-    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position. Includes safety 'B' presses and sleep delays.",
+    "description": "Opens the Pokegear and navigates to the Map card. Assumes the main menu cursor is already on 'POKEGEAR' (last used). Uses a 'Left, Left, Left, Right' sequence inside Pokegear to reliably select the Map regardless of previous cursor position (Back, Map, Phone, Radio). Includes safety 'B' presses and sleep delays.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -134,7 +134,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nbuttons = [\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Right\", \"A\"]\nprint(json.dumps(buttons))",
+    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"A\", \"sleep 500\", \"Left\", \"Left\", \"Left\", \"Right\", \"sleep 500\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -160,6 +160,11 @@
         "commit_message": "Fixed output format to be a JSON array of strings, not a JSON object with a 'buttons' key, as required by the tool definition.",
         "timestamp": "2026-01-12T22:17:24.564Z",
         "action_counter": 36339
+      },
+      {
+        "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
+        "timestamp": "2026-01-13T07:37:57.819Z",
+        "action_counter": 37022
       }
     ]
   },
