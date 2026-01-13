@@ -18,8 +18,8 @@
 
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
-- Completed Cycles: 83.
-- Repel 5: Applied Turn 45841. (251 steps used - Expired).
+- Completed Cycles: 84.
+- Repel 6: Applied Turn 45882. (0 steps used).
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Cycle between Ecruteak (17, 35) and Route 37 (7, 2) grass.
 - Resource: 58 Super Repels remaining.
 - Strategy Note: Statistically, roamers appear within 50-100 cycles. Continuing until encounter or ~100 cycles.
