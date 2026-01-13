@@ -38,6 +38,5 @@
 6. Error Analysis: Looping at (23, 10) caused by pathfinder ignoring BUOYs due to 'unseen' logic. Fixed.
 
 # Navigation Log
-- Turn 46464: Surfing at (27, 4). Zig-zagging through confirmed BUOY gaps to reach land at (9, 24).
-- Path: (27, 4) -> (27, 10) -> (23, 10) -> (23, 16) -> (21, 16) -> (21, 21) -> (19, 21) -> (19, 27) -> (17, 27) -> (17, 24) -> (9, 24).
-- Gaps: (26, 10), (22, 16), (19, 21), (18, 27), (16, 24). All confirmed WATER in Mental Map.
+- Turn 46469: At (12, 30). Plan: Move to (12, 28), Surf, then zig-zag through BUOYs to reach northern land (Y < 15).
+- Path (Surf): (12, 28) -> (12, 27) -> (15, 27) -> (15, 26) -> (19, 26) -> (19, 25) -> (19, 21) -> (17, 21) -> (17, 18) -> (20, 18) -> (20, 16) -> (23, 16) -> (23, 10) -> (19, 10) -> Land.
