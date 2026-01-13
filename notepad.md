@@ -31,3 +31,5 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
+- **Action:** Switch Lugia to Lead (Slot 1) for speed advantage against Roamers.
+- **Missing:** Mean Look/Spider Web trapper. Strategy is "Chip and Chase" with Lugia.
