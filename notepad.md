@@ -8,7 +8,7 @@
 - WATER: Traversable (HM03 Surf).
 - DOOR/WARP/WARP_CARPET: Map transition.
 - PIT: One-way warp down.
-- LADDER: Warp (e.g., 4_1 (5, 3) <-> (17, 15)).
+- LADDER: Warp.
 
 # Quest: Legendary Hunt
 - Target: Suicune (Tin Tower)
@@ -16,7 +16,7 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Release Beasts (Burned Tower) - DONE.
-    2. Defeat Wise Trio (Started Turn 46251) - If not in building 4_1, check Tin Tower (4_3).
+    2. Defeat Wise Trio (Started Turn 46251) - IN PROGRESS.
     3. Battle Suicune (Tin Tower).
 
 # Strategy: Suicune Capture (Verified)
@@ -27,10 +27,11 @@
 - Items: Ultra Balls (32), Full Restore (for status inflictor).
 
 # Observations: Wise Trio
-- Location: EcruteakTinTowerEntrance (4_1) and WiseTriosRoom (4_2).
-- Members: Sage GAKU, Sage MASA, Sage KOJI.
-- Note: Sage KOJI (ID 3) in 4_1 loops dialogue. Gramps (ID 4) is at (4, 10).
-- Hypothesis: The Trio members have moved to Tin Tower or 4_2.
+- Location: Tin Tower 1F (3_4).
+- Sage KOJI (ID 5): At (5, 9).
+- Sage (ID 6): At (11, 11).
+- Sage (ID 7): At (14, 6).
+- Strategy: Speak to all Sages on 1F to trigger the Suicune encounter.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
