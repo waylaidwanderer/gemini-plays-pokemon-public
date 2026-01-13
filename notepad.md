@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Applied: Turn 45615 (200 steps). Current Turn: 45617.
+- Repel Status: FAILED to apply at Turn 45615 (opened Pokegear instead). Repel is NOT active.
 - Completed Cycles: 15.
-- Current Status: Cycle 16. Moving to grass at (7, 2).
+- Current Status: In battle with Pidgey. Need to escape and apply Repel.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
