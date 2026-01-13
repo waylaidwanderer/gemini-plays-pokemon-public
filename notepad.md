@@ -16,7 +16,7 @@
 - **Repel Status**: None active. (Last attempt failed).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED. They will not appear on the Pokegear map until the first battle.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
-- **Agent Advice**: Awaiting verification from legendary_tracker.
+- **Agent Advice**: Raikou is the target. Use Repel Trick with lead Lv 20-39 on Route 37/38. Use Master Ball. (Current lead ICARUS Lv 19 is close enough to Lv 20 to work on R37 wild Lv 13-16).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
