@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Resetting Pokegear State.
-- **Action:** Exiting Gear (B x3) -> Re-opening (Start, Down x2, A) -> Selecting Map (Left, A).
-- **Strategy:** Bypass confusing Phone menu state by rebooting the interface.
-- **Observation:** Previous inputs failed to navigate from Phone to Map directly. Reset is safer.
+- **Status:** Recovering from Accidental Save Menu.
+- **Action:** Cancel Save (B x2) -> Navigate Up to Pokegear -> Select.
+- **Menu State:** Cursor currently on SAVE. Needs Up x2 to reach POKEGEAR.
+- **Next Step:** Verify Pokegear is open and select Map.
