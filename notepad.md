@@ -15,8 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** In Pokegear (Clock Card).
-- **Action:** Navigating to Map Card.
-- **Current State:** Cursor on BACK. Map is 1 slot Right.
-- **Sequence:** Right (Select Map) -> A (Open).
-- **Goal:** Locate Raikou/Entei.
+- **Status:** Inside Phone Menu (Mistake).
+- **Action:** B (Exit Phone) -> Left (Select Map) -> A (Open Map).
+- **Reason:** Previous inputs overshot Map and entered Phone.
+- **Strategy:** Correcting navigation to find Raikou/Entei.
