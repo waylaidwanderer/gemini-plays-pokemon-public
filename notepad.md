@@ -1,9 +1,9 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (29,4). Must be at (29,5).
-- **Menu Navigation:** Down inputs need sleeps. Resetting cursor is safer than assuming memory.
+- **Menu Navigation:** 'Down' flaky. Using 'Up' wrap-around for Party (Slot 1 -> Cancel -> Slot 6).
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 20:** Move to (29,5) -> Reset Menu -> Reset Party -> Mistral -> Fly.
-    - **Sequence:** Down (Move) -> Start -> Up x3 -> Down -> A -> Up x6 -> Down x5 -> A -> A -> Left -> Left -> Up -> A.
+    - **Attempt 21:** From Pokegear -> Up x2 (Pokemon) -> Wrap to Mistral.
+    - **Sequence:** Up, Up, A -> Sleep -> Up, Up (Wrap to Mistral) -> A -> A (Fly) -> Map: Up, Left -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
