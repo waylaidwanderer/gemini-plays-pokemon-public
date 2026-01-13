@@ -31,4 +31,6 @@
 - [Verified] Start menu order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.[Player], 6.SAVE, 7.OPTION, 8.EXIT.
 
 # Attempted Fly to Ecruteak
-- Status: Resetting by moving to Violet City overworld.
+- Started: Turn 45183.
+- Status: Resetting mental state. Currently in Route 31 Gatehouse.
+- Plan: Use open_fly_map tool, then navigate to Ecruteak manually.
