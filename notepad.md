@@ -30,13 +30,8 @@
 - [Lesson] Scripted phone calls interrupt sequences.
 
 # Current Strategy: Fly to Ecruteak
-- Current State: Save Confirmation Screen.
-- Plan:
-  1. Confirm Overwrite (A).
-  2. Wait for save (sleep 3000).
-  3. Clear 'saved' text (B).
-  4. Close Start menu (B).
-  5. Re-open Start menu (Start) [Resets cursor to POKEDEX].
-  6. Select POKEMON (Down, A).
-  7. Select ICARUS -> FLY (A, A).
-  8. Fly Map: Left (Cherrygrove), Up (Violet), Up (Ecruteak), A (Fly).
+- Initial State: Overworld (Violet City).
+- Step 1: Open Start menu (Start).
+- Step 2: Navigate to POKEMON (Down if POKEDEX, Up x4 if SAVE).
+- Step 3: Select ICARUS -> FLY.
+- Step 4: Fly Map: Navigate to Ecruteak and press A.
