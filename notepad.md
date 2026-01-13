@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37351):** Cursor confirmed on MISTRAL (Slot 6). Executing Fly. Path: A (Select) -> A (Fly) -> Left (Violet) -> Up (Ecruteak).
+- **Roamer Check (Turn 37352):** Walked to (28, 4) instead of Flying. Menu likely failed to open or closed early. Retrying Fly sequence from scratch. Cursor assumed on POKEMON. Path: Start -> A -> Down x5 -> A -> A -> Left -> Up -> A.
