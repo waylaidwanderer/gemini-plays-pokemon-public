@@ -70,8 +70,8 @@
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
 - Turn 44576: Confirmed menu cursor memory behavior.
-- Turn 44577: Super Repel successfully reached in Pack. Applying now.
-- Attempt count for Repel application: 16. Current Status: Menu navigation in progress.
+- Turn 44578: Super Repel confirmed active.
+- Attempt count for Repel application: 16. Current Status: Pacing for legendary encounter.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
