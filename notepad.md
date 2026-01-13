@@ -50,7 +50,6 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
-- Custom Tools: Access script arguments via the 'input_data' dictionary, not 'sys.argv'.
 
 # Legendary Hunt Execution
 - Start Turn: 44521.
@@ -61,11 +60,11 @@
 - After every 50-100 steps without an encounter, transition maps (Ecruteak Shuffle) to redistribute roamers.
 - Current Method: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
-# Menu Navigation Failures
-- Turns 44528-44550: Multiple failed attempts to apply Super Repel due to menu cursor memory.
-- Solution: Use "reset" sequences (multiple 'Up' or 'Down' presses) to ensure consistent starting points.
-
-# Technical/Tool Development
+# Technical & Tool Development
 - Custom Tools: Access script arguments via 'input_data' dictionary.
-- Menu Navigator Strategy: Prepend 7 'Up' presses to main menu navigation to guarantee starting at 'POKEDEX'.
-- Pack Navigator Strategy: Prepend 10 'Down' presses to reach 'CANCEL', then 'Up' once to reach the bottom-most item (often Super Repel).
+- Menu Navigator Strategy: Prepend several 'Up' or 'Down' presses to guarantee a starting point if memory is unreliable.
+- Pack Navigator Strategy: Prepend 20 'Down' presses to reach 'CANCEL', then 'Up' once to reach the bottom-most item (Super Repel).
+- Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
+
+# Failed Hypotheses & Attempts
+- Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory. Switched to a "reset and move" strategy. Attempted sequences like [Start, Up x7, Down x2, A] which landed in Pokedex instead of Pack. Current hypothesis: Main menu cursor is now on POKEDEX (Index 0).
