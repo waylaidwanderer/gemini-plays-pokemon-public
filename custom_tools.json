@@ -157,13 +157,21 @@
     ]
   },
   "reset_roamers": {
-    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and immediately returning to the grass patch on Route 37 (Down) to reset Roamer positions. Includes sleeps for both map transitions. Hardcoded for player at y=4.",
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses extended sleeps (8s) and extra steps to handle map transition latency and border crossing. Hardcoded for player at y=4 on Route 37.",
     "input_schema": {
       "type": "object",
-      "properties": {},
-      "required": []
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false,
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn."
+        }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition into Ecruteak\nbuttons.append(\"sleep 5000\")\n# Walk down 1 step to trigger return warp\nbuttons.append(\"Down\")\n# Wait for map transition back to Route 37\nbuttons.append(\"sleep 5000\")\n# Walk down 4 steps to return to grass (y=0 to y=4)\nfor _ in range(4):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
+    "python_script": "buttons = [\"Up\"] * 5\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 3)\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 4)\nprint(f'{{\"buttons\": {buttons}}}')",
     "history": [
       {
         "commit_message": "Initial version",
@@ -179,6 +187,11 @@
         "commit_message": "Added a second sleep delay to handle the return warp from Ecruteak City back to Route 37, preventing input loss during the transition.",
         "timestamp": "2026-01-13T20:39:10.691Z",
         "action_counter": 37807
+      },
+      {
+        "commit_message": "Increased sleep times to 8s to handle map transition latency. Optimized step counts for reliability.",
+        "timestamp": "2026-01-13T21:13:48.971Z",
+        "action_counter": 37862
       }
     ]
   }
