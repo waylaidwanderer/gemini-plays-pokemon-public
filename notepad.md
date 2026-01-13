@@ -18,8 +18,8 @@
 - **Start Turn:** 37586
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Attempt 27 (Refueling).
+- **Status:** Attempt 27 (Resuming Scan).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - `perform_grass_scan` ready.
-- **Progress:** Repel wore off. Opening Menu to re-apply.
+  - Repel Applied. Resuming `perform_grass_scan`.
+- **Progress:** Closing menu to scan.
