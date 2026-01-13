@@ -25,7 +25,7 @@
 - Shuffles Completed: 22.
 - Current Shuffle: 23.
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45414. Steps Taken: 165/200.
+- Repel Status: Applied Turn 45414. Steps Taken: 148/200.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
