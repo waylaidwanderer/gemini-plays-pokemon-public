@@ -19,13 +19,14 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Flying to Goldenrod City.
-- **Reason:** Buying Super Repels at Dept Store.
+- **Status:** At Silver Cave (Accidental Fly).
+- **Correction:** Must Fly to Goldenrod City.
+- **Reason:** Previous Fly attempt targeted Silver Cave instead of Goldenrod.
 - **Plan:**
-  1. Fly to Goldenrod (Mistral).
-  2. Buy Super Repels (Target: 20+).
-  3. Fly back to Ecruteak.
-  4. Resume hunt.
+  1. Open Fly Map (Mistral).
+  2. Navigate Cursor: Silver Cave -> Left (to Johto) -> Goldenrod.
+  3. Buy Super Repels at Dept Store.
+  4. Fly to Ecruteak -> Route 37.
 - **Inventory:** 16 Ultra Balls. Cash: ¥12,294.
 
 # Tools & Automation
