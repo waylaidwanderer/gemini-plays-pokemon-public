@@ -1,9 +1,10 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats. Safe spot: (29,5) or (29,6).
-- **Failure Analysis:** Previous Fly attempt failed due to **Gaven's Phone Call** interrupting the sequence. The inputs advanced text instead of navigating.
 - **Map Navigation:** Cherrygrove -> Violet (Up). Ecruteak is Left of Violet.
-- **Status:** Currently at (29, 4) (Door Mat). Need to move.
+- **Status:** Executing Fly to Violet City.
+- **Hypothesis:** Menu cursor is on 'Pokemon'. Party cursor on Slot 1.
 
 # Strategy
-1. Move Down x2 to (29, 6) to ensure separation from door and clear any lag.
-2. Next Turn: Execute Fly Sequence (Start -> Pokemon -> Mistral -> Fly -> Up -> Left -> A).
+1. Execute Fly Sequence: Start -> A (Pokemon) -> Up x2 (Mistral) -> A (Select) -> A (Fly) -> Map: Up -> A.
+2. If successful, land in Violet City.
+3. From Violet, Fly or Walk to Ecruteak.
