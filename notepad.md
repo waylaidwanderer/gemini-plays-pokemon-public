@@ -30,9 +30,13 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 44.
-- Repel 3: Applied Turn 45723. (~90 steps used).
-- Current Status: Starting Cycle 45. Moving to Route 37 grass.
-- Encounter Plan: Use Master Ball on first roamer encounter. For subsequent roamers, consider training a Trapper (Mean Look/Spider Web).
+- Repel 3: Applied Turn 45723. (~100 steps used).
+- Current Status: Pacing in Cycle 45.
+- Encounter Plan: Use Master Ball on first roamer encounter.
+- Trapper Strategy (for 2nd roamer):
+  - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
+  - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31. I'd need a new Gastly/Haunter or a Move Reminder if one exists.
+  - Decision: Stick to Master Ball for the first one, then evaluate Spinarak.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
