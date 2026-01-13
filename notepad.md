@@ -1,10 +1,10 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
-- **Status:** Checking Map (Route 31).
-- **Recent:** Finished call with Gaven (Turn 37066). Swapped Lugia to Lead.
-- **Hypothesis:** Roamers have not moved since entering Route 31.
-- **Next:** Verify Roamer location. If on Rt 31 -> Hunt. If not -> Shuffle.
+- **Status:** Ready to Hunt (Route 31).
+- **Recent:** Swapped Lugia (Slot 5) with Belladonna (Slot 1). Lugia is now Lead.
+- **Next:** Check Pokegear Map. If Roamer is here -> Hunt. Else -> Shuffle.
+- **Hypothesis:** Roamers have not moved since entering Route 31 (Turn 37059).
 - **Method:** Close Gear (B, B) -> Right (Violet). Next turn: Left (Rt 36).
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
