@@ -56,5 +56,5 @@
 - Route 37: Active hunting area.
 - Route 38: Secondary hunting area.
 - Strategy: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
-- Start Turn: 44521.
-- Repel Re-application: Turn 44634.
+- Capture Priority: Use Master Ball on the first roamer encountered (Raikou or Entei).
+- Trap Strategy: If Master Ball is unavailable, use Mean Look or Spider Web. Haunter (Lv 44) is slower than roamers and requires priority or a Speed boost to act first.
