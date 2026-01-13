@@ -21,6 +21,8 @@
 - Completed Cycles: 88.
 - Repel 6: Applied Turn 45919. (~11 steps used).
 - Current Status: Starting Cycle 89.
+- Lessons Learned (Updated): Interruption from phone calls can cancel menu actions. Verify item usage via inventory or text.
+- Step Tracking: Super Repel lasts 200 steps. Each shuffle cycle takes ~14 steps. 1 Repel ≈ 14 cycles.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Cycle between Ecruteak (17, 35) and Route 37 (7, 2) grass.
 - Resource: 58 Super Repels remaining.
 - Strategy Note: Statistically, roamers appear within 50-100 cycles. Continuing until encounter or ~100 cycles.
