@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37335):** Positions unchanged (36, 42, 44). Gatehouse does NOT shuffle. Changing strategy: Fly to Ecruteak for direct route links.
+- **Roamer Check (Turn 37335):** Positions unchanged (36, 42, 44). Gatehouse does NOT shuffle. Strategy: Fly to Ecruteak (Note: Map inputs require sleep delays).
