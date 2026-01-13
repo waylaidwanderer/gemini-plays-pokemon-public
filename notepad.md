@@ -16,13 +16,13 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Find Suicune Sightings - IN PROGRESS.
-       - Cianwood City: Northern ledge past Pharmacy (NOT DONE).
+       - Cianwood City: Walk to northern ledge past Pharmacy (7, 4).
        - Route 42: Middle island with Apricorn trees (requires Surf).
-       - Route 36: Near Sudowoodo's old spot.
+       - Route 36: Near Sudowoodo's old spot (36, 9).
     2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by completing sightings.
     3. Battle Suicune (Tin Tower 1F).
 
-# Strategy: Suicune Capture (Verified)
+# Strategy: Suicune Capture (Verified via Analyst)
 - Lead: XENON (Haunter, Lv 44). Land Hypnosis immediately.
 - Chipping: Use Night Shade exactly THREE times (132 fixed damage). A Level 40 Suicune has ~143 HP, leaving it with ~11 HP (Red).
 - Status: Maintain Sleep. If Sleep fails, use KIMCHI's Sleep Powder (75% accuracy).
