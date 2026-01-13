@@ -29,3 +29,7 @@
 - **Ledges**: Vertical movement is restricted by one-way ledges.
 - **Menu Wrapping**: The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT. Do not use 'Up' to reset to the top.
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
+
+# Task: Flying to Ecruteak
+- Sequence: Start, Down (POKEMON), A, A (ICARUS), A (FLY), sleep 1000, Up, Up, A.
+- Start Turn: 45183
