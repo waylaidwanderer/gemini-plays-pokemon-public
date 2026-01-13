@@ -20,7 +20,7 @@
 - **Session 3 Start**: Turn 44989.
 - **Progress Log**:
     - Transition 1: 0 encounters. Arnie's call cleared.
-    - Transition 2: In progress. Repel wore off at (5, 7). Re-applying repel now. Strategy: Clear text, open Pack, use Super Repel.
+    - Transition 2: In progress. Repel wore off at (5, 7). Re-applying repel now. Attempt 1: Opening Pack. Strategy: Start -> Reset cursor to Pokedex -> Down x2 to Pack -> A.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
