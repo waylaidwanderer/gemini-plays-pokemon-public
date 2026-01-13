@@ -51,3 +51,9 @@
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Super Repel Location: Olivine City Mart.
+
+# Legendary Hunt Execution
+- Use 'grass_pacer' on Route 37 to trigger encounters while Repel is active.
+- If Repel wears off, immediately re-apply from the Pack.
+- If a roamer is encountered, use the Master Ball (for Raikou) or Hypnosis (for Entei).
+- If the roamer moves, check Pokegear Map to re-locate.
