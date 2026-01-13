@@ -19,13 +19,15 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Buying Super Repels.
+- **Status:** Leaving Ecruteak Mart (No Repels).
+- **Discovery:** Ecruteak Mart does NOT sell Repels/Super Repels.
 - **Plan:**
-  1. Buy 24 Super Repels (¥500 ea = ¥12,000).
-  2. Return to Route 37.
-- **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
+  1. Exit Mart.
+  2. **Fly to Goldenrod City** (MISTRAL has Fly).
+  3. Buy Super Repels at Dept. Store.
+  4. Fly back to Ecruteak.
+  5. Resume hunt on Route 37.
 - **Inventory:** 16 Ultra Balls. Cash: ¥12,294.
-- **Math:** 24 Super Repels = 4800 steps. That's plenty.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
