@@ -19,4 +19,4 @@
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
 - **Warp Carpets:** Step OFF then ON to trigger.
 - **Roamer Check (Turn 37224):** Not on Route 31. Shuffling (Route 31 -> Violet).
-- **Roamer Check (Turn 37231):** Failed to enter map grid (User error). Retrying check now.
+- **Roamer Check (Turn 37233):** Map shows Roamers on **Route 36** and **Route 44**. Not on Route 31. Shuffling (Route 31 -> Violet).
