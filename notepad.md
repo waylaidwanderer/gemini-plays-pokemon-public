@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Route 36 (East Side).
-- **Status:** Resuming travel. Blocked by Lass at (53, 8).
-- **Goal:** Walk West to Route 37 Junction (approx x=26) -> North to Ecruteak.
-- **Action:** Navigating AROUND the Lass (North side).
+- **Location:** Route 36 (Central).
+- **Status:** Navigating tree maze to Route 37 Junction.
+- **Goal:** Reach (26, 0) to enter Route 37.
+- **Path:** Up to Row 8 -> West to x=27 -> Up to Row 7 -> West to x=26 -> North.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
