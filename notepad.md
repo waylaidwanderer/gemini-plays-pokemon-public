@@ -13,15 +13,12 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Navigate to the West side of Cianwood City:
-        - Surf South to Y=30.
-        - Surf West to (12, 30).
-        - Land at (11, 26).
+    1. Walk West to the coast:
+        - Walk South to Y=34.
+        - Walk West to X=2.
     2. Walk North to the sighting area:
-        - Walk West to X=0.
-        - Walk North to Y=14.
-        - Walk East to (7, 14).
-        - Walk North to (7, 4).
+        - Walk North to Y=4.
+        - Walk East to (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
