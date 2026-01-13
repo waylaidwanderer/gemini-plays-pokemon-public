@@ -42,6 +42,6 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** In Goldenrod City. Heading North to Route 35 Gatehouse.
-- **Strategy:** Shuffle Roamers by moving between Route 35 and National Park/Route 36.
-- **Roamer Hunt:** "Blind" hunt (Map unreliable/unverified). Relying on shuffling and Repels.
+- **Status:** On Route 35 (South Entrance).
+- **Action:** Move off warp (Up) -> Open Pokegear Map.
+- **Goal:** Verify Roamer location. If on Route 35, Hunt. If not, Shuffle.
