@@ -42,3 +42,6 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
+- **Event:** Received phone call from Bug Catcher Wade (Turn 36557).
+- **Correction:** Phone call interrupted previous menu attempt. Retrying Pokegear access.
+- **Menu State:** Cursor likely on POKEMON. Using `Down x2` to reach POKEGEAR.
