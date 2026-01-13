@@ -20,4 +20,9 @@
 
 # Fly Verification Log
 - Attempt 1 (Turn 45533): Exited Option menu. Cursor now on OPTION.
-- Attempt 2 (Turn 45534): Navigating to FLY menu to check starting city.
+- Attempt 2 (Turn 45534): Map opened successfully. Verified: Cursor starts at New Bark Town (red arrow at easternmost dot).
+- Attempt 3 (Turn 45535): Moving cursor to verify grid. Target: Ecruteak City.
+- Verified Fly Map Grid (Relative to New Bark):
+  - Left: Cherrygrove City.
+  - Left, Up: Violet City.
+  - Left, Up, Left: Ecruteak City.
