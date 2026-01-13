@@ -28,3 +28,4 @@
 - **Kanto Gyms:** All 8 Badges.
 - **Red:** Defeated.
 - **Lugia:** Caught (Maelstrom).
+- **Correction:** Fly attempt 1 failed (stayed in New Bark). Retrying with 'Left, Left, Up' and slower inputs.
