@@ -42,6 +42,11 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** On Route 35 (South Entrance).
-- **Action:** Move off warp (Up) -> Open Pokegear Map.
-- **Goal:** Verify Roamer location. If on Route 35, Hunt. If not, Shuffle.
+- **Status:** Preparing to Hunt on Route 35.
+- **Action:** Applying Repel (Gyarados Lv36 Lead).
+- **Strategy:** "Blind Shuffle"
+  1. Apply Repel.
+  2. Run in grass (Route 35) for ~20 steps.
+  3. If no encounter, enter/exit Gatehouse (Shuffle).
+  4. Repeat.
+- **Note:** Map visual is unreliable for Roamers. Repel check is definitive.
