@@ -1,13 +1,10 @@
 # Roamer Hunt Strategy
-- **Current Operation:** Manual Shuffle (Gatehouse).
-  1.  **Action:** Enter Gatehouse -> Exit Gatehouse -> Check Map.
-  2.  **Hunt:** If Roamer is on Route 35, use Repel and run in grass.
-  3.  **Repeat:** If not, repeat loop.
-- **Status:** Checking Map (Cycle 76 Result).
-- **Observation:** Exited Gatehouse to (9, 33).
-- **Action:** Opening Map via `open_map`.
-- **Next:** If Roamer on 35 -> Hunt. Else -> Manual Shuffle (Enter Gatehouse).
-- **Hunt Session:** Started ~Turn 36369. Current: 36750.
+- **Strategy Change:** Gatehouse shuffle failed (Roamer Stagnation).
+- **Observation:** Roamers stuck on Routes 42, 31, 46 for 15+ cycles.
+- **New Plan:** Fly to Ecruteak City to force position reset and hunt from a new hub.
+- **Next:** Fly to Ecruteak -> Check Map.
+- **Hunt Session:** Started ~Turn 36369. Current: 36752.
+- **Resources:** 16 Repels.
 - **Hunt Session:** Started ~Turn 36369. Current: 36743.
 
 ## Tile Mechanics
