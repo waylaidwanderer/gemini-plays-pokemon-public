@@ -157,7 +157,7 @@
     ]
   },
   "reset_roamers": {
-    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses extended sleeps (8s) and extra steps to handle map transition latency and border crossing. Hardcoded for player at y=4 on Route 37.",
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses extended sleeps (10s) to handle map transition latency. Hardcoded for player at y=4 on Route 37.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -171,7 +171,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 3)\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 4)\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 10000\")\nbuttons.append(\"Down\")\nbuttons.append(\"sleep 10000\")\nbuttons.extend([\"Down\"] * 4)\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -202,6 +202,11 @@
         "commit_message": "Fixed output format to be a JSON array instead of an object, as required by the system.",
         "timestamp": "2026-01-13T21:21:43.017Z",
         "action_counter": 37879
+      },
+      {
+        "commit_message": "Increased sleep to 10s and adjusted button sequence to correctly handle map transitions. Reduced 'Down' presses before the second sleep to ensure the warp transition is caught by the sleep.",
+        "timestamp": "2026-01-13T21:31:08.856Z",
+        "action_counter": 37897
       }
     ]
   }
