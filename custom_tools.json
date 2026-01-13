@@ -188,7 +188,7 @@
     ]
   },
   "cycle_roamer_hunt_route35": {
-    "description": "Executes a full roamer shuffle cycle on Route 35 starting and ending at (9, 31). 1. Closes Map. 2. Steps DOWN x2 (enters gatehouse), UP (exits to 9, 33), UP x2 (resets to 9, 31). 3. Re-opens Map.",
+    "description": "Executes a robust roamer shuffle on Route 35. 1. Closes Map. 2. Down x5 (Force Enter), Up x6 (Force Exit). 3. Re-opens Map. Drifts player North but prevents getting stuck.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -202,7 +202,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"sleep 6000\",\n    \"Up\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 500\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
+    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 6000\",\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"sleep 6000\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -248,6 +248,11 @@
         "commit_message": "Adjusted for starting position (9, 31). Cycle: Down x2 (Enter Gatehouse) -> Up (Exit to 9, 33) -> Up x2 (Reset to 9, 31). Ensures valid shuffle and return to safe start point.",
         "timestamp": "2026-01-13T03:22:37.219Z",
         "action_counter": 36685
+      },
+      {
+        "commit_message": "Updated to 'Robust Drift North' strategy. Down x5 guarantees entry from anywhere nearby. Up x6 guarantees exit. Drifts player North slowly but ensures shuffle success and prevents getting stuck inside.",
+        "timestamp": "2026-01-13T03:30:19.000Z",
+        "action_counter": 36691
       }
     ]
   }
