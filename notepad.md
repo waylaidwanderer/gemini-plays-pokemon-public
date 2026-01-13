@@ -25,8 +25,7 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Completed Cycles: 29.
-- Current Status: Cycle 30 pacing.
+- Completed Cycles: 30.
 - Repel 2: Active (Applied Turn 45627).
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
