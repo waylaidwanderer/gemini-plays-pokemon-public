@@ -42,6 +42,6 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** Navigating Main Menu to Pokegear (Cursor currently on PACK).
-- **Menu State:** Main Menu Open. Cursor on PACK.
-- **Action:** Down -> Pokegear -> Map.
+- **Status:** Navigating Pokegear. Stuck in Phone List.
+- **Action:** `B` (Close Popup) -> `B` (Exit List) -> `Up` (Ensure Tab Selection) -> `Left` (Map) -> `A`.
+- **Note:** Phone contact list seems to trap cursor. `B` or `Up` required to exit to tabs.
