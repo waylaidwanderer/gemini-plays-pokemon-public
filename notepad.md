@@ -53,7 +53,6 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Cycling Roamers (Cycle 38).
-- Observation: Roamers on Route 42, 31, 46 (Turn 36652). None on 35.
-- Pattern Break: Roamers have left the Route 38/44 cluster!
-- Action: Executing `cycle_roamer_hunt_route35`.
+- Status: Recovering from Failed Tool (Gatehouse).
+- Observation: Tool failed to exit Gatehouse. Manual exit initiated.
+- Action: Exit North -> Open Map to Check Roamers.
