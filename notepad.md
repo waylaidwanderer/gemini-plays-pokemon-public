@@ -143,3 +143,6 @@
 - **Action:** Right (Select Map) -> A (Open Map).
 - **Action:** Pressing 'A' to open full map view (Map Card is selected).
 - **Check:** If Roamers on Route 36 -> Hunt. Else -> Shuffle (Violet).
+- **Observation:** Player facing Left (was Up/Right), confirming Violet Shuffle executed.
+- **Action:** Opening Pokegear to check Mini-Map (Start -> A -> Right).
+- **Goal:** Verify if Roamer is on Route 36 without opening full map.
