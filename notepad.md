@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37349):** Fly option missing at (29, 4). Likely blocked by overhead tile (Pokemon Center door). Repositioning to (29, 5).
+- **Roamer Check (Turn 37350):** In Party Menu. Repositioned to (29, 5). Executing Fly to Ecruteak. Path: A (Menu) -> A (Fly) -> Left (Violet) -> Up (Ecruteak).
