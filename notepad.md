@@ -1,15 +1,16 @@
 # Mechanics & State
-- **Location:** New Bark Town (Fly Map Open).
+- **Location:** Silver Cave (Fly Map Open).
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map is active. Cursor at New Bark Town.
-- **Action:** Navigating Left x3 -> Down x1.
-- **Sequence:** New Bark -> Cherrygrove -> Violet -> Ecruteak -> Goldenrod.
-- **Delays:** Using 2000ms to prevent input drops.
+- **Menu State:** Fly Map active. Cursor at Silver Cave.
+- **Navigation Hazard:** Silver Cave appears to be a "dead end" node on the left.
+- **Hypothesis:** `Left` and `Down` from Silver Cave failed. Must go `Right` to Indigo Plateau, then `Down` to New Bark Town.
+- **Action:** Right (Indigo) -> Down (New Bark) -> Left (Cherrygrove) -> Left (Violet).
+- **Delays:** 2000ms.
 
 # Current Task: Roamer Hunt
-- **Status:** Navigation in progress.
+- **Status:** Escaping Silver Cave.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify "GOLDENROD CITY" text -> Fly.
+- **Next Step:** Verify "VIOLET CITY" or "CHERRYGROVE CITY".
 
 # Progress
 - **Badges:** 16/16.
