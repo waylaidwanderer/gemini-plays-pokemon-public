@@ -26,8 +26,6 @@
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
 # Fly Map List Mapping (Cycling Up)
-- Mahogany Town
-- Blackthorn City
 - Silver Cave
 - New Bark Town
 - Cherrygrove City
@@ -35,7 +33,9 @@
 - Azalea Town
 - Goldenrod City
 - Olivine City
-- Cianwood City [Current Selection]
+- Cianwood City
+- Mahogany Town [Current Selection]
+- Blackthorn City (Expected Next)
 
 # Lessons Learned
 - Roamers move on map transitions.
