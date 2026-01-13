@@ -10,7 +10,8 @@
 
 # Quest: Legendary Hunt
 - Quest Started: Turn 46043 (Jan 13, 2026).
-- Status: Navigating Fly Map (Turn 46098). Current: New Bark Town. Target: Indigo Plateau.
+- Status: Navigating Fly Map (Turn 46100). Current: Goldenrod City. Target: Indigo Plateau.
+- Observed Fly List: New Bark -> Cherrygrove -> Goldenrod... (Cycling Up).
 - Plan: Buy 30 Ultra Balls -> Catch Suicune (Tin Tower).
 
 ## Financial Status
