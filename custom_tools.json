@@ -203,12 +203,17 @@
         }
       }
     },
-    "python_script": "print('{\"buttons\": [\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\"]}')",
+    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\"]')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T08:02:25.233Z",
         "action_counter": 37052
+      },
+      {
+        "commit_message": "Fixed output format to be a valid JSON array instead of a JSON object.",
+        "timestamp": "2026-01-13T09:06:13.667Z",
+        "action_counter": 37081
       }
     ]
   }
