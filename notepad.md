@@ -9,8 +9,8 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Navigating Fly Map (Turn 46105).
-- Destination: Indigo Plateau (Mart).
+- Status: Traveling to Silver Cave for supplies.
+- Destination: Silver Cave (Mart).
 - Financials: ¥36,974 (Liquidation complete Turn 46081).
 - Goal: Purchase 30 Ultra Balls.
 
@@ -25,7 +25,7 @@
 - Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
-# Fly Map List Mapping (Cycling Up)
+# Fly Map List Mapping (Full Rotation)
 1. Mahogany Town
 2. Lake of Rage
 3. Blackthorn City
@@ -34,14 +34,10 @@
 6. Cherrygrove City
 7. Violet City
 8. Azalea Town [Current Selection]
-9. Goldenrod City (Expected Next)
-
-# Strategy Pivot: Silver Cave Mart
-- Indigo Plateau not found in Johto list.
-- Silver Cave (Destination #4) has a Mart that sells Ultra Balls.
-- Plan: Fly to Silver Cave instead of Indigo Plateau.
+9. Goldenrod City
+10. Olivine City
+11. Cianwood City
 
 # Lessons Learned
 - Roamers move on map transitions.
-- Fly map cursor starts at current location.
 - Fly tool: Use Pokemon menu -> FLY move for better reliability.
