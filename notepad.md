@@ -62,3 +62,5 @@
 - Fly Map Navigation: Cursor movement can be finicky; use 'Up' to jump large distances between regions.
 - Super Repels: Sold on 2F of Goldenrod Dept. Store.
 - COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
+- STAIRCASE: Warp tile. Leads to a different floor or area.
+- ESCALATOR: Warp tile. Automatically moves player between floors.
