@@ -10,6 +10,7 @@
 
 # Quest: Legendary Hunt
 - Strategy: Buy Ultra Balls at Blackthorn City Mart -> Fly to Ecruteak -> Catch Suicune (Tin Tower).
+- Route: Fly to Ecruteak City. Enter the Barrier Station at (31, 2) to reach Tin Tower.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
