@@ -61,3 +61,4 @@
 - Text Speed: Fast (Turn 44324).
 - Fly Map Navigation: Cursor movement can be finicky; use 'Up' to jump large distances between regions.
 - Super Repels: Sold on 2F of Goldenrod Dept. Store.
+- COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
