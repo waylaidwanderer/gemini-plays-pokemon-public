@@ -2,9 +2,9 @@
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
 - **Status:** Checking Map (Route 31).
-- **Recent:** Swapped Lugia to Lead (Turn 37065).
+- **Recent:** Finished call with Gaven (Turn 37066). Swapped Lugia to Lead.
 - **Hypothesis:** Roamers have not moved since entering Route 31.
-- **Next:** Verify Roamer location. If on Rt 31 -> Hunt. If not -> Shuffle (Violet).
+- **Next:** Verify Roamer location. If on Rt 31 -> Hunt. If not -> Shuffle.
 - **Method:** Close Gear (B, B) -> Right (Violet). Next turn: Left (Rt 36).
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
