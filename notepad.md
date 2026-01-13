@@ -10,13 +10,14 @@
 - **Session 2 Start**: Turn 44880 (2026-01-12 21:30).
 - **Session Limit**: 25 transitions. Current: 23. Will reposition if no encounter by then.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 44936). ~160 steps remaining. (Inventory: 71 Super Repels).
+- **Repel Status**: Active (Turn 44936). ~75 steps remaining. (Inventory: 71 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
-- **Session 2 (Turn 44880-Present)**: 23 transitions complete. Current: Transition 24.
+- **Session 2 (Turn 44880-Present)**: 24 transitions complete. Current: Transition 25.
+- **Reposition Plan**: If Transition 25 fails, Fly to Violet City and shuffle Route 31.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
