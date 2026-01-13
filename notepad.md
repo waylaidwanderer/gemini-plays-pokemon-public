@@ -19,14 +19,13 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Supply Run to Ecruteak.
-- **Reason:** Repels exhausted. Money low (¥294).
+- **Status:** Inside Ecruteak Mart.
 - **Plan:**
-  1. Go to Ecruteak Mart.
-  2. Sell ~5-10 Ultra Balls.
-  3. Buy 20+ Super Repels.
-  4. Return to Route 37 to resume hunt.
+  1. Sell 20 Ultra Balls (Target: ~¥12,000).
+  2. Buy ~24 Super Repels.
+  3. Return to Route 37.
 - **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
+- **Inventory:** 36 Ultra Balls. Selling 20 leaves 16. Enough for now.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
