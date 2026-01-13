@@ -27,17 +27,16 @@
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
-- Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (17, 35).
+- Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (Landing: 23, 28).
 
-# Fly Map Grid (Johto) - HYPOTHESIS
-- New Bark Town: Base (East)
-- Cherrygrove City: 1x Left from New Bark.
-- Violet City: 1x Up from Cherrygrove.
-- Ecruteak City: 1x Left from Violet.
-- Goldenrod City: 1x Down from Ecruteak.
+# Fly Map Grid (Johto) Absolute
+- (3, 3) Ecruteak, (4, 3) Violet, (5, 3) Mahogany
+- (3, 4) Goldenrod, (4, 4) Cherrygrove, (5, 4) New Bark
+- (3, 5) Azalea
+- (5, 2) Indigo Plateau
+- (2, 4) Olivine, (1, 4) Cianwood
 
 # Lessons Learned
 - Menu Navigation: Always verify the Start menu is open. The cursor persists.
-- Roamer Hunting: Efficiency comes from map transitions, not grass pacing.
+- Fly Map: Cursor starts at current location. Cherrygrove (4, 4) to Ecruteak (3, 3) is Up, Left.
 - Repel Steps: Verify overworld movement for step count. Menu loops do not count.
-- Fly Map: Cursor starts at current location. Ecruteak is NW of Cherrygrove.
