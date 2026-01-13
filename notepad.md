@@ -27,15 +27,22 @@
   3. Transition back to Ecruteak.
   4. Repeat.
 
+# Tile Mechanics
+- FLOOR: Traversable. Verified Turn 45281.
+- WALL: Impassable. Verified Turn 45281.
+- TALL_GRASS: Traversable, triggers wild encounters. Verified Turn 45281.
+- HEADBUTT_TREE: Impassable. Verified Turn 45281.
+- LEDGE_HOP_DOWN: One-way (Down). Verified Turn 45281.
+- LEDGE_HOP_RIGHT: One-way (Right). Verified Turn 45281.
+- WATER: Traversable with HM03 Surf. Verified Turn 45281.
+
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 78.
 - Repel 5: Applied Turn 45841. (~199 steps used).
-- Current Status: Starting Cycle 79. Transitioning to Ecruteak.
-- Repel Maintenance: Refresh Super Repel once it expires (likely in ~1 step).
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
-  - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
+  - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gastly learns it at Lv 13; Xenon likely missed it.
   - Decision: Stick to Master Ball for the first one, then evaluate Spinarak.
 - Strategy Note: Statistically, Entei/Raikou will appear within ~50-100 cycles of this shuffle. We are at 78. Continuing until encounter or ~100 cycles before reassessing.
 - Lesson: Trust turn history logs for bookkeeping to avoid 'time-slipping' errors.
