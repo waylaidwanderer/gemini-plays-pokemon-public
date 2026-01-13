@@ -21,5 +21,5 @@
 - **Status:** Attempt 32 (Transitioning).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Heading to Ecruteak to reset roamers.
-- **Progress:** Entering Ecruteak.
+  - Reset complete. Returning to Route 37.
+- **Progress:** Repel active. Heading South.
