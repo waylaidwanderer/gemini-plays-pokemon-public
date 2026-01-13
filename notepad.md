@@ -8,7 +8,7 @@
 - Session 4 Start: Turn 45281.
 - Method: Ecruteak Shuffle (Route 37 Gate).
 - Lead: ICARUS (Lv 19).
-- Repel: Super Repel active (Applied Turn 45439, 7 steps).
+- Repel: Super Repel active (Applied Turn 45439, 11 steps).
 - Contingency: Master Ball on sight.
 
 # Quest Log
