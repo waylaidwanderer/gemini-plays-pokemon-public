@@ -1,7 +1,7 @@
 # Legendary Roamer Hunt (Current Focus)
 - **Primary Strategy**: The Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Lead Pokemon**: ICARUS (Lv 19 Pidgeotto). Perfect for the Repel Trick on Route 37 (wild levels 13-16, roamers level 40).
-- **Repel Status**: Super Repel active.
+- **Repel Status**: Super Repel wore off Turn 44659. Re-applying now.
 - **Roamer Sightings**: None yet.
 - **Catching Strategy**:
   - Raikou: Use Master Ball immediately.
@@ -57,5 +57,5 @@
 - Route 38: Secondary hunting area.
 - Strategy: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 - Capture Priority: Use Master Ball on the first roamer encountered (Raikou or Entei).
-- Trap Strategy: If Master Ball is unavailable, use Mean Look or Spider Web. Haunter (Lv 44) is slower than roamers and requires priority or a Speed boost to act first.
-- Encounter History: Hunt began Turn 44521. Super Repel re-applied Turn 44634. No sightings yet.
+- Trap Strategy: If Master Ball is unavailable, use Mean Look or Spider Web.
+- Encounter History: Hunt began Turn 44521. No sightings yet.
