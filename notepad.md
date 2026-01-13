@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Safe spot: (29,5).
 - **Menu Navigation:** Cursor REMEMBERS positions. Party: Mistral (Slot 6). Main: Pokemon (Slot 2?).
-- **Action:** Exiting menu and moving off door mat to enable Fly.
-- **Next Step:** From (29,5), Start -> Party -> Fly.
+- **Action:** Executing Fly Sequence manually.
+- **Sequence:** Start -> Reset Main (Up x5) -> Pokemon -> Mistral (A) -> Fly (A) -> Map: Up, Left -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
