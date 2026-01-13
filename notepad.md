@@ -138,3 +138,8 @@
 - **Action:** `Up` (Select FLY) -> `A` (Open Map) -> `Left` x5 (Silver->Ecruteak) -> `Down` (Goldenrod).
 - **Goal:** Verify "GOLDENROD CITY" text.
 - **Delay:** 2000ms.
+- **Turn 38103:** Map confirmed OPEN at "SILVER CAVE".
+- **Visual:** Cursor is on the Red Dot for Silver Cave (likely West of Indigo/East of New Bark).
+- **Action:** Navigating Left x4 to reach Johto (Violet/Ecruteak).
+- **Delay:** 2500ms to handle map loading lag.
+- **Goal:** Verify text changes to a Johto city.
