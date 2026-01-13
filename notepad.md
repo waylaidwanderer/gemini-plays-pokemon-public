@@ -18,9 +18,9 @@
 
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
-- Completed Cycles: 88.
-- Repel 6: Applied Turn 45919. (~11 steps used).
-- Current Status: Starting Cycle 89.
+- Completed Cycles: 89.
+- Repel 6: Applied Turn 45919. (~14 steps used).
+- Current Status: Resetting for Cycle 90.
 - Lessons Learned (Updated): Interruption from phone calls can cancel menu actions. Verify item usage via inventory or text.
 - Step Tracking: Super Repel lasts 200 steps. Each shuffle cycle takes ~14 steps. 1 Repel ≈ 14 cycles.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Cycle between Ecruteak (17, 35) and Route 37 (7, 2) grass.
