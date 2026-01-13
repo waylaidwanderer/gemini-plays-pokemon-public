@@ -1,7 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Cursor remembers position.
 - **Roamer Hunt:** Fly to Ecruteak for better route connections.
-    - **Current Task:** Execute Fly from (29,5). Cursor on POKEMON -> Mistral (Slot 6).
+    - **Current Task:** Move to (29,5). Fly (Cursor on Mistral).
+    - **Confirmed:** Fly fails on door mat (29,4).
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
