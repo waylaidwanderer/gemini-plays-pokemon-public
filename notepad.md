@@ -16,7 +16,7 @@
 - Repel Tracking:
   - Last Applied: Turn 45919.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 100). Verified Turn 45937: Roamers unseen.
-- Current Status: Resetting for Cycle 98.
+- Current Status: Starting Cycle 98.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44): Lacks Mean Look. Confirmed: Cannot relearn (Turn 45962).
