@@ -11,7 +11,7 @@
 # Quest: Legendary Hunt
 - Status: Traveling to Blackthorn City Mart.
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Pivot to Blackthorn City since it sells Ultra Balls and is in the Johto Fly list. (Silver Cave has no Mart).
+- Strategy: Pivot to Blackthorn City since it sells Ultra Balls and is in the Johto Fly list. (Confirmed: Silver Cave has no Mart).
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
@@ -28,16 +28,21 @@
 1. Mahogany Town
 2. Lake of Rage
 3. Blackthorn City
-4. Silver Cave
+4. Silver Cave [Current Location]
 5. New Bark Town
 6. Cherrygrove City
-7. Violet City [Current Selection]
+7. Violet City
 8. Azalea Town
 9. Goldenrod City
 10. Olivine City
 11. Cianwood City
 
+# Quest Log
+- Dana's Gift: Route 38.
+- Yanma Swarm: Route 35.
+- Arnie's Interest: Wants to see a Growlithe (Turn 46118).
+
 # Lessons Learned
 - Roamers move on map transitions.
 - Fly map list navigation: 'Up' increases index, 'Down' decreases index.
-- Tool Hygiene: Ensure scripts are executed, not just defined.
+- Silver Cave Pokemon Center has no Mart.
