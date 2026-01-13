@@ -7,29 +7,28 @@
 - COUNTER: Impassable. Face to interact. Verified: Yes.
 - WARP_CARPET: Traversable. Map transition. Verified: Yes.
 - LEDGE_HOP_DOWN: One-way (Down). Verified: Yes.
+- DOOR: Warp tile. Verified: Yes.
 
 # Legendary Roamer Hunt Strategy
-- **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
-- **Lead**: ICARUS (Lv 19 Pidgeotto).
-- **Repel Trick**: Lv 19 lead filters for Roamers (Lv 40) in Ecruteak area.
-- **Status**: Repel Active. ~90 steps remaining.
+- **Overview**: Ecruteak Shuffle (Route 37 <-> Ecruteak).
+- **Repel Trick**: Lv 19 lead (ICARUS) with Super Repel active.
+- **Status**: Super Repel Active (~90 steps left).
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
-# Progress Tracking
-- Session 4 (Ecruteak Shuffle): Started Turn 45133. Encountered: 0.
+# Strategy Tools
+- **roamer_strategist**: Use to analyze hunt efficiency.
+- **grass_pacer**: Use for automated wild encounter pacing.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
 
-# Lessons Learned & Hypotheses
-- **Roamers**: [Verified] Do NOT appear on Pokegear map until first encounter.
-- **Menu Persistence**: [Hypothesis] The Start menu cursor stays on the last option used (e.g., SAVE).
-- **Menu Wrapping**: [Verified] The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT.
-- **Fly Navigation**: [Hypothesis] Ecruteak is 1x North (Up) of Violet City on the Fly Map.
+# Hypotheses & Lessons
+- [Hypothesis] Start menu cursor persists on last selected option (e.g., SAVE).
+- [Hypothesis] Fly map cursor persists on last highlighted destination.
+- [Lesson] Menu sequence tools can fail if the game state is not what's expected.
+- [Lesson] Scripted phone calls interrupt sequences.
 
-# Strategy: Fly to Ecruteak
-1. Open Start Menu.
-2. Navigate to POKEMON (Assuming cursor on SAVE: Up, Up, Up, Up).
-3. Select ICARUS -> FLY.
-4. On FLY map, navigate to Ecruteak (North of Violet) and press A.
+# Current Objective: Fly to Ecruteak
+- Plan: Start -> POKEMON -> ICARUS -> FLY -> (Navigate to Ecruteak) -> A.
+- Current Status: Resetting UI to resolve desync.
