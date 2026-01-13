@@ -31,7 +31,8 @@
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 43.
 - Repel 3: Applied Turn 45723. (~100 steps used).
-- Current Status: Starting Cycle 44. Moving to Route 37 grass.
+- Current Status: Pacing in Cycle 44.
+- Encounter Plan: Use Master Ball on first roamer encounter. For subsequent roamers, consider training a Trapper (Mean Look/Spider Web).
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
