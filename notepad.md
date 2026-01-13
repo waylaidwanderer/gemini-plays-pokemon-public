@@ -23,7 +23,7 @@
 - **Correction:** Cannot track Roamers on Map until seen once. Map check was futile.
 - **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds.
-  - Scan until Repel runs out.
+  - Scan until Repel runs out (~60 steps left).
   - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels when empty.
 
 # Tools & Automation
