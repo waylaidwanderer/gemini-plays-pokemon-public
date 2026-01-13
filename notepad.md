@@ -9,7 +9,7 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Flying to Blackthorn City.
+- Status: Flying to Blackthorn City (Manual navigation).
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
 - Strategy: Buy Ultra Balls at Blackthorn City Mart. Fly tool updated with Silver Cave coordinates (4, 2).
 
