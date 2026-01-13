@@ -30,17 +30,13 @@
 - **Menu Wrapping**: The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT. Do not use 'Up' to reset to the top.
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
-# Task: Flying to Ecruteak
-- Current Location: Cherrygrove City (Overworld).
-- Step 1: Open Fly Map (Start, A, A, A).
-- Step 2: Use fly_cherrygrove_to_ecruteak tool.
-- Start Turn: 45183
+# Strategy: Fly to Ecruteak
+1. Open Start Menu.
+2. Navigate to POKEMON (Cursor is likely on SAVE).
+3. Select ICARUS -> FLY.
+4. On FLY map, navigate to Ecruteak (North of Violet) and press A.
 
-# Lessons Learned
-- **Roamers**: Do NOT appear on Pokegear map until first encounter.
-- **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
-- **Notepad Hygiene**: Avoid turn-by-turn logging.
-- **Ledges**: Vertical movement is restricted by one-way ledges.
-- **Menu Wrapping**: The Start menu wraps.
-- **Fly Map Navigation**: Ecruteak is North of Violet.
-- **Start Menu Persistence**: Cursor stays on last option (currently SAVE).
+# Lessons Learned (Updated)
+- **Menu Persistence**: The Start menu cursor stays on the last option used (e.g., SAVE).
+- **Fly Navigation**: Ecruteak is North of Violet (Up from Violet's cursor position).
+- **Roamer Tracking**: Roamers do NOT appear on the Map until first encountered.
