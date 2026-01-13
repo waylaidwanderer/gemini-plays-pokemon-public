@@ -15,6 +15,6 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** In Phone Call (Mom).
-- **Action:** Finishing call -> Switching to Map Card.
+- **Status:** Finishing Call / Checking Map.
+- **Action:** Clear text -> Switch to Map Card -> Check positions.
 - **Strategy:** If nearby, pursue. If far, scramble (Route 37 border).
