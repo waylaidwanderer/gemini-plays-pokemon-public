@@ -18,7 +18,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 10 transitions completed. 0 encounters. Transition 11: Pacing finished (Turn 45049). Heading back to gatehouse.
+- **Session 3 (Route 31)**: 11 transitions completed. 0 encounters. Transition 12: Heading to gatehouse (Turn 45050).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
