@@ -42,3 +42,9 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Observations: Sage Dialogue (Turn 46279)
+- Sage at (5, 8) says: "The TIN TOWER shook! A POKéMON must have returned to the top!"
+- This dialogue repeats and does not lead to a battle.
+- Sage at (4, 6) says: "Please, do go on."
+- Hypothesis: The Wise Trio might be in map 4_2 or I need to check the Sage at (7, 10).
