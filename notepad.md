@@ -121,3 +121,9 @@
 - **Delay:** 1500ms.
 - **Goal:** Verify text "ECRUTEAK CITY". Next turn: Down to Goldenrod.
 - **Note:** Splitting the navigation to Goldenrod into two turns to ensure accuracy (Navigation to Ecruteak, then Down).
+- **Turn 38100:** Map STUCK at "NEW BARK TOWN".
+- **Observation:** `Left` x3 with 2000ms delay produced NO movement (Text remained "NEW BARK TOWN" in all frames).
+- **Hypothesis:** Cursor might be desynced or map state is glitchy.
+- **Action:** "Jiggle" strategy. Press `Right` (to Indigo/Wall) then `Left` x4.
+- **Goal:** Unstick cursor and reach Violet/Ecruteak.
+- **Delay:** 2500ms. High delay to force registration.
