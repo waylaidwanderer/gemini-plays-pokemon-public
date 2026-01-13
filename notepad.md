@@ -12,7 +12,7 @@
 - Method: Ecruteak Shuffle (Route 37 South Gate).
 - Current Shuffle Start: Turn 45539.
 - Lead: ICARUS (Lv 19).
-- Repel: Super Repel active (Applied Turn 45439, 20 steps in overworld).
+- Repel: Super Repel active (Applied Turn 45439, 22 steps in overworld).
 - Contingency: Master Ball on sight.
 
 # Quest Log
