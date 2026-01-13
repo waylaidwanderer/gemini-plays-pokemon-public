@@ -25,10 +25,10 @@
 
 # Hypotheses & Lessons
 - [Hypothesis] Start menu cursor persists on last selected option (e.g., SAVE).
-- [Hypothesis] Fly map cursor persists on last highlighted destination.
+- [Hypothesis] Fly map cursor persists on last highlighted destination or defaults to New Bark Town.
 - [Lesson] Menu sequence tools can fail if the game state is not what's expected.
 - [Lesson] Scripted phone calls interrupt sequences.
 
-# Current Objective: Fly to Ecruteak
-- Plan: Open Fly Map (Start, A, A, A), Navigate (Left, Up, Up), Confirm (A).
-- Current Status: Restarting sequence after phone call interruption.
+# Current Strategy: Fly to Ecruteak
+- Current State: Fly Map open at New Bark Town.
+- Path: Left (Cherrygrove) -> Up (Violet) -> Up (Ecruteak) -> A (Fly).
