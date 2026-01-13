@@ -31,4 +31,4 @@
 
 # Current Objective: Fly to Ecruteak
 - Plan: Start -> POKEMON -> ICARUS -> FLY -> (Navigate to Ecruteak) -> A.
-- Current Status: Resetting UI to resolve desync.
+- Current Status: Resetting UI to overworld. Opening Fly Map.
