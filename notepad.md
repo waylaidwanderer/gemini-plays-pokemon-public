@@ -56,3 +56,4 @@
 - **Recovery:** Currently in Party Menu with Fly selected. Executing Fly to Ecruteak to shuffle roamers.
 - **Action:** Select Fly -> Verify Destination (should be Ecruteak) -> Confirm.
 - **Navigation:** Executing Fly path: New Bark -> Left (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
+- **Navigation:** Retrying Fly path from Cherrygrove with longer delays: Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
