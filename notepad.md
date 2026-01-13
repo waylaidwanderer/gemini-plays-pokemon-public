@@ -16,6 +16,5 @@
 
 # Roamer Hunt Log
 - **Status:** Overworld (Ecruteak 17, 35).
-- **Action:** Start (Open Menu) -> A (Pokegear) -> Right (Map) -> A.
-- **Correction:** Previous turn revealed I was in the Start Menu, not Phone Menu. I mistakenly closed it.
-- **Goal:** Open Map to locate Raikou/Entei.
+- **Action:** Opening Pokegear Map to check Roamer positions.
+- **Strategy:** If Roamers are not on Route 37/42/36, move between Ecruteak and Route 37 to shuffle.
