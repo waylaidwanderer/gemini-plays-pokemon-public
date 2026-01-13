@@ -2,7 +2,8 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
 - **Repel Status**: None active. Last wore off Turn 44746. (0/200 steps taken).
-- **Roamer Status**: Raikou/Entei roaming. Not yet sighted.
+- **Roamer Status**: Raikou/Entei roaming. Last seen: Raikou (R38), Entei (R42) at Turn 44744.
+- **Shuffle Progress**: Transitioning to Ecruteak City now.
 - **Catching Strategy**: Master Ball immediately.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
