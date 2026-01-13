@@ -45,19 +45,12 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
-# Ecruteak Restock Plan (Started: Turn 44430)
-1. Travel to Ecruteak City (Fly from Goldenrod).
-2. Purchase 85 Super Repels at Ecruteak Mart.
-3. Head to Route 37 via Ecruteak City South exit.
-4. Resume legendary hunt using the 'grass_pacer' tool.
-
-# Floor Directory (Goldenrod Dept. Store)
-- 1F: Service Counter (Exit)
-- 2F: Trainer's Market (Basic Potions/Balls)
-- 3F: Battle Collection (X-Items)
-- 4F: Medicine Box (Vitamins)
-- 5F: TM Corner (TMs)
-- 6F: Rooftop Square
+# Restock Plan (Started: Turn 44430)
+1. Travel to Ecruteak City (Completed).
+2. Pivot to Olivine City (Ecruteak and Goldenrod Marts do NOT sell Super Repels).
+3. Purchase 85 Super Repels at Olivine Mart (Hypothesis).
+4. Head to Route 37 via Ecruteak City South exit.
+5. Resume legendary hunt using the 'grass_pacer' tool.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
@@ -68,4 +61,4 @@
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Text Speed: Fast (Turn 44324).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
-- Super Repel Location: Ecruteak City Mart (Confirmed for Pokemon Crystal).
+- Super Repel Location: Olivine City Mart (Hypothesis). Ecruteak Mart and Goldenrod Dept Store do NOT sell them in Crystal.
