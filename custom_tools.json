@@ -163,64 +163,6 @@
       }
     ]
   },
-  "route42_gate_shuffle": {
-    "description": "Executes the Roamer Shuffle loop on Route 42 with robust menu navigation: Closes Pokegear, enters/exits the Ecruteak Gate, and re-opens the Pokegear Map.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
-    },
-    "python_script": "import json\nprint(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Left\", \"sleep 6000\", \"Right\", \"sleep 6000\", \"Start\", \"sleep 1000\", \"A\", \"sleep 500\", \"Left\", \"sleep 250\", \"Left\", \"sleep 250\", \"Right\", \"sleep 500\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-12T20:22:49.714Z",
-        "action_counter": 36226
-      },
-      {
-        "commit_message": "Fixed commit message error. Increased sleep times to 3000ms to ensure reliable warping and added B presses to clear menus.",
-        "timestamp": "2026-01-12T20:26:03.884Z",
-        "action_counter": 36228
-      },
-      {
-        "commit_message": "Added an extra 'A' press at the end to automatically enter the Map view after opening the Pokegear.",
-        "timestamp": "2026-01-12T20:26:39.668Z",
-        "action_counter": 36229
-      },
-      {
-        "commit_message": "Increased sleep times to 5000ms to ensure reliable warping, as 3000ms was insufficient.",
-        "timestamp": "2026-01-12T20:29:59.154Z",
-        "action_counter": 36234
-      },
-      {
-        "commit_message": "Updated to use 'Start, A, Right, A' sequence for opening the Map, correcting the previous 'Start, A, A' which failed to navigate past the 'BACK' option. Maintains 5000ms sleep for warps.",
-        "timestamp": "2026-01-12T20:31:24.222Z",
-        "action_counter": 36236
-      },
-      {
-        "commit_message": "Removing directional input 'Right' to test if Pokegear remembers the Map card selection. Also increased warp sleep times to 6000ms for stability.",
-        "timestamp": "2026-01-12T20:35:27.966Z",
-        "action_counter": 36241
-      },
-      {
-        "commit_message": "Re-adding 'Right' input to the sequence because the Pokegear cursor was observed to default to the 'BACK' icon, requiring a move to the right to select the 'MAP' card.",
-        "timestamp": "2026-01-12T20:36:26.039Z",
-        "action_counter": 36242
-      },
-      {
-        "commit_message": "Updated menu navigation to be state-independent: uses 'Left, Left' to force cursor to 'BACK', then 'Right' to select 'MAP'. This prevents accidental selection of 'PHONE' if the cursor remembers the previous position.",
-        "timestamp": "2026-01-12T21:25:17.555Z",
-        "action_counter": 36283
-      }
-    ]
-  },
   "open_pack": {
     "description": "Reliably opens the Pack from the Start menu by forcing the cursor to the top before navigating to the 'PACK' option. Includes 'B' presses to close existing menus.",
     "input_schema": {
@@ -242,6 +184,26 @@
         "commit_message": "Created a reliable tool to open the Pack by resetting the Start menu cursor.",
         "timestamp": "2026-01-12T23:46:10.184Z",
         "action_counter": 36428
+      }
+    ]
+  },
+  "route35_roamer_shuffle": {
+    "description": "Enters and exits the Route 35 Gatehouse from (10,32) to shuffle Roamers, then opens the Pokegear Map. Assumes Start Menu cursor is on Pokegear.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "python_script": "print(json.dumps([\"Down\", \"Down\", \"sleep 2500\", \"Up\", \"Up\", \"sleep 2500\", \"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Right\", \"A\"]))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T01:57:38.769Z",
+        "action_counter": 36602
       }
     ]
   }
