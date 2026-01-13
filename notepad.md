@@ -71,7 +71,4 @@
 - Turn 44558: Main menu cursor confirmed at POKEDEX (Index 0) after backing out.
 
 # Failed Hypotheses & Attempts
-- Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
-- Turn 44576: Confirmed menu cursor memory behavior.
-- Turn 44590: Super Repel wore off.
-- Turn 44600: Attempt to re-apply Repel failed (landed in Pokedex due to safety limit truncation).
+- Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
