@@ -73,3 +73,6 @@
 - **Action:** Filtering Pokedex for Fire Types to find Entei.
 - **Hypothesis:** Entei is "Seen" (from Burned Tower event) and will appear in the filtered list.
 - **Sequence:** Right (Select Fire) -> Down x3 (Select Begin Search) -> A.
+- **Action:** Retrying Search Filter.
+- **Sequence:** Up x2 (Safety to top) -> Right (Select Fire) -> Down x2 (Select Begin Search) -> A.
+- **Reasoning:** Previous attempt failed to change type or execute search. Adding safety presses.
