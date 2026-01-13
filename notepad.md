@@ -1,13 +1,15 @@
 # Mechanics & State
-- **Location:** New Bark Town.
+- **Location:** New Bark Town (Fly Map Open).
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Party Menu. Cursor on Slot 1 (Gyarados). "Can't use that here" text box open.
-- **Action:** Close text (B) -> Navigate to Slot 6 (Down x5) -> Open Menu (A) -> Select Fly (A).
+- **Menu State:** Fly Map is active. Cursor at New Bark Town.
+- **Action:** Navigating Left x3 -> Down x1.
+- **Sequence:** New Bark -> Cherrygrove -> Violet -> Ecruteak -> Goldenrod.
+- **Delays:** Using 2000ms to prevent input drops.
 
 # Current Task: Roamer Hunt
-- **Status:** Recovering from menu error.
+- **Status:** Navigation in progress.
 - **Target:** Goldenrod City.
-- **Next Step:** Fly to Goldenrod.
+- **Next Step:** Verify "GOLDENROD CITY" text -> Fly.
 
 # Progress
 - **Badges:** 16/16.
