@@ -19,11 +19,12 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** At Silver Cave.
-- **Action:** Opening Fly Map.
-- **Goal:** Verify cursor start position (expecting Silver Cave or New Bark).
-- **Next Step:** Navigate to Goldenrod (Left x5, Down x1).
-- **Strategy:** Step-by-step verification to handle input lag.
+- **Status:** At Silver Cave (Fly Map Open).
+- **Action:** Navigating Fly Map cursor.
+- **Current Position:** Silver Cave.
+- **Destination:** Goldenrod City.
+- **Plan:** Execute Left x4 to reach Central/East Johto (New Bark/Violet). Verify text.
+- **Reason:** Previous inputs failed to register or move cursor. Increasing delays to 1000ms.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
