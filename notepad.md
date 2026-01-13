@@ -1,12 +1,12 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Fly to Ecruteak City (Central Hub).
-- **Status:** Flying to Ecruteak City.
-- **Action:** Select FLY (A) -> Navigate Map (Left x3) -> Confirm (A x2).
+- **Status:** Arrived in Ecruteak City. Checking Roamers.
+- **Action:** Open Pokegear -> Check Map.
 - **Goal:** Relocate to Ecruteak Hub.
 - **Next:** Check Roamers.
 - **Resources:** 16 Repels.
-- **Session Start:** Turn 36369. Current: 36756.
+- **Session Start:** Turn 36369. Current: 36814.
 
 # Reflection (Turn 36756)
 - **Error Analysis:** Route 35 Gatehouse Shuffle failed to move Roamers for 15+ cycles.
