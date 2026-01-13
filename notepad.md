@@ -50,10 +50,9 @@
 
 # Fly Strategy (Active)
 - Attempting to Fly to Goldenrod City.
-- Current Status: Fly map open. Cursor at Ecruteak City.
-- Observation: New Bark Town -> Up (5 times) -> Ecruteak City.
-- Plan: Navigate cursor to Goldenrod City. Try Down/Left.
-- Sequence: Navigate -> A (Confirm).
+- Current Status: Goldenrod City selected on Fly map.
+- Plan: Press A to confirm flight.
+- Sequence: A (Confirm).
 - If Fly fails, resume biking West.
 
 # Lessons Learned
