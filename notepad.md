@@ -93,3 +93,7 @@
 - **Reasoning:** Screen confirms Option Menu is open. Search is accessed via 'Start' from the main list.
 - **Action:** Navigating from 'GEAR' to 'POKEDEX' (Up x3) -> Open (A) -> Open Mode Menu (Select).
 - **Correction:** Cursor was on GEAR, not POKEDEX. Adjusted input sequence.
+- **Action:** In Pokedex Option Menu.
+- **Goal:** Select 'TYPE MODE' (Sorting by Type).
+- **Sequence:** Down x3 (Scroll to bottom options), A (Select).
+- **Reasoning:** 'New', 'Old', 'A to Z' are top 3. 'Type' should be below.
