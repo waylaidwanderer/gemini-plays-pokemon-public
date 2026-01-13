@@ -58,3 +58,4 @@
 - Strategy: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 - Capture Priority: Use Master Ball on the first roamer encountered (Raikou or Entei).
 - Trap Strategy: If Master Ball is unavailable, use Mean Look or Spider Web. Haunter (Lv 44) is slower than roamers and requires priority or a Speed boost to act first.
+- Encounter History: Hunt began Turn 44521. Super Repel re-applied Turn 44634. No sightings yet.
