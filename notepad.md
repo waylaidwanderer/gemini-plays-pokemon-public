@@ -66,3 +66,6 @@
 - **Turn 38082 Correction:** Previous turn failed because I was in the submenu.
 - **Action:** Press 'A' (Select FLY) -> Wait -> Left x2.
 - **Goal:** Open Map and move cursor to New Bark Town to confirm control.
+- **Turn 38083 Update:** Cursor confirmed at New Bark Town.
+- **Action:** Executing navigation: Left x3 -> Down x1.
+- **Goal:** Target Goldenrod City. Verify text "GOLDENROD CITY" next turn.
