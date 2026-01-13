@@ -29,7 +29,8 @@
   - Repel 1: Applied 45439, Wore off 45614.
   - Repel 2: Applied 45627.
 - Completed Cycles: 17.
-- Current Status: Cycle 18. Moving to grass at (7, 2).
+- Current Status: Cycle 18 pacing.
+- Turn Count: 45637.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
