@@ -55,3 +55,4 @@
 - **Tool Failure:** `safe_open_map` failed because the Start Menu wraps, causing the 'reset to top' logic to select 'Exit' or 'Pokemon'.
 - **Recovery:** Currently in Party Menu with Fly selected. Executing Fly to Ecruteak to shuffle roamers.
 - **Action:** Select Fly -> Verify Destination (should be Ecruteak) -> Confirm.
+- **Navigation:** Executing Fly path: New Bark -> Left (Cherrygrove) -> Left (Azalea) -> Up (Goldenrod) -> Up (Olivine) -> Down (Ecruteak).
