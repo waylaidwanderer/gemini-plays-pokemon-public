@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Resetting Menu State.
-- **Action:** Exiting Pokegear (B x3) -> Opening Start Menu.
-- **Reason:** Navigation inside Phone menu is unreliable/stuck.
-- **Next Step:** Verify Start Menu cursor -> Pokegear -> Map.
+- **Status:** Entering Pokegear.
+- **Action:** Executing Robust Map Entry Sequence.
+- **Sequence:** A (Enter) -> Left x3 (Reset to Back) -> Right (Map) -> A.
+- **Goal:** Locate Raikou/Entei.
