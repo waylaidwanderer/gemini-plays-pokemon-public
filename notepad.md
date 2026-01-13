@@ -29,3 +29,9 @@
 - **Ledges**: Vertical movement is restricted by one-way ledges.
 - **Menu Persistence**: Reset cursor with 'Up' several times.
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
+
+# Navigation Log: Fly to Ecruteak
+- Attempt 1 (Turns 45133-45150): Multiple failures due to menu cursor persistence and landing in wrong cities (Violet, Cherrygrove).
+- Attempt 2 (Turn 45152): Chad's phone call interrupted the sequence, leading to the Option menu.
+- Current Status: Exiting Option menu to retry Fly.
+- Strategy: Reset cursor with multiple 'Up' presses before selecting Pokemon menu.
