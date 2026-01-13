@@ -22,7 +22,7 @@
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - Walk in grass -> If no encounter -> Transition map -> Repeat.
-- **Progress:** Repel Active (~65/100 steps). Checking grass.
+- **Progress:** Repel Active (~70/100 steps). Still wiggling.
 - **Reflection (Turn 37638):**
   - Hygiene: Markers/Notepad verified good.
   - Strategy: Repel Shuffle is valid. Tooling not needed for simple loop.
