@@ -27,10 +27,7 @@
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
-- Fly Attempt History: Turn 45439-45501 (62 turns fumbling). 
-- Fly Loop Resolution: Opening Fly map and stopping to verify grid (Turn 45502).
-- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map).
-- Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (17, 35).
+- Fly Attempt History: Turn 45439-45503 (64 turns fumbling). Successfully landed in Cherrygrove (Turn 45503). Fly to Ecruteak via Left, Up.
 
 # Fly Map Grid (Johto)
 - New Bark Town: Base (East)
