@@ -15,12 +15,11 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** In Route 37 Grass.
-- **Action:** Applying Repel.
+- **Status:** Repel Active. In Route 37 Grass.
+- **Action:** Walking to find Roamers.
 - **Strategy:** Repel Shuffle.
-  1. Apply Repel (Lead: Gyarados Lv 36).
-  2. Walk 2-4 steps in grass.
-  3. If no encounter, exit to Ecruteak.
-  4. Re-enter and repeat.
-  - Repel lasts 100 steps (~25 checks). Very efficient.
-- **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel blocks trash (Lv ~15) but allows Roamers.
+  1. Walk 5-10 steps in grass.
+  2. If no encounter, Roamer is not here (Repel blocks everything else).
+  3. Exit to Ecruteak.
+  4. Re-enter Route 37 and repeat.
+- **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
