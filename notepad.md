@@ -13,9 +13,11 @@
 # Legendary Roamer Hunt
 - **Strategy**: Blind Encounter. Pace in Route 37 grass with Repel Trick to force a first roamer sighting.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
-- **Repel Status**: None active. (Failed application Turn 44816).
+- **Repel Status**: None active. (Last attempt failed).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED. They will not appear on the Pokegear map until the first battle.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
+- **Strategy**: Blind Encounter. Pace in Route 37 grass with Repel Trick (Lead Lv 19) to force a first roamer sighting. (Roamers move only on map transitions).
+- **Current Task**: Applying Super Repel at Turn 44819.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
 # Pokemon Info
