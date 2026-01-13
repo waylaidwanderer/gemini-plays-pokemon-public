@@ -31,12 +31,14 @@
 3. Blackthorn City
 4. Silver Cave
 5. New Bark Town
-6. Cherrygrove City [Current Selection]
-7. Violet City (Expected Next)
+6. Cherrygrove City
+7. Violet City [Current Selection]
+8. Azalea Town (Expected Next)
 
-# Hypothesis: Region Switching
-- Indigo Plateau may be on the Kanto Fly map.
-- Test: Press 'Right' on Fly map to attempt region switch.
+# Hypothesis: Missing Indigo Plateau
+- Indigo Plateau is not appearing in the Johto cycle.
+- Potential reasons: Region map switch required, or Fly point not registered.
+- Test: Press 'Select' on Fly map to attempt region switch if 'Right' continues to fail.
 
 # Lessons Learned
 - Roamers move on map transitions.
