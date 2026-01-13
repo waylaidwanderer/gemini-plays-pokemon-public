@@ -201,7 +201,9 @@
             "Cianwood City",
             "Mahogany Town",
             "Blackthorn City",
-            "Indigo Plateau"
+            "Indigo Plateau",
+            "Silver Cave",
+            "Lake of Rage"
           ],
           "type": "string"
         },
@@ -217,7 +219,9 @@
             "Cianwood City",
             "Mahogany Town",
             "Blackthorn City",
-            "Indigo Plateau"
+            "Indigo Plateau",
+            "Silver Cave",
+            "Lake of Rage"
           ],
           "type": "string"
         }
@@ -227,7 +231,7 @@
         "current_city"
       ]
     },
-    "python_script": "import json\ntarget = input_data['target_city']\ncurrent = input_data['current_city']\ncoords = {\n    'Indigo Plateau': (4, 0),\n    'Blackthorn City': (4, 1),\n    'New Bark Town': (4, 3),\n    'Mahogany Town': (3, 1),\n    'Cherrygrove City': (3, 3),\n    'Ecruteak City': (2, 1),\n    'Violet City': (2, 2),\n    'Azalea Town': (2, 4),\n    'Olivine City': (1, 2),\n    'Goldenrod City': (1, 3),\n    'Cianwood City': (0, 4)\n}\nstart_x, start_y = coords[current]\nend_x, end_y = coords[target]\ndx = end_x - start_x\ndy = end_y - start_y\nbuttons = ['B', 'B', 'Start', 'sleep 500', 'Up', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 2000']\nif dx > 0: buttons.extend(['Right'] * dx)\nelif dx < 0: buttons.extend(['Left'] * abs(dx))\nif dy > 0: buttons.extend(['Down'] * dy)\nelif dy < 0: buttons.extend(['Up'] * abs(dy))\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
+    "python_script": "import json\ntarget = input_data['target_city']\ncurrent = input_data['current_city']\ncoords = {\n    'Indigo Plateau': (4, 0),\n    'Lake of Rage': (3, 0),\n    'Blackthorn City': (4, 1),\n    'Mahogany Town': (3, 1),\n    'Silver Cave': (4, 2),\n    'Ecruteak City': (2, 1),\n    'Violet City': (2, 2),\n    'Olivine City': (1, 2),\n    'New Bark Town': (4, 3),\n    'Cherrygrove City': (3, 3),\n    'Goldenrod City': (1, 3),\n    'Azalea Town': (2, 4),\n    'Cianwood City': (0, 4)\n}\nstart_x, start_y = coords[current]\nend_x, end_y = coords[target]\ndx = end_x - start_x\ndy = end_y - start_y\nbuttons = ['B', 'B', 'B', 'Start', 'sleep 500', 'Up', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 2000']\nif dx > 0: buttons.extend(['Right'] * dx)\nelif dx < 0: buttons.extend(['Left'] * abs(dx))\nif dy > 0: buttons.extend(['Down'] * dy)\nelif dy < 0: buttons.extend(['Up'] * abs(dy))\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -243,6 +247,11 @@
         "commit_message": "Fixed fly_to_johto_v5: Removed run() function wrapper and corrected script execution to ensure JSON output. Removed redundant sleep commands and added overworld menu clearance.",
         "timestamp": "2026-01-13T18:39:42.825Z",
         "action_counter": 46111
+      },
+      {
+        "commit_message": "Added Silver Cave and Lake of Rage to Johto Fly map coordinates and enums. Refined overworld-to-fly-map sequence.",
+        "timestamp": "2026-01-13T18:44:46.823Z",
+        "action_counter": 46119
       }
     ]
   }
