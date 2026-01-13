@@ -22,10 +22,9 @@
 
 # Session Tracking
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
-- Shuffles Completed: 23.
 - Current Shuffle: 24.
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45414. Steps Taken: 159/200.
+- Repel Status: Applied Turn 45414. Wore off at Turn 45436.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
