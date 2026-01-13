@@ -157,13 +157,13 @@
     ]
   },
   "reset_roamers": {
-    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and immediately returning to the grass patch on Route 37 (Down) to reset Roamer positions. Hardcoded for the specific grass patch at y=4.",
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and immediately returning to the grass patch on Route 37 (Down) to reset Roamer positions. Includes sleeps for both map transitions. Hardcoded for player at y=4.",
     "input_schema": {
       "type": "object",
       "properties": {},
       "required": []
     },
-    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition\nbuttons.append(\"sleep 5000\")\n# Walk down 5 steps to return to grass\nfor _ in range(5):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition into Ecruteak\nbuttons.append(\"sleep 5000\")\n# Walk down 1 step to trigger return warp\nbuttons.append(\"Down\")\n# Wait for map transition back to Route 37\nbuttons.append(\"sleep 5000\")\n# Walk down 4 steps to return to grass (y=0 to y=4)\nfor _ in range(4):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -174,6 +174,11 @@
         "commit_message": "Increased sleep duration to 5000ms to ensure reliable map transition handling.",
         "timestamp": "2026-01-13T20:38:31.188Z",
         "action_counter": 37806
+      },
+      {
+        "commit_message": "Added a second sleep delay to handle the return warp from Ecruteak City back to Route 37, preventing input loss during the transition.",
+        "timestamp": "2026-01-13T20:39:10.691Z",
+        "action_counter": 37807
       }
     ]
   }
