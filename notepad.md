@@ -50,3 +50,10 @@
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
 - Yanma Swarm: Route 35 (Active).
+
+# Decisive Action Phase: Roamer Hunt
+- Commenced Turn: 45872.
+- Strategy: Continuous Ecruteak Shuffle using `execute_shuffle_cycle`.
+- Goal: Maintain loop until encounter or Repel depletion.
+- Resource: 58 Super Repels remaining.
+- Trapper: Master Ball reserved for first encounter.
