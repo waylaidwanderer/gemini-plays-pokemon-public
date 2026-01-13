@@ -22,9 +22,10 @@
 
 # Session Tracking
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
-- Current Shuffle: 24.
+- Completed Shuffles: 23.
+- Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45414. Wore off at Turn 45436.
+- Repel Status: Wore off at Turn 45437. Re-applying.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
@@ -48,3 +49,4 @@
 - Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists, but the menu must be active.
 - Notepad Editing: Be extremely precise with `old_text`. Special characters like < can be tricky.
 - Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check (post-encounter). Pre-encounter, 4 steps in grass is optimal.
+- Repel Steps: Verify step count against actual movement rather than estimated button presses.
