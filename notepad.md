@@ -31,5 +31,6 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
-- **Menu State:** Start Menu cursor is at `POKEGEAR`. This is critical for `open_party` (Up x2) and `open_pack` (Up x1).
+- **Menu State:** Start Menu cursor is at `POKEGEAR`. Confirmed after `open_map`.
+- **Tool Note:** `open_party` and `open_pack` assume cursor is at `POKEGEAR`. If cursor is elsewhere (e.g. after Party switch), use `sequence_press`.
 - **Roamer Check (Turn 37203):** Checked Map. Roamers are NOT on Route 31. Proceeding to shuffle.

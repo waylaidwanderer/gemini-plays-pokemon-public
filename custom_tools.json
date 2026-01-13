@@ -169,26 +169,27 @@
     ]
   },
   "open_pack": {
-    "description": "Reliably opens the Pack from the Start menu by forcing the cursor to the top before navigating to the 'PACK' option. Includes 'B' presses to close existing menus.",
+    "description": "Opens the Pack. Assumes the Start Menu cursor is currently on 'POKEGEAR' (e.g. after checking map). Sequence: B, B, Start, Up, A.",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": false,
-          "description": "If true, buttons will be pressed automatically."
+          "default": false
         }
-      },
-      "required": [
-        "autopress_buttons"
-      ]
+      }
     },
-    "python_script": "import json\nbuttons = [\n    \"B\", \"B\", \"Start\", \"sleep 500\",\n    \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \n    \"Down\", \"Down\", \n    \"A\"\n]\nprint(json.dumps(buttons))",
+    "python_script": "print(json.dumps([\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"A\"]))",
     "history": [
       {
         "commit_message": "Created a reliable tool to open the Pack by resetting the Start menu cursor.",
         "timestamp": "2026-01-12T23:46:10.184Z",
         "action_counter": 36428
+      },
+      {
+        "commit_message": "Fix open_pack to handle wrapping Start Menu correctly. Assumes cursor starts at POKEGEAR (default state for roamer hunting).",
+        "timestamp": "2026-01-13T11:01:27.215Z",
+        "action_counter": 37206
       }
     ]
   },
