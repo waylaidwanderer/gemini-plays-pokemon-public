@@ -37,3 +37,4 @@
 - **Correction:** Attempting 'Left -> Up -> Left' for Fly path. New Bark -> Cherrygrove (Left) -> Violet (Up) -> Ecruteak (Left).
 - **Observation:** Fly attempt 'Left -> Up -> Left' from New Bark cursor landed in Cherrygrove.
 - **Strategy:** Opening Fly map and moving cursor 'Up' from Cherrygrove to verify destination text before confirming.
+- **Strategy:** Opening Fly map and pausing to visually confirm the default cursor position before navigating.
