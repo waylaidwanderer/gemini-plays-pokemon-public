@@ -18,7 +18,7 @@
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
 - **Session 3 (Starting Now)**: Route 31 Shuffle.
-    - Transition 1: Pacing in grass at (6, 11).
+    - Transition 1: 0 encounters. Returning to Violet City.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
