@@ -1,13 +1,13 @@
 # Mechanics & State
 - **Location:** New Bark Town.
-- **Goal:** Fly to Goldenrod City (Department Store).
-- **Menu State:** Main Menu Open (Cursor on POKEDEX).
-- **Input Delay:** Using 1000ms for menu navigation.
+- **Goal:** Fly to Goldenrod City.
+- **Menu State:** Pokemon Menu (Submenu for Garnet open).
+- **Action:** Close Garnet menu (B) -> Select Mistral (Down x2) -> Open Menu (A) -> Select Fly (A).
 
 # Current Task: Roamer Hunt
-- **Status:** In New Bark Town (Mistake).
-- **Action:** Opening Party -> Select Mistral -> Fly -> Goldenrod.
-- **Roamers:** Raikou/Entei (Not registered).
+- **Status:** Fixing Menu Selection.
+- **Target:** Goldenrod City.
+- **Next Step:** Fly to Goldenrod.
 
 # Progress
 - **Badges:** 16/16.
