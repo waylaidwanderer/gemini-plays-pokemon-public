@@ -17,7 +17,7 @@
 # Legendary Roamer Hunt Strategy
 - Overview: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - Repel Trick: Lv 19 lead (ICARUS) with Super Repel active.
-- Status: Super Repel Active (Used Turn 45288, 200 steps).
+- Status: Super Repel Active (Used Turn 45288, 162 steps remaining).
 - Roamer Status: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Strategy Tools
@@ -32,5 +32,5 @@
 # Strategy: Ecruteak Shuffle
 - Path: Ecruteak City <-> Route 37.
 - Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
-- Current Status: Session 4. Super Repel Active (Used Turn 45288, ~200 steps).
+- Current Status: Session 4. Shuffle 1 complete. Returning to Route 37 grass.
 - Lead: ICARUS (Lv 19).
