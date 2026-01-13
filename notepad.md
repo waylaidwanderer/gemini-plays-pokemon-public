@@ -15,7 +15,8 @@
 - **Start Turn**: 44738.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
 - **Repel Status**: None active. (Last wore off Turn 44784).
-- **Shuffle Progress**: Pacing interrupted by Repel expiration at Turn 44784. Re-applying now.
+- **Roamer Status**: Location unknown (Map transition Turn 44785).
+- **Shuffle Progress**: Transitioned to Route 37 Turn 44785. Applying Repel and checking map.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
 # Pokemon Info
