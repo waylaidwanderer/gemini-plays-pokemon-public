@@ -48,7 +48,6 @@
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
-- Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Menu Memory: The main menu cursor does NOT reset to POKEDEX. It stays on the last selected option.
 - Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
 
