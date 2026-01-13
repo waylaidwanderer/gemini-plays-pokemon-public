@@ -15,16 +15,17 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Resetting (Exiting to Ecruteak).
+- **Status:** Resetting (Entering Ecruteak).
 - **Goal:** Register Raikou/Entei in Pokedex.
-- **Attempt:** 4 (Failed).
+- **Attempt:** 4 (Complete - Failed).
+- **Next:** Attempt 5.
 - **Strategy:** Repel Shuffle.
-  1. Exit to Ecruteak (Up).
+  1. Enter Ecruteak (Up).
   2. Re-enter Route 37 (Down).
   3. Walk in grass.
   4. Repeat.
 - **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
-- **Repel Steps:** ~64/100 used.
+- **Repel Steps:** ~70/100 used.
 
 # Current Task: Roamer Hunt
 - **Start Turn:** 37586
