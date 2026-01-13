@@ -76,3 +76,4 @@
 - Leg 5: (4, 51) -> (2, 34).
 - Leg 6: (2, 34) -> (7, 4).
 - Currently: Moving to (20, 48).
+- Turn 46401: At (12, 28), facing North towards water at (12, 27). Initiating Surf to bypass walls and reach northern land. Goal: Suicune sighting at (7, 4).
