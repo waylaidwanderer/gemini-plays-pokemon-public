@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Applied: Turn 45615 (200 steps). Current Turn: 45615.
+- Repel Applied: Turn 45615 (200 steps). Current Turn: 45617.
 - Completed Cycles: 15.
-- Current Status: Cycle 16. Refreshing Repel.
+- Current Status: Cycle 16. Moving to grass at (7, 2).
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
