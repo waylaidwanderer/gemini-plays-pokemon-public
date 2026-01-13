@@ -1,8 +1,9 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Fly to Ecruteak City (Central Hub).
-- **Status:** Selecting Fly (Mistral).
-- **Next:** Navigate Fly Map to Ecruteak.
+- **Status:** Flying to Ecruteak (from New Bark).
+- **Action:** Navigating Fly Map (Left x3 -> A).
+- **Path:** New Bark -> Cherrygrove -> Violet -> Ecruteak.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36756.
 
