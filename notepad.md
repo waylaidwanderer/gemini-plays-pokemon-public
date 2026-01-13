@@ -16,10 +16,10 @@
 
 # Current Task: Roamer Hunt (Raikou/Entei)
 - **Start Turn:** 37586
-- **Location:** Route 37 (Exit) -> Ecruteak.
+- **Location:** Route 37 (Corridor) -> Ecruteak.
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Attempt 18 (Failed).
+- **Status:** Attempt 19 (Transitioning).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - **New Tactic:** Walk ~20 steps in grass per attempt.
-- **Progress:** Repel Active (~80/100 steps left). Resetting map for Attempt 19.
+  - Walk ~20 steps in grass per attempt.
+- **Progress:** Repel Active (~80/100 steps left). Heading North to reset.
