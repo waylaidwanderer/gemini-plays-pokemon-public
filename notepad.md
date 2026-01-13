@@ -1,11 +1,12 @@
-# Legendary Roamer Hunt (Current Focus)
-- **Primary Strategy**: The Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
-- **Lead Pokemon**: ICARUS (Lv 19 Pidgeotto). Perfect for the Repel Trick on Route 37 (wild levels 13-16, roamers level 40).
-- **Repel Status**: Super Repel active (Applied Turn 44664, ~180 steps remaining).
-- **Roamer Sightings**: None yet.
-- **Catching Strategy**:
-  - Raikou: Use Master Ball immediately.
-  - Entei: Use XENON (Haunter) for Hypnosis. Note: Roamers flee on turn 1. High speed or priority moves/trapping is required if not using Master Ball.
+# Legendary Roamer Hunt
+- **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
+- **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
+- **Repel Status**: Applied Turn 44664. ~114 steps remaining.
+- **Capture Strategy**: Use Master Ball immediately on first roamer encounter. Note: Roamers flee on turn 1.
+- **Roamer Tracking**:
+  - Route 37: Active hunting.
+  - Route 38: Alternate hunting.
+  - Encounter History: Hunt began Turn 44521. No sightings yet.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground.
@@ -51,11 +52,3 @@
 - **Fly**: Only works outdoors.
 - **Suicune (Crystal)**: Not a roamer. Found at Tin Tower (Clear Bell + Wise Trio).
 - **Repel Trick**: Use a lead with level between local wild and target legendary.
-
-# Roamer Tracking
-- Route 37: Active hunting area.
-- Route 38: Secondary hunting area.
-- Strategy: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
-- Capture Priority: Use Master Ball on the first roamer encountered (Raikou or Entei).
-- Trap Strategy: If Master Ball is unavailable, use Mean Look or Spider Web.
-- Encounter History: Hunt began Turn 44521. No sightings yet.
