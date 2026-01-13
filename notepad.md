@@ -80,3 +80,7 @@
 - **Sequence:** Up (Select FLY) -> A (Open Map) -> Left x5 (Silver -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak) -> Down x1 (Goldenrod).
 - **Delay:** 1500ms.
 - **Goal:** Verify "GOLDENROD CITY" text next turn.
+- **Turn 38087 Update:** Map is open at Silver Cave. Previous inputs failed to move cursor (suspect timing).
+- **Action:** Retrying Left x5 using `navigate_fly_map` with 1000ms delay.
+- **Hypothesis:** Map is now fully loaded and should accept inputs.
+- **Target:** Ecruteak City (or at least move away from Silver Cave).
