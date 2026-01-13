@@ -15,8 +15,8 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Shuffling Roamers (Ecruteak <-> Route 37).
-- **Action:** Closing Map -> Walking South to Route 37.
-- **Strategy:** Cross border to shuffle, return, check map.
-- **Current Position:** Ecruteak (17, 31).
-- **Target:** Route 37 Boundary (South).
+- **Status:** Shuffling Roamers (Route 37 -> Ecruteak).
+- **Action:** Walking North to Ecruteak City.
+- **Strategy:** Cross border to shuffle, then check map.
+- **Current Position:** Route 37 (7, 0).
+- **Target:** Ecruteak City.
