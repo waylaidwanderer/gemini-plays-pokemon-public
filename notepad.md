@@ -37,3 +37,6 @@
 - Land route to West Cianwood is a maze of one-way walls and building blockades.
 - Water route requires navigating gaps in BUOY lines at (16, 24), (23, 15), and (20, 9).
 - Northern land mass at Row 10 is the intended landing zone for reaching (7, 4).
+
+# Navigation Log
+- Turn 46477: Arnie's phone call interrupted movement. Identified bug in find_path_v7_robust (is_surfing boolean parsing). Fixed. Resuming trek to (7, 4).
