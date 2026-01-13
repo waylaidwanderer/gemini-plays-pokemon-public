@@ -50,3 +50,6 @@
 - Turn 46381: Traced land path around north-east water. Column 11 is blocked by water at Y=22. 
 - Path: (11, 21) -> (9, 21) -> (9, 29) -> (12, 29) -> (12, 44) -> (4, 44) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
 - Initiating first leg: navigate to (9, 29).
+- Turn 46389: Navigation south at X=17 blocked by building at Y=36. Row 50 ledge (X=12-19) blocks south entry. Gap found at X=20.
+- Revised Path: (17, 35) -> (20, 35) -> (20, 51) -> (4, 51) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
+- Initiating leg to (4, 51).
