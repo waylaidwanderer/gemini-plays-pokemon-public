@@ -49,10 +49,10 @@
 - Route 36: 0 encounters.
 - Route 38: 0 encounters.
 
-# Restock Plan (Started: Turn 44430)
+# Restock Plan (Completed: Turn 44479)
 1. Travel to Ecruteak City (Completed).
 2. Pivot to Olivine City (Completed).
-3. Purchase 85 Super Repels at Olivine Mart (In progress).
+3. Purchase Super Repels at Olivine Mart (Completed - have 85).
 4. Head to Route 37 via Ecruteak City South exit.
 5. Resume legendary hunt using the 'grass_pacer' tool.
 
