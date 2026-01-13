@@ -30,10 +30,11 @@
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
 - Method: 
-  1. Enter Route 37.
-  2. Move to tall grass at (14, 12).
-  3. Pace exactly 4 steps.
-  4. If no encounter, return to Ecruteak and repeat.
+  1. Enter Route 37 at (7, 0) or (8, 0).
+  2. Move to tall grass at (7, 2).
+  3. Pace exactly 4 steps using grass_pacer.
+  4. Return to Ecruteak at (17, 35) or (18, 35).
+  5. Repeat.
 - Note: Pokegear Map is useless until the first encounter.
 - Lead: ICARUS (Lv 19).
 
