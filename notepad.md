@@ -15,16 +15,14 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Resumed (In Grass).
-- **Location:** Route 37 (7, 0) -> Grass.
+- **Status:** Wiggling in Grass (Route 37).
+- **Location:** Route 37 (7, 2).
 - **Goal:** Register Raikou/Entei in Pokedex.
 - **Attempt:** 7 (Active).
 - **Strategy:** Repel Shuffle.
-  1. Move into grass (Down, Down).
-  2. Wiggle (Left, Right).
-  3. **WATCH FOR REPEL EXPIRATION**.
-  4. If Repel expires, open Pack and use another.
-  5. If no encounter, exit to Ecruteak and repeat.
+  1. Wiggle (Left, Right, Left, Right).
+  2. **MONITOR REPEL**: Steps > 100? If wild encounter occurs, Repel is OFF. If "Wore off" text, Repel is OFF.
+  3. If no encounter, exit to Ecruteak and repeat.
 - **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
 
 # Current Task: Roamer Hunt
