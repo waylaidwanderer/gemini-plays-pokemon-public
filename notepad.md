@@ -16,8 +16,11 @@
     - Attempted northern surf route; blocked by buoy barrier at X=16.
     - Attempted direct land route; blocked by wall at Y=15.
 - Strategy (The "How"):
-    1. Navigate to (11, 15) gap in the wall using a combination of walking and surfing if needed.
-    2. Reach (7, 4) for the sighting.
+    1. Start Surfing: Face (14, 16) and press A.
+    2. Surf East: Move to X=23 to pass the first buoy barrier.
+    3. Surf North & East: Move to (27, 8) to pass the second buoy barrier.
+    4. Surf West & North: Land at (15, 10).
+    5. Walk: (15, 10) -> (7, 10) -> (7, 4) for the sighting.
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
