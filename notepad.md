@@ -36,15 +36,9 @@
 - New Bark Town: Base (East)
 - Cherrygrove City: 1x Left from New Bark.
 - Violet City: 1x Up from Cherrygrove.
-- Ecruteak City: 1x Up, 1x Left from Violet? (To be verified)
-
-# Dana's Gift
-- NPC: Lass Dana.
-- Location: Route 38.
-- Status: Gift waiting (Turn 45331 call).
-
-# Lessons Learned
-- Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists.
-- Roamer Hunting: Efficiency comes from map transitions, not grass pacing.
-- Repel Steps: Verify overworld movement for step count. Menu loops do not count.
-- Fly Grid: Cherrygrove -> Up -> Violet. Up from Violet is blocked or same. Ecruteak is likely West of the Violet column.
+- Ecruteak City: 1x Left from Violet. (Verified: Up from Violet is the top of that column).
+- Fly Grid (Johto) Absolute:
+  - (3, 3) Ecruteak, (4, 3) Violet, (5, 3) Mahogany
+  - (3, 4) Goldenrod, (4, 4) Cherrygrove, (5, 4) New Bark
+  - (3, 5) Azalea
+  - (5, 2) Indigo Plateau
