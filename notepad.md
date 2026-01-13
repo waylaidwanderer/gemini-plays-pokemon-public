@@ -13,10 +13,9 @@
 # Legendary Roamer Hunt (Started Turn 44738)
 - **Strategy**: Manual Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 4-10 steps in grass, repeat. Manual buttons are used to bypass tool fragility with warps.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40).
-- **Repel Status**: Expired Turn 44876. Attempt 12 in progress. In Pack, cursor on Full Restore. Strategy: Down x2 (to Super Repel) -> A -> A (Use) -> B x3 to overworld. Inventory: 73.
-- **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
-- **Catching Strategy**: Master Ball immediately upon first encounter.
-- **Agent Advice (legendary_tracker)**: Level 19 is sufficient for Route 37 Repel Trick. Use Master Ball on first encounter.
+- **Repel Status**: Active (Turn 44880). 200 steps remaining. Inventory: 72.
+- **Strategy**: Ecruteak Shuffle. Pace 5-10 steps in R37 grass, then transition to Ecruteak and back.
+- **Current Action**: Pacing in grass at (7, 2) <-> (8, 2).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
