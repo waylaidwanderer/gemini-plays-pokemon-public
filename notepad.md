@@ -1,9 +1,9 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (29,4). Must be at (29,5).
-- **Menu Navigation:** Cursor confirmed on Garnet (Slot 4). Need Mistral (Slot 6).
+- **Menu Navigation:** Cursor Memory Confirmed (Mistral). Map: Cherrygrove -> Violet -> Goldenrod -> Ecruteak.
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 22:** Down x2 -> Select Mistral -> Fly.
-    - **Sequence:** Down, Down, A -> Sleep -> A (Fly) -> Map: Left, Up -> A.
+    - **Attempt 23:** Assume Mistral Selected -> Fly -> Left, Left, Up.
+    - **Sequence:** Start -> A (Party) -> A (Mistral) -> A (Fly) -> Left -> Left -> Up -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
