@@ -2,16 +2,18 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
 - **Repel Status**: Applied Turn 44664 (200 steps).
-  - Steps taken: 68
-  - Steps remaining: 132
+  - Steps taken: 88
+  - Steps remaining: 112
 - **Capture Strategy**: Use Master Ball immediately on first roamer encounter.
 - **Roamer Tracking**:
   - Route 37: Active hunting.
   - Route 38: Alternate hunting.
-- **Agent Insights (legendary_tracker)**:
+- **Agent Advice (legendary_tracker)**:
   - Target: Raikou or Entei (Roamers).
   - Method: Use Master Ball (efficiency) and Repel Trick (Lv 17-39 lead).
-  - Note: Suicune is a static encounter at Tin Tower in Crystal.
+  - Note: Suicune is a static encounter at Tin Tower in Crystal. Roamers use Roar, making Master Ball the best choice.
+  - Tracking: Use Pokedex "Area" function after first encounter to intercept.
+- **Encounter History**: Hunt began Turn 44521. No sightings yet. Strategy: Ecruteak Shuffle. Transition maps every ~30 steps.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground.
