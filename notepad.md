@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Route 36 (Central).
-- **Status:** Navigating tree maze to Route 37 Junction.
-- **Goal:** Reach (26, 0) to enter Route 37.
-- **Path:** Up to Row 8 -> West to x=27 -> Up to Row 7 -> West to x=26 -> North.
+- **Location:** Route 37 (Entering from South).
+- **Goal:** North to Ecruteak City.
+- **Roamer Hunt:** Roamers move when crossing map boundaries. Route 36 -> 37 is a boundary.
+- **Task:** Check Pokegear Map upon arrival in Ecruteak (or safely in Route 37).
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
@@ -11,6 +11,5 @@
 - **Red:** Defeated.
 
 # Important Locations
-- **Fly Connections:**
-    - Cherrygrove -> Violet (Up) -> Ecruteak (Left)
-    - Violet -> Route 36 (West)
+- **Route 37:** Contains Red, Blue, and Black Apricorns.
+- **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
