@@ -18,7 +18,7 @@
 
 # Progress Log
 - **Session 3 (Route 31)**: 16 transitions completed. 0 encounters.
-- **Current**: Transition 17 in progress. Heading to gatehouse (Turn 45080). Used Super Repel.
+- **Current**: Transition 17: Heading to gatehouse (Turn 45082). Super Repel active.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
