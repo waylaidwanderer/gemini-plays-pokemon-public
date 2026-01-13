@@ -13,12 +13,12 @@
 # Legendary Roamer Hunt (Started Turn 44738)
 - **Strategy**: Manual Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 4-10 steps in grass, repeat. Manual buttons are used to bypass tool fragility with warps.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40).
-- **Repel Status**: Active (Turn 44880). ~175 steps remaining. Inventory: 72.
+- **Repel Status**: Active (Turn 44880). ~150 steps remaining. Inventory: 72.
 - **Strategy**: Ecruteak Shuffle.
-- **Current Action**: Transitioning to Ecruteak City (Up from 8, 2). Session started Turn 44880. Current transition count: 7.
+- **Current Action**: Transitioning back to Route 37 (Down from 18, 35). Session started Turn 44880. Current transition count: 8.
 - **Roamer Search History**:
     - Session 1 (Turns 44738-44876): 10+ transitions, 0 encounters. Interrupted by Repel expiration.
-    - Session 2 (Turn 44880-Present): 6 transitions complete. Super Repel active. Strategy: 10 steps in grass per transition. Currently starting transition 7.
+    - Session 2 (Turn 44880-Present): 7 transitions complete. Super Repel active. Strategy: 10 steps in grass per transition. Currently starting transition 8.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
