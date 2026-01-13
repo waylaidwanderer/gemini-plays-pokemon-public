@@ -22,4 +22,4 @@
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - Repel expired during scan. Re-applying.
-- **Progress:** Dismissing text. Opening menu.
+- **Progress:** Entering Pack to apply Repel.
