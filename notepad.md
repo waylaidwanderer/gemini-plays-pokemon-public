@@ -83,3 +83,6 @@
 - **Plan:** Verify Search Menu is open before inputting search parameters.
 - **Action:** Configuring Pokedex Search for 'FIRE' type.
 - **Sequence:** Up x2 (Force top/Type 1), Right (Normal -> Fire), Down x3 (Navigate to 'Search'), A (Execute).
+- **Correction:** Was stuck in 'Entry View' (Kakuna). Previous inputs likely navigated entries instead of menus.
+- **Action:** Pressing 'B' to return to List View.
+- **Action:** Pressing 'Select' to open the Search/Mode menu (Standard Gen 2 control).
