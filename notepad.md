@@ -115,3 +115,9 @@
 - **Action:** Hard Reset (B -> A) to ensure start at Silver Cave. Then Left x2.
 - **Goal:** Reach New Bark Town reliably.
 - **Delay:** Increased to 2000ms to combat potential lag.
+- **Turn 38098:** Confirmed map is CLOSED. Menu cursor on 'FLY'.
+- **Action:** Press 'A' to open map. Then navigate to Ecruteak City.
+- **Sequence:** A (Open) -> Left x5 (Silver -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
+- **Delay:** 1500ms.
+- **Goal:** Verify text "ECRUTEAK CITY". Next turn: Down to Goldenrod.
+- **Note:** Splitting the navigation to Goldenrod into two turns to ensure accuracy (Navigation to Ecruteak, then Down).
