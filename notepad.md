@@ -13,16 +13,13 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Navigate around Buoy Barrier:
-        - Surf South to Y=26.
-        - Surf West to X=17.
-        - Surf North to Y=11.
-    2. Land: Move West to (16, 11).
-    3. Sighting: Reach (7, 4).
+    1. Navigate around the buoy barrier at X=18-22 by surfing south to Y=26.
+    2. Reach the northern waters by surfing east and then north around the barrier.
+    3. Land at (16, 11) and walk to (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis immediately. Switch to GORP (Snorlax) to chip HP with Body Slam/Rollout. Switch to KIMCHI (Gloom) for backup Sleep Powder. Suicune does not flee.
+- Strategy: Use Hypnosis immediately. Switch to GORP (Snorlax) to chip HP with Body Slam/Rollout (Snorlax's high Sp.Def tanks BubbleBeam well). Switch to KIMCHI (Gloom) for backup Sleep Powder. Suicune does not flee.
 - Moves: Hypnosis (Priority), Night Shade (Chipping).
 - Target HP: ~135 (Lv 40). Night Shade deals 44 dmg. 3 hits = 132 dmg.
 - Catching: Ultra Balls (32) while asleep.
