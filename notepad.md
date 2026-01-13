@@ -31,6 +31,5 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
-- **Tool Failure:** `open_party` failed because the Start Menu cursor was at `POKEDEX`, not `POKEGEAR`. It then wrapped to `EXIT` and closed the menu. Need to account for cursor memory or lack thereof.
-- **Menu System:** Start Menu WRAPS. Verified via logic (Up 10 from POKEGEAR -> POKEGEAR). This breaks `open_pack` and `open_party` which assume clamping. Current cursor: POKEGEAR.
+- **Menu State:** Start Menu cursor is at `POKEGEAR`. This is critical for `open_party` (Up x2) and `open_pack` (Up x1).
 - **Roamer Check (Turn 37203):** Checked Map. Roamers are NOT on Route 31. Proceeding to shuffle.
