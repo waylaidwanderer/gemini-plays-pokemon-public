@@ -16,10 +16,10 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Find Suicune Sightings - IN PROGRESS.
-       - Cianwood: Northern ledge past Pharmacy.
+       - Cianwood City: Northern ledge past Pharmacy (NOT DONE).
        - Route 42: Middle island with Apricorn trees (requires Surf).
        - Route 36: Near Sudowoodo's old spot.
-    2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by sightings.
+    2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by completing sightings.
     3. Battle Suicune (Tin Tower 1F).
 
 # Strategy: Suicune Capture (Verified)
@@ -28,6 +28,9 @@
 - Status: Maintain Sleep. If Sleep fails, use KIMCHI's Sleep Powder (75% accuracy).
 - Capture: Ultra Balls while asleep.
 - Items: Ultra Balls (32), Full Restore.
+
+# Observations: Wise Trio & Suicune
+- Missing Prerequisites: Suicune sightings in Cianwood, Route 42, and Route 36 are required to trigger the Trio battle and Suicune encounter.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
