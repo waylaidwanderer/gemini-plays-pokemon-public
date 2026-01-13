@@ -34,3 +34,5 @@
 - **Map Navigation Note:** Standard button presses failed to move the Fly cursor from New Bark Town. Suspect input speed issue. Testing with delays.
 - **Reflection (Turn 38054):** Addressed stuck Fly map state. Previous inputs ignored. Using `navigate_fly_map` with 500ms delays to ensure registration. Goal: New Bark -> Ecruteak (Left x3) -> Goldenrod.
 - **Map Navigation Strategy:** Resetting cursor by closing/reopening map (B -> A). Assuming start at Ecruteak, Down -> Goldenrod.
+- **Fly Navigation:** Retrying Fly from Silver Cave. Step 1: Open Map. Step 2: Navigate Left (West) to Johto.
+- **Correction:** Previous attempts to move cursor from Silver Cave failed. Testing if map is responding or if Silver Cave is isolated.
