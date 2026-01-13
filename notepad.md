@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37344):** Landed in New Bark Town (Mistake). Correcting course to Ecruteak. Path: Start -> Pokemon -> Mistral -> Fly -> Left (Cherry), Left (Violet), Up (Ecruteak).
+- **Roamer Check (Turn 37346):** Landed in Cherrygrove City. Continuing to Ecruteak. Path: Start -> A (Pokemon) -> Select Mistral -> Fly -> Left (Violet), Up (Ecruteak).
