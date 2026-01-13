@@ -15,15 +15,15 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Repel Expired. Renewing.
+- **Status:** In Pack. Selecting Repel.
 - **Location:** Route 37 (7, 2).
 - **Goal:** Register Raikou/Entei in Pokedex.
 - **Attempt:** 8 (Paused).
 - **Strategy:** Repel Renewal.
-  1. Clear "Wore off" text.
-  2. Open Pack.
-  3. Use Repel.
-  4. Continue Shuffle.
+  1. Select Repel (Cursor should remember position).
+  2. Use Repel.
+  3. Close Pack.
+  4. Resume Shuffle.
 - **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
 
 # Current Task: Roamer Hunt
