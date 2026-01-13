@@ -64,3 +64,5 @@
 - **Action:** Transitioned to Route 36.
 - **Strategy:** Opening menu to check Pokegear Map. If Roamers are present, hunt. If not, continue to Route 37/Ecruteak.
 - **Action:** Pressing 'A' twice to force Full Map view from Pokegear menu.
+- **Observation:** Full map failed to open with previous 'A, A' sequence. UI might be unresponsive or requiring single, distinct inputs.
+- **Action:** Pressing 'A' once with a long wait to confirm map opening.
