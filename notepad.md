@@ -26,8 +26,9 @@
 # Tracking: Session 4
 - Start: Turn 45281.
 - Completed Cycles: 35.
-- Repel 2: Active (Applied Turn 45627). (~140 steps used).
-- Current Status: Cycle 35 pacing complete. Moving back to Ecruteak City.
+- Repel 2: Wore off at Turn 45718.
+- Repel 3: Active (Applied Turn 45718).
+- Current Status: Reapplying Repel at Route 37 border. Finishing Cycle 35.
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
