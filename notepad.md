@@ -1,7 +1,7 @@
 # Mechanics & State
 - **Location:** Route 37.
 - **Goal:** Encounter Raikou/Entei.
-- **Fly Lesson:** Map inputs need massive delays (5s+ load, 2s+ between inputs).
+- **Map Transition Latency:** All map transitions (Warps, Fly, Borders) require massive delays (8s+ load) to prevent input swallowing. Critical for automation.
 - **Roamer Hunt:** Scramble positions by moving between Ecruteak and Route 37.
 
 # Hall of Fame & Progress
