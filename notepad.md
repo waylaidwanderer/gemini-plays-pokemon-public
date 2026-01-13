@@ -28,19 +28,19 @@
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
 - Fly Attempt History: Turn 45439-45489 (50 turns fumbling). Resetting loop.
 - Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Violet to Ecruteak = Up, A.
-- Current Position: Violet City (31, 26). Target: Ecruteak.
+- Current Position: Cherrygrove City (29, 4). Target: Ecruteak.
 - Fly Map Grid (Johto):
-  - Cherrygrove
-  - Violet (1x Up from Cherrygrove)
-  - Ecruteak (1x Up from Violet)
-  - Goldenrod (1x Left from Violet)
-  - Azalea (1x Down from Goldenrod)
-  - Olivine (1x Left from Goldenrod)
-  - Cianwood (1x Left from Olivine)
-  - Mahogany (1x Right from Ecruteak)
-  - Blackthorn (1x Right from Mahogany)
-  - Indigo Plateau (1x Up from Mahogany)
-  - New Bark Town (1x Right from Cherrygrove)
+  - New Bark Town (East Edge)
+  - Cherrygrove City: 1x Left from New Bark.
+  - Violet City: 1x Up from Cherrygrove.
+  - Ecruteak City: 1x Up from Violet.
+  - Goldenrod City: 1x Left from Violet.
+  - Azalea Town: 1x Down from Goldenrod.
+  - Olivine City: 1x Left from Goldenrod.
+  - Cianwood City: 1x Left from Olivine.
+  - Mahogany Town: 1x Right from Ecruteak.
+  - Blackthorn City: 1x Right from Mahogany.
+  - Indigo Plateau: 1x Up from Mahogany.
 
 # Dana's Gift
 - NPC: Lass Dana.
