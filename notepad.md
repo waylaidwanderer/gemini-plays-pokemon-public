@@ -1,9 +1,10 @@
 # Roamer Hunt Strategy
-- **Goal:** Catch Raikou & Entei.
-- **Strategy:** Shuffle Roamers by toggling between Route 31 & Gatehouse. Check Map after each transition.
-- **Last Observation:** Turn 37097 - Roamers at Rt 32, 42, 44.
+- **Current Plan:** Shuffle Roamers between Route 31 & Gatehouse.
+- **Status:** Checking Map (Gatehouse).
+- **Recent:** Entered Gatehouse from Route 31 (Turn 37099).
+- **Hypothesis:** Map transition shuffled Roamers.
+- **Strategy:** Check Map. If Roamer on Rt 31 -> Exit and Hunt. Else -> Exit to Route 31 to shuffle.
 - **Constraint:** Lugia (Lv60) lead means NO Repels.
-- **Start:** Turn 36369.
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36900.
