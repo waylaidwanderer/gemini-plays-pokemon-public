@@ -1,9 +1,9 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
-- **Status:** Shuffling (Violet <-> Rt 36).
-- **Recent:** Checked map (Turn 37011). No Roamers on Rt 36.
-- **Method:** Close Gear -> Right (Violet). Next turn: Left (Rt 36).
+- **Status:** In Violet City (0, 8). Returning to Route 36.
+- **Recent:** Arrived in Violet City (Turn 37012).
+- **Method:** Step Left (Rt 36) -> Check Map.
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36900.
