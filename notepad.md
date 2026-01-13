@@ -34,5 +34,5 @@
 - **Cherrygrove City** -> Up -> **Violet City**
 - **Cherrygrove City** -> Left -> **Azalea Town**
 - **Azalea Town** -> Up -> **Goldenrod City**
+- **Goldenrod City** -> Up -> **Ecruteak City** [Confirmed]
 - **Violet City** -> Left -> [Invalid]
-- **Current Hypothesis:** Goldenrod -> Up -> Ecruteak?
