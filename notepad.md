@@ -69,3 +69,6 @@
 - **Turn 38083 Update:** Cursor confirmed at New Bark Town.
 - **Action:** Executing navigation: Left x3 -> Down x1.
 - **Goal:** Target Goldenrod City. Verify text "GOLDENROD CITY" next turn.
+- **Turn 38084 Status:** Map open at Silver Cave (Cursor reset?).
+- **Action:** Retrying Left x2 with 2000ms delay.
+- **Goal:** Reach New Bark Town. Verify control.
