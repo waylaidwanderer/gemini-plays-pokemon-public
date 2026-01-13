@@ -53,7 +53,6 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Checking Map (Cycle 51).
-- Observation: Exited Gatehouse manually. Standing at (9, 33).
-- Action: Opening Map via `open_map`.
-- Next: If Roamer on 35 -> Hunt. Else -> Fix Tool (timing) & Cycle.
+- Status: Cycling Roamers (Cycle 52).
+- Observation: Checked Map (Cycle 51). Roamers on Route 31, 42, 46. None on 35.
+- Action: Updated tool timing. Executing `cycle_roamer_hunt_route35`.
