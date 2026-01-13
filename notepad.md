@@ -23,7 +23,8 @@
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - 1 Repel remaining.
-  - Next: Supply run to Goldenrod if this fails.
+  - **Critical Issue:** Money is ¥294. Cannot buy Repels.
+  - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
