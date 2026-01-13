@@ -34,3 +34,6 @@
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
 - **Action:** Switch Lugia to Lead (Slot 1) for speed advantage against Roamers.
 - **Missing:** Mean Look/Spider Web trapper. Strategy is "Chip and Chase" with Lugia.
+- **Observation:** Entering Route 31 Gatehouse.
+- **Hypothesis:** Entering the Gatehouse (Map 10_X) from Violet City (Map 10_5) does NOT shuffle roamers (or counts as a safe transition).
+- **Test:** Check roamer position after entering Gatehouse.

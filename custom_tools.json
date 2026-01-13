@@ -191,5 +191,25 @@
         "action_counter": 36428
       }
     ]
+  },
+  "open_party": {
+    "description": "Opens the Pokemon Party menu from the overworld. Assumes the Start menu cursor is on 'POKEGEAR' (last used) or nearby. Sequence: B, B, Start, Up, Up, A.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "python_script": "print('{\"buttons\": [\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\"]}')",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T08:02:25.233Z",
+        "action_counter": 37052
+      }
+    ]
   }
 }
