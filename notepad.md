@@ -17,7 +17,7 @@
 # Legendary Roamer Hunt Strategy
 - Overview: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - Repel Trick: Lv 19 lead (ICARUS) with Super Repel active.
-- Status: Super Repel wore off (Turn 45310). Re-applying.
+- Repel Status: Re-applied at Turn 45316.
 - Encounter Contingency: If Roamer appears -> PACK -> Right to BALLS -> MASTER BALL -> USE.
 - Roamer Status: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
