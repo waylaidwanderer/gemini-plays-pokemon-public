@@ -76,3 +76,5 @@
 - **Action:** Retrying Search Filter.
 - **Sequence:** Up x2 (Safety to top) -> Right (Select Fire) -> Down x2 (Select Begin Search) -> A.
 - **Reasoning:** Previous attempt failed to change type or execute search. Adding safety presses.
+- **Observation:** Currently viewing Furret (National Dex #162). Need to back out to list to search.
+- **Action:** Pressing 'B' to exit entry, then 'Start' to open Search menu.
