@@ -1,41 +1,41 @@
 # Tile Mechanics
-- FLOOR: Traversable. Relational: Standard 4-way movement. Verified Turn 45281.
-- WALL: Impassable. Relational: Blocks all movement. Verified Turn 45281.
-- TALL_GRASS: Traversable. Relational: Standard movement; triggers wild encounters. Verified Turn 45281.
-- HEADBUTT_TREE: Impassable. Relational: Blocks movement; can be interacted with for Headbutt. Verified Turn 45281.
-- LEDGE_HOP_DOWN: One-way. Relational: Jump south from above; impassable from other directions. Verified Turn 45281.
-- LEDGE_HOP_RIGHT: One-way. Relational: Jump east from left; impassable from other directions. Verified Turn 45281.
-- WATER: Traversable. Relational: Requires HM03 Surf to enter/move. Verified Turn 45281.
-- DOOR/WARP: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
-- PIT: One-way warp. Relational: Drop to floor below. Verified Turn 46211.
+- FLOOR: Traversable. Verified Turn 45281.
+- WALL: Impassable. Verified Turn 45281.
+- TALL_GRASS: Traversable. Verified Turn 45281.
+- HEADBUTT_TREE: Impassable. Verified Turn 45281.
+- LEDGE_HOP_DOWN: One-way south. Verified Turn 45281.
+- LEDGE_HOP_RIGHT: One-way east. Verified Turn 45281.
+- WATER: Traversable (Surf). Verified Turn 45281.
+- DOOR/WARP: Warp. Verified Turn 45281.
+- PIT: One-way warp down. Verified Turn 46211.
+- WARP_CARPET_RIGHT: Warp east. Verified Turn 46259.
+- LADDER: Warp. Verified Turn 46254.
 
 # Quest: Legendary Hunt
 - **Target: Suicune (Tin Tower)**
-- Start Turn: 46153 | Timestamp: Tuesday, January 13, 2026 at 11:26 AM PST
+- Start Turn: 46153
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
-- Plan: Release Beasts (Burned Tower) -> Defeat Wise Trio (Gatehouse) -> Battle Suicune (Tin Tower).
-- Status: Beasts released (Turn 46247). Heading to Tin Tower Gatehouse.
-- Rival Search: Started Turn 46227.
+- Plan:
+    1. Release Beasts (Burned Tower) - DONE (Turn 46247).
+    2. Defeat Wise Trio (WiseTriosRoom) - IN PROGRESS.
+    3. Battle Suicune (Tin Tower).
+- Status: Searching for Wise Trio in WiseTriosRoom (4_2). If missing, proceed to Tin Tower.
 
-## Suicune Battle Plan (Tin Tower)
+# Strategy: Suicune Capture
 - Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis immediately.
-- Support: GORP (Snorlax) to tank (Surf/Aurora Beam) and chip HP with Body Slam/Strength.
-- Capture: Use Ultra Balls (32) while asleep.
-- Backup Sleeper: KIMCHI (Gloom) with Sleep Powder.
+- Moves: Hypnosis (Priority 1), Confuse Ray.
+- Tank: GORP (Snorlax, Lv 50). Can take Surf/Aurora Beam. Body Slam for paralysis/chip.
+- Items: Ultra Balls (32).
 
-## Legendary Progress
-- Suicune: Tin Tower (Clear Bell owned). Prerequisite: Release beasts.
-- Entei/Raikou: Roaming. Unseen in Pokedex.
+# Observations: Wise Trio
+- Hypothesis: They appear at (4, 4) in WiseTriosRoom (4_2) when approached.
+- Test: Walk to (4, 4). Result: Missing (Turn 46259).
+- Next Step: Explore entire room. If not found, check Tin Tower entrance.
 
-# Quest Log
-- Dana's Gift: Route 38.
-- Yanma Swarm: Route 35.
-- Arnie's Interest: Wants to see Growlithe/Abra (Turn 46152).
-
-# Lessons Learned
-- Roamers move on map transitions.
-- Fly map list navigation: 'Up' increases index, 'Down' decreases index.
-- Start menu cursor is persistent.
-- NPC movement can be unpredictable.
-- Position Hallucination (Turn 46166): Ensure text is cleared before assuming movement success.
+# Pokemon Movesets
+- XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
+- Calcifer (Typhlosion): Flamethrower, Return, Smokescreen, Thunderpunch.
+- KIMCHI (Gloom): Flash, Petal Dance, Cut, Sleep Powder.
+- GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
+- GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
+- ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
