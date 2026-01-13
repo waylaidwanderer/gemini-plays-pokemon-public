@@ -13,7 +13,7 @@
 - Completed Cycles: 101.
 - Resources: Super Repel x56 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
-- Repel Tracking: Last Applied Turn 45993.
+- Repel Tracking: Last Applied Turn 45994.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 110). Verified Turn 45982: Roamers unseen. Continuing shuffle.
 
 # Trapper Strategy
