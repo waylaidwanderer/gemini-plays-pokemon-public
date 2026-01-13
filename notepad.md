@@ -43,3 +43,5 @@
 - **Fly Logic Correction:** Previous failure was due to cursor being on 'STATS' in submenu.
 - **Current Plan:** Up (to FLY) -> A (Open Map) -> Left x4 (to Ecruteak) -> Down (to Goldenrod) -> A (Execute).
 - **Assumed Starting Point:** Silver Cave (Current Location).
+- **Diagnosis (Turn 38073):** "Can't use that here" caused by input drop. Cursor landed on Garnet (Slot 4) instead of Mistral (Slot 6). Attempted Rock Smash.
+- **Fix:** From Garnet, press Down x2 to reach Mistral. Then Fly. Using 1000ms delays.
