@@ -1,6 +1,6 @@
 # Verified Game Systems
 - Start Menu: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
-- Fly Map: Cursor starts at current city (if applicable) or New Bark Town.
+- Fly Map: Cursor starts at New Bark Town (5, 4).
 - Verified Fly Sequences:
   - New Bark -> Left -> Cherrygrove.
   - Cherrygrove -> Up x3, Right -> Goldenrod.
@@ -12,7 +12,7 @@
 - Method: Ecruteak Shuffle (Route 37 South Gate).
 - Current Shuffle Start: Turn 45539.
 - Lead: ICARUS (Lv 19).
-- Repel: Super Repel active (Applied Turn 45439, 0 steps in overworld).
+- Repel: Super Repel active (Applied Turn 45439, 16 steps in overworld).
 - Contingency: Master Ball on sight.
 
 # Quest Log
