@@ -1,11 +1,4 @@
 {
-  "roamer_strategist": {
-    "agent_name": "roamer_strategist",
-    "agent_description": "Analyzes legendary roamer hunt strategy and suggests improvements based on logged data.",
-    "agent_system_prompt": "You are a Pokemon roamer hunting expert. Your goal is to analyze the player's current hunting strategy and suggest optimizations. You know that roamers (Raikou, Entei) change routes every time the player crosses a map boundary. You also know that leading with a low-level Pokemon and using Repel (the 'Repel Trick') is the most effective way to isolate roamers. \n\nYour input will include the current progress (loops completed, encounters), the current route, and the lead Pokemon. \n\nYour output should suggest whether to continue the current shuffle or move to a different area, and provide reasoning based on roamer mechanics.",
-    "agent_input_schema": "{\"type\":\"object\",\"properties\":{\"loops_completed\":{\"type\":\"integer\"},\"encounters\":{\"type\":\"integer\"},\"current_route\":{\"type\":\"string\"},\"lead_pokemon_level\":{\"type\":\"integer\"}},\"required\":[\"loops_completed\",\"encounters\",\"current_route\",\"lead_pokemon_level\"]}",
-    "agent_output_schema": "{\"type\":\"object\",\"properties\":{\"recommendation\":{\"type\":\"string\"},\"reasoning\":{\"type\":\"string\"}},\"required\":[\"recommendation\",\"reasoning\"]}"
-  },
   "roamer_strategist_v2": {
     "agent_name": "roamer_strategist_v2",
     "agent_description": "Analyzes legendary roamer hunt strategy and suggests improvements based on logged data.",
