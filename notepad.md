@@ -36,3 +36,5 @@
 - **Map Navigation Strategy:** Resetting cursor by closing/reopening map (B -> A). Assuming start at Ecruteak, Down -> Goldenrod.
 - **Fly Navigation:** Retrying Fly from Silver Cave. Step 1: Open Map. Step 2: Navigate Left (West) to Johto.
 - **Correction:** Previous attempts to move cursor from Silver Cave failed. Testing if map is responding or if Silver Cave is isolated.
+- **Fly Navigation:** Dead reckoning suggests cursor is at Ecruteak (Silver Cave -> Leftx3 -> New Bark -> Leftx3 -> Ecruteak).
+- **Next Step:** Press Down to select Goldenrod. Verify destination before confirming.
