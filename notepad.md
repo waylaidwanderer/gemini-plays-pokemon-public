@@ -121,3 +121,7 @@
 - **Anomaly:** Discrepancy between Current Screen Image (Pokedex) and Text/Intermediate States (Pack).
 - **Hypothesis:** Inputs 'Up, Up' were dropped last turn, causing re-entry into Pack via 'A'.
 - **Action:** Assuming Pack state. Pressing 'B' (Exit), 'Up', 'Up' (Nav to Pokedex), 'A' (Open), 'Start' (Search).
+- **Observation:** Currently in 'OPTION' Menu (Text Speed, etc.).
+- **Correction:** Closing Options ('B'). Navigating to Pokedex from Option (Down x2 -> Wrap to Top).
+- **Sequence:** B, Down, Down, A (Open Pokedex), Start (Search).
+- **Goal:** Filter Pokedex for Entei.
