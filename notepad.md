@@ -81,3 +81,5 @@
 - **Correction:** Previous search attempts failed because I was still viewing the Furret entry.
 - **Action:** Pressing 'B' to return to Pokedex List, then 'Start' to open Search Menu.
 - **Plan:** Verify Search Menu is open before inputting search parameters.
+- **Action:** Configuring Pokedex Search for 'FIRE' type.
+- **Sequence:** Up x2 (Force top/Type 1), Right (Normal -> Fire), Down x3 (Navigate to 'Search'), A (Execute).
