@@ -2,7 +2,7 @@
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
 - **Status:** Pursuit (Route 31).
-- **Recent:** Swapped Lugia to Lead (Turn 37061). Roamer was on Rt 31 (Turn 37045).
+- **Recent:** Correcting Party Order (Turn 37063). Lugia was accidentally moved to Slot 5. Swapping with Belladonna (Slot 1).
 - **Plan:** Check Map for Roamer location.
 - **Hypothesis:** Roamers do not move when entering Route 31 from Gatehouse.
 - **Method:** Close Gear (B, B) -> Right (Violet). Next turn: Left (Rt 36).
