@@ -30,8 +30,8 @@
 # Observations: Wise Trio
 - Location: EcruteakTinTowerEntrance (4_1).
 - Members: Sage GAKU (7, 10), Sage MASA (6, 9), Sage KOJI (6, 10).
-- Progress: Sage at (4, 6) granted passage. 
-- Next Step: Defeat the Trio members in 4_1 to prove worthiness. Order may matter.
+- Trigger: If they only say "The TIN TOWER shook!", try interacting with all three in different orders or check if the Tin Tower is now accessible.
+- Next Step: Defeat the Trio members in 4_1.
 
 # Battle Strategy: Wise Trio
 - Sages typically use Noctowl and other bird Pokemon.
