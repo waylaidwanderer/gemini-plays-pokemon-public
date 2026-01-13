@@ -30,8 +30,8 @@
 - [Hypothesis] Moving in overworld resets Start menu cursor to POKEDEX.
 - [Verified] Start menu order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.[Player], 6.SAVE, 7.OPTION, 8.EXIT.
 
-# Current Status: Fly to Ecruteak
-- Attempt started: Turn 45183.
-- Current Status: Resetting state in Route 31 Gatehouse.
-- Repel: Super Repel active (191/200 steps).
-- Plan: Move to (3, 5), then use 'open_fly_map' tool.
+# Attempted Fly to Ecruteak
+- Started: Turn 45183.
+- Status: 70 turns of stagnation due to menu/save loops and state hallucinations.
+- Current Plan: Exit Pokegear, walk to Route 31 to reset menu cursor, then use open_fly_map.
+- Verified Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.[Player], 6.SAVE, 7.OPTION, 8.EXIT.
