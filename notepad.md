@@ -18,8 +18,8 @@
 - **Start Turn:** 37586
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Attempt 33 (Scan Complete).
+- **Status:** Attempt 34 (Transitioning).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Scan finished (20 steps). No encounter.
-- **Progress:** Heading to Ecruteak to shuffle roamers.
+  - Shuffling roamers (Route 37 -> Ecruteak -> Route 37).
+- **Progress:** Entering Ecruteak and returning immediately.
