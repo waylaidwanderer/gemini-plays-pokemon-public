@@ -34,9 +34,13 @@
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
 
-# Strategy: Ecruteak Shuffle
+# Strategy: Ecruteak Shuffle (Optimized)
 - Path: Ecruteak City <-> Route 37.
-- Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
+- Method: 
+  1. Enter Route 37.
+  2. Check Pokegear Map for roamer icon.
+  3. Pace exactly 4 steps in tall grass at (14, 12).
+  4. If no encounter, return to Ecruteak and repeat.
 - Lead: ICARUS (Lv 19).
 
 # Dana's Gift
