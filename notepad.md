@@ -72,7 +72,10 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44633: Menu cursor was at EXIT (Index 7). Previous turn failed because Start, Down, Down, A selected EXIT and returned to overworld.
-- Current state: Overworld at (6, 5). No menus open.
-- Plan: Open PACK (Start, Down x3, A) -> Scroll to bottom -> Use Super Repel.
-- Step 1: Open PACK.
+- Turn 44634: Successfully reached Super Repel in PACK.
+- Strategy: Use Super Repel -> Resume Ecruteak Shuffle.
+- Lead: ICARUS (Lv 19).
+- Current state: PACK menu open, cursor on SUPER REPEL.
+- Step 1: Use Super Repel and return to overworld.
+- Step 2: Pace in grass at (6, 3) or (6, 5).
+- Step 3: Transition to Ecruteak City and back to shuffle roamer positions.
