@@ -18,8 +18,8 @@
 - **Start Turn:** 37586
 - **Location:** Route 37 (8, 2)
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Attempt 10 (Active - Wiggling).
+- **Status:** Attempt 10 (Active - Final Wiggle).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - Walk in grass -> If no encounter -> Transition map -> Repeat.
-- **Progress:** Repel Active (~40/100 steps). Checking grass.
+- **Progress:** Repel Active (~44/100 steps). Finishing check.
