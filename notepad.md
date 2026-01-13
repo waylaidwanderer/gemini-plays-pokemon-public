@@ -61,3 +61,5 @@
 - **Observation:** Fly attempt failed (landed in Violet City). Suspect input timing or grid misalignment.
 - **Strategy Change:** Abandoning Fly for now. Walking to Ecruteak via Route 36 -> Route 37.
 - **Immediate Goal:** Navigate to Violet City West Exit (0, 8).
+- **Action:** Transitioned to Route 36.
+- **Strategy:** Opening menu to check Pokegear Map. If Roamers are present, hunt. If not, continue to Route 37/Ecruteak.
