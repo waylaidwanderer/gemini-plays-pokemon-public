@@ -31,8 +31,8 @@
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
 # Task: Flying to Ecruteak
-- Current Location: Fly Map (Cursor at New Bark Town).
+- Current Location: Violet City (Overworld).
 - Step 1: Save the game [Done].
-- Step 2: Open Fly Map [Done].
-- Step 3: Select Ecruteak (Left, Up, Up, A).
+- Step 2: Open Fly Map (Start, Down, A, A, A) [In Progress].
+- Step 3: Select Ecruteak (Up, A).
 - Start Turn: 45183
