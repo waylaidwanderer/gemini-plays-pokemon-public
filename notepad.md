@@ -87,3 +87,6 @@
 - **Turn 38089 Strategy:** Restarting Fly procedure from Overworld.
 - **Action:** Start -> Wait -> A.
 - **Goal:** Open Menu and enter the first option (likely POKEMON). Verify state next turn.
+- **Turn 38090 Status:** Map cursor confirmed at **New Bark Town**.
+- **Action:** Executing Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
+- **Goal:** Verify destination is "GOLDENROD CITY" next turn.
