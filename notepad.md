@@ -17,5 +17,9 @@
 # Roamer Hunt Log
 - **Status:** Moving to Route 37.
 - **Action:** Shuffling location (Ecruteak -> Route 37).
-- **Issue:** Cannot visually confirm Roamer positions on Map card (limitation).
-- **Strategy:** Blind Shuffle. Move to Route 37 grass. If no encounter, move back to Ecruteak, then back to Route 37.
+- **Strategy:** Blind Shuffle with Repel Trick.
+  1. Enter Route 37.
+  2. Ensure Repel is active (Lead: Gyarados Lv36).
+  3. Run in grass. If no encounter, Roamer is not here.
+  4. Return to Ecruteak, then back to Route 37 to reshuffle.
+- **Inventory:** 16 Repels. Gyarados is perfect level (36 < 40).
