@@ -29,7 +29,6 @@
 
 # Pokemon Information & Movesets
 - Party (6/6): ICARUS (Lv19 Pidgeotto), Calcifer (Lv64 Typhlosion), KIMCHI (Lv52 Gloom), GNEISS (Lv55 Graveler), GORP (Lv50 Snorlax), XENON (Lv44 Haunter).
-- Caught Species: 32/251.
 
 # Legendary Hunt Strategy
 - Lead: ICARUS (Lv 19) with Super Repel to filter for Lv 40 Roamers on Route 37.
@@ -51,6 +50,7 @@
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Menu Memory: The main menu cursor does NOT reset to POKEDEX. It stays on the last selected option.
+- Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
 
 # Legendary Hunt Execution
 - Start Turn: 44521.
@@ -65,13 +65,12 @@
 - Custom Tools: Access script arguments via 'input_data' dictionary.
 - Menu Navigator Strategy: Prepend several 'Up' or 'Down' presses to guarantee a starting point if memory is unreliable.
 - Pack Navigator Strategy: Prepend 20 'Down' presses to reach 'CANCEL', then 'Up' once to reach the bottom-most item (Super Repel).
-- Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
+- Successful Super Repel Sequence (from Index 0): [Start, Down x2, A, Down x20, Up x1, A, A, A].
 
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
 - Turn 44576: Confirmed menu cursor memory behavior.
 - Turn 44578: Super Repel confirmed active.
-- Attempt count for Repel application: 16. Current Status: Pacing for legendary encounter.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
