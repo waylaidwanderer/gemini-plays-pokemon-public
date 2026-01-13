@@ -30,8 +30,13 @@
 2. Lake of Rage
 3. Blackthorn City
 4. Silver Cave
-5. New Bark Town [Current Selection]
-6. Cherrygrove City (Expected Next)
+5. New Bark Town
+6. Cherrygrove City [Current Selection]
+7. Violet City (Expected Next)
+
+# Hypothesis: Region Switching
+- Indigo Plateau may be on the Kanto Fly map.
+- Test: Press 'Right' on Fly map to attempt region switch.
 
 # Lessons Learned
 - Roamers move on map transitions.
