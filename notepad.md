@@ -1,10 +1,11 @@
-# Tile Mechanics
+# Tile Mechanics (Global)
 - TALL_GRASS: Traversable. Triggers wild encounters. Verified: Yes.
 - FLOOR: Traversable. Verified: Yes.
 - WALL: Impassable. Verified: Yes.
 - HEADBUTT_TREE: Impassable. Verified: Yes.
 - COUNTER: Impassable. Interacting with NPCs behind them requires facing the counter. Verified: Yes.
 - WARP_CARPET_LEFT/RIGHT: Traversable. Triggers map transition. Verified: Yes.
+- LEDGE_HOP_DOWN: One-way traversable (down only). Verified: Yes.
 
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
@@ -16,7 +17,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 7 transitions completed. 0 encounters. Transition 8 in progress (Turn 45031). Phone call from Tully interrupted.
+- **Session 3 (Route 31)**: 7 transitions completed. 0 encounters. Transition 8 resumed after Tully call (Turn 45033).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).

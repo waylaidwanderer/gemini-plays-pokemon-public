@@ -226,18 +226,28 @@
         "steps_taken": {
           "type": "integer",
           "description": "The number of steps taken since the last update."
+        },
+        "current_remaining": {
+          "type": "integer",
+          "description": "The current remaining steps recorded in the notepad."
         }
       },
       "required": [
-        "steps_taken"
+        "steps_taken",
+        "current_remaining"
       ]
     },
-    "python_script": "import re\nimport json\n\ndef update_repel(steps_taken):\n    global map_xml_string\n    # Since I don't have direct notepad access here, I will output the new string to be used with notepad_edit\n    # Actually, I can't read the notepad from here. I'll have to rely on the LLM to pass the current status.\n    # This tool might be better as a simple calculator that returns the new value.\n    pass\n\n# Refined idea: A tool that takes the current notepad text and steps_taken, and returns the updated notepad text.\n# But I can't pass the whole notepad as an argument easily.\n# Let's make it simpler: just a calculator for the steps.\n\ndef calculate(steps_taken, current_remaining):\n    new_remaining = max(0, current_remaining - steps_taken)\n    print(json.dumps({\"new_remaining\": new_remaining}))\n\nimport sys\ninput_data = json.loads(sys.stdin.read())\ncalculate(int(input_data['steps_taken']), 43) # Hardcoded for now based on current knowledge, will refine.\n",
+    "python_script": "import json\n\n# input_data is automatically provided by the system for custom tools\nsteps_taken = int(input_data['steps_taken'])\ncurrent_remaining = int(input_data['current_remaining'])\n\nnew_remaining = max(0, current_remaining - steps_taken)\nprint(json.dumps({\"new_remaining\": new_remaining}))\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T06:24:52.759Z",
         "action_counter": 45031
+      },
+      {
+        "commit_message": "Fixed JSON parsing error by using input_data variable directly and added current_remaining to schema.",
+        "timestamp": "2026-01-13T06:26:12.903Z",
+        "action_counter": 45033
       }
     ]
   }
