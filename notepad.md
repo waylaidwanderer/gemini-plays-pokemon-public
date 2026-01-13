@@ -49,7 +49,7 @@
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
 # Fly Strategy (Paused)
-- Note: Fly map navigation failed 15 times (Turn 44260-44310). Pivot to biking.
+- Note: Fly map navigation failed 15 times (Turn 44260-44320). Pivot to biking confirmed.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
