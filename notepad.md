@@ -29,15 +29,15 @@
 
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
-- Completed Cycles: 77.
-- Repel 5: Applied Turn 45841. (~191 steps used).
-- Current Status: Starting Cycle 78. Pacing at (7, 2).
-- Repel Maintenance: Refresh Super Repel once it expires (likely in ~9 steps).
+- Completed Cycles: 78.
+- Repel 5: Applied Turn 45841. (~199 steps used).
+- Current Status: Starting Cycle 79. Transitioning to Ecruteak.
+- Repel Maintenance: Refresh Super Repel once it expires (likely in ~1 step).
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
   - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
   - Decision: Stick to Master Ball for the first one, then evaluate Spinarak.
-- Strategy Note: Statistically, Entei/Raikou will appear within ~50-100 cycles of this shuffle. We are at 55. Continuing until encounter or ~75 cycles before reassessing.
+- Strategy Note: Statistically, Entei/Raikou will appear within ~50-100 cycles of this shuffle. We are at 78. Continuing until encounter or ~100 cycles before reassessing.
 - Lesson: Trust turn history logs for bookkeeping to avoid 'time-slipping' errors.
 
 # Quest Log
