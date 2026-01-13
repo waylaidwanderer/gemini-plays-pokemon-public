@@ -29,9 +29,9 @@
 
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
-- Completed Cycles: 37.
-- Repel 3: Applied Turn 45723. (~80 steps used).
-- Current Status: Cycle 38 pacing complete. Moving back to Ecruteak City.
+- Completed Cycles: 38.
+- Repel 3: Applied Turn 45723. (~90 steps used).
+- Current Status: Starting Cycle 39. Moving to Route 37 grass.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
