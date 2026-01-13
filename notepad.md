@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37347):** In Party Menu (Cherrygrove). Selecting Mistral to Fly. Path: Down -> Down -> A -> Fly -> Left (Violet) -> Up (Ecruteak).
+- **Roamer Check (Turn 37349):** Fly option missing at (29, 4). Likely blocked by overhead tile (Pokemon Center door). Repositioning to (29, 5).
