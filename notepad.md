@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Completed Cycles: 30.
-- Repel 2: Active (Applied Turn 45627). (~151 steps used).
-- Current Status: Cycle 31 pacing.
+- Completed Cycles: 31.
+- Repel 2: Active (Applied Turn 45627). (~158 steps used).
+- Current Status: Starting Cycle 32. Transitioning to Ecruteak.
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
