@@ -143,3 +143,9 @@
 - **Action:** Navigating Left x4 to reach Johto (Violet/Ecruteak).
 - **Delay:** 2500ms to handle map loading lag.
 - **Goal:** Verify text changes to a Johto city.
+- **Turn 38104:** Map still at "SILVER CAVE". `Left` inputs failed.
+- **Analysis:** Inputs likely consumed by map opening lag or desync.
+- **Strategy:** Hard Reset (B -> A) with **3000ms** delay after opening to ensure readiness.
+- **Path:** Left x5 (Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
+- **Goal:** Get cursor to Johto.
+- **Verification:** Expect "ECRUTEAK CITY" or "VIOLET CITY".
