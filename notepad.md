@@ -15,8 +15,9 @@
 
 ## Liquidation Plan
 - Target: ~¥36,000.
-- Sell: Super Repel (36), Revive (15), Max Potion (6), Full Heal (12), Lemonade (9).
+- Sell: Super Repel (36) [Done], Revive (15), Max Potion (6), Full Heal (12), Lemonade (9).
 - Total Est: ¥33,000 + current ¥224.
+- Progress: Super Repels sold (Turn 46057). Current Money: ¥9,724.
 
 ## Legendary Status
 - Suicune: Tin Tower. Clear Bell owned.
