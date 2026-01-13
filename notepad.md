@@ -10,10 +10,9 @@
 - Start Turn: 46373.
 - Repel Status: Super Repel active (Turn 46460).
 - Strategy (The "How"):
-    1. Walk from (11, 27) to (12, 44) via (12, 28).
-    2. Walk West to (4, 44) to reach the western corridor.
-    3. Walk North along Column 4 or 2 to reach Row 4.
-    4. Walk East to (7, 4).
+    1. Surf North from (12, 27) through BUOY gaps to Row 10.
+    2. Land at (15, 10).
+    3. Walk West to (7, 10) and then North to (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
