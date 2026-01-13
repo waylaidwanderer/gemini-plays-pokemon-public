@@ -52,3 +52,6 @@
 - **Tool:** Defining `safe_open_map` to handle menu cursor memory reliably.
 - **Action:** Closing Start Menu (was left open) and moving to (9, 2).
 - **Next:** Test `safe_open_map` tool.
+- **Tool Failure:** `safe_open_map` failed because the Start Menu wraps, causing the 'reset to top' logic to select 'Exit' or 'Pokemon'.
+- **Recovery:** Currently in Party Menu with Fly selected. Executing Fly to Ecruteak to shuffle roamers.
+- **Action:** Select Fly -> Verify Destination (should be Ecruteak) -> Confirm.
