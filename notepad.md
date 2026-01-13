@@ -72,8 +72,8 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44623: Successfully navigated to PACK. Super Repel is one slot below the cursor.
-- Strategy: Down -> A (Select) -> A (Use) -> A (ICARUS) -> B (Exit).
-- Lead: ICARUS (Lv 19) is perfect for filtering Route 37 encounters (Lv 13-16) to find roamer (Lv 40).
-- Current state: PACK menu open, cursor on PP UP.
-- Goal: Use Super Repel and start the Ecruteak Shuffle.
+- Turn 44624: Super Repel is confirmed active. Starting the Ecruteak Shuffle.
+- Strategy: Pace on Route 37 -> Transition to Ecruteak -> Repeat.
+- Current state: Overworld at (7, 3).
+- Step 1: Pace in grass at (7, 3) using 'grass_pacer'.
+- Step 2: Transition to Ecruteak City via (7, 0).
