@@ -1,64 +1,28 @@
 # Roamer Hunt Strategy
-- **Strategy Change:** Gatehouse shuffle failed (Roamer Stagnation).
-- **Observation:** Roamers stuck on Routes 42, 31, 46 for 15+ cycles.
-- **Status:** Flying to Ecruteak City.
-- **Action:** Navigating Fly Map (Left x3 -> A).
-- **Goal:** Relocate to Ecruteak Hub & Reset Roamers.
-- **Next:** Check Map for Roamers.
-- **Hunt Session:** Started ~Turn 36369. Current: 36752.
+- **Goal:** Catch Raikou & Entei.
+- **Current Plan:** Fly to Ecruteak City (Central Hub).
+- **Status:** In New Bark Town (arrived via Fly). Clearing phone call.
+- **Next:** Fly to Ecruteak -> Check Map.
 - **Resources:** 16 Repels.
-- **Hunt Session:** Started ~Turn 36369. Current: 36743.
+- **Session Start:** Turn 36369. Current: 36756.
 
-## Tile Mechanics
-- **Warp Tiles:** To trigger a warp (e.g., Gatehouse), you must step *onto* the tile. Standing on it and pressing buttons or turning does not trigger it. You must move off and then back on.
-- **Resources:** 16 Repels.
-
-# Reflection & Strategy Notes (Turn 36288)
-- **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
-- **Roamer Behavior:** Observed persistent clustering on Route 38 and 44 for ~30 turns. If this persists for another 20 turns, consider relocating to Ecruteak/Route 37 to disrupt the pattern.
-- **Shuffle Timing:** Warp transitions require ~5000-6000ms sleep in tools to be safe.
-- **Session Stats:** Start: Turn 34090. Current: 36315.
+# Reflection (Turn 36756)
+- **Error Analysis:** Route 35 Gatehouse Shuffle failed to move Roamers for 15+ cycles.
+- **Lesson:** Gatehouse transitions likely do not count as map transitions for Roamers. Use Route boundaries or Fly.
+- **Tooling:** "cycle_roamer_hunt" tool failed due to positioning drift and warp mechanics. Manual 2-turn shuffle was safer but tedious.
+- **Correction:** Abandoned Route 35. Relocating to Ecruteak.
 
 # Tile Mechanics
-- **Ledge Hop:** One-way jump over ledges.
+- **Warp Tiles:** Must step *off* and then *back on* to trigger. Standing on them does nothing.
+- **Ledge Hop:** One-way jump.
 - **Headbutt Tree:** Can be shaken for Pokemon.
-- **WARP_CARPET_LEFT:** Map transition tile.
 
-# Hall of Fame Entry
-- **Achievement:** **CHAMPION OF THE JOHTO LEAGUE!**
-- **Date:** Turn 33314
-- **MVP:** Muscle (Machoke) Lv88.
+# Hall of Fame
+- **Champion:** Turn 33314. MVP: Muscle (Machoke) Lv88.
 
 # Completed Objectives
-- **Pewter to Saffron Transit:** Completed via Mt. Moon & Magnet Train.
-- **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
-- **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
-- **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
-
-- **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
-- **Tool Note:** `pathfind` has a 50-step safety limit. For long-distance travel (e.g. National Park traversal), break the path into intermediate waypoints (approx 15-20 steps away).
-- **Resupply Plan:** In Goldenrod Dept Store 2F. Top Clerk checked (No Super Repels). Buying bulk Standard Repels from Bottom Clerk instead.
-- **Shop Data:** 
-  - 2F Bottom Clerk (13,6): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
-  - 2F Top Clerk (13,5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
-  - Conclusion: No Super Repels available. Using Standard Repels.
-- **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
-- **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** In Pack Menu (Items Pocket).
-- **Action:** Highlighting Repel.
-- **Hypothesis:** Repel is the last item acquired, so `Up` x2 from top should wrap to Cancel then Repel.
-- **Strategy:** "Blind Shuffle"
-  1. Apply Repel.
-  2. Run in grass (Route 35) for ~20 steps.
-  3. If no encounter, enter/exit Gatehouse (Shuffle).
-  4. Repeat.
-- **Menu Mechanics:** Pack Menu (Items) does NOT wrap from Top to Bottom using `Up`.
-- **Action:** To reach new items (Repel), scroll DOWN to bottom.
-- **Sequence:** `B` (Exit sub-menu) -> `Down` x 15 (Hit bottom) -> `Up` (Select last item/Repel) -> `A`.
-- **Status:** Repel Applied (Turn 36576).
-- **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
-- **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Checking Map (Cycle 64 Result).
-- Observation: Exiting Gatehouse manually.
-- Action: Opening Map to check Roamer positions.
-- Next: If Roamer on 35 -> Hunt. Else -> Manual Shuffle (Enter Gatehouse).
+- **Johto Gyms:** All 8 Badges.
+- **Elite Four:** Defeated.
+- **Kanto Gyms:** All 8 Badges.
+- **Red:** Defeated.
+- **Lugia:** Caught (Maelstrom).
