@@ -1,15 +1,11 @@
 # Roamer Hunt Strategy
 - **Current Operation:**
-  1.  **Shuffle:** Arrive in Ecruteak City.
-  2.  **Check:** Use Pokegear to locate Roamers.
-  3.  **Hunt:** If on Route 38, intercept. If not, return to Gatehouse.
-- **Status:** HUNTING (Route 38).
-- **Location:** Tall Grass at (24, 7).
-- **Lead:** Gyarados (Lv36).
-- **Action:** Exiting Pokedex (opened by mistake). Opening Pack to apply Repel.
-- **Roamers:** Spotted on Route 38 (Turn 36356).
-- **Hunt Session:** Started ~Turn 36369. Current: 36409.
-- **Resources:** 0 Super Repel, 2 Repels (Verified visual). ¥244.
+  1.  **Shuffle:** Use `route35_roamer_shuffle` to enter/exit gatehouse and check map.
+  2.  **Check:** If Roamer is on Route 35, Hunt.
+  3.  **Repeat:** If not, repeat shuffle.
+- **Roamers:** Spotted on Route 42, 31, 46 (Turn 36598).
+- **Hunt Session:** Started ~Turn 36369. Current: 36601.
+- **Resources:** 16 Repels.
 
 # Reflection & Strategy Notes (Turn 36288)
 - **Menu Navigation:** The Pokegear cursor remembers its last position. To reliably open the Map, use `Left, Left` (forces cursor to BACK) then `Right` (selects MAP).
