@@ -9,7 +9,7 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Strategy: Fly to Ecruteak -> Catch Suicune (Tin Tower).
+- Strategy: Catch Suicune (Tin Tower).
 - Route: Fly to Ecruteak City. Enter the Barrier Station at (31, 2) to reach Tin Tower.
 
 ## Suicune Battle Plan (Tin Tower)
