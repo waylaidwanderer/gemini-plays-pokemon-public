@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37350):** In Party Menu. Repositioned to (29, 5). Executing Fly to Ecruteak. Path: A (Menu) -> A (Fly) -> Left (Violet) -> Up (Ecruteak).
+- **Roamer Check (Turn 37351):** Cursor confirmed on MISTRAL (Slot 6). Executing Fly. Path: A (Select) -> A (Fly) -> Left (Violet) -> Up (Ecruteak).
