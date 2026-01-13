@@ -246,7 +246,7 @@
     ]
   },
   "fly_to_johto_v7": {
-    "description": "Navigates from the overworld to a Johto city using Fly. Requires current_city and target_city. Assumes no menu is open and attempts to navigate to POKEMON menu from a likely PACK/OPTION cursor position.",
+    "description": "Navigates from the overworld to a Johto city using Fly. Requires current_city and target_city. Assumes no menu is open and cursor is on PACK.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -292,7 +292,7 @@
         "current_city"
       ]
     },
-    "python_script": "import json\ntarget = input_data['target_city']\ncurrent = input_data['current_city']\ncities = [\n    'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Silver Cave',\n    'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town',\n    'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City'\n]\nif current not in cities or target not in cities:\n    print(json.dumps(['B', 'B']))\nelse:\n    start_idx = cities.index(current)\n    end_idx = cities.index(target)\n    diff = end_idx - start_idx\n    if diff > 6: diff -= 12\n    elif diff < -6: diff += 12\n\n    # Overworld -> Start -> Pokemon (Up 5x from Option) -> Icarus -> Fly\n    buttons = ['B', 'B', 'Start', 'sleep 500', 'Up', 'Up', 'Up', 'Up', 'Up', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 2000']\n    if diff > 0:\n        buttons.extend(['Up'] * diff)\n    elif diff < 0:\n        buttons.extend(['Down'] * abs(diff))\n    buttons.extend(['A', 'sleep 500', 'A'])\n    print(json.dumps(buttons))",
+    "python_script": "import json\ntarget = input_data['target_city']\ncurrent = input_data['current_city']\ncities = [\n    'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Silver Cave',\n    'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town',\n    'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City'\n]\nif current not in cities or target not in cities:\n    print(json.dumps(['B', 'B']))\nelse:\n    start_idx = cities.index(current)\n    end_idx = cities.index(target)\n    diff = end_idx - start_idx\n    if diff > 6: diff -= 12\n    elif diff < -6: diff += 12\n\n    # Sequence: Start, Up (to POKEMON from PACK), A, A (ICARUS), A (FLY)\n    buttons = ['Start', 'sleep 500', 'Up', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 500', 'A', 'sleep 2000']\n    if diff > 0:\n        buttons.extend(['Up'] * diff)\n    elif diff < 0:\n        buttons.extend(['Down'] * abs(diff))\n    buttons.extend(['A', 'sleep 500', 'A'])\n    print(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Refined Fly tool to operate from overworld (no menu open). Uses Pokedex -> Pokemon (Down) navigation and handles 12-city cyclic list. Added explicit button sequence for Icarus -> Fly selection.",
@@ -303,6 +303,11 @@
         "commit_message": "Refined Fly tool with more robust Start->Pokemon navigation (Up 5x) to handle OPTION/PACK cursor positions and ensured Start is pressed.",
         "timestamp": "2026-01-13T18:52:21.844Z",
         "action_counter": 46128
+      },
+      {
+        "commit_message": "Refined Fly tool with explicit Start->Pokemon (Up) navigation from PACK and interleaved sleeps to satisfy sequence rules. Shortest path logic for 12-city rotation maintained.",
+        "timestamp": "2026-01-13T18:53:19.995Z",
+        "action_counter": 46129
       }
     ]
   }
