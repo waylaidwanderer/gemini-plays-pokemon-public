@@ -104,3 +104,9 @@
 - **Action:** Pressing 'A' to open map, then 'Left' x3.
 - **Goal:** Open map and navigate cursor to Cherrygrove City (Silver Cave -> Indigo -> New Bark -> Cherrygrove).
 - **Hypothesis:** Previous inputs failed because map wasn't open. Opening it now should work.
+- **Turn 38096:** Map confirmed at **New Bark Town**.
+- **Observation:** Previous command sent 3 Lefts, but cursor only moved 2 steps (Silver -> Indigo -> New Bark). The 3rd Left was swallowed.
+- **Action:** Executing navigation from New Bark to Goldenrod.
+- **Path:** Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+- **Tool:** `press_sequence_with_delays` with 1500ms delay.
+- **Goal:** Verify "GOLDENROD CITY" text next turn.
