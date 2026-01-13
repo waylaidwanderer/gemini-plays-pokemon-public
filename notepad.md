@@ -14,7 +14,7 @@
 - Start Turn: 46153 | Timestamp: Tuesday, January 13, 2026 at 11:26 AM PST
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
 - Plan: Release Beasts (Burned Tower) -> Defeat Wise Trio (Gatehouse) -> Battle Suicune (Tin Tower).
-- Status: In Burned Tower 1F. Triggering event with Rival, Eusine, and Morty.
+- Status: Beasts released (Turn 46247). Heading to Tin Tower Gatehouse.
 - Rival Search: Started Turn 46227.
 
 ## Suicune Battle Plan (Tin Tower)
