@@ -1,10 +1,10 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
-- **Status:** Pursuit (Route 31).
-- **Recent:** Correcting Party Order (Turn 37063). Lugia was accidentally moved to Slot 5. Swapping with Belladonna (Slot 1).
-- **Plan:** Check Map for Roamer location.
-- **Hypothesis:** Roamers do not move when entering Route 31 from Gatehouse.
+- **Status:** Correcting Party (Lugia -> Slot 1).
+- **Action:** Opening Party Menu to verify cursor position before swapping.
+- **Hypothesis:** Cursor is likely on Slot 3 (Lugia) or Slot 5 (Gyarados) due to previous swap.
+- **Next:** Swap Lugia to Slot 1, then check Roamer Map.
 - **Method:** Close Gear (B, B) -> Right (Violet). Next turn: Left (Rt 36).
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
