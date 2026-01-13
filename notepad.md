@@ -1,6 +1,6 @@
 # Verified Game Systems
 - Start Menu: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
-- Fly Map Cursor: Starts at current city/route.
+- Fly Map Cursor: Observed to start at New Bark Town (5, 4).
 - Tile Mechanics: Standard (FLOOR traversable, WALL impassable, etc.)
 
 # Johto Fly Map Grid (Working Hypothesis)
