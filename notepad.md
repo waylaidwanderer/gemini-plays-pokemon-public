@@ -17,8 +17,8 @@
 - Target: ~¥36,000.
 - Sell: Super Repel (36) [Done], Revive (15), Max Potion (6), Full Heal (12), Lemonade (9), PP UP (1).
 - Total Est: ¥33,000 + current ¥224.
-- Progress: Max Potion (6) sold. Current Money: ¥33,374.
-- Next Sale: Full Heal x12 (Est ¥3,600).
+- Progress: Full Heal (12) sold. Current Money: ¥36,974.
+- Next Sale: Lemonade x9 (Est ¥1,575).
 
 ## Legendary Status
 - Suicune: Tin Tower. Clear Bell owned.
