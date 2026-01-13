@@ -13,13 +13,13 @@
 - **Session 2 Summary**: Route 37 (Turns 44880-44975). 25 transitions, 0 encounters.
 - **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Started Turn 44989 (Monday, Jan 12, 10:00 PM).
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R31 (Wild Lv 12-15) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 45040). ~2 steps remaining. (Inventory: 69 Super Repels).
+- **Repel Status**: Active (Turn 45040). ~1 step remaining. (Inventory: 69 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
 - **Session 3 (Route 31)**: 14 transitions completed. 0 encounters.
-- **Current**: Transition 15 pacing finished. Heading to gatehouse (Turn 45069).
+- **Current**: Transition 15 in progress. Entering gatehouse (Turn 45070).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
