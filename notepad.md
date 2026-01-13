@@ -21,5 +21,5 @@
 - **Status:** Attempt 27 (Refueling).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - `perform_grass_scan` fixed (hopefully).
-- **Progress:** Repel wore off. Dismissing text, then re-applying.
+  - `perform_grass_scan` ready.
+- **Progress:** Repel wore off. Opening Menu to re-apply.
