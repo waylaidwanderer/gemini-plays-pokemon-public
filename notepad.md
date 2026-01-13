@@ -110,3 +110,8 @@
 - **Path:** Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
 - **Tool:** `press_sequence_with_delays` with 1500ms delay.
 - **Goal:** Verify "GOLDENROD CITY" text next turn.
+- **Turn 38097:** Map text reverted to "SILVER CAVE" despite previous turn showing "NEW BARK TOWN".
+- **Hypothesis:** Accidental cancellation or reset of map state.
+- **Action:** Hard Reset (B -> A) to ensure start at Silver Cave. Then Left x2.
+- **Goal:** Reach New Bark Town reliably.
+- **Delay:** Increased to 2000ms to combat potential lag.
