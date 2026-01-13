@@ -13,7 +13,8 @@
 # Legendary Roamer Hunt
 - **Strategy**: Blind Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass. (Roamers move only on map transitions).
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
-- **Repel Status**: Super Repel active. Applied Turn 44788. (~190 steps remaining).
+- **Repel Status**: Super Repel active. (~185 steps remaining).
+- **Shuffle Progress**: Transitioned to Route 37 Turn 44799. Moving to grass.
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED. They will not appear on the Pokegear map until the first battle.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
