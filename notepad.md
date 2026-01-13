@@ -1,10 +1,10 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Fly to Ecruteak City (Central Hub).
-- **Status:** Selecting Mistral (Correction).
-- **Observation:** Accidentally selected Maelstrom (No Fly). Mistral is Slot 4.
-- **Action:** Back out (B x2) -> Select Mistral (Down) -> Open Menu (A).
-- **Next:** Select FLY -> Ecruteak City.
+- **Status:** Selecting Fly (Mistral).
+- **Action:** Exit Pack (B) -> Pokemon (Up, A) -> Mistral (Down x3, A) -> Fly (A).
+- **Goal:** Open Fly Map.
+- **Next:** Select Ecruteak City.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36756.
 
