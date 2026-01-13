@@ -24,7 +24,7 @@
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
 - Shuffles Completed: 7.
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45316. Steps Taken: 185/200.
+- Repel Status: Applied Turn 45316. Steps Taken: 182/200.
 
 # Strategy Tools
 - roamer_strategist: Agent for hunt efficiency.
@@ -47,3 +47,8 @@
 - NPC: Lass Dana.
 - Location: Route 38.
 - Status: Gift waiting (Turn 45331 call).
+
+# Lessons Learned
+- Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists, but the menu must be active.
+- Notepad Editing: Be extremely precise with `old_text`. Special characters like < can be tricky.
+- Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check.
