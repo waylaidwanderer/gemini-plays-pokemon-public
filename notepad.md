@@ -41,3 +41,5 @@
 - **Verification:** Resetting UI state with 'B, B, B' to ensure clean menu navigation.
 - **Mechanic:** Fly map cursor remembers the last destination (New Bark Town), NOT the player's current location (Cherrygrove).
 - **Navigation Test:** Attempting 'Left, Left, Up' from New Bark cursor and checking text to map the grid.
+- **Observation:** Verified cursor starts at Cherrygrove City.
+- **Navigation Test:** Attempting 'Left -> Up' from Cherrygrove to find Ecruteak.
