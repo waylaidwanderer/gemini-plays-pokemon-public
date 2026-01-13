@@ -53,6 +53,6 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Cycling Roamers (Cycle 33).
-- Observation: Roamers on Route 38, 42, 31 (Turn 36644). None on 35.
+- Status: Cycling Roamers (Cycle 34).
+- Observation: Roamers on Route 38, 42, 31 (Turn 36645). None on 35.
 - Action: Executing `cycle_roamer_hunt_route35`.
