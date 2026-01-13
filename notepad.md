@@ -1,10 +1,10 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
-- **Menu Navigation:** `Down` inputs prone to dropping. heavy sleeps required.
+- **Menu Navigation:** `Down` inputs drop. Use `Up` where possible. Heavy sleeps needed.
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 14:** Correcting from Pokegear -> Party.
-    - **Sequence:** B (Exit Gear) -> Sleep -> Start (Menu) -> Sleep -> Up x8 (Force Top) -> Sleep -> Down (Pokemon) -> Sleep -> A.
-    - **Goal:** Open Party Menu to select Mistral.
+    - **Attempt 15:** Recover from Trainer Card -> Party Menu.
+    - **Sequence:** B (Exit Card) -> Up x3 (Nav to Pokemon) -> A.
+    - **Next Turn:** Scroll to Mistral with visual confirmation.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
