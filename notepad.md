@@ -31,3 +31,5 @@
 - **Correction:** Fly attempt 1 failed (stayed in New Bark). Retrying with 'Left, Left, Up' and slower inputs.
 - **Correction:** Fly attempt 2 failed (landed in Cherrygrove). Retrying from Cherrygrove with 'Left, Up'.
 - **Correction:** Fly attempt 3 failed (landed in Cherrygrove). 'Left, Up' didn't work. Trying 'Left, Left, Up' (Cherrygrove -> Violet -> Goldenrod -> Ecruteak).
+- **Correction:** Fly map cursor was on New Bark Town (despite player being in Cherrygrove).
+- **Navigation:** Attempting 'Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak)' from New Bark Town cursor.
