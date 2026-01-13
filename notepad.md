@@ -16,13 +16,23 @@
 - Repel Tracking: Last Applied Turn 45998.
 - Strategy Note: Pokedex roamer check verified (Turn 46040): Not in Pokedex. Pausing shuffle to catch Suicune.
 
-# Reflection Turn 46043
+# Reflection Turn 46048
 - Immediate Execution: No deferred tasks.
-- Notepad Hygiene: Organized and updated.
-- Map Hygiene: Markers verified.
-- Automation Strategy: Tools are current.
-- Goal Clarity: Pivoting to Suicune capture. Needs: Ultra Balls.
-- Error Analysis: Synchronized turn count to 46043. Verified turn mismatch was due to reporting 46031 instead of 46032 on Turn 46033. Corrected.
+- Notepad Hygiene: Updated with liquidation plan.
+- Map Hygiene: Markers verified for Violet City.
+- Automation Strategy: Using find_path for navigation.
+- Goal Clarity: Need money for Ultra Balls. Selling surplus healing items and repels.
+- Error Analysis: Fly tool landed in Violet City instead of Indigo Plateau. Likely cursor offset. Will manually fly after shopping.
+
+# Liquidation Plan
+- Goal: ¥36,000 for 30 Ultra Balls.
+- Sell List:
+  - Super Repel x36 (Keep 20) -> ~¥9,000
+  - Revive x15 -> ~¥11,250
+  - Max Potion x6 -> ~¥7,500
+  - Full Heal x12 -> ~¥3,600
+  - Lemonade x9 -> ~¥1,575
+  - Total Potential: ~¥33,000 + current ¥224. Close enough.
 
 # Legendaries
 - Suicune: Tin Tower (37, 7). Requires Clear Bell (Owned).
