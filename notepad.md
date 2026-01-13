@@ -10,13 +10,13 @@
 
 # Quest: Legendary Hunt
 - Strategy: Catch Suicune (Tin Tower).
-- Route: Fly to Ecruteak City. Enter the Barrier Station at (31, 2) to reach Tin Tower.
+- Plan: Navigate to Tin Tower (37, 7) -> Battle Suicune.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
 - Strategy: Use Hypnosis immediately.
 - Support: GORP (Snorlax) or GNEISS (Graveler) to tank hits and chip HP (avoid Calcifer Lv 64).
-- Capture: Use Ultra Balls while asleep. Switch to Great Balls if needed.
+- Capture: Use Ultra Balls (32) while asleep. Switch to Great Balls if needed.
 - Backup Sleeper: KIMCHI (Gloom) with Sleep Powder.
 
 ## Legendary Progress
@@ -24,24 +24,10 @@
 - Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
-# Fly Map List Order (Confirmed)
-1. Mahogany Town
-2. Lake of Rage
-3. Blackthorn City
-4. Silver Cave
-5. New Bark Town
-6. Cherrygrove City
-7. Violet City
-8. Azalea Town
-9. Goldenrod City
-10. Ecruteak City
-11. Olivine City
-12. Cianwood City
-
 # Quest Log
 - Dana's Gift: Route 38.
 - Yanma Swarm: Route 35.
-- Arnie's Interest: Wants to see a Growlithe (Turn 46118).
+- Arnie's Interest: Wants to see Growlithe/Abra (Turn 46152).
 
 # Lessons Learned
 - Roamers move on map transitions.
