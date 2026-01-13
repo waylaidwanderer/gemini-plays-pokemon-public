@@ -28,14 +28,13 @@
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
-# Reflection Turn 46442
-1. Immediate Execution: Super Repel used. Pathfinding tool fixed.
-2. Notepad Hygiene: Removed redundant milestones. Added Repel Status and Reflection section.
-3. Map Hygiene: Markers for Surf launch and Suicune area are set.
-4. Automation Strategy: Using find_path_v7_robust for long treks.
-5. Goal Clarity: Objective is (7, 4). Method is Surfing with Repel.
-6. Error Analysis: Stagnation caused by wild encounters and phone calls. Resolved with Repel. Found that stepping on land cancels Surf.
+# Reflection Turn 46446
+1. Immediate Execution: Super Repel active. Surfing initiated.
+2. Notepad Hygiene: Cleaned up redundant logs and milestones.
+3. Map Hygiene: Markers set for Suicune and Surf points.
+4. Automation Strategy: Using navigate for land legs, pathfinder for water legs.
+5. Goal Clarity: Reach (7, 4) via eastern water corridor.
+6. Error Analysis: Land path to West Cianwood is blocked by ledges/walls. Surfing around the East is necessary.
 
 # Navigation Log
-- Turn 46441: Used Super Repel (18 left).
-- Turn 46442: Heading to (12, 28) to re-initiate Surf.
+- Turn 46446: Landing at (12, 28) and walking to shore at (19, 30).
