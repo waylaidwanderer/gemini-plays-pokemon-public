@@ -16,7 +16,7 @@
   2. Pace 4 steps in grass at (7, 2).
   3. Transition back to Ecruteak.
   4. Repeat.
-- Current Status: Cycle 6. On Route 37. Moving to grass.
+- Current Status: Cycle 6. Pacing in grass at (7, 2).
 - Timestamp: Started Ecruteak-specific shuffle at Turn 45539.
 
 # Tracking: Session 4
