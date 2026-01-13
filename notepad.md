@@ -42,8 +42,7 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** Navigating Pokegear. Stuck in Phone List.
-- **Action:** `B` (Close Popup) -> `B` (Exit List) -> `Up` (Ensure Tab Selection) -> `Left` (Map) -> `A`.
-- **Note:** Phone contact list seems to trap cursor. `B` or `Up` required to exit to tabs.
-- **Anomaly:** GameState reports Map Change to Dept Store (11_11), but Screen shows Pokegear Navigation. Assuming Pokegear is open and prioritising navigation.
-- **Action:** `Right` -> `A` to open Map from Pokegear menu.
+- **Status:** Exiting Goldenrod Dept Store.
+- **Roamer Hunt:** Cannot visually verify locations on Pokegear Map (Blind).
+- **Strategy:** Head to Route 35 Gatehouse to shuffle Roamers between Route 35 and 36/National Park.
+- **Constraint:** Blind Hunt - Relying on shuffling and Repels.
