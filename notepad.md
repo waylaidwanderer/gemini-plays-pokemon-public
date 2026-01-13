@@ -69,3 +69,4 @@
 - **Observation:** Map is visible in background. No Roamers seen on current screen.
 - **Action:** Exiting Pokegear and performing Violet Shuffle (Right -> Violet, Left -> Route 36).
 - **Reasoning:** UI interaction is sticky, but visual confirmation "No Roamers Here" is sufficient. Faster to shuffle than to debug UI.
+- **Action:** Pressing 'A' to open the full map view (Map Card is already selected).
