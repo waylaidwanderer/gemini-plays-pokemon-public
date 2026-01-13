@@ -1,9 +1,10 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
-- **Menu Navigation:** `sequence_press` requires `sleep 500` and robust resets.
+- **Menu Navigation:** `sequence_press` requires `sleep 500`.
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 12:** Robust Reset Sequence -> Fly.
-    - **Sequence:** Bx2 -> Start -> Up x5 (Reset Menu) -> Down (Pokemon) -> A -> Up x6 (Reset Party) -> Down x5 (Mistral) -> A -> A (Fly) -> Left -> Up -> A.
+    - **Attempt 13:** Visual Confirmation Strategy.
+    - **Sequence:** B (Exit Gear) -> Start (Menu) -> Up x2 (Pokemon) -> A.
+    - **Next Turn:** visually confirm Party cursor position, then select Mistral -> Fly.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
