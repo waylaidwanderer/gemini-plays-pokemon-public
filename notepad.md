@@ -32,13 +32,14 @@
 4. Silver Cave
 5. New Bark Town
 6. Cherrygrove City
-7. Violet City [Current Selection]
-8. Azalea Town (Expected Next)
+7. Violet City
+8. Azalea Town [Current Selection]
+9. Goldenrod City (Expected Next)
 
-# Hypothesis: Missing Indigo Plateau
-- Indigo Plateau is not appearing in the Johto cycle.
-- Potential reasons: Region map switch required, or Fly point not registered.
-- Test: Press 'Select' on Fly map to attempt region switch if 'Right' continues to fail.
+# Strategy Pivot: Silver Cave Mart
+- Indigo Plateau not found in Johto list.
+- Silver Cave (Destination #4) has a Mart that sells Ultra Balls.
+- Plan: Fly to Silver Cave instead of Indigo Plateau.
 
 # Lessons Learned
 - Roamers move on map transitions.
