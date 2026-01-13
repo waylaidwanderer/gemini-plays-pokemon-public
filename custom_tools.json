@@ -127,5 +127,28 @@
         "action_counter": 37022
       }
     ]
+  },
+  "perform_grass_scan": {
+    "description": "Walks a specified number of steps in a simple oscillating pattern (Left/Right) to search for wild Pokémon within a grass patch. Use this to automate encounter scanning.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "num_steps": {
+          "type": "integer",
+          "description": "The number of steps to walk."
+        }
+      },
+      "required": [
+        "num_steps"
+      ]
+    },
+    "python_script": "import json\n\ndef perform_grass_scan(num_steps):\n    buttons = []\n    # Simple oscillation to stay in a small area (assumes horizontal space exists)\n    for i in range(num_steps):\n        if i % 2 == 0:\n            buttons.append(\"Left\")\n        else:\n            buttons.append(\"Right\")\n    print(json.dumps(buttons))\n\nperform_grass_scan(num_steps)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T20:01:43.329Z",
+        "action_counter": 37741
+      }
+    ]
   }
 }
