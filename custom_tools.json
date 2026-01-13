@@ -188,7 +188,7 @@
     ]
   },
   "cycle_roamer_hunt_route35": {
-    "description": "Executes a full roamer shuffle cycle on Route 35 starting and ending at (9, 32). 1. Closes Map. 2. Steps DOWN (enters gatehouse), UP (exits to 9, 33), UP (resets to 9, 32). 3. Re-opens Map.",
+    "description": "Executes a full roamer shuffle cycle on Route 35 starting and ending at (9, 31). 1. Closes Map. 2. Steps DOWN x2 (enters gatehouse), UP (exits to 9, 33), UP x2 (resets to 9, 31). 3. Re-opens Map.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -202,7 +202,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"sleep 6000\",\n    \"Up\", \"sleep 6000\",\n    \"Up\", \"sleep 500\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
+    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"sleep 6000\",\n    \"Up\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 500\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -243,6 +243,11 @@
         "commit_message": "Optimized for stability at (9, 32). Cycle: Down (Enter Gatehouse) -> Up (Exit to 9, 33) -> Up (Reset to 9, 32). Eliminates 'step-off' ambiguity by always resetting to 1 tile North of warp.",
         "timestamp": "2026-01-13T03:21:21.654Z",
         "action_counter": 36684
+      },
+      {
+        "commit_message": "Adjusted for starting position (9, 31). Cycle: Down x2 (Enter Gatehouse) -> Up (Exit to 9, 33) -> Up x2 (Reset to 9, 31). Ensures valid shuffle and return to safe start point.",
+        "timestamp": "2026-01-13T03:22:37.219Z",
+        "action_counter": 36685
       }
     ]
   }
