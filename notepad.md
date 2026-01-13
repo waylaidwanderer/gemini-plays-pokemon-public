@@ -14,10 +14,11 @@
 - Status: Talked to three Sages on 1F. Heading to center.
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
 - Plan: Navigate to Burned Tower -> Release Legendary Beasts -> Defeat Wise Trio -> Talk to Sages in Tin Tower -> Battle Suicune.
-- Status: Back on Burned Tower 1F. Realized the beasts won't appear in B1F until I trigger the event with the Rival, Eusine, and Morty upstairs.
-- Current Task: Locating and battling the Rival (Silver) at (8, 9) to advance the story.
-- Observation: The basement was empty because the 1F event hasn't happened yet.
+- Status: Back on Burned Tower 1F. Triggering event with Rival, Eusine, and Morty.
+- Rival Search: Started Turn 46227.
+- Strategy: Use SUPER REPEL to avoid wild encounters.
 - Plan: Battle Rival -> Drop down hole at (10, 9) -> Release beasts.
+- Note: PIT tiles (e.g. 10, 9) are one-way warps to the floor below. Verified Turn 46211.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
