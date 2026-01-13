@@ -7,8 +7,8 @@
 # Suicune Quest
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
-- Timeline: Started Turn 46373. Current Turn 46442.
-- Repel Status: Super Repel active (Turn 46441).
+- Timeline: Started Turn 46373. Current Turn 46452.
+- Repel Status: Using Super Repel (Turn 46452).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
@@ -28,15 +28,10 @@
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
-# Reflection Turn 46446
-1. Immediate Execution: Super Repel active. Surfing initiated.
-2. Notepad Hygiene: Cleaned up redundant logs and milestones.
-3. Map Hygiene: Markers set for Suicune and Surf points.
-4. Automation Strategy: Using navigate for land legs, pathfinder for water legs.
+# Reflection Turn 46452
+1. Immediate Execution: Using Super Repel to stop encounters.
+2. Notepad Hygiene: Cleaned up milestones and lessons per overwatch. Added Repel Status.
+3. Map Hygiene: Markers for Suicune and Surf points are set.
+4. Automation Strategy: Using find_path_v7_robust for long water treks.
 5. Goal Clarity: Reach (7, 4) via eastern water corridor.
-6. Error Analysis: Land path to West Cianwood is blocked by ledges/walls. Surfing around the East is necessary.
-
-# Navigation Log
-- Turn 46446: Landing at (12, 28) and walking to shore at (19, 30).
-- Turn 46449: Cleared Surf text at (19, 30). Now surfing at (20, 30).
-- Plan: Use pathfinder to reach (7, 4) via the eastern water corridor.
+6. Error Analysis: Previous Repel attempt was likely interrupted by Arnie's phone call. Resubmitting carefully.
