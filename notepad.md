@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Cursor remembers position.
+- **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Cursor likely resets to Slot 1 after Fly.
 - **Roamer Hunt:** Fly to Ecruteak.
-    - **Current Task:** At (29,4). Move to (29,5). Fly to Ecruteak (Left -> Up).
-    - **Diagnosis:** Last Fly attempt looped to Cherrygrove (Inputs too fast). Adding delays.
+    - **Current Task:** At (29,4). Move to (29,5). Fly (Up x2 method).
+    - **Sequence:** Down -> Start -> A -> Up x2 (Mistral) -> A -> A -> Wait -> Left -> Up -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
