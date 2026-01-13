@@ -32,7 +32,6 @@
 - **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
 - **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
-- **Inventory Update:** Confirmed 0 Repels in bag (Game State). Must walk through grass without protection.
 
 - **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
 - **Tool Note:** `pathfind` has a 50-step safety limit. For long-distance travel (e.g. National Park traversal), break the path into intermediate waypoints (approx 15-20 steps away).
