@@ -32,4 +32,4 @@
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
 - **Tool Failure:** `open_party` failed because the Start Menu cursor was at `POKEDEX`, not `POKEGEAR`. It then wrapped to `EXIT` and closed the menu. Need to account for cursor memory or lack thereof.
-- **Tool Fix Plan:** Verify if Start Menu wraps. If it wraps, blind navigation is hard. If it stops at top/bottom, `open_pack` and `open_party` can be fixed by forcing cursor to top/bottom first. Will test next turn.
+- **Menu System:** Start Menu WRAPS. Verified via logic (Up 10 from POKEGEAR -> POKEGEAR). This breaks `open_pack` and `open_party` which assume clamping. Current cursor: POKEGEAR.
