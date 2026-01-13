@@ -53,7 +53,9 @@
 - Super Repel Location: Olivine City Mart.
 
 # Legendary Hunt Execution
+- Start Turn: 44521.
 - Use 'grass_pacer' on Route 37 to trigger encounters while Repel is active.
 - If Repel wears off, immediately re-apply from the Pack.
 - If a roamer is encountered, use the Master Ball (for Raikou) or Hypnosis (for Entei).
-- If the roamer moves, check Pokegear Map to re-locate.
+- Check Pokegear Map every 5 shuffles to confirm roamer positions and adjust target route if necessary.
+- Current Method: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
