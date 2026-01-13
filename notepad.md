@@ -1,5 +1,5 @@
 # Mechanics & State
-- **Menu State:** Start Menu cursor is at `POKEGEAR` (wraps). `open_pack`->PACK, `open_party`->POKEMON, `open_map`->POKEGEAR. Adjust manually if needed.
+- **Menu State:** Start Menu cursor is at `SAVE`. Adjust manually if needed.
 - **Roamer Hunt:** Shuffling Route 31 <-> Violet City. Check Map on Route 31.
     - **Task Start:** Turn 37196.
     - **Strategy:** If on map -> Repel (lead Gyarados Lv36) -> Run in grass.
