@@ -188,7 +188,7 @@
     ]
   },
   "cycle_roamer_hunt_route35": {
-    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map. 2. Walks South 3 steps (Enter Gatehouse), then North 2 steps (Exit Gatehouse), then North 2 steps (Reset). 3. Re-opens the Map. Handles starting at (9, 31).",
+    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes Map. 2. Steps UP (off warp), DOWN (enter gatehouse), UP, UP (exit gatehouse). 3. Re-opens Map. Designed for starting at (9, 33).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -202,7 +202,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"Down\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 500\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
+    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"Down\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 6000\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -228,6 +228,11 @@
         "commit_message": "Adjusted movement for starting position (9, 31). Now walks Down x3 to reach warp at (9, 33), then walks Up x2 to exit, and Up x2 to return to start. Guaranteed entry from 2 tiles away.",
         "timestamp": "2026-01-13T03:15:24.514Z",
         "action_counter": 36679
+      },
+      {
+        "commit_message": "Updated to handle starting specifically on the warp tile (9, 33). Steps UP first to clear the warp, then DOWN to enter. Inside, steps UP twice to exit. Guaranteed loop stability.",
+        "timestamp": "2026-01-13T03:18:21.332Z",
+        "action_counter": 36682
       }
     ]
   }
