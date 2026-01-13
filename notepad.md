@@ -2,8 +2,8 @@
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
 - **Status:** In Violet City (0, 8). Returning to Route 36.
-- **Recent:** Closed menu and transitioned to Violet City (Turn 36986).
-- **Method:** Step Left (Rt 36) -> Check Map.
+- **Recent:** Arrived in Violet City (Turn 36986). Menu still open.
+- **Method:** Close Menu (B) -> Step Left (Rt 36) -> Check Map.
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369. Current: 36900.
