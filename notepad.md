@@ -149,3 +149,8 @@
 - **Path:** Left x5 (Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
 - **Goal:** Get cursor to Johto.
 - **Verification:** Expect "ECRUTEAK CITY" or "VIOLET CITY".
+- **Turn 38105:** Confirmed I am in the **Pokemon Submenu** with `FLY` selected.
+- **Analysis:** Turn 38104 failed because I was navigating this menu, not the map.
+- **Action:** Press `A` to Open Map. Then `Left` x5.
+- **Target:** Ecruteak City (Left x5 from Silver Cave -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
+- **Delay:** 2000ms to ensure map load and input registration.
