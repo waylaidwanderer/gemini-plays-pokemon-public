@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Violet Pokecenter (10_10). Arrived via Fly.
-- **Goal:** Exit Pokecenter -> West to Route 36 -> Ecruteak.
+- **Location:** Leaving Violet City (West Exit).
+- **Goal:** Walk West to Route 36 -> North/West to Ecruteak.
 - **Roamer Status:** Unknown.
-- **Fly Lesson:** Map inputs need massive delays. Violet City is a reliable hub.
+- **Fly Lesson:** Map inputs need massive delays.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
