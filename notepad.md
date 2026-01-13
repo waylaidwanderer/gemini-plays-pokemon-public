@@ -41,4 +41,5 @@
   - 2F Bottom Clerk (13,6): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
   - 2F Top Clerk (13,5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
   - Conclusion: No Super Repels available. Using Standard Repels.
-- **Resupply Plan:** Buying 17 Standard Repels at Goldenrod Dept Store (Bottom Clerk). Cost: ¥5950.
+- **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
+- **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
