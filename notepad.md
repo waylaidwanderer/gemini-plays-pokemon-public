@@ -37,7 +37,7 @@
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
-- Super Repel status: Out of stock. Heading to Goldenrod Dept. Store.
+- Super Repel status: Out of stock.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
 # Legendary Hunt Strategy
@@ -45,29 +45,28 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
-# Goldenrod Restock Plan (Started: Turn 44278)
+# Goldenrod Restock Plan (Started: Turn 44278 | Mon 4:00 PM)
 1. Travel to Goldenrod City (Completed: Turn 44363 via Fly).
-2. Identify which floor sells Super Repels (2F, 3F, 4F: No Super Repels).
-3. Check 5F (TM Corner) for Super Repels.
-4. Buy a full stack (99) of Super Repels (Targeting 85 based on budget).
-5. Fly back to Ecruteak City.
-6. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
+2. Identify which floor sells Super Repels (Checking 5F).
+3. Buy a full stack (99) of Super Repels (Targeting 85 based on budget).
+4. Fly back to Ecruteak City.
+5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
 # Floor Directory (Goldenrod Dept. Store)
 - 1F: Service Counter
-- 2F: Trainer's Market (Basic items)
-- 3F: Battle Collection (Checking next)
-- 4F: Medicine Box
-- 5F: TM Corner
+- 2F: Trainer's Market (Basic Potions/Balls)
+- 3F: Battle Collection (X-Items)
+- 4F: Medicine Box (Vitamins)
+- 5F: TM Corner (TMs)
 - 6F: Rooftop Square
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
 - Fly Usage: Must be outdoors to use Fly.
-- Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 for Raikou/Entei.
+- Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Text Speed: Fast (Turn 44324).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
-- Super Repels: Floor unknown. Checking directory at (14, 0).
+- Super Repels: Checked 2F, 3F, 4F. Not found. Checking 5F.
