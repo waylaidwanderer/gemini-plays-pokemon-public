@@ -53,7 +53,7 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Recovering (Inside Gatehouse).
-- Observation: Tool failed to exit Gatehouse but opened Pokegear.
-- Action: Close Menu -> Exit North (Manual).
-- Next: Blind Hunt in Grass (Route 35).
+- Status: Checking Map (Post-Recovery).
+- Observation: Exited Gatehouse to (9, 33).
+- Action: Opening Map to check positions.
+- Next: If Roamer on 35 -> Hunt. Else -> Reposition & Cycle.
