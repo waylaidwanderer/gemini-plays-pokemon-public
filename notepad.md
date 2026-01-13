@@ -16,7 +16,7 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Release Beasts (Burned Tower) - DONE.
-    2. Defeat Wise Trio (EcruteakTinTowerEntrance 4_1 or WiseTriosRoom 4_2) - IN PROGRESS (Started Turn 46251).
+    2. Defeat Wise Trio (Started Turn 46251) - If not in building 4_1, check Tin Tower (4_3).
     3. Battle Suicune (Tin Tower).
 
 # Strategy: Suicune Capture (Verified)
@@ -29,8 +29,8 @@
 # Observations: Wise Trio
 - Location: EcruteakTinTowerEntrance (4_1) and WiseTriosRoom (4_2).
 - Members: Sage GAKU, Sage MASA, Sage KOJI.
-- Note: Sage KOJI (ID 3) in 4_1 loops dialogue about the tower shaking. Gramps (ID 4) is at (4, 10).
-- Hypothesis: The Trio members have moved to 4_2 or the Tin Tower entrance is now accessible.
+- Note: Sage KOJI (ID 3) in 4_1 loops dialogue. Gramps (ID 4) is at (4, 10).
+- Hypothesis: The Trio members have moved to Tin Tower or 4_2.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
