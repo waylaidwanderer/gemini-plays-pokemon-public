@@ -49,3 +49,4 @@
 - **Navigation Plan:** Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak). Then Down x1 (Goldenrod).
 - **Current Action:** Executing Left x3 with 1s delays.
 - **Turn 38076 Update:** Previous navigation inputs were consumed by map load lag. Map is now fully open at New Bark Town. Retrying Left x3 to Ecruteak.
+- **Turn 38077 Test:** Previous Left x3 failed to update text from "NEW BARK TOWN". Testing single 'Left' with 2000ms delay to confirm control. Expecting "CHERRYGROVE CITY".
