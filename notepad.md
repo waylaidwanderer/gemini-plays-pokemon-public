@@ -29,9 +29,9 @@
 
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
-- Completed Cycles: 68.
-- Repel 5: Applied Turn 45841. (~12 steps used).
-- Current Status: Cycle 69 in progress. Pacing at (7, 2).
+- Completed Cycles: 69.
+- Repel 5: Applied Turn 45841. (~45 steps used).
+- Current Status: Cycle 70 start. Transitioning to Ecruteak.
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
   - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
