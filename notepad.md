@@ -25,5 +25,4 @@
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
-- **Gaven Call:** Turn 37948. Victreebel talk.
 - **reset_roamers:** Automates the Route 37 <-> Ecruteak transition with 15s delays to handle lag.
