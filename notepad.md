@@ -14,8 +14,12 @@
 - Dana's Gift: Route 38 (Waiting).
 - Yanma Swarm: Route 35 (Active).
 
-# Fly Verification Plan
-1. Open Fly map and identify the red arrow's starting position.
-2. Note the destination name displayed on screen.
-3. Move cursor and identify adjacent cities.
-4. Document the confirmed grid in the notepad.
+# Fly Verification Log
+- Attempt 1 (Turn 45533): Exiting Option menu to reset Start menu cursor. Target: POKEMON menu.
+
+# Fly Map Grid (Johto) Absolute - UNVERIFIED
+- (3, 3) Ecruteak, (4, 3) Violet, (5, 3) Mahogany
+- (3, 4) Goldenrod, (4, 4) Cherrygrove, (5, 4) New Bark
+- (3, 5) Azalea
+- (5, 2) Indigo Plateau
+- (2, 4) Olivine, (1, 4) Cianwood
