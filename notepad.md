@@ -11,9 +11,9 @@
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
 - Completed Cycles: 101.
-- Resources: Super Repel x57 remaining.
+- Resources: Super Repel x56 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
-- Repel Tracking: Last Applied Turn 45919. (Wore off Turn 45993).
+- Repel Tracking: Last Applied Turn 45998.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 110). Verified Turn 45982: Roamers unseen. Continuing shuffle.
 - Lessons Learned: Split menu navigation into smaller chunks (max 50 buttons). Cursor position in menu is persistent. Refine custom tools to be context-aware.
 
