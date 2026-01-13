@@ -25,10 +25,10 @@
 - Completed Shuffles: 23.
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45439. Steps Taken: 0/200. (Reset due to Fly loop)
-- Fly Attempt History: Turn 45439-45488 (49 turns fumbling).
-- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Cherrygrove to Ecruteak = Up, Up, A. From Violet to Ecruteak = Up, A.
-- Current Position: Cherrygrove (29, 4). Target: Ecruteak.
+- Repel Status: Applied Turn 45439. Steps Taken: 0/200.
+- Fly Attempt History: Turn 45439-45489 (50 turns fumbling). Resetting loop.
+- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Violet to Ecruteak = Up, A.
+- Current Position: Violet City (31, 26). Target: Ecruteak.
 - Fly Map Grid (Johto):
   - Cherrygrove
   - Violet (1x Up from Cherrygrove)
