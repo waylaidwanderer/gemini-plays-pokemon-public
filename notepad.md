@@ -2,8 +2,8 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
 - **Repel Status**: Applied Turn 44664 (200 steps).
-  - Steps taken: 88
-  - Steps remaining: 112
+  - Steps taken: 150
+  - Steps remaining: 50
 - **Capture Strategy**: Use Master Ball immediately on first roamer encounter.
 - **Roamer Tracking**:
   - Route 37: Active hunting.
@@ -13,7 +13,8 @@
   - Method: Use Master Ball (efficiency) and Repel Trick (Lv 17-39 lead).
   - Note: Suicune is a static encounter at Tin Tower in Crystal. Roamers use Roar, making Master Ball the best choice.
   - Tracking: Use Pokedex "Area" function after first encounter to intercept.
-- **Encounter History**: Hunt began Turn 44521. No sightings yet. Strategy: Ecruteak Shuffle. Transition maps every ~30 steps.
+- **Encounter History**: Hunt began Turn 44521. No sightings yet. Strategy: Ecruteak Shuffle. Transition maps every ~30-60 steps.
+- **Legendary Tracker Insights**: Once a roamer is seen, its location is visible in the Pokedex. Use map transitions to manipulate its location onto your route. Master Ball is mandatory for Raikou due to Roar. Entei can be put to sleep but will still flee immediately if it wakes up or on Turn 1. XENON (Haunter) is slower (Speed 95 approx vs roamer Speed 115-130) so priority or trapping is needed if Master Ball is used elsewhere.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground.
