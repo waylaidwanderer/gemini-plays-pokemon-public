@@ -22,9 +22,9 @@
 
 # Session Tracking
 - Session 4 (Ecruteak Shuffle) Start: Turn 45281.
-- Shuffles Completed: 5.
+- Shuffles Completed: 6.
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45316. Steps Taken: 181/200.
+- Repel Status: Applied Turn 45316. Steps Taken: 184/200.
 
 # Strategy Tools
 - roamer_strategist: Agent for hunt efficiency.
@@ -39,8 +39,8 @@
 - Method: 
   1. Enter Route 37.
   2. Check Pokegear Map for roamer icon.
-  3. Pace exactly 4 steps in tall grass at (14, 12).
-  4. If no encounter, return to Ecruteak and repeat.
+  3. If icon is on Route 37: Pace 4 steps in tall grass at (14, 12).
+  4. If icon is NOT on Route 37: Return to Ecruteak immediately.
 - Lead: ICARUS (Lv 19).
 
 # Dana's Gift
