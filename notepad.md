@@ -10,18 +10,17 @@
 
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
-- Completed Cycles: 94.
+- Completed Cycles: 95.
 - Resources: Super Repel x57 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
 - Repel Tracking:
   - Last Applied: Turn 45919.
-  - Estimated Steps Remaining: ~80.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 100). Verified Turn 45937: Roamers unseen.
 
 # Trapper Strategy
-- Xenon (Haunter, Lv 44) missed Mean Look (learned at Gastly Lv 13).
-- Option: Train Spinarak (AAAAAAAAAA, Lv 13) in PC for Spider Web.
-- Decision: Use Master Ball for the first encounter.
+- Xenon (Haunter, Lv 44): Lacks Mean Look. Cannot relearn in Crystal.
+- AAAAAAAAAA (Spinarak, Lv 13): Lacks Spider Web. Cannot relearn in Crystal.
+- Decision: Use Master Ball for the first encounter or catch a new trapper.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
@@ -32,4 +31,3 @@
 - Bookkeeping: Use turn history for cycle counts to avoid "time-slipping". Verified Turn 45874.
 - Phone calls can cancel menu actions; verify item usage. Verified Turn 45917.
 - Map transitions stop 'autopress_buttons' sequences. Call tools in Ecruteak for best results.
-- Current Status: Starting Cycle 95.
