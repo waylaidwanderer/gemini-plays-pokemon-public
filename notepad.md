@@ -40,6 +40,6 @@
 - Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
 - Lead: ICARUS (Lv 19).
 
-# Current Shuffle: 3
-- Status: On Route 37. Heading to grass at (14, 12).
-- Repel Steps Used (Approx): 19/200.
+# Current Shuffle: 4
+- Status: Pacing in grass at (14, 12).
+- Repel Steps Used (Approx): 30/200.
