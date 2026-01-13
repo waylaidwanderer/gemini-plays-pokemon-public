@@ -17,8 +17,9 @@
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
-- **Session 3 (Starting Now)**: Route 31 Shuffle.
-    - Transition 1: 0 encounters. Arnie's phone call cleared. Returning to Violet City. Strategy: Move Left to (4, 7).
+- **Session 3 Start**: Turn 44989.
+- **Progress Log**:
+    - Transition 1: 0 encounters. Returning to Violet City. (Arnie's call cleared).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
