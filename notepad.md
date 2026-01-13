@@ -125,3 +125,6 @@
 - **Correction:** Closing Options ('B'). Navigating to Pokedex from Option (Down x2 -> Wrap to Top).
 - **Sequence:** B, Down, Down, A (Open Pokedex), Start (Search).
 - **Goal:** Filter Pokedex for Entei.
+- **Interruption:** Phone call from Gaven interrupted Pokedex navigation.
+- **Status:** Call ended. Returning to Pokedex Search plan.
+- **Action:** Opening Start Menu. Will check cursor position before navigating.
