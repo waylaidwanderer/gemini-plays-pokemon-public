@@ -39,3 +39,5 @@
 - **Strategy:** Opening Fly map and moving cursor 'Up' from Cherrygrove to verify destination text before confirming.
 - **Strategy:** Opening Fly map and pausing to visually confirm the default cursor position before navigating.
 - **Verification:** Resetting UI state with 'B, B, B' to ensure clean menu navigation.
+- **Mechanic:** Fly map cursor remembers the last destination (New Bark Town), NOT the player's current location (Cherrygrove).
+- **Navigation Test:** Attempting 'Left, Left, Up' from New Bark cursor and checking text to map the grid.
