@@ -32,6 +32,7 @@
 
 # Task: Flying to Ecruteak
 - Current Location: Violet City.
-- Step 1: Open Fly Map (Start, Down, A, A, A).
-- Step 2: Select Ecruteak (Up, A).
+- Step 1: Save the game [In Progress].
+- Step 2: Open Fly Map (Start, Down, A, A, A).
+- Step 3: Select Ecruteak (Up, A).
 - Start Turn: 45183
