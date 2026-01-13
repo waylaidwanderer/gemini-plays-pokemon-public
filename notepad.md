@@ -30,9 +30,10 @@
 - Backup: KIMCHI (Gloom) for Sleep Powder or Stun Spore if needed.
 
 # Observations: Wise Trio
-- Hypothesis: They appear at (4, 4) in WiseTriosRoom (4_2) when approached.
-- Test: Walk to (4, 4). Result: Missing (Turn 46259).
-- Next Step: Explore entire room. If not found, check Tin Tower entrance.
+- Hypothesis: They are located in EcruteakTinTowerEntrance (4_1).
+- Test: Talk to Sages in map 4_1.
+- Status: Sage at (4, 6) granted passage (Turn 46266). Wise Trio members spotted at (7, 10) and (6, 9).
+- Next Step: Battle and defeat all three members.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
