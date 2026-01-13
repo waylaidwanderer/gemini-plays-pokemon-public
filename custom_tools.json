@@ -218,37 +218,5 @@
         "action_counter": 45562
       }
     ]
-  },
-  "use_item_v1": {
-    "description": "Automates the use of an item from the bag. Assumes the player is in the overworld. Returns a JSON array of buttons.",
-    "input_schema": {
-      "properties": {
-        "item_name": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "item_name"
-      ],
-      "type": "object"
-    },
-    "python_script": "import json\n\ndef generate_buttons(item_name):\n    if item_name.lower() == \"super repel\":\n        # 1. Clear text (A)\n        # 2. Open Menu (Start)\n        # 3. Navigate to Pack (Up x5 from EXIT to PACK)\n        # 4. Navigate to Top of Items Pocket (Up x10)\n        # 5. Navigate to Super Repel (Down x3)\n        # 6. Use item (A x3)\n        # 7. Exit Menu (B x2)\n        return [\"A\", \"sleep 200\", \"Start\", \"sleep 200\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"A\", \"sleep 200\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"Down\", \"Down\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"A\", \"sleep 200\", \"B\", \"sleep 200\", \"B\"]\n    return [\"B\"]\n\nprint(json.dumps(generate_buttons(input_data[\"item_name\"])))\n",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T17:32:44.359Z",
-        "action_counter": 45992
-      },
-      {
-        "commit_message": "Fixed hardcoded Down presses and added text clearing.",
-        "timestamp": "2026-01-13T17:33:46.842Z",
-        "action_counter": 45993
-      },
-      {
-        "commit_message": "Fixed Up press count to reach PACK and clarified Item Pocket navigation.",
-        "timestamp": "2026-01-13T17:35:00.452Z",
-        "action_counter": 45994
-      }
-    ]
   }
 }
