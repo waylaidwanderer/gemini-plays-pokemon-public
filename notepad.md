@@ -53,7 +53,7 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Manual Recovery (Cycle 49).
-- Observation: Tool failed to exit Gatehouse (Timing issue?).
-- Action: Manual Exit (Up) -> Open Map.
-- Next: Check Roamers. If on 35 -> Hunt. Else -> Resume Tool.
+- Status: Checking Map (Cycle 49).
+- Observation: Exited Gatehouse manually.
+- Action: Opening Map via `open_map`.
+- Next: If Roamer on 35 -> Hunt. Else -> Resume Tool.
