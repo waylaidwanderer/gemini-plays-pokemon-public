@@ -9,9 +9,9 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Traveling to Silver Cave Mart.
+- Status: Traveling to Blackthorn City Mart.
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Pivot to Silver Cave since Indigo Plateau is not in the Johto Fly list.
+- Strategy: Pivot to Blackthorn City since it sells Ultra Balls and is in the Johto Fly list. (Silver Cave has no Mart).
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
