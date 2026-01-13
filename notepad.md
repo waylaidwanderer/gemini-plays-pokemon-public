@@ -29,6 +29,8 @@
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
 
-# Strategy: Walking to Ecruteak
-- Path: Route 36 -> (North exit at 28,0) -> Route 37 -> Ecruteak City.
-- Current Status: On Route 36 (45, 4). Heading to (28, 0).
+# Strategy: Ecruteak Shuffle
+- Path: Ecruteak City <-> Route 37.
+- Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
+- Current Status: Starting Session 4. Super Repel Active (~48 steps left).
+- Lead: ICARUS (Lv 19).
