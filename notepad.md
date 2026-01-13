@@ -1,7 +1,7 @@
 # Roamer Hunt Strategy
 - **Current Plan:** Shuffle Roamers between Route 31 & Gatehouse.
-- **Status:** Exiting Gatehouse to Route 31.
-- **Recent:** Gaven's call finished (Turn 37105).
+- **Status:** Checking Map (Route 31).
+- **Recent:** Arrived on Route 31 (Turn 37106).
 - **Strategy:** Toggle Route 31 <-> Gatehouse. Check Map after each transition.
 - **Constraint:** Lugia (Lv60) lead means NO Repels.
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
