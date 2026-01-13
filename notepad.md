@@ -68,8 +68,9 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory.
-- Turn 44572: Attempt 8 failed. Hypothesis: Main menu cursor was at POKEGEAR (Index 3). Sequence [Start, Down x2, A] landed on GEM (Status) instead of PACK.
-- Current Status: Backing out to overworld to reset. Lead: ICARUS (Lv 19). Target: Raikou/Entei.
+- Turn 44572: Attempt 8 failed. Sequence [Start, Down x2, A] landed on GEM instead of PACK.
+- Turn 44574: Attempt 9 failed. Tool limit (50) exceeded by 79-button sequence.
+- Current Status: Closing menus to reset. Lead: ICARUS (Lv 19). Target: Raikou/Entei.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
