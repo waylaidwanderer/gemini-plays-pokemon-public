@@ -188,7 +188,7 @@
     ]
   },
   "cycle_roamer_hunt_route35": {
-    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map. 2. Steps UP (off warp), then DOWN (enter gatehouse), then UP (exit gatehouse). 3. Re-opens the Map. Handles starting on the warp tile (9, 33). Uses safer 6s delays.",
+    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map. 2. Walks South 3 steps (Enter Gatehouse), then North 2 steps (Exit Gatehouse), then North 2 steps (Reset). 3. Re-opens the Map. Handles starting at (9, 31).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -202,7 +202,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Up\", \"sleep 500\",\n    \"Down\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 6000\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
+    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"Down\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 6000\",\n    \"Up\", \"Up\", \"sleep 500\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -223,6 +223,11 @@
         "commit_message": "Increased warp sleep duration to 6000ms and optimized movement sequence (Enter -> Sleep -> Exit -> Sleep) to prevent getting stuck in the gatehouse.",
         "timestamp": "2026-01-13T03:13:49.175Z",
         "action_counter": 36678
+      },
+      {
+        "commit_message": "Adjusted movement for starting position (9, 31). Now walks Down x3 to reach warp at (9, 33), then walks Up x2 to exit, and Up x2 to return to start. Guaranteed entry from 2 tiles away.",
+        "timestamp": "2026-01-13T03:15:24.514Z",
+        "action_counter": 36679
       }
     ]
   }
