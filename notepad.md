@@ -2,14 +2,15 @@
 - **Location:** Mahogany Town (Fly Map).
 - **Goal:** Fly to Goldenrod City.
 - **Menu State:** Fly Map active. Cursor at Mahogany Town.
-- **Analysis:** Previous attempts to move Left failed or routed strangely.
-- **Plan:** Execute `Left` x2 to force cursor to the West side (Ecruteak or Violet).
-- **Delays:** 2500ms to ensure registration.
+- **Problem:** `Left` from Mahogany appears blocked or ignored (Turn 38118).
+- **Hypothesis:** Direct West connection might not exist or requires `Down` first.
+- **Plan:** `Down` (Test connection) -> `Left` x2 (Move West).
+- **Delays:** 2000ms.
 
 # Current Task: Roamer Hunt
 - **Status:** Fixing Fly Map Navigation.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify "VIOLET CITY" or "ECRUTEAK CITY".
+- **Next Step:** Verify destination text.
 
 # Progress
 - **Badges:** 16/16.
