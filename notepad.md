@@ -9,9 +9,9 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Exiting Cherrygrove Pokecenter (Turn 46127). Failed Fly attempt led to accidental entry.
+- Status: Flying to Blackthorn City from Cherrygrove (Turn 46127).
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Exit Pokecenter, then Fly to Blackthorn City.
+- Strategy: Use FLY to Blackthorn City, then buy Ultra Balls.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
