@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
-- **Menu Navigation:** VISUAL CONFIRMATION: Cursor on Mistral (Slot 6).
-- **Map Navigation:** Cherrygrove -> (Up) Violet -> (Left) Ecruteak.
-- **Strategy:** Executing Fly Sequence: A (Mistral) -> A (Fly) -> Map: Up, Left -> A.
+- **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Safe spot: (29,5).
+- **Menu Navigation:** Cursor REMEMBERS positions. Party: Mistral (Slot 6). Main: Pokemon (Slot 2?).
+- **Action:** Exiting menu and moving off door mat to enable Fly.
+- **Next Step:** From (29,5), Start -> Party -> Fly.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
