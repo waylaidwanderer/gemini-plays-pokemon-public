@@ -1,7 +1,7 @@
 # Mechanics & State
 - **Location:** Route 36 (East Side).
-- **Status:** Finishing Gaven's Phone Call (Kingler talk).
-- **Goal:** Clear text -> Walk West to Route 37 Junction -> North to Ecruteak.
+- **Status:** Phone call ended. Resuming travel.
+- **Goal:** Walk West to Route 37 Junction (approx x=26) -> North to Ecruteak.
 - **Fly Lesson:** Map inputs need massive delays.
 
 # Hall of Fame & Progress
