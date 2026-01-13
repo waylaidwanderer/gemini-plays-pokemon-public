@@ -30,39 +30,24 @@
 # Pokemon Information & Movesets
 - Party (6/6): ICARUS (Lv19 Pidgeotto), Calcifer (Lv64 Typhlosion), KIMCHI (Lv52 Gloom), GNEISS (Lv55 Graveler), GORP (Lv50 Snorlax), XENON (Lv44 Haunter).
 - Caught Species (32/251).
-- Observed Roamer Movesets: (None yet)
-
-# Task: Legendary Hunt
-- Start Turn: 44154
-- Priority: Raikou (Master Ball).
-- Method: Ecruteak Shuffle (Route 37).
-- Super Repel status: Stocking up (Olivine Mart).
-- Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
 # Legendary Hunt Strategy
 - Lead: ICARUS (Lv 19) with Repel (or Super Repel) to filter for Lv 40 Roamers on Route 37.
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
+- Target: Raikou (Master Ball), Entei (Hypnosis + Ultra/Great Balls).
+- Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
 # Roamer Tracking
-- Route 37: 0 encounters. Checked Turn 44154-44277.
+- Route 37: 0 encounters.
 - Route 36: 0 encounters.
 - Route 38: 0 encounters.
 
-# Restock Plan (Completed: Turn 44479)
-1. Travel to Ecruteak City (Completed).
-2. Pivot to Olivine City (Completed).
-3. Purchase Super Repels at Olivine Mart (Completed - have 85).
-4. Head to Route 37 via Ecruteak City South exit.
-5. Resume legendary hunt using the 'grass_pacer' tool.
-
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
-- PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
 - Fly Usage: Must be outdoors to use Fly.
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
-- Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
-- Text Speed: Fast (Turn 44324).
+- Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Super Repel Location: Olivine City Mart.
