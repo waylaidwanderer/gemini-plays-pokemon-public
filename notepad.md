@@ -17,3 +17,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
+- **Roamer Check (Turn 37279):** Not on Route 31. Shuffling (Route 31 -> Violet).
