@@ -44,3 +44,4 @@
 - **Observation (Turn 36816):** Roamers detected at approx (25, 25) [Route 42?] and (22, 27) [Route 31?]. None immediately on Route 37.
 - **Strategy:** Move to Route 37 boundary (South) to shuffle roamers efficiently.
 - **Action:** Entered Route 37. Opening Pokegear Map to check Roamer positions.
+- **Action:** Pressing 'A' to open full region map from Pokegear Map Card.
