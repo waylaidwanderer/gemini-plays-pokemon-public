@@ -41,3 +41,7 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Navigation Log
+- Turn 46375: `navigate` to (2, 34) failed to move player from (9, 16). Player is boxed in by ROCK (8, 16) and ROCK (9, 17) and WALL (9, 15). Only exit is Right to (10, 16).
+- Turn 46377: Fixed `find_path_v7_robust` bug (case-sensitivity and BUOY collision). Initiating manual movement to escape corner.
