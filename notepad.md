@@ -34,3 +34,4 @@
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
 - **Resupply Plan:** Walking to Goldenrod. Funds: ¥2644 (Enough for 5 Super Repels). Need more money for bulk buy.
 - **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
+- **Tool Note:** `pathfind` has a 50-step safety limit. For long-distance travel (e.g. National Park traversal), break the path into intermediate waypoints (approx 15-20 steps away).
