@@ -27,11 +27,12 @@
 - Items: Ultra Balls (32).
 
 # Observations: Wise Trio (Map 4_1)
-- Sage GAKU (ID 2): Last seen near (7, 10).
-- Sage MASA (ID ?): Needs to be located.
-- Sage KOJI (ID 3): Currently at (5, 9).
+- Sage GAKU (ID 2): Not currently on screen. Marker at (7, 10) is a placeholder.
+- Sage MASA (ID ?): Not currently on screen. Marker at (6, 9) is a placeholder.
+- Sage KOJI (ID 3): At (7, 8). Dialogue loop: "The TIN TOWER shook!..." No battle triggered yet.
 - Sage Entrance Guard (ID 1): At (4, 6).
-- Strategy: Defeat all three to prove worthiness. If dialogue loops, check other members.
+- Strategy: Locate all three members in 4_1. They may be in the southern or eastern parts of the main hall.
+- Hypothesis: Interaction order or specific positioning triggers the battles.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
