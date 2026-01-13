@@ -29,3 +29,7 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Navigation Lessons
+- Turn 46431: Phone calls can interrupt movement from `find_path_v7_robust` with `autopress_buttons: true`.
+- Tile Mechanics: Stepping onto land (FLOOR) from WATER immediately stops the Surfing state.
