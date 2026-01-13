@@ -235,12 +235,17 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\ngrid = {\"New Bark Town\": (5, 4), \"Cherrygrove City\": (4, 4), \"Violet City\": (4, 3), \"Ecruteak City\": (3, 3), \"Goldenrod City\": (3, 4), \"Azalea Town\": (3, 5), \"Olivine City\": (2, 4), \"Cianwood City\": (1, 4), \"Mahogany Town\": (5, 3), \"Indigo Plateau\": (5, 2)}\nif input_data['current_city'] not in grid or input_data['target_city'] not in grid: print(json.dumps([])); exit()\nx1, y1 = grid[input_data['current_city']]\nx2, y2 = grid[input_data['target_city']]\ndx, dy = x2 - x1, y2 - y1\nbuttons = [\"Start\"]\nbuttons.extend([\"Up\"] * 8)\nbuttons.append(\"Down\")\nbuttons.extend([\"A\", \"A\", \"A\"])\nif dx > 0: buttons.extend([\"Right\"] * dx)\nelif dx < 0: buttons.extend([\"Left\"] * abs(dx))\nif dy > 0: buttons.extend([\"Down\"] * dy)\nelif dy < 0: buttons.extend([\"Up\"] * abs(dy))\nbuttons.append(\"A\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\ngrid = {\"New Bark Town\": (5, 4), \"Cherrygrove City\": (4, 4), \"Violet City\": (4, 3), \"Ecruteak City\": (3, 3), \"Goldenrod City\": (3, 4), \"Azalea Town\": (3, 5), \"Olivine City\": (2, 4), \"Cianwood City\": (1, 4), \"Mahogany Town\": (5, 3), \"Indigo Plateau\": (5, 2)}\nif input_data['current_city'] not in grid or input_data['target_city'] not in grid: print(json.dumps([])); exit()\nx1, y1 = grid[input_data['current_city']]\nx2, y2 = grid[input_data['target_city']]\ndx, dy = x2 - x1, y2 - y1\nbuttons = [\"Start\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"A\", \"A\", \"A\", \"sleep 1500\"]\nfor _ in range(abs(dx)):\n    buttons.append(\"Right\" if dx > 0 else \"Left\")\n    buttons.append(\"sleep 300\")\nfor _ in range(abs(dy)):\n    buttons.append(\"Down\" if dy > 0 else \"Up\")\n    buttons.append(\"sleep 300\")\nbuttons.append(\"A\")\nfinal_buttons = []\nfor i, b in enumerate(buttons):\n    if b.startswith(\"sleep\") and i > 0 and buttons[i-1].startswith(\"sleep\"): continue\n    final_buttons.append(b)\nprint(json.dumps(final_buttons))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T11:49:18.921Z",
         "action_counter": 45514
+      },
+      {
+        "commit_message": "Added map loading delay and directional sleeps to ensure inputs register on the Fly map.",
+        "timestamp": "2026-01-13T11:55:01.734Z",
+        "action_counter": 45519
       }
     ]
   }
