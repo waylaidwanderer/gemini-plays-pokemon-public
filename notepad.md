@@ -9,9 +9,9 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Menu navigation error in Cherrygrove. (Turn 46130: Stuck in Options menu).
+- Status: Flying to Blackthorn City.
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Exit menu (B, B, B), then use FLY to Blackthorn City.
+- Strategy: Buy Ultra Balls at Blackthorn City Mart.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
@@ -29,7 +29,7 @@
 1. Mahogany Town
 2. Lake of Rage
 3. Blackthorn City
-4. Silver Cave [Current Location]
+4. Silver Cave
 5. New Bark Town
 6. Cherrygrove City
 7. Violet City
@@ -48,3 +48,4 @@
 - Roamers move on map transitions.
 - Fly map list navigation: 'Up' increases index, 'Down' decreases index.
 - Silver Cave Pokemon Center has no Mart.
+- Start menu cursor is persistent; scroll to EXIT to reset position reliably.
