@@ -86,3 +86,6 @@
 - **Correction:** Was stuck in 'Entry View' (Kakuna). Previous inputs likely navigated entries instead of menus.
 - **Action:** Pressing 'B' to return to List View.
 - **Action:** Pressing 'Select' to open the Search/Mode menu (Standard Gen 2 control).
+- **Action:** Selecting 'TYPE MODE' from Pokedex Option Menu.
+- **Sequence:** Down x3 (Navigate to bottom option), A (Select).
+- **Expectation:** This will open a list of Types to choose from.
