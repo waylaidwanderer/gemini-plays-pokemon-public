@@ -45,3 +45,4 @@
 - **Strategy:** Move to Route 37 boundary (South) to shuffle roamers efficiently.
 - **Action:** Entered Route 37. Opening Pokegear Map to check Roamer positions.
 - **Action:** Pressing 'A' to open full region map from Pokegear Map Card.
+- **Observation:** 'A' press in Turn 36830 didn't open the map. Retrying with a delay to ensure input registration.
