@@ -1,12 +1,11 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (29,4) AND (29,5).
-- **Movement:** At (29,4). Need to move to (29,5) or (30,5) to Fly.
-- **Menu:** Cursor on Pokemon -> Mistral (Slot 6).
+- **Movement:** At (29,4). Moving Down to (29,5) to Fly.
+- **Menu:** Cursor on Pokemon -> Mistral (Slot 6) -> Fly.
 - **Map Navigation:** Cherrygrove -> Violet (Up) -> Ecruteak (Left).
-- **Error:** Last turn flew to Cherrygrove (Self-Fly) due to map input timing or wrong coords.
-- **Correction:** Adding longer sleeps between Map inputs.
+- **Correction:** Increasing map load sleep to 5s and input spacing to 2s to ensure map cursor moves.
 
 # Strategy
 1. Move Down to (29, 5).
-2. Execute Fly Sequence with delays.
-3. Sequence: Start -> A (Pokemon) -> A (Mistral) -> A (Fly) -> Map: Wait 3s -> Up -> Wait 1s -> Left -> Wait 1s -> A.
+2. Execute Fly Sequence with LONG delays.
+3. Sequence: Start -> A (Pokemon) -> A (Mistral) -> A (Fly) -> Map: Wait 5s -> Up -> Wait 2s -> Left -> Wait 2s -> A.
