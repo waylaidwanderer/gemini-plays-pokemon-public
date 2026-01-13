@@ -95,3 +95,8 @@
 - **Strategy:** Strict step-by-step navigation as per critique.
 - **Action:** Left x1 (Target: Indigo Plateau).
 - **Goal:** Verify text changes from "SILVER CAVE".
+- **Turn 38094:** Previous attempt to navigate Fly map (Left x4 with 1000ms) failed to change text from Silver Cave.
+- **Hypothesis:** Input drops or lag.
+- **Action:** Executing Hard Reset of Fly Map (B -> A) to refresh UI state, then Left x3.
+- **Sequence:** B (Close Map) -> A (Select FLY from menu) -> Left x3 (Move cursor).
+- **Target:** New Bark Town / Cherrygrove area.
