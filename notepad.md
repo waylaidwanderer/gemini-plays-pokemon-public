@@ -10,8 +10,9 @@
 - Start Turn: 46373.
 - Repel Status: Super Repel active (Turn 46460).
 - Strategy (The "How"):
-    1. Land at (12, 28) and navigate land maze to (7, 4).
-    2. Path: (12, 28) -> (12, 30) -> (19, 30) -> (19, 34) -> (10, 34) -> (10, 33) -> (6, 33) -> (6, 34) -> (5, 34) -> West Corridor (X=2) -> (7, 4).
+    1. Surf through the eastern water corridor to Row 51.
+    2. Land at (23, 51).
+    3. Walk West to (4, 51), then North to (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
@@ -33,9 +34,6 @@
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
 
 # Navigation Notes
-- Land route to West Cianwood is a maze of one-way walls and building blockades.
-- Water route requires navigating gaps in BUOY lines at (16, 24), (23, 15), and (20, 9).
-- Northern land mass at Row 10 is the intended landing zone for reaching (7, 4).
-
-# Navigation Log
-- Turn 46477: Arnie's phone call interrupted movement. Identified bug in find_path_v7_robust (is_surfing boolean parsing). Fixed. Resuming trek to (7, 4).
+- Land route to West Cianwood is partitioned by FLOOR_UP_WALL lines. 
+- Entry to the southern land mass is only possible from the eastern water at Row 51.
+- Northern land mass landing zone is at (7, 10).
