@@ -26,6 +26,7 @@
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
+- Fly Attempt History: Turn 45439-45499 (60 turns fumbling). Resetting loop.
 - Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Cherrygrove to Ecruteak = Up, Up, A.
 - Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (17, 35).
 
