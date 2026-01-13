@@ -30,3 +30,4 @@
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
+- **Map Navigation Note:** Standard button presses failed to move the Fly cursor from New Bark Town. Suspect input speed issue. Testing with delays.

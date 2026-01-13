@@ -155,5 +155,43 @@
         "action_counter": 37745
       }
     ]
+  },
+  "navigate_fly_map": {
+    "description": "Navigates the Fly map (or any menu) by pressing a direction multiple times with a specified delay between presses to ensure registration.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "Up",
+            "Down",
+            "Left",
+            "Right"
+          ]
+        },
+        "times": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "delay_ms": {
+          "type": "integer",
+          "default": 200
+        }
+      },
+      "required": [
+        "direction",
+        "times"
+      ]
+    },
+    "python_script": "def navigate_fly_map(direction, times, delay_ms=200):\n    buttons = []\n    for _ in range(times):\n        buttons.append(direction)\n        if delay_ms > 0:\n            buttons.append(f\"sleep {delay_ms}\")\n    print(f'{{\"buttons_to_press\": {buttons}}}')\n\n# Example usage (commented out for tool definition)\n# navigate_fly_map(\"Left\", 5)",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T22:57:08.418Z",
+        "action_counter": 38053
+      }
+    ]
   }
 }
