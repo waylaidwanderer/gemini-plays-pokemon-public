@@ -16,12 +16,11 @@
 
 # Roamer Hunt Log
 - **Status:** In Route 37 Grass.
-- **Action:** Quick Check (Running through grass without Repel to save menuing time).
-- **Strategy:**
-  1. Walk through grass (Down x4).
-  2. If encounter:
-     - Roamer: Try to catch/battle.
-     - Trash: Run.
-  3. If no encounter, return to Ecruteak.
-  4. Repeat shuffle.
-- **Note:** I lack a Trapper (Mean Look), so catching is hard. Focus on locating first.
+- **Action:** Applying Repel.
+- **Strategy:** Repel Shuffle.
+  1. Apply Repel (Lead: Gyarados Lv 36).
+  2. Walk 2-4 steps in grass.
+  3. If no encounter, exit to Ecruteak.
+  4. Re-enter and repeat.
+  - Repel lasts 100 steps (~25 checks). Very efficient.
+- **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel blocks trash (Lv ~15) but allows Roamers.
