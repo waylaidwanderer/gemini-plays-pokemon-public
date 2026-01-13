@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Pokegear Menu.
-- **Action:** Cursor on 'BACK'. Attempting to open 'MAP' again with longer delay.
+- **Status:** Inside Phone Menu (Mistake).
+- **Action:** B (Exit Phone) -> Left (to Map) -> A (Select Map).
 - **Strategy:** Identify Roamer locations relative to Ecruteak.
-- **Observation:** Previous attempt to open Map failed (cursor remained on BACK).
+- **Observation:** Cursor was on PHONE, not BACK. Visual confirmation is key.
