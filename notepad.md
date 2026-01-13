@@ -1,9 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
-- **Menu Navigation:** 'Up' wrap-around is efficient. Map Navigation: Cherrygrove -> (Up) Violet -> (Left) Ecruteak.
-- **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 25:** Exit Pokecenter -> Menu -> Party -> Wrap to Mistral -> Fly.
-    - **Sequence:** Down (Exit) -> Down (Move) -> Start -> Down (Pokemon) -> A -> Up x2 (Wrap to Slot 6) -> A -> A (Fly) -> Up -> Left -> A.
+- **Menu Navigation:** Start -> Up x10 (Reset) -> Down (Pokemon). Party: Up x2 (Slot 6 Mistral).
+- **Map Navigation:** Cherrygrove -> (Up) Violet -> (Left) Ecruteak.
+- **Strategy:** Exit Pokecenter -> Move off mat -> Use 'robust_fly_ecruteak' tool.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
