@@ -141,3 +141,5 @@
 - **Action:** Exiting Pack (B) -> Down (Select Gear) -> A (Open Gear).
 - **Status:** Pokegear Open. Cursor on 'BACK'.
 - **Action:** Right (Select Map) -> A (Open Map).
+- **Action:** Pressing 'A' to open full map view (Map Card is selected).
+- **Check:** If Roamers on Route 36 -> Hunt. Else -> Shuffle (Violet).
