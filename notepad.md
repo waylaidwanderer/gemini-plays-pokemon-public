@@ -16,7 +16,7 @@
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters. Interrupted by Repel expiration.
 - **Session 2 (Turn 44880-Present)**: Transitioning between R37 and Ecruteak. 10 steps in grass per transition.
     - Transitions 1-16: 0 encounters.
-    - Transition 17: Interrupted by wild Stantler. Repel expired. Re-applying repel now. Attempt 1: Opened GEM. Attempt 2: Used FULL RESTORE. Attempt 3: Main menu open. Strategy: Enter PACK, scroll to SUPER REPEL, use. Inventory: 72 Super Repels. Order: ... FRESH WATER, SODA POP, FULL RESTORE, PP UP, SUPER REPEL.
+    - Transition 17: Interrupted by wild Stantler. Repel expired. Re-applying repel now. Attempt 1: Opened GEM. Attempt 2: Used FULL RESTORE. Attempt 3: Used PP UP on FLY. Attempt 4: In Pack, cursor on CANCEL. Strategy: Up to SUPER REPEL, A (Use), A (clear), B x3.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
