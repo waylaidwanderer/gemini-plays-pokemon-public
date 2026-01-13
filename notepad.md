@@ -15,9 +15,8 @@
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters. Interrupted by Repel expiration.
 - **Session 2 (Turn 44880-Present)**: Transitioning between R37 and Ecruteak. 10 steps in grass per transition.
-    - Transitions 1-14: 0 encounters.
-    - Transition 15: 0 encounters.
-    - Transition 16: In progress (Returning to Route 37).
+    - Transitions 1-15: 0 encounters.
+    - Transition 16: In progress (Pacing in grass).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
