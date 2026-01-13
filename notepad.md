@@ -30,12 +30,12 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 45.
-- Repel 3: Applied Turn 45723. (~110 steps used).
-- Current Status: Cycle 45 pacing complete. Moving back to Ecruteak City.
+- Repel 3: Applied Turn 45723. (~120 steps used).
+- Current Status: Starting Cycle 46. Moving to Route 37 grass.
 - Encounter Plan: Use Master Ball on first roamer encounter.
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
-  - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31. I'd need a new Gastly/Haunter or a Move Reminder if one exists.
+  - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
   - Decision: Stick to Master Ball for the first one, then evaluate Spinarak.
 
 # Quest Log
