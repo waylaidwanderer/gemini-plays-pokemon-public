@@ -88,3 +88,6 @@
 - **Correction:** Press 'A' to open Map. Then navigate.
 - **Action:** A (Open) -> Wait 2s -> Left (Move) -> Wait 2s.
 - **Goal:** Verify cursor moves out of Silver Cave.
+- **Turn 38089 Strategy:** Restarting Fly procedure from Overworld.
+- **Action:** Start -> Wait -> A.
+- **Goal:** Open Menu and enter the first option (likely POKEMON). Verify state next turn.
