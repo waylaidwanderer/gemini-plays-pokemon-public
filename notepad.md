@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37328):** Map shows icons on **Route 36**, **Route 42**, and **Route 44**. Not on Route 31. Shuffling (Route 31 -> Violet).
+- **Roamer Check (Turn 37332):** Map shows icons on **Route 36**, **Route 42**, and **Route 44**. Not on Route 31. Shuffling (Violet -> Route 31).
