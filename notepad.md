@@ -50,3 +50,6 @@
   2. Run in grass (Route 35) for ~20 steps.
   3. If no encounter, enter/exit Gatehouse (Shuffle).
   4. Repeat.
+- **Menu Mechanics:** Pack Menu (Items) does NOT wrap from Top to Bottom using `Up`.
+- **Action:** To reach new items (Repel), scroll DOWN to bottom.
+- **Sequence:** `B` (Exit sub-menu) -> `Down` x 15 (Hit bottom) -> `Up` (Select last item/Repel) -> `A`.
