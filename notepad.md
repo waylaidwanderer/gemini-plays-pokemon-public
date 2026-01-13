@@ -19,13 +19,15 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Inside Ecruteak Mart.
+- **Status:** Selling Ultra Balls.
 - **Plan:**
-  1. Sell 20 Ultra Balls (Target: ~¥12,000).
-  2. Buy ~24 Super Repels.
+  1. Sell 20 Ultra Balls (¥600 ea = ¥12,000).
+     - Total Cash: ~¥12,294.
+  2. Buy 24 Super Repels (¥500 ea = ¥12,000).
   3. Return to Route 37.
 - **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
-- **Inventory:** 36 Ultra Balls. Selling 20 leaves 16. Enough for now.
+- **Inventory:** 36 Ultra Balls. Selling 20 leaves 16.
+- **Math:** 24 Super Repels = 4800 steps. That's plenty.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
