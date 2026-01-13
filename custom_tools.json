@@ -157,7 +157,7 @@
     ]
   },
   "reset_roamers": {
-    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses extended sleeps (12s) to handle map transition latency. Hardcoded for player at y=4 on Route 37.",
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses max allowed sleep (10s) to handle map transition latency. Hardcoded for player at y=4 on Route 37.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -171,7 +171,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\n\ndef reset_roamers(autopress_buttons=False):\n    # Sequence:\n    # 1. Walk Up 5 steps to enter Ecruteak City (assumes starting at y=4 on Route 37)\n    # 2. Sleep 12s to handle load time\n    # 3. Walk Down 2 steps to exit Ecruteak City immediately\n    # 4. Sleep 12s to handle load time\n    # 5. Walk Down 4 steps to return to the grass patch (y=4)\n    \n    buttons = []\n    # Step 1: Go to Ecruteak\n    buttons.extend([\"Up\"] * 5)\n    \n    # Step 2: Wait for Ecruteak load\n    buttons.append(\"sleep 12000\")\n    \n    # Step 3: Exit Ecruteak (Down x2 to be safe and trigger warp)\n    buttons.extend([\"Down\"] * 2)\n    \n    # Step 4: Wait for Route 37 load\n    buttons.append(\"sleep 12000\")\n    \n    # Step 5: Return to grass position\n    buttons.extend([\"Down\"] * 4)\n    \n    if autopress_buttons:\n        print(json.dumps(buttons))\n    return buttons\n\nreset_roamers(autopress_buttons=True)",
+    "python_script": "import json\n\ndef reset_roamers(autopress_buttons=False):\n    # Sequence:\n    # 1. Walk Up 5 steps to enter Ecruteak City (assumes starting at y=4 on Route 37)\n    # 2. Sleep 10s (max allowed) to handle load time\n    # 3. Walk Down 2 steps to exit Ecruteak City immediately\n    # 4. Sleep 10s (max allowed) to handle load time\n    # 5. Walk Down 4 steps to return to the grass patch (y=4)\n    \n    buttons = []\n    # Step 1: Go to Ecruteak\n    buttons.extend([\"Up\"] * 5)\n    \n    # Step 2: Wait for Ecruteak load\n    buttons.append(\"sleep 10000\")\n    \n    # Step 3: Exit Ecruteak (Down x2 to be safe and trigger warp)\n    buttons.extend([\"Down\"] * 2)\n    \n    # Step 4: Wait for Route 37 load\n    buttons.append(\"sleep 10000\")\n    \n    # Step 5: Return to grass position\n    buttons.extend([\"Down\"] * 4)\n    \n    if autopress_buttons:\n        print(json.dumps(buttons))\n    return buttons\n\nreset_roamers(autopress_buttons=True)",
     "history": [
       {
         "commit_message": "Initial version",
@@ -227,6 +227,11 @@
         "commit_message": "Fixed JSON formatting in output by importing json and using json.dumps(). Removed incorrect wrapper object, now outputs raw JSON array of buttons.",
         "timestamp": "2026-01-13T22:10:22.336Z",
         "action_counter": 37975
+      },
+      {
+        "commit_message": "Reduced sleep duration to 10000ms (10s) to comply with system limits. Previous attempt failed because 12000ms exceeded the maximum allowed sleep time.",
+        "timestamp": "2026-01-13T22:10:49.063Z",
+        "action_counter": 37976
       }
     ]
   }
