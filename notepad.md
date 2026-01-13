@@ -33,6 +33,6 @@
 # Navigation Log: Fly to Ecruteak
 - Attempt 1-5: Various failures (Pokedex, Options, Cherrygrove, Save instead of Fly).
 - Attempt 5 (Turn 45161): Landed in Violet.
-- Attempt 6 (Turn 45163): Saved instead of Flying.
-- Current Status: In Violet City. Retrying Fly to Ecruteak (1 Up).
-- Strategy: Reset cursor with 'Up' presses, select FLY, move Up once.
+- Attempt 6 (Turn 45163): Saved instead of Flying. Landed in Cherrygrove (Turn 45164).
+- Current Status: In Cherrygrove City. Retrying Fly to Ecruteak (2 Up).
+- Strategy: Reset cursor with 'Up' presses, select FLY, move Up twice. From Cherrygrove, Ecruteak is 2 Up.
