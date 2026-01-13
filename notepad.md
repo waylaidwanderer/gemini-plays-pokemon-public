@@ -22,7 +22,9 @@
 - **Status:** Resetting Roamer positions (Route 37 <-> Ecruteak).
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Repel applied (1 remaining). Resetting map.
+  - Repel applied (1 remaining).
+  - NOTE: Split reset into 2 turns (Up... Wait / Down... Wait) to handle lag.
+  - Current Status: Returning to Route 37 manually.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
