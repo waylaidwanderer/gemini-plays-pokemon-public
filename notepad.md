@@ -19,7 +19,7 @@
 # Strategy Tools
 - **roamer_strategist**: Agent for hunt efficiency.
 - **grass_pacer**: Tool for wild encounter pacing.
-- **open_fly_map**: Tool for FLY navigation (Assumes cursor on POKEDEX).
+- **open_fly_map**: Tool for FLY navigation.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -29,8 +29,3 @@
 - [Lesson] Start Menu Cursor persists even after overworld movement.
 - [Verified] Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
 - [Verified] Fly Map Navigation from New Bark: Left (Cherrygrove), Up (Violet), Up (Ecruteak).
-
-# Current Plan
-1. Fly Map is open at New Bark Town.
-2. Navigate: Left (to Cherrygrove), Up (to Violet), Up (to Ecruteak).
-3. Confirm with A.
