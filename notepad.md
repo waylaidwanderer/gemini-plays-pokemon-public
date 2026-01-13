@@ -89,3 +89,5 @@
 - **Action:** Selecting 'TYPE MODE' from Pokedex Option Menu.
 - **Sequence:** Down x3 (Navigate to bottom option), A (Select).
 - **Expectation:** This will open a list of Types to choose from.
+- **Action:** Closing Option Menu ('B'), then opening Search Menu ('Start').
+- **Reasoning:** Screen confirms Option Menu is open. Search is accessed via 'Start' from the main list.
