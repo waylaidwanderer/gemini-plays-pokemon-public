@@ -45,3 +45,5 @@
 - **Status:** Navigating Pokegear. Stuck in Phone List.
 - **Action:** `B` (Close Popup) -> `B` (Exit List) -> `Up` (Ensure Tab Selection) -> `Left` (Map) -> `A`.
 - **Note:** Phone contact list seems to trap cursor. `B` or `Up` required to exit to tabs.
+- **Anomaly:** GameState reports Map Change to Dept Store (11_11), but Screen shows Pokegear Navigation. Assuming Pokegear is open and prioritising navigation.
+- **Action:** `Right` -> `A` to open Map from Pokegear menu.
