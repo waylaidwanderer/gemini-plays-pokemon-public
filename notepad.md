@@ -42,7 +42,7 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 
 # Goldenrod Restock Plan (Started: Turn 44278)
-1. Travel to Goldenrod City (Biking from New Bark Town).
+1. Travel to Goldenrod City (Biking from Route 29).
 2. Navigate to Goldenrod Dept. Store (North of PC).
 3. Buy a full stack of Super Repels.
 4. Fly back to Ecruteak City.
