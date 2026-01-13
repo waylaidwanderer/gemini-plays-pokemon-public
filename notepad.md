@@ -40,3 +40,4 @@
 - **Test:** Check roamer position after entering Gatehouse.
 - **Constraint:** Lugia (Lv60) prevents Repel usage (blocks Lv40 Roamers). Must endure wild encounters or switch to Lv39- lead (Gyarados Lv36) for Repel trick, but risk outspeed/flee.
 - **Current Choice:** Using Lugia (Speed) + No Repel.
+- **Violet City** -> Right -> **Route 31** [Confirmed]
