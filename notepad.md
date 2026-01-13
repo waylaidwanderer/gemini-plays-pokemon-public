@@ -38,3 +38,5 @@
 - **Correction:** Previous attempts to move cursor from Silver Cave failed. Testing if map is responding or if Silver Cave is isolated.
 - **Fly Navigation:** Dead reckoning suggests cursor is at Ecruteak (Silver Cave -> Leftx3 -> New Bark -> Leftx3 -> Ecruteak).
 - **Next Step:** Press Down to select Goldenrod. Verify destination before confirming.
+- **Fly Navigation:** Attempting rigorous sequence: B (Reset) -> A (Open) -> Left x4 -> Down x1. Target: Goldenrod.
+- **Reason:** Previous dead reckoning was inconsistent. Hard reset ensures known starting point (Silver Cave).
