@@ -29,9 +29,8 @@
 
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
-- Completed Cycles: 50.
-- Repel 3: Applied Turn 45723. (~90 steps used).
-- Current Status: Pacing in Cycle 51 at Route 37 grass.
+- Completed Cycles: 51.
+- Repel 3: Applied Turn 45723. (~100 steps used).
 - Encounter Plan: Use Master Ball on first roamer encounter.
 
 # Quest Log
