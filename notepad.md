@@ -5,21 +5,21 @@
 - LEDGE_HOP_RIGHT: One-way jump East.
 - WATER: Traversable while Surfing. Stepping onto FLOOR from WATER cancels Surfing.
 - FLOOR: Traversable on foot. Facing WATER and pressing A initiates Surfing (requires HM03).
+- Transition: WATER to FLOOR via movement is 'Landing'. FLOOR to WATER requires facing WATER and pressing A.
 
 # Suicune Quest
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
-- Strategy (The "How"):
-    1. Surf from (12, 27) to (23, 26) via (12, 24) and (17, 26).
-    2. Surf North to (23, 16), then West to (21, 16).
-    3. Surf North to (21, 14), then West to (16, 14) to land.
-    4. Walk North to (16, 10), then West to (7, 10), then North to (7, 4).
+- Strategy (The "How") [Manual Waypoints]:
+    1. Surf (12,27) -> (12,26) -> (23,26) [Clear Row].
+    2. Surf (23,26) -> (23,8) [Clear Column].
+    3. Surf (23,8) -> (17,8) -> (17,10) -> (16,10) [Landing].
+    4. Walk (16,10) -> (7,10) -> (7,4) [Sighting].
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis immediately. Chip with Night Shade x2 (fixed 88 dmg). Maintain Sleep.
-- Analysis: Suicune (~140 HP) will be in yellow/red after 2 Night Shades. 
+- Strategy: Use Hypnosis immediately. Chip with Night Shade x3 (132 dmg total). Suicune Lv 40 has ~135 HP. Check HP bar after 2 hits.
 - Backup: KIMCHI (Gloom) for Sleep Powder. GORP (Snorlax) as tank.
 - Catch: Ultra Balls (32) while asleep.
 
