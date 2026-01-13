@@ -12,9 +12,9 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - **Repel Trick**: Lv 19 lead (ICARUS) with Super Repel active.
-- **Status**: Super Repel Active (200 steps). Used at Turn 45241.
+- **Status**: Super Repel Active (200 steps). Used at Turn 45249.
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
-- **Fly to Ecruteak Attempt**: Started Turn 45183. 70 turns failed due to menu hallucination.
+- **Fly to Ecruteak Attempt**: Started Turn 45183. Stalled for 70+ turns due to menu/state hallucinations.
 
 # Strategy Tools
 - **roamer_strategist**: Agent for hunt efficiency.
@@ -26,11 +26,11 @@
 - PC Box 1: 10/20.
 
 # Hypotheses & Lessons
-- [Lesson] Fly attempt stagnation: 70 turns. Cause: Hallucinating Fly Map open while in Overworld.
-- [Lesson] Menu persistence: Start menu cursor remains on the last selected item (e.g., GEAR was at index 4).
-- [Verified] Start menu order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.[Player], 6.SAVE, 7.OPTION, 8.EXIT.
+- [Lesson] Start Menu Cursor persists even after overworld movement.
+- [Verified] Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
+- [Verified] Fly Map Navigation from New Bark: Left (Cherrygrove), Up (Violet), Up (Ecruteak).
 
 # Current Plan
-1. Reset state by walking from Route 31 Gatehouse to Route 31.
-2. Verify overworld state.
-3. Open menu and verify cursor position before using FLY.
+1. Fly Map is open at New Bark Town.
+2. Navigate: Left (to Cherrygrove), Up (to Violet), Up (to Ecruteak).
+3. Confirm with A.
