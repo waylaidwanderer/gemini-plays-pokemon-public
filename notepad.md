@@ -40,3 +40,6 @@
 - **Next Step:** Press Down to select Goldenrod. Verify destination before confirming.
 - **Fly Navigation:** Attempting rigorous sequence: B (Reset) -> A (Open) -> Left x4 -> Down x1. Target: Goldenrod.
 - **Reason:** Previous dead reckoning was inconsistent. Hard reset ensures known starting point (Silver Cave).
+- **Fly Logic Correction:** Previous failure was due to cursor being on 'STATS' in submenu.
+- **Current Plan:** Up (to FLY) -> A (Open Map) -> Left x4 (to Ecruteak) -> Down (to Goldenrod) -> A (Execute).
+- **Assumed Starting Point:** Silver Cave (Current Location).
