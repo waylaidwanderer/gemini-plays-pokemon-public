@@ -157,7 +157,7 @@
     ]
   },
   "reset_roamers": {
-    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses massive sleeps (15s) to handle extreme map transition latency. Hardcoded for player at y=4 on Route 37.",
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and returning to the grass patch on Route 37 (Down) to reset Roamer positions. Uses max allowable sleeps (10s) to handle map transition latency. Hardcoded for player at y=4 on Route 37.",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -171,7 +171,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 15000\")\nbuttons.extend([\"Down\", \"Down\"])\nbuttons.append(\"sleep 15000\")\nbuttons.extend([\"Down\"] * 3)\nprint(json.dumps(buttons))",
+    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 10000\")\nbuttons.extend([\"Down\"] * 4)\nbuttons.append(\"sleep 10000\")\nbuttons.extend([\"Down\"] * 4)\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -212,6 +212,11 @@
         "commit_message": "Increased sleep duration to 15 seconds to aggressively combat map transition latency. Added an extra 'Down' input to ensure the return warp is triggered even if one input is swallowed.",
         "timestamp": "2026-01-13T21:55:15.469Z",
         "action_counter": 37949
+      },
+      {
+        "commit_message": "Corrected sleep duration to the maximum allowed 10000ms (10s). Adjusted input sequence to improve reliability of the return trip.",
+        "timestamp": "2026-01-13T21:56:35.629Z",
+        "action_counter": 37952
       }
     ]
   }
