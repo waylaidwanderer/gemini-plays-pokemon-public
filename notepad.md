@@ -8,7 +8,7 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 4-10 steps in grass, repeat.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Expired Turn 44922. Application failed Turn 44923.
+- **Repel Status**: Active (Turn 44936). ~200 steps remaining. (Inventory: 71 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
@@ -16,7 +16,7 @@
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters. Interrupted by Repel expiration.
 - **Session 2 (Turn 44880-Present)**: Transitioning between R37 and Ecruteak. 10 steps in grass per transition.
     - Transitions 1-16: 0 encounters.
-    - Transition 17: Interrupted by wild Stantler. Repel expired. Re-applying repel now. Attempt 1: Opened GEM. Attempt 2: Used FULL RESTORE. Attempt 3: Used PP UP on FLY. Attempt 4: In Pack, cursor on CANCEL. Strategy: Up to SUPER REPEL, A (Use), A (clear), B x3.
+    - Transition 17: Interrupted by wild Stantler and Dana's phone call. Repel re-applied Turn 44936. Pacing in grass.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
