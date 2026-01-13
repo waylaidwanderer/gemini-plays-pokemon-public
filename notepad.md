@@ -50,8 +50,10 @@
 
 # Fly Strategy (Active)
 - Attempting to Fly to Goldenrod City.
-- Sequence: Start -> Down (Pokemon) -> A -> A (Icarus) -> A (Fly).
-- Once on the Fly map, navigate to Goldenrod City.
+- Current Status: Fly map open. Cursor at Ecruteak City.
+- Observation: New Bark Town -> Up (5 times) -> Ecruteak City.
+- Plan: Navigate cursor to Goldenrod City. Try Down/Left.
+- Sequence: Navigate -> A (Confirm).
 - If Fly fails, resume biking West.
 
 # Lessons Learned
