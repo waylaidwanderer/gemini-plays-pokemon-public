@@ -18,6 +18,7 @@
 - Strategy: Use Hypnosis immediately.
 - Support: GORP (Snorlax) or GNEISS (Graveler) to tank hits and chip HP (avoid Calcifer Lv 64).
 - Capture: Use Ultra Balls while asleep. Switch to Great Balls if needed.
+- Backup Sleeper: KIMCHI (Gloom) with Sleep Powder.
 
 ## Legendary Progress
 - Suicune: Tin Tower (Clear Bell owned).
