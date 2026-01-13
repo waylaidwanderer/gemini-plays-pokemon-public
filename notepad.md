@@ -29,9 +29,9 @@
 
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
-- Completed Cycles: 43.
-- Repel 3: Applied Turn 45723. (~100 steps used).
-- Current Status: Pacing in Cycle 44.
+- Completed Cycles: 44.
+- Repel 3: Applied Turn 45723. (~80 steps used).
+- Current Status: Cycle 44 pacing complete. Moving back to Ecruteak City.
 - Encounter Plan: Use Master Ball on first roamer encounter. For subsequent roamers, consider training a Trapper (Mean Look/Spider Web).
 
 # Quest Log
