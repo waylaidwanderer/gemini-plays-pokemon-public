@@ -58,3 +58,5 @@
 - Suicune (Crystal): Suicune is NOT a roamer in Crystal; it is found at Tin Tower. Route 37 for Raikou/Entei.
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
+- Text Speed: Fast (Turn 44324).
+- Bike Trip: Started Turn 44328. Riding West on Route 29.
