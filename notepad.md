@@ -72,3 +72,7 @@
 - **Turn 38084 Status:** Map open at Silver Cave (Cursor reset?).
 - **Action:** Retrying Left x2 with 2000ms delay.
 - **Goal:** Reach New Bark Town. Verify control.
+- **Turn 38085 Strategy:** Full Navigation Sequence with Reset.
+- **Sequence:** B (Close) -> A (Open @ Silver Cave) -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+- **Delay:** 1500ms.
+- **Goal:** Land cursor on "GOLDENROD CITY". Verify before Flying.
