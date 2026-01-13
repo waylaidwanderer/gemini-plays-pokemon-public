@@ -73,4 +73,5 @@
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
 - Turn 44576: Confirmed menu cursor memory behavior.
-- Turn 44590: Super Repel wore off. Current task: Re-applying.
+- Turn 44590: Super Repel wore off.
+- Turn 44600: Attempt to re-apply Repel failed (landed in Pokedex due to safety limit truncation).
