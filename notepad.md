@@ -11,6 +11,9 @@
 - LEDGE_HOP_DOWN: One-way ledge. Jump Down only.
 - LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
 - LEDGE_HOP_LEFT: One-way ledge. Jump Left only.
+- COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
+- STAIRCASE: Warp tile. Leads to a different floor or area.
+- ESCALATOR: Warp tile. Automatically moves player between floors.
 
 # Type Effectiveness Chart (Verified)
 - Fire -> Grass: Super effective.
@@ -49,9 +52,6 @@
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
-# Fly Strategy (Completed)
-- Successfully flew to Goldenrod City on Turn 44363.
-
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
 - PC Storage: Parties must have space before withdrawing; always deposit first if at 6/6.
@@ -62,6 +62,3 @@
 - Text Speed: Fast (Turn 44324).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Super Repels: Sold on 2F of Goldenrod Dept. Store.
-- COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
-- STAIRCASE: Warp tile. Leads to a different floor or area.
-- ESCALATOR: Warp tile. Automatically moves player between floors.
