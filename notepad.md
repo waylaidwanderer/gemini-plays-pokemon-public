@@ -1,8 +1,8 @@
 # Legendary Roamer Hunt
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
-- **Repel Status**: Super Repel active. Applied Turn 44696. (~185/200 steps taken).
-- **Roamer Status**: Raikou/Entei roaming. Suicune is static at Tin Tower.
+- **Repel Status**: Super Repel active. Applied Turn 44696. (172/200 steps taken).
+- **Roamer Status**: Raikou/Entei roaming. Not yet sighted.
 - **Catching Strategy**: Master Ball immediately.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
