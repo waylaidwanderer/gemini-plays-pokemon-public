@@ -57,3 +57,5 @@
 - **Navigation Test:** Attempting 'Left, Up, Up' from Cherrygrove.
   - If Left works: Azalea -> Goldenrod -> Ecruteak.
   - If Left fails: Cherrygrove -> Violet -> Mahogany/Ecruteak?
+- **Observation:** 'Left' from Cherrygrove leads to Azalea Town.
+- **Hypothesis:** Previous 'Up' inputs may have been eaten by animation. Testing 'Up' from Azalea to reach Goldenrod.
