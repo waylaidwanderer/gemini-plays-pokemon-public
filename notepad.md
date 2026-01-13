@@ -50,3 +50,5 @@
 - **Action:** Closing menu and moving to (9, 2) to clear 'stuck on tile' warning and reset menu state.
 - **Fix:** Moving to (9, 2) to clear tile warning.
 - **Tool:** Defining `safe_open_map` to handle menu cursor memory reliably.
+- **Action:** Closing Start Menu (was left open) and moving to (9, 2).
+- **Next:** Test `safe_open_map` tool.
