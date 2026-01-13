@@ -36,6 +36,8 @@
 - **Resupply Plan:** Walking to Goldenrod. Funds: ¥2644 (Enough for 5 Super Repels). Need more money for bulk buy.
 - **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
 - **Tool Note:** `pathfind` has a 50-step safety limit. For long-distance travel (e.g. National Park traversal), break the path into intermediate waypoints (approx 15-20 steps away).
-- **Funding Strategy:** Plan to sell 9 Great Balls and 9 Poke Balls to fund more Super Repels. Ultra Balls (36) are sufficient for Roamers.
-- **Shop Data:** Goldenrod 2F Bottom Clerk sells: Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail. NO Super Repel.
-- **Plan:** Check Top Clerk for Super Repel. If absent, buy bulk Standard Repels.
+- **Resupply Plan:** In Goldenrod Dept Store 2F. Top Clerk checked (No Super Repels). Buying bulk Standard Repels from Bottom Clerk instead.
+- **Shop Data:** 
+  - 2F Bottom Clerk (13,6): Poke Ball, Great Ball, Escape Rope, Repel, Revive, Full Heal, Poke Doll, Flower Mail.
+  - 2F Top Clerk (13,5): Potion, Super Potion, Antidote, Parlyz Heal, Awakening, Burn Heal, Ice Heal.
+  - Conclusion: No Super Repels available. Using Standard Repels.
