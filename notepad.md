@@ -21,7 +21,7 @@
 ## Legendary Status
 - Suicune: Tin Tower. Clear Bell owned.
 - Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
-- Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter. Verified Turn 46082: Timeline corrected.
+- Roamer Shuffle: Extensive shuffle performed on Route 37/Ecruteak (~120 cycles). No encounter. Verified Turn 46082.
 
 # Suicune Battle Plan
 - Lead: XENON (Haunter, Lv 44).
