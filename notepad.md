@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37332):** Map shows icons on **Route 36**, **Route 42**, and **Route 44**. Not on Route 31. Shuffling (Violet -> Route 31).
+- **Roamer Check (Turn 37335):** Positions unchanged (36, 42, 44). Gatehouse does NOT shuffle. Changing strategy: Fly to Ecruteak for direct route links.
