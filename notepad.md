@@ -76,3 +76,7 @@
 - **Sequence:** B (Close) -> A (Open @ Silver Cave) -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
 - **Delay:** 1500ms.
 - **Goal:** Land cursor on "GOLDENROD CITY". Verify before Flying.
+- **Turn 38086 Strategy:** Correcting menu state. Cursor is on STATS.
+- **Sequence:** Up (Select FLY) -> A (Open Map) -> Left x5 (Silver -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak) -> Down x1 (Goldenrod).
+- **Delay:** 1500ms.
+- **Goal:** Verify "GOLDENROD CITY" text next turn.
