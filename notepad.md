@@ -1,15 +1,21 @@
 # Verified Game Systems
 - Start Menu: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
-- Fly Map: Cursor starts at New Bark Town (5, 4). (Interrupted by Dana's call Turn 45531).
-- Johto Fly Grid: Ecruteak (3,3), Violet (4,3), Mahogany (5,3), Goldenrod (3,4), Cherrygrove (4,4), New Bark (5,4).
-- Repel Trick: Lv 19 lead (ICARUS) + Super Repel = Roamers only (Lv 40).
+- Fly Map Cursor: Hypothesis - Starts at current city or New Bark. Verification needed.
+- Johto Grid (Relative): Cherrygrove is West of New Bark. Violet is North of Cherrygrove. Ecruteak is West of Violet.
+- Tile Mechanics: Standard (FLOOR traversable, WALL impassable, COUNTER face-to-interact).
 
 # Roamer Hunt Strategy
 - Session 4 Start: Turn 45281.
 - Method: Ecruteak Shuffle (Route 37 South Gate).
-- Current Status: Traveling to Ecruteak.
-- Repel: Active (10 steps taken).
+- Current Status: Verifying Fly Map cursor position.
+- Repel: Active (Applied Turn 45439, 10 steps).
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
 - Yanma Swarm: Route 35 (Active).
+
+# Fly Verification Plan
+1. Open Fly map and identify the red arrow's starting position.
+2. Note the destination name displayed on screen.
+3. Move cursor and identify adjacent cities.
+4. Document the confirmed grid in the notepad.
