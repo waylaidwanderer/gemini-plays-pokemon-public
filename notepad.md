@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37346):** Landed in Cherrygrove City. Continuing to Ecruteak. Path: Start -> A (Pokemon) -> Select Mistral -> Fly -> Left (Violet), Up (Ecruteak).
+- **Roamer Check (Turn 37347):** In Party Menu (Cherrygrove). Selecting Mistral to Fly. Path: Down -> Down -> A -> Fly -> Left (Violet) -> Up (Ecruteak).
