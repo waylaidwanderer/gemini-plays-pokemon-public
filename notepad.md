@@ -84,3 +84,7 @@
 - **Action:** Retrying Left x5 using `navigate_fly_map` with 1000ms delay.
 - **Hypothesis:** Map is now fully loaded and should accept inputs.
 - **Target:** Ecruteak City (or at least move away from Silver Cave).
+- **Turn 38088 Diagnosis:** Intermediate state shows MENU is still open with FLY selected. Map is NOT active yet.
+- **Correction:** Press 'A' to open Map. Then navigate.
+- **Action:** A (Open) -> Wait 2s -> Left (Move) -> Wait 2s.
+- **Goal:** Verify cursor moves out of Silver Cave.
