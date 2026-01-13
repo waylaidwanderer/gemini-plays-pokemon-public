@@ -244,5 +244,61 @@
         "action_counter": 46126
       }
     ]
+  },
+  "fly_to_johto_v7": {
+    "description": "Navigates from the overworld to a Johto city using Fly. Requires current_city and target_city. Assumes no menu is open.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_city": {
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Ecruteak City",
+            "Goldenrod City",
+            "Azalea Town",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City",
+            "Indigo Plateau",
+            "Silver Cave",
+            "Lake of Rage"
+          ],
+          "type": "string"
+        },
+        "target_city": {
+          "enum": [
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Ecruteak City",
+            "Goldenrod City",
+            "Azalea Town",
+            "Olivine City",
+            "Cianwood City",
+            "Mahogany Town",
+            "Blackthorn City",
+            "Indigo Plateau",
+            "Silver Cave",
+            "Lake of Rage"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_city",
+        "current_city"
+      ]
+    },
+    "python_script": "import json\ntarget = input_data['target_city']\ncurrent = input_data['current_city']\ncities = [\n    'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Silver Cave',\n    'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town',\n    'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City'\n]\nif current not in cities or target not in cities:\n    print(json.dumps(['B', 'B']))\nelse:\n    start_idx = cities.index(current)\n    end_idx = cities.index(target)\n    diff = end_idx - start_idx\n    if diff > 6: diff -= 12\n    elif diff < -6: diff += 12\n\n    # Overworld -> Start -> Pokemon -> Icarus -> Fly\n    buttons = ['Start', 'Down', 'A', 'A', 'A', 'sleep 2000']\n    if diff > 0:\n        buttons.extend(['Up'] * diff)\n    elif diff < 0:\n        buttons.extend(['Down'] * abs(diff))\n    buttons.extend(['A', 'sleep 500', 'A'])\n    print(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Refined Fly tool to operate from overworld (no menu open). Uses Pokedex -> Pokemon (Down) navigation and handles 12-city cyclic list. Added explicit button sequence for Icarus -> Fly selection.",
+        "timestamp": "2026-01-13T18:51:21.928Z",
+        "action_counter": 46127
+      }
+    ]
   }
 }
