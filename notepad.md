@@ -2,11 +2,12 @@
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers at Ecruteak/Rt 37 Border.
 - **Status:** Shuffling (Round 4 - Checking Rt 37).
-- **Action:** Down (Enter Route 37) -> Open Pokegear -> Check Map.
+- **Action:** Open Pokegear (Retry) -> Check Map.
+- **Observation:** Previous menu open attempt failed (likely due to map transition delay).
 - **Recent Observation (Turn 36826):** Roamers on Route 38 (West) and Route 44 (East).
 - **Target:** Route 37.
 - **Resources:** 16 Repels.
-- **Session Start:** Turn 36369. Current: 36828.
+- **Session Start:** Turn 36369. Current: 36829.
 
 # Reflection (Turn 36756)
 - **Error Analysis:** Route 35 Gatehouse Shuffle failed to move Roamers for 15+ cycles.
