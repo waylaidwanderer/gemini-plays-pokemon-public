@@ -26,18 +26,12 @@
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
 # Fly Map List Mapping (Cycling Up)
-1. New Bark Town
-2. Cherrygrove City
-3. Violet City
-4. Azalea Town
-5. Goldenrod City
-6. Olivine City
-7. Cianwood City
-8. Mahogany Town
-9. Lake of Rage
-10. Blackthorn City
-11. Silver Cave [Current Selection]
-12. Indigo Plateau (Expected Next)
+1. Mahogany Town
+2. Lake of Rage
+3. Blackthorn City
+4. Silver Cave
+5. New Bark Town [Current Selection]
+6. Cherrygrove City (Expected Next)
 
 # Lessons Learned
 - Roamers move on map transitions.
