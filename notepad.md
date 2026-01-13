@@ -72,8 +72,11 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44620: Arnie call finished. Resuming Super Repel application.
-- Strategy: Open Pack (robustly) -> Scroll to Super Repel -> Use.
-- Current state: Overworld at (7, 3).
-- Step 1: Open Pack.
-- Step 2: Scroll to bottom and use Super Repel.
+- Turn 44621: Cursor misaligned in Main Menu (wrapped). Ended up in OPTION menu.
+- Current state: OPTION menu open.
+- Plan: Exit OPTION -> Exit Main Menu -> Open Main Menu -> Navigate to PACK (precisely) -> Use Super Repel.
+- Main Menu Cursor Memory: Stays on last option. Wrapping: Up from POKEDEX (0) goes to EXIT (7).
+- Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
+- Step 1: B, B, Start.
+- Step 2: Up x4 (Move from OPTION to PACK).
+- Step 3: A, Down x30, Up, A, A.
