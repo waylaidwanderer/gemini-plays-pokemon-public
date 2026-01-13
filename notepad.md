@@ -6,6 +6,7 @@
     - **Last Check:** Turn 37266 (Not here).
 - **Movement:** Gatehouse transitions do NOT shuffle roamers. Map-to-Map (Route to City) transitions DO shuffle.
 - **Warp Carpets:** To trigger, walk OFF the map edge.
+    - **Route 31 Gatehouse:** Step LEFT from tiles (4,6)/(4,7) to enter.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
