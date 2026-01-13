@@ -16,7 +16,8 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Find Suicune Sightings - IN PROGRESS.
-       - Cianwood City: Northern ledge past Pharmacy (7, 4). (NOT DONE).
+       - Cianwood City: Northern ledge past Pharmacy at (7, 4). (NOT DONE).
+         Route: Go south to row 33, cross column 9 at (9, 33), go south to row 34, cross column 5 at (5, 34), then go north up the far west side (column 2) to row 4.
        - Route 42: Middle island with Apricorn trees (requires Surf).
        - Route 36: Near Sudowoodo's old spot (36, 9).
     2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by completing sightings.
