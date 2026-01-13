@@ -31,3 +31,4 @@
 - **Azalea Town** -> Up -> **Goldenrod City**
 - **Goldenrod City** -> Up -> **Olivine City**
 - **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
+- **Tool Failure:** `open_party` failed because the Start Menu cursor was at `POKEDEX`, not `POKEGEAR`. It then wrapped to `EXIT` and closed the menu. Need to account for cursor memory or lack thereof.
