@@ -33,3 +33,13 @@
 # Navigation Lessons
 - Turn 46431: Phone calls can interrupt movement from `find_path_v7_robust` with `autopress_buttons: true`.
 - Tile Mechanics: Stepping onto land (FLOOR) from WATER immediately stops the Surfing state.
+
+# Strategy: Navigation Stagnation Mitigation
+- Observation: Wild Tentacool and phone calls are interrupting the long Surf trek to (7, 4).
+- Action: Use Super Repel before surfing.
+- Status: Super Repel x18 in inventory.
+
+# Tile Mechanics Test: FLOOR_UP_WALL
+- Hypothesis: Blocks entry from North, allows entry from South.
+- Test Plan: Attempt to walk North from (12, 51) to (12, 50) (South to North) and South from (12, 50) to (12, 51) (North to South).
+- Conclusion: Pending.
