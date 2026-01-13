@@ -6,20 +6,18 @@
 - LEDGE_HOP_DOWN: One-way traversable (down only). Verified: Yes.
 
 # Legendary Roamer Hunt Strategy
-- **Overview**: Manual Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 10 steps in grass, repeat.
-- **Session 2 Start**: Turn 44880 (2026-01-12 21:30).
-- **Session Limit**: 25 transitions. Current: 25. Final attempt for this route.
-- **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 44936). ~65 steps remaining. (Inventory: 71 Super Repels).
+- **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
+- **Session 2 Summary**: Route 37 (Turns 44880-44975). 25 transitions, 0 encounters.
+- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City).
+- **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R31 (Wild Lv 12-15) to filter for Roamers (Lv 40) using Repel Trick.
+- **Repel Status**: Active (Turn 44936). ~50 steps remaining. (Inventory: 71 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
-- **Session 2 (Turn 44880-Present)**:
-    - Transitions 1-24: 0 encounters.
-    - Transition 25: Pacing in grass. Final check.
-- **Reposition Plan**: If Transition 25 fails, Fly to Violet City and shuffle Route 31.
+- **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
+- **Session 3 (Starting Now)**: Repositioning to Route 31 via Violet City.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -27,7 +25,7 @@
 
 # Lessons Learned
 - **Roamers**: Do NOT appear on Pokegear map until first encounter.
-- **Repel Logic**: ICARUS (Lv 19) is perfect for Route 37 to filter for Roamers.
-- **Tool Hygiene**: Move to the target tile in one turn and initiate the tool in the next. Do not chain press_buttons with grass_pacer.
+- **Repel Logic**: ICARUS (Lv 19) is perfect for Route 31/37 to filter for Roamers.
+- **Tool Hygiene**: Move to target tile before starting grass_pacer.
 - **Menu Persistence**: Main menu and pack cursor positions are persistent.
-- **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
+- **Fly Map**: Selecting a destination requires navigating the cursor on the Johto map.
