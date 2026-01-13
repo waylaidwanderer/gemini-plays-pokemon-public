@@ -17,15 +17,13 @@
     - Attempted direct land route; blocked by wall at Y=15.
     - Discovered buoy barrier at X=18,19 from Y=15 to Y=25.
 - Strategy (The "How"):
-    1. Start Surfing: Face Right at (19, 30) and press A.
-    2. Surf East: Move to X=23 to pass the barrier at Y=15.
-    3. Surf North: Move to Y=10.
-    4. Surf East: Move to X=27 to pass the barrier at Y=9.
-    5. Surf North: Move to Y=8.
-    6. Surf West: Move to X=19.
-    7. Surf South: Move to Y=11.
-    8. Land: Move West to (16, 11).
-    9. Sighting: Reach (7, 4).
+    1. Use Super Repel: (Turn 46558).
+    2. Surf South: Move to (27, 26).
+    3. Surf West: Move to (17, 26).
+    4. Surf North: Move to (17, 16).
+    5. Surf West: Move to (14, 16).
+    6. Land: Move West to (13, 16).
+    7. Walk: (13, 16) -> (11, 16) -> (11, 15) -> (11, 14) -> (10, 14) -> (7, 14) -> (7, 4) for the sighting.
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
