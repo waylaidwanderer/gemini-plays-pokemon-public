@@ -204,7 +204,7 @@
         }
       }
     },
-    "python_script": "print('[\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\"]')",
+    "python_script": "print(json.dumps([\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"Up\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -215,6 +215,11 @@
         "commit_message": "Fixed output format to be a valid JSON array instead of a JSON object.",
         "timestamp": "2026-01-13T09:06:13.667Z",
         "action_counter": 37081
+      },
+      {
+        "commit_message": "Fix open_party to match reliable open_pack structure. Assumes cursor at POKEGEAR.",
+        "timestamp": "2026-01-13T11:13:57.838Z",
+        "action_counter": 37223
       }
     ]
   }

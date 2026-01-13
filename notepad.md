@@ -1,38 +1,20 @@
-# Tile Mechanics
-- **Warp Carpets:** To trigger a warp (e.g., Gatehouse entrance), you must walk 'off' the map edge or into the wall while standing on the warp tile. Simply stepping onto the tile is not enough.
+# Mechanics & State
+- **Menu State:** Start Menu cursor is at `POKEGEAR`. Confirmed.
+    - **Wraps:** Yes.
+    - **Tracking:** `open_pack` sets cursor to PACK. `open_party` sets to POKEMON. `open_map` sets to POKEGEAR.
+    - **Correction:** If switching tools, adjust cursor manually or update tool logic.
+- **Roamer Hunt:** Shuffling between Route 31 & Violet City. Check Map on Route 31.
+    - **Strategy:** If on map -> Repel (lead Gyarados Lv36) -> Run in grass.
+    - **Last Check:** Turn 37216 (Not here).
 
-# Roamer Hunt Strategy
-- **Goal:** Catch Raikou & Entei.
-- **Method:** Shuffle Roamers by toggling between Route 31 & Violet City (via Gatehouse). Check Map ONLY on Route 31.
-- **Constraint:** Switch to Gyarados (Lv36) to Slot 1 IMMEDIATELY on Route 31 to use Repels.
-- **Resources:** 16 Repels.
-- **Session Start:** Turn 36369.
-
-# Lessons Learned
-- **Roamer Movement:** Gatehouse transitions (e.g. Rt 35) do NOT shuffle roamers. Map-to-Map (Route to City) transitions DO shuffle.
-- **Pokedex Tracking:** Area Mode search is cumbersome and failed to list Entei despite 'Seen' status. Pokegear Map is superior.
-- **Tile Mechanics:** Warp Tiles require stepping OFF and ON. Headbutt Trees can be shaken.
-- **Menu Navigation:** Start Menu wraps. 'Gear' is best accessed by memory or visual check.
-
-# Hall of Fame
-- **Champion:** Turn 33314. MVP: Muscle (Machoke) Lv88.
-
-# Completed Objectives
-- **Johto Gyms:** All 8 Badges.
-- **Elite Four:** Defeated.
-- **Kanto Gyms:** All 8 Badges.
-- **Red:** Defeated.
+# Hall of Fame & Progress
+- **Champion:** Turn 33314.
 - **Lugia:** Caught (Maelstrom).
+- **All 16 Badges:** Obtained.
+- **Red:** Defeated.
 
-# Fly Map Connections
-- **New Bark Town** -> Left -> **Cherrygrove City**
-- **Cherrygrove City** -> Up -> **Violet City**
-- **Cherrygrove City** -> Left -> **Azalea Town**
-- **Azalea Town** -> Up -> **Goldenrod City**
-- **Goldenrod City** -> Up -> **Olivine City**
-- **Olivine City** -> Down -> **Ecruteak City** [Confirmed]
-- **Menu State:** Start Menu cursor is at `POKEGEAR`. Confirmed after `open_map`.
-- **Tool Note:** `open_party` and `open_pack` assume cursor is at `POKEGEAR`. If cursor is elsewhere (e.g. after Party switch), use `sequence_press`.
-- **Roamer Check (Turn 37203):** Checked Map. Roamers are NOT on Route 31. Proceeding to shuffle.
-- **Roamer Check (Turn 37209):** Map shows Roamers on **Route 36** and **Route 42**. Not on Route 31. Shuffling (Route 31 -> Violet City -> Route 31).
-- **Roamer Check (Turn 37216):** Map shows Roamers on **Route 36** and **Route 44**. Not on Route 31. Shuffling again.
+# Important Locations
+- **Fly Connections:**
+    - Cherrygrove -> Violet
+    - Azalea -> Goldenrod -> Olivine -> Ecruteak
+- **Warp Carpets:** Step OFF then ON to trigger.
