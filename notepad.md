@@ -16,10 +16,10 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Release Beasts (Burned Tower) - DONE.
-    2. Defeat/Speak to Wise Trio (Tin Tower 1F) - IN PROGRESS (Started Turn 46251).
+    2. Defeat Wise Trio (Tin Tower Gatehouse 4_1/4_2) - IN PROGRESS (Started Turn 46251).
     3. Battle Suicune (Tin Tower 1F).
 
-# Strategy: Suicune Capture (Verified via Analyst)
+# Strategy: Suicune Capture
 - Lead: XENON (Haunter, Lv 44). Land Hypnosis immediately.
 - Chipping: Use Night Shade twice (88 fixed damage). A Level 40 Suicune has ~130-142 HP, so this is safe. Switch to GORP (Snorlax, Lv 50) or KIMCHI (Gloom, Lv 52) if needed. Avoid Calcifer (Lv 64).
 - Status: Maintain Sleep. If Sleep fails, use KIMCHI's Stun Spore for permanent Paralysis.
@@ -27,11 +27,10 @@
 - Items: Ultra Balls (32), Full Restore (for status inflictor).
 
 # Observations: Wise Trio
-- Location: Tin Tower 1F (3_4).
-- Sage KOJI (ID 5): At (5, 9). Spoken to.
-- Sage (ID 6): At (11, 11). Spoken to.
-- Sage (ID 7): At (14, 6). Spoken to.
-- Event: All three Sages on 1F spoken to. Suicune should appear on the central platform.
+- Building 4_1: Sages Koji, Gaku, Masa loop "The TIN TOWER shook!" dialogue.
+- Building 4_2: Empty.
+- Tin Tower 1F (3_4): Sages Koji (ID 5), ID 6, ID 7 give lore dialogue.
+- Hypothesis: Need to complete Suicune sightings (Cianwood, Route 42, Route 36) to trigger the Trio battle.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
