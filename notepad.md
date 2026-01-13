@@ -31,7 +31,7 @@
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 35.
 - Repel 3: Applied Turn 45723.
-- Current Status: Repel applied. Starting Cycle 36.
+- Current Status: Starting Cycle 36 pacing at Route 37 grass.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
