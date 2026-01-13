@@ -72,5 +72,6 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44618: Correcting mis-selection (selected PP UP instead of Super Repel).
-- Current state: Party menu for PP UP. Plan: Exit -> Pack -> Select Super Repel -> Use.
+- Turn 44619: Arnie called about Abra. Correcting the previous mis-selection of PP UP.
+- Current state: Overworld at (7, 3).
+- Plan: Open Pack -> Scroll to bottom -> Use Super Repel -> Start Ecruteak Shuffle.
