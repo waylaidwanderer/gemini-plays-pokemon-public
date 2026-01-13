@@ -12,7 +12,7 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - **Repel Trick**: Lv 19 lead (ICARUS) with Super Repel active.
-- **Status**: Super Repel Active (~90 steps left).
+- **Status**: Super Repel Active (200 steps).
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Strategy Tools
@@ -24,14 +24,15 @@
 - PC Box 1: 10/20.
 
 # Hypotheses & Lessons
-- [Hypothesis] Start menu cursor persists on last selected option (e.g., SAVE).
+- [Hypothesis] Start menu cursor persists on last selected option (e.g., PACK).
 - [Hypothesis] Fly map cursor persists on last highlighted destination or defaults to New Bark Town.
 - [Lesson] Menu sequence tools can fail if the game state is not what's expected.
 - [Lesson] Scripted phone calls interrupt sequences.
 
 # Current Strategy: Fly to Ecruteak
-- Initial State: Overworld (Violet City).
-- Step 1: Open Start menu (Start).
-- Step 2: Navigate to POKEMON (Down if POKEDEX, Up x4 if SAVE).
-- Step 3: Select ICARUS -> FLY.
-- Step 4: Fly Map: Navigate to Ecruteak and press A.
+- Initial State: Inside Pack (cursor on Super Repel).
+- Step 1: Exit Pack and Start Menu (B, B).
+- Step 2: Open Start menu (Start).
+- Step 3: Select POKEMON (Up, A).
+- Step 4: Select ICARUS -> FLY (A, A).
+- Step 5: Navigate Fly Map to Ecruteak and press A.
