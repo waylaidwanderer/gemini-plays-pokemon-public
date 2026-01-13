@@ -11,10 +11,11 @@
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
-- Strategy (The "How") [Manual Waypoints]:
-    1. Surf: (12,27) -> (12,26) -> (15,26) -> (15,24) -> (17,24) -> (17,26) -> (23,26).
-    2. Surf: (23,26) -> (23,10) -> (27,10) -> (27,8) -> (19,8) -> (19,10) -> (15,10) [Land].
-    3. Walk: (15,10) -> (7,10) -> (7,4) [Sighting].
+- Strategy (The "How"):
+    1. Land: Move to (11, 27) or (12, 28).
+    2. Walk: (11, 27) -> (11, 15) [Gap in wall].
+    3. Walk: (11, 15) -> (11, 14) -> (8, 14) -> (8, 13) -> (8, 10) -> (7, 4).
+    4. Sighting: Trigger Suicune event at (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
