@@ -9,7 +9,7 @@
 
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
-- **Session 4 (Current)**: Ecruteak City <-> Route 37. Started Turn 45133.
+- **Session 4 (Current)**: Relocating to Ecruteak City. Started Turn 45133.
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
 - **Repel Trick**: Lv 19 lead filters for Roamers (Lv 40) in Ecruteak area.
 - **Status**: Repel Active. ~90 steps remaining.
@@ -17,7 +17,6 @@
 - **Relocation Plan**:
   1. Use Fly to travel to Ecruteak City.
   2. Start Ecruteak Shuffle (Route 37/38 transitions).
-- **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -28,4 +27,5 @@
 - **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
 - **Notepad Hygiene**: Avoid recording turn-by-turn movement in persistent notes.
 - **Ledges**: Vertical movement is restricted by one-way ledges. Use gaps to return.
-- **Menu Persistence**: The game remembers cursor positions in menus. Always verify location before pressing A.
+- **Menu Persistence**: The game remembers cursor positions in menus. To avoid errors, use 'Up' multiple times to reset to the top (Pokedex) before navigating.
+- **Fly Map Navigation**: Ecruteak is North-West of New Bark. From New Bark: Left (to Cherrygrove), Up (to Violet), Up (to Ecruteak).
