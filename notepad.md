@@ -7,7 +7,7 @@
 # Suicune Quest
 - Status: Tracking sightings in Johto.
 - Current Objective: Cianwood City sighting at (7, 4).
-- Timeline: Started Turn 46373. Current Turn 46431. (Attempted land route 46375-46395; surfing since 46396).
+- Timeline: Started Turn 46373. Current Turn 46437. (Attempted land route 46375-46395; surfing since 46396).
 
 # Major Milestones & Discoveries
 - [Turn 46375-46395]: Land route to West Cianwood blocked by rocks and ledges.
