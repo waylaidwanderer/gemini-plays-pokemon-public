@@ -13,12 +13,13 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Walk West to the coast:
-        - Walk South to Y=34.
-        - Walk West to X=2.
-    2. Walk North to the sighting area:
-        - Walk North to Y=4.
-        - Walk East to (7, 4).
+    1. Navigate to the West side of Cianwood City using the multi-modal pathfinder tool.
+    2. Reach (7, 4) for the sighting.
+
+# Hypothesis Testing: FLOOR_UP_WALL
+- Hypothesis: Blocks movement South into the tile and North out of the tile.
+- Test: Attempt to move South into (4, 20) or North out of it.
+- Result: Pending.
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
