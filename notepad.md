@@ -52,6 +52,11 @@
 - **Suicune (Crystal)**: Not a roamer. Found at Tin Tower (Clear Bell + Wise Trio).
 - **Repel Trick**: Use a lead with level between local wild and target legendary.
 
+# Roamer Tracking
+- Route 37: Active hunting area.
+- Route 38: Secondary hunting area.
+- Strategy: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
+
 # Detailed History & Archive
 - Legendary Hunt Start Turn: 44521.
 - Turn 44624: Super Repel confirmed active.
