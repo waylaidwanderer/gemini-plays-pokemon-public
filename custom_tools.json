@@ -187,8 +187,8 @@
       }
     ]
   },
-  "route35_roamer_shuffle": {
-    "description": "Enters and exits the Route 35 Gatehouse from (10,32) to shuffle Roamers, then opens the Pokegear Map. Assumes Start Menu cursor is on Pokegear.",
+  "cycle_roamer_hunt_route35": {
+    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map (assumes open). 2. Enters and exits the Gatehouse to shuffle. 3. Re-opens the Map to check positions. Assumes player starts at (10, 31) or (10, 32).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -198,12 +198,12 @@
         }
       }
     },
-    "python_script": "print(json.dumps([\"Down\", \"Down\", \"sleep 2500\", \"Up\", \"Up\", \"sleep 2500\", \"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Right\", \"A\"]))",
+    "python_script": "print(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Down\", \"Down\", \"sleep 4000\", \"Up\", \"Up\", \"sleep 4000\", \"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Right\", \"A\"]))",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-13T01:57:38.769Z",
-        "action_counter": 36602
+        "timestamp": "2026-01-13T02:26:30.776Z",
+        "action_counter": 36631
       }
     ]
   }
