@@ -15,8 +15,8 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Shuffling Roamers (Route 37 -> Ecruteak).
-- **Action:** Walking North to Ecruteak City.
-- **Strategy:** Cross border to shuffle, then check map.
-- **Current Position:** Route 37 (7, 0).
-- **Target:** Ecruteak City.
+- **Status:** In Ecruteak City.
+- **Action:** Opening Start Menu -> Pokegear.
+- **Strategy:** Check Map for Raikou/Entei locations.
+- **Current Position:** Ecruteak (17, 35).
+- **Menu State:** Expecting cursor on POKEMON. Need POKEGEAR (Down x2).
