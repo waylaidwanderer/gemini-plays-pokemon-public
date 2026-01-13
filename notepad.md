@@ -31,7 +31,8 @@
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
 # Navigation Log: Fly to Ecruteak
-- Attempt 1-4: Various failures (Pokedex, Options, Cherrygrove).
-- Attempt 5 (Turn 45161): From Cherrygrove, used 2 Up presses. Landed in Violet.
+- Attempt 1-5: Various failures (Pokedex, Options, Cherrygrove, Save instead of Fly).
+- Attempt 5 (Turn 45161): Landed in Violet.
+- Attempt 6 (Turn 45163): Saved instead of Flying.
 - Current Status: In Violet City. Retrying Fly to Ecruteak (1 Up).
 - Strategy: Reset cursor with 'Up' presses, select FLY, move Up once.
