@@ -1,20 +1,14 @@
 # Mechanics & State
-- **Location:** Silver Cave (Outside).
-- **Goal:** Fly to Goldenrod City.
-- **Input Lag:** Map interactions require ~2000ms delays.
-- **Menu State:** Currently in Pokemon Menu (FLY selected). Must press 'A' to open map.
+- **Location:** New Bark Town.
+- **Goal:** Fly to Goldenrod City (Department Store).
+- **Menu State:** Main Menu Open (Cursor on POKEDEX).
+- **Input Delay:** Using 1000ms for menu navigation.
 
 # Current Task: Roamer Hunt
-- **Status:** Navigating Fly Map.
-- **Target:** Goldenrod City.
-- **Next Step:** Open Map -> Navigate Cursor to Johto.
-
-# Navigation Log (Condensed)
-- **Lesson:** Always verify "The FLY map is open" text before navigating.
-- **Lesson:** Silver Cave to Johto requires multiple 'Left' inputs.
-- **Sequence:** Silver Cave -> [Left x5] -> Ecruteak/Violet -> [Down] -> Goldenrod.
+- **Status:** In New Bark Town (Mistake).
+- **Action:** Opening Party -> Select Mistral -> Fly -> Goldenrod.
+- **Roamers:** Raikou/Entei (Not registered).
 
 # Progress
 - **Badges:** 16/16.
 - **Pokedex:** 46 caught.
-- **Roamers:** Raikou/Entei (Not registered).
