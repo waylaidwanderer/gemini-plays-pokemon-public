@@ -19,12 +19,12 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Checking Pokegear Map.
-- **Strategy:** Check Map -> Scan if present -> Reset if absent.
-  - Saves Repel steps (Critical: ~100 left).
+- **Status:** Resuming Blind Scan.
+- **Correction:** Cannot track Roamers on Map until seen once. Map check was futile.
+- **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds.
-  - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels if this fails.
+  - Scan until Repel runs out.
+  - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels when empty.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
-- **reset_roamers:** Automates the Route 37 <-> Ecruteak transition with 15s delays to handle lag.
