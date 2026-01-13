@@ -218,30 +218,5 @@
         "action_counter": 45562
       }
     ]
-  },
-  "execute_shuffle_cycle": {
-    "description": "Executes one full cycle of the Ecruteak Shuffle: enters Route 37, paces 4 steps in the grass at (7, 2), and returns to Ecruteak City. Assumes starting at (17, 35) in Ecruteak.",
-    "input_schema": {
-      "type": "object",
-      "properties": {}
-    },
-    "python_script": "import json\nprint(json.dumps([\"Down\", \"Down\", \"Down\", \"Left\", \"Right\", \"Left\", \"Right\", \"Up\", \"Up\", \"Up\"]))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T16:21:22.044Z",
-        "action_counter": 45871
-      },
-      {
-        "commit_message": "Update sequence to handle both entry and exit transitions and ensure 4 grass steps.",
-        "timestamp": "2026-01-13T16:41:19.430Z",
-        "action_counter": 45890
-      },
-      {
-        "commit_message": "Fix sequence to 10 steps: enter Route 37, 4 steps in grass (7, 2), and return to Ecruteak (17, 35).",
-        "timestamp": "2026-01-13T16:42:26.895Z",
-        "action_counter": 45892
-      }
-    ]
   }
 }
