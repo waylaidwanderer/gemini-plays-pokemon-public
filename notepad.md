@@ -18,4 +18,4 @@
 - **Fly Connections:**
     - Cherrygrove -> Violet
     - Azalea -> Goldenrod -> Olivine -> Ecruteak
-- **Roamer Check (Turn 37335):** Positions unchanged (36, 42, 44). Gatehouse does NOT shuffle. Strategy: Fly to Ecruteak (Note: Map inputs require sleep delays).
+- **Roamer Check (Turn 37344):** Landed in New Bark Town (Mistake). Correcting course to Ecruteak. Path: Start -> Pokemon -> Mistral -> Fly -> Left (Cherry), Left (Violet), Up (Ecruteak).
