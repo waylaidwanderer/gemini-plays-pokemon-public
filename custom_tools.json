@@ -218,15 +218,19 @@
       }
     ]
   },
-  "fly_cherrygrove_to_ecruteak": {
-    "description": "Navigates the Fly map from Cherrygrove City to Ecruteak City and executes the Fly command. Assumes the player is in Cherrygrove City and the Fly map is open with the cursor on Cherrygrove.",
-    "input_schema": {},
-    "python_script": "import json\n# From Cherrygrove, Ecruteak is 2 nodes North (Violet, then Ecruteak).\nsequence = [\"Up\", \"sleep 500\", \"Up\", \"sleep 500\", \"A\"]\nprint(json.dumps(sequence))",
+  "open_fly_map": {
+    "description": "Navigates the Start menu to POKEMON, selects the first party member, and chooses FLY. Assumes the player is in the overworld and the Start menu cursor is on POKEDEX.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\n# Start menu order: 1. POKEDEX, 2. POKEMON, 3. PACK, 4. GEAR, 5. NAME, 6. SAVE, 7. OPTION, 8. EXIT\n# Sequence:\n# 1. Start (Open menu - assumed cursor on POKEDEX)\n# 2. Down (Move to POKEMON)\n# 3. A (Open POKEMON menu)\n# 4. A (Select ICARUS - must have FLY)\n# 5. A (Select FLY)\nbuttons = [\"Start\", \"Down\", \"A\", \"A\", \"A\"]\nprint(json.dumps(buttons))\n",
     "history": [
       {
         "commit_message": "Initial version",
-        "timestamp": "2026-01-13T07:41:44.782Z",
-        "action_counter": 45152
+        "timestamp": "2026-01-13T08:45:03.287Z",
+        "action_counter": 45242
       }
     ]
   }
