@@ -14,9 +14,10 @@
 - Status: Talked to three Sages on 1F. Heading to center.
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
 - Plan: Navigate to Burned Tower -> Release Legendary Beasts -> Defeat Wise Trio -> Talk to Sages in Tin Tower -> Battle Suicune.
-- Status: Entered Burned Tower 1F. Exploring to find the basement hole.
-- Burned Tower Location: Northwest corner of Ecruteak City.
-- Current Task: Navigating to the center of Burned Tower 1F.
+- Status: In Burned Tower B1F. Exploring to find the legendary beasts.
+- Current Task: Navigating toward the center of Burned Tower B1F to trigger the release event.
+- Observation: (10, 9) is the arrival point from the hole in 1F. (10, 8) is a warp (entry 9).
+- Strategy: Moving north toward the central platform where the beasts usually reside.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
