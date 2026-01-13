@@ -59,3 +59,7 @@
 - **Turn 38080 Status:** Map confirmed open at New Bark Town.
 - **Action:** Executing navigation sequence: Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
 - **Protocol:** Verify destination text is "GOLDENROD CITY" before pressing 'A' in next turn.
+- **Turn 38081 Strategy:** Map text stuck on "SILVER CAVE" (Current Location). Previous navigation failed to update text.
+- **Action:** Hard Reset (B -> A). Probe with Left x2 (Target: Indigo/New Bark).
+- **Hypothesis:** 1000ms delay might have been insufficient or inputs dropped. Increased to 1500ms.
+- **Goal:** confirm cursor movement away from Silver Cave.
