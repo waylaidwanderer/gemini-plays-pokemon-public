@@ -14,9 +14,9 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Start Turn**: 44738.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
-- **Repel Status**: None active. (Last wore off Turn 44784).
-- **Roamer Status**: Location unknown (Map transition Turn 44785).
-- **Shuffle Progress**: Transitioned to Route 37 Turn 44785. Applying Repel and checking map now.
+- **Repel Status**: None active. (Attempted Turn 44788 failed).
+- **Roamer Status**: Raikou (Route 38), Entei (Route 42) - Seen Turn 44789.
+- **Shuffle Progress**: Transitioned to Route 37 Turn 44785. Shuffling again.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
 # Pokemon Info
