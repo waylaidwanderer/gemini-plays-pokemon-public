@@ -1,9 +1,10 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers between Route 31 & Gatehouse.
-- **Status:** Entering Gatehouse.
-- **Action:** Pressing Left to trigger warp from (4,7).
-- **Hypothesis:** Warp triggers when trying to walk 'off' the map edge (Left) while standing on the Warp Carpet.
+- **Status:** Checking Map (Gatehouse).
+- **Recent:** Entered Gatehouse (Turn 37090).
+- **Hypothesis:** Roamers shuffled upon entering Gatehouse.
+- **Strategy:** Check Map. Then exit to Route 31.
 - **Constraint:** Lugia (Lv60) lead means NO Repels.
 - **Method:** Use Pokegear Map (reliable) instead of Pokedex Area Mode.
 - **Resources:** 16 Repels.
