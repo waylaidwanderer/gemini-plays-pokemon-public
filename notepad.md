@@ -139,3 +139,5 @@
 - **Sequence:** B (Exit Results) -> B (Exit Search) -> B (Exit Pokedex) -> Down x2 (Pokegear) -> A.
 - **Correction:** `Down, Down` from Pokedex landed on PACK, not GEAR. Gear is 3 slots down from Pokedex.
 - **Action:** Exiting Pack (B) -> Down (Select Gear) -> A (Open Gear).
+- **Status:** Pokegear Open. Cursor on 'BACK'.
+- **Action:** Right (Select Map) -> A (Open Map).
