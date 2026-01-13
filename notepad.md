@@ -42,18 +42,14 @@
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 
 # Goldenrod Restock Plan (Started: Turn 44278)
-1. Travel to Goldenrod City (Biking from Route 29).
-2. Navigate to Goldenrod Dept. Store (North of PC).
-3. Buy a full stack of Super Repels.
+1. Travel to Goldenrod City (Completed: Turn 44363 via Fly).
+2. Navigate to Goldenrod Dept. Store 2F (Items: Super Repels).
+3. Buy a full stack (99) of Super Repels.
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
-# Fly Strategy (Active)
-- Attempting to Fly to Goldenrod City.
-- Current Status: Goldenrod City selected on Fly map.
-- Plan: Press A to confirm flight.
-- Sequence: A (Confirm).
-- If Fly fails, resume biking West.
+# Fly Strategy (Completed)
+- Successfully flew to Goldenrod City on Turn 44363.
 
 # Lessons Learned
 - Precise menu navigation is critical; verify menu state after every 1-2 inputs.
@@ -63,4 +59,5 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Text Speed: Fast (Turn 44324).
-- Bike Trip: Started Turn 44328. Riding West on Route 29.
+- Fly Map Navigation: Cursor movement can be finicky; use 'Up' to jump large distances between regions.
+- Super Repels: Sold on 2F of Goldenrod Dept. Store.
