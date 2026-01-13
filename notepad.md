@@ -15,8 +15,9 @@
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
 - Repel Tracking:
   - Last Applied: Turn 45919.
-  - Estimated Steps Remaining: ~130.
+  - Estimated Steps Remaining: ~128.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 100). Verified Turn 45937: Roamers unseen.
+- Current Status: Resetting for Cycle 93.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44) missed Mean Look (learned at Gastly Lv 13).
