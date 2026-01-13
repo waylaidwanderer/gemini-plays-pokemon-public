@@ -16,7 +16,8 @@
 
 # Roamer Hunt Log
 - **Status:** In Ecruteak City.
-- **Action:** Opening Start Menu -> Pokegear.
+- **Action:** Navigating Start Menu to Pokegear.
 - **Strategy:** Check Map for Raikou/Entei locations.
 - **Current Position:** Ecruteak (17, 35).
-- **Menu State:** Expecting cursor on POKEMON. Need POKEGEAR (Down x2).
+- **Menu State:** Cursor verified on **EXIT**.
+- **Navigation:** Up x4 to POKEGEAR -> A.
