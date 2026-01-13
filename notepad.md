@@ -32,3 +32,6 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Navigation Log
+- Turn 46420: Clearing Surf text. Discovered clear land corridor at X=0-2 bypassing central walls and BUOYs. Plan: Land at (12, 28), walk West to X=2, then North to Suicune sighting at (7, 4).
