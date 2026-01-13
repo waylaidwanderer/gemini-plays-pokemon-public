@@ -25,9 +25,8 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Completed Cycles: 24.
-- Repel 2: Applied Turn 45627.
-- Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons to ensure reliability and catch fumbles early.
+- Completed Cycles: 25.
+- Repel 2: Applied Turn 45627. (~69 steps used).
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
