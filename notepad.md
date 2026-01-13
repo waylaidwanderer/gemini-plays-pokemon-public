@@ -127,3 +127,9 @@
 - **Action:** "Jiggle" strategy. Press `Right` (to Indigo/Wall) then `Left` x4.
 - **Goal:** Unstick cursor and reach Violet/Ecruteak.
 - **Delay:** 2500ms. High delay to force registration.
+- **Turn 38101:** Map STUCK at "NEW BARK TOWN".
+- **Diagnosis:** Input eating due to map transition lag (Indigo -> New Bark).
+- **Plan:** Hard Reset (B -> A) to Silver Cave. Then navigate with **3000ms** delay to handle transition.
+- **Sequence:** B -> A -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
+- **Total:** 5 Lefts, 1 Down.
+- **Goal:** Robust navigation to Goldenrod.
