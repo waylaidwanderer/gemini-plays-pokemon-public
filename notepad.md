@@ -27,8 +27,8 @@
 - Start: Turn 45281.
 - Completed Cycles: 35.
 - Repel 2: Wore off at Turn 45718.
-- Repel 3: Active (Applied Turn 45718).
-- Current Status: Reapplying Repel at Route 37 border. Finishing Cycle 35.
+- Repel 3: Not applied (interrupted by Chad).
+- Current Status: Entering Ecruteak City. Will apply Repel 3 before Cycle 36.
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
