@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Stuck in Phone "Call/Cancel" Menu.
-- **Action:** B (Close Box) -> B (Exit List) -> Left (Map) -> A (Open).
-- **Reason:** Previous attempts failed to exit the phone submenu fully (required 2x B).
-- **Goal:** Locate Raikou/Entei on Map.
+- **Status:** Overworld (Ecruteak 17, 35).
+- **Action:** Start (Open Menu) -> A (Pokegear) -> Right (Map) -> A.
+- **Correction:** Previous turn revealed I was in the Start Menu, not Phone Menu. I mistakenly closed it.
+- **Goal:** Open Map to locate Raikou/Entei.
