@@ -29,9 +29,14 @@
 
 # Observations: Wise Trio
 - Location: EcruteakTinTowerEntrance (4_1).
-- Members: Sage GAKU (7, 10), Sage MASA (6, 9), Sage KOJI (5, 8).
-- Progress: Sage at (4, 6) granted passage. KOJI at (5, 8) mentions Suicune but hasn't battled.
-- Next Step: Interact with all Trio members in 4_1.
+- Members: Sage GAKU (7, 10), Sage MASA (6, 9), Sage KOJI (6, 10).
+- Progress: Sage at (4, 6) granted passage. 
+- Next Step: Defeat the Trio members in 4_1 to prove worthiness. Order may matter.
+
+# Battle Strategy: Wise Trio
+- Sages typically use Noctowl and other bird Pokemon.
+- XENON (Haunter) with Night Shade is effective.
+- Calcifer (Typhlosion) with Thunderpunch is a strong counter.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
