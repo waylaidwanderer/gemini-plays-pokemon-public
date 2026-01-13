@@ -15,10 +15,12 @@
 - Lore: Ho-Oh resurrected Suicune, Entei, and Raikou. 
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
-    1. Release Beasts (Burned Tower) - DONE.
-    2. Find Suicune Sightings (Rt 42, Rt 36) - IN PROGRESS. (Cianwood DONE).
-    3. Defeat Wise Trio (Ecruteak 4_1) - Started Turn 46251.
-    4. Battle Suicune (Tin Tower 1F).
+    1. Find Suicune Sightings - IN PROGRESS.
+       - Cianwood: North of Pharmacy. (STATUS: To Verify).
+       - Route 42: Near Mt. Mortar (Cut tree required).
+       - Route 36: Near Sudowoodo.
+    2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by sightings.
+    3. Battle Suicune (Tin Tower 1F).
 
 # Strategy: Suicune Capture (Verified via Analyst)
 - Lead: XENON (Haunter, Lv 44). Land Hypnosis immediately.
@@ -28,10 +30,8 @@
 - Items: Ultra Balls (32), Full Restore (for status inflictor).
 
 # Observations: Wise Trio & Suicune
-- Building 4_1: Sages Koji (ID 3), Gaku, Masa loop "The TIN TOWER shook!" dialogue.
-- Building 4_2: Empty.
-- Tin Tower 1F (3_4): Sages give lore dialogue.
-- Missing Prerequisites: Suicune sightings in Route 42 and Route 36 are required. Cianwood sighting was completed earlier.
+- Building 4_1: Sages Koji (ID 3), Gaku, Masa loop "The TIN TOWER shook!" dialogue until sightings are complete.
+- Missing Prerequisites: Suicune sightings in Cianwood, Route 42, and Route 36 are required to trigger the Trio battle.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
