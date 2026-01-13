@@ -6,18 +6,19 @@
 - COUNTER: Impassable. Interacting with NPCs behind them requires facing the counter. Verified: Yes.
 - WARP_CARPET_LEFT/RIGHT: Traversable. Triggers map transition. Verified: Yes.
 - LEDGE_HOP_DOWN: One-way traversable (down only). Verified: Yes.
+- VOID: Impassable area outside map boundaries. Verified: Yes.
 
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
 - **Session 2 Summary**: Route 37 (Turns 44880-44975). 25 transitions, 0 encounters.
-- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Started Turn 44989.
+- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Started Turn 44989 (Monday, Jan 12, 10:00 PM).
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R31 (Wild Lv 12-15) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 45040). 200 steps remaining. (Inventory: 69 Super Repels).
+- **Repel Status**: Active (Turn 45040). ~198 steps remaining. (Inventory: 69 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 8 transitions completed. 0 encounters. Transition 9 in progress (Turn 45042). Using Super Repel.
+- **Session 3 (Route 31)**: 8 transitions completed. 0 encounters. Transition 9: In gatehouse (Turn 45043). Moving to Violet City.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
