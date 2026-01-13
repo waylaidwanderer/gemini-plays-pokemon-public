@@ -36,3 +36,4 @@
 - **Resupply Plan:** Walking to Goldenrod. Funds: ¥2644 (Enough for 5 Super Repels). Need more money for bulk buy.
 - **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
 - **Tool Note:** `pathfind` has a 50-step safety limit. For long-distance travel (e.g. National Park traversal), break the path into intermediate waypoints (approx 15-20 steps away).
+- **Funding Strategy:** Plan to sell 9 Great Balls and 9 Poke Balls to fund more Super Repels. Ultra Balls (36) are sufficient for Roamers.
