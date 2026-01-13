@@ -31,4 +31,6 @@
 
 # Attempted Fly to Ecruteak
 - Started: Turn 45183.
-- Status: Stalled in hallucination loop. Resetting by moving to Route 31.
+- Status: Stalled in menu/hallucination loop for 60 turns. Backing out to overworld to reset.
+- Observed Menu Persistence: Start menu cursor remains on the last selected item (e.g., PACK).
+- Observed Fly Map Persistence: Cursor remains on the last highlighted city (e.g., New Bark Town).
