@@ -16,9 +16,7 @@
 
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
-- **Session 2 (Turn 44880-Present)**:
-    - Transitions 1-20: 0 encounters.
-    - Transition 21: Pacing in grass. (Repel active).
+- **Session 2 (Turn 44880-Present)**: 20 transitions completed. 0 encounters. Currently on transition 21.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
