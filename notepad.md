@@ -66,3 +66,6 @@
 - **Action:** Pressing 'A' twice to force Full Map view from Pokegear menu.
 - **Observation:** Full map failed to open with previous 'A, A' sequence. UI might be unresponsive or requiring single, distinct inputs.
 - **Action:** Pressing 'A' once with a long wait to confirm map opening.
+- **Observation:** Map is visible in background. No Roamers seen on current screen.
+- **Action:** Exiting Pokegear and performing Violet Shuffle (Right -> Violet, Left -> Route 36).
+- **Reasoning:** UI interaction is sticky, but visual confirmation "No Roamers Here" is sufficient. Faster to shuffle than to debug UI.
