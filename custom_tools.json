@@ -171,7 +171,7 @@
         "autopress_buttons"
       ]
     },
-    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 3)\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 4)\nprint(json.dumps({\"buttons\": buttons}))",
+    "python_script": "import json\nbuttons = [\"Up\"] * 5\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 3)\nbuttons.append(\"sleep 8000\")\nbuttons.extend([\"Down\"] * 4)\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -197,6 +197,11 @@
         "commit_message": "Fixed JSON formatting issue in python script by importing json and using json.dumps.",
         "timestamp": "2026-01-13T21:19:16.884Z",
         "action_counter": 37874
+      },
+      {
+        "commit_message": "Fixed output format to be a JSON array instead of an object, as required by the system.",
+        "timestamp": "2026-01-13T21:21:43.017Z",
+        "action_counter": 37879
       }
     ]
   }
