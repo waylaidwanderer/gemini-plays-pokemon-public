@@ -27,11 +27,11 @@
 - Capture: Ultra Balls while asleep.
 - Items: Ultra Balls (32), Full Restore (for status inflictor).
 
-# Observations: Wise Trio
+# Observations: Wise Trio & Suicune
 - Building 4_1: Sages Koji (ID 3), Gaku (ID 2), Masa loop "The TIN TOWER shook!" dialogue.
 - Building 4_2: Empty.
 - Tin Tower 1F (3_4): Sages Koji (ID 5), ID 6, ID 7 give lore dialogue.
-- Hypothesis: Missing Suicune sightings are blocking the Trio battle trigger.
+- Missing Prerequisites: Suicune sightings in Cianwood, Route 42, and Route 36 are likely required to trigger the Trio battle and Suicune encounter.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
