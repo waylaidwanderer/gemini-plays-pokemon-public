@@ -30,7 +30,6 @@
 - [Hypothesis] Moving in overworld resets Start menu cursor to POKEDEX.
 - [Verified] Start menu order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.[Player], 6.SAVE, 7.OPTION, 8.EXIT.
 
-# Attempted Fly to Ecruteak
-- Started: Turn 45183.
-- Status: Resetting mental state. Currently in Route 31 Gatehouse.
-- Plan: Use open_fly_map tool, then navigate to Ecruteak manually.
+# Fly to Ecruteak Status
+- Attempt started: Turn 45183.
+- Current Status: In Route 31 Gatehouse. Closing menus to reset state.
