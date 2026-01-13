@@ -25,7 +25,7 @@
 - Completed Shuffles: 23.
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45439. Steps Taken: 13/200.
+- Repel Status: Applied Turn 45439. Steps Taken: 15/200.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
@@ -40,6 +40,19 @@
 
 # Strategy Tools
 - grass_pacer: Tool for wild encounter pacing.
+
+# Fly Map Grid (Johto)
+- New Bark Town (Start/East)
+- Cherrygrove City: 1x Left from New Bark.
+- Violet City: 1x Up from Cherrygrove.
+- Ecruteak City: 1x Up from Violet.
+- Goldenrod City: 1x Left from Violet.
+- Azalea Town: 1x Down from Goldenrod.
+- Olivine City: 1x Left from Goldenrod.
+- Cianwood City: 1x Left from Olivine.
+- Mahogany Town: 1x Right from Ecruteak.
+- Blackthorn City: 1x Right from Mahogany.
+- Indigo Plateau: 1x Up from Mahogany.
 
 # Dana's Gift
 - NPC: Lass Dana.
@@ -57,6 +70,3 @@
 - Status: Active (Turn 45457 call).
 - Note: Yanma is already registered in Pokedex. Roamer hunt remains priority.
 - BUOY: Impassable water boundary. Verified: Yes.
-- Session Tracking Update: Turn 45459 Reflection completed. Focus remains on reaching Ecruteak for the shuffle.
-- Lesson: Fly Map navigation requires precise cursor counts. Cherrygrove to Ecruteak is 2x Up. Goldenrod to Ecruteak is 1x Up, 1x Right. Violet to Ecruteak is 1x Up.
-- Error Analysis: Recent navigation failures were due to miscounting map grid steps. Starting position on the Fly map is ALWAYS the current city/route.
