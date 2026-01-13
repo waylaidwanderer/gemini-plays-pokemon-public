@@ -15,11 +15,13 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Moving to Route 37.
-- **Action:** Shuffling location (Ecruteak -> Route 37).
-- **Strategy:** Blind Shuffle with Repel Trick.
-  1. Enter Route 37.
-  2. Ensure Repel is active (Lead: Gyarados Lv36).
-  3. Run in grass. If no encounter, Roamer is not here.
-  4. Return to Ecruteak, then back to Route 37 to reshuffle.
-- **Inventory:** 16 Repels. Gyarados is perfect level (36 < 40).
+- **Status:** In Route 37 Grass.
+- **Action:** Quick Check (Running through grass without Repel to save menuing time).
+- **Strategy:**
+  1. Walk through grass (Down x4).
+  2. If encounter:
+     - Roamer: Try to catch/battle.
+     - Trash: Run.
+  3. If no encounter, return to Ecruteak.
+  4. Repeat shuffle.
+- **Note:** I lack a Trapper (Mean Look), so catching is hard. Focus on locating first.
