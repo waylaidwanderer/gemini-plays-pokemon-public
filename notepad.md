@@ -38,3 +38,5 @@
 - **Observation:** Entering Route 31 Gatehouse.
 - **Hypothesis:** Entering the Gatehouse (Map 10_X) from Violet City (Map 10_5) does NOT shuffle roamers (or counts as a safe transition).
 - **Test:** Check roamer position after entering Gatehouse.
+- **Constraint:** Lugia (Lv60) prevents Repel usage (blocks Lv40 Roamers). Must endure wild encounters or switch to Lv39- lead (Gyarados Lv36) for Repel trick, but risk outspeed/flee.
+- **Current Choice:** Using Lugia (Speed) + No Repel.
