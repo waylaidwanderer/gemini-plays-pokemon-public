@@ -78,3 +78,6 @@
 - **Reasoning:** Previous attempt failed to change type or execute search. Adding safety presses.
 - **Observation:** Currently viewing Furret (National Dex #162). Need to back out to list to search.
 - **Action:** Pressing 'B' to exit entry, then 'Start' to open Search menu.
+- **Correction:** Previous search attempts failed because I was still viewing the Furret entry.
+- **Action:** Pressing 'B' to return to Pokedex List, then 'Start' to open Search Menu.
+- **Plan:** Verify Search Menu is open before inputting search parameters.
