@@ -194,17 +194,27 @@
     ]
   },
   "robust_fly_ecruteak": {
-    "description": "Robustly navigates menus to Fly to Ecruteak City. Exits current menu, moves off door mat, resets cursors, selects Mistral (Slot 6), and Flies.",
+    "description": "Robustly navigates menus to Fly to Ecruteak City from Cherrygrove. Assumes cursor is on Slot 4 (Garnet). Resets Menu cursor to top, enters Pokemon, moves Down x2 to Slot 6 (Mistral), Flies, navigates Map (Up, Left).",
     "input_schema": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "autopress_buttons": {
+          "type": "boolean",
+          "default": false
+        }
+      }
     },
-    "python_script": "import json\nsteps = []\n# 1. Exit Menus (Mash B)\nsteps.extend([\"B\", \"B\", \"B\", \"B\"])\nsteps.append(\"sleep 500\")\n\n# 2. Fix Position (Move Down from Door Mat)\nsteps.append(\"Down\")\nsteps.append(\"sleep 500\")\n\n# 3. Open Start Menu & Select Pokemon\nsteps.append(\"Start\")\nsteps.append(\"sleep 1000\")\n# Reset Cursor: Up a bunch goes to Pokedex (Top)\nsteps.extend([\"Up\"] * 7) \n# Down to Pokemon (2nd slot)\nsteps.append(\"Down\")\nsteps.append(\"A\")\nsteps.append(\"sleep 1500\")\n\n# 4. Select Mistral (Slot 6)\n# Reset Cursor: Up a bunch goes to Slot 1\nsteps.extend([\"Up\"] * 6)\n# Down to Slot 6\nsteps.extend([\"Down\"] * 5)\nsteps.append(\"A\")\nsteps.append(\"sleep 1000\")\n\n# 5. Fly\n# Assume Fly is top option\nsteps.append(\"A\") \nsteps.append(\"sleep 4000\") # Map load\n\n# 6. Navigate Map (Cherrygrove -> Violet -> Ecruteak)\nsteps.append(\"Left\")\nsteps.append(\"sleep 500\")\nsteps.append(\"Up\")\nsteps.append(\"sleep 500\")\nsteps.append(\"A\")\n\nprint(json.dumps(steps))",
+    "python_script": "print(f'{{\"buttons\": [\"Start\", \"sleep 1000\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"sleep 500\", \"A\", \"sleep 1500\", \"Down\", \"sleep 500\", \"Down\", \"sleep 500\", \"A\", \"sleep 500\", \"A\", \"sleep 3000\", \"Up\", \"sleep 500\", \"Left\", \"sleep 500\", \"A\"]}}')",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T15:25:35.835Z",
         "action_counter": 37439
+      },
+      {
+        "commit_message": "Updated with robust menu reset (Up x7) and 'Down x2' logic (assuming cursor on Slot 4) to reliably Fly to Ecruteak. Added generous sleeps.",
+        "timestamp": "2026-01-13T16:53:34.101Z",
+        "action_counter": 37472
       }
     ]
   }
