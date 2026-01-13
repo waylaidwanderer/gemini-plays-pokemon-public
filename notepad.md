@@ -5,7 +5,13 @@
   - Cherrygrove is (Left) from New Bark.
   - Goldenrod is (Up x3, Right) from Cherrygrove.
   - Ecruteak is (Up) from Goldenrod.
-- Tile Mechanics: Standard (FLOOR traversable, WALL impassable).
+
+# Tile Mechanics
+- FLOOR: Traversable.
+- WALL: Impassable.
+- TALL_GRASS: Traversable, triggers wild encounters.
+- HEADBUTT_TREE: Impassable, interact with Headbutt.
+- LEDGE_HOP_DOWN: One-way (Down). Traversable from Top to Bottom. Impassable from Bottom to Top.
 
 # Strategy: Ecruteak Shuffle
 - Goal: Force first encounter with Entei/Raikou (Lv 40).
@@ -16,14 +22,12 @@
   2. Pace 4 steps in grass at (7, 2).
   3. Transition back to Ecruteak.
   4. Repeat.
-- Current Status: Cycle 13. On Route 37. Moving to grass.
-- Timestamp: Started Ecruteak-specific shuffle at Turn 45539.
 
 # Tracking: Session 4
 - Start: Turn 45281.
+- Repel Applied: Turn 45439 (200 steps). Current Turn: 45601.
 - Completed Cycles: 12.
-- Repel Status: Active.
-- Current Status: Cycle 13. Moving to grass.
+- Current Status: Cycle 13 pacing.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
