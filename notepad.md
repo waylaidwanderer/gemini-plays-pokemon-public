@@ -105,3 +105,6 @@
 - **Action:** Closing Save Dialog ('B') -> Wait -> Navigating to Pokedex (Down x3) -> Open (A) -> Search (Start).
 - **Reasoning:** 'Up' moves cursor Up (wrapping to bottom). 'Down' moves cursor Down (wrapping to top). From Save (pos 6), Down x3 wraps to Pokedex (pos 1).
 - **Adjustment:** Added longer sleep after 'B' to ensure inputs aren't eaten.
+- **Action:** Configuring Search: Normal -> Fire.
+- **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
+- **Reasoning:** Current Screen shows Search Menu open with Type 1 'Normal' selected. Fire is next in list.
