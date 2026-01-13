@@ -48,3 +48,5 @@
 - **Observation:** 'Left' from Violet City did not change destination.
 - **Hypothesis:** Violet City is reached via 'Left, Left, Up' from New Bark. Ecruteak is likely 'Left' or 'Up' from Violet.
 - **Navigation Test:** Attempting 'Left, Left, Up, Left' from New Bark cursor.
+- **Observation:** Cursor is currently at Cherrygrove City.
+- **Verification:** Pressing 'Up' to verify it selects Violet City (as observed in Turn 36801).
