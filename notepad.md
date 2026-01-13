@@ -51,8 +51,8 @@
 
 # Restock Plan (Started: Turn 44430)
 1. Travel to Ecruteak City (Completed).
-2. Pivot to Olivine City (Ecruteak and Goldenrod Marts do NOT sell Super Repels).
-3. Purchase 85 Super Repels at Olivine Mart (Hypothesis).
+2. Pivot to Olivine City (Completed).
+3. Purchase 85 Super Repels at Olivine Mart (In progress).
 4. Head to Route 37 via Ecruteak City South exit.
 5. Resume legendary hunt using the 'grass_pacer' tool.
 
