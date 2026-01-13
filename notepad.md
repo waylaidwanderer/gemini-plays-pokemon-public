@@ -3,7 +3,8 @@
 - **Current Plan:** Shuffle Roamers between Route 36 & Violet City.
 - **Status:** Shuffling (Route 31 -> Gatehouse).
 - **Observation:** Roamers at Rt 32, Rt 42. NOT on Rt 31.
-- **Action:** Returning to Gatehouse to shuffle.
+- **Event:** Phone call (Gaven, Rematch on Rt 26) interrupted warp at (4, 7).
+- **Action:** Stepping off and back on warp to enter Gatehouse.
 - **Hypothesis:** Entering Gatehouse triggers Roamer movement.
 - **Next:** Check Map inside Gatehouse. If nearby -> Pursue. Else -> Violet City.
 - **Method:** Close Gear (B, B) -> Right (Violet). Next turn: Left (Rt 36).
