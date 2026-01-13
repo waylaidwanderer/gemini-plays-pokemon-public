@@ -1,9 +1,10 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
-- **Menu Navigation:** Fly Map takes ~2s to load. Previous failure due to insufficient sleep.
+- **Menu Navigation:** 'Down' inputs unreliable. 'Up' inputs preferred.
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 17:** Move off mat -> Robust Menu -> WAIT FOR MAP -> Navigate.
-    - **Sequence:** Down (Move) -> Start -> Reset Menu -> Pokemon -> Reset Party -> Mistral -> Fly -> Sleep 3s -> Left, Left, Up -> A.
+    - **Attempt 18:** Recover from Save Menu -> Party Menu.
+    - **Sequence:** B (Cancel Overwrite) -> B (Cancel Save) -> Up x4 (Nav to Pokemon) -> A.
+    - **Next Turn:** Select Mistral -> Fly.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
