@@ -51,3 +51,8 @@
 - Notepad Editing: Be extremely precise with `old_text`. Special characters like < can be tricky.
 - Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check (post-encounter). Pre-encounter, 4 steps in grass is optimal.
 - Repel Steps: Verify step count against actual movement rather than estimated button presses.
+
+# Yanma Swarm
+- Route 35.
+- Status: Active (Turn 45457 call).
+- Note: Yanma is already registered in Pokedex. Roamer hunt remains priority.
