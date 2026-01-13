@@ -56,3 +56,6 @@
 - **Turn 38079 Analysis:** Previous failure was due to inputs executing in the submenu (FLY selected) instead of the map.
 - **Current Action:** Press 'A' to open map, then 'Left' x3 with 1.5s delays.
 - **Goal:** Determine cursor start position (Silver Cave or New Bark?) and travel distance.
+- **Turn 38080 Status:** Map confirmed open at New Bark Town.
+- **Action:** Executing navigation sequence: Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
+- **Protocol:** Verify destination text is "GOLDENROD CITY" before pressing 'A' in next turn.
