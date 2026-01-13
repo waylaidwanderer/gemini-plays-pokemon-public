@@ -146,3 +146,6 @@
 - **Observation:** Player facing Left (was Up/Right), confirming Violet Shuffle executed.
 - **Action:** Opening Pokegear to check Mini-Map (Start -> A -> Right).
 - **Goal:** Verify if Roamer is on Route 36 without opening full map.
+- **Observation:** Roamers spotted on Route 31 and Route 42. NOT on Route 36.
+- **Action:** Executing Shuffle: Close Gear -> Right (Violet) -> Left (Route 36) -> Open Menu.
+- **Goal:** Move Roamers to Route 36.
