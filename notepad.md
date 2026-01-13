@@ -14,16 +14,20 @@
 - Resources: Super Repel x56 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
 - Repel Tracking: Last Applied Turn 45998.
-- Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 130). Verified Turn 46040: Checking Pokedex.
+- Strategy Note: Pokedex roamer check verified (Turn 46040): Not in Pokedex. Pausing shuffle to catch Suicune.
 
-# Reflection Turn 46040
+# Reflection Turn 46043
 - Immediate Execution: No deferred tasks.
 - Notepad Hygiene: Organized and updated.
 - Map Hygiene: Markers verified.
 - Automation Strategy: Tools are current.
-- Goal Clarity: Goals are outcome-focused.
-- Error Analysis: Synchronized turn count to 46040. Cycle 120 reached.
-- Observation: Transitioned to Ecruteak City at (17, 35). Marker exists and is accurate. Initiating roamer location check.
+- Goal Clarity: Pivoting to Suicune capture. Needs: Ultra Balls.
+- Error Analysis: Synchronized turn count to 46043. Verified turn mismatch was due to reporting 46031 instead of 46032 on Turn 46033. Corrected.
+
+# Legendaries
+- Suicune: Tin Tower (37, 7). Requires Clear Bell (Owned).
+- Entei/Raikou: Roaming. Encounter required to track via Pokedex.
+- Strategy: Buy Ultra Balls at Indigo Plateau, then head to Tin Tower.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44): Lacks Mean Look. Confirmed: Cannot relearn (Turn 45962).
