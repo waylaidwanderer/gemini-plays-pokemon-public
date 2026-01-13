@@ -1,16 +1,15 @@
 # Mechanics & State
-- **Location:** Lake of Rage (Fly Map).
+- **Location:** Mahogany Town (Fly Map).
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map active. Cursor at Lake of Rage.
-- **Navigation Hazard:** Previous path from Blackthorn (L, L, D) landed here unexpectedly.
-- **Hypothesis:** Lake of Rage is North of Mahogany.
-- **Action:** Down (Mahogany) -> Left (Ecruteak).
-- **Delays:** 2000ms.
+- **Menu State:** Fly Map active. Cursor at Mahogany Town.
+- **Analysis:** Previous attempts to move Left failed or routed strangely.
+- **Plan:** Execute `Left` x2 to force cursor to the West side (Ecruteak or Violet).
+- **Delays:** 2500ms to ensure registration.
 
 # Current Task: Roamer Hunt
-- **Status:** Recovering from Navigation Error.
+- **Status:** Fixing Fly Map Navigation.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify "ECRUTEAK CITY". Then Down to Goldenrod.
+- **Next Step:** Verify "VIOLET CITY" or "ECRUTEAK CITY".
 
 # Progress
 - **Badges:** 16/16.
