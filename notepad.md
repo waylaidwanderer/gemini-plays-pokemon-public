@@ -11,8 +11,8 @@
 # Roamer Hunt Strategy
 - Session 4 Start: Turn 45281.
 - Method: Ecruteak Shuffle (Route 37 South Gate).
-- Current Status: Verifying Fly Map cursor behavior.
-- Repel: Active (Applied Turn 45439, 10 steps).
+- Current Status: Arrived in Ecruteak City.
+- Repel: Active (Applied Turn 45439, 0 steps). Resetting count for fresh hunt.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
