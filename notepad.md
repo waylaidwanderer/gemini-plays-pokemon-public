@@ -11,12 +11,11 @@
 - LEDGE_HOP_RIGHT: One-way jump right.
 
 # Legendary Roamer Hunt
-- **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
-- **Start Turn**: 44738.
+- **Strategy**: Blind encounter. Pace in Route 37 grass with Repel Trick to find the first roamer sighting.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Perfect for Repel trick on Route 37 (wild Lv 13-16, roamers Lv 40).
-- **Repel Status**: None active. (Attempted Turn 44788 failed).
-- **Roamer Status**: Raikou (Route 38), Entei (Route 42) - Seen Turn 44789.
-- **Shuffle Progress**: Transitioned to Route 37 Turn 44785. Shuffling again.
+- **Repel Status**: None active. (Last wore off Turn 44784).
+- **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED. They will not appear on the Pokegear map until the first battle.
+- **Catching Strategy**: Master Ball immediately upon first encounter.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 17-39 lead on Route 37/38. Master Ball is best due to Roar.
 
 # Pokemon Info
@@ -24,7 +23,8 @@
 - PC Box 1: 10/20.
 
 # Lessons Learned
+- Roamers: Do NOT appear on Pokegear map until first encounter. Red dots on map are NOT roamers.
 - Menu Navigation: Cursor memory is persistent. Split deep navigation into chunks < 50 buttons.
 - Fly: Outdoors only.
-- Roamers: Move only on map transitions. Shorter pacing sessions (10 steps) are more efficient.
-- Repel Step Counting: Log summary only to avoid bloat and errors. Reset count when Repel wears off.
+- Repel Step Counting: Reset count when Repel wears off.
+- Tool Interruptions: Repel messages and phone calls interrupt tools like `grass_pacer`. Clear text before resuming.
