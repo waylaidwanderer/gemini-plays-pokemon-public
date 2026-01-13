@@ -12,7 +12,8 @@
 - **Session 3 (Current)**: Route 31 <-> Violet City. Started Turn 44989.
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
 - **Repel Trick**: Lv 19 lead on Route 31 (Wild Lv 12-15) filters for Roamers (Lv 40).
-- **Status**: Repel Active (Turn 45080). ~63 steps remaining. (Inventory: 68 Super Repels).
+- **Status**: Repel Active (Turn 45080). ~10 steps left. (Inventory: 68 Super Repels).
+- **Current Progress**: 10 loops completed. 0 encounters.
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
