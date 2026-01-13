@@ -17,7 +17,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 8 transitions completed. 0 encounters. Transition 9: Heading to gatehouse (Turn 45040). Used Super Repel.
+- **Session 3 (Route 31)**: 8 transitions completed. 0 encounters. Transition 9 in progress (Turn 45042). Using Super Repel.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
