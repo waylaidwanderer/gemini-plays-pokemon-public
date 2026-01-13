@@ -1,12 +1,12 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Current Plan:** Shuffle Roamers at Ecruteak/Rt 37 Border.
-- **Status:** Shuffling (Round 1).
-- **Action:** Exit Map -> Up (Ecruteak) -> Down (Route 37).
-- **Recent Observation (Turn 36820):** Roamers on Route 38 (West) and Route 42 (East).
+- **Status:** Shuffling (Round 1 - Return to Rt 37).
+- **Action:** Move Down (to Route 37) -> Open Pokegear -> Check Map.
+- **Logic:** Roamers move when entering a route. Must check map AFTER transition.
 - **Target:** Route 37.
 - **Resources:** 16 Repels.
-- **Session Start:** Turn 36369. Current: 36821.
+- **Session Start:** Turn 36369. Current: 36822.
 
 # Reflection (Turn 36756)
 - **Error Analysis:** Route 35 Gatehouse Shuffle failed to move Roamers for 15+ cycles.
