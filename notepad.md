@@ -56,3 +56,7 @@
 - Route 35.
 - Status: Active (Turn 45457 call).
 - Note: Yanma is already registered in Pokedex. Roamer hunt remains priority.
+- BUOY: Impassable water boundary. Verified: Yes.
+- Session Tracking Update: Turn 45459 Reflection completed. Focus remains on reaching Ecruteak for the shuffle.
+- Lesson: Fly Map navigation requires precise cursor counts. Cherrygrove to Ecruteak is 2x Up. Goldenrod to Ecruteak is 1x Up, 1x Right. Violet to Ecruteak is 1x Up.
+- Error Analysis: Recent navigation failures were due to miscounting map grid steps. Starting position on the Fly map is ALWAYS the current city/route.
