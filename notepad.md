@@ -30,8 +30,9 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 51.
-- Repel 3: Applied Turn 45723. (~100 steps used).
+- Repel 3: Applied Turn 45723. (~110 steps used).
 - Encounter Plan: Use Master Ball on first roamer encounter.
+- Current Status: Starting Cycle 52. Moving to Route 37 grass.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
