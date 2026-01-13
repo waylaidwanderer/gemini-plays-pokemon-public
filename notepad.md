@@ -29,10 +29,10 @@
 
 # Pokemon Information & Movesets
 - Party (6/6): ICARUS (Lv19 Pidgeotto), Calcifer (Lv64 Typhlosion), KIMCHI (Lv52 Gloom), GNEISS (Lv55 Graveler), GORP (Lv50 Snorlax), XENON (Lv44 Haunter).
-- Caught Species (32/251).
+- Caught Species: 32/251.
 
 # Legendary Hunt Strategy
-- Lead: ICARUS (Lv 19) with Repel (or Super Repel) to filter for Lv 40 Roamers on Route 37.
+- Lead: ICARUS (Lv 19) with Super Repel to filter for Lv 40 Roamers on Route 37.
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 - Target: Raikou (Master Ball), Entei (Hypnosis + Ultra/Great Balls).
@@ -50,6 +50,7 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
+- Menu Memory: The main menu cursor does NOT reset to POKEDEX. It stays on the last selected option.
 
 # Legendary Hunt Execution
 - Start Turn: 44521.
@@ -67,10 +68,9 @@
 - Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
 
 # Failed Hypotheses & Attempts
-- Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory.
-- Turn 44572: Attempt 8 failed. Sequence [Start, Down x2, A] landed on GEM instead of PACK.
-- Turn 44574: Attempt 9 failed. Tool limit (50) exceeded by 79-button sequence.
-- Current Status: Closing menus to reset. Lead: ICARUS (Lv 19). Target: Raikou/Entei.
+- Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
+- Turn 44576: Confirmed menu cursor memory behavior. Cursor does NOT reset. My previous sequence [Start, Up x7, Down x2, A] landed on EXIT because the cursor started at Index 3 (GEAR), went 3->2->1->0->7->6->5, then Down x2 to 6->7.
+- Attempt count for Repel application: 15. Current Status: Overworld. Next plan: Manual menu check.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
