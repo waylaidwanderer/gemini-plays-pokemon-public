@@ -31,8 +31,16 @@
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
 # Task: Flying to Ecruteak
-- Current Location: Violet City (Inside Pack).
-- Step 1: Save the game [Done].
-- Step 2: Open Fly Map (B, Up, A, A, A) [In Progress].
-- Step 3: Select Ecruteak (Up, A).
+- Current Location: Violet City (Overworld).
+- Step 1: Open Fly Map (Start, 4x Down, A, A, A).
+- Step 2: Select Ecruteak (Navigate from current cursor).
 - Start Turn: 45183
+
+# Lessons Learned
+- **Roamers**: Do NOT appear on Pokegear map until first encounter.
+- **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
+- **Notepad Hygiene**: Avoid turn-by-turn logging.
+- **Ledges**: Vertical movement is restricted by one-way ledges.
+- **Menu Wrapping**: The Start menu wraps.
+- **Fly Map Navigation**: Ecruteak is North of Violet.
+- **Start Menu Persistence**: Cursor stays on last option (currently SAVE).
