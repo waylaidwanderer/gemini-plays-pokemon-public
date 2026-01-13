@@ -14,14 +14,15 @@
 - Start Turn: 46373.
 - Strategy (The "How"):
     1. Navigate around Buoy Barrier:
-        - Surf South to Y=30.
-        - Surf West to X=15.
+        - Surf South to Y=26.
+        - Surf West to X=17.
         - Surf North to Y=11.
-    2. Land: Move West to (15, 11).
+    2. Land: Move West to (16, 11).
     3. Sighting: Reach (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
+- Strategy: Use Hypnosis immediately. Switch to GORP (Snorlax) to chip HP with Body Slam/Rollout. Switch to KIMCHI (Gloom) for backup Sleep Powder. Suicune does not flee.
 - Moves: Hypnosis (Priority), Night Shade (Chipping).
 - Target HP: ~135 (Lv 40). Night Shade deals 44 dmg. 3 hits = 132 dmg.
 - Catching: Ultra Balls (32) while asleep.
