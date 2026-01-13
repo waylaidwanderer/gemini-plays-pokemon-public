@@ -22,4 +22,4 @@
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
   - Walk ~20 steps in grass per attempt.
-- **Progress:** Entering grass. Walking ~20 steps.
+- **Progress:** Scanning grass loop. 12 steps.
