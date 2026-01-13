@@ -28,10 +28,10 @@
 - Items: Ultra Balls (32), Full Restore (for status inflictor).
 
 # Observations: Wise Trio & Suicune
-- Building 4_1: Sages Koji (ID 3), Gaku (ID 2), Masa loop "The TIN TOWER shook!" dialogue.
+- Building 4_1: Sages Koji (ID 3), Gaku, Masa loop "The TIN TOWER shook!" dialogue. (Defeat Wise Trio task started Turn 46251).
 - Building 4_2: Empty.
-- Tin Tower 1F (3_4): Sages Koji (ID 5), ID 6, ID 7 give lore dialogue.
-- Missing Prerequisites: Suicune sightings in Cianwood, Route 42, and Route 36 are likely required to trigger the Trio battle and Suicune encounter.
+- Tin Tower 1F (3_4): Sages give lore dialogue.
+- Missing Prerequisites: Suicune sightings in Cianwood (DONE), Route 42, and Route 36 are required. Cianwood sighting was completed earlier.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
