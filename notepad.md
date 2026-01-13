@@ -26,21 +26,21 @@
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
-- Fly Attempt History: Turn 45439-45489 (50 turns fumbling). Resetting loop.
-- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Violet to Ecruteak = Up, A.
-- Current Position: Cherrygrove City (29, 4). Target: Ecruteak.
-- Fly Map Grid (Johto):
-  - New Bark Town (East Edge)
-  - Cherrygrove City: 1x Left from New Bark.
-  - Violet City: 1x Up from Cherrygrove.
-  - Ecruteak City: 1x Up from Violet.
-  - Goldenrod City: 1x Left from Violet.
-  - Azalea Town: 1x Down from Goldenrod.
-  - Olivine City: 1x Left from Goldenrod.
-  - Cianwood City: 1x Left from Olivine.
-  - Mahogany Town: 1x Right from Ecruteak.
-  - Blackthorn City: 1x Right from Mahogany.
-  - Indigo Plateau: 1x Up from Mahogany.
+- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Cherrygrove to Ecruteak = Up, Up, A.
+- Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (17, 35).
+
+# Fly Map Grid (Johto)
+- New Bark Town: Base (East)
+- Cherrygrove City: 1x Left from New Bark.
+- Violet City: 1x Up from Cherrygrove.
+- Ecruteak City: 1x Up from Violet.
+- Goldenrod City: 1x Left from Violet.
+- Azalea Town: 1x Down from Goldenrod.
+- Olivine City: 1x Left from Goldenrod.
+- Cianwood City: 1x Left from Olivine.
+- Mahogany Town: 1x Right from Ecruteak.
+- Blackthorn City: 1x Right from Mahogany.
+- Indigo Plateau: 1x Up from Mahogany.
 
 # Dana's Gift
 - NPC: Lass Dana.
@@ -50,7 +50,7 @@
 # Lessons Learned
 - Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists, but the menu must be active.
 - Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check (post-encounter). Pre-encounter, 4 steps in grass is optimal.
-- Repel Steps: Verify overworld movement for step count.
+- Repel Steps: Verify overworld movement for step count. Menu loops do not count.
 
 # Yanma Swarm
 - Route 35.
