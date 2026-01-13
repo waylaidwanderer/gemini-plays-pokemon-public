@@ -36,7 +36,6 @@
 - Start Turn: 44154
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
-- Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
 - Super Repel status: Out of stock.
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
@@ -44,6 +43,11 @@
 - Lead: ICARUS (Lv 19) with Repel (or Super Repel) to filter for Lv 40 Roamers on Route 37.
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
+
+# Roamer Tracking
+- Route 37: 0 encounters.
+- Route 36: 0 encounters.
+- Route 38: 0 encounters.
 
 # Restock Plan (Started: Turn 44430)
 1. Travel to Ecruteak City (Completed).
