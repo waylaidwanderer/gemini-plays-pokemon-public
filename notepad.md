@@ -97,3 +97,6 @@
 - **Action:** Closing Option Menu ('B').
 - **Action:** Opening Search Menu via 'Start'.
 - **Goal:** Filter by 'FIRE' Type to find Entei.
+- **Action:** Opening Start Menu -> Pokedex -> Search Menu.
+- **Sequence:** Start -> Up x3 (Force Pokedex) -> A -> Wait -> Start.
+- **Reasoning:** Resetting from Overworld to ensure clean navigation.
