@@ -183,5 +183,59 @@
         "action_counter": 44588
       }
     ]
+  },
+  "fly_list_navigator": {
+    "description": "Calculates the shortest button sequence (Up/Down) to navigate the Johto Fly map list from a current city to a target city. Returns a JSON array of buttons.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "current_city": {
+          "enum": [
+            "Mahogany Town",
+            "Lake of Rage",
+            "Blackthorn City",
+            "Silver Cave",
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Azalea Town",
+            "Goldenrod City",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City"
+          ],
+          "type": "string"
+        },
+        "target_city": {
+          "enum": [
+            "Mahogany Town",
+            "Lake of Rage",
+            "Blackthorn City",
+            "Silver Cave",
+            "New Bark Town",
+            "Cherrygrove City",
+            "Violet City",
+            "Azalea Town",
+            "Goldenrod City",
+            "Ecruteak City",
+            "Olivine City",
+            "Cianwood City"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_city",
+        "target_city"
+      ]
+    },
+    "python_script": "import json\ncities = [\n    'Mahogany Town', 'Lake of Rage', 'Blackthorn City', 'Silver Cave',\n    'New Bark Town', 'Cherrygrove City', 'Violet City', 'Azalea Town',\n    'Goldenrod City', 'Ecruteak City', 'Olivine City', 'Cianwood City'\n]\nstart_idx = cities.index(input_data['current_city'])\nend_idx = cities.index(input_data['target_city'])\ndiff = end_idx - start_idx\nif diff > 6: diff -= 12\nelif diff < -6: diff += 12\nbuttons = []\nif diff > 0: buttons.extend(['Up'] * diff)\nelif diff < 0: buttons.extend(['Down'] * abs(diff))\nbuttons.extend(['A', 'sleep 500', 'A'])\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T18:58:02.935Z",
+        "action_counter": 46134
+      }
+    ]
   }
 }
