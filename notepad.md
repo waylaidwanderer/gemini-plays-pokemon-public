@@ -53,7 +53,8 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
-- Status: Checking Map (Cycle 49).
-- Observation: Exited Gatehouse manually.
-- Action: Opening Map via `open_map`.
-- Next: If Roamer on 35 -> Hunt. Else -> Resume Tool.
+- Status: Fixing Tool (Cycle 50).
+- Observation: Cycle 49 Fail. Roamers on Route 31, 42, 46.
+- Issue: Starting position is ON the warp tile (9, 33), so starting with 'Down' bumps the wall.
+- Fix: Update tool to 'Up' (step off) -> 'Down' (warp) -> 'Down' (inside) -> 'Up' (exit).
+- Action: Update Tool -> Execute Cycle 50.
