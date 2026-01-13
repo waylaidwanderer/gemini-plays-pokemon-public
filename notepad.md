@@ -13,9 +13,10 @@
 - Start Turn: 46153 | Timestamp: Tuesday, January 13, 2026 at 11:26 AM PST
 - Status: Talked to three Sages on 1F. Heading to center.
 - Lore: Three nameless Pokemon perished when Brass Tower burned 700 years ago. Ho-Oh gave them new life as Suicune, Entei, and Raikou.
-- Plan: Navigate to Tin Tower Gatehouse -> Defeat Wise Trio -> Talk to Sages in Tin Tower -> Battle Suicune.
-- Status: Talked to Sages in Tin Tower, but Suicune hasn't appeared. Realized I need to defeat the Wise Trio first.
-- Wise Trio Location: Wise Trios Room (Map 4_2), the room between the Ecruteak Tin Tower Entrance and the restricted area.
+- Plan: Navigate to Burned Tower -> Release Legendary Beasts -> Defeat Wise Trio -> Talk to Sages in Tin Tower -> Battle Suicune.
+- Status: Realized Suicune won't appear until the beasts are released from the Burned Tower basement.
+- Burned Tower Location: Northwest corner of Ecruteak City.
+- Current Task: Leaving the Tin Tower area to head to the Burned Tower.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
