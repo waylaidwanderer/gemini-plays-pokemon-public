@@ -22,7 +22,7 @@
 - **Status:** Scanning grass with Repel.
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Current Action: Moving to grass (y=4) and scanning.
+  - Repel applied (1 remaining). Scanning now.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
