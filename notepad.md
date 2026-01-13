@@ -128,3 +128,5 @@
 - **Interruption:** Phone call from Gaven interrupted Pokedex navigation.
 - **Status:** Call ended. Returning to Pokedex Search plan.
 - **Action:** Opening Start Menu. Will check cursor position before navigating.
+- **Status:** Start Menu Open. Cursor on 'OPTION'.
+- **Action:** Navigating to 'POKEDEX' (Down x2 to wrap) -> Open (A) -> Search (Start).
