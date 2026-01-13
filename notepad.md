@@ -1,8 +1,8 @@
 # Mechanics & State
 - **Fly Mechanics:** Blocked on door mats (e.g. 29,4). Cursor remembers position.
-- **Roamer Hunt:** Fly to Ecruteak for better route connections.
-    - **Current Task:** In Mistral's Menu (Cursor on STATS). Correct to FLY (Up) and Execute.
-    - **Sequence:** Up (Fly) -> A (Select) -> Wait -> Left (Violet) -> Up (Ecruteak) -> A.
+- **Roamer Hunt:** Fly to Ecruteak.
+    - **Current Task:** In Garnet's Menu (Rock Smash). Back out, Select Mistral (Slot 6), Fly.
+    - **Sequence:** B (Back) -> Down x2 (Mistral) -> A (Select) -> A (Fly) -> Left -> Up -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
