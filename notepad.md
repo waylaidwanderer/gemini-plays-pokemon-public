@@ -20,14 +20,10 @@
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
 - **Status:** At Silver Cave.
-- **Objective:** Fly to Goldenrod City.
-- **Strategy:** Interactive Menu Navigation (Step-by-Step).
-  1. Open Start Menu.
-  2. Select Pokemon -> Mistral -> Fly.
-  3. **Verify** Fly Map cursor start position.
-  4. Navigate to Goldenrod one node at a time.
-- **Reason:** Blind execution sequences failed due to input lag or state mismatch.
-- **Inventory:** 16 Ultra Balls. Cash: ¥12,294.
+- **Action:** Opening Fly Map.
+- **Goal:** Verify cursor start position (expecting Silver Cave or New Bark).
+- **Next Step:** Navigate to Goldenrod (Left x5, Down x1).
+- **Strategy:** Step-by-step verification to handle input lag.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
