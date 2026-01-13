@@ -13,10 +13,8 @@
 - Completed Cycles: 101.
 - Resources: Super Repel x57 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
-- Repel Tracking:
-  - Last Applied: Turn 45919.
+- Repel Tracking: Last Applied Turn 45919.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 110). Verified Turn 45982: Roamers unseen. Continuing shuffle.
-- Current Status: Starting Cycle 102.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44): Lacks Mean Look. Confirmed: Cannot relearn (Turn 45962).
@@ -30,6 +28,6 @@
 
 # Lessons Learned
 - Roamers relocate on every map boundary cross.
-- Bookkeeping: Use turn history for cycle counts to avoid "time-slipping". Verified Turn 45874.
+- Bookkeeping: Use turn history for cycle counts. Verified Turn 45874.
 - Phone calls can cancel menu actions; verify item usage. Verified Turn 45917.
 - Map transitions stop 'autopress_buttons' sequences. Call tools in Ecruteak for best results.
