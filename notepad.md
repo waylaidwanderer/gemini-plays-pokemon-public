@@ -133,3 +133,7 @@
 - **Action:** Configuring Search: Normal -> Fire.
 - **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
 - **Reasoning:** Screen shows Search Menu open. Cursor on 'Type 1' value.
+- **Result:** Search for 'FIRE' returned 4 results (Cyndaquil, Ponyta, Quilava, Rapidash). **Entei NOT found.**
+- **Conclusion:** Pokedex Search cannot track Roamers (likely only lists caught Pokemon or Entei isn't 'seen' enough).
+- **Action:** Abandoning Pokedex strategy. Returning to Pokegear Map.
+- **Sequence:** B (Exit Results) -> B (Exit Search) -> B (Exit Pokedex) -> Down x2 (Pokegear) -> A.
