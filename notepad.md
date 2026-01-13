@@ -9,35 +9,35 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Traveling to Silver Cave for supplies.
-- Destination: Silver Cave (Mart).
-- Financials: ¥36,974 (Liquidation complete Turn 46081).
-- Goal: Purchase 30 Ultra Balls.
+- Status: Traveling to Silver Cave Mart.
+- Financials: ¥36,974 (Goal: 30 Ultra Balls).
+- Strategy: Pivot to Silver Cave since Indigo Plateau is not in the Johto Fly list.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis.
-- Support: GORP (Snorlax) or Calcifer (Typhlosion) for chip damage (avoid fainting Suicune).
-- Capture: Ultra Ball spam while asleep.
+- Strategy: Use Hypnosis immediately.
+- Support: GORP (Snorlax) or GNEISS (Graveler) to tank hits and chip HP (avoid Calcifer Lv 64).
+- Capture: Use Ultra Balls while asleep. Switch to Great Balls if needed.
 
 ## Legendary Progress
 - Suicune: Tin Tower (Clear Bell owned).
 - Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
-# Fly Map List Mapping (Full Rotation)
+# Fly Map List Order (Confirmed)
 1. Mahogany Town
 2. Lake of Rage
 3. Blackthorn City
 4. Silver Cave
 5. New Bark Town
 6. Cherrygrove City
-7. Violet City
-8. Azalea Town [Current Selection]
+7. Violet City [Current Selection]
+8. Azalea Town
 9. Goldenrod City
 10. Olivine City
 11. Cianwood City
 
 # Lessons Learned
 - Roamers move on map transitions.
-- Fly tool: Use Pokemon menu -> FLY move for better reliability.
+- Fly map list navigation: 'Up' increases index, 'Down' decreases index.
+- Tool Hygiene: Ensure scripts are executed, not just defined.
