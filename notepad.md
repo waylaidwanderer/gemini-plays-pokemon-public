@@ -17,8 +17,8 @@
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turn 44880-Present)**:
-    - Transitions 1-19: 0 encounters.
-    - Transition 20: Pacing in grass. (Repel active).
+    - Transitions 1-20: 0 encounters.
+    - Transition 21: In progress (Moving to Ecruteak).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
