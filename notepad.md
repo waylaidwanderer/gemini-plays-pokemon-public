@@ -1,16 +1,16 @@
 # Mechanics & State
-- **Location:** Mahogany Town (Fly Map).
+- **Location:** Cianwood City (Fly Map).
 - **Goal:** Fly to Goldenrod City.
-- **Menu State:** Fly Map active. Cursor at Mahogany Town.
-- **Problem:** `Left` from Mahogany appears blocked or ignored (Turn 38118).
-- **Hypothesis:** Direct West connection might not exist or requires `Down` first.
-- **Plan:** `Down` (Test connection) -> `Left` x2 (Move West).
+- **Menu State:** Fly Map active. Cursor at Cianwood City.
+- **Navigation:** Cianwood is the westernmost point.
+- **Plan:** Right (Olivine) -> Right (Ecruteak) -> Down (Goldenrod).
+- **Action:** Right x2 to reach Ecruteak.
 - **Delays:** 2000ms.
 
 # Current Task: Roamer Hunt
-- **Status:** Fixing Fly Map Navigation.
+- **Status:** Navigating from Cianwood.
 - **Target:** Goldenrod City.
-- **Next Step:** Verify destination text.
+- **Next Step:** Verify "ECRUTEAK CITY". Then Down to Goldenrod.
 
 # Progress
 - **Badges:** 16/16.
