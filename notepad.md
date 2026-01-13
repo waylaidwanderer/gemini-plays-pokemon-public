@@ -19,14 +19,13 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Leaving Ecruteak Mart (No Repels).
-- **Discovery:** Ecruteak Mart does NOT sell Repels/Super Repels.
+- **Status:** Flying to Goldenrod City.
+- **Reason:** Buying Super Repels at Dept Store.
 - **Plan:**
-  1. Exit Mart.
-  2. **Fly to Goldenrod City** (MISTRAL has Fly).
-  3. Buy Super Repels at Dept. Store.
-  4. Fly back to Ecruteak.
-  5. Resume hunt on Route 37.
+  1. Fly to Goldenrod (Mistral).
+  2. Buy Super Repels (Target: 20+).
+  3. Fly back to Ecruteak.
+  4. Resume hunt.
 - **Inventory:** 16 Ultra Balls. Cash: ¥12,294.
 
 # Tools & Automation
