@@ -72,9 +72,8 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44622: Exiting OPTION menu and entering PACK to use Super Repel. Cursor starts on OPTION (Index 6).
-- Strategy: B (Exit OPTION) -> B (Exit Main Menu) -> Start (Open Menu) -> Up x4 (to PACK) -> A (Open PACK).
-- Then: Down x30 (to CANCEL) -> Up (to Super Repel) -> A (Use) -> A (Select Lead).
-- Lead: ICARUS (Lv 19) is first in party.
-- Current state: OPTION menu open.
-- Step 1: Exit to Overworld and reopen menu at PACK.
+- Turn 44623: Successfully navigated to PACK. Super Repel is one slot below the cursor.
+- Strategy: Down -> A (Select) -> A (Use) -> A (ICARUS) -> B (Exit).
+- Lead: ICARUS (Lv 19) is perfect for filtering Route 37 encounters (Lv 13-16) to find roamer (Lv 40).
+- Current state: PACK menu open, cursor on PP UP.
+- Goal: Use Super Repel and start the Ecruteak Shuffle.
