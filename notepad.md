@@ -30,7 +30,7 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 46.
-- Repel 3: Applied Turn 45723. (~160 steps used).
+- Repel 3: Applied Turn 45723. (~125 steps used).
 - Encounter Plan: Use Master Ball on first roamer encounter.
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
