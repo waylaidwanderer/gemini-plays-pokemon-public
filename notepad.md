@@ -32,3 +32,4 @@
 - **Observation:** Walked ~20 steps on Route 38 with Repel (Lv36 Lead) and found nothing. Assuming Roamers are not present. Shuffling.
 - **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
+- **Resupply Plan:** Selling Hyper Potions to fund Super Repels. Current funds: ¥244. Target: ~5 Super Repels.
