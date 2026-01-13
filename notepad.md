@@ -9,9 +9,9 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Flying to Blackthorn City from Cherrygrove (Turn 46127).
+- Status: Menu navigation error in Cherrygrove. (Turn 46130: Stuck in Options menu).
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Use FLY to Blackthorn City, then buy Ultra Balls.
+- Strategy: Exit menu (B, B, B), then use FLY to Blackthorn City.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
