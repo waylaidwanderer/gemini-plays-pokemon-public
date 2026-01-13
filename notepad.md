@@ -35,16 +35,17 @@
 - Method: Ecruteak Shuffle (Route 37).
 - Note: Need to encounter Raikou/Entei once in the wild for them to appear on the Pokegear Map.
 - Super Repel status: Out of stock. Heading to Goldenrod Dept. Store.
-- Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell (in inventory).
+- Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
 # Legendary Hunt Strategy
-- Lead: ICARUS (Lv 19) with Repel to filter for Lv 40 Roamers on Route 37.
+- Lead: ICARUS (Lv 19) with Repel (or Super Repel) to filter for Lv 40 Roamers on Route 37.
 - Backup Lead: XENON (Haunter) for Hypnosis (if Master Ball is saved).
+- Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
 # Goldenrod Restock Plan (Started: Turn 44278)
 1. Travel to Goldenrod City (Completed: Turn 44363 via Fly).
 2. Navigate to Goldenrod Dept. Store 2F (Items: Super Repels).
-3. Buy a full stack (99) of Super Repels.
+3. Buy a full stack (99) of Super Repels (Targeting 85 based on budget).
 4. Fly back to Ecruteak City.
 5. Resume legendary hunt on Route 37 using the 'grass_pacer' tool.
 
@@ -59,7 +60,7 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Text Speed: Fast (Turn 44324).
-- Fly Map Navigation: Cursor movement can be finicky; use 'Up' to jump large distances between regions.
+- Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
 - Super Repels: Sold on 2F of Goldenrod Dept. Store.
 - COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
 - STAIRCASE: Warp tile. Leads to a different floor or area.
