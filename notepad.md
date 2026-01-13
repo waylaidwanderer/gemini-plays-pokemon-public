@@ -2,14 +2,14 @@
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
 - **Repel Status**: Applied Turn 44681 (200 steps).
-  - Steps taken: 0
-  - Steps remaining: 200
+  - Steps taken: 20
+  - Steps remaining: 180
 - **Roamer Sightings**: None yet.
 - **Catching Strategy**: Use Master Ball immediately on first roamer encounter.
 - **Roamer Tracking**:
   - Route 37: Active hunting area.
   - Route 38: Secondary hunting area.
-  - Agent Advice (legendary_tracker): Target Raikou/Entei. Master Ball is mandatory for Raikou (Roar). Entei can be put to sleep but will flee on Turn 1 or if it wakes. XENON (Haunter) is slower than roamers. Use Pokedex "Area" after first sighting to track.
+  - Agent Advice (legendary_tracker): Target Raikou/Entei. Master Ball is mandatory for Raikou (Roar). Entei can be put to sleep but will flee on Turn 1 or if it wakes. XENON (Haunter) is slower than roamers (Speed ~95 vs ~120+). Use Pokedex "Area" after first sighting to track.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground.
