@@ -3,8 +3,8 @@
   1.  **Action:** Enter Gatehouse -> Exit Gatehouse -> Check Map.
   2.  **Hunt:** If Roamer is on Route 35, use Repel and run in grass.
   3.  **Repeat:** If not, repeat loop.
-- **Status:** Cycle 63 (Manual). Exiting Gatehouse.
-- **Last Sighting:** Route 42, 31, 46 (Cycle 62).
+- **Status:** Checking Map (Cycle 67 Result).
+- **Last Sighting:** Route 42, 31, 46 (Cycle 66).
 - **Hunt Session:** Started ~Turn 36369. Current: 36704.
 - **Resources:** 16 Repels.
 
