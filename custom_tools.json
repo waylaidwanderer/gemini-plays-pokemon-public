@@ -162,44 +162,49 @@
     ]
   },
   "grass_pacer": {
-    "description": "Oscillates between two directions to trigger wild encounters in a specific area.",
+    "description": "Oscillates the player between two specified directions for a set number of repetitions to trigger wild encounters.",
     "input_schema": {
-      "type": "object",
       "properties": {
         "dir1": {
-          "type": "string",
           "enum": [
             "Up",
             "Down",
             "Left",
             "Right"
-          ]
+          ],
+          "type": "string"
         },
         "dir2": {
-          "type": "string",
           "enum": [
             "Up",
             "Down",
             "Left",
             "Right"
-          ]
+          ],
+          "type": "string"
         },
         "reps": {
+          "default": 10,
           "type": "integer"
         }
       },
       "required": [
         "dir1",
-        "dir2",
-        "reps"
-      ]
+        "dir2"
+      ],
+      "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef run():\n    try:\n        input_data = json.load(sys.stdin)\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 25))\n        \n        sequence = ([dir1, dir2] * reps)[:50]\n        print(json.dumps(sequence))\n    except Exception as e:\n        print(json.dumps([]))\n\nrun()",
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # Input data is passed as a JSON string in the first argument\n        input_data = json.loads(sys.argv[1])\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 10))\n        \n        if not dir1 or not dir2:\n            print(json.dumps([]))\n            return\n\n        buttons = []\n        for _ in range(reps):\n            buttons.append(dir1)\n            buttons.append(dir2)\n        \n        # The tool MUST print a JSON array of button strings\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to empty list on error\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T23:20:44.792Z",
         "action_counter": 44251
+      },
+      {
+        "commit_message": "Fixing the tool logic to ensure it correctly parses input and returns a valid JSON array of button strings for the emulator to process.",
+        "timestamp": "2026-01-13T01:33:51.987Z",
+        "action_counter": 44522
       }
     ]
   },
