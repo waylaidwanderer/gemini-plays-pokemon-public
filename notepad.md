@@ -18,9 +18,10 @@
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 100). Verified Turn 45937: Roamers unseen.
 
 # Trapper Strategy
-- Xenon (Haunter, Lv 44): Lacks Mean Look. Cannot relearn in Crystal.
-- AAAAAAAAAA (Spinarak, Lv 13): Lacks Spider Web. Cannot relearn in Crystal.
-- Decision: Use Master Ball for the first encounter or catch a new trapper.
+- Xenon (Haunter, Lv 44): Lacks Mean Look. Confirmed: Cannot relearn (Turn 45962).
+- AAAAAAAAAA (Spinarak, Lv 13): Lacks Spider Web. Confirmed: Cannot relearn (Turn 45962).
+- Recommendation: Catch new trapper (Gastly < 13 or Zubat/Golbat 42) or use Master Ball.
+- Decision: Continue shuffle; prioritize Master Ball for first encounter.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
