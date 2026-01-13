@@ -31,13 +31,9 @@
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
 
 # Task: Flying to Ecruteak
-- Current Location: Violet City (Inside Pack).
-- Step 1: Exit Pack (B).
-- Step 2: Select POKEMON (Up).
-- Step 3: Select ICARUS (A).
-- Step 4: Select FLY (A).
-- Step 5: Select Ecruteak (Up).
-- Step 6: Confirm Fly (A).
+- Current Location: Cherrygrove City (Overworld).
+- Step 1: Open Fly Map (Start, A, A, A).
+- Step 2: Use fly_cherrygrove_to_ecruteak tool.
 - Start Turn: 45183
 
 # Lessons Learned
