@@ -50,7 +50,7 @@
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Menu Memory: The main menu cursor does NOT reset to POKEDEX. It stays on the last selected option.
 - Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
-- Super Repel Application (from Index 0): [Start, Down x2, A, Down x20, Up x1, A, A, A].
+- Super Repel Application (from POKEDEX/Index 0): [Start, Down x2, A, Down x20, Up x1, A, A, A]. Break into chunks < 50 buttons.
 
 # Legendary Hunt Execution
 - Start Turn: 44521.
