@@ -46,3 +46,5 @@
 - **Observation:** 'A' press in Turn 36830 didn't open the map. Retrying with a delay to ensure input registration.
 - **Action:** Pressing 'A' again to open full region map. Previous attempts failed.
 - **Action:** Pressing 'A' again (Retry 4). If this fails, will move to a different tile to reset menu state.
+- **Observation:** 'A' press failed multiple times to open full map.
+- **Action:** Closing menu and moving to (9, 2) to clear 'stuck on tile' warning and reset menu state.
