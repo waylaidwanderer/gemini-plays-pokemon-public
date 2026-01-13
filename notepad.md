@@ -12,10 +12,12 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How"):
-    1. Land: Move to (11, 27) or (12, 28).
-    2. Walk: (11, 27) -> (11, 15) [Gap in wall].
-    3. Walk: (11, 15) -> (11, 14) -> (8, 14) -> (8, 13) -> (8, 10) -> (7, 4).
-    4. Sighting: Trigger Suicune event at (7, 4).
+    1. Surf: From (11, 26) or (11, 27) launch into WATER.
+    2. Surf North: Move to (15, 10) or (16, 10).
+    3. Land: Move onto FLOOR at (15, 10).
+    4. Walk West: (15, 10) -> (7, 10).
+    5. Walk North: (7, 10) -> (7, 4).
+    6. Sighting: Trigger Suicune event at (7, 4).
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
