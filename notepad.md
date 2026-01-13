@@ -118,3 +118,6 @@
 - **Observation:** Previous attempt exited Pokedex and opened Start Menu -> Pack.
 - **Correction:** Exiting Pack ('B') -> Navigate to Pokedex ('Up', 'Up') -> Open ('A').
 - **Plan:** Will perform Search ('Start') in next turn to ensure stability.
+- **Anomaly:** Discrepancy between Current Screen Image (Pokedex) and Text/Intermediate States (Pack).
+- **Hypothesis:** Inputs 'Up, Up' were dropped last turn, causing re-entry into Pack via 'A'.
+- **Action:** Assuming Pack state. Pressing 'B' (Exit), 'Up', 'Up' (Nav to Pokedex), 'A' (Open), 'Start' (Search).
