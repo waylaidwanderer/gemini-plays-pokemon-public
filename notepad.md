@@ -36,7 +36,7 @@
 - Start Turn: 44154
 - Priority: Raikou (Master Ball).
 - Method: Ecruteak Shuffle (Route 37).
-- Super Repel status: Out of stock.
+- Super Repel status: Stocking up (Olivine Mart).
 - Suicune Strategy: Static encounter at Tin Tower in Crystal. Requires Clear Bell and defeating the Wise Trio.
 
 # Legendary Hunt Strategy
@@ -45,7 +45,7 @@
 - Movement: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
 
 # Roamer Tracking
-- Route 37: 0 encounters.
+- Route 37: 0 encounters. Checked Turn 44154-44277.
 - Route 36: 0 encounters.
 - Route 38: 0 encounters.
 
@@ -53,7 +53,6 @@
 1. Travel to Ecruteak City (Completed).
 2. Pivot to Olivine City (Completed).
 3. Purchase 85 Super Repels at Olivine Mart (In progress).
-- Note: If Olivine fails, use `run_code` to scan Mart inventories.
 4. Head to Route 37 via Ecruteak City South exit.
 5. Resume legendary hunt using the 'grass_pacer' tool.
 
@@ -66,4 +65,4 @@
 - Menu Order: POKEDEX, POKEMON, PACK, POKEGEAR, [Player Name], SAVE, OPTION, EXIT.
 - Text Speed: Fast (Turn 44324).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
-- Super Repel Location: Olivine City Mart (Hypothesis). Ecruteak Mart and Goldenrod Dept Store do NOT sell them in Crystal.
+- Super Repel Location: Olivine City Mart.
