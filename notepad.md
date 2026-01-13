@@ -12,14 +12,14 @@
 - Method: Ecruteak Shuffle (Route 37 South Gate).
 - Current Shuffle Start: Turn 45539.
 - Lead: ICARUS (Lv 19).
-- Repel: Super Repel active (Applied Turn 45439, 46 steps).
-- Current Status: Executing Ecruteak Shuffle. Cycle 5 Start.
+- Repel: Super Repel active (Applied Turn 45439, 47 steps).
+- Current Status: Executing Ecruteak Shuffle. Cycle 5.
 - Shuffle History:
   - Cycle 1: No encounter.
   - Cycle 2: No encounter.
   - Cycle 3: No encounter.
   - Cycle 4: No encounter.
-  - Cycle 5 (Turn 45560): In Progress.
+  - Cycle 5 (Turn 45560): Pacing grass.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
