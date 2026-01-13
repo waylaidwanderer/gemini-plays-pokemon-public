@@ -29,7 +29,7 @@
   - Repel 1: Applied 45439, Wore off 45614.
   - Repel 2: Applied 45627.
 - Completed Cycles: 20.
-- Current Status: Transitioning to Ecruteak.
+- Current Status: Starting Cycle 21. Transitioning to Route 37.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
