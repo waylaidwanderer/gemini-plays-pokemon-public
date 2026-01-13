@@ -1,22 +1,22 @@
 # Tile Mechanics (Global)
-- TALL_GRASS: Traversable. Triggers wild encounters. Verified: Yes.
 - FLOOR: Traversable. Verified: Yes.
 - WALL: Impassable. Verified: Yes.
+- WATER: Traversable with Surf. Verified: Yes.
+- TALL_GRASS: Traversable. Wild encounters. Verified: Yes.
 - HEADBUTT_TREE: Impassable. Verified: Yes.
-- COUNTER: Impassable. Interacting with NPCs behind them requires facing the counter. Verified: Yes.
-- WARP_CARPET_LEFT/RIGHT: Traversable. Triggers map transition. Verified: Yes.
-- LEDGE_HOP_DOWN: One-way traversable (down only). Verified: Yes.
+- COUNTER: Impassable. Face to interact. Verified: Yes.
+- WARP_CARPET: Traversable. Map transition. Verified: Yes.
+- LEDGE_HOP_DOWN: One-way (Down). Verified: Yes.
 
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
-- **Session 4 (Current)**: Relocating to Ecruteak City. Started Turn 45133.
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
 - **Repel Trick**: Lv 19 lead filters for Roamers (Lv 40) in Ecruteak area.
 - **Status**: Repel Active. ~90 steps remaining.
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
-- **Relocation Plan**:
-  1. Use Fly to travel to Ecruteak City.
-  2. Start Ecruteak Shuffle (Route 37/38 transitions).
+
+# Progress Tracking
+- Session 4 (Ecruteak Shuffle): Started Turn 45133. Encountered: 0.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
@@ -25,7 +25,7 @@
 # Lessons Learned
 - **Roamers**: Do NOT appear on Pokegear map until first encounter.
 - **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
-- **Notepad Hygiene**: Avoid recording turn-by-turn movement in persistent notes.
-- **Ledges**: Vertical movement is restricted by one-way ledges. Use gaps to return.
-- **Menu Persistence**: The game remembers cursor positions in menus. To avoid errors, use 'Up' multiple times to reset to the top (Pokedex) before navigating.
-- **Fly Map Navigation**: Ecruteak is North-West of New Bark. From New Bark: Left (to Cherrygrove), Up (to Violet), Up (to Ecruteak).
+- **Notepad Hygiene**: Avoid turn-by-turn logging.
+- **Ledges**: Vertical movement is restricted by one-way ledges.
+- **Menu Persistence**: Reset cursor with 'Up' several times.
+- **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
