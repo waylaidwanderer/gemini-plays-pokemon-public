@@ -217,44 +217,5 @@
         "action_counter": 44588
       }
     ]
-  },
-  "roamer_shuffler": {
-    "description": "Automates the Ecruteak Shuffle between Route 37 and Ecruteak City. Start at Ecruteak (17, 35).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "pacing_reps": {
-          "type": "integer",
-          "default": 5,
-          "description": "Number of Left/Right pacing repetitions in the grass."
-        }
-      },
-      "required": [
-        "pacing_reps"
-      ]
-    },
-    "python_script": "import json\nreps = int(input_data.get('pacing_reps', 5))\nbuttons = [\"Down\", \"sleep 500\", \"Down\", \"Down\", \"Down\"]\nfor _ in range(reps):\n    buttons.extend([\"Left\", \"Right\"])\nbuttons.extend([\"Up\", \"Up\", \"Up\", \"sleep 500\", \"Up\"])\nprint(json.dumps(buttons))",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T04:47:28.352Z",
-        "action_counter": 44837
-      },
-      {
-        "commit_message": "Refined roamer_shuffler to perform a full Ecruteak-Route 37 loop.",
-        "timestamp": "2026-01-13T04:48:44.676Z",
-        "action_counter": 44839
-      },
-      {
-        "commit_message": "Removed sleeps and optimized loop for roamer_shuffler.",
-        "timestamp": "2026-01-13T04:51:14.930Z",
-        "action_counter": 44842
-      },
-      {
-        "commit_message": "Refined roamer_shuffler to perform a full R37-Ecruteak loop starting from (17, 35).",
-        "timestamp": "2026-01-13T04:53:25.658Z",
-        "action_counter": 44845
-      }
-    ]
   }
 }
