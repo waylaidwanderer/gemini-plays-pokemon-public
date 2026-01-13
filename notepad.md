@@ -30,5 +30,5 @@
 - [Lesson] Scripted phone calls interrupt sequences.
 
 # Current Objective: Fly to Ecruteak
-- Plan: Start -> POKEMON -> ICARUS -> FLY -> (Navigate to Ecruteak) -> A.
-- Current Status: Resetting UI to overworld. Opening Fly Map.
+- Plan: Open Fly Map (Start, A, A, A), Navigate (Left, Up, Up), Confirm (A).
+- Current Status: Restarting sequence after phone call interruption.
