@@ -27,10 +27,10 @@
 - Start: Turn 45281.
 - Repel Tracking:
   - Repel 1: Applied 45439, Wore off 45614 (175 turns).
-  - Repel 2: Applying...
+  - Repel 2: Applying now (Turn 45627).
 - Completed Cycles: 15.
-- Current Status: In PACK. Scrolling to Super Repel.
-- Turn Count: Trusting Game State #45626.
+- Current Status: Using SUPER REPEL in PACK.
+- Turn Count: 45627.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
