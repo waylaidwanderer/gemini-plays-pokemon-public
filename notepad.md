@@ -31,7 +31,8 @@
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 77.
 - Repel 5: Applied Turn 45841. (~191 steps used).
-- Current Status: Starting Cycle 78. Transitioned back to Ecruteak.
+- Current Status: Starting Cycle 78. Pacing at (7, 2).
+- Repel Maintenance: Refresh Super Repel once it expires (likely in ~9 steps).
 - Trapper Strategy (for 2nd roamer):
   - Option A: Train Spinarak (AAAAAAAAAA, Lv 13) in PC. It has Spider Web.
   - Option B: Xenon (Haunter, Lv 44) does NOT have Mean Look. Gengar learns it at Lv 31.
