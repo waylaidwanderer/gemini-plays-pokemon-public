@@ -45,3 +45,5 @@
 # Navigation Log
 - Turn 46375: `navigate` to (2, 34) failed to move player from (9, 16). Player is boxed in by ROCK (8, 16) and ROCK (9, 17) and WALL (9, 15). Only exit is Right to (10, 16).
 - Turn 46377: Fixed `find_path_v7_robust` bug (case-sensitivity and BUOY collision). Initiating manual movement to escape corner.
+- Turn 46379: Traced path to West Cianwood. X=9 wall gap at Y=33 is blocked from North by FLOOR_UP_WALL at Y=34. Gap at X=9 and X=5 wall is at Y=51. 
+- Plan: (11, 16) -> (11, 51) -> (2, 51) -> (2, 34) -> (2, 4) -> (7, 4).
