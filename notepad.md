@@ -3,7 +3,8 @@
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
 - **Repel Step Tracking**: Applied Turn 44696.
   - Turn 44697: +20 steps (20 total).
-  - Steps remaining: 180
+  - Turn 44698: +20 steps (40 total).
+  - Steps remaining: 160
 - **Roamer Tracking**:
   - Route 37: Active hunting area.
   - Route 38: Secondary hunting area.
