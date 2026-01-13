@@ -7,7 +7,8 @@
   - Turn 44684: +20 steps (43 total)
   - Turn 44685: +3 steps (46 total)
   - Turn 44686: +20 steps (66 total)
-  - Steps remaining: 134
+  - Turn 44687: +20 steps (86 total)
+  - Steps remaining: 114
 - **Roamer Tracking**:
   - Route 37: Active hunting area.
   - Route 38: Secondary hunting area.
