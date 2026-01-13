@@ -130,3 +130,6 @@
 - **Action:** Opening Start Menu. Will check cursor position before navigating.
 - **Status:** Start Menu Open. Cursor on 'OPTION'.
 - **Action:** Navigating to 'POKEDEX' (Down x2 to wrap) -> Open (A) -> Search (Start).
+- **Action:** Configuring Search: Normal -> Fire.
+- **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
+- **Reasoning:** Screen shows Search Menu open. Cursor on 'Type 1' value.
