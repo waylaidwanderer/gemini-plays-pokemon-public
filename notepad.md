@@ -42,3 +42,8 @@
 - GNEISS (Graveler): Earthquake, Defense Curl, Strength, Rollout.
 - GORP (Snorlax): Surf, Rest, Body Slam, Rollout.
 - ICARUS (Pidgeotto): Fly, Sand-Attack, Gust, Quick Attack.
+
+# Lessons Learned: Event Triggers
+- Sage dialogue like "The TIN TOWER shook!" indicates an event progression. If they don't battle immediately, try interacting with all members of the group or standing on specific tiles nearby.
+- Map 4_2 (WiseTriosRoom) might be a post-battle destination or related to Ho-Oh later. Focus on 4_1 for the Trio battle.
+- Timestamp: Tuesday, January 13, 2026 at 12:16 PM PST | Turn 46287.
