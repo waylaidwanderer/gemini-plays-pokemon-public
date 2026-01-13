@@ -19,7 +19,8 @@
 - **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
 - **Session 3 Start**: Turn 44989.
 - **Progress Log**:
-    - Transition 1: 0 encounters. Arnie's call cleared. Arrived in Violet City. Returning to Route 31 for Transition 2. Strategy: Move Right to (39, 25).
+    - Transition 1: 0 encounters. Arnie's call cleared.
+    - Transition 2: In progress. Inside gatehouse moving to Route 31. Strategy: Move Right to (9, 5).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
