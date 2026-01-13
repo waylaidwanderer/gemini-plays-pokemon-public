@@ -9,9 +9,9 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Flying to Blackthorn City (Manual navigation).
+- Status: Flying to Blackthorn City from Cherrygrove.
 - Financials: ¥36,974 (Goal: 30 Ultra Balls).
-- Strategy: Buy Ultra Balls at Blackthorn City Mart. Fly tool updated with Silver Cave coordinates (4, 2).
+- Strategy: Buy Ultra Balls at Blackthorn City Mart. Fly tool fixed and calibrated for 12-city rotation.
 
 ## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
