@@ -15,8 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Stuck in Phone Menu.
-- **Action:** B (Exit Phone) -> Left (Select Map) -> A (Open Map).
-- **Current Position:** Ecruteak (17, 35).
-- **Correction:** Previous attempts failed because I was navigating INSIDE the Phone menu, not the Pokegear main menu.
-- **Goal:** Check Roamer locations.
+- **Status:** Resetting Menu State.
+- **Action:** Exiting Pokegear (B x3) -> Opening Start Menu.
+- **Reason:** Navigation inside Phone menu is unreliable/stuck.
+- **Next Step:** Verify Start Menu cursor -> Pokegear -> Map.
