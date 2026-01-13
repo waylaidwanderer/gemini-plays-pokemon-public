@@ -29,3 +29,4 @@
 - **Red:** Defeated.
 - **Lugia:** Caught (Maelstrom).
 - **Correction:** Fly attempt 1 failed (stayed in New Bark). Retrying with 'Left, Left, Up' and slower inputs.
+- **Correction:** Fly attempt 2 failed (landed in Cherrygrove). Retrying from Cherrygrove with 'Left, Up'.
