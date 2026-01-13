@@ -185,7 +185,7 @@
         "times"
       ]
     },
-    "python_script": "import json\ndef navigate_fly_map(direction, times, delay_ms=200):\n    buttons = []\n    for _ in range(times):\n        buttons.append(direction)\n        if delay_ms > 0:\n            buttons.append(f\"sleep {delay_ms}\")\n    print(json.dumps({\"buttons_to_press\": buttons}))\n\nnavigate_fly_map(direction, times, delay_ms)",
+    "python_script": "import json\n\n# Access input arguments from the injected input_data dictionary\ndirection = input_data['direction']\ntimes = int(input_data['times'])\ndelay_ms = int(input_data.get('delay_ms', 200))\n\nbuttons = []\nfor _ in range(times):\n    buttons.append(direction)\n    if delay_ms > 0:\n        buttons.append(f\"sleep {delay_ms}\")\n\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -201,6 +201,11 @@
         "commit_message": "Fixed missing json import in navigate_fly_map tool.",
         "timestamp": "2026-01-13T22:58:11.744Z",
         "action_counter": 38056
+      },
+      {
+        "commit_message": "Fixed input handling by accessing the 'input_data' dictionary instead of expecting undefined global variables.",
+        "timestamp": "2026-01-13T22:58:36.230Z",
+        "action_counter": 38057
       }
     ]
   }
