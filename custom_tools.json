@@ -1,44 +1,4 @@
 {
-  "sequence_press": {
-    "description": "Executes a sequence of button presses to navigate menus or perform actions. Allows mixing directional and action buttons.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "buttons": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      },
-      "required": [
-        "buttons"
-      ]
-    },
-    "python_script": "import json\ntry:\n    buttons = input_data['buttons']\n    print(json.dumps(buttons))\nexcept KeyError:\n    print(\"Error: 'buttons' key not found in input_data\")\n    print(f\"input_data keys: {input_data.keys()}\")",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T08:10:06.907Z",
-        "action_counter": 33328
-      },
-      {
-        "commit_message": "Initial definition of sequence_press tool",
-        "timestamp": "2026-01-11T10:39:20.952Z",
-        "action_counter": 33514
-      },
-      {
-        "commit_message": "Debugging tool to find variable injection method",
-        "timestamp": "2026-01-11T10:41:14.927Z",
-        "action_counter": 33517
-      },
-      {
-        "commit_message": "Fix variable access by using input_data dictionary",
-        "timestamp": "2026-01-11T10:43:22.032Z",
-        "action_counter": 33520
-      }
-    ]
-  },
   "pathfind": {
     "description": "Finds a path from the player's current position to a target coordinate using BFS. Returns a list of buttons.",
     "input_schema": {
@@ -165,31 +125,6 @@
         "commit_message": "Improved reliability: Added an extra 'Left' press to handle starting from the 'Radio' card (4th slot) assuming non-wrapping menu, and added a sleep before the final 'A' press to ensure the Map View opens after navigation.",
         "timestamp": "2026-01-13T07:37:57.819Z",
         "action_counter": 37022
-      }
-    ]
-  },
-  "open_pack": {
-    "description": "Opens the Pack. Assumes the Start Menu cursor is currently on 'POKEGEAR' (e.g. after checking map). Sequence: B, B, Start, Up, A.",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      }
-    },
-    "python_script": "print(json.dumps([\"B\", \"B\", \"Start\", \"sleep 500\", \"Up\", \"A\"]))",
-    "history": [
-      {
-        "commit_message": "Created a reliable tool to open the Pack by resetting the Start menu cursor.",
-        "timestamp": "2026-01-12T23:46:10.184Z",
-        "action_counter": 36428
-      },
-      {
-        "commit_message": "Fix open_pack to handle wrapping Start Menu correctly. Assumes cursor starts at POKEGEAR (default state for roamer hunting).",
-        "timestamp": "2026-01-13T11:01:27.215Z",
-        "action_counter": 37206
       }
     ]
   }

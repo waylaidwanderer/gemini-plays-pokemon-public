@@ -14,26 +14,12 @@
 - **Route 37:** Contains Red, Blue, and Black Apricorns.
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
-# Roamer Hunt Log
-- **Status:** In Pack. Selecting Repel.
-- **Location:** Route 37 (7, 2).
-- **Goal:** Register Raikou/Entei in Pokedex.
-- **Attempt:** 8 (Paused).
-- **Strategy:** Repel Renewal.
-  1. Select Repel (Cursor should remember position).
-  2. Use Repel.
-  3. Close Pack.
-  4. Resume Shuffle.
-- **Note:** Roamers are Lv 40. Gyarados is Lv 36. Repel allows Roamers through.
-
-# Current Task: Roamer Hunt
+# Current Task: Roamer Hunt (Raikou/Entei)
 - **Start Turn:** 37586
-- **Method:** Repel Trick on Route 37.
-- **Assumption:** Roamers Lv 40 > Gyarados Lv 36 > Wilds.
-- **Reflection (Turn 37586):** 
-  - Immediate: No deferred tasks.
-  - Hygiene: Added timestamp.
-  - Map: Route 37 entry marker exists.
-  - Automation: Current manual loop is efficient enough.
-  - Goals: Refined to be outcome-based.
-  - Errors: None recently, blind shuffle is efficient.
+- **Location:** Route 37 (7, 2)
+- **Goal:** Register in Pokedex -> Track on Map.
+- **Status:** Attempt 8 (Paused - Renewing Repel).
+- **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
+  - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
+  - Walk in grass -> If no encounter -> Transition map -> Repeat.
+- **Progress:** Repel expired turn 37618. Renewing now.
