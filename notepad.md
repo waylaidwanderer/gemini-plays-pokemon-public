@@ -90,3 +90,7 @@
 - **Turn 38090 Status:** Map cursor confirmed at **New Bark Town**.
 - **Action:** Executing Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
 - **Goal:** Verify destination is "GOLDENROD CITY" next turn.
+- **Turn 38091 Status:** Map verified open at **Silver Cave**.
+- **Strategy:** Strict step-by-step navigation as per critique.
+- **Action:** Left x1 (Target: Indigo Plateau).
+- **Goal:** Verify text changes from "SILVER CAVE".
