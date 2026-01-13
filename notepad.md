@@ -42,5 +42,6 @@
   - Conclusion: No Super Repels available. Using Standard Repels.
 - **Resupply Plan:** Mission Accomplished. Bought 17 Repels. Current Inventory: 17 Repels.
 - **Next Step:** Exit Goldenrod, Check Pokegear, Hunt Roamers.
-- **Status:** Checking Map for Roamer locations.
-- **Menu State:** Start Menu cursor was on PACK. Adjusted to select POKEGEAR.
+- **Status:** Navigating Main Menu to Pokegear (Cursor currently on PACK).
+- **Menu State:** Main Menu Open. Cursor on PACK.
+- **Action:** Down -> Pokegear -> Map.
