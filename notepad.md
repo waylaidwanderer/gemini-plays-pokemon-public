@@ -39,3 +39,15 @@
   - (3, 4) Goldenrod, (4, 4) Cherrygrove, (5, 4) New Bark
   - (3, 5) Azalea
   - (5, 2) Indigo Plateau
+
+# Yanma Swarm
+- Route 35.
+- Status: Active (Turn 45457 call).
+- Note: Priority remains Roamer Hunt.
+
+# Fly Grid Verification
+- Cherrygrove -> Up -> Violet.
+- Violet -> Left -> Ecruteak.
+- Ecruteak -> Right -> Violet -> Down -> Cherrygrove.
+- Verified: Ecruteak is (3, 3), Violet is (4, 3), Cherrygrove is (4, 4).
+- Fly Sequence from Cherrygrove: Start -> Pokemon -> Fly -> Up, Left, A.
