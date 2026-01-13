@@ -25,7 +25,7 @@
 - Completed Shuffles: 23.
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
-- Repel Status: Applied Turn 45439. Steps Taken: 3/200.
+- Repel Status: Applied Turn 45439. Steps Taken: 15/200.
 
 # Strategy: Ecruteak Shuffle (Pre-Encounter)
 - Path: Ecruteak City <-> Route 37.
@@ -42,7 +42,7 @@
 - grass_pacer: Tool for wild encounter pacing.
 
 # Fly Map Grid (Johto)
-- New Bark Town (East Edge)
+- New Bark Town: Base (East)
 - Cherrygrove City: 1x Left from New Bark.
 - Violet City: 1x Up from Cherrygrove.
 - Ecruteak City: 1x Up from Violet.
@@ -62,7 +62,7 @@
 # Lessons Learned
 - Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists, but the menu must be active.
 - Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check (post-encounter). Pre-encounter, 4 steps in grass is optimal.
-- Repel Steps: Verify step count against actual movement rather than estimated button presses.
+- Repel Steps: Verify overworld movement for step count.
 
 # Yanma Swarm
 - Route 35.
