@@ -53,3 +53,5 @@
 - **Status:** Repel Applied (Turn 36576).
 - **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
 - **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
+- Menu Fix: Manually navigating Pack -> Pokegear to reset cursor for `cycle_roamer_hunt_route35`.
+- Next: Inspect Map. If Roamer on 35 -> Hunt. Else -> Cycle Tool.
