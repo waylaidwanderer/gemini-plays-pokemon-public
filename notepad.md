@@ -133,3 +133,8 @@
 - **Sequence:** B -> A -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
 - **Total:** 5 Lefts, 1 Down.
 - **Goal:** Robust navigation to Goldenrod.
+- **Turn 38102:** Found myself in Pokemon Menu Submenu (Cursor on STATS).
+- **Diagnosis:** Previous inputs (`Left`s) were ignored by the submenu, then `Down` moved cursor to STATS. Map never opened.
+- **Action:** `Up` (Select FLY) -> `A` (Open Map) -> `Left` x5 (Silver->Ecruteak) -> `Down` (Goldenrod).
+- **Goal:** Verify "GOLDENROD CITY" text.
+- **Delay:** 2000ms.
