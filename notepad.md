@@ -25,5 +25,5 @@
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
-- **reset_roamers:** Automates the Route 37 <-> Ecruteak transition with 10s delays to handle lag.
-- **Tool Failure:** `reset_roamers` with 10s sleep failed to return from Ecruteak. Inputs likely eaten during load. Consider 12-15s or manual resets.
+- **Gaven Call:** Turn 37948. Victreebel talk.
+- **reset_roamers:** Automates the Route 37 <-> Ecruteak transition with 15s delays to handle lag.
