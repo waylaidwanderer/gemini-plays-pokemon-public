@@ -72,7 +72,7 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44629: Super Repel wore off at (6, 3).
-- Strategy: Clear text -> Open PACK -> Use Super Repel -> Resume Ecruteak Shuffle.
-- Step 1: Clear text and navigate to PACK.
-- Step 2: Use Super Repel and return to overworld.
+- Turn 44630: Super Repel wore off. Mis-navigated to SAVE menu.
+- Plan: B, B (Exit Save) -> Up, Up, Up (to PACK) -> A (Open) -> Up, Up (to Super Repel) -> A (Select) -> A (Use) -> A (ICARUS) -> B, B, B (Exit).
+- Lead: ICARUS (Lv 19).
+- Repel Status: 0 steps remaining. Need to re-apply.
