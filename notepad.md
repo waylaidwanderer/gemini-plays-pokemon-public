@@ -9,15 +9,14 @@
 
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
-- **Session 3 (Current)**: Route 31 <-> Violet City. Started Turn 44989.
+- **Session 4 (Current)**: Ecruteak City <-> Route 37. Started Turn 45133.
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
-- **Repel Trick**: Lv 19 lead on Route 31 (Wild Lv 12-15) filters for Roamers (Lv 40).
-- **Status**: Repel Active (Turn 45080). ~100 steps remaining. (Inventory: 68 Super Repels).
-- **Current Progress**: 10 loops completed. 0 encounters. Relocating to Ecruteak City (Strategist recommendation).
+- **Repel Trick**: Lv 19 lead filters for Roamers (Lv 40) in Ecruteak area.
+- **Status**: Repel Active. ~90 steps remaining.
+- **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 - **Relocation Plan**:
-  1. Exit gatehouse to Route 31.
-  2. Use Fly to travel to Ecruteak City.
-  3. Start Ecruteak Shuffle (Route 37/38 transitions).
+  1. Use Fly to travel to Ecruteak City.
+  2. Start Ecruteak Shuffle (Route 37/38 transitions).
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
