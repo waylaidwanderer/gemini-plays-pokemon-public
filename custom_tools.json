@@ -192,40 +192,5 @@
         "action_counter": 37206
       }
     ]
-  },
-  "robust_fly_ecruteak": {
-    "description": "Robustly navigates menus to Fly to Ecruteak City from Cherrygrove. Assumes overworld state. Resets Menu cursor to top, enters Pokemon, wraps Up x2 to Slot 6 (Mistral), Flies, navigates Map (Up, Left).",
-    "input_schema": {
-      "type": "object",
-      "properties": {
-        "autopress_buttons": {
-          "type": "boolean",
-          "default": false
-        }
-      }
-    },
-    "python_script": "print('[\"Start\", \"sleep 1000\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Up\", \"Down\", \"sleep 500\", \"A\", \"sleep 1500\", \"Up\", \"sleep 300\", \"Up\", \"sleep 300\", \"A\", \"sleep 500\", \"A\", \"sleep 3500\", \"Up\", \"sleep 500\", \"Left\", \"sleep 500\", \"A\"]')",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-13T15:25:35.835Z",
-        "action_counter": 37439
-      },
-      {
-        "commit_message": "Updated with robust menu reset (Up x7) and 'Down x2' logic (assuming cursor on Slot 4) to reliably Fly to Ecruteak. Added generous sleeps.",
-        "timestamp": "2026-01-13T16:53:34.101Z",
-        "action_counter": 37472
-      },
-      {
-        "commit_message": "Fixed output format to be a valid JSON array of strings instead of a JSON object. Assumes cursor on Slot 4 (Garnet) for now, but will verify.",
-        "timestamp": "2026-01-13T16:54:53.836Z",
-        "action_counter": 37474
-      },
-      {
-        "commit_message": "Fixed party navigation to correctly select Slot 6 (Mistral) using Up x2 wrap-around. Increased map load sleep to 3.5s.",
-        "timestamp": "2026-01-13T16:59:16.387Z",
-        "action_counter": 37478
-      }
-    ]
   }
 }
