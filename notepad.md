@@ -3,10 +3,10 @@
   1.  **Action:** Enter Gatehouse -> Exit Gatehouse -> Check Map.
   2.  **Hunt:** If Roamer is on Route 35, use Repel and run in grass.
   3.  **Repeat:** If not, repeat loop.
-- **Status:** Checking Map (Cycle 72).
-- **Action:** Opening Map to check Roamers.
-- **Next:** If Roamer on 35 -> Hunt. Else -> Manual Shuffle.
-- **Hunt Session:** Started ~Turn 36369. Current: 36735.
+- **Status:** Manual Shuffle (Cycle 73 - Entry).
+- **Observation:** Cycle 72 Result: Roamers on Route 42, 31, 46. None on 35.
+- **Action:** Close Map -> Step Off (Up) -> Re-enter Gatehouse (Down x2).
+- **Next:** Exit Gatehouse -> Check Map.
 
 ## Tile Mechanics
 - **Warp Tiles:** To trigger a warp (e.g., Gatehouse), you must step *onto* the tile. Standing on it and pressing buttons or turning does not trigger it. You must move off and then back on.
