@@ -53,6 +53,7 @@
 1. Travel to Ecruteak City (Completed).
 2. Pivot to Olivine City (Completed).
 3. Purchase 85 Super Repels at Olivine Mart (In progress).
+- Note: If Olivine fails, use `run_code` to scan Mart inventories.
 4. Head to Route 37 via Ecruteak City South exit.
 5. Resume legendary hunt using the 'grass_pacer' tool.
 
