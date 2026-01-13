@@ -1,20 +1,13 @@
 # Legendary Roamer Hunt
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
-- **Repel Status**: Applied Turn 44664 (200 steps).
-  - Steps taken: 168
-  - Steps remaining: 32
-- **Capture Strategy**: Use Master Ball immediately on first roamer encounter.
+- **Repel Status**: Super Repel wore off Turn 44679. Re-applying now.
+- **Roamer Sightings**: None yet.
+- **Catching Strategy**: Use Master Ball immediately on first roamer encounter.
 - **Roamer Tracking**:
-  - Route 37: Active hunting.
-  - Route 38: Alternate hunting.
-- **Agent Advice (legendary_tracker)**:
-  - Target: Raikou or Entei (Roamers).
-  - Method: Use Master Ball (efficiency) and Repel Trick (Lv 17-39 lead).
-  - Note: Suicune is a static encounter at Tin Tower in Crystal. Roamers use Roar, making Master Ball the best choice.
-  - Tracking: Use Pokedex "Area" function after first encounter to intercept.
-- **Encounter History**: Hunt began Turn 44521. No sightings yet. Strategy: Ecruteak Shuffle. Transition maps every ~30-60 steps.
-- **Legendary Tracker Insights**: Once a roamer is seen, its location is visible in the Pokedex. Use map transitions to manipulate its location onto your route. Master Ball is mandatory for Raikou due to Roar. Entei can be put to sleep but will still flee immediately if it wakes up or on Turn 1. XENON (Haunter) is slower (Speed 95 approx vs roamer Speed 115-130) so priority or trapping is needed if Master Ball is used elsewhere.
+  - Route 37: Active hunting area.
+  - Route 38: Secondary hunting area.
+  - Agent Advice (legendary_tracker): Target Raikou/Entei. Master Ball is mandatory for Raikou (Roar). Entei can be put to sleep but will flee on Turn 1 or if it wakes. XENON (Haunter) is slower than roamers. Use Pokedex "Area" after first sighting to track.
 
 # Tile Mechanics
 - FLOOR: Traversable. Standard ground.
