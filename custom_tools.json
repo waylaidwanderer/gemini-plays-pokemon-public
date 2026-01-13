@@ -194,7 +194,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        # Input data is passed as a JSON string in the first argument\n        input_data = json.loads(sys.argv[1])\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 10))\n        \n        if not dir1 or not dir2:\n            print(json.dumps([]))\n            return\n\n        buttons = []\n        for _ in range(reps):\n            buttons.append(dir1)\n            buttons.append(dir2)\n        \n        # The tool MUST print a JSON array of button strings\n        print(json.dumps(buttons))\n    except Exception:\n        # Fallback to empty list on error\n        print(json.dumps([]))\n\nif __name__ == \"__main__\":\n    main()\n",
+    "python_script": "import json\n\n# The system provides input_data as a dictionary in the global scope.\ndef run():\n    try:\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 10))\n        \n        if not dir1 or not dir2:\n            print(json.dumps([]))\n            return\n\n        buttons = []\n        for _ in range(reps):\n            buttons.append(dir1)\n            buttons.append(dir2)\n        \n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([]))\n\nrun()\n",
     "history": [
       {
         "commit_message": "Initial version",
@@ -205,6 +205,11 @@
         "commit_message": "Fixing the tool logic to ensure it correctly parses input and returns a valid JSON array of button strings for the emulator to process.",
         "timestamp": "2026-01-13T01:33:51.987Z",
         "action_counter": 44522
+      },
+      {
+        "commit_message": "Refining the tool to use the 'input_data' dictionary provided by the environment, which fixes the error where it was previously attempting to parse 'sys.argv'.",
+        "timestamp": "2026-01-13T01:34:49.843Z",
+        "action_counter": 44525
       }
     ]
   },

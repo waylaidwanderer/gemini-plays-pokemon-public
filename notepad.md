@@ -50,7 +50,7 @@
 - Repel Trick: Use a lead Pokémon with a level between the local wild encounters and the target legendary (e.g., Lv 19 Pidgeotto for Lv 40 Roamers on Route 37).
 - Menu Order: POKEDEX (0), POKEMON (1), PACK (2), POKEGEAR (3), GEM (4), SAVE (5), OPTION (6), EXIT (7).
 - Fly Map Navigation: Cursor moves between valid points. 'Up' moves cursor north.
-- Super Repel Location: Olivine City Mart.
+- Custom Tools: Access script arguments via the 'input_data' dictionary, not 'sys.argv'.
 
 # Legendary Hunt Execution
 - Start Turn: 44521.
