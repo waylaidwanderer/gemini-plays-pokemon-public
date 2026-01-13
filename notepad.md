@@ -67,10 +67,9 @@
 - Navigation Reset: If a menu navigation fails, immediately back out to the overworld (multiple 'B' presses) to reset state.
 
 # Failed Hypotheses & Attempts
-- Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory. Switched to a "reset and move" strategy.
-- Turn 44561: Super Repel successfully applied (Attempt 7). Method: Sequential menu navigation with cursor position awareness.
-- Turn 44571: Repel wore off.
-- Current Status: Re-applying Super Repel. Lead: ICARUS (Lv 19). Target: Raikou/Entei.
+- Menu Navigation (Turns 44528-44556): Multiple failed attempts to apply Super Repel due to cursor memory.
+- Turn 44572: Attempt 8 failed. Hypothesis: Main menu cursor was at POKEGEAR (Index 3). Sequence [Start, Down x2, A] landed on GEM (Status) instead of PACK.
+- Current Status: Backing out to overworld to reset. Lead: ICARUS (Lv 19). Target: Raikou/Entei.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
