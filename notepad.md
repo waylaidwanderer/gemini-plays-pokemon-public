@@ -34,3 +34,4 @@
 - **Correction:** Fly map cursor was on New Bark Town (despite player being in Cherrygrove).
 - **Navigation:** Attempting 'Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak)' from New Bark Town cursor.
 - **Correction:** Fly attempt 5 failed (Left x3 from New Bark -> New Bark). Grid navigation is unclear. Switching to Step-by-Step verification to ensure correct destination selection.
+- **Correction:** Attempting 'Left -> Up -> Left' for Fly path. New Bark -> Cherrygrove (Left) -> Violet (Up) -> Ecruteak (Left).
