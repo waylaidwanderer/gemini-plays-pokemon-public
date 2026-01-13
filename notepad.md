@@ -12,27 +12,23 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - **Repel Trick**: Lv 19 lead (ICARUS) with Super Repel active.
-- **Status**: Super Repel Active (200 steps).
+- **Status**: Super Repel Active (200 steps). Used at Turn 45241.
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Strategy Tools
 - **roamer_strategist**: Use to analyze hunt efficiency.
 - **grass_pacer**: Use for automated wild encounter pacing.
+- **open_fly_map_robust**: Use to reliably open Fly Map.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
 
 # Hypotheses & Lessons
-- [Hypothesis] Start menu cursor persists on last selected option (e.g., PACK).
-- [Hypothesis] Fly map cursor persists on last highlighted destination or defaults to New Bark Town.
-- [Lesson] Menu sequence tools can fail if the game state is not what's expected.
-- [Lesson] Scripted phone calls interrupt sequences.
+- [Lesson] Fly attempt started Turn 45183. 60 turn stagnation due to menu/save loop hallucination.
+- [Hypothesis] Moving in overworld resets Start menu cursor to POKEDEX.
+- [Hypothesis] Start menu order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.GEAR, 5.NAME, 6.SAVE, 7.OPTION, 8.EXIT.
 
-# Current Strategy: Fly to Ecruteak
-- Initial State: Inside Pack (cursor on Super Repel).
-- Step 1: Exit Pack and Start Menu (B, B).
-- Step 2: Open Start menu (Start).
-- Step 3: Select POKEMON (Up, A).
-- Step 4: Select ICARUS -> FLY (A, A).
-- Step 5: Navigate Fly Map to Ecruteak and press A.
+# Attempted Fly to Ecruteak
+- Started: Turn 45183.
+- Status: Stalled in hallucination loop. Resetting by moving to Route 31.
