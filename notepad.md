@@ -72,5 +72,5 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation: Multiple failures due to cursor memory and tool button limits. Verified that the main menu cursor persists and deep navigation must be split into chunks < 50 buttons.
-- Turn 44614: Attempting to use Super Repel again with a shorter button sequence to avoid the 50-button limit.
-- Strategy: Open Pack -> Scroll to Super Repel -> Use.
+- Turn 44617: Attempting to use Super Repel again. Breaking the sequence into 24 buttons (47 total with sleeps) to stay under the 50-item limit.
+- Current state: In Trainer Card. Plan: Exit -> Pack -> Scroll to Super Repel -> Use.
