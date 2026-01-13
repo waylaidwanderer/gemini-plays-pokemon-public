@@ -14,8 +14,8 @@
 - **Strategy**: Manual Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 4-10 steps in grass, repeat. Manual buttons are used to bypass tool fragility with warps.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40).
 - **Repel Status**: Active (Turn 44880). ~175 steps remaining. Inventory: 72.
-- **Strategy**: Ecruteak Shuffle. Transitioning back to Route 37 to move roamers, then will pace in grass.
-- **Current Action**: Entering Route 37 (Down x1).
+- **Strategy**: Ecruteak Shuffle.
+- **Current Action**: Pacing in grass at (8, 2) <-> (9, 2).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
