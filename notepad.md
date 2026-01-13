@@ -112,3 +112,6 @@
   - `SELECT` -> OPTION (Sorting)
   - `START` -> SEARCH (Filtering)
 - **Action:** Pressing `B` to exit Machop entry, then `Start` to open Search.
+- **Action:** Retry Search Entry.
+- **Sequence:** B (Exit Machop), Sleep (Wait for List), Start (Open Search), Right (Fire), Down x2 (Select Search button), A (Execute).
+- **Hypothesis:** Previous 'B' input failed or timing was off. Increasing delays.
