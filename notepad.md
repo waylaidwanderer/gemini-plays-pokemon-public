@@ -16,7 +16,7 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Release Beasts (Burned Tower) - DONE.
-    2. Find Suicune Sightings (Cianwood, Rt 42, Rt 36) - IN PROGRESS.
+    2. Find Suicune Sightings (Rt 42, Rt 36) - IN PROGRESS. (Cianwood DONE).
     3. Defeat Wise Trio (Ecruteak 4_1) - Started Turn 46251.
     4. Battle Suicune (Tin Tower 1F).
 
