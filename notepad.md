@@ -15,7 +15,8 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Recovering from Save Menu -> Opening Map.
-- **Action:** B, B (Cancel Save) -> Up x2 (to Pokegear) -> A -> Left -> A (Map).
-- **Goal:** Locate Raikou/Entei.
-- **Strategy:** If close, pursue. If far, shuffle via Route 37 border.
+- **Status:** Shuffling Roamers (Ecruteak <-> Route 37).
+- **Action:** Closing Map -> Walking South to Route 37.
+- **Strategy:** Cross border to shuffle, return, check map.
+- **Current Position:** Ecruteak (17, 31).
+- **Target:** Route 37 Boundary (South).
