@@ -15,6 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Overworld (Ecruteak 17, 35).
-- **Action:** Opening Pokegear Map to check Roamer positions.
-- **Strategy:** If Roamers are not on Route 37/42/36, move between Ecruteak and Route 37 to shuffle.
+- **Status:** Moving to Route 37.
+- **Action:** Shuffling location (Ecruteak -> Route 37).
+- **Issue:** Cannot visually confirm Roamer positions on Map card (limitation).
+- **Strategy:** Blind Shuffle. Move to Route 37 grass. If no encounter, move back to Ecruteak, then back to Route 37.
