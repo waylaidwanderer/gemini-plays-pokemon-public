@@ -1,9 +1,9 @@
 # Mechanics & State
-- **Fly Mechanics:** Blocked on door mats (e.g. 29,4) AND adjacent tile (29,5). Move to (29,6).
-- **Map Navigation:** Cherrygrove -> Violet is `Left`. Violet -> Ecruteak is `Left, Up` (Hypothesis).
+- **Fly Mechanics:** Blocked on door mats. Cursor REMEMBERS last Pokemon used. Map Cursor starts at CURRENT location.
+- **Menu Navigation:** `sequence_press` requires `sleep 500` and robust resets (Up x10).
 - **Roamer Hunt:** Fly to Ecruteak from Cherrygrove.
-    - **Attempt 9:** Recover from "Muscle can move boulders" -> Select Mistral -> Fly.
-    - **Sequence:** B (Close Text) -> B (Close Menu) -> Up x5 (Reset) -> Down x5 (Mistral) -> A (Select) -> A (Fly) -> Left -> Left -> Up -> A.
+    - **Attempt 10:** Robust Menu Navigation -> Fly Left -> Left.
+    - **Sequence:** Bx3 -> Start -> Up x10 (Pokedex) -> Down (Pokemon) -> A -> Up x6 (Slot 1) -> Down x5 (Mistral) -> A -> A (Fly) -> Left -> Left -> A.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
