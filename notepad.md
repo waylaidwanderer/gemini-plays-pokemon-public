@@ -43,3 +43,5 @@
 - **Navigation Test:** Attempting 'Left, Left, Up' from New Bark cursor and checking text to map the grid.
 - **Observation:** Verified cursor starts at Cherrygrove City.
 - **Navigation Test:** Attempting 'Left -> Up' from Cherrygrove to find Ecruteak.
+- **Observation:** 'Left, Up' from Cherrygrove landed on Violet City.
+- **Navigation:** Attempting 'Left' from Violet City to reach Ecruteak.
