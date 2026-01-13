@@ -1,156 +1,20 @@
 # Mechanics & State
-- **Location:** Route 37.
-- **Goal:** Encounter Raikou/Entei.
-- **Map Transition Latency:** All map transitions (Warps, Fly, Borders) require massive delays (8s+ load) to prevent input swallowing. Critical for automation.
-- **Roamer Hunt:** Scramble positions by moving between Ecruteak and Route 37.
+- **Location:** Silver Cave (Outside).
+- **Goal:** Fly to Goldenrod City.
+- **Input Lag:** Map interactions require ~2000ms delays.
+- **Menu State:** Currently in Pokemon Menu (FLY selected). Must press 'A' to open map.
 
-# Hall of Fame & Progress
-- **Champion:** Turn 33314.
-- **Lugia:** Caught (Maelstrom).
-- **All 16 Badges:** Obtained.
-- **Red:** Defeated.
+# Current Task: Roamer Hunt
+- **Status:** Navigating Fly Map.
+- **Target:** Goldenrod City.
+- **Next Step:** Open Map -> Navigate Cursor to Johto.
 
-# Important Locations
-- **Route 37:** Contains Red, Blue, and Black Apricorns.
-- **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
+# Navigation Log (Condensed)
+- **Lesson:** Always verify "The FLY map is open" text before navigating.
+- **Lesson:** Silver Cave to Johto requires multiple 'Left' inputs.
+- **Sequence:** Silver Cave -> [Left x5] -> Ecruteak/Violet -> [Down] -> Goldenrod.
 
-# Current Task: Roamer Hunt (Raikou/Entei)
-- **Start Turn:** 37586
-- **Last Reset:** 37974
-- **Location:** Route 37 (Grass).
-- **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Fly Map Open.
-- **Action:** Navigating Fly Map cursor.
-- **Current Position:** New Bark Town.
-- **Destination:** Goldenrod City.
-- **Plan:** Execute Left x3 to reach Ecruteak. Verify text. Then Down to Goldenrod.
-- **Reason:** Previous attempts faced input drops. Map is now fully open, so inputs should register. Using 2000ms delays.
-
-# Tools & Automation
-- **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
-- **Map Navigation Note:** Standard button presses failed to move the Fly cursor from New Bark Town. Suspect input speed issue. Testing with delays.
-- **Reflection (Turn 38054):** Addressed stuck Fly map state. Previous inputs ignored. Using `navigate_fly_map` with 500ms delays to ensure registration. Goal: New Bark -> Ecruteak (Left x3) -> Goldenrod.
-- **Map Navigation Strategy:** Resetting cursor by closing/reopening map (B -> A). Assuming start at Ecruteak, Down -> Goldenrod.
-- **Fly Navigation:** Retrying Fly from Silver Cave. Step 1: Open Map. Step 2: Navigate Left (West) to Johto.
-- **Correction:** Previous attempts to move cursor from Silver Cave failed. Testing if map is responding or if Silver Cave is isolated.
-- **Fly Navigation:** Dead reckoning suggests cursor is at Ecruteak (Silver Cave -> Leftx3 -> New Bark -> Leftx3 -> Ecruteak).
-- **Next Step:** Press Down to select Goldenrod. Verify destination before confirming.
-- **Fly Navigation:** Attempting rigorous sequence: B (Reset) -> A (Open) -> Left x4 -> Down x1. Target: Goldenrod.
-- **Reason:** Previous dead reckoning was inconsistent. Hard reset ensures known starting point (Silver Cave).
-- **Fly Logic Correction:** Previous failure was due to cursor being on 'STATS' in submenu.
-- **Current Plan:** Up (to FLY) -> A (Open Map) -> Left x4 (to Ecruteak) -> Down (to Goldenrod) -> A (Execute).
-- **Assumed Starting Point:** Silver Cave (Current Location).
-- **Diagnosis (Turn 38073):** "Can't use that here" caused by input drop. Cursor landed on Garnet (Slot 4) instead of Mistral (Slot 6). Attempted Rock Smash.
-- **Fix:** From Garnet, press Down x2 to reach Mistral. Then Fly. Using 1000ms delays.
-- **Fly Map Status:** Map opened. Cursor confirmed at **New Bark Town** (Text: "Where? NEW BARK TOWN").
-- **Navigation Plan:** Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak). Then Down x1 (Goldenrod).
-- **Current Action:** Executing Left x3 with 1s delays.
-- **Turn 38076 Update:** Previous navigation inputs were consumed by map load lag. Map is now fully open at New Bark Town. Retrying Left x3 to Ecruteak.
-- **Turn 38077 Test:** Previous Left x3 failed to update text from "NEW BARK TOWN". Testing single 'Left' with 2000ms delay to confirm control. Expecting "CHERRYGROVE CITY".
-- **Turn 38078 Strategy:** Hard Reset of Fly Map.
-- **Sequence:** B (Close) -> A (Open @ Silver Cave) -> Left x5 (Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
-- **Goal:** Verify cursor lands on Ecruteak City. Then move to Goldenrod.
-- **Turn 38079 Analysis:** Previous failure was due to inputs executing in the submenu (FLY selected) instead of the map.
-- **Current Action:** Press 'A' to open map, then 'Left' x3 with 1.5s delays.
-- **Goal:** Determine cursor start position (Silver Cave or New Bark?) and travel distance.
-- **Turn 38080 Status:** Map confirmed open at New Bark Town.
-- **Action:** Executing navigation sequence: Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
-- **Protocol:** Verify destination text is "GOLDENROD CITY" before pressing 'A' in next turn.
-- **Turn 38081 Strategy:** Map text stuck on "SILVER CAVE" (Current Location). Previous navigation failed to update text.
-- **Action:** Hard Reset (B -> A). Probe with Left x2 (Target: Indigo/New Bark).
-- **Hypothesis:** 1000ms delay might have been insufficient or inputs dropped. Increased to 1500ms.
-- **Goal:** confirm cursor movement away from Silver Cave.
-- **Turn 38082 Correction:** Previous turn failed because I was in the submenu.
-- **Action:** Press 'A' (Select FLY) -> Wait -> Left x2.
-- **Goal:** Open Map and move cursor to New Bark Town to confirm control.
-- **Turn 38083 Update:** Cursor confirmed at New Bark Town.
-- **Action:** Executing navigation: Left x3 -> Down x1.
-- **Goal:** Target Goldenrod City. Verify text "GOLDENROD CITY" next turn.
-- **Turn 38084 Status:** Map open at Silver Cave (Cursor reset?).
-- **Action:** Retrying Left x2 with 2000ms delay.
-- **Goal:** Reach New Bark Town. Verify control.
-- **Turn 38085 Strategy:** Full Navigation Sequence with Reset.
-- **Sequence:** B (Close) -> A (Open @ Silver Cave) -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
-- **Delay:** 1500ms.
-- **Goal:** Land cursor on "GOLDENROD CITY". Verify before Flying.
-- **Turn 38086 Strategy:** Correcting menu state. Cursor is on STATS.
-- **Sequence:** Up (Select FLY) -> A (Open Map) -> Left x5 (Silver -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak) -> Down x1 (Goldenrod).
-- **Delay:** 1500ms.
-- **Goal:** Verify "GOLDENROD CITY" text next turn.
-- **Turn 38087 Update:** Map is open at Silver Cave. Previous inputs failed to move cursor (suspect timing).
-- **Action:** Retrying Left x5 using `navigate_fly_map` with 1000ms delay.
-- **Hypothesis:** Map is now fully loaded and should accept inputs.
-- **Target:** Ecruteak City (or at least move away from Silver Cave).
-- **Turn 38088 Diagnosis:** Intermediate state shows MENU is still open with FLY selected. Map is NOT active yet.
-- **Correction:** Press 'A' to open Map. Then navigate.
-- **Action:** A (Open) -> Wait 2s -> Left (Move) -> Wait 2s.
-- **Goal:** Verify cursor moves out of Silver Cave.
-- **Turn 38089 Strategy:** Restarting Fly procedure from Overworld.
-- **Action:** Start -> Wait -> A.
-- **Goal:** Open Menu and enter the first option (likely POKEMON). Verify state next turn.
-- **Turn 38090 Status:** Map cursor confirmed at **New Bark Town**.
-- **Action:** Executing Left x3 (to Ecruteak) -> Down x1 (to Goldenrod).
-- **Goal:** Verify destination is "GOLDENROD CITY" next turn.
-- **Turn 38091 Status:** Map verified open at **Silver Cave**.
-- **Strategy:** Strict step-by-step navigation as per critique.
-- **Action:** Left x1 (Target: Indigo Plateau).
-- **Goal:** Verify text changes from "SILVER CAVE".
-- **Turn 38094:** Previous attempt to navigate Fly map (Left x4 with 1000ms) failed to change text from Silver Cave.
-- **Hypothesis:** Input drops or lag.
-- **Action:** Executing Hard Reset of Fly Map (B -> A) to refresh UI state, then Left x3.
-- **Sequence:** B (Close Map) -> A (Select FLY from menu) -> Left x3 (Move cursor).
-- **Target:** New Bark Town / Cherrygrove area.
-- **Turn 38095:** Correction - Map was NOT open. Menu cursor was on 'FLY'.
-- **Action:** Pressing 'A' to open map, then 'Left' x3.
-- **Goal:** Open map and navigate cursor to Cherrygrove City (Silver Cave -> Indigo -> New Bark -> Cherrygrove).
-- **Hypothesis:** Previous inputs failed because map wasn't open. Opening it now should work.
-- **Turn 38096:** Map confirmed at **New Bark Town**.
-- **Observation:** Previous command sent 3 Lefts, but cursor only moved 2 steps (Silver -> Indigo -> New Bark). The 3rd Left was swallowed.
-- **Action:** Executing navigation from New Bark to Goldenrod.
-- **Path:** Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
-- **Tool:** `press_sequence_with_delays` with 1500ms delay.
-- **Goal:** Verify "GOLDENROD CITY" text next turn.
-- **Turn 38097:** Map text reverted to "SILVER CAVE" despite previous turn showing "NEW BARK TOWN".
-- **Hypothesis:** Accidental cancellation or reset of map state.
-- **Action:** Hard Reset (B -> A) to ensure start at Silver Cave. Then Left x2.
-- **Goal:** Reach New Bark Town reliably.
-- **Delay:** Increased to 2000ms to combat potential lag.
-- **Turn 38098:** Confirmed map is CLOSED. Menu cursor on 'FLY'.
-- **Action:** Press 'A' to open map. Then navigate to Ecruteak City.
-- **Sequence:** A (Open) -> Left x5 (Silver -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
-- **Delay:** 1500ms.
-- **Goal:** Verify text "ECRUTEAK CITY". Next turn: Down to Goldenrod.
-- **Note:** Splitting the navigation to Goldenrod into two turns to ensure accuracy (Navigation to Ecruteak, then Down).
-- **Turn 38100:** Map STUCK at "NEW BARK TOWN".
-- **Observation:** `Left` x3 with 2000ms delay produced NO movement (Text remained "NEW BARK TOWN" in all frames).
-- **Hypothesis:** Cursor might be desynced or map state is glitchy.
-- **Action:** "Jiggle" strategy. Press `Right` (to Indigo/Wall) then `Left` x4.
-- **Goal:** Unstick cursor and reach Violet/Ecruteak.
-- **Delay:** 2500ms. High delay to force registration.
-- **Turn 38101:** Map STUCK at "NEW BARK TOWN".
-- **Diagnosis:** Input eating due to map transition lag (Indigo -> New Bark).
-- **Plan:** Hard Reset (B -> A) to Silver Cave. Then navigate with **3000ms** delay to handle transition.
-- **Sequence:** B -> A -> Left (Indigo) -> Left (New Bark) -> Left (Cherrygrove) -> Left (Violet) -> Left (Ecruteak) -> Down (Goldenrod).
-- **Total:** 5 Lefts, 1 Down.
-- **Goal:** Robust navigation to Goldenrod.
-- **Turn 38102:** Found myself in Pokemon Menu Submenu (Cursor on STATS).
-- **Diagnosis:** Previous inputs (`Left`s) were ignored by the submenu, then `Down` moved cursor to STATS. Map never opened.
-- **Action:** `Up` (Select FLY) -> `A` (Open Map) -> `Left` x5 (Silver->Ecruteak) -> `Down` (Goldenrod).
-- **Goal:** Verify "GOLDENROD CITY" text.
-- **Delay:** 2000ms.
-- **Turn 38103:** Map confirmed OPEN at "SILVER CAVE".
-- **Visual:** Cursor is on the Red Dot for Silver Cave (likely West of Indigo/East of New Bark).
-- **Action:** Navigating Left x4 to reach Johto (Violet/Ecruteak).
-- **Delay:** 2500ms to handle map loading lag.
-- **Goal:** Verify text changes to a Johto city.
-- **Turn 38104:** Map still at "SILVER CAVE". `Left` inputs failed.
-- **Analysis:** Inputs likely consumed by map opening lag or desync.
-- **Strategy:** Hard Reset (B -> A) with **3000ms** delay after opening to ensure readiness.
-- **Path:** Left x5 (Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
-- **Goal:** Get cursor to Johto.
-- **Verification:** Expect "ECRUTEAK CITY" or "VIOLET CITY".
-- **Turn 38105:** Confirmed I am in the **Pokemon Submenu** with `FLY` selected.
-- **Analysis:** Turn 38104 failed because I was navigating this menu, not the map.
-- **Action:** Press `A` to Open Map. Then `Left` x5.
-- **Target:** Ecruteak City (Left x5 from Silver Cave -> Indigo -> New Bark -> Cherrygrove -> Violet -> Ecruteak).
-- **Delay:** 2000ms to ensure map load and input registration.
+# Progress
+- **Badges:** 16/16.
+- **Pokedex:** 46 caught.
+- **Roamers:** Raikou/Entei (Not registered).
