@@ -63,3 +63,6 @@
 - **Action:** Hard Reset (B -> A). Probe with Left x2 (Target: Indigo/New Bark).
 - **Hypothesis:** 1000ms delay might have been insufficient or inputs dropped. Increased to 1500ms.
 - **Goal:** confirm cursor movement away from Silver Cave.
+- **Turn 38082 Correction:** Previous turn failed because I was in the submenu.
+- **Action:** Press 'A' (Select FLY) -> Wait -> Left x2.
+- **Goal:** Open Map and move cursor to New Bark Town to confirm control.
