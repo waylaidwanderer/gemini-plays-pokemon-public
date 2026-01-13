@@ -26,8 +26,8 @@
 # Tracking: Session 4
 - Start: Turn 45281.
 - Completed Cycles: 31.
-- Repel 2: Active (Applied Turn 45627). (~159 steps used).
-- Current Status: Starting Cycle 32. Transitioning to Route 37.
+- Repel 2: Active (Applied Turn 45627). (~160 steps used).
+- Current Status: Starting Cycle 32. Moving to grass at (7, 2).
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
