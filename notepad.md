@@ -8,7 +8,7 @@
 - Session 4 Start: Turn 45281.
 - Method: Ecruteak Shuffle (Route 37 South Gate).
 - Current Status: Traveling to Ecruteak.
-- Repel: Active (11 steps taken).
+- Repel: Active (6 steps taken).
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
