@@ -1,31 +1,38 @@
 # Legendary Roamer Hunt
 - **Strategy**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City to force roamer movement, then pace in grass.
 - **Repel Trick**: Lead ICARUS (Lv 19 Pidgeotto). Wild levels on Route 37/38 are 13-16. Roamers are Lv 40.
-- **Repel Status**: Applied Turn 44681 (200 steps).
-  - Steps taken: 60
-  - Steps remaining: 140
-- **Roamer Sightings**: None yet.
-- **Catching Strategy**: Use Master Ball immediately on first roamer encounter.
+- **Repel Step Tracking**: Applied Turn 44681.
+  - Turn 44682: +20 steps (20 total)
+  - Turn 44683: +3 steps (23 total)
+  - Turn 44684: +20 steps (43 total)
+  - Turn 44685: +3 steps (46 total)
+  - Turn 44686: +20 steps (66 total)
+  - Steps remaining: 134
 - **Roamer Tracking**:
   - Route 37: Active hunting area.
   - Route 38: Secondary hunting area.
-  - Agent Advice (legendary_tracker): Target Raikou/Entei. Master Ball is mandatory for Raikou (Roar). Entei can be put to sleep but will flee on Turn 1 or if it wakes. XENON (Haunter) is slower than roamers (Speed ~95 vs ~120+). Use Pokedex "Area" after first sighting to track.
+- **Agent Advice (legendary_tracker)**:
+  - Target: Raikou or Entei.
+  - Route recommendation: Route 37 or 38 (near Ecruteak City).
+  - Ball recommendation: Master Ball (Roamers flee on Turn 1 or use Roar).
+  - Lead Pokemon: Any Pokemon between Level 17 and Level 39.
+  - Tracking: Use Pokedex "Area" function after the first encounter to intercept.
+- **Catching Strategy**: Use Master Ball immediately on the first roamer encounter.
 
 # Tile Mechanics
-- FLOOR: Traversable. Standard ground.
-- WALL: Impassable. Collision block.
-- DOOR: Warp tile. Leads to a building or interior.
+- FLOOR: Traversable.
+- WALL: Impassable.
+- DOOR: Warp tile.
 - TALL_GRASS (Grass): Traversable. Triggers wild Pokémon encounters.
 - WATER: Requires HM SURF to traverse.
-- LEDGE: One-way jump. Traversable only from the jumping side.
-- HEADBUTT_TREE: Impassable. Can be interacted with using Headbutt.
-- WARP_CARPET: Warp tile at map boundaries/edges.
-- LEDGE_HOP_DOWN: One-way ledge. Jump Down only.
-- LEDGE_HOP_RIGHT: One-way ledge. Jump Right only.
-- LEDGE_HOP_LEFT: One-way ledge. Jump Left only.
-- COUNTER: Impassable. Used to interact with NPCs behind them. Stand adjacent and face the counter to talk.
-- STAIRCASE: Warp tile. Leads to a different floor or area.
-- ESCALATOR: Warp tile. Automatically moves player between floors.
+- LEDGE: One-way jump.
+- HEADBUTT_TREE: Impassable.
+- WARP_CARPET: Warp tile at map boundaries.
+- LEDGE_HOP_DOWN: One-way ledge (Down).
+- LEDGE_HOP_RIGHT: One-way ledge (Right).
+- LEDGE_HOP_LEFT: One-way ledge (Left).
+- COUNTER: Impassable. Interact with NPCs behind them.
+- STAIRCASE/ESCALATOR: Warp tile.
 
 # Type Effectiveness Chart (Verified)
 - Fire -> Grass: Super effective.
@@ -47,11 +54,10 @@
   4. GNEISS (Lv55 Graveler): EARTHQUAKE, DEFENSE CURL, STRENGTH, ROLLOUT.
   5. GORP (Lv50 Snorlax): SURF, REST, BODY SLAM, ROLLOUT.
   6. XENON (Lv44 Haunter): HYPNOSIS, CONFUSE RAY, NIGHT SHADE, DREAM EATER.
-- PC Storage: Box 1 (10/20):
-  - LARVITAR (Lv20), SCYTHER (Lv14), SEEL (Lv24), MANTINE (Lv20), KRABBY (Lv22), TENTACOOL (Lv17), KRABBY (Lv10), DRATINI (Lv15), SPINARAK (Lv13), POLIWAG (Lv12).
+- PC Storage: Box 1 (10/20): LARVITAR (Lv20), SCYTHER (Lv14), SEEL (Lv24), MANTINE (Lv20), KRABBY (Lv22), TENTACOOL (Lv17), KRABBY (Lv10), DRATINI (Lv15), SPINARAK (Lv13), POLIWAG (Lv12).
 
 # Lessons Learned
-- **Menu Navigation**: Cursor memory is persistent. Deep navigation (e.g., PACK) should be split into chunks < 50 buttons (including sleeps).
+- **Menu Navigation**: Cursor memory is persistent. Split deep navigation into chunks < 50 buttons.
 - **Fly**: Only works outdoors.
-- **Suicune (Crystal)**: Not a roamer. Found at Tin Tower (Clear Bell + Wise Trio).
+- **Suicune (Crystal)**: Static encounter at Tin Tower. Not a roamer.
 - **Repel Trick**: Use a lead with level between local wild and target legendary.
