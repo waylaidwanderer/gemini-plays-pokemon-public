@@ -51,8 +51,13 @@
 - Path: (11, 21) -> (9, 21) -> (9, 29) -> (12, 29) -> (12, 44) -> (4, 44) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
 - Initiating first leg: navigate to (9, 29).
 - Turn 46389: Navigation south at X=17 blocked by building at Y=36. Row 50 ledge (X=12-19) blocks south entry. Gap found at X=20.
-- Revised Path: (17, 35) -> (20, 35) -> (20, 51) -> (4, 51) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
-- Initiating leg to (4, 51).
+- Turn 46395: Verified Row 50 FLOOR_UP_WALL (X=12-19) and WALLs at X=11 and X=20 completely block land access to the south/west. 
+- New Plan (Surfing): 
+    1. Walk to east shore (27, 45).
+    2. Surf north at X=28.
+    3. Land at (16, 12) or nearby northern shore.
+    4. Walk to Suicune sighting at (7, 4).
+- Initiating Leg 1: navigate to (27, 45).
 
 # Reflection Turn 46390
 1. Immediate Execution: No deferred tasks.
