@@ -8,16 +8,16 @@
 # Legendary Roamer Hunt Strategy
 - **Overview**: Manual Shuffle (Transition map, pace 10 steps in grass, repeat).
 - **Session 2 Summary**: Route 37 (Turns 44880-44975). 25 transitions, 0 encounters.
-- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City).
+- **Session 3 (Current)**: Route 31 (Shuffle R31 <-> Violet City). Arriving in Violet City Turn 44978.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R31 (Wild Lv 12-15) to filter for Roamers (Lv 40) using Repel Trick.
-- **Repel Status**: Active (Turn 44936). ~50 steps remaining. (Inventory: 71 Super Repels).
+- **Repel Status**: Active (Turn 44936). ~40 steps remaining. (Inventory: 71 Super Repels).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters.
 - **Session 2 (Turns 44880-44975)**: 25 transitions, 0 encounters.
-- **Session 3 (Starting Now)**: Repositioning to Route 31 via Violet City.
+- **Session 3 (Starting Now)**: Pacing on Route 31. Transition 1 in progress.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
