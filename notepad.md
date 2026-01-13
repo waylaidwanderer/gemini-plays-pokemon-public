@@ -60,3 +60,12 @@
 - Roamers cannot be tracked on the Pokegear Map until the first encounter occurs.
 - After every 50-100 steps without an encounter, transition maps (Ecruteak Shuffle) to redistribute roamers.
 - Current Method: Ecruteak Shuffle (Route 37 <-> Ecruteak City).
+
+# Menu Navigation Failures
+- Turns 44528-44550: Multiple failed attempts to apply Super Repel due to menu cursor memory.
+- Solution: Use "reset" sequences (multiple 'Up' or 'Down' presses) to ensure consistent starting points.
+
+# Technical/Tool Development
+- Custom Tools: Access script arguments via 'input_data' dictionary.
+- Menu Navigator Strategy: Prepend 7 'Up' presses to main menu navigation to guarantee starting at 'POKEDEX'.
+- Pack Navigator Strategy: Prepend 10 'Down' presses to reach 'CANCEL', then 'Up' once to reach the bottom-most item (often Super Repel).
