@@ -1,7 +1,7 @@
 # Mechanics & State
-- **Location:** Leaving Violet City (West Exit).
-- **Goal:** Walk West to Route 36 -> North/West to Ecruteak.
-- **Roamer Status:** Unknown.
+- **Location:** Route 36 (East Side).
+- **Status:** Interrupted by Gaven's Phone Call.
+- **Goal:** Clear text -> Walk West to Route 37 Junction -> North to Ecruteak.
 - **Fly Lesson:** Map inputs need massive delays.
 
 # Hall of Fame & Progress
