@@ -13,7 +13,7 @@
 - **Current Progress**: 9 loops completed. 0 encounters.
 - **Lead**: ICARUS (Lv 19 Pidgeotto).
 - **Repel Trick**: Lv 19 lead on Route 31 (Wild Lv 12-15) filters for Roamers (Lv 40).
-- **Status**: Repel Active (Turn 45080). 17 steps left. (Inventory: 68 Super Repels).
+- **Status**: Repel Active (Used Turn 45080). ~168 steps left. (Inventory: 68 Super Repels).
 - **Roamer Status**: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Pokemon Info
