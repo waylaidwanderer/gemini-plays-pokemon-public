@@ -32,3 +32,4 @@
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
 - **Map Navigation Note:** Standard button presses failed to move the Fly cursor from New Bark Town. Suspect input speed issue. Testing with delays.
 - **Reflection (Turn 38054):** Addressed stuck Fly map state. Previous inputs ignored. Using `navigate_fly_map` with 500ms delays to ensure registration. Goal: New Bark -> Ecruteak (Left x3) -> Goldenrod.
+- **Map Navigation Strategy:** Resetting cursor by closing/reopening map (B -> A). Assuming start at Ecruteak, Down -> Goldenrod.
