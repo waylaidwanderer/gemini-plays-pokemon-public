@@ -45,3 +45,6 @@
 - **Assumed Starting Point:** Silver Cave (Current Location).
 - **Diagnosis (Turn 38073):** "Can't use that here" caused by input drop. Cursor landed on Garnet (Slot 4) instead of Mistral (Slot 6). Attempted Rock Smash.
 - **Fix:** From Garnet, press Down x2 to reach Mistral. Then Fly. Using 1000ms delays.
+- **Fly Map Status:** Map opened. Cursor confirmed at **New Bark Town** (Text: "Where? NEW BARK TOWN").
+- **Navigation Plan:** Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak). Then Down x1 (Goldenrod).
+- **Current Action:** Executing Left x3 with 1s delays.
