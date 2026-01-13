@@ -16,7 +16,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 5 transitions completed. 0 encounters. Transition 6: Arrived on Route 31 (Turn 45021). Heading to grass.
+- **Session 3 (Route 31)**: 5 transitions completed. 0 encounters. Transition 6: Pacing in grass (Turn 45022).
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
