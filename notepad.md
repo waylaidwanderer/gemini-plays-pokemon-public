@@ -16,7 +16,7 @@
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 
 # Progress Log
-- **Session 3 (Route 31)**: 7 transitions completed. 0 encounters. Transition 8: Moving through gatehouse to Route 31 (Turn 45029).
+- **Session 3 (Route 31)**: 7 transitions completed. 0 encounters. Transition 8 in progress (Turn 45031). Phone call from Tully interrupted.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
