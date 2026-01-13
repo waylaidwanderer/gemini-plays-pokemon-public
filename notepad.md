@@ -33,3 +33,4 @@
 - **Observation:** Roamers confirmed on Route 42 and 44 (East). Shuffling again.
 - **Event:** Received phone call from Cooltrainer Gaven (Turn 36326).
 - **Resupply Plan:** Flying to Goldenrod Dept Store to buy ~30 Super Repels. Funds: ¥2644.
+- **Bug Report:** Fly Map cursor stuck on Silver Cave (Turn 36476). Cannot Fly to Goldenrod. Walking instead.
