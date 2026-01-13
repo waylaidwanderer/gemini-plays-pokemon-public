@@ -35,8 +35,9 @@
 7. Violet City
 8. Azalea Town
 9. Goldenrod City
-10. Olivine City
-11. Cianwood City
+10. Ecruteak City
+11. Olivine City
+12. Cianwood City
 
 # Quest Log
 - Dana's Gift: Route 38.
