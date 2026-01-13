@@ -8,6 +8,7 @@
 - WARP_CARPET: Traversable. Map transition. Verified: Yes.
 - LEDGE_HOP_DOWN: One-way (Down). Verified: Yes.
 - DOOR: Warp tile. Verified: Yes.
+- BUOY: Impassable water boundary. Verified: Yes.
 
 # Menu Mechanics
 - Start Menu Order: 1.POKEDEX, 2.POKEMON, 3.PACK, 4.POKEGEAR, 5.GEM, 6.SAVE, 7.OPTION, 8.EXIT.
@@ -26,22 +27,16 @@
 - Current Shuffle: 24 (In Progress).
 - Total Encounters: 0.
 - Repel Status: Applied Turn 45439. Steps Taken: 0/200.
-- Fly Attempt History: Turn 45439-45499 (60 turns fumbling). Resetting loop.
-- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map). From Cherrygrove to Ecruteak = Up, Up, A.
+- Fly Attempt History: Turn 45439-45501 (62 turns fumbling). 
+- Fly Loop Resolution: Opening Fly map and stopping to verify grid (Turn 45502).
+- Verified Fly Logic: Start -> Pokemon -> Icarus -> Fly -> (Map).
 - Current Position: Cherrygrove City (29, 4). Target: Ecruteak City (17, 35).
 
 # Fly Map Grid (Johto)
 - New Bark Town: Base (East)
 - Cherrygrove City: 1x Left from New Bark.
 - Violet City: 1x Up from Cherrygrove.
-- Ecruteak City: 1x Up from Violet.
-- Goldenrod City: 1x Left from Violet.
-- Azalea Town: 1x Down from Goldenrod.
-- Olivine City: 1x Left from Goldenrod.
-- Cianwood City: 1x Left from Olivine.
-- Mahogany Town: 1x Right from Ecruteak.
-- Blackthorn City: 1x Right from Mahogany.
-- Indigo Plateau: 1x Up from Mahogany.
+- Ecruteak City: 1x Up, 1x Left from Violet? (To be verified)
 
 # Dana's Gift
 - NPC: Lass Dana.
@@ -49,12 +44,7 @@
 - Status: Gift waiting (Turn 45331 call).
 
 # Lessons Learned
-- Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists, but the menu must be active.
-- Roamer Hunting: Efficiency comes from map transitions, not grass pacing. The map icon is the fastest check (post-encounter). Pre-encounter, 4 steps in grass is optimal.
+- Menu Navigation: Always verify the Start menu is open before using `menu_navigator_v2`. The cursor persists.
+- Roamer Hunting: Efficiency comes from map transitions, not grass pacing.
 - Repel Steps: Verify overworld movement for step count. Menu loops do not count.
-
-# Yanma Swarm
-- Route 35.
-- Status: Active (Turn 45457 call).
-- Note: Yanma is already registered in Pokedex. Roamer hunt remains priority.
-- BUOY: Impassable water boundary. Verified: Yes.
+- Fly Grid: Cherrygrove -> Up -> Violet. Up from Violet is blocked or same. Ecruteak is likely West of the Violet column.
