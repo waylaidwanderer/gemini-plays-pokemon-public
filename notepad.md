@@ -16,21 +16,22 @@
 - Requirements: Clear Bell (Owned), 16 Badges (Owned).
 - Plan:
     1. Find Suicune Sightings - IN PROGRESS.
-       - Cianwood City: Walk to northern ledge past Pharmacy (7, 4).
+       - Cianwood City: Northern ledge past Pharmacy (7, 4). (NOT DONE).
        - Route 42: Middle island with Apricorn trees (requires Surf).
        - Route 36: Near Sudowoodo's old spot (36, 9).
     2. Defeat Wise Trio (Ecruteak 4_1) - Triggered by completing sightings.
     3. Battle Suicune (Tin Tower 1F).
 
-# Strategy: Suicune Capture (Verified via Analyst)
+# Strategy: Suicune Capture (Tactical Update)
 - Lead: XENON (Haunter, Lv 44). Land Hypnosis immediately.
-- Chipping: Use Night Shade exactly THREE times (132 fixed damage). A Level 40 Suicune has ~143 HP, leaving it with ~11 HP (Red).
+- Chipping: Use Night Shade TWICE (88 fixed damage). A Level 40 Suicune (HP ~130-145) will be in yellow/red health. Check bar before using a third hit.
 - Status: Maintain Sleep. If Sleep fails, use KIMCHI's Sleep Powder (75% accuracy).
 - Capture: Ultra Balls while asleep.
 - Items: Ultra Balls (32), Full Restore.
 
 # Observations: Wise Trio & Suicune
-- Missing Prerequisites: Suicune sightings in Cianwood, Route 42, and Route 36 are required to trigger the Trio battle and Suicune encounter.
+- Building 4_1: Sage KOJI loops dialogue. NPC at (3, 10) confirmed as Gramps (ID 4), not Sage Masa.
+- Prerequisite: All Johto Suicune sightings must be completed to trigger the final event.
 
 # Pokemon Movesets
 - XENON (Haunter): Hypnosis, Confuse Ray, Night Shade, Dream Eater.
