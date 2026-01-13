@@ -12,10 +12,9 @@
 - Current Objective: Cianwood City sighting at (7, 4).
 - Start Turn: 46373.
 - Strategy (The "How") [Manual Waypoints]:
-    1. Surf (12,27) -> (12,26) -> (23,26) [Clear Row].
-    2. Surf (23,26) -> (23,8) [Clear Column].
-    3. Surf (23,8) -> (17,8) -> (17,10) -> (16,10) [Landing].
-    4. Walk (16,10) -> (7,10) -> (7,4) [Sighting].
+    1. Surf: (12,27) -> (12,26) -> (15,26) -> (15,24) -> (17,24) -> (17,26) -> (23,26).
+    2. Surf: (23,26) -> (23,10) -> (27,10) -> (27,8) -> (19,8) -> (19,10) -> (15,10) [Land].
+    3. Walk: (15,10) -> (7,10) -> (7,4) [Sighting].
 
 # Legendary Battle Strategy: Suicune
 - Lead: XENON (Haunter, Lv 44).
