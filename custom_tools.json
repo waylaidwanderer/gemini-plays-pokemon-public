@@ -188,22 +188,31 @@
     ]
   },
   "cycle_roamer_hunt_route35": {
-    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map (assumes open). 2. Enters and exits the Gatehouse to shuffle. 3. Re-opens the Map to check positions. Assumes player starts at (10, 31) or (10, 32).",
+    "description": "Executes a full roamer shuffle cycle on Route 35. 1. Closes the Map (assumes open). 2. Enters and exits the Gatehouse to shuffle (now uses 4 steps to ensure warp). 3. Re-opens the Map to check positions. Assumes player starts at (10, 31) or (9, 31).",
     "input_schema": {
       "type": "object",
       "properties": {
         "autopress_buttons": {
           "type": "boolean",
-          "default": true
+          "description": "If true and the tool returns a list of buttons, they will be pressed automatically. Safety limit of 50 buttons per turn.",
+          "default": false
         }
-      }
+      },
+      "required": [
+        "autopress_buttons"
+      ]
     },
-    "python_script": "print(json.dumps([\"B\", \"sleep 500\", \"B\", \"sleep 500\", \"Down\", \"Down\", \"sleep 4000\", \"Up\", \"Up\", \"sleep 4000\", \"Start\", \"sleep 500\", \"A\", \"sleep 1000\", \"Left\", \"Left\", \"Right\", \"A\"]))",
+    "python_script": "import json\nprint(json.dumps([\n    \"B\", \"sleep 500\", \"B\", \"sleep 500\",\n    \"Down\", \"Down\", \"Down\", \"Down\", \"sleep 4000\",\n    \"Up\", \"Up\", \"Up\", \"Up\", \"sleep 4000\",\n    \"Start\", \"sleep 500\", \"A\", \"sleep 1000\",\n    \"Left\", \"Left\", \"Right\", \"A\"\n]))",
     "history": [
       {
         "commit_message": "Initial version",
         "timestamp": "2026-01-13T02:26:30.776Z",
         "action_counter": 36631
+      },
+      {
+        "commit_message": "Increased movement steps from 2 to 4 to ensure warp trigger at gatehouse.",
+        "timestamp": "2026-01-13T03:05:45.771Z",
+        "action_counter": 36669
       }
     ]
   }
