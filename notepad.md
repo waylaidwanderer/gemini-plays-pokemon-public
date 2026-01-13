@@ -19,12 +19,14 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Resuming Blind Scan.
-- **Correction:** Cannot track Roamers on Map until seen once. Map check was futile.
+- **Status:** Supply Run to Ecruteak.
+- **Reason:** Repels exhausted. Money low (¥294).
+- **Plan:**
+  1. Go to Ecruteak Mart.
+  2. Sell ~5-10 Ultra Balls.
+  3. Buy 20+ Super Repels.
+  4. Return to Route 37 to resume hunt.
 - **Strategy:** Blind Repel Shuffle (Route 37 <-> Ecruteak).
-  - Gyarados (Lv 36) + Repel blocks wilds.
-  - Scan until Repel runs out (~60 steps left).
-  - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels when empty.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
