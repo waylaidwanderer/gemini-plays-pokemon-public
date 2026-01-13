@@ -40,3 +40,7 @@
 
 # Game Mechanics
 - **Fly Map:** Cursor remembers last destination. Always verify starting position.
+- **Observation:** 'Right' from Olivine City appeared to be invalid (cursor didn't move).
+- **Strategy:** Testing 'Down' from Olivine.
+  - If it returns to Goldenrod, will test 'Right' from Goldenrod.
+  - If it goes to Cianwood, will verify grid.
