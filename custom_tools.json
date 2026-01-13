@@ -97,110 +97,6 @@
       }
     ]
   },
-  "find_reachable_unseen_tiles": {
-    "description": "Identifies all unseen tiles on the current map that are adjacent to reachable walkable tiles, avoiding known warps unless they are the target. If autopress_buttons is true, returns a path to the nearest one.",
-    "input_schema": {
-      "properties": {
-        "current_x": {
-          "type": "integer"
-        },
-        "current_y": {
-          "type": "integer"
-        },
-        "is_surfing": {
-          "type": "boolean"
-        }
-      },
-      "required": [
-        "current_x",
-        "current_y"
-      ],
-      "type": "object"
-    },
-    "python_script": "import xml.etree.ElementTree as ET\nimport json\nimport heapq\n\ndef solve():\n    try:\n        root = ET.fromstring(map_xml_string)\n        tiles = {}\n        objects = set()\n        warps = set()\n        for row in root.findall('Row'):\n            y = int(row.attrib['id'])\n            for tile in row.findall('Tile'):\n                x = int(tile.attrib['id'])\n                t_type = tile.attrib['type'].upper()\n                seen = tile.attrib['seen'] == 'true'\n                tiles[(x, y)] = (t_type, seen)\n                if tile.find('Object') is not None:\n                    objects.add((x, y))\n                if tile.attrib.get('is-warp') == 'true':\n                    warps.add((x, y))\n\n        start = (int(input_data['current_x']), int(input_data['current_y']))\n        is_surfing = bool(input_data.get('is_surfing', False))\n        \n        def get_neighbors(pos):\n            x, y = pos\n            res = []\n            for dx, dy, move in [(0, 1, 'Down'), (0, -1, 'Up'), (1, 0, 'Right'), (-1, 0, 'Left')]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) not in tiles: continue\n                ntype, nseen = tiles[(nx, ny)]\n                ctype, cseen = tiles[pos]\n                \n                if ntype in ['WALL', 'VOID']: continue\n                if (nx, ny) in objects: continue\n                if (nx, ny) in warps: continue\n                \n                # Water collision\n                if ntype == 'WATER' and not is_surfing: continue\n                \n                # Ledges\n                if ntype == 'LEDGE_HOP_DOWN' and move != 'Down': continue\n                if ctype == 'LEDGE_HOP_DOWN' and move != 'Down': continue\n                if ntype == 'LEDGE_HOP_RIGHT' and move != 'Right': continue\n                if ctype == 'LEDGE_HOP_RIGHT' and move != 'Right': continue\n                \n                # Directional walls\n                if ctype == 'FLOOR_UP_WALL' and move == 'Up': continue\n                if ntype == 'FLOOR_UP_WALL' and move == 'Down': continue\n                \n                res.append(((nx, ny), move))\n            return res\n\n        queue = [(0, start, [])]\n        visited = {start}\n        while queue:\n            dist, curr, path = heapq.heappop(queue)\n            \n            x, y = curr\n            for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:\n                nx, ny = x + dx, y + dy\n                if (nx, ny) in tiles and not tiles[(nx, ny)][1]:\n                    ntype, _ = tiles[(nx, ny)]\n                    if ntype in ['WALL', 'VOID']: continue\n                    if ntype == 'WATER' and not is_surfing: continue\n                    \n                    print(json.dumps(path[:50]))\n                    return\n            \n            for next_pos, move in get_neighbors(curr):\n                if next_pos not in visited:\n                    visited.add(next_pos)\n                    heapq.heappush(queue, (dist + 1, next_pos, path + [move]))\n        print(json.dumps([]))\n    except Exception as e:\n        print(json.dumps([\"Error: \" + str(e)]))\n\nsolve()",
-    "history": [
-      {
-        "commit_message": "Initial version",
-        "timestamp": "2026-01-11T18:35:24.812Z",
-        "action_counter": 41414
-      },
-      {
-        "commit_message": "Refined logic to correctly identify unseen tiles adjacent to reachable walkable tiles. Removed 'unseen' from walkable types to ensure search only passes through confirmed traversable areas.",
-        "timestamp": "2026-01-11T22:25:41.646Z",
-        "action_counter": 41821
-      },
-      {
-        "commit_message": "Fix find_reachable_unseen_tiles to return button strings when autopress_buttons is true.",
-        "timestamp": "2026-01-12T01:57:28.881Z",
-        "action_counter": 42305
-      },
-      {
-        "commit_message": "Initial implementation of find_reachable_unseen_tiles. Fixed collision check to include BOOKSHELF.",
-        "timestamp": "2026-01-12T04:26:41.177Z",
-        "action_counter": 42572
-      },
-      {
-        "commit_message": "Refined collision logic to include PC and WINDOW. Ensured exploration tool accounts for indoor obstacles.",
-        "timestamp": "2026-01-12T04:49:49.116Z",
-        "action_counter": 42622
-      },
-      {
-        "commit_message": "Initial implementation of reachable unseen tiles finder.",
-        "timestamp": "2026-01-12T06:33:54.023Z",
-        "action_counter": 42797
-      },
-      {
-        "commit_message": "Initial implementation with basic collision check and reachability analysis.",
-        "timestamp": "2026-01-12T10:23:29.129Z",
-        "action_counter": 43173
-      },
-      {
-        "commit_message": "Refined to return a path of buttons to the nearest unseen tile when called with autopress_buttons.",
-        "timestamp": "2026-01-12T10:27:10.775Z",
-        "action_counter": 43180
-      },
-      {
-        "commit_message": "Refined collision logic to handle ledges (Down, Left, Right) and one-way walls (FLOOR_UP_WALL, WALL_UP_FLOOR). Removed WATER from default walkable list.",
-        "timestamp": "2026-01-12T10:56:58.943Z",
-        "action_counter": 43237
-      },
-      {
-        "commit_message": "Adding wall and ledge collision logic to find_reachable_unseen_tiles.",
-        "timestamp": "2026-01-12T14:00:58.389Z",
-        "action_counter": 43503
-      },
-      {
-        "commit_message": "Refining collision logic for all wall types and ledges in the exploration tool.",
-        "timestamp": "2026-01-12T14:16:45.409Z",
-        "action_counter": 43531
-      },
-      {
-        "commit_message": "Explicitly add autopress_buttons to schema to ensure it's passed to input_data.",
-        "timestamp": "2026-01-12T14:30:40.926Z",
-        "action_counter": 43547
-      },
-      {
-        "commit_message": "Incorporate directional collision logic (FLOOR_UP_WALL, etc.) and ledge jumping into find_reachable_unseen_tiles.",
-        "timestamp": "2026-01-12T14:47:36.458Z",
-        "action_counter": 43574
-      },
-      {
-        "commit_message": "Update find_reachable_unseen_tiles to avoid known warps and handle FLOOR_UP_WALL collision correctly.",
-        "timestamp": "2026-01-12T21:53:27.929Z",
-        "action_counter": 44110
-      },
-      {
-        "commit_message": "Fix SyntaxError in find_reachable_unseen_tiles and refine collision logic.",
-        "timestamp": "2026-01-12T21:54:04.193Z",
-        "action_counter": 44112
-      },
-      {
-        "commit_message": "Update find_reachable_unseen_tiles to handle water collision and accept is_surfing parameter. Fix case sensitivity for tile types.",
-        "timestamp": "2026-01-12T22:00:48.902Z",
-        "action_counter": 44121
-      }
-    ]
-  },
   "menu_navigator_v2": {
     "description": "Executes a sequence of button presses to navigate menus. Returns a JSON array of buttons. Use this to bypass the restriction on mixing directional and action inputs. Automatically handles autopress_buttons.",
     "input_schema": {
@@ -304,6 +200,34 @@
         "commit_message": "Initial version",
         "timestamp": "2026-01-12T23:20:44.792Z",
         "action_counter": 44251
+      }
+    ]
+  },
+  "shopping_helper": {
+    "description": "Navigates the shop menu to buy a specified quantity of an item. Assumes the 'BUY' menu is open and the first item is selected.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "item_index": {
+          "type": "integer",
+          "description": "0-indexed position of the item in the list."
+        },
+        "quantity": {
+          "type": "integer",
+          "description": "Number of items to buy (1-99)."
+        }
+      },
+      "required": [
+        "item_index",
+        "quantity"
+      ]
+    },
+    "python_script": "import json\nimport sys\n\ndef main():\n    try:\n        input_data = json.loads(sys.argv[1])\n        item_index = int(input_data.get('item_index', 0))\n        quantity = int(input_data.get('quantity', 1))\n        \n        buttons = []\n        \n        # Navigate to item\n        for _ in range(item_index):\n            buttons.append(\"Down\")\n            buttons.append(\"sleep 200\")\n        \n        buttons.append(\"A\") # Select item\n        buttons.append(\"sleep 500\")\n        \n        # Input quantity (starts at 1)\n        # In GSC, 'Up' increases by 1, 'Down' decreases by 1.\n        # 'Right' increases by 10, 'Left' decreases by 10.\n        tens = quantity // 10\n        ones = quantity % 10\n        \n        for _ in range(tens):\n            buttons.append(\"Right\")\n            buttons.append(\"sleep 100\")\n        \n        # Quantity starts at 1, so if ones=5, we need 4 'Up' presses.\n        # If ones=0, we need to go down from 1 (or handle it).\n        if ones > 1:\n            for _ in range(ones - 1):\n                buttons.append(\"Up\")\n                buttons.append(\"sleep 100\")\n        elif ones == 0:\n            buttons.append(\"Down\") # 1 -> 0\n            buttons.append(\"sleep 100\")\n\n        buttons.append(\"A\") # Confirm quantity\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\") # Confirm purchase\n        buttons.append(\"sleep 500\")\n        buttons.append(\"A\") # Clear \"Here you go!\"\n        \n        print(json.dumps(buttons))\n    except Exception as e:\n        print(json.dumps([f\"Error: {str(e)}\"]))\n\nif __name__ == \"__main__\":\n    main()",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T00:30:53.625Z",
+        "action_counter": 44369
       }
     ]
   }
