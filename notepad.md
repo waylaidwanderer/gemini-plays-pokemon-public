@@ -38,3 +38,5 @@
 
 # Navigation Log
 - Turn 46446: Landing at (12, 28) and walking to shore at (19, 30).
+- Turn 46449: Cleared Surf text at (19, 30). Now surfing at (20, 30).
+- Plan: Use pathfinder to reach (7, 4) via the eastern water corridor.
