@@ -17,7 +17,7 @@
 # Legendary Roamer Hunt Strategy
 - Overview: Ecruteak Shuffle (Route 37 <-> Ecruteak).
 - Repel Trick: Lv 19 lead (ICARUS) with Super Repel active.
-- Status: Super Repel Active (Used Turn 45249, ~172 steps left).
+- Status: Super Repel Active (Used Turn 45249, ~144 steps left).
 - Roamer Status: NOT YET ENCOUNTERED. Use Master Ball on sight.
 
 # Strategy Tools
@@ -28,3 +28,7 @@
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
 - PC Box 1: 10/20.
+
+# Strategy: Walking to Ecruteak
+- Path: Route 36 -> (North exit at 28,0) -> Route 37 -> Ecruteak City.
+- Current Status: On Route 36 (45, 4). Heading to (28, 0).
