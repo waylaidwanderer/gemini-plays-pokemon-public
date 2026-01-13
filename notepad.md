@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Recovering from Accidental Save Menu.
-- **Action:** Cancel Save (B x2) -> Navigate Up to Pokegear -> Select.
-- **Menu State:** Cursor currently on SAVE. Needs Up x2 to reach POKEGEAR.
-- **Next Step:** Verify Pokegear is open and select Map.
+- **Status:** Recovering from Save Menu -> Opening Map.
+- **Action:** B, B (Cancel Save) -> Up x2 (to Pokegear) -> A -> Left -> A (Map).
+- **Goal:** Locate Raikou/Entei.
+- **Strategy:** If close, pursue. If far, shuffle via Route 37 border.
