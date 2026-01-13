@@ -24,4 +24,5 @@
   - Repel applied. Walking North to reset map if scan fails.
 
 # Tools & Automation
-- **perform_grass_scan(num_steps):** Automates walking back and forth in grass. Useful for grinding or hunting. Fixed variable scope issue.
+- **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
+- **reset_roamers:** Automates the Route 37 <-> Ecruteak transition with 10s delays to handle lag.
