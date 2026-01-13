@@ -19,10 +19,10 @@
 - **Last Reset:** 37974
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Repel worn off. Applying last one.
+- **Status:** Scanning with last Repel.
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - 1 Repel remaining.
+  - Last Repel active (~100 steps left).
   - **Critical Issue:** Money is ¥294. Cannot buy Repels.
   - **Plan B:** Sell ~5 Ultra Balls at Ecruteak Mart to fund Super Repels.
 
