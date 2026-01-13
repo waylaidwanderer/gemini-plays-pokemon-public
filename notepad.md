@@ -15,7 +15,6 @@
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
 - Repel Tracking: Last Applied Turn 45998.
 - Strategy Note: Checking Pokedex for roamer locations after every 10 cycles (Next: 110). Verified Turn 45982: Roamers unseen. Continuing shuffle.
-- Lessons Learned: Split menu navigation into smaller chunks (max 50 buttons). Cursor position in menu is persistent. Refine custom tools to be context-aware.
 
 # Trapper Strategy
 - Xenon (Haunter, Lv 44): Lacks Mean Look. Confirmed: Cannot relearn (Turn 45962).
@@ -32,3 +31,4 @@
 - Bookkeeping: Use turn history for cycle counts. Verified Turn 45874.
 - Phone calls can cancel menu actions; verify item usage. Verified Turn 45917.
 - Map transitions stop 'autopress_buttons' sequences. Call tools in Ecruteak for best results.
+- Menu Navigation: Split navigation into smaller chunks (max 50 buttons). Cursor position in menu is persistent. Refine custom tools to be context-aware.
