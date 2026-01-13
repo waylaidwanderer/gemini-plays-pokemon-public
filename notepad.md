@@ -34,3 +34,4 @@
 - **Menu State:** Start Menu cursor is at `POKEGEAR`. Confirmed after `open_map`.
 - **Tool Note:** `open_party` and `open_pack` assume cursor is at `POKEGEAR`. If cursor is elsewhere (e.g. after Party switch), use `sequence_press`.
 - **Roamer Check (Turn 37203):** Checked Map. Roamers are NOT on Route 31. Proceeding to shuffle.
+- **Roamer Check (Turn 37209):** Map shows Roamers on **Route 36** and **Route 42**. Not on Route 31. Shuffling (Route 31 -> Violet City -> Route 31).
