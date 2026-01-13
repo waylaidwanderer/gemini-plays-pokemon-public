@@ -1,8 +1,10 @@
 # Roamer Hunt Strategy
 - **Strategy Change:** Gatehouse shuffle failed (Roamer Stagnation).
 - **Observation:** Roamers stuck on Routes 42, 31, 46 for 15+ cycles.
-- **New Plan:** Fly to Ecruteak City to force position reset and hunt from a new hub.
-- **Next:** Fly to Ecruteak -> Check Map.
+- **Status:** Flying to Ecruteak City.
+- **Action:** Navigating Fly Map (Left x3 -> A).
+- **Goal:** Relocate to Ecruteak Hub & Reset Roamers.
+- **Next:** Check Map for Roamers.
 - **Hunt Session:** Started ~Turn 36369. Current: 36752.
 - **Resources:** 16 Repels.
 - **Hunt Session:** Started ~Turn 36369. Current: 36743.
