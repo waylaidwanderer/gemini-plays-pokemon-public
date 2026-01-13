@@ -16,13 +16,13 @@
 
 # Current Task: Roamer Hunt (Raikou/Entei)
 - **Start Turn:** 37586
-- **Last Reset:** 37964
+- **Last Reset:** 37966
 - **Location:** Route 37 (Grass).
 - **Goal:** Register in Pokedex -> Track on Map.
-- **Status:** Resetting Roamer positions (Route 37 <-> Ecruteak).
+- **Status:** Scanning grass with Repel.
 - **Strategy:** Repel Shuffle (Route 37 <-> Ecruteak).
   - Gyarados (Lv 36) + Repel blocks wilds, allows Roamers (Lv 40).
-  - Repel applied. Walking North to reset map if scan fails.
+  - Current Action: Moving to grass (y=4) and scanning.
 
 # Tools & Automation
 - **perform_grass_scan(num_steps):** Automates walking back and forth in grass.
