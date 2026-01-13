@@ -108,3 +108,7 @@
 - **Action:** Configuring Search: Normal -> Fire.
 - **Sequence:** Right (Select Fire) -> Down x2 (Select Begin Search) -> A (Execute).
 - **Reasoning:** Current Screen shows Search Menu open with Type 1 'Normal' selected. Fire is next in list.
+- **Discovery:** Screen analysis confirms bottom menu bar in Pokedex List:
+  - `SELECT` -> OPTION (Sorting)
+  - `START` -> SEARCH (Filtering)
+- **Action:** Pressing `B` to exit Machop entry, then `Start` to open Search.
