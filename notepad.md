@@ -1,10 +1,11 @@
 # Roamer Hunt Strategy
 - **Current Operation:**
-  1.  **Shuffle:** Use `route35_roamer_shuffle` to enter/exit gatehouse and check map.
+  1.  **Shuffle:** Use `cycle_roamer_hunt_route35` (defined Turn 36631) to enter/exit gatehouse and check map.
   2.  **Check:** If Roamer is on Route 35, Hunt.
   3.  **Repeat:** If not, repeat shuffle.
-- **Roamers:** Spotted on Route 42, 31, 46 (Turn 36598).
-- **Hunt Session:** Started ~Turn 36369. Current: 36601.
+- **Status:** Clearing Phone Call (Wade).
+- **Roamers:** Spotted on Route 42, 31, 46 (Turn 36631).
+- **Hunt Session:** Started ~Turn 36369. Current: 36633.
 - **Resources:** 16 Repels.
 
 # Reflection & Strategy Notes (Turn 36288)
