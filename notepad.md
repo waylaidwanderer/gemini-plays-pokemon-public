@@ -69,8 +69,9 @@
 
 # Failed Hypotheses & Attempts
 - Menu Navigation (Turns 44528-44576): Multiple failed attempts to apply Super Repel.
-- Turn 44576: Confirmed menu cursor memory behavior. Cursor does NOT reset. My previous sequence [Start, Up x7, Down x2, A] landed on EXIT because the cursor started at Index 3 (GEAR), went 3->2->1->0->7->6->5, then Down x2 to 6->7.
-- Attempt count for Repel application: 15. Current Status: Overworld. Next plan: Manual menu check.
+- Turn 44576: Confirmed menu cursor memory behavior.
+- Turn 44577: Super Repel successfully reached in Pack. Applying now.
+- Attempt count for Repel application: 16. Current Status: Menu navigation in progress.
 
 # Tool Usage Lessons
 - Turn 44558: 'menu_navigator_v2' failed due to 50-button safety limit. Break deep menu navigation into smaller chunks (e.g., 15-20 buttons per turn).
