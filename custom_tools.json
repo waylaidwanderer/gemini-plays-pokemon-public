@@ -155,5 +155,21 @@
         "action_counter": 37745
       }
     ]
+  },
+  "reset_roamers": {
+    "description": "Automates the process of exiting Route 37 to Ecruteak City (Up) and immediately returning to the grass patch on Route 37 (Down) to reset Roamer positions. Hardcoded for the specific grass patch at y=4.",
+    "input_schema": {
+      "type": "object",
+      "properties": {},
+      "required": []
+    },
+    "python_script": "import json\nbuttons = []\n# Walk up 5 steps to enter Ecruteak (from y=4 to y=-1)\nfor _ in range(5):\n    buttons.append(\"Up\")\n# Wait for map transition\nbuttons.append(\"sleep 2500\")\n# Walk down 5 steps to return to grass\nfor _ in range(5):\n    buttons.append(\"Down\")\nprint(json.dumps(buttons))",
+    "history": [
+      {
+        "commit_message": "Initial version",
+        "timestamp": "2026-01-13T20:34:11.588Z",
+        "action_counter": 37801
+      }
+    ]
   }
 }
