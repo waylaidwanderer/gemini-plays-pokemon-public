@@ -32,5 +32,6 @@
 # Strategy: Ecruteak Shuffle
 - Path: Ecruteak City <-> Route 37.
 - Method: Transition maps, pace ~10 steps in Route 37 tall grass, repeat.
-- Current Status: Session 4. Shuffle 1 complete. Returning to Route 37 grass.
+- Current Status: Session 4. Shuffle 1 complete. Heading to Route 37 grass at (14, 12).
+- Repel: Super Repel Active (Used Turn 45288, ~194 steps left).
 - Lead: ICARUS (Lv 19).
