@@ -9,8 +9,8 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Flying to Blackthorn City.
-- Financials: ¥36,974 (Goal: 30 Ultra Balls).
+- Status: In Blackthorn City Mart. Purchasing 30 Ultra Balls.
+- Financials: ¥36,974 (Goal: 30 Ultra Balls @ ¥1,200 = ¥36,000).
 - Strategy: Buy Ultra Balls at Blackthorn City Mart.
 
 ## Suicune Battle Plan (Tin Tower)
