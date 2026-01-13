@@ -32,6 +32,8 @@
 
 # Fly to Ecruteak Status
 - Attempt started: Turn 45183.
-- Current Status: In Route 31 Gatehouse.
-- Observation: Start menu cursor persists on the last selected category (e.g., POKEMON after using Fly).
-- Plan: Start, A (POKEMON), A (ICARUS), A (FLY), then navigate map.
+- Current Status: In Route 31 Gatehouse. Stuck in Pack menu loop.
+- Plan:
+  1. Exit all menus (B, B, B).
+  2. Walk Right into Route 31 to reset mental state and menu cursor.
+  3. Use open_fly_map tool.
