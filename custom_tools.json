@@ -219,7 +219,7 @@
     ]
   },
   "roamer_shuffler": {
-    "description": "Automates the Ecruteak Shuffle between Route 37 and Ecruteak City to encounter legendary roamers. Assumes the player is on Ecruteak City (17, 35) or Route 37 (7, 0).",
+    "description": "Automates the Ecruteak Shuffle between Route 37 and Ecruteak City. Start at Ecruteak (17, 35).",
     "input_schema": {
       "type": "object",
       "properties": {
@@ -233,7 +233,7 @@
         "pacing_reps"
       ]
     },
-    "python_script": "import json\nreps = int(input_data.get('pacing_reps', 5))\n# Start at Ecruteak (17, 35)\n# 1-2. Down to Warp (17,36) and enter R37 (7,0)\nbuttons = [\"Down\", \"Down\"]\n# 3-5. Down to grass (7,3)\nbuttons.extend([\"Down\", \"Down\", \"Down\"])\n# 6. Pacing\nfor _ in range(reps):\n    buttons.extend([\"Left\", \"Right\"])\n# 7-10. Up to Warp (7,0) and enter Ecruteak (17,36)\nbuttons.extend([\"Up\", \"Up\", \"Up\", \"Up\"])\n# 11. Up to (17,35)\nbuttons.append(\"Up\")\nprint(json.dumps(buttons))",
+    "python_script": "import json\nreps = int(input_data.get('pacing_reps', 5))\nbuttons = [\"Down\", \"sleep 500\", \"Down\", \"Down\", \"Down\"]\nfor _ in range(reps):\n    buttons.extend([\"Left\", \"Right\"])\nbuttons.extend([\"Up\", \"Up\", \"Up\", \"sleep 500\", \"Up\"])\nprint(json.dumps(buttons))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -249,6 +249,11 @@
         "commit_message": "Removed sleeps and optimized loop for roamer_shuffler.",
         "timestamp": "2026-01-13T04:51:14.930Z",
         "action_counter": 44842
+      },
+      {
+        "commit_message": "Refined roamer_shuffler to perform a full R37-Ecruteak loop starting from (17, 35).",
+        "timestamp": "2026-01-13T04:53:25.658Z",
+        "action_counter": 44845
       }
     ]
   }
