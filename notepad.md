@@ -27,11 +27,5 @@
 - **Phone Calls**: Scripted phone calls interrupt menu sequences and tools.
 - **Notepad Hygiene**: Avoid turn-by-turn logging.
 - **Ledges**: Vertical movement is restricted by one-way ledges.
-- **Menu Persistence**: Reset cursor with 'Up' several times.
+- **Menu Wrapping**: The Start menu wraps! Pressing 'Up' from POKEDEX goes to EXIT. Do not use 'Up' to reset to the top.
 - **Fly Map Navigation**: Ecruteak is North of Violet. From Cherrygrove: Up, Up.
-
-# Navigation Log: Fly to Ecruteak
-- Attempt 1-10: Various failures (Pokedex, Options, Cherrygrove, Save, Bag).
-- Attempt 11 (Turn 45179): Sequence failed to exit Bag.
-- Strategy: B, B (exit Bag/Menu) -> Start -> Up x7 (reset cursor) -> Down (Pokemon) -> A -> A (ICARUS) -> A (Fly) -> Up x2 (Ecruteak) -> A.
-- Current Status: In Bag menu in Cherrygrove City. Attempting full sequence.
