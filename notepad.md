@@ -11,9 +11,9 @@
 - LEDGE_HOP_RIGHT: One-way jump right.
 
 # Legendary Roamer Hunt (Started Turn 44738)
-- **HOW**: Ecruteak Shuffle. Transition between Route 37 and Ecruteak City at (7,0)/(17,36). Roamers move ONLY on map transitions.
+- **Strategy**: Ecruteak Shuffle (R37 <-> Ecruteak). Roamers move on map transitions. Transition, pace 1-2 steps in grass, repeat.
 - **Lead**: ICARUS (Lv 19 Pidgeotto). Correct for R37 (Wild Lv 13-16) to filter for Roamers (Lv 40).
-- **Repel Status**: Super Repel active. Applied Turn 44824. (~15 steps remaining).
+- **Repel Status**: Super Repel active. Applied Turn 44824. (~30 steps remaining).
 - **Roamer Status**: Raikou/Entei roaming. NOT YET ENCOUNTERED.
 - **Catching Strategy**: Master Ball immediately upon first encounter.
 - **Agent Advice (legendary_tracker)**: Use Repel Trick with Lv 20-39 lead on Route 37/38. Master Ball is best due to Roar. Ecruteak Loop (Shuffle) is the most efficient method.
@@ -24,7 +24,7 @@
 
 # Lessons Learned
 - **Roamers**: Do NOT appear on Pokegear map until first encounter.
-- **Shuffle**: Map transitions move roamers. Shuffling is better than long pacing. Manual press_buttons is more robust than tools for multi-map loops.
+- **Shuffle**: Map transitions move roamers. Manual press_buttons is more robust than tools for multi-map loops.
 - **Tool Hygiene**: Ensure menu_navigator_v2 sequences are individual strings. Avoid multi-warp tool sequences.
 - **Repel Logic**: ICARUS (Lv 19) is perfect for Route 37 to filter for Roamers.
 - **Tool Interruptions**: Repel expiration and phone calls stop tool execution. Clear text before resuming.
