@@ -4,7 +4,7 @@
 # Roamer Hunt Strategy
 - **Goal:** Catch Raikou & Entei.
 - **Method:** Shuffle Roamers by toggling between Route 31 & Violet City (via Gatehouse). Check Map ONLY on Route 31.
-- **Constraint:** Switch to Gyarados (Lv36) to use Repels (Lugia Lv60 blocks Roamers).
+- **Constraint:** Switch to Gyarados (Lv36) to Slot 1 IMMEDIATELY on Route 31 to use Repels.
 - **Resources:** 16 Repels.
 - **Session Start:** Turn 36369.
 
