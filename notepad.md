@@ -53,3 +53,21 @@
 - Turn 46389: Navigation south at X=17 blocked by building at Y=36. Row 50 ledge (X=12-19) blocks south entry. Gap found at X=20.
 - Revised Path: (17, 35) -> (20, 35) -> (20, 51) -> (4, 51) -> (4, 34) -> (2, 34) -> (2, 4) -> (7, 4).
 - Initiating leg to (4, 51).
+
+# Reflection Turn 46390
+1. Immediate Execution: No deferred tasks.
+2. Notepad Hygiene: Organized. Added Navigation Log timestamps.
+3. Map Hygiene: Marked NPC 1 (Standing Youngster). Need to mark Pharmacy/Gym/Photo Studio more precisely if I visit.
+4. Automation Strategy: `find_path_v7_robust` refined recently.
+5. Goal Clarity: Primary goal is capture, sightings are steps.
+6. Error Analysis: Corrected pathing at (25, 39). Ledge at Y=40 blocks south. Must go Left to X=20.
+
+- Turn 46390: Path at (25, 39) blocked by WALL at (25, 40). Gap is at (20, 39).
+- Revised Plan: (25, 39) -> (20, 39) -> (20, 48) -> (27, 48) -> (27, 41) -> (28, 41) -> (28, 51) -> (4, 51) -> (2, 34) -> (7, 4).
+- Leg 1: (25, 39) -> (20, 39).
+- Leg 2: (20, 39) -> (20, 48).
+- Leg 3: (20, 48) -> (27, 48) -> (27, 41) -> (28, 41) -> (28, 51).
+- Leg 4: (28, 51) -> (4, 51).
+- Leg 5: (4, 51) -> (2, 34).
+- Leg 6: (2, 34) -> (7, 4).
+- Currently: Moving to (20, 48).
