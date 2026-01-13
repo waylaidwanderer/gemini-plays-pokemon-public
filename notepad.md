@@ -16,7 +16,7 @@
 - **Session 1 (Turns 44738-44876)**: 10+ transitions, 0 encounters. Interrupted by Repel expiration.
 - **Session 2 (Turn 44880-Present)**: Transitioning between R37 and Ecruteak. 10 steps in grass per transition.
     - Transitions 1-16: 0 encounters.
-    - Transition 17: Interrupted by wild Stantler. Repel expired. Re-applying repel now. Strategy: Open Pack, find Super Repel, use.
+    - Transition 17: Interrupted by wild Stantler. Repel expired. Re-applying repel now. Attempt 1: Opened GEM instead of PACK. Strategy: B (exit GEM) -> Up x2 (to PACK) -> A.
 
 # Pokemon Info
 - Party: ICARUS (19), Calcifer (64), KIMCHI (52), GNEISS (55), GORP (50), XENON (44).
