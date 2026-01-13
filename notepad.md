@@ -15,7 +15,7 @@
 - **Ecruteak City:** Pokemon Center, Tin Tower, Burned Tower.
 
 # Roamer Hunt Log
-- **Status:** Shuffling (Re-entering Route 37).
+- **Status:** Checking Grass (Route 37).
 - **Goal:** Register Raikou/Entei in Pokedex.
 - **Attempt:** 3
 - **Strategy:** Repel Shuffle.
