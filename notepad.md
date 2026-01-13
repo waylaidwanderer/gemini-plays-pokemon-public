@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Repel Applied: Turn 45439 (200 steps). Current Turn: 45607. (~171 steps used).
+- Repel Applied: Turn 45439 (200 steps). Current Turn: 45608. (~172 steps used).
 - Completed Cycles: 14.
-- Current Status: Cycle 15. Transitioning to Route 37.
+- Current Status: Cycle 15. Moving to grass.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
