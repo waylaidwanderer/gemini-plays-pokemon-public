@@ -9,38 +9,35 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Quest Started: Turn 46043 (Jan 13, 2026).
-- Status: Navigating Fly Map (Turn 46100). Current: Goldenrod City. Target: Indigo Plateau.
-- Observed Fly List: New Bark -> Cherrygrove -> Goldenrod... (Cycling Up).
-- Plan: Buy 30 Ultra Balls -> Catch Suicune (Tin Tower).
+- Status: Navigating Fly Map (Turn 46101).
+- Destination: Indigo Plateau (Mart).
+- Financials: ¥36,974 (Liquidation complete Turn 46081).
+- Goal: Purchase 30 Ultra Balls.
 
-## Financial Status
-- Current Money: ¥36,974.
-- Target: ¥36,000 for 30 Ultra Balls.
-- Status: Liquidation complete (Turn 46081).
-
-## Legendary Status
-- Suicune: Tin Tower. Clear Bell owned.
-- Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
-- Roamer Shuffle: Extensive shuffle performed on Route 37/Ecruteak (~120 cycles). No encounter. Verified Turn 46082.
-
-# Suicune Battle Plan
+## Suicune Battle Plan (Tin Tower)
 - Lead: XENON (Haunter, Lv 44).
-- Strategy: Use Hypnosis immediately.
-- Damage: Switch to GORP (Snorlax) or Calcifer (Typhlosion) for controlled chip damage.
-- Capture: Spam Ultra Balls while asleep. Re-apply sleep if it wakes.
+- Strategy: Use Hypnosis.
+- Support: GORP (Snorlax) or Calcifer (Typhlosion) for chip damage (avoid fainting Suicune).
+- Capture: Ultra Ball spam while asleep.
 
-# Trapper Strategy
-- Xenon (Haunter): No Mean Look.
-- AAAAAAAAAA (Spinarak): No Spider Web.
-- Plan: Use Master Ball for first roamer encounter.
+## Legendary Progress
+- Suicune: Tin Tower (Clear Bell owned).
+- Entei/Raikou: Roaming. Unseen in Pokedex. Encounter required to track.
+- Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
-# Quest Log
-- Dana's Gift: Route 38.
-- Yanma Swarm: Route 35.
+# Fly Map List Mapping (Cycling Up)
+- Mahogany Town
+- Blackthorn City
+- Silver Cave
+- New Bark Town
+- Cherrygrove City
+- Violet City
+- Azalea Town
+- Goldenrod City
+- Olivine City
+- Cianwood City [Current Selection]
 
 # Lessons Learned
 - Roamers move on map transitions.
-- Phone calls interrupt menu sequences.
-- Fly map cursor starts at current location. Verified Turn 46048.
+- Fly map cursor starts at current location.
 - Fly tool: Use Pokemon menu -> FLY move for better reliability.
