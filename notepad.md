@@ -53,3 +53,6 @@
 - **Menu Mechanics:** Pack Menu (Items) does NOT wrap from Top to Bottom using `Up`.
 - **Action:** To reach new items (Repel), scroll DOWN to bottom.
 - **Sequence:** `B` (Exit sub-menu) -> `Down` x 15 (Hit bottom) -> `Up` (Select last item/Repel) -> `A`.
+- **Status:** Repel Applied (Turn 36576).
+- **Next:** Exiting menu. Running in Route 35 grass (south of gatehouse) to check for Roamers.
+- **Contingency:** If no encounter after ~20 steps, shuffle via Gatehouse.
