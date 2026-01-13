@@ -30,8 +30,8 @@
 # Tracking: Roamer Hunt
 - Shuffle Start Turn: 45281.
 - Completed Cycles: 35.
-- Repel 3: Active (Applied Turn 45721).
-- Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
+- Repel 3: Applied Turn 45723.
+- Current Status: Repel applied. Starting Cycle 36.
 
 # Quest Log
 - Dana's Gift: Route 38 (Waiting).
