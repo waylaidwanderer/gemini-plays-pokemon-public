@@ -194,7 +194,7 @@
       ],
       "type": "object"
     },
-    "python_script": "import json\n\n# The system provides input_data as a dictionary in the global scope.\ndef run():\n    try:\n        dir1 = input_data.get('dir1')\n        dir2 = input_data.get('dir2')\n        reps = int(input_data.get('reps', 10))\n        \n        if not dir1 or not dir2:\n            print(json.dumps([]))\n            return\n\n        buttons = []\n        for _ in range(reps):\n            buttons.append(dir1)\n            buttons.append(dir2)\n        \n        print(json.dumps(buttons))\n    except Exception:\n        print(json.dumps([]))\n\nrun()\n",
+    "python_script": "import json\ntry:\n    d1 = input_data.get('dir1')\n    d2 = input_data.get('dir2')\n    r = int(input_data.get('reps', 10))\n    res = []\n    if d1 and d2:\n        for _ in range(r):\n            res.extend([d1, d2])\n    print(json.dumps(res))\nexcept:\n    print(json.dumps([]))",
     "history": [
       {
         "commit_message": "Initial version",
@@ -210,6 +210,11 @@
         "commit_message": "Refining the tool to use the 'input_data' dictionary provided by the environment, which fixes the error where it was previously attempting to parse 'sys.argv'.",
         "timestamp": "2026-01-13T01:34:49.843Z",
         "action_counter": 44525
+      },
+      {
+        "commit_message": "Simplified the script to avoid function scoping issues and ensure it consistently returns a JSON array of buttons.",
+        "timestamp": "2026-01-13T02:19:48.259Z",
+        "action_counter": 44588
       }
     ]
   },
