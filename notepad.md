@@ -1,8 +1,8 @@
 # Mechanics & State
-- **Location:** Violet City (31, 26). Arrived via Fly.
-- **Goal:** Reach Ecruteak City (West -> Route 36 -> North).
-- **Roamer Status:** Unknown (Need to check Map).
-- **Fly Lesson:** Input buffering for Map Navigation requires significant delays (5s+ load, 2s+ between inputs).
+- **Location:** Violet Pokecenter (10_10). Arrived via Fly.
+- **Goal:** Exit Pokecenter -> West to Route 36 -> Ecruteak.
+- **Roamer Status:** Unknown.
+- **Fly Lesson:** Map inputs need massive delays. Violet City is a reliable hub.
 
 # Hall of Fame & Progress
 - **Champion:** Turn 33314.
