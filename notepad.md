@@ -10,11 +10,11 @@
 
 # Strategy: Roamer Hunt (Ecruteak Shuffle)
 - Start Turn: 45281 (Timestamp: Tuesday, Jan 13, 2026).
-- Completed Cycles: 89.
+- Completed Cycles: 90.
 - Resources: Super Repel x57 remaining.
 - Method: Lead Lv 19 (ICARUS) + Super Repel. Shuffle between Ecruteak (17, 35) and Route 37 (7, 2).
 - Repel Log:
-  - Repel 6: Applied Turn 45919. (Used ~25 steps).
+  - Repel 6: Applied Turn 45919. (Used ~27 steps).
 - Strategy Note: Checking Pokedex for roamer locations after Cycle 90. Statistically, encounters occur within 50-100 cycles.
 
 # Trapper Strategy
