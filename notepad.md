@@ -48,3 +48,4 @@
 - **Fly Map Status:** Map opened. Cursor confirmed at **New Bark Town** (Text: "Where? NEW BARK TOWN").
 - **Navigation Plan:** Left x3 (New Bark -> Cherrygrove -> Violet -> Ecruteak). Then Down x1 (Goldenrod).
 - **Current Action:** Executing Left x3 with 1s delays.
+- **Turn 38076 Update:** Previous navigation inputs were consumed by map load lag. Map is now fully open at New Bark Town. Retrying Left x3 to Ecruteak.
