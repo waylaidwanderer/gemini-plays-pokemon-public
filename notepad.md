@@ -25,9 +25,9 @@
 
 # Tracking: Session 4
 - Start: Turn 45281.
-- Completed Cycles: 31.
-- Repel 2: Active (Applied Turn 45627). (~160 steps used).
-- Current Status: Cycle 32 pacing complete. Moving back to Ecruteak City.
+- Completed Cycles: 32.
+- Repel 2: Active (Applied Turn 45627). (~180 steps used).
+- Current Status: Starting Cycle 33. Moving to Route 37 grass.
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
