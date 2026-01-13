@@ -27,7 +27,7 @@
 - Start: Turn 45281.
 - Completed Cycles: 31.
 - Repel 2: Active (Applied Turn 45627). (~160 steps used).
-- Current Status: Starting Cycle 32. Moving to grass at (7, 2).
+- Current Status: Cycle 32 pacing complete. Moving back to Ecruteak City.
 - Lesson: Limit menu_navigator_v2 sequences to 1-3 buttons.
 
 # Quest Log
