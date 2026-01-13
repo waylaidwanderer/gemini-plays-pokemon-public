@@ -9,7 +9,7 @@
 - DOOR: Warp. Relational: Triggers map transition when entered. Verified Turn 45281.
 
 # Quest: Legendary Hunt
-- Status: Navigating Fly Map (Turn 46101).
+- Status: Navigating Fly Map (Turn 46105).
 - Destination: Indigo Plateau (Mart).
 - Financials: ¥36,974 (Liquidation complete Turn 46081).
 - Goal: Purchase 30 Ultra Balls.
@@ -26,17 +26,18 @@
 - Roamer Shuffle: ~120 cycles (Turns 45998-46043) on Route 37/Ecruteak. No encounter.
 
 # Fly Map List Mapping (Cycling Up)
-- Mahogany Town
-- Lake of Rage [Current Selection]
-- Blackthorn City (Expected Next)
-- Silver Cave
-- New Bark Town
-- Cherrygrove City
-- Violet City
-- Azalea Town
-- Goldenrod City
-- Olivine City
-- Cianwood City
+1. New Bark Town
+2. Cherrygrove City
+3. Violet City
+4. Azalea Town
+5. Goldenrod City
+6. Olivine City
+7. Cianwood City
+8. Mahogany Town
+9. Lake of Rage
+10. Blackthorn City
+11. Silver Cave [Current Selection]
+12. Indigo Plateau (Expected Next)
 
 # Lessons Learned
 - Roamers move on map transitions.
